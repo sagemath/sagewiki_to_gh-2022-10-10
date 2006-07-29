@@ -1,1 +1,1 @@
-David Joyner's <href="http://sage.math.washington.edu/home/wdj/">project page</a>.
+David Joyner's <a href="http://sage.math.washington.edu/home/wdj/">project page</a>.
