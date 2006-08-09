@@ -14,7 +14,7 @@ DELTA: The implementation is done (07/06), as expected, it's slower over ZZ and 
 DELTA: Correcting bug: handling of polys with big (10^6) coefficients. It's really slow for bigger  rational coefficients
 
 === RealLib inclusion ===
- *  RealLib3 as an alternate source for computing real numbers.
+ * RealLib3 as an alternate source for computing real numbers.
  * RealLib vs MPFR:
   * RealLib tries to compute numbers __exactly__, instead of rounding to
    . the nearest valid floating-point number.
@@ -58,11 +58,19 @@ DELTA: done, submitted as a patch for possible inclusion
  * Better yet, we should be able to specify the level of sparsity
 * See "Random elements" on SAGE projects page
 
-=== doctest status script ===
-Does each method have an example? Instead of checking by hand a handy script could be used
+=== Doctest status script ===
+Does each method have an example? Instead of checking by hand a handy script could be used. I have a script that does that: [http://sage.math.washington.edu/home/dfdeshom/sage/devel/sage/doctest-status.py http://sage.math.washington.edu/home/dfdeshom/sage/devel/sage/doctest-status.py ] For example, here is the output for integer.pyx:
+{{{ 
+Results for  sage/ext/integer.pyx
+----------------------------------------
+Total number of tests        :  87
+Number of tests with examples:  42
+Tests with no examples       :  __int__, __div_, _interface_init_, _xgcd, __cmp__, factor, factorial, __mul_, integer, __add_, __richcmp__, __floordiv, __nonzero__, crt, _and, _lcm, __long__, __str_malloc, rational_reconstruction, _mpfr_, parent, __sub_, pmem_malloc, __and__, _reduce_set, __float__, _pari_, _rshift, __invert__, _latex_, _mathml_, copy, valuation, _or, _im_gens_, __hash__, GCD_list, __reduce__, LCM_list, __new__, is_unit, __dealloc__, __repr__, __or__, _lshift
+********************************************************************************
+}}}
 
 === Automatic build+testing ===
 * sage -br is nice, but how about an option to also run tests on any file that is being rebuilt?
 
 ----
- CategoryHomepage
+ . CategoryHomepage
