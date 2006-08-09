@@ -22,12 +22,8 @@ DELTA: Correcting bug: handling of polys with big (10^6) coefficients. It's real
   * RealLib may not round correctly (not according to IEEE 754)
  * RealLib should not be a replacementto MPFR. MPFR has its uses and is
   . faster than RealLib3
- * The wrapper for it has already been written (modeled after MPFR), we're just
-  . waiting for the developper to add a GPL-compatible license to it.
-DELTA: Some AMD64 compilation problems prevent me from working on this on the sage server.
 
- . Builds nicely on x86 though.
-DELAT: Thanks to Dr Lambov, this now compiles on 386 and AMD64. I've built a new version and posted patches.
+DELTA: Thanks to Dr Lambov, this now compiles on 386 and AMD64 and PPC. I've built a new version and posted patches.
 
 === Tweaking Hermes ===
 Logging of sessions using mathml through hermes:
@@ -52,9 +48,10 @@ DELTA: done, submitted as a patch for possible inclusion
 
 == IDEAS/Wishlist for SAGE ==
 === easily generate random polynomials over rings ===
-* Just a shorthand fucntions that doesnt male me write this every time: sage: x = ZZ['x'].gen() ; h = sum([randint(10^5,10^6)*x^i for i in range(1000)]);    * should look like:
-
- . randpoly(R,min_coef=0,max_coef,max_degree,dense=True)
+* Just a shorthand functions that doesnt male me write this every time: 
+{{{sage: x = ZZ['x'].gen() ; h = sum([randint(10^5,10^6)*x^i for i in range(1000)]);}}}    
+* should look like:
+  {{{randpoly(R,min_coef=0,max_coef,max_degree,dense=True)}}}
  * Better yet, we should be able to specify the level of sparsity
 * See "Random elements" on SAGE projects page
 
