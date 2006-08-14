@@ -1,7 +1,14 @@
 == SAGE Days 2 Wiki ==
 
+ * [http://modular.math.washington.edu/sage/days2/ Main Web site]
+
  * [:sd2-sprint: Coding Sprints]
 
  * [:sd2-travel: Travel Information]
 
  * [:sd2-participants: Confirmed Participants]
+
+
+
+
+http://modular.math.washington.edu/sage/days2/sage-car.png
