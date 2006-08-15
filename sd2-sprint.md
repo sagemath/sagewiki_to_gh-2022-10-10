@@ -8,3 +8,4 @@ The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is 
  * (MartinAlbrecht) Finite field elements: Finish the transition from ["Pari"] to ["Givaro"] for small $\#F \le 2^{16}$ fields, wrap some more ["Givaro"] (& ["Linbox"] ?) classes. Wrap ["NTL"] for larger extension fields.
  * (MartinAlbrecht) SAGE/Wiki/Web integration. Needs design decisions.
  * (MartinAlbrecht) Pyrex code inspection would be very nice.
+ * (MartinAlbrecht) Devote some time to ["Annoying Bugs"] and ["Bugs"]
