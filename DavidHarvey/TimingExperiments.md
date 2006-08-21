@@ -2,7 +2,25 @@ This page describes some timing tests I did to compare the speed of polynomial m
 
 == Summary of results ==
 
-(TBA)
+Interestingly, for every pair of systems, there are ranges of degrees and coefficient sizes where either system can win.
+
+The following three graphs show the results.
+
+ * The horizontal axis is the base-10 logarithm of the polynomial degree. (So 4 means degree 10000.)
+ * The vertical axis is the base-10 logarithm of the number of bits in the coefficients. (So 4 means 10000-bit coefficients.)
+ * The colour of the circles show the ''relative'' times. MAGMA is red, NTL is blue, PARI is green. For example, a large red circle means that MAGMA was ''fast'' compared to the other system on that graph. The size of the circle indicates how much faster: the area of the circle is proportional to the logarithm of the ratio between the two times. The ratio is cropped at 10, so the graphs don't distinguish between being 10 times faster or being 1000 times faster.
+
+==== MAGMA vs NTL: ====
+
+attachment:magma_vs_ntl.png
+
+==== MAGMA vs PARI: ====
+
+attachment:magma_vs_pari.png
+
+==== PARI vs NTL: ====
+
+attachment:pari_vs_ntl.png
 
 == Raw output data ==
 
