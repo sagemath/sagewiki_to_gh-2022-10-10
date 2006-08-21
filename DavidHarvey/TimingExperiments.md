@@ -22,3 +22,7 @@ For each pair of degree and coefficient size, and for each system (MAGMA, PARI, 
  * Try multiplying once, see how long that takes. If that took less than half a second, try multiplying twice, see how long that takes. Keep doubling the number of trials until we find some N such that N trials take at least half a second.
 
  * Time N trials. Divide the answer by N to find out how long each trial took. Do this five times. Report the average of the five samples, and also report the difference between the maximum and minimum (just to make sure we're not being led totally astray by irregularities).
+
+=== Problems with the methodology ===
+
+ * For the very fast operations (e.g. when the degree is very small), it's not clear how much overhead is being incurred by the python interpreter. So I'm not sure how much of the time is really being spent on the multiplication.
