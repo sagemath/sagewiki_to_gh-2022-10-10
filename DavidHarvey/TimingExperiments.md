@@ -6,7 +6,18 @@ This page describes some timing tests I did to compare the speed of polynomial m
 
 == Raw output data ==
 
-(TBA)
+ * attachment:output.txt
+
+This is the file produced by poly_multiply_benchmark.sage.
+
+The fields in each line are:
+
+ * the polynomial degree
+ * the number of bits in each coefficient (e.g. if it's 8 then the coefficients are between -256 and 256)
+ * which system is being tested
+ * the average time over the five samples (see "methodology" below)
+ * the difference between the maximum time and the minimum time of the five samples
+ * the number of trial multiplications used in each sample
 
 == The code ==
 
