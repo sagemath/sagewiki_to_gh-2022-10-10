@@ -6,3 +6,4 @@
  * David Joyner (organizer)
  * William Stein (organizer)
  * didier deshommes
+ * Craig Citro
