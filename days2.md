@@ -8,6 +8,7 @@
 
  * [:sd2-participants: Confirmed Participants]
 
+ * [:sd2-flyer-poster: Flyer and Posters]
 
 
 
