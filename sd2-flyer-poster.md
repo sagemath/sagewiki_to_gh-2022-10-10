@@ -18,6 +18,6 @@ A mosaic:
 [http://flagrantdisregard.com/flickr/ Flickr] motivational-style poster for SAGE (using art-work
 by [http://sage.math.washington.edu:9001/MartinAlbrecht Martin Albrecht]):
 
-* [http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster.jpg poster] (jpg)
+* [http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster.jpg poster 1] (jpg)
 
-* [http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster2.jpg poster] (jpg)
+* [http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster2.jpg poster 2] (jpg)
