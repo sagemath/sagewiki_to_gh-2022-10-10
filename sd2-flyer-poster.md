@@ -7,6 +7,10 @@ SAGEdays2 conference:
 
 * [http://sage.math.washington.edu/home/wdj/art/poster-sagedays3.jpg poster 3] (jpg)
 
-and a flyer
+A flyer:
 
 * [http://sage.math.washington.edu/home/wdj/art/sagedays2flyer.pdf flyer]  (pdf)
+
+A mosaic:
+
+* [http://sage.math.washington.edu/home/wdj/art/sagedays2mosaic.jpg mosaic] (jpg)
