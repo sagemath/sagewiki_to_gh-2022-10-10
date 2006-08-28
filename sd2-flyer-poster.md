@@ -14,3 +14,7 @@ A flyer:
 A mosaic:
 
 * [http://sage.math.washington.edu/home/wdj/art/sagedays2mosaic.jpg mosaic] (jpg)
+
+A [http://flagrantdisregard.com/flickr/ Flickr] motivational-style poster for SAGE:
+
+* [http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster.jpg poster] (jpg)
