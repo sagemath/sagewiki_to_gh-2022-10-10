@@ -6,3 +6,5 @@ for n in range(1,20):
 
 p.show(xmin=0, ymin=0,dpi=250)
 }}}
+
+[http://sage.math.washington.edu/home/wdj/art/cool-sage-pic-small1.png cool pic 1]
