@@ -7,3 +7,4 @@
  * William Stein (organizer)
  * didier deshommes
  * Craig Citro
+ * Nathan Ryan
