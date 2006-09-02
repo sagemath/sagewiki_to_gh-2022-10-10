@@ -8,3 +8,4 @@
  * didier deshommes
  * Craig Citro
  * Nathan Ryan
+ * Kiran Kedlaya (Oct 6-8)
