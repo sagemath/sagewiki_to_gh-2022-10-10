@@ -5,7 +5,10 @@
  * Robert Bradshaw
  * David Joyner (organizer)
  * William Stein (organizer)
- * didier deshommes
+ * Didier Deshommes
  * Craig Citro
  * Nathan Ryan
  * Kiran Kedlaya (Oct 6-8)
+ * Michael Rubinstein
+ * Kevin McGown
+ * Tom Boothby
