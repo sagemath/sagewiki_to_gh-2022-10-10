@@ -9,3 +9,4 @@ The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is 
  * (MartinAlbrecht) SAGE/Wiki/Web integration. Needs design decisions.
  * (MartinAlbrecht) Pyrex code inspection would be very nice.
  * (MartinAlbrecht) Devote some time to ["Annoying Bugs"] and ["Bugs"]
+ * (KiranKedlaya) Internalize more GAP functionality into SAGE's own group classes, much as has already been done with PARI (for number fields) and Singular (for polynomials).
