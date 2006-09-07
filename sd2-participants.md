@@ -2,13 +2,14 @@
 [:days2: SAGE Days 2]
 
  * Martin Albrecht
- * Robert Bradshaw
- * David Joyner (organizer)
- * William Stein (organizer)
- * Didier Deshommes
- * Craig Citro
- * Nathan Ryan
- * Kiran Kedlaya (Oct 6-8)
- * Michael Rubinstein
- * Kevin McGown
  * Tom Boothby
+ * Robert Bradshaw
+ * Craig Citro
+ * Didier Deshommes
+ * David Joyner (organizer)
+ * Kiran Kedlaya (Oct 6-8)
+ * Kevin McGown
+ * Michael Rubinstein
+ * Nathan Ryan
+ * David Savitt (Oct 7-8)
+ * William Stein (organizer)
