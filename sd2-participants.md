@@ -6,6 +6,7 @@
  * Robert Bradshaw
  * Craig Citro
  * Didier Deshommes
+ * David Harvey
  * David Joyner (organizer)
  * Kiran Kedlaya (Oct 6-8)
  * Kevin McGown
