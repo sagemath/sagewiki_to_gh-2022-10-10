@@ -1,6 +1,6 @@
 == SAGE Days 2 Wiki ==
 
- * [http://modular.math.washington.edu/sage/days2/ Main Web site]
+ * [http://modular.math.washington.edu/sage/days2/ Main Workshop Web site]
 
  * [:sd2-sprint: Coding Sprints]
 
