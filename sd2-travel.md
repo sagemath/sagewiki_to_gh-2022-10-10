@@ -14,8 +14,16 @@ and continue north past Husky Stadium. Move over to the right and take the
 takes ones and fives). Park your car and walk over the foot overpass
 and up the hill. 
 
-Hotel information:
+= Hotel information =
 
-http://www.washington.edu/univrel/visitors/accommodations.html
+  I strongly recommend the Seattle University Travelodge:
+
+   http://www.seattleuniversityhotel.com/index.html
+
+  They have free wifi, are very conveniently located, and have plenty of available
+  rooms right now (Sept 12!).   Their rates are also reasonable (e.g., 78 and 88).
+
+There are some other options here:
+  http://www.washington.edu/univrel/visitors/accommodations.html
 
 [:days2: SAGE Days 2]
