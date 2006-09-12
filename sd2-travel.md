@@ -28,6 +28,15 @@ anyways.
 Kiran comments that:
   "It may be worth noting one downside of the Travelodge: given where it is relative to campus, it's less convenient to city buses, notably the ones running to/from downtown and by extension to/from the airport, than some of the other hotels."
 
+David Savitt comments that:
+   "According to google maps, it's just 1/2 a mile from Padelford.  (BTW, for the purpose of online mapping it might be useful to add to your conference website that Padelford is essentially at the intersection of Pend Oreille Rd and Stevens Way -- unless there's a street address for Padelford that I just haven't been able to find.)"
+
+Martin Albrecht comments that:
+   "I'm staying at the College Inn: http://www.collegeinnseattle.com/
+which shouldn't be too far from the UW (?)"
+  That should be great.  I didn't recommend it because they are almost
+  full during the workshop now (I called them).
+
 There are some other options here:
   http://www.washington.edu/univrel/visitors/accommodations.html
 
