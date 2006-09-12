@@ -21,6 +21,9 @@ I (=William) recommend the Seattle University Travelodge:
    http://www.seattleuniversityhotel.com/index.html
 
 They have free wifi, are very conveniently located, and have plenty of available rooms right now (Sept 12!).   Their rates are also reasonable (e.g., 78 and 88).
+The College Inn (http://www.collegeinnseattle.com/) is also a good choice,
+but it may be full.  It might be possible to get a room there via expedia.com
+anyways.
 
 Kiran comments that:
   "It may be worth noting one downside of the Travelodge: given where it is relative to campus, it's less convenient to city buses, notably the ones running to/from downtown and by extension to/from the airport, than some of the other hotels."
