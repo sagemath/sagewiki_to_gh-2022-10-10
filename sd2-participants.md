@@ -14,3 +14,4 @@
  * Nathan Ryan
  * David Savitt (Oct 7-8)
  * William Stein (organizer)
+ * Rishikesh
