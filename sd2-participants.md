@@ -10,8 +10,9 @@
  * David Joyner (organizer)
  * Kiran Kedlaya (Oct 6-8)
  * Kevin McGown
+ * Rishikesh
  * Michael Rubinstein
  * Nathan Ryan
  * David Savitt (Oct 7-8)
  * William Stein (organizer)
- * Rishikesh
+ 
