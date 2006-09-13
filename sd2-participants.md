@@ -4,6 +4,7 @@
  * Martin Albrecht
  * Tom Boothby
  * Robert Bradshaw
+ * Iftikhar Burhanuddin (Oct 6-8)
  * Craig Citro
  * Didier Deshommes
  * David Harvey
