@@ -1,22 +1,29 @@
-Brainstorm about how a "SAGE Foundation" will work during SAGE Days. 
+==Discussion topics==
 
-Some ideas:
+* SAGE-Maxima interface 
 
-1. news announcements (say to local/campus newspapers). I send out a
-GAP newsletter. It's a pain and I think a waste of time but a few people
-really appriciate it and think it is great. The Foundation could be
-responsible for such things. University administrators read the  local/campus
-papers and it does not hurt to just inform people of what is going on,
-especially when it is of general interest.
+* SAGE-GAP interface
 
-2. I'm talking informally with various people about preinstalling SAGE on
-all (approx 1200) freshman PCs next year. In this case, an official
-organization might be helpful. Also, it would be nice if a windows test
-suite was available (beyond the sage -testall). Something like a short
-list of tasks to check that the Notebook is working properly, for  example.
-If a single person is installing, then sage-suport is fine. If a college
-or organization is installing or using SAGE for somethign, a Foundation
-might be more appropriate.
+* SAGE-Singular interface
 
-3. Funding for using SAGE in teaching could go through the
-SAGE foundation.
+* Brainstorm about how a "SAGE Foundation" will work during SAGE Days. 
+
+  * Some ideas:
+
+   1. News announcements (say to local/campus newspapers). I (=wdj) send out a
+   GAP newsletter. It's a pain and sometimes I think a waste of time but a few people
+   really appreciate it and think it is great. The Foundation could be
+   responsible for such things. University administrators read the local/campus
+   papers and it does not hurt to just inform people of what is going on,
+   especially when it is of general interest.
+
+   2. I'm talking informally with various people about preinstalling SAGE on
+   all (approx 1200) freshman PCs next year. In this case, an official
+   organization might be helpful. Also, it would be nice if a windows test
+   suite was available (beyond the "sage -testall"). Something like a short
+   list of tasks to check that the Notebook is working properly, for example.
+   If a single person is installing, then sage-suport is fine. If a college
+   or organization is installing or using SAGE for somethign, a Foundation
+   might be more appropriate.
+
+   3. Funding for using SAGE in teaching could go through the SAGE foundation.
