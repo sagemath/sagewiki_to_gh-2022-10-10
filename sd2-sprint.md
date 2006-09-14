@@ -10,3 +10,4 @@ The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is 
  * (MartinAlbrecht) Pyrex code inspection would be very nice.
  * (MartinAlbrecht) Devote some time to ["Annoying Bugs"] and ["Bugs"]  See also the new trac server (http://sage.math.washington.edu/trac).
  * (KiranKedlaya) Internalize more GAP functionality into SAGE's own group classes, much as has already been done with PARI (for number fields) and Singular (for polynomials).
+ * (Iftikhar Burhanuddin) Benchmark components of Sage with respect to other CAS.
