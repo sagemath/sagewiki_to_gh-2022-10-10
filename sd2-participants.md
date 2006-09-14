@@ -9,7 +9,7 @@
  * Didier Deshommes
  * David Harvey
  * David Joyner (organizer)
- * Kiran Kedlaya (Oct 6-8)
+ * [:KiranKedlaya:Kiran Kedlaya] (Oct 5?-8)
  * Kevin McGown
  * Rishikesh
  * Michael Rubinstein
