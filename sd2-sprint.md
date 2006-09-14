@@ -12,3 +12,4 @@ The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is 
  * (KiranKedlaya) Internalize more GAP functionality into SAGE's own group classes, much as has already been done with PARI (for number fields) and Singular (for polynomials).
  * (IftikharBurhanuddin) Benchmark components of Sage with respect to other CAS.
    - padic, finite field (ring) arithmetic, for example factoring polynomials, root finding, etc.  The misc/benchmark.py file is very relevant.
+ * (TomBoothby) Notebook usability.  Making tricky elements work better across target browsers.
