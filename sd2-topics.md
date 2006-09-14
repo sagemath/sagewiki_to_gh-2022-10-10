@@ -18,7 +18,7 @@
    especially when it is of general interest.
 
    2. I'm talking informally with various people about preinstalling SAGE on
-   all (approx 1200) freshman PCs next year. In this case, an official
+   all (approx 1200) freshman PCs next year at the USNA. In this case, an official
    organization might be helpful. Also, it would be nice if a windows test
    suite was available (beyond the "sage -testall"). Something like a short
    list of tasks to check that the Notebook is working properly, for example.
