@@ -1,4 +1,4 @@
-==Discussion topics==
+== Discussion Topics ==
 
 * SAGE-Maxima interface 
 
