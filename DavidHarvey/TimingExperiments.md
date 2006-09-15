@@ -55,3 +55,4 @@ For each pair of degree and coefficient size, and for each system (MAGMA, PARI, 
 === Problems with the methodology ===
 
  * For the very fast operations (e.g. when the degree is very small), it's not clear how much overhead is being incurred by the python interpreter. So I'm not sure how much of the time is really being spent on the multiplication.
+ * Update: I did some further tests using NTL directly from C++, and in some of the small cases (where the above graphs show NTL at the greatest disadvantage) it was faster than the above tests indicate by a factor of about 2. So basically our NTL wrapper really sucks for small polynomials. But still it was several times slower than MAGMA in that range.
