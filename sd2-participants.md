@@ -8,6 +8,7 @@
  * Iftikhar Burhanuddin (Oct 6-8)
  * Craig Citro
  * Didier Deshommes
+ * Ralph Greenberg
  * David Harvey
  * David Joyner (organizer)
  * [:KiranKedlaya:Kiran Kedlaya] (Oct 5?-8)
