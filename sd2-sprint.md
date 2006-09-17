@@ -13,3 +13,6 @@ The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is 
  * (IftikharBurhanuddin) Benchmark components of Sage with respect to other CAS.
    - padic, finite field (ring) arithmetic, for example factoring polynomials, root finding, etc.  The misc/benchmark.py file is very relevant.
  * (TomBoothby) Notebook usability.  Making tricky elements work better across target browsers.
+ * (DavidHarvey) Move more arithmetic classes into Pyrex.
+ * (DavidHarvey) Study how to make Pyrex code faster.
+ * (DavidHarvey) Write a basic pAdicInteger class.
