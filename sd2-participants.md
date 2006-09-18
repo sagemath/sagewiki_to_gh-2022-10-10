@@ -15,6 +15,7 @@
  * Aaron Klemm 
  * Kevin McGown
  * Bill Page
+ * Sebastion Pauli ([http://www.uncg.edu/ UNC Greeensboro])
  * Jordi Quer -- (Oct 6-10) will speak on "Building a table of Cremona type of $\mathbf{Q}$-curves"
  * Rishikesh
  * David Roe
