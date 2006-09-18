@@ -12,12 +12,13 @@
  * David Harvey
  * David Joyner (organizer)
  * [:KiranKedlaya:Kiran Kedlaya] (Oct 5?-8)
+ * Aaron Klemm 
  * Kevin McGown
  * Jordi Quer -- (Oct 6-10) will speak on "Building a table of Cremona type of $\mathbf{Q}$-curves"
  * Rishikesh
+ * David Roe
  * Michael Rubinstein
  * Nathan Ryan
  * David Savitt (Oct 7-8)
  * William Stein (organizer)
  * John Voight (Oct 5-8)
- * Aaron Klemm 
