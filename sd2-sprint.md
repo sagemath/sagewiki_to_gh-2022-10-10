@@ -11,8 +11,9 @@ The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is 
  * (MartinAlbrecht) Devote some time to ["Annoying Bugs"] and ["Bugs"]  See also the new trac server (http://sage.math.washington.edu/trac).
  * (KiranKedlaya) Internalize more GAP functionality into SAGE's own group classes, much as has already been done with PARI (for number fields) and Singular (for polynomials).
  * (IftikharBurhanuddin) Benchmark components of Sage with respect to other CAS.
-   - padic, finite field (ring) arithmetic, for example factoring polynomials, root finding, etc.  The misc/benchmark.py file is very relevant.
+   - padic, finite field (poly ring) arithmetic, for example factoring polynomials, root finding, etc.  The misc/benchmark.py file is very relevant.
  * (TomBoothby) Notebook usability.  Making tricky elements work better across target browsers.
  * (DavidHarvey) Move more arithmetic classes into Pyrex.
  * (DavidHarvey) Study how to make Pyrex code faster.
  * (DavidHarvey) Write a basic pAdicInteger class.
+ * (IftikharBurhanuddin) Cleanup asymptotically fast elliptic curve rational torsion computation code
