@@ -11,7 +11,7 @@
  * Ralph Greenberg
  * David Harvey
  * David Joyner (organizer)
- * [:KiranKedlaya:Kiran Kedlaya] (Oct 5?-8)
+ * [:KiranKedlaya:Kiran Kedlaya] (Oct 5-8)
  * Aaron Klemm 
  * Kevin McGown
  * Joel Mohler
