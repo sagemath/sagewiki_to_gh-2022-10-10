@@ -2,6 +2,8 @@
 
  * [http://modular.math.washington.edu/sage/days2/ Main Workshop Web site]
 
+ * [:days2sched: Schedule]
+
  * [:sd2-sprint: Coding Sprints], [:sd2-topics: Discussion Topics]
 
  * [:sd2-travel: Travel Information]
