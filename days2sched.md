@@ -19,7 +19,7 @@ SATURDAY (talks):
   Direction:
         * 9:00-10:00am -- W. Stein:  SAGE status report
  
-  Use (30 minutes each):
+  Use:
         * 10:10 - 11:00 -- D. Joyner: Teaching undergrads using SAGE
         * 11:10 - 12:00 -- D. Harvey: the p-adic sigma functions and p-adic heights
  
@@ -33,40 +33,33 @@ SATURDAY (talks):
  
         * 4:15 - 4:45 -- Y. Qiang: Distributed Computation with Python
         * 5:00 - 5:30 -- M. Rubinstein: computing with L-functions
- 
+        * 5:30 - 6:00 -- I. Burhanuddin: computing torsion points
+        * 6:10 - 7:00 -- M. Albrecht: Groebner basis and crypto in SAGE (e.g., F4)
+
   Direction:
-        * 5:40 - 6:30 -- W. Stein: Topic -- The SAGE Foundation?!
- 
-        * 7:00 - ? -- DINNER; hang out at cool Seattle coffee shops
+        * 7:10 - 7:50 -- W. Stein: Topic -- The SAGE Foundation
+
+
+        * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
  
 =================================================================
  
 SUNDAY:
  
- Direction:
-        * 9:00 - 10:00 -- W. Stein: Development roadmap, funding sources,
-                                    future conferences and workshop
- 
  Development:
-        * 10:15 - 11:00 -- W. Stein: Pyrex
-        * 11:10 - 12:00 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
- 
-        * 12:00 - 2:00 -- LUNCH (on the ave)
- 
-        * 2:00 - 2:30 -- J. Kantor & T. Boothby: Ray tracing in SAGE
-        * 2:45 - 3:30 -- M. Albrecht: Groebner basis and crypto in SAGE (e.g., F4)
-        * 3:45 - 4:15 -- J. Kantor: Numerical Computation in SAGE
- 
-        * 4:15 - 4:45 -- AFTERNOON BREAK
- 
- Computational Number theory:
-        * 4:45 - 5:15 -- J. Quer: Toward a database of Q-curves
-        * 5:30 - 6:00 -- J. Voight: Computing quaternions with MAGMA
-        * 6:10 - 6:40 -- S. Pauli: Remarks on computational algebraic number theory
+        * 9:00 - 10:00 -- W. Stein: Development roadmap, funding sources, future conferences and workshop
+        * 10:10 - 11:00 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
+        * 11:00 - 11:30 -- T. Boothby: Ray tracing in SAGE
+        * 11:30 - 12:00 -- J. Kantor: Numerical Computation in SAGE
+        * 12:00 -  1:00 -- W. Stein: Pyrex]
+        * 1:05 - 1:30 -- J. Voight: Computing quaternions with MAGMA
+        * 1:35 - 2:00 -- S. Pauli: Computational algebraic number theory -- status report
  
  Direction:
-        * 6:40 - 7:00 -- W. Stein: Wrap up.
+        * 2:05 - 2:30 -- W. Stein: Wrap up.
  
+AFTERNOON: Coding Sprinters -- planning sessions. 
+
         * 7:00 - ? -- DINNER; hang out at cool Seattle coffee shops
  
 =================================================================
