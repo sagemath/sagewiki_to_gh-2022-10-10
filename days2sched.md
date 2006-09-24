@@ -17,7 +17,7 @@ FRIDAY (Coding sprint day):
  
 =================================================================
  
-SATURDAY (talks):
+SATURDAY (many many talks):
  
   Direction:
         *  9:00 - 10:00 -- W. Stein:  SAGE status report
