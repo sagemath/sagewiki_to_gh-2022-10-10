@@ -54,7 +54,8 @@ SATURDAY (many many talks):
 SUNDAY (mostly developer workshop)
  
  Development:
-        * 9:00 - 10:00 -- W. Stein: Development roadmap, funding sources, future conferences and workshop
+        * 9:00 - 10:00 -- W. Stein: Development roadmap, funding sources, future 
+                          conferences and workshop
 
         * 10:10 - 10:50 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
         * 11:00 - 11:30 -- T. Boothby: Ray tracing in SAGE
