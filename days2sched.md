@@ -54,7 +54,7 @@ SUNDAY:
         * 10:10 - 11:00 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
         * 11:00 - 11:30 -- T. Boothby: Ray tracing in SAGE
         * 11:30 - 12:00 -- J. Kantor: Numerical Computation in SAGE
-        * 12:00 -  1:00 -- W. Stein: Pyrex]
+        * 12:00 -  1:00 -- W. Stein: Pyrex
         * 1:05 - 1:30 -- J. Voight: Computing quaternions with MAGMA
         * 1:35 - 2:00 -- S. Pauli: Computational algebraic number theory -- status report
  
