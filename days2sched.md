@@ -24,7 +24,8 @@ SATURDAY (many many talks):
  
   Use:
         * 10:10 - 11:00 -- D. Joyner: Teaching undergrads using SAGE
-        * 11:10 - 12:00 -- D. Harvey: the p-adic sigma functions and p-adic heights
+        * 11:10 - 12:00 -- D. Harvey: implementation experience: the p-adic sigma functions 
+                                      and p-adic heights
  
         * 12:00 -  2:00 -- LUNCH (catered??)
 
@@ -50,16 +51,18 @@ SATURDAY (many many talks):
  
 =================================================================
  
-SUNDAY:
+SUNDAY (mostly developer workshop)
  
  Development:
         * 9:00 - 10:00 -- W. Stein: Development roadmap, funding sources, future conferences and workshop
 
-        * 10:10 - 10:40 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
-  
+        * 10:10 - 10:50 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
         * 11:00 - 11:30 -- T. Boothby: Ray tracing in SAGE
         * 11:30 - 12:00 -- J. Kantor: Numerical Computation in SAGE
-        * 12:00 -  1:00 -- W. Stein: Pyrex
+        * 12:00 - 12:30 -- W. Stein: Pyrex I
+        * 12:40 -  1:00 -- M. Albrech: Pyrex II
+
+ Some number theory:
         * 1:05 - 1:30 -- J. Voight: Computing quaternions with MAGMA
         * 1:35 - 2:00 -- S. Pauli: Computational algebraic number theory -- status report
  
