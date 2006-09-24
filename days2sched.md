@@ -1,4 +1,4 @@
-= SAGE Days 2 Schedule = 
+[:days2: SAGE Days 2] Schedule
 
 {{{
 Here's a possible schedule.  Comments are welcome.   I'm all for
