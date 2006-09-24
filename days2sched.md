@@ -30,17 +30,19 @@ SATURDAY (talks):
 
         *  2:00 -  2:25 -- R. Bradshaw (& D. Harvey): Optimizing linear algebra in SAGE
         *  2:30 -  3:00 -- A. Clemesha: SAGE Graphics
-        *  3:05 -  3:30 -- T. Boothby: The SAGE Notebook
+        *  3:05 -  3:35 -- T. Boothby: The SAGE Notebook
  
-        *  3:30 -  4:15 -- AFTERNOON BREAK
+        *  3:35 -  4:15 -- AFTERNOON BREAK
+
+        *  4:15 -  4:45 -- B. Page: Introduction to the Axiom Library compiler for Python Programmers
+        *  4:50 -  5:25 -- A. Portes: Doyen Live CD
  
-        *  4:15 -  4:45 -- Y. Qiang: Distributed Computation with Python
-        *  5:00 -  5:25 -- M. Rubinstein: computing with L-functions
-        *  5:30 -  6:00 -- I. Burhanuddin: computing torsion
-        *  6:10 -  7:00 -- M. Albrecht: Groebner basis and crypto in SAGE (e.g., F4)
+        *  5:30 -  5:55 -- Y. Qiang: Distributed Computation with Python
+        *  6:00 -  6:30 -- I. Burhanuddin: computing torsion
+        *  6:30 -  7:15 -- M. Albrecht: Groebner basis and crypto in SAGE (e.g., F4)
 
   Direction:
-        *  7:10 -  7:50 -- W. Stein: Topic -- The SAGE Foundation
+        *  7:20 -  7:50 -- W. Stein: Topic -- The SAGE Foundation
 
 
         *  8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
@@ -51,7 +53,9 @@ SUNDAY:
  
  Development:
         * 9:00 - 10:00 -- W. Stein: Development roadmap, funding sources, future conferences and workshop
-        * 10:10 - 11:00 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
+
+        * 10:10 - 10:40 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
+  
         * 11:00 - 11:30 -- T. Boothby: Ray tracing in SAGE
         * 11:30 - 12:00 -- J. Kantor: Numerical Computation in SAGE
         * 12:00 -  1:00 -- W. Stein: Pyrex
