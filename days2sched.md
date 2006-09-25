@@ -60,8 +60,7 @@ SUNDAY (mostly developer workshop)
         * 10:10 - 10:50 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
         * 11:00 - 11:30 -- T. Boothby: Ray tracing in SAGE
         * 11:30 - 12:00 -- J. Kantor: Numerical Computation in SAGE
-        * 12:00 - 12:30 -- W. Stein: Pyrex I
-        * 12:40 -  1:00 -- M. Albrech: Pyrex II
+        * 12:10 -  1:00 -- M. Albrech: Pyrex 
 
  Some number theory:
         * 1:05 - 1:30 -- J. Voight: Computing quaternions with MAGMA
