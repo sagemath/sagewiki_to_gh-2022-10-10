@@ -41,7 +41,7 @@ SATURDAY (many many talks):
  
         *  5:30 -  5:55 -- Y. Qiang: Distributed Computation with Python
         *  6:00 -  6:30 -- I. Burhanuddin: computing torsion
-        *  6:30 -  7:15 -- M. Albrecht: Groebner basis in SAGE (e.g., F4)
+        *  6:30 -  7:15 -- M. Albrecht: Gröbner Bases in SAGE (e.g., F4)
 
   Direction:
         *  7:20 -  7:50 -- W. Stein: Topic -- The SAGE Foundation
