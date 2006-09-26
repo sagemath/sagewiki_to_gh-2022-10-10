@@ -15,8 +15,7 @@
  * Aaron Klemm
  * Kevin McGown
  * Joel Mohler
- * Bill Page -- Introduction to the Axiom Library compiler for Python Programmers
-    SPAD is the 1st generation compiler and Aldor (http://wiki.axiom-developer.org/Aldor) is the 2nd generation compiler for the strongly-typed object-oriented high-level language which is used to implement Axiom's library of over 1,300 mathematical domains and categories. The language is similar in many respects to Python which plays the same role in Sage.
+ * Bill Page ([http://wiki.axiom-developer.org])
  * Sebastion Pauli ([http://www.uncg.edu/ UNC Greeensboro])
  * Jordi Quer -- (Oct 6-10) will speak on "Building a table of Cremona type of $\mathbf{Q}$-curves"
  * Rishikesh
