@@ -30,7 +30,7 @@ SATURDAY (many many talks):
   * 4:50 -  5:25 -- A. Portes: Doyen Live CD
   * 5:30 -  5:55 -- Y. Qiang: Distributed Computation with Python
   * 6:00 -  6:30 -- I. Burhanuddin: computing torsion
-  * 6:30 -  7:15 -- M. Albrecht: Gröbner Bases in SAGE (e.g., F4)
+  * 6:35 -  7:15 -- M. Albrecht: Gröbner Bases in SAGE (e.g., F4)
  Direction:
   * 7:20 -  7:50 -- W. Stein: Topic -- [:Foundation:The SAGE Foundation]
   * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
@@ -38,18 +38,19 @@ SATURDAY (many many talks):
 
 SUNDAY (mostly developer workshop)
 
- . Development:
-  * 9:00 - 10:00 -- W. Stein: Development roadmap, funding sources, future
-   . conferences and workshop
-  * 10:10 - 10:50 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
-  * 11:00 - 11:30 -- T. Boothby: Ray tracing in SAGE
-  * 11:30 - 12:00 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
-  * 12:10 -  1:00 -- M. Albrech: Pyrex
- Some number theory:
-  * 1:05 - 1:30 -- J. Voight: Computing quaternions with MAGMA
-  * 1:35 - 2:00 -- S. Pauli: Computational algebraic number theory -- status report
- Direction:
-  * 2:05 - 2:30 -- W. Stein: Wrap up.
+Number theory:
+  *  9:00 -  9:20 -- K. McGown: Computing Bernoulli Numbers with SAGE
+  *  9:25 -  9:55 -- J. Voight: Computing quaternions with MAGMA
+  * 10:00 - 10:25 -- S. Pauli: Computational algebraic number theory -- status report
+
+SAGE Development:
+  * 10:30 - 11:00 -- W. Stein: Development roadmap
+  * 11:10 - 11:50 -- D. Harvey: SAGE architecture, design and coding
+  * 12:00 - 12:30 -- T. Boothby: Ray tracing and SAGE
+  * 12:30 -  1:00 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
+  *  1:10 -  2:00 -- M. Albrech: Pyrex
+  *  2:05 -  2:30 -- W. Stein: Wrap up.
+
 AFTERNOON: Coding Sprinters -- planning sessions.
 
  * 7:00 - ? -- DINNER; hang out at cool Seattle coffee shops
