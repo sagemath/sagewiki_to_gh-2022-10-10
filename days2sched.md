@@ -26,8 +26,7 @@ SATURDAY (many many talks):
   * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics
   * 3:05 -  3:35 -- T. Boothby: The SAGE Notebook
   * 3:35 -  4:15 -- AFTERNOON BREAK
-  * 4:15 -  4:45 -- B. Page: Introduction to the Axiom Library compiler
-   . for Python Programmers
+  * 4:15 -  4:45 -- B. Page: [:AxiomCompiler:Introduction to the Axiom Library compiler for Python Programmers]
   * 4:50 -  5:25 -- A. Portes: Doyen Live CD
   * 5:30 -  5:55 -- Y. Qiang: Distributed Computation with Python
   * 6:00 -  6:30 -- I. Burhanuddin: computing torsion
