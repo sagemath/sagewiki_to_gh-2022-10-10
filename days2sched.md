@@ -59,7 +59,7 @@ SUNDAY (mostly developer workshop)
 
         * 10:10 - 10:50 -- D. Harvey (and W. Stein): SAGE architecture, design and coding
         * 11:00 - 11:30 -- T. Boothby: Ray tracing in SAGE
-        * 11:30 - 12:00 -- J. Kantor: Numerical Computation in SAGE
+        * 11:30 - 12:00 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
         * 12:10 -  1:00 -- M. Albrech: Pyrex 
 
  Some number theory:
