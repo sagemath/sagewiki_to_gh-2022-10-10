@@ -1,6 +1,6 @@
 [:days2: SAGE Days 2] Schedule
 
-{{{
+
 Here's a possible schedule.  Comments are welcome.   I'm all for
 having tons of talks on the weekend, since there will be almost
 no talks on Friday, Monday, and Tuesday.
@@ -85,6 +85,3 @@ MONDAY:
 TUESDAY:
   Coding sprints:
         * 2:00 - 4:00pm: Progress reports and plan for the future
-
-
-}}}
