@@ -19,8 +19,8 @@ SATURDAY (many many talks):
   * 9:00 - 10:00 -- W. Stein:  SAGE status report
  Use:
   * 10:10 - 11:00 -- D. Joyner: Teaching undergrads using SAGE
-  * 11:10 - 12:00 -- D. Harvey: implementation experience: the p-adic sigma functions
-   . and p-adic heights
+  * 11:10 - 12:00 -- D. Harvey: Implementation experience (the p-adic sigma functions
+   . and p-adic heights)
   * 12:00 -  2:00 -- LUNCH (catered??)
   * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): Optimizing linear algebra in SAGE
   * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics
