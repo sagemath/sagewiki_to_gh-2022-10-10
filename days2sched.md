@@ -1,12 +1,13 @@
 [:days2: SAGE Days 2] Schedule
 
-
-Here's a possible schedule.  Comments are welcome.   I'm all for
-having tons of talks on the weekend, since there will be almost
-no talks on Friday, Monday, and Tuesday.
-
 If I forgot you in the schedule below, it is just me having
 a bad memory -- email me (wstein@gmail.com).
+
+If you're listed below to speak, please modify this wiki page
+and create a link from your title to your talk: See the 
+"Sage Foundation" talk for an example, then just make the link,
+save this page, then click on the link -- you'll be given the
+chance to make the corresponding web page. 
  
 =================================================================
  
