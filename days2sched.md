@@ -44,7 +44,7 @@ SATURDAY (many many talks):
         *  6:30 -  7:15 -- M. Albrecht: Gröbner Bases in SAGE (e.g., F4)
 
   Direction:
-        *  7:20 -  7:50 -- W. Stein: Topic -- The SAGE Foundation
+        *  7:20 -  7:50 -- W. Stein: Topic -- [:Foundation: The SAGE Foundation]
 
 
         *  8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
