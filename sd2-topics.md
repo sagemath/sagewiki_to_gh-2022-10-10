@@ -8,6 +8,9 @@
 
 * Brainstorm about how a "SAGE Foundation" will work during SAGE Days. 
 
+* Discuss p-adic arithmetic overhaul
+
+
   * Some ideas:
 
    1. News announcements (say to local/campus newspapers). I (=wdj) send out a
