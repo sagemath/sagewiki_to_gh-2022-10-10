@@ -2,6 +2,13 @@
 
 == Mission Statement ==
 
+ * Whatever this turns out to be (there will be lots of discussion at SD2), here are some questions which hopefully this statement will help answer:
+   * Why does the SAGE Foundation exist? What is the purpose of SAGE?
+   * What is the Foundation going to do to achieve this purpose?
+   * What are our guiding principles? 
+
+ * Examples: [http://www.python.org/psf/mission/ Python Foundation] and the [http://www.maa.org/Aboutmaa/mission.html MAA].
+
 == Organizational Structure ==
 
 == Treasurer ==
