@@ -66,4 +66,54 @@ You can stick any of this on the wiki if you like.
 
 David
 
+
+---------- Forwarded message ----------
+Date: Wed, 27 Sep 2006 10:59:10 -0700 (PDT)
+From: Iftikhar Burhanuddin <burhanud@usc.edu>
+To: David Harvey <dmharvey@math.harvard.edu>
+Cc: sage-devel@lists.sourceforge.net, Iftikhar Burhanuddin <burhanud@usc.edu>
+Subject: Re: [SAGEdev] p-adic nonsense?
+
+> (1) Research how other people have done it, both *implementation* and
+> *interface*. This includes studying MAGMA, PARI, and that local
+> fields library that was mentioned on this list a few weeks back.
+> Possibly others that I don't know about. It also includes a
+> literature search, both in mathematics and computer science. It
+> includes analyses of performance, both theoretical and maybe even
+> actual performance.
+
+> (b) Fast conversions between p-adic integers, p-adic rationals, plain
+> integers and rationals, and the quotient rings Z/p^n Z (wherever
+> these conversions make sense)
+
+For the theory the first place to look at is von zur Gathen and Gerhard's
+excellent Modern Computer Algebra http://www-math.uni-paderborn.de/mca/.
+
+I was searching for references on fast p-adic arithmetic for my torsion
+comp work and Pierrick Gaudry suggested the aforementioned book. It has
+detailed time complexity analysis for all the algorithms they discuss
+and implementation timings for some (I think integer multiplication, etc.)
+
+For example:
+
+Integers to p-adic integers is done efficiently (using fast integer
+multiplication) by something called radix conversion. This is discussed in
+MCA, Thm 9.17: An integer of size N can be expressed p-adically using a
+recursive procedure in O(M(N log p) log N) time, where M(N) is the number
+of bit operations required to multiply two numbers of size N. (M(N)=O(N
+log N log log N) = soft-O(N).)
+
+Another place to look at would be the standard reference Cohen's
+computational books but he does do complexity analysis a la MCA.
+
+> You can stick any of this on the wiki if you like.
+
+Done.
+
+http://sage.math.washington.edu:9001/sd2-padicArithmetic
+
+
+Ifti.
+
+
 }}}
