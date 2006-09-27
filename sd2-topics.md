@@ -8,7 +8,7 @@
 
 * Brainstorm about how a "SAGE Foundation" will work during SAGE Days. 
 
-* Discuss [:SD2-padicArithmetic: p-adic arithmetic] overhaul
+* Discuss [:sd2-padicArithmetic: p-adic arithmetic] overhaul
 
 
   * Some ideas:
