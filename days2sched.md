@@ -48,7 +48,7 @@ SAGE Development:
   * 11:10 - 11:50 -- D. Harvey: SAGE architecture, design and coding
   * 12:00 - 12:30 -- T. Boothby: Ray tracing and SAGE
   * 12:30 -  1:00 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
-  *  1:10 -  2:00 -- M. Albrech: Pyrex
+  *  1:10 -  2:00 -- M. Albrecht: Pyrex
   *  2:05 -  2:30 -- W. Stein: Wrap up.
 
 AFTERNOON: Coding Sprinters -- planning sessions.
