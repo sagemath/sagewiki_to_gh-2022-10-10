@@ -7,6 +7,7 @@
  * Nils Bruin (Oct 7-8)
  * Iftikhar Burhanuddin (Oct 6-8)
  * Craig Citro
+ * Alex Clemesha
  * Didier Deshommes
  * Ralph Greenberg
  * David Harvey
