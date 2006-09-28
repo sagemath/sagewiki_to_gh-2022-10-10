@@ -1,31 +1,31 @@
 == SAGE Days 2 Wiki: Confirmed Participants ==
 [:days2:SAGE Days 2]
 
- * Martin Albrecht
- * Tom Boothby
- * Robert Bradshaw
- * Nils Bruin (Oct 7-8)
- * Iftikhar Burhanuddin (Oct 6-8)
- * Craig Citro
- * Alex Clemesha
- * Didier Deshommes
- * Ralph Greenberg
- * David Harvey
- * David Joyner (organizer)
- * [:KiranKedlaya:Kiran Kedlaya] (Oct 5-8)
- * Aaron Klemm
- * Kevin McGown
- * Joel Mohler
- * Bill Page ([http://wiki.axiom-developer.org])
+ * Martin Albrecht (Bremen)
+ * Tom Boothby (UW)
+ * Robert Bradshaw (UW)
+ * Nils Bruin (SFU, Oct 7-8)
+ * Iftikhar Burhanuddin (USC, Oct 6-8)
+ * Craig Citro (UCLA)
+ * Alex Clemesha (UW)
+ * Didier Deshommes (North Carolina)
+ * Ralph Greenberg (UW)
+ * David Harvey (Harvard)
+ * David Joyner (USNA, organizer)
+ * [:KiranKedlaya:Kiran Kedlaya] (MIT, Oct 5-8)
+ * Aaron Klemm (Digipen)
+ * Kevin McGown (UCSD)
+ * Joel Mohler (Lehigh University)
+ * Bill Page (Axiom Developer, [http://wiki.axiom-developer.org])
  * Sebastion Pauli ([http://www.uncg.edu/ UNC Greeensboro])
- * Jordi Quer -- (Oct 6-10) will speak on "Building a table of Cremona type of $\mathbf{Q}$-curves"
- * Rishikesh
- * Jonathan Hanke
- * David Roe
- * Michael Rubinstein
- * Nathan Ryan
- * David Savitt (Oct 7-8)
- * William Stein (organizer)
- * John Voight (Oct 5-8)
- * Justin Walker (Oct 5-8)
- * Joseph Wetherell
+ * Jordi Quer (Barcelona, Oct 6-10)
+ * Rishikesh (Waterloo)
+ * Jonathan Hanke (Duke)
+ * David Roe (MIT)
+ * Michael Rubinstein (Waterloo)
+ * Nathan Ryan (UCLA)
+ * David Savitt (UA, Oct 7-8)
+ * William Stein (UW, organizer)
+ * John Voight (Minnesota, Oct 5-8)
+ * Justin Walker (Palo Alto, Oct 5-8)
+ * Joseph Wetherell (San Diego)
