@@ -13,8 +13,10 @@
  * David Harvey (Harvard)
  * David Joyner (USNA, organizer)
  * [:KiranKedlaya:Kiran Kedlaya] (MIT, Oct 5-8)
+ * Emily Kirkman
  * Aaron Klemm (Digipen)
  * Kevin McGown (UCSD)
+ * Robert Miller (UW)
  * Joel Mohler (Lehigh University)
  * Bill Page (Axiom Developer, [http://wiki.axiom-developer.org])
  * Sebastion Pauli ([http://www.uncg.edu/ UNC Greeensboro])
