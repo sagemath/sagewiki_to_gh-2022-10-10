@@ -30,7 +30,7 @@ SATURDAY (many many talks):
   * 4:50 -  5:25 -- A. Portes: Doyen Live CD
   * 5:30 -  5:55 -- Y. Qiang: Distributed Computation with Python
   * 6:00 -  6:30 -- I. Burhanuddin: computing torsion
-  * 6:35 -  7:15 -- M. Albrecht: Gröbner Bases in SAGE (e.g., F4)
+  * 6:35 -  7:15 -- M. Albrecht: [:groebner-bases-in-sage-sd2talk:Gröbner Bases in SAGE (e.g., F4)]
  Direction:
   * 7:20 -  7:50 -- W. Stein: Topic -- [:Foundation:The SAGE Foundation]
   * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
@@ -48,7 +48,7 @@ SAGE Development:
   * 11:10 - 11:50 -- D. Harvey: SAGE architecture, design and coding
   * 12:00 - 12:30 -- T. Boothby: Ray tracing and SAGE
   * 12:30 -  1:00 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
-  *  1:10 -  2:00 -- M. Albrecht: Pyrex
+  *  1:10 -  2:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
   *  2:05 -  2:30 -- W. Stein: Wrap up.
 
 AFTERNOON: Coding Sprinters -- planning sessions.
