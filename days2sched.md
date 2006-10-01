@@ -16,7 +16,7 @@ FRIDAY (Coding sprint day):
 SATURDAY (many many talks):
 
  . Direction:
-  * 9:00 - 10:00 -- W. Stein:  SAGE status report
+  * 9:00 - 10:00 -- W. Stein:  [:sd2-stein-status:SAGE status report]
  Use:
   * 10:10 - 11:00 -- D. Joyner: Teaching undergrads using SAGE
   * 11:10 - 12:00 -- D. Harvey: Implementation experience (the p-adic sigma functions
@@ -44,7 +44,7 @@ Number theory:
   * 10:00 - 10:25 -- S. Pauli: Computational algebraic number theory -- status report
 
 SAGE Development:
-  * 10:30 - 11:00 -- W. Stein: Development roadmap
+  * 10:30 - 11:00 -- W. Stein: [:sd2-roadmap: Development roadmap]
   * 11:10 - 11:50 -- D. Harvey: SAGE architecture, design and coding
   * 12:00 - 12:30 -- T. Boothby: Ray tracing and SAGE
   * 12:30 -  1:00 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
