@@ -4,6 +4,10 @@
 Put ideas for coding sprints here.   
 The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is very relevant.
 
+ * (Alex Clemesha) Making documentation more interactive with the Notebook.  All examples can be evaluated
+    and changed, but the changes are not saved (i.e. like the Mathematica documentation).  Possible related topics are
+    including images in the documentation, and cleaning up the online SAGE Notebooks so people coming to those see tons of
+    excellent examples, which they can modify and evaluate, but changes are not saved. (Online Notebooks are now *filled* with errors)
  * (MartinAlbrecht) Matrices: Decide about inclusion of LinBox and either include it or port the needed changes to ["Givaro"] (see Finite field elements). Then either fix LinBox where needed (e.g., gauss) or implement needed algorithms. (Maybe also wrap/implement ["M4RI"]).
  * (MartinAlbrecht) Finite field elements: Finish the transition from ["Pari"] to ["Givaro"] for small $\#F \le 2^{16}$ fields, wrap some more ["Givaro"] (& ["Linbox"] ?) classes. Wrap ["NTL"] for larger extension fields.
  * (MartinAlbrecht) SAGE/Wiki/Web integration. Needs design decisions.
