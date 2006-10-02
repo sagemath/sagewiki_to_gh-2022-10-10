@@ -1,6 +1,6 @@
 [:days2:SAGE Days 2] Coffee Shops
 
-For lots of suggestions around the city take a look at attachment:http%3A//seattle.wifimug.org/
+For lots of suggestions around the city take a look at ["http%3A//seattle.wifimug.org/"]
 
 == Coffee Shops On Campus ==
  * There is a Tully's in the HUB. Ambience is not great but the whole building has UW wifi
