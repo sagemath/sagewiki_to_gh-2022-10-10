@@ -23,7 +23,7 @@
  * Sebastion Pauli ([http://www.uncg.edu/ UNC Greeensboro])
  * Jordi Quer (Barcelona, Oct 6-10)
  * Rishikesh (Waterloo)
- * Dorian Raymer (UCSD, physics) [http://sdphca.ucsd.edu/phy121/Tour_121/pictures_121_2005/6_PH1_0034.JPG]
+ * Dorian Raymer (UCSD, physics) [http://sdphca.ucsd.edu/phy121/Tour_121/pictures_121_2005/6_PH1_0034.JPG blimp]
  * David Roe (MIT)
  * Michael Rubinstein (Waterloo)
  * Nathan Ryan (UCLA)
