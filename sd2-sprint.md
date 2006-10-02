@@ -21,3 +21,4 @@ The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is 
  * (Bill Page) Implement a Sage interface to Axiom (http://wiki.axiom-developer.org)
  * (MartinAlbrecht) (together with Justin Walker if he attends) Treat the Singular SPKG and push the changes upstream.
  * (MartinAlbrecht) Make MPolynomials way faster.
+ * (WilliamStein) Rings of integers of number fields
