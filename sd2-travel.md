@@ -3,7 +3,8 @@
 The workshop will take place in the basement of the
 [http://www.washington.edu/home/maps/northcentral.html?CMU Communications Building] on the
 University of Washington campus in rooms B006 and B022.  (Note that Padelford (=Math) is 
-across the street from communications.)
+across the street from communications.) See also the
+[http://www.washington.edu/home/maps/campusmappg.pdf printable campus map in pdf format].
 
 Directions to Communications coming from the south via I-5 northbound:
 From I-5 northbound, take exit 168B (Bellevue/Kirkland)
