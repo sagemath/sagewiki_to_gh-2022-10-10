@@ -12,6 +12,8 @@
 
  * [:sd2-flyer-poster: Flyer and Posters]
 
+ * [:sd2-coffeeshops: Local Coffee Shops]
+
 
 
 http://modular.math.washington.edu/sage/days2/sage-car.png
