@@ -4,7 +4,7 @@
 Put ideas for coding sprints here.   
 The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is very relevant.
 
- * (Alex Clemesha) Making documentation more interactive with the Notebook.  All examples can be evaluated
+ * (AlexClemesha) Making documentation more interactive with the Notebook.  All examples can be evaluated
  and changed, but the changes are not saved (i.e. like the Mathematica documentation).  Possible related topics are
  including images in the documentation, and cleaning up the online SAGE Notebooks so people coming to those see tons of
  excellent examples, which they can modify and evaluate, but changes are not saved. (Online Notebooks are now *filled* with errors)
