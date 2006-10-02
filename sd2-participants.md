@@ -1,7 +1,7 @@
 == SAGE Days 2 Wiki: Confirmed Participants ==
 [:days2:SAGE Days 2]
 
- * Martin Albrech (Bremen)
+ * [:MartinAlbrecht:Martin Albrecht] (Universität Bremen)
  * Tom Boothby (UW)
  * Robert Bradshaw (UW)
  * Nils Bruin (SFU, Oct 7-8)
