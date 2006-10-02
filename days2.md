@@ -14,6 +14,6 @@
 
  * [:sd2-coffeeshops: Local Coffee Shops]
 
-
+UW Campus WIFI: login: event0518, password: sagedays2
 
 http://modular.math.washington.edu/sage/days2/sage-car.png
