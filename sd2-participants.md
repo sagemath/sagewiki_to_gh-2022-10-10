@@ -19,6 +19,7 @@
  * Kevin McGown (UCSD)
  * Robert Miller (UW)
  * Joel Mohler (Lehigh University)
+ * Bobby Moretti
  * Bill Page (Axiom Developer, [http://wiki.axiom-developer.org])
  * Sebastion Pauli ([http://www.uncg.edu/ UNC Greeensboro])
  * Jordi Quer (Barcelona, Oct 6-10)
