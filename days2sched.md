@@ -28,7 +28,7 @@ SATURDAY (many many talks):
   * 3:35 -  4:15 -- AFTERNOON BREAK
   * 4:15 -  4:45 -- B. Page: [:AxiomCompiler:Introduction to the Axiom Library compiler for Python Programmers]
   * 4:50 -  5:25 -- A. Portes: Doyen Live CD
-  * 5:30 -  5:55 -- Y. Qiang: Distributed Computation with Python
+  * 5:30 -  5:55 -- K. McGown: Computing Bernoulli Numbers with SAGE
   * 6:00 -  6:30 -- I. Burhanuddin: computing torsion
   * 6:35 -  7:15 -- M. Albrecht: [:groebner-bases-in-sage-sd2talk:Gröbner Bases in SAGE (e.g., F4)]
  Direction:
@@ -39,9 +39,9 @@ SATURDAY (many many talks):
 SUNDAY (mostly developer workshop)
 
 Number theory:
-  *  9:00 -  9:20 -- K. McGown: Computing Bernoulli Numbers with SAGE
-  *  9:25 -  9:55 -- J. Voight: Computing quaternions with MAGMA
-  * 10:00 - 10:25 -- S. Pauli: Computational algebraic number theory -- status report
+
+  *  9:00 -  9:25 -- J. Voight: Computing quaternions with MAGMA (a demo)
+  *  9:30 - 10:00 -- S. Pauli: Computational algebraic number theory -- status report
 
 SAGE Development:
   * 10:30 - 11:00 -- W. Stein: [:sd2-roadmap: Development roadmap]
