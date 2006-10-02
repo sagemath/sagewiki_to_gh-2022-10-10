@@ -18,7 +18,7 @@ SATURDAY (many many talks):
  . Direction:
   * 9:00 - 10:00 -- W. Stein:  [:sd2-stein-status:SAGE status report]
  Use:
-  * 10:10 - 11:00 -- D. Joyner: Teaching undergrads using SAGE
+  * 10:10 - 11:00 -- D. Joyner: [http://sage.math.washington.edu/home/wdj/sagefiles/sagedays2/sagedays2-10-7-2006.pdf SAGE--A Guide for Educators]
   * 11:10 - 12:00 -- D. Harvey: Implementation experience (the p-adic sigma functions
    . and p-adic heights)
   * 12:00 -  2:00 -- LUNCH (catered??)
