@@ -19,5 +19,5 @@ For lots of suggestions around the city take a look at http://seattle.wifimug.or
  * Trabant Chai Lounge: On 45th between University Ave and Brooklyn Ave (next to the movie theatre). If chai is your thing go here. Free wifi. http://seattle.wifimug.org/index.cgi?TrabantChaiLounge 
 
 
-Note that the Allegro, the Cafe on the Ave, and the Starbucks at 42nd and the Ave are basically all next door to each other. The Cafe on the Ave and the Allegro are fairly large and can accommodate fairly large groups of people working together easily. 
+Note that the Allegro, the Cafe on the Ave, and the Starbucks at 42nd and the Ave are about 30 seconds walking from each other. The Cafe on the Ave and the Allegro are fairly large and can accommodate fairly large groups of people working together easily. 
  
