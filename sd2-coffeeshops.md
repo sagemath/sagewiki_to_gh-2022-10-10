@@ -17,3 +17,7 @@ For lots of suggestions around the city take a look at http://seattle.wifimug.or
  * Solstice: On the ave between 41st and 42nd.  Notable because they serve coffee, tea, and beer! No wifi (or very weak).  http://www.cafesolstice.com
  * Cafe on the Ave: 42nd and University Ave: Free wifi (they give you a WEP key when you buy anything). Lots of outlets, large. http://seattle.wifimug.org/index.cgi?CafeOnTheAve
  * Trabant Chai Lounge: On 45th between University Ave and Brooklyn Ave (next to the movie theatre). If chai is your thing go here. Free wifi. http://seattle.wifimug.org/index.cgi?TrabantChaiLounge 
+
+
+Note that the Allegro, the Cafe on the Ave, and the Starbucks at 42nd and the Ave are basically all next door to each other. The Cafe on the Ave and the Allegro are fairly large and can accommodate fairly large groups of people working together easily. 
+ 
