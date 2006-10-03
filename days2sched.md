@@ -40,7 +40,7 @@ SUNDAY (mostly developer workshop)
 
 Number theory:
 
-  *  9:00 -  9:25 -- J. Voight: Computing quaternions with MAGMA (a demo)
+  *  9:00 -  9:25 -- J. Voight: [:Algorithms for quaternion algebras]
   *  9:30 - 10:00 -- S. Pauli: Computational algebraic number theory -- status report
 
 SAGE Development:
