@@ -4,7 +4,7 @@ For lots of suggestions around the city take a look at http://seattle.wifimug.or
 
 == Coffee Shops On Campus ==
  * There is a Tully's in the HUB. Ambience is not great but the whole building has UW wifi
- * In the basement of the Art Building there is a coffee shop (Parnassus). No wifi but nice environment.
+ * In the basement of the Art Building there is a coffee shop (Parnassus). No wifi but nice environment. http://www.washington.edu/home/maps/northcentral.html?art
 == Coffee Off Campus ==
  * The Allegro: On 42nd in the alley between University Ave and 15th (the alley is by Magus books). Free wifi and really good coffee nice environment. Open till 10:30.  http://seattle.wifimug.org/index.cgi?CafeAllegro
  * The Sureshot: On 45th and the Ave. Free Wifi. nice place.  7am-midnight. http://seattle.wifimug.org/index.cgi?Sureshot
