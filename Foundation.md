@@ -1,4 +1,6 @@
-== The SAGE Foundation ==
+== The SAGE Mathematics Foundation ==
+
+There is already a [http://thesagefoundation.org/ SAGE foundation]. Their website (especially the financial section) is interesting.
 
 == Mission Statement ==
 
