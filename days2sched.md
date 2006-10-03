@@ -32,7 +32,7 @@ SATURDAY (many many talks):
   * 6:00 -  6:30 -- I. Burhanuddin: computing torsion
   * 6:35 -  7:15 -- M. Albrecht: [:groebner-bases-in-sage-sd2talk:Gröbner Bases in SAGE (e.g., F4)]
  Direction:
-  * 7:20 -  7:50 -- W. Stein: Topic -- [:Foundation:The SAGE Foundation]
+  * 7:20 -  7:50 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation]
   * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
 =================================================================
 
