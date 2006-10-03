@@ -1,11 +1,11 @@
 == The SAGE Mathematics Foundation ==
 
-There is already a [http://thesagefoundation.org/ SAGE foundation]. Their website (especially the financial section) is interesting.
+There is already something called [http://thesagefoundation.org/ The SAGE foundation] in New Jersey. The financial section of their website is interesting, since they post several relevant IRS documents. 
 
 == Mission Statement ==
 
  * Whatever this turns out to be (there will be lots of discussion at SD2), here are some questions which hopefully this statement will help answer:
-   * Why does the SAGE Foundation exist? What is the purpose of SAGE?
+   * Why does the SAGE Mathematics Foundation exist? What is the purpose of SAGE?
    * What is the Foundation going to do to achieve this purpose?
    * What are our guiding principles? 
 
