@@ -14,9 +14,9 @@ The SAGE Graph Theory Project aims to implement Graph objects and algorithms in 
          1. '''Representation'''
           . Sparse support; function computes memory requirement for graph with n verts and m edges; consists of graph itself, vertex set, and edge set
          1. '''Storage/Pipes'''
-          . one function opens either file or stream, files stored in <a href="http://cs.anu.edu.au/~bdm/data/formats.html">Graph6 and Sparse6 format</a>
+          . one function opens either file or stream, files stored in [http://cs.anu.edu.au/~bdm/data/formats.html Graph6 and Sparse6 format]
          1. '''Construction'''
-          . From matrix; from edge tuples; from vertex neighbors; from edges of other graphs; subgraphs; quotient graphs; incremental construction; complement; contraction; breaking edges; line graph; switch nbrs for non-nbrs of a vertex; disjoint unions, edge unions; complete unions; cartesian, lexicographic and tensor products; n-th power (same vert set, incident iff dist <= n); graph <-> digraph; Cayley graph constructor; Schreier graph constructor; Orbital graph constructor; Closure graph constructor (given G, add edges to make G invariant under a given permutation group); Paley graphs and tournaments; graphs from incidence structures; converse(reverse digraph); n-th odd graph; n-th triangular graph; n-th square lattice graph; Clebsch, Shrikhande, Gewirtz and Chang graphs;
+          . From matrix; from edge tuples; from vertex neighbors; from edges of other graphs; subgraphs; quotient graphs; incremental construction; complement; contraction; breaking edges; line graph; switch nbrs for non-nbrs of a vertex; disjoint unions, edge unions; complete unions; cartesian, lexicographic and tensor products; n-th power (same vert set, incident iff dist $\leq$ n); graph $\leftrightarrow$ digraph; Cayley graph constructor; Schreier graph constructor; Orbital graph constructor; Closure graph constructor (given G, add edges to make G invariant under a given permutation group); Paley graphs and tournaments; graphs from incidence structures; converse(reverse digraph); n-th odd graph; n-th triangular graph; n-th square lattice graph; Clebsch, Shrikhande, Gewirtz and Chang graphs;
          1. '''Decorations''' (Coloring, Weight, Flow, etc.)
           . Vertices have labels only; Edges have labels, capacity(non-negative integers, loops=0) and weights(totally ordered ring);
          1. '''Invariants'''
@@ -24,11 +24,11 @@ The SAGE Graph Theory Project aims to implement Graph objects and algorithms in 
          1. '''Predicates'''
           . 2 verts incident, 2 edges incident, 1 vertex and 1 edge incident, subgraph, bipartite, complete, Eulerian, tree, forest, empty, null, path, polygon, regular
          1. '''Subgraphs and Subsets'''
-          . has k-clique, clique number, all cliques, maximum clique (<a href="http://magma.maths.usyd.edu.au/magma/htmlhelp/text1473.htm">"When comparing both algorithms in the situation where the problem is to find a maximum clique one observes that in general BranchAndBound does better. However Dynamic outperforms BranchAndBound when the graphs under consideration are large (more then 400 vertices) random graphs with high density (larger than 0.5%). So far, it can only be said that the comparative behaviour of both algorithms is highly dependent on the structure of the graphs."</a>), independent sets and number, 
+          . has k-clique, clique number, all cliques, maximum clique ([http://magma.maths.usyd.edu.au/magma/htmlhelp/text1473.htm "When comparing both algorithms in the situation where the problem is to find a maximum clique one observes that in general BranchAndBound does better. However Dynamic outperforms BranchAndBound when the graphs under consideration are large (more then 400 vertices) random graphs with high density (larger than 0.5%). So far, it can only be said that the comparative behaviour of both algorithms is highly dependent on the structure of the graphs."]), independent sets and number, 
          1. '''Adjacency, etc.'''
           . (in- & out-) degree, degree vector, valence (if regular), vertex nbrs, edge nbrs, bipartition, dominating sets
          1. '''Connectivity'''
-          . (strongly) connected, components, separable, 2-connected, 2-components, triconnectivity (<a href="http://magma.maths.usyd.edu.au/magma/htmlhelp/text1466.htm">"The linear-time triconnectivity algorithm by Hopcroft and Tarjan [HT73] has been implemented with corrections of our own and from C. Gutwenger and P. Mutzel [GM01]. This algorithm requires that the graph has a sparse representation."</a>), k-vertex connectivity, vertex separator, k-edge connectivity, edge separator
+          . (strongly) connected, components, separable, 2-connected, 2-components, triconnectivity ([http://magma.maths.usyd.edu.au/magma/htmlhelp/text1466.htm "The linear-time triconnectivity algorithm by Hopcroft and Tarjan (HT73) has been implemented with corrections of our own and from C. Gutwenger and P. Mutzel (GM01). This algorithm requires that the graph has a sparse representation."]), k-vertex connectivity, vertex separator, k-edge connectivity, edge separator
          1. '''Paths, etc.'''
           . distance and geodesic, diameter and corr. path, ball and sphere, distance partition, equitable partition, girth and corr. cycle
          1. '''Trees, etc.'''
@@ -36,19 +36,19 @@ The SAGE Graph Theory Project aims to implement Graph objects and algorithms in 
          1. '''Colorings'''(see also Decorations)
           . chromatic number and index, optimal vertex and edge colorings, chromatic polynomial
          1. '''Optimization'''
-          . Max flow min cut (2 algorithms: <a href="http://magma.maths.usyd.edu.au/magma/htmlhelp/text1499.htm#15274">Dinic & push-relabel</a>), maximum matching for bipartite, 
+          . Max flow min cut (2 algorithms: [http://magma.maths.usyd.edu.au/magma/htmlhelp/text1499.htm#15274 Dinic & push-relabel]), maximum matching for bipartite, 
          1. '''Embedding''' (Planar graphs, etc.)
           . planarity, Kuratowski subgraphs, faces of a planar graph, embedding info as orientation of edges from a vertex
          1. '''Algebra'''
           . adjacency matrix, distance matrix, incidence matrix, intersection matrix
          1. '''Morphisms/Group Actions'''
-          . interfaces <i>nauty</i>
+          . interfaces ''nauty''
          1. '''Symmetry'''
           . vertex, edge and distance transitivity; orbit partitions; primitivity; symmetric; distance regularity and intersection array
          1. '''Geometry'''
           . Go back and forth between incidence and coset geometries and their graphs; finite planes;
          1. '''Generation/Random Graphs'''
-          . interfaces <i>nauty</i>
+          . interfaces ''nauty''
          1. '''Database'''
           . database interface, strongly regular graph DB, random graph from DB, slick implementation of for loops ("for G in D do ... end for;")
 
@@ -64,11 +64,11 @@ The SAGE Graph Theory Project aims to implement Graph objects and algorithms in 
          1. '''Adjacency, etc.'''
           . in-nbrs(arrivals), out-nbrs(departures), degree sequence, endpoints, graphical ("tests whether intlist is the degree sequence of a simple graph"), edge-nbrs, vert-nbrs, in-degree, out-degree, max & min degree, edge span & span polynomial ("The span polynomial in variable p gives the probability that G is spanning when each edge operates with probability p.", "When G is connected, this is the all-terminal reliability polynomial of G, and gives the probability that G is connected when each edge operates independently with probability p."), 
          1. '''Connectivity'''
-          . components, edge-connectivity, 2-components, count minimal cutsets, rank ("The rank of an edgeset e is the number of vertices of G minus the number of components of the subgraph induced by e."), Whitney rank polynomial ("The rank polynomial is a sum over all subgraphs H of G of x^(rank(G) - rank(H)) y^corank(H)."), 
+          . components, edge-connectivity, 2-components, count minimal cutsets, rank ("The rank of an edgeset e is the number of vertices of G minus the number of components of the subgraph induced by e."), Whitney rank polynomial ("The rank polynomial is a sum over all subgraphs H of G of $x^{(rank(G) - rank(H))} y^{corank(H)}$."), 
          1. '''Paths, etc.'''
           . diameter, fundcyc ("Given a subset e of edges forming a unicyclic subgraph of a graph G, the edges forming the unique cycle are returned as a set. It is assumed that only one cycle is present."), girth, find path from a to b, 
          1. '''Trees, etc.'''
-          . ancestor, daughter, count spanning trees (Kirchoff Matrix-Tree theorem), cycle base ("A spanning tree is found, and fundcyc() is then used to find all fundamental cycles with respect to this tree. They are returned as a set of cycles with each cycle being represented by a set of edges."), edge disjoint spanning tree, shortest path spanning tree, min weight spanning tree, Tutte polynomial ("The Tutte polynomial is a sum over all maximal forests H of G of t^ia(H) z^ea(H) where ia(H) is the internal activity of H and ea(H) is the external activity of H.")
+          . ancestor, daughter, count spanning trees (Kirchoff Matrix-Tree theorem), cycle base ("A spanning tree is found, and fundcyc() is then used to find all fundamental cycles with respect to this tree. They are returned as a set of cycles with each cycle being represented by a set of edges."), edge disjoint spanning tree, shortest path spanning tree, min weight spanning tree, Tutte polynomial ("The Tutte polynomial is a sum over all maximal forests H of G of $t^{ia(H)} z^{ea(H)}$ where $ia(H)$ is the internal activity of H and $ea(H)$ is the external activity of H.")
          1. '''Colorings'''
           . chromatic polynomial, 
          1. '''Optimization'''
