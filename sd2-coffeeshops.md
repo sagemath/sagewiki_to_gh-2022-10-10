@@ -3,6 +3,7 @@
 For lots of suggestions around the city take a look at http://seattle.wifimug.org/
 
 == Coffee Shops On Campus ==
+(Both of these are about 1 minute from the communications building)
  * There is a Tully's in the HUB. Ambience is not great but the whole building has UW wifi
  * In the basement of the Art Building there is a coffee shop (Parnassus). No wifi but nice environment. http://www.washington.edu/home/maps/northcentral.html?art
 == Coffee Off Campus ==
