@@ -14,6 +14,7 @@
  * David Harvey (Harvard)
  * David Joyner (USNA, organizer)
  * [:KiranKedlaya:Kiran Kedlaya] (MIT, Oct 5-8)
+ * Joshua Kantor(UW)
  * Emily Kirkman
  * Aaron Klemm (Digipen)
  * Kevin McGown (UCSD)
