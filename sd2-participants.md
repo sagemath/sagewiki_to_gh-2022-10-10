@@ -31,6 +31,7 @@
  * Nathan Ryan (UCLA)
  * David Savitt (UA, Oct 7-8)
  * William Stein (UW, organizer)
+ * Alexa van der Waall
  * John Voight (Minnesota, Oct 5-8)
  * Alexa van der Waall (SFU, Oct 7-8)
  * Justin Walker (Palo Alto, Oct 5-8)
