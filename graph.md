@@ -52,7 +52,7 @@ The SAGE Graph Theory Project aims to implement Graph objects and algorithms in 
          1. '''Database'''
           . database interface, strongly regular graph DB, random graph from DB, slick implementation of for loops ("for G in D do ... end for;")
 
-      I. Maple: '''networks''' package, which is included:
+      I. Maple: '''networks''' package, which includes:
          1. '''Representation'''
           . ?
          1. '''Construction'''
