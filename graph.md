@@ -102,7 +102,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
       I. Magma
       I. Maple
          a. [http://www.math.uga.edu/~mbaker/REU/maple/laplacian-guide.html 'laplacian.mpl']
-         a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Par II] of the paper (haven't yet found the actual package...)
+         a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Part II] of the paper (haven't yet found the actual package...)
       I. Mathematica
       I. mwrank
       I. Octave
