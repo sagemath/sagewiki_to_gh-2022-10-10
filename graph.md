@@ -104,6 +104,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          a. [http://www.math.uga.edu/~mbaker/REU/maple/laplacian-guide.html 'laplacian.mpl']
          a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Part II] of the paper (haven't yet found the actual package...)
       I. Mathematica
+         a. [http://documents.wolfram.com/mathematica/Add-onsLinks/Combinatorica.html Combinatorica]
       I. mwrank
       I. Octave
       I. Tachyon Ray Tracer
