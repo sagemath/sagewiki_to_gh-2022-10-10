@@ -105,7 +105,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
       I. mwrank
       I. Octave
       I. Tachyon Ray Tracer
-   A. Software that SAGE can now include as is
+   A. Software that SAGE can now include as is (not as an optional package...)
    A. Software that SAGE should include (or maybe interface with), pending stuff (e.g. licensing)
    A. Software that is incompatible with SAGE but still useful
 
