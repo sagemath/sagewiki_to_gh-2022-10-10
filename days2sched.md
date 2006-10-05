@@ -5,14 +5,15 @@ The talks will take place in the basement of the
 [http://www.washington.edu/home/maps/northcentral.html?CMU Communications Building] on the
 University of Washington campus in room B006.  (Note that Padelford (=Math) is 
 across the street from communications.) See also the
-[http://www.washington.edu/home/maps/campusmappg.pdf printable campus map in pdf format].
-
+[http://www.washington.edu/home/maps/campusmappg.pdf printable campus map in pdf format]. 
 
 If you're listed below to speak, please ''modify this wiki page'' and create a link from your title to your talk: See the  "Sage Foundation" talk for an example, then just make the link, save this page, then click on the link -- you'll be given the chance to make the corresponding web page.
 
 =================================================================
 
 FRIDAY (Coding sprint day):
+
+B0021 in basement in the communications building
 
  * 9am  - 11am: Organization session
  
