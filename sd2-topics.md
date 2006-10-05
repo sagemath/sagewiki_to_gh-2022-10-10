@@ -6,7 +6,7 @@
 
 * SAGE-Singular interface
 
-* Brainstorm about how a "SAGE Mathematics Foundation" will work during SAGE Days. 
+* Brainstorm about how a "SAGE Mathematics Foundation" would work.
 
 * Discuss [:sd2-padicArithmetic: p-adic arithmetic] overhaul
 
