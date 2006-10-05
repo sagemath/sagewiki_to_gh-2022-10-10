@@ -108,7 +108,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
    A. Software that SAGE can now include as is (not as an optional package...)
    A. Software that SAGE should include (or maybe interface with), pending stuff (e.g. licensing)
    A. Software that is incompatible with SAGE but still useful
-   A. Apparently useless
+   A. Apparently useless / and/or misc. / and/or etc.
 
 Functionality categories:
          1. '''Representation'''
