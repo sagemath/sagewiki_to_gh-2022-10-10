@@ -16,6 +16,7 @@ FRIDAY (Coding sprint day):
 The organizational session will be in B0021 which is in the basement in the communications building.  The communications building is directly across the street from Padelford (see above).   (My cell phone 858-220-6876 doesn't work there, unfortunately.)  
 
  * 9am  - 11am: Organization session
+ * head to a block of coffee shops on the Ave for a coding sprint.
  
 =================================================================
 
