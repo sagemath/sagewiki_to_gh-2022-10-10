@@ -90,13 +90,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          1. '''Visualization'''
           . plots graphs either in lines (Linear) or in concentric circles (Concentric), ability to give specific graphs specific plotting procedures, 3d plots ("The location of the vertices of the graph is determined as follows. Let A be the adjacency matrix of G and let u, v and w be three eigenvectors of A with corresponding second, third, and fourth largest eigenvalue in absolute value. Then the (x,y,z) coordinates of the ith vertex of G is (u[i],v[i],w[i])."; "Sometimes other symmetries in the graph can be seen by using other eigenvectors. If the optional argument eigenvectors = [e1, e2, e3] is specified, where e1, e2, and e3 are vertex numbers (integers from 1 through the number of vertices), the eigenvectors corresponding to the eigenvalues of these relative magnitudes are used.")
 
-      I. Mathematica
-
-      I. mwrank
-
-      I. Octave
-
-      I. Tachyon Ray Tracer
+      I. Mathematica: [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/ GraphPlot] is built-in
 
    A. Extensions of software that SAGE interfaces with
       I. Magma
@@ -104,7 +98,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          a. [http://www.math.uga.edu/~mbaker/REU/maple/laplacian-guide.html 'laplacian.mpl']
          a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Part II] of the paper (haven't yet found the actual package...)
       I. Mathematica
-         a. [http://documents.wolfram.com/mathematica/Add-onsLinks/Combinatorica.html Combinatorica]
+         a. [http://www.combinatorica.com/ Combinatorica]
       I. mwrank
       I. Octave
       I. Tachyon Ray Tracer
