@@ -21,7 +21,7 @@
  * Kevin McGown (UCSD)
  * Robert Miller (UW)
  * Joel Mohler (Lehigh University)
- * Bobby Moretti
+ * Bobby Moretti (UW)
  * Bill Page (Axiom Developer, http://wiki.axiom-developer.org)
  * Sebastion Pauli ([http://www.uncg.edu/ UNC Greeensboro])
  * Jordi Quer (Barcelona, Oct 6-10)
@@ -32,7 +32,6 @@
  * Nathan Ryan (UCLA)
  * David Savitt (UA, Oct 7-8)
  * William Stein (UW, organizer)
- * Alexa van der Waall
  * John Voight (Minnesota, Oct 5-8)
  * Alexa van der Waall (SFU, Oct 7-8)
  * Justin Walker (Palo Alto, Oct 5-8)
