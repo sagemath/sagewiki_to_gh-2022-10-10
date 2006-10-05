@@ -1,4 +1,4 @@
-[:days2:SAGE Days 2] Coffee Shops
+[:days2:SAGE Days 2] Coffee Shops (by Josh Kantor)
 
 For lots of suggestions around the city take a look at http://seattle.wifimug.org/. Of course this guide is really not necessary. If you go anywhere in seattle and look around chances are you will see a coffee shop and probably two across the street from each other. That said here is a guide to the area around campus.
 
