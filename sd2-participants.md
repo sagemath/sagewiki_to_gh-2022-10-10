@@ -17,6 +17,7 @@
  * Joshua Kantor(UW)
  * Emily Kirkman
  * Aaron Klemm (Digipen)
+ * Douglas Lind (UW)
  * Kevin McGown (UCSD)
  * Robert Miller (UW)
  * Joel Mohler (Lehigh University)
