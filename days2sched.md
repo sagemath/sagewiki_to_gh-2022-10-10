@@ -14,7 +14,7 @@ If you're listed below to speak, please ''modify this wiki page'' and create a l
 
 FRIDAY (Coding sprint day):
 
- * 9am  - 12pm: Organization session
+ * 9am  - 11pm: Organization session
  
 =================================================================
 
