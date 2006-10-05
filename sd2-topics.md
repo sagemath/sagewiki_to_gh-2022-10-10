@@ -11,7 +11,7 @@
 * Discuss [:sd2-padicArithmetic: p-adic arithmetic] overhaul
 
 
-* Some other ideas:
+* Some other ideas (from David Joyner):
 
    1. News announcements (say to local/campus newspapers). I (=wdj) send out a
    GAP newsletter. It's a pain and sometimes I think a waste of time but a few people
@@ -26,7 +26,7 @@
    suite was available (beyond the "sage -testall"). Something like a short
    list of tasks to check that the Notebook is working properly, for example.
    If a single person is installing, then sage-suport is fine. If a college
-   or organization is installing or using SAGE for somethign, a Foundation
+   or organization is installing or using SAGE for something, a Foundation
    might be more appropriate.
 
    3. Funding for using SAGE in teaching could go through the SAGE foundation.
