@@ -104,7 +104,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
    A. Software that is incompatible with SAGE but still useful
    A. Apparently useless / and/or misc. / and/or etc.
 
-Functionality categories:
+== Functionality categories ==
          1. '''Representation'''
          1. '''Storage/Pipes'''
          1. '''Construction'''
