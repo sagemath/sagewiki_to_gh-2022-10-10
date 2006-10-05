@@ -99,9 +99,6 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Part II] of the paper (haven't yet found the actual package...)
       I. Mathematica
          a. [http://www.combinatorica.com/ Combinatorica]
-      I. mwrank
-      I. Octave
-      I. Tachyon Ray Tracer
    A. Software that SAGE can now include as is (not as an optional package...)
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
    A. Software that is incompatible with SAGE but still useful
