@@ -12,7 +12,7 @@ The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is 
  * (MartinAlbrecht) Finite field elements: Finish the transition from ["Pari"] to ["Givaro"] for small $\#F \le 2^{16}$ fields, wrap some more ["Givaro"] (& ["Linbox"] ?) classes. Wrap ["NTL"] for larger extension fields.
  * (MartinAlbrecht) SAGE/Wiki/Web integration. Needs design decisions.
  * (MartinAlbrecht) Pyrex code inspection would be very nice.
- * (MartinAlbrecht) Devote some time to ["Annoying Bugs"] and ["Bugs"]  See also the new trac server (http://sage.math.washington.edu/trac).
+ * (MartinAlbrecht) Resolve a large number of the bugs at http://sage.math.washington.edu/trac.
  * (KiranKedlaya) Internalize more GAP functionality into SAGE's own group classes, much as has already been done with PARI (for number fields) and Singular (for polynomials).
  * (IftikharBurhanuddin) Benchmark components of Sage with respect to other CAS.
    - padic, finite field (poly ring) arithmetic, for example factoring polynomials, root finding, etc.  The misc/benchmark.py file is very relevant.
