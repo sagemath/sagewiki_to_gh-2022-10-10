@@ -23,7 +23,6 @@ The [http://modular.math.washington.edu/sage/roadmap/current/  SAGE roadmap] is 
  * (IftikharBurhanuddin) Cleanup asymptotically fast elliptic curve rational torsion computation code
  * (IftikharBurhanuddin) Make the SuperSingularModule code run faster (http://sage.math.washington.edu/home/burhanud/SSMod/ssmod.py.txt)
  * (BillPage) Implement a Sage interface to Axiom (http://wiki.axiom-developer.org)
- * (MartinAlbrecht) (together with Justin Walker if he attends) Treat the Singular SPKG and push the changes upstream.
+ * (MartinAlbrecht) (together with Justin Walker) Treat the Singular SPKG and push the changes upstream.
  * (MartinAlbrecht) Make MPolynomials way faster.
  * (WilliamStein) Rings of integers of number fields (and possibly restructure arithmetic in number fields in general)
- * (WilliamStein) Write a huge number of doctests.
