@@ -15,8 +15,7 @@ If you're listed below to speak, please ''modify this wiki page'' and create a l
 FRIDAY (Coding sprint day):
 
  * 9am  - 12pm: Organization session
- * 12pm - 2pm: LUNCH (catered?)
- * 2pm ---> sprint!
+ 
 =================================================================
 
 SATURDAY (many many talks):
