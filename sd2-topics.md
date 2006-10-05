@@ -11,7 +11,7 @@
 * Discuss [:sd2-padicArithmetic: p-adic arithmetic] overhaul
 
 
-  * Some ideas:
+* Some other ideas:
 
    1. News announcements (say to local/campus newspapers). I (=wdj) send out a
    GAP newsletter. It's a pain and sometimes I think a waste of time but a few people
