@@ -49,13 +49,14 @@ Number theory:
   *  9:00 -  9:25 -- J. Voight: [:Algorithms for quaternion algebras]
   *  9:30 - 10:00 -- S. Pauli: Computational algebraic number theory -- status report
 
+10 - 10:30 -- break
+
 SAGE Development:
-  * 10:30 - 11:00 -- W. Stein: [:sd2-roadmap: Development roadmap]
-  * 11:10 - 11:50 -- D. Harvey: SAGE architecture, design and coding
-  * 12:00 - 12:30 -- T. Boothby: Ray tracing and SAGE
-  * 12:30 -  1:00 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
-  *  1:10 -  2:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
-  *  2:05 -  2:30 -- W. Stein: Wrap up.
+  * 10:30 - 11:10 -- D. Harvey: SAGE architecture, design and coding
+  * 11:20 - 11:50 -- T. Boothby: Ray tracing and SAGE
+  * 11:50 - 12:20 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
+  * 12:30 -  1:20 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
+  *  1:25 -  1:50 -- W. Stein: Wrap up.
 
 AFTERNOON: Coding Sprinters -- planning sessions.
 
