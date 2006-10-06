@@ -1,6 +1,6 @@
 This is where to find each of the groups. When you update this, write the time and date you updated it.
 
-AS OF 11:47am we are all *upstairs* at Allegro.
+AS OF 1:41PM, we've broken for lunch. We'll all eat, and re-gather upstairs at Allegro at 3PM.
 
  * GSL:
 
