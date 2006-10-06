@@ -27,7 +27,7 @@ SATURDAY (many many talks):
  Use:
   * 10:10 - 11:00 -- D. Joyner: [http://sage.math.washington.edu/home/wdj/sagefiles/sagedays2/sagedays2-10-7-2006.pdf SAGE--A Guide for Educators]
   * 11:10 - 12:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
-  * 12:00 -  2:00 -- LUNCH (catered??)
+  * 12:00 -  2:00 -- BAGEL BANQUET LUNCH
   * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): Optimizing linear algebra in SAGE
   * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics
   * 3:05 -  3:35 -- T. Boothby: The SAGE Notebook
