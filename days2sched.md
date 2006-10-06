@@ -26,15 +26,7 @@ SATURDAY (many many talks):
   * 9:00 - 10:00 -- W. Stein:  [:sd2-stein-status:The Future of SAGE]
  Use:
   * 10:10 - 11:00 -- D. Joyner: [http://sage.math.washington.edu/home/wdj/sagefiles/sagedays2/sagedays2-10-7-2006.pdf SAGE--A Guide for Educators]
-
----- /!\ '''Edit conflict - other version:''' ----
   * 11:10 - 12:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
-
----- /!\ '''Edit conflict - your version:''' ----
-  * 11:10 - 12:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
-
----- /!\ '''End of edit conflict''' ----
-   . and p-adic heights)
   * 12:00 -  2:00 -- LUNCH (catered??)
   * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): Optimizing linear algebra in SAGE
   * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics
