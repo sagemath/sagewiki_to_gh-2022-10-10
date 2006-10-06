@@ -5,7 +5,7 @@ For lots of suggestions around the city take a look at http://seattle.wifimug.or
 == Coffee Shops On Campus ==
 (Both of these are about 1 minute from the communications building.)
  * There is a Tully's in the HUB food court.   No ambience, but the whole building as well as the HUB Lawn has UW wifi. (This Tully's is part of a little convenience store, good for quick coffee and a snack) TB: there's actually two -- one is "ETC", the convenience store with the Tully's which has a robotic espresso maker which is set to "swill" mode, and the other is a real Tully's with real baristas.  It's down by the windows, and hard to see from the main hub area.
- * In the basement of the Art Building there is a coffee shop (Parnassus). No wifi but nice environment. Additionally the Quad which is the grassy area adjacent to the art building should have wifi. http://www.washington.edu/home/maps/northcentral.html?art
+ * In the basement of the Art Building there is a coffee shop (Parnassus). No wifi but nice environment. Additionally the Quad which is the grassy area adjacent to the art building should have wifi. Pooor hours. Open till 2.pm Friday. Closed on the Weekend. And open till 5 p.m. on Monday-Thursday. http://www.washington.edu/home/maps/northcentral.html?art
  * h-bar in the physics department.  Supposedly good; I'll check their hours later.
  * Tully's-in-convenience-store in Ballmer.  Not worth the effort unless you're in danger of falling asleep on the way from Allegro to Parnassus.
  * Tom's French press -- makes 8 ounces (currently in William's office.  clean it if you use it)
