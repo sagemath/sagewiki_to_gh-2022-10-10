@@ -13,7 +13,7 @@ If you're listed below to speak, please ''modify this wiki page'' and create a l
 
 FRIDAY (Coding sprint day):
 
-The organizational session will be in B0021 which is in the basement in the communications building.  The communications building is directly across the street from Padelford (see above).   (My cell phone 858-220-6876 doesn't work there, unfortunately.)  
+The organizational session will be in B022 which is in the basement in the communications building.  The communications building is directly across the street from Padelford (see above).   (My cell phone 858-220-6876 doesn't work there, unfortunately.)  
 
  * 9am  - 11am: Organization session
  * head to a block of coffee shops on the Ave for a coding sprint, see, especially [:sd2-coffeeshops: the list]; my phone 858-220-6876 will work there. 
