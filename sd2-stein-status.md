@@ -18,7 +18,7 @@ A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
 
  * Python 2.5 (see http://docs.python.org/whatsnew/whatsnew25.html)
      * index method; finally v[ZZ(2)] works!! 
-     * lists with more than $2^32$ elements
+     * lists with more than $2^{32}$ elements
      * lots of speedups
      * ctypes is included standard
      * conditional expressions: x = true_value if condition else false_value
