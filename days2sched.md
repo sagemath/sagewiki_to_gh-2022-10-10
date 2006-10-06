@@ -55,14 +55,7 @@ SAGE Development:
   * 10:30 - 11:10 -- D. Harvey: SAGE architecture, design and coding
   * 11:20 - 11:50 -- T. Boothby: Ray tracing and SAGE
   * 11:50 - 12:20 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
-
----- /!\ '''Edit conflict - other version:''' ----
-  * 12:30 -  1:20 -- D. Harvey: Implementation experience (the p-adic sigma functions
-
----- /!\ '''Edit conflict - your version:''' ----
   * 12:30 -  1:20 -- D. Harvey: Implementation experience (the p-adic sigma functions)
-
----- /!\ '''End of edit conflict''' ----
   *  1:25 -  1:50 -- W. Stein: Wrap up.
 
 AFTERNOON: Coding Sprinters -- planning sessions.
