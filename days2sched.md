@@ -22,9 +22,9 @@ The organizational session will be in B0021 which is in the basement in the comm
 
 SATURDAY (many many talks):
 
- . Direction:
+Direction:
   * 9:00 - 10:00 -- W. Stein:  [:sd2-stein-status:The Future of SAGE]
- Use:
+Use:
   * 10:10 - 11:00 -- D. Joyner: [http://sage.math.washington.edu/home/wdj/sagefiles/sagedays2/sagedays2-10-7-2006.pdf SAGE--A Guide for Educators]
   * 11:10 - 12:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
   * 12:00 -  2:00 -- BAGEL BANQUET LUNCH
