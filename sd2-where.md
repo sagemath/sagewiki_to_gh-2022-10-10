@@ -6,7 +6,7 @@ AS OF 11:47am we are all *upstairs* at Allegro.
 
  * p-adic:
 
- * linear algebra:
+ * linear algebra: we're at allegro as of 1:12 PM
 
  * arithmetic architecture: As of 13:04 we are in William's office.
 
