@@ -22,9 +22,7 @@ The organizational session will be in B0021 which is in the basement in the comm
 
 SATURDAY (many many talks):
 
-Direction:
   * 9:00 - 10:00 -- W. Stein:  [:sd2-stein-status:The Future of SAGE]
-Use:
   * 10:10 - 11:00 -- D. Joyner: [http://sage.math.washington.edu/home/wdj/sagefiles/sagedays2/sagedays2-10-7-2006.pdf SAGE--A Guide for Educators]
   * 11:10 - 12:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
   * 12:00 -  2:00 -- BAGEL BANQUET LUNCH
@@ -37,21 +35,18 @@ Use:
   * 5:30 -  5:55 -- K. McGown: Computing Bernoulli Numbers with SAGE
   * 6:00 -  6:30 -- I. Burhanuddin: computing torsion
   * 6:35 -  7:15 -- M. Albrecht: [:groebner-bases-in-sage-sd2talk:Gröbner Bases in SAGE (e.g., F4)]
- Direction:
   * 7:20 -  7:50 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation]
   * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
 =================================================================
 
 SUNDAY (mostly developer workshop)
 
-Number theory:
 
   *  9:00 -  9:25 -- J. Voight: [:Algorithms for quaternion algebras]
   *  9:30 - 10:00 -- S. Pauli: Computational algebraic number theory -- status report
 
 10 - 10:30 -- break
 
-SAGE Development:
   * 10:30 - 11:10 -- D. Harvey: SAGE architecture, design and coding
   * 11:20 - 11:50 -- T. Boothby: Ray tracing and SAGE
   * 11:50 - 12:20 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
@@ -60,7 +55,7 @@ SAGE Development:
 
 AFTERNOON: Coding Sprinters -- planning sessions.
 
- * 7:00 - ? -- DINNER; hang out at cool Seattle coffee shops
+  * 7:00 - ? -- DINNER; hang out at cool Seattle coffee shops
 =================================================================
 
 MONDAY:
