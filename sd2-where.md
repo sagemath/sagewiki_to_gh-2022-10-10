@@ -1,5 +1,7 @@
 This is where to find each of the groups. When you update this, write the time and date you updated it.
 
+AS OF 11:47am we are all *upstairs* at Allegro.
+
 GSL:
 
 p-adic:
