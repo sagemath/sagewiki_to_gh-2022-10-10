@@ -26,7 +26,7 @@ SATURDAY (many many talks):
   * 9:00 - 10:00 -- W. Stein:  [:sd2-stein-status:The Future of SAGE]
  Use:
   * 10:10 - 11:00 -- D. Joyner: [http://sage.math.washington.edu/home/wdj/sagefiles/sagedays2/sagedays2-10-7-2006.pdf SAGE--A Guide for Educators]
-  * 11:10 - 12:00 -- D. Harvey: Implementation experience (the p-adic sigma functions
+  * 11:10 - 12:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
    . and p-adic heights)
   * 12:00 -  2:00 -- LUNCH (catered??)
   * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): Optimizing linear algebra in SAGE
@@ -56,7 +56,7 @@ SAGE Development:
   * 10:30 - 11:10 -- D. Harvey: SAGE architecture, design and coding
   * 11:20 - 11:50 -- T. Boothby: Ray tracing and SAGE
   * 11:50 - 12:20 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
-  * 12:30 -  1:20 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
+  * 12:30 -  1:20 -- D. Harvey: Implementation experience (the p-adic sigma functions
   *  1:25 -  1:50 -- W. Stein: Wrap up.
 
 AFTERNOON: Coding Sprinters -- planning sessions.
