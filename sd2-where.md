@@ -2,26 +2,26 @@ This is where to find each of the groups. When you update this, write the time a
 
 AS OF 11:47am we are all *upstairs* at Allegro.
 
-GSL:
+ * GSL:
 
-p-adic:
+ * p-adic:
 
-linear algebra:
+ * linear algebra:
 
-arithmetic architecture:
+ * arithmetic architecture:
 
-singular:
+ * [:sd2-singular-configure:Singular]:
 
-gap group goodness:
+ * gap group goodness:
 
-notebook help browser:
+ * notebook help browser:
 
-L-functions:
+ * L-functions:
 
-graph theory:
+ * graph theory:
 
-Givaro:
+ * Givaro:
 
-Distribution/SAGE server hosting:
+ * Distribution/SAGE server hosting:
 
-SAGE-Axiom Interface:
+ * SAGE-Axiom Interface:
