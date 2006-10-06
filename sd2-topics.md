@@ -1,15 +1,15 @@
 == Discussion Topics ==
 
-* SAGE-Maxima interface 
+ * SAGE-Maxima interface 
 
-* SAGE-GAP interface
+ * SAGE-GAP interface
 
-* SAGE-Singular interface
+ * SAGE-Singular interface
 
 
-* Discuss [:sd2-padicArithmetic: p-adic arithmetic] overhaul
+ * Discuss [:sd2-padicArithmetic: p-adic arithmetic] overhaul
 
-* Brainstorm about how a "SAGE Mathematics Foundation" would work.
+ * Brainstorm about how a "SAGE Mathematics Foundation" would work.
 
    1. (David Joyner) News announcements (say to local/campus newspapers). I (=wdj) send out a
    GAP newsletter. It's a pain and sometimes I think a waste of time but a few people
