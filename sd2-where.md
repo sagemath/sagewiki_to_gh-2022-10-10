@@ -8,9 +8,9 @@ AS OF 11:47am we are all *upstairs* at Allegro.
 
  * linear algebra:
 
- * arithmetic architecture:
+ * arithmetic architecture: As of 13:04 we are in William's office.
 
- * [:sd2-singular-configure:Singular]:
+ * [:sd2-singular-configure:Singular]: As of 13:04 we are in William's office.
 
  * gap group goodness:
 
