@@ -17,12 +17,14 @@ A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
  * Mercurial revision control system: why? what? how? -- a very quick tour
 
  * Python 2.5 (see http://docs.python.org/whatsnew/whatsnew25.html)
-     * index method; finally v[ZZ(2)] works!! 
-     * lists with more than $2^{32}$ elements
-     * lots of speedups
-     * ctypes is included standard
-     * conditional expressions: x = true_value if condition else false_value
-     * context managers: relevant to all the discussion about precision lately: http://docs.python.org/whatsnew/pep-343.html
+     * '''list indices''': {{{__index__}}} method; This means {{{n=2; [1,2,3,4][n]}}} works!! 
+           This was implemented by Travis Oliphant (author of NumPy), since NumPy also has specialized integers.
+     * '''big lists''' lists with more than $2^{32}$ elements now supported
+     * '''speed''' lots speedups
+     * '''memory''' -- memory is now freed
+     * '''ctypes''' -- ctypes is included standard
+     * '''conditional expressions''': x = true_value if condition else false_value
+     * '''context managers''': relevant to all the discussion about precision lately: http://docs.python.org/whatsnew/pep-343.html
 
  * Recently added SAGE components:
      * GSL: GNU Scientific Library
