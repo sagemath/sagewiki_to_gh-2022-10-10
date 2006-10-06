@@ -1,8 +1,6 @@
 == SAGE Days 2: The Future of SAGE ==
 
-A talk for [:days2:the SAGE Days 2 workshop].
-
-=== William Stein ===
+A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
 
  * The purpose of this workshop:
      - lots of strategy, planning, brainstorming, etc.
