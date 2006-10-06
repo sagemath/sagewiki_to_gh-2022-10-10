@@ -10,3 +10,6 @@
  * make libboost configurable
  * remove Hannes-Sprueche (probably won't be accepted upstream)
  * merge libsingfac with libfac and libsingcf with libcf
+
+== Results ==
+ We gave up.
