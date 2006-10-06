@@ -52,3 +52,4 @@ A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
      * SAGE 3.0: parallel
      * Along the way: modular forms, elliptic curves, groebner basis, quaternion algebras, etc. -- what people want
    
+  * Home improvement -- extreme edition --- Let's build the car!
