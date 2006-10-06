@@ -40,5 +40,5 @@ A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
   * Plans:
      - SAGE 2.0: fast arithmetic
      - SAGE 3.0: parallel
-     - Along the way: modular forms, elliptic curves, etc. -- what people want
+     - Along the way: modular forms, elliptic curves, groebner basis, quaternion algebras, etc. -- what people want
    
