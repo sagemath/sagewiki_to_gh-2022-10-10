@@ -20,7 +20,7 @@ A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
      * '''list indices''': {{{__index__}}} method; This means {{{n=2; [1,2,3,4][n]}}} works!! 
            This was implemented by Travis Oliphant (author of NumPy), since NumPy also has specialized integers.
      * '''big lists''' lists with more than $2^{32}$ elements now supported
-     * '''speed''' lots speedups
+     * '''optimizations''' -- "Several of the optimizations were developed at the NeedForSpeed sprint, an event held in Reykjavik, Iceland, from May 21-28 2006."  E.g., "Exception handling in Python 2.5 is therefore about 30% faster than in 2.4."
      * '''memory''' -- memory is now freed
      * '''ctypes''' -- ctypes is included standard
      * '''conditional expressions''': x = true_value if condition else false_value
