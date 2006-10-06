@@ -6,7 +6,7 @@
  * [:sd2-participants:Confirmed Participants]
  * [:sd2-flyer-poster:Flyer and Posters]
  * [:sd2-coffeeshops:Local Coffee Shops]
- * [:sd2-where:Where To Find Us]
+ * [:sd2-where:Projects Day 1/Where To Find Us]
 UW Campus wifi: login as '''event0518''' with password '''sagedays2'''
 
 http://modular.math.washington.edu/sage/days2/sage-car.png
