@@ -25,10 +25,18 @@ A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
      * '''ctypes''' -- ctypes is included standard
      * '''conditional expressions''': x = true_value if condition else false_value
      * '''context managers''': relevant to all the discussion about precision lately: http://docs.python.org/whatsnew/pep-343.html
+     * '''any and all''' -- new mathy builtins: 
+{{{
+   sage: any(is_prime(x) for x in range(114,125))
+   False
+   sage: all(is_prime(x) for x in prime_range(50,100))
+   True
+}}}
 
- * Recently added SAGE components:
+ * Recent additions to SAGE:
      * GSL: GNU Scientific Library
      * Twisted: Networking framework
+     * Macaulay2: optional package that builds from source
 
  * Upcoming events that are relevant to SAGE development:
      * October 23-27: I'm speaking about SAGE at an IMA "Software in Algebraic Geometry" in Minnesota later this month.
