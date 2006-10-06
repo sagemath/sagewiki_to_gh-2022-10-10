@@ -17,8 +17,8 @@ A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
  * Mercurial revision control system: why? what? how? -- a very quick tour
 
  * Python 2.5 (see http://docs.python.org/whatsnew/whatsnew25.html)
-     * __index__ method; now v[ZZ(2)] works. 
-     * lists with more than 2^32 elements
+     * index method; finally v[ZZ(2)] works!! 
+     * lists with more than $2^32$ elements
      * lots of speedups
      * ctypes is included standard
      * conditional expressions: x = true_value if condition else false_value
@@ -26,7 +26,6 @@ A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
 
  * Recently added SAGE components:
      * GSL: GNU Scientific Library
-
      * Twisted: Networking framework
 
  * Upcoming events that are relevant to SAGE development:
