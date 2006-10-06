@@ -58,6 +58,8 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          1. '''Database'''
           . database interface, strongly regular graph DB, random graph from DB, slick implementation of for loops ("for G in D do ... end for;")
 
+a
+
       I. Maple: '''networks''' package, which includes:
          1. '''Representation'''
           . ?
