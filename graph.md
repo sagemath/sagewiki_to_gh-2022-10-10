@@ -142,7 +142,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
                canonical labelling
             1. '''Morphisms/Group Actions'''
                Computing automorphism groups of graphs and digraphs, isomorphism testing
-      I. GraphViz, http://www.graphviz.org 
+      I. !GraphViz, http://www.graphviz.org 
          a. open source, Common Public License Version 1.0
          a. poorly documented, at least on the web
             1. '''Visualization'''
