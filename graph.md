@@ -133,22 +133,22 @@ The main people working on this project are Emily Kirkman and Robert Miller.
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
    A. Software that is incompatible with SAGE but still useful
       I. GRIN, http://www.geocities.com/pechv_ru/
-	   for windows only
-	   not open-source, but free download 
-	1. Connectivity 
-	   bridges and cutpoints
-	1. Paths, etc.
-	   Paths and Cycles (Eulerian and Hamiltonian), Shortest Paths, Max Capacity Path, K Shortest paths, Critical path 
-	1. Trees, etc.
-	   Minimal spanning tree 
-	1. Optimization
-	   Max Flow  
-	1. Morphisms/Group Actions 
-	   Automorphism group
-      1. Topology
-	   Metrics of the graph Density, Undensity and so on...)  
-	1. Visualization
-	   2d only, Clipboard edit, decomposition of edges, resize  
+	   a. for windows only
+	   a. not open-source, but free download 
+	      1. '''Connectivity''' 
+	         bridges and cutpoints
+	      1. '''Paths, etc.'''
+	         Paths and Cycles (Eulerian and Hamiltonian), Shortest Paths, Max Capacity Path, K Shortest paths, Critical path 
+	      1. '''Trees, etc.'''
+	         Minimal spanning tree 
+	      1. '''Optimization'''
+	         Max Flow  
+	      1. '''Morphisms/Group Actions''' 
+	         Automorphism group
+             1. '''Topology'''
+	         Metrics of the graph Density, Undensity and so on...)  
+	      1. '''Visualization'''
+	         2d only, Clipboard edit, decomposition of edges, resize  
    A. Algorithm descriptions for specific problems
 	I. [http://rtm.science.unitn.it/intertools/ InterTools]
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
