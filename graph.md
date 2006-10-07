@@ -183,6 +183,11 @@ The main people working on this project are Emily Kirkman and Robert Miller.
                canonical labelling
             1. '''Morphisms/Group Actions'''
                Computing automorphism groups of graphs and digraphs, isomorphism testing
+      I. [http://keithbriggs.info/very_nauty.html Very_nauty]
+	 a. designed to be compatible with nauty
+         a. C library 	
+         1. '''Subgraphs and Subsets'''
+            cliques in G(n,p), # of graphs on n nodes with chromatic number k, # of graphs on n nodes with clique number k, new data on chromatic number and cliqe number, Lambert's w function  
       I. [http://www.graphviz.org GraphViz]
          a. open source, Common Public License Version 1.0
          a. poorly documented, at least on the web
@@ -215,13 +220,56 @@ The main people working on this project are Emily Kirkman and Robert Miller.
             1. '''Visualization'''
                2d only, Clipboard edit, decomposition of edges, resize  
       I. [http://prolland.free.fr/works/research/dsatphp/dsat.html DSATUR], a program for computing graph colorings, algorithm [http://prolland.free.fr/works/research/dsat/index.html#anchor38034 documentation] in French, input in [http://mat.gsia.cmu.edu/COLOR/general/ccformat.ps DIMACS] format, [http://prolland.free.fr/works/research/dsatphp/dsat.txt source code]
+      I. [http://www.alogorithmic-solutions.com LEDA]
+         a. Commercial, but supposedly fast
+         1. '''Morphisms / Group Actions'''
+            Module graph and subgraph isomorphisms
+      I. [http://dimacs.rutgers.edu/~berryj/LINK.html LINK]
+         a. Free, but not open source
+         a. C++ libraries	  
+      I. [http://www.informatik.uni-koeln.de/abacus/ ABACUS, (A Branch-And-!CUt System)]
+         a. open source, GNU Lesser GPL v2.1 
+         a. C++ libraries
+         1. '''Optimization'''
+            Branch-and-Bound algorithm, linear programming relaxations allow for dynamic generation of cutting planes or columns)
 
    A. Algorithm descriptions for specific problems
 	I. [http://rtm.science.unitn.it/intertools/ InterTools]
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
 	   1. Graph Partitioning (equicut)
 	   1. Quadratic Assignment Problem (QAP)
-
+      I. [http://www.cs.sunysb.edu/~algorith/implement/graphbase/implement.shtml Standford !Graphbase]
+         1. '''Generations/Random Graphs'''
+            a. Generating Graphs 
+            a. Random Number Generation
+         1. '''Database'''
+            a. Graph Data Structures
+         1. '''Trees, etc.'''
+            a. Minimum Spanning Tree
+         1. '''Paths, etc.'''
+            a. Hamiltonian Cycle
+         1. '''Optimization'''
+            a. Matching
+            a. Shortest Path
+         1. '''Connectivity'''
+            a. Edge and Vertex Connectivity
+            a. Connected Components
+         1. '''Topology'''
+            a. Topological Sorting
+         1. '''Morphisms/Group Actions'''
+            a. Generating Permutations
+      I. [http://www.paddle.mb.ca/G&G/G&G.html Groups & Graphs]
+         a. free download, but no mention of source or license
+         a. no internet doc's
+         a. links out to papers on algorithms (references Brendan !McKay's ''Practical Graph Isomorphism'' paper)
+         a. Algorithms:
+            1. '''Morphisms/Group Actions'''
+               a. Graph Isomorphism
+               a. Permutations Groups
+            1. '''Paths, etc.'''
+               a. Hamilton Cycles
+            1. '''Visualization'''
+               a. Draw Symmetric
    A. Apparently useless / and/or misc. / and/or etc.
         I. [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Scalable Libraries for Graph Partitioning], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
 
