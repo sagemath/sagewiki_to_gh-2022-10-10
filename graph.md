@@ -133,7 +133,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
       I. Nauty, http://cs.anu.edu.au/~bdm/nauty/
          a. Benchmark program
-         a. Source posted, but no public license - should contact Brendan McKay
+         a. Source posted, but no public license - should contact Brendan !McKay
          a. Written in portable subset of C, python wrapper already in existence (see pynauty)
          a. Nauty interfaces with MAGMA and GRAPE (GAP package)
             1. '''Construction'''
