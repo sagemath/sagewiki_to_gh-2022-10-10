@@ -149,7 +149,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
                DOT makes "hierarchical" drawings of directed graphs.  Algorithm aims edges in same direction and attempts to not cross edges and reduce length.
                NEATO uses spring method, via the Kamada-Kawai algorithm (statistical multi-dimensional scaling)
                fdp also uses the spring model, via the Fruchterman-Reingold heuristic (handles larger graphs and undirected, clustered graphs)
-   A. Software that is incompatible with SAGE but still useful
+   A. Software that is incompatible with SAGE but still useful (e.g. web-based applets)
       I. [http://www.geocities.com/pechv_ru/ GRIN]
 	   a. for windows only
 	   a. not open-source, but free download 
@@ -167,6 +167,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 	         Metrics of the graph Density, Undensity and so on...)    
             1. '''Visualization'''
                2d only, Clipboard edit, decomposition of edges, resize  
+      I. [http://prolland.free.fr/works/research/dsatphp/dsat.html DSATUR], a program for computing graph colorings, algorithm [http://prolland.free.fr/works/research/dsat/index.html#anchor38034 documentation] in French, input in [http://mat.gsia.cmu.edu/COLOR/general/ccformat.ps DIMACS] format, [http://prolland.free.fr/works/research/dsatphp/dsat.txt source code]
    A. Algorithm descriptions for specific problems
 	I. [http://rtm.science.unitn.it/intertools/ InterTools]
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
