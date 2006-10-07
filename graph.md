@@ -149,6 +149,12 @@ The main people working on this project are Emily Kirkman and Robert Miller.
                DOT makes "hierarchical" drawings of directed graphs.  Algorithm aims edges in same direction and attempts to not cross edges and reduce length.
                NEATO uses spring method, via the Kamada-Kawai algorithm (statistical multi-dimensional scaling)
                fdp also uses the spring model, via the Fruchterman-Reingold heuristic (handles larger graphs and undirected, clustered graphs)
+      I. [http://cs.anu.edu.au/people/bdm/plantri/ plantri and fullgen] written in C, tested mainly on UNIX, weird license ('free for all purposes other than sale for profit. However, they remain subject to our copyright and are not "public domain".'): interesting note, co-authored by Brendan !McKay, of ''nauty''
+         1. '''Generation/Random Graphs'''
+          * plantri: "exactly one member of each isomorphism class is output without the need for storing them. The speed of generation is more than 100,000 graphs per second in most cases, so extremely large classes of graph can be exhaustively listed.", classes include planar triangulations, quadrangulations, simple graphs, triangulations of a disc, planar cubic and quartic graphs
+          * fullgen generates fullerenes
+          * see also [http://hep.physics.indiana.edu/~tsulanke/graphs/surftri/ surftri], which generates triangulations of surfaces of higher genus
+
    A. Software that is incompatible with SAGE but still useful (e.g. web-based applets)
       I. [http://www.geocities.com/pechv_ru/ GRIN]
 	   a. for windows only
