@@ -131,6 +131,24 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          a. [http://www.combinatorica.com/ Combinatorica] - for a list of functions, see [http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf help.pdf], page 13-14, 18, 21, 23, 25 - for a [http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/ book]
    A. Software that SAGE can now include as is (not as an optional package...)
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
+      I. Nauty, http://cs.anu.edu.au/~bdm/nauty/
+         a. Benchmark program
+         a. Source posted, but no public license - should contact Brendan McKay
+         a. Written in portable subset of C, python wrapper already in existence (see pynauty)
+         a. Nauty interfaces with MAGMA and GRAPE (GAP package)
+            1. '''Construction'''
+               includes gtools - quick generators for non-isomorphic graphs, also generates bipartite graphs and digraphs 
+            1. '''Invariants'''
+               canonical labelling
+            1. '''Morphisms/Group Actions'''
+               Computing automorphism groups of graphs and digraphs, isomorphism testing
+      I. GraphViz, http://www.graphviz.org 
+         a. open source, Common Public License Version 1.0
+         a. poorly documented, at least on the web
+            1. '''Visualization'''
+               DOT makes "hierarchical" drawings of directed graphs.  Algorithm aims edges in same direction and attempts to not cross edges and reduce length.
+               NEATO uses spring method, via the Kamada-Kawai algorithm (statistical multi-dimensional scaling)
+               fdp also uses the spring model, via the Fruchterman-Reingold heuristic (handles larger graphs and undirected, clustered graphs)
    A. Software that is incompatible with SAGE but still useful
       I. GRIN, http://www.geocities.com/pechv_ru/
 	   a. for windows only
