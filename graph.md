@@ -134,7 +134,6 @@ The main people working on this project are Emily Kirkman and Robert Miller.
    A. Software that is incompatible with SAGE but still useful
    A. Algorithm descriptions for specific problems
 	I. [http://rtm.science.unitn.it/intertools/ InterTools]
-	   1. Maximum Satisfiability (SAT)
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
 	   1. Graph Partitioning (equicut)
 	   1. Quadratic Assignment Problem (QAP)
