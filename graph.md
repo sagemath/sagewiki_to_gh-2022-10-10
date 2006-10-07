@@ -131,7 +131,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          a. [http://www.combinatorica.com/ Combinatorica] - for a list of functions, see [http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf help.pdf], page 13-14, 18, 21, 23, 25 - for a [http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/ book]
    A. Software that SAGE can now include as is (not as an optional package...)
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
-      I. Nauty, http://cs.anu.edu.au/~bdm/nauty/
+      I. [http://cs.anu.edu.au/~bdm/nauty/ Nauty]
          a. Benchmark program
          a. Source posted, but no public license - should contact Brendan !McKay
          a. Written in portable subset of C, python wrapper already in existence (see pynauty)
@@ -142,7 +142,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
                canonical labelling
             1. '''Morphisms/Group Actions'''
                Computing automorphism groups of graphs and digraphs, isomorphism testing
-      I. !GraphViz, http://www.graphviz.org 
+      I. [http://www.graphviz.org GraphViz]
          a. open source, Common Public License Version 1.0
          a. poorly documented, at least on the web
             1. '''Visualization'''
@@ -150,7 +150,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
                NEATO uses spring method, via the Kamada-Kawai algorithm (statistical multi-dimensional scaling)
                fdp also uses the spring model, via the Fruchterman-Reingold heuristic (handles larger graphs and undirected, clustered graphs)
    A. Software that is incompatible with SAGE but still useful
-      I. GRIN, http://www.geocities.com/pechv_ru/
+      I. [http://www.geocities.com/pechv_ru/ GRIN]
 	   a. for windows only
 	   a. not open-source, but free download 
 	      1. '''Connectivity''' 
