@@ -138,7 +138,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          1. '''Storage/Pipes'''
           . 'convert' module converts NetworkX graphs to and from other formats: python dict of lists, python dict of dicts, numpy matrices, scipy sparse matrices, pygraphviz; 
          1. '''Construction'''
-          . add path, add cycle, incremental construction, subgraphs, copy, directed $\leftrightarrow$ undirected, balanced r-tree of height h, barbell graph, complete graph, complete bipartite, circular ladder graph, cycle, hierarchically constructed Dorogovtsev-Goltsev-Mendes graph, empty graph, grid graph, n-dim grid graph, hypercube, ladder graph, lollipop graph ($K_n # P_m$), null graph (#verts = 0), path graph ($P_n$), star graph, trivial graph (#verts = 1), wheel graph, 
+          . add path, add cycle, incremental construction, subgraphs, copy, directed $\leftrightarrow$ undirected, balanced r-tree of height h, barbell graph, complete graph, complete bipartite, circular ladder graph, cycle, hierarchically constructed Dorogovtsev-Goltsev-Mendes graph, empty graph, grid graph, n-dim grid graph, hypercube, ladder graph, lollipop graph ($K_n \# P_m$), null graph (#verts = 0), path graph ($P_n$), star graph, trivial graph (#verts = 1), wheel graph, 
          1. '''Decorations''' (Coloring, Weight, Flow, etc.)
          1. '''Invariants'''
           . density, 
@@ -165,7 +165,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          1. '''Geometry'''
          1. '''Topology'''
          1. '''Generation/Random Graphs'''
-          . random bipartite graph from two degree sequences (four versions: including regular, 'reverse' and alternating Havel-Hakimi style), bipartite preferential attachment, bipartite with fixed degree, projection of bipartite onto selected nodes, random pseudograph with given degree sequence, random graph with expected degree given, Havel-Hakimi for simple graphs, tree with given degree sequence, generate a graph with given degree sequence maximizing s-metric, s-metric (the sum of the product deg(u)*deg(v) for every edge u-v in G Reference:: @unpublished{li-2005, author = {Lun Li and David Alderson and John C.)
+          . random bipartite graph from two degree sequences (four versions: including regular, 'reverse' and alternating Havel-Hakimi style), bipartite preferential attachment, bipartite with fixed degree, projection of bipartite onto selected nodes, random pseudograph with given degree sequence, random graph with expected degree given, Havel-Hakimi for simple graphs, tree with given degree sequence, generate a graph with given degree sequence maximizing s-metric, s-metric (the sum of the product $deg(u)*deg(v)$ for every edge u-v in G (Reference unpublished li-2005, author Lun Li and David Alderson and John C.)), digraphs: growing network, growing network with redirection or copying; random geometric graph in the unit cube, $G_{n,p}$ Erd\"os-R\'enyi
          1. '''Database'''
           . atlas function returns all graphs on up to 7 vertices (see "An Atlas of Graphs" by Ronald C. Read and Robin J. Wilson, Oxford University Press, 1998.)
          1. '''Visualization'''
