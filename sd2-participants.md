@@ -7,7 +7,7 @@
  * Nils Bruin (SFU, Oct 7-8)
  * Iftikhar Burhanuddin (USC, Oct 6-8)
  * Craig Citro (UCLA)
- * Alex Clemesha (UW)
+ * Alex Clemesha (UW) [http://modular.math.washington.edu/home/agc/sagedays2.pdf pdf of talk] [http://modular.math.washington.edu/home/agc/sagedays2.sws worksheet of talk]
  * Didier Deshommes (North Carolina)
  * Ralph Greenberg (UW)
  * Jonathan Hanke (Duke)
