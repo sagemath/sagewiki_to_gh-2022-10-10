@@ -146,9 +146,9 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 	      1. '''Morphisms/Group Actions''' 
 	         Automorphism group
             1. '''Topology'''
-	         Metrics of the graph Density, Undensity and so on...)  
-	      1. '''Visualization'''
-	         2d only, Clipboard edit, decomposition of edges, resize  
+	         Metrics of the graph Density, Undensity and so on...)    
+            1. '''Visualization'''
+               2d only, Clipboard edit, decomposition of edges, resize  
    A. Algorithm descriptions for specific problems
 	I. [http://rtm.science.unitn.it/intertools/ InterTools]
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
