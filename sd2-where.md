@@ -7,9 +7,9 @@ This is where to find each of the groups. When you update this, write the time a
 
  * linear algebra: we're at allegro as of 5:32PM
 
- * arithmetic architecture: As of 13:04 we are in William's office.
+ * arithmetic architecture: As of 18:45, we are still in William's office.  Heading off to dinner soon.
 
- * [:sd2-singular-configure:Singular]: As of 16:45 we are still in William's office.
+ * [:sd2-singular-configure:Singular]: As of 18:45 we are still in William's office.  Heading off to dinner soon.
 
  * gap group goodness:
 
