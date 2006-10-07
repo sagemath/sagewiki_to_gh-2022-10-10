@@ -11,17 +11,17 @@ This is where to find each of the groups. When you update this, write the time a
    [[BR]]
    status: design (designing classes and examples of their possibly syntax, ...)
 
- * linear algebra: we're at allegro as of 5:32PM
+ * linear algebra: 
    Robert Bradshaw, Craig Citro (fast matrix multiplication), David Harvey, Yi Qiang, Rishikesh, Nathan Ryan
    [[BR]]
    status: code (get QQ and ZZ/nZZ stuff working ...)
 
- * arithmetic architecture: As of 18:45, we are still in William's office.  Heading off to dinner soon.
+ * arithmetic architecture:
    Robert Bradshaw, David Harvey, Joel Mohler, Nathan Ryan, Justin Walker, Joe Wetherall,
    [[BR]]
    status: design (1. call into pyrex does not call python fcns, 2. coercion and optimization issues)
 
- * [:sd2-singular-configure:Singular]: As of 18:45 we are still in William's office.  Heading off to dinner soon.
+ * [:sd2-singular-configure:Singular]:
    Martin Albbrecht, Justin Walker
    [[BR]]
    status: code (compiling and omalloc is an issue)
@@ -36,7 +36,7 @@ This is where to find each of the groups. When you update this, write the time a
    [[BR]]
    status: design
 
- * notebook help browser: Communications B006 as of 21:00
+ * notebook help browser: 
    Tom Boothby, Alex Clemesha, Dorian Raymer
    [[BR]]
    status: design (1. full text search (returning SAGE functions, not grepping), 2. docstrings->SAGE worksheet)
@@ -46,7 +46,7 @@ This is where to find each of the groups. When you update this, write the time a
    [[BR]]
    status: code 
 
- * graph theory: as of 5:10PM we are at Cafe on the Ave
+ * graph theory: 
    Emily Kirkman, Bobby Moretti
    [[BR]]
    status: design
