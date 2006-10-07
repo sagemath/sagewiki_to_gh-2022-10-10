@@ -92,7 +92,25 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          1. '''Visualization'''
           . plots graphs either in lines (Linear) or in concentric circles (Concentric), ability to give specific graphs specific plotting procedures, 3d plots ("The location of the vertices of the graph is determined as follows. Let A be the adjacency matrix of G and let u, v and w be three eigenvectors of A with corresponding second, third, and fourth largest eigenvalue in absolute value. Then the (x,y,z) coordinates of the ith vertex of G is (u[i],v[i],w[i])."; "Sometimes other symmetries in the graph can be seen by using other eigenvectors. If the optional argument eigenvectors = [e1, e2, e3] is specified, where e1, e2, and e3 are vertex numbers (integers from 1 through the number of vertices), the eigenvectors corresponding to the eigenvalues of these relative magnitudes are used.")
 
-      I. Mathematica: [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/ GraphPlot] is built-in
+      I. Mathematica: [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/ GraphPlot] ([http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotReferences.html biblio]) is built-in: also a few functions for "applications" (?); designed to work well with large graphs; also supports graphs from ''Combinatorica''
+         1. '''Representation'''
+          . graph simply ''is'' an adjacency matrix (could be sparse), or a list of rules (e.g. {1->2, 2->3, 3->4, 4->1})
+         1. '''Construction'''
+          . N/A (see representation)
+         1. '''Predicates'''
+          . vertex list (apparently only nontrivial when graph is a rule list, see representation)
+         1. '''Subgraphs and Subsets'''
+          . maximal independent vertex sets and edge sets, 
+         1. '''Connectivity'''
+          . list strongly connected components, 
+         1. '''Paths, etc.'''
+          . distance, pseudo-diameter (see [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotPseudoDiameter.html Documentation])
+         1. '''Trees, etc.'''
+          . [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotTreePlot.html TreePlot] uses the layered drawing algorithm, implements more control: 
+         1. '''Optimization'''
+          . maximum matching for bipartite, [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotMinCut.html min cut] problem
+         1. '''Visualization'''
+          . [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotGraphPlotAndGraphPlot3D.html ALGORITHMS] include spring model, spring-electrical model, high-dimensional embedding (random seeds can be given for spring models, link includes options for the spring models); tree algorithms include radial drawing, layered drawing (see G. Di Battista, P. Eades, R. Tamassia, and I. G. Tollis, Algorithms for the Visualization of Graphs, Prentice-Hall, 1999.); vertex styles and colors, edge styles and colors; function to return coordinates without drawing
 
    A. Extensions of software that SAGE interfaces with
       I. Magma
