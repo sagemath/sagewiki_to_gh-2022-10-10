@@ -131,6 +131,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
    A. Software that SAGE can now include as is (not as an optional package...)
       I. [http://gato.sourceforge.net/ Gato], a tool that animates algorithms, perhaps SAGE cannot actually include right now as is, but license is LGPL, and it requires Python and Tcl/Tk
        . seems that you can write your algorithm in one window and watch it go, supports 3d
+      I. [https://networkx.lanl.gov/ NetworkX], seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, SciPy, PyGSL, sAsync, PyYAML
 
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
       I. [http://cs.anu.edu.au/~bdm/nauty/ Nauty]
