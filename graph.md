@@ -174,6 +174,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 	   1. Graph Partitioning (equicut)
 	   1. Quadratic Assignment Problem (QAP)
    A. Apparently useless / and/or misc. / and/or etc.
+        I. [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Scalable Libraries for Graph Partitioning], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
 
 == Functionality categories ==
          1. '''Representation'''
