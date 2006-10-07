@@ -27,7 +27,7 @@ SATURDAY (many many talks):
   * 11:10 - 12:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
   * 12:00 -  2:00 -- BAGEL BANQUET LUNCH
   * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): Optimizing linear algebra in SAGE
-  * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics
+  * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics [http://sage.math.washington.edu/home/agc]
   * 3:05 -  3:35 -- T. Boothby: The SAGE Notebook
   * 3:35 -  4:15 -- AFTERNOON BREAK
   * 4:15 -  4:45 -- B. Page: [:AxiomCompiler:Introduction to the Axiom Library compiler for Python Programmers]
