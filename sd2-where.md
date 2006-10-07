@@ -13,7 +13,7 @@ This is where to find each of the groups. When you update this, write the time a
 
  * gap group goodness:
 
- * notebook help browser:
+ * notebook: Communications B006 as of 21:00
 
  * L-functions:
 
