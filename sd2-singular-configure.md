@@ -12,4 +12,11 @@
  * merge libsingfac with libfac and libsingcf with libcf
 
 == Results ==
- We gave up.
+ We gave up.  There seems to be no good way to make progress
+ on this until we get some input from the Singular folk and help
+ from an 'autoconf' maven.
+
+ We will continue to look at individual issues (like the dynamic
+ kernel on Mac OS X), but the list above is a bit too ambitious
+ given our knowledge of 'autoconf', and the need to coordinate
+ and get feedback from the Singular team.
