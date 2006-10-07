@@ -115,15 +115,25 @@ The main people working on this project are Emily Kirkman and Robert Miller.
    A. Extensions of software that SAGE interfaces with
       I. Magma
       I. Maple
-         a. [http://www.math.uga.edu/~mbaker/REU/maple/laplacian-guide.html 'laplacian.mpl']
+         a. [http://www.math.uga.edu/~mbaker/REU/maple/laplacian-guide.html 'laplacian.mpl']; [http://www.fmf.uni-lj.si/~mohar/Papers/Spec.pdf here] is a paper on the Laplacian Spectrum
+            1. '''Storage/Pipes'''
+             . creation of certain spreadsheets, such as known eigenvalues and eigenvalues of increasing subdivisions of the graph
+            1. '''Construction'''
+             . banana graphs, star graphs, bouquets and flowers, hypercubes, supercirc (see docs), subdivide edges into n edges, contract, assign directions (apparently in a random way)
+            1. '''Decorations''' (Coloring, Weight, Flow, etc.)
+             . normalilze (so sum of weights = 1)
+            1. '''Algebra'''
+             . discrete laplacian matrix (this function may fight with the built-in laplacian in 'linalg'), compute its eigenvalues given a measure, 
+            1. '''Topology'''
+             . (laplacian matrix), effective resistance between vertices, discrete and continuous canonical measure [http://www.math.uga.edu/~mbaker/REU/tex/canonical.pdf#search=%22graph%20tau%22 an unrelated explanation?] and tau (also, taushorten "Investigates the behavior of tau as an edge is shortened"), discrete dx measure
          a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Part II] of the paper (haven't yet found the actual package...)
       I. Mathematica
-         a. [http://www.combinatorica.com/ Combinatorica]
+         a. [http://www.combinatorica.com/ Combinatorica] - for a list of functions, see [http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf help.pdf], page 13-14, 18, 21, 23, 25 - for a [http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/ book]
    A. Software that SAGE can now include as is (not as an optional package...)
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
    A. Software that is incompatible with SAGE but still useful
    A. Algorithm descriptions for specific problems
-	I. InterTools, http://rtm.science.unitn.it/intertools/
+	I. !InterTools, http://rtm.science.unitn.it/intertools/
 	   1. Maximum Satisfiability (SAT)
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
 	   1. Graph Partitioning (equicut)
