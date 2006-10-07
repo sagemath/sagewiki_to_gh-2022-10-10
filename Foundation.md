@@ -16,7 +16,9 @@ There is already something called [http://thesagefoundation.org/ The SAGE founda
 
    * Why does the SAGE Mathematics Foundation exist? 
          * Be a nonprofit tax-exempt organization under Section 501(c)(3) of the IRS tax code.  Can receive donations, license fees, payment for technical support, etc.  Resulting money can then be used to support students, visitors, purchase of equipment, workshops, and give grants to applicants for SAGE development. 
-         * Provide an advisory board to help people applying for grants (e.g., from NSF), for conferences, and deciding how to use funds they have.    
+         * Provide an advisory board to help people applying for grants (e.g., from NSF), for conferences, and deciding how to use funds they have. 
+         * Hold SAGE's intellectual property rights. 
+         * Trademark the SAGE name, or choose another name if necessary that can be trademarked (e.g., sagemath). 
    
    * What is the Foundation going to do to achieve this purpose?
          * Run workshops
