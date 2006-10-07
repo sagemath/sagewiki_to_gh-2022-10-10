@@ -1,6 +1,10 @@
 == The SAGE Mathematics Foundation ==
 
-There is already something called [http://thesagefoundation.org/ The SAGE foundation] in New Jersey. The financial section of their website is interesting, since they post several relevant IRS documents. 
+SAGE clearly needs a '''SAGE Foundation'''. 
+
+There is already something called [http://thesagefoundation.org/ The SAGE foundation] in New Jersey. (The financial section of their website is interesting, since they post several relevant IRS documents.)
+
+   QUESTION 1: Can I create another "SAGE Foundation", or do foundation names have to be unique?  This is basically a question about IRS tax codes, I think. 
 
 == Mission Statement ==
 
