@@ -58,8 +58,6 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          1. '''Database'''
           . database interface, strongly regular graph DB, random graph from DB, slick implementation of for loops ("for G in D do ... end for;")
 
-
-
       I. Maple: '''networks''' package, which includes:
          1. '''Representation'''
           . ?
@@ -129,7 +127,11 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Part II] of the paper (haven't yet found the actual package...)
       I. Mathematica
          a. [http://www.combinatorica.com/ Combinatorica] - for a list of functions, see [http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf help.pdf], page 13-14, 18, 21, 23, 25 - for a [http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/ book]
+
    A. Software that SAGE can now include as is (not as an optional package...)
+      I. [http://gato.sourceforge.net/ Gato], a tool that animates algorithms, perhaps SAGE cannot actually include right now as is, but license is LGPL, and it requires Python and Tcl/Tk
+       . seems that you can write your algorithm in one window and watch it go, supports 3d
+
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
       I. [http://cs.anu.edu.au/~bdm/nauty/ Nauty]
          a. Benchmark program
@@ -174,11 +176,13 @@ The main people working on this project are Emily Kirkman and Robert Miller.
             1. '''Visualization'''
                2d only, Clipboard edit, decomposition of edges, resize  
       I. [http://prolland.free.fr/works/research/dsatphp/dsat.html DSATUR], a program for computing graph colorings, algorithm [http://prolland.free.fr/works/research/dsat/index.html#anchor38034 documentation] in French, input in [http://mat.gsia.cmu.edu/COLOR/general/ccformat.ps DIMACS] format, [http://prolland.free.fr/works/research/dsatphp/dsat.txt source code]
+
    A. Algorithm descriptions for specific problems
 	I. [http://rtm.science.unitn.it/intertools/ InterTools]
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
 	   1. Graph Partitioning (equicut)
 	   1. Quadratic Assignment Problem (QAP)
+
    A. Apparently useless / and/or misc. / and/or etc.
         I. [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Scalable Libraries for Graph Partitioning], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
 
