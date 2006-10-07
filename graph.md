@@ -145,7 +145,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 	         Max Flow  
 	      1. '''Morphisms/Group Actions''' 
 	         Automorphism group
-             1. '''Topology'''
+            1. '''Topology'''
 	         Metrics of the graph Density, Undensity and so on...)  
 	      1. '''Visualization'''
 	         2d only, Clipboard edit, decomposition of edges, resize  
