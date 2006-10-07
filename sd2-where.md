@@ -57,11 +57,11 @@ This is where to find each of the groups. When you update this, write the time a
    status: code
 
  * Distribution/SAGE server hosting:
-   Aaron Klemm, Bill Page
+   Aaron Klemm, [:BillPage:Bill Page]
    [[BR]]
    status: design
 
  * SAGE-Axiom Interface:
-   Bill Page
+   [:BillPage:Bill Page]
    [[BR]]
    status: code
