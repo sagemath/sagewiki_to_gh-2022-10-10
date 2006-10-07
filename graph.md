@@ -132,6 +132,30 @@ The main people working on this project are Emily Kirkman and Robert Miller.
       I. [http://gato.sourceforge.net/ Gato], a tool that animates algorithms, perhaps SAGE cannot actually include right now as is, but license is LGPL, and it requires Python and Tcl/Tk
        . seems that you can write your algorithm in one window and watch it go, supports 3d
       I. [https://networkx.lanl.gov/ NetworkX], seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, SciPy, PyGSL, sAsync, PyYAML
+         1. '''Representation'''
+          * in Graph and DiGraph, "data structures based on an adjacency list implemented as a node-centric dictionary of dictionaries. The dictionary contains keys corresponding to the nodes and the values are dictionaries of neighboring node keys with the value None (the Python None type). This allows fast addition, deletion and lookup of nodes and neighbors in large graphs"
+          * "The XGraph and XDiGraph classes are extensions of the Graph and DiGraph classes in base.py. The key difference is that an XGraph edge is a 3-tuple e=(n1,n2,x), representing an undirected edge between nodes n1 and n2 that is decorated with the object x. Here n1 and n2 are (hashable) node objects and x is a (not necessarily hashable) edge object. Since the edge is undirected, edge (n1,n2,x) is equivalent to edge (n2,n1,x). An XDiGraph edge is a similar 3-tuple e=(n1,n2,x), with the additional property of directedness. I.e. e=(n1,n2,x) is a directed edge from n1 to n2 decorated with the object x, and is not equivalent to the edge (n2,n1,x). Whether a graph or digraph allow self-loops or multiple edges is determined at the time of object instantiation via specifying the parameters selfloops=True/False and multiedges=True/False."
+         1. '''Storage/Pipes'''
+         1. '''Construction'''
+         1. '''Decorations''' (Coloring, Weight, Flow, etc.)
+         1. '''Invariants'''
+         1. '''Predicates'''
+         1. '''Subgraphs and Subsets'''
+         1. '''Adjacency, etc.'''
+         1. '''Connectivity'''
+         1. '''Paths, etc.'''
+         1. '''Trees, etc.'''
+         1. '''Colorings'''
+         1. '''Optimization'''
+         1. '''Embedding''' (Planar graphs, etc.)
+         1. '''Algebra'''
+         1. '''Morphisms/Group Actions'''
+         1. '''Symmetry'''
+         1. '''Geometry'''
+         1. '''Topology'''
+         1. '''Generation/Random Graphs'''
+         1. '''Database'''
+         1. '''Visualization'''
 
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
       I. [http://cs.anu.edu.au/~bdm/nauty/ Nauty]
