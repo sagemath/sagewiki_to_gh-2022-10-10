@@ -18,7 +18,7 @@ AS OF 1:41PM, we've broken for lunch. We'll all eat, and re-gather upstairs at A
 
  * L-functions:
 
- * graph theory: as of 3:00PM Bobby is at Allegro
+ * graph theory: as of 5:10PM we are at Cafe on the Ave
 
  * Givaro:
 
