@@ -122,6 +122,12 @@ The main people working on this project are Emily Kirkman and Robert Miller.
    A. Software that SAGE can now include as is (not as an optional package...)
    A. Software that SAGE should include (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
    A. Software that is incompatible with SAGE but still useful
+   A. Algorithm descriptions for specific problems
+	I. InterTools, http://rtm.science.unitn.it/intertools/
+	   1. Maximum Satisfiability (SAT)
+	   1. Maximum Clique in Graphs (MAX-CLIQUE)
+	   1. Graph Partitioning (equicut)
+	   1. Quadratic Assignment Problem (QAP)
    A. Apparently useless / and/or misc. / and/or etc.
 
 == Functionality categories ==
