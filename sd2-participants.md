@@ -36,3 +36,4 @@
  * Alexa van der Waall (SFU, Oct 7-8)
  * Justin Walker (Palo Alto, Oct 5-8)
  * Joseph Wetherell (San Diego)
+ * Steve R. Hastings (interested lay person)
