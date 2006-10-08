@@ -44,7 +44,7 @@ SUNDAY
 (lots of food provided)
 
   *  9:00 -  9:25 -- J. Voight: [:Algorithms for quaternion algebras]
-  *  9:30 - 10:00 -- S. Pauli: [:Algorithmic algebraic number theory -- status report]
+  *  9:30 - 10:00 -- S. Pauli: [http://www.uncg.edu/~s_pauli/pub/pauli_sagedays_2.pdf Algorithmic algebraic number theory -- status report]
   * 10:00 - 10:30 -- Morning break.
   * 10:45 - 11:25 -- D. Harvey: Implementation experience (the p-adic sigma functions)
   * 11:35 - 12:05 -- T. Boothby: Ray tracing and SAGE
