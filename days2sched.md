@@ -62,7 +62,7 @@ MONDAY:
 
  . Coding sprints in B027 (computer lab)
   * 10:00 - 11:30: Status reports; organization
-  * 5:00 -  6:00: Lightening demos
+  * 5:00 -  6:00: Lightning demos
 =================================================================
 
 TUESDAY:
