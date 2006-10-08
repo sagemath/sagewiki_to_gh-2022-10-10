@@ -1,5 +1,6 @@
 [:days2:SAGE Days 2] Schedule
 
+NOTE: Talks on Sunday have been moved to room B326.
 
 The talks will take place in the basement of the
 [http://www.washington.edu/home/maps/northcentral.html?CMU Communications Building] on the
