@@ -195,8 +195,16 @@ The main people working on this project are Emily Kirkman and Robert Miller.
           * Draw networks with matplotlib (pylab)
           * Draw networks in 3d with [http://www.vtk.org/ vtk]
 
+
+---- /!\ '''Edit conflict - other version:''' ----
 === Software that SAGE can now include as optional ===
       (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
+
+---- /!\ '''Edit conflict - your version:''' ----
+=== Software that SAGE can now include as optional ===
+      (or maybe interface with)
+
+---- /!\ '''End of edit conflict''' ----
 ==== Very_nauty ====
        [http://keithbriggs.info/very_nauty.html Link]
 	 a. designed to be compatible with nauty
