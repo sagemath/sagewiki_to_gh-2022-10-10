@@ -23,7 +23,7 @@
  * Joel Mohler (Lehigh University)
  * Bobby Moretti (UW)
  * Bill Page (Axiom Developer, http://wiki.axiom-developer.org)
- * Sebastion Pauli ([http://www.uncg.edu/ UNC Greeensboro])
+ * Sebastian Pauli [http://www.uncg.edu/mat UNC Greeensboro])
  * Jordi Quer (Barcelona, Oct 6-10)
  * Rishikesh (Waterloo)
  * Dorian Raymer (UCSD, physics) [http://sdphca.ucsd.edu/phy121/Tour_121/pictures_121_2005/6_PH1_0034.JPG blimp]
