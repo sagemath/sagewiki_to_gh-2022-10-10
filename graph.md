@@ -8,17 +8,17 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 
 == Survey of existing Graph Theory software ==
 
-=== Software included with SAGE ===
-==== GAP ====
-==== Maxima ====
-==== Singular ====
-==== PARI, MWRANK, NTL ====
-==== Matplotlib ====
-==== GSL, Numeric ====
+   A. Software included with SAGE
+      I. GAP
+      I. Maxima
+      I. Singular
+      I. PARI, MWRANK, NTL
+      I. Matplotlib
+      I. GSL, Numeric
 
-===Software SAGE interfaces with (but does not include)===
+   A. Software SAGE interfaces with (but does not include)
 
-==[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1452.htm Magma]==
+      I. [http://magma.maths.usyd.edu.au/magma/htmlhelp/text1452.htm Magma]
          1. '''Representation'''
           . Sparse support; function computes memory requirement for graph with n verts and m edges; consists of graph itself, vertex set, and edge set
          1. '''Storage/Pipes'''
