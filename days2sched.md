@@ -52,14 +52,13 @@ SUNDAY (mostly developer workshop)
   * 12:30 -  1:20 -- D. Harvey: Implementation experience (the p-adic sigma functions)
   * 1:25 -  2:30 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation] and wrap up.
 
-AFTERNOON: Coding Sprinters -- planning sessions.
-
-  * 7:00 - ? -- DINNER; hang out at cool Seattle coffee shops
+  * 2:30 -- 8:00 -- coding sprint!!!
+  * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
 =================================================================
 
 MONDAY:
 
- . Coding sprints:
+ . Coding sprints in B027 (computer lab)
   * 10:00 - 11:30: Status reports; organization
   * 5:00 -  6:00: Lightening demos
 =================================================================
