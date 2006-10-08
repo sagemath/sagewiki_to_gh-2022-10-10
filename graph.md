@@ -187,7 +187,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
          a. Benchmark program
          a. Source posted, but no public license - should contact Brendan !McKay
          a. Written in portable subset of C, python wrapper already in existence (see pynauty)
-         a. Nauty interfaces with MAGMA and GRAPE (GAP package)
+         a. Both MAGMA and GRAPE (GAP package) use nauty
             1. '''Construction'''
                includes gtools - quick generators for non-isomorphic graphs, also generates bipartite graphs and digraphs
             1. '''Invariants'''
