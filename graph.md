@@ -262,7 +262,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
 	   1. Graph Partitioning (equicut)
 	   1. Quadratic Assignment Problem (QAP)
-==== !Graphbase ====
+==== !GraphBase ====
       [http://www.cs.sunysb.edu/~algorith/implement/graphbase/implement.shtml Standford Link]
          1. '''Generations/Random Graphs'''
             a. Generating Graphs
