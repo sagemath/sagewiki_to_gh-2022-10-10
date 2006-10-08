@@ -16,6 +16,9 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 ==== Matplotlib ====
 ==== GSL, Numeric ====
 
+=== Software included with SAGE as optional ===
+==== GRAPE ====
+
 === Software SAGE interfaces with (but does not include) ===
 
 ==== Magma ====
