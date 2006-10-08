@@ -26,7 +26,7 @@ SATURDAY (many many talks):
   * 10:10 - 11:00 -- D. Joyner: [http://sage.math.washington.edu/home/wdj/sagefiles/sagedays2/sagedays2-10-7-2006.pdf SAGE--A Guide for Educators]
   * 11:10 - 12:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
   * 12:00 -  2:00 -- BAGEL BANQUET LUNCH
-  * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): Optimizing linear algebra in SAGE
+  * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): [http://sage.math.washington.edu/home/robertwb/days2/sagedays2-linalg.pdf Optimizing linear algebra in SAGE]
   * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics [http://sage.math.washington.edu/home/agc]
   * 3:05 -  3:35 -- T. Boothby: The SAGE Notebook
   * 3:35 -  4:15 -- AFTERNOON BREAK
