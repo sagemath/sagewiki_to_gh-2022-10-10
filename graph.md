@@ -18,6 +18,18 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 
 === Software included with SAGE as optional ===
 ==== GRAPE ====
+===== Nauty =====
+       [http://cs.anu.edu.au/~bdm/nauty/ Link]
+         a. Benchmark program
+         a. Source posted, but no public license - should contact Brendan !McKay
+         a. Written in portable subset of C, python wrapper already in existence (see pynauty)
+         a. Both MAGMA and GRAPE (GAP package) use nauty
+            1. '''Construction'''
+               includes gtools - quick generators for non-isomorphic graphs, also generates bipartite graphs and digraphs
+            1. '''Invariants'''
+               canonical labelling
+            1. '''Morphisms/Group Actions'''
+               Computing automorphism groups of graphs and digraphs, isomorphism testing
 
 === Software SAGE interfaces with (but does not include) ===
 
@@ -185,18 +197,6 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 
 === Software that SAGE might include, pending various isses ===
       (or maybe interface with, or include as optional), pending stuff (e.g. licensing)
-==== Nauty ====
-       [http://cs.anu.edu.au/~bdm/nauty/ Link]
-         a. Benchmark program
-         a. Source posted, but no public license - should contact Brendan !McKay
-         a. Written in portable subset of C, python wrapper already in existence (see pynauty)
-         a. Both MAGMA and GRAPE (GAP package) use nauty
-            1. '''Construction'''
-               includes gtools - quick generators for non-isomorphic graphs, also generates bipartite graphs and digraphs
-            1. '''Invariants'''
-               canonical labelling
-            1. '''Morphisms/Group Actions'''
-               Computing automorphism groups of graphs and digraphs, isomorphism testing
 ==== Very_nauty ====
        [http://keithbriggs.info/very_nauty.html Link]
 	 a. designed to be compatible with nauty
