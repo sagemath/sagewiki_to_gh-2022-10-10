@@ -18,6 +18,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 
 === Software included with SAGE as optional ===
 ==== GRAPE ====
+   an option of GAP
 ===== Nauty =====
        [http://cs.anu.edu.au/~bdm/nauty/ Link]
          a. Benchmark program
