@@ -32,10 +32,9 @@ SATURDAY (many many talks):
   * 3:35 -  4:15 -- AFTERNOON BREAK
   * 4:15 -  4:45 -- B. Page: [:AxiomCompiler:Introduction to the Axiom Library compiler for Python Programmers]
   * 4:50 -  5:25 -- A. Portes: Doyen Live CD
-  * 5:30 -  5:55 -- K. McGown: Computing Bernoulli Numbers with SAGE
-  * 6:00 -  6:30 -- I. Burhanuddin : Computing Elliptic Curve Rational Torsion in SAGE [http://sage.math.washington.edu/home/burhanud/SD2talk]
-  * 6:35 -  7:15 -- M. Albrecht: [:groebner-bases-in-sage-sd2talk:Gröbner Bases in SAGE (e.g., F4)]
-  * 7:20 -  7:50 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation]
+  * 6:00 -  6:25 -- K. McGown: Computing Bernoulli Numbers with SAGE
+  * 6:30 -  7:00 -- I. Burhanuddin : Computing Elliptic Curve Rational Torsion in SAGE [http://sage.math.washington.edu/home/burhanud/SD2talk]
+  * 7:10 -  7:45 -- M. Albrecht: [:groebner-bases-in-sage-sd2talk:Gröbner Bases in SAGE (e.g., F4)]
   * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
 =================================================================
 
@@ -51,7 +50,7 @@ SUNDAY (mostly developer workshop)
   * 11:20 - 11:50 -- T. Boothby: Ray tracing and SAGE
   * 11:50 - 12:20 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
   * 12:30 -  1:20 -- D. Harvey: Implementation experience (the p-adic sigma functions)
-  *  1:25 -  1:50 -- W. Stein: Wrap up.
+  * 1:25 -  2:30 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation] and wrap up.
 
 AFTERNOON: Coding Sprinters -- planning sessions.
 
