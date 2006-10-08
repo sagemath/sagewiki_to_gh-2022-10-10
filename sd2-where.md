@@ -10,6 +10,8 @@ This is where to find each of the groups. When you update this, write the time a
    Ifty Burhanuddin, David Harvey, Kiran Kedlaya, David Roe, John Voight, Joe Wetherall (Precision aspects)
    [[BR]]
    status: design (designing classes and examples of their possibly syntax, ...)
+   [[BR]]
+   discussion: [tex:sd2-where:p-adic_discussion2.tex]
 
  * linear algebra: 
    Robert Bradshaw, Craig Citro (fast matrix multiplication), David Harvey, Yi Qiang, Rishikesh, Nathan Ryan
