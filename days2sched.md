@@ -38,13 +38,13 @@ SATURDAY (many many talks):
   * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
 =================================================================
 
-SUNDAY (mostly developer workshop)
+SUNDAY
 
+(lots of food provided)
 
   *  9:00 -  9:25 -- J. Voight: [:Algorithms for quaternion algebras]
   *  9:30 - 10:00 -- S. Pauli: Computational algebraic number theory -- status report
-
-10 - 10:30 -- break
+  * 10:00 - 10:30 -- Morning break.
 
   * 10:30 - 11:10 -- D. Harvey: SAGE architecture, design and coding
   * 11:20 - 11:50 -- T. Boothby: Ray tracing and SAGE
@@ -52,8 +52,10 @@ SUNDAY (mostly developer workshop)
   * 12:30 -  1:20 -- D. Harvey: Implementation experience (the p-adic sigma functions)
   * 1:25 -  2:30 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation] and wrap up.
 
-  * 2:30 -- 8:00 -- coding sprint!!!
-  * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
+  * 2:30 - 6:30  -- Coding sprint.
+  * 6:30 - 8:00  -- DINNER on the ave
+  * 8:00 - 11:30 -- Meet back at math department (Padelford) for coding sprint.  Call 858-220-6876 if you have trouble getting into building. 
+
 =================================================================
 
 MONDAY:
