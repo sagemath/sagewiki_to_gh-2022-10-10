@@ -46,11 +46,11 @@ SUNDAY
   *  9:00 -  9:25 -- J. Voight: [:Algorithms for quaternion algebras]
   *  9:30 - 10:00 -- S. Pauli: Computational algebraic number theory -- status report
   * 10:00 - 10:30 -- Morning break.
-  * 10:30 - 11:10 -- D. Harvey: Implementation experience (the p-adic sigma functions)
-  * 11:20 - 11:50 -- T. Boothby: Ray tracing and SAGE
-  * 11:50 - 12:20 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
-  * 12:30 -  1:20 -- D. Harvey: SAGE architecture, design and coding
-  * 1:25 -  2:30 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation] and wrap up.
+  * 10:45 - 11:25 -- D. Harvey: Implementation experience (the p-adic sigma functions)
+  * 11:35 - 12:05 -- T. Boothby: Ray tracing and SAGE
+  * 12:05 - 12:35 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE
+  * 12:45 -  1:35 -- D. Harvey: SAGE architecture, design and coding
+  * 1:40 -  2:10 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation] and wrap up.
 
   * 2:30 - 6:30  -- Coding sprint.
   * 6:30 - 8:00  -- DINNER on the ave
