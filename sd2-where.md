@@ -11,7 +11,7 @@ This is where to find each of the groups. When you update this, write the time a
    [[BR]]
    status: design (designing classes and examples of their possibly syntax, ...)
    [[BR]]
-   discussion: [tex:sd2-where:p-adic_discussion2.tex]
+   discussion: [attachment:p-adic_discussion2.tex], [attachment:p-adic_discussion2.ps], [attachment:p-adic_discussion2.pdf]
 
  * linear algebra: 
    Robert Bradshaw, Craig Citro (fast matrix multiplication), David Harvey, Yi Qiang, Rishikesh, Nathan Ryan
