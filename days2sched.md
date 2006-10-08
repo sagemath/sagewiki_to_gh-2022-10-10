@@ -28,7 +28,7 @@ SATURDAY (many many talks):
   * 12:00 -  2:00 -- BAGEL BANQUET LUNCH
   * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): [http://sage.math.washington.edu/home/robertwb/days2/sagedays2-linalg.pdf Optimizing linear algebra in SAGE]
   * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics [http://sage.math.washington.edu/home/agc]
-  * 3:05 -  3:35 -- T. Boothby: The SAGE Notebook
+  * 3:05 -  3:35 -- T. Boothby: The SAGE Notebook [http://sage.math.washington.edu/home/boothby/talks/notebook_talk_20061007.tgz worksheets in .sws format] (not all features will work until SAGE 1.4.1)
   * 3:35 -  4:15 -- AFTERNOON BREAK
   * 4:15 -  4:45 -- B. Page: [:AxiomCompiler:Introduction to the Axiom Library compiler for Python Programmers]
   * 4:50 -  5:25 -- A. Portes: Doyen Live CD
