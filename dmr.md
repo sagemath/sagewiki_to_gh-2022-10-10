@@ -1,2 +1,1 @@
-
-* dmr/notebookwiki: notebook wiki
+* ["dmr/notebookwiki"]: notebook wiki
