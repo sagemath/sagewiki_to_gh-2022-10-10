@@ -62,12 +62,17 @@ SUNDAY
 
 MONDAY:
 
- . Coding sprints in B027 (computer lab)
-  * 10:00-ish - 11:30: Status reports; organization
-  * 5:00 -  6:00: Lightning demos
+  * 10-1: Coding Sprint in B027 (computer lab)
+  * 1-2: quick lunch
+  * 2:45-3:45: Lightening Demos
+  * 3:45-6: Coding Sprints
+  * 6-8: Dinner on Ave
+  * 8pm-1am: Coding Sprint (Padelford 401)  call 858-220-6876
 =================================================================
 
 TUESDAY:
-
- . Coding sprints:
-  * 2:00 - 4:00pm: Progress reports and plan for the future
+  * 9:00am - 1pm: Coding sprints -- loc
+  * 1:30 - 2:30: Jon Hanke speaks in the ALGEBRA SEMINAR -- Padelford C36
+  * 2:30 - 3:30: grab a bite to eat
+  * 3:30 - 5:00pm: (Computer Lab B027) Wrap up, progress reports and plan for the future
+  
