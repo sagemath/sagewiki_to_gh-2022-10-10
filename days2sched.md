@@ -1,6 +1,7 @@
 [:days2:SAGE Days 2] Schedule
 
 NOTE: Talks on Sunday have been moved to room B326.
+NOTE: Meeting Sunday night 8:00PM has been moved to [http://www.washington.edu/home/maps/northcentral.html?OUG Odegaard].  Odegaard is open at all hours Sunday thru Thursday.  However, you'll need to get a guest pass to be in after 10:00PM -- and you'll need to be sponsored by a UW student / faculty member to do so.
 
 The talks will take place in the basement of the
 [http://www.washington.edu/home/maps/northcentral.html?CMU Communications Building] on the
@@ -53,8 +54,8 @@ SUNDAY
   * 1:40 -  2:10 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation] and wrap up.
 
   * 2:30 - 6:30  -- Coding sprint.
-  * 6:30 - 8:00  -- DINNER on the ave
-  * 8:00 - 11:30 -- Meet back at math department (Padelford) for coding sprint.  Call 858-220-6876 if you have trouble getting into building. 
+  * 6:30 - 8:00  -- DINNER on the aveafter
+  * 8:00 - 11:30 -- Meet back at [http://www.washington.edu/home/maps/northcentral.html?OUG Odegaard] for coding sprint.  Call 858-220-6876 if you have trouble getting in.  See note at top of this page. 
 
 =================================================================
 
