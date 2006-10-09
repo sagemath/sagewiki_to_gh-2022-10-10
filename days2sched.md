@@ -48,10 +48,20 @@ SUNDAY
   *  9:00 -  9:25 -- J. Voight: [:Algorithms for quaternion algebras]
   *  9:30 - 10:00 -- S. Pauli: [http://www.uncg.edu/~s_pauli/pub/pauli_sagedays_2.pdf Algorithmic algebraic number theory -- status report]
   * 10:00 - 10:30 -- Morning break.
+
+---- /!\ '''Edit conflict - other version:''' ----
   * 10:45 - 11:25 -- D. Harvey: Implementation experience (the p-adic sigma functions) [http://modular.math.washington.edu/home/dmharvey/padic-heights-talk.pdf pfd]
   * 11:35 - 12:05 -- T. Boothby: Ray tracing and SAGE
   * 12:05 - 12:35 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE [http://modular.math.washington.edu/home/jkantor/Numerical_Talk.pdf pdf]
   * 12:45 -  1:35 -- D. Harvey: SAGE architecture, design and coding [http://modular.math.washington.edu/home/dmharvey/sage-architecture-talk.pdf pdf]
+
+---- /!\ '''Edit conflict - your version:''' ----
+  * 10:45 - 11:25 -- D. Harvey: Implementation experience (the p-adic sigma functions) [http://modular.math.washington.edu/home/dmharvey/padic-heights-talk.pdf pfd]
+  * 11:35 - 12:05 -- T. Boothby: Ray tracing and SAGE
+  * 12:05 - 12:35 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE [http://modular.math.washington.edu/home/jkantor/Numerical_Talk.pdf pdf]
+  * 12:45 -  1:35 -- D. Harvey: SAGE architecture, design and coding [http://modular.math.washington.edu/home/dmharvey/sage-architecture-talk.pdf pdf]
+
+---- /!\ '''End of edit conflict''' ----
   * 1:40 -  2:10 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation] and wrap up.
 
   * 2:30 - 6:30  -- Coding sprint.
