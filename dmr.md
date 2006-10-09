@@ -1,3 +1,3 @@
-* ["dmr/notebookwiki"]: notebook wiki
+    *["dmr/notebookwiki"]: notebook wiki
 
-[:dmr/example:*examples]
+    *[:dmr/example:examples]
