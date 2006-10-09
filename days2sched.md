@@ -59,11 +59,9 @@ SUNDAY
   * 8:00 - 11:30 + 3 -- Meet back at [http://www.washington.edu/home/maps/northcentral.html?OUG Odegaard] for coding sprint.  Call 858-220-6876 if you have trouble getting in.  See note at top of this page. 
 
 =================================================================
-
-MONDAY:
-
-  * 10-1: Coding Sprint in B027 (computer lab)
-  * 1-2: quick lunch
+MONDAY: 
+  * 10-1:30: Coding Sprint in B027 (computer lab)
+  * 1:30-2:45: quick lunch
   * 2:45-3:45: 5-minute Demos
   * 3:45-6: Coding Sprints
   * 6-8: Dinner on Ave
