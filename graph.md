@@ -198,6 +198,18 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 
 === Software that SAGE can now include as optional ===
       (or maybe interface with)
+
+==== GeoSteiner ====
+    [http://www.diku.dk/geosteiner/ Link]
+        1. ''' Construction'''
+	A set of points in different formats
+	1. '''Trees, etc.'''
+	. Euclidean Steiner Tree Problem in the Plane
+        . Rectilinear Steiner Tree Problem in the Plane
+	. Minimum Spanning Tree Problem in Hypergraphs
+
+http://www.diku.dk/geosteiner/LICENSE
+
 ==== Very_nauty ====
        [http://keithbriggs.info/very_nauty.html Link]
 	 a. designed to be compatible with nauty
@@ -298,6 +310,52 @@ The main people working on this project are Emily Kirkman and Robert Miller.
             1. '''Visualization'''
                a. Draw Symmetric
 === Apparently useless / and/or misc. / and/or etc. ===
+==== nv2d ====
+        [http://web.mit.edu/bshi/Public/nv2d/ link]
+		1. '''Visualization'''
+		. Java visualization, designed to run in a browser
+		. Spring model visualization
+		1. '''Construction'''
+		. Data from GraphML, Nfile
+==== Otter ====
+        [http://www.caida.org/tools/utilities/ Link]
+          Defunct
+==== Gravisto ====
+        [http://gravisto.fmi.uni-passau.de/ Link]
+==== JIGGLE ====
+	[http://www.cs.cmu.edu/~quixote/ Link]
+		1. '''Visualization'''
+		.Java visualization applet, poor interface, minimal, source available
+==== RoxGT ====	
+        [http://roxgt.sourceforge.net Link]
+		Claims to be a complete extensible graph framework, written in
+		Java. No documentation.
+==== INGRID ==== 
+        [http://ingrid.ldgo.columbia.edu/ Link]
+		Seems geared for climate modeling. Written in PostScript (???)
+==== METIS ==== 
+        [http://glaros.dtc.umn.edu/gkhome/views/metis/ Link]
+		1. '''Paths'''
+		. Claims to be fast at partitioning using various algorithms
+		. Fill-reducing ordering algorithms on sparse matrix representations, running a fill-reducing ordering on a matrix increases algorithm efficiency.
+                . [http://www.dtc.umn.edu/publications/reports/2006_03.pdf Documentation here]
+
+==== Algolib ====
+        [http://algo.inria.fr/libraries/software.html Link]
+		Appears to be for general combinatorics (gen. functions, mostly) Doesn't seem to do graph theory.
+==== ACE ==== 
+        [http://phalanstere.univ-mlv.fr/~ace/ACE/3.0/ACE.html Link]
+		MAPLE Package for computer algebra and combinatorics. No longer being maintained.
+==== GOBLIN ==== 
+        [http://www.math.uni-augsburg.de/~fremuth/goblin.html Link]
+		LGPL C++ library with Tcl/Tk interface
+		1. '''Representation'''
+		. Adjacency matrix or incidence list
+		1. '''Storage'''
+		. Has its own format
+		1. '''Optimization'''
+		. "Focuses on" combinatorical optimization algorithms, especially network flow and load balancing
+
 ==== Scalable Libraries for Graph Partitioning ====
          [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Link], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
 
