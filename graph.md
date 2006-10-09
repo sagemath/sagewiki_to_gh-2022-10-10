@@ -319,21 +319,22 @@ http://www.diku.dk/geosteiner/LICENSE
 		. Data from GraphML, Nfile
 ==== Otter ====
         [http://www.caida.org/tools/utilities/ Link]
-          Defunct
+        Defunct
 ==== Gravisto ====
         [http://gravisto.fmi.uni-passau.de/ Link]
 ==== JIGGLE ====
+
 	[http://www.cs.cmu.edu/~quixote/ Link]
 		1. '''Visualization'''
 		.Java visualization applet, poor interface, minimal, source available
-==== RoxGT ====	
+==== RoxGT ====
         [http://roxgt.sourceforge.net Link]
 		Claims to be a complete extensible graph framework, written in
 		Java. No documentation.
-==== INGRID ==== 
+==== INGRID ====
         [http://ingrid.ldgo.columbia.edu/ Link]
 		Seems geared for climate modeling. Written in PostScript (???)
-==== METIS ==== 
+==== METIS ====
         [http://glaros.dtc.umn.edu/gkhome/views/metis/ Link]
 		1. '''Paths'''
 		. Claims to be fast at partitioning using various algorithms
@@ -343,10 +344,10 @@ http://www.diku.dk/geosteiner/LICENSE
 ==== Algolib ====
         [http://algo.inria.fr/libraries/software.html Link]
 		Appears to be for general combinatorics (gen. functions, mostly) Doesn't seem to do graph theory.
-==== ACE ==== 
+==== ACE ====
         [http://phalanstere.univ-mlv.fr/~ace/ACE/3.0/ACE.html Link]
 		MAPLE Package for computer algebra and combinatorics. No longer being maintained.
-==== GOBLIN ==== 
+==== GOBLIN ====
         [http://www.math.uni-augsburg.de/~fremuth/goblin.html Link]
 		LGPL C++ library with Tcl/Tk interface
 		1. '''Representation'''
