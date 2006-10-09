@@ -64,14 +64,14 @@ MONDAY:
 
   * 10-1: Coding Sprint in B027 (computer lab)
   * 1-2: quick lunch
-  * 2:45-3:45: Lightening Demos
+  * 2:45-3:45: 5-minute Demos
   * 3:45-6: Coding Sprints
   * 6-8: Dinner on Ave
-  * 8pm-1am: Coding Sprint (Padelford 401)  call 858-220-6876
+  * 8pm-1am: Coding Sprint (in Communications B006, where the first day of talks was) 
 =================================================================
 
 TUESDAY:
-  * 9:00am - 1pm: Coding sprints -- loc
+  * 9:00am - 1pm: Coding sprints -- (tentative location: "the HUB, upstairs")
   * 1:30 - 2:30: Jon Hanke speaks in the ALGEBRA SEMINAR -- Padelford C36
   * 2:30 - 3:30: grab a bite to eat
   * 3:30 - 5:00pm: (Computer Lab B027) Wrap up, progress reports and plan for the future
