@@ -48,8 +48,6 @@ SUNDAY
   *  9:00 -  9:25 -- J. Voight: [:Algorithms for quaternion algebras]
   *  9:30 - 10:00 -- S. Pauli: [http://www.uncg.edu/~s_pauli/pub/pauli_sagedays_2.pdf Algorithmic algebraic number theory -- status report]
   * 10:00 - 10:30 -- Morning break.
-
----- /!\ '''Edit conflict - other version:''' ----
   * 10:45 - 11:25 -- D. Harvey: Implementation experience (the p-adic sigma functions) [http://modular.math.washington.edu/home/dmharvey/padic-heights-talk.pdf pfd]
   * 11:35 - 12:05 -- T. Boothby: Ray tracing and SAGE
   * 12:05 - 12:35 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE [http://modular.math.washington.edu/home/jkantor/Numerical_Talk.pdf pdf]
