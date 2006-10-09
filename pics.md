@@ -9,7 +9,7 @@ p.show(xmin=0, ymin=0,dpi=250)
 
 [http://sage.math.washington.edu/home/wdj/art/cool-sage-pic-small1.png cool pic 1]
 
-* Math art by Tom Boothby:
+ * Math art by Tom Boothby:
 {{{
 # Author: Tom Boothby
 # This is a remake of an old art piece I made in POVRay
@@ -36,7 +36,7 @@ t.show(verbose=1)
 
 [http://sage.math.washington.edu/home/wdj/art/boothby-tachyon1.png cool pic 2]
 
-* Twisted cubic in tachyon:
+ * Twisted cubic in tachyon:
 {{{
 t = Tachyon(xres=512,yres=512, camera_center=(5,0,0))
 t.light((4,3,2), 0.2, (1,1,1))
