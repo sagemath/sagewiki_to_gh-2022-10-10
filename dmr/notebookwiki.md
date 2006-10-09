@@ -1,12 +1,8 @@
-Describe dmr/notebookwiki here.
+Copy cells from wiki-form window in sage worksheet and paste directly into wiki edit.
 
 
 
-{{{
-code
-code
-///
-}}}
+
 
 ################################################################################
 # Worksheet: _scratch_
