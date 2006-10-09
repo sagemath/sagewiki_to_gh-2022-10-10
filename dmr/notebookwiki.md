@@ -31,18 +31,3 @@ code
     _scratch___plain__
 #   File "/home/dorian/sage/sage-1.4/local/lib/python2.5/", line 1, in <module>
 # NameError: name '_scratch___plain__' is not defined}}}
-
-{{{s='strf'
-}}}
-
-{{{s += '}}}'
-}}}
-
-{{{s = '{{{'+s
-}}}
-
-{{{s
-# '{{{strf}}}'}}}
-
-{{{
-}}}
