@@ -1,6 +1,6 @@
 [[TableOfContents]]
 
-== Introduction ==
+==  Introduction ==
 
 The SAGE Graph Theory Project aims to implement Graph objects and algorithms in ["SAGE"].
 
