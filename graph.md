@@ -356,6 +356,9 @@ http://www.diku.dk/geosteiner/LICENSE
 		. Has its own format
 		1. '''Optimization'''
 		. "Focuses on" combinatorical optimization algorithms, especially network flow and load balancing
+==== JGraphEd ====
+        [http://www.jharris.ca/JGraphEd/ Link]
+                Java-based graph editor, entirely GUI, with very basic interface. Good example of a bad interactive environment.
 
 ==== Scalable Libraries for Graph Partitioning ====
          [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Link], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
