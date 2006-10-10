@@ -12,6 +12,7 @@ This is where to find each of the groups. When you update this, write the time a
    status: design (designing classes and examples of their possibly syntax, ...)
    [[BR]]
    discussion: [attachment:p-adic_discussion2.tex], [attachment:p-adic_discussion2.dvi], [attachment:p-adic_discussion2.pdf]
+   A draft of an API can be found in /home/roed/padics06
 
  * linear algebra: 
    Robert Bradshaw, Craig Citro (fast matrix multiplication), David Harvey, Yi Qiang, Rishikesh, Nathan Ryan
