@@ -1,6 +1,8 @@
 This is where to find each of the groups. When you update this, write the time and date you updated it.
 
 
+'''LAST DAY''' 2006-10-10 -- I am upstairs at the HUB right *above* the dining area, off on the side.   This is going to be an excellent place for the sprint this morning!!  -- william  (858)220-6876
+
  * GSL:
    Tom Boothby, David Joyner, Josh Kantor
    [[BR]]
