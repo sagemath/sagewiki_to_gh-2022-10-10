@@ -71,6 +71,8 @@ MONDAY:
 
 TUESDAY:
   * 9:00am - 1pm: Coding sprints -- (tentative location: "the HUB, upstairs", 858-220-6876)
+           2006-10-10 -- I on floor 1 of the HUB right *above* the dining area, off on the side.   This is going to be an excellent place for the sprint this morning!!  -- william  (858)220-6876
+
   * 1:30 - 2:30: Jon Hanke speaks in the ALGEBRA SEMINAR -- Padelford C36
   * 2:30 - 3:30: grab a bite to eat
   * 3:30 - 5:00pm: (Computer Lab B027) Wrap up, progress reports and plan for the future
