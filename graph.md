@@ -237,8 +237,6 @@ http://www.diku.dk/geosteiner/LICENSE
  [http://graphexploration.cond.org/ link] represents graphs in JUNG, "still a work in progress", most if not all functionality besides visualization reduces to JUNG
 ==== CAIDA's Walrus ====
  [http://www.caida.org/tools/visualization/walrus/ link] GPL, written in Java, "best suited to visualizing moderately sized graphs that are nearly trees" (viz only), PRETTY, doesn't work in OS X currently (as of 10/10/06), no functionality
-==== LGL (Large Graph Layout) ====
- [http://sourceforge.net/projects/lgl link] LGL is a compendium of applications for making the visualization of large networks and trees tractable. LGL was specifically motivated by the need to make the visualization and exploration of large biological networks more accessible.
 ==== GraphThing ====
  [http://graph.seul.org/ link] GPL, C++, [http://www.wxwidgets.org/ wxWidgets]
     * Adding, deleting and moving of vertices and edges.
@@ -329,6 +327,8 @@ http://www.diku.dk/geosteiner/LICENSE
 === Apparently useless / and/or misc. / and/or etc. ===
 ==== prefuse ====
  [http://prefuse.org/ link] "information visualization toolkit"
+==== LGL (Large Graph Layout) ====
+ [http://sourceforge.net/projects/lgl link] LGL is a compendium of applications for making the visualization of large networks and trees tractable. LGL was specifically motivated by the need to make the visualization and exploration of large biological networks more accessible.
 ==== nv2d ====
         [http://web.mit.edu/bshi/Public/nv2d/ link]
 		1. '''Visualization'''
