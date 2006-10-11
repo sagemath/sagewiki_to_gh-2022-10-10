@@ -344,7 +344,34 @@ http://www.diku.dk/geosteiner/LICENSE
 ==== Scalable Libraries for Graph Partitioning ====
          [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Link], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
 
-== Algorithm descriptions for specific problems ==
+== Algorithm Repositories ==
+=== Stony Brook ===
+      [http://www.cs.sunysb.edu/~algorith/index.html Linky]
+           1. Polynomial time
+              * Connected Components
+              * Topological Sorting
+              * Minimum Spanning Tree
+              * Shortest Path
+              * Transitive Closure and Reduction
+              * Matching
+              * Eulerian Cycle / Chinese Postman
+              * Edge and Vertex Connectivity
+              * Network Flow
+              * Drawing Graphs Nicely
+              * Drawing Trees
+              * Planarity Detection and Embedding 
+           1. NP
+              * Clique
+              * Independent Set
+              * Vertex Cover
+              * Traveling Salesman Problem
+              * Hamiltonian Cycle
+              * Graph Partition
+              * Vertex Coloring
+              * Edge Coloring
+              * Graph Isomorphism
+              * Steiner Tree
+              * Feedback Edge/Vertex Set 
 === InterTools ===
       [http://rtm.science.unitn.it/intertools/ InterTools]
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
