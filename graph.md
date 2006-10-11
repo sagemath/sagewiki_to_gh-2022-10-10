@@ -156,7 +156,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
        . seems that you can write your algorithm in one window and watch it go, supports 3d
 ==== NetworkX ====
       [https://networkx.lanl.gov/ Link]
-      Seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, !SciPy, PyGSL, sAsync, PyYAML: EXCELLENT documentation with links to source code from each function descriptor (TODO: make sense of networkx.utils, networkx.threshold, networkx.generators.small, networkx.me, networkx.mixing, networkx.search_class, networkx.tests, )
+      Seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, !SciPy, PyGSL, sAsync, PyYAML: EXCELLENT documentation with links to source code from each function descriptor (TODO: make sense of networkx.utils, networkx.threshold, networkx.generators.small, networkx.me, networkx.mixing, networkx.search_class, networkx.tests); uses pygraphviz to interface to graphviz
          1. '''Representation'''
           * in Graph and !DiGraph, "data structures based on an adjacency list implemented as a node-centric dictionary of dictionaries. The dictionary contains keys corresponding to the nodes and the values are dictionaries of neighboring node keys with the value None (the Python None type). This allows fast addition, deletion and lookup of nodes and neighbors in large graphs"
           * "The XGraph and XDiGraph classes are extensions of the Graph and !DiGraph classes... The key difference is that an XGraph edge is a 3-tuple e=(n1,n2,x), representing an undirected edge between nodes n1 and n2 that is decorated with the object x. Here n1 and n2 are (hashable) node objects and x is a (not necessarily hashable) edge object. Since the edge is undirected, edge (n1,n2,x) is equivalent to edge (n2,n1,x). An XDiGraph edge is a similar 3-tuple e=(n1,n2,x), with the additional property of directedness. I.e. e=(n1,n2,x) is a directed edge from n1 to n2 decorated with the object x, and is not equivalent to the edge (n2,n1,x). Whether a graph or digraph allow self-loops or multiple edges is determined at the time of object instantiation via specifying the parameters selfloops=True/False and multiedges=True/False."
@@ -233,6 +233,8 @@ http://www.diku.dk/geosteiner/LICENSE
 
 === Software that is incompatible with SAGE but still useful ===
       (e.g. web-based applets)
+==== Graphviz ====
+ [http://graphviz.org/ link] Odd licensing, "options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes." Has its own DOT language, with a [http://www.dkbza.org/pydot.html python interface]
 ==== GUESS ====
  [http://graphexploration.cond.org/ link] represents graphs in JUNG, "still a work in progress", most if not all functionality besides visualization reduces to JUNG
 ==== CAIDA's Walrus ====
