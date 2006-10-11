@@ -233,6 +233,13 @@ http://www.diku.dk/geosteiner/LICENSE
 
 === Software that is incompatible with SAGE but still useful ===
       (e.g. web-based applets)
+==== GUESS ====
+ [http://graphexploration.cond.org/ link] represents graphs in JUNG, "still a work in progress", most if not all functionality besides visualization reduces to JUNG
+==== CAIDA's Walrus ====
+ [http://www.caida.org/tools/visualization/walrus/ link] GPL, written in Java, "best suited to visualizing moderately sized graphs that are nearly trees" (viz only), PRETTY, doesn't work in OS X currently (as of 10/10/06), no functionality
+==== LGL (Large Graph Layout) ====
+ [http://sourceforge.net/projects/lgl link] LGL is a compendium of applications for making the visualization of large networks and trees tractable. LGL was specifically motivated by the need to make the visualization and exploration of large biological networks more accessible.
+==== GraphThing ====
 ==== GRIN ====
          [http://www.geocities.com/pechv_ru/ Link]
 	   a. for windows only
@@ -310,6 +317,8 @@ http://www.diku.dk/geosteiner/LICENSE
             1. '''Visualization'''
                a. Draw Symmetric
 === Apparently useless / and/or misc. / and/or etc. ===
+==== prefuse ====
+ [http://prefuse.org/ link] "information visualization toolkit"
 ==== nv2d ====
         [http://web.mit.edu/bshi/Public/nv2d/ link]
 		1. '''Visualization'''
@@ -356,9 +365,6 @@ http://www.diku.dk/geosteiner/LICENSE
 		. Has its own format
 		1. '''Optimization'''
 		. "Focuses on" combinatorical optimization algorithms, especially network flow and load balancing
-==== JGraphEd ====
-        [http://www.jharris.ca/JGraphEd/ Link]
-                Java-based graph editor, entirely GUI, with very basic interface. Good example of a bad interactive environment.
 
 ==== JGraphEd ====
         [http://www.jharris.ca/JGraphEd/ Link], Java-based graph editor, entirely GUI, with very basic interface. Good example of a bad interactive environment.
