@@ -284,46 +284,6 @@ http://www.diku.dk/geosteiner/LICENSE
          1. '''Optimization'''
             Branch-and-Bound algorithm, linear programming relaxations allow for dynamic generation of cutting planes or columns)
 
-=== Algorithm descriptions for specific problems ===
-==== InterTools ====
-      [http://rtm.science.unitn.it/intertools/ InterTools]
-	   1. Maximum Clique in Graphs (MAX-CLIQUE)
-	   1. Graph Partitioning (equicut)
-	   1. Quadratic Assignment Problem (QAP)
-==== GraphBase ====
-      [http://www.cs.sunysb.edu/~algorith/implement/graphbase/implement.shtml Standford Link]
-         1. '''Generations/Random Graphs'''
-            a. Generating Graphs
-            a. Random Number Generation
-         1. '''Database'''
-            a. Graph Data Structures
-         1. '''Trees, etc.'''
-            a. Minimum Spanning Tree
-         1. '''Paths, etc.'''
-            a. Hamiltonian Cycle
-         1. '''Optimization'''
-            a. Matching
-            a. Shortest Path
-         1. '''Connectivity'''
-            a. Edge and Vertex Connectivity
-            a. Connected Components
-         1. '''Topology'''
-            a. Topological Sorting
-         1. '''Morphisms/Group Actions'''
-            a. Generating Permutations
-==== Groups & Graphs ====
-      [http://www.paddle.mb.ca/G&G/G&G.html Link]
-         a. free download, but no mention of source or license
-         a. no internet doc's
-         a. links out to papers on algorithms (references Brendan !McKay's ''Practical Graph Isomorphism'' paper)
-         a. Algorithms:
-            1. '''Morphisms/Group Actions'''
-               a. Graph Isomorphism
-               a. Permutations Groups
-            1. '''Paths, etc.'''
-               a. Hamilton Cycles
-            1. '''Visualization'''
-               a. Draw Symmetric
 === Apparently useless / and/or misc. / and/or etc. ===
 ==== prefuse ====
  [http://prefuse.org/ link] "information visualization toolkit"
@@ -381,6 +341,48 @@ http://www.diku.dk/geosteiner/LICENSE
 
 ==== Scalable Libraries for Graph Partitioning ====
          [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Link], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
+
+== Algorithm descriptions for specific problems ==
+=== InterTools ===
+      [http://rtm.science.unitn.it/intertools/ InterTools]
+	   1. Maximum Clique in Graphs (MAX-CLIQUE)
+	   1. Graph Partitioning (equicut)
+	   1. Quadratic Assignment Problem (QAP)
+=== GraphBase ===
+      [http://www.cs.sunysb.edu/~algorith/implement/graphbase/implement.shtml Standford Link]
+         1. '''Generations/Random Graphs'''
+            a. Generating Graphs
+            a. Random Number Generation
+         1. '''Database'''
+            a. Graph Data Structures
+         1. '''Trees, etc.'''
+            a. Minimum Spanning Tree
+         1. '''Paths, etc.'''
+            a. Hamiltonian Cycle
+         1. '''Optimization'''
+            a. Matching
+            a. Shortest Path
+         1. '''Connectivity'''
+            a. Edge and Vertex Connectivity
+            a. Connected Components
+         1. '''Topology'''
+            a. Topological Sorting
+         1. '''Morphisms/Group Actions'''
+            a. Generating Permutations
+=== Groups & Graphs ===
+      [http://www.paddle.mb.ca/G&G/G&G.html Link]
+         a. free download, but no mention of source or license
+         a. no internet doc's
+         a. links out to papers on algorithms (references Brendan !McKay's ''Practical Graph Isomorphism'' paper)
+         a. Algorithms:
+            1. '''Morphisms/Group Actions'''
+               a. Graph Isomorphism
+               a. Permutations Groups
+            1. '''Paths, etc.'''
+               a. Hamilton Cycles
+            1. '''Visualization'''
+               a. Draw Symmetric
+
 
 == Functionality categories ==
          1. '''Representation'''
