@@ -371,7 +371,7 @@ http://www.diku.dk/geosteiner/LICENSE
               * Edge Coloring
               * Graph Isomorphism
               * Steiner Tree
-              * Feedback Edge/Vertex Set 
+              * Feedback Edge/Vertex Set
 === InterTools ===
       [http://rtm.science.unitn.it/intertools/ InterTools]
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
@@ -436,3 +436,9 @@ http://www.diku.dk/geosteiner/LICENSE
          1. '''Generation/Random Graphs'''
          1. '''Database'''
          1. '''Visualization'''
+
+== Miscellaneous Flora and Fauna ==
+  * [http://wwwteo.informatik.uni-rostock.de/isgci/smallgraphs.html List of small graphs]
+  * [http://citeseer.ist.psu.edu/hansen01computers.html Computers and Discovery in Algebraic Graph Theory]
+  * [http://people.freenet.de/Emden-Weinert/graphs.html Thomas Emden-Weinert's webpage]: many many many many many links and resources
+  * [http://vlado.fmf.uni-lj.si/vlado/vladonet.htm Vladimir Batagelj's website]: same story
