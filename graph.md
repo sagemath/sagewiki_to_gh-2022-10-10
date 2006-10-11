@@ -240,6 +240,16 @@ http://www.diku.dk/geosteiner/LICENSE
 ==== LGL (Large Graph Layout) ====
  [http://sourceforge.net/projects/lgl link] LGL is a compendium of applications for making the visualization of large networks and trees tractable. LGL was specifically motivated by the need to make the visualization and exploration of large biological networks more accessible.
 ==== GraphThing ====
+ [http://graph.seul.org/ link] GPL, C++, [http://www.wxwidgets.org/ wxWidgets]
+    * Adding, deleting and moving of vertices and edges.
+    * Loading and saving of graphs.
+    * Graph complements, induced subgraphs and line graphs.
+    * Quick creation of many common graphs (complete, cycle, null, star, etc.).
+    * Determination of shortest path, connectivity and Eulericity.
+    * BFS, DFS and Minimum Spanning Tree.
+    * Adjacency matrix (including exponents) and degree sequence.
+    * Chromatic polynomial and chromatic number.
+    * Network algorithms: Maximum network flow.
 ==== GRIN ====
          [http://www.geocities.com/pechv_ru/ Link]
 	   a. for windows only
