@@ -226,12 +226,14 @@ http://www.diku.dk/geosteiner/LICENSE
             cliques in G(n,p), # of graphs on n nodes with chromatic number k, # of graphs on n nodes with clique number k, new data on chromatic number and cliqe number, Lambert's w function
 ==== GraphViz ====
        [http://www.graphviz.org Link]
-         a. open source, Common Public License Version 1.0
+         a. open source, Common Public License Version 1.0 (BSD style)
          a. poorly documented, at least on the web
             1. '''Visualization'''
-               DOT makes "hierarchical" drawings of directed graphs.  Algorithm aims edges in same direction and attempts to not cross edges and reduce length.
-               NEATO uses spring method, via the Kamada-Kawai algorithm (statistical multi-dimensional scaling)
-               fdp also uses the spring model, via the Fruchterman-Reingold heuristic (handles larger graphs and undirected, clustered graphs)
+               . DOT makes "hierarchical" drawings of directed graphs.  Algorithm aims edges in same direction and attempts to not cross edges and reduce length.
+               . NEATO uses spring method, via the Kamada-Kawai algorithm (statistical multi-dimensional scaling)
+               . fdp also uses the spring model, via the Fruchterman-Reingold heuristic (handles larger graphs and undirected, clustered graphs)
+               . a [http://www.dkbza.org/pydot.html python interface]
+               . "options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes."
 ==== plantri/fullgen ====
       [http://cs.anu.edu.au/people/bdm/plantri/ Link] written in C, tested mainly on UNIX, weird license ('free for all purposes other than sale for profit. However, they remain subject to our copyright and are not "public domain".'): interesting note, co-authored by Brendan !McKay, of ''nauty''
          1. '''Generation/Random Graphs'''
@@ -241,8 +243,6 @@ http://www.diku.dk/geosteiner/LICENSE
 
 === Software that is incompatible with SAGE but still useful ===
       (e.g. web-based applets)
-==== Graphviz ====
- [http://graphviz.org/ link] Odd licensing, "options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes." Has its own DOT language, with a [http://www.dkbza.org/pydot.html python interface]
 ==== GUESS ====
  [http://graphexploration.cond.org/ link] represents graphs in JUNG, "still a work in progress", most if not all functionality besides visualization reduces to JUNG
 ==== CAIDA's Walrus ====
