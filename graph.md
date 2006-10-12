@@ -18,7 +18,7 @@ The main people working on this project are Emily Kirkman and Robert Miller.
 
 === Software included with SAGE as optional ===
 ==== GRAPE ====
-   says David Joyner, "An official GAP package which must be installed separately. GRAPE is primarily designed for the construction and analysis of finite graphs related to groups, designs, and geometries. It has about 50 graph-theoretical functions written in GAP. However, 6 of these call (directly or indirectly) B. D. McKay's program nauty."
+   says David Joyner, "An official GAP package which must be installed separately. GRAPE is primarily designed for the construction and analysis of finite graphs related to groups, designs, and geometries. It has about 50 graph-theoretical functions written in GAP. However, 6 of these call (directly or indirectly) B. D. !McKay's program nauty."
 ===== Nauty =====
        [http://cs.anu.edu.au/~bdm/nauty/ Link]
          a. Benchmark program
