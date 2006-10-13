@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+
+
+<link rel="STYLESHEET" href="docin_files/ref.css" type="text/css">
+<link rel="SHORTCUT ICON" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/icons/pyfav.png" type="image/png">
+<link rel="start" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/index.html" title="SAGE Documentation Index">
+<link rel="first" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/ref.html" title="&lt;I CLASS=&quot;sans&quot;&gt;SAGE&lt;/I&gt; Reference Manual">
+<link rel="contents" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/contents.html" title="Contents">
+<link rel="index" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/genindex.html" title="Index">
+<link rel="last" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/about.html" title="About this document...">
+<link rel="help" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/about.html" title="About this document...">
+<link rel="prev" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/module-sage.groups.matrix-gps.symplectic.html">
+<link rel="parent" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node144.html">
+<link rel="next" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node162.html">
+<meta name="aesop" content="information"><title>14.17 Unitary Groups and</title></head><body>
+<div s class="navigation">
+<div s id="top-navigation-panel" xml:id="top-navigation-panel">
+<table align="center" cellpadding="0" cellspacing="2" width="100%">
+<tbody><tr>
+<td class="online-navigation"><a rel="prev" title="14.16 Symplectic Linear Groups" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/module-sage.groups.matrix-gps.symplectic.html"><img s src="docin_files/previous.png" alt="Previous Page" border="0" height="32" width="32"></a></td>
+<td class="online-navigation"><a rel="parent" title="14. Groups" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node144.html"><img s src="docin_files/up.png" alt="Up One Level" border="0" height="32" width="32"></a></td>
+<td class="online-navigation"><a rel="next" title="15. General Rings, Ideals," href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node162.html"><img s src="docin_files/next.png" alt="Next Page" border="0" height="32" width="32"></a></td>
+<td align="center" width="100%"><i class="sans">SAGE</i> Reference Manual</td>
+<td class="online-navigation"><a rel="contents" title="Table of Contents" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/contents.html"><img s src="docin_files/contents.png" alt="Contents" border="0" height="32" width="32"></a></td>
+<td class="online-navigation"><a href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/modindex.html" title="Module Index"><img s src="docin_files/modules.png" alt="Module Index" border="0" height="32" width="32"></a></td>
+<td class="online-navigation"><a rel="index" title="Index" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/genindex.html"><img s src="docin_files/index.png" alt="Index" border="0" height="32" width="32"></a></td>
+</tr></tbody></table>
+<div s class="online-navigation">
+<b class="navlabel">Previous:</b>
+<a class="sectref" rel="prev" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/module-sage.groups.matrix-gps.symplectic.html">14.16 Symplectic Linear Groups</a>
+<b class="navlabel">Up:</b>
+<a class="sectref" rel="parent" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node144.html">14. Groups</a>
+<b class="navlabel">Next:</b>
+<a class="sectref" rel="next" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node162.html">15. General Rings, Ideals,</a>
+</div>
+<hr></div>
+</div>
+<!--End of Navigation Panel-->
+
+<h1><a name="SECTION00161700000000000000000">
+14.17  Unitary Groups <span s class="MATH">$ GU(n,q)$</span>
+ and <span s class="MATH">$ SU(n,q)$</span>
+</a>
+</h1>
+
+<p>
+<big class="LARGE"><b>Module: </b> <code>sage.groups.matrix_gps.unitary</code></big>
+
+</p><p>
+<a name="module-sage.groups.matrix-gps.unitary"></a>
+</p><p>
+These are <!-- MATH
+ $n \times n$
+ -->
+<span s class="MATH">$ n\times n$</span>
+ unitary matrices with entries in <span s class="MATH">$ GF(q^2)$</span>
+.
+
+</p><p>
+<b>Author Log:</b>
+<br>
+ <small class="SMALL"></small>
+</p><ul>
+<li>David Joyner: initial version (2006-3), modified from
+<br>
+</li>
+<li>special_linear (by W. Stein)
+<br>
+</li>
+<li>David Joyner (2006-05): minor additions (examples, _latex_,
+<br>
+</li>
+<li>__str__, gens, as_matrix_group)
+<br>
+</li>
+</ul><small class="SMALL"></small>
+
+<p>
+</p>{{{#!python <pre>sage: G = SU(3,GF(5))
+sage: G.order()
+378000
+sage: G
+Special Unitary Group of degree 3 over Finite Field of size 5
+sage: G._gap_init_()
+'SU(3, 5)'
+sage: G.random()
+[      3 2*a + 1   a + 1]
+[2*a + 2       4       a]
+[4*a + 2   a + 4       1]
+sage: G.base_ring()
+Finite Field of size 5
+sage: G.field_of_definition()
+Finite Field in a of size 5^2
+</pre> }}} 
+
+<p>
+<b><big class="LARGE">Module-level Functions</big></b>
+
+</p><p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1878" xml:id="l2h-1878" class="function">GU</tt></b>(</nobr></td>
+  <td><var>n, R</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p></dd></dl>
+
+<p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1879" xml:id="l2h-1879" class="function">SU</tt></b>(</nobr></td>
+  <td><var>n, R</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p></dd></dl>
+
+<p>
+<b><big class="LARGE">Class: <code>GeneralUnitaryGroup_finite_field</code></big></b>
+
+</p><p>
+</p><dl><dt><b><span s class="typelabel">class</span>&nbsp;<tt id="l2h-1880" xml:id="l2h-1880" class="class">GeneralUnitaryGroup_finite_field</tt></b>
+</dt><dd></dd></dl>
+
+<p>
+<b><big class="LARGE">Class: <code>GeneralUnitaryGroup_generic</code></big></b>
+
+</p><p>
+</p><dl><dt><b><span s class="typelabel">class</span>&nbsp;<tt id="l2h-1881" xml:id="l2h-1881" class="class">GeneralUnitaryGroup_generic</tt></b>
+</dt><dd></dd></dl>
+
+<p>
+<b>Functions: </b><tt class="method">as_matrix_group</tt>,<span s class="MATH">$  $</span>
+ <tt class="method">gens</tt>
+
+</p><p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1882" xml:id="l2h-1882" class="function">gens</tt></b>(</nobr></td>
+  <td><var>self</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p>{{{#!python <pre>sage: G = GU(4,GF(5))
+sage: G.gens()
+[[  a   0   0   0]
+[  0   1   0   0]
+[  0   0   1   0]
+[  0   0   0 3*a], [      1       0 4*a + 3       0]
+                   [      1       0       0       0]
+                   [      0 2*a + 4       0       1]
+                   [      0 3*a + 1       0       0]]
+</pre> }}} 
+
+<p>
+</p></dd></dl>
+
+<p>
+<b>Special Functions: </b><tt class="method">__repr__</tt>,<span s class="MATH">$  $</span>
+ <tt class="method">__str__</tt>,<span s class="MATH">$  $</span>
+ <tt class="method">_gap_init_</tt>,<span s class="MATH">$  $</span>
+ <tt class="method">_latex_</tt>
+
+</p><p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1883" xml:id="l2h-1883" class="function">__repr__</tt></b>(</nobr></td>
+  <td><var>self</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p>{{{#!python <pre>sage: G = GU(3,GF(5))
+sage: G
+General Unitary Group of degree 3 over Finite Field of size 5
+</pre> }}} 
+
+<p>
+</p></dd></dl>
+
+<p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1884" xml:id="l2h-1884" class="function">__str__</tt></b>(</nobr></td>
+  <td><var>self</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p>{{{#!python <pre>sage: G = GU(3,GF(5))
+sage: print G
+GU(3, GF(5))
+</pre> }}} 
+
+<p>
+</p></dd></dl>
+
+<p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1885" xml:id="l2h-1885" class="function">_latex_</tt></b>(</nobr></td>
+  <td><var>self</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p>{{{#!python <pre>sage: G = GU(3,GF(5))
+sage: G._latex_()
+'GU$(3, 5)$'
+</pre> }}} 
+
+<p>
+</p></dd></dl>
+
+<p>
+<b><big class="LARGE">Class: <code>SpecialUnitaryGroup_finite_field</code></big></b>
+
+</p><p>
+</p><dl><dt><b><span s class="typelabel">class</span>&nbsp;<tt id="l2h-1886" xml:id="l2h-1886" class="class">SpecialUnitaryGroup_finite_field</tt></b>
+</dt><dd></dd></dl>
+
+<p>
+<b><big class="LARGE">Class: <code>SpecialUnitaryGroup_generic</code></big></b>
+
+</p><p>
+</p><dl><dt><b><span s class="typelabel">class</span>&nbsp;<tt id="l2h-1887" xml:id="l2h-1887" class="class">SpecialUnitaryGroup_generic</tt></b>
+</dt><dd></dd></dl>
+
+<p>
+<b>Functions: </b><tt class="method">as_matrix_group</tt>,<span s class="MATH">$  $</span>
+ <tt class="method">gens</tt>
+
+</p><p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1888" xml:id="l2h-1888" class="function">as_matrix_group</tt></b>(</nobr></td>
+  <td><var>self</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p>{{{#!python <pre>sage: G = SU(4,GF(5))
+sage: G.as_matrix_group()
+Matrix group over Finite Field in a of size 5^2 with 2 generators:
+[[[a, 0, 0, 0], [0, 2*a + 3, 0, 0], [0, 0, 4*a + 1, 0], [0, 0, 0, 3*a]],
+[[1, 0, 4*a + 3, 0], [1, 0, 0, 0], [0, 2*a + 4, 0, 1], [0, 3*a + 1, 0, 0]]]
+</pre> }}} 
+
+<p>
+</p></dd></dl>
+
+<p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1889" xml:id="l2h-1889" class="function">gens</tt></b>(</nobr></td>
+  <td><var>self</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p>{{{#!python <pre>sage: G = SU(4,GF(5))
+sage: G.gens()
+[[      a       0       0       0]
+ [      0 2*a + 3       0       0]
+ [      0       0 4*a + 1       0]
+ [      0       0       0     3*a],
+ [      1       0 4*a + 3       0]
+ [      1       0       0       0]
+ [      0 2*a + 4       0       1]
+ [      0 3*a + 1       0       0]]
+</pre> }}} 
+
+<p>
+</p></dd></dl>
+
+<p>
+<b>Special Functions: </b><tt class="method">__repr__</tt>,<span s class="MATH">$  $</span>
+ <tt class="method">__str__</tt>,<span s class="MATH">$  $</span>
+ <tt class="method">_gap_init_</tt>,<span s class="MATH">$  $</span>
+ <tt class="method">_latex_</tt>
+
+</p><p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1890" xml:id="l2h-1890" class="function">__repr__</tt></b>(</nobr></td>
+  <td><var>self</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p>{{{#!python <pre>sage: G = SU(3,GF(5))
+sage: G
+Special Unitary Group of degree 3 over Finite Field of size 5
+</pre> }}} 
+
+<p>
+</p></dd></dl>
+
+<p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1891" xml:id="l2h-1891" class="function">__str__</tt></b>(</nobr></td>
+  <td><var>self</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p>{{{#!python <pre>sage: G = SU(3,GF(5))
+sage: print G
+SU(3, GF(5))
+</pre> }}} 
+
+<p>
+</p></dd></dl>
+
+<p>
+</p><dl><dt><table cellpadding="0" cellspacing="0"><tbody><tr valign="baseline">
+  <td><nobr><b><tt id="l2h-1892" xml:id="l2h-1892" class="function">_latex_</tt></b>(</nobr></td>
+  <td><var>self</var>)</td></tr></tbody></table></dt>
+<dd>
+
+<p>
+</p>{{{#!python <pre>sage: G = SU(3,GF(5))
+sage: G._latex_()
+'SU$(3, 5)$'
+</pre> }}} 
+
+<p>
+</p></dd></dl>
+
+<p>
+
+</p><div s class="navigation">
+<div s class="online-navigation">
+<p></p><hr>
+<table align="center" cellpadding="0" cellspacing="2" width="100%">
+<tbody><tr>
+<td class="online-navigation"><a rel="prev" title="14.16 Symplectic Linear Groups" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/module-sage.groups.matrix-gps.symplectic.html"><img s src="docin_files/previous.png" alt="Previous Page" border="0" height="32" width="32"></a></td>
+<td class="online-navigation"><a rel="parent" title="14. Groups" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node144.html"><img s src="docin_files/up.png" alt="Up One Level" border="0" height="32" width="32"></a></td>
+<td class="online-navigation"><a rel="next" title="15. General Rings, Ideals," href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node162.html"><img s src="docin_files/next.png" alt="Next Page" border="0" height="32" width="32"></a></td>
+<td align="center" width="100%"><i class="sans">SAGE</i> Reference Manual</td>
+<td class="online-navigation"><a rel="contents" title="Table of Contents" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/contents.html"><img s src="docin_files/contents.png" alt="Contents" border="0" height="32" width="32"></a></td>
+<td class="online-navigation"><a href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/modindex.html" title="Module Index"><img s src="docin_files/modules.png" alt="Module Index" border="0" height="32" width="32"></a></td>
+<td class="online-navigation"><a rel="index" title="Index" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/genindex.html"><img s src="docin_files/index.png" alt="Index" border="0" height="32" width="32"></a></td>
+</tr></tbody></table>
+<div s class="online-navigation">
+<b class="navlabel">Previous:</b>
+<a class="sectref" rel="prev" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/module-sage.groups.matrix-gps.symplectic.html">14.16 Symplectic Linear Groups</a>
+<b class="navlabel">Up:</b>
+<a class="sectref" rel="parent" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node144.html">14. Groups</a>
+<b class="navlabel">Next:</b>
+<a class="sectref" rel="next" href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/node162.html">15. General Rings, Ideals,</a>
+</div>
+</div>
+<hr>
+<span s class="release-info">Release 1.4, documentation updated on October 5, 2006.</span>
+</div>
+<!--End of Navigation Panel-->
+<address>
+See <i><a href="file:///home/dorian/sage/sage-1.4/devel/doc-1.4/html/ref/about.html">About this document...</a></i> for information on suggesting changes.
+</address>
+</body></html>
