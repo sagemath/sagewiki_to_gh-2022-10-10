@@ -35,7 +35,7 @@ SATURDAY (many many talks):
   * 3:35 -  4:15 -- AFTERNOON BREAK
   * 4:15 -  4:45 -- B. Page: [:AxiomCompiler:Introduction to the Axiom Library compiler for Python Programmers]
   * 4:50 -  5:25 -- A. Portes: Doyen Live CD
-  * 6:00 -  6:25 -- K. McGown: Computing Bernoulli Numbers with SAGE
+  * 6:00 -  6:25 -- K. McGown: Computing Bernoulli Numbers with SAGE [http://sage.math.washington.edu/home/kmcgown/sdays2006.html]
   * 6:30 -  7:00 -- I. Burhanuddin : Computing Elliptic Curve Rational Torsion in SAGE [http://sage.math.washington.edu/home/burhanud/SD2talk]
   * 7:10 -  7:45 -- M. Albrecht: [:groebner-bases-in-sage-sd2talk:Gröbner Bases in SAGE (e.g., F4)]
   * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
