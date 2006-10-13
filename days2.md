@@ -8,7 +8,7 @@
  * [:sd2-coffeeshops:Local Coffee Shops]
  * [:sd2-where:Projects / Where To Find Us]
  * [:sd2-photos:Pictures]
- * [:sd2-audio:Complete Audio Recordings of All Talks]
+ * [http://sage.math.washington.edu/sage_days2_audio/ Complete Audio Recordings of All Talks]
 
 UW Campus wifi: login as '''event0518''' with password '''sagedays2'''
 
