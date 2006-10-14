@@ -15,7 +15,7 @@ We will post results here as we get them.  And as always, we love feedback!
  * Create a graph with n nodes and no edges (sparse and dense, if supported)
 
 === Edge Storage ===
- * Fill in and then delete all edges one by one (directed and undirected, sparse and dense)
+ * Fill in and then delete all edges one by one (directed and undirected, sparse and dense, if supported)
 
 === Specific Constructors ===
  * Create a complete graph on n nodes
