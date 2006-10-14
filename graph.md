@@ -19,3 +19,5 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
  * We have attempted to make a complete list of existing graph theory software. We posted functionality lists and some algorithm/construction summaries. We are very interested in feedback or last-minute additions, as we are ready to begin benchmarking our findings.
 === Initial Benchmark Results ===
  * [http://sage.math.washington.edu:9001/graph_benchmark Link]
+ * Our initial tests are designed to compare the constructions and very basic functionality found in our survey of existing software. At this stage in the game, we are testing to find the best way to construct graph objects in SAGE.
+ * We will post results on the wiki as we get them. And as always, we love feedback!
