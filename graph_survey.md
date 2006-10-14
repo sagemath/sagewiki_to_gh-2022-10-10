@@ -30,7 +30,7 @@ We have attempted to make a complete list of existing graph theory software.  We
                     * Graph( G, L, act, rel )
                     * Graph( G, L, act, rel, invt )
                   First suppose that the optional boolean parameter invt is unbound or has value false. Then L should be a list of elements of a set S on which the group G acts, with the action given by the function act. The parameter rel should be a boolean function defining a G-invariant relation on S (so that for g in G, x,y in S, rel(x,y) if and only if rel(act(x,g),act(y,g))). Then the function Graph returns a graph gamma which has as vertex-names (an immutable copy of)
-                    !centerlineConcatenation( Orbits( G, L, act ) )
+                    centerlineConcatenation( Orbits( G, L, act ) )
                     (the concatenation of the distinct orbits of the elements in L under G), and for vertices v,w of gamma, [v,w] is an edge if and only if
                     centerlinerel( !VertexName( gamma, v ), !VertexName( gamma, w ) ).
                   Now if the parameter invt exists and has value true, then it is assumed that L is invariant under G with respect to action act. Then the function Graph behaves as above, except that the vertex-names of gamma become (an immutable copy of) L.
@@ -44,15 +44,15 @@ We have attempted to make a complete list of existing graph theory software.  We
                Partial Linear Spaces.
             1. '''Subgraphs and Subsets'''
                a. Some Special Vertex Subsets of a Graph:
-                  i. ConnectedComponent
-                  i. ConnectedComponents
+                  i. !ConnectedComponent
+                  i. !ConnectedComponents
                   i. Bicomponents
-                  i. DistanceSet
+                  i. !DistanceSet
                   i. Layers
-                  i. IndependentSet
+                  i. !IndependentSet
                a. Complete Subgraphs
-                  i. CompleteSubgraphs
-                  i. CompleteSubgraphsOfGivenSize 
+                  i. !CompleteSubgraphs
+                  i. !CompleteSubgraphsOfGivenSize 
             1. '''Colorings'''
                Vertex Colorings
 ===== Nauty =====
