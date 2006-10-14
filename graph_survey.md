@@ -35,7 +35,26 @@ We have attempted to make a complete list of existing graph theory software.  We
                     centerlinerel( !VertexName( gamma, v ), !VertexName( gamma, w ) ).
                   Now if the parameter invt exists and has value true, then it is assumed that L is invariant under G with respect to action act. Then the function Graph behaves as above, except that the vertex-names of gamma become (an immutable copy of) L.
                Other construction functions:  !EdgeOrbitsGraph, !NullGraph, !CompleteGraph, !JohnsonGraph, !CayleyGraph, !AddEdgeOrbit, !RemoveEdgeOrbit, !AssignVertexNames
+               And functions to construct new graphs from old:  !InducedSubgraph, !DistanceSetInduced, !DistanceGraph, !ComplementGraph, !PointGraph, !EdgeGraph, !SwitchedGraph, !UnderlyingGraph, !QuotientGraph, !BipartiteDouble, !GeodesicsGraph, !CollapsedIndependentOrbitsGraph !CollapsedCompleteOrbitsGraph, !NewGroupGraph 
 
+            1. '''Representation'''
+               Pretty thorough list of functions to inspect a graph.  Should be useful in initial benchmark testing.  Named vertices stood out as far as representation.
+            1. '''Morphisms/Group Actions'''
+               Functions to determine regularity properties of graphs, Automorphism groups and isomorphism testing for graphs.
+               Partial Linear Spaces.
+            1. '''Subgraphs and Subsets'''
+               a. Some Special Vertex Subsets of a Graph:
+                  i. ConnectedComponent
+                  i. ConnectedComponents
+                  i. Bicomponents
+                  i. DistanceSet
+                  i. Layers
+                  i. IndependentSet
+               a. Complete Subgraphs
+                  i. CompleteSubgraphs
+                  i. CompleteSubgraphsOfGivenSize 
+            1. '''Colorings'''
+               Vertex Colorings
 ===== Nauty =====
        [http://cs.anu.edu.au/~bdm/nauty/ Link]
          a. Benchmark program
