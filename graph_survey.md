@@ -331,6 +331,10 @@ http://www.diku.dk/geosteiner/LICENSE
             Branch-and-Bound algorithm, linear programming relaxations allow for dynamic generation of cutting planes or columns)
 
 === Apparently useless / and/or misc. / and/or etc. ===
+==== Vancouver Network Analysis Team ====
+ [http://www.sfu.ca/~richards/ Link], Social Network Analysis
+==== !yFiles ====
+ [http://www.yworks.com/en/products_yfiles_about.htm Link], Commercial but pretty visualization
 ==== prefuse ====
  [http://prefuse.org/ link] "information visualization toolkit"
 ==== LGL (Large Graph Layout) ====
@@ -387,6 +391,12 @@ http://www.diku.dk/geosteiner/LICENSE
 
 ==== Scalable Libraries for Graph Partitioning ====
          [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Link], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
+
+==== Netvis Module ====
+ [http://www.netvis.org/ Link], Social Networks
+
+==== Cyram Netminer ====
+ [http://www.netminer.com/NetMiner/home_01.jsp Link], closed source, social networks
 
 == Algorithm Repositories ==
 === Stony Brook ===
