@@ -8,8 +8,8 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
 
 == Current Status ==
 
- * We are currently seeking feedback on our survey of existing graph theory software.
- * We hope to begin the initial benchmarks this week.  These will deal mostly with construction / storage / retrieval and basic algorithms.
+ * We are currently seeking feedback on our [http://sage.math.washington.edu:9001/graph_survey survey] of existing graph theory software.
+ * We hope to begin the initial [http://sage.math.washington.edu:9001/graph_benchmark benchmarks] this week.  These will deal mostly with construction / storage / retrieval and basic algorithms.
  * On Friday, October 20th Robert Miller will be giving a talk in PDL C-401 at 4:00pm. The talk will cover what we found for existing graph theory software, as well as some implementation issues. The first round of benchmarking should also be finished by then, the results of which will be shared. There will also be a short discussion of graphs  in an abstract mathematical context.
 
 == Wiki Pages ==
