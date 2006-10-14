@@ -21,7 +21,21 @@ We have attempted to make a complete list of existing graph theory software.  We
 
 === Software included with SAGE as optional ===
 ==== GRAPE ====
-   says David Joyner, "An official GAP package which must be installed separately. GRAPE is primarily designed for the construction and analysis of finite graphs related to groups, designs, and geometries. It has about 50 graph-theoretical functions written in GAP. However, 6 of these call (directly or indirectly) B. D. !McKay's program nauty."
+       [http://www.maths.qmul.ac.uk/~leonard/grape/ Link]
+         a. says David Joyner, "An official GAP package which must be installed separately. GRAPE is primarily designed for the construction and analysis of finite graphs related to groups, designs, and geometries. It has about 50 graph-theoretical functions written in GAP. However, 6 of these call (directly or indirectly) B. D. !McKay's program nauty."
+         a. Some of the following is copy/paste directly from L. H. Soicher's stellar [http://www.maths.qmul.ac.uk/~leonard/grape/manual/chapters.htm documentation]
+            1. '''Construction'''
+               In general GRAPE deals with finite directed graphs which may have loops but have no multiple edges. However, many GRAPE functions only work for simple graphs.  In GRAPE, a graph gamma is stored as a record, with mandatory components isGraph, order, group, schreierVector, representatives, and adjacencies.  The only mandatory component which may change once a graph is initially constructed is adjacencies.
+               This is the most general and useful way of constructing a graph in GRAPE:
+                    * Graph( G, L, act, rel )
+                    * Graph( G, L, act, rel, invt )
+                  First suppose that the optional boolean parameter invt is unbound or has value false. Then L should be a list of elements of a set S on which the group G acts, with the action given by the function act. The parameter rel should be a boolean function defining a G-invariant relation on S (so that for g in G, x,y in S, rel(x,y) if and only if rel(act(x,g),act(y,g))). Then the function Graph returns a graph gamma which has as vertex-names (an immutable copy of)
+                    centerlineConcatenation( Orbits( G, L, act ) )
+                    (the concatenation of the distinct orbits of the elements in L under G), and for vertices v,w of gamma, [v,w] is an edge if and only if
+                    centerlinerel( VertexName( gamma, v ), VertexName( gamma, w ) ).
+                  Now if the parameter invt exists and has value true, then it is assumed that L is invariant under G with respect to action act. Then the function Graph behaves as above, except that the vertex-names of gamma become (an immutable copy of) L.
+               Other construction functions:  EdgeOrbitsGraph, NullGraph, CompleteGraph, JohnsonGraph, CayleyGraph, AddEdgeOrbit, RemoveEdgeOrbit, AssignVertexNames
+
 ===== Nauty =====
        [http://cs.anu.edu.au/~bdm/nauty/ Link]
          a. Benchmark program
