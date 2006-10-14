@@ -523,3 +523,4 @@ http://www.diku.dk/geosteiner/LICENSE
   * [http://citeseer.ist.psu.edu/hansen01computers.html Computers and Discovery in Algebraic Graph Theory]
   * [http://people.freenet.de/Emden-Weinert/graphs.html Thomas Emden-Weinert's webpage]: many many many many many links and resources
   * [http://vlado.fmf.uni-lj.si/vlado/vladonet.htm Vladimir Batagelj's website]: same story
+  * [http://hypergraph.sourceforge.net/ !HyperGraph], open source Java library for hypergraphs (might be interesting to browse the source at some point)
