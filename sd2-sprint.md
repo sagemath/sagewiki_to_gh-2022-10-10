@@ -1,4 +1,4 @@
-== SAGE Days 2 Wiki: Coding Sprints ==
+==  SAGE Days 2 Wiki: Coding Sprints ==
 [:days2: SAGE Days 2]
 
 Put ideas for coding sprints here.   
