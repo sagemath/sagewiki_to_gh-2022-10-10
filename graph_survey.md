@@ -55,7 +55,7 @@ We have attempted to make a complete list of existing graph theory software.  We
                   i. !CompleteSubgraphsOfGivenSize 
             1. '''Colorings'''
                Vertex Colorings
-===== Nauty =====
+==== Nauty ====
        [http://cs.anu.edu.au/~bdm/nauty/ Link]
          a. Benchmark program
          a. Source posted, but no public license - should contact Brendan !McKay
