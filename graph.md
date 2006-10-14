@@ -15,7 +15,7 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
 == Wiki Pages ==
 
 === Survey of Existing Software ===
- * [http://sage.math.washington.edu:9001/graph_survey link]
+ * [http://sage.math.washington.edu:9001/graph_survey Link]
  * We have attempted to make a complete list of existing graph theory software. We posted functionality lists and some algorithm/construction summaries. We are very interested in feedback or last-minute additions, as we are ready to begin benchmarking our findings.
 === Initial Benchmark Results ===
- * [http://sage.math.washington.edu:9001/graph_benchmark link]
+ * [http://sage.math.washington.edu:9001/graph_benchmark Link]
