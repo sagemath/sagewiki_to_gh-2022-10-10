@@ -14,18 +14,19 @@ We will post results here as we get them.  And as always, we love feedback!
  . For the first round of benchmarking, we will be comparing MAGMA, Mathematica (with Combinatorica), Maple, NetworkX, GRAPE, and nauty.
 
 === Generic Constructor ===
- * Create a graph with n nodes and no edges
+ * Create a graph with n nodes and no edges (sparse and dense, if supported)
 
 === Edge Storage ===
- * Fill in and then delete all edges one by one
+ * Fill in and then delete all edges one by one (directed and undirected, sparse and dense)
 
 === Specific Constructors ===
-==== Complete ====
-==== Complete bipartite ====
-==== Cycle ====
+ * Create a complete graph on n nodes
+ * Create a complete bipartite graph on n nodes
+ * Create a cycle on n nodes
 
 === Basic Algorithms ===
-==== Connectivity ====
-==== Diameter ====
-==== Girth ====
-==== Chromatic number ====
+ . From a given database of graphs, we will compute
+ * Connectivity
+ * Diameter
+ * Girth
+ * Chromatic number
