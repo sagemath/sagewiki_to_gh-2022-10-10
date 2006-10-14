@@ -477,6 +477,7 @@ http://www.diku.dk/geosteiner/LICENSE
          1. '''Optimization'''
             a. Matching
             a. Shortest Path
+            a. Priority Queues
          1. '''Connectivity'''
             a. Edge and Vertex Connectivity
             a. Connected Components
@@ -484,6 +485,13 @@ http://www.diku.dk/geosteiner/LICENSE
             a. Topological Sorting
          1. '''Morphisms/Group Actions'''
             a. Generating Permutations
+         1. '''Colorings'''
+            a. Generating Partitions
+         1. '''Needs a Functionality Category'''
+            a. Feedback Edge/Vertex Set
+            a. Voronoi Diagrams
+            a. Cryptography
+
 === Groups & Graphs ===
       [http://www.paddle.mb.ca/G&G/G&G.html Link]
          a. free download, but no mention of source or license
@@ -495,8 +503,17 @@ http://www.diku.dk/geosteiner/LICENSE
                a. Permutations Groups
             1. '''Paths, etc.'''
                a. Hamilton Cycles
+               a. Long Paths
+            1. '''Embeddings'''
+               a. Planarity Test
+               a. Planar Graph Layout
+               a. Torus Maps
+            1. '''Subgroups/Subsets'''
+               a. k-Factors
             1. '''Visualization'''
                a. Draw Symmetric
+            1. '''Needs a Functionality Category'''
+               a. Projective Configurations
 
 
 == Functionality categories ==
