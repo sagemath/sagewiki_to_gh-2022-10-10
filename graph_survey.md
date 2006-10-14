@@ -319,10 +319,16 @@ http://www.diku.dk/geosteiner/LICENSE
          a. Commercial, but supposedly fast
          1. '''Morphisms / Group Actions'''
             Module graph and subgraph isomorphisms
+         1. '''Needs a Functionality Category'''
+            a. Curved Geometry: Polygons with Circular Arcs
+            a. Module Compression
+            a. Module Cryptography
+            a. Static Graphs
 ==== LINK ====
       I. [http://dimacs.rutgers.edu/~berryj/LINK.html (hyper)link]
          a. Free, but not open source
          a. C++ libraries
+         a. Doc's are PS, which upsets my computer very much!!! (ie - I can't read them so I don't actually know that much about LINK)
 ==== ABACUS (A Branch-And-!CUt System) ====
       [http://www.informatik.uni-koeln.de/abacus/ Link]
          a. open source, GNU Lesser GPL v2.1
