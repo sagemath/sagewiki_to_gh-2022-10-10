@@ -458,6 +458,11 @@ http://www.diku.dk/geosteiner/LICENSE
 	   1. Maximum Clique in Graphs (MAX-CLIQUE)
 	   1. Graph Partitioning (equicut)
 	   1. Quadratic Assignment Problem (QAP)
+=== Graph Partitioners ===
+      [http://www.cs.cmu.edu/~scandal/alg/separator.html Link]
+           1. Coordinate Bisection
+           1. Random Circles
+           1. Spectral Bisection
 === GraphBase ===
       [http://www.cs.sunysb.edu/~algorith/implement/graphbase/implement.shtml Standford Link]
          1. '''Generations/Random Graphs'''
