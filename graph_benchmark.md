@@ -23,7 +23,7 @@ We will post results here as we get them.  And as always, we love feedback!
  * Create a cycle on n nodes
 
 === Basic Algorithms ===
- . From a given database of graphs (sparse and dense, undirected), we will compute
+ . From a given database of graphs (sparse and dense), we will compute
  * Connectivity
  * Diameter
  * Girth
