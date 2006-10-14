@@ -4,7 +4,7 @@
 
 The SAGE Graph Theory Project aims to implement Graph objects and algorithms in ["SAGE"].
 
-The main people working on this project are Emily Kirkman and Robert Miller.
+The main people working on this project are Emily Kirkman, Robert Miller and Bobby Moretti.
 
 We have attempted to make a complete list of existing graph theory software.  We posted functionality lists and some algorithm/construction summaries.  We are very interested in feedback or last-minute additions, as we are ready to begin [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] our findings.  
 
