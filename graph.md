@@ -9,7 +9,7 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
 == Current Status ==
 
  * We are currently seeking feedback on our survey of existing graph theory software.
- * We hope to begin the initial benchmarks this week.  These will deal mostly with construction, retrieval and basic algorithms.
+ * We hope to begin the initial benchmarks this week.  These will deal mostly with construction / storage / retrieval and basic algorithms.
  * On Friday, October 20th Robert Miller will be giving a talk in PDL C-401 on graph theory and optimal algorithms.  The talk is at 4? 5?  Somebody that knows the correct time should put it in...
 
 == Wiki Pages ==
