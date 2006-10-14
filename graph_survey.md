@@ -331,6 +331,33 @@ http://www.diku.dk/geosteiner/LICENSE
             Branch-and-Bound algorithm, linear programming relaxations allow for dynamic generation of cutting planes or columns)
 
 === Apparently useless / and/or misc. / and/or etc. ===
+==== GDToolkit ====
+ [http://www.dia.uniroma3.it/~gdt/ Link] Closed source, visualization. OOP hierarchy of graph drawing classes - but we can't see the classes... hence 'useless'.
+
+==== The Graph Visualization Framework ====
+ [http://gvf.sourceforge.net/ Link] Name self-explanatory.  Open source, but written in Java.
+
+==== StOCNET ====
+ [http://stat.gamma.rug.nl/stocnet/ Link] Social Networks
+
+==== JGraphT ====
+ [http://jgrapht.sourceforge.net/ Link] JGraphT is a free Java graph library that provides mathematical graph-theory objects and algorithms
+
+==== GINY ====
+ [http://csbi.sourceforge.net/ Link] Open source java intefaces for supreme graph visualization
+
+==== JUNG ====
+ [http://jung.sourceforge.net/ Link] Open source java library
+
+==== JDigraph ====
+ [http://jdigraph.sourceforge.net/ Link] Open source java library
+
+==== WilmaScope ====
+ [http://www.wilmascope.org/ Link] a Java3D application which creates real time 3d animations of dynamic graph structures
+
+==== TouchGraph ====
+ [http://touchgraph.sourceforge.net/ Link] a GraphLayout library.  I can't say much else because the 'CVS + Source' link is dead.  Is this a temporary problem or should we completely toss this one?
+
 ==== Vancouver Network Analysis Team ====
  [http://www.sfu.ca/~richards/ Link], Social Network Analysis
 ==== !yFiles ====
