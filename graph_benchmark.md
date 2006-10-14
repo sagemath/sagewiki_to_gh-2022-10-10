@@ -9,13 +9,13 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
 We will post results here as we get them.  And as always, we love feedback!
 
 == Initial Benchmarks ==
- . Our initial tests are designed to compare the constructions and very basic functionality found in our [http://sage.math.washington.edu:9001/graph_survey survey of existing software].  At this stage in the game, we are testing to find the best way to construct graph objects in ["SAGE"].  For the first round of benchmarking, we will be comparing MAGMA, Mathematica (with Combinatorica), Maple, NetworkX, GRAPE, and nauty.
+ . Our initial tests are designed to compare the constructions and very basic functionality found in our [http://sage.math.washington.edu:9001/graph_survey survey of existing software].  At this stage in the game, we are testing to find the best way to construct graph objects in ["SAGE"].  For the first round of benchmarking we will only consider simple undirected graphs, and we will be comparing MAGMA, Mathematica (with Combinatorica), Maple, NetworkX, GRAPE, and nauty.
 
 === Generic Constructor ===
  * Create a graph with n nodes and no edges (sparse and dense, if supported)
 
 === Edge Storage ===
- * Fill in and then delete all edges one by one (directed and undirected, sparse and dense, if supported)
+ * Fill in and then delete all edges one by one (sparse and dense, if supported)
 
 === Specific Constructors ===
  * Create a complete graph on n nodes
