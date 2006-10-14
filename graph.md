@@ -16,5 +16,5 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
 
 === Survey of Existing Software ===
    [http://sage.math.washington.edu:9001/graph_survey link]
-==== Initial Benchmark Results ====
+=== Initial Benchmark Results ===
    [http://sage.math.washington.edu:9001/graph_benchmark link]
