@@ -23,9 +23,6 @@ We will post results here as we get them.  And as always, we love feedback!
 ==== Complete bipartite ====
 ==== Cycle ====
 
-=== Basic Storage Speed ===
- * Compute the number of edges
-
 === Basic Algorithms ===
 ==== Connectivity ====
 ==== Diameter ====
