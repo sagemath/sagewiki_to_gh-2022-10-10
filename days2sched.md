@@ -1,16 +1,6 @@
 [:days2:SAGE Days 2] Schedule
 
-NOTE: Talks on Sunday have been moved to room B326.
-
-'''NOTE''': Meeting Sunday night 8:00PM has been moved to [http://www.washington.edu/home/maps/northcentral.html?OUG Odegaard].  Odegaard is open at all hours Sunday thru Thursday.  However, you'll need to get a guest pass to be in after 10:00PM -- and you'll need to be sponsored by a UW student / faculty member to do so.
-
-The talks will take place in the basement of the
-[http://www.washington.edu/home/maps/northcentral.html?CMU Communications Building] on the
-University of Washington campus in room B006.  (Note that Padelford (=Math) is 
-across the street from communications.) See also the
-[http://www.washington.edu/home/maps/campusmappg.pdf printable campus map in pdf format]. 
-
-If you're listed below to speak, please ''modify this wiki page'' and create a link from your title to your talk: See the  "Sage Foundation" talk for an example, then just make the link, save this page, then click on the link -- you'll be given the chance to make the corresponding web page.
+ * [http://sage.math.washington.edu/sage_days2_audio/ Complete Audio Recordings of All Talks]
 
 =================================================================
 
