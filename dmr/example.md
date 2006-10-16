@@ -1,4 +1,4 @@
-Sage notebook wiki-output examples (paste below)
+Trying out html2moin.py processor; this is one step in processing doc pages for a notebook help browser, as well as a step to making a wiki-version of the documentation.
 
 14.3 Abelian group elements
 
