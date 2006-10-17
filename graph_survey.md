@@ -13,11 +13,6 @@ We have attempted to make a complete list of existing graph theory software.  We
 
 === Software included with SAGE ===
 ==== GAP ====
-==== Maxima ====
-==== Singular ====
-==== PARI, MWRANK, NTL ====
-==== Matplotlib ====
-==== GSL, Numeric ====
 
 === Software included with SAGE as optional ===
 ==== GRAPE ====
