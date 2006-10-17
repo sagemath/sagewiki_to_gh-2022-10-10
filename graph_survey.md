@@ -164,7 +164,6 @@ We have attempted to make a complete list of existing graph theory software.  We
           . [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotGraphPlotAndGraphPlot3D.html ALGORITHMS] include spring model, spring-electrical model, high-dimensional embedding (random seeds can be given for spring models, link includes options for the spring models); tree algorithms include radial drawing, layered drawing (see G. Di Battista, P. Eades, R. Tamassia, and I. G. Tollis, Algorithms for the Visualization of Graphs, Prentice-Hall, 1999.); vertex styles and colors, edge styles and colors; function to return coordinates without drawing
 
 === Extensions of software that SAGE interfaces with ===
-==== Magma ====
 ==== Maple ====
          a. [http://www.math.uga.edu/~mbaker/REU/maple/laplacian-guide.html 'laplacian.mpl']; [http://www.fmf.uni-lj.si/~mohar/Papers/Spec.pdf here] is a paper on the Laplacian Spectrum
             1. '''Storage/Pipes'''
