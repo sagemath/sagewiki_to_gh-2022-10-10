@@ -13,6 +13,7 @@ We have attempted to make a complete list of existing graph theory software.  We
 
 === Software included with SAGE ===
 ==== GAP ====
+  . (see GRAPE)
 
 === Software included with SAGE as optional ===
 ==== GRAPE ====
