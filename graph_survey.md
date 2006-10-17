@@ -181,10 +181,6 @@ We have attempted to make a complete list of existing graph theory software.  We
          a. [http://www.combinatorica.com/ Combinatorica] - for a list of functions, see [http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf help.pdf], page 13-14, 18, 21, 23, 25 - for a [http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/ book]
 
 === Software that SAGE can now include as is (not as an optional package...) ===
-==== Gato ====
-      [http://gato.sourceforge.net/ Link]
-      A tool that animates algorithms, perhaps SAGE cannot actually include right now as is, but license is LGPL, and it requires Python and Tcl/Tk: would be good for educational purposes
-       . seems that you can write your algorithm in one window and watch it go, supports 3d
 ==== NetworkX ====
       [https://networkx.lanl.gov/ Link]
       Seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, !SciPy, PyGSL, sAsync, PyYAML: EXCELLENT documentation with links to source code from each function descriptor (TODO: make sense of networkx.utils, networkx.threshold, networkx.generators.small, networkx.me, networkx.mixing, networkx.search_class, networkx.tests); uses pygraphviz to interface to graphviz
@@ -237,6 +233,11 @@ We have attempted to make a complete list of existing graph theory software.  We
 
 === Software that SAGE can now include as optional ===
       (or maybe interface with)
+
+==== Gato ====
+      [http://gato.sourceforge.net/ Link]
+      A tool that animates algorithms, perhaps SAGE cannot actually include right now as is, but license is LGPL, and it requires Python and Tcl/Tk: would be good for educational purposes
+       . seems that you can write your algorithm in one window and watch it go, supports 3d
 
 ==== GeoSteiner ====
     [http://www.diku.dk/geosteiner/ Link]
