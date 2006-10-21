@@ -9,13 +9,54 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
 We have attempted to make a complete list of existing graph theory software.  We posted functionality lists and some algorithm/construction summaries.  We are very interested in feedback or last-minute additions, as we are ready to begin [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] our findings.  
 
 
-== Survey of existing Graph Theory software ==
+== Existing Graph Theory software ==
 
 === Software included with SAGE ===
 ==== GAP ====
-  . (see GRAPE)
+  . (see GRAPE-- noting that GRAPE is not as of yet standard in SAGE)
 
-=== Software included with SAGE as optional ===
+=== Software optional in SAGE ===
+==== NetworkX ====
+      [https://networkx.lanl.gov/ Link]
+      Seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, !SciPy, PyGSL, sAsync, PyYAML: EXCELLENT documentation with links to source code from each function descriptor (TODO: make sense of networkx.utils, networkx.threshold, networkx.generators.small, networkx.me, networkx.mixing, networkx.search_class, networkx.tests); uses pygraphviz to interface to graphviz
+         1. '''Representation'''
+          * in Graph and !DiGraph, "data structures based on an adjacency list implemented as a node-centric dictionary of dictionaries. The dictionary contains keys corresponding to the nodes and the values are dictionaries of neighboring node keys with the value None (the Python None type). This allows fast addition, deletion and lookup of nodes and neighbors in large graphs"
+          * "The XGraph and XDiGraph classes are extensions of the Graph and !DiGraph classes... The key difference is that an XGraph edge is a 3-tuple e=(n1,n2,x), representing an undirected edge between nodes n1 and n2 that is decorated with the object x. Here n1 and n2 are (hashable) node objects and x is a (not necessarily hashable) edge object. Since the edge is undirected, edge (n1,n2,x) is equivalent to edge (n2,n1,x). An XDiGraph edge is a similar 3-tuple e=(n1,n2,x), with the additional property of directedness. I.e. e=(n1,n2,x) is a directed edge from n1 to n2 decorated with the object x, and is not equivalent to the edge (n2,n1,x). Whether a graph or digraph allow self-loops or multiple edges is determined at the time of object instantiation via specifying the parameters selfloops=True/False and multiedges=True/False."
+         1. '''Storage/Pipes''' (see networkx.io)
+          . 'convert' module converts NetworkX graphs to and from other formats: python dict of lists, python dict of dicts, numpy matrices, scipy sparse matrices, pygraphviz; works with python pickling; Import and export networkx networks to dot format using pydot or pygraphviz,
+         1. '''Construction'''
+          . add path, add cycle, incremental construction, subgraphs, copy, directed $\leftrightarrow$ undirected, balanced r-tree of height h, barbell graph, complete graph, complete bipartite, circular ladder graph, cycle, hierarchically constructed Dorogovtsev-Goltsev-Mendes graph, empty graph, grid graph, n-dim grid graph, hypercube, ladder graph, lollipop graph ($K_n \# P_m$), null graph (#verts = 0), path graph ($P_n$), star graph, trivial graph (#verts = 1), wheel graph, (disjoint) union, cartesian product, composition, complement, empty-copy, relabel nodes by mapping or functions, convert labels to integers
+         1. '''Invariants'''
+          . density,
+         1. '''Predicates'''
+          . standard predicates, directed acyclic,
+         1. '''Subgraphs and Subsets'''
+          . find cliques (Bron & Kerbosch), maximal and bipartite clique graph constructor, project bipartite onto one part (connected if they share a common Top/Bottom Node), clique number and number of maximal cliques, find cliques containing specified node, maximum locally (k,l) connected subgraph
+         1. '''Adjacency, etc.'''
+          . neighbors, degree, valid degree sequence?, create degree sequence, double edge swap,
+         1. '''Connectivity'''
+          . find k-cores of a graph, is (k,l) connected, (number) components,
+         1. '''Paths, etc.'''
+          . eccentricity, diameter, periphery, radius, center, shortest path (length & many variants, including Dijkstra, Floyd-Warshall), dictionary of all shortest path lengths, list of vertices in topological sort order, predecessors,
+         1. '''Trees, etc.'''
+          . tree class, rooted/directed/forests (experimental classes)
+         1. '''Optimization'''
+          . clustering: number of triangles for given nodes, clustering coefficients (fraction of triads, which is edge vertex edge, that are triangles), transitivity (3*triangles/triads); breadth-first and depth-first search, Helper queues for use in graph searching; LIFO: Last in first out queue (stack), FIFO: First in first out queue, Priority(fcn): Priority queue with items are sorted by fcn, Random: Random queue, q.append(item) -- add an item to the queue, q.extend(items) -- equivalent to: for item in items: q.append(item), q.pop() -- return the top item from the queue, len(q) -- number of items in q (also q.__len());
+         1. '''Algebra'''
+          . adjacency matrix, (normalized) Laplacian,
+         1. '''Morphisms/Group Actions'''
+          . non-isomorphic checker (does not check isomorphism; only conclusive in the not-isomorphic direction), three versions: fast, faster and fastest
+         1. '''Symmetry'''
+          . betweenness, edge, degree, and closeness centrality
+         1. '''Generation/Random Graphs'''
+          . random bipartite graph from two degree sequences (four versions: including regular, 'reverse' and alternating Havel-Hakimi style), bipartite preferential attachment, bipartite with fixed degree, projection of bipartite onto selected nodes, random pseudograph with given degree sequence, random graph with expected degree given, Havel-Hakimi for simple graphs, tree with given degree sequence, generate a graph with given degree sequence maximizing s-metric, s-metric (the sum of the product $deg(u)*deg(v)$ for every edge u-v in G (Reference unpublished li-2005, author Lun Li and David Alderson and John C.)), digraphs: growing network, growing network with redirection or copying; random geometric graph in the unit cube, $G_{n,p}$ Erdös-Rényi (two versions, normal and fast), Newman-Watts-Strogatz small world graph ("First create a ring over n nodes. Then each node in the ring is connected with its k nearest neighbors. Then shortcuts are created by adding new edges as follows: for each edge u-v in the underlying "n-ring with k nearest neighbors"; with probability p add a new edge u-w with randomly-chosen existing node w. In contrast with watts_strogatz_graph(), no edges are removed."), Watts-Strogatz small world graph ("First create a ring over n nodes. Then each node in the ring is connected with its k nearest neighbors. Then shortcuts are created by rewiring existing edges as follows: for each edge u-v in the underlying "n-ring with k nearest neighbors"; with probability p replace u-v with a new edge u-w with randomly-chosen existing node w. In contrast with newman_watts_strogatz_graph(), the random rewiring does not increase the number of edges."), $G_{n,d}$ ("Return a random regular graph of n nodes each with degree d... n*d must be even"), Barabási-Albert preferential attachment ("A graph of n nodes is grown by attaching new nodes each with m edges that are preferentially attached to existing nodes with high degree."), "Holme and Kim algorithm for growing graphs with powerlaw degree distribution and approximate average clustering" (see P. Holme and B. J. Kim, "Growing scale-free networks with tunable clustering", Phys. Rev. E 2002 vol 65 #2), random lobster ("A caterpillar is a tree that reduces to a path graph when pruning all leaf nodes (p2=0). A lobster is a tree that reduces to a caterpillar when pruning all leaf nodes."), random shell graph (see networkx.generators.random_graphs), tree with given powerlaw distribution ("A trial powerlaw degree sequence is chosen and then elements are swapped with new elements from a powerlaw distribution until the sequence makes a tree (#edges=#nodes-1).") or its degree sequence,
+         1. '''Database'''
+          . atlas function returns all graphs on up to 7 vertices (see "An Atlas of Graphs" by Ronald C. Read and Robin J. Wilson, Oxford University Press, 1998.)
+         1. '''Visualization'''
+          * layout: circular, shell, random, spring model, spectral layout, Power Iteration method to find smallest eigenvectors of Laplacian(G)
+          * intervace to pygraphviz
+          * Draw networks with matplotlib (pylab)
+          * Draw networks in 3d with [http://www.vtk.org/ vtk]
 ==== GRAPE ====
        [http://www.maths.qmul.ac.uk/~leonard/grape/ Link]
          a. says David Joyner, "An official GAP package which must be installed separately. GRAPE is primarily designed for the construction and analysis of finite graphs related to groups, designs, and geometries. It has about 50 graph-theoretical functions written in GAP. However, 6 of these call (directly or indirectly) B. D. !McKay's program nauty."
@@ -53,6 +94,7 @@ We have attempted to make a complete list of existing graph theory software.  We
                Vertex Colorings
 ==== Nauty ====
        [http://cs.anu.edu.au/~bdm/nauty/ Link]
+         a. Subset of GRAPE, which is why GRAPE is not be standard in SAGE as is
          a. Benchmark program
          a. Source posted, but no public license - should contact Brendan !McKay
          a. Written in portable subset of C, python wrapper already in existence (see pynauty)
@@ -64,8 +106,7 @@ We have attempted to make a complete list of existing graph theory software.  We
             1. '''Morphisms/Group Actions'''
                Computing automorphism groups of graphs and digraphs, isomorphism testing
 
-=== Software SAGE interfaces with (but does not include) ===
-
+=== Software interfaced in SAGE ===
 ==== Magma ====
       [http://magma.maths.usyd.edu.au/magma/htmlhelp/text1452.htm Link]
          1. '''Representation'''
@@ -163,8 +204,8 @@ We have attempted to make a complete list of existing graph theory software.  We
          1. '''Visualization'''
           . [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotGraphPlotAndGraphPlot3D.html ALGORITHMS] include spring model, spring-electrical model, high-dimensional embedding (random seeds can be given for spring models, link includes options for the spring models); tree algorithms include radial drawing, layered drawing (see G. Di Battista, P. Eades, R. Tamassia, and I. G. Tollis, Algorithms for the Visualization of Graphs, Prentice-Hall, 1999.); vertex styles and colors, edge styles and colors; function to return coordinates without drawing
 
-=== Extensions of software that SAGE interfaces with ===
-==== Maple ====
+=== Extensions of interfaced software in SAGE ===
+==== Maple: 'laplacian.mpl' ====
          a. [http://www.math.uga.edu/~mbaker/REU/maple/laplacian-guide.html 'laplacian.mpl']; [http://www.fmf.uni-lj.si/~mohar/Papers/Spec.pdf here] is a paper on the Laplacian Spectrum
             1. '''Storage/Pipes'''
              . creation of certain spreadsheets, such as known eigenvalues and eigenvalues of increasing subdivisions of the graph
@@ -177,51 +218,10 @@ We have attempted to make a complete list of existing graph theory software.  We
             1. '''Topology'''
              . (laplacian matrix), effective resistance between vertices, discrete and continuous canonical measure [http://www.math.uga.edu/~mbaker/REU/tex/canonical.pdf#search=%22graph%20tau%22 an unrelated explanation?] and tau (also, taushorten "Investigates the behavior of tau as an edge is shortened"), discrete dx measure
          a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Part II] of the paper (haven't yet found the actual package...)
-==== Mathematica ====
+==== Mathematica: Combinatorica ====
          a. [http://www.combinatorica.com/ Combinatorica] - for a list of functions, see [http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf help.pdf], page 13-14, 18, 21, 23, 25 - for a [http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/ book]
 
 === Software that SAGE can now include as is (not as an optional package...) ===
-==== NetworkX ====
-      [https://networkx.lanl.gov/ Link]
-      Seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, !SciPy, PyGSL, sAsync, PyYAML: EXCELLENT documentation with links to source code from each function descriptor (TODO: make sense of networkx.utils, networkx.threshold, networkx.generators.small, networkx.me, networkx.mixing, networkx.search_class, networkx.tests); uses pygraphviz to interface to graphviz
-         1. '''Representation'''
-          * in Graph and !DiGraph, "data structures based on an adjacency list implemented as a node-centric dictionary of dictionaries. The dictionary contains keys corresponding to the nodes and the values are dictionaries of neighboring node keys with the value None (the Python None type). This allows fast addition, deletion and lookup of nodes and neighbors in large graphs"
-          * "The XGraph and XDiGraph classes are extensions of the Graph and !DiGraph classes... The key difference is that an XGraph edge is a 3-tuple e=(n1,n2,x), representing an undirected edge between nodes n1 and n2 that is decorated with the object x. Here n1 and n2 are (hashable) node objects and x is a (not necessarily hashable) edge object. Since the edge is undirected, edge (n1,n2,x) is equivalent to edge (n2,n1,x). An XDiGraph edge is a similar 3-tuple e=(n1,n2,x), with the additional property of directedness. I.e. e=(n1,n2,x) is a directed edge from n1 to n2 decorated with the object x, and is not equivalent to the edge (n2,n1,x). Whether a graph or digraph allow self-loops or multiple edges is determined at the time of object instantiation via specifying the parameters selfloops=True/False and multiedges=True/False."
-         1. '''Storage/Pipes''' (see networkx.io)
-          . 'convert' module converts NetworkX graphs to and from other formats: python dict of lists, python dict of dicts, numpy matrices, scipy sparse matrices, pygraphviz; works with python pickling; Import and export networkx networks to dot format using pydot or pygraphviz,
-         1. '''Construction'''
-          . add path, add cycle, incremental construction, subgraphs, copy, directed $\leftrightarrow$ undirected, balanced r-tree of height h, barbell graph, complete graph, complete bipartite, circular ladder graph, cycle, hierarchically constructed Dorogovtsev-Goltsev-Mendes graph, empty graph, grid graph, n-dim grid graph, hypercube, ladder graph, lollipop graph ($K_n \# P_m$), null graph (#verts = 0), path graph ($P_n$), star graph, trivial graph (#verts = 1), wheel graph, (disjoint) union, cartesian product, composition, complement, empty-copy, relabel nodes by mapping or functions, convert labels to integers
-         1. '''Invariants'''
-          . density,
-         1. '''Predicates'''
-          . standard predicates, directed acyclic,
-         1. '''Subgraphs and Subsets'''
-          . find cliques (Bron & Kerbosch), maximal and bipartite clique graph constructor, project bipartite onto one part (connected if they share a common Top/Bottom Node), clique number and number of maximal cliques, find cliques containing specified node, maximum locally (k,l) connected subgraph
-         1. '''Adjacency, etc.'''
-          . neighbors, degree, valid degree sequence?, create degree sequence, double edge swap,
-         1. '''Connectivity'''
-          . find k-cores of a graph, is (k,l) connected, (number) components,
-         1. '''Paths, etc.'''
-          . eccentricity, diameter, periphery, radius, center, shortest path (length & many variants, including Dijkstra, Floyd-Warshall), dictionary of all shortest path lengths, list of vertices in topological sort order, predecessors,
-         1. '''Trees, etc.'''
-          . tree class, rooted/directed/forests (experimental classes)
-         1. '''Optimization'''
-          . clustering: number of triangles for given nodes, clustering coefficients (fraction of triads, which is edge vertex edge, that are triangles), transitivity (3*triangles/triads); breadth-first and depth-first search, Helper queues for use in graph searching; LIFO: Last in first out queue (stack), FIFO: First in first out queue, Priority(fcn): Priority queue with items are sorted by fcn, Random: Random queue, q.append(item) -- add an item to the queue, q.extend(items) -- equivalent to: for item in items: q.append(item), q.pop() -- return the top item from the queue, len(q) -- number of items in q (also q.__len());
-         1. '''Algebra'''
-          . adjacency matrix, (normalized) Laplacian,
-         1. '''Morphisms/Group Actions'''
-          . non-isomorphic checker (does not check isomorphism; only conclusive in the not-isomorphic direction), three versions: fast, faster and fastest
-         1. '''Symmetry'''
-          . betweenness, edge, degree, and closeness centrality
-         1. '''Generation/Random Graphs'''
-          . random bipartite graph from two degree sequences (four versions: including regular, 'reverse' and alternating Havel-Hakimi style), bipartite preferential attachment, bipartite with fixed degree, projection of bipartite onto selected nodes, random pseudograph with given degree sequence, random graph with expected degree given, Havel-Hakimi for simple graphs, tree with given degree sequence, generate a graph with given degree sequence maximizing s-metric, s-metric (the sum of the product $deg(u)*deg(v)$ for every edge u-v in G (Reference unpublished li-2005, author Lun Li and David Alderson and John C.)), digraphs: growing network, growing network with redirection or copying; random geometric graph in the unit cube, $G_{n,p}$ Erdös-Rényi (two versions, normal and fast), Newman-Watts-Strogatz small world graph ("First create a ring over n nodes. Then each node in the ring is connected with its k nearest neighbors. Then shortcuts are created by adding new edges as follows: for each edge u-v in the underlying "n-ring with k nearest neighbors"; with probability p add a new edge u-w with randomly-chosen existing node w. In contrast with watts_strogatz_graph(), no edges are removed."), Watts-Strogatz small world graph ("First create a ring over n nodes. Then each node in the ring is connected with its k nearest neighbors. Then shortcuts are created by rewiring existing edges as follows: for each edge u-v in the underlying "n-ring with k nearest neighbors"; with probability p replace u-v with a new edge u-w with randomly-chosen existing node w. In contrast with newman_watts_strogatz_graph(), the random rewiring does not increase the number of edges."), $G_{n,d}$ ("Return a random regular graph of n nodes each with degree d... n*d must be even"), Barabási-Albert preferential attachment ("A graph of n nodes is grown by attaching new nodes each with m edges that are preferentially attached to existing nodes with high degree."), "Holme and Kim algorithm for growing graphs with powerlaw degree distribution and approximate average clustering" (see P. Holme and B. J. Kim, "Growing scale-free networks with tunable clustering", Phys. Rev. E 2002 vol 65 #2), random lobster ("A caterpillar is a tree that reduces to a path graph when pruning all leaf nodes (p2=0). A lobster is a tree that reduces to a caterpillar when pruning all leaf nodes."), random shell graph (see networkx.generators.random_graphs), tree with given powerlaw distribution ("A trial powerlaw degree sequence is chosen and then elements are swapped with new elements from a powerlaw distribution until the sequence makes a tree (#edges=#nodes-1).") or its degree sequence,
-         1. '''Database'''
-          . atlas function returns all graphs on up to 7 vertices (see "An Atlas of Graphs" by Ronald C. Read and Robin J. Wilson, Oxford University Press, 1998.)
-         1. '''Visualization'''
-          * layout: circular, shell, random, spring model, spectral layout, Power Iteration method to find smallest eigenvectors of Laplacian(G)
-          * intervace to pygraphviz
-          * Draw networks with matplotlib (pylab)
-          * Draw networks in 3d with [http://www.vtk.org/ vtk]
 
 ==== pygraphlib ====
    . contains pygraph and pydot
