@@ -222,6 +222,19 @@ We have attempted to make a complete list of existing graph theory software.  We
           * intervace to pygraphviz
           * Draw networks with matplotlib (pylab)
           * Draw networks in 3d with [http://www.vtk.org/ vtk]
+
+==== pygraphlib ====
+   . contains pygraph and pydot
+   . spanning trees by dijkstra and prim, shortest path, depth and breadth first (yep, that's it)
+
+==== Pygraphviz, pydot, YAPGVB ====
+   . [http://networkx.lanl.gov/pygraphviz/ Pygraphviz] is a part of NetworkX, meant to be a python interface to Graphviz
+   . [http://dkbza.org/pydot.html Pydot] is a python interface to Graphviz's dot language
+   . [http://yapgvb.sourceforge.net/ Yet Another Python Graphviz Binding] is yet another acronym, also has boost-graph bindings...
+
+==== GTL ====
+   . The Graph Template Library, and extension of the STL... a few basic algorithms. see also [http://ceu.fi.udc.es/SAL/E/2/GRAPHLET.html Graphlet]
+
 ==== CHomP ====
    [http://www.math.gatech.edu/~chomp/software/ link] GPL, written in C++, several benchmarks on page
     . application, and C++ [http://www.math.gatech.edu/~chomp/advanced/library.php library]: "The CHomP library allows a C++ programmer to access the data structures and homology computation procedures directly from their own programs, without the need to write data to files and then run homology programs which would read them in turn." (This had worried me at first, because the main programs only take strictly black&white bitmaps as input... -RLM)
@@ -233,6 +246,22 @@ We have attempted to make a complete list of existing graph theory software.  We
 
 === Software that SAGE can now include as optional ===
       (or maybe interface with)
+
+==== Boost C++ Libraries ====
+   . [http://www.boost.org/libs/graph/doc/index.html link]: a C++ library with a GPL-ish license, algorithms:
+    * Dijkstra's Shortest Paths
+    * Bellman-Ford Shortest Paths
+    * Johnson's All-Pairs Shortest Paths
+    * Kruskal's Minimum Spanning Tree
+    * Prim's Minimum Spanning Tree
+    * Connected Components
+    * Strongly Connected Components
+    * Dynamic Connected Components (using Disjoint Sets)
+    * Topological Sort
+    * Transpose
+    * Reverse Cuthill Mckee Ordering
+    * Smallest Last Vertex Ordering
+    * Sequential Vertex Coloring
 
 ==== Gato ====
       [http://gato.sourceforge.net/ Link]
@@ -516,7 +545,8 @@ http://www.diku.dk/geosteiner/LICENSE
                a. Draw Symmetric
             1. '''Needs a Functionality Category'''
                a. Projective Configurations
-
+=== Dr. Epstein ===
+   . [http://www.ics.uci.edu/~eppstein/PADS/ Some python algorithms]
 
 == Functionality categories ==
          1. '''Representation'''
@@ -548,3 +578,7 @@ http://www.diku.dk/geosteiner/LICENSE
   * [http://people.freenet.de/Emden-Weinert/graphs.html Thomas Emden-Weinert's webpage]: many many many many many links and resources
   * [http://vlado.fmf.uni-lj.si/vlado/vladonet.htm Vladimir Batagelj's website]: same story
   * [http://hypergraph.sourceforge.net/ HyperGraph], open source Java library for hypergraphs (might be interesting to browse the source at some point)
+  * [http://glaros.dtc.umn.edu/gkhome/views/cluto/index.html CLUTO] - Family of Data Clustering Software Tools
+  * [http://glaros.dtc.umn.edu/gkhome/views/metis/parmetis/index.html METIS] - Family of Multilevel Partitioning Algorithms: "a family of programs for partitioning unstructured graphs and hypergraphs and computing fill-reducing orderings of sparse matrices. The underlying algorithms used by METIS are based on the state-of-the-art multilevel paradigm that has been shown to produce high quality results and scale to very large problems."
+  * [http://amalfi.dis.unina.it/graph/ "The Graph Database"]
+  * 
