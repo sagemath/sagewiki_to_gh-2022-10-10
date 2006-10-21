@@ -581,4 +581,4 @@ http://www.diku.dk/geosteiner/LICENSE
   * [http://glaros.dtc.umn.edu/gkhome/views/cluto/index.html CLUTO] - Family of Data Clustering Software Tools
   * [http://glaros.dtc.umn.edu/gkhome/views/metis/parmetis/index.html METIS] - Family of Multilevel Partitioning Algorithms: "a family of programs for partitioning unstructured graphs and hypergraphs and computing fill-reducing orderings of sparse matrices. The underlying algorithms used by METIS are based on the state-of-the-art multilevel paradigm that has been shown to produce high quality results and scale to very large problems."
   * [http://amalfi.dis.unina.it/graph/ "The Graph Database"]
-  * 
+  * [http://research.microsoft.com/users/lovasz/geommain.pdf Paper]: Geometric Representations of Graphs, by Lásló Lovász
