@@ -15,6 +15,6 @@ Things in question:
  * How should the pre-printed outputs of the example sage evaluations be displayed? At first, it seems like you wouldn't want to keep them in the input cell (meaning they could be thrown away by the documentation html processor) because they will cause evaluation syntax errors. But you need them as a check, so maybe they can be printed as a seperate cell, or routed to the output cell directly when the page is loaded...
 [[BR]][[BR]]
 '''Other things:'''[[BR]]
-wiki-formated output of a sage notebook.[[BR]]
+wiki-formated output of a sage notebook (a built in notebook function).[[BR]]
  * ["dmr/notebookwiki"]: notebook wiki
  * [:dmr/example:examples]
