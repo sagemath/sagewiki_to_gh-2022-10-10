@@ -1,4 +1,4 @@
-Trying out html2moin.py processor; this is one step in processing doc pages for a notebook help browser, as well as a step to making a wiki-version of the documentation.
+Trying out html2moin.py processor; this is one step in processing doc pages for a notebook help browser, as well as a step to making a wiki-version of the documentation. This is just a test using a random doc page.
 
 14.3 Abelian group elements
 
