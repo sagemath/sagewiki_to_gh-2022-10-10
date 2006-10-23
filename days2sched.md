@@ -1,5 +1,7 @@
 [:days2:SAGE Days 2] Schedule
 
+ * [http://sage.math.washington.edu/sage SAGE]
+
  * [http://sage.math.washington.edu/sage_days2_audio/ Complete Audio Recordings of All Talks]
 
 =================================================================
