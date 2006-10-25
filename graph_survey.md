@@ -221,21 +221,39 @@ We have attempted to make a complete list of existing graph theory software.  We
 ==== Mathematica: Combinatorica ====
          a. [http://www.combinatorica.com/ Combinatorica] - for a list of functions, see [http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf help.pdf], page 13-14, 18, 21, 23, 25 - for a [http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/ book]
 
-=== Software that SAGE can now include as is (not as an optional package...) ===
+=== Other (useful) software ===
 
-==== pygraphlib ====
+==== Python Libraries ====
+
+===== pygraphlib =====
    . contains pygraph and pydot
    . spanning trees by dijkstra and prim, shortest path, depth and breadth first (yep, that's it)
 
-==== Pygraphviz, pydot, YAPGVB ====
+===== Pygraphviz, pydot, YAPGVB =====
    . [http://networkx.lanl.gov/pygraphviz/ Pygraphviz] is a part of NetworkX, meant to be a python interface to Graphviz
    . [http://dkbza.org/pydot.html Pydot] is a python interface to Graphviz's dot language
    . [http://yapgvb.sourceforge.net/ Yet Another Python Graphviz Binding] is yet another acronym, also has boost-graph bindings...
 
-==== GTL ====
-   . The Graph Template Library, and extension of the STL... a few basic algorithms. see also [http://ceu.fi.udc.es/SAL/E/2/GRAPHLET.html Graphlet]
+===== GraphViz =====
+       [http://www.graphviz.org Link]
+         a. open source, Common Public License Version 1.0 (BSD style)
+         a. poorly documented, at least on the web
+            1. '''Visualization'''
+               . DOT makes "hierarchical" drawings of directed graphs.  Algorithm aims edges in same direction and attempts to not cross edges and reduce length.
+               . NEATO uses spring method, via the Kamada-Kawai algorithm (statistical multi-dimensional scaling)
+               . fdp also uses the spring model, via the Fruchterman-Reingold heuristic (handles larger graphs and undirected, clustered graphs)
+               . a [http://www.dkbza.org/pydot.html python interface]
+               . "options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes."
 
-==== CHomP ====
+
+===== Gato =====
+      [http://gato.sourceforge.net/ Link]
+      A tool that animates algorithms, perhaps SAGE cannot actually include right now as is, but license is LGPL, and it requires Python and Tcl/Tk: would be good for educational purposes
+       . seems that you can write your algorithm in one window and watch it go, supports 3d
+
+==== C/C++ ====
+
+===== CHomP =====
    [http://www.math.gatech.edu/~chomp/software/ link] GPL, written in C++, several benchmarks on page
     . application, and C++ [http://www.math.gatech.edu/~chomp/advanced/library.php library]: "The CHomP library allows a C++ programmer to access the data structures and homology computation procedures directly from their own programs, without the need to write data to files and then run homology programs which would read them in turn." (This had worried me at first, because the main programs only take strictly black&white bitmaps as input... -RLM)
       1. Homology computation: compute the homology groups over $\mathbf{Z}$ or $\mathbf{Z}_p$ of a chain complex, as well as the homs induced in homology by chain maps; compute the (relative) homology of a set of cubes or a cubical set, as well as the homomorphism induced in homology by an acyclic combinatorial cubical multivalued map; compute the homology of a finite abstract simplicial complex or relative homology of a pair of simplicial complexes; construct a chain selector of an almost perfect combinatorial cubical multivalued map- this program was written by Marcin Mazur and Jacek Szybowski; find an index pair with Andrzej Szymczak's algorithm
@@ -244,10 +262,7 @@ We have attempted to make a complete list of existing graph theory software.  We
       1. Data manipulation: create a chain complex of a set of cubes; create chain maps corresponding to the projections of a map whose graph is given onto domain and codomain; compute the difference of two sets of cubes; divide a set of cubes into subsets separated by hyperplanes; create a chain complex of a simplicial complex; compute the restriction of a map to the given subset of its domain; compute the common part of given sets of cubes; split a set of cubes into connected components; compute the union of given sets of cubes
       1. Tools and test programs
 
-=== Software that SAGE can now include as optional ===
-      (or maybe interface with)
-
-==== Boost C++ Libraries ====
+===== Boost C++ Libraries =====
    . [http://www.boost.org/libs/graph/doc/index.html link]: a C++ library with a GPL-ish license, algorithms:
     * Dijkstra's Shortest Paths
     * Bellman-Ford Shortest Paths
@@ -263,52 +278,21 @@ We have attempted to make a complete list of existing graph theory software.  We
     * Smallest Last Vertex Ordering
     * Sequential Vertex Coloring
 
-==== Gato ====
-      [http://gato.sourceforge.net/ Link]
-      A tool that animates algorithms, perhaps SAGE cannot actually include right now as is, but license is LGPL, and it requires Python and Tcl/Tk: would be good for educational purposes
-       . seems that you can write your algorithm in one window and watch it go, supports 3d
-
-==== GeoSteiner ====
-    [http://www.diku.dk/geosteiner/ Link]
-        1. ''' Construction'''
-	A set of points in different formats
-	1. '''Trees, etc.'''
-	. Euclidean Steiner Tree Problem in the Plane
-        . Rectilinear Steiner Tree Problem in the Plane
-	. Minimum Spanning Tree Problem in Hypergraphs
-
-http://www.diku.dk/geosteiner/LICENSE
-
-==== Very_nauty ====
+===== Very_nauty =====
        [http://keithbriggs.info/very_nauty.html Link]
 	 a. designed to be compatible with nauty
          a. C library
          1. '''Subgraphs and Subsets'''
             cliques in G(n,p), # of graphs on n nodes with chromatic number k, # of graphs on n nodes with clique number k, new data on chromatic number and cliqe number, Lambert's w function
-==== GraphViz ====
-       [http://www.graphviz.org Link]
-         a. open source, Common Public License Version 1.0 (BSD style)
-         a. poorly documented, at least on the web
-            1. '''Visualization'''
-               . DOT makes "hierarchical" drawings of directed graphs.  Algorithm aims edges in same direction and attempts to not cross edges and reduce length.
-               . NEATO uses spring method, via the Kamada-Kawai algorithm (statistical multi-dimensional scaling)
-               . fdp also uses the spring model, via the Fruchterman-Reingold heuristic (handles larger graphs and undirected, clustered graphs)
-               . a [http://www.dkbza.org/pydot.html python interface]
-               . "options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes."
-==== plantri/fullgen ====
+
+===== plantri/fullgen =====
       [http://cs.anu.edu.au/people/bdm/plantri/ Link] written in C, tested mainly on UNIX, weird license ('free for all purposes other than sale for profit. However, they remain subject to our copyright and are not "public domain".'): interesting note, co-authored by Brendan !McKay, of ''nauty''
          1. '''Generation/Random Graphs'''
           * plantri: "exactly one member of each isomorphism class is output without the need for storing them. The speed of generation is more than 100,000 graphs per second in most cases, so extremely large classes of graph can be exhaustively listed.", classes include planar triangulations, quadrangulations, simple graphs, triangulations of a disc, planar cubic and quartic graphs
           * fullgen generates fullerenes
           * see also [http://hep.physics.indiana.edu/~tsulanke/graphs/surftri/ surftri], which generates triangulations of surfaces of higher genus
 
-=== Software that is incompatible with SAGE but still useful ===
-      (e.g. web-based applets)
-==== GUESS ====
- [http://graphexploration.cond.org/ link] represents graphs in JUNG, "still a work in progress", most if not all functionality besides visualization reduces to JUNG
-==== CAIDA's Walrus ====
- [http://www.caida.org/tools/visualization/walrus/ link] GPL, written in Java, "best suited to visualizing moderately sized graphs that are nearly trees" (viz only), PRETTY, doesn't work in OS X currently (as of 10/10/06), no functionality
-==== GraphThing ====
+===== GraphThing =====
  [http://graph.seul.org/ link] GPL, C++, [http://www.wxwidgets.org/ wxWidgets]
     * Adding, deleting and moving of vertices and edges.
     * Loading and saving of graphs.
@@ -319,7 +303,94 @@ http://www.diku.dk/geosteiner/LICENSE
     * Adjacency matrix (including exponents) and degree sequence.
     * Chromatic polynomial and chromatic number.
     * Network algorithms: Maximum network flow.
-==== GRIN ====
+
+===== LINK =====
+      I. [http://dimacs.rutgers.edu/~berryj/LINK.html (hyper)link]
+         a. Free, but not open source
+         a. C++ libraries
+         a. Doc's are PS, which upsets my computer very much!!! (ie - I can't read them so I don't actually know that much about LINK)
+
+===== ABACUS (A Branch-And-!CUt System) =====
+      [http://www.informatik.uni-koeln.de/abacus/ Link]
+         a. open source, GNU Lesser GPL v2.1
+         a. C++ libraries
+         1. '''Optimization'''
+            Branch-and-Bound algorithm, linear programming relaxations allow for dynamic generation of cutting planes or columns)
+
+===== GOBLIN =====
+        [http://www.math.uni-augsburg.de/~fremuth/goblin.html Link]
+		LGPL C++ library with Tcl/Tk interface
+		1. '''Representation'''
+		. Adjacency matrix or incidence list
+		1. '''Storage'''
+		. Has its own format
+		1. '''Optimization'''
+		. "Focuses on" combinatorical optimization algorithms, especially network flow and load balancing
+
+==== JAVA ====
+
+===== CAIDA's Walrus =====
+ [http://www.caida.org/tools/visualization/walrus/ link] GPL, written in Java, "best suited to visualizing moderately sized graphs that are nearly trees" (viz only), PRETTY, doesn't work in OS X currently (as of 10/10/06), no functionality
+
+===== The Graph Visualization Framework =====
+ [http://gvf.sourceforge.net/ Link] Name self-explanatory.  Open source, but written in Java.
+
+===== JGraphT =====
+ [http://jgrapht.sourceforge.net/ Link] JGraphT is a free Java graph library that provides mathematical graph-theory objects and algorithms
+
+===== GINY =====
+ [http://csbi.sourceforge.net/ Link] Open source java intefaces for supreme graph visualization
+
+===== JUNG =====
+ [http://jung.sourceforge.net/ Link] Open source java library
+
+===== JDigraph =====
+ [http://jdigraph.sourceforge.net/ Link] Open source java library
+
+===== WilmaScope =====
+ [http://www.wilmascope.org/ Link] a Java3D application which creates real time 3d animations of dynamic graph structures
+
+===== nv2d =====
+        [http://web.mit.edu/bshi/Public/nv2d/ link]
+		1. '''Visualization'''
+		. Java visualization, designed to run in a browser
+		. Spring model visualization
+		1. '''Construction'''
+		. Data from GraphML, Nfile
+
+===== JGraphEd =====
+        [http://www.jharris.ca/JGraphEd/ Link], Java-based graph editor, entirely GUI, with very basic interface. Good example of a bad interactive environment.
+
+===== JIGGLE =====
+	[http://www.cs.cmu.edu/~quixote/ Link]
+		1. '''Visualization'''
+		.Java visualization applet, poor interface, minimal, source available
+
+===== RoxGT =====
+        [http://roxgt.sourceforge.net Link]
+		Claims to be a complete extensible graph framework, written in
+		Java. No documentation.
+
+==== And more ====
+These need to be organized...
+
+===== GTL =====
+   . The Graph Template Library, and extension of the STL... a few basic algorithms. see also [http://ceu.fi.udc.es/SAL/E/2/GRAPHLET.html Graphlet]
+
+===== GeoSteiner =====
+    [http://www.diku.dk/geosteiner/ Link]
+        1. ''' Construction'''
+	A set of points in different formats
+	1. '''Trees, etc.'''
+	. Euclidean Steiner Tree Problem in the Plane
+        . Rectilinear Steiner Tree Problem in the Plane
+	. Minimum Spanning Tree Problem in Hypergraphs
+    [http://www.diku.dk/geosteiner/LICENSE License]
+
+===== GUESS =====
+ [http://graphexploration.cond.org/ link] represents graphs in JUNG, "still a work in progress", most if not all functionality besides visualization reduces to JUNG
+
+===== GRIN =====
          [http://www.geocities.com/pechv_ru/ Link]
 	   a. for windows only
 	   a. not open-source, but free download
@@ -337,9 +408,11 @@ http://www.diku.dk/geosteiner/LICENSE
 	         Metrics of the graph Density, Undensity and so on...)
             1. '''Visualization'''
                2d only, Clipboard edit, decomposition of edges, resize
-==== DSATUR ====
+
+===== DSATUR =====
       [http://prolland.free.fr/works/research/dsatphp/dsat.html Link], a program for computing graph colorings, algorithm [http://prolland.free.fr/works/research/dsat/index.html#anchor38034 documentation] in French, input in [http://mat.gsia.cmu.edu/COLOR/general/ccformat.ps DIMACS] format, [http://prolland.free.fr/works/research/dsatphp/dsat.txt source code]
-==== LEDA ====
+
+===== LEDA =====
       I. [http://www.alogorithmic-solutions.com Link]
          a. Commercial, but supposedly fast
          1. '''Morphisms / Group Actions'''
@@ -349,111 +422,59 @@ http://www.diku.dk/geosteiner/LICENSE
             a. Module Compression
             a. Module Cryptography
             a. Static Graphs
-==== LINK ====
-      I. [http://dimacs.rutgers.edu/~berryj/LINK.html (hyper)link]
-         a. Free, but not open source
-         a. C++ libraries
-         a. Doc's are PS, which upsets my computer very much!!! (ie - I can't read them so I don't actually know that much about LINK)
-==== ABACUS (A Branch-And-!CUt System) ====
-      [http://www.informatik.uni-koeln.de/abacus/ Link]
-         a. open source, GNU Lesser GPL v2.1
-         a. C++ libraries
-         1. '''Optimization'''
-            Branch-and-Bound algorithm, linear programming relaxations allow for dynamic generation of cutting planes or columns)
 
-=== Apparently useless / and/or misc. / and/or etc. ===
-==== GDToolkit ====
+===== GDToolkit =====
  [http://www.dia.uniroma3.it/~gdt/ Link] Closed source, visualization. OOP hierarchy of graph drawing classes - but we can't see the classes... hence 'useless'.
 
-==== The Graph Visualization Framework ====
- [http://gvf.sourceforge.net/ Link] Name self-explanatory.  Open source, but written in Java.
-
-==== StOCNET ====
+===== StOCNET =====
  [http://stat.gamma.rug.nl/stocnet/ Link] Social Networks
 
-==== JGraphT ====
- [http://jgrapht.sourceforge.net/ Link] JGraphT is a free Java graph library that provides mathematical graph-theory objects and algorithms
-
-==== GINY ====
- [http://csbi.sourceforge.net/ Link] Open source java intefaces for supreme graph visualization
-
-==== JUNG ====
- [http://jung.sourceforge.net/ Link] Open source java library
-
-==== JDigraph ====
- [http://jdigraph.sourceforge.net/ Link] Open source java library
-
-==== WilmaScope ====
- [http://www.wilmascope.org/ Link] a Java3D application which creates real time 3d animations of dynamic graph structures
-
-==== TouchGraph ====
+===== TouchGraph =====
  [http://touchgraph.sourceforge.net/ Link] a GraphLayout library.  I can't say much else because the 'CVS + Source' link is dead.  Is this a temporary problem or should we completely toss this one?
 
-==== Vancouver Network Analysis Team ====
+===== Vancouver Network Analysis Team =====
  [http://www.sfu.ca/~richards/ Link], Social Network Analysis
-==== yFiles ====
+
+===== yFiles =====
  [http://www.yworks.com/en/products_yfiles_about.htm Link], Commercial but pretty visualization
-==== prefuse ====
+
+===== prefuse =====
  [http://prefuse.org/ link] "information visualization toolkit"
-==== LGL (Large Graph Layout) ====
+
+===== LGL (Large Graph Layout) =====
  [http://sourceforge.net/projects/lgl link] LGL is a compendium of applications for making the visualization of large networks and trees tractable. LGL was specifically motivated by the need to make the visualization and exploration of large biological networks more accessible.
-==== nv2d ====
-        [http://web.mit.edu/bshi/Public/nv2d/ link]
-		1. '''Visualization'''
-		. Java visualization, designed to run in a browser
-		. Spring model visualization
-		1. '''Construction'''
-		. Data from GraphML, Nfile
-==== Otter ====
+
+===== Otter =====
         [http://www.caida.org/tools/utilities/ Link]
         Defunct
-==== Gravisto ====
-        [http://gravisto.fmi.uni-passau.de/ Link]
-==== JIGGLE ====
 
-	[http://www.cs.cmu.edu/~quixote/ Link]
-		1. '''Visualization'''
-		.Java visualization applet, poor interface, minimal, source available
-==== RoxGT ====
-        [http://roxgt.sourceforge.net Link]
-		Claims to be a complete extensible graph framework, written in
-		Java. No documentation.
-==== INGRID ====
+===== Gravisto =====
+        [http://gravisto.fmi.uni-passau.de/ Link]
+
+===== INGRID =====
         [http://ingrid.ldgo.columbia.edu/ Link]
 		Seems geared for climate modeling. Written in PostScript (???)
-==== METIS ====
+
+===== METIS =====
         [http://glaros.dtc.umn.edu/gkhome/views/metis/ Link]
 		1. '''Paths'''
 		. Claims to be fast at partitioning using various algorithms
 		. Fill-reducing ordering algorithms on sparse matrix representations, running a fill-reducing ordering on a matrix increases algorithm efficiency.
                 . [http://www.dtc.umn.edu/publications/reports/2006_03.pdf Documentation here]
 
-==== Algolib ====
+===== Algolib =====
         [http://algo.inria.fr/libraries/software.html Link]
 		Appears to be for general combinatorics (gen. functions, mostly) Doesn't seem to do graph theory.
-==== ACE ====
+===== ACE =====
         [http://phalanstere.univ-mlv.fr/~ace/ACE/3.0/ACE.html Link]
 		MAPLE Package for computer algebra and combinatorics. No longer being maintained.
-==== GOBLIN ====
-        [http://www.math.uni-augsburg.de/~fremuth/goblin.html Link]
-		LGPL C++ library with Tcl/Tk interface
-		1. '''Representation'''
-		. Adjacency matrix or incidence list
-		1. '''Storage'''
-		. Has its own format
-		1. '''Optimization'''
-		. "Focuses on" combinatorical optimization algorithms, especially network flow and load balancing
-
-==== JGraphEd ====
-        [http://www.jharris.ca/JGraphEd/ Link], Java-based graph editor, entirely GUI, with very basic interface. Good example of a bad interactive environment.
-
-==== Scalable Libraries for Graph Partitioning ====
+===== Scalable Libraries for Graph Partitioning =====
          [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Link], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
 
-==== Netvis Module ====
+===== Netvis Module =====
  [http://www.netvis.org/ Link], Social Networks
 
-==== Cyram Netminer ====
+===== Cyram Netminer =====
  [http://www.netminer.com/NetMiner/home_01.jsp Link], closed source, social networks
 
 == Algorithm Repositories ==
