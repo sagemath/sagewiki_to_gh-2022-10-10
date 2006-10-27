@@ -6,6 +6,8 @@ This is a list of programs and packages for mathematics that might possibly be i
  * http://www.gnu.org/software/glpk/ -- Linear programming.  It's 1MB, and very easy to build.
  * http://www-sop.inria.fr/galaad/software/synaps/ -- It's a GPL'd C++ library for doing numerical and algebraic stuff together and seems mature.  It requires FORTRAN and is very hard to build.  I skimmed some source code and it seemed relatively readable at first glance, and maybe there is something useful in there.   It's focused on numerical over algebraic.
  * http://yacas.sourceforge.net/ --   		YACAS is an easy to use, general purpose Computer Algebra System. It uses 		its own programming language (a sort of Lisp dialect) designed for symbolic as well as 		arbitrary-precision numerical computations (it can be linked to GMP library). YACAS comes with 		extensive documentation (320+ pages) covering the scripting language, 		the functionality that is already implemented in the system, and the 		algorithms used.
+ * [http://sage.math.washington.edu:9001/graph_survey NetworkX].
+
 == Software that is free and tries to do what SAGE does ==
  * http://www.mathemagix.org/mmxweb/web/welcome.en.html -- Their overall goal is very similar to SAGE's.  However, they make different design choices than we have with SAGE in almost every way:
   * They build everything around [http://www.texmacs.org/ texmacs], which is a "beautiful" yet aggravating program.
