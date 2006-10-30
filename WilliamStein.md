@@ -6,7 +6,6 @@ Getting SAGE-1.5 released.
 
  1. New PolynomialRing constructor code
     Get rid of the R.< > = PolynomialRing ... notation (fix lots of doctests)
- 1. Get rid of mutability for parent structures.
  1. Make all (most) parent structures unique.
  1. Matrices - implement all the classes using the new carefully *designed* structure.
  1. (for matrices)  -- the coverage is bad (write way more doctests).
