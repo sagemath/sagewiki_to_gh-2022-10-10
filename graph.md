@@ -21,3 +21,6 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
  * [http://sage.math.washington.edu:9001/graph_benchmark Link]
  * Our initial tests are designed to compare the constructions and very basic functionality found in our survey of existing software. At this stage in the game, we are testing to find the best way to represent graph objects in SAGE.
  * We will post results on the wiki as we get them. And as always, we love feedback!
+=== Plotting ===
+ * [http://sage.math.washington.edu:9001/graph_plotting Link]
+ * So far: NetworkX graphics primitive
