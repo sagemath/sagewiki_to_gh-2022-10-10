@@ -10,7 +10,7 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
 
  * We are currently seeking possible additions to our [http://sage.math.washington.edu:9001/graph_survey survey] of existing graph theory software.
  * The initial [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] has begun.
- * On Friday, October 20th Robert Miller will be giving a talk in PDL C-401 at 4:00pm. The talk will address the state of affairs for existing software, share a few benchmarks, and discuss some implementation ideas.
+ * On Friday, October 20th Robert Miller gave a [http://sage.math.washington.edu/home/rlmill/talk_2001-10-20/2006-10-20SAGE.pdf talk] about the state of affairs for existing software which shared a few benchmarks and discussed some implementation ideas.
 
 == Wiki Pages ==
 
