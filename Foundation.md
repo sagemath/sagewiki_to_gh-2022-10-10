@@ -50,9 +50,11 @@ Note that http://www.irs.gov/charities/ lists several charities whose status has
 
  * Board of Directors - William Stein (chair), David Joyner, ...
    * Topics for the board:
-     * Bylaws (Should we require a student member on the board? What are our priorities? How should the treasurer work? Should the board members have official duties - if so, what? ...)
+     * Bylaws (Should we require a student member on the board? What are our priorities? How should the treasurer work? Should the board members have official duties - if so, what (liason to the AG?, Foundation webmaster/secretary?, ...)
+     * The relationship between the SAGE Foundation and the UW.
      * They do have a section on cafepress.com with "Axiom Gear" where some money goes to the Axiom Foundation. What do you think of "SAGE Gear" on cafepress.com?
      * Should we create and distribute SAGE educational videos?
+     * SD3 planning
      * ...
 
 == Treasurer ==
