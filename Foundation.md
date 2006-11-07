@@ -6,6 +6,8 @@ There is already something called [http://thesagefoundation.org/ The SAGE founda
 
    QUESTION 1: Can I create another "SAGE Foundation", or do foundation names have to be unique?  This is a question about IRS tax codes, I think. 
 
+Note that http://www.irs.gov/charities/ lists several charities whose status has recently been revoked which have the same name. (They were from different states though.) Possibly a SAGE Foundation of New Jersey is unique.
+
 == Mission Statement ==
 
  * Here are some questions and answers which hopefully this statement will help answer:
@@ -13,25 +15,36 @@ There is already something called [http://thesagefoundation.org/ The SAGE founda
    * What is the purpose of SAGE?
          * Be a comprehensive mainstream high quality open source free mathematics software system.
          * Unify free open source mathematics software.
+         * To provide everyone (students, computer scientists, professional, ...), with stimulating, educational, high quality, open source, mathematical software for learning about and producing research in mathematics, at no cost.
 
    * Why does the SAGE Mathematics Foundation exist? 
          * Be a nonprofit tax-exempt organization under Section 501(c)(3) of the IRS tax code.  Can receive donations, license fees, payment for technical support, etc.  Resulting money can then be used to support students, visitors, purchase of equipment, workshops, and give grants to applicants for SAGE development. 
          * Provide an advisory board to help people applying for grants (e.g., from NSF), for conferences, and deciding how to use funds they have. 
-         * Hold SAGE's intellectual property rights?  Copyright will '''stay''' with authors; all coded submitted must be under the GPL (or compatible) license. 
-         * Trademark the SAGE name, or choose another name if necessary that can be trademarked (e.g., sagemath). 
+         * Protect SAGE developer's intellectual property rights.  Copyright will '''stay''' with authors; all coded submitted must be under the GPL (or compatible) license. 
+         * Trademark and protect the SAGE name.
+         * To improve the accessibility of mathematics for everyone with a computer. 
+         * To constantly improve the interactive exploratory experience available for anyone to learn about or perform research in mathematics using the SAGE program.
+
    
    * What is the Foundation going to do to achieve this purpose?
-         * Run workshops
-         * Hire an accountant
-         * Create an advisory board
+         * Run workshops.
+         * Hire an accountant.
+         * Create an advisory board of directors.
+         * Make available on the internet, at no cost to the user, the SAGE program and extensive documentation.
+         * Strongly encourage SAGE developers, funding and/or training them if fiscally possible.
+         * Support SAGE end users by hiring a user support staff which
+            * fixes reported bugs as soon as possible or offering work-arounds,
+            * offers programming advice,
+            * provides requested functionality, when possible.
 
    * What are our guiding principles? 
          * All software included in the SAGE core distribution must be free and open source, and '''arbitrary modifications and redistribution of every single line''' must be allowed. 
          * We should provide a model for the '''mathematical community''' of software development with a strong emphasis on openness, community, cooperation, and collaboration.
-         * We should always strive to create '''professional quality software''' that is available to everyone.
- 
+         * We should always strive to create '''professional quality software''' and documentation that is available to everyone.
+         * That mathematical software must be high quality, accessible, open source, and free for everyone to download and use at no cost.
+         * We strive to provide an encouraging, stable, productive, programming environment for developing future mathematical programming projects.
 
- * Other Examples: [http://www.python.org/psf/mission/ Python Foundation] and the [http://www.maa.org/Aboutmaa/mission.html MAA].
+ * Other Examples: [http://www.claymath.org/ Clay Math Institute], [http://www.math.uiuc.edu/ntf/ Number Theory Foundation], [http://www.python.org/psf/mission/ Python Foundation] and the [http://www.maa.org/Aboutmaa/mission.html MAA].
 
 == Organizational Structure ==
 
