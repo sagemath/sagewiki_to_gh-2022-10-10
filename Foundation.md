@@ -48,7 +48,7 @@ Note that http://www.irs.gov/charities/ lists several charities whose status has
 
 == Organizational Structure ==
 
- * Board of Directors - William Stein (chair), David Joyner, ...
+ * Board of Directors - Tom Boothby, David Harvey, David Joyner, William Stein (chair).
    * Topics for the board:
      * Bylaws (Should we require a student member on the board? What are our priorities? How should the treasurer work? Should the board members have official duties - if so, what (liason to the AG?, Foundation webmaster/secretary?, ...)
      * The relationship between the SAGE Foundation and the UW.
