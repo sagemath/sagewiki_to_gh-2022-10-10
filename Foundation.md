@@ -60,8 +60,7 @@ Note that http://www.irs.gov/charities/ lists several charities whose status has
 
 == Treasurer ==
 
- * An idea: Google just came out with an online speadsheet application with permissions. With that, any board member the Chair wants could fiddle with the finances, check each others entries, etc. It can be published and
-this allows several people to share the treasury duties. The Chair could just email another board member and say "Type ... into the spreadsheet for me would you?" ''TB: This sounds convenient, but may not be prudent.  For nonprofit status, we need to be 100% certain that our accounting, is, well, accountable.  If google spreadsheet doesn't track every change, an audit could be a nightmare''
+ * An idea: Google just came out with an online speadsheet application with permissions. With that, any board member the Chair wants could fiddle with the finances, check each others entries, etc. It can be published and this allows several people to share the treasury duties. The Chair could just email another board member and say "Type ... into the spreadsheet for me would you?" ''TB: This sounds convenient, but may not be prudent.  For nonprofit status, we need to be 100% certain that our accounting, is, well, accountable.  If google spreadsheet doesn't track every change, an audit could be a nightmare''
 
 Do any other mathematics software systems, e.g., Axiom, Magma, GAP, PARI, etc., have a foundation?
 
