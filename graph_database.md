@@ -30,7 +30,7 @@ attachment:complete_array.png
 ==== Examples ====
  * Here is the Petersen Graph as constructed in the database
 attachment:petersen_pos.png
- * And compare with the Petersen Graph constructed the same, but plotted using the spring layout algorithm
+ * And compare with the Petersen Graph plotted using the spring layout algorithm
 attachment:petersen_spring.png
 
 == Suggestions ==
