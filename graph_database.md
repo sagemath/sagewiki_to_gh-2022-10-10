@@ -17,7 +17,12 @@ We've begun to implement some basic graph constructors with (hopefully) intuitiv
 
 ==== Examples ====
  * Here is a complete graph with n=16
+{{{
+C = graphs.CompleteGraph(16)
+C.show()
+}}}
 attachment:complete_16.png
+
  * Below, we used the SAGE !GraphicsArray to show 16 complete graphs at once, starting at n=3 and through n=18.
 attachment:complete_array.png
 
