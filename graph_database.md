@@ -13,11 +13,11 @@ We've begun to implement some basic graph constructors with (hopefully) intuitiv
 
 === Complete Graphs ===
 
-Below, we used the SAGE GraphicsArray to show 16 complete graphs at once, starting at n=3 and through n=18.
+Below, we used the SAGE !GraphicsArray to show 16 complete graphs at once, starting at n=3 and through n=18.
     sage: g = []
     sage: j = []
     sage: for i in range(16):
-    ...    k = graphs.CompleteGraph(i+3)
+    ...    k = graphs.!CompleteGraph(i+3)
     ...    g.append(k)
     ...
     sage: for i in range(4):
