@@ -12,7 +12,7 @@ Emily Kirkman is working on this project.
 We've begun to implement some basic graph constructors with (hopefully) intuitive graphics.  Please browse below and for more information on graph plotting, look at Rober Miller's [http://sage.math.washington.edu:9001/graph_plotting wiki].
 
 === Complete Graphs ===
- * The Complete Graph constructor takes an integer argument n, which is the number of vertices to be in the graph.  The chosen convention is to display this graph in a cyclic manner with the first node at the top (via a position dictionary of [x,y] tuples).
+ * The Complete Graph constructor takes an integer argument, which is the number of vertices to be in the graph.  The chosen convention is to display this graph in a cyclic manner with the first node at the top (via a position dictionary of [x,y] tuples).
 
 ==== Examples ====
  * Here is a complete graph with n=16
