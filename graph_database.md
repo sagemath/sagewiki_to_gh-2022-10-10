@@ -20,6 +20,15 @@ attachment:complete_16.png
  * Below, we used the SAGE !GraphicsArray to show 16 complete graphs at once, starting at n=3 and through n=18.
 attachment:complete_array.png
 
+=== Cycle Graphs ===
+ * The Cycle Graph constructor takes an integer argument, which is to be the number of vertices in the graph.  The chosen convention is to display this graph in a cyclic manner with the first node at the top and counterclockwise direction.
+
+==== Examples ====
+ * Here is a cycle graph with n=10
+attachment:cycle_10.png
+ * Below, we used the SAGE !GraphicsArray to show 9 cycle graphs at once, starting at n=3 and through n=11
+attachment:cycle_array.png
+
 == Named Graphs ==
 
 === Petersen ===
