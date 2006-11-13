@@ -11,6 +11,7 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
  * We are currently seeking possible additions to our [http://sage.math.washington.edu:9001/graph_survey survey] of existing graph theory software.
  * The initial [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] has begun.
  * On Friday, October 20th Robert Miller gave a [http://sage.math.washington.edu/home/rlmill/talk_2001-10-20/2006-10-20SAGE.pdf talk] about the state of affairs for existing software which shared a few benchmarks and discussed some implementation ideas.
+ * Emily Kirkman has begun working on a database of common graphs.
 
 == Wiki Pages ==
 
@@ -24,3 +25,8 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
 === Plotting ===
  * [http://sage.math.washington.edu:9001/graph_plotting Link]
  * So far: NetworkX graphics primitive
+=== Database ===
+ * [http://sage.math.washington.edu:9001/graph_database Link]
+ * So far: Basic graph structures with intuitive graphics
+ * Plan:  Extensive educational docstrings and many, many more graph constructors
+ * Need: Feedback!   
