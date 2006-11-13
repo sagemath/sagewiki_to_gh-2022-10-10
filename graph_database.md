@@ -12,7 +12,8 @@ Emily Kirkman is working on this project.
 We've begun to implement some basic graph constructors with (hopefully) intuitive graphics.  Please browse below and for more information on graph plotting, look at Rober Miller's [http://sage.math.washington.edu:9001/graph_plotting wiki].
 
 === Complete Graphs ===
- * The Complete Graph constructor takes an integer argument, which is the number of vertices to be in the graph.  The chosen convention is to display this graph in a cyclic manner with the first node at the top and counterclockwise direction (via a position dictionary of [x,y] tuples).
+ * The Complete Graph constructor takes an integer argument, which is the number of vertices to be in the graph.
+ * The chosen convention is to display this graph in a cyclic manner with the first node at the top and counterclockwise direction (via a position dictionary of [x,y] tuples).
 
 ==== Examples ====
  * Here is a complete graph with n=16
@@ -24,7 +25,8 @@ attachment:complete_array.png
 ==== Examples ====
 
 === Cycle Graphs ===
- * The Cycle Graph constructor takes an integer argument, which is to be the number of vertices in the graph.  The chosen convention is to display this graph in a cyclic manner with the first node at the top and counterclockwise direction.
+ * The Cycle Graph constructor takes an integer argument, which is to be the number of vertices in the graph.
+ * The chosen convention is to display this graph in a cyclic manner with the first node at the top and counterclockwise direction.
 
 ==== Examples ====
  * Here is a cycle graph with n=10
@@ -33,7 +35,13 @@ attachment:cycle_10.png
 attachment:cycle_array.png
 
 === Star Graphs ===
+ * The Star Graph constructor takes an integer argument, which is to be the number of outer vertices of the star.  (Including the center, we will have n+1 nodes).
+ * The chosen convention is to place the first node in the center and have all outer nodes connect to it, starting with the second directly above and moving counterclockwise about the center.
 ==== Examples ====
+ * Here is a star graph with n=32 (i.e. 33 vertices)
+attachment:star_33.png
+ * Below, we used the SAGE !GraphicsArray to show 16 star graphs at once, starting at n=3 (4 nodes) and through n=18 (19 nodes).
+attachment:star_array.png
 
 === Wheel Graphs ===
 ==== Examples ====
