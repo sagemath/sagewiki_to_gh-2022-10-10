@@ -20,6 +20,9 @@ attachment:complete_16.png
  * Below, we used the SAGE !GraphicsArray to show 16 complete graphs at once, starting at n=3 and through n=18.
 attachment:complete_array.png
 
+=== Complete Bipartite Graphs ===
+==== Examples ====
+
 === Cycle Graphs ===
  * The Cycle Graph constructor takes an integer argument, which is to be the number of vertices in the graph.  The chosen convention is to display this graph in a cyclic manner with the first node at the top and counterclockwise direction.
 
@@ -28,6 +31,12 @@ attachment:complete_array.png
 attachment:cycle_10.png
  * Below, we used the SAGE !GraphicsArray to show 9 cycle graphs at once, starting at n=3 and through n=11
 attachment:cycle_array.png
+
+=== Star Graphs ===
+==== Examples ====
+
+=== Wheel Graphs ===
+==== Examples ====
 
 == Named Graphs ==
 
@@ -41,6 +50,8 @@ attachment:cycle_array.png
 attachment:petersen_pos.png
  * And compare with the Petersen Graph plotted using the spring layout algorithm
 attachment:petersen_spring.png
+
+== Graph Families ==
 
 == Suggestions ==
  * ???
