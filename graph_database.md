@@ -26,7 +26,7 @@ Below, we used the SAGE !GraphicsArray to show 16 complete graphs at once, start
     ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
     ...    j.append(n)
     ...
-    sage: G = sage.plot.plot.GraphicsArray(j)
+    sage: G = sage.plot.plot.!GraphicsArray(j)
     sage: G.show()
 attachment:complete_array.png
 
