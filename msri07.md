@@ -5,3 +5,5 @@
 
 
    * [:msri07_news: Relevant News]
+
+   * [:msri07/speakers: Invited Speakers]
