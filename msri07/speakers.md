@@ -1,5 +1,6 @@
 == Invited Speakers ==
 
+  * Henry Cohen (Microsoft Research)
   * [http://www.ccs.neu.edu/home/gene/ Gene Cooperman (Northeastern University)]
   * [http://sage.math.washington.edu/home/wbhart/ Bill Hart (Warwick)]
   * [http://www.cs.berkeley.edu/~yozo/ Yozo Hida (Berkeley)]
