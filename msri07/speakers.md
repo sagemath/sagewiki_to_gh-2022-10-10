@@ -1,6 +1,6 @@
 == Invited Speakers ==
 
-  * [http://research.microsoft.com/~cohn/ Henry Cohen (Microsoft Research)]
+  * [http://research.microsoft.com/~cohn/ Henry Cohn (Microsoft Research)]
   * [http://www.ccs.neu.edu/home/gene/ Gene Cooperman (Northeastern University)]
   * [http://www.csm.ornl.gov/harrison.html Robert Harrison (Oak Ridge National Lab)]
   * [http://sage.math.washington.edu/home/wbhart/ Bill Hart (Warwick)]
