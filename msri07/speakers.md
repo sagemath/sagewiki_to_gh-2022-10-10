@@ -1,6 +1,6 @@
 == Invited Speakers ==
 
-  * [David Bailey] [:msri07/abstract/Bailey: abstract]
+  * [http://www.icsi.berkeley.edu/~dbailey/ David Bailey] [:msri07/abstract/Bailey: abstract]
   * [http://research.microsoft.com/~cohn/ Henry Cohn (Microsoft Research)]
   * [http://www.ccs.neu.edu/home/gene/ Gene Cooperman (Northeastern University)]
   * [http://www.csm.ornl.gov/harrison.html Robert Harrison (Oak Ridge National Lab)]
