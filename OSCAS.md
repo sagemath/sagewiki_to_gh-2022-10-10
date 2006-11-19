@@ -43,6 +43,42 @@ are essentially dead. Two other sources of information are
 the Computer algebra handbook [GKW OSCAS#references] and the internet sites
 [CA].
 
+In any case, we see from this table that there are a lot of 
+open source computer algebra systems out there.
+Some of these are special purpose (such as Symmetrica) and others are
+general purpose (such as Axiom).
+We shall start this series by surveying Maxima, a general purpose
+CAS.
+
+= Maxima =
+
+Maxima is perhaps the most popular general purpose open source CAS.
+It's latest release (as of November 2006) is 5.10.
+
+== History ==
+
+The Maxima homepage and the Maxima FAQ (this information
+is basically due to Stavros Macrakis) explains some history.
+
+Maxima is a descendant of Macsyma, the legendary computer algebra system 
+developed in the late 1960s at the Massachusetts Institute of Technology. 
+Symbolics licensed Macsyma from M.I.T. and registered ``Macsyma" as a 
+trademark at some point (presumably with M.I.T.'s permission).
+When Macsyma source ceased to be freely available, pressure was put 
+on M.I.T. (mostly by Richard Fateman) to transfer the code which had been 
+developed largely with Department of Energy (DOE) funding to the DOE, 
+which then released it to others under certain conditions.
+That codebase was called DOE Macsyma. 
+
+The Maxima branch of Macsyma was maintained by William Schelter from 1982 
+until he passed away in 2001. In 1998 he obtained permission to release 
+the source code under the GNU General Public License (GPL). 
+Since his passing a group of users and developers has formed to bring 
+Maxima to a wider audience.
+
+Pages 8-9 of the Maxima book \cite{Max} has a more detailed history.
+More Macsyma history can be found in \cite{GKW}.
+
 [[Anchor(references)]]
 == References ==
  * [CA] [http://en.wikipedia.org/wiki/List_of_computer_algebra_systems]
