@@ -50,7 +50,7 @@ general purpose (such as Axiom).
 We shall start this series by surveying Maxima, a general purpose
 CAS.
 
- * = [Maxima] =
+ * [[Maxima]]
 
 Maxima is perhaps the most popular general purpose open source CAS.
 It's latest release (as of November 2006) is 5.10.
