@@ -40,8 +40,8 @@ they are released under. I am also unsure if the
 above-mentioned open source definition.
 Several of these are under very active development and some of these
 are essentially dead. Two other sources of information are
-the Computer algebra handbook [GKW OSCAS#references] and the internet sites
-[CA].
+the Computer algebra handbook [[#references GKW]] and the internet sites
+[[#references CA]].
 
 In any case, we see from this table that there are a lot of 
 open source computer algebra systems out there.
@@ -76,81 +76,24 @@ the source code under the GNU General Public License (GPL).
 Since his passing a group of users and developers has formed to bring 
 Maxima to a wider audience.
 
-Pages 8-9 of the Maxima book [Max] has a more detailed history.
-More Macsyma history can be found in [GKW].
+Pages 8-9 of the Maxima book [[#references Max]] has a more detailed history.
+More Macsyma history can be found in [[#references GKW]].
 
-\subsection{Basics}
+= Basics =
 
-\begin{itemize}
-\item
-{\it website}:
-\newline
-\verb+http://maxima.sourceforge.net/+
-\newline
-{\it wiki}:
-\newline
-\verb+http://maxima.sourceforge.net/wiki/+
-
-\item
-{\it Documentation}:
-\newline
-{\it Online reference manual}:
-\newline
-\verb+http://maxima.sourceforge.net/docs/manual/en/maxima.html+
-\newline
-(also available in pdf). This has been translated into 
-Spanish and Portuguese. 
-\newline
-Maxima tutorials are available
-in English, Spanish, Portuguese, German, and Italian
-from the website. There are also slightly older 
-Maxima documents in French.
-\newline
-There is also an excellent Calculus textbook which uses Macsyma
-extensively \cite{BI-G}.
-
-\item
-{\it Interfaces}:
-\newline
-Command line.
-\newline
-{\it front-end GUIs}: xmaxima, wxmaxima (cross platform),
-TeXmacs (cross platform), Imaxima, Kayali, Symaxx.
-\newline
-{\it web interfaces}: There are several lists on the page:
-\newline
-\verb+http://maxima.sourceforge.net/relatedprojects.shtml+
-
-\item
-{\it Availability}:
-\newline
-{\it Source code}:
-Maxima is written in Common Lisp and can be made to compile 
-using either Clisp, GCL, CMUCL, SBCL, or OpenMCL. It has been 
-compiled on Linux, Windows, Mac OSX, and FreeBSD machines.
-\newline
-\verb+http://maxima.sourceforge.net/wiki/index.php/Maxima%20ports+
-\newline
-{\it Binary}:
-It is available as a binary
-for linux and windows (cygwin not required).
-
-\item
-{\it Support}:
-\newline
-There is an active email list:
-\newline
-\verb+http://maxima.sourceforge.net/maximalist.html+
-\newline
-This list is also used by developers as well.
-
-\item
-''License:''
-\newline
-However, Maxima's graphics uses gnuplot, which is not GPL'd, though Maxima itself
-is.
+ * ''website'': [http://maxima.sourceforge.net/]
+ * ''wiki'': [http://maxima.sourceforge.net/wiki/]
+ * ''Documentation'': [http://maxima.sourceforge.net/docs/manual/en/maxima.html Online reference manual] (also available in pdf). This has been translated into Spanish and Portuguese. Maxima ''tutorials'' are available in English, Spanish, Portuguese, German, and Italian from the website. There are also slightly older Maxima documents in French. There is also an excellent Calculus textbook which uses Macsyma extensively [#references BI-G].
+ * ''Interfaces'': Command line.
+ * ''front-end GUIs'': xmaxima, wxmaxima (cross platform), TeXmacs (cross platform), Imaxima, Kayali, Symaxx.
+ * ''web interfaces'': There are several lists on the page: [http://maxima.sourceforge.net/relatedprojects.shtml]
+ * ''Availability'':
+''Source code'':
+Maxima is written in Common Lisp and can be made to compile using either Clisp, GCL, CMUCL, SBCL, or OpenMCL. It has been compiled on Linux, Windows, Mac OSX, and FreeBSD machines. See the [http://maxima.sourceforge.net/wiki/index.php/Maxima%20ports Maxima ports page].
+ * ''Binary executables'': Maxima is available as a binary for linux and windows (cygwin not required).
+ * ''Support'': Where can you get help? There is an active email list: [http://maxima.sourceforge.net/maximalist.html]. This list is also used by developers as well.
+ * ''License:'' GPL. However, Maxima's graphics uses {{{GNUplot}}}, which is not GPL'd.
 \end{itemize}
-
 
 = Active developers =
 
