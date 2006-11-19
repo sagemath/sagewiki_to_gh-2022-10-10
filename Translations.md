@@ -1,4 +1,4 @@
-Translations of [http://modular.math.washington.edu//home/wdj/expository/sage-intro-en.html A short introction to SAGE] using Google's [http://www.google.com/language_tools translation page].
+Translations of ["A short introduction to SAGE"] using Google's [http://www.google.com/language_tools translation page].
 
  * ["SAGE-intro-Spanish"] translation
  * ["SAGE-intro-French"] translation
