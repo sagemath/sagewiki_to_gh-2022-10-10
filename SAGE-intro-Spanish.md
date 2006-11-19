@@ -45,6 +45,7 @@ En el aviso SAGE, el tipo “factor (100)” (vuelta del golpe) y entonces incor
 Hay más ejemplos, en la clase particular, construcciones, y los manuales de referencia, disponibles en el Web page SAGE. ¡Intentarlos por favor hacia fuera! 
 
 El SAGE es en un primero tiempo del desarrollo, pero está creciendo activamente, y es ya usable. Hay un tablero de la discusión, un insecto-perseguidor, y una lista SAGES del deseo. Por favor visita 
+
 http://sage.scipy.org/ 
 
 o 
