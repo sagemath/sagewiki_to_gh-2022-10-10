@@ -40,13 +40,15 @@ they are released under. I am also unsure if the
 above-mentioned open source definition.
 Several of these are under very active development and some of these
 are essentially dead. Two other sources of information are
-the Computer algebra handbook [GKW] and the internet sites
+the Computer algebra handbook [GKW OSCAS#references] and the internet sites
 [CA].
 
 [[Anchor(references)]]
 == References ==
  * [CA] [http://en.wikipedia.org/wiki/List_of_computer_algebra_systems]
+
 [http://en.wikipedia.org/wiki/Comparison_of_computer_algebra_systems]
+
 [http://wiki.axiom-developer.org/RosettaStone]
 
  * [GKW] J. Grabmeier, E. Kaltofen, V. Weispfenning, ''Computer algebra handbook'', Springer, 2003.
