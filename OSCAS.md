@@ -1,4 +1,4 @@
-This page will survey open source computer algebra systems (OSCAS's).
+This page will survey open source computer algebra systems (OSCAS's). Some of this may appear as columns in [http://www.acm.org/sigsam/bulletin/ CCA].
 
 
 A ''computer algebra system'' (CAS) is a mathematical software package capable of symbolic manipulation. 
@@ -30,11 +30,11 @@ The commercial CAS industry is big business. Few people know more about the CAS 
 || Symmetrica  ||  public domain  || http://www.mathe2.uni-bayreuth.de/axel/symneu_engl.html ||
 || Yacas   ||   GPL     || http://yacas.sourceforge.net ||
 
-I have left out CAFE (Computer Algebra and Functional Equations), 
+Omitted is ''CAFE'' (Computer Algebra and Functional Equations), 
 a group writing a collection of CAS libraries 
 (see  [http://www-sop.inria.fr/cafe/main-e.html CAFE]).
 They appear to be written in Aldor and Maple by (the late)
-Manuel Bronstein. I cannot determine the license (if any) 
+Manuel Bronstein. I (=David Joyner) cannot determine the license (if any) 
 they are released under. I am also unsure if the 
 "open source" licenses of LiDIA, MAS, and Scilab are compatible with the
 above-mentioned open source definition.
