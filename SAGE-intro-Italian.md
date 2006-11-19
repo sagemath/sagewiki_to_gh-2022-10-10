@@ -40,7 +40,7 @@ Una volta che la SAGE è installata in un indice quale sage-x.y.z, ci sarà un s
 (a) inizia il funzionamento PRUDENTE dell'assistente (che carica il foglio di lavoro precedentemente usato, se c'è ne) e 
 (b) apre il browser del firefox (o gli inizio una nuova linguetta se è già aperta) e visualizza il Web page PRUDENTE del taccuino. 
 
-Al richiamo PRUDENTE, il tipo “il fattore (100)„ (ritorno di colpo) ed allora fornisce Ctrl-d (tenere il ket di Ctrl e la d allo stesso tempo) o fattore (di ritorno) “rinunciato„ 100 di volontà della SAGE il primo ed allora rimuove. Per fare questo nel taccuino, fornire “il fattore (100)„ “in una cellula„ (una finestra bianca vuota nel browser di WWW) ed allora entrare spost-entrano. La SAGE visualizzerà la scomposizione in fattori nello spazio appena sotto la cellula. Rimuovere, la versione del taccuino di SAGE, in primo luogo va di nuovo alla linea di ordine ed entra in Ctrl-c. Dopo, rimuovere il browser. Ciò rinuncia il taccuino della SAGE. 
+Al richiamo PRUDENTE, il tipo “factor (100)„ (ritorno di colpo) ed allora fornisce Ctrl-d (tenere il ket di Ctrl e la d allo stesso tempo) o fattore (di ritorno) “rinunciato„ 100 di volontà della SAGE il primo ed allora rimuove. Per fare questo nel taccuino, fornire “factor (100)„ “in una cellula„ (una finestra bianca vuota nel browser di WWW) ed allora entrare spost-entrano. La SAGE visualizzerà la scomposizione in fattori nello spazio appena sotto la cellula. Rimuovere, la versione del taccuino di SAGE, in primo luogo va di nuovo alla linea di ordine ed entra in Ctrl-c. Dopo, rimuovere il browser. Ciò rinuncia il taccuino della SAGE. 
 
 Ci sono più esempi, nella lezione privata, costruzioni e manuali di riferimento, disponibili sul Web page PRUDENTE. Provarli prego fuori! 
 
