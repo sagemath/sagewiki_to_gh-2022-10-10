@@ -49,4 +49,4 @@ Some of these are special purpose (such as Symmetrica) and others are
 general purpose (such as Axiom).
 We shall start by surveying Maxima, a general purpose CAS.
 
- * ["Maxima"]
+ * ["Maxima as an OSCAS"]
