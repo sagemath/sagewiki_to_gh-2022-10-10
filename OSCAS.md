@@ -76,11 +76,121 @@ the source code under the GNU General Public License (GPL).
 Since his passing a group of users and developers has formed to bring 
 Maxima to a wider audience.
 
-Pages 8-9 of the Maxima book \cite{Max} has a more detailed history.
-More Macsyma history can be found in \cite{GKW}.
+Pages 8-9 of the Maxima book [Max] has a more detailed history.
+More Macsyma history can be found in [GKW].
+
+\subsection{Basics}
+
+\begin{itemize}
+\item
+{\it website}:
+\newline
+\verb+http://maxima.sourceforge.net/+
+\newline
+{\it wiki}:
+\newline
+\verb+http://maxima.sourceforge.net/wiki/+
+
+\item
+{\it Documentation}:
+\newline
+{\it Online reference manual}:
+\newline
+\verb+http://maxima.sourceforge.net/docs/manual/en/maxima.html+
+\newline
+(also available in pdf). This has been translated into 
+Spanish and Portuguese. 
+\newline
+Maxima tutorials are available
+in English, Spanish, Portuguese, German, and Italian
+from the website. There are also slightly older 
+Maxima documents in French.
+\newline
+There is also an excellent Calculus textbook which uses Macsyma
+extensively \cite{BI-G}.
+
+\item
+{\it Interfaces}:
+\newline
+Command line.
+\newline
+{\it front-end GUIs}: xmaxima, wxmaxima (cross platform),
+TeXmacs (cross platform), Imaxima, Kayali, Symaxx.
+\newline
+{\it web interfaces}: There are several lists on the page:
+\newline
+\verb+http://maxima.sourceforge.net/relatedprojects.shtml+
+
+\item
+{\it Availability}:
+\newline
+{\it Source code}:
+Maxima is written in Common Lisp and can be made to compile 
+using either Clisp, GCL, CMUCL, SBCL, or OpenMCL. It has been 
+compiled on Linux, Windows, Mac OSX, and FreeBSD machines.
+\newline
+\verb+http://maxima.sourceforge.net/wiki/index.php/Maxima%20ports+
+\newline
+{\it Binary}:
+It is available as a binary
+for linux and windows (cygwin not required).
+
+\item
+{\it Support}:
+\newline
+There is an active email list:
+\newline
+\verb+http://maxima.sourceforge.net/maximalist.html+
+\newline
+This list is also used by developers as well.
+
+\item
+''License:''
+\newline
+However, Maxima's graphics uses gnuplot, which is not GPL'd, though Maxima itself
+is.
+\end{itemize}
+
+
+= Active developers =
+
+At the present day the major contributors seem to be Robert Dodier, 
+Barton Willis, Raymond Toy, Stavros Macrakis (especially generating 
+bug reports and bug fixes), Mario Rodriguez Riotorto (docs and share packages,
+especially), Vadim Zhytnikov (especially packaging the Windows build),
+and David Billinghurst (differential equations).
+There are also people working
+on various projects closely or not-so-closely related -- e.g. Andrej Vodopivec
+(WxMaxima), Camm Maguire (GCL). 
+
+= Capabilities =
+
+The main Maxima webpage explains the basic capabilities:
+
+Maxima is a system for the manipulation of 
+symbolic and numerical expressions, including differentiation, 
+integration, Taylor series, Laplace transforms, 
+ordinary differential equations, systems of linear equations, 
+polynomials, and sets, lists, vectors, matrices, and tensors. 
+Maxima yields high precision numeric results by using exact 
+fractions, arbitrary precision integers, and arbitrarily 
+precision floating point numbers. 
+Maxima can plot functions and data in two and three dimensions.
+Maxima also has several special-purpose packages,
+such as for tensor calculus and summation identities.
+
+\subsection{Thanks}
+
+I have borrowed/compiled material from the Maxima website
+and emails with Robert Dodier, who I thank for his very generous help.
+
+Of course, only I am responsible for any mistakes. If you have 
+corrections or comments, please email me at the address below.
+
+
 
 [[Anchor(references)]]
-== References ==
+= References =
  * [CA] [http://en.wikipedia.org/wiki/List_of_computer_algebra_systems]
 
 [http://en.wikipedia.org/wiki/Comparison_of_computer_algebra_systems]
