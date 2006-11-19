@@ -6,7 +6,7 @@ O SAGE é uma biblioteca do Python com um intérprete customized. Escreve-se no 
 
 O SAGE fornecerá uma relação unified a diversas bibliotecas de fonte abertas importantes, including o SINGULAR (para a álgebra commutative) e o GAP (para a teoria do grupo), a biblioteca de MWRANK de John Cremona (para curvas elliptic), à biblioteca de PARI para a biblioteca NTL da teoria da teoria do número, e do número de Shoup, máximos (para a manipulação simbólica). Há também umas relações a muita fonte comercial ou closed CAS tais como o bordo, o KASH/KANT, o MAGMA, o Mathematica, o Axiom, e o muito outro. Para gráficos, o SAGE inclui Matplotlib (para 2 d e uns gráficos de 3 d) e tachyon (um tracer do raio de 3 d). 
 
-O projeto do SAGE é pesadamente pelo pensou com cuidado para fora e estrutura de classe madura do MAGMA closed do programa da álgebra do computador de fonte. Entretanto, o SAGE não é significado ser um clone do MAGMA e outros pacotes (tais como GAP e Mathematica) jogaram também um papel influencial.
+O projeto do SAGE é influenciado pelo pensou com cuidado para fora e estrutura de classe madura do MAGMA closed do programa da álgebra do computador de fonte. Entretanto, o SAGE não é significado ser um clone do MAGMA e outros pacotes (tais como GAP e Mathematica) jogaram também um papel influencial.
 
 
 Os objetivos a longo prazo principais e os princípios guiando para o SAGE: 
@@ -37,7 +37,7 @@ http://sage.scipy.org/.
 
 Embora o SAGE use o Python e o PARI e os outros pacotes, manter na mente que não é necessário ter este software instalado no computador. A instalação do SAGE é projetada realmente ser relativamente painless, mas se houver algum problema, pede por favor (o Web page tem as ligações às listas do email para a sustentação PRUDENTE). Há umas instruções de instalação em http://sage.scipy.org/sage/doc/html/inst/index.html. Além disso, se o SAGE for instalado uma vez, promover à versão a mais nova é especialmente fácil com a opção do comando do “melhoramento” (este é descrito no Web site dado acima e supõe que o wget está instalado e uma conexão do Internet). 
 
-Uma vez que o SAGE é instalado em um diretório tal como sage-x.y.z, haverá um subdirectory chamado “escaninho”. Em Linux, o Cd a este subdirectory do “escaninho” e datilografa o `do comando de "./sage" para começar o SAGE e indicar o “sábio alerta PRUDENTE: ”. Isto é de sentido único usar o SAGE. Uma outra maneira é datilografar em seguida no “notebook (open_viewer=True)” no alerta PRUDENTE, que 
+Uma vez que o SAGE é instalado em um diretório tal como sage-x.y.z. Em Linux, o Cd a este directory e datilografa o `do comando de "./sage" para começar o SAGE e indicar o “sábio alerta PRUDENTE: ”. Isto é de sentido único usar o SAGE. Uma outra maneira é datilografar em seguida no “notebook (open_viewer=True)” no alerta PRUDENTE, que 
 (a) começa o corredor PRUDENTE do usuário (que carrega a folha previamente usada, se algum) e 
 (b) abre o browser do firefox (ou começos uma aba nova se estiver já aberta) e indica o Web page PRUDENTE do caderno. 
 
