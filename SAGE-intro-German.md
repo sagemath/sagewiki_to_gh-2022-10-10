@@ -6,8 +6,6 @@ SAGE ist eine Pythonschlangebibliothek mit einem kundengebundenen Interpreten. E
 
 SAGE stellt eine vereinheitlichte Schnittstelle zu einigen wichtigen geöffneten Quelbibliotheken, einschließlich EIGENHEIT (für auswechselbare Algebra) und GAP (für Gruppe Theorie), zur John Cremonas MWRANK Bibliothek (für elliptische Kurven), zur PARI Bibliothek für Zahltheorie- und Zahltheoriebibliothek NTL, Maxima Shoups zur Verfügung (für symbolische Handhabung). Es gibt auch Schnittstellen zu vieler kommerzieller oder geschlossener Quelle CAS wie Ahornholz, KASH/KANT, MAGMA, Mathematica, Axiom und viele andere. Für Graphiken schließt SAGE Matplotlib (für 2 d und ca. 3 d Graphiken) und tachyon ein (einen 3 d Strahlindikator). 
 
-Das Design des SAGES ist schwer durch dachte sorgfältig heraus und fällige Kategorie Struktur des geschlossenen Kompilierungsanlage-Algebraprogramm MAGMAS. Jedoch wird SAGE nicht bedeutet, um ein Klon des MAGMAS zu sein und andere Pakete (wie GAP und Mathematica) haben auch eine influencial Rolle gespielt.
-
 
 Die langfristigen hauptsächlichziele und die Führungsprinzipien für SAGE: 
 
