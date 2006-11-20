@@ -1,8 +1,8 @@
-== Introduction courte à la SAGE : Logiciel pour l'expérimentation d'algèbre et de géométrie ==
+== Courte introduction à SAGE : logiciel d'expérimentation d'algèbre et de géométrie ==
 
-La SAGE est un cadre pour la théorie de nombre, l'algèbre, et le calcul de la géométrie. L'exécution courante est principalement due à William Stein. C'est source ouverte et librement disponible en vertu du permis de grand public de GNU (GPL). 
+SAGE est un cadre pour la théorie de nombre, l'algèbre, et le calcul en géométrie. La version actuelle est principalement l'oeuvre de William Stein. C'est un logiciel libre, disponible selon les termes de la licence générale GNU (GPL). 
 
-La SAGE est une bibliothèque de python avec un interprète adapté aux besoins du client. On lui écrit en python, C++, et C (par l'intermédiaire de Pyrex). Le python est une source ouverte orientée objectivement a interprété la langue, avec un grand nombre de bibliothèques, par exemple, pour l'analyse numérique, qui sont à la disposition des utilisateurs de SAGE. Le python peut également être accédé en mode de bibliothèque des programmes de C/C++. 
+SAGE est une bibliothèque python avec un interpréteur adapté aux besoins de l'utilisateur. Du code python, C++, et C (par l'intermédiaire de Pyrex) peut être directement ajouté. Le langage python est un langage de programmation libre, interprété, orienté objet, avec un grand nombre de bibliothèques, par exemple pour l'analyse numérique, qui sont à la disposition des utilisateurs de SAGE. Le langage python peut également être accédé en mode de bibliothèque par des programmes en C/C++.  -trans NPE ends here-
 
 La SAGE fournira une interface unifiée à plusieurs bibliothèques de source ouvertes importantes, y compris le SINGULIER (pour l'algèbre commutative) et le GAP (pour la théorie de groupe), à bibliothèque de MWRANK de John Crémone (pour les courbes elliptiques), à la bibliothèque de PARI pour la bibliothèque NTL, maximum de théorie de théorie de nombre, et de nombre de Shoup (pour la manipulation symbolique). Il y a également des interfaces à beaucoup de source commerciale ou fermée CAS tels que l'érable, le KASH/KANT, le MAGMA, le Mathematica, l'axiome, et beaucoup d'autres. Pour des graphiques, la SAGE inclut Matplotlib (pour 2 d et quelques graphiques à trois dimensions) et tachyon (un traceur à trois dimensions de rayon). 
 
