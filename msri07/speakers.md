@@ -10,4 +10,4 @@
   * [http://www.csd.uwo.ca/~moreno/ Moreno Maza and Xie (Western Ontario)]
   * [http://www.math.umb.edu/~anoel/ Alfred Noel (UMass Boston / MIT)]
   * [http://www.yiqiang.net/ Yi Qiang (UW)]
-  * [http://www.math.uic.edu/~jan/ Verschelde (UIC)]
+  * [http://www.math.uic.edu/~jan/ Jan Verschelde (UIC)]
