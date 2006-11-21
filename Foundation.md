@@ -38,7 +38,8 @@ Note that http://www.irs.gov/charities/ lists several charities whose status has
             * provides requested functionality, when possible.
 
    * What are our guiding principles? 
-         * All software included in the SAGE core distribution must be free and [http://www.opensource.org/docs/definition.php open source]. Moreover, arbitrary modifications of the source code must be allowed and redistribution of any line of source code in its modified form must be allowed. (In particular, by definition of "open source", no discrimination against persons or groups or fields of endeavor is allowed.)
+         * All software included in the SAGE core distribution must be free and [http://www.opensource.org/docs/definition.php open source]. Moreover, arbitrary modifications of the source code must be allowed and redistribution of any line of source code in its modified form must be allowed. 
+         * Included software must not discriminate against persons, groups or fields of endeavor. For example, software with a license that only permits use for "academic purposes" will not be included with SAGE.
          * We should provide a model for the '''mathematical community''' of software development with a strong emphasis on openness, community, cooperation, and collaboration.
          * We should always strive to create '''professional quality software''' and documentation that is available to everyone.
          * That mathematical software must be high quality, accessible, open source, and free for everyone to download and use at no cost.
