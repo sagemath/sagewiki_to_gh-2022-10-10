@@ -71,6 +71,39 @@ TODO:
 == Basic Structures ==
 We've begun to implement some basic graph constructors with (hopefully) intuitive graphics.  Please browse below and for more information on graph plotting, look at Rober Miller's [http://sage.math.washington.edu:9001/graph_plotting wiki].
 
+=== Empty Graphs ===
+
+==== Info ====
+ * Returns an empty graph (0 nodes and 0 edges).
+ * This is useful for constructing graphs by adding edges and vertices individually or in a loop.  
+
+==== Plotting ====
+ * When plotting, this graph will use the default spring-layout algorithm, unless a position dictionary is specified.
+
+==== Examples ====
+{{{
+ # Add one vertex to an empty graph and then show:
+            sage: empty1 = graphs.EmptyGraph()
+            sage: empty1.add_vertex()
+            sage.: empty1.show()
+}}}
+
+
+{{{    
+            # Use for loops to build a graph from an empty graph:
+            sage: empty2 = graphs.EmptyGraph()
+            sage: for i in range(5):
+            ...    empty2.add_vertex() # add 5 nodes, labeled 0-4
+            ...
+            sage: for i in range(3):
+            ...    empty2.add_edge(i,i+1) # add edges {[0:1],[1:2],[2:3]}
+            ...
+            sage: for i in range(4)[1:]:
+            ...    empty2.add_edge(4,i) # add edges {[1:4],[2:4],[3:4]}
+            ...
+            sage.: empty2.show()
+}}}
+
 === Cycle Graphs ===
  * The Cycle Graph constructor takes an integer argument, which is to be the number of vertices in the graph.
  * The chosen convention is to display this graph in a cyclic manner with the first node at the top and counterclockwise direction.
