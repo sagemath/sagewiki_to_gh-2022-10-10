@@ -83,25 +83,25 @@ We've begun to implement some basic graph constructors with (hopefully) intuitiv
 ==== Examples ====
 {{{
  # Add one vertex to an empty graph and then show:
-            sage: empty1 = graphs.EmptyGraph()
-            sage: empty1.add_vertex()
-            sage.: empty1.show()
+ sage: empty1 = graphs.EmptyGraph()
+ sage: empty1.add_vertex()
+ sage.: empty1.show()
 }}}
 
 
 {{{    
-            # Use for loops to build a graph from an empty graph:
-            sage: empty2 = graphs.EmptyGraph()
-            sage: for i in range(5):
-            ...    empty2.add_vertex() # add 5 nodes, labeled 0-4
-            ...
-            sage: for i in range(3):
-            ...    empty2.add_edge(i,i+1) # add edges {[0:1],[1:2],[2:3]}
-            ...
-            sage: for i in range(4)[1:]:
-            ...    empty2.add_edge(4,i) # add edges {[1:4],[2:4],[3:4]}
-            ...
-            sage.: empty2.show()
+ # Use for loops to build a graph from an empty graph:
+ sage: empty2 = graphs.EmptyGraph()
+ sage: for i in range(5):
+ ...    empty2.add_vertex() # add 5 nodes, labeled 0-4
+ ...
+ sage: for i in range(3):
+ ...    empty2.add_edge(i,i+1) # add edges {[0:1],[1:2],[2:3]}
+ ...
+ sage: for i in range(4)[1:]:
+ ...    empty2.add_edge(4,i) # add edges {[1:4],[2:4],[3:4]}
+ ...
+ sage.: empty2.show()
 }}}
 
 === Cycle Graphs ===
