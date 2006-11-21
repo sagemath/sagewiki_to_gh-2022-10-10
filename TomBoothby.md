@@ -5,5 +5,3 @@
  * 3d plotting with mpl and tachyon
  * Music / visual art
 '''My argument for including GD in it's full glory'''''' http://sage.math.washington.edu/home/boothby/f.jpg '''
-
- * This image would be crisp
