@@ -1,72 +1,52 @@
-== Kurze Einleitung in einen SAGE: Software für Algebra-und Geometrie-Experimentieren ==
+== Eine kurze Einleitung in SAGE: Software für Algebra und Geometrie Experimente ==
 
-SAGE ist ein Rahmen für Zahltheorie, Algebra und Geometrieberechnung. Die gegenwärtige Implementierung liegt an William Stein hauptsächlich. Es ist geöffnete Quelle und frei vorhanden unter den Bezeichnungen der GNU öffentlichkeit Lizenz (GPL). 
+SAGE ist eine mathematische Software für die Zahlentheorie, sowie Algebra- und Geometrieberechnungen. Die Implementierung geht im wesentlichen auf an William Stein und weitere 30 anderen Mitwirkende aus der ganzen Welt zurück. SAGE ist freie Software und verfügbar unter den Bedingungen der GNU General Public Lizens (GPL). SAGE ist 
 
-SAGE ist eine Pythonschlangebibliothek mit einem kundengebundenen Interpreten. Es wird in Pythonschlange, in C++ und in C geschrieben (über Pyrex). Pythonschlange ist eine geöffnete objektorientierte Quelle deutete Sprache, mit vielen Bibliotheken z.B. für Ziffernwertung, die für Benutzer des SAGES vorhanden sind. Pythonschlange kann im Bibliothekmodus von den C/C++ Programmen auch erreicht werden. 
+ * eine Distribution freier Mathematiksoftware, die von gewöhnlichen Sterblichen aus den Quellen übersetzt werden, 
+ * Eine neue Pythonbibliothek für mathematische Berechnungen mit einer graphischen und einer zeilenbasierten Schnittstelle sowie
+ * Eine Schnittstelle zu bestehenden Computer Algebra Systemen.
 
-SAGE stellt eine vereinheitlichte Schnittstelle zu einigen wichtigen geöffneten Quelbibliotheken, einschließlich EIGENHEIT (für auswechselbare Algebra) und GAP (für Gruppe Theorie), zur John Cremonas MWRANK Bibliothek (für elliptische Kurven), zur PARI Bibliothek für Zahltheorie- und Zahltheoriebibliothek NTL, Maxima Shoups zur Verfügung (für symbolische Handhabung). Es gibt auch Schnittstellen zu vieler kommerzieller oder geschlossener Quelle CAS wie Ahornholz, KASH/KANT, MAGMA, Mathematica, Axiom und viele andere. Für Graphiken schließt SAGE Matplotlib (für 2 d und ca. 3 d Graphiken) und tachyon ein (einen 3 d Strahlindikator). 
+SAGE wird in Python, C++ und C (über Pyrex) geschrieben. Python ist eine Open-Source, objektorientierte, intepretierte Sprache, mit viele Bibliotheken z.B. für numerische Mathematik, die für SAGE Benutzer ebenfalls zugänglich sind. Python kann auch als Bibliothek von C/C++ Programmen verwendet werden. 
 
+SAGE beinhaltet einige wichtige Open-Source Bibliotheken und bietet einen vereinheitlichte Schnittstelle zu ihnen an: Singular (für kommutative Algebra), GAP (für Gruppentheorie), John Cremona's MWRANK Bibliothek (für elliptische Kurven), die PARI Bibliothek für Zahlentheorie, Shoup's Zahlentheorie Bibliothek NTL und Maxima (für symbolische Berechnungen). SAGE bietet ebenso Schnittstellen zu vielen kommerziellen, propritären oder anderen quelloffenen mathematischen Softwarepaketen an, wie MAPLE, MATLAB, Mathematica, KASH/KANT, MAGMA, Axiom und viele anderen. Zur Darstellung von Graphiken nutzt SAGE Matplotlib (für 2D und 3D Graphiken) sowie Tachyon (ein 3D Renderer).
 
-Die langfristigen hauptsächlichziele und die Führungsprinzipien für SAGE: 
+Die langfristigen Hauptziele und Prinzipien von SAGE sind:
 
- * Quelle freigeben und öffnen: Das Quellenprogramm muß vorhanden und lesbar frei sein, also können Benutzer verstehen was das System wirklich tut und es leicht verlängern. Gerade da Mathematiker ein tieferes Verständnis eines Theorems gewinnen, indem sie sorgfältig lesen oder mindestens den Beweis gleiten, sollten Leute, die Berechnung tun, verstehen, wie die Berechnungen durch lesendokumentiertes Quellenprogramm arbeiten. Alle Software, die in der SAGE Kernverteilung eingeschlossen ist, muß freie und geöffnete Quelle sein, und willkürliche änderungen und Wiederverteilung von jedem einspurigen müssen erlaubt werden.
+ * Open-Source: Der Quellecode muß frei vorhanden und lesbar sein, so dass jeder Benutzer verstehen kann, was das System wirklich tut sowie das System verändern kann. Genau wie Mathematiker ein tieferes Verständnis eines Theorems erlangen indem sie einen Beweis sorgfältig lesen oder zumindest überfliegen, sollte Programmbenutzer verstehen können, wie die Berechnungen zustande kommen, indem sie die kommentierten Quellen lesen. Alle Software die im Kern von SAGE mit SAGE verbreitet wird, muss freie Software sein, und willkürliche Änderungen sowie die Wiederverteilung jeder einzelnen Zeile muss erlaubt sein.
 
- * Gutes Programmierung Klima: Es wird gehofft, daß SAGE ein beständiges Klima bildet, um neue, mathematische Software-Projekte zu programmieren anzufangen. Wir sollten ein Modell für die mathematische Gemeinschaft der Software-Entwicklung mit einem starken Hauptgewicht auf Offenheit versehen, Gemeinschaft, Mitarbeit und Zusammenarbeit.
+ * Ein gutes Programmierumfeld: Es wird gehofft dieser SALBEI bildet ein beständiges Klima zu anfangen, neue mathematische Software zu programmieren Projekte. SALBEI stellt ein Modell für zur Verfügung mathematische Gemeinschaft von Software Entwicklung mit einem starken Hauptgewicht an Offenheit, Gemeinschaft, Mitarbeit und Zusammenarbeit. 
 
- * Ausdehnbar: Definieren neue Datenarten oder leiten von eingebauten Arten und bilden den Code ab, der in ein Lieblingssprachen geschrieben wird (einschließlich C/C++) Teil des Systems.
+ * Erweiterbar: Definieren neue Daten Arten oder leiten von eingebauten Arten ab und den Code bilden, der in eine Lieblingssprache geschrieben wird (einschließlich C/C++) Teil des Systems. 
+ * Benutzerfreundlich: Die Hoffnung ist zu schließlich ein hochqualifiziertes der Benutzerunterstützung erreichen. 
 
- * Benutzerfreundlich: Die Hoffnung ist, ein hochqualifiziertes der Benutzerunterstützung schließlich zu erreichen. (Die „GAP Forum“ email Liste ist ein ideales Beispiel der Unterstützung, die es gehofft wird, daß SAGE erreichen kann.)
+ * Einfach zu kompilieren: SALBEI sollte verhältnismäßig sein einfach, von der Quelle für Linux, OS zu kompilieren X und MS Windows Benutzer. Dieses liefert mehr Flexibilität, wenn das System geändert wird. 
 
- * Einfach zu kompilieren: SAGE sollte verhältnismäßig einfach sein, von der Quelle für Linux und OS X Benutzer zu kompilieren. Dieses liefert mehr Flexibilität, wenn es das System ändert.
+ * Plattformübergreifend: SALBEI-Durchläufe unter Linux, OS X, Windows. Komplett: Genügende Algorithmen einführen wirklich nützlich sein. Geöffnete Quelle frei vereinheitlichen Mathematik-Software. Ein komplettes sein Hauptströmungsqualität geöffnete Quelle frei Mathematik-Software-System. 
 
- * Kreuz-Plattform: SAGE läuft unter Linux, OS X, Windows (das cygwin und colinux binär).
+ * Effizient: Sehr schnell sein---vergleichbar mit oder schneller als noch etwas vorhanden. Dieses ist sehr schwierig, da viele Systeme sind geschlossene Quelle, Algorithmen sind manchmal nicht veröffentlicht und schnelle Algorithmen zu finden ist häufig extrem schwierig (Jahre der Arbeit, Ph.D. Thesen, Glück, etc.).   
 
- * Komplett: Genügende Algorithmen einführen, um wirklich nützlich zu sein. Geöffnete Quellmathematik-Software frei vereinheitlichen. Ein komplettes Hauptströmungsqualität geöffnetes Quellfreies Mathematik-Software-System sein.
+ * Werkzeuge: Robuste Schnittstellen zu einigem von zur Verfügung stellen die Funktionalität von PARI, GAP, GMP, Maxima, EIGENHEIT, MWRANK und NTL. Diese sind alle sind GPL'd und SALBEI liefert a vereinheitlichte Schnittstelle für das Verwenden sie. 
+ * Gut dokumentiert: Handbuch, Tutorial, API Hinweis mit Beispielen für jede Funktion und ein umfangreiches „wie kann… im SALBEI konstruiert werden? „Dokument. 
 
- * Leistungsfähig: Sehr schnell sein---vergleichbar mit oder schneller als noch etwas vorhanden. Dieses ist, da viele Systeme geschlossene Quelle sind, Algorithmen werden manchmal veröffentlicht nicht sehr schwierig, und schnelle Algorithmen zu finden ist häufig extrem schwierig (Jahre der Arbeit, der Ph.D. Thesen, des Glücks, des etc.).
+SAGE, einen Installation Führer und a downloaden Tutorial, von seiner Webseite http://sage.scipy.org/. 
 
- * Werkzeuge: Robuste Schnittstellen zu etwas von der Funktionalität von PARI, von GAP, von GMP, von Maxima, von EIGENHEIT, von MWRANK und von NTL zur Verfügung stellen. Alle diese sind sind GPL'd und SAGE stellt (oder stellt) zur Verfügung, eine vereinheitlichte Schnittstelle für das Verwenden sie zur Verfügung.
+Obgleich SAGE Pythonschlange und PARI verwendet und andere Pakete, halten im Verstand, daß er nicht ist notwendig, diese Software zu haben preinstalled auf dem Computer. Installation des SAGE ist wirklich zu entworfen verhältnismäßig schmerzlos sein, aber, wenn es gibt alle mögliche Probleme, bitten bitte (die Webseite hat Verbindungen zu den email Listen für SAGE Unterstützung). Es gibt Montagevorschriften an http://sage.scipy.org/sage/doc/html/inst/index.html. Außerdem wenn SAGE einmal angebracht wird, die Höhereinstufung zur neuesten Version ist besonders einfach mit dem „Aufsteigen“ Befehl Wahl. 
 
- * Gut dokumentiert: Handbuch, Tutorial, API Hinweis mit Beispielen für jede Funktion und ein umfangreiches ``wie kann… im SAGE konstruiert werden? „Dokument.
+Sobald SAGE in ein Verzeichnis angebracht wird wie sage-x.y.z. In Linux Cd zu diesem Verzeichnis und schreiben den Befehl „. /sage“ zu SALBEI beginnen und den SALBEI anzeigen Aufforderung „sage: “. Dieses ist Einweg zu verwenden SALBEI. Eine andere Weise ist, in zunächst zu schreiben SAGE „Notizbuch (open_viewer=True)“ an SAGE Aufforderung, der (a) den SALBEI beginnt Bedienerbetrieb (ladendes vorher verwendet Bogen, wenn irgendein) und (b) öffnet firefox Datenbanksuchroutine (oder Anfänge ein neuer Vorsprung wenn es ist bereits) geöffnet und zeigt den SAGE an Notizbuchwebseite. 
 
-SAGE, einen Installation Führer und einen Tutorial, von seiner Webseite downloaden 
+An der SAGE Aufforderung „Faktor (100)“ schreiben (Erfolg Rückkehr); SAGE gibt die höchste Vollkommenheit aus Faktorisierung von 100. „Faktor schreiben?? (Rückkehr) und das Quellenprogramm von Funktion Faktor wird gezeigt. Ctrl-d betreten (den Ctrl Schlüssel und das d gleichzeitig halten) oder Art „beendigte“ (Rückhol), und SALBEI wird Ausgang. Diese Berechnung in tun Notizbuch, tragen „Faktor (100)“ in eine „Zelle“ ein (ein leeres weißes Fenster im web browser) und dann betätigen verschieben-eingeben. SALBEI wird die Faktorisierung im Raum gerade anzeigen unterhalb der Zelle. Um das Notizbuch herauszunehmen, gehen zurück zu der Befehl Linie und der Presse Ctrl-c. Zunächst die Datenbanksuchroutine herausnehmen. Dieses beendigt des SAGE Notizbuch. 
 
-http://sage.scipy.org/. 
+Es gibt Tausenden der zusätzlichen Beispiele im Tutorial Aufbauten und Handbücher, die an vorhanden sind die SAGE Webseite. Sie bitte heraus versuchen! 
 
-Obgleich SAGE Pythonschlange und PARI und andere Pakete benutzt, im Verstand halten, daß es nicht notwendig ist, diese Software zu haben, die auf dem Computer preinstalled ist. Die Installation des SAGES ist wirklich entworfen, um verhältnismäßig schmerzlos zu sein, aber, wenn es irgendwelche Probleme gibt, bittet bitte (die Webseite hat Verbindungen zu den email Listen für SAGE Unterstützung). Es gibt Montagevorschriften bei http://sage.scipy.org/sage/doc/html/inst/index.html. Außerdem wenn SAGE einmal angebracht wird, ist die Höhereinstufung zur neuesten Version mit der „Aufsteigen“ Befehl Wahl besonders einfach (dieses wird auf der Web site beschrieben, die oben gegeben wird und annimmt, daß wget und ein Internet-Anschluß angebracht wird). 
-
-Sobald SAGE in ein Verzeichnis wie sage-x.y.z angebracht wird, gibt es ein Unterverzeichnis, das „Sortierfach“ genannt wird. In Linux schreiben Cd zu diesem „Sortierfach“ Unterverzeichnis und das Befehl "./sage", zum des SAGES zu beginnen und des SAGE sofortigen „Salbeis anzuzeigen: “. Dieses ist Einweg, SAGE zu benutzen. Eine andere Weise ist, in SAGE „notebook(open_viewer=True)“ an der SAGE Aufforderung zunächst zu schreiben, die 
-(a) beginnt den SAGE Bedienerbetrieb (den vorher benutzten Bogen ladend, wenn irgendein) und 
-(b) öffnet die firefox Datenbanksuchroutine (oder die Anfänge ein neuer Vorsprung, wenn er bereits geöffnet ist) und zeigt die SAGE Notizbuchwebseite an. 
-
-An der SAGE Aufforderung tragen Art „factor (100)“ (Erfolg Rückkehr) und dann Ctrl-d (das Ctrl ket und das d gleichzeitig halten) oder „beendigten“ (Rückhol) SAGE-Willensersten Faktor 100 ein und nehmen dann heraus. Um dies im Notizbuch zu tun, „factor (100)“ in eine „Zelle“ eintragen (ein leeres weißes Fenster in der WWW Datenbanksuchroutine) und dann hereinkommen verschieben-eingeben. SAGE zeigt die Faktorisierung im Raum gerade unterhalb der Zelle an. Um herauszunehmen, gehen die Notizbuchversion des SAGES, zuerst zurück zu der Befehl Linie und kommen Ctrl-c. Zunächst die Datenbanksuchroutine herausnehmen. Dieses beendigt Notizbuch des SAGES. 
-
-Es gibt mehr Beispiele, im Tutorial, Aufbauten und die Handbücher, die auf der SAGE Webseite vorhanden sind. Sie bitte heraus versuchen!
-
-SAGE ist in einem frühen Stadium der Entwicklung, aber wächst aktiv, und ist bereits verwendbar. Es gibt ein SAGE Diskussion Brett, einen Wanzeverfolger und eine Wunschliste. Bitte Besuch 
-
-http://sage.scipy.org/ 
-
+Aktiv wachsendes SALBEI-IS-IS und ist bereits verwendbar. Es gibt ein SAGE Diskussion Brett, Wanzeverfolger und Wunschliste. Bitte Besuch 
+ http://sage.scipy.org/ 
 oder 
-
-http://sage.math.washington.edu/sage/ 
-
+ http://sage.math.washington.edu/sage/
 oder 
-
-http://echidna.maths.usyd.edu.au/sage/ 
-
+ http://echidna.maths.usyd.edu.au/sage/ 
 oder 
+email William Stein an wstein@gmail.com zu mehr Information. Vor allem Spaß haben mit SALBEI! 
 
-email William Stein an wstein@gmail.com 
+David Joyner wdjoyner@gmail.com 
 
-zu mehr Information. Vor allem Spaß mit SAGE haben!
-
-----
-
-David Joyner
-wdjoyner@gmail.com
-
-William Stein
-wstein@gmail.com
-
-Letztes aktualisiertes 11-19-2006
+William Stein wstein@gmail.com
