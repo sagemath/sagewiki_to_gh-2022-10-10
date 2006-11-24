@@ -1,4 +1,4 @@
-SAGE plotting
+== SAGE plotting ==
 
 Here are some python plotting engines/libraries:
 
