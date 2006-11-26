@@ -6,7 +6,8 @@ Here are some python plotting engines/libraries:
        * Grace: http://www.idyll.org/~n8gray/code
        * PGPLOT: http://efault.net/npat/hacks/ppgplot
        * PLplot: http://www.plplot.org
-       * opemath: Written by William Schelter and part of Maxima (thus also SAGE) is a TCL/Tk plotting program. It has no separate download page.
+       * opemath: Written by William Schelter and part of Maxima (thus also SAGE) is a TCL/Tk plotting program which allows for interactive viewing. It has no separate download page. An example is:
+{{{sage: maxima.eval("plot3d(2^(-u^2+v^2),[u,-1,1],[v,-1,1],[plot_format, openmath]);")}}}
 
    currently developed / good:
        * matplotlib: http://matplotlib.sourceforge.net
