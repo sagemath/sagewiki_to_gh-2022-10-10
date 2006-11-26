@@ -6,6 +6,7 @@ Here are some python plotting engines/libraries:
        * Grace: http://www.idyll.org/~n8gray/code
        * PGPLOT: http://efault.net/npat/hacks/ppgplot
        * PLplot: http://www.plplot.org
+       * opemath: Written by William Schelter and part of Maxima (thus also SAGE) is a TCL/Tk plotting program. It has no separate download page.
 
    currently developed / good:
        * matplotlib: http://matplotlib.sourceforge.net
