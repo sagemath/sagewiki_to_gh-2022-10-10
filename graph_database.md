@@ -153,14 +153,14 @@ attachment:empty2.png
 }}}
 
  CPU time: 0.05 s,  Wall time: 0.07 s
- (Time results will vary.)
+[[br]] (Time results will vary.)
 
 {{{
  time posdict3989 = graphs.CycleGraph(3989)
 }}}
 
  CPU time: 5.18 s,  Wall time: 6.17 s
- (Time results will vary.)
+[[br]] (Time results will vary.)
 
 ===== Compare the plotting speeds. =====
 {{{
@@ -173,7 +173,7 @@ attachment:empty2.png
 }}}
 
  CPU time: 2.04 s,  Wall time: 2.72 s
- (Time results will vary.)
+[[br]] (Time results will vary.)
 
 attachment:cycle_spr23.png
 
@@ -182,7 +182,7 @@ attachment:cycle_spr23.png
 }}}
 
  CPU time: 0.57 s,  Wall time: 0.71 s
- (Time results will vary.)
+[[br]] (Time results will vary.)
 
 attachment:cycl_pd23.png
 
@@ -272,12 +272,12 @@ attachment:cycle_spr_array.png
  time n = NX.star_graph(3989); spring3989 = Graph(n)
 }}}
  CPU time: 0.08 s,  Wall time: 0.10 s
- (Time Results will vary.)
+[[br]] (Time Results will vary.)
 {{{
  time posdict3989 = graphs.StarGraph(3989)
 }}}
  CPU time: 5.43 s,  Wall time: 7.41 s
- (Time results will vary.)
+[[br]] (Time results will vary.)
 
 ===== Compare the plotting speeds. =====
 {{{
@@ -289,13 +289,13 @@ attachment:cycle_spr_array.png
  time spring23.show()
 }}}
  CPU time: 2.31 s,  Wall time: 3.14 s
- (Time results will vary.)
+[[br]] (Time results will vary.)
 
 {{{
  time posdict23.show()
 }}}
  CPU time: 0.68 s,  Wall time: 0.80 s
- (Time results will vary.)
+[[br]] (Time results will vary.)
 
 ===== View many star graphs as a SAGE Graphics Array. =====
 ====== With the position dictionary filled: ======
@@ -341,8 +341,30 @@ attachment:cycle_spr_array.png
 === Wheel Graphs ===
 
 ==== Info ====
+
+ * Returns a Wheel graph with n nodes.
+ * A Wheel graph is a basic structure where one node is connected to all other nodes and those (outer) nodes are connected cyclically.
+ * This constructor depends on NetworkX numeric labels.
+        
 ==== Plotting ====
+
+ * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each wheel graph will be displayed with the first (0) node in the center, the second node at the top, and the rest following in a counterclockwise manner.
+ * With the wheel graph, we see that it doesn't take a very large n at all for the spring-layout to give a counter-intuitive display.  (See Graphics Array examples below).
+ * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
+
 ==== Code ====
+
+{{{
+pos_dict = {}
+        pos_dict[0] = [0,0]
+        for i in range(n)[1:]:
+            x = float(functions.cos((pi/2) + ((2*pi)/(n-1))*(i-1)))
+            y = float(functions.sin((pi/2) + ((2*pi)/(n-1))*(i-1)))
+            pos_dict[i] = [x,y]
+        G = NX.wheel_graph(n)
+        return graph.Graph(G, pos=pos_dict, name="Wheel graph on %d vertices"%n)
+}}}
+
 ==== Examples ====
 
 ===== The following examples require NetworkX (to use default): =====
@@ -351,11 +373,73 @@ attachment:cycle_spr_array.png
 }}}
 
 ===== Compare the constructor speeds. =====
+{{{
+ time n = NX.wheel_graph(3989); spring3989 = Graph(n)
+}}}
+ CPU time: 0.07 s,  Wall time: 0.09 s
+[[br]] (Time results will vary._
+
+{{{
+ time posdict3989 = graphs.WheelGraph(3989)
+}}}
+ CPU time: 5.99 s,  Wall time: 8.74 s
+[[br]] (Time results will vary.)
+
 ===== Compare the plotting speeds. =====
+{{{
+ sage: n = NX.wheel_graph(23)
+ sage: spring23 = Graph(n)
+ sage: posdict23 = graphs.WheelGraph(23)
+}}}
+{{{
+ time spring23.show()
+}}}
+ CPU time: 2.24 s,  Wall time: 3.00 s
+[[br]] (Time results will vary.)
+
+{{{
+ time posdict23.show()
+}}}
+ CPU time: 0.68 s,  Wall time: 1.14 s
+[[br]] (Time results will vary.)
+
 ===== View many [cycle] graphs as a SAGE Graphics Array. =====
 ====== With the position dictionary filled: ======
-====== With the spring-layout algorithm: ======
+{{{
+ sage: g = []
+ sage: j = []
+ sage: for i in range(16):
+ ...    k = graphs.WheelGraph(i+3)
+ ...    g.append(k)
+ ...
+ sage: for i in range(4):
+ ...    n = []
+ ...    for m in range(4):
+ ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...    j.append(n)
+ ...
+ sage: G = sage.plot.plot.GraphicsArray(j)
+ sage: G.show()
+}}}
 
+====== With the spring-layout algorithm: ======
+{{{
+ sage: g = []
+ sage: j = []
+ sage: for i in range(16):
+ ...    spr = NX.wheel_graph(i+3)       
+ ...    k = Graph(spr)
+ ...    g.append(k)
+ ...
+ sage: for i in range(4):
+ ...    n = []
+ ...    for m in range(4):
+ ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...    j.append(n)
+ ...
+ sage: G = sage.plot.plot.GraphicsArray(j)
+ sage: G.show()
+}}}
 
 
 
