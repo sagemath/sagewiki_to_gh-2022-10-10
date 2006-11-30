@@ -1,6 +1,6 @@
 [[TableOfContents]]
 
-== In Process of Updating... Check back 11/23/06 ==
+= In Process of Updating... Check back 11/23/06 =
 ==  Introduction ==
 
 The SAGE Graph Theory Project aims to implement Graph objects and algorithms in ["SAGE"].
