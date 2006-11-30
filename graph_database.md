@@ -70,7 +70,6 @@ TODO:
 }}}
 
 == Basic Structures ==
-We've begun to implement some basic graph constructors with (hopefully) intuitive graphics.  Please browse below and for more information on graph plotting, look at Rober Miller's [http://sage.math.washington.edu:9001/graph_plotting wiki].
 
 === Empty Graphs ===
 
@@ -82,19 +81,22 @@ We've begun to implement some basic graph constructors with (hopefully) intuitiv
  * When plotting, this graph will use the default spring-layout algorithm, unless a position dictionary is specified.
 
 ==== Code ====
-
-==== Examples ====
 {{{
- # Add one vertex to an empty graph and then show:
+ return graph.Graph()
+}}}
+==== Examples ====
+
+ Add one vertex to an empty graph and then show:
+{{{
  sage: empty1 = graphs.EmptyGraph()
  sage: empty1.add_vertex()
  sage.: empty1.show()
 }}}
 
 attachment:empty1.png
-
-{{{    
- # Use for loops to build a graph from an empty graph:
+    
+Use for loops to build a graph from an empty graph:
+{{{
  sage: empty2 = graphs.EmptyGraph()
  sage: for i in range(5):
  ...    empty2.add_vertex() # add 5 nodes, labeled 0-4
@@ -107,6 +109,8 @@ attachment:empty1.png
  ...
  sage.: empty2.show()
 }}}
+
+attachment:empty2.png
 
 === Cycle Graphs ===
 
@@ -124,60 +128,97 @@ attachment:empty1.png
 
 ==== Code ====
 
-==== Examples ====
 {{{
-            # The following examples require NetworkX (to use default)
-            sage: import networkx as NX
-            
-            # Compare the constructors (results will vary)
-            sage.: time n = NX.cycle_graph(3989); spring3989 = Graph(n)
-            # CPU time: 0.05 s,  Wall time: 0.07 s
-            sage.: time posdict3989 = graphs.CycleGraph(3989)
-            # CPU time: 5.18 s,  Wall time: 6.17 s
-            
-            # Compare the plotting speeds (results will vary)
-            sage: n = NX.cycle_graph(23)
-            sage: spring23 = Graph(n)
-            sage: posdict23 = graphs.CycleGraph(23)
-            sage.: time spring23.show()
-            # CPU time: 2.04 s,  Wall time: 2.72 s
-            sage.: time posdict23.show()
-            # CPU time: 0.57 s,  Wall time: 0.71 s
-            
-            # View many cycle graphs as a SAGE Graphics Array
-            
-            # With this constructor (i.e., the position dictionary filled)
-            sage: g = []
-            sage: j = []
-            sage: for i in range(16):
-            ...    k = graphs.CycleGraph(i+3)
-            ...    g.append(k)
-            ...
-            sage: for i in range(4):
-            ...    n = []
-            ...    for m in range(4):
-            ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
-            ...    j.append(n)
-            ...
-            sage: G = sage.plot.plot.GraphicsArray(j)
-            sage.: G.show()
-            
-            # Compared to plotting with the spring-layout algorithm
-            sage: g = []
-            sage: j = []
-            sage: for i in range(16):
-            ...    spr = NX.cycle_graph(i+3)       
-            ...    k = Graph(spr)
-            ...    g.append(k)
-            ...
-            sage: for i in range(4):
-            ...    n = []
-            ...    for m in range(4):
-            ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
-            ...    j.append(n)
-            ...
-            sage: G = sage.plot.plot.GraphicsArray(j)
-            sage.: G.show()
+ pos_dict = {}
+ for i in range(n):
+     x = float(functions.cos((pi/2) + ((2*pi)/n)*i))
+     y = float(functions.sin((pi/2) + ((2*pi)/n)*i))
+     pos_dict[i] = [x,y]
+ G = NX.cycle_graph(n)
+ return graph.Graph(G, pos=pos_dict, name="Cycle graph on %d vertices"%n)
+}}}
+
+==== Examples ====
+
+The following examples require NetworkX (to use default):
+{{{
+ sage: import networkx as NX
+}}}
+
+ Compare the constructors (results will vary):
+{{{
+ time n = NX.cycle_graph(3989); spring3989 = Graph(n)
+}}}
+
+ CPU time: 0.05 s,  Wall time: 0.07 s
+
+{{{
+ time posdict3989 = graphs.CycleGraph(3989)
+}}}
+
+ CPU time: 5.18 s,  Wall time: 6.17 s
+
+
+Compare the plotting speeds (results will vary)
+{{{
+ sage: n = NX.cycle_graph(23)
+ sage: spring23 = Graph(n)
+ sage: posdict23 = graphs.CycleGraph(23)
+ time spring23.show()
+}}}
+
+ CPU time: 2.04 s,  Wall time: 2.72 s
+
+attachment:cycle_spr23.png
+
+{{{
+ time posdict23.show()
+}}}
+
+ CPU time: 0.57 s,  Wall time: 0.71 s
+
+attachment:cycl_pd23.png
+
+
+View many cycle graphs as a SAGE Graphics Array:
+
+With this constructor (i.e., the position dictionary filled):
+{{{
+ sage: g = []
+ sage: j = []
+ sage: for i in range(16):
+ ...    k = graphs.CycleGraph(i+3)
+ ...    g.append(k)
+ ...
+ sage: for i in range(4):
+ ...    n = []
+ ...    for m in range(4):
+ ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...    j.append(n)
+ ...
+ sage: G = sage.plot.plot.GraphicsArray(j)
+ sage.: G.show()
+}}}
+
+attachment:cycle_pd_array.png
+
+Compared to plotting with the spring-layout algorithm:
+{{{
+ sage: g = []
+ sage: j = []
+ sage: for i in range(16):
+ ...    spr = NX.cycle_graph(i+3)       
+ ...    k = Graph(spr)
+ ...    g.append(k)
+ ...
+ sage: for i in range(4):
+ ...    n = []
+ ...    for m in range(4):
+ ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...    j.append(n)
+ ...
+ sage: G = sage.plot.plot.GraphicsArray(j)
+ sage.: G.show()
 }}}
 
 === Star Graphs ===
@@ -188,6 +229,7 @@ attachment:empty1.png
 ==== Examples ====
 
 === Wheel Graphs ===
+
 ==== Info ====
 ==== Plotting ====
 ==== Code ====
