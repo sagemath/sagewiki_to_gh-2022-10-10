@@ -736,7 +736,7 @@ attachment:compbip_array.spr.png
  time fast_sparse =  graphs.RandomGNPFast(1559,.22)
 }}}
  CPU time: 21.72 s,  Wall time: 26.44 s[[BR]](Time results will vary.)
-====== Dense Graphs ======            
+====== Dense Graphs ======
 {{{ 
  time regular_dense = graphs.RandomGNP(1559,.88)
 }}}
@@ -797,7 +797,8 @@ attachment:rand_array_reg.png
  time fast_sparse =  graphs.RandomGNPFast(1559,.22)
 }}}
  CPU time: 21.72 s,  Wall time: 26.44 s[[BR]](Time results will vary.)
-====== Dense Graphs ======            
+
+====== Dense Graphs ======
 {{{ 
  time regular_dense = graphs.RandomGNP(1559,.88)
 }}}
