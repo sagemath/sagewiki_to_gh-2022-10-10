@@ -283,11 +283,13 @@ attachment:cycle_spr_array.png
  time spring23.show()
 }}}
  CPU time: 2.31 s,  Wall time: 3.14 s[[BR]] (Time results will vary.)
+attachment:star_spr23.png
 
 {{{
  time posdict23.show()
 }}}
  CPU time: 0.68 s,  Wall time: 0.80 s[[BR]] (Time results will vary.)
+attachment:star_pd23.png
 
 ===== View many star graphs as a SAGE Graphics Array. =====
 ====== With the position dictionary filled: ======
@@ -307,6 +309,7 @@ attachment:cycle_spr_array.png
  sage: G = sage.plot.plot.GraphicsArray(j)
  sage: G.show()
 }}}
+attachment:star_array_pd.png
 
 ====== With the spring-layout algorithm: ======
 {{{
@@ -326,7 +329,7 @@ attachment:cycle_spr_array.png
  sage: G = sage.plot.plot.GraphicsArray(j)
  sage: G.show()
 }}}
-
+attachment:star_array_spr.png
 
 
 
@@ -385,11 +388,13 @@ pos_dict = {}
  time spring23.show()
 }}}
  CPU time: 2.24 s,  Wall time: 3.00 s[[br]] (Time results will vary.)
+attachment:wheel_spr23.png
 
 {{{
  time posdict23.show()
 }}}
  CPU time: 0.68 s,  Wall time: 1.14 s[[br]] (Time results will vary.)
+attachment:wheel_pd23.png
 
 ===== View many wheel graphs as a SAGE Graphics Array. =====
 ====== With the position dictionary filled: ======
@@ -409,6 +414,7 @@ pos_dict = {}
  sage: G = sage.plot.plot.GraphicsArray(j)
  sage: G.show()
 }}}
+attachment:wheel_array_pd.png
 
 ====== With the spring-layout algorithm: ======
 {{{
@@ -428,7 +434,7 @@ pos_dict = {}
  sage: G = sage.plot.plot.GraphicsArray(j)
  sage: G.show()
 }}}
-
+attachment:wheel_array_spr.png
 
 
 
