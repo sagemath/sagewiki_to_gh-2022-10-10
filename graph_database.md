@@ -67,6 +67,8 @@ AUTHORS:
 TODO:
     [] more named graphs
     [] thorough docstrings and examples
+    [] set properties (as they are implemented)
+    [] add query functionality for large database
 }}}
 
 == Basic Structures ==
@@ -86,7 +88,7 @@ TODO:
 }}}
 ==== Examples ====
 
-===== Add one vertex to an empty graph and then show: =====
+===== Add one vertex to an empty graph. =====
 {{{
  sage: empty1 = graphs.EmptyGraph()
  sage: empty1.add_vertex()
@@ -95,7 +97,7 @@ TODO:
 
 attachment:empty1.png
 
-===== Use for loops to build a graph from an empty graph: =====
+===== Use for loops to build a graph from an empty graph. =====
 {{{
  sage: empty2 = graphs.EmptyGraph()
  sage: for i in range(5):
@@ -145,29 +147,33 @@ attachment:empty2.png
  sage: import networkx as NX
 }}}
 
-===== Compare the constructors (results will vary): =====
+===== Compare the constructor speeds. =====
 {{{
  time n = NX.cycle_graph(3989); spring3989 = Graph(n)
 }}}
 
  CPU time: 0.05 s,  Wall time: 0.07 s
+ (Time results will vary.)
 
 {{{
  time posdict3989 = graphs.CycleGraph(3989)
 }}}
 
  CPU time: 5.18 s,  Wall time: 6.17 s
+ (Time results will vary.)
 
-
-===== Compare the plotting speeds (results will vary): =====
+===== Compare the plotting speeds. =====
 {{{
  sage: n = NX.cycle_graph(23)
  sage: spring23 = Graph(n)
  sage: posdict23 = graphs.CycleGraph(23)
+}}}
+{{{
  time spring23.show()
 }}}
 
  CPU time: 2.04 s,  Wall time: 2.72 s
+ (Time results will vary.)
 
 attachment:cycle_spr23.png
 
@@ -176,13 +182,14 @@ attachment:cycle_spr23.png
 }}}
 
  CPU time: 0.57 s,  Wall time: 0.71 s
+ (Time results will vary.)
 
 attachment:cycl_pd23.png
 
 
-===== View many cycle graphs as a SAGE Graphics Array: =====
+===== View many cycle graphs as a SAGE Graphics Array. =====
 
-====== With this constructor (i.e., the position dictionary filled): ======
+====== With the position dictionary filled: ======
 {{{
  sage: g = []
  sage: j = []
@@ -202,7 +209,7 @@ attachment:cycl_pd23.png
 
 attachment:cycle_pd_array.png
 
-====== Compared to plotting with the spring-layout algorithm: ======
+====== With the spring-layout algorithm: ======
 {{{
  sage: g = []
  sage: j = []
@@ -222,6 +229,7 @@ attachment:cycle_pd_array.png
 }}}
 
 attachment:cycle_spr_array.png
+
 
 === Star Graphs ===
 
