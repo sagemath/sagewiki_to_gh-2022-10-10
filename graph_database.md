@@ -106,16 +106,74 @@ We've begun to implement some basic graph constructors with (hopefully) intuitiv
 }}}
 
 === Cycle Graphs ===
- * The Cycle Graph constructor takes an integer argument, which is to be the number of vertices in the graph.
- * The chosen convention is to display this graph in a cyclic manner with the first node at the top and counterclockwise direction.
 
 ==== Info ====
+ * Returns a cycle graph with n nodes.
+ * A cycle graph is a basic structure which is also typically called an n-gon.
+ * This constructor is dependant on vertices numbered 0 through n-1 in NetworkX cycle_graph()
+
 ==== Plotting ====
+ * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each cycle graph will be displayed with the first (0) node at the top, with the rest following in a counterclockwise manner.
+
+ * The cycle graph is a good opportunity to compare efficiency of filling a position dictionary vs. using the spring-layout algorithm for plotting.  Because the cycle graph is very symmetric, the resulting plots should be similar (in cases of small n).
+
+ * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
+
 ==== Examples ====
- * Here is a cycle graph with n=10
-attachment:cycle_10.png
- * Below, we used the SAGE !GraphicsArray to show 9 cycle graphs at once, starting at n=3 and through n=11
-attachment:cycle_array.png
+{{{
+            # The following examples require NetworkX (to use default)
+            sage: import networkx as NX
+            
+            # Compare the constructors (results will vary)
+            sage.: time n = NX.cycle_graph(3989); spring3989 = Graph(n)
+            # CPU time: 0.05 s,  Wall time: 0.07 s
+            sage.: time posdict3989 = graphs.CycleGraph(3989)
+            # CPU time: 5.18 s,  Wall time: 6.17 s
+            
+            # Compare the plotting speeds (results will vary)
+            sage: n = NX.cycle_graph(23)
+            sage: spring23 = Graph(n)
+            sage: posdict23 = graphs.CycleGraph(23)
+            sage.: time spring23.show()
+            # CPU time: 2.04 s,  Wall time: 2.72 s
+            sage.: time posdict23.show()
+            # CPU time: 0.57 s,  Wall time: 0.71 s
+            
+            # View many cycle graphs as a SAGE Graphics Array
+            
+            # With this constructor (i.e., the position dictionary filled)
+            sage: g = []
+            sage: j = []
+            sage: for i in range(16):
+            ...    k = graphs.CycleGraph(i+3)
+            ...    g.append(k)
+            ...
+            sage: for i in range(4):
+            ...    n = []
+            ...    for m in range(4):
+            ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+            ...    j.append(n)
+            ...
+            sage: G = sage.plot.plot.GraphicsArray(j)
+            sage.: G.show()
+            
+            # Compared to plotting with the spring-layout algorithm
+            sage: g = []
+            sage: j = []
+            sage: for i in range(16):
+            ...    spr = NX.cycle_graph(i+3)       
+            ...    k = Graph(spr)
+            ...    g.append(k)
+            ...
+            sage: for i in range(4):
+            ...    n = []
+            ...    for m in range(4):
+            ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+            ...    j.append(n)
+            ...
+            sage: G = sage.plot.plot.GraphicsArray(j)
+            sage.: G.show()
+}}}
 
 === Star Graphs ===
  * The Star Graph constructor takes an integer argument, which is to be the number of outer vertices of the star.  (Including the center, we will have n+1 nodes).
