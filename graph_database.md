@@ -73,7 +73,7 @@ Emily Kirkman is working on this project.
 
 
 
-= Currently included in Graph Database =
+= Currently implemented in Graph Database =
 
 == Class Docstrings ==
 
@@ -899,5 +899,3 @@ attachment:rand_fast.png
  sage: G.show()
 }}}
 attachment:rand_array_fast.png
-
-
