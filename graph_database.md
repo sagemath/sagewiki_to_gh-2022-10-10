@@ -234,9 +234,59 @@ attachment:cycle_spr_array.png
 === Star Graphs ===
 
 ==== Info ====
+
+ * Returns a star graph with n+1 nodes.
+ * A Star graph is a basic structure where one node is connected to all other nodes.
+ * This constructor is dependant on NetworkX numeric labels.
+
 ==== Plotting ====
+
+ * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each star graph will be displayed with the first (0) node in the center, the second node (1) at the top, with the rest following in a counterclockwise manner.  (0) is the node connected to all other nodes.
+        
+ * The star graph is a good opportunity to compare efficiency of filling a position dictionary vs. using the spring-layout algorithm for plotting.  As far as display, the spring-layout should push all other nodes away from the (0) node, and thus look very similar to this constructor's positioning.
+
+ * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
+
 ==== Code ====
+
+{{{
+ pos_dict = {}
+ pos_dict[0] = [0,0]
+ for i in range(n+1)[1:]:
+     x = float(functions.cos((pi/2) + ((2*pi)/n)*(i-1)))
+     y = float(functions.sin((pi/2) + ((2*pi)/n)*(i-1)))
+     pos_dict[i] = [x,y]
+ G = NX.star_graph(n)
+ return graph.Graph(G, pos=pos_dict, name="Star graph on %d vertices"%(n+1))
+}}}
+
 ==== Examples ====
+
+===== The following examples require NetworkX (to use default): =====
+{{{
+ sage: import networkx as NX
+}}}
+
+===== Compare the constructor speeds. =====
+{{{
+ time n = NX.star_graph(3989); spring3989 = Graph(n)
+}}}
+ CPU time: 0.08 s,  Wall time: 0.10 s
+ (Time Results will vary.)
+{{{
+ time posdict3989 = graphs.StarGraph(3989)
+}}}
+ CPU time: 5.43 s,  Wall time: 7.41 s
+ (Time results will vary.)
+
+===== Compare the plotting speeds. =====
+===== View many [cycle] graphs as a SAGE Graphics Array. =====
+====== With the position dictionary filled: ======
+====== With the spring-layout algorithm: ======
+
+
+
+
 
 === Wheel Graphs ===
 
@@ -244,6 +294,21 @@ attachment:cycle_spr_array.png
 ==== Plotting ====
 ==== Code ====
 ==== Examples ====
+
+===== The following examples require NetworkX (to use default): =====
+{{{
+ sage: import networkx as NX
+}}}
+
+===== Compare the constructor speeds. =====
+===== Compare the plotting speeds. =====
+===== View many [cycle] graphs as a SAGE Graphics Array. =====
+====== With the position dictionary filled: ======
+====== With the spring-layout algorithm: ======
+
+
+
+
 
 == Named Graphs ==
 
@@ -268,12 +333,42 @@ attachment:petersen_spring.png
 ==== Code ====
 ==== Examples ====
 
+===== The following examples require NetworkX (to use default): =====
+{{{
+ sage: import networkx as NX
+}}}
+
+===== Compare the constructor speeds. =====
+===== Compare the plotting speeds. =====
+===== View many [cycle] graphs as a SAGE Graphics Array. =====
+====== With the position dictionary filled: ======
+====== With the spring-layout algorithm: ======
+
+
+
+
+
 === Complete Bipartite Graphs ===
 
 ==== Info ====
 ==== Plotting ====
 ==== Code ====
 ==== Examples ====
+
+===== The following examples require NetworkX (to use default): =====
+{{{
+ sage: import networkx as NX
+}}}
+
+===== Compare the constructor speeds. =====
+===== Compare the plotting speeds. =====
+===== View many [cycle] graphs as a SAGE Graphics Array. =====
+====== With the position dictionary filled: ======
+====== With the spring-layout algorithm: ======
+
+
+
+
 
 == Graphs I Plan to Add ==
 == Suggestions ==
