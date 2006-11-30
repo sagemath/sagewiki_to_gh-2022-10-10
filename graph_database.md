@@ -1,7 +1,7 @@
 [[TableOfContents]]
 
-== In Process of Updating... Check back 11/30/06 ==
-==  Introduction ==
+= In Process of Updating... Check back 11/30/06 =
+=  Introduction =
 
 The SAGE Graph Theory Project aims to implement Graph objects and algorithms in ["SAGE"].
 
@@ -9,7 +9,7 @@ The goal of the Graph Database is to implement constructors for many common grap
 
 Emily Kirkman is working on this project.
 
-== Class Docstrings ==
+= Class Docstrings =
 
 {{{
 A collection of constructors of common graphs.
@@ -71,24 +71,24 @@ TODO:
     [] add query functionality for large database
 }}}
 
-== Basic Structures ==
+= Basic Structures =
 
-=== Empty Graphs ===
+== Empty Graphs ==
 
-==== Info ====
+=== Info ===
  * Returns an empty graph (0 nodes and 0 edges).
  * This is useful for constructing graphs by adding edges and vertices individually or in a loop.  
 
-==== Plotting ====
+=== Plotting ===
  * When plotting, this graph will use the default spring-layout algorithm, unless a position dictionary is specified.
 
-==== Code ====
+=== Code ===
 {{{
  return graph.Graph()
 }}}
-==== Examples ====
+=== Examples ===
 
-===== Add one vertex to an empty graph. =====
+==== Add one vertex to an empty graph. ====
 {{{
  sage: empty1 = graphs.EmptyGraph()
  sage: empty1.add_vertex()
@@ -97,7 +97,7 @@ TODO:
 
 attachment:empty1.png
 
-===== Use for loops to build a graph from an empty graph. =====
+==== Use for loops to build a graph from an empty graph. ====
 {{{
  sage: empty2 = graphs.EmptyGraph()
  sage: for i in range(5):
@@ -114,21 +114,21 @@ attachment:empty1.png
 
 attachment:empty2.png
 
-=== Cycle Graphs ===
+== Cycle Graphs ==
 
-==== Info ====
+=== Info ===
  * Returns a cycle graph with n nodes.
  * A cycle graph is a basic structure which is also typically called an n-gon.
  * This constructor is dependant on vertices numbered 0 through n-1 in NetworkX cycle_graph()
 
-==== Plotting ====
+=== Plotting ===
  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each cycle graph will be displayed with the first (0) node at the top, with the rest following in a counterclockwise manner.
 
  * The cycle graph is a good opportunity to compare efficiency of filling a position dictionary vs. using the spring-layout algorithm for plotting.  Because the cycle graph is very symmetric, the resulting plots should be similar (in cases of small n).
 
  * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
 
-==== Code ====
+=== Code ===
 
 {{{
  pos_dict = {}
@@ -140,14 +140,14 @@ attachment:empty2.png
  return graph.Graph(G, pos=pos_dict, name="Cycle graph on %d vertices"%n)
 }}}
 
-==== Examples ====
+=== Examples ===
 
-===== The following examples require NetworkX (to use default): =====
+==== The following examples require NetworkX (to use default): ====
 {{{
  sage: import networkx as NX
 }}}
 
-===== Compare the constructor speeds. =====
+==== Compare the constructor speeds. ====
 {{{
  time n = NX.cycle_graph(3989); spring3989 = Graph(n)
 }}}
@@ -160,7 +160,7 @@ attachment:empty2.png
 
  CPU time: 5.18 s,  Wall time: 6.17 s[[BR]] (Time results will vary.)
 
-===== Compare the plotting speeds. =====
+==== Compare the plotting speeds. ====
 {{{
  sage: n = NX.cycle_graph(23)
  sage: spring23 = Graph(n)
@@ -183,9 +183,9 @@ attachment:cycle_spr23.png
 attachment:cycl_pd23.png
 
 
-===== View many cycle graphs as a SAGE Graphics Array. =====
+==== View many cycle graphs as a SAGE Graphics Array. ====
 
-====== With the position dictionary filled: ======
+===== With the position dictionary filled: =====
 {{{
  sage: g = []
  sage: j = []
@@ -205,7 +205,7 @@ attachment:cycl_pd23.png
 
 attachment:cycle_pd_array.png
 
-====== With the spring-layout algorithm: ======
+===== With the spring-layout algorithm: =====
 {{{
  sage: g = []
  sage: j = []
@@ -227,15 +227,15 @@ attachment:cycle_pd_array.png
 attachment:cycle_spr_array.png
 
 
-=== Star Graphs ===
+== Star Graphs ==
 
-==== Info ====
+=== Info ===
 
  * Returns a star graph with n+1 nodes.
  * A Star graph is a basic structure where one node is connected to all other nodes.
  * This constructor is dependant on NetworkX numeric labels.
 
-==== Plotting ====
+=== Plotting ===
 
  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each star graph will be displayed with the first (0) node in the center, the second node (1) at the top, with the rest following in a counterclockwise manner.  (0) is the node connected to all other nodes.
         
@@ -243,7 +243,7 @@ attachment:cycle_spr_array.png
 
  * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
 
-==== Code ====
+=== Code ===
 
 {{{
  pos_dict = {}
@@ -256,14 +256,14 @@ attachment:cycle_spr_array.png
  return graph.Graph(G, pos=pos_dict, name="Star graph on %d vertices"%(n+1))
 }}}
 
-==== Examples ====
+=== Examples ===
 
-===== The following examples require NetworkX (to use default): =====
+==== The following examples require NetworkX (to use default): ====
 {{{
  sage: import networkx as NX
 }}}
 
-===== Compare the constructor speeds. =====
+==== Compare the constructor speeds. ====
 {{{
  time n = NX.star_graph(3989); spring3989 = Graph(n)
 }}}
@@ -273,7 +273,7 @@ attachment:cycle_spr_array.png
 }}}
  CPU time: 5.43 s,  Wall time: 7.41 s[[BR]] (Time results will vary.)
 
-===== Compare the plotting speeds. =====
+==== Compare the plotting speeds. ====
 {{{
  sage: n = NX.star_graph(23)
  sage: spring23 = Graph(n)
@@ -291,8 +291,8 @@ attachment:star_spr23.png
  CPU time: 0.68 s,  Wall time: 0.80 s[[BR]] (Time results will vary.)
 attachment:star_pd23.png
 
-===== View many star graphs as a SAGE Graphics Array. =====
-====== With the position dictionary filled: ======
+==== View many star graphs as a SAGE Graphics Array. ====
+===== With the position dictionary filled: =====
 {{{
  sage: g = []
  sage: j = []
@@ -311,7 +311,7 @@ attachment:star_pd23.png
 }}}
 attachment:star_array_pd.png
 
-====== With the spring-layout algorithm: ======
+===== With the spring-layout algorithm: =====
 {{{
  sage: g = []
  sage: j = []
@@ -333,21 +333,21 @@ attachment:star_array_spr.png
 
 
 
-=== Wheel Graphs ===
+== Wheel Graphs ==
 
-==== Info ====
+=== Info ===
 
  * Returns a Wheel graph with n nodes.
  * A Wheel graph is a basic structure where one node is connected to all other nodes and those (outer) nodes are connected cyclically.
  * This constructor depends on NetworkX numeric labels.
         
-==== Plotting ====
+=== Plotting ===
 
  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each wheel graph will be displayed with the first (0) node in the center, the second node at the top, and the rest following in a counterclockwise manner.
  * With the wheel graph, we see that it doesn't take a very large n at all for the spring-layout to give a counter-intuitive display.  (See Graphics Array examples below).
  * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
 
-==== Code ====
+=== Code ===
 
 {{{
 pos_dict = {}
@@ -360,14 +360,14 @@ pos_dict = {}
         return graph.Graph(G, pos=pos_dict, name="Wheel graph on %d vertices"%n)
 }}}
 
-==== Examples ====
+=== Examples ===
 
-===== The following examples require NetworkX (to use default): =====
+==== The following examples require NetworkX (to use default): ====
 {{{
  sage: import networkx as NX
 }}}
 
-===== Compare the constructor speeds. =====
+==== Compare the constructor speeds. ====
 {{{
  time n = NX.wheel_graph(3989); spring3989 = Graph(n)
 }}}
@@ -378,7 +378,7 @@ pos_dict = {}
 }}}
  CPU time: 5.99 s,  Wall time: 8.74 s[[br]] (Time results will vary.)
 
-===== Compare the plotting speeds. =====
+==== Compare the plotting speeds. ====
 {{{
  sage: n = NX.wheel_graph(23)
  sage: spring23 = Graph(n)
@@ -396,8 +396,8 @@ attachment:wheel_spr23.png
  CPU time: 0.68 s,  Wall time: 1.14 s[[br]] (Time results will vary.)
 attachment:wheel_pd23.png
 
-===== View many wheel graphs as a SAGE Graphics Array. =====
-====== With the position dictionary filled: ======
+==== View many wheel graphs as a SAGE Graphics Array. ====
+===== With the position dictionary filled: =====
 {{{
  sage: g = []
  sage: j = []
@@ -416,7 +416,7 @@ attachment:wheel_pd23.png
 }}}
 attachment:wheel_array_pd.png
 
-====== With the spring-layout algorithm: ======
+===== With the spring-layout algorithm: =====
 {{{
  sage: g = []
  sage: j = []
@@ -438,22 +438,22 @@ attachment:wheel_array_spr.png
 
 
 
-== Named Graphs ==
+= Named Graphs =
 
-=== Petersen ===
+== Petersen ==
 
-==== Info ====
+=== Info ===
  * The Petersen Graph is a named graph that consists of 10 vertices and 14 edges, usually drawn as a five-point star embedded in a pentagon.
  * The Petersen Graph is a common counterexample.  For example, it is not Hamiltonian.
        
-==== Plotting ====
+=== Plotting ===
  * When plotting the Petersen graph with the spring-layout algorithm, we see that this graph is not very symmetric and thus the display may not be very meaningful.  Efficiency of construction and plotting is not an issue, as the Petersen graph
 only has 10 vertices and 14 edges.
  * Our labeling convention here is to start on the outer pentagon from the top, moving counterclockwise. Then the nodes on the inner star, starting at the top and moving counterclockwise.
 
-==== Properties ====
+=== Properties ===
 
-==== Code ====
+=== Code ===
 {{{
  pos_dict = {}
  for i in range(5):
@@ -469,8 +469,8 @@ only has 10 vertices and 14 edges.
             pos=pos_dict, name="Petersen graph")
  return P
 }}}
-==== Examples ====
-===== Petersen Graph as constructed in this database =====
+=== Examples ===
+==== Petersen Graph as constructed in this database ====
 {{{
  sage: petersen_database = graphs.PetersenGraph()
  sage: petersen_database.show()
@@ -484,21 +484,21 @@ attachment:petersen_pos.png
 }}}
 attachment:petersen_spring.png
 
-== Graph Families ==
+= Graph Families =
 
-=== Complete Graphs ===
+== Complete Graphs ==
 
-==== Info ====
+=== Info ===
  * Returns a complete graph on n nodes.
  * A Complete Graph is a graph in which all nodes are connected to all other nodes.
  * This constructor is dependant on vertices numbered 0 through n-1 in NetworkX complete_graph()
         
-==== Plotting ====
+=== Plotting ===
  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each complete graph will be displayed with the first (0) node at the top, with the rest following in a counterclockwise manner.
  * In the complete graph, there is a big difference visually in using the spring-layout algorithm vs. the position dictionary used in this constructor.  The position dictionary flattens the graph, making it clear which nodes an edge is connected to.  But the complete graph offers a good example of how the spring-layout works.  The edges push outward (everything is connected), causing the graph to appear as a 3-dimensional pointy ball.  (See examples below).
  * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
 
-==== Code ====
+=== Code ===
 {{{
  pos_dict = {}
  for i in range(n):
@@ -509,14 +509,14 @@ attachment:petersen_spring.png
  return graph.Graph(G, pos=pos_dict, name="Complete graph on %d vertices"%n)
 }}}
 
-==== Examples ====
+=== Examples ===
 
-===== The following examples require NetworkX (to use default): =====
+==== The following examples require NetworkX (to use default): ====
 {{{
  sage: import networkx as NX
 }}}
 
-===== Compare the constructor speeds. =====
+==== Compare the constructor speeds. ====
 {{{
  time n = NX.complete_graph(1559); spring1559 = Graph(n)
 }}}
@@ -527,7 +527,7 @@ attachment:petersen_spring.png
  CPU time: 9.67 s,  Wall time: 11.75 s[[BR]](Time results vary.)
 
 
-===== Compare the plotting speeds. =====
+==== Compare the plotting speeds. ====
 {{{
  sage: n = NX.complete_graph(23)
  sage: spring23 = Graph(n)
@@ -545,8 +545,8 @@ attachment:complete_spr23.png
 attachment:complete_pd23.png
 
 
-===== View many Complete graphs as a SAGE Graphics Array. =====
-====== With the position dictionary filled: ======
+==== View many Complete graphs as a SAGE Graphics Array. ====
+===== With the position dictionary filled: =====
 {{{
  sage: g = []
  sage: j = []
@@ -565,7 +565,7 @@ attachment:complete_pd23.png
 }}}
 attachment:complete_array_pd.png
 
-====== With the spring-layout algorithm: ======
+===== With the spring-layout algorithm: =====
 {{{
  sage: g = []
  sage: j = []
@@ -587,18 +587,18 @@ attachment:complete_array_spr.png
 
 
 
-=== Complete Bipartite Graphs ===
+== Complete Bipartite Graphs ==
 
-==== Info ====
+=== Info ===
  * Returns a Complete Bipartite Graph sized n1+n2, with each of the nodes [0,(n1-1)] connected to each of the nodes [n1,(n2-1)] and vice versa.
  * A Complete Bipartite Graph is a graph with its vertices partitioned into two groups, V1 and V2.  Each v in V1 is connected to every v in V2, and vice versa.  
 
-==== Plotting ====
+=== Plotting ===
  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each complete bipartite graph will be displayed with the first n1 nodes on the top row (at y=1) from left to right.  The remaining n2 nodes appear at y=0, also from left to right.  The shorter row (partition with fewer nodes) is stretched to the same length as the longer row, unless the shorter row has 1 node; in which case it is centered.  The x values in the plot are in domain [0,max{n1,n2}].       
  * In the Complete Bipartite graph, there is a visual difference in using the spring-layout  algorithm vs. the position dictionary used in this constructor.  The position dictionary flattens the graph and separates the partitioned nodes, making it clear which nodes an edge is connected to.  The Complete Bipartite graph plotted with the spring-layout algorithm tends to center the nodes in n1 (see spring_med in examples below), thus overlapping its nodes and edges, making it typically hard to decipher.
  * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
 
-==== Code ====
+=== Code ===
 {{{
  pos_dict = {}
  c1 = 1 # scaling factor for top row
@@ -627,14 +627,14 @@ attachment:complete_array_spr.png
  return graph.Graph(G, pos=pos_dict, name="Complete bipartite graph on %d vertices"%(n1+n2))
 }}}
 
-==== Examples ====
+=== Examples ===
 
-===== The following examples require NetworkX (to use default): =====
+==== The following examples require NetworkX (to use default): ====
 {{{
  sage: import networkx as NX
 }}}
 
-===== Compare the constructor speeds. =====
+==== Compare the constructor speeds. ====
 {{{
  time n = NX.complete_bipartite_graph(389,157); spring_big = Graph(n)
 }}}
@@ -644,7 +644,7 @@ attachment:complete_array_spr.png
 }}}
  CPU time: 10.72 s,  Wall time: 13.84 s[[BR]](Time results will vary.)
 
-===== Compare the plotting speeds. =====
+==== Compare the plotting speeds. ====
 {{{
  sage: n = NX.complete_bipartite_graph(11,17)
  sage: spring_med = Graph(n)
@@ -663,8 +663,8 @@ attachment:compbip_spr_med.png
 attachment:compbip_pd_med.png
 
 
-===== View many Complete Bipartite graphs as a SAGE Graphics Array. =====
-====== With the position dictionary filled: ======
+==== View many Complete Bipartite graphs as a SAGE Graphics Array. ====
+===== With the position dictionary filled: =====
 {{{
  sage: g = []
  sage: j = []
@@ -683,7 +683,7 @@ attachment:compbip_pd_med.png
 }}}
 attachment:compbip_array_pd.png
 
-====== With the spring-layout algorithm: ======
+===== With the spring-layout algorithm: =====
 {{{
  sage: g = []
  sage: j = []
@@ -706,28 +706,28 @@ attachment:compbip_array.spr.png
 
 
 
-== Random Graph Generators ==
+= Random Graph Generators =
 
-=== RandomGNP ===
+== RandomGNP ==
 
-==== Info ====
+=== Info ===
  * Returns a Random graph on n nodes.  Each edge is inserted independently with probability p.
  * If p is small, use RandomGNPFast.  See NetworkX documentation.     
         C.f.
         P. Erdos and A. Renyi, On Random Graphs, Publ. Math. 6, 290 (1959).
         E. N. Gilbert, Random Graphs, Ann. Math. Stat., 30, 1141 (1959).
         
-==== Plotting ====
+=== Plotting ===
  * When plotting, this graph will use the default spring-layout algorithm, unless a position dictionary is specified.
 
-==== Code ====
+=== Code ===
 {{{
  G = NX.gnp_random_graph(n, p, seed)
  return graph.Graph(G)
 }}}
-==== Examples ====
-===== Compare the speed of RandomGNP and RandomGNPFast: =====
-====== Sparse Graphs ======
+=== Examples ===
+==== Compare the speed of RandomGNP and RandomGNPFast: ====
+===== Sparse Graphs =====
 {{{
  time regular_sparse = graphs.RandomGNP(1559,.22)
 }}}
@@ -736,7 +736,7 @@ attachment:compbip_array.spr.png
  time fast_sparse =  graphs.RandomGNPFast(1559,.22)
 }}}
  CPU time: 21.72 s,  Wall time: 26.44 s[[BR]](Time results will vary.)
-====== Dense Graphs ======
+===== Dense Graphs =====
 {{{ 
  time regular_dense = graphs.RandomGNP(1559,.88)
 }}}
@@ -746,14 +746,14 @@ attachment:compbip_array.spr.png
 }}}
  CPU time: 39.15 s,  Wall time: 48.22 s[[BR]](Time results will vary.)
 
-===== Plot a random graph on 12 nodes with p = .71 =====
+==== Plot a random graph on 12 nodes with p = .71 ====
 {{{
  sage: gnp = graphs.RandomGNP(12,.71)
  sage: gnp.show()
 }}}
 attachment:rand_reg.png
 
-===== View many random graphs using a SAGE Graphics Array =====
+==== View many random graphs using a SAGE Graphics Array ====
 {{{
  sage: g = []
  sage: j = []
@@ -772,23 +772,23 @@ attachment:rand_reg.png
 }}}
 attachment:rand_array_reg.png
 
-=== RandomGNPFast ===
-==== Info ====
+== RandomGNPFast ==
+=== Info ===
  * Returns a Random graph on n nodes.  Each edge is inserted independently with probability p.
  * Use for small p (sparse graphs).  See NetworkX documentation.
         
-==== Plotting ====
+=== Plotting ===
  * When plotting, this graph will use the default spring-layout algorithm, unless a position dictionary is specified.
         
-==== Code ====
+=== Code ===
 {{{
  G = NX.fast_gnp_random_graph(n, p, seed)
  return graph.Graph(G)
 }}}
 
-==== Examples ====
-===== Compare the speed of RandomGNP and RandomGNPFast: =====
-====== Sparse Graphs ======
+=== Examples ===
+==== Compare the speed of RandomGNP and RandomGNPFast: ====
+===== Sparse Graphs =====
 {{{
  time regular_sparse = graphs.RandomGNP(1559,.22)
 }}}
@@ -798,7 +798,7 @@ attachment:rand_array_reg.png
 }}}
  CPU time: 21.72 s,  Wall time: 26.44 s[[BR]](Time results will vary.)
 
-====== Dense Graphs ======
+===== Dense Graphs =====
 {{{ 
  time regular_dense = graphs.RandomGNP(1559,.88)
 }}}
@@ -808,14 +808,14 @@ attachment:rand_array_reg.png
 }}}
  CPU time: 39.15 s,  Wall time: 48.22 s[[BR]](Time results will vary.)
 
-===== Plot a random graph on 12 nodes with p = .71 =====
+==== Plot a random graph on 12 nodes with p = .71 ====
 {{{
  sage: fast = graphs.RandomGNPFast(12,.71)
  sage: fast.show()
 }}}
 attachment:rand_fast.png
 
-===== View many random graphs using a SAGE Graphics Array =====
+==== View many random graphs using a SAGE Graphics Array ====
 {{{
  sage: g = []
  sage: j = []
@@ -843,6 +843,6 @@ attachment:rand_array_fast.png
 
 
 
-== Graphs I Plan to Add ==
-== Suggestions ==
+= Graphs I Plan to Add =
+= Suggestions =
  * ???
