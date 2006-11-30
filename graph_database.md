@@ -1,14 +1,16 @@
-The SAGE Graph Theory Project aims to implement Graph objects and algorithms in ["SAGE"].
+The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
 
-The goal of the Graph Database is to implement constructors for many common graphs, as well as thorough docstrings that can be used for educational purposes.  Please check below for updates and note the section set aside for suggestions at the bottom of the page.
+The goal of the Graph Database is to implement constructors for many common graphs, as well as thorough docstrings that can be used for reference.  The Graph Database will grow as the Graph Theory Project does.  Robert Miller has been working on a graphics primitive for SAGE Graph objects, which has allowed us to pre-set a position dictionary for the x-y coordinates of each node.  (Browse code and examples below).  We also have the ability to view graphs in a SAGE Graphics Array, write text on the graphs, etc. that we inherit from having an associated SAGE Graphics Object for each SAGE Graph.
+
+As we implement algorithms into the Graph Theory Package, the constructors of known graphs would set their properties upon instantiation as well.  For example, if someone created a very large complete bipartite graph and then asked if it is a bipartite graph (not currently implemented), then instead of running through an algorithm to check it, we could return a value set at instantiation.  Further, this will improve the reference use of the docstrings as we would list the properties of each named graph.
+
+I am also launching a survey of existing graph database software (wiki link coming soon).  I am looking for a substantially large database of graphs and their properties, so that users can query properties.  
+
+Scroll down to see current status and examples.  There are lots of pictures, so I recommend using the Table of Contents to navigate.  Also, please note the suggestions section at the end.  Posting suggestions there will be easiest for me to keep on top of.
 
 Emily Kirkman is working on this project.
 
 [[TableOfContents]]
-
-= In Process of Updating... Check back 11/30/06 =
-=  Introduction =
-
 
 
 = Class Docstrings =
@@ -836,15 +838,63 @@ attachment:rand_fast.png
 }}}
 attachment:rand_array_fast.png
 
-        
-
-
-
-
-
-
 
 
 = Graphs I Plan to Add =
+
+== Inherited from NetworkX ==
+ *	Bipartite Generators
+ *	Balanced tree
+ *	Barbell
+ *	Circular ladder
+ *	Dorogovstev golstev mendes graph
+ *	Grid
+ *	Hypercube
+ *	Ladder
+ *	Lollipop
+ *	Path
+ *	Bull
+ *	Chvatal
+ *	Cubical
+ *	Desargues
+ *	Diamond
+ *	Dodecahedral
+ *	Frucht
+ *	Heawood
+ *	House
+ *	House x
+ *	Icosahedral
+ *	Krackhardt
+ *	Moebius kantor
+ *	Octahedral
+ *	Pappus
+ *	Sedgewick
+ *	Tetrahedral
+ *	Truncated cube
+ *	Truncated tetrahedron
+ *	Tutte
+ *	Also many more random generators and gens from degree sequence to sort through
+
+== Families of Graphs ==
+ * Generalized Petersen graphs
+ * Petersen Graph family
+ * Trees (Directed – not simple.  Maybe Balanced tree constructor and query isTree)
+ * Cubes
+ * Cayley (Requires Coloring)
+
+== Named Graphs ==
+Thomsen
+ * Brinkman
+ * Clebsch
+ * Flower snark
+ * Icosahedron
+ * Grötzsch graph
+ * Tutte eight-cage
+ * Heawood graph
+ * Szekeres snark
+ * Thomassen graph
+ * Johnson (maybe own class)
+ * Turan
+
 = Suggestions =
  * ???
