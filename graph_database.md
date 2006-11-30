@@ -92,7 +92,7 @@ TODO:
 {{{
  sage: empty1 = graphs.EmptyGraph()
  sage: empty1.add_vertex()
- sage.: empty1.show()
+ sage: empty1.show()
 }}}
 
 attachment:empty1.png
@@ -109,7 +109,7 @@ attachment:empty1.png
  sage: for i in range(4)[1:]:
  ...    empty2.add_edge(4,i) # add edges {[1:4],[2:4],[3:4]}
  ...
- sage.: empty2.show()
+ sage: empty2.show()
 }}}
 
 attachment:empty2.png
@@ -204,7 +204,7 @@ attachment:cycl_pd23.png
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
- sage.: G.show()
+ sage: G.show()
 }}}
 
 attachment:cycle_pd_array.png
@@ -225,7 +225,7 @@ attachment:cycle_pd_array.png
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
- sage.: G.show()
+ sage: G.show()
 }}}
 
 attachment:cycle_spr_array.png
@@ -280,10 +280,60 @@ attachment:cycle_spr_array.png
  (Time results will vary.)
 
 ===== Compare the plotting speeds. =====
-===== View many [cycle] graphs as a SAGE Graphics Array. =====
-====== With the position dictionary filled: ======
-====== With the spring-layout algorithm: ======
+{{{
+ sage: n = NX.star_graph(23)
+ sage: spring23 = Graph(n)
+ sage: posdict23 = graphs.StarGraph(23)
+}}}
+{{{
+ time spring23.show()
+}}}
+ CPU time: 2.31 s,  Wall time: 3.14 s
+ (Time results will vary.)
 
+{{{
+ time posdict23.show()
+}}}
+ CPU time: 0.68 s,  Wall time: 0.80 s
+ (Time results will vary.)
+
+===== View many star graphs as a SAGE Graphics Array. =====
+====== With the position dictionary filled: ======
+{{{
+ sage: g = []
+ sage: j = []
+ sage: for i in range(16):
+ ...    k = graphs.StarGraph(i+3)
+ ...    g.append(k)
+ ...
+ sage: for i in range(4):
+ ...    n = []
+ ...    for m in range(4):
+ ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...    j.append(n)
+ ...
+ sage: G = sage.plot.plot.GraphicsArray(j)
+ sage: G.show()
+}}}
+
+====== With the spring-layout algorithm: ======
+{{{
+ sage: g = []
+ sage: j = []
+ sage: for i in range(16):
+ ...    spr = NX.star_graph(i+3)       
+ ...    k = Graph(spr)
+ ...    g.append(k)
+ ...
+ sage: for i in range(4):
+ ...    n = []
+ ...    for m in range(4):
+ ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...    j.append(n)
+ ...
+ sage: G = sage.plot.plot.GraphicsArray(j)
+ sage: G.show()
+}}}
 
 
 
