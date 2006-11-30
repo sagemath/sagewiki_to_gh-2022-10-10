@@ -1,13 +1,15 @@
-testing
-[[TableOfContents]]
-= In Process of Updating... Check back 11/30/06 =
-=  Introduction =
-
 The SAGE Graph Theory Project aims to implement Graph objects and algorithms in ["SAGE"].
 
 The goal of the Graph Database is to implement constructors for many common graphs, as well as thorough docstrings that can be used for educational purposes.  Please check below for updates and note the section set aside for suggestions at the bottom of the page.
 
 Emily Kirkman is working on this project.
+
+[[TableOfContents]]
+
+= In Process of Updating... Check back 11/30/06 =
+=  Introduction =
+
+
 
 = Class Docstrings =
 
