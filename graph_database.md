@@ -153,14 +153,14 @@ attachment:empty2.png
 }}}
 
  CPU time: 0.05 s,  Wall time: 0.07 s
-[[br]] (Time results will vary.)
+[[BR]] (Time results will vary.)
 
 {{{
  time posdict3989 = graphs.CycleGraph(3989)
 }}}
 
  CPU time: 5.18 s,  Wall time: 6.17 s
-[[br]] (Time results will vary.)
+[[BR]] (Time results will vary.)
 
 ===== Compare the plotting speeds. =====
 {{{
@@ -173,7 +173,7 @@ attachment:empty2.png
 }}}
 
  CPU time: 2.04 s,  Wall time: 2.72 s
-[[br]] (Time results will vary.)
+[[BR]] (Time results will vary.)
 
 attachment:cycle_spr23.png
 
@@ -182,7 +182,7 @@ attachment:cycle_spr23.png
 }}}
 
  CPU time: 0.57 s,  Wall time: 0.71 s
-[[br]] (Time results will vary.)
+[[BR]] (Time results will vary.)
 
 attachment:cycl_pd23.png
 
@@ -272,12 +272,12 @@ attachment:cycle_spr_array.png
  time n = NX.star_graph(3989); spring3989 = Graph(n)
 }}}
  CPU time: 0.08 s,  Wall time: 0.10 s
-[[br]] (Time Results will vary.)
+[[BR]] (Time Results will vary.)
 {{{
  time posdict3989 = graphs.StarGraph(3989)
 }}}
  CPU time: 5.43 s,  Wall time: 7.41 s
-[[br]] (Time results will vary.)
+[[BR]] (Time results will vary.)
 
 ===== Compare the plotting speeds. =====
 {{{
@@ -289,13 +289,13 @@ attachment:cycle_spr_array.png
  time spring23.show()
 }}}
  CPU time: 2.31 s,  Wall time: 3.14 s
-[[br]] (Time results will vary.)
+[[BR]] (Time results will vary.)
 
 {{{
  time posdict23.show()
 }}}
  CPU time: 0.68 s,  Wall time: 0.80 s
-[[br]] (Time results will vary.)
+[[BR]] (Time results will vary.)
 
 ===== View many star graphs as a SAGE Graphics Array. =====
 ====== With the position dictionary filled: ======
