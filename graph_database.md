@@ -86,7 +86,7 @@ TODO:
 }}}
 ==== Examples ====
 
- Add one vertex to an empty graph and then show:
+===== Add one vertex to an empty graph and then show: =====
 {{{
  sage: empty1 = graphs.EmptyGraph()
  sage: empty1.add_vertex()
@@ -94,8 +94,8 @@ TODO:
 }}}
 
 attachment:empty1.png
-    
-Use for loops to build a graph from an empty graph:
+
+===== Use for loops to build a graph from an empty graph: =====
 {{{
  sage: empty2 = graphs.EmptyGraph()
  sage: for i in range(5):
@@ -140,12 +140,12 @@ attachment:empty2.png
 
 ==== Examples ====
 
-The following examples require NetworkX (to use default):
+===== The following examples require NetworkX (to use default): =====
 {{{
  sage: import networkx as NX
 }}}
 
- Compare the constructors (results will vary):
+===== Compare the constructors (results will vary): =====
 {{{
  time n = NX.cycle_graph(3989); spring3989 = Graph(n)
 }}}
@@ -159,7 +159,7 @@ The following examples require NetworkX (to use default):
  CPU time: 5.18 s,  Wall time: 6.17 s
 
 
-Compare the plotting speeds (results will vary)
+===== Compare the plotting speeds (results will vary): =====
 {{{
  sage: n = NX.cycle_graph(23)
  sage: spring23 = Graph(n)
@@ -180,9 +180,9 @@ attachment:cycle_spr23.png
 attachment:cycl_pd23.png
 
 
-View many cycle graphs as a SAGE Graphics Array:
+===== View many cycle graphs as a SAGE Graphics Array: =====
 
-With this constructor (i.e., the position dictionary filled):
+====== With this constructor (i.e., the position dictionary filled): ======
 {{{
  sage: g = []
  sage: j = []
@@ -202,7 +202,7 @@ With this constructor (i.e., the position dictionary filled):
 
 attachment:cycle_pd_array.png
 
-Compared to plotting with the spring-layout algorithm:
+====== Compared to plotting with the spring-layout algorithm: ======
 {{{
  sage: g = []
  sage: j = []
@@ -220,6 +220,8 @@ Compared to plotting with the spring-layout algorithm:
  sage: G = sage.plot.plot.GraphicsArray(j)
  sage.: G.show()
 }}}
+
+attachment:cycle_spr_array.png
 
 === Star Graphs ===
 
