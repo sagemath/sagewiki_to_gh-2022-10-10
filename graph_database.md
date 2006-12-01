@@ -1,3 +1,5 @@
+#PRAGMA section-numbers on
+
 The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
 
 The goal of the Graph Database is to implement constructors for many common graphs, as well as thorough docstrings that can be used for reference.  The Graph Database will grow as the Graph Theory Project does.  Robert Miller has been working on a graphics primitive for SAGE Graph objects, which has allowed us to pre-set a position dictionary for the x-y coordinates of each node.  (Browse code and examples below).  We also have the ability to view graphs in a SAGE Graphics Array, write text on the graphs, etc. that we inherit from having an associated SAGE Graphics Object for each SAGE Graph.
