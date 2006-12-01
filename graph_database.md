@@ -1,4 +1,4 @@
-#PRAGMA section-numbers on
+#PRAGMA section-numbers 2
 
 The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
 
