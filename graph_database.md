@@ -73,7 +73,7 @@ Emily Kirkman is working on this project.
 
 
 
-= Currently implemented in Graph Database =
+= Currently Implemented in Graph Database =
 
 == Class Docstrings ==
 
