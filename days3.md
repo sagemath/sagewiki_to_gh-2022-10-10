@@ -10,8 +10,7 @@
  * Sun: Talks from 9-12, optional talks from 2-5
  * Mon & Tue: Coding sprints, colloquium talk
  * Wed: Talks & wrap-up all day
-
- [:days3/talks: More details]
+ * [:days3/talks: More details]
 
 == Flyers and Posters ==
    * [http://modular.math.washington.edu/home/wdj/art/sd3-motivator-mozaic.jpg mozaic poster]
