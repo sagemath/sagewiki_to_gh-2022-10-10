@@ -9,3 +9,5 @@
    * [http://modular.math.washington.edu/home/wdj/art/sd3-motivator-mozaic.jpg mozaic poster] 
    * [http://modular.math.washington.edu/home/wdj/art/sd3-motivator-poster.jpg poster with SAGE graphic]
    * [http://modular.math.washington.edu/home/wdj/art/sd3-magazine-cover.jpg magazine-cover style poster]
+
+ * [:days3/talks: Talks]
