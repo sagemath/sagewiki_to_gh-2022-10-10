@@ -1,4 +1,7 @@
-==SAGE Days 3==
+= SAGE Days 3 =
+
+== Organizing committee ==
+ *  Craig Citro, David Joyner, Kristin Lauter, Nathan Ryan, William Stein "(chair)"
 
  * Dates: February 17-21, 2007
  * Location: IPAM (Institute for Pure and Applied Mathematics) at UCLA
