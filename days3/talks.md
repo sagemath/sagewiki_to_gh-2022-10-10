@@ -1,3 +1,5 @@
+[days3: SAGE Days 3]
+
 == Planned schedule ==
  
  * Sat: Talks from 9-12, optional talks from 2-5
