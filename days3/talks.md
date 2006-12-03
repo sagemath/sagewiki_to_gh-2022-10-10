@@ -29,3 +29,8 @@ afternoon talks will be talks about more specified topics that people
 might be interested in. So, using SD2 for examples again, we'd have  
 David Harvey's talk on SAGE Architecture, and in the afternoon,  
 Martin Albrecht's talk on F4.
+
+The colloquium talks listed above are two slots for talks of  
+general interest, but not necessarily about SAGE. A good example  
+would be Bill Page's AXIOM talk at SD2. These will be dependent on  
+finding the right speakers & topics.
