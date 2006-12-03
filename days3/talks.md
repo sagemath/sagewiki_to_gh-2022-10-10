@@ -1,4 +1,4 @@
-[days3: SAGE Days 3]
+[:days3: SAGE Days 3]
 
 == Planned schedule ==
  
