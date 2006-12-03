@@ -3,7 +3,7 @@
 == Organizing committee ==
  *  Craig Citro, David Joyner, Kristin Lauter, Nathan Ryan, William Stein ''(chair)''
  * Dates: February 17-21, 2007
- * Location: [www.ipam.ucla.edu/  IPAM (Institute for Pure and Applied Mathematics) at UCLA]
+ * Location: [http://www.ipam.ucla.edu/  IPAM (Institute for Pure and Applied Mathematics) at UCLA]
 
 == Planned schedule ==
  * Sat: Talks from 9-12, optional talks from 2-5
