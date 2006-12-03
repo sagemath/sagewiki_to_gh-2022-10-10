@@ -8,7 +8,7 @@
 == Planned schedule ==
  * Sat: Talks from 9-12, optional talks from 2-5
  * Sun: Talks from 9-12, optional talks from 2-5
- * Mon & Tue: Coding sprints, possible "Colloquium" talks
+ * Mon & Tue: Coding sprints, colloquium talk
  * Wed: Talks & wrap-up all day
 
  [:days3/talks: More details]
