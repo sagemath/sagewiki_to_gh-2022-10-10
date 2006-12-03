@@ -11,7 +11,7 @@
  * Mon & Tue: Coding sprints, possible "Colloquium" talks
  * Wed: Talks & wrap-up all day
 
-The goal with the talks will be as follows: talks that everyone cares about will be in the mornings, and in the afternoons, we'll have more specialized talks. The first day will be targeted to people who are not experts on SAGE. The second day will be targeted at SAGE developers.
+ [:days3/talks: More details]
 
 == Flyers and Posters ==
    * [http://modular.math.washington.edu/home/wdj/art/sd3-motivator-mozaic.jpg mozaic poster]
