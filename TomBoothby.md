@@ -14,7 +14,7 @@
     * Whether or not to show the left pane
     * Whether to start as a worksheet or slideshow
     * Preferred key controls
-This file will then be uploadable to another server -- so I can change my settings on my local machine, and then update them on sage.math, too.
+ This file will then be uploadable to another server -- so I can change my settings on my local machine, and then update them on sage.math, too.
  * Every link will be able to be controlled by the keyboard
 
 '''My argument for including GD in it's full glory'''''' http://sage.math.washington.edu/home/boothby/f.png '''
