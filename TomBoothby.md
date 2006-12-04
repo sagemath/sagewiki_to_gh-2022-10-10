@@ -4,4 +4,17 @@
  * Notebook
  * 3d plotting with mpl and tachyon
  * Music / visual art
+
+'''Next Version of Notebook'''
+
+ * The server will be handled by Twisted
+ * The browser will continually (~1sec) poll the server for updates (re: google spreadsheets)
+ * When updates are detected by the poll, they'll be individually downloaded by the client if the client chooses to  ask
+ * User authentication will be done on a better scale -- and the users will be able to download and edit a "profile" which will remember
+    * Whether or not to show the left pane
+    * Whether to start as a worksheet or slideshow
+    * Preferred key controls
+This file will then be uploadable to another server -- so I can change my settings on my local machine, and then update them on sage.math, too.
+ * Every link will be able to be controlled by the keyboard
+
 '''My argument for including GD in it's full glory'''''' http://sage.math.washington.edu/home/boothby/f.png '''
