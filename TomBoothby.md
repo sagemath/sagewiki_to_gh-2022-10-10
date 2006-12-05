@@ -13,6 +13,7 @@
  * User authentication will be done on a better scale -- and the users will be able to download and edit a "profile" which will remember
     * Whether or not to show the left pane
     * Preferred key controls
+    * Default worksheet config
  This file will then be uploadable to another server -- so I can change my settings on my local machine, and then update them on sage.math, too.
  * Every link will be able to be controlled by the keyboard
  * Worksheet level preferences
