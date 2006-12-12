@@ -1,4 +1,9 @@
+
+
 [[TableOfContents]]
+
+== Suggestions ==
+ * ???
 
 == The Graph Database ==
  * [http://amalfi.dis.unina.it/graph/ Link]
