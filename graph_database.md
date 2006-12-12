@@ -4,7 +4,7 @@ The goal of the Graph Database is to implement constructors for many common grap
 
 As we implement algorithms into the Graph Theory Package, the constructors of known graphs would set their properties upon instantiation as well.  For example, if someone created a very large complete bipartite graph and then asked if it is a bipartite graph (not currently implemented), then instead of running through an algorithm to check it, we could return a value set at instantiation.  Further, this will improve the reference use of the docstrings as we would list the properties of each named graph.
 
-I am also launching a survey of existing graph database software (wiki link coming soon).  I am looking for a substantially large database of graphs and their properties, so that users can query properties.  
+I am also launching a [http://sage.math.washington.edu:9001/graph_db_survey survey] of existing graph database software.  I am looking for a substantially large database of graphs and their properties, so that users can query properties.  
 
 Scroll down to see current status and examples.  There are lots of pictures, so I recommend using the Table of Contents to navigate.  Also, please note the suggestions section.  Posting suggestions there will be easiest for me to keep on top of.
 
