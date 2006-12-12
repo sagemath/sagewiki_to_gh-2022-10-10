@@ -35,12 +35,12 @@ Emily Kirkman is working on this project.
 
 == MAGMA Graph Database and Graph Generation ==
  * [http://magma.maths.usyd.edu.au/magma/htmlhelp/text1477.htm Link]
- * A catalogue of strongly regular graphs is available. This catalogue has been put together from various sources by B. McKay and can be found [http://cs.anu.edu.au/~bdm/data/ here]. Graphs in the database are indexed by a sequence of four parameters. They are, in order: the order of the graph, its degree, the number of common neighbours to each pair of adjacent vertices, and the number of common neighbours to each pair of non-adjacent vertices. 
- * There link above gives BD McKay's catalogue, which list graphs by category: Simple, Eulerian, Strongly Regular, Ramsey, Hypohamilitonian, Planar
+ * A catalogue of strongly regular graphs is available. This catalogue has been put together from various sources by B. !McKay and can be found [http://cs.anu.edu.au/~bdm/data/ here]. Graphs in the database are indexed by a sequence of four parameters. They are, in order: the order of the graph, its degree, the number of common neighbours to each pair of adjacent vertices, and the number of common neighbours to each pair of non-adjacent vertices. 
+ * There link above gives BD !McKay's catalogue, which list graphs by category: Simple, Eulerian, Strongly Regular, Ramsey, Hypohamilitonian, Planar
 
 == Combinatorial Catalogues ==
  * [http://people.csse.uwa.edu.au/gordon/data.html Link]
- * These are also organized by type, and also (similar to MAGMA) in BD McKay’s graph6 and sparse6 format.  Nauty handles this format, but there is also an open source (no visible copyright or license) C program called readg available at this site.  It gives a couple of text format options:  list, adj matrix, edge list.
+ * These are also organized by type, and also (similar to MAGMA) in BD !McKay’s graph6 and sparse6 format.  Nauty handles this format, but there is also an open source (no visible copyright or license) C program called readg available at this site.  It gives a couple of text format options:  list, adj matrix, edge list.
  * Here are the headings from Gordon Royle’s database:
      * Small graphs 
      * Small multigraphs 
