@@ -1,3 +1,5 @@
+[[Table of Contents]]
+
 == The Graph Database ==
  * [http://amalfi.dis.unina.it/graph/ Link]
  * Purpose: To provide standard test ground for benchmarking matching algorithims.
