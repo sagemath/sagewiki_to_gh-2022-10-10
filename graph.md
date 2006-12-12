@@ -29,4 +29,6 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
  * [http://sage.math.washington.edu:9001/graph_database Link]
  * So far: Basic graph structures with intuitive graphics
  * Plan:  Extensive educational docstrings and many, many more graph constructors
- * Need: Feedback!   
+=== Survey of Existing Database Software ===
+ * [http://sage.math.washington.edu:9001/graph_db_survey Link]
+ * I've found some resources, but please recommend...
