@@ -1,4 +1,4 @@
-[[Table of Contents]]
+[[TableOfContents]]
 
 == The Graph Database ==
  * [http://amalfi.dis.unina.it/graph/ Link]
