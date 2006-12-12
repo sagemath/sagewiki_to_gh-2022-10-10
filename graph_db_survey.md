@@ -15,7 +15,7 @@
 
 == GRACE ==
  * [http://comad2005.persistent.co.in/COMAD2005Proc/pages138-147.pdf  Paper]
- * [http://osl.iiitb.ac.in/oslwiki/index.php/GRACE Site]
+ * [http://osl.iiitb.ac.in/oslwiki/index.php/GRACE Link]
  * GRACE is a database management system for managing data that is in the form of labeled undirected graphs.  GRACE introduces a new data model for graph data and a query language called Safari, which supports both attribute and structural searches. The users can add graphs to a database. The graphs can be retrieved based on their properties. The properties of a graph include the attributes associated with a graph and the structure of the graph. 
  * appears free and open, but no license info
 
