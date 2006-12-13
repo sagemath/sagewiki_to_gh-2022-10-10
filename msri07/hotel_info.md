@@ -21,5 +21,3 @@ our Website. Group Code = CGMS36. Please note: The Original Queen room
 type does not have an in-room T1 connection, but we do have WIFI available
 in our main lobby area. The cut-off date for reservations is December 28, 
 2006."
-
-Ifti.
