@@ -7,3 +7,5 @@
    * [:msri07_news: Relevant News]
 
    * [:msri07/speakers: Invited Speakers]
+
+   * [:msri07/hotel_info: Hotel Information]
