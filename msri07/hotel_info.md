@@ -1,5 +1,3 @@
-http://www.msri.org/calendar/workshops/WorkshopInfo/410/show_workshop
-
 Quoting from the official MSRI webpage for the conference:
 http://www.msri.org/calendar/workshops/WorkshopInfo/410/show_workshop
 
