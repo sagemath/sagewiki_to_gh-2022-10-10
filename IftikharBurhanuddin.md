@@ -34,6 +34,6 @@ I am a graduate student at the University of Southern California.
 
   algorithms http://modular.math.washington.edu/home/burhanud/volume.pdf
 
-* Thesis et al 
+* My research is pretty SAGEy
 
   Research Statement http://sage.math.washington.edu/home/burhanud/job_app/restat.pdf
