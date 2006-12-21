@@ -21,7 +21,7 @@ booking through the Website. Group Code: CGMS36.
 Please note: The Original Queen room type does not have an in-room T1 connection, but WIFI 
 is available in the main lobby area. The cut-off date for reservations is January 8, 2007. After 
 the cut-off dates, these rooms will be released to the public. Information about other hotels in 
-the area can be found on MSRI’s website http:..www.msri.org/about/visitors/housing/index_html. 
+the area can be found on MSRI’s website http://www.msri.org/about/visitors/housing/index_html. 
  
 Please visit http://www.msri.org/about/visitors/index_html for general information about visiting MSRI 
 such as local maps, local transportation options and recreation opportunities. Both the 
