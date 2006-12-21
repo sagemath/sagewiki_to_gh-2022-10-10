@@ -12,14 +12,6 @@ I am a graduate student at the University of Southern California.
 
   http://modular.math.washington.edu/sage/doc/html/prog/index.html
 
-* Wrapping Denis Simon's 2-descent (plan)
-
-* Dekinking some SAGE tab completion kinks (plan)
-
-* SAGE + Parallel, The Problem Book (plan)
-  
-  http://sage.math.washington.edu/msri07
-
 * Mestre's method of graphs project which started at the  [http://modular.math.washington.edu/msri06 MSRI Computing with Modular Forms] workshop. 
 
   Check out: 
@@ -35,6 +27,15 @@ I am a graduate student at the University of Southern California.
   kurrently kludgey kode http://sage.math.washington.edu/home/burhanud/tor/tor.py.txt
 
   algorithms http://modular.math.washington.edu/home/burhanud/volume.pdf
+
+* Wrapping Denis Simon's 2-descent (plan)
+
+* Dekinking some SAGE tab completion kinks (plan)
+
+* SAGE + Parallel, The Problem Book (plan)
+  
+  http://sage.math.washington.edu/msri07
+
 
 * My research is pretty SAGEy
 
