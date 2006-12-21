@@ -8,4 +8,4 @@
 
    * [:msri07/speakers: Invited Speakers]
 
-   * [:msri07/hotel_info: Accommodation and Visa Information]
+   * [:msri07/hotel_visa_info: Accommodation and Visa Information]
