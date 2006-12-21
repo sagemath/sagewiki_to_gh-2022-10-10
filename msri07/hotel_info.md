@@ -21,9 +21,9 @@ booking through the Website. Group Code: CGMS36.
 Please note: The Original Queen room type does not have an in-room T1 connection, but WIFI 
 is available in the main lobby area. The cut-off date for reservations is January 8, 2007. After 
 the cut-off dates, these rooms will be released to the public. Information about other hotels in 
-the area can be found on MSRI’s website www.msri.org/about/visitors/housing/index_html. 
+the area can be found on MSRI’s website http:..www.msri.org/about/visitors/housing/index_html. 
  
-Please visit www.msri.org/about/visitors/index_html for general information about visiting MSRI 
+Please visit http://www.msri.org/about/visitors/index_html for general information about visiting MSRI 
 such as local maps, local transportation options and recreation opportunities. Both the 
 workshop organizers and MSRI staff can be contacted by email at 410@msri.org, in case you 
 have any questions. 
@@ -41,7 +41,7 @@ travel and local expenses. You need to obtain the B-1 designation on your I-94 c
 entry inspection.  If you are eligible for the Visa Waiver Program, you must obtain the WB 
 designation (Waiver for Business) on your I-94 card at entry. For more information about the 
 B-1, Visitor Visa, as well as information on the Visa Waiver Program, please refer to 
-www.msri.org/propapps/visa_information/index_html. 
+http://www.msri.org/propapps/visa_information/index_html. 
  
 If you are currently an international student or scholar at a U.S. institution, please be prepared 
 to provide your passport and supporting visa documents for review. We will need to make 
