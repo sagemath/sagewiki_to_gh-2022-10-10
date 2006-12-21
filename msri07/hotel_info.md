@@ -1,5 +1,7 @@
 Accommodation and Visa Information 
- 
+
+==================================
+
 For more information about this workshop, please see MSRI’s web page 
 http://www.msri.org/calendar/workshops/WorkshopInfo/410/show_workshop and, if you have not 
 already done so, please register on-line. 
