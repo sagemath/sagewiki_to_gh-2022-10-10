@@ -8,11 +8,4 @@
 
    * [:msri07/speakers: Invited Speakers]
 
-
----- /!\ '''Edit conflict - other version:''' ----
    * [:msri07/hotel_info: Accommodation and Visa Information]
-
----- /!\ '''Edit conflict - your version:''' ----
-   * [:msri07/hotel_info: Accommodation and Visa Information]
-
----- /!\ '''End of edit conflict''' ----
