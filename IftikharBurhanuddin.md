@@ -2,7 +2,9 @@ I am a graduate student at the University of Southern California.
 
   http://www-scf.usc.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
 
+
 Stuff I am working/plan to work on wrt to SAGE are:
+
 
 * Editing the SAGE programming guide in time for the release of sage-2.0
 
@@ -16,7 +18,7 @@ Stuff I am working/plan to work on wrt to SAGE are:
   
   http://sage.math.washington.edu/msri07
 
-* Mestre's method of graphs project which started at the MSRI Computing with Modular Forms workshop. 
+* Mestre's method of graphs project which started at the  [http://modular.math.washington.edu/msri06 MSRI Computing with Modular Forms] workshop. 
 
   Check out: 
 
