@@ -2,7 +2,7 @@ I am a graduate student at the University of Southern California.
 
   http://www-scf.usc.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
 
-I am working/plan to work on wrt to SAGE are:
+Stuff I am working/plan to work on wrt to SAGE are:
 
 * Editing the SAGE programming guide in time for the release of sage-2.0
 
