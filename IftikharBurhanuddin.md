@@ -4,15 +4,19 @@ http://www-scf.usc.edu/~burhanud
 
 http://sage.math.washington.edu/home/burhanud
 
-Some of the stuff I am working on wrt to SAGE are:
+Some of the stuff I am working/plan to work on wrt to SAGE are:
 
 * Editing the SAGE programming guide in time for the release of sage-2.0
 
-* Wrapping Denis Simon's 2-descent
+  http://modular.math.washington.edu/sage/doc/html/prog/index.html
 
-* Dekinking some SAGE tab completion kinks 
+* Wrapping Denis Simon's 2-descent (plan)
 
-* SAGE + Parallel http://sage.math.washington.edu/msri07
+* Dekinking some SAGE tab completion kinks (plan)
+
+* SAGE + Parallel, The Problem Book (plan)
+  
+  http://sage.math.washington.edu/msri07
 
 * Mestre's method of graphs project which started at the MSRI Computing with Modular Forms workshop. 
 
