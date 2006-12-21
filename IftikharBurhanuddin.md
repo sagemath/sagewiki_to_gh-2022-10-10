@@ -32,4 +32,4 @@ Some of the stuff I am working on wrt to SAGE are:
 
 * Thesis et al 
 
-  Research Statement http://sage.math.washington.edu/home/burhanud/job_app/
+  Research Statement http://sage.math.washington.edu/home/burhanud/job_app/restat.pdf
