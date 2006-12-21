@@ -22,11 +22,11 @@ Stuff I am working/plan to work on wrt to SAGE are:
 
   Check out: 
 
-    slides from my talk http://sage.math.washington.edu/home/burhanud/msri_talk.pdf and
-
-    pictures from the conference http://sage.math.washington.edu/home/burhanud/msri06 and
-
     code http://sage.math.washington.edu/home/burhanud/SSMod/ssmod.py.txt
+
+    slides http://sage.math.washington.edu/home/burhanud/msri_talk.pdf 
+
+    pictures http://sage.math.washington.edu/home/burhanud/msri06 
 
 * Implementing asymptotically fast elliptic curve rational torsion computation algorithms. 
 
