@@ -19,7 +19,7 @@ calling 1-800-992-9005 OR visiting their website at: http://www.rosegardeninn.co
 Corporate at the bottom of the screen and when prompted enter code MATH (this code is not 
 case sensitive). By using this code a new calendar will appear and will show MSRI rates on all 
 room types available. The following Group Code should be entered in the "Comment" field when 
-booking through the Website. Group Code: CGMS36. 
+booking through the Website. Group Code: CGMS48. 
 Please note: The Original Queen room type does not have an in-room T1 connection, but WIFI 
 is available in the main lobby area. The cut-off date for reservations is January 8, 2007. After 
 the cut-off dates, these rooms will be released to the public. Information about other hotels in 
