@@ -10,7 +10,9 @@ MSRI asks that you make your own accommodation arrangements, and we recommend th
 you do this as soon as possible, as rooms book up quickly in Berkeley.  
 
 (William) I like the French Hotel (510)548-9930, since it is in an excellent
-neighborhood and is charmingly independent.  It costs at most 95/night, and
+neighborhood and is charmingly independent (it is upstairs from a cool coffee
+shop and across the street from used bookstores and Chez Panisse).  
+It costs at most 95/night, and
 when I called on January 4 they had plenty of rooms available.  It is about
 a 10 minute walk from the French Hotel to the bus stop for the bus to MSRI
 (the bus is basically the "only" way to get to MSRI).
