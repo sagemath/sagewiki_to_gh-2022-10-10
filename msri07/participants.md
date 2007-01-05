@@ -8,7 +8,7 @@
 
 * [http://amath.colorado.edu/faculty/fperez/ Fernando Perez] (University of Colorado, Applied Math)
 
-* Chair: [:WilliamStein:William Stein] (University of Washington, Mathematics)
+* [:WilliamStein:William Stein] Chair (University of Washington, Mathematics)
 
 * [http://www.math.lsu.edu/~verrill/ Helena Verrill] (Lousianna State University, Mathematics)
 
