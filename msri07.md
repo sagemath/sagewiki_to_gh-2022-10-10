@@ -11,3 +11,5 @@
    * [:msri07/schedule: Schedule of talks]
 
    * [:msri07/hotel_visa_info: Accommodation and Visa Information]
+
+   * [:msri07/participants: Participants]
