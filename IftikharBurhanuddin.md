@@ -1,4 +1,4 @@
-I am a graduate student at the University of Southern California. 
+I am a graduate student at the University of Southern California but my days are numbered --- as a student.
 
   http://www-scf.usc.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
 
