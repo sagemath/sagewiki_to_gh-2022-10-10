@@ -8,6 +8,6 @@
 
    * [:msri07/speakers: Invited Speakers]
 
-   * [:msri07/schedule: Workshop Schedule]
+   * [:msri07/schedule: Schedule of talks]
 
    * [:msri07/hotel_visa_info: Accommodation and Visa Information]
