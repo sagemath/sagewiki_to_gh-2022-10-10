@@ -8,13 +8,20 @@ already done so, please register on-line.
  
 MSRI asks that you make your own accommodation arrangements, and we recommend that 
 you do this as soon as possible, as rooms book up quickly in Berkeley.  
+
+(William) I like the French Hotel (510)548-9930, since it is in an excellent
+neighborhood and is charmingly independent.  It costs at most 95/night, and
+when I called on January 4 they had plenty of rooms available.  It is about
+a 10 minute walk from the French Hotel to the bus stop for the bus to MSRI
+(the bus is basically the "only" way to get to MSRI).
  
 A block of rooms at the Hotel Durant has been put on hold by MSRI for your convenience. 
 Please contact the hotel directly to make your reservation via phone: (510) 845-8981, or e- 
 mail: Reservations@HotelDurant.com . Mention the workshop name and refer to confirmation 
 code: P50000 while making reservations. The cut-off date for reservations is January 5, 2007. 
  
-The Rose Garden Inn is also holding a block of rooms for us. Reservations may be made by 
+The Rose Garden Inn (at least 99 dollars) 
+is also holding a block of rooms for us. Reservations may be made by 
 calling 1-800-992-9005 OR visiting their website at: http://www.rosegardeninn.com/. Click on 
 Corporate at the bottom of the screen and when prompted enter code MATH (this code is not 
 case sensitive). By using this code a new calendar will appear and will show MSRI rates on all 
