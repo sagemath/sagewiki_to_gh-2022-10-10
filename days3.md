@@ -7,7 +7,7 @@
 
 == Registration ==
  * To register, first, add your name [:days3/reglist: here], and also make sure to register at the [https://www.ipam.ucla.edu/elements/choose.aspx?pc=sage2007 IPAM site]. 
- * Here are some [:days3/traveldetails: details] about travel, hotel, etc.
+ * Here are some [:days3/traveldetails: details] about travel, hotel, etc, and [http://www.ipam.ucla.edu/programs/sage2007/hotelinfosage2007.html here] are some specifics about the hotel at the IPAM site.
 
 == Planned schedule ==
  * Sat: Talks from 9-12, optional talks from 2-5
