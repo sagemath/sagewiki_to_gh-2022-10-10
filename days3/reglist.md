@@ -1,4 +1,4 @@
-== SAGE Days 3 Registered Participants ==
+= SAGE Days 3 Registered Participants =
 * William Stein
 * Nathan Ryan
 * David Joyner
