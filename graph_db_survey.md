@@ -65,3 +65,20 @@ Emily Kirkman is working on this project.
  * can use  to check properties
  * 13,598 graphs in the database (run empty query)
  * free, but closed source
+
+Notes from the author (Jason Grout):
+
+Version 1 (as reviewed above):
+ * Includes all graphs having 8 or fewer vertices.
+ * Uses MySQL on the backend and PHP scripts to query the database.
+ * Most data (graph parameters, subgraphs, etc.) in the first version was generated using a combination of the Mathematica Combinatorica package, Magma, Brendan !McKay's pickg program with various options, custom C programs, and shell scripts to translate things into SQL INSERT statements.
+ * Pictures were done using the graphviz software.
+ * PHP scripts and SQL source available (and usable in SAGE) upon request.
+ * Properties include degree sequence properties, spectrum properties, automorphism group properties, induced subgraph and forbidden subgraph properties, complements, standard graph invariants (girth, radius, clique number, connectivity, Eulerian, planar, perfect, etc.).  Each of these is query-able and displayable.
+ * Main identifier is BD !McKay's graph6 code.
+
+Version 2 (in progress and almost done as of January 2007):
+ * Will include all graphs up through 9 vertices (288,266 graphs).
+ * Data is being completely regenerated using Mathematica Combinatorica package, Magma, and other programs.  All programs used to do this are available upon request so they can be inspected for correctness.
+ * Database is being moved to SQLite and/or PostgreSQL.  The web interface will probably remain much the same.  A standalone [http://www.riverbankcomputing.co.uk/pyqt/ PyQT] front-end is also being developed (with GPL license by requirement of PyQT).
+ * SQLite database and SQL source available (and usable in SAGE) upon request.
