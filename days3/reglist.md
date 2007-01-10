@@ -1,5 +1,5 @@
 = SAGE Days 3 Registered Participants =
- * William Stein
+ * [:WilliamStein: William Stein]
  * Nathan Ryan
  * David Joyner
  * Kristin Lauter
