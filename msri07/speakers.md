@@ -4,7 +4,7 @@
   * [http://research.microsoft.com/~cohn/ Henry Cohn (Microsoft Research)]
   * [http://www.ccs.neu.edu/home/gene/ Gene Cooperman (Northeastern University)]
   * [http://www-math.mit.edu/~edelman/ Alan Edelman (MIT)]
-  * [http://txcorp.com Brian Granger  (Tech-X)]
+  * [http://txcorp.com Brian Granger  (Tech-X)] -- [:msri07/abstract/Granger: abstract]
   * [http://www.csm.ornl.gov/harrison.html Robert Harrison (Oak Ridge National Lab)]
   * [http://sage.math.washington.edu/home/wbhart/ Bill Hart (Warwick)]
   * [http://www.cs.berkeley.edu/~yozo/ Yozo Hida (UC Berkeley)]
