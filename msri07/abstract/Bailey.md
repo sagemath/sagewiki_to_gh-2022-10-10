@@ -1,4 +1,4 @@
-{{{Title:  Experimental Mathematics and High-Performance Computing
+==Title:  Experimental Mathematics and High-Performance Computing==
  
 Speaker:  David H Bailey, Lawrence Berkeley Lab
  
@@ -16,4 +16,4 @@ zeta sums; (4) the discovery of Apery-like formulas for the Riemann zeta
 function at integer arguments; and (5) the discovery of analytic evaluations
 and linear relations among certain classes of definite integrals that arise
 in mathematical physics.  The talk will include a live demo of the
-"experimental mathematician's toolkit".}}}
+"experimental mathematician's toolkit".
