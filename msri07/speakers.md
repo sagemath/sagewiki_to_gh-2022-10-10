@@ -6,7 +6,7 @@
   * [http://www-math.mit.edu/~edelman/ Alan Edelman (MIT)]
   * [http://txcorp.com Brian Granger  (Tech-X)] -- [:msri07/abstract/Granger: abstract]
   * [http://www.csm.ornl.gov/harrison.html Robert Harrison (Oak Ridge National Lab)]
-  * [http://sage.math.washington.edu/home/wbhart/ Bill Hart (Warwick)]
+  * [http://www.maths.warwick.ac.uk/~masfaw/ Bill Hart (Warwick)]
   * [http://www.cs.berkeley.edu/~yozo/ Yozo Hida (UC Berkeley)]
   * [http://www.math.jmu.edu/~martin/ Jason Martin (James Madison University)]
   * [http://www.csd.uwo.ca/~moreno/ Moreno Maza and Xie (Western Ontario)]
