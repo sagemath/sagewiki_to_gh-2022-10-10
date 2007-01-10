@@ -1,1 +1,3 @@
 If you would like to share a hotel room with another SD3 participant please leave your contact info here
+
+* Rishikesh rishikes@math.uwaterloo.ca
