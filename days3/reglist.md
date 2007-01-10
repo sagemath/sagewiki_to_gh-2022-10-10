@@ -1,12 +1,12 @@
 = SAGE Days 3 Registered Participants =
  * [:WilliamStein: William Stein]
  * Nathan Ryan
- * David Joyner
+ * [:David_Joyner: David Joyner]
  * Kristin Lauter
  * Craig Citro
- * Tom Boothby
+ * [:TomBoothby: Tom Boothby]
  * Nick Alexander
- * Martin Albrecht
+ * [:MartinAlbrecht: Martin Albrecht]
  * Rishikesh
  * [:IftikharBurhanuddin: Iftikhar Burhanuddin]
 
