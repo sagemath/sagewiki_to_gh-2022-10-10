@@ -14,4 +14,4 @@ Dear Participant, please enter your name and affiliation in alphabetical order h
 
  * [http://www.math.lsu.edu/~verrill/ Helena Verrill] (Lousianna State University, Mathematics)
 
-* Joe Weening (CCR, Research) 
+ * Joe Weening (CCR, Research) 
