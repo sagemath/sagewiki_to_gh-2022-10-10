@@ -10,7 +10,7 @@ Dear Participant, please enter your name and affiliation in alphabetical order h
 
  * [http://amath.colorado.edu/faculty/fperez/ Fernando Perez] (University of Colorado, Applied Math)
 
- * [http://sage.math.washington.edu William Stein] Chair (University of Washington, Mathematics)
+ * [http://sage.math.washington.edu William Stein] (University of Washington, Mathematics)
 
  * [http://www.math.lsu.edu/~verrill/ Helena Verrill] (Lousianna State University, Mathematics)
 
