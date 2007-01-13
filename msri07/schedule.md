@@ -15,7 +15,7 @@ The (FD) mark means 'fixed day', to indicate speakers who can only speak that da
   * Edelman can only speak on Friday Feb 2.
   * Kathy Yelick can only speak Tuesday.
   * Ilias S. Kotsireas (submitted talk) - I can fly in on Tuesday night (Jan 30) and fly out on Thursday night (Feb 1).
-  * Thomas Wolf and Winfred Neun - schedule talk Tuesday afternoon onwards
+  * Thomas Wolf and Winfred Neun - schedule talk Tuesday afternoon onward.
 
 
 ||Time ||<bgcolor="#e0e0ff">Monday Jan 29||<bgcolor="#e0e0ff">Tuesday  Jan 30 ||<bgcolor="#e0e0ff">Wednesday Jan 31||<bgcolor="#e0e0ff">Thursday Feb 1||<bgcolor="#e0e0ff">Friday Feb 2||
