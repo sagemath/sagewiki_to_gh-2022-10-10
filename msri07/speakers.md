@@ -5,7 +5,7 @@
   * [http://www.ccs.neu.edu/home/gene/ Gene Cooperman (Northeastern University)]
   * [http://www-math.mit.edu/~edelman/ Alan Edelman (MIT)]
   * [http://txcorp.com Brian Granger  (Tech-X)] -- [:msri07/abstract/Granger: abstract]
-  * [http://www.csm.ornl.gov/harrison.html Robert Harrison (Oak Ridge National Lab)]
+  * [http://www.csm.ornl.gov/ccsg/html/staff/harrison.html Robert Harrison (Oak Ridge National Lab)]
   * [http://www.maths.warwick.ac.uk/~masfaw/ Bill Hart (Warwick)]
   * [http://www.cs.berkeley.edu/~yozo/ Yozo Hida (UC Berkeley)]
   * [http://www.math.jmu.edu/~martin/ Jason Martin (James Madison University)]
