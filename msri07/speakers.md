@@ -1,6 +1,6 @@
 == Invited Speakers ==
 
-  * [http://crd.lbl.gov/~dhbailey/ David Bailey ( Lawrence Berkeley National Laboratory)] -- [:msri07/abstract/Bailey: abstract]
+  * [http://crd.lbl.gov/~dhbailey/ David Bailey ( Lawrence Berkeley National Lab)] -- [:msri07/abstract/Bailey: abstract]
   * [http://research.microsoft.com/~cohn/ Henry Cohn (Microsoft Research)]
   * [http://www.ccs.neu.edu/home/gene/ Gene Cooperman (Northeastern University)]
   * [http://www-math.mit.edu/~edelman/ Alan Edelman (MIT)]
