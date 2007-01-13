@@ -3,6 +3,8 @@
 Fridays 4-5pm in C401
 
  * Friday, Jan 19: William Stein -- SAGE 2.0 planning 
+
+ * Friday, Jan 19 (at 5pm): William Stein -- Tutorial introduction to using SAGE for the Modeling Contest (etc.)
   
  * Friday, Jan 26: TBA
  
