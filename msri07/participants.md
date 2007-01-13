@@ -1,3 +1,5 @@
+Dear Participany, please write your name and affiliation here:
+
 * [:IftikharBurhanuddin: Iftikhar Burhanuddin] (University of Southern California, Computer Science)
 
 * [http://www.cs.berkeley.edu/~demmel/ James Demmel] (UC Berkeley, Mathematics and Computer Science)
