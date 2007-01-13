@@ -1,5 +1,7 @@
 Dear Participant, please enter your name and affiliation in alphabetical order here:
 
+ * Joe Buhler (CCR, Research)
+
  * [:IftikharBurhanuddin: Iftikhar Burhanuddin] (University of Southern California, Computer Science)
 
  * [http://www.cs.berkeley.edu/~demmel/ James Demmel] (UC Berkeley, Mathematics and Computer Science)
