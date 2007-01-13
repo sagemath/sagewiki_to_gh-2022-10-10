@@ -1,4 +1,4 @@
-Dear Participany, please write your name and affiliation here:
+Dear Participant, please write your name and affiliation here:
 
 * [:IftikharBurhanuddin: Iftikhar Burhanuddin] (University of Southern California, Computer Science)
 
