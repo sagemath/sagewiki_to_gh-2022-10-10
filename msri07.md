@@ -13,3 +13,5 @@
    * [:msri07/hotel_visa_info: Accommodation and Visa Information]
 
    * [:msri07/participants: Participants]
+
+   * [:msri07/reading_list: Reading List]
