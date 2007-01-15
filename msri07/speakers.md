@@ -1,10 +1,12 @@
 == Invited Speakers ==
 
-  * [http://crd.lbl.gov/~dhbailey/ David Bailey ( Lawrence Berkeley National Lab)] -- [:msri07/abstract/Bailey: abstract]
+A complete list of abstracts for all of talks is available [:msri07/abstracts: here].
+
+  * [http://crd.lbl.gov/~dhbailey/ David Bailey ( Lawrence Berkeley National Lab)]
   * [http://research.microsoft.com/~cohn/ Henry Cohn (Microsoft Research)]
   * [http://www.ccs.neu.edu/home/gene/ Gene Cooperman (Northeastern University)]
   * [http://www-math.mit.edu/~edelman/ Alan Edelman (MIT)]
-  * [http://txcorp.com Brian Granger  (Tech-X)] -- [:msri07/abstract/Granger: abstract]
+  * [http://txcorp.com Brian Granger  (Tech-X)]
   * [http://www.csm.ornl.gov/ccsg/html/staff/harrison.html Robert Harrison (Oak Ridge National Lab)]
   * [http://www.maths.warwick.ac.uk/~masfaw/ Bill Hart (Warwick)]
   * [http://www.cs.berkeley.edu/~yozo/ Yozo Hida (UC Berkeley)]
