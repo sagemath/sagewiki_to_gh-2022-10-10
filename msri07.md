@@ -8,7 +8,7 @@
 
    * [:msri07/speakers: Invited Speakers]
 
-   * [:msri07/schedule: Schedule of talks]
+   * [:msri07/schedule: Schedule of talks] and [:msri07/abstracts: list of abstracts ]
 
    * [:msri07/hotel_visa_info: Accommodation and Visa Information]
 
