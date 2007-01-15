@@ -4,7 +4,7 @@ These are the abstracts for all the talks scheduled for the workshop, listed in 
 
 == Bailey: Experimental Mathematics and High-Performance Computing ==
  
-[http://www.icsi.berkeley.edu/~dbailey/ David H Bailey], Lawrence Berkeley Lab
+[http://crd.lbl.gov/~dhbailey/ David H Bailey], Lawrence Berkeley Lab
  
 Abstract:
  
