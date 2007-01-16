@@ -304,6 +304,10 @@ We have attempted to make a complete list of existing graph theory software.  We
     * Chromatic polynomial and chromatic number.
     * Network algorithms: Maximum network flow.
 
+===== EWS =====
+ [http://www.mathe2.uni-bayreuth.de/axel/ews.html Link]
+  . auf Deutsche
+
 ===== LINK =====
       I. [http://dimacs.rutgers.edu/~berryj/LINK.html (hyper)link]
          a. Free, but not open source
@@ -373,6 +377,9 @@ We have attempted to make a complete list of existing graph theory software.  We
 
 ==== And more ====
 These need to be organized...
+
+===== DISCRETA =====
+   [http://www.mathe2.uni-bayreuth.de/discreta/ Link]
 
 ===== GTL =====
    . The Graph Template Library, and extension of the STL... a few basic algorithms. see also [http://ceu.fi.udc.es/SAL/E/2/GRAPHLET.html Graphlet]
