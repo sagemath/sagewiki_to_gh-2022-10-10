@@ -10,15 +10,6 @@ Please note here changes you made and why, or other constraints, so that as we r
 The (FD) mark means 'fixed day', to indicate speakers who can only speak that day so you don't accidentally shuffle them out when reorganizing.  We'll remove these marks when we're done.
 
 
-'''Constraints'''
-
-  * Edelman can only speak on Friday Feb 2.
-  * Kathy Yelick can only speak Tuesday.
-  * Ilias S. Kotsireas (submitted talk) - I can fly in on Tuesday night (Jan 30) and fly out on Thursday night (Feb 1).
-  * Thomas Wolf and Winfred Neun - schedule talk Tuesday afternoon onward.
-  * Robert Harrison arrives Tuesday night.
-
-
 ||Time ||<bgcolor="#e0e0ff">Monday Jan 29||<bgcolor="#e0e0ff">Tuesday  Jan 30 ||<bgcolor="#e0e0ff">Wednesday Jan 31||<bgcolor="#e0e0ff">Thursday Feb 1||<bgcolor="#e0e0ff">Friday Feb 2||
 ||<bgcolor="#ffffe0">8:30 am ||[http://crd.lbl.gov/~dhbailey/ David Bailey] [:msri07/abstracts#head-c8fa9ab39c10acf8d90a7b02fbb259a435fc7bec:(A)]:[[BR]]''Experimental Mathematics and[[BR]] High-Performance Computing'' ||[http://www.cs.berkeley.edu/~yelick/ Kathy Yelick] (FD) ||[http://sage.math.washington.edu/home/wbhart/ Bill Hart] ||[http://www-id.imag.fr/Laboratoire/Membres/Roch_Jean-Louis/perso.html Jean-Louis Roch ]  ||[http://www-math.mit.edu/~edelman/ Alan Edelman] (FD)||
 ||<bgcolor="#ffffe0">9:30 am ||||||||||<bgcolor="#80ff80" style="text-align: center;">Coffee Break ||
