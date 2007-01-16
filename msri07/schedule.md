@@ -3,11 +3,6 @@
 The (A) and (S) marks below are respectively links to each speaker's abstract and slides, when available.
 
 
-== Notes for organizers ==
-
-Please note here changes you made and why, or other constraints, so that as we reorganize this we don't break previous things that had been done for a specific reason.
-
-The (FD) mark means 'fixed day', to indicate speakers who can only speak that day so you don't accidentally shuffle them out when reorganizing.  We'll remove these marks when we're done.
 
 
 ||Time ||<bgcolor="#e0e0ff">Monday Jan 29||<bgcolor="#e0e0ff">Tuesday  Jan 30 ||<bgcolor="#e0e0ff">Wednesday Jan 31||<bgcolor="#e0e0ff">Thursday Feb 1||<bgcolor="#e0e0ff">Friday Feb 2||
