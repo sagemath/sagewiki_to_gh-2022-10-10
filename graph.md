@@ -9,9 +9,12 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
 == Current Status ==
 
  * We are currently seeking possible additions to our [http://sage.math.washington.edu:9001/graph_survey survey] of existing graph theory software.
- * The initial [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] has begun.
- * On Friday, October 20th Robert Miller gave a [http://sage.math.washington.edu/home/rlmill/talk_2001-10-20/2006-10-20SAGE.pdf talk] about the state of affairs for existing software which shared a few benchmarks and discussed some implementation ideas.
- * Emily Kirkman has begun working on a database of common graphs.
+ * The initial [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] has proven that ["NetworkX"] is the solution for SAGE.
+ * On Friday, October 20th, Robert Miller gave a [http://sage.math.washington.edu/home/rlmill/talk_2001-10-20/2006-10-20SAGE.pdf talk] about the state of affairs for existing software which shared a few benchmarks and discussed some implementation ideas.
+ * Emily Kirkman (and soon Jason Grout (Brigham Young)) is working on a database of well-known graphs.
+ * Robert Miller has wrapped the basic functionality of NetworkX into SAGE's Graph class, and implemented plotting of graphs.
+ * Jim Morrow has expressed interest in using SAGE for his summer REU on graphs. Robert Miller is currently working on implementing some of the algorithms of this group.
+ * Chris Godsil (Waterloo) has expressed interest in helping design a more general discrete math package in SAGE!
 
 == Wiki Pages ==
 
