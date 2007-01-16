@@ -14,7 +14,7 @@ The main people working on this project are Emily Kirkman, Robert Miller and Bob
  * Emily Kirkman (and soon Jason Grout (Brigham Young)) is working on a database of well-known graphs.
  * Robert Miller has wrapped the basic functionality of NetworkX into SAGE's Graph class, and implemented plotting of graphs.
  * Jim Morrow has expressed interest in using SAGE for his summer REU on graphs. Robert Miller is currently working on implementing some of the algorithms of this group.
- * Chris Godsil (Waterloo) has expressed interest in helping design a more general discrete math package in SAGE!
+ * Chris Godsil (Waterloo) has expressed interest in helping design a more general discrete math package in SAGE, including perhaps an open source version of nauty.
 
 == Wiki Pages ==
 
