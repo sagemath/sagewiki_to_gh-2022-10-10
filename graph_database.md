@@ -17,34 +17,38 @@ Emily Kirkman is working on this project.
 
 = Graphs I Plan to Add =
 
-== Inherited from NetworkX ==
- *	Bipartite Generators
- *	Balanced tree
+== Recently Added: Info Coming Soon ==
  *	Barbell
  *	Circular ladder
- *	Dorogovstev golstev mendes graph
- *	Grid
- *	Hypercube
+ * 2d Grid
  *	Ladder
  *	Lollipop
  *	Path
  *	Bull
- *	Chvatal
- *	Cubical
- *	Desargues
  *	Diamond
  *	Dodecahedral
- *	Frucht
- *	Heawood
  *	House
  *	House x
  *	Icosahedral
  *	Krackhardt
- *	Moebius kantor
  *	Octahedral
+ *	Tetrahedral
+ *  Cubes
+
+
+== Inherited from NetworkX ==
+ *	Bipartite Generators
+ *	Balanced tree
+ *	Dorogovstev golstev mendes graph
+ *	Grid (n-dim)
+ *	Hypercube
+ *	Chvatal
+ *	Desargues
+ *	Frucht
+ *	Heawood
+ *	Moebius kantor
  *	Pappus
  *	Sedgewick
- *	Tetrahedral
  *	Truncated cube
  *	Truncated tetrahedron
  *	Tutte
@@ -54,7 +58,6 @@ Emily Kirkman is working on this project.
  * Generalized Petersen graphs
  * Petersen Graph family
  * Trees (Directed – not simple.  Maybe Balanced tree constructor and query isTree)
- * Cubes
  * Cayley (Requires Coloring)
 
 == Named Graphs ==
