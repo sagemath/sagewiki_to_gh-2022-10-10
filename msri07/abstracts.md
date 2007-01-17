@@ -130,7 +130,7 @@ system, I will also discuss how IPython's parallel computing
 capabilities can be used in that context.
 
 
-== Harrison -- Science at the petascale --- tools in the tool box. ==
+== Harrison -- Science at the petascale: tools in the tool box. ==
 
 [http://www.csm.ornl.gov/ccsg/html/staff/harrison.html Robert Harrison ] (Oak Ridge 
 National Lab)
