@@ -10,6 +10,7 @@
  * Rishikesh
  * [:IftikharBurhanuddin: Iftikhar Burhanuddin]
  * [:AlexClemesha: Alex Clemesha]
+ * Justin Walker
 
 Remember, your registration is NOT complete until you also register at the 
 [https://www.ipam.ucla.edu/elements/choose.aspx?pc=sage2007 IPAM registration page]!
