@@ -268,11 +268,18 @@ remaindering. This last problem raises the difficult problem of combining early 
 == Qiang -- Distributed Computing using SAGE ==
 [http://www.yiqiang.net/ Yi Qiang (UW)]
 
-The objective of this research project is to implement coarse grained
-distributed computation facilities into SAGE. My goal was to design and
-implement a distributed computing framework that offered SAGE users an easy and
-effective method of parallelizing computations. In the presentation I will demonstrate several sample use cases
-of how to leverage distributed computing in SAGE.
+
+Distributed SAGE (DSAGE) is a distributed computing framework for
+SAGE which allows users to easily parallelize computations and
+interact with them in a fluid and natural way. This talk will be
+focused on the design and implementation of the distributed computing
+framework in SAGE.  I will describe the application of the
+distributed computing framework to several problems, including the
+problem of integer factorization and distributed ray tracing.
+Demonstrations of using Distributed SAGE to tackle both problems will
+be given plus information on how to parallelize your own problems.  I
+will also talk about design issues and considerations that have been
+resolved or are yet unresolved in implementing Distributed SAGE.
 
 == Shishkina -- Variational Inequalities on Stratified Sets ==
 
