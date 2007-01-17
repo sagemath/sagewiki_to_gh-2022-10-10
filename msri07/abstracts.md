@@ -218,7 +218,7 @@ comparison to polynomial problems of the similar size.
 For several decades, researchers in the applied fields have had access
 to powerful linear algebra packages designed to run on massively
 parallel systems.  Libraries such as ScaLAPACK and PLAPACK provide a
-rich set of libraries (usually based on BLAS) for performing linear
+rich set of functions (usually based on BLAS) for performing linear
 algebra over single or double precision real or complex data.
 However, such libraries are of limited use to researchers in discrete
 mathematics who often need to compute with multi-precision data types.
