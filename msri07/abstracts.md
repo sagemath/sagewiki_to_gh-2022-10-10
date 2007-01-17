@@ -325,12 +325,6 @@ that any pair of two equations of a larger system can be processed in parallel.
 In the talk we will present the algorithm, show examples supporting the above
 statements and give a short demo.
 
-== Wong-Kew -- Global Analysis of Algorithms and the PvsNP-Completeness Problem ==
-[bi346@scn.org Richard Wong-Kew]
-
-References: Global Analysis Newton's Method,
-Kachian's Theorem, PvsNP-Completeness Problem.
-
 
 == Zafiris -- Geometric Characteristics of Trivariate Maps ==
 [ZafirisV@uhd.edu Vasilis Zafiris]
