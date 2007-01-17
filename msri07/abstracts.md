@@ -253,10 +253,9 @@ remaindering. This last problem raises the difficult problem of combining early 
 [http://www.yiqiang.net/ Yi Qiang (UW)]
 
 The objective of this research project is to implement coarse grained
-distributed computation facilities into SAGE. Our goal was to design and
-implement distributed computing facilities that offered SAGE users an easy and
-effective method of parallelizing computations that are "embarrassingly"
-parallelizable. In the presentation I will demonstrate several sample use cases
+distributed computation facilities into SAGE. My goal was to design and
+implement a distributed computing framework that offered SAGE users an easy and
+effective method of parallelizing computations. In the presentation I will demonstrate several sample use cases
 of how to leverage distributed computing in SAGE.
 
 == Shishkina -- Variational Inequalities on Stratified Sets ==
