@@ -71,9 +71,25 @@ access. Luckily, in many interesting cases, this is not difficult. We present a
 general software architecture and an early implementation of that architecture.
 
 
-== Edelman -- <TITLE> ==
+== Edelman -- Interactive Parallel Supercomputing: Today: MATLAB(r) and Python coming Cutting Edge: Symbolic Parallelism with  Mathematica(r) and MAPLE(r) ==
 [http://www-math.mit.edu/~edelman/ Alan Edelman (MIT)]
 
+Star-P is a unique technology offered by Interactive Supercomputing after
+nurturing at MIT. Star-P through its abstractions is solving the ease of use
+problem that has plagued supercomputing. Some of the innovative features of
+Star-P are the ability to program in MATLAB, hook in task parallel codes
+written using a processor free abstraction, hook in existing parallel codes,
+and obtain the performance that represents the HPC promise. All this is
+through a client/server interface. Other clients such as Python or R could
+be possible. The MATLAB, Python, or R becomes the "browser." Parallel
+computing remains challenging, compared to serial coding but it is now that
+much easier compared to solutions such as MPI. Users of MPI can plug in
+their previously written codes and libraries and continue forward in Star-P.
+
+Numerical computing is challenging enough in a parallel environment,
+symbolic computing will require even more research and more challenging
+problems to be solved. In this talk we will demonstrate the possibilities
+and the pitfalls.
 
 == Fateman -- polynomial multiplication ==
 
