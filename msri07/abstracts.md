@@ -266,9 +266,20 @@ I establish variational inequalities on a class of multistructures, called strat
 For stratified sets these problem have to combined with the geometry and the algebraic
 structure of the domain.
 
-== Roch -- <TITLE> ==
-[http://www-id.imag.fr/Laboratoire/Membres/Roch_Jean-Louis/perso.html Jean-Louis Roch 
-(France)]
+== Roch -- Processor oblivious parallel algorithms with provable performances: applications ==
+
+[http://www-id.imag.fr/Laboratoire/Membres/Roch_Jean-Louis/perso.html Jean-Louis Roch (France)]
+
+Based on a work-stealing schedule, the on-line coupling of two algorithms
+(one sequential; the other one recursive parallel and fine grain) enables
+the design of programs that scale with provable performances on various
+parallel architectures, from multi-core machines to heterogeneous grids,
+including processors with changing speeds. After presenting a generic scheme
+and framework, on top of the middleware KAAPI/Athapascan that efficiently
+supports work-stealing, we present practical applications such as: prefix
+computation, real time 3D-reconstruction, Chinese remainder modular lifting
+with early termination, data compression.
+
 
 == Tonchev -- Combinatorial designs and code synchronization ==
 
