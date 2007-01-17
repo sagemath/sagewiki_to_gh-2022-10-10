@@ -161,19 +161,6 @@ under contract DE-AC05-00OR22725 with Oak Ridge National Laboratory.
 == Hida -- <TITLE> ==
 [http://www.cs.berkeley.edu/~yozo/ Yozo Hida (UC Berkeley)]
 
-== Johnson-Leung -- Special values for abelian extensions of imaginary quadratic fields. ==
-
-[jenfns@brandeis.edu Jennifer Johnson-Leung]
-
-In the case of extensions of number fields, the equivariant Tamagawa number
-conjecture is best though of as a twisted, Galois equivariant class number
-formula. This conjecture is proved for abelian extensions of the rationals. I
-will summarize the current state of the problem for abelian extensions of
-imaginary quadratic fields. This is the only other large class of field
-extensions where substantive progress has been made. I will discuss the
-difficulties in other cases where I am hopeful that computational methods may
-prove fruitful
-
 == Khan -- Game Theoretical Solutions for Data Replication in Distributed Computing Systems ==
 
 [sakhan@cse.uta.edu Samee Khan]
