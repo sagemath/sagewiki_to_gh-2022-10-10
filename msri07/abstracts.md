@@ -211,19 +211,27 @@ out in C++ using MPI, draws ideas from both Buchberger algorithm and
 Faug\`{e}re's $F_4$. It exhibits better speedups for the Weyl algebra in
 comparison to polynomial problems of the similar size.
 
-== Martin -- A massively parallel library for arbitrary precision linear algebra over commutative rings ==
+== Martin -- MPMPLAPACK: The Massively Parallel Multi-Precision Linear Algebra Package ==
 
 [http://www.math.jmu.edu/~martin/ Jason Martin (James Madison University)]
 
-Although many good libraries already exist for performing fixed-precision
-linear algebra over the real or complex numbers in massively parallel
-environments, I am not aware of any standard libraries for performing
-multi-precision linear algebra over commutative rings on massively parallel
-systems. So, I am writing such a library. I would like the opportunity to
-briefly present my design decisions and get input from the audience as to what
-features would be most useful to the largest number of developers. My hope is
-to have a library that could be dropped in to projects such as SAGE, PARI,
-Macaulay 2, etc.
+For several decades, researchers in the applied fields have had access
+to powerful linear algebra packages designed to run on massively
+parallel systems.  Libraries such as ScaLAPACK and PLAPACK provide a
+rich set of libraries (usually based on BLAS) for performing linear
+algebra over single or double precision real or complex data.
+However, such libraries are of limited use to researchers in discrete
+mathematics who often need to compute with multi-precision data types.
+
+This talk will cover a massively parallel multi-precision linear
+algebra package that I am attempting to write.  The goal of this C/MPI
+library is to provide drop-in parallel functionality to existing
+number theory and algebraic geometry programs (such as Pari, Sage, and
+Macaulay2) while preserving enough flexibility to eventually become a
+full multi-precision version of PLAPACK.  I will describe some
+architectural assumptions, design descisions, and benchmarks made so
+far and actively solicit input from the audience (I'll buy coffee for
+the person who suggests the best alternative to the current name).
 
 == Maza-Xie -- <TITLE> ==
 [http://www.csd.uwo.ca/~moreno/ Moreno Maza and Xie (Western Ontario)]
