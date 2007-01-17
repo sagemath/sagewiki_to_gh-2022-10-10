@@ -252,8 +252,15 @@ the person who suggests the best alternative to the current name).
 == Maza-Xie -- <TITLE> ==
 [http://www.csd.uwo.ca/~moreno/ Moreno Maza and Xie (Western Ontario)]
 
-== Noel -- <TITLE> ==
+== Noel -- Structure and Representations of Real Reductive Lie Groups: A Computational Approach ==
+
 [http://www.math.umb.edu/~anoel/ Alfred Noel (UMass Boston / MIT)]
+
+I work with David Vogan (MIT) on the Atlas of Lie Groups and Representations. This is a project to make available information about representations of semi-simple Lie groups over real and p-adic fields. Of particular importance is the problem of the unitary dual: classifying all of the irreducible unitary representations of a given Lie group.
+
+I will present some of the main ideas behind the current and very preliminary version of the software. I will provide some examples also. Currently, we are developing sequential algorithms that are implemented in C++. However, because of time and space complexity we are slowly moving in the direction of parallel computation. For example, David Vogan is experimenting with multi-threads in the K-L polynomials computation module.
+
+This talk is in memory of Fokko du Cloux, the French mathematician who, until a few months ago, was the lead developer. He died this past November.
 
 == Pernet -- Parallelism perspectives for the LinBox library ==
 
