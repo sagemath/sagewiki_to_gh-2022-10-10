@@ -292,8 +292,23 @@ with code synchronization.  Algebraic constructions based on cyclic difference
 sets and finite geometry and algorithms for finding optimal difference systems
 of sets are discussed.
 
-== Verschelde -- <TITLE> ==
+== Verschelde -- Parallel Homotopy Algorithms to Solve Polynomial Systems ==
 [http://www.math.uic.edu/~jan/ Jan Verschelde (UIC)]
+
+A homotopy is a family of polynomial systems which defines a deformation
+from a system with known solutions to a system whose solutions are needed.
+Via dynamic load balancing we may distribute the solution paths so that a
+close to optimal speed up is achieved.  Polynomial systems -- such as the
+9-point problem in mechanical design leading to 286,760 paths -- whose
+solving required real supercomputers twenty years ago can now be handled
+by modest personal cluster computers, and soon by multicore multiprocessor
+workstations.  Larger polynomial systems however may lead to more
+numerical difficulties which may skew the timing results, so that
+attention must be given to "quality up" as well.  Modern homotopy methods
+consist of sequences of different families of polynomial systems so that
+not only the solution paths but also parametric polynomial systems must be
+exchanged frequently.
+
 
 == Wolf & Neun -- Parallel sparsening and simplification of systems of equations ==
 [ twolf@brocku.ca Thomas Wolf ]
