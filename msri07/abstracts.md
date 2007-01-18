@@ -128,8 +128,27 @@ using resources of the National Center for Computational Sciences, both
 under contract DE-AC05-00OR22725 with Oak Ridge National Laboratory.
 
 
-== Hart -- <TITLE> ==
+== Hart -- Parallel Computation in Number Theory ==
 [http://www.maths.warwick.ac.uk/~masfaw/ Bill Hart (Warwick)]
+
+
+This talk will have two sections. The first will
+introduce a new library for number theory which is
+under development, called FLINT. I will discuss the
+various algorithms already available in FLINT, compare
+them with similar implementations available elsewhere,
+and speak about what the future holds for FLINT, with
+the focus on parallel processing and integration into
+Pari and the SAGE package.
+
+The second part of the talk will focus on low level
+implementation details of parallel algorithms in
+number theory. In particular I will discuss the design
+decisions that we have made so far in the FLINT
+library to facilitate multicore and multiprocessor
+platforms.
+
+If time permits, there will be a live demonstration.
 
 == Hida -- <TITLE> ==
 [http://www.cs.berkeley.edu/~yozo/ Yozo Hida (UC Berkeley)]
