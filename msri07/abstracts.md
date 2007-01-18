@@ -34,22 +34,6 @@ concept of job generators, or custom-written tasks that generate other tasks
 and process their feedback. I would discuss this specifically in the context of
 integer factorization.
 
-== Bremner -- An evolutionary algorithm for finding an optimal basis of a subspace ==
-[bremmer@math.usask.ca Murray Bremner]
-
-We present an evolutionary algorithm for finding an optimal basis of the
-nullspace of a matrix over the rational numbers in the sense that the basis
-vectors have integral components with no common factor and the components are
-as small as possible. The algorithm employs a variation operator in which an
-existing basis is combined with one or more randomly generated bases and then
-filtered by a greedy algorithm to produce a better basis. For a dense random 5
-by 10 matrix we compare the algorithm to an exhaustive search.  For a dense
-random 10 by 20 matrix we test the algorithm with population sizes from 1
-to 10. Our third example is a sparse structured 120 by 90 matrix whose
-nullspace contains polynomial identities for a nonassociative algebra. The
-better bases located with this algorithm permit the automatic discovery of new
-algebraic identities with simple statements.
-
 == Cohn -- <TITLE> ==
 [http://research.microsoft.com/~cohn/ Henry Cohn (Microsoft Research)]
 
@@ -90,17 +74,6 @@ Numerical computing is challenging enough in a parallel environment,
 symbolic computing will require even more research and more challenging
 problems to be solved. In this talk we will demonstrate the possibilities
 and the pitfalls.
-
-== Fateman -- polynomial multiplication ==
-
-[fateman@cs.berkeley.edu Richard Fateman ]
-
-Dense polynomial multiplication can be reduced to (long) integer multiplication
-which can be reduced to FFT which can be done in parallel. Sparse multivariate
-polynomial multiplication cannot plausibly be reduced in this manner. Explicit
-representation of sparse polynomials by (distributed) hash tables provides a
-possible parallel technique. I'd like to hear discussion of this (or offer such
-comments myself.)  I hope an hour is too much time.
 
 == Granger -- Interactive Parallel Computing using Python and IPython ==
 
@@ -275,13 +248,6 @@ be given plus information on how to parallelize your own problems.  I
 will also talk about design issues and considerations that have been
 resolved or are yet unresolved in implementing Distributed SAGE.
 
-== Shishkina -- Variational Inequalities on Stratified Sets ==
-
-[ilina_dico@mail.ru Elina Shishkina]
-
-I establish variational inequalities on a class of multistructures, called stratified sets.
-For stratified sets these problem have to combined with the geometry and the algebraic
-structure of the domain.
 
 == Roch -- Processor oblivious parallel algorithms with provable performances: applications ==
 
@@ -352,24 +318,6 @@ shorten one equation with another one and a coarse grain parallelization in
 that any pair of two equations of a larger system can be processed in parallel.
 In the talk we will present the algorithm, show examples supporting the above
 statements and give a short demo.
-
-
-== Zafiris -- Geometric Characteristics of Trivariate Maps ==
-[ZafirisV@uhd.edu Vasilis Zafiris]
-
-Volume grid cells are usually constructed using a trivariate polynomial map
-defined on a reference domain. The simplest and most popular trivariate is the
-trilinear. The map and its Jacobian are represented in Bezier form and a
-pyramid algorithm is utilized to simultaneously compute points and geometric
-characteristics associated with the map. In addition, sufficient conditions are
-given for the positivity of the Jacobian determinant and an iterative algorithm
-for solving the inversion problem is derived. The convergence and the accuracy
-of numerical solutions to partial differential equations strongly depend on the
-geometric characteristics of the grids on which these solutions are
-computed. First and second order geometric characteristics for hexahedral
-volume grids cells are formulated and applied to evaluate the quality of
-three-dimensional grid structures. Examples measuring the Jacobian and the
-orthogonality of geologic grids are given.
 
 == Yelick -- <TITLE> ==
 [http://www.cs.berkeley.edu/~yelick/ Kathy Yelick (UC Berkeley)]
