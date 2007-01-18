@@ -299,7 +299,7 @@ A homotopy is a family of polynomial systems which defines a deformation
 from a system with known solutions to a system whose solutions are needed.
 Via dynamic load balancing we may distribute the solution paths so that a
 close to optimal speed up is achieved.  Polynomial systems -- such as the
-9-point problem in mechanical design leading to 286,760 paths -- whose
+9-point problem in mechanical design leading to 286,720 paths -- whose
 solving required real supercomputers twenty years ago can now be handled
 by modest personal cluster computers, and soon by multicore multiprocessor
 workstations.  Larger polynomial systems however may lead to more
