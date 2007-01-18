@@ -329,8 +329,7 @@ Groebner Basis computation. Such features are:
   * Statistical tests show that the probability of random polynomials to factorize increases drastically the fewer terms a polynomial has.
   * By experience the shortening of partial differential equations increases their chance to become ordinary differential equations which are usually easier to solve explicitly.
   * The likelihood of shortenings to be possible is especially high for large overdetermined systems. This is because the number of pairings goes quadratically with the number of equations but for overdetermined systems, more equations does not automatically mean more unknowns to occur which potentially obstruct shortening by introducing terms that can not cancel.
-  * The algorithm offers a fine grain parallelization in the computation to shorten one equation with another one and a coarse grain parallelization in that any pair of two equations of a larger system can be processed in parallel.  In the talk we will present the algorithm, show examples supporting the above
-statements and give a short demo.
+  * The algorithm offers a fine grain parallelization in the computation to shorten one equation with another one and a coarse grain parallelization in that any pair of two equations of a larger system can be processed in parallel.  In the talk we will present the algorithm, show examples supporting the above statements and give a short demo.
 
 == Yelick -- <TITLE> ==
 [http://www.cs.berkeley.edu/~yelick/ Kathy Yelick (UC Berkeley)]
