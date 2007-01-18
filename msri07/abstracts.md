@@ -323,34 +323,13 @@ order of pairing of equations for shortening but on the upside there are number
 of advantages that makes this procedure a perfect addition/companion to the
 Groebner Basis computation. Such features are:
 
-  - In contrast to Groebner Basis computations, this algorithm is safe in the
-sense that it does not need any significant amount of memory, even not
-temporarily.
-
-  - It is self-enforcing, i.e. the shorter equations become, the more useful
-  for shortening other equations they potentially get.
-
-  - Equations in a sparse system are less coupled and a cost effective
-elimination strategy (ordering) is much easier to spot (for humans and
-computers) than for a dense system.
-
-  - Statistical tests show that the probability of random polynomials to
-  factorize increases drastically the fewer terms a polynomial has.
-
-  - By experience the shortening of partial differential equations increases
-their chance to become ordinary differential equations which are usually easier
-to solve explicitly.
-
-  - The likelyhood of shortenings to be possible is especially high for large
-overdetermined systems. This is because the number of pairings goes
-quadratically with the number of equations but for overdetermined systems, more
-equations does not automatically mean more unknowns to occur which potentially
-obstruct shortening by introducing terms that can not cancel.
-
-  - The algorithm offers a fine grain parallelization in the computation to
-shorten one equation with another one and a coarse grain parallelization in
-that any pair of two equations of a larger system can be processed in parallel.
-In the talk we will present the algorithm, show examples supporting the above
+  * In contrast to Groebner Basis computations, this algorithm is safe in the sense that it does not need any significant amount of memory, even not temporarily.
+  * It is self-enforcing, i.e. the shorter equations become, the more useful for shortening other equations they potentially get.
+  * Equations in a sparse system are less coupled and a cost effective elimination strategy (ordering) is much easier to spot (for humans and computers) than for a dense system.
+  * Statistical tests show that the probability of random polynomials to factorize increases drastically the fewer terms a polynomial has.
+  * By experience the shortening of partial differential equations increases their chance to become ordinary differential equations which are usually easier to solve explicitly.
+  * The likelihood of shortenings to be possible is especially high for large overdetermined systems. This is because the number of pairings goes quadratically with the number of equations but for overdetermined systems, more equations does not automatically mean more unknowns to occur which potentially obstruct shortening by introducing terms that can not cancel.
+  * The algorithm offers a fine grain parallelization in the computation to shorten one equation with another one and a coarse grain parallelization in that any pair of two equations of a larger system can be processed in parallel.  In the talk we will present the algorithm, show examples supporting the above
 statements and give a short demo.
 
 == Yelick -- <TITLE> ==
