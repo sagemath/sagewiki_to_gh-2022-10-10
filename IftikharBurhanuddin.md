@@ -12,6 +12,10 @@ I am a SAGEvangelist and a graduate student at the University of Southern Califo
 
   http://modular.math.washington.edu/sage/doc/html/prog/index.html
 
+* Editing the SAGE reference manual (and build process?) in time for the release of sage-2.0 (plan)
+
+  http://sage.math.washington.edu/sage/doc/html/ref/index.html
+
 * Mestre's method of graphs project which started at the  [http://modular.math.washington.edu/msri06 MSRI Computing with Modular Forms] workshop. 
 
   Check out: 
