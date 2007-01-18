@@ -203,7 +203,7 @@ the Grobner bases computation in the Weyl algebra is much higher than in the
 computation.  We have developed an algorithm to perform such computation
 employing the master-slave paradigm. Our implementation, which has been carried
 out in C++ using MPI, draws ideas from both Buchberger algorithm and
-Faug\`{e}re's $F_4$. It exhibits better speedups for the Weyl algebra in
+Faugere's $F_4$. It exhibits better speedups for the Weyl algebra in
 comparison to polynomial problems of the similar size.
 
 == Martin -- MPMPLAPACK: The Massively Parallel Multi-Precision Linear Algebra Package ==
