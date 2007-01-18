@@ -21,3 +21,18 @@ Fridays 4-5pm in C401
  * Friday, March 9: TBA
 
  * Friday, March 16: TBA
+
+Things Martin Albrecht may talk about during his visit:
+{{{
+Hi everybody, 
+ 
+this is a list of stuff I could talk about. I didn't think those through, just 
+stuff that came to mind.
+ 
+ * Pyrex/SageX (I know e.g. Robert Miller wants to start hacking Pyrex to 
+    speed up the graph stuff)
+ * Wrap up of what happened at the MSRI workshop
+ * Algebraic attacks on block ciphers and Groebner bases in SAGE 
+ * Options for fast multivariate polynomial arithmetic in SAGE (CoCoALib, 
+    Singular, specialized implementations)
+}}}
