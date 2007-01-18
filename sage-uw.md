@@ -1,6 +1,6 @@
 == SAGE UW Seminar ==
 
-Fridays 4-5pm in C401
+Fridays 4-5pm in C401, at least -- probably more frequently!
 
  * Friday, Jan 19 (at 4pm): William Stein -- SAGE 2.0
 
