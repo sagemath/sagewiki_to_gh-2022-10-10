@@ -40,20 +40,7 @@ integer factorization.
 == Cooperman -- Disk-Based Parallel Computing: A New Paradigm ==
 [http://www.ccs.neu.edu/home/gene/ Gene Cooperman (Northeastern University)]
 
-Symbolic algebra problems are often characterized by intermediate swell. Hence,
-many computations are limited by space rather than by time.  Previously,
-practitioners were space-limited by the available aggregate RAM of a
-cluster. By using disk as the "new RAM", one can now consider computations that
-were previously unthinkable. Such a strategy takes advantage of the parallel
-I/O of the many local disks in a cluster. Note that 50 disks provide a parallel
-bandwidth of about 2.5 GB/s --- similar to the bandwidth of a single RAM
-subsystem. Hence, the local disks of a cluster provide many tens of terabytes
-of the new "disk-based RAM", while traditional physical RAM serves as a
-cache. Since disk ("disk-based RAM") has poor latency, any computation must be
-structured around algorithmic primitives that based on streaming
-access. Luckily, in many interesting cases, this is not difficult. We present a
-general software architecture and an early implementation of that architecture.
-
+One observes that 100 local commodity disks of an array have approximately the same streaming bandwidth as a single RAM subsystem. Hence, it is proposed to treat a cluster as if it were a single computer with tens of terabytes of data, and with RAM serving as cache for disk.  This makes feasible the solution of truly large problems that are currently space-limited.  We also briefly summarize other recent activities of our working group: lessons from supporting ParGAP and ParGCL; progress toward showing that 20 moves suffice to solve Rubik's cube; lessons about marshalling from support of ParGeant4 (parallelization of a million-line program at CERN); and experiences at the SCIEnce workshop (symbolic-computing.org), part of a 5-year, 3.2 million euro, European Union project.  Our new distributed checkpointing package now provides a distributed analog of a SAVE-WORKSPACE command, for use in component-based symbolic software, such as SAGE.
 
 == Edelman -- Interactive Parallel Supercomputing: Today: MATLAB(r) and Python coming Cutting Edge: Symbolic Parallelism with  Mathematica(r) and MAPLE(r) ==
 [http://www-math.mit.edu/~edelman/ Alan Edelman (MIT)]
