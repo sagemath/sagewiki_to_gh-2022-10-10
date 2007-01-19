@@ -228,19 +228,6 @@ architectural assumptions, design descisions, and benchmarks made so
 far and actively solicit input from the audience (I'll buy coffee for
 the person who suggests the best alternative to the current name).
 
-
----- /!\ '''Edit conflict - other version:''' ----
-== Maza-Xie -- Component-level Parallelization of Triangular Decompositions ==
-[http://www.csd.uwo.ca/~moreno/ Moreno Maza and Xie (Western Ontario)]
-
- We discuss the parallelization of algorithms for solving polynomial systems symbolically by way of triangular decompositions. We introduce a component-level parallelism for which the number of processors in use depends on the geometry of the solution set of the input system. Our long term goal is to achieve an efficient multi-level parallelism: coarse grained (component) level for tasks computing geometric objects in the solution sets, and medium/fine grained level for polynomial arithmetic such as GCD/resultant computation within each task.
- 
-        Component-level parallelism belongs to the class of dynamic irregular parallel applications, which leads us to address the following questions: How to discover and use geometrical information, at an early stage of the solving process, that would be favorable to component-level parallel execution and load balancing? How to use this level of parallel execution to effectively eliminate unnecessary computations? What implementation mechanisms are feasible?
- 
-        We report on the effectiveness of the approaches that we have applied, including "modular methods", "solving by decreasing order of dimension", "task cost estimation for guided scheduling". We have realized a preliminary implementation on a SMP using multiprocessed parallelism in Aldor and shared memory segments for data communication. Our experimentation shows promising speedups for some well-know problems. We expect that this speedup would add a multiple factor to the speedup of medium/fine grained level parallelization as parallel GCD/resultant computations.
-
-
----- /!\ '''Edit conflict - your version:''' ----
 == Maza-Xie -- Component-level Parallelization of Triangular Decompositions ==
 [http://www.csd.uwo.ca/~moreno/ Moreno Maza and Xie (Western Ontario)]
 
@@ -250,8 +237,6 @@ Component-level parallelism belongs to the class of dynamic irregular parallel a
 
 We report on the effectiveness of the approaches that we have applied, including "modular methods", "solving by decreasing order of dimension", "task cost estimation for guided scheduling". We have realized a preliminary implementation on a SMP using multiprocessed parallelism in Aldor and shared memory segments for data communication. Our experimentation shows promising speedups for some well-know problems. We expect that this speedup would add a multiple factor to the speedup of medium/fine grained level parallelization as parallel GCD/resultant computations.
 
-
----- /!\ '''End of edit conflict''' ----
 
 == Noel -- Structure and Representations of Real Reductive Lie Groups: A Computational Approach ==
 
