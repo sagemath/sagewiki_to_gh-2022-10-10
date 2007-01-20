@@ -12,6 +12,8 @@ At a minimum, make sure you are completely familiar with the following before th
 
 3. [http://www.llnl.gov/computing/tutorials/openMP/ OpenMP tutorial]
 
+4. [http://www.llnl.gov/computing/tutorials/mpi/ MPI Tutorial]
+
 == Optional Reading List ==
 
 1. [http://mail.python.org/pipermail/python-list/2006-May/382955.html List post about OpenMp and Python]
