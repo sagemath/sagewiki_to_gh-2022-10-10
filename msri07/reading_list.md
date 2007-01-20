@@ -14,14 +14,14 @@ At a minimum, make sure you are completely familiar with the following before th
 
 4. [http://www.llnl.gov/computing/tutorials/mpi/ MPI Tutorial]
 
-== Optional Reading List ==
+== Other Relevant Documents ==
+
+Skim or read as time permits:
+
+* [http://ocw.mit.edu/OcwWeb/Mathematics/18-337JSpring-2005/LectureNotes/index.htm Applied Parallel Computing Lectures]
+
+
+== Python-Related Reading List ==
 
 1. [http://mail.python.org/pipermail/python-list/2006-May/382955.html List post about OpenMp and Python]
 2. [http://aspn.activestate.com/ASPN/search?query=parallel&x=0&y=0&section=PYTHONCKBK&type=Subsection Python Parallel Recipes]
-
-
-== Other Relevant Documents ==
-
-Skim or read these as time permits:
-
-* [http://ocw.mit.edu/OcwWeb/Mathematics/18-337JSpring-2005/LectureNotes/index.htm Applied Parallel Computing Lectures]
