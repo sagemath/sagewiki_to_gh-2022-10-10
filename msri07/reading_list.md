@@ -1,8 +1,11 @@
 == Reading List ==
 
-At a minimum, make sure you are completely familiar with the following before the workshop:
+At a minimum, make sure you are completely familiar with the following before the workshop, in order:
 
-* [http://www.llnl.gov/computing/tutorials/pthreads/ POSIX Threads Programming]
+1. [http://www.llnl.gov/computing/tutorials/parallel_comp/ Introduction to Parallel Computing]
+
+2. [http://www.llnl.gov/computing/tutorials/pthreads/ POSIX Threads Programming]
+
 
 
 == Other Relevant Documents ==
