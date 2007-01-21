@@ -4,7 +4,7 @@ All participants at the MSRI Parallel Computation Workshop will be assumed to ha
 
 == Required Reading List ==
 
-At a minimum, make sure you are completely familiar with the following before the workshop, in order:
+At a minimum, make sure you read the following before the workshop, in order:
 
  1. [http://www.llnl.gov/computing/tutorials/parallel_comp/ Introduction to Parallel Computing]
 
