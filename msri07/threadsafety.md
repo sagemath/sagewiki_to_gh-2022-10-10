@@ -1,5 +1,4 @@
 
-
 = Problem: Thread Safety =
 
 SAGE includes the C/C++ libraries listed below.  For each library, determine whether or not (or to what extent) it is thread safe.
@@ -10,7 +9,11 @@ Thread-safeness: in a nutshell, refers an application's ability to execute multi
 
 
 == GMP: Arbitrary Precision Arithmetic Library ==
+
 == GSL: Gnu Scientific Library ==
+
+Yes, see [http://www.mail-archive.com/help-gsl@gnu.org/msg01001.html this post].
+
 == MPFR: Arbitrary precision real arithmetic ==
 == NTL: Number theory C++ library ==
 
