@@ -8,7 +8,7 @@ CPU times: user 7.24 s, sys: 0.06 s, total: 7.30 s
 Wall time: 12.16
 }}}
 
-'''Challenge''': On sage.math.washington.edu, compute all $a_p$ for p < 10^6 in less than 1 second wall time.
+'''Challenge''': On sage.math.washington.edu, make a list of all $a_n$ for $n < 10^6$ in less than 1 second wall time.
 
 See [:msri07/threadsafety: Thread Safety of the SAGE Libraries] for information about PARI thread safety. 
 
