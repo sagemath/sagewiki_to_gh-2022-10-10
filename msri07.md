@@ -15,3 +15,5 @@
    * [:msri07/participants: Participants]
 
    * [:msri07/reading_list: Reading List]
+
+   * [:msri07/problems: Problems]
