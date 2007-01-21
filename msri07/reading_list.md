@@ -23,10 +23,11 @@ Skim or read as time permits:
 
 == SAGE-Related Reading List ==
 
-Because of something called the ''Global Interpreter Lock'' (or GIL) in the Python ''interpreter'', threading is pretty useless for speeding up serious mathematical compute applications.  For multi-threaded programs to be truly useful for SAGE, they will have to be implemented entirely in C/C++/Fortran libraries and SageX extension modules in blocks of code that do not make any Python/C API   calls.  
+Because of something called the ''Global Interpreter Lock'' (or GIL) in the Python ''interpreter'', threading is pretty useless for speeding up serious mathematical compute applications.  For *multi-threaded* programs to be truly useful for SAGE computation, they will have to be implemented entirely in C/C++/Fortran libraries and SageX extension modules in blocks of code that do not make any Python/C API calls.  
 
  1. [http://ldp.paradoxical.co.uk/LDP/LGNET/107/pai.html Python threading tutorial]
  2. [http://docs.python.org/api/threads.html Discussion About the GIL in Python]
  3. [http://mail.python.org/pipermail/python-list/2006-May/382955.html List post about OpenMp and Python]
  4. [http://aspn.activestate.com/ASPN/search?query=parallel&x=0&y=0&section=PYTHONCKBK&type=Subsection Python Parallel Recipes]
  5. [http://poshmodule.sourceforge.net/ POSH -- Python object sharing; a way to get around using threads for what we need]
+ 6. [http://www.parallelpython.com/ Parallel Python -- is this useful for something? -- it's another way to get around threads]
