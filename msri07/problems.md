@@ -5,4 +5,6 @@
 [:msri07/threadsafety: Thread Safety of the SAGE Libraries]
 
 
+[:msri07/pthread_sagex: Add Pthread support to SageX]
+
 == General Computer Algebra Problems ==
