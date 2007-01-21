@@ -327,17 +327,3 @@ Groebner Basis computation. Such features are:
 
 == Yelick -- <TITLE> ==
 [http://www.cs.berkeley.edu/~yelick/ Kathy Yelick (UC Berkeley)]
-
-== Zhuang -- Parallel Implementation of Polyhedral Homotopy Methods ==
-[yzhuan1@math.uic.edu Yan Zhuang]
-
-Homotopy methods to solve polynomial systems are well suited for parallel
-computing because the solution paths defined by the homotopy can be tracked
-independently. For sparse polynomial systems, polyhedral methods give efficient
-homotopy algorithms. The polyhedral homotopy methods run in three stages: (1)
-compute the mixed volume; (2) solve a random coefficient start system; (3)
-track solution paths to solve the target system.  This paper is about how to
-parallelize the second stage in PHCpack. We use a static workload distribution
-algorithm and achieve a good speedup on the cyclic n-roots benchmark
-systems. Dynamic workload balancing leads to reduced wall times on large
-polynomial systems which arise in mechanism design.
