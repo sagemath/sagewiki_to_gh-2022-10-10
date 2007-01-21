@@ -4,10 +4,22 @@ In the abstract the problem of point counting modulo p, for lots of different p,
 {{{
 sage: E = EllipticCurve('37a')
 sage: time v=E.anlist(10^6, pari_ints=True)
-CPU times: user 3.05 s, sys: 0.07 s, total: 3.11 s
-Wall time: 3.17
+CPU times: user 7.24 s, sys: 0.06 s, total: 7.30 s
+Wall time: 12.16
 }}}
 
-'''Challenge''': On sage.math.washington.edu, compute all $a_p$ for p < 10^6 in less than 0.5 seconds wall time.
+'''Challenge''': On sage.math.washington.edu, compute all $a_p$ for p < 10^6 in less than 1 second wall time.
 
 See [:msri07/threadsafety: Thread Safety of the SAGE Libraries] for information about PARI thread safety. 
+
+
+MAGMA times, by the way:
+{{{
+sage: magma.version()
+
+sage: F = magma(E)
+sage: t = magma.cputime()
+sage: time v=F.TracesOfFrobenius(10^6)
+sage: magma.cputime(t)
+6.5
+}}}
