@@ -30,4 +30,4 @@ Because of something called the ''Global Interpreter Lock'' (or GIL) in the Pyth
  3. [http://mail.python.org/pipermail/python-list/2006-May/382955.html List post about OpenMp and Python]
  4. [http://aspn.activestate.com/ASPN/search?query=parallel&x=0&y=0&section=PYTHONCKBK&type=Subsection Python Parallel Recipes]
  5. [http://poshmodule.sourceforge.net/ POSH -- Python object sharing; a way to get around using threads for what we need]
- 6. [http://www.parallelpython.com/ Parallel Python -- is this useful for something? (or is it only stupid closed-source crap?) -- it's another way to get around threads]
+ 6. [http://www.parallelpython.com/ Parallel Python -- is this useful for something? (or is it only stupid closed-source poppycock?) -- it's another way to get around threads]
