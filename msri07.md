@@ -6,7 +6,7 @@ This is the wiki for [http://sage.math.washington.edu/msri07/ the MSRI 2007 work
 
    * [:msri07/reading_list: Reading List]
 
-   * [:msri07/problems: PROBLEM LIST]
+   * [:msri07/problems: Challenge Problems]
 
    * [http://groups.google.com/group/msri07-participants/topics Mailing List]
 
