@@ -19,7 +19,12 @@ cdef extern from "pthread.h":
 The file should be nicely documented, etc. 
 
 == 2. Create spyx files that illustrate how to use various threading constructs ==
+
+
+Illustrating calling into interesting C libraries, etc.
+
 Here's an example (you can paste this into foo.spyx, load it, and call go(10)):
+
 {{{
 cdef extern from "pthread.h":
     ctypedef int pthread_t       # actual type will be used by Pyrex below...
