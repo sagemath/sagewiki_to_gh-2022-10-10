@@ -18,7 +18,7 @@ At a minimum, make sure you are completely familiar with the following before th
 
 Skim or read as time permits:
 
-* [http://ocw.mit.edu/OcwWeb/Mathematics/18-337JSpring-2005/LectureNotes/index.htm Applied Parallel Computing Lectures]
+ 1. [http://ocw.mit.edu/OcwWeb/Mathematics/18-337JSpring-2005/LectureNotes/index.htm Applied Parallel Computing Lectures]
 
 
 == SAGE-Related Reading List ==
