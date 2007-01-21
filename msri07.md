@@ -3,6 +3,7 @@
 
    * The [http://sage.math.washington.edu/msri07/ workshop announcement]. 
 
+   * The [http://groups.google.com/group/msri07-participants/topics participant mailing list].
 
    * [:msri07_news: Relevant News]
 
