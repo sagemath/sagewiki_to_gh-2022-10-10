@@ -29,3 +29,4 @@ Because of something called the ''Global Interpreter Lock'' (or GIL) in the Pyth
  2. [http://docs.python.org/api/threads.html Discussion About the GIL in Python]
  3. [http://mail.python.org/pipermail/python-list/2006-May/382955.html List post about OpenMp and Python]
  4. [http://aspn.activestate.com/ASPN/search?query=parallel&x=0&y=0&section=PYTHONCKBK&type=Subsection Python Parallel Recipes]
+ 5. [http://poshmodule.sourceforge.net/ POSH -- Python object sharing; a way to get around using threads for what we need]
