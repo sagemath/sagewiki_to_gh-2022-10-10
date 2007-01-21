@@ -10,9 +10,9 @@ At a minimum, make sure you read the following before the workshop, in order:
 
  2. [http://www.llnl.gov/computing/tutorials/pthreads/ POSIX Threads Programming]
 
- 3. [http://www.llnl.gov/computing/tutorials/openMP/ OpenMP tutorial]
+ 3. [http://www.llnl.gov/computing/tutorials/mpi/ MPI Tutorial]
 
- 4. [http://www.llnl.gov/computing/tutorials/mpi/ MPI Tutorial]
+ 4. [http://www.llnl.gov/computing/tutorials/openMP/ OpenMP tutorial] and [http://gcc.gnu.org/projects/gomp/ GOMP]
 
 == Other Relevant Documents ==
 
