@@ -5,7 +5,7 @@
 
    * [:msri07/reading_list: Reading List]
 
-   * [:msri07/problems: Problem List]
+   * [:msri07/problems: PROBLEM LIST]
 
    * [http://sage.math.washington.edu/msri07/ Workshop announcement]
 
