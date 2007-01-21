@@ -21,6 +21,8 @@ Yes, see [http://www.mail-archive.com/help-gsl@gnu.org/msg01001.html this post].
 == OpenSSL: Secure networking ==
 
 == PARI: Number theory calculator ==
+"PARI is (more or less) thread-safe when compiled with --enable-tls" according to [http://pari.math.u-bordeaux.fr/archives/pari-dev-0609/msg00007.html this post]
+
 
 == Singular: fast commutative and noncommutative algebra ==
 Singular doesn't quite have a library mode yet.  But it also includes various libraries.
