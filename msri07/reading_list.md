@@ -12,13 +12,14 @@ At a minimum, make sure you read the following before the workshop, in order:
 
  3. [http://www.llnl.gov/computing/tutorials/mpi/ MPI Tutorial]
 
- 4. [http://www.llnl.gov/computing/tutorials/openMP/ OpenMP tutorial] and [http://gcc.gnu.org/projects/gomp/ GOMP]
 
 == Other Relevant Documents ==
 
 Skim or read as time permits:
 
- 1. [http://ocw.mit.edu/OcwWeb/Mathematics/18-337JSpring-2005/LectureNotes/index.htm Applied Parallel Computing Lectures]
+ 1. [http://www.llnl.gov/computing/tutorials/openMP/ OpenMP tutorial] and [http://gcc.gnu.org/projects/gomp/ GOMP]
+
+ 2. [http://ocw.mit.edu/OcwWeb/Mathematics/18-337JSpring-2005/LectureNotes/index.htm Applied Parallel Computing Lectures]
 
 
 == SAGE-Related Reading List ==
