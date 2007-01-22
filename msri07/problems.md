@@ -1,13 +1,14 @@
 = MSRI 2007 Parallel Computation Problem List =
 
-== SAGE-related Problems ==
+== Specific SAGE-related Problems ==
 
  * [:msri07/threadsafety: Thread Safety of the SAGE Libraries]
  * [:msri07/pthread_sagex: Add Pthread support to SageX]
  * [:msri07/anlist: Implementation in SAGE parallel computation of elliptic curve a_p for all p up to some bound]
 
-== Computer Algebra Problems ==
+== SAGE: General Problems ==
           	
+For each of the following, make remarks about how '''specific practical implementable''' parallel algorithms could be used to enhance SAGE.
 
   *Arithmetic in Global Commutative Rings
      *The ring ${Z}$ of Integers
