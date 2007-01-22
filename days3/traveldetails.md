@@ -6,4 +6,4 @@
 
  * Weather: The weather in February in LA is much like the weather in LA all year: 70 degrees and sunny. It will probably cool off in the evenings, so be prepared with a jacket or sweater. You should check weather.com or a similar source closer to the conference; [http://www.weather.com/weather/tenday/90095?from=36hr_fcst10DayLink_undeclared here] is a quick link for the next 10 days on campus.
 
- * The hotel is a brisk 15 minute walk from IPAM, and there's also a shuttle that runs back and forth (though I'm not yet sure about the situation on weekends). 
+ * The hotel is a brisk 15 minute walk from IPAM, and there's also a shuttle that runs during the week, and by request on the weekends. (We have a phone at IPAM we can use to request a return trip.) 
