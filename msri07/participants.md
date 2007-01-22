@@ -35,4 +35,5 @@ Dear Participant, please enter your name and affiliation in alphabetical order h
  * Ragan-Kelley, Benjamin L
  * Robinson, Eric Ian
  * Stapleton, James Robert
+ * [http://www.math.uic.edu/~jan Jan Verschelde] (University of Illinois at Chicago)
  * Voight, John Michael
