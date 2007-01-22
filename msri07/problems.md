@@ -8,6 +8,8 @@
 
 == General Computer Algebra Problems ==
 
+{{{
+
  {part}{I Algebra}
  {chapter}{ Arithmetic in Global Commutative Rings}
  {section}{ The ring $\@mathbb {Z}$ of Integers}
@@ -93,3 +95,5 @@
  {chapter}{ Cryptography}
  {chapter}{ Coding Theory}
  {chapter}{ Constants, functions and numerical computation}
+
+}}}
