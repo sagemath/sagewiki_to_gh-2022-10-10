@@ -9,8 +9,7 @@ Fridays 4-5pm in C401, at least -- probably more frequently!
  * Friday, Jan 26: Andrey Novoseltsev: ''PALP''
     PALP is a Package for Analyzing Lattice Polytopes, written by Maximilian Kreuzer and Harald Skarke during their work with reflexive polytopes, that appear in connection with toric varieties, Calabi-Yau manifolds, and string theory. It contains several command line applications written in C, is quite small and fast. Recently is was included into standard distribution of SAGE, together with lattice_polytope.py module that uses some of its functions. 
 
-I will talk about PALP itself, functions and structure of lattice_polytope.py
-module, and directions for improvement/development.
+    I will talk about PALP itself, functions and structure of lattice_polytope.py module, and directions for improvement/development.
  
  * Friday, Feb 2: TBA (I will be gone)
 
