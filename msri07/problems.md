@@ -6,11 +6,10 @@
  * [:msri07/pthread_sagex: Add Pthread support to SageX]
  * [:msri07/anlist: Implementation in SAGE parallel computation of elliptic curve a_p for all p up to some bound]
 
-== General Computer Algebra Problems ==
+== Computer Algebra Problems ==
 
 {{{
 
- {part}{I Algebra}
  {chapter}{ Arithmetic in Global Commutative Rings}
  {section}{ The ring $\@mathbb {Z}$ of Integers}
  {section}{ The ring $\@mathbb {Q}$ of Rational Numbers}
@@ -42,7 +41,10 @@
  {subsection}{ Matrix multiplication over Extensions of $\@mathbb {Z}$}
  {chapter}{ Noncommutative Rings}
  {chapter}{ Group Theory}
- {part}{II Arithmetic Geometry}
+}}}
+
+== Arithmetic Geometry Problems ==
+{{{
  {chapter}{ Groebner Basis Computation}
  {chapter}{ Elliptic Curves}
  {section}{ Generic elliptic curve operations}
@@ -66,9 +68,9 @@
  {subsubsection}{Nagell-Lutz}
  {subsubsection}{An $l$-adic algorithm}
  {subsubsection}{Another $l$-adic algorithm}
- {subsection}{ {7.3.10}Mordell-Weil via 2-descent}
- {subsection}{ {7.3.11}Saturation}
- {subsection}{ {7.3.12}Heegner points}
+ {subsection}{ Mordell-Weil via 2-descent}
+ {subsection}{ Saturation}
+ {subsection}{ Heegner points}
  {subsubsection}{Heegner discriminants}
  {subsubsection}{Heegner Hypothesis}
  {subsubsection}{Heegner point index and height}
@@ -87,7 +89,11 @@
  {section}{ Hecke operators on modular symbols}
  {section}{ Decomposition of spaces under the Hecke operators}
  {section}{ Trace formulas}
- {part}{III Other Topics}
+}}}
+
+== Other Topics Problems ==
+
+{{{
  {chapter}{ Computation of tables}
  {section}{ Elliptic curves}
  {section}{ Modular forms}
