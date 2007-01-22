@@ -7,99 +7,87 @@
  * [:msri07/anlist: Implementation in SAGE parallel computation of elliptic curve a_p for all p up to some bound]
 
 == Computer Algebra Problems ==
+          	
 
-{{{
-
- {chapter}{ Arithmetic in Global Commutative Rings}
- {section}{ The ring $\@mathbb {Z}$ of Integers}
- {section}{ The ring $\@mathbb {Q}$ of Rational Numbers}
- {section}{ Arbitrary Precision Real (and Complex) Numbers}
- {section}{ Univariate Polynomial Rings}
- {section}{ Number Fields}
- {section}{ Multivariate Polynomial Rings}
- {chapter}{ Arithmetic in Local Commutative Rings}
- {section}{ Univariate Power series rings}
- {section}{ $p$-adic numbers}
- {chapter}{ Linear Algebra}
- {section}{ Arithmetic of Vectors}
- {subsection}{ Addition}
- {subsection}{ Scalar Multiplication}
- {subsection}{ Vector times Matrix}
- {section}{ Rational reconstruction of a matrix}
- {section}{ Echelon form}
- {subsection}{ Echelon form over Finite Field}
- {subsection}{ Echelon form over $\@mathbb {Q}$}
- {subsection}{ Echelon form over Cyclotomic Fields}
- {subsection}{ Echelon form (Hermite form) over $\@mathbb {Z}$}
- {section}{Kernel}
- {subsection}{ Kernel over Finite Field}
- {subsection}{ Kernel over $\@mathbb {Q}$}
- {subsection}{ Kernel over $\@mathbb {Z}$}
- {section}{ Matrix multiplication}
- {subsection}{ Matrix multiplication over Finite Fields}
- {subsection}{ Matrix multiplication over $\@mathbb {Z}$}
- {subsection}{ Matrix multiplication over Extensions of $\@mathbb {Z}$}
- {chapter}{ Noncommutative Rings}
- {chapter}{ Group Theory}
-}}}
-
-== Arithmetic Geometry Problems ==
-{{{
- {chapter}{ Groebner Basis Computation}
- {chapter}{ Elliptic Curves}
- {section}{ Generic elliptic curve operations}
- {subsection}{ Group Law}
- {subsection}{ Invariants}
- {subsection}{ Division Polynomials}
- {section}{ Elliptic curves over finite fields}
- {subsection}{ Order of the group $E({\@mathbb {F}}_{p})$}
- {subsection}{ Order of the group $E({\@mathbb {F}}_{q})$}
- {subsection}{ Order of a point}
- {section}{ Elliptic curves over ${\@mathbb {Q}}$ - part I}
- {subsection}{ Birch and Swinnerton-Dyer Conjecture}
- {subsection}{ Fourier coefficients}
- {subsection}{ Canonical height of a point}
- {subsection}{ Order of a point}
- {subsection}{ Periods}
- {subsection}{ Tate's algorithm}
- {subsection}{ Conductor and Globally minimal model}
- {subsection}{ CPS height bound}
- {subsection}{ Torsion subgroup}
- {subsubsection}{Nagell-Lutz}
- {subsubsection}{An $l$-adic algorithm}
- {subsubsection}{Another $l$-adic algorithm}
- {subsection}{ Mordell-Weil via 2-descent}
- {subsection}{ Saturation}
- {subsection}{ Heegner points}
- {subsubsection}{Heegner discriminants}
- {subsubsection}{Heegner Hypothesis}
- {subsubsection}{Heegner point index and height}
- {section}{ Elliptic curves over ${\@mathbb {Q}}$ - part II}
- {subsection}{ Root number}
- {subsection}{ Special values of L-series}
- {subsection}{ $\# {\unhbox \voidb@x \hbox {{\fontencoding {OT2}\fontfamily {wncyr}\fontseries {m}\fontshape {n}\selectfont Sh}}}(E)$ bound}
- {subsection}{ Isogenies}
- {subsection}{ Attributes of primes}
- {subsection}{ $p$-adic height}
- {subsection}{ Modular Degree}
- {subsection}{ Modular Parameterization}
- {chapter}{ Hyperelliptic Curves}
- {chapter}{ Modular Forms}
- {section}{ Presentation of spaces of modular symbols}
- {section}{ Hecke operators on modular symbols}
- {section}{ Decomposition of spaces under the Hecke operators}
- {section}{ Trace formulas}
-}}}
-
-== Other Topics Problems ==
-
-{{{
- {chapter}{ Computation of tables}
- {section}{ Elliptic curves}
- {section}{ Modular forms}
- {section}{ Number fields}
- {chapter}{ Cryptography}
- {chapter}{ Coding Theory}
- {chapter}{ Constants, functions and numerical computation}
-
-}}}
+  *Arithmetic in Global Commutative Rings
+     *The ring ${Z}$ of Integers
+     *The ring ${Q}$ of Rational Numbers
+     *Arbitrary Precision Real (and Complex) Numbers
+     *Univariate Polynomial Rings
+     *Number Fields
+     *Multivariate Polynomial Rings
+  *Arithmetic in Local Commutative Rings
+     *Univariate Power series rings
+     *$p$-adic numbers
+  *Linear Algebra
+     *Arithmetic of Vectors
+          *Addition
+          *Scalar Multiplication
+          *Vector times Matrix
+     *Rational reconstruction of a matrix
+     *Echelon form
+          *Echelon form over Finite Field
+          *Echelon form over ${Q}$
+          *Echelon form over Cyclotomic Fields
+          *Echelon form (Hermite form) over ${Z}$
+     *Kernel
+          *Kernel over Finite Field
+          *Kernel over ${Q}$
+          *Kernel over ${Z}$
+     *Matrix multiplication
+          *Matrix multiplication over Finite Fields
+          *Matrix multiplication over ${Z}$
+          *Matrix multiplication over Extensions of ${Z}$
+  *Noncommutative Rings
+  *Group Theory
+  *Groebner Basis Computation
+  *Elliptic Curves
+     *Generic elliptic curve operations
+          *Group Law
+          *Invariants
+          *Division Polynomials
+     *Elliptic curves over finite fields
+          *Order of the group $E({{F}}_{p})$
+          *Order of the group $E({{F}}_{q})$
+          *Order of a point
+     *Elliptic curves over ${{Q}}$ - part I
+          *Birch and Swinnerton-Dyer Conjecture
+          *Fourier coefficients
+          *Canonical height of a point
+          *Order of a point
+          *Periods
+          *Tate's algorithm
+          *Conductor and Globally minimal model
+          *CPS height bound
+          *Torsion subgroup
+          *Nagell-Lutz
+          *An $l$-adic algorithm
+          *Another $l$-adic algorithm
+          *Mordell-Weil via 2-descent
+          *Saturation
+          *Heegner points
+          *Heegner discriminants
+          *Heegner Hypothesis
+          *Heegner point index and height
+     *Elliptic curves over ${{Q}}$ - part II
+          *Root number
+          *Special values of L-series
+          *Sha bound
+          *Isogenies
+          *Attributes of primes
+          *$p$-adic height
+          *Modular Degree
+          *Modular Parameterization
+  *Hyperelliptic Curves
+  *Modular Forms
+     *Presentation of spaces of modular symbols
+     *Hecke operators on modular symbols
+     *Decomposition of spaces under the Hecke operators
+     *Trace formulas
+  *Computation of tables
+     *Elliptic curves
+     *Modular forms
+     *Number fields
+  *Cryptography
+  *Coding Theory
+  *Constants, functions and numerical computation
