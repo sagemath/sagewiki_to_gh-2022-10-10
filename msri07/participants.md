@@ -19,3 +19,20 @@ Dear Participant, please enter your name and affiliation in alphabetical order h
  * Joe Weening (CCR, Research) 
 
  * Ilias Kotsireas, WLU, Canada 
+
+
+ * Acosta Jaramillo, Enrique 
+ * Albrecht, Martin 
+ * Bradshaw, Robert W.
+ * Citro, Craig Louis
+ * Clemesha, Alex 
+ * Guan, Yun 
+ * Harvey, David Michael
+ * Kantor, Joshua Matthew
+ * Leykin, Anton 
+ * Pernet, Clement 
+ * Piret, Katherine Wei
+ * Ragan-Kelley, Benjamin L
+ * Robinson, Eric Ian
+ * Stapleton, James Robert
+ * Voight, John Michael
