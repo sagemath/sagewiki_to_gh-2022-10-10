@@ -18,6 +18,7 @@ If you would like to share a hotel room with another SD3 participant please leav
  * Mon & Tue: Coding sprints, colloquium talk
  * Wed: Talks & wrap-up all day
  * [:days3/talks: More details]
+ * [:days3/proposed_talks: Proposed Talks]
 
 == Flyers and Posters ==
    * [http://modular.math.washington.edu/home/wdj/art/sd3-motivator-mozaic.jpg mozaic poster]
