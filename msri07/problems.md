@@ -6,9 +6,9 @@
  * [:msri07/pthread_sagex: Add Pthread support to SageX]
  * [:msri07/anlist: Implementation in SAGE parallel computation of elliptic curve a_p for all p up to some bound]
 
-== SAGE: General Problems ==
+== Parallel Implementations ==
           	
-For each of the following, make remarks about how '''specific practical implementable''' parallel algorithms could be used to enhance SAGE.
+For each of the following, make remarks about how '''specific practical implementable''' parallel algorithms could be used to enhance mathematics software libraries (e.g., SAGE).
 
   *Arithmetic in Global Commutative Rings
      *The ring ${Z}$ of Integers
