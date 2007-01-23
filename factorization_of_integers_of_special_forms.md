@@ -1,4 +1,4 @@
- 1. $a^n \pm 1$ for $a = 2, 3, 5, 6, 7, 10, 11, 12$ and large exponents n [http://homes.cerias.purdue.edu/~ssw/cun/index.html]
+ * $a^n \pm 1$ for $a = 2, 3, 5, 6, 7, 10, 11, 12$ and large exponents n [http://homes.cerias.purdue.edu/~ssw/cun/index.html]
  * $a^n \pm 1$ for $a ≤ 13$ and $a$ not a perfect number [http://wwwmaths.anu.edu.au/~brent/factors.html]
  * $2^n \pm 1$ for $1200 < n < 10000$ [http://www.euronet.nl/users/bota/medium-p.htm]
  * $10^n \pm 1$ for $n ≤ 100$ [http://www.swox.com/gmp/repunit.html]
