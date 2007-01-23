@@ -5,3 +5,4 @@
  * $p^p \pm 1$ where $p$ is a prime number and $p < 180$. [http://homes.cerias.purdue.edu/~ssw/bell/r1]
  * $2^{2^n} + 1$ (Fermat numbers) [http://www.prothsearch.net/fermat.html]
  * $2^{3^n} \pm 1$ [http://www.alpertron.com.ar/MODFERM.HTM] 
+ * Fibonacci numbers ($F_n$) and Lucas numbers ($L_n$) for $n < 10000$ [http://home.att.net/~blair.kelly/mathematics/fibonacci/]
