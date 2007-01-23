@@ -24,3 +24,5 @@
  * $12^n − 1$ where n is odd      n < 240  .....      .........          . . . . 152
                    n ≤ 240             n = 6k − 3 ≤ 477 .
  * $12^n + 1$                       L, M for                    . . . . 155
+
+ * $a^n \pm 1$ for $a ≤ 13$ and $a$ not a perfect number [http://wwwmaths.anu.edu.au/~brent/factors.html]
