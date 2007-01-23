@@ -4,3 +4,4 @@
  * $10^n \pm 1$ for $n ≤ 100$ [http://www.swox.com/gmp/repunit.html]
  * $p^p \pm 1$ where $p$ is a prime number and $p < 180$. [http://homes.cerias.purdue.edu/~ssw/bell/r1]
  * $2^{2^n} + 1$ (Fermat numbers) [http://www.prothsearch.net/fermat.html]
+ * $2^{3^n} \pm 1$ [http://www.alpertron.com.ar/MODFERM.HTM] 
