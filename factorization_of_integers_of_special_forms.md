@@ -1,28 +1,2 @@
- * $2^n − 1$ where n is odd
- * $2^n + 1$ where n is odd
- * $2^n + 1$ where n = 4k − 2
- * $2^n + 1$ where n = 4k
- * $3^n − 1$ where n is odd      n < 540  .....      .........          . . . . 60
-                   n ≤ 540             n = 6k − 3 ≤ 1077
- * $3^n + 1$                       L, M for                    . . . . 66
- * $5^n − 1$ where n is odd                 L, M for n = 10k − 5 ≤ 745 . . . .
-                   n < 375                                         86
-                   n ≤ 375
- * $5^n + 1$                     ..................                     94
- * $6^n − 1$ where n is odd      n < 330  . . . . . . . . . . . . . . . . . . 102
-                   n ≤ 330    L, M for n = 12k − 6 ≤ 654 . . . . 106
- * $6^n + 1$
- * $7^n − 1$ where n is odd      n < 300  . . . . . . . . . . . . . . . . . . 116
-                   n ≤ 300    L, M for n = 14k − 7 ≤ 595 . . . . 120
- * $7^n + 1$
- * $10^n − 1$ where n is odd      n < 330  .....      .........          . . . . 129
-                   n ≤ 330             n = 20k − 10 ≤ 650
- * $10^n + 1$                       L, M for                    . . . . 133
- * $11^n − 1$ where n is odd      n < 240  .....      .........          . . . . 142
-                   n ≤ 240             n = 22k − 11 ≤ 473
- * $11^n + 1$                       L, M for                    . . . . 145
- * $12^n − 1$ where n is odd      n < 240  .....      .........          . . . . 152
-                   n ≤ 240             n = 6k − 3 ≤ 477 .
- * $12^n + 1$                       L, M for                    . . . . 155
-
+ * $b^n \pm 1$ for $b = 2, 3, 5, 6, 7, 10, 11, 12$ and large exponents n [http://homes.cerias.purdue.edu/~ssw/cun/index.html]
  * $a^n \pm 1$ for $a ≤ 13$ and $a$ not a perfect number [http://wwwmaths.anu.edu.au/~brent/factors.html]
