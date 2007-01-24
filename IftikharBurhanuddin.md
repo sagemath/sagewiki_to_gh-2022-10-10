@@ -45,4 +45,6 @@ I am a SAGEvangelist and a graduate student at the University of Southern Califo
 
   Research Statement http://sage.math.washington.edu/home/burhanud/job_app/restat.pdf
 
+* Make wikipage about Talks related to SAGE (plan)
+
 CategoryHomepage
