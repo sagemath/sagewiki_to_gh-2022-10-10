@@ -1,28 +1,28 @@
-Dear Participant, please enter your name and affiliation in alphabetical order here:
+Dear Participant, please enter your * Last name, First name (affiliation), in alphabetical order (last name) here:
 
  * Acosta Jaramillo, Enrique 
 
  * Albrecht, Martin 
 
- * Joe Buhler (CCR, Research)
+ * Buhler, Joe (CCR, Research)
 
  * Bradshaw, Robert W.
 
- * [:IftikharBurhanuddin: Iftikhar Burhanuddin] (University of Southern California, Computer Science)
+ * [:IftikharBurhanuddin: Burhanuddin, Iftikhar] (University of Southern California, Computer Science)
 
  * Citro, Craig Louis
 
  * Clemesha, Alex 
 
- * [http://www.cs.berkeley.edu/~demmel/ James Demmel] (UC Berkeley, Mathematics and Computer Science)
+ * [http://www.cs.berkeley.edu/~demmel/ Demmel, James] (UC Berkeley, Mathematics and Computer Science)
 
- * [http://homepage.mac.com/ehgoins/ Edray Goins] (Purdue University, Mathematics)
+ * [http://homepage.mac.com/ehgoins/ Goins, Edray] (Purdue University, Mathematics)
 
  * Guan, Yun 
 
  * Harvey, David Michael
 
- * [http://www.math.ncsu.edu/~kaltofen/index.html Erich Kaltofen] (North Carolina State University, Mathematics)
+ * [http://www.math.ncsu.edu/~kaltofen/index.html Kaltofen, Erich] (North Carolina State University, Mathematics)
 
  * Kantor, Joshua Matthew
 
@@ -30,7 +30,7 @@ Dear Participant, please enter your name and affiliation in alphabetical order h
 
  * Leykin, Anton 
 
- * [http://amath.colorado.edu/faculty/fperez/ Fernando Perez] (University of Colorado, Applied Math)
+ * [http://amath.colorado.edu/faculty/fperez/ Perez, Fernando] (University of Colorado, Applied Math)
 
  * Pernet, Clement 
 
@@ -42,13 +42,12 @@ Dear Participant, please enter your name and affiliation in alphabetical order h
 
  * Stapleton, James Robert
 
+ * [http://sage.math.washington.edu Stein, William] (University of Washington, Mathematics)
 
- * [http://sage.math.washington.edu William Stein] (University of Washington, Mathematics)
+ * Weening, Joe (CCR, Research) 
 
- * Joe Weening (CCR, Research) 
+ * [http://www.math.lsu.edu/~verrill/ Verrill, Helena] (Lousianna State University, Mathematics)
 
- * [http://www.math.lsu.edu/~verrill/ Helena Verrill] (Lousianna State University, Mathematics)
-
- * [http://www.math.uic.edu/~jan Jan Verschelde] (University of Illinois at Chicago)
+ * [http://www.math.uic.edu/~jan Verschelde, Jan] (University of Illinois at Chicago)
 
  * Voight, John Michael
