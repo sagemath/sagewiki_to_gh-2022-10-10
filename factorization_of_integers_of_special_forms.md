@@ -7,3 +7,4 @@
  * $2^{3^n} \pm 1$ [http://www.alpertron.com.ar/MODFERM.HTM] 
  * Fibonacci numbers ($F_n$) and Lucas numbers ($L_n$) for $n < 10000$ [http://home.att.net/~blair.kelly/mathematics/fibonacci/]
  * $n*2^n \pm 1$ (Cullen and Woodall numbers) [http://www.leyland.vispa.com/numth/factorization/cullen_woodall/cw.htm]
+ * Euclid's numbers [http://en.wikipedia.org/wiki/Sylvester's_sequence#Divisibility_and_factorizations]
