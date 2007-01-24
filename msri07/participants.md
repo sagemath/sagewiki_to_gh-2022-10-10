@@ -1,4 +1,4 @@
-Dear Participant, please enter your * Last name, First name (affiliation), in alphabetical order (last name) here:
+Dear Participant, please enter: * Last name, First name (affiliation), in alphabetical order (last name) here:
 
  * Acosta Jaramillo, Enrique 
 
