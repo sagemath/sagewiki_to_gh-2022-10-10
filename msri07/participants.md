@@ -24,6 +24,8 @@ Dear Participant, please enter: * Last name, First name (affiliation), in alphab
 
  * [http://www.math.ncsu.edu/~kaltofen/index.html Kaltofen, Erich] (North Carolina State University, Mathematics)
 
+ * Kane, Ben (University of Wisconsin - Madison, Mathematics)
+
  * Kantor, Joshua Matthew
 
  * Kotsireas, Ilias (WLU, Canada)
