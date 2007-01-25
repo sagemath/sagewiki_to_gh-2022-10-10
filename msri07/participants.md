@@ -30,6 +30,8 @@ Dear Participant, please enter: * Last name, First name (affiliation), in alphab
 
  * Leykin, Anton 
 
+ * Neun, Winfried (Zuse Institute Berlin, Germany)
+
  * [http://amath.colorado.edu/faculty/fperez/ Perez, Fernando] (University of Colorado, Applied Math)
 
  * Pernet, Clement 
