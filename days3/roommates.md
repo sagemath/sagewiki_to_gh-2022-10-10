@@ -4,3 +4,7 @@ If you would like to share a hotel room with another SD3 participant please leav
  * Rishikesh [rishikesh (AT) math.uwaterloo.ca]     I have reserved a room in the hotel.
 
  * Robert M [rlmill (AT) math.washington.edu]     I need a roommate, and have not reserved a room yet.
+
+
+ * Yi Qiang [yqiang at gmail.com] I am looking for someone to room share with from 02/16/07 to 02/18/07 for SD3.  If you are going to be going for only the weekend and want  
+to split a room, please email me.
