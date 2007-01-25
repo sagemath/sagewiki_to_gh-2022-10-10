@@ -15,7 +15,8 @@ Fridays 4-5pm in C401, at least -- probably more frequently!
 
  * Friday, Feb 9: TBA (I will be gone)
 
- * Friday, Feb 16: TBA (I will be gone)
+ * Feb 12,13,14,15: SAGE WEEK!
+    Talks 9-10 and 4-5 every day in CMU B027 except 2/13 when the 9am talk will be in C401. 
 
  * Friday, Feb 23: TBA
 
