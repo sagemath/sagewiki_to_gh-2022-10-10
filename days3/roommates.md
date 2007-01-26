@@ -11,4 +11,4 @@ If you would like to share a hotel room with another SD3 participant please leav
                                     If you are going to be going for only the weekend and want to split a room please email me.
 
                                       
- * Josh Kantor - I have a room free on the 17-th and 18-th 
+ * Josh Kantor - I have a room free on the 17-th and 18-th [jkantor (AT) math.washington.edu]
