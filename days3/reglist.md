@@ -9,6 +9,7 @@
  * [:AlexClemesha: Alex Clemesha]
  * Marcus Hodges
  * [:David_Joyner: David Joyner]
+ * Joshua Kantor
  * Kristin Lauter
  * Bobby Moretti
  * Robert Miller
