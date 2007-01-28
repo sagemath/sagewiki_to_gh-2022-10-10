@@ -8,6 +8,8 @@ Dear Participant, please enter: * Last name, First name (affiliation), in alphab
 
  * Bradshaw, Robert W.
 
+ * Bremner, Murray R. (University of Saskatchewan)
+
  * [:IftikharBurhanuddin: Burhanuddin, Iftikhar] (University of Southern California, Computer Science)
 
  * Citro, Craig Louis
