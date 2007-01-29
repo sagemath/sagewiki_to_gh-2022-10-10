@@ -25,7 +25,7 @@ Dear Participant, please enter:
 
  * Guan, Yun 
 
- * Adrian Gusa
+ * Gusa, Adrian
 
  * Harvey, David Michael
 
