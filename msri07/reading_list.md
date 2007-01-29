@@ -17,6 +17,8 @@ At a minimum, make sure you read the following before the workshop, in order:
 
 Skim or read as time permits:
 
+ 1. [http://modular.math.washington.edu/msri07/read/ Miscellaneous Papers and Files]
+
  1. [http://www.llnl.gov/computing/tutorials/openMP/ OpenMP tutorial] and [http://gcc.gnu.org/projects/gomp/ GOMP]
 
  2. [http://ocw.mit.edu/OcwWeb/Mathematics/18-337JSpring-2005/LectureNotes/index.htm Applied Parallel Computing Lectures]
