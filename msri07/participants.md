@@ -1,4 +1,5 @@
-Dear Participant, please enter: * Last name, First name (affiliation), in alphabetical (based on last name) order  here:
+Dear Participant, please enter:
+  {{{ * Last name, First name (affiliation),}}} in alphabetical (based on last name) order  here:
 
  * Acosta Jaramillo, Enrique 
 
@@ -23,6 +24,8 @@ Dear Participant, please enter: * Last name, First name (affiliation), in alphab
  * Fearnley, Jack     jack@alcor.concordia.ca
 
  * Guan, Yun 
+
+ * Adrian Gusa
 
  * Harvey, David Michael
 
