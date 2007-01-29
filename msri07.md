@@ -16,4 +16,4 @@ This is the wiki for [http://sage.math.washington.edu/msri07/ the MSRI 2007 work
 
    * [:msri07/participants: Participant List]
 
-   * [:msri07/schedule: Schedule of talks] and [:msri07/abstracts: list of abstracts ]
+   * [:msri07/schedule: Schedule of talks and slides] and [:msri07/abstracts: list of abstracts ]
