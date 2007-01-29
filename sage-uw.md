@@ -17,6 +17,15 @@ Fridays 4-5pm in C401, at least -- probably more frequently!
 
  * Feb 12,13,14,15: SAGE WEEK!
     Talks 9-10 and 4-5 every day in CMU B027 except 2/13 when the 9am talk will be in C401. 
+    * Monday, Feb 12, A.M.:
+    * Monday, Feb 12, P.M.:
+    * Tuesday, Feb 13, A.M.:
+    * Tuesday, Feb 13, P.M.:
+    * Wednesday, Feb 14, A.M.:
+    * Wednesday, Feb 14, P.M.:
+    * Thursday, Feb 15, A.M.: Robert Miller and Emily Kirkman -- Formal Introduction to the Graph Theory Package
+    * Thursday, Feb 15, P.M.:
+
 
  * Friday, Feb 23: TBA
 
