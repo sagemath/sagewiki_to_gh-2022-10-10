@@ -6,6 +6,7 @@
  * [:msri07/pthread_sagex: Add Pthread support to SageX]
  * [:msri07/anlist: Implementation in SAGE parallel computation of elliptic curve a_p for all p up to some bound]
  * [:msri07/matrixadd: Implementation in SAGE matrix ADDITION over the rational numbers (say) using a multithreaded approach.]
+ * [:msri07/pointcount: Brute force count points on a variety over a finite field in parallel.]
 
 == Parallel Implementations ==
           	
