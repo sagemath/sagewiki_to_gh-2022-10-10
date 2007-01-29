@@ -1,7 +1,7 @@
 Dear Participant, please enter:
   {{{ * Last name, First name (affiliation),}}} in alphabetical (based on last name) order  here:
 
- * Acosta Jaramillo, Enrique 
+ 1. Acosta Jaramillo, Enrique 
 
  * Albrecht, Martin 
 
