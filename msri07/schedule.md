@@ -8,9 +8,9 @@ Please see [http://modular.math.washington.edu/msri07/schedule.html the HTML sch
 
 Theme: What do we want and what can we expect from applying parallel techniques to pure mathematics research tools?
 
-   * 9:00 Clement Pernet (University of Waterloo): Parallelism perspectives for the LinBox library [http://sage.math.washington.edu/~jvoight/msri07/pernet.pdf PDF]
+   * 9:00 Clement Pernet (University of Waterloo): Parallelism perspectives for the LinBox library [attachment:pernet.pdf PDF slides]
 
-   * 10:30 Brian Granger (Tech X Corp): Interactive parallel computing using Python and IPython [attachment:GrangerMSRI.pdf PDF of talk].  [attachment:GrangerMSRIdemo.ipy Demo file].
+   * 10:30 Brian Granger (Tech X Corp): Interactive parallel computing using Python and IPython [attachment:GrangerMSRI.pdf PDF slides] [attachment:GrangerMSRIdemo.ipy Demo].
 
    * 11:30 Jean-Louis Roch (ID-IMAG, France): Processor-oblivious parallel algorithms with provable performances
 
