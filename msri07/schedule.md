@@ -10,7 +10,7 @@ Theme: What do we want and what can we expect from applying parallel techniques 
 
    * 9:00 Clement Pernet (University of Waterloo): Parallelism perspectives for the LinBox library [http://sage.math.washington.edu/~jvoight/msri07/pernet.pdf PDF]
 
-   * 10:30 Brian Granger (Tech X Corp): Interactive parallel computing using Python and IPython
+   * 10:30 Brian Granger (Tech X Corp): Interactive parallel computing using Python and IPython [attachment:GrangerMSRI.pdf PDF of talk].
 
    * 11:30 Jean-Louis Roch (ID-IMAG, France): Processor-oblivious parallel algorithms with provable performances
 
