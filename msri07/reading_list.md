@@ -23,6 +23,14 @@ Skim or read as time permits:
 
  2. [http://ocw.mit.edu/OcwWeb/Mathematics/18-337JSpring-2005/LectureNotes/index.htm Applied Parallel Computing Lectures]
 
+ 3. [http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf Alternatives to threads]
+
+ 4. [http://www.erlang.org/ Erlang programming language]
+
+ 5. [http://erights.org/ E programming language]
+
+ 6. [http://twistedmatrix.com/projects/core/documentation/howto/async.html About Twisted's Deferred Objects]
+
 
 == SAGE-Related Reading List ==
 
