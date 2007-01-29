@@ -5,6 +5,7 @@
  * [:msri07/threadsafety: Thread Safety of the SAGE Libraries]
  * [:msri07/pthread_sagex: Add Pthread support to SageX]
  * [:msri07/anlist: Implementation in SAGE parallel computation of elliptic curve a_p for all p up to some bound]
+ * [:msri07/matrixadd: Implementation in SAGE matrix ADDITION over the rational numbers (say) using a multithreaded approach.]
 
 == Parallel Implementations ==
           	
