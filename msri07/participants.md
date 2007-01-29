@@ -19,6 +19,8 @@ Dear Participant, please enter: * Last name, First name (affiliation), in alphab
  * [http://www.cs.berkeley.edu/~demmel/ Demmel, James] (UC Berkeley, Mathematics and Computer Science)
 
  * [http://homepage.mac.com/ehgoins/ Goins, Edray] (Purdue University, Mathematics)
+ 
+ * Fearnley, Jack     jack@alcor.concordia.ca
 
  * Guan, Yun 
 
