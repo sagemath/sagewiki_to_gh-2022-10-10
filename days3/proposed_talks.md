@@ -2,7 +2,7 @@
 
  * [:MartinAlbrecht: Martin Albrecht]
  * Nick Alexander
- * Gregory Bard -- liner algebra over GF(2) and the "Method of the four Russians" Inversion (M4RI)
+ * Gregory Bard -- "The Method of Four Russians for Matrix Inverses and Factorization"
  * [:TomBoothby: Tom Boothby]
  * [:IftikharBurhanuddin: Iftikhar Burhanuddin] -- I could speak on the SupersingularModule during SD3. My plan is to speed up some of the internals between now and SD3, run computation, and give an update on what has happened since august --- msri06, the summer grad workshop on computing with modular forms.
  * Jason Grout
