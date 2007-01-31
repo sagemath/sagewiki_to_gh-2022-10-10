@@ -12,3 +12,5 @@
  * C versus C++: why? which?
 
  * benchmark...
+ 
+ * boinc -- can it be used???
