@@ -8,3 +8,5 @@
      - job queue
      - sleep/wake
      - when to use
+
+ * C versus C++: why? which?
