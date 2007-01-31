@@ -14,3 +14,5 @@
  * benchmark...
  
  * boinc -- can it be used???
+
+ * dsage compared to ipython
