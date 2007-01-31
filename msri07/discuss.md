@@ -2,4 +2,4 @@
 
  * GPL versus BSD
 
- * OpenMP
+ * OpenMP -- why not discussed much here. 
