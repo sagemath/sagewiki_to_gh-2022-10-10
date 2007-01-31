@@ -17,4 +17,4 @@
 
  * dsage compared to ipython
 
- * security -- malicious vandals
+ * security -- task farming and malicious vandals
