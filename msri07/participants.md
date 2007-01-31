@@ -13,6 +13,8 @@ Dear Participant, please enter:
 
  * [:IftikharBurhanuddin: Burhanuddin, Iftikhar] (University of Southern California, Computer Science)
 
+ * Butt, Salman (University of Texas, Austin)
+
  * Citro, Craig Louis
 
  * Clemesha, Alex 
