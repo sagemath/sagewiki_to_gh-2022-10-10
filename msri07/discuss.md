@@ -1,6 +1,8 @@
 = Topics for Discussion =
 
- * (L)GPL versus BSD
+ * (L)GPL versus BSD - A [http://projects.scipy.org/pipermail/scipy-user/2007-January/010602.html summary] of this discussion on the scipy list:
+
+
 
  * OpenMP -- why not discussed much here. 
 
