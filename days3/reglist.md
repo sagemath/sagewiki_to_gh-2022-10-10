@@ -20,6 +20,7 @@
  * Justin Walker
  * [:dmr: Dorian Raymer]
  * David Roe
+ * Mike Hansen (Harvey Mudd College)
 
 Remember, your registration is NOT complete until you also register at the 
 [https://www.ipam.ucla.edu/elements/choose.aspx?pc=sage2007 IPAM registration page]!
