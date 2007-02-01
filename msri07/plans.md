@@ -16,9 +16,9 @@ COPYRIGHT: GNU Free Documentation License, 2007.
  
 == Architecture ==
  
-We propose that parallel optimizations for SAGE are carried out (in parallel!) at three distinct levels: low (multithreaded), medium (mpi), and high (dsage task farming).
+We propose that parallel optimizations for SAGE are carried out (in parallel!) using three complementary approaches: fine (multithreaded), medium (mpi), and coarse (dsage task farming).
 
-=== 1. Low level -- shared memory (mostly multicore desktop/laptop) ===
+=== 1. Fine level -- shared memory (mostly multicore desktop/laptop) ===
 
 Proposed tool: the standard POSIX thread library pthread
 
@@ -42,7 +42,7 @@ Problems:
 }}}
         * Sample problems: non-generic matrix addition, non-generic scalar multiplication, polynomial arithmetic, L-series coefficients, approximation of infinite sums, matrix times vector
 
-=== 2. Middle -- homogeneous trusted cluster ===
+=== 2. Medium level -- homogeneous trusted cluster ===
 
 Proposed tool: ipython1 with MPI under the hood.
 
@@ -56,7 +56,7 @@ Example problems:
   * speed-up very generic matrix operations in some cases
   * Optimizing interpreted python code with various loops, etc., where individual operations don't take long.
 
-=== 3. High -- heterogenous task farm (both trusted and untrusted) ===
+=== 3. Coarse level -- heterogenous task farm (both trusted and untrusted) ===
 
 Proposed tool: dsage
 
@@ -64,6 +64,7 @@ Justification:
   * Written in Python to address specific problems we have.
   
 Example problems:
+  * proudly parallel problems.
   * integer factorization
   * creation of a wide range of tables (e.g., tables of elliptic curves, modular forms, computing {{{[f(n) for n in range(...)]}}} where f is a function in GAP, PARI, Magma, etc.)
   * computing plots of a collection of functions (especially high quality 3d)
