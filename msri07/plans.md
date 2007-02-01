@@ -1,11 +1,7 @@
-= (Preliminary) SEP 2: Parallelization Plans For SAGE =
-
-This is a SAGE enhancement proposal. 
+= (Preliminary) SEP 2: Optimizing the SAGE library using Parallel Techniques =
 
 AUTHOR: William Stein
 COPYRIGHT: GNU Free Documentation License, 2007.
-
-The core SAGE library is a collection of Python and sagex files. 
 
 == Basic Principles ==
 
