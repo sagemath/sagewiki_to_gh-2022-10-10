@@ -39,11 +39,23 @@ COMMENTS:
  11. THREE LEVELS OF USERS:
       1. task farmer
       2. i do parallel programming, e.g., using SAGE constructs.
-      3. i use a function that happen to be parallel.
+      3. i use a function that happens to be parallel (and maybe don't know)
  12. MPI:
       * you might think it's static from tutorials...
       * but it's dynamic (!)   MPI-2.* only though.
-
+      * parallel programming is hard.
+ 13. pthreads -- programming model is "simpler", since you can ask for bazillions of threads... and get a speedup.
+ 14. java is nicely parallel already, so why don't you just write everything in java!!  because: (1) maintenance issues and frustration, (2) 
+ 15. cilk
+ 16. what will help the target (research mathematicians) the most with their research??  (task farming.)  Enable people to do what they would otherwise not do.
+ 17. distinguish: ideal versus reality -- KISS.
+ 18. Task farming is first thing people are interested in.  Step 1.  BUT, then I will want to *parallelize my algorithms* transparently.  Optimize iteratively.
+ 19. Loosing the intermediate level:
+       - low level:
+       - Python people LOOSE something in between
+       - coarse grain:
+ 20. moving around complicated mathematical objects is interesting and subtle.
+ 21. 
 === 1. Fine level -- shared memory (mostly multicore desktop/laptop) ===
 
 Proposed tool: the standard POSIX thread library pthread
