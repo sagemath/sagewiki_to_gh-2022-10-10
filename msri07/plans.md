@@ -9,27 +9,24 @@ The core SAGE library is a collection of Python and sagex files.
 
 == Basic Principles ==
 
-Many of these are motivated by my (Stein's) perspective as the '''maintainer''' and integrated of SAGE, and recruiter of new developers...
-
-  1. Parallel methods should always be viewed as a means to an end -- speedups.  Never parallelize any computation except to speed up a calculation beyond what can be done using sequential techniques. 
-  2. Parallel methods should never completely replace sequential implementations.  Parallel algorithms are often very complicated to understand and test, so we need to at a ''minimum'' have a randomized test function that compares with that output of purely sequential code. 
-  3. Do not write insanely complicated parallel code that nobody can understand or maintain.  Because SAGE is an open source system that is widely developed, it is ''crucial'' that it be readable.
+  1. Parallel methods should be viewed as a means to an end -- speedups.  Never parallelize any computation except to speed up a calculation beyond what can be done using sequential techniques. 
+  2. Parallel methods should never completely replace sequential implementations.  Parallel algorithms are often very complicated to understand and test, so we need to at a ''minimum'' have a randomized test function that compares with the output of purely sequential code. 
+  3. Do not write extremely complicated parallel code that nobody can understand or maintain.  Because SAGE is an open source system that is widely developed, it is ''crucial'' that it be readable.
   4. It is *crucial* that implementation of parallel methods in SAGE have the following properties:
-      * It can be done incrementally.  One must be able to start with almost any specific operation or algorithm in SAGE and make a parallel version without having to drastically change code all over SAGE.  Any proposed solutions that violate this fail our needs.
+      * It can be done incrementally.  One must be able to start with almost any specific operation or algorithm in SAGE and make a parallel version without having to drastically change code all over SAGE.  Any proposed solutions that violate this fails our needs.
       * It doesn't depend on any libraries or tools that are not open source and free, and all dependencies must work on the SAGE target platforms: Linux, OS X, Windows, (and soon Solaris). 
-      * For any core tools that are needed must be made part of SAGE.
+      * All dependencies for parallel algorithms must be included standard with SAGE.  
  
 == Architecture ==
  
-There are three levels to consider.
+We propose that parallel optimizations for SAGE are carried out (in parallel!) at three distinct levels: low (multithreaded), medium (mpi), and high (dsage task farming).
 
-=== 1. Low -- shared memory (mostly multicore desktop/laptop) ===
+=== 1. Low level -- shared memory (mostly multicore desktop/laptop) ===
 
-Proposed tool: pthread
+Proposed tool: the standard POSIX thread library pthread
 
 Justification: 
-   * pthread is available on all target platforms and is well supported
-   * mature
+   * pthread is available on all target platforms, is mature, and is well supported and optimized
    * with some thought I think we can make it more usable for our applications (macros, preparsing whatever).
    
 
@@ -37,15 +34,13 @@ Design issues:
    * Have a global variable nthreads
 
 Problems:
-   * That Python is not thread safe is a '''major source of misery'''.
+   * That Python is not thread safe means that many natural approaches to optimizing the SAGE libraries is not a good idea. 
    * It's difficult to ''decide'' on how many threads to spawn at any given point.
    * (When) Should one use a thread pool?
-   * If we try to do too much, this will be really hard.
-   * If we make a couple of very clear constraints and rules, this will be doable, but maybe frustrating.  Possibilities:
-        * pthreads can '''only''' be used as follows:{{{
+   * Self-imposed constraint: pthreads can '''only''' be used as follows:{{{
     ... arbitrary sagex code ...
     # atomic threaded c-level function call that gets no PyObject*'s and makes no Python/C API calls
-    # called with explicit input that gives the max number of threads it can spawn.
+    # called with explicit input that gives the max number of threads it is allowed to spawn (-1 = any number)
     ... arbitrary sagex code ...
 }}}
         * This will be used to speed up mostly arithmetic-type stuff when creating threads doesn't dominate runtime. 
