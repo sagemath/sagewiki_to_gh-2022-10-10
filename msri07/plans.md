@@ -49,21 +49,25 @@ Problems:
     ... arbitrary sagex code ...
 }}}
         * This will be used to speed up mostly arithmetic-type stuff when creating threads doesn't dominate runtime. 
+        * Sample problems: matrix addition, vector addition, scalar multiplication, polynomial arithmetic, L-series coefficients, approximation of infinite sums, matrix times vector
 
 Alternative tool: multiple processes and a shared memory segment
    * via UPC -- heavy and hard to build (??)  maybe not right for us, because it's mainly for rather uniform computations.
    * via shared pages -- might not be fast enough.
 
 
-
-
 === 2. Middle -- homogeneous trusted cluster ===
 
-Proposed tool: ipython1 (with mpi)
+Proposed tool: ipython1 with MPI under the hood.
 
 Justification: 
   * This is the hardware that the ipython developers use.
   * It's written in Python, well tested, and will be included in SAGE anyways.
+
+Example problems:
+  * multi-modular linear algebra algorithms
+  * systems of Hecke eigenvalues
+  * speed-up very generic matrix operations in some cases
 
 === 3. High -- heterogenous task farm (both trusted and untrusted) ===
 
@@ -72,4 +76,8 @@ Proposed tool: dsage
 Justification:
   * Written in Python to address specific problems we have.
   
+Example problems:
+  * integer factorization
+  * creation of a wide range of tables (e.g., tables of elliptic curves, modular forms, etc.)
+  * 
   
