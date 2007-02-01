@@ -18,4 +18,14 @@ Many of these are motivated by my (Stein's) perspective as the '''maintainer''' 
  
 There are three levels to consider.
 
-=== 1. Low level -- implement using pthreads ===
+=== 1. Low -- shared memory (smp or multicore) ===
+
+Proposed tool: pthread
+
+=== 2. Middle -- homogeneous trusted cluster ===
+
+Proposed tool: ipython1
+
+=== 3. High -- heterogenous task farm ===
+
+Proposed tool: dsage
