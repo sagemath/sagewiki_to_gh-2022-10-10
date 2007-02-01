@@ -1,4 +1,9 @@
-= Parallelization Plans For SAGE =
+= SEP 2: Parallelization Plans For SAGE =
+
+This is a SAGE enhancement proposal. 
+
+AUTHOR: William Stein
+COPYRIGHT: GNU Free Documentation License, 2007.
 
 The core SAGE library is a collection of Python and sagex files. 
 
@@ -18,14 +23,29 @@ Many of these are motivated by my (Stein's) perspective as the '''maintainer''' 
  
 There are three levels to consider.
 
-=== 1. Low -- shared memory (smp or multicore) ===
+=== 1. Low -- shared memory (mostly multicore desktop/laptop) ===
 
 Proposed tool: pthread
 
+Justification: 
+   * pthread is available on all target platforms and is well supported
+   * mature
+   * with some thought I think we can make it usable from sagex
+
+
 === 2. Middle -- homogeneous trusted cluster ===
 
-Proposed tool: ipython1
+Proposed tool: ipython1 (with mpi)
 
-=== 3. High -- heterogenous task farm ===
+Justification: 
+  * This is the hardware that the ipython developers use.
+  * It's written in Python, well tested, and will be included in SAGE anyways.
+
+=== 3. High -- heterogenous task farm (both trusted and untrusted) ===
 
 Proposed tool: dsage
+
+Justification:
+  * Written in Python to address specific problems we have.
+  
+  
