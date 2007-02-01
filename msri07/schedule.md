@@ -13,8 +13,7 @@ Theme: What do we want and what can we expect from applying parallel techniques 
    * 10:30 Brian Granger (Tech X Corp): Interactive parallel computing using Python and IPython [attachment:GrangerMSRI.pdf PDF slides] [attachment:GrangerMSRIdemo.ipy Demo].
 
 
-   * 11:30 Jean-Louis Roch (INRIA [http://moais.imag.fr Moais] / LIG, France): Processor-oblivious parallel algorithms with provable performances 
-[http://www-id.imag.fr/~jlroch/perso_html/talks/2007-01-MSRI-Berkeley/2007-01-msri-procobliv.pps PPT slides (7.6MB)] 
+   * 11:30 Jean-Louis Roch (INRIA [http://moais.imag.fr Moais] / LIG, France): Processor-oblivious parallel algorithms with provable performances [http://www-id.imag.fr/~jlroch/perso_html/talks/2007-01-MSRI-Berkeley/2007-01-msri-procobliv.pps PPT slides (7.6MB)] 
 [http://www-id.imag.fr/~jlroch/perso_html/talks/2007-01-MSRI-Berkeley/roch-msri.pdf PDF (11MB)]
 [http://www-id.imag.fr/~jlroch/perso_html/talks/2007-01-MSRI-Berkeley/ieeevr06-mov1.mpg MPEG video] 
 
