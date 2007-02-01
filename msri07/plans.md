@@ -30,7 +30,8 @@ Proposed tool: pthread
 Justification: 
    * pthread is available on all target platforms and is well supported
    * mature
-   * with some thought I think we can make it usable from sagex
+   * with some thought I think we can make it more usable for our applications (macros, preparsing whatever).
+   
 
 Design issues:
    * Have a global variable nthreads
@@ -39,10 +40,19 @@ Problems:
    * That Python is not thread safe is a '''major source of misery'''.
    * It's difficult to ''decide'' on how many threads to spawn at any given point.
    * (When) Should one use a thread pool?
+   * If we try to do too much, this will be really hard.
+   * If we make a couple of very clear constraints and rules, this will be doable, but maybe frustrating.  Possibilities:
+        * pthreads can '''only''' be used as follows:
+{{{
+    ... arbitrary sagex code ...
+    # atomic threaded c-level function call that gets no PyObject*'s and makes no Python/C API calls
+    ... arbitrary sagex code ...
+}}}
 
 Alternative tool: multiple processes and a shared memory segment
    * via UPC -- heavy and hard to build (??)  maybe not right for us, because it's mainly for rather uniform computations.
    * via shared pages -- might not be fast enough.
+
 
 
 
