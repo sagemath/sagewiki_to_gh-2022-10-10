@@ -32,6 +32,13 @@ Justification:
    * mature
    * with some thought I think we can make it usable from sagex
 
+Design issues:
+   * Have a global variable nthreads
+
+Alternative tool: multiple processes and a shared memory segment
+   * via UPC -- heavy and hard to build (??)  maybe not right for us, because it's mainly for rather uniform computations.
+   * via shared pages -- might not be fast enough.
+
 
 === 2. Middle -- homogeneous trusted cluster ===
 
