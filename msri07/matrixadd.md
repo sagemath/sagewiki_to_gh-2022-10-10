@@ -1,5 +1,3 @@
 = Implementation in SAGE matrix ADDITION over the rational numbers (say) using a multithreaded approach.  =
 
-== People ==
-
-   * Josh Kantor
+We did this...
