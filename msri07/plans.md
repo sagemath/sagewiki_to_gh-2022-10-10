@@ -51,11 +51,6 @@ Problems:
         * This will be used to speed up mostly arithmetic-type stuff when creating threads doesn't dominate runtime. 
         * Sample problems: matrix addition, vector addition, scalar multiplication, polynomial arithmetic, L-series coefficients, approximation of infinite sums, matrix times vector
 
-Alternative tool: multiple processes and a shared memory segment
-   * via UPC -- heavy and hard to build (??)  maybe not right for us, because it's mainly for rather uniform computations.
-   * via shared pages -- might not be fast enough.
-
-
 === 2. Middle -- homogeneous trusted cluster ===
 
 Proposed tool: ipython1 with MPI under the hood.
@@ -78,6 +73,8 @@ Justification:
   
 Example problems:
   * integer factorization
-  * creation of a wide range of tables (e.g., tables of elliptic curves, modular forms, etc.)
+  * creation of a wide range of tables (e.g., tables of elliptic curves, modular forms, computing {{{[f(n) for n in range(...)]}}} where f is a function in GAP, PARI, Magma, etc.)
+  * computing plots of a collection of functions (especially high quality 3d)
+  * search for abc triples :-)
   * 
   
