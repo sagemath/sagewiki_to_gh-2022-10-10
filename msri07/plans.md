@@ -25,7 +25,6 @@ COMMENTS:
       * Parallel databases?!
       * Scheduling of threads is very hard.
       * Scaling not the same for threads... (something is possible but...)
-
   3. MPI -- harder to write, but maybe less subtle.
   4. Not at all clear how to manage how parallel each component should be.
   5. Be realistic.  Don't try to solve the general problem...
