@@ -46,8 +46,10 @@ Problems:
 {{{
     ... arbitrary sagex code ...
     # atomic threaded c-level function call that gets no PyObject*'s and makes no Python/C API calls
+    # called with explicit input that gives the max number of threads it can spawn.
     ... arbitrary sagex code ...
 }}}
+        * This will be used to speed up mostly arithmetic-type stuff when creating threads doesn't dominate runtime. 
 
 Alternative tool: multiple processes and a shared memory segment
    * via UPC -- heavy and hard to build (??)  maybe not right for us, because it's mainly for rather uniform computations.
