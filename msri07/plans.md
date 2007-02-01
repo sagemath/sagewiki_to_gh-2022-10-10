@@ -19,7 +19,30 @@ COPYRIGHT: GNU Free Documentation License, 2007.
 We propose that parallel optimizations for SAGE are carried out (in parallel!) using three complementary approaches: fine (multithreaded), medium (mpi), and coarse (dsage task farming).
 
 COMMENTS:
-  1. Collapse the two bottom levels!
+  1. Collapse the two bottom levels (i.e., thread and message passing)!
+  2. Avoid threads if at all possible!
+      * But sometimes use them. 
+      * Parallel databases?!
+      * Scheduling of threads is very hard.
+      * Scaling not the same for threads... (something is possible but...)
+
+  3. MPI -- harder to write, but maybe less subtle.
+  4. Not at all clear how to manage how parallel each component should be.
+  5. Be realistic.  Don't try to solve the general problem...
+  6. If you want up and running soon (I do!); the only choice is MPI.  Duh.
+  7. Definitely want support library to make it easy to use MPI by programmers.
+  8. SAGE -- target audience = working mathematician researcher; quick prototyping; not an industrial applications...
+  9. Resources -- evil malloc; pthreads can very quickly give your application level info.  Need some sort of "how much 'parallel power' is available".   Be single threaded....
+ 10. TWO LEVELS:  i.e., collapse the top two.
+      * coarse -- proudly parallel
+      * fine -- maybe use gasnet.
+ 11. THREE LEVELS OF USERS:
+      1. task farmer
+      2. i do parallel programming, e.g., using SAGE constructs.
+      3. i use a function that happen to be parallel.
+ 12. MPI:
+      * you might think it's static from tutorials...
+      * but it's dynamic (!)   MPI-2.* only though.
 
 === 1. Fine level -- shared memory (mostly multicore desktop/laptop) ===
 
