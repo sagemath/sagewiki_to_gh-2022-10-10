@@ -1,7 +1,7 @@
 = SAGE Days 3 =
 
 == Organizing committee ==
- *  [:IftikharBurhanuddin: Iftikhar Burhanuddin], Craig Citro, David Joyner, Kristin Lauter, Nathan Ryan, [:WilliamStein: William Stein] ''(chair)''
+ *  [MartinAlbrecht: Martin Albrecht], [:IftikharBurhanuddin: Iftikhar Burhanuddin], Craig Citro, David Joyner, Kristin Lauter, Nathan Ryan, [:WilliamStein: William Stein] ''(chair)''
  * Dates: February 17-21, 2007
  * Location: [http://www.ipam.ucla.edu/  IPAM (Institute for Pure and Applied Mathematics) at UCLA]
 
