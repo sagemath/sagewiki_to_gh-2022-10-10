@@ -1,4 +1,4 @@
-= SEP 2: Parallelization Plans For SAGE =
+= (Preliminary) SEP 2: Parallelization Plans For SAGE =
 
 This is a SAGE enhancement proposal. 
 
@@ -35,9 +35,15 @@ Justification:
 Design issues:
    * Have a global variable nthreads
 
+Problems:
+   * That Python is not thread safe is a '''major source of misery'''.
+   * It's difficult to ''decide'' on how many threads to spawn at any given point.
+   * (When) Should one use a thread pool?
+
 Alternative tool: multiple processes and a shared memory segment
    * via UPC -- heavy and hard to build (??)  maybe not right for us, because it's mainly for rather uniform computations.
    * via shared pages -- might not be fast enough.
+
 
 
 === 2. Middle -- homogeneous trusted cluster ===
