@@ -42,8 +42,7 @@ Problems:
    * (When) Should one use a thread pool?
    * If we try to do too much, this will be really hard.
    * If we make a couple of very clear constraints and rules, this will be doable, but maybe frustrating.  Possibilities:
-        * pthreads can '''only''' be used as follows:
-{{{
+        * pthreads can '''only''' be used as follows:{{{
     ... arbitrary sagex code ...
     # atomic threaded c-level function call that gets no PyObject*'s and makes no Python/C API calls
     # called with explicit input that gives the max number of threads it can spawn.
