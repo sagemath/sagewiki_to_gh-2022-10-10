@@ -37,7 +37,7 @@ Theme: Number Theory
 
    * 9:00 Jason Martin (James Madison): MPMPLAPACK: The Massively Parallel Multi-Precision Linear Algebra Package
 
-   * 10:30 Bill Hart (Warwick): Parallel computation in number theory
+   * 10:30 Bill Hart (Warwick): Parallel computation in number theory [attachment:FLINT-msri-talk.pdf PDF slides]
 
    * 11:30 Yi Qiang (U Washington): Distributed computing using SAGE
 
