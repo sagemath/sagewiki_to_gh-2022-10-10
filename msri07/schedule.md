@@ -43,7 +43,7 @@ Theme: Number Theory
 
    * 11:30 Yi Qiang (U Washington): Distributed computing using SAGE
 
-   * 1:30 Robert Bradshaw (U Washington): Loosely dependent parallel processes
+   * 1:30 Robert Bradshaw (U Washington): Loosely dependent parallel processes [attachment:bradshaw-ipc-msri.pdf slides]
 
    * 2:00 Ilias Kotsireas (Laurier U, Canada): Combinatorial Designs: constructions, algorithms and new results
 
