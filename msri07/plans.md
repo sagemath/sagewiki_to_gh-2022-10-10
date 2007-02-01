@@ -1,6 +1,7 @@
 = (Preliminary) SEP 2: Optimizing the SAGE library using Parallel Techniques =
 
 AUTHOR: William Stein
+
 COPYRIGHT: GNU Free Documentation License, 2007.
 
 == Basic Principles ==
