@@ -43,8 +43,7 @@ Problems:
     # called with explicit input that gives the max number of threads it is allowed to spawn (-1 = any number)
     ... arbitrary sagex code ...
 }}}
-        * This will be used to speed up mostly arithmetic-type stuff when creating threads doesn't dominate runtime. 
-        * Sample problems: matrix addition, vector addition, scalar multiplication, polynomial arithmetic, L-series coefficients, approximation of infinite sums, matrix times vector
+        * Sample problems: non-generic matrix addition, non-generic scalar multiplication, polynomial arithmetic, L-series coefficients, approximation of infinite sums, matrix times vector
 
 === 2. Middle -- homogeneous trusted cluster ===
 
@@ -58,6 +57,7 @@ Example problems:
   * multi-modular linear algebra algorithms
   * systems of Hecke eigenvalues
   * speed-up very generic matrix operations in some cases
+  * Optimizing interpreted python code with various loops, etc., where individual operations don't take long.
 
 === 3. High -- heterogenous task farm (both trusted and untrusted) ===
 
@@ -71,5 +71,5 @@ Example problems:
   * creation of a wide range of tables (e.g., tables of elliptic curves, modular forms, computing {{{[f(n) for n in range(...)]}}} where f is a function in GAP, PARI, Magma, etc.)
   * computing plots of a collection of functions (especially high quality 3d)
   * search for abc triples :-)
-  * 
+  * lots of *end user* use of parallelism for their own work.
   
