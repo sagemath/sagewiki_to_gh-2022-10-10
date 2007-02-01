@@ -1,4 +1,4 @@
-= Parallelization Plans For SAGE ==
+= Parallelization Plans For SAGE =
 
 The core SAGE library is a collection of Python and sagex files. 
 
