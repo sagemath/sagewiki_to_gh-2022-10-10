@@ -18,6 +18,9 @@ COPYRIGHT: GNU Free Documentation License, 2007.
  
 We propose that parallel optimizations for SAGE are carried out (in parallel!) using three complementary approaches: fine (multithreaded), medium (mpi), and coarse (dsage task farming).
 
+COMMENTS:
+  1. Collapse the two bottom levels!
+
 === 1. Fine level -- shared memory (mostly multicore desktop/laptop) ===
 
 Proposed tool: the standard POSIX thread library pthread
