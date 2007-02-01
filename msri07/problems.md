@@ -94,3 +94,7 @@ For each of the following, make remarks about how '''specific practical implemen
   *Cryptography
   *Coding Theory
   *Constants, functions and numerical computation
+
+==  John McKay CHALLENGE system of polynomial equations ==
+
+http://www.cargo.wlu.ca/McKay/
