@@ -29,7 +29,7 @@ Theme: Algebra
 
    * 11:30 Alfred Noel (UMass Boston/MIT): Structure and representations of real reductive Lie groups: A computational approach
 
-   * 1:30 Anton Leykin (IMA, Minnesota): Parallel computation of Groebner bases in the Weyl algebra
+   * 1:30 Anton Leykin (IMA, Minnesota): Parallel computation of Groebner bases in the Weyl algebra [attachment:leykin.pdf PDF slides]
 
    * 2:00 Vladimir Tonchev (Michigan Tech): Combinatorial designs and code synchronization
 
