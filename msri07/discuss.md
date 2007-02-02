@@ -1,7 +1,10 @@
 = Topics for Discussion =
 
- * (L)GPL versus BSD - A [http://projects.scipy.org/pipermail/scipy-user/2007-January/010602.html summary] of this discussion on the scipy list:
+ * 2-core -- is it worth
+ 
+ * task farming: will it be the first large usage.
 
+ * (L)GPL versus BSD - A [http://projects.scipy.org/pipermail/scipy-user/2007-January/010602.html summary] of this discussion on the scipy list:
 
 
  * OpenMP -- why not discussed much here. 
