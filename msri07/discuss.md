@@ -1,5 +1,7 @@
 = Topics for Discussion =
 
+ * Interactive parallel computation -- Adding one high-latency extra clever node to the cluster -- YOU!
+
  * 2-core -- is it worth
  
  * task farming: will it be the first large usage.
