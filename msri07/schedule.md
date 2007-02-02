@@ -41,7 +41,7 @@ Theme: Number Theory
 
    * 10:30 Bill Hart (Warwick): Parallel computation in number theory [attachment:FLINT-msri-talk.pdf PDF slides]
 
-   * 11:30 Yi Qiang (U Washington): Distributed computing using SAGE
+   * 11:30 Yi Qiang (U Washington): Distributed computing using SAGE [attachment:qiang.pdf PDF slides]
 
    * 1:30 Robert Bradshaw (U Washington): Loosely dependent parallel processes [attachment:bradshaw-ipc-msri.pdf slides]
 
