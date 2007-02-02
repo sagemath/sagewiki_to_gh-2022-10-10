@@ -57,7 +57,7 @@ Theme: Geometry
 
    * 11:30 David Bailey (Lawrence Berkeley Labs): Experimental mathematics and high-performance computing [attachment:bailey.pdf PDF slides]
 
-   * 1:30 Thomas Wolf and Winfried Neun: Parallel sparsening and simplification of systems of equations
+   * 1:30 Thomas Wolf and Winfried Neun: Parallel sparsening and simplification of systems of equations [attachment:neun.ppt PPT slides (Neun)]
 
 == Friday, Feb 2 ==
 
