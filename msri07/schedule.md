@@ -25,7 +25,7 @@ Theme: Algebra
 
    * 9:00 Kathy Yelick (UC Berkeley): Programming models for parallel computing
 
-   * 10:30 Yozo Hida (UC Berkeley): Moving Lapack and ScaLapack to higher precision without too much work
+   * 10:30 Yozo Hida (UC Berkeley): Moving Lapack and ScaLapack to higher precision without too much work [attachment:hida.pdf PDF slides]
 
    * 11:30 Alfred Noel (UMass Boston/MIT): Structure and representations of real reductive Lie groups: A computational approach
 
