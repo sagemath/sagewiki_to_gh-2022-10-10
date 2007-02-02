@@ -4,6 +4,8 @@
 
  * Interactive parallel supercomputing -- not a paradox.
 
+ * serial; task parallel; data parallel
+
  * 2-core -- is it worth
  
  * task farming: will it be the first large usage.
