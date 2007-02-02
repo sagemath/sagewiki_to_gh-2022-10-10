@@ -45,7 +45,7 @@ Theme: Number Theory
 
    * 1:30 Robert Bradshaw (U Washington): Loosely dependent parallel processes [attachment:bradshaw-ipc-msri.pdf slides]
 
-   * 2:00 Ilias Kotsireas (Laurier U, Canada): Combinatorial Designs: constructions, algorithms and new results
+   * 2:00 Ilias Kotsireas (Laurier U, Canada): Combinatorial Designs: constructions, algorithms and new results [attachment:kotsireas.pdf PDF slides]
 
 == Thursday, Feb 1 ==
 
