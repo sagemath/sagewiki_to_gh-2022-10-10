@@ -1,6 +1,6 @@
 = Topics for Discussion =
 
- * Star-P model: provide a networked remote engine that does a few BASIC BUILDING BLOCKS in parallel over the network and does them VERY well.  And that's it.
+ * Star-P model: provide a networked remote engine that does a few BASIC BUILDING BLOCKS in parallel over the network and does them VERY well.  And that's it.  All code blocks.
 
  * Interactive parallel computation -- Adding one high-latency extra clever node to the cluster -- YOU!
 
