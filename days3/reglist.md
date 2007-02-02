@@ -13,6 +13,7 @@
  * Kristin Lauter
  * Bobby Moretti
  * Robert Miller
+ * Sebastian Pauli
  * Yi Qiang (yqiang _at_ gmail.com)
  * Rishikesh
  * Nathan Ryan
