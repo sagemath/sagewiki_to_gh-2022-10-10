@@ -65,7 +65,7 @@ Theme: Large-Scale Parallel Computation
 
    * 9:00 Alan Edelman (MIT): Interactive parallel supercomputing: Today: MATLAB(r) and Python coming cutting edge: symbolic parallelism with Mathematica(r) and MAPLE(r)
 
-   * 10:30 Gene Cooperman (Northeastern U): Disk-based parallel computing: a new paradigm
+   * 10:30 Gene Cooperman (Northeastern U): Disk-based parallel computing: a new paradigm [attachment:cooperman.pdf PDF slides]
 
    * 11:30 Robert Harrison (Oak Ridge National Lab): Science at the petascale: tools in the tool box
 
