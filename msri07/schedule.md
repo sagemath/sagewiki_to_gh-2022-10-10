@@ -55,7 +55,7 @@ Theme: Geometry
 
    * 10:30 Marc Moreno Maza (Western Ontario): Component-level parallelization of triangular decompositions
 
-   * 11:30 David Bailey (Lawrence Berkeley Labs): Experimental mathematics and high-performance computing
+   * 11:30 David Bailey (Lawrence Berkeley Labs): Experimental mathematics and high-performance computing [attachment:bailey.pdf PDF slides]
 
    * 1:30 Thomas Wolf and Winfried Neun: Parallel sparsening and simplification of systems of equations
 
