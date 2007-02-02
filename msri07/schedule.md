@@ -37,7 +37,7 @@ Theme: Algebra
 
 Theme: Number Theory
 
-   * 9:00 Jason Martin (James Madison): MPMPLAPACK: The Massively Parallel Multi-Precision Linear Algebra Package
+   * 9:00 Jason Martin (James Madison): MPMPLAPACK: The Massively Parallel Multi-Precision Linear Algebra Package [attachment:martin.pdf PDF slides]
 
    * 10:30 Bill Hart (Warwick): Parallel computation in number theory [attachment:FLINT-msri-talk.pdf PDF slides]
 
