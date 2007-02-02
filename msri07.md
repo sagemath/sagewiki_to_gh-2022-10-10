@@ -2,6 +2,8 @@
 
 This is the wiki for [http://sage.math.washington.edu/msri07/ the MSRI 2007 workshop on Interactive Parallel Computation in Support of Research in Algebra, Geometry and Number Theory]. 
 
+   * [:msri07/wrapup: Wrapup Notes]
+
    * [:msri07/reading_list: Reading List]
 
    * [:msri07/problems: Challenge Problems]
