@@ -48,3 +48,34 @@
 
 21. The next program I write -- I will ask, how can I make it parallel. 
  
+22. Kedlaya -- runtime analysis.  Brief remarks at end about parallelization.  I skimmed that bit.  Now I would think, how to do the rest, how to implement. 
+
+23. Fulfilled all my dreams.  But I want to stop having to do it in my special purpose system.  Use SAGE/Python/IPython/etc. 
+
+24. The killer application of parallel computing (i.e., an application that drives development):
+     * FFT (no it isn't -- it's signal processing)
+     * Signal processing (uses FFT)
+     * Parallel matrix algorithms.
+     * No killer app in number theory yet??
+     * Numerical algebraic geometry via PHC.
+     * Integer factorization
+     * Tables
+ 
+25. No, it's not about the killer app.  Parallel processing is more gradual. 
+
+26. Hybrid algorithms because of those cursed hardware manufacturers.   Video cards.  Playstation 3.  Maybe you'll be a video game programmer after all.   Hybrid.  Complicated.  Useful.  Offload engines.  Some have violently fast memory... and integer ops!! BUT... maybe don't!  (That's the lesson of many years hard work.)
+
+27. Often many algorithms are limited by speed of RAM, not speed of CPU. 
+
+28. Really need support from algorithms.  Adaptive scheduling.  
+
+29. Working mathematician: to make a fast program, you do have to pay attention to trends in computer architecture.   As mathematicians we can't just program in our favorite interpreter and be naive. 
+
+30. Why don't GP, GMP, Singular, Gap, etc., use parallelism all over in the core of their implementations?  
+   * Because the programmers didn't learn the techniques?
+   * Not enough workshops?
+   * Coming soon!
+   * Sometimes it doesn't make sense to be parallel.
+   * GMP will have a parallel multiply.
+  
+And we're done!
