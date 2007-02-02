@@ -36,7 +36,7 @@
 
 15. New idea: Roch's scheduling schemes.  Learn about work stealing and work-first principle.
 
-16. I had a blocked view of what could be done.  Overall design is crucially important. 
+16. I had a warped view of what could be done.  Overall design is crucially important. 
 
 17. BAD NEWS: Reality.  law of leaky abstractions.  Error handling.    The vendors have hid us from dealing with this (and parallel computing).  Low level issue become big effects and they bust estimates, etc. 
 
@@ -67,7 +67,7 @@
 
 27. Often many algorithms are limited by speed of RAM, not speed of CPU. 
 
-28. Really need support from algorithms.  Adaptive scheduling.  
+28. Really need support from operating systems.  Adaptive scheduling.  
 
 29. Working mathematician: to make a fast program, you do have to pay attention to trends in computer architecture.   As mathematicians we can't just program in our favorite interpreter and be naive. 
 
