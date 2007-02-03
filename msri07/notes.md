@@ -3,3 +3,4 @@
 = Notes from the talks =
 
 Coming soon!  
+--Rob Stapleton
