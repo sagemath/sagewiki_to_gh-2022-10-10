@@ -23,7 +23,7 @@ Theme: What do we want and what can we expect from applying parallel techniques 
 
 Theme: Algebra
 
-   * 9:00 Kathy Yelick (UC Berkeley): Programming models for parallel computing
+   * 9:00 Kathy Yelick (UC Berkeley): Programming models for parallel computing [attachment:yelick.pdf PDF slides]
 
    * 10:30 Yozo Hida (UC Berkeley): Moving Lapack and ScaLapack to higher precision without too much work [attachment:hida.pdf PDF slides]
 
