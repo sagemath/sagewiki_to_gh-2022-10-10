@@ -51,7 +51,7 @@ Theme: Number Theory
 
 Theme: Geometry
 
-   * 9:00 Jan Verschelde (UIC): Parallel homotopy algorithms to solve polynomial systems [http://www.math.uic.edu/~jan/Talks/talks/parphc.pdf PDF of slides(1.4MB)]
+   * 9:00 Jan Verschelde (UIC): Parallel homotopy algorithms to solve polynomial systems [http://www.math.uic.edu/~jan/Talks/parphc.pdf PDF slides]
 
    * 10:30 Marc Moreno Maza (Western Ontario): Component-level parallelization of triangular decompositions
 
