@@ -14,8 +14,6 @@
 
 == Tuesday, Jan 30 ==
 
-Theme: Algebra
-
    * 9:00 Kathy Yelick (UC Berkeley): Programming models for parallel computing 
 
    * 10:30 Yozo Hida (UC Berkeley): Moving Lapack and ScaLapack to higher precision without too much work 
@@ -27,8 +25,6 @@ Theme: Algebra
    * 2:00 Vladimir Tonchev (Michigan Tech): Combinatorial designs and code synchronization
 
 == Wednesday, Jan 31 ==
-
-Theme: Number Theory
 
    * 9:00 Jason Martin (James Madison): MPMPLAPACK: The Massively Parallel Multi-Precision Linear Algebra Package 
 
@@ -42,8 +38,6 @@ Theme: Number Theory
 
 == Thursday, Feb 1 ==
 
-Theme: Geometry
-
    * 9:00 Jan Verschelde (UIC): Parallel homotopy algorithms to solve polynomial systems
 
    * 10:30 Marc Moreno Maza (Western Ontario): Component-level parallelization of triangular decompositions
@@ -53,8 +47,6 @@ Theme: Geometry
    * 1:30 Thomas Wolf and Winfried Neun: Parallel sparsening and simplification of systems of equations 
 
 == Friday, Feb 2 ==
-
-Theme: Large-Scale Parallel Computation
 
    * 9:00 Alan Edelman (MIT): Interactive parallel supercomputing: Today: MATLAB(r) and Python coming cutting edge: symbolic parallelism with Mathematica(r) and MAPLE(r)
 
