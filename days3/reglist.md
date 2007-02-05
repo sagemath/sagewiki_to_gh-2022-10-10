@@ -22,7 +22,7 @@
  * [:dmr: Dorian Raymer]
  * David Roe
  * Mike Hansen (Harvey Mudd College)
- * Suvrit Sra (suvrit _at_ gmail.com)
+ * Suvrit Sra (suvrit _AT_ cs.utexas.edu)
  * Gregory Bard (bardg _at_ math.umd.edu)
  * Hiba Fayoumi (fayou001 _at_ ua.edu) 
 
