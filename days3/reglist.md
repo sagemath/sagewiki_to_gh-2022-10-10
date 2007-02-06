@@ -7,6 +7,7 @@
  * [:IftikharBurhanuddin: Iftikhar Burhanuddin]  
  * Craig Citro
  * [:AlexClemesha: Alex Clemesha]
+ * David Harvey
  * Marcus Hodges
  * [:David_Joyner: David Joyner]
  * Joshua Kantor
