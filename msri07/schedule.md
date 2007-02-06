@@ -17,7 +17,7 @@ Theme: What do we want and what can we expect from applying parallel techniques 
 [http://www-id.imag.fr/~jlroch/perso_html/talks/2007-01-MSRI-Berkeley/roch-msri.pdf PDF (11MB)]
 [http://www-id.imag.fr/~jlroch/perso_html/talks/2007-01-MSRI-Berkeley/ieeevr06-mov1.mpg MPEG video] 
 
-   * 1:30 Henry Cohn (Microsoft Research): Parallel computation tools for research: a wishlist
+   * 1:30 Henry Cohn (Microsoft Research): Parallel computation tools for research: a wishlist [attachment:cohn.pdf PDF slides]
 
 == Tuesday, Jan 30 ==
 
