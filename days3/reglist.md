@@ -26,6 +26,7 @@
  * Suvrit Sra (suvrit _AT_ cs.utexas.edu)
  * Gregory Bard (bardg _at_ math.umd.edu)
  * Hiba Fayoumi (fayou001 _at_ ua.edu) 
+ * Soroosh Yazdani (syazdani _at_ math.berkeley.edu)
 
 Remember, your registration is NOT complete until you also register at the 
 [https://www.ipam.ucla.edu/elements/choose.aspx?pc=sage2007 IPAM registration page]!
