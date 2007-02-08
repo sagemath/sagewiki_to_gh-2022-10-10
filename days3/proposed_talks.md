@@ -9,5 +9,5 @@
  * David Roe -- p-adic Arithmetic in SAGE
  * Suvrit Sra -- Numerical Linear Algebra/Matrix Computation
  * [:WilliamStein:] William Stein
-
+ * [:YiQiang: Yi Qiang] Distributed SAGE
 Can someone volunteer to discuss some of the issues about parallelism that arose at the recent workshop on interactive parallel computation? Specifically stuff that is relevant to SAGE?
