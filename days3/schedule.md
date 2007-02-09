@@ -1,16 +1,16 @@
 == Saturday, Feb 17 ==
 
-* 9:00-9:50	William Stein (UW): SAGE State of the Union address
-* 10:00-10:50	Josh Kantor (UW): Parallel computation and the future of SAGE
-* 11:00-1:00	Lunch
-* 1:00-3:00	SAGE Intro tutorial/Installfest
-* 3:00-3:30	David Harvey: FLINT: not just for starting fires anymore
-* 3:35-4:05	Robert Bradshaw: SAGE's Linear Algebra architecture
-* 4:10-4:40	Greg Bard: Four Russians walk into a Bard ...
-* 4:45-5:15	Sebastian Pauli: Round 4 algorithm
-* 5:20-5:50	Suvrit Sra: Numerical linear algebra
-* 6:00-8:00	Dinner
-* 8:00-???	Coding Sprint
+ * 9:00-9:50	William Stein (UW): SAGE State of the Union address
+ * 10:00-10:50	Josh Kantor (UW): Parallel computation and the future of SAGE
+ * 11:00-1:00	Lunch
+ * 1:00-3:00	SAGE Intro tutorial/Installfest
+ * 3:00-3:30	David Harvey: FLINT: not just for starting fires anymore
+ * 3:35-4:05	Robert Bradshaw: SAGE's Linear Algebra architecture
+ * 4:10-4:40	Greg Bard: Four Russians walk into a Bard ...
+ * 4:45-5:15	Sebastian Pauli: Round 4 algorithm
+ * 5:20-5:50	Suvrit Sra: Numerical linear algebra
+ * 6:00-8:00	Dinner
+ * 8:00-???	Coding Sprint
 
 == Sunday, Feb 18 ==
 
