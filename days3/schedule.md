@@ -6,7 +6,7 @@
  * 1:00-3:00 -- SAGE Intro tutorial/Installfest
  * 3:00-3:30 -- David Harvey (Harvard): FLINT: not just for starting fires anymore
  * 3:35-4:05 -- Robert Bradshaw (UW): SAGE's Linear Algebra architecture
- * 4:10-4:40 -- Greg Bard (Maryland): Four Russians walk into a Bard ...
+ * 4:10-4:40 -- Greg Bard (Maryland): The Method of Four Russians for Matrix Inverses and Factorization
  * 4:45-5:15 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
  * 5:20-5:50 -- Suvrit Sra (Texas): Numerical linear algebra
  * 6:00-8:00 -- Dinner
@@ -31,7 +31,8 @@
  * 9:30-11:00 -- William Stein: Mercurial tutorial
  * 11:00-1:00 -- Lunch
  * 1:00-3:00 -- Coding Sprint
- * 3:00-4:00 -- Clement Pernet (U Waterloo): Linbox
+ * 3:00-4:00 -- Clement Pernet (U Waterloo): Matrix multiplication based linear algebra: how asymptotic and practical 
+efficiency meet.
  * 4:00-6:00 -- Coding Sprint
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
