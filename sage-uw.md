@@ -1,31 +1,23 @@
 == SAGE UW Seminar ==
 
-Fridays 4-5pm in C401, at least -- probably more frequently!
-
- * Friday, Jan 19 (at 4pm): William Stein -- SAGE 2.0
-
- * Friday, Jan 19 (at 5pm): William Stein -- Tutorial introduction to using SAGE for the Modeling Contest (etc.)
-  
- * Friday, Jan 26: Andrey Novoseltsev: ''PALP''
-    PALP is a Package for Analyzing Lattice Polytopes, written by Maximilian Kreuzer and Harald Skarke during their work with reflexive polytopes, that appear in connection with toric varieties, Calabi-Yau manifolds, and string theory. It contains several command line applications written in C, is quite small and fast. Recently is was included into standard distribution of SAGE, together with lattice_polytope.py module that uses some of its functions. 
-
-    I will talk about PALP itself, functions and structure of lattice_polytope.py module, and directions for improvement/development.
- 
- * Friday, Feb 2: TBA (I will be gone)
-
- * Friday, Feb 9: TBA (I will be gone)
-
  * Feb 12,13,14,15: SAGE WEEK!
-    Talks 9-10 and 4-5 every day in CMU B027 except 2/13 when the 9am talk will be in C401. 
-    * Monday, Feb 12, A.M.:
-    * Monday, Feb 12, P.M.:
-    * Tuesday, Feb 13, A.M.:
-    * Tuesday, Feb 13, P.M.:
-    * Wednesday, Feb 14, A.M.:
-    * Wednesday, Feb 14, P.M.:
-    * Thursday, Feb 15, A.M.: Robert Miller and Emily Kirkman -- Formal Introduction to the Graph Theory Package
-    * Thursday, Feb 15, P.M.:
 
+ 
+Talks 9-10 and 4-5 every day in CMU B027 except 2/13 when the 9am talk will be in C401.
+     * Monday,  Feb 12, 9 A.M.: William Stein -- Tutorial on using the Mercurial
+                                revision control system
+     * Monday,  Feb 12, 4 P.M.: Martin Albrecht -- Options for fast multivariate
+                                polynomial arithmetic in SAGE (CoCoALib, Singular,
+                                specialized implementations)
+     * Tuesday, Feb 13, 9 A.M.: (in Padelford C401) TBA
+     * Tuesday, Feb 13, 4 P.M.: William Stein -- The BSD conjecture (in the number
+                                theory seminar -- C401)
+     * Wednesday, Feb 14, 9 A.M.: Martin Albrecht -- Pyrex/SageX (e.g. tell Robert
+                                Miller how to use SageX to speed up the graph stuff)
+     * Wednesday, Feb 14, 4 P.M.: TBA
+     * Thursday, Feb 15, 9 A.M.: Robert Miller and Emily Kirkman -- Informal
+                                 Introduction to the Graph Theory Package
+     * Thursday, Feb 15, 4 P.M.: TB
 
  * Friday, Feb 23: TBA
 
@@ -46,6 +38,25 @@ stuff that came to mind.
     speed up the graph stuff)
  * Wrap up of what happened at the MSRI workshop
  * Algebraic attacks on block ciphers and Groebner bases in SAGE 
- * Options for fast multivariate polynomial arithmetic in SAGE (CoCoALib, 
-    Singular, specialized implementations)
+ * 
 }}}
+
+
+----
+
+= Past =
+
+Fridays 4-5pm in C401, at least -- probably more frequently!
+
+ * Friday, Jan 19 (at 4pm): William Stein -- SAGE 2.0
+
+ * Friday, Jan 19 (at 5pm): William Stein -- Tutorial introduction to using SAGE for the Modeling Contest (etc.)
+  
+ * Friday, Jan 26: Andrey Novoseltsev: ''PALP''
+    PALP is a Package for Analyzing Lattice Polytopes, written by Maximilian Kreuzer and Harald Skarke during their work with reflexive polytopes, that appear in connection with toric varieties, Calabi-Yau manifolds, and string theory. It contains several command line applications written in C, is quite small and fast. Recently is was included into standard distribution of SAGE, together with lattice_polytope.py module that uses some of its functions. 
+
+    I will talk about PALP itself, functions and structure of lattice_polytope.py module, and directions for improvement/development.
+ 
+ * Friday, Feb 2: TBA (I will be gone)
+
+ * Friday, Feb 9: TBA (I will be gone)
