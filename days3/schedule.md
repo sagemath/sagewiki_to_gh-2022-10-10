@@ -14,40 +14,40 @@
 
 == Sunday, Feb 18 ==
 
-* 9:00-9:50	Martin Albrecht: SageX
-* 10:00-10:50	Yi Qiang: DSAGE
-* 11:00-1:00	Lunch
-* 1:00-3:00	DSAGE Intro & Tutorial (Robert & Yi)
-* 3:00-3:30	David Roe: p-adic arithmetic in SAGE
-* 3:35-4:05	Ifti Burhanuddin: SupersingularModule
-* 4:10-4:40	(open slot)
-* 4:45-5:15	Tom Boothby: Fast polynomial evaluation	
-* 5:20-5:50	S. J. Klein: OLPC
-* 6:00-8:00	Dinner
-* 8:00-???	Coding Sprint
+ * 9:00-9:50	Martin Albrecht: SageX
+ * 10:00-10:50	Yi Qiang: DSAGE
+ * 11:00-1:00	Lunch
+ * 1:00-3:00	DSAGE Intro & Tutorial (Robert & Yi)
+ * 3:00-3:30	David Roe: p-adic arithmetic in SAGE
+ * 3:35-4:05	Ifti Burhanuddin: SupersingularModule
+ * 4:10-4:40	(open slot)
+ * 4:45-5:15	Tom Boothby: Fast polynomial evaluation	
+ * 5:20-5:50	S. J. Klein: OLPC
+ * 6:00-8:00	Dinner
+ * 8:00-???	Coding Sprint
 
 == Monday, Feb 19 ==
 
-* 9:30-11:00	William Stein: Mercurial tutorial
-* 11:00-1:00	Lunch
-* 1:00-3:00	Coding Sprint
-* 3:00-4:00	Clement Pernet
-* 4:00-6:00	Coding Sprint
-* 6:00-8:00	Dinner
-* 8:00-???	Coding Sprint
+ * 9:30-11:00	William Stein: Mercurial tutorial
+ * 11:00-1:00	Lunch
+ * 1:00-3:00	Coding Sprint
+ * 3:00-4:00	Clement Pernet
+ * 4:00-6:00	Coding Sprint
+ * 6:00-8:00	Dinner
+ * 8:00-???	Coding Sprint
 
 == Tuesday, Feb 20 ==
 
-* 9:00-11:00	Coding Sprint
-* 11:00-1:00	Lunch
-* 1:00-3:15	Coding Sprint
-* 3:15-4:15	Chris Anderson: An outsider looks at SAGE
-* 4:15-6:00	Coding Sprint
-* 6:00-8:00	Dinner
-* 8:00-???	Coding Sprint
+ * 9:00-11:00	Coding Sprint
+ * 11:00-1:00	Lunch
+ * 1:00-3:15	Coding Sprint
+ * 3:15-4:15	Chris Anderson: An outsider looks at SAGE
+ * 4:15-6:00	Coding Sprint
+ * 6:00-8:00	Dinner
+ * 8:00-???	Coding Sprint
 
-== Wednesday, Feb 21 ==
+== Wednesday, Feb 21 == 
 
-* 9:00-11:00	Wrap-up
-* 11:00-1:00	Lunch
-* 1:00-5:00	Wrap-Up & Discussion (for remaining attendees)
+ * 9:00-11:00	Wrap-up
+ * 11:00-1:00	Lunch
+ * 1:00-5:00	Wrap-Up & Discussion (for remaining attendees)
