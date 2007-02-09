@@ -31,8 +31,7 @@
  * 9:30-11:00 -- William Stein: Mercurial tutorial
  * 11:00-1:00 -- Lunch
  * 1:00-3:00 -- Coding Sprint
- * 3:00-4:00 -- Clement Pernet (U Waterloo): Matrix multiplication based linear algebra: how asymptotic and practical 
-efficiency meet.
+ * 3:00-4:00 -- Clement Pernet (U Waterloo): Matrix multiplication based linear algebra: how asymptotic and practical efficiency meet.
  * 4:00-6:00 -- Coding Sprint
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
