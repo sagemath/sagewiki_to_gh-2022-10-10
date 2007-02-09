@@ -46,7 +46,7 @@
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
 
-== Wednesday, Feb 21 == 
+== Wednesday, Feb 21 ==
 
  * 9:00-11:00 -- Wrap-up
  * 11:00-1:00 -- Lunch
