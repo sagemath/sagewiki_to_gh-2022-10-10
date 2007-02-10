@@ -1,0 +1,175 @@
+Talk:  Parallel Perspectives for the LinBox Library
+Clement Pernet
+
+Exact Linear Algebra:
+Building block in exact computation.  Topology: Smith form.  Graph Theory:  Characteristic Polynomial.  Rep. Theory: Null space Cryptography: sparse system resolution.
+The matricies involved can get very very large. etc.
+
+Software Libraries for Exact Computations:
+finite fields:  NTL, GMP, Lidia, Pari, ...
+polynomials: NTL, ...
+integers: GMP, ...
+
+Global Solutions:
+Maple
+Magma
+Sage
+
+Linear Algebra?  It falls somewhere in between.  In global solutions, it's not always as efficient as it could be.  This is
+where LinBox tries to intervene, linking the global solutions with the libraries.
+
+LinBox is genereic middleware.
+
+Maple, GAP, Sage  ---->  LinBox ---> Finite Fields (NTL, Givaro, ...) , BLAS (ATLAS, GOTO, ...), GMP
+
+Joint NSF-NSERC-CNRS project.
+	-U Delaware, NC State
+	-U Waterloo, U Calgary
+	-Laboratoires, ... (missed)
+
+Solutions:  rank, det, minpoly, charpoly, system solve, positive definiteness over domains:  finite fields, ZZ, QQ for matricies:  sparse, structured; dense
+
+A design for genericity:
+Field/Ring interface:
+	-Shared interace with Givaro
+	-Wraps NTL, Lidia, Givaro implementations using archetype or envelopes
+	-Proper implementations suited for dense computations  (mainly rely on FLOp arithmetic) Matrix interface
+
+Structure of the Library:
+Solutions (det, rank) - spcify the method, domain -> Algorithms -damnit
+
+Several levels of use:
+	Web Servers: http://www.linalg.org/
+	Executables:$ charpoly MyMatrix 65521
+	Call to a soltuion:
+		NTL::ZZp F(65521);
+		Toeplitz<NTL::ZZp> A(F);
+		Polynomial<NTL::ZZp> P;
+		charpoly (P, A);
+	Calls to specific algorithms
+
+Dense computations:
+Bilding block:  matrix multiplication over word-size finite field
+Principle:
+	-Delayed modular reduction
+	-Floating Point arithmetic (fused-mac, SSE2, ...)
+	-BLAS cache management.
+	-Sub-cubic algorithm (Winograd)
+
+Design of other dense routines:
+	-Reduction to matrix multiplication
+	-Bounds for delayed modular operations
+		-Block algorithm with multiple cascade.
+
+Char Poly:
+Fact:  O(n^omega) Las Vegas probabilistic algorithm for the computation of the char poly over a Field.
+This new algorithm is also practical.  Virtually always beats the LU-Krylov for n>100
+
+BlackBox Compuations:
+Goal: computation with very large sparse or structured matricies.
+	-No explicit rep of matrix
+	-Only operation: application of a vector
+	-Efficient algorithms
+	-Efficient preconditioners:  Toeplitz, Hankel, Butterfly, ...
+	...
+
+Block Projection Algorithms:
+	-Wiedemann algorithm:  scalar projection sof A^i for i=1..2d
+	-Block Wiedemann:  kxk dense projections of A^i for i=1..2d/k
+		-balance between blackbox and dense applications
+
+Data Containers/Iterators:
+Distinction etween computation and access to the data:
+Example:  Iterates (u^TA^iv)_{i=1..k} used for system resolution can be
+	-Precomputed and stored
+	-computed on the fly
+	-computed in parallel
+Solution:  Solver defined using generic iterators, independantly from the method to compute the data.
+
+Existing ocntainers.iterators:
+	Scalar projections:  (v^TA^iu)_{i=1..k}   --> Wiedemann's algorithm
+	Block projections:  (AV_i)_{i=1..k}   --> Block Wiedemann
+	Modular homomorphic imaging:  (Algortihm(A mod p_i))_{i=1..k}   --> Chinese Remainder Algorithm
+No modification of high-level algorithms for paralleliztion
+
+
+Parallel tools:
+Until now, fer paralleliztaions:
+	-Attempts with MPI and POSIX threads
+	-Higher level systems:  Athapascan-1, KAAPI
+		-Full design compatibility
+		-missed
+
+Example: rank computations:
+[Dumas & urbanska]
+	-Parallel block Wiedemann algorithm: [u_1,...,u_k]^T(GG^T)u_i, i=1..k
+		-Only rank(g)/k iterations
+	-Combined with sigma basis algorithm
+	Matrix:  GL7d17, n=1,548,650  m=955,128   rank=626910
+	Time estimation:  T_{iter} 0.46875 min.  T_{seq} 621.8 days.  T_{par}(50)  12.4 days.  T_{par}(50,ET)  8.16 days
+
+
+TURBO triangular elimination:
+[Roch and Dumas 02]:  recursive block algorithm for triangularization
+	-divide both rows and columns
+		-better memory management
+		-Enables to use recursive data structures
+	-5 recursive calls (U,V,C,D,Z), including 2 being paralle (C,D)
+
+Principle of Workstealing
+[Arora, Blumofe, Plaxton01], [Acar, Belloche, Blumofe02]
+-2 algorithms to complete a task f: f_seq and f_par
+-When a processor becomes idle, ExtractPar steals the work to f_seq
+
+Application to multiple triangular system solving:
+TRSM : Compute <<U_1,0>|<<U_2,U_3>>^(-1) <<B_1,B_2>>   x_2 = TRSM(U_3,B_2), B_1  = B_1 - U_2X_2, X_1 = TRSM(U_1,B_1)
+f_seq:  TRSM(U,B) --> T_1 = n^3, t_{infinity} = O(n)
+f_par:  Compute V = U^(-1);  TRMM(V,B);  --> t_1 = 4/3 n^3.  T_{infinity} = O(log(n))
+
+When sequential TRSM and parallel Inverse join:  Computer X_1 = A_1^(-1)B_1 in parallel (TRMM)  
+BOX( Top down inverse going down)   (Bottom-up TRSM coming up)
+
+Multi-adic lifting:  Solving Ax = b over ZZ
+Standard p-adic Lifting [Dixon 82]
+Compute A^(-1) mod p
+r=b
+for i=0..n do
+	x_i = A^(-1)r mod p
+	r = (r-Ax_i)/p
+end for
+z = x_0 + px_1 + ... + x_np^n
+x = RatReconst(z)
+end
+ 
+Multi-adic lifting:
+for all j=1..k do
+	compute A^(-1) mod p_j
+	r=b
+	for i=0..n/k do
+		x_i = A^(-1)r mod p_i
+		r = (r-Ax_i)/p_j
+	end for
+	z_j = x_0 + p_jx_1 + ... + p^{n/k}_jx_{n/k}
+end for
+Z = ChineseRemainderAlg((z_j,p^{n/k}_j)_{j=1..k})
+X= RatReconst(Z)
+end
+Complexity of this algorithm is worse, but can be made faster in practice (??)
+	-Used for sequential computation [Chen and Storjohann 05], to balance fficiency between BLAS levels 02 and 03 (?)
+
+
+Conclusion:
+  Large Grain parallelism:
+	-Chinese Remaindering
+	-Multi-adic lifting
+	-Block Wiedermann
+  Fine Grain Adaptive Parallelism:
+	-Work Stealing
+  Perspectives:
+	-Development of simple paralle containers
+	-Parallel distribution of LinBox, based on Kaapi.
+
+LinBox does not use "Greasing" techniques over finite fields
+Multiple organizations worry about standards, esp. concerning matrix multiplication over small prime fields.  There will be
+more talk about this later in the week.
+	The problem comes in that there are many different arithmetics to choose from.
