@@ -4,6 +4,10 @@
 Email: [[MailTo(dfdeshom AT SPAMFREE gmail DOT com)]]
 
 == SAGE-related projects ==
+
+=== Modifying Mercurial ===
+There is a turorial here: http://sage.math.washington.edu:9001/ModifyingMercurial
+
 === Multiplication algorithm ===
 A (slightly) faster multiplication algorithm of univariate polynomnials over R. Currently, this is known as _mul_fateman() in rings/polynomial_element.py but needs to be faster, probably through PARI or PyrexDELTA: I've finally started working on this. See my ext/polynomial_pyx.pyx for a preview. As predicted, the speedup is nice. Only integers are handled for now.
 
