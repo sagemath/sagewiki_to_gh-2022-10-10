@@ -9,6 +9,7 @@
  * [:AlexClemesha: Alex Clemesha]
  * David Harvey
  * Marcus Hodges
+ * Peter Jipsen
  * [:David_Joyner: David Joyner]
  * Joshua Kantor
  * Kristin Lauter
