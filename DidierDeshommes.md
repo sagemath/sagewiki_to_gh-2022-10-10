@@ -5,8 +5,12 @@ Email: [[MailTo(dfdeshom AT SPAMFREE gmail DOT com)]]
 
 == SAGE-related projects ==
 
+=== Quaddouble integration ===
+Implement a wrapper for the quad double library (C++) available at http://www.cs.berkeley.edu/~yozo/  : http://sage.math.washington.edu/home/dfdeshom/custom/patches/qdrf-c-interface.txt
+
 === Modifying Mercurial ===
 There is a turorial here: http://sage.math.washington.edu:9001/ModifyingMercurial
+There is also a mercurial spkg with better error messages here: http://sage.math.washington.edu/home/dfdeshom/custom/hg-sage/mercurial-20070209.spkg
 
 === Multiplication algorithm ===
 A (slightly) faster multiplication algorithm of univariate polynomnials over R. Currently, this is known as _mul_fateman() in rings/polynomial_element.py but needs to be faster, probably through PARI or PyrexDELTA: I've finally started working on this. See my ext/polynomial_pyx.pyx for a preview. As predicted, the speedup is nice. Only integers are handled for now.
