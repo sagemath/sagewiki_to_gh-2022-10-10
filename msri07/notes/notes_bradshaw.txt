@@ -1,0 +1,34 @@
+1:30 p.m.
+Loosely Dependent Parallel Processes
+
+Can be seen as a continuation of the DSAGE talk.
+
+Two opposite ends of the spectrum:  Massively Parallel or Task Farm.
+
+Massively Parallel:  MPI/shared memory, Master and slaves, constant communication
+Task Farm:  Occasional network access, controller and workers, intermittent communication
+
+Integer Factorization:
+	Trial Division (small primes)
+	Quadratic Sieve ("reasonably" sized primes)
+	Elliptic curve methods (probabilistic, dominated by size of smallest factor)
+All of these methods are embarassingly (proudly) parallelizable.
+
+DSAGE implementation:
+	1 worker does Qsieve, others do ECM.  If an ECM worker factors the number, the sieve is killed and restarted with a nonprime factor.  The ECMs work on factoring the factors as well.
+  Trial division fits in as a quick check at the beginning.
+
+
+The workers are SAGE instances, themselves, and have DSAGE.  One can be a Worker/Controller so you can save a controller, go offline, come back, and see the results.
+
+Communication Bottleneck
+	All communicatoin passes through server and client
+	Current implementation is extremely course-grained (workers only listen for kill signals)
+
+Worker-to-Worker
+Pros:
+	Can open up a wider range of problems, such as periodically sharing boundary data
+Cons:
+	Firewalls, etc.
+
+Inter-process communication can be done in DSAGE, but it needs more work.
