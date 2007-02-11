@@ -1,0 +1,37 @@
+2:00 p.m.
+Combinatorial Designs
+Ilias Kotsireas
+
+Combinatorial Design Theory:
+	Is it possibel to arrang eelemnts of a finite set into subsets so that certain properties are satisfied.
+	Applicatoins to cryptography, optical communications, wireless communciations, coding theory
+
+Weighing Matrices:
+	A weighing matrix W = W(n,k) of weight k is a square nxn matrix with entries -1,0,1, having k non-zero entries per row and column, with inner product of distinct rows zero.
+	W . Transpose(W) = kI_n   where I_n is the nxn identity matrix.
+
+What can we do?
+Plan of attack:  Establish pattenrs for the locations of the 5 zeros in solutions for weighing matricies of the type W(2n,2n-5)
+This would take us down from 3^(2n) to 2^(2n-5) operations.
+
+Idea:  Analyze the wolution sets for W(2n,2n-5) for all odd n up to 15
+Since we want the weighing matrix to be constructed from two circulants, when we fix 4 zeroes, the location of the 5th zero is fixed in a very symmetric position.  A proof of this would probably imply that there is an infinite class of a certain type of polynomials.
+
+To help, since certain problems still require too many operations, is to calculate certain autocorrelating functions.  NPAF and PAF, (non)Periodic Autocorrelating Functions.
+
+NPAF = 0 implies PAF = 0.  And these functions are related in other ways as well.
+Weighing matricies come from sequences with zero PAF.
+
+Power Spectral Density theorem (PSD):  Two sequences can be used to make up ciculant matrices A and B that will give W(2n,k) weighing matrices if and only if a certain relation in the terms of the discrete fourier transform (DFT) hold.
+
+There is a theorem that provides a horizontal relationship between the sequence and the PSD, which allows for faster calculating of the DFT coefficients we need.
+
+A solution to W(2*29,53) can now be found (using the PSD and a string sorting algorithm) within a day with serial programs.  However, a solution for W(2*33,61) is still not found.  It could be that the algorithm is failing because one of the PSD values is an integer.
+
+It turns out, that there ARE cases where the PSD value can be an integer.
+
+An error bounding algorithm was created to find when the algorithm may fail.
+
+
+
+
