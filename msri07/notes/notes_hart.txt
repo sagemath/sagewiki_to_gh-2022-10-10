@@ -1,0 +1,95 @@
+10:30 a.m.
+Parallel Processing in Algebraic Number Theory
+Bill Hart
+
+FLINT = Fast Library for Number Theory.  Jointly maintained by David Harvey and Bill Hart.
+Design Philosophy
+	-Want to be faster than all available alternatives (unrealistic and unachievable)
+	-Asymptotically fast algorithms
+	-Library written in C
+	-Based on GMP
+	-Extensively tested
+	-Extensively profiled
+	-Support for parallel processing
+
+What does FLINT currently do?
+	-All GMP integer functions
+	-Additional functions for integer and modular arithmetic
+		-Not efficient for small operands.  GMP is very efficient for very long integers.
+	-Integer factorisation (Multiple Polynomial Quadratic Sieve)
+	-Some polynomial arithmetic, including asymptotically fast polynomial multiplication
+
+What will FLINT eventually do?
+	-Z-integer arithmetic
+	-Zmod - Arithmetic in the intergers modulo n
+	-Zpoly - Polynomials over the integers
+	-Zvec - vectors over the integers
+	-Zmat - Linear algebra over the integers
+	-Z_p - p-adics
+	-GF2 - Sparse and dense matricies over GF2
+	-QNF - Quadratic Number Fields
+	-NF - Genreal Number Fields
+
+Additional functions available in FLINT
+	exponentiation
+	modular multiplication, inversion, square rooot, CRT, exponentiation
+	next prime, random prime, extended GCD, GCD
+	integer multiplication (faster than GMP 4.2.1)
+	Block Lanczos code
+	polynomial root finding code
+	SQUFOF factoring algorithm
+	self initialising multiple polynomial quadratic sieve
+	memory management for single mpz_t's and arrays of mpz_t's
+
+Basic polynomial arithmetic is available.
+
+Why a new library?  What about Pari, NTL, LiDIA, others?  What about Magma, Maple, Mathematica?  What about SAGE?
+
+FLINT currently beats Pari in integer factorisation, and is faster (at smaller sizes) than Msieve.
+
+FLINT beats Pari virtually all the time at polynomial multiplication.  MAGMA beats NTL at polynomial multiplication similarly
+
+Algorithms for Polynomial Multiplication
+	-Radix multiplications (used by NTL, old algorithm, outdated)
+	-Schoenhage-Strassen (based on FFTs)
+	-Kronecker-Schoenhage (combine into large integers and multiply) (most efficient algorithm for certain problem sizes)
+	-Karatsuba
+	-Toom
+All of the talk of polynomial multiplications is only of the univariate case.
+
+Schoenhage-Strassen Method:
+	A polynomail of degree n is completely determined by its values at n+1 distinct points
+	g(x) = f_1(x)*f_2(x) is determined by its value at 2n points of f_1 and f_2 have length n
+	Discrete FFT chooses 2n-th roots of unity as the poitns at which to evaluate.
+	Compute DFT of coefficients of f_1, compute DFT of coefficients of f_2, multiply the 2n values, perform inverse transformation.
+	Use FFt.
+	Schoenhage-Strassen works in the ring integers modulo (2^n+1)
+
+What does MAGMA use?  By looking at a graph of the expected times vs actual performance times, it seems that MAGMa uses Schoenhage-Strassen by the jumps of runtime at lengths of powers of 2.  Something else seems to be going on when one polynomial is small.
+
+What does FLINT do?  Flint uses variants of Schoenhage-Strassen and Kroenecker-Strassen.
+	Uses a trick suggested by David Harvey and Paul Zimmerman for KS.
+	Uses Bailey's four-step algorithm.
+	Truncated FFT (with 2 step) - Joris van der Hoeven
+
+After some work, FLINT now competes with MAGMA.
+
+Parallelisation in FLINT:
+	No global or static variables
+	Memory management (needs to support multiple threads requesting memory).
+	Decided to use Posix threads for now.
+
+There is a frustratoin at the lack of open source mathematics that uses pthreads.
+There are (outrageous) claims that 200,000 threads cna be started by the kernel, per second.
+Threads may take some time to be scheduled (real-time threads)
+Some solutions?
+	-Queue of jobs from which threads can pull tasks
+	-Threads go to sleep when thre is no work and wake up when a condition is met
+	-Sometimes, they're just not necessary
+
+For parallelising the FFT, the general idea is to break the vectors into smaller chunks and performing FFTs on those chunks.
+
+Feeling much more confident now that FLINT is doable and even parallelisable
+
+SAGE relies on Pari for many things.  Would like to do a lot of these things themselves over working with Pari to improve Pari
+once you introduce a layer of abstraction into a problem, you need C++
