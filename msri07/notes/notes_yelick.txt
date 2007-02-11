@@ -1,0 +1,138 @@
+Jan 30:  9:00 a.m.
+Programming Models for Parallel Computing
+Katherine Yelick
+
+http://titanium.cs.berkeley.edu/
+http://upc.lbl.gov/
+
+Not long ago, it looked as if the future of parallel computing was uncertain.  Several panels titled "is parallel processing dead?"
+No no, Moore's law is alive and well.  Expect to continue for the next decade.
+However, clock scaling bonanza has ended (no more speed increase there).
+Must go to multicore processors.
+	-More cores with lower clock rates burn less power, lower temperatures.
+	-Instruction Level Parallelism (ILP) benefits declining
+	(We've had parallelism on single chips hidden from programmers)
+	The chips had the hardware (overengineered), but the software did not make use of it.  Designers backed off.
+	-Yield Problems
+	IBM Cell processors have about a 10% yield.  Blade system with all 8 is $20k, PS3 with 7 is $600.
+
+Power Density Limits Serial Performance.
+	-Nowadays, same heat as a rocket nozzel.
+
+The Revolution is Happening Now.
+	-Chip density continuing by Moore's Law, but clock speed is not.  Little to no ILP to be found.
+
+Why parallelism? (2007)
+	Multicore is all over the place.  Not just theory any longer.
+	Will all programmers become performance programmers?  Parallelism can "hide costs" by preprocessing / using parallelism
+	New features will have to be well-hidden, as clock speeds aren't increasing like they used to.
+Big Open Questions:
+	1) What are the killer applications for multicore machines?
+	2) How should the chips be designed:  multicore, manycore, heterogeneous?
+	3) How will they be programmed?
+Intel announced they're looking at an 80 core processor.
+
+We seem to be headed towards a PetaFLOp machine in 2008.  (data from top500.org)
+There's a 6-8 year lag between the #1 fastest computer and the #500 fastest, which is what many people are programming on.  Will PetaFLOp machines be common by 2015?
+Memory Hierarchy:
+With explicit parallelism, performance becomes a software problem.
+Off-chip latencies tend to go by only about 7ms/year
+
+Predictions:
+	Parallelism will explode.  Cores will double by about Moore's Law.  All top 500 machines will be PetaFLOp machines by 2015.
+	Performance will be placed on the software.
+	A parallel programming model will emerge to handle multicore programming and parallelism in general.
+
+
+PGAS Languages
+
+Parallel software is still an unsolved problem.
+Most parallel programs are written using either Message passing with a SPMD model (scientific applications, scales easily) or shared memory with threads in OpenMP, Threads, or Java (non-scientific applications, easier to program, also lends itself very easily to user interfaces).
+
+Partitioned Global Address Space (PGAS) Languages:
+	Maintains control over locality.  Performance, programmability, flexability.
+
+PGAS:  Data is partitioned (designated) as global or local.  Any thread/process may directly read/write data allocated by another.
+3 current languages use an SPMD (Single Program, Multiple Data) execution model.  3 more are emerging:  X10, Fortress, Chapel.
+	Remote references have a higher latency time, so should be used judiciously.
+
+PGAS, commonalities:
+	Have both private and shared data
+	Support for distributed data structures
+	One-sided shared-memory communication
+	Synchronization (global barriers, locks, memory fences)
+	Collective Communication, IO Libraries, etc.
+The 3 current languages are built to be close to the language off which they are based.  UPC is based off of C, so it's low-level.  Titanium is based off of Java, so is higher-level.
+
+Private vs Shared Variables in UPC:
+	C variables and objects are allocated in the private memory space.
+	Shared variables are allocated only once, in thread 0's space.
+	Shared arrays are spread across the fields.  (can be blocked or spread automatically)
+	Heap objects may be in either private or shared space
+Titanium has a higher-level array abstraction.
+These models all assume a static thread count.  The HPCs languages are looking at dynamic thread counting.
+The UPC compiler we're working on is an extention of an the existing Open64 compiler framework.
+There's no JVM in Titanium.  There's a lot of web programming built in to Java, which was not appropriate for high-performance parallel programming.
+
+Are PGAS Languages good for multicore machines?
+	-They work very well on shared memory.
+	-Current UPC and Titanium implementations use threads.
+	-OpenMP gives substantial competition against PGAS on shared memory
+	-Unsure whether multicore processors will continue to have physical shared memory or move more towards something like a cell processor with explicit local storage.
+
+
+PGAS Languages on Clusters:  One-sided vs Two-sided Communication.
+One-sided:
+	-Put/Get message can be handled directly by a network interface with RDMA support
+	-Some networks will now see a one-sided message and write it directly to memory without disturbing the CPU.
+	InfiniBand and similar networks have support for one-sided messages, ethernet does not currently.
+Two-sided:
+	-Need to be matched with a receive to identify memory address to put data.
+	-Need to download match tables (from host) to interface.
+
+One-Sided vs Two-: Practice
+	Half power point differs by one order of magnitude better (lower) for GASNet vs MPI.
+
+GASNet has better latency across a network.
+GASNet is at least as high (comparable) for large messages.
+These numbers were calculated by comparing with MPI1, not MPI2, which does have one-sided message implementation.  This implementation is not as efficient on many machines and most people use MPI1, which is why MPI1 was used for comparison purposes.
+GASNet excels at mid-range message sizes, which is important for overlap, or asynchronous algorithms.
+
+Making PGAS Real:  Applications and Portability
+AMR: Adaptive Mesh Refinement code.
+Titanium AMR is entirely emplimented in Titanium and allows for finer-grained communication.  Leads to 10x reduction in lines of code.
+
+Beats Chombo code, the AMR package in LBNL.
+The array abstraction in Titanium not only used in AMR--can be used across a wide array of applications.
+
+In Serial, Titanium is comparable to (within a few % of) C++/Fortran.
+
+Dense and Sparse Matrix Factorization:
+	As you break apart and factor a matrix, the dependant factors change on the fly.  Especially with sparse matricies, dependencies change dramatically.
+	UPC factorization uses a highly multithreaded style, used to mask latency and dependence delays.
+	Three levels of threads: Static UPC threads, multithreaded BLAS, user-level threads with explicit yield.
+	No dynamic load balancing, but lots of remote invocation
+	Layout is fixed and tuned for block size
+	Many hard problem in here.  Block size tuning for both locality and granularity.  Task prioritization.  et al.
+
+UPC is significantly faster than ScaLAPACK due to the multithreadding to hide latency and dependence delays.
+
+Most PGAS symbolic computing applications are numeric.
+The applications all require:
+	Complex, irregular shared data structures
+	Ability to communicate and share data asynchronously
+		-Many current implementations built off of one-sided communication
+	Fast, low-overhead communication/sharing
+
+Titanium and UPC are qiute portable.
+	-Beneath the implementation (which goes to C) is a common communication layer (GASNet), also used by gcc/upc.
+	-Both run on most PCs, SMPs, clusters, and supercomputers.
+	-Several compilers for Titanium and UPC.
+
+PGAS Languages can easily go between shared and distributed memory machines.
+Many persons are currently working on dynamic parallel environments (non-static thread counts).
+Provide control over locallity and SPMD.
+
+Languages with exceptions are still a major headache.  Analysis is ongoing.
+GASNet is the common framework between the PGAS languages.  It can be used as a common framework for parallel implementation of your own work.
+Both UPC and Titanium are working on being able to better support the ability to distinguish within a node and between nodes.
