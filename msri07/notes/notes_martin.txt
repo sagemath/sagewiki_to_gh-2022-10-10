@@ -1,0 +1,65 @@
+Jan 31, 9:00 a.m.
+MPMPLAPACK: A Massively Parallel Multi-Precision Linear Algebra Package.
+Jason Martin
+
+Vaporware.  Slapped together to try multiple approaches
+
+The number theory computations he was doing would often reduce to linear algebra over Dedekind domains.
+This also occurs in algebraic geometry.
+There are not many pure math parallel linear algebra tools.
+
+Wants an open source software library that can
+	Handle linear algebra for modules over "nice" rings
+	Reasonably use all the cores on a desktop (single machine)
+	Reasonably use clusters or supercomputers
+	Droppable into favorite program
+	Portable
+	Very, very, very maintainable
+
+What is meant by Linear Algebra:
+	Operations on/with elements, blocks, rows/columns, etc.
+	BLAS-ish routines
+	Higher-level (HNF, SNF, JCF, etc.)
+	Lattice reductions, discriminants, etc. when possible
+	Sane (computationally) representations for products (wedge, tensor, direect, etc.)
+	Anything currently available on systems such as Magma
+"Nice" rings are integers, rationals, intergers modulo n, finite fields, polynomial rings over integers or integers modulo n or finite fields, Dedekind domains and their fraction fields, local rings, local fields, ...
+	Dedekind domains = rings of algebraic integers
+Cohn's algorithms all seem to reduce -eventually- to linear algebra over Dedekind domains
+
+At the pc level, parallel operations should make reasonable use of multicore systems, and should do this even when tasks aren't ridiculously time-intensive (most general applications should make use of the power).
+What is being developed should, at any level, easily replace current linear algebra in packages such as Pari and Macaulay 2, and be easily integrated into emerging packages.
+
+Portability:
+	Should be Pure ISO C  (with wrappers for usability)
+	Dependence only on established, well supported libraries.
+	64 bit clean (data structures that live in memory are masked to you until they're moved and you read in the middle of the data structure), byte-order neutral
+	Thread safe (all functions re-entrant)
+	Simple config and build operations.
+A lot of these portability issues will lead to a sub-optimal performance, but this is acceptable for portability.
+
+Maintainability:
+	Painfully rigorous coding standards.  For example, full test code for every function developed.  LAPACK is a good example of such rigorous standards.
+	(small-ish) pool of dedicated programmers.  Thinking GPL or LGPL license.
+There's a large disparity over which license to choose.  There's fine points of any number of licenses, mostly when it comes to funding, or use by companies.  Strong feelings in the different camps.
+
+Ideas for the future:
+	Runtime profiling and tuning.
+	Sparse / black box support
+	Fault tolerance
+
+Design decisions so far:
+	Modular (programming) design with recursive data types
+	Use pthreads/MPI hybrid approach?
+		-Allows single machine users to use library even if they don't have MPI.  The idea is to have a server with the library that the users can use without needing heavy MPI implementation.
+	Scalability in the future?  MPI and pthreads both have their advantages.  MPI scales more easily to large (cluster, heterogeneous, etc.) environments.
+
+	The scientific computing persons seem to be pushing for GASNet.
+	MPI has difficulty passing complicated data structures.
+
+Realistic approach to development:
+	Start with the domain of the integers.
+	Get an API specification by/around May 2007
+	Initial release of "working" code for August 2007
+
+There is are a -lot- of details to consider when designing a large package for multi-platform general use.  Architectures are so different across the machines that install-time tuning and the ability to fine-tune is almost paramount.
