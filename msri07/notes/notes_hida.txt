@@ -1,0 +1,123 @@
+10:30 a.m.
+Moving Sca/Lapack to Higher Precision (without too much work)
+Yozo Hida
+
+Lapack 3.1 has been released for about 2 months now.
+	-Improved MRRR algorithm for symmetric eigenproblems
+	-Faster Hessenberg QR
+	-Faster Hessenberg, tridiagonal, bidiagonal reductions.
+	-Mixed precision iterative refinement.
+	-Thread safety
+
+Current Activities:
+	Faster Algorithms
+		-O(n^2) solver for polynomial roots via companion matrix
+	More Accurate Algorithms
+		-Higher precisions
+	Expanded contents (more Lapack in ScaLapack)
+	Improve ease of use
+
+What could go into Lapack?
+for all linear algebra problems do
+	for all matrix types do
+		for all data types do
+			for all architectures and networks do
+				for all programming interfaces do
+					Procude fastest algorithm providing acceptable accuracy;
+					Produce most accurate algorithm running at acceptable speed;
+				od;
+			od;
+		od;
+	od;
+od;
+
+This talk will focus on what we can do as far as data types goes, especially multiple precision.
+
+Motivation
+	Lapack and ScaLapack are widely used.
+	Significant minority want multiple precision
+	Want to support codes like:
+		n_bits <- 32
+		repeat
+			n_bits <- n_bits x 2
+			Solve with n_bits
+		until error < tol
+
+Fixed Precision:
+	Compiler supported quad
+	Double-double, quad-double
+Arbitrary Precision
+	GMP / MPFR
+	ARPREC
+
+Double-double / Quad-double Package:
+	-These represent a higher precision numers as an unevaluated sum of 2 or 4 double precision numbers
+	-Ex:  2^60 + 1 is represented as (2^60, 1)
+	-Can represent about 32/64 digits of precision
+	-Highly efficient algorithms due to fixed, small size.
+	-Simple representation.  Easy for allocation or to use with MPI
+	-Somewhat fuzzy definition of "machine precision" for double-double
+	-Exponent range limited by that of double precision.
+	-C/C++/Fortran 95 interafaces
+	-Support for ocmplex data types recently added
+
+GMP/MPFR:
+	-One of most widely used multiple-precision floating point computations with correct rounding.
+	-Speed
+	-Uses a somewhat complicated data structure, mixing various types in a C structure.
+
+ARPREC:
+	-Uses simple floating point array to represent data.
+	-Message passing is made easier
+	-Slower than GMP
+
+Considerations:
+	-Code will be easier to maintain if only a single source code is used for varying precision.
+	-Need to let the user know how much workspace to allocate
+	-Allocation of temporary variables
+	-Multiple precisions in one instance: allowable?
+	-How to adjust precision.
+	-Co-existence of multiple versions?
+
+Workspace allocation:
+	Specifying syze by bytes doesn't work well in Fortran.  Specifying size by bignum slots works okay if every bignum in the workspace has the same size.
+	Allocate ourself?  Would be nice for cache friendliness and ease of message passing.
+
+Temporary Variable Allocation:  Memory for temp variables needs to be allocated somewhere.
+	Could use external malloc routine or explicitly allocate.  With fixed precisions, have compiler automaticall allocate
+	Could be solved through the use of macros.
+
+Memory allocation:  how much?  when?  Where?
+Fixed Precision, the easiest approach.
+	Many compilers provide support for quad precision
+	OMF77 supports multi-precision variables (precision is compile-time selected)
+Maximium precision:
+	User specifies maximum precision at compile time.  At run time, program specifies precision to be used.  Memory allocation issues are handled automatically, but memory can be wasted needlessly.
+Variable precision:
+	Memory allocation becomes tricky.  Memory must be allocated dynamically.
+
+A simple replacement of variable types is not enough when working in multiple precision.  The compiler must see each piece of a variable as a multiple precision number so that multiple precision.  Also, when dealing with constants not expressable as a double, extra care is needed.
+
+There are naming issues that need to be resolved as more packages are added.
+
+Implemented currently as a Perl script to convert Lapack sources to perform what is needed.
+
+Iterative Refinement:
+	Use Newton's iteration on r(x) = b-Ax but compute the residual in double the working precision
+	You can get a more accurate answer up to a point.  Error does not grow with condition number up to a point.
+
+Once the high-precision library is set up appropriately, most of the existing Lapack code can be transformed with little trouble.
+
+Future work:
+	More comprehensive error handling.
+	How much performance can we buy from using multi-core BLAS
+	Apply this to ScaLapack.
+
+Recent Results in Fast Stable matrix Computations:
+	-Coppersmith and Winograd, 1990, fastest
+	-Strassen et al. showed O(n^a) matrix multiplication implies O(n^a) other things.
+	-Cohn, Kleinberg, Szegedy, Umans 2005 algorithm equals or beats Coppersmith and Winograd, depending on finding the right groups.  IT uses Wedderburn's Theorem to reduce matrix multiplication to FFT.
+	New results (Demmel, Dumitriu, Holtz, Kleinberg 2006):
+		-CKSU(2005) algorithm is stable
+		-Any O(n^a) algothm can be converted to a stable one (based on Rax, 2003)
+		-There are stable algorithms for QR, LU, solve, and determinant costing O(n^(a+e)) for e>=0
