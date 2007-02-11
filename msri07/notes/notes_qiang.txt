@@ -1,0 +1,50 @@
+11:30 a.m.
+Distributed SAGE
+Yi Qiang
+
+Main Objectives:  Accessible, scalable, cross-platform (SAGE-dependant), uses local and non-local resources.
+	Many times, the computing power will be there, but there will be no infrastructure to take use of those resources. "Department of Hidden Resources"
+
+Suited for coarse parallel tasks.  NOT "embarassingly" parallelizable problems.  Proudly parallelizable.
+Should have low requirements for synchronization
+
+A Worker in DSAGE consists of a monitor, which spawns multiple instances of SAGE to work on the tasks.
+
+Technologies:
+	Python
+	Twisted ("Build the engine of your Internet")
+	ZODB ("Zope Object Database")
+
+Why DSAGE?
+	Xgrid, BOINC, Chainsaw (IPython 1), et al. seem to do the same things.
+	These packages don't seem to make sense for the types of jobs the casual user (us?) may want to do.
+	Xgrid knows nothing about math/science, proprietary, and only works on OS X
+	BOINC is suitable for one massive job.
+	Chainsaw has no fault tolerance or authentication
+
+Fault Tolerance
+	Servers, workers, or clients can disappear at any time.  These factors must be taken into account in order to keep jobs running smoothly.
+
+Security
+	SSL communication by default
+	Public key authentication of clients
+	Run workers in a virtual machine (in the near future)
+
+Applications
+	Implemented Distributed Functions (such as Ray-Tracing or Integer Factorization)
+	Many other possibilities.
+	Distributed Factorization (qsieve just implemented)
+		DSAGE (8 processors) factored 11^150+1 in 2 minutes, SAGE factored it in 4 hours
+
+It's actually easy to write this yourself (see slides)
+
+The number of workers is dynamic.  Jobs cannot be sent to specific workers--they're just sent to the server, and the server passes them around.
+
+Since SAGE is based upon Python, makes use of Python's pickling to pass information from server to workers and back.
+
+Future Development
+	Tracking and scoring of users (similar to SETI@home)
+	Integrity checking schemes (especially an allowance for redundancy)
+	Run workers SETI@home-style
+Has been included in SAGE since version 1.7
+Latest dsage is version 0.2
