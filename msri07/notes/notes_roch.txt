@@ -1,0 +1,197 @@
+11:30 a.m.
+Processor-Oblivious Parallel Processing with Provable Performances
+Jean-Louis Roch
+
+Overview:
+-Introduction
+-Machine model and work-stealing
+-Cheme 1 Adaptive Parallel algorithms
+-Scheme 2 Nano-loop
+-Scheme 3 Amoritizing the overhead of parallelism
+-Putting things together
+
+Interactive Parallel Computation:
+Any application is "parallel":
+-composition of several programs / library procedures (possibly concurrent)
+-each procedure written independently and also possibly parallel, itself
+
+Parallel Interactive Application:
+-Human in the loop
+-Prallel machines (cluster) to enable large interactive applications
+-Two main performance criteria:
+	-Frequency (refresh rate)
+		-Visualization: 30-60Hz
+		-Haptic: 1000Hz
+	-Latency (makespan for one iteration)
+		-object handling: 75 ms
+
+New Parallel Supports (from small to large)
+-Multi-core architectures
+	-Dual Core procssors
+	-Dual Core graphics processors
+	-Heterogeneous multi-cores
+	-MPSoCs
+-Commodity SMPs
+	-8-way PCs equipped with multicore processors (AMD Hypertransport) + 2 GPUs
+-Clusters
+	-72% of top 500 machines
+	-Trends: more processing units, faster networks (PCI-Express)
+	-Heterogeneous (CPUs, GPUs, FPGAs)
+-Grids
+	-Heterogeneous networks
+	-Heterogeneous administration policies
+	-Resource volatility
+-Virtual Reality / Visualization Clusters
+	-Virtual Reality, Scientific Visualization and Computational Steering
+	-PC clusters + graphics cards + multiple I/O devices (cameras, 3D trackres, etc.)
+
+Parallel induces overhead:  E.G. Parallel prefix on fixed architecture
+Prefix problem:  Input a_0, ..., a_n.  Output : sequential products.  Serial performs only n opreations, serial performs 2n
+but 2*log(n) time.
+Optimal time T_p = 2n/(p+1) but performs 2np/(p+1) operations.
+
+Lower Bound for the Prefix:  look at the multiplication circuit as a binary tree
+
+The problem:  To design a single algorithm that computes efficiently prefix (a) on an aritrary dynamic architecture
+
+Dynamic Architecutre: non-fixed number of resources, varible speeds.  e.g. grid, ... but not only: SMP server in multi-users mode.
+
+Processors-Oblivious Algorithms -- that's what what we want (?)
+
+Machine Model and Work Stealing
+-Heterogeneous machine model and work-depth framework
+-Distributed work stealing
+
+Heterogenous Processors, work and depth:
+Processor speeds are assumed to change arbitrarily and adversarily.  Model [Bender, Rabin 02] PI_i(t) = instantaneous speed
+of processor i at time t (in #unit operations per second).  Assumption:  PI_{max}< C*PI_min(t)
+Definition: for a computation with duration T:
+	Total speeD:  PI_{tot} = sum( sum( PI_i(t), t=0..T), i=0..P)
+	Average Speed per processor:  PI_{ave} = PI_{tot}/P
+	Work: W = #total number of operations performed
+	Depth: D = $operations on a critical path (~parallel "time" on infinite resources)
+For any greedy maximum utilization schedule: makespan <= W/(p*PI_{ave}) + (1-1/p)*(D/PI_{ave})
+
+The Work Stealing Algorithm:
+A distributed and randomized algorithm that computes a greedy schedule:
+-Each processor manages a local stack (depth-first execution)
+-When idle, a processor steals the topmost task on a remote non-idle victim processor (randomly chosen)
+-Theorem:  With good probability,
+	-#steals < P*D
+	-execution time <= W/(p*PI_{ave}) + O(D/Pi_{ave})
+-Interest:  If W indepenent of p and D is small, work stealing achieves near-optimal schedule.
+
+Work Stealing Implementation:
+efficient policy (close to optimal) <---- scheduling ---> control of the policy (realisation)
+Difficult in general (coarse grain)				Expensive in general (fine grain)
+But easy if D is small						But small overhead if small number of tasks
+Execution time as above (fine grain)					(coarse grain)
+
+If D is small, a work stealing algorithm performs a small number of steals
+	=> Work-first principle: "Scheduling overheads should be borne by the critical path of the computation"[Firggo 98]
+Implementation: since all tasks but a few are executed in the local stack, overhead of task creation should be as close as
+possible as sequentail function call
+At any time on any non-idle processor, efficient local degeneration of the parallel program in a sequential execuation
+
+Work Stealing implementaions following the work-first principle:  Cilk
+-Cilk-5 http://supertech.csail.mit.edu/cilk: C extension
+	-Spawn f(a); sync (serie-parallel programs)
+	-Requires a shared-memory machine
+	-Depth-first execution with synchronization (on sync) with the end of a task:
+		-spawned tasks are pushed in double-ended queue
+	-"Two-clone" compliation strategy [Frigo-Leiserson-Randal 98]
+		-On a successful steal, a thief executes the continuation on the topmost ready task
+		-When the continuation hasn't been stolen, "sync" = nop; else synchronization with its thief
+	-Won the 2006 award "Best Combination of Elegance and Performance"
+
+Work Stealing implementaions following the work-first principle:  KAAPI
+Kaapi/Athapascan  http://kaapi.gforge.inria  C++ library
+	-Fork<f>()(a,...) with access mode to parameters (value, read, write, r/w, cw) specified in f prototype (macro
+dataflow programs)
+	-Supports distributed and shared memory machines; heterogeneous processors
+	-Depth-first (reference order) execution with synchronization on data access
+		-Double-end queue ( mutual exclusion with compare-and-swap )
+		-more
+
+N-queens:  Takaken C sequential code parallelized in C++/Kaapi
+-T. Gautier & S. Guelton won the 2006 "Prix special du Jury" for the best performance at NQueens contest.
+-Some facts[on Grid'5000, a grid of processors of heterogeneous speeds]
+	-NQueens(21) in 78s on about 1000 processors
+	-NQueens(22) in 502.9s on 1458 processors
+	-NQueens(23) in 4435s on 1422 processors [~24 * 10^33 solutions]
+	-0.625% idle time per processor
+	-<20s to deploy up to 1000 processes on 1000 machine [Taktuk, Huard]
+	-15% more
+
+Work first principle and adaptability
+-Work-first principle:  Implicit dynamic choice between two executions:
+	-a sequential "depth-first" execution of the parallel algorithm (local, default)
+	-a parallel "breadth-first" one
+
+Extended work-stealing:  How do we get W_1 and W_{infinity} small?
+Concurrently sequential and parallel
+Based on the work-stealing and the work-first principle:
+	Instead of optimizing the sequential execution of the best parallel algorithm, let's optimize the parallel execution
+	of the best sequential algorithm
+Excecute always a sequential algorithm to reduce prallelism overhead
+	parallel algorithm is used only if a processor becomes idle (i.e. workstealing) to extract parallelism from the 
+	remaining work a sequential computation
+Assumption: Two concurrent algorithms that are complimentary:
+	-one sequenial (always performed, the priority
+	-the other parallel
+
+Extended work-stealing and granulairy
+-Scheme of the seuqential process: nanoloop
+	While (not completed(Wrem) ) and (next_operation hasn't been stole){
+		atomic {extract_next k operatoins ; Wrem -= k ;}
+		process the k operations extracted ;
+	}
+-Processor-oblivious algorithm:
+-Whatever p is, it performs O(p*D) preemption operations (continuation faults) -> D should be as small as possible to maximize
+both speed-up and locality
+
+Interactive application with time ocnstraint
+-Anytime algorithm:
+	-an be stopped at any time (with a result)
+
+Amortizing the arithmetic of parallelism
+Adaptive scheme: extract_seq/nanoloop // extract_par
+	-ensures an optimal number of operations on 1 processor but no guarantee of the work preformed on p processors
+
+E.G. (C++ STL): find_if(fist, last, predicate)
+locates the first element in [First,Last) verifying the predicate
+
+This may be a drawback:
+	-unneded processor usage
+	-undesirable for a library code that may be used in a complex application with many components
+	-(or not fair with other users)
+	-increases the time of the application: any parallelism that increases execution time should be avoided
+
+Similar to the nano-loop for the sequential processes:  that balances the -atomic- local work by the depth of the remaining one.
+Here, by amortizing the work induced by the extract_par operation, ensuring this work to be small enough:
+	-either wrt the useful work already performed
+	-or with respect to the useful work yet to be performed (if known)
+	-or both
+
+E.G.: find_if(First, Last, predicate):
+	-only the work already performed is known (on-line)
+	-then prevent to assign more than alpha(W_{done}) operations ot work-stealers
+	-Choices for alpha(n):
+		-n/2  similar to Floyd's iteration (approximation ratio = 2)
+		-n/log(n) : to ensure optimal usage of the work-stealers
+
+
+Putting things together:  Processor -oblivious prefix computation
+
+The critical path is put onto the parallel algorithm
+Analysis:
+Execution Time <= 2n/((p+1)*PI_{ave}) + O(log(n)/PI_{ave})
+
+Conclusion:
+-fine grain parallelism enables efficient execution on a small number of processors
+-Efficiency of classical work stealing relies on work-first principle
+-Processor Oblivious algorithms based on work-stealing/Work-first principle
+	-Based on anytime extraction of parallelism from any sequential algorithm (may execute different amts of operations)
+	-Oblivious: near optimal whatever the execution context is.
+-Generic scheme for stream computations:
+	-parallelism introduce a copy overhead from local buffers to the output gzip/compression, MPEG-4/H264
