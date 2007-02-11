@@ -1,0 +1,50 @@
+1:30 p.m.
+Parallel Computations of Groebner Bases in the Weyl Algebra.
+Anton Leykin
+
+R = QQ[a,b,c]
+f_1 = 2a^2b^2 + 3b^2c + 1
+f_2 = abc - b^2c
+
+Think of the Weyl Algebra as an algebra of something over something or something
+
+Consider all the generators x_i, \partial_i, where x_i\dot f = x_if  and \partial_i f = \frac{\partial f}{\partial x_i}
+
+Who cares about Weyl Algebra?  Agebraic geometers, for one.
+
+Now, forget about the Weyl Algebra.  It belongs to the wider Algebra of Solvable Type, or "Groebner-Friendly Algebra"
+
+In the above polynomials, ordered with deg-lex ordering:
+	initial monomial lm(f_1) = a^2b^2 , lm(f_2) = abc
+	initial coefficient lc(f_1) = 2 , lc(f_2) = 1
+	initial term lt(f) = lm(f)lc(f)
+	L(f,g) = lcm( lm(f), lm(g) )
+	sPoly(f_1,f_2) = cf_1 - 2abf_2 = 3b^2c^2 +c + 2ab^3c
+
+We can calculate a Groebner basis using the Buchberger algorithm (or any improvements).  The improved versions require modifications for the Weyl algebra.
+
+Slave stores a local basis G (or a set of reductors).  Receives information on what to reduce, reduces it, and sends it back.
+The load of the Master is negligable to the load of the Slave, but it is necessary to maintain an intermediate basis of G and the queue of s-pairs.
+
+Key point in the parallelization:  The order of the s-pairs is the same as in the serial algorithm.  The strategies used for s-pair selection are also preserved.
+
+Assumptions of the parallel simulator:
+	-Operations performed by Master are instantaneous (negligable).
+	-Time for sending package from one node to another assumed to be linear by size.
+Achieves a theoretic speed-up of about a factor of 8 using 10 nodes.  Factor of about 26 on 64 nodes.
+A lot of idle time was noted when 64 nodes were used.
+
+Seeking a practical improvement over calculation times.
+
+F_4 algorithm of calculating the Groebener basis can be adapted to work over the Weyl algebra.
+
+Parallel versions of Buchberger's algorithm can produce limited speedups
+Course-grain approach exhibits better speedups in the noncommutative algebra than in the commutative polynoimal rings on "interesting" problems of similar size.
+It does make sense to use 128 nodes on this problem, even with the idle times!
+
+Future:
+	From theory to practice--we need to make this parallel implementation practically efficient.
+	The F_4 algorithm results in the loss of sparsity in the intermediate computation, however is still feasible and its parallel version could be constructed.
+	A test/benchmark should be agreed upon.
+
+Examples that are "interesting" usually cause the computer to run out of memory due to intermediate growth of terms
