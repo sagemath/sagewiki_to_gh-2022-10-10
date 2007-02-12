@@ -9,8 +9,7 @@ Talks 9-10 and 4-5 every day in CMU B027 except 2/13 when the 9am talk will be i
      * Tuesday, Feb 13, 9 A.M.: (in Padelford C401) TBA
      * Tuesday, Feb 13, 4 P.M.: William Stein -- The BSD conjecture (in the number theory seminar -- C401)
      * Wednesday, Feb 14, 9 A.M.: Martin Albrecht -- Pyrex/SageX 
-     * Thursday, Feb 15, 9 A.M.: Robert Miller and Emily Kirkman -- Informal
-                                 Introduction to the Graph Theory Package
+     * Thursday, Feb 15, 9 A.M.: Robert Miller and Emily Kirkman -- Informal Introduction to the Graph Theory Package
      * Thursday, Feb 15, 4 P.M.: Robert Bradshaw: the state/plan for 3D graphics in SAGE.
 
  * Friday, Feb 23: TBA
