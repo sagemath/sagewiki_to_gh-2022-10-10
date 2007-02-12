@@ -4,20 +4,15 @@
 
  
 Talks 9-10 and 4-5 every day in CMU B027 except 2/13 when the 9am talk will be in C401.
-     * Monday,  Feb 12, 9 A.M.: William Stein -- Tutorial on using the Mercurial
-                                revision control system
-     * Monday,  Feb 12, 4 P.M.: Martin Albrecht -- Options for fast multivariate
-                                polynomial arithmetic in SAGE (CoCoALib, Singular,
-                                specialized implementations)
+     * Monday,  Feb 12, 9 A.M.: William Stein -- Tutorial on using the Mercurial revision control system
+     * Monday,  Feb 12, 4 P.M.: Martin Albrecht -- Options for fast multivariate polynomial arithmetic in SAGE (CoCoALib, Singular, specialized implementations)
      * Tuesday, Feb 13, 9 A.M.: (in Padelford C401) TBA
-     * Tuesday, Feb 13, 4 P.M.: William Stein -- The BSD conjecture (in the number
-                                theory seminar -- C401)
+     * Tuesday, Feb 13, 4 P.M.: William Stein -- The BSD conjecture (in the number theory seminar -- C401)
      * Wednesday, Feb 14, 9 A.M.: Martin Albrecht -- Pyrex/SageX (e.g. tell Robert
                                 Miller how to use SageX to speed up the graph stuff)
-     * Wednesday, Feb 14, 4 P.M.: TBA
      * Thursday, Feb 15, 9 A.M.: Robert Miller and Emily Kirkman -- Informal
                                  Introduction to the Graph Theory Package
-     * Thursday, Feb 15, 4 P.M.: TB
+     * Thursday, Feb 15, 4 P.M.: Robert Bradshaw: the state/plan for 3D graphics in SAGE.
 
  * Friday, Feb 23: TBA
 
