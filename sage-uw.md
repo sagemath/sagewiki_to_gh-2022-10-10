@@ -4,7 +4,7 @@ Talks are all in the communications building, B027, except on Tuesday, Feb 13:
      * Monday,  Feb 12, 9 A.M.: William Stein -- ''Optimized linear algebra in SAGE: What are we going to do???''
      * Monday,  Feb 12, 4 P.M.: Martin Albrecht -- ''Options for fast multivariate polynomial arithmetic in SAGE (CoCoALib, Singular, specialized implementations)''
      * Tuesday, Feb 13, 9 A.M.: Josh Kantor -- ''Report about the MSRI workshop on interactive parallel computation''
-     * Tuesday, Feb 13, 4 P.M.: William Stein -- ''The arithmetic of elliptic curves (in the number theory seminar -- C401)''
+     * Tuesday, Feb 13, 5 P.M.: William Stein -- ''The arithmetic of elliptic curves (in the number theory seminar -- C401)''
      * Wednesday, Feb 14, 9 A.M.: Martin Albrecht -- ''Pyrex/SageX''
      * Thursday, Feb 15, 9 A.M.: Robert Miller and Emily Kirkman -- ''Informal Introduction to the Graph Theory Package''
      * Thursday, Feb 15, 4 P.M.: Robert Bradshaw: ''The status and plan for 3D graphics in SAGE''
