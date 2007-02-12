@@ -1,7 +1,7 @@
 == SAGE UW Seminar ==
 
 Talks are all in the communications building, B027, except on Tuesday, Feb 13:
-     * Monday,  Feb 12, 9 A.M.: William Stein -- ''Tutorial on using the Mercurial revision control system''
+     * Monday,  Feb 12, 9 A.M.: William Stein -- ''Optimized linear algebra in SAGE: What are we going to do???''
      * Monday,  Feb 12, 4 P.M.: Martin Albrecht -- ''Options for fast multivariate polynomial arithmetic in SAGE (CoCoALib, Singular, specialized implementations)''
      * Tuesday, Feb 13, 9 A.M.: Josh Kantor -- ''Report about the MSRI workshop on interactive parallel computation''
      * Tuesday, Feb 13, 4 P.M.: William Stein -- ''The arithmetic of elliptic curves (in the number theory seminar -- C401)''
