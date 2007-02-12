@@ -1,5 +1,8 @@
 = SAGE Days 3 =
 
+== Coding Sprints ==
+ * [:days3/sprints: Coding sprints]
+
 == Organizing committee ==
  *  [:MartinAlbrecht: Martin Albrecht], [:IftikharBurhanuddin: Iftikhar Burhanuddin], Craig Citro, David Joyner, Kristin Lauter, Nathan Ryan, [:WilliamStein: William Stein] ''(chair)''
  * Dates: February 17-21, 2007
