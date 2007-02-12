@@ -9,6 +9,10 @@ Talks are all in the communications building, B027, except on Tuesday, Feb 13:
      * Thursday, Feb 15, 9 A.M.: Robert Miller and Emily Kirkman -- ''Informal Introduction to the Graph Theory Package''
      * Thursday, Feb 15, 4 P.M.: Robert Bradshaw: ''The status and plan for 3D graphics in SAGE''
 
+
+
+-----------------------------------------------
+
  * Friday, Feb 23: TBA
 
  * Friday, March 2: TBA
