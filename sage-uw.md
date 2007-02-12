@@ -1,8 +1,5 @@
 == SAGE UW Seminar ==
 
- * Feb 12,13,14,15: SAGE WEEK!
-
- 
 Talks 9-10 and 4-5 every day in CMU B027 except 2/13 when the 9am talk will be in C401.
      * Monday,  Feb 12, 9 A.M.: William Stein -- Tutorial on using the Mercurial revision control system
      * Monday,  Feb 12, 4 P.M.: Martin Albrecht -- Options for fast multivariate polynomial arithmetic in SAGE (CoCoALib, Singular, specialized implementations)
