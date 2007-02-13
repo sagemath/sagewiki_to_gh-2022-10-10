@@ -11,3 +11,5 @@ List your ideas for coding sprints here.
  * David Harvey (+ possibly Martin Albrecht): multithreaded polynomial arithmetic in FLINT
 
  * David Roe: p-adics (extension fields)
+
+ * Tom Boothby: 3d object arithmetic / integration with tachyon
