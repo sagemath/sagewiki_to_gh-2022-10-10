@@ -2,7 +2,7 @@
 
 List your ideas for coding sprints here.
 
- * Josh Kantor: Sparse numerical linear algebra
+ 1. Josh Kantor: Sparse numerical linear algebra
 
  * Tom Boothby: [http://cr.yp.to/papers/pippenger.pdf Pippenger's Algorithm] for multivariate polynomial evaluation
 
