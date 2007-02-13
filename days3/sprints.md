@@ -6,7 +6,7 @@ List your ideas for coding sprints here.
 
  * Tom Boothby: [http://cr.yp.to/papers/pippenger.pdf Pippenger's Algorithm] for multivariate polynomial evaluation
 
- * William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms)
+ * [:days3/sprints/exactlinalg: William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms)]
 
  * David Harvey (+ possibly Martin Albrecht): multithreaded polynomial arithmetic in FLINT
 
