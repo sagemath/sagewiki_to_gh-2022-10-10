@@ -16,7 +16,7 @@ List your ideas for coding sprints here.
 
 == NOTE ==
 
-It would be very good to do the following for each sprint project:
+It would be very good to do the following for each sprint project (on a separate page linked to from above).
     1. create a specific detailed realistic list of goals.
     * list every possible problem they can think of that might cause problems for (a)
     * how many people are needed to do a)
