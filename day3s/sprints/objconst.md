@@ -133,3 +133,43 @@ This project is very very well worth pursing.
 
   -- William
 }}}
+
+== Some Ideas from Robert Bradshaw ==
+{{{
+Some thoughts: I think a pool is a very important idea to consider. I
+can think of two instances where 1000's of integer objects would be
+created: first, in some large object such as a matrix or polynomial
+(in which case there should be a specialized type) and second in some
+huge loop (in which case a pool would help immensely).
+
+Also, it'd be interesting to look at the distribution, but I wouldn't
+be surprised if the majority of integers (ephemerally) created were
+relatively small--say < 100s. Zero and one especially are used all
+over. Similar to the pool idea, it might be worth allocating the
+first 100 integers and whenever you want to create a "small" integer,
+it would simply return one of these. (I think small one-limb mpz_t's
+can be detected very easily with mpz_size and a bit mask.) Of course,
+using python ints might be in order for many of these cases too.
+
+A related idea came up in the discussion we had here on linear
+algebra. Right now if one wants to optimize linear algebra over a new
+ring one must re-implement matrix multiplication, addition, etc. The
+generic algorithms request an entries (as a Python object), perform
+the arithmetic, then store the resulting python object. This can be
+hugely inefficient. Rather, what if the matrix had void* methods
+_get_unsafe_raw(i,j) and _set_unsafe_raw(i,j), and the corresponding
+ring had _add_raw(), _mul_raw(), etc. Also, the ring could have
+_get_raw() and _create_from_raw(). For the integer ring, these would
+return mpz_t* and, for instance, _mul_raw() could even be a macro to
+mpz_mul. The generic base case would just pass around python objects.
+The "reference counting" for these raw results would have to be done
+manually. I would suggest giving them the same semantics as gmp. This
+way one could implement generic polynomial/matrix/etc algorithms that
+would be able to operate efficiently on any ring with the above
+methods. For some cases (such as the integers) one would want actual
+specialized matrices, etc. but it would greatly reduce the work to
+get significant speedup for objects containing many elements of a
+given generic ring. Also, it would make implementations for specific
+ring elements easier to swap in and out (without having to change all
+the types that access the element internals).
+}}}
