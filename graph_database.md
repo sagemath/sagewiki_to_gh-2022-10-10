@@ -148,25 +148,20 @@ TODO:
 I. Info
  * Returns an empty graph (0 nodes and 0 edges).
  * This is useful for constructing graphs by adding edges and vertices individually or in a loop.  
-
 I. Plotting
  * When plotting, this graph will use the default spring-layout algorithm, unless a position dictionary is specified.
-
 I. Code
 {{{
  return graph.Graph()
 }}}
 I. Examples
-
 Add one vertex to an empty graph.
 {{{
  sage: empty1 = graphs.EmptyGraph()
  sage: empty1.add_vertex()
  sage: empty1.show()
 }}}
-
 attachment:empty1.png
-
 Use for loops to build a graph from an empty graph.
 {{{
  sage: empty2 = graphs.EmptyGraph()
@@ -181,7 +176,6 @@ Use for loops to build a graph from an empty graph.
  ...
  sage: empty2.show()
 }}}
-
 attachment:empty2.png
 
 === Cycle Graphs ===
