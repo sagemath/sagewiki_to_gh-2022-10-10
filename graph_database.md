@@ -398,6 +398,38 @@ With the spring-layout algorithm:
 
 attachment:cycle_spr_array.png
 
+
+=== Diamond Graph ===
+
+Info
+
+  * Returns a diamond graph with 4 nodes.
+
+  * A diamond graph is a square with one pair of diagonal nodes connected.
+
+  * This constructor depends on NetworkX numeric labeling.
+
+Plotting
+
+  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, the diamond graph is drawn as a diamond, with the first node on top, second on the left, third on the right, and fourth on the bottom; with the  second and third node connected.
+
+Code
+{{{
+ pos_dict = [[0,1],[-1,0],[1,0],[0,-1]]
+ import networkx
+ G = networkx.diamond_graph()
+ return graph.Graph(G, pos=pos_dict, name="Diamond Graph")
+}}}
+
+==== Examples ====
+{{{
+ # Construct and show a diamond graph
+ sage: g = graphs.DiamondGraph()
+ sage: g.show()
+}}}
+
+attachment here
+
 === Empty Graphs ===
 
 Info
@@ -441,6 +473,44 @@ Use for loops to build a graph from an empty graph.
  sage: empty2.show()
 }}}
 attachment:empty2.png
+
+=== Grid2d Graphs ===
+Info
+
+  * Returns a 2-dimensional grid graph with n1*n2 nodes (n1 rows and n2 columns).
+
+  * A 2d grid graph resembles a 2 dimensional grid.  All inner nodes are connected to their 4 neighbors.  Outer (non-corner) nodes are connected to their 3 neighbors.  Corner nodes are connected to their 2 neighbors.
+
+  * This constructor depends on NetworkX numeric labels.
+
+Plotting
+
+  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, nodes are labelled in (row, column) pairs with (0, 0) in the top left corner.  Edges will always be horizontal and vertical - another advantage of filling the position dictionary.
+
+Code
+{{{
+ pos_dict = {}
+ for i in range(n1):
+     y = -i
+     for j in range(n2):
+         x = j
+         pos_dict[i,j] = [x,y]
+ import networkx
+ G = networkx.grid_2d_graph(n1,n2)
+ return graph.Graph(G, pos=pos_dict, name="2D Grid Graph")
+}}}
+
+==== Examples ====
+{{{
+ # Construct and show a grid 2d graph
+ # Rows = 5, Columns = 7
+ sage: g = graphs.Grid2dGraph(5,7)
+ sage: g.show()
+}}}
+
+attachment here
+
+
 
 === Star Graphs ===
 
