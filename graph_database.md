@@ -18,22 +18,22 @@ Emily Kirkman is working on this project.
 = Graphs I Plan to Add =
 
 == Recently Added: Info Coming Soon ==
- *	Barbell
- *	Circular ladder
+ * Barbell
+ * Circular ladder
  * 2d Grid
- *	Ladder
- *	Lollipop
- *	Path
- *	Bull
- *	Diamond
- *	Dodecahedral
- *	House
- *	House x
- *	Icosahedral
- *	Krackhardt
- *	Octahedral
- *	Tetrahedral
- *  Cubes
+ * Ladder
+ * Lollipop
+ * Path
+ * Bull
+ * Diamond
+ * Dodecahedral
+ * House
+ * House x
+ * Icosahedral
+ * Krackhardt
+ * Octahedral
+ * Tetrahedral
+ * Cubes
 
 
 == Inherited from NetworkX ==
@@ -58,7 +58,8 @@ Emily Kirkman is working on this project.
  * Generalized Petersen graphs
  * Petersen Graph family
  * Trees (Directed – not simple.  Maybe Balanced tree constructor and query isTree)
- * Cayley (Requires Coloring)
+ * Cayley (Requires Edge Coloring)
+ * Paley
 
 == Named Graphs ==
  * Thomsen
