@@ -304,13 +304,6 @@ Code
 
 {{{
  import networkx as NX
-
----- /!\ '''Edit conflict - other version:''' ----
- import networkx as NX
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
  pos_dict = {}
  for i in range(n):
      x = float(functions.cos((pi/2) + ((2*pi)/n)*i))
