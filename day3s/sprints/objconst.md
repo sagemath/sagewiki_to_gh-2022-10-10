@@ -17,7 +17,7 @@ But still what is taking a lot of time is constructing the Integer
 object. In fact, it's quite embarrasing: it takes us about half as  
 long to construct 100,000 Integer objects as NTL takes to *multiply*  
 two polynomials with 100,000 small coefficients:
- 
+{{{
 sage: time for i in range(100000): pass
 CPU times: user 0.05 s, sys: 0.00 s, total: 0.05 s
  
@@ -34,7 +34,7 @@ sage: f = PolynomialRing(ZZ, "x")([ZZ.random_element() for _ in range
 (100000)])
 sage: time g = f*f
 CPU times: user 0.76 s, sys: 0.02 s, total: 0.79 s
- 
+}}}
 This is despite all the work we put into this at SD2.
  
 It would be good to be able to optimise object construction in  
