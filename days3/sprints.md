@@ -2,17 +2,17 @@
 
 List your ideas for coding sprints here.
 
- 1. Josh Kantor: Sparse numerical linear algebra
+ 1. [:days3/sprints/sparsenumerical: Josh Kantor: Sparse numerical linear algebra]
 
- * Tom Boothby: [http://cr.yp.to/papers/pippenger.pdf Pippenger's Algorithm] for multivariate polynomial evaluation
+ * [:days3/sprints/pippenger: Tom Boothby: [http://cr.yp.to/papers/pippenger.pdf Pippenger's Algorithm] for multivariate polynomial evaluation]
 
  * [:days3/sprints/exactlinalg: William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms)]
 
- * David Harvey (+ possibly Martin Albrecht): multithreaded polynomial arithmetic in FLINT
+ * [:days3/sprints/flint: David Harvey (+ possibly Martin Albrecht): multithreaded polynomial arithmetic in FLINT]
 
- * David Roe: p-adics (extension fields) (David Harvey would like to help with this)
+ * [:days3/sprints/roe: David Roe: p-adics (extension fields) (David Harvey would like to help with this)]
 
- * Tom Boothby: 3d object arithmetic / integration with tachyon
+ * [:days3/sprints/3d: Tom Boothby: 3d object arithmetic / integration with tachyon]
 
  * [:day3s/sprints/objconst: David Harvey: would like to experiment further with speeding up object construction]
 
