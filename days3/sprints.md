@@ -14,7 +14,7 @@ List your ideas for coding sprints here.
 
  * Tom Boothby: 3d object arithmetic / integration with tachyon
 
- * David Harvey: would like to experiment further with speeding up object construction
+ * [:day3s/sprints/objconst: David Harvey: would like to experiment further with speeding up object construction]
 
 == NOTE ==
 
