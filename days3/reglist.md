@@ -19,6 +19,7 @@
  * Robert Miller
  * Bobby Moretti
  * Sebastian Pauli
+ * Clement Pernet
  * Yi Qiang (yqiang _at_ gmail.com)
  * [:dmr: Dorian Raymer]
  * Rishikesh
