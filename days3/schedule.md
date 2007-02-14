@@ -20,7 +20,7 @@
  * 1:00-3:00 -- DSAGE Intro & Tutorial (Robert Bradshaw & Yi Qiang)
  * 3:00-3:30 -- Michael Orrison (Harvey Mudd):  A Computational Algebraist Looks at SAGE
  * 3:35-4:05 -- David Roe (Harvard): p-adic arithmetic in SAGE
- * 4:10-4:40 -- Ifti Burhanuddin (USC): SupersingularModule
+ * 4:10-4:40 -- Ifti Burhanuddin (USC): Supersingular Module
  * 4:45-5:15 -- Kristin Lauter (Microsoft): Cryptography and SAGE
  * 5:20-5:50 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
  * 6:00-8:00 -- Dinner
