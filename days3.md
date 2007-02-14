@@ -1,4 +1,4 @@
-attachment:sagedays3.1.png
+= Sage Days 3 =
 
 == Coding Sprints ==
  * [:days3/sprints:Coding sprints]
