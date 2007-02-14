@@ -369,14 +369,7 @@ With the position dictionary filled:
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
-
----- /!\ '''Edit conflict - other version:''' ----
  ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''Edit conflict - your version:''' ----
- ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''End of edit conflict''' ----
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
