@@ -4,7 +4,7 @@ List your ideas for coding sprints here.
 
  1. [:days3/sprints/sparsenumerical: Josh Kantor: Sparse numerical linear algebra]
 
- * [:days3/sprints/pippenger: Tom Boothby: [http://cr.yp.to/papers/pippenger.pdf Pippenger's Algorithm] for multivariate polynomial evaluation]
+ * [:days3/sprints/pippenger: Tom Boothby: Pippenger's Algorithm for fast multivariate polynomial evaluation]
 
  * [:days3/sprints/exactlinalg: William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms)]
 
