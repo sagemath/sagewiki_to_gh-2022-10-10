@@ -2,11 +2,14 @@
 
  * [:MartinAlbrecht: Martin Albrecht]
  * Nick Alexander
+ * Gregory Bard (bardg _at_ math.umd.edu)
  * [:TomBoothby: Tom Boothby] 
  * Robert Bradshaw
  * [:IftikharBurhanuddin: Iftikhar Burhanuddin]  
  * Craig Citro
  * [:AlexClemesha: Alex Clemesha]
+ * Hiba Fayoumi (fayou001 _at_ ua.edu) 
+ * Mike Hansen (Harvey Mudd College)
  * David Harvey
  * Marcus Hodges
  * Peter Jipsen
@@ -17,16 +20,13 @@
  * Bobby Moretti
  * Sebastian Pauli
  * Yi Qiang (yqiang _at_ gmail.com)
+ * [:dmr: Dorian Raymer]
  * Rishikesh
+ * David Roe (MIT)
  * Nathan Ryan
+ * Suvrit Sra (suvrit _AT_ cs.utexas.edu)
  * [:WilliamStein: William Stein]
  * Justin Walker
- * [:dmr: Dorian Raymer]
- * David Roe
- * Mike Hansen (Harvey Mudd College)
- * Suvrit Sra (suvrit _AT_ cs.utexas.edu)
- * Gregory Bard (bardg _at_ math.umd.edu)
- * Hiba Fayoumi (fayou001 _at_ ua.edu) 
  * Soroosh Yazdani (syazdani _at_ math.berkeley.edu)
 
 Remember, your registration is NOT complete until you also register at the 
