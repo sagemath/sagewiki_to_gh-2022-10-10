@@ -13,8 +13,8 @@
  * [:David_Joyner: David Joyner]
  * Joshua Kantor
  * Kristin Lauter
- * Bobby Moretti
  * Robert Miller
+ * Bobby Moretti
  * Sebastian Pauli
  * Yi Qiang (yqiang _at_ gmail.com)
  * Rishikesh
