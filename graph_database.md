@@ -145,22 +145,22 @@ TODO:
 
 === Empty Graphs ===
 
-I. Info
+Info
 
  * Returns an empty graph (0 nodes and 0 edges).
  * This is useful for constructing graphs by adding edges and vertices individually or in a loop.
 
-I. Plotting
+Plotting
 
  * When plotting, this graph will use the default spring-layout algorithm, unless a position dictionary is specified.
 
-I. Code
+Code
 
 {{{
  return graph.Graph()
 }}}
 
-I. Examples
+==== Examples ====
 
 Add one vertex to an empty graph.
 {{{
