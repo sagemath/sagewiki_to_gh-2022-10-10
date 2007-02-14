@@ -10,9 +10,11 @@ List your ideas for coding sprints here.
 
  * David Harvey (+ possibly Martin Albrecht): multithreaded polynomial arithmetic in FLINT
 
- * David Roe: p-adics (extension fields)
+ * David Roe: p-adics (extension fields) (David Harvey would like to help with this)
 
  * Tom Boothby: 3d object arithmetic / integration with tachyon
+
+ * David Harvey: would like to experiment further with speeding up object construction
 
 == NOTE ==
 
