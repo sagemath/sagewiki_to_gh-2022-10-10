@@ -143,7 +143,7 @@ TODO:
 
 == Basic Structures ==
 
-=== Barbel Graph ===
+=== Barbell Graph ===
 
 Info
   * Returns a barbell graph with 2*n1 + n2 nodes.  n1 must be greater than or equal to 2.
@@ -189,6 +189,100 @@ Code
 }}}
 
 attachment here
+
+
+=== Bull Graph ===
+Info
+
+  * Returns a bull graph with 5 nodes.
+        
+  * A bull graph is named for its shape.  It's a triangle with horns.
+        
+  * This constructor depends on NetworkX numeric labeling.
+        
+Plotting
+
+  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, the bull graph is drawn as a triangle with the first node (0) on the bottom.  The second and third nodes (1 and 2) complete the triangle.  Node 3 is the horn connected to 1 and node 4 is the horn connected to node 2.
+
+Code
+
+{{{
+ pos_dict = [[0,0],[-1,1],[1,1],[-2,2],[2,2]]
+ import networkx
+ G = networkx.bull_graph()
+ return graph.Graph(G, pos=pos_dict, name="Bull Graph")
+}}}
+
+==== Examples ====
+{{{
+ # Construct and show a bull graph
+ sage: g = graphs.BullGraph()
+ sage: g.show()
+}}}
+
+attachment here
+
+
+=== Circular Ladder Graph ===
+
+Info
+
+  * Returns a circular ladder graph with 2*n nodes.
+
+  * A Circular ladder graph is a ladder graph that is connected at the ends, i.e.: a ladder bent around so that top meets bottom.  Thus it can be described as two parrallel cycle graphs connected at each corresponding node pair.
+        
+  * This constructor depends on NetworkX numeric labels.
+
+Plotting
+
+  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, the circular ladder graph is displayed as an inner and outer cycle pair, with the first n nodes drawn on the inner circle.  The first (0) node is drawn at the top of the inner-circle, moving clockwise after that.  The outer circle is drawn with the (n+1)th node at the top, then counterclockwise as well.
+
+Code
+{{{
+ pos_dict = {}
+ for i in range(n):
+     x = float(cos((pi/2) + ((2*pi)/n)*i))
+     y = float(sin((pi/2) + ((2*pi)/n)*i))
+     pos_dict[i] = [x,y]
+ for i in range(2*n)[n:]:
+     x = float(2*(cos((pi/2) + ((2*pi)/n)*(i-n))))
+     y = float(2*(sin((pi/2) + ((2*pi)/n)*(i-n))))
+     pos_dict[i] = [x,y]
+ import networkx
+ G = networkx.circular_ladder_graph(n)
+ return graph.Graph(G, pos=pos_dict, name="Circular Ladder graph")
+}}}
+
+==== Examples ====
+
+{{{
+ # Construct and show a circular ladder graph with 26 nodes
+ sage: g = graphs.CircularLadderGraph(13)
+ sage: g.show()
+}}}
+
+attachment here
+
+{{{            
+ # Create several circular ladder graphs in a SAGE graphics array
+ sage: g = []
+ sage: j = []
+ sage: for i in range(9):
+ ...    k = graphs.CircularLadderGraph(i+3)
+ ...    g.append(k)
+ ...
+ sage: for i in range(3):
+ ...    n = []
+ ...    for m in range(3):
+ ...        n.append(g[3*i + m].plot(node_size=50, vertex_labels=False))
+ ...    j.append(n)
+ ...
+ sage: G = sage.plot.plot.GraphicsArray(j)
+ sage: G.show()
+}}}
+
+attachment here
+
 
 
 === Cycle Graphs ===
