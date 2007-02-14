@@ -1,5 +1,6 @@
 =  David Harvey: would like to experiment further with speeding up object construction =
 
+== Email announcing the project from David Harvey ==
  
 hi people,
  
@@ -71,3 +72,64 @@ possible to the int() construction time. We still are a factor of > 2
 away.
  
 David
+
+
+== Email back from William ==
+{{{
+> (1) reference counting on the integer ring (ha ha we could even skip
+> this if we could guarantee that no-one else ever resets the parent,
+> and that there is always at least one reference to the integer ring
+> lying around somewhere)
+
+There is my integer with the integer ring -- it should be immutable and
+create at module load time and there should only ever be exactly one
+copy of it.  I think we should definitely be allowed to forgot about
+reference counting for it. 
+
+> (2) malloc some space for the actual python object
+> (3) fill in some fields, like the TypeObject*
+> (4) mpz_init
+
+You should put 
+  (0) or (5) object pool
+as an important step -- this "object pool" idea is one of the tricks
+that Python uses for its ints.  For example, in your benchmark:
+
+  time for i in range(10^5): x = int()
+
+Python is looking up and returning exactly the same int (the 0) every time:
+  sage: int() is int()
+  True
+  sage: a = 999038r; b=999038r
+  sage: a is b
+  True
+
+In contrast, when you do Integer(), so is creating a new integer object
+every time, and probably (?) also freeing one:
+  sage: Integer() is Integer()
+  False
+  sage: a = 999038; b=999038
+  sage: a is b
+  False
+
+
+> Let's skip all the function calls, all the crap that pyrex puts in,
+> etc etc. Basically the only stuff left that will really suck up time
+> is the two malloc calls. We could even try writing a buffering system
+> for mallocing space for a whole bunch of Integers at once, if that
+> proves to be taking up time.
+>
+> Similarly we would need a destructor.
+
+Or return objects to the pool -- this can also speed up desctructing,
+since you just don't do it!
+
+> I'm sure it's not quite as simple as what I've put in the above list,
+> but let's just see what we can do. I would like it to be as close as
+> possible to the int() construction time. We still are a factor of > 2
+> away.
+
+This project is very very well worth pursing. 
+
+  -- William
+}}}
