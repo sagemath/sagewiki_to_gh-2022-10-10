@@ -143,6 +143,54 @@ TODO:
 
 == Basic Structures ==
 
+=== Barbel Graph ===
+
+Info
+  * Returns a barbell graph with 2*n1 + n2 nodes.  n1 must be greater than or equal to 2.
+        
+  * A barbell graph is a basic structure that consists of a path graph of order n2 connecting two complete graphs of order n1 each.
+        
+  * This constructor depends on NetworkX numeric labels.  In this case, the (n1)th node connects to the path graph from one complete graph and the (n1+n2+1)th node connects to the path graph from the other complete graph.
+        
+Plotting
+
+  * Upon construction, the position dictionary is filled to override the spring-layout algorithm. By convention, each barbell graph will be displayed with the two complete graphs in the lower-left and upper-right corners, with the path graph connecting diagonally between the two.  Thus the (n1)th node will be drawn at a 45 degree angle from the horizontal right center of the first complete graph, and the (n1+n2+1)th node will be drawn 45 degrees below the left horizontal center of the second complete graph. 
+
+Code
+{{{
+ pos_dict = {}
+        
+ for i in range(n1):
+     x = float(cos((pi/4) - ((2*pi)/n1)*i) - n2/2 - 1)
+     y = float(sin((pi/4) - ((2*pi)/n1)*i) - n2/2 - 1)
+     j = n1-1-i
+     pos_dict[j] = [x,y]
+ for i in range(n1+n2)[n1:]:
+     x = float(i - n1 - n2/2 + 1)
+     y = float(i - n1 - n2/2 + 1)
+     pos_dict[i] = [x,y]
+ for i in range(2*n1+n2)[n1+n2:]:
+     x = float(cos((5*pi/4) + ((2*pi)/n1)*(i-n1-n2)) + n2/2 + 2)
+     y = float(sin((5*pi/4) + ((2*pi)/n1)*(i-n1-n2)) + n2/2 + 2)
+     pos_dict[i] = [x,y]
+        
+ import networkx
+ G = networkx.barbell_graph(n1,n2)
+ return graph.Graph(G, pos=pos_dict, name="Barbell graph")
+}}}
+
+
+==== Examples ====
+{{{
+ # Construct and show a barbell graph
+ # Bar = 4, Bells = 9
+ sage: g = graphs.BarbellGraph(9,4)
+ sage: g.show()
+}}}
+
+attachment here
+
+
 === Cycle Graphs ===
 
 Info
