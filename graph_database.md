@@ -143,50 +143,6 @@ TODO:
 
 == Basic Structures ==
 
-=== Empty Graphs ===
-
-Info
-
- * Returns an empty graph (0 nodes and 0 edges).
- * This is useful for constructing graphs by adding edges and vertices individually or in a loop.
-
-Plotting
-
- * When plotting, this graph will use the default spring-layout algorithm, unless a position dictionary is specified.
-
-Code
-
-{{{
- return graph.Graph()
-}}}
-
-==== Examples ====
-
-Add one vertex to an empty graph.
-{{{
- sage: empty1 = graphs.EmptyGraph()
- sage: empty1.add_vertex()
- sage: empty1.show()
-}}}
-
-attachment:empty1.png
-
-Use for loops to build a graph from an empty graph.
-{{{
- sage: empty2 = graphs.EmptyGraph()
- sage: for i in range(5):
- ...    empty2.add_vertex() # add 5 nodes, labeled 0-4
- ...
- sage: for i in range(3):
- ...    empty2.add_edge(i,i+1) # add edges {[0:1],[1:2],[2:3]}
- ...
- sage: for i in range(4)[1:]:
- ...    empty2.add_edge(4,i) # add edges {[1:4],[2:4],[3:4]}
- ...
- sage: empty2.show()
-}}}
-attachment:empty2.png
-
 === Cycle Graphs ===
 
 Info
@@ -300,6 +256,49 @@ With the spring-layout algorithm:
 
 attachment:cycle_spr_array.png
 
+=== Empty Graphs ===
+
+Info
+
+ * Returns an empty graph (0 nodes and 0 edges).
+ * This is useful for constructing graphs by adding edges and vertices individually or in a loop.
+
+Plotting
+
+ * When plotting, this graph will use the default spring-layout algorithm, unless a position dictionary is specified.
+
+Code
+
+{{{
+ return graph.Graph()
+}}}
+
+==== Examples ====
+
+Add one vertex to an empty graph.
+{{{
+ sage: empty1 = graphs.EmptyGraph()
+ sage: empty1.add_vertex()
+ sage: empty1.show()
+}}}
+
+attachment:empty1.png
+
+Use for loops to build a graph from an empty graph.
+{{{
+ sage: empty2 = graphs.EmptyGraph()
+ sage: for i in range(5):
+ ...    empty2.add_vertex() # add 5 nodes, labeled 0-4
+ ...
+ sage: for i in range(3):
+ ...    empty2.add_edge(i,i+1) # add edges {[0:1],[1:2],[2:3]}
+ ...
+ sage: for i in range(4)[1:]:
+ ...    empty2.add_edge(4,i) # add edges {[1:4],[2:4],[3:4]}
+ ...
+ sage: empty2.show()
+}}}
+attachment:empty2.png
 
 === Star Graphs ===
 
@@ -404,7 +403,6 @@ With the spring-layout algorithm:
  sage: G.show()
 }}}
 attachment:star_array_spr.png
-
 
 
 === Wheel Graphs ===
