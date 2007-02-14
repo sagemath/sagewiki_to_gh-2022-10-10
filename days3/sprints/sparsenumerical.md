@@ -1,5 +1,5 @@
 =  Josh Kantor: Sparse numerical linear algebra =
-I would like to implement a sparse matrix class that has the capability to solve Sparse system using the library SuperLU. I have an spkg that installs SupeLU into the sage libraries 
+I would like to implement a sparse matrix class that has the capability to solve Sparse system using the library SuperLU. I have an spkg that installs SuperLU into the sage libraries 
 
 [http://sage.math.washington.edu/home/jkantor/spkgs]
 
