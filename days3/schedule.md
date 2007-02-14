@@ -21,7 +21,7 @@
  * 3:00-3:30 -- David Roe (Harvard): p-adic arithmetic in SAGE
  * 3:35-4:05 -- Ifti Burhanuddin (USC): SupersingularModule
  * 4:10-4:40 -- (open slot)
- * 4:45-5:15 -- Tom Boothby (UW): Fast(ish) polynomial evaluation over commutative rings
+ * 4:45-5:15 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
  * 5:20-5:50 -- S. J. Klein: OLPC
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
