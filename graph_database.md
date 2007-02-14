@@ -303,6 +303,7 @@ Plotting
 Code
 
 {{{
+ import networkx as NX
  pos_dict = {}
  for i in range(n):
      x = float(functions.cos((pi/2) + ((2*pi)/n)*i))
@@ -368,7 +369,7 @@ With the position dictionary filled:
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -389,7 +390,7 @@ With the spring-layout algorithm:
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -510,7 +511,116 @@ Code
 
 attachment here
 
+=== House Graph ===
 
+Info
+
+  * Returns a house graph with 5 nodes.
+
+  * A house graph is named for its shape.  It is a triange (roof) over a square (walls).
+
+  * This constructor depends on NetworkX numeric labeling.
+
+Plotting
+
+  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, the house graph is drawn with the first node in the lower-left corner of the house, the second in the lower-right corner of the house.  The third node is in the upper-left corner connecting the roof to the wall, and the fourth is in the upper-right corner connecting the roof to the walll.  The fifth node is the top of the roof, connected only to the third and fourth.
+
+Code
+==== This has been updated!  Change! ====
+{{{
+ pos_dict = [[-1,0],[1,0],[-1,1],[1,1],[0,2]]
+ import networkx
+ G = networkx.house_graph()
+ return graph.Graph(G, pos=pos_dict, name="House Graph")
+}}}
+
+==== Examples ====
+{{{
+ # Construct and show a house graph
+ sage: g = graphs.HouseGraph()
+ sage: g.show()
+}}}
+
+attachment here
+
+=== House X Graph ===
+
+Info
+
+  * Returns a house X graph with 5 nodes.
+
+  * A house X graph is a house graph with two additional edges.  The upper-right corner is connected to the lower-left.  And the upper-left corner is connected to the lower-right.
+
+  * This constructor depends on NetworkX numeric labeling.
+
+Plotting
+
+  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, the house X graph is drawn with the first node in the lower-left corner of the house, the second in the lower-right corner of the house.  The third node is in the upper-left corner connecting the roof to the wall, and the fourth is in the upper-right corner connecting the roof to the walll.  The fifth node is the top of the roof, connected only to the third and fourth.
+
+==== Code, has been updated! ====
+{{{
+ pos_dict = [[-1,0],[1,0],[-1,1],[1,1],[0,2]]
+ import networkx
+ G = networkx.house_x_graph()
+ return graph.Graph(G, pos=pos_dict, name="House Graph")
+}}}
+
+==== Examples ====
+{{{
+ # Construct and show a house X graph
+ sage: g = graphs.HouseXGraph()
+ sage.: g.show()
+}}}
+
+attachment here
+
+=== Krackhardt Kite Graph ===
+
+Info
+  * Returns a Krackhardt kite graph with 10 nodes.
+
+  * This constructor depends on NetworkX numeric labeling.
+
+  * The Krackhardt kite graph was originally developed by David Krackhardt for the purpose of studying social networks.  It is used to show the distinction between:  degree centrality, betweeness centrality, and closeness centrality.  For more information read the plotting section below in conjunction with the example.  
+
+References 
+  * Kreps, V. (2002). "Social Network Analysis". [http://www.fsu.edu/~spap/water/network/intro.htm Link]
+
+Plotting
+  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, the graph is drawn left to right, in top to bottom row sequence of [2, 3, 2, 1, 1, 1] nodes on each row.  This places the fourth node (3) in the center of the kite, with the highest degree.  
+
+  * But the fourth node only connects nodes that are otherwise connected, or those in its clique (i.e.: Degree Centrality).  
+
+  * The eigth (7) node is where the kite meets the tail.  It has degree = 3, less than the average, but is the only connection between the kite and tail (i.e.: Betweenness Centrality).  
+
+  * The sixth and seventh nodes (5 and 6) are drawn in the third row and have degree = 5.  These nodes have the shortest path to all other nodes in the graph (i.e.: Closeness Centrality).  Please execute the example for visualization.
+
+Code
+{{{
+ pos_dict = [[-1,4],[1,4],[-2,3],[0,3],[2,3],[-1,2],[1,2],[0,1],[0,0],[0,-1]]
+ import networkx
+ G = networkx.krackhardt_kite_graph()
+ return graph.Graph(G, pos=pos_dict, name="Krackhardt Kite Graph")
+}}}
+
+==== Examples ====
+{{{
+ # Construct and show a Krackhardt kite graph
+ sage: g = graphs.KrackhardtKiteGraph()
+ sage.: g.show()
+}}}
+
+attachment here
+
+=== Ladder Graph ===
+
+
+
+=== Lollipop Graph ===
+
+
+
+=== Path Graph ===
 
 === Star Graphs ===
 
@@ -531,6 +641,7 @@ Plotting
 Code
 
 {{{
+ import networkx as NX
  pos_dict = {}
  pos_dict[0] = [0,0]
  for i in range(n+1)[1:]:
@@ -588,7 +699,7 @@ With the position dictionary filled:
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -608,7 +719,7 @@ With the spring-layout algorithm:
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -634,14 +745,15 @@ Plotting
 Code
 
 {{{
-pos_dict = {}
-        pos_dict[0] = [0,0]
-        for i in range(n)[1:]:
-            x = float(functions.cos((pi/2) + ((2*pi)/(n-1))*(i-1)))
-            y = float(functions.sin((pi/2) + ((2*pi)/(n-1))*(i-1)))
-            pos_dict[i] = [x,y]
-        G = NX.wheel_graph(n)
-        return graph.Graph(G, pos=pos_dict, name="Wheel graph on %d vertices"%n)
+ import networkx as NX
+ pos_dict = {}
+ pos_dict[0] = [0,0]
+ for i in range(n)[1:]:
+     x = float(functions.cos((pi/2) + ((2*pi)/(n-1))*(i-1)))
+     y = float(functions.sin((pi/2) + ((2*pi)/(n-1))*(i-1)))
+     pos_dict[i] = [x,y]
+ G = NX.wheel_graph(n)
+ return graph.Graph(G, pos=pos_dict, name="Wheel graph on %d vertices"%n)
 }}}
 
 ==== Examples ====
@@ -692,7 +804,7 @@ With the position dictionary filled:
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -712,7 +824,7 @@ With the spring-layout algorithm:
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -734,8 +846,6 @@ Plotting
  * When plotting the Petersen graph with the spring-layout algorithm, we see that this graph is not very symmetric and thus the display may not be very meaningful.  Efficiency of construction and plotting is not an issue, as the Petersen graph
 only has 10 vertices and 14 edges.
  * Our labeling convention here is to start on the outer pentagon from the top, moving counterclockwise. Then the nodes on the inner star, starting at the top and moving counterclockwise.
-
-Properties
 
 Code
 {{{
@@ -784,6 +894,7 @@ Plotting
 
 Code
 {{{
+ import networkx as NX
  pos_dict = {}
  for i in range(n):
      x = float(functions.cos((pi/2) + ((2*pi)/n)*i))
@@ -841,7 +952,7 @@ With the position dictionary filled:
  sage: for i in range(3):
  ...    n = []
  ...    for m in range(3):
- ...        n.append(g[3*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[3*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -861,7 +972,7 @@ With the spring-layout algorithm:
  sage: for i in range(3):
  ...    n = []
  ...    for m in range(3):
- ...        n.append(g[3*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[3*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -959,7 +1070,7 @@ With the position dictionary filled:
  sage: for i in range(3):
  ...    n = []
  ...    for m in range(3):
- ...        n.append(g[3*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[3*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -979,7 +1090,7 @@ With the spring-layout algorithm:
  sage: for i in range(3):
  ...    n = []
  ...    for m in range(3):
- ...        n.append(g[3*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[3*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -1006,6 +1117,7 @@ Plotting
 
 Code
 {{{
+ import networkx as NX
  G = NX.gnp_random_graph(n, p, seed)
  return graph.Graph(G)
 }}}
@@ -1048,7 +1160,7 @@ View many random graphs using a SAGE Graphics Array
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -1066,6 +1178,7 @@ Plotting
         
 Code
 {{{
+ import networkx as NX
  G = NX.fast_gnp_random_graph(n, p, seed)
  return graph.Graph(G)
 }}}
@@ -1110,7 +1223,7 @@ View many random graphs using a SAGE Graphics Array
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, with_labels=False))
+ ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
