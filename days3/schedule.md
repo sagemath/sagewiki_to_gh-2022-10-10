@@ -7,7 +7,7 @@
  * 3:00-3:30 -- Robert Bradshaw (UW): SAGE's Linear Algebra architecture
  * 3:35-4:05 -- Greg Bard (Maryland): The Method of Four Russians for Matrix Inverses and Factorization
  * 4:10-4:40 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
- * 4:45-5:15 -- Suvrit Sra (Texas): Numerical linear algebra
+ * 4:45-5:15 -- Suvrit Sra (Texas): Sparse Matrix Computations
  * 5:20-5:50 -- S. J. Klein: OLPC
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
