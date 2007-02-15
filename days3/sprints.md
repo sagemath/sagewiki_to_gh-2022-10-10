@@ -14,7 +14,7 @@ List your ideas for coding sprints here.
 
  * [:days3/sprints/3d: Tom Boothby: 3d object arithmetic / integration with tachyon]
 
- * [:days3/sprints/objconst: David Harvey: would like to experiment further with speeding up object construction]
+ * [:day3s/sprints/objconst: David Harvey: would like to experiment further with speeding up object construction]
  * [:days3/sprints/dsage: Yi Qiang: improve user interface for dsage, get rid of dsage_console.py, implement SQLite backend, remove server side pickling/unpickling. ]
 
  * [:days3/sprints/Supersingular: Iftikhar Burhanuddin: Investigte memory leaks associated to SupersingularModule code.]
