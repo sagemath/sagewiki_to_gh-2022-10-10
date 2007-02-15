@@ -7,11 +7,11 @@
  * Dates: February 17-21, 2007
  * Location: [http://www.ipam.ucla.edu/ IPAM (Institute for Pure and Applied Mathematics) at UCLA]
 == Schedule ==
-The tentative ["/schedule"] is here!
+The tentative is [:days3/schedule: here].
 
 == Registration ==
  * To register, first, add your name [:days3/reglist:here], and also make sure to register at the [https://www.ipam.ucla.edu/elements/choose.aspx?pc=sage2007 IPAM site].
- * Here are some ["/traveldetails"] about travel, hotel, etc, and [http://www.ipam.ucla.edu/programs/sage2007/hotelinfosage2007.html here] are some specifics about the hotel at the IPAM site.
+ * Here are some about [:days/traveldetails: travel, hotel, etc,]  and [http://www.ipam.ucla.edu/programs/sage2007/hotelinfosage2007.html here] are some specifics about the hotel at the IPAM site.
 If you would like to share a hotel room with another SD3 participant please leave your contact info here: [:days3/roommates:Roommate Matching].
 
 == Planned schedule ==
