@@ -1,3 +1,5 @@
+Investigate memory leaks associated to [http://sage.math.washington.edu/sage/hg/sage-main/file/3643a7cae944/sage/modular/ssmod/ssmod.py :SupersingularModule ] code
+
 {{{
 ---------- Forwarded message ----------
 Date: Wed, 14 Feb 2007 20:51:12 -0800
