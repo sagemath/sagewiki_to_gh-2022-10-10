@@ -390,14 +390,7 @@ With the spring-layout algorithm:
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
-
----- /!\ '''Edit conflict - other version:''' ----
  ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''Edit conflict - your version:''' ----
- ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''End of edit conflict''' ----
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
@@ -519,37 +512,21 @@ Code
 attachment here
 
 
----- /!\ '''Edit conflict - other version:''' ----
 === House Graph ===
 
----- /!\ '''Edit conflict - your version:''' ----
-=== House Graph ===
 
----- /!\ '''End of edit conflict''' ----
 
 Info
 
 
----- /!\ '''Edit conflict - other version:''' ----
   * Returns a house graph with 5 nodes.
 
   * A house graph is named for its shape.  It is a triange (roof) over a square (walls).
 
   * This constructor depends on NetworkX numeric labeling.
-
----- /!\ '''Edit conflict - your version:''' ----
-  * Returns a house graph with 5 nodes.
-
-  * A house graph is named for its shape.  It is a triange (roof) over a square (walls).
-
-  * This constructor depends on NetworkX numeric labeling.
-
----- /!\ '''End of edit conflict''' ----
 
 Plotting
 
-
----- /!\ '''Edit conflict - other version:''' ----
   * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, the house graph is drawn with the first node in the lower-left corner of the house, the second in the lower-right corner of the house.  The third node is in the upper-left corner connecting the roof to the wall, and the fourth is in the upper-right corner connecting the roof to the walll.  The fifth node is the top of the roof, connected only to the third and fourth.
 
 Code
@@ -559,24 +536,9 @@ Code
  import networkx
  G = networkx.house_graph()
  return graph.Graph(G, pos=pos_dict, name="House Graph")
-
----- /!\ '''Edit conflict - your version:''' ----
-  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, the house graph is drawn with the first node in the lower-left corner of the house, the second in the lower-right corner of the house.  The third node is in the upper-left corner connecting the roof to the wall, and the fourth is in the upper-right corner connecting the roof to the walll.  The fifth node is the top of the roof, connected only to the third and fourth.
-
-Code
-==== This has been updated!  Change! ====
-{{{
- pos_dict = [[-1,0],[1,0],[-1,1],[1,1],[0,2]]
- import networkx
- G = networkx.house_graph()
- return graph.Graph(G, pos=pos_dict, name="House Graph")
-
----- /!\ '''End of edit conflict''' ----
-}}}
 
 ==== Examples ====
 
----- /!\ '''Edit conflict - other version:''' ----
 {{{
  # Construct and show a house graph
  sage: g = graphs.HouseGraph()
@@ -585,25 +547,11 @@ Code
 
 attachment here
 
-=== House X Graph ===
-
----- /!\ '''Edit conflict - your version:''' ----
-{{{
- # Construct and show a house graph
- sage: g = graphs.HouseGraph()
- sage: g.show()
-}}}
-
-attachment here
 
 === House X Graph ===
-
----- /!\ '''End of edit conflict''' ----
 
 Info
 
-
----- /!\ '''Edit conflict - other version:''' ----
   * Returns a house X graph with 5 nodes.
 
   * A house X graph is a house graph with two additional edges.  The upper-right corner is connected to the lower-left.  And the upper-left corner is connected to the lower-right.
@@ -620,31 +568,9 @@ Plotting
  import networkx
  G = networkx.house_x_graph()
  return graph.Graph(G, pos=pos_dict, name="House Graph")
-
----- /!\ '''Edit conflict - your version:''' ----
-  * Returns a house X graph with 5 nodes.
-
-  * A house X graph is a house graph with two additional edges.  The upper-right corner is connected to the lower-left.  And the upper-left corner is connected to the lower-right.
-
-  * This constructor depends on NetworkX numeric labeling.
-
-Plotting
-
-  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, the house X graph is drawn with the first node in the lower-left corner of the house, the second in the lower-right corner of the house.  The third node is in the upper-left corner connecting the roof to the wall, and the fourth is in the upper-right corner connecting the roof to the walll.  The fifth node is the top of the roof, connected only to the third and fourth.
-
-==== Code, has been updated! ====
-{{{
- pos_dict = [[-1,0],[1,0],[-1,1],[1,1],[0,2]]
- import networkx
- G = networkx.house_x_graph()
- return graph.Graph(G, pos=pos_dict, name="House Graph")
-
----- /!\ '''End of edit conflict''' ----
 }}}
 
 ==== Examples ====
-
----- /!\ '''Edit conflict - other version:''' ----
 {{{
  # Construct and show a house X graph
  sage: g = graphs.HouseXGraph()
@@ -742,12 +668,9 @@ attachment here
 
 === Ladder Graph ===
 
----- /!\ '''End of edit conflict''' ----
 
 
 
-
----- /!\ '''Edit conflict - other version:''' ----
 === Lollipop Graph ===
 
 
@@ -768,36 +691,9 @@ Plotting
         
  * The star graph is a good opportunity to compare efficiency of filling a position dictionary vs. using the spring-layout algorithm for plotting.  As far as display, the spring-layout should push all other nodes away from the (0) node, and thus look very similar to this constructor's positioning.
 
-
----- /!\ '''Edit conflict - your version:''' ----
-=== Lollipop Graph ===
-
-
-
-=== Path Graph ===
-
-=== Star Graphs ===
-
-Info
-
- * Returns a star graph with n+1 nodes.
- * A Star graph is a basic structure where one node is connected to all other nodes.
- * This constructor is dependant on NetworkX numeric labels.
-
-Plotting
-
- * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each star graph will be displayed with the first (0) node in the center, the second node (1) at the top, with the rest following in a counterclockwise manner.  (0) is the node connected to all other nodes.
-        
- * The star graph is a good opportunity to compare efficiency of filling a position dictionary vs. using the spring-layout algorithm for plotting.  As far as display, the spring-layout should push all other nodes away from the (0) node, and thus look very similar to this constructor's positioning.
-
-
----- /!\ '''End of edit conflict''' ----
  * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
 
 Code
-
----- /!\ '''Edit conflict - other version:''' ----
-
 {{{
  import networkx as NX
  pos_dict = {}
@@ -808,21 +704,6 @@ Code
      pos_dict[i] = [x,y]
  G = NX.star_graph(n)
  return graph.Graph(G, pos=pos_dict, name="Star graph on %d vertices"%(n+1))
-
----- /!\ '''Edit conflict - your version:''' ----
-
-{{{
- import networkx as NX
- pos_dict = {}
- pos_dict[0] = [0,0]
- for i in range(n+1)[1:]:
-     x = float(functions.cos((pi/2) + ((2*pi)/n)*(i-1)))
-     y = float(functions.sin((pi/2) + ((2*pi)/n)*(i-1)))
-     pos_dict[i] = [x,y]
- G = NX.star_graph(n)
- return graph.Graph(G, pos=pos_dict, name="Star graph on %d vertices"%(n+1))
-
----- /!\ '''End of edit conflict''' ----
 }}}
 
 ==== Examples ====
@@ -835,7 +716,6 @@ The following examples require NetworkX (to use default):
 Compare the constructor speeds.
 {{{
 
----- /!\ '''Edit conflict - other version:''' ----
  time n = NX.star_graph(3989); spring3989 = Graph(n)
 }}}
  CPU time: 0.08 s,  Wall time: 0.10 s[[BR]] (Time Results will vary.)
@@ -844,70 +724,32 @@ Compare the constructor speeds.
 }}}
  CPU time: 5.43 s,  Wall time: 7.41 s[[BR]] (Time results will vary.)
 
----- /!\ '''Edit conflict - your version:''' ----
- time n = NX.star_graph(3989); spring3989 = Graph(n)
-}}}
- CPU time: 0.08 s,  Wall time: 0.10 s[[BR]] (Time Results will vary.)
-{{{
- time posdict3989 = graphs.StarGraph(3989)
-}}}
- CPU time: 5.43 s,  Wall time: 7.41 s[[BR]] (Time results will vary.)
-
----- /!\ '''End of edit conflict''' ----
 
 Compare the plotting speeds.
 {{{
-
----- /!\ '''Edit conflict - other version:''' ----
  sage: n = NX.star_graph(23)
  sage: spring23 = Graph(n)
  sage: posdict23 = graphs.StarGraph(23)
-
----- /!\ '''Edit conflict - your version:''' ----
- sage: n = NX.star_graph(23)
- sage: spring23 = Graph(n)
- sage: posdict23 = graphs.StarGraph(23)
-
----- /!\ '''End of edit conflict''' ----
 }}}
 {{{
  time spring23.show()
 }}}
-
----- /!\ '''Edit conflict - other version:''' ----
  CPU time: 2.31 s,  Wall time: 3.14 s[[BR]] (Time results will vary.)
 attachment:star_spr23.png
 
-
----- /!\ '''Edit conflict - your version:''' ----
- CPU time: 2.31 s,  Wall time: 3.14 s[[BR]] (Time results will vary.)
-attachment:star_spr23.png
-
-
----- /!\ '''End of edit conflict''' ----
 {{{
  time posdict23.show()
 }}}
 
----- /!\ '''Edit conflict - other version:''' ----
  CPU time: 0.68 s,  Wall time: 0.80 s[[BR]] (Time results will vary.)
 attachment:star_pd23.png
 
 View many star graphs as a SAGE Graphics Array.
 
----- /!\ '''Edit conflict - your version:''' ----
- CPU time: 0.68 s,  Wall time: 0.80 s[[BR]] (Time results will vary.)
-attachment:star_pd23.png
-
-View many star graphs as a SAGE Graphics Array.
-
----- /!\ '''End of edit conflict''' ----
 With the position dictionary filled:
 {{{
  sage: g = []
  sage: j = []
-
----- /!\ '''Edit conflict - other version:''' ----
  sage: for i in range(16):
  ...    k = graphs.StarGraph(i+3)
  ...    g.append(k)
@@ -916,71 +758,36 @@ With the position dictionary filled:
  ...    n = []
  ...    for m in range(4):
  ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''Edit conflict - your version:''' ----
- sage: for i in range(16):
- ...    k = graphs.StarGraph(i+3)
- ...    g.append(k)
- ...
- sage: for i in range(4):
- ...    n = []
- ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''End of edit conflict''' ----
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
  sage: G.show()
 }}}
 
----- /!\ '''Edit conflict - other version:''' ----
 attachment:star_array_pd.png
 
----- /!\ '''Edit conflict - your version:''' ----
-attachment:star_array_pd.png
-
----- /!\ '''End of edit conflict''' ----
 
 With the spring-layout algorithm:
 {{{
  sage: g = []
  sage: j = []
-
----- /!\ '''Edit conflict - other version:''' ----
  sage: for i in range(16):
- ...    spr = NX.star_graph(i+3)       
-
----- /!\ '''Edit conflict - your version:''' ----
- sage: for i in range(16):
- ...    spr = NX.star_graph(i+3)       
-
----- /!\ '''End of edit conflict''' ----
+ ...    spr = NX.star_graph(i+3)             
  ...    k = Graph(spr)
  ...    g.append(k)
  ...
-
----- /!\ '''Edit conflict - other version:''' ----
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
  ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''Edit conflict - your version:''' ----
- sage: for i in range(4):
- ...    n = []
- ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''End of edit conflict''' ----
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
  sage: G.show()
 }}}
 
----- /!\ '''Edit conflict - other version:''' ----
 attachment:star_array_spr.png
+
 
 
 === Wheel Graphs ===
@@ -995,31 +802,10 @@ Plotting
 
  * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each wheel graph will be displayed with the first (0) node in the center, the second node at the top, and the rest following in a counterclockwise manner.
  * With the wheel graph, we see that it doesn't take a very large n at all for the spring-layout to give a counter-intuitive display.  (See Graphics Array examples below).
-
----- /!\ '''Edit conflict - your version:''' ----
-attachment:star_array_spr.png
-
-
-=== Wheel Graphs ===
-
-Info
-
- * Returns a Wheel graph with n nodes.
- * A Wheel graph is a basic structure where one node is connected to all other nodes and those (outer) nodes are connected cyclically.
- * This constructor depends on NetworkX numeric labels.
-        
-Plotting
-
- * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each wheel graph will be displayed with the first (0) node in the center, the second node at the top, and the rest following in a counterclockwise manner.
- * With the wheel graph, we see that it doesn't take a very large n at all for the spring-layout to give a counter-intuitive display.  (See Graphics Array examples below).
-
----- /!\ '''End of edit conflict''' ----
  * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
 
 Code
 
----- /!\ '''Edit conflict - other version:''' ----
-
 {{{
  import networkx as NX
  pos_dict = {}
@@ -1030,21 +816,6 @@ Code
      pos_dict[i] = [x,y]
  G = NX.wheel_graph(n)
  return graph.Graph(G, pos=pos_dict, name="Wheel graph on %d vertices"%n)
-
----- /!\ '''Edit conflict - your version:''' ----
-
-{{{
- import networkx as NX
- pos_dict = {}
- pos_dict[0] = [0,0]
- for i in range(n)[1:]:
-     x = float(functions.cos((pi/2) + ((2*pi)/(n-1))*(i-1)))
-     y = float(functions.sin((pi/2) + ((2*pi)/(n-1))*(i-1)))
-     pos_dict[i] = [x,y]
- G = NX.wheel_graph(n)
- return graph.Graph(G, pos=pos_dict, name="Wheel graph on %d vertices"%n)
-
----- /!\ '''End of edit conflict''' ----
 }}}
 
 ==== Examples ====
@@ -1057,32 +828,18 @@ The following examples require NetworkX (to use default):
 Compare the constructor speeds.
 {{{
 
----- /!\ '''Edit conflict - other version:''' ----
  time n = NX.wheel_graph(3989); spring3989 = Graph(n)
 }}}
- CPU time: 0.07 s,  Wall time: 0.09 s[[br]] (Time results will vary._
+ CPU time: 0.07 s,  Wall time: 0.09 s[[br]] (Time results will vary.)
 
 {{{
  time posdict3989 = graphs.WheelGraph(3989)
 }}}
  CPU time: 5.99 s,  Wall time: 8.74 s[[br]] (Time results will vary.)
 
----- /!\ '''Edit conflict - your version:''' ----
- time n = NX.wheel_graph(3989); spring3989 = Graph(n)
-}}}
- CPU time: 0.07 s,  Wall time: 0.09 s[[br]] (Time results will vary._
-
-{{{
- time posdict3989 = graphs.WheelGraph(3989)
-}}}
- CPU time: 5.99 s,  Wall time: 8.74 s[[br]] (Time results will vary.)
-
----- /!\ '''End of edit conflict''' ----
 
 Compare the plotting speeds.
 {{{
-
----- /!\ '''Edit conflict - other version:''' ----
  sage: n = NX.wheel_graph(23)
  sage: spring23 = Graph(n)
  sage: posdict23 = graphs.WheelGraph(23)
@@ -1099,34 +856,13 @@ attachment:wheel_spr23.png
  CPU time: 0.68 s,  Wall time: 1.14 s[[br]] (Time results will vary.)
 attachment:wheel_pd23.png
 
-View many wheel graphs as a SAGE Graphics Array.
-
----- /!\ '''Edit conflict - your version:''' ----
- sage: n = NX.wheel_graph(23)
- sage: spring23 = Graph(n)
- sage: posdict23 = graphs.WheelGraph(23)
-}}}
-{{{
- time spring23.show()
-}}}
- CPU time: 2.24 s,  Wall time: 3.00 s[[br]] (Time results will vary.)
-attachment:wheel_spr23.png
-
-{{{
- time posdict23.show()
-}}}
- CPU time: 0.68 s,  Wall time: 1.14 s[[br]] (Time results will vary.)
-attachment:wheel_pd23.png
 
 View many wheel graphs as a SAGE Graphics Array.
 
----- /!\ '''End of edit conflict''' ----
 With the position dictionary filled:
 {{{
  sage: g = []
  sage: j = []
-
----- /!\ '''Edit conflict - other version:''' ----
  sage: for i in range(16):
  ...    k = graphs.WheelGraph(i+3)
  ...    g.append(k)
@@ -1135,81 +871,38 @@ With the position dictionary filled:
  ...    n = []
  ...    for m in range(4):
  ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''Edit conflict - your version:''' ----
- sage: for i in range(16):
- ...    k = graphs.WheelGraph(i+3)
- ...    g.append(k)
- ...
- sage: for i in range(4):
- ...    n = []
- ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''End of edit conflict''' ----
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
  sage: G.show()
 }}}
 
----- /!\ '''Edit conflict - other version:''' ----
 attachment:wheel_array_pd.png
 
----- /!\ '''Edit conflict - your version:''' ----
-attachment:wheel_array_pd.png
-
----- /!\ '''End of edit conflict''' ----
 
 With the spring-layout algorithm:
 {{{
  sage: g = []
  sage: j = []
-
----- /!\ '''Edit conflict - other version:''' ----
  sage: for i in range(16):
  ...    spr = NX.wheel_graph(i+3)       
-
----- /!\ '''Edit conflict - your version:''' ----
- sage: for i in range(16):
- ...    spr = NX.wheel_graph(i+3)       
-
----- /!\ '''End of edit conflict''' ----
  ...    k = Graph(spr)
  ...    g.append(k)
  ...
-
----- /!\ '''Edit conflict - other version:''' ----
  sage: for i in range(4):
  ...    n = []
  ...    for m in range(4):
  ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''Edit conflict - your version:''' ----
- sage: for i in range(4):
- ...    n = []
- ...    for m in range(4):
- ...        n.append(g[4*i + m].plot(node_size=50, vertex_labels=False))
-
----- /!\ '''End of edit conflict''' ----
  ...    j.append(n)
  ...
  sage: G = sage.plot.plot.GraphicsArray(j)
  sage: G.show()
 }}}
 
----- /!\ '''Edit conflict - other version:''' ----
 attachment:wheel_array_spr.png
 
----- /!\ '''Edit conflict - your version:''' ----
-attachment:wheel_array_spr.png
-
----- /!\ '''End of edit conflict''' ----
 
 
-
-
----- /!\ '''Edit conflict - other version:''' ----
 == Named Graphs ==
 
 === Petersen ===
@@ -1222,27 +915,9 @@ Plotting
  * When plotting the Petersen graph with the spring-layout algorithm, we see that this graph is not very symmetric and thus the display may not be very meaningful.  Efficiency of construction and plotting is not an issue, as the Petersen graph
 only has 10 vertices and 14 edges.
  * Our labeling convention here is to start on the outer pentagon from the top, moving counterclockwise. Then the nodes on the inner star, starting at the top and moving counterclockwise.
-
----- /!\ '''Edit conflict - your version:''' ----
-== Named Graphs ==
-
-=== Petersen ===
-
-Info
- * The Petersen Graph is a named graph that consists of 10 vertices and 14 edges, usually drawn as a five-point star embedded in a pentagon.
- * The Petersen Graph is a common counterexample.  For example, it is not Hamiltonian.
-       
-Plotting
- * When plotting the Petersen graph with the spring-layout algorithm, we see that this graph is not very symmetric and thus the display may not be very meaningful.  Efficiency of construction and plotting is not an issue, as the Petersen graph
-only has 10 vertices and 14 edges.
- * Our labeling convention here is to start on the outer pentagon from the top, moving counterclockwise. Then the nodes on the inner star, starting at the top and moving counterclockwise.
-
----- /!\ '''End of edit conflict''' ----
 
 Code
 {{{
-
----- /!\ '''Edit conflict - other version:''' ----
  pos_dict = {}
  for i in range(5):
      x = float(functions.cos(pi/2 + ((2*pi)/5)*i))
@@ -1257,6 +932,7 @@ Code
             pos=pos_dict, name="Petersen graph")
  return P
 }}}
+
 ==== Examples ====
 Petersen Graph as constructed in this class:
 {{{
@@ -1296,22 +972,8 @@ Code
      pos_dict[i] = [x,y]
  G = NX.complete_graph(n)
  return graph.Graph(G, pos=pos_dict, name="Complete graph on %d vertices"%n)
-
----- /!\ '''Edit conflict - your version:''' ----
- pos_dict = {}
- for i in range(5):
-     x = float(functions.cos(pi/2 + ((2*pi)/5)*i))
-     y = float(functions.sin(pi/2 + ((2*pi)/5)*i))
-     pos_dict[i] = [x,y]
- for i in range(10)[5:]:
-     x = float(0.5*functions.cos(pi/2 + ((2*pi)/5)*i))
-     y = float(0.5*functions.sin(pi/2 + ((2*pi)/5)*i))
-     pos_dict[i] = [x,y]
- P = graph.Graph({0:[1,4,5], 1:[0,2,6], 2:[1,3,7], 3:[2,4,8], 4:[0,3,9],\
-            5:[0,7,8], 6:[1,8,9], 7:[2,5,9], 8:[3,5,6], 9:[4,6,7]},\
-            pos=pos_dict, name="Petersen graph")
- return P
 }}}
+
 ==== Examples ====
 Petersen Graph as constructed in this class:
 {{{
