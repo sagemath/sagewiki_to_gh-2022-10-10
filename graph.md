@@ -1,13 +1,13 @@
 [[TableOfContents]]
 
-==  Introduction ==
-
+== Introduction ==
 We are implementing graph objects and algorithms in ["SAGE"]. The main people working on this project are Emily Kirkman and Robert Miller.
 
 == Current Status ==
-
  * NetworkX base classes have been interfaced, and all functions are soon to follow (SAGE Days 3 project).
  * Graph plotting has been implemented:
+attachment:9cube.png
+
  * We are currently seeking possible additions to our [http://sage.math.washington.edu:9001/graph_survey survey] of existing graph theory software.
  * The initial [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] has proven that ["NetworkX"] is the solution for SAGE.
  * On Friday, October 20th, Robert Miller gave a [http://sage.math.washington.edu/home/rlmill/talk_2001-10-20/2006-10-20SAGE.pdf talk] about the state of affairs for existing software which shared a few benchmarks and discussed some implementation ideas.
@@ -15,9 +15,7 @@ We are implementing graph objects and algorithms in ["SAGE"]. The main people wo
  * Robert Miller has wrapped the basic functionality of NetworkX into SAGE's Graph class, and implemented plotting of graphs.
  * Jim Morrow has expressed interest in using SAGE for his summer REU on graphs. Robert Miller is currently working on implementing some of the algorithms of this group.
  * Chris Godsil (Waterloo) has expressed interest in helping design a more general discrete math package in SAGE, including perhaps an open source version of nauty.
-
 == Wiki Pages ==
-
 === Survey of Existing Software ===
  * [http://sage.math.washington.edu:9001/graph_survey Link]
  * We have attempted to make a complete list of existing graph theory software. We posted functionality lists and some algorithm/construction summaries. We are very interested in feedback!
