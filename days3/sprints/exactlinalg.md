@@ -11,7 +11,7 @@ Robert Bradshaw implemented multimodular matrix multiply over ZZ.
 
 == Charpoly and minpoly over ZZ ==
 
-The linbox versions hang on 32-bit Debian Linux and on sage.math, so are disabled in the sage-2.1.2.
+The linbox versions *sometimes* hang on 32-bit Debian Linux 9with libgslcblas) and on sage.math, so are disabled in the sage-2.1.2.  The seem to work perfectly on OS X and other LInux installs. 
 
 === Smith Normal Form ===
 
