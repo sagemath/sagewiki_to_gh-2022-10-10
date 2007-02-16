@@ -38,3 +38,10 @@ for j in range(14):
 graphs.HeawoodGraph().show(color_dict=d)
 }}}
 attachment:heawood.png
+
+{{{
+G = graphs.FlowerSnark()
+G.set_boundary([15,16,17,18,19])
+G.show()
+}}}
+attachment:snark.png
