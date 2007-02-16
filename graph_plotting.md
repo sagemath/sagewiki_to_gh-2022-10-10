@@ -13,7 +13,7 @@ Robert Miller is working on this project.
 {{{
 graphs.CubeGraph(5).show(vertex_labels=False, node_size=100)
 }}}
-
+attachment:5-cube.png
 
 
 
