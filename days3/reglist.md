@@ -25,6 +25,7 @@
  * Rishikesh
  * David Roe (MIT)
  * Nathan Ryan
+ * Morgan Sherman (CSUCI)
  * Suvrit Sra (suvrit _AT_ cs.utexas.edu)
  * [:WilliamStein: William Stein]
  * Justin Walker
