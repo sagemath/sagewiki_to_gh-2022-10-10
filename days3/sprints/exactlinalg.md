@@ -1,22 +1,27 @@
 =  William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms) =
 
-== Issues to address ==
 
- * Robert Bradshaw implemented multimodular matrix multiply over ZZ.  
+== Matrix multiplication over ZZ ==
+
+Robert Bradshaw implemented multimodular matrix multiply over ZZ.  
     1. This seems to work fine on 32-bit machines, but is totally broken on 64-bit machines, so is currently disabled (in sage-2.1.2).
     2. It is interesting to fine tune the algorithm, and decide when to switch over to a multimodular method.
     3. Why is this so much '''slower''' than linbox? 
     4. Why is it slower than MAGMA? (How much slower?)
 
- * Linbox: Charpoly and minpoly over ZZ.
-    1. They hang on 32-bit Debian Linux and on sage.math, so are disabled in the sage-2.1.2.
+== Charpoly and minpoly over ZZ ==
 
-== Benchmarks to help direct our work ==
+The linbox versions hang on 32-bit Debian Linux and on sage.math, so are disabled in the sage-2.1.2.
 
-=== New code written from scratch in C/SageX/Python ===
+=== Smith Normal Form ===
+
+The SmithForm (or invariant factors) algorithm, which gives the invariant factors, is literally a hundred times slower than MAGMA. 
+It's even slower than PARI for small n.
 
 === IML -- Integer Matrix Library ===
 
-=== Linbox ===
+This has optimized dense echelon form over finite fields and a very fast implementation of the p-adic nullspace algorithm (which is very useful for echelon forms over QQ!).  Problems:
 
-The SmithForm (or invariant factors) algorithm, which gives the invariant factors, is literally a hundred times slower than MAGMA. 
+   1. the p-adic nullspace algorithm is only implemented for matrices whose entries are C long's.  But looking at the source code very strongly suggests it could easily be extended to the general case.
+
+   2. IML currently depends on atlas, so we have to rewrite it so it doesn't.  This is probably not too hard. 
