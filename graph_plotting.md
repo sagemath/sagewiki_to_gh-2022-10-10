@@ -24,3 +24,16 @@ attachment:5-cube.png
 graphs.CubeGraph(4).show(layout='spring')
 }}}
 attachment:4-cube.png
+
+{{{
+d = {}
+for j in range(14):
+    h = (j/14)*6
+    i = floor(h)
+    a = h - i; b = 1 - a # a==var3, b==var2
+    r = { 0: 1, 1: b, 2: 0, 3: 0, 4: a, 5: 1 }[i]
+    g = { 0: a, 1: 1, 2: 1, 3: b, 4: 0, 5: 0 }[i]
+    b = { 0: 0, 1: 0, 2: a, 3: 1, 4: 1, 5: b }[i]
+    d[(r, g, b)] = [j]
+graphs.HeawoodGraph().show(color_dict=d)
+}}}
