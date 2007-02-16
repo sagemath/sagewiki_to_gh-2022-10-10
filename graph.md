@@ -6,6 +6,8 @@ We are implementing graph objects and algorithms in ["SAGE"]. The main people wo
 
 == Current Status ==
 
+ * NetworkX base classes have been interfaced, and all functions are soon to follow (SAGE Days 3 project).
+ * Graph plotting has been implemented:
  * We are currently seeking possible additions to our [http://sage.math.washington.edu:9001/graph_survey survey] of existing graph theory software.
  * The initial [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] has proven that ["NetworkX"] is the solution for SAGE.
  * On Friday, October 20th, Robert Miller gave a [http://sage.math.washington.edu/home/rlmill/talk_2001-10-20/2006-10-20SAGE.pdf talk] about the state of affairs for existing software which shared a few benchmarks and discussed some implementation ideas.
