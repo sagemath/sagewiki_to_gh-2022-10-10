@@ -13,7 +13,7 @@ Robert Miller is working on this project.
 {{{
 graphs.PetersenGraph().show()
 }}}
-
+attachment:petersen.png
 
 {{{
 graphs.CubeGraph(5).show(vertex_labels=False, node_size=100)
