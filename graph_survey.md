@@ -13,9 +13,7 @@ We have attempted to make a complete list of existing graph theory software.  We
 
 === Software included with SAGE ===
 ==== GAP ====
-  . (see GRAPE-- noting that GRAPE is not as of yet standard in SAGE)
-
-=== Software optional in SAGE ===
+  . (see GRAPE-- noting that GRAPE is not standard in SAGE)
 ==== NetworkX ====
       [https://networkx.lanl.gov/ Link]
       Seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, !SciPy, PyGSL, sAsync, PyYAML: EXCELLENT documentation with links to source code from each function descriptor (TODO: make sense of networkx.utils, networkx.threshold, networkx.generators.small, networkx.me, networkx.mixing, networkx.search_class, networkx.tests); uses pygraphviz to interface to graphviz
@@ -57,6 +55,9 @@ We have attempted to make a complete list of existing graph theory software.  We
           * intervace to pygraphviz
           * Draw networks with matplotlib (pylab)
           * Draw networks in 3d with [http://www.vtk.org/ vtk]
+
+=== Software optional in SAGE ===
+
 ==== GRAPE ====
        [http://www.maths.qmul.ac.uk/~leonard/grape/ Link]
          a. says David Joyner, "An official GAP package which must be installed separately. GRAPE is primarily designed for the construction and analysis of finite graphs related to groups, designs, and geometries. It has about 50 graph-theoretical functions written in GAP. However, 6 of these call (directly or indirectly) B. D. !McKay's program nauty."
