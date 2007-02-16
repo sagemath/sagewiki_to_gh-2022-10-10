@@ -1,0 +1,45 @@
+11:30 a.m.
+Structure and Representations of Real Reductive Lie Groups: A Computational Approach
+Alfred Noel
+
+http://atlas.math.umd.edu/
+
+This software is very specific, not general at all.  Requires knowledge of Lie Theory.
+The software LIE describes complex Lie groups.
+
+Look at the complex matrix A:=<<a,d>|<c,b>>;  Determinant(A) = 1.  We'll call this a Sample Lie Group.
+SL_2(CC) -> sl_2(CC) = <<a,c>|<b,-a>>
+
+Basis of sl_2(CC): h = <<1,0>|<0,-1>>, k=<<0,0>|<1,0>>, g=<<0,1>|<0,0>>
+[h,x] = 2x.
+[h,y] = 2y.
+
+Look upon h as constructing a 1-dimensional space.  Define:  e_1(h) = 1.  e_2(h) = -1.  Then, the map [h,x] can be viewed as (e_1-e_2)(h)(x).  We can then define the Lie Algebra entirely by these functional e_1 - e_2.
+
+Complex Lie Groups:  (A,B,C,D) are Matrix groups.  Exceptional groups:  E_6, E_7, E_8, F_4, G_2.
+sl_2(CC) = A_1   (*)e_1 - e_2
+sl_3(CC) = A_2   (*)e_1 - e_2 ------- () e_1-e_3
+Dynkin Diagrams!!
+
+Weyl Group:  S_n  group of n symmetries.  |S_n| = n!
+Simple Roots  PI: alpha_1,..., alpha_l
+Roots alpha:  \sum lamba_ialpha_i   where lambda_i are either nonnegative or nonpositive (splits roots into two cases).
+
+SL_n(CC) --rho--> Aut(V)
+ ^                  ^
+exp                exp
+ |                  |
+sl_n(CC) --drho-> End(V)
+
+sl_2 :  CC h + CC x + CC y
+g = gg (+) sum( XX_{alpha} )     gg is a Cartan subalgebra
+alpha in h^* come from the Cartan subalgebra
+
+g_{CC} = g_{RR} + ig_{RR}   the "complexification of the Lie Algebra" is not unique up to g_{RR}
+E_8 is the "benchmark," the biggest group.
+
+The software tells you how many different root systems you can create by your choices of real Cartan subalgebrae.
+
+When we move to the calculating the real Weyl group, things get more complicated.
+
+This software can compute representations.
