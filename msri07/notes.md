@@ -4,7 +4,7 @@
 
 == Monday, Jan 29 ==
 
-   * 9:00 Clement Pernet (University of Waterloo): Parallelism perspectives for the LinBox library 
+   * 9:00 Clement Pernet (University of Waterloo): Parallelism perspectives for the LinBox library [attachment:notes_pernet.pdf PDF notes] [attachment:notes_pernet.txt Text notes]
 
    * 10:30 Brian Granger (Tech X Corp): Interactive parallel computing using Python and IPython
 
