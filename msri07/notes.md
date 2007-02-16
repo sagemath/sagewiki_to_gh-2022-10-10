@@ -32,7 +32,7 @@
 
    * 1:30 Robert Bradshaw (U Washington): Loosely dependent parallel processes [attachment:notes_bradshaw.pdf PDF notes] [attachment:notes_bradshaw.txt Text notes]
 
-   * 2:00 Ilias Kotsireas (Laurier U, Canada): Combinatorial Designs: constructions, algorithms and new results [attachment:notes_kostireas.pdf PDF notes] [attachment:notes_kostireas.txt Text notes]
+   * 2:00 Ilias Kotsireas (Laurier U, Canada): Combinatorial Designs: constructions, algorithms and new results [attachment:notes_kostireas.pdf PDF notes] [attachment:notes_kotsireas.txt Text notes]
 
 == Thursday, Feb 1 ==
 
