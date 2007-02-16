@@ -68,4 +68,27 @@ On Wed, 14 Feb 2007 19:42:22 -0800, Iftikhar Burhanuddin <burhanud@usc.edu> wrot
 > Regards,
 > Ifti
 
+---------- Forwarded message ----------
+Date: Fri, 16 Feb 2007 06:02:11 +0000
+From: Joshua Kantor <kantor.jm@gmail.com>
+Reply-To: sage-devel@googlegroups.com
+To: sage-devel <sage-devel@googlegroups.com>
+Subject: [sage-devel] Re: Memory leaks
+
+
+Perhaps related (and maybe already fixed). But I noticed the
+following
+do
+M=MatrixSpace(ZZ,1000)
+
+then repeatedly do
+m=M.random_element();get_memory_usage()
+
+You should see the memory usage go up by around 16 mb per execution
+and it doesn't appear to ever go down,
+
+If you do the same thing with RDF matrices for example, the memory
+usage goes up a bit but remains basically constant.
+
+
 }}}
