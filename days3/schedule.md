@@ -6,8 +6,8 @@
  * 1:00-3:00 -- SAGE Intro tutorial/Installfest
  * 3:00-3:30 -- Robert Bradshaw (UW): SAGE's Linear Algebra architecture
  * 3:35-4:05 -- Greg Bard (Maryland): The Method of Four Russians for Matrix Inverses and Factorization
- * 4:10-4:40 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
- * 4:45-5:15 -- Suvrit Sra (Texas): Sparse Matrix Computations
+ * 4:10-4:40 -- Suvrit Sra (Texas): Sparse Matrix Computations
+ * 4:45-5:15 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
  * 5:20-5:50 -- S. J. Klein: OLPC
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
@@ -18,11 +18,11 @@
  * 10:00-10:50 -- Yi Qiang (UW): DSAGE
  * 11:00-1:00 -- Lunch
  * 1:00-3:00 -- DSAGE Intro & Tutorial (Robert Bradshaw & Yi Qiang)
- * 3:00-3:30 -- Michael Orrison (Harvey Mudd):  A Computational Algebraist Looks at SAGE
+ * 3:00-3:30 -- Michael Orrison (Harvey Mudd):  Computational algebra and SAGE
  * 3:35-4:05 -- David Roe (Harvard): p-adic arithmetic in SAGE
- * 4:10-4:40 -- Ifti Burhanuddin (USC): Supersingular Module
- * 4:45-5:15 -- Kristin Lauter (Microsoft): Cryptography and SAGE
- * 5:20-5:50 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
+ * 4:10-4:40 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
+ * 4:45-5:15 -- Ifti Burhanuddin (USC): Supersingular Module
+ * 5:20-5:50 -- Kristin Lauter (Microsoft): Cryptography and SAGE
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
 
