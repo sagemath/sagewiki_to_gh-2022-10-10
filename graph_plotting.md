@@ -23,3 +23,4 @@ attachment:5-cube.png
 {{{
 graphs.CubeGraph(4).show(layout='spring')
 }}}
+attachment:4-cube.png
