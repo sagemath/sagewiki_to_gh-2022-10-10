@@ -1,5 +1,12 @@
 =  William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms) =
 
+From sage-2.1.2 do 
+{{{
+   import sage.matrix.benchmark as b
+   b.[tab]
+}}}
+to see some of the benchmarks that we would like to optimize.  Currently exact linear
+algebra in SAGE is still, in some cases, a serious embarrassment. 
 
 == Matrix multiplication over ZZ ==
 
