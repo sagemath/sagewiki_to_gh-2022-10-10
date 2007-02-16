@@ -45,3 +45,11 @@ G.set_boundary([15,16,17,18,19])
 G.show()
 }}}
 attachment:snark.png
+
+== 3D Plotting ==
+
+ * Tachyon plots are coming soon. As in next week.
+
+ * Interactive graph viewing (i.e. spin it around...) will hopefully be available by March.
+
+ * Interactive graph editing is on Chris Godsil's wishlist; it will be implemented via Java applet some time in the future.
