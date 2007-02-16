@@ -37,3 +37,4 @@ for j in range(14):
     d[(r, g, b)] = [j]
 graphs.HeawoodGraph().show(color_dict=d)
 }}}
+attachment:heawood.png
