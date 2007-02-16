@@ -51,3 +51,4 @@ attachment:9_cube.png
 {{{
 graphs_query.show_graphs(with_properties=True, nodes=7, diameter=5)
 }}}
+attachment:database.png
