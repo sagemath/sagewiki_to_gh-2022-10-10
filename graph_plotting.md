@@ -2,7 +2,7 @@
 
 ==  Introduction ==
 
-Robert Miller is working on this project.
+Robert Miller is working on this project. [http://sage.math.washington.edu:9001/graph Back to main wiki]
 
 == 2D Plotting ==
 
