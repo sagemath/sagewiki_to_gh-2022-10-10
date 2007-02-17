@@ -49,4 +49,3 @@
 == Wednesday, Feb 21 ==
 
  * 9:00-11:00 -- Wrap-up
- * 11:00-1:00 -- Lunch
