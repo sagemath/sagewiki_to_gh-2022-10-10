@@ -31,3 +31,9 @@ There are going to to be a couple of short five minute talks on Sunday. If you h
  * [http://modular.math.washington.edu/home/wdj/art/sd3-magazine-cover.jpg magazine-cover style poster]
  * [http://sage.math.washington.edu/home/boothby/icons/sagedays3.png sage days 3 logo]
  * [http://sage.math.washington.edu/home/boothby/icons/sagedays3.1.png sage days 3 logo]
+
+== Local Info ==
+
+If you're looking to explore LA while you're here, the Big Blue Bus (aka the Santa Monica Bus) will take you to some excellent places. If you want to head to, say, the beach, you should get on the bus outside the Ackerman Union and take it to Broadway & 4th. The 3rd Street Promenade has shops and restaurants, and you can walk down to the beach at the Santa Monica Pier (Broadway & Ocean; Ocean = 1st). You could take any of the #1, #2, or #3 bus, with the #1 probably being your best bet. Here's a link to the schedules:
+
+http://www.bigbluebus.com/busroutes/index.asp
