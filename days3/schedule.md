@@ -3,12 +3,10 @@
  * 9:00-9:50 -- William Stein (UW): SAGE State of the Union address
  * 10:00-10:50 -- Josh Kantor (UW): Parallel computation and the future of SAGE
  * 11:00-1:00 -- Lunch
- * 1:00-3:00 -- SAGE Intro tutorial/Installfest
- * 3:00-3:30 -- Robert Bradshaw (UW): SAGE's Linear Algebra architecture
+ * 1:00-3:30 -- SAGE Intro tutorial/Installfest
  * 3:35-4:05 -- Greg Bard (Maryland): The Method of Four Russians for Matrix Inverses and Factorization
  * 4:10-4:40 -- Suvrit Sra (Texas): Sparse Matrix Computations
  * 4:45-5:15 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
- * 5:20-5:50 -- S. J. Klein: OLPC
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
 
