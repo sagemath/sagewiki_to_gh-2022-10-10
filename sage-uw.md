@@ -7,7 +7,7 @@ Talks are all in the communications building, B027, except on Tuesday, Feb 13:
      * Tuesday, Feb 13, 5 P.M.: William Stein -- [http://www.math.washington.edu/~greenber/steinabstract.pdf ''The arithmetic of elliptic curves (in the number theory seminar -- C401)'']
      * Wednesday, Feb 14, 9 A.M.: Martin Albrecht -- [http://www.informatik.uni-bremen.de/~malb/binary/20070214-pyrex-uw.pdf ''Pyrex/SageX'']
      * Thursday, Feb 15, 9 A.M.: Robert Miller and Emily Kirkman -- ''Informal Introduction to the Graph Theory Package''
-     * Thursday, Feb 15, 4 P.M.: Robert Bradshaw: ''The status and plan for 3D graphics in SAGE''
+     * Thursday, Feb 15, 4 P.M.: Robert Bradshaw: ''The status and plan for 3D graphics in SAGE'' [attachment:Sage3D.pdf]
 
 
 
