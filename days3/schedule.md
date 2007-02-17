@@ -1,6 +1,6 @@
 == Saturday, Feb 17 ==
 
- * 9:00-9:50 -- William Stein (UW): SAGE State of the Union address
+ * 9:00-9:50 -- [http://sage.math.washington.edu/talks/2007-02-17-status/ William Stein (UW): SAGE State of the Union address]
  * 10:00-10:50 -- Josh Kantor (UW): Parallel computation and the future of SAGE
  * 11:00-1:00 -- Lunch
  * 1:00-3:30 -- SAGE Intro tutorial/Installfest
