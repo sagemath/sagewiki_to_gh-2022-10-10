@@ -14,7 +14,7 @@
 
 == Sunday, Feb 18 ==
 
- * 9:00-9:50 -- Martin Albrecht (Bremen): SageX
+ * 9:00-9:50 -- Clement Pernet (U Waterloo): Matrix multiplication based linear algebra: how asymptotic and practical efficiency meet.
  * 10:00-10:50 -- Yi Qiang (UW): DSAGE
  * 11:00-1:00 -- Lunch
  * 1:00-3:00 -- DSAGE Intro & Tutorial (Robert Bradshaw & Yi Qiang)
@@ -31,7 +31,7 @@
  * 9:30-11:00 -- William Stein: Mercurial tutorial
  * 11:00-1:00 -- Lunch
  * 1:00-3:00 -- Coding Sprint
- * 3:00-4:00 -- Clement Pernet (U Waterloo): Matrix multiplication based linear algebra: how asymptotic and practical efficiency meet.
+ * 3:00-4:00 -- Martin Albrecht (Bremen): SageX
  * 4:00-6:00 -- Coding Sprint
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
