@@ -46,6 +46,18 @@ G.show()
 }}}
 attachment:snark.png
 
+{{{
+C = graphs.CubeGraph(9)
+color = {}
+for v in C.vertices():
+    b = v.count('1')/9
+    g = 1 - b
+    if color.has_key((0, g, b)): color[(0, g, b)].append(v)
+    else: color[(0, g, b)] = [v]
+C.show(vertex_labels=False, node_size=60, graph_border=True, color_dict=color, figsize=[9,8])
+}}}
+attachment:9-cube.png
+
 == 3D Plotting ==
 
  * Tachyon plots are coming soon. As in next week.
