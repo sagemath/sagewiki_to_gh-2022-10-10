@@ -24,8 +24,8 @@ List your ideas for coding sprints here.
 == NOTE ==
 
 It would be very good to do the following for each sprint project (on a separate page linked to from above).
-    1. create a specific detailed realistic list of goals.
-    2. list every possible problem they can think of that might cause problems for (a)
-    3. how many people are needed to do a)
-    4. background reading material that sprinters should look at (this could be papers or source code).
-    5. list anything else that could go wrong, and ways to deal with it.
+    a. create a specific detailed realistic list of goals.
+    a. list every possible problem they can think of that might cause problems for (a)
+    a. how many people are needed to do a)
+    a. background reading material that sprinters should look at (this could be papers or source code).
+    a. list anything else that could go wrong, and ways to deal with it.
