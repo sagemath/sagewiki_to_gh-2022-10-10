@@ -19,6 +19,8 @@ List your ideas for coding sprints here.
 
  * [:days3/sprints/Supersingular: Iftikhar Burhanuddin: Investigte memory leaks associated to SupersingularModule code.]
 
+ * [:days3/sprints/examples: William Stein: Revamp the SAGE_ROOT/examples directory so it is better documented and automatically tested.]
+
 == NOTE ==
 
 It would be very good to do the following for each sprint project (on a separate page linked to from above).
