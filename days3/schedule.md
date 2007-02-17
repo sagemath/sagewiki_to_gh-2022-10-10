@@ -15,7 +15,7 @@
  * 9:00-9:50 -- Clement Pernet (U Waterloo): Matrix multiplication based linear algebra: how asymptotic and practical efficiency meet.
  * 10:00-10:50 -- Yi Qiang (UW): DSAGE
  * 11:00-1:00 -- Lunch
- * 1:00-3:00 -- DSAGE Intro & Tutorial (Robert Bradshaw & Yi Qiang)
+ * 1:00-3:00 -- DSAGE Intro & Tutorial (Yi Qiang)
  * 3:00-3:30 -- Michael Orrison (Harvey Mudd):  Computational algebra and SAGE
  * 3:35-4:05 -- David Roe (Harvard): p-adic arithmetic in SAGE
  * 4:10-4:40 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
@@ -46,4 +46,4 @@
 
 == Wednesday, Feb 21 ==
 
- * 9:00-11:00 -- Wrap-up
+ * 9:00-12:00 -- Wrap-up
