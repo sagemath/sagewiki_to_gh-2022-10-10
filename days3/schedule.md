@@ -21,7 +21,6 @@
  * 3:35-4:05 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
  * 4:10-4:40 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
  * 4:45-5:15 -- Ifti Burhanuddin (USC): Supersingular Module
- * 5:20-5:50 -- Kristin Lauter (Microsoft): Cryptography and SAGE
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
 
