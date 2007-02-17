@@ -1,7 +1,7 @@
 == Saturday, Feb 17 ==
 
  * 9:00-9:50 -- [http://sage.math.washington.edu/talks/2007-02-17-status/ William Stein (UW): SAGE State of the Union address]
- * 10:00-10:50 -- Josh Kantor (UW): Parallel computation and the future of SAGE
+ * 10:00-10:50 -- [http://sage.math.washington.edu/home/jkantor/parallelism.pdf Josh Kantor (UW): Parallel computation and the future of SAGE]
  * 11:00-1:00 -- Lunch
  * 1:00-3:30 -- SAGE Intro tutorial/Installfest
  * 3:35-4:05 -- Greg Bard (Maryland): The Method of Four Russians for Matrix Inverses and Factorization
