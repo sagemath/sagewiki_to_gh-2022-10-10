@@ -6,7 +6,8 @@
  * 1:00-3:30 -- SAGE Intro tutorial/Installfest
  * 3:35-4:05 -- Greg Bard (Maryland): The Method of Four Russians for Matrix Inverses and Factorization
  * 4:10-4:40 -- Suvrit Sra (Texas): Sparse Matrix Computations
- * 4:45-5:15 -- Robert Miller (UW): Introduction to the Graph class [Tom Boothby (UW): Fast(ish) polynomial evaluation will be rescheduled]
+ * 4:45-5:15 -- Robert Miller (UW): Introduction to the Graph class 
+ * 5:20-5:50 -- David Roe (Harvard): p-adic arithmetic in SAGE
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
 
@@ -17,7 +18,7 @@
  * 11:00-1:00 -- Lunch
  * 1:00-3:00 -- DSAGE Intro & Tutorial (Yi Qiang)
  * 3:00-3:30 -- Michael Orrison (Harvey Mudd):  Computational algebra and SAGE
- * 3:35-4:05 -- David Roe (Harvard): p-adic arithmetic in SAGE
+ * 3:35-4:05 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
  * 4:10-4:40 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
  * 4:45-5:15 -- Ifti Burhanuddin (USC): Supersingular Module
  * 5:20-5:50 -- Kristin Lauter (Microsoft): Cryptography and SAGE
