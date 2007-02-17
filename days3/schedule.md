@@ -50,4 +50,3 @@
 
  * 9:00-11:00 -- Wrap-up
  * 11:00-1:00 -- Lunch
- * 1:00-5:00 -- Wrap-Up & Discussion (for remaining attendees)
