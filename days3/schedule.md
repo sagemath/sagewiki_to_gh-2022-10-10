@@ -12,7 +12,7 @@
 
 == Sunday, Feb 18 ==
 
- * 9:00-9:50 -- Clement Pernet (U Waterloo): Matrix multiplication based linear algebra: how asymptotic and practical efficiency meet.
+ * 9:00-9:50 -- Clement Pernet (U Waterloo): Matrix multiplication based linear algebra: how asymptotic and practical efficiency meet. [attachment:cpoly.pdf slides]
  * 10:00-10:50 -- Yi Qiang (UW): DSAGE
  * 11:00-1:00 -- Lunch
  * 1:00-3:00 -- DSAGE Intro & Tutorial (Yi Qiang)
