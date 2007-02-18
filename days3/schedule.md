@@ -18,9 +18,9 @@
  * 1:00-3:00 -- DSAGE Intro & Tutorial (Yi Qiang)
  * 3:00-3:30 -- Michael Orrison (Harvey Mudd):  Computational algebra and SAGE
  * 3:35-4:05 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
- * 4:10-4:40 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
- * 4:45-5:15 -- Ifti Burhanuddin (USC): Supersingular Module
- * 5:20-5:50 -- David Roe (Harvard): p-adic arithmetic in SAGE
+ * 4:10-4:40 -- David Roe (Harvard): p-adic arithmetic in SAGE
+ * 4:45-5:15 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
+ * 5:20-5:50 -- Ifti Burhanuddin (USC): Supersingular Module
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
 
