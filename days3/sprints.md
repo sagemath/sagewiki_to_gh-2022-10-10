@@ -21,7 +21,7 @@ List your ideas for coding sprints here.
 
  * [:days3/sprints/examples: William Stein: Revamp the SAGE_ROOT/examples directory so it is better documented and automatically tested.]
 
- * [:days3/sprints/vmware: Create a new vmware virtual machine for SAGE; make it easy to config as web server, DSage worker, etc.]
+ * [:days3/sprints/vmware: WilliamStein: Create a new vmware virtual machine for SAGE; make it easy to config as web server, DSage worker, etc.]
 
 == NOTE ==
 
