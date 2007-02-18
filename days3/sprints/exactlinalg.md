@@ -1,5 +1,10 @@
 =  William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms) =
 
+== Notes ==
+
+[:LinBox/LinBox: tips for using Linbox]
+
+== Benchmarks ==
 From sage-2.1.2 do 
 {{{
    import sage.matrix.benchmark as b
