@@ -1,10 +1,12 @@
 =  William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms) =
 == Tasks ==
 
- 1. Do more on sage/matrix/benchmark.py
- 2. Create some modular symbols benchmarks.
- 3. Sparse matrices over QQ (fast). 
- 4. A whole bunch of basic things can be sped up for matrices. 
+ * Finish writing sage/matrix/benchmark.py
+ * Create some modular symbols benchmarks.
+ * Sparse matrices over QQ (fast). 
+ * Basic matrix arithmetic speed ups:
+     * copy, compare, negation, etc. 
+  
 
 == Notes ==
 
