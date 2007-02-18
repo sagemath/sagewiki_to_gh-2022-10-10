@@ -8,6 +8,7 @@
      * copy, compare, negation, etc. 
  * Fix bugs in linbox so SAGE can use linbox charpoly, etc., etc.
  * Fix bugs in multimodular matrix multiply on 64-bit machines.
+ * ASAP -- Option to disable all use of linbox (and do this by default for now) -- it's buggy on meccah (try det there in matrix_integer_dense).  We need way more work before rolling this out by default in *any* cases!
 
 == Notes ==
 
