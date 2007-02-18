@@ -16,12 +16,12 @@
  * 10:00-10:50 -- Yi Qiang (UW): DSAGE
  * 11:00-1:00 -- Lunch
  * 1:00-2:00 -- DSAGE Intro & Tutorial (Yi Qiang)
- * 2:00-2:30 -- Michael Orrison (Harvey Mudd):  Computational algebra and SAGE
- * 2:35-3:05 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
- * 3:10-3:40 -- David Roe (Harvard): p-adic arithmetic in SAGE
- * 3:45-4:15 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
- * 4:20-4:50 -- Ifti Burhanuddin (USC): Supersingular Module
- * 5:00-6:00 -- [:days3/lightningtalks: Lightning Talks]
+ * 2:00-3:00 -- [:days3/lightningtalks: Lightning Talks]
+ * 3:00-3:30 -- Michael Orrison (Harvey Mudd):  Computational algebra and SAGE
+ * 3:35-4:05 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
+ * 4:10-4:40 -- David Roe (Harvard): p-adic arithmetic in SAGE
+ * 4:45-5:15 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
+ * 5:20-5:50 -- Ifti Burhanuddin (USC): Supersingular Module
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
 
