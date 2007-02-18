@@ -8,7 +8,7 @@
  * 4:55-5:25 -- Suvrit Sra (Texas): Sparse Matrix Computations 
  * 5:30-6:00 -- [http://sage.math.washington.edu/home/rlmill/sage-demo/graph_intro.pdf Robert Miller (UW): Introduction to the Graph class]
  * 6:00-8:00 -- Dinner
- * 8:00-??? -- Coding Sprint
+ * 8:00pm-1:00am -- Coding Sprint
 
 == Sunday, Feb 18 ==
 
@@ -23,7 +23,7 @@
  * 4:45-5:15 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
  * 5:20-5:50 -- Ifti Burhanuddin (USC): Supersingular Module
  * 6:00-8:00 -- Dinner
- * 8:00-??? -- Coding Sprint
+ * 8:00pm--1:00am-- Coding Sprint
 
 == Monday, Feb 19 ==
 
