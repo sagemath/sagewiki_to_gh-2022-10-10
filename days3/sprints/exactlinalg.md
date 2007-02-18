@@ -6,7 +6,6 @@
  * Sparse matrices over QQ (fast). 
  * Basic matrix arithmetic speed ups:
      * copy, compare, negation, etc. 
-  
 
 == Notes ==
 
