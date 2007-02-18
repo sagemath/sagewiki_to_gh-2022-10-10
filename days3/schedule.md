@@ -14,7 +14,7 @@
  * 11:00-1:00 -- Lunch
  * 1:00-2:00 -- DSAGE Intro & Tutorial (Yi Qiang)
  * 2:00-3:00 -- [:days3/lightningtalks:Lightning Talks]
- * 3:00-3:30 -- Michael Orrison (Harvey Mudd):  Computational algebra and SAGE
+ * 3:00-3:30 -- Michael Hansen (Harvey Mudd) & Michael Orrison (Harvey Mudd):  Applied Representation Theory and SAGE
  * 3:35-4:05 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
  * 4:10-4:40 -- David Roe (Harvard): p-adic arithmetic in SAGE
  * 4:45-5:15 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
