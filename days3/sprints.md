@@ -2,7 +2,7 @@
 
 List your ideas for coding sprints here.
 
- 1. [:days3/sprints/sparsenumerical: Josh Kantor: Sparse numerical linear algebra]
+ 1. ([:days3/sprints/sparsenumerical: Josh Kantor: Sparse numerical linear algebra])
 
  * [:days3/sprints/pippenger: Tom Boothby: Pippenger's Algorithm for fast multivariate polynomial evaluation]
 
@@ -15,7 +15,7 @@ List your ideas for coding sprints here.
  * [:days3/sprints/3d: Tom Boothby/Robert Bradshaw/Robert Miller: 3d graphics and object arithmetic / integration with tachyon]
 
  * [:days3/sprints/objconst: David Harvey: would like to experiment further with speeding up object construction]
- * [:days3/sprints/dsage: Yi Qiang: improve user interface for dsage, get rid of dsage_console.py, implement SQLite backend, remove server side pickling/unpickling. ]
+ * [:days3/sprints/dsage: Yi Qiang & Alex Clemesha: improve user interface for dsage, get rid of dsage_console.py, implement SQLite backend, remove server side pickling/unpickling. ]
 
  * [:days3/sprints/Supersingular: Iftikhar Burhanuddin: Investigte memory leaks associated to SupersingularModule code.]
 
