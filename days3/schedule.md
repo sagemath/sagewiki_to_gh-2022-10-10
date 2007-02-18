@@ -26,7 +26,7 @@
 
 == Monday, Feb 19 ==
 
- * 9:30-11:00 -- William Stein: Mercurial tutorial
+ * 9:30-11:00 -- William Stein: Mercurial tutorial (see http://video.google.com/videoplay?docid=-7724296011317502612)
  * 11:00-1:00 -- Lunch
  * 1:00-3:00 -- Coding Sprint
  * 3:00-4:00 -- Martin Albrecht (Bremen): SageX
