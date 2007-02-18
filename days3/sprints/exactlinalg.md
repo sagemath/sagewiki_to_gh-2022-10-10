@@ -6,6 +6,8 @@
  * Sparse matrices over QQ (fast). 
  * Basic matrix arithmetic speed ups:
      * copy, compare, negation, etc. 
+ * Fix bugs in linbox so SAGE can use linbox charpoly, etc., etc.
+ * Fix bugs in multimodular matrix multiply on 64-bit machines.
 
 == Notes ==
 
