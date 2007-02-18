@@ -21,7 +21,7 @@
  * 3:10-3:40 -- David Roe (Harvard): p-adic arithmetic in SAGE
  * 3:45-4:15 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
  * 4:20-4:50 -- Ifti Burhanuddin (USC): Supersingular Module
- * 5:00-6:00 -- [:days3/lightningtalks/ Lightning Talks]
+ * 5:00-6:00 -- [:days3/lightningtalks: Lightning Talks]
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
 
