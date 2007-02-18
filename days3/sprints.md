@@ -8,7 +8,7 @@ List your ideas for coding sprints here.
 
  * [:days3/sprints/exactlinalg: William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms)]
 
- * [:days3/sprints/flint: David Harvey (+ possibly Martin Albrecht): multithreaded polynomial arithmetic in FLINT]
+ * (cancelled) [:days3/sprints/flint: David Harvey (+ possibly Martin Albrecht): multithreaded polynomial arithmetic in FLINT]
 
  * [:days3/sprints/roe: David Roe: p-adics (extension fields) (David Harvey would like to help with this)]
 
