@@ -1,4 +1,4 @@
-=  William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms) =.
+=  William Stein: Optimized exact sparse and dense linear algebra (especially for computing modular forms) =
 == Tasks ==
 
  1. Do more on sage/matrix/benchmark.py
