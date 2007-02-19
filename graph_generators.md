@@ -76,7 +76,7 @@ sage: heawood.show(figsize=[4,4], graph_border=True)
 attachment:heawood.png
 
 
-=== Moebius Kantor ===
+=== Möbius Kantor ===
 {{{
 sage: moebius_kantor = graphs.MoebiusKantorGraph()
 sage: moebius_kantor.show(figsize=[4,4], graph_border=True)
