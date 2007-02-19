@@ -4,7 +4,7 @@ Emily Kirkman is working on this project.
 
 The goal of the Graph Generators Class is to implement constructors for many common graphs, as well as thorough docstrings that can be used for reference.  The graph generators will grow as the Graph Theory Project does.  So please check back for additions and feel free to leave requests in the suggestions section.  
 
-We currently have 30 constructors of named graphs and basic structures.  Most of these graphs are constructed with a preset dictionary of x-y coordinates of each node.  This is advantagous SAGE graphs all have an associated graphics object, and examples of plotting options are shown on the graphs below.
+We currently have 30 constructors of named graphs and basic structures.  Most of these graphs are constructed with a preset dictionary of x-y coordinates of each node.  This is advantageous for both style and time.  (The default graph plotting in SAGE using the spring-layout algorithm).  SAGE graphs all have an associated graphics object, and examples of plotting options are shown on the graphs below.
 
 As we implement algorithms into the Graph Theory Package, the constructors of known graphs would set their properties upon instantiation as well.  For example, if someone created a very large complete bipartite graph and then asked if it is a bipartite graph (not currently implemented), then instead of running through an algorithm to check it, we could return a value set at instantiation.  Further, this will improve the reference use of the docstrings as we would list the properties of each named graph.
 
@@ -20,19 +20,19 @@ The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims 
 = Graphs I Plan to Add =
 
 == Inherited from NetworkX ==
- *	Bipartite Generators
- *	Balanced tree
- *	Dorogovstev golstev mendes graph
- *	Grid (n-dim)
- *	Hypercube
- *	Chvatal
- *	Desargues
- *	Pappus
- *	Sedgewick
- *	Truncated cube
- *	Truncated tetrahedron
- *	Tutte
- *	Also many more random generators and gens from degree sequence to sort through
+ * Bipartite Generators
+ * Balanced tree
+ * Dorogovstev golstev mendes graph
+ * Grid (n-dim)
+ * Hypercube
+ * Chvatal
+ * Desargues
+ * Pappus
+ * Sedgewick
+ * Truncated cube
+ * Truncated tetrahedron
+ * Tutte
+ * Also many more random generators and gens from degree sequence to sort through
 
 == Families of Graphs ==
  * Generalized Petersen graphs
@@ -52,7 +52,7 @@ The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims 
  * Johnson (maybe own class)
  * Turan
 
-= Currently Implemented in Graph Database =
+= Currently Implemented in Graph Generators =
 
 
 
