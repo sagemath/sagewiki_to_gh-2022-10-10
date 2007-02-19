@@ -55,7 +55,9 @@ The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims 
 
 === Flower Snark ===
 {{{
-
+sage: flower_snark = graphs.FlowerSnark()
+sage: flower_snark.set_boundary([15,16,17,18,19])
+sage: flower_snark.show(figsize=[4,4], graph_border=True)
 }}}
 
 
