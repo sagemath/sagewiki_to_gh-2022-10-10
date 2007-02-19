@@ -1,12 +1,16 @@
-The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
+Gallery of Graph Generators in SAGE
 
-The goal of the Graph Generators Class is to implement constructors for many common graphs, as well as thorough docstrings that can be used for reference.  The graph generators will grow as the Graph Theory Project does.  So please check back for additions and feel free to leave requests in the suggestions section.  We currently have 30 constructors of named graphs and basic structures.  Most of these graphs are constructed with a preset dictionary of x-y coordinates of each node.  SAGE graphs all have an associated graphics object, and examples of plotting options are shown on the graphs below.
+Emily Kirkman is working on this project.
+
+The goal of the Graph Generators Class is to implement constructors for many common graphs, as well as thorough docstrings that can be used for reference.  The graph generators will grow as the Graph Theory Project does.  So please check back for additions and feel free to leave requests in the suggestions section.  
+
+We currently have 30 constructors of named graphs and basic structures.  Most of these graphs are constructed with a preset dictionary of x-y coordinates of each node.  This is advantagous SAGE graphs all have an associated graphics object, and examples of plotting options are shown on the graphs below.
 
 As we implement algorithms into the Graph Theory Package, the constructors of known graphs would set their properties upon instantiation as well.  For example, if someone created a very large complete bipartite graph and then asked if it is a bipartite graph (not currently implemented), then instead of running through an algorithm to check it, we could return a value set at instantiation.  Further, this will improve the reference use of the docstrings as we would list the properties of each named graph.
 
-Scroll down to see current status and examples.  There are lots of pictures, so I recommend using the Table of Contents to navigate.  Also, please note the suggestions section.  Posting suggestions there will be easiest for me to keep on top of.
+Due to the volume of graphs now in the generators class, this wiki page is now intended to give status updates and serve as a gallery of graphs currently implemented.  To see information on a specific graph, run SAGE or the SAGE [http://sage.math.washington.edu:9001 notebook].  For a list of graph constructos, type "graphs." and hit tab.  For docstrings, type the graph name and one question mark (i.e.:  "graphs.CubeGraph?") then shift + enter.  For source code, do likewise with two question marks.
 
-Emily Kirkman is working on this project.
+The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
 
 [[TableOfContents]]
 
