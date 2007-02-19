@@ -18,7 +18,7 @@
  * 3:35-4:05 -- Tom Boothby (UW): Fast(ish) polynomial evaluation
  * 4:20-4:50 -- David Roe (Harvard): p-adic arithmetic in SAGE
  * 4:55-5:25 -- Sebastian Pauli (UNC Greensboro): Round 4 algorithm
- * 5:30-6:00 -- Ifti Burhanuddin (USC): Supersingular Module
+ * 5:30-6:00 -- Ifti Burhanuddin (USC): Supersingular Module [:http://sage.math.washington.edu/home/burhanud/SD3_talk/:Slides]
  * 6:00-8:00 -- Dinner
  * 8:00pm--1:00am-- Coding Sprint
 == Monday, Feb 19 ==
