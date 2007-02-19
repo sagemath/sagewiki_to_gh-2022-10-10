@@ -6,7 +6,7 @@ We currently have 30 constructors of named graphs and basic structures.  Most of
 
 As we implement algorithms into the Graph Theory Package, the constructors of known graphs would set their properties upon instantiation as well.  For example, if someone created a very large complete bipartite graph and then asked if it is a bipartite graph (not currently implemented), then instead of running through an algorithm to check it, we could return a value set at instantiation.  Further, this will improve the reference use of the docstrings as we would list the properties of each named graph.
 
-Due to the volume of graphs now in the generators class, this wiki page is now intended to give status updates and serve as a gallery of graphs currently implemented.  To see information on a specific graph, run SAGE or the SAGE [http://sage.math.washington.edu:8100 notebook].  For a list of graph constructos, type "graphs." and hit tab.  For docstrings, type the graph name and one question mark (i.e.:  "graphs.!CubeGraph?") then shift + enter.  For source code, do likewise with two question marks.
+Due to the volume of graphs now in the generators class, this wiki page is now intended to give status updates and serve as a gallery of graphs currently implemented.  To see information on a specific graph, run SAGE or the SAGE [http://sage.math.washington.edu:8100 notebook].  For a list of graph constructors, type "graphs." and hit tab.  For docstrings, type the graph name and one question mark (i.e.:  "graphs.!CubeGraph?") then shift + enter.  For source code, do likewise with two question marks.
 
 [[TableOfContents]]
 
