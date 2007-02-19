@@ -2,7 +2,7 @@
 
 == gmpy lessons??? ==
 
-Do "sage -i gmpy-1.0.1".  Then you can see the following:
+Do "sage -i gmpy-1.0.1".  Then you can see the following (*ignore* the wall time):
 
 
 
