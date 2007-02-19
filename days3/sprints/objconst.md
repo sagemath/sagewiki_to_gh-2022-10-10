@@ -46,9 +46,57 @@ for i in range(10^6):
 CPU time: 0.37 s,  Wall time: 0.66 s
 }}}
 
-{{{
+====================================
 
+
+{{{
+import gmpy
 }}}
+
+{{{
+a = ZZ.random_element(2^64); b = ZZ.random_element(2^64)
+}}}
+
+{{{
+a = gmpy.mpz(int(a)); b = gmpy.mpz(int(b))
+}}}
+
+{{{
+%time
+for i in range(10^6):
+    c = a * b
+///
+CPU time: 0.41 s,  Wall time: 0.54 s
+}}}
+
+{{{
+a = ZZ(long(a)); b = ZZ(long(b))
+}}}
+
+{{{
+%time
+for i in range(10^6):
+    c = a * b
+///
+CPU time: 0.93 s,  Wall time: 1.48 s
+}}}
+
+{{{
+a = long(a); b = long(b)
+}}}
+
+{{{
+%time
+for i in range(10^6):
+    c = a * b
+///
+CPU time: 0.41 s,  Wall time: 0.53 s
+}}}
+
+
+
+
+
 
 == Email announcing the project from David Harvey ==
  
