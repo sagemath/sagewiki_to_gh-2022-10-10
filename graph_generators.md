@@ -50,67 +50,79 @@ Emily Kirkman is working on this project.
 
 = Currently Implemented in Graph Database =
 
-== Class Docstrings ==
 
+
+== Named Graphs ==
+
+=== Petersen ===
+
+Info
+ * The Petersen Graph is a named graph that consists of 10 vertices and 14 edges, usually drawn as a five-point star embedded in a pentagon.
+ * The Petersen Graph is a common counterexample.  For example, it is not Hamiltonian.
+       
+Plotting
+ * When plotting the Petersen graph with the spring-layout algorithm, we see that this graph is not very symmetric and thus the display may not be very meaningful.  Efficiency of construction and plotting is not an issue, as the Petersen graph
+only has 10 vertices and 14 edges.
+ * Our labeling convention here is to start on the outer pentagon from the top, moving counterclockwise. Then the nodes on the inner star, starting at the top and moving counterclockwise.
+
+Code
 {{{
-A collection of constructors of common graphs.
-
-USES:
-    A list of all graphs and graph structures in this database is available via tab completion.
-    Type "graphs." and then hit tab to see which graphs are available.
-
-    The docstrings include educational information about each named graph with the hopes that this
-    database can be used as a reference.
-
-PLOTTING:
-    All graphs (i.e., networks) have an associated SAGE graphics object, which you can display:
-        
-        sage: G = WheelGraph(15)
-        sage: p = G.plot()
-        sage: is_Graphics(p)
-        True
-
-    When creating a graph in SAGE, the default positioning of nodes is determined using the spring-layout
-    algorithm.  Often, it is more efficient to pre-set the positions in a dictionary.  Additionally, we can use
-    this position dictionary to display the graph in an intuitive manner, whereas the spring-layout would 
-    fail if the graph is not very symmetric.  For example, consider the Petersen graph with default node
-    positioning vs. the Petersen graph constructed by this database:
-
-        sage: petersen_spring = Graph({0:[1,4,5], 1:[0,2,6], 2:[1,3,7], 3:[2,4,8], 4:[0,3,9],\
-                5:[0,7,8], 6:[1,8,9], 7:[2,5,9], 8:[3,5,6], 9:[4,6,7]})
-        sage.: petersen_spring.show()
-        sage: petersen_database = graphs.PetersenGraph()
-        sage.: petersen_database.show()
-    
-    For all the constructors in this database (except the random and empty graphs), the position dictionary
-    is filled, instead of using the spring-layout algorithm.
-
-ORGANIZATION:
-    The constructors available in this database are organized as follows:
-        Basic Structures:
-            - EmptyGraph
-            - CycleGraph
-            - StarGraph
-            - WheelGraph
-        Named Graphs:
-            - PetersenGraph
-        Families of Graphs:
-            - CompleteGraph
-            - CompleteBipartiteGraph
-            - RandomGNP
-            - RandomGNPFast
-
-AUTHORS:
-    -- Robert Miller (2006-11-05): initial version - empty, random, petersen
-    -- Emily Kirkman (2006-11-12): basic structures, node positioning for all constructors
-    -- Emily Kirkman (2006-11-19): docstrings, examples
-    
-TODO:
-    [] more named graphs
-    [] thorough docstrings and examples
-    [] set properties (as they are implemented)
-    [] add query functionality for large database
+ pos_dict = {}
+ for i in range(5):
+     x = float(functions.cos(pi/2 + ((2*pi)/5)*i))
+     y = float(functions.sin(pi/2 + ((2*pi)/5)*i))
+     pos_dict[i] = [x,y]
+ for i in range(10)[5:]:
+     x = float(0.5*functions.cos(pi/2 + ((2*pi)/5)*i))
+     y = float(0.5*functions.sin(pi/2 + ((2*pi)/5)*i))
+     pos_dict[i] = [x,y]
+ P = graph.Graph({0:[1,4,5], 1:[0,2,6], 2:[1,3,7], 3:[2,4,8], 4:[0,3,9],\
+            5:[0,7,8], 6:[1,8,9], 7:[2,5,9], 8:[3,5,6], 9:[4,6,7]},\
+            pos=pos_dict, name="Petersen graph")
+ return P
 }}}
+
+==== Examples ====
+Petersen Graph as constructed in this class:
+{{{
+ sage: petersen_this = graphs.PetersenGraph()
+ sage: petersen_this.show()
+}}}
+attachment:petersen_pos.png
+Petersen Graph plotted using the spring layout algorithm:
+{{{
+ sage: petersen_spring = Graph({0:[1,4,5], 1:[0,2,6], 2:[1,3,7], 3:[2,4,8], 4:[0,3,9],\
+                    5:[0,7,8], 6:[1,8,9], 7:[2,5,9], 8:[3,5,6], 9:[4,6,7]})
+ sage: petersen_spring.show()
+}}}
+attachment:petersen_spring.png
+
+== Graph Families ==
+
+=== Complete Graphs ===
+
+Info
+ * Returns a complete graph on n nodes.
+ * A Complete Graph is a graph in which all nodes are connected to all other nodes.
+ * This constructor is dependant on vertices numbered 0 through n-1 in NetworkX complete_graph()
+        
+Plotting
+ * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each complete graph will be displayed with the first (0) node at the top, with the rest following in a counterclockwise manner.
+ * In the complete graph, there is a big difference visually in using the spring-layout algorithm vs. the position dictionary used in this constructor.  The position dictionary flattens the graph, making it clear which nodes an edge is connected to.  But the complete graph offers a good example of how the spring-layout works.  The edges push outward (everything is connected), causing the graph to appear as a 3-dimensional pointy ball.  (See examples below).
+ * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
+
+Code
+{{{
+ import networkx as NX
+ pos_dict = {}
+ for i in range(n):
+     x = float(functions.cos((pi/2) + ((2*pi)/n)*i))
+     y = float(functions.sin((pi/2) + ((2*pi)/n)*i))
+     pos_dict[i] = [x,y]
+ G = NX.complete_graph(n)
+ return graph.Graph(G, pos=pos_dict, name="Complete graph on %d vertices"%n)
+}}}
+
 
 == Basic Structures ==
 
@@ -818,76 +830,3 @@ With the spring-layout algorithm:
 }}}
 
 attachment:wheel_array_spr.png
-
-
-
-== Named Graphs ==
-
-=== Petersen ===
-
-Info
- * The Petersen Graph is a named graph that consists of 10 vertices and 14 edges, usually drawn as a five-point star embedded in a pentagon.
- * The Petersen Graph is a common counterexample.  For example, it is not Hamiltonian.
-       
-Plotting
- * When plotting the Petersen graph with the spring-layout algorithm, we see that this graph is not very symmetric and thus the display may not be very meaningful.  Efficiency of construction and plotting is not an issue, as the Petersen graph
-only has 10 vertices and 14 edges.
- * Our labeling convention here is to start on the outer pentagon from the top, moving counterclockwise. Then the nodes on the inner star, starting at the top and moving counterclockwise.
-
-Code
-{{{
- pos_dict = {}
- for i in range(5):
-     x = float(functions.cos(pi/2 + ((2*pi)/5)*i))
-     y = float(functions.sin(pi/2 + ((2*pi)/5)*i))
-     pos_dict[i] = [x,y]
- for i in range(10)[5:]:
-     x = float(0.5*functions.cos(pi/2 + ((2*pi)/5)*i))
-     y = float(0.5*functions.sin(pi/2 + ((2*pi)/5)*i))
-     pos_dict[i] = [x,y]
- P = graph.Graph({0:[1,4,5], 1:[0,2,6], 2:[1,3,7], 3:[2,4,8], 4:[0,3,9],\
-            5:[0,7,8], 6:[1,8,9], 7:[2,5,9], 8:[3,5,6], 9:[4,6,7]},\
-            pos=pos_dict, name="Petersen graph")
- return P
-}}}
-
-==== Examples ====
-Petersen Graph as constructed in this class:
-{{{
- sage: petersen_this = graphs.PetersenGraph()
- sage: petersen_this.show()
-}}}
-attachment:petersen_pos.png
-Petersen Graph plotted using the spring layout algorithm:
-{{{
- sage: petersen_spring = Graph({0:[1,4,5], 1:[0,2,6], 2:[1,3,7], 3:[2,4,8], 4:[0,3,9],\
-                    5:[0,7,8], 6:[1,8,9], 7:[2,5,9], 8:[3,5,6], 9:[4,6,7]})
- sage: petersen_spring.show()
-}}}
-attachment:petersen_spring.png
-
-== Graph Families ==
-
-=== Complete Graphs ===
-
-Info
- * Returns a complete graph on n nodes.
- * A Complete Graph is a graph in which all nodes are connected to all other nodes.
- * This constructor is dependant on vertices numbered 0 through n-1 in NetworkX complete_graph()
-        
-Plotting
- * Upon construction, the position dictionary is filled to override the spring-layout algorithm.  By convention, each complete graph will be displayed with the first (0) node at the top, with the rest following in a counterclockwise manner.
- * In the complete graph, there is a big difference visually in using the spring-layout algorithm vs. the position dictionary used in this constructor.  The position dictionary flattens the graph, making it clear which nodes an edge is connected to.  But the complete graph offers a good example of how the spring-layout works.  The edges push outward (everything is connected), causing the graph to appear as a 3-dimensional pointy ball.  (See examples below).
- * Filling the position dictionary in advance adds O(n) to the constructor.  Feel free to race the constructors below in the examples section.  The much larger difference is the time added by the spring-layout algorithm when plotting.  (Also shown in the example below).  The spring model is typically described as O(n^3), as appears to be the case in the NetworkX source code.
-
-Code
-{{{
- import networkx as NX
- pos_dict = {}
- for i in range(n):
-     x = float(functions.cos((pi/2) + ((2*pi)/n)*i))
-     y = float(functions.sin((pi/2) + ((2*pi)/n)*i))
-     pos_dict[i] = [x,y]
- G = NX.complete_graph(n)
- return graph.Graph(G, pos=pos_dict, name="Complete graph on %d vertices"%n)
-}}}
