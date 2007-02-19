@@ -1,5 +1,55 @@
 =  David Harvey: would like to experiment further with speeding up object construction =
 
+== gmpy lessons??? ==
+
+Do "sage -i gmpy-1.0.1".  Then you can see the following:
+
+
+
+{{{
+import gmpy
+}}}
+
+{{{
+a = gmpy.mpz(9393r); b = gmpy.mpz(1293r)
+}}}
+
+{{{
+%time
+for i in range(10^6):
+    c = a * b
+///
+CPU time: 0.38 s,  Wall time: 0.53 s
+}}}
+
+{{{
+a = 9393; b = 1293
+}}}
+
+{{{
+%time
+for i in range(10^6):
+    c = a * b
+///
+CPU time: 0.78 s,  Wall time: 1.16 s
+}}}
+
+{{{
+a = 9393r; b = 1293r
+}}}
+
+{{{
+%time
+for i in range(10^6):
+    c = a * b
+///
+CPU time: 0.37 s,  Wall time: 0.66 s
+}}}
+
+{{{
+
+}}}
+
 == Email announcing the project from David Harvey ==
  
 hi people,
