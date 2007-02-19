@@ -54,7 +54,7 @@ import gmpy
 }}}
 
 {{{
-a = ZZ.random_element(2^64); b = ZZ.random_element(2^64)
+a = ZZ.random_element(2^256); b = ZZ.random_element(2^256)
 }}}
 
 {{{
@@ -66,7 +66,7 @@ a = gmpy.mpz(int(a)); b = gmpy.mpz(int(b))
 for i in range(10^6):
     c = a * b
 ///
-CPU time: 0.41 s,  Wall time: 0.54 s
+CPU time: 0.59 s,  Wall time: 0.86 s
 }}}
 
 {{{
@@ -78,7 +78,7 @@ a = ZZ(long(a)); b = ZZ(long(b))
 for i in range(10^6):
     c = a * b
 ///
-CPU time: 0.93 s,  Wall time: 1.48 s
+CPU time: 1.12 s,  Wall time: 1.41 s
 }}}
 
 {{{
@@ -90,10 +90,8 @@ a = long(a); b = long(b)
 for i in range(10^6):
     c = a * b
 ///
-CPU time: 0.41 s,  Wall time: 0.53 s
+CPU time: 1.62 s,  Wall time: 2.15 s
 }}}
-
-
 
 
 
