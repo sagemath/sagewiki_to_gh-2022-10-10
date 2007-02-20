@@ -1,4 +1,4 @@
-= SageX bug fixing -- fix the mangled pow() function =
+= SageX bug fixing example --- fix the mangled pow() function =
 
 Pyrex has an unfortunate bug in the way it handles the power function for cdef integers. Namely
 
