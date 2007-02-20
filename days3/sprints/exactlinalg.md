@@ -27,7 +27,7 @@ algebra in SAGE is still, in some cases, a serious embarrassment.
 == Matrix multiplication over ZZ ==
 
 Robert Bradshaw implemented multimodular matrix multiply over ZZ.  
-    1. This seems to work fine on 32-bit machines, @@--- but is totally broken on 64-bit machines, so is currently disabled (in sage-2.1.2) +++ and works on 64-bit machines too@@.
+    1. This seems to work fine on 32-bit machines --(but is totally broken on 64-bit machines, so is currently disabled (in sage-2.1.2))-- and works on 64-bit machines.
     2. It is interesting to fine tune the algorithm, and decide when to switch over to a multimodular method.
     3. Why is this so much '''slower''' in linbox? 
     4. Why is it slower than MAGMA? (How much slower?)
