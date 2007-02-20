@@ -60,7 +60,9 @@ attachment:9-cube.png
 
 == 3D Plotting ==
 
- * Tachyon plots are coming soon. As in next week.
+ * Tachyon plots are here!!
+
+attachment:dod3d.png
 
  * Interactive graph viewing (i.e. spin it around...) will hopefully be available by March.
 
