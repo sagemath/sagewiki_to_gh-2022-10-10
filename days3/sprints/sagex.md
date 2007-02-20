@@ -25,6 +25,8 @@ Here the c function pow() is being used, which only operates on doubles. This is
 
 Expand the sagex spkg found in SAGE_ROOT/spkg/standard (tar xvfj sagex-20070126.spkg). Now the all the code we want to look at (for this problem) is in Pyrex/Compiler/. Most of the time you will want to look at Parsing.py (for parsing) and Node.py/ExprNode.py (for code generation). Read the comments at the top of those files, but don't be worried if you don't underand them right away. 
 
+The relavent code is in the PowNode.compute_c_result_type() function (line 2514). 
+
 Some useful links: 
 
    * [http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/version/Doc/overview.html]
