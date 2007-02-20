@@ -66,7 +66,7 @@ attachment:9-cube.png
 attachment:dod3d.png
 
    . and the Four Cube
-attachment:4cube3d.png
+attachment:4-cube3d.png
 
  * Interactive graph viewing (i.e. spin it around...) will hopefully be available by March.
 
