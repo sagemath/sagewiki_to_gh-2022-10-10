@@ -25,7 +25,7 @@
  * 10:30-11:30 -- William Stein: Mercurial tutorial (see http://video.google.com/videoplay?docid=-7724296011317502612)
  * 11:00-1:00 -- Lunch
  * 1:00-3:00 -- Coding Sprint
- * 3:00-4:00 -- Martin Albrecht (Bremen): SageX
+ * 3:00-4:00 -- [attachment:Pyrex_Talk_SD3_LA.pdf Martin Albrecht (Bremen): SageX]
  * 4:00-6:00 -- Coding Sprint
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
