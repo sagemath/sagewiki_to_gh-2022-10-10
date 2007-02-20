@@ -35,6 +35,7 @@
  * 1:00-3:15 -- Coding Sprint
  * 3:15-4:15 -- Chris Anderson (UCLA): An outsider looks at SAGE
  * 4:15-6:00 -- Coding Sprint
+ * 4:30-5:30 -- William's Number Theory Seminar Talk 
  * 6:00-8:00 -- Dinner
  * 8:00-??? -- Coding Sprint
 == Wednesday, Feb 21 ==
