@@ -1,4 +1,4 @@
-= SageX bug fixing example --- fix the mangled pow() function =
+= SageX hacking example --- fix the mangled pow() function =
 
 Pyrex has an unfortunate bug in the way it handles the power function for cdef integers. Namely
 
@@ -23,7 +23,7 @@ Looking at the c source code we see the the error on line 85
 
 Here the c function pow() is being used, which only operates on doubles. This is fine if the return type is a float, but if it is, say, a python object, then this code is incorrect. I will change this so that the resulting type is an integer in this case. 
 
-Expand the sagex package and look at 
+Expand the sagex spkg found in SAGE_ROOT/spkg/standard (tar xvfj sagex-20070126.spkg). Now the all the code we want to look at (for this problem) is in Pyrex/Compiler/. Most of the time you will want to look at Parsing.py (for parsing) and Node.py/ExprNode.py (for code generation). Read the comments at the top of those files, but don't be worried if you don't underand them right away. 
 
 Some useful links: 
 
