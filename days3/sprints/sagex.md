@@ -23,6 +23,8 @@ Looking at the c source code we see the the error on line 85
 
 Here the c function pow() is being used, which only operates on doubles. This is fine if the return type is a float, but if it is, say, a python object, then this code is incorrect. I will change this so that the resulting type is an integer in this case. 
 
+Expand the sagex package and look at 
+
 Some useful links: 
 
    * [http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/version/Doc/overview.html]
