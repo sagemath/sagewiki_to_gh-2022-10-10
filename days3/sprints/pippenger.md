@@ -4,7 +4,7 @@ Pippenger's Algorithm is a method to compute a sequence of multiple products of 
 
 [http://cr.yp.to/papers/pippenger.pdf Paper]
 
-[http://sage.math.washington.edu/sprint/pippenger.sws Worksheet] with my progress so far.
+[http://sage.math.washington.edu/home/boothby/sprint/pippenger.sws Worksheet] with my progress so far.
 
 Skip to page 13.  I've already implemented:
 
