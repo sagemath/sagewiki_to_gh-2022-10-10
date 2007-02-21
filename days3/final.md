@@ -66,7 +66,10 @@ A) M4R (Method of Four Russians)
 Remark: Do as dense up to certain size, ie A contained in B up to some size
 Goal: Get M4R into SAGE
 B) Goal: Get M4R into SAGE. 
-
+Example current timings:
+|| ||SAGE||Linbox||Bard Gaussian Elim||Bard M4R||Magma||
+||6000x6000|| ||15s||4s||1.7s||2.23s||
+||3000x3000||20s||5s||0.420s||0.2s||0.32s||
 
 
 Status:
