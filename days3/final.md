@@ -1,6 +1,7 @@
 1. p-adics
 
 Lesson: SVN + HG only mix together well if you're only creating new files
+
 Status: (i) Code in place, still unexposed in SAGE, working on more doctests.
 
         (ii) Lazy p-adics currently under development
