@@ -64,6 +64,8 @@ Timeline: By AWS
 
 A) M4R (Method of Four Russians)
 Remark: Do as dense up to certain size, ie A contained in B up to some size
+
+---- /!\ '''Edit conflict - other version:''' ----
 Goal: Get M4R into SAGE
 B) Goal: Get M4R into SAGE. 
 Example current timings:
@@ -73,3 +75,56 @@ Example current timings:
 
 
 Status:
+
+---- /!\ '''Edit conflict - your version:''' ----
+Goal: (i) Get M4R into SAGE
+      (ii) Figure out where to draw the line
+People: Martin
+Timeline: Once B is done
+
+B) Goal: Get M4R into SAGE. 
+Example current timings:
+|| ||SAGE||Linbox||Bard Gaussian Elim||Bard M4R||Magma||
+||6000x6000|| ||15s||4s||1.7s||2.23s||
+||3000x3000||20s||5s||0.420s||0.2s||0.32s||
+People: Martin
+Status: Now understand M4R
+Timeline: Soon.  3/15
+
+C) Waiting on Suvrit Sra, otherwise clueless.  Could do using Suvrit's (or other) libraries if this stalls.
+Goal: Implement something to compare to Suvrit
+People: Josh
+Status: Have a little bit, but it's not very good.
+Timeline: Incremental
+
+D) Matrix-vector now BLAS (like everyone)
+Using numpy for everything else seems to be the best plan
+Goal: Convert
+People: Josh
+Timeline: 2 weeks
+
+E) (Sparse integer vectors) and (Sparse rational vectors): working, not optimized.  Both in progress
+   (Sparse integer matrices) and (Sparse rational matrices): close
+Status: Some benchmarks
+Goal: (i) Rational sparse echelon via multi-modular working
+      (ii) Optimize
+Timeline: (i) 72 hours
+          (ii) By 3/10
+Remark: Still behind Magma because of mod p, but linbox may help.
+
+F) Status: Lots of benchmarks.  Much faster than two weeks ago.  Linbox integration coming along nicely.
+Remark: Magma may not be producing provably correct answers
+Goal: (i) Better prime selection in multi-modular: maybe 4x speedup
+      (ii) More specialized matrix classes
+      (iii) Optimize matrix-vector and vector-matrix for specialized classes
+      (iv) A lot of optimization (motivated by modular symbols)
+      (v) Raw methods, much of this will have to be in specialized matrix classes.  Maybe not do this (William is not currently convinced)? Look into this.
+      (vi) Examples
+Timeline: (i) By 3/10
+          (ii) Long term
+          (iii) 
+
+7. Examples
+They autotest, done by today -- Rishi
+
+Plan: If you want to put tests in a docstring that the user doesn't see
