@@ -57,7 +57,7 @@ People: Marcus, William
 Timeline: By AWS
 
 6. Linear Algebra
-{|
+table{|
 |+Types
 |- 
 |
