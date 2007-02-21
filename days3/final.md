@@ -2,7 +2,9 @@
 
 Lesson: SVN + HG only mix together well if you're only creating new files
 Status: (i) Code in place, still unexposed in SAGE, working on more doctests.
+
         (ii) Lazy p-adics currently under development
+
         (iii) Extension fields are next
 Goals: Make (i)-(iii) production ready
 Problems: (a) Extensions may be extremely slow and may require FiniteField, PolyQuotientRing optimization to fix.
