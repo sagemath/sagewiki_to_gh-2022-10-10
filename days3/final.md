@@ -57,22 +57,16 @@ People: Marcus, William
 Timeline: By AWS
 
 6. Linear Algebra
-table{|
-|+Types
-|- 
-|
-|Sparse
-|Dense
-|-
-|GF(2)
-| (A)
-| (B)
-|-
-|Numerical
-|
-|
-|-
-|Exact
-|
-|
-|}
+|| ||Sparse||Dense||
+||GF(2)||(A)||(B)||
+||Numerical||(C)||(D)||
+||Exact||(E)||(F)||
+
+A) M4R (Method of Four Russians)
+Remark: Do as dense up to certain size, ie A contained in B up to some size
+Goal: Get M4R into SAGE
+B) Goal: Get M4R into SAGE. 
+
+
+
+Status:
