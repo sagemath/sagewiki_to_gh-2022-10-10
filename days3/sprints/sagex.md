@@ -41,7 +41,9 @@ The relavent code is in the PowNode.compute_c_result_type() function (line 2514)
 
 The questions now becomes, what is the best way of fixing this issue. 
 
-    * Leave as is
-    * Dissallow (int)**(int), forcing the user to do an explicit cast
-    * Use the pow() function, coercing the result back to an int
+    * Leave as is.
+    * Dissallow (int)**(int), forcing the user to do an explicit cast.
+    * Use the pow() function, coercing the result back to an int.
     * Write a pow() function for ints, longs, etc. 
+
+I'm leaning towards #2
