@@ -1,4 +1,4 @@
-==SD3 Pics==
+== SD3 Pics ==
 
 
 * [http://www.flickr.com/photos/martinralbrecht/tags/sagedays3/Martin Albrecht] 
