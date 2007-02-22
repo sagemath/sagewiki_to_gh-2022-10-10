@@ -1,6 +1,10 @@
 Survey of all math software for use in kindergarten classes. Based on google search: '''[http://www.google.com/search?hl=en&q=Kindergarten+math+math+software+software&btnG=Search Kindergarten math math software software]'''.
 
-== List of kindergarten standards for education by U.S. state ==
+== National standards for kindergarten math education ==
+
+ * [http://www.nctm.org/standards/gradeband.htm NCTM: Standards: An Overview -- Principles and Standards for School Mathematics]
+
+== List of kindergarten standards for math education by U.S. state ==
 
  * [http://www.cde.ca.gov/be/st/ss/mthkindergarten.asp California]
 
