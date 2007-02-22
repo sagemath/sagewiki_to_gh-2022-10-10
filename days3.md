@@ -23,13 +23,11 @@ If you would like to share a hotel room with another SD3 participant please leav
  * [:days3/talks:More details]
  * [:days3/proposed talks:Proposed Talks]
 
-== Pictures ==
- 
-  [:days3/pics: Clic ici]
-
-
 == Lightning Talks ==
 There are going to to be a couple of short five minute talks on Sunday. If you have something you want to get people interested in, put your name and your topic at [:days3/lightningtalks:the lightning talk page]
+
+== Pictures ==
+  [:days3/pics: Clic ici]
 
 == Flyers and Posters ==
  * [http://modular.math.washington.edu/home/wdj/art/sd3-motivator-mozaic.jpg mozaic poster]
