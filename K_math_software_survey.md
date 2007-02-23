@@ -19,14 +19,14 @@ This is a survey of requirements for kindergarten math education by state and su
 
 === Interactive student software ===
 
- * [http://www.aaamath.com/kinder.htm AAA] - interactive lessons on number comparison, counting, numerals, patterns, addition, subtraction, spatial position, and time
- * [http://www.amath.com/bb/buildingblocks.html Building Blocks] - student problem solving environment with grading capability
- * [http://www.action-links.com/Shareware/ Chalkboard Math Drills] - covers basic operations on natural numbers one through nine
- * [http://www.sssoftware.com/CountMoney/index.html Count Money] - audio interactive tutor on money arithmetic
- * [http://www.riverdeep.net/portal/page?_pageid=353,138374,353_138375&_dad=portal&_schema=PORTAL Destination Math] - fancy game covering counting up to one hundred, comparing naturals, patterns, triangles, rectangles, sums within twenty, differences within twenty, and basic measurement
- * [http://www.meridiancg.com/products/prod_emath/emath_scope.htm#kinder Elementary math] - small neighborhood environment with three to five activities per building covering searching, natural numbers up to twenty, measurement, addition, subtraction, counting, time, and money
- * [http://www.fundamentallymath.com/reviews.html FUNdamentallyMATH] - teaches mathematical concepts using programming language [http://en.wikipedia.org/wiki/Logo_programming_language Logo]
- * [http://www.learningbox.com/s_index.htm Manipulative Math Series (3D Space, BaseTen Blocks, Logic Blocks, and Peg Board)] - activity based old style graphical environment covering shapes, patterns, and positioning, addition, subtraction, numeral place value, primary geometry and problem solving
+ * [http://www.aaamath.com/kinder.htm AAA] - interactive lessons on number comparison, counting, numerals, patterns, addition, subtraction, spatial position, and time (NO DEMO)
+ * [http://www.amath.com/bb/buildingblocks.html Building Blocks] - student problem solving environment with grading capability ([http://www.amath.com/foundations/fdgetdemo.html SECURE DEMO])
+ * [http://www.action-links.com/Shareware/ Chalkboard Math Drills] - covers basic operations on natural numbers one through nine (FREEWARE)
+ * [http://www.sssoftware.com/CountMoney/index.html Count Money] - audio interactive tutor on money arithmetic ([http://www.sssoftware.com/freedemo/win95/cm.html Win DEMO]/[http://www.sssoftware.com/freedemo/mac.html Mac DEMO])
+ * [http://www.riverdeep.net/portal/page?_pageid=353,138374,353_138375&_dad=portal&_schema=PORTAL Destination Math] - fancy game covering counting up to one hundred, comparing naturals, patterns, triangles, rectangles, sums within twenty, differences within twenty, and basic measurement ([http://www.riverdeep.net/portal/page?_pageid=353,138374,353_138384&_dad=portal&_schema=PORTAL DEMO])
+ * [http://www.meridiancg.com/products/prod_emath/emath_scope.htm#kinder Elementary math] - small neighborhood environment with three to five activities per building covering searching, natural numbers up to twenty, measurement, addition, subtraction, counting, time, and money (NO DEMO)
+ * [http://www.fundamentallymath.com/reviews.html FUNdamentallyMATH] - teaches mathematical concepts using programming language [http://en.wikipedia.org/wiki/Logo_programming_language Logo] ([http://www.fundamentallymath.com/demo.html DEMO])
+ * [http://www.learningbox.com/s_index.htm Manipulative Math Series (3D Space, BaseTen Blocks, Logic Blocks, and Peg Board)] - activity based old style graphical environment covering shapes, patterns, and positioning, addition, subtraction, numeral place value, primary geometry and problem solving (NO DEMO)
  * [http://www.essentialskills.net/product_info.php/cPath/39_250/products_id/131 Mastering Numeration] - teaches counting, addition, subtraction, and number recognition
  * [http://www.infomath.com/html/online-tutor.asp Math Tutor 1] - online tutor program with many practice problems covering addition, subtraction, time, money, and basic geometry concepts
  * [http://www.microworlds.com/solutions/mwjunior.html Micro Worlds JR] - fully graphical and audio project oriented environment for creating patterns, and functions to develop understanding of logic
