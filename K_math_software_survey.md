@@ -10,7 +10,7 @@ This is a survey of requirements for kindergarten math education by stat and sur
 
  * [http://www.cde.ca.gov/be/st/ss/mthkindergarten.asp California]
 
-== Directories found ==
+== List of directories of software ==
 
  * [http://www.educational-software-directory.net/children's/math.html Children's Math Software]
  * [http://mathforum.org/teachers/pre-k/soft.html Math Forum: Pre-Kindergarten Teachers: Software]
