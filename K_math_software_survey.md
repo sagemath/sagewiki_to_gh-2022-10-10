@@ -3,12 +3,13 @@ This is a survey of requirements for kindergarten math education by state and su
 This is the current stage of the project:
 "The next thing you should do (when you have time), is for each software
 that you can get a demo of, you should try it out and think about:
+{{{
  (1) is it good or bad quality?
  (2) is there something that it does that is creative, useful, etc?
  (3) is there something the software does that would make sense
      to do in the context of SAGE?
  (4) anything else you can think of.
-
+}}}
 And make sure to record all your ideas regarding 1-4 for each program
 you try it.", wstein, Feb 22, 2007 11:13 PM
 
