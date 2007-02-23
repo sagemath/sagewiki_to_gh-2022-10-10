@@ -28,9 +28,12 @@ This is a survey of requirements for kindergarten math education by state and su
  * [http://www.essentialskills.net/product_info.php/cPath/39_250/products_id/131 Mastering Numeration] - teaches counting, addition, subtraction, and number recognition
  * [http://www.infomath.com/html/online-tutor.asp Math Tutor 1] - online tutor program with many practice problems covering addition, subtraction, time, money, and basic geometry concepts
  * [http://www.microworlds.com/solutions/mwjunior.html Micro Worlds JR] - fully graphical and audio project oriented environment for creating patterns, and functions to develop understanding of logic
+ * [http://www.vgernet.net/sbasics/frefea.html Softbasics] - scored activities covering addition, subtraction, multiplication, and division with first twelve natural numbers
 
 === Software for teachers ===
 
 ==== Classroom presentations ====
 
 ==== Worksheet generators ====
+
+ * [http://www.mathgen.com/ MathGen] - features include selecting types of problems, two ranges of possible numbers for top and bottom, and select number of problems per page 
