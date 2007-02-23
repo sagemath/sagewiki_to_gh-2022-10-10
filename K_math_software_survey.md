@@ -1,4 +1,4 @@
-This is a survey of requirements for kindergarten math education by stat and survey math software for use in kindergarten classes. Based on google search: '''[http://www.google.com/search?hl=en&q=Kindergarten+math+math+software+software&btnG=Search kindergarten math math software software]'''. A good overview of educational software in general is a [http://wikipedia.org Wikipedia] [http://en.wikipedia.org/wiki/Educational_software article] on the subject.
+This is a survey of requirements for kindergarten math education by state and survey of math software for use in kindergarten classes. Based on google search: '''[http://www.google.com/search?hl=en&q=Kindergarten+math+math+software+software&btnG=Search kindergarten math math software software]'''. A good overview of educational software in general is a [http://wikipedia.org Wikipedia] [http://en.wikipedia.org/wiki/Educational_software article] on the subject.
 
 [[TableOfContents]]
 
@@ -29,4 +29,8 @@ This is a survey of requirements for kindergarten math education by stat and sur
  * [http://www.infomath.com/html/online-tutor.asp Math Tutor 1] - online tutor program with many practice problems covering addition, subtraction, time, money, and basic geometry concepts
  * [http://www.microworlds.com/solutions/mwjunior.html Micro Worlds JR] - fully graphical and audio project oriented environment for creating patterns, and functions to develop understanding of logic
 
-=== Worksheet generators ===
+=== Software for teachers ===
+
+==== Classroom presentations ====
+
+==== Worksheet generators ====
