@@ -21,10 +21,10 @@ This is a survey of requirements for kindergarten math education by stat and sur
 
  * [http://www.aaamath.com/kinder.htm AAA] - interactive lessons on number comparison, counting, numerals, patterns, addition, subtraction, spatial position, and time
  * [http://www.amath.com/bb/buildingblocks.html Building Blocks] - student problem solving environment with grading capability
+ * [http://www.meridiancg.com/products/prod_emath/emath_scope.htm#kinder Elementary math] - small neighborhood environment with three to five activities per building covering searching, natural numbers up to twenty, measurement, addition, subtraction, counting, time, and money
  * [http://www.fundamentallymath.com/reviews.html FUNdamentallyMATH] - teaches mathematical concepts using programming language [http://en.wikipedia.org/wiki/Logo_programming_language Logo] 
  * [http://www.essentialskills.net/product_info.php/cPath/39_250/products_id/131 Mastering Numeration] - teaches counting, addition, subtraction, and number recognition
  * [http://www.infomath.com/html/online-tutor.asp Math Tutor 1] - online tutor program with many practice problems covering addition, subtraction, time, money, and basic geometry concepts
  * [http://www.microworlds.com/solutions/mwjunior.html Micro Worlds JR] - fully graphical and audio project oriented environment for creating patterns, and functions to develop understanding of logic
- 
 
 === Worksheet generators ===
