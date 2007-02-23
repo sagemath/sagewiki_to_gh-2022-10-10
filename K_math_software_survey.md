@@ -13,6 +13,8 @@ that you can get a demo of, you should try it out and think about:
 And make sure to record all your ideas regarding 1-4 for each program
 you try it.", wstein, Feb 22, 2007 11:13 PM
 
+As of Feburary 23, 2007, I am studying [:Investigtions in Number, Data, and Space Kindergarten guides] to understand extactly what a kindergarten class might be doing regarding math.
+
 [[TableOfContents]]
 
 == National standards for kindergarten math education ==
