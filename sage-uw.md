@@ -42,6 +42,8 @@ Fridays 4-5pm in C401, at least -- probably more frequently!
 
  * Friday, Feb 9: TBA (I will be gone)
 
+--------------------------------------------------
+
 Talks are all in the communications building, B027, except on Tuesday, Feb 13:
      * Monday,  Feb 12, 9 A.M.: William Stein -- [http://sage.math.washington.edu/talks/2007-02-12-linalg/sage.pdf ''Optimized linear algebra in SAGE: What are we going to do???'']
      * Monday,  Feb 12, 4 P.M.: Martin Albrecht -- [http://www.informatik.uni-bremen.de/~malb/binary/20070212-commutative_algebra-UW.pdf ''Options for fast multivariate polynomial arithmetic in SAGE (CoCoALib, Singular, specialized implementations)'']
