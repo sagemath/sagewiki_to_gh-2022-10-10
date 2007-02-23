@@ -19,7 +19,7 @@ This is a survey of requirements for kindergarten math education by stat and sur
 
 === Interactive student software ===
 
- * [http://www.amath.com/bb/buildingblocks.html AMATH Building Blocks] - student problem solving environment with grading capability 
+ * [http://www.amath.com/bb/buildingblocks.html Building Blocks] - student problem solving environment with grading capability 
  * [http://www.essentialskills.net/product_info.php/cPath/39_250/products_id/131 Mastering Numeration] - teaches counting, addition, subtraction, and number recognition
 
 === Worksheet generators ===
