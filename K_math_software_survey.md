@@ -23,7 +23,7 @@ This is a survey of requirements for kindergarten math education by stat and sur
  * [http://www.amath.com/bb/buildingblocks.html Building Blocks] - student problem solving environment with grading capability
  * [http://www.fundamentallymath.com/reviews.html FUNdamentallyMATH] - teaches mathematical concepts using programming language [http://en.wikipedia.org/wiki/Logo_programming_language Logo] 
  * [http://www.essentialskills.net/product_info.php/cPath/39_250/products_id/131 Mastering Numeration] - teaches counting, addition, subtraction, and number recognition
- * [http://www.microworlds.com/solutions/mwjunior.html Micro Worlds JR] - fully graphical and audio environment for exploring patterns and problem solving
+ * [http://www.microworlds.com/solutions/mwjunior.html Micro Worlds JR] - fully graphical and audio project oriented environment for exploring patterns and solving problems
  
 
 === Worksheet generators ===
