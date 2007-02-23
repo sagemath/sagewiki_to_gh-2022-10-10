@@ -19,7 +19,7 @@ This is a survey of requirements for kindergarten math education by stat and sur
 
 === Interactive student software ===
 
- * [http://www.aaamath.com/kinder.htm AAA] - interactive lessons for number comparison, counting, numerals, patterns, addition, subtraction, spatial position, and time
+ * [http://www.aaamath.com/kinder.htm AAA] - interactive lessons on number comparison, counting, numerals, patterns, addition, subtraction, spatial position, and time
  * [http://www.amath.com/bb/buildingblocks.html Building Blocks] - student problem solving environment with grading capability 
  * [http://www.essentialskills.net/product_info.php/cPath/39_250/products_id/131 Mastering Numeration] - teaches counting, addition, subtraction, and number recognition
  
