@@ -16,3 +16,5 @@ This is a survey of requirements for kindergarten math education by stat and sur
  * [http://mathforum.org/teachers/pre-k/soft.html Math Forum: Pre-Kindergarten Teachers: Software]
 
 == List of software ==
+
+ * [http://www.essentialskills.net/product_info.php/cPath/39_250/products_id/131 Mastering Numeration] - teaches counting, addition, subtraction, and number recognition
