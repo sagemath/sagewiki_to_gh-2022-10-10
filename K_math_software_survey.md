@@ -1,4 +1,4 @@
-This is a survey of requirements for kindergarten math education by stat and survey math software for use in kindergarten classes. Based on google search: '''[http://www.google.com/search?hl=en&q=Kindergarten+math+math+software+software&btnG=Search kindergarten math math software software]'''.
+This is a survey of requirements for kindergarten math education by stat and survey math software for use in kindergarten classes. Based on google search: '''[http://www.google.com/search?hl=en&q=Kindergarten+math+math+software+software&btnG=Search kindergarten math math software software]'''. A good overview of educational software in general is an [http://wikipedia.org Wikipedia] [http://en.wikipedia.org/wiki/Educational_software article] on the subject.
 
 [[TableOfContents]]
 
