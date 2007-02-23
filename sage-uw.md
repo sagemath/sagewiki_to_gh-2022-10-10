@@ -1,18 +1,5 @@
 == SAGE UW Seminar ==
 
-Talks are all in the communications building, B027, except on Tuesday, Feb 13:
-     * Monday,  Feb 12, 9 A.M.: William Stein -- [http://sage.math.washington.edu/talks/2007-02-12-linalg/sage.pdf ''Optimized linear algebra in SAGE: What are we going to do???'']
-     * Monday,  Feb 12, 4 P.M.: Martin Albrecht -- [http://www.informatik.uni-bremen.de/~malb/binary/20070212-commutative_algebra-UW.pdf ''Options for fast multivariate polynomial arithmetic in SAGE (CoCoALib, Singular, specialized implementations)'']
-     * Tuesday, Feb 13, 9 A.M.: Josh Kantor -- [http://sage.math.washington.edu/home/jkantor/talks/parallelism.pdf ''Report about the MSRI workshop on interactive parallel computation'']
-     * Tuesday, Feb 13, 5 P.M.: William Stein -- [http://www.math.washington.edu/~greenber/steinabstract.pdf ''The arithmetic of elliptic curves (in the number theory seminar -- C401)'']
-     * Wednesday, Feb 14, 9 A.M.: Martin Albrecht -- [http://www.informatik.uni-bremen.de/~malb/binary/20070214-pyrex-uw.pdf ''Pyrex/SageX'']
-     * Thursday, Feb 15, 9 A.M.: Robert Miller and Emily Kirkman -- ''Informal Introduction to the Graph Theory Package''
-     * Thursday, Feb 15, 4 P.M.: Robert Bradshaw: ''The status and plan for 3D graphics in SAGE'' [attachment:Sage3D.pdf]
-
-
-
------------------------------------------------
-
  * Friday, Feb 23: TBA
 
  * Friday, March 2: TBA
@@ -54,3 +41,12 @@ Fridays 4-5pm in C401, at least -- probably more frequently!
  * Friday, Feb 2: TBA (I will be gone)
 
  * Friday, Feb 9: TBA (I will be gone)
+
+Talks are all in the communications building, B027, except on Tuesday, Feb 13:
+     * Monday,  Feb 12, 9 A.M.: William Stein -- [http://sage.math.washington.edu/talks/2007-02-12-linalg/sage.pdf ''Optimized linear algebra in SAGE: What are we going to do???'']
+     * Monday,  Feb 12, 4 P.M.: Martin Albrecht -- [http://www.informatik.uni-bremen.de/~malb/binary/20070212-commutative_algebra-UW.pdf ''Options for fast multivariate polynomial arithmetic in SAGE (CoCoALib, Singular, specialized implementations)'']
+     * Tuesday, Feb 13, 9 A.M.: Josh Kantor -- [http://sage.math.washington.edu/home/jkantor/talks/parallelism.pdf ''Report about the MSRI workshop on interactive parallel computation'']
+     * Tuesday, Feb 13, 5 P.M.: William Stein -- [http://www.math.washington.edu/~greenber/steinabstract.pdf ''The arithmetic of elliptic curves (in the number theory seminar -- C401)'']
+     * Wednesday, Feb 14, 9 A.M.: Martin Albrecht -- [http://www.informatik.uni-bremen.de/~malb/binary/20070214-pyrex-uw.pdf ''Pyrex/SageX'']
+     * Thursday, Feb 15, 9 A.M.: Robert Miller and Emily Kirkman -- ''Informal Introduction to the Graph Theory Package''
+     * Thursday, Feb 15, 4 P.M.: Robert Bradshaw: ''The status and plan for 3D graphics in SAGE'' [attachment:Sage3D.pdf]
