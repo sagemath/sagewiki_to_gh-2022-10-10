@@ -1,4 +1,16 @@
-This is a survey of requirements for kindergarten math education by state and survey of math software for use in kindergarten classes. Base google search was: '''[http://www.google.com/search?hl=en&q=Kindergarten+math+math+software+software&btnG=Search kindergarten math math software software]'''. A good overview of educational software in general is a [http://wikipedia.org Wikipedia] [http://en.wikipedia.org/wiki/Educational_software article] on the subject.
+This is a survey of requirements for kindergarten math education by state and survey of math software for use in kindergarten classes. Base google search was: '''[http://www.google.com/search?hl=en&q=Kindergarten+math+math+software+software&btnG=Search kindergarten math math software software]'''. A good overview of educational software in general is a [http://wikipedia.org Wikipedia] [http://en.wikipedia.org/wiki/Educational_software article] on the subject. This wiki page is the first step in a project for possible full K-math support in SAGE. The project is being undertaken by [timothy.clemans@gmail.com Timothy Clemans] under the supervision of [wstein@gmail.com William Stein].
+
+This is the current stage of the project:
+"The next thing you should do (when you have time), is for each software
+that you can get a demo of, you should try it out and think about:
+ (1) is it good or bad quality?
+ (2) is there something that it does that is creative, useful, etc?
+ (3) is there something the software does that would make sense
+     to do in the context of SAGE?
+ (4) anything else you can think of.
+
+And make sure to record all your ideas regarding 1-4 for each program
+you try it.", wstein, Feb 22, 2007 11:13 PM
 
 [[TableOfContents]]
 
@@ -35,8 +47,6 @@ This is a survey of requirements for kindergarten math education by state and su
  * [http://www.vgernet.net/sbasics/frefea.html Softbasics] - scored activities covering addition, subtraction, multiplication, and division with first twelve natural numbers (NO DEMO)
 
 === Software for teachers ===
-
-==== Classroom presentations ====
 
 ==== Worksheet generators ====
 
