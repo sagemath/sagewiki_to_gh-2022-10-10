@@ -1,4 +1,4 @@
-This is a survey of requirements for kindergarten math education by stat and survey math software for use in kindergarten classes. Based on google search: '''[http://www.google.com/search?hl=en&q=Kindergarten+math+math+software+software&btnG=Search kindergarten math math software software]'''. A good overview of educational software in general is an [http://wikipedia.org Wikipedia] [http://en.wikipedia.org/wiki/Educational_software article] on the subject.
+This is a survey of requirements for kindergarten math education by stat and survey math software for use in kindergarten classes. Based on google search: '''[http://www.google.com/search?hl=en&q=Kindergarten+math+math+software+software&btnG=Search kindergarten math math software software]'''. A good overview of educational software in general is a [http://wikipedia.org Wikipedia] [http://en.wikipedia.org/wiki/Educational_software article] on the subject.
 
 [[TableOfContents]]
 
@@ -20,7 +20,8 @@ This is a survey of requirements for kindergarten math education by stat and sur
 === Interactive student software ===
 
  * [http://www.aaamath.com/kinder.htm AAA] - interactive lessons on number comparison, counting, numerals, patterns, addition, subtraction, spatial position, and time
- * [http://www.amath.com/bb/buildingblocks.html Building Blocks] - student problem solving environment with grading capability 
+ * [http://www.amath.com/bb/buildingblocks.html Building Blocks] - student problem solving environment with grading capability
+ * [http://www.fundamentallymath.com/reviews.html FUNdamentallyMATH] - teaches mathematical concepts using programming language [http://en.wikipedia.org/wiki/Logo_programming_language Logo] 
  * [http://www.essentialskills.net/product_info.php/cPath/39_250/products_id/131 Mastering Numeration] - teaches counting, addition, subtraction, and number recognition
  * [http://www.microworlds.com/solutions/mwjunior.html Micro Worlds JR] - fully graphical and audio environment for exploring patterns and problem solving
  
