@@ -2,7 +2,13 @@
 
  * Wed, March 1, 5-6pm: Jim Morrow -- Graph theory
 
- * Friday, March 2: TBA
+ 
+
+----
+
+= Past =
+
+* Friday, March 2: TBA
 
  * Friday, March 9: TBA
 
@@ -22,10 +28,6 @@ stuff that came to mind.
  * 
 }}}
 
-
-----
-
-= Past =
 
 Fridays 4-5pm in C401, at least -- probably more frequently!
 
