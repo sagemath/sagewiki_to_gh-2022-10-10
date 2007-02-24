@@ -1,6 +1,6 @@
 == SAGE UW Seminar ==
 
- * Friday, Feb 23: TBA
+ * Wed, March 1, 5-6pm: Jim Morrow -- Graph theory
 
  * Friday, March 2: TBA
 
