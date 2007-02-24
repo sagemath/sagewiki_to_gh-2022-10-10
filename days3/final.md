@@ -2,11 +2,10 @@
 
 Lesson: SVN + HG only mix together well if you're only creating new files
 
-Status: (i) Code in place, still unexposed in SAGE, working on more doctests.
-
-        (ii) Lazy p-adics currently under development
-
-        (iii) Extension fields are next
+Status: 
+  1. Code in place, still unexposed in SAGE, working on more doctests.
+  2. Lazy p-adics currently under development 
+  3. Extension fields are next
 
 Goals: Make (i)-(iii) production ready
 
@@ -14,77 +13,62 @@ Problems: (a) Extensions may be extremely slow and may require FiniteField, Poly
 
 People: David Roe (DR), David Harvey (DH), Craig Citro (CC), Genya Zaytman (YZ)
 
-Timeline: (i) Done by AWS: DR/DH/CC/YZ
-
-          (ii) Done by AWS: DR
-
-          (iii) Unramified by AWS: CC/DR
-
-          (iv) All of us will be at AWS
+Timeline: 
+   1. Done by AWS: DR/DH/CC/YZ 
+   2. Done by AWS: DR
+   3. Unramified by AWS: CC/DR
+   4. All of us will be at AWS
 
 
 2. Symbolic manipulation
 
-Problems: (i) Hard to choose when to simplify
+Problems: 
+     1. Hard to choose when to simplify
+     2. Still dependant on Maxima for some things -- will this limit us in the future? (consensus here seems to be probably not)
 
-          (ii) Still dependant on Maxima for some things -- will this limit us in the future? (consensus here seems to be probably not)
+Status: 
+     1. Plotting still untouched, esp wrt speed (we think)
+     2. We have equality working! Also, formal inequalities ready to go (in principle)
 
-Status: (i) Plotting still untouched, esp wrt speed (we think)
-
-        (ii) We have equality working! Also, formal inequalities ready to go (in principle)
-
-Goals: (i) More doctests, production ready code
-
-       (ii) Explore Mathematica, Maple and Maxima, add functionality.  Go through a calculus textbook and make sure we can do all the problems.
-
-       (iii) More user feedback on interface and features
-
-       (iv) Rouche's Algorithm
-
-       (v) Turn function objects/symbolic expressions into C/SageX code.
-
-       (vi) Make (v) part of a SAGE-wide system
+Goals: 
+     1. More doctests, production ready code
+     2. Explore Mathematica, Maple and Maxima, add functionality.  Go through a calculus textbook and make sure we can do all the problems.
+     3. More user feedback on interface and features
+     4. Rouche's Algorithm
+     5. Turn function objects/symbolic expressions into C/SageX code.
+     6. Make (v) part of a SAGE-wide system
 
 People: Bobby M, Nathan, Soroosh Yazdam, Robert Bradshaw
 
-Timeline: (i) Before 3/1, Initial Public Release
-
-          (ii) Get a fair amount of this done by 3/8
-
-          (iii) March/April (Nathan and Mathematica worksheets)
-
-          (iv) Soroosh wants to do this when the code base is ready, research other programs by 4/1
-
-          (v) April/May
-
-          (vi) Later
+Timeline: 
+     1. Before 3/1, Initial Public Release
+     2. Get a fair amount of this done by 3/8
+     3. March/April (Nathan and Mathematica worksheets)
+     4. Soroosh wants to do this when the code base is ready, research other programs by 4/1
+     5. April/May
+     6. Later
 
 3. Low level optimization of SAGE infrastructure
 
-Goals: (i) Optimize the code that SageX generates: make Pythonesque syntax fast in lieu of ugly, nasty, Python/C API calls (to avoid coredumps, it's hard to read, easy to write bugs and you feel guilty when you write it)
-
-       (ii) Speed up SAGE integer construction by changing to handwritten C in SageX
-
-       (iii) Integer pool?
+Goals: 
+     1. Optimize the code that SageX generates: make Pythonesque syntax fast in lieu of ugly, nasty, Python/C API calls (to avoid coredumps, it's hard to read, easy to write bugs and you feel guilty when you write it)
+     2. Speed up SAGE integer construction by changing to handwritten C in SageX
+     3. Integer pool?
 
 Problem: In (ii) Tying handwritten C into SageX in a few specific places when SageX is nice but slow.  We don't necessarily want to make this easy, and don't know exactly how we should change SageX in order to do this.
 
-Status: (i) Fairly far along in indexing into lists, but goal (i) is more long term.  People can ask why is something slow, look at the generated C code and see if there's a better way to do it.  Make a wiki page.
-
-        (ii) Have code written, trying to get it in place.  Understand what's going on.  See Problem.
-
-        (iii) Still thinking about it.
+Status: 
+      1. Fairly far along in indexing into lists, but goal (i) is more long term.  People can ask why is something slow, look at the generated C code and see if there's a better way to do it.  Make a wiki page.
+      2. Have code written, trying to get it in place.  Understand what's going on.  See Problem.
+      3. Still thinking about it.
 
 People: Robert Bradshaw, Martin, David Harvey (sick of this project now)
 
-Timeline: (i) List indexing: 48 hours (Robert).  Make a wiki page: more as it comes along.
-
-          (ii) Figure out problem and implement solution by 3/1
-
-          (iii) After (ii)
-
-          (iv) Look at schedule for Google summer of code.  Python Software Foundation wiki -- describe this project, by 4/1.  
-
+Timeline: 
+      1. List indexing: 48 hours (Robert).  Make a wiki page: more as it comes along.
+      2. Figure out problem and implement solution by 3/1
+      3. After 2.
+      4. Look at schedule for Google summer of code.  Python Software Foundation wiki -- describe this project, by 4/1.  
 
 
 4. 3-D plot embedded Java applet
@@ -181,13 +165,13 @@ E) (Sparse integer vectors) and (Sparse rational vectors): working, not optimize
 
 Status: Some benchmarks
 
-Goal: (i) Rational sparse echelon via multi-modular working
+Goal: 
+  1. Rational sparse echelon via multi-modular working
+  2. Optimize
 
-      (ii) Optimize
-
-Timeline: (i) 72 hours
-
-          (ii) By 3/10
+Timeline: 
+  1. 72 hours
+  2. By 3/10
 
 Remark: Still behind Magma because of mod p, but linbox may help.
 
@@ -197,24 +181,17 @@ F) Status: Lots of benchmarks.  Much faster than two weeks ago.  Linbox integrat
 
 Remark: Magma may not be producing provably correct answers
 
-Goal: (i) Better prime selection in multi-modular: maybe 4x speedup
+Goal: 
+  1. Better prime selection in multi-modular: maybe 4x speedup
+  2. More specialized matrix classes
+  3.  Optimize matrix-vector and vector-matrix for specialized classes
+  4. A lot of optimization (motivated by modular symbols)
+  5. Raw methods, much of this will have to be in specialized matrix classes.  Maybe not do this (William is not currently convinced)? Look into this.
+  6. Examples
 
-      (ii) More specialized matrix classes
-
-      (iii) Optimize matrix-vector and vector-matrix for specialized classes
-
-      (iv) A lot of optimization (motivated by modular symbols)
-
-      (v) Raw methods, much of this will have to be in specialized matrix classes.  Maybe not do this (William is not currently convinced)? Look into this.
-
-      (vi) Examples
-
-Timeline: (i) By 3/10
-
-          (ii) Long term
-
-          (iii) 
-
+Timeline: 
+  1. By 3/10
+  2. Long term
 
 
 7. Examples
