@@ -13,7 +13,7 @@ There is a turorial here: http://sage.math.washington.edu:9001/ModifyingMercuria
 There is also a mercurial spkg with better error messages here: http://sage.math.washington.edu/home/dfdeshom/custom/hg-sage/mercurial-20070209.spkg
 
 === Multiplication algorithm ===
-A (slightly) faster multiplication algorithm of univariate polynomnials over R. Currently, this is known as _mul_fateman() in rings/polynomial_element.py but needs to be faster, probably through PARI or PyrexDELTA: I've finally started working on this. See my ext/polynomial_pyx.pyx for a preview. As predicted, the speedup is nice. Only integers are handled for now.
+A (slightly) faster multiplication algorithm of univariate polynomnials over R. Currently, this is known as _mul_fateman() in rings/polynomial_element.py but needs to be faster, probably through PARI or Pyrex
 
 === RealLib inclusion ===
  * RealLib3 as an alternate source for computing real numbers.
@@ -25,7 +25,6 @@ A (slightly) faster multiplication algorithm of univariate polynomnials over R. 
  * RealLib should not be a replacementto MPFR. MPFR has its uses and is
   . faster than RealLib3
 
-DELTA: Thanks to Dr Lambov, this now compiles on 386 and AMD64 and PPC. I've built a new version and posted patches.
 
 === Tweaking Hermes ===
 Logging of sessions using mathml through hermes:
@@ -50,8 +49,5 @@ Tests with no examples       :  __int__, __div_, _interface_init_, _xgcd, __cmp_
 ********************************************************************************
 }}}
 
-=== Automatic build+testing ===
-* sage -br is nice, but how about an option to also run tests on any file that is being rebuilt?
 
-----
  . CategoryHomepage
