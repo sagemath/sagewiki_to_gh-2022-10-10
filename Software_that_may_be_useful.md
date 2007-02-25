@@ -7,4 +7,4 @@ Software that may be useful  for
     * Databases/tables:
       * [http://www.pytables.org/ pytables]
 
-    * [http://sage.math.washington.edu:9001/combinatorics: Combinatorics]
+    * [http://sage.math.washington.edu:9001/combinatorics Combinatorics]
