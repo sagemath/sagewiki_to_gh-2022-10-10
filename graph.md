@@ -4,7 +4,7 @@
  . We are implementing graph objects and algorithms in ["SAGE"]. The main people working on this project are Emily Kirkman and Robert Miller.
 
 == Current Status ==
- * NetworkX base classes have been interfaced, and all functions are soon to follow (SAGE Days 3 project).
+ * NetworkX base classes have been interfaced, and all functions are soon to follow.
  * Jason Grout's (Brigham Young) SQL lite graph database is almost finished, and when it is done, it will be interfaced by Emily.
  * Jim Morrow (UW) has expressed interest in using SAGE for his [http://www.math.washington.edu/~morrow/reu07/reu.html summer REU] on graphs. Robert is working on implementing electrical networks, which includes implementing edge weights and graphs with boundary.
  * Chris Godsil (Waterloo) has expressed interest in helping design a more general discrete math package in SAGE, including perhaps an open source version of nauty. Robert is working to fulfill his wish list.
