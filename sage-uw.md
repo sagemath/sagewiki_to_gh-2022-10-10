@@ -1,7 +1,7 @@
 == SAGE UW Seminar ==
 
  * Wed, March 1, 5-6pm: Jim Morrow -- '''Algorithms for Discrete Electrical Networks'''
-ABSTRACT: I will present algorithms for recovery of information about discrete electrical networks.  Time permitting, I'll also discuss algorithms for embedding graphs in Riemann surfaces.
+       ABSTRACT: I will present algorithms for recovery of information about discrete electrical networks.  Time permitting, I'll also  discuss algorithms for embedding graphs in Riemann surfaces.
 
 ----
 
