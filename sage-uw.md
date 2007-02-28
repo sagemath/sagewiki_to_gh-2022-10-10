@@ -1,7 +1,31 @@
 == SAGE UW Seminar ==
 
- * Wed, March 1, 5-6pm: Jim Morrow -- '''Algorithms for Discrete Electrical Networks'''
+ * Wed, Feb 28, Padelford 401, 5-6pm: Jim Morrow -- '''Algorithms for Discrete Electrical Networks'''
        ABSTRACT: I will present algorithms for recovery of information about discrete electrical networks.  Time permitting, I'll also  discuss algorithms for embedding graphs in Riemann surfaces.
+
+ * Thur, Mar 1, 4-5pm: Martin Albrecht -- '''Attacks on Algebraic Block Ciphers''', room TBA.
+
+ * Fri, Mar 2, 4-5pm: Robert Miller -- 
+Title: Opening Graph Automorphisms
+
+Abstract:
+
+Bill McKay has written what many people agree to be the world's
+fastest automorphism computation package, "nauty." The package is
+given a labelled graph G and an ordered partition P, and it outputs
+the partition stabilizer subgroup of the automorphism group and,
+optionally, the canonical label C(G,P). If P is the unit partition,
+this means the whole automorphism group and the canonical label C(G).
+Canonical labels are in one-to-one correspondence with isomorphism
+classes.
+
+The package has a restrictive license, which excludes it from use in
+the open source community. The algorithm is described in McKay's
+paper, "Practical Graph Isomorphism," and luckily, academic Journals
+are amongst the most open of sources. The big picture of the algorithm
+will be explained, and reproductions of a few subroutines will be
+demonstrated.
+
 
 ----
 
