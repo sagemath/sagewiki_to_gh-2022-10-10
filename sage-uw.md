@@ -17,7 +17,7 @@ the state of the art and present my 5-line "algorithm" "Gröber Surfing".
  * Fri,  Mar 2, 10:30 in B027: Robert Miller -- Title: Opening Graph Automorphisms
 Abstract:
 
-Bill McKay has written what many people agree to be the world's
+Brendan !McKay has written what many people agree to be the world's
 fastest automorphism computation package, "nauty." The package is
 given a labelled graph G and an ordered partition P, and it outputs
 the partition stabilizer subgroup of the automorphism group and,
