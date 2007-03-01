@@ -27,7 +27,7 @@ Canonical labels are in one-to-one correspondence with isomorphism
 classes.
 
 The package has a restrictive license, which excludes it from use in
-the open source community. The algorithm is described in McKay's
+the open source community. The algorithm is described in !McKay's
 paper, "Practical Graph Isomorphism," and luckily, academic Journals
 are amongst the most open of sources. The big picture of the algorithm
 will be explained, and reproductions of a few subroutines will be
