@@ -1,13 +1,20 @@
 == SAGE UW Seminar ==
 
- * Wed, Feb 28, Padelford 401, 5-6pm: Jim Morrow -- '''Algorithms for Discrete Electrical Networks'''
-       ABSTRACT: I will present algorithms for recovery of information about discrete electrical networks.  Time permitting, I'll also  discuss algorithms for embedding graphs in Riemann surfaces.
+ * Thur, Mar 1, 4-5pm: Martin Albrecht in B027:
 
- * Thur, Mar 1, 4-5pm: Martin Albrecht -- '''Attacks on Algebraic Block Ciphers''', room TBA.
+Algebraic Attacks against Block Ciphers
 
- * Fri, Mar 2, 4-5pm: Robert Miller -- 
-Title: Opening Graph Automorphisms
+In recent years a new attack technique against block ciphers has been
+discovered/proposed involving commutative algebra. I will briefly state the
+main ideas behind this technique, which often boils down to calculating a
+reduced lexicographical Gröbner basis for an ideal spanned by an equation
+system derived from the encryption algorithm.
 
+Also, I will give examples of such attacks using SAGE, give an overview about
+the state of the art and present my 5-line "algorithm" "Gröber Surfing".
+
+
+ * Fri,  Mar 2, 10:30 in B027: Robert Miller -- Title: Opening Graph Automorphisms
 Abstract:
 
 Bill McKay has written what many people agree to be the world's
@@ -34,6 +41,11 @@ demonstrated.
 
 
 = Past =
+
+ * Wed, Feb 28, Padelford 401, 5-6pm: Jim Morrow -- '''Algorithms for Discrete Electrical Networks'''
+       ABSTRACT: I will present algorithms for recovery of information about discrete electrical networks.  Time permitting, I'll also  discuss algorithms for embedding graphs in Riemann surfaces.
+
+
 
  * Friday, March 2: TBA
 
