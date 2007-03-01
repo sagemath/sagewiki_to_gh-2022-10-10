@@ -6,3 +6,5 @@
 * [http://sage.math.washington.edu/home/burhanud/SD3_pics Iftikhar Burhanuddin] 
 
 * [http://www.yiqiang.net/gallery/v/sd3 Yi Qiang]
+
+* [http://sage.math.washington.edu/pics/new/2007-02/ William Stein]
