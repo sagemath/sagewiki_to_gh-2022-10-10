@@ -50,3 +50,4 @@ general purpose (such as Axiom).
 We shall start by surveying Maxima, a general purpose CAS.
 
  * ["Maxima as an OSCAS"]
+ * ["Axiom as an OSCAS"]
