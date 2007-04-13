@@ -4,7 +4,7 @@
 
 The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
 
-The main people working on this project are Emily Kirkman, Robert Miller and Bobby Moretti.
+The main people working on this project are Emily Kirkman and Robert Miller.
 
 We have attempted to make a complete list of existing graph theory software.  We posted functionality lists and some algorithm/construction summaries.  We are very interested in feedback or last-minute additions, as we are ready to begin [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] our findings.  
 
@@ -14,6 +14,8 @@ We have attempted to make a complete list of existing graph theory software.  We
 === Software included with SAGE ===
 ==== GAP ====
   . (see GRAPE-- noting that GRAPE is not standard in SAGE)
+==== Maxima ====
+  . [http://wxmaxima.sourceforge.net/graphs/ GRAPHS package]
 ==== NetworkX ====
       [https://networkx.lanl.gov/ Link]
       Seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, !SciPy, PyGSL, sAsync, PyYAML: EXCELLENT documentation with links to source code from each function descriptor (TODO: make sense of networkx.utils, networkx.threshold, networkx.generators.small, networkx.me, networkx.mixing, networkx.search_class, networkx.tests); uses pygraphviz to interface to graphviz
