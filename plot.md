@@ -4,7 +4,9 @@ Here are some python plotting engines/libraries:
 
    Older/not python dedicated:
        * Grace: http://www.idyll.org/~n8gray/code
-       * PGPLOT: http://efault.net/npat/hacks/ppgplot
+       * PGPLOT: [http://efault.net/npat/hacks/ppgplot ppgplot]
+         [http://www.astro.caltech.edu/~tjp/pgplot/ pgplot]
+         [http://astro.swarthmore.edu/~burns/pygplot/ pygplot]
        * PLplot: http://www.plplot.org
        * opemath: Written by William Schelter and part of Maxima (thus also SAGE) is a TCL/Tk plotting program which allows for interactive viewing. It has no separate download page. An example is this [http://modular.math.washington.edu/home/wdj/art/saddle.png saddle]:
      {{{sage: maxima.eval("plot3d(2^(-u^2+v^2),[u,-1,1],[v,-1,1],[plot_format, openmath]);")}}}
