@@ -8,7 +8,7 @@ Here are some python plotting engines/libraries:
        * PLplot: http://www.plplot.org
        * opemath: Written by William Schelter and part of Maxima (thus also SAGE) is a TCL/Tk plotting program which allows for interactive viewing. It has no separate download page. An example is this [http://modular.math.washington.edu/home/wdj/art/saddle.png saddle]:
      {{{sage: maxima.eval("plot3d(2^(-u^2+v^2),[u,-1,1],[v,-1,1],[plot_format, openmath]);")}}}
-       * Dislin: [http://www.mps.mpg.de/dislin/ dislin], [http://kim.bio.upenn.edu/~pmagwene/disipyl.html disipyl] (a python wrapper for dislin)
+       * Dislin: [http://www.mps.mpg.de/dislin/ dislin], [http://kim.bio.upenn.edu/~pmagwene/disipyl.html disipyl] (a python wrapper for dislin). It's license says dislin is "free for non-commercial use". 
    Currently developed / good:
        * matplotlib: http://matplotlib.sourceforge.net
        * Tachyon: http://jedi.ks.uiuc.edu/~johns/raytracer/
