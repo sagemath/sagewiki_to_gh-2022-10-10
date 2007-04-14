@@ -4,7 +4,7 @@ Here are some python plotting engines/libraries:
 
    Older/not python dedicated:
        * disipyl: http://kim.bio.upenn.edu/~pmagwene/disipyl/index.html
-         a [screenshot | http://kim.bio.upenn.edu/~pmagwene/disipyl/img/demo3Dimg1.jpg]
+         a [http://kim.bio.upenn.edu/~pmagwene/disipyl/img/demo3Dimg1.jpg screenshot]
        * Grace: http://www.idyll.org/~n8gray/code
        * PGPLOT: http://efault.net/npat/hacks/ppgplot
        * PLplot: http://www.plplot.org
