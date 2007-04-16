@@ -22,4 +22,4 @@
 
 == Elementary Education ==
 
- * The notebook allows a user to output HTML which provides a nice format for creating simple apps that help kids grasp new concepts by seeing many examples. 
+ * Using the notebook, Timothy Clemans has made an app that shows the calculation of the GCD of a list of numbers using cancellation and an app that given a factorable trinomial where A = 1 a visualization of finding the solution is given.
