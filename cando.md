@@ -4,6 +4,10 @@
 
 == Commutative Algebra ==
 
+== Elementary Education ==
+
+ * Using the notebook, Timothy Clemans has made an app that shows the calculation of the GCD of a list of numbers using cancellation and an app that given a factorable trinomial where A = 1 a visualization of finding the solution is given.
+
 == Finite Fields ==
 
 == Graphical Interface ==
@@ -19,7 +23,3 @@
 == p-adic Numbers ==
 
 == Plotting ==
-
-== Elementary Education ==
-
- * Using the notebook, Timothy Clemans has made an app that shows the calculation of the GCD of a list of numbers using cancellation and an app that given a factorable trinomial where A = 1 a visualization of finding the solution is given.
