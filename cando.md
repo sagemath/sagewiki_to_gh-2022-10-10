@@ -12,7 +12,7 @@
 
 == Linear Algebra ==
 
-== Number Theory == 
+== Number Theory ==
 
 == Numerical Computation ==
 
