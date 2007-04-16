@@ -2,7 +2,7 @@
 
 == Calculus ==
 
-==Commutative Algebra== 
+== Commutative Algebra ==
 
 == Finite Fields ==
 
