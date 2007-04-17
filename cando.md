@@ -21,6 +21,10 @@
 
 == Group Theory ==
 
+== Interfaces ==
+ * SAGE provides interfaces to the mathematical software Axiom, CoCoA, GAP, KASH, Macaulay2, Magma, Maple, Mathematica, Matlab, Maxima, MuPAD, Octave, and Singular.
+ * SAGE provides C/C++-library interfaces to NTL, PARI, Linbox, and mwrank.
+
 == Linear Algebra ==
 
  * The reduced row echelon form of e.g. dense 20,000x20,000 matrices over GF(2) can be computed in seconds and 50MB of RAM.
