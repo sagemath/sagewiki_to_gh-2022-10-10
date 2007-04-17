@@ -3,6 +3,7 @@
 == Calculus ==
 
 == Commutative Algebra ==
+ * Computing a Groebner basis is fast because of the SINGULAR computer algebra system.
 
 == Crypto ==
 
@@ -10,15 +11,20 @@
 
 == Elementary Education ==
 
- * Using the notebook, Timothy Clemans has made an app that shows the calculation of the GCD of a list of numbers using cancellation and an app that given a factorable trinomial where A = 1 a visualization of finding the solution is given.
+ * The notebook is a useful tool for basic math education because of its flexible visualization/output capabilities.
 
 == Finite Fields ==
+
+ * Basic arithmetic over finite extension fields is fast because of the Givaro library.
 
 == Graphical Interface ==
 
 == Group Theory ==
 
 == Linear Algebra ==
+
+ * The reduced row echelon form of e.g. dense 20,000x20,000 matrices over GF(2) can be computed in seconds and 50MB of RAM.
+ * Computation of reduced row echelon forms of sparse matrices is supported.
 
 == Number Theory ==
 
