@@ -3,6 +3,7 @@
 == Calculus ==
 
 == Commutative Algebra ==
+
  * Computing a Groebner basis is fast because of the SINGULAR computer algebra system.
 
 == Crypto ==
@@ -22,7 +23,8 @@
 == Group Theory ==
 
 == Interfaces ==
- * SAGE provides interfaces to the mathematical software Axiom, CoCoA, GAP, KASH, Macaulay2, Magma, Maple, Mathematica, Matlab, Maxima, MuPAD, Octave, and Singular.
+
+ * SAGE provides interpreter interfaces to Axiom, CoCoA, GAP, KASH, Macaulay2, Magma, Maple, Mathematica, Matlab, Maxima, MuPAD, Octave, and Singular.
  * SAGE provides C/C++-library interfaces to NTL, PARI, Linbox, and mwrank.
 
 == Linear Algebra ==
