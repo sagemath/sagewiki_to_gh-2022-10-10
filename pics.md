@@ -68,4 +68,4 @@ t6.plane((0,0,-1.9259),(0,0,1),'p')
 t6.show()
 }}}
 
-attachment:fourspheres.png
+[attachment:fourspheres.png]
