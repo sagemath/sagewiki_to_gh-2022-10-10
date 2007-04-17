@@ -31,22 +31,22 @@ attachment:9_cube.png
 == Other wiki pages ==
  * Surveys
   . [http://www.sagemath.org:9001/graph_survey Existing Software]: We are always seeking additions and comments.
-  . [http://sage.math.washington.edu:9001/graph_db_survey Existing Databases]: Includes comments by Jason Grout.
+  . [http://www.sagemath.org:9001/graph_db_survey Existing Databases]: Includes comments by Jason Grout.
 
- * [http://sage.math.washington.edu:9001/graph_benchmark Benchmarks]
+ * [http://www.sagemath.org:9001/graph_benchmark Benchmarks]
   . Initial Benchmarks indicated that NetworkX was the appropriate package for inclusion in SAGE. They were designed to compare the constructions and very basic functionality found in our survey of existing software.
 
- * [http://sage.math.washington.edu:9001/graph_plotting Plotting]
+ * [http://www.sagemath.org:9001/graph_plotting Plotting]
   * 2D plotting is implemented using matplotlib.
   * 3D plotting via Tachyon is coming soon.
   * 3D interactive viewing is on its way, via Java applets (pending some serious implementation issues).
 
- * [http://sage.math.washington.edu:9001/graph_generators Graph Generators]
+ * [http://www.sagemath.org:9001/graph_generators Graph Generators]
   * So far: Basic graph structures with intuitive graphics.
   * Extensive educational docstrings and many graph constructors.
   * Native positionings allow standard layouts and quicker plotting
 
- * [http://sage.math.washington.edu:9001/graph_database Database]
+ * [http://www.sagemath.org:9001/graph_database Database]
   . Emily has provided a provisional database of graphs on up to seven vertices:
 
 {{{
