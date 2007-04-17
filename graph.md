@@ -30,14 +30,7 @@ attachment:9_cube.png
 
 == Other wiki pages ==
  * Surveys
-
----- /!\ '''Edit conflict - other version:''' ----
-  . [graph_survey Existing Software]: We are always seeking additions and comments.
-
----- /!\ '''Edit conflict - your version:''' ----
   . [/graph_survey Existing Software]: We are always seeking additions and comments.
-
----- /!\ '''End of edit conflict''' ----
   . [http://sage.math.washington.edu:9001/graph_db_survey Existing Databases]: Includes comments by Jason Grout.
 
  * [http://sage.math.washington.edu:9001/graph_benchmark Benchmarks]
