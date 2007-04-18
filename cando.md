@@ -61,4 +61,4 @@ exactly ''what'' SAGE can do.
  * SAGE provides limited 3d plotting via an included ray tracer. 
 
 == Polytopes ==
- * Exact convex hulls can be quickly computed using polymake and the cddlib library.
+ * Exact convex hulls in any dimension can be quickly computed using polymake and the cddlib library.
