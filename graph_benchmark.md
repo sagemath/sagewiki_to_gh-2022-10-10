@@ -2,14 +2,14 @@
 
 ==  Introduction ==
 
-The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"]. The main people working on this project are Emily Kirkman, Robert Miller and Bobby Moretti.
+The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"]. The main people working on this project are Emily Kirkman and Robert Miller.
 
 The programs we are currently benchmarking are GRAPE, Magma, NetworkX, Mathematica (the optional Combinatorica package), and Maple. We will post our results here.  As always, we love [mailto:rlmill@math.washington.edu feedback!]
 
 == Oct 19 Benchmarks ==
 === Algorithms ===
  . A database of 15 random* graphs on 100 vertices were used to time the following functions.
- . *- The distribution was $G(n,p)$, with $p$ the probability each edge is independently included and $n$ the number of vertices. Our $p$ was 0.45.
+ . *- The distribution was G(n,p), with p the probability each edge is independently included and n the number of vertices. Our p was 0.45.
  * Connectivity Check
  * Component List
  * Diameter
