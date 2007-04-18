@@ -51,8 +51,8 @@ exactly ''what'' SAGE can do.
  * Modular forms for general weight >= 2, character, Gamma1, and GammaH.
 
 == Numerical Computation ==
- * Fast arithmetic and special functions
- * Matrix and vector arithmetic, QR decomposition, system solving
+ * Fast arithmetic and special functions with double precision real and complex numbers.
+ * Matrix and vector arithmetic, QR decomposition, system solving.
 
 == p-adic Numbers ==
 
