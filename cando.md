@@ -59,3 +59,6 @@ exactly ''what'' SAGE can do.
 == Plotting ==
  * SAGE provides 2d plotting functionality similar to Mathematica's. 
  * SAGE provides limited 3d plotting via an included ray tracer. 
+
+== Polytopes ==
+ * Exact convex hulls can be quickly computed using polymake and the cddlib library.
