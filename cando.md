@@ -4,7 +4,7 @@ This is supposed to be a high-level overview and list of functionality that is e
 from the standard SAGE interface.  In particular, don't list functionality that is only available,
 e.g., by directly calling GAP or other systems.  Also, this is aimed at people who have never heard
 of programs like GAP, Singular, etc., and don't care how SAGE does things -- they just want to know
-exactly *what* SAGE can do. 
+exactly ''what'' SAGE can do. 
 
 == Calculus ==
 
@@ -25,6 +25,8 @@ exactly *what* SAGE can do.
  * Basic arithmetic over finite extension fields is fast because of the Givaro library.
 
 == Graphical Interface ==
+ * A web-browser based graphical interface, which anybody can easily use or share.  The GUI can also be used for any math software that SAGE interfaces with. 
+ * A wiki with math typesetting preconfigured. 
 
 == Group Theory ==
 
