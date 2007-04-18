@@ -7,7 +7,8 @@
  * NetworkX base classes have been interfaced, and all functions are soon to follow.
  * Jason Grout's (Brigham Young) SQL lite graph database is almost finished, and when it is done, it will be interfaced by Emily.
  * Jim Morrow (UW) has expressed interest in using SAGE for his [http://www.math.washington.edu/~morrow/reu07/reu.html summer REU] on graphs. Robert is working on implementing electrical networks, which includes implementing edge weights and graphs with boundary.
- * Chris Godsil (Waterloo) has expressed interest in helping design a more general discrete math package in SAGE, including perhaps an open source version of nauty. Robert is working to fulfill his wish list.
+ * Chris Godsil (Waterloo) has expressed interest in helping design a more general discrete math package in SAGE.
+ * Brendan McKay's isomorphism algorithm has been replicated for the open source community (it is called "nice", as opposed to "nauty").
  * Graph plotting has been implemented in two dimensions:
 
 {{{
