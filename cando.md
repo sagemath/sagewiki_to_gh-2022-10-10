@@ -8,6 +8,10 @@ exactly ''what'' SAGE can do.
 
 == Calculus ==
 
+== Coding theory ==
+
+ * Many commands from GAP and GUAVA are wrapped and there are some native (Python/SAGE) commands.
+
 == Commutative Algebra ==
 
  * Fast computation of Groebner basis.
@@ -29,6 +33,12 @@ exactly ''what'' SAGE can do.
  * A wiki with math typesetting preconfigured. 
 
 == Group Theory ==
+
+ * Permutations groups
+ * Abelian groups
+ * Matrix groups (in particular, classical groups over finite fields)
+
+ Most of these are computed by wrapping GAP commands but some commands are native (Python/SAGE).
 
 == Interfaces ==
 
