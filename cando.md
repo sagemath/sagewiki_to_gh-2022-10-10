@@ -1,6 +1,6 @@
 = What SAGE Can Do =
 
-This is a high-level overview and list of functionality that is easily available from the standard SAGE interface.  (The intended reader has never heard of Maxima, GAP, Singular, Givaro, etc.) 
+This is a high-level overview and list of functionality that is easily available from the standard SAGE interface.  (The intended reader has never heard of Maxima, GAP, Singular, Givaro, etc.).   This should be aimed at SAGE-2.5, and will be released with it. 
 
 == Calculus ==
  * SAGE has fairly complete symbolic manipulation capabilities, including symbolic and numerical integration, differentiation, limits, etc. 
