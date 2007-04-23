@@ -1,17 +1,16 @@
 = What SAGE Can Do =
 
 This is supposed to be a high-level overview and list of functionality that is easily available
-from the standard SAGE interface.  In particular, don't list functionality that is only available,
-e.g., by directly calling GAP or other systems.  Also, this is aimed at people who have never heard
-of programs like GAP, Singular, etc., and don't care how SAGE does things -- they just want to know
-exactly ''what'' SAGE can do. 
+from the standard SAGE interface.  The idea is to basically *NOT* say "can do what GAP does".
+Instead describe actually functionalitty.  Imagine a reader who has never heard of Maxima, 
+GAP, Singular, Givaro, etc. 
 
 == Calculus ==
  * SAGE has fairly complete symbolic manipulation capabilities, including symbolic and numerical integration, differentiation, limits, etc. 
 
 == Coding theory ==
 
- * Many commands from GAP and GUAVA are wrapped and there are some native (Python/SAGE) commands.
+ * A wide range of basic functionality.
 
 == Commutative Algebra ==
 
@@ -27,7 +26,7 @@ exactly ''what'' SAGE can do.
 
 == Finite Fields ==
 
- * Basic arithmetic over finite extension fields is fast because of the Givaro library.
+ * Very fast arithmetic over finite fields and extensions of finite fields (especially up to cardinality 2^16).
 
 == Graphical Interface ==
  * A web-browser based graphical interface, which anybody can easily use or share.  The GUI can also be used for any math software that SAGE interfaces with. 
@@ -38,8 +37,6 @@ exactly ''what'' SAGE can do.
  * Permutations groups
  * Abelian groups
  * Matrix groups (in particular, classical groups over finite fields)
-
- Most of these are computed by wrapping GAP commands but some commands are native (Python/SAGE).
 
 == Interfaces ==
 
@@ -56,7 +53,7 @@ exactly ''what'' SAGE can do.
  * Compute Mordell-Weil groups of (many) elliptic curves using both invariants and algebraic 2-descents.
  * A wide range of number theoretic functions, e.g., euler_phi, primes enumeration, sigma, tau_qexp, etc. 
  * Compute the number of points on an elliptic curve modulo p for all primes p less than a million in seconds.
- * Optimized implementation of the SEA point counting algorithm for counting points modulo p when p is large.
+ * Optimized implementation of the Schoof-Elkies-Atkin point counting algorithm for counting points modulo p when p is large.
  * An optimized modern quadratic Sieve for factoring integers n = p*q.
  * Modular symbols for general weight, character, Gamma1, and GammaH.
  * Modular forms for general weight >= 2, character, Gamma1, and GammaH.
@@ -72,4 +69,5 @@ exactly ''what'' SAGE can do.
  * SAGE provides limited 3d plotting via an included ray tracer. 
 
 == Polytopes ==
- * Exact convex hulls in any dimension can be quickly computed using polymake and the cddlib library.
+ * State of the art support for computing with lattice polytopes.
+ * Exact convex hulls in any dimension can be quickly computed (requires the optional polymake package).
