@@ -1,5 +1,7 @@
 = What SAGE Can Do =
 
+SAGE does a wider range of mathematics than all other open source mathematics software, partly by virtue of incorporating several of the other large mature systems.  
+
 This is a high-level overview and list of functionality that is easily available from the standard SAGE interface.  (The intended reader has never heard of Maxima, GAP, Singular, Givaro, etc.).   This should be aimed at SAGE-2.5, and will be released with it. 
 
 == Calculus ==
