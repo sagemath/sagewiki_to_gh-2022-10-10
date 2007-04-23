@@ -7,6 +7,7 @@ of programs like GAP, Singular, etc., and don't care how SAGE does things -- the
 exactly ''what'' SAGE can do. 
 
 == Calculus ==
+ * SAGE has fairly complete symbolic manipulation capabilities, including symbolic and numerical integration, differentiation, limits, etc. 
 
 == Coding theory ==
 
