@@ -60,6 +60,7 @@ This is a high-level overview and list of functionality that is easily available
  * Matrix and vector arithmetic, QR decomposition, system solving.
 
 == p-adic Numbers ==
+ * Extensive support for arithmetic with a range of different models of p-adic arithmetic.
 
 == Plotting ==
  * SAGE provides 2d plotting functionality similar to Mathematica's. 
