@@ -27,7 +27,8 @@ attachment:9_cube.png
 == Talks ==
  * On Oct. 20, 2006, Robert gave a [http://sage.math.washington.edu/home/rlmill/talk_2001-10-20/2006-10-20SAGE.pdf talk] about the state of affairs for existing software which shared a few benchmarks and discussed some implementation ideas.
  * On Feb. 15, 2007, Robert and Emily gave an Informal Introduction to the Graph Theory Package. This talk was essentially a review of newly available features.
- * On Mar. 2, 2007, in B027 at 10:30 a.m., Robert Miller will give a talk entitled "Opening Graph Automorphisms".  The abstract is located [http://sage.math.washington.edu:9001/sage-uw here].
+ * On Feb. 17, 2007, Robert gave a [http://www.robertlmiller.com/talks/graph_intro.pdf talk] at Sage Days 3.
+ * On Mar. 2, 2007, in B027 at 10:30 a.m., Robert Miller gave a talk entitled "Opening Graph Automorphisms".
 
 == Other wiki pages ==
  * Surveys
