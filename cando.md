@@ -22,6 +22,7 @@ This is a high-level overview and list of functionality that is easily available
 == Cryptography ==
 
  * Classical ciphers are well supported.
+ * Fast point counting on elliptic curves.
 
 == Elementary Education ==
 
