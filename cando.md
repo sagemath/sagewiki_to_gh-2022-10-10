@@ -51,11 +51,16 @@ This is a high-level overview and list of functionality that is easily available
 == Number Theory ==
  * Compute Mordell-Weil groups of (many) elliptic curves using both invariants and algebraic 2-descents.
  * A wide range of number theoretic functions, e.g., euler_phi, primes enumeration, sigma, tau_qexp, etc. 
- * Compute the number of points on an elliptic curve modulo p for all primes p less than a million in seconds.
- * Optimized implementation of the Schoof-Elkies-Atkin point counting algorithm for counting points modulo p when p is large.
- * An optimized modern quadratic Sieve for factoring integers n = p*q.
+ * An optimized modern quadratic sieve for factoring integers n = p*q.
  * Modular symbols for general weight, character, Gamma1, and GammaH.
  * Modular forms for general weight >= 2, character, Gamma1, and GammaH.
+ * Elliptic Curves:
+    * All standard invariants of elliptic curves over QQ, division polynomials, etc. 
+    * Compute the number of points on an elliptic curve modulo p for all primes p less than a million in seconds.
+    * Optimized implementation of the Schoof-Elkies-Atkin point counting algorithm for counting points modulo p when p is large.
+    * Complex and p-adic L-functions of elliptic curves
+    * Can compute p-adic heights and regulators for p < 100000 in a reasonable amount of time.
+    * Formal groups
 
 == Numerical Computation ==
  * Fast arithmetic and special functions with double precision real and complex numbers.
