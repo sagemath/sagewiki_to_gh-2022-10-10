@@ -48,7 +48,7 @@ This is a high-level overview and list of functionality that is easily available
  * Abelian groups
  * Matrix groups (in particular, classical groups over finite fields)
 
-== Interfaces ==
+== Interfaces to Math Software ==
 
  * Interpreter interfaces to Axiom, CoCoA, GAP, KASH, Macaulay2, Magma, Maple, Mathematica, Matlab, Maxima, MuPAD, Octave, and Singular.
  * C/C++-library interfaces to NTL, PARI, Linbox, and mwrank.
