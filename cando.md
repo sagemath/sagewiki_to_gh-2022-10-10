@@ -62,7 +62,8 @@ This is a high-level overview and list of functionality that is easily available
 == Number Theory ==
  * Compute Mordell-Weil groups of (many) elliptic curves using both invariants and algebraic 2-descents.
  * A wide range of number theoretic functions, e.g., euler_phi, primes enumeration, sigma, tau_qexp, etc. 
- * An optimized modern quadratic sieve for factoring integers n = p*q.
+ * Optimized modern quadratic sieve for factoring integers n = p*q.
+ * Optimized implementation of the elliptic curve factorization method.
  * Modular symbols for general weight, character, Gamma1, and GammaH.
  * Modular forms for general weight >= 2, character, Gamma1, and GammaH.
  * Elliptic Curves:
