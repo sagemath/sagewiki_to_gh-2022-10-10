@@ -5,7 +5,11 @@ SAGE does a wider range of mathematics than every other open source mathematics 
 This is a high-level overview and list of functionality that is easily available from the standard SAGE interface.  (The intended reader has never heard of Maxima, GAP, Singular, Givaro, etc.).   This should be aimed at SAGE-2.5, and will be released with it. 
 
 == Calculus ==
- * SAGE has fairly complete symbolic manipulation capabilities, including symbolic and numerical integration, differentiation, limits, etc. 
+ * SAGE has fairly complete symbolic manipulation capabilities, including symbolic and numerical integration, differentiation, limits, etc.
+
+== Combinators ==
+ * Many basic functions.
+ * Many of Sloane's functions are implemented.
 
 == Coding theory ==
 
@@ -26,6 +30,12 @@ This is a high-level overview and list of functionality that is easily available
 == Finite Fields ==
 
  * Very fast arithmetic over finite fields and extensions of finite fields (especially up to cardinality 2^16).
+
+== Graph Theory ==
+ * Construction, directed graphs, labeled graphs.
+ * 2d and 3d plotting of graphs using an optimized implementation of the spring layout algorithm.
+ * Constructors for all standard families of graphs
+ * Graph isomorphism testing; automorphism group computation
 
 == Graphical Interface ==
  * A web-browser based graphical interface, which anybody can easily use or share.  The GUI can also be used for any math software that SAGE interfaces with. 
@@ -70,7 +80,7 @@ This is a high-level overview and list of functionality that is easily available
  * Extensive support for arithmetic with a range of different models of p-adic arithmetic.
 
 == Plotting ==
- * SAGE provides 2d plotting functionality similar to Mathematica's. 
+ * SAGE provides very complete 2d plotting functionality similar to Mathematica's. 
  * SAGE provides limited 3d plotting via an included ray tracer. 
 
 == Polytopes ==
