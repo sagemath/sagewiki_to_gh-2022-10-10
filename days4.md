@@ -17,6 +17,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Tom Boothby
  * Timothy Clemans
  * Didier Deshommes
+ * David Harvey
  * David Joyner
  * Robert Miller
  * David Roe
