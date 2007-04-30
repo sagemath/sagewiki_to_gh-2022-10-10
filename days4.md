@@ -1,4 +1,4 @@
-= SAGEdays4 =
+= SAGE Days 4 =
 
 The 4th SAGE days 2007 will be held the week of June 12-17, 2007 (a Tuesday through Sunday) in the Mathematics Department of the University of Washington in scenic Seattle.
 
