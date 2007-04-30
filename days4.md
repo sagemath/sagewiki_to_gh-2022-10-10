@@ -32,9 +32,9 @@ point to Montlake Boulevard NE. Turn left into Montlake Blvd.
 and continue north past Husky Stadium. Move over to the right and take the 
 3rd right after the Stadium. Park in lot E1. It will cost \$ 4 (a machine
 takes ones and fives). Park your car and walk over the overpass
-and up the hill. Look for the math Dept using the campus map:
-
+and up the hill. Look for the math Dept using the campus map
 [http://www.washington.edu/home/maps/campusmappg.pdf campus map] (pdf)
+or [http://www.washington.edu/home/maps/northcentral.html?PDL Padelford Hall map].
 
 Accomodations:
 
