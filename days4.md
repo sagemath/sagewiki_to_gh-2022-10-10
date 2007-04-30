@@ -36,4 +36,8 @@ and up the hill. Look for the math Dept using the campus map:
 
 [http://www.washington.edu/home/maps/campusmappg.pdf campus map] (pdf)
 
-[http://www.washington.edu/univrel/visitors/accommodations.html Hotel information]
+Accomodations:
+
+ * [http://www.washington.edu/univrel/visitors/accommodations.html General hotel information]
+ * The [http://www.seattleuniversityhotel.com/index.html Seattle University Travelodge] has free wifi and is conveniently located. Their rates are also reasonable (e.g., 78 and 88). 
+ * The [http://www.collegeinnseattle.com/ College Inn] is also a good choice, though sometimes gets booked up.
