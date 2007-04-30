@@ -23,6 +23,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * David Joyner
  * Kiran Kedlaya
  * Robert Miller
+ * Joel Mohler
  * David Roe
  * William Stein
  * Gonzalo Tornaria
