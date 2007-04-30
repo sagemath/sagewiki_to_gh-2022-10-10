@@ -20,6 +20,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Didier Deshommes
  * David Harvey
  * David Joyner
+ * Kiran Kedlaya
  * Robert Miller
  * David Roe
  * William Stein
