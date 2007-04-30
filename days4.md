@@ -1,8 +1,8 @@
 = SAGEdays4 =
 
-The 4th SAGE days 2007, to be held the week of June 12-17, 2007 (a Tuesday thru Sunday) in the Mathematics Department of the University of Washington in scenic Seattle.
+The 4th SAGE days 2007 will be held the week of June 12-17, 2007 (a Tuesday through Sunday) in the Mathematics Department of the University of Washington in scenic Seattle.
 
-The focus will be on coding sprints, rather than talks on various SAGE-related topics. Namely, it is planned to be a developers workshop, with fewer general audience talks.
+The focus will be on coding sprints, rather than talks on various SAGE-related topics. Namely, it is planned to be a developers workshop, with fewer general audience talks but plenty of opportunity to talk and work with others.
 
 == Organizers ==
 
