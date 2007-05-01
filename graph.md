@@ -30,6 +30,8 @@ attachment:9_cube.png
  * On Feb. 17, 2007, Robert gave a [http://www.robertlmiller.com/talks/graph_intro.pdf talk] at Sage Days 3.
  * On Mar. 2, 2007, Robert gave a talk entitled "Opening Graph Automorphisms".
  * On Mar. 29, 2007, he followed up with a [http://www.robertlmiller.com/talks/nauty.pdf part two] of this talk, after implementing "nice".
+ * On Apr. 21, 2007, Emily presented a poster introducing the SAGE graph theory package at East Coast Computer Algebra Day.
+ * On Apr. 27, 2007, Emily gave a talk introducing the (almost complete) sqlite database.
 
 == Other wiki pages ==
  * Surveys
