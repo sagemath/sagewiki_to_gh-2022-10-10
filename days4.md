@@ -17,6 +17,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Iyad Ajwa
  * Nick Alexander
  * Tom Boothby
+ * Ifti B.
  * Timothy Clemans
  * Didier Deshommes
  * David Harvey
