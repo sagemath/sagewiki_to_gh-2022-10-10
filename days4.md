@@ -25,6 +25,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Kiran Kedlaya
  * Robert Miller
  * Joel Mohler
+ * Matteo Paganini
  * Yi Qiang
  * David Roe
  * William Stein
