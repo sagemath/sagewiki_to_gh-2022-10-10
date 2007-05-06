@@ -30,7 +30,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * David Roe
  * William Stein
  * Gonzalo Tornaria
-
+ * Boobby Moretti
 
  
 === Local Information ===
