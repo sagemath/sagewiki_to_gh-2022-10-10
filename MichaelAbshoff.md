@@ -29,3 +29,5 @@ Hello, I study math at the University of Dortmund. Most of the time I spend with
  * google group linbox-devel
  * google group linbox-use
  * [http://cocoa.mathematik.uni-dortmund.de/forum/ the CoCoA forum]
+----
+CategoryHomepage
