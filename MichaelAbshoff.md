@@ -8,6 +8,7 @@ Hello, I study math at the University of Dortmund. Most of the time I spend with
  * MSI Windows installer
  * Cygwin port of SAGE, build tests and small compilation fixes
 === Short Term ===
+ * build unified Setup.py for gdmodule
  * multivariate polynomial arithmetic via CoCoALib
  * computation of approximate vanishing ideals via ApCoCoALib (needs multivariate polynomial arithmetic via CoCoALib)
  * check targets for various SAGE packages like gmp and linbox
