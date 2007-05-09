@@ -2,7 +2,7 @@
 
 ==  Introduction ==
 
-The SAGE [http://sage.math.washington.edu:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
+The SAGE [http://www.sagemath.org:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
 
 The main people working on this project are Emily Kirkman and Robert Miller.
 
