@@ -20,7 +20,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Ifti B.
  * Craig Citro (first three days)
  * Timothy Clemans
- * Didier Deshommes
+ * Didier Deshommes (first 3 days (11-14). If you'd like to split the cost of a room, please contact me)
  * David Harvey
  * David Joyner
  * Kiran Kedlaya (last day only)
