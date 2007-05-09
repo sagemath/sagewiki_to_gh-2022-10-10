@@ -19,6 +19,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Tom Boothby
  * Ifti B.
  * Timothy Clemans
+ * Craig Citro (first three days)
  * Didier Deshommes
  * David Harvey
  * David Joyner
