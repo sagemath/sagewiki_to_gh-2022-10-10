@@ -1,5 +1,7 @@
 [[TableOfContents]]
 
+The SAGE Graph Theory Project
+
 == Introduction ==
  . We are implementing graph objects and algorithms in ["SAGE"]. The main people working on this project are Emily Kirkman and Robert Miller.
 
