@@ -18,8 +18,8 @@ The following people have expressed interest so far. If you wish to attend and d
  * Nick Alexander
  * Tom Boothby
  * Ifti B.
- * Timothy Clemans
  * Craig Citro (first three days)
+ * Timothy Clemans
  * Didier Deshommes
  * David Harvey
  * David Joyner
@@ -27,12 +27,12 @@ The following people have expressed interest so far. If you wish to attend and d
  * Emily Kirkman
  * Robert Miller
  * Joel Mohler
+ * Bobby Moretti
  * Matteo Paganini
  * Yi Qiang
  * David Roe
  * William Stein
  * Gonzalo Tornaria
- * Bobby Moretti
 
  
 === Local Information ===
