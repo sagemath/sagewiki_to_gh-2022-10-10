@@ -23,7 +23,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Didier Deshommes
  * David Harvey
  * David Joyner
- * Kiran Kedlaya
+ * Kiran Kedlaya (last day only)
  * Emily Kirkman
  * Robert Miller
  * Joel Mohler
