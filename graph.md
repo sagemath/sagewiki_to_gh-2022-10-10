@@ -10,7 +10,7 @@ The SAGE Graph Theory Project
  * Jason Grout's (Brigham Young) SQL lite graph database is almost finished, and when it is done, it will be interfaced by Emily.
  * Jim Morrow (UW) has expressed interest in using SAGE for his [http://www.math.washington.edu/~morrow/reu07/reu.html summer REU] on graphs. Robert is working on implementing electrical networks, which includes implementing edge weights and graphs with boundary.
  * Chris Godsil (Waterloo) has expressed interest in helping design a more general discrete math package in SAGE.
- * Brendan McKay's isomorphism algorithm has been replicated for the open source community (it is called "nice", as opposed to "nauty").
+ * Brendan !McKay's isomorphism algorithm has been replicated for the open source community (it is called "nice", as opposed to "nauty").
  * Graph plotting has been implemented in two dimensions:
 
 {{{
@@ -33,7 +33,7 @@ attachment:9_cube.png
  * On Mar. 2, 2007, Robert gave a talk entitled "Opening Graph Automorphisms".
  * On Mar. 29, 2007, he followed up with a [http://www.robertlmiller.com/talks/nauty.pdf part two] of this talk, after implementing "nice".
  * On Apr. 21, 2007, Emily presented a [http://sage.math.washington.edu/home/ekirkman/ECCAD.ppt poster (ppt)] introducing the SAGE graph theory package at East Coast Computer Algebra Day.
- * On Apr. 27, 2007, Emily gave a talk introducing the (almost complete) sqlite database.
+ * On Apr. 27, 2007, Emily gave a [http://sage.math.washington.edu/home/ekirkman/2007_04_27.html talk] introducing the (almost complete) sqlite database.
 
 == Other wiki pages ==
  * Surveys
