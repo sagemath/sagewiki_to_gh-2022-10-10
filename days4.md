@@ -24,7 +24,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Didier Deshommes (first 3 days (11-14). If you'd like to split the cost of a room, please contact me)
  * David Harvey
  * David Joyner
- * Kiran Kedlaya (last day only)
+ * Kiran Kedlaya (last day only, if at all)
  * Emily Kirkman
  * Robert Miller
  * Joel Mohler
