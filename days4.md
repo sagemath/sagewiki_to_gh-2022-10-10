@@ -9,6 +9,7 @@ The focus will be on coding sprints, rather than talks on various SAGE-related t
  * William Stein, wstein@gmail.com
  * David Joyner, wdjoyner@gmail.com
  * Robert Bradshaw, robertwb@math.washington.edu
+ * Tom Boothby, boothby@u.washington.edu
 
 == Participants ==
 
