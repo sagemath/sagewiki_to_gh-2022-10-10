@@ -2,6 +2,8 @@
 
 The 4th SAGE days 2007 will be held the week of June 12-17, 2007 (a Tuesday through Sunday) in the Mathematics Department of the University of Washington in scenic Seattle.
 
+The conference has been fully funded by the NSF UW/VIGRE and PIMS fund.  Thanks NSF and PIMS!!
+
 The focus will be on coding sprints, rather than talks on various SAGE-related topics. Namely, it is planned to be a developers workshop, with fewer general audience talks but plenty of opportunity to talk and work with others.
 
 [http://www.sagemath.org/flier/flier.pdf Poster]
