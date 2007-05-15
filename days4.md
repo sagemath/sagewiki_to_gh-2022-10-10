@@ -6,9 +6,9 @@ The conference has been fully funded by the NSF UW/VIGRE and PIMS fund.  Thanks 
 
 The focus will be on coding sprints, rather than talks on various SAGE-related topics. Namely, it is planned to be a developers workshop, with fewer general audience talks but plenty of opportunity to talk and work with others.
 
-[http://www.sagemath.org/flier/flier.pdf Poster]
+ * [http://www.sagemath.org/flier/flier.pdf Poster]
 
-[:days4/schedule Schedule]
+ * [:days4/schedule Schedule]
 
 == Organizers ==
 
