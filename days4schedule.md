@@ -16,7 +16,7 @@
 
 9:00 - very late:  coding sprints
 
-== Individual Projects ==
+== Projects ==
 
  * Nick Alexander: I'd like to implement some basic linear algebra over Z/nZ, following perhaps ``Algorithms for Linear Algebra Problems over Principal Ideal Rings'' (1996), Johannes Buchmann, Stefan Neis at http://citeseer.ist.psu.edu/719844.html. I'm also very interested in working on the commutative diagram coercion model proposed by David Roe.
 
