@@ -24,24 +24,25 @@ The focus will be on coding sprints, rather than talks on various SAGE-related t
 The following people have expressed interest so far. If you wish to attend and do not see your name, please contact the organizers.
  
  * Iyad Ajwa
- * Nick Alexander
- * Tom Boothby
- * Ifti B.
- * Craig Citro (first three days)
- * Timothy Clemans
+ * Nick Alexander (UC Irvine grad student)
+ * Tom Boothby (UW undergrad)
+ * Ifti B. (UCLA postdoc)
+ * Craig Citro (UCLA grad student; first three days)
+ * Timothy Clemans (Seattle High School Student)
  * Didier Deshommes (first 3 days (11-14). If you'd like to split the cost of a room, please contact me)
- * David Harvey
- * David Joyner
+ * Kirsten Fagnan (UW, applied math)
+ * David Harvey (Harvard)
+ * David Joyner (US Naval Academy)
  * Kiran Kedlaya (last day only, if at all)
- * Emily Kirkman
- * Robert Miller
- * Joel Mohler
- * Bobby Moretti
+ * Emily Kirkman (UW undergrad)
+ * Robert Miller (UW grad student)
+ * Joel Mohler 
+ * Bobby Moretti (UW undergrad)
  * Matteo Paganini
- * Yi Qiang
- * David Roe
- * William Stein
- * Gonzalo Tornaria
+ * Yi Qiang (UW undergrad)
+ * David Roe (Harvard grad student)
+ * William Stein (UW faculty)
+ * Gonzalo Tornaria (Uruguay in South America, faculty)
 
  
 === Local Information ===
