@@ -6,6 +6,10 @@ Project ideas for [:days4: SAGE Days 4].
 
  * David Joyner: I'm interested in adding functionality to the group theory functionality in SAGE. I'm also interested in coding theory and in particular Robert Miller's work on (now GPL'd) Leon's partition backtracking programs. 
 
+ * 3d Graphics (Kirsten Fagnan)
+
+ * Numerical Methods (Kirsten Fagnan)
+
  *  p-Adic Arithmetic: Design and implement highly optimized algorithms for arithmetic with p-adic numbers. The current implementation is already extensive, containing a wide range of different models of p-adic arithmetic (capped relative, capped absolute, lazy, extensions, etc.) but many new algorithms need to be developed, especially for arithmetic with polynomials over the p-adics, for p-adic linear algebra, for computing in the lattice of extensions of a p-adic ring, and for computing with completions of a number field. (This project started at SAGE Days 2, and has been very actively pursued, especially by David Roe during the last 7 months.)
 
  *  Applications of Monsky-Washnitzer Cohomology: Investigate algorithms for fast point counting on elliptic and hyperelliptic curves, computation of p-adic height pairings, and computations of p-adic Coleman integrals. This project began in 2006 at an MSRI workshop, and has been an active area of work during the last year by Kiran Kedlaya, David Harvey, and Robert Bradshaw. In particular, Harvey has recently developed new algorithms that will be explored at the workshop, which allow for new efficient point counting on Jacobians of hyperelliptic curves, Bradshaw and Kedlaya have implemented Coleman integration which has application to the study of rational points on curves, and Stein has been investigating p-adic analogues of the Birch and Swinnerton-Dyer conjecture in many new cases using a new algorithm for computing p-adic heights.
