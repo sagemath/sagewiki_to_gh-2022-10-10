@@ -8,7 +8,7 @@ The focus will be on coding sprints, rather than talks on various SAGE-related t
 
  * [http://www.sagemath.org/flier/flier.pdf Poster]
 
- * [:Schedule]
+ * [:days4schedule]
 
 == Organizers ==
 
