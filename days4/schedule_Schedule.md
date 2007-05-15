@@ -1,4 +1,4 @@
-== Tentative schedule ==
+== Daily schedule ==
 
 9-12: (optional) early-bird coffee, bagels, etc.
 
