@@ -1,7 +1,6 @@
-
 == Tentative schedule ==
 
-9-12: (optional) early-bird coffee, bagels, etc.
+9-12: (optional) early-bird coffee, bagels, etc.<br>
 12-1 lunch at a designated restaurant
 1:30 - 2:30 talk on improvements made to SAGE
 3:00 - 4:00 talk on what SAGE needs in order to improve
