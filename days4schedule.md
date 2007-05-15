@@ -1,4 +1,6 @@
-== Daily schedule ==
+= Daily schedule =
+
+Schedule for [:days4: SAGE Days 4].
 
 9-12: (optional) early-bird coffee, bagels, etc.
 
