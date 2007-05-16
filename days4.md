@@ -30,6 +30,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Craig Citro (UCLA grad student; first three days)
  * Timothy Clemans (Seattle High School Student)
  * Didier Deshommes (first 3 days (11-14). If you'd like to split the cost of a room, please contact me)
+ * Larry Eclipse (UW math alumni)
  * Kirsten Fagnan (UW, applied math)
  * David Harvey (Harvard)
  * David Joyner (US Naval Academy)
