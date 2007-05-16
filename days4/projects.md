@@ -2,6 +2,19 @@
 
 Project ideas for [:days4: SAGE Days 4].
 
+ * William Stein: Documentation.  Have teams describe how to do the following in tutorial fashion, with all examples automatically doctested:
+     * Use dsage to task farm a couple of standard example problems.
+     * Use SageX to create an interface to a C library (case study -- GMP-ECM).
+     * Convert a program from .sage files to .py library code.
+     * Convert a .py Python program to SageX for speed.
+     * Create publication-quality graphics for inclusion in latex documents.
+     * Port code from Magma to SAGE.
+     * Make an existing PARI-GP / GAP / Singular / Lisp / Maxima program easily usable from SAGE.
+
+ * David Roe: General elliptic curve height bound code (port Cremona's GPL'd MAGMA code to SAGE.)
+ 
+ * Stein: Implement Tate's algorithm over number fields (again, this involves porting Cremona's GPL'd MAGMA code to SAGE).
+
  * Nick Alexander: I'd like to implement some basic linear algebra over Z/nZ, following perhaps ``Algorithms for Linear Algebra Problems over Principal Ideal Rings'' (1996), Johannes Buchmann, Stefan Neis at http://citeseer.ist.psu.edu/719844.html. I'm also very interested in working on the commutative diagram coercion model proposed by David Roe.
 
  * David Joyner: I'm interested in adding functionality to the group theory functionality in SAGE. I'm also interested in coding theory and in particular Robert Miller's work on (now GPL'd) Leon's partition backtracking programs. 
