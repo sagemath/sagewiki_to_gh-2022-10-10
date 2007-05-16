@@ -2,7 +2,7 @@
 
 Project ideas for [:days4: SAGE Days 4].
 
- * William Stein: Documentation.  Have teams describe how to do the following in tutorial fashion, with all examples automatically doctested:
+ * William Stein: ''Documentation''.  Have teams describe how to do the following in tutorial fashion, with all examples automatically doctested:
      * Use dsage to task farm a couple of standard example problems.
      * Use SageX to create an interface to a C library (case study -- GMP-ECM).
      * Convert a program from .sage files to .py library code.
