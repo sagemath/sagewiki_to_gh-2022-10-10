@@ -14,7 +14,7 @@ Project ideas for [:days4:SAGE Days 4].
  * W Stein, Tom Boothby, Dorian Ramier, Alex Clemesha, and Yi Qiang: Improve '''The SAGE Notebook''':
   1. Convert the web server so that it uses twisted's multithreaded server (either twisted web like moinmoin or twisted web2)
   1. Make it so that the server use https to secure all communications and logins
-  1. Figure out precisely why the notebook feels sluggish when running locally on _certain_ platforms.  Consider removing features in the interest of speed. 
+  1. Figure out precisely why the notebook feels sluggish when running locally on _certain_ platforms.  Consider removing features in the interest of speed.  Also seriously consider making it so maybe 3 SAGE instances are pre-started by the notebook server when it is fairly idle so that new worksheets appear to starting working immediately. 
   1. Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.  Worksheet names would internally be prefaced with the user name.
   1. Interface issues:
    1. Highlighting a block of text and pressing tab indents it four spaces; similarly, pressing shift-tab dedents it four spaces.
@@ -34,7 +34,8 @@ Project ideas for [:days4:SAGE Days 4].
   1. Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken, and (3) it would be really nice, and probably easy, to have a WYSIWYG html editor mode like the one in moinmoin in which I'm writing this right now.
   1. Fix the bug where variables aren't listed in the sidebar.
   1. Implement correct tab completion in the worksheet when in system-other-than-sage mode (i.e., don't put magma.foo[tab])
-  1. Add support for user javascript in the worksheet cells along with basic graphics (Robert Miller). 
+  1. Add support for user javascript in the worksheet cells along with basic graphics (Robert Miller). See http://www.sagemath.org:9002/sage_trac/ticket/359
+  1. Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more robust.  With sufficient thought there might be a trick to implement this in a few lines of code. 
 
  * Nick Alexander: I'd like to implement some basic''' linear algebra over Z/nZ''', following perhaps '' Algorithms for Linear Algebra Problems over Principal Ideal Rings '' (1996), Johannes Buchmann, Stefan Neis at http://citeseer.ist.psu.edu/719844.html.   The algorithms of that paper apply to principal ideal '''rings''', and in the case of a principal ideal '''domain''', reduce to computing the Hermite normal form.  So this could expand to trying to compute the Hermite normal form in the manner of Steel's unpublished algorithm as implemented in MAGMA.
  * David Joyner: I'm interested in adding functionality to the '''group theory''' functionality in SAGE.
