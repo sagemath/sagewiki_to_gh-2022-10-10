@@ -32,6 +32,9 @@ Project ideas for [:days4:SAGE Days 4].
   1. Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories.
   1. Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken, and (3) it would be really nice, and probably easy, to have a WYSIWYG html editor mode like the one in moinmoin in which I'm writing this right now.
   1. Fix the bug where variables aren't listed in the sidebar.
+  1. Implement correct tab completion in the worksheet when in system-other-than-sage mode (i.e., don't put magma.foo[tab])
+  1. Add support for user javascript in the worksheet cells along with basic graphics (Robert Miller). 
+
  * Nick Alexander: I'd like to implement some basic''' linear algebra over Z/nZ''', following perhaps '' Algorithms for Linear Algebra Problems over Principal Ideal Rings '' (1996), Johannes Buchmann, Stefan Neis at http://citeseer.ist.psu.edu/719844.html.   The algorithms of that paper apply to principal ideal '''rings''', and in the case of a principal ideal '''domain''', reduce to computing the Hermite normal form.  So this could expand to trying to compute the Hermite normal form in the manner of Steel's unpublished algorithm as implemented in MAGMA.
  * David Joyner: I'm interested in adding functionality to the '''group theory''' functionality in SAGE.
  * David Joyner: I'm also interested in coding theory and in particular Robert Miller's work on (now GPL'd) '''Leon's partition backtracking''' programs.
