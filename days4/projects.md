@@ -14,6 +14,7 @@ Project ideas for [:days4:SAGE Days 4].
  * W Stein, Tom Boothby, Dorian Ramier, Alex Clemesha, and Yi Qiang: Improve '''The SAGE Notebook''':
   1. Convert the web server so that it uses twisted's multithreaded server (either twisted web like moinmoin or twisted web2)
   1. Make it so that the server use https to secure all communications and logins
+  1. Figure out precisely why the notebook feels sluggish when running locally on _certain_ platforms.  Consider removing features in the interest of speed. 
   1. Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.  Worksheet names would internally be prefaced with the user name.
   1. Interface issues:
    1. Highlighting a block of text and pressing tab indents it four spaces; similarly, pressing shift-tab dedents it four spaces.
