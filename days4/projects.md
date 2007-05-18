@@ -37,6 +37,8 @@ Project ideas for [:days4:SAGE Days 4].
   1. Implement correct tab completion in the worksheet when in system-other-than-sage mode (i.e., don't put magma.foo[tab])
   1. Add support for user javascript in the worksheet cells along with basic graphics (Robert Miller). See http://www.sagemath.org:9002/sage_trac/ticket/359
   1. Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more robust.  With sufficient thought there might be a trick to implement this in a few lines of code. 
+  1. Fix bugs: 
+    1. The interactive help at sagenb.org and sagenb.com often doesn't appear unless one hits refresh a few times.
 
  * Nick Alexander: I'd like to implement some basic''' linear algebra over Z/nZ''', following perhaps '' Algorithms for Linear Algebra Problems over Principal Ideal Rings '' (1996), Johannes Buchmann, Stefan Neis at http://citeseer.ist.psu.edu/719844.html.   The algorithms of that paper apply to principal ideal '''rings''', and in the case of a principal ideal '''domain''', reduce to computing the Hermite normal form.  So this could expand to trying to compute the Hermite normal form in the manner of Steel's unpublished algorithm as implemented in MAGMA.
  * David Joyner: I'm interested in adding functionality to the '''group theory''' functionality in SAGE.
