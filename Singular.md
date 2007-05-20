@@ -60,20 +60,25 @@ sage: p = p._magma_() # MAGMA 2.13-2
 sage: q = q._magma_()
 sage: t = magma.cputime()
 sage: r = p*q
-sage: print "MAGMA        %0.2f"%magma.cputime(t)
+sage: print "MAGMA         %0.2f"%magma.cputime(t)
 }}}
 On http://sage.math.washington.edu (1.8Ghz Opteron) and SAGE 2.5.1 (with a libSINGULAR without debugging options) this produces 
-{{{
-
+{{{#!python
+over QQ
+SAGE/Singular 2.35
+MAGMA         0.86
+over GF(32003)
+SAGE/Singular 0.24
+MAGMA         0.52
 }}}
 as output. On a 2.33Ghu Core2Duo Macbook Pro running a 64-bit Debian/Linux and the same software configuration this produces
-{{{
+{{{#!python
 over QQ
 SAGE/Singular 1.42
 MAGMA         0.76
 over GF(32003)
 SAGE/Singular 0.15
-MAGMA        0.39
+MAGMA         0.39
 }}}
 as output.
 
