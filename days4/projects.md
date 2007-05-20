@@ -14,7 +14,7 @@ Project ideas for [:days4:SAGE Days 4].
  * W Stein: Implement a global '''proof = True''' or '''proof = False''' option that is queried by algorithms when proof=None. 
  * David Roe: General elliptic curve '''height bound''' code (port Cremona's GPL'd MAGMA code to SAGE.)
  * W Stein: Implement '''Tate's algorithm over number fields''' (again, this involves porting Cremona's GPL'd MAGMA code to SAGE).
- * W Stein, Tom Boothby, Dorian Ramier, Alex Clemesha, and Yi Qiang: Improve '''The SAGE Notebook''':
+ * W Stein, Tom Boothby, Dorian Raymer, Alex Clemesha, and Yi Qiang: Improve '''The SAGE Notebook''':
   1. Convert the web server so that it uses twisted's multithreaded server (either twisted web like moinmoin or twisted web2)
   1. Make it so that the server use https to secure all communications and logins
   1. Figure out precisely why the notebook feels sluggish when running locally on _certain_ platforms.  Consider removing features in the interest of speed.  Also seriously consider making it so maybe 3 SAGE instances are pre-started by the notebook server when it is fairly idle so that new worksheets appear to starting working immediately. 
