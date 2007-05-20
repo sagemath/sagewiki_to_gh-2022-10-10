@@ -30,7 +30,7 @@ sage: x + 2*y + 2*z - 1
 }}}
 
 = Performance =
-Singular provides a very fast multivariate polynomial implementation. Please note, that benchmarking these things in the Singular interpreter will probably give false results as the interpreter is very basic. To gather some simple performance datapoints consider:
+Singular provides a very fast multivariate polynomial implementation. Please note, that benchmarking these things in the Singular interpreter will probably give false results as the interpreter is very basic. To gather some simple performance datapoints consider Richard Fateman's [http://www.sigsam.org/cca/articles/143/fastmult.pdf fastmult] benchmark
 {{{#!python
 sage: print "over QQ"
 
