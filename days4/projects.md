@@ -30,6 +30,7 @@ Project ideas for [:days4:SAGE Days 4].
    1. Whether or not panel is displayed by default
    2. Whether shift enter or enter evaluates a cell (Mathematica or Maple mode)
    3. Default CAS for new worksheets.
+   4. Whether or not SAGE logo at top left is displayed (or another log is displayed in its place, which is copied to .sage when selected).
   1. Change "slide-show mode" to "single cell mode".  Make it so the editor in this mode is a full-fledged code editor.
   1. Slide-show mode should flip through slides, which should be well-defined sections of the worksheet.
   1. Printing needs to be rewritten as follows: Given a single worksheet, print it by (1) saving it to a latex file with embedded (vector, if possible) images, and (2) running pdflatex on the result, then return the resulting pdf file and/or a tarball with the images and latex. This would be very high quality, and will also be something that would be easily included in latex documents.  Printing a notebook (=all worksheets owned by a given user) would create a document with a section for each notebook.
