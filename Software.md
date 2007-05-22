@@ -9,6 +9,7 @@ This is a list of programs and packages for mathematics that might possibly be i
  * [http://sage.math.washington.edu:9001/graph_survey NetworkX] (graph theory).
  * [http://servus.math.su.se/bergman/ Bergman] (non-commutative Groebner bases).
  * [http://www.mathe2.uni-bayreuth.de/axel/symneu_engl.html Symmetrica] (combinatorial representation theory).
+ * [http://www.mit.edu/~ibaran/kseg.html kseg] (dynamic Euclidean geometry, a la Geometer's Sketchpad; relevant for educational users).
 
 == Software that is free and tries to do what SAGE does ==
  * http://www.mathemagix.org/mmxweb/web/welcome.en.html -- Their overall goal is very similar to SAGE's.  However, they make different design choices than we have with SAGE in almost every way:
