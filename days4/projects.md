@@ -26,6 +26,7 @@ Project ideas for [:days4:SAGE Days 4].
    1. Set the math software system used to evaluate cells
    1. Determine whether pressing shift-enter jumps to the next cell or stays in current one.
    1. Determine whether or not the side bar is displayed (the left button wall could still be used to toggle it).
+  1. In the notebook some input cell should *always* have focus, if this is possible.  I hate typing into a worksheet and having random movement happen.
   1. Create a notebook settings panel:
    1. Whether or not panel is displayed by default
    2. Whether shift enter or enter evaluates a cell (Mathematica or Maple mode)
