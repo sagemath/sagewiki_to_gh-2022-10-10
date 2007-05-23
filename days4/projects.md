@@ -40,6 +40,7 @@ Project ideas for [:days4:SAGE Days 4].
   1. Implement correct tab completion in the worksheet when in system-other-than-sage mode (i.e., don't put magma.foo[tab])
   1. Add support for user javascript in the worksheet cells along with basic graphics (Robert Miller). See http://www.sagemath.org:9002/sage_trac/ticket/359
   1. Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more robust.  With sufficient thought there might be a trick to implement this in a few lines of code. 
+  1. Add a lock button in upper left that looks like a lock.  When clicked one can't accidentally navigate away from a worksheet with out confirming. 
   1. Fix bugs: 
     1. The interactive help at sagenb.org and sagenb.com often doesn't appear unless one hits refresh a few times.
 
