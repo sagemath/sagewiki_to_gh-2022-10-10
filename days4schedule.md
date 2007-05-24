@@ -22,4 +22,8 @@ Schedule for [:days4: SAGE Days 4].
 
  * Sarah Billey (TBA)
 
+ * Charles Doran
+
  * Randy LeVeque (TBA)
+
+ * Jim Morrow
