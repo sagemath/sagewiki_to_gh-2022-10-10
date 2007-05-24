@@ -44,6 +44,19 @@ Project ideas for [:days4:SAGE Days 4].
   1. Add a lock button in upper left that looks like a lock.  When clicked one can't accidentally navigate away from a worksheet with out confirming. 
   1. Fix bugs: 
     1. The interactive help at sagenb.org and sagenb.com often doesn't appear unless one hits refresh a few times.
+  1. New directory structure / never an sobj.
+    * /notebook
+      * config.txt #config file for notebook in standard config file format
+      * /history 
+      * /data (contains objects & stuff)
+      * /codes (contains attachable scripts & stuff)
+      * /worksheets
+        * /_scratch_ (for example)
+          * _scratch_.txt (contains worksheet wiki text + config-file format header)
+          * /cells
+          * /images?
+      * /userinfo (contains SQLite database to control access / session / user stuff & stuff)
+
 
  * Nick Alexander: I'd like to implement some basic''' linear algebra over Z/nZ''', following perhaps '' Algorithms for Linear Algebra Problems over Principal Ideal Rings '' (1996), Johannes Buchmann, Stefan Neis at http://citeseer.ist.psu.edu/719844.html.   The algorithms of that paper apply to principal ideal '''rings''', and in the case of a principal ideal '''domain''', reduce to computing the Hermite normal form.  So this could expand to trying to compute the Hermite normal form in the manner of Steel's unpublished algorithm as implemented in MAGMA.
  * David Joyner: I'm interested in adding functionality to the '''group theory''' functionality in SAGE.
