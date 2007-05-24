@@ -20,6 +20,6 @@ Schedule for [:days4: SAGE Days 4].
 
 = Talks =
 
- * Sarah Billey (TBA)
+ * "Sarah Billey" (TBA)
 
- * Randy LeVeque (TBA)
+ * "Randy LeVeque" (TBA)
