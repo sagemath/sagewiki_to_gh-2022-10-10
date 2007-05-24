@@ -59,6 +59,7 @@ Project ideas for [:days4:SAGE Days 4].
    1. click & drag on a plot to zoom!  PLEASE!
 
 
+ * W Stein: Continue to flesh out ideas for '''JSAGE -- the open source math software journal'''.  I announced JSAGE at SD3, and it's been very interesting to see it start to take off.  It's critical that we actually *write* some code to manage JSAGE, and figure out how to really do it right -- much more work is needed.  In particular, a good way of dealing with code submissions from people that don't know much about SAGE development, but have awesome code and ideas to contribute.  
  * Nick Alexander (from UCI) and Thea (from SFU): I'd like to implement some basic''' linear algebra over Z/nZ''', following perhaps '' Algorithms for Linear Algebra Problems over Principal Ideal Rings '' (1996), Johannes Buchmann, Stefan Neis at http://citeseer.ist.psu.edu/719844.html.   The algorithms of that paper apply to principal ideal '''rings''', and in the case of a principal ideal '''domain''', reduce to computing the Hermite normal form.  So this could expand to trying to compute the Hermite normal form in the manner of Steel's unpublished algorithm as implemented in MAGMA.
  * David Joyner: I'm interested in adding functionality to the '''group theory''' functionality in SAGE.
  * David Joyner: I'm also interested in coding theory and in particular Robert Miller's work on (now GPL'd) '''Leon's partition backtracking''' programs.
