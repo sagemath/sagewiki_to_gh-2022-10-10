@@ -23,12 +23,13 @@ The focus will be on coding sprints, rather than talks on various SAGE-related t
 
 The following people have expressed interest so far. If you wish to attend and do not see your name, please contact the organizers.
  
- * Iyad Ajwa
+ 1. Iyad Ajwa
  * Nick Alexander (UC Irvine grad student)
  * Tom Boothby (UW undergrad)
  * Ifti B. (UCLA postdoc)
  * Craig Citro (UCLA grad student; first three days)
  * Timothy Clemans (Seattle High School Student)
+ * Alex Clemesha (UCSD)
  * Didier Deshommes (first 3 days (11-14). If you'd like to split the cost of a room, please contact me)
  * Larry Eclipse (UW math alumni)
  * Kirsten Fagnan (UW, applied math)
@@ -41,6 +42,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Bobby Moretti (UW undergrad)
  * Matteo Paganini
  * Yi Qiang (UW undergrad)
+ * Dorian Ramier
  * David Roe (Harvard grad student)
  * William Stein (UW faculty)
  * Gonzalo Tornaria (Uruguay in South America, faculty)
