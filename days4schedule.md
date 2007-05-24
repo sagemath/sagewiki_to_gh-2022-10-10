@@ -17,3 +17,9 @@ Schedule for [:days4: SAGE Days 4].
 7:00 - 9:00 dinner
 
 9:00 - very late:  coding sprints
+
+= Talks =
+
+ * Sarah Billey (TBA)
+
+ * Randy LeVeque (TBA)
