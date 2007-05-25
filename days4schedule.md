@@ -20,12 +20,14 @@ Schedule for [:days4: SAGE Days 4].
 
 = Talks =
 
- * Sarah Billey (TBA)
+ * Sarah Billey (UW Math): TBA
 
- * Charles Doran (June 17 at 11am)
+ * Henry Cohn (Microsoft Research, June 13): TBA
 
- * Randy Leveque (TBA)
+ * Charles Doran (UW Math, June 17 at 11am)
 
- * Jim Morrow
+ * Randy Leveque (UW Applied Math): TBA
 
- * Paul Beame (June 16 at 3pm): ''Proof complexity involving semi-algebraic sets and lift and project problems for linear and semi-definite programming.''
+ * Jim Morrow (UW Math): Graph theory and electrical networks.
+
+ * Paul Beame (UW Computer Science, June 16 at 3pm): ''Proof complexity involving semi-algebraic sets and lift and project problems for linear and semi-definite programming.''
