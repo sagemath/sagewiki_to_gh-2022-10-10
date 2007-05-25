@@ -13,6 +13,8 @@ Schedule for [:days4: SAGE Days 4].
 
 = Talks =
 
+ * William Stein (UW Math): '''State of the SAGE project'''
+ * David Harvey (Harvard Math): '''FLINT and Fast Polynomial Arithmetic'''
  * Sarah Billey (UW Math): TBA
  * Henry Cohn (Microsoft Research, June 13): TBA
  * Charles Doran (UW Math, June 17 at 11am)
