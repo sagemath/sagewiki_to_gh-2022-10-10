@@ -28,4 +28,4 @@ Schedule for [:days4: SAGE Days 4].
 
  * Jim Morrow
 
- * Paule Beame (June 16 at 3pm)
+ * Paul Beame (June 16 at 3pm): ''Proof complexity involving semi-algebraic sets and lift and project problems for linear and semi-definite programming.''
