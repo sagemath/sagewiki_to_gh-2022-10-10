@@ -22,10 +22,10 @@ Schedule for [:days4: SAGE Days 4].
 
  * Sarah Billey (TBA)
 
- * Charles Doran (June 17)
+ * Charles Doran (June 17 at 11am)
 
  * Randy Leveque (TBA)
 
  * Jim Morrow
 
- * Paule Beame (June 16)
+ * Paule Beame (June 16 at 3pm)
