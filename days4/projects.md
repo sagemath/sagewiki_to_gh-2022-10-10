@@ -49,6 +49,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
   1. Implement some of the features of Google Notebook (http://www.google.com/notebook)  -- note we were before them. 
     1. Full search of all worksheets
     2. Cleaner display of worksheet list on the left
+    3. Drag and drop
   1. New directory structure / never an sobj -- *BUT* maintain backwards compatibility with existing notebooks (!).
     * /notebook
       * config.txt #config file for notebook in standard config file format
