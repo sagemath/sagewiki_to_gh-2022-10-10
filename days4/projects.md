@@ -64,6 +64,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
           * /cells
           * /images?
       * /userinfo (contains SQLite database to control access / session / user stuff & stuff)
+    * Note -- when one saves a worksheet (or set of worksheets), all objects that they link to must be included in the saved worksheet!
   1. Javascript feature: click & drag on a plot to zoom.  Tom really wants this.
   1. Create a quiz-mode for worksheets, which satisfies the requirements of a quiz system.
 
