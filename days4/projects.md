@@ -16,7 +16,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * W Stein: Implement a global '''proof = True''' or '''proof = False''' option that is queried by algorithms when proof=None. 
  * David Roe: General elliptic curve '''height bound''' code (port Cremona's GPL'd MAGMA code to SAGE.)
  * W Stein: Implement '''Tate's algorithm over number fields''' (again, this involves porting Cremona's GPL'd MAGMA code to SAGE).
- * W Stein, Tom Boothby, Dorian Raymer, Alex Clemesha, and Yi Qiang: Improve '''The SAGE Notebook''':
+ * W Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Clemesha, and Yi Qiang: Improve '''The SAGE Notebook''':
   1. Convert the web server so that it uses twisted's multithreaded server (either twisted web like moinmoin or twisted web2)
   1. Make it so that the server use https to secure all communications and logins
   1. Figure out precisely why the notebook feels sluggish when running locally on _certain_ platforms.  Consider removing features in the interest of speed.  Also seriously consider making it so maybe 3 SAGE instances are pre-started by the notebook server when it is fairly idle so that new worksheets appear to starting working immediately. 
@@ -63,7 +63,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
           * /images?
       * /userinfo (contains SQLite database to control access / session / user stuff & stuff)
   1. Javascript feature: click & drag on a plot to zoom.  Tom really wants this.
-
+  1. Create a quiz-mode for worksheets, which satisfies the requirements of a quiz system.
 
  * W Stein: Continue to flesh out ideas for '''JSAGE -- the open source math software journal'''.  I announced JSAGE at SD3, and it's been very interesting to see it start to take off.  It's critical that we actually *write* some code to manage JSAGE, and figure out how to really do it right -- much more work is needed.  In particular, a good way of dealing with code submissions from people that don't know much about SAGE development, but have awesome code and ideas to contribute.  
  * Nick Alexander (from UCI) and Thea (from SFU): I'd like to implement some basic''' linear algebra over Z/nZ''', following perhaps '' Algorithms for Linear Algebra Problems over Principal Ideal Rings '' (1996), Johannes Buchmann, Stefan Neis at http://citeseer.ist.psu.edu/719844.html.   The algorithms of that paper apply to principal ideal '''rings''', and in the case of a principal ideal '''domain''', reduce to computing the Hermite normal form.  So this could expand to trying to compute the Hermite normal form in the manner of Steel's unpublished algorithm as implemented in MAGMA.
