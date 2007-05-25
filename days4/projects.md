@@ -4,6 +4,7 @@ Project ideas for [:days4:SAGE Days 4].
 At some point a day or 2 before SD4, we'll have to: flesh these out more and print up the result in a nice latex document for everybody.  Then when people choose actual projects, they will create subpages on the wiki to track their progress, etc. 
 
  * W Stein: Go through all the standard SAGE packages and, when possible, '''add an spkg-check''', which runs some sort of analogue of "make check" when possible. 
+ * Revise the guided tour part of the '''SAGE tutorial''' to much better reflect the symbolic calculus functionality, its pros, cons, etc. 
  * W Stein: '''Documentation'''.  Have teams describe how to do the following in tutorial fashion, with all examples automatically doctested:
   * Use dsage to task farm a couple of standard example problems.
   * Use SageX to create an interface to a C library (case study -- GMP-ECM).
