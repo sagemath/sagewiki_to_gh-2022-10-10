@@ -69,6 +69,6 @@ Schedule for [:days4: SAGE Days 4], which is June 12-17, 2007.
 
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at a designated restaurant
- * 1:30 - 2:30 Chuck Doran (UW Math): Lattice Polytopes
+ * 1:30 - 2:30 Chuck Doran (UW Math): '''Lattice Polytopes and Geometry'''
  * 3:00 - 6:00 Wrap-up sessions; results of coding sprints
  
