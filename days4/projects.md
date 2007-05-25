@@ -46,7 +46,10 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
   1. Add a lock button in upper left that looks like a lock.  When clicked one can't accidentally navigate away from a worksheet with out confirming. 
   1. Fix bugs: 
     1. The interactive help at sagenb.org and sagenb.com often doesn't appear unless one hits refresh a few times.
-  1. New directory structure / never an sobj.
+  1. Implement some of the features of Google Notebook (http://www.google.com/notebook)  -- note we were before them. 
+    1. Full search of all worksheets
+    2. Cleaner display of worksheet list on the left
+  1. New directory structure / never an sobj -- *BUT* maintain backwards compatibility with existing notebooks (!).
     * /notebook
       * config.txt #config file for notebook in standard config file format
       * /history 
