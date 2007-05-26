@@ -1,5 +1,5 @@
 = Projects =
-Project ideas for [:days4:SAGE Days 4].
+Coding sprint and project ideas for [:days4:SAGE Days 4] June 12-17, 2007.
 
 At some point a day or 2 before SD4, we'll have to: flesh these out more and print up the result in a nice latex document for everybody.  Then when people choose actual projects, they will create subpages on the wiki to track their progress, etc. 
 
