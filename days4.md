@@ -46,6 +46,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * David Roe (Harvard grad student)
  * William Stein (UW faculty)
  * Gonzalo Tornaria (Uruguay in South America, faculty)
+ * Soroosh Yazdani (University of McMaster, Postdoc, remotely)
 
  
 === Local Information ===
