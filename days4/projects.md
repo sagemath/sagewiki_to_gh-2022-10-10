@@ -6,6 +6,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * W Stein: Go through all the standard SAGE packages and, when possible, '''add an spkg-check''', which runs some sort of analogue of "make check" when possible.
  * Introduce some form of package sanity checking to sage -upgrade, such as file size checks, CRC checks, or digital signatures.
  * Revise the guided tour part of the '''SAGE tutorial''' to much better reflect the symbolic calculus functionality, its pros, cons, etc. 
+ * Create [:screenshots: screenshots]
  * W Stein: '''Documentation'''.  Have teams describe how to do the following in tutorial fashion, with all examples automatically doctested:
   * Use dsage to task farm a couple of standard example problems.
   * Make dsage ''truly usable'' for mere mortals -- this means having people who know little just sit down and throw random crap at it; then we formulate a plan to improve things based on the results. 
