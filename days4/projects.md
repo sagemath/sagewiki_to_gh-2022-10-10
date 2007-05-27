@@ -50,6 +50,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
   1. Add a lock button in upper left that looks like a lock.  When clicked one can't accidentally navigate away from a worksheet with out confirming. 
   1. Fix bugs: 
     1. The interactive help at sagenb.org and sagenb.com often doesn't appear unless one hits refresh a few times.
+    1. Come up with clever new ideas to address the "jupiness" of the notebook, e.g., Justin Walker reports that in Safari under OS X, "I reach the bottom of the visible page, and scroll down to make the next cell visible, enter an expression, and hit SHFT- Return, the page jumps back to the top."
   1. Implement some of the features of Google Notebook (http://www.google.com/notebook)  -- note we were before them. 
     1. Full search of all worksheets
     2. Cleaner display of worksheet list on the left
