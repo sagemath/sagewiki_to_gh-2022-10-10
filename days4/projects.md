@@ -16,6 +16,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
   * Create publication-quality graphics for inclusion in latex documents.
   * Port code from Magma to SAGE.
   * Make an existing PARI-GP / GAP / Singular / Lisp / Maxima program easily usable from SAGE.
+  * (Bobby Moretti): How to create a ring or other structure object in SAGE, what class to inherit from, how to set the parent object, what methods to override in both python and SageX, etc.
  * M Albrecht: Go through the wiki and clean it up, write more documentation,  and check what content should be added to the documentation
  * W Stein: Implement a global '''proof = True''' or '''proof = False''' option that is queried by algorithms when proof=None. 
  * David Roe: General elliptic curve '''height bound''' code (port Cremona's GPL'd MAGMA code to SAGE.)
