@@ -76,7 +76,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * David Joyner: I'm interested in adding functionality to the '''group theory''' functionality in SAGE.
  * David Joyner: I'm also interested in coding theory and in particular Robert Miller's work on (now GPL'd) '''Leon's partition backtracking''' programs.
  * Kirsten Fagnan, Peter Clark: '''3d Graphics'''
- * Kirsten Fagnan, Josh Kantor: '''Numerical Computation'''
+ * Kirsten Fagnan, Josh Kantor, didier deshommes: '''Numerical Computation'''
   1. Incorporate superLU into SAGE with appropriate wrapping via sagex
   1. Incorporate clapack into SAGE
   1. Incorporate something that depends on clapack
@@ -95,3 +95,4 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * Kiran Kedlaya: I would love to have '''Arithmetic on Jacobians of Hyperelliptic Curves''' (Cantor's method), ideally SageX'd. I don't know whether this could be ported from MAGMA.
  * Bobby Moretti: '''Symbolic calculus'''. Speeding up arithmetic, cleaning up functions.py, reimplementing and improving maxima's solve command.
  * Bobby Moretti: '''Weirstrass Normal Form'''. Implement EllipticCurve_from_cubic() without using MAGMA.
+ * didier deshommes: Improve support for '''SAGE on NexentaOS'''. Several packages need to be patched.
