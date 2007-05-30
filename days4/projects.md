@@ -94,3 +94,4 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * '''p-adic L-series of elliptic curves''': Christian Wuthrich and I will do a lot along these lines the week before.  Finishing this off at SAGE Days might be really interesting.
  * Kiran Kedlaya: I would love to have '''Arithmetic on Jacobians of Hyperelliptic Curves''' (Cantor's method), ideally SageX'd. I don't know whether this could be ported from MAGMA.
  * Bobby Moretti: '''Symbolic calculus'''. Speeding up arithmetic, cleaning up functions.py, reimplementing and improving maxima's solve command.
+ * Bobby Moretti: '''Weirstrass Normal Form'''. Implement EllipticCurve_from_cubic() without using MAGMA.
