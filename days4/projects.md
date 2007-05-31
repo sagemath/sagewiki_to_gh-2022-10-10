@@ -5,6 +5,10 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
 
  * W Stein: Go through all the standard SAGE packages and, when possible, '''add an spkg-check''', which runs some sort of analogue of "make check" when possible.
  * Introduce some form of package sanity checking to sage -upgrade, such as file size checks, CRC checks, or digital signatures.
+ * D Deshommes and W Stein: Fully port SAGE to Solaris; improve SAGE's package management system
+ * W Stein, etc.: Make it so vastly more objects are picklable:
+    * Write way way more loads(dumps(s)) doctests
+    * Fix them when they don't work. 
  * Revise the guided tour part of the '''SAGE tutorial''' to much better reflect the symbolic calculus functionality, its pros, cons, etc.
  * Create ["screenshots"]
  * W Stein: '''Documentation'''.  Have teams describe how to do the following in tutorial fashion, with all examples automatically doctested:
