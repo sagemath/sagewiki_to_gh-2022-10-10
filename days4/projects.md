@@ -106,3 +106,5 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
   * Finish implementing a web interface to dsage with Alex and Dorian
   * Finish implementing gmp-ecm wrapper
   * Help out with porting the notebook server to twisted
+  * Implement parallel running of doctests
+  * Fix doctest thread issue for DSage
