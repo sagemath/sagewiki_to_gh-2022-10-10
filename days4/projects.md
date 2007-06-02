@@ -7,8 +7,8 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * Introduce some form of package sanity checking to sage -upgrade, such as file size checks, CRC checks, or digital signatures.
  * D Deshommes and W Stein: Fully port SAGE to Solaris; improve SAGE's package management system
  * W Stein, etc.: Make it so vastly more objects are picklable:
-    * Write way way more loads(dumps(s)) doctests
-    * Fix them when they don't work. 
+  * Write way way more loads(dumps(s)) doctests
+  * Fix them when they don't work.
  * Revise the guided tour part of the '''SAGE tutorial''' to much better reflect the symbolic calculus functionality, its pros, cons, etc.
  * Create ["screenshots"]
  * W Stein: '''Documentation'''.  Have teams describe how to do the following in tutorial fashion, with all examples automatically doctested:
@@ -100,3 +100,9 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * Bobby Moretti: '''Symbolic calculus'''. Speeding up arithmetic, cleaning up functions.py, reimplementing and improving maxima's solve command.
  * Bobby Moretti: '''Weirstrass Normal Form'''. Implement EllipticCurve_from_cubic() without using MAGMA.
  * didier deshommes: Improve support for '''SAGE on NexentaOS'''. Several packages need to be patched.
+ * Yi Qiang:
+  * Improve overhead of running jobs with DSage
+  * Completely convert to GNUTLS
+  * Finish implementing a web interface to dsage with Alex and Dorian
+  * Finish implementing gmp-ecm wrapper
+  * Help out with porting the notebook server to twisted
