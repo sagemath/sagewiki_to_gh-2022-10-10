@@ -47,6 +47,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * William Stein (UW faculty)
  * Gonzalo Tornaria (Uruguay in South America, faculty)
  * Soroosh Yazdani (University of McMaster, Postdoc, remotely)
+ * Mike Hansen (Harvey Mudd College, remotely)
 
  
 === Local Information ===
