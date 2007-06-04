@@ -108,3 +108,5 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
   * Help out with porting the notebook server to twisted
   * Implement parallel running of doctests
   * Fix doctest thread issue for DSage
+ * Mike Hansen: '''Symmetric functions'''.  Implement the algebra of symmetric functions using SYMMETRICA for backend calculations.
+ * Mike Hansen, Yi Qiang(?): '''Bootable (Cluster) CD for SAGE/DSAGE'''.  Using BCCD ( http://bccd.cs.uni.edu/ ) as a base, create a bootable CD to allow one to easily turn in unused lab into DSAGE cluster.
