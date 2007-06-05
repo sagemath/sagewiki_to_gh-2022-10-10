@@ -33,6 +33,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Didier Deshommes (first 3 days (11-14). If you'd like to split the cost of a room, please contact me)
  * Larry Eclipse (UW math alumni)
  * Kirsten Fagnan (UW, applied math)
+ * Mike Hansen (Harvey Mudd College, remotely)
  * David Harvey (Harvard)
  * David Joyner (US Naval Academy)
  * Kiran Kedlaya (MIT; remotely)
@@ -47,8 +48,6 @@ The following people have expressed interest so far. If you wish to attend and d
  * William Stein (UW faculty)
  * Gonzalo Tornaria (Uruguay in South America, faculty)
  * Soroosh Yazdani (University of McMaster, Postdoc, remotely)
- * Mike Hansen (Harvey Mudd College, remotely)
-
  
 === Local Information ===
 
