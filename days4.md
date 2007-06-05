@@ -35,7 +35,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Kirsten Fagnan (UW, applied math)
  * David Harvey (Harvard)
  * David Joyner (US Naval Academy)
- * Kiran Kedlaya (last day only, if at all)
+ * Kiran Kedlaya (MIT; remotely)
  * Emily Kirkman (UW undergrad)
  * Robert Miller (UW grad student)
  * Joel Mohler 
