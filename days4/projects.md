@@ -102,8 +102,9 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * didier deshommes: Improve support for '''SAGE on NexentaOS'''. Several packages need to be patched.
  * Yi Qiang:
   * Improve overhead of running jobs with DSage
-  * Completely convert to GNUTLS
-  * Finish implementing a web interface to dsage with Alex and Dorian
+  * Completely convert to GNUTLS (use gnutls tools to generate certificates, etc.)
+
+  * Improve web interface to dsage with Alex and Dorian
   * Finish implementing gmp-ecm wrapper
   * Help out with porting the notebook server to twisted
   * Implement parallel running of doctests
