@@ -11,7 +11,7 @@ Schedule for [:days4: SAGE Days 4], which is June 12-17, 2007.
 = Daily schedule =
 
 We have the following locations reserved:
- * [http://www.washington.edu/home/maps/northcentral.html?MEB MEB] (Mechanical Engineering Building) Room 328, 1:00-10:00
+ * [http://www.washington.edu/home/maps/northcentral.html?MEB MEB] (Mechanical Engineering Building) Room 328, 7:00am-10:00pm
  * [http://www.washington.edu/home/maps/northcentral.html?PDL PDL] (Padelford) Room C36, late
  * PDL C401, late
  * William's Office: PDL C423, all hours  (very very low occupancy)
