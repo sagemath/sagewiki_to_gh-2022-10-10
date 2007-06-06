@@ -10,6 +10,15 @@ Schedule for [:days4: SAGE Days 4], which is June 12-17, 2007.
 
 = Daily schedule =
 
+We have the following locations reserved:
+ * [http://www.washington.edu/home/maps/northcentral.html?MEB MEB] (Mechanical Engineering Building) Room 328, 1:00-10:00
+ * [http://www.washington.edu/home/maps/northcentral.html?PDL PDL] (Padelford) Room C36, late
+ * PDL C401, late
+ * William's Office: PDL C423, all hours  (very very low occupancy)
+ * SAGE Lab: [http://www.washington.edu/home/maps/northcentral.html?SIG SIG] (Sieg Hall) 312, all building hours (UW people have keys to room door, but our key card access is inactive)
+
+Unless otherwise stated, the daytime (talks and sprints before dinner) sessions will take place in MEB 328, and late-night coding sprints will take place in one of the above Padelford locations and the SAGE Lab, provided we have at least one person in Sieg after it closes.
+
 == Tuesday, June 12 ==
 
  * 9-12: (optional) early-bird coffee, bagels, etc.
