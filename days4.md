@@ -43,7 +43,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Bobby Moretti (UW undergrad)
  * Matteo Paganini
  * Yi Qiang (UW undergrad)
- * Dorian Ramier
+ * Dorian Raymer (UCSD)
  * David Roe (Harvard grad student)
  * William Stein (UW faculty)
  * Gonzalo Tornaria (Uruguay in South America, faculty)
