@@ -10,7 +10,6 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
   * Write way way more loads(dumps(s)) doctests
   * Fix them when they don't work.
  * Revise the guided tour part of the '''SAGE tutorial''' to much better reflect the symbolic calculus functionality, its pros, cons, etc.
- * Create ["screenshots"]
  * W Stein: '''Documentation'''.  Have teams describe how to do the following in tutorial fashion, with all examples automatically doctested:
   * Use dsage to task farm a couple of standard example problems.
   * Make dsage ''truly usable'' for mere mortals -- this means having people who know little just sit down and throw random crap at it; then we formulate a plan to improve things based on the results.
