@@ -51,6 +51,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * David Joyner: I'm interested in adding functionality to the '''group theory''' functionality in SAGE.
  * David Joyner: I'm also interested in coding theory and in particular Robert Miller's work on (now GPL'd) '''Leon's partition backtracking''' programs.
  * Robert Miller: '''Leon's partition backtracking''' programs are almost ready for inclusion as a SAGE spkg. I'd like to have each of Leon's original command-line functions wrapped in the library I'm working on. A native group theory class will be much more feasible if these programs are all available.
+ * Robert Miller: Once Leon's library is finished, the DSage '''Doubly Even Codes''' class will not depend on magma at all, and will be suitable for inclusion to the SAGE library.
  * Kirsten Fagnan, Peter Clark: '''3d Graphics'''
  * Kirsten Fagnan, Josh Kantor, didier deshommes: '''Numerical Computation'''
   1. Incorporate superLU into SAGE with appropriate wrapping via sagex
