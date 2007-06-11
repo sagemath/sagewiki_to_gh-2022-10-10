@@ -3,6 +3,27 @@ Coding sprint and project ideas for [:days4:SAGE Days 4] June 12-17, 2007.
 
 At some point a day or 2 before SD4, we'll have to: flesh these out more and print up the result in a nice latex document for everybody.  Then when people choose actual projects, they will create subpages on the wiki to track their progress, etc.
 
+ * [:days4/projects/packaging: Packaging and Distributing SAGE]
+ 
+ * [:days4/projects/nb: The SAGE Notebook]
+
+ * [:days4/projects/dist: Distributed Computation]
+
+ * [:days4/projects/doc: Documentation]
+
+ * [:days4/projects/numerical: Numerical Computation]
+
+ * [:days4/projects/numbertheory: Number Theory]
+
+ * [:days4/projects/groups: Group Theory]
+ 
+ * [:days4/projects/linalg: Linear Algebra]
+
+ * [:days4/projects/linalg: Combinatorics]
+
+ * [:days4/projects/calculus: Symbolic Calculus]
+
+
  * W Stein: Go through all the standard SAGE packages and, when possible, '''add an spkg-check''', which runs some sort of analogue of "make check" when possible.
  * Introduce some form of package sanity checking to sage -upgrade, such as file size checks, CRC checks, or digital signatures.
  * D Deshommes and W Stein: Fully port SAGE to Solaris; improve SAGE's package management system
