@@ -1,12 +1,12 @@
 Schedule for [:days4: SAGE Days 4], which is June 12-17, 2007.
 
 == Invited Colloquium Speakers ==
- * Sarah Billey (UW Math): TBA
- * Henry Cohn (Microsoft Research, June 13): TBA
- * Charles Doran (UW Math, June 17 at 11am): TBA
- * Randy Leveque (UW Applied Math): TBA
- * Jim Morrow (UW Math): '''Graph theory and electrical networks.'''
- * Paul Beame (UW Computer Science): '''Proof complexity involving semi-algebraic sets and lift and project problems for linear and semi-definite programming.'''
+ * Sarah Billey (UW Math)
+ * Henry Cohn (Microsoft Research, June 13)
+ * Charles Doran (UW Math, June 17 at 11am) 
+ * Randy Leveque (UW Applied Math)
+ * Jim Morrow (UW Math)
+ * Paul Beame (UW Computer Science)
 
 = Daily schedule =
 
@@ -24,7 +24,7 @@ Unless otherwise stated, the daytime (talks and sprints before dinner) sessions 
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at a designated restaurant
  * 1:30 - 2:30 William Stein -- '''State of the SAGE project'''
- * 3:00 - 4:00 Randy Leveque (UW Applied Math): TBA (time not confirmed)
+ * 3:00 - 4:00 Randy Leveque (UW Applied Math): What SAGE needs to be useful to applied mathematics
  * 4:30 - 5:00 strategy session
  * 5:00 - 7:00 coding sprints
  * 7:00 - 9:00 dinner
@@ -35,7 +35,7 @@ Unless otherwise stated, the daytime (talks and sprints before dinner) sessions 
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at a designated restaurant
  * 1:30 - 2:30 David Harvey (Harvard Math): '''FLINT and Fast Polynomial Arithmetic'''
- * 3:00 - 4:00 Henry Cohn (Microsoft Research) -- colloquium talk
+ * 3:00 - 4:00 Henry Cohn (Microsoft Research) -- TBA
  * 4:30 - 5:00 strategy session
  * 5:00 - 7:00 coding sprints
  * 7:00 - 9:00 dinner
@@ -46,7 +46,7 @@ Unless otherwise stated, the daytime (talks and sprints before dinner) sessions 
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at a designated restaurant
  * 1:30 - 2:30 David Roe: '''The New Improved p-adics'''
- * 3:00 - 4:00 Jim Morrow (UW Math): '''Graph theory and electrical networks.''' (time not confirmed)
+ * 3:00 - 4:00 Jim Morrow (UW Math): '''Graph theory and electrical networks.'''
  * 4:30 - 5:00 strategy session
  * 5:00 - 7:00 coding sprints
  * 7:00 - 9:00 dinner
@@ -57,7 +57,7 @@ Unless otherwise stated, the daytime (talks and sprints before dinner) sessions 
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at a designated restaurant
  * 1:30 - 2:30 Robert Bradshaw: TBA
- * 3:00 - 4:00 Sarah Billey (UW Math): TBA (time not yet confirmed)
+ * 3:00 - 4:00 Sarah Billey (UW Math): TBA
  * 4:30 - 5:00 strategy session
  * 5:00 - 7:00 coding sprints
  * 7:00 - 9:00 dinner
