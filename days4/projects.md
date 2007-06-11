@@ -52,8 +52,9 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * Nick Alexander (from UCI) and Thea (from SFU): I'd like to implement some basic''' linear algebra over Z/nZ''', following perhaps '' Algorithms for Linear Algebra Problems over Principal Ideal Rings '' (1996), Johannes Buchmann, Stefan Neis at http://citeseer.ist.psu.edu/719844.html.   The algorithms of that paper apply to principal ideal '''rings''', and in the case of a principal ideal '''domain''', reduce to computing the Hermite normal form.  So this could expand to trying to compute the Hermite normal form in the manner of Steel's unpublished algorithm as implemented in MAGMA.
  * David Joyner: I'm interested in adding functionality to the '''group theory''' functionality in SAGE.
  * David Joyner: I'm also interested in coding theory and in particular Robert Miller's work on (now GPL'd) '''Leon's partition backtracking''' programs.
- * Robert Miller: '''Leon's partition backtracking''' programs are almost ready for inclusion as a SAGE spkg. I'd like to have each of Leon's original command-line functions wrapped in the library I'm working on. A native group theory class will be much more feasible if these programs are all available.
- * Robert Miller: Once Leon's library is finished, the DSage '''Doubly Even Codes''' class will not depend on magma at all, and will be suitable for inclusion to the SAGE library.
+ * Robert Miller
+   * '''Leon's partition backtracking''' programs are almost ready for inclusion as a SAGE spkg. I'd like to have each of Leon's original command-line functions wrapped in the library I'm working on. A native group theory class will be much more feasible if these programs are all available.
+   * Once Leon's library is finished, the DSage '''Doubly Even Codes''' class will not depend on magma at all, and will be suitable for inclusion to the SAGE library.
  * Kirsten Fagnan, Peter Clark: '''3d Graphics'''
  * Kirsten Fagnan, Josh Kantor, didier deshommes: '''Numerical Computation'''
   1. Incorporate superLU into SAGE with appropriate wrapping via sagex
