@@ -52,6 +52,8 @@ The following people have expressed interest so far. If you wish to attend and d
  
 === Local Information ===
 
+Getting from SEATAC to UW: http://depts.washington.edu/rna2006/transportation.shtml
+
 Directions to Padelford Hall coming from the south via I-5 northbound:
 From I-5 northbound, take exit 168B (Bellevue/Kirkland)
 to State Route 520. Take the first exit off SR520; the sign will 
