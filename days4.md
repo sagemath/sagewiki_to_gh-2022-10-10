@@ -24,6 +24,7 @@ The focus will be on coding sprints, rather than talks on various SAGE-related t
 The following people have expressed interest so far. If you wish to attend and do not see your name, please contact the organizers.
  
  1. Iyad Ajwa
+ * Martin Albrecht (remotely)
  * Nick Alexander (UC Irvine grad student)
  * Tom Boothby (UW undergrad)
  * Ifti B. (UCLA postdoc)
