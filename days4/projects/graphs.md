@@ -8,3 +8,5 @@
  * Wishlist: I (Robert Miller) have a wishlist from Chris Godsil, which is becoming more and more a reality. It would be great if we could complete the list this week.
 
  * Electrical Networks, Jim Morrow's REU: Graphs with boundary are already in sage, but there are probably some useful constructions for Jim's summer REU that are not implemented yet. Especially data structures, perhaps an ElectricalNetworks class...
+
+ * Latex Graphs: At sage days 3, Craig Citro gave Robert Miller an old scheme program to plot graphs in postscript format. It would be great to get this working from sage.
