@@ -24,6 +24,8 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * [:days4/projects/linalg: Combinatorics] -- Mike Hansen
 
  * [:days4/projects/calculus: Symbolic Calculus] -- Bobby Moretti
+
+ * [:days4/projects/graphs: Graph Theory] -- Robert Miller
  
 ----------------------
 
