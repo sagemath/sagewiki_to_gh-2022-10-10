@@ -1,6 +1,6 @@
 = SAGE Days 4 =
 
-The 4th SAGE days 2007 will be held the week of June 12-17, 2007 (a Tuesday through Sunday) in the Mathematics Department of the University of Washington in scenic Seattle.
+The 4th SAGE days 2007 will be held the week of June 12-17, 2007 (a Tuesday through Sunday) in the Mathematics Department of the University of Washington in scenic Seattle.  It was also be online at irc.freenode.net in the sage-dev room -- everyone should consider starting an irc chat session in that room. 
 
 The conference has been fully funded by the NSF UW/VIGRE and PIMS, so there is no registration fee and some participants costs will be reimbursed.  Thanks NSF and PIMS!!
 
