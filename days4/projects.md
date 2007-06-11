@@ -25,7 +25,7 @@ At some point a day or 2 before SD4, we'll have to: flesh these out more and pri
  * David Roe: General elliptic curve '''height bound''' code (port Cremona's GPL'd MAGMA code to SAGE.)
  * W Stein: Implement '''Tate's algorithm over number fields''' (again, this involves porting Cremona's GPL'd MAGMA code to SAGE).
  * W Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Clemesha, Yi Qiang, and Timothy Clemans: Improve '''The SAGE Notebook''':
-  1. Convert the web server so that it uses twisted's multithreaded server (either twisted web like moinmoin or twisted web2)
+  1. Convert the web server so that it uses twisted's web2 server 
   1. Make it so that the server use https to secure all communications and logins
   1. Figure out precisely why the notebook feels sluggish when running locally on _certain_ platforms.  Consider removing features in the interest of speed.  Also seriously consider making it so maybe 3 SAGE instances are pre-started by the notebook server when it is fairly idle so that new worksheets appear to starting working immediately.
   1. Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.  Worksheet names would internally be prefaced with the user name.
