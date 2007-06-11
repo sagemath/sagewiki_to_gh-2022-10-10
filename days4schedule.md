@@ -24,7 +24,7 @@ Unless otherwise stated, the daytime (talks and sprints before dinner) sessions 
 == Tuesday, June 12 ==
 
  * 9-12: (optional) early-bird coffee, bagels, etc.
- * 12-1 lunch at a designated restaurant
+ * 12-1 lunch at Thai 65 (4214 University Way NE)
  * 1:30 - 2:30 William Stein -- '''State of the SAGE project'''
  * 3:00 - 4:00 Randy Leveque (UW Applied Math): What SAGE needs to be useful to applied mathematics
  * 4:30 - 5:00 strategy session
@@ -35,7 +35,7 @@ Unless otherwise stated, the daytime (talks and sprints before dinner) sessions 
 == Wednesday, June 13 ==
 
  * 9-12: (optional) early-bird coffee, bagels, etc.
- * 12-1 lunch at a designated restaurant
+ * 12-1 lunch at Chipotle (4229 University Way NE)
  * 1:30 - 2:30 David Harvey (Harvard Math): '''FLINT and Fast Polynomial Arithmetic'''
  * 3:00 - 4:00 Henry Cohn (Microsoft Research) -- title TBA
  * 4:30 - 5:00 strategy session
