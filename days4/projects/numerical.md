@@ -7,7 +7,7 @@ Participants: Kirsten Fagnan, Josh Kantor, didier deshommes
 Possible Projects depending on interests of participants. Unless more people join our group we will probably
 have to focus on one or two projects. I believe we or someone should definitely do the first one listed below. This would
 be mostly pure python coding. Projects 2,3,4 and 5 would require pyrex and maybe some C programming
-The last one I would be great to have someone do, but I'm not very good at writing interfaces. 
+The last one would be great to have someone do, but I'm not very good at writing interfaces. 
   
   1.  Extend numerical sparse matrix capabilities. In particular add additional constructors for matrices with special forms.
 such as tridiagonal matrices. 
