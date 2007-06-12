@@ -13,4 +13,4 @@
 
  * Electrical Networks, Jim Morrow's REU: Graphs with boundary are already in sage, but there are probably some useful constructions for Jim's summer REU that are not implemented yet. Especially data structures, perhaps an ElectricalNetworks class...
 
- * Latex Graphs: At sage days 3, Craig Citro gave Robert Miller an old scheme program to plot graphs in postscript format. It would be great to get this working from in python.
+ * Latex Graphs: At sage days 3, Craig Citro gave Robert Miller an old scheme program to plot graphs in postscript format. It would be great to get this working from python.
