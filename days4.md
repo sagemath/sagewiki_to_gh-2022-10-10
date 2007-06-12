@@ -25,11 +25,11 @@ The focus will be on coding sprints.  SAGE Days 4 will primarily be a developer-
 
 The following people have expressed interest so far. If you wish to attend and do not see your name, please contact the organizers.
  
- 1. Iyad Ajwa
+ * Iyad Ajwa
  * Martin Albrecht (remotely)
  * Nick Alexander (UC Irvine grad student)
  * Tom Boothby (UW undergrad)
- * Ifti B. (UCLA postdoc)
+ * [:IftikharBurhanuddin:Iftikhar Burhanuddin] (UCLA postdoc)
  * Craig Citro (UCLA grad student; first three days)
  * Timothy Clemans (Seattle High School Student)
  * Alex Clemesha (UCSD)
