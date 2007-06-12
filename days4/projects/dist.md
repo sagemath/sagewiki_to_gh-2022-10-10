@@ -10,7 +10,7 @@ Yi Qiang, Alex Clemesha, Dorian Raymer, William Stein
 
  * DSAGE:
   * Make a DSAGE Live CD (BCCD or something else)
-  * Improve overhead of running jobs with DSage
+  * Improve overhead of running jobs with DSage (Robert Miller can help stress test this)
   * Completely convert to GNUTLS (use gnutls tools to generate certificates, etc.)
   * Improve web interface to dsage with Alex and Dorian
   * Finish implementing gmp-ecm wrapper
