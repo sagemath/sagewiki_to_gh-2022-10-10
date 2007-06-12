@@ -3,7 +3,7 @@
 [:days4/projects/: Other SAGE Days 4 Project]
 
 
-Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Clemesha, Yi Qiang, and Timothy Clemans
+Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Clemesha, Yi Qiang, Bobby Moretti, and Timothy Clemans
 
 These are the tasks that need to be accomplished, in order of importance.
 
