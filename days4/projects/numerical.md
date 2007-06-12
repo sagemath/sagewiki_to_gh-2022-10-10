@@ -4,7 +4,11 @@
 
 Participants: Kirsten Fagnan, Josh Kantor, didier deshommes
 
-  1. Incorporate superLU into SAGE with appropriate wrapping via sagex
-  1. Incorporate clapack into SAGE
-  1. Incorporate something that depends on clapack
-  1. Improve SAGE's support for octave and matlab
+Possible Projects depending on interests of participants
+  
+  *  Extend numerical sparse matrix capabilities (additional constructors for special forms such as tridiagonal)
+  *  Implement numerical complex sparse matrices based on Josh's real sparse matrices.
+  *  Incorporate clapack into SAGE 
+  *  Possibly try to include ARPACK (depends on clapack)
+  *  Improve SAGE's support for octave and matlab
+ 
