@@ -15,13 +15,13 @@ William Stein's cell phone is 206-290-6427.
 [attachment:sagedays4-schedule.pdf The Schedule in a printable PDF grid]
 
 We have the following locations reserved:
- * [http://www.washington.edu/home/maps/northcentral.html?MEB MEB] (Mechanical Engineering Building) Room 328, 7:00am-10:00pm
+ * [http://www.washington.edu/home/maps/northcentral.html?MEB MEB] (Mechanical Engineering Building) Room 228, 7:00am-10:00pm
  * [http://www.washington.edu/home/maps/northcentral.html?PDL PDL] (Padelford) Room C36, late
  * PDL C401, late
  * William's Office: PDL C423, all hours  (very very low occupancy)
  * SAGE Lab: [http://www.washington.edu/home/maps/northcentral.html?SIG SIG] (Sieg Hall) 312, all building hours (UW people have keys to room door, but our key card access is inactive)
 
-Unless otherwise stated, everything 7am - 10pm will take place in MEB 328.  Later-night coding sprints will take place in one of the above Padelford locations or the SAGE Lab (provided we have at least one person in Sieg after it closes). 
+Unless otherwise stated, everything 7am - 10pm will take place in MEB 228.  Later-night coding sprints will take place in one of the above Padelford locations or the SAGE Lab (provided we have at least one person in Sieg after it closes). 
 
 == Tuesday, June 12 ==
 
