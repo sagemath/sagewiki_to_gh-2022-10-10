@@ -3,7 +3,7 @@
 [:days4/projects/: Other SAGE Days 4 Project]
 
 
-Participants: W Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Clemesha, Yi Qiang, and Timothy Clemans: Improve '''The SAGE Notebook'''
+Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Clemesha, Yi Qiang, and Timothy Clemans
 
   1. (mostly done) Convert the web server so that it uses twisted's web2 server 
   1. Make it so that the server use https to secure all communications and logins
