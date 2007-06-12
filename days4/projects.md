@@ -1,8 +1,6 @@
 = Projects =
 Coding sprint and project ideas for [:days4:SAGE Days 4] June 12-17, 2007.
 
-((NOTE: William Stein is currently reorganizing this page into sections.))
-
 Each section lists the project followed by the main contact person for that project. 
 
  * [:days4/projects/packaging: Packaging and Distributing SAGE] -- Didier Deshommes
@@ -23,13 +21,22 @@ Each section lists the project followed by the main contact person for that proj
 
  * [:days4/projects/groups: Group Theory] -- David Joyner
  
+
+---- /!\ '''Edit conflict - other version:''' ----
  * [:days4/projects/linalg: Linear Algebra] -- Nick Alexander
+
+---- /!\ '''Edit conflict - your version:''' ----
+ * [:days4/projects/linalg: Linear Algebra] -- Robert Bradshaw
+
+---- /!\ '''End of edit conflict''' ----
 
  * [:days4/projects/linalg: Combinatorics] -- Mike Hansen
 
  * [:days4/projects/calculus: Symbolic Calculus] -- Bobby Moretti
 
  * [:days4/projects/graphs: Graph Theory] -- Robert Miller
+
+---- /!\ '''Edit conflict - other version:''' ----
 
  * [:days4/projects/3d: 3d Graphics] -- Robert Bradshaw
  
@@ -67,3 +74,8 @@ Each section lists the project followed by the main contact person for that proj
  * didier deshommes: Improve support for '''SAGE on NexentaOS'''. Several packages need to be patched.
  * Mike Hansen: '''Symmetric functions'''.  Implement the algebra of symmetric functions using SYMMETRICA for backend calculations.
  * Mike Hansen, Yi Qiang(?): '''Bootable (Cluster) CD for SAGE/DSAGE'''.  Using BCCD ( http://bccd.cs.uni.edu/ ) as a base, create a bootable CD to allow one to easily turn in unused lab into DSAGE cluster.
+
+---- /!\ '''Edit conflict - your version:''' ----
+ 
+
+---- /!\ '''End of edit conflict''' ----
