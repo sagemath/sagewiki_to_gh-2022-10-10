@@ -46,13 +46,13 @@ Due to the volume of graphs now in the generators class, this wiki page is now i
 
 === Chvatal Graph ===
 {{{
-
+sage: (graphs.ChvatalGraph()).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:chvatal.png
 
 === Desargues Graph ===
 {{{
-
+sage: (graphs.DesarguesGraph()).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:desargues.png
 
@@ -87,7 +87,7 @@ attachment:moebiuskantor.png
 
 === Pappus Graph ===
 {{{
-
+sage: (graphs.PappusGraph()).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:pappus.png
 
@@ -146,13 +146,13 @@ attachment:biggercube.png
 
 === Balanced Tree ===
 {{{
-
+sage: (graphs.BalancedTree(3,5)).show(node_size=20, vertex_labels=False, figsize=[4,4], graph_border=True)
 }}}
 attachment:baltree.png
 
 === LCF Graph ===
 {{{
-
+sage: (graphs.LCFGraph(20, [-10,-7,-5,4,7,-10,-7,-4,5,7,-10,-7,6,-5,7,-10,-7,5,-6,7], 1)).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:lcf.png
 
@@ -167,7 +167,7 @@ attachment:tetrahedral.png
 
 === Hexahedral Graph ===
 {{{
-
+sage: (graphs.HexahedralGraph()).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:hexahedral.png
 
@@ -180,7 +180,7 @@ attachment:octahedral.png
 
 === Icosahedral Graph ===
 {{{
-
+sage: (graphs.IcosahedralGraph()).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:icosahedral.png
 
@@ -195,7 +195,7 @@ attachment:dodecahedral.png
 
 === Dorogovtsev Goltsev Mendes Graph ===
 {{{
-
+sage: (graphs.DorogovtsevGoltsevMendesGraph(3)).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:dorogovtsev.png
 
@@ -354,73 +354,69 @@ attachment:randomfast.png
 
 === Random Barabasi Albert ===
 {{{
-
+sage: (graphs.RandomBarabasiAlbert(7,3)).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:barabasi.png
 
 === Random GNM ===
 {{{
-
+sage: (graphs.RandomGNM(7,16)).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:gnm.png
 
 === Random Newman Watts Strogatz ===
 {{{
-
+sage: (graphs.RandomNewmanWattsStrogatz(7,3,.5)).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:newman.png
 
 === Random Holme Kim ===
 {{{
-
+sage: (graphs.RandomHolmeKim(12,3,.4)).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:holme.png
 
 === Random Lobster ===
 {{{
-
+sage: (graphs.RandomHolmeKim(12,3,.4)).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:lobster.png
 
 === Random Tree Powerlaw ===
 {{{
-
+sage: (graphs.RandomTreePowerlaw(15)).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:powerlaw.png
 
 === Random Regular ===
 {{{
-
+sage: (graphs.RandomRegular(3,20)).show(node_size=20, vertex_labels=False, figsize=[4,4], graph_border=True)
 }}}
 attachment:randreg.png
 
 === Random Shell ===
 {{{
-
+sage: (graphs.RandomShell([(10,20,0.8),(20,40,0.8)])).show(node_size=20, vertex_labels=False, figsize=[4,4], graph_border=True)
 }}}
 attachment:shell.png
 
 == Random Directed Graphs ==
-{{{
-
-}}}
-attachment:randdir.png
 
 === Random Directed GN ===
 {{{
-
+sage: (graphs.RandomDirectedGN(12)).show(node_size=20, vertex_labels=False, figsize=[4,4], graph_border=True)
 }}}
 attachment:randdirgn.png
 
 === Random Directed GNC ===
 {{{
-
+sage: (graphs.RandomDirectedGNC(12)).show(node_size=20, vertex_labels=False, figsize=[4,4], graph_border=True)
 }}}
 attachment:randdirgnc.png
 
 === Random Directed GNR ===
 {{{
-
+sage: (graphs.RandomDirectedGNR(12,.15)).show(node_size=20, vertex_labels=False, figsize=[4,4], graph_border=True)
 }}}
 attachment:randdirgnr.png
 
@@ -428,24 +424,24 @@ attachment:randdirgnr.png
 
 === Degree Sequence ===
 {{{
-
+sage: (graphs.DegreeSequence([3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3])).show(vertex_labels=False, node_size=30, figsize=[4,4], graph_border=True)
 }}}
 attachment:degseq.png
 
 === Degree Sequence Configuration Model ===
 {{{
-
+sage: (graphs.DegreeSequenceConfigurationModel([3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3])).show(vertex_labels=False, node_size=30, figsize=[4,4], graph_border=True)
 }}}
 attachment:degseqconf.png
 
 === Degree Sequence Tree ===
 {{{
-
+sage: (graphs.DegreeSequenceTree([3,1,3,3,1,1,1,2,1])).show(figsize=[4,4], graph_border=True)
 }}}
 attachment:degseqtree.png
 
 === Degree Sequence Expected ===
 {{{
-
+sage: (graphs.DegreeSequenceExpected([1,2,3,2,3])).show(figsize=[4,4],graph_border=True)
 }}}
 attachment:degseqexp.png
