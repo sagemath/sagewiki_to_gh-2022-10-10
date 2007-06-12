@@ -19,6 +19,9 @@ Yi Qiang, Alex Clemesha, Dorian Raymer, William Stein
   * Fix doctest thread issue for DSage
   * Make the Dashboard widget more fun to look at and more usable
 
+ * Documentation:
+  * Write a nice tutorial
+
  * Make it so vastly more objects are picklable:
   * Write way way more loads(dumps(s)) doctests
   * Fix them when they don't work.
