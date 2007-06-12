@@ -18,6 +18,7 @@ Yi Qiang, Alex Clemesha, Dorian Raymer, William Stein
   * Implement parallel running of doctests
   * Fix doctest thread issue for DSage
   * Make the Dashboard widget more fun to look at and more usable
+  * Try it out at the computer labs (Alex, Dorian, Yi) to test DSage on several computers + live demo of web interface
 
  * Documentation:
   * Write a nice tutorial
