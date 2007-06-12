@@ -29,7 +29,6 @@ Each section lists the project followed by the main contact person for that proj
  
 ----------------------
 
- * M Albrecht: Go through the wiki and clean it up, write more documentation,  and check what content should be added to the documentation
  * W Stein: Implement a global '''proof = True''' or '''proof = False''' option that is queried by algorithms when proof=None.
  * David Roe: General elliptic curve '''height bound''' code (port Cremona's GPL'd MAGMA code to SAGE.)
  * W Stein: Implement '''Tate's algorithm over number fields''' (again, this involves porting Cremona's GPL'd MAGMA code to SAGE).
@@ -46,7 +45,7 @@ Each section lists the project followed by the main contact person for that proj
   1. Incorporate clapack into SAGE
   1. Incorporate something that depends on clapack
   1. Improve SAGE's support for octave and matlab
- * William Stein, David Roe, Joel Mohler: '''Number Fields''' There are numerous issues with number fields in SAGE.  Basically the design is terrible.  The KANT developers have worked very hard for literally a decade to get the design of number fields right, but the design in SAGE (1) completely ignores all the good work done by the KANT group, and just doesn't feel right.
+ * William Stein, David Roe, Joel Mohler: '''Number Fields''' There are numerous issues with number fields in SAGE.  The KANT developers have worked very hard for literally a decade to get the design of number fields right, but the design in SAGE (1) completely ignores all the good work done by the KANT group, and just doesn't feel right.
   1. Arithmetic speed -- Joel improved this a lot, but it's unclear what the best plan is.  Discussion at SD4 about design would be very worthwhile.
   1. I really ''do not'' like how relative extensions are implemented in SAGE.  It's terrible.  Design discussions + possibly rewrite it all.  The main problem is that it works way too much like PARI and isn't structural; it doesn't fit at all with how SAGE is supposed to work, and is utterly confusing from a KANT/MAGAM point of view.  It's really bad.
   1. Rings of integers and orders -- Discuss how they might be implemented; required functionality etc.
