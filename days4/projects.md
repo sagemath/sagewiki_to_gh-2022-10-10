@@ -15,6 +15,8 @@ Each section lists the project followed by the main contact person for that proj
 
  * [:days4/projects/numerical: Numerical Computation] -- Josh Kantor
 
+ * [:days4/projects/arith: Arithmetic ] -- David Harvey
+
  * [:days4/projects/numbertheory: Number Theory] -- David Roe
 
  * [:days4/projects/coding: Coding Theory] -- David Joyner
