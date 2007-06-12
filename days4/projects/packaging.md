@@ -9,3 +9,5 @@
  * D Deshommes and W Stein: Fully port SAGE to Solaris; improve SAGE's package management system
 
  * Mike Hansen, Yi Qiang(?): '''Bootable (Cluster) CD for SAGE/DSAGE'''.  Using BCCD ( http://bccd.cs.uni.edu/ ) as a base, create a bootable CD to allow one to easily turn in unused lab into DSAGE cluster.
+
+ * didier deshommes: Improve support for '''SAGE on NexentaOS'''. Several packages need to be patched.
