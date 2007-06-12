@@ -2,6 +2,9 @@
 
 [:days4/projects/: Other SAGE Days 4 Project]
 
+ 
+ * M Albrecht: Go through the wiki and clean it up, write more documentation,  and check what content should be added to the documentation
+
  * Revise the guided tour part of the '''SAGE tutorial''' to much better reflect the symbolic calculus functionality, its pros, cons, etc.
  * W Stein: '''Documentation'''.  Have teams describe how to do the following in tutorial fashion, with all examples automatically doctested:
   * Use SageX to create an interface to a C library (case study -- GMP-ECM).
