@@ -1,4 +1,4 @@
-= Arithmetic =
+= Basic Arithmetic =
 
 [:days4/projects/: Other SAGE Days 4 Project]
 
