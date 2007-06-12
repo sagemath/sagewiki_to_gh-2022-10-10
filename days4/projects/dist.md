@@ -9,6 +9,7 @@ Continuing a major trend started at the MSRI workshop in January 2007 on paralle
 Yi Qiang, William Stein
 
  * DSAGE:
+  * Make a DSAGE Live CD (BCCD or something else)
   * Improve overhead of running jobs with DSage
   * Completely convert to GNUTLS (use gnutls tools to generate certificates, etc.)
   * Improve web interface to dsage with Alex and Dorian
