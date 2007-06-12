@@ -10,7 +10,7 @@ The focus will be on coding sprints.  SAGE Days 4 will primarily be a developer-
 
  * [:days4schedule: Schedule]
 
- * [:days4/projects: Project Ideas]
+ * [:days4/projects: Coding Sprint Projects]
 
 == Organizers ==
 
