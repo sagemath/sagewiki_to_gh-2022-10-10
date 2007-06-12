@@ -3,21 +3,23 @@ Coding sprint and project ideas for [:days4:SAGE Days 4] June 12-17, 2007.
 
 ((NOTE: William Stein is currently reorganizing this page into sections.))
 
- * [:days4/projects/packaging: Packaging and Distributing SAGE] -- W Stein, D Deshommes
+Each section lists the project followed by the main contact person for that project. 
+
+ * [:days4/projects/packaging: Packaging and Distributing SAGE] -- Didier Deshommes
  
- * [:days4/projects/nb: The SAGE Notebook] -- W Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Clemesha, Yi Qiang, and Timothy Clemans
+ * [:days4/projects/nb: The SAGE Notebook] -- William Stein
 
- * [:days4/projects/dist: Distributed Computation] -- W Stein, Yi Qiang
+ * [:days4/projects/dist: Distributed Computation] -- Yi Qiang
 
- * [:days4/projects/doc: Documentation]
+ * [:days4/projects/doc: Documentation] -- Nick Alexander
 
- * [:days4/projects/numerical: Numerical Computation] -- Josh Kantor, 
+ * [:days4/projects/numerical: Numerical Computation] -- Josh Kantor
 
- * [:days4/projects/numbertheory: Number Theory] -- David Roed, David Harvey, Bobby Moretti
+ * [:days4/projects/numbertheory: Number Theory] -- David Roe
 
  * [:days4/projects/groups: Group Theory] -- David Joyner
  
- * [:days4/projects/linalg: Linear Algebra] -- Thea Gegenberg
+ * [:days4/projects/linalg: Linear Algebra] -- Robert Bradshaw
 
  * [:days4/projects/linalg: Combinatorics] -- Mike Hansen
 
