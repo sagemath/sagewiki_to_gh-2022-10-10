@@ -11,9 +11,9 @@ The last one would be great to have someone do, but I'm not very good at writing
   
   1.  Extend numerical sparse matrix capabilities. In particular add additional constructors for matrices with special forms, such as tridiagonal matrices. 
   2.  Implement numerical complex sparse matrices based on Josh's real sparse matrices.
-  3.  Incorporate clapack into SAGE (Not much to do here, just to make an spkg and make sure it works)
-  4.  Possibly try to include ARPACK for computing eigenvalues of large spare matrices. (depends on clapack)
-  5.  Wrap the optimization/minimization/root finding routines in GSL. (These would be very similar to the code in sage/gsl/ode.pyx).
+  3.  Incorporate clapack into SAGE (Not much to do here, just to make an spkg and make sure it works). Actually there are a couple specialized routines in lapack that the numpy/gsl don't include which we could directly call. For example specialized solvers for banded matrices.  
+  4.  Write an interface to ARPACK for computing eigenvalues of large spare matrices. This depends on clapack.
+  5.  Wrap the optimization/minimization/root finding/least squares  routines in GSL. (These would all be very similar to the code in sage/gsl/ode.pyx).
   6.  Improve SAGE's support for octave and matlab. 
  
  
