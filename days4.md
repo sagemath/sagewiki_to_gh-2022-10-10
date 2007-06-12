@@ -12,6 +12,8 @@ The focus will be on coding sprints.  SAGE Days 4 will primarily be a developer-
 
  * [:days4/projects: Coding Sprint Projects]
 
+ * Campus wifi: Use NetID '''wire01346''' and password '''drink-LoLLs'''
+
 == Organizers ==
 
  * William Stein, wstein@gmail.com
