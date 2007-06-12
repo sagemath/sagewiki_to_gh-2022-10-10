@@ -1,3 +1,7 @@
+= Graph Theory =
+
+[:days4/projects/: Other SAGE Days 4 Project]
+
  * NetworkX: The following modules could be useful, and have not yet been wrapped: centrality, cliques, cluster, cores, hybrid, search, spectrum, threshold
    * centrality, cliques, cluster, cores, search -- These are pretty standard graph theoretic programs, and should not take too long to wrap.
    * spectrum -- This should probably not be wrapped, but instead mimicked, since sage's linear algebra is undoubtedly faster.
