@@ -9,7 +9,7 @@ Each section lists the project followed by the main contact person for that proj
 
  * [:days4/projects/dist: Distributed Computation] -- Yi Qiang
 
- * [:days4/projects/doc: Documentation] -- Volunteer Needed
+ * [:days4/projects/doc: Documentation] -- ???
 
  * [:days4/projects/numerical: Numerical Computation] -- Josh Kantor
 
