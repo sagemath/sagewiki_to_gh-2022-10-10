@@ -21,13 +21,15 @@ Each section lists the project followed by the main contact person for that proj
 
  * [:days4/projects/groups: Group Theory] -- David Joyner
  
- * [:days4/projects/linalg: Linear Algebra] -- Robert Bradshaw
+ * [:days4/projects/linalg: Linear Algebra] -- Nick Alexander
 
  * [:days4/projects/linalg: Combinatorics] -- Mike Hansen
 
  * [:days4/projects/calculus: Symbolic Calculus] -- Bobby Moretti
 
  * [:days4/projects/graphs: Graph Theory] -- Robert Miller
+
+ * [:days4/projects/3d: 3d Graphics] -- Robert Bradshaw
  
 ----------------------
 
