@@ -9,15 +9,15 @@ Each section lists the project followed by the main contact person for that proj
 
  * [:days4/projects/dist: Distributed Computation] -- Yi Qiang
 
- * [:days4/projects/doc: Documentation] -- Nick Alexander
+ * [:days4/projects/doc: Documentation] -- Volunteer Needed
 
  * [:days4/projects/numerical: Numerical Computation] -- Josh Kantor
 
- * [:days4/projects/arith: Arithmetic ] -- David Harvey
+ * [:days4/projects/arith: Basic Arithmetic ] -- David Harvey
 
  * [:days4/projects/numbertheory: Number Theory] -- David Roe
 
- * [:days4/projects/coding: Coding Theory] -- David Joyner
+ * [:days4/projects/coding: Coding Theory] -- Robert Miller
 
  * [:days4/projects/groups: Group Theory] -- David Joyner
  
