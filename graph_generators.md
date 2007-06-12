@@ -51,6 +51,10 @@ Due to the volume of graphs now in the generators class, this wiki page is now i
 
 == Named Graphs ==
 
+=== Chvatal Graph ===
+
+=== Desargues Graph ===
+
 === Flower Snark ===
 {{{
 sage: flower_snark = graphs.FlowerSnark()
@@ -80,6 +84,8 @@ sage: moebius_kantor = graphs.MoebiusKantorGraph()
 sage: moebius_kantor.show(figsize=[4,4], graph_border=True)
 }}}
 attachment:moebiuskantor.png
+
+=== Pappus Graph ===
 
 === Petersen ===
 {{{
@@ -134,6 +140,41 @@ sage: bigger_cube.show(figsize=[8,8], node_size=20, vertex_labels=False, graph_b
 }}}
 attachment:biggercube.png
 
+=== Balanced Tree ===
+
+=== LCF Graph ===
+
+== Platonic Solids ==
+
+=== Tetrahedral Graph ===
+{{{
+sage: tetrahedral = graphs.TetrahedralGraph()
+sage: tetrahedral.show(figsize=[4,4], graph_border=True)
+}}}
+attachment:tetrahedral.png
+
+=== Hexahedral Graph ===
+
+=== Octahedral Graph ===
+{{{
+sage: octahedral = graphs.OctahedralGraph()
+sage: octahedral.show(figsize=[4,4], vertex_labels=False, node_size=50, graph_border=True)
+}}}
+attachment:octahedral.png
+
+=== Icosahedral Graph ===
+
+=== Dodecahedral Graph ===
+{{{
+sage: dodecahedral = graphs.DodecahedralGraph()
+sage: dodecahedral.show(figsize=[4,4], vertex_labels=False, node_size=50, graph_border=True)
+}}}
+attachment:dodecahedral.png
+
+== Pseudofractal Graphs ==
+
+=== Dorogovtsev Goltsev Mendes Graph ===
+
 == Basic Structures ==
 
 === Barbell Graph ===
@@ -161,7 +202,6 @@ sage: circ_ladder.show(figsize=[4,4], graph_border=True)
 }}}
 attachment:circladder.png
 
-
 === Claw Graph ===
 {{{
 sage: claw = graphs.ClawGraph()
@@ -182,14 +222,6 @@ sage: diamond = graphs.DiamondGraph()
 sage: diamond.show(figsize=[4,4], graph_border=True)
 }}}
 attachment:diamond.png
-
-=== Dodecahedral Graph ===
-{{{
-sage: dodecahedral = graphs.DodecahedralGraph()
-sage: dodecahedral.show(figsize=[4,4], vertex_labels=False, node_size=50, graph_border=True)
-}}}
-attachment:dodecahedral.png
-
 
 === Empty Graph ===
 {{{
@@ -244,14 +276,6 @@ sage: graphs_list.show_graphs(lollipop_list)
 }}}
 attachment:lollipop.png
 
-=== Octahedral Graph ===
-{{{
-sage: octahedral = graphs.OctahedralGraph()
-sage: octahedral.show(figsize=[4,4], vertex_labels=False, node_size=50, graph_border=True)
-}}}
-attachment:octahedral.png
-
-
 === Path Graph ===
 {{{
 sage: path_line = graphs.PathGraph(5)
@@ -271,13 +295,6 @@ sage: for i in range (12)[4:]:
 sage: graphs_list.show_graphs(star_list)
 }}}
 attachment:star.png
-
-=== Tetrahedral Graph ===
-{{{
-sage: tetrahedral = graphs.TetrahedralGraph()
-sage: tetrahedral.show(figsize=[4,4], graph_border=True)
-}}}
-attachment:tetrahedral.png
 
 === Wheel Graph ===
 {{{
@@ -310,3 +327,37 @@ sage: (graphs.RandomGNPFast(16,.19)).show(figsize=[4,4], graph_border=True)
 My results:
 CPU time: 0.63 s,  Wall time: 0.62 s
 attachment:randomfast.png
+
+=== Random Barabasi Albert ===
+
+=== Random GNM ===
+
+=== Random Neewman Watts Strogatz ===
+
+=== Random Holme Kim ===
+
+=== Random Lobster ===
+
+=== Random Tree Powerlaw ===
+
+=== Random Regular ===
+
+=== Random Shell ===
+
+== Random Directed Graphs ==
+
+=== Random Directed GN ===
+
+=== Random Directed GNC ===
+
+=== Random Directed GNR ===
+
+== Graphs With a Given Degree Sequence ==
+
+=== Degree Sequence ===
+
+=== Degree Sequence Configuration Model ===
+
+=== Degree Sequence Tree ===
+
+=== Degree Sequence Expected ===
