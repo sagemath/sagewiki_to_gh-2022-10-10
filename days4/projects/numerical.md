@@ -16,4 +16,7 @@ The last one would be great to have someone do, but I'm not very good at writing
   5.  Wrap the optimization/minimization/root finding/least squares  routines in GSL. (These would all be very similar to the code in sage/gsl/ode.pyx).
   6.  Improve SAGE's support for octave and matlab. 
  
+
+
+* look at [http://web.comlab.ox.ac.uk/projects/chebfun/ chebfun].
  
