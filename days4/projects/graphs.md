@@ -9,7 +9,7 @@
 
  * NICE: The nauty clone for computing automorphism groups of graphs, and computing isomorphism. It has been converted to Pyrex, but it could still stand much optimization.
 
- * Wishlist: I (Robert Miller) have a wishlist from Chris Godsil, which is becoming more and more a reality. It would be great if we could complete the list this week.
+ * Wishlist from Chris Godsil: It would be great if we could complete the list this week.
 
  * Electrical Networks, Jim Morrow's REU: Graphs with boundary are already in sage, but there are probably some useful constructions for Jim's summer REU that are not implemented yet. Especially data structures, perhaps an ElectricalNetworks class...
 
