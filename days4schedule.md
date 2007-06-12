@@ -12,6 +12,8 @@ William Stein's cell phone is 206-290-6427.
 
 = Daily schedule =
 
+[attachment:sagedays4-schedule.pdf The Schedule in a printable PDF grid]
+
 We have the following locations reserved:
  * [http://www.washington.edu/home/maps/northcentral.html?MEB MEB] (Mechanical Engineering Building) Room 328, 7:00am-10:00pm
  * [http://www.washington.edu/home/maps/northcentral.html?PDL PDL] (Padelford) Room C36, late
