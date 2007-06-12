@@ -28,7 +28,7 @@ Unless otherwise stated, everything 7am - 10pm will take place in MEB 238.  Late
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at Thai 65 (4214 University Way NE)
  * 1:30 - 2:30 William Stein -- '''State of the SAGE project''' [attachment:stein-status.pdf Slides]
- * 3:00 - 4:00 Randy Leveque (UW Applied Math): What SAGE needs to be useful to applied mathematics
+ * 3:00 - 4:00 Randy Leveque (UW Applied Math): What SAGE needs to be useful to applied mathematics [attachment:leveque.pdf Slides]
  * 4:30 - 5:00 strategy session
  * 5:00 - 7:00 coding sprints
  * 7:00 - 9:00 dinner
