@@ -2,7 +2,7 @@ Emily Kirkman is working on this project.  [http://sage.math.washington.edu:9001
 
 The goal of the Graph Generators Class is to implement constructors for many common graphs, as well as thorough docstrings that can be used for reference.  The graph generators will grow as the Graph Theory Project does.  So please check back for additions and feel free to leave requests in the suggestions section.
 
-We currently have 30 constructors of named graphs and basic structures.  Most of these graphs are constructed with a preset dictionary of x-y coordinates of each node.  This is advantageous for both style and time.  (The default graph plotting in SAGE uses the spring-layout algorithm).  SAGE graphs all have an associated graphics object, and examples of plotting options are shown on the graphs below.
+We currently have 54 constructors of named graphs and basic structures.  Most of these graphs are constructed with a preset dictionary of x-y coordinates of each node.  This is advantageous for both style and time.  (The default graph plotting in SAGE uses the spring-layout algorithm).  SAGE graphs all have an associated graphics object, and examples of plotting options are shown on the graphs below.
 
 As we implement algorithms into the Graph Theory Package, the constructors of known graphs would set their properties upon instantiation as well.  For example, if someone created a very large complete bipartite graph and then asked if it is a bipartite graph (not currently implemented), then instead of running through an algorithm to check it, we could return a value set at instantiation.  Further, this will improve the reference use of the docstrings as we would list the properties of each named graph.
 
@@ -17,17 +17,11 @@ Due to the volume of graphs now in the generators class, this wiki page is now i
 
 == Inherited from NetworkX ==
  * Bipartite Generators
- * Balanced tree
- * Dorogovstev golstev mendes graph
  * Grid (n-dim)
- * Chvatal
- * Desargues
- * Pappus
  * Sedgewick
  * Truncated cube
  * Truncated tetrahedron
  * Tutte
- * Also many more random generators and gens from degree sequence to sort through
 
 == Families of Graphs ==
  * Generalized Petersen graphs
@@ -39,7 +33,6 @@ Due to the volume of graphs now in the generators class, this wiki page is now i
 == Named Graphs ==
  * Brinkman
  * Clebsch
- * Icosahedron
  * Grötzsch graph
  * Tutte eight-cage
  * Szekeres snark
@@ -52,8 +45,16 @@ Due to the volume of graphs now in the generators class, this wiki page is now i
 == Named Graphs ==
 
 === Chvatal Graph ===
+{{{
+
+}}}
+attachment:chvatal.png
 
 === Desargues Graph ===
+{{{
+
+}}}
+attachment:desargues.png
 
 === Flower Snark ===
 {{{
@@ -77,7 +78,6 @@ sage: heawood.show(figsize=[4,4], graph_border=True)
 }}}
 attachment:heawood.png
 
-
 === Möbius Kantor ===
 {{{
 sage: moebius_kantor = graphs.MoebiusKantorGraph()
@@ -86,6 +86,10 @@ sage: moebius_kantor.show(figsize=[4,4], graph_border=True)
 attachment:moebiuskantor.png
 
 === Pappus Graph ===
+{{{
+
+}}}
+attachment:pappus.png
 
 === Petersen ===
 {{{
@@ -141,8 +145,16 @@ sage: bigger_cube.show(figsize=[8,8], node_size=20, vertex_labels=False, graph_b
 attachment:biggercube.png
 
 === Balanced Tree ===
+{{{
+
+}}}
+attachment:baltree.png
 
 === LCF Graph ===
+{{{
+
+}}}
+attachment:lcf.png
 
 == Platonic Solids ==
 
@@ -154,6 +166,10 @@ sage: tetrahedral.show(figsize=[4,4], graph_border=True)
 attachment:tetrahedral.png
 
 === Hexahedral Graph ===
+{{{
+
+}}}
+attachment:hexahedral.png
 
 === Octahedral Graph ===
 {{{
@@ -163,6 +179,10 @@ sage: octahedral.show(figsize=[4,4], vertex_labels=False, node_size=50, graph_bo
 attachment:octahedral.png
 
 === Icosahedral Graph ===
+{{{
+
+}}}
+attachment:icosahedral.png
 
 === Dodecahedral Graph ===
 {{{
@@ -174,6 +194,10 @@ attachment:dodecahedral.png
 == Pseudofractal Graphs ==
 
 === Dorogovtsev Goltsev Mendes Graph ===
+{{{
+
+}}}
+attachment:dorogovtsev.png
 
 == Basic Structures ==
 
@@ -329,35 +353,99 @@ CPU time: 0.63 s,  Wall time: 0.62 s
 attachment:randomfast.png
 
 === Random Barabasi Albert ===
+{{{
+
+}}}
+attachment:barabasi.png
 
 === Random GNM ===
+{{{
 
-=== Random Neewman Watts Strogatz ===
+}}}
+attachment:gnm.png
+
+=== Random Newman Watts Strogatz ===
+{{{
+
+}}}
+attachment:newman.png
 
 === Random Holme Kim ===
+{{{
+
+}}}
+attachment:holme.png
 
 === Random Lobster ===
+{{{
+
+}}}
+attachment:lobster.png
 
 === Random Tree Powerlaw ===
+{{{
+
+}}}
+attachment:powerlaw.png
 
 === Random Regular ===
+{{{
+
+}}}
+attachment:randreg.png
 
 === Random Shell ===
+{{{
+
+}}}
+attachment:shell.png
 
 == Random Directed Graphs ==
+{{{
+
+}}}
+attachment:randdir.png
 
 === Random Directed GN ===
+{{{
+
+}}}
+attachment:randdirgn.png
 
 === Random Directed GNC ===
+{{{
+
+}}}
+attachment:randdirgnc.png
 
 === Random Directed GNR ===
+{{{
+
+}}}
+attachment:randdirgnr.png
 
 == Graphs With a Given Degree Sequence ==
 
 === Degree Sequence ===
+{{{
+
+}}}
+attachment:degseq.png
 
 === Degree Sequence Configuration Model ===
+{{{
+
+}}}
+attachment:degseqconf.png
 
 === Degree Sequence Tree ===
+{{{
+
+}}}
+attachment:degseqtree.png
 
 === Degree Sequence Expected ===
+{{{
+
+}}}
+attachment:degseqexp.png
