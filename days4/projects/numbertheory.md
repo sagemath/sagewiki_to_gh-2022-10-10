@@ -4,7 +4,7 @@
 
 These sub-projects will be worked on as interest exists.  We will decide which of these get done on Tuesday during the strategy session (4:30-5:00).  
 
- * [:days4/projects/numbertheory/padic_lseries: p-adic L-series of elliptic curves] : Christian Wuthrich and I will do a lot along these lines the week before.  Finishing this off at SAGE Days might be really interesting.
+ * (done) [:days4/projects/numbertheory/padic_lseries: p-adic L-series of elliptic curves] : Christian Wuthrich and I will do a lot along these lines the week before.  Finishing this off at SAGE Days might be really interesting.
 
  * Kiran Kedlaya: I would love to have [:days4/projects/numbertheory/jacobians: Arithmetic on Jacobians of Hyperelliptic Curves] (Cantor's method), ideally SageX'd. I don't know whether this could be ported from MAGMA.
 
