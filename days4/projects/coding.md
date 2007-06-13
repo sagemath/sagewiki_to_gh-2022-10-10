@@ -15,4 +15,4 @@ Robert Miller, David Joyner, Josh Kantor, Robert Bradshaw, Emily Kirkman
 
    * Next baby step: write pyrex class to interface the library as is.
 
-   * Next giant step: tweak desauto and wtdist to not rely on the filesystem.
+   * Next giant step: tweak desauto and wtdist to communicate via arguments and returns, not files.
