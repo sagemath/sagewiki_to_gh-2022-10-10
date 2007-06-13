@@ -10,7 +10,7 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
 
  * NICE: The nauty clone for computing automorphism groups of graphs, and computing isomorphism. It has been converted to Pyrex, but it could still stand much optimization.
 
- * Electrical Networks, Jim Morrow's REU: Graphs with boundary are already in sage, but there are probably some useful constructions for Jim's summer REU that are not implemented yet. Especially data structures, perhaps an !ElectricalNetworks class.  Look at the Dirichlet problem and (circular) planar embeddings of graphs.
+ * Electrical Networks, Jim Morrow's REU: Graphs with boundary are already in sage, but there are probably some useful constructions for Jim's summer REU that are not implemented yet. Especially data structures, perhaps an !ElectricalNetworks class.  Look at the Dirichlet problem, graphs on surfaces and (circular) planar embeddings of graphs.
 
  * Graph Database: Update interface to sqlite database of all graphs with 8 or fewer vertices.
 
