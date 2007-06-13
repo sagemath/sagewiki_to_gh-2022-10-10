@@ -3,7 +3,7 @@ Schedule for [:days4: SAGE Days 4], which is June 12-17, 2007.
 William Stein's cell phone is 206-290-6427.
 
 == Invited Colloquium Speakers ==
- * Sarah Billey (UW Math)
+ * Sara Billey (UW Math)
  * Henry Cohn (Microsoft Research, June 13)
  * Charles Doran (UW Math, June 17 at 11am) 
  * Randy Leveque (UW Applied Math)
