@@ -23,7 +23,7 @@ Each section lists the project followed by the main contact person for that proj
  
  * [:days4/projects/linalg: Linear Algebra] -- Nick Alexander 
 
- * [:days4/projects/combinat: Combinatorics] -- Mike Hansen
+ * [:days4/projects/combinat: Combinatorics] -- Mike Hansen (remote)
 
  * [:days4/projects/calculus: Symbolic Calculus] -- Bobby Moretti
 
