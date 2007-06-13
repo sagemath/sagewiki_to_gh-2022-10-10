@@ -49,3 +49,4 @@ These are the tasks that need to be accomplished, in order of importance.
  * Javascript feature: click & drag on a plot to zoom.  Tom really wants this. Bobby seconds this. It's a killer feature. Perhaps google maps style?
  * Create a quiz-mode for worksheets, which satisfies the requirements of a quiz system.
  * Internet Explorer support
+   * http://www.webdeveloper.com/forum/archive/index.php/t-102141.html
