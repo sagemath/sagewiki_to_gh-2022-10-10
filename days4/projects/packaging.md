@@ -13,3 +13,5 @@
  * Mike Hansen, Yi Qiang(?): '''Bootable (Cluster) CD for SAGE/DSAGE'''.  Using BCCD ( http://bccd.cs.uni.edu/ ) as a base, create a bootable CD to allow one to easily turn in unused lab into DSAGE cluster.
 
  * didier deshommes: Improve support for '''SAGE on NexentaOS'''. Several packages need to be patched.
+
+ * sage -optional : It would be useful to list the size of each package together with this. Also when doing sage -i optional, to tell the user about the size of the package.
