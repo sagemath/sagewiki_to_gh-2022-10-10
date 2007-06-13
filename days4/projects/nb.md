@@ -8,7 +8,7 @@ Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Cle
 These are the tasks that need to be accomplished, in order of importance.
 
  * (mostly done) Convert the web server so that it uses twisted's web2 server 
- * Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.   (I.e., we need either an account and ownership model or a wiki model for the notebook.  An account model makes the most sense)
+ * Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.   (I.e., we need either an account and ownership model or a wiki model for the notebook.  An account model makes the most sense). [:days4/projects/account: This page has more aboout the account model.]
  * Make it so that the server use GNUTLS to *secure* all communications and logins
  * Create a '''worksheet settings panel'''; use this to:
    * Set the math software system used to evaluate cells
