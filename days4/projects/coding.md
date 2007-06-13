@@ -3,7 +3,7 @@
 [:days4/projects/: Other SAGE Days 4 Project]
 
 
-Robert Miller, Josh Kantor, Robert Bradshaw, David Joyner, Emily Kirkman
+Robert Miller, David Joyner, Josh Kantor, Robert Bradshaw, Emily Kirkman
 
  * '''Leon's partition backtracking''' programs.
 
