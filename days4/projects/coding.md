@@ -5,10 +5,10 @@
 
 Robert Miller, Josh Kantor, Robert Bradshaw, David Joyner, Emily Kirkman
 
- * '''Leon's partition backtracking''' programs are almost ready for inclusion as a SAGE spkg. I'd like to have each of Leon's original command-line functions wrapped in the library I'm working on. A native group theory class will be much more feasible if these programs are all available.  
+ * '''Leon's partition backtracking''' programs.
 
-   * Progress report: After @&#%!, [http://sage.math.washington.edu/home/rlmill/leon-0.1.spkg Version 0.1] spkg!
+   * Distributed Doubly Even Codes will no longer depend on Magma.
 
- * Once Leon's library is finished, the DSage '''Doubly Even Codes''' class will not depend on magma at all, and will be suitable for inclusion to the SAGE library.
+   * A native group theory class will be much more feasible if these programs are all available.
 
- * David Joyner: I'm also interested in coding theory and in particular Robert Miller's work on (now GPL'd) '''Leon's partition backtracking''' programs.
+   * Progress report: After @&#%!, [http://sage.math.washington.edu/home/rlmill/leon-0.1.spkg Version 0.1] spkg! Exposes desauto and wtdist programs, without modification (i.e. still reads codes from file, outputs results to file).
