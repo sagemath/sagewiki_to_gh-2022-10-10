@@ -6,6 +6,8 @@ David Harvey, David Roe, Joel Mohler, Gonzalo Tornaria, Craig Citro, Ifti B.
 
 These sub-projects will be worked on as interest exists.  We will decide which of these get done on Tuesday during the strategy session (4:30-5:00).  
 
+ * Investigate Claus Fieker's paper for Galois group computation.
+
  * David Roe: Implement [:days4/projects/numbertheory/tate: Tate's algorithm over number fields] (again, this involves porting Cremona's GPL'd MAGMA code to SAGE).  This is mostly done.
 
  * [:days4/projects/numbertheory/number_fields: Number Fields] There are numerous issues with number fields in SAGE.  The KANT developers have worked very hard for literally a decade to get the design of number fields right, but the design in SAGE (1) completely ignores all the good work done by the KANT group, and just doesn't feel right.
