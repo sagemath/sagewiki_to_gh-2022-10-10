@@ -2,6 +2,8 @@
 
 [:days4/projects/: Other SAGE Days 4 Projects]
 
+David Harvey, David Roe, Joel Mohler, Gonzalo Tornaria, Craig Citro, Ifti B. 
+
 These sub-projects will be worked on as interest exists.  We will decide which of these get done on Tuesday during the strategy session (4:30-5:00).  
 
  * David Roe: Implement [:days4/projects/numbertheory/tate: Tate's algorithm over number fields] (again, this involves porting Cremona's GPL'd MAGMA code to SAGE).  This is mostly done.
