@@ -19,6 +19,6 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
 
  * Electrical Networks, Jim Morrow's REU: Graphs with boundary are already in sage, but there are probably some useful constructions for Jim's summer REU that are not implemented yet. Especially data structures, perhaps an !ElectricalNetworks class.  Look at the Dirichlet problem and (circular) planar embeddings of graphs.
 
- * Latex Graphs: At sage days 3, Craig Citro gave Robert Miller a scheme program to plot graphs in postscript format. It would be great to get this working from python.
+ * (done) Latex Graphs: At sage days 3, Craig Citro gave Robert Miller a scheme program to plot graphs in postscript format. It would be great to get this working from python.
 
  * Graph Database: Update interface to sqlite database of all graphs with 8 or fewer vertices.
