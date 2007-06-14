@@ -48,9 +48,12 @@ One can view most desired natural coersions as functorial operations from some s
 
  * Field extensions and completions
 
-Consider each object $R$ as a tower $\cdots \rightarrow R'' \rightarrow R' \rightarrow R$.
-
 Given two objects $S$ and $R$, first see if there is a natural morphism $S \rightarrow R$ or $R \rightarrow S$. If there is one, use it. If there are two, by definition they are cannonically isomorphic and so we can use either. 
+
+Considering functors above, decompose each object $R$ as a tower of simpler rings R^0 \rightarrow $\cdots \rightarrow R'' \rightarrow R' \rightarrow R$. Now try to complete the pushout diagram $R \rightarrow Y \leftarrow R$ for some Y as low as possible in the tower of $R$ and $S$. If the pushout exists, do arithmatic in this ring. 
+
+
+
 
 Otherwise we search for a 
 
