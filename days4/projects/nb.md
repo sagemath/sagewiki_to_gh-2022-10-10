@@ -20,6 +20,7 @@ These are the tasks that need to be accomplished, in order of importance.
  * Interface issues:
    * Highlighting a block of text and pressing tab indents it four spaces; similarly, pressing shift-tab dedents it four spaces.
    * In the notebook some input cell should *always* have focus, if this is possible.  I hate typing into a worksheet and having random movement happen.
+ * infinite undo like moin moin
  * New feature -- pdf printing; '''Printing''' needs to also allow for the following: Given a single worksheet, print it by (1) saving it to a latex file with embedded images, and (2) running pdflatex on the result, then return the resulting pdf file and/or a tarball with the images and latex. This would be very high quality, and will also be something that would be easily included in latex documents.  Printing a notebook (=all worksheets owned by a given user) would create a document with a section for each notebook.
  * Focus-on-cell mode should flip through slides, which should be well-defined sections of the worksheet.
  * Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories.
