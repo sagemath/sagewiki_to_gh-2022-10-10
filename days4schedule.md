@@ -39,7 +39,7 @@ Unless otherwise stated, everything 7am - 10pm will take place in MEB 238.  Late
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at Chipotle (4229 University Way NE)
  * 1:30 - 2:30 David Harvey (Harvard Math): '''FLINT and Fast Polynomial Arithmetic'''
- * 3:00 - 4:00 Henry Cohn (Microsoft Research) -- '''Features I wish SAGE had'''
+ * 3:00 - 4:00 Henry Cohn (Microsoft Research) -- '''Features I wish SAGE had''' [:days4schedule/cohn: Notes]
  * 4:30 - 5:00 strategy session
  * 5:00 - 5:15 Robert Miller -- lightning demo of graph isomorphism algorithm [http://students.washington.edu/rlmill/talks/nauty.pdf old slides]
  * 5:00 - 7:00 coding sprints 
