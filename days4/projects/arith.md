@@ -46,7 +46,7 @@ One can view most desired natural coersions as functorial operations from some s
 
  * Field extensions and completions
 
-
+'''Other'''
 
  * W Stein: Implement a global '''proof = True''' or '''proof = False''' option that is queried by algorithms when proof=None.
 
