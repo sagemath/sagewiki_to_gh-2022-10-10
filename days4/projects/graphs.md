@@ -19,3 +19,4 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
  * NetworkX 2:  
    * spectrum -- This should probably not be wrapped, but instead mimicked, since sage's linear algebra is undoubtedly faster.
    * hybrid, threshold -- These seem to be specialized programs that are closely related to the research areas of the NetworkX authors. It is unclear what to do with these.
+   * bipartite class - then check todo's in graph.py
