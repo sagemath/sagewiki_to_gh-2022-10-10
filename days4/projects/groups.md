@@ -8,6 +8,6 @@ Robert Miller, Bobby Moretti, Tom Boothby, Emily Kirkman, Peter Clark, David Joy
 
  * David Roe: Group actions
 
- * Robert Miller, Bobby Moretti, Tom Boothby, Emily Kirkman, Peter Clark: Implement a very fast permutation group class.  SageX'd and all that good stuff. 
+ * Implement a very fast permutation group class.  SageX'd and all that good stuff. 
 
  
