@@ -33,11 +33,11 @@
 
     1. $\mathbf{Z}/16\mathbf{Z} + \mathbf{Z}/12\mathbf{Z} \in \mathbf{Z}/4\mathbf{Z}$
 
-'''Using known morphisms'''
+'''Finding known morphisms'''
 
-Every parent will hava a list of fields that it knows how to coerce from (as in the current coerce_try) and known embeddings, both created at ring creation time. 
+Every parent will hava a list of other objects that it knows how to coerce from (as in the current coerce_try) and known embeddings (which it may append to the lists of existing rings), both created at ring creation time. When trying to find a map from (distinct) $R$ to $S$ we 
 
-'''Finding new morphisms'''
+'''Creating new morphisms'''
 
 One can view most desired natural coersions as functorial operations from some simpler base object. E.g. 
 
