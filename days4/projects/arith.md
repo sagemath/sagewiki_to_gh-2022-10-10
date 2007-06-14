@@ -31,6 +31,8 @@
 
     1. $\mathbf{Z}[x] + \mathbf{Q}[y]$ same as 5 (minus the symmetry concerns)
 
+    1. $\mathbf{Z}/16\mathbf{Z} + \mathbf{Z}/12\mathbf{Z} \in \mathbf{Z}/4\mathbf{Z}$
+
 
 '''Proposed model'''
 
@@ -45,6 +47,10 @@ One can view most desired natural coersions as functorial operations from some s
  * Forgetful functors
 
  * Field extensions and completions
+
+Given two objects $S$ and $R$, first see if there is a natural morphism $S \rightarrow R$ or $R \rightarrow S$. If there is one, use it. If there are two, by definition they are cannonically isomorphic and so we can use either. 
+
+
 
 '''Other'''
 
