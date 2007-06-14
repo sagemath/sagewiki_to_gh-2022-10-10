@@ -51,7 +51,7 @@ Unless otherwise stated, everything 7am - 10pm will take place in MEB 238.  Late
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at araya's vegan thai (1121 NE 45th st)
  * 1:30 - 2:30 David Roe: '''The New Improved p-adics'''
- * 3:00 - 4:00 Jim Morrow (UW Math): '''Graph theory and electrical networks.''' [attachment:morrow.pdf: Slides]
+ * 3:00 - 4:00 Jim Morrow (UW Math): '''Graph theory and electrical networks.''' [attachment:morrow.pdf Slides]
  * 4:30 - 5:00 strategy session
  * 5:00 - 7:00 coding sprints
  * 7:00 - 9:00 dinner
