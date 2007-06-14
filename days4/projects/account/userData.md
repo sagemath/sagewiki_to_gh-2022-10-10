@@ -6,6 +6,7 @@
  * Default worksheet permissions (including whether a worksheet is globally visible by default).
  * Port on which to listen
  * Show splashscreen?
+ * Multisession?
 
 == User Management ==
 This is only valid for a user that has admin privileges.
