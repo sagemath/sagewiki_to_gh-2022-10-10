@@ -18,7 +18,7 @@ These are the tasks that need to be accomplished, in order of importance.
  1. '''Don't loose work''' If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
  1. '''Internet Explorer''' support
    * http://www.webdeveloper.com/forum/archive/index.php/t-102141.html
- 1. '''Edit mode''' Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken, and (3) it would be really nice, and probably easy, to have a WYSIWYG html editor mode like the one in moinmoin.
+ 1. '''Edit mode''' Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken, and (3) have a better editor (at least syntax highlighted).
 
 -----------------
 
