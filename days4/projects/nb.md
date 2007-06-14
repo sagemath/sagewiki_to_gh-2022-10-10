@@ -22,6 +22,7 @@ These are the tasks that need to be accomplished, in order of importance.
    * In the notebook some input cell should *always* have focus, if this is possible.  I hate typing into a worksheet and having random movement happen.
  * Infinite undo like moin-moin; SAVE when -- hit a big "save" button or exit a worksheet.
  * New feature -- pdf printing; '''Printing''' needs to also allow for the following: Given a single worksheet, print it by (1) saving it to a latex file with embedded images, and (2) running pdflatex on the result, then return the resulting pdf file and/or a tarball with the images and latex. This would be very high quality, and will also be something that would be easily included in latex documents.  Printing a notebook (=all worksheets owned by a given user) would create a document with a section for each notebook.
+ * Publish notebook rateable. 
  * Focus-on-cell mode should flip through slides, which should be well-defined sections of the worksheet.
  * Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories.
  * Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken, and (3) it would be really nice, and probably easy, to have a WYSIWYG html editor mode like the one in moinmoin.
