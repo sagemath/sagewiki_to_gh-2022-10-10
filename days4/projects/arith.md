@@ -33,6 +33,8 @@
 
     1. $\mathbf{Z}/16\mathbf{Z} + \mathbf{Z}/12\mathbf{Z} \in \mathbf{Z}/4\mathbf{Z}$
 
+This should be ''ring centric'', i.e. the answer is dependant on a pair of rings (and should be computed without having to create pairs of elements)
+
 '''Finding known morphisms'''
 
 Every parent will hava a "incoming list" of other objects that it knows how to coerce from (as in the current coerce_try) and known embeddings (which it may append to the lists of existing rings), both created at ring creation time. When trying to find a map from (distinct) $R$ to $S$ we recursively try and find maps from $R$ into the incoming list of $S$ and vica-versa. This is implicitly the "comutative" part of the diagram, and the result may be the composition of several morphisms (represented as Homomorphism objects). 
@@ -60,6 +62,10 @@ Given two objects $S$ and $R$, first see if there is a natural morphism $S \righ
 Considering functors above, decompose each object $R$ as a tower of simpler rings R^0 \rightarrow $\cdots \rightarrow R'' \rightarrow R' \rightarrow R$. Now try to complete the pushout diagram $R \leftarrow Y \rightarrow R$ for maximal Y as low as possible in the tower of $R$ and $S$. If the pushout exists, do arithmatic in this ring. 
 
 Some of these pushouts (e.g. coefficent rings) could be handled by generic code (e.g. base_extend). Others might be very special to the specific rings (e.g. compositum of number fields (perhaps with specified embeddings into an algebric closure). 
+
+
+'''Efficency concerns'''
+
 
 '''Other'''
 
