@@ -11,7 +11,7 @@ These are the tasks that need to be accomplished, in order of importance.
 
  1. (mostly done) '''Twisted Web2''' Convert the web server so that it uses twisted's web2 server 
  1. (in progress) '''A User Model''' Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.   (I.e., we need either an account and ownership model or a wiki model for the notebook.  An account model makes the most sense). [:days4/projects/account: This page has more about the account model.]
- 1. (completely done) '''SSL Encrypted''' Make it so that the server use GNUTLS to *secure* all communications and logins
+ 1. (mostly done) '''SSL Encrypted''' Make it so that the server use GNUTLS to *secure* all communications and logins  (current: openssl)
  1. '''Secure Separate User Process''' Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.
  1. '''Worksheet Revision Log''' Revision log for worksheets. like moin-moin; SAVE when -- hit a big "save" button or exit a worksheet.
  1. '''Save/Load Worksheets''' Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories.
