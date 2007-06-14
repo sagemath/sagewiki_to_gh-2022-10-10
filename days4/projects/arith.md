@@ -64,7 +64,21 @@ Considering functors above, decompose each object $R$ as a tower of simpler ring
 Some of these pushouts (e.g. coefficent rings) could be handled by generic code (e.g. base_extend). Others might be very special to the specific rings (e.g. compositum of number fields (perhaps with specified embeddings into an algebric closure). 
 
 
-'''Efficency concerns'''
+'''Actions'''
+
+There would be a parallel framework for actions, where the parents would not necessarily be identical. Pow would be worked into the coercion model, as an action of the integers (at least) on ring elements. 
+
+'''Efficiency concerns'''
+
+The above procedures could be moderately expensive in some cases, and much more expensive than we want for basic arithmetic. The actual model would cache all operations. Specifically, one would have a hashtable
+
+(R, S, op) -> (Hom(R,X), Hom(S, X), method_flag)
+
+where X may be one of R or S, and one of the Hom's may be None (signifying the identity, i.e. due nothing)
+
+method could be one of +, -, *, /, pow, rmul, lmul, ?
+
+
 
 
 '''Other'''
