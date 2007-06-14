@@ -9,6 +9,7 @@ Continuing a major trend started at the MSRI workshop in January 2007 on paralle
 Yi Qiang, Alex Clemesha, Dorian Raymer, William Stein
 
  * DSAGE:
+  * Write a easy to follow tutorial
   * Make a DSAGE Live CD (I just tried the VMware image and it worked really well, maybe we can just use that)
   * Improve overhead of running jobs with DSage (Robert Miller can help stress test this)
   * Completely convert to GNUTLS (use gnutls tools to generate certificates, etc.)
