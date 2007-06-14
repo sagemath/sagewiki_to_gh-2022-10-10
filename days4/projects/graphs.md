@@ -6,7 +6,7 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
 
  * (done) Latex Graphs: Craig Citro & Robert Miller -- write an eps file to be included in LaTeX documents.
 
- * (very close to done) NetworkX 1: Expose these in SAGE: centrality, cliques, cluster, cores, search -- These are pretty standard graph theoretic programs, and should not take too long to wrap.
+ * (done) NetworkX 1: Expose these in SAGE: centrality, cliques, cluster, cores, search -- These are pretty standard graph theoretic programs, and should not take too long to wrap.
 
  * NICE: The nauty clone for computing automorphism groups of graphs, and computing isomorphism. It has been converted to Pyrex, but it could still stand much optimization.
 
