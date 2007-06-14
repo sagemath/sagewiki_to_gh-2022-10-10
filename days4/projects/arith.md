@@ -39,6 +39,8 @@ Every parent will hava a "incoming list" of other objects that it knows how to c
 
 Given a set of objects, one wants to be able to extract, view, query, and even run consistancy checks on this data as a (commutative diagram) graph of known morphisms between them. 
 
+This is an atomic step in the procedure below. 
+
 '''Creating new morphisms'''
 
 One can view most desired natural coersions as functorial operations from some simpler base object. E.g. 
