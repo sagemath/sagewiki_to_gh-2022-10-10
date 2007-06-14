@@ -10,15 +10,15 @@ A snapshot of work is posted at /home/was/twisted
 These are the tasks that need to be accomplished, in order of importance.
 
  1. (mostly done) '''Twisted Web2''' Convert the web server so that it uses twisted's web2 server 
- 2. (in progress) '''A User Model''' Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.   (I.e., we need either an account and ownership model or a wiki model for the notebook.  An account model makes the most sense). [:days4/projects/account: This page has more about the account model.]
+ 1. (in progress) '''A User Model''' Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.   (I.e., we need either an account and ownership model or a wiki model for the notebook.  An account model makes the most sense). [:days4/projects/account: This page has more about the account model.]
  1. (completely done) '''SSL Encrypted''' Make it so that the server use GNUTLS to *secure* all communications and logins
- 1. Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken, and (3) it would be really nice, and probably easy, to have a WYSIWYG html editor mode like the one in moinmoin.
- 1. Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.
- 1. Revision log for worksheets. like moin-moin; SAVE when -- hit a big "save" button or exit a worksheet.
- 1. Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories.
- 1. If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
- 1. Internet Explorer support
+ 1. '''Secure Separate User Process''' Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.
+ 1. '''Worksheet Revision Log''' Revision log for worksheets. like moin-moin; SAVE when -- hit a big "save" button or exit a worksheet.
+ 1. '''Save/Load Worksheets''' Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories.
+ 1. '''Don't loose work''' If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
+ 1. '''Internet Explorer''' support
    * http://www.webdeveloper.com/forum/archive/index.php/t-102141.html
+ 1. '''Edit mode''' Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken, and (3) it would be really nice, and probably easy, to have a WYSIWYG html editor mode like the one in moinmoin.
 
 -----------------
 
