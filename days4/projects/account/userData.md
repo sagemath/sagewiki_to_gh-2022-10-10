@@ -10,5 +10,8 @@ This is only valid for a user that has admin privileges.
 
  * Add/revoke admin privileges from other users
  * Add a user to a restriction group
-== Individual Worksheet Management
- * Make the wokr
+
+== Individual Worksheet Management ==
+ * Add/remove viewers
+ * Add/remove collaborators (can these collaborators invite others?)
+ * Publish (for now, this means "make the worksheet globally visible in real time")
