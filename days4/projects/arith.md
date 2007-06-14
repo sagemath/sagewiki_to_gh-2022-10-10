@@ -33,8 +33,11 @@
 
     1. $\mathbf{Z}/16\mathbf{Z} + \mathbf{Z}/12\mathbf{Z} \in \mathbf{Z}/4\mathbf{Z}$
 
+'''Using known morphisms'''
 
-'''Proposed model'''
+
+
+'''Finding new morphisms'''
 
 One can view most desired natural coersions as functorial operations from some simpler base object. E.g. 
 
@@ -50,12 +53,7 @@ One can view most desired natural coersions as functorial operations from some s
 
 Given two objects $S$ and $R$, first see if there is a natural morphism $S \rightarrow R$ or $R \rightarrow S$. If there is one, use it. If there are two, by definition they are cannonically isomorphic and so we can use either. 
 
-Considering functors above, decompose each object $R$ as a tower of simpler rings R^0 \rightarrow $\cdots \rightarrow R'' \rightarrow R' \rightarrow R$. Now try to complete the pushout diagram $R \leftarrow Y \rightarrow R$ for some Y as low as possible in the tower of $R$ and $S$. If the pushout exists, do arithmatic in this ring. 
-
-
-
-
-Otherwise we search for a 
+Considering functors above, decompose each object $R$ as a tower of simpler rings R^0 \rightarrow $\cdots \rightarrow R'' \rightarrow R' \rightarrow R$. Now try to complete the pushout diagram $R \leftarrow Y \rightarrow R$ for maximal Y as low as possible in the tower of $R$ and $S$. If the pushout exists, do arithmatic in this ring. 
 
 '''Other'''
 
