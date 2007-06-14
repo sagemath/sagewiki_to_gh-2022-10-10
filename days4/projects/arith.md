@@ -29,13 +29,15 @@
     1. $\mathbf{F}_{p^n} + \mathbf{F}_{p^m}$ works using Conway polynomials
 
 
-    1. $\mathbf{Z}[x] + \mathbf{Q}[y]$ same as 5 (minus the symmetry concerns)
+    1. $\mathbf{Z}[x] + \mathbf{Q}[y]$ error, same as 5 (minus the symmetry concerns) It is unclear how to rule this out of generic base-extension code. 
 
     1. $\mathbf{Z}/16\mathbf{Z} + \mathbf{Z}/12\mathbf{Z} \in \mathbf{Z}/4\mathbf{Z}$
 
 '''Finding known morphisms'''
 
-Every parent will hava a list of other objects that it knows how to coerce from (as in the current coerce_try) and known embeddings (which it may append to the lists of existing rings), both created at ring creation time. When trying to find a map from (distinct) $R$ to $S$ we 
+Every parent will hava a "incoming list" of other objects that it knows how to coerce from (as in the current coerce_try) and known embeddings (which it may append to the lists of existing rings), both created at ring creation time. When trying to find a map from (distinct) $R$ to $S$ we recursively try and find maps from $R$ into the incoming list of $S$ and vica-versa. This is implicitly the "comutative" part of the diagram, and the result may be the composition of several morphisms (represented as Homomorphism objects). 
+
+Given a set of objects, one wants to be able to extract, view, query, and even run consistancy checks on this data as a (commutative diagram) graph of known morphisms between them. 
 
 '''Creating new morphisms'''
 
@@ -54,6 +56,8 @@ One can view most desired natural coersions as functorial operations from some s
 Given two objects $S$ and $R$, first see if there is a natural morphism $S \rightarrow R$ or $R \rightarrow S$. If there is one, use it. If there are two, by definition they are cannonically isomorphic and so we can use either. 
 
 Considering functors above, decompose each object $R$ as a tower of simpler rings R^0 \rightarrow $\cdots \rightarrow R'' \rightarrow R' \rightarrow R$. Now try to complete the pushout diagram $R \leftarrow Y \rightarrow R$ for maximal Y as low as possible in the tower of $R$ and $S$. If the pushout exists, do arithmatic in this ring. 
+
+Some of these pushouts (e.g. coefficent rings) could be handled by generic code (e.g. base_extend). Others might be very special to the specific rings (e.g. compositum of number fields (perhaps with specified embeddings into an algebric closure). 
 
 '''Other'''
 
