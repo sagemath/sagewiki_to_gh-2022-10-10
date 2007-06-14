@@ -6,9 +6,7 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
 
  * (done) Latex Graphs: Craig Citro & Robert Miller -- write an eps file to be included in LaTeX documents.
 
- * (done) NetworkX 1: Expose these in SAGE: centrality, cliques, cluster, cores, search -- These are pretty standard graph theoretic programs, and should not take too long to wrap.
-
- * NICE: The nauty clone for computing automorphism groups of graphs, and computing isomorphism. It has been converted to Pyrex, but it could still stand much optimization.
+ * (done) NetworkX 1: Expose these in SAGE: centrality, cliques, cluster, cores, search.
 
  * Electrical Networks, Jim Morrow's REU: Graphs with boundary are already in sage, but there are probably some useful constructions for Jim's summer REU that are not implemented yet. Especially data structures, perhaps an !ElectricalNetworks class.  Look at the Dirichlet problem, graphs on surfaces and (circular) planar embeddings of graphs.
 
@@ -16,7 +14,10 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
 
  * [http://sage.math.washington.edu/home/rlmill/wshlst.pdf Wishlist] from Chris Godsil: It would be great if we could complete the list this week.
 
+ * bipartite class
+
  * NetworkX 2:  
    * spectrum -- This should probably not be wrapped, but instead mimicked, since sage's linear algebra is undoubtedly faster.
-   * hybrid, threshold -- These seem to be specialized programs that are closely related to the research areas of the NetworkX authors. It is unclear what to do with these.
-   * bipartite class - then check todo's in graph.py
+   * hybrid, threshold -- Figure out what these are?
+
+ * NICE: The nauty clone for computing automorphism groups of graphs, and computing isomorphism. It has been converted to Pyrex, but it could still stand much optimization. Tabled, since Leon's programs will likely beat it out in spades.
