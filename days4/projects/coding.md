@@ -11,7 +11,7 @@ Robert Miller, David Joyner, Josh Kantor, Robert Bradshaw, Emily Kirkman
 
    * Permutation groups in SAGE will benefit from Leon's code being available without the overhead of pexpect or reading/writing files.
 
-   * After a month (@&#%!), [http://sage.math.washington.edu/home/rlmill/leon-0.1.spkg Version 0.1] spkg! Exposes desauto and wtdist programs, without modification (i.e. still reads codes from file, outputs results to file).
+   * After a month (@&#%!), [http://sage.math.washington.edu/home/rlmill/leon-0.1.spkg Version 0.1] spkg! Exposes desauto and wtdist programs.
 
    * Progress report: spkg now exposes modified desauto and wtdist, which do not read from or write to file!
 
