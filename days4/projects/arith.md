@@ -12,7 +12,7 @@
 
  * '''Commutative Diagram Coercion Model''': The current SAGE coercion model has some advantages (speed, ability to override for new classes) but also some issues.  A user is not able to override the coercion system at runtime and use their own coercion maps (this could be incredibly useful for polynomials, or systems of field extensions).  It is difficult to get a system-wide picture of what coercion maps exist: as SAGE grows, this will introduce bugs when the rules for transitivity of coercion are not followed.  It is also difficult, though not impossible, to implement coercion systems where the computation of the coercion map requires effort (creating a coercion map from $\mathbf{F}_{7^8} \to \mathbf{F}_{7^{24}}$).  I, David Roe, want to discuss a new coercion model, either replacing over built on top of the old, that addresses these problems.  Currently I have some ideas for a system based on commutative diagrams, but I want to brainstorm some more before implementing it.  This project will include discussions on ways to improve category theory in SAGE. Nick Alexander is also very interested in working on the proposed commutative diagram coercion model.
 
-'''Test cases''' Read these as "an element of __ and an element of __"
+'''Test cases''' Read these as "an element of $S$ and an element of $R$"
 
     1. $\mathbf{Z}[x]/\mathbf{Z} \in \mathbf{Q}[x]$ (not Frac$(\mathbf{Z}[x])$)
 
@@ -48,9 +48,11 @@ One can view most desired natural coersions as functorial operations from some s
 
  * Field extensions and completions
 
+Consider each object $R$ as a tower $\cdots \rightarrow R'' \rightarrow R' \rightarrow R$.
+
 Given two objects $S$ and $R$, first see if there is a natural morphism $S \rightarrow R$ or $R \rightarrow S$. If there is one, use it. If there are two, by definition they are cannonically isomorphic and so we can use either. 
 
-
+Otherwise we search for a 
 
 '''Other'''
 
