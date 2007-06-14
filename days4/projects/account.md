@@ -2,6 +2,8 @@
 
 This page is linked to from  [:days4/projects/nb: The SAGE Notebook project page].
 
+See [:/userData: User Data] for the data that needs to be sent for the user model.
+
 When hashing out a user/permissions model, I think it's probably best to begin by envisioning use cases. So here is a range of examples of what I think typical notebook users will look like:
 
 a) I am a linux/windows user who puts SAGE on my laptop. I expect to be the only person ever to use the notebook. I want everything visible by everyone, but everyone in this case is me. Dealing with access and write permissions is a redundant step and nothing but a hassle for me.
