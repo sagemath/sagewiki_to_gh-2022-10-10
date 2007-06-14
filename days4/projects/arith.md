@@ -78,8 +78,13 @@ where X may be one of R or S, and one of the Hom's may be None (signifying the i
 
 method could be one of +, -, *, /, pow, rmul, lmul, ?
 
+ * I have three concerns about the operators:
 
+    * Should + and - have the same functors for simplicity?
 
+    * __pow__ excepts a 3rd argument modulus.  I think that modulus and the base would be coerced much like the +,- operator.
+
+    * + and - have the most "traditional" coercion.  This coercion could be used a bunch of other places (e.g. quo_rem)
 
 '''Other'''
 
