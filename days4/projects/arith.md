@@ -59,7 +59,7 @@ One can view most desired natural coersions as functorial operations from some s
 
 Given two objects $S$ and $R$, first see if there is a natural morphism $S \rightarrow R$ or $R \rightarrow S$. If there is one, use it. If there are two, by definition they are cannonically isomorphic and so we can use either. 
 
-Considering functors above, decompose each object $R$ as a tower of simpler rings R^0 \rightarrow $\cdots \rightarrow R'' \rightarrow R' \rightarrow R$. Now try to complete the pushout diagram $R \leftarrow Y \rightarrow R$ for maximal Y as low as possible in the tower of $R$ and $S$. If the pushout exists, do arithmatic in this ring. 
+Considering functors above, decompose each object $R$ as a tower of simpler rings $R^0 \rightarrow \cdots \rightarrow R'' \rightarrow R' \rightarrow R$. Now try to complete the pushout diagram $R \leftarrow Y \rightarrow R$ for maximal Y as low as possible in the tower of $R$ and $S$. If the pushout exists, do arithmatic in this ring. 
 
 Some of these pushouts (e.g. coefficent rings) could be handled by generic code (e.g. base_extend). Others might be very special to the specific rings (e.g. compositum of number fields (perhaps with specified embeddings into an algebric closure). 
 
