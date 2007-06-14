@@ -35,7 +35,7 @@
 
 '''Using known morphisms'''
 
-
+Every parent will hava a list of fields that it knows how to coerce from (as in the current coerce_try) and known embeddings, both created at ring creation time. 
 
 '''Finding new morphisms'''
 
