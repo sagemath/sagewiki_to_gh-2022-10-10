@@ -7,6 +7,7 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
  * (done) Latex Graphs: Craig Citro & Robert Miller -- write an eps file to be included in LaTeX documents.
 
  * (done) NetworkX 1: Expose these in SAGE: centrality, cliques, cluster, cores, search.
+    * Also note significant updates to Generators class from wrapping NetworkX, (see the [http://www.sagemath.org/9001:graph_generators wiki] for pretty pictures).
 
  * Graph Database: Update interface to sqlite database of all graphs with 8 or fewer vertices.
 
