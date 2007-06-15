@@ -13,7 +13,7 @@ Each section lists the project followed by the main contact person for that proj
 
  * [:days4/projects/numerical: Numerical Computation] -- Josh Kantor
 
- * [:days4/projects/arith: Basic Arithmetic ] -- David
+ * [:days4/projects/arith: Basic Arithmetic ] -- Robert Bradshaw
 
  * [:days4/projects/numbertheory: Number Theory] -- David Roe
 
