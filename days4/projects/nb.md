@@ -19,9 +19,9 @@ These are the tasks that need to be accomplished, in order of importance.
     * Implementing the user model on top -- 6 hours.
    
  1. (almost done) '''SSL Encrypted''' Make it so that the server use GNUTLS to *secure* all communications and logins  (current: openssl)
-    * Yi -- 1 hour: subclass something and replace listen ssl with gnutls. 
+    * (done) Yi -- 1 hour: subclass something and replace listen ssl with gnutls. 
     * Need to make it so dsage uses gnutls to generate certificates. 
-    * Url--goes to http instead of https.
+    * (done) Url--goes to http instead of https.
 
 
  1. '''Secure Separate User Process''' Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.
