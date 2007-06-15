@@ -31,5 +31,3 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
  * NetworkX 2:  
    * spectrum -- This should probably not be wrapped, but instead mimicked, since sage's linear algebra is undoubtedly faster.
    * hybrid, threshold -- Figure out what these are?
-
- * NICE: The nauty clone for computing automorphism groups of graphs, and computing isomorphism. It has been converted to Pyrex, but it could still stand much optimization. Tabled, since Leon's programs will likely beat it out in spades.
