@@ -12,6 +12,8 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
    * accessible from SAGE, perhaps hosted at sage.math...
 
+   * SQLite servers?
+
  * SAGE databases: included in sage
 
  * SQLite interface
