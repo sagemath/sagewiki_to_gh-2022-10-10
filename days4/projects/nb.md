@@ -26,16 +26,22 @@ These are the tasks that need to be accomplished, in order of importance.
     * William Stein, Bobby, Tom, Dorian, Timothy -- 2 hours of design; 2 hours implementation.
 
 
- 1. '''Worksheet Revision Log''' Revision log for worksheets. like moin-moin; SAVE when -- hit a big "save" button or exit a worksheet.
- 1. '''Save/Load Worksheets''' Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories.
+ 1. '''Save/Load Worksheets''' Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories. XML, plain text format, etc. 
+     * Alex Clemesha, Dorian, Tom, Yi
+
  1. '''Don't loose work''' If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
+
  1. '''Internet Explorer''' support
    * http://www.webdeveloper.com/forum/archive/index.php/t-102141.html
+
  1. '''Edit mode''' Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken, and (3) have a better editor (at least syntax highlighted).
 
 -----------------
 
+
 == If time permits ==
+ * '''Worksheet Revision Log''' Revision log for worksheets. like moin-moin; SAVE when -- hit a big "save" button or exit a worksheet.
+
  * Interface issues:
    * Highlighting a block of text and pressing tab indents it four spaces; similarly, pressing shift-tab dedents it four spaces.
    * In the notebook some input cell should *always* have focus, if this is possible.  I hate typing into a worksheet and having random movement happen.
