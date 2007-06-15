@@ -195,9 +195,9 @@ attachment:dodecahedral.png
 
 === Dorogovtsev Goltsev Mendes Graph ===
 {{{
-sage: (graphs.DorogovtsevGoltsevMendesGraph(3)).show(figsize=[4,4], graph_border=True)
+sage: (graphs.DorogovtsevGoltsevMendesGraph(5)).show(figsize=[4,4], graph_border=True, vertex_size=10, vertex_labels=False)
 }}}
-attachment:dorogovtsev.png
+attachment:tmp_6.png
 
 == Basic Structures ==
 
