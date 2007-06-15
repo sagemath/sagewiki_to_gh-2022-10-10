@@ -12,7 +12,9 @@ Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Cle
 These are the tasks that need to be accomplished, in order of importance.
 
  1. (mostly done) '''Twisted Web2''' Convert the web server so that it uses twisted's web2 server 
-     William -- 4 hours of moving things from server.py; delete worksheet
+     William -- what remains:
+          * Upload and download of worksheets
+          * Debugging
 
  1. (in progress) '''A User Model''' Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.   (I.e., we need either an account and ownership model or a wiki model for the notebook.  An account model makes the most sense). [:days4/projects/account: This page has more about the account model.]
     * Yi, Alex, Tom, Dorian, Bobby -- 3 hours for something working and shared among us. 
