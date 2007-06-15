@@ -17,7 +17,9 @@ Each section lists the project followed by the main contact person for that proj
 
  * [:days4/projects/numbertheory: Number Theory] -- David Roe
 
- * [:days4/projects/coding: Coding Theory] -- Robert Miller
+ * [:days4/projects/database: Databases] -- Robert Miller
+
+ * (Tabled) [:days4/projects/coding: Coding Theory] -- Robert Miller
 
  * [:days4/projects/groups: Group Theory] -- David Joyner
  
