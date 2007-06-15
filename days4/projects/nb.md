@@ -23,6 +23,9 @@ These are the tasks that need to be accomplished, in order of importance.
 
 
  1. '''Secure Separate User Process''' Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.
+    * William Stein, Bobby, Tom, Dorian, Timothy -- 2 hours of design; 2 hours implementation.
+
+
  1. '''Worksheet Revision Log''' Revision log for worksheets. like moin-moin; SAVE when -- hit a big "save" button or exit a worksheet.
  1. '''Save/Load Worksheets''' Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories.
  1. '''Don't loose work''' If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
