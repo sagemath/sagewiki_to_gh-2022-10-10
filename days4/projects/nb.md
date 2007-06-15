@@ -23,18 +23,19 @@ These are the tasks that need to be accomplished, in order of importance.
 
 
  1. '''Secure Separate User Process''' Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.
-    * William Stein, Bobby, Tom, Dorian, Timothy -- 2 hours of design; 2 hours implementation.
+    * William Stein, Bobby, Tom, Dorian, Timothy -- 3 hours of design; 3 hours implementation.
 
 
- 1. '''Save/Load Worksheets''' Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories. XML, plain text format, etc. 
+ 1. '''Save/Load Worksheets/Plain Mode''' Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories. XML, plain text format, etc.  Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken.
      * Alex Clemesha, Dorian, Tom, Yi
 
  1. '''Don't loose work''' If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
+     * Dorian, Tom -- 1 hour
 
  1. '''Internet Explorer''' support
    * http://www.webdeveloper.com/forum/archive/index.php/t-102141.html
 
- 1. '''Edit mode''' Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken, and (3) have a better editor (at least syntax highlighted).
+ 1. 
 
 -----------------
 
