@@ -86,7 +86,10 @@ The above procedures could be moderately expensive in some cases, and much more 
 
 where X may be one of R or S, and one of the Hom's may be None (signifying the identity, i.e. due nothing)
 
-method could be one of +, -, *, /, pow, rmul, lmul, ?
+method could be one of +, -, *, /, pow, rmul, lmul, r_act, l_act, ?
+
+The reason to specify the op is so that actions can be detected and handled efficently, not so different ring operations would have different coersion routes. 
+
 
  * I have three concerns about the operators:
 
