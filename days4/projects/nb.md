@@ -7,8 +7,8 @@ Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Cle
 
  * A snapshot of work is posted at /home/was/twisted
  * The Dorian/Alex notebook code is here: http://uranus.dyn-o-saur.com/projects/pybook/browser/
-    - see the dir 'alex/guardweb2' for the ssl-cookie-sessions code.
-    - see the dir 'dorian/notebook1' for the mathematica cells code.
+    * see the dir 'alex/guardweb2' for the ssl-cookie-sessions code.
+    * see the dir 'dorian/notebook1' for the mathematica cells code.
 
 
 
