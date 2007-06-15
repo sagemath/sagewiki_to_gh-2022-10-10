@@ -32,6 +32,8 @@ These are the tasks that need to be accomplished, in order of importance.
  1. '''Don't loose work''' If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
      * Dorian, Tom -- 1 hour
 
+ 1. '''Make it look good''' 
+     * Timothy, and everybody -- time.
 
 
 -----------------
