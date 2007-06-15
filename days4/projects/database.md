@@ -4,6 +4,8 @@
 
 Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
+ * GOAL: Create a well thought-out SAGE Enhancement Proposal, and start coding to implement it.
+
  * Online databases
 
    * cgi web-accessible...
