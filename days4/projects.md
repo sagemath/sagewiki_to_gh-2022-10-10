@@ -3,7 +3,7 @@ Coding sprint and project ideas for [:days4:SAGE Days 4] June 12-17, 2007.
 
 Each section lists the project followed by the main contact person for that project. 
 
- * [:days4/projects/packaging: Packaging and Distributing SAGE] -- Didier Deshommes
+ * [:days4/projects/packaging: Packaging and Distributing SAGE] -- Nick Alexander :-)
  
  * [:days4/projects/nb: The SAGE Notebook] -- William Stein
 
