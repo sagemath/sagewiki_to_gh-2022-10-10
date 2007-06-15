@@ -32,15 +32,16 @@ These are the tasks that need to be accomplished, in order of importance.
  1. '''Don't loose work''' If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
      * Dorian, Tom -- 1 hour
 
- 1. '''Internet Explorer 7''' support
-   * http://www.webdeveloper.com/forum/archive/index.php/t-102141.html
-
 
 
 -----------------
 
 
 == If time permits ==
+
+ * '''Internet Explorer 7''' support
+   * http://www.webdeveloper.com/forum/archive/index.php/t-102141.html
+
  * '''Worksheet Revision Log''' Revision log for worksheets. like moin-moin; SAVE when -- hit a big "save" button or exit a worksheet.
 
  * Interface issues:
