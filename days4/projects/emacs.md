@@ -1,4 +1,4 @@
-=sage-mode for GNU Emacs=
+= sage-mode for GNU Emacs =
 
 *Warning!*  This is pre-alpha code.
 
