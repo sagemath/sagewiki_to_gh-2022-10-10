@@ -33,6 +33,16 @@
 
     1. $\mathbf{Z}/16\mathbf{Z} + \mathbf{Z}/12\mathbf{Z} \in \mathbf{Z}/4\mathbf{Z}$
 
+    1. $\mathbf{Q} + \mathrm{Matrix}_{n,m}(\mathbf{Z})$. This is same as polynomials.
+
+    1. $\mathbf{Q} + \mathrm{Matrix}_{n,m}(\mathbf{Z}[x])$. Similar, but need to recurse the change base ring stuff.
+
+    1. $\mathbf{Q}[x] + \mathrm{Matrix}_{n,m}(\mathbf{Z}[x])$. Here you change base ring of the matrix space from $\mathbf{Z}[x]$ to $\mathbf{Q}[x]$.
+
+    1. $\mathbf{Q} + \mathcal{O}$, where $\mathcal{O}$ is an order in a number field. This also works by change base ring of $\mathcal{O}$ from $\mathbf{Z}$ to $\mathbf{Q}$ (i.e. going to the number field itself).
+
+    1. $K + \mathcal{O}$, where $L/K$ is a field extension, and $\mathcal{O}$ is an order in $L$. This is similar to the previous one, $\mathcal{O}$ can be extended to $\mathcal{L}$.
+
 This should be ''ring centric'', i.e. the answer is dependant on a pair of rings (and should be computed without having to create pairs of elements)
 
 '''Finding known morphisms'''
