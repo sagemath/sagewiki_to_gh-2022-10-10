@@ -31,4 +31,6 @@ Each section lists the project followed by the main contact person for that proj
 
  * [:days4/projects/3d: 3d Graphics] -- Robert Bradshaw
 
+ * [:days4/projects/emacs: sage-mode for GNU Emacs] -- Nick Alexander
+
  * [:days4/projects/mottos: Mottos] -- ???
