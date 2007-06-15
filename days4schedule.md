@@ -4,8 +4,8 @@ William Stein's cell phone is 206-290-6427.
 
 == Invited Colloquium Speakers ==
  * Sara Billey (UW Math)
- * Henry Cohn (Microsoft Research, June 13)
- * Charles Doran (UW Math, June 17 at 11am) 
+ * Henry Cohn (Microsoft Research)
+ * Charles Doran (UW Math) 
  * Randy Leveque (UW Applied Math)
  * Jim Morrow (UW Math)
  * Paul Beame (UW Computer Science)
