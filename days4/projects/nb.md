@@ -35,7 +35,7 @@ These are the tasks that need to be accomplished, in order of importance.
  1. '''Internet Explorer''' support
    * http://www.webdeveloper.com/forum/archive/index.php/t-102141.html
 
- 1. 
+
 
 -----------------
 
