@@ -9,6 +9,8 @@ Robert Miller, David Joyner, Josh Kantor, Robert Bradshaw, Emily Kirkman
 
    * After a month (@&#%!), [http://sage.math.washington.edu/home/rlmill/leon-0.1.spkg Version 0.1] spkg! Exposes desauto and wtdist programs.
 
-   * Progress report: spkg now exposes modified desauto and wtdist, which do not read from or write to file!
+   * spkg exposes modified desauto and wtdist, which do not read from or write to file!
 
-   * Next step: Pyrex wrapping.
+   * First attempt at Pyrex wrapping showed that Leon's code, as is, is nowhere near ready for release as a dynamic library.
+
+   * Next step: investigate documented bugs.
