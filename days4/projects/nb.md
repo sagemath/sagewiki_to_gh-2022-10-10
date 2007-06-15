@@ -18,9 +18,9 @@ These are the tasks that need to be accomplished, in order of importance.
     * Yi, Alex, Tom, Dorian, Bobby -- 3 hours for something working and shared among us. 
     * Implementing the user model on top -- 6 hours.
    
- 1. (almost done) '''SSL Encrypted''' Make it so that the server use GNUTLS to *secure* all communications and logins  (current: openssl)
+ 1. (done) '''SSL Encrypted''' Make it so that the server use GNUTLS to *secure* all communications and logins  (current: openssl)
     * (done) Yi -- 1 hour: subclass something and replace listen ssl with gnutls. 
-    * Need to make it so dsage uses gnutls to generate certificates. 
+    * (done) Need to make it so dsage uses gnutls to generate certificates. 
     * (done) Url--goes to http instead of https.
 
 
