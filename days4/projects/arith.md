@@ -90,11 +90,13 @@ method could be one of +, -, *, /, pow, rmul, lmul, ?
 
  * I have three concerns about the operators:
 
-    * Should + and - have the same functors for simplicity?
+    * Should + and - have the same functors for simplicity? 
 
-    * __pow__ excepts a 3rd argument modulus.  I think that modulus and the base would be coerced much like the +,- operator.
+    * __pow__ excepts a 3rd argument modulus.  I think that modulus and the base would be coerced much like the +,- operator. [Counter argument, currently the third argument is ignored everywhere in SAGE and there is no way to use it other than explicitly calling x.__pow__(exp, mod). Currently, one would always create a element in the quotient ring and then power that.] 
 
-    * + and - have the most "traditional" coercion.  This coercion could be used a bunch of other places (e.g. quo_rem)
+    * + and - have the most "traditional" coercion.  This coercion could be used a bunch of other places (e.g. quo_rem) 
+
+
 
 '''Other'''
 
