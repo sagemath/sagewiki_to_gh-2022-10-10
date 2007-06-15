@@ -11,3 +11,4 @@ The following files need to go into sage/misc.
 
 attachment:sage_emacs.py
 attachment:xreload.py
+attachment:sagetest.py
