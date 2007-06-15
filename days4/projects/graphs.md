@@ -9,7 +9,15 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
  * (done) NetworkX 1: Expose these in SAGE: centrality, cliques, cluster, cores, search.
     * Also note significant updates to Generators class from wrapping NetworkX, (see the [http://www.sagemath.org:9001/graph_generators wiki] for pretty pictures).
 
- * [http://sage.math.washington.edu/home/rlmill/wshlst.pdf Wishlist] from Chris Godsil: It would be great if we could complete the list this week.
+ * [http://sage.math.washington.edu/home/rlmill/wshlst.pdf Wishlist] from Chris Godsil. Most feasible first.
+
+    * (easy) cayley graphs, edge colorings, bipartite graphs, point graph, line graph, graph from set and binary function, vertices as vector subspaces, generating trees
+
+    * (medium) certain types of curves for plotting edges
+
+    * (tedium) databases: ted spence, gordon royle
+
+    * (hard) max indep. set, chromatic number, hamilton cycles and paths, chromatic polynomial, tutte polynomial, cut vertices, vertex/edge connectivity, planarity
 
  * Graph Database: Update interface to sqlite database of all graphs with 8 or fewer vertices.
     * Emily Kirkman is currently working on this.
