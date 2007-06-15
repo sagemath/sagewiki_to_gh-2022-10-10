@@ -5,7 +5,7 @@
 
 Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Clemesha, Yi Qiang, Bobby Moretti, and Timothy Clemans.
 
- * A snapshot of work is posted at /home/was/twisted
+ * A snapshot of work is posted at /home/was/twisted/.   Read the README.txt file there for complete instructions to get up to speed. 
 
 
 
