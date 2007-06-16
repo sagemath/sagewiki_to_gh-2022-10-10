@@ -6,21 +6,21 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
 GOAL: SAGE Enhancement Proposal.
 
-* Database class
- * instance field
-  * filename -- the database itself
-  * connection -- a sqlite connection to 'filename'
-  * query string -- this would be a string representing the 'query state' of the database object.
-   * allows for recursive searching quickly, since we can simply modify the string, and wait until we have to execute the query
-  * list of tables -- strings
-  * mutable -- boolean
- * functions
-  * create/drop table
-  * create/drop column( column name, table, bool index=False, bool primary key=False )
-   * if no table specified, raise an error and educate user about sql
-  * create/drop index( column, table(s) )
-  * create/drop primary key( column, table )
-   * QUESTION: should we allow multiple tables? bounce this off someone who knows (i.e. is it possible to do this with sqlite?)
+ * Database class
+  * instance field
+   * filename -- the database itself
+   * connection -- a sqlite connection to 'filename'
+   * query string -- this would be a string representing the 'query state' of the database object.
+    * allows for recursive searching quickly, since we can simply modify the string, and wait until we have to execute the query
+   * list of tables -- strings
+   * mutable -- boolean
+  * functions
+   * create/drop table
+   * create/drop column( column name, table, bool index=False, bool primary key=False )
+    * if no table specified, raise an error and educate user about sql
+   * create/drop index( column, table(s) )
+   * create/drop primary key( column, table )
+    * QUESTION: should we allow multiple tables? bounce this off someone who knows (i.e. is it possible to do this with sqlite?)
 
 
 
