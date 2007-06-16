@@ -22,6 +22,6 @@ clarified by this means; howbeit, some merchants, not liking of this
 physic, muffle themselves as women do when they ride and put on spectacles
 set in leather, which doth in some measure (but not for altogether) put by
 the force thereof."
-
-
 }}}
+
+ * From the [http://www.serve.com/cmtan/buddhism/Stories/cucumber.html Cucumber Sage]: "The whole universe is pickled cucumber; a pickled cucumber is the whole universe!"
