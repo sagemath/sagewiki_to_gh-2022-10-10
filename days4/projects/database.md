@@ -21,6 +21,21 @@ GOAL: SAGE Enhancement Proposal.
    * create/drop index( column, table(s) )
    * create/drop primary key( column, table )
     * QUESTION: should we allow multiple tables? bounce this off someone who knows (i.e. is it possible to do this with sqlite?)
+   * create/drop row( table, dict )
+    * create accepts a dictionary keyed by column name
+      {{{
+def foo(table=None, **kwds):
+    if table is None:
+        raise KeyError('Table must be specified')
+    print kwds
+
+sage: foo(table='table_name', shit='poo', dog='cat')
+# works
+sage: foo(shit='poo', dog='cat')
+Exception (click to the left for traceback):
+...
+KeyError: 'Table must be specified'
+}}}
 
    * 9
 ----
