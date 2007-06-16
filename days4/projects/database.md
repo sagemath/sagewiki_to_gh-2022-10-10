@@ -13,7 +13,7 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
      * create, remove and modify tables
      * copy method
        * when should this create a new database file?
-       * is it possible to have multiple connections to the same .db file?
+       * is it possible to have multiple connections to the same .db file? [http://www.mail-archive.com/sqlite-users@sqlite.org/msg24725.html relevant]
      * print?, save and show?
      * recursive queries without actually calling sqlite every time
      * query in place, query that creates a new Database object
