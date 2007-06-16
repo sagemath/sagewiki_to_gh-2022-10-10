@@ -11,7 +11,7 @@ GOAL: SAGE Enhancement Proposal.
    * filename -- the database itself
    * connection -- a pysqlite connection to 'filename'
    * query -- this would be the following two objects:
-    * a string representing the 'where clause' of the database object.
+    * a string representing the 'where clause'.
     * a dict representing what data to return, {{{ {'table1':['col1', 'col2'], 'table2':['col9'] } }}}
     * allows for recursive searching quickly, since we can simply modify the string, and wait until we have to execute the query
     * recursive searching is strictly an 'intersection'-- both of data returned (design decision) and of where clauses (definition of recursive search)
