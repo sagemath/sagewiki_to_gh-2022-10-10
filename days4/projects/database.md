@@ -10,6 +10,8 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
 == Unresolved issues ==
   1. Should a generic SAGE Database object try to reproduce much advanced sqlite-fu? This came up during the first-run at coding such a class. If a generic SAGE Database were written to handle only more basic functions (such as only searching one table in a database at a time), it would be easier to maintain: its main purpose would be to expose an easy database structure to those not interested in learning the nuances of sqlite.
+     * Note- this would not be a problem for developers, who could expand their own classes as they please.
+     * This also wouldn't affect the global computation results database, which would be highly tweaked.
   1. lists as entries
      * storing a whole list in one entry in the database: this is feasible via Emily's rawking regexp skills, IF we can find a delimiter guaranteed not to be in pickle strings. It is optimal for speed and memory.
      * storing a list as an array of rows (experience tells us that this is inefficient)
