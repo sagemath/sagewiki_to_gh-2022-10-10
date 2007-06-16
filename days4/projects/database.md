@@ -32,7 +32,7 @@ GOAL: SAGE Enhancement Proposal.
      * border case, not likely to happen, but what SHOULD happen
      * issue warning/error
      * create mutable Database instance
-      * because hey, if you want to rm -rf your own hard drive, go for it
+      * "Because hey, if you want to rm -rf your own hard drive, go for it!" (R. Miller)
      * create immutable Database instance
       * public notebook, BAD
       * avoidable with chroot jails?
