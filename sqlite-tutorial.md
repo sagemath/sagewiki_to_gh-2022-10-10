@@ -11,32 +11,33 @@ sage: import sqlite3
 To create a filename for the database
 
 {{{
-conn = sqlite3.connect("/full/path/mydata.db")
+sage: conn = sqlite3.connect("/full/path/mydata.db")
 }}}
 
 This is a blank database at the moment.
 Now create a table with fields labeled/typed as follows:
 
 {{{
-connection.execute("...")
-
+sage: connection.execute("CREATE TABLE cremona_label text primary key, a_0 int, a_1 int, a_2 int, a_3 int, a_4 int, a_5 int, a_6 int,  rank int, regulator float)")
 }}}
 
 This creates a sqlite3.cursor object. Now let's enter an entry into this database
 
 {{{
-E = EllipticCurve("389a")
-connection.execute("...")
+sage: E = EllipticCurve("389a")
+sage: connection.execute("INSERT INTO elliptic_curves(cremona_label,a_0,a_1,a_2,a_3,a_4,a_5,a_6,rank,regulator) VALUES (?,?,?,?,?,?,?,?,?,?)", ("389a",0,E.a1(),E.a2(),E.a3(),E.a4(),0,E.a6(),E.rank(),E.regular()))
 }}}
 This is our new entry in the database mydata!
 
 Suppose you entered something wrong and you want to delete an 
 entry. You use the primary key to delete an entry:
 
+{{{
+sage: connection.execute("DELETE FROM elliptic_curves WHERE cremona_label = ?",("389a",))
 To "query" all the elliptic curves of rank 2, type:
 
 {{{
-result = connection.execute("SELECT * FROM elliptic_curves WHERE rank = 2")
-result.fetchone()
+sage: result = connection.execute("SELECT * FROM elliptic_curves WHERE rank = 2")
+sage: result.fetchone()
 }}
 will return the first one (replacing "fetchone" by "fetchall" will return all).
