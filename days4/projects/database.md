@@ -64,7 +64,14 @@ KeyError: 'Table must be specified'
     * executes the query string first?
    * save
     * {{{ D.save('my.db') }}} should copy the class's database file to my.db.
-    * should this execute queries first? not by default
+    * this should not execute queries at all
+      {{{
+D = Database()
+D.add_a_bunch_of_shit()...
+D.save('bunch of shit')
+D.add_piss_and_vinegar()...
+D.save('shit,piss, and vinegar')
+}}}
    * print
     * should probably just print a string with database name, number of tables...?
    * show
