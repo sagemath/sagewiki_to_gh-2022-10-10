@@ -39,7 +39,11 @@ KeyError: 'Table must be specified'
 }}}
 
    * add data from whatever (e.g. quickly via sql file): magic function to deal with other ways to add data? think about this more later.
-
+   * copy
+    * creates a new db and everything (completely deep copy)
+    * preserves the query string?
+    * executes the query string first?
+    * is it possible to have multiple connections to the same .db file? [http://www.mail-archive.com/sqlite-users@sqlite.org/msg24725.html relevant]
 
 
 
@@ -67,9 +71,6 @@ D.query({'number_of_finches' : 7}, inplace=True) # hypothetical way to query}}}
        *{{{ D = Database() }}} creates a new temp database and opens a connection to it
        *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
      * create, remove and modify tables
-     * copy method
-       * when should this create a new database file?
-       * is it possible to have multiple connections to the same .db file? [http://www.mail-archive.com/sqlite-users@sqlite.org/msg24725.html relevant]
      * print?
        * should probably just print a string with database name, number of tables...?
      * save
