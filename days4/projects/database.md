@@ -9,6 +9,7 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
    * Unified Database class
      * init establishes connection to sqlite
      * create, remove and modify tables
+     * copy method
      
    * Query class
      * has an instance of the database class as a `parent'
