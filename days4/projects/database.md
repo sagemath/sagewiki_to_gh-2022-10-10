@@ -16,13 +16,13 @@ GOAL: SAGE Enhancement Proposal.
     * dict of columns -- keyed by column name, keeps track of indices, primary key state
    * mutable -- boolean
   * functions
-   * create/drop table
-   * create/drop column( column name, table, bool index=False, bool primary key=False )
+   * (mut'ble only) create/drop table
+   * (mut'ble only) create/drop column( column name, table, bool index=False, bool primary key=False )
     * if no table specified, raise an error and educate user about sql
-   * create/drop index( column, table(s) )
-   * create/drop primary key( column, table )
+   * (mut'ble only) create/drop index( column, table(s) )
+   * (mut'ble only) create/drop primary key( column, table )
     * QUESTION: should we allow multiple tables? bounce this off someone who knows (i.e. is it possible to do this with sqlite?)
-   * create/drop row( table, dict )
+   * (mut'ble only) create/drop row( table, dict )
     * create accepts a dictionary keyed by column name
       {{{
 def foo(table=None, **kwds):
@@ -38,7 +38,7 @@ Exception (click to the left for traceback):
 KeyError: 'Table must be specified'
 }}}
 
-   * add data from whatever (e.g. quickly via sql file): magic function to deal with other ways to add data? think about this more later.
+   * (mut'ble only) add data from whatever (e.g. quickly via sql file): magic function to deal with other ways to add data? think about this more later.
    * copy
     * creates a new db and everything (completely deep copy)
     * preserves the query string?
