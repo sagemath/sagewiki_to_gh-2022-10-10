@@ -69,8 +69,9 @@ KeyError: 'Table must be specified'
 D = Database()
 D.add_a_bunch_of_shit()...
 D.save('bunch of shit')
+D.remove_shit()
 D.add_piss_and_vinegar()...
-D.save('shit,piss, and vinegar')
+D.save('piss and vinegar')
 }}}
    * print
     * should probably just print a string with database name, number of tables...?
