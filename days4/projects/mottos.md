@@ -9,3 +9,19 @@ Come up with more mottos for SAGE.
  * SAGE: It's just coercions. (W. Stein)
 
  * SQLite: Making it easy to select shit from shit where shit and foo. (T. Boothby)
+
+ * SAGE: It's so much better than saffron, because 
+{{{
+"If a man do but open and ransack a bag of one hundredweight or two
+hundredweight, as merchants do when they buy it, it will strike such an air
+into their heads which deal withal that for a time they shall be giddy and
+sick (I mean for two or three hours' space), their noses and eyes in like
+sort will yeild such plenty of rheumatic water that they shall be the
+better for it long after, especially their eyesight, which is wonderfully
+clarified by this means; howbeit, some merchants, not liking of this
+physic, muffle themselves as women do when they ride and put on spectacles
+set in leather, which doth in some measure (but not for altogether) put by
+the force thereof."
+
+
+}}}
