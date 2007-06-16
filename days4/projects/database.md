@@ -101,9 +101,6 @@ D.save('piss and vinegar')
 ----------------------------------------------------------------------
 
 
-   * Brainless database creation.
-
-   * Databases distributed with sage: Standard databases included with sage should be immutable
 
    * Online databases
  
