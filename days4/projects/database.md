@@ -89,8 +89,9 @@ D.save('piss and vinegar')
     * for __default__ database class, execute any queries and print the data- this isn't that much of an issue since everything will be int, real, bool or string...
     * notebook will print a nice html table
     * for command line, output returned by sqlite is a pretty good template
-   * query
+   * fn to update query data (see under instance field)
     * inplace option
+    * how to do a join?
    * vacuum
    * clear queries
  * !ImmutableDatabase class
