@@ -7,3 +7,5 @@ Come up with more mottos for SAGE.
  * SAGE: Because Maxima doesn't have somebody like William
 
  * SAGE: It's just coercions. (W. Stein)
+
+ * SQLite: Making it easy to select shit from shit where shit and foo. (T. Boothby)
