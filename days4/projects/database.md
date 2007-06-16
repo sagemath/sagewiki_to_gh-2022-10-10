@@ -44,7 +44,9 @@ KeyError: 'Table must be specified'
     * preserves the query string?
     * executes the query string first?
     * is it possible to have multiple connections to the same .db file? [http://www.mail-archive.com/sqlite-users@sqlite.org/msg24725.html relevant]
-
+   * save
+    * {{{ D.save('my.db') }}} should copy the class's database file to my.db.
+    * should this execute queries first?
 
 
 
@@ -73,9 +75,8 @@ D.query({'number_of_finches' : 7}, inplace=True) # hypothetical way to query}}}
      * create, remove and modify tables
      * print?
        * should probably just print a string with database name, number of tables...?
-     * save
-       * {{{ D.save('my.db') }}} should copy the class's database file to my.db.
-       * should this execute queries first?
+
+       
      * show
        * for extensions to the Database class, this can be anything, e.g. graph database prints nice table
        * for __default__ database class, what would this do? execute any queries and print the data?
