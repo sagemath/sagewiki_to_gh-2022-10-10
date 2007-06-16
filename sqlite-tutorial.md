@@ -18,14 +18,14 @@ This is a blank database at the moment.
 Now create a table with fields labeled/typed as follows:
 
 {{{
-sage: connection.execute("CREATE TABLE cremona_label text primary key, a_0 int, a_1 int, a_2 int, a_3 int, a_4 int, a_5 int, a_6 int,  rank int, regulator float)")
+sage: connection.execute("CREATE TABLE elliptic_curves (cremona_label text primary key, a_1 int, a_2 int, a_3 int, a_4 int, a_6 int, rank int, regulator float)")
 }}}
 
 This creates a sqlite3.cursor object. Now let's enter an entry into this database
 
 {{{
 sage: E = EllipticCurve("389a")
-sage: connection.execute("INSERT INTO elliptic_curves(cremona_label,a_0,a_1,a_2,a_3,a_4,a_5,a_6,rank,regulator) VALUES (?,?,?,?,?,?,?,?,?,?)", ("389a",0,E.a1(),E.a2(),E.a3(),E.a4(),0,E.a6(),E.rank(),E.regular()))
+sage: connection.execute("INSERT INTO elliptic_curves(cremona_label,a_1,a_2,a_3,a_4,a_6,rank,regulator) VALUES (?,?,?,?,?,?,?,?)", ('389a', int(E.a1()), int(E.a2()), int(E.a3()), int(E.a4()), int(E.a6()), int(E.rank()), float(E.regulator())))
 }}}
 
 This is our new entry in the database mydata! (If this fails with a mysterious error then possibly the entries, such as E.a1(), need to be coerced into the correct data type, such as int(E.a1()).)
@@ -35,9 +35,14 @@ This is our new entry in the database mydata! (If this fails with a mysterious e
 To "query" all the elliptic curves of rank 2, type:
 
 {{{
-sage: result = connection.execute("SELECT * FROM elliptic_curves WHERE rank = 2")
-sage: result.fetchone()
-}}}
+sage: result = connection.execute("SELECT * FROM elliptic_curves WHERE rank=1")
+sage: print result.fetchone()
+None
+sage: result = connection.execute("SELECT * FROM elliptic_curves WHERE rank=2")
+sage: print result.fetchone()
+(u'389a', 0, 0, 1, 1, -2, 0, 0, 2, 0.15246017794314401)
+sage: print result.fetchone()
+None}}}
 
 will return the first one (replacing "fetchone" by "fetchall" will return all).
 
