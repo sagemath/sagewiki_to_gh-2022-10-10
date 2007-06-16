@@ -10,8 +10,8 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
      * recursive queries without actually calling sqlite every time: queries kept track of by a string...
      * exactly what should the following do?
        {{{
-       D = Database('something.db')
-       Q = D.query({'number_of_finches' : 7}) # hypothetical way to query}}}
+D = Database('something.db')
+Q = D.query({'number_of_finches' : 7}) # hypothetical way to query}}}
      * init establishes connection to sqlite
        *{{{ D = Database() }}} creates a new temp database and opens a connection to it
        *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
