@@ -35,4 +35,8 @@ entry. You use the primary key to delete an entry:
 
 To "query" all the elliptic curves of rank 2, type:
 
-will return the first one (fetchall will return all).
+{{{
+result = connection.execute("SELECT * FROM elliptic_curves WHERE rank = 2")
+result.fetchone()
+}}
+will return the first one (replacing "fetchone" by "fetchall" will return all).
