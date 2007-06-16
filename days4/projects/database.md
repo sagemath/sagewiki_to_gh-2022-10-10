@@ -8,7 +8,7 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
    * Unified database structure for SAGE.
 
-     * Database class
+     * Database class: init establishes connection to sqlite
 
  * Issues to brainstorm:
 
