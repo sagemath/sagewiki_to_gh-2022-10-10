@@ -12,7 +12,7 @@
 
   * 
 
- *[RB] 
+ *Stay up all night and post cracked out nonsense.
 
  * From the [http://www.serve.com/cmtan/buddhism/Stories/cucumber.html Cucumber Sage]: "The whole universe is pickled cucumber; a pickled cucumber is the whole universe!"
    * "A pickled cucumber is just a pickle..." (E. Kirkman)
