@@ -11,11 +11,7 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
      * create, remove and modify tables
      * copy method
      * print?, save and show?
-     
-   * Query class
-     * has an instance of the database class as a `parent'
-     * has a query string
-     * think about recursive searching without actually calling sqlite every time
+     * recursive queries without actually calling sqlite every time
 
  * Issues to brainstorm:
 
