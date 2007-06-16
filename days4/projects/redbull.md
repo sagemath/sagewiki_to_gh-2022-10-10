@@ -2,7 +2,7 @@
 
 attachment:redbull.jpg
 
-  * Be careful of the Dr. Pepper; there's still juice in that.
+  * Be careful of the Dr. Pepper; there's still juice in that. -- Dr. Pepper juice?
 
   * SAGE: Because hey, if you want to rm -rf your own hard drive, go for it! (R. Miller)
 
