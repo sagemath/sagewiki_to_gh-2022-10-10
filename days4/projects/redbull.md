@@ -2,6 +2,8 @@
 
 attachment:redbull.jpg
 
+  * Be careful of the Dr. Pepper; there's still juice in that.
+
   * SAGE: Because hey, if you want to rm -rf your own hard drive, go for it! (R. Miller)
 
   * From the [http://www.serve.com/cmtan/buddhism/Stories/cucumber.html Cucumber Sage]: "The whole universe is pickled cucumber; a pickled cucumber is the whole universe!"
