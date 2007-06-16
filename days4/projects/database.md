@@ -17,7 +17,7 @@ GOAL: SAGE Enhancement Proposal.
    * mutable -- boolean
   * functions
    * (mut'ble only) create/drop table
-   * (mut'ble only) create/drop column( column name, table, bool index=False, bool primary key=False )
+   * (mut'ble only) create/drop column( column name, col type, table, bool index=False, bool primary key=False )
     * if no table specified, raise an error and educate user about sql
    * (mut'ble only) create/drop index( column, table(s) )
    * (mut'ble only) create/drop primary key( column, table )
@@ -47,19 +47,22 @@ KeyError: 'Table must be specified'
    * save
     * {{{ D.save('my.db') }}} should copy the class's database file to my.db.
     * should this execute queries first?
-
-
-
-
-
-
+   * print
+    * should probably just print a string with database name, number of tables...?
+   * show
+    * for extensions to the Database class, this can be anything, e.g. graph database prints nice table
+    * for __default__ database class, execute any queries and print the data- this isn't that much of an issue since everything will be int, real, bool or string...
+    * notebook will print a nice html table
+    * for command line, output returned by sqlite is a pretty good template
+   * query
+   * init
+   * vacuum
+   * clear queries
 
 
 --------------------------------------------
 
 
-   * unified Database class
-     * recursive queries without actually calling sqlite every time: queries kept track of by a string...
      * exactly what should the following do?
        {{{
 D = Database('something.db')
@@ -73,14 +76,13 @@ D.query({'number_of_finches' : 7}, inplace=True) # hypothetical way to query}}}
        *{{{ D = Database() }}} creates a new temp database and opens a connection to it
        *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
      * create, remove and modify tables
-     * print?
-       * should probably just print a string with database name, number of tables...?
 
        
-     * show
-       * for extensions to the Database class, this can be anything, e.g. graph database prints nice table
-       * for __default__ database class, what would this do? execute any queries and print the data?
+
      * clear_queries
+
+----------------------------------------------------------------------
+
    * Brainless database creation.
 
    * Databases distributed with sage: Standard databases included with sage should be immutable
