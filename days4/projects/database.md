@@ -6,14 +6,13 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
  * GOAL: SAGE Enhancement Proposal.
 
-   * Unified Database class
+   * unified Database class
      * init establishes connection to sqlite
      * create, remove and modify tables
-     * copy method
+     * copy method - when should this create a new database file?
      * print?, save and show?
      * recursive queries without actually calling sqlite every time
-
- * Issues to brainstorm:
+     * query in place, query that creates a new Database object
 
    * Brainless database creation.
 
