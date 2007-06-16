@@ -22,7 +22,7 @@ GOAL: SAGE Enhancement Proposal.
    * create/drop primary key( column, table )
     * QUESTION: should we allow multiple tables? bounce this off someone who knows (i.e. is it possible to do this with sqlite?)
 
-
+--------------------------------------------
 
 
    * unified Database class
