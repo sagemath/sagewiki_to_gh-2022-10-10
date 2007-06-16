@@ -30,18 +30,22 @@ sage: connection.execute("INSERT INTO elliptic_curves(cremona_label,a_0,a_1,a_2,
 
 This is our new entry in the database mydata! (If this fails with a mysterious error then possibly the entries, such as E.a1(), need to be coerced into the correct data type, such as int(E.a1()).)
 
-Suppose you entered something wrong and you want to delete an 
-entry. You use the primary key to delete an entry:
-
-{{{
-sage: connection.execute("DELETE FROM elliptic_curves WHERE cremona_label = ?",("389a",))
-}}}
+=== Queries ===
 
 To "query" all the elliptic curves of rank 2, type:
 
 {{{
 sage: result = connection.execute("SELECT * FROM elliptic_curves WHERE rank = 2")
 sage: result.fetchone()
-}}
+}}}
 
 will return the first one (replacing "fetchone" by "fetchall" will return all).
+
+=== Deleting an entry ===
+
+Suppose you entered something wrong and you want to delete an 
+entry. You use the "primary key" to delete an entry:
+
+{{{
+sage: connection.execute("DELETE FROM elliptic_curves WHERE cremona_label = ?",("389a",))
+}}}
