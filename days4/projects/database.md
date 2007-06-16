@@ -8,7 +8,7 @@ GOAL: SAGE Enhancement Proposal.
 
  * Unresolved issues:
   * require primary key to be the same in each table? else, how to join?
-  * lists as entries?
+  * lists as entries: this is feasible via Emily's rawking regexp skills, IF we can find a delimiter guaranteed not to be in pickle strings (or pickled cucumbers, whichever comes first)
 
 
  * Database class
