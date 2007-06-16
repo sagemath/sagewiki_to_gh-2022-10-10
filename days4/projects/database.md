@@ -40,3 +40,5 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
    * Licensing: $\exists$ DBGPL?
 
    * Noticing identical database entries
+
+   * Standard databases included with sage immutable
