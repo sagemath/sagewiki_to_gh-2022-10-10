@@ -31,20 +31,20 @@ These are the tasks that need to be accomplished, in order of importance.
     * William Stein, Bobby, Tom, Dorian, Timothy -- 3 hours of design; 3 hours implementation.
 
 
- 1. '''Save/Load Worksheets/Plain Mode''' Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories. XML, plain text format, etc.  Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken.
-     * Alex Clemesha, Dorian, Tom, Yi
-
- 1. '''Don't lose work''' If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
-     * Dorian, Tom -- 1 hour
-
- 1. '''Make it look good''' 
-     * Timothy, and everybody -- time.
-
-
 -----------------
 
 
 == If time permits ==
+ * '''Save/Load Worksheets/Plain Mode''' Rewrite saving/loading of worksheets, so it doesn't use pickle.  Instead use the {{{'}}}'s text encoding and the images in directories. XML, plain text format, etc.  Finish implementing the html/edit mode: (1) images shouldn't get deleted on saving, (2) inserting new cells shouldn't be broken.
+     * Alex Clemesha, Dorian, Tom, Yi
+
+ * '''Make it look good''' 
+     * Timothy, and everybody -- time.
+
+
+ * '''Don't lose work''' If anything in a page changes, make it so trying to navigate away from the page requires confirmation (like in gmail)
+     * Dorian, Tom -- 1 hour
+
 
  * User should be able to create their own css, which is partof their profile.
 
