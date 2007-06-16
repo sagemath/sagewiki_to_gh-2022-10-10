@@ -6,8 +6,9 @@ Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
 
 Cayley Graph of $A_5$
 == BEFORE ==
-
+:attachment:before.png
 == AFTER ==
+:attachment:after.png
 
  * (done) Latex Graphs: Craig Citro & Robert Miller -- write an eps file to be included in LaTeX documents.
 
