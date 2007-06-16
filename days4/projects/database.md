@@ -12,7 +12,8 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
        *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
      * create, remove and modify tables
      * copy method
-       - when should this create a new database file?
+       * when should this create a new database file?
+       * is it possible to have multiple connections to the same .db file?
      * print?, save and show?
      * recursive queries without actually calling sqlite every time
      * query in place, query that creates a new Database object
