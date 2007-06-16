@@ -45,6 +45,8 @@ These are the tasks that need to be accomplished, in order of importance.
 
 == If time permits ==
 
+ * User should be able to create their own css, which is partof their profile.
+
  * '''Internet Explorer 7''' support
    * http://www.webdeveloper.com/forum/archive/index.php/t-102141.html
 
