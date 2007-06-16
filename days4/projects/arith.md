@@ -100,6 +100,39 @@ The reason to specify the op is so that actions can be detected and handled effi
     * + and - have the most "traditional" coercion.  This coercion could be used a bunch of other places (e.g. quo_rem) 
 
 
+''' Prototype'''
+
+__mul__(left, right):
+    if have_same_parent(left, right):
+        return left._mul_c(right)
+    action = multiplicative_actions(parent_c(left), parent_c(right))
+    if not action is None:
+        return action(left, right)
+    else:
+        left, right = canonical_coercion_c(left, right)
+        return _mul_c(left, right)
+
+
+cdef canonical_coercion_c(x, y):
+    # All the non-element stuff as before
+    homs = canonical_coercion_hash[xp, yp]
+    if not homs is None:
+        if not homs[0] is None:
+            x = homs[0](x)
+        if not homs[1] is None:
+            y = homs[1](y)
+        return x, y
+     # Discover pushouts according to "zipper" method. 
+
+
+cdef inline _mul_c(self, RingElement right):
+    if HAS_DICTIONARY(self):   # fast check
+        return self._mul_(right)
+    else:
+        return self._mul_c_impl(right)
+
+
+''What about weakrefs?''
 
 '''Other'''
 
