@@ -10,7 +10,7 @@ Come up with more mottos for SAGE.
 
  * SQLite: Making it easy to select shit from shit where shit and foo. (T. Boothby)
 
- * SAGE: It's so much better than saffron, [http://www.florilegium.org/files/PLANTS/saffron-msg.html because]
+ * SAGE: Way better than saffron, [http://www.florilegium.org/files/PLANTS/saffron-msg.html since]
 {{{
 "If a man do but open and ransack a bag of one hundredweight or two
 hundredweight, as merchants do when they buy it, it will strike such an air
