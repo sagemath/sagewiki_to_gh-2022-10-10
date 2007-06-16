@@ -12,7 +12,8 @@ GOAL: SAGE Enhancement Proposal.
    * connection -- a pysqlite connection to 'filename'
    * query string -- this would be a string representing the 'query state' of the database object.
     * allows for recursive searching quickly, since we can simply modify the string, and wait until we have to execute the query
-   * list of tables -- strings
+   * dict of tables -- keyed by table name, entries are
+    * dict of columns -- keyed by column name, keeps track of indices, primary key state
    * mutable -- boolean
   * functions
    * create/drop table
