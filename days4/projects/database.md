@@ -2,7 +2,7 @@
 
 [:days4/projects/: Other SAGE Days 4 Projects]
 
-Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
+Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
  * GOAL: SAGE Enhancement Proposal.
 
