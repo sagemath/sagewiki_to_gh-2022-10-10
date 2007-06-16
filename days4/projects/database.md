@@ -8,10 +8,9 @@ SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface]
 
 Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
-GOAL: SAGE Enhancement Proposal.
+SAGE Enhancement Proposal:
 
  * Unresolved issues:
-  * require primary key to be the same in each table? else, how to join?
   * lists as entries: this is feasible via Emily's rawking regexp skills, IF we can find a delimiter guaranteed not to be in pickle strings
   * Licensing: $\exists$ DBGPL?
   * Noticing identical database entries
@@ -93,6 +92,9 @@ D.save('crap.db')
     * notebook will print a nice html table
     * for command line, output returned by sqlite is a pretty good template
    * fn to update query data (see under instance field)
+    * first is table or tables
+    * second argument is a "where clause", such as 'vertices = 5', or '(vertices=5 and edges=8) or not (vertices < 9)'
+    * require primary key to be the same in each table? else, how to join?
     * inplace option
     * how to do a join?
    * vacuum
