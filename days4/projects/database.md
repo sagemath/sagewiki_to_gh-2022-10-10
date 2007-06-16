@@ -8,6 +8,10 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
    * Unified database structure for SAGE.
 
+     * Database class.
+
+     * __init__
+
  * Issues to brainstorm:
 
    * SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite
