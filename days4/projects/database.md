@@ -6,6 +6,11 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
 GOAL: SAGE Enhancement Proposal.
 
+ * Unresolved issues:
+  * require primary key to be the same in each table? else, how to join?
+  * lists as entries?
+
+
  * Database class
   * instance field
    * filename -- the database itself
