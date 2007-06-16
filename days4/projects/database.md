@@ -10,8 +10,11 @@ GOAL: SAGE Enhancement Proposal.
   * instance field
    * filename -- the database itself
    * connection -- a pysqlite connection to 'filename'
-   * query string -- this would be a string representing the 'query state' of the database object.
+   * query -- this would be the following two objects:
+    * a string representing the 'where clause' of the database object.
+    * a dict representing what data to return, {{{ {'table1':['col1', 'col2'], 'table2':['col9'] } }}}
     * allows for recursive searching quickly, since we can simply modify the string, and wait until we have to execute the query
+    * recursive searching is strictly an 'intersection'-- both of data returned (design decision) and of where clauses (definition of recursive search)
    * dict of tables -- keyed by table name, entries are
     * dict of columns -- keyed by column name, keeps track of indices, primary key state
    * mutable -- boolean
