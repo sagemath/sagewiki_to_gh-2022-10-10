@@ -18,7 +18,7 @@ This is a blank database at the moment.
 Now create a table with fields labeled/typed as follows:
 
 {{{
-connection.execute
+connection.execute("...")
 
 }}}
 
