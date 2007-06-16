@@ -18,8 +18,6 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
    * Brainless database creation.
 
-   * 
-
    * Databases distributed with sage: Standard databases included with sage should be immutable
 
    * Online databases
