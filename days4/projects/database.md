@@ -9,7 +9,8 @@ GOAL: SAGE Enhancement Proposal.
  * Unresolved issues:
   * require primary key to be the same in each table? else, how to join?
   * lists as entries: this is feasible via Emily's rawking regexp skills, IF we can find a delimiter guaranteed not to be in pickle strings (or pickled cucumbers, whichever comes first)
-
+  * Licensing: $\exists$ DBGPL?
+  * Noticing identical database entries
 
  * Database class
   * instance field
@@ -37,7 +38,6 @@ GOAL: SAGE Enhancement Proposal.
       * avoidable with chroot jails?
       * is this even an issue?
       * can't someone mess with this via other methods?
-   
    * (mut'ble only) create/drop table
    * (mut'ble only) create/drop column( column name, col type, table, bool index=False, bool primary key=False )
     * if no table specified, raise an error and educate user about sql
@@ -98,30 +98,17 @@ D.save('crap.db')
   * cheekiness - have database class extend immutable database! although a database won't technically be an immutable database to a person, it is a good way to do this, since we can add on the property 'mutable', as well as all the modification functions
 
  * Automated Caching
-
   * idea - when you do an expensive calculation on an object, the result is automatically stored in a global database.
-
   * different classes of objects would have different tables, defined by their classes.
-
   * any object would be required to be set immutable. when it is set to mutable again, the entry in the database corresponding to the object would be dropped.
-
   * export these tables as portable mergeable files (*), along with a pickle of each object, if desired.
 
  * Online databases
- 
   * (*) host these same portable mergable files online, in a killer 2.0 web app that serves the data
-
   * modeled on the notebook server, there could be a database server... Tom?... Can you hear me?... Apparently there's a SQLite server for Windoze called SQLite_on_sockets. That should be useful...
-
   * these databases could also serve sobj's, and depending on how ambitious people are, it could seamlessly interface with the notebook...
 
  * eat a donut, drink some tea
-----------------------------------------------------------------------
 
-
-
-   * Licensing: $\exists$ DBGPL?
-
-   * Noticing identical database entries
 
    * SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite [:sqlite-tutorial: creating your own database using sqlite in sage]
