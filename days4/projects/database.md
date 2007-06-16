@@ -65,6 +65,7 @@ KeyError: 'Table must be specified'
    * save
     * {{{ D.save('my.db') }}} should copy the class's database file to my.db.
     * this should not execute queries at all
+    * option to close connection with old file and connect to new file, but default behavior shouldn't do this. motivation:
       {{{
 D = Database()
 D.add_a_bunch_of_shit()...
