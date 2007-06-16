@@ -11,7 +11,8 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
        *{{{ D = Database() }}} creates a new temp database and opens a connection to it
        *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
      * create, remove and modify tables
-     * copy method - when should this create a new database file?
+     * copy method
+       - when should this create a new database file?
      * print?, save and show?
      * recursive queries without actually calling sqlite every time
      * query in place, query that creates a new Database object
