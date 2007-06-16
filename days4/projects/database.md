@@ -78,8 +78,8 @@ D = Database()
 D.add( something great! ) # If save automatically connects
 D.save('im_rich.db')      # to saved file, results could
 D.remove( the great )     # easily be lost.
-D.add( piss and vinegar )
-D.save('piss_and_vinegar.db')
+D.add( useless )
+D.save('crap.db')
 }}}
    * print
     * should probably just print a string with database name, number of tables...?
@@ -94,8 +94,8 @@ D.save('piss_and_vinegar.db')
    * vacuum
    * clear queries
  * !ImmutableDatabase class
-  * idea - a different class for databases that are included with sage, to avoid issues relating to stupid people accidentally fucking up an important database in a public setting (if possible)
-  * god damn cheeky -- have database class extend immutable database! although a database won't technically be an immutable database to a person, it is a good way to do this, since we can add on the property 'mutable', as well as all the modification functions
+  * idea - a different class for databases that are included with sage, to avoid issues relating to stupid people accidentally fuc@ing up an important database in a public setting (if possible)
+  * why the idea is cheeky -- have database class extend immutable database! although a database won't technically be an immutable database to a person, it is a good way to do this, since we can add on the property 'mutable', as well as all the modification functions
 
 ----------------------------------------------------------------------
 
