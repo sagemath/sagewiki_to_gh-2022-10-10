@@ -1,4 +1,4 @@
-Emily Kirkman is working on this project.  [http://sage.math.washington.edu:9001/graph Back to main wiki.]
+Emily Kirkman is working on this project. Robert Miller did a lot of work on it too.  [http://sage.math.washington.edu:9001/graph Back to main wiki.]
 
 The goal of the Graph Generators Class is to implement constructors for many common graphs, as well as thorough docstrings that can be used for reference.  The graph generators will grow as the Graph Theory Project does.  So please check back for additions and feel free to leave requests in the suggestions section.
 
