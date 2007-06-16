@@ -6,11 +6,14 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
  * GOAL: SAGE Enhancement Proposal.
 
-   * Unified database structure for SAGE.
-
-     * Database class: init establishes connection to sqlite
+   * Unified Database class
+     * init establishes connection to sqlite
+   * Query class
+     * has an instance of the database class as a parent
 
  * Issues to brainstorm:
+
+   * Brainless database creation.
 
    * SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite [:sqlite-tutorial: creating your own database using sqlite in sage]
 
