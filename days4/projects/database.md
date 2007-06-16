@@ -15,6 +15,7 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
        * when should this create a new database file?
        * is it possible to have multiple connections to the same .db file? [http://www.mail-archive.com/sqlite-users@sqlite.org/msg24725.html relevant]
      * print?
+       * should probably just print a string with database name, number of tables...?
      * save
        * {{{ D.save('my.db') }}} should copy the class's database file to my.db.
        * should this execute queries first?
