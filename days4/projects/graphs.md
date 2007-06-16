@@ -3,8 +3,12 @@
 [:days4/projects/: Other SAGE Days 4 Project]
 
 Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
-
-Cayley Graph of $A_5$
+{{{
+# Cayley Graph of $A_5$
+sage: G = sage.groups.perm_gps.permgroup.AlternatingGroup(5)
+sage: C = G.cayley_graph()
+sage: C.show3d(vertex_size=0.01, arc_size=0.005, arc_size2=0.008, xres=1000, yres=800)
+}}}
 == BEFORE ==
 :attachment:before.png
 == AFTER ==
