@@ -18,7 +18,9 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
    * Brainless database creation.
 
-   * Databases distributed with sage
+   * 
+
+   * Databases distributed with sage: Standard databases included with sage should be immutable
 
    * Online databases
  
@@ -36,5 +38,4 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
    * Noticing identical database entries
 
-   * Standard databases included with sage should be immutable
    * SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite [:sqlite-tutorial: creating your own database using sqlite in sage]
