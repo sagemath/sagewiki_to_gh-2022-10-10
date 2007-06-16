@@ -19,3 +19,5 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
  * SQLite interface
 
  * Automagic caching of computation results, keeping those results in portable objects, making these objects merge-able, etc...
+
+ * DBGPL?
