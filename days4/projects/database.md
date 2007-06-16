@@ -15,6 +15,9 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
   1. lists as entries
      * storing a whole list in one entry in the database: this is feasible via Emily's rawking regexp skills, IF we can find a delimiter guaranteed not to be in pickle strings. It is optimal for speed and memory.
      * storing a list as an array of rows (experience tells us that this is inefficient)
+  1. Whether it is worth it to have separate query objects on the same database (I can think of two advantages)
+     * ability to do query arithmetic, perhaps in set theoretic language
+     * ability to have different queries to check on an expanding database, for updates of certain subsets of information...
   1. Licensing: $\exists$ DBGPL?
   1. Noticing identical database entries
 
