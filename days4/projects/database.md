@@ -4,7 +4,7 @@
 
 Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
- * GOAL: SAGE Enhancement Proposal.
+GOAL: SAGE Enhancement Proposal.
 
    * unified Database class
      * recursive queries without actually calling sqlite every time: queries kept track of by a string...
