@@ -55,31 +55,12 @@ KeyError: 'Table must be specified'
     * notebook will print a nice html table
     * for command line, output returned by sqlite is a pretty good template
    * query
+    * inplace option
    * init
+    *{{{ D = Database() }}} creates a new temp database and opens a connection to it
+    *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
    * vacuum
    * clear queries
-
-
---------------------------------------------
-
-
-     * exactly what should the following do?
-       {{{
-D = Database('something.db')
-Q = D.query({'number_of_finches' : 7}, inplace=False) # hypothetical way to query}}}
-       * proposal: it should create a new Database object, with a separate connection to the same database, and add "number_of_finches = 7" to the query string
-       {{{
-D = Database('something.db')
-D.query({'number_of_finches' : 7}, inplace=True) # hypothetical way to query}}}
-       * proposal: it should add "number_of_finches = 7" to the query string
-     * init establishes connection to sqlite
-       *{{{ D = Database() }}} creates a new temp database and opens a connection to it
-       *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
-     * create, remove and modify tables
-
-       
-
-     * clear_queries
 
 ----------------------------------------------------------------------
 
