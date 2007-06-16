@@ -12,7 +12,7 @@ Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Cle
 These are the tasks that need to be accomplished, in order of importance.
 
 
- 1. (in progress) '''Secure Separate User Process''' Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.
+ 1. (in progress) '''Secure Separate User Process''' Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.  [:days4/projects/sepuser: More about this]
     * William Stein, Bobby, Tom, Dorian, Timothy -- 3 hours of design; 3 hours implementation.
 
  1. (in progress) '''A User Model''' Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.   (I.e., we need either an account and ownership model or a wiki model for the notebook.  Email/registration.  An account model makes the most sense). [:days4/projects/account: This page has more about the account model.]
