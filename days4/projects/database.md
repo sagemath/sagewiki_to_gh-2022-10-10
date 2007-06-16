@@ -37,9 +37,16 @@ Exception (click to the left for traceback):
 KeyError: 'Table must be specified'
 }}}
 
-   * 9
-----
-   * 8
+   * add data from whatever (e.g. quickly via sql file): magic function to deal with other ways to add data? think about this more later.
+
+
+
+
+
+
+
+
+
 
 --------------------------------------------
 
