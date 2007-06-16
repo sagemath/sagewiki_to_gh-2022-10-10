@@ -105,19 +105,20 @@ D.save('crap.db')
 
   * any object would be required to be set immutable. when it is set to mutable again, the entry in the database corresponding to the object would be dropped.
 
-  * export these tables as portable mergeable files, along with a pickle of each object.
+  * export these tables as portable mergeable files (*), along with a pickle of each object, if desired.
 
+ * Online databases
+ 
+  * (*) host these same portable mergable files online, in a killer 2.0 web app that serves the data
+
+  * modeled on the notebook server, there could be a database server... Tom?... Can you hear me?... Apparently there's a SQLite server for Windoze called SQLite_on_sockets. That should be useful...
+
+  * these databases could also serve sobj's, and depending on how ambitious people are, it could seamlessly interface with the notebook...
+
+ * eat a donut, drink some tea
 ----------------------------------------------------------------------
 
 
-
-   * Online databases
- 
-     * cgi web-accessible...
-
-     * accessible from SAGE, perhaps hosted at sage.math...
-
-     * SQLite servers?
 
    * Licensing: $\exists$ DBGPL?
 
