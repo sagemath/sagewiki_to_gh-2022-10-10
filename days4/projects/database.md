@@ -8,9 +8,7 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
    * Unified database structure for SAGE.
 
-     * Database class.
-
-     * __init__
+     * Database class
 
  * Issues to brainstorm:
 
