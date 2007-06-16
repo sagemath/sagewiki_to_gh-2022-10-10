@@ -104,11 +104,17 @@ The reason to specify the op is so that actions can be detected and handled effi
 
 __mul__(left, right):
     if have_same_parent(left, right):
+
         return left._mul_c(right)
+
     action = multiplicative_actions(parent_c(left), parent_c(right))
+
     if not action is None:
+
         return action(left, right)
+
     else:
+
         left, right = canonical_coercion_c(left, right)
 
         return _mul_c(left, right)
