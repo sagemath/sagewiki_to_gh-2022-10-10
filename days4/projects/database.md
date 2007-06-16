@@ -32,7 +32,7 @@ D.query({'number_of_finches' : 7}, inplace=True) # hypothetical way to query}}}
      * show
        * for extensions to the Database class, this can be anything, e.g. graph database prints nice table
        * for __default__ database class, what would this do? execute any queries and print the data?
-
+     * clear_queries
    * Brainless database creation.
 
    * Databases distributed with sage: Standard databases included with sage should be immutable
