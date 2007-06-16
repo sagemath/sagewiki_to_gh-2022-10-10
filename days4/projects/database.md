@@ -21,7 +21,7 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
        * should this execute queries first?
      * show
        * for extensions to the Database class, this can be anything, e.g. graph database prints nice table
-       * for _default_ database class, what would this do? execute any queries and print the data?
+       * for __default__ database class, what would this do? execute any queries and print the data?
      * recursive queries without actually calling sqlite every time
      * query in place, query that creates a new Database object
 
