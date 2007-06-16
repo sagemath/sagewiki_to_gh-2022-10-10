@@ -4,7 +4,9 @@
 
 Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
- * GOAL: Create a well thought-out SAGE Enhancement Proposal, and start coding to implement it.
+ * GOAL: SAGE Enhancement Proposal.
+
+   * Unified database structure for SAGE.
 
  * Issues to brainstorm:
 
