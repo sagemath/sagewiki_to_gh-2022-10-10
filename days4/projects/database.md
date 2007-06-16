@@ -16,6 +16,21 @@ GOAL: SAGE Enhancement Proposal.
     * dict of columns -- keyed by column name, keeps track of indices, primary key state
    * mutable -- boolean
   * functions
+   * init
+    * {{{A = Database()}}} creates a new (obviously mutable) temp database and opens a connection to it
+    * {{{B = Database()}}} creates a new (different) temp database and opens a connection to it
+    * {{{C = Database('existing.db')}}} opens a connection to 'existing.db'
+    * {{{X = Database('special.db')}}} where 'special.db' is one of the databases included in sage, which will usually be treated as immutable
+     * border case, not likely to happen, but what SHOULD happen
+     * issue warning/error
+     * create mutable Database instance
+      * because hey, if you want to rm -rf your own hard drive, go for it
+     * create immutable Database instance
+      * public notebook, BAD
+      * avoidable with chroot jails?
+      * is this even an issue?
+      * can't someone mess with this via other methods?
+   
    * (mut'ble only) create/drop table
    * (mut'ble only) create/drop column( column name, col type, table, bool index=False, bool primary key=False )
     * if no table specified, raise an error and educate user about sql
@@ -39,6 +54,7 @@ KeyError: 'Table must be specified'
 }}}
 
    * (mut'ble only) add data from whatever (e.g. quickly via sql file): magic function to deal with other ways to add data? think about this more later.
+   * set_mutable
    * copy
     * creates a new db and everything (completely deep copy)
     * preserves the query string?
@@ -56,13 +72,14 @@ KeyError: 'Table must be specified'
     * for command line, output returned by sqlite is a pretty good template
    * query
     * inplace option
-   * init
-    *{{{ D = Database() }}} creates a new temp database and opens a connection to it
-    *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
    * vacuum
    * clear queries
+ * ImmutableDatabase class
+  * idea - a different class for databases that are included with sage, to avoid issues relating to stupid people accidentally fucking up an important database in a public setting
+  * god damn cheeky -- have database class extend immutable database! although a database won't technically be an immutable database to a person, it is a good way to do this, since we can add on the property 'mutable', as well as all the modification functions
 
 ----------------------------------------------------------------------
+
 
    * Brainless database creation.
 
