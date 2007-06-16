@@ -1,4 +1,4 @@
- * Come up with more mottos for SAGE.
+ == Come up with more mottos for SAGE. ==
 
 
   * SAGE: Cooking the meal, not growing the herb.  (W. Stein)
@@ -13,7 +13,7 @@
 
 
 ----
- * Stay up all night and post cracked out nonsense.
+ == Stay up all night and post cracked out nonsense. ==
 
 
   * SAGE: Because hey, if you want to rm -rf your own hard drive, go for it! (R. Miller)
