@@ -9,7 +9,7 @@ GOAL: SAGE Enhancement Proposal.
  * Database class
   * instance field
    * filename -- the database itself
-   * connection -- a sqlite connection to 'filename'
+   * connection -- a pysqlite connection to 'filename'
    * query string -- this would be a string representing the 'query state' of the database object.
     * allows for recursive searching quickly, since we can simply modify the string, and wait until we have to execute the query
    * list of tables -- strings
