@@ -23,7 +23,7 @@ GOAL: SAGE Enhancement Proposal.
     * QUESTION: should we allow multiple tables? bounce this off someone who knows (i.e. is it possible to do this with sqlite?)
 
    * 9
----
+----
 
 --------------------------------------------
 
