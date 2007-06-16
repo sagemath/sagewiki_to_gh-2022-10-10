@@ -110,6 +110,7 @@ __mul__(left, right):
         return action(left, right)
     else:
         left, right = canonical_coercion_c(left, right)
+
         return _mul_c(left, right)
 
 
