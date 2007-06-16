@@ -4,6 +4,11 @@
 
 Participants:  Emily Kirkman, Robert Miller, Craig Citro and David Roe
 
+Cayley Graph of $A_5$
+== BEFORE ==
+
+== AFTER ==
+
  * (done) Latex Graphs: Craig Citro & Robert Miller -- write an eps file to be included in LaTeX documents.
 
  * (done) NetworkX 1: Expose these in SAGE: centrality, cliques, cluster, cores, search.
