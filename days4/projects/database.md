@@ -76,11 +76,11 @@ KeyError: 'Table must be specified'
     * option to close connection with old file and connect to new file, but default behavior shouldn't do this. motivation:
       {{{
 D = Database()
-D.add_a_bunch_of_shit()...
-D.save('bunch of shit')
+D.add_stupid_fucking_shit()...
+D.save('really big file')
 D.remove_shit()
-D.add_piss_and_vinegar()...
-D.save('piss and vinegar')
+D.add_useful_data()...
+D.save('even bigger file')
 }}}
    * print
     * should probably just print a string with database name, number of tables...?
