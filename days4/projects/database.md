@@ -7,6 +7,8 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
  * GOAL: SAGE Enhancement Proposal.
 
    * unified Database class
+     * recursive queries without actually calling sqlite every time
+     * query in place, query that creates a new Database object
      * init establishes connection to sqlite
        *{{{ D = Database() }}} creates a new temp database and opens a connection to it
        *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
@@ -22,8 +24,6 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
      * show
        * for extensions to the Database class, this can be anything, e.g. graph database prints nice table
        * for __default__ database class, what would this do? execute any queries and print the data?
-     * recursive queries without actually calling sqlite every time
-     * query in place, query that creates a new Database object
 
    * Brainless database creation.
 
