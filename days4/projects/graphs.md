@@ -21,9 +21,9 @@ attachment:after.png
 
  * [http://sage.math.washington.edu/home/rlmill/wshlst.pdf Wishlist] from Chris Godsil. Most feasible first.
 
-    * (done) graph isomorphism and automorphism, graph6 and sparse6 formatting, database of small graphs, eigenvalues and eigenspaces, characteristic and minimal polynomials
+    * (done) graph isomorphism and automorphism, graph6 and sparse6 formatting, database of small graphs, eigenvalues and eigenspaces, characteristic and minimal polynomials, cayley graphs
 
-    * (easy) cayley graphs, edge colorings, bipartite graphs, point graph, line graph, graph from set and binary function, vertices as vector subspaces, generating trees
+    * (easy) edge colorings, bipartite graphs, point graph, line graph, graph from set and binary function, vertices as vector subspaces, generating trees
 
     * (medium) certain types of curves for plotting edges, generator based on geng
 
