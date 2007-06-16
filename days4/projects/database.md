@@ -41,4 +41,4 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
    * Noticing identical database entries
 
-   * Standard databases included with sage immutable
+   * Standard databases included with sage should be immutable
