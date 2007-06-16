@@ -1,6 +1,6 @@
  *Come up with more mottos for SAGE.
 
-
+  .
   * SAGE: Cooking the meal, not growing the herb.  (W. Stein)
 
   * SAGE: It's more addictive than Wikipedia. (D. Harvey)
@@ -15,7 +15,7 @@
 ----
  *Stay up all night and post cracked out nonsense.
 
-
+  .
   * SAGE: Because hey, if you want to rm -rf your own hard drive, go for it! (R. Miller)
 
   * From the [http://www.serve.com/cmtan/buddhism/Stories/cucumber.html Cucumber Sage]: "The whole universe is pickled cucumber; a pickled cucumber is the whole universe!"
