@@ -2,6 +2,10 @@
 
 [:days4/projects/: Other SAGE Days 4 Projects]
 
+
+SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite [:sqlite-tutorial: creating your own database using sqlite in sage]
+
+
 Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
 GOAL: SAGE Enhancement Proposal.
@@ -109,6 +113,3 @@ D.save('crap.db')
   * these databases could also serve sobj's, and depending on how ambitious people are, it could seamlessly interface with the notebook...
 
  * eat a donut, drink some tea
-
-
-   * SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite [:sqlite-tutorial: creating your own database using sqlite in sage]
