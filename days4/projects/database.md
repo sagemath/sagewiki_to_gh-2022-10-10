@@ -99,7 +99,7 @@ D.save('crap.db')
    * clear queries
  * !ImmutableDatabase class
   * idea - a different class for databases that are included with sage, to avoid issues relating to stupid people accidentally fucking up an important database in a public setting (if possible)
-  * cheekiness - have database class extend immutable database! although a database won't technically be an immutable database to a person, it is a good way to do this, since we can add on the property 'mutable', as well as all the modification functions
+  * cheekiness - have Database class extend !ImmutableDatabase! although a Database won't technically be immutable, it is a good way to do this, since we can add on all the modification functions
 
  * Automated Caching
   * idea - when you do an expensive calculation on an object, the result is automatically stored in a global database.
