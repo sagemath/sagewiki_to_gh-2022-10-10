@@ -11,9 +11,8 @@ Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Cle
 
 These are the tasks that need to be accomplished, in order of importance.
 
- 1. (mostly done) '''Twisted Web2''' Convert the web server so that it uses twisted's web2 server 
+ 1. (done) '''Twisted Web2''' Convert the web server so that it uses twisted's web2 server 
      William -- what remains:
-          * simple login screen
           * (done) Interactive help browser really being interactive.
           * (done) Upload and download of worksheets
 
