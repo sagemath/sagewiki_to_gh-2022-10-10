@@ -3,7 +3,7 @@
 [:days4/projects/: Other SAGE Days 4 Projects]
 
 
-SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite [:sqlite-tutorial: creating your own database using sqlite in sage]
+SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite: [:sqlite-tutorial: creating your own database using sqlite in sage]
 
 
 Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
