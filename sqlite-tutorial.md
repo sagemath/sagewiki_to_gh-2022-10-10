@@ -10,14 +10,25 @@ sage: import sqlite3
 
 To create a filename for the database
 
-This is a blank database at the moment
+{{{
+conn = sqlite3.connect("/full/path/mydata.db")
+}}}
 
+This is a blank database at the moment.
 Now create a table with fields labeled/typed as follows:
+
+{{{
+connection.execute
+
+}}}
 
 This creates a sqlite3.cursor object. Now let's enter an entry into this database
 
-
-This is our new entry in the database tempdb.
+{{{
+E = EllipticCurve("389a")
+connection.execute("...")
+}}}
+This is our new entry in the database mydata!
 
 Suppose you entered something wrong and you want to delete an 
 entry. You use the primary key to delete an entry:
