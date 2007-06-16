@@ -4,6 +4,9 @@ How to create a simple database in sqlite using SAGE.
 
 In SAGE, type
 
+{{{
+sage: import sqlite3
+}}}
 
 To create a filename for the database
 
