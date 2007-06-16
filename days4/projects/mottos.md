@@ -1,24 +1,3 @@
----- /!\ '''Edit conflict - other version:''' ----
- *Come up with more mottos for SAGE.
-
-  * SAGE: Cooking the meal, not growing the herb.  (W. Stein)
-
-  * SAGE: It's more addictive than Wikipedia. (D. Harvey)
-
-  * SAGE: Because Maxima doesn't have somebody like William
-
-  * SAGE: It's just coercions. (W. Stein)
-
-  * SQLite: Making it easy to select shit from shit where shit and foo. (T. Boothby)
-
-  * 
-
- *[RooBar] 
-
- * From the [http://www.serve.com/cmtan/buddhism/Stories/cucumber.html Cucumber Sage]: "The whole universe is pickled cucumber; a pickled cucumber is the whole universe!"
-   * "A pickled cucumber is just a pickle..." (E. Kirkman)
-
----- /!\ '''Edit conflict - your version:''' ----
  *Come up with more mottos for SAGE.
 
   * SAGE: Cooking the meal, not growing the herb.  (W. Stein)
@@ -38,7 +17,6 @@
  * From the [http://www.serve.com/cmtan/buddhism/Stories/cucumber.html Cucumber Sage]: "The whole universe is pickled cucumber; a pickled cucumber is the whole universe!"
    * "A pickled cucumber is just a pickle..." (E. Kirkman)
 
----- /!\ '''End of edit conflict''' ----
 
  * SAGE: Way better than saffron, [http://www.florilegium.org/files/PLANTS/saffron-msg.html since]
 {{{
@@ -53,9 +31,3 @@ physic, muffle themselves as women do when they ride and put on spectacles
 set in leather, which doth in some measure (but not for altogether) put by
 the force thereof."
 }}}
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
