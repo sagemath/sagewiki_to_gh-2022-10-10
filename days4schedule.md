@@ -9,6 +9,7 @@ William Stein's cell phone is 206-290-6427.
  * Randy Leveque (UW Applied Math)
  * Jim Morrow (UW Math)
  * Paul Beame (UW Computer Science)
+ * Carl Witty ([http://www.newtonlabs.com/ Newton Labs])
 
 = Daily schedule =
 
@@ -72,7 +73,7 @@ Unless otherwise stated, everything 7am - 10pm will take place in MEB 238.  Late
 
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at Ichiro Japanese Restaurant (4124 University Way NE)
- * 1:30 - 2:30  Carl Witty (Newton Research Labs): '''Fast real root isolation''' (tentative)
+ * 1:30 - 2:30  Carl Witty (Newton Research Labs): '''Fast real root isolation'''
  * 3:00 - 4:00  Paul Beame (UW Computer Science): '''Proof complexity involving semi-algebraic sets and lift and project problems for linear and semi-definite programming.'''
  * 4:30 - 5:00 strategy session
  * 5:00 - 7:00 coding sprints
