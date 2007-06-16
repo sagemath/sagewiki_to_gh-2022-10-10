@@ -1,6 +1,6 @@
 == Stay up all night and post cracked out nonsense. ==
 
-  * References: attachment:redbull.jpg
+attachment:redbull.jpg
 
   * SAGE: Because hey, if you want to rm -rf your own hard drive, go for it! (R. Miller)
 
