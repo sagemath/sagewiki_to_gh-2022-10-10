@@ -12,7 +12,7 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
  * Issues to brainstorm:
 
-   * SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite
+   * SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite [:sqlite-tutorial: creating your own database using sqlite in sage]
 
    * Uniform database approach within sage
 
