@@ -11,24 +11,26 @@ Participants: William Stein, Tom Boothby, Robert Miller, Dorian Raymer, Alex Cle
 
 These are the tasks that need to be accomplished, in order of importance.
 
- 1. (done) '''Twisted Web2''' Convert the web server so that it uses twisted's web2 server 
-     William -- what remains:
-          * (done) Interactive help browser really being interactive.
-          * (done) Upload and download of worksheets
+
+ 1. (in progress) '''Secure Separate User Process''' Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.
+    * William Stein, Bobby, Tom, Dorian, Timothy -- 3 hours of design; 3 hours implementation.
 
  1. (in progress) '''A User Model''' Make it so each user of the notebook has an account on the notebook, and can only see worksheets that are explicitly shared by other users.   (I.e., we need either an account and ownership model or a wiki model for the notebook.  Email/registration.  An account model makes the most sense). [:days4/projects/account: This page has more about the account model.]
     * Yi, Alex, Tom, Dorian, Bobby -- 3 hours for something working and shared among us. 
     * Implementing the user model on top -- 6 hours.
     * William -- Please refactor out some of twist.py 
    
+
+ 1. (done) '''Twisted Web2''' Convert the web server so that it uses twisted's web2 server 
+     William -- what remains:
+          * (done) Interactive help browser really being interactive.
+          * (done) Upload and download of worksheets
+
  1. (done) '''SSL Encrypted''' Make it so that the server use GNUTLS to *secure* all communications and logins  (current: openssl)
     * (done) Yi -- 1 hour: subclass something and replace listen ssl with gnutls. 
     * (done) Need to make it so dsage uses gnutls to generate certificates. 
     * (done) Url--goes to http instead of https.
 
-
- 1. '''Secure Separate User Process''' Create an option so that processes that run the actual worksheets can be started as a different user.  This will be slower, but could be vastly more secure.
-    * William Stein, Bobby, Tom, Dorian, Timothy -- 3 hours of design; 3 hours implementation.
 
 
 -----------------
