@@ -97,6 +97,16 @@ D.save('crap.db')
   * idea - a different class for databases that are included with sage, to avoid issues relating to stupid people accidentally fucking up an important database in a public setting (if possible)
   * cheekiness - have database class extend immutable database! although a database won't technically be an immutable database to a person, it is a good way to do this, since we can add on the property 'mutable', as well as all the modification functions
 
+ * Automated Caching
+
+  * idea - when you do an expensive calculation on an object, the result is automatically stored in a global database.
+
+  * different classes of objects would have different tables, defined by their classes.
+
+  * any object would be required to be set immutable. when it is set to mutable again, the entry in the database corresponding to the object would be dropped.
+
+  * export these tables as portable mergeable files, along with a pickle of each object.
+
 ----------------------------------------------------------------------
 
 
@@ -108,10 +118,6 @@ D.save('crap.db')
      * accessible from SAGE, perhaps hosted at sage.math...
 
      * SQLite servers?
-
-   * Automagic caching: keep track of computation results
-
-     * keeping those results in portable objects, making these objects merge-able, etc...
 
    * Licensing: $\exists$ DBGPL?
 
