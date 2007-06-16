@@ -22,6 +22,8 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
      * SQLite servers?
 
-   * Automagic caching of computation results, keeping those results in portable objects, making these objects merge-able, etc...
+   * Automagic caching: keep track of computation results
+
+     * keeping those results in portable objects, making these objects merge-able, etc...
 
    * Licensing: $\exists$ DBGPL?
