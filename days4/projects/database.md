@@ -94,7 +94,7 @@ D.save('crap.db')
    * vacuum
    * clear queries
  * !ImmutableDatabase class
-  * idea - a different class for databases that are included with sage, to avoid issues relating to stupid people accidentally fuc@ing up an important database in a public setting (if possible)
+  * idea - a different class for databases that are included with sage, to avoid issues relating to stupid people accidentally fücking up an important database in a public setting (if possible)
   * why the idea is cheeky -- have database class extend immutable database! although a database won't technically be an immutable database to a person, it is a good way to do this, since we can add on the property 'mutable', as well as all the modification functions
 
 ----------------------------------------------------------------------
