@@ -8,8 +8,11 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
    * Unified Database class
      * init establishes connection to sqlite
+     
    * Query class
-     * has an instance of the database class as a parent
+     * has an instance of the database class as a `parent'
+     * has a query string
+     * think about recursive searching without actually calling sqlite every time
 
  * Issues to brainstorm:
 
