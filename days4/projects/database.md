@@ -6,18 +6,22 @@ Robert Miller, David Joyner, Yi Qiang, Emily Kirkman, Tom Boothby
 
  * GOAL: Create a well thought-out SAGE Enhancement Proposal, and start coding to implement it.
 
- * Online databases
+ * Issues to brainstorm:
 
-   * cgi web-accessible...
+   * SAGE interface to sqlite
 
-   * accessible from SAGE, perhaps hosted at sage.math...
+   * Uniform database approach within sage
 
-   * SQLite servers?
+   * Databases distributed with sage
 
- * SAGE databases: included in sage
+   * Online databases
+ 
+     * cgi web-accessible...
 
- * SQLite interface
+     * accessible from SAGE, perhaps hosted at sage.math...
 
- * Automagic caching of computation results, keeping those results in portable objects, making these objects merge-able, etc...
+     * SQLite servers?
 
- * DBGPL?
+   * Automagic caching of computation results, keeping those results in portable objects, making these objects merge-able, etc...
+
+   * Licensing: $\exists$ DBGPL?
