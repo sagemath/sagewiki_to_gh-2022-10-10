@@ -11,7 +11,8 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
      * exactly what should the following do?
        {{{
 D = Database('something.db')
-Q = D.query({'number_of_finches' : 7}) # hypothetical way to query}}}
+Q = D.query({'number_of_finches' : 7}, inplace=False) # hypothetical way to query}}}
+       * proposal: it should create a new Database object, with a separate connection to the same database, and add "number_of_finches = 7" to the query string
      * init establishes connection to sqlite
        *{{{ D = Database() }}} creates a new temp database and opens a connection to it
        *{{{ D = Database('existing.db') }}} opens a connection to 'existing.db'
