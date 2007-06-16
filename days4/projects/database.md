@@ -16,7 +16,7 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
        * is it possible to have multiple connections to the same .db file? [http://www.mail-archive.com/sqlite-users@sqlite.org/msg24725.html relevant]
      * print?
      * save
-       * {{{D.save('my.db'}}} should copy the class's database file to my.db.
+       * {{{ D.save('my.db') }}} should copy the class's database file to my.db.
        * should this execute queries first?
      * show?
      * recursive queries without actually calling sqlite every time
