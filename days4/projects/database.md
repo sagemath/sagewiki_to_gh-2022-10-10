@@ -56,12 +56,12 @@ KeyError: 'Table must be specified'
    * (mut'ble only) add data from whatever (e.g. quickly via sql file): magic function to deal with other ways to add data? think about this more later.
    * set_mutable
    * copy
-    * creates a new db and everything (completely deep copy)
+    * since it is [http://www.mail-archive.com/sqlite-users@sqlite.org/msg24725.html possible] to have two connections to the same db file, whether to create a new db may be a good option
+     * pros? cons?
     * mutable by default
     * skeleton option will create a new mutable database with empty tables but the same column/index/primary key structure
     * preserves the query string?
     * executes the query string first?
-    * is it possible to have multiple connections to the same .db file? [http://www.mail-archive.com/sqlite-users@sqlite.org/msg24725.html relevant]
    * save
     * {{{ D.save('my.db') }}} should copy the class's database file to my.db.
     * should this execute queries first?
