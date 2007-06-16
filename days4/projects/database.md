@@ -57,6 +57,8 @@ KeyError: 'Table must be specified'
    * set_mutable
    * copy
     * creates a new db and everything (completely deep copy)
+    * mutable by default
+    * skeleton option will create a new mutable database with empty tables but the same column/index/primary key structure
     * preserves the query string?
     * executes the query string first?
     * is it possible to have multiple connections to the same .db file? [http://www.mail-archive.com/sqlite-users@sqlite.org/msg24725.html relevant]
@@ -74,8 +76,8 @@ KeyError: 'Table must be specified'
     * inplace option
    * vacuum
    * clear queries
- * ImmutableDatabase class
-  * idea - a different class for databases that are included with sage, to avoid issues relating to stupid people accidentally fucking up an important database in a public setting
+ * !ImmutableDatabase class
+  * idea - a different class for databases that are included with sage, to avoid issues relating to stupid people accidentally fucking up an important database in a public setting (if possible)
   * god damn cheeky -- have database class extend immutable database! although a database won't technically be an immutable database to a person, it is a good way to do this, since we can add on the property 'mutable', as well as all the modification functions
 
 ----------------------------------------------------------------------
