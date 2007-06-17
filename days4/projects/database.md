@@ -10,7 +10,7 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
  1. Create two classes for interacting with sql databases: the base class will be an immutable database object, and a mutable database object will extend that one with modification functions. Create a separate Query class that points to a specific database, keeping track of a query string and a set of join instructions, with logico-arithmetic operations like and, or, etc.
 
-  A. class ImmutableSQLDatabase(!SageObject) is the base.
+  A. class SQLDatabase(!SageObject) is the base.
    * idea - a different class for databases that are included with sage
    * instance field
     * filename -- the database itself
@@ -19,7 +19,7 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
      * dict of columns -- keyed by column name, keeps track of indices, primary key state, data type
    * functions
     * init
-     * {{{D = ImmutableSQLDatabase('graphs.db')}}} returns a database on graphs up to 1,000,000 vertices, which is queryable, but cannot be modified.
+     * {{{D = SQLDatabase('graphs.db')}}} returns a database on graphs up to 1,000,000 vertices, which is queryable, but cannot be modified.
     * copy
      * creates new db, mutable by default
      * skeleton option will create a new mutable database with empty tables but the same column/index/primary key structure
@@ -38,12 +38,12 @@ D.save('crap.db')         # Oh crap!
      * should print a string describing the skeleton of the database
     * vacuum
   
-  A. class SQLDatabase(ImmutableSQLDatabase) -- seems counterintuitive, to avoid issues relating to stupid people accidentally fucking up an important database in a public setting (if possible) -- best way to avoid this is to not have mutation functions at all
+  A. class MutableSQLDatabase(SQLDatabase) -- seems counterintuitive, to avoid issues relating to stupid people accidentally fucking up an important database in a public setting (if possible) -- best way to avoid this is to not have mutation functions at all
    * functions
     * init
-     * {{{D = SQLDatabase()}}} creates a new temp db, ready to go
-     * {{{D = SQLDatabase('mydb.db')}}} opens a connection to mydb.db, ready to go
-     * {{{D = SQLDatabase('yourdb.db')}}} if called on a protected database, just make a temp copy and connect to that
+     * {{{D = MutableSQLDatabase()}}} creates a new temp db, ready to go
+     * {{{D = MutableSQLDatabase('mydb.db')}}} opens a connection to mydb.db, ready to go
+     * {{{D = MutableSQLDatabase('yourdb.db')}}} if called on a protected database, just make a temp copy and connect to that
     * create/drop table
     * create/drop column( column name, col type, table, bool index=False, bool primary key=False )
      * if no table specified, raise an error and educate user about sql
@@ -67,7 +67,7 @@ KeyError: 'Table must be specified'
 }}}
     * for later? add data from whatever (e.g. quickly via sql file): magic function to deal with other ways to add data? think about this more later.
 
-  A. class !AdvancedQuery(!SageObject) -- simply a pointer to an ImmutableSQLDatabase object (recall, this could be mutable), and a string. When run_query is called, query the database and return results.
+  A. class !AdvancedQuery(!SageObject) -- simply a pointer to an SQLDatabase object (recall, this could be mutable), and a string. When run_query is called, query the database and return results.
 
   A. class Query(!AdvancedQuery) -- a naive query class for the n00b in us all...
     * comes with operations intersect, union and complement
