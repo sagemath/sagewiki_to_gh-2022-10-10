@@ -1,3 +1,11 @@
+The Cayley graph for $A_5$:
+
+{{{
+sage: G = sage.groups.perm_gps.permgroup.AlternatingGroup(5)
+sage: C = G.cayley_graph()
+sage: C.show3d(bgcolor=(0,0,0), arc_color=(1,1,1), vertex_size=0.02, arc_size=0.007, arc_size2=0.01, xres=1000, yres=800, iterations=200)
+}}}
+
 attachment:A5.jpg
 
 Emily Kirkman is working on this project. Robert Miller did a lot of work on it too.  [http://sage.math.washington.edu:9001/graph Back to main wiki.]
