@@ -10,3 +10,5 @@
   * SAGE: It's just coercions. (W. Stein)
 
   * SQLite: Making it easy to select shit from shit where shit and foo. (T. Boothby)
+
+  * SAGE: It will be just like MySpace. (W. Stien)
