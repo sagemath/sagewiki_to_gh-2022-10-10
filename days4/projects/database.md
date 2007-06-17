@@ -31,6 +31,7 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
      * real-world data is great for recursive databasing, but algebraic objects can be too complicated...
      * it's like a dictionary...
   1. sqlite best for querying, not for quick reading and writing, i.e. best for serving
+  1. Zope to serve webpages? [http://modular.fas.harvard.edu:8080/mfd/index.html e.g.]
 
 == SAGE Enhancement Proposal ==
 
