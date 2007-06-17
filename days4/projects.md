@@ -36,4 +36,5 @@ Each section lists the project followed by the main contact person for that proj
  * [:days4/projects/emacs: sage-mode for GNU Emacs] -- Nick Alexander
 
  * [:days4/projects/mottos: Mottos and Quotes] -- ???
-    * [:days4/projects/redbull: Staple the Dead Beaver to the Sidewalk]
+ 
+ * [:days4/projects/redbull: Staple the Dead Beaver to the Sidewalk]
