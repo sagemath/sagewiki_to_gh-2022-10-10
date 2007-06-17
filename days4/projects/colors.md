@@ -1,6 +1,6 @@
 ##master-page:HomepageTemplate
 #format wiki
-== Your Name ==
+== Color Me Purple! ==
 
 Have you ever wondered what a plain "1" is in the output?  Is it an integer, mod 5, mod 0, or p-adic -- or possibly a spy from Sydney?
 Elements of rings should be output in distinct colors so that you can quickly tell the type.
@@ -16,6 +16,10 @@ Elements of rings should be output in distinct colors so that you can quickly te
  * Integer Mod Elements -- RGB(p,255,24) where p is the modulus
 
  * A spy from Sydney -- Steel Grey
+
+ * Polynomials -- RGB(d,d,d) where d is the degree (Notice that d==0 results in an Integer)
+
+ * Matrices -- Stereograms
 
 ----
 CategoryHomepage
