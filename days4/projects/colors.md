@@ -15,7 +15,7 @@ Elements of rings should be output in distinct colors so that you can quickly te
 
  * Integer Mod Elements -- RGB(p,255,24) where p is the modulus
 
- * A spy from Sydney -- Steel Gray
+ * A spy from Sydney -- Steel Grey
 
 ----
 CategoryHomepage
