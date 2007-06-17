@@ -11,7 +11,7 @@
 
   * SQLite: Making it easy to select shit from shit where shit and foo. (T. Boothby)
 
-  * SAGE: It will be just like MySpace. (W. Stien)
+  * SAGE: It will be just like !MySpace. (W. Stien)
 
   * SAGE: It's wrapping the wheel. (R. Miller)
 
