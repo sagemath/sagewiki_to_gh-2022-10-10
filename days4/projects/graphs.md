@@ -12,7 +12,7 @@ sage: C.show3d(vertex_size=0.01, arc_size=0.005, arc_size2=0.008, xres=1000, yre
 == BEFORE ==
 attachment:before.png
 == AFTER ==
-attachment:after.png
+attachment:after.jpg
 
  * (done) Latex Graphs: Craig Citro & Robert Miller -- write an eps file to be included in LaTeX documents.
 
