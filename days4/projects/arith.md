@@ -5,6 +5,7 @@
 
  Nick Alexander, Craig Citro, William Stein, David Harvey, David Roe, Joel Mohler, Dave Saunders, Gonzalo Tornaria, Ifti B., Robert Bradshaw
 
+ * Right now -- write down some tangible maintainable goals that can actually be implemented.
 
  * (Craig Citro) wrap zzp_x from ntl
 
