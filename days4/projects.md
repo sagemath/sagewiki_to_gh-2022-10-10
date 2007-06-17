@@ -15,6 +15,8 @@ Each section lists the project followed by the main contact person for that proj
 
  * [:days4/projects/arith: Basic Arithmetic ] -- Robert Bradshaw
 
+ * [:days4/projects/colors: Fast Type Isolation ] -- ???
+
  * [:days4/projects/numbertheory: Number Theory] -- David Roe
 
  * [:days4/projects/database: Databases] -- Robert Miller
