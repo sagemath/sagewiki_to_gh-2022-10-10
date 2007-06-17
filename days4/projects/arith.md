@@ -101,7 +101,7 @@ The reason to specify the op is so that actions can be detected and handled effi
     * + and - have the most "traditional" coercion.  This coercion could be used a bunch of other places (e.g. quo_rem) 
 
 
-''' Prototype'''
+''' Prototype''' (showing how to handle actions)
 
 __mul__(left, right):
     if have_same_parent(left, right):
