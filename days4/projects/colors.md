@@ -1,0 +1,14 @@
+##master-page:HomepageTemplate
+#format wiki
+== Your Name ==
+
+Email: [[MailTo(you AT SPAMFREE example DOT com)]]
+
+ * Integers -- Black
+
+ * Rationals -- Red
+
+ * Number Field Elements -- Green
+
+----
+CategoryHomepage
