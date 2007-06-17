@@ -21,6 +21,14 @@ Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
   1. Licensing: $\exists$ DBGPL?
   1. Noticing identical database entries
 
+== Quick Notes ==
+
+  1. ZODB may be very good for object persistence
+     * caveats: sometimes you need to tell ZODB that you have changed some data or else it won't remember...
+     * ZODB never shrinks a file, unless you call a vacuum-like command
+     * pickling is dangerous without a plain text backup, since pickling often fails when you bridge versions...
+      * therefore, it is best to have a plain human-readable text file, and a function that will read in the text and convert the data to current pickled cucumbers...
+
 == SAGE Enhancement Proposal ==
 
  * Database class
