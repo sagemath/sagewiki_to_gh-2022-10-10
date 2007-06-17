@@ -31,4 +31,4 @@ the force thereof."
 
   * awfenaklearhknf nibwafiom;nfewzbdflfoifwijwnozbm;l   f iojaegmfongewionrklvxzmfewIJpk21e9[;iowfem;ngulzgrjh2pk'1pqj;oiWFEojht328h1rjhq;ojniaiom;aweojiaweojwfe;ojiwgulbgbyfewnufgwaniofqpijinfewion;fweojifaiojfewjfwa   fewioj;fnvioj;wfe;jifew
 
-  * The machine is insane.
+  * sage.math is insane.
