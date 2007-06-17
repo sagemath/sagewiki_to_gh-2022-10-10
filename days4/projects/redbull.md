@@ -8,7 +8,7 @@ attachment:redbull.jpg
   . Robert: Dr. Pepper juice?
 
   * SAGE: Because hey, if you want to rm -rf your own hard drive, go for it! (R. Miller)
-    * CRACKER: No not your hard drive, your chroot jail. They are different. Besides why do rm -rf anymore when there are passwords to steal?
+    * CRACKER: Yes I would be happy to do rm -rf on my own server in my own jail but rm -rf is not interesting anymore when there are passwords to steal.
 
   * From the [http://www.serve.com/cmtan/buddhism/Stories/cucumber.html Cucumber Sage]: "The whole universe is pickled cucumber; a pickled cucumber is the whole universe!"
    * "A pickled cucumber is just a pickle..." (E. Kirkman)
