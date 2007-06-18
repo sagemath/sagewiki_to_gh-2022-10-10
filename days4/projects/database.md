@@ -38,7 +38,7 @@ D.save('crap.db')         # Oh crap!
      * should print a string describing the skeleton of the database
     * vacuum
   
-  A. class MutableSQLDatabase(SQLDatabase) -- seems counterintuitive, to avoid issues relating to stupid people accidentally fucking up an important database in a public setting (if possible) -- best way to avoid this is to not have mutation functions at all
+  A. class MutableSQLDatabase(SQLDatabase) -- seems counterintuitive, to avoid issues relating to stupid people accidentally messing up an important database in a public setting (if possible) -- best way to avoid this is to not have mutation functions at all
    * functions
     * init
      * {{{D = MutableSQLDatabase()}}} creates a new temp db, ready to go
@@ -58,9 +58,9 @@ def foo(table=None, **kwds):
         raise KeyError('Table must be specified')
     print kwds
 
-sage: foo(table='table_name', shit='poo', dog='cat')
-{'shit':'poo', 'dog':'cat'}
-sage: foo(shit='poo', dog='cat')
+sage: foo(table='table_name', stuff='poo', dog='cat')
+{'stuff':'poo', 'dog':'cat'}
+sage: foo(stuff='poo', dog='cat')
 Exception (click to the left for traceback):
 ...
 KeyError: 'Table must be specified'
