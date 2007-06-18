@@ -27,7 +27,13 @@ These are the tasks that need to be accomplished, in order of importance.
     * (done) Yi -- 1 hour: subclass something and replace listen ssl with gnutls. 
     * (done) Need to make it so dsage uses gnutls to generate certificates. 
     * (done) Url--goes to http instead of https.
-
+ 1. '''Rating system of published worksheets''' Users should be able to rate published worksheets, similar to how iTunes allows you to rate your song.
+    * I propose a rating of 1-5 stars (iTunes, Google Video both use this scale).  
+    * Worksheets can store their ratings as an attribute
+    * Have methods set_rating() and get_rating()
+    * Keep number of ratings (i.e. one 5 star rating is a lot more dubious than 25 ratings that average to 4 stars)
+    * Each user should be allowed to register only one vote for a worksheet, but they should be allowed to re-rate a worksheet at will
+   
 
 
 -----------------
