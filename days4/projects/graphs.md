@@ -13,7 +13,9 @@ sage: C.show3d(vertex_size=0.01, arc_size=0.005, arc_size2=0.008, xres=1000, yre
 attachment:before.png
 == AFTER ==
 attachment:after.png
-
+== NEW ==
+Vertex colors for 3d graphs
+attachment:dod.png
  * (done) Latex Graphs: Craig Citro & Robert Miller -- write an eps file to be included in LaTeX documents.
 
  * (done) NetworkX 1: Expose these in SAGE: centrality, cliques, cluster, cores, search.
