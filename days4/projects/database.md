@@ -110,4 +110,5 @@ KeyError: 'Table must be specified'
      * storing a whole list in one entry in the database: this is feasible via Emily's rawking regexp skills, IF we can find a delimiter guaranteed not to be in pickle strings. It is optimal for speed and memory.
      * storing a list as an array of rows (experience tells us that this is inefficient)
   1. Licensing: $\exists$ DBGPL?
-  1. Noticing identical database entries
+  1. Noticing identical database entries [added by David Joyner -- I think this can be resolved using a query. Is that correct Tom?]
+  1. [added by David Joyner] I'd like the issue of "uniformity" to be discussed. For example, I think having an "AUTHORS" and "REFERENCES" field (like the [http://www.research.att.com/~njas/sequences/ OEIS]) would be great. For example, when Kate Minolta computes a new Conway polynomial, not only is the entry added by she gets proper credit.
