@@ -1,18 +1,16 @@
 = SAGE Days 4 =
 
-The 4th SAGE days 2007 will be held the week of June 12-17, 2007 (Tuesday through Sunday) mostly in '''room 238 of the Mechanical Engineering Building''' at the University of Washington in scenic Seattle.  It was also be online at '''irc.freenode.net in the sage-dev''' room.
+The 4th SAGE days 2007 was held the week of June 12-17, 2007 (Tuesday through Sunday) in '''room 238 of the Mechanical Engineering Building''' at the University of Washington in scenic Seattle.  It was also be online at '''irc.freenode.net in the sage-dev''' room.
 
-The conference has been fully funded by the NSF UW/VIGRE and PIMS, so there is no registration fee and some participants costs will be reimbursed.  Thanks NSF and PIMS!!
+The conference was fully funded by the NSF UW/VIGRE and PIMS, so there was no registration fee and some participants costs were reimbursed.  Thanks NSF and PIMS!
 
-The focus will be on coding sprints.  SAGE Days 4 will primarily be a developer-oriented workshop, with plenty of opportunities for participants to talk and work with others.
+The focus was on coding sprints.  SAGE Days 4 was a developer-oriented workshop, with plenty of opportunities for participants to talk and work with others.
 
  * [http://www.sagemath.org/flier/flier.pdf Poster]
 
  * [:days4schedule: Schedule]
 
  * [:days4/projects: Coding Sprint Projects]
-
- * Campus wifi: Use NetID '''wire01346''' and password '''drink-LoLLs'''
 
 == Organizers ==
 
@@ -23,7 +21,7 @@ The focus will be on coding sprints.  SAGE Days 4 will primarily be a developer-
 
 == Participants ==
 
-The following people have expressed interest so far. If you wish to attend and do not see your name, please contact the organizers.
+The following people expressed interest, and most attended.
  
  * Iyad Ajwa
  * Martin Albrecht (remotely)
@@ -34,7 +32,7 @@ The following people have expressed interest so far. If you wish to attend and d
  * Timothy Clemans (Seattle High School Student)
  * Alex Clemesha (UCSD)
  * Josh Kantor (UW math)
- * Didier Deshommes (first 3 days (11-14). If you'd like to split the cost of a room, please contact me)
+ * Didier Deshommes (first 3 days)
  * Larry Eclipse (UW math alumni)
  * Kirsten Fagnan (UW, applied math)
  * Mike Hansen (Harvey Mudd College, remotely)
