@@ -14,8 +14,9 @@ attachment:before.png
 == AFTER ==
 attachment:after.png
 == NEW ==
-Vertex colors for 3d graphs
+Vertex and edge colors for 3d graphs
 attachment:dod.png
+attachment:pet.png
  * (done) Latex Graphs: Craig Citro & Robert Miller -- write an eps file to be included in LaTeX documents.
 
  * (done) NetworkX 1: Expose these in SAGE: centrality, cliques, cluster, cores, search.
