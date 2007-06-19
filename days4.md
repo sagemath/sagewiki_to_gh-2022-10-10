@@ -1,6 +1,6 @@
 = SAGE Days 4 =
 
-The 4th SAGE days 2007 was held the week of June 12-17, 2007 (Tuesday through Sunday) in '''room 238 of the Mechanical Engineering Building''' at the University of Washington in scenic Seattle.  It was also be online at '''irc.freenode.net in the sage-dev''' room.
+The 4th SAGE days 2007 was held the week of June 12-17, 2007 (Tuesday through Sunday) in room 238 of the Mechanical Engineering Building at the University of Washington in scenic Seattle.  It was also online at irc.freenode.net in the sage-dev room.
 
 The conference was fully funded by the NSF UW/VIGRE and PIMS, so there was no registration fee and some participants costs were reimbursed.  Thanks NSF and PIMS!
 
