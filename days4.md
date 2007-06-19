@@ -11,6 +11,8 @@ The focus was on coding sprints.  SAGE Days 4 was a developer-oriented workshop,
  * [:days4schedule: Schedule]
 
  * [:days4/projects: Coding Sprint Projects]
+ 
+ * [:days4/Pictures: Pictures]
 
 == Organizers ==
 
