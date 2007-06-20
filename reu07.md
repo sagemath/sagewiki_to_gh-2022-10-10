@@ -8,7 +8,7 @@
 
 ==== Friday, June 20, 2007 ====
 
-2:00 pm -- Robert Miller: Introduction to SAGE
+2:00 pm -- Robert Miller: Introduction to SAGE and Algebraic Graph Theory
 
 === Projects ===
 
