@@ -38,3 +38,23 @@ To format the table of contents:
 }}}
 
 To create a new wiki page, simply navigate there, and you will be given a new blank page.
+
+MoinMoin, this particular brand of wiki, also allows you to use LaTeX:
+
+$$\sum_{k=1}^n{n \choose k}x^k$$
+
+$\sum_{k=1}^n{n \choose k}x^k$
+
+$$\left[\begin{array}{cccc}1 & 0 & 0 & 0 \\0 & 1 & 0 & 0 \\0 & 0 & 0 & \omega \\0 & 0 & -\omega & 0\end{array}\right]$$
+
+Here's how to do that:
+
+{{{
+$$\sum_{k=1}^n{n \choose k}x^k$$
+
+$\sum_{k=1}^n{n \choose k}x^k$
+
+$$\left[\begin{array}{cccc}1 & 0 & 0 & 0 \\0 & 1 & 0 & 0 \\0 & 0 & 0 & \omega \\0 & 0 & -\omega & 0\end{array}\right]$$
+}}}
+
+NOTE: The double-dollar notation is a replacement for LaTeX's math environment \[...\], which does not work in the wiki.
