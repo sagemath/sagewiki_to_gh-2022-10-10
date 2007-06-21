@@ -18,7 +18,7 @@ Error: Library block huffman-matrix4 not found in specified library.
 Program was executing function read01Matrix (line 234 in file
 ../../src/leon/src/readdes.c).
 }}}
- . Related files:
+  . Related files:
    * attachment:huffman-code4.gap
 
  2. Running out of memory:
