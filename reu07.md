@@ -33,7 +33,7 @@ To add a table of contents:
 [[TableOfContents]]
 }}}
 
-To format the table of contents:
+To format the table of contents (simultaneously formatting the page):
 {{{
 == Top Level, No. 1 ==
 == Top Level, No. 2 ==
