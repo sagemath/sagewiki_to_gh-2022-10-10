@@ -6,6 +6,10 @@ J.S. Leon's [http://tigger.uic.edu/~jleon/ webpage]
 
  * Fix up Leon's code for modern use.
 
+== Progress ==
+
+ * Fixed several issues relating to outdated design.
+
 == Known Bugs in Leon ==
 
  1. Related to reading the input file:
