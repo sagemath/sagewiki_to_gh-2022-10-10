@@ -9,6 +9,8 @@ J.S. Leon's [http://tigger.uic.edu/~jleon/ webpage]
 == Progress ==
 
  * Fixed several issues relating to outdated design.
+   * Originally defaulted to using short's: now uses unsigned's.
+   * Changed obsolete CLK_TCK to CLOCKS_PER_SEC.
 
 == Known Bugs in Leon ==
 
