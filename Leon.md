@@ -108,7 +108,7 @@ Example 4:
 
  1. Bus Errors
    {{{
-./wtdist ../example1::left 4 ../really
+./wtdist example1::left 4 really
 Bus error
 }}}
   . Related file:
