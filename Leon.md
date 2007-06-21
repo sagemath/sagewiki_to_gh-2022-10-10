@@ -105,3 +105,11 @@ Example 4:
 0000000100011100111000100000000000
 
 }}}
+
+ 1. Bus Errors
+   {{{
+./wtdist ../example1::left 4 ../really
+Bus error
+}}}
+  . Related file:
+   * attachment:example1 
