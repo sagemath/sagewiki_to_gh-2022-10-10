@@ -6,9 +6,15 @@
 
 === Schedule ===
 
-==== Friday, June 20, 2007 ====
+ * Friday, June 22, 2007
 
-2:00 pm -- Robert Miller: Introduction to SAGE and Algebraic Graph Theory
+   2:00 pm -- Robert Miller: Introduction to SAGE and Algebraic Graph Theory.
+
+ * Monday, June 25, 2007
+
+   Jim will be missing:
+
+   Brainstorming to come up with problems and other activities.
 
 === Projects ===
 
