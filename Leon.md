@@ -9,7 +9,7 @@ J.S. Leon's [http://tigger.uic.edu/~jleon/ webpage]
 == Known Bugs in Leon ==
 
  1. Related to reading the input file:
-{{{
+   {{{
 ./wtdist huffman-code4.gap 6 huffman-matrix4 // seems to work, creates huffman-matrix4 file
 ./desauto -code huffman-code4.gap huffman-matrix4 huffman-autgp4 // does not work
 
@@ -21,9 +21,13 @@ Program was executing function read01Matrix (line 234 in file
   . Related files:
    * attachment:huffman-code4.gap
 
- 2. Running out of memory:
+ 1. Running out of memory:
+   * W. C. Huffman describes a general procedure to produce examples of this bug:
+   {{{
+The main problem always seems to be when there are only a few minimal weight codewords.  I think you can create a lot of examples that will make it difficult in the following way: Let C1 be any code you want with minimum weight at least 3. Let C2 be the [2,1,2] code with basis [1 1].  Form the direct sum of C1 and C2.  This will create a code of minimum weight 2 with only one codeword of minimum weight 2.  I have a feeling this will give you trouble even if the code C1 has an automorphism group that is easy to compute.
+}}}
    * The following codes commonly cause an out of memory condition. Even if this doesn't happen, they are still good benchmarks for memory use:
-{{{
+   {{{
 Example 1:
 1111111111110000000000001100000000
 0000000000001010100000000010101011
