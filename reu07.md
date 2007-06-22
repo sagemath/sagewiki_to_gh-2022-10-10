@@ -1,7 +1,9 @@
 [[TableOfContents]]
 
 == REU ==
-[http://www.math.washington.edu/~morrow/reu07/reu.html Jim Morrow's page]: Relevant papers.
+ * [http://www.math.washington.edu/~morrow/reu07/reu.html Jim Morrow's page]: Relevant papers.
+ * [http://www.math.washington.edu/~reu/ REU Archives]
+
 
 === Schedule ===
  * Friday, June 22, 2007
