@@ -7,18 +7,41 @@
 === Schedule ===
 
  * Friday, June 22, 2007
+    * 9:30 am -- Jim's Lecture
 
-   2:00 pm -- Robert Miller: Introduction to SAGE and Algebraic Graph Theory.
+    * 2:00 pm -- Robert Miller: Introduction to SAGE and Algebraic Graph Theory.
 
- * Monday, June 25, 2007
+ * Saturday, June 23, 2007
+    * Morning: Aquarium
 
-   Jim will be missing:
+    * Afternoon: Math n' Stuff Store
 
-   Brainstorming to come up with problems and other activities.
+ * Monday, June 25, 2007 (Jim will be missing)
+
+    * 10:00 am -- Brainstorming to come up with problems and other activities.
+
+    * 12:45 pm -- Zome Tools
+
+ * Tuesday, June 26, 2007
+    * 9:30 am -- Peter, David, Jim and Owen lecture
+    * First individual meetings
 
 === Projects ===
 
-Tom Boothby, Robert Miller - [:Leon: update] Leon's code
+ * [:Leon: Update] Jeffrey Leon's Partition Backtracking code 
+    * Tom Boothby, Robert Miller
+
+ * Update Owen and Jeff's Genus Code.
+    * Emily Kirkman
+
+ * Algorithm to test for circular planarity
+    * Emily Kirkman
+
+ * Enhancing precision with exact linear algebra
+    * Tom Boothby, Emily Kirkman
+
+ * Combinatorics of Coxeter Groups (with Sara Billey)
+    * Tom Boothby, Kari Christianson, Emily Kirkman, Robert Miller
 
 == Wiki examples ==
 
