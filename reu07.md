@@ -43,7 +43,7 @@
  * Combinatorics of Coxeter Groups (with Sara Billey)
     * Tom Boothby, Kari Christianson, Emily Kirkman, Robert Miller
 
-== Pictures ==
+=== Pictures ===
  * [:emilyk: Emily Kirkman]
 
 == Wiki examples ==
