@@ -9,7 +9,7 @@
  * Friday, June 22, 2007
     * 9:30 am -- Jim's Lecture
 
-    * 2:00 pm -- Robert Miller: Introduction to SAGE and Algebraic Graph Theory.
+    * 2:00 pm -- Robert Miller: Introduction to SAGE.
 
  * Saturday, June 23, 2007
     * Morning: Aquarium
