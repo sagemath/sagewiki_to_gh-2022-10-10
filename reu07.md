@@ -7,7 +7,7 @@
  * Friday, June 22, 2007
   * 9:30 am -- Jim's Lecture
   * 2:00 pm -- Robert Miller: Introduction to SAGE.
-  * 5:30 pm -- Aqua Verde
+  * 5:30 pm -- Agua Verde
  * Saturday, June 23, 2007
   * 10:30 -- PDL loading dock: Math n' Stuff Store
  * Sunday, June 24, 2007
