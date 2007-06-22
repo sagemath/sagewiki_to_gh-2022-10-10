@@ -14,12 +14,14 @@
   * 10:30 -- PDL loading dock: Aquarium
  * Monday, June 25, 2007 (Jim will be missing)
   * 10:00 am -- Brainstorming to come up with problems and other activities.
+    * Ideas here:
+     * brainstorm ideas
   * 12:45 pm -- Zome Tools
  * Tuesday, June 26, 2007
   * 9:30 am -- Peter, David, Jim and Owen lecture
   * First individual meetings
 === Projects ===
- 1. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
+ 0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
  1. Update Owen and Jeff's Genus Code.
   * Emily Kirkman
