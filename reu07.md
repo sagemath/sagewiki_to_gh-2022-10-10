@@ -46,6 +46,9 @@
 === Pictures ===
  * [:emilyk: Emily Kirkman]
 
+=== Resources ===
+ * Dive into Python: http://www.diveintopython.org/
+
 == Wiki examples ==
 
 To include a link:
