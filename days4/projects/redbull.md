@@ -40,11 +40,3 @@ the force thereof."
 attachment:shocker.gif
 
 attachment:sotired.png
-
-attachment:lobster.jpg
-{{{
-sage: (graphs.RandomHolmeKim(12,3,.4)).show(figsize=[4,4], graph_border=True)
-}}}
-attachment:lobster2.png
-
-attachment:monkey.jpg
