@@ -40,3 +40,7 @@ the force thereof."
 attachment:shocker.gif
 
 attachment:sotired.png
+
+attachment:lobster.jpg
+
+attachment:monkey.jpg
