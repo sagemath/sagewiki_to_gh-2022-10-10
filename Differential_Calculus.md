@@ -8,7 +8,12 @@ Piecewise fcns, polynomials, exponential, logs, trig and hyperboic trig function
 
 == Limits ==
 
-...
+SAGE can compute $\lim_{x\rightarrow 0}\frac{\sin(x)}{x}$:
+
+{{{
+sage: limit(sin(x)/x,x=0)
+1
+}}}
 
 == Differentiation ==
 
