@@ -122,3 +122,4 @@ Bus error
 }}}
   . Related file:
    * attachment:example1 
+  * Happens on OS X, but not Linux.
