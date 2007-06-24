@@ -12,7 +12,7 @@ J.S. Leon's [http://tigger.uic.edu/~jleon/ webpage]
    * Originally defaulted to using short's: now uses unsigned's.
    * Changed obsolete CLK_TCK to CLOCKS_PER_SEC.
 
-== Known Bugs in Leon ==
+== Solutions to known bugs ==
 
  1. Related to reading the input file:
    {{{
@@ -26,6 +26,9 @@ Program was executing function read01Matrix (line 234 in file
 }}}
   . Related files:
    * attachment:huffman-code4.gap
+  * SOLUTION: Cayley library format does not support names with hyphens. Use only alphanumeric and underscore characters. 
+
+== Known Bugs in Leon ==
 
  1. Running out of memory:
    * W. C. Huffman describes a general procedure to produce examples of this bug:
