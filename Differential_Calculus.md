@@ -17,7 +17,14 @@ sage: limit(sin(x)/x,x=0)
 
 == Differentiation ==
 
-...
+SAGE can differentiate $x^2\log(x+a)$ and $\tan^{-1}(x)=\arctan(x)$:
+
+{{{
+sage: diff(x^2 * log(x+a), x)
+2*x*log(x + a) + x^2/(x + a)
+sage: derivative(atan(x), x)
+1/(x^2 + 1)
+}}}
 
 == Applications ==
 
