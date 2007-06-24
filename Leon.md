@@ -32,6 +32,17 @@ Program was executing function read01Matrix (line 234 in file
    * attachment:huffman-code4.gap
   * SOLUTION: Cayley library format does not support names with hyphens. Use only alphanumeric and underscore characters. 
 
+ 1. Bus Errors
+   {{{
+./wtdist example1::left 4 really
+Bus error
+}}}
+  . Related file:
+   * attachment:example1 
+  * Happens on OS X, but not Linux- it is due to invalid memory access.
+  * SOLUTION: see above, regarding "fencepost error."
+
+
 == Known Bugs in Leon ==
 
  1. Running out of memory:
@@ -118,12 +129,3 @@ Example 4:
 0000000100011100111000100000000000
 
 }}}
-
- 1. Bus Errors
-   {{{
-./wtdist example1::left 4 really
-Bus error
-}}}
-  . Related file:
-   * attachment:example1 
-  * Happens on OS X, but not Linux.
