@@ -26,6 +26,31 @@ sage: derivative(atan(x), x)
 1/(x^2 + 1)
 }}}
 
+=== Laws ===
+
+SAGE can verify the product rule
+
+{{{
+sage: function('f, g')
+(f, g)
+sage: diff(f(t)*g(t),t)
+f(t)*diff(g(t), t, 1) + g(t)*diff(f(t), t, 1)
+}}}
+the quotient rule
+
+{{{
+sage: diff(f(t)/g(t), t)
+diff(f(t), t, 1)/g(t) - (f(t)*diff(g(t), t, 1)/g(t)^2)
+}}}
+
+and linearity:
+
+{{{
+sage: diff(f(t) + g(t), t)
+diff(g(t), t, 1) + diff(f(t), t, 1)
+sage: diff(c*f(t), t)
+c*diff(f(t), t, 1)
+}}}
 == Applications ==
 
 ...
