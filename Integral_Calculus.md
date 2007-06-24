@@ -5,6 +5,21 @@ Besides the examples on this page, please see the discussion in ["BasicCalculus"
 
 == Definite and Indefinite Integrals ==
 
+SAGE can compute both definite integrals like $\int_0^1 \frac{dx}{x^3+1}$ and 
+indefinite integrals such as $\int \frac{dx}{x^3+1}$:
+
+
+{{{
+sage: print integrate(1/(x^3+1),x)
+                                         2 x - 1
+                       2	    atan(-------)
+                  log(x  - x + 1)	 sqrt(3)    log(x + 1)
+                - --------------- + ------------- + ----------
+                         6	       sqrt(3)	        3
+sage: integrate(1/(x^3+1), x, 0, 1)
+(6*log(2) + sqrt(3)*pi)/18 + sqrt(3)*pi/18
+}}}
+
 === The Definite Integral ===
 
           o The definition of area under curve
