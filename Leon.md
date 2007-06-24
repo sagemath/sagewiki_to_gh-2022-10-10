@@ -50,7 +50,7 @@ Bus error
    {{{
 The main problem always seems to be when there are only a few minimal weight codewords.  I think you can create a lot of examples that will make it difficult in the following way: Let C1 be any code you want with minimum weight at least 3. Let C2 be the [2,1,2] code with basis [1 1].  Form the direct sum of C1 and C2.  This will create a code of minimum weight 2 with only one codeword of minimum weight 2.  I have a feeling this will give you trouble even if the code C1 has an automorphism group that is easy to compute.
 }}}
-   * The following codes commonly cause an out of memory condition. Even if this doesn't happen, they are still good benchmarks for memory use:
+   * The following codes, as noted by Huffman, commonly cause an out of memory condition. Even if this doesn't happen, they are still good benchmarks for memory use:
    {{{
 Example 1:
 1111111111110000000000001100000000
