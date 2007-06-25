@@ -83,3 +83,27 @@ c*diff(f(t), t, 1)
 == Sequences and series ==
 
 (Some schools teach this topic as part of integral calculus.)
+
+=== Sequences ===
+
+=== Series ===
+
+=== Tests for Convergence ===
+
+          o The Comparison Test
+
+          o Absolute and Conditional Convergence
+
+          o The Ratio Test
+
+          o The Root Test 
+
+=== Power series ===
+
+          o Shift the Origin
+
+          o Convergence of Power Series 
+
+=== Taylor series ===
+
+=== Applications of Taylor series ===
