@@ -8,12 +8,17 @@ Piecewise fcns, polynomials, exponential, logs, trig and hyperboic trig function
 
 == Limits ==
 
+
 SAGE can compute $\lim_{x\rightarrow 0}\frac{\sin(x)}{x}$:
 
 {{{
 sage: limit(sin(x)/x,x=0)
 1
 }}}
+
+=== Laws and properties ===
+
+=== Continuity ===
 
 == Differentiation ==
 
@@ -51,9 +56,29 @@ diff(g(t), t, 1) + diff(f(t), t, 1)
 sage: diff(c*f(t), t)
 c*diff(f(t), t, 1)
 }}}
+
+
+=== Rates of change, velocity ===
+
+=== Derivatives of polys, exps, trigs, log ===
+
+=== Chain rule ===
+
+=== Implicit differentiation ===
+
+=== Higher derivatives ===
+
 == Applications ==
 
-...
+=== Related rates ===
+
+=== Maximum and minimum values ===
+
+=== Optimization problems ===
+
+=== Indeterminate Forms, L'Hopital's rule ===
+
+=== Newton’s Method ===
 
 == Sequences and series ==
 
