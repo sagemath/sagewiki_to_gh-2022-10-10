@@ -22,6 +22,19 @@
  * Tuesday, June 26, 2007
   * 9:30 am -- Peter, David, Jim and Owen lecture
   * First individual meetings
+ * Wednesday, June 27, 2007
+  * 9:30 am -- Sarah Billey
+  * 10:45 am -- Jim lecture
+  * 2-4:30 pm -- individual meetings
+  * 5:00 pm -- Pizza
+ * Thursday, June 28, 2007
+  * 9:30 am -- Peter
+ * Friday, June 29, 2007
+  * 9:30 am -- Sarah Billey
+  * 5:00 pm -- Dinner?
+ * Saturday, June 30, 2007
+  * Barbeque at Peter's house
+
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
