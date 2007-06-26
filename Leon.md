@@ -159,3 +159,11 @@ checking equivalence of:
 [0 0 1 1 0 0 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1]
 
 }}}
+
+   * This example also leads to an infinite loop in computeSubgroup...
+   {{{
+./wtdist huffman-code4.gap 6 huffman_matrix4 // now works, using underscores
+./desauto -code huffman-code4.gap huffman_matrix4 huffman_autgp4 // fall into infinite loop
+}}}
+  . Related files:
+   * attachment:huffman-code4.gap
