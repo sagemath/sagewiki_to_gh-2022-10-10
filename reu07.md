@@ -21,10 +21,12 @@
   * 12:45 pm -- Zome Tools
  * Tuesday, June 26, 2007
   * 9:30 am -- Peter, David, Jim and Owen lecture
+  * Noon -- Rock Climbing (Tom Boothby)
   * First individual meetings
  * Wednesday, June 27, 2007
   * 9:30 am -- Sarah Billey
   * 10:45 am -- Jim lecture
+  * Noon -- Rock Climbing (Emily Kirkman)
   * 2-4:30 pm -- individual meetings
   * 5:00 pm -- Pizza
  * Thursday, June 28, 2007
