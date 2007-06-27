@@ -30,7 +30,7 @@
   * 5:00 pm -- Pizza, Mary Gates Hall, room 254
  * Thursday, June 28, 2007
   * 9:30 am -- Peter on star-K
-  * 10:45 am -- Jim on critical circular planar
+  * 10:45 am -- Jim on critical circular planar graphs
  * Friday, June 29, 2007
   * 9:30 am -- maybe Jim on medial graphs
   * 5:00 pm -- Dinner?
