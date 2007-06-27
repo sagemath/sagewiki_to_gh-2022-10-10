@@ -42,6 +42,7 @@
   * Tom Boothby, Robert Miller
  1. Update Owen and Jeff's Genus Code.
   * Emily Kirkman
+    * Use the current [http://sage.math.washington.edu:8500/genus_code version].
  1. Algorithm to test for circular planarity
   * Emily Kirkman
   * Status: Linear time achievable by modifying input to Boyer and Myrvold algorithm.  (Not reinventing the wheel, just sticking one in the graph).  Currently working on including PIGALE's tgraph library in SAGE.
