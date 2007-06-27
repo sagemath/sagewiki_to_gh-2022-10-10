@@ -26,7 +26,6 @@
  * Wednesday, June 27, 2007
   * 9:30 am -- Sarah Billey
   * 10:45 am -- Owen, Emily
-  * Noon -- Rock Climbing (Emily Kirkman)
   * 2-4:30 pm -- individual meetings
   * 5:00 pm -- Pizza, Mary Gates Hall, room 254
  * Thursday, June 28, 2007
