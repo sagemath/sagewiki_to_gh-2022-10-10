@@ -12,3 +12,5 @@ Robert Miller, David Joyner, Josh Kantor, Robert Bradshaw, Emily Kirkman
    * spkg exposes modified desauto and wtdist, which do not read from or write to file.
 
    * First attempt at Pyrex wrapping showed that Leon's code, as is, is nowhere near ready for release as a dynamic library. The main reason for this is its bad memory management. Since the program was originally released as standalone command-line applications, they don't free memory, which means they Don't Play Well With Others. In fact, the main bugs I have heard of so far are complaints that the program is out of memory. These are while computing isomorphism of codes, which are only objects on 34 coordinates. There is no reason to run out of memory on something this small.
+
+ * [:Leon: Leon] code project page
