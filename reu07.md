@@ -24,7 +24,7 @@
   * Noon -- Rock Climbing (Tom Boothby)
   * First individual meetings
  * Wednesday, June 27, 2007
-  * 9:30 am -- Sarah Billey
+  * 9:30 am -- Sara Billey
   * 10:45 am -- Owen, Emily
   * 2-4:30 pm -- individual meetings
   * 5:00 pm -- Pizza, Mary Gates Hall, room 254
@@ -32,7 +32,7 @@
   * 9:30 am -- Peter on star-K
   * 10:45 am -- Jim on critical circular planar
  * Friday, June 29, 2007
-  * 9:30 am -- Sarah Billey
+  * 9:30 am -- Sara Billey
   * 5:00 pm -- Dinner?
  * Saturday, June 30, 2007
   * Barbeque at Peter's house
