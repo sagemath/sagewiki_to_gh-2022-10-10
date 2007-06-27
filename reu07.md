@@ -25,7 +25,7 @@
   * First individual meetings
  * Wednesday, June 27, 2007
   * 9:30 am -- Sarah Billey
-  * 10:45 am -- Jim lecture
+  * 10:45 am -- Owen Lecture, Emily Lecture
   * Noon -- Rock Climbing (Emily Kirkman)
   * 2-4:30 pm -- individual meetings
   * 5:00 pm -- Pizza
