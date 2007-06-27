@@ -47,8 +47,8 @@
   * Emily Kirkman
   * Status: Linear time achievable by modifying input to Boyer and Myrvold algorithm.  (Not reinventing the wheel, just sticking one in the graph).  Currently working on including PIGALE's tgraph library in SAGE.
   * Resources: 
-    * Planarity Testing [http://www.cs.uvic.ca/~wendym/my_pubs/boyer.ps Algorithm]
-    * [http://pigale.sourceforge.net/ PIGALE] implementation of the algorithm.
+    * A simple O(n) Planarity Testing [http://www.cs.uvic.ca/~wendym/my_pubs/boyer.ps Algorithm]
+    * [http://pigale.sourceforge.net/ PIGALE] implementation of the algorithm.  (See also: [http://en.wikipedia.org/wiki/Fraysseix-Rosenstiehl%27s_planarity_criterion wikipedia] page describing Fraysseix-Rosenstiehl planarity criterion).
  1. Enhancing precision with exact linear algebra
   * Tom Boothby, Emily Kirkman
  1. Combinatorics of Coxeter Groups (with Sara Billey)
