@@ -20,12 +20,12 @@
      * brainstorm ideas
   * 12:45 pm -- Zome Tools
  * Tuesday, June 26, 2007
-  * 9:30 am -- Peter, David, Jim and Owen lecture
+  * 9:30 am -- Peter lecture
   * Noon -- Rock Climbing (Tom Boothby)
   * First individual meetings
  * Wednesday, June 27, 2007
   * 9:30 am -- Sarah Billey
-  * 10:45 am -- Owen Lecture, Emily Lecture
+  * 10:45 am -- Owen, Emily
   * Noon -- Rock Climbing (Emily Kirkman)
   * 2-4:30 pm -- individual meetings
   * 5:00 pm -- Pizza, Mary Gates Hall, room 254
