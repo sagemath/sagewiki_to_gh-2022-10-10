@@ -44,6 +44,8 @@
   * Emily Kirkman
  1. Algorithm to test for circular planarity
   * Emily Kirkman
+  * Status: Linear time achievable by modifying input to Boyer and Myrvold algorithm.  (Not reinventing the wheel, just sticking one in the graph).
+  * Resources: 
     * Planarity Testing [http://www.cs.uvic.ca/~wendym/my_pubs/boyer.ps Algorithm]
     * [http://pigale.sourceforge.net/ PIGALE] implementation of the algorithm.
  1. Enhancing precision with exact linear algebra
