@@ -32,7 +32,7 @@
   * 9:30 am -- Peter on star-K
   * 10:45 am -- Jim on critical circular planar
  * Friday, June 29, 2007
-  * 9:30 am -- Sara Billey
+  * 9:30 am -- maybe Jim on medial graphs
   * 5:00 pm -- Dinner?
  * Saturday, June 30, 2007
   * Barbeque at Peter's house
