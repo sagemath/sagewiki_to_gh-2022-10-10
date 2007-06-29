@@ -36,9 +36,9 @@
   * 5:00 pm -- Dinner?
  * Saturday, June 30, 2007
   * 3:00 -- Barbeque at Peter's house 
- * Monday, July 1, 2007
+ * Monday, July 2, 2007
   * 9:30 am -- Jim on medial graphs
- * Sometime July 1-6: Jaime and Robert
+ * Sometime July 2-6: Jaime and Robert
 
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
