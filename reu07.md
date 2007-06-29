@@ -32,10 +32,12 @@
   * 9:30 am -- Peter on star-K
   * 10:45 am -- Jim on critical circular planar graphs
  * Friday, June 29, 2007
-  * 9:30 am -- maybe Jim on medial graphs
+  * 9:30 am -- David
   * 5:00 pm -- Dinner?
  * Saturday, June 30, 2007
-  * Barbeque at Peter's house
+  * 3:00 -- Barbeque at Peter's house 
+ * Monday, July 1, 2007
+  * 9:30 am -- Jim on medial graphs
 
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
