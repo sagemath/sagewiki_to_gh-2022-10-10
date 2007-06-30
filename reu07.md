@@ -33,9 +33,8 @@
   * 10:45 am -- Jim on critical circular planar graphs
  * Friday, June 29, 2007
   * 9:30 am -- David
-  * 5:00 pm -- Dinner?
  * Saturday, June 30, 2007
-  * 3:00 -- Barbeque at Peter's house 
+  * 3:00 -- Barbeque at Peter's house; meet at PDL loading dock 
  * Monday, July 2, 2007
   * 9:30 am -- Jim on medial graphs
  * Sometime July 2-6: Jaime and Robert
