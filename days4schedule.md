@@ -62,7 +62,7 @@ Unless otherwise stated, everything 7am - 10pm will take place in MEB 238.  Late
 
  * 9-12: (optional) early-bird coffee, bagels, etc.
  * 12-1 lunch at A Burger Place (4234 University Way NE)
- * 1:30 - 2:30 Robert Bradshaw: '''Compiled Sage: What I did to improve it'''
+ * 1:30 - 2:30 Robert Bradshaw: '''Why SageX is not Pyrex''' [attachment:SageX.pdf]
  * 3:00 - 4:00 Sara Billey (UW Math): [:sara/days4/abstract: A Computational Approach to Schubert Varieties] [attachment:billey.pdf Slides]
  * 4:30 - 5:00 strategy session
  * 5:00 - 7:00 coding sprints
