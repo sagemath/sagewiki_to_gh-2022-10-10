@@ -43,7 +43,8 @@
   * Independance day!  Fireworks at gasworks park.
  * Thursday, July 5, 2007
   * Kari & Lindsay; Jaime & Jeremiah talk.
-
+ * Friday, July 6th, 2007
+  * Combinatorics of Coxeter Groups Meeting at 2:00 p.m. (in Robert's office)
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
