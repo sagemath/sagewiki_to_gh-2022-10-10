@@ -45,6 +45,9 @@
   * Kari & Lindsay; Jaime & Jeremiah talk.
  * Friday, July 6th, 2007
   * Combinatorics of Coxeter Groups Meeting at 2:00 p.m. (in Robert's office)
+  * Rock Climbing at Stone Gardens in Ballard (Evening)
+ * Saturday, July 7th, 2007
+  * Give Blood (more details to come - meeting sometime in the afternoon)
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
