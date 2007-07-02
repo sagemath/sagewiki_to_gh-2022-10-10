@@ -37,7 +37,12 @@
   * 3:00 pm -- Barbeque at Peter's house; meet at PDL loading dock 
  * Monday, July 2, 2007
   * 9:30 am -- Jim on medial graphs
- * Sometime July 2-6: Jaime and Robert
+ * Tuesday, July 3, 2007
+  * Individual meetings all day.
+ * Wednesday, July 4, 2007
+  * Independance day!  Fireworks at gasworks park.
+ * Thursday, July 5, 2007
+  * Kari & Lindsay; Jaime & Jeremiah talk.
 
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
