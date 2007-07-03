@@ -16,8 +16,7 @@
   * 10:30 -- PDL loading dock: Aquarium
  * Monday, June 25, 2007 (Jim will be missing)
   * 10:00 am -- Brainstorming to come up with problems and other activities.
-    * Ideas here:
-     * brainstorm ideas
+    * [http://www.math.washington.edu/~reu/brainstorm.txt Brainstorming Results]
   * 12:45 pm -- Zome Tools
  * Tuesday, June 26, 2007
   * 9:30 am -- Peter lecture
@@ -48,6 +47,8 @@
   * Rock Climbing at Stone Gardens in Ballard (Evening)
  * Saturday, July 7th, 2007
   * Give Blood (more details to come - meeting sometime in the afternoon)
+ * Thursday, July 12th, 2007
+  * 7:30 pm -- Seattle Symphony preforming Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
