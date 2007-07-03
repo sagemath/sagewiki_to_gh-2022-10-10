@@ -48,7 +48,7 @@
  * Saturday, July 7th, 2007
   * Give Blood (more details to come - meeting sometime in the afternoon)
  * Thursday, July 12th, 2007
-  * 7:30 pm -- Seattle Symphony preforming Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
+  * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
