@@ -47,7 +47,11 @@
   * Rock Climbing at Stone Gardens in Ballard (Evening)
  * Saturday, July 7, 2007
   * Give Blood (more details to come - meeting sometime in the afternoon)
- * Thursday, July 12th, 2007
+ * Sunday, July 8, 2007 
+  * Underground tour and sculpture park
+ * Wednesday, July 11, 2007
+  * 5:00 pm -- Pizza
+ * Thursday, July 12, 2007
   * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
  * Saturday, July 14, 2007
   * Tunnel hike
