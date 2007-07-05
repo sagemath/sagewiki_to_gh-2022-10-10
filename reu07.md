@@ -42,13 +42,17 @@
   * Independance day!  Fireworks at gasworks park.
  * Thursday, July 5, 2007
   * Kari & Lindsay; Jaime & Jeremiah talk.
- * Friday, July 6th, 2007
+ * Friday, July 6, 2007
   * Combinatorics of Coxeter Groups Meeting at 2:00 p.m. (in Robert's office)
   * Rock Climbing at Stone Gardens in Ballard (Evening)
- * Saturday, July 7th, 2007
+ * Saturday, July 7, 2007
   * Give Blood (more details to come - meeting sometime in the afternoon)
  * Thursday, July 12th, 2007
   * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
+ * Saturday, July 14, 2007
+  * Tunnel hike
+ * Sunday, July 29, 2007
+  * Mariners game
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
