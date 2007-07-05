@@ -39,7 +39,7 @@
  * Tuesday, July 3, 2007
   * Individual meetings all day.
  * Wednesday, July 4, 2007
-  * Independance day!  Fireworks at gasworks park.
+  * Independence day!  Fireworks at gasworks park.
  * Thursday, July 5, 2007
   * Kari & Lindsay; Jaime & Jeremiah talk.
  * Friday, July 6, 2007
