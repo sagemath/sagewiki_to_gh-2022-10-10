@@ -51,8 +51,8 @@
   * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
  * Saturday, July 14, 2007
   * Tunnel hike
- * 1:00 pm, Sunday, July 29, 2007
-  * Mariners game
+ * Sunday, July 29, 2007
+  * 1:00 pm -- Mariners game
 === Projects ===
  0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
