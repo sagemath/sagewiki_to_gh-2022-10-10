@@ -46,7 +46,7 @@
   * Combinatorics of Coxeter Groups Meeting at 2:00 p.m. (in Robert's office)
   * Rock Climbing at Stone Gardens in Ballard (Evening)
  * Saturday, July 7, 2007
-  * Give Blood (more details to come - meeting sometime in the afternoon)
+  * Give Blood -- Meet at 10:00 AM at Stevens Court
  * Sunday, July 8, 2007 
   * Underground tour and sculpture park
  * Wednesday, July 11, 2007
