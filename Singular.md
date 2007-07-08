@@ -11,9 +11,51 @@ The Singular team won the ISAAC 2004 Richard D. Jenks Memorial Prize for Excelle
 http://www.singular.uni-kl.de/
 
 = Integration into SAGE =
-Singular is integrated in two ways:
- * by using the Pexpect interface which means that every functionality of Singular is accessible from SAGE. However, this communication channel via pseudo ttys and string parsing may be pretty slow depending on the task at hand. Please refer to the SAGE reference manual, the SAGE tutorial, and the Singular manual for details.
- * by linking directly against a shared library called libSINGULAR which we derive from Singular. This way multivariate polynomial arithmetic over $Q$ and $GF(p)$ is provided through Singular. Other base fields (rings) will follow. In shared library mode no support for the Singular interpreter is provided which means that only a basic subset of Singular's capabilities are available. All of Singular's capabilities are however provided through the pexpect interface and convenient conversion methods are provided.
+The [:pexpect:pexpect] interface allows to deal with Singular objects from within SAGE. This allows to perform almost any Singular calculation 
+from within SAGE.
+
+{{{#!python
+sage: r = singular.ring(0,'(x,y,z)','dp')
+sage: f = singular('x + 2*y + 2*z - 1')
+sage: g = singular('x^2 + 2*y^2 + 2*z^2 - x')
+sage: h = singular('2*x*y + 2*y*z - y')
+sage: I = singular.ideal(f,g,h)
+sage: I.std()
+
+x+2*y+2*z-1,
+10*y*z+12*z^2-y-4*z,
+4*y^2+2*y*z-y,
+210*z^3-79*z^2+7*y+3*z
+
+}}}
+
+Alternatively, commands can be passed to the Singular interpreter directly, allowing SAGE to perform every calculation Singular is capable of.
+
+{{{#!python
+sage: ret = singular.eval('ring r = 0,(x,y,z),dp')
+sage: ret = singular.eval('poly f= x + 2*y + 2*z - 1')
+sage: ret = singular.eval('poly g = x^2 + 2*y^2 + 2*z^2 - x')
+sage: ret = singular.eval('poly h = 2*x*y + 2*y*z - y')
+sage: ret = singular.eval('ideal i = f,g,h')
+sage: print singular.eval('std(i)')
+_[1]=x+2y+2z-1
+_[2]=10yz+12z2-y-4z
+_[3]=4y2+2yz-y
+_[4]=210z3-79z2+7y+3z
+}}}
+
+This functionality is used by several 'native' SAGE objects to perform calculations. For instance, if a Gröbner basis is to be calculated in SAGE Singular is used by default:
+
+{{{#!python
+sage: P.<x,y,z> = PolynomialRing(QQ,3)
+sage: I = sage.rings.ideal.Katsura(P,3)
+sage: I.groebner_basis() # calls Singular in background
+[x + 2*y + 2*z - 1, 10*y*z + 12*z^2 - y - 4*z, 5*y^2 - 3*z^2 - y + z, 210*z^3 - 79*z^2 + 7*y + 3*z]
+}}}
+
+However, the communication channel via pseudo ttys and string parsing may be pretty slow depending on the task at hand.
+
+To use Singular's high performance multivariate polynomial arithmetic SAGE links directly against a shared library called libSINGULAR which we derive from Singular. So far, multivariate polynomial arithmetic over $Q$, $GF(p)$, and $GF(p^n)$ is implemented this way. However, in this shared library mode no support for the Singular interpreter is provided which means that only a basic subset of Singular's capabilities are available, i.e. those written in C/C++. All of Singular's capabilities are however available through the forementioned [:pexpect:pexpect] interface and convenient conversion methods are provided.
 
 = Examples =
 {{{#!python
@@ -21,12 +63,12 @@ sage: P.<x,y,z> = PolynomialRing(QQ,3) # uses Singular in shared library mode
 sage: type(P)
 <type 'sage.rings.polynomial.multi_polynomial_libsingular.MPolynomialRing_libsingular'>
 sage: I = sage.rings.ideal.Katsura(P)
-sage: I.groebner_basis() # calls Singular via the  pexpect interface in background
+sage: I.groebner_basis() # calls Singular via the pexpect interface in background
 [x + 2*y + 2*z - 1, 10*y*z + 12*z^2 - y - 4*z, 5*y^2 - 3*z^2 - y + z, 210*z^3 - 79*z^2 + 7*y + 3*z]
 sage: f = I.gens()[0]
-sage: g = f._singular_() # -> pexpect interface
-sage: P(g) # -> shared library mode
-sage: x + 2*y + 2*z - 1
+sage: g = f._singular_() # shared library implementation -> pexpect interface
+sage: P(g) # pexpect interface implementation -> shared library mode
+x + 2*y + 2*z - 1
 }}}
 
 = Performance =
@@ -83,7 +125,7 @@ MAGMA         0.39
 as output.
 
 = Tips, Tricks, and Pitfalls =
- * As the pseudo tty interface may be slow it is always better to throw data at Singular in large chunks instead of small pieces. Consider this example:
+As the pseudo tty interface may be slow it is always better to throw data at Singular in large chunks instead of small pieces. Consider this example:
 {{{#!python
 sage: singular.ring(0,'(x,y)','dp')
 //   characteristic : 0
@@ -93,10 +135,21 @@ sage: singular.ring(0,'(x,y)','dp')
 //        block   2 : ordering C
 sage: x=singular("x")
 sage: f=0
-sage: time for i in range(1000): f+=x^i
-CPU times: user 0.95 s, sys: 0.12 s, total: 1.08 s
-Wall time: 1.69
-sage: time _ = singular.eval("poly f=0; for(i=0; i<1000 ; i=i+1) { f=f+x^i; }; f")
-CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
-Wall time: 0.15
+sage: time for i in range(10000): f+=x^i
+CPU times: user 4.30 s, sys: 1.28 s, total: 5.58 s
+Wall time: 6.47
+
+sage: ret =singular.eval('int i')
+sage: time _ = singular.eval("poly f=0; for(i=0; i<10000 ; i=i+1) { f=f+x^i; }; f")
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.01 s
+Wall time: 1.24
+
 }}}
+Please note, that this calculation can be done much faster by using the libSINGULAR interface.
+{{{#!python
+sage: P.<x,y> = PolynomialRing(QQ,2)
+sage: f= 0
+sage: sage: time for i in range(10000): f+=x^i
+CPU times: user 0.82 s, sys: 0.00 s, total: 0.82 s
+Wall time: 0.83
+}}} 
