@@ -50,6 +50,7 @@
  * Sunday, July 8, 2007 
   * Underground tour and sculpture park
     * Meet at 11:00 AM at bus stop across from Lander on Campus Pkway; we'll be taking the 70,71,72,73, or 49.  Lindsay has a new cell phone: (425) 418-5006
+    * More babysitting Emily...
  * Wednesday, July 11, 2007
   * 5:00 pm -- Pizza
  * Thursday, July 12, 2007
