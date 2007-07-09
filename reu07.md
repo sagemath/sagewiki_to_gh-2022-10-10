@@ -79,6 +79,8 @@
   * [:reu07/bruhat_notes]
  1. Dirichlet Problem for Directed Networks
   * Kari Christianson, Lindsay Brickson
+ 1. Complex Conductances
+  * Lindsay Erickson
 === Pictures ===
  * [:emilyk:Emily Kirkman]
 === Resources ===
