@@ -39,9 +39,9 @@
  * Tuesday, July 3, 2007
   * Individual meetings all day.
  * Wednesday, July 4, 2007
-  * Independence day!  Fireworks at gasworks park.
+  * Independence day!  Fireworks at gasworks park
  * Thursday, July 5, 2007
-  * Kari & Lindsay; Jaime & Jeremiah talk.
+  * Kari & Lindsay; Jaime & Jeremiah talk
  * Friday, July 6, 2007
   * Combinatorics of Coxeter Groups Meeting at 2:00 p.m. (in Robert's office)
   * Rock Climbing at Stone Gardens in Ballard (Evening)
@@ -52,13 +52,15 @@
     * Meet at 11:00 AM at bus stop across from Lander on Campus Pkway; we'll be taking the 70,71,72,73, or 49.  Lindsay has a new cell phone: (425) 418-5006
   * More babysitting Emily, some database work...
  * Wednesday, July 11, 2007
-  * 5:00 pm -- Pizza
+  *  9:30 am -- James and Nate talk; 5:00 pm -- Pizza
  * Thursday, July 12, 2007
   * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
  * Friday, July 13, 2007
-  * Plexer Talk - Tom Boothby and Andrew Fanoe
+  * 9:30 am -- Plexer Talk - Tom Boothby and Andrew Fanoe
  * Saturday, July 14, 2007
   * Tunnel hike
+ * Friday and Saturday, July 20-21  
+   *Vancouver trip
  * Sunday, July 29, 2007
   * 1:00 pm -- Mariners game
 === Projects ===
