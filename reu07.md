@@ -78,7 +78,7 @@
   * Tom Boothby, Emily Kirkman, Robert Miller
   * [:reu07/bruhat_notes]
  1. Dirichlet Problem for Directed Networks
-  * Kari Christianson, Lindsay Brickson
+  * Kari Christianson, Lindsay Erickson
  1. Complex Conductances
   * Lindsay Erickson
 === Pictures ===
