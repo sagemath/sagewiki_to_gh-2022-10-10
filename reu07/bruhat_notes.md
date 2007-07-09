@@ -31,7 +31,7 @@ Pattern avoidance:
 
   (specific examples)
   Smoothness:
-      w is a smoth permutation iff #{Tij <= w} = h(w)  (i < j)
+      w is a smooth permutation iff #{Tij <= w} = h(w)  (i < j)
       3412 or 4231 avoiding
 
   Fully commutative perms: w avoids 321
