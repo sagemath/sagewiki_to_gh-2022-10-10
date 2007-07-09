@@ -76,6 +76,7 @@
   * Tom Boothby, Emily Kirkman
  1. Combinatorics of Coxeter Groups (with Sara Billey)
   * Tom Boothby, Kari Christianson, Emily Kirkman, Robert Miller
+  * [:reu07/billey_notes]
 === Pictures ===
  * [:emilyk:Emily Kirkman]
 === Resources ===
