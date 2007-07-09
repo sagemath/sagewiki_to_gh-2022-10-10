@@ -55,6 +55,8 @@
   * 5:00 pm -- Pizza
  * Thursday, July 12, 2007
   * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
+ * Friday, July 13, 2007
+  * Plexer Talk - Tom Boothby and Andrew Fanoe
  * Saturday, July 14, 2007
   * Tunnel hike
  * Sunday, July 29, 2007
