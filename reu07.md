@@ -75,8 +75,10 @@
  1. Enhancing precision with exact linear algebra
   * Tom Boothby, Emily Kirkman
  1. Combinatorics of Coxeter Groups (with Sara Billey)
-  * Tom Boothby, Kari Christianson, Emily Kirkman, Robert Miller
+  * Tom Boothby, Emily Kirkman, Robert Miller
   * [:reu07/bruhat_notes]
+ 1. Dirichlet Problem for Directed Networks
+  * Kari Christianson, Lindsay Brickson
 === Pictures ===
  * [:emilyk:Emily Kirkman]
 === Resources ===
