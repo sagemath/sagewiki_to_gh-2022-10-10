@@ -46,7 +46,7 @@
   * Combinatorics of Coxeter Groups Meeting at 2:00 p.m. (in Robert's office)
   * Rock Climbing at Stone Gardens in Ballard (Evening)
  * Saturday, July 7, 2007
-  * Give Blood -- Meet at 10:00 AM at Stevens Court
+  * Give Blood -- Meet at 10:00 AM at Stevens Court.  Pass out, or baby-sit Emily for the rest of the day.
  * Sunday, July 8, 2007 
   * Underground tour and sculpture park
     * Meet at 11:00 AM at bus stop across from Lander on Campus Pkway; we'll be taking the 70,71,72,73, or 49.  Lindsay has a new cell phone: (425) 418-5006
