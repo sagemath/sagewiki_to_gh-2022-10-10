@@ -47,6 +47,8 @@
   * Rock Climbing at Stone Gardens in Ballard (Evening)
  * Saturday, July 7, 2007
   * Give Blood -- Meet at 10:00 AM at Stevens Court.  Pass out, or baby-sit Emily for the rest of the day.
+    * Andrew wins pint-filling competition, with record time 4:45.
+    * Emily wins low blood-pressure competition, with a record 88 over 60.
  * Sunday, July 8, 2007 
   * Underground tour and sculpture park
     * Meet at 11:00 AM at bus stop across from Lander on Campus Pkway; we'll be taking the 70,71,72,73, or 49.  Lindsay has a new cell phone: (425) 418-5006
