@@ -59,10 +59,13 @@
   * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
  * Friday, July 13, 2007
   * 9:30 am -- Plexer Talk - Tom Boothby, Tracy Zhang, and Andrew Fanoe
+  * 6:00 pm -- Dinner at Ivar's
  * Saturday, July 14, 2007
   * Tunnel hike
+ * Wednesday, July 18, 2007
+  * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs
  * Friday and Saturday, July 20-21  
-   *Vancouver trip
+   *Vancouver or Victoria trip
  * Sunday, July 29, 2007
   * 1:00 pm -- Mariners game
 === Projects ===
