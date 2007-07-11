@@ -54,7 +54,8 @@
     * Meet at 11:00 AM at bus stop across from Lander on Campus Pkway; we'll be taking the 70,71,72,73, or 49.  Lindsay has a new cell phone: (425) 418-5006
   * More babysitting Emily, some database work...
  * Wednesday, July 11, 2007
-  *  9:30 am -- James and Nate talk; 5:00 pm -- Pizza
+  * 9:30 am -- James and Nate talk 
+  * 5:00 pm -- Pizza
  * Thursday, July 12, 2007
   * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
  * Friday, July 13, 2007
