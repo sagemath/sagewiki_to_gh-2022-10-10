@@ -63,7 +63,8 @@
  * Saturday, July 14, 2007
   * Tunnel hike
  * Wednesday, July 18, 2007
-  * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs
+  * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254)
+  * 5:00 -- Pizza
  * Friday and Saturday, July 20-21  
    *Vancouver or Victoria trip
  * Sunday, July 29, 2007
