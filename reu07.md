@@ -6,7 +6,7 @@
  * [http://www.math.washington.edu/~billey/classes/schubert.notes/notes.pdf Sara Billey's Schubert Variety notes]
 
 === Schedule ===
- * [:sched_archive:Archive Schedule]
+ * [:reu07/sched_archive:Archive Schedule]
  * Wednesday, July 11, 2007
   * 9:30 am -- James and Nate talk 
   * 5:00 pm -- Pizza
