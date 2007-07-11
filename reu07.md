@@ -87,6 +87,8 @@
   * Kari Christianson, Lindsay Erickson
  1. Complex Conductances
   * Lindsay Erickson
+ 1. Graphs and Connections on a Surface of Arbitrary Genus
+  * Joe Mitchell
 === Pictures ===
  * [:emilyk:Emily Kirkman]
 === Resources ===
