@@ -17,6 +17,8 @@
   * 6:00 pm -- Dinner at Ivar's
  * Saturday, July 14, 2007
   * Tunnel hike
+ * Tuesday, July 17, 2007
+  * 9:30 am -- Computing the automorphism group of a graph, Robert Miller
  * Wednesday, July 18, 2007
   * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254)
   * 5:00 -- Pizza
