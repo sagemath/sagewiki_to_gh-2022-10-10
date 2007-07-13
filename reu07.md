@@ -50,6 +50,8 @@
   * Lindsay Erickson
  1. Graphs and Connections on a Surface of Arbitrary Genus
   * Joe Mitchell
+ 1. Angle Systems and Embeddings
+  * Joey Greer
 === Pictures ===
  * [:emilyk:Emily Kirkman]
 === Resources ===
