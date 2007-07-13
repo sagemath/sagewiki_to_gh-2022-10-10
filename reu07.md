@@ -13,17 +13,20 @@
  * Thursday, July 12, 2007
   * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
  * Friday, July 13, 2007
-  * 9:30 am -- Plexer Talk - Tom Boothby, Tracy Zhang, and Andrew Fanoe
+  * 9:30 am -- Plexer Talk - Tracy Zhang, and Andrew Fanoe
   * 6:00 pm -- Dinner at Ivar's
  * Saturday, July 14, 2007
   * Tunnel hike
+ * Monday, July 15, 2007
+   * 9:30 am -- Joe talk on Jordan curve theorem
+   * 2:00 pm -- leave for Harry Potter movie
  * Tuesday, July 17, 2007
   * 9:30 am -- Computing the automorphism group of a graph, Robert Miller
  * Wednesday, July 18, 2007
   * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254)
   * 5:00 -- Pizza
- * Friday and Saturday, July 20-21  
-   *Vancouver or Victoria trip
+ * Friday, Saturday, and Sunday, July 20-22  
+   *Victoria trip
  * Sunday, July 29, 2007
   * 1:00 pm -- Mariners game
 === Projects ===
