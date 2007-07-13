@@ -25,7 +25,7 @@
  * Wednesday, July 18, 2007
   * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254)
   * 5:00 -- Pizza
- * Friday, Saturday, and Sunday, July 20-22  
+ * Friday, Saturday, and Sunday, July 20-22, 2007  
    *Victoria trip
  * Sunday, July 29, 2007
   * 1:00 pm -- Mariners game
