@@ -4,6 +4,7 @@
  * [http://www.math.washington.edu/~morrow/reu07/reu.html Jim Morrow's page]: Relevant papers.
  * [http://www.math.washington.edu/~reu/ REU Archives]
  * [http://www.math.washington.edu/~billey/classes/schubert.notes/notes.pdf Sara Billey's Schubert Variety notes]
+ * [:days4/projects/redbull: Staple the dead beaver to the sidewalk.]
 
 === Schedule ===
  * [:reu07/sched_archive:Archive Schedule]
