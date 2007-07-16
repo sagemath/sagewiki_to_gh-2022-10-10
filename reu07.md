@@ -13,9 +13,11 @@
    * Evening -- Emily's girlfriend's band
  * Tuesday, July 17, 2007
   * 9:30 am -- Computing the automorphism group of a graph, Robert Miller
+  * Frisbee with SIMUW ?
  * Wednesday, July 18, 2007
   * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254)
   * 5:00 -- Pizza
+  * 6:00 -- Picnic at Magnuson?
  * Friday, Saturday, and Sunday, July 20-22, 2007  
    *Victoria trip
  * Sunday, July 29, 2007
