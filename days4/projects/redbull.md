@@ -44,3 +44,12 @@ attachment:sotired.png
 attachment:dillhole.gif
 
 attachment:nino.gif
+
+attachment:ninja1.jpg
+
+attachment:ninja2.jpg
+
+attachment:ninja3.jpg
+
+attachment:ninja4.jpg
+
