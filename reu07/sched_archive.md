@@ -48,3 +48,16 @@ Return to [:reu07:main page].
   * Underground tour and sculpture park
     * Meet at 11:00 AM at bus stop across from Lander on Campus Pkway; we'll be taking the 70,71,72,73, or 49.  Lindsay has a new cell phone: (425) 418-5006
   * More babysitting Emily, some database work...
+ * Wednesday, July 11, 2007
+  * 9:30 am -- James and Nate talk 
+  * 5:00 pm -- Pizza
+ * Thursday, July 12, 2007
+  * 7:30 pm -- Seattle Symphony performing Tchaikovsky's Violin Concerto in D major and Orff's Carmina Burana
+ * Friday, July 13, 2007
+  * 9:30 am -- Plexer Talk - Tracy Zhang, and Andrew Fanoe
+  * 6:00 pm -- Dinner at Ivar's; 401 Northlake Way, Northlake and 4th, near Dunn lumber
+ * Saturday, July 14, 2007
+  * Tunnel hike; meet at 10:30 am at Brooklyn parking lot
+ * Sunday, July 15, 2007
+  * Ultimate at 2:00 pm, Field West at Stevens -- be there!!
+  * Meet to discuss Victoria trip
