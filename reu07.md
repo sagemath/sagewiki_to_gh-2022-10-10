@@ -24,6 +24,7 @@
   * 6:00 -- Picnic at Magnuson?
  * Friday, Saturday, and Sunday, July 20-22, 2007  
    *Victoria trip
+   * Jeremy Enigk at the Chop Suey (21+). Doors open at 9 p.m. [http://www.ticketweb.com/user/?region=wa&query=schedule&venue=chopsuey1 Tickets.]
  * Sunday, July 29, 2007
   * 1:00 pm -- Mariners game
 === Projects ===
