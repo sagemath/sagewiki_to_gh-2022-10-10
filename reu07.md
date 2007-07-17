@@ -6,7 +6,7 @@
  * [http://www.math.washington.edu/~billey/classes/schubert.notes/notes.pdf Sara Billey's Schubert Variety notes]
  * Dive into Python: http://www.diveintopython.org/
 
-== Talks ==
+=== Talks ===
  * It would be really cool if we posted the in-progress papers distributed at the talks so far this summer.  Jim, do you have copies?
 
 === Schedule ===
