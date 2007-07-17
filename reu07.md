@@ -1,18 +1,10 @@
 [[TableOfContents]]
 
-== REU ==
+== REU Resources ==
  * [http://www.math.washington.edu/~morrow/reu07/reu.html Jim Morrow's page]: Relevant papers.
  * [http://www.math.washington.edu/~reu/ REU Archives]
  * [http://www.math.washington.edu/~billey/classes/schubert.notes/notes.pdf Sara Billey's Schubert Variety notes]
-
-== T-shirt Ideas ==
-attachment:ninja_star.png
-
-attachment:frisbee.png
-
-http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=dillhole.gif
-
-http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=ninja1.jpg
+ * Dive into Python: http://www.diveintopython.org/
 
 === Schedule ===
  * [:reu07/sched_archive:Archive Schedule]
@@ -59,8 +51,17 @@ http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=
   * Joey Greer
 === Pictures ===
  * [:emilyk:Emily Kirkman]
-=== Resources ===
- * Dive into Python: http://www.diveintopython.org/
+
+== T-shirt Ideas ==
+attachment:ninja_star.png
+
+attachment:frisbee.png
+
+http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=dillhole.gif
+
+http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=ninja1.jpg
+
+
 == Wiki examples ==
 To include a link:
 
