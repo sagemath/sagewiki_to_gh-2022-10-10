@@ -33,12 +33,14 @@
   * Emily Kirkman
     * Use the current [http://sage.math.washington.edu:8500/genus_code version].
     * Inclusion of [http://pigale.sourceforge.net/ PIGALE] should lead to an improvement here as well (see below).
- 1. Algorithm to test for circular planarity
+ 1. Algorithm to test for recoverability
   * Emily Kirkman
-  * Status: Linear time achievable by modifying the graph before calling an O(n) planar embedding (testing) algorithm.  (Not reinventing the wheel, just sticking one in the graph).  Currently working on including PIGALE's tgraph library in SAGE.
-  * Resources: 
-    * A simple O(n) Planarity Testing [http://www.cs.uvic.ca/~wendym/my_pubs/boyer.ps Algorithm]
-    * [http://pigale.sourceforge.net/ PIGALE] implementation of the algorithm.  (See also: [http://en.wikipedia.org/wiki/Fraysseix-Rosenstiehl%27s_planarity_criterion wikipedia] page describing Fraysseix-Rosenstiehl planarity criterion).
+  * Circular Planarity Testing: 
+    * Status: Linear time achievable by modifying the graph before calling an O(n) planar embedding (testing) algorithm.  (Not reinventing the wheel, just sticking one in the graph).  Currently working on including PIGALE's tgraph library in SAGE.
+    * Resources: 
+      * A simple O(n) Planarity Testing [http://www.cs.uvic.ca/~wendym/my_pubs/boyer.ps Algorithm]
+      * [http://boost.sourceforge.net/ Boost] implementation of the algorithm.
+  * Criticality
  1. Enhancing precision with exact linear algebra
   * Tom Boothby, Emily Kirkman
  1. Combinatorics of Coxeter Groups (with Sara Billey)
@@ -51,7 +53,9 @@
  1. Graphs and Connections on a Surface of Arbitrary Genus
   * Joe Mitchell
  1. Angle Systems and Embeddings
-  * Joey Greer
+  * Joey Greer, Emily Kirkman
+ 1. New Algorithm for Finding Planar Embeddings with user-defined Topological Constraints
+  * Emily Kirkman
 === Pictures ===
  * [:emilyk:Emily Kirkman]
 
