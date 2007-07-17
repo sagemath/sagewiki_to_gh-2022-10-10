@@ -8,7 +8,7 @@
 == T-shirt Ideas ==
 attachment:ninja_star.png
 attachment:frisbee.png
-
+http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=dillhole.gif
 
 === Schedule ===
  * [:reu07/sched_archive:Archive Schedule]
