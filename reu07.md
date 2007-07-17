@@ -5,6 +5,11 @@
  * [http://www.math.washington.edu/~reu/ REU Archives]
  * [http://www.math.washington.edu/~billey/classes/schubert.notes/notes.pdf Sara Billey's Schubert Variety notes]
 
+== T-shirt Ideas ==
+attachment:ninja_star.png
+attachment:frisbee.png
+
+
 === Schedule ===
  * [:reu07/sched_archive:Archive Schedule]
  * Monday, July 15, 2007
