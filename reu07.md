@@ -12,6 +12,8 @@ attachment:frisbee.png
 
 http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=dillhole.gif
 
+http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=ninja1.jpg
+
 === Schedule ===
  * [:reu07/sched_archive:Archive Schedule]
  * Monday, July 15, 2007
