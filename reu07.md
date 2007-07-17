@@ -61,6 +61,8 @@ http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=
 
 http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=ninja1.jpg
 
+http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=ninja3.jpg
+
 
 == Wiki examples ==
 To include a link:
