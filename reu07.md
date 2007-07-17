@@ -27,8 +27,6 @@
  * Sunday, July 29, 2007
   * 1:00 pm -- Mariners game
 === Projects ===
- 0. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
-  * Tom Boothby, Robert Miller
  1. Update Owen and Jeff's Genus Code.
   * Emily Kirkman
     * Use the current [http://sage.math.washington.edu:8500/genus_code version].
@@ -56,6 +54,8 @@
   * Joey Greer, Emily Kirkman
  1. New Algorithm for Finding Planar Embeddings with user-defined Topological Constraints
   * Emily Kirkman
+ 1. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
+  * Tom Boothby, Robert Miller
 === Pictures ===
  * [:emilyk:Emily Kirkman]
 
