@@ -35,7 +35,7 @@
  1. Algorithm to test for recoverability
   * Emily Kirkman
   * Circular Planarity Testing: 
-    * Status: Linear time achievable by modifying the graph before calling an O(n) planar embedding (testing) algorithm.  (Not reinventing the wheel, just sticking one in the graph).  Currently working on including PIGALE's tgraph library in SAGE.
+    * Status: Linear time achievable by modifying the graph before calling an O(n) planar embedding (testing) algorithm.  (Not reinventing the wheel, just sticking one in the graph).  Currently working on including the Boost library in SAGE.
     * Resources: 
       * A simple O(n) Planarity Testing [http://www.cs.uvic.ca/~wendym/my_pubs/boyer.ps Algorithm]
       * [http://boost.sourceforge.net/ Boost] implementation of the algorithm.
