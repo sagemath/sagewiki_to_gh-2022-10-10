@@ -5,6 +5,7 @@
  * [http://www.math.washington.edu/~reu/ REU Archives]
  * [http://www.math.washington.edu/~billey/classes/schubert.notes/notes.pdf Sara Billey's Schubert Variety notes]
  * Dive into Python: http://www.diveintopython.org/
+ * Python Library reference: http://www.python.org/doc/current/lib/lib.html
 
 === Talks ===
  * It would be really cool if we posted the in-progress papers distributed at the talks so far this summer.  Jim, do you have copies?
