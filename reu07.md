@@ -21,12 +21,15 @@
  * Wednesday, July 18, 2007
   * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254)
   * 5:00 -- Pizza
-  * 6:00 -- Picnic at Magnuson?
+ * Thursday, July, 19, 2007
+  * 6:00 -- Picnic at Magnuson, just south of the boat launch;  Enter on 65th Street
+ * Friday, July 20
+  * Vote on t-shirt design
  * Friday, Saturday, and Sunday, July 20-22, 2007  
    *Victoria trip
    * Jeremy Enigk at the Chop Suey (21+). Doors open at 9 p.m. [http://www.ticketweb.com/user/?region=wa&query=schedule&venue=chopsuey1 Tickets.]
  * Sunday, July 29, 2007
-  * 1:00 pm -- Mariners game
+  * 1:05 pm -- Mariners game
 === Projects ===
  1. Update Owen and Jeff's Genus Code.
   * Emily Kirkman
