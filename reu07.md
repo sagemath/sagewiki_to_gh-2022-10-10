@@ -22,7 +22,7 @@
   * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254)
   * 5:00 -- Pizza
  * Thursday, July, 19, 2007
-  * 6:00 -- Picnic at Magnuson, just south of the boat launch;  Enter on 65th Street
+  * 6:00 -- Picnic at Magnuson, just south of the boat launch;  enter on 65th Street
  * Friday, July 20
   * Vote on t-shirt design
  * Friday, Saturday, and Sunday, July 20-22, 2007  
