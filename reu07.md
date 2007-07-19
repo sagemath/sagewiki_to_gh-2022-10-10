@@ -67,17 +67,9 @@
 == T-shirt Ideas ==
 attachment:ninja_star.png
 
-attachment:frisbee.png
-
-http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=dillhole.gif
-
 http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=ninja1.jpg
 
 http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=ninja3.jpg
-
-http://images.salon.com/books/review/2005/01/12/lincoln/story.jpg
-
-http://www.dvdverdict.com/images/reviewpics/sp82.jpg
 
 
 == Wiki examples ==
