@@ -7,7 +7,7 @@ This is a high-level overview and list of functionality that is easily available
 == Calculus ==
  * SAGE has fairly complete symbolic manipulation capabilities, including symbolic and numerical integration, differentiation, limits, etc.
 
-== Combinators ==
+== Combinatorics ==
  * Many basic functions.
  * Many of Sloane's functions are implemented.
 
