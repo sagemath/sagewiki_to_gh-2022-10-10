@@ -27,8 +27,10 @@
  * Friday, July 20
   * Vote on t-shirt design
  * Friday, Saturday, and Sunday, July 20-22, 2007  
-   *Victoria trip
+   * Bite of Seattle
    * Jeremy Enigk at the Chop Suey (21+). Doors open at 9 p.m. [http://www.ticketweb.com/user/?region=wa&query=schedule&venue=chopsuey1 Tickets.]
+ * Monday, July 23, 2007
+  * Joey on angle systems; vote on t-shirts
  * Sunday, July 29, 2007
   * 1:05 pm -- Mariners game
 === Projects ===
