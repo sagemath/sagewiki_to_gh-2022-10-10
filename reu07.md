@@ -8,8 +8,7 @@
  * Python Library reference: http://www.python.org/doc/current/lib/lib.html
 
 === Talks ===
- * It would be really cool if we posted the in-progress papers distributed at the talks so far this summer.  Jim, do you have copies?
-
+ *  All talks are posted on [http://www.math.washington.edu/~reu/papers/current/]
 === Schedule ===
  * [:reu07/sched_archive:Archive Schedule]
  * Monday, July 15, 2007
