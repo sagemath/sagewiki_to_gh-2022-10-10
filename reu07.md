@@ -66,13 +66,10 @@
 === Pictures ===
  * [:emilyk:Emily Kirkman]
 
-== T-shirt Ideas ==
-attachment:ninja_star.png
-
-http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=ninja1.jpg
-
-http://sagemath.org:9001/days4/projects/redbull?action=AttachFile&do=get&target=ninja3.jpg
-
+== T-shirt Decision ==
+ * Crab full size on back
+ * Owen'ed full size on front, UW Math REU 2007 Jaime-style on top / bottom
+ * Blue shirts with yellow text
 
 == Wiki examples ==
 To include a link:
