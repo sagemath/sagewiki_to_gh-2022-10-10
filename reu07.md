@@ -30,6 +30,15 @@
    * Jeremy Enigk at the Chop Suey (21+). Doors open at 9 p.m. [http://www.ticketweb.com/user/?region=wa&query=schedule&venue=chopsuey1 Tickets.]
  * Monday, July 23, 2007
   * Joey on angle systems; vote on t-shirts
+* Tuesday, July 24, 2007
+ * More Joey at 9:30; Coloring knots at 1:30, Smith 115
+* Wednesday, July 25
+  * Pizza at 5:00
+* Thursday, July 26
+ * 9:30: More Plexers (Andrew et al)
+* Friday, July 27
+ * 9:30: More Neumann-to-Dirichlet (James)
+* July 27-29, Victoria trip
  * Sunday, July 29, 2007
   * 1:05 pm -- Mariners game
 === Projects ===
