@@ -19,7 +19,7 @@
   * 9:30 am -- Computing the automorphism group of a graph, Robert Miller
   * Frisbee with SIMUW ?
  * Wednesday, July 18, 2007
-  * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254)
+  * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254; http://www.math.ucla.edu/~ernmon/boomerang/boomerang.pdf
   * 5:00 -- Pizza
  * Thursday, July, 19, 2007
   * 6:00 -- Picnic at Magnuson, just south of the boat launch;  enter on 65th Street
