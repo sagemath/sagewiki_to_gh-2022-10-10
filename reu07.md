@@ -26,7 +26,7 @@
 === Projects ===
  1. Update Owen and Jeff's Genus Code.
   * Emily Kirkman, Robert Miller
-    * The current version is implemented in SAGE 2.7.1 (available at https://sage.math.washington.edu/8600 )
+    * The current version is implemented in SAGE 2.7.1 (available at https://sage.math.washington.edu:8600 )
     * Backtracking should lead to a significant improvement.  (This will probably be hacked at after the REU is over, but you guys should check back because it will be awesome).
  1. Algorithm to test for recoverability
   * Emily Kirkman
