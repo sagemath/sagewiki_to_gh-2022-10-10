@@ -35,11 +35,15 @@
  * Wednesday, July 25
   * Pizza at 5:00
  * Thursday, July 26
-  * 9:30: More Plexers (Andrew et al)
+  * 9:30: More Plexers (Andrew an Tracy)
   * 5:30 Laurelhurst salmon bake; details:   http://www.seattle.gov/parks/centers/Laurelhurst/activity.htm
-  * July 27-29, Victoria trip
+  * 7:05: Mariners game
+ * Friday, July 27
+  * 9:30: James
+  * 2:30: Anton Dochtermann on Topology of Graph Homomorphisms; Sieg 220
+  * July 27-29, Victoria trip?
  * Sunday, July 29, 2007
-  * 1:05 pm -- Mariners game
+  * 1:05 pm -- Mariners game?
  * Friday, August 3
   * 2:00 Friends and Enemies simulation
 === Projects ===
