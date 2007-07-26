@@ -62,7 +62,7 @@
   * [:reu07/bruhat_notes]
  1. Dirichlet Problem for Directed Networks
   * Kari Christianson, Lindsay Erickson
- 1. Star-Ks and 2:1 Networks w/ Complex Admittance
+ 1. Complexers
   * Lindsay Erickson
  1. Graphs and Connections on a Surface of Arbitrary Genus
   * Joe Mitchell
