@@ -35,7 +35,7 @@
  * Wednesday, July 25
   * Pizza at 5:00
  * Thursday, July 26
-  * 9:30: More Plexers (Andrew an Tracy)
+  * 9:30: More Plexers (Andrew and Tracy)
   * 5:30 Laurelhurst salmon bake; details:   http://www.seattle.gov/parks/centers/Laurelhurst/activity.htm
   * 7:05: Mariners game
  * Friday, July 27
