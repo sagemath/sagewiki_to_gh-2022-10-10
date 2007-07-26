@@ -25,9 +25,9 @@
   * 2:00 Friends and Enemies simulation
 === Projects ===
  1. Update Owen and Jeff's Genus Code.
-  * Emily Kirkman
-    * Use the current [http://sage.math.washington.edu:8500/genus_code version].
-    * Inclusion of [http://pigale.sourceforge.net/ PIGALE] should lead to an improvement here as well (see below).
+  * Emily Kirkman, Robert Miller
+    * The current version is implemented in SAGE 2.7.1 (available at https://sage.math.washington.edu/8600 )
+    * Backtracking should lead to a significant improvement.  (This will probably be hacked at after the REU is over, but you guys should check back because it will be awesome).
  1. Algorithm to test for recoverability
   * Emily Kirkman
   * Circular Planarity Testing: 
@@ -39,7 +39,7 @@
  1. Enhancing precision with exact linear algebra
   * Tom Boothby, Emily Kirkman
  1. Combinatorics of Coxeter Groups (with Sara Billey)
-  * Tom Boothby, Sean Howe, Emily Kirkman, Robert Miller
+  * Sean Howe, Emily Kirkman, Robert Miller
   * [:reu07/bruhat_notes]
  1. Dirichlet Problem for Directed Networks
   * Kari Christianson, Lindsay Erickson
@@ -48,9 +48,9 @@
  1. Graphs and Connections on a Surface of Arbitrary Genus
   * Joe Mitchell
  1. Angle Systems and Embeddings
-  * Joey Greer, Emily Kirkman
+  * Joey Greer
  1. New Algorithm for Finding Planar Embeddings with user-defined Topological Constraints
-  * Emily Kirkman
+  * Emily Kirkman - This will also come after inclusion of Boost.  (see above)
  1. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
 === Pictures ===
