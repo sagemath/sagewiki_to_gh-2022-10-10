@@ -11,29 +11,6 @@
  *  All talks are posted on [http://www.math.washington.edu/~reu/papers/current/]
 === Schedule ===
  * [:reu07/sched_archive:Archive Schedule]
- * Monday, July 15, 2007
-   * 9:30 am -- Joe talk on Jordan curve theorem
-   * 2:00 pm -- leave for Harry Potter movie
-   * Evening -- Emily's girlfriend's band
- * Tuesday, July 17, 2007
-  * 9:30 am -- Computing the automorphism group of a graph, Robert Miller
-  * Frisbee with SIMUW ?
- * Wednesday, July 18, 2007
-  * 1:30 -- 4:00 pm; Ernie Esser on Boomerangs (MGH 254; http://www.math.ucla.edu/~ernmon/boomerang/boomerang.pdf
-  * 5:00 -- Pizza
- * Thursday, July, 19, 2007
-  * 6:00 -- Picnic at Magnuson, just south of the boat launch;  enter on 65th Street
- * Friday, July 20
-  * Vote on t-shirt design
- * Friday, Saturday, and Sunday, July 20-22, 2007  
-   * Bite of Seattle
-   * Jeremy Enigk at the Chop Suey (21+). Doors open at 9 p.m. [http://www.ticketweb.com/user/?region=wa&query=schedule&venue=chopsuey1 Tickets.]
- * Monday, July 23, 2007
-  * Joey on angle systems; vote on t-shirts
- * Tuesday, July 24, 2007
-  * More Joey at 9:30; Coloring knots at 1:30, Smith 115
- * Wednesday, July 25
-  * Pizza at 5:00
  * Thursday, July 26
   * 9:30: More Plexers (Andrew and Tracy)
   * 5:30 Laurelhurst salmon bake; details:   http://www.seattle.gov/parks/centers/Laurelhurst/activity.htm
@@ -43,7 +20,7 @@
   * 2:30: Anton Dochtermann on Topology of Graph Homomorphisms; Sieg 220
   * July 27-29, Victoria trip?
  * Sunday, July 29, 2007
-  * 1:05 pm -- Mariners game?
+  * 1:05 pm -- Mariners game
  * Friday, August 3
   * 2:00 Friends and Enemies simulation
 === Projects ===
