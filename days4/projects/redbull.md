@@ -1,7 +1,10 @@
 === Stay up all night and post cracked out nonsense. ===
 
 [:days4/projects/: Other SAGE Days 4 Project]
+
+
 attachment:nun.jpg
+
 attachment:redbull.jpg
 
   * Emily: Be careful of the Dr. Pepper; there's still juice in that.
