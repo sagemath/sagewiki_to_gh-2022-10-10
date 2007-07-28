@@ -11,6 +11,7 @@ This is a list of programs and packages for mathematics that might possibly be i
  * [http://www.mathe2.uni-bayreuth.de/axel/symneu_engl.html Symmetrica] (combinatorial representation theory).
  * [http://www.mit.edu/~ibaran/kseg.html kseg] (dynamic Euclidean geometry, a la Geometer's Sketchpad; relevant for educational users).
  * [http://www-swiss.ai.mit.edu/~gjs/6946/linux-install.htm scmutils], an MIT-Scheme package for symbolic manipulation, mostly with differential geometry. Created for the [http://www-swiss.ai.mit.edu/~gjs/6946/sicm-html/index.html SICM]: Structure and Interpretation of Classical Mechanics course
+ * [http://rpy.sourceforge.net/ rpy] A python interface to [http://www.r-project.org/ R], an open source statistics package. 
 
 == Software that is free and tries to do what SAGE does ==
  * http://www.mathemagix.org/mmxweb/web/welcome.en.html -- Their overall goal is very similar to SAGE's.  However, they make different design choices than we have with SAGE in almost every way:
