@@ -21,6 +21,8 @@
   * July 27-29, Victoria trip?
  * Sunday, July 29, 2007
   * 1:05 pm -- Mariners game
+ * Thursday, August 2
+  * 5:30 - closing; Laurelhurst Beach Club, tables 10 and 11; 51st Ave NE and NE Laurelhurst Lane.
  * Friday, August 3
   * 2:00 Friends and Enemies simulation
 === Projects ===
