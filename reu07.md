@@ -12,8 +12,8 @@
 === Schedule ===
  * [:reu07/sched_archive:Archive Schedule]
  * Thursday, July 26
-  * 9:30: More Plexers (Andrew and Tracy)
-  * 5:30 Laurelhurst salmon bake; details:   http://www.seattle.gov/parks/centers/Laurelhurst/activity.htm
+  * 9:30 am: More Plexers (Andrew and Tracy)
+  * 5:30 pm Laurelhurst salmon bake; details:   http://www.seattle.gov/parks/centers/Laurelhurst/activity.htm
   * 7:05: Mariners game
  * Friday, July 27
   * 9:30: James
@@ -22,9 +22,9 @@
  * Sunday, July 29, 2007
   * 1:05 pm -- Mariners game
  * Thursday, August 2
-  * 5:30 - closing; Laurelhurst Beach Club, tables 10 and 11; 51st Ave NE and NE Laurelhurst Lane.
+  * 5:30 pm - closing; Laurelhurst Beach Club, tables 10 and 11; 51st Ave NE and NE Laurelhurst Lane.
  * Friday, August 3
-  * 2:00 Friends and Enemies simulation
+  * 2:00 pm: Friends and Enemies simulation
 === Projects ===
  1. Update Owen and Jeff's Genus Code.
   * Emily Kirkman, Robert Miller
