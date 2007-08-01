@@ -21,10 +21,17 @@
   * July 27-29, Victoria trip?
  * Sunday, July 29, 2007
   * 1:05 pm -- Mariners game
+ * Wednesday, August 1
+  * 5:00 pm: Last Pizza
  * Thursday, August 2
   * 5:30 pm - closing; Laurelhurst Beach Club, tables 10 and 11; 51st Ave NE and NE Laurelhurst Lane.
  * Friday, August 3
-  * 2:00 pm: Friends and Enemies simulation
+  * 9:30 am: Lindsay; 10:45 am: Jeremiah 
+  * 2:00 pm: Friends and Enemies simulation 
+ * Wednesday, August 8
+  * 6:00 pm: Gorditos
+ * Friday, August 10
+  * Review; Troll photo
 === Projects ===
  1. Update Owen and Jeff's Genus Code.
   * Emily Kirkman, Robert Miller
