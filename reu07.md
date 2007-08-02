@@ -24,7 +24,7 @@
  * Wednesday, August 1
   * 5:00 pm: Last Pizza
  * Thursday, August 2
-  * 5:30 pm - closing; Laurelhurst Beach Club, tables 10 and 11; 51st Ave NE and NE Laurelhurst Lane. Location: http://maps.live.com/default.aspx?v=2&cp=47.656182~-122.272474&style=h&lvl=17&tilt=-90&dir=0&alt=-1000&scene=3693735&encType=1
+  * 5:30 pm - closing; Laurelhurst Beach Club, tables 10 and 11; 51st Ave NE and NE Laurelcrest Lane. Location: http://maps.live.com/default.aspx?v=2&cp=47.656182~-122.272474&style=h&lvl=17&tilt=-90&dir=0&alt=-1000&scene=3693735&encType=1
  * Friday, August 3
   * 9:30 am: Lindsay
   * 10:45 am: Jeremiah 
