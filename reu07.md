@@ -26,15 +26,15 @@
  * Thursday, August 2
   * 5:30 pm - closing; Laurelhurst Beach Club, tables 10 and 11; 51st Ave NE and NE Laurelhurst Lane. Location: http://maps.live.com/default.aspx?v=2&cp=47.656182~-122.272474&style=h&lvl=17&tilt=-90&dir=0&alt=-1000&scene=3693735&encType=1
  * Friday, August 3
-  * 9:30 am: Lindsay; 10:45 am: Jeremiah 
-  * 2:00 pm: A Coxeter Approach to Graph Embeddings (Robert)
+  * 9:30 am: Lindsay
+  * 10:45 am: Jeremiah 
  * Monday, August 6
-  * 9:30 am: Joe and Jaime
+  * 9:30 am: A Coxeter Approach to Graph Embeddings (Robert)
  * Tuesday, August 7
   * 9:30 am: Nate and James
   * 10:45 am: Sean and Emily
  * Wednesday, August 8
- * 9:30 am: Joey
+  * 9:30 am: Joey
   * 10:45 am: Kari and Lindsay
   * 6:00 pm: Gorditos, 213 N 85th St
  * Thursday, August 9
