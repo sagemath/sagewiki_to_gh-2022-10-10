@@ -30,6 +30,7 @@
   * 10:45 am: Jeremiah 
  * Monday, August 6
   * 9:30 am: A Coxeter Approach to Graph Embeddings (Robert)
+  * 10:45 am: Joe and Jaime
  * Tuesday, August 7
   * 9:30 am: Nate and James
   * 10:45 am: Sean and Emily
