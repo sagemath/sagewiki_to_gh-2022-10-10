@@ -36,6 +36,7 @@
  * Wednesday, August 8
   * 9:30 am: Joey
   * 10:45 am: Kari and Lindsay
+  * 2:00 - 2:20pm: Friends and Enemies Simulation
   * 6:00 pm: Gorditos, 213 N 85th St
  * Thursday, August 9
   * 9:30 am: Tracy, Tom, Andrew
