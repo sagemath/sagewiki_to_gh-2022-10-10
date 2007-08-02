@@ -28,10 +28,21 @@
  * Friday, August 3
   * 9:30 am: Lindsay; 10:45 am: Jeremiah 
   * 2:00 pm: A Coxeter Approach to Graph Embeddings (Robert)
+ * Monday, August 6
+  * 9:30 am: Joe and Jaime
+ * Tuesday, August 7
+  * 9:30 am: Nate and James
+  * 10:45 am: Sean and Emily
  * Wednesday, August 8
-  * 6:00 pm: Gorditos
+ * 9:30 am: Joey
+  * 10:45 am: Kari and Lindsay
+  * 6:00 pm: Gorditos, 213 N 85th St
+ * Thursday, August 9
+  * 9:30 am: Tracy, Tom, Andrew
+  * 10:45 am: Joe and Tom
+  * 1:00 pm: Photo at the Troll
  * Friday, August 10
-  * Review; Troll photo
+  * Review
 === Projects ===
  1. Update Nick's Genus Code.
   * Emily Kirkman, Robert Miller
