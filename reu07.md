@@ -11,26 +11,6 @@
  *  All talks are posted on [http://www.math.washington.edu/~reu/papers/current/]
 === Schedule ===
  * [:reu07/sched_archive:Archive Schedule]
- * Thursday, July 26
-  * 9:30 am: More Plexers (Andrew and Tracy)
-  * 5:30 pm Laurelhurst salmon bake; details:   http://www.seattle.gov/parks/centers/Laurelhurst/activity.htm
-  * 7:05: Mariners game
- * Friday, July 27
-  * 9:30: James
-  * 2:30: Anton Dochtermann on Topology of Graph Homomorphisms; Sieg 220
-  * July 27-29, Victoria trip?
- * Sunday, July 29, 2007
-  * 1:05 pm -- Mariners game
- * Wednesday, August 1
-  * 5:00 pm: Last Pizza
- * Thursday, August 2
-  * 5:30 pm - closing; Laurelhurst Beach Club, tables 10 and 11; 51st Ave NE and NE Laurelcrest Lane. Location: http://maps.live.com/default.aspx?v=2&cp=47.656182~-122.272474&style=h&lvl=17&tilt=-90&dir=0&alt=-1000&scene=3693735&encType=1
- * Friday, August 3
-  * 9:30 am: Lindsay
-  * 10:45 am: Jeremiah 
- * Monday, August 6
-  * 9:30 am: A Coxeter Approach to Graph Embeddings (Robert)
-  * 10:45 am: Joe and Tom
  * Tuesday, August 7
     * 9:30 am: Joey
  * Wednesday, August 8
