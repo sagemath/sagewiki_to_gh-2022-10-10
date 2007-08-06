@@ -32,8 +32,7 @@
   * 9:30 am: A Coxeter Approach to Graph Embeddings (Robert)
   * 10:45 am: Joe and Tom
  * Tuesday, August 7
-  * 9:30 am: Nate and James
-  * 10:45 am: Joey
+    * 9:30 am: Joey
  * Wednesday, August 8
   * 9:30 am: Sean and Emily
   * 10:45 am: Kari and Lindsay
@@ -41,7 +40,8 @@
   * 6:00 pm: Gorditos, 213 N 85th St
  * Thursday, August 9
   * 9:30 am: Tracy, Tom, Andrew
-  * 10:45 am: Joe and Jaime
+  * 10:30 am: Joe and Jaime
+  * 11:30 am: Nate and James
   * 1:00 pm: Photo at the Troll
  * Friday, August 10
   * Review
