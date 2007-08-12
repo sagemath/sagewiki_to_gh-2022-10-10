@@ -1,5 +1,5 @@
 = TeXmacs support for SAGE =
-There is a TeXmacs plugin for SAGE.  The plugin is based on the TeXmacs Python plugin by Ero Carrera.  It has support for LaTeX display, tab completion, doc string / source support.  Examples of the TeXmacs SAGE plugin can be seen below.
+There is a [http://www.texmacs.org/ TeXmacs] plugin for SAGE.  The plugin is based on the TeXmacs Python plugin by Ero Carrera.  It has support for LaTeX display, tab completion, doc string / source support.  Examples of the TeXmacs SAGE plugin can be seen below.
 
 attachment:texmacs-sage.png attachment:texmacs-sage2.png
 
