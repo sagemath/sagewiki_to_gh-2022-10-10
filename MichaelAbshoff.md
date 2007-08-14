@@ -1,12 +1,13 @@
 = Michael Abshoff's Wiki SAGE page =
 
-Hello, I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated to making it work better on Windows using cygwin.
+Hello, I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated to making it work better.
+
 
 == Task Table ==
 === Currently Working on ===
+ * Solaris port of SAGE.
  * DMG installation image for MacOSX
- * MSI Windows installer
- * Cygwin port of SAGE, build tests and small compilation fixes
+ 
 === Short Term ===
  * build unified Setup.py for gdmodule
  * multivariate polynomial arithmetic via CoCoALib
