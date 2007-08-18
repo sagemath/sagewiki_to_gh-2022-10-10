@@ -11,7 +11,7 @@
       http://www.sagemath.org:9002/sage_trac/milestone/sage-2.8.2
 
    However, people with other interests can of course help out with fixing anything they want. 
-    
+   
 
  * Write to wstein@gmail.com for an account on the bug tracker. 
 
