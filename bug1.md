@@ -1,0 +1,9 @@
+= First SAGE Bug Squash =
+
+ * The base version of SAGE we'll start with is here:
+      http://sage.math.washington.edu/bug/
+
+ * The trac server with all the bugs is here:
+      http://www.sagemath.org:9002/sage_trac/report/1
+
+ * Write to wstein@gmail.com for an account on the bug tracker. 
