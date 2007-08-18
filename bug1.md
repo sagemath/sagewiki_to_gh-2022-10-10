@@ -1,6 +1,6 @@
 = First SAGE Bug Squash =
 
-Remember the "Twisted Rule" -- Don't work on *anything* unless there is a trac ticket for it.
+Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
  * [:bug1/status: STATUS]
 
