@@ -5,6 +5,13 @@
 
  * The trac server with all the bugs is here:
       http://www.sagemath.org:9002/sage_trac/report/1
+ 
+ * We will focus on the bugs listed here:
+
+      http://www.sagemath.org:9002/sage_trac/milestone/sage-2.8.2
+
+   However, people with other interests can of course help out with fixing anything they want. 
+    
 
  * Write to wstein@gmail.com for an account on the bug tracker. 
 
