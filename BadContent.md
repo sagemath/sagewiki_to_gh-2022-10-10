@@ -3544,3 +3544,5 @@ taylorrain\.newsit\.es
 \.webdirext\.com
 (sh)?chfang\.com
 xianweijin\.com
+strawberrydelights\.com
+whichsideofthefence\.com
