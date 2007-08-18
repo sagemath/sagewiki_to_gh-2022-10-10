@@ -1,5 +1,7 @@
 = First SAGE Bug Squash =
 
+Remember the "Twisted Rule" -- Don't work on *anything* unless there is a trac ticket for it.
+
  * [:bug1/status: STATUS]
 
  * [:bug1/irc: IRC log]
