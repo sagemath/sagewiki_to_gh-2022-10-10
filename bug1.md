@@ -1,5 +1,7 @@
 = First SAGE Bug Squash =
 
+[:bug1/status: STATUS]
+
  * The base version of SAGE we'll start with is here:
       http://sage.math.washington.edu/bug/
 
