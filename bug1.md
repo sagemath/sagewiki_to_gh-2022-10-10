@@ -7,3 +7,14 @@
       http://www.sagemath.org:9002/sage_trac/report/1
 
  * Write to wstein@gmail.com for an account on the bug tracker. 
+
+ * We'll all be on #sage-devel at irc.freenode.net.  
+{{{
+From Linux you can chat via a text console by installing "irssi", running it, and typing 
+  /SERVER add irc.freenode.net 
+  /SERVER irc.freenode.net
+  /join #sage-devel
+}}}
+
+
+ 
