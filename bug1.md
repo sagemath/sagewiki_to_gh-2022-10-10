@@ -2,7 +2,7 @@
 
  * [:bug1/status: STATUS]
 
- * [:bug1/irclog: IRC Log}
+ * [:bug1/irc: IRC log]
 
  * The base version of SAGE we'll start with is here:
       http://sage.math.washington.edu/bug/
