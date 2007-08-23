@@ -8,6 +8,7 @@ New features:
 
 Tickets fixed:
 
+ * Robert Bradshaw: 59 optimize elliptic curve arithmetic (this was done prior to Sage 2.8, we do not know exactly when)
  * William Stein: 167 sage web site fixes
  * Robert Bradshaw:176 sagex -- add support for the "//" --> floordiv operator (this was done prior to Sage 2.8, we do not know exactly when)
  * Didier Deshommes, Robert Brahshaw: 233 Create QDRF -- quad double real field (this was done prior to Sage 2.8, we do not know exactly when)
