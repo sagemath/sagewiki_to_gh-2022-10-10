@@ -8,10 +8,9 @@ New features:
 
 Tickets fixed:
 
- * Robert Bradshaw: 59 optimize elliptic curve arithmetic
  * William Stein: 167 sage web site fixes
- * Robert Bradshaw:176 sagex -- add support for the "//" --> floordiv operator
- * Didier Deshommes, Robert Brahshaw: 233 Create QDRF -- quad double real field
+ * Robert Bradshaw:176 sagex -- add support for the "//" --> floordiv operator (this was done prior to Sage 2.8, we do not know exactly when)
+ * Didier Deshommes, Robert Brahshaw: 233 Create QDRF -- quad double real field (this was done prior to Sage 2.8, we do not know exactly when)
  * Willaim Stein: 434 bug in mwrank interface -- something doesn't work
  * Paul-Olivier Dehaye: 439 Interface with remote programs allowing for as many hops as needed
  * Juan M. Bello Rivas: 472 Drop dependencies on flex and bison
