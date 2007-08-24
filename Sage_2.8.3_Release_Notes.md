@@ -8,7 +8,7 @@ New features:
 
 Tickets fixed (please add new resolved issues in ascending order of ticket numer):
 
- * Robert Bradshaw: #59 optimize elliptic curve arithmetic (this was done prior to Sage 2.8, we do not know exactly when)
+ * William Stein: #2 Notebook locking (To quote William: "This was fixed decades ago!")
  * William Stein: #167 sage web site fixes
  * Robert Bradshaw: #176 sagex -- add support for the "//" --> floordiv operator (this was done prior to Sage 2.8, we do not know exactly when)
  * William Stein: #225 loading files and worksheets from urls
