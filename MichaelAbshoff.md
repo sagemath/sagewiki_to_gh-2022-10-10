@@ -1,11 +1,12 @@
 = Michael Abshoff's Wiki SAGE page =
 
-Hello, I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated to making it work better.
+Hello, I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated around packages and their portability. I added valgrind support to Sage 2.8.3 and have been using various valgrind tools to investigate Sage's memory consumption.
 
 
 == Task Table ==
 
 === Currently Working on ===
+ * hunt mem-leaks in C/C++ code of Sage 
  * Solaris port of SAGE.
  * DMG installation image for MacOSX
  * optional spkgs: CoCoA 4.7.x, ApCoCoALib & CoCoALib, g++ 4.2
