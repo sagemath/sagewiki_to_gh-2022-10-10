@@ -38,3 +38,5 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  * Michael Abshoff: mem-leaks, package issues on Solaris
 
  * David Harvey: #424 (gmp fast gcd code) (http://www.sagemath.org:9002/sage_trac/ticket/424) is my main target. But I totally need help from someone who knows things like autoconf. Please add your name here if you're willing to help.
+
+ * Martin Albrecht: Helping David with GMP as far as possible and the usual memleak/SIGSEGV stuff.
