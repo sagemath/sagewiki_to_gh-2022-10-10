@@ -39,6 +39,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  * William Stein: Fixing memory leaks in linear algebra and arithmetic, and fixing all other bugs in SAGE :-)
 
- * David Harvey: #424 (gmp fast gcd code) (http://www.sagemath.org:9002/sage_trac/ticket/424) is my main target. But I totally need help from someone who knows things like autoconf. Please add your name here if you're willing to help.
+ * David Harvey: #424 (gmp fast gcd code) (http://www.sagemath.org:9002/sage_trac/ticket/424) is my main target. But I totally need help from someone who knows things like autoconf. Please add your name here if you're willing to help.  
+     * William Stein -- I want to help.  I actually tried this for a while and made some progress.  It's not so bad if you know autoconf, and impossible otherwise...
 
  * Martin Albrecht: Helping David with GMP as far as possible and the usual memleak/SIGSEGV stuff.
