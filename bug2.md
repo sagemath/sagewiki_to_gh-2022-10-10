@@ -1,6 +1,6 @@
 = Second SAGE Bug Squash =
 
-The event will take place on Sep. 7th, 2007 and officially start around 10 am pacific standard time. It will go on for up to 16 hours and some people will usually meet the day after and finish up some of the leftovers.
+The event will take place on '''THURSDAY September 6th, 2007''' and officially start around 10 am pacific standard time. It will go on for up to 16 hours and some people will usually meet the day after and finish up some of the leftovers.
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
