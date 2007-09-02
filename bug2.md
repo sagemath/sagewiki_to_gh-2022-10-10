@@ -1,4 +1,4 @@
-= Second SAGE Bug Squash =
+= SAGE Bug Squash Day 2 =
 
 The event will take place on '''THURSDAY September 6th, 2007''' and officially start around 10 am pacific standard time. It will go on for up to 16 hours and some people will usually meet the day after and finish up some of the leftovers.
 
