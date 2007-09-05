@@ -2,7 +2,6 @@
 
 Hello, I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated around packages and their portability. I added valgrind support to Sage 2.8.3 and have been using various valgrind tools to investigate Sage's memory consumption.
 
-
 == Task Table ==
 
 === Currently Working on ===
@@ -12,7 +11,7 @@ Hello, I study math at the University of Dortmund. Most of the time I spend with
  * optional spkgs: CoCoA 4.7.x, ApCoCoALib & CoCoALib, g++ 4.2
  
 === Short Term ===
- * build unified Setup.py for gdmodule
+ * build unified Setup.py for gdmodule - less important now due to drop of the Cygwin drop (officially)
  * multivariate polynomial arithmetic via CoCoALib
  * computation of approximate vanishing ideals via ApCoCoALib (needs multivariate polynomial arithmetic via CoCoALib)
  * check targets for various SAGE packages like gmp and linbox
