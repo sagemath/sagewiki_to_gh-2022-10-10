@@ -1,4 +1,6 @@
-= First SAGE Bug Squash =
+= SAGE Bug Day 1 =
+
+Sage Bug Day 1 took place from 10 am PST August 18th until 2 am August 19th 2007.
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
