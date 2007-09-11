@@ -3551,3 +3551,8 @@ free-online-dating
 sudu\.info
 shcbprint\.net
 toppowerlevel\.net
+mysiteup\.my2gig\.com
+globalceoforum\.com\.cn
+isefc\.com\.cn
+teamflyelectronic\.com
+hzmqzs\.com
