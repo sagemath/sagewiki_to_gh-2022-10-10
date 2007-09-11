@@ -10,4 +10,4 @@ The workshop will end by 2:30pm on October 3.
 
  * William Stein, wstein@gmail.com
  * David Harvey
- * David Roe
+ * Kiran Kedlaya
