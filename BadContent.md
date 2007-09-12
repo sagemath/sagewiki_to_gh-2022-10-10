@@ -3556,3 +3556,10 @@ globalceoforum\.com\.cn
 isefc\.com\.cn
 teamflyelectronic\.com
 hzmqzs\.com
+coolingame\.com
+mydofus\.com
+rs2myth\.com
+levelmyth\.com
+ankama\.us
+buy-dofus-kamas\.net
+vulturesknob\.com
