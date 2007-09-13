@@ -1,6 +1,6 @@
 = SAGE Bug Squash Day 3 =
 
-
+[attachment:bugs.jpg]
 
 The event will take place on '''THURSDAY September 20th, 2007''' and officially start at 10 am pacific standard time. It will go on for up to 16 hours and some people will usually meet the day after and finish up some of the leftovers.
 
