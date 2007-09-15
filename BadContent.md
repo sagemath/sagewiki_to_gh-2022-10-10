@@ -3564,3 +3564,5 @@ ankama\.us
 buy-dofus-kamas\.net
 vulturesknob\.com
 yournetexpert\.hostwq\.net
+fundorro\.net
+normalforce\.com
