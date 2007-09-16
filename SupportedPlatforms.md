@@ -13,8 +13,8 @@ The following platforms are feasible in the short term and depend mostly on some
 
  * Linux PPC 32 bit [99.9% done, only open issue is DSage platform support, mabshoff is working on this]
  * Linux PPC 64 bit [planning, hardware access available]
- * MacOSX on PPC 64 bit
- * MacOSX on Intel 64 bit 
+ * MacOSX on PPC 64 bit [???]
+ * MacOSX on Intel 64 bit [wait for next os x release]
  * Solaris 9 on Sparc 32 bit [ongoing, getting close, mabshoff is working on this]]
  * Solaris 9 on Sparc 64 bit
  * Solaris 10 on Sparc 32 bit [ongoing, getting close, mabshoff is working on this]]
