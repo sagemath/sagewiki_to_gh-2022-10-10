@@ -5,11 +5,11 @@ Sage is fully supported on the following platforms:
  * Linux on IA64
  * MacOSX on PPC (32 bit only)
  * MacOSX on Intel (32 bit only)
- * VMWare via a 32 bit Linux image
+ * VMWare via a 32 bit Linux image (we support a specific preconfigured image meant for use in windows).
 
 Supported means all doctests pass. If not please report the problem to the Google group sage-devel or sage-support. You might also report problems in the IRC channel #sage-devel on freenode.
  
-The following platforms are feasible in the short term an depend mostly on somebody who is willing to do the job. If you intend to work  on a specific port please let the Sage people know.
+The following platforms are feasible in the short term and depend mostly on somebody who is willing to do the job. If you intend to work  on a specific port please let the Sage people know.
 
  * Linux PPC 32 bit [99.9% done, only open issue is DSage platform support, mabshoff is working on this]
  * Linux PPC 64 bit [planning, hardware access available]
