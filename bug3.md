@@ -34,7 +34,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
 = Participants (with area they would like to work on) =
 
- * Michael Abshoff: 
+ * Michael Abshoff: Solaris port, Memleaks
 
  * William Stein: Notebook bugs, algebraic number theory bugs, 
 
