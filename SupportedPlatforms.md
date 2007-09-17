@@ -16,11 +16,11 @@ The following platforms are feasible in the short term and depend mostly on some
  * MacOSX on PPC 64 bit [wait for next os x release, i.e. Leopard]
  * MacOSX on Intel 64 bit [wait for next os x release, i.e. Leopard]
  * Solaris 9 on Sparc 32 bit [ongoing, getting close, mabshoff is working on this]
- * Solaris 9 on Sparc 64 bit
+ * Solaris 9 on Sparc 64 bit [work will start on this once the 32 bit port works]
  * Solaris 10 on Sparc 32 bit [ongoing, getting close, mabshoff is working on this]
- * Solaris 10 on Sparc 64 bit
- * Solaris 10 on x86 32 bit
- * Solaris 10 on Opteron/EMT64 64 bit [ongoing, getting close, mabshoff is working on this]
+ * Solaris 10 on Sparc 64 bit [work will start on this once the 32 bit port works]
+ * Solaris 10 on x86 32 bit, Opteron/EMT64 32 bit [ongoing, getting close, mabshoff is working on this]
+ * Solaris 10 on Opteron/EMT64 64 bit [work will start on this once the 32 bit port works]
 
 Wanted/wishlist:
 
