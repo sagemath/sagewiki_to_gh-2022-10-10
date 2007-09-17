@@ -43,3 +43,5 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  * Robert Miller:
 
  * Robert Bradshaw: 
+
+ * Timothy Clemans: Notebook bugs
