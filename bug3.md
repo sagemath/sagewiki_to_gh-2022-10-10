@@ -36,7 +36,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  * Michael Abshoff: Solaris port, Memleaks
 
- * William Stein: Algebraic number theory bugs
+ * William Stein: Integrating all the fixes as they come in.
 
  * Martin Albrecht: 
 
