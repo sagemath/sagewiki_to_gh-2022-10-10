@@ -3568,3 +3568,5 @@ fundorro\.net
 normalforce\.com
 sei-mein-bester-freund\.de
 titaniuexport\.kiev\.ua
+loveangelinajolie\.com
+movief\.5gbfree\.com
