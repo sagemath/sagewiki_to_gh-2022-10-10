@@ -8,7 +8,7 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
 
     AIM webpage collecting links for the various E8 stories various news outlets (CNN, etc) http://aimath.org/E8/newsstories.html
 
-    AMS Notices article by David Vogan The Character Table for E_8, http://www.ams.org/notices/200709/tx070901122p.pdf
+    AMS Notices article by David Vogan The Character Table for E,,8,, : http://www.ams.org/notices/200709/tx070901122p.pdf
 
   SAGE is mentioned in the Linux Insider article
     It's Time to Consider Open Source Software, Part 2 http://www.linuxinsider.com/story/57760.html
