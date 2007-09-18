@@ -51,3 +51,5 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  * didier deshommes: opensolaris (x86) port
 
  * Mike Hansen: combinatorics stuff, python-nose, misc. bug fixes.
+
+ * Burcin Erocal: memleaks
