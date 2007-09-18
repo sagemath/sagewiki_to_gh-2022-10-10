@@ -47,3 +47,5 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  * Timothy Clemans: Notebook bugs
 
  * Nick Alexander: until 3pm.
+
+ * didier deshommes: opensolaris (x86) port
