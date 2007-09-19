@@ -40,7 +40,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  * Martin Albrecht: 
 
- * Robert Miller:
+ * Robert Miller: reproducing dsage bug
 
  * Robert Bradshaw: 
 
