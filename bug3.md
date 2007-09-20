@@ -36,7 +36,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  * Michael Abshoff: Solaris port, Memleaks
 
- * William Stein: Integrating all the fixes as they come in.
+ * William Stein: Integrating all the fixes as they come in. 
 
  * Martin Albrecht: 
 
@@ -51,5 +51,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  * didier deshommes: opensolaris (x86) port
 
  * Mike Hansen: combinatorics stuff, python-nose, misc. bug fixes.
+ 
+ * Bobby Moretti
 
  * Burcin Erocal: memleaks
