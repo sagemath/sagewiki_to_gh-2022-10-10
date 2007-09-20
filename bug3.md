@@ -1,6 +1,6 @@
 = SAGE Bug Squash Day 3 =
 
-The event will take place on '''THURSDAY September 20th, 2007''' and officially start at 10 am pacific standard time. It will go on for 13 hours (until 10pm) and some people will usually meet the day after and finish up some of the leftovers.
+The event will take place on '''THURSDAY September 20th, 2007''' and officially start at 10 am pacific standard time. It will go on for 12 hours (until 10pm) and some people will usually meet the day after and finish up some of the leftovers.
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
