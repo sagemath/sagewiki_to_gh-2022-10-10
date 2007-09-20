@@ -10,7 +10,7 @@ Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a tr
 
  * [:bug3/Results: Results]
 
- * The base version of SAGE we'll start with is here: sage-2.4.2.1, which you can upgrade to using "sage -upgrade"
+ * The base version of SAGE we'll start with is here: sage-2.8.4.2.1, which you can upgrade to using "sage -upgrade"
 
  * The trac server with all the bugs is here:
       http://trac.sagemath.org
