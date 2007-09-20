@@ -6,6 +6,8 @@ The official clay page on this workshop is here: http://www.claymath.org/worksho
 
 There is also a mailing list for organizing the talks, sprints, etc.: Please email David Harvey (dmharvey@math.harvard.edu) to be added to the list. 
 
+The talks will be recorded on video and made available online.
+
 The workshop will end by 2:30pm on October 3.
 
 == Organizers ==
