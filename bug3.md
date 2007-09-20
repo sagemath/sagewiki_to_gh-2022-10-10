@@ -34,24 +34,24 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
 = Participants (with area they would like to work on) =
 
- * Michael Abshoff: Solaris port, Memleaks
+ 1. Michael Abshoff: Solaris port, Memleaks
 
- * William Stein: Integrating all the fixes as they come in. 
+ 1. Martin Albrecht: 
 
- * Martin Albrecht: 
+ 1. Nick Alexander (until 3pm).
 
- * Robert Miller: reproducing dsage bug
+ 1. Robert Bradshaw: 
 
- * Robert Bradshaw: 
+ 1. Timothy Clemans: Notebook bugs
 
- * Timothy Clemans: Notebook bugs
+ 1. Didier Deshommes: opensolaris (x86) port
 
- * Nick Alexander: until 3pm.
+ 1. Burcin Erocal: memleaks
 
- * didier deshommes: opensolaris (x86) port
-
- * Mike Hansen: combinatorics stuff, python-nose, misc. bug fixes.
+ 1. Mike Hansen: combinatorics stuff, python-nose, misc. bug fixes.
  
- * Bobby Moretti
+ 1. Robert Miller: reproducing dsage bug
 
- * Burcin Erocal: memleaks
+ 1. Bobby Moretti (after 5pm).
+
+ 1. William Stein (10am -- 11pm): Integrating all the fixes as they come in, then releasing a new Sage version.
