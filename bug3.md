@@ -40,7 +40,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  1. Robert Bradshaw: 
 
- 1. Timothy Clemans: Notebook bugs
+ 1. Timothy Clemans (evening maybe): Notebook bugs
 
  1. Didier Deshommes: opensolaris (x86) port
 
