@@ -54,6 +54,8 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  1. William Stein (10am -- 10pm): Integrating all the fixes as they come in, then releasing a new Sage version.
 
+ 1. Tom Boothby (10am -- 5pm; 6pm -- 10pm): AbelianGroup
+
 
 
 [[ImageLink(bugs.jpg)]]
