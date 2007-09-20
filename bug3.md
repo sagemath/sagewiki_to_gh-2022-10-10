@@ -34,7 +34,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  1. Michael Abshoff: Solaris port, Memleaks
 
- 1. Martin Albrecht: 
+ 1. Martin Albrecht: memleaks & maybe libSINGULAR enhancements
 
  1. Nick Alexander (until 3pm).
 
