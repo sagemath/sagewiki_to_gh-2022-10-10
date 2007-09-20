@@ -4,6 +4,8 @@ The 5th SAGE days 2007 will be at the Clay Math Institute Sept 30 -- Oct 3, 2007
 
 The official clay page on this workshop is here: http://www.claymath.org/workshops/cag/
 
+There is also a mailing list for organizing the talks, sprints, etc.: Please email David Harvey (dmharvey@math.harvard.edu) to be added to the list. 
+
 The workshop will end by 2:30pm on October 3.
 
 == Organizers ==
