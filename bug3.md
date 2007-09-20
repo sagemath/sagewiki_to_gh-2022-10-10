@@ -1,6 +1,6 @@
 = SAGE Bug Squash Day 3 =
 
-The event will take place on '''THURSDAY September 20th, 2007''' and officially start at 10 am pacific standard time. It will go on for up to 16 hours and some people will usually meet the day after and finish up some of the leftovers.
+The event will take place on '''THURSDAY September 20th, 2007''' and officially start at 10 am pacific standard time. It will go on for 13 hours (until 10pm) and some people will usually meet the day after and finish up some of the leftovers.
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
@@ -52,7 +52,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  1. Bobby Moretti (after 5pm).
 
- 1. William Stein (10am -- 11pm): Integrating all the fixes as they come in, then releasing a new Sage version.
+ 1. William Stein (10am -- 10pm): Integrating all the fixes as they come in, then releasing a new Sage version.
 
 
 
