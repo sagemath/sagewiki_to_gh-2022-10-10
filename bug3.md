@@ -4,6 +4,8 @@ The event will take place on '''THURSDAY September 20th, 2007''' and officially 
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
+The results: http://trac.sagemath.org/sage_trac/milestone/sage-2.8.5
+
  * [:bug3/status: STATUS]
 
  * [:bug3/irc: IRC log]
