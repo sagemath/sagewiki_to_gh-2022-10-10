@@ -1,17 +1,18 @@
 = Sage Days 5 Schedule =
 
 {{{
+
 == SUNDAY ==
 
-MORNING TALK 1
+MORNING TALK 1 (9:15-10:15)
 Speaker: William Stein (or Barry Mazur?)
 Title: On convergence in the Sato-Tate conjecture
 
-MORNING TALK 2
+MORNING TALK 2 (10:30-11:30)
 Speaker: David Roe
 Title: p-adic Arithmetic in SAGE
 
-AFTERNOON TALK
+AFTERNOON TALK (1-2)
 Speaker: Fernando Rodriguez-Villegas
 Title: [something about identities between p-adic multipolylogs and p-
 adic zeta values]
@@ -20,7 +21,7 @@ After the afternoon talk today we will have an organisational meeting
 to discuss the plan for working groups for the remainder of the
 workshop.
 
-EVENING TALK
+EVENING TALK (7-8)
 Speaker: William Stein and/or Robert Bradshaw
 Title: Algebraic Number Theory in SAGE, a Status Report
 
