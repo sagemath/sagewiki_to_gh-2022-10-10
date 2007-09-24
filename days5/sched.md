@@ -30,6 +30,9 @@ Title: Algebraic Number Theory in SAGE, a Status Report
 Speaker: Craig Citro
 Title: Modular forms in SAGE: A status report
 
+EVENING WORKING SESSION (8-10)
+   
+
 
 == MONDAY ==
 
@@ -53,6 +56,9 @@ Title: FLINT status report
 Speaker: Michael Abshoff
 Title: Managing the SAGE development workflow
 
+EVENING WORKING SESSION (8-10)
+   
+
 == TUESDAY ==
 
 MORNING TALK 1
@@ -73,6 +79,8 @@ Title: Cython status report
 
 Speaker: Robert Bradshaw
 Title: Coercion Status Report
+
+EVENING WORKING SESSION (8-10)
 
 == WEDNESDAY ==
 
@@ -96,7 +104,7 @@ Speaker: Mark Watkins
 Location: Science Center 507 (Harvard)
 
 
-EVENING:
+EVENING WORKING SESSION:
    Informal working and coding session for people still around (e.g., William Stein, David Roe, etc.)
 
 }}}
