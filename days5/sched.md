@@ -45,7 +45,7 @@ Title: Coleman integration
 
 AFTERNOON TALK
 Speaker: Martin Albrecht
-Title: Commutative Algebra in SAGE
+Title: Commutative Algebra and Sparse Linear Algebra in SAGE (Singular, PoliBoRi)
 
 EVENING TALK
 Speaker: Bill Hart
