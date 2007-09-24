@@ -40,7 +40,7 @@ Title: On the Computation of p-adic Height Pairings on Jacobians of
 Hyperelliptic Curves
 
 MORNING TALK 2
-Speaker: Robert Bradshaw
+Speaker: Robert Bradshaw & Kiran Kedlaya
 Title: Coleman integration
 
 AFTERNOON TALK
