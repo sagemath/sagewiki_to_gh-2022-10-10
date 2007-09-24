@@ -23,7 +23,7 @@ After the afternoon talk today we will have an organizational meeting
 to discuss the plan for working groups for the remainder of the
 workshop.
 
-EVENING TALK (7-8)
+EVENING REPORT (7-8)
 Speaker: William Stein and/or Robert Bradshaw
 Title: Algebraic Number Theory in SAGE, a Status Report
 
@@ -49,7 +49,7 @@ AFTERNOON TALK
 Speaker: Martin Albrecht
 Title: Commutative Algebra and Sparse Linear Algebra in SAGE (Singular, PoliBoRi)
 
-EVENING TALKS
+EVENING REPORT
 Speaker: Bill Hart
 Title: FLINT status report
 
@@ -73,7 +73,7 @@ AFTERNOON TALK
 Speaker: Michael Abshoff
 Title: [Ap]CoCoALib
 
-EVENING TALKS
+EVENING REPORT
 Speaker: Robert Bradshaw
 Title: Cython status report
 
