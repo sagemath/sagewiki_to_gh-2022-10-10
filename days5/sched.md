@@ -1,6 +1,6 @@
 = Sage Days 5 Schedule =
 
-
+{{{
 == SUNDAY ==
 
 MORNING TALK 1
@@ -8,7 +8,9 @@ Speaker: William Stein (or Barry Mazur?)
 Title: On convergence in the Sato-Tate conjecture
 
 MORNING TALK 2
+
 Speaker: David Roe
+
 Title: p-adic Arithmetic in SAGE
 
 AFTERNOON TALK
@@ -93,7 +95,7 @@ moved to a previous day?)
 Speaker: Michael Abshoff
 Title: Using trac to manage SAGE development workflow
 
-
+}}}
 
 ========================================================================
 
