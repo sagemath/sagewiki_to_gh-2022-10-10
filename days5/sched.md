@@ -1,5 +1,102 @@
 = Sage Days 5 Schedule =
 
+
+SUNDAY
+======
+
+MORNING TALK 1
+Speaker: William Stein (or Barry Mazur?)
+Title: On convergence in the Sato-Tate conjecture
+
+MORNING TALK 2
+Speaker: David Roe
+Title: p-adic Arithmetic in SAGE
+
+AFTERNOON TALK
+Speaker: Fernando Rodriguez-Villegas
+Title: [something about identities between p-adic multipolylogs and p-
+adic zeta values]
+
+After the afternoon talk today we will have an organisational meeting
+to discuss the plan for working groups for the remainder of the
+workshop.
+
+EVENING TALK
+Speaker: William Stein and/or Robert Bradshaw
+Title: Algebraic Number Theory in SAGE, a Status Report
+
+Speaker: Craig Citro
+Title: Modular forms in SAGE: A status report
+
+
+MONDAY
+======
+
+MORNING TALK 1
+Speaker: Amnon Besser
+Title: On the Computation of p-adic Height Pairings on Jacobians of
+Hyperelliptic Curves
+
+MORNING TALK 2
+Speaker: Robert Bradshaw
+Title: Coleman integration
+
+AFTERNOON TALK
+Speaker: Martin Albrecht
+Title: Commutative Algebra in SAGE
+
+EVENING TALK
+Speaker: Bill Hart
+Title: FLINT status report
+
+
+TUESDAY
+=======
+
+MORNING TALK 1
+Speaker: Gonzalo Tornaria
+Title: [something about stark-heegner points and shimura correspondence]
+
+MORNING TALK 2
+Speaker: Dimitar Jetchev
+Title: [something about explicit Heegner points]
+
+AFTERNOON TALK
+Speaker: Michael Abshoff
+Title: CoCoALib
+
+EVENING TALK
+Speaker: Robert Bradshaw
+Title: Cython status report
+
+
+WEDNESDAY
+=========
+
+MORNING TALK 1
+Speaker: J-P. Serre
+Location: Science Center 507
+Title: Finite Groups in Number Theory (part 3)
+
+
+MORNING TALK 2
+Speaker: William Stein
+Title: Computing p-adic Invariants of Elliptic Curves and
+Applications of Iwasawa theory to BSD
+
+AFTERNOON TALK
+Speaker: Robert Bradshaw
+Title: Coercion Status Report
+
+EVENING TALK (can we really have a talk now? probably this will get
+moved to a previous day?)
+Speaker: Michael Abshoff
+Title: Using trac to manage SAGE development workflow
+
+
+
+========================================================================
+
 Possible talks:
 
 [technical math]
