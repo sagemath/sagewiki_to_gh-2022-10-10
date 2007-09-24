@@ -2,6 +2,27 @@
 
 Possible talks:
 
+Speaker: Amnon Besser
+Title: On the Computation of p-adic Height Pairings on Jacobians of hyperelliptic Curves
+Abstract: The talk will present an algorithm for the computation of p-adic
+height pairings on hyperelliptic curves over number fields. Our work
+is not directly related to the work of Mazur Stein and Tate, though
+there are some similarities in the difficulties that occur and in the
+use of Kedlaya's algorithm. I will first explain where this height
+pairing arise, and how it decomposes into a sum of local terms at the
+places of the field. The most interesting is for places above the
+prime p. We use a description of these local terms given by Coleman
+and Gross that uses the theory of Coleman integration. There are two
+parts for the computation at these primes. One computes a certain
+projection from the space of meromorphic forms on the curve to its
+first de Rham cohomology, which can be computed using Coleman
+integration and the theory of the so called double index. The second
+involves computation of Coleman integrals, which are however mroe
+general than the ones computed in recent work o!
+n the subject (Gutnik, Kedlaya, ...) so there are some tricks involved
+which I'll explain. Finally I will discuss the situation at other
+primes, where there are still some delicate issues to resolve.
+
 Speaker: Craig Citro
 Title: Modular forms in SAGE: A status report
 Abstract: I'll give a short overview of the state of affairs of  
