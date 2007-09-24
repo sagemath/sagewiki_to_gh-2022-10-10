@@ -47,15 +47,6 @@ Speaker: Robert Bradshaw.
 - Coleman integration: I'm sure that Kiran Kedlaya would have more to
 say about this than me--I'll be in touch with him about this. 
 
-[general computer]  ** WRONG AUDIENCE!! **
-Speaker: Somebody from FSF
-"Why not invite Brett Smith to SD6 or another SAGE meeting?
-Would you like to have someone speak to your organization about GPLv3
-or other GNU licensing issues? FSF Licensing Compliance Engineer
-Brett Smith is happy to talk to groups about a wide variety issues.
-Please contact us for details.
-Us above is the FSF: licens...@fsf.org"
-
 
 [technical math]
 Speaker: Gonzalo T.
