@@ -1323,6 +1323,7 @@ greecehotels-discount.com
 green-gradens\.org
 green-tx.com
 greewon\.com\.cn
+grinding-mill.net
 group-eurosex.com
 gt-lite.com
 guadalmina.to
@@ -1378,6 +1379,7 @@ hewittlandscapes.co.uk
 heydo.com
 hg-fix\.com
 hgxweb.de
+hhpumps.cn
 high-risk-merchant-account.org
 hilton-nicky-paris.blogspot.com
 hion.cn
@@ -2295,6 +2297,7 @@ rapid-merchant-account.com
 ratenkredit-center.de
 ratenkredit-shop.de
 raw-pussy.us
+raymondmill.biz
 rbfanz.com
 readytocopy\.com
 real.net.cn
@@ -3611,3 +3614,9 @@ hostzz\.info
 19mb\.info
 freespase\.info
 host24h\.info
+cdq369\.com
+datangshutong\.com
+jonchn\.com\.cn
+sweepdesign\.jp
+bj5yuehua\.com
+jonchn\.com\.cn
