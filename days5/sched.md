@@ -17,10 +17,9 @@ Title: p-adic Arithmetic in SAGE
 
 AFTERNOON TALK (1-2)
 Speaker: Fernando Rodriguez-Villegas
-Title: [something about identities between p-adic multipolylogs and p-
-adic zeta values]
+Title: Identities between p-adic multi-polylogs and p-adic zeta values
 
-After the afternoon talk today we will have an organisational meeting
+After the afternoon talk today we will have an organizational meeting
 to discuss the plan for working groups for the remainder of the
 workshop.
 
@@ -52,21 +51,21 @@ Speaker: Bill Hart
 Title: FLINT status report
 
 Speaker: Michael Abshoff
-Title: Using trac to manage SAGE development workflow
+Title: Managing the SAGE development workflow
 
 == TUESDAY ==
 
 MORNING TALK 1
 Speaker: Gonzalo Tornaria
-Title: [something about stark-heegner points and shimura correspondence]
+Title: Stark-Heegner points and the Shimura correspondence
 
 MORNING TALK 2
 Speaker: Dimitar Jetchev
-Title: [something about explicit Heegner points]
+Title: Computing Heegner points
 
 AFTERNOON TALK
 Speaker: Michael Abshoff
-Title: CoCoALib
+Title: [Ap]CoCoALib
 
 EVENING TALKS
 Speaker: Robert Bradshaw
