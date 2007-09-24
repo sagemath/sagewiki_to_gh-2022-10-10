@@ -77,11 +77,14 @@ Speaker: J-P. Serre
 Location: Science Center 507
 Title: Finite Groups in Number Theory (part 3)
 
-
 MORNING TALK 2
 Speaker: William Stein
 Title: Computing p-adic Invariants of Elliptic Curves and
 Applications of Iwasawa theory to BSD
+
+AFTERNOON
+Speaker: Moderator
+Project Wrap-up
 
 3pm NUMBER THEORY SEMINAR:
 Title: Ranks of Elliptic Curves
