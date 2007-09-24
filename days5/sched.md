@@ -63,7 +63,7 @@ AFTERNOON TALK
 Speaker: Michael Abshoff
 Title: CoCoALib
 
-EVENING TALK (30 minutes)
+EVENING TALK
 Speaker: Robert Bradshaw
 Title: Cython status report
 
