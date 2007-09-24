@@ -1,7 +1,7 @@
 = Sage Days 5 Schedule =
 
 
-==SUNDAY==
+== SUNDAY ==
 
 MORNING TALK 1
 Speaker: William Stein (or Barry Mazur?)
@@ -28,7 +28,7 @@ Speaker: Craig Citro
 Title: Modular forms in SAGE: A status report
 
 
-==MONDAY==
+== MONDAY ==
 
 MORNING TALK 1
 Speaker: Amnon Besser
@@ -48,7 +48,7 @@ Speaker: Bill Hart
 Title: FLINT status report
 
 
-==TUESDAY==
+== TUESDAY ==
 
 MORNING TALK 1
 Speaker: Gonzalo Tornaria
@@ -66,7 +66,7 @@ EVENING TALK
 Speaker: Robert Bradshaw
 Title: Cython status report
 
-==WEDNESDAY==
+== WEDNESDAY ==
 
 MORNING TALK 1
 Speaker: J-P. Serre
