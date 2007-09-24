@@ -8,9 +8,7 @@ Speaker: William Stein (or Barry Mazur?)
 Title: On convergence in the Sato-Tate conjecture
 
 MORNING TALK 2
-
 Speaker: David Roe
-
 Title: p-adic Arithmetic in SAGE
 
 AFTERNOON TALK
