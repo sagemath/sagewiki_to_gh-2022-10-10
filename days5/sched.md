@@ -47,10 +47,12 @@ AFTERNOON TALK
 Speaker: Martin Albrecht
 Title: Commutative Algebra and Sparse Linear Algebra in SAGE (Singular, PoliBoRi)
 
-EVENING TALK
+EVENING TALKS
 Speaker: Bill Hart
 Title: FLINT status report
 
+Speaker: Michael Abshoff
+Title: Using trac to manage SAGE development workflow
 
 == TUESDAY ==
 
@@ -66,7 +68,7 @@ AFTERNOON TALK
 Speaker: Michael Abshoff
 Title: CoCoALib
 
-EVENING TALK
+EVENING TALKS
 Speaker: Robert Bradshaw
 Title: Cython status report
 
@@ -93,11 +95,6 @@ Project Wrap-up
 Title: Ranks of Elliptic Curves
 Speaker: Mark Watkins
 Location: Science Center 507 (Harvard)
-
-EVENING TALK (can we really have a talk now? probably this will get
-moved to a previous day?)
-Speaker: Michael Abshoff
-Title: Using trac to manage SAGE development workflow
 
 }}}
 
