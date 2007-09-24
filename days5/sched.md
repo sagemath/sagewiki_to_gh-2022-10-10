@@ -1,8 +1,7 @@
 = Sage Days 5 Schedule =
 
 
-SUNDAY
-======
+==SUNDAY==
 
 MORNING TALK 1
 Speaker: William Stein (or Barry Mazur?)
@@ -29,8 +28,7 @@ Speaker: Craig Citro
 Title: Modular forms in SAGE: A status report
 
 
-MONDAY
-======
+==MONDAY==
 
 MORNING TALK 1
 Speaker: Amnon Besser
@@ -50,8 +48,7 @@ Speaker: Bill Hart
 Title: FLINT status report
 
 
-TUESDAY
-=======
+==TUESDAY==
 
 MORNING TALK 1
 Speaker: Gonzalo Tornaria
@@ -69,9 +66,7 @@ EVENING TALK
 Speaker: Robert Bradshaw
 Title: Cython status report
 
-
-WEDNESDAY
-=========
+==WEDNESDAY==
 
 MORNING TALK 1
 Speaker: J-P. Serre
@@ -84,9 +79,14 @@ Speaker: William Stein
 Title: Computing p-adic Invariants of Elliptic Curves and
 Applications of Iwasawa theory to BSD
 
-AFTERNOON TALK
+AFTERNOON TALK (1-2pm)
 Speaker: Robert Bradshaw
 Title: Coercion Status Report
+
+3pm NUMBER THEORY SEMINAR:
+Title: Ranks of Elliptic Curves
+Speaker: Mark Watkins
+Location: Science Center 507 (Harvard)
 
 EVENING TALK (can we really have a talk now? probably this will get
 moved to a previous day?)
