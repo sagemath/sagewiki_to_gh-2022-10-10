@@ -1,0 +1,119 @@
+= Sage Days 5 Schedule =
+
+Possible talks:
+
+Speaker: Craig Citro
+Title: Modular forms in SAGE: A status report
+Abstract: I'll give a short overview of the state of affairs of  
+modular forms in SAGE. Mostly, I'll detail what we can do, what MAGMA  
+can do that we can't, and some speed comparisons. 
+
+Speaker: Robert Bradshaw.
+Three possible talks:
+- Cython Status Report
+- Coercion Status Report (maybe a bit more of a status report, I
+intend to talk about the "right" way to discover coercion and why the
+idea of base extension is wrong.)
+- Coleman integration: I'm sure that Kiran Kedlaya would have more to
+say about this than me--I'll be in touch with him about this. 
+
+Speaker: Somebody from FSF
+"Why not invite Brett Smith to SD6 or another SAGE meeting?
+Would you like to have someone speak to your organization about GPLv3
+or other GNU licensing issues? FSF Licensing Compliance Engineer
+Brett Smith is happy to talk to groups about a wide variety issues.
+Please contact us for details.
+Us above is the FSF: licens...@fsf.org"
+
+Speaker: Gonzalo T.
+"PS: I was considering offering a talk on my work with darmon
+(stark-heegner points and shimura correspondence)  but I still need a
+few hours to make a concrete proposal. Do you think this might be
+interesting for the program? "
+
+Speaker: Fernando Rodriguez-Villegas:
+"  If there's a free slot I wouldn't mind talking about some work in
+progress which involves identities between p-adic multipolylogs and
+p-adic zeta values. Some I can (almost) prove others I can't and I find
+pretty surprising. Mostly I'd like to have some feedback on it. It
+wouldn't really be that computational except for the issue of how to
+compute linear relations among constants in the p-adics (but the again
+may be this is well known--to others). 
+
+Noam: I thought this basically comes down to lattice basis reduction,
+much like linear relations among real numbers (or even vectors in R^n).
+Since gp's algdep() program has no problem recognizing p-adic numbers
+as algebraic I imagine that this is not just "known" but already
+implemented, at least in gp and for this special case.  Or is there
+some specific context here that requires going beyond the usual
+lattice method?
+
+Speaker: W Stein
+p-adic BSD (joint with Wuthrich)
+"TITLE: Computing p-adic Invariants of Elliptic Curves and Applications
+of Iwasawa theory to BSD
+(the talk C. Wuthrich would have given if he could attend the
+workshop, but I could give, since it's a joint project between
+me and him -- in fact, I'd use his slides -- he gave the talk
+at a conference in England yesterday). "
+
+Speaker: W Stein or ??
+TITLE: On convergence in the Sato-Tate conjecture
+(application of Sage to studying how quickly convergence
+happens in Sato-Tate; leads to conjecture; joint with Mazur).
+(by me and or Barry Mazur) 
+
+
+Speaker: Dimitar Jetchev
+"I can give my talk from UW on Explicit Heegner points. The title and the
+abstract are exactly the same! "
+
+Speaker: Bill Hart
+" TITLE: FLINT status report - fast library for number
+> theory
+> (by Bill Hart)
+I can give a *short* talk. There are a couple of
+interesting things to say, however there will probably
+be more to say by SAGE days 6. "
+"A short talk on short division : FLINT (Fast Library
+for Number Theory) a status report by Bill Hart.
+FLINT is a C library, in the very early stages of
+development, which has the aim of extending the state
+of the art in core arithmetic computations and
+eventually algebraic number theory.
+We will briefly discuss progress that has been made so
+far in polynomial and integer arithmetic, including a
+new variant/implementation of Mulder's recursive
+polynomial "short division" algorithm which we have
+worked up for doing faster polynomial division. "
+
+Speaker: David Roe
+"p-adics"
+"
+Speaker: Title: Status Report on p-Adic Arithmetic in Sage
+David Roe
+I will outline the current status of p-adic arithmetic in Sage.  In particular, I will discuss the different types of p-adics in Sage, extensions of $Q_p$, polynomials and matrices over such local fields and their rings of integers.  I will outline a number of algorithms for treating precision in polynomial and matrix computations.  Come with comments on what aspects of p-adic arithmetic are most needed for your own projects.
+"
+
+Speaker: William Stein
+> TITLE: Algebraic Number Theory in Sage, a Status Report
+> (by me and/or Robert Bradshaw) 
+
+Speaker: M Abshoff
+> TITLE: Using trac to manage Sage development workflow
+> (by Michael Abshoff) 
+
+Speaker: M Abshoff
+" TITLE: [Ap]CocoaLib
+
+Speaker: M Albrecht
+"> Commutative Algebra in SAGE
+> I will cover libSINGULAR (with some examples, to show that the code isn't
+> as scary as people believe), a bit of PolyBoRi, maybe something about
+> CoCoALib, some benchmarks, and stuff we desperately need and don't know how
+> to get. Obviously, I would throw in some benchmarks and stuff.
+Actually, I would like to add some (unrelated) slides on the state of sparse
+linear algebra over finite fields. That would cover what package can do it
+(not many!) and how SAGE is in that area (surprisingly good it seems for now)
+and what is done to improve it. Also, someone in the audience might have some
+input on William's echelon via solve idea adapted to this setting. "
