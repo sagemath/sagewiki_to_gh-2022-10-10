@@ -95,6 +95,10 @@ Title: Ranks of Elliptic Curves
 Speaker: Mark Watkins
 Location: Science Center 507 (Harvard)
 
+
+EVENING:
+   Informal working and coding session for people still around (e.g., William Stein, David Roe, etc.)
+
 }}}
 
 ========================================================================
