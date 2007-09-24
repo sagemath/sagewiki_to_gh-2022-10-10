@@ -63,9 +63,12 @@ AFTERNOON TALK
 Speaker: Michael Abshoff
 Title: CoCoALib
 
-EVENING TALK
+EVENING TALK (30 minutes)
 Speaker: Robert Bradshaw
 Title: Cython status report
+
+Speaker: Robert Bradshaw
+Title: Coercion Status Report
 
 == WEDNESDAY ==
 
@@ -79,10 +82,6 @@ MORNING TALK 2
 Speaker: William Stein
 Title: Computing p-adic Invariants of Elliptic Curves and
 Applications of Iwasawa theory to BSD
-
-AFTERNOON TALK (1-2pm)
-Speaker: Robert Bradshaw
-Title: Coercion Status Report
 
 3pm NUMBER THEORY SEMINAR:
 Title: Ranks of Elliptic Curves
