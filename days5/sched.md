@@ -2,6 +2,9 @@
 
 {{{
 
+== SATURDAY ==
+7pm -- [http://www.penangusa.com/location_cambridge_menu_dinein.html Penang] 
+
 == SUNDAY ==
 
 MORNING TALK 1 (9:15-10:15)
