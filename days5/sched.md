@@ -2,6 +2,7 @@
 
 Possible talks:
 
+[technical math]
 Speaker: Amnon Besser
 Title: On the Computation of p-adic Height Pairings on Jacobians of hyperelliptic Curves
 Abstract: The talk will present an algorithm for the computation of p-adic
@@ -23,21 +24,30 @@ n the subject (Gutnik, Kedlaya, ...) so there are some tricks involved
 which I'll explain. Finally I will discuss the situation at other
 primes, where there are still some delicate issues to resolve.
 
+[general computer]
 Speaker: Craig Citro
 Title: Modular forms in SAGE: A status report
 Abstract: I'll give a short overview of the state of affairs of  
 modular forms in SAGE. Mostly, I'll detail what we can do, what MAGMA  
 can do that we can't, and some speed comparisons. 
 
+[technical computer]
 Speaker: Robert Bradshaw.
-Three possible talks:
 - Cython Status Report
+
+
+[general/technical computer]
+Speaker: Robert Bradshaw.
 - Coercion Status Report (maybe a bit more of a status report, I
 intend to talk about the "right" way to discover coercion and why the
 idea of base extension is wrong.)
+
+[technical math]
+Speaker: Robert Bradshaw.
 - Coleman integration: I'm sure that Kiran Kedlaya would have more to
 say about this than me--I'll be in touch with him about this. 
 
+[general computer]  ** WRONG AUDIENCE!! **
 Speaker: Somebody from FSF
 "Why not invite Brett Smith to SD6 or another SAGE meeting?
 Would you like to have someone speak to your organization about GPLv3
@@ -46,12 +56,15 @@ Brett Smith is happy to talk to groups about a wide variety issues.
 Please contact us for details.
 Us above is the FSF: licens...@fsf.org"
 
+
+[technical math]
 Speaker: Gonzalo T.
 "PS: I was considering offering a talk on my work with darmon
 (stark-heegner points and shimura correspondence)  but I still need a
 few hours to make a concrete proposal. Do you think this might be
 interesting for the program? "
 
+[technical math]
 Speaker: Fernando Rodriguez-Villegas:
 "  If there's a free slot I wouldn't mind talking about some work in
 progress which involves identities between p-adic multipolylogs and
@@ -69,6 +82,7 @@ implemented, at least in gp and for this special case.  Or is there
 some specific context here that requires going beyond the usual
 lattice method?
 
+[technical math]
 Speaker: W Stein
 p-adic BSD (joint with Wuthrich)
 "TITLE: Computing p-adic Invariants of Elliptic Curves and Applications
@@ -78,17 +92,20 @@ workshop, but I could give, since it's a joint project between
 me and him -- in fact, I'd use his slides -- he gave the talk
 at a conference in England yesterday). "
 
+[general math]
 Speaker: W Stein or ??
 TITLE: On convergence in the Sato-Tate conjecture
 (application of Sage to studying how quickly convergence
 happens in Sato-Tate; leads to conjecture; joint with Mazur).
 (by me and or Barry Mazur) 
 
-
+[technical math]
 Speaker: Dimitar Jetchev
 "I can give my talk from UW on Explicit Heegner points. The title and the
 abstract are exactly the same! "
 
+
+[general computer]
 Speaker: Bill Hart
 " TITLE: FLINT status report - fast library for number
 > theory
@@ -108,6 +125,7 @@ new variant/implementation of Mulder's recursive
 polynomial "short division" algorithm which we have
 worked up for doing faster polynomial division. "
 
+[general computing/math]
 Speaker: David Roe
 "p-adics"
 "
@@ -116,17 +134,21 @@ David Roe
 I will outline the current status of p-adic arithmetic in Sage.  In particular, I will discuss the different types of p-adics in Sage, extensions of $Q_p$, polynomials and matrices over such local fields and their rings of integers.  I will outline a number of algorithms for treating precision in polynomial and matrix computations.  Come with comments on what aspects of p-adic arithmetic are most needed for your own projects.
 "
 
+[general computing]
 Speaker: William Stein
 > TITLE: Algebraic Number Theory in Sage, a Status Report
 > (by me and/or Robert Bradshaw) 
 
+[general computing]
 Speaker: M Abshoff
 > TITLE: Using trac to manage Sage development workflow
 > (by Michael Abshoff) 
 
+[general computing]
 Speaker: M Abshoff
 " TITLE: [Ap]CocoaLib
 
+[general computing]
 Speaker: M Albrecht
 "> Commutative Algebra in SAGE
 > I will cover libSINGULAR (with some examples, to show that the code isn't
