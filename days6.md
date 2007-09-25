@@ -9,3 +9,25 @@ The Bristol webpage about SAGE Days 6 is here:
  * William Stein, wstein@gmail.com
  * John Cremona, john.cremona@gmail.com
  * Martin Albrecht, malb@informatik.uni-bremen.de
+
+== confrimed Participants ==
+
+ * Robert Bradshaw
+ * David Harvey  	  	  	 
+ * Clement Pernet 	 
+ * Bill Hart 
+ * Kevin Buzzard   	  	  	 
+ * James Davenport
+ * Tim Dokchitser  	  	 
+ * Nigel Smart  	 
+ * Mark Watkins
+ * Andrew Booker 
+ * Dan Bernstein
+ * Tanya Lange
+ * Ondrej Certik
+ * Jaap Spies  	  	 
+ * Michael Brickenstein
+ * Michael Abshoff 
+ * Burcin Erocal  
+ * Kiran Kedlaya
+ * David Loeffler  	 
