@@ -7,16 +7,24 @@
 == SUNDAY ==
 
 MORNING TALK 1 (9:15-10:15)
+
 Speaker: William Stein (or Barry Mazur?)
+
 Title: On convergence in the Sato-Tate conjecture
 
+
 MORNING TALK 2 (10:30-11:30)
+
 Speaker: David Roe
+
 Title: p-adic Arithmetic in SAGE
+
 Abstract: I will outline the current status of p-adic arithmetic in Sage.  In particular, I will discuss the different types of p-adics in Sage, extensions of $Q_p$, polynomials and matrices over such local fields and their rings of integers.  I will outline a number of algorithms for treating precision in polynomial and matrix computations.  Come with comments on what aspects of p-adic arithmetic are most needed for your own projects.
 
 AFTERNOON TALK (1-2)
+
 Speaker: Fernando Rodriguez-Villegas
+
 Title: Identities between p-adic multi-polylogs and p-adic zeta values
 
 After the afternoon talk today we will have an organizational meeting
@@ -24,10 +32,13 @@ to discuss the plan for working groups for the remainder of the
 workshop.
 
 EVENING REPORTS (7-8)
+
 Speaker: William Stein and/or Robert Bradshaw
+
 Title: Algebraic Number Theory in SAGE, a Status Report
 
 Speaker: Craig Citro
+
 Title: Modular forms in SAGE: A status report
 
 EVENING WORKING SESSION (8pm-?)
@@ -37,23 +48,31 @@ EVENING WORKING SESSION (8pm-?)
 == MONDAY ==
 
 MORNING TALK 1
+
 Speaker: Amnon Besser
-Title: On the Computation of p-adic Height Pairings on Jacobians of
-Hyperelliptic Curves
+
+Title: On the Computation of p-adic Height Pairings on Jacobians of Hyperelliptic Curves
 
 MORNING TALK 2
+
 Speaker: Robert Bradshaw & Kiran Kedlaya
+
 Title: Coleman integration
 
 AFTERNOON TALK
+
 Speaker: Martin Albrecht
+
 Title: Commutative Algebra and Sparse Linear Algebra in SAGE (Singular, PoliBoRi)
+
 
 EVENING REPORTS
 Speaker: Bill Hart
+
 Title: FLINT status report
 
 Speaker: Michael Abshoff
+
 Title: Managing the SAGE development workflow
 
 EVENING WORKING SESSION (8pm-?)
@@ -62,22 +81,31 @@ EVENING WORKING SESSION (8pm-?)
 == TUESDAY ==
 
 MORNING TALK 1
+
 Speaker: Gonzalo Tornaria
+
 Title: Stark-Heegner points and the Shimura correspondence
 
 MORNING TALK 2
+
 Speaker: Dimitar Jetchev
+
 Title: Computing Heegner points
 
 AFTERNOON TALK
+
 Speaker: Michael Abshoff
+
 Title: [Ap]CoCoALib
 
 EVENING REPORTS
+
 Speaker: Robert Bradshaw
+
 Title: Cython status report
 
 Speaker: Robert Bradshaw
+
 Title: Coercion Status Report
 
 EVENING WORKING SESSION (8pm-?)
@@ -85,26 +113,38 @@ EVENING WORKING SESSION (8pm-?)
 == WEDNESDAY ==
 
 MORNING TALK 1
+
 Speaker: J-P. Serre
+
 Location: Science Center 507
+
 Title: Finite Groups in Number Theory (part 3)
 
 MORNING TALK 2
+
 Speaker: William Stein
+
 Title: Computing p-adic Invariants of Elliptic Curves and
+
 Applications of Iwasawa theory to BSD
 
 AFTERNOON
+
 Speaker: Moderator
+
 Project Wrap-up
 
 3pm NUMBER THEORY SEMINAR:
+
 Title: Ranks of Elliptic Curves
+
 Speaker: Mark Watkins
+
 Location: Science Center 507 (Harvard)
 
 
 EVENING WORKING SESSION:
+
    Informal working and coding session for people still around (e.g., William Stein, David Roe, etc.)
 
 ========================================================================
