@@ -8,13 +8,13 @@ There is also a mailing list for organizing the talks, sprints, etc.: Please ema
 
 The talks will be recorded on video and made available online.
 
-The workshop will end by 2:30pm on October 3 (Mark Watkins is giving a talk at the Harvard number theory seminar at 3:30, and everybody is invited.)
+The workshop will end by 2:30pm on October 3 (Mark Watkins is giving a talk at the Harvard number theory seminar at 3:00, and everybody is invited.)
 
 == Organizers ==
 
  * William Stein, wstein@gmail.com
  * David Harvey
- * Kiran Kedlaya
+ * Kiran Kedlaya, kedlaya (at) mit (dot) edu
 
 
 [:/sched: Schedule]
