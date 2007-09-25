@@ -3620,3 +3620,16 @@ jonchn\.com\.cn
 sweepdesign\.jp
 bj5yuehua\.com
 jonchn\.com\.cn
+bjht888\.com
+zgxbzlw\.com
+466tv\.cn
+sixnet\.com\.cn
+99caigang\.cn
+cydjk\.com
+fstzb\.com
+znstudio\.net
+datangshutong\.com
+liaoxinbj\.com
+bjhrj\.cn
+flowervoice\.com
+jonchn\.com\.cn
