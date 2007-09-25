@@ -11,7 +11,7 @@ EVENING WORKING SESSION (8pm-?)
 }}}
 
 == SATURDAY ==
-7pm -- Dinner at [http://www.penangusa.com/location_cambridge_menu_dinein.html Penang] in Harvard Square; 57 JFK Street, Harvard Square, Cambridge, MA 02138. 
+7pm -- Dinner at [http://www.penangusa.com/location_cambridge_menu_dinein.html Penang] in Harvard Square; 57 JFK Street, Harvard Square, Cambridge, MA 02138. We would like to make a reservation; please let William know if you plan to attend.
 
 == SUNDAY ==
 
@@ -79,7 +79,7 @@ MORNING TALK 2
 Speaker: Robert Bradshaw & Kiran Kedlaya
 Title: Coleman integration
 }}}
-
+Abstract: We will discuss the theory of Coleman integration (as referenced in the previous talk), describe an algorithm for computing some Coleman integrals on hyperelliptic curves, and discuss (and perhaps demonstrate) how this is implemented in SAGE. Besides the application to computing p-adic heights, there are also potential applications to finding torsion and rational points on curves over number fields (also due to Coleman); we will say a bit about these too.
 
 AFTERNOON TALK
 {{{
@@ -141,7 +141,7 @@ EVENING WORKING SESSION (8pm-?)
 
 == WEDNESDAY ==
 
-MORNING TALK 1
+MORNING TALK 1 (at Harvard, 9:00-10:00)
 
 {{{
 Speaker: J-P. Serre
@@ -162,7 +162,7 @@ Speaker: Moderator
 Project Wrap-up
 }}}
 
-3pm NUMBER THEORY SEMINAR:
+NUMBER THEORY SEMINAR (at Harvard, 3:00-4:00)
 {{{
 Title: Ranks of Elliptic Curves
 Speaker: Mark Watkins
