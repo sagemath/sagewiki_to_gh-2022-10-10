@@ -10,7 +10,7 @@ The Bristol webpage about SAGE Days 6 is here:
  * John Cremona, john.cremona@gmail.com
  * Martin Albrecht, malb@informatik.uni-bremen.de
 
-== confrimed Participants ==
+== Confirmed Participants ==
 
  * Robert Bradshaw
  * David Harvey  	  	  	 
