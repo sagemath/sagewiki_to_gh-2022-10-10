@@ -10,7 +10,7 @@ MORNING TALK 1 (9:15-10:15)
 Speaker: William Stein
 Title: On convergence in the Sato-Tate conjecture
 }}}
-On convergence in the Sato-Tate conjecture (application of Sage to studying how quickly convergence happens in the Sato-Tate conjecture; this leads to a new conjecture.  This is joint work with Barry Mazur. 
+Abstract: This is a talk on convergence in the Sato-Tate conjecture, in particular, it is an application of Sage to studying how quickly convergence happens in the Sato-Tate conjecture; this in fact leads to a new conjecture and new questions.  This is joint work with Barry Mazur. 
 
 MORNING TALK 2 (10:30-11:30)
 {{{
@@ -24,7 +24,7 @@ AFTERNOON TALK (1-2)
 Speaker: Fernando Rodriguez-Villegas
 Title: Identities between p-adic multi-polylogs and p-adic zeta values
 }}}
-This is a talk about some work in progress which involves identities between $p$-adic multipolylogs and $p$-adic zeta values. Some I can (almost) prove others I can't and I find pretty surprising. Mostly I'd like to have some feedback on it. It wouldn't really be that computational except for the issue of how to compute linear relations among constants in the $p$-adics (but the again may be this is well known--to others). 
+Abstract: This is a talk about some work in progress which involves identities between $p$-adic multipolylogs and $p$-adic zeta values. Some I can (almost) prove others I can't and I find pretty surprising. Mostly I'd like to have some feedback on it. It wouldn't really be that computational except for the issue of how to compute linear relations among constants in the $p$-adics (but the again may be this is well known--to others). 
 
 
 
@@ -43,7 +43,7 @@ Title: Algebraic Number Theory in SAGE, a Status Report
 Speaker: Craig Citro
 Title: Modular forms in SAGE: A status report
 }}}
-I'll give a short overview of the state of affairs of   modular forms in SAGE. Mostly, I'll detail what we can do, what MAGMA can do that we can't, and some speed comparisons. 
+Abstract: I'll give a short overview of the state of affairs of modular forms in SAGE. Mostly, I'll detail what we can do, what MAGMA can do that we can't, and some speed comparisons. 
 
 EVENING WORKING SESSION (8pm-?)
    
@@ -76,7 +76,7 @@ AFTERNOON TALK
 Speaker: Martin Albrecht
 Title: Commutative Algebra and Sparse Linear Algebra in SAGE (Singular, PolyBoRi)
 }}}
-I will cover libSINGULAR (with some examples, to show that the code isn't as scary as people believe), a bit of PolyBoRi, maybe something about CoCoALib, some benchmarks, and stuff we desperately need and don't know how to get. Obviously, I would throw in some benchmarks and stuff.  Actually, I would like to add some (unrelated) slides on the state of sparse linear algebra over finite fields. That would cover what package can do it (not many!) and how SAGE is in that area (surprisingly good it seems for now) and what is done to improve it. Also, someone in the audience might have some input on William's echelon via solve idea adapted to this setting.
+Abstract: I will cover libSINGULAR (with some examples, to show that the code isn't as scary as people believe), a bit of PolyBoRi, maybe something about CoCoALib, some benchmarks, and stuff we desperately need and don't know how to get. Obviously, I would throw in some benchmarks and stuff.  Actually, I would like to add some (unrelated) slides on the state of sparse linear algebra over finite fields. That would cover what package can do it (not many!) and how SAGE is in that area (surprisingly good it seems for now) and what is done to improve it. Also, someone in the audience might have some input on William's echelon via solve idea adapted to this setting.
 
 
 EVENING REPORTS
@@ -84,7 +84,7 @@ EVENING REPORTS
 Speaker: Bill Hart
 Title: A short talk on short division : FLINT (Fast Library for Number Theory) a status report by Bill Hart.
 }}}
-FLINT is a C library, in the very early stages of development, which has the aim of extending the state of the art in core arithmetic computations and eventually algebraic number theory.  We will briefly discuss progress that has been made so far in polynomial and integer arithmetic, including a new variant/implementation of Mulder's recursive polynomial "short division" algorithm which we have worked up for doing faster polynomial division.
+Abstract: FLINT is a C library, in the very early stages of development, which has the aim of extending the state of the art in core arithmetic computations and eventually algebraic number theory.  We will briefly discuss progress that has been made so far in polynomial and integer arithmetic, including a new variant/implementation of Mulder's recursive polynomial "short division" algorithm which we have worked up for doing faster polynomial division.
 
 
 {{{
@@ -124,7 +124,7 @@ Title: Cython status report
 Speaker: Robert Bradshaw
 Title: Coercion Status Report
 }}}
-In this controversial talk, I will describe the "right" way to discover coercion and explain why the idea of using base extension is wrong.
+Abstract: In this controversial report, I will describe the "right" way to discover coercion and explain why the idea of using base extension is wrong.
 
 
 EVENING WORKING SESSION (8pm-?)
