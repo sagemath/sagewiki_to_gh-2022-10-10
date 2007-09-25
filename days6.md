@@ -12,22 +12,22 @@ The Bristol webpage about SAGE Days 6 is here:
 
 == Confirmed Participants ==
 
+ * Michael Abshoff 
+ * Dan Bernstein
+ * Andrew Booker 
  * Robert Bradshaw
- * David Harvey  	  	  	 
- * Clement Pernet 	 
- * Bill Hart 
+ * Michael Brickenstein
  * Kevin Buzzard   	  	  	 
+ * Ondrej Certik
  * James Davenport
  * Tim Dokchitser  	  	 
+ * Burcin Erocal  
+ * Bill Hart 
+ * David Harvey  	  	  	 
+ * Kiran Kedlaya
+ * Tanya Lange
+ * David Loeffler  	 
+ * Clement Pernet 	 
  * Nigel Smart  	 
  * Mark Watkins
- * Andrew Booker 
- * Dan Bernstein
- * Tanya Lange
- * Ondrej Certik
  * Jaap Spies  	  	 
- * Michael Brickenstein
- * Michael Abshoff 
- * Burcin Erocal  
- * Kiran Kedlaya
- * David Loeffler  	 
