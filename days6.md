@@ -10,10 +10,11 @@ The Bristol webpage about SAGE Days 6 is here:
  * John Cremona, john.cremona@gmail.com
  * Martin Albrecht, malb@informatik.uni-bremen.de
 
-== Confirmed Invited Participants ==
-(Note there will be many additional participants.)
+== Confirmed Participants ==
+(Note may be many additional participants.)
 
  * Michael Abshoff 
+ * Gregory Bard
  * Dan Bernstein
  * Andrew Booker 
  * Robert Bradshaw
@@ -31,4 +32,5 @@ The Bristol webpage about SAGE Days 6 is here:
  * Clement Pernet 	 
  * Nigel Smart  	 
  * Mark Watkins
+ * Ralf-Phillip Weinmann
  * Jaap Spies  	  	 
