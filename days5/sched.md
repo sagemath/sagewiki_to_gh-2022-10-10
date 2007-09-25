@@ -1,9 +1,8 @@
 = Sage Days 5 Schedule =
 
 == SATURDAY ==
-7pm -- [http://www.penangusa.com/location_cambridge_menu_dinein.html Penang] 
+7pm -- Dinner at [http://www.penangusa.com/location_cambridge_menu_dinein.html Penang] in Harvard Square
 
-{{{
 
 == SUNDAY ==
 
@@ -14,6 +13,7 @@ Title: On convergence in the Sato-Tate conjecture
 MORNING TALK 2 (10:30-11:30)
 Speaker: David Roe
 Title: p-adic Arithmetic in SAGE
+Abstract: I will outline the current status of p-adic arithmetic in Sage.  In particular, I will discuss the different types of p-adics in Sage, extensions of $Q_p$, polynomials and matrices over such local fields and their rings of integers.  I will outline a number of algorithms for treating precision in polynomial and matrix computations.  Come with comments on what aspects of p-adic arithmetic are most needed for your own projects.
 
 AFTERNOON TALK (1-2)
 Speaker: Fernando Rodriguez-Villegas
@@ -106,8 +106,6 @@ Location: Science Center 507 (Harvard)
 
 EVENING WORKING SESSION:
    Informal working and coding session for people still around (e.g., William Stein, David Roe, etc.)
-
-}}}
 
 ========================================================================
 
@@ -233,7 +231,7 @@ Speaker: David Roe
 "
 Speaker: Title: Status Report on p-Adic Arithmetic in Sage
 David Roe
-I will outline the current status of p-adic arithmetic in Sage.  In particular, I will discuss the different types of p-adics in Sage, extensions of $Q_p$, polynomials and matrices over such local fields and their rings of integers.  I will outline a number of algorithms for treating precision in polynomial and matrix computations.  Come with comments on what aspects of p-adic arithmetic are most needed for your own projects.
+
 "
 
 [general computing]
