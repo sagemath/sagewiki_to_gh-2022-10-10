@@ -1,5 +1,15 @@
 = Sage Days 5 Schedule =
 
+The times are as follows, unless otherwise stated below. 
+{{{
+MORNING TALK 1 (9:15 - 10:15)
+MORNING TALK 2 (10:30 - 11:30)
+AFTERNOON TALK (1-2pm)
+DINNER (5-7pm)
+EVENING REPORTS (7-8pm)
+EVENING WORKING SESSION (8pm-?)
+}}}
+
 == SATURDAY ==
 7pm -- Dinner at [http://www.penangusa.com/location_cambridge_menu_dinein.html Penang] in Harvard Square; 57 JFK Street, Harvard Square, Cambridge, MA 02138. 
 
