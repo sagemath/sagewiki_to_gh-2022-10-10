@@ -14,6 +14,7 @@ The Bristol webpage about SAGE Days 6 is here:
 (Note may be many additional participants.)
 
  * Michael Abshoff 
+ * Bill Allombert
  * Gregory Bard
  * Dan Bernstein
  * Andrew Booker 
