@@ -24,6 +24,7 @@ The Bristol webpage about SAGE Days 6 is here:
  * James Davenport
  * Tim Dokchitser  	  	 
  * Burcin Erocal  
+ * Jon Hanke
  * Bill Hart 
  * David Harvey  	  	  	 
  * Kiran Kedlaya
