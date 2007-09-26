@@ -29,6 +29,7 @@ The Bristol webpage about SAGE Days 6 is here:
  * Bill Hart 
  * David Harvey  	  	  	 
  * Kiran Kedlaya
+ * Lloyd Kilford
  * Tanya Lange
  * David Loeffler  	 
  * Clement Pernet 	 
