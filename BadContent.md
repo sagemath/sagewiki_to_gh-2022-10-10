@@ -3637,3 +3637,10 @@ iiwezxmkwzht\.com
 miqiatwuypzw\.com
 hjigunxxrqaf\.com
 slondcnixlwj\.com
+bengfa168\.cn
+kaiquan\.com\.cn
+huigao-v\.com 
+bgzb\.com
+spvalve\.com
+dltools\.cn
+rosement\.com\.cn
