@@ -1,4 +1,4 @@
-== The UW Sage Mathematics Software Seminar ==
+= The UW Sage Mathematics Software Seminar =
 
   
 '''TALKS:''' [:/sched: See the Schedule]
