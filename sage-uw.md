@@ -1,5 +1,6 @@
 = The UW Sage Mathematics Software Seminar =
 
+This seminar is a forum for talks that are relevant to [http://sagemath.org Sage]. 
   
 '''TALKS:''' [:/sched: See the Schedule]
 
