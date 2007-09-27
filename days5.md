@@ -15,6 +15,7 @@ The workshop will end by 2:30pm on October 3 (Mark Watkins is giving a talk at t
 
 == Organizers ==
 
- * William Stein, wstein@gmail.com
+ * Jim Carlson
  * David Harvey
  * Kiran Kedlaya, kedlaya (at) mit (dot) edu
+ * William Stein, wstein@gmail.com
