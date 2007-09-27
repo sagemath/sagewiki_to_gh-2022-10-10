@@ -38,8 +38,9 @@ Abstract: This is a talk about some work in progress which involves identities b
 
 
 
-ORGANIZATIONAL MEETING
-After the afternoon talk today we will have an organizational meeting to discuss the plan for working groups for the remainder of the workshop.
+ORGANIZATIONAL MEETING 2:30 - 3:30:
+
+After a 30-minute ''Overall Sage Status Report'' by William stein, we will  discuss the plan for working groups for the remainder of the workshop.
 
 
 EVENING REPORTS (7-8)
