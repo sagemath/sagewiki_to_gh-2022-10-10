@@ -4,8 +4,7 @@
 
 == properties the wrapper should have ==
 
-
-
+ * Wrapper functions should never returns pointers to `new' objects. We should always pass in a reference to the object where the result will be stored. (This prevents unnecessary copies in the calling code.)
 
 
 == an email ==
