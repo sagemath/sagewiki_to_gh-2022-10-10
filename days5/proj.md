@@ -2,8 +2,11 @@
 
 Put a quick summary here with a link to another page for more details
 
-   * [:/ntl: NTL wrapper] --  Joel Mohler,  Robert Bradshaw, Craig Citro, David Roe, William Stein, Martin Albrecht, Gonzalo Tornaria
+   * [:/ntl: NTL wrapper] -- do the NTL wrapper right
+         * Joel Mohler,  Robert Bradshaw, Craig Citro, David Roe, William Stein, Martin Albrecht, Gonzalo Tornaria
    
-   * [:/ellcurve: Elliptic curves] -- David Roe, William Stein
+   * [:/ellcurve: Elliptic curves] -- basic improvements to elliptic curves
+         * David Roe, William Stein
         
-   
+   * [:/modules: Free modules] -- tensor products and quotients of free modules
+         * Soroosh Yazdani, William Stein
