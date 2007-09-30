@@ -24,7 +24,13 @@ Put a quick summary here with a link to another page for more details
          * Jennifer Balakrishnan, Amnon Besser, Robert Bradshaw, David Harvey, Kiran Kedlaya, William Stein
 
    * [:/divisorarith: Divisor arithmetic] (Riemann-Roch spaces, linear equivalence) for (plane) curves
-         * Nils Bruin (but I need help from someone who knows e.g. Singular)
+         * Nils Bruin (but I need help from someone who knows e.g. Singular: Martin Albrecht)
 
    * [:/coeff_impl:  Coefficient Arithmetic] Design ideas about reusing SAGE types in derived SAGE types
          * Joel Mohler, Robert Bradshaw, Craig Citro, David Roe, William Stein, Martin Albrecht, David Harvey
+
+   * [:/matrix_mod2_window: MatrixWindow_mod2_dense] i.e. Strassen for this type
+         * Martin Albrecht
+
+   * [:/mpolynomial_nf:MPolynomial_libsingular over Number Fields] This involves writing conversion routines only
+         * Martin Albrecht
