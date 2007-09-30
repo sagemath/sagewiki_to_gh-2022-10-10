@@ -18,3 +18,6 @@ Put a quick summary here with a link to another page for more details
 
    * [:/lll: Wrap Damien's fplll code]
          * Martin Albrecht
+
+   * [:/coleman: Coleman integrals and p-adic heights]
+         * Jennifer Balakrishnan, Amnon Besser, Robert Bradshaw, David Harvey, Kiran Kedlaya, William Stein
