@@ -3639,7 +3639,7 @@ hjigunxxrqaf\.com
 slondcnixlwj\.com
 bengfa168\.cn
 kaiquan\.com\.cn
-huigao-v\.com 
+huigao-v\.com
 bgzb\.com
 spvalve\.com
 dltools\.cn
@@ -3650,9 +3650,10 @@ farfly\.com
 e-bjmelody\.cn
 adsmc\.com
 yhht-valve\.com
-
-# These domain do not exist, but used to spam moinmo.in
 qmtyblphlilu\.com
 qewojlupomxg\.com
 zoqecyrqdfhc\.com
 jbhazglyuzml\.com
+bodt\.com\.cnn
+bodt\.com\.cn
+onebedroomfurniture\.com
