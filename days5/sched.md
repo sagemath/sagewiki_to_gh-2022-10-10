@@ -47,15 +47,18 @@ After a 30-minute ''Overall Sage Status Report'' by William stein, we will  disc
 EVENING REPORTS (7-8)
 
 {{{
-Speaker: William Stein and/or Robert Bradshaw
-Title: Algebraic Number Theory in SAGE, a Status Report
-}}}
-
-{{{
 Speaker: Craig Citro
 Title: Modular forms in SAGE: A status report
 }}}
 Abstract: I'll give a short overview of the state of affairs of modular forms in SAGE. Mostly, I'll detail what we can do, what MAGMA can do that we can't, and some speed comparisons. 
+
+{{{
+Speaker: Martin Albrecht
+Title: Commutative Algebra and Sparse Linear Algebra in SAGE (Singular, PolyBoRi)
+}}}
+Abstract: I will cover libSINGULAR (with some examples, to show that the code isn't as scary as people believe), a bit of PolyBoRi, maybe something about CoCoALib, some benchmarks, and stuff we desperately need and don't know how to get. Obviously, I would throw in some benchmarks and stuff.  Actually, I would like to add some (unrelated) slides on the state of sparse linear algebra over finite fields. That would cover what package can do it (not many!) and how SAGE is in that area (surprisingly good it seems for now) and what is done to improve it. Also, someone in the audience might have some input on William's echelon via solve idea adapted to this setting.
+
+
 
 EVENING WORKING SESSION (8pm-?)
    
@@ -83,12 +86,17 @@ Title: Coleman integration
 }}}
 Abstract: We will discuss the theory of Coleman integration (as referenced in the previous talk), describe an algorithm for computing some Coleman integrals on hyperelliptic curves, and discuss (and perhaps demonstrate) how this is implemented in SAGE. Besides the application to computing p-adic heights, there are also potential applications to finding torsion and rational points on curves over number fields (also due to Coleman); we will say a bit about these too.
 
-AFTERNOON TALK
+AFTERNOON TALKS
 {{{
-Speaker: Martin Albrecht
-Title: Commutative Algebra and Sparse Linear Algebra in SAGE (Singular, PolyBoRi)
+Speaker: Mark Watkins
+Title: Sympow
 }}}
-Abstract: I will cover libSINGULAR (with some examples, to show that the code isn't as scary as people believe), a bit of PolyBoRi, maybe something about CoCoALib, some benchmarks, and stuff we desperately need and don't know how to get. Obviously, I would throw in some benchmarks and stuff.  Actually, I would like to add some (unrelated) slides on the state of sparse linear algebra over finite fields. That would cover what package can do it (not many!) and how SAGE is in that area (surprisingly good it seems for now) and what is done to improve it. Also, someone in the audience might have some input on William's echelon via solve idea adapted to this setting.
+
+{{{
+Speaker: William Stein
+Title: Algebraic Number Theory in SAGE, a Status Report
+}}}
+
 
 
 EVENING REPORTS
