@@ -2,6 +2,13 @@
 
  NTL wrapper -- Joel Mohler, Robert Bradshaw, Craig Citro, David Roe, William Stein, Martin Albrecht, Gonzalo Tornaria
 
+== properties the wrapper should have ==
+
+
+
+
+
+== an email ==
 
 Call to arms email from David Harvey:
 {{{
