@@ -19,6 +19,8 @@
 
  * Regarding filenames for ZZ_p vs zz_p. We use the same rules as NTL, i.e. the class name comes from zz_p, but the filename is lzz_p, to avoid capitalisation problems on the filesystem.
 
+ * Contexts (ZZ_pContext, zz_pContext, ZZ_pEContext, zz_pEContext, GF2EContext):
+    * 
 
 
 == an email ==
