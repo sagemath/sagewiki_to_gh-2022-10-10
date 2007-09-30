@@ -25,3 +25,6 @@ Put a quick summary here with a link to another page for more details
 
    * [:/divisorarith: Divisor arithmetic] (Riemann-Roch spaces, linear equivalence) for (plane) curves
          * Nils Bruin (but I need help from someone who knows e.g. Singular)
+
+   * [:/coeff_impl:  Coefficient Arithmetic] Design ideas about reusing SAGE types in derived SAGE types
+         * Joel Mohler, Robert Bradshaw, Craig Citro, David Roe, William Stein, Martin Albrecht, David Harvey
