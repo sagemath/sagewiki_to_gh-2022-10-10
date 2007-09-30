@@ -8,5 +8,5 @@ Put a quick summary here with a link to another page for more details
    * [:/ellcurve: Elliptic curves] -- basic improvements to elliptic curves
          * David Roe, William Stein
         
-   * [:/modules: Free modules] -- tensor products and quotients of free modules
+   * [:/modules: Tensor products, quotients, etc., of free modules] -- tensor products and quotients of free modules
          * Soroosh Yazdani, William Stein
