@@ -8,3 +8,7 @@
 
 == Reorganize and refactor the ell_rational_field file ==
   * E.g., separate out all the L-series commands into an L-series class, e.g., like padic_lseries right now. 
+
+== Compute E(F_q) ==
+  * Implement smart baby step-giant step (Albrecht, Sutherland)
+  * Use Dokchitser to compute L-function
