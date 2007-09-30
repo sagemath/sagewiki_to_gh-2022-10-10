@@ -8,11 +8,9 @@
 
 == Implement Tate's algorithm over number fields ==
   * This means porting Cremona's code.  David Roe started on this.
+  * This will give computation of conductors over number fields.  
 
-== 
-
-
-== conductors over number fields ==
+== Compute the Neron-Tate canonical height of points on elliptic curves over number fields == 
 
 == Reorganize and refactor the ell_rational_field file ==
   1. separate out all the L-series commands into an L-series class, e.g., like padic_lseries right now. 
