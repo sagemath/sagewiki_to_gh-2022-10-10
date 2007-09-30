@@ -8,8 +8,8 @@ Put a quick summary here with a link to another page for more details
    * [:/ellcurve: Elliptic curves] -- basic improvements to elliptic curves
          * Martin Albrecht, David Roe, William Stein, Drew Sutherland
 
-   * [:/padic: p-Adic Arithmetic] -- once again into the breech
-         * David Roe et al
+   * [:/padic: p-Adic Arithmetic] -- once again into the breach
+         * David Roe et al.
         
    * [:/modules: Tensor products, quotients, etc., of free modules] -- tensor products and quotients of free modules
          * Soroosh Yazdani, William Stein, Mike Hansen (remotely)
