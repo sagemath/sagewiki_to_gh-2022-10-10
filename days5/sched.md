@@ -20,6 +20,7 @@ MORNING TALK 1 (9:15-10:15)
 Speaker: William Stein
 Title: Computations Related to the Birch and Swinnerton-Dyer Conjecture using Sage
 }}}
+[http://wstein.org/talks/20070930-stein-bsd/ Slides]
 
 
 MORNING TALK 2 (10:30-11:30)
