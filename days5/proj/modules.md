@@ -1,1 +1,1 @@
-= Quotients, etc., of Free Modules =
+=  Tensor products, quotients, etc., of free modules =
