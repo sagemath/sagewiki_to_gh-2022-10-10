@@ -12,7 +12,7 @@ Put a quick summary here with a link to another page for more details
          * David Roe et al
         
    * [:/modules: Tensor products, quotients, etc., of free modules] -- tensor products and quotients of free modules
-         * Soroosh Yazdani, William Stein
+         * Soroosh Yazdani, William Stein, Mike Hansen (remotely)
 
    * [:/magma: Improve the Sage/Magma Interface]
          * Nils Bruin, William Stein
