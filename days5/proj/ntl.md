@@ -3,6 +3,7 @@
  NTL wrapper -- Joel Mohler, Robert Bradshaw, Craig Citro, David Roe, William Stein, Martin Albrecht, Gonzalo Tornaria
 
 
+Call to arms email from David Harvey:
 {{{
 Last night Craig suggested that we should maybe devote some serious  
 SD5 time to working on the NTL wrapper(s).
