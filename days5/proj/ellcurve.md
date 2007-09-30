@@ -20,3 +20,7 @@
 
 == Compute with L-series of elliptic curves over number fields ==
   * Use Dokchitser to compute L-function
+
+== Sympow improvement ==
+  * Improve Sage wrapper (a lot)
+  * In particular, should autogenerate the needed data files. 
