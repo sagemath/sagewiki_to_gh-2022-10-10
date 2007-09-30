@@ -6,9 +6,10 @@ Put a quick summary here with a link to another page for more details
          * Joel Mohler,  Robert Bradshaw, Craig Citro, David Roe, William Stein, Martin Albrecht, Gonzalo Tornaria
    
    * [:/ellcurve: Elliptic curves] -- basic improvements to elliptic curves
-         * David Roe, William Stein
+         * Martin Albrecht, David Roe, William Stein, Drew Sutherland
 
    * [:/padic: p-Adic Arithmetic] -- once again into the breech
+         * David Roe et al
         
    * [:/modules: Tensor products, quotients, etc., of free modules] -- tensor products and quotients of free modules
          * Soroosh Yazdani, William Stein
