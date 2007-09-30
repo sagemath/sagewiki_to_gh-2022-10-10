@@ -53,3 +53,10 @@ Put a quick summary here with a link to another page for more details
 
    * [:/mpolynomial_nf:MPolynomial_libsingular over Number Fields] This involves writing conversion routines only
          * Martin Albrecht, William Stein, Joel Mohler, Evil Twin.
+
+
+   * [:/memleak Memory Leaks and Valgrind Usage] 
+      - memory leaks in Cython, dictionaries, ref counts
+      - valgrind
+       
+      * Michael Abshoff, Robert Bradshaw, David Harvey, Craig Citro, William Stein, Soroosh Yazdani, 
