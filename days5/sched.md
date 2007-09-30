@@ -18,9 +18,9 @@ EVENING WORKING SESSION (8pm-?)
 MORNING TALK 1 (9:15-10:15)
 {{{
 Speaker: William Stein
-Title: On convergence in the Sato-Tate conjecture
+Title: Computations Related to the Birch and Swinnerton-Dyer Conjecture using Sage
 }}}
-Abstract: This is a talk on convergence in the Sato-Tate conjecture, in particular, it is an application of Sage to studying how quickly convergence happens in the Sato-Tate conjecture; this in fact leads to a new conjecture and new questions.  This is joint work with Barry Mazur. 
+
 
 MORNING TALK 2 (10:30-11:30)
 {{{
@@ -154,8 +154,9 @@ MORNING TALK 2
 
 {{{
 Speaker: William Stein
-Title: Computing p-adic Invariants of Elliptic Curves and Applications of Iwasawa theory to BSD
+Title: On convergence in the Sato-Tate conjecture
 }}}
+Abstract: This is a talk on convergence in the Sato-Tate conjecture, in particular, it is an application of Sage to studying how quickly convergence happens in the Sato-Tate conjecture; this in fact leads to a new conjecture and new questions.  This is joint work with Barry Mazur. 
 
 AFTERNOON
 {{{
