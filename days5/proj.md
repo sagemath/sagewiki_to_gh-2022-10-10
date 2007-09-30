@@ -14,5 +14,5 @@ Put a quick summary here with a link to another page for more details
    * [:/magma: Improve the Sage/Magma Interface]
          * Nils Bruin, William Stein
 
-   * [:/lll: wrap Damien's fplll code]
+   * [:/lll: Wrap Damien's fplll code]
          * Martin Albrecht
