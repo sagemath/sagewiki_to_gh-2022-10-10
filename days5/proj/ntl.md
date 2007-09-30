@@ -6,7 +6,7 @@
 
  * Wrapper functions should never returns pointers to `new' objects. We should always pass in a reference to the object where the result will be stored. (This prevents unnecessary copies in the calling code.)
 
- * All NTL types are called e.g. {{{ZZ_c}}}, {{{ZZ_p_c}}} etc, in decl.pxi.
+ * NTL classes are {{{ctypedef}}}'d with the same name with a {{{_c}}} suffix, e.g. the NTL type {{{ZZ}}} is imported to cython as {{{ZZ_c}}}. This happens in decl.pxi.
 
 == an email ==
 
