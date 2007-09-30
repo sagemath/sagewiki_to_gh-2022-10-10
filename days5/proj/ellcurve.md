@@ -1,14 +1,24 @@
 = Elliptic Curve =
 
+== Get doctest coverage up to 100% ==
 
-== fix all the precision and other TODO issues listed in William's talk ==
-[http://wstein.org/talks/20070930-stein-bsd/ Slides]
+== Period Lattice ==
+  * Make it so precision can be specified (in bits)
+  * Make an abstract "period lattice" class
+
+== Implement Tate's algorithm over number fields ==
+  * This means porting Cremona's code.  David Roe started on this.
+
+== 
+
 
 == conductors over number fields ==
 
 == Reorganize and refactor the ell_rational_field file ==
-  * E.g., separate out all the L-series commands into an L-series class, e.g., like padic_lseries right now. 
+  1. separate out all the L-series commands into an L-series class, e.g., like padic_lseries right now. 
 
-== Compute E(F_q) ==
+== Compute E(F_q) and/or #E(F_q) ==
   * Implement smart baby step-giant step (Albrecht, Sutherland)
+
+== Compute with L-series of elliptic curves over number fields ==
   * Use Dokchitser to compute L-function
