@@ -3667,3 +3667,11 @@ nimerino\.info
 minutospa\.info
 ihtibel\.info
 akmandel\.info
+168xh\.net
+posui\.net\.cn
+szgwjy\.com
+tcl\.com
+johnsonip\.cn
+szwanyang\.com
+lfhcn\.com
+89bm\.com
