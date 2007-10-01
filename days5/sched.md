@@ -89,8 +89,9 @@ Abstract: We will discuss the theory of Coleman integration (as referenced in th
 AFTERNOON TALKS
 {{{
 Speaker: Mark Watkins
-Title: Sympow
+Title: SYMPOW
 }}}
+Abstract: We discuss the SYMPOW package to compute special values of symmetric powers of elliptic curve $L$-functions.
 
 {{{
 Speaker: William Stein
