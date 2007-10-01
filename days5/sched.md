@@ -86,6 +86,8 @@ Title: Coleman integration
 }}}
 Abstract: We will discuss the theory of Coleman integration (as referenced in the previous talk), describe an algorithm for computing some Coleman integrals on hyperelliptic curves, and discuss (and perhaps demonstrate) how this is implemented in SAGE. Besides the application to computing p-adic heights, there are also potential applications to finding torsion and rational points on curves over number fields (also due to Coleman); we will say a bit about these too.
 
+[attachment:coleman.pdf]
+
 AFTERNOON TALKS
 {{{
 Speaker: Mark Watkins
