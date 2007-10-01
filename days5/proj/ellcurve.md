@@ -25,3 +25,5 @@
 == Sympow improvement ==
   * Improve Sage wrapper (a lot)
   * In particular, should autogenerate the needed data files. 
+
+[http://wiki.sagemath.org/days5/proj/ellcurve?action=AttachFile&do=get&target=ell_split.hg Breaking up ell_rational_field, adding Tate's algorithm]
