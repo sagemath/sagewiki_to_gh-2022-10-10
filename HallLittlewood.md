@@ -2,6 +2,33 @@
 == Q' Basis: ==
 Timing data for arithmetic with Hall-Littlewood polynomials in the Q' basis.
 
+=== Conversion to Schur basis ===
+{{{
+sage: Qp = HallLittlewood_qp(QQ)
+sage: S = SFASchur(QQ['t'].fraction_field())
+sage: time b = S(Qp([2,2]))
+CPU times: user 0.05 s, sys: 0.00 s, total: 0.05 s
+Wall time: 0.05
+sage: time b = S(Qp([3,2,1]))
+CPU times: user 0.16 s, sys: 0.00 s, total: 0.16 s
+Wall time: 0.15
+sage: time b = S(Qp([3,3,2,1]))
+CPU times: user 0.87 s, sys: 0.03 s, total: 0.90 s
+Wall time: 0.89
+sage: time b = S(Qp([2,2]))
+CPU times: user 0.02 s, sys: 0.00 s, total: 0.02 s
+Wall time: 0.02
+sage: time b = S(Qp([3,2,1]))
+CPU times: user 0.02 s, sys: 0.00 s, total: 0.03 s
+Wall time: 0.03
+sage: time b = S(Qp([3,3,2,1]))
+CPU times: user 0.07 s, sys: 0.00 s, total: 0.07 s
+Wall time: 0.07
+sage: b
+s[3, 3, 2, 1] + t*s[3, 3, 3] + t*s[4, 2, 2, 1] + (t^2+t)*s[4, 3, 1, 1] + (t^3+2*t^2+t)*s[4, 3, 2] + (t^4+t^3+t^2)*s[4, 4, 1] + (t^3+t^2)*s[5, 2, 1, 1] + (t^4+t^3+t^2)*s[5, 2, 2] + (t^5+2*t^4+3*t^3+t^2)*s[5, 3, 1] + (t^6+t^5+t^4+t^3)*s[5, 4] + t^4*s[6, 1, 1, 1] + (t^6+2*t^5+2*t^4+t^3)*s[6, 2, 1] + (t^7+t^6+2*t^5+2*t^4)*s[6, 3] + (t^7+t^6+t^5)*s[7, 1, 1] + (t^8+t^7+2*t^6+t^5)*s[7, 2] + (t^9+t^8+t^7)*s[8, 1] + t^10*s[9]
+}}}
+
+=== Multiplication ===
 Over ZZ:
 
 {{{
