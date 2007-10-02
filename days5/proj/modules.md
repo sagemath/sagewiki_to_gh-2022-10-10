@@ -16,3 +16,9 @@ Soroosh's Wish List: Here is a list of things that I think it would be nice to h
  * Rank: Calculate the rank of an R-module M.
  * direct sum
  * treating ideals as an R-modules.
+
+Comment from Justin:
+  I'd like to have support for modules (lattices) over arbitrary rings, especially quaternion algebras.  I'd also like to create these things as subthings of existing structures (say, quaternion algebras).  I don't know whether the latter is really important or interesting, but it seems like a good idea on the surface.
+  I think that the ``quotient module'' should be the head of the class hierarchy (below an abstract ``Module'' class perhaps).  Then a free module would be a module with no relations.  Related question: should the Module hierarchy have classes for a variety (as it were) of module types (free, tensor products, quotients, ...)?  Is it better just to differentiate by attributes on the base class?
+
+As of Monday, we have some code running.  It's barely a beginning.  How this fits into the class hierarchy is not yet clear.  Comments welcome (syazdani@gmail.com, justin@mac.com).
