@@ -1,8 +1,15 @@
 = Hall-Littlewood Polynomials =
+This page contains preliminary results for doing computations with the Hall-Littlewood polynomials in the P, Q, and Q' bases.
+
+== P Basis: ==
+
+== Q Basis: ==
+
 == Q' Basis: ==
 Timing data for arithmetic with Hall-Littlewood polynomials in the Q' basis.
 
 === Conversion to Schur basis ===
+Conversion to the Schur basis uses symmetrica.hall_littlewood.
 {{{
 sage: Qp = HallLittlewood_qp(QQ)
 sage: S = SFASchur(QQ['t'].fraction_field())
@@ -29,6 +36,8 @@ s[3, 3, 2, 1] + t*s[3, 3, 3] + t*s[4, 2, 2, 1] + (t^2+t)*s[4, 3, 1, 1] + (t^3+2*
 }}}
 
 === Multiplication ===
+Multiplication in the Q' basis is performed by converting to the Schur basis, performing the multiplication there, and then converting back to the Q' basis.
+
 Over ZZ:
 
 {{{
