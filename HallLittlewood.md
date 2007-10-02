@@ -1,0 +1,38 @@
+= Hall-Littlewood Polynomials =
+== Q' Basis: ==
+Timing data for arithmetic with Hall-Littlewood polynomials in the Q' basis.
+Over ZZ:
+
+{{{
+sage: Qp = HallLittlewood_qp(ZZ)
+sage: time c = Qp([2,2])^2
+CPU times: user 0.54 s, sys: 0.01 s, total: 0.55 s
+Wall time: 0.55
+sage: time c = Qp([3,2,1])^2
+CPU times: user 11.52 s, sys: 0.24 s, total: 11.76 s
+Wall time: 11.78
+sage: time c = Qp([2,2])^2
+CPU times: user 0.21 s, sys: 0.01 s, total: 0.22 s
+Wall time: 0.22
+sage: time c = Qp([3,2,1])^2
+CPU times: user 1.16 s, sys: 0.02 s, total: 1.18 s
+Wall time: 1.18
+}}}
+Over QQ:
+
+{{{
+sage: Qp = HallLittlewood_qp(QQ)
+sage: time c = Qp([2,2])^2
+CPU times: user 0.77 s, sys: 0.01 s, total: 0.78 s
+Wall time: 0.78
+sage: time c = Qp([3,2,1])^2
+CPU times: user 14.00 s, sys: 0.24 s, total: 14.24 s
+Wall time: 14.26
+sage: time c = Qp([2,2])^2
+CPU times: user 0.55 s, sys: 0.01 s, total: 0.56 s
+Wall time: 0.56
+sage: time c = Qp([3,2,1])^2
+CPU times: user 3.57 s, sys: 0.08 s, total: 3.65 s
+Wall time: 3.66
+}}}
+The majority of time spent in the second one is due to coercion from ZZ['t'] to QQ('t') (which should really be much faster).
