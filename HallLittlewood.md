@@ -1,6 +1,7 @@
 = Hall-Littlewood Polynomials =
 == Q' Basis: ==
 Timing data for arithmetic with Hall-Littlewood polynomials in the Q' basis.
+
 Over ZZ:
 
 {{{
