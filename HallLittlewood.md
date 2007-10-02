@@ -46,6 +46,7 @@ sage: time c = Qp([3,2,1])^2
 CPU times: user 1.16 s, sys: 0.02 s, total: 1.18 s
 Wall time: 1.18
 }}}
+
 Over QQ:
 
 {{{
@@ -64,3 +65,23 @@ CPU times: user 3.57 s, sys: 0.08 s, total: 3.65 s
 Wall time: 3.66
 }}}
 The majority of time spent in the last computation is due to coercion from ZZ['t'] to QQ('t') (which should really be much faster).
+
+
+Over RR:
+
+{{{
+sage: Qp = HallLittlewood_qp(RR)
+sage: time c = Qp([2,2])^2
+CPU times: user 0.78 s, sys: 0.01 s, total: 0.78 s
+Wall time: 0.99
+sage: time c = Qp([3,2,1])^2
+CPU times: user 13.28 s, sys: 0.33 s, total: 13.61 s
+Wall time: 13.67
+sage: time c = Qp([2,2])^2
+CPU times: user 0.44 s, sys: 0.00 s, total: 0.44 s
+Wall time: 0.44
+sage: time c = Qp([3,2,1])^2
+CPU times: user 2.88 s, sys: 0.05 s, total: 2.94 s
+Wall time: 2.95
+}}}
+The majority of time spent in the last computation is due to coercion from ZZ['t'] to RR('t') (which should really be much faster).
