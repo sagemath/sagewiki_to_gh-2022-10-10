@@ -63,4 +63,4 @@ sage: time c = Qp([3,2,1])^2
 CPU times: user 3.57 s, sys: 0.08 s, total: 3.65 s
 Wall time: 3.66
 }}}
-The majority of time spent in the second one is due to coercion from ZZ['t'] to QQ('t') (which should really be much faster).
+The majority of time spent in the last computation is due to coercion from ZZ['t'] to QQ('t') (which should really be much faster).
