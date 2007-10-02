@@ -127,11 +127,14 @@ Speaker: Gonzalo Tornaria
 Title: Stark-Heegner points and the Shimura correspondence
 }}}
 
+
 MORNING TALK 2
 {{{
 Speaker: Dimitar Jetchev
 Title: Computing Heegner points
 }}}
+
+[attachment:jetchev.pdf]
 
 AFTERNOON TALK
 {{{
