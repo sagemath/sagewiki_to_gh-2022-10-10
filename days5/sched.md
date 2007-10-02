@@ -118,6 +118,9 @@ Abstract: FLINT is a C library, in the very early stages of development, which h
 Speaker: Michael Abshoff
 Title: Managing the SAGE development workflow
 }}}
+
+http://sage.math.washington.edu/home/mabshoff/trac-talk-2007-10-01.tar.gz
+
 EVENING WORKING SESSION (8pm-?)
    
 
