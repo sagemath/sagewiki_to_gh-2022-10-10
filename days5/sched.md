@@ -60,7 +60,7 @@ Title: Commutative Algebra and Sparse Linear Algebra in SAGE (Singular, PolyBoRi
 }}}
 Abstract: I will cover libSINGULAR (with some examples, to show that the code isn't as scary as people believe), a bit of PolyBoRi, maybe something about CoCoALib, some benchmarks, and stuff we desperately need and don't know how to get. Obviously, I would throw in some benchmarks and stuff.  Actually, I would like to add some (unrelated) slides on the state of sparse linear algebra over finite fields. That would cover what package can do it (not many!) and how SAGE is in that area (surprisingly good it seems for now) and what is done to improve it. Also, someone in the audience might have some input on William's echelon via solve idea adapted to this setting.
 
-
+[attachment:20071003_-_commutative_algebra.pdf]
 
 EVENING WORKING SESSION (8pm-?)
    
