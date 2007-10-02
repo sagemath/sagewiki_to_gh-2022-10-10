@@ -3676,3 +3676,4 @@ szwanyang\.com
 lfhcn\.com
 89bm\.com
 caishen\d*\.cn
+hcplasticmold\.com
