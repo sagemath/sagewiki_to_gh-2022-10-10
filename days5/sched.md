@@ -153,11 +153,15 @@ Speaker: Robert Bradshaw
 Title: Cython status report
 }}}
 
+attachment:cython-status-07.pdf
+
 {{{
 Speaker: Robert Bradshaw
 Title: Coercion Status Report
 }}}
-Abstract: In this controversial report, I will describe the "right" way to discover coercion and explain why the idea of using base extension is wrong.
+Abstract: In this controversial report, I will describe the "right" way to discover coercion and explain why the idea of using extending baserings is wrong.
+
+attachment:coercion.pdf
 
 
 EVENING WORKING SESSION (8pm-?)
