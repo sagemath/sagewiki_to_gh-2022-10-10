@@ -3677,3 +3677,4 @@ lfhcn\.com
 caishen\d*\.cn
 hcplasticmold\.com
 ViewMyLoan\.com
+hotwetred\.info
