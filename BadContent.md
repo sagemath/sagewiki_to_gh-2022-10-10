@@ -3678,3 +3678,11 @@ caishen\d*\.cn
 hcplasticmold\.com
 ViewMyLoan\.com
 hotwetred\.info
+uniwuros\.com
+cbyanrbp\.com
+vmwtynhs\.com
+odosuz\.cn
+idakoxic\.cn
+ifom\.info
+omiducer\.cn
+isekecec\.cn
