@@ -28,6 +28,7 @@ The commercial CAS industry is big business. Few people know more about the CAS 
 || Scilab  ||  "open source"  || http://www.scilab.org ||
 || Singular  ||  GPL  || http://www.singular.uni-kl.de ||
 || Symmetrica  ||  public domain  || http://www.mathe2.uni-bayreuth.de/axel/symneu_engl.html ||
+|| SymPy || BSD || http://code.google.com/p/sympy/ ||
 || Yacas   ||   GPL     || http://yacas.sourceforge.net ||
 
 Omitted is ''CAFE'' (Computer Algebra and Functional Equations), 
