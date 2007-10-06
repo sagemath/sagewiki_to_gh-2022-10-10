@@ -3687,3 +3687,12 @@ ifom\.info
 omiducer\.cn
 isekecec\.cn
 hzylin\.cn
+vaqyjcqu\.com
+nvzisslp\.com
+jxzgdglq\.com
+wetwetwett\.info
+nudevidz\.info
+nunde4free\.info
+668w\.com
+fregalz\.info
+hothothott\.info
