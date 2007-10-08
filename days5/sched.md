@@ -31,7 +31,6 @@ Title: p-adic Arithmetic in SAGE
 Abstract: I will outline the current status of $p$-adic arithmetic in Sage.  In particular, I will discuss the different types of $p$-adics in Sage, extensions of $\mathbf Q_p$, polynomials and matrices over such local fields and their rings of integers.  I will outline a number of algorithms for treating precision in polynomial and matrix computations.  Come with comments on what aspects of $p$-adic arithmetic are most needed for your own projects.
 
 [http://wiki.sagemath.org/days5/sched?action=AttachFile&do=view&target=padic_arith.pdf Slides]
-
 [http://video.google.com/videoplay?docid=-8817702470712955205&hl=en Google Video part 1 (of 2)]
 
 AFTERNOON TALK (1-2)
