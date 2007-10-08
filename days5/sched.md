@@ -32,6 +32,8 @@ Abstract: I will outline the current status of $p$-adic arithmetic in Sage.  In 
 
 [http://wiki.sagemath.org/days5/sched?action=AttachFile&do=view&target=padic_arith.pdf Slides]
 
+[http://video.google.com/videoplay?docid=-8817702470712955205&hl=en Google Video part 1 (of 2)]
+
 AFTERNOON TALK (1-2)
 {{{
 Speaker: Fernando Rodriguez-Villegas
