@@ -21,7 +21,7 @@ Speaker: William Stein
 Title: Computations Related to the Birch and Swinnerton-Dyer Conjecture using Sage
 }}}
 [http://wstein.org/talks/20070930-stein-bsd/ Slides]
-
+[http://video.google.com/videoplay?docid=7984448761799110577&hl=en Google Video]
 
 MORNING TALK 2 (10:30-11:30)
 {{{
