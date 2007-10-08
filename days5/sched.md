@@ -32,6 +32,7 @@ Abstract: I will outline the current status of $p$-adic arithmetic in Sage.  In 
 
 [http://wiki.sagemath.org/days5/sched?action=AttachFile&do=view&target=padic_arith.pdf Slides]
 [http://video.google.com/videoplay?docid=-8817702470712955205&hl=en Google Video part 1 (of 2)]
+[http://video.google.com/videoplay?docid=-7834241264390846749&hl=en Google Video part 2 (of 2)]
 
 AFTERNOON TALK (1-2)
 {{{
@@ -40,7 +41,7 @@ Title: Identities between p-adic multi-polylogs and p-adic zeta values
 }}}
 Abstract: This is a talk about some work in progress which involves identities between $p$-adic multipolylogs and $p$-adic zeta values. Some I can (almost) prove others I can't and I find pretty surprising. Mostly I'd like to have some feedback on it. It wouldn't really be that computational except for the issue of how to compute linear relations among constants in the $p$-adics (but the again may be this is well known--to others). 
 
-
+[http://video.google.com/videoplay?docid=-5758635886902061837&hl=en Google Video]
 
 ORGANIZATIONAL MEETING 2:30 - 3:30:
 
