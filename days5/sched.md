@@ -107,6 +107,7 @@ Title: Algebraic Number Theory in SAGE, a Status Report
 }}}
 [attachment:stein-ant.pdf]
 
+[http://video.google.com/videoplay?docid=3470453209835871513&hl=en Google Video]
 
 EVENING REPORTS
 {{{
