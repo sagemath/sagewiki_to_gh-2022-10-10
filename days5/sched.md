@@ -105,9 +105,7 @@ Abstract: We discuss the SYMPOW package to compute special values of symmetric p
 Speaker: William Stein
 Title: Algebraic Number Theory in SAGE, a Status Report
 }}}
-[attachment:stein-ant.pdf]
-
-[http://video.google.com/videoplay?docid=3470453209835871513&hl=en Google Video]
+[attachment:stein-ant.pdf] [http://video.google.com/videoplay?docid=3470453209835871513&hl=en Google Video]
 
 EVENING REPORTS
 {{{
