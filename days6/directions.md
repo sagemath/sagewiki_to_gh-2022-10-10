@@ -1,4 +1,5 @@
 = Directions =
+This information is take from [attachment:rail%20and%20airport%20directions%20and%20centre%20map.pdf this PDF file].
 == Train and bus directions ==
 There are two mainline railway stations in Bristol, Temple Meads and
 Parkway. If you have a choice, you are advised to arrive at Temple
