@@ -8,7 +8,7 @@ AFTERNOON TALK (1-2pm)
 DINNER (5-7pm)
 EVENING REPORTS (7-8pm)
 EVENING WORKING SESSION (8pm-?)
-}}}
+}}} 
 
 == SATURDAY ==
 7pm -- Dinner at [http://www.penangusa.com/location_cambridge_menu_dinein.html Penang] in Harvard Square; 57 JFK Street, Harvard Square, Cambridge, MA 02138. We would like to make a reservation; please let William know if you plan to attend.
@@ -192,6 +192,7 @@ AFTERNOON
 Speaker: Moderator
 Project Wrap-up
 }}}
+[http://video.google.com/videoplay?docid=1589461731048191073&hl=en Google Video of the Final Status Reports]
 
 NUMBER THEORY SEMINAR (at Harvard, 3:00-4:00)
 {{{
