@@ -22,8 +22,7 @@ The Bristol webpage about SAGE Days 6 is here:
  * Michael Brickenstein
  * Kevin Buzzard   	  	  	 
  * Ondrej Certik
- * James Davenport
- * Tim Dokchitser  	  	 
+ * James Davenport	 
  * Burcin Erocal  
  * Jon Hanke
  * Bill Hart 
