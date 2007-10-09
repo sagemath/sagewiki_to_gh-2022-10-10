@@ -37,3 +37,6 @@ The Bristol webpage about SAGE Days 6 is here:
  * Mark Watkins
  * Ralf-Phillip Weinmann
  * Jaap Spies  	  	 
+
+== Directions ==
+See [:days6/directions:].
