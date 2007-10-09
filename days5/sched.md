@@ -100,6 +100,7 @@ Speaker: Mark Watkins
 Title: SYMPOW
 }}}
 Abstract: We discuss the SYMPOW package to compute special values of symmetric powers of elliptic curve $L$-functions.
+[http://video.google.com/videoplay?docid=7753480221612447282&hl=en Google Video]
 
 {{{
 Speaker: William Stein
