@@ -115,6 +115,11 @@ Title: A short talk on short division : FLINT (Fast Library for Number Theory) a
 }}}
 Abstract: FLINT is a C library, in the very early stages of development, which has the aim of extending the state of the art in core arithmetic computations and eventually algebraic number theory.  We will briefly discuss progress that has been made so far in polynomial and integer arithmetic, including a new variant/implementation of Mulder's recursive polynomial "short division" algorithm which we have worked up for doing faster polynomial division.
 
+{{{
+Speaker: Michael Abshoff
+Title: Valgrind Tutorial
+}}}
+http://video.google.com/videoplay?docid=-2913379305263249139&hl=en Google Video]
 
 {{{
 Speaker: Michael Abshoff
@@ -133,6 +138,7 @@ MORNING TALK 1
 Speaker: Gonzalo Tornaria
 Title: Stark-Heegner points and the Shimura correspondence
 }}}
+[http://video.google.com/videoplay?docid=1514873828205448855 Google Video (part 2 of 2)]
 
 
 MORNING TALK 2
@@ -155,7 +161,7 @@ Speaker: Robert Bradshaw
 Title: Cython status report
 }}}
 
-attachment:cython-status-07.pdf
+attachment:cython-status-07.pdf [http://video.google.com/videoplay?docid=8155731528590036456&hl=en Google Video]
 
 {{{
 Speaker: Robert Bradshaw
@@ -163,7 +169,7 @@ Title: Coercion Status Report
 }}}
 Abstract: In this controversial report, I will describe the "right" way to discover coercion and explain why the idea of using extending baserings is wrong.
 
-attachment:coercion.pdf
+attachment:coercion.pdf [http://video.google.com/videoplay?docid=7943196399220997534&hl=en Google Video]
 
 
 EVENING WORKING SESSION (8pm-?)
