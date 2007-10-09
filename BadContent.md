@@ -3712,3 +3712,6 @@ deqinfy\.net
 ebakvqsq\.com
 adklnaum\.com
 gohzmgek\.com
+hypoq\.(org|info)
+cerbaq\.info
+vertyn\.info
