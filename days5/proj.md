@@ -1,5 +1,7 @@
 = Sage Days 5 Working Sprint Projects =
 
+[http://video.google.com/videoplay?docid=1589461731048191073&hl=en Google Video of the Final Status Reports]
+
 Put a quick summary here with a link to another page for more details
 
    * [:/ntl: NTL wrapper] -- do the NTL wrapper right
