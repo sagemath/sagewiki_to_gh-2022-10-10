@@ -23,3 +23,7 @@ The workshop will end by 2:30pm on October 3 (Mark Watkins is giving a talk at t
 == Coding Sprints ==
  * [:/proj: List of projects]
  * [http://video.google.com/videoplay?docid=-565959676512509213&hl=en Google Video of People Chatting]
+
+
+
+[http://video.google.com/videoplay?docid=7507858133889751200&hl=en A moment in Harvard Square (Google Video)]
