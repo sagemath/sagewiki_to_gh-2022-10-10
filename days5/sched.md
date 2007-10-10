@@ -124,7 +124,8 @@ Abstract: FLINT is a C library, in the very early stages of development, which h
 Speaker: Michael Abshoff
 Title: Valgrind Tutorial
 }}}
-http://video.google.com/videoplay?docid=-2913379305263249139&hl=en Google Video]
+[http://video.google.com/videoplay?docid=-2913379305263249139&hl=en Google Video]
+[http://video.google.com/videoplay?docid=3574579568614471949&hl=en Another version]
 
 {{{
 Speaker: Michael Abshoff
