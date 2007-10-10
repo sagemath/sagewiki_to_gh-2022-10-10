@@ -85,7 +85,7 @@ projection from the space of meromorphic forms on the curve to its first de Rham
 integration and the theory of the so called double index. The second involves computation of Coleman integrals, which are however mroe
 general than the ones computed in recent work on the subject (Gutnik, Kedlaya, ...) so there are some tricks involved which I'll explain. Finally I will discuss the situation at other primes, where there are still some delicate issues to resolve.
 
-[attachment:besser.pdf]
+[attachment:besser.pdf] [http://video.google.com/videoplay?docid=1477916588819702201&hl=en Google Video]
 
 MORNING TALK 2
 {{{
