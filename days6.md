@@ -31,11 +31,13 @@ The Bristol webpage about SAGE Days 6 is here:
  * Lloyd Kilford
  * Tanya Lange
  * David Loeffler  	 
- * Clement Pernet 	 
+ * Clement Pernet 	
+ * David Roe 
  * Nigel Smart  	 
  * Mark Watkins
  * Ralf-Phillip Weinmann
  * Jaap Spies  	  	 
+ * Damien Stehle
 
 == Directions ==
 See [:days6/directions:].
