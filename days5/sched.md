@@ -198,7 +198,7 @@ Title: On convergence in the Sato-Tate conjecture
 }}}
 Abstract: This is a talk on convergence in the Sato-Tate conjecture, in particular, it is an application of Sage to studying how quickly convergence happens in the Sato-Tate conjecture; this in fact leads to a new conjecture and new questions.  This is joint work with Barry Mazur. 
 
-[attachment:stein-sato-tate.pdf]
+[attachment:stein-sato-tate.pdf] [http://video.google.com/videoplay?docid=-199443279836975614&hl=en Google Video]
 
 AFTERNOON
 {{{
