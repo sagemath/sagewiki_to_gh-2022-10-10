@@ -2,7 +2,7 @@
 
 The 5th SAGE days 2007 will be at the Clay Math Institute Sept 30 -- Oct 3, 2007.  It will be focused on computational arithmetic geometry.
 
-The [:/sched: Workshop Schedule is here].
+The [:/sched: Workshop Schedule is here], with slides and '''video''' from many of the talks.
 
 
 The official Clay Mathematics Institute page on this workshop is here: http://www.claymath.org/workshops/cag/
