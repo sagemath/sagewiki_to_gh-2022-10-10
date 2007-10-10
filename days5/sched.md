@@ -117,6 +117,9 @@ Title: A short talk on short division : FLINT (Fast Library for Number Theory) a
 }}}
 Abstract: FLINT is a C library, in the very early stages of development, which has the aim of extending the state of the art in core arithmetic computations and eventually algebraic number theory.  We will briefly discuss progress that has been made so far in polynomial and integer arithmetic, including a new variant/implementation of Mulder's recursive polynomial "short division" algorithm which we have worked up for doing faster polynomial division.
 
+[http://video.google.com/videoplay?docid=-5481874090998683168&hl=en Google Video]
+
+
 {{{
 Speaker: Michael Abshoff
 Title: Valgrind Tutorial
