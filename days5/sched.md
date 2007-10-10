@@ -174,7 +174,7 @@ Title: Coercion Status Report
 }}}
 Abstract: In this controversial report, I will describe the "right" way to discover coercion and explain why the idea of using extending baserings is wrong.
 
-attachment:coercion.pdf [http://video.google.com/videoplay?docid=7943196399220997534&hl=en Google Video]
+attachment:coercion.pdf [http://video.google.com/videoplay?docid=6579542972326274959&hl=en Google Video (part 1)] [http://video.google.com/videoplay?docid=7943196399220997534&hl=en Google Video (part 2)]
 
 
 EVENING WORKING SESSION (8pm-?)
