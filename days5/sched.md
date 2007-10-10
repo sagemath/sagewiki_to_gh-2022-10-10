@@ -56,13 +56,15 @@ Title: Modular forms in SAGE: A status report
 }}}
 Abstract: I'll give a short overview of the state of affairs of modular forms in SAGE. Mostly, I'll detail what we can do, what MAGMA can do that we can't, and some speed comparisons. 
 
+[http://video.google.com/videoplay?docid=2930757134671857575&hl=en Google Video]
+
 {{{
 Speaker: Martin Albrecht
 Title: Commutative Algebra and Sparse Linear Algebra in SAGE (Singular, PolyBoRi)
 }}}
 Abstract: I will cover libSINGULAR (with some examples, to show that the code isn't as scary as people believe), a bit of PolyBoRi, maybe something about CoCoALib, some benchmarks, and stuff we desperately need and don't know how to get. Obviously, I would throw in some benchmarks and stuff.  Actually, I would like to add some (unrelated) slides on the state of sparse linear algebra over finite fields. That would cover what package can do it (not many!) and how SAGE is in that area (surprisingly good it seems for now) and what is done to improve it. Also, someone in the audience might have some input on William's echelon via solve idea adapted to this setting.
 
-[attachment:20071003_-_commutative_algebra.pdf]
+[attachment:20071003_-_commutative_algebra.pdf] [http://video.google.com/videoplay?docid=156475786677736141&hl=en Google Video]
 
 EVENING WORKING SESSION (8pm-?)
    
@@ -138,7 +140,7 @@ MORNING TALK 1
 Speaker: Gonzalo Tornaria
 Title: Stark-Heegner points and the Shimura correspondence
 }}}
-[http://video.google.com/videoplay?docid=1514873828205448855 Google Video (part 2 of 2)]
+[http://video.google.com/videoplay?docid=1078890468756181537&hl=en Google Video (part 1 of 2)] [http://video.google.com/videoplay?docid=1514873828205448855 Google Video (part 2 of 2)]
 
 
 MORNING TALK 2
