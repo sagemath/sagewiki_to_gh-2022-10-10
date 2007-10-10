@@ -131,7 +131,7 @@ Speaker: Michael Abshoff
 Title: Managing the SAGE development workflow
 }}}
 
-http://sage.math.washington.edu/home/mabshoff/trac-talk-2007-10-01.tar.gz
+http://sage.math.washington.edu/home/mabshoff/trac-talk-2007-10-01.tar.gz [http://video.google.com/videoplay?docid=-8784589193845902962&hl=en Google Video]
 
 EVENING WORKING SESSION (8pm-?)
    
