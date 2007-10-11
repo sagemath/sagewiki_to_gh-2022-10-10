@@ -26,4 +26,6 @@ The workshop will end by 2:30pm on October 3 (Mark Watkins is giving a talk at t
 
 
 
-[http://video.google.com/videoplay?docid=7507858133889751200&hl=en A moment in Harvard Square (Google Video)]
+[http://video.google.com/videoplay?docid=7507858133889751200&hl=en A moment in Harvard Square (Google Video)] 
+[http://video.google.com/videoplay?docid=-294842101664469228&hl=en Harvard Square]
+[http://video.google.com/videoplay?docid=-9001212703020089368&hl=en Harvard Square]
