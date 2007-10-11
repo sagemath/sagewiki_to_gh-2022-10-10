@@ -3720,3 +3720,16 @@ blt\.net\.cn
 qemlcnwg\.com
 hudwzsfh\.com
 ppyecsia\.com
+impactcrusher\.net\.cn
+hammercrushers\.com
+benconq\.com
+jawcrusher\.net\.cn
+jawcrusher\.net\.cn
+raymondmill\.cn
+zenithcrusher\.com
+cnzenith\.com
+conecrushers\.com\.cn
+impactcrusher\.net\.cn
+beconq\.com
+crusher-cn\.com
+zenithcrusher\.com
