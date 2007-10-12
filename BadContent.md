@@ -3735,5 +3735,5 @@ crusher-cn\.com
 zenithcrusher\.com
 lemmings.dontexist\.com
 bjjjjgd\.cn
-stone-crusher\.org
-byzxw\.com
+mingshengximqm\.com
+shangguanhong\.net
