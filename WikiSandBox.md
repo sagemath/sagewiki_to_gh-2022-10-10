@@ -3,77 +3,67 @@
 ##master-page:WikiSandBox
 #format wiki
 #language en
-
 '''Feel free to experiment here, after the four dashes below. Please do not create new pages without any meaningful content just to try it out!'''
 
 You may want to open HelpOnEditing in a new window or tab while you edit.
+
 ----
 
 == Formatting ==
-
-''italic'' '''bold''' {{{typewriter}}} 
+''italic'' '''bold''' {{{typewriter}}}
 
 `backtick typewriter` (configurable)
 
-~+ bigger +~ ~- smaller -~
+~+bigger +~ ~-smaller -~
 
 {{{
 preformatted some more
 and some more lines too
-
 }}}
-
-{{{#!python
+{{{
+#!python
 def syntax(highlight):
     print "on"
     return None
 }}}
-
-
-{{{#!java
+{{{
+#!java
   public void main(String[] args]){
      System.out.println("Hello world!");
-  } 
-
+  }
 }}}
-
-
 == Linking ==
-
-HelpOnEditing MoinMoin:InterWiki 
+HelpOnEditing MoinMoin:InterWiki
 
 http://moinmoin.wikiwikiweb.de/ [http://www.python.org/ Python]
 
 someone@example.com
 
-
 === Image Link ===
 http://c2.com/sig/wiki.gif
 
 == Smileys ==
-
 /!\ Alert
 
 == Lists ==
-
 === Bullet ===
  * first
-   1. nested and numbered
-   1. numbered lists are renumbered
+  1. nested and numbered
+  1. numbered lists are renumbered
  * second
- * third
- blockquote
-   deeper
-
+ * third blockquote
+  . deeper
 === Glossary ===
  Term:: Definition
-
 === Drawing ===
 drawing:mytest
 
 = Heading 1 =
+''Tutta Bella'',
 
-''Tutta Bella'', === Mortadella Mio ===, '' '''Cogito''' '' ergo sum
+=== Mortadella Mio===
+
+'''''Cogito''' '' ergo sum
 
 == Heading 2 ==
 === Heading 3 ===
