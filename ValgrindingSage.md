@@ -8,9 +8,9 @@ Sage 2.8.5 supports a number of valgrind tools:
 
 Valgrinding Sage is difficult because it runs on top of Python which poses a number of challenges compared to pure C/C++ code. Run
 {{{
-sage -experimental
+sage -optional
 }}}
-to see the list of experimental packages. You should install the valgrind.spkg with the highest revision number. 
+to see the list of optional packages. You should install the valgrind.spkg with the highest revision number. 
 
 = Valgrind Version =
 The latest official valgrind 3.2.3 does not work. You need to build from 3.3.0svn trunk. There is an experimental Sage valgrind.spkg that works and is used by many of the Sage developers.
