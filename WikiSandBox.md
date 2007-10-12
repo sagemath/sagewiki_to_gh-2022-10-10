@@ -59,12 +59,6 @@ http://c2.com/sig/wiki.gif
 drawing:mytest
 
 = Heading 1 =
-''Tutta Bella'',
-
-=== Mortadella Mio ===
-
-'''''Cogito''' '' ergo sum
-
 == Heading 2 ==
 === Heading 3 ===
 ==== Heading 4 ====
