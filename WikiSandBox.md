@@ -61,7 +61,7 @@ drawing:mytest
 = Heading 1 =
 ''Tutta Bella'',
 
-=== Mortadella Mio===
+=== Mortadella Mio ===
 
 '''''Cogito''' '' ergo sum
 
