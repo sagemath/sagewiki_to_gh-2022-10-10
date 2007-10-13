@@ -3,7 +3,7 @@ This page compares the functionality in SAGE with that of the Combinatorica pack
 
 == SAGE functions ==
 This table lists the functions available in SAGE and the equivalent Combinatorica functions.  It also has some notes about the implementation and suggestions on how to make SAGE better.
-||'''      Class   ''' ||'''      SAGE    ''' ||'''      Combinatorica   ''' ||'''      Combinatorica Notes     ''' ||'''      SAGE notes      ''' ||
+||'''SAGE Class   ''' ||'''      SAGE function    ''' ||'''      Combinatorica   ''' ||'''      Combinatorica Notes     ''' ||'''      SAGE notes      ''' ||
 ||      !GenericGraph || || || || ||
 || ||      add_vertex ||      !AddVertex ||      Can specify coordinates for new vertices || ||
 || ||      add_vertices ||      !AddVertices ||      Can specify coordinates and graphical info for new vertices || ||
@@ -52,7 +52,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      radius ||      Radius || || ||
 || ||      random_subgraph || || || ||
 || ||      relabel ||      !PermuteSubgraph ||      can relabel a subgraph, not just entire graph || ||
-|| ||      set_boundary ||      ??? || || ||
+|| ||      set_boundary || || || ||
 || ||      shortest_path ||      !ShortestPath ||      Also uses !BellmanFord algorithm?  Automatically switches between this and Dijkstra depending on whether the graph has negative weights and the density of the graph || ||
 || ||      shortest_path_all_pairs || || || ||
 || ||      shortest_path_length || || ||      what is the difference between this and distance? ||
@@ -62,8 +62,8 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      size ||      M || || ||
 || ||      strong_product || || || ||
 || ||      tensor_product || || || ||
-|| || to_simple         || MakeSimple       || || ||
-|| ||transitive_closure ||TransitiveClosure || || ||
+|| || to_simple || !MakeSimple || || ||
+|| ||transitive_closure ||!TransitiveClosure || || ||
 || ||      union || || ||      What does “common vertices will be renamed” mean in the docs? ||
 || ||      vertex_boundary || || || ||
 || ||      vertex_iterator || || || ||
