@@ -3,8 +3,6 @@ This page compares the functionality in SAGE with that of the Combinatorica pack
 
 == SAGE functions ==
 This table lists the functions available in SAGE and the equivalent Combinatorica functions.  It also has some notes about the implementation and suggestions on how to make SAGE better.
-
-
 ||'''      Class   ''' ||'''      SAGE    ''' ||'''      Combinatorica   ''' ||'''      Combinatorica Notes     ''' ||'''      SAGE notes      ''' ||
 ||      !GenericGraph || || || || ||
 || ||      add_vertex ||      !AddVertex ||      Can specify coordinates for new vertices || ||
@@ -249,7 +247,6 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ArticulationVertices.html ArticulationVertices][g] gives a list of all articulation vertices in graph g. These are vertices whose removal will disconnect the graph.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/BellmanFord.html BellmanFord][g, v] gives a shortest-path spanning tree and associated distances from vertex v of graph g. The shortest-path spanning tree is given by a list in which element i is the predecessor of vertex i in the shortest-path spanning tree. [http://reference.wolfram.com/mathematica/Combinatorica/ref/BellmanFord.html BellmanFord] works correctly even when the edge weights are negative, provided there are no negative cycles.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/BiconnectedComponents.html BiconnectedComponents][g] gives a list of the biconnected components of graph g. If g is directed, the underlying undirected graph is used.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/BiconnectedQ.html BiconnectedQ][g] yields True if graph g is biconnected. If g is directed, the underlying undirected graph is used.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/BipartiteMatching.html BipartiteMatching][g] gives the list of edges associated with a maximum matching in bipartite graph g. If the graph is edge weighted, then the function returns a matching with maximum total weight.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/BipartiteMatchingAndCover.html BipartiteMatchingAndCover][g] takes a bipartite graph g and returns a matching with maximum weight along with the dual vertex cover. If the graph is not weighted, it is assumed that all edge weights are 1.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/BipartiteQ.html BipartiteQ][g] yields True if graph g is bipartite.
@@ -323,7 +320,6 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/KnightsTourGraph.html KnightsTourGraph][m, n] returns a graph with m*n vertices in which each vertex represents a square in an m x n chessboard and each edge corresponds to a legal move by a knight from one square to another.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/LabeledTreeToCode.html LabeledTreeToCode][g] reduces the tree g to its Prufer code.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/LeviGraph.html LeviGraph] returns the unique (8, 3)-cage, a 3-regular graph whose girth is 8.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/LineGraph.html LineGraph][g] constructs the line graph of graph g.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ListGraphs.html ListGraphs][n, m] returns all nonisomorphic undirected graphs with n vertices and m edges. [http://reference.wolfram.com/mathematica/Combinatorica/ref/ListGraphs.html ListGraphs][n, m, Directed] returns all nonisomorphic directed graphs with n vertices and m edges. [http://reference.wolfram.com/mathematica/Combinatorica/ref/ListGraphs.html ListGraphs][n] returns all nonisomorphic undirected graphs with n vertices. [http://reference.wolfram.com/mathematica/Combinatorica/ref/ListGraphs.html ListGraphs][n, Directed] returns all nonisomorphic directed graphs with n vertices.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MakeGraph.html MakeGraph][v, f] constructs the graph whose vertices correspond to v and edges between pairs of vertices x and y in v for which the binary relation defined by the Boolean function f is True. [http://reference.wolfram.com/mathematica/Combinatorica/ref/MakeGraph.html MakeGraph] takes two options, Type and [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexLabel.html VertexLabel]. Type can be set to Directed or Undirected and this tells [http://reference.wolfram.com/mathematica/Combinatorica/ref/MakeGraph.html MakeGraph] whether to construct a directed or an undirected graph. The default setting is Directed. [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexLabel.html VertexLabel] can be set to True or False, with False being the default setting. Using [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexLabel.html VertexLabel] -> True assigns labels derived from v to the vertices of the graph.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MakeSimple.html MakeSimple][g] gives the undirected graph, free of multiple edges and self-loops derived from graph g.
@@ -400,7 +396,6 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/TriangleInequalityQ.html TriangleInequalityQ][g] yields True if the weights assigned to the edges of graph g satisfy the triangle inequality.
  * Turan[n, p] constructs the Turan graph, the extremal graph on n vertices that does not contain [http://reference.wolfram.com/mathematica/Combinatorica/ref/CompleteGraph.html CompleteGraph][p].
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/TutteGraph.html TutteGraph] returns the Tutte graph, the first known example of a 3-connected, 3-regular, planar graph that is non-Hamiltonian.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/TwoColoring.html TwoColoring][g] finds a two-coloring of graph g if g is bipartite. It returns a list of the labels 1 and 2 corresponding to the vertices. This labeling is a valid coloring if and only the graph is bipartite.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/Uniquely3ColorableGraph.html Uniquely3ColorableGraph] returns a 12-vertex, triangle-free graph with chromatic number 3 that is uniquely 3-colorable.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/UnitransitiveGraph.html UnitransitiveGraph] returns a 20-vertex, 3-unitransitive graph discovered by Coxeter, that is not isomorphic to a 4-cage or a 5-cage.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/UnweightedQ.html UnweightedQ][g] yields True if all edge weights are 1 and False otherwise.
@@ -415,3 +410,9 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/WeaklyConnectedComponents.html WeaklyConnectedComponents][g] gives the weakly connected components of directed graph g as lists of vertices.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/WriteGraph.html WriteGraph][g, f] writes graph g to file f using an edge list representation.
  * Zoom[{i, j, k, ...}] is a value that the [http://reference.wolfram.com/mathematica/Combinatorica/ref/PlotRange.html PlotRange] option can take on in [http://reference.wolfram.com/mathematica/Combinatorica/ref/ShowGraph.html ShowGraph]. Setting [http://reference.wolfram.com/mathematica/Combinatorica/ref/PlotRange.html PlotRange] to this value zooms the display to contain the specified subset of vertices, i, j, k, ....
+== Combinatorica functions implemented, but not included yet ==
+ * Trac #851:
+  * line_graph: [http://reference.wolfram.com/mathematica/Combinatorica/ref/LineGraph.html LineGraph][g] constructs the line graph of graph g.
+ * Trac #869:
+  * bipartite_color and bipartite_sets: [http://reference.wolfram.com/mathematica/Combinatorica/ref/TwoColoring.html TwoColoring][g] finds a two-coloring of graph g if g is bipartite. It returns a list of the labels 1 and 2 corresponding to the vertices. This labeling is a valid coloring if and only the graph is bipartite.
+  * is_bipartite: [http://reference.wolfram.com/mathematica/Combinatorica/ref/BiconnectedQ.html BiconnectedQ][g] yields True if graph g is biconnected. If g is directed, the underlying undirected graph is used.
