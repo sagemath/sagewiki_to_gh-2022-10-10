@@ -1,4 +1,243 @@
-This page compares the functionality in SAGE with that of the Combinatorica package in Mathematica.
+= Combinatorica Comparison =
+This page compares the functionality in SAGE with that of the Combinatorica package in Mathematica.  We compare to Mathematica version 6 and  Combinatorica version 2.1.0.
+
+== SAGE functions ==
+This table lists the functions available in SAGE and the equivalent Combinatorica functions.  It also has some notes about the implementation and suggestions on how to make SAGE better.
+
+
+||'''      Class   ''' ||'''      SAGE    ''' ||'''      Combinatorica   ''' ||'''      Combinatorica Notes     ''' ||'''      SAGE notes      ''' ||
+||      !GenericGraph || || || || ||
+|| ||      add_vertex ||      !AddVertex ||      Can specify coordinates for new vertices || ||
+|| ||      add_vertices ||      !AddVertices ||      Can specify coordinates and graphical info for new vertices || ||
+|| ||      am ||      !ToAdjacencyMatrix ||      Can return edge weight matrix and matrix counting loops/multiple edges as well || ||
+|| ||      associate || || ||      Can we add this functionality to the add_vertex functions? ||
+|| ||      breadth_first_search ||      !BreadthFirstTraversal ||      Returns list of vertices, edges, the tree, or just the levels of traversal || ||
+|| ||      cartesian_product ||      !GraphProduct || ||      How are vertex properties transferred?  How are loops/multiple edges handled? ||
+|| ||      center ||      !GraphCenter || || ||
+|| ||      clear || || ||      Is this more efficient than just setting the graph to the empty graph? ||
+|| ||      clique_number || || || ||
+|| ||      cliques ||      !MaximumClique || ||      Can find a k-clique, not just a maximum clique ||
+|| ||      cliques_containing_node || || || ||
+|| ||      cliques_get_clique_bipartite || || || ||
+|| ||      cliques_get_max_clique_graph || || || ||
+|| ||      cliques_node_clique_number || || || ||
+|| ||      cliques_number_of || || || ||
+|| ||      cluster_transitivity ||      TransitiveQ ||      I think these two functions are/can be made equivalent || ||
+|| ||      cluster_triangles || || || ||
+|| ||      clustering_average || || || ||
+|| ||      clustering_coeff || || || ||
+|| ||      complement ||      !GraphComplement || ||      Pick a convention to deal with loops and make an option to switch conventions.  We can also make an option for a max number of edges to set a convention for multiple edges ||
+|| ||      cores || || || ||
+|| ||      delete_vertex ||      !DeleteVertex || || ||
+|| ||      delete_vertices ||      !DeleteVertices || || ||
+|| ||      density || || || ||
+|| ||      depth_first_search ||      !DepthFirstTraversal ||      Returns list of vertices, edges, or the traversal tree || ||
+|| ||      diameter ||      Diameter || ||      max( {} ) isn't right in the latex version ||
+|| ||      disjoint_union ||      !GraphUnion ||      not restricted to two graphs, and can easily make copies of the same graph || ||
+|| ||      disjunctive_product || || || ||
+|| ||      distance ||      Distances ||      Returns list of distances to every other vertex || ||
+|| ||      eccentricity ||      Eccentricity || ||      Much more complete ||
+|| ||      get_boundary ||      ??? || ||      what does this function do?? ||
+|| ||      has_vertex || || || ||
+|| ||      lexicographic_product || || || ||
+|| ||      loop_vertices || || || ||
+|| ||      loops ||      SelfLoopsQ || || ||
+|| ||      name || || || ||
+|| ||      neighbors ||      Neighborhood ||      can return neighbors distance k or less, not just immediate neighbors || ||
+|| ||      networkx_graph || || || ||
+|| ||      networkx_info || || || ||
+|| ||      obj || || || ||
+|| ||      order ||      V || || ||
+|| ||      periphery || || || ||
+|| ||      plot ||      !ShowGraph || ||      Plotting differences should be looked at more carefully. ||
+|| ||      radius ||      Radius || || ||
+|| ||      random_subgraph || || || ||
+|| ||      relabel ||      !PermuteSubgraph ||      can relabel a subgraph, not just entire graph || ||
+|| ||      set_boundary ||      ??? || || ||
+|| ||      shortest_path ||      !ShortestPath ||      Also uses !BellmanFord algorithm?  Automatically switches between this and Dijkstra depending on whether the graph has negative weights and the density of the graph || ||
+|| ||      shortest_path_all_pairs || || || ||
+|| ||      shortest_path_length || || ||      what is the difference between this and distance? ||
+|| ||      shortest_path_lengths || || || ||
+|| ||      shortest_paths || || || ||
+|| ||      show ||      !ShowGraph || ||      what is the difference between this and the plot function? ||
+|| ||      size ||      M || || ||
+|| ||      strong_product || || || ||
+|| ||      tensor_product || || || ||
+|| ||      union || || ||      What does “common vertices will be renamed” mean in the docs? ||
+|| ||      vertex_boundary || || || ||
+|| ||      vertex_iterator || || || ||
+|| ||      vertices ||      Range[V[#]]& ||      Since vertices are always numerically numbered, the range gives the list of vertices || ||
+|| ||      ______cmp__ ||      IdenticalQ ||      IdenticalQ isn't quite the same, I don't think it cares about loops/multiple edge settings, just the actual edge list. || ||
+|| ||      __contains__ || || ||      extend this to handle edges? ||
+|| ||      _matrix_ || || ||      is this the adjacency matrix? ||
+|| || || || || ||
+||      Graph || || || || ||
+|| ||      add_cycle || || || ||
+|| ||      add_edge ||      !AddEdge || || ||
+|| ||      add_edges ||      !AddEdges || || ||
+|| ||      add_path || || || ||
+|| ||      adjacency_matrix ||      !ToAdjacencyMatrix || || ||
+|| ||      all_paths || || || ||
+|| ||      automorphism_group ||      Automorphisms || || ||
+|| ||      canonical_label || || || ||
+|| ||      centrality_betweenness || || || ||
+|| ||      centrality_closeness || || || ||
+|| ||      centrality_degree || || || ||
+|| ||      connected_component_containing_vertex || || || ||
+|| ||      connected_components ||      !ConnectedComponents || || ||
+|| ||      connected_components_number || || || ||
+|| ||      connected_components_subgraphs || || || ||
+|| ||      copy || || || ||
+|| ||      degree ||      !DegreeSequence, Degrees || ||      can return only some degrees. ||
+|| ||      degree_histogram || || || ||
+|| ||      degree_iterator || || || ||
+|| ||      delete_edge ||      !DeleteEdge ||      nondestructive; “All” Option to delete all multiple edges || ||
+|| ||      delete_edges ||      !DeleteEdges ||      nondestructive; “All” Option to delete all multiple edges || ||
+|| ||      delete_multiedge ||      !DeleteEdge || ||      can we make this an option in delete_edge and delete_edges? ||
+|| ||      edge_boundary || || || ||
+|| ||      edge_iterator || || || ||
+|| ||      edge_label || || || ||
+|| ||      edge_labels ||      !GetEdgeLabels || || ||
+|| ||      edges ||      Edges || || ||
+|| ||      edges_incident || || || ||
+|| ||      genus || || || ||
+|| ||      graph6_string || || ||      extend this to handle bigger graphs ||
+|| ||      has_edge || || || ||
+|| ||      incidence_matrix ||      !IncidenceMatrix || ||      example shows a 0,1,-1 matrix.  Should this be 0,1 matrix? ||
+|| ||      interior_paths || || || ||
+|| ||      is_circular_planar || || ||      write an outer_planar function using this. ||
+|| ||      is_connected ||      ConnectedQ || || ||
+|| ||      is_directed ||      Not[UndirectedQ[#]]& || || ||
+|| ||      is_isomorphic ||      IsomorphicQ || ||      examine the differences between Combinatorica and SAGE later ||
+|| ||      kirchhoff_matrix || || || ||
+|| ||      loop_edges || || || ||
+|| ||      multiple_edges ||      MultipleEdgesQ || || ||
+|| ||      neighbor_iterator || || || ||
+|| ||      number_of_loops || || || ||
+|| ||      plot3d || || || ||
+|| ||      remove_loops ||      !RemoveSelfLoops || ||      can remove loops from selected vertices ||
+|| ||      remove_multiple_edges ||      !RemoveMultipleEdges || ||      extend to just remove multiple edges between sets of vertices ||
+|| ||      set_edge_label ||      !SetEdgeLabels || ||      How does this handle multiedges? ||
+|| ||      show3d || || || ||
+|| ||      sparse6_string || || ||      extend this to handle bigger graphs ||
+|| ||      spectrum ||      Spectrum || || ||
+|| ||      subgraph ||      !InduceSubgraph || || ||
+|| ||      to_directed ||      !MakeDirected ||      “All” option to transfer edge attributes to both directed edges || ||
+|| ||      to_undirected ||      !MakeUndirected || || ||
+|| ||      weighted_adjacency_matrix || || ||      make an option in “adjacency_matrix” ||
+|| ||      write_to_eps || || || ||
+|| || || || || ||
+||      !DiGraph || || || || ||
+|| ||      add_arc ||      !AddEdge || ||      why is this “add_arc” instead of “add_edge” for consistency? ||
+|| ||      add_arcs ||      !AddEdges || ||      why is this “add_arc” instead of “add_edge” for consistency? ||
+|| ||      adjacency_matrix ||      !ToAdjacencyMatrix || || ||
+|| ||      arc_boundary || || || ||
+|| ||      arc_iterator || || || ||
+|| ||      arc_label || || || ||
+|| ||      arc_labels ||      !GetEdgeLabels || || ||
+|| ||      arcs ||      Edges || || ||
+|| ||      automorphism_group ||      Automorphisms || || ||
+|| ||      canonical_label || || || ||
+|| ||      connected_component_containing_vertex || || || ||
+|| ||      connected_components ||      !ConnectedComponents || || ||
+|| ||      connected_components_number || || || ||
+|| ||      connected_components_subgraphs || || || ||
+|| ||      copy || || || ||
+|| ||      degree || || || ||
+|| ||      degree_iterator || || || ||
+|| ||      delete_arc ||      !DeleteEdge ||      nondestructive; “All” Option to delete all multiple edges || ||
+|| ||      delete_arcs ||      !DeleteEdges ||      nondestructive; “All” Option to delete all multiple edges || ||
+|| ||      delete_multiarc ||      !DeleteEdge || ||      can we make this an option in delete_edge and delete_edges? ||
+|| ||      dig6_string || || || ||
+|| ||      has_arc || || || ||
+|| ||      in_degree ||      !InDegree || || ||
+|| ||      in_degree_iterator || || || ||
+|| ||      incidence_matrix ||      !IncidenceMatrix ||      Convention for sign is opposite (1 means outgoing in Combinatorica) || ||
+|| ||      incoming_arc_iterator || || || ||
+|| ||      incoming_arcs || || || ||
+|| ||      is_connected ||      ConnectedQ ||      Options for strong or weakly connected || ||
+|| ||      is_directed || || || ||
+|| ||      is_directed_acyclic ||      DirectedQ and AcyclicQ ||      Can do acyclic test for undirected graphs too || ||
+|| ||      is_isomorphic ||      IsomorphicQ || || ||
+|| ||      loop_arcs || || || ||
+|| ||      multiple_arcs ||      MultipleEdgesQ || || ||
+|| ||      neighbor_iterator || || ||      make option for “out” edges or “in” edges ||
+|| ||      number_of_loops || || || ||
+|| ||      out_degree ||      !OutDegree || || ||
+|| ||      out_degree_iterator || || || ||
+|| ||      outgoing_arc_iterator || || || ||
+|| ||      outgoing_arcs || || || ||
+|| ||      plot3d || || || ||
+|| ||      predecessor_iterator || || ||      make this an option for neighbor_iterator and neighbors ||
+|| ||      predecessors || || ||      make this an option for neighbor_iterator and neighbors ||
+|| ||      remove_loops ||      !RemoveSelfLoops || || ||
+|| ||      remove_multiple_arcs ||      !RemoveMultipleEdges || || ||
+|| ||      reverse ||      !ReverseEdges || || ||
+|| ||      set_arc_label ||      !SetEdgeLabels || || ||
+|| ||      show3d || || || ||
+|| ||      subgraph ||      !InduceSubgraph || || ||
+|| ||      successor_iterator || || ||      make this an option for neighbor_iterator and neighbors ||
+|| ||      successors || || ||      make this an option for neighbor_iterator and neighbors ||
+|| ||      to_directed ||      !MakeDirected || || ||
+|| ||      to_undirected ||      !MakeUndirected || || ||
+|| ||      topological_sort ||      !TopologicalSort || || ||
+|| ||      topological_sort_generator || || || ||
+|| || || || || ||
+||      graphs || || || || ||
+|| ||      !BalancedTree ||      !CompleteKaryTree ||      can specify the total number of vertices ||      can specify the height ||
+|| ||      !BarbellGraph || || || ||
+|| ||      !BullGraph || || || ||
+|| ||      !ChvatalGraph ||      !ChvatalGraph || ||      put “smallest triangle-free, 4-regular, 4-chromatic graph.” in docs? ||
+|| ||      !CircularLadderGraph || || || ||
+|| ||      !ClawGraph || || || ||
+|| ||      !CompleteBipartiteGraph ||      CompleteKPartiteGraph ||      can create complete multipartite graph || ||
+|| ||      !CompleteGraph ||      !CompleteGraph || || ||
+|| ||      !CubeGraph ||      Hypercube || || ||
+|| ||      !CycleGraph ||      Cycle || || ||
+|| ||      !DegreeSequence ||      !RealizeDegreeSequence || ||      should “random” be “semirandom”, like in the Combinatorica documentation? ||
+|| ||      !DegreeSequenceConfigurationModel || || ||      Can this be an option in !DegreeSequence? ||
+|| ||      !DegreeSequenceExpected || || ||      Can this be an option in !DegreeSequence? ||
+|| ||      !DegreeSequenceTree || || ||      Can this be an option in !DegreeSequence? ||
+|| ||      !DesarguesGraph || || || ||
+|| ||      !DiamondGraph || || || ||
+|| ||      !DodecahedralGraph ||      !DodecahedralGraph || || ||
+|| ||      !DorogovtsevGoltsevMendesGraph || || || ||
+|| ||      !EmptyGraph ||      !EmptyGraph[0] ||      can give a number of vertices to include (empty means no edges) || ||
+|| ||      !FlowerSnark || || || ||
+|| ||      !FruchtGraph ||      !FruchtGraph || || ||
+|| ||      !Grid2dGraph ||      !GridGraph || || ||
+|| ||      !GridGraph ||      !GridGraph ||      Only does up to 3 dimensions || ||
+|| ||      !HeawoodGraph ||      !HeawoodGraph ||      smallest (6, 3)-cage || ||
+|| ||      !HexahedralGraph || || || ||
+|| ||      !HouseGraph || || || ||
+|| ||      HouseXGraph || || || ||
+|| ||      !IcosahedralGraph ||      !IcosahedralGraph || || ||
+|| ||      !KrackhardtKiteGraph || || || ||
+|| ||      !LadderGraph || || || ||
+|| ||      LCFGraph || || || ||
+|| ||      !LollipopGraph || || || ||
+|| ||      !MoebiusKantorGraph || || || ||
+|| ||      !OctahedralGraph ||      !OctahedralGraph || || ||
+|| ||      !PappusGraph || || || ||
+|| ||      !PathGraph ||      Path || || ||
+|| ||      !PetersenGraph ||      !PetersenGraph || || ||
+|| ||      !RandomBarabasiAlbert || || || ||
+|| ||      RandomDirectedGN || || || ||
+|| ||      RandomDirectedGNC || || || ||
+|| ||      RandomDirectedGNR || || || ||
+|| ||      RandomGNM || || || ||
+|| ||      RandomGNP ||      !RandomGraph? || || ||
+|| ||      !RandomHolmeKim || || || ||
+|| ||      !RandomLobster || || || ||
+|| ||      !RandomNewmanWattsStrogatz || || || ||
+|| ||      !RandomRegular || || || ||
+|| ||      !RandomShell || || || ||
+|| ||      !RandomTreePowerlaw || || || ||
+|| ||      !StarGraph ||      Star || || ||
+|| ||      !TetrahedralGraph ||      !TetrahedralGraph || || ||
+|| ||      !ThomsenGraph || || || ||
+|| ||      !WheelGraph ||      Wheel || || ||
+
 
 == Combinatorica functions not in SAGE ==
 These functions are implemented in Combinatorica, but not in SAGE.  Feel free to implement them!
@@ -20,8 +259,7 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ButterflyGraph.html ButterflyGraph][n] returns the n-dimensional butterfly graph, a directed graph whose vertices are pairs (w, i), where w is a binary string of length n and i is an integer in the range 0 through n and whose edges go from vertex (w, i) to (w', i+1), if w' is identical to w in all bits with the possible exception of the (i+1)th bit. Here bits are counted left to right. An option [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexLabel.html VertexLabel], with default setting False, is allowed. When this option is set to True, vertices are labeled with strings (w, i).
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/CageGraph.html CageGraph][k, r] gives a smallest k-regular graph of girth r for certain small values of k and r. [http://reference.wolfram.com/mathematica/Combinatorica/ref/CageGraph.html CageGraph][r] gives [http://reference.wolfram.com/mathematica/Combinatorica/ref/CageGraph.html CageGraph][3, r]. For k = 3, r can be 3, 4, 5, 6, 7, 8, or 10. For k = 4 or 5, r can be 3, 4, 5, or 6.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ChangeEdges.html ChangeEdges][g, e] replaces the edges of graph g with the edges in e. e can have the form {{s1, t1}, {s2, t2}, ...} or the form { {{s1, t1}, gr1}, {{s2, t2}, gr2}, ...}, where {s1, t1}, {s2, t2}, ... are endpoints of edges and gr1, gr2, ... are graphics information associated with edges.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ChangeVertices.html ChangeVertices][g, v] replaces the vertices of graph g with the vertices in the given list v. v can have the form {{x1, y1}, {x2, y2}, ...} or the form
- { {{x1, y1}, gr1}, {{x2, y2}, gr2}, ...}, where {x1, y1}, {x2, y2}, ... are coordinates of points and gr1, gr2, ... are graphics information associated with vertices.
+ * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ChangeVertices.html ChangeVertices][g, v] replaces the vertices of graph g with the vertices in the given list v. v can have the form {{x1, y1}, {x2, y2}, ...} or the form { {{x1, y1}, gr1}, {{x2, y2}, gr2}, ...}, where {x1, y1}, {x2, y2}, ... are coordinates of points and gr1, gr2, ... are graphics information associated with vertices.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ChromaticNumber.html ChromaticNumber][g] gives the chromatic number of the graph, which is the fewest number of colors necessary to color the graph.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ChromaticPolynomial.html ChromaticPolynomial][g, z] gives the chromatic polynomial P(z) of graph g, which counts the number of ways to color g with, at most, z colors.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/CirculantGraph.html CirculantGraph][n, l] constructs a circulant graph on n vertices, meaning the ith vertex is adjacent to the (i+j)th and (i-j)th vertices, for each j in list l. [http://reference.wolfram.com/mathematica/Combinatorica/ref/CirculantGraph.html CirculantGraph][n, l], where l is an integer, returns the graph with n vertices in which each i is adjacent to (i+l) and (i-l).
