@@ -209,7 +209,7 @@ We have attempted to make a complete list of existing graph theory software.  We
  a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Part II] of the paper (haven't yet found the actual package...)
 ==== Mathematica: Combinatorica ====
  a. [http://www.combinatorica.com/ Combinatorica] - for a list of functions, see [http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf help.pdf], page 13-14, 18, 21, 23, 25 - for a [http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/ book]
- a. For a comparison of functionality in Combinatorica and SAGE, see attachment:Combinatorica-Compare.ods .
+ a. For a comparison of functionality in Combinatorica and SAGE, see attachment:Combinatorica-Compare.ods or the CombinatoricaCompare page.
 === Other (useful) software ===
 ==== Python Libraries ====
 ===== pygraphlib =====
