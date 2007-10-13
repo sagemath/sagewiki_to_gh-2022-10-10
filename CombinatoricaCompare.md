@@ -62,9 +62,9 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      size ||      M || || ||
 || ||      strong_product || || || ||
 || ||      tensor_product || || || ||
-|| ||transitive_closure||TransitiveClosure|| || ||
-|| ||      union|| || ||      What does “common vertices will be renamed” mean in the docs? ||
-||
+|| || to_simple         || MakeSimple       || || ||
+|| ||transitive_closure ||TransitiveClosure || || ||
+|| ||      union || || ||      What does “common vertices will be renamed” mean in the docs? ||
 || ||      vertex_boundary || || || ||
 || ||      vertex_iterator || || || ||
 || ||      vertices ||      Range[V[#]]& ||      Since vertices are always numerically numbered, the range gives the list of vertices || ||
@@ -324,7 +324,6 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/LeviGraph.html LeviGraph] returns the unique (8, 3)-cage, a 3-regular graph whose girth is 8.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ListGraphs.html ListGraphs][n, m] returns all nonisomorphic undirected graphs with n vertices and m edges. [http://reference.wolfram.com/mathematica/Combinatorica/ref/ListGraphs.html ListGraphs][n, m, Directed] returns all nonisomorphic directed graphs with n vertices and m edges. [http://reference.wolfram.com/mathematica/Combinatorica/ref/ListGraphs.html ListGraphs][n] returns all nonisomorphic undirected graphs with n vertices. [http://reference.wolfram.com/mathematica/Combinatorica/ref/ListGraphs.html ListGraphs][n, Directed] returns all nonisomorphic directed graphs with n vertices.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MakeGraph.html MakeGraph][v, f] constructs the graph whose vertices correspond to v and edges between pairs of vertices x and y in v for which the binary relation defined by the Boolean function f is True. [http://reference.wolfram.com/mathematica/Combinatorica/ref/MakeGraph.html MakeGraph] takes two options, Type and [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexLabel.html VertexLabel]. Type can be set to Directed or Undirected and this tells [http://reference.wolfram.com/mathematica/Combinatorica/ref/MakeGraph.html MakeGraph] whether to construct a directed or an undirected graph. The default setting is Directed. [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexLabel.html VertexLabel] can be set to True or False, with False being the default setting. Using [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexLabel.html VertexLabel] -> True assigns labels derived from v to the vertices of the graph.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MakeSimple.html MakeSimple][g] gives the undirected graph, free of multiple edges and self-loops derived from graph g.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MaximalMatching.html MaximalMatching][g] gives the list of edges associated with a maximal matching of graph g.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MaximumAntichain.html MaximumAntichain][g] gives a largest set of unrelated vertices in partial order g.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MaximumIndependentSet.html MaximumIndependentSet][g] finds a largest independent set of graph g.
