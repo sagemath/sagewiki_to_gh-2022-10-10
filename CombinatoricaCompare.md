@@ -62,7 +62,9 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      size ||      M || || ||
 || ||      strong_product || || || ||
 || ||      tensor_product || || || ||
-|| ||      union || || ||      What does “common vertices will be renamed” mean in the docs? ||
+|| ||transitive_closure||TransitiveClosure|| || ||
+|| ||      union|| || ||      What does “common vertices will be renamed” mean in the docs? ||
+||
 || ||      vertex_boundary || || || ||
 || ||      vertex_iterator || || || ||
 || ||      vertices ||      Range[V[#]]& ||      Since vertices are always numerically numbered, the range gives the list of vertices || ||
@@ -385,7 +387,6 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ToAdjacencyLists.html ToAdjacencyLists][g] constructs an adjacency list representation for graph g. It allows an option called Type that takes on values All or Simple. Type -> All is the default setting of the option, and this permits self-loops and multiple edges to be reported in the adjacency lists. Type -> Simple deletes self-loops and multiple edges from the constructed adjacency lists. [http://reference.wolfram.com/mathematica/Combinatorica/ref/ToAdjacencyLists.html ToAdjacencyLists][g, [http://reference.wolfram.com/mathematica/Combinatorica/ref/EdgeWeight.html EdgeWeight]] returns an adjacency list representation along with edge weights.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ToOrderedPairs.html ToOrderedPairs][g] constructs a list of ordered pairs representing the edges of the graph g. If g is undirected each edge is interpreted as two ordered pairs. An option called Type that takes on values Simple or All can be used to affect the constructed representation. Type -> Simple forces the removal of multiple edges and self-loops. Type -> All keeps all information and is the default option.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ToUnorderedPairs.html ToUnorderedPairs][g] constructs a list of unordered pairs representing the edges of graph g. Each edge, directed or undirected, results in a pair in which the smaller vertex appears first. An option called Type that takes on values All or Simple can be used, and All is the default value. Type -> Simple ignores multiple edges and self-loops in g.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/TransitiveClosure.html TransitiveClosure][g] finds the transitive closure of graph g, the supergraph of g that contains edge {x, y} if and only if there is a path from x to y.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/TransitiveReduction.html TransitiveReduction][g] finds a smallest graph that has the same transitive closure as g.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/TranslateVertices.html TranslateVertices][v, {x, y}] adds the vector {x, y} to the vertex embedding location of each vertex in list v. [http://reference.wolfram.com/mathematica/Combinatorica/ref/TranslateVertices.html TranslateVertices][g, {x, y}] translates the embedding of the graph g by the vector {x, y}.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/TravelingSalesman.html TravelingSalesman][g] finds an optimal traveling salesman tour in a Hamiltonian graph g.
