@@ -8,6 +8,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      add_vertex ||      !AddVertex ||      Can specify coordinates for new vertices || ||
 || ||      add_vertices ||      !AddVertices ||      Can specify coordinates and graphical info for new vertices || ||
 || ||      am ||      !ToAdjacencyMatrix ||      Can return edge weight matrix and matrix counting loops/multiple edges as well || ||
+|| ||antisymmetric ||AntiSymmetricQ || || ||
 || ||      associate || || ||      Can we add this functionality to the add_vertex functions? ||
 || ||      breadth_first_search ||      !BreadthFirstTraversal ||      Returns list of vertices, edges, the tree, or just the levels of traversal || ||
 || ||      cartesian_product ||      !GraphProduct || ||      How are vertex properties transferred?  How are loops/multiple edges handled? ||
@@ -35,7 +36,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      disjunctive_product || || || ||
 || ||      distance ||      Distances ||      Returns list of distances to every other vertex || ||
 || ||      eccentricity ||      Eccentricity || ||      Much more complete ||
-|| ||      get_boundary || || ||The boundary functions let you make a set of vertices special.  You can then get or set the boundary of a graph.||
+|| ||      get_boundary || || ||The boundary functions let you make a set of vertices special.  You can then get or set the boundary of a graph. ||
 || ||      has_vertex || || || ||
 || ||      lexicographic_product || || || ||
 || ||      loop_vertices || || || ||
@@ -67,8 +68,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      vertices ||      Range[V[#]]& ||      Since vertices are always numerically numbered, the range gives the list of vertices || ||
 || ||      ______cmp__ ||      IdenticalQ ||      IdenticalQ isn't quite the same, I don't think it cares about loops/multiple edge settings, just the actual edge list. || ||
 || ||      __contains__ || || ||      extend this to handle edges? ||
-|| ||      _matrix_ || || ||This is the adjacency matrix.
-||
+|| ||      _matrix_ || || ||This is the adjacency matrix. ||
 || || || || || ||
 ||      Graph || || || || ||
 || ||      add_cycle || || || ||
@@ -243,7 +243,6 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
 
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/AlternatingPaths.html AlternatingPaths][g, start, ME] returns the alternating paths in graph g with respect to the matching ME, starting at the vertices in the list start. The paths are returned in the form of a forest containing trees rooted at vertices in start.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/AnimateGraph.html AnimateGraph][g, l] displays graph g with each element in the list l successively highlighted. Here l is a list containing vertices and edges of g. An optional flag, which takes on the values All and One, can be used to inform the function about whether objects highlighted earlier will continue to be highlighted or not. The default value of flag is All. All the options allowed by the function Highlight are permitted by [http://reference.wolfram.com/mathematica/Combinatorica/ref/AnimateGraph.html AnimateGraph], as well. See the usage message of Highlight for more details.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/AntiSymmetricQ.html AntiSymmetricQ][g] yields True if the adjacency matrix of g represents an anti-symmetric binary relation.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ApproximateVertexCover.html ApproximateVertexCover][g] produces a vertex cover of graph g whose size is guaranteed to be within twice the optimal size.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ArticulationVertices.html ArticulationVertices][g] gives a list of all articulation vertices in graph g. These are vertices whose removal will disconnect the graph.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/BellmanFord.html BellmanFord][g, v] gives a shortest-path spanning tree and associated distances from vertex v of graph g. The shortest-path spanning tree is given by a list in which element i is the predecessor of vertex i in the shortest-path spanning tree. [http://reference.wolfram.com/mathematica/Combinatorica/ref/BellmanFord.html BellmanFord] works correctly even when the edge weights are negative, provided there are no negative cycles.
