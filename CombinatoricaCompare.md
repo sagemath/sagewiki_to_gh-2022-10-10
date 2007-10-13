@@ -35,7 +35,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      disjunctive_product || || || ||
 || ||      distance ||      Distances ||      Returns list of distances to every other vertex || ||
 || ||      eccentricity ||      Eccentricity || ||      Much more complete ||
-|| ||      get_boundary ||      ??? || ||      what does this function do?? ||
+|| ||      get_boundary || || ||The boundary functions let you make a set of vertices special.  You can then get or set the boundary of a graph.||
 || ||      has_vertex || || || ||
 || ||      lexicographic_product || || || ||
 || ||      loop_vertices || || || ||
@@ -67,7 +67,8 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      vertices ||      Range[V[#]]& ||      Since vertices are always numerically numbered, the range gives the list of vertices || ||
 || ||      ______cmp__ ||      IdenticalQ ||      IdenticalQ isn't quite the same, I don't think it cares about loops/multiple edge settings, just the actual edge list. || ||
 || ||      __contains__ || || ||      extend this to handle edges? ||
-|| ||      _matrix_ || || ||      is this the adjacency matrix? ||
+|| ||      _matrix_ || || ||This is the adjacency matrix.
+||
 || || || || || ||
 ||      Graph || || || || ||
 || ||      add_cycle || || || ||
@@ -126,8 +127,8 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      write_to_eps || || || ||
 || || || || || ||
 ||      !DiGraph || || || || ||
-|| ||      add_edge ||      !AddEdge || ||      why is this “add_edge” instead of “add_edge” for consistency? ||
-|| ||      add_edges ||      !AddEdges || ||      why is this “add_edge” instead of “add_edge” for consistency? ||
+|| ||      add_edge ||      !AddEdge || || ||
+|| ||      add_edges ||      !AddEdges || || ||
 || ||      adjacency_matrix ||      !ToAdjacencyMatrix || || ||
 || ||      edge_boundary || || || ||
 || ||      edge_iterator || || || ||
