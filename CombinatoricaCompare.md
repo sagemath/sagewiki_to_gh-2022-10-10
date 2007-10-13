@@ -9,7 +9,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      add_vertices ||      !AddVertices ||      Can specify coordinates and graphical info for new vertices || ||
 || ||      am ||      !ToAdjacencyMatrix ||      Can return edge weight matrix and matrix counting loops/multiple edges as well || ||
 || ||      associate || || ||      Can we add this functionality to the add_vertex functions? ||
-|| ||      breadth_first_search ||      !BreadthFirstTraversal ||      Returns list of vertices, edges, the tree, or just the levels of traversal || ||
+|| ||      breadth_first_seedgeh ||      !BreadthFirstTraversal ||      Returns list of vertices, edges, the tree, or just the levels of traversal || ||
 || ||      cartesian_product ||      !GraphProduct || ||      How are vertex properties transferred?  How are loops/multiple edges handled? ||
 || ||      center ||      !GraphCenter || || ||
 || ||      clear || || ||      Is this more efficient than just setting the graph to the empty graph? ||
@@ -29,7 +29,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      delete_vertex ||      !DeleteVertex || || ||
 || ||      delete_vertices ||      !DeleteVertices || || ||
 || ||      density || || || ||
-|| ||      depth_first_search ||      !DepthFirstTraversal ||      Returns list of vertices, edges, or the traversal tree || ||
+|| ||      depth_first_seedgeh ||      !DepthFirstTraversal ||      Returns list of vertices, edges, or the traversal tree || ||
 || ||      diameter ||      Diameter || ||      max( {} ) isn't right in the latex version ||
 || ||      disjoint_union ||      !GraphUnion ||      not restricted to two graphs, and can easily make copies of the same graph || ||
 || ||      disjunctive_product || || || ||
@@ -126,14 +126,14 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      write_to_eps || || || ||
 || || || || || ||
 ||      !DiGraph || || || || ||
-|| ||      add_arc ||      !AddEdge || ||      why is this “add_arc” instead of “add_edge” for consistency? ||
-|| ||      add_arcs ||      !AddEdges || ||      why is this “add_arc” instead of “add_edge” for consistency? ||
+|| ||      add_edge ||      !AddEdge || ||      why is this “add_edge” instead of “add_edge” for consistency? ||
+|| ||      add_edges ||      !AddEdges || ||      why is this “add_edge” instead of “add_edge” for consistency? ||
 || ||      adjacency_matrix ||      !ToAdjacencyMatrix || || ||
-|| ||      arc_boundary || || || ||
-|| ||      arc_iterator || || || ||
-|| ||      arc_label || || || ||
-|| ||      arc_labels ||      !GetEdgeLabels || || ||
-|| ||      arcs ||      Edges || || ||
+|| ||      edge_boundary || || || ||
+|| ||      edge_iterator || || || ||
+|| ||      edge_label || || || ||
+|| ||      edge_labels ||      !GetEdgeLabels || || ||
+|| ||      edges ||      Edges || || ||
 || ||      automorphism_group ||      Automorphisms || || ||
 || ||      canonical_label || || || ||
 || ||      connected_component_containing_vertex || || || ||
@@ -143,35 +143,35 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      copy || || || ||
 || ||      degree || || || ||
 || ||      degree_iterator || || || ||
-|| ||      delete_arc ||      !DeleteEdge ||      nondestructive; “All” Option to delete all multiple edges || ||
-|| ||      delete_arcs ||      !DeleteEdges ||      nondestructive; “All” Option to delete all multiple edges || ||
-|| ||      delete_multiarc ||      !DeleteEdge || ||      can we make this an option in delete_edge and delete_edges? ||
+|| ||      delete_edge ||      !DeleteEdge ||      nondestructive; “All” Option to delete all multiple edges || ||
+|| ||      delete_edges ||      !DeleteEdges ||      nondestructive; “All” Option to delete all multiple edges || ||
+|| ||      delete_multiedge ||      !DeleteEdge || ||      can we make this an option in delete_edge and delete_edges? ||
 || ||      dig6_string || || || ||
-|| ||      has_arc || || || ||
+|| ||      has_edge || || || ||
 || ||      in_degree ||      !InDegree || || ||
 || ||      in_degree_iterator || || || ||
 || ||      incidence_matrix ||      !IncidenceMatrix ||      Convention for sign is opposite (1 means outgoing in Combinatorica) || ||
-|| ||      incoming_arc_iterator || || || ||
-|| ||      incoming_arcs || || || ||
+|| ||      incoming_edge_iterator || || || ||
+|| ||      incoming_edges || || || ||
 || ||      is_connected ||      ConnectedQ ||      Options for strong or weakly connected || ||
 || ||      is_directed || || || ||
 || ||      is_directed_acyclic ||      DirectedQ and AcyclicQ ||      Can do acyclic test for undirected graphs too || ||
 || ||      is_isomorphic ||      IsomorphicQ || || ||
-|| ||      loop_arcs || || || ||
-|| ||      multiple_arcs ||      MultipleEdgesQ || || ||
+|| ||      loop_edges || || || ||
+|| ||      multiple_edges ||      MultipleEdgesQ || || ||
 || ||      neighbor_iterator || || ||      make option for “out” edges or “in” edges ||
 || ||      number_of_loops || || || ||
 || ||      out_degree ||      !OutDegree || || ||
 || ||      out_degree_iterator || || || ||
-|| ||      outgoing_arc_iterator || || || ||
-|| ||      outgoing_arcs || || || ||
+|| ||      outgoing_edge_iterator || || || ||
+|| ||      outgoing_edges || || || ||
 || ||      plot3d || || || ||
 || ||      predecessor_iterator || || ||      make this an option for neighbor_iterator and neighbors ||
 || ||      predecessors || || ||      make this an option for neighbor_iterator and neighbors ||
 || ||      remove_loops ||      !RemoveSelfLoops || || ||
-|| ||      remove_multiple_arcs ||      !RemoveMultipleEdges || || ||
+|| ||      remove_multiple_edges ||      !RemoveMultipleEdges || || ||
 || ||      reverse ||      !ReverseEdges || || ||
-|| ||      set_arc_label ||      !SetEdgeLabels || || ||
+|| ||      set_edge_label ||      !SetEdgeLabels || || ||
 || ||      show3d || || || ||
 || ||      subgraph ||      !InduceSubgraph || || ||
 || ||      successor_iterator || || ||      make this an option for neighbor_iterator and neighbors ||
@@ -399,7 +399,7 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/Uniquely3ColorableGraph.html Uniquely3ColorableGraph] returns a 12-vertex, triangle-free graph with chromatic number 3 that is uniquely 3-colorable.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/UnitransitiveGraph.html UnitransitiveGraph] returns a 20-vertex, 3-unitransitive graph discovered by Coxeter, that is not isomorphic to a 4-cage or a 5-cage.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/UnweightedQ.html UnweightedQ][g] yields True if all edge weights are 1 and False otherwise.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexColoring.html VertexColoring][g] uses Brelaz's heuristic to find a good, but not necessarily minimal, vertex coloring of graph g. An option Algorithm that can take on the values Brelaz or Optimum is allowed. The setting Algorithm -> Brelaz is the default, while the setting Algorithm -> Optimum forces the algorithm to do an exhaustive search to find an optimum vertex coloring.
+ * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexColoring.html VertexColoring][g] uses Brelaz's heuristic to find a good, but not necessarily minimal, vertex coloring of graph g. An option Algorithm that can take on the values Brelaz or Optimum is allowed. The setting Algorithm -> Brelaz is the default, while the setting Algorithm -> Optimum forces the algorithm to do an exhaustive seedgeh to find an optimum vertex coloring.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexConnectivity.html VertexConnectivity][g] gives the minimum number of vertices whose deletion from graph g disconnects it. [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexConnectivity.html VertexConnectivity][g, Cut] gives a set of vertices of minimum size, whose removal disconnects the graph.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexConnectivityGraph.html VertexConnectivityGraph][g] returns a directed graph that contains an edge corresponding to each vertex in g and in which edge disjoint paths correspond to vertex disjoint paths in g.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexCover.html VertexCover][g] returns a vertex cover of the graph g. An option Algorithm that can take on values Greedy, Approximate, or Optimum is allowed. The default setting is Algorithm -> Approximate. Different algorithms are used to compute a vertex cover depending on the setting of the option Algorithm.
