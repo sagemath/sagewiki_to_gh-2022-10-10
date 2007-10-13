@@ -15,10 +15,10 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      clear || || ||      Is this more efficient than just setting the graph to the empty graph? ||
 || ||      clique_number || || || ||
 || ||      cliques ||      !MaximumClique || ||      Can find a k-clique, not just a maximum clique ||
-|| ||      cliques_containing_node || || || ||
+|| ||      cliques_containing_vertex || || || ||
 || ||      cliques_get_clique_bipartite || || || ||
 || ||      cliques_get_max_clique_graph || || || ||
-|| ||      cliques_node_clique_number || || || ||
+|| ||      cliques_vertex_clique_number || || || ||
 || ||      cliques_number_of || || || ||
 || ||      cluster_transitivity ||      TransitiveQ ||      I think these two functions are/can be made equivalent || ||
 || ||      cluster_triangles || || || ||
