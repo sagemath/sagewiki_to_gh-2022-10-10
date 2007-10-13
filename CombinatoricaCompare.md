@@ -9,7 +9,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      add_vertices ||      !AddVertices ||      Can specify coordinates and graphical info for new vertices || ||
 || ||      am ||      !ToAdjacencyMatrix ||      Can return edge weight matrix and matrix counting loops/multiple edges as well || ||
 || ||      associate || || ||      Can we add this functionality to the add_vertex functions? ||
-|| ||      breadth_first_seedgeh ||      !BreadthFirstTraversal ||      Returns list of vertices, edges, the tree, or just the levels of traversal || ||
+|| ||      breadth_first_search ||      !BreadthFirstTraversal ||      Returns list of vertices, edges, the tree, or just the levels of traversal || ||
 || ||      cartesian_product ||      !GraphProduct || ||      How are vertex properties transferred?  How are loops/multiple edges handled? ||
 || ||      center ||      !GraphCenter || || ||
 || ||      clear || || ||      Is this more efficient than just setting the graph to the empty graph? ||
@@ -29,7 +29,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      delete_vertex ||      !DeleteVertex || || ||
 || ||      delete_vertices ||      !DeleteVertices || || ||
 || ||      density || || || ||
-|| ||      depth_first_seedgeh ||      !DepthFirstTraversal ||      Returns list of vertices, edges, or the traversal tree || ||
+|| ||      depth_first_search ||      !DepthFirstTraversal ||      Returns list of vertices, edges, or the traversal tree || ||
 || ||      diameter ||      Diameter || ||      max( {} ) isn't right in the latex version ||
 || ||      disjoint_union ||      !GraphUnion ||      not restricted to two graphs, and can easily make copies of the same graph || ||
 || ||      disjunctive_product || || || ||
@@ -399,7 +399,7 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/Uniquely3ColorableGraph.html Uniquely3ColorableGraph] returns a 12-vertex, triangle-free graph with chromatic number 3 that is uniquely 3-colorable.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/UnitransitiveGraph.html UnitransitiveGraph] returns a 20-vertex, 3-unitransitive graph discovered by Coxeter, that is not isomorphic to a 4-cage or a 5-cage.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/UnweightedQ.html UnweightedQ][g] yields True if all edge weights are 1 and False otherwise.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexColoring.html VertexColoring][g] uses Brelaz's heuristic to find a good, but not necessarily minimal, vertex coloring of graph g. An option Algorithm that can take on the values Brelaz or Optimum is allowed. The setting Algorithm -> Brelaz is the default, while the setting Algorithm -> Optimum forces the algorithm to do an exhaustive seedgeh to find an optimum vertex coloring.
+ * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexColoring.html VertexColoring][g] uses Brelaz's heuristic to find a good, but not necessarily minimal, vertex coloring of graph g. An option Algorithm that can take on the values Brelaz or Optimum is allowed. The setting Algorithm -> Brelaz is the default, while the setting Algorithm -> Optimum forces the algorithm to do an exhaustive search to find an optimum vertex coloring.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexConnectivity.html VertexConnectivity][g] gives the minimum number of vertices whose deletion from graph g disconnects it. [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexConnectivity.html VertexConnectivity][g, Cut] gives a set of vertices of minimum size, whose removal disconnects the graph.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexConnectivityGraph.html VertexConnectivityGraph][g] returns a directed graph that contains an edge corresponding to each vertex in g and in which edge disjoint paths correspond to vertex disjoint paths in g.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/VertexCover.html VertexCover][g] returns a vertex cover of the graph g. An option Algorithm that can take on values Greedy, Approximate, or Optimum is allowed. The default setting is Algorithm -> Approximate. Different algorithms are used to compute a vertex cover depending on the setting of the option Algorithm.
