@@ -1,5 +1,5 @@
 = Directions =
-This information is take from [attachment:rail%20and%20airport%20directions%20and%20centre%20map.pdf this PDF file].
+This information is mostly taken from [attachment:rail%20and%20airport%20directions%20and%20centre%20map.pdf this PDF file].
 == Train and bus directions ==
 There are two mainline railway stations in Bristol, Temple Meads and
 Parkway. If you have a choice, you are advised to arrive at Temple
@@ -19,3 +19,14 @@ the steps to your right.
 To get to the Maths department, and Royal Fort, from the airport you
 can either take a taxi, or use the Airport flyer bus service, which will
 take you into the city centre. The bus ride will take you approximately 40 minutes. 
+
+The airport bus number 330  goes very close to the hotel after
+stopping at the main station (Temple Meads).  The other one (number
+331) does not.
+
+== Hotel ==
+All invited participants will be staying in the Marriott Hotel on
+College Green (near Bristol Cathedral).  Be careful:  there is at
+least one other Marriott Hotel in central Bristol!  Their room charges
+including breakfast will be met by the Heilbronn Institute (University
+of Bristol) but extras will have to be paid for.
