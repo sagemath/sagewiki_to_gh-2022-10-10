@@ -3737,3 +3737,15 @@ lemmings.dontexist\.com
 bjjjjgd\.cn
 mingshengximqm\.com
 shangguanhong\.net
+zooxtreme\.(com|net|org)
+beastplace\.(com|net|org)
+beastzone\.(com|net|org)
+beast-space\.(com|net|org)
+3vindia\.info
+2kool4u\.net
+22web\.net
+isgreat\.org
+iblogger\.org
+talk4fun\.net
+prophp\.org
+totalh\.com
