@@ -39,7 +39,9 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      get_boundary || || ||The boundary functions let you make a set of vertices special.  You can then get or set the boundary of a graph. ||
 || ||      has_vertex || || || ||
 || ||      lexicographic_product || || || ||
+|| ||line_graph||LineGraph|| || ||
 || ||      loop_vertices || || || ||
+|| || || || || ||
 || ||      loops ||      SelfLoopsQ || || ||
 || ||      name || || || ||
 || ||      neighbors ||      Neighborhood ||      can return neighbors distance k or less, not just immediate neighbors || ||
@@ -80,6 +82,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      adjacency_matrix ||      !ToAdjacencyMatrix || || ||
 || ||      all_paths || || || ||
 || ||      automorphism_group ||      Automorphisms || || ||
+|| ||bipartite_color, bipartite_sets||TwoColor|| || ||
 || ||      canonical_label || || || ||
 || ||      centrality_betweenness || || || ||
 || ||      centrality_closeness || || || ||
@@ -106,6 +109,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      has_edge || || || ||
 || ||      incidence_matrix ||      !IncidenceMatrix || ||      example shows a 0,1,-1 matrix.  Should this be 0,1 matrix? ||
 || ||      interior_paths || || || ||
+|| ||is_bipartite||BipartiteQ|| || ||
 || ||      is_circular_planar || || ||      write an outer_planar function using this. ||
 || ||      is_connected ||      ConnectedQ || || ||
 || ||      is_directed ||      Not[UndirectedQ[#]]& || || ||
@@ -190,6 +194,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      !BullGraph || || || ||
 || ||      !ChvatalGraph ||      !ChvatalGraph || ||      put “smallest triangle-free, 4-regular, 4-chromatic graph.” in docs? ||
 || ||      !CircularLadderGraph || || || ||
+|| ||CirculantGraph||CirculantGraph|| || ||
 || ||      !ClawGraph || || || ||
 || ||      !CompleteBipartiteGraph ||      CompleteKPartiteGraph ||      can create complete multipartite graph || ||
 || ||      !CompleteGraph ||      !CompleteGraph || || ||
@@ -408,13 +413,6 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/WriteGraph.html WriteGraph][g, f] writes graph g to file f using an edge list representation.
  * Zoom[{i, j, k, ...}] is a value that the [http://reference.wolfram.com/mathematica/Combinatorica/ref/PlotRange.html PlotRange] option can take on in [http://reference.wolfram.com/mathematica/Combinatorica/ref/ShowGraph.html ShowGraph]. Setting [http://reference.wolfram.com/mathematica/Combinatorica/ref/PlotRange.html PlotRange] to this value zooms the display to contain the specified subset of vertices, i, j, k, ....
 == Combinatorica functions implemented, but not included yet ==
- * Trac #851:
-  * line_graph: [http://reference.wolfram.com/mathematica/Combinatorica/ref/LineGraph.html LineGraph][g] constructs the line graph of graph g.
- * Trac #869:
-  * bipartite_color and bipartite_sets: [http://reference.wolfram.com/mathematica/Combinatorica/ref/TwoColoring.html TwoColoring][g] finds a two-coloring of graph g if g is bipartite. It returns a list of the labels 1 and 2 corresponding to the vertices. This labeling is a valid coloring if and only the graph is bipartite.
-  * is_bipartite: [http://reference.wolfram.com/mathematica/Combinatorica/ref/BipartiteQ.html BipartiteQ][g] yields True if graph g is bipartite.
- * Trac #871:
-  * CirculantGraph: [http://reference.wolfram.com/mathematica/Combinatorica/ref/CirculantGraph.html CirculantGraph][n, l] constructs a circulant graph on n vertices, meaning the ith vertex is adjacent to the (i+j)th and (i-j)th vertices, for each j in list l. [http://reference.wolfram.com/mathematica/Combinatorica/ref/CirculantGraph.html CirculantGraph][n, l], where l is an integer, returns the graph with n vertices in which each i is adjacent to (i+l) and (i-l).
  * Trac #904:
   * graph.is_clique: CliqueQ[g, c] yields True if the list of vertices c defines a clique in graph g.
   * graph.is_independent_set: IndependentSetQ[g, i] yields True if the vertices in list i define an independent set in graph g.
