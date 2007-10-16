@@ -52,6 +52,8 @@ computation of some automorphic forms for the unitary group U(3)
 == Clement Pernet ==
 LinBox
 
+== David Roe ==
+
 == Nigel Smart ==
 
 == Mark Watkins ==
@@ -59,6 +61,10 @@ LinBox
 == Ralf-Phillip Weinmann ==
 
 == Jaap Spies ==
+
+== Damien Stehle ==
+
+fpLLL
 
 == William Stein ==
 Abstract: Explain how using Python (with SAGE) is very likely to improve your efficiency and ability to do mathematical research that involves computation. 
