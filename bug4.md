@@ -35,6 +35,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  4. David Harvey -- I might drop in for a little while, not sure yet
  5. John Voight -- Number field stuff
  6. Robert Bradshaw
+ 7. Craig Citro (after about 1PM Pacific)
 
 [[ImageLink(bugs.jpg)]] [[ImageLink(compact.jpg)]]
 
