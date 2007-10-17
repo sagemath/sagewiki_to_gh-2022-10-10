@@ -3724,13 +3724,13 @@ impactcrusher\.net\.cn
 hammercrushers\.com
 benconq\.com
 jawcrusher\.net\.cn
-jawcrusher\.net\.cn
 raymondmill\.cn
 zenithcrusher\.com
 cnzenith\.com
 conecrushers\.com\.cn
 impactcrusher\.net\.cn
 beconq\.com
+benconq\.com
 crusher-cn\.com
 zenithcrusher\.com
 lemmings.dontexist\.com
@@ -3752,3 +3752,7 @@ totalh\.com
 xanga\.com
 stonecrusher\.net\.cn
 vone\.net\.cn
+aggregate-plant\.com
+grindingmill\.cn
+huili-cn\.com
+globalchineseedu\.com
