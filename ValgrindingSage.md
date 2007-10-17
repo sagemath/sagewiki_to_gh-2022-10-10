@@ -1,10 +1,10 @@
 = Introduction =
 Sage 2.8.5 supports a number of valgrind tools:
 
- * memcheck
- * massif
- * cachegrind
- * cachegrind
+ * memcheck: memory leak detector
+ * massif: heap and stack profiler
+ * cachegrind: cache profiler, i.e. L1 & L2 hit and misses
+ * callgrind: general profiler
 
 Valgrinding Sage is difficult because it runs on top of Python which poses a number of challenges compared to pure C/C++ code. Run
 {{{
