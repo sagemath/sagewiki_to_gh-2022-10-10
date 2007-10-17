@@ -38,6 +38,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  7. Craig Citro (after about 1PM Pacific)
  8. Jason Grout -- graphs or an interface to QEPCad.
  9. Carl Witty
+ 10. Joel Mohler -- small matrix and/or multi-variate poly rings
 
 [[ImageLink(bugs.jpg)]] [[ImageLink(compact.jpg)]]
 
