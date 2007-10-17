@@ -32,7 +32,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  1. William Stein -- applying patches; organization
  2. Mike Hansen
  3. Michael Abshoff (memory leaks, Solaris port, whatever else looks interesting ;) )
- 4. David Harvey -- I might drop in for a little while, not sure yet
+ 4. David Harvey -- probably won't make it due to work overload :-(
  5. John Voight -- Number field stuff
  6. Robert Bradshaw
  7. Craig Citro (after about 1PM Pacific)
