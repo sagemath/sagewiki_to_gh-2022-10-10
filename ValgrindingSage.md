@@ -33,7 +33,7 @@ More to come at SD6. But: [attachment:SageDays5_preliminary_valgrind_talk.pdf]
 
  * client requests: see http://valgrind.org/docs/manual/mc-manual.html#mc-manual.clientreqs
  * omega: Is getting integrate as experimental tool into 3.3.0svn
- * chronicle-recorder: Uses a patched 3.2.3 release - see http://code.google.com/p/chronicle-recorder/ - for a python interface see http://www.visophyte.org/blog/2007/07/26/chroniquery-chroncle-recorder-and-python-boogie-down/
+ * chronicle-recorder: Uses a patched 3.2.3 release - see http://code.google.com/p/chronicle-recorder/ - for a python interface see http://www.visophyte.org/blog/2007/07/26/chroniquery-chronicle-recorder-and-python-boogie-down/
 
 = ToDo =
  * Add lots more info how to build and use valgrind in general, mention experimental valgrind.spkg
