@@ -11,7 +11,7 @@ The Bristol webpage about SAGE Days 6 is here:
  * Martin Albrecht, malb@informatik.uni-bremen.de
 
 == Confirmed Participants ==
-(Note may be many additional participants.)
+(There may be many additional participants.)
 
  * Michael Abshoff 
  * Bill Allombert
@@ -37,7 +37,6 @@ The Bristol webpage about SAGE Days 6 is here:
  * Mark Watkins
  * Ralf-Phillip Weinmann
  * Jaap Spies  	  	 
- * Damien Stehle
 
 == Directions ==
 See [:days6/directions:].
