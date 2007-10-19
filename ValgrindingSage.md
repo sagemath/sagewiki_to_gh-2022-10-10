@@ -25,6 +25,14 @@ valgrind: Heap block lo/hi size mismatch: lo = 100000048, hi = 280100984.
 Probably caused by overrunning/underrunning a heap block's bounds.
 }}}
 
+= Using callgrind with Sage =
+
+callgrind is a powerful profiler that is part of valgrind (but it slows down your program a lot).  Just do {{{sage -callgrind}}} to run Sage under callgrind; this will produce files {{{callgrind.out.nnnn}}} in $SAGE_ROOT/local/bin that can be interpreted by callgrind_annotate or by kcachegrind.  (A single run of Sage will create multiple files, one for each process involved.  That is, one for Sage, one for Singular, etc...)
+
+To profile only part of a Sage run, edit $SAGE_ROOT/local/bin/sage-callgrind and add the flag {{{--instr-atstart=no}}} to the valgrind command line (before {{{python -i}}}).  Then run {{{sage -callgrind}}}, and do whatever setup until you're ready to start profiling.  In another window, run {{{callgrind-control -i on}}}, then press Enter in your Sage window.  Now do whatever you want profiled.  When that's completed, go back to your other window, run {{{callgrind-control -i off}}}, then press Enter in your Sage window again.
+
+The default settings for callgrind do not interact well with Cython-generated code--it will assume that each call to PyEval_CallObjectWithKeywords is equally costly.  To get callgrind to differentiate calls by their caller, add {{{--seperate-callers=10}}} to $SAGE_ROOT/local/bin/sage-callgrind.
+
 = Preliminary Presentation =
 
 More to come at SD6. But: [attachment:SageDays5_preliminary_valgrind_talk.pdf]
