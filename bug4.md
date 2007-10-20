@@ -17,7 +17,12 @@ sage: hg_sage.pull(); hg_sage.merge(); hg_sage.ci(); hg_sage.update()
 sage: hg_doc.pull(); hg_doc.merge(); hg_doc.ci(); hg_doc.update()
 sage: hg_scripts.pull(); hg_scripts.merge(); hg_scripts.ci(); hg_scripts.update()
 }}}
-  followed by sage -br, to build all the latest patches.
+  followed by sage -br, to build all the latest patches.  Alternatively, you can start with 2.8.7.1 here:
+{{{
+http://sage.math.washington.edu/tmp/
+}}}
+And I'll be posting a tar'd prebuilt version there too for sage.math. 
+
 
  * The trac server with all the bugs is here:
       http://trac.sagemath.org
