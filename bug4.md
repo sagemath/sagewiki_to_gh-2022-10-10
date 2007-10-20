@@ -11,13 +11,15 @@ Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a tr
 
  * [:bug4/Results: Results]
 
- * The base version of SAGE we'll start with is here: sage-2.8.7, which you can upgrade to using "sage -upgrade", plus you should do
+ * The base version of SAGE we'll start with is here: sage-2.8.7.2, which you can get to by just doing "sage -upgrade".
+Alternatively, do:
 {{{
 sage: hg_sage.pull(); hg_sage.merge(); hg_sage.ci(); hg_sage.update()
 sage: hg_doc.pull(); hg_doc.merge(); hg_doc.ci(); hg_doc.update()
 sage: hg_scripts.pull(); hg_scripts.merge(); hg_scripts.ci(); hg_scripts.update()
 }}}
-  followed by sage -br, to build all the latest patches.  Alternatively, you can start with 2.8.7.1 here:
+  followed by sage -br, to build all the latest patches.  
+There is a prebuilt version on sage.math here, which you'll need to hg_sage.pull() on as above:
 {{{
 http://sage.math.washington.edu/tmp/
 }}}
