@@ -11,7 +11,13 @@ Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a tr
 
  * [:bug4/Results: Results]
 
- * The base version of SAGE we'll start with is here: sage-x.y.z which you can upgrade to using "sage -upgrade"
+ * The base version of SAGE we'll start with is here: sage-2.8.7, which you can upgrade to using "sage -upgrade", plus you should do
+{{{
+sage: hg_sage.pull(); hg_sage.merge(); hg_sage.ci(); hg_sage.update()
+sage: hg_doc.pull(); hg_doc.merge(); hg_doc.ci(); hg_doc.update()
+sage: hg_scripts.pull(); hg_scripts.merge(); hg_scpripts.ci(); hg_scripts.update()
+}}}
+  followed by sage -br, to build all the latest patches.
 
  * The trac server with all the bugs is here:
       http://trac.sagemath.org
