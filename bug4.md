@@ -15,7 +15,7 @@ Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a tr
 {{{
 sage: hg_sage.pull(); hg_sage.merge(); hg_sage.ci(); hg_sage.update()
 sage: hg_doc.pull(); hg_doc.merge(); hg_doc.ci(); hg_doc.update()
-sage: hg_scripts.pull(); hg_scripts.merge(); hg_scpripts.ci(); hg_scripts.update()
+sage: hg_scripts.pull(); hg_scripts.merge(); hg_scripts.ci(); hg_scripts.update()
 }}}
   followed by sage -br, to build all the latest patches.
 
