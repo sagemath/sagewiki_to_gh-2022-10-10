@@ -5,12 +5,13 @@ Sage 2.8.5 and later supports a number of valgrind tools:
  * massif: heap and stack profiler
  * cachegrind: cache profiler, i.e. L1 & L2 hit and misses
  * callgrind: general profiler
+ * omega: another memory leak detector (x86 and x86-64 only)
 
 Valgrinding Sage is difficult because it runs on top of Python which poses a number of challenges compared to pure C/C++ code. Run
 {{{
 sage -optional
 }}}
-to see the list of optional packages. You should install the valgrind.spkg with the highest revision number. 
+to see the list of optional packages. You should install the valgrind.spkg with the highest revision number. There is also a special version that includes omega, an experimental valgrind tool.
 
 = Valgrind Version =
 The latest official valgrind 3.2.3 does not work. You need to build from 3.3.0svn trunk. There is an experimental Sage valgrind.spkg that works and is used by many of the Sage developers.
