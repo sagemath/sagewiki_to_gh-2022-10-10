@@ -43,6 +43,23 @@ More to come at SD6. But: [attachment:SageDays5_preliminary_valgrind_talk.pdf]
  * omega: Is getting integrate as experimental tool into 3.3.0svn
  * chronicle-recorder: Uses a patched 3.2.3 release - see http://code.google.com/p/chronicle-recorder/ - for a python interface see http://www.visophyte.org/blog/2007/07/26/chroniquery-chronicle-recorder-and-python-boogie-down/
 
+= Getting Chronicle to work with 3.3.0trunk =
+
+The following info was supplied by Carl Witty:
+{{{
+To create my (apparently working) chronicle tree:
+
+Check out svn revision 51 of chronicle-recorder
+move chronicle/valgrind/chronicle out of the way somewhere
+remove chronicle/valgrind
+replace chronicle/valgrind with r6959 of valgrind, from valgrind-3.3.0svn-r6959
+apply the patch sage.math:/home/cwitty/valgrind-r6959-to-chronicle.patch 
+    to this replaced valgrind directory
+move chronicle/valgrind/chronicle back under the (new) valgrind directory
+apply the patch sage.math:/home/cwitty/chronicle-r51-to-chronicle.patch
+    to the chronicle/valgrind/chronicle directory
+}}}
+
 = ToDo =
  * Add lots more info how to build and use valgrind in general, mention experimental valgrind.spkg
  * external links
