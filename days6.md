@@ -5,7 +5,7 @@ The Bristol webpage about SAGE Days 6 is here:
     http://www.maths.bris.ac.uk/events/meetings/meeting/index.php?meeting_id=23
 
 == Schedule ==
- * a first provisional schedule is available at [:days6/talks:]
+A first provisional schedule is available at [:days6/talks:].
 
 == Organizers ==
 
@@ -15,6 +15,8 @@ The Bristol webpage about SAGE Days 6 is here:
 
 == Confirmed Participants ==
 (There may be many additional participants.)
+
+Note you must register via the Bristol webpage linked above if you are not an invited participant to allow the Heilbronn institute to organize the event.
 
  * Michael Abshoff 
  * Bill Allombert
