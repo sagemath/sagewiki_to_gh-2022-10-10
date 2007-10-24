@@ -3786,3 +3786,10 @@ pkseo\.cn
 nabirbsb\.com
 oqholfwb\.com
 wjoupiyw\.com
+yejuntech\.com
+ngvvlxpwuqhh\.com
+opggdydlpwsx\.com
+jrrwpwbungrk\.com
+lmkjshlsejlh\.com
+lovewind\.cn
+jormabridal\.com(\.cn)?
