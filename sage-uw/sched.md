@@ -2,16 +2,16 @@
 
 The seminar meets at 5pm in Communications B027.
 
+Monday, October 29, 2007:
+{{{
+SPEAKER: Mike Hansen
+}}}
 
 Monday, October 15, 2007: 
 {{{
-
 TITLE: Introduction to Abelian Varieties
-
 TIME: 5-6pm on Monday, October 15, 2007
-
 LOCATION: B027 in the Communications building
-
 SPEAKER: Robert Miller
 
 Abstract: What the heck is an abelian variety? Elliptic curves are
