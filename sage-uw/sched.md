@@ -7,6 +7,9 @@ Monday, October 29, 2007:
 SPEAKER: Mike Hansen
 }}}
 
+
+====================================
+
 Monday, October 15, 2007: 
 {{{
 TITLE: Introduction to Abelian Varieties
