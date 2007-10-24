@@ -52,6 +52,8 @@ an example or two in Sage.
 
 Monday, October 22, 2007: 
 
+(no seminar)
+
 Monday, October 29, 2007: 
 {{{
 TITLE: Combinatorial Algebras in SAGE
