@@ -17,8 +17,8 @@ n (indexed by permutations of size n), the algebra of Schubert polynomials
 (indexed by permutations), partition algebras (indexed by set partitions 
 satisfying certain constraints), and the symmetric function algebra (indexed 
 by integer partitions).  In this talk, I will go over support for combinatorial
- algebras in SAGE with an emphasis on symmetric functions and some issues 
-that have arisen in their implementation.
+ algebras in SAGE with an emphasis on symmetric functions, some issues 
+that have arisen in their implementation, and things still left to do.
 }}}
 
 
@@ -67,8 +67,8 @@ n (indexed by permutations of size n), the algebra of Schubert polynomials
 (indexed by permutations), partition algebras (indexed by set partitions 
 satisfying certain constraints), and the symmetric function algebra (indexed 
 by integer partitions).  In this talk, I will go over support for combinatorial
- algebras in SAGE with an emphasis on symmetric functions and some issues 
-that have arisen in their implementation.
+ algebras in SAGE with an emphasis on symmetric functions, some issues 
+that have arisen in their implementation, and things still left to do.
 }}}
 
 Monday, November 5, 2007: 
