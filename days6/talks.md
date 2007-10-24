@@ -1,71 +1,65 @@
-= Rough Ideas for Talks at SD6 =
-These are all just rough ideas and most of them are not discussed with the proposed speakers yet, so this is definitely not a list of talks nor a rough schedule yet!
+= SAGE Days 6 Schedule =
 
-== Michael Abshoff ==
-How to use Valgrind to find memory leaks, performance bottlenecks and segmentation faults in SAGE and other software projects.
+This is the provisional schedule for SAGE Days 6 in Bristol. "Provisional" in this context means that we don't have confirmations from the alleged speakers yet.
 
-== Martin Albrecht ==
-SAGE's capabilities for cryptographic research
+== Saturday 10 November ==
+0930-1030 William Stein: SAGE for Mathematical Research
 
-== Bill Allombert ==
+1030-1100 Coffee and Tea Break
 
-== Gregory Bard ==
+1100-1200 Martin Albrecht: SAGE for Crypto Research
 
-== Dan Bernstein ==
-[http://ecrypt-ss07.rhul.ac.uk/Slides/Friday/bernstein-samos07-2.pdf CPU Traps and Pitfalls] 
+1200-1400 Lunch
 
-== Andrew Booker ==
+1400-1500 James Davenport: Simplification in Computer Algebra
 
-== Robert Bradshaw ==
+1500-1600 Robert Bradshaw: Creating Fast Compiled Programs using SAGE (Cython)
 
-== Michael Brickenstein ==
-[http://www.itwm.fraunhofer.de/zentral/download/berichte/bericht122.pdf PolyBoRi] Framework
+1600-1630 Coffee and Tea Break
 
-== Kevin Buzzard ==
+1630-1730 Dan Bernstein and/or Tanya Lange: Edwards Coordinates for Elliptic Curves 
 
-== Ondrej Certik ==
+== Sunday 11 November ==
+0930-1030 Michael Brickenstein: High Performace Algorithms for Multivariate Polynomials over Boolean Rings (PolyBoRi)
 
-== John Cremona ==
+1030-1100 Coffee and Tea Break
 
-== James Davenport ==
+1100-1200 Paul Zimmerman:  Fast Arbitrary Precision Arithmetic (MPFR and GMP)
 
-== Burcin Erocal ==
-PolyBoRi integration status report
+1200-1400 Lunch
 
-== Jon Hanke ==
+1400-1500 Clement Pernet: Fast Exact Linear Algebra (LinBox)
 
-== Bill Hart ==
-FLINT status report
+1500-1600 David Loeffler and/or Kevin Buzzard: Computing Automorphic
+Forms for Unitary Groups using SAGE
 
-== David Harvey ==
+1600-1630 Coffee and Tea Break
 
-== Kiran Kedlaya ==
+1630-1730 Bill Hart: Fast Univariate Polynomial Arithmetic (FLINT)
 
-== Lloyd Kilford ==
+2030-2200 John Cremona (Moderator): Panel Discussion -- "The Future of Open Source Mathematical Software", Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Michael Abshoff, and Dan Bernstein.
 
-== Tanya Lange ==
-[http://hyperelliptic.org/EFD/ Explicit-Fomulas Database] for Elliptic Curves
+== Monday 12 November ==
+0930 - 1030 Ondrej Certik: A Python library for symbolic mathematics (SymPy)
 
-== David Loeffler ==
-computation of some automorphic forms for the unitary group U(3)
+1030 - 1700 SAGE development (coding sprint)
 
-== Clement Pernet ==
-LinBox
+1700 - 1800 Free Slot for a Status Report (Gregory Bard)
 
-== David Roe ==
+== Tuesday 13 November ==
+0930 - 1030 Michael Abshoff: Valgrind
 
-== Nigel Smart ==
+1030 - 1700 SAGE development (coding sprint)
 
-== Mark Watkins ==
+1700 - 1800 Lightning talks / demos
 
-== Ralf-Phillip Weinmann ==
+== Wednesday 14 November ==
+0930 - 1030 Free Slot
 
-== Jaap Spies ==
+1030 - 1400 SAGE development (coding sprint)
 
-== Damien Stehle ==
+1400 - 1500 Coding Sprint Wrap-up
 
-fpLLL
+1530 - 1630 Tea/coffee at Heilbronn Seminar
 
-== William Stein ==
-Abstract: Explain how using Python (with SAGE) is very likely to improve your efficiency and ability to do mathematical research that involves computation. 
-Target Audience: Mathematical researchers who demand the best possible tools for the job (even if they are expensive).
+1630 - 1730 William Stein is talking at the Heilbronn Seminar
