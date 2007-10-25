@@ -11,13 +11,13 @@ This is the provisional schedule for SAGE Days 6 in Bristol. "Provisional" in th
 
 1200-1400 Lunch
 
-1400-1500 James Davenport: Simplification in Computer Algebra
+1400-1500 Robert Bradshaw: Creating Fast Compiled Programs using SAGE (Cython)
 
-1500-1600 Robert Bradshaw: Creating Fast Compiled Programs using SAGE (Cython)
+1500-1600 James Davenport: Simplification in Computer Algebra
 
 1600-1630 Coffee and Tea Break
 
-1630-1730 Dan Bernstein and/or Tanya Lange: Edwards Coordinates for Elliptic Curves 
+1630-1730 Dan Bernstein and/or Tanja Lange: Edwards Coordinates for Elliptic Curves 
 
 == Sunday 11 November ==
 0930-1030 Michael Brickenstein: High Performace Algorithms for Multivariate Polynomials over Boolean Rings (PolyBoRi)
