@@ -19,6 +19,8 @@ This is the provisional schedule for SAGE Days 6 in Bristol. "Provisional" in th
 
 1630-1730 Dan Bernstein and/or Tanja Lange: Edwards Coordinates for Elliptic Curves 
 
+1830-2200 Dinner at Goldney Orangery
+
 == Sunday 11 November ==
 0930-1030 Michael Brickenstein: High Performace Algorithms for Multivariate Polynomials over Boolean Rings (PolyBoRi)
 
