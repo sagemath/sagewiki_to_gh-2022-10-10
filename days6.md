@@ -4,6 +4,16 @@ The 6th SAGE days 2007 will be held the November 10-14, 2007 in Bristol, UK at h
 The Bristol webpage about SAGE Days 6 is here:
     http://www.maths.bris.ac.uk/events/meetings/meeting/index.php?meeting_id=23
 
+== Registration ==
+
+Registration will take place on Friday 9 November, at 3.00-5.00pm in Royal Fort House (Dining Room) [see map below] which is
+adjacent to the maths block. Tea will be served at 4.00pm. Conference packs will also be available for collection on Saturday, in the
+main maths block.
+
+See [http://www.bristol.ac.uk/university/maps/precinct.html this map]:
+RF House (& annexe) is 30; Mathematics (for lectures) is 29; Marriott Hotel is just to the right of the cathedral on college green
+
+
 == Schedule ==
 A first provisional schedule is available at [:days6/talks:].
 
