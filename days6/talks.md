@@ -37,7 +37,7 @@ Forms for Unitary Groups using SAGE
 
 1600-1630 Coffee and Tea Break
 
-1630-1730 Bill Hart: Fast Univariate Polynomial Arithmetic (FLINT)
+1630-1730 Bill Hart: Algebraic Number Theory with FLINT
 
 2030-2200 John Cremona (Moderator): Panel Discussion -- "The Future of Open Source Mathematical Software", Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Michael Abshoff, and Dan Bernstein.
 
