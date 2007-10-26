@@ -24,34 +24,43 @@ A first provisional schedule is available at [:days6/talks:].
  * Martin Albrecht, malb@informatik.uni-bremen.de
 
 == Confirmed Participants ==
-(There may be many additional participants.)
+(As of 2007-10-25)
 
 Note you must register via the Bristol webpage linked above if you are not an invited participant to allow the Heilbronn institute to organize the event.
 
- * Michael Abshoff 
- * Bill Allombert
- * Gregory Bard
- * Dan Bernstein
- * Andrew Booker 
- * Robert Bradshaw
- * Michael Brickenstein
- * Kevin Buzzard   	  	  	 
- * Ondrej Certik
- * James Davenport	 
- * Burcin Erocal  
- * Jon Hanke
- * Bill Hart 
- * David Harvey  	  	  	 
- * Kiran Kedlaya
- * Lloyd Kilford
- * Tanya Lange
- * David Loeffler  	 
- * Clement Pernet 	
- * David Roe 
- * Nigel Smart  	 
- * Mark Watkins
+ + Michael Abshoff 
+ + Bill Allombert
+ + Gregory Bard
+ + Dan Bernstein
+ + Andrew Booker 
+ + Robert Bradshaw
+ + Michael Brickenstein
+ + Kevin Buzzard   	  	  	 
+ + Ondrej Certik
+ + James Davenport	 
+ + Burcin Erocal  
+ + Jon Hanke
+ + Bill Hart 
+ + David Harvey
+ + Hendrik Hubrechts  	  	  	 
+ + Kiran Kedlaya
+ + Lloyd Kilford
+ + Tanja Lange
+ + David Loeffler  	 
+ + Willem Jan Palenstijn
+ + Clement Pernet 	
+ + Ludovic Perret
+ + David Roe 
+ + Nigel Smart  	 
+ + Michael Stoll
+ + Jaap Spies 
+ + Nelson Stephens
+ + Jan Tuitman
+ + Mark Watkins
  * Ralf-Phillip Weinmann
- * Jaap Spies  	  	 
+ + Chris Wuthrich
+ + Paul Zimmerman
+
 
 == Directions ==
 See [:days6/directions:].
