@@ -3793,3 +3793,6 @@ jrrwpwbungrk\.com
 lmkjshlsejlh\.com
 lovewind\.cn
 jormabridal\.com(\.cn)?
+paddletotheheadwaters\.com
+muzica-mp3\.ro
+movie2b\.com
