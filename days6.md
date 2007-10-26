@@ -28,38 +28,38 @@ A first provisional schedule is available at [:days6/talks:].
 
 Note you must register via the Bristol webpage linked above if you are not an invited participant to allow the Heilbronn institute to organize the event.
 
- + Michael Abshoff 
- + Bill Allombert
- + Gregory Bard
- + Dan Bernstein
- + Andrew Booker 
- + Robert Bradshaw
- + Michael Brickenstein
- + Kevin Buzzard   	  	  	 
- + Ondrej Certik
- + James Davenport	 
- + Burcin Erocal  
- + Jon Hanke
- + Bill Hart 
- + David Harvey
- + Hendrik Hubrechts  	  	  	 
- + Kiran Kedlaya
- + Lloyd Kilford
- + Tanja Lange
- + David Loeffler  	 
- + Willem Jan Palenstijn
- + Clement Pernet 	
- + Ludovic Perret
- + David Roe 
- + Nigel Smart  	 
- + Michael Stoll
- + Jaap Spies 
- + Nelson Stephens
- + Jan Tuitman
- + Mark Watkins
+ * Michael Abshoff 
+ * Bill Allombert
+ * Gregory Bard
+ * Dan Bernstein
+ * Andrew Booker 
+ * Robert Bradshaw
+ * Michael Brickenstein
+ * Kevin Buzzard   	  	  	 
+ * Ondrej Certik
+ * James Davenport	 
+ * Burcin Erocal  
+ * Jon Hanke
+ * Bill Hart 
+ * David Harvey
+ * Hendrik Hubrechts  	  	  	 
+ * Kiran Kedlaya
+ * Lloyd Kilford
+ * Tanja Lange
+ * David Loeffler  	 
+ * Willem Jan Palenstijn
+ * Clement Pernet 	
+ * Ludovic Perret
+ * David Roe 
+ * Nigel Smart  	 
+ * Michael Stoll
+ * Jaap Spies 
+ * Nelson Stephens
+ * Jan Tuitman
+ * Mark Watkins
  * Ralf-Phillip Weinmann
- + Chris Wuthrich
- + Paul Zimmerman
+ * Chris Wuthrich
+ * Paul Zimmerman
 
 
 == Directions ==
