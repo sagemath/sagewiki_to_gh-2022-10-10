@@ -3,6 +3,7 @@ Sage is fully supported on the following platforms:
  * Linux on x86
  * Linux on x86-64, i.e. AMD's Athlon 64 & Opteron CPUs and Intel's CPUs with EMT64 extension
  * Linux on IA64
+ * Linux PPC 32 bit 
  * MacOSX on PPC (32 bit only)
  * MacOSX on Intel (32 bit only)
  * VMWare via a 32 bit Linux image (we support a specific preconfigured image meant for use in windows).
@@ -11,7 +12,6 @@ Supported means all doctests pass. If not please report the problem to the Googl
  
 The following platforms are feasible in the short term and depend mostly on somebody who is willing to do the job. If you intend to work  on a specific port please let the Sage people know.
 
- * Linux PPC 32 bit [99.9% done, only open issue is DSage platform support, mabshoff is working on this]
  * Linux PPC 64 bit [planning, hardware access available]
  * MacOSX on PPC 64 bit [wait for next os x release, i.e. Leopard]
  * MacOSX on Intel 64 bit [wait for next os x release, i.e. Leopard]
