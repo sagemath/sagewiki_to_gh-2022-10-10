@@ -3,7 +3,7 @@ Sage is fully supported on the following platforms:
  * Linux on x86
  * Linux on x86-64, i.e. AMD's Athlon 64 & Opteron CPUs and Intel's CPUs with EMT64 extension
  * Linux on IA64
- * Linux PPC 32 bit 
+ * Linux on PPC (32 bit only)
  * MacOSX on PPC (32 bit only)
  * MacOSX on Intel (32 bit only)
  * VMWare via a 32 bit Linux image (we support a specific preconfigured image meant for use in windows).
