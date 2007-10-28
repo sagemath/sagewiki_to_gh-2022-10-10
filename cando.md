@@ -17,6 +17,9 @@ This is a high-level overview and list of functionality that is easily available
 == Commutative Algebra ==
 
  * Fast computation of Groebner basis.
+ * Fast basic arithmetic over $Q$ and $GF(p^n)$.
+ * Global, local and mixed monomial orderings.
+ * Many basic ideal related functions/methods.
 
 == Cryptography ==
 
@@ -29,7 +32,7 @@ This is a high-level overview and list of functionality that is easily available
 
 == Finite Fields ==
 
- * Very fast arithmetic over finite fields and extensions of finite fields (especially up to cardinality 2^16).
+ * Fast arithmetic over finite fields and extensions of finite fields for $GF(p^n)$ with $p^n < 2^{16}$ and $p=2$ and $n > 1$.
 
 == Graph Theory ==
  * Construction, directed graphs, labeled graphs.
@@ -56,6 +59,7 @@ This is a high-level overview and list of functionality that is easily available
 
  * Compute the reduced row echelon form of e.g. dense 20,000x20,000 matrices over GF(2) in seconds and 50MB of RAM.
  * Computation of reduced row echelon forms of sparse matrices.
+ * Sparse matrix solver and rank computation over $GF(p)$.
  * Fast matrix multiplication, characteristic polynomial and echelon forms of dense matrices over QQ.
 
 == Number Theory ==
