@@ -25,6 +25,8 @@ This is a high-level overview and list of functionality that is easily available
 
  * Classical ciphers are well supported.
  * Fast point counting on elliptic curves.
+ * Support for algebraic cryptanalysis like small scale AES equation system generators
+
 
 == Elementary Education ==
 
