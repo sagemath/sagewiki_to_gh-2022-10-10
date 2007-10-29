@@ -3796,3 +3796,4 @@ jormabridal\.com(\.cn)?
 paddletotheheadwaters\.com
 muzica-mp3\.ro
 movie2b\.com
+(stone|jaw|impact|cone|hammer)[-]*crusher\.(org|com|net|cn)
