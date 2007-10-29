@@ -43,6 +43,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 = Participants (with area they would like to work on) =
 
  1. Michael Abshoff (memory leaks, Solaris port, whatever else looks interesting ;) )
+ 1. William Stein
 
 [[ImageLink(bugs.jpg)]] [[ImageLink(compact.jpg)]]
 
