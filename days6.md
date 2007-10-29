@@ -23,11 +23,12 @@ A first provisional schedule is available at [:days6/talks:].   All lectures on 
  * John Cremona, john.cremona@gmail.com
  * Martin Albrecht, malb@informatik.uni-bremen.de
 
-== Confirmed Participants (as of 2007-10-25) ==
+== Confirmed Participants (as of 2007-10-29) ==
 
 Note you must register via the Bristol webpage linked above if you are not an invited participant to allow the Heilbronn institute to organize the event.
 
  * Michael Abshoff 
+ * Martin Albrecht
  * Bill Allombert
  * Gregory Bard
  * Dan Bernstein
@@ -36,6 +37,9 @@ Note you must register via the Bristol webpage linked above if you are not an in
  * Michael Brickenstein
  * Kevin Buzzard   	  	  	 
  * Ondrej Certik
+ * Francis Clarke
+ * William Clocksin
+ * John Cremona
  * James Davenport	 
  * Burcin Erocal  
  * Jon Hanke
@@ -45,15 +49,19 @@ Note you must register via the Bristol webpage linked above if you are not an in
  * Kiran Kedlaya
  * Lloyd Kilford
  * Tanja Lange
- * David Loeffler  	 
+ * David Loeffler  
+ * Daniel Loughran	 
  * Willem Jan Palenstijn
  * Clement Pernet 	
  * Ludovic Perret
  * David Roe 
- * Nigel Smart  	 
+ * Nigel Smart  
+ * Stefan Muller-Starch	 
  * Michael Stoll
  * Jaap Spies 
+ * William Stein
  * Nelson Stephens
+ * Graeme Taylor
  * Jan Tuitman
  * Mark Watkins
  * Ralf-Phillip Weinmann
