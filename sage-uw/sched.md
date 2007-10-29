@@ -11,8 +11,8 @@ SPEAKER: Mike Hansen
 
 Abstract:  A "combinatorial algebra" is an algebra over a ring whose module 
 basis is indexed by a class of combintorial objects with multiplication on 
-basis elements typically determined by some combinatorial operation.  Some e
-xamples of combinatorial algebras include the symmetric group algebra of order 
+basis elements typically determined by some combinatorial operation.  Some 
+examples of combinatorial algebras include the symmetric group algebra of order 
 n (indexed by permutations of size n), the algebra of Schubert polynomials 
 (indexed by permutations), partition algebras (indexed by set partitions 
 satisfying certain constraints), and the symmetric function algebra (indexed 
