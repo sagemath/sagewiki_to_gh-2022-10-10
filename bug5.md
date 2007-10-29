@@ -44,6 +44,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  1. Michael Abshoff (memory leaks, Solaris port, whatever else looks interesting ;) )
  1. William Stein
+ 1. Nick Alexander (doctesting, administrivia)
 
 [[ImageLink(bugs.jpg)]] [[ImageLink(compact.jpg)]]
 
