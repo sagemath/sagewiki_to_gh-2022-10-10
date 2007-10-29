@@ -26,8 +26,7 @@ This is the provisional schedule for SAGE Days 6 in Bristol. "Provisional" in th
 
 1030-1100 Coffee and Tea Break
 
-1100-1200 Paul Zimmerman:  Fast Arbitrary Precision Arithmetic (MPFR and GMP)
-
+1100-1200 Paul Zimmerman:  The MPFR library: well-defined semantics for multiple-precision floating-point numbers
 1200-1400 Lunch
 
 1400-1500 Clement Pernet: Fast Exact Linear Algebra (LinBox)
@@ -39,7 +38,8 @@ Forms for Unitary Groups using SAGE
 
 1630-1730 Bill Hart: Algebraic Number Theory with FLINT
 
-2030-2200 John Cremona (Moderator): Panel Discussion -- "The Future of Open Source Mathematical Software", Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Michael Abshoff, and Dan Bernstein.
+2030-2200 John Cremona (Moderator): Panel Discussion -- "The Future of Open Source Mathematical Software", 
+Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Michael Abshoff, and Dan Bernstein.
 
 == Monday 12 November ==
 0930 - 1030 Ondrej Certik: A Python library for symbolic mathematics (SymPy)
