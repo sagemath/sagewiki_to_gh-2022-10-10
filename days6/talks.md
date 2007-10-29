@@ -27,6 +27,7 @@ This is the provisional schedule for SAGE Days 6 in Bristol. "Provisional" in th
 1030-1100 Coffee and Tea Break
 
 1100-1200 Paul Zimmerman:  The MPFR library: well-defined semantics for multiple-precision floating-point numbers
+
 1200-1400 Lunch
 
 1400-1500 Clement Pernet: Fast Exact Linear Algebra (LinBox)
