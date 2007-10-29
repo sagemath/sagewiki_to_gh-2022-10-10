@@ -27,46 +27,46 @@ A first provisional schedule is available at [:days6/talks:].   All lectures on 
 
 Note you must register via the Bristol webpage linked above if you are not an invited participant to allow the Heilbronn institute to organize the event.
 
- * Michael Abshoff 
- * Martin Albrecht
- * Bill Allombert
- * Gregory Bard
- * Dan Bernstein
- * Andrew Booker 
- * Robert Bradshaw
- * Michael Brickenstein
- * Kevin Buzzard   	  	  	 
- * Ondrej Certik
- * Francis Clarke
- * William Clocksin
- * John Cremona
- * James Davenport	 
- * Burcin Erocal  
- * Jon Hanke
- * Bill Hart 
- * David Harvey
- * Hendrik Hubrechts  	  	  	 
- * Kiran Kedlaya
- * Lloyd Kilford
- * Tanja Lange
- * David Loeffler  
- * Daniel Loughran	 
- * Willem Jan Palenstijn
- * Clement Pernet 	
- * Ludovic Perret
- * David Roe 
- * Nigel Smart  
- * Stefan Muller-Starch	 
- * Michael Stoll
- * Jaap Spies 
- * William Stein
- * Nelson Stephens
- * Graeme Taylor
- * Jan Tuitman
- * Mark Watkins
- * Ralf-Phillip Weinmann
- * Chris Wuthrich
- * Paul Zimmerman
+ * Michael Abshoff (Dortmund, Germany)
+ * Martin Albrecht (Royal Holloway, London UK)
+ * Bill Allombert ()
+ * Gregory Bard (Fordham, New York USA)
+ * Dan Bernstein (chicago, USA)
+ * Andrew Booker  (Bristol, UK)
+ * Robert Bradshaw (Seattle, USA)
+ * Michael Brickenstein (Oberwolfach, Germany)
+ * Kevin Buzzard  (Imperial College, London UK) 	  	  	 
+ * Ondrej Certik ()
+ * Francis Clarke (Swansea, Wales UK)
+ * William Clocksin (Oxford Brookes, UK)
+ * John Cremona (Warwick, UK)
+ * James Davenport (Bath, UK)	 
+ * Burcin Erocal (Linz, Austria) 
+ * Jon Hanke ()
+ * Bill Hart (Warwick, UK)
+ * David Harvey (Harvard, USA)
+ * Hendrik Hubrechts (Leuven, Belgium) 	  	  	 
+ * Kiran Kedlaya (MIT, USA)
+ * Lloyd Kilford (Bristol, UK)
+ * Tanja Lange (Eindhoven, NL)
+ * David Loeffler (Imperial College, London UK) 
+ * Daniel Loughran (Bristol, UK)	 
+ * Willem Jan Palenstijn (Leiden, NL)
+ * Clement Pernet (Waterloo, Canada)	
+ * Ludovic Perret ()
+ * David Roe ()
+ * Nigel Smart (Bristol, UK) 
+ * Stefan Muller-Starch	 (Mainz, Germany)
+ * Michael Stoll (Bremen, Germany)
+ * Jaap Spies ()
+ * William Stein (Seattle, Washington USA)
+ * Nelson Stephens (Cardiff, Wales UK)
+ * Graeme Taylor (Edinburgh, Scotland UK)
+ * Jan Tuitman (Leuven, Belgium)
+ * Mark Watkins (Bristol, UK)
+ * Ralf-Phillip Weinmann (Darmstadt, Germany)
+ * Chris Wuthrich (Nottingham, UK)
+ * Paul Zimmerman (INRIA, Paris France)
 
 
 == Directions ==
