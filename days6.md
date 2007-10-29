@@ -29,7 +29,7 @@ Note you must register via the Bristol webpage linked above if you are not an in
 
  * Michael Abshoff (Dortmund, Germany)
  * Martin Albrecht (Royal Holloway, London UK)
- * Bill Allombert ()
+ * Bill Allombert (Montpellier, France)
  * Gregory Bard (Fordham, New York USA)
  * Dan Bernstein (Chicago, USA)
  * Andrew Booker  (Bristol, UK)
@@ -42,7 +42,7 @@ Note you must register via the Bristol webpage linked above if you are not an in
  * John Cremona (Warwick, UK)
  * James Davenport (Bath, UK)	 
  * Burcin Erocal (Linz, Austria) 
- * Jon Hanke ()
+ * Jon Hanke (Duke, USA)
  * Bill Hart (Warwick, UK)
  * David Harvey (Harvard, USA)
  * Hendrik Hubrechts (Leuven, Belgium) 	  	  	 
