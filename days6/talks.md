@@ -7,7 +7,7 @@ This is the provisional schedule for Sage Days 6 in Bristol. "Provisional" in th
 
 1050-1120 Coffee and Tea Break
 
-1120-1210 Ludovic Perret: Gröbner bases in Crypto : An Overview
+1120-1210 Ludovic Perret: Gröbner bases in Cryptography : An Overview
 
 1210-1400 Lunch
 
@@ -17,7 +17,7 @@ This is the provisional schedule for Sage Days 6 in Bristol. "Provisional" in th
 
 1600-1630 Coffee and Tea Break
 
-1630-1730 Dan Bernstein and/or Tanja Lange: Edwards Coordinates for Elliptic Curves 
+1630-1730 Dan Bernstein and Tanja Lange: Edwards Coordinates for Elliptic Curves 
 
 1830-2200 Dinner at Goldney Orangery
 
@@ -32,7 +32,7 @@ This is the provisional schedule for Sage Days 6 in Bristol. "Provisional" in th
 
 1400-1500 Clement Pernet: Fast Exact Linear Algebra (LinBox)
 
-1500-1600 David Loeffler and/or Kevin Buzzard: Computing Automorphic
+1500-1600 David Loeffler and Kevin Buzzard: Computing Automorphic
 Forms for Unitary Groups using Sage
 
 1600-1630 Coffee and Tea Break
