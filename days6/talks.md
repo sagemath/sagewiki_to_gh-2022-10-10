@@ -65,4 +65,4 @@ Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Michael
 
 1530 - 1630 Tea/coffee at Heilbronn Seminar
 
-1630 - 1730 William Stein is talking at the Heilbronn Seminar
+1630 - 1730 William Stein is talking at the [http://www.maths.bris.ac.uk/events/seminars/series/index.php?id=7 Heilbronn Seminar]
