@@ -36,7 +36,7 @@ Note you must register via the Bristol webpage linked above if you are not an in
  * Robert Bradshaw (Seattle, USA)
  * Michael Brickenstein (Oberwolfach, Germany)
  * Kevin Buzzard  (Imperial College, London UK) 	  	  	 
- * Ondrej Certik ()
+ * Ondrej Certik (Prague, Czech Republic)
  * Francis Clarke (Swansea, Wales UK)
  * William Clocksin (Oxford Brookes, UK)
  * John Cremona (Warwick, UK)
