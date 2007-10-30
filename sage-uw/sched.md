@@ -19,6 +19,10 @@ by integer partitions).  In this talk, I will go over support for combinatorial
  algebras in SAGE with an emphasis on symmetric functions, some issues
 that have arisen in their implementation, and things still left to do.
 }}}
+
+
+[http://mwhansen.org/combinatorial_algebras.pdf Slides] [http://www.mwhansen.org/sage-uw.html Worksheets]
+
 =======================================================================
 
 Monday, October 15, 2007:
@@ -46,26 +50,6 @@ an example or two in Sage.
 Monday, October 22, 2007:
 
 (no seminar)
-
-Monday, October 29, 2007:
-
-{{{
-TITLE: Combinatorial Algebras in SAGE
-TIME: 5-6pm on Monday, October 29, 2007
-LOCATION: B027 in the Communications building
-SPEAKER: Mike Hansen
-Abstract:  A "combinatorial algebra" is an algebra over a ring whose module
-basis is indexed by a class of combintorial objects with multiplication on
-basis elements typically determined by some combinatorial operation.  Some e
-xamples of combinatorial algebras include the symmetric group algebra of order
-n (indexed by permutations of size n), the algebra of Schubert polynomials
-(indexed by permutations), partition algebras (indexed by set partitions
-satisfying certain constraints), and the symmetric function algebra (indexed
-by integer partitions).  In this talk, I will go over support for combinatorial
- algebras in SAGE with an emphasis on symmetric functions, some issues
-that have arisen in their implementation, and things still left to do.
-}}}
-[http://mwhansen.org/combinatorial_algebras.pdf Slides] [http://www.mwhansen.org/sage-uw.html Worksheets]
 
 Monday, November 5, 2007:
 
