@@ -1,9 +1,9 @@
-= SAGE Days 6 Schedule =
+= Sage Days 6 Schedule =
 
-This is the provisional schedule for SAGE Days 6 in Bristol. "Provisional" in this context means that we don't have confirmations from the alleged speakers yet.
+This is the provisional schedule for Sage Days 6 in Bristol. "Provisional" in this context means that we don't have confirmations from the alleged speakers yet.
 
 == Saturday 10 November ==
-0930-1050 William Stein and Martin Albrecht: SAGE for Mathematical and Cryptographic Research
+0930-1050 William Stein and Martin Albrecht: Sage for Mathematical and Cryptographic Research
 
 1050-1120 Coffee and Tea Break
 
@@ -11,7 +11,7 @@ This is the provisional schedule for SAGE Days 6 in Bristol. "Provisional" in th
 
 1210-1400 Lunch
 
-1400-1500 Robert Bradshaw: Creating Fast Compiled Programs using SAGE (Cython)
+1400-1500 Robert Bradshaw: Creating Fast Compiled Programs using Sage (Cython)
 
 1500-1600 James Davenport: Simplification in Computer Algebra
 
@@ -33,7 +33,7 @@ This is the provisional schedule for SAGE Days 6 in Bristol. "Provisional" in th
 1400-1500 Clement Pernet: Fast Exact Linear Algebra (LinBox)
 
 1500-1600 David Loeffler and/or Kevin Buzzard: Computing Automorphic
-Forms for Unitary Groups using SAGE
+Forms for Unitary Groups using Sage
 
 1600-1630 Coffee and Tea Break
 
@@ -45,21 +45,21 @@ Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Michael
 == Monday 12 November ==
 0930 - 1030 Ondrej Certik: A Python library for symbolic mathematics (SymPy)
 
-1030 - 1700 SAGE development (coding sprint)
+1030 - 1700 Sage development (coding sprint)
 
 1700 - 1800 Free Slot for a Status Report (Gregory Bard)
 
 == Tuesday 13 November ==
 0930 - 1030 Michael Abshoff: Valgrind
 
-1030 - 1700 SAGE development (coding sprint)
+1030 - 1700 Sage development (coding sprint)
 
 1700 - 1800 Lightning talks / demos
 
 == Wednesday 14 November ==
 0930 - 1030 Free Slot
 
-1030 - 1400 SAGE development (coding sprint)
+1030 - 1400 Sage development (coding sprint)
 
 1400 - 1500 Coding Sprint Wrap-up
 
