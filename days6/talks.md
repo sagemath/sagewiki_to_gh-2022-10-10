@@ -3,13 +3,13 @@
 This is the provisional schedule for SAGE Days 6 in Bristol. "Provisional" in this context means that we don't have confirmations from the alleged speakers yet.
 
 == Saturday 10 November ==
-0930-1030 William Stein: SAGE for Mathematical Research
+0930-1050 William Stein and Martin Albrecht: SAGE for Mathematical and Cryptographic Research
 
-1030-1100 Coffee and Tea Break
+1050-1120 Coffee and Tea Break
 
-1100-1200 Martin Albrecht: SAGE for Crypto Research
+1120-1210 Ludovic Perret: Gröbner bases in Crypto : An Overview
 
-1200-1400 Lunch
+1210-1400 Lunch
 
 1400-1500 Robert Bradshaw: Creating Fast Compiled Programs using SAGE (Cython)
 
