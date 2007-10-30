@@ -3797,3 +3797,8 @@ paddletotheheadwaters\.com
 muzica-mp3\.ro
 movie2b\.com
 (stone|jaw|impact|cone|hammer)[-]*crusher\.(org|com|net|cn)
+pfkf999\.com
+hnpjs\.cn
+pysz\.com\.cn
+dxb\.ha\.cn
+ganbing120\.com\.cn
