@@ -1,6 +1,6 @@
 = Sage Days 6 Schedule =
 
-This is the provisional schedule for Sage Days 6 in Bristol. "Provisional" in this context means that we don't have confirmations from the alleged speakers yet.
+This is the provisional schedule for Sage Days 6 in Bristol.  We do not expect further changes to the schedule for Saturday and Sunday.
 
 == Saturday 10 November ==
 0930-1050 William Stein and Martin Albrecht: Sage for Mathematical and Cryptographic Research
