@@ -58,7 +58,7 @@ Note you must register via the Bristol webpage linked above if you are not an in
  * Nigel Smart (Bristol, UK) 
  * Stefan Muller-Starch	 (Mainz, Germany)
  * Michael Stoll (Bremen, Germany)
- * Jaap Spies ()
+ * Jaap Spies (NL)
  * William Stein (Seattle, Washington USA)
  * Nelson Stephens (Cardiff, Wales UK)
  * Graeme Taylor (Edinburgh, Scotland UK)
