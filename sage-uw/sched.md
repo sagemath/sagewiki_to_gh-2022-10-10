@@ -21,7 +21,7 @@ that have arisen in their implementation, and things still left to do.
 }}}
 
 
-[http://mwhansen.org/combinatorial_algebras.pdf Slides] [http://www.mwhansen.org/sage-uw.html Worksheets]
+[http://mwhansen.org/combinatorial_algebras.pdf Slides] [http://www.mwhansen.org/sage-uw.html Worksheets] [http://video.google.com/videoplay?docid=4519457622361288638&hl=en Video]
 
 =======================================================================
 
