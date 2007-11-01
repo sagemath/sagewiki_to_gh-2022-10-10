@@ -1,15 +1,14 @@
 == The UW Sage Seminar Schedule ==
 The seminar meets at 5pm in Communications B027.
 
-Date TBA:
+
+The next seminar will be in
+[http://www.css.washington.edu/room/THO+215 Thomson Hall 215]
 {{{
-
 TITLE: Groebner Basics
-
+LOCATION: Thomson Hall 215 at ** 4PM ** on November 5, 2007
 SPEAKER: Josh Kantor
-
 ABSTRACT:
-
 Groebner bases are a fundamental tool which allow for efficient
 algorithmic computation in polynomial rings and modules over such rings.
 We we will start with the simple question of ideal membership, i.e.,
