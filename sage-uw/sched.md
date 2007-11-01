@@ -1,6 +1,24 @@
 == The UW Sage Seminar Schedule ==
 The seminar meets at 5pm in Communications B027.
 
+Date TBA:
+{{{
+
+TITLE: Groebner Basics
+
+SPEAKER: Josh Kantor
+
+ABSTRACT:
+
+Groebner bases are a fundamental tool which allow for efficient
+algorithmic computation in polynomial rings and modules over such rings.
+We we will start with the simple question of ideal membership, i.e.,
+given an ideal $I \subset k[x_1,\ldots x_n]$, and $f \in k[x_1,\ldots,
+x_n]$, how does one check whether or not $f\in I$. We will show how
+Groebner basis solve this problem, and others.
+}}}
+
+
 Monday, October 29, 2007:
 
 {{{
