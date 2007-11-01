@@ -3807,3 +3807,5 @@ igad\.info
 0516glass\.com
 liuhuaji\.com\.cn
 obsoletecomputermuseum\.org/forums/
+bonahr\.com\.cn
+stevepinto\.com
