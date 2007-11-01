@@ -43,26 +43,28 @@ Forms for Unitary Groups using Sage
 Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Michael Abshoff, and Dan Bernstein.
 
 == Monday 12 November ==
-0930 - 1030 Ondrej Certik: A Python library for symbolic mathematics (SymPy)
+0900 - 1000 Gregory Bard
 
-1030 - 1700 Sage development (coding sprint)
+1000 - 1100 Planning session for coding sprints
 
-1700 - 1800 Free Slot for a Status Report (Gregory Bard)
+1000 - 1600 Sage development (coding sprint)
+
+1600 - 1700 Ondrej Certik: A Python library for symbolic mathematics (SymPy)
 
 == Tuesday 13 November ==
-0930 - 1030 Michael Abshoff: Valgrind
+0900 - 1000 Michael Abshoff: Valgrind
 
-1030 - 1700 Sage development (coding sprint)
+1100 - 1700 Sage development (coding sprint)
 
 1700 - 1800 Lightning talks / demos
 
 == Wednesday 14 November ==
-0930 - 1030 Free Slot
+0900 - 1000 Free Slot
 
-1030 - 1400 Sage development (coding sprint)
+1000 - 1400 Sage development (coding sprint)
 
 1400 - 1500 Coding Sprint Wrap-up
 
 1530 - 1630 Tea/coffee at Heilbronn Seminar
 
-1630 - 1730 William Stein is talking at the [http://www.maths.bris.ac.uk/events/seminars/series/index.php?id=7 Heilbronn Seminar] on "SAGE for number theorists"
+1630 - 1730 William Stein:  SAGE for number theorists ([http://www.maths.bris.ac.uk/events/seminars/series/index.php?id=7 Heilbronn Seminar])
