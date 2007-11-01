@@ -32,8 +32,7 @@ This is the provisional schedule for Sage Days 6 in Bristol.  We do not expect f
 
 1400-1500 Clement Pernet: Fast Exact Linear Algebra (LinBox)
 
-1500-1600 David Loeffler and Kevin Buzzard: Computing Automorphic
-Forms for Unitary Groups using Sage
+1500-1600 David Loeffler: Computing Automorphic Forms for Unitary Groups using Sage
 
 1600-1630 Coffee and Tea Break
 
