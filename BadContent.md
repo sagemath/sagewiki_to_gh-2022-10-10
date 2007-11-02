@@ -3811,3 +3811,11 @@ bonahr\.com\.cn
 stevepinto\.com
 touguanshi\.godele\.com
 bobauv\.com
+sangya\.com
+wanbaolong\.cc
+99k\.org
+clanteam\.com
+ztsousou\.com
+azresults\.com
+-\.html
+zxq\.net
