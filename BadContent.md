@@ -3809,3 +3809,5 @@ liuhuaji\.com\.cn
 obsoletecomputermuseum\.org/forums/
 bonahr\.com\.cn
 stevepinto\.com
+touguanshi\.godele\.com
+bobauv\.com
