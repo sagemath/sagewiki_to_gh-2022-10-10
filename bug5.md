@@ -48,6 +48,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  1. Robert Bradshaw (cleanup coercion model, cython memory leaks)
  1. Mike Hansen
  1. didier deshommes : bug #980
+ 1. Carl Witty (bugs #995, #211)
 [[ImageLink(bugs.jpg)]] [[ImageLink(compact.jpg)]]
 
 (from http://www.flickr.com/photos/electrasteph/689860347/ and http://www.ecosherpa.com/images/ )
