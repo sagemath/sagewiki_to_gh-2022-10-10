@@ -26,7 +26,7 @@ This is the provisional schedule for Sage Days 6 in Bristol.  We do not expect f
 
 1030-1100 Coffee and Tea Break
 
-1100-1200 Paul Zimmerman:  The MPFR library: well-defined semantics for multiple-precision floating-point numbers
+1100-1200 Paul Zimmerman:  The ["MPFR"] library: well-defined semantics for multiple-precision floating-point numbers
 
 1200-1400 Lunch
 
@@ -36,7 +36,7 @@ This is the provisional schedule for Sage Days 6 in Bristol.  We do not expect f
 
 1600-1630 Coffee and Tea Break
 
-1630-1730 Bill Hart: Algebraic Number Theory with FLINT
+1630-1730 Bill Hart: Algebraic Number Theory with ["FLINT"]
 
 2030-2200 John Cremona (Moderator): Panel Discussion -- "The Future of Open Source Mathematical Software", 
 Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Michael Abshoff, and Dan Bernstein.
