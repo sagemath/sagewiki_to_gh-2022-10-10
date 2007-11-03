@@ -7,20 +7,8 @@ Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a tr
  * [:bug5/irc:IRC log]
  * ["/Results"]
  * The base version of SAGE we'll start will probably be 2.8.11.
-Alternatively, do:
 
-{{{
-sage: hg_sage.pull(); hg_sage.merge(); hg_sage.ci(); hg_sage.update()
-sage: hg_doc.pull(); hg_doc.merge(); hg_doc.ci(); hg_doc.update()
-sage: hg_scripts.pull(); hg_scripts.merge(); hg_scripts.ci(); hg_scripts.update()
-}}}
- . followed by sage -br, to build all the latest patches.
-There is a prebuilt version on sage.math here, which you'll need to hg_sage.pull() on as above:
-
-{{{
-http://sage.math.washington.edu/tmp/
-}}}
-And I'll be posting a tar'd prebuilt version there too for sage.math.
+There is a prebuilt version on sagemath.org here, which you'll need to hg_sage.pull() on as above:
 
  * The trac server with all the bugs is here:
   . http://trac.sagemath.org
