@@ -41,6 +41,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  1. didier deshommes : bug #980
  1. Carl Witty (bugs #995, #211)
  1. Yi Qiang (dsage)
+ 1. Martin Albrecht (I won't make it on Saturday (GMT) but will be around on Sunday)
 [[ImageLink(bugs.jpg)]] [[ImageLink(compact.jpg)]]
 
 (from http://www.flickr.com/photos/electrasteph/689860347/ and http://www.ecosherpa.com/images/ )
