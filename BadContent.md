@@ -3817,5 +3817,7 @@ wanbaolong\.cc
 clanteam\.com
 ztsousou\.com
 azresults\.com
--\.html
 zxq\.net
+ckcf\.com\.cn
+wuhanbl\.com
+asp100\.cn
