@@ -7,6 +7,8 @@ Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a tr
  * [:bug5/irc:IRC log]
  * ["/Results"]
  * The base version of SAGE we'll start will probably be 2.8.11.
+ * These are the main bugs we'll be working on.  If you're going to work on a bug not listed here, please make a trac ticket for it, and assign it to Milestone 2.8.12:
+    http://trac.sagemath.org/sage_trac/milestone/sage-2.8.12
 
 There is a prebuilt version on sagemath.org here, which you'll need to hg_sage.pull() on as above:
 
