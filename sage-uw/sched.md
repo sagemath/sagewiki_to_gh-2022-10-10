@@ -16,7 +16,7 @@ given an ideal $I \subset k[x_1,\ldots x_n]$, and $f \in k[x_1,\ldots,
 x_n]$, how does one check whether or not $f\in I$. We will show how
 Groebner basis solve this problem, and others.
 }}}
-
+[http://sage.math.washington.edu/home/jkantor/grobner_slides.pdf slides]
 
 Monday, October 29, 2007:
 
