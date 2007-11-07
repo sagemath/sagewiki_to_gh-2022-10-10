@@ -3841,3 +3841,5 @@ hndfzx\.com
 vpn123\.com
 autovote\.cn
 warnlaser\.com
+google8\.com\.cn
+dlong\.com\.cn
