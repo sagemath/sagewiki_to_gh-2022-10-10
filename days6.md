@@ -23,6 +23,10 @@ Royal Fort House (& Annexe) is 30; Mathematics (for lectures) is 29; the Marriot
 == Schedule ==
 A first provisional schedule is available at [:days6/talks:].   All lectures on Saturday and Sunday, and the panel discussion on Sunday evening,  will take place in the Mathematics Department (29 on the map).  All activities on Monday-Wednesday will take place in the Royal Fort Annexe (30 on the map).
 
+== Mailing list ==
+
+ * http://groups.google.com/group/sagedays6
+
 == Organizers ==
 
  * William Stein, wstein@gmail.com
