@@ -30,3 +30,5 @@ College Green (near Bristol Cathedral).  Be careful:  there is at
 least one other Marriott Hotel in central Bristol!  Their room charges
 including breakfast will be met by the Heilbronn Institute (University
 of Bristol) but extras will have to be paid for.
+
+[http://maps.google.com/maps/ms?hl=en&ie=UTF8&msa=0&msid=112610897445948971988.00043e6bf99e665606a4b&ll=51.454782,-2.597408&spn=0.011472,0.042272&z=15&om=1 A Google Map]
