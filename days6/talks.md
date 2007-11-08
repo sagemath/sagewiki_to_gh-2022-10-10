@@ -41,6 +41,8 @@ This is the provisional schedule for Sage Days 6 in Bristol.  We do not expect f
 2030-2200 John Cremona (Moderator): Panel Discussion -- "The Future of Open Source Mathematical Software", 
 Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Allombert, Michael Abshoff, and Dan Bernstein.
 
+["Panel Topics"]
+
 == Monday 12 November ==
 0900 - 1000 Gregory Bard
 
