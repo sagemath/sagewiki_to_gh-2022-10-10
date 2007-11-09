@@ -3846,3 +3846,7 @@ dlong\.com\.cn
 chinasolutionco\.com
 dy-bb\.com
 daiyun315\.cn
+bj-jbh\.com
+lunwen22\.com
+lun-wen\.com\.cn
+lunwenff\.com
