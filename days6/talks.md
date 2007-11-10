@@ -19,6 +19,7 @@ This is the provisional schedule for Sage Days 6 in Bristol.  We do not expect f
 1600-1630 Coffee and Tea Break
 
 1630-1730 Dan Bernstein and Tanja Lange: Edwards Coordinates for Elliptic Curves 
+http://www.hyperelliptic.org/tanja/newelliptic/
 
 1830-2200 Dinner at Goldney Orangery
 
