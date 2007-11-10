@@ -5,6 +5,7 @@
 The [:days6/talks: schedule is here].   All lectures on Saturday and Sunday, and the panel discussion on Sunday evening,  will take place in the Mathematics Department (29 on the map).  All activities on Monday-Wednesday will take place in the Royal Fort Annexe (30 on the map).
 
 
+== Dates ==
 The 6th SAGE days 2007 will be held the November 10-14, 2007 in Bristol, UK at http://www.maths.bris.ac.uk/research/labs/heilbronn/.
 The Bristol webpage about SAGE Days 6 is here:
     http://www.maths.bris.ac.uk/events/meetings/meeting/index.php?meeting_id=23
