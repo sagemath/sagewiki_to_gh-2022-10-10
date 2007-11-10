@@ -4,7 +4,7 @@ This is the provisional schedule for Sage Days 6 in Bristol.  We do not expect f
 
 == Saturday 10 November ==
 0930-1050 William Stein and Martin Albrecht: Sage for Mathematical and Cryptographic Research
-[attachment:stein-albrecht.pdf stein-albrecht.pdf] [attachment:stein-albrecht.sws stein-albrecht.sws]
+[attachment:stein-albrecht.pdf stein-albrecht.pdf], [attachment:stein-albrecht.sws stein-albrecht.sws], [http://sagemath.org/talks/200711-stein-albrecht/ original slides]
 
 1050-1120 Coffee and Tea Break
 
