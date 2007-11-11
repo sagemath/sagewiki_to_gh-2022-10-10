@@ -47,4 +47,12 @@ List any and all project ideas here.  Use the format
 
  * (john.cremona) elliptic curve isomorphisms, urst transforms of curves and points
 
- * (john.cremona) improved #E(F_q^d) for elliptic curves defined over F_q
+ * (john.cremona) improved $\#E(F_q^d)$ for elliptic curves defined over $F_q$
+
+ * (malb) speed up $GF(p^n)$ for $p \neq 2$ and $p^n \geq 2^{16}$ (using NTL::ZZ_pE and NTL::zz_pE)
+
+ * (malb) implement quotient rings over multivariate polynomial rings over finite fields using libSINGULAR
+ 
+ * (malb) implement multivariate polynomial rings over number fields using libSINGULAR
+
+ * (malb) implement sparse matrices over $GF(p^n)$ (using Givaro) modelled after sparse matrices modint.
