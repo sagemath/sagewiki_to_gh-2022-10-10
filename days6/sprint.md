@@ -1,6 +1,9 @@
 = Sage Days 6 Coding Sprints =
 
-List any and all project ideas here.
+List any and all project ideas here.  Use the format
+ * (name) Project idea.  If the idea is more than one line, make a [:/example: link like this (note the leading slash) to more info]. 
+
+== Here they are ==
 
  * (wstein) Number fields -- Reduction modulo a prime ideal, or any ideal.
 
