@@ -8,7 +8,7 @@ This is the provisional schedule for Sage Days 6 in Bristol.  We do not expect f
 
 1050-1120 Coffee and Tea Break
 
-1120-1210 Ludovic Perret: Gröbner bases in Cryptography : An Overview
+1120-1210 Ludovic Perret: Gröbner bases in Cryptography : An Overview [attachment:perret.pdf perret.pdf]
 
 1210-1400 Lunch
 
