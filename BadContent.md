@@ -3850,3 +3850,6 @@ bj-jbh\.com
 lunwen22\.com
 lun-wen\.com\.cn
 lunwenff\.com
+comegames\.com
+nicewow\.com
+ixtm\.net
