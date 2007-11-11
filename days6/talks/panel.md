@@ -29,4 +29,6 @@ Panel members: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Mic
 
  1. Should software implementations be treated more like journal submissions, being refereed and hence putting computational work on the same footing as more theoretical work in the context of academic credit?   (cf [http://www.sagemath.org/jsage/ JSage])
 
+ 1. Fork GMP?
+
  1. Could (or should) Sage be packaged and distributed as a linux package in one (or more) standard formats (.deb, .rpm)?
