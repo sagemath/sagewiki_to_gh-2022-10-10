@@ -7,7 +7,7 @@ List any and all project ideas here.  Use the format
 
  * (wstein) Number fields -- Reduction modulo a prime ideal, or any ideal.
 
- * (wstein) Number fields --optimize K([1,2,3]).
+ * (wstein) Number fields -- optimize K([1,2,3,4,5]), etc., for K number field or order.
 
  * (wstein) Timing of doctests (partially done)
 
@@ -19,13 +19,11 @@ List any and all project ideas here.  Use the format
 
  * (wstein) Redo all the "edwards coord" proofs in Sage instead of Magma.  See email to sagedays6, along with http://hyperelliptic.org/EFD/edwards.html
 
- * (wstein) Fix computing trace over $\mathbf{F}_q$ algebraically. 
-
  * (wstein) ATLAS into Sage on Linux. 
 
- * (wstein) Linbox -- get rid of all the crappy hacks for minpoly/charpoly
+ * (wstein) Linbox -- get rid of all the crappy hacks for minpoly/charpoly use in Sage. 
 
- * (wstein) Linbox -- fix wrapping of smith_form problems.
+ * (wstein) Linbox -- fix wrapping of smith_form problems in Sage. 
 
  * (wstein) Create pickle database
 
