@@ -1,7 +1,7 @@
 = Sage Days 6 Coding Sprints =
 
 List any and all project ideas here.  Use the format
- * (name) Project idea.  If the idea is more than one line, make a [:/example: link like this (note the leading slash) to more info]. 
+ * (name) Project idea.  If the idea is more than one line, make a [:/example: link like this (note the leading slash) to more info].
 
 == Here they are ==
 
@@ -21,15 +21,15 @@ List any and all project ideas here.  Use the format
 
  * (wstein) Redo all the "edwards coord" proofs in Sage instead of Magma.  See email to sagedays6, along with http://hyperelliptic.org/EFD/edwards.html
 
- * (wstein) ATLAS into Sage on Linux. 
+ * (wstein) ATLAS into Sage on Linux.
 
- * (wstein) Linbox -- get rid of all the crappy hacks for minpoly/charpoly use in Sage. 
+ * (wstein) Linbox -- get rid of all the crappy hacks for minpoly/charpoly use in Sage.
 
- * (wstein) Linbox -- fix wrapping of smith_form problems in Sage. 
+ * (wstein) Linbox -- fix wrapping of smith_form problems in Sage.
 
  * (wstein) Create pickle database
 
- * (wstein) Document number fields. 
+ * (wstein) Document number fields.
 
  * (wstein) Compute kernels of matrices over $\mathbf{Z}/p^n\mathbf{Z}$.
 
@@ -42,7 +42,7 @@ List any and all project ideas here.  Use the format
  * (david harvey) try to improve cache efficiency of NTL's FFT routine
 
  *(Bill Allombert) improve PARI ECM implementation
- 
+
  * (john.cremona) adapt interface to new Simon gp scripts
 
  * (john.cremona) elliptic curve isomorphisms, urst transforms of curves and points
@@ -52,7 +52,11 @@ List any and all project ideas here.  Use the format
  * (malb) speed up $GF(p^n)$ for $p \neq 2$ and $p^n \geq 2^{16}$ (using NTL::ZZ_pE and NTL::zz_pE)
 
  * (malb) implement quotient rings over multivariate polynomial rings over finite fields using libSINGULAR
- 
+
  * (malb) implement multivariate polynomial rings over number fields using libSINGULAR
 
- * (malb) implement sparse matrices over $GF(p^n)$ (using Givaro) modelled after sparse matrices modint.
+ * --((malb) implement sparse matrices over $GF(p^n)$ (using Givaro) modelled after sparse matrices modint.)--
+
+ * (weinmann) related to malb's point directly above: merge smatlib code into SAGE.
+
+ * (weinmann) extend MPolynomialSystemGenerator such that equation systems for (stream and block) ciphers can be generated in a generic way.
