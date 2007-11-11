@@ -34,3 +34,7 @@ List any and all project ideas here.  Use the format
  * (wstein) Compute kernels of matrices over $\mathbf{Z}/p^n\mathbf{Z}$.
 
  * (Ondrej Certik) simplify/improve calculus in SAGE [:/calculus: see this link for more info]
+
+ * (mabshoff) fix BlasMatrix::Hom leak in LinBox
+
+ * (mabshoff) start of 2.8.13 release cycle
