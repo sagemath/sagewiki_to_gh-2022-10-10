@@ -32,3 +32,5 @@ List any and all project ideas here.  Use the format
  * (wstein) Document number fields. 
 
  * (wstein) Compute kernels of matrices over $\mathbf{Z}/p^n\mathbf{Z}$.
+
+ * (Ondrej Certik) simplify/improve calculus in SAGE [:/calculus: see this link for more info]
