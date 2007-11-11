@@ -3781,7 +3781,7 @@ chinadrtv\.com
 jsd-coffee\.com
 flolon\.com
 sc818\.com
-seo315\.net
+seo315\.(net|cn)
 pkseo\.cn
 nabirbsb\.com
 oqholfwb\.com
@@ -3853,3 +3853,5 @@ lunwenff\.com
 comegames\.com
 nicewow\.com
 ixtm\.net
+alexasir\.com
+itxb\.net
