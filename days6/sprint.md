@@ -14,8 +14,7 @@ List any and all project ideas here.
 
  * R Python expect interface
 
- * Redo all the "edwards coord" proofs in Sage instead of Magma. 
-   See email to sagedays6, along with http://hyperelliptic.org/EFD/edwards.html
+ * Redo all the "edwards coord" proofs in Sage instead of Magma.  See email to sagedays6, along with http://hyperelliptic.org/EFD/edwards.html
 
  * Fix computing trace over F_q algebraically. 
 
