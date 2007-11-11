@@ -43,7 +43,7 @@ http://www.hyperelliptic.org/tanja/newelliptic/
 2030-2200 John Cremona (Moderator): Panel Discussion -- "The Future of Open Source Mathematical Software", 
 Panelists: William Stein, Robert Bradshaw, Ondrej Certik, Bill Allombert, Michael Abshoff, and Dan Bernstein.
 
-Some possible ["/Panel topics"] have been suggested, but we are also open to other relevant topics!
+Some possible [:/panel: panel topics] have been suggested, but we are also open to other relevant topics!
 
 == Monday 12 November ==
 0900 - 1000 Gregory Bard
