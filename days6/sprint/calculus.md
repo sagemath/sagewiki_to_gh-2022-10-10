@@ -1,9 +1,9 @@
 Things to improve:
 
-* pattern matching
-* subexpression substitution
-* unifying and especially simplify the way to check the type of an
-expression. Now you need to do this ugly switch:
+  * pattern matching
+  * subexpression substitution
+  * unifying and especially simplify the way to check the type of an
+    expression. Now you need to do this ugly switch:
 
 def _is(e, what):
    import operator
@@ -38,5 +38,5 @@ def _is(e, what):
 Those are just things I discovered when trying to port the limits from
 SymPy to SAGE. Then there are other things, for example:
 
-* working with unknown functions, expanding them in series, etc.
+  * working with unknown functions, expanding them in series, etc.
 (there is some trac ticket for that already)
