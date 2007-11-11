@@ -24,7 +24,7 @@ http://www.hyperelliptic.org/tanja/newelliptic/
 1830-2200 Dinner at Goldney Orangery
 
 == Sunday 11 November ==
-0930-1030 Michael Brickenstein: High Performace Algorithms for Multivariate Polynomials over Boolean Rings (PolyBoRi)
+0930-1030 Michael Brickenstein: High Performace Algorithms for Multivariate Polynomials over Boolean Rings (PolyBoRi) [attachment:brickenstein-polybori.pdf brickenstein-polybori.pdf]
 
 1030-1100 Coffee and Tea Break
 
