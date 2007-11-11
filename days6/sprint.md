@@ -5,6 +5,8 @@ List any and all project ideas here.  Use the format
 
 == Here they are ==
 
+(If this list gets much longer -- which it will - we might want to have subheadings, e.g. number fields, linear algebra, elliptic curves... -- john.cremona)
+
  * (wstein) Number fields -- Reduction modulo a prime ideal, or any ideal.
 
  * (wstein) Number fields -- optimize K([1,2,3,4,5]), etc., for K number field or order.
