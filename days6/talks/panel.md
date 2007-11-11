@@ -8,7 +8,7 @@ Suggested discussion topics for panel discussion on
 
 Chair: John Cremona
 
-Panel members: William Stein ([:/william/ my thoughts]), Ondrej Certik, Bill Alombert, Michael Abshoff, Dan Bernstein.
+Panel members: William Stein ([:/william/ my thoughts]), Ondrej Certik, Bill Allombert, Michael Abshoff, Dan Bernstein.
 
 
  1. What are the strength and weaknesses of open source versus closed source software?
