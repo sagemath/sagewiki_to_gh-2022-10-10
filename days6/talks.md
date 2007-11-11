@@ -28,7 +28,7 @@ http://www.hyperelliptic.org/tanja/newelliptic/
 
 1030-1100 Coffee and Tea Break
 
-1100-1200 Paul Zimmerman:  The ["MPFR"] library: well-defined semantics for multiple-precision floating-point numbers
+1100-1200 Paul Zimmerman:  The ["MPFR"] library: well-defined semantics for multiple-precision floating-point numbers [http://www.loria.fr/~zimmerma/talks/sd6.pdf slides (pdf)]
 
 1200-1400 Lunch
 
