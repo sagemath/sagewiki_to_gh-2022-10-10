@@ -11,6 +11,8 @@ List any and all project ideas here.  Use the format
 
  * (wstein) upgrade the freetype package in sage.
 
+ * (wstein) upgrade the cvxopt package to 0.9
+
  * (wstein) Number fields -- Reduction modulo a prime ideal, or any ideal.
 
  * (wstein) Number fields -- optimize K([1,2,3,4,5]), etc., for K number field or order.
