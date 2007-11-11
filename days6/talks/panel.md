@@ -21,7 +21,7 @@ Panel members: William Stein, Robert Bradshaw, Ondrej Certik, Bill Alombert, Mic
 
  1. There have in the past been many open computer algebra projects, which start out with much enthusiasm and excitement, but every single one has since failed.  Why should Sage be any different?
 
- 1. Is it likely that any of the following mathematical software systems will be open sourced within the next five years: Kash, Matlab, Maple, Mathematica, Magma, Mupad, Reduce? Or that they will be replaced by viable OSS alternatives?
+ 1. Is it likely that any of the following mathematical software systems will be open sourced within the next five years: Fermat, Kash, Matlab, Maple, Mathematica, Magma, Mupad, Reduce? Or that they will be replaced by viable OSS alternatives?
 
  1. Do 'we' have to protect our OSS using a copyright such as the GPL, or should we just release using a BSD-like license to avoid the hassle?  [Discussion on this point will be strictly limited.]
 
