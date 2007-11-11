@@ -7,6 +7,8 @@ List any and all project ideas here.  Use the format
 
 (If this list gets much longer -- which it will - we might want to have subheadings, e.g. number fields, linear algebra, elliptic curves... -- john.cremona)
 
+ * (wstein and ondrej certik) [:/debian: determine exactly which sage packages are in debian]
+
  * (wstein) upgrade the freetype package in sage.
 
  * (wstein) Number fields -- Reduction modulo a prime ideal, or any ideal.
