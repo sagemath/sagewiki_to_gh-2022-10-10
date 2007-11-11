@@ -34,7 +34,7 @@ http://www.hyperelliptic.org/tanja/newelliptic/
 
 1400-1500 Clement Pernet: Fast Exact Linear Algebra (LinBox)
 
-1500-1600 David Loeffler: Computing Automorphic Forms for Unitary Groups using Sage
+1500-1600 David Loeffler: Computing Automorphic Forms for Unitary Groups using Sage [attachment:loeffler.pdf]
 
 1600-1630 Coffee and Tea Break
 
