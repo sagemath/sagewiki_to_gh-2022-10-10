@@ -3,6 +3,7 @@
 List any and all project ideas here.
 
  * Number fields -- Reduction modulo a prime ideal, or any ideal.
+
  * Number fields --optimize K([1,2,3]).
 
  * Timing of doctests (partially done)
@@ -18,7 +19,7 @@ List any and all project ideas here.
 
  * Fix computing trace over F_q algebraically. 
 
- * ATLAS into Sage.
+ * ATLAS into Sage on Linux. 
 
  * Linbox -- get rid of all the crappy hacks for minpoly/charpoly
 
