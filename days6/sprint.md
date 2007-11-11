@@ -40,3 +40,9 @@ List any and all project ideas here.  Use the format
  * (david harvey) try to improve cache efficiency of NTL's FFT routine
 
  *(Bill Allombert) improve PARI ECM implementation
+ 
+ * (john.cremona) adapt interface to new Simon gp scripts
+
+ * (john.cremona) elliptic curve isomorphisms, urst transforms of curves and points
+
+ * (john.cremona) improved #E(F_q^d) for elliptic curves defined over F_q
