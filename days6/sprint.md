@@ -28,4 +28,4 @@ List any and all project ideas here.
 
  * Document number fields. 
 
- * Compute kernels of matrices over Z/p^nZ.
+ * Compute kernels of matrices over $\mathbf{Z}/p^n\mathbf{Z}$.
