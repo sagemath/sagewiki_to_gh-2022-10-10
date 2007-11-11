@@ -38,3 +38,5 @@ List any and all project ideas here.  Use the format
  * (mabshoff) fix BlasMatrix::Hom leak in LinBox
 
  * (mabshoff) start of 2.8.13 release cycle
+
+ * (david harvey) try to improve cache efficiency of NTL's FFT routine
