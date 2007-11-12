@@ -12,7 +12,7 @@ This is the provisional schedule for Sage Days 6 in Bristol.  We do not expect f
 
 1210-1400 Lunch
 
-1400-1500 Robert Bradshaw: Creating Fast Compiled Programs using Sage (["Cython"])
+1400-1500 Robert Bradshaw: Creating Fast Compiled Programs using Sage (["Cython"]) [attachment:fast-cython.pdf slides]
 
 1500-1600 James Davenport: Simplification in Computer Algebra [attachment:davenport.pdf davenport.pdf]
 
