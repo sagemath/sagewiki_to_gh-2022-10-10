@@ -74,7 +74,53 @@ Y3 = A*G*(D-C);
 Z3 = c*F*G;
 
 # check we get 0
-x3-X3/Z3
-y3-Y3/Z3
+print x3-X3/Z3
+print y3-Y3/Z3
+
+}}}
+
+Here is another example, which was more tricky. David helped me. We had to use
+NumberField because QuotientRing did not work (unless I did a mistake).
+ 
+Paul
+{{{ 
+# 2007 Bernstein/Lange, 
+#    10M + 1S + 1C + 1D + 9add + 3timesi + 2times2, 
+# strongly unified:
+# thanks to David Roe <roed@mit.edu> for the help
+ 
+Gauss.<i> = NumberField(x^2+1)
+R.<c,d,X1,Y1,X2,Y2,Z1,Z2> = Gauss[]
+     e = 1-d*c^4
+     S = R.quotient([(X1^2+Y1^2)*Z1^2-c^2*(Z1^4+d*X1^2*Y1^2),
+                     (X2^2+Y2^2)*Z2^2-c^2*(Z2^4+d*X2^2*Y2^2)])
+     x1 = X1/Z1; y1 = Y1/Z1
+     x2 = X2/Z2; y2 = Y2/Z2
+     x3 = (x1*y2+y1*x2)/(c*(1+d*x1*x2*y1*y2))
+     y3 = (y1*y2-x1*x2)/(c*(1-d*x1*x2*y1*y2))
+
+     # here are the formulas:
+     iX2 = i*X2;
+     C2 = Y2+iX2;
+     D2 = Y2-iX2;
+     iX1 = i*X1;
+     C1 = Y1+iX1;
+     D1 = Y1-iX1;
+     A = Z1*Z2;
+     B = 2*A^2;
+     C = C1*C2;
+     D = D1*D2;
+     L = D+C;
+     M = Y1*Y2;
+     N = 2*M-L;
+     E = d*M*N;
+     F = B-E;
+     G = B+E;
+     X3 = i*A*F*(D-C);
+     Y3 = A*G*L;
+     Z3 = c*G*F;
+     # check both are zero
+     print x3-X3/Z3
+     print y3-Y3/Z3
 
 }}}
