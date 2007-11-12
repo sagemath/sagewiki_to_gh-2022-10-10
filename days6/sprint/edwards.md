@@ -79,6 +79,7 @@ print y3-Y3/Z3
 
 }}}
 
+== Third Formula ==
 Here is another example, which was more tricky. David helped me. We had to use
 NumberField because QuotientRing did not work (unless I did a mistake).
  
