@@ -52,7 +52,7 @@ Some possible [:/panel: panel topics] have been suggested, but we are also open 
 
 1000 - 1600 Sage development (coding sprint)
 
-1600 - 1700 Ondrej Certik: A Python library for symbolic mathematics (SymPy)
+1600 - 1700 Ondrej Certik: A Python library for symbolic mathematics (SymPy), [attachment:certik.pdf certik.pdf]
 
 == Tuesday 13 November ==
 0900 - 1000 Michael Abshoff: Valgrind
