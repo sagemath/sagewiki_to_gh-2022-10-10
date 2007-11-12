@@ -25,7 +25,7 @@ List any and all project ideas here.  Use the format
 
  * (wstein) R Python expect interface
 
- * (wstein) Redo all the "edwards coord" proofs in Sage instead of Magma.  See email to sagedays6, along with http://hyperelliptic.org/EFD/edwards.html
+ * (wstein) [:/edwards: Redo all the "edwards coord" proofs in Sage instead of Magma.]  
 
  * (wstein) ATLAS into Sage on Linux.
 
