@@ -18,6 +18,7 @@ At the Sage Days 6 coding spring:
  * fix corner case when only netlib.org BLAS and Lapack are installed in default patch
  * fix test-zero-one segfault on Solaris 
  * merge LinBox wrapper library into driver's directory in Linbox, making the build simpler 
+ * properly format, i.e. fix indentations and wrap at 80 characters, "./configure --help" 
 
 Short term, i.e. plans for a potential 1.1.5 LinBox release in the next 3-4 weeks:
 
