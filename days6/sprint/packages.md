@@ -15,6 +15,7 @@ At the Sage Days 6 coding spring:
  * Sage class that wraps LinBox matrices directly - this should simplify automated testing of LinBox via Sage
  * wrap solve and other interesting BlackBoxes
  * sort out gmpxx.h issues, i.e. NTL version detect is broken in LinBox 1.1.4, but not in Sage
+ * fix corner case when only netlib.org BLAS and Lapack are installed in default patch
  * fix test-zero-one segfault on Solaris 
  * merge LinBox wrapper library into driver's directory in Linbox, making the build simpler 
 
