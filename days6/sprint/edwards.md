@@ -1,7 +1,10 @@
 Edwards coordinates formulas.
 
+See email to sagedays6, along with http://hyperelliptic.org/EFD/edwards.html
+
 Paul Zimmerman is working on this (!)
 
+== First Formula ==
 {{{
 %time
 R.<y1,y2,c,d,x1,x2> = QQ[]
@@ -38,4 +41,40 @@ print S((u3-r3).numerator()), S((v3-s3).numerator())
 0
 0 0
 CPU time: 0.06 s,  Wall time: 0.09 s
+}}}
+
+
+== Second Formula ==
+
+{{{
+#Here is the SAGE code corresponding to the 2nd version of the #addition.
+#Paul
+# 2007 Bernstein/Lange, 10M + 1S + 1C + 1D + 7add, 
+# strongly unified:
+ 
+R.<c,d,X1,Y1,X2,Y2,Z1,Z2> = QQ[]
+e = 1-d*c^4;
+S = R.quotient([(X1^2+Y1^2)*Z1^2-c^2*(Z1^4+d*X1^2*Y1^2),
+                (X2^2+Y2^2)*Z2^2-c^2*(Z2^4+d*X2^2*Y2^2)])
+x1 = X1/Z1; y1 = Y1/Z1;
+x2 = X2/Z2; y2 = Y2/Z2;
+x3 = (x1*y2+y1*x2)/(c*(1+d*x1*x2*y1*y2));
+y3 = (y1*y2-x1*x2)/(c*(1-d*x1*x2*y1*y2));
+
+# here are the formulas:
+A = Z1*Z2;
+B = A^2;
+C = X1*X2;
+D = Y1*Y2;
+E = d*C*D;
+F = B-E;
+G = B+E;
+X3 = A*F*((X1+Y1)*(X2+Y2)-C-D);
+Y3 = A*G*(D-C);
+Z3 = c*F*G;
+
+# check we get 0
+x3-X3/Z3
+y3-Y3/Z3
+
 }}}
