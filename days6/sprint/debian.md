@@ -1,7 +1,9 @@
 legend: 
 
 -- .... doesn't apply
+
 no .... the package is not in Debian
+
 yes ... the package is in Debian, sometimes there is more information about it in brackets (i.e. older, newer)
 
 {{{
