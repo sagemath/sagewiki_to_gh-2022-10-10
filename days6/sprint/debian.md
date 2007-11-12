@@ -52,24 +52,24 @@ yes pari-2.3.2.p4
 yes pexpect-2.0.p1 [debian; newer crap version]
 yes pycrypto-2.0.1.p1 [yes]
 yes python-2.5.1.p8
-python_gnutls-1.1.1
-quaddouble-2.2.p7
-readline-5.2
-sage-2.8.12
-sage_scripts-2.8.12
-scipy-20070817
-scons-0.97
-singular-3-0-3-2-20071031
-sqlite-3.3.17.p1
-symmetrica-0.3.3
-sympow-1.018.1.p3
-sympy-0.5.6
-tachyon-0.98beta.p3
-termcap-1.3.1
-twisted-2.5.0.p8
-weave-0.4.9
-zlib-1.2.3.p2
-zodb3-3.7.0
+yes python_gnutls-1.1.1
+no  quaddouble-2.2.p7
+yes readline-5.2
+no  sage-2.8.12
+no  sage_scripts-2.8.12
+yes scipy-20070817
+yes scons-0.97
+no  singular-3-0-3-2-20071031
+yes sqlite-3.3.17.p1
+no  symmetrica-0.3.3
+no  sympow-1.018.1.p3
+yes sympy-0.5.6
+no  tachyon-0.98beta.p3
+yes termcap-1.3.1
+yes twisted-2.5.0.p8
+yes weave-0.4.9
+yes zlib-1.2.3.p2
+yez zodb3-3.7.0
 
 
 }}}
