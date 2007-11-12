@@ -69,7 +69,5 @@ yes termcap-1.3.1
 yes twisted-2.5.0.p8
 yes weave-0.4.9
 yes zlib-1.2.3.p2
-yez zodb3-3.7.0
-
-
+yes zodb3-3.7.0
 }}}
