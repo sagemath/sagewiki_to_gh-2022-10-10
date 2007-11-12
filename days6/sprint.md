@@ -9,6 +9,12 @@ List any and all project ideas here.  Use the format
 
  * (wstein and ondrej certik) [:/debian: determine exactly which sage packages are in debian]
 
+ * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [:/prog_guide: Programming Guide]
+
+ * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [:/coercion: Coercion]
+
+ * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [:/calculus: Calculus]
+
  * (wstein) upgrade the freetype package in sage.
 
  * (wstein) upgrade the cvxopt package to 0.9
