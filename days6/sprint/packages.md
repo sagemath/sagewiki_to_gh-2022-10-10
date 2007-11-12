@@ -32,8 +32,17 @@ Short term, i.e. plans for a potential 1.1.5 LinBox release in the next 3-4 week
 
  * merge OSX 10.5 build fix by rpw
  * improved gcc 4.3 buidl fix: instead of string.h include cstring
- * merge yet to be determined fixes/improvements by malb from Sage's givaro.spkg upstream
-
+ * merge fixes/improvements by malb from Sage's givaro.spkg:
+{{{
+-- 2007-02-03 Martin Albrecht <malb@...>
+  * new upstream release: 3.2.6
+  * Changes to upstream (everything else below is irrelevant): 
+   ./src/library/poly1/givpoly1factor.h (2006-10-21 fix)
+   ./src/kernel/zpz/givgfq.inl (2006-10-21 fix)
+   ./src/kernel/zpz/givgfq.h  (2006-10-21 fix)
+   ./aclocal.m4 64-bit (2006-10-29 fix)
+   ./src/library/poly1/givpoly1padic.h (2006-11-09 fix)
+}}}
 === ATLAS ===
 
  * build ATLAS with netlib's Lapack per default
