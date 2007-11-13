@@ -25,8 +25,6 @@
 
 == Originally Proposed Projects ==
 
-(If this list gets much longer -- which it will - we might want to have subheadings, e.g. number fields, linear algebra, elliptic curves... -- john.cremona)
-
  * (wstein and ondrej certik) [:/debian: determine exactly which sage packages are in debian]
 
  * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [:/prog_guide: Programming Guide]
