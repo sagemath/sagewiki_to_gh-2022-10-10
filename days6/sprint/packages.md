@@ -30,6 +30,8 @@ Short term, i.e. plans for a potential 1.1.5 LinBox release in the next 3-4 week
  * set up build bots for Cygwin and Solaris, wider range of gcc releases (mabshoff) 
  * add STLPort debug build target to general LinBox build
  * add and review Paul's fixes for a) string copy in case of exception b) missing inlines 
+ * detect special Debian ATLAS case
+ * handle ATLAS compiled with G95, i.e. OpenSuSE 10.2 - see thread by Simon King
 
 === Givaro ===
 
