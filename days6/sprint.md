@@ -1,9 +1,29 @@
 = Sage Days 6 Coding Sprints =
 
-List any and all project ideas here.  Use the format
- * (name) Project idea.  If the idea is more than one line, make a [:/example: link like this (note the leading slash) to more info].
+== Projects ==
+ * elliptic curves (John, rpw, was)
+  * getting g0n into Sage
+  * sparse linear algebra over $F_q$
+  * $\#E(F_q)$
 
-== Here they are ==
+ * multivariate polynomial quotient rings (Burcin, malb, Ludovic, Michael Brickenstein)
+  * generic polynomial division/reduction
+  * quotient rings via libSINGULAR
+  * PolyBoRi integration
+  * FGB integration
+
+ * coercion model/calculus/programming manual (robertwb, roed, John Hanke, Ondrey, David Loeffler, Jaap)
+
+ * packages/updates/LinBox (cpernet, mabshoff)
+  * LinBox bugfixes and updates
+  * Givaro
+  * IML
+
+ * benchmarketing (robertwb, Willem)
+  * doctest benchmarking interface
+
+
+== Originally Proposed Projects ==
 
 (If this list gets much longer -- which it will - we might want to have subheadings, e.g. number fields, linear algebra, elliptic curves... -- john.cremona)
 
