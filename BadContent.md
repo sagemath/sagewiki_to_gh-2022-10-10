@@ -3857,3 +3857,7 @@ alexasir\.com
 itxb\.net
 seo315\.cn
 hnfbqz\.[xc]n
+oofay\.com
+igset\.com
+eqset\.com
+beijing-trip\.net
