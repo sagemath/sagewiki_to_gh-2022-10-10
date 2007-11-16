@@ -6,7 +6,7 @@ The [:days6/talks: schedule is here].   All lectures on Saturday and Sunday, and
 
 == Pictures ==
 
-[:days6/pictures: Post links to pictures on this page.]
+[:days6/pictures: Photos from Sage Days 6]
 
 == Coding Sprints ==
 
