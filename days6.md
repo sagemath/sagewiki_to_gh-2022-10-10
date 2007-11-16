@@ -4,7 +4,7 @@
 == Schedule ==
 The [:days6/talks: schedule is here].   All lectures on Saturday and Sunday, and the panel discussion on Sunday evening,  will take place in the Mathematics Department (29 on the map).  All activities on Monday-Wednesday will take place in the Royal Fort Annexe (30 on the map).  Also, see [http://ondrejcertik.blogspot.com/search/label/sage Ondrej's blog].
 
-== Pictures == 
+== Pictures ==
 
 [:days6/pictures: Post links to pictures on this page.]
 
