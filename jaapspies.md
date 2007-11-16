@@ -1,10 +1,9 @@
 ##master-page:HomepageTemplate
 #format wiki
-== Your Name ==
-
-Email: [[MailTo(you AT SPAMFREE example DOT com)]]
+== Jaap Spies ==
+Email: [[MailTo(j,spies @hccnet.nl)]]
 
 ...
 
 ----
-CategoryHomepage
+ . CategoryHomepage
