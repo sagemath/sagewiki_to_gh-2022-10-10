@@ -3875,3 +3875,14 @@ idating\.cn
 runescape\.com
 runescape2\.cc
 xneo\.org
+feilin\.ha\.cn
+banj315\.cn
+sdii\.com\.cn
+zzssjx\.com
+ganfushui\.cn
+okfish\.com\.cn
+cddvdvcd\.com
+utbwjawnvdtj\.com
+iyvjvdvpwali\.com
+dfsuyhhwpanb\.com
+iurvgecemloj\.com
