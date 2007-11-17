@@ -1,5 +1,61 @@
 = Sage Days 6 Coding Sprints =
 
+== Wrap-Up ==
+ *  Benchmarking (was, malb, wjp)
+   * developed a file format for benchmarks
+   * wrote code which parses, runs, generates plots for these
+   * going to be in the 2.9 release
+   * might form the basis for new benchmarking document in the spirit of the constructions document
+
+ * Cython Syntax Highlighting (robertwb)
+   * visualization to show how good your Cython code is
+   * HTML output
+
+ * Wrapping g0n (jec)
+   * g0n is optional package now
+   * first wrapper written
+   * memleaks fixed in g0n
+
+ * Rewrapping Simon's Ell GP Scripts (robertwb, jec)
+   * much simpler now because Simon updated code
+
+ * Flint (Bill Hart)
+   * many bugs fixed
+
+ * Coercion (robertwb, roed, ...)
+   * some beta available, other's can start working with it
+
+ * Programming Guide
+   * see [:days6/sprint/prog_guide: new plan]
+
+ * FFT Improvements for NTL (dmharvey)
+   * much faster on Opterons
+   * not so much faster on Core2Duo (~ 20%)
+   * available on [http://www.math.harvard.edu/~dmharvey/code/ntl-fft/index.html David's website]
+   * automatic tuning required, not ready for inclusion
+
+ * Sympy & SAGE (Ondrej)
+   * mixing SAGE/SymPy expressions
+  
+ * Debian package of Cython (Ondrej)
+   * preliminary package available
+
+ * Matrix Permanents (Jaap)
+   * hope to achieve 30 - 50% speed-up for permanents
+
+ * Gröbner Basis Update (malb)
+   * generic implementation for Gröbner bases over any field (slow!!)
+   * implementation for Gröbner bases over ZZ (slow!!)
+
+ * Doctest Benchmark (wjp)
+   * timings of all doctests
+   * basic comparison possible eg. 2.8.12 vs. 2.8.13
+
+ * PolyBoRi (Michael, Burcin)
+   * Python Interface of PolyBoRi reimplemented in Cython
+   * new wrapper can run most testcases
+   * PolyBoRi release next weekend
+
 == Projects ==
  * elliptic curves (John, rpw, was)
   * getting g0n into Sage
