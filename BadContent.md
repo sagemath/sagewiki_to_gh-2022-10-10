@@ -3886,3 +3886,5 @@ utbwjawnvdtj\.com
 iyvjvdvpwali\.com
 dfsuyhhwpanb\.com
 iurvgecemloj\.com
+csusa\.org\.au
+nofeehost\.com
