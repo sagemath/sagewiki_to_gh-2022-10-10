@@ -3888,3 +3888,6 @@ dfsuyhhwpanb\.com
 iurvgecemloj\.com
 csusa\.org\.au
 nofeehost\.com
+auxt\.info
+italia113\.info
+favorgame\.net
