@@ -3891,3 +3891,7 @@ nofeehost\.com
 auxt\.info
 italia113\.info
 favorgame\.net
+italaska\.info
+italyhomes\.info
+italiaconsulting\.info
+italypasta\.info
