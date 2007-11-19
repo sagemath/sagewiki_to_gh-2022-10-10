@@ -2,8 +2,37 @@
 The seminar meets at 5pm in Communications B027.
 
 
-The next seminar will be in
-[http://www.css.washington.edu/room/THO+215 Thomson Hall 215]
+{{{
+DATE: Monday, November 26, at 5pm
+
+Seminar: The Sage Seminar
+
+Organizer: William Stein
+
+Title: Combinatorial Generation
+
+Speaker: Robert Miller, UW
+
+Location: 5pm in Communications B027
+
+Abstract: Suppose you want to classify some collection of objects.
+Optimally, as is often the case if your objects are algebraic, there
+is some theorem that does all the work. For example, finitely
+generated abelian groups are determined by a sequence of integers,
+i.e. the rank and the elementary divisors. On the other end of the
+spectrum is when your objects are not so well behaved, and there is a
+"combinatorial explosion" of possibilities- you cannot hope for a
+theorem, and instead you wish to simply generate those objects one by
+one, such that each isomorphism class has exactly one representative
+generated. The naive approach would be to go through each possibility,
+adding one to the list only after it has been determined to be not
+isomorphic to those already in the list. There is an alternative
+approach, involving no isomorphism elimination at all. This approach will
+be explained, and some new coding theory software will be presented.
+
+}}}
+
+
 {{{
 TITLE: Groebner Basics
 LOCATION: Thomson Hall 215 at ** 4PM ** on November 5, 2007
