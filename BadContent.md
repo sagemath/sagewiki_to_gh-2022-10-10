@@ -3899,3 +3899,9 @@ gyhongwei\.com
 gystjx\.com
 hnydzg\.cn
 e-rhonealpes\.net
+italyresorts\.info
+madeitaly\.info
+workinitaly\.info
+offkey\.info
+digitalnod\.info
+fst-lab\.com
