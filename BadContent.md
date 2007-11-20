@@ -3736,7 +3736,7 @@ zenithcrusher\.com
 lemmings.dontexist\.com
 bjjjjgd\.cn
 mingshengximqm\.com
-shangguanhong\.net
+shangguanhong\.(com|net)
 zooxtreme\.(com|net|org)
 beastplace\.(com|net|org)
 beastzone\.(com|net|org)
@@ -3905,3 +3905,5 @@ workinitaly\.info
 offkey\.info
 digitalnod\.info
 fst-lab\.com
+xilu\.com
+0571ax\.com
