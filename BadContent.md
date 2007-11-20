@@ -3907,3 +3907,12 @@ digitalnod\.info
 fst-lab\.com
 xilu\.com
 0571ax\.com
+orkeor\.cn
+accurian\.cn
+beon\.ru
+lokerpoker\.com
+imeem\.com
+mycool\.com
+joetheisendds\.com
+digiadv\.co\.jp
+asianjazz\.ciao\.jp
