@@ -3918,3 +3918,6 @@ digiadv\.co\.jp
 asianjazz\.ciao\.jp
 jkw\.name
 aaaoe\.com
+bjsfyj\.com
+cxlsx\.com
+ming-qing\.com
