@@ -11,9 +11,10 @@ Speakers
  * Sara Billey
  * Chris Godsil
  * Gordon Royle
- * N. Thiery
- * A. Knutson
+ * Nicolas Thiery
+ * Allen Knutson
  * Stephanie Vance
+ * Fan Chung Graham
 
 Participants
 
