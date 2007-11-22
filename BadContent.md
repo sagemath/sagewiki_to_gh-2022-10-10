@@ -3921,3 +3921,5 @@ aaaoe\.com
 bjsfyj\.com
 cxlsx\.com
 ming-qing\.com
+gb-kontakt\.net
+gbkontakt\.info
