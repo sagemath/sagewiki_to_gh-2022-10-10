@@ -19,6 +19,7 @@ Speakers
  * Nantel Bergeron
  * Mike Zabrocki
  * Francois Bergeron
+ * John Stembridge
 
 Participants
 
