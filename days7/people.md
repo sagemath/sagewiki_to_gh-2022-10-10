@@ -12,9 +12,13 @@ Speakers
  * Chris Godsil
  * Gordon Royle
  * Nicolas Thiery
- * Allen Knutson
+ * Allan Knutson
  * Stephanie Vance
  * Fan Chung Graham
+ * Doron Zeilberger
+ * Nantel Bergeron
+ * Mike Zabrocki
+ * Francois Bergeron
 
 Participants
 
