@@ -20,6 +20,7 @@ Speakers
  * Mike Zabrocki
  * Francois Bergeron
  * John Stembridge
+ * Jim Haglund
 
 Participants
 
