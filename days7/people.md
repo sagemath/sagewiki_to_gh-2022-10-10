@@ -12,7 +12,7 @@ Speakers
  * Chris Godsil
  * Gordon Royle
  * Nicolas Thiery
- * Allan Knutson
+ * Allen Knutson
  * Stephanie Vance
  * Fan Chung Graham
  * Doron Zeilberger
