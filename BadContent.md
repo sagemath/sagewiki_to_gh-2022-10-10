@@ -3938,3 +3938,5 @@ mcparking\.cn
 ezysearch\.cn
 mcfreestyle\.cn
 taobao\.com
+tangoing\.info
+ceroline\.info
