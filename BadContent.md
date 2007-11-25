@@ -3940,3 +3940,4 @@ mcfreestyle\.cn
 taobao\.com
 tangoing\.info
 ceroline\.info
+zhaoad\.cn
