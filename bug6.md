@@ -24,4 +24,6 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  1. Michael Abshoff 
  1. William Stein
 
+= A mugshot of a Sage bug =
+
 attachment:bug.jpg
