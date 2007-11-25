@@ -1,5 +1,7 @@
 = SAGE Bug Squash Day 6 =
 
+
+
 The event will take place on '''SATURDAY, December 1, 2007''' and officially start at 9 am pacific standard time.
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
@@ -21,3 +23,5 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 = Participants (with area they would like to work on) =
  1. Michael Abshoff 
  1. William Stein
+
+attachment:bug.jpg
