@@ -910,13 +910,13 @@ dn-register.com
 dns\.com\.cn
 dns110.com
 do\.9jh\.com
-dogolz.de
-domkino.com.ua
-dongdao.net
-dont-lost-money.info
-doo.pl
-door168.com
-doppi.static.net
+dogolz\.de
+domkino\.com\.ua
+dongdao\.net
+dont-lost-money\.info
+doo\.pl
+door168\.com
+doppi\.static\.net
 dorka\.ifindex\.com
 dostweb.com
 dotas.com
@@ -1379,7 +1379,6 @@ hewittlandscapes.co.uk
 heydo.com
 hg-fix\.com
 hgxweb.de
-hhpumps.cn
 high-risk-merchant-account.org
 hilton-nicky-paris.blogspot.com
 hion.cn
@@ -3942,3 +3941,4 @@ tangoing\.info
 ceroline\.info
 zhaoad\.cn
 nanhuachem\.com
+hhpumps*\.(com|cn|net|org)
