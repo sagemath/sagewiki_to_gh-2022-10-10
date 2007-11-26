@@ -23,6 +23,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 = Participants (with area they would like to work on) =
  1. Michael Abshoff 
  1. William Stein
+ 1. David Harvey --- yeah I'll probably be there, just tackling random bugs
 
 = A mugshot of a Sage bug =
 
