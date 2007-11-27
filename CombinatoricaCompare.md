@@ -38,8 +38,8 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      eccentricity ||      Eccentricity || ||      Much more complete ||
 || ||      get_boundary || || ||The boundary functions let you make a set of vertices special.  You can then get or set the boundary of a graph. ||
 || ||      has_vertex || || || ||
-|| ||is_clique||CliqueQ and CompleteQ|| ||is_clique(directed_clique=True) is equivalent to CompleteQ||
-|| ||is_independent_set||IndependetSetQ and EmptyQ|| || ||
+|| ||is_clique ||CliqueQ and CompleteQ || ||is_clique(directed_clique=True) is equivalent to CompleteQ ||
+|| ||is_independent_set ||IndependetSetQ and EmptyQ || || ||
 || ||      lexicographic_product || || || ||
 || || || || || ||
 || ||line_graph ||LineGraph || || ||
@@ -107,6 +107,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      edge_labels ||      !GetEdgeLabels || || ||
 || ||      edges ||      Edges || || ||
 || ||      edges_incident || || || ||
+|| ||eulerian_circuit||EulerianCycle|| || ||
 || ||      genus || || || ||
 || ||      graph6_string || || ||      extend this to handle bigger graphs ||
 || ||      has_edge || || || ||
@@ -116,9 +117,11 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      is_circular_planar || || ||      write an outer_planar function using this. ||
 || ||      is_connected ||      ConnectedQ || || ||
 || ||      is_directed ||      Not[UndirectedQ[#]]& || || ||
+|| ||is_eulerian||EulerianQ|| || ||
 || ||      is_isomorphic ||      IsomorphicQ || ||      examine the differences between Combinatorica and SAGE later ||
 || ||      kirchhoff_matrix || || || ||
 || ||      loop_edges || || || ||
+|| ||min_spanning_tree||MinimumSpanningTree||Implements Kruskal's algorithm||has three algorithms implemented (Kruskal's and two variants of Prim's)||
 || ||      multiple_edges ||      MultipleEdgesQ || || ||
 || ||      neighbor_iterator || || || ||
 || ||      number_of_loops || || || ||
@@ -166,6 +169,7 @@ This table lists the functions available in SAGE and the equivalent Combinatoric
 || ||      is_connected ||      ConnectedQ ||      Options for strong or weakly connected || ||
 || ||      is_directed || || || ||
 || ||      is_directed_acyclic ||      DirectedQ and AcyclicQ ||      Can do acyclic test for undirected graphs too || ||
+|| ||is_eulerian||EulerianQ|| || ||
 || ||      is_isomorphic ||      IsomorphicQ || || ||
 || ||      loop_edges || || || ||
 || ||      multiple_edges ||      MultipleEdgesQ || || ||
@@ -287,8 +291,6 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/EdgeWeight.html EdgeWeight] is an option that allows the user to associate weights with edges. 1 is the default weight. [http://reference.wolfram.com/mathematica/Combinatorica/ref/EdgeWeight.html EdgeWeight] can be set as part of the graph data structure.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/EquivalenceRelationQ.html EquivalenceRelationQ][r] yields True if the matrix r defines an equivalence relation. [http://reference.wolfram.com/mathematica/Combinatorica/ref/EquivalenceRelationQ.html EquivalenceRelationQ][g] tests whether the adjacency matrix of graph g defines an equivalence relation.
  * Equivalences[g, h] lists the vertex equivalence classes between graphs g and h defined by their vertex degrees. Equivalences[g] lists the vertex equivalences for graph g defined by the vertex degrees. Equivalences[g, h, f1, f2, ...] and Equivalences[g, f1, f2, ...] can also be used, where f1, f2, ... are functions that compute other vertex invariants. It is expected that for each function fi, the call fi[g, v] returns the corresponding invariant at vertex v in graph g. The functions f1, f2, ... are evaluated in order, and the evaluation stops either when all functions have been evaluated or when an empty equivalence class is found. Three vertex invariants, [http://reference.wolfram.com/mathematica/Combinatorica/ref/DegreesOf2Neighborhood.html DegreesOf2Neighborhood], [http://reference.wolfram.com/mathematica/Combinatorica/ref/NumberOf2Paths.html NumberOf2Paths], and Distances are Combinatorica functions and can be used to refine the equivalences.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/EulerianCycle.html EulerianCycle][g] finds an Eulerian cycle of g if one exists.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/EulerianQ.html EulerianQ][g] yields True if graph g is Eulerian, meaning there exists a tour that includes each edge exactly once.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ExactRandomGraph.html ExactRandomGraph][n, e] constructs a random labeled graph of exactly e edges and n vertices.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/ExtractCycles.html ExtractCycles][g] gives a maximal list of edge-disjoint cycles in graph g.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/FindCycle.html FindCycle][g] finds a list of vertices that define a cycle in graph g.
@@ -335,7 +337,6 @@ These functions are implemented in Combinatorica, but not in SAGE.  Feel free to
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MeredithGraph.html MeredithGraph] returns a 4-regular, 4-connected graph that is not Hamiltonian, providing a counterexample to a conjecture by C. St. J. A. Nash-Williams.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MinimumChainPartition.html MinimumChainPartition][g] partitions partial order g into a minimum number of chains.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MinimumChangePermutations.html MinimumChangePermutations][l] constructs all permutations of list l such that adjacent permutations differ by only one transposition.
- * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MinimumSpanningTree.html MinimumSpanningTree][g] uses Kruskal's algorithm to find a minimum spanning tree of graph g.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MinimumVertexColoring.html MinimumVertexColoring][g] returns a minimum vertex coloring of g. [http://reference.wolfram.com/mathematica/Combinatorica/ref/MinimumVertexColoring.html MinimumVertexColoring][g, k] returns a k-coloring of g, if one exists.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MinimumVertexCover.html MinimumVertexCover][g] finds a minimum vertex cover of graph g. For bipartite graphs, the function uses the polynomial-time Hungarian algorithm. For everything else, the function uses brute force.
  * [http://reference.wolfram.com/mathematica/Combinatorica/ref/MycielskiGraph.html MycielskiGraph][k] returns a triangle-free graph with chromatic number k, for any positive integer k.
