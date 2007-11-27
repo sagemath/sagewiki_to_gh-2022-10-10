@@ -1,5 +1,3 @@
-= Sage Days 7 =
+= Sage Days 7: Combinatorics =
 
-MAIN THEME: Combinatorics
-
-More information to come.
+To be held at IPAM UCLA from February 6 - 9, 2008.
