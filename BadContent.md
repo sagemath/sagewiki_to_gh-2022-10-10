@@ -2991,7 +2991,7 @@ www\.8z\.cn
 www\.banzhao\.com
 www\.chat-live\.net
 www\.pasca\.info
-www\.roth-401k-forum\.com
+\.roth-401k-forum\.com
 www-sesso
 www-webspace.de
 wxals.com
@@ -3836,7 +3836,7 @@ zggcw\.net
 bj-hongyun\.com
 chushiji2008\.com
 symlhb\.com
-hndfzx\.com
+hndfzx\.(com|cn)
 vpn123\.com
 autovote\.cn
 warnlaser\.com
@@ -3950,3 +3950,10 @@ mygamesale\.com
 powerlevelings\.com
 power-levels\.com
 game-level\.com
+tongdeli\.com
+smt16\.cn
+hnkehai\.com
+gyfzjx\.com
+zzyl\.(com|cn)
+floopityjoop\.com
+tits\.cn
