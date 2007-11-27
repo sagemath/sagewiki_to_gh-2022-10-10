@@ -1,7 +1,6 @@
 == The UW Sage Seminar Schedule ==
 The seminar meets at 5pm in Communications B027.
 
-
 {{{
 DATE: Monday, November 26, at 5pm
 
@@ -31,6 +30,9 @@ approach, involving no isomorphism elimination at all. This approach will
 be explained, and some new coding theory software will be presented.
 
 }}}
+[http://rlmiller.org/talks/generation.pdf Slides]
+
+=======================================================================
 
 
 {{{
@@ -46,6 +48,8 @@ x_n]$, how does one check whether or not $f\in I$. We will show how
 Groebner basis solve this problem, and others.
 }}}
 [http://sage.math.washington.edu/home/jkantor/grobner_slides.pdf slides]
+
+=======================================================================
 
 Monday, October 29, 2007:
 
