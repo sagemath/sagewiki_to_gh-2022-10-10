@@ -3942,3 +3942,11 @@ ceroline\.info
 zhaoad\.cn
 nanhuachem\.com
 hhpumps*\.(com|cn|net|org)
+wowgold\.hk
+wowgoldvip\.com
+wowgold-sale\.com
+mmogcart\.com
+mygamesale\.com
+powerlevelings\.com
+power-levels\.com
+game-level\.com
