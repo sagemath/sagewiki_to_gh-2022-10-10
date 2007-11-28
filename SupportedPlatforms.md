@@ -22,6 +22,8 @@ The following platforms are feasible in the short term and depend mostly on some
  * Solaris 10 on x86 32 bit, Opteron/EMT64 32 bit [ongoing, getting close, mabshoff is working on this]
  * Solaris 10 on Opteron/EMT64 64 bit [work will start on this once the 32 bit port works]
 
+The status of the Solaris port can be followed at [:solaris:The Solaris port page].
+
 Wanted/wishlist:
 
  * AIX 64 bit [access to hardware missing]
