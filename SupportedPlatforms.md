@@ -4,8 +4,8 @@ Sage is fully supported on the following platforms:
  * Linux on x86-64, i.e. AMD's Athlon 64 & Opteron CPUs and Intel's CPUs with EMT64 extension
  * Linux on IA64
  * Linux on PPC (32 bit only)
- * MacOSX on PPC (32 bit only)
- * MacOSX on Intel (32 bit only)
+ * MacOSX 10.4 and 10.5 on PPC (32 bit only)
+ * MacOSX 10.4 and 10.5  on Intel (32 bit only)
  * VMWare via a 32 bit Linux image (we support a specific preconfigured image meant for use in windows).
 
 Supported means all doctests pass. If not please report the problem to the Google group sage-devel or sage-support. You might also report problems in the IRC channel #sage-devel on freenode.
