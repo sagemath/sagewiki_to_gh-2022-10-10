@@ -17,7 +17,8 @@ The structure of the workshop is as follows: there will be two days of lectures 
 
 == Registration ==
 
-If you would like to register for the conference, please fill out both the IPAM registration form (link coming soon) and our registration form. If you would like to apply for funding, please visit the [:days7/Funding funding] page.
+
+If you would like to register for the conference, please fill out both the IPAM registration form (link coming soon) and our registration form. If you would like to apply for funding, please visit the [:days7/Funding: funding] page.
 
 == Organizers ==
 
