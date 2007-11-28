@@ -1,5 +1,5 @@
 = Sage FAQ: Frequently Asked Questions =
-
  * QUESTION: Is there anything so Sage can be made to automatically execute commands on startup?
- ANSWER: Yes, just make a file {{{$HOME/.sage/init.sage}}} and it will be executed any time you start sage.
- 
+ * ANSWER: Yes, just make a file {{{$HOME/.sage/init.sage}}} and it will be executed any time you start sage.
+ * QUESTION: My Sage upgrade failed with missing gmp symbols on OSX 10.4. What can I do?
+ * ANSWER: Moving a sage install on OSX 10.4 and then upgrading anything that is linked against NTL leads to link errors due to missing gmp symbols. The problem is the link mode with which the dynamic NTL is created. I have a fix, but I am currently verifying that it really fixes the issue. Everything that is linked against NTL needs to be recompiled, i.e. singular and cremona at the moment. To add to the confusion: This is not an issue on OSX 10.5.
