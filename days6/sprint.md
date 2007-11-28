@@ -70,7 +70,7 @@
 
  * coercion model/calculus/programming manual (robertwb, roed, John Hanke, Ondrey, David Loeffler, Jaap)
 
- * packages/updates/LinBox (cpernet, mabshoff)
+ * [:days6/sprint/packages:packages/updates/LinBox] (cpernet, mabshoff)
   * LinBox bugfixes and updates
   * Givaro
   * IML
