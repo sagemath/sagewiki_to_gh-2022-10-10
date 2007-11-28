@@ -3959,3 +3959,5 @@ floopityjoop\.com
 tits\.cn
 eduoduo\.com\.cn
 hymarkets\.com
+cango\.com\.cn
+videolucho\.com
