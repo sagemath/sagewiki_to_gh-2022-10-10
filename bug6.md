@@ -21,7 +21,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 }}}
 
 = Participants (with area they would like to work on) =
- 1. Michael Abshoff 
+ 1. Michael Abshoff (Solaris port, build issues in general)
  1. William Stein
  1. David Harvey --- yeah I'll probably be there, just tackling random bugs
  1. Mike Hansen
