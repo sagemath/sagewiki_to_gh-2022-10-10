@@ -1,8 +1,10 @@
 = Sage Days 7: Combinatorics =
 == Dates & Location ==
+
 SD7 will be held Feb. 5-9, 2008. The conference is being hosted and funded by [http://www.ipam.ucla.edu IPAM], at UCLA.
 
 == Speakers & Schedule ==
+
 (coming soon!)
 
 == Description ==
@@ -26,3 +28,5 @@ If you would like to register for the conference, please fill out both the IPAM 
  * Mike Hansen 
  * Robert Miller 
  * William Stein
+
+== [:days7/wishlist: Wishlist] ==
