@@ -3957,3 +3957,5 @@ gyfzjx\.com
 zzyl\.(com|cn)
 floopityjoop\.com
 tits\.cn
+eduoduo\.com\.cn
+hymarkets\.com
