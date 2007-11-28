@@ -15,6 +15,10 @@ Sage has recently had two major improvements with regards to combinatorics. Firs
 The structure of the workshop is as follows: there will be two days of lectures followed by three days of intense working sessions. This will consist mostly of groups working to implement new functionality in Sage, or discussing design decisions for new features. If you are interested, we would be excited to have you stay and be involved in the coding sprints, but you shouldn't feel obliged to do so. (Based on past experience, we expect that roughly half the participants will stay for the whole conference.)
 }}}
 
+== Registration ==
+
+If you would like to register for the conference, please fill out both the IPAM registration form (link coming soon) and our registration form. If you would like to apply for funding, please visit the [:Funding] page.
+
 == Organizers ==
 
  * Craig Citro 
