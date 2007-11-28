@@ -1,6 +1,11 @@
 = Sage Days 7: Combinatorics =
 
-To be held at [http://www.ipam.ucla.edu/ IPAM UCLA], Feb 6 - 9, 2008
+== Dates & Location ==
+
+SD7 will be held Feb. 5-9, 2008. The conference is being hosted and funded
+by [http://www.ipam.ucla.edu IPAM], at UCLA. 
+
+== Description ==
 
 {{{
 This workshop is being organized by Craig Citro, Mike Hansen, Robert Miller, and William Stein. The structure of the workshop is as follows: there will be two days of lectures followed by three days of intense working sessions. This will consist mostly of groups working to implement new functionality in Sage, or discussing design decisions for new features. If you are interested, we would be excited to have you stay and be involved in the coding sprints, but you shouldn't feel obliged to do so. (Based on past experience, we expect that roughly half the participants will stay for the whole conference.)
