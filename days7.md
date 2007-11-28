@@ -29,4 +29,6 @@ If you would like to register for the conference, please fill out both the IPAM 
  * Robert Miller 
  * William Stein
 
-== [:days7/wishlist: Wishlist] ==
+== Wishlist ==
+
+As mentioned in the invitation letters, we'd like participants to contribute ideas to the [:days7/wishlist: wishlist] of  things you'd like to see in Sage.
