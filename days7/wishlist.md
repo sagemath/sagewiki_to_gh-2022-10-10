@@ -10,9 +10,11 @@ From Robert Miller:
 > at Sage Days 7.}}}
  * Graph databases?  See Trac #1307 and #1308.
 === Incidence Structures ===
-See Trac #1305.
+See Trac #1305 http://trac.sagemath.org/sage_trac/ticket/1305.
+
 === Interactive widgets in the notebook ===
 See Trac #1322.
+
 == Algorithms ==
 == Programs ==
 == Databases ==
