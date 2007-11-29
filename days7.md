@@ -35,4 +35,7 @@ As mentioned in the invitation letters, we'd like participants to contribute ide
 
 == Images ==
 
-Right now, just some images I've produced using Sage. Maybe for the t-shirts or something...
+Right now, just some images I've (Robert M) produced using Sage. Maybe for the t-shirts or something...
+
+attachment:bug.jpg
+attachment:counter.jpg
