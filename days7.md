@@ -32,3 +32,7 @@ If you would like to register for the conference, please fill out both the IPAM 
 == Wishlist ==
 
 As mentioned in the invitation letters, we'd like participants to contribute ideas to the [:days7/wishlist: wishlist] of  things you'd like to see in Sage.
+
+== Images ==
+
+Right now, just some images I've produced using Sage. Maybe for the t-shirts or something...
