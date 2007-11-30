@@ -10,3 +10,6 @@ DATES:
 
 LOCATION:
   Austin, Texas
+
+NOTES:
+   * [http://www.enthought.com/ Enthought], which is the main company behind scientific computation in Python is in Austin, Texas. 
