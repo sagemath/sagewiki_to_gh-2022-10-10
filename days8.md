@@ -6,7 +6,7 @@ ORGANIZER:
   * Fernando Rodriguez-Villegas (UT Austin)
 
 DATES:
-  March 7 -- 12, 2008 (tentative!)
+  Feb 29--March 4, 2008
 
 LOCATION:
   Austin, Texas
