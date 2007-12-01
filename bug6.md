@@ -26,6 +26,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  1. David Harvey --- yeah I'll probably be there, just tackling random bugs
  1. Mike Hansen
  1. Craig Citro (after 1PM)
+ 1. Josh Kantor -ATLAS issues.
 = A mugshot of a Sage bug =
 
 attachment:bug.jpg
