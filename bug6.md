@@ -6,8 +6,7 @@ The event will take place on '''SATURDAY, December 1, 2007''' and officially sta
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
- * The base version of SAGE we'll start with is 2.8.15.  
- * These are the main bugs we'll be working on.
+ * The base version of SAGE we'll start with is '''2.8.14'''.
  * [:bug6/status:STATUS]
  * [:bug6/irc:IRC log]
  * ["/Results"]
