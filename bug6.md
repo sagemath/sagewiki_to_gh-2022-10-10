@@ -30,6 +30,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  1. Mike Hansen
  1. Craig Citro (after 1PM)
  1. Josh Kantor -ATLAS issues.
+ 1. Robert Bradshaw --- I might be around a bit. 
 = A mugshot of a Sage bug =
 
 attachment:bug.jpg
