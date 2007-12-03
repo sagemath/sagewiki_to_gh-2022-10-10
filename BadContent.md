@@ -3983,3 +3983,4 @@ ghlxj\.com
 hyinvestment\.com
 clife365\.com
 szh168\.cn
+rose-wedding\.cn
