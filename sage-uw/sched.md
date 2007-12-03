@@ -2,6 +2,11 @@
 The seminar meets at 5pm in Communications B027.
 
 {{{
+DATE: Monday, December 3, at 5pm
+TITLE: Status reports
+}}}
+
+{{{
 DATE: Monday, November 26, at 5pm
 
 Seminar: The Sage Seminar
