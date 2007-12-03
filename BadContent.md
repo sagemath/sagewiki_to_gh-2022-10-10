@@ -3984,3 +3984,4 @@ hyinvestment\.com
 clife365\.com
 szh168\.cn
 rose-wedding\.cn
+jhstbj\.(com|cn)
