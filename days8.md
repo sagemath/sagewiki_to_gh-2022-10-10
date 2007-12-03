@@ -2,8 +2,9 @@
 
 ORGANIZER:
   * Craig Citro (UCLA)
-  * William Stein (Univ of Washington)
+  * Fernando Perez (Berkeley)
   * Fernando Rodriguez-Villegas (UT Austin)
+  * William Stein (University of Washington)
 
 DATES:
   Feb 29--March 4, 2008
