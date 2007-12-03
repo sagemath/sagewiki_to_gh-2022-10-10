@@ -1,4 +1,4 @@
-= Sage Days 8: High Performance Computation =
+= Sage Days 8: High Performance Computation, Numerical Computation, and Number Theory =
 
 ORGANIZER:
   * Craig Citro (UCLA)
