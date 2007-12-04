@@ -16,6 +16,7 @@ I also recently become a release manager for Sage and I chaired a number of rele
  * whatever else currently needs fixing
 
 === Short Term ===
+ * [:windows:port Sage to Windows]
  * build unified Setup.py for gdmodule - less important now due to drop of the Cygwin drop (officially)
  * multivariate polynomial arithmetic via CoCoALib
  * computation of approximate vanishing ideals via ApCoCoALib (needs multivariate polynomial arithmetic via CoCoALib)
