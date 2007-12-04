@@ -10,7 +10,7 @@
 (buy)[\w\-_.]*online[\w\-_.]*\.[a-z]{2,}
 (gambling|porn|\bsms|busty|prescription|pharmacy|penis|pills|enlarge)[\w\-_.]*\.[a-z]{2,}
 (diet|penis)[\w\-_.]*(pills|enlargement)[\w\-_.]*\.[a-z]{2,}
-(annunci|tatuaggi|canzoni|musicali|scarica|salute|sesso|hentai|ragazze|sonnerie)[\w\-_.]*\.[a-z]{2,}
+(annunci|tatuaggi|canzoni|musicali|scarica|sesso|hentai|ragazze|sonnerie)[\w\-_.]*\.[a-z]{2,}
 (i|la)-sonneries?[\w\-_.]*\.[a-z]{2,}
 (incest|beastiality)[\w\-_.]*\.[a-z]{2,3}
 (levitra|lolita|phentermine|viagra|vig-?rx|zyban|valtex|xenical|adipex|meridia\b)[\w\-_.]*\.[a-z]{2,}
