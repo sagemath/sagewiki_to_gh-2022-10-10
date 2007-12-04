@@ -7,11 +7,14 @@ I also recently become a release manager for Sage and I chaired a number of rele
 == Task Table ==
 
 === Currently Working on ===
- * hunt mem-leaks in C/C++ code of Sage 
+ * Probably chairing the current Sage release
  * Solaris port of SAGE.
  * DMG installation image for MacOSX
  * optional spkgs: CoCoA 4.7.x, ApCoCoALib & CoCoALib, g++ 4.2
- 
+ * hunt mem-leaks in C/C++ code of Sage 
+ * DebianSAGE
+ * whatever else currently needs fixing
+
 === Short Term ===
  * build unified Setup.py for gdmodule - less important now due to drop of the Cygwin drop (officially)
  * multivariate polynomial arithmetic via CoCoALib
