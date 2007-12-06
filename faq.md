@@ -6,6 +6,9 @@
  * QUESTION: My Sage upgrade failed with missing gmp symbols on OSX 10.4. What can I do?
  * ANSWER: Moving a sage install on OSX 10.4 and then upgrading anything that is linked against NTL leads to link errors due to missing gmp symbols. The problem is the link mode with which the dynamic NTL is created. I have a fix, but I am currently verifying that it really fixes the issue. Everything that is linked against NTL needs to be recompiled, i.e. singular and cremona at the moment. To add to the confusion: This is not an issue on OSX 10.5. A fix for this issue went into 2.8.15, so please report if you see this with a more current Sage release.
 ----------
+ * QUESTION: Sage fails with the error message {{{restore segment prot after reloc: Permission denied}}}. What is wring?
+ * ANSWER: The problem is related to SELinux: http://www.ittvis.com/services/techtip.asp?ttid=3092. We are currently tracking this issue at http://www.sagetrac.org/sage_trac/ticket/480.
+----------
  * QUESTION: Upgrading Sage went fine, but now the banner still shows the old version. How can I fix this?
  * ANSWER: Try doing {{{sage: hg_scripts.merge()}}} followed by {{{sage: hg_scripts.commit()}}}.
 ----------
