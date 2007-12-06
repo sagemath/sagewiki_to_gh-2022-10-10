@@ -3991,3 +3991,7 @@ cmpack\.cn
 dabaog\.cn
 hnccqz\.cn
 ultra-gear\.com
+cnzycp\.cn
+hnzxzx\.cn
+cnpjs\.cn
+changw\.com
