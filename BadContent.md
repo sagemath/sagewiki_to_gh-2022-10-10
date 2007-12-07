@@ -3998,3 +3998,4 @@ changw\.com
 t-bond\.com\.cn
 zjghtbf\.cn
 08kaoyan\.net
+netbai\.com
