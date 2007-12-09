@@ -72,7 +72,7 @@ yes scipy-20070817
 yes scons-0.97
 no  singular-3-0-4
 yes sqlite-3.3.17.p1
-no  symmetrica-0.3.3
+no  symmetrica-2.0.p0
 no  sympow-1.018.1.p3
 yes sympy-0.5.6
 no  tachyon-0.98beta.p3
