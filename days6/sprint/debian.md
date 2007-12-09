@@ -81,6 +81,6 @@ yes twisted-2.5.0.p8
 yes weave-0.4.9
 yes zlib-1.2.3.p2
 yes zodb3-3.7.0
+}}}
 
 yes [http://packages.debian.org/lie lie] 2.2.2+dfsg-1 [OPT]
-}}}
