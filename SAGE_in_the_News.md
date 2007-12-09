@@ -13,4 +13,14 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
   SAGE is mentioned in the Linux Insider article
     It's Time to Consider Open Source Software, Part 2 http://www.linuxinsider.com/story/57760.html
 
+  SAGE is the topic of the slashdot article
+     Open Source 'Sage' Takes Aim at High End Math Software http://science.slashdot.org/article.pl?sid=07/12/08/1350258
   
+  SAGE is mentioned in the slashdot article
+     Open Source Math http://science.slashdot.org/article.pl?sid=07/11/18/1341232
+
+  SAGE is the topic of the Science Daily News article
+    Free Software Brings Affordability, Transparency To Mathematics http://www.sciencedaily.com/releases/2007/12/071206145213.htm
+
+  SAGE is the topic of the UWeek article
+    Free Software Brings Affordability, Transparency To Mathematics http://uwnews.org/uweek/uweekarticle.asp?articleID=38415
