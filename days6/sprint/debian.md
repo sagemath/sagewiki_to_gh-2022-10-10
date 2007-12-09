@@ -83,4 +83,7 @@ yes zlib-1.2.3.p2
 yes zodb3-3.7.0
 }}}
 
+I'm creating a new list below here with links to the packages in Debian:
+
+yes [http://packages.debian.org/maxima maxima] 5.13.0-3
 yes [http://packages.debian.org/lie lie] 2.2.2+dfsg-1 [OPT]
