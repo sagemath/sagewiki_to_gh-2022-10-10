@@ -13,7 +13,7 @@ Tags:
 {{{
 yes blas-20070724
 no  cddlib-094b
-yes clisp-2.41.p10
+yes clisp-2.41.p11
 no  conway_polynomials-0.2
 yes cvxopt-0.8.2.p4  [0.9-3]
 no  cython-0.9.6.8.b
@@ -52,7 +52,7 @@ yes maxima-5.13.0.p1
 yes mercurial-0.9.5
 yes moin-1.5.7.p1
 yes mpfi-1.3.4-rc3.p9 [but old buggy version]
-yes mpfr-2.3.0 [yes]
+yes mpfr-2.3.0p4 [yes]
 no  mwrank-20070913
 yes networkx-0.35.1  [same version]
 no  ntl-5.4.1.p6
@@ -70,7 +70,7 @@ no  sage-2.8.12
 no  sage_scripts-2.8.12
 yes scipy-20070817
 yes scons-0.97
-no  singular-3-0-3-2-20071031
+no  singular-3-0-4
 yes sqlite-3.3.17.p1
 no  symmetrica-0.3.3
 no  sympow-1.018.1.p3
