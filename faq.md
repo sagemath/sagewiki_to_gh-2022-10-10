@@ -64,3 +64,12 @@ To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} 
 {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}}
 
 tells you more about the multiplicative unit element in the finite field.
+
+= ToDo =
+
+ * QUESTION: Compiling Sage makes my computer beep and shut down.
+ * ANSWER: Most likely wonky hardware.
+ * QUESTION: Sage fails to compile on OSX 10.4 
+ * ANSWER: Most likely resource issue.
+ * QUESTION: Notebook doesn't work
+ * ANSWER: networking issues, firewall blocking, proxy setting screwed up
