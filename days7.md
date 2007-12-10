@@ -20,7 +20,13 @@ The structure of the workshop is as follows: there will be two days of lectures 
 == Registration ==
 
 
-If you would like to register for the conference, please fill out the [https://www.ipam.ucla.edu/elements/choose.aspx?pc=sage2008 IPAM registration form], '''even if you are not applying for funding'''. If you would like to apply for funding, please visit the [:days7/Funding: funding] page.
+If you would like to register for the conference, please fill out the [https://www.ipam.ucla.edu/elements/choose.aspx?pc=sage2008 IPAM registration form], '''even if you are not applying for funding'''. (If you came to SD3, when you begin the registration process, it will ask you for your "reference code" ... send us an email at sagedays@gmail.com and we'll get right back to you with it.)
+
+If you would like to apply for funding, please visit the [:days7/Funding: funding] page.
+
+== Hotel Info ==
+
+Hotel info will be posted soon!
 
 == Organizers ==
 
