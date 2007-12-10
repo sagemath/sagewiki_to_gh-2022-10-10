@@ -1,7 +1,4 @@
 == Sage Days 7 Funding Application ==
-We have a limited amount of funding available from IPAM for participants at Sage Days 7. If you would like to apply for funding, please fill out the form below no later than '''December 12, 2007'''.
-
-== Funding Form ==
 
 To apply for funding, please send an email to sagedays@gmail.com with all of the following information no later than '''Dec 14, 2008''':
 
