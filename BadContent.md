@@ -4007,3 +4007,6 @@ tjzdxf\.cn
 shanghairuth\.com
 gupiao258\.(com|cn)
 snownes\.com
+bjbcl\.com
+korack\.cn
+cebiz\.cn
