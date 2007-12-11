@@ -20,7 +20,7 @@ If you call and can't get a reservation, please email sagedays@gmail.com and let
 
 == Staying 5 nights? ==
 
-Now on to the specific hotels in the area. We have reserved a block of rooms at Hilgard House, where we have 11 double rooms and 4 single rooms. This is an excellent choice for anyone staying for the entirety of the conference. You should say that you're with IPAM. (If that doesn't work, e-mail us and let us know.) Here's the info on the hotel:
+Now on to the specific hotels in the area. We have reserved a block of rooms at Hilgard House, where we have 11 double rooms and 4 single rooms. This is an excellent choice for anyone staying for the entirety of the conference. You should say that you're with "Sage Days". (If that doesn't work, e-mail us and let us know.) Our block of rooms is reserved through Jan. 11, though we can still try for rooms after that, of course. Here's the info on the hotel:
 
 Hilgard House Hotel [[BR]]
 http://www.hilgardhouse.com/ [[BR]]
