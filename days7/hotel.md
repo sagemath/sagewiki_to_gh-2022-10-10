@@ -37,13 +37,21 @@ If you call and can't get a reservation, please email sagedays@gmail.com and let
 If you tried to make a reservation at either of those, and it didn't work out, here's a list of other hotels in the area. If you tried one of those and it didn't work, please email sagedays@gmail.com and let us know, so that we can update this page.
 
  * Claremont Hotel
+
  http://www.claremonthotel.net/ 
+
  1044 Tiverton Avenue 
+
  Los Angeles, CA 90024 
+
  800-266-5957 
+
  310-208-5957 
+
  Within walking distance of campus. No TVs in rooms. Coffee room available
+
  (complimentary coffee & tea, wireless internet, and the use of refrigerator
+
  & microwave oven).
 
  * Royal Palace Westwood
