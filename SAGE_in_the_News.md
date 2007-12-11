@@ -14,6 +14,7 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
 
   SAGE is the topic of the UWeek article
     Free Software Brings Affordability, Transparency To Mathematics http://uwnews.org/uweek/uweekarticle.asp?articleID=38415
+    Digg It http://digg.com/software/Free_software_brings_affordability_to_mathematics
 
   SAGE is the topic of the slashdot article
      Open Source 'Sage' Takes Aim at High End Math Software http://science.slashdot.org/article.pl?sid=07/12/08/1350258
@@ -23,6 +24,12 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
 
   SAGE is the topic of the Science Daily News article
     Free Software Brings Affordability, Transparency To Mathematics http://www.sciencedaily.com/releases/2007/12/071206145213.htm
+
+  XKCD (Python is the language of Sage)
+    http://xkcd.com/353/
+
+  SAGE was awarded the Trophees du Libre for scientific software!
+    http://www.tropheesdulibre.org/?lang=en
 
   SAGE is mentioned in the Linux Insider article
     It's Time to Consider Open Source Software, Part 2 http://www.linuxinsider.com/story/57760.html
@@ -35,3 +42,6 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
     AIM webpage collecting links for the various E8 stories various news outlets (CNN, etc) http://aimath.org/E8/newsstories.html
 
     AMS Notices article by David Vogan The Character Table for E,,8,, : http://www.ams.org/notices/200709/tx070901122p.pdf
+
+  George Muntingh's review of Sage
+    http://www.sagemath.org/why/muntingh-sage-review/muntingh-sage-review/index.html
