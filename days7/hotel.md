@@ -7,12 +7,12 @@
 
 The hotel of choice is the UCLA Guest House. It's supposed to be nice, with an excellent location. Apparently the UCLA Business School blocks off the entire place for '''every''' Friday night during the academic year, so often IPAM doesn't have much luck with rooms there. Here's the info:
 
-UCLA Guest House
-Charles E. Young Drive East
-Los Angeles, CA 90095
-310-825-2923
-310-825-6108 (fax)
-Email: guesthouse@ha.ucla.edu
+UCLA Guest House [[BR]]
+Charles E. Young Drive East [[BR]]
+Los Angeles, CA 90095 [[BR]]
+310-825-2923 [[BR]]
+310-825-6108 (fax) [[BR]]
+Email: guesthouse@ha.ucla.edu [[BR]]
 Free shuttle service around campus. Complimentary continental breakfast &
 espresso bar. Limited on-site parking.
 
@@ -22,12 +22,12 @@ If you call and can't get a reservation, please email sagedays@gmail.com and let
 
 Now on to the specific hotels in the area. We have reserved a block of rooms at Hilgard House, where we have 11 double rooms and 4 single rooms. This is an excellent choice for anyone staying for the entirety of the conference. You should say that you're with IPAM. (If that doesn't work, e-mail us and let us know.) Here's the info on the hotel:
 
-Hilgard House Hotel
-http://www.hilgardhouse.com/
-927 Hilgard Avenue
-Los Angeles, CA 90024
-310-208-3945
-Email: Reservations@hilgardhouse.com
+Hilgard House Hotel [[BR]]
+http://www.hilgardhouse.com/ [[BR]]
+927 Hilgard Avenue [[BR]]
+Los Angeles, CA 90024 [[BR]]
+310-208-3945 [[BR]]
+Email: Reservations@hilgardhouse.com [[BR]]
 Within walking distance to IPAM. Free parking & continental breakfast.
 
 If you call and can't get a reservation, please email sagedays@gmail.com and let us know, so that we can update this with a different first choice for hotel. 
