@@ -26,7 +26,7 @@ If you would like to apply for funding, please visit the [:days7/Funding: fundin
 
 == Hotel Info ==
 
-Hotel info will be posted soon!
+Hotel info is [:days7/hotel: here].
 
 == Organizers ==
 
