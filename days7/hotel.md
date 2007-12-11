@@ -37,36 +37,28 @@ If you call and can't get a reservation, please email sagedays@gmail.com and let
 If you tried to make a reservation at either of those, and it didn't work out, here's a list of other hotels in the area. If you tried one of those and it didn't work, please email sagedays@gmail.com and let us know, so that we can update this page.
 
  * Claremont Hotel
-
- http://www.claremonthotel.net/ 
-
- 1044 Tiverton Avenue 
-
- Los Angeles, CA 90024 
-
- 800-266-5957 
-
- 310-208-5957 
-
+ http://www.claremonthotel.net/ [[BR]]
+ 1044 Tiverton Avenue [[BR]]
+ Los Angeles, CA 90024 [[BR]]
+ 800-266-5957 [[BR]]
+ 310-208-5957 [[BR]]
  Within walking distance of campus. No TVs in rooms. Coffee room available
-
  (complimentary coffee & tea, wireless internet, and the use of refrigerator
-
  & microwave oven).
 
  * Royal Palace Westwood
- http://www.royalpalacewestwood.com/
- 1052 Tiverton Ave.
- Los Angeles, CA 90024
- (310) 208-6677
+ http://www.royalpalacewestwood.com/ [[BR]]
+ 1052 Tiverton Ave. [[BR]]
+ Los Angeles, CA 90024 [[BR]]
+ (310) 208-6677 [[BR]]
  Rates from $100/night and up (ask for the UCLA 10% discount). Walk to UCLA.
  Complimentary deluxe continental breakfast. Free parking & high speed
  internet.
 
  * UCLA Tiverton House
- http://www.tivertonhouse.ucla.edu/
- 900 Tiverton Ave.
- Los Angeles, CA. 90024-3013
- (310) 794-0151
+ http://www.tivertonhouse.ucla.edu/ [[BR]]
+ 900 Tiverton Ave. [[BR]]
+ Los Angeles, CA. 90024-3013 [[BR]]
+ (310) 794-0151 [[BR]]
  Rates from $120/night and up. Walk to UCLA. Complimentary continental
  breakfast. Free internet access and parking.
