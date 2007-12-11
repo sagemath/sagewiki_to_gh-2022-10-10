@@ -1,7 +1,7 @@
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) impacts mathematicians by listing some of the news items involving SAGE.
 
   ZDNet: Sage - not a piece of cake, but powerful and open, Chris Dawson, Dec 9, 2007.
-    http://education.zdnet.com/?p=1416http://
+    http://education.zdnet.com/?p=1416
 
   SAGE vs Mathematica is the topic of the Wired magazine blog:
     Math Geek Software Smackdown: Sage v. Mathematica http://blog.wired.com/monkeybites/2007/12/math-geek-softw.html
@@ -29,5 +29,3 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
     AIM webpage collecting links for the various E8 stories various news outlets (CNN, etc) http://aimath.org/E8/newsstories.html
 
     AMS Notices article by David Vogan The Character Table for E,,8,, : http://www.ams.org/notices/200709/tx070901122p.pdf
-
-
