@@ -3,7 +3,8 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
   ZDNet: Sage - not a piece of cake, but powerful and open, Chris Dawson, Dec 9, 2007.
     http://education.zdnet.com/?p=1416
 
-  SAGE: Open Source Mathematics Software [del.icio.us] http://del.icio.us/url/4e91bfd942059dac1876d2c009c7d022
+  SAGE: Open Source Mathematics Software [del.icio.us] 
+    http://del.icio.us/url/4e91bfd942059dac1876d2c009c7d022
 
   Sage in TG Daily: Sage: a free, open-source complex math tool, by Rick C. Hodgin, Dec 7, 2007
     http://www.tgdaily.com/content/view/35187/113/
