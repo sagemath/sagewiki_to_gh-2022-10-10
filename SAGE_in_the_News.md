@@ -1,5 +1,7 @@
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) impacts mathematicians by listing some of the news items involving SAGE.
 
+  Math and Open Source -- Sage and Mathematica
+    http://decodingliberation.blogspot.com/2007/11/math-and-open-source.html
 
   SAGE: open-source mathematics software -- an interesting blog post on Sage:
     http://godplaysdice.blogspot.com/2007/12/sage-open-source-mathematics-software.html
