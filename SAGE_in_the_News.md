@@ -1,5 +1,8 @@
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) impacts mathematicians by listing some of the news items involving SAGE.
 
+  AHN: Free Math Software Provides Powerful Number-Crunching
+    http://www.allheadlinenews.com/articles/7009426590
+
   ZDNet: Sage - not a piece of cake, but powerful and open, Chris Dawson, Dec 9, 2007.
     http://education.zdnet.com/?p=1416
 
