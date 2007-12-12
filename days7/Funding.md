@@ -1,6 +1,6 @@
 == Sage Days 7 Funding Application ==
 
-To apply for funding, please send an email to sagedays@gmail.com with all of the following information no later than '''Dec 14, 2008''':
+To apply for funding, please send an email to sagedays@gmail.com with all of the following information no later than '''Dec 17, 2008''':
 
  -- Vitals -- 
  * Name: 
