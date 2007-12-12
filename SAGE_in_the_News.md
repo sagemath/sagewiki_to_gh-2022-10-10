@@ -2,6 +2,7 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
 
   SAGE in Russia:
     http://rnd.cnews.ru/math/news/line/index_science.shtml?2007/12/10/278779
+    [http://www.google.com/translate?u=http%3A%2F%2Frnd.cnews.ru%2Fmath%2Fnews%2Fline%2Findex_science.shtml%3F2007%2F12%2F10%2F278779&langpair=ru%7Cen&hl=en&ie=UTF8 English Version]
 
   AHN: Free Math Software Provides Powerful Number-Crunching
     http://www.allheadlinenews.com/articles/7009426590
