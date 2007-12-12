@@ -1,7 +1,10 @@
 This wishlist should be a list of features, software, algorithms, databases, or anything else you'd like to see in Sage.
 
 == Features ==
+=== Combinatorial Species ===
 === Graphs ===
+ * Applet / javascript for dragging/repositioning vertices
+ * Edge-labeled isomorphism checking
  * Graphs on surfaces
 {{{
 From Robert Miller:
@@ -15,6 +18,7 @@ See http://trac.sagemath.org/sage_trac/ticket/1305
 See http://trac.sagemath.org/sage_trac/ticket/1322
 
 == Algorithms ==
+ * Xin's partial fraction algorithm for MacMahon's partition analysis
 == Programs ==
 == Databases ==
  * Graph databases
