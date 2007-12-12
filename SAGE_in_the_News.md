@@ -1,5 +1,6 @@
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) impacts mathematicians by listing some of the news items involving SAGE.
 
+
   SAGE: open-source mathematics software -- an interesting blog post on Sage:
     http://godplaysdice.blogspot.com/2007/12/sage-open-source-mathematics-software.html
 
@@ -23,8 +24,10 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
     Math Geek Software Smackdown: Sage v. Mathematica http://blog.wired.com/monkeybites/2007/12/math-geek-softw.html
 
   SAGE is the topic of the UWeek article
-    Free Software Brings Affordability, Transparency To Mathematics http://uwnews.org/uweek/uweekarticle.asp?articleID=38415
-    Digg It http://digg.com/software/Free_software_brings_affordability_to_mathematics
+    [http://uwnews.org/uweek/uweekarticle.asp?articleID=38415
+ Free Software Brings Affordability, Transparency To Mathematics]
+    [http://digg.com/software/Free_software_brings_affordability_to_mathematics Digg It]
+    [http://physorg.com/news116173009.html PhysOrg]
 
   SAGE is the topic of the slashdot article
      Open Source 'Sage' Takes Aim at High End Math Software http://science.slashdot.org/article.pl?sid=07/12/08/1350258
