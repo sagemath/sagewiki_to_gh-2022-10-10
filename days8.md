@@ -7,7 +7,8 @@ ORGANIZER:
   * William Stein (University of Washington)
 
 DATES:
-  Feb 29--March 4, 2008
+
+  (MOVED! -- probably in September, 2008)
 
 LOCATION:
   Austin, Texas
