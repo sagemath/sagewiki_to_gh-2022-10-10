@@ -1,5 +1,8 @@
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) impacts mathematicians by listing some of the news items involving SAGE.
 
+  SAGE in Russia:
+    http://rnd.cnews.ru/math/news/line/index_science.shtml?2007/12/10/278779
+
   AHN: Free Math Software Provides Powerful Number-Crunching
     http://www.allheadlinenews.com/articles/7009426590
 
