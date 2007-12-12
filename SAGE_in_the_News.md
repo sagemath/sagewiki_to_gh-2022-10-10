@@ -24,8 +24,7 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
     Math Geek Software Smackdown: Sage v. Mathematica http://blog.wired.com/monkeybites/2007/12/math-geek-softw.html
 
   SAGE is the topic of the UWeek article
-    [http://uwnews.org/uweek/uweekarticle.asp?articleID=38415
- Free Software Brings Affordability, Transparency To Mathematics]
+    [http://uwnews.org/uweek/uweekarticle.asp?articleID=38415 Free Software Brings Affordability, Transparency To Mathematics]
     [http://digg.com/software/Free_software_brings_affordability_to_mathematics Digg It]
     [http://physorg.com/news116173009.html PhysOrg]
 
