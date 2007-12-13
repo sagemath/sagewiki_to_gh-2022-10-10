@@ -2,6 +2,7 @@ This wishlist should be a list of features, software, algorithms, databases, or 
 
 == Features ==
 === Combinatorial Species ===
+=== Infinite-dimensional polynomial rings ===
 === Graphs ===
  * Applet / javascript for dragging/repositioning vertices
  * Edge-labeled isomorphism checking
