@@ -1,4 +1,7 @@
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) impacts mathematicians by listing some of the news items involving SAGE.
+
+  Sage in Japanese (wired Japan):
+    http://wiredvision.jp/blog/compiler/200712/20071211123829.html
   
   A blog post: Online version of MATLAB/Mathematica/Maple
     http://sidk.info/2007/11/19/online-version-of-matlabmathematicamaple/
@@ -30,6 +33,7 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
 
   WIRED: SAGE vs Mathematica is the topic of the Wired magazine blog:
     Math Geek Software Smackdown: Sage v. Mathematica http://blog.wired.com/monkeybites/2007/12/math-geek-softw.html
+
 
   SAGE is the topic of the UWeek article
     [http://uwnews.org/uweek/uweekarticle.asp?articleID=38415 Free Software Brings Affordability, Transparency To Mathematics]
