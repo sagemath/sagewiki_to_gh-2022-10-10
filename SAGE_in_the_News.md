@@ -2,6 +2,12 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  Sage in Arabic:
+    http://forum.persianadmins.com/showthread.php?t=4084
+
+  Sage in Spanish: 
+    http://andreanaranjo.wordpress.com/2007/12/12/programa-de-analisis-matematico-hecho-en-codigo-abierto-pone-en-jaque-a-programas-comerciales/
+
   Sage in Japanese (wired Japan):
     http://wiredvision.jp/blog/compiler/200712/20071211123829.html
   
