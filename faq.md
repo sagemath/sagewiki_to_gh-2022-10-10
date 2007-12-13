@@ -1,5 +1,8 @@
 = Sage FAQ: Frequently Asked Questions =
 ----------
+ * QUESTION: Does sage contain a function similar to Mathematica's ToCharacterCode[]? That is, I'd like to covert something like "Big Mac" to ascii numerals for further processing. Thanks
+ * ANSWER: Yes, use {{{ord}}}, e.g., {{{[ ord(x) for x in 'abcde']}}} outputs {{{[97, 98, 99, 100, 101]}}}.
+----------
  * QUESTION: Is there anything so Sage can be made to automatically execute commands on startup?
  * ANSWER: Yes, just make a file {{{$HOME/.sage/init.sage}}} and it will be executed any time you start sage.
 ----------
