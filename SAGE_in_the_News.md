@@ -1,4 +1,7 @@
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) impacts mathematicians by listing some of the news items involving SAGE.
+  
+  A blog post: Online version of MATLAB/Mathematica/Maple
+    http://sidk.info/2007/11/19/online-version-of-matlabmathematicamaple/
 
   A Blog post -- SAGE: Open source Math software released
     http://wildaboutmath.com/2007/12/09/sage-open-source-math-software-released/
