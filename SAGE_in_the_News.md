@@ -1,4 +1,6 @@
-Broadly construed, this will describe how SAGE (the software or the machine sage.math) impacts mathematicians by listing some of the news items involving SAGE.
+== Sage in the News and Blogs ==
+
+Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
   Sage in Japanese (wired Japan):
     http://wiredvision.jp/blog/compiler/200712/20071211123829.html
