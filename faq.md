@@ -18,6 +18,9 @@
  * QUESTION: I just downloaded version 2.8.15 for Mac OSX and tried to run notebook() and dyld is unable to load libintl.3.dylib.  I don't have a libintl.3.dylib in {{{usr/local/lib}}} and I didn't find it in {{{$SAGE_ROOT/local/lib}}}. Is there a workaround?
  * ANSWER:  Yes, put the libintl3.dylib from http://sagemath.org/SAGEbin/apple_osx/intel/10.4-extra_files/ {{{in SAGE_ROOT/local/lib/}}}. Future binaries will contain that library.
 ----------
+ * QUESTION: I am using Mac OSX. Where do I put the jsMath "font" directory to eliminate the red box?
+ * ANSWER: See http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html where it says "For Mac OS X users: download and unpack the archive, then drag the fonts to your Library/Fonts folder (or to the FontBook, or just double-click them and press the "install" button).".
+----------
  * QUESTION: May I use Sage tools in a commercial environment?
  * ANSWER: YES!  Absolutely!  Basically the *only* constraint is that if you make changes to Sage itself and redistribute this changed version of Sage publically, then you must make these changes available to us so that we can put them into the standard version of Sage (if we want).   Otherwise, you'll free to use as many copies of Sage as you want completely for free to make money, etc., without paying any license fees at all.
 ----------
