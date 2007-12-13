@@ -12,6 +12,9 @@
  * QUESTION: Upgrading Sage went fine, but now the banner still shows the old version. How can I fix this?
  * ANSWER: Try doing {{{sage: hg_scripts.merge()}}} followed by {{{sage: hg_scripts.commit()}}}.
 ----------
+ * QUESTION: How do I run sage in daemon mode, i.e. as a service?
+ * ANSWER: We currently do not have a ready-to-go soliution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://www.sagetrac.org/sage_trac/ticket/381 - so stay tuned.
+----------
  * QUESTION: I downloaded a Sage binary and it crashes on startup with {{{Illegal instruction}}}. What can I do?
  * ANSWER: The binaries have been built for a newer architecture than you have. We want to acquire an older machine and install a bunch of minimal Linux images on it for building Sage binaries to avoid this, but it hasn't happened  yet. The solution is to build from source until then.
 ----------
