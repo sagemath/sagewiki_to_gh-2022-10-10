@@ -82,3 +82,5 @@ tells you more about the multiplicative unit element in the finite field.
  * ANSWER: Most likely resource issue.
  * QUESTION: Notebook doesn't work
  * ANSWER: networking issues, firewall blocking, proxy setting screwed up
+
+ * Individual FAQ entries should be referable by a URL, possibly http://wiki.sagemath.org/faq?someid=something
