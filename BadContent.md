@@ -4018,3 +4018,5 @@ kpwyxl\.com
 zjyihe\.com
 malatown\.com\.cn
 kmyuda\.com
+xowow\.com
+powerlevelingweb\.com
