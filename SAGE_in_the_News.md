@@ -2,7 +2,7 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
-  Sage in Arabic:
+  Sage in Farsi:
     http://forum.persianadmins.com/showthread.php?t=4084
 
   Sage in Spanish: 
