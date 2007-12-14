@@ -12,9 +12,9 @@ You may want to open HelpOnEditing in a new window or tab while you edit.
 == Formatting ==
 ''italic'' '''bold''' {{{typewriter}}}
 
-`backtick typewriter` (configurable)
+`backtick typewriter` (configurable) <<Anchor(here)>>#here
 
-~+bigger +~ ~-smaller -~
+~+bigger +~ ~-smaller#here -~
 
 {{{
 preformatted some more
