@@ -23,3 +23,4 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 
 = Participants (with area they would like to work on) =
  1. Michael Abshoff (merging patch, build issues in general)
+ 1. Craig Citro (not until 2-3PM)
