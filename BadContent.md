@@ -4020,3 +4020,4 @@ malatown\.com\.cn
 kmyuda\.com
 xowow\.com
 powerlevelingweb\.com
+1kan\.net\.cn
