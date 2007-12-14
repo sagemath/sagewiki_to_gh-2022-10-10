@@ -53,7 +53,6 @@ http://c2.com/sig/wiki.gif
  * second
  * third blockquote
   . deeper
-<<Anchor(here)>>#here
 === Glossary ===
  Term:: Definition
 === Drawing ===
@@ -63,6 +62,3 @@ drawing:mytest
 == Heading 2 ==
 === Heading 3 ===
 ==== Heading 4 ====
-
-
-here is some text, and [#here a link to the glossary].
