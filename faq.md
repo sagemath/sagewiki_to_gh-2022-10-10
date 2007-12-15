@@ -28,7 +28,7 @@
  * ANSWER: See http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html where it says "For Mac OS X users: download and unpack the archive, then drag the fonts to your Library/Fonts folder (or to the FontBook, or just double-click them and press the "install" button).".
 ----------
  * QUESTION: May I use Sage tools in a commercial environment?
- * ANSWER: YES!  Absolutely!  Basically the *only* constraint is that if you make changes to Sage itself and redistribute this changed version of Sage publically, then you must make these changes available to us so that we can put them into the standard version of Sage (if we want).   Otherwise, you'll free to use as many copies of Sage as you want completely for free to make money, etc., without paying any license fees at all.
+ * ANSWER: YES!  Absolutely!  Basically the *only* constraint is that if you make changes to Sage itself and redistribute this changed version of Sage publicly, then you must make these changes available to us so that we can put them into the standard version of Sage (if we want).   Otherwise, you'll free to use as many copies of Sage as you want completely for free to make money, etc., without paying any license fees at all.
 ----------
  * QUESTION: I want to write some Cython code that uses finite field arithmetic but {{{cimport sage.rings.finite_field_givaro}}} fails. What can I do?
  * ANSWER: You need to give hints to Sage so that it uses C++ (both Givaro and NTL are C++ libraries) and it also needs the GMP and STDC C++ libraries. Here is a small example:
@@ -76,6 +76,29 @@ To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} 
 {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}}
 
 tells you more about the multiplicative unit element in the finite field.
+----------
+ * QUESTION: How do I make the VMware appliance for Windows automatically login as "sage"?
+ * ANSWER: Follow http://ubuntu-utah.ubuntuforums.org/showthread.php?t=303319.  Short version: put in the file {{{/usr/local/autologin}}} the text
+
+{{{
+#! /bin/sh
+/bin/login -f sage
+}}}
+
+and make this file executable; then edit {{{/etc/event.d/tty1}}}, comment out 
+
+{{{
+respawn /sbin/getty 38400 tty1
+}}}
+
+and add
+
+{{{
+respawn /sbin/getty -n -l /usr/bin/autologin 38400 tty1
+}}}
+
+Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
+----------
 
 = ToDo =
 
