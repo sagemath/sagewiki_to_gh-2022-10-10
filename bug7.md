@@ -25,3 +25,5 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  1. Michael Abshoff (merging patch, build issues in general)
  1. Craig Citro (not until 2-3PM)
  1. David Harvey (might be around for some of the day)
+
+Many other people participated, but didn't add themselves here due to the rather tight schedule.
