@@ -13,7 +13,7 @@
  * ANSWER: The problem is related to SELinux: http://www.ittvis.com/services/techtip.asp?ttid=3092. We are currently tracking this issue at http://www.sagetrac.org/sage_trac/ticket/480.
 ----------
  * QUESTION: Upgrading Sage went fine, but now the banner still shows the old version. How can I fix this?
- * ANSWER: Try doing {{{sage: hg_scripts.merge()}}} followed by {{{sage: hg_scripts.commit()}}}.
+ * ANSWER: Try doing {{{sage: hg_scripts.merge()}}} followed by {{{sage: hg_scripts.commit()}}}. As an alternative, you can simply try {{{hg_scripts.pull()}}}.
 ----------
  * QUESTION: How do I run sage in daemon mode, i.e. as a service?
  * ANSWER: We currently do not have a ready-to-go soliution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://www.sagetrac.org/sage_trac/ticket/381 - so stay tuned.
