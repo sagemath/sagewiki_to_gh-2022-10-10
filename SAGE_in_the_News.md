@@ -2,6 +2,9 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  Sage in Spanish ("El software libre también puede con las matemáticas"):
+    http://www.publico.es/ciencias/026163/software/libre/matematicas
+
   Sage in Farsi:
     http://forum.persianadmins.com/showthread.php?t=4084
 
