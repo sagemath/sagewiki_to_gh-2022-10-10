@@ -2,6 +2,10 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+
+  Sage, Sustainable Living, and the Developing World
+    http://sustainabledesignupdate.com/?p=462
+
   Sage in Spanish ("El software libre también puede con las matemáticas"):
     http://www.publico.es/ciencias/026163/software/libre/matematicas
 
