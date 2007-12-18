@@ -4067,3 +4067,4 @@ xinhai-pd\.com
 bjpbx\.com
 fozhe\.com
 cp2y\.com
+windhorsetour\.com
