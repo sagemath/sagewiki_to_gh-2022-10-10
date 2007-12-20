@@ -4068,3 +4068,4 @@ bjpbx\.com
 fozhe\.com
 cp2y\.com
 windhorsetour\.com
+buy-runescapegold\.com
