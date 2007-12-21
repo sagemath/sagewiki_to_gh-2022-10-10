@@ -88,3 +88,6 @@ I'm creating a new list below here with links to the packages in Debian:
 || yes || [http://packages.debian.org/gimp gimp] || 2.4.2-1 || ||
 || yes || [http://packages.debian.org/maxima maxima] || 5.13.0-3 || ||
 || yes || [http://packages.debian.org/lie lie] || 2.2.2+dfsg-1 || [OPT] ||
+
+
+Maybe the list could be automatically generated? The version info changes quite often. --Ondrej
