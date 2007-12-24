@@ -9,6 +9,15 @@
  * QUESTION: My Sage upgrade failed with missing gmp symbols on OSX 10.4. What can I do?
  * ANSWER: Moving a sage install on OSX 10.4 and then upgrading anything that is linked against NTL leads to link errors due to missing gmp symbols. The problem is the link mode with which the dynamic NTL is created. I have a fix, but I am currently verifying that it really fixes the issue. Everything that is linked against NTL needs to be recompiled, i.e. singular and cremona at the moment. To add to the confusion: This is not an issue on OSX 10.5. A fix for this issue went into 2.8.15, so please report if you see this with a more current Sage release.
 ----------
+ * QUESTION: When I run doctests on OSX I see the following messages, but in the end Sage reports that everything went fine:
+{{{
+sage -t  devel/sage-main/sage/libs/pari/gen.pyx
+python(4563) malloc: *** vm_allocate(size=4096000000) failed (error code=3)
+python(4563) malloc: *** error: can't allocate region
+python(4563) malloc: *** set a breakpoint in szone_error to debug
+}}}
+ * ANSWER: The issue above isn't a doctest failure, it is an error message printed by the system and it is exactly what one expects to see in that particular doctest since we try to allocate a very large list in pari that doesn't fit into physical memory (it it at leasr 100GB in site). So OSX tells you that it couldn't allocate a chunk of memory roughly 4 GB in  size which is expected since Sage is still a 32 bit application on OSX.
+----------
  * QUESTION: Sage 2.9 and higher fails compiling ATLAS on Linux. How can I fix this?
  * ANSWER: The most likely cause is enabled power management. Disabling it should fix the problem. Depending on your flavor of distribution this might either be possible with some nice GUI tool or not. On the commandline do the following as {{{root}}} for each CPU you have: {{{/usr/bin/cpufreq-selector -g performance -c #number CPU}}}. On Ubuntu try disabling "Power Manager" via "System --> Preferences --> Sessions" under the "Startup Programs" or using {{{cpufreq-set}}} via command line.
 ----------
