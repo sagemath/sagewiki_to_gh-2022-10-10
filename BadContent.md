@@ -4074,3 +4074,4 @@ lookee\.in
 kotick\.in
 honi-moon\.in
 thsale\.com
+power4game\.com
