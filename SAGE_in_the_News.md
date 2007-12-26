@@ -2,6 +2,9 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  Matemáticas Libres: A Spanish Article about Sage:
+    [http://territoriolibre.org/index.php/2007/12/26/matematicas-libres/ Spanish Version] and [http://www.google.com/translate?u=http%3A%2F%2Fterritoriolibre.org%2Findex.php%2F2007%2F12%2F26%2Fmatematicas-libres%2F&langpair=es%7Cen&hl=en&ie=UTF8 English Translation (Google)]
+
   Sage is #5 in Layer 8's "Top 10 of 2007" (whatever that is):
     [http://www.networkworld.com/slideshows/2007/121807-top-10-layer-8.html?netht=rn_122007&nladname=122007dailynewspmal Slideshow]
 
