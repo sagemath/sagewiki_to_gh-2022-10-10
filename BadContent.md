@@ -4078,3 +4078,13 @@ power4game\.com
 stk-interlining\.com
 wowgoldprice\.org
 ceskecelebrity\.com
+bvu\.com\.cn
+fsouber\.com
+allotec\.com
+p-pass\.com
+teamsun\.com\.cn
+pass4sure\.com
+pass4exam\.com
+exam4sure\.com
+certay\.com
+huochepiao168\.cn
