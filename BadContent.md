@@ -4088,3 +4088,10 @@ pass4exam\.com
 exam4sure\.com
 certay\.com
 huochepiao168\.cn
+chinabestop\.com
+smartsgarment\.com
+pcqshoes\.com
+bestoplingerie\.com
+china-sexy-lingerie\.com
+fashion-emart\.com
+bestopsolar\.com
