@@ -22,5 +22,6 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 
 = Participants (with area they would like to work on) =
  1. Michael Abshoff (merging patch, build issues in general)
+ 1. Robert Bradshaw (jmol and other 3d stuff)
 
 Many other people participated, but didn't add themselves here due to the rather tight schedule.
