@@ -24,5 +24,6 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  1. Michael Abshoff (merging patch, build issues in general)
  1. Robert Bradshaw (jmol and other 3d stuff)
  1. Tom Boothby (IE7 compatability for notebook)
+ 1. David Joyner (coding theory, calculus, documentation)
 
 Many other people participated, but didn't add themselves here due to the rather tight schedule.
