@@ -27,4 +27,4 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  1. David Joyner (coding theory, calculus, documentation)
  1. William Stein (misc quality control; bug fixes; jmol and 3d)
 
-Many other people participated, but didn't add themselves here due to the rather tight schedule.
+Many other people will hopefully participate, but didn't yet add themselves here due to the rather tight schedule.
