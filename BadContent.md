@@ -4097,3 +4097,8 @@ fashion-emart\.com
 bestopsolar\.com
 info\.bizhostings\.net
 isk-eve\.com
+quickpass\.org
+shdzbc\.net\.cn
+xltcpl\.cn
+taiad\.com\.cn
+bjpeilian\.net
