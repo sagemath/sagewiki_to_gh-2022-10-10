@@ -2,6 +2,9 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  Free software saves another group of closed software hostages: mathematicians
+    http://news.northxsouth.com/2008/01/01/free-software-saves-another-group-of-closed-software-hostages-mathematicians/
+
   There's a new Sage in Mathematics (blog post):
     http://larryshiller.blogspot.com/2007/12/theres-new-sage-in-mathematics.html
 
