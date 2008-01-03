@@ -4102,4 +4102,4 @@ shdzbc\.net\.cn
 xltcpl\.cn
 taiad\.com\.cn
 bjpeilian\.net
-wowgoldprice\.com
+wow-*gold.*\.(com|org|net|cn)
