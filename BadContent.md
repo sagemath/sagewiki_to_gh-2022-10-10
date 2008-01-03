@@ -4102,3 +4102,4 @@ shdzbc\.net\.cn
 xltcpl\.cn
 taiad\.com\.cn
 bjpeilian\.net
+wowgoldprice\.com
