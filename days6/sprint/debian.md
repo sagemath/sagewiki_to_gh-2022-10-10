@@ -73,7 +73,7 @@ no  sage-2.8.12 STATUS: no progress
 no  sage_scripts-2.8.12 STATUS: no progress
 yes scipy-20070817
 yes scons-0.97
-no  singular-3-0-4 STATUS: no progress
+no  singular-3-0-4 STATUS: Fails to configure ...
 yes sqlite-3.3.17.p1
 no  symmetrica-2.0.p0 STATUS: libsymmetrica-dev package works.  Should we package symmetrica itself too?
 no  sympow-1.018.1.p3 STATUS: packaged.
