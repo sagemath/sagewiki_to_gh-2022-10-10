@@ -11,71 +11,74 @@ Tags:
 [OPT] ... this package is optional
 
 {{{
+Debian status for packaging of SAGE:
+(All new packages still need Description and Copyright information)
+(Several libdev packages should depend on the library versions.)
 yes blas-20070724
-no  cddlib-094b
+no  cddlib-094b STATUS: package created; should be renamed to libcdd-dev
 yes clisp-2.41.p11
-no  conway_polynomials-0.2
+no  conway_polynomials-0.2 STATUS: unpackaged.  I don't know where this should get installed.
 yes cvxopt-0.8.2.p4  [0.9-3]
-no  cython-0.9.6.8.b
---  doc-2.8.12
+no  cython-0.9.6.8.b STATUS: packaged.
+--  doc-2.8.12 STATUS: no progress
 yes ecm-6.1.3
---  elliptic_curves-0.1
---  examples-2.8.12
---  extcode-2.8.12
+--  elliptic_curves-0.1 STATUS: no progress
+--  examples-2.8.12 STATUS: no progress
+--  extcode-2.8.12 STATUS: no progress
 yes f2c-20070816
-no  flint-0.2.p4
-no  flintqs-20070817.p1
+no  flint-0.2.p4 STATUS: no progress
+no  flintqs-20070817.p1 STATUS: no progress
 yes fortran-20070912
 yes freetype-2.1.10
 yes gap-4.4.10 [but old version]
 yes gd-2.0.33.p5
 yes gdmodule-0.56.p4  [python 2.4 only]
-no  genus2reduction-0.3
-no  gfan-0.2.2.p1
-no  givaro-3.2.6.p3
+no  genus2reduction-0.3 STATUS: packaged
+no  gfan-0.2.2.p1 STATUS: packaged, but its automatically generated symlinks are absolute!
+no  givaro-3.2.6.p3 STATUS: packaged, though based on SAGE upstream.
 yes gmp-4.2.1.p11
 yes gnutls-1.6.3 [better version]
---  graphs-20070722
+--  graphs-20070722 STATUS: no progress
 yes gsl-1.9 [better version, GPLv3]
-no  iml-1.0.1.p7
+no  iml-1.0.1.p7 STATUS: tries to install into /
 yes ipython-0.8.1.p1
-no  ipython1-20070130
-no  java3d-20070901
+no  ipython1-20070130 STATUS: Not essential for SAGE.
+no  java3d-20070901 STATUS: Not essential for SAGE.
 yes lapack-20070723
-no  lcalc-20070107.p0
-no  libfplll-2.1-20071024
+no  lcalc-20070107.p0 STATUS: packaged; need .orig.tar.gz / version number.
+no  libfplll-2.1-20071024 STATUS: packaged.
 yes libgcrypt-1.2.4
 yes libgpg_error-1.5
-no  linbox-20070915.p1
+no  linbox-20070915.p1 STATUS: fails to configure.
 yes matplotlib-0.90.0.p5 [debian, better]
-yes maxima-5.13.0.p1 
+yes maxima-5.13.0.p1
 yes mercurial-0.9.5
 yes moin-1.5.7.p1
 yes mpfi-1.3.4-rc3.p9 [but old buggy version]
 yes mpfr-2.3.0p4 [yes]
-no  mwrank-20070913
+no  mwrank-20070913 STATUS: packaged; libmwrank lacks soname
 yes networkx-0.35.1  [same version]
-no  ntl-5.4.1.p6
+no  ntl-5.4.1.p6 STATUS: Should have doc package?  libntl lacks soname.
 yes numpy-20070816
 yes opencdk-0.5.9  [debian; better version]
-no  palp-1.1
+no  palp-1.1 STATUS: packaged
 yes pari-2.3.2.p4
 yes pexpect-2.0.p1 [debian; newer crap version]
 yes pycrypto-2.0.1.p1 [yes]
 yes python-2.5.1.p8
 yes python_gnutls-1.1.1
-no  quaddouble-2.2.p7
+yes quaddouble-2.2.p7 STATUS: In debian with earlier version named qd.
 yes readline-5.2
-no  sage-2.8.12
-no  sage_scripts-2.8.12
+no  sage-2.8.12 STATUS: no progress
+no  sage_scripts-2.8.12 STATUS: no progress
 yes scipy-20070817
 yes scons-0.97
-no  singular-3-0-4
+no  singular-3-0-4 STATUS: no progress
 yes sqlite-3.3.17.p1
-no  symmetrica-2.0.p0
-no  sympow-1.018.1.p3
+no  symmetrica-2.0.p0 STATUS: libsymmetrica-dev package works.  Should we package symmetrica itself too?
+no  sympow-1.018.1.p3 STATUS: packaged.
 yes sympy-0.5.6
-no  tachyon-0.98beta.p3
+no  tachyon-0.98beta.p3 STATUS: Not essential for SAGE
 yes termcap-1.3.1
 yes twisted-2.5.0.p8
 yes weave-0.4.9
