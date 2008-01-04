@@ -11,9 +11,9 @@ Tags:
 [OPT] ... this package is optional
 
 Debian status for packaging of SAGE:
-(All new packages still need Description and Copyright information)
-(Several libdev packages should depend on the library versions.)
 {{{
+- All new packages still need Description and Copyright information
+- Several libdev packages should depend on the library versions.
 yes blas-20070724
 no  cddlib-094b STATUS: package created; should be renamed to libcdd-dev
 yes clisp-2.41.p11
