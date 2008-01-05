@@ -4113,3 +4113,7 @@ gept4u\.com\.tw
 kingcoder\.com\.cn
 ning-wang-fu\.cn
 zzhkjx\.com
+exam100\.org
+76my\.com
+gamezmoney\.com
+86xh\.com
