@@ -4106,3 +4106,10 @@ wow-*gold.*\.(com|org|net|cn)
 sino-strong\.com\.cn
 vanguardct\.com
 hzzrs\.com
+hfcxhw\.com
+toeic-world\.com\.tw
+toefl-expert\.com\.tw
+gept4u\.com\.tw
+kingcoder\.com\.cn
+ning-wang-fu\.cn
+zzhkjx\.com
