@@ -43,7 +43,7 @@ yes gsl-1.9 [better version, GPLv3]
 no  iml-1.0.1.p7 STATUS: tries to install into /
 yes ipython-0.8.1.p1
 no  ipython1-20070130 STATUS: Not essential for SAGE.
-no  java3d-20070901 STATUS: Not essential for SAGE.
+no  java3d-20070901 STATUS: Not essential for SAGE. - Has also been been removed and replaced by jmol
 yes lapack-20070723
 no  lcalc-20070107.p0 STATUS: packaged; thought based on SAGE upstream
 no  libfplll-2.1-20071024 STATUS: packaged.
