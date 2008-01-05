@@ -2,14 +2,15 @@
 
 Hello, I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated around packages and their portability. I added valgrind support to Sage 2.8.3 and have been using various valgrind tools to investigate Sage's memory consumption.
 
-I also recently become a release manager for Sage and I chaired a number of releases: 2.8.11, 2.8.13-2.8.15 and 2.9. Since it looks like few people want to do this job it is very likely that I will do a lot more of those.
+I also recently become a release manager for Sage and I chaired a number of releases: 2.8.11, 2.8.13-2.8.15, 2.9 and 2.9.2. Since it looks like few people want to do this job it is very likely that I will do a lot more of those.
 
 == Task Table ==
 
 === Currently Working on ===
  * Probably chairing the current Sage release
- * Solaris port of SAGE.
- * FreeBSD port of SAGE.
+ * Solaris port of Sage.
+ * FreeBSD port of Sage.
+ * Cygwin re-port of Sage.
  * DMG installation image for MacOSX
  * optional spkgs: CoCoA 4.7.x, ApCoCoALib & CoCoALib, g++ 4.2
  * hunt mem-leaks in C/C++ code of Sage 
