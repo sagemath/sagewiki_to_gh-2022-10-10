@@ -95,3 +95,4 @@ I'm creating a new list below here with links to the packages in Debian:
 
 
 Maybe the list could be automatically generated? The version info changes quite often. --Ondrej
+dpkg-awk is a good tool for auto-generating such data. -- Tim
