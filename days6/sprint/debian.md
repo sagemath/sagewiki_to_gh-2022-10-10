@@ -12,7 +12,7 @@ Tags:
 
 Debian status for packaging of SAGE:
 {{{
-- All new packages still need Description and Copyright information
+- All new packages still need Descriptions, Copyright information, and a fixed changelog
 - Several libdev packages should depend on the library versions.
 yes blas-20070724
 no  cddlib-094b STATUS: package created; should be renamed to libcdd-dev
@@ -27,7 +27,7 @@ yes ecm-6.1.3
 --  extcode-2.8.12 STATUS: no progress
 yes f2c-20070816
 no  flint-0.2.p4 STATUS: libflint-dev has no .a file; no soname.
-no  flintqs-20070817.p1 STATUS: no progress
+no  flintqs-20070817.p1 STATUS: packaged
 yes fortran-20070912
 yes freetype-2.1.10
 yes gap-4.4.10 [but old version]
