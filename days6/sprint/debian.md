@@ -41,7 +41,7 @@ yes gmp-4.2.1.p11
 yes gnutls-1.6.3 [better version]
 --  graphs-20070722 STATUS: no progress
 yes gsl-1.9 [better version, GPLv3]
-no  iml-1.0.1.p7 STATUS: tries to install into /
+no  iml-1.0.1.p7 STATUS: packaged
 yes ipython-0.8.1.p1
 no  ipython1-20070130 STATUS: Not essential for SAGE.
 no  java3d-20070901 STATUS: Not essential for SAGE. - Has also been been removed and replaced by jmol
