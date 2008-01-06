@@ -50,7 +50,7 @@ no  lcalc-20070107.p0 STATUS: packaged; though based on SAGE upstream
 no  libfplll-2.1-20071024 STATUS: packaged.
 yes libgcrypt-1.2.4
 yes libgpg_error-1.5
-no  linbox-20070915.p1 STATUS: packaged; based on SAGE upstream
+no  linbox-20070915.p1 STATUS: packaged but has automake issues?; based on SAGE upstream
 yes matplotlib-0.90.0.p5 [debian, better]
 yes maxima-5.13.0.p1
 yes mercurial-0.9.5
