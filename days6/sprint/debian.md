@@ -46,11 +46,11 @@ yes ipython-0.8.1.p1
 no  ipython1-20070130 STATUS: Not essential for SAGE.
 no  java3d-20070901 STATUS: Not essential for SAGE. - Has also been been removed and replaced by jmol
 yes lapack-20070723
-no  lcalc-20070107.p0 STATUS: packaged; thought based on SAGE upstream
+no  lcalc-20070107.p0 STATUS: packaged; though based on SAGE upstream
 no  libfplll-2.1-20071024 STATUS: packaged.
 yes libgcrypt-1.2.4
 yes libgpg_error-1.5
-no  linbox-20070915.p1 STATUS: fails to configure.
+no  linbox-20070915.p1 STATUS: packaged; based on SAGE upstream
 yes matplotlib-0.90.0.p5 [debian, better]
 yes maxima-5.13.0.p1
 yes mercurial-0.9.5
