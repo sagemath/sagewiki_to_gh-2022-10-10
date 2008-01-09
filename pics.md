@@ -69,3 +69,17 @@ t6.show()
 }}}
 
 [attachment:fourspheres.png]
+
+ * A cone inside a sphere:
+{{{
+sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3*v/2-1/3], (u, 0, 2*pi), (v, 0, 0.95),plot_points=[20,20])
+sage: p2 = sphere((0,0,2/3), color='red', opacity=0.5, aspect_ratio=[1,1,1])
+sage: show(p1+p2)
+}}}
+
+ * A cylinder inside a cone:
+{{{
+sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3/2-3*v/2], (u, 0, 2*pi), (v, 0, 1.5), opacity = 0.5, plot_points=[20,20])
+sage: p2 = parametric_plot3d([cos(u)/2, sin(u)/2, v-3/4], (u, 0, 2*pi), (v, 0, 3/2), plot_points=[20,20])
+sage: show(p1+p2)
+}}}
