@@ -35,7 +35,7 @@ yes gap-4.4.10 [but old version]
 yes gd-2.0.33.p5
 yes gdmodule-0.56.p4  [python 2.4 only]
 no  genus2reduction-0.3 STATUS: packaged
-no  gfan-0.2.2.p1 STATUS: packaged, but its automatically generated symlinks are absolute!
+no  gfan-0.2.2.p1 STATUS: packaged
 no  givaro-3.2.6.p3 STATUS: packaged, though based on SAGE upstream.
 yes gmp-4.2.1.p11
 yes gnutls-1.6.3 [better version]
