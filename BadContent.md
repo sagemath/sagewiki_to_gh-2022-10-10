@@ -4149,3 +4149,8 @@ longhainet\.com
 quarry\-plant\.com\.cn
 rock\-crushers\.com\.cn
 brogame\.com
+## ===========================================================================================
+## Please keep this comment at the end. Please note:
+## MoinMoin 1.6 has TextCHAs for spam prevention and they are currently very effective (no
+## spam any more since switching to 1.6). So if you still suffer from spam, consider 1.6.
+## ===========================================================================================
