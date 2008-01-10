@@ -4146,3 +4146,5 @@ dinmo\.org\.cn
 underwear-wholesaler\.com
 17-china\.cn
 longhainet\.com
+quarry\-plant\.com\.cn
+rock\-crushers\.com\.cn
