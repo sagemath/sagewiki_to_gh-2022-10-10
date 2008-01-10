@@ -26,7 +26,7 @@ yes ecm-6.1.3
 --  examples-2.8.12 STATUS: no progress
 --  extcode-2.8.12 STATUS: no progress
 yes f2c-20070816
-no  flint-0.2.p4 STATUS: libflint-dev has no .a file; no soname.
+no  flint-0.2.p4 STATUS: libflint-dev has no .a file; no soname; not sure what args to pass
 no  flintqs-20070817.p1 STATUS: packaged
 yes fortran-20070912
 yes freetype-2.1.10
