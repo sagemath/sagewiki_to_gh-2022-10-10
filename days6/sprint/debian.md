@@ -12,8 +12,7 @@ Tags:
 
 Debian status for packaging of SAGE:
 {{{
-- All new packages still need Descriptions, Copyright information, and a fixed changelog
-- spkg-install and sage-patches should be deleted from the debian directories.
+- All new packages still need Copyright information, and a fixed changelog
 - Several libdev packages should depend on the library versions.
 yes blas-20070724
 no  cddlib-094b STATUS: package created; should perhaps have dynamic library
