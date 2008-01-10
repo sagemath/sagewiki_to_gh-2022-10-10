@@ -77,7 +77,7 @@ yes scipy-20070817
 yes scons-0.97
 no  singular-3-0-4 STATUS: Fails to configure ...
 yes sqlite-3.3.17.p1
-no  symmetrica-2.0.p0 STATUS: libsymmetrica-dev package works.  Should we package symmetrica itself too?  Docs?
+no  symmetrica-2.0.p0 STATUS: libsymmetrica-dev package works.  Should package symmetrica itself and a dynamic library too?  Docs?  
 no  sympow-1.018.1.p3 STATUS: packaged.
 yes sympy-0.5.6
 no  tachyon-0.98beta.p3 STATUS: Not essential for SAGE
