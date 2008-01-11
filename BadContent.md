@@ -4154,6 +4154,8 @@ jxsb\.org\.cn
 fzpg\.net\.cn
 xxyd\.org\.cn
 fzfz\.org\.cn
+jmzj999\.com
+xbkf120\.cn
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
 ## MoinMoin 1.6 has TextCHAs for spam prevention and they are currently very effective (no
