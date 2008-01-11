@@ -13,7 +13,7 @@ Here are some python plotting engines/libraries:
        * matplotlib: http://matplotlib.sourceforge.net
        * Tachyon: http://jedi.ks.uiuc.edu/~johns/raytracer/
    Under active development:
-       * JMol: http://jmol.sourceforge.net/
+       * Jmol: http://jmol.sourceforge.net/
 
 SAGE's plotting functionality is built on top of matplotlib, which is a
 very extensive plotting library with a user interface that is very similiar to Matlab's plotting.
