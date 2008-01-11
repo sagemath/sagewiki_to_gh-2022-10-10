@@ -4,8 +4,8 @@
 This is a high-level overview and list of functionality that is easily available from the standard Sage interface.  (The intended reader has never heard of Maxima, GAP, Singular, Givaro, etc.). 
 
 == Bioinformatics ==
- * Sage can parse various file formats such as GenBank, FASTA, BLAST, and ClustalW.
- * Access online databases such as NCBI, SwissProt, and PubMed.
+ * Sage can parse various file formats such as !GenBank, FASTA, BLAST, and ClustalW.
+ * Access online databases such as NCBI, !SwissProt, and P!ubMed.
  * Translate RNA sequences to protein sequences using a variety of translation types (e.g. mitochondrial).
 
 == Calculus ==
