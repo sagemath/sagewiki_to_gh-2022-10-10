@@ -3,8 +3,13 @@
 
 This is a high-level overview and list of functionality that is easily available from the standard SAGE interface.  (The intended reader has never heard of Maxima, GAP, Singular, Givaro, etc.). 
 
+== Bioinformatics ==
+ * Sage can parse various file formats such as GenBank, FASTA, BLAST, and ClustalW.
+ * Access online databases such as NCBI, SwissProt, and PubMed.
+ * Translate RNA sequences to protein sequences using a variety of translation types (e.g. mitochondrial).
+
 == Calculus ==
- * SAGE has fairly complete symbolic manipulation capabilities, including symbolic and numerical integration, differentiation, limits, etc.
+ * Sage has fairly complete symbolic manipulation capabilities, including symbolic and numerical integration, differentiation, limits, etc.
 
 == Combinatorics ==
  * Many basic functions.
@@ -30,7 +35,7 @@ This is a high-level overview and list of functionality that is easily available
 
 == Elementary Education ==
 
- * The SAGE notebook (a graphical interface) is a useful tool for basic math education because of its flexible visualization/output capabilities.
+ * The Sage notebook (a graphical interface) is a useful tool for basic math education because of its flexible visualization/output capabilities.
 
 == Finite Fields ==
 
@@ -87,9 +92,12 @@ This is a high-level overview and list of functionality that is easily available
  * Extensive support for arithmetic with a range of different models of p-adic arithmetic.
 
 == Plotting ==
- * SAGE provides very complete 2d plotting functionality similar to Mathematica's. 
- * SAGE provides limited 3d plotting via an included ray tracer. 
+ * Sage provides very complete 2d plotting functionality similar to Mathematica's. 
+ * Sage provides limited 3d plotting via an included ray tracer. 
 
 == Polytopes ==
  * State of the art support for computing with lattice polytopes.
  * Exact convex hulls in any dimension can be quickly computed (requires the optional polymake package).
+
+== Statistics ==
+ * Linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering.
