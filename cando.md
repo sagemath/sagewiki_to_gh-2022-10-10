@@ -1,7 +1,7 @@
-= What SAGE Can Do =
+= What Sage Can Do =
 
 
-This is a high-level overview and list of functionality that is easily available from the standard SAGE interface.  (The intended reader has never heard of Maxima, GAP, Singular, Givaro, etc.). 
+This is a high-level overview and list of functionality that is easily available from the standard Sage interface.  (The intended reader has never heard of Maxima, GAP, Singular, Givaro, etc.). 
 
 == Bioinformatics ==
  * Sage can parse various file formats such as GenBank, FASTA, BLAST, and ClustalW.
