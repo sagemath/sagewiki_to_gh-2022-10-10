@@ -4149,6 +4149,7 @@ longhainet\.com
 quarry\-plant\.com\.cn
 rock\-crushers\.com\.cn
 brogame\.com
+pan-tibet\.com
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
 ## MoinMoin 1.6 has TextCHAs for spam prevention and they are currently very effective (no
