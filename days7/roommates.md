@@ -5,5 +5,3 @@ Example:
  * Alexander Grothendieck, 5 nights, I have a reservation at Hilgard House, and I snore like a buzzsaw.
 
 End of example...
-
-* Andrey Novoseltsev, 3 night (February 4-7), don't have a reservation yet, UW grad student
