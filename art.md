@@ -4,7 +4,7 @@ Sage-related art
 
 [attachment:BadMugDesign.jpg Mug design, too dark though]
 
-Sage Days 2 art:
+~+Sage Days 2 art:+~
 
 [http://flagrantdisregard.com/flickr/ Flickr] movie-style posters for the 
 SAGEdays2 conference:
