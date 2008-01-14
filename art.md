@@ -36,7 +36,8 @@ A mosaic:
  * [http://sage.math.washington.edu/home/boothby/icons/sagedays3.1.png sage days 3 logo]
 
 == Sage Days 4 ==
- * [http://www.sagemath.org/flier/flier.pdf Poster]
+ * [http://www.sagemath.org/flier/flier.pdf flyer]
 
 == Joint meetings 2008 ==
  * [http://sage.math.washington.edu/home/malb/graphics/banner.png Banner idea (not used)]
+ * [http://sagemath.org/flier2/ files for a flyer]
