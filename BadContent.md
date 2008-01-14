@@ -4166,6 +4166,8 @@ txcp\.net\.cn
 hrdzf\.com
 17ftp\.cn
 ibuy-sell\.com
+itemrate\.com
+mul-t-lock\.com\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
