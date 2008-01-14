@@ -34,6 +34,4 @@ A mosaic:
  * [http://www.sagemath.org/flier/flier.pdf Poster]
 
 == Joint meetings 2008 ==
- * [http://sage.math.washington.edu/home/malb/graphics/banner.png Banner idea (not used]
-
-
+ * [http://sage.math.washington.edu/home/malb/graphics/banner.png Banner idea (not used)]
