@@ -6,9 +6,6 @@ Sage-related art
 
 ~+Sage Days 2 art:+~
 
-[http://flagrantdisregard.com/flickr/ Flickr] movie-style posters for the 
-SAGEdays2 conference:
-
 * [http://sage.math.washington.edu/home/wdj/art/poster-sagedays1.jpg poster 1] (jpg)
 
 * [http://sage.math.washington.edu/home/wdj/art/poster-sagedays2.jpg poster 2] (jpg)
