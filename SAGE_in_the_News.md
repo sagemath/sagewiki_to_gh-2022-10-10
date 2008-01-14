@@ -2,6 +2,9 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  Sage appears in the University of Washington's student newspaper, The Daily.
+    http://thedaily.washington.edu/2008/1/14/sage-insights-open-source-technology/
+
   Free software saves another group of closed software hostages: mathematicians
     http://news.northxsouth.com/2008/01/01/free-software-saves-another-group-of-closed-software-hostages-mathematicians/
 
