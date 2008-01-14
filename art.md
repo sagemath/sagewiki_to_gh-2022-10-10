@@ -1,6 +1,6 @@
 = Sage-related art =
 
- * [http://sage.math.washington.edu/home/malb/graphics/banner/sagelogo.png banner]
+ * [http://sage.math.washington.edu/home/malb/graphics/banner/sagelogo.png logo]
 
  * [http://modular.math.washington.edu/sage/days2/sage-car.png Sage car]
 
