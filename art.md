@@ -4,6 +4,8 @@
 
  * [http://modular.math.washington.edu/sage/days2/sage-car.png Sage car]
 
+ * [http://sage.math.washington.edu/home/malb/graphics/ Sage car PDF]
+
  * [attachment:BadMugDesign.jpg Mug design, too dark though]
 
 
