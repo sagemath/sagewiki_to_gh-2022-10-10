@@ -40,4 +40,5 @@ A mosaic:
 
 == Joint meetings 2008 ==
  * [http://sage.math.washington.edu/home/malb/graphics/banner.png Banner idea (not used)]
+ * [http://sage.math.washington.edu/home/was/tmp/ams/sage_banner.png Banner]
  * [http://sagemath.org/flier2/ files for a flyer]
