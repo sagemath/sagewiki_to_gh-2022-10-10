@@ -4170,6 +4170,8 @@ itemrate\.com
 mul-t-lock\.com\.cn
 kevincostnerfans\.com
 lavigneavril\.net
+loveparishilton\.net
+lovebritneyspears\.net
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
