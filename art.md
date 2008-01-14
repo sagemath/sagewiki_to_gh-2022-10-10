@@ -1,8 +1,11 @@
 = Sage-related art =
 
-[http://modular.math.washington.edu/sage/days2/sage-car.png Sage car]
+ * [http://sage.math.washington.edu/home/malb/graphics/banner/sagelogo.png banner]
 
-[attachment:BadMugDesign.jpg Mug design, too dark though]
+ * [http://modular.math.washington.edu/sage/days2/sage-car.png Sage car]
+
+ * [attachment:BadMugDesign.jpg Mug design, too dark though]
+
 
 == Sage Days 2 ==
 
