@@ -70,4 +70,6 @@ Some possible [:/panel: panel topics] have been suggested, but we are also open 
 
 1530 - 1630 Tea/coffee at Heilbronn Seminar
 
-1630 - 1730 William Stein:  SAGE for number theorists ([http://www.maths.bris.ac.uk/events/seminars/series/index.php?id=7 Heilbronn Seminar])
+1630 - 1730 William Stein:  SAGE for number theorists [attachment:stein-bristol.pdf PDF] and [attachment:stein-bristol.tar.bz2 tar.bz2]
+
+   ([http://www.maths.bris.ac.uk/events/seminars/series/index.php?id=7 Heilbronn Seminar])
