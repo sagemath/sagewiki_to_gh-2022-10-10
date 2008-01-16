@@ -21,6 +21,10 @@ See http://trac.sagemath.org/sage_trac/ticket/1322
 === Lie algebras ===
 KiranKedlaya: I'd like to be able to manipulate representations of Lie algebras. Here I'm thinking of representations as lists of highest weights (indicating irreducibles) with multiplicities. I'd like to be able to perform representation-theoretic operations (tensor products, exterior powers, symmetric powers, maybe other Schur functors) on such lists. This may be accomplished by wrapping LiE, which we currently provide as an optional spkg. (Some of this may also be provided by Symmetrica.) I plan to discuss this with Mike Hansen before and during the workshop.
 
+=== Crystal Graphs ===
+
+=== Posets ===
+
 == Algorithms ==
  * Xin's partial fraction algorithm for MacMahon's partition analysis
 == Programs ==
