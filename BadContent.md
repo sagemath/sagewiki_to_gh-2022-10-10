@@ -4172,6 +4172,7 @@ kevincostnerfans\.com
 lavigneavril\.net
 loveparishilton\.net
 lovebritneyspears\.net
+alpacino\.net\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
