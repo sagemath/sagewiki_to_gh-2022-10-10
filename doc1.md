@@ -20,3 +20,4 @@ Add your name here if you're going to be involved, and mention what part you're 
 
  * Craig Citro (after 6-7PM PST): sage/modular/ ... I've already got doctest coverage in
    sage/modular/modform at 99% or so, but haven't yet submitted it.
+ * Michael Abshoff: Add global HISTORY.txt, add trac and Sage workflow chapter, spkg chaper in the developer's manual
