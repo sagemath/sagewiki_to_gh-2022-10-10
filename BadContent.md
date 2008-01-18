@@ -4173,6 +4173,9 @@ lavigneavril\.net
 loveparishilton\.net
 lovebritneyspears\.net
 alpacino\.net\.cn
+bradpitt\.net\.cn
+robertdeniro\.net\.cn
+gosuperplayers\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
