@@ -7,7 +7,7 @@ Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a tr
  * The base version of SAGE we'll start with is '''2.10'''
  * [:bug9/status:STATUS]
  * [:bug9/irc:IRC log]
- * Write to wstein@gmail.com for an account on the bug tracker.
+ * Write to wstein@gmail.com or michael.abshoff@gmail.com for an account on the bug tracker.
  * We'll all be on #sage-devel at irc.freenode.net.
 {{{
 From Linux you can chat via a text console by installing "irssi", running it, and typing
