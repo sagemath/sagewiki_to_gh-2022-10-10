@@ -4,7 +4,7 @@ The event will take place on '''Saturday, January 19th, 2008''' and officially s
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
- * The base version of SAGE we'll start with is '''2.10.alphaX''' [X will probably be 5 or 6].
+ * The base version of SAGE we'll start with is '''2.10'''
  * [:bug9/status:STATUS]
  * [:bug9/irc:IRC log]
  * Write to wstein@gmail.com for an account on the bug tracker.
