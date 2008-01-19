@@ -23,5 +23,6 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 = Participants (with area they would like to work on) =
  1. Michael Abshoff (merging patch, OSX 64 bit build issues, spkg updates)
  1. William Stein (misc)
+ 1. Carl Witty (make reference manual prettier by adding LaTeX to docstrings)
 
 Many other people will hopefully participate, but didn't yet add themselves here due to the rather tight schedule.
