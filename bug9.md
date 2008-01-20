@@ -26,3 +26,5 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  1. Carl Witty (make reference manual prettier by adding LaTeX to docstrings)
 
 Many other people will hopefully participate, but didn't yet add themselves here due to the rather tight schedule.
+
+= Ticket status and reviews needed
