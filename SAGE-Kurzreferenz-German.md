@@ -55,6 +55,8 @@ Eine Übersicht besonders häufig benötigter Befehle:
  * Reihen (Python: "sequence"): (a,b,c...) ... diese sind im Gegensatz zu Listen unveränderlich, mit zwei Elementen sind es "Tupel"
  * Mengen: {a, b, c, ...}
  * eine assoziative Liste: { 0: [1,2], 1: [2,1], 2: [0,1,3]}, 3: [1] } ... wobei dies hier bedeutet, dass das Element 0 mit 1 und 2 verbunden ist, 1 mit 2 und 1, usw. - diese wird zum Beispiel bei der Konstruktion von Graphen benötigt.
+ * Vektor: vector([a,b,c,...])
+ * Matrix: matrix([a,b,c,...])
 
 === grundlegende Funktionen ===
 
@@ -67,3 +69,15 @@ Eine Übersicht besonders häufig benötigter Befehle:
 
 Diese Funktionen können generell auch auf Ausdrücke in Form von Variablen wirken:
 Beispiel: wenn f eine Funktion ist, dann ist f.diff(x) exakt gleich wie diff(f,x)
+
+ * Nullstellen: find_root(f(x), a, b)
+
+=== Plotten ===
+Es gibt einen Unterschied zwischen Plot-Objekt und Darstellung:
+
+ * 2D: P = plot(f(x),-4,4) ... ist der Plot
+ * P.show() ... ist die Darstellung
+ * 3D Plot: plot3d(f(x,y),[-2,2],[-3,3])
+
+
+ 
