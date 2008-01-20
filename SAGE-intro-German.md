@@ -46,5 +46,6 @@ Sage beinhaltet diverse mathematische Open-Source Bibliotheken und bietet eine v
 siehe: ["SAGE-Kurzanleitung-German"]
 
 == Einführung und Kurzreferenz ==
-siehe: ["SAGE-Bedienung-German"]
-siehe: ["SAGE-Kurzreferenz-German"]
+
+ * siehe: ["SAGE-Bedienung-German"]
+ * siehe: ["SAGE-Kurzreferenz-German"]
