@@ -8,7 +8,7 @@ SAGE es una biblioteca del Python con un intérprete modificado para requisitos 
 
 SAGE proporcionará un interfaz unificada a varias importantes librerias fuente abiertas, incluyendo SINGULAR (para el álgebra conmutativa) y GAP (para la teoría del grupo), a la libreria MWRANK de Juan Crémona (para las curvas elípticas), a la libreria PARI para la biblioteca NTL, máximos de la teoría de la teoría del número, y del número de Shoup (para la manipulación simbólica). Hay también interfaces a mucha fuente comercial o cerrada CAS tales como arce, KASH/KANT, MAGMA, Mathematica, axioma, y muchos otros. Para los gráficos, SAGE incluye Matplotlib (para los 2.os y algunos tridimensionales gráficos) y el Tachyon (un trazalíneas tridimensional del rayo). 
 
-Las metas y los principios de guía a largo plazo principales para SAGE son: 
+Las principales metas y principios de guía a largo plazo para SAGE son: 
 
 * Liberar y abrir la fuente: El código de fuente debe ser libremente disponible y legible, de mode que los usuarios puedan entender lo que está haciendo el sistema realmente y ampliarlos más fácilmente. Apenas pues los matemáticos ganan una comprensión más profunda de un teorema cuidadosamente leyendo o por lo menos desnatando la prueba, la gente que hace cómputos debe poder entender cómo los cálculos trabajan por código de fuente documentado de lectura. Todo el software incluido en la distribución de SAGE debe ser fuente libre y abierta, y las modificaciones y la redistribución arbitrarias de cada sola línea deben ser permitidas. 
 
