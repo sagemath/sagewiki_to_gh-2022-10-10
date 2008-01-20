@@ -4179,6 +4179,7 @@ gosuperplayers\.com
 item4sale\.com
 hitop-mould\.com
 dghighcrown\.com
+junxingstone\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
