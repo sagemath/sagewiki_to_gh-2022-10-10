@@ -2,9 +2,9 @@ See also [http://modular.math.washington.edu//home/wdj/expository/sage-intro-es.
 
 == Introducción corta a SAGE: Software para la experimentación de el álgebra y de la geometría ==
 
-SAGE es un marco para la teoría del número, la álgebra, y el cómputo de la geometría. La puesta en práctica actual es sobre todo debido a Guillermo Stein. Es fuente abierta y libremente disponible de conformidad con la licencia el público en general del GNU (GLP). 
+SAGE es un marco para la teoría del número, el álgebra, y el cómputo de la geometría. La puesta en práctica actual es sobre todo debido a William Stein. Es fuente abierta y libremente disponible en conformidad con la licencia pública general del projecto GNU (GLP). 
 
-SAGE es una biblioteca del Python con un intérprete modificado para requisitos particulares. Se escribe en Python, C++, y C (vía Pyrex). El Python es una fuente abierta orientada al objeto interpretó lengua, con una gran cantidad de bibliotecas, e.g., para el análisis numérico, que están disponibles para los usuarios del SAGE. El Python puede también ser alcanzado en modo de la biblioteca de programas de C/C++. 
+SAGE es una biblioteca del Python con un intérprete modificado para requisitos particulares. Esta escrito en Python, C++, y C (vía Pyrex). Python es un lenguaje de programacion fuente abierta orientada a la programacion orientada a objetos, con una gran cantidad de librerias, e.g., para el análisis numérico, que están disponibles para los usuarios de SAGE. Python puede también ser alcanzado en modo de la librerias de programas escritos en C/C++. 
 
 SAGE proporcionará un interfaz unificada a varias importantes librerias fuente abiertas, incluyendo SINGULAR (para el álgebra conmutativa) y GAP (para la teoría del grupo), a la libreria MWRANK de Juan Crémona (para las curvas elípticas), a la libreria PARI para la biblioteca NTL, máximos de la teoría de la teoría del número, y del número de Shoup (para la manipulación simbólica). Hay también interfaces a mucha fuente comercial o cerrada CAS tales como arce, KASH/KANT, MAGMA, Mathematica, axioma, y muchos otros. Para los gráficos, SAGE incluye Matplotlib (para los 2.os y algunos tridimensionales gráficos) y el Tachyon (un trazalíneas tridimensional del rayo). 
 
