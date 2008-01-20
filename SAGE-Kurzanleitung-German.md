@@ -10,15 +10,16 @@ Sage ist eine Distribution mehrerer Mathematikprogramme. Daher ist es nur notwen
 Es gibt prinzipiell zwei Arten Sage zu starten: die '''interaktive Kommandozeile''' oder im '''Notebook-Modus''' im Webbrowser.
 
 === Linux ===
- 1. Öffnen Sie einen Terminal und gehen sie mit "cd" in das Installationsverzeichnis.
- 1. {*}  Starten Sie Sage im '''Notebookmodus''' mit "./sage -notebook" - es sollte sich ihr Webbrowser auf der Adresse http://localhost:8000 öffnen.
- 1. Starten Sie Sage im Kommandozeilenmodus mit "./sage".
+ * Öffnen Sie einen Terminal und gehen sie mit "cd" in das Installationsverzeichnis.
+ * {*}  Starten Sie Sage im '''Notebookmodus''' mit "./sage -notebook" - es sollte sich ihr Webbrowser auf der Adresse http://localhost:8000 öffnen.
+ * Starten Sie Sage im Kommandozeilenmodus mit "./sage".
 {i} Hilfe: "./sage -h" gibt eine Liste von eventuell nützlichen Parametern aus.
 
 === Windows ===
  1. Hier müssen Sie Sage im virtuellen System de VMWare starten
 == Beenden ==
-* Läuft eine '''interaktive Sitzung''' so wird Sage mit der Tastenkombination '''<STRG>+<D>''' beendet * Läuft Sage im '''Notebook-Modus''', so wird es in der Kommandozeile mittels zweimaligem '''<STRG>+<C>''' beendet. Dies ist Notwendig, um Änderungen in den Notebooks sicher zu speichern.
+* Läuft eine '''interaktive Sitzung''' so wird Sage mit der Tastenkombination '''<STRG>+<D>''' beendet 
+* Läuft Sage im '''Notebook-Modus''', so wird es in der Kommandozeile mittels zweimaligem '''<STRG>+<C>''' beendet. Dies ist Notwendig, um Änderungen in den Notebooks sicher zu speichern.
 
 == Erweitern ==
 Neben den standardmäßig Installierten Paketen gibt es noch weitere optionale. Diese können auf der Kommandozeile mittels der Option "sage -optional" installiert werden.
