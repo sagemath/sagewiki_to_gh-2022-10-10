@@ -27,7 +27,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 
 Many other people will hopefully participate, but didn't yet add themselves here due to the rather tight schedule.
 
- = Ticket status and reviews needed
+= Ticket status and reviews needed =
 
  * http://trac.sagemath.org/sage_trac/ticket/652: .sage files destroy existing .py files
  * http://trac.sagemath.org/sage_trac/ticket/980: random_element() for multivariate polynomials
@@ -39,12 +39,9 @@ Many other people will hopefully participate, but didn't yet add themselves here
  * http://trac.sagemath.org/sage_trac/ticket/1418: magma element __floordiv__
  * http://trac.sagemath.org/sage_trac/ticket/1508: axes_label in plot() broken
  * http://trac.sagemath.org/sage_trac/ticket/1575: plotting -- fix vector plotting
- * http://trac.sagemath.org/sage_trac/ticket/1577: .coefficients() and .monomials() differ in order in
-       multivariate polynomial rings
- * http://trac.sagemath.org/sage_trac/ticket/1578: Make polynomial .diff() accept optional argument times for
-       repeated differentiation.
- * http://trac.sagemath.org/sage_trac/ticket/1593: m4ri -- the documentation of the echelon command only
-       lists 1 algorithm but >= 2 algorithms are supported
+ * http://trac.sagemath.org/sage_trac/ticket/1577: .coefficients() and .monomials() differ in order in multivariate polynomial rings
+ * http://trac.sagemath.org/sage_trac/ticket/1578: Make polynomial .diff() accept optional argument times for repeated differentiation.
+ * http://trac.sagemath.org/sage_trac/ticket/1593: m4ri -- the documentation of the echelon command only lists 1 algorithm but >= 2 algorithms are supported
  * http://trac.sagemath.org/sage_trac/ticket/1604: more locale problems with python exposed by matplotlib
  * http://trac.sagemath.org/sage_trac/ticket/1606: plotting -- add aspect_ratio option to show command
  * http://trac.sagemath.org/sage_trac/ticket/1617: speed problem when factoring polynoms
@@ -60,8 +57,7 @@ Many other people will hopefully participate, but didn't yet add themselves here
  * http://trac.sagemath.org/sage_trac/ticket/1793: Hilbert series, Hilbert polynomial, Laurent series expansion
  * http://trac.sagemath.org/sage_trac/ticket/1794: Gram-Schmidt typo
  * http://trac.sagemath.org/sage_trac/ticket/1795: Adds support for cdef'd and cpdef'd functions to sage-coverage
- * http://trac.sagemath.org/sage_trac/ticket/1804: Factorization.__mul__ assumes that the primes in the
-       factorization commute, which may not be a valid assumption
+ * http://trac.sagemath.org/sage_trac/ticket/1804: Factorization.__mul__ assumes that the primes in the factorization commute, which may not be a valid assumption
  * http://trac.sagemath.org/sage_trac/ticket/1805: improve doctest coverage for structure/factorization.py
  * http://trac.sagemath.org/sage_trac/ticket/1810: refactoring to improve finite field reference manual
  * http://trac.sagemath.org/sage_trac/ticket/1812: doctest coverage for finite_field_givaro up to 100%
@@ -82,7 +78,6 @@ Many other people will hopefully participate, but didn't yet add themselves here
  * http://trac.sagemath.org/sage_trac/ticket/1840: Hill cipher addition to crypto package
  * http://trac.sagemath.org/sage_trac/ticket/1843: cputime for gp interface
  * http://trac.sagemath.org/sage_trac/ticket/1844: Get doctest coverage in sage/modular/modform up to 100%
- * http://trac.sagemath.org/sage_trac/ticket/1845: list_plot3d should be able to accept lists of points in
-arbitrary positions
+ * http://trac.sagemath.org/sage_trac/ticket/1845: list_plot3d should be able to accept lists of points in arbitrary positions
  * http://trac.sagemath.org/sage_trac/ticket/1854: add more 3d plots to the reference manual
  * http://trac.sagemath.org/sage_trac/ticket/1856: 3d graphics -- bug in setting options via the show command
