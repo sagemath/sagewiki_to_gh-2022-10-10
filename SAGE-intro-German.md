@@ -9,13 +9,13 @@ Webseite: http://sagemath.org
 
 Sage beinhaltet diverse mathematische Open-Source Bibliotheken und bietet eine vereinheitlichte Schnittstelle zu ihnen an:
 
- * für kommutative '''Algebra''': ["Singular"]
- * '''Analysis''': ["Maxima"]
+ * für kommutative '''Algebra''': ["Singular"], ["PolyBoRi"]
+ * '''Analysis''': ["Maxima"], ["SymPy"]
  * '''Gruppentheorie''': ["GAP"]
  * Elliptische Kurven: John Cremona's ["MWRANK"] Bibliothek
  * '''Zahlentheorie''': ["PARI"], Shoup's Zahlentheorie Bibliothek ["NTL"]
  * '''Grafiken''': [:matplotlib:Matplotlib] (für 2D und 3D Graphiken), jmol (ein 3D Renderer)
- * Numerik:
+ * Numerik: ["NumPy"], ["SciPy"]
  * Intervallarithmetik: MPRI
  * Statistik: R
  * '''Graphentheorie''': NetworkX
