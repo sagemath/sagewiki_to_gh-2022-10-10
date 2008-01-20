@@ -16,3 +16,6 @@ Es gibt prinzipiell zwei Arten Sage zu starten: die Kommandozeile oder interakti
 {i} Hilfe: "./sage -h" gibt eine Liste von eventuell nützlichen Parametern aus.
 === Windows ===
  1. Hier müssen Sie Sage im virtuellen System de VMWare starten
+
+== Bedienung ==
+Zur Bedienung von Sage lesen Sie bitte: ["SAGE-Kurzreferenz-German"]
