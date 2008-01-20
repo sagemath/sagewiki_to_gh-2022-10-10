@@ -26,14 +26,13 @@ Las principales metas y principios de guía a largo plazo para SAGE son:
 
  * Eficiente: Estar muy rápidamente---comparable a o más rápidamente que todo lo demás disponibles. Esto es muy difícil, puesto que muchos sistemas son fuente cerrada, los algoritmos no se publica a veces, y encontrar algoritmos rápidos es a menudo extremadamente difícil (los años del trabajo, de las tesis de Ph.D., de la suerte, del etc.). 
 
- * Herramientas: Proporcionar los interfaces robustos a algo de la funcionalidad de PARI, de GAP, de GMP, de máximos, del SINGULAR, de MWRANK, y de NTL. Éstos son todos son GPL'd y SAGE proporciona (o proporcionará) un interfaz unificada para usarlos. 
+ * Herramientas: Proporcionar los interfaces robustos a algo de la funcionalidad de PARI, de GAP, de GMP, de máximos, del SINGULAR, de MWRANK, y de NTL. Éstos son todos GPL'd y SAGE proporciona (o proporcionará) una interfaz unificada para usarlos. 
 
- * Bien documentado: ¿Manual de referencia, clase particular, referencia del API con los ejemplos para cada función, y un extenso "cómo puede… ser construido en SAGE? “ documento.
+ * Bien documentado: ¿Manual de referencia, alguna clase en particular, referencia al API con los ejemplos para cada función, y un extenso "cómo puede… ser construido en SAGE? “ documento.
 
-Descarga SAGE, una guía de la instalación y una clase particular, de tu Web page 
-http://sage.scipy.org/. 
+Descarga SAGE, una guía de la instalación y una clase particular en http://sage.scipy.org/. 
 
-Aunque SAGE utiliza Python y PARI y otros paquetes, tener presente que no es necesario tener este software instalado previamente en la computadora. La instalación de SAGE realmente se diseña para ser relativamente sin dolor, pero si hay algunos problemas, pide por favor (el Web page tiene acoplamientos a las listas del email para la ayuda SABIA). Hay instrucciones de instalación en http://sage.scipy.org/sage/doc/html/inst/index.html. Por otra parte, si SAGE está instalado una vez, el aumento a la más nueva versión es especialmente fácil con la opción del comando de la “mejora” (esto se describe en el Web site dado arriba y asume que el wget está instalado y una conexión del Internet). 
+Aunque SAGE utiliza Python y PARI y otros paquetes, tener presente que no es necesario tener este software instalado previamente en la computadora. La instalación de SAGE realmente se diseña para ser relativamente sin dolor, pero si hay algunos problemas, pide por favor (el Web page tiene acoplamientos a las listas del email para la ayuda SABIA). Hay instrucciones de instalación en http://sage.scipy.org/sage/doc/html/inst/index.html. Por otra parte, si SAGE está instalado una vez, el aumento a la más nueva versión es especialmente fácil con la opción del comando de la “mejora” (esto se describe en el Web site dado arriba y asume que wget está instalado y una conexión  al Internet esta presente). 
 
 Una vez que SAGE esté instalado en un directorio tal como sage-x.y.z. en Linux, cd a este directorio y ejecute el comando "./sage" para comenzar SAGE y para exhibir el “sabio pronto SAGE: ”. Esto es unidireccional utilizar SAGE. Otra manera es ejecturar después en el “notebook(open_viewer=True)” en el aviso SAGE, que 
 (a) comienza el funcionamiento del servidor SAGE (que carga la hoja de trabajo previamente usada, si cualquiera) y 
