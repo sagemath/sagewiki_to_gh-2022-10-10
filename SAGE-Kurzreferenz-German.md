@@ -4,17 +4,13 @@ Sage folgt der Tradition aller CAS (Computer-Algebra-System) der zweiten Generat
 
 Eingaben werden im Notebook mit <Shift>-<Return> ausgeführt, in der Kommandozeile reicht ein <Return>.
 
+Im Notebook wird eine neue Zelle erstellt, indem vor oder nach bestehenden Zellen auf den blauen Balken geklickt wird. Eine Zelle wird gelöscht, indem der Inhalt gelöscht wird und dann die Rückwärtslöschen Taste betätigt wird.
+
 Beispiel:
 
- 1. {{{
-x = 5 
-}}}
-weist der Variablen x den Wert 5 zu }}}
- 1. {{{ x = 2*x
-}}}
- multipliziert 2 mit x und speichert dies wieder in x (dies ist also keine Gleichung (!) )
+ 1. x = 5 ... weist der Variablen x den Wert 5 zu
+ 1. x = 2*x ... multipliziert 2 mit x und speichert dies wieder in x (dies ist also keine Gleichung (!) )
  1. x gibt nun den Wert 10 aus.
-
 === Objekte ===
 Nachdem ein Objekt konstruiert wurde und in einer Variablen gespeichert ist, kann auf dieses und dessen assoziierten Funktionen mittels eines anschließenden Punktes zugegriffen werden.
 
@@ -35,4 +31,8 @@ Die Eingabe von Berechnungen wird vereinfacht, indem:
  * bei Variablen oder Objekten wird nach dem <Variablenname>.<Tab> eine Liste von möglichen Funktionen ausgegeben, oder
  * beide Möglichkeiten können kombiniert werden.
 == Befehlsreferenz ==
-Hier eine Übersicht besonders häufig benötigter Befehle.
+Eine Übersicht besonders häufig benötigter Befehle:
+
+=== Zahlentypen ===
+* ZZ = $\mathbb{Z}$
+* QQ = $\mathbb{Q}$
