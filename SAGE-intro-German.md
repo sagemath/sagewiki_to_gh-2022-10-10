@@ -3,19 +3,19 @@
 
 Sage beinhaltet diverse mathematische Open-Source Bibliotheken und bietet eine vereinheitlichte Schnittstelle zu ihnen an:
 
- * für kommutative Algebra: ["Singular"]
- * Gruppentheorie: ["GAP"]
+ * für kommutative '''Algebra''': ["Singular"]
+ * '''Analysis''': ["Maxima"]
+ * '''Gruppentheorie''': ["GAP"]
  * Elliptische Kurven: John Cremona's ["MWRANK"] Bibliothek
- * Zahlentheorie: ["PARI"], Shoup's Zahlentheorie Bibliothek ["NTL"]
- * Analysis: ["Maxima"]
- * Grafiken: [:matplotlib:Matplotlib] (für 2D und 3D Graphiken), jmol (ein 3D Renderer)
+ * '''Zahlentheorie''': ["PARI"], Shoup's Zahlentheorie Bibliothek ["NTL"]
+ * '''Grafiken''': [:matplotlib:Matplotlib] (für 2D und 3D Graphiken), jmol (ein 3D Renderer)
  * Numerik:
  * Intervallarithmetik: MPRI
  * Statistik: R
- * Graphen: NetworkX
+ * '''Graphentheorie''': NetworkX
 Die langfristigen Hauptziele und Prinzipien von Sage sind:
 
- * Open-Source: Der Quellcode muss frei einsehbar sein, so dass jeder Benutzer verstehen kann, was das System wirklich tut sowie die Möglichkeit hat, das System zu verändern. So wie Mathematiker ein tieferes Verständnis eines Theorems erlangen, indem sie einen Beweis sorgfältig lesen oder zumindest überfliegen, sollten Programmbenutzer verstehen können, wie Berechnungen zustande kommen, indem sie die kommentierten Quellen lesen. Alle Software, die im Kern von Sage mit Sage verbreitet wird, muss freie Software sein und Änderungen sowie die Weiterverbreitung des Codes muss erlaubt sein.
+ * '''Open-Source''': Der Quellcode muss frei einsehbar sein, so dass jeder Benutzer verstehen kann, was das System wirklich tut sowie die Möglichkeit hat, das System zu verändern. So wie Mathematiker ein tieferes Verständnis eines Theorems erlangen, indem sie einen Beweis sorgfältig lesen oder zumindest überfliegen, sollten Programmbenutzer verstehen können, wie Berechnungen zustande kommen, indem sie die kommentierten Quellen lesen. Alle Software, die im Kern von Sage mit Sage verbreitet wird, muss freie Software sein und Änderungen sowie die Weiterverbreitung des Codes muss erlaubt sein.
  * Ein gutes Programmierumfeld: Sage soll eine stabile Umgebung für neue mathematische Softwareprojekte bieten. Sage ist ein Software Entwicklungsmodell für die mathematische Gemeinschaft mit einer starken Betonung auf Offenheit und Zusammenarbeit.
  * Erweiterbar: Die Möglichkeit, neue Datentypen zu entwerfen, von bestehenden Datentypen zu erben und Code in anderen Programmiersprachen (z.B. C/C++), zum Teil des Systems machen zu können.
  * Benutzerfreundlich: Nutzern soll ein hohes Maß an Unterstützung geboten werden.
