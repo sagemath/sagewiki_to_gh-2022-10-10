@@ -45,21 +45,25 @@ Eine Übersicht besonders häufig benötigter Befehle:
 * oo = $\infty$
 
 === Ausdrücke ===
-* Operanden: +, -, *, /, sin, cos, tan, exp, sqrt, ...
+
+ * Operanden: +, -,
+ *, /, sin, cos, tan, exp, sqrt, ...
 
 === grundlegende Strukturen ===
-* Listen: [ a, b, ... ]
-* Reihen (Python: "sequence"): (a,b,c...) ... diese sind im Gegensatz zu Listen unveränderlich, mit zwei Elementen sind es "Tupel"
-* Mengen: {a, b, c, ...}
-* eine assoziative Liste: { 0: [1,2], 1: [2,1], 2: [0,1,3]}, 3: [1] } ... wobei dies hier bedeutet, dass das Element 0 mit 1 und 2 verbunden ist, 1 mit 2 und 1, usw. - diese wird zum Beispiel bei der Konstruktion von Graphen benötigt.
+
+ * Listen: [ a, b, ... ]
+ * Reihen (Python: "sequence"): (a,b,c...) ... diese sind im Gegensatz zu Listen unveränderlich, mit zwei Elementen sind es "Tupel"
+ * Mengen: {a, b, c, ...}
+ * eine assoziative Liste: { 0: [1,2], 1: [2,1], 2: [0,1,3]}, 3: [1] } ... wobei dies hier bedeutet, dass das Element 0 mit 1 und 2 verbunden ist, 1 mit 2 und 1, usw. - diese wird zum Beispiel bei der Konstruktion von Graphen benötigt.
 
 === grundlegende Funktionen ===
-* numerische Approximation: pi.n(digits=15) = 3.141592...
-* verallgemeinerte Funktion: lambda x: f(x)
-* Lösen von Gleichungen: solve(f(x)==0,x)
-* Grenzwert: limit(f(x),x=oo)
-* Differenzieren: diff(f(x),x)
-* Integrieren: integral(f(x),x) bzw. bestimmt von a bis b: integral(f(x),x,a,b)
+
+ * numerische Approximation: pi.n(digits=15) = 3.141592...
+ * verallgemeinerte Funktion: lambda x: f(x)
+ * Lösen von Gleichungen: solve(f(x)==0,x)
+ * Grenzwert: limit(f(x),x=oo)
+ * Differenzieren: diff(f(x),x)
+ * Integrieren: integral(f(x),x) bzw. bestimmt von a bis b: integral(f(x),x,a,b)
 
 Diese Funktionen können generell auch auf Ausdrücke in Form von Variablen wirken:
 Beispiel: wenn f eine Funktion ist, dann ist f.diff(x) exakt gleich wie diff(f,x)
