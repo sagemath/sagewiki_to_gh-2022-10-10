@@ -4180,6 +4180,25 @@ item4sale\.com
 hitop-mould\.com
 dghighcrown\.com
 junxingstone\.com
+adholes\.net
+bibliotecaitata\.com
+chapso\.de
+teamagazine\.com\.hk
+blogbox\.dk
+tunesonic\.com
+blogpager\.com
+casa-lavoro\.net
+chicodeguzman\.net
+designblog\.gr
+hartenergy\.com
+unicauca\.edu\.co
+isdev\.odg\.cc
+jshyx1985
+mode2testsite\.com
+mosentenem\.com
+myadulthosting\.net
+nosdivertimos\.com
+seniorsspace\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
