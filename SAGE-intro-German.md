@@ -1,6 +1,5 @@
 == Sage ist ein Softwarepaket für Mathematik ==
-[:SAGE:Sage] ist eine Distribution freier Mathematiksoftware, bestehend aus zahlreichen eingebundenen Paketen und umfasst  verschiedenste Themen der Mathematik.
-Außerdem ist es eine Schnittstelle zu bestehenden Computer Algebra Systemen und eine Python-Bibliothek zum Einbinden in andere Programme. Die Umsetzung geht auf eine Idee von ["William Stein"] und zahlreiche andere Mitwirkende aus der ganzen Welt zurück. Sage ist freie Software und ist unter den Bedingungen der GNU General Public License (GPL) verfügbar.
+[:SAGE:Sage] ist eine Distribution freier Mathematiksoftware, bestehend aus zahlreichen eingebundenen Paketen und umfasst  verschiedenste Themen der Mathematik. Außerdem ist es eine Schnittstelle zu bestehenden Computer Algebra Systemen und eine Python-Bibliothek zum Einbinden in andere Programme. Die Umsetzung geht auf eine Idee von ["William Stein"] und zahlreiche andere Mitwirkende aus der ganzen Welt zurück. Sage ist freie Software und ist unter den Bedingungen der GNU General Public License (GPL) verfügbar.
 
 Sage beinhaltet diverse mathematische Open-Source Bibliotheken und bietet eine vereinheitlichte Schnittstelle zu ihnen an:
 
@@ -29,7 +28,7 @@ Die langfristigen Hauptziele und Prinzipien von Sage sind:
 Sage, eine Installationsanleitung und das Tutorial können von der Sage Webseite unter http://sagemath.org/ heruntergeladen werden.
 
  . http://sagemath.org/
-(?) Für Hilfe und Fragen besuchen Sie bitte die Google groups sage-devel, sage-supprt oder sage-newbie. (!) Achtung, nur englischsprachig (!)
+{i} Für Hilfe und Fragen besuchen Sie bitte die Google groups sage-devel, sage-supprt oder sage-newbie. (!) Achtung, nur englischsprachig
 
 Anleitung zur Installation: ["SAGE-Kurzanleitung-German"]
 
