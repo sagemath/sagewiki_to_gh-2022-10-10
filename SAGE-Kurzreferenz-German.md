@@ -16,7 +16,7 @@ Da Sage eine Betonung auf algebraische Objekte hat, sind diese ähnlich wie in M
 === Konstanten ===
  
  * pi = $\pi$
- * e = $\e$
+ * e = $\mathbb{e}$
  * oo = $\infty$
 
 === Ausdrücke ===
