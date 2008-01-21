@@ -59,6 +59,8 @@ As mentioned in the invitation letters, we'd like participants to contribute ide
 
 == Images ==
 
+[:days7/misc_art: Miscellaneous Artwork]
+
 Right now, just some images I've (Robert M) got lying around, produced using Sage. Maybe for the t-shirts or something...
 
 attachment:bug.jpg
