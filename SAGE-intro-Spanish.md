@@ -4,11 +4,11 @@ See also [http://modular.math.washington.edu//home/wdj/expository/sage-intro-es.
 
 SAGE un programa matematico para la teoría del número, el álgebra, y el cómputo de la geometría. Su implementacion se debe a William Stein y mas de 50 contribuidores alrededor del mundo. Es fuente abierta y libremente disponible en conformidad con la licencia pública general del projecto GNU (GLP). SAGE es:
 
-  Una distribucion unificada de programas matematicos libres que simples mortales pueden construir desde su fuente.
+  * Una distribucion unificada de programas matematicos libres que simples mortales pueden construir desde su fuente.
 
-  Una libreria en Python para la computacion matematica con interfazes graficos e intérprete. 
+  * Una libreria en Python para la computacion matematica con interfaces graficos e intérprete. 
   
-  Un interfaz para actuales programas matematicos.
+  * Una interface para actuales programas matematicos.
 
 Esta escrito en Python, C++, y C (vía Pyrex). Python es un lenguaje de programacion fuente abierta orientada a la programacion orientada a objetos, con una gran cantidad de librerias, e.g., para el análisis numérico, que están disponibles para los usuarios de SAGE. Python puede también ser alcanzado en modo de la librerias de programas escritos en C/C++. 
 
