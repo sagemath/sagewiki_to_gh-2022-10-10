@@ -1,6 +1,6 @@
 See also [http://modular.math.washington.edu//home/wdj/expository/sage-intro-es.html]
 
-== Introducción corta a SAGE: Software para la experimentación de el álgebra y de la geometría ==
+== Introducción corta a SAGE ==
 
 SAGE un programa matematico para la teoría del número, el álgebra, y el cómputo de la geometría. Su implementacion se debe a William Stein y mas de 50 contribuidores alrededor del mundo. Es fuente abierta y libremente disponible en conformidad con la licencia pública general del projecto GNU (GLP). SAGE es:
 
