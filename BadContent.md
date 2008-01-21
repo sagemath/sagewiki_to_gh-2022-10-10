@@ -4199,6 +4199,34 @@ mosentenem\.com
 myadulthosting\.net
 nosdivertimos\.com
 seniorsspace\.com
+megasexblog\.com
+blogsdevenezuela\.com
+islablog\.com
+go-cms\.info
+sportsfanstv\.com
+worldswatches\.com
+myblog\.g89\.org
+evsblogs\.com
+blogs\.omanana\.net
+gayteenresources\.org
+blog\.medigo\.pl
+blog\.thai-z\.com
+3xblog\.ro
+jumpblog\.com
+blogs\.slis\.ua\.edu
+zteo\.com
+propertyblogging\.com
+tangotogether\.com
+my\.vipublog\.com
+htchx\.us
+horizonacademyblog\.com
+emeraldnova\.com
+monsterblogs\.net
+losblogs\.net
+blog\.cybercc\.sg
+mormonorgs\.com
+drumblogs\.com
+jshyx2003
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
