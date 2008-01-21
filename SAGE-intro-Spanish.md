@@ -16,7 +16,7 @@ SAGE proporcionará un interfaz unificada a varias importantes librerias fuente 
 
 Las principales metas y principios de guía a largo plazo para SAGE son: 
 
-* Liberar y abrir la fuente: El código de fuente debe ser libremente disponible y legible, de mode que los usuarios puedan entender lo que está haciendo el sistema realmente y ampliarlos más fácilmente. Apenas pues los matemáticos ganan una comprensión más profunda de un teorema cuidadosamente leyendo o por lo menos desnatando la prueba, la gente que hace cómputos debe poder entender cómo los cálculos trabajan por código de fuente documentado de lectura. Todo el software incluido en la distribución de SAGE debe ser fuente libre y abierta, y las modificaciones y la redistribución arbitrarias de cada sola línea deben ser permitidas. 
+ * Liberar y abrir la fuente: El código de fuente debe ser libremente disponible y legible, de mode que los usuarios puedan entender lo que está haciendo el sistema realmente y ampliarlos más fácilmente. Apenas pues los matemáticos ganan una comprensión más profunda de un teorema cuidadosamente leyendo o por lo menos desnatando la prueba, la gente que hace cómputos debe poder entender cómo los cálculos trabajan por código de fuente documentado de lectura. Todo el software incluido en la distribución de SAGE debe ser fuente libre y abierta, y las modificaciones y la redistribución arbitrarias de cada sola línea deben ser permitidas. 
 
  * Buen ambiente de programación: Se espera que el SAGE formará un ambiente estable para comenzar a programar nuevos proyectos de programas matemáticos. Debemos proporcionar un modelo para la comunidad de desarrollo de programas de matemática con un énfasis fuerte en franqueza, la comunidad, la cooperación, y la colaboración. 
 
