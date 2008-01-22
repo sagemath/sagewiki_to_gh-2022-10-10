@@ -4228,6 +4228,7 @@ mormonorgs\.com
 drumblogs\.com
 jshyx2003
 kxy\.cn
+free-download-firefox\.net
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
