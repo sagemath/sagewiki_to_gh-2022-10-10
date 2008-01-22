@@ -19,7 +19,7 @@ no  cddlib-094b STATUS: package created; should perhaps have dynamic library; PO
 yes clisp-2.41.p11
 no  conway_polynomials-0.2 STATUS: unpackaged.  I don't know where this should get installed.
 yes cvxopt-0.8.2.p4  [0.9-3]
-no  cython-0.9.6.8.b STATUS: packaged.; POSTED
+no  cython-0.9.6.8.b STATUS: packaged.; POSTED (also in Lenny)
 --  doc-2.8.12 STATUS: no progress
 yes ecm-6.1.3
 --  elliptic_curves-0.1 STATUS: no progress
