@@ -4230,6 +4230,8 @@ jshyx2003
 kxy\.cn
 free-download-firefox\.net
 byzxw\.com
+1573\.hk
+tiffanyin\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
