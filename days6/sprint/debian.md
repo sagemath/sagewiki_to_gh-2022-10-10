@@ -10,6 +10,8 @@ Tags:
 
 [OPT] ... this package is optional
 
+POSTED ... a debian/ directory is available in http://web.mit.edu/sage/www/debian-dirs/
+
 Debian status for packaging of SAGE:
 {{{
 - All new packages still need Copyright information, and a fixed changelog
