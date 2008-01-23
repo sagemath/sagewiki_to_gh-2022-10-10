@@ -39,6 +39,9 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * QUESTION: I am using Mac OSX. Where do I put the jsMath "font" directory to eliminate the red box?
  * ANSWER: See http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html where it says "For Mac OS X users: download and unpack the archive, then drag the fonts to your Library/Fonts folder (or to the FontBook, or just double-click them and press the "install" button).".
 ----------
+ * QUESTION: The show command for plotting 3D objecets does not work. 
+ * ANSWER: Since Sage 2.9.2 we have switched to using jmol, a Java applet, for 3D plotting. There are several possibilities for the cause of the malfunction: You do not have Java installed at all or the Java installed is an older GNU based alternative Java implementation, which causes some yet to determine problem. A solution to both issues is to either install Sun's Java SDK or to update the GNU based Java implementation. As of January 2008 Debian's Java in testing works, but stable does have problems.
+----------
  * QUESTION: May I use Sage tools in a commercial environment?
  * ANSWER: YES!  Absolutely!  Basically the *only* constraint is that if you make changes to Sage itself and redistribute this changed version of Sage publicly, then you must make these changes available to us so that we can put them into the standard version of Sage (if we want).   Otherwise, you'll free to use as many copies of Sage as you want completely for free to make money, etc., without paying any license fees at all.
 ----------
