@@ -19,7 +19,7 @@ python(4563) malloc: *** vm_allocate(size=4096000000) failed (error code=3)
 python(4563) malloc: *** error: can't allocate region
 python(4563) malloc: *** set a breakpoint in szone_error to debug
 }}}
- * ANSWER: The issue above isn't a doctest failure, it is an error message printed by the system and it is exactly what one expects to see in that particular doctest since we try to allocate a very large list in pari that doesn't fit into physical memory (it it at leasr 100GB in site). So OSX tells you that it couldn't allocate a chunk of memory roughly 4 GB in  size which is expected since Sage is still a 32 bit application on OSX.
+ * ANSWER: The issue above isn't a doctest failure, it is an error message printed by the system and it is exactly what one expects to see -- in that particular doctest, we try to allocate a very large list in Pari that doesn't fit into physical memory (it it at least 100GB in size). So OSX tells you that it couldn't allocate a chunk of memory roughly 4 GB in size, which is expected, since Sage is still a 32 bit application on OSX.
 ----------
  * QUESTION: Sage 2.9 and higher fails compiling ATLAS on Linux. How can I fix this?
  * ANSWER: The most likely cause is enabled power management. Disabling it should fix the problem. Depending on your flavor of distribution this might either be possible with some nice GUI tool or not. On the commandline do the following as {{{root}}} for each CPU you have: {{{/usr/bin/cpufreq-selector -g performance -c #number CPU}}}. On Ubuntu try disabling "Power Manager" via "System --> Preferences --> Sessions" under the "Startup Programs" or using {{{cpufreq-set}}} via command line.
@@ -31,7 +31,7 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * ANSWER: Try doing {{{sage: hg_scripts.merge()}}} followed by {{{sage: hg_scripts.commit()}}}. As an alternative, you can simply try {{{hg_scripts.pull()}}}.
 ----------
  * QUESTION: How do I run sage in daemon mode, i.e. as a service?
- * ANSWER: We currently do not have a ready-to-go soliution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://www.sagetrac.org/sage_trac/ticket/381 - so stay tuned.
+ * ANSWER: We currently do not have a ready-to-go solution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://www.sagetrac.org/sage_trac/ticket/381 - so stay tuned.
 ----------
  * QUESTION: I downloaded a Sage binary and it crashes on startup with {{{Illegal instruction}}}. What can I do?
  * ANSWER: The binaries have been built for a newer architecture than you have. We want to acquire an older machine and install a bunch of minimal Linux images on it for building Sage binaries to avoid this, but it hasn't happened  yet. One solution is to build from source. Another solution to have your distributions' ATLAS package installed. That package has to provide dynamic version of the ATLAS libaries from the 3.8 release. Then go into {{{$SAGE_LOCAL/lib}}} and delete {{{libatlas.*}}}, {{{libf77blas.*}}} and {{{libcblas.*}}}.  That needs to be repeated every time you update Sage.
@@ -42,14 +42,14 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * QUESTION: I am using Mac OSX. Where do I put the jsMath "font" directory to eliminate the red box?
  * ANSWER: See http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html where it says "For Mac OS X users: download and unpack the archive, then drag the fonts to your Library/Fonts folder (or to the FontBook, or just double-click them and press the "install" button).".
 ----------
- * QUESTION: The show command for plotting 3D objecets does not work. 
+ * QUESTION: The show command for plotting 3D objects does not work. 
  * ANSWER: Since Sage 2.9.2 we have switched to using jmol, a Java applet, for 3D plotting. There are several possibilities for the cause of the malfunction: You do not have Java installed at all or the Java installed is an older GNU based alternative Java implementation, which causes some yet to determine problem. A solution to both issues is to either install Sun's Java SDK or to update the GNU based Java implementation. As of January 2008 Debian's Java in testing works, but stable does have problems.
 ----------
  * QUESTION: May I use Sage tools in a commercial environment?
  * ANSWER: YES!  Absolutely!  Basically the *only* constraint is that if you make changes to Sage itself and redistribute this changed version of Sage publicly, then you must make these changes available to us so that we can put them into the standard version of Sage (if we want).   Otherwise, you'll free to use as many copies of Sage as you want completely for free to make money, etc., without paying any license fees at all.
 ----------
  * QUESTION: I want to write some Cython code that uses finite field arithmetic but {{{cimport sage.rings.finite_field_givaro}}} fails. What can I do?
- * ANSWER: You need to give hints to Sage so that it uses C++ (both Givaro and NTL are C++ libraries) and it also needs the GMP and STDC C++ libraries. Here is a small example:
+ * ANSWER: You need to give hints to Sage so that it uses C++ (both Givaro and NTL are C++ libraries), and it also needs the GMP and STDC C++ libraries. Here is a small example:
 
 {{{
 # These comments are hints to Sage/Pyrex about the compiler and
