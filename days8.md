@@ -41,7 +41,7 @@ Introduction
 
 The Sage_ and Scipy_ teams and `Enthought Inc.`_ are pleased to announce the
 first collaborative meeting for Sage/Scipy joint development, to be held from
-February 29 until March 4, 2007 at the Enthought headquarters in Austin, Texas.
+February 29 until March 4, 2008 at the Enthought headquarters in Austin, Texas.
 
 The purpose of this meeting is to gather developers for these projects in a
 friendly atmosphere for a few days of technical talks and active development
