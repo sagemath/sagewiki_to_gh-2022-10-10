@@ -4232,6 +4232,7 @@ free-download-firefox\.net
 byzxw\.com
 1573\.hk
 tiffanyin\.com
+all4kid\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
