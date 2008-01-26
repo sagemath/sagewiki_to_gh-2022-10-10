@@ -37,6 +37,8 @@ The following is ''tentative''.
 
  * 4:00 Stephen Hartke, UN Lincoln
 
+ * 5:00 William Stein, UW Seattle
+
  * evening: [:days7/sprints: coding sprints!]
 
 === Thu. Feb. 7 ===
