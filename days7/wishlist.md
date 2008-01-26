@@ -6,6 +6,8 @@ This wishlist should be a list of features, software, algorithms, databases, or 
 === Graphs ===
  * Applet / javascript for dragging/repositioning vertices
  * Edge-labeled isomorphism checking
+ * a nauty interface
+ * a graph category in Sage
  * Graphs on surfaces
 {{{
 From Robert Miller:
