@@ -21,6 +21,8 @@ The following is ''tentative''.
 
  * 4:00 Robert Bradshaw, UW Seattle
 
+ * evening: [:days7/sprints: coding sprints!]
+
 === Wed. Feb. 6 ===
 
  * 10:00 Nicolas Thiery, UC Davis
@@ -34,6 +36,8 @@ The following is ''tentative''.
  * 3:00 Andrey Novoseltsev, UW Seattle
 
  * 4:00 Stephen Hartke, UN Lincoln
+
+ * evening: [:days7/sprints: coding sprints!]
 
 === Thu. Feb. 7 ===
 
