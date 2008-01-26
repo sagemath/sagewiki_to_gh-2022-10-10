@@ -37,15 +37,15 @@ The following is ''tentative''.
 
 === Thu. Feb. 7 ===
 
- * coding sprints!
+ * [:days7/sprints: coding sprints!]
 
 === Fri. Feb. 8 ===
 
- * coding sprints!
+ * [:days7/sprints: coding sprints!]
 
 === Sat. Feb. 9 ===
 
- * coding sprints!
+ * [:days7/sprints: coding sprints!]
 
 == Description ==
 
