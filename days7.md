@@ -5,7 +5,47 @@ SD7 will be held Feb. 5-9, 2008. The conference is being hosted and funded by [h
 
 == Speakers & Schedule ==
 
-(coming soon!)
+The following is ''tentative''.
+
+=== Tue. Feb. 5 ===
+
+ * 10:00 Mike Hansen, MSRI
+
+ * 11:00 Peter Jipsen, Chapman
+
+ * Lunch break
+
+ * 2:00 Robert Miller, UW Seattle
+
+ * 3:00 Stephanie Vance, UW Seattle
+
+ * 4:00 Robert Bradshaw, UW Seattle
+
+=== Wed. Feb. 6 ===
+
+ * 10:00 Nicolas Thiery, UC Davis
+
+ * 11:00 Daniel Bump, Stanford
+
+ * Lunch break
+
+ * 2:00 Emily Kirkman, UW Seattle
+
+ * 3:00 Andrey Novoseltsev, UW Seattle
+
+ * 4:00 Stephen Hartke, UN Lincoln
+
+=== Thu. Feb. 7 ===
+
+ * coding sprints!
+
+=== Fri. Feb. 8 ===
+
+ * coding sprints!
+
+=== Sat. Feb. 9 ===
+
+ * coding sprints!
 
 == Description ==
 
