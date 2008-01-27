@@ -1,5 +1,6 @@
 = Sage/Scipy Days 8 at Enthought =
 == Connecting Pure Mathematics With Scientific Computation ==
+=== February 29 until March 4, 2008 at the Enthought headquarters in Austin, Texas ===
 
 
 ORGANIZERS:
