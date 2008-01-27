@@ -4251,6 +4251,8 @@ grasoftseo\.com
 mygamestock\.com
 rsgold-rsgold\.com
 kidmannicole\.com
+googlesoftware\.net
+accountsbay\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
