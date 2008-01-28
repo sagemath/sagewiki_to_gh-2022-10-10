@@ -4255,6 +4255,10 @@ googlesoftware\.net
 accountsbay\.com
 fangdaomen\.cc
 hbjinggong\.cn
+mj-net\.jp
+marucollet\.jp
+cashing-view\.com
+century-21\.co\.jp
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
