@@ -4253,6 +4253,8 @@ rsgold-rsgold\.com
 kidmannicole\.com
 googlesoftware\.net
 accountsbay\.com
+fangdaomen\.cc
+hbjinggong\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
