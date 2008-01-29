@@ -96,7 +96,7 @@ To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} 
 tells you more about the multiplicative unit element in the finite field.
 ----------
  * QUESTION: How do I make the VMware appliance for Windows automatically login as "sage"?
- * ANSWER: Follow http://ubuntu-utah.ubuntuforums.org/showthread.php?t=303319.  Short version: put in the file {{{/usr/local/autologin}}} the text
+ * ANSWER: Follow http://ubuntu-utah.ubuntuforums.org/showthread.php?t=303319.  Short version: put in the file {{{/usr/bin/autologin}}} the text
 
 {{{
 #! /bin/sh
@@ -112,7 +112,7 @@ respawn /sbin/getty 38400 tty1
 and add
 
 {{{
-respawn /sbin/getty -n -1 /usr/local/autologin 38400 tty1
+respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
 }}}
 
 Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
