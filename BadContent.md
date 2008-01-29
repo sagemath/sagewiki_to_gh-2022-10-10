@@ -4270,7 +4270,7 @@ goldcheapest\.com
 itemchannel\.com
 cn-chong\.com
 bjjhj\.com
-
+2artgallery\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
