@@ -112,7 +112,7 @@ respawn /sbin/getty 38400 tty1
 and add
 
 {{{
-respawn /sbin/getty -n -l /usr/bin/autologin 38400 tty1
+respawn /sbin/getty -n -l /usr/local/bin/autologin 38400 tty1
 }}}
 
 Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
