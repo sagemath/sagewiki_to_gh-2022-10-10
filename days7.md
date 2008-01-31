@@ -53,6 +53,8 @@ The following is ''tentative''.
 
  * [:days7/sprints: coding sprints!]
 
+ * Time TBA: wrapup session
+
 == Description ==
 
 {{{
