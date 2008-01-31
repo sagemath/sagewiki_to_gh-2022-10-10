@@ -2,6 +2,8 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
    
+  * [ A Spanish Article about Sage translated into English -- http://64.233.179.104/translate_c?hl=en&langpair=es%7Cen&u=http://emersonbrasilgomes.blogspot.com/2008/01/software-para-experimentao-geomtrica-e.html]
+
   * [http://www.tuxmachines.org/node/23678 PCLinuxOS Repositories now include SAGE Math]
  
   * Sage is mentioned in [http://www.math.rutgers.edu/~zeilberg/Opinion85.html Opinion 85: We Should Continue To Be Ambivalent Towards Ambiguity in Mathematics: It Sure Did Some Good, But It Also Did (and Does) Lots of Harm]
