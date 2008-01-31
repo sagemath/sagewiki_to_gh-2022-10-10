@@ -31,6 +31,8 @@ DanielBump: I have some C programs to draw rank crystal graphs to metapost for t
 
 It would be good if the operation of tensor product as described by Kashiwara and Nakashima, Journal of Algebra 165, were implemented for crystal graphs.
 
+MikeHansen: Anne Schilling will be at SD7 on the coding sprint days, and I plan to spend at least one of them focusing on crystals.
+
 === Posets ===
 
 == Algorithms ==
