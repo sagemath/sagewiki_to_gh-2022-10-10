@@ -23,7 +23,13 @@ See http://trac.sagemath.org/sage_trac/ticket/1322
 === Lie algebras ===
 KiranKedlaya: I'd like to be able to manipulate representations of Lie algebras. Here I'm thinking of representations as lists of highest weights (indicating irreducibles) with multiplicities. I'd like to be able to perform representation-theoretic operations (tensor products, exterior powers, symmetric powers, maybe other Schur functors) on such lists. This may be accomplished by wrapping LiE, which we currently provide as an optional spkg. (Some of this may also be provided by Symmetrica.) I plan to discuss this with Mike Hansen before and during the workshop.
 
+DanielBump: Perhaps representations of Lie algebras should be elements of a ring, the free abelian group on the set of irreducibles, with the multiplication being tensor product. In addition to the operations that Kiran listed, there should be branching rules, for example Br->Dr for common embeddings of Lie groups.
+
 === Crystal Graphs ===
+
+DanielBump: I have some C programs to draw rank crystal graphs to metapost for types A2 and B2, and Justin Walker ported the A2 program to Sage. At least for the rank 2 crystal graphs I believe that it is a good idea to draw the graph so that vertices contributing the same weight should be placed near each other. See http://match.stanford.edu/bump/xtal/
+
+It would be good if the operation of tensor product as described by Kashiwara and Nakashima, Journal of Algebra 165, were implemented for crystal graphs.
 
 === Posets ===
 
