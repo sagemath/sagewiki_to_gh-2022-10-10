@@ -1,7 +1,9 @@
 == Sage in the News and Blogs ==
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
-
+   
+  * [http://www.tuxmachines.org/node/23678 PCLinuxOS Repositories now include SAGE Math]
+ 
   * Sage is mentioned in [http://www.math.rutgers.edu/~zeilberg/Opinion85.html Opinion 85: We Should Continue To Be Ambivalent Towards Ambiguity in Mathematics: It Sure Did Some Good, But It Also Did (and Does) Lots of Harm]
 
   * Sage appears in the University of Washington's student newspaper, The Daily.
