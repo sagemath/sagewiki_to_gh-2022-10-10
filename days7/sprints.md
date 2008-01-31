@@ -6,3 +6,4 @@
    - Mike Hansen
  * Macdonald polynomials
    - Mike Hansen
+ * Guessing generating functions
