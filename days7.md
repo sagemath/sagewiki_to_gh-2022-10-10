@@ -86,6 +86,10 @@ The Westwood shuttle will take you to a parking lot that's part of the UCLA camp
 
 [http://www.ucla.edu/map/map.html]
 
+There is a campus shuttle from where the Westwood shuttle drops you off to close by the Portola Plaza building, if you don't feel like walking. A map is here:
+
+[http://www.transportation.ucla.edu/portal/maps/cemap/CEMAP.htm]
+
 === Walking directions from Lot 32 to IPAM: ===
 
 You'll be dropped off at Parking Structure 32 (in sector D8 on the map), and you're trying to get to IPAM in F4, which is labeled "Portola Plaza Building." Take Kinross east to Westwood, then turn left and take Westwood into campus. As Westwood dead-ends, there will be a stairway to the right; go up that and follow the street (Portola Plaza). IPAM will be ahead and slightly to your left.
