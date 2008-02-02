@@ -1,5 +1,8 @@
 = Sage FAQ: Frequently Asked Questions =
 ----------
+ * QUESTION: I created the file {{{SAGE_ROOT/devel/sage/sage/calculus/stokes.py}}}, and have changed my mind and want to completely delete it from Sage, but it keeps coming back (i.e. it is still importable) when I type {{{sage -br}}}.  What do I do?
+ * ANSWER: Delete both {{{SAGE_ROOT/devel/sage/build/sage/calculus/stokes.py}}} '''and''' {{{SAGE_ROOT/devel/sage/build/lib.*/sage/calculus/stokes.py}}}.
+----------
  * QUESTION: Does sage contain a function similar to Mathematica's ToCharacterCode[]? That is, I'd like to covert something like "Big Mac" to ascii numerals for further processing. Thanks
  * ANSWER: Yes, use {{{ord}}}, e.g., {{{map(ord,'abcde')}}} outputs {{{[97, 98, 99, 100, 101]}}}.
 ----------
