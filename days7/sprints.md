@@ -7,3 +7,7 @@
  * Macdonald polynomials
    - Mike Hansen
  * Guessing generating functions
+ * Graph Databases
+   - Emily Kirkman
+ * Embedding Graphs on Surfaces
+   - Emily Kirkman
