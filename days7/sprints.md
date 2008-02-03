@@ -4,8 +4,7 @@
    - Robert Miller
  * Crystals 
    - Mike Hansen
- * Macdonald polynomials
-   - Mike Hansen
+ * Xin's partial fraction algorithm
  * Guessing generating functions
  * Graph Databases
    - Emily Kirkman
