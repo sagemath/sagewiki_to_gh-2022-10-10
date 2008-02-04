@@ -78,25 +78,31 @@ Hotel info is [:days7/hotel: here].
 
 == Ground transportation ==
 
-Many people have asked us about travel to and from LAX. There are several options, of varying price and speed, but probably one of the best is the relatively new LAX Flyaway Shuttle:
+ * '''From the airport into Westwood'''
+ .    
+ . Many people have asked us about travel to and from LAX. There are several options, of varying price and speed, but probably one of the best is the relatively new LAX Flyaway Shuttle:
+ .    
+ . [http://www.lawa.org/lax/LAXflyAway.cfm]
+ .    
+ . The Westwood shuttle will take you to a parking lot that's part of the UCLA campus (though still a few minutes walk from the main part of the campus). A map with that parking lot, Hilgard House, and IPAM (which is labeled "Portola Plaza building") can be found here:
+ . 
+ . [http://www.ucla.edu/map/map.html]
+ . 
+ 
+ * '''From Lot 32 to IPAM, via shuttle'''
+ . 
+ . There is a campus shuttle from where the Westwood shuttle drops you off to close IPAM, if you don't feel like walking. A map is [http://www.transportation.ucla.edu/portal/maps/cemap/CEMAP.htm here], and more information on the shuttle can be found [http://map.ais.ucla.edu/portal/site/UCLA/menuitem.789d0eb6c76e7ef0d66b02ddf848344a/?vgnextoid=bd4aaad23985c010VgnVCM200000dd6643a4RCRD  here].
+ . 
 
-[http://www.lawa.org/lax/LAXflyAway.cfm]
+ * '''Walking directions from Lot 32 to IPAM'''
+ . 
+ . You'll be dropped off at Parking Structure 32 (in sector D8 on the map), and you're trying to get to IPAM in F4, which is labeled "Portola Plaza Building." Take Kinross east to Westwood, then turn left and take Westwood into campus. As Westwood dead-ends, there will be a stairway to the right; go up that and follow the street (Portola Plaza). IPAM will be ahead and slightly to your left.
+ . 
 
-The Westwood shuttle will take you to a parking lot that's part of the UCLA campus (though still a few minutes walk from the main part of the campus). A map with that parking lot, Hilgard House, and IPAM (which is labeled "Portola Plaza building") can be found here:
-
-[http://www.ucla.edu/map/map.html]
-
-There is a campus shuttle from where the Westwood shuttle drops you off to close by the Portola Plaza building, if you don't feel like walking. A map is here:
-
-[http://www.transportation.ucla.edu/portal/maps/cemap/CEMAP.htm]
-
-=== Walking directions from Lot 32 to IPAM: ===
-
-You'll be dropped off at Parking Structure 32 (in sector D8 on the map), and you're trying to get to IPAM in F4, which is labeled "Portola Plaza Building." Take Kinross east to Westwood, then turn left and take Westwood into campus. As Westwood dead-ends, there will be a stairway to the right; go up that and follow the street (Portola Plaza). IPAM will be ahead and slightly to your left.
-
-=== Walking directions from Lot 32 to Hilgard House: ===
-
-From Lot 32, walk east on Kinross Ave. Follow the road past Westwood Blvd, and it will bear right (just past Haagen-Dazs). Keep following it to the right, until it hits Lindbrook Dr. Make a left on Lindbrook Dr., follow it to Hilgard Ave (the next intersection), and make a left. Hilgard House is ahead on the left, at 927 Hilgard Ave. 
+ * '''Walking directions from Lot 32 to Hilgard House'''
+ .  
+ . From Lot 32, walk east on Kinross Ave. Follow the road past Westwood Blvd, and it will bear right (just past Haagen-Dazs). Keep following it to the right, until it hits Lindbrook Dr. Make a left on Lindbrook Dr., follow it to Hilgard Ave (the next intersection), and make a left. Hilgard House is ahead on the left, at 927 Hilgard Ave. 
+ . 
 
 == Organizers ==
 
