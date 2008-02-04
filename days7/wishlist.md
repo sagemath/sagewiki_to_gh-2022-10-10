@@ -1,5 +1,7 @@
 This wishlist should be a list of features, software, algorithms, databases, or anything else you'd like to see in Sage.
 
+Back to the [:days7: main conference page].
+
 == Features ==
 === Combinatorial Species ===
 === Infinite-dimensional polynomial rings ===
