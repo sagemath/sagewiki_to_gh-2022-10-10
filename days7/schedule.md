@@ -1,8 +1,8 @@
 == Speakers & Schedule ==
 
- Back [:days7: home]
+Back to the [:days7: main conference page].
 
- The following is ''tentative''.
+The following is ''tentative''.
 
 === Tue. Feb. 5 ===
 
