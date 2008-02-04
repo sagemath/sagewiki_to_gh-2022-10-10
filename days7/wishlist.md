@@ -5,6 +5,9 @@ Back to the [:days7: main conference page].
 == Features ==
 === Combinatorial Species ===
 === Infinite-dimensional polynomial rings ===
+
+NickAlexander: Along these lines, I would like to be able to view a polynomial ring {{{R[x]}}} as an additive abelian group or an {{{R}}}-module and define a linear operator on it.  This is my preferred way to think about the umbral calculus.
+
 === Graphs ===
  * Applet / javascript for dragging/repositioning vertices
  * Edge-labeled isomorphism checking
