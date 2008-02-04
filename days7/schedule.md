@@ -1,6 +1,8 @@
 == Speakers & Schedule ==
 
-The following is ''tentative''.
+ Back [:days7: home]
+
+ The following is ''tentative''.
 
 === Tue. Feb. 5 ===
 
