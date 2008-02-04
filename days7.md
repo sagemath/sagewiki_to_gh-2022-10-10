@@ -6,13 +6,13 @@
  * [:days7/sprints: Sprints]
  * [:days7/wishlist: Wishlist]
 
+== Speakers & Schedule ==
+
+The schedule is [:days7/schedule: here].
+
 == Dates & Location ==
 
 SD7 will be held Feb. 5-9, 2008. The conference is being hosted and funded by [http://www.ipam.ucla.edu IPAM], at UCLA.
-
-== Speakers & Schedule ==
-
- The schedule is [:days7/schedule: here].
 
 == Description ==
 
