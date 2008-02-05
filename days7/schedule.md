@@ -8,6 +8,8 @@ The following is ''tentative''.
 
  * 10:00 Mike Hansen, MSRI
 
+    . An Introduction to Sage Development
+
  * 11:00 Peter Jipsen, Chapman
 
  * Lunch break
