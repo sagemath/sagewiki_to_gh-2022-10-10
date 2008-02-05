@@ -39,6 +39,8 @@ Back to the [:days7: main conference page].
 
  * 3:00 Andrey Novoseltsev, UW Seattle
 
+    . PALP in SAGE 2
+
  * 4:00 Stephen Hartke, UN Lincoln
 
  * 5:00 William Stein, UW Seattle
