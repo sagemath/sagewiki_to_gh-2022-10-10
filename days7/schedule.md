@@ -10,7 +10,7 @@ Back to the [:days7: main conference page].
 
  * 11:00 Peter Jipsen, Chapman
 
-    . Enumerating Finite Structures
+    . [http://math.chapman.edu/~jipsen/talks/SageDays7Feb2008/JipsenSageDays7Feb2008slides.pdf Enumerating Finite Structures]
 
  * Lunch break
 
