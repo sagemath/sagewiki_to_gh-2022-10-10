@@ -22,7 +22,7 @@ Back to the [:days7: main conference page].
 
  * 4:00 Robert Bradshaw, UW Seattle
 
- * evening: [:days7/sprints: coding sprints!]
+ * 5:00 [:days7/sprints: coding sprints!]
 
 === Wed. Feb. 6 ===
 
