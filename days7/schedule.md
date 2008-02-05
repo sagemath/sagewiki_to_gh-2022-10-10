@@ -26,7 +26,7 @@ Back to the [:days7: main conference page].
 
 === Wed. Feb. 6 ===
 
- * 10:00 Nicolas Thiery, UC Davis
+ * 10:00 Nicolas Thiery, UC Davis / Univ. Paris Sud
 
     . *-Combinat; sharing algebraic combinatorics since 2000
 
