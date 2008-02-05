@@ -2,8 +2,6 @@
 
 Back to the [:days7: main conference page].
 
-The following is ''tentative''.
-
 === Tue. Feb. 5 ===
 
  * 10:00 Mike Hansen, MSRI
