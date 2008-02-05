@@ -28,6 +28,9 @@ Back to the [:days7: main conference page].
 
  * 10:00 Nicolas Thiery, UC Davis
 
+    . *-Combinat; sharing algebraic combinatorics since 2000
+
+
  * 11:00 Daniel Bump, Stanford
 
  * Lunch break
