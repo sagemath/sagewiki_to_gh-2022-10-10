@@ -12,6 +12,8 @@ The following is ''tentative''.
 
  * 11:00 Peter Jipsen, Chapman
 
+    . Enumerating Finite Structures
+
  * Lunch break
 
  * 2:00 Robert Miller, UW Seattle
