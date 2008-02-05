@@ -14,6 +14,8 @@ The following is ''tentative''.
 
  * 2:00 Robert Miller, UW Seattle
 
+    . [http://www.rlmiller.org/talks/generation.pdf Enumeration via Permutations]
+
  * 3:00 Stephanie Vance, UW Seattle
 
  * 4:00 Robert Bradshaw, UW Seattle
