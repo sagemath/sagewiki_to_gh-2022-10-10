@@ -7,7 +7,7 @@ Back to the [:days7: main conference page].
    * Nicolas Thiery
    * Pete Jipsen
    * Stephen Hartke
- * Edge labeled graph isomorphism
+ * Edge labeled graph isomorphism [http://trac.sagemath.org/sage_trac/ticket/1304 DONE]
    * Robert Miller
  * Crystals / Graph Visualization
    * Mike Hansen
