@@ -56,6 +56,7 @@ Back to the [:days7: main conference page].
    * David Roe
    * Mike Hansen
    * Nicolas Thiery
+   * Alex Ghitza
  * Linear Algebra -- Hermite Normal Form
    * Clement Pernet (chair)
    * Craig Citro (Jordan & Rational forms)
