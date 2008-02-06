@@ -1,10 +1,11 @@
-= [http://www.sagemath.org/ Sage] Days 7: Combinatorics =
+= Sage Days 7: Combinatorics =
 
 == Important Links ==
 
  * [:days7/schedule: Schedule]
  * [:days7/sprints: Sprints]
  * [:days7/wishlist: Wishlist]
+ * [http://www.sagemath.org/ Sage homepage]
 
 == Speakers & Schedule ==
 
