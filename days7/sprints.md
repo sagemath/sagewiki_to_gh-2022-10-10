@@ -4,6 +4,8 @@ Back to the [:days7: main conference page].
 
  * Canonical labeling for things other than graphs.
    * Robert Miller (chair), Nicolas Thiery, Pete Jipsen, Stephen Hartke
+ * Edge labeled graph isomorphism
+   * Robert Miller
  * Crystals / Graph Visualization
    * Mike Hansen, Justin Walker, Dan Bump, Nicolas Thiery, Anne Schilling (chair), Kiran Kedlaya, Tom Boothby
  * Xin's partial fraction algorithm
