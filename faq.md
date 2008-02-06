@@ -1,4 +1,14 @@
 = Sage FAQ: Frequently Asked Questions =
+
+----------
+ * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
+ * ANSWER: Redefine RealNumber to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, for example:
+{{{
+sage: from scipy import stats
+sage: RealNumber=float
+sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
+(array(0.076752955645333687), 0.940704902474)
+}}}
 ----------
  * QUESTION: I created the file {{{SAGE_ROOT/devel/sage/sage/calculus/stokes.py}}}, and have changed my mind and want to completely delete it from Sage, but it keeps coming back (i.e. it is still importable) when I type {{{sage -br}}}.  What do I do?
  * ANSWER: Delete both {{{SAGE_ROOT/devel/sage/build/sage/calculus/stokes.py}}} '''and''' {{{SAGE_ROOT/devel/sage/build/lib.*/sage/calculus/stokes.py}}}.
