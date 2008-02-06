@@ -7,6 +7,7 @@ Please report changes to the p-adics here.
  *   factory.py (7/10)
  *   padic_generic_element.pyx (7/10)
  *   padic_ZZ_pX_CR_element.pyx (5/10)
+  * two patches at http://trac.sagemath.org/sage_trac/ticket/1963
  *   padic_ZZ_pX_CA_element.pyx (5/10)
  *   padic_ZZ_pX_FM_element.pyx (5/10)
  *   padic_ZZ_pX_element.pyx (5/10)
