@@ -25,6 +25,7 @@ Back to the [:days7: main conference page].
  * Guessing generating functions (like gfun, maple, ...)
    * Nicolas Thiery (chair)
    * Mike Hansen
+   * Alex Ghitza
  * Graph Databases
    * Emily Kirkman (chair)
    * Jason Grout
