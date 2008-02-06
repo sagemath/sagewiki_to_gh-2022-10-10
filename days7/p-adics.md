@@ -2,6 +2,7 @@ Please report changes to the p-adics here.
 
  *   padic_printing.pyx (10/10)
  *   padic_capped_relative_element.pyx (8/10)
+  * checked out by CraigCitro
  *   padic_capped_absolute_element.pyx (8/10)
   * Checked out by robertwb
  *   padic_fixed_mod_element.pyx (8/10)
