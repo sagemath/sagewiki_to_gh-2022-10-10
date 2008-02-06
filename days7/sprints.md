@@ -121,13 +121,14 @@ Back to the [:days7: main conference page].
    * Pete Jipsen
    * Mike Hansen
    * David Roe
- * Sage testing system (parallel testings, '''REGRESSION TESTING''', removing extra "sage.:", etc)
+ * [:/testing: Sage testing system (parallel testings, '''REGRESSION TESTING''', removing extra "sage.:", etc)]
    * Nick Alexander
    * Mike Hansen
    * Mike Abshoff
    * Robert Miller
    * Tim Abbott
    * Nick Alexander is working on some system independent patches that will make it easier to integrate with nose, etc.  See him before doing major work.
+   * William Stein
  * Hierarchy of Hopf algebras, tensor products
    * Mike Hansen
    * Robert Miller
