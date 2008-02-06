@@ -13,6 +13,7 @@ Please report changes to the p-adics here.
  *   padic_ext_element.pyx (5/10)
  *   padic_extension_generic.py (5/10)
  *   local_generic.py (5/10)
+  *  Checked out by KiranKedlaya
  *   padic_generic.py (5/10)
  *   local_generic_element.pyx (4/10)
  *   padic_extension_leaves.py (4/10)
