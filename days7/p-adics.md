@@ -5,7 +5,7 @@ Please report changes to the p-adics here.
  *   padic_capped_relative_element.pyx (8/10)
   * checked out by CraigCitro
  *   padic_capped_absolute_element.pyx (8/10)
-  * patche at http://trac.sagemath.org/sage_trac/ticket/1963
+  * patch at http://trac.sagemath.org/sage_trac/ticket/1963
  *   padic_fixed_mod_element.pyx (8/10)
  *   factory.py (7/10)
  *   padic_generic_element.pyx (7/10)
