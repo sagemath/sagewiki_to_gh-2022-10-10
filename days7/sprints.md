@@ -5,55 +5,21 @@ Back to the [:days7: main conference page].
  * Canonical labeling for things other than graphs.
    * Robert Miller (chair), Nicolas Thiery, Pete Jipsen, Stephen Hartke
  * Crystals / Graph Visualization
-   * Mike Hansen
-   * Justin Walker
-   * Dan Bump
-   * Nicolas Thiery
-   * Anne Schilling (chair)
-   * Kiran Kedlaya
-   * Tom Boothby
+   * Mike Hansen, Justin Walker, Dan Bump, Nicolas Thiery, Anne Schilling (chair), Kiran Kedlaya, Tom Boothby
  * Xin's partial fraction algorithm
-   * Mike Hansen
-   * Gregg Musiker (chair)
-   * Jason Bandlow 
-   * Nicolas Thiery
-   * Alyson Deines
-   * Alex Ghitza
+   * Mike Hansen, Gregg Musiker (chair), Jason Bandlow, Nicolas Thiery, Alyson Deines, Alex Ghitza
  * Guessing generating functions (like gfun, maple, ...)
-   * Nicolas Thiery (chair)
-   * Mike Hansen
-   * Alex Ghitza
+   * Nicolas Thiery (chair), Mike Hansen, Alex Ghitza
  * Graph Databases
-   * Emily Kirkman (chair)
-   * Jason Grout
-   * Pete Jipsen
+   * Emily Kirkman (chair), Jason Grout, Pete Jipsen
  * Other Databases
-   * Pete Jipsen
-   * Robert Miller (chair)
-   * Emily Kirkman
-   * Andrey Novoseltsev (leaves Thurs)
-   * Mike Abshoff
+   * Pete Jipsen, Robert Miller (chair), Emily Kirkman, Andrey Novoseltsev (leaves Thurs), Mike Abshoff
  * Embedding Graphs on Surfaces (see talk Weds!!)
-   * Emily Kirkman (chair)
-   * Tom Boothby
-   * Robert Miller
+   * Emily Kirkman (chair), Tom Boothby, Robert Miller
  * Documentation 
-   * David Roe (p-adics)
-   * Mike Hansen
-   * Mike Abshoff (packaging, workflow)
-   * Craig Citro
-   * Robert Bradshaw
-   * Nick Alexander
-   * Jake Mitchell
-   * Alyson Deines
-   * Alex Ghitza
+   * David Roe (p-adics), Mike Hansen, Mike Abshoff (packaging, workflow), Craig Citro, Robert Bradshaw, Nick Alexander, Jake Mitchell, Alyson Deines, Alex Ghitza
  * Lattices and embeddings
-   * Stephanie Vance (chair) (until Thursday)
-   * Craig Citro (number-field related)
-   * David Roe
-   * Mike Hansen
-   * Nicolas Thiery
-   * Alex Ghitza
+   * Stephanie Vance (chair) (until Thursday), Craig Citro (number-field related), David Roe, Mike Hansen, Nicolas Thiery, Alex Ghitza
  * Linear Algebra -- Hermite Normal Form
    * Clement Pernet (chair), Craig Citro (Jordan & Rational forms), William Stein, Nicolas Thiery (relating to combinatorics), Franco Saliola, Gregg Musiker -- Smith normal form with rational function entries (think symbolic)
  * Debian Packaging
