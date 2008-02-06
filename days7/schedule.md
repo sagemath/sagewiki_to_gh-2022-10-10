@@ -53,6 +53,8 @@ Back to the [:days7: main conference page].
 
  * Databases workshop
 
+ * How to write good documentation
+
 === Fri. Feb. 8 ===
 
  * [:days7/sprints: coding sprints!]
