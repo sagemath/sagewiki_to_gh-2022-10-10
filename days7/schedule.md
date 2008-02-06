@@ -37,6 +37,8 @@ Back to the [:days7: main conference page].
 
  * 2:00 Emily Kirkman, UW Seattle
 
+    . [http://sage.math.washington.edu/home/ekirkman/talks/embedding.pdf Embedding Graphs on Surfaces]
+
  * 3:00 Andrey Novoseltsev, UW Seattle
 
     . PALP in SAGE 2
