@@ -19,6 +19,7 @@ Please report changes to the p-adics here.
  *   local_generic.py (5/10)
   *  Checked out by KiranKedlaya
  *   padic_generic.py (5/10)
+  *  Checked out by KiranKedlaya
  *   local_generic_element.pyx (4/10)
  *   padic_extension_leaves.py (4/10)
  *   pow_computer.pyx (4/10)
