@@ -26,7 +26,7 @@ Back to the [:days7: main conference page].
    * Clement Pernet (chair), Craig Citro (Jordan & Rational forms), William Stein, Nicolas Thiery (relating to combinatorics), Franco Saliola, Gregg Musiker -- Smith normal form with rational function entries (think symbolic), Justin Walker
  * Debian Packaging
    * Mike Abshoff, Tim Abbott, Franco Saliola 
- * Referee David Roe's patch ([:p-adics:discussion page])
+ * Referee David Roe's patch ([:days7/p-adics:discussion page])
    * Robert Bradshaw (chair), Kiran Kedlaya, Jen Balakrishnan, David Roe, Craig Citro
  * 3D graphics for polytopes and profiling
    * Andrey Novoseltsev (chair)
