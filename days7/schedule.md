@@ -28,7 +28,7 @@ Back to the [:days7: main conference page].
 
  * 10:00 Nicolas Thiery, UC Davis / Univ. Paris Sud
 
-    . [http://mupad-combinat.sf.net/#sage_days_7 *-Combinat; sharing algebraic combinatorics since 2000]
+    . [http://mupad-combinat.sourceforge.net/#sage_days_7 *-Combinat; sharing algebraic combinatorics since 2000]
 
 
  * 11:00 Daniel Bump, Stanford 
