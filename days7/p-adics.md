@@ -18,22 +18,22 @@ Please report changes to the p-adics here.
  *   padic_ext_element.pyx (5/10)
  *   padic_extension_generic.py (5/10)
  *   local_generic.py (5/10)
-  *  Checked out by KiranKedlaya
+  *  Touched by patch kedlaya1 at http://trac.sagemath.org/sage_trac/ticket/1963
  *   padic_generic.py (5/10)
-  *  Checked out by KiranKedlaya
+  *  Touched by patch kedlaya1 at http://trac.sagemath.org/sage_trac/ticket/1963
  *   local_generic_element.pyx (4/10)
  *   padic_extension_leaves.py (4/10)
  *   pow_computer.pyx (4/10)
  *   pow_computer_ext.pyx (4/10)
  *   eisenstein_extension_generic.py (3/10)
-   * Checked out by KiranKedlaya
+   * Touched by patch kedlaya1 at http://trac.sagemath.org/sage_trac/ticket/1963
  *   unramified_extension_generic.py (3/10)
-   * Checked out by KiranKedlaya
+   * Touched by patch kedlaya1 at http://trac.sagemath.org/sage_trac/ticket/1963
  *   padic_field_generic.py (2/10)
  *   padic_ring_generic.py (2/10)
  *   padic_base_generic_element.pyx (2/10)
  *   padic_base_generic.py (2/10)
-   * Checked out by KiranKedlaya
+   * Touched by patch kedlaya1 at http://trac.sagemath.org/sage_trac/ticket/1963
  *   padic_field_capped_relative.py (2/10)
  *   padic_printing_defaults.py (2/10)
   * See printing patches on ticket
