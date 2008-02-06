@@ -31,7 +31,10 @@ Back to the [:days7: main conference page].
     . *-Combinat; sharing algebraic combinatorics since 2000
 
 
- * 11:00 Daniel Bump, Stanford
+ * 11:00 Daniel Bump, Stanford 
+
+     . [http://match.stanford.edu/bump/sagedays.pdf Representation Theory Issues]
+
 
  * Lunch break
 
