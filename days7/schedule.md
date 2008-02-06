@@ -51,6 +51,8 @@ Back to the [:days7: main conference page].
 
  * [:days7/sprints: coding sprints!]
 
+ * Databases workshop
+
 === Fri. Feb. 8 ===
 
  * [:days7/sprints: coding sprints!]
