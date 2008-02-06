@@ -49,6 +49,7 @@ Back to the [:days7: main conference page].
    * Nick Alexander
    * Jake Mitchell
    * Alyson Deines
+   * Alex Ghitza
  * Lattices and embeddings
    * Stephanie Vance (chair) (until Thursday)
    * Craig Citro (number-field related)
