@@ -3,10 +3,7 @@
 Back to the [:days7: main conference page].
 
  * Canonical labeling for things other than graphs.
-   * Robert Miller (chair)
-   * Nicolas Thiery
-   * Pete Jipsen
-   * Stephen Hartke
+   * Robert Miller (chair), Nicolas Thiery, Pete Jipsen, Stephen Hartke
  * Crystals / Graph Visualization
    * Mike Hansen
    * Justin Walker
@@ -70,7 +67,7 @@ Back to the [:days7: main conference page].
  * Interfacing a C/C++ library to Sage via Cython
    * Mike Hansen, Stephen Hartke, Robert Bradshaw, David Roe, Clement Pernet, Robert Miller, Andrey Novoseltsev, Tom Boothby, Nicolas Thiery, Craig Citro, Emily Kirkman
  * How close is Sage to ready to use as a tool for a grad/undergrad combinatorics course? (Weds)
-   * Iftikhar Burhanuddin (chair), Nicolas Thiery, Jason Bandlow, Jake Mitchell, Stephen Hartke
+   * Iftikhar Burhanuddin (chair), Nicolas Thiery, Jason Bandlow, Jake Mitchell, Stephen Hartke, Alex Ghitza
  * Tableaux package cleanup
    * Jason Bandlow, Gregg Musiker, Mike Hansen, Francois Descouens, Nicolas Thiery
  * CombinatorialClass LEGO
