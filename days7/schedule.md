@@ -55,6 +55,8 @@ Back to the [:days7: main conference page].
 
  * Databases workshop
 
+    . [http://sage.math.washington.edu/home/ekirkman/talks/Database_Demo.sws Database Worksheet]
+
  * How to write good documentation
 
 === Fri. Feb. 8 ===
