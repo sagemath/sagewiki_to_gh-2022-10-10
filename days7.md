@@ -1,4 +1,4 @@
-= Sage Days 7: Combinatorics =
+= [http://www.sagemath.org/ Sage] Days 7: Combinatorics =
 
 == Important Links ==
 
