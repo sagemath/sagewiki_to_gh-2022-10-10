@@ -2,6 +2,10 @@
 
 Back to the [:days7: main conference page].
 
+ * Implement a Hermite Normal Form over ZZ that is faster than anything else in the world (e.g., Magma):
+   * Clement Pernet
+   * William Stein
+
  * Canonical labeling for things other than graphs.
    * Robert Miller (chair)
    * Nicolas Thiery
