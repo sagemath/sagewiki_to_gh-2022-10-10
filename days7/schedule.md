@@ -20,6 +20,8 @@ Back to the [:days7: main conference page].
 
  * 3:00 Stephanie Vance, UW Seattle
 
+    . [attachment:svance_sd7.pdf Lattices in Real, Complex and Quaternionic Vector Spaces]
+
  * 4:00 Robert Bradshaw, UW Seattle
 
  * 5:00 [:days7/sprints: coding sprints!]
