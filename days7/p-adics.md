@@ -33,6 +33,7 @@ Please report changes to the p-adics here.
  *   padic_ring_generic.py (2/10)
  *   padic_base_generic_element.pyx (2/10)
  *   padic_base_generic.py (2/10)
+   * Checked out by KiranKedlaya
  *   padic_field_capped_relative.py (2/10)
  *   padic_printing_defaults.py (2/10)
   * See printing patches on ticket
