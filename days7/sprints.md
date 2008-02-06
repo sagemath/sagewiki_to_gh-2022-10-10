@@ -58,11 +58,7 @@ Back to the [:days7: main conference page].
    * Nicolas Thiery
    * Alex Ghitza
  * Linear Algebra -- Hermite Normal Form
-   * Clement Pernet (chair)
-   * Craig Citro (Jordan & Rational forms)
-   * William Stein
-   * Nicolas Thiery (relating to combinatorics)
-   * Franco Saliola, Gregg Musiker -- Smith normal form with rational function entries (think symbolic)
+   * Clement Pernet (chair), Craig Citro (Jordan & Rational forms), William Stein, Nicolas Thiery (relating to combinatorics), Franco Saliola, Gregg Musiker -- Smith normal form with rational function entries (think symbolic)
  * Debian Packaging
    * Mike Abshoff, Tim Abbott, Franco Saliola 
  * Referee David Roe's patch
