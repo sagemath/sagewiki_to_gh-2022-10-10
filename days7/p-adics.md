@@ -24,6 +24,7 @@ Please report changes to the p-adics here.
  *   eisenstein_extension_generic.py (3/10)
    * Checked out by KiranKedlaya
  *   unramified_extension_generic.py (3/10)
+   * Checked out by KiranKedlaya
  *   padic_field_generic.py (2/10)
  *   padic_ring_generic.py (2/10)
  *   padic_base_generic_element.pyx (2/10)
