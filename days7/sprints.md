@@ -6,10 +6,10 @@ Back to the [:days7: main conference page].
    * Robert Miller
    * Nicolas Thiery
  * Crystals 
-   - Mike Hansen
+   * Mike Hansen
  * Xin's partial fraction algorithm
  * Guessing generating functions
  * Graph Databases
-   - Emily Kirkman
+   * Emily Kirkman
  * Embedding Graphs on Surfaces
-   - Emily Kirkman
+   * Emily Kirkman
