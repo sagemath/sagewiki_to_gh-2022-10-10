@@ -21,6 +21,7 @@ Back to the [:days7: main conference page].
    * Jason Bandlow 
    * Nicolas Thiery
    * Alyson Deines
+   * Alex Ghitza
  * Guessing generating functions (like gfun, maple, ...)
    * Nicolas Thiery (chair)
    * Mike Hansen
