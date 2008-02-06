@@ -10,7 +10,7 @@ NickAlexander: Along these lines, I would like to be able to view a polynomial r
 
 === Graphs ===
  * Applet / javascript for dragging/repositioning vertices
- * Edge-labeled isomorphism checking
+ * Edge-labeled isomorphism checking [http://trac.sagemath.org/sage_trac/ticket/1304 DONE]
  * a nauty interface
  * a graph category in Sage
  * Graphs on surfaces
