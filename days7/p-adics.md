@@ -19,6 +19,7 @@ Please report changes to the p-adics here.
  *   pow_computer.pyx (4/10)
  *   pow_computer_ext.pyx (4/10)
  *   eisenstein_extension_generic.py (3/10)
+   * Checked out by KiranKedlaya
  *   unramified_extension_generic.py (3/10)
  *   padic_field_generic.py (2/10)
  *   padic_ring_generic.py (2/10)
