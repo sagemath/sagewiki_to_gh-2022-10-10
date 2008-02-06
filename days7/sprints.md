@@ -31,7 +31,7 @@ Back to the [:days7: main conference page].
  * Profiling, making cython -a easier to use (?)
    * Robert Bradshaw, Craig Citro, Andrey Novoseltsev
  * Interfacing a C/C++ library to Sage via Cython
-   * Mike Hansen, Stephen Hartke, Robert Bradshaw, David Roe, Clement Pernet, Robert Miller, Andrey Novoseltsev, Tom Boothby, Nicolas Thiery, Craig Citro, Emily Kirkman
+   * Mike Hansen, Stephen Hartke, Robert Bradshaw, David Roe, Clement Pernet, Robert Miller, Andrey Novoseltsev, Tom Boothby, Nicolas Thiery, Craig Citro, Emily Kirkman, Tim Abbott
  * How close is Sage to ready to use as a tool for a grad/undergrad combinatorics course? (Weds)
    * Iftikhar Burhanuddin (chair), Nicolas Thiery, Jason Bandlow, Jake Mitchell, Stephen Hartke, Alex Ghitza
  * Tableaux package cleanup
@@ -41,7 +41,7 @@ Back to the [:days7: main conference page].
  * John Stembridge's POSETS package
    * Franco Saliola, Pete Jipsen, Mike Hansen, David Roe
  * Sage testing system (parallel testings, '''REGRESSION TESTING''', removing extra "sage.:", etc)
-   * Nick Alexander, Mike Hansen, Mike Abshoff, Robert Miller
+   * Nick Alexander, Mike Hansen, Mike Abshoff, Robert Miller, Tim Abbott
  * Hierarchy of Hopf algebras, tensor products
    * Mike Hansen, Robert Miller, Nicolas Thiery, David Roe, Robert Bradshaw
  * Hierarchy for combinatorial classes (several)
@@ -49,10 +49,10 @@ Back to the [:days7: main conference page].
  * Symmetrica build issues
    * Mike Abshoff, Mike Hansen
  * coercion -- work on leftovers from SD6
-   * David Roe, Robert Bradshaw, Nicolas Thiery
+   * David Roe, Robert Bradshaw, Nicolas Thiery, Tim Abbott
  * Coleman integration
    * Kiran Kedlaya, Robert Bradshaw, Jen Balakrishnan, David Roe
  * more cpdef
-   * Robert Miller, Robert Bradshaw
+   * Robert Miller, Robert Bradshaw, Tim Abbott
  * 2D pretty printing for combinatorial stuff (tableaux, etc)
    * Mike Hansen, Nicolas Thiery
