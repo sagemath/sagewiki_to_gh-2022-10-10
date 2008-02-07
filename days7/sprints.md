@@ -100,7 +100,7 @@ Back to the [:days7: main conference page].
    * Mike Hansen
    * Dan Bump
 
- * Debian Packaging
+ * Debian Packaging ([:days7/DebianPackagingSprint:discussion page])
    * Mike Abshoff
    * Tim Abbott (chair)
    * Franco Saliola 
