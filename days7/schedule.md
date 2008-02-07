@@ -26,6 +26,8 @@ Back to the [:days7: main conference page].
 
  * 5:00 [:days7/sprints: coding sprints!]
 
+[http://sage.math.washington.edu/home/burhanud/sd7/day1/ Pictures]
+
 === Wed. Feb. 6 ===
 
  * 10:00 Nicolas Thiery, UC Davis / Univ. Paris Sud
@@ -54,6 +56,8 @@ Back to the [:days7: main conference page].
  * 5:00 William Stein, UW Seattle
 
  * evening: [:days7/sprints: coding sprints!]
+
+[http://sage.math.washington.edu/home/burhanud/sd7/day2/ Pictures]
 
 === Thu. Feb. 7 ===
 
