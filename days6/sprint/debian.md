@@ -59,7 +59,7 @@ yes mercurial-0.9.5
 yes moin-1.5.7.p1
 yes mpfi-1.3.4-rc3.p9 [but old buggy version]
 yes mpfr-2.3.0p4 [yes]
-no  mwrank-20070913 STATUS: packaged; libmwrank lacks soname; POSTED
+no  mwrank-20070913 STATUS: packaged; libmwrank lacks soname; POSTED [replace by eclib]
 yes networkx-0.35.1  [same version]
 no  ntl-5.4.1.p6 STATUS: Should have doc package?  libntl lacks soname.; POSTED
 yes numpy-20070816
@@ -87,6 +87,13 @@ yes twisted-2.5.0.p8
 yes weave-0.4.9
 yes zlib-1.2.3.p2
 yes zodb3-3.7.0
+
+New spkgs since 2.8.12
+yes r-2.6.1.p14 [in Lenny]
+no eclib-20080127
+no polybori-0.1-r7
+no jmol-11.5.2.p0
+no libm4ri-20071224
 }}}
 
 I'm creating a new list below here with links to the packages in Debian:
