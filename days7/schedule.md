@@ -75,6 +75,8 @@ Back to the [:days7: main conference page].
 
  * 4:15-5:05 Kiran Kedlaya's talk, ''Effective Bounds for Solutions of p-adic Differential Equations'', MS 6627
 
+ * 5:30-6:00 Coding Sprint Status report at IPAM
+
 === Fri. Feb. 8 ===
 
  * [:days7/sprints: coding sprints!]
