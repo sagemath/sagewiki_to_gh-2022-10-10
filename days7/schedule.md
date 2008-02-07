@@ -67,6 +67,8 @@ Back to the [:days7: main conference page].
 
     . [http://sage.math.washington.edu/home/ekirkman/talks/Database_Demo.sws Database Worksheet]
 
+ * 12:30 Cython Session
+
  * How to write good documentation
 
  * 3-3:50 Alex Ghitza's talk, ''Computing Hecke eigensystems (mod p)'', Lakretz 101
