@@ -39,6 +39,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, 14 in total
  * content of examples directory: What to do with the code?
  * LIB -> lib - Singular related, move to lib/Singular
  * text files from $SAGE_ROOT: /usr/share/doc/sage
+ * create official Sage GPG key to sign packages
 
 == Package names ==
  
@@ -69,3 +70,5 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, 14 in total
  * restart approx service via "/etc/init.d/approx restart"
  * edit make-chroot and set $VG to volume group name or export VG
  * Now create change roots for various targets using make-chroot: Parameters $1 is SUITE (i.e. lenny), $2 is ARCH (i.e. i386)
+ * If things go wrong remove lvm group created :(
+ 
