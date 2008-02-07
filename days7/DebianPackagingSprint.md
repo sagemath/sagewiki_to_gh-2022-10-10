@@ -39,3 +39,16 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, 14 in total
  * content of examples directory: What to do with the code?
  * LIB -> lib - Singular related, move to lib/Singular
  * text files from $SAGE_ROOT: /usr/share/doc/sage
+
+== Package names ==
+ 
+ * libraries (for example NTL):
+  * ntl.dsc (the source source package), tarball with debian directory
+  * libntl0_5.4.deb (initial NTL version, i.e. "0", contains shared library) 
+  * libntl-dev.deb (headers & static libraries)
+ * binary (eclib)
+  * eclib.deb (binaries)
+  * libec0.deb (shared libraries)
+  * libec-dev.deb (headers & static libraries)
+ * Singular
+  * To be determined
