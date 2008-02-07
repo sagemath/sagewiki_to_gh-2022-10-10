@@ -49,6 +49,7 @@ Back to the [:days7: main conference page].
     . [http://sage.math.washington.edu/home/novoselt/talk-2008-02-06-PALPinSAGE2/PALPinSAGE2.pdf PALP in SAGE 2]
 
  * 4:00 Stephen Hartke, UN Lincoln
+    . [attachment:SAGE2008.pdf Computer Search in Graph Theory]
 
  * 5:00 William Stein, UW Seattle
 
