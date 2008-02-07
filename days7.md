@@ -6,6 +6,7 @@
  * [:days7/sprints: Sprints]
  * [:days7/wishlist: Wishlist]
  * [http://www.sagemath.org/ Sage homepage]
+ * [:days7/discussions: Discussions]
 
 == Speakers & Schedule ==
 
