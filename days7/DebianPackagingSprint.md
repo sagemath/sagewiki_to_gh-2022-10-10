@@ -61,4 +61,11 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, 14 in total
  * set up accounts for root and users as usual
  * update to lenny: edit /etc/apt/source and replace "etch" with "lenny"
  * "aptitude update"
- * "aptitude dist-upgrade" (wait a while :))
+ * "aptitude dist-upgrade" (wait a while :) )
+ * download Tim's script collection from the main Deb packaging page (add link), untar ...
+ * file "packages" contains list of packages needed for the build system
+ * aptitude install `cat packages` installs the packages listed in packages
+ * file "approx.conf.tail": append file to approx.conf
+ * restart approx service via "/etc/init.d/approx restart"
+ * edit make-chroot and set $VG to volume group name or export VG
+ * Now create change roots for various targets using make-chroot: Parameters $1 is SUITE (i.e. lenny), $2 is ARCH (i.e. i386)
