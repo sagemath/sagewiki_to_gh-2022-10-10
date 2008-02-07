@@ -100,7 +100,7 @@ Back to the [:days7: main conference page].
    * Mike Hansen
    * Dan Bump
 
- * Debian Packaging ([:days7/DebianPackagingSprint:discussion page])
+ * Debian Packaging ([:days7/DebianPackagingSprint:details & progress])
    * Mike Abshoff
    * Tim Abbott (chair)
    * Franco Saliola 
@@ -208,7 +208,7 @@ Back to the [:days7: main conference page].
    * Robert Miller
    * Jason Grout
 
- * Symmetrica build issues (in limbo?)
+ * Symmetrica build issues (discussed, changes will be made to symmetrica.spkg past SD7)
    * Mike Abshoff
    * Mike Hansen
 
