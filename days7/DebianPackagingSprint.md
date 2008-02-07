@@ -66,7 +66,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, 14 in total
  * download Tim's script collection from the main Deb packaging page (add link), untar ...
  * file "packages" contains list of packages needed for the build system
  * aptitude install `cat packages` installs the packages listed in packages
- * file "approx.conf.tail": append file to approx.conf
+ * file "approx.conf.tail": append file to approx.conf - make sure to set a fast mirror, i.e. not the MIT repo
  * restart approx service via "/etc/init.d/approx restart"
  * edit make-chroot and set $VG to volume group name or export VG
  * Now create change roots for various targets using make-chroot: Parameters $1 is SUITE (i.e. lenny), $2 is ARCH (i.e. i386)
