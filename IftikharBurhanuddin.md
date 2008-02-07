@@ -1,6 +1,6 @@
-I am a SAGEvangelist and a graduate student at the University of Southern California but my days are numbered --- as a student.
+I am a SAGEvangelist and an Assistant Adjunct Professor at UCLA.
 
-  http://www-scf.usc.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
+  http://www.math.ucla.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
 
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
