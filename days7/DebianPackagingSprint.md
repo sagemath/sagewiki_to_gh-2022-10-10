@@ -1,0 +1,41 @@
+== Debian release to support ==
+
+sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, 14 in total:
+
+ * Untuntu LTS
+ * last two ubuntu releases
+ * >=etch
+
+== Make check ==
+ * use schroot to run "make check"
+
+== Problematic Packages ==
+
+ * ATLAS  (atlas-sage-x.y or version bump)
+ * Python (python-sage-x.y or version bump)
+ * jmol - potential conflict with gcj in stable (testing an above fine)
+ * Maxima: copies mgnuplot script to libexec (Maxima is already in Debian)
+
+== Changelog ==
+
+ * needs to be kept in sync with SPKG.txt (automated mechanism)
+ * dch (Debian changelog)
+
+== Initially ==
+ * webserver for static only content
+ * set up apt-get repo on $SAGE.MATH
+ * To set up repo: reprpro + gpg key for signing
+ * domain: mabye "debian.sagemath.org"
+
+== Problem to be solved ==
+
+ * Install location: /usr/share/sage/ - "sage" script in bin does cd and 
+   then execute the appropriate sage scipt in /usr/share/sage/
+ * location of tmp, i.e. $TMP, /tmp or /var/tmp, not $SAGE_ROOT/tmp
+ * SAGE_ROOT/ipython - why is it there. What is the content (config files?)
+ * databases in $SAGE_ROOT/data -> /use/share/sage/data
+ * spkg directory: gone or moved to sage-dev.deb
+ * make distclean: remove "*.c", "*.so", "*.os" in /devel/sage/
+ * content of examples directory: What to do with the code?
+ * LIB -> lib - Singular related, move to lib/Singular
+ * text files from $SAGE_ROOT: /usr/share/doc/sage
