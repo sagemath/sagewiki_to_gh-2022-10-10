@@ -1,0 +1,44 @@
+# HG changeset patch
+# User Robert L. Miller <rlm@rlmiller.org>
+# Date 1202416167 28800
+# Node ID b54a0c111dea412221f829339add9b27e94ed1f6
+# Parent  7994ac1af415700517c8e95a384df1e2c2ca611b
+Toy example of making a cython extension to Sage.
+
+diff -r 7994ac1af415 -r b54a0c111dea sage/hello_world/__init__.py
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/sage/hello_world/__init__.py	Thu Feb 07 12:29:27 2008 -0800
+@@ -0,0 +1,1 @@
++
+diff -r 7994ac1af415 -r b54a0c111dea sage/hello_world/hello.pyx
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/sage/hello_world/hello.pyx	Thu Feb 07 12:29:27 2008 -0800
+@@ -0,0 +1,5 @@
++def foo():
++    cdef int i, j = 0
++    for i from 0 <= i < 10:
++        j += i
++    print "Hello, %d"%j
+diff -r 7994ac1af415 -r b54a0c111dea setup.py
+--- a/setup.py	Sat Feb 02 17:52:45 2008 -0800
++++ b/setup.py	Thu Feb 07 12:29:27 2008 -0800
+@@ -877,6 +877,10 @@ ext_modules = [ \
+               ['sage/graphs/graph_isom.pyx']
+               ), \
+ 
++    Extension('sage.hello_world.hello',
++              ['sage/hello_world/hello.pyx']
++              ), \
++
+     Extension('sage.graphs.bruhat_sn',
+               ['sage/graphs/bruhat_sn.pyx']
+               ), \
+@@ -1162,6 +1166,8 @@ code = setup(name        = 'sage',
+                      
+                      'sage.graphs',
+                      
++                     'sage.hello_world',
++                     
+                      'sage.groups',
+                      'sage.groups.abelian_gps',
+                      'sage.groups.matrix_gps',
