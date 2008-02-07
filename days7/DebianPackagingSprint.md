@@ -74,6 +74,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * If things go wrong remove lvm group created :(
  * download Tim's other script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarballs for now)], untar into /usr/local/bin ...
  * export DEBATHENA_APT=(path to SAGE apt repository)
+ * adduser sage sbuild (where sage is a user you want to be able to do builds)
 
 == Using the chroot environments ==
  * FIXME
