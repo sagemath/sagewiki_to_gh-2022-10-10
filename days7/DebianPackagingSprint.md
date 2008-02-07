@@ -52,3 +52,10 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, 14 in total
   * libec-dev.deb (headers & static libraries)
  * Singular
   * To be determined
+
+== Setting up the build system (In Detail) ==
+
+ * Start setup
+ * Partitioning method: "Guided - use entire disk and set up LVM" - accept defaults and write LVM init to disk
+ * delete original main LVM volume, create new VG, say with 10GB
+ * set up accounts for root and users as usual
