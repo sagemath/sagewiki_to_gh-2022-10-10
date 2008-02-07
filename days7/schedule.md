@@ -65,6 +65,12 @@ Back to the [:days7: main conference page].
 
  * How to write good documentation
 
+ * 3-3:50 Alex Ghitza's talk, Computing Hecke eigensystems (mod p), Lakretz 101
+
+ * 4-4:15 Tea at the math department, Math department lounge
+
+ * 4:15-5:05 Kiran Kedlaya's talk, Effective Bounds for Solutions of p-adic Differential Equations, MS 6627
+
 === Fri. Feb. 8 ===
 
  * [:days7/sprints: coding sprints!]
