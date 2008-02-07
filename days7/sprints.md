@@ -125,7 +125,7 @@ Back to the [:days7: main conference page].
    * Pete Jipsen
    * Mike Hansen
    * David Roe
- * [:/testing: Sage testing system (parallel testings, '''REGRESSION TESTING''', removing extra "sage.:", etc)]
+ * [:/testing: Sage testing system (parallel testings, regression testing, removing extra "sage.:", etc)]
    * Nick Alexander
    * Mike Hansen
    * Mike Abshoff
