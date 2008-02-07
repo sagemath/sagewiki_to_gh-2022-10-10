@@ -124,6 +124,9 @@ Back to the [:days7: main conference page].
    * William Stein
 
  * Interfacing a C/C++ library to Sage via Cython
+     .
+     . [attachment:cython_demo.patch Hello world example of a new Cython extension of Sage]
+     .
    * Mike Hansen
    * Stephen Hartke
    * Robert Bradshaw
