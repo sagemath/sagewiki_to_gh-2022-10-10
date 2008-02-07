@@ -75,6 +75,9 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * download Tim's other script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarballs for now)], untar into /usr/local/bin ...
  * export DEBATHENA_APT=(path to SAGE apt repository)
 
+== Using the chroot environments ==
+ * FIXME
+
 == To actually do builds ==
  * get SAGE .spkg and unpack into DIR
  * copy debian directory into $DIR/src
