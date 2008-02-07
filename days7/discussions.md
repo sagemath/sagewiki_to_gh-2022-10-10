@@ -12,5 +12,5 @@ This criteria is for ''acceptance'' of standard packages, not the criteria for c
   1. Maintainable
  1. Interest and Demand:
   1. JSAGE vote
-  1. sage-devel +1 votes (and sage-support votes)
+  1. A certain number of sage-devel +1 votes (and sage-support votes)
   1. How many downloads of the optional package
