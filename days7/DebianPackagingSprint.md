@@ -64,7 +64,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * update to lenny: edit /etc/apt/source and replace "etch" with "lenny"
  * "aptitude update"
  * "aptitude dist-upgrade" (wait a while :) )
- * download Tim's script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarball here for now)], untar ...
+ * download Tim's script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarballs here for now)], untar ...
  * file "packages" contains list of packages needed for the build system
  * aptitude install `cat packages` installs the packages listed in packages
  * file "approx.conf.tail": append file to approx.conf - make sure to set a fast mirror, i.e. not the MIT repo
@@ -72,4 +72,13 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * edit make-chroot and set $VG to volume group name or export VG
  * Now create change roots for various targets using make-chroot: Parameters $1 is SUITE (i.e. lenny), $2 is ARCH (i.e. i386)
  * If things go wrong remove lvm group created :(
- 
+ * download Tim's other script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarballs for now)], untar into /usr/local/bin ...
+ * export DEBATHENA_APT=(path to SAGE apt repository)
+
+== To actually do builds ==
+ * get SAGE .spkg and unpack into DIR
+ * copy debian directory into $DIR/src
+ * build source package using debuild -S from inside package directory ($DIR/src)
+ * build binary packages using "da sbuildhack [resulting .dsc file]" from $DIR
+ * upload into SAGE repository using "daupload-release [resulting .changes file]" from $DIR
+ * use clean-schroots whenever you run out of disk space due to stale build chroots (often get leaked when you do ^C during a build)
