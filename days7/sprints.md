@@ -52,6 +52,7 @@ Back to the [:days7: main conference page].
      . 
      . dinner Weds
      . 
+   * [http://sage.math.washington.edu/home/ekirkman/embeddings_improvements.hg Current Bundle]
    * Emily Kirkman (chair)
    * Tom Boothby
    * Robert Miller
