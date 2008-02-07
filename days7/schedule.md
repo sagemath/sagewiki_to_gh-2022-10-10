@@ -67,7 +67,7 @@ Back to the [:days7: main conference page].
 
     . [http://sage.math.washington.edu/home/ekirkman/talks/Database_Demo.sws Database Worksheet]
 
- * 12:30 Cython Session
+ * 1:00 Cython Session
 
  * How to write good documentation
 
