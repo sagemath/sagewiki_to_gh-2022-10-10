@@ -46,7 +46,7 @@ Back to the [:days7: main conference page].
 
  * 3:00 Andrey Novoseltsev, UW Seattle
 
-    . PALP in SAGE 2
+    . [http://sage.math.washington.edu/home/novoselt/talk-2008-02-06-PALPinSAGE2/PALPinSAGE2.pdf PALP in SAGE 2]
 
  * 4:00 Stephen Hartke, UN Lincoln
 
