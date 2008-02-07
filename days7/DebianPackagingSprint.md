@@ -59,3 +59,6 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, 14 in total
  * Partitioning method: "Guided - use entire disk and set up LVM" - accept defaults and write LVM init to disk
  * delete original main LVM volume, create new VG, say with 10GB
  * set up accounts for root and users as usual
+ * update to lenny: edit /etc/apt/source and replace "etch" with "lenny"
+ * "aptitude update"
+ * "aptitude dist-upgrade" (wait a while :))
