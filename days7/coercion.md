@@ -23,7 +23,19 @@
        * The existence or non-existence of a coercion map is cached both in self and elsewhere.  Because parents must be immutable, the return value of this function is constant over time.
    *     Advanced Users May Implement
      *       {{{_coercion_from_}}} (cpdef) (called by {{{coercion_from}}})
+       *     Overriding this function provides the ability to specify canonical morphisms to fit into the coercion model.
+       *     It takes one argument P, the parent you're coercing from.
+       *     It should return a morphism from P to self.  This morphism should be canonical, though deterministic arbitrary choices may be allowed.  One example of this is the "natural" embedding of symmetric groups.  For a more detailed discussion of what makes a map canonical in this sense, see elsewhere.
+       *     You MUST return an object of type Morphism, or None.
+       *     The default functionality that you're replacing is: use {{{has_ceorcion_from}}} to see if a coercion exists and if so create a morphism that calls {{{self._element_class}}}'s {{{__init__}}} method.
+       *     If you override this method, you need to handle all possibilities for P (though you can handle a few and then call {{{Parent._coercion_from_(self, P)}}}).
      *       {{{_conversion_from_}}} (cpdef) (called by {{{conversion_from}}})
+       *     Overriding this function provides the ability to specify conversion morphisms.  These are the morphisms that convert elements from one parent to another, possibly non-canonically.
+       *     It takes one argument P, the parent you're converting from.
+       *     It should return a morphism from P to self.  This morphism need not be canonical.
+       *     You MUST return an object of type Morphism, or None.
+       *     The default functionality that you're replacing is: create and return a morphism that calls {{{self._element_class}}}'s {{{__init__}}} method.
+       *     If you override this method, you need to handle all possibilities for P (though you can handle a few and then call {{{Parent._conversion_from_(self, P)}}}).
      *       {{{_action_on_}}} (cpdef) (called by {{{get_action}}})
      *       {{{_action_by_}}} (cpdef) (called by {{{get_action}}})
      *       {{{_populate_coercion_lists_}}} (cpdef) (should only be called in YOUR {{{__init__}}} method)
