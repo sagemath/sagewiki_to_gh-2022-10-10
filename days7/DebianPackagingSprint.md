@@ -25,7 +25,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * webserver for static only content
  * set up apt-get repo on $SAGE.MATH
  * To set up repo: reprpro + gpg key for signing
- * domain: maybe "debian.sagemath.org" or "sagemath.org/debian"
+ * domain: http://debian.sagemath.org registered, still points at sagemath.org, needs vhost to be set up
 
 == Problem to be solved ==
 
