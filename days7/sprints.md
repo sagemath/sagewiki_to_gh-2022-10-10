@@ -145,7 +145,7 @@ Back to the [:days7: main conference page].
    * Emily Kirkman
    * Tim Abbott
 
- * How close is Sage to ready to use as a tool for a grad/undergrad combinatorics course? (Weds) 10AM Thursday
+ * How close is Sage to ready to use as a tool for a grad/undergrad combinatorics course? (Weds) 10AM Thursday ([:days7/p-adics:discussion page])
       . 
       . Make a quick reference card a la Jipsen
       . 
