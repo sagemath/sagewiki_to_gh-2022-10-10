@@ -84,7 +84,7 @@ sage: time e = a.echelon_form(algorithm='pari')
 CPU times: user 466.90 s, sys: 12.86 s, total: 479.76 s
 }}}
 
-MAGMA:
+MAGMA (amazingly fast):
 {{{
 sage: a = random_matrix(ZZ,200,x=-2^32,y=2^32)
 sage: m = magma(a)
@@ -92,4 +92,14 @@ sage: t = magma.cputime()
 sage: w = m.HermiteForm()
 sage: magma.cputime(t)
 10.33
+}}}
+
+MATHEMATICA (shockingly slow!):
+{{{
+sage: mathematica.eval('a = Table[RandomInteger[{-2^32,2^32}], {i,200}, {j,200}];')
+
+sage: time mathematica.eval('Timing[HermiteDecomposition[a];]')
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 1376.37
+        {1366.7, Null}
 }}}
