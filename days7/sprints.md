@@ -2,6 +2,21 @@
 
 Back to the [:days7: main conference page].
 
+ * [:/linalg: Linear Algebra -- Hermite Normal Form]
+     .
+     . Implement a Hermite Normal Form over ZZ that is faster than anything else in the world (e.g., Magma). Also, implement quotients of free modules over ZZ.
+     .
+     . Completely re-implement abelian groups. From scratch.
+     . 
+   * Clement Pernet (chair)
+   * Craig Citro (Jordan & Rational forms)
+   * William Stein
+   * Nicolas Thiery (relating to combinatorics)
+   * Franco Saliola
+   * Gregg Musiker -- Smith normal form with rational function entries (think symbolic)
+   * Justin Walker
+
+
  * Canonical labeling for things other than graphs.
    * Robert Miller (chair)
    * Nicolas Thiery
@@ -77,19 +92,7 @@ Back to the [:days7: main conference page].
    * Nicolas Thiery
    * Alex Ghitza
 
- * Linear Algebra -- Hermite Normal Form
-     .
-     . Implement a Hermite Normal Form over ZZ that is faster than anything else in the world (e.g., Magma). Also, implement quotients of free modules over ZZ.
-     .
-     . Completely re-implement abelian groups. From scratch.
-     . 
-   * Clement Pernet (chair)
-   * Craig Citro (Jordan & Rational forms)
-   * William Stein
-   * Nicolas Thiery (relating to combinatorics)
-   * Franco Saliola
-   * Gregg Musiker -- Smith normal form with rational function entries (think symbolic)
-   * Justin Walker
+
  
  * Modules indexed by Combinatorial classes  
      . 
