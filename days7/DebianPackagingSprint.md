@@ -92,13 +92,10 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * upload into SAGE repository using "daupload-release [resulting .changes file]" from $DIR
  * use clean-schroots whenever you run out of disk space due to stale build chroots (often get leaked when you do ^C during a build)
 
-
  * autotools-dev, m4 (should be added to the dependencies - if they aren't)
 
- * using sbuildhack:
-   Setup:
-    adduser $USER sbuild [make sure user is in right group]
-   /etc/sbuild/sbuild.conf:
+ * using sbuildhack  - setup: adduser $USER sbuild [make sure user is in right group]
+ * {{{/etc/sbuild/sbuild.conf}}}:
       * set mailto, maintainer, etc...
       * uncomment '$sbuild_mode = "user";'
 
@@ -107,12 +104,12 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
    sbuildhack lenny-i386 valgrind-3.3.0-1.dsc
 
  * Building a Debian package:
-   * set env variable DEBIANRELEASE to "lenny-i386" [building deb in schroot env]
-   * set env variable USEDEB to "yes": first try to sudo apt-get install $SPKG.deb
-   * sage-spkg: check if USEDEB and DEBIANRELEASE is set: if spkg-debian exists in $SPKG_ROOT execute it, otherwise do default sbuildhack - see http://trac.sagemath.org/sage_trac/ticket/2098 for patch
+   * set env variable {{{DEBIANRELEASE}}} to "lenny-i386" [building deb in schroot env]
+   * set env variable {{{USEDEB}}} to "yes": first try to sudo apt-get install {{{$SPKG.deb}}}
+   * sage-spkg: check if {{{USEDEB}}} and {{{DEBIANRELEASE}}} is set: if spkg-debian exists in {{{$SPKG_ROOT}}} execute it, otherwise do default sbuildhack - see http://trac.sagemath.org/sage_trac/ticket/2098 for patch
 
 
 == Structure for dist-specific build systems ==
 
- $SPKG_ROOT/src
- $SPKG_ROOT/dist/$NAME
+ {{{$SPKG_ROOT/src}}}
+ {{{$SPKG_ROOT/dist/$NAME}}}
