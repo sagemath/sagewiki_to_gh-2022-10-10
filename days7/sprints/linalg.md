@@ -40,6 +40,14 @@ CPU times: user 43.72 s, sys: 0.27 s, total: 43.98 s
 Wall time: 44.36
 }}}
 
+Sage (via NTL):
+{{{
+sage: a = random_matrix(ZZ,200, x=-9, y=9)
+sage: time e = a.echelon_form(algorithm='ntl')
+CPU times: user 26.11 s, sys: 0.27 s, total: 26.38 s
+Wall time: 35.52
+}}}
+
 
 {{{
 sage: a = random_matrix(ZZ,200)
