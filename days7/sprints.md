@@ -185,9 +185,6 @@ Back to the [:days7: main conference page].
    * David Roe
 
  * [:/testing: Sage testing system (parallel testings, regression testing, removing extra "sage.:", etc)]
-     . 
-     . parallel testing ??
-     . 
    * Nick Alexander
    * Mike Hansen
    * Mike Abshoff
@@ -195,6 +192,10 @@ Back to the [:days7: main conference page].
    * Tim Abbott
    * Nick Alexander is working on some system independent patches that will make it easier to integrate with nose, etc.  See him before doing major work.
    * William Stein
+
+   Nick Alexander posted a small document at http://trac.sagemath.org/sage_trac/ticket/2099 explaining how the Sage testing architecture currently works.
+
+   Nick Alexander is working on using parallel make to run doctests in parallel.
 
  * Hierarchy of Hopf algebras, tensor products
      . 
