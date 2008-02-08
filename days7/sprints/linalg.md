@@ -1,3 +1,5 @@
+For code, see http://trac.sagemath.org/sage_trac/ticket/174
+
 = Fast Hermite Normal Form over ZZ =
 
 Unless otherwise stated benchmarks are on OS X 2.6Ghz core 2 duo laptop. 
