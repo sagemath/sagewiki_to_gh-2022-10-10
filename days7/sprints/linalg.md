@@ -61,3 +61,10 @@ sage: magma.cputime(t)
 }}}
 
 == Benchmark 1: Random 200x200 matrix with 32-bit entries ==
+
+Maple:
+{{{
+> with(LinearAlgebra); n := 200: k := 2147483646: A := RandomMatrix(n,n,generator=rand(-k..k)): time( HermiteForm(A,output=['H', 'U']
+336.753seconds
+}}}
+on mhansen's laptop
