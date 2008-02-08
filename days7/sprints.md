@@ -215,7 +215,7 @@ Back to the [:days7: main conference page].
    * Mike Abshoff
    * Mike Hansen
 
- * coercion -- work on leftovers from SD6
+ * coercion -- work on leftovers from SD6 [:days7/coercion:]
      . 
      . tutorial -- Fri night
      . 
