@@ -66,7 +66,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * "aptitude dist-upgrade" (wait a while :) )
  * download Tim's script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarballs here for now)], untar ...
  * file "packages" contains list of packages needed for the build system
- * aptitude install `cat packages` installs the packages listed in packages
+ * aptitude install `cat packages` installs the packages listed in packages.  Also install cdbs.
  * file "approx.conf.tail": append file to approx.conf - make sure to set a fast mirror, i.e. not the MIT repo
  * restart approx service via "/etc/init.d/approx restart"
  * edit make-chroot and set $VG to volume group name or export VG
