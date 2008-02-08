@@ -21,6 +21,7 @@
        * Takes a parent as an argument and returns True iff there is a canonical map from that parent to self.
        * You may override make_coercion_from instead of this function.  If you override both they should be consistent.
        * The existence or non-existence of a coercion map is cached both in self and elsewhere.  Because parents must be immutable, the return value of this function is constant over time.
+       *     If you call the default implementation {{{Parent._has_coercion_from_(self, P)}}} from your implemention (which you probably don't want to do), you MUST have overridden {{{_coercion_from_}}} (because the two default implementations call each other).
    *     Advanced Users May Implement
      *       {{{_coercion_from_}}} (cpdef) (called by {{{coercion_from}}})
        *     Overriding this function provides the ability to specify canonical morphisms to fit into the coercion model.
@@ -28,7 +29,9 @@
        *     It should return a morphism from P to self.  This morphism should be canonical, though deterministic arbitrary choices may be allowed.  One example of this is the "natural" embedding of symmetric groups.  For a more detailed discussion of what makes a map canonical in this sense, see elsewhere.
        *     You MUST return an object of type Morphism, or None.
        *     The default functionality that you're replacing is: use {{{has_ceorcion_from}}} to see if a coercion exists and if so create a morphism that calls {{{self._element_class}}}'s {{{__init__}}} method.
-       *     If you override this method, you need to handle all possibilities for P (though you can handle a few and then call {{{Parent._coercion_from_(self, P)}}}).
+       *     If you override this method, you need to handle all possibilities for P.
+       *     If you call the default implementation {{{Parent._coercion_from_(self, P)}}} from your implemention, you MUST have overridden {{{_has_coercion_from_}}} (because the two default implementations call each other).
+       *     ALL COERCION MORPHISMS SHOULD COMMUTE WITH EACH OTHER.  We don't check this assumption currently, since in many cases morphisms cannot be compared for equality.  But it is an important assumption for the model, and you should keep it in mind when deciding how canonical a morphism you want to use actually is.
      *       {{{_conversion_from_}}} (cpdef) (called by {{{conversion_from}}})
        *     Overriding this function provides the ability to specify conversion morphisms.  These are the morphisms that convert elements from one parent to another, possibly non-canonically.
        *     It takes one argument P, the parent you're converting from.
@@ -36,39 +39,56 @@
        *     You MUST return an object of type Morphism, or None.
        *     The default functionality that you're replacing is: create and return a morphism that calls {{{self._element_class}}}'s {{{__init__}}} method.
        *     If you override this method, you need to handle all possibilities for P (though you can handle a few and then call {{{Parent._conversion_from_(self, P)}}}).
-     *       {{{_action_on_}}} (cpdef) (called by {{{get_action}}})
-     *       {{{_action_by_}}} (cpdef) (called by {{{get_action}}})
+     *       {{{_get_action_}}} (cpdef) (called by {{{get_action}}})
+       *     This gives you the ability to register actions with the coercion system (so that you can use {{{g * x}}} for your favorite action).
+       *     This function takes the following arguments:
+         *   {{{other}}}.  This will usually be a parent (but could be a type, like in the case of integers acting on Python lists).  Self will be acting on other. 
+         *   {{{op}}}.  This should be one of the binary operations {{{*, ^, +, /}}} in the Python operator module.
+         *   {{{self_on_left}}} (boolean, default True): whether {{{self}}} acts on {{{other}}} on the left.  For example if {{{self_on_left is true}}}, and {{{g}}} is an element of {{{self}}}, {{{x}}} of other, * is the operation, then {{{g * x}}} would call this action but {{{x * g}}} would not.
+       *     One can also implement actions using the function {{{_rmul_}}}, {{{_lmul_}}}, {{{_r_action}}} and {{{_l_action_}}} on elements.  If an action is not returned by the {{{_get_action_}}} method of either parent then the coercion model tries calling these four functions (see explanation in element), which by default raise {{{NotImplementedErrors}}}.
      *       {{{_populate_coercion_lists_}}} (cpdef) (should only be called in YOUR {{{__init__}}} method)
+       *     This function allows you to add coercion maps, conversion maps and actions to the coercion model.
+       *     This is a good place to put the defining coercions for your object.  For example, a morphism from the base to self, or an embedding of a number field into the complex field.
+       *     This function takes the following arguments:
+         *   {{{coerce_list}}} (default {{{[]}}}):  A list of objects, each of which is either a Morphism with codomain self, or another parent (in which case a default morphism using {{{element_class.__init__}}} is created).  These are the coercions to self that are inserted into the cache.  The should be canonical in the sense of coercion morphisms.
+         *   {{{action_list}}} (default {{{[]}}}):  A list of {{{Actions}}}, on and by self.  These actions are registered with the coercion model and inserted into the cache.
+         *   {{{convert_list}}} (default {{{[]}}}): A list of {{{Morphisms}}} with codomain self, used to convert from other parents to self.  These morphisms are inserted into the cache.
+         *   {{{embedding}}} (default {{{None}}}): A single {{{Morphism}}} with self as the domain to be inserted into the coercion model.  Only one embedding of each parent is allowed.  Since your embedding is considered a coercion map, remember that it must commute with all other coercion maps in the model.  
+         *   {{{convert_method_name (default {{{None}}}): A string that gives the name of a method on elements used to generate elements of this parent.  For example, "{{{_integer_}}}" is the {{{convert_method_name}}} for the {{{Integer}}} class, "{{{_real_double_}}}" for the {{{RealDoubleField}}} class.
+       *     This function will overwrite anything in the cache that already exists with the same signature (eg a coercion map from A to B if you insert a coercion map from A to B).  If two things with the same signature are given, the latter will be used.
+       *     If both a left and right action are defined (ie another object registers an action on self on the other side as self's action on that other object), the action of the object on the left takes precedence.
+       *     The advantage is that it's one place to insert common morphisms and seeds the discovery process.  For example, if you specify a coercion map from the {{{RationalField}}} to self, then it will automatically create a coercion map from the integers to self.
+       
    *     Generic Functions you might override
      *       {{{__contains__}}}
-       *         Do we really want to do this?  Cases: is mod(3, 5) in ZZ?  is Zp(5)(17) in ZZ?  is QQ(2) in ZZ?  is RR(2) in ZZ?
-     *       {{{__cmp__}}}
+       *     This method is called when you type a in B.  The default implementation casts a into B (ie computes B(a)) and returns bool(a == B(a)).
+       *     You are welcome to override this default, though be wary of straying too far from the specification.
      *       {{{_gen_}}} (cpdef) (called by {{{gen}}})
        *     If your object has generators, you SHOULD override this method.
        *     It takes two arguments:
          *   an element of the index set (default 0), which by default is the set [0,1,... ngens - 1].  This index set will usually depend on the category
          *   a category (default None, indicating the first category in the category list), which indicates in which structure the generating is taking place.  This category is guaranteed to be in the list of categories specified at parent creation time.
        *     The generators should generate the object in that category (over the base, if base exists).  It's nice if no subset of your generators generates, but is not required.
-       *     If this parent does not have a concept of generators in that category, raise a ValueError.
-       *     If you raise a NotImplementedError, generic category code will try to compute the appropriate value.
+       *     If this parent does not have a concept of generators in that category, raise a {{{ValueError}}}.
+       *     If you raise a {{{NotImplementedError}}}, generic category code will try to compute the appropriate value.
      *       {{{_ngens_}}} (cpdef) (called by {{{ngens}}})
        *     If your object has generators, you SHOULD override this method.
        *     It takes one argument, a category guaranteed to be in the list of categories specified at parent creation time (default None, indicating the first category in the category list).
        *     It should return a non-negative integer or the infinity object giving the size of the index set.
-       *     If this parent does not have a concept of generators in that category, raise a ValueError.
-       *     If you raise a NotImplementedError, generic category code will try to compute the appropriate value.
+       *     If this parent does not have a concept of generators in that category, raise a {{{ValueError}}}.
+       *     If you raise a {{{NotImplementedError}}}, generic category code will try to compute the appropriate value.
      *       {{{_gens_}}} (cpdef) (called by {{{gens}}})
        *     If your object has generators, you may override this method if you don't want the standard iterator.  The most common cause would if you want to index your generators on things other than natural numbers.
        *     It takes one argument, a category guaranteed to be in the list of categories specified at parent creation time (default None, indicating the first category in the category list).
        *     It should return an iterable object.
-       *     If this parent does not have a concept of generators in that category, raise a ValueError.
-       *     If you raise a NotImplementedError, generic category code will try to compute the appropriate value.
+       *     If this parent does not have a concept of generators in that category, raise a {{{ValueError}}}.
+       *     If you raise a {{{NotImplementedError}}}, generic category code will try to compute the appropriate value.
      *       {{{_gen_index_parent_}}} (cpdef) (called by {{{gen_index_parent}}})
        *     If your object has generators, you may override this method if you don't want the standard index set for generators.
        *     It takes one argument, a category guaranteed to be in the list of categories specified at parent creation time (default None, indicating the first category in the category list).
        *     It should return a parent whose elements index the generators of self in the given category.
-       *     If this parent does not have a concept of generators in that category, raise a ValueError.
-       *     If you raise a NotImplementedError, generic category code will try to compute the appropriate value.
+       *     If this parent does not have a concept of generators in that category, raise a {{{ValueError}}}.
+       *     If you raise a {{{NotImplementedError}}}, generic category code will try to compute the appropriate value.
      *       {{{_base_}}} (cpdef) (called by {{{base}}})
        *     If your object belongs to a category that has a concept of base (often a base ring or field), you may want to override this method.
        *     It takes one argument, a category guaranteed to be in the list of categories specified at parent creation time (default None, indicating the first category in the category list that has a base).
@@ -86,8 +106,11 @@
        *     This function should return a new object that fits into the commutative square with self, self.base() and B'.  The base extension of a parent should be a parent.  The base extension of a non-parent may or may not be a parent (though it usually won't be).
    *     Generic Functions that are provided for you (don't override unless you know what you're doing)
      *       {{{__call__}}}
+       *     This is the function called when you type R(a) where R is the parent you're implementing.  There is a default implementation in Parent.pyx that you should be wary of overriding because it uses the coercion model to try doing sensible things first (check if a is an {{{Element}}}, see if there's a coercion from the parent of a to self, see if there's a coercion from self to the parent of a with a section, etc).
+       *     You may want to override call if you have multiple primary arguments that you use to create an element (eg a complex field takes a real part and an imaginary part).  Optional arguments are not a problem: the default creates a parameterized morphism.  This will work even for multiple primary arguments, but might be less efficient or less aesthetically clean.
    *     Not defined functions you may want to define
      *       {{{__iter__}}}
+       *     You may want to have the capacity to iterate over the elements of self.  Writing this function will allow code such as {{{for a in R:}}}
  *   Element functions
    *     Arithmetic (raise {{{NotImplementedError}}})
      *       _add_                     (cpdef)
@@ -101,5 +124,9 @@
      *       _pow_
    *     Functions you may want to implement
      *       _polynomial_
+     *       _rmul_
+     *       _lmul_
+     *       _r_action_
+     *       _l_action_
  *   Morphism functions
    * 
