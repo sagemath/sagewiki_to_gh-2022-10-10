@@ -1,4 +1,4 @@
-{{{
+
  *   Parent functions
    *     Must Implement
      *       __init__
@@ -36,5 +36,3 @@
      *       _pow_
    *     Functions you may want to implement
      *       _polynomial_
-
-}}}
