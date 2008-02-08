@@ -24,7 +24,7 @@
    *     Not defined functions you may want to define
      *       {{{__iter__}}}
  *   Element functions
-   *     Arithmetic (raise NotImplemented)
+   *     Arithmetic (raise {{{NotImplementedError}}})
      *       _add_                     (cpdef)
      *       _mul_                     (cpdef)
      *       _neg_                     (cpdef)
