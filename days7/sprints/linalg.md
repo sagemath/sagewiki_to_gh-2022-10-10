@@ -76,3 +76,13 @@ sage: a = random_matrix(ZZ, 200, x=-2^32, y=2^32)
 sage: time e = a.echelon_form(algorithm='ntl')
 CPU times: user 461.25 s, sys: 2.71 s, total: 463.97 s
 }}}
+
+MAGMA:
+{{{
+sage: a = random_matrix(ZZ,200,x=-2^32,y=2^32)
+sage: m = magma(a)
+sage: t = magma.cputime()
+sage: w = m.HermiteForm()
+sage: magma.cputime(t)
+10.33
+}}}
