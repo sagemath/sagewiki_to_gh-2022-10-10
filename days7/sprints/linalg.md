@@ -70,11 +70,18 @@ Maple (on mhansen's laptop):
 336.753seconds
 }}}
 
-NTL (2.6Ghz core 2 duo)
+NTL 
 {{{
 sage: a = random_matrix(ZZ, 200, x=-2^32, y=2^32)
 sage: time e = a.echelon_form(algorithm='ntl')
 CPU times: user 461.25 s, sys: 2.71 s, total: 463.97 s
+}}}
+
+PARI 
+{{{
+sage: a = random_matrix(ZZ, 200, x=-2^32, y=2^32)
+sage: time e = a.echelon_form(algorithm='pari')
+CPU times: user 466.90 s, sys: 12.86 s, total: 479.76 s
 }}}
 
 MAGMA:
