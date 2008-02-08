@@ -1,7 +1,6 @@
-
  *   Parent functions
    *     Must Implement
-     *       __init__
+     *       {{{__init__}}}
      *       has_coercion_from         (cpdef)
      *       gen
      *       ngens
@@ -17,12 +16,13 @@
      *       get_conversion_from       (cpdef)
      *       get_action                (cpdef)
    *     Generic Functions you might override
-     *       __contains__
+     *       {{{__contains__}}}
        *         Do we really want to do this?  Cases: is mod(3, 5) in ZZ?  is Zp(5)(17) in ZZ?  is QQ(2) in ZZ?  is RR(2) in ZZ?
-     *       __cmp__
-     *       __call__
+     *       {{{__cmp__}}}
+   *     Generic Functions that are provided for you (don't override unless you know what you're doing)
+     *       {{{__call__}}}
    *     Not defined functions you may want to define
-     *       __iter__
+     *       {{{__iter__}}}
  *   Element functions
    *     Arithmetic (raise NotImplemented)
      *       _add_                     (cpdef)
