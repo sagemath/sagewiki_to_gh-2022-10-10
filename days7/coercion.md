@@ -126,6 +126,7 @@
        *     If your parent is in a category that has multiplication, there's a default implemention of exponentiation using binary exponentiation algorithm.
        *     Your function should take one argument, which is the exponent.  There is no guarantee as to the type of the exponent: you should do your own type checking.
    *     Functions you should implement
+     *       {{{__init__}}}
      *       {{{_cmp_}}} (cpdef) (call using >, <, ==, !=, >=, <=, {{{__cmp__}}, {{{__richcmp__}}})
        .     This function implements element comparison.
        *     It takes one input, which is the element to which it is being compared.  This other element is guaranteed to have the same parent.
@@ -213,4 +214,4 @@
 Notes: 
 About Cython functions:
  * You must write {{{__reduce__}}}
- * Keep in mind the {{{__c_init__}}}
+ * Keep in mind the {{{__cinit__}}}
