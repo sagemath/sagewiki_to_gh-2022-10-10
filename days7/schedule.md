@@ -71,11 +71,12 @@ Back to the [:days7: main conference page].
 
  * How to write good documentation
 
- * 3-3:50 Alex Ghitza's talk, ''Computing Hecke eigensystems (mod p)'', Lakretz 101
+ * 3-3:50 Alex Ghitza's talk, ''Computing Hecke eigensystems (mod p)'', Lakretz 101 
+[http://www.math.ucla.edu/~ntg/ntg-extra/burhanuddin-jenkins-winter08/ghitza/pics Pictures] [http://www.math.ucla.edu/~ntg/ntg-extra/burhanuddin-jenkins-winter08/ghitza/ghitza.wav Audio]
 
  * 4-4:15 Tea at the math department, Math department lounge
 
- * 4:15-5:05 Kiran Kedlaya's talk, ''Effective Bounds for Solutions of p-adic Differential Equations'', MS 6627
+ * 4:15-5:05 Kiran Kedlaya's talk, ''Effective Bounds for Solutions of p-adic Differential Equations'', MS 6627 [http://www.math.ucla.edu/~ntg/ntg-extra/burhanuddin-jenkins-winter08/kedlaya/pics Pictures] [http://www.math.ucla.edu/~ntg/ntg-extra/burhanuddin-jenkins-winter08/kedlaya/kedlaya.wav Audio]
 
  * 5:30-6:00 Coding Sprint Status report at IPAM
 
