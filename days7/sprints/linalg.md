@@ -64,7 +64,7 @@ sage: magma.cputime(t)
 
 Maple:
 {{{
-> with(LinearAlgebra); n := 200: k := 2147483646: A := RandomMatrix(n,n,generator=rand(-k..k)): time( HermiteForm(A,output=['H', 'U']
+> with(LinearAlgebra); n := 200: k := 2147483646: A := RandomMatrix(n,n,generator=rand(-k..k)): time( HermiteForm(A,output=['H', 'U']) );
 336.753seconds
 }}}
 on mhansen's laptop
