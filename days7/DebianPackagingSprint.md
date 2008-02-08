@@ -13,7 +13,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
 
  * ATLAS  (atlas-sage-x.y or version bump)
  * Python (python-sage-x.y or version bump)
- * jmol - potential conflict with gcj in stable (testing an above fine)
+ * jmol - potential conflict with gcj in stable (testing and above fine)
  * Maxima: copies mgnuplot script to libexec (Maxima is already in Debian)
 
 == Changelog ==
