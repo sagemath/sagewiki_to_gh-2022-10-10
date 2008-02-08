@@ -64,7 +64,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * update to lenny: edit /etc/apt/source and replace "etch" with "lenny"
  * "aptitude update"
  * "aptitude dist-upgrade" (wait a while :) )
- * download Tim's script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarballs here for now)], untar ...
+ * download Tim's script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarballs here for now)], untar ... [the code is being partially merged in the sage-scripts repo, some of the other might end up on a wiki page somewhere else once this is over]
  * file "packages" contains list of packages needed for the build system
  * aptitude install `cat packages` installs the packages listed in packages.  Also install cdbs.
  * file "approx.conf.tail": append file to approx.conf - make sure to set a fast mirror, i.e. not the MIT repo
