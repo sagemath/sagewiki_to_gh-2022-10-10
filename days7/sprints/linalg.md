@@ -1,5 +1,7 @@
 = Fast Hermite Normal Form over ZZ =
 
+Unless otherwise stated benchmarks are on OS X 2.6Ghz core 2 duo laptop. 
+
 MuPAD
 {{{
 >> A := linalg::randomMatrix(50,50,Dom::Integer, 10);
@@ -68,3 +70,9 @@ Maple:
 336.753seconds
 }}}
 on mhansen's laptop
+
+{{{
+sage: a = random_matrix(ZZ, 200, x=-2^32, y=2^32)
+sage: time e = a.echelon_form(algorithm='ntl')
+CPU times: user 461.25 s, sys: 2.71 s, total: 463.97 s
+}}}
