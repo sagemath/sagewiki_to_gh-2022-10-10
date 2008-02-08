@@ -43,5 +43,3 @@ sage: magma.cputime(t)
 }}}
 
 == Benchmark 1: Random 200x200 matrix with 32-bit entries ==
-
----- /!\ '''End of edit conflict''' ----
