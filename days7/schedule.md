@@ -71,8 +71,7 @@ Back to the [:days7: main conference page].
 
  * How to write good documentation
 
- * 3-3:50 Alex Ghitza's talk, ''Computing Hecke eigensystems (mod p)'', Lakretz 101 
-[http://www.math.ucla.edu/~ntg/ntg-extra/burhanuddin-jenkins-winter08/ghitza/pics Pictures] [http://www.math.ucla.edu/~ntg/ntg-extra/burhanuddin-jenkins-winter08/ghitza/ghitza.wav Audio]
+ * 3-3:50 Alex Ghitza's talk, ''Computing Hecke eigensystems (mod p)'', Lakretz 101 [http://www.math.ucla.edu/~ntg/ntg-extra/burhanuddin-jenkins-winter08/ghitza/pics Pictures] [http://www.math.ucla.edu/~ntg/ntg-extra/burhanuddin-jenkins-winter08/ghitza/ghitza.wav Audio]
 
  * 4-4:15 Tea at the math department, Math department lounge
 
