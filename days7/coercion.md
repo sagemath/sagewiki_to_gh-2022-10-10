@@ -211,4 +211,6 @@
    . There are often conflicting demands as to whether parents should be written in Python or Cython.  Companions are a mechanism to allow Python parents with some of the benefits of Cython parents (notably, C access to member fields common to all elements of a parent and the ability to write code that logically belongs with the parent in Cython).  Every parent has a member field which is of Companion type, which can then be inherited from.  Current examples include the {{{NativeIntStruct}}} of {{{IntegerMods}}} and the {{{PowComputers}}} of p-adics.
 
 Notes: 
-Things
+About Cython functions:
+ * You must write {{{__reduce__}}}
+ * Keep in mind the {{{__c_init__}}}
