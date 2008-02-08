@@ -99,11 +99,12 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
       * set mailto, maintainer, etc...
       * uncomment '$sbuild_mode = "user";'
 
-   Example:
-   apt-get source valgrind [downloads sources, patches, dsc file]
-   sbuildhack lenny-i386 valgrind-3.3.0-1.dsc
+=== Example ===
 
- * Building a Debian package:
+ * apt-get source valgrind [downloads sources, patches, dsc file]
+ * sbuildhack lenny-i386 valgrind-3.3.0-1.dsc
+
+ * Building a Debian package via {{{make}}} from {{{$SAGE_LOCAL}}}:
    * set env variable {{{DEBIANRELEASE}}} to "lenny-i386" [building deb in schroot env]
    * set env variable {{{USEDEB}}} to "yes": first try to sudo apt-get install {{{$SPKG.deb}}}
    * sage-spkg: check if {{{USEDEB}}} and {{{DEBIANRELEASE}}} is set: if spkg-debian exists in {{{$SPKG_ROOT}}} execute it, otherwise do default sbuildhack - see http://trac.sagemath.org/sage_trac/ticket/2098 for patch
