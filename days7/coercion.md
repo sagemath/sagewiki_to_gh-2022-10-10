@@ -112,21 +112,103 @@
      *       {{{__iter__}}}
        *     You may want to have the capacity to iterate over the elements of self.  Writing this function will allow code such as {{{for a in R:}}}
  *   Element functions
-   *     Arithmetic (raise {{{NotImplementedError}}})
-     *       _add_                     (cpdef)
-     *       _mul_                     (cpdef)
-     *       _neg_                     (cpdef)
-     *       _invert_                  (cpdef)
-   *     Arithmetic (With Defaults)
-     *       _sub_                     (cpdef)
-     *       _div_                     (cpdef)
-     *       _powlong_
-     *       _pow_
+   *     Arithmetic (default implementation raises a {{{NotImplementedError}}})
+     *       {{{_add_}}} (cpdef) (call using + or {{{__add__}}})
+     *       {{{_mul_}}} (cpdef) (call using * or {{{__mul__}}})
+     *       {{{_neg_}}} (cpdef) (call using - or {{{__neg__}}}) 
+     *       {{{_invert_ (cpdef) (call using ~ or {{{__invert__}}})
+   *     Arithmetic (default implementation exists)
+     *       {{{_sub_}}} (cpdef) (call using - or {{{__sub__}}})
+     *       {{{_div_}}} (cpdef) (call using / or {{{__div__}}})
+       *     Use {{{ZeroDivisionError}}} when appropriate
+     *       {{{_pow_}}} (cpdef) (call using ^ or ** or {{{__pow__}}})
+       *     This allows you to override the default exponentiation algorithm.
+       *     If your parent is in a category that has multiplication, there's a default implemention of exponentiation using binary exponentiation algorithm.
+       *     Your function should take one argument, which is the exponent.  There is no guarantee as to the type of the exponent: you should do your own type checking.
+   *     Functions you should implement
+     *       {{{_cmp_}}} (cpdef) (call using >, <, ==, !=, >=, <=, {{{__cmp__}}, {{{__richcmp__}}})
+       .     This function implements element comparison.
+       *     It takes one input, which is the element to which it is being compared.  This other element is guaranteed to have the same parent.
+       *     It should return one of 5 possible values:
+         *   1  indicates that self > other
+         *   0  indicates that self = other
+         *   -1 indicates that self < other
+         *   -2 indicates that self is incomparable to other (eg in a poset)
+         *   -3 indicates that the question doesn't really make sense mathematically, but Python is welcome to impose whatever order it wants to.
+       *     These return values are put together to give answers to all of the comparison questions.
+     *       {{{_hash_}}}
+       *     Python claims that if two objects satisfy the == relation then they should have the same hash.  We do want mod(3, 5) == 3 and mod(3, 5) == 8 but do not want 3 to have the same hash as 8.  So we are breaking this restriction on hashing, but you should use this rule in spirit.
+       *     Hash should only work for immutable objects (matrices' hash function will fail if they have not been set to be immutable).
+       *     Our hashing should be consistent with Python hashing to the extent possible.
+       *     It should be fast.
+     *       {{{_repr_}}}
+       *     This is the easiest way to define how your object prints.
+       *     It should return a string.
+       *     Keep in mind that your string representation may be used as a component of others.  It does not need to convey all the information about the object necessarily, though in simple cases it is nice if your object is reconstructible from the print representation.
+       *     Most things don't distinguish between {{{__repr__}}} and {{{__str__}}} but there exist objects in Sage that do.  See sage.plot.plot or sage.calculus.calculus for some examples.
+       *     To allow users more runtime control over how objects print, see the section on {{{Printers}}}
+     *       {{{_latex_}}}
+       *     This function should return LaTeX code representing your object.
+       *     As for {{{_repr_}}}, see the section on {{{Printers}}} for more advanced mechanisms for handling this function.
    *     Functions you may want to implement
-     *       _polynomial_
-     *       _rmul_
-     *       _lmul_
-     *       _r_action_
-     *       _l_action_
- *   Morphism functions
-   * 
+     *       {{{_polynomial_}}}, {{{_integer_}}}, {{{_real_double}}}, etc
+       *     These functions are used by other specific other parents' {{{__call__}}} methods to create elements.
+     *       {{{_rmul_}}}
+     *       {{{_lmul_}}}
+     *       {{{_r_action_}}}
+     *       {{{_l_action_}}}
+     *       {{{plot}}}
+       *     Should take whatever input needed and return an appropriate graphics object.
+     *       {{{plot3d}}}
+       *     Should take whatever input needed and return a 3d graphics object.
+ *   {{{Morphisms}}}
+   . {{{Morphisms}}} are "arrows" or "maps" between objects in a category.  They can be composed, and there is an identity morphism from any object to itself.
+   . Morphisms tie into their category with the prefix "_mor_" (ie if a function is not found on the morphism it checks the category C and categories D for which there's a natural faithful forgetful functor from C to D, prefixing "_mor_" onto the desired name.  So to implement {{{inverse_image}}} one could implement {{{_mor_inverse_image}}} on the category)
+   *     Functions you may want to implement
+     *         {{{_call_}}} (cpdef) (called using () or {{{__call__}}})
+       .       This should only be implemented for morphisms of parents (not of objects).
+       *       Takes one input, which you may assume is a element of the domain (this will be of type Element unless you're implementing a native morphism and it's a native Python type).
+       *       Should output an element of the codomain.
+     *         {{{_composition_}}} (cpdef) (called using () or *)
+       *       There is a default implementation, which returns a formal composition.
+       *       Hopefully your morphism will have some sort of data attached to it which determine it and how it acts on elements.  In this case, you'll want to override {{{_composition_}}}
+     *         {{{_cmp_}}} (cpdef) (called using >, <, ==, !=, >=, <=, {{{__cmp__}}}, {{{__richcmp__}}})
+       *       Please implement this if you can: it's useful (for checking commutative diagrams for example).
+     *         {{{section}}} (cpdef)
+       .       This method returns a section of the morphism, ie a left or right inverse (which may depend on if this morphism is epi or mono)
+       *       It takes one argument, the category in which the section should be a morphism (default Sets with error allowing morphisms).
+       *       If no section exists in the desired category, raise a ValueError.
+       *       The object returned can be either a {{{Morphism}}} or a {{{MorphismFamily}}}
+     *         {{{_repr_type_}}} and {{{_repr_defn_}}}
+       *       These are functions that control how the morphism prints.  They may be rethought in light of {{{Printers}}}
+     *         {{{pushforward}}}, {{{pullback}}}, {{{upper_shriek}}}, etc should all be defined at the category level but might be redefined here.
+ *   {{{MorphismFamily's}}}
+   . In addition to {{{Morphisms}}}, Sage has {{{MorphismFamily's}}}, which can represent parameterized families of morphisms in the same category, or a single morphism that needs additional data in order to apply itself to an element (for example the ring homomorphism from the integers to the 5-adic ring of capped relative precision 20 which can take an extra argument which specifies absolute and relative precision caps of the elements so created).
+   *       Functions you may want to implement
+     *         {{{_call_}}} (cpdef)
+       *       Only really designed for parents, not other objects, because the one benefit is allowing the image of an element to depend on other parameters.
+       *       Unlike {{{Morphisms}}}, the {{{_call_}}} method of a {{{MorphismFamily}}} takes up to three inputs:
+         *     An element of the domain.  This is guaranteed to be in the domain.
+         *     A tuple giving positional arguments (default {{{None}}})
+         *     A dictionary giving keyword arguments (default {{{None}}})
+       *       Should output an element of the codomain, which can depend on the positional and keyword arguments in an arbitrary way.
+     *         {{{_composition_}}} (cpdef)
+       *       The composition of two should be another {{{MorphismFamily}}}, or conceivably a {{{Morphism}}}.
+     *         {{{_cmp_}}}
+     *         {{{section}}}
+     *         {{{_repr_type_}}} and {{{_repr_defn_}}}, {{{pushforward}}}, {{{pullback}}}, {{{upper_shriek}}}, etc should all be defined at the category level but might be redefined here.
+ *   {{{Printers}}}
+   . There is a hierarchy of printer objects with actually contain the code for determining string representations of objects, and default settings which control the behavior of the printers.
+   . The reason to separate this functionality from the elements, parents and categories is twofold.  First, it facilitates more user control over printing.  A user can use a context to change printing options on elements of a particular ring, on the verbosity of representations of parents or what data is shown when a category is printed.  Second, it reduces code duplication and corresponding bugs in printing code.  The optimal inheritance hierarchy for code printing various objects is vastly different from the optimal hierarchy for elements or rings.  By having a separate object control the printing and actually compute the string representation we can minimize code duplication.
+   . Implementation of this system is only just beginning.  See {{{sage.rings.padics.padic_printing}}} for the first steps.
+   *    Functions you should write
+     *      {{{repr}}}
+       *    This function returns a string representation of an appropriate type object.
+       *    It takes two arguments:
+         *  An object to be printed.  For the different levels of {{{Printers}}}, this will be either an element, an object or a category.
+         *  A recursion level (default 0).  This is useful in gauging the desired level of verbosity.
+ *   {{{Companions}}}
+   . There are often conflicting demands as to whether parents should be written in Python or Cython.  Companions are a mechanism to allow Python parents with some of the benefits of Cython parents (notably, C access to member fields common to all elements of a parent and the ability to write code that logically belongs with the parent in Cython).  Every parent has a member field which is of Companion type, which can then be inherited from.  Current examples include the {{{NativeIntStruct}}} of {{{IntegerMods}}} and the {{{PowComputers}}} of p-adics.
+
+Notes: 
+Things
