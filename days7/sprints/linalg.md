@@ -1,6 +1,16 @@
 = Fast Hermite Normal Form over ZZ =
 
+MuPAD
+{{{
+>> A := linalg::randomMatrix(50,50,Dom::Integer, 10);
+Warning: This matrix is too large for display. If you want to see all non-zero entries of large matrices, use doprint(..). [(Dom::Matrix(Dom::Integer))::print]
 
+                                              Dom::Matrix(Dom::Integer)(50, 50, ["..."])
+>> time(linalg::hermiteForm(A));                     
+
+                                                                26445
+
+}}}
 
 == Benchmark 1: Random 200x200 single-digit matrix ==
 
