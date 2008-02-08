@@ -17,7 +17,7 @@
          * a list of leaf categories (see Object {{{__init__}}} description)
        * Note that {{{__init__}}} may be called more than once.  If you do things (like C memory allocation) that should only happen once, use can use {{{__cinit__}}} for Cython.  If you're writing a Python class and you care that you might get called twice, you'll have to manually track whether you've been called.
        * If you write a {{{_populate_coercion_lists_}}} function (see below), you must call it in your {{{__init__}}} method (and nowhere else).
-     *       has_coercion_from         (cpdef)
+     *   {{{_has_coercion_from_}}} (cpdef) (called by {{{has_coercion_from}}})
        * Takes a parent as an argument and returns True iff there is a canonical map from that parent to self.
        * You may override make_coercion_from instead of this function.  If you override both they should be consistent.
        * The existence or non-existence of a coercion map is cached both in self and elsewhere.  Because parents must be immutable, the return value of this function is constant over time.
@@ -27,10 +27,6 @@
      *       {{{_action_on_}}} (cpdef) (called by {{{get_action}}})
      *       {{{_action_by_}}} (cpdef) (called by {{{get_action}}})
      *       {{{_populate_coercion_lists_}}} (cpdef) (should only be called in YOUR {{{__init__}}} method)
-   *     Advanced Calls
-     *       get_coercion_from         (cpdef)
-     *       get_conversion_from       (cpdef)
-     *       get_action                (cpdef)
    *     Generic Functions you might override
      *       {{{__contains__}}}
        *         Do we really want to do this?  Cases: is mod(3, 5) in ZZ?  is Zp(5)(17) in ZZ?  is QQ(2) in ZZ?  is RR(2) in ZZ?
@@ -93,3 +89,5 @@
      *       _pow_
    *     Functions you may want to implement
      *       _polynomial_
+ *   Morphism functions
+   * 
