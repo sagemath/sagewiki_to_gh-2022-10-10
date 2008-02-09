@@ -105,9 +105,27 @@ Wall time: 1.04
 
 Unless otherwise stated benchmarks are on OS X 2.6Ghz core 2 duo laptop. 
 
+=== Comparing Magma (red) and Sage (blue) ===
+
+Random n x n matrix.
+
+Vertical Axis = coefficient bitsize
+
+Horizontal Axis = n.
+
+attachment:magmasage.png
 
 
 
+=== Comparing Magma (red) and Sage (blue):  ===
+
+Random n x n matrix.
+
+Vertical Axis = time in seconds
+
+Horizontal Axis = n.
+
+attachment: 
 
 
 == Benchmark 1: Random 50x50 single-digit matrix ==
