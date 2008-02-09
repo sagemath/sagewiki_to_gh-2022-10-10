@@ -37,7 +37,7 @@ Now, onto the details.
        * Any initialization for the object
        * Must call superclass's {{{__init__}}} method with the following data:
          * a list of categories that this object type belongs to.  Superclasses (ie classes that are the image of a forgetful functor from one of the categories on the list) are automatically added, but the ORDER MATTERS for the order functions are detected in.
- *   Parent functions
+ *   {{{Parents}}}
    *     Must Implement
      *       {{{__init__}}}
        * Should do any needed initialization for the parent
