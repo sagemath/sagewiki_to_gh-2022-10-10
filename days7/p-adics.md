@@ -1,4 +1,5 @@
-Please report changes to the p-adics here.
+Please report changes to the p-adics here. (KiranKedlaya's in-progress specification for p-adics is
+[attachment:p-adic-spec.tex here].)
 
  *   padic_printing.pyx (10/10)
   * reviewed robertwb
