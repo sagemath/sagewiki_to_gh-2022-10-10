@@ -3,6 +3,7 @@
 Nothing to do
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic
 
+Little to do
  * coding
  * functions
  * lfunctions
@@ -15,6 +16,7 @@ Nothing to do
  * crypto
  * geometry
 
+Lots to do
  * graphs
  * groups
  * gsl
@@ -38,7 +40,7 @@ Nothing to do
   * padic
   * other
 
-
+Base classes
  * structure
 
 
