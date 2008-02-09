@@ -16,14 +16,31 @@ Modular / p-adic HNF algorithm -- Stein, Pernet, Burcin
     [See timings below where Magma is VASTLY faster then every
     other program in existence.]"
             -- Allan Steel
-
-
-------------------------------------------------
- ... Try 200x200 over ZZ with PARI/NTL ...
-
-(1) hnf.hg posted at trac #174 -- complete, clean hg bundle that
-    makes this work:
 }}}
+Another example with big coefficients (which is what I -- Stein -- care about):
+{{{
+
+    sage: a = random_matrix(ZZ,100, x=-2^32, y=2^32)
+    sage: time v = a._hnf()
+    CPU times: user 0.41 s, sys: 0.03 s, total: 0.43 s
+    Wall time: 0.44
+    sage: set_verbose(1)
+}}}
+which sure beats Sage right now:
+{{{
+    sage: time b = a.echelon_form()
+    CPU times: user 16.57 s, sys: 0.11 s, total: 16.68 s
+    Wall time: 16.92
+}}}
+and even beats Magma too:
+{{{
+    sage: m = magma(a)
+    sage: t = magma.cputime(); b = m.EchelonForm(); magma.cputime(t)
+    1.26
+}}}
+
+=== Try 200x200 over ZZ with small coeffs with PARI, Magma, Sage ===
+
 
 {{{
 dhcp46-76:hnf was$ sage
@@ -66,28 +83,6 @@ verbose 1 (174: matrix_integer_dense_hnf.py, add_row) first add row
 verbose 1 (174: matrix_integer_dense_hnf.py, add_row) finished add row (time = 0.10742)
 CPU times: user 0.96 s, sys: 0.08 s, total: 1.05 s
 Wall time: 1.04
-}}}
-
-Another example with big coefficients (which is what I -- Stein -- care about):
-{{{
-
-    sage: a = random_matrix(ZZ,100, x=-2^32, y=2^32)
-    sage: time v = a._hnf()
-    CPU times: user 0.41 s, sys: 0.03 s, total: 0.43 s
-    Wall time: 0.44
-    sage: set_verbose(1)
-}}}
-which sure beats Sage right now:
-{{{
-    sage: time b = a.echelon_form()
-    CPU times: user 16.57 s, sys: 0.11 s, total: 16.68 s
-    Wall time: 16.92
-}}}
-and even beats Magma too:
-{{{
-    sage: m = magma(a)
-    sage: t = magma.cputime(); b = m.EchelonForm(); magma.cputime(t)
-    1.26
 }}}
 
 
