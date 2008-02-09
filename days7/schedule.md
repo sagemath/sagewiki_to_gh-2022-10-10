@@ -54,6 +54,7 @@ Back to the [:days7: main conference page].
     . [attachment:Hartke_SAGE2008.pdf Computer Search in Graph Theory]
 
  * 5:00 William Stein, UW Seattle
+    . [attachment:sage-slides.pdf Sage -- State of the Union]
 
  * evening: [:days7/sprints: coding sprints!]
 
