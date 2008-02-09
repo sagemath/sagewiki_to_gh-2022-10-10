@@ -24,6 +24,13 @@ Now, onto the details.
      *   There needs to be a way for a category to list the "forgetting structure" functors emanating from that category.  Currently we envision these functors as having two types: faithful forgetful functors where elements remain the same and functors where the resulting object has fewer elements (eg Fields -> MultiplicativeGroups)
    *     May want to implement
      *   If you prepend a method name with "_elt_" and attach it to the category then it will be available to elements.  Correspondingly with "_obj_" and objects, "_mor_" and morphisms.
+   *     Quotients
+     *   For general objects, one can specify a monomorphism f: X -> Y and call _obj_quotient(f) on Y should create the parent Y/X and add a coercion morphism from Y to Y/X
+     *   If you just give _obj_quotient a parent X then it checks if there's a coercion morphism and uses that.
+     *   For parents, one also wants to be able to specify an equivalence relation
+   *     Subsets
+     *   We want to be able to create new parents by specifying a test
+     *   For general 
  *   {{{Functors}}}
    .     Functors are a primitive type (like objects, categories and elements) that are used in the category system but are also creatable by users.
    *     Must implement
