@@ -3,8 +3,10 @@
 Nothing to do
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic
 
-Little to do
+Done
  * coding
+
+Little to do
  * functions
  * lfunctions
  * tests 
