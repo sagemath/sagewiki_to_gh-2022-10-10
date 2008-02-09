@@ -1,20 +1,12 @@
 === Files to fix ===
 
- * catalogue
+Nothing to do
+ * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic
+
  * coding
  * functions
  * lfunctions
- * logic
- * plot
- * server
- * stats
  * tests 
-
- * databases
- * dsage
- * ext
- * games
- * media
 
  * algebras
  * calculus
