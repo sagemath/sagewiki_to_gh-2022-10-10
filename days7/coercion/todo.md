@@ -6,8 +6,10 @@ Nothing to do
 Done
  * coding
 
-Little to do
+In progress
  * functions
+
+Little to do
  * lfunctions
  * tests 
 
