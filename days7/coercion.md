@@ -85,6 +85,7 @@ Now, onto the details.
          *   {{{op}}}.  This should be one of the binary operations {{{*, ^, +, /}}} in the Python operator module.
          *   {{{self_on_left}}} (boolean, default True): whether {{{self}}} acts on {{{other}}} on the left.  For example if {{{self_on_left is true}}}, and {{{g}}} is an element of {{{self}}}, {{{x}}} of other, * is the operation, then {{{g * x}}} would call this action but {{{x * g}}} would not.
        *     One can also implement actions using the function {{{_rmul_}}}, {{{_lmul_}}}, {{{_r_action}}} and {{{_l_action_}}} on elements.  If an action is not returned by the {{{_get_action_}}} method of either parent then the coercion model tries calling these four functions (see explanation in element), which by default raise {{{NotImplementedErrors}}}.
+   *      You may want to call, but should not override
      *       {{{_populate_coercion_lists_}}} (cpdef) (should only be called in YOUR {{{__init__}}} method)
        *     This function allows you to add coercion maps, conversion maps and actions to the coercion model.
        *     This is a good place to put the defining coercions for your object.  For example, a morphism from the base to self, or an embedding of a number field into the complex field.
