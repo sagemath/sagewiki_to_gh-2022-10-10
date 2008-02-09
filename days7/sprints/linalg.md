@@ -117,7 +117,7 @@ attachment:magmasage.png
 
 
 
-=== Comparing Magma (red) and Sage (blue):  ===
+=== Comparing Magma (red) and Sage (blue): 4-bit entries ===
 
 Random n x n matrix.
 
@@ -125,7 +125,42 @@ Vertical Axis = time in seconds
 
 Horizontal Axis = n.
 
-attachment: 
+attachment:sagemagma-4bit.png
+
+=== Comparing Magma (red) and Sage (blue): 20-bit entries ===
+
+Random n x n matrix.
+
+Vertical Axis = time in seconds
+
+Horizontal Axis = n.
+
+attachment:sagemagma-20bit.png
+
+
+=== Comparing Magma (red) and Sage (blue): 64-bit entries ===
+
+Random n x n matrix.
+
+Vertical Axis = time in seconds
+
+Horizontal Axis = n.
+
+attachment:sagemagma-64bit.png
+
+
+=== Comparing Magma (red) and Sage (blue): 256-bit entries ===
+
+Random n x n matrix.
+
+Vertical Axis = time in seconds
+
+Horizontal Axis = n.
+
+(the last magma timing would take about an hour so I gave up)
+
+attachment:sagemagma-256bit.png
+
 
 
 == Benchmark 1: Random 50x50 single-digit matrix ==
