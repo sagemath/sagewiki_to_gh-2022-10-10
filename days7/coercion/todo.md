@@ -1,14 +1,15 @@
 === Files to fix (Make all parents conform to the spec) ===
 
 Nothing to do
- * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests, graphs
+ * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions
 
 
 Done
- * coding, functions
+ * coding, functions, graphs
 
 In progress
- * lfunctions
+ * groups
+ * matrix
 
 Little to do
 
@@ -20,11 +21,10 @@ Little to do
  * geometry
 
 Lots to do
- * groups
+
  * gsl
  * interfaces
  * libs
- * matrix
  * misc
  * modular
  * modules
