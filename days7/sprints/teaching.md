@@ -1,3 +1,4 @@
+## page was renamed from days7/sprints/testing
 = How close is sage to ready for teaching undergrad/grad combinatorial courses =
 
 Textbooks:
@@ -19,8 +20,8 @@ http://www.amazon.com/Course-Combinatorics-J-van-Lint/dp/0521422604
 
 Graphs:
  - Complete, except maybe chromatic number and Hamiltonian paths?
-   interface with graphviz?
-
+ - interface with graphviz: There is some functionality to interface NetworkX with graphviz and some algorithms that are implemented directly in Cython (like spring layout).  We also have a 
+ - See CombinatoricaCompare for a comparison to the fairly comprehensive graph theory functionality of the Mathematica Combinatorica package.
 Trees:
  - spanning trees / ... are there
    maybe they should return a Graph
