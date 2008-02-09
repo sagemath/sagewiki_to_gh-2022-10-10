@@ -1,5 +1,5 @@
 = Sage Days 7: Combinatorics =
-
+= ``Come stay up with us...'' =
 == Important Links ==
 
  * [:days7/schedule: Schedule]
