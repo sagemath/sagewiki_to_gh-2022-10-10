@@ -6,6 +6,8 @@ We did it!  Get hnf.hg from here http://trac.sagemath.org/sage_trac/ticket/174
 
 = Status Report =
 
+Unless otherwise stated, all benchmarks below were done on a 2.6Ghz core 2 duo laptop running OS X and 32-bit Sage and 32-bit Magma.
+
 STATUS REPORT:
 {{{
 Modular / p-adic HNF algorithm -- Stein, Pernet, Burcin
