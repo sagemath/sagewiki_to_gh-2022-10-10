@@ -1,7 +1,7 @@
 === Files to fix (Make all parents conform to the spec) ===
 
 Nothing to do
- * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic
+ * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests
 
 Done
  * coding
@@ -11,7 +11,6 @@ In progress
 
 Little to do
  * lfunctions
- * tests 
 
  * algebras
  * calculus
