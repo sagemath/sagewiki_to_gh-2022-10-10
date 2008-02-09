@@ -1,16 +1,46 @@
+Our goal: to clarify and ease the process of writing a new ring/combinatorial class/special kind of matrix while adding mathematical structure and lessening the need for code duplication.
+
+Here's the minimum you would need to write for a new kind of ring (eg pAdicRingLazy):
+ *   In the parent:
+   * {{{__init__}}}: must specify the element class, and the leaf categories that this object belongs to (eg element_class: {{{pAdicLazyElement}}} and categories: {{{CompleteDVR}}} and {{{TopologicalGroup}}})
+   * {{{_has_coercion_from_}}}: define which rings coerce to this one.
+   * {{{_gen_}}} (if you have generators)
+   * {{{_ngens_}}} (if you have generators)
+   * {{{_repr_}}}
+ *   In the element:
+   * {{{__init__}}}: must specify the parent.
+   * Arithmetic functions ({{{_add_}}}, {{{_mul_}}}, {{{_neg_}}}, {{{_invert_}}})
+   * {{{_repr_}}}: takes {{{do_latex}}} as an argument.
+   * {{{_cmp_}}}: can give a partial order, a total order or only specify when elements are equal or not.
+   * Pickling: if you're writing a Cython class you need to support pickling.  For now, this is done via {{{__reduce__}}}: we're trying to come up with a better system.
+
+Now, onto the details.
+
  *   Category functions
    *     Must Implement 
+     *   {{{_objects_implement_}}}: returns a list of strings giving the method names of methods that objects of this category must implement.
+     *   {{{_elements_implement_}}} (if objects of your category have elements): returns a list of strings giving the method names of methods that elements of objects of this category must implement.
+     *   {{{_morphisms_implement_}}}: returns a list of strings giving the method names of methods that morphisms of this category must implement.
+     *   There needs to be a way for a category to list the "forgetting structure" functors emanating from that category.  Currently we envision these functors as having two types: faithful forgetful functors where elements remain the same and functors where the resulting object has fewer elements (eg Fields -> MultiplicativeGroups)
    *     May want to implement
- *   Object functions
+     *   If you prepend a method name with "_elt_" and attach it to the category then it will be available to elements.  Correspondingly with "_obj_" and objects, "_mor_" and morphisms.
+ *   {{{Functors}}}
+   .     Functors are a primitive type (like objects, categories and elements) that are used in the category system but are also creatable by users.
+   *     Must implement
+     *       {{{_act_on_morphism_}}}: takes as input a morphism that's guaranteed to be in the domain category.
+     *       {{{_act_on_object_}}}: takes as input an object that's guaranteed to be in the domain category.
+ *   {{{NaturalTransformations}}}
+   .     I don't recall enough of my category theory off the top of my head, but we should support these.
+ *   {{{Objects}}}
    *     Must Implement
      *       {{{__init__}}}
        * Any initialization for the object
        * Must call superclass's {{{__init__}}} method with the following data:
-         * a list of categories that this object type belongs to.  Superclasses are automatically added, but the ORDER MATTERS for the order functions are detected in.
+         * a list of categories that this object type belongs to.  Superclasses (ie classes that are the image of a forgetful functor from one of the categories on the list) are automatically added, but the ORDER MATTERS for the order functions are detected in.
  *   Parent functions
    *     Must Implement
      *       {{{__init__}}}
-       * Should do what initialization for the parent
+       * Should do any needed initialization for the parent
        * Must call superclass's {{{__init__}}} method with the following data:
          * your element class (required)
          * whether {{{element_class.__init__}}} takes Parent as the first argument (default True)
@@ -144,13 +174,11 @@
        *     It should be fast.
      *       {{{_repr_}}}
        *     This is the easiest way to define how your object prints.
-       *     It should return a string.
+       *     It should return a string representing your object.
+       *     It takes one argument: {{{do_latex}}}.  If True, this function should return LaTeX code representing the object.
        *     Keep in mind that your string representation may be used as a component of others.  It does not need to convey all the information about the object necessarily, though in simple cases it is nice if your object is reconstructible from the print representation.
        *     Most things don't distinguish between {{{__repr__}}} and {{{__str__}}} but there exist objects in Sage that do.  See sage.plot.plot or sage.calculus.calculus for some examples.
        *     To allow users more runtime control over how objects print, see the section on {{{Printers}}}
-     *       {{{_latex_}}}
-       *     This function should return LaTeX code representing your object.
-       *     As for {{{_repr_}}}, see the section on {{{Printers}}} for more advanced mechanisms for handling this function.
    *     Functions you may want to implement
      *       {{{_polynomial_}}}, {{{_integer_}}}, {{{_real_double}}}, etc
        *     These functions are used by other specific other parents' {{{__call__}}} methods to create elements.
