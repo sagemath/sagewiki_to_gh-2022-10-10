@@ -1,3 +1,6 @@
+[:days7/coercion-todo: To Do]
+
+
 Our goal: to clarify and ease the process of writing a new ring/combinatorial class/special kind of matrix while adding mathematical structure and lessening the need for code duplication.
 
 Here's the minimum you would need to write for a new kind of ring (eg pAdicRingLazy):
