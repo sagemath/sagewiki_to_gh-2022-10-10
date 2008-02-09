@@ -57,6 +57,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
 
 == Setting up the build system (In Detail) ==
 
+ * based on build system for [http://debathena.mit.edu Debian-Athena]
  * Start Debian installer
  * Partitioning method: "Guided - use entire disk and set up LVM" - accept defaults and write LVM init to disk
  * delete original main LVM volume, create new VG, say with 10GB
@@ -105,12 +106,12 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * sbuildhack lenny-i386 valgrind-3.3.0-1.dsc
 
  * Building a Debian package via {{{make}}} from {{{$SAGE_LOCAL}}}:
-   * set env variable {{{DEBIANRELEASE}}} to "lenny-i386" [building deb in schroot env]
+   * set env variable {{{DEBIAN_RELEASE}}} to "lenny-i386" [building deb in schroot env]
    * set env variable {{{USEDEB}}} to "yes": first try to sudo apt-get install {{{$SPKG.deb}}}
-   * sage-spkg: check if {{{USEDEB}}} and {{{DEBIANRELEASE}}} is set: if spkg-debian exists in {{{$SPKG_ROOT}}} execute it, otherwise do default sbuildhack - see http://trac.sagemath.org/sage_trac/ticket/2098 for patch
+   * sage-spkg: check if {{{DEBIAN_RELEASE}}} is set: if spkg-debian exists in {{{$SPKG_ROOT}}} execute it, otherwise do default sbuildhack - see http://trac.sagemath.org/sage_trac/ticket/2098 for patch
 
 
-== Structure for dist-specific build systems ==
+== Structure for dist-specific build systems in general ==
 
- {{{$SPKG_ROOT/src}}}
- {{{$SPKG_ROOT/dist/$NAME}}}
+ * Can expect upstream sources to be available at {{{$SPKG_ROOT/src}}}
+ * Can store distribution-specific files in {{{$SPKG_ROOT/dist/$NAME}}}
