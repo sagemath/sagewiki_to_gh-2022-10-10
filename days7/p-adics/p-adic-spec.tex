@@ -1,0 +1,195 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amsfonts, amssymb}
+
+\def\QQ{\mathbb{Q}}
+\def\RR{\mathbb{R}}
+\def\ZZ{\mathbb{Z}}
+
+\begin{document}
+
+\title{A $p$-adic floating point specification}
+\author{Kiran S. Kedlaya, for SAGE Days 7}
+
+\maketitle
+
+The field $\QQ_p$ of $p$-adic numbers, like the real field $\RR$, is an
+\emph{inexact field}, in the sense that there is no way to give
+finite descriptions of all of its elements. Consequently, any computer
+algebra system that supports computation in $\QQ_p$ must provide some
+mechanism for handling numbers which are only approximately specified.
+
+One method for doing this is what one might call \emph{fixed point 
+arithmetic}; this amounts to working in the quotient $\QQ_p / p^n \ZZ_p$
+for some integer $n$. This is relatively easy to describe, but is not
+ideal for many computations, especially when multiplication and
+division are used heavily.
+
+Instead, we describe here a notion of 
+\emph{$p$-adic floating-point arithmetic}, modeled on the IEEE 754 
+specification for real floating-point arithmetic. This is similar to
+the analogous notion for real numbers, if somewhat less complicated;
+nonetheless, it is important to give a precise specification, so that it 
+is possible to decide whether any particular implementation does or does
+not correctly implement this specification.
+
+To clarify matters, we will separate the specification of the arithmetic
+from the analysis of the precision maintained. This is natural in the real
+case, where the latter amounts to use of interval arithmetic. It is 
+tempting not to make this separation in the $p$-adic case, but this
+can lead to confusion in a few cases.
+
+\section{Numbers}
+
+We fix a prime number $p$, and positive integers $e$ and $m$.
+A \emph{$p$-adic floating-point number}, or for short a \emph{pFP number},
+will consist of a pair $n = (E,M)$,
+where $E$ is an integer in the range $-2^{e-1} \leq E \leq 2^{e-1} - 1$,
+called the \emph{exponent}, and $M$ is an integer in the range
+$\lfloor -(p^{m}-1)/2 \rfloor < M \leq \lfloor (p^m-1)/2 \rfloor$,
+called the \emph{mantissa}.
+
+We classify pFP numbers as follows:
+\begin{center}
+\begin{tabular}{c|c|c} \\
+type & $E$ & $M$ \\
+\hline
+normal & $-2^{e-1}+1 \leq E \leq 2^{e-1} - 1$ & $M \not\equiv 0 \pmod{p}$ \\
+subnormal & $E = 2^{e-1} - 1$ & $M \equiv 0 \pmod{p}$, $M \neq 0$ \\
+zero ($0$) & $E = 0$ & $M = 0$ \\
+infinity ($\infty$) & $E = -2^{e-1}$ & $M = 0$ \\
+NaN & $E = -2^{e-1}$ & $M \neq 0$
+\end{tabular}
+\end{center}
+Note that the IEEE 754 standard includes signed infinities and signed NaNs.
+These do not make sense for $p$-adic numbers, since there is no notion of
+sign. The IEEE 754 standard also distinguishes between quiet and signaling
+NaNs; we will not make this distinction here either.
+
+\section{Comparisons}
+
+The operators $<, \leq, >, \geq$ are not defined for $p$-adic numbers.
+The only meaningful comparison operators are $=$ and $\neq$;
+they return one of the three values True, False, or Ambiguous.
+
+Let $n_1 = (E_1, M_1)$ and $n_2 = (E_2, M_2)$ be two numbers.
+If at least one of $n_1, n_2$ is an NaN, then both 
+$n_1 = n_2$ and $n_1 \neq n_2$ 
+return Ambiguous. If neither $n_1$ nor $n_2$ is an NaN,
+then $n_1 = n_2$ returns True
+if $(E_1,M_1) = (E_2,M_2)$ as an ordered pair,
+and False otherwise. Similarly, 
+if neither $n_1$ nor $n_2$ is an NaN,
+then $n_1 \neq n_2$ returns True if 
+$(E_1,M_1) \neq (E_2,M_2)$ as an ordered pair,
+and False otherwise.
+
+\section{Values}
+
+Define $\QQ_p' = \QQ_p\cup\{\infty, *\}$.
+Define the \emph{value} $\#(n)$ of a pFP number $n = (E,M)$ 
+as follows.
+\begin{enumerate}
+\item[(a)]
+If $n$ is an NaN, put $\#(n) = *$.
+\item[(b)]
+If $n$ is infinity, put $\#(n) = \infty$.
+\item[(c)]
+If $n$ is \emph{finite} (normal, subnormal, or zero),
+put $\#(n) = M p^E$.
+\end{enumerate}
+We say an element of $\QQ_p$ is \emph{representable} if it
+is the value of some pFP number.
+
+Let $F$ be the set of pFP numbers, and
+let $F_0$ be the subset of $F$ consisting of finite pFp numbers.
+Let $\tilde{f}(x_1,\dots,x_k): 
+(\QQ_p')^k \to \QQ_p'$ be
+an operation of arity $k \geq 1$. We say that the operation
+$f(x_1,\dots,x_k): (F')^k \to F'$ is the \emph{compliant
+approximation} to $\tilde{f}$ if the following condition
+is satisfied for any $n_1,\dots,n_k \in F'$.
+\begin{enumerate}
+\item[(a)]
+If $\tilde{f}(\#(n_1), \dots, \#(n_k)) = *$, then
+$f(n_1,\dots,n_k) = *$.
+\item[(b)]
+If $\tilde{f}(\#(n_1), \dots, \#(n_k)) = \infty$, then
+$f(n_1,\dots,n_k) = \infty$.
+\item[(c)]
+If $\tilde{f}(\#(n_1), \dots, \#(n_k)) \in \QQ_p$
+and $v_p(\tilde{f}(\#(n_1), \dots, \#(n_k))) \leq -2^{e-1}$,
+then $f(n_1,\dots,n_k) = \infty$.
+\item[(d)]
+If $\tilde{f}(\#(n_1), \dots, \#(n_k)) \in \QQ_p$
+and $v_p(\tilde{f}(\#(n_1), \dots, \#(n_k))) \geq -2^{e-1}$,
+then $f(n_1,\dots,n_k) = 0$.
+\item[(e)]
+If $\tilde{f}(\#(n_1), \dots, \#(n_k)) \in \QQ_p$
+and $-2^{e-1} + 1 \leq v_p(\tilde{f}(\#(n_1), \dots, \#(n_k))) \leq 2^{e-1}-1$,
+then $f(n_1,\dots,n_k)$
+is the unique element of $F$ which maximizes
+$v_p(\#(f(n_1,\dots,n_k)) - \tilde{f}(\#(n_1), \dots, \#(n_k)))$.
+\end{enumerate}
+
+Case (c) may be described as \emph{overflow}. Case (d) may be 
+described as \emph{underflow} except if
+$\tilde{f}(\#(n_1), \dots, \#(n_k))$ is actually equal to 0.
+
+\section{Precision}
+
+An \emph{pFP interval} consists of a pair $(n, d)$, where $n$ is a pFP,
+and $d \in \{-\infty, 0, \dots, m, +\infty\}$. If $n = (E,M)$ 
+is finite, then the
+\emph{value set} of $(n,d)$ consists of all $x \in \QQ_p$ such that
+$v_p(x - Mp^E) \geq d + E$.
+
+Let $\tilde{f}(x_1,\dots,x_k): 
+(\QQ_p')^m \to \QQ_p'$ be
+an operation of arity $k \geq 1$, and let 
+$f(x_1,\dots,x_k): (F')^k \to F'$ be the compliant
+approximation to $\tilde{f}$.
+We extend $f$ to pFP intervals $(n_1,d_1),\dots,(n_k,d_k)$ 
+by declaring its value to be $(n,d)$, where
+$n = f(n_1,\dots,n_k)$, and $d$ is the least value in 
+$\{-\infty,0,\dots,m,+\infty\}$ such that the value set of $(n,d)$ contains 
+$\tilde{f}(x_1,\dots,x_k)$ for each $x_i$ in the value set of $(n_i,d_i)$.
+
+Note that we allow $d = -\infty$; that means that we have exact floating-point
+representations not only of $0$, but of every integer in the range
+$\lfloor -(p^{m}-1)/2 \rfloor, \dots, \lfloor (p^m-1)/2 \rfloor$.
+
+\section{Field arithmetic operations}
+
+The specification requires implementation of the unary operation
+$-$, the commutative binary operations $+, \times$,
+and the noncommutative binary operations $-, \div$.
+To specify these, it suffices to extend them to operations on $\QQ_p'$
+and then insist on the compliant approximation. The following
+table explains how to do this. (We take the outcome of any operation
+involving $*$ to be $*$.)
+
+\begin{center}
+\begin{tabular}{c|c} \\
+operation & outcome \\
+\hline
+$-\infty$ & $\infty$ \\
+$\infty + n \quad (n \neq \infty)$ & $\infty$ \\
+$\infty + \infty$ & * \\
+$\infty - n \quad (n \neq \infty)$ & $\infty$ \\
+$n - \infty  \quad (n \neq \infty)$ & $\infty$ \\
+$\infty - \infty$ & * \\
+$\infty \times n \quad (n \neq 0)$ & $\infty$ \\
+$\infty \times 0$ & * \\
+$n \div 0 \quad (n \neq 0)$ & $\infty$ \\
+$0 \div 0$ & * \\
+$\infty \div n \quad (n \neq \infty)$ & $\infty$ \\
+$n \div \infty \quad (n \neq \infty)$ & 0 \\
+$\infty \div \infty$ & * \\
+\end{tabular}
+\end{center}
+
+We also require the exponentiation operation $n^m$ for $n \in F'$
+and $m$ a nonnegative integer, defined as the $m$-fold product 
+$n \times \cdots \times n$.
+
+\end{document}
