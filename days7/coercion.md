@@ -16,7 +16,7 @@ Here's the minimum you would need to write for a new kind of ring (eg pAdicRingL
 
 Now, onto the details.
 
- *   Category functions
+ *   {{{Category's}}}
    *     Must Implement 
      *   {{{_objects_implement_}}}: returns a list of strings giving the method names of methods that objects of this category must implement.
      *   {{{_elements_implement_}}} (if objects of your category have elements): returns a list of strings giving the method names of methods that elements of objects of this category must implement.
