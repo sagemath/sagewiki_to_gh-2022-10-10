@@ -36,9 +36,16 @@
  * numerical
  * probability
  * quadratic_forms
- * rings
  * schemes
  * sets
+
+ * rings
+  * complex
+  * real
+  * polynomial
+  * padic
+  * other
+
 
  * structure
 
