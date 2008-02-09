@@ -53,7 +53,6 @@ Now, onto the details.
        * Should do any needed initialization for the parent
        * Must call superclass's {{{__init__}}} method with the following data:
          * your element class (required)
-         * whether {{{element_class.__init__}}} takes Parent as the first argument (default True)
          * a list of leaf categories (see Object {{{__init__}}} description)
        * Note that {{{__init__}}} may be called more than once.  If you do things (like C memory allocation) that should only happen once, use can use {{{__cinit__}}} for Cython.  If you're writing a Python class and you care that you might get called twice, you'll have to manually track whether you've been called.
        * If you write a {{{_populate_coercion_lists_}}} function (see below), you must call it in your {{{__init__}}} method (and nowhere else).
@@ -167,6 +166,8 @@ Now, onto the details.
        *     Your function should take one argument, which is the exponent.  There is no guarantee as to the type of the exponent: you should do your own type checking.
    *     Functions you should implement
      *       {{{__init__}}}
+       * This by default accepts Parent as the first argument. If not, it must have an attribute {{{init_no_parent}}} set to False
+
      *       {{{_cmp_}}} (cpdef) (call using >, <, ==, !=, >=, <=, {{{__cmp__}}, {{{__richcmp__}}})
        .     This function implements element comparison.
        *     It takes one input, which is the element to which it is being compared.  This other element is guaranteed to have the same parent.
