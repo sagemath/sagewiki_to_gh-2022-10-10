@@ -5,7 +5,7 @@ Our goal: to clarify and ease the process of writing a new ring/combinatorial cl
 
 Here's the minimum you would need to write for a new kind of ring (eg pAdicRingLazy):
  *   In the parent:
-   * {{{__init__}}}: must specify the element class, and the leaf categories that this object belongs to (eg element_class: {{{pAdicLazyElement}}} and categories: {{{CompleteDVR}}} and {{{TopologicalGroup}}})
+   * {{{__init__}}}: must specify {{{element_class}}} and a list of leaf categories that this object belongs to (eg element_class: {{{pAdicLazyElement}}} and categories: {{{CompleteDVR}}} and {{{TopologicalGroup}}})
    * {{{_has_coercion_from_}}}: define which rings coerce to this one.
    * {{{_gen_}}} (if you have generators)
    * {{{_ngens_}}} (if you have generators)
