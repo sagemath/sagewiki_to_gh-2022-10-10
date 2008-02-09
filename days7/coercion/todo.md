@@ -5,13 +5,12 @@ Nothing to do
 
 
 Done
- * coding
+ * coding, functions
 
 In progress
- * functions
+ * lfunctions
 
 Little to do
- * lfunctions
 
  * algebras
  * calculus
