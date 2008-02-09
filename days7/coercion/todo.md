@@ -1,4 +1,4 @@
-=== Files to fix ===
+=== Files to fix (Make all parents conform to the spec) ===
 
 Nothing to do
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic
