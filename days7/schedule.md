@@ -84,7 +84,7 @@ Back to the [:days7: main conference page].
  * [:days7/sprints: coding sprints!]
  * 8:30 Coercion framework talk and discussion
  * 10:30 Michael Abshoff, talking on valgrind
- * 10:50 Jason Grout, [MercurialQueues: Mercurial Queues]
+ * 10:50 Jason Grout, [:MercurialQueues: Mercurial Queues]
 
 === Sat. Feb. 9 ===
 
