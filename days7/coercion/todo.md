@@ -8,6 +8,7 @@ Nothing to do
 
 Done
  * coding, functions, graphs
+ * matrix [http://sage.math.washington.edu/home/robertwb/coerce/coerce-all.hg]
 
 In progress
  * groups
