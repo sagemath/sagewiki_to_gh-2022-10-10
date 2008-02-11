@@ -1,5 +1,7 @@
 === Files to fix (Make all parents conform to the spec) ===
 
+Useful script to list all parents in a module: 
+
 Nothing to do
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions
 
