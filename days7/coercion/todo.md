@@ -1,6 +1,6 @@
 === Files to fix (Make all parents conform to the spec) ===
 
-Useful script to list all parents in a module: 
+Useful script to list all parents in a given module: [attachment:list_parents.sage]
 
 Nothing to do
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions
