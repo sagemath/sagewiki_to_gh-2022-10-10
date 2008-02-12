@@ -12,7 +12,8 @@ Done
 
 In progress
  * groups
- * matrix
+ * complex
+ * real
 
 Little to do
 
@@ -39,8 +40,6 @@ Lots to do
  * sets
 
  * rings
-  * complex
-  * real
   * polynomial
   * padic
   * other
