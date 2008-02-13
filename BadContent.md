@@ -4274,6 +4274,8 @@ bjjhj\.com
 gdqingtian\.com
 tiffanyline\.com
 ggfou\.com
+jxmc\.com\.cn
+donba\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
