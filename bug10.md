@@ -24,7 +24,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  1. William Stein (everything)
  2. Michael Abshoff (memory leaks, ports)
  3. David Joyner (minor Bessel function bug, minor tutorial edits, maybe coding theory improvements)
-
+ 4. Burcin Erocal (PolyBoRi interface problems - 0.2 package, infinity, special functions) 
 Many other people will hopefully participate, but didn't yet add themselves here due to the rather tight schedule.
 
 = Ticket status and reviews needed =
