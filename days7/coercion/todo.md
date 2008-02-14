@@ -13,6 +13,7 @@ Done
 
 In progress
  * groups
+ * modules
 
 Little to do
 
@@ -30,7 +31,6 @@ Lots to do
  * libs
  * misc
  * modular
- * modules
  * monoids
  * numerical
  * probability
