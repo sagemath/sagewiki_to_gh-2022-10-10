@@ -1,7 +1,7 @@
 ## page was renamed from days7/sprints/testing
 = How close is sage to ready for teaching undergrad/grad combinatorial courses =
 
-== [http://sage.math.washington.edu/home/burhanud/sd7/teaching/teaching.wav Audio] ==
+== [http://sage.math.washington.edu/home/burhanud/sd7/teaching/teaching.wav : Audio] ==
 
 Textbooks:
 
