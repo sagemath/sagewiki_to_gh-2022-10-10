@@ -27,6 +27,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  4. Burcin Erocal (PolyBoRi interface problems - 0.2 package, infinity, special functions) 
  5. Yi Qiang (Getting dsage doctest integration in)
  6. Clément Pernet (linear algebra related bugs, memleaks)
+ 7. Timothy Clemans (Mathematica interface, notebook, cryptography)
 
 Many other people will hopefully participate, but didn't yet add themselves here due to the rather tight schedule.
 
