@@ -32,6 +32,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  7. Timothy Clemans (Mathematica interface, notebook, cryptography)
  8. Craig Citro (cool stuff)
  9. Carl Witty (skim the reference manual, fix things that look wrong or badly-LaTeXed)
+ 10. Alex Ghitza (start with #756)
 
 Many other people will hopefully participate, but didn't yet add themselves here due to the rather tight schedule.
 
