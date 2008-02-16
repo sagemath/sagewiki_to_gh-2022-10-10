@@ -4,7 +4,7 @@ The event will take place on '''Saturday, February 16th, 2008''' and officially 
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
- * The base version of SAGE we'll start with is '''2.10.2.alpha0''' - make sure to apply the fix from #2172.  This is the current sage release, which you can upgrade to.  Also, many binaries are available. 
+ * The base version of SAGE we'll start with is '''2.10.2.alpha0''' - make sure to apply the fix from #2172.
  * [:bug10/status:STATUS]
  * [:bug10/irc:IRC log]
  * Write to wstein@gmail.com or michael.abshoff@gmail.com for an account on the bug tracker.
