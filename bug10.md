@@ -31,6 +31,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  6. Clément Pernet (linear algebra related bugs, memleaks)
  7. Timothy Clemans (Mathematica interface, notebook, cryptography)
  8. Craig Citro (cool stuff)
+ 9. Carl Witty (skim the reference manual, fix things that look wrong or badly-LaTeXed)
 
 Many other people will hopefully participate, but didn't yet add themselves here due to the rather tight schedule.
 
