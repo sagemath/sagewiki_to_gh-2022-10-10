@@ -84,9 +84,10 @@ sage: p2 = parametric_plot3d([cos(u)/2, sin(u)/2, v-3/4], (u, 0, 2*pi), (v, 0, 3
 sage: show(p1+p2)
 }}}
 
- * An animation by Dean Moore: http://sage.math.washington.edu/home/wdj/art/hypotrochoid_R_equals_7,_r_equals_2,_d=3.gif
-
+ * An animation by Dean Moore: 
 Hypotrochoid. Written by Dean Moore, February 2008                            
+
+http://sage.math.washington.edu/home/wdj/art/hypotrochoid_R_equals_7,_r_equals_2,_d=3.gif
 
                      Inspiration:                                                                  
                                                                                
