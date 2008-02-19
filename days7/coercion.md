@@ -58,7 +58,7 @@ Now, onto the details.
        * If you write a {{{_populate_coercion_lists_}}} function (see below), you must call it in your {{{__init__}}} method (and nowhere else).
      *   {{{_has_coerce_map_from_}}} (cpdef) (called by {{{has_coerce_map_from}}})
        * Takes a parent as an argument and returns True iff there is a canonical map from that parent to self.
-       * You may override make_coerce_map_from instead of this function.  If you override both they should be consistent.
+       * You may override {{{_coerce_map_from_}}} instead of this function.  If you override both they should be consistent.
        * The existence or non-existence of a coercion map is cached both in self and elsewhere.  Because parents must be immutable, the return value of this function is constant over time.
        *     If you call the default implementation {{{Parent._has_coerce_map_from_(self, P)}}} from your implemention (which you probably don't want to do), you MUST have overridden {{{_coerce_map_from_}}} (because the two default implementations call each other).
    *     Advanced Users May Implement
@@ -70,7 +70,7 @@ Now, onto the details.
        *     The default functionality that you're replacing is: use {{{has_ceorcion_from}}} to see if a coercion exists and if so create a morphism that calls {{{self._element_class}}}'s {{{__init__}}} method.
        *     If you override this method, you need to handle all possibilities for P.
        *     If you call the default implementation {{{Parent._coerce_map_from_(self, P)}}} from your implemention, you MUST have overridden {{{_has_coerce_map_from_}}} (because the two default implementations call each other).
-       *     ALL COERCION MORPHISMS SHOULD COMMUTE WITH EACH OTHER.  We don't check this assumption currently, since in many cases morphisms cannot be compared for equality.  But it is an important assumption for the model, and you should keep it in mind when deciding how canonical a morphism you want to use actually is.
+       *     ALL COERCION MORPHISMS SHOULD COMMUTE WITH EACH OTHER (modulo possible round-off error issues).  We don't check this assumption currently, since in many cases morphisms cannot be compared for equality.  But it is an important assumption for the model, and you should keep it in mind when deciding how canonical a morphism you want to use actually is.
      *       {{{_convert_map_from_}}} (cpdef) (called by {{{conversion_from}}})
        *     Overriding this function provides the ability to specify conversion morphisms.  These are the morphisms that convert elements from one parent to another, possibly non-canonically.
        *     It takes one argument P, the parent you're converting from.
