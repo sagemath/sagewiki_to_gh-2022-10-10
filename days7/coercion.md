@@ -6,7 +6,7 @@ Our goal: to clarify and ease the process of writing a new ring/combinatorial cl
 Here's the minimum you would need to write for a new kind of ring (eg pAdicRingLazy):
  *   In the parent:
    * {{{__init__}}}: must specify {{{element_class}}} and a list of leaf categories that this object belongs to (eg element_class: {{{pAdicLazyElement}}} and categories: {{{CompleteDVR}}} and {{{TopologicalGroup}}})
-   * {{{_has_coercion_from_}}}: define which rings coerce to this one.
+   * {{{_has_coerce_map_from_}}}: define which rings coerce to this one.
    * {{{_gen_}}} (if you have generators)
    * {{{_ngens_}}} (if you have generators)
    * {{{_repr_}}}
@@ -56,28 +56,28 @@ Now, onto the details.
          * a list of leaf categories (see Object {{{__init__}}} description)
        * Note that {{{__init__}}} may be called more than once.  If you do things (like C memory allocation) that should only happen once, use can use {{{__cinit__}}} for Cython.  If you're writing a Python class and you care that you might get called twice, you'll have to manually track whether you've been called.
        * If you write a {{{_populate_coercion_lists_}}} function (see below), you must call it in your {{{__init__}}} method (and nowhere else).
-     *   {{{_has_coercion_from_}}} (cpdef) (called by {{{has_coercion_from}}})
+     *   {{{_has_coerce_map_from_}}} (cpdef) (called by {{{has_coerce_map_from}}})
        * Takes a parent as an argument and returns True iff there is a canonical map from that parent to self.
-       * You may override make_coercion_from instead of this function.  If you override both they should be consistent.
+       * You may override make_coerce_map_from instead of this function.  If you override both they should be consistent.
        * The existence or non-existence of a coercion map is cached both in self and elsewhere.  Because parents must be immutable, the return value of this function is constant over time.
-       *     If you call the default implementation {{{Parent._has_coercion_from_(self, P)}}} from your implemention (which you probably don't want to do), you MUST have overridden {{{_coercion_from_}}} (because the two default implementations call each other).
+       *     If you call the default implementation {{{Parent._has_coerce_map_from_(self, P)}}} from your implemention (which you probably don't want to do), you MUST have overridden {{{_coerce_map_from_}}} (because the two default implementations call each other).
    *     Advanced Users May Implement
-     *       {{{_coercion_from_}}} (cpdef) (called by {{{coercion_from}}})
+     *       {{{_coerce_map_from_}}} (cpdef) (called by {{{coercion_from}}})
        *     Overriding this function provides the ability to specify canonical morphisms to fit into the coercion model.
        *     It takes one argument P, the parent you're coercing from.
        *     It should return a morphism from P to self.  This morphism should be canonical, though deterministic arbitrary choices may be allowed.  One example of this is the "natural" embedding of symmetric groups.  For a more detailed discussion of what makes a map canonical in this sense, see elsewhere.
        *     You MUST return an object of type Morphism, or None.
        *     The default functionality that you're replacing is: use {{{has_ceorcion_from}}} to see if a coercion exists and if so create a morphism that calls {{{self._element_class}}}'s {{{__init__}}} method.
        *     If you override this method, you need to handle all possibilities for P.
-       *     If you call the default implementation {{{Parent._coercion_from_(self, P)}}} from your implemention, you MUST have overridden {{{_has_coercion_from_}}} (because the two default implementations call each other).
+       *     If you call the default implementation {{{Parent._coerce_map_from_(self, P)}}} from your implemention, you MUST have overridden {{{_has_coerce_map_from_}}} (because the two default implementations call each other).
        *     ALL COERCION MORPHISMS SHOULD COMMUTE WITH EACH OTHER.  We don't check this assumption currently, since in many cases morphisms cannot be compared for equality.  But it is an important assumption for the model, and you should keep it in mind when deciding how canonical a morphism you want to use actually is.
-     *       {{{_conversion_from_}}} (cpdef) (called by {{{conversion_from}}})
+     *       {{{_convert_map_from_}}} (cpdef) (called by {{{conversion_from}}})
        *     Overriding this function provides the ability to specify conversion morphisms.  These are the morphisms that convert elements from one parent to another, possibly non-canonically.
        *     It takes one argument P, the parent you're converting from.
        *     It should return a morphism from P to self.  This morphism need not be canonical.
        *     You MUST return an object of type Morphism, or None.
        *     The default functionality that you're replacing is: create and return a morphism that calls {{{self._element_class}}}'s {{{__init__}}} method.
-       *     If you override this method, you need to handle all possibilities for P (though you can handle a few and then call {{{Parent._conversion_from_(self, P)}}}).
+       *     If you override this method, you need to handle all possibilities for P (though you can handle a few and then call {{{Parent._convert_map_from_(self, P)}}}).
      *       {{{_get_action_}}} (cpdef) (called by {{{get_action}}})
        *     This gives you the ability to register actions with the coercion system (so that you can use {{{g * x}}} for your favorite action).
        *     This function takes the following arguments:
@@ -254,4 +254,4 @@ Now, onto the details.
 Notes: 
 About Cython functions:
  * You must write {{{__reduce__}}}
- * Keep in mind the {{{__cinit__}}}
+ * Keep in mind the {{{__cinit__}}} (formerly {{{__new__}}})
