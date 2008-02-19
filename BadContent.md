@@ -4040,8 +4040,6 @@ dianhualy\.com
 ifcmbj\.com
 xbjk120\.net
 howview\.cn
-1kan\.net\.cn
-hzw1\.com
 egri\.net\.cn
 digseo\.net
 hzst\.net\.cn
