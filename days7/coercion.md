@@ -37,8 +37,8 @@ Now, onto the details.
  *   {{{Functors}}}
    .     Functors are a primitive type (like objects, categories and elements) that are used in the category system but are also creatable by users.
    *     Must implement
-     *       {{{_act_on_morphism_}}}: takes as input a morphism that's guaranteed to be in the domain category.
-     *       {{{_act_on_object_}}}: takes as input an object that's guaranteed to be in the domain category.
+     *       {{{_act_on_morphism_}}}??: takes as input a morphism that's guaranteed to be in the domain category.
+     *       {{{_act_on_object_}}}??: takes as input an object that's guaranteed to be in the domain category.
  *   {{{NaturalTransformations}}}
    .     I don't recall enough of my category theory off the top of my head, but we should support these.
  *   {{{Objects}}}
