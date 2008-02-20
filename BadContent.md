@@ -4281,6 +4281,7 @@ bodahg\.com
 51zzw\.cn
 thecommercejournal\.com
 da-zhong-ban-chang\.com
+gl-firmenadressen\.(info|net)
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
