@@ -9,3 +9,4 @@
  * Craig Citro: Anything after July 4 works great for me. 
  * Jason Grout: May 19 - May 23; June 23 - June 26; July 28 - Aug 15
  * David Roe: May 24-June 25, August 18-Sept 9
+ * Emily Kirkman: June 13 - June 22
