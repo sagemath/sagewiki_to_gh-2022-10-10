@@ -12,3 +12,4 @@
  * Emily Kirkman: June 13 - June 22
  * Clément Pernet: any date except July 7-11 (SIAM meeting in San Diego), and maybe July 20-23 (ISSAC), although not sure I'll go there.
  * Mike Hansen: any dates at this point
+ * Bill Purvis: any dates at this point (retired systems engineer)
