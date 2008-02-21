@@ -24,6 +24,8 @@ Back to the [:days7: main conference page].
 
  * 4:00 Robert Bradshaw, UW Seattle
 
+    . [http://sage.math.washington.edu/home/robertwb/3d/Sage3D.pdf slides] and [http://sage.math.washington.edu/home/robertwb/3d/days7.sws worksheet] (live here https://www.sagenb.org/home/pub/1696/)
+
  * 5:00 [:days7/sprints: coding sprints!]
 
 [http://sage.math.washington.edu/home/burhanud/sd7/day1/ Pictures]
@@ -87,6 +89,7 @@ Back to the [:days7: main conference page].
 === Fri. Feb. 8 ===
 
  * [:days7/sprints: coding sprints!]
+ * 6:30 Cython session [http://sage.math.washington.edu/home/robertwb/cython/fast-cython-bis.pdf slides] and [http://hg.sagemath.org/sage-main/file/7994ac1af415/sage/interfaces/libecm.pyx example]
  * 8:30 Coercion framework talk and discussion
  * 10:30 Michael Abshoff, talking on valgrind
  * 10:50 Jason Grout, [:MercurialQueues: Mercurial Queues]
