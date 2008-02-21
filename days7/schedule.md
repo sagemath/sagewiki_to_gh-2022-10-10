@@ -24,7 +24,7 @@ Back to the [:days7: main conference page].
 
  * 4:00 Robert Bradshaw, UW Seattle
 
-    . [http://sage.math.washington.edu/home/robertwb/3d/Sage3D.pdf slides] and [http://sage.math.washington.edu/home/robertwb/3d/days7.sws worksheet] (live here https://www.sagenb.org/home/pub/1696/)
+    . [http://sage.math.washington.edu/home/robertwb/3d/Sage3D.pdf slides] and [http://sage.math.washington.edu/home/robertwb/3d/days7.sws worksheet] ([https://www.sagenb.org/home/pub/1696/ live])
 
  * 5:00 [:days7/sprints: coding sprints!]
 
