@@ -118,4 +118,28 @@ sage: f.critical_points()
 
 === Taylor series ===
 
+Taylor series:
+
+{{{
+sage: var('f0 k x')
+(f0, k, x)
+sage: g = f0/sinh(k*x)^4
+sage: g.taylor(x, 0, 3)
+f0/(k^4*x^4) - 2*f0/(3*k^2*x^2) + 11*f0/45 - 62*k^2*f0*x^2/945
+sage: maxima(g).powerseries('x',0)
+16*f0*('sum((2^(2*i1-1)-1)*bern(2*i1)*k^(2*i1-1)*x^(2*i1-1)/(2*i1)!,i1,0,inf))^4
+}}}
+Of course, you can view the latexed version of this using view(g.powerseries('x',0)).
+
+The Maclaurin and power series of $ \log({\frac{\sin(x)}{x}})$ :
+{{{
+sage: f = log(sin(x)/x)
+sage: f.taylor(x, 0, 10)
+-x^2/6 - x^4/180 - x^6/2835 - x^8/37800 - x^10/467775
+sage: [bernoulli(2*i) for i in range(1,7)]
+[1/6, -1/30, 1/42, -1/30, 5/66, -691/2730]
+sage: maxima(f).powerseries(x,0)
+('sum((-1)^i2*2^(2*i2)*bern(2*i2)*x^(2*i2)/(i2*(2*i2)!),i2,1,inf))/2
+}}}
+
 === Applications of Taylor series ===
