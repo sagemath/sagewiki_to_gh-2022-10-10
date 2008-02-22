@@ -3,7 +3,7 @@
 
 ORGANIZERS: William Stein, Robert Bradshaw
 
-DATES: June 13-22, 2008
+DATES: June 13-21, 2008
 
 The goal of this "developer coding week" will be to write a huge amount of high quality code.  All talks will be squarely aimed at developers and be directly related to coding projects.  All participants will assumed to be very experienced programmers. The main topics will be: Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Windows.   However, like with all of Sage development, participants are encouraged to work on whatever they feel will be the ''most productive'' way for them to spend their time.   
 
