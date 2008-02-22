@@ -31,6 +31,22 @@ sage: derivative(atan(x), x)
 1/(x^2 + 1)
 }}}
 
+Another example:
+
+{{{
+sage: var('x k w')
+(x, k, w)
+sage: f = x^3 * e^(k*x) * sin(w*x); f
+x^3*e^(k*x)*sin(w*x)
+sage: f.diff(x)
+k*x^3*e^(k*x)*sin(w*x) + 3*x^2*e^(k*x)*sin(w*x) + w*x^3*e^(k*x)*cos(w*x)
+sage: print diff(f, x)
+           3   k x               2   k x               3   k x
+        k x   e    sin(w x) + 3 x   e    sin(w x) + w x   e    cos(w x)
+sage: latex(f.diff(x))
+{{{k {x}^{3} } {e}^{{k x}} } \sin \left( {w x} \right)} + {{{3 {x}^{2} } {e}^{{k x}} } \sin \left( {w x} \right)} + {{{w {x}^{3} } {e}^{{k x}} } \cos \left( {w x} \right)}
+}}}
+
 === Laws ===
 
 SAGE can verify the product rule
