@@ -18,10 +18,20 @@
 
 == Topics ==
 
-  * Cython -- something much deeper than usual, and not necessarily so Sage related.  Cython is one of the "killer apps" of Sage.
+  * Cython -- something much deeper than usual, and not necessarily so Sage related.  Cython is one of the "killer apps" of Sage:
+     * expand range of Cython developers (i.e., Robert tells us how to work on Cython). 
+     * increase documentation
+     * future development directions
+     * PEX
+     * pickling 
 
   * MS Windows -- figure out how to do a full native port of Sage to Windows. Seattle would be a good place for this theme, and I'm working on getting some Microsoft funding to support doing a port.
+     * visiting Microsoft and meeting the clients
+     * finish the cygwin part
+     * teach everyone how to use MSVC
+
 
   * Parallel computation in Sage -- DSage, Ipython1, Threads again; sort of like the MSRI conference last year but much more focused on Sage and actual implementations.
+   
 
   * Exact linear algebra -- perfect to capitalize on Clement Pernet being around, and the positive momentum behind Linbox, IML, etc.  There would be a number of talks on all the basic tricks of exact linear algebra, systematic benchmarking, with the goal being to "beat Magma" at a range of exact linear algebra problems. 
