@@ -16,7 +16,7 @@ People with a "?" are possibly (probably) not available.   If you're looking at 
 is highly likely or if you can't attend please email me (wstein@gmail.com) or edit the wiki. 
 
 EUROPEAN:
-  * Michael Abshoff 
+  * Michael Abshoff (June 13-20, 2008)
   * Martin Albrecht 
   * Burcin Erocal 
   * Ralph Peter Weinmann (?)
@@ -41,7 +41,7 @@ LOCAL:
   * Clement Pernet
   * Yi Qiang
   * Dan Shumow (?)
-  * William Stein -- everything, but especially exact linear algebra
+  * William Stein (June 13-20, 2008) -- everything, but especially exact linear algebra
 
 
 == Main Topics ==
