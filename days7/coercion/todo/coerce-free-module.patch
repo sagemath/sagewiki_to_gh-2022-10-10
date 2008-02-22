@@ -1,0 +1,249 @@
+# HG changeset patch
+# User Robert Bradshaw <robertwb@math.washington.edu>
+# Date 1203667060 28800
+# Node ID 0c9522cc2ff7390fcb60e4146bafcff4d17a904b
+# Parent  0020f994146cac2d9c4d075822ed768639a0da29
+Free module coercion
+
+diff -r 0020f994146c -r 0c9522cc2ff7 sage/modules/free_module.py
+--- a/sage/modules/free_module.py	Thu Feb 14 14:13:45 2008 -0800
++++ b/sage/modules/free_module.py	Thu Feb 21 23:57:40 2008 -0800
+@@ -144,6 +144,9 @@ from sage.structure.sequence import Sequ
+ from sage.structure.sequence import Sequence
+ 
+ from sage.structure.parent_gens import ParentWithGens
++
++from sage.categories.morphism import Morphism
++import sage.categories.homset as homset
+ 
+ ###############################################################################
+ #
+@@ -378,14 +381,15 @@ class FreeModule_generic(module.Module):
+         if degree < 0:
+             raise ValueError, "degree (=%s) must be nonnegative"%degree
+         
+-        ParentWithGens.__init__(self, base_ring)     # names aren't used anywhere.
++        ParentWithGens.__init__(self, base_ring, element_class=self.__class__.element_constructor)     # names aren't used anywhere.
+         self.__uses_ambient_inner_product = True
+         self.__rank = rank
+         self.__degree = degree
+         self.__is_sparse = sparse
+         self._inner_product_matrix = inner_product_matrix
+         self._gram_matrix = None
+-        self.element_class()
++        self._real_element_class = element_class(base_ring, sparse)
++        self._populate_coercion_lists_(convert_method_name='vector')
+         
+     def construction(self):
+         from sage.categories.pushout import VectorFunctor
+@@ -483,15 +487,30 @@ class FreeModule_generic(module.Module):
+         return self(0)
+ 
+     def element_class(self):
+-        try:
+-            return self._element_class
+-        except AttributeError:
+-            pass
+-        C = element_class(self.base_ring(), self.is_sparse())        
+-        self._element_class = C
+-        return C
+-    
+-    def __call__(self, x, coerce=True, copy=True, check=True):
++        return self._real_element_class
++        
++    def element_constructor(self, x, coerce=True, copy=True, check=True):
++        """
++        This used to be in the __call__ method. We use this rather than setting element_class
++        directly because we want to preserve pre-processing and post-processing without having
++        to modify every element class. 
++        
++        EXAMPLE:
++            sage: V = QQ^3
++            sage: V([1,2,3])
++            (1, 2, 3)
++            sage: V([1,2,3.5])
++            (1, 2, 7/2)
++            sage: V(0)
++            (0, 0, 0)
++            sage: V((ZZ^3)([3,5,7]))
++            (3, 5, 7)
++        
++            sage: k.<a> = GF(3^4)
++            sage: VS = k.vector_space()
++            sage: VS(a)
++            (0, 1, 0, 0)
++        """
+         if isinstance(x, (int, long, sage.rings.integer.Integer)) and x==0:
+             return self.zero_vector()
+         elif isinstance(x, free_module_element.FreeModuleElement):
+@@ -501,7 +520,7 @@ class FreeModule_generic(module.Module):
+                 else:
+                     return x
+             x = x.list()
+-        w = self._element_class(self, x, coerce, copy)
++        w = self._real_element_class(self, x, coerce, copy)
+         if check:
+             if isinstance(self, FreeModule_ambient):
+                 return w
+@@ -536,42 +555,22 @@ class FreeModule_generic(module.Module):
+             if not (b in other):
+                 return False
+         return True
+-
+-
+-    def _has_coerce_map_from_space(self, V):
++        
++    def _has_coerce_map_from_(self, V):
+         """
+-        Return True if V canonically coerces to self.
++        EXAMPLES: 
++            sage: FreeModule(QQ, 3).has_coerce_map_from(FreeModule(ZZ, 3))
++            True
++            sage: FreeModule(QQ, 3).has_coerce_map_from(FreeModule(ZZ['x'], 3))
++            False
+         """
+-        try:
+-            return self.__has_coerce_map_from_space[V]
+-        except AttributeError:
+-            self.__has_coerce_map_from_space = {}
+-        except KeyError:
+-            pass
+-        if self.base_ring() is V.base_ring():
+-            h = V.is_submodule(self)
+-        elif not self.base_ring().has_coerce_map_from(V.base_ring()):
+-            self.__has_coerce_map_from_space[V] = False
+-            return False
+-        else:
+-            h = V.base_extend(self.base_ring()).is_submodule(self)
+-        self.__has_coerce_map_from_space[V] = h
+-        return h
+-
+-    def _coerce_impl(self, x):
+-        """
+-        Canonical coercion of x into this free module.
+-            (0, 4/3, 8/3, 4, 16/3)        
+-        """
+-        if isinstance(x, (int, long, sage.rings.integer.Integer)) and x==0:
+-            return self.zero_vector()
+-        if isinstance(x, free_module_element.FreeModuleElement):
+-            # determining if the map exists is expensive the first time,
+-            # so we cache it.
+-            if self._has_coerce_map_from_space(x.parent()):
+-                return self(x)
+-        raise TypeError
+-
++        if isinstance(V, FreeModule_generic) and V.degree() == self.degree(): 
++            if self.base_ring() is V.base_ring():
++                return V.is_submodule(self)
++            elif self.base_ring().has_coerce_map_from(V.base_ring()):
++                return V.base_extend(self.base_ring()).is_submodule(self)
++        return False
++            
+     def __cmp__(self, right):
+         raise NotImplementedError
+ 
+@@ -1290,7 +1289,7 @@ class FreeModule_generic(module.Module):
+         # Do *not* cache this -- it must be computed fresh each time, since
+         # it is is used by __call__ to make a new copy of the 0 element. 
+         
+-        return self._element_class(self, 0)
++        return self._real_element_class(self, 0)
+ 
+ class FreeModule_generic_pid(FreeModule_generic):
+     """
+@@ -2981,24 +2980,6 @@ class FreeModule_ambient_field(FreeModul
+         """
+         return self.base_ring()
+ 
+-    def __call__(self, e, coerce=True, copy=True, check=True):
+-        """
+-
+-        EXAMPLE:
+-            sage: k.<a> = GF(3^4)
+-            sage: VS = k.vector_space()
+-            sage: VS(a)
+-            (0, 1, 0, 0)
+-            
+-        """
+-        try:
+-            k = e.parent()
+-            if finite_field.is_FiniteField(k) and k.base_ring() == self.base_ring() and k.degree() == self.degree():
+-                return self(e.vector())
+-        except AttributeError:
+-            pass
+-        return FreeModule_generic_field.__call__(self,e)
+-
+ 
+ 
+ ###############################################################################
+@@ -3993,3 +3974,4 @@ def element_class(R, is_sparse):
+         else:
+             return free_module_element.FreeModuleElement_generic_dense
+     raise NotImplementedError
++
+diff -r 0020f994146c -r 0c9522cc2ff7 sage/modules/module.pyx
+--- a/sage/modules/module.pyx	Thu Feb 14 14:13:45 2008 -0800
++++ b/sage/modules/module.pyx	Thu Feb 21 23:57:40 2008 -0800
+@@ -23,12 +23,6 @@ cdef class Module(sage.structure.parent_
+     """
+     Generic module class.
+     """
+-    def __call__(self, x):
+-        """
+-        Coerce x into the ring.
+-        """
+-        raise NotImplementedError
+-
+     def category(self):
+         """
+         Return the category to which this module belongs.
+diff -r 0020f994146c -r 0c9522cc2ff7 sage/rings/finite_field.py
+--- a/sage/rings/finite_field.py	Thu Feb 14 14:13:45 2008 -0800
++++ b/sage/rings/finite_field.py	Thu Feb 21 23:57:40 2008 -0800
+@@ -88,6 +88,7 @@ from sage.structure.parent_gens import n
+ 
+ import sage.interfaces.gap
+ import sage.databases.conway
++
+ 
+ cache = {}
+ 
+@@ -346,9 +347,9 @@ class FiniteField_prime_modn(FiniteField
+         p = integer.Integer(p)
+         if not arith.is_prime(p):
+             raise ArithmeticError, "p must be prime"
+-        integer_mod_ring.IntegerModRing_generic.__init__(self, p)
+         self._kwargs = {}
+         self.__char = p
++        integer_mod_ring.IntegerModRing_generic.__init__(self, p)
+         self.__gen = self(1)  # self(int(pari.pari(p).znprimroot().lift()))
+         ParentWithGens.__init__(self, self, ('x',), normalize=False)
+ 
+diff -r 0020f994146c -r 0c9522cc2ff7 sage/structure/coerce_maps.pyx
+--- a/sage/structure/coerce_maps.pyx	Thu Feb 14 14:13:45 2008 -0800
++++ b/sage/structure/coerce_maps.pyx	Thu Feb 21 23:57:40 2008 -0800
+@@ -25,7 +25,7 @@ cdef class DefaultConvertMorphism(Conver
+         self.args = args
+         self.kwds = kwds
+ 
+-    cpdef Element _call_(self, x):            
++    cpdef Element _call_(self, x):
+         if self.args is None:
+             if self.kwds is None:
+                 return self._codomain._element_class(self._codomain, x)
+@@ -91,7 +91,14 @@ cdef class NamedConvertMorphism(ConvertM
+     
+     cpdef Element _call_(self, x):
+         method = getattr(x, self.method_name)
+-        return method(self._codomain)
++        cdef Morphism m
++        cdef Element e = method(self._codomain)
++        if e._parent is not self._codomain:
++            m = self._codomain.convert_map_from(e._parent)
++            if m is None or m is self:
++                raise TypeError 
++            e = m._call_(e)
++        return e
+ 
+     def _repr_type(self):
+         return "Conversion via %s" % self.method_name
