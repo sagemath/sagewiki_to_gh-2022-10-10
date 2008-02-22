@@ -97,6 +97,27 @@ sage: integral(f,x)
 
 === Approximating Integrals ===
 
+Regarding numerical approximation of $ \int_a^bf(x) dx$ , where $ f$ is a piecewise defined function, Sage can
+
+    * compute (for plotting purposes) the piecewise linear function defined by the trapezoid rule for numerical integration based on a subdivision into N subintervals
+    * the approximation given by the trapezoid rule,
+    * compute (for plotting purposes) the piecewise constant function defined by the Riemann sums (left-hand, right-hand, or midpoint) in numerical integration based on a subdivision into N subintervals,
+    * the approximation given by the Riemann sum approximation.
+
+{{{ 
+sage: f1 = x^2      
+sage: f2 = 5-x^2
+sage: f = Piecewise([[(0,1),f1],[(1,2),f2]])
+sage: f.trapezoid(4)
+Piecewise defined function with 4 parts, [[(0, 1/2), x/2], [(1/2, 1), 9*(x - 1/2)/2 + 1/4], [(1, 3/2), (x - 1)/2 + 5/2], [(3/2, 2), 11/4 - 7*(x - 3/2)/2]]
+sage: f.riemann_sum_integral_approximation(6,mode="right")
+19/6
+sage: f.integral()
+3
+sage: n(f.integral())
+3.00000000000000
+}}}
+
 === Improper Integrals ===
 
           o Convergence, Divergence, and Comparison 
