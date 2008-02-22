@@ -1,3 +1,4 @@
+## page was renamed from days8.5
 = Sage Developer Coding Week 1 =
 
 ORGANIZERS: William Stein, Robert Bradshaw
@@ -23,23 +24,23 @@ EUROPEAN:
 AMERICAN:
   * Craig Citro (?)
   * Gary Furnish (gfurnish@indirectproof.net) 
-  * David Roe 
+  * Dan Gindikin -- (pnylab.com; Princeton)
   * Mike Hansen
   * David Harvey
-  * Dan Gindikin -- (pnylab.com; Princeton)
   * David Joyner
+  * David Roe 
   * Justin Walker
 
 LOCAL:
-  * Robert Miller
   * Tom Boothby
   * Robert Bradshaw
-  * Yi Qiang
   * Emily Kirkman
-  * William Stein -- everything, but especially exact linear algebra
-  * Clement Pernet
+  * Robert Miller
   * Bobby Moretti (?)
+  * Clement Pernet
+  * Yi Qiang
   * Dan Shumow (?)
+  * William Stein -- everything, but especially exact linear algebra
 
 
 == Main Topics ==
