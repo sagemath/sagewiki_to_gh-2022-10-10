@@ -19,6 +19,18 @@ sage: print integrate(1/(x^3+1),x)
 sage: integrate(1/(x^3+1), x, 0, 1)
 (6*log(2) + sqrt(3)*pi)/18 + sqrt(3)*pi/18
 }}}
+More examples:
+
+{{{
+sage: f = x^3 
+sage: f.integral()
+x^4/4
+sage: integral(x^3,x)
+x^4/4
+sage: f = x*sin(x^2)
+sage: integral(f,x)
+-cos(x^2)/2
+}}}
 
 === The Definite Integral ===
 
