@@ -4282,6 +4282,7 @@ bodahg\.com
 thecommercejournal\.com
 da-zhong-ban-chang\.com
 gl-firmenadressen\.(info|net)
+nyzhyq\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
