@@ -22,6 +22,8 @@ sage: integrate(1/(x^3+1), x, 0, 1)
 More examples:
 
 {{{
+sage: integrate(1/x^2, x, 1, infinity)
+1
 sage: f = x^3 
 sage: f.integral()
 x^4/4
