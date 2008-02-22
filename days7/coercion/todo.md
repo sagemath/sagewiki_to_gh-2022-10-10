@@ -10,10 +10,10 @@ Done
  * coding, functions, graphs
  * matrix [http://sage.math.washington.edu/home/robertwb/coerce/coerce-all.hg]
  * complex, real [http://sage.math.washington.edu/home/robertwb/coerce/coerce-real-complex.hg]
+ * modules [attachment:coerce-free-module.patch]
 
 In progress
  * groups
- * modules
 
 Little to do
 
