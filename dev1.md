@@ -34,6 +34,7 @@ AMERICAN:
 LOCAL:
   * Tom Boothby
   * Robert Bradshaw
+  * Josh Kantor
   * Emily Kirkman
   * Robert Miller
   * Bobby Moretti (?)
