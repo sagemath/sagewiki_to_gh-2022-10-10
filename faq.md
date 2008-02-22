@@ -130,6 +130,14 @@ respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
 
 Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
 ----------
+ * QUESTION: I'm getting weird build failures on OSX. How do I fix this?
+ * ANSWER: search the build log (install.log) to see if you're getting "fork: Resource temporarily unavailable.". If so, try the following. Create (or edit) /etc/launchd.conf and include the following:
+ {{{
+limit maxproc 512 2048
+}}}
+  then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
+----------
+
 
 = ToDo =
 
