@@ -74,6 +74,18 @@ c*diff(f(t), t, 1)
 
 === Maximum and minimum values ===
 
+You can find critical points of a piecewise defined function:
+{{{
+sage: x = PolynomialRing(RationalField(), 'x').gen()
+sage: f1 = x^0
+sage: f2 = 1-x
+sage: f3 = 2*x
+sage: f4 = 10*x-x^2
+sage: f = Piecewise([[(0,1),f1],[(1,2),f2],[(2,3),f3],[(3,10),f4]])
+sage: f.critical_points()
+[5.0]
+}}}
+
 === Optimization problems ===
 
 === Indeterminate Forms, L'Hopital's rule ===
