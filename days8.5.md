@@ -15,3 +15,13 @@
  * Burcin Erocal: 
  * David Harvey
  * Bill Purvis: any dates at this point (retired systems engineer)
+
+== Topics ==
+
+  * Cython -- something much deeper than usual, and not necessarily so Sage related.  Cython is one of the "killer apps" of Sage.
+
+  * MS Windows -- figure out how to do a full native port of Sage to Windows. Seattle would be a good place for this theme, and I'm working on getting some Microsoft funding to support doing a port.
+
+  * Parallel computation in Sage -- DSage, Ipython1, Threads again; sort of like the MSRI conference last year but much more focused on Sage and actual implementations.
+
+  * Exact linear algebra -- perfect to capitalize on Clement Pernet being around, and the positive momentum behind Linbox, IML, etc.  There would be a number of talks on all the basic tricks of exact linear algebra, systematic benchmarking, with the goal being to "beat Magma" at a range of exact linear algebra problems.  Can 15 of us working quite hard compare to one Allan Steel? :-)
