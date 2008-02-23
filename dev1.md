@@ -28,7 +28,7 @@ AMERICAN:
  * Mike Hansen (June 13-20)
  * David Harvey
  * David Joyner
- * David Roe
+ * David Roe (June 13-20)
  * Justin Walker
 
 
