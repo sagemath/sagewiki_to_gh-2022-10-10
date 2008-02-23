@@ -1,6 +1,6 @@
 = Coding Theory =
 
-A linear code of length n  is a finite dimensional subspace of GF(q)^n, with a fixed (usually the standard) basis. Sage can compute with linear error-correcting codes to a limited extent. It basically has some native Python commands and wrappers to GAP and GUAVA 3.1 commands (GUAVA 3.1 includes Leon's C code, though uncompiled). GUAVA 3.1 is included with Sage.
+A linear code of length n  is a finite dimensional subspace of $GF(q)^n$, with a fixed (usually the standard) basis. Sage can compute with linear error-correcting codes to a limited extent. It basically has some native Python commands and wrappers to GAP and GUAVA 3.1 commands (GUAVA 3.1 includes Leon's C code, though uncompiled). GUAVA 3.1 is included with Sage.
 
 Sage can compute Hamming codes
 
@@ -61,7 +61,7 @@ sage: C.dual_code()
 Linear code of length 21, dimension 3 over Finite Field in a of size 2^2
 }}}
 
-For a linear code C and a vector v in GF(q)^n, Sage can try to decode v (i.e., find the codeword c in C closest to v in the Hamming metric) using syndrome decoding. As of yet, no special decoding methods have been implemented.
+For a linear code C and a vector v in $GF(q)^n$, Sage can try to decode v (i.e., find the codeword c in C closest to v in the Hamming metric) using syndrome decoding. As of yet, no special decoding methods have been implemented.
 
 
 {{{
