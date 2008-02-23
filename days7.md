@@ -7,6 +7,7 @@
  * [:days7/wishlist: Wishlist]
  * [http://www.sagemath.org/ Sage homepage]
  * [:days7/discussions: Discussions]
+ * [http://sage.math.washington.edu/home/was/sagedays7/medium/ VIDEO!]
 
 == Speakers & Schedule ==
 
