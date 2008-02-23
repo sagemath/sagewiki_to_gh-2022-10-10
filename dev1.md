@@ -28,7 +28,6 @@ AMERICAN:
  * Dan Gindikin (pnylab.com; Princeton)
  * Mike Hansen (June 13-20)
  * David Harvey
- * David Joyner
  * David Roe (June 13-20)
  * Justin Walker
 
