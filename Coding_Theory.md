@@ -1,4 +1,4 @@
- =Coding Theory=
+= Coding Theory =
 
 A linear code of length n  is a finite dimensional subspace of GF(q)^n, with a fixed (usually the standard) basis. Sage can compute with linear error-correcting codes to a limited extent. It basically has some native Python commands and wrappers to GAP and GUAVA 3.1 commands (GUAVA 3.1 includes Leon's C code, though uncompiled). GUAVA 3.1 is included with Sage.
 
