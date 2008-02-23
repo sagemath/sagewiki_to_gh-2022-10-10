@@ -36,7 +36,7 @@ LOCAL:
   * Robert Bradshaw
   * Josh Kantor
   * Emily Kirkman
-  * Robert Miller
+  * Robert Miller (June 13-20)
   * Bobby Moretti (?)
   * Clement Pernet
   * Yi Qiang
