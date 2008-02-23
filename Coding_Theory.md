@@ -60,3 +60,36 @@ sage: C = HammingCode(3,GF(4,'a'))
 sage: C.dual_code()
 Linear code of length 21, dimension 3 over Finite Field in a of size 2^2
 }}}
+
+For a linear code C and a vector v in GF(q)^n, Sage can try to decode v (i.e., find the codeword c in C closest to v in the Hamming metric) using syndrome decoding. As of yet, no special decoding methods have been implemented.
+
+
+{{{
+sage: C = HammingCode(3,GF(2))
+sage: MS = MatrixSpace(GF(2),1,7)
+sage: F = GF(2); a = F.gen()
+sage: v1 = [a,a,F(0),a,a,F(0),a]
+sage: C.decode(v1)
+(1, 0, 0, 1, 1, 0, 1)
+sage: v2 = matrix([[a,a,F(0),a,a,F(0),a]])
+sage: C.decode(v2)
+(1, 0, 0, 1, 1, 0, 1)
+sage: v3 = vector([a,a,F(0),a,a,F(0),a])
+sage: c = C.decode(v3); c
+(1, 0, 0, 1, 1, 0, 1)
+}}}
+To plot the (histogram of) the weight distribution of a code, one can use the matplotlib package included with Sage:
+
+{{{
+sage: C = HammingCode(4,GF(2))
+sage: w = C.weight_distribution(); w
+[1, 0, 0, 35, 105, 168, 280, 435, 435, 280, 168, 105, 35, 0, 0, 1]
+sage: J = range(len(w))
+sage: W = IndexedSequence([ZZ(w[i]) for i in J],J)
+sage: W.plot_histogram()
+}}}
+This yields the following plot:
+
+http://sage.math.washington.edu/home/wdj/art/hamming4-wt-histogram.png
+
+Sage can also compute algebraic-geometric codes, called AG codes, via the Singular interface. One may also use the (one-point planar) AG codes implemented in GUAVA via the Sage interface to GAP gap_console(). See the GUAVA manual for more details.
