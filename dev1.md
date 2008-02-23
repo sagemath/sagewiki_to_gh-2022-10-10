@@ -17,19 +17,21 @@ EUROPEAN:
  * Martin Albrecht
  * Burcin Erocal
  * Ralph Peter Weinmann (?)
+
 CANADIAN:
+ * Nick Alexander (June 13-20)
 
- * Nick Alexander
 AMERICAN:
-
  * Craig Citro (definitely at the beginning, dates unclear)
- * Gary Furnish ( gfurnish@indirectproof.net )
+ * Gary Furnish (gfurnish@indirectproof.net )
  * Dan Gindikin (pnylab.com; Princeton)
  * Mike Hansen (June 13-20)
  * David Harvey
  * David Joyner
  * David Roe
  * Justin Walker
+
+
 LOCAL:
 
  * Tom Boothby
