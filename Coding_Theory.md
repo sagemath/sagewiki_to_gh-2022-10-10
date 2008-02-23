@@ -1,6 +1,6 @@
  =Coding Theory=
 
-A linear code of length n  is a finite dimensional subspace of GF(q)^n, with a fixxed (usually the standard) basis. Sage can compute with linear error-correcting codes to a limited extent. It basically has some native Python commands and wrappers to GAP and GUAVA 3.1 commands (GUAVA 3.1 includes Leon's C code, though uncompiled). GUAVA 3.1 is included with Sage.
+A linear code of length n  is a finite dimensional subspace of GF(q)^n, with a fixed (usually the standard) basis. Sage can compute with linear error-correcting codes to a limited extent. It basically has some native Python commands and wrappers to GAP and GUAVA 3.1 commands (GUAVA 3.1 includes Leon's C code, though uncompiled). GUAVA 3.1 is included with Sage.
 
 Sage can compute Hamming codes
 
@@ -92,4 +92,4 @@ This yields the following plot:
 
 http://sage.math.washington.edu/home/wdj/art/hamming4-wt-histogram.png
 
-Sage can also compute algebraic-geometric codes, called AG codes, via the Singular interface. One may also use the (one-point planar) AG codes implemented in GUAVA via the Sage interface to GAP gap_console(). See the GUAVA manual for more details.
+Sage can also compute algebraic-geometric codes, called AG codes, via the Singular interface. One may also use the (one-point planar) AG codes implemented in GUAVA via the Sage interface to GAP gap_console(). See the [http://sage.math.washington.edu/home/wdj/guava/: GUAVA] manual for more details.
