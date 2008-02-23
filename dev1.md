@@ -23,6 +23,7 @@ CANADIAN:
 
 AMERICAN:
  * Craig Citro (definitely at the beginning, dates unclear)
+ * Nathan Dunfield (tentative)
  * Gary Furnish (June 13-20)
  * Dan Gindikin (pnylab.com; Princeton)
  * Mike Hansen (June 13-20)
