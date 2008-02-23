@@ -22,7 +22,7 @@ EUROPEAN:
   * Ralph Peter Weinmann (?)
 
 AMERICAN:
-  * Craig Citro (some subset)
+  * Craig Citro (definitely at the beginning, dates unclear)
   * Gary Furnish (gfurnish@indirectproof.net) 
   * Dan Gindikin (pnylab.com; Princeton)
   * Mike Hansen (June 13-20)
