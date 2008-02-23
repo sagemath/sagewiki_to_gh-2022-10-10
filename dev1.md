@@ -14,7 +14,7 @@ People with a "?" are possibly (probably) not available.   If you're looking at 
 EUROPEAN:
 
  * Michael Abshoff (June 13-20)
- * Martin Albrecht
+ * Martin Albrecht (June 13-20)
  * Burcin Erocal
  * Ralph Peter Weinmann (?)
 
