@@ -43,20 +43,20 @@ as well as toric codes, cyclic codes, quadratic and quasi-quadratic residue code
 For a given code C, Sage can return a generator matrix, a check matrix, and the dual code:
 
 {{{
-            sage: C = HammingCode(3,GF(2))
-            Linear code of length 7, dimension 3 over Finite Field of size 2
-            sage: C.gen_mat()
-            [1 0 0 1 0 1 0]
-            [0 1 0 1 0 1 1]
-            [0 0 1 1 0 0 1]
-            [0 0 0 0 1 1 1]
-            sage: C.check_mat()
-            [1 0 0 1 1 0 1]
-            [0 1 0 1 0 1 1]
-            [0 0 1 1 1 1 0]
-            sage: C.dual_code()
-            Linear code of length 7, dimension 3 over Finite Field of size 2
-            sage: C = HammingCode(3,GF(4,'a'))
-            sage: C.dual_code()
-            Linear code of length 21, dimension 3 over Finite Field in a of size 2^2
+sage: C = HammingCode(3,GF(2))
+Linear code of length 7, dimension 3 over Finite Field of size 2
+sage: C.gen_mat()
+   [1 0 0 1 0 1 0]
+   [0 1 0 1 0 1 1]
+   [0 0 1 1 0 0 1]
+   [0 0 0 0 1 1 1]
+sage: C.check_mat()
+   [1 0 0 1 1 0 1]
+   [0 1 0 1 0 1 1]
+   [0 0 1 1 1 1 0]
+sage: C.dual_code()
+Linear code of length 7, dimension 3 over Finite Field of size 2
+sage: C = HammingCode(3,GF(4,'a'))
+sage: C.dual_code()
+Linear code of length 21, dimension 3 over Finite Field in a of size 2^2
 }}}
