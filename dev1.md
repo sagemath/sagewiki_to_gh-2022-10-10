@@ -16,16 +16,16 @@ People with a "?" are possibly (probably) not available.   If you're looking at 
 is highly likely or if you can't attend please email me (wstein@gmail.com) or edit the wiki. 
 
 EUROPEAN:
-  * Michael Abshoff (June 13-20, 2008)
+  * Michael Abshoff (June 13-20)
   * Martin Albrecht 
   * Burcin Erocal 
   * Ralph Peter Weinmann (?)
 
 AMERICAN:
-  * Craig Citro (?)
+  * Craig Citro (some subset)
   * Gary Furnish (gfurnish@indirectproof.net) 
-  * Dan Gindikin -- (pnylab.com; Princeton)
-  * Mike Hansen
+  * Dan Gindikin (pnylab.com; Princeton)
+  * Mike Hansen (June 13-20)
   * David Harvey
   * David Joyner
   * David Roe 
@@ -41,7 +41,7 @@ LOCAL:
   * Clement Pernet
   * Yi Qiang
   * Dan Shumow (?)
-  * William Stein (June 13-20, 2008) -- everything, but especially exact linear algebra
+  * William Stein (June 13-20) -- everything, but especially exact linear algebra
 
 
 == Main Topics ==
