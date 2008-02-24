@@ -13,7 +13,7 @@ People with a "?" are possibly (probably) not available.   If you're looking at 
 
 EUROPEAN:
 
- * Michael Abshoff (June 13-20)
+ * Michael Abshoff (June 13-20) (I will probably work exclusively on the Microsoft Windows port, taking advantage of the physical access to the client and the other people from the porting team)
  * Martin Albrecht (June 13-20)
  * Burcin Erocal
  * Ralph Peter Weinmann (?)
