@@ -1,10 +1,9 @@
 ## page was renamed from days8.5
 = Sage Developer Coding Week 1 =
-ORGANIZERS: William Stein, Robert Bradshaw
-
-DATES: June 13-20, 2008
-
-The goal of this "developer coding week" will be to write a huge amount of high quality code.  All talks will be squarely aimed at developers and be directly related to coding projects.  All participants will assumed to be very experienced programmers. The main topics will be: Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Windows.   However, like with all of Sage development, participants are encouraged to work on whatever they feel will be the ''most productive'' way for them to spend their time.
+== Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Microsoft Windows ==
+== ORGANIZERS: Robert Bradshaw and William Stein ==
+== DATES: June 13-20, 2008 ==
+The goal of this "developer coding week" will be to write a huge amount of high quality code.  All talks will be squarely aimed at developers and be directly related to coding projects.  All participants will assumed to be experienced programmers. The main topics will be: Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Windows.   However, like with all of Sage development, participants are encouraged to work on whatever they feel will be the ''most productive'' way for them to spend their time.
 
 Anybody can participant, but funding will be aimed primarily at people who have demonstrated a substantial ability to contribute to the Sage project.  (This is not a general Sage statement -- it's just for this workshop.)
 
@@ -17,11 +16,11 @@ EUROPEAN:
  * Martin Albrecht (June 13-20)
  * Burcin Erocal (June 13-20) -- exact linear algebra, cython
  * Ralph Peter Weinmann (?)
-
 CANADIAN:
- * Nick Alexander (June 13-20)
 
+ * Nick Alexander (June 13-20)
 AMERICAN:
+
  * Craig Citro (definitely at the beginning, dates unclear)
  * Nathan Dunfield (tentative; probably will attend)
  * Gary Furnish (June 13-20) -- cython
@@ -30,8 +29,6 @@ AMERICAN:
  * David Harvey (probably will not attend)
  * David Roe (June 13-20)
  * Justin Walker
-
-
 LOCAL:
 
  * Tom Boothby
@@ -44,17 +41,18 @@ LOCAL:
  * Yi Qiang -- distributed sage
  * Dan Shumow (?)
  * William Stein (June 13-20) -- everything, but especially exact linear algebra
-
 == Main Topics ==
- * Cython -- something much deeper than usual, and not necessarily so Sage related.  Cython is one of the "killer apps" of Sage:
+ * '''''Cython '''''-- something much deeper than usual, and not necessarily so Sage related.  Cython is one of the "killer apps" of Sage:
   * expand range of Cython developers (i.e., Robert tells us how to work on Cython).
   * increase documentation
   * future development directions
   * PEX
   * pickling
- * MS Windows -- figure out how to do a full native port of Sage to Windows. Seattle would be a good place for this theme, and I'm working on getting some Microsoft funding to support doing a port.
+
+ * '''''MS Windows '''''-- figure out how to do a full native port of Sage to Windows. Seattle would be a good place for this theme, and I'm working on getting some Microsoft funding to support doing a port.
   * visiting Microsoft and meeting the clients
   * finish the cygwin part
   * teach everyone how to use MSVC
- * Parallel computation in Sage -- DSage, Ipython1, Threads again; sort of like the MSRI conference last year but much more focused on Sage and actual implementations.
- * Exact linear algebra -- perfect to capitalize on Clement Pernet being around, and the positive momentum behind Linbox, IML, etc.  There would be a number of talks on all the basic tricks of exact linear algebra, systematic benchmarking, with the goal being to "beat Magma" at a range of exact linear algebra problems.
+
+ * '''''Parallel computation in Sage''''' -- DSage, Ipython1, Threads again; sort of like the MSRI conference last year but much more focused on Sage and actual implementations.
+ * '''''Exact linear algebra''''' -- perfect to capitalize on Clement Pernet being around, and the positive momentum behind Linbox, IML, etc.  There would be a number of talks on all the basic tricks of exact linear algebra, systematic benchmarking, with the goal being to "beat Magma" at a range of exact linear algebra problems.
