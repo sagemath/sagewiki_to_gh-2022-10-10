@@ -15,7 +15,7 @@ EUROPEAN:
 
  * Michael Abshoff (June 13-20) (I will probably work exclusively on the Microsoft Windows port, taking advantage of the physical access to the client and the other people from the porting team)
  * Martin Albrecht (June 13-20)
- * Burcin Erocal
+ * Burcin Erocal (June 13-20)
  * Ralph Peter Weinmann (?)
 
 CANADIAN:
