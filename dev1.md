@@ -16,6 +16,10 @@ EUROPEAN:
  * Martin Albrecht (June 13-20)
  * Burcin Erocal (June 13-20) -- exact linear algebra, cython
  * Ralph Peter Weinmann (?)
+
+KOREA:
+ * Dan Drake (June 13-20) -- combinatorics
+
 CANADIAN:
 
  * Nick Alexander (June 13-20)
