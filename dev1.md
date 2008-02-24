@@ -8,14 +8,14 @@ The goal of this "developer coding week" will be to write a huge amount of high 
 
 Anybody can participant, but funding will be aimed primarily at people who have demonstrated a substantial ability to contribute to the Sage project.  (This is not a general Sage statement -- it's just for this workshop.)
 
-== Tentative Participants List ==
-People with a "?" are possibly (probably) not available.   If you're looking at this and your participation is highly likely or if you can't attend please email me ( wstein@gmail.com ) or edit the wiki.
+== Participants List ==
+People with dates listed have confirmed attendance during those dates.
 
 EUROPEAN:
 
  * Michael Abshoff (June 13-20) (I will probably work exclusively on the Microsoft Windows port, taking advantage of the physical access to the client and the other people from the porting team)
  * Martin Albrecht (June 13-20)
- * Burcin Erocal (June 13-20)
+ * Burcin Erocal (June 13-20) -- exact linear algebra, cython
  * Ralph Peter Weinmann (?)
 
 CANADIAN:
@@ -23,11 +23,11 @@ CANADIAN:
 
 AMERICAN:
  * Craig Citro (definitely at the beginning, dates unclear)
- * Nathan Dunfield (tentative)
- * Gary Furnish (June 13-20)
- * Dan Gindikin (pnylab.com; Princeton)
+ * Nathan Dunfield (tentative; probably will attend)
+ * Gary Furnish (June 13-20) -- cython
+ * Dan Gindikin (pnylab.com; Princeton) -- cython
  * Mike Hansen (June 13-20)
- * David Harvey
+ * David Harvey (probably will not attend)
  * David Roe (June 13-20)
  * Justin Walker
 
