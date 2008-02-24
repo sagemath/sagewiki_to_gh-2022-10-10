@@ -1,8 +1,8 @@
 ## page was renamed from days8.5
 = Sage Developer Coding Week 1 =
-== Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Microsoft Windows ==
-== ORGANIZERS: Robert Bradshaw and William Stein ==
-== DATES: June 13-20, 2008 ==
+=== Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Microsoft Windows ===
+=== ORGANIZERS: Robert Bradshaw and William Stein ===
+=== DATES: June 13-20, 2008 ===
 The goal of this "developer coding week" will be to write a huge amount of high quality code.  All talks will be squarely aimed at developers and be directly related to coding projects.  All participants will assumed to be experienced programmers. The main topics will be: Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Windows.   However, like with all of Sage development, participants are encouraged to work on whatever they feel will be the ''most productive'' way for them to spend their time.
 
 Anybody can participant, but funding will be aimed primarily at people who have demonstrated a substantial ability to contribute to the Sage project.  (This is not a general Sage statement -- it's just for this workshop.)
