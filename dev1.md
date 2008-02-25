@@ -1,5 +1,5 @@
 ## page was renamed from days8.5
-= Sage Developer Days 8.5 =
+= Sage Developer Days 1 (aka Sage Days 8.5) =
 === Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Microsoft Windows ===
 === ORGANIZERS: Robert Bradshaw and William Stein ===
 === DATES: June 13-20, 2008 ===
