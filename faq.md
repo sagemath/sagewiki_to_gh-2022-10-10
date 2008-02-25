@@ -55,7 +55,7 @@ Windows is currently supported via the VMWare image, so see the instructions for
 
 === What tools do I need to develop in Sage? ===
 
-Sage comes with all needed tools.  Mercurial is the source code revision system that Sage uses.
+On Linux you need to install gcc, g++, make, m4, perl, ranlib, and tar. You need at least gcc 3.4 or gcc >= gcc 4.1. gcc 4.0 is not recommended since there are a number of known issues. On OSX you need a recent XCode, i.e. version >= 2.4. gcc -v should output build >= 5363 or higher. 
 
 === Where is the source code to Sage? ===
 
