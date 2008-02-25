@@ -3,9 +3,13 @@
 [[TableOfContents]]
 
 
-== How to start using Sage ==
+== Introduction ==
 
-== How to start developing in Sage ==
+== Getting Sage ==
+
+== Installing and running Sage ==
+
+== Developing in Sage ==
 
 == Other questions ==
 
