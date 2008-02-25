@@ -5,11 +5,55 @@
 
 == Introduction ==
 
+=== What is Sage? ===
+
+
 == Getting Sage ==
+
+=== How do I get a Sage program I can run immediately? ===
+
+Go to [http://sagemath.org/download.html] and click on the link for the binary for your operating system.
+
+=== How do I get the Sage source code? ===
+
+Go to [http://sagemath.org/dist/src/index.html] to download the tar archive for any release of Sage.
+
+=== How do I get a previous release of Sage? ===
+
+Go to [http://sagemath.org/dist/src/index.html] to download the tar archive for any release of Sage.
+
 
 == Installing and running Sage ==
 
+=== How do I compile the source to Sage? ===
+
+Download the source tar archive, extract the archive, change your directory to be inside of it, and type {{{make}}}
+
+
+=== How do I run Sage on a platform other than VMWare or Windows? ===
+
+Change your directory to the sage directory and run {{{./sage}}}
+
+To start an online notebook server, start Sage and type {{{notebook()}}} at the sage command prompt.
+
+=== How do I run Sage with VMWare? ===
+
+You must install the VMWare software (the free VMWare Player should work).  Simply start the virtual machine using the VMWare software, wait for the virtual machine to boot up, then type {{{notebook}}} at the prompt.
+
+=== How do I run Sage in Windows? ===
+
+Windows is currently supported via the VMWare image, so see the instructions for running Sage under VMWare.
+
 == Developing in Sage ==
+
+=== What tools do I need to develop in Sage? ===
+
+Sage comes with all needed tools.  Mercurial is the source code revision system that Sage uses.
+
+=== Where is the source code to Sage? ===
+
+You can browse the complete source code to everything in Sage at [http://www.sagemath.org/hg/].  This is a web interface to the Mercurial repository.  The main source files are at [http://www.sagemath.org/hg/sage-main?cmd=manifest;manifest=-1;path=/sage/].  The other directories include docs directories, the package system, etc.
+
 
 == Other questions ==
 
