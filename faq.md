@@ -1,5 +1,14 @@
 = Sage FAQ: Frequently Asked Questions =
 
+[[TableOfContents]]
+
+
+== How to start using Sage ==
+
+== How to start developing in Sage ==
+
+== Other questions ==
+
 ----------
  * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
  * ANSWER: Redefine RealNumber to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, for example:
@@ -55,7 +64,7 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * QUESTION: I am using Mac OSX. Where do I put the jsMath "font" directory to eliminate the red box?
  * ANSWER: See http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html where it says "For Mac OS X users: download and unpack the archive, then drag the fonts to your Library/Fonts folder (or to the FontBook, or just double-click them and press the "install" button).".
 ----------
- * QUESTION: The show command for plotting 3D objects does not work. 
+ * QUESTION: The show command for plotting 3D objects does not work.
  * ANSWER: Since Sage 2.9.2 we have switched to using jmol, a Java applet, for 3D plotting. There are several possibilities for the cause of the malfunction: You do not have Java installed at all or the Java installed is an older GNU based alternative Java implementation, which causes some yet to determine problem. A solution to both issues is to either install Sun's Java SDK or to update the GNU based Java implementation. As of January 2008 Debian's Java in testing works, but stable does have problems.
 ----------
  * QUESTION: May I use Sage tools in a commercial environment?
@@ -63,88 +72,72 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
 ----------
  * QUESTION: I want to write some Cython code that uses finite field arithmetic but {{{cimport sage.rings.finite_field_givaro}}} fails. What can I do?
  * ANSWER: You need to give hints to Sage so that it uses C++ (both Givaro and NTL are C++ libraries), and it also needs the GMP and STDC C++ libraries. Here is a small example:
-
 {{{
 # These comments are hints to Sage/Pyrex about the compiler and
 # libraries needed for the Givaro library:
 #
-#clang c++ 
+#clang c++
 #clib givaro gmpxx gmp m stdc++
-
 cimport sage.rings.finite_field_givaro
-
 # Construct a finite field of order 11.
 cdef sage.rings.finite_field_givaro.FiniteField_givaro K
 K = sage.rings.finite_field_givaro.FiniteField_givaro(11)
-
 print "K is a", type(K)
-
 print "K cardinality =", K.cardinality()
-
 # Construct two values in the field:
 cdef sage.rings.finite_field_givaro.FiniteField_givaroElement x
 cdef sage.rings.finite_field_givaro.FiniteField_givaroElement y
 x = K(3)
 y = K(6)
-
 print "x is a", type(x)
 print "x =", x
 print "y =", y
 print "x has multiplicative order =", x.multiplicative_order()
 print "y has multiplicative order =", y.multiplicative_order()
 print "x*y =", x*y
-
 # Show that x behaves like a finite field element:
 for i in range(1, x.multiplicative_order() + 1):
     print i, x**i
-
-
 assert x*(1/x) == K.one_element()
 }}}
-
 To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} at the Sage prompt and hit tab, then use ?? to get more info on each function. For example:
 
 {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}}
 
 tells you more about the multiplicative unit element in the finite field.
+
 ----------
  * QUESTION: How do I make the VMware appliance for Windows automatically login as "sage"?
  * ANSWER: Follow http://ubuntu-utah.ubuntuforums.org/showthread.php?t=303319.  Short version: put in the file {{{/usr/bin/autologin}}} the text
-
 {{{
 #! /bin/sh
 /bin/login -f sage
 }}}
-
-and make this file executable; then edit {{{/etc/event.d/tty1}}}, comment out 
+and make this file executable; then edit {{{/etc/event.d/tty1}}}, comment out
 
 {{{
 respawn /sbin/getty 38400 tty1
 }}}
-
 and add
 
 {{{
 respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
 }}}
-
 Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
+
 ----------
  * QUESTION: I'm getting weird build failures on OSX. How do I fix this?
  * ANSWER: search the build log (install.log) to see if you're getting "fork: Resource temporarily unavailable.". If so, try the following. Create (or edit) /etc/launchd.conf and include the following:
  {{{
 limit maxproc 512 2048
 }}}
-  then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
+  . then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
 ----------
 
-
 = ToDo =
-
- * QUESTION: Sage fails to compile on OSX 10.4 
+ * QUESTION: Sage fails to compile on OSX 10.4
  * ANSWER: Most likely resource issue.
  * QUESTION: Notebook doesn't work
  * ANSWER: networking issues, firewall blocking, proxy setting screwed up
-
  * Individual FAQ entries should be referable by a URL, possibly http://wiki.sagemath.org/faq?someid=something
- * You can do that with page anchors: [http://wiki.sagemath.org/faq?#something]. Moin``Moin [http://moinmo.in/HelpOnLinking can insert page anchors] but it doesn't seem like that facility is turned on for this installation. If we could get that enabled, we could insert anchors for all the questions on this page.
+ * You can do that with page anchors: http://wiki.sagemath.org/faq?#something. Moin``Moin [http://moinmo.in/HelpOnLinking can insert page anchors] but it doesn't seem like that facility is turned on for this installation. If we could get that enabled, we could insert anchors for all the questions on this page.
