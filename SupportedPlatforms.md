@@ -28,7 +28,7 @@ The following platforms are feasible in the short term and depend mostly on some
 The status of various port can be followed in the following places:
  * the Solaris port can be followed at [:solaris:The Solaris port page].
  * the Windows ports can be followed at [:windows:The Windows port page].
- * the FreeBSD port can be followed at [:freebsd:The Solaris port page].
+ * the FreeBSD port can be followed at [:freebsd:The FreeBSD port page].
 
 Wanted/wishlist:
 
