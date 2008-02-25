@@ -21,14 +21,15 @@ The following platforms are feasible in the short term and depend mostly on some
  * Solaris 10 on Sparc 64 bit [work will start on this once the 32 bit port works]
  * Solaris 10 on x86 32 bit, Opteron/EMT64 32 bit [ongoing, getting close, mabshoff is working on this]
  * Solaris 10 on Opteron/EMT64 64 bit [work will start on this once the 32 bit port works]
+ * BSD support on x86, x86-64: most likely FreeBSD
+ * Windows/MSVC 32 & 64 bit: monumental undertaking, estimate: 1-2 man years, but we are receiving funding to do the port
+ * Windows/Cygwin: this port was dropped due to numerous problems after the 2.5.0 release, but will be resurrected as a stepping stone in the MSVC port
 
-The status of the Solaris port can be followed at [:solaris:The Solaris port page].
+The status of various port can be followed in the following places:
+ * the Solaris port can be followed at [:solaris:The Solaris port page].
+ * the Windows ports can be followed at [:windows:The Windows port page].
+ * the FreeBSD port can be followed at [:freebsd:The Solaris port page].
 
 Wanted/wishlist:
 
  * AIX 64 bit [access to hardware missing]
- * Windows/MSVC 32 & 64 bit [monumental undertaking, estimate: 1-2 man years]
-
-It used to be supported on:
-
- * Windows/Cygwin - this port was dropped due to numerous problems after the 2.5.0 release
