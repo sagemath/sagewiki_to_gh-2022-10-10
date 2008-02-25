@@ -115,3 +115,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
 
  * Can expect upstream sources to be available at {{{$SPKG_ROOT/src}}}
  * Can store distribution-specific files in {{{$SPKG_ROOT/dist/$NAME}}}
+
+== Possibly useful links ==
+
+ * Debian alternatives system: see [http://www.debian-administration.org/articles/91], [http://manpages.debian.net/cgi-bin/man.cgi?query=update-alternatives&apropos=0&sektion=0&manpath=Debian+Sid&format=html&locale=en]
