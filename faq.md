@@ -12,6 +12,10 @@ Magma, Maple, Mathematica, and Matlab."  See [http://www.sagemath.org/] for more
 
 == Getting Sage ==
 
+=== Can I try out Sage without downloading anything? ===
+
+Yes!  Go to [http://www.sagenb.org/] and set up a free account.  If you log in, you will be working on a free Sage notebook server that will work identically to the one you get with Sage.
+
 === How do I get a Sage program I can run immediately? ===
 
 Go to [http://sagemath.org/download.html] and click on the link for the binary for your operating system.
