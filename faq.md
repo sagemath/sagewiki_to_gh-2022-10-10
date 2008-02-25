@@ -61,6 +61,11 @@ Sage comes with all needed tools.  Mercurial is the source code revision system 
 
 You can browse the complete source code to everything in Sage at [http://www.sagemath.org/hg/].  This is a web interface to the Mercurial repository.  The main source files are at [http://www.sagemath.org/hg/sage-main?cmd=manifest;manifest=-1;path=/sage/].  The other directories include docs directories, the package system, etc.
 
+== Getting help ==
+
+=== How do I get help? ===
+
+Sage has two very active email lists and a very active IRC channel.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://sagemath.org/community.html for a listing of these resources.
 
 == Other questions ==
 
