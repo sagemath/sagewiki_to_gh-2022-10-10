@@ -7,6 +7,8 @@
 
 === What is Sage? ===
 
+Sage is a comprehensive open-source mathematics software suite that has the mission statement "Creating a viable free open source alternative to
+Magma, Maple, Mathematica, and Matlab"
 
 == Getting Sage ==
 
