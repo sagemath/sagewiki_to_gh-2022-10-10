@@ -2,6 +2,8 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
    
+  * [http://blog.interlinked.org/science/open_source_math_programs.html Free and Open Source Math Programs]
+
   * [http://feedingthesnake.wordpress.com/2008/02/01/sage-great-free-mathematics-software/ Sage: great free mathematics software]  
  
   * [http://64.233.179.104/translate_c?hl=en&langpair=pt%7Cen&u=http://emersonbrasilgomes.blogspot.com/2008/01/software-para-experimentao-geomtrica-e.html  A Portuguese Article about Sage translated into English]
