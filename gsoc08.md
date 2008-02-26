@@ -22,7 +22,7 @@
  * Calculus Improvements - Gary Furnish
   * Cython version of symbolics
   * Differential Geometry Support via the new symbolics system.
-  
+  * Specifically I would intend to use the new symbolics system to implement things such as integration over manifolds, 1-forms, Tensors, etc.  A Paragraph(or more) on this project is forthcoming.  
 
 == Potential Mentors ==
  * William Stein
