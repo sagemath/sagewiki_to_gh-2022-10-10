@@ -4,6 +4,7 @@
 == Potential Projects ==
 
  * Extend Nice to much more general permutation group algorithms/Make groups in Sage fast and robust
+  * Robert Miller, Tom Boothby
    . There are some very general permutation group questions that can be tackled in the same manner as the graph isomorphism problem, and it would be good to do these in Cython within Sage instead of farming out to GAP.
    * Polynomial problems:
     * Group order
@@ -11,12 +12,17 @@
     * Random group elements
     * Center of a group
     * Solvability/Nilpotency
-   * Harder (graph isomorphism complete) problems:
+   * Harder (many of which are graph isomorphism complete) problems:
     * Centralizers/Normalizers
     * Group intersections
     * Set stabilizers
     * Automorphism groups of combinatorial structures
     * Subgroups satisfying a certain property (given generators and a black box yes/no function, compute generators of the subgroup)
+    * Upper central series
+    * Conjugacy of elements
+    * Testing whether two elements or subsets are in the same orbit of a group action
+    * Canonical representatives of orbits under a group action
+    * Transversals of orbits
 
 
  * Notebook
