@@ -3,8 +3,21 @@
 
 == Potential Projects ==
 
- * Make groups in Sage fast and robust
- * Extend Nice to the generality of Leon
+ * Extend Nice to much more general permutation group algorithms/Make groups in Sage fast and robust
+   . There are some very general permutation group questions that can be tackled in the same manner as the graph isomorphism problem, and it would be good to do these in Cython within Sage instead of farming out to GAP.
+   * Polynomial problems:
+    * Group order
+    * Containment
+    * Random group elements
+    * Center of a group
+    * Solvability/Nilpotency
+   * Harder (graph isomorphism complete) problems:
+    * Centralizers/Normalizers
+    * Group intersections
+    * Set stabilizers
+    * Automorphism groups of combinatorial structures
+    * Subgroups satisfying a certain property (given generators and a black box yes/no function, compute generators of the subgroup)
+
 
  * Notebook
   * Use standard javascript library (jquery?)
