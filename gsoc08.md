@@ -2,6 +2,10 @@
 
 == Potential Projects ==
 
+ * Make groups in Sage fast and robust
+ * Extend Nice to the generality of Leon
+
+
 == Potential Mentors ==
 
  * William Stein
