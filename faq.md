@@ -1,74 +1,52 @@
 #pragma section-numbers 2
 = Sage FAQ: Frequently Asked Questions =
-
 [[TableOfContents]]
 
-
 == Introduction ==
-
 === What is Sage? ===
-
-Sage is a comprehensive open-source mathematics software suite that has the mission statement "Creating a viable free open source alternative to
-Magma, Maple, Mathematica, and Matlab."  See [http://www.sagemath.org/] for more details.
+Sage is a comprehensive open-source mathematics software suite that has the mission statement "Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab."  See http://www.sagemath.org/ for more details.
 
 == Getting Sage ==
-
 === Can I try out Sage without downloading anything? ===
-
-Yes!  Go to [http://www.sagenb.org/] and set up a free account.  If you log in, you will be working on a free Sage notebook server that will work identically to the one you get with Sage.
+Yes!  Go to http://www.sagenb.org/ and set up a free account.  If you log in, you will be working on a free Sage notebook server that will work identically to the one you get with Sage.
 
 === How do I get a Sage program I can run immediately? ===
-
-Go to [http://sagemath.org/download.html] and click on the link for the binary for your operating system.
+Go to http://sagemath.org/download.html and click on the link for the binary for your operating system.
 
 === How do I get the Sage source code? ===
-
-Go to [http://sagemath.org/dist/src/index.html] to download the tar archive for any release of Sage.
+Go to http://sagemath.org/dist/src/index.html to download the tar archive for any release of Sage.
 
 === How do I get a previous release of Sage? ===
-
-Go to [http://sagemath.org/dist/src/index.html] to download the tar archive for any release of Sage.
-
+Go to http://sagemath.org/dist/src/index.html to download the tar archive for any release of Sage.
 
 == Installing and running Sage ==
-
 === How do I compile the source to Sage? ===
-
 Download the source tar archive, extract the archive, change your directory to be inside of it, and type {{{make}}}
 
-
 === How do I run Sage on a platform other than VMWare or Windows? ===
-
 Change your directory to the sage directory and run {{{./sage}}}
 
 To start an online notebook server, start Sage and type {{{notebook()}}} at the sage command prompt.
 
 === How do I run Sage with VMWare? ===
-
 You must install the VMWare software (the free VMWare Player should work).  Simply start the virtual machine using the VMWare software, wait for the virtual machine to boot up, then type {{{notebook}}} at the prompt.
 
 === How do I run Sage in Windows? ===
-
 Windows is currently supported via the VMWare image, so see the instructions for running Sage under VMWare.
 
 == Developing in Sage ==
-
 === What tools do I need to develop in Sage? ===
-
-On Linux you need to install gcc, g++, make, m4, perl, ranlib, and tar. You need at least gcc 3.4 or gcc >= gcc 4.1. gcc 4.0 is not recommended since there are a number of known issues. On OSX you need a recent XCode, i.e. version >= 2.4. gcc -v should output build >= 5363 or higher. 
+On Linux you need to install gcc, g++, make, m4, perl, ranlib, and tar. You need at least gcc 3.4 or gcc >= gcc 4.1. gcc 4.0 is not recommended since there are a number of known issues. On OSX you need a recent XCode, i.e. version >= 2.4. gcc -v should output build >= 5363 or higher.
 
 === Where is the source code to Sage? ===
-
-You can browse the complete source code to everything in Sage at [http://www.sagemath.org/hg/].  This is a web interface to the Mercurial repository.  The main source files are at [http://www.sagemath.org/hg/sage-main?cmd=manifest;manifest=-1;path=/sage/].  The other directories include docs directories, the package system, etc.
+You can browse the complete source code to everything in Sage at http://www.sagemath.org/hg/.  This is a web interface to the Mercurial repository.  The main source files are at http://www.sagemath.org/hg/sage-main?cmd=manifest;manifest=-1;path=/sage/.  The other directories include docs directories, the package system, etc.
 
 == Getting help ==
 
 === How do I get help? ===
-
-Sage has two very active email lists and a very active IRC channel.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://sagemath.org/community.html for a listing of these resources.
+Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://sagemath.org/community.html for a listing of these resources.
 
 == Other questions ==
-
 ----------
  * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
  * ANSWER: Redefine RealNumber to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, for example:
