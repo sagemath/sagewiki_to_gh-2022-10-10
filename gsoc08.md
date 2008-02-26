@@ -14,10 +14,15 @@
   * Improve C++ support
     * better integration of stl classes (vector, list, etc.)
     * automatically generated constructor, destructor
-    * more?
+  * automatic parallelization via thread pools
+  * improve code generaton support to have better code dependency checking.
+  * glib/high performance c libary integration
   * Add multiple inheritance support
   * Attractive features from Aldor (www.aldor.org)
-
+ * Calculus Improvements - Gary Furnish
+  * Cython version of symbolics
+  * Differential Geometry Support via the new symbolics system.
+  
 
 == Potential Mentors ==
  * William Stein
