@@ -71,7 +71,7 @@ Magma can only compute with lattices that have a positive definite
 bilinear form.  Many of the most interesting geometric applications
 involve negative definite or indefinite forms; furthermore, many
 uniqueness and classification results apply only to indefinite lattices.
- The first step toward expanding Sage's integer lattice capability is
+The first step toward expanding Sage's integer lattice capability is
 to expand Sage's capability for working with free abelian groups; this
 would have even wider and more fundamental applications.
   
