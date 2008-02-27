@@ -4290,6 +4290,7 @@ cnwfyy\.com
 biaori\.com
 hangzhouhunqing\.com
 kwyf\.com\.cn
+g2gmart\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
