@@ -3,7 +3,7 @@
 
 == Potential Projects ==
 
-=== Generalize Nice , Improve Permutation Groups ===
+=== Generalize Nice; Improve Permutation Groups ===
  * Robert Miller, Tom Boothby
   . There are some very general permutation group questions that can be tackled in the same manner as the graph isomorphism problem, and it would be good to do these in Cython within Sage instead of farming out to GAP.
   * Polynomial problems:
@@ -59,6 +59,21 @@
   * or (preferred) talk to Oliver Wienand who works on this for Singular and contribute there if possible
  * Wrap all Singular supported base fields via libSingular ($\mathbb{C}$, $\mathbb{R}$, number fields)
  * Write excellent documentation (with examples) on how to use libSingular without Sage and contribute it upstream if possible
+
+
+=== Free abelian groups and integer lattices ===
+
+Integer lattices (free abelian groups endowed with a bilinear,
+integer-valued form) are important objects in geometry and
+combinatorics.  The best available mathematical software for lattice
+computations is the (expensive and proprietary) program Magma.  However,
+Magma can only compute with lattices that have a positive definite
+bilinear form.  Many of the most interesting geometric applications
+involve negative definite or indefinite forms; furthermore, many
+uniqueness and classification results apply only to indefinite lattices.
+ The first step toward expanding Sage's integer lattice capability is
+to expand Sage's capability for working with free abelian groups; this
+would have even wider and more fundamental applications.
   
 
 == Potential Mentors ==
