@@ -35,7 +35,7 @@ AMERICAN:
  * Justin Walker
 LOCAL:
 
- * Tom Boothby
+ * Tom Boothby (June 13-20)
  * Robert Bradshaw
  * Josh Kantor
  * Emily Kirkman
