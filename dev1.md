@@ -32,7 +32,7 @@ AMERICAN:
  * Mike Hansen (June 13-20)
  * David Harvey (probably will not attend)
  * David Roe (June 13-20)
- * Justin Walker
+
 LOCAL:
 
  * Tom Boothby (June 13-20)
