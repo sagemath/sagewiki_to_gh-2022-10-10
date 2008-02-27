@@ -43,8 +43,9 @@ LOCAL:
  * Bobby Moretti (?)
  * Clement Pernet (June 13-20) -- exact linear algebra
  * Yi Qiang -- distributed sage
- * Dan Shumow (?)
+ * Dan Shumow (unclear)
  * William Stein (June 13-20) -- everything, but especially exact linear algebra
+
 == Main Topics ==
  * '''''Cython '''''-- something much deeper than usual, and not necessarily so Sage related.  Cython is one of the "killer apps" of Sage:
   * expand range of Cython developers (i.e., Robert tells us how to work on Cython).
