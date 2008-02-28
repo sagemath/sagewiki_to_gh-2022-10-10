@@ -27,6 +27,27 @@
 === Notebook ===
  * Use standard javascript library (jquery?)
  * Standardize api to communicate with Sage
+ * Improve the Notebook, some relevant trac tickets:
+  * #386  Enhance "attach <file>" in the notebook
+  * #406  notebook -- improve support for other system modes
+  * #408  Notebook glitch in Safari
+  * #413  saving non-evaluated cells
+  * #1466  improve the "click to the left" aspect of the notebook
+  * #1467  make it possible to upload/download worksheets as plain text
+  * #1468  notebook -- create a global option so that word wrap is on or off by default always
+  * #1496  notebook -- make it easy to link different worksheets
+  * #5  full keyboard mode for notebook
+  * #245  a bunch of random notebook improvement ideas
+  * #246  height of a notebook cell
+  * #251  Notebook worksheet multithreading
+  * #260  transparent graphics output
+  * #301  Create some functions for notebook history
+  * #302  Report server errors to online notebook users
+  * #322  Have global code page for Notebook
+  * #336  Create an option to clear all cell output
+  * #338  In doc browser make hyper links to referenced code in SAGE library
+  * #353  public sage notebook robustness
+  * #359  Consider adding dhtml javascript drawing functionality to the SAGE notebook
 
 === Cython ===
  * Improve C++ support
