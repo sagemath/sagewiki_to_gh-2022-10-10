@@ -4291,6 +4291,7 @@ biaori\.com
 hangzhouhunqing\.com
 kwyf\.com\.cn
 g2gmart\.com
+baihelai\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
