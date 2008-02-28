@@ -1,5 +1,7 @@
 = Google Summer of Code 2008 =
 
+== Important Dates ==
+Check http://code.google.com/soc/2008/faqs.html#0.1_timeline for important dates.
 
 == Potential Projects ==
 
