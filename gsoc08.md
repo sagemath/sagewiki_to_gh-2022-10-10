@@ -5,7 +5,7 @@ Check http://code.google.com/soc/2008/faqs.html#0.1_timeline for important dates
 
 == Potential Projects ==
 
-=== Generalize Nice; Improve Permutation Groups ===
+ === Generalize Nice; Improve Permutation Groups ===
  * Robert Miller, Tom Boothby
   . There are some very general permutation group questions that can be tackled in the same manner as the graph isomorphism problem, and it would be good to do these in Cython within Sage instead of farming out to GAP.
   * Polynomial problems:
@@ -98,6 +98,15 @@ The first step toward expanding Sage's integer lattice capability is
 to expand Sage's capability for working with free abelian groups; this
 would have even wider and more fundamental applications.
   
+=== Distributed Computing with dsage ===
+  * Add an administrative page to dsage web interface
+  * Add more functionality to the web interface
+  * Implement automated worker upgrading
+  * Add documentation to dsage
+  * Document/implement methods for deploying dsage workers easily
+  * Implement database versioning/upgrade 
+  * Improve performance with large number of workers 
+  * Add more examples 
 
 == Potential Mentors ==
  * William Stein
