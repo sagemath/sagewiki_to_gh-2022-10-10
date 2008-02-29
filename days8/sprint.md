@@ -20,3 +20,5 @@
  * _fast_float_ / numexpr
 
  * Cython/weave, learn about the Cython/C++ bridge.
+
+ * Fix %timeit to respect preparser (in Ipython).
