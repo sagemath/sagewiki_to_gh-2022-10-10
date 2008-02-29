@@ -6,7 +6,7 @@
 
  * Josh Kantor: Introduction to Sage
 
- * William Stein: Sage Numbers
+ * William Stein: [attachment:stein.pdf Sage Numbers]
 
  * Brian Granger: Distributed arrays
 
