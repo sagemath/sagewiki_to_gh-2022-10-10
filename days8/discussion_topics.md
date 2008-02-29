@@ -6,6 +6,6 @@
 
    * Cython questions. Syntax.
   
-   * Numpexpr? Cython fast float.
+   * Numexpr? Cython fast float.
 
  
