@@ -1,5 +1,6 @@
 [:days7/coercion/todo: To Do]
 
+The official ticket for this is at http://trac.sagemath.org/sage_trac/ticket/2314
 
 Our goal: to clarify and ease the process of writing a new ring/combinatorial class/special kind of matrix while adding mathematical structure and lessening the need for code duplication.
 
