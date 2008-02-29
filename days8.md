@@ -6,6 +6,8 @@
 
 [:/schedule: The Schedule]
 
+[:/sprint: Coding Sprint Projects]
+
 
 ORGANIZERS:
   * Josh Kantor (University of Washington)
