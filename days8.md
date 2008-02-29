@@ -5,6 +5,8 @@
 
 [http://sagemath.org/days8/sched.pdf PDF of the Schedule]
 
+[:/schedule: The Schedule]
+
 ORGANIZERS:
   * Josh Kantor (University of Washington)
   * Travis Oliphant (Enthought)
