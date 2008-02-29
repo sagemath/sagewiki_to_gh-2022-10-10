@@ -6,6 +6,7 @@
 
 [:/schedule: The Schedule]
 
+
 ORGANIZERS:
   * Josh Kantor (University of Washington)
   * Travis Oliphant (Enthought)
