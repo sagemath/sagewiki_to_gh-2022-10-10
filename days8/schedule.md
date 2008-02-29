@@ -2,6 +2,7 @@
 
 [http://sagemath.org/days8/sched.pdf PDF of the Schedule]
 
+== Friday February 29, 2008 ==
 
  * Introduce everyone, informal meeting, random logistics
 
