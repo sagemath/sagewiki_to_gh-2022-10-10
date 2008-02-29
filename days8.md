@@ -167,6 +167,7 @@ discussion to be held on Saturday (FPerez volunteers for this task if needed).
 - User interface collaboration: 'sage-lite'/pylab/ipython code sharing
   possibilities?
   
+- Discussion topics: http://wiki.sagemath.org/days8/discussion_topics
 
 === Saturday 1: More talks/code planning/coding ===
 
