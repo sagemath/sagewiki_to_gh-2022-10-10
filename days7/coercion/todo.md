@@ -11,9 +11,11 @@ Done
  * matrix [http://sage.math.washington.edu/home/robertwb/coerce/coerce-all.hg]
  * complex, real [http://sage.math.washington.edu/home/robertwb/coerce/coerce-real-complex.hg]
  * modules [attachment:coerce-free-module.patch]
+ * quotient rings
 
 In progress
  * groups
+ * finite fields
 
 Little to do
 
