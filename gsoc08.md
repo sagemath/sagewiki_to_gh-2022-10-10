@@ -5,7 +5,7 @@ Check http://code.google.com/soc/2008/faqs.html#0.1_timeline for important dates
 
 == Potential Projects ==
 
- === Generalize Nice; Improve Permutation Groups ===
+=== Generalize Nice; Improve Permutation Groups ===
  * Robert Miller, Tom Boothby
   . There are some very general permutation group questions that can be tackled in the same manner as the graph isomorphism problem, and it would be good to do these in Cython within Sage instead of farming out to GAP.
   * Polynomial problems:
