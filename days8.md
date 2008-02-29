@@ -3,6 +3,7 @@
 
 '''February 29 until March 4, 2008 at the [http://www.enthought.com/ Enthought headquarters in Austin, Texas]'''
 
+[http://sagemath.org/days8/sched.pdf PDF of the Schedule]
 
 ORGANIZERS:
   * Josh Kantor (University of Washington)
