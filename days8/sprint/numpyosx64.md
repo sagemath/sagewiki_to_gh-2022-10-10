@@ -1,4 +1,4 @@
-= Get Numpy to build and work on OS X 10.5.x in 64-bit mode =
+= Get NumPy, SciPy & MatplotLib to build and work on OS X 10.5.x in 64-bit mode =
 
 PEOPLE: Michael Abshoff
 
