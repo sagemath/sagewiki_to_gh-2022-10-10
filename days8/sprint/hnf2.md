@@ -9,3 +9,4 @@ SUMMARY: Do the following:
    2. Implement (or wrap?) Clement's "twice as fast" double det.
 
   
+ISSUES: Building Linbox's rational solver is currently broken on some platforms.
