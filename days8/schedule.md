@@ -18,6 +18,6 @@
 
  * Brian Granger: Distributed arrays
 
- * Ondrej Certik: Sympy
+ * Ondrej Certik: SymPy [attachment:certik.pdf certik.pdf]
 
  
