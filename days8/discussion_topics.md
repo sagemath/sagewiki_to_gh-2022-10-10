@@ -8,4 +8,4 @@
   
    * Numexpr? Cython fast float.
 
- 
+   * Spkg for enthought packages?
