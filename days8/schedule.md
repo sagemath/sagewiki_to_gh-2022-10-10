@@ -1,5 +1,8 @@
 = Sage Days 8 Schedule =
 
+[http://sagemath.org/days8/sched.pdf PDF of the Schedule]
+
+
  * Introduce everyone, informal meeting, random logistics
 
  * Travis Oliphant: Numpy internals, type system.
