@@ -13,7 +13,7 @@
 
  * making sage dtypes for better integration into numpy arrays
 
- * looking at Traits for a Manipulate-like command.
+ * [:/manipulate: Create manipulate functionality for notebook inspired by Traits and Mathematica]
 
  * Code inlining tools to be shared between Sage and Scipy.
 
