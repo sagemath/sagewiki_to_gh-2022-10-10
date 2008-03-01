@@ -4292,6 +4292,8 @@ hangzhouhunqing\.com
 kwyf\.com\.cn
 g2gmart\.com
 baihelai\.com
+freetestking\.org
+sup-lotro-gold\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
