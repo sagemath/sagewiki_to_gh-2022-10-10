@@ -22,3 +22,5 @@
  * Cython/weave, learn about the Cython/C++ bridge.
 
  * Fix %timeit to respect preparser (in Ipython).
+
+ * Sage spkg for traits, chaco, etc. 
