@@ -4,6 +4,8 @@
  
 [http://video.google.com/videoplay?docid=-5264024938148088338&hl=en Introductions] (Google Video)
 
+[http://picasaweb.google.com/ondrej.certik/SageDays8 Introductions] (Photos)
+
 [http://sagemath.org/days8/sched.pdf PDF of the Schedule]
 
 == Friday February 29, 2008 ==
