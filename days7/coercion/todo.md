@@ -12,10 +12,10 @@ Done
  * complex, real [http://sage.math.washington.edu/home/robertwb/coerce/coerce-real-complex.hg]
  * modules [attachment:coerce-free-module.patch]
  * quotient rings
+ * finite fields (including natural embeddings into each other when Conway polynomials are used)
 
 In progress
  * groups
- * finite fields
 
 Little to do
 
