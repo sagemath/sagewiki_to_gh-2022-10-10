@@ -1,6 +1,6 @@
 = Create a Matrix_numpy_dense class in Sage =
 
-PEOPLE: William Stein, Tom Boothby (remotely, Monday after 12)
+PEOPLE: William Stein, Tom Boothby (remotely; available Monday after 12)
 
 
 SUMMARY:
