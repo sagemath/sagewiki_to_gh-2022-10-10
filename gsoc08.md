@@ -27,7 +27,8 @@ Check http://code.google.com/soc/2008/faqs.html#0.1_timeline for important dates
    * Transversals of orbits
 
 === Notebook ===
- * Use standard javascript library (jquery?)
+ * Use standard javascript library: jQuery.
+ * Add Manipulate functionality
  * Standardize api to communicate with Sage
  * Improve the Notebook, some relevant trac tickets:
   * #386  Enhance "attach <file>" in the notebook
