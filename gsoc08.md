@@ -32,7 +32,7 @@ The Sage notebook is an AJAX application similar to Google Documents that provid
 functionality for all mathematical software somewhat like Mathematica notebooks. 
 It was written from scratch (in Javascript and Python) by the Sage development team,
 and has been used daily by thousands of people over the last year.  It's one of the
-main ``killer features'' of Sage.  This project is about improving the notebook.
+main ''killer features'' of Sage.  This project is about improving the notebook.
 No special mathematical knowledge is required.  Knowledge of Javascript, jQuery, Python,
 and general AJAX techniques is needed. 
 
