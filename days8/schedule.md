@@ -22,4 +22,7 @@
 
  * Ondrej Certik: SymPy [attachment:certik.pdf certik.pdf]
 
+== Random Talks ==
+ 
+ * William Stein: Cython and C++ [attachment:cython_talk.tar.bz2]
  
