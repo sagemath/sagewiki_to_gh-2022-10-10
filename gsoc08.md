@@ -162,3 +162,4 @@ This project is to write examples of number theoretic algorithms in SAGE, and ev
  * Burcin Erocal
  * Martin Albrecht
  * Dan Shumow
+ * Robert Bradshaw
