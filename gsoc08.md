@@ -5,7 +5,12 @@ Check http://code.google.com/soc/2008/faqs.html#0.1_timeline for important dates
 
 == Potential Projects ==
 
-=== Generalize Nice; Improve Permutation Groups ===
+=== Graph Automorphism Computation; Improve Permutation Groups ===
+  
+This project is to improve the world's *only* open source implementation of a general
+graph automorphism computation algorithm, and improve Sage's ability to compute with
+permutations and permutation groups.  
+
  * Robert Miller, Tom Boothby
   . There are some very general permutation group questions that can be tackled in the same manner as the graph isomorphism problem, and it would be good to do these in Cython within Sage instead of farming out to GAP.
   * Polynomial problems:
@@ -27,6 +32,14 @@ Check http://code.google.com/soc/2008/faqs.html#0.1_timeline for important dates
    * Transversals of orbits
 
 === Notebook ===
+
+The Sage notebook is an AJAX application similar to Google Documents that provides
+functionality for all mathematical software somewhat like Mathematica notebooks. 
+It was written from scratch (in Javascript and Python) by the Sage development team,
+and has been used daily by thousands of people over the last year.  It's one of the
+main ``killer features'' of Sage.  This project is about improving the notebook.
+No special mathematical knowledge is required. 
+
  * Use standard javascript library: jQuery.
  * Add Manipulate functionality
  * Standardize api to communicate with Sage
