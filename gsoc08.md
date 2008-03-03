@@ -61,10 +61,10 @@ Check http://code.google.com/soc/2008/faqs.html#0.1_timeline for important dates
  * Add multiple inheritance support
  * Attractive features from Aldor (www.aldor.org)
 
-=== Calculus Improvements - Gary Furnish ===
+=== Calculus Improvements - (Student: Gary Furnish) ===
  * Cython version of symbolics
  * Differential Geometry Support via the new symbolics system.
- * Specifically I would intend to use the new symbolics system to implement things such as integration over manifolds, 1-forms, Tensors, etc.  A Paragraph(or more) on this project is forthcoming.  
+Currently support of symbolics is slow at best and uses maxima through a pexpect interface for almost all calculations. Furthermore it does not support integrals over differential forms or other higher dimensional integrals.  There is a possible new symbolics framework that has been designed.  Built in Cython and using native c libraries, it is significantly faster then anything built in python.  General speed improvements for this would still be useful, especially in adding special algorithms for larger and special cases of symbolic arithmetic.  It would also be a good idea to implement a very simple integration algorithm for at least polynomials to improve speed so that it is not necessary to call maxima for simple cases. Based on the material discussed at Sage Days 8, Numpy arrays would be an ideal base to work over to build support for tensors with basis (as opposed to abstract tensors) because they natively support multidimensional operations.  The  new symbolic framework supports defining operations other then the regular scalar ones, so it is possible to define operations (such as index contraction, wedge product, etc) over abstract tensors.  This would be useful for physicists in general relativity and would help Sage become more useful in applied mathematics. Using Numpy would also require better integration with Cython and changes to the Cython code generator to ensure that tensor multiplication is fast enough to be useful for scientific computation.  Although not the primary goal, these Cython would benefit a significant number of other developers because most applications of Numpy are speed dependent.  
 
 === Commutative Algebra (Mentor: Martin Albrecht) ===
  * Write an excellent documentation for commutative algebra in Sage
