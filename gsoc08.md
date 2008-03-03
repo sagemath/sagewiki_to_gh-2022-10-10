@@ -108,8 +108,12 @@ would have even wider and more fundamental applications.
   * Improve performance with large number of workers 
   * Add more examples 
 
+=== Algorithmic Number Theory Examples in Sage and Software for Web Publishing (Mentor: Dan Shumow) ===
+This project is to write examples of number theoretic algorithms in SAGE, and evaluate and/or develop software to publish these examples on the web.  The first part of the project is to learn about some number theory algorithms and write instructive examples in SAGE.  The purpose of this is to showcase how SAGE can be an excellent tool for students to learn number theory algorithms.  The second part of this project is to publish these examples in an extensible way.  This will allow users to add their own SAGE examples and discuss examples.  Specifically, the student should evaluate using open source web based source version control software in conjunction with open source message board software to allow internet users to discuss and modify SAGE examples.
+
 == Potential Mentors ==
  * William Stein
  * Michael Abshoff
  * Burcin Erocal
  * Martin Albrecht
+ * Dan Shumow
