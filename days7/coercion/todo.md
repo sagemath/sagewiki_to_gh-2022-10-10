@@ -16,6 +16,7 @@ Done
 
 In progress
  * groups
+ * number fields
 
 Little to do
 
