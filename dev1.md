@@ -45,6 +45,7 @@ LOCAL:
  * Yi Qiang -- distributed sage
  * Dan Shumow (unclear)
  * William Stein (June 13-20) -- everything, but especially exact linear algebra
+ * Carl Witty (June 13-20) -- either my proposed randgen framework (random number seed management for Sage) or cylindrical algebraic decomposition (either wrapping qepcad or writing my own implementation).
 
 == Main Topics ==
  * '''''Cython '''''-- something much deeper than usual, and not necessarily so Sage related.  Cython is one of the "killer apps" of Sage:
