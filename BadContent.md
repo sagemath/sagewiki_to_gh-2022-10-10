@@ -4297,6 +4297,7 @@ freetestking\.org
 sup-lotro-gold\.com
 warcus\.com
 mini-freegames\.com
+zalasoft\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
