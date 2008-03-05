@@ -4295,6 +4295,8 @@ g2gmart\.com
 baihelai\.com
 freetestking\.org
 sup-lotro-gold\.com
+warcus\.com
+mini-freegames\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
