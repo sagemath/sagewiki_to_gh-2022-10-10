@@ -1070,6 +1070,7 @@ farm-beastiality.com
 farmsx.com
 fasa\.jetco-ops\.com
 fashuo300.com
+fast-look\.com
 fast-fioricet.com
 fast-mortgage-4-u.com
 fat-cash.com
