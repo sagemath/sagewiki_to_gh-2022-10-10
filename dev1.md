@@ -17,8 +17,6 @@ EUROPEAN:
  * Burcin Erocal (June 13-20) -- exact linear algebra, cython
  * Ralph Peter Weinmann (June 13-20)
 
-KOREA:
- * Dan Drake (June 13-20) -- combinatorics
 
 CANADIAN:
 
