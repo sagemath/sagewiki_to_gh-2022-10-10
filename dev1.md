@@ -24,7 +24,7 @@ CANADIAN:
  * Nick Alexander (June 13-20)
 AMERICAN:
 
- * Craig Citro (definitely at the beginning, dates unclear)
+ * Craig Citro (June 13-17) -- cython and exact linear algebra
  * Nathan Dunfield (tentative; probably will attend)
  * Gary Furnish (June 13-20) -- cython
  * Dan Gindikin (pnylab.com; Princeton) -- cython
