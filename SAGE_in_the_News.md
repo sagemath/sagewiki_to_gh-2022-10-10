@@ -2,7 +2,7 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
-  * [/axiomdev Some Axiom Developers Talking About Sage]
+  * [:/axiomdev: Some Axiom Developers Talking About Sage]
    
   * [http://blog.interlinked.org/science/open_source_math_programs.html Free and Open Source Math Programs]
 
