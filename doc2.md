@@ -16,6 +16,8 @@ We will focus mostly on doctests Doc Days 2.   Our goal is to raise the coverage
 
 Add your name here if you're going to be involved, and mention what Sage module you're going to work on!
 
+ * Craig Citro (after 1PM): `modular/modsym` and/or `modular/hecke`
+
 == Modules ==
 
 Coverage scores by module for sage-2.10.3.rc2.  I made this with the following
