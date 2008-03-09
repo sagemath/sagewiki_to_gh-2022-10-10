@@ -6,7 +6,7 @@ We will focus mostly on doctests Doc Days 2.   Our goal is to raise the coverage
 
 == Meetups ==
 
- * Seattle: we'll be meeting at Online Coffee Company in Capitol Hill (between 14th and 15th).  Call Stein at 206-419-0925 if you have trouble finding us. 
+ * Seattle (canceled due to lack of people -- we'll just meet on irc) : we'll be meeting at Online Coffee Company in Capitol Hill (between 14th and 15th).  Call Stein at 206-419-0925 if you have trouble finding us.   
 
 
 == Names ==
