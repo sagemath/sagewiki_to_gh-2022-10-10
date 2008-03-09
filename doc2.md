@@ -14,6 +14,8 @@ Add your name here if you're going to be involved, and mention what Sage module 
 
  * Craig Citro (after 1PM): `modular/modsym` and/or `modular/hecke`
  * Michael Abshoff - working on #1647, #1648
+ * cswiercz:  rings/ring.pyx
+ * William Stein: databases (starting score is 16.8%!)
 
 == Modules ==
 
