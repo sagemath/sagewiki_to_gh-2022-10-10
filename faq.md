@@ -170,6 +170,12 @@ Now every time the appliance reboots, it will automatically load directly to the
 limit maxproc 512 2048
 }}}
   . then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
+
+----------
+ * QUESTION: How do I use the bitwise XOR operator in sage?
+ * ANSWER: Define two variables, for example {{{a = 5; b = 8}}}, and evaluate {{{a.__xor__(b)}}}, 13.
+
+
 ----------
 
 = ToDo =
