@@ -31,6 +31,7 @@ def _(N=(100,(2..2000))):
     html("<font color='red'>$\pi(x)$</font> and <font color='blue'>$x/(\log(x)-1)$</font> for $x < %s$"%N)
     show(plot(prime_pi, 0, N, rgbcolor='red') + plot(x/(log(x)-1), 5, N, rgbcolor='blue'))
 }}}
+attachment:primes.png
 
 === Computing the cuspidal subgroup ===
 {{{
