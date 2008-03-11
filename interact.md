@@ -110,6 +110,7 @@ font-weight:bold
 attachment:dh.png
 
 === Somewhat Silly Egg Painter ===
+by Marshall Hampton (refereed by William Stein)
 {{{
 var('s,t')
 g(s) = ((0.57496*sqrt(121 - 16.0*s^2))/sqrt(10.+ s))
