@@ -24,7 +24,7 @@ attachment:mountains.png
 
 == Number Theory ==
 
-=== Illustrating of the prime number thoerem ===
+=== Illustrating the prime number thoerem ===
 {{{
 @interact
 def _(N=(100,(2..2000))):
@@ -64,3 +64,38 @@ def f(N = prime_range(11,400),
 }}}
 
 attachment:heckegraph.png
+
+=== Demonstrating the Diffie-Hellman Key Exchange Protocol ===
+
+{{{
+@interact
+def diffie_hellman(button=selector(['New example'],label='',buttons=True)):
+    import random
+    p = random_prime(30)
+    g = random.choice([2, 5])
+    a = ZZ(randint(10, 30))
+    b = ZZ(randint(10, 30))
+
+    print """
+<html>
+<style>
+.gamodp {
+background:yellow
+}
+.gbmodp {
+background:orange
+}
+.dhsame {
+color:green;
+font-weight:bold
+}
+</style>
+<ol style="color:#000;font:12px Arial, Helvetica, sans-serif">
+<li>Alice and Bob agree to use a prime number p=%s and base g=%s.</li>
+<li>Alice chooses a secret integer a=%s, then sends Bob (<span class="gamodp">g<sup>a</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gamodp">%s</span>.</li>
+<li>Bob chooses a secret integer b=%s, then sends Alice (<span class="gbmodp">g<sup>b</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gbmodp">%s</span>.</li>
+<li>Alice computes (<span class="gbmodp">g<sup>b</sup> mod p</span>)<sup>a</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
+<li>Bob computes (<span class="gamodp">g<sup>a</sup> mod p</span>)<sup>b</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
+</ol></html>
+    """ % (p, g, a, g, a, p, (mod(g ^ a, p)), b, g, b, p, (mod(g ^ b, p)), (mod(g ^ b, p)), a, p, mod((mod(g ^ b, p)) ^ a, p), (mod(g ^ a, p)), b, p, mod((mod(g ^ a, p)) ^ b, p))  
+}}}
