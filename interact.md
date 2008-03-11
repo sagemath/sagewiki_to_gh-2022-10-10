@@ -99,3 +99,5 @@ font-weight:bold
 </ol></html>
     """ % (p, g, a, g, a, p, (mod(g ^ a, p)), b, g, b, p, (mod(g ^ b, p)), (mod(g ^ b, p)), a, p, mod((mod(g ^ b, p)) ^ a, p), (mod(g ^ a, p)), b, p, mod((mod(g ^ a, p)) ^ b, p))  
 }}}
+
+attachment:dh.jpg
