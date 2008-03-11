@@ -69,12 +69,14 @@ attachment:heckegraph.png
 
 {{{
 @interact
-def diffie_hellman(button=selector(['New example'],label='',buttons=True)):
-    import random
-    p = random_prime(30)
-    g = random.choice([2, 5])
-    a = ZZ(randint(10, 30))
-    b = ZZ(randint(10, 30))
+def diffie_hellman(button=selector(["New example"],label='',buttons=True), 
+    bits=("Number of bits of prime", (8,12,..512))):
+    maxp = 2^bits
+    p = random_prime(maxp)
+    k = GF(p)
+    g = k.multiplicative_generator()
+    a = ZZ.random_element(10, maxp)
+    b = ZZ.random_element(10, maxp)
 
     print """
 <html>
@@ -90,14 +92,16 @@ color:green;
 font-weight:bold
 }
 </style>
+<h2>%s-Bit Diffie-Hellman Key Exchange</h2>
 <ol style="color:#000;font:12px Arial, Helvetica, sans-serif">
-<li>Alice and Bob agree to use a prime number p=%s and base g=%s.</li>
-<li>Alice chooses a secret integer a=%s, then sends Bob (<span class="gamodp">g<sup>a</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gamodp">%s</span>.</li>
-<li>Bob chooses a secret integer b=%s, then sends Alice (<span class="gbmodp">g<sup>b</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gbmodp">%s</span>.</li>
+<li>Alice and Bob agree to use the prime number p=%s and base g=%s.</li>
+<li>Alice chooses the secret integer a=%s, then sends Bob (<span class="gamodp">g<sup>a</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gamodp">%s</span>.</li>
+<li>Bob chooses the secret integer b=%s, then sends Alice (<span class="gbmodp">g<sup>b</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gbmodp">%s</span>.</li>
 <li>Alice computes (<span class="gbmodp">g<sup>b</sup> mod p</span>)<sup>a</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
 <li>Bob computes (<span class="gamodp">g<sup>a</sup> mod p</span>)<sup>b</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
 </ol></html>
-    """ % (p, g, a, g, a, p, (mod(g ^ a, p)), b, g, b, p, (mod(g ^ b, p)), (mod(g ^ b, p)), a, p, mod((mod(g ^ b, p)) ^ a, p), (mod(g ^ a, p)), b, p, mod((mod(g ^ a, p)) ^ b, p))  
+    """ % (bits, p, g, a, g, a, p, (g^a), b, g, b, p, (g^b), (g^b), a, p, 
+       (g^ b)^a, g^a, b, p, (g^a)^b)
 }}}
 
 attachment:dh.jpg
