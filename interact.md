@@ -7,6 +7,18 @@ We'll likely restructure and reorganize this once we have some nontrivial conten
 == Graphics ==
 
 == Calculus ==
+{{{
+@interact
+def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)), 
+      cmap=['autumn', 'bone', 'cool', 'copper', 'gray', 'hot', 'hsv', 
+           'jet', 'pink', 'prism', 'spring', 'summer', 'winter']):
+     x,y = var('x,y')
+     f = q1/sqrt((x+1)^2 + y^2) + q2/sqrt((x-1)^2+(y+0.5)^2)
+     C = contour_plot(f, (-2,2), (-2,2), plot_points=30, contours=15, cmap=cmap)
+     show(C, figsize=3, aspect_ratio=1)
+     show(plot3d(f, (x,-2,2), (y,-2,2)), figsize=5, viewer='tachyon')     
+}}}
+
 
 == Number Theory ==
 
