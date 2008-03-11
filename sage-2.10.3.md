@@ -16,18 +16,16 @@ sage: plot_vector_field((lambda x,y: x+y, lambda x,y: x^2*y^3), (x,-2,2), (y,-2,
 
  * Matrices now have a jordan_form method which computes the Jordan canonical form.
 {{{
-            sage: a = matrix(ZZ,4,[1, 0, 0, 0, 0, 1, 0, 0, 1, 
-            -1, 1, 0, 1, -1, 1, 2]); a
-            [ 1  0  0  0]
-            [ 0  1  0  0]
-            [ 1 -1  1  0]
-            [ 1 -1  1  2]
-            sage: a.jordan_form()
-            [2|0 0|0]
-            [-+---+-]
-            [0|1 1|0]
-            [0|0 1|0]
-            [-+---+-]
-            [0|0 0|1]
+sage: a = matrix(ZZ,4,[1, 0, 0, 0, 0, 1, 0, 0, 1, -1, 1, 0, 1, -1, 1, 2]); a
+[ 1  0  0  0]
+[ 0  1  0  0]
+[ 1 -1  1  0]
+[ 1 -1  1  2]
+sage: a.jordan_form()
+[2|0 0|0]
+[-+---+-]
+[0|1 1|0]
+[0|0 1|0]
+[-+---+-]
+[0|0 0|1]
 }}}
-m = matrix(QQ<
