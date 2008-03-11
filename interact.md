@@ -24,6 +24,13 @@ attachment:mountains.png
 
 == Number Theory ==
 
+=== Illustrating of the prime number thoerem ===
+{{{
+@interact
+def _(N=(100,(2..2000))):
+    html("<font color='red'>$\pi(x)$</font> and <font color='blue'>$x/(\log(x)-1)$</font> for $x < %s$"%N)
+    show(plot(prime_pi, 0, N, rgbcolor='red') + plot(x/(log(x)-1), 5, N, rgbcolor='blue'))
+}}}
 
 === Computing the cuspidal subgroup ===
 {{{
