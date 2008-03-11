@@ -8,7 +8,7 @@ We'll likely restructure and reorganize this once we have some nontrivial conten
 
 == Calculus ==
 === A contour map and 3d plot of two inverse distance functions ===
-
+by William Stein
 {{{
 @interact
 def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)), 
@@ -25,6 +25,7 @@ attachment:mountains.png
 == Number Theory ==
 
 === Illustrating the prime number thoerem ===
+by William Stein
 {{{
 @interact
 def _(N=(100,(2..2000))):
@@ -34,6 +35,7 @@ def _(N=(100,(2..2000))):
 attachment:primes.png
 
 === Computing the cuspidal subgroup ===
+by William Stein
 {{{
 html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>')
 @interact
@@ -45,6 +47,7 @@ def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
 attachment:cuspgroup.png
 
 === A Charpoly and Hecke Operator Graph ===
+by William Stein
 
 {{{
 # Note -- in Sage-2.10.3; multiedges are missing in plots; loops are missing in 3d plots
