@@ -43,3 +43,22 @@ def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
 }}}
 
 attachment:cuspgroup.png
+
+=== A Charpoly and Hecke Operator Graph ===
+
+{{{
+# Note -- in Sage-2.10.3; multiedges are missing in plots; loops are missing in 3d plots
+@interact
+def f(N = prime_range(11,400),
+      p = selector(prime_range(2,12),nrows=1),
+      three_d = ("Three Dimensional", False)):
+    S = SupersingularModule(N)
+    T = S.hecke_matrix(p)
+    G = Graph(T, multiedges=True, loops=not three_d)
+    html("<h1>Charpoly and Hecke Graph: Level %s, T_%s</h1>"%(N,p))
+    show(T.charpoly().factor())
+    if three_d:
+        show(G.plot3d(), aspect_ratio=[1,1,1])
+    else:
+        show(G.plot(),figsize=7)
+}}}
