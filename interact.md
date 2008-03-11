@@ -66,7 +66,7 @@ def f(N = prime_range(11,400),
 attachment:heckegraph.png
 
 === Demonstrating the Diffie-Hellman Key Exchange Protocol ===
-
+by Timothy Clemans (refereed by William Stein)
 {{{
 @interact
 def diffie_hellman(button=selector(["New example"],label='',buttons=True), 
@@ -104,7 +104,7 @@ font-weight:bold
        (g^ b)^a, g^a, b, p, (g^a)^b)
 }}}
 
-attachment:dh.jpg
+attachment:dh.png
 
 === Somewhat Silly Egg Painter ===
 {{{
