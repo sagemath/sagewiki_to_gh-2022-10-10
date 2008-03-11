@@ -18,7 +18,7 @@ def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
      show(C, figsize=3, aspect_ratio=1)
      show(plot3d(f, (x,-2,2), (y,-2,2)), figsize=5, viewer='tachyon')     
 }}}
-
+attachment:mountains.png
 
 == Number Theory ==
 
