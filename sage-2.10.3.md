@@ -29,3 +29,21 @@ sage: a.jordan_form()
 [-+---+-]
 [0|0 0|1]
 }}}
+
+== Unified derivative syntax ==
+
+The {{{derivative}}} function now accepts the same argument format across many different data types, including symbolic objects, polynomials, power series, and Laurent series. For example:
+
+{{{
+sage: var("x y")
+(x, y)
+sage: f = sin(x^3 * y^2)
+sage: f.derivative(x, y, 2)   # differentiate with respect to x, and then twice with respect to y
+-30*x^5*y^2*sin(x^3*y^2) - 12*x^8*y^4*cos(x^3*y^2) + 6*x^2*cos(x^3*y^2)
+
+sage: R.<t> = PowerSeriesRing(ZZ)
+sage: S.<u> = PowerSeriesRing(R)
+sage: f = t^3 * u^2
+sage: f.derivative(u, t, 2)
+12*t*u
+}}}
