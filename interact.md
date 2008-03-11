@@ -62,3 +62,5 @@ def f(N = prime_range(11,400),
     else:
         show(G.plot(),figsize=7)
 }}}
+
+attachment:heckegraph.png
