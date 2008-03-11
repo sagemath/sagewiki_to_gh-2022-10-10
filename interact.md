@@ -7,6 +7,8 @@ We'll likely restructure and reorganize this once we have some nontrivial conten
 == Graphics ==
 
 == Calculus ==
+=== A contour map and 3d plot of two inverse distance functions ===
+
 {{{
 @interact
 def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)), 
@@ -22,6 +24,8 @@ attachment:mountains.png
 
 == Number Theory ==
 
+
+=== Computing the cuspidal subgroup ===
 {{{
 html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>')
 @interact
