@@ -120,4 +120,4 @@ def _(band_number = selector(range(1,5)), current_color = Color('red')):
     egg = sum([P(colorlist[i],[-2.75+5.5*(i/4),-2.75+5.5*(i+1)/4]) for i in range(4)])
     show(egg)
 }}}
-attachment:eggpaint.jpg
+attachment:eggpaint.png
