@@ -17,11 +17,11 @@ Done
 In progress
  * groups
  * number fields
+ * calculus
 
 Little to do
 
  * algebras
- * calculus
  * categories
  * combinat
  * crypto
