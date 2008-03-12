@@ -5,6 +5,18 @@ Sage 2.10.3 was released on 11 Mar 2008. For the official, comprehensive release
 
 Sage now has a first version of its "interact" command.  Calling "@interact" before defining a function will construct controls to graphically control the input variables of the function, making it dramatically easier to create interactive functionality that is easy to use.  See [http://wiki.sagemath.org/interact] for details and examples or just type "interact?" in Sage.
 
+== Graph theory ==
+
+Many of the results of Sage Days 7: Combinatorics are included in this
+release, including Schnyder's algorithm for producing straight-line
+drawings of planar graphs in linear time (Jonathan Bober and Emily
+Kirkman), and a new compiled backend for the base graph structures
+(Robert Miller). This backend will be switched into graphs proper in
+sage-2.10.4, and the basic functions, such as add edge and has edge,
+will be sped up by at least 20 times in many cases, and often much
+more. In addition most of graph.py was refactored and cleaned up, in
+preparation for the switch.
+
 == Plotting ==
 
  * The plot_vector_field function now takes 2-variable functions, allowing for much more complex vector fields.
