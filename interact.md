@@ -64,6 +64,7 @@ def GS_modern(a_list):
             v[j] = v[j] - r[i][j]*q[i]
     q = matrix([q[i] for i in indices]).transpose()
     return q, matrix(r)
+html('<h2>Numerical instability of the classical Gram-Schmidt algorithm</h2>')
 @interact
 def gstest(precision = slider(range(3,53), default = 10), a1 = input_box([1,1/1000,1/1000]), a2 = input_box([1,1/1000,0]), a3 = input_box([1,0,1/1000])):
     myR = RealField(precision)
