@@ -12,6 +12,8 @@ by William Stein (there is no way yet to make the text box big):
 
 {{{
 @interact
+
+---- /!\ '''Edit conflict - other version:''' ----
 def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), code='2+2'):
     print globals()[system].eval(code)
 }}}
@@ -27,6 +29,10 @@ by William Stein (I spent less than five minutes on this):
 
 {{{
 @interact
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
       n=selector([1..10],nrows=1), p=selector([10,20,..,100],nrows=1)):
     print graph
@@ -65,6 +71,26 @@ def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
      show(plot3d(f, (x,-2,2), (y,-2,2)), figsize=5, viewer='tachyon')     
 }}}
 attachment:mountains.png
+
+=== A simple tangent line grapher ===
+by Marshall Hampton
+{{{
+html('<h2>Tangent line grapher</h2>')
+@interact
+def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xend = slider(0,10,1/10,10), x0 = slider(0, 1, 1/100, 1/2)):
+    prange = [xbegin, xend]
+    x0i = xbegin + x0*(xend-xbegin)
+    var('x')
+    df = diff(f)
+    tanf = f(x0i) + df(x0i)*(x-x0i)
+    fplot = plot(f, prange[0], prange[1])
+    print 'Tangent line is y = ' + tanf._repr_()
+    tanplot = plot(tanf, prange[0], prange[1], rgbcolor = (1,0,0))
+    fmax = f.find_maximum_on_interval(prange[0], prange[1])[0]
+    fmin = f.find_minimum_on_interval(prange[0], prange[1])[0]
+    show(fplot + tanplot, xmin = prange[0], xmax = prange[1], ymax = fmax, ymin = fmin)
+}}}
+attachment:tangents.png
 
 == Linear Algebra ==
 
