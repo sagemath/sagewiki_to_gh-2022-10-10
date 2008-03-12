@@ -25,7 +25,7 @@ attachment:mountains.png
 == Linear Algebra ==
 
 === Numerical instability of the classical Gram-Schmidt algorithm ===
-by Marshall Hampton
+by Marshall Hampton (tested by William Stein, who thinks this is really nice!)
 {{{
 def GS_classic(a_list):
     '''
