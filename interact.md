@@ -27,10 +27,6 @@ by William Stein (I spent less than five minutes on this):
 
 {{{
 @interact
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
 def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
       n=selector([1..10],nrows=1), p=selector([10,20,..,100],nrows=1)):
     print graph
