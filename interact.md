@@ -4,6 +4,19 @@ Post code that demonstrates the use of the interact command in Sage here.    It 
 
 We'll likely restructure and reorganize this once we have some nontrivial content and get a sense of how it is laid out. 
 
+== Miscellaneous ==
+
+=== Evaluate a bit of code in a given system ===
+
+by William Stein (there is no way yet to make the text box big):
+
+{{{
+@interact
+def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), code='2+2'):
+    print globals()[system].eval(code)
+}}}
+
+
 == Graph Theory ==
 
 === Automorphism Groups of some Graphs ===
