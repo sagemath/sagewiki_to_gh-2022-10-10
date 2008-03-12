@@ -33,6 +33,8 @@ def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
     show(plot(G))
 }}}
 
+attachment:autograph.png
+
 == Calculus ==
 === A contour map and 3d plot of two inverse distance functions ===
 by William Stein
