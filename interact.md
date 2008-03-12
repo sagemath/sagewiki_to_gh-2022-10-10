@@ -233,6 +233,18 @@ font-weight:bold
 
 attachment:dh.png
 
+=== Plotting an elliptic curve over a finite field ===
+{{{
+E = EllipticCurve('37a')
+@interact
+def _(p=slider(prime_range(1000), default=389)):
+    show(E)
+    print "p = %s"%p
+    show(E.change_ring(GF(p)).plot(),xmin=0,ymin=0)
+}}}
+
+attachment:ellffplot.png
+
 == Web apps ==
 
 === Bioinformatics ===
