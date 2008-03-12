@@ -13,11 +13,11 @@ Done
  * modules [attachment:coerce-free-module.patch]
  * quotient rings
  * finite fields (including natural embeddings into each other when Conway polynomials are used)
+ * calculus
 
 In progress
  * groups
  * number fields
- * calculus
 
 Little to do
 
