@@ -16,6 +16,8 @@ def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), 
     print globals()[system].eval(code)
 }}}
 
+attachment:evalsys.png
+
 
 == Graph Theory ==
 
