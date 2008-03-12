@@ -233,6 +233,24 @@ font-weight:bold
 
 attachment:dh.png
 
+=== Web apps ===
+== Bioinformatics ==
+by Marshall Hampton
+{{{
+import urllib2 as U
+@interact
+def protein_browser(GenBank_ID = input_box('165940577', type = str), file_type = selector([(1,'fasta'),(2,'GenPept')])):
+    if file_type == 2:
+        gen_str = 'http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=protein&sendto=t&id='
+    else:
+        gen_str = 'http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=protein&sendto=t&dopt=fasta&id='
+    f = U.urlopen(gen_str + GenBank_ID)        
+    g = f.read()
+    f.close()
+    html(g)
+}}}
+attachment:biobrowse.png
+
 === Somewhat Silly Egg Painter ===
 by Marshall Hampton (refereed by William Stein)
 {{{
