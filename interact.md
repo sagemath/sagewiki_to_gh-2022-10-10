@@ -22,6 +22,61 @@ def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
 }}}
 attachment:mountains.png
 
+== Linear Algebra ==
+
+=== Numerical instability of the classical Gram-Schmidt algorithm ===
+{{{
+def GS_classic(a_list):
+    '''
+    Given a list of vectors or a matrix, returns the QR factorization using the classical (and numerically unstable) Gram-Schmidt algorithm.    
+    '''
+    if type(a_list) != list:
+        cols = a_list.cols()
+        a_list = [x for x in cols]
+    indices = range(len(a_list))
+    q = []
+    r = [[0 for i in indices] for j in indices]
+    v = [a_list[i].copy() for i in indices]
+    for i in indices:
+        for j in range(0,i):
+            r[j][i] = q[j].inner_product(a_list[i])
+            v[i] = v[i] - r[j][i]*q[j]
+        r[i][i] = (v[i]*v[i])^(1/2)
+        q.append(v[i]/r[i][i])
+    q = matrix([q[i] for i in indices]).transpose()
+    return q, matrix(r)
+def GS_modern(a_list):
+    '''
+    Given a list of vectors or a matrix, returns the QR factorization using the 'modern' Gram-Schmidt algorithm.    
+    '''
+    if type(a_list) != list:
+        cols = a_list.cols()
+        a_list = [x for x in cols]
+    indices = range(len(a_list))
+    q = []
+    r = [[0 for i in indices] for j in indices]
+    v = [a_list[i].copy() for i in indices]
+    for i in indices:
+        r[i][i] = v[i].norm(2)
+        q.append(v[i]/r[i][i])
+        for j in range(i+1, len(indices)):
+            r[i][j] = q[i].inner_product(v[j])
+            v[j] = v[j] - r[i][j]*q[i]
+    q = matrix([q[i] for i in indices]).transpose()
+    return q, matrix(r)
+@interact
+def gstest(precision = slider(range(3,53), default = 10), a1 = input_box([1,1/1000,1/1000]), a2 = input_box([1,1/1000,0]), a3 = input_box([1,0,1/1000])):
+    myR = RealField(precision)
+    displayR = RealField(5)
+    print 'precision in bits: ' + str(precision)
+    A = matrix([a1,a2,a3])
+    A = [vector(myR,x) for x in A]
+    qn, rn = GS_classic(A)
+    qb, rb = GS_modern(A)
+    show(matrix(displayR,qn)), show(matrix(displayR,qb))
+}}}
+attachment:GramSchmidt.png
+
 == Number Theory ==
 
 === Illustrating the prime number thoerem ===
