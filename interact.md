@@ -69,12 +69,15 @@ html('<h2>Numerical instability of the classical Gram-Schmidt algorithm</h2>')
 def gstest(precision = slider(range(3,53), default = 10), a1 = input_box([1,1/1000,1/1000]), a2 = input_box([1,1/1000,0]), a3 = input_box([1,0,1/1000])):
     myR = RealField(precision)
     displayR = RealField(5)
-    print 'precision in bits: ' + str(precision)
+    html('precision in bits: ' + str(precision) + '<br>')
     A = matrix([a1,a2,a3])
     A = [vector(myR,x) for x in A]
     qn, rn = GS_classic(A)
     qb, rb = GS_modern(A)
-    show(matrix(displayR,qn)), show(matrix(displayR,qb))
+    html('Classical Gram-Schmidt:')
+    show(matrix(displayR,qn))
+    html('Stable Gram-Schmidt:')
+    show(matrix(displayR,qb))
 }}}
 attachment:GramSchmidt.png
 
