@@ -233,8 +233,9 @@ font-weight:bold
 
 attachment:dh.png
 
-=== Web apps ===
-== Bioinformatics ==
+== Web apps ==
+
+=== Bioinformatics ===
 by Marshall Hampton
 {{{
 import urllib2 as U
