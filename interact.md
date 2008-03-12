@@ -12,8 +12,6 @@ by William Stein (there is no way yet to make the text box big):
 
 {{{
 @interact
-
----- /!\ '''Edit conflict - other version:''' ----
 def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), code='2+2'):
     print globals()[system].eval(code)
 }}}
