@@ -247,8 +247,8 @@ attachment:ellffplot.png
 
 == Web apps ==
 
-=== Bioinformatics ===
-by Marshall Hampton
+=== Bioinformatics: protein browser ===
+by Marshall Hampton (tested by William Stein)
 {{{
 import urllib2 as U
 @interact
