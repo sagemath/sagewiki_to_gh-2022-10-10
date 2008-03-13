@@ -267,6 +267,7 @@ attachment:biobrowse.png
 == Miscellaneous Graphics ==
 === Somewhat Silly Egg Painter ===
 by Marshall Hampton (refereed by William Stein)
+[#eggpaint]
 {{{
 var('s,t')
 g(s) = ((0.57496*sqrt(121 - 16.0*s^2))/sqrt(10.+ s))
