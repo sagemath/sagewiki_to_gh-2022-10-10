@@ -265,9 +265,9 @@ def protein_browser(GenBank_ID = input_box('165940577', type = str), file_type =
 attachment:biobrowse.png
 
 == Miscellaneous Graphics ==
+[[Anchor(eggpaint)]]
 === Somewhat Silly Egg Painter ===
 by Marshall Hampton (refereed by William Stein)
-[[Anchor(eggpaint)]]
 {{{
 var('s,t')
 g(s) = ((0.57496*sqrt(121 - 16.0*s^2))/sqrt(10.+ s))
