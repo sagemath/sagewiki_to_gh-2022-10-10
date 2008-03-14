@@ -21,7 +21,7 @@ Go to http://sagemath.org/dist/src/index.html to download the tar archive for an
 
 == Installing and running Sage ==
 === How do I compile the source to Sage? ===
-Download the source tar archive, extract the archive, change your directory to be inside of it, and type {{{make}}}
+Download the source tar archive, extract the archive, change your directory to be inside of it, and read the README.txt file there.  Basically, after making sure you have the proper prerequisite tools installed, you type {{{make}}}.
 
 === How do I run Sage on a platform other than VMWare or Windows? ===
 Change your directory to the sage directory and run {{{./sage}}}
@@ -36,7 +36,7 @@ Windows is currently supported via the VMWare image, so see the instructions for
 
 == Developing in Sage ==
 === What tools do I need to develop in Sage? ===
-On Linux you need to install gcc, g++, make, m4, perl, ranlib, and tar. You need at least gcc 3.4 or gcc >= gcc 4.1. gcc 4.0 is not recommended since there are a number of known issues. On OSX you need a recent XCode, i.e. version >= 2.4. gcc -v should output build >= 5363 or higher.
+You need the prerequisite tools listed in the README.txt file in the root directory of the Sage.
 
 === Where is the source code to Sage? ===
 You can browse the complete source code to everything in Sage at http://www.sagemath.org/hg/.  This is a web interface to the Mercurial repository.  The main source files are at http://www.sagemath.org/hg/sage-main?cmd=manifest;manifest=-1;path=/sage/.  The other directories include docs directories, the package system, etc.
