@@ -4,6 +4,8 @@ Post code that demonstrates the use of the interact command in Sage here.    It 
 
 We'll likely restructure and reorganize this once we have some nontrivial content and get a sense of how it is laid out. 
 
+[[TableOfContents]]
+
 == Miscellaneous ==
 
 === Evaluate a bit of code in a given system ===
