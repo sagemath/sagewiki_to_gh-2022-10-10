@@ -1,10 +1,8 @@
 = SAGE DAYS 9:  Sage and Graphics =
 
-== Mathematical Graphics and Visualization Workshop, a graduate training event ==
-
 Application DEADLINE: April 15, 2008
 
-Apply at [http://www.pims.math.ca/science/2008/08mgvw/ the Official Webpage].
+Apply now online at [http://www.pims.math.ca/science/2008/08mgvw/ the Official Webpage].
 
 DATES:        August 8 - 16, 2008
 
@@ -39,17 +37,7 @@ FUNDING: Participants will be housed on campus in SFU student dorms at no cost t
 We have funds available to cover some travel costs, but not enough to cover everyone's. We expect most participants to find
 their own source. If you need them to be covered, please explain in your application.
 
-APPLICATIONS: You can apply online at
-
+APPLICATIONS: Apply by April 15 online at
 http://www.pims.math.ca/science/2008/08mgvw/apply.html
-
-A complete application consists of
- * Your contact information and background
- * A short description of one or two projects that you might
-   like to work on during the workshop
- * A reference from your supervisor. This can be submitted
-   online as well. See the application form.
-
-We should receive your application by April 15, 2008. Late applications are at a disadvantage. You will hear by April 30, 2008 if your application is accepted. If it is, you will receive instructions to register for the event.
 
 COMPUTING EQUIPMENT: You will spend a large part of the workshop working on computers.  We have a number of workstations available, but we shall not be able to provide everybody with a workstation. You are encouraged to bring a laptop with wireless networking capability and a modern web browser (such as Firefox 2.0) installed.
