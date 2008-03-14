@@ -158,6 +158,27 @@ def _(N=(100,(2..2000))):
 }}}
 attachment:primes.png
 
+=== Computing Generalized Bernoulli Numbers ===
+by William Stein (Sage-2.10.3)
+{{{
+@interact
+def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
+    G = DirichletGroup(m)
+    s = "<h3>First n=%s Bernoulli numbers attached to characters with modulus m=%s</h3>"%(n,f)
+    s += '<table border=1>'
+    s += '<tr bgcolor="#edcc9c"><td align=center>$\\chi$</td><td>Conductor</td>' + \
+           ''.join('<td>$B_{%s,\chi}$</td>'%k for k in [1..n]) + '</tr>'
+    for eps in G.list():
+        v = ''.join(['<td align=center bgcolor="#efe5cd">$%s$</td>'%latex(eps.bernoulli(k)) for k in [1..n]])
+        s += '<tr><td bgcolor="#edcc9c">%s</td><td bgcolor="#efe5cd" align=center>%s</td>%s</tr>\n'%(
+             eps, eps.conductor(), v)
+    s += '</table>'
+    html(s)
+}}}
+
+attachment:bernoulli.png
+
+
 === Computing the cuspidal subgroup ===
 by William Stein
 {{{
