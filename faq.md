@@ -36,7 +36,7 @@ Windows is currently supported via the VMWare image, so see the instructions for
 
 == Developing in Sage ==
 === What tools do I need to develop in Sage? ===
-You need the prerequisite tools listed in the README.txt file in the root directory of the Sage.
+You need the prerequisite tools listed in the README.txt file in the root directory of Sage.
 
 === Where is the source code to Sage? ===
 You can browse the complete source code to everything in Sage at http://www.sagemath.org/hg/.  This is a web interface to the Mercurial repository.  The main source files are at http://www.sagemath.org/hg/sage-main?cmd=manifest;manifest=-1;path=/sage/.  The other directories include docs directories, the package system, etc.
