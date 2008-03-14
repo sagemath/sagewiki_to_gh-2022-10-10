@@ -65,3 +65,16 @@ LOCAL:
 
  * '''''Parallel computation in Sage''''' -- DSage, Ipython1, Threads again; sort of like the MSRI conference last year but much more focused on Sage and actual implementations.
  * '''''Exact linear algebra''''' -- perfect to capitalize on Clement Pernet being around, and the positive momentum behind Linbox, IML, etc.  There would be a number of talks on all the basic tricks of exact linear algebra, systematic benchmarking, with the goal being to "beat Magma" at a range of exact linear algebra problems.
+
+== Hotel information ==
+
+Back during SD2, William recommend the Seattle University Travelodge:
+
+   http://www.seattleuniversityhotel.com/index.html
+
+They have free wifi, are very conveniently located.   Their rates are also reasonable.  The College Inn (http://www.collegeinnseattle.com/) is also a good choice.
+
+There are some other options here:
+  http://www.washington.edu/univrel/visitors/accommodations.html
+
+NOTE: UW's commencement is June 14th, so many hotels are already booked solid for the weekend and/or unusually expensive for the 13th and 14th.  
