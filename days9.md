@@ -1,4 +1,5 @@
-= SAGE DAYS 9:  Sage and Graphics =         
+= SAGE DAYS 9:  Sage and Graphics =
+
 == Mathematical Graphics and Visualization Workshop, a graduate training event ==
 
 Application DEADLINE: April 15, 2008
