@@ -37,7 +37,6 @@ FUNDING: Participants will be housed on campus in SFU student dorms at no cost t
 We have funds available to cover some travel costs, but not enough to cover everyone's. We expect most participants to find
 their own source. If you need them to be covered, please explain in your application.
 
-APPLICATIONS: Apply by April 15 online at
-http://www.pims.math.ca/science/2008/08mgvw/apply.html
+APPLICATIONS: Apply by April 15 online at http://www.pims.math.ca/science/2008/08mgvw/apply.html
 
-COMPUTING EQUIPMENT: You will spend a large part of the workshop working on computers.  We have a number of workstations available, but we shall not be able to provide everybody with a workstation. You are encouraged to bring a laptop with wireless networking capability and a modern web browser (such as Firefox 2.0) installed.
+COMPUTING EQUIPMENT: You will spend a large part of the workshop working on computers.  We have a number of workstations available, but we shall not be able to provide everybody with a workstation. You are encouraged to bring a laptop with wireless networking capability.
