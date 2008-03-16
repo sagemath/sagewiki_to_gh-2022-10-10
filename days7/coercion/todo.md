@@ -14,6 +14,7 @@ Done
  * quotient rings
  * finite fields (including natural embeddings into each other when Conway polynomials are used)
  * calculus
+ * misc (there was nothing to change)
 
 In progress
  * groups
@@ -32,7 +33,6 @@ Lots to do
  * gsl
  * interfaces
  * libs
- * misc
  * modular
  * monoids
  * numerical
