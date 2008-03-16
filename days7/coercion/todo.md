@@ -19,11 +19,11 @@ Done
  * geometry
  * libs
  * probability
+ * interfaces
 
 In progress
  * groups
  * polynomials
- * interfaces
 
 Little to do
 
