@@ -14,10 +14,10 @@ Done
  * quotient rings
  * finite fields (including natural embeddings into each other when Conway polynomials are used)
  * calculus
+ * number fields
 
 In progress
  * groups
- * number fields
 
 Little to do
 
