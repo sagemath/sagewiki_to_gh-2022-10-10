@@ -22,6 +22,8 @@ Done
 
 In progress
  * groups
+ * polynomials
+ * interfaces
 
 Little to do
 
@@ -32,13 +34,11 @@ Little to do
 
 Lots to do
 
- * interfaces
  * modular
  * monoids
  * schemes
 
  * rings
-  * polynomial
   * padics
   * other
 
