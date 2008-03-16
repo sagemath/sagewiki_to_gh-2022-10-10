@@ -3,8 +3,9 @@ Sage 2.10.4 was released on ?????. For the official, comprehensive release notes
 
 == Memory leaks exposed by modular symbols ==
 
-Michael Abshoff, Martin Albrecht, Burcin Erocal, Willem
-      Jan Palenstijn, Clement Pernet, William Stein: memory
+Michael Abshoff, Martin Albrecht, Burcin Erocal, Willem Jan Palenstijn, Clement Pernet, William Stein:
+
+      memory
       leaks exposed by modular symbols functionality [this
       ticket is a composit of numerous other memleak fixes
       merged over a *7 months* period. Modular forms are an
