@@ -15,6 +15,10 @@ Done
  * finite fields (including natural embeddings into each other when Conway polynomials are used)
  * calculus
  * number fields
+ * sets
+ * geometry
+ * libs
+ * probability
 
 In progress
  * groups
@@ -25,21 +29,17 @@ Little to do
  * categories
  * combinat
  * crypto
- * geometry
 
 Lots to do
 
  * interfaces
- * libs
  * modular
  * monoids
- * probability
  * schemes
- * sets
 
  * rings
   * polynomial
-  * padic
+  * padics
   * other
 
 Base classes
