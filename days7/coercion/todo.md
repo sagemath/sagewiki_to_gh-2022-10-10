@@ -24,12 +24,12 @@ Done
 In progress
  * groups
  * polynomials
+ * combinat
 
 Little to do
 
  * algebras
  * categories
- * combinat
  * crypto
 
 Lots to do
