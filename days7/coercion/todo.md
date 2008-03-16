@@ -3,7 +3,7 @@
 Useful script to list all parents in a given module that still need work: [attachment:list_parents.sage]
 
 Nothing to do
- * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions
+ * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc
 
 
 Done
@@ -14,7 +14,6 @@ Done
  * quotient rings
  * finite fields (including natural embeddings into each other when Conway polynomials are used)
  * calculus
- * misc (there was nothing to change)
 
 In progress
  * groups
