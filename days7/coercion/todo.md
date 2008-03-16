@@ -3,7 +3,7 @@
 Useful script to list all parents in a given module that still need work: [attachment:list_parents.sage]
 
 Nothing to do
- * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical,gsl
+ * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical,gsl, quadratic_forms
 
 
 Done
@@ -34,7 +34,6 @@ Lots to do
  * modular
  * monoids
  * probability
- * quadratic_forms
  * schemes
  * sets
 
