@@ -43,6 +43,16 @@
  
 
 
-== Todo on March 17 ==
+== Todo on Monday, March 17 ==
 
- * Optimize decomposition
+ * Write doctests, etc., for everything above.
+
+ * Optimize everything
+
+== Todo on Tuesday, March 18 ==
+
+ * Write paper
+
+== Todo on Wednesday, March 19 ==
+
+ * Write paper
