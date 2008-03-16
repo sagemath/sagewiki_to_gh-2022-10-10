@@ -3,7 +3,7 @@
 Useful script to list all parents in a given module that still need work: [attachment:list_parents.sage]
 
 Nothing to do
- * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical
+ * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical,gsl
 
 
 Done
@@ -29,7 +29,6 @@ Little to do
 
 Lots to do
 
- * gsl
  * interfaces
  * libs
  * modular
