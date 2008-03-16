@@ -15,6 +15,7 @@
         * ungrouped as simple abvars   (default)
         * groups abvars
         * over End(A)
+        * deprecate hecke_decomposition
    * label function
    * create from label
 
