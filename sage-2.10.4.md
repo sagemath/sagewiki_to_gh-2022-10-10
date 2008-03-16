@@ -7,10 +7,10 @@ Michael Abshoff, Martin Albrecht, Burcin Erocal, Willem Jan Palenstijn, Clement 
 
       memory
       leaks exposed by modular symbols functionality [this
-      ticket is a composit of numerous other memleak fixes
-      merged over a *7 months* period. Modular forms are an
+      ticket is a composite of numerous other memleak fixes
+      merged over a *7 month* period. Modular forms are an
       excellent way to expose memory leaks in pretty much
-      every algebraic component of Sage and all know issues
+      every algebraic component of Sage and all known issues
       there are now finally fixed]
 
 == SQLAlchemy and DSage ==
