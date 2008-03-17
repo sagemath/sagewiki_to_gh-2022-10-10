@@ -29,6 +29,8 @@ at least
  * 2432
  * 2328
 
-== Macdonald polynomials, LLT polynomials, Jack polynomials, etc. ==
+== Symmetric function updates ==
 
-to be written
+Mike Hansen, reviewed by Franco Saliola
+
+Sage 2.10.4 adds support for Macdonald polynomials, LLT polynomials, and Jack polynomials as well as a whole class of user-defined symmetric functions which can characterized by orthogonality and triangularity conditions.  Support for working with ribbon tableaux  was also added as part of these updates.  In addtition, many doctests were added and subtle bugs fixed.
