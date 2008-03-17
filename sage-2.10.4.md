@@ -3,19 +3,11 @@ Sage 2.10.4 was released on March 16, 2008. For the official, comprehensive rele
 
 == Memory leaks exposed by modular symbols ==
 
-Michael Abshoff, Martin Albrecht, Burcin Erocal, Willem Jan Palenstijn, Clement Pernet, William Stein:
-
-      memory
-      leaks exposed by modular symbols functionality [this
-      ticket is a composite of numerous other memleak fixes
-      merged over a *7 month* period. Modular forms are an
-      excellent way to expose memory leaks in pretty much
-      every algebraic component of Sage and all known issues
-      there are now finally fixed]
+Michael Abshoff, Martin Albrecht, Burcin Erocal, Willem Jan Palenstijn, Clement Pernet, William Stein: memory leaks exposed by modular symbols functionality. This ticket is a composite of numerous other memleak fixes merged over a *7 month* period. Modular forms are an excellent way to expose memory leaks in pretty much every algebraic component of Sage and all known issues there are now finally fixed.
 
 == SQLAlchemy and DSage ==
 
-to be written
+We merged SetupTools and SQLAlchemy into Sage as standard packages. SQLAlchemy is now used as in DSage replacing hand written code with much more efficient classes from SQLAlchemy. SetupTools is required to install SQLAlchemy, but is also useful for a number of optional spkgs like MayaVI and packages from the Enthought Tools.
 
 == Graph theory: chromatic polynomial ==
 
@@ -23,22 +15,15 @@ An algorithm originally written in C by Gordon Royle has been adapted by Robert 
 
 == Documentation ==
 
-at least 
- * 2475
- * 2447
- * 2432
- * 2328
+Many doctest patches written during Doc Day 2 were merged. In addition many people kept up the good work after Doc Day 2 was over and have been submitting patches to increase coverage. We did exceed the target for the release by 0.6% reaching 47%.
 
 == Symmetric function updates ==
 
-Mike Hansen, reviewed by Franco Saliola
-
-Sage 2.10.4 adds support for Macdonald polynomials, LLT polynomials, and Jack polynomials as well as a whole class of user-defined symmetric functions which can characterized by orthogonality and triangularity conditions.  Support for working with ribbon tableaux  was also added as part of these updates.  In addtition, many doctests were added and subtle bugs fixed.
-
+Mike Hansen, reviewed by Franco Saliola: Sage 2.10.4 adds support for Macdonald polynomials, LLT polynomials, and Jack polynomials as well as a whole class of user-defined symmetric functions which can characterized by orthogonality and triangularity conditions.  Support for working with ribbon tableaux  was also added as part of these updates.  In addtition, many doctests were added and subtle bugs fixed.
 
 == Notebook Updates ==
 
-Tom Boothby and William Stein, reviewed by eachother and Timothy Clemans.
+Tom Boothby and William Stein, reviewed by each other and Timothy Clemans.
 
 Fixed a bunch of bugs, new and old:
 
