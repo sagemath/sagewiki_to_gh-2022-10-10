@@ -7,7 +7,7 @@ Michael Abshoff, Martin Albrecht, Burcin Erocal, Willem Jan Palenstijn, Clement 
 
 == SQLAlchemy and DSage ==
 
-We merged SetupTools and SQLAlchemy into Sage as standard packages. SQLAlchemy is now used as in DSage replacing hand written code with much more efficient classes from SQLAlchemy. SetupTools is required to install SQLAlchemy, but is also useful for a number of optional spkgs like MayaVI and packages from the Enthought Tools.
+We merged SetupTools and SQLAlchemy into Sage as standard packages. SQLAlchemy is now used as in DSage replacing hand written code with much more efficient classes from SQLAlchemy. SetupTools is required to install SQLAlchemy, but is also useful for a number of optional spkgs like MayaVI and packages from the Enthought Tools. Yi Qiang improved DSage making it more robust and finally adding the doumentation to the standard Sage manual.
 
 == Graph theory: chromatic polynomial ==
 
