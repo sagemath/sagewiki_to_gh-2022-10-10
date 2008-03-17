@@ -68,7 +68,7 @@ This project is to improve the world's *only* open source implementation of a ge
 graph automorphism computation algorithm, and improve Sage's ability to compute with
 permutations and permutation groups.  
 
- * Robert Miller, Tom Boothby
+ * Robert Miller
   . There are some very general permutation group questions that can be tackled in the same manner as the graph isomorphism problem, and it would be good to do these in Cython within Sage instead of farming out to GAP.
   * Polynomial problems:
    * Group order
