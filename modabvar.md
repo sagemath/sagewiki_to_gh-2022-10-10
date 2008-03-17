@@ -4,24 +4,24 @@
 == Todo on March 16 ==
 
  * (craig) Newforms issue:
-{{{
-sage: f = CuspForms(37).newforms('a')[0]
-sage: f.coefficients(10)
----------------------------------------------------------------------------
-<type 'exceptions.TypeError'>             Traceback (most recent call last)
-sage: f.coefficients([2..10])
----------------------------------------------------------------------------
-<type 'exceptions.AttributeError'>        Traceback (most recent call last)
-...
-<type 'exceptions.AttributeError'>: 'Newform' object has no attribute '_compute'
-}}}
+   {{{
+   sage: f = CuspForms(37).newforms('a')[0]
+   sage: f.coefficients(10)
+   ------------------------------------
+   <type 'exceptions.TypeError'>             Traceback (most recent call last)
+   sage: f.coefficients([2..10])
+   ------------------------------------
+   <type 'exceptions.AttributeError'>        Traceback (most recent call last)
+   ...
+   <type 'exceptions.AttributeError'>: 'Newform' object has no attribute '_compute'
+   }}}
 
  * DONE (william) This is completely wrong (the modabvar function on modular symbols assumes it's ambient!):
-{{{
-sage: m = ModularSymbols(37)[1]
-sage: m.modular_abelian_variety()
-Jacobian of the modular curve associated to the congruence subgroup Gamma0(37)
-}}}
+   {{{
+   sage: m = ModularSymbols(37)[1]
+   sage: m.modular_abelian_variety()
+   Jacobian of the modular curve associated to the congruence subgroup Gamma0(37)
+   }}}
 
  * DONE (william) Move functions out of abvar_modsym_factor into abvar and delete that file. 
 
@@ -46,7 +46,7 @@ Jacobian of the modular curve associated to the congruence subgroup Gamma0(37)
  * (craig) abelian varieties should cache their ambient modular abelian variety
 
  * (craig) Compute End(A):
-     * for simple $A_f$
+     * for simple $A_f$ (DONE)
      * in general.
      * disc of it.
      * ideals and annihilators
