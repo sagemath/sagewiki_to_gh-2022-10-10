@@ -49,6 +49,11 @@ Jacobian of the modular curve associated to the congruence subgroup Gamma0(37)
      * for simple $A_f$
      * in general.
      * disc of it.
+     * ideals and annihilators
+     * order in a ring of integers (for A simple)
+     * given a ring R in EndAlg(A) where every element has integral charpoly, find an isogenous abelian variety with End(A) = R.
+     * explicit isomorphism between HeckeAlgebra sitting in End(A) and a commutative ring
+     * base extension of End(A)
 
  * (craig) Degeneracy maps
 
