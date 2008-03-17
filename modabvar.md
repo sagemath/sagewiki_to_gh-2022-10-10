@@ -31,15 +31,6 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
     * (done) Get implementation to work with defining data being (lattice, abvar); compute generators. 
     * (done) Quotients by finite subgroup
 
- * (william) Decomposition:
-    * three types:
-        * ungrouped as simple abvars   (default)
-        * groups abvars
-        * over End(A)
-        * deprecate hecke_decomposition
-   * (done) label function
-   * create from label
-
  * DONE (craig) Implement {{{f.number()}}} for f a newform. 
 
  * DONE-ish (craig) Compute the Hecke algebra image in End(A) and find a good clean way to represent for Hecke stable.  New object that is a subring of End(A).   Have methods like {{{R.index_in(S)}}}.
@@ -59,6 +50,15 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
      * base extension of End(A)
 
  * (craig) Degeneracy maps
+
+ * (william) Decomposition:
+    * three types:
+        * ungrouped as simple abvars   (default)
+        * groups abvars
+        * over End(A)
+        * deprecate hecke_decomposition
+   * (done) label function
+   * create from label
 
  * (william/craig) Morphisms:
     * Kernels
