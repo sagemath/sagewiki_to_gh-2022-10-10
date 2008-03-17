@@ -1,6 +1,8 @@
 = Sage 2.10.3 Release Tour =
 Sage 2.10.3 was released on 11 Mar 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release.For the latest changes see[http://sagemath.org/announce/sage-2.10.3.txt sage-2.10.3.txt]. Among many other things that were done, we have the following cool new features. Of course, this list is incomplete; see the release notes for more details.
 
+Michael Abshoff was the release managers for this Sage release.
+
 == Interactive Functions ==
 
 Sage now has a first version of its "interact" command.  Calling "@interact" before defining a function will construct controls to graphically control the input variables of the function, making it dramatically easier to create interactive functionality that is easy to use.  See [http://wiki.sagemath.org/interact] for details and examples or just type "interact?" in Sage.
