@@ -3,6 +3,19 @@
 
 == Todo on March 16 ==
 
+ * (craig) Newforms issue:
+{{{
+sage: f = CuspForms(37).newforms('a')[0]
+sage: f.coefficients(10)
+---------------------------------------------------------------------------
+<type 'exceptions.TypeError'>             Traceback (most recent call last)
+sage: f.coefficients([2..10])
+---------------------------------------------------------------------------
+<type 'exceptions.AttributeError'>        Traceback (most recent call last)
+...
+<type 'exceptions.AttributeError'>: 'Newform' object has no attribute '_compute'
+}}}
+
  * (william) This is completely wrong (the modabvar function on modular symbols assumes it's ambient!):
 {{{
 sage: m = ModularSymbols(37)[1]
