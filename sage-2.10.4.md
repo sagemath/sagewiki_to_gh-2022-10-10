@@ -43,3 +43,76 @@ Fixed a bunch of bugs, new and old:
 Gary Furnish reviewed by Michael Abshoff:
 
 "sage -tp" has been introduced as an experimental multithreaded doctester.  The first parameter is the number of threads, and the second parameter is the folder to doctest.  Thus "sage -tp 4 devel/sage/sage" tests everything with four threads running. Additional options like "-long" or valgrind options like "-memcheck" do work. The code base is still young and needs more testing. The eventual goal will be to replace the current doctesting infrastructure with this code base.
+
+== SBox Class ==
+
+A new S-box class was introduced to Sage to support (algebraic) exploration of this fundamental cryptographic primitive. 
+
+ * We create a new 3-bit S-box
+{{{
+sage: S = mq.SBox(7,6,0,4,2,5,1,3); S
+(7, 6, 0, 4, 2, 5, 1, 3)
+}}}
+
+ * and check its properties with respect to differential
+{{{
+sage: S.difference_distribution_matrix()
+
+[8 0 0 0 0 0 0 0]
+[0 2 2 0 2 0 0 2]
+[0 0 2 2 0 0 2 2]
+[0 2 0 2 2 0 2 0]
+[0 2 0 2 0 2 0 2]
+[0 0 2 2 2 2 0 0]
+[0 2 2 0 0 2 2 0]
+[0 0 0 0 2 2 2 2]
+
+sage: S.maximal_difference_probability()
+0.25
+}}}
+
+ * and linear cryptanalysis:
+
+{{{
+sage: S.linear_approximation_matrix()
+
+[ 4  0  0  0  0  0  0  0]
+[ 0  0  0  0  2  2  2 -2]
+[ 0  0 -2 -2 -2  2  0  0]
+[ 0  0 -2  2  0  0 -2 -2]
+[ 0  2  0  2 -2  0  2  0]
+[ 0 -2  0  2  0  2  0  2]
+[ 0 -2 -2  0  0 -2  2  0]
+[ 0 -2  2  0 -2  0  0 -2]
+
+sage: S.maximal_linear_bias_relative()
+0.25
+}}}
+
+ * We can express this S-box as a univariate polynomial over $GF(2^3)$ 
+
+{{{
+sage: S.interpolation_polynomial()
+x^6 + a*x^5 + (a + 1)*x^4 + (a^2 + a + 1)*x^3 + (a^2 + 1)*x^2 + (a + 1)*x + a^2 + a + 1
+}}}
+
+ * or as a set of polynomials over $GF(2)$.
+
+{{{
+sage: S.polynomials(degree=2)
+
+[x0*x2 + x1 + y1 + 1,
+ x0*x1 + x1 + x2 + y0 + y1 + y2 + 1,
+ x0*y1 + x0 + x2 + y0 + y2,
+ x0*y0 + x0*y2 + x1 + x2 + y0 + y1 + y2 + 1,
+ x1*x2 + x0 + x1 + x2 + y2 + 1,
+ x0*y0 + x1*y0 + x0 + x2 + y1 + y2,
+ x0*y0 + x1*y1 + x1 + y1 + 1,
+ x1*y2 + x1 + x2 + y0 + y1 + y2 + 1,
+ x0*y0 + x2*y0 + x1 + x2 + y1 + 1,
+ x2*y1 + x0 + y1 + y2,
+ x2*y2 + x1 + y1 + 1,
+ y0*y1 + x0 + x2 + y0 + y1 + y2,
+ y0*y2 + x1 + x2 + y0 + y1 + 1,
+ y1*y2 + x2 + y0]
+}}}
