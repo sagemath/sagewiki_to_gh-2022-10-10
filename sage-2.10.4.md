@@ -15,7 +15,7 @@ An algorithm originally written in C by Gordon Royle has been adapted by Robert 
 
 == Documentation ==
 
-Many doctest patches written during Doc Day 2 were merged. In addition many people kept up the good work after Doc Day 2 was over and have been submitting patches to increase coverage. We did exceed the target for the release by 0.6% reaching 47%.
+Many doctest patches written during Doc Day 2 were merged. In addition many people kept up the good work after Doc Day 2 was over and have been submitting patches to increase coverage. We did exceed the target for the release by 0.6% reaching 47.6%.
 
 == Symmetric function updates ==
 
