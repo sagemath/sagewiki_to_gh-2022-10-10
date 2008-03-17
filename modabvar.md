@@ -1,5 +1,6 @@
 = Modular Abelian Varieties =
 
+Code at http://trac.sagemath.org/sage_trac/ticket/2544
 
 == Todo on March 16 ==
 
@@ -25,10 +26,10 @@
 
  * DONE (william) Move functions out of abvar_modsym_factor into abvar and delete that file. 
 
- * (william) Torsion subgroups:
+ * DONE (william) Torsion subgroups:
     * (already done) Refactor base class
     * (done) Get implementation to work with defining data being (lattice, abvar); compute generators. 
-    * Quotients by finite subgroup
+    * (done) Quotients by finite subgroup
 
  * (william) Decomposition:
     * three types:
@@ -36,14 +37,16 @@
         * groups abvars
         * over End(A)
         * deprecate hecke_decomposition
-   * label function
+   * (done) label function
    * create from label
 
- * (craig) Implement {{{f.number()}}} for f a newform. 
+ * DONE (craig) Implement {{{f.number()}}} for f a newform. 
 
- * (craig) Compute the Hecke algebra image in End(A) and find a good clean way to represent for Hecke stable.  New object that is a subring of End(A).   Have methods like {{{R.index_in(S)}}}.
+ * DONE-ish (craig) Compute the Hecke algebra image in End(A) and find a good clean way to represent for Hecke stable.  New object that is a subring of End(A).   Have methods like {{{R.index_in(S)}}}.
 
- * (craig) abelian varieties should cache their ambient modular abelian variety
+ * DONE (craig) abelian varieties should cache their ambient modular abelian variety
+
+== Todo on Monday, March 17 ==
 
  * (craig) Compute End(A):
      * for simple $A_f$ (DONE)
@@ -76,17 +79,12 @@
  * (craig/william) Create a small mock database
  
 
-
-== Todo on Monday, March 17 ==
+== Todo on Tuesday, March 18 ==
 
  * Write doctests, etc., for everything above.
 
  * Optimize everything
 
-== Todo on Tuesday, March 18 ==
-
- * Write paper
-
 == Todo on Wednesday, March 19 ==
 
- * Write paper
+ * Write up paper
