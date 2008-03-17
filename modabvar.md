@@ -35,6 +35,7 @@ Jacobian of the modular curve associated to the congruence subgroup Gamma0(37)
  * (craig) Compute End(A):
      * for simple $A_f$
      * in general.
+     * disc of it.
 
  * (craig) Degeneracy maps
 
