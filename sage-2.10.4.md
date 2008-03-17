@@ -40,4 +40,4 @@ Fixed a bunch of bugs, new and old:
 
 Gary Furnish reviewed by Michael Abshoff:
 
-"sage -tp" has been introduced as an experimental multithreaded doctester.  The first parameter is the number of threads, and the second parameter is the folder to doctest.  Thus sage -tp 4 devel/sage/sage tests everything with four threads running. 
+"sage -tp" has been introduced as an experimental multithreaded doctester.  The first parameter is the number of threads, and the second parameter is the folder to doctest.  Thus "sage -tp 4 devel/sage/sage" tests everything with four threads running. 
