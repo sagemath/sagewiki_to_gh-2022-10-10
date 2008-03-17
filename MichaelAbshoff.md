@@ -2,7 +2,7 @@
 
 Hello, I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated around packages and their portability. I added valgrind support to Sage 2.8.3 and have been using various valgrind tools to investigate Sage's memory consumption.
 
-I also recently become a release manager for Sage and I chaired a number of releases: 2.8.11, 2.8.13-2.8.15, 2.9, 2.9.2, 2.10 and 2.10.1. Since it looks like few people want to do this job it is very likely that I will do a lot more of those.
+I also recently become a release manager for Sage and I chaired a number of releases: 2.8.11, 2.8.13-2.8.15, 2.9, 2.9.2, 2.10 and 2.10.1-3, 2.10.4 (together with Robert Miller). Since it looks like few people want to do this job it is very likely that I will do a lot more of those.
 
 == Task Table ==
 
