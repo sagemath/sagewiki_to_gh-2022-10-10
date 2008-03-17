@@ -30,6 +30,8 @@ Jacobian of the modular curve associated to the congruence subgroup Gamma0(37)
 
  * (craig) Compute the Hecke algebra image in End(A) and find a good clean way to represent for Hecke stable.  New object that is a subring of End(A).   Have methods like {{{R.index_in(S)}}}.
 
+ * (craig) abelian varieties should cache their ambient modular abelian variety
+
  * (craig) Compute End(A):
      * for simple $A_f$
      * in general.
