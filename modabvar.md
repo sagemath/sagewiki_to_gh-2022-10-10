@@ -26,7 +26,7 @@ Jacobian of the modular curve associated to the congruence subgroup Gamma0(37)
  * DONE (william) Move functions out of abvar_modsym_factor into abvar and delete that file. 
 
  * (william) Torsion subgroups:
-    * Refactor base class
+    * (already done) Refactor base class
     * (done) Get implementation to work with defining data being (lattice, abvar); compute generators. 
     * Quotients by finite subgroup
 
