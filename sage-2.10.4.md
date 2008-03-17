@@ -34,3 +34,19 @@ at least
 Mike Hansen, reviewed by Franco Saliola
 
 Sage 2.10.4 adds support for Macdonald polynomials, LLT polynomials, and Jack polynomials as well as a whole class of user-defined symmetric functions which can characterized by orthogonality and triangularity conditions.  Support for working with ribbon tableaux  was also added as part of these updates.  In addtition, many doctests were added and subtle bugs fixed.
+
+
+== Notebook Updates ==
+
+Tom Boothby and William Stein, reviewed by eachother.
+
+Fixed a bunch of bugs, new and old:
+
+  * (B) Smarter update polling (#185): rather than always poll every 1/2 second, we start at 1/4 second intervals, and gradually slow down to 5 second intervals after about 30 seconds.
+  * (S) Emptying the trash works (#432)
+  * (B) Saving cells without evaluating (#1590): When a cell loses focus, and it's been changed, the changes are sent to the server so that work isn't lost.
+  * (B) Removed the last few absolute URLs so the public notebook will be useable by people behind crazy firewalls. (#1879)
+  * (B) Updating worksheet title changes the window title (#1974)  -- it should be noted, William Stein was born in 1974.
+  * (S) Speed up security certificate generation in linux (#1976)
+  * (B) Fixed evaluate link (#2332)
+  * (S) Interact bug in drop down menus fixed (#2530)
