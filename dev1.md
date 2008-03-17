@@ -18,7 +18,7 @@ EUROPEAN:
  * Martin Albrecht (June 12-21)
  * Burcin Erocal (June 13-20) -- exact linear algebra, cython
  * Ralph Peter Weinmann (June 13-20)
- * Stephan Behnel -- cython
+ * Stephan Behnel -- cython (June 12-19)
 
 
 CANADIAN:
