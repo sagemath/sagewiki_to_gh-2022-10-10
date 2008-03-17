@@ -35,3 +35,9 @@ Fixed a bunch of bugs, new and old:
   * Speed up security certificate generation in linux (#1976)
   * Fixed evaluate link (#2332)
   * Interact bug in drop down menus fixed (#2530)
+
+== Parallel Doctesting ==
+
+Gary Furnish reviewed by Michael Abshoff:
+
+"sage -tp" has been introduced as an experimental multithreaded doctester.  The first parameter is the number of threads, and the second parameter is the folder to doctest.  Thus sage -tp 4 devel/sage/sage tests everything with four threads running. 
