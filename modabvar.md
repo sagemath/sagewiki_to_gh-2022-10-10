@@ -27,7 +27,7 @@ Jacobian of the modular curve associated to the congruence subgroup Gamma0(37)
 
  * (william) Torsion subgroups:
     * Refactor base class
-    * Get implementation to work with defining data being (lattice, abvar); compute generators. 
+    * (done) Get implementation to work with defining data being (lattice, abvar); compute generators. 
     * Quotients by finite subgroup
 
  * (william) Decomposition:
