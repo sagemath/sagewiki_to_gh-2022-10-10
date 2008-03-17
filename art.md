@@ -30,3 +30,4 @@
  * [http://sage.math.washington.edu/home/malb/graphics/sage-car.pdf Sage car PDF]
  * [http://sagemath.org/art/ old sage art page, some good graffiti!]
  * [attachment:BadMugDesign.jpg Mug design, too dark though]
+ * [attachment:gfan_example.png A Groebner fan; not sure if its art]
