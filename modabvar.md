@@ -3,7 +3,7 @@
 
 == Todo on March 16 ==
 
- * (craig) Newforms issue:
+ * DONE (craig) Newforms issue:
    {{{
    sage: f = CuspForms(37).newforms('a')[0]
    sage: f.coefficients(10)
