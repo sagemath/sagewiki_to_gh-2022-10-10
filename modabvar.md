@@ -16,14 +16,14 @@ sage: f.coefficients([2..10])
 <type 'exceptions.AttributeError'>: 'Newform' object has no attribute '_compute'
 }}}
 
- * (william) This is completely wrong (the modabvar function on modular symbols assumes it's ambient!):
+ * DONE (william) This is completely wrong (the modabvar function on modular symbols assumes it's ambient!):
 {{{
 sage: m = ModularSymbols(37)[1]
 sage: m.modular_abelian_variety()
 Jacobian of the modular curve associated to the congruence subgroup Gamma0(37)
 }}}
 
- * (william) Move functions out of abvar_modsym_factor into abvar and delete that file. 
+ * DONE (william) Move functions out of abvar_modsym_factor into abvar and delete that file. 
 
  * (william) Torsion subgroups:
     * Refactor base class
