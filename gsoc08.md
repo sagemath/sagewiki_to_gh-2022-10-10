@@ -1,5 +1,9 @@
 = Google Summer of Code 2008 =
 
+Sage did not get selected as a mentoring organization.
+
+------------------------------------------------------------------------------------------------------------------------
+
 [http://sagemath.org Sage]: Open Source Mathematical Software
 
 == Important Dates ==
