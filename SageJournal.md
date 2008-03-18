@@ -46,6 +46,9 @@ resources for article ideas:
  * blogs
  * own experience
 
+== Copyright ==
+as mentioned on the first page of this wiki: contributions are licensed under the [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons 3.0 license].
+
 == Citation ==
 possible style to cite an article
 {{{
@@ -72,4 +75,15 @@ possible style to cite an article
 Before releasing the first volume, we need:
  * articles - submission invitation will be posted on sage-devel
  * layout, development of stylefile
- * infrastructure - managing submissions, review, errors ... and after a release, a sage-trac component "journal" where someone could post an error, correct it, and post an erratum (published pdf is updated + a note on the website)
+  * stylefile to cover everything
+  * example article, to show how to typeset title, author, subtitle, included graphics, source code (latex listing package, references to line numbers, ...) and including links (clickable pdf links)
+ * infrastructure - managing submissions, reviews, errors ... and after a release, a sage-trac component "journal" where someone could post an error, correct it, and post an erratum (published pdf is updated + a note on the website)
+  * possible workflow: 
+   1. tell editor about your article idea: topic/short introduction
+   1. editor says yes or no, maybe discussion in IRC
+   1. write article using template, then submit to editor via email
+   1. editor reads, sends feedback, maybe discussion in IRC
+   1. editor sends article to others on the editor board
+   1. editor decides when to publish a volume, sends document internally to others to check it
+   1. document is published on html, as pdf -- document sources are published in the sage repository
+   1. trac-issue about an error, edior uploads patched pdf and updates sources in the repository
