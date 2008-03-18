@@ -1,6 +1,4 @@
-= Sage Journal - - -P R O P O S A L - - - =
-
-[[TableOfContents()]]
+= Sage Journal - - - P R O P O S A L - - - =
 
 '''Sage Journal''' is some sort of a newsletter about Sage. It is published periodically, monthly or every two month, depending on the number of submissions in the style of a regular journal, but less "formal". Therefore it is a mixture of blog entries and scientific publications. It will feature articles about Sage and explains major changes in Sage since the last issue.
 
