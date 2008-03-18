@@ -25,10 +25,10 @@ Done
 In progress
  * groups
  * polynomials
+ * algebras
 
 Little to do
 
- * algebras
  * categories
  * crypto
 
