@@ -24,23 +24,23 @@ Done
 
 In progress
  * groups
- * polynomials
  * algebras
  * monoids
+ * rings
+  * padics
+  * polynomials
+  * other
 
 Little to do
 
  * categories
  * crypto
-
 Lots to do
 
  * modular
  * schemes
 
- * rings
-  * padics
-  * other
+
 
 Base classes
  * structure
