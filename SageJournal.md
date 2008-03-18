@@ -99,5 +99,5 @@ Before releasing the first volume, we need:
   1. editor reads, sends feedback, maybe discussion in IRC
   1. editor sends article to others on the editor board
   1. editor decides when to publish a volume, sends document internally to others to check it
-  1. document is published on html, as pdf -- document sources are published in the sage repository
-  1. trac-issue about an error, edior uploads patched pdf and updates sources in the repository
+  1. document is published on html, as pdf, with article title and author (table layout, three colums) -- document sources are published in the sage repository
+  1. trac-issue about an error, edior uploads patched pdf and a small text file called "erratum" and updates sources in the repository
