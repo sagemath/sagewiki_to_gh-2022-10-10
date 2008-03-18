@@ -12,7 +12,7 @@ list of possible topics an issue could/should cover
 
 == Issues ==
 Issues are numberd by the <year>-<month> of their release.
-=== Issue 2008-0x ===
+=== Volume 2008-0x ===
 possible topics:
  * about the journal
  * general outline about Sage, history, philosophy (why is it important to disclose the algorithms), mission, python, future
@@ -20,7 +20,7 @@ possible topics:
  * new features: interact
  
 
-=== Issue 2008-xx ===
+=== Volume 2008-xx ===
 second issue, possible topics:
  * new features: latex embedding (assuming SageTex is included in the release)
 
