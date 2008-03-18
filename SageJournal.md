@@ -23,7 +23,7 @@ remember that this journal will still be available years after publishing. there
  * ''Developer's Corner'': Here are news from developers to developers, about internals, changes in a process, results from discussions about future issues, changes in the layout, benchmarks, short introduction how mercurial is used in development and its integration as part of sage's commands, ... or developing applications which use sage (bigger python script, analyzing data or something, importing sage commands)
  * ''Politics/Philosophy'': what makes sage different to M*, ...
  * ''Community'': about people using sage
- * ''Events'': Sage somewhere in the wild? a conference? exhibition booth? what has happend? pictures!
+ * ''Events'': Sage somewhere in the wild? a conference? exhibition booth? what has happened? pictures!
  * maybe other topics, also of course hybrids between these topics.
 
 
