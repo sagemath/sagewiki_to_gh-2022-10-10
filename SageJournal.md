@@ -15,6 +15,7 @@ list of possible topics an issue could/should cover. remeber that this journal w
  * ''Developer's Corner'': Here are news from developers to developers, about internals, changes in a process, results from discussions about future issues, changes in the layout, benchmarks, short introduction how mercurial is used in development and its integration as part of sage's commands, ...
  * ''Politics/Philosophy'': what makes sage different to M*, ... 
  * ''Community'': about people using sage
+ * maybe other topics
 
 topics not to cover:
  * things currently discussed on sage-devel (a year later this information is pointless)
@@ -46,7 +47,7 @@ resurces for article ideas:
  * own experience
 
 == Citatation ==
-possible style of citatation of every article
+possible style to cite an article
 {{{
 @ARTICLE{SageJournal:Author:ID,
   author = {Name of Author},
@@ -66,3 +67,9 @@ possible style of citatation of every article
  * SageJournal.sty latex stylefile: twocolumn, title, TOC, editoral notice, articles are included as separate tex files, they should have a title (spans over both columns), subtitle, author and automatical formatting.
  * ISSN number?
  * website listing all volumes, links to pdf's, (plus erratum), general explanation, explanation who is behind, explanation how to submit articles
+
+== Organization ==
+Before releasing the first voluem, we need:
+ * articles - submission invitation will be posted on sage-devel
+ * layout, development of stylefile
+ * infrastructure - managing submissions, review, errors ... and after a release, a sage-trac component "journal" where someone could post an error, correct it, and post an erratum (published pdf is updated + a note on the website)
