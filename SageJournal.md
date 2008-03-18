@@ -83,7 +83,7 @@ possible style to cite an article
 
 == Prerequisites / TODO ==
  * SageJournal.sty latex stylefile: twocolumn, title, TOC, editorial notice, articles are included as separate TeX files, they should have a title (spans over both columns), subtitle, author and automatic formatting.
- * ISSN number
+ * [http://www.loc.gov/issn/e-serials.html ISSN number]
  * website listing all volumes, links to pdf's, (plus erratum), general explanation, explanation who is behind, explanation how to submit articles
 
 == Organization ==
