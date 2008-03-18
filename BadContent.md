@@ -4318,6 +4318,14 @@ carpet-china\.com\.cn
 jixietg\.cn
 break-day\.com
 games8848\.com
+fesffonpourr\.com
+fmrxfqdmwlbl\.com
+hdwccaggguzm\.com
+pjpxjijenjam\.com
+rjvurgjybnjn\.com
+uynlhrrfljtb\.com
+xljdfoxuceuh\.com
+zdcoxwpzjmhn\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
