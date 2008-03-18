@@ -20,11 +20,11 @@ Done
  * libs
  * probability
  * interfaces
+ * combinat
 
 In progress
  * groups
  * polynomials
- * combinat
 
 Little to do
 
