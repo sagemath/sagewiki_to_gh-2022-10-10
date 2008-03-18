@@ -1,4 +1,7 @@
-= Sage Journal =
+= Sage Journal - - -P R O P O S A L - - - =
+
+[[TableOfContents()]]
+
 '''Sage Journal''' is some sort of a newsletter about Sage. It is published periodically, monthly or every two month, depending on the number of submissions in the style of a regular journal, but less "formal". Therefore it is a mixture of blog entries and scientific publications. It will feature articles about Sage and explains major changes in Sage since the last issue.
 
 == Topics ==
@@ -13,14 +16,13 @@ list of possible topics an issue could/should cover. remember that this journal 
  * ''Algorithms'': Explain some implementation details - since Sage is about "opening algorithms" it should also transport this actively. This would capture the interest of others who are not actively involved in Sage, but are interested in implementing good algorithms. Benchmarks. Link to Source Code.
  * ''Teaching'': Some article about using Sage for education - e.g. how to explain XY to a student, why useful, report your own experiences using Sage in education!
  * ''Developer's Corner'': Here are news from developers to developers, about internals, changes in a process, results from discussions about future issues, changes in the layout, benchmarks, short introduction how mercurial is used in development and its integration as part of sage's commands, ...
- * ''Politics/Philosophy'': what makes sage different to M*, ... 
+ * ''Politics/Philosophy'': what makes sage different to M*, ...
  * ''Community'': about people using sage
  * maybe other topics
-
 topics not to cover:
+
  * things currently discussed on sage-devel (a year later this information is pointless)
  * all topics without intersection points with sage
-
 == Issues ==
 Issues are numbered by the <year>-<month> of their release. Maybe every two month, depending on the number of submissions.
 
@@ -32,12 +34,10 @@ possible topics:
  * introduction to using sage: how to setup (or just reference install manual, but explain that it is a server with a notebook interface, e.g. nonstandard), modes of usage (notebook, CLI, script), first steps
  * new features: interact
  * developers corner: ? (something about mercurial in sage?)
-
 === Volume 2008-xx ===
 second issue, possible topics:
 
  * new features: latex embedding (assuming SageTex is included in the release .. or move it up to the first volume if already released)
-
 == Ideas ==
 resources for article ideas:
 
@@ -45,12 +45,12 @@ resources for article ideas:
  * this wiki
  * blogs
  * own experience
-
 == Copyright ==
 as mentioned on the first page of this wiki: contributions are licensed under the [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons 3.0 license].
 
 == Citation ==
 possible style to cite an article
+
 {{{
 @ARTICLE{SageJournal:Author:ID,
   author = {Name of Author},
@@ -65,20 +65,19 @@ possible style to cite an article
   pdf = {http://sagemath.org/journal/Sage-Journal-200x-xx.pdf}
 }
 }}}
-
 == Prerequisites / TODO ==
  * SageJournal.sty latex stylefile: twocolumn, title, TOC, editorial notice, articles are included as separate TeX files, they should have a title (spans over both columns), subtitle, author and automatic formatting.
  * ISSN number?
  * website listing all volumes, links to pdf's, (plus erratum), general explanation, explanation who is behind, explanation how to submit articles
-
 == Organization ==
 Before releasing the first volume, we need:
+
  * articles - submission invitation will be posted on sage-devel
  * layout, development of stylefile
   * stylefile to cover everything
   * example article, to show how to typeset title, author, subtitle, included graphics, source code (latex listing package, references to line numbers, ...) and including links (clickable pdf links)
  * infrastructure - managing submissions, reviews, errors ... and after a release, a sage-trac component "journal" where someone could post an error, correct it, and post an erratum (published pdf is updated + a note on the website)
-  * possible workflow: 
+  * possible workflow:
    1. tell editor about your article idea: topic/short introduction
    1. editor says yes or no, maybe discussion in IRC
    1. write article using template, then submit to editor via email
