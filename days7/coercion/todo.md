@@ -26,6 +26,7 @@ In progress
  * groups
  * polynomials
  * algebras
+ * monoids
 
 Little to do
 
@@ -35,7 +36,6 @@ Little to do
 Lots to do
 
  * modular
- * monoids
  * schemes
 
  * rings
