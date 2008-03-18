@@ -57,7 +57,7 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
         * groups abvars
         * over End(A)
         * deprecate hecke_decomposition
-   * (done) label function
+   * (DONE) label function
    * create from label
 
  * (william/craig) Morphisms:
