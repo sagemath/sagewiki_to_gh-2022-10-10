@@ -23,6 +23,7 @@ remember that this journal will still be available years after publishing. there
  * ''Developer's Corner'': Here are news from developers to developers, about internals, changes in a process, results from discussions about future issues, changes in the layout, benchmarks, short introduction how mercurial is used in development and its integration as part of sage's commands, ... or developing applications which use sage (bigger python script, analyzing data or something, importing sage commands)
  * ''Politics/Philosophy'': what makes sage different to M*, ...
  * ''Community'': about people using sage
+ * ''Events'': Sage somewhere in the wild? a conference? exhibition booth? what has happend? pictures!
  * maybe other topics, also of course hybrids between these topics.
 
 
@@ -93,11 +94,11 @@ Before releasing the first volume, we need:
   * example article, to show how to typeset title, author, subtitle, included graphics, source code (latex listing package, references to line numbers, ...) and including links (clickable pdf links)
  * infrastructure - managing submissions, reviews, errors ... and after a release, a sage-trac component "journal" where someone could post an error, correct it, and post an erratum (published pdf is updated + a note on the website)
  * possible workflow:
-  1. tell editor about your article idea: topic/short introduction
-  1. editor says yes or no, maybe discussion in IRC
+  1. tell editor about your article idea: topic/short introduction, via email, editor sends feedback that he got it.
+  1. editor says yes or no, maybe discussion on IRC
   1. write article using template, then submit to editor via email
   1. editor reads, sends feedback, maybe discussion in IRC
-  1. editor sends article to others on the editor board
+  1. editor sends article to others on the editor board - more eyes see more
   1. editor decides when to publish a volume, sends document internally to others to check it
-  1. document is published on html, as pdf, with article title and author (table layout, three colums) -- document sources are published in the sage repository
-  1. trac-issue about an error, edior uploads patched pdf and a small text file called "erratum" and updates sources in the repository
+  1. document is published on html, as pdf, with article title and author -- document sources are published in the sage repository (or only webserver?)
+  1. if trac-issue mentions an error, editor uploads patched pdf and a small text file called "erratum" and updates sources in the repository
