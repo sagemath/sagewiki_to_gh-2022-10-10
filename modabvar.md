@@ -20,6 +20,7 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
  * (william) 2: projection (only when 'maximal')
  * (william) 2: dual of A when A is maximal
 
+ * images of abelian varieties and groups under morphisms. 
 
  * (group) 2: norm equations (clean up patch)
 
