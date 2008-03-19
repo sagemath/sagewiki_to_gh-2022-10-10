@@ -1,8 +1,7 @@
 = Sage Journal - - - P R O P O S A L - - - =
-
 '''Sage Journal''' is a periodic and numbered publication about Sage. It is published monthly or every two month, depending on the number of submissions in the style of a regular journal - but less "formal". Therefore it is something in between of blog entries and scientific publications. It will feature articles about Sage and explains major changes in Sage since the last issue.
 
-Maybe there should be a connection with JSAGE -- http://sagemath.org/jsage/ 
+Maybe there should be a connection with JSAGE -- http://sagemath.org/jsage/
 
 == Topics ==
 '''list of possible topics''' an issue could/should cover.
@@ -21,20 +20,17 @@ remember that this journal will still be available years after publishing. there
  * ''New Packages'': similar to above, write about new packages and their role in enhancing Sage.
  * ''New Users'': Explain Sage to a new user, help with first steps, something which is not obvious by just reading the manual. Maybe a broader explanation to a bigger topic in sage-support!
  * ''Algorithms'': Explain some implementation details - since Sage is about "opening algorithms" it should also transport this actively. This would capture the interest of others who are not actively involved in Sage, but are interested in implementing good algorithms. Benchmarks. Link to Source Code + papers.
-  ''"Research papers generally only cover the idea of the algorithm, but an implementation has a lot of other fundamental issues."'' (Tim Daly @ sage-devel, 2008-03-13)
+  . ''"Research papers generally only cover the idea of the algorithm, but an implementation has a lot of other fundamental issues."'' (Tim Daly @ sage-devel, 2008-03-13)
  * ''Teaching'': Some article about using Sage for education - e.g. how to explain XY to a student, why useful, report your own experiences using Sage in education!
  * ''Developer's Corner'': Here are news from developers to developers, about internals, changes in a process, results from discussions about future issues, changes in the layout, benchmarks, short introduction how mercurial is used in development and its integration as part of sage's commands, ... or developing applications which use sage (bigger python script, analyzing data or something, importing sage commands)
  * ''Politics/Philosophy'': what makes sage different to M*, ...
  * ''Community'': about people using sage
  * ''Events'': Sage somewhere in the wild? a conference? exhibition booth? what has happened? pictures!
  * maybe other topics, also of course hybrids between these topics.
-
-
 '''topics not to cover:'''
 
  * things currently discussed on sage-devel (a year later this information is pointless)
  * all topics without intersection points with sage
-
 == Issues ==
 Issues are numbered by the <year>-<month> of their release. Maybe every two month, depending on the number of submissions.
 
@@ -47,12 +43,10 @@ possible topics:
  * new features: interact
  * help: check sage-support
  * developers corner: ? (something about mercurial in sage?)
-
 === Volume 2008-xx ===
 second issue, possible topics:
 
  * new features: latex embedding (assuming SageTex is included in the release .. or move it up to the first volume if already released)
-
 == Ideas ==
 resources for article ideas:
 
@@ -61,7 +55,6 @@ resources for article ideas:
  * sage google groups
  * blogs
  * own experience
-
 == Copyright ==
 as mentioned on the first page of this wiki: contributions are licensed under the [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons 3.0 license].
 
@@ -82,12 +75,10 @@ possible style to cite an article
   pdf = {http://sagemath.org/journal/Sage-Journal-200x-xx.pdf}
 }
 }}}
-
 == Prerequisites / TODO ==
  * SageJournal.sty latex stylefile: twocolumn, title, TOC, editorial notice, articles are included as separate TeX files, they should have a title (spans over both columns), subtitle, author and automatic formatting.
  * [http://www.loc.gov/issn/e-serials.html ISSN number]
  * website listing all volumes, links to pdf's, (plus erratum), general explanation, explanation who is behind, explanation how to submit articles
-
 == Organization ==
 Before releasing the first volume, we need:
 
@@ -105,3 +96,5 @@ Before releasing the first volume, we need:
   1. editor decides when to publish a volume, sends document internally to others to check it
   1. document is published on html, as pdf, with article title and author -- document sources are published in the sage repository (or only webserver?)
   1. if trac-issue mentions an error, editor uploads patched pdf and a small text file called "erratum" and updates sources in the repository
+== Comments ==
+ * this reminds me a bit of Haskell's [http://www.haskell.org/haskellwiki/The_Monad.Reader The Monad Reader]. --DanDrake
