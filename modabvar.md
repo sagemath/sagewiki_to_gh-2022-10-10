@@ -2,6 +2,28 @@
 
 Code at http://trac.sagemath.org/sage_trac/ticket/2544
 
+== Todo on Tuesday, March 18 ==
+
+ * (craig)   2: disc(End(A))
+ * (craig)   2: degeneracy maps
+ * (craig)   3: Hom(A,B) for A, B simple
+
+ * (robert)  1: create newforms and abvars from label, where label is 389aG1, 389aGH[2,3], 389b, 389c, etc.
+ * (robert)  3: Hom(A,B) in general
+ * (robert)  1: complementary isogeny (invert matrix and clear denom)
+
+ * (william) 2: kernels of morphisms
+ * (william) 2: cokernels of morphisms
+ * (william) 3: dual isogeny when A,B both maximal
+ * (william) 2: quotient by abelian subvariety
+ * (william) 2: projection (only when 'maximal')
+ * (william) 2: dual of A when A is maximal
+
+
+ * (group) 2: norm equations (clean up patch)
+
+ * (group) 5: minimal isogeny degree
+
 == Todo on March 16 ==
 
  * DONE (craig) Newforms issue:
@@ -79,27 +101,7 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
  * (craig/william) Create a small mock database
  
 
-== Todo on Tuesday, March 18 ==
 
- * (craig)   2: disc(End(A))
- * (craig)   2: degeneracy maps
- * (craig)   3: Hom(A,B) for A, B simple
-
- * (robert)  1: create newforms and abvars from label, where label is 389aG1, 389aGH[2,3], 389b, 389c, etc.
- * (robert)  3: Hom(A,B) in general
- * (robert)  1: complementary isogeny (invert matrix and clear denom)
-
- * (william) 2: kernels of morphisms
- * (william) 2: cokernels of morphisms
- * (william) 3: dual isogeny when A,B both maximal
- * (william) 2: quotient by abelian subvariety
- * (william) 2: projection (only when 'maximal')
- * (william) 2: dual of A when A is maximal
-
-
- * (group) 2: norm equations (clean up patch)
-
- * (group) 5: minimal isogeny degree
 
 == Todo on Wednesday, March 19 ==
 
