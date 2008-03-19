@@ -15,8 +15,8 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
 
  * (william) 2: cokernels of morphisms
  * (william) 3: dual isogeny when A,B both maximal
- * (william) 2: quotient by abelian subvariety
  * (william) 2: dual of A when A is maximal
+ * DONE (william) 2: quotient by abelian subvariety
  * DONE (william) 2: kernels of morphisms
  * DONE (william) 2: projection (only when 'maximal')
  * (william) images of abelian varieties and groups under morphisms. 
