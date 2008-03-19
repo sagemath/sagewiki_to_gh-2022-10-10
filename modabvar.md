@@ -2,6 +2,17 @@
 
 Code at http://trac.sagemath.org/sage_trac/ticket/2544
 
+== Todo on Wednesday, March 19 ==
+ * (craig)   3: Hom(A,B) for A, B simple
+ * (robert)  3: Hom(A,B) in general
+ * (william) 2: cokernels of morphisms
+ * (william) 3: dual isogeny when A,B both maximal
+ * (william) 2: dual of A when A is maximal
+ * (william) images of abelian varieties and groups under morphisms. 
+ * 2: norm equations (clean up patch)
+ * 5: minimal isogeny degree
+
+
 == Todo on Tuesday, March 18 ==
 
  * DONE (craig)   2: disc(End(A))
@@ -15,15 +26,6 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
  * DONE (william) 2: kernels of morphisms
  * DONE (william) 2: projection (only when 'maximal')
 
-== TODO March 19 ==
- * (craig)   3: Hom(A,B) for A, B simple
- * (robert)  3: Hom(A,B) in general
- * (william) 2: cokernels of morphisms
- * (william) 3: dual isogeny when A,B both maximal
- * (william) 2: dual of A when A is maximal
- * (william) images of abelian varieties and groups under morphisms. 
- * 2: norm equations (clean up patch)
- * 5: minimal isogeny degree
 
 
 == Todo on March 16 ==
