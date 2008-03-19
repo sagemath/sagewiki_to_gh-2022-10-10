@@ -7,6 +7,7 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
  * (craig)   2: disc(End(A))
  * (craig)   2: degeneracy maps
  * (craig)   3: Hom(A,B) for A, B simple
+ * (craig)   1: fix hecke operators
 
  * (robert)  1: create newforms and abvars from label, where label is 389aG1, 389aGH[2,3], 389b, 389c, etc.
  * (robert)  3: Hom(A,B) in general
