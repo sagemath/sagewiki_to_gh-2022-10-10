@@ -2,6 +2,8 @@
 
 '''Sage Journal''' is a periodic and numbered publication about Sage. It is published monthly or every two month, depending on the number of submissions in the style of a regular journal - but less "formal". Therefore it is something in between of blog entries and scientific publications. It will feature articles about Sage and explains major changes in Sage since the last issue.
 
+Maybe there should be a connection with JSAGE -- http://sagemath.org/jsage/ 
+
 == Topics ==
 '''list of possible topics''' an issue could/should cover.
 
