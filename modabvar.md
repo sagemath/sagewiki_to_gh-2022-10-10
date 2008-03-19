@@ -4,27 +4,27 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
 
 == Todo on Tuesday, March 18 ==
 
- * (craig)   3: Hom(A,B) for A, B simple
  * DONE (craig)   2: disc(End(A))
  * DONE (craig)   2: degeneracy maps
  * DONE (craig)   1: fix hecke operators
 
- * (robert)  3: Hom(A,B) in general
  * DONE (robert)  1: create newforms and abvars from label, where label is 389aG1, 389aGH[2,3], 389b, 389c, etc.
  * DONE (robert)  1: complementary isogeny (invert matrix and clear denom)
 
- * (william) 2: cokernels of morphisms
- * (william) 3: dual isogeny when A,B both maximal
- * (william) 2: dual of A when A is maximal
  * DONE (william) 2: quotient by abelian subvariety
  * DONE (william) 2: kernels of morphisms
  * DONE (william) 2: projection (only when 'maximal')
+
+== TODO March 19 ==
+ * (craig)   3: Hom(A,B) for A, B simple
+ * (robert)  3: Hom(A,B) in general
+ * (william) 2: cokernels of morphisms
+ * (william) 3: dual isogeny when A,B both maximal
+ * (william) 2: dual of A when A is maximal
  * (william) images of abelian varieties and groups under morphisms. 
+ * 2: norm equations (clean up patch)
+ * 5: minimal isogeny degree
 
-
- * (group) 2: norm equations (clean up patch)
-
- * (group) 5: minimal isogeny degree
 
 == Todo on March 16 ==
 
