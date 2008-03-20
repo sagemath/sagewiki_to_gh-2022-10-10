@@ -370,8 +370,8 @@ attachment:biobrowse.png
 C = cube(color=['red', 'green', 'blue'], aspect_ratio=[1,1,1],
          viewer='tachyon') + sphere((1,0,0),0.2)
 @interact
-def example(theta=(0,2*pi), phi=(0,2*pi)):
-    show(C.rotate((0,0,1), theta).rotate((0,1,0),phi))
+def example(theta=(0,2*pi), phi=(0,2*pi), zoom=(1,(1,4))):
+    show(C.rotate((0,0,1), theta).rotate((0,1,0),phi), zoom=zoom)
 }}}
 
 
