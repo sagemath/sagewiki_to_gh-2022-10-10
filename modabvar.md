@@ -8,7 +8,7 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
  * (robert)  3: Hom(A,B) in general
  * (william) 2: cokernels of morphisms
  * (william) 3: dual isogeny when A,B both maximal
- * (william) 2: dual of A when A is maximal
+ * DONE (william) 2: dual of A when A is maximal
  * (william) images of abelian varieties and groups under morphisms. (2 hours)
 
 12:00am - 5am + airport:
