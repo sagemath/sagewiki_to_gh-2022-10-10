@@ -91,7 +91,7 @@ attachment:tangents.png
 == Differential Equations ==
 
 === Euler's Method in one variable ===
-by Marshall Hampton 
+by Marshall Hampton. This needs some polishing but its usable as is.
 {{{
 def tab_list(y, headers = None):
     '''
