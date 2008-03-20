@@ -91,6 +91,7 @@ attachment:tangents.png
 == Differential Equations ==
 
 === Euler's Method in one variable ===
+by Marshall Hampton 
 {{{
 def tab_list(y, headers = None):
     '''
@@ -128,7 +129,7 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
         table_range = range(0,floor(steps_shown/2)) + range(len(sol)-floor(steps_shown/2),len(sol))
     html(tab_list([[i,xvals[i],sol[i]] for i in table_range], headers = ['step','x','y']))
 }}}
-attachement:eulermethod.png
+attachment:eulermethod.png
 
 == Linear Algebra ==
 
