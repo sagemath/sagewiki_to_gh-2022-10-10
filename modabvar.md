@@ -9,6 +9,7 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
  * (william) 2: cokernels of morphisms
  * DONE (william) 2: dual of A when A is maximal
  * (william) images of abelian varieties and groups under morphisms. (2 hours)
+ * (william) intersections of finite groups
 
 12:00am - 5am + airport:
  * plan for:
