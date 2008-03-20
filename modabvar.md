@@ -7,7 +7,6 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
  * (craig)   3: Hom(A,B) for A, B simple
  * (robert)  3: Hom(A,B) in general
  * (william) 2: cokernels of morphisms
- * (william) 3: dual isogeny when A,B both maximal
  * DONE (william) 2: dual of A when A is maximal
  * (william) images of abelian varieties and groups under morphisms. (2 hours)
 
@@ -23,6 +22,9 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
  * (craig) 2: norm equations (clean up patch)  (1 hour)
  * 5: minimal isogeny degree    (3 hours)
  * intersection pairing. 
+
+----------
+ * (william) 3: dual isogeny when A,B both maximal
 
 == Todo on Tuesday, March 18 ==
 
