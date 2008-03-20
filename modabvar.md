@@ -6,10 +6,10 @@ Code at http://trac.sagemath.org/sage_trac/ticket/2544
 9:00-12:00am
  * (craig)   3: Hom(A,B) for A, B simple
  * (robert)  3: Hom(A,B) in general
- * (william) 2: cokernels of morphisms
+ * DONE (william) 2: cokernels of morphisms
  * DONE (william) 2: dual of A when A is maximal
  * DONE (william) images of abelian varieties and groups under morphisms. (2 hours)
- * (william) intersections of finite groups
+ * DONE (william) intersections of finite groups
 
 12:00am - 5am + airport:
  * plan for:
