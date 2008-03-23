@@ -22,7 +22,6 @@ main ''killer features'' of Sage.  This project is about improving the notebook.
   * #1467  make it possible to upload/download worksheets as plain text
   * #1468  notebook -- create a global option so that word wrap is on or off by default always
   * #1496  notebook -- make it easy to link different worksheets
-  * #5  full keyboard mode for notebook
   * #245  a bunch of random notebook improvement ideas
   * #246  height of a notebook cell
   * #251  Notebook worksheet multithreading
