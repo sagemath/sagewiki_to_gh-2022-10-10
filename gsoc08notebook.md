@@ -18,7 +18,7 @@ write to William Stein (wstein@gmail.com) and Tom Boothby (boothby@u.washington.
  * Rewrite the storage backend (for users and data) to use a [http://www.sqlalchemy.org/ SQLalchemy]-based backend. 
  * Implement user profiles and per-user customization.
  * Make the notebook user-skinable. 
- * General improvements and bug fixes; here are some relevant [http://trac.sagemath.org/sage_trac trac tickets]:
+ * General improvements and bug fixes; here are some relevant [http://trac.sagemath.org/sage_trac trac tickets] (search for #number):
   * #2652: notebook should let you evaluate cells without losing cursor position
   * #2636: notebook -- changing a cell without evaluate should put the red line back ...
   * #2633: Notebook tweaks
