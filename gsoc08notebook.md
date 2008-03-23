@@ -1,7 +1,8 @@
 = Google Summer of Code 2008 Sage Project Idea: The Sage Notebook =
 
 [http://sagemath.org Sage] is a unified open source mathematics software environment that provides a viable free open source alternative to
-Magma, Maple, Mathematica, and Matlab.   Try the notebook [https://sagenb.org online right now].
+Magma, Maple, Mathematica, and Matlab.   Try the notebook [https://sagenb.org online right now]; also, come chat with us at #sage-devel on
+irc.freenode.net. 
 
 '''Requirements:''' This project requires Python and Javascript coding skills, and a solid understanding of AJAX programming. 
 
