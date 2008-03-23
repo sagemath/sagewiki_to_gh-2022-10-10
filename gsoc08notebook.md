@@ -19,6 +19,14 @@ write to William Stein (wstein@gmail.com) and Tom Boothby (boothby@u.washington.
  * Implement user profiles and per-user customization.
  * Make the notebook user-skinable. 
  * General improvements and bug fixes; here are some relevant [http://trac.sagemath.org/sage_trac trac tickets]:
+  * #2652: notebook should let you evaluate cells without losing cursor position
+  * #2636: notebook -- changing a cell without evaluate should put the red line back ...
+  * #2633: Notebook tweaks
+  * #2631: Distinguishing between (un)evaluated cells
+  * #2629: Bottom of page problems
+  * #2628: Literate notebook
+  * #2606: command line option to kill a background notebook
+  * #2605: Notebook tab-backspace-(shift enter) gives bug
   * #386  Enhance "attach <file>" in the notebook
   * #406  notebook -- improve support for other system modes
   * #408  Notebook glitch in Safari
