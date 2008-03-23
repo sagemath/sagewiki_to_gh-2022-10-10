@@ -1,5 +1,7 @@
 = Google Summer of Code 2008 Sage Project Idea: The Sage Notebook =
 
+MENTORS: William Stein (wstein@gmail.com) and Tom Boothby (boothby@u.washington.edu). 
+
 [http://sagemath.org Sage] is a unified open source mathematics software environment that provides a viable free open source alternative to
 Magma, Maple, Mathematica, and Matlab.   Try the notebook [https://sagenb.org online right now]; also, come chat with us at #sage-devel on
 irc.freenode.net. 
@@ -8,7 +10,9 @@ irc.freenode.net.
 
 The Sage notebook is an AJAX application similar to Google Documents that provides functionality for all mathematical software somewhat like Mathematica notebooks. 
 It was written from scratch (in Javascript and Python) by the Sage development team, and has been used daily by thousands of people over the last year.  It's one of the
-main ''killer features'' of Sage.  This project is about improving the notebook.  No special mathematical knowledge is required.    
+main ''killer features'' of Sage.  This project is about improving the notebook.  No special mathematical knowledge is required.     If you're really interested in this project,
+write to William Stein (wstein@gmail.com) and Tom Boothby (boothby@u.washington.edu).
+
 
  * Develop the new [http://wiki.sagemath.org/interact interact functionality]
  * Rewrite the storage backend (for users and data) to use a [http://www.sqlalchemy.org/ SQLalchemy]-based backend. 
