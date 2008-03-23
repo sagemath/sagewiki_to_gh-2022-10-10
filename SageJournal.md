@@ -34,6 +34,10 @@ remember that this journal will still be available years after publishing. there
 == Issues ==
 Issues are numbered by the <year>-<month> of their release. Maybe every two month, depending on the number of submissions.
 
+== Submissions ==
+ * Submissions on a continuous base, email them to the Editor.
+ * Announcements on sage-devel
+
 === Volume 2008-0x ===
 possible topics:
 
