@@ -219,7 +219,7 @@ by William Stein (Sage-2.10.3)
 @interact
 def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
     G = DirichletGroup(m)
-    s = "<h3>First n=%s Bernoulli numbers attached to characters with modulus m=%s</h3>"%(n,f)
+    s = "<h3>First n=%s Bernoulli numbers attached to characters with modulus m=%s</h3>"%(n,m)
     s += '<table border=1>'
     s += '<tr bgcolor="#edcc9c"><td align=center>$\\chi$</td><td>Conductor</td>' + \
            ''.join('<td>$B_{%s,\chi}$</td>'%k for k in [1..n]) + '</tr>'
