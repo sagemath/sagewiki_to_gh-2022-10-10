@@ -4338,6 +4338,7 @@ cwb120\.com
 gravelline\.cn
 applesupport\.com\.cn
 fcsgame\.com
+just4gold\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
