@@ -3,6 +3,15 @@
 
 Maybe there should be a connection with JSAGE -- http://sagemath.org/jsage/
 
+'''Naming''' possible candidates for a Name, because "Sage Journal" got "-2" or less:
+ * Sage News
+ * Sage Newsletter 
+ * Sage Letters
+ * Sage in the Print
+ * Sage Reader
+ * Sage eLetters,
+ * Sage eNews
+
 == Topics ==
 '''list of possible topics''' an issue could/should cover.
 
