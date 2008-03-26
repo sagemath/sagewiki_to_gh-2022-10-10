@@ -204,6 +204,9 @@ def linear_transformation(theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, defaul
     print jsmath("v = %s,\; %s v=%s"%(v.n(4),latex(A),w.n(4)))
     show(v.plot(rgbcolor=(1,0,0))+w.plot(rgbcolor=(0,0,1))+circles,aspect_ratio=1)
 }}}
+attachment:Linear-Transformations.png
+
+
 
 == Number Theory ==
 
