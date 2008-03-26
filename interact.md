@@ -191,6 +191,20 @@ def gstest(precision = slider(range(3,53), default = 10), a1 = input_box([1,1/10
 }}}
 attachment:GramSchmidt.png
 
+
+=== Linear transformations ===
+by Jason Grout
+{{{
+@interact
+def linear_transformation(theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, default=1)):
+    A=matrix([[1,-1],[-1,1/2]])
+    v=vector([r*cos(theta), r*sin(theta)])
+    w = A*v
+    circles = sum([circle((0,0), radius=i, rgbcolor=(0,0,0)) for i in [1..2]])
+    print jsmath("v = %s,\; %s v=%s"%(v.n(4),latex(A),w.n(4)))
+    show(v.plot(rgbcolor=(1,0,0))+w.plot(rgbcolor=(0,0,1))+circles,aspect_ratio=1)
+}}}
+
 == Number Theory ==
 
 === Continued Fraction Plotter ===
