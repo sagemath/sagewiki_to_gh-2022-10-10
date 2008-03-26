@@ -4339,6 +4339,8 @@ gravelline\.cn
 applesupport\.com\.cn
 fcsgame\.com
 just4gold\.com
+goodvk\.com
+selldofus-kamas\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
