@@ -4341,6 +4341,7 @@ fcsgame\.com
 just4gold\.com
 goodvk\.com
 selldofus-kamas\.cn
+seo-newline\.com\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
