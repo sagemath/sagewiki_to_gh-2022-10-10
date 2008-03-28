@@ -2,6 +2,8 @@
 
 Application DEADLINE: April 15, 2008
 
+http://www.pims.math.ca/science/2008/08mgvw/images/poster.png
+
 Apply now online at [http://www.pims.math.ca/science/2008/08mgvw/ the Official Webpage].
 
 DATES:        August 8 - 16, 2008
