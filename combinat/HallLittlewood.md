@@ -37,6 +37,17 @@ sage: HallLittlewoodQ(QQ, t=-1)
 Hall-Littlewood polynomials in the Q basis with t=-1 over Rational Field
 }}}
 
+{{{
+sage: HLP = HallLittlewoodP(QQ)
+sage: HLQ = HallLittlewoodQ(QQ)
+sage: HLP([2,1]).scalar_t(HLQ([2,1]))
+1
+sage: HLP([2,1]).scalar_t(HLQ([1,1,1]))
+0
+sage: HLP([2,1]).scalar_t(HLQ([3]))
+0
+}}}
+
 == Qp basis ==
 The Qp basis is dual to the P basis with respect to the standard Hall scalar product.
 {{{
@@ -45,6 +56,14 @@ Hall-Littlewood polynomials in the Qp basis over Fraction Field of Univariate Po
 sage: HallLittlewoodQp(QQ, t=-1)
 Hall-Littlewood polynomials in the Qp basis with t=-1 over Rational Field
 }}}
-{{{
 
+{{{
+sage: HLP = HallLittlewoodP(QQ)
+sage: HLQp = HallLittlewoodQp(QQ)
+sage: HLP([2,1]).scalar(HLQp([2,1]))
+1
+sage: HLP([2,1]).scalar(HLQp([1,1,1]))
+0
+sage: HLP([2,1]).scalar(HLQp([3]))
+0
 }}}
