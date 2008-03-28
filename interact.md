@@ -194,6 +194,9 @@ attachment:GramSchmidt.png
 
 === Linear transformations ===
 by Jason Grout
+
+A matrix defines a linear transformation which rotates and/or scales vectors.  In the interact command below, the red vector represents the original vector (v) and the blue vector represents the image w under the linear transformation.  You can change the angle and length of v by changing theta and r.
+
 {{{
 @interact
 def linear_transformation(theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, default=1)):
