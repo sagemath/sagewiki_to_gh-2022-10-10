@@ -2,7 +2,7 @@
 
 Post code that demonstrates the use of the interact command in Sage here.    It should be easy for people to just scroll through and paste examples out of here into their own sage notebooks.   
 
-We'll likely restructure and reorganize this once we have some nontrivial content and get a sense of how it is laid out. 
+We'll likely restructure and reorganize this once we have some nontrivial content and get a sense of how it is laid out. If you have suggestions on how to improve interact, add them [:interactSuggestions: here] or email sage-support@googlegroups.com.
 
 [[TableOfContents]]
 
