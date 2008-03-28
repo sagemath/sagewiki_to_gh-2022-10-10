@@ -4,7 +4,7 @@
 
 Email: [[MailTo(harald DOT schilly AT SPAMFREE gmail DOT com)]]
 
-...
+ * SageJournal
 
 ----
 CategoryHomepage
