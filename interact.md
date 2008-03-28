@@ -413,6 +413,7 @@ def coal_plot(some_data):
             gen_lines += line([[x,ngens-g-1],[old_x,ngens-g]], hue = gens[g-1][old_x]/float(gen_size*1.1))
             pts += point((x,ngens-g-1), hue = gens[g][x]/float(gen_size*1.1))
     return pts+gen_lines+p_frame
+d_field = RealField(10)
 @interact
 def coalescents(pop_size = slider(2,100,1,15,'Population size'), selection = slider(-1,1,.1,0, 'Selection for first taxon'), s = selector(['Again!'], label='Refresh', buttons=True)):
     print 'Population size: ' + str(pop_size)
