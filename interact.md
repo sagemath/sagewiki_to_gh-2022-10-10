@@ -218,7 +218,7 @@ def rotell(sig,umat,t,offset=0):
     temp = matrix(umat)*matrix(2,1,[sig[0]*cos(t),sig[1]*sin(t)])
     return [offset+temp[0][0],temp[1][0]]
 @interact
-def svd_vis(a11=slider(-1,1,.05,1),a12=slider(-1,1,.05,1),a21=slider(-1,1,.05,0),a22=slider(-1,1,.05,1),ofs= selector(['On','Off'],label='offset image from domain')):
+def svd_vis(a11=slider(-1,1,.05,1),a12=slider(-1,1,.05,1),a21=slider(-1,1,.05,0),a22=slider(-1,1,.05,1),ofs= selector(['Off','On'],label='offset image from domain')):
     rf_low = RealField(12)
     my_mat = matrix(rf_low,2,2,[a11,a12,a21,a22])
     u,s,vh = lin.svd(my_mat.numpy())
@@ -234,8 +234,8 @@ def svd_vis(a11=slider(-1,1,.05,1),a12=slider(-1,1,.05,1),a21=slider(-1,1,.05,0)
     uvects = Graphics()
     for i in (0,1):
         if s[i] != 0: uvects += arrow([offset,0],vector([offset,0])+matrix(s*u).column(i),rgbcolor = colors[i+2])
-    show(my_mat)
     html('<h3>Singular value decomposition: image of the unit circle and the singular vectors</h3>')
+    print jsmath("A = %s  = %s %s %s"%(latex(my_mat), latex(matrix(rf_low,u.tolist())), latex(matrix(rf_low,2,2,[s[0],0,0,s[1]])), latex(matrix(rf_low,vh.tolist())))) 
     image_ell = parametric_plot(rotell(s,u,t, offset),0,2*pi)
     graph_stuff=circle((0,0),1)+image_ell+vvects+uvects
     graph_stuff.set_aspect_ratio(1)
