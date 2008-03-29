@@ -694,51 +694,11 @@ def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='
     html('<h1>Plot of $f(x,y) = %s$</h1>'%latex(f))
     aspect_ratio = [1,1,1] if square_aspect else [1,1,1/2]
     show(P.rotate((0,0,1), -zrot).rotate((1,0,0),xrot), 
-
----- /!\ '''Edit conflict - other version:''' ----
          viewer='tachyon' if tachyon else 'jmol', 
          figsize=6, zoom=zoom, frame=False,
          frame_aspect_ratio=aspect_ratio)
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
-
-== Miscellaneous Graphics ==
-
-=== Interactive rotatable raytracing with Tachyon3d ===
-
-{{{
-C = cube(color=['red', 'green', 'blue'], aspect_ratio=[1,1,1],
-         viewer='tachyon') + sphere((1,0,0),0.2)
-@interact
-def example(theta=(0,2*pi), phi=(0,2*pi), zoom=(1,(1,4))):
-    show(C.rotate((0,0,1), theta).rotate((0,1,0),phi), zoom=zoom)
 }}}
 
-
-attachment:tachyonrotate.png
-
-
-=== Interactive Tachyon-based 3d plotting ===
-{{{
-var('x,y')
-@interact
-def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='(-2,2)', 
-    zrot=(0,pi), xrot=(0,pi), zoom=(1,(1/2,3)), square_aspect=('Square Frame', False)):
-    xmin, xmax = sage_eval(xrange); ymin, ymax = sage_eval(yrange)
-    P = plot3d(f, (x, xmin, xmax), (y, ymin, ymax), color=clr)
-    html('<h1>Plot of $f(x,y) = %s$</h1>'%latex(f))
-    aspect_ratio = [1,1,1] if square_aspect else [1,1,1/2]
-    show(P.rotate((0,0,1), -zrot).rotate((1,0,0),xrot), 
-         viewer='tachyon', figsize=6, zoom=zoom, frame_aspect_ratio=aspect_ratio)
-
----- /!\ '''End of edit conflict''' ----
-}}}
 
 attachment:tachyonplot3d.png
 
