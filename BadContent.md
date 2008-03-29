@@ -4342,6 +4342,8 @@ just4gold\.com
 goodvk\.com
 selldofus-kamas\.cn
 seo-newline\.com\.cn
+hzhongtai\.cn
+ymiao\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
