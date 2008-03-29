@@ -583,18 +583,21 @@ def example(theta=(0,2*pi), phi=(0,2*pi), zoom=(1,(1,4))):
 attachment:tachyonrotate.png
 
 
-=== Interactive Tachyon-based 3d plotting ===
+=== Interactive 3d plotting ===
 {{{
 var('x,y')
 @interact
 def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='(-2,2)', 
-    zrot=(0,pi), xrot=(0,pi), zoom=(1,(1/2,3)), square_aspect=('Square Frame', False)):
+    zrot=(0,pi), xrot=(0,pi), zoom=(1,(1/2,3)), square_aspect=('Square Frame', False),
+    tachyon=('Ray Tracer', True)):
     xmin, xmax = sage_eval(xrange); ymin, ymax = sage_eval(yrange)
     P = plot3d(f, (x, xmin, xmax), (y, ymin, ymax), color=clr)
     html('<h1>Plot of $f(x,y) = %s$</h1>'%latex(f))
     aspect_ratio = [1,1,1] if square_aspect else [1,1,1/2]
     show(P.rotate((0,0,1), -zrot).rotate((1,0,0),xrot), 
-         viewer='tachyon', figsize=6, zoom=zoom, frame_aspect_ratio=aspect_ratio)
+         viewer='tachyon' if tachyon else 'jmol', 
+         figsize=6, zoom=zoom, frame=False,
+         frame_aspect_ratio=aspect_ratio)
 }}}
 
 attachment:tachyonplot3d.png
