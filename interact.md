@@ -388,6 +388,36 @@ def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
 
 attachment:bernoulli.png
 
+
+=== Fundamental Domains of SL_2(ZZ) ===
+by Robert Miller
+{{{
+L = [[-0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000, -1, -1)]
+R = [[0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000)]
+xes = [x/1000.0 for x in xrange(-500,501,1)]
+M = [[x,abs(sqrt(x^2-1))] for x in xes]
+fundamental_domain = L+M+R
+fundamental_domain = [[x-1,y] for x,y in fundamental_domain]
+@interact
+def _(gen = selector(['t+1', 't-1', '-1/t'], nrows=1)):
+    global fundamental_domain
+    if gen == 't+1':
+        fundamental_domain = [[x+1,y] for x,y in fundamental_domain]
+    elif gen == 't-1':
+        fundamental_domain = [[x-1,y] for x,y in fundamental_domain]
+    elif gen == '-1/t':
+        new_dom = []
+        for x,y in fundamental_domain:
+            sq_mod = x^2 + y^2
+            new_dom.append([(-1)*x/sq_mod, y/sq_mod])
+        fundamental_domain = new_dom
+    P = polygon(fundamental_domain)
+    P.ymax(1.2); P.ymin(-0.1)
+    P.show()
+}}}
+
+attachment:fund_domain.png
+
 === Computing modular forms ===
 by William Stein
 {{{
@@ -595,9 +625,50 @@ def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='
     html('<h1>Plot of $f(x,y) = %s$</h1>'%latex(f))
     aspect_ratio = [1,1,1] if square_aspect else [1,1,1/2]
     show(P.rotate((0,0,1), -zrot).rotate((1,0,0),xrot), 
+
+---- /!\ '''Edit conflict - other version:''' ----
          viewer='tachyon' if tachyon else 'jmol', 
          figsize=6, zoom=zoom, frame=False,
          frame_aspect_ratio=aspect_ratio)
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+== Miscellaneous Graphics ==
+
+=== Interactive rotatable raytracing with Tachyon3d ===
+
+{{{
+C = cube(color=['red', 'green', 'blue'], aspect_ratio=[1,1,1],
+         viewer='tachyon') + sphere((1,0,0),0.2)
+@interact
+def example(theta=(0,2*pi), phi=(0,2*pi), zoom=(1,(1,4))):
+    show(C.rotate((0,0,1), theta).rotate((0,1,0),phi), zoom=zoom)
+}}}
+
+
+attachment:tachyonrotate.png
+
+
+=== Interactive Tachyon-based 3d plotting ===
+{{{
+var('x,y')
+@interact
+def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='(-2,2)', 
+    zrot=(0,pi), xrot=(0,pi), zoom=(1,(1/2,3)), square_aspect=('Square Frame', False)):
+    xmin, xmax = sage_eval(xrange); ymin, ymax = sage_eval(yrange)
+    P = plot3d(f, (x, xmin, xmax), (y, ymin, ymax), color=clr)
+    html('<h1>Plot of $f(x,y) = %s$</h1>'%latex(f))
+    aspect_ratio = [1,1,1] if square_aspect else [1,1,1/2]
+    show(P.rotate((0,0,1), -zrot).rotate((1,0,0),xrot), 
+         viewer='tachyon', figsize=6, zoom=zoom, frame_aspect_ratio=aspect_ratio)
+
+---- /!\ '''End of edit conflict''' ----
 }}}
 
 attachment:tachyonplot3d.png
