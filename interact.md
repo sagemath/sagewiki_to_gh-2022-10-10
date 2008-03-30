@@ -191,6 +191,96 @@ def _(f=sin(x), g=cos(x), xrange=input_box((0,1)), yrange='auto', a=1,
 
 attachment:funtool.png
 
+=== Newton-Raphson Root Finding ===
+
+by Neal Holtz
+
+This allows user to display the Newton-Raphson procedure one step at a time.
+It uses the heuristic that, if any of the values of the controls change,
+then the procedure should be re-started, else it should be continued.
+
+{{{
+# ideas from 'A simple tangent line grapher' by Marshall Hampton
+# http://wiki.sagemath.org/interact
+
+State = Data = None   # globals to allow incremental additions to graphics
+
+@interact
+def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'), 
+             xmin = input_box(default=0), 
+             xmax = input_box(default=4*pi), 
+             x0 = input_box(default=3, label='x0'),
+             show_calcs = ("Show Calcs",True),
+             step = ['Next','Reset'] ):
+    global State, Data
+    prange = [xmin,xmax]
+    state = [f,xmin,xmax,x0,show_calcs]
+    if (state != State) or (step == 'Reset'):   # when any of the controls change
+        X = [RR(x0)]                     # restart the plot
+        df = diff(f)
+        Fplot = plot(f, prange[0], prange[1])
+        Data = [X, df, Fplot]
+        State = state
+
+    X, df, Fplot = Data
+    i = len(X) - 1              # compute and append the next x value
+    xi = X[i]
+    fi = RR(f(xi))
+    fpi = RR(df(xi))
+    xip1 = xi - fi/fpi
+    X.append(xip1)
+
+    msg = xip1s = None          # now check x value for reasonableness
+    is_inf = False
+    if abs(xip1) > 10E6*(xmax-xmin):
+        is_inf = True
+        show_calcs = True
+        msg = 'Derivative is 0!'
+        xip1s = latex(xip1.sign()*infinity)
+        X.pop()
+    elif not ((xmin - 0.5*(xmax-xmin)) <= xip1 <= (xmax   0.5*(xmax-xmin))):
+        show_calcs = True
+        msg = 'x value out of range; probable divergence!'
+    if xip1s is None:
+        xip1s = '%.4g' % (xip1,)
+
+    def Disp( s, color="blue" ):
+        if show_calcs:
+            html( """<font color="%s">$ %s $</font>""" % (color,s,) )
+    Disp( """f(x) = %s""" % (latex(f),)  
+          """~~~~f'(x) = %s""" % (latex(df),) )
+    Disp( """i = %d""" % (i,)  
+          """~~~~x_{%d} = %.4g""" % (i,xi)  
+          """~~~~f(x_{%d}) = %.4g""" % (i,fi)   
+          """~~~~f'(x_{%d}) = %.4g""" % (i,fpi) )
+    if msg:
+        html( """<font color="red"><b>%s</b></font>""" % (msg,) )
+        c = "red"
+    else:
+        c = "blue"
+    Disp( r"""x_{%d} = %.4g - ({%.4g})/({%.4g}) = %s""" % (i 1,xi,fi,fpi,xip1s), color=c )
+
+    Fplot  = line( [(xi,0),(xi,fi)], linestyle=':', rgbcolor=(1,0,0) ) # vert dotted line
+    Fplot  = points( [(xi,0),(xi,fi)], rgbcolor=(1,0,0) )
+    if is_inf:
+        xl = xi - 0.05*(xmax-xmin)
+        xr = xi   0.05*(xmax-xmin)
+        yl = yr = fi
+    else:
+        xl = min(xi,xip1) - 0.02*(xmax-xmin)
+        xr = max(xi,xip1)   0.02*(xmax-xmin)
+        yl = -(xip1-xl)*fpi
+        yr = (xr-xip1)*fpi
+        Fplot  = points( [(xip1,0)], rgbcolor=(0,0,1) )       # new x value
+    Fplot  = line( [(xl,yl),(xr,yr)], rgbcolor=(1,0,0) )  # tangent
+
+    show( Fplot, xmin = prange[0], xmax = prange[1] )
+    Data = [X, df, Fplot]
+}}}
+
+
+attachment:newtraph.png
+
 
 == Differential Equations ==
 
