@@ -262,6 +262,8 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
 
     Fplot += line( [(xi,0),(xi,fi)], linestyle=':', rgbcolor=(1,0,0) ) # vert dotted line
     Fplot += points( [(xi,0),(xi,fi)], rgbcolor=(1,0,0) )
+    labi = text( '\nx%d\n' % (i,), (xi,0), rgbcolor=(1,0,0),
+                 vertical_alignment="bottom" if fi < 0 else "top" )
     if is_inf:
         xl = xi - 0.05*(xmax-xmin)
         xr = xi + 0.05*(xmax-xmin)
@@ -272,9 +274,11 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
         yl = -(xip1-xl)*fpi
         yr = (xr-xip1)*fpi
         Fplot += points( [(xip1,0)], rgbcolor=(0,0,1) )       # new x value
+        labi += text( '\nx%d\n' % (i+1,), (xip1,0), rgbcolor=(1,0,0),
+                 vertical_alignment="bottom" if fi < 0 else "top" )
     Fplot += line( [(xl,yl),(xr,yr)], rgbcolor=(1,0,0) )  # tangent
 
-    show( Fplot, xmin = prange[0], xmax = prange[1] )
+    show( Fplot+labi, xmin = prange[0], xmax = prange[1] )
     Data = [X, df, Fplot]
 }}}
 
