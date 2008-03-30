@@ -10,7 +10,7 @@ Website: http://www2.math.uic.edu/~jan/PHCpack/phcpack.html
 GPL
 
 == SPKG Maintainers ==
- * Marhall Hampton
+ * Marshall Hampton
 
 == Upstream Contact ==
  * Jan Verschelde see http://www2.math.uic.edu/~jan/
