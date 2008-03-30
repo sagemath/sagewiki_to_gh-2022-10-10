@@ -6,4 +6,4 @@ This is a informal page for coordinating suggestions on improving the interact c
     2. Controls placed horizontally - it would save a lot of screen real estate if controls could be placed next to each other.
     3. Controls changing state of other controls - currently this is not possible.
     4. Image input - for example, being able to click and drag a point in a displayed image.  Probably hard to implement.
-    5. Show current value next to slider control, perhaps also min/max: e.g. [min] |----------------[-]----| value [max]
+    5. Show current value next to slider control, perhaps also min/max: e.g. {{{[min] |----------------[-]----| value [max]}}}
