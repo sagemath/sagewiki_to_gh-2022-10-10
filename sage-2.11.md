@@ -126,7 +126,7 @@ Wall time: 0.22
 
 == k-Schur Functions and Non-symmetric Macdonald Polynomials ==
 
-$k$-Schur functions $s_\lambda^{(k)}$ are a relatively new family of symmetric functions which play a role in $\mathbb{Z}[h_1, \ldots, h_k]$ analagous to the Schur functions $s_\lambda$ do in $\Lambda$.  The $k$-Schur functions, amongst other things, provide a natural basis for the quantum cohomology of the Grassmannian.  The $k$-Schur functions can be used like any other symmetric functions and are created with kSchurFunctions.
+$k$-Schur functions $s_\lambda^{(k)}$ are a relatively new family of symmetric functions which play a role in $\mathbb{Z}[h_1, \ldots, h_k]$ as the Schur functions $s_\lambda$ do in $\Lambda$.  The $k$-Schur functions, amongst other things, provide a natural basis for the quantum cohomology of the Grassmannian.  The $k$-Schur functions can be used like any other symmetric functions and are created with kSchurFunctions.
 {{{#!python
 sage: ks3 = kSchurFunctions(QQ,3); ks3
 k-Schur Functions at level 3 over Univariate Polynomial Ring in t over Rational Field
