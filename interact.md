@@ -258,10 +258,10 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
         c = "red"
     else:
         c = "blue"
-    Disp( r"""x_{%d} = %.4g - ({%.4g})/({%.4g}) = %s""" % (i 1,xi,fi,fpi,xip1s), color=c )
+    Disp( r"""x_{%d} = %.4g - ({%.4g})/({%.4g}) = %s""" % (i+1,xi,fi,fpi,xip1s), color=c )
 
-    Fplot  = line( [(xi,0),(xi,fi)], linestyle=':', rgbcolor=(1,0,0) ) # vert dotted line
-    Fplot  = points( [(xi,0),(xi,fi)], rgbcolor=(1,0,0) )
+    Fplot += line( [(xi,0),(xi,fi)], linestyle=':', rgbcolor=(1,0,0) ) # vert dotted line
+    Fplot += points( [(xi,0),(xi,fi)], rgbcolor=(1,0,0) )
     if is_inf:
         xl = xi - 0.05*(xmax-xmin)
         xr = xi + 0.05*(xmax-xmin)
@@ -271,8 +271,8 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
         xr = max(xi,xip1) + 0.02*(xmax-xmin)
         yl = -(xip1-xl)*fpi
         yr = (xr-xip1)*fpi
-        Fplot  = points( [(xip1,0)], rgbcolor=(0,0,1) )       # new x value
-    Fplot  = line( [(xl,yl),(xr,yr)], rgbcolor=(1,0,0) )  # tangent
+        Fplot += points( [(xip1,0)], rgbcolor=(0,0,1) )       # new x value
+    Fplot += line( [(xl,yl),(xr,yr)], rgbcolor=(1,0,0) )  # tangent
 
     show( Fplot, xmin = prange[0], xmax = prange[1] )
     Data = [X, df, Fplot]
