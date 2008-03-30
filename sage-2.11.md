@@ -1,34 +1,8 @@
 = Sage 2.11 Release Tour =
-Sage 2.10.1 was released on XXX 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release. For the latest changes see [http://sagemath.org/announce/sage-2.11.txt sage-2.11.txt].
+Sage 2.11 was released on March 30, 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release. For the latest changes see [http://sagemath.org/announce/sage-2.11.txt sage-2.11.txt].
 
-'''This is Work-in-Progress! Hence the links on this page won't work and information will be added as we got along!'''
-
-== Bugfixes/Upgrades ==
- * ATLAS:
-   * #2260  Upgraded to 3.8.1
-   * #2108  ATLAS tuning info for Intel Prescott CPUs
-   * #2368  ATLAS tuning info for Powerbook G4
-
- * misc:
-   * #2148  PolyBoRi monomial orders are wrong
-   * #2437  Update eclib.spkg to eclib-20080304
-   * #2468  inverting a non-invertible matrix over RDF returns weird results
-   * #2517  ignore bad values in plot
-   * #2545  FractionFieldElement lacks derivative method
-   * #2566  fix all known bugs in graph_isom and binary_code
-   * #2571  problem with copy() on sage.rings.integer_mod.IntegerMod_gmp
-   * #2574  problem with Abelian groups and trivial elements
-   * #2576  preserve docstrings of decorated methods in multi_polynomial_ideal.py
-   * #2579  Inconsistency in integer quotient
-   * #2581  extend solve_right to all cases; implement solve_left
-   * #2582  fix bug in PermutationGroupElement
-   * #2585  padic bugfix - check=False in constructor
-   * #2587  subgroup of a permutation group is so slow it's silly
-   * #2588  documentation and tests for sage.schemes.hyperelliptic_curves.jacobian_morphism
-   * #2593  Sage chokes on utf-8 in .sage files
-   * #2594  MPolynomial_polydict __floordiv__ wrong arithmetic fixed
-   * #2602  plot_vector_field docs are unnecessarily complicated (and use the slow lambda functions!)
-   * #2584  printing bug with list_function()
+==  ATLAS ==
+Michael Abshoff and Burcin Erocal upgraded ATLAS to the 3.8.1 release. In addition tuning info for 32 bit Prescott CPUs as well as  Powerbook G4s under Linux was added.
 
 == zn_poly ==
 David Harvey's zn_poly library is now a standard package for Sage. zn_poly is a new C library for polynomial arithmetic in $(Z/nZ)[x]$ where $3 \le n \le ULONG\_MAX$ (i.e. any machine-word-sized modulus). The main benefit is speed. Three examples on sage.math, from my   current development code (this code is '''not''' yet in the spkg):
@@ -142,3 +116,26 @@ sage: E([0,1,0])
 sage: E([1,1,0])
 x0*x1
 }}}
+
+== Bugfixes/Upgrades (incomplete) ==
+
+ * misc:
+   * #2148  PolyBoRi monomial orders are wrong
+   * #2437  Update eclib.spkg to eclib-20080304
+   * #2468  inverting a non-invertible matrix over RDF returns weird results
+   * #2517  ignore bad values in plot
+   * #2545  FractionFieldElement lacks derivative method
+   * #2566  fix all known bugs in graph_isom and binary_code
+   * #2571  problem with copy() on sage.rings.integer_mod.IntegerMod_gmp
+   * #2574  problem with Abelian groups and trivial elements
+   * #2576  preserve docstrings of decorated methods in multi_polynomial_ideal.py
+   * #2579  Inconsistency in integer quotient
+   * #2581  extend solve_right to all cases; implement solve_left
+   * #2582  fix bug in PermutationGroupElement
+   * #2585  padic bugfix - check=False in constructor
+   * #2587  subgroup of a permutation group is so slow it's silly
+   * #2588  documentation and tests for sage.schemes.hyperelliptic_curves.jacobian_morphism
+   * #2593  Sage chokes on utf-8 in .sage files
+   * #2594  MPolynomial_polydict __floordiv__ wrong arithmetic fixed
+   * #2602  plot_vector_field docs are unnecessarily complicated (and use the slow lambda functions!)
+   * #2584  printing bug with list_function()
