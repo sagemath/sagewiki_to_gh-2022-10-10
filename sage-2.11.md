@@ -127,6 +127,34 @@ sage: A*x == v
 True
 }}}
 
+== Generators for congruence subgroups ==
+Robert Miller implemented an algorithm for very quickly 
+computing generators for congruence subgroups $\Gamma_0(N)$, $\Gamma_1(N)$,
+and $\Gamma_H(N)$. 
+{{{
+sage: Gamma0(11).generators()
+[[1 1]
+[0 1],
+ [-1  0]
+[ 0 -1],
+...
+ [10 -1]
+[11 -1],
+ [-10   1]
+[-11   1]]
+sage: time G = Gamma0(389).generators()
+CPU times: user 0.03 s, sys: 0.01 s, total: 0.04 s
+Wall time: 0.04
+sage: time G = Gamma0(997).generators()
+CPU times: user 0.14 s, sys: 0.00 s, total: 0.14 s
+Wall time: 0.14
+sage: time G = Gamma0(2008).generators()
+CPU times: user 0.82 s, sys: 0.00 s, total: 0.82 s
+Wall time: 0.82
+sage: len(G)
+3051  
+}}}
+
 == Bugfixes/Upgrades (incomplete) ==
 
  * misc:
