@@ -238,7 +238,7 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
         msg = 'Derivative is 0!'
         xip1s = latex(xip1.sign()*infinity)
         X.pop()
-    elif not ((xmin - 0.5*(xmax-xmin)) <= xip1 <= (xmax   0.5*(xmax-xmin))):
+    elif not ((xmin - 0.5*(xmax-xmin)) <= xip1 <= (xmax + 0.5*(xmax-xmin))):
         show_calcs = True
         msg = 'x value out of range; probable divergence!'
     if xip1s is None:
@@ -247,11 +247,11 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
     def Disp( s, color="blue" ):
         if show_calcs:
             html( """<font color="%s">$ %s $</font>""" % (color,s,) )
-    Disp( """f(x) = %s""" % (latex(f),)  
+    Disp( """f(x) = %s""" % (latex(f),)  +
           """~~~~f'(x) = %s""" % (latex(df),) )
-    Disp( """i = %d""" % (i,)  
-          """~~~~x_{%d} = %.4g""" % (i,xi)  
-          """~~~~f(x_{%d}) = %.4g""" % (i,fi)   
+    Disp( """i = %d""" % (i,)  +
+          """~~~~x_{%d} = %.4g""" % (i,xi)  +
+          """~~~~f(x_{%d}) = %.4g""" % (i,fi)  +
           """~~~~f'(x_{%d}) = %.4g""" % (i,fpi) )
     if msg:
         html( """<font color="red"><b>%s</b></font>""" % (msg,) )
@@ -264,11 +264,11 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
     Fplot  = points( [(xi,0),(xi,fi)], rgbcolor=(1,0,0) )
     if is_inf:
         xl = xi - 0.05*(xmax-xmin)
-        xr = xi   0.05*(xmax-xmin)
+        xr = xi + 0.05*(xmax-xmin)
         yl = yr = fi
     else:
         xl = min(xi,xip1) - 0.02*(xmax-xmin)
-        xr = max(xi,xip1)   0.02*(xmax-xmin)
+        xr = max(xi,xip1) + 0.02*(xmax-xmin)
         yl = -(xip1-xl)*fpi
         yr = (xr-xip1)*fpi
         Fplot  = points( [(xip1,0)], rgbcolor=(0,0,1) )       # new x value
