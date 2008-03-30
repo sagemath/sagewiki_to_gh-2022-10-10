@@ -117,6 +117,16 @@ sage: E([1,1,0])
 x0*x1
 }}}
 
+== Improved capabilities for solving matrix equations ==
+William Stein implemented code so that one can now solve matrix equations $AX = B$ and $XA=B$ whenever a solution exists.  In particular, solving linear equations now works even if $A$ is singular or nonsquare. 
+{{{
+sage: A = matrix(QQ,2,3, [1,2,3,2,4,6]); v = vector([-1/2,-1])
+sage: x = A \ v; x
+(-1/2, 0, 0)
+sage: A*x == v
+True
+}}}
+
 == Bugfixes/Upgrades (incomplete) ==
 
  * misc:
