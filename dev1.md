@@ -17,7 +17,7 @@ EUROPEAN:
  * Michael Abshoff (June 13-20) (I will probably work exclusively on the Microsoft Windows port, taking advantage of the physical access to the client and the other people from the porting team)
  * Martin Albrecht (June 12-21)
  * Burcin Erocal (June 13-20) -- exact linear algebra, cython
- * Ralph Peter Weinmann (June 13-20)
+ * Ralf-Philipp Weinmann (June 12-21)
  * Stephan Behnel -- cython (June 12-19)
 
 
