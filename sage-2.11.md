@@ -123,3 +123,22 @@ sage: %time _=f*f
 CPU times: user 0.22 s, sys: 0.00 s, total: 0.22 s
 Wall time: 0.22
 }}}
+
+== k-Schur Functions and Non-symmetric Macdonald Polynomials ==
+
+$k$-Schur functions $s_\lambda^{(k)}$ are a relatively new family of symmetric functions which play a role in $\mathbb{Z}[h_1, \ldots, h_k]$ as the Schur functions $s_\lambda$ do in $\Lambda$.  The $k$-Schur functions, amongst other things, provide a natural basis for the quantum cohomology of the Grassmannian.  The $k$-Schur functions can be used like any other symmetric functions and are created with kSchurFunctions.
+{{{#!python
+sage: ks3 = kSchurFunctions(QQ,3); ks3
+k-Schur Functions at level 3 over Univariate Polynomial Ring in t over Rational Field
+sage: s(ks3([3,2,1]))
+s[3, 2, 1] + t*s[4, 1, 1] + t*s[4, 2] + t^2*s[5, 1]
+}}}
+
+Non-symmetric Macdonald polynomials in type A can now be accessed in Sage.  The polynomials are computed from the main theorem in "A Combinatorial Formula for the Non-symmetric Macdonald Polynomials" by Haglun, Haiman, and Loehr. ( http://arxiv.org/abs/math.CO/0601693 )
+{{{#!python
+sage: from sage.combinat.sf.ns_macdonald import E
+sage: E([0,1,0])
+((-t + 1)/(-q*t^2 + 1))*x0 + x1
+sage: E([1,1,0])
+x0*x1
+}}}
