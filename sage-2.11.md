@@ -108,7 +108,7 @@ sage: s(ks3([3,2,1]))
 s[3, 2, 1] + t*s[4, 1, 1] + t*s[4, 2] + t^2*s[5, 1]
 }}}
 
-Non-symmetric Macdonald polynomials in type A can now be accessed in Sage.  The polynomials are computed from the main theorem in "A Combinatorial Formula for the Non-symmetric Macdonald Polynomials" by Haglun, Haiman, and Loehr. ( http://arxiv.org/abs/math.CO/0601693 )
+Non-symmetric Macdonald polynomials in type A can now be accessed in Sage.  The polynomials are computed from the main theorem in "A Combinatorial Formula for the Non-symmetric Macdonald Polynomials" by Haglund, Haiman, and Loehr. ( http://arxiv.org/abs/math.CO/0601693 )
 {{{#!python
 sage: from sage.combinat.sf.ns_macdonald import E
 sage: E([0,1,0])
