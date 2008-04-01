@@ -22,11 +22,11 @@ Done
  * interfaces
  * combinat
  * rings
+ * algebras
+ * monoids
 
 In progress
  * groups
- * algebras
- * monoids
 
 Little to do
 
