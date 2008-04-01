@@ -21,15 +21,12 @@ Done
  * probability
  * interfaces
  * combinat
+ * rings
 
 In progress
  * groups
  * algebras
  * monoids
- * rings
-  * padics
-  * polynomials
-  * other
 
 Little to do
 
