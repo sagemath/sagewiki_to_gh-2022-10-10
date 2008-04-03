@@ -4345,6 +4345,8 @@ seo-newline\.com\.cn
 hzhongtai\.cn
 ymiao\.cn
 runescape-items\.org
+gcadressen-db\.net
+
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
