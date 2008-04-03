@@ -6,6 +6,10 @@ MENTORS: William Stein (wstein@gmail.com) and Tom Boothby (boothby@u.washington.
 Magma, Maple, Mathematica, and Matlab.   Try the notebook [https://sagenb.org online right now]; also, come chat with us at #sage-devel on
 irc.freenode.net. 
 
+* See also: http://www.knoboo.com/ for ideas, possibilities for collaboration, etc.  That code is all GPL'd so we can easily share back and forth, etc. 
+
+* Also a student at Case Western has rewritten the security backend. 
+
 '''Requirements:''' This project requires Python and Javascript coding skills, and a solid understanding of AJAX programming. 
 
 The Sage notebook is an AJAX application similar to Google Documents that provides functionality for all mathematical software somewhat like Mathematica notebooks. 
