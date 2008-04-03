@@ -27,15 +27,14 @@ Done
 
 In progress
  * groups
+ * modular
+ * schemes
 
 Little to do
 
  * categories
  * crypto
 Lots to do
-
- * modular
- * schemes
 
 
 
