@@ -28,7 +28,7 @@ CANADIAN:
 AMERICAN:
 
  * Iftikhar Burhanuddin (June 13-20) -- || computation
- * Craig Citro (June 13-17) -- cython and exact linear algebra
+ * Craig Citro (June 13-20) -- cython and exact linear algebra
  * Nathan Dunfield (tentative; probably will attend)
  * Gary Furnish (June 13-20) -- cython
  * Dan Gindikin (pnylab.com; Princeton) -- cython
