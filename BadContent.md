@@ -4346,7 +4346,8 @@ hzhongtai\.cn
 ymiao\.cn
 runescape-items\.org
 gcadressen-db\.net
-
+bambwood\.com
+jt120\.org\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
