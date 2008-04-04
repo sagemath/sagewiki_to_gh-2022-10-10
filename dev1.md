@@ -30,7 +30,7 @@ AMERICAN:
  * Iftikhar Burhanuddin (June 13-20) -- || computation
  * Craig Citro (June 13-20) -- cython and exact linear algebra
  * Nathan Dunfield (tentative; probably will attend)
- * Gary Furnish (June 13-20) -- cython
+ * Gary Furnish (June 6-August) -- Windows port, Symbolics, Cython
  * Dan Gindikin (pnylab.com; Princeton) -- cython
  * Mike Hansen (June 13-20)
  * David Harvey (probably will not attend)
