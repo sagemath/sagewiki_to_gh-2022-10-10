@@ -444,7 +444,7 @@ attachment:svd1.png
 == Algebra ==
 
 === Groebner fan of an ideal ===
-by Marshall Hampton
+by Marshall Hampton; (needs sage-2.11 or higher, with gfan-0.3 interface)
 {{{
 @interact
 def gfan_browse(p1 = input_box('x^3+y^2',type = str, label='polynomial 1: '), p2 = input_box('y^3+z^2',type = str, label='polynomial 2: '), p3 = input_box('z^3+x^2',type = str, label='polynomial 3: ')):
