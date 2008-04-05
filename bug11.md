@@ -22,6 +22,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 
 = Participants (with area they would like to work on) =
  1. Michael Abshoff (memory leaks, ports, merging patches)
+ 1. Martin Albrecht (Singular 3-0-4-2, PolyBoRi, ginv, M4RI)
 
 Many other people will hopefully participate, but didn't yet add themselves here due to the rather tight schedule.
 
