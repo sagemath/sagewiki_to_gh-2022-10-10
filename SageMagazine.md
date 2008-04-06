@@ -1,6 +1,6 @@
 ## page was renamed from SageJournal
 = Sage Magazine - - - P R O P O S A L - - - =
-'''Sage Journal''' is a periodic and numbered publication about Sage. It is published monthly or every two month, depending on the number of submissions in the style of a regular journal - but less "formal". Therefore it is something in between of blog entries and scientific publications. It will feature articles about Sage and explains major changes in Sage since the last issue.
+The '''Sage Magazine''' is a periodic and numbered publication about Sage. It is published monthly or every two month, depending on the number of submissions in the style of a regular journal - but less "formal". Therefore it is something in between of blog entries and scientific publications. It will feature articles about Sage and explains major changes in Sage since the last issue.
 
 Maybe there should be a connection with JSAGE -- http://sagemath.org/jsage/
 
@@ -17,14 +17,14 @@ Maybe there should be a connection with JSAGE -- http://sagemath.org/jsage/
 == Topics ==
 '''list of possible topics''' an issue could/should cover.
 
-remember that this journal will still be available years after publishing. therefore it should be "timeless".
+remember that this magazine will still be available years after publishing. therefore it should be "timeless".
 
  * ''Usage Cases/Examples'': This is probably the biggest topic. It should feature a specific functionality of Sage or emphasize on a specific topic and explain how it could be realized using Sage. This includes:
   * explanation of problem/field/topic
   * Sage code: what has to be typed in to accomplish the task, explain it so that a new user, familiar to math software, understands it, too. (implicitly explain how to use Sage, but never reference other software packages like: "task XY is done in M* with this command - this is now done with that command.")
   * Screenshots, Graphics
- * ''New Feature'': It should present new functions and enhancements. Since this Journal started long after Sage started to exist, it could also be about "older" features, but they should be somewhat special to Sage. They should also be already implemented and tested, ready to use for a broader audience. It should not include future features or things in active development (this is something for the discussion group/IRC)
- * ''Changes'': new and different since last volume of this journal
+ * ''New Feature'': It should present new functions and enhancements. Since this magazine started long after Sage started to exist, it could also be about "older" features, but they should be somewhat special to Sage. They should also be already implemented and tested, ready to use for a broader audience. It should not include future features or things in active development (this is something for the discussion group/IRC)
+ * ''Changes'': new and different since last volume of this magazine
   * until now, task XY was done this way, but we decided to do it now that way.
   * there is a new feature called XY, it does this.
   * just very short in the style of release notes.
@@ -52,7 +52,7 @@ Issues are numbered by the <year>-<month> of their release. Maybe every two mont
 === Volume 2008-0x ===
 possible topics:
 
- * introduction to the journal
+ * introduction to the magazine
  * general outline about Sage, history, philosophy (why is it important to disclose the algorithms), mission, python, future
  * introduction to using sage: how to setup (or just reference install manual, but explain that it is a server with a notebook interface, e.g. nonstandard), modes of usage (notebook, CLI, script), first steps
  * new features: interact
@@ -77,21 +77,21 @@ as mentioned on the first page of this wiki: contributions are licensed under th
 possible style to cite an article
 
 {{{
-@ARTICLE{SageJournal:Author:ID,
+@ARTICLE{SageMagazine:Author:ID,
   author = {Name of Author},
   title = {Title of Article},
-  journal = {Sage Jornal},
+  journal = {Sage Magazine},
   year = xxxx,
   volume = x,
   number = x,
   pages = {xx--xx},
   month = {xxxxx},
-  url = {http://sagemath.org/journal/},
-  pdf = {http://sagemath.org/journal/Sage-Journal-200x-xx.pdf}
+  url = {http://sagemath.org/magazine/},
+  pdf = {http://sagemath.org/magazine/Sage-Journal-200x-xx.pdf}
 }
 }}}
 == Prerequisites / TODO ==
- * SageJournal.sty latex stylefile: twocolumn, title, TOC, editorial notice, articles are included as separate TeX files, they should have a title (spans over both columns), subtitle, author and automatic formatting.
+ * SageMagazine.sty latex stylefile: twocolumn, title, TOC, editorial notice, articles are included as separate TeX files, they should have a title (spans over both columns), subtitle, author and automatic formatting.
  * [http://www.loc.gov/issn/e-serials.html ISSN number]
  * website listing all volumes, links to pdf's, (plus erratum), general explanation, explanation who is behind, explanation how to submit articles
 == Organization ==
@@ -102,7 +102,7 @@ Before releasing the first volume, we need:
  * layout, development of stylefile
   * stylefile to cover everything
   * example article, to show how to typeset title, author, subtitle, included graphics, source code (latex listing package, references to line numbers, ...) and including links (clickable pdf links)
- * infrastructure - managing submissions, reviews, errors ... and after a release, a sage-trac component "journal" where someone could post an error, correct it, and post an erratum (published pdf is updated + a note on the website)
+ * infrastructure - managing submissions, reviews, errors ... and after a release, a sage-trac component "magazine" where someone could post an error, correct it, and post an erratum (published pdf is updated + a note on the website)
  * possible workflow:
   1. tell editor about your article idea: topic/short introduction, via email, editor sends feedback that he got it.
   1. editor says yes or no, avoid duplications (tell each other to be co-authors), maybe discussion on IRC
