@@ -1,3 +1,4 @@
+## page was renamed from SageJournal
 = Sage Magazine - - - P R O P O S A L - - - =
 '''Sage Journal''' is a periodic and numbered publication about Sage. It is published monthly or every two month, depending on the number of submissions in the style of a regular journal - but less "formal". Therefore it is something in between of blog entries and scientific publications. It will feature articles about Sage and explains major changes in Sage since the last issue.
 
@@ -115,6 +116,7 @@ Before releasing the first volume, we need:
 == Links ==
  * this reminds me a bit of Haskell's [http://www.haskell.org/haskellwiki/The_Monad.Reader The Monad Reader]. --DanDrake
  * similar project is R's Newsletter [http://www.r-project.org/doc/Rnews/index.html R News]
+ * Blender Art Magazine for the open source 3D software: [http://www.blenderart.org/ BlenderArt Magazine]
 
 == Comments ==
 write here general comments or edit errors above ...
