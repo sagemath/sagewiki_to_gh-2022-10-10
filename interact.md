@@ -594,7 +594,10 @@ def diffie_hellman(button=selector(["New example"],label='',buttons=True),
     maxp = 2^bits
     p = random_prime(maxp)
     k = GF(p)
-    g = k.multiplicative_generator()
+    if bits>100:
+        g = k(2)
+    else:
+        g = k.multiplicative_generator()
     a = ZZ.random_element(10, maxp)
     b = ZZ.random_element(10, maxp)
 
