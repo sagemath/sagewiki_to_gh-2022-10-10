@@ -685,6 +685,27 @@ def mauna_loa_co2(start_date = slider(1958,2010,1,1958), end_date = slider(1958,
 }}}
 attachment:mauna_loa_co2.png
 
+=== Pie Chart from the Google Chart API ===
+by Harald Schilly
+
+{{{
+# Google Chart API: http://code.google.com/apis/chart
+import urllib2 as inet
+from pylab import imshow
+@interact
+def gChart(title="Google Chart API plots Pie Charts!", color1=Color('purple'), color2=Color('black'), color3=Color('yellow'), val1=slider(0,1,.05,.5), val2=slider(0,1,.05,.3), val3=slider(0,1,.05,0.1), label=("Maths Physics Chemistry")):
+    url = "http://chart.apis.google.com/chart?cht=p3&chs=600x300"
+    url += '&chtt=%s&chts=000000,25'%title.replace(" ","+")
+    url += '&chco=%s'%(','.join([color1.html_color()[1:],color2.html_color()[1:],color3.html_color()[1:]]))
+    url += '&chl=%s'%label.replace(" ","|")
+    url += '&chd=t:%s'%(','.join(map(str,[val1,val2,val3])))
+    print url
+    html('<div style="border:3px dashed;text-align:center;padding:50px 0 50px 0"><img src="%s"></div>'%url)
+}}}
+attachment:interact_with_google_chart_api.png
+
+
+
 == Bioinformatics ==
 
 === Web app: protein browser ===
