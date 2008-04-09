@@ -441,6 +441,24 @@ def svd_vis(a11=slider(-1,1,.05,1),a12=slider(-1,1,.05,1),a21=slider(-1,1,.05,0)
 }}}
 attachment:svd1.png
 
+=== Discrete Fourier Transform ===
+by Marshall Hampton
+{{{
+import scipy.fftpack as Fourier
+@interact
+def discrete_fourier(f = input_box(default=sum([sin(k*x) for k in range(1,5,2)])), scale = slider(.1,20,.1,5)):
+    var('x')
+    pbegin = -float(pi)*scale
+    pend = float(pi)*scale
+    html("<h3>Function plot and its discrete Fourier transform</h3>")
+    show(plot(f, pbegin, pend, plot_points = 512), figsize = [4,3])
+    f_vals = [f(ind) for ind in srange(pbegin, pend,(pend-pbegin)/512.0)]
+    my_fft = Fourier.fft(f_vals)
+    show(list_plot([abs(x) for x in my_fft], plotjoined=True), figsize = [4,3])
+}}}
+attachment:dfft1.png
+
+
 == Algebra ==
 
 === Groebner fan of an ideal ===
