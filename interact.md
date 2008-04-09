@@ -659,6 +659,32 @@ def _(p=slider(prime_range(1000), default=389)):
 
 attachment:ellffplot.png
 
+== Web applications ==
+
+=== CO2 data plot, fetched from NOAA ===
+by Marshall Hampton
+{{{
+import urllib2 as U
+@interact
+def mauna_loa_co2(start_date = slider(1958,2010,1,1958), end_date = slider(1958, 2010,1,2009), Update = selector(['Update'], buttons=True, label = '')):
+    co2data = U.urlopen('ftp://ftp.cmdl.noaa.gov/ccg/co2/trends/co2_mm_mlo.txt').readlines()
+    datalines = []
+    for a_line in co2data:
+        if a_line.find('Creation:') != -1:
+            cdate = a_line
+        if a_line[0] != '#':
+            temp = a_line.replace('\n','').split(' ')
+            temp = [float(q) for q in temp if q != '']
+            datalines.append(temp)
+    html('<h3>CO2 monthly averages at Mauna Loa (interpolated), from NOAA/ESRL data</h3>')
+    html('<h4>'+cdate+'</h4>')
+    sel_data = [[q[2],q[4]] for q in datalines if start_date < q[2] < end_date]
+    c_max = max([q[1] for q in sel_data])
+    c_min = min([q[1] for q in sel_data])
+    show(list_plot([[q[2],q[4]] for q in datalines], plotjoined=True, rgbcolor=(1,0,0)), xmin = start_date, ymin = c_min-2, axes = True, xmax = end_date, ymax = c_max+3, frame = False)
+}}}
+attachment:mauna_loa_co2.png
+
 == Bioinformatics ==
 
 === Web app: protein browser ===
