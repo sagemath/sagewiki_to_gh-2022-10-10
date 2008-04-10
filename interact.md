@@ -286,6 +286,49 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
 attachment:newtraph.png
 
 
+=== Coordinate Transformations ===
+by Jason Grout
+
+{{{
+var('u v')
+from sage.ext.fast_eval import fast_float
+@interact
+def trans(x=input_box(u^2-v^2, label="x=",type=SR), \
+    y=input_box(u*v, label="y=",type=SR), \
+    t_val=slider(0,10,0.2,6, label="Length of curves"), \
+    u_percent=slider(0,1,0.05,label="<font color='red'>u</font>", default=.7),
+    v_percent=slider(0,1,0.05,label="<font color='blue'>v</font>", default=.7),
+    u_range=input_box(range(-5,5,1), label="u lines"),
+    v_range=input_box(range(-5,5,1), label="v lines")):
+    thickness=4
+    u_val = min(u_range)+(max(u_range)-min(u_range))*u_percent
+    v_val = min(v_range)+(max(v_range)-min(v_range))*v_percent
+    t_min = -t_val
+    t_max = t_val
+
+    g1=sum([parametric_plot((SR(u.subs(u=i))._fast_float_('v'),v.subs(u=i)._fast_float_('v')), t_min,t_max, rgbcolor=(1,0,0)) for i in u_range])
+    g2=sum([parametric_plot((u.subs(v=i)._fast_float_('u'),SR(v.subs(v=i))._fast_float_('u')), t_min,t_max, rgbcolor=(0,0,1)) for i in v_range])
+    vline_straight=parametric_plot((SR(u.subs(v=v_val))._fast_float_('u'),SR(v.subs(v=v_val))._fast_float_('u')), t_min,t_max, rgbcolor=(0,0,1), linestyle='-',thickness=thickness)
+    uline_straight=parametric_plot((SR(u.subs(u=u_val))._fast_float_('v'),SR(v.subs(u=u_val))._fast_float_('v')), t_min,t_max,rgbcolor=(1,0,0), linestyle='-',thickness=thickness)
+
+    (g1+g2+vline_straight+uline_straight).save("uv_coord.png",aspect_ratio=1, figsize=[5,5], axes_labels=['$u$','$v$'])
+
+
+    g3=sum([parametric_plot((x.subs(u=i)._fast_float_('v'),y.subs(u=i)._fast_float_('v')),  t_min,t_max, rgbcolor=(1,0,0)) for i in u_range])
+    g4=sum([parametric_plot((x.subs(v=i)._fast_float_('u'),y.subs(v=i)._fast_float_('u')),  t_min,t_max, rgbcolor=(0,0,1)) for i in v_range])
+    vline=parametric_plot((SR(x.subs(v=v_val))._fast_float_('u'),SR(y.subs(v=v_val))._fast_float_('u')),  t_min,t_max, rgbcolor=(0,0,1), linestyle='-',thickness=thickness)
+    uline=parametric_plot((SR(x.subs(u=u_val))._fast_float_('v'),SR(y.subs(u=u_val))._fast_float_('v')),  t_min,t_max,rgbcolor=(1,0,0), linestyle='-',thickness=thickness)
+    (g3+g4+vline+uline).save("xy_coord.png", aspect_ratio=1, figsize=[5,5], axes_labels=['$x$','$y$'])
+
+
+    print jsmath("x=%s, \: y=%s"%(latex(x), latex(y)))
+    print "<html><table><tr><td><img src='cell://uv_coord.png'/></td><td><img src='cell://xy_coord.png'/></td></tr></table></html>"
+}}}
+
+attachment: coordinate-transform-1.png
+attachment: coordinate-transform-2.png
+
+
 == Differential Equations ==
 
 === Euler's Method in one variable ===
