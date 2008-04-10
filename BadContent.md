@@ -4348,6 +4348,12 @@ runescape-items\.org
 gcadressen-db\.net
 bambwood\.com
 jt120\.org\.cn
+thelodger\.net
+osceolanaacp\.org
+chattababy\.com
+touslescommerces\.net
+thepoliticalwasteland\.com
+moshergallery\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
