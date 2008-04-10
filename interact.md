@@ -325,8 +325,8 @@ def trans(x=input_box(u^2-v^2, label="x=",type=SR), \
     print "<html><table><tr><td><img src='cell://uv_coord.png'/></td><td><img src='cell://xy_coord.png'/></td></tr></table></html>"
 }}}
 
-attachment: coordinate-transform-1.png
-attachment: coordinate-transform-2.png
+attachment:coordinate-transform-1.png
+attachment:coordinate-transform-2.png
 
 
 == Differential Equations ==
