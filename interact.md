@@ -13,7 +13,8 @@ We'll likely restructure and reorganize this once we have some nontrivial conten
 html('<h2>Profile the given input</h2>')
 import cProfile; import profile
 @interact
-def _(cmd = ("Statement", '2 + 2'), do_preparse=("Preparse?", True), cprof =("cProfile?", False)):
+def _(cmd = ("Statement", '2 + 2'), 
+      do_preparse=("Preparse?", True), cprof =("cProfile?", False)):
     if do_preparse: cmd = preparse(cmd)
     print "<html>"  # trick to avoid word wrap
     if cprof:
