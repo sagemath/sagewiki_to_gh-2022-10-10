@@ -1,4 +1,4 @@
-= SAGE DAYS 9:  Sage and Graphics =
+= SAGE DAYS 9:  Sage and Graphics (an ACCELERATE BC Graduate training event) =
 
 Application DEADLINE: April 15, 2008
 
