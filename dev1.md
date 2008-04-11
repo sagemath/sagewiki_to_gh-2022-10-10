@@ -27,6 +27,7 @@ CANADIAN:
 
 AMERICAN:
 
+ * Gregory Bard (June 13-20) -- GF(2) LUP.
  * Iftikhar Burhanuddin (June 13-20) -- || computation
  * Craig Citro (June 13-20) -- cython and exact linear algebra
  * Nathan Dunfield (tentative; probably will attend)
