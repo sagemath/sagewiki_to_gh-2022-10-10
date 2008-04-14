@@ -25,6 +25,7 @@ Done
  * algebras
  * monoids
  * schemes (modulo some dependance on Groups)
+ * crypto
 
 In progress
  * groups
@@ -33,7 +34,6 @@ In progress
 Little to do
 
  * categories
- * crypto
 Lots to do
 
 
