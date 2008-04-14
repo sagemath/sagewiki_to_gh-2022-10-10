@@ -24,11 +24,11 @@ Done
  * rings
  * algebras
  * monoids
+ * schemes (modulo some dependance on Groups)
 
 In progress
  * groups
  * modular
- * schemes
 
 Little to do
 
