@@ -426,6 +426,54 @@ def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x),
 }}}
 attachment:euler.png
 
+=== Vector Field with Runga-Kutta-Fehlberg ===
+{{{
+# Solve ODEs using sophisticated Methods like Runga-Kutta-Fehlberg
+# by Harald Schilly, April 2008
+# (jacobian doesn't work, please help ...)
+var('x y')
+@interact
+def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=input_box(default=x^3-x+1/100*exp(y*x^2+x*y^2)-0.7*x), 
+      xmin=input_box(default=-1), xmax=input_box(default=1.8), 
+      ymin=input_box(default=-1.3), ymax=input_box(default=1.5), 
+      x_start=(-1,(-2,2)), y_start=(0,(-2,2)), error=(0.5,(0,1)), 
+      t_length=(23,(0, 100)) , num_of_points = (1500,(5,2000)),
+      algorithm = selector([
+         ("rkf45" , "runga-kutta-felhberg (4,5)"),
+         ("rk2" , "embedded runga-kutta (2,3)"),
+         ("rk4" , "4th order classical runga-kutta"),
+         ("rk8pd" , 'runga-kutta prince-dormand (8,9)'),
+         ("rk2imp" , "implicit 2nd order runga-kutta at gaussian points"),
+         ("rk4imp" , "implicit 4th order runga-kutta at gaussian points"),
+         ("bsimp" , "implicit burlisch-stoer (requires jacobian)"),
+         ("gear1" , "M=1 implicit gear"),
+         ("gear2" , "M=2 implicit gear")
+      ])):
+    f(x,y)=fin
+    g(x,y)=gin    
+    
+    ff = f._fast_float_(*f.args())
+    gg = g._fast_float_(*g.args())
+    
+    #solve
+    path = []      
+    err = error
+    xerr = 0
+    for yerr in [-err, 0, +err]:
+      T=ode_solver()
+      T.algorithm=algorithm
+      T.function = lambda t, yp: [ff(yp[0],yp[1]), gg(yp[0],yp[1])]  
+      T.jacobian = lambda t, yp: [[diff(fun,dval)(yp[0],yp[1]) for dval in [x,y]] for fun in [f,g]]
+      T.ode_solve(y_0=[x_start + xerr, y_start + yerr],t_span=[0,t_length],num_points=num_of_points)
+      path.append(line([p[1] for p in T.solution]))
+
+    #plot
+    vector_field = plot_vector_field( (f,g), (x,xmin,xmax), (y,ymin,ymax) )
+    starting_point = point([x_start, y_start], pointsize=50)
+    show(vector_field + starting_point + sum(path), aspect_ratio=1, figsize=[8,9])
+}}}
+attachment:ode_runga_kutta.png
+
 == Linear Algebra ==
 
 === Numerical instability of the classical Gram-Schmidt algorithm ===
