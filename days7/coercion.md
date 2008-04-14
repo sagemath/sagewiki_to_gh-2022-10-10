@@ -1,4 +1,13 @@
-Goal: Sage 3.1 or 3.2. 
+Timeline: 
+
+ * Finish Groups
+ * Work on getting all doctests passing
+ * [Sage 3.0]
+ * All doctests pass, major regression testing. 
+ * Merge with 3.0.x
+ * [Sage 3.1 release]
+ * Merge with 3.1, fix any bugs in coding sprint
+ * [Sage 3.1.x or 3.2 release with new coercion (and possibly critical bug fixes, but nothing else)
 
 [:days7/coercion/todo: To Do]
 
