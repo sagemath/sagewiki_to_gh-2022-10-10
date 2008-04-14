@@ -390,11 +390,15 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
 attachment:eulermethod.png
 
 === Vector Fields and Euler's Method ===
-by Mike Hansen
+by Mike Hansen (tested and updated by William Stein)
 {{{
 x,y = var('x,y')
 @interact
-def _(f = input_box(default=x), g=input_box(default=y), xmin=input_box(default=-1), xmax=input_box(default=1), ymin=input_box(default=-1), ymax=input_box(default=1), start_x=input_box(default=0), start_y=input_box(default=0),  step_size=(0.01,(0.001, 0.2)), steps=(200,(0, 1000)) ):
+def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x), 
+      xmin=input_box(default=-1), xmax=input_box(default=1), 
+      ymin=input_box(default=-1), ymax=input_box(default=1), 
+      start_x=input_box(default=0.5), start_y=input_box(default=0.5),  
+      step_size=(0.01,(0.001, 0.2)), steps=(600,(0, 1400)) ):
     old_f = f
     f = f.function(x,y)
     old_g = g
@@ -409,7 +413,7 @@ def _(f = input_box(default=x), g=input_box(default=y), xmin=input_box(default=-
         except (ValueError, ArithmeticError, TypeError):
             break
 
-    starting_point = point(points[0])
+    starting_point = point(points[0], pointsize=50)
     solution = line(points)
     vector_field = plot_vector_field( (f,g), (x,xmin,xmax), (y,ymin,ymax) )
 
