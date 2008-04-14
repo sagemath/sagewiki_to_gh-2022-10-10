@@ -390,10 +390,11 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
 attachment:eulermethod.png
 
 === Vector Fields and Euler's Method ===
+by Mike Hansen
 {{{
+x,y = var('x,y')    
 @interact
-def test(f = input_box(default=x), g=input_box(default=y), xmin=input_box(default=-1), xmax=input_box(default=1), ymin=input_box(default=-1), ymax=input_box(default=1), start_x=input_box(default=0), start_y=input_box(default=0),  step_size=(0.01,(0.001, 0.2)), steps=(200,(0, 1000)) ):
-    x,y = var('x,y')    
+def _(f = input_box(default=x), g=input_box(default=y), xmin=input_box(default=-1), xmax=input_box(default=1), ymin=input_box(default=-1), ymax=input_box(default=1), start_x=input_box(default=0), start_y=input_box(default=0),  step_size=(0.01,(0.001, 0.2)), steps=(200,(0, 1000)) ):
     old_f = f
     f = f.function(x,y)
     old_g = g
