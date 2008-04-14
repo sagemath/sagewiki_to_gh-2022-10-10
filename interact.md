@@ -346,7 +346,6 @@ def trans(x=input_box(u^2-v^2, label="x=",type=SR), \
 attachment:coordinate-transform-1.png
 attachment:coordinate-transform-2.png
 
-
 == Differential Equations ==
 
 === Euler's Method in one variable ===
@@ -389,6 +388,35 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
     html(tab_list([[i,xvals[i],sol[i]] for i in table_range], headers = ['step','x','y']))
 }}}
 attachment:eulermethod.png
+
+=== Vector Fields and Euler's Method ===
+{{{
+@interact
+def test(f = input_box(default=x), g=input_box(default=y), xmin=input_box(default=-1), xmax=input_box(default=1), ymin=input_box(default=-1), ymax=input_box(default=1), start_x=input_box(default=0), start_y=input_box(default=0),  step_size=(0.01,(0.001, 0.2)), steps=(200,(0, 1000)) ):
+    x,y = var('x,y')    
+    old_f = f
+    f = f.function(x,y)
+    old_g = g
+    g = g.function(x,y)
+    steps = int(steps)
+
+    points = [ (start_x, start_y) ]
+    for i in range(steps):
+        xx, yy = points[-1]
+        points.append( (xx+step_size*f(xx,yy), yy+step_size*g(xx,yy)) )
+
+    starting_point = point(points[0])
+    solution = line(points)
+    vector_field = plot_vector_field( (f,g), (x,xmin,xmax), (y,ymin,ymax) )
+
+    result = vector_field + starting_point + solution
+    
+    html(r"<h2>$ \frac{dx}{dt} = %s$  $ \frac{dy}{dt} = %s$</h2>"%(latex(old_f),latex(old_g)))
+    print "Step size: %s"%step_size
+    print "Steps: %s"%steps
+    result.show(xmin=xmin,xmax=xmax,ymin=ymin,ymax=ymax)
+}}}
+attachment:euler.png
 
 == Linear Algebra ==
 
