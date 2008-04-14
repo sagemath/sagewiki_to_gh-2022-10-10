@@ -392,7 +392,7 @@ attachment:eulermethod.png
 === Vector Fields and Euler's Method ===
 by Mike Hansen
 {{{
-x,y = var('x,y')    
+x,y = var('x,y')
 @interact
 def _(f = input_box(default=x), g=input_box(default=y), xmin=input_box(default=-1), xmax=input_box(default=1), ymin=input_box(default=-1), ymax=input_box(default=1), start_x=input_box(default=0), start_y=input_box(default=0),  step_size=(0.01,(0.001, 0.2)), steps=(200,(0, 1000)) ):
     old_f = f
@@ -404,7 +404,10 @@ def _(f = input_box(default=x), g=input_box(default=y), xmin=input_box(default=-
     points = [ (start_x, start_y) ]
     for i in range(steps):
         xx, yy = points[-1]
-        points.append( (xx+step_size*f(xx,yy), yy+step_size*g(xx,yy)) )
+        try:
+            points.append( (xx+step_size*f(xx,yy), yy+step_size*g(xx,yy)) )
+        except (ValueError, ArithmeticError, TypeError):
+            break
 
     starting_point = point(points[0])
     solution = line(points)
