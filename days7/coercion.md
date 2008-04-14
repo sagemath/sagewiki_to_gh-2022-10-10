@@ -1,3 +1,5 @@
+Goal: Sage 3.1 or 3.2. 
+
 [:days7/coercion/todo: To Do]
 
 The official ticket for this is at http://trac.sagemath.org/sage_trac/ticket/2314
