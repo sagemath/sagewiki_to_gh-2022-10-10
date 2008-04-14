@@ -3,7 +3,7 @@
 Done
 
 In progress
- * Integers
+ * Integers, Rationals
 
 Todo
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical,gsl, quadratic_forms
