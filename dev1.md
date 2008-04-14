@@ -39,6 +39,7 @@ AMERICAN:
 
 LOCAL:
 
+ * Rob Beezer (from Univ of Puget Sound) -- will give an '''education-oriented''' colloquium talk on his free open source linear algebra book
  * Tom Boothby (June 13-20)
  * Robert Bradshaw
  * Josh Kantor
