@@ -427,6 +427,7 @@ def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x),
 attachment:euler.png
 
 === Vector Field with Runga-Kutta-Fehlberg ===
+by Harald Schilly
 {{{
 # Solve ODEs using sophisticated Methods like Runga-Kutta-Fehlberg
 # by Harald Schilly, April 2008
