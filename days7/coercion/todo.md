@@ -1,3 +1,37 @@
+=== Doctests ===
+
+Done
+
+In progress
+
+Todo
+ * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical,gsl, quadratic_forms
+ * coding, functions, graphs
+ * matrix
+ * complex, real
+ * modules
+ * quotient rings
+ * finite fields
+ * calculus
+ * number fields
+ * sets
+ * geometry
+ * libs
+ * probability
+ * interfaces
+ * combinat
+ * rings
+ * algebras
+ * monoids
+ * schemes
+ * crypto
+
+ * groups
+ * modular
+ * categories
+
+
+
 === Files to fix (Make all parents conform to the spec) ===
 
 Useful script to list all parents in a given module that still need work: [attachment:list_parents.sage]
@@ -34,6 +68,7 @@ In progress
 Little to do
 
  * categories
+
 Lots to do
 
 
