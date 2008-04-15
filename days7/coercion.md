@@ -13,6 +13,8 @@ Timeline:
 
 The official ticket for this is at http://trac.sagemath.org/sage_trac/ticket/2314
 
+There is a public repository up at http://cython.org/coercion/hgwebdir.cgi/sage-coerce/ (based on Sage 2.10.1, which you can get [http://sagemath.org/dist/src/sage-2.10.1.tar here].
+
 Our goal: to clarify and ease the process of writing a new ring/combinatorial class/special kind of matrix while adding mathematical structure and lessening the need for code duplication.
 
 Here's the minimum you would need to write for a new kind of ring (eg pAdicRingLazy):
