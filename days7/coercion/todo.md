@@ -6,7 +6,7 @@ In progress
  * Integers, Rationals
 
 Todo
- * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical,gsl, quadratic_forms
+ * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical, gsl, quadratic_forms
  * coding, functions, graphs
  * matrix
  * complex, real
