@@ -4360,6 +4360,8 @@ fwmqvmirgxya\.com
 mcxnlhviuojw\.com
 ogeworld\.com
 db-adressen\.(info|net)
+bathroomremodeling\.buzznet\.com
+chanelhandbag\.blog\.hr
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
