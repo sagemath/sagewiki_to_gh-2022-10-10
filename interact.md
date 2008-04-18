@@ -954,11 +954,11 @@ def mauna_loa_co2(start_date = slider(1958,2010,1,1958), end_date = slider(1958,
     c_max = max([q[1] for q in sel_data])
     c_min = min([q[1] for q in sel_data])
     slope, intercept, r, ttprob, stderr = Stat.linregress(sel_data)
-    html(htmls1+htmls2+'<h4>Linear regression slope: ' + str(trdf(slope)) + ' ppm/year </h4>')
+    html(htmls1+htmls2+'<h4>Linear regression slope: ' + str(trdf(slope)) + ' ppm/year; correlation coefficient: ' + str(trdf(r)) + '</h4>')
     var('x,y')
     show(list_plot(sel_data, plotjoined=True, rgbcolor=(1,0,0)) + plot(slope*x+intercept,start_date,end_date), xmin = start_date, ymin = c_min-2, axes = True, xmax = end_date, ymax = c_max+3, frame = False)
 }}}
-attachment:co2b.png
+attachment:co2c.png
 
 === Pie Chart from the Google Chart API ===
 by Harald Schilly
