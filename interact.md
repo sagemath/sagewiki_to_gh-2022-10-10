@@ -931,27 +931,33 @@ attachment:stocks.png
 
 === CO2 data plot, fetched from NOAA ===
 by Marshall Hampton
+While support for R is rapidly improving, scipy.stats has a lot of useful stuff too.  This only scratches the surface.
 {{{
 import urllib2 as U
+import scipy.stats as Stat
+co2data = U.urlopen('ftp://ftp.cmdl.noaa.gov/ccg/co2/trends/co2_mm_mlo.txt').readlines()
+datalines = []
+for a_line in co2data:
+    if a_line.find('Creation:') != -1:
+        cdate = a_line
+    if a_line[0] != '#':
+        temp = a_line.replace('\n','').split(' ')
+        temp = [float(q) for q in temp if q != '']
+        datalines.append(temp)
+trdf = RealField(16)
 @interact
-def mauna_loa_co2(start_date = slider(1958,2010,1,1958), end_date = slider(1958, 2010,1,2009), Update = selector(['Update'], buttons=True, label = '')):
-    co2data = U.urlopen('ftp://ftp.cmdl.noaa.gov/ccg/co2/trends/co2_mm_mlo.txt').readlines()
-    datalines = []
-    for a_line in co2data:
-        if a_line.find('Creation:') != -1:
-            cdate = a_line
-        if a_line[0] != '#':
-            temp = a_line.replace('\n','').split(' ')
-            temp = [float(q) for q in temp if q != '']
-            datalines.append(temp)
-    html('<h3>CO2 monthly averages at Mauna Loa (interpolated), from NOAA/ESRL data</h3>')
-    html('<h4>'+cdate+'</h4>')
+def mauna_loa_co2(start_date = slider(1958,2010,1,1958), end_date = slider(1958, 2010,1,2009)):
+    htmls1 = '<h3>CO2 monthly averages at Mauna Loa (interpolated), from NOAA/ESRL data</h3>'
+    htmls2 = '<h4>'+cdate+'</h4>'
     sel_data = [[q[2],q[4]] for q in datalines if start_date < q[2] < end_date]
     c_max = max([q[1] for q in sel_data])
     c_min = min([q[1] for q in sel_data])
-    show(list_plot([[q[2],q[4]] for q in datalines], plotjoined=True, rgbcolor=(1,0,0)), xmin = start_date, ymin = c_min-2, axes = True, xmax = end_date, ymax = c_max+3, frame = False)
+    slope, intercept, r, ttprob, stderr = Stat.linregress(sel_data)
+    html(htmls1+htmls2+'<h4>Linear regression slope: ' + str(trdf(slope)) + ' ppm/year </h4>')
+    var('x,y')
+    show(list_plot(sel_data, plotjoined=True, rgbcolor=(1,0,0)) + plot(slope*x+intercept,start_date,end_date), xmin = start_date, ymin = c_min-2, axes = True, xmax = end_date, ymax = c_max+3, frame = False)
 }}}
-attachment:mauna_loa_co2.png
+attachment:co2b.png
 
 === Pie Chart from the Google Chart API ===
 by Harald Schilly
