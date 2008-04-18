@@ -931,6 +931,7 @@ attachment:stocks.png
 
 === CO2 data plot, fetched from NOAA ===
 by Marshall Hampton
+
 While support for R is rapidly improving, scipy.stats has a lot of useful stuff too.  This only scratches the surface.
 {{{
 import urllib2 as U
