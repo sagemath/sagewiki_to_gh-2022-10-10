@@ -659,6 +659,55 @@ def gfan_browse(p1 = input_box('x^3+y^2',type = str, label='polynomial 1: '), p2
 attachment:gfan_interact.png
 == Number Theory ==
 
+=== Factor Trees ===
+by William Stein
+{{{
+import random
+def ftree(rows, v, i, F):
+    if len(v) > 0: # add a row to g at the ith level.
+        rows.append(v)
+    w = []
+    for i in range(len(v)):
+        k, _, _ = v[i]
+        if k is None or is_prime(k):
+            w.append((None,None,None))
+        else:
+            d = random.choice(divisors(k)[1:-1])
+            w.append((d,k,i))
+            e = k//d
+            if e == 1:
+                w.append((None,None))
+            else:
+                w.append((e,k,i))
+    if len(w) > len(v):
+        ftree(rows, w, i+1, F)
+def draw_ftree(rows,font):
+    g = Graphics()
+    for i in range(len(rows)):
+        cur = rows[i]
+        for j in range(len(cur)):
+            e, f, k = cur[j]
+            if not e is None:
+                if is_prime(e):
+                     c = (1,0,0)
+                else:
+                     c = (0,0,.4)
+                g += text(str(e), (j*2-len(cur),-i), fontsize=font, rgbcolor=c)
+                if not k is None and not f is None:
+                    g += line([(j*2-len(cur),-i), ((k*2)-len(rows[i-1]),-i+1)], 
+                    alpha=0.5)
+    return g
+
+@interact
+def factor_tree(n=100, font=(10, (8..20)), redraw=['Redraw']):
+    n = Integer(n)
+    rows = []
+    v = [(n,None,0)]
+    ftree(rows, v, 0, factor(n))
+    show(draw_ftree(rows, font), axes=False)
+}}}
+attachment:factortree.png
+
 === Continued Fraction Plotter ===
 by William Stein
 {{{
