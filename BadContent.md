@@ -4362,6 +4362,22 @@ ogeworld\.com
 db-adressen\.(info|net)
 bathroomremodeling\.buzznet\.com
 chanelhandbag\.blog\.hr
+chinausbflashdrives\.com
+xyenglish\.com
+xingbingchina\.com
+fuworld\.com
+bjhongda2008\.com
+nowaction\.net
+qmyyw\.com
+yuanqiaowenhua\.com
+bjjh2000\.com
+lawfirst\.com\.cn
+a-polo\.cn
+librich\.com
+kicksarea\.com
+hybenet\.net
+yuanqiaowenhua\.com
+buy-runescape-money-gold\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
