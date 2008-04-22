@@ -2,9 +2,10 @@
 
 Done
 
+ * Integers, Rationals
+
 In progress
 
- * Integers, Rationals
  * complex, real
 
 Todo
