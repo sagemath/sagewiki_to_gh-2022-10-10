@@ -4367,6 +4367,9 @@ hybenet\.net
 yuanqiaowenhua\.com
 buy-runescape-money-gold\.com
 mesothelioma-uk\.net
+adsclicking\.com
+eastcarpet\.com\.cn
+jdshiyanji\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
