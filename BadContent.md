@@ -916,7 +916,6 @@ dongdao\.net
 dont-lost-money\.info
 doo\.pl
 door168\.com
-doppi\.static\.net
 dorka\.ifindex\.com
 dostweb.com
 dotas.com
@@ -942,7 +941,6 @@ dstmedia.com
 dudoctor\.com
 duducat.com
 dunecliffesaunton.co.uk
-duriel.static.net
 duvx\.com/bbs\.php?bbs=vs
 dvd2.us
 dvd-copier.info
@@ -1337,7 +1335,6 @@ gym-equipments\.org
 gyrohost.com/iboga
 h1\.ripway\.com/xz
 h2kmatrix.com
-haffa.static.net
 haidianjiaxiao.com
 hainan35\.com
 hair-loss-cure.net
@@ -1597,7 +1594,6 @@ jack-x.com
 jade.bilder-i.de
 jandia.to
 japan-partner.com
-javelin.static.net
 jbbjcc.com
 jerez.to
 jewelry4navel.com
@@ -1675,7 +1671,6 @@ kredite-portal.de
 kredite-sofortzusage.de
 kreditkarten-sofort.de.ms
 kredit-ratenkredit-sofortkredit.de
-krutop.static.net
 kuangye.net
 kupibuket.ru
 kyfarmhouse.org
@@ -1793,7 +1788,6 @@ ma-cabinet.com
 machine168.com
 machine88.com
 macinstruct.net
-maffi.static.net
 magus1.net
 mail333.com
 mainentrypoint.com
@@ -1816,7 +1810,6 @@ mature-big-tits.net
 maturefolk.com
 mature-old-mature.com
 mature-women\.enter-in\.etowns\.org
-mavina.static.net
 maxigenweb.com
 maxxsearch.com
 mba100.com
@@ -2033,7 +2026,6 @@ nude-(black|movies?|videos?).us
 nude-teens.name
 nudevol.us
 nuevaandalucia.to
-nuppy.static.net
 nutritional-supplements.ws
 nutritionalsupplementstoday.com
 nwwl-dvds.com
@@ -2090,7 +2082,6 @@ operazione-trionfo.net
 oraengel.com
 oral-sex-cum.com
 orangeyogi.net
-orbanus.static.net
 order-?(claritin|effexor|medicine|naturals).(com|net)
 order-ambien-1.qn.com
 order-cialis-1.qn.com
@@ -2391,7 +2382,6 @@ sbdforum.com
 sbn\.bz
 sbt-scooter.com
 scent-shopper.com
-scepter.static.net
 schanee.de
 schmuck-domain.de
 scottneiss.net
@@ -2518,7 +2508,6 @@ sjzyxh.com
 skf-baijia.com
 skidman.com
 ski-resorts-guide.com
-sky\.static\.net
 slimmobile.org
 slmj.com
 slng.de
@@ -2587,7 +2576,6 @@ s-sites.net
 ssy-web.com
 staffordshires.net
 stars-laser.com
-static.net
 stationery555.com
 stationfoundation\.org
 statusforsale.de
