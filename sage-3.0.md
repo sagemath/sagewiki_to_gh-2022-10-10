@@ -37,7 +37,7 @@ True
 
 == Modular Abelian Varieties ==
 Sage now has support for computing with modular abelian varieties, including computing endomorphism rings, intersections, kernels of morphisms, etc., with complete documentation.  
-{{{
+{{{#!python
 sage: J = J0(389)
 sage: D = J.decomposition()
 sage: D
