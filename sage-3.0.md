@@ -36,8 +36,22 @@ True
 
 
 == Modular Abelian Varieties ==
-
-FIXME
+Sage now has support for computing with modular abelian varieties, including computing endomorphism rings, intersections, kernels of morphisms, etc., with complete documentation.  
+{{{
+sage: J = J0(389)
+sage: D = J.decomposition()
+sage: D
+[
+Simple abelian subvariety 389a(1,389) of dimension 1 of J0(389),
+Simple abelian subvariety 389b(1,389) of dimension 2 of J0(389),
+Simple abelian subvariety 389c(1,389) of dimension 3 of J0(389),
+Simple abelian subvariety 389d(1,389) of dimension 6 of J0(389),
+Simple abelian subvariety 389e(1,389) of dimension 20 of J0(389)
+]
+sage: G, _ = D[4].intersection(D[0] + D[1] + D[2] + D[3])
+sage: G
+Finite subgroup with invariants [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 40, 40] over QQ of Simple abelian subvariety 389e(1,389) of dimension 20 of J0(389)
+}}}
 
 == Increased Doctest Coverage ==
 
