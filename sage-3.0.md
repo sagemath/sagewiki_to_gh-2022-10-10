@@ -27,3 +27,23 @@ sage: gb = IS.groebner()
 sage: P.change_ring(order='lex') == B.cover_ring()
 True
 }}}
+
+
+== Modular Abelian Varieties ==
+
+
+== Increased Doctest Coverage ==
+
+We dramatically increased our automated testing and example suite so that 51.5 % of functions have autotested examples. There are now nearly 60,000 lines of input examples. In February our testing was in the 30% range. This was a huge amount of work by many many Sage developers, and it has the practical impact that when you type foo? it is nearly twice as likely that you'll see a helpful example.
+
+== R Pexpect Interface ==
+
+There is now a new interface to R that uses a pseudotty; this is a completely different alternative to rpy, which makes it possible for the web-based Sage notebook to work as an R GUI, and also makes it so any R command can be used from Sage 100% exactly as in R. It is still clunky and has numerous issues, but it is fairly usable, documented, and has a test suite.
+
+== Crystals ==
+
+FIXME
+
+== Lautent Polynomials ==
+
+FIXME
