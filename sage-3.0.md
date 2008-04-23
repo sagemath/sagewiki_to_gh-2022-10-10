@@ -9,6 +9,12 @@ Sage has a new random number framwork (by Carl Witty) with a global random numbe
 
 Sage 3.0 has full GCC 4.3 support, which means that every included package was fixed to compile with GCC 4.3 and the changes were pushed upstream.
 
+== New Default Binaries ==
+
+ * RedHat Enterprise Linux 5/Itanium
+ * Ubuntu 6.06 Long Term Support 
+ * Arch Linux
+
 == Boolean Polynomials ==
 
 The PolyBoRi library was updated to version 0.3.1 leading to greater stability and better performance. The interface to PolyBoRi was also improved and the documentation updated. Also the conversion to/from PolyBoRi, Singular and Magma was greatly improved.
@@ -31,6 +37,7 @@ True
 
 == Modular Abelian Varieties ==
 
+FIXME
 
 == Increased Doctest Coverage ==
 
