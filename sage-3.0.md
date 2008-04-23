@@ -56,6 +56,13 @@ Finite subgroup with invariants [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
 == Increased Doctest Coverage ==
 
 We dramatically increased our automated testing and example suite so that 51.5 % of functions have autotested examples. There are now nearly 60,000 lines of input examples. In February our testing was in the 30% range. This was a huge amount of work by many many Sage developers, and it has the practical impact that when you type foo? it is nearly twice as likely that you'll see a helpful example.
+{{{
+$ cd devel/sage/sage
+$ ../../../sage -coverage .
+...
+Overall weighted coverage score:  51.5%
+Total number of functions:  19514
+}}}
 
 == R Pexpect Interface ==
 
