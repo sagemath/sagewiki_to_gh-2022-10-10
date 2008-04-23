@@ -19,7 +19,7 @@ EUROPEAN:
  * Burcin Erocal (June 13-20) -- exact linear algebra, cython
  * Ralf-Philipp Weinmann (June 12-21)
  * Stephan Behnel -- cython (June 12-19)
-
+ * Dag Sverre Seljebotn (June 12-20) -- cython
 
 CANADIAN:
 
