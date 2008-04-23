@@ -51,6 +51,6 @@ There is now a new interface to R that uses a pseudotty; this is a completely di
 
 FIXME
 
-== Lautent Polynomials ==
+== Laurent Polynomials ==
 
 FIXME
