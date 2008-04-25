@@ -4,11 +4,10 @@ Done
 
  * Integers, Rationals
  * complex, real
+ * integer_mod
 
 In progress
 
- * integer_mod
- * quotient rings
  * finite fields
 
 Todo
