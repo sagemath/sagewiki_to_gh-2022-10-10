@@ -3,18 +3,19 @@
 Done
 
  * Integers, Rationals
+ * complex, real
 
 In progress
 
- * complex, real
+ * integer_mod
+ * quotient rings
+ * finite fields
 
 Todo
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical, gsl, quadratic_forms
  * coding, functions, graphs
  * matrix
  * modules
- * quotient rings
- * finite fields
  * calculus
  * number fields
  * sets
