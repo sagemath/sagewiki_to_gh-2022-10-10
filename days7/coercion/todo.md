@@ -9,11 +9,11 @@ Done
 In progress
 
  * finite fields
+ * matrix
 
 Todo
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical, gsl, quadratic_forms
  * coding, functions, graphs
- * matrix
  * modules
  * calculus
  * number fields
