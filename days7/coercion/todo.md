@@ -10,6 +10,7 @@ In progress
 
  * finite fields
  * matrix
+ * probability (Mike)
 
 Todo
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical, gsl, quadratic_forms
@@ -20,7 +21,6 @@ Todo
  * sets
  * geometry
  * libs
- * probability
  * interfaces
  * combinat
  * rings
@@ -28,7 +28,6 @@ Todo
  * monoids
  * schemes
  * crypto
-
  * groups
  * modular
  * categories
