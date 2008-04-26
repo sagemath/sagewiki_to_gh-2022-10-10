@@ -2,34 +2,19 @@
 
 Hello, I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated around packages and their portability. I added valgrind support to Sage 2.8.3 and have been using various valgrind tools to investigate Sage's memory consumption.
 
-I also recently become a release manager for Sage and I chaired a number of releases: 2.8.11, 2.8.13-2.8.15, 2.9, 2.9.2, 2.10 and 2.10.1-3, 2.10.4 (together with Robert Miller), 3.0. Since it looks like few people want to do this job it is very likely that I will do a lot more of those.
+I also recently become a release manager for Sage and I chaired a number of releases: 2.8.11, 2.8.13-2.8.15, 2.9, 2.9.2, 2.10 and 2.10.1-3, 2.10.4 (together with Robert Miller), 3.0, 3.0.1. Since it looks like few people want to do this job it is very likely that I will do a lot more of those.
 
 == Task Table ==
 
 === Currently Working on ===
  * Probably chairing the current Sage release
- * Solaris port of Sage.
- * FreeBSD port of Sage.
- * MSVC port of Sage
- * Cygwin re-port of Sage.
- * optional spkgs: CoCoA 4.7.x, ApCoCoALib & CoCoALib, g++ 4.2
+ * [:solaris:Solaris port of Sage}
+ * [:freebsd:FreeBSD port of Sage]
+ * [:windows:MSVC port of Sage]
+ * [:windows:Cygwin re-port of Sage]
  * hunt mem-leaks in C/C++ code of Sage 
- * DebianSAGE
+ * [:DebianSAGE:DebianSAGE]
  * whatever else currently needs fixing
-
-=== Short Term ===
- * [:windows:port Sage to Windows]
- * build unified Setup.py for gdmodule - less important now due to drop of the Cygwin drop (officially)
- * multivariate polynomial arithmetic via CoCoALib
- * computation of approximate vanishing ideals via ApCoCoALib (needs multivariate polynomial arithmetic via CoCoALib)
- * check targets for various SAGE packages like gmp and linbox
-
-=== Long Term ===
- * F4/F5 in CoCoALib with interface to  SAGE
-
-=== Interesting Ideas ===
- * port SAGE code to MinGW/MSVC - probably done when hell freezes over - but one can at least dream.
- * fix pari issue on cygwin - details FIXME
 
 == Done Tasks ==
  * See the Changelog, the google groups sage-devel and sage-support and #sage-devel on freenode.
@@ -41,9 +26,7 @@ I also recently become a release manager for Sage and I chaired a number of rele
  * Porting mathematical open source code to Solaris, Windows and any odd Unix out there. 
 
 = Places where I can be found =
- * google group sage-devel
- * google group linbox-devel
- * google group linbox-use
+ * google groups sage-devel, sage-support, linbox-devel, group linbox-use
  * [http://apcocoa.org/forum/ the ApCoCoA & CoCoA forum]
  * #sage-devel on freenode
 
