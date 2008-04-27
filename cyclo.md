@@ -14,7 +14,7 @@ This wiki page is about implementing optimized algorithms for linear algebra ove
 
  1. Implement multimodular matrix multiplication. This will reduce to doing a bunch of multiplies over GF(p) for many primes p.
 
- 1. Implement p-adic solver with cyclotomic p-adic reconstruction algorithm. 
+ 1. [:/padicsolver: Implement p-adic solver with cyclotomic p-adic reconstruction algorithm.]
 
  1. Implement echelon form using solver algorithm (just like we have for QQ).
 
