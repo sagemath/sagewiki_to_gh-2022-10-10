@@ -16,7 +16,7 @@ This wiki page is about implementing optimized algorithms for linear algebra ove
 
  1. Make very fast random_element methods for those matrix types.   This will be needed for testing out our algorithms easily, and for tuning them.
 
- 1. Implement multimodular matrix multiplication. This will reduce to doing a bunch of multiplies over GF(p) for many primes p.
+ 1. [:/multipy: Implement multimodular matrix multiplication.] This will reduce to doing a bunch of multiplies over GF(p) for many primes p.
 
  1. [:/padicsolver: Implement p-adic solver with cyclotomic p-adic reconstruction algorithm.]
 
