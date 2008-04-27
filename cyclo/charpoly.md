@@ -49,7 +49,9 @@ the time it takes to do the charpoly.  (On OS X Sage takes 1.07 seconds and Magm
 So I don't see why Sage shouldn't be able to do this charpoly in about 10 seconds. 
 
 Here is a little demo proof-of-concept illustrating computing the 67 charpoly more quickly
-by doing it over ZZ and using p-adic reconstruction:
+by doing it over ZZ and using p-adic reconstruction.   I do ''not'' think this is the way 
+to go -- I think straight multimodular is -- but this already illustrates that both PARI and
+Magma are pretty stupid right now.
 
 {{{
 def padic_cyclotomic_reconstruction(K, w, p, prec, phi):
