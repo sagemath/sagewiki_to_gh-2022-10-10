@@ -6,7 +6,7 @@ This wiki page is about implementing optimized algorithms for linear algebra ove
 
 == Some specific tasks ==
 
- 1. Implement an optimized matrix type {{{Matrix_dense_number_field}}} for matrices with entries in a number field.
+ 1. [:/matrix_dense_nf: Implement an optimized matrix type {{{Matrix_dense_number_field}}} for matrices with entries in a number field.]
 
  1. Implement a class {{{Matrix_dense_cyclotomic_field}}} that derives from the above class.
 
