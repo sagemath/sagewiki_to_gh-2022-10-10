@@ -21,3 +21,4 @@ Benchmarks:
  1. Reduced row echelon form
  1. Solving A*x = b and A*X = B
  1. Kernel
+ 1. Rational decomposition
