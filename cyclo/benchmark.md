@@ -23,3 +23,13 @@ Benchmarks:
  1. Solving A*x = b and A*X = B
  1. Kernel
  1. Rational decomposition
+
+A good source of matrices that we care about:
+ 
+Below, replace 23 by any of 23, 67, 89, 199, and p=2 in the last line below by any positive integer:
+{{{
+ModularSymbols_clear_cache()
+eps = DirichletGroup(23*3, CyclotomicField(11)).1^2
+M = ModularSymbols(eps); M
+t = M.hecke_matrix(2)
+}}}
