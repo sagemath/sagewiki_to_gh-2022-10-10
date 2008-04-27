@@ -19,6 +19,7 @@ Benchmarks:
  1. Rank
  1. Characteristic Polynomial
  1. Reduced row echelon form
+ 1. Sparse reduced row echelon form
  1. Solving A*x = b and A*X = B
  1. Kernel
  1. Rational decomposition
