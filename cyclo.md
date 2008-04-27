@@ -6,9 +6,9 @@ This wiki page is about implementing optimized algorithms for linear algebra ove
 
 == Some specific tasks ==
 
- 1. Implement an optimized matrix type {{{Matrix_number_field}}} for matrices with entries in a number field.
+ 1. Implement an optimized matrix type {{{Matrix_dense_number_field}}} for matrices with entries in a number field.
 
- 1. Implement a class {{{Matrix_cyclotomic_field}}} that derives from the above class.
+ 1. Implement a class {{{Matrix_dense_cyclotomic_field}}} that derives from the above class.
 
  1. Make very fast random_element methods for those matrix types.   This will be needed for testing out our algorithms easily, and for tuning them.
 
