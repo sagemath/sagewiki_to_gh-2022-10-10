@@ -17,7 +17,7 @@ Benchmarks:
  1. Matrix multiplication
  1. Determinant
  1. Rank
- 1. Characteristic Polynomial
+ 1. Characteristic Polynomial [:../charpoly: some benchmarks here]
  1. Reduced row echelon form
  1. Sparse reduced row echelon form
  1. Solving A*x = b and A*X = B
