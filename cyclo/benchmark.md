@@ -7,7 +7,7 @@ Systems:
   
 Operating Systems / Hardware:
    * 32-bit OS X intel 2.6Ghz core 2 duo natively
-   * 64-bit Linux runnong on 1.8Ghz Opteron natively
+   * 64-bit Linux running on 1.8Ghz Opteron natively
    * 32-bit Linux running on 2.6Ghz core 2 duo (under vmware)
    * 64-bit Linux running on 2.6Ghz core 2 duo (under vmware)
 
