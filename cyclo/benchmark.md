@@ -12,7 +12,7 @@ Operating Systems / Hardware:
    * 64-bit Linux running on 2.6Ghz core 2 duo (under vmware)
 
 Benchmarks:
- 1. Matrix addtiion
+ 1. Matrix addition
  1. Matrix vector product
  1. Matrix multiplication
  1. Determinant
