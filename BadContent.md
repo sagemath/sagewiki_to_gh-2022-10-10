@@ -4371,6 +4371,9 @@ adsclicking\.com
 eastcarpet\.com\.cn
 jdshiyanji\.cn
 pandaphone\.com
+runescape2-money\.org
+wcx88\.cn
+dvd1314\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
