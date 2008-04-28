@@ -12,6 +12,29 @@ That will in practice always work, but isn't proved.
 And, it is probably slower than just starting with the right bound.
 
 
+Craig: I thought for a minute about a bound for the size of
+coefficients in the charpoly. I came up with a pretty trivial seeming
+bound (what I would now call a "Hadamard-type" bound), so I looked it
+up. I found this paper:
+
+ http://arxiv.org/abs/cs.SC/0610136
+
+I don't know anything about the people in the world of computational
+linear algebra, but this guy has written papers with Clement, and the
+FFLAS website is maintained by him, so I figured it was probably the
+right thing to be looking at. :) So there are two lemmas in the paper
+that provide a bound for the size of the largest coefficient in the
+charpoly. I implemented the first of them, and it looked pretty good.
+Then I implemented the second, and it was wildly worse! It's presented
+as though it's a sharpening, but I couldn't figure out how, at least
+in the examples I tried out. I think they may be doing it for a
+different reason, but in any event, it seemed like we were better off
+with the first bound. I left the code for both in, with the second in
+comments, if you want to try it out. I also put in the naive estimates
+for n = 1,2,3 (the result in the paper is for n > 3): if there's
+something better, let me know. Maybe we should just directly compute
+the charpoly in those cases, since it's easy to write down?
+
 
 Using this code with 23 replaced by 23, 67, and 199 I benchmarked both Sage and Magma
 on various machines.  Here Sage is just using PARI.   For 23, Magma is 10 times faster.
