@@ -41,9 +41,9 @@ The timings themselves are as follows, all on an Opteron 1.8Ghz.
 || 23    || 16    || 0.47s     ||  0.03s ||  0.11s ||
 || 67    || 44    || 10.23s     ||  1.48s ||  0.11s ||
 || 199   || 132   || 531s       ||  438s  ||  5.34s ||
-|| 331   || 220   || ?         ||  ?     || 19.22s ||
+|| 331   || 220   || ?         ||  8611.50s   || 19.22s ||
 
-The 331 matrix is 220x220
+The 331 matrix is 220x220, and our new algorithm is already ''448 times faster than Magma'' in that case.
 
 By the way, here are similar timings for computing the square of the matrix $T_2$, i.e., for
 matrix multiplication:
