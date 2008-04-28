@@ -49,9 +49,9 @@ By the way, here are similar timings for computing the square of the matrix $T_2
 matrix multiplication:
 
 
-|| prime || Sage || PARI  || Magma || 
+|| prime || Sage || PARI  || Magma ||
 || 23    ||  0.05s  || 0.01s    ||  0.01s ||
-|| 67    || 0.43s   || 0.05s||  0.01s || 
+|| 67    || 0.43s   || 0.05s||  0.01s ||
 || 199   || 9.89s   || 0.64s ||  0.06s  ||
 
 So Magma's matrix multiply is vastly superior to what is in Sage, but only because
