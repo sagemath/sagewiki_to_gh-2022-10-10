@@ -8,7 +8,7 @@ This wiki page is about implementing optimized algorithms for linear algebra ove
 
  1. [:/benchmark: Benchmarking]
 
- 1. [:/charpoly: Come up with a fast characteristic polynomial algorithm over cyclotomic fields.]
+ 1. (mostly done --works) [:/charpoly: Come up with a fast characteristic polynomial algorithm over cyclotomic fields.] 
 
  1. [:/matrix_dense_nf: Implement an optimized matrix type Matrix_dense_number_field for matrices with entries in a number field.]
 
