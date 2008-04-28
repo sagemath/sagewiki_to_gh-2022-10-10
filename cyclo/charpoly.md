@@ -20,10 +20,13 @@ t = M.hecke_matrix(2)
 
 The timings themselves are as follows, all on an Opteron 1.8Ghz.
 
-|| prime || Sage/PARI  || Magma ||  Sage Multimod ||
-|| 23    ||  0.47s     ||  0.03s ||  0.11s ||
-|| 67    || 10.23s     ||  1.48s ||  0.11s ||
-|| 199   || 531s       ||  438s  ||  5.34s ||
+|| prime || nrows || Sage/PARI  || Magma ||  Sage Multimod ||
+|| 23    || 16    || 0.47s     ||  0.03s ||  0.11s ||
+|| 67    || 44    || 10.23s     ||  1.48s ||  0.11s ||
+|| 199   || 132   || 531s       ||  438s  ||  5.34s ||
+|| 331   || 220   || ?         ||  ?     || 19.22s ||
+
+The 331 matrix is 220x220
 
 By the way, here are similar timings for computing the square of the matrix $T_2$, i.e., for
 matrix multiplication:
