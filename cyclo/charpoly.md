@@ -3,7 +3,15 @@
 
 UPDATE: A first real version of this is now done.  See the first two patches at 
     http://trac.sagemath.org/sage_trac/ticket/3042
-The timings for this new code on sage.math are given in the table below under "new". 
+The timings for this new code on sage.math are given in the table below under "Sage Multimod". 
+Also a theoretical thing to do is give an a priori provable bound on the number of primes needed 
+to get the charpoly via CRT.
+Right now it just waits until 3 successive charpolys stabilize.
+Or rather, adding in 3 primes gives the same charpoly.
+That will in practice always work, but isn't proved.
+And, it is probably slower than just starting with the right bound.
+
+
 
 Using this code with 23 replaced by 23, 67, and 199 I benchmarked both Sage and Magma
 on various machines.  Here Sage is just using PARI.   For 23, Magma is 10 times faster.
