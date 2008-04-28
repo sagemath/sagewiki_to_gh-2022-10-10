@@ -20,6 +20,10 @@ Go to http://sagemath.org/dist/src/index.html to download the tar archive for an
 Go to http://sagemath.org/dist/src/index.html to download the tar archive for any release of Sage.
 
 == Installing and running Sage ==
+=== How do I use the notebook with Firefox 3.0 beta 5? ===
+
+There is [https://bugzilla.mozilla.org/show_bug.cgi?id=427081 a bug in Firefox 3.0 beta 5] that causes it to reject connections to the Sage notebook with the error "Certificate key usage inadequate for attempted operation. (Error code: sec_error_inadequate_key_usage)". This will be fixed in Firefox 3, but for now one solution is to use a different browser, such as Firefox 2, Konqueror, Safari, Opera, or even Internet Explorer. Another solution is to run the notebook in insecure mode by using the command {{{inotebook()}}} instead of {{{notebook()}}}; then Firefox 3.0b5 will work.
+
 === How do I compile the source to Sage? ===
 Download the source tar archive, extract the archive, change your directory to be inside of it, and read the README.txt file there.  Basically, after making sure you have the proper prerequisite tools installed, you type {{{make}}}.
 
