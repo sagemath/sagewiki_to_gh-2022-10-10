@@ -15,6 +15,15 @@ ModularSymbols_clear_cache()
 eps = DirichletGroup(23*3, CyclotomicField(11)).1^2
 M = ModularSymbols(eps); M
 t = M.hecke_matrix(2)
+time t.charpoly()
+}}}
+
+Magma code to make the matrix and benchmark charpoly:
+{{{
+eps := DirichletGroup(67*3, CyclotomicField(11)).2^2;
+M := ModularSymbols(eps,2,0);
+t := HeckeOperator(M,2);
+time f := CharacteristicPolynomial(t);
 }}}
 
 
