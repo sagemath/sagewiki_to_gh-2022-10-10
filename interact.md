@@ -75,6 +75,21 @@ def foo(pts = checkbox(True, "Show points"),
 
 attachment:randomwalk.png
 
+=== 3D Random Walk ===
+{{{
+@interact
+def rwalk3d(n=(50,1000), frame=True):
+    pnt = [0,0,0]
+    v = [copy(pnt)]
+    for i in range(n):
+        pnt[0] += random()-0.5
+        pnt[1] += random()-0.5
+        pnt[2] += random()-0.5
+        v.append(copy(pnt))
+    show(line3d(v,color='black'),aspect_ratio=[1,1,1],frame=frame)
+}}}
+attachment:randomwalk3d.png
+
 
 == Graph Theory ==
 
