@@ -8,3 +8,5 @@ gold
 ipod
 celebrities
 Youtube
+marketing
+SEO
