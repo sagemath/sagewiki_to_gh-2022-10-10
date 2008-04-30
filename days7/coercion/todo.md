@@ -5,10 +5,10 @@ Done
  * Integers, Rationals
  * complex, real
  * integer_mod
+ * finite fields
 
 In progress
 
- * finite fields
  * matrix
  * probability (Mike)
 
