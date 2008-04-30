@@ -10,3 +10,4 @@ celebrities
 Youtube
 marketing
 SEO
+slot
