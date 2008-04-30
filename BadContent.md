@@ -4374,6 +4374,24 @@ pandaphone\.com
 runescape2-money\.org
 wcx88\.cn
 dvd1314\.com
+cenkx\.com
+cnblp\.cn
+davismicro\.com
+fanggead\.com
+karrylady\.cn
+macrown\.com\.cn
+mdcchj\.com\.cn
+newbst\.com
+shoes4days\.com
+yaojian\.com\.cn
+zj-xinhong\.com
+ccok11\.com
+elkf120\.cn
+quhong120\.com
+rfid789\.com
+szchuangjie\.com
+windowregulator\.net
+ydyxl\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
