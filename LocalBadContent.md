@@ -10,4 +10,4 @@ celebrities
 Youtube
 marketing
 SEO
-slot
+slot machine
