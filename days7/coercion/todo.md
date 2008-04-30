@@ -9,13 +9,13 @@ Done
 
 In progress
 
+ * modules
  * matrix
  * probability (Mike)
 
 Todo
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical, gsl, quadratic_forms
  * coding, functions, graphs
- * modules
  * calculus
  * number fields
  * sets
