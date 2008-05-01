@@ -9,7 +9,7 @@ Done
 
 In progress
 
- * modules
+ * monoids/modules
  * matrix
  * probability (Mike)
 
@@ -25,7 +25,6 @@ Todo
  * combinat
  * rings
  * algebras
- * monoids
  * schemes
  * crypto
  * groups
