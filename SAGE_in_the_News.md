@@ -2,6 +2,8 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  * [http://reddit.com/info/6hvsn/comments/ Sage on Redit]
+
   * [http://www.sciencedaily.com/releases/2008/03/080313124415.htm Glimpses Of A New (mathematical) World]: This article is about a computation (not using Sage) of an L-function, a computation about that L-function (using Sage), and a major new NSF-funded initiative to compute large tables of modular forms and L-functions that William Stein (director of the Sage project) is co-directing, which will have a large impact on Sage development. 
 
   * [:/axiomdev: Some Axiom Developers Talking About Sage]
