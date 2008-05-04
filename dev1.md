@@ -15,11 +15,11 @@ People with dates listed have confirmed attendance during those dates.
 EUROPEAN:
 
  * Michael Abshoff (June 7-27) -- Windows port, exact linear algebra
- * Martin Albrecht (June 12-21)
- * Burcin Erocal (June 13-20) -- exact linear algebra, cython
+ * Martin Albrecht (June 12-21) -- exact linear algebra (GF(2) LUP)
+ * Burcin Erocal (June 13-20) -- exact linear algebra, Cython
  * Ralf-Philipp Weinmann (June 12-21)
- * Stephan Behnel -- cython (June 12-19)
- * Dag Sverre Seljebotn (June 12-20) -- cython
+ * Stephan Behnel (June 12-19)  -- Cython
+ * Dag Sverre Seljebotn (June 12-20) -- Cython
 
 CANADIAN:
 
@@ -27,12 +27,12 @@ CANADIAN:
 
 AMERICAN:
 
- * Gregory Bard (June 13-20) -- GF(2) LUP.
+ * Gregory Bard (June 13-20) -- exact linear algebra (GF(2) LUP)
  * Iftikhar Burhanuddin (June 13-20) -- || computation
  * Craig Citro (June 13-20) -- cython and exact linear algebra
  * Nathan Dunfield (tentative; probably will attend)
  * Gary Furnish (June 6-August) -- Windows port, Symbolics, Cython
- * Dan Gindikin (pnylab.com; Princeton) -- cython
+ * Dan Gindikin (pnylab.com; Princeton) -- Cython
  * Mike Hansen (June 13-20)
  * David Harvey (probably will not attend)
  * David Roe (June 13-20)
@@ -47,7 +47,7 @@ LOCAL:
  * Robert Miller (June 13-20)
  * Bobby Moretti (?)
  * Clement Pernet (June 13-20) -- exact linear algebra
- * Yi Qiang -- distributed sage
+ * Yi Qiang -- distributed Sage
  * Dan Shumow (unclear)
  * William Stein (June 13-20) -- everything, but especially exact linear algebra
  * Carl Witty (June 13-20) -- either my proposed randgen framework (random number seed management for Sage) or cylindrical algebraic decomposition (either wrapping qepcad or writing my own implementation).
