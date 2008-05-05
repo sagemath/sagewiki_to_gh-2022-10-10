@@ -20,6 +20,8 @@ minor improvements to other functions and documentation, shortcuts like LatticeP
 
 == zeta_function Method for Schemes (Kiran Kedlaya) ==
 
+For C a scheme over GF(p) for p prime, C.zeta_series(n, t) will return the first n terms of the power series expansion of the zeta function of C, expressed as a power series in the variable t. This is a completely generic algorithm, and thus will be extremely slow for p or n large; we expect later to override this for specific classes of schemes (e.g., hyperelliptic curves). Also, we expect to support schemes over GF(q) once an improved coercion system is stably in place.
+
 == More Debianization (Tim Abbott) ==
 
 == Default Mode for Notebook no longer uses SSL (William Stein) ==
