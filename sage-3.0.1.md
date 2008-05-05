@@ -13,3 +13,5 @@ PBuild is the new parallel build system for the Sage library that is experimenta
 == More Debianization (Tim Abbott) ==
 
 == Default Mode for Notebook no longer uses SSL (William Stein) ==
+ 
+William Stein rewrote the notebook(...) command so that by default on localhost it does not use SSL.  This should resolve many problems people have been having when using the notebook, but will not compromise security.   This could cause some confusion though, so people should report any problems, since this is a significant change. 
