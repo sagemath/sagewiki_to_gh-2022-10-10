@@ -7,3 +7,9 @@ PBuild is the new parallel build system for the Sage library that is experimenta
 == Convex Hulls And Polyhedral Functions Improvements (Marshall Hampton) ==
  
 == Lattice Polytope Update (Andrey Novoseltsev) ==
+
+== zeta_function Method for Schemes (Kiran Kedlays) ==
+
+== More Debianization (Tim Abbott) ==
+
+== Default Mode for Notebook no longer uses SSL (William Stein) ==
