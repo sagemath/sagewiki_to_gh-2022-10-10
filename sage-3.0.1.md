@@ -8,7 +8,7 @@ PBuild is the new parallel build system for the Sage library that is experimenta
  
 == Lattice Polytope Update (Andrey Novoseltsev) ==
 
-== zeta_function Method for Schemes (Kiran Kedlays) ==
+== zeta_function Method for Schemes (Kiran Kedlaya) ==
 
 == More Debianization (Tim Abbott) ==
 
