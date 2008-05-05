@@ -6,6 +6,8 @@ PBuild is the new parallel build system for the Sage library that is experimenta
 
 == Convex Hulls And Polyhedral Functions Improvements (Marshall Hampton) ==
  
+This fixed a number of problems in the sage-native polyhedral code (that only uses cddlib), mainly with unbounded polytopes, and improved 3D plotting of polytopes (for example, in the gfan interface).  There are probably still some issues lurking with this code as its still pretty new and untested.  In the near future, major design decisions should be made on how polytopes will be handled in Sage: more Sage-native code or better coordination with Polymake and other external packages (LattE, 4ti2, lrs, etc) (or both)?  
+
 == Lattice Polytope Update (Andrey Novoseltsev) ==
 This update includes:
 change in the behavior of LatticePolytope constructor, now compute_vertices=True by default;
