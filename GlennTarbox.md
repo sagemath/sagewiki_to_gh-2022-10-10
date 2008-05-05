@@ -2,7 +2,9 @@
 #format wiki
 == Glenn H Tarbox, PhD ==
 
-Email: [[MailTo(glenn AT SPAMFREE tarbox DOT org)]]
+Email: [[MailTo(glenn AT SPAMFREE tarbox DOT org)]] (gtalk)
+
+ghtdak on AIM / Freenode / Yahoo
 
 206-494-0819
 
