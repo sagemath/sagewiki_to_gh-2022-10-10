@@ -7,6 +7,14 @@ PBuild is the new parallel build system for the Sage library that is experimenta
 == Convex Hulls And Polyhedral Functions Improvements (Marshall Hampton) ==
  
 == Lattice Polytope Update (Andrey Novoseltsev) ==
+This update includes:
+change in the behavior of LatticePolytope constructor, now compute_vertices=True by default;
+ReflexivePolytope(s) - databases of all (representatives of GL(Z)-orbits of) reflexive polytopes in 2 and 3 dimensions with some precomputed data;
+LatticePolytope.index - search in the above databases for the representative of the GL(Z)-orbit of the given polytope;
+LatticePolytope.plot3d - 3D-plotting for 3-dimensional polytopes;
+convex_hull and minkowski_sum - without the requirement for points to span the ambient space, which LatticePolytope has;
+NEFPartition.dual - computing the dual NEF-partition;
+minor improvements to other functions and documentation, shortcuts like LatticePolytope.vertex.
 
 == zeta_function Method for Schemes (Kiran Kedlaya) ==
 
