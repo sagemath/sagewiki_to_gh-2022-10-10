@@ -1,6 +1,6 @@
 ##master-page:HomepageTemplate
 #format wiki
-== Glenn H Tarbox, PhD ==
+== Glenn Tarbox ==
 
 Email: [[MailTo(glenn AT SPAMFREE tarbox DOT org)]] (gtalk)
 
