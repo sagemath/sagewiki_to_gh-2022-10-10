@@ -1,4 +1,6 @@
-If something doesn't work, try typing 
+To start, get a copy of Sage 2.10.1, install the new cython spkg (available at http://sage.math.washington.edu/home/robertwb/cython/), pull from http://cython.org/coercion/hgwebdir.cgi/sage-coerce/ and build. 
+
+Hint: If something doesn't work, try typing 
 
 {{{
 sage: coercion_traceback()
