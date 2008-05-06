@@ -50,6 +50,7 @@ LOCAL:
  * Yi Qiang -- distributed Sage
  * Dan Shumow (unclear)
  * William Stein (June 13-20) -- everything, but especially exact linear algebra
+ * Glenn H Tarbox -- give a talk on Twisted (!!)
  * Carl Witty (June 13-20) -- either my proposed randgen framework (random number seed management for Sage) or cylindrical algebraic decomposition (either wrapping qepcad or writing my own implementation).
 
 == Main Topics ==
