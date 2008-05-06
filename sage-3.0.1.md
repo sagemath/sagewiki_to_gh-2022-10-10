@@ -24,6 +24,8 @@ For C a scheme over GF(p) for p prime, C.zeta_series(n, t) will return the first
 
 == More Debianization (Tim Abbott) ==
 
+The Debian packages for SAGE work again for the first time since SAGE 2.10.4.  The process for building Debian packages from the SAGE sources is now almost completely automated, and the quality of the Debian packaging has improved substantially, which should help the Debian packaging track the SAGE releases.  The Debian package distribution is approaching a viable installation option.  Many of the packages are also ready to be included in the main Debian archive; work has begun on moving those that are to Debian upstream and on writing patches implementing shared library versioning for those spkgs that need it.
+
 == Default Mode for Notebook no longer uses SSL (William Stein) ==
  
 William Stein rewrote the notebook(...) command so that by default on localhost it does not use SSL.  This should resolve many problems people have been having when using the notebook, but will not compromise security.   This could cause some confusion though, so people should report any problems, since this is a significant change. 
