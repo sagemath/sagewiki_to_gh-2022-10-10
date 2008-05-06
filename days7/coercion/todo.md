@@ -1,3 +1,11 @@
+If something doesn't work, try typing 
+
+{{{
+sage: coercion_traceback()
+}}}
+
+which will give a listing of all errors caught in the coercion model. 
+
 === Doctests ===
 
 Done
