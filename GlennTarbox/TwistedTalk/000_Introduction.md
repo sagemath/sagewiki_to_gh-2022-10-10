@@ -8,11 +8,17 @@
 [[Navigation(slides)]]
 = Twisted =
 == Asynchronous Programming ==
- * Don't call us, we'll call you... later
+ * Reactor (aka: Nexus, Tetranode, MCP)
+  * Stimulation Management
+  * Select, epoll, gui
+ * Deferreds
+  * Let me get back to you...
+ * Patterns
+  * Relatively Few - Factories
 == Protocols, Protocols, Protocols ==
  * TCP, UDP, SSL
  * AMP, ORBs, Databases
 == Processes, Threads ==
- * Threads are Evil
+ * "Threads Declared Evil" - news at 11
 
 [[Navigation(siblings)]]
