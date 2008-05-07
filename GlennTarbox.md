@@ -17,7 +17,7 @@ are any good, you’ll have to ram them down people’s throats
 }}}
 
 
-...
+[[Navigation(children,1)]]
 
 ----
 CategoryHomepage
