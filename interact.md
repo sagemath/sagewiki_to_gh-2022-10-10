@@ -377,3 +377,22 @@ def _(band_number = selector(range(1,5)), current_color = Color('red')):
     show(egg)
 }}}
 attachment:eggpaint.png
+
+===Miscellaneous===
+
+Profile a snippet of code
+{{{
+html('<h2>Profile the given input</h2>')
+import cProfile; import profile
+@interact
+def _(cmd = ("Statement", '2 + 2'), 
+      do_preparse=("Preparse?", True), cprof =("cProfile?", False)):
+    if do_preparse: cmd = preparse(cmd)
+    print "<html>"  # trick to avoid word wrap
+    if cprof:
+        cProfile.run(cmd)
+    else:
+        profile.run(cmd)
+    print "</html>"
+}}}
+attachment:profile.png
