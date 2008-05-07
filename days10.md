@@ -16,3 +16,17 @@ Each "talk" day (October 10 to 12) typically has 2 invited speakers, who are
 specialists in the corresponding domain, not necessarily already in contact
 with SAGE, and 3 contributed speakers, who typically describe a SAGE module
 (or a proposal of).
+
+=== Location: ===
+
+[http://www.loria.fr/presentation-en Loria] [http://www.loria.fr/access-en/acceder/the-way-to-loria/view?set_language=en Coming to Loria]
+
+
+{{{
+   LORIA
+   Campus Scientifique
+   54506 Vandoeuvre-lès-Nancy
+   France
+}}}
+
+[http://maps.google.fr/maps?f=q&hl=fr&geocode=&ie=UTF8&ll=48.665497,6.157295&spn=0.002643,0.00501&t=h&z=18 Google Maps]
