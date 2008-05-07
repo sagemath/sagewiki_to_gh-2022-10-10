@@ -24,6 +24,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  1. Michael Abshoff (old bugs)
  1. William Stein (notebook bugs)
  1. Craig Citro (current queue: #2535, unfiled enhancement for GammaH, #2329)
+ 1. David Harvey (not sure if I can make it; if I show up, I'll start by slaying #2943)
 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
 
