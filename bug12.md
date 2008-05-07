@@ -23,6 +23,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 = Participants (with area they would like to work on) =
  1. Michael Abshoff (old bugs)
  1. William Stein (notebook bugs)
+ 1. Craig Citro (current queue: #2535, unfiled enhancement for GammaH, #2329)
 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
 
