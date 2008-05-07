@@ -4392,6 +4392,8 @@ rfid789\.com
 szchuangjie\.com
 windowregulator\.net
 ydyxl\.com
+adressendb\.net
+gc-datenbanken\.info
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
