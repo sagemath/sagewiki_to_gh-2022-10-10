@@ -29,20 +29,22 @@ def fn(result, *args, **kargs)
 
   * Use Deferreds
 {{{#!python
-d = O.doComplicatedLengthyCalc(a,b,c) # returns deferred
+d = O.doComplicatedLengthyCalc(a, b, c) # returns deferred
 def gotResult(result)
   print "important message: ", result
   return "a more important message"
 d.addCallback(gotResult)             # first callback
-def gotResult2(result)
+def gotResult2(result, i2, s2, specialLabel)
    print "gotResult2 returns: ", result # will print "a more important message"
-d.addCallback(fn2, ...)
+   print i2, s2, specialLabel               # will print "2, string2, special"
+d.addCallback(gotResult2, 2, "string2", specialLabel="special")
 d.addErrback(errfn,...)    # exception handling for deferreds
 }}}
+
+This is a very important passage... but don't hurt your brain!!
 
 {{{
 If you need to call a method that returns a deferred within your callback chain, just return that deferred, and the result of the secondary deferred's processing chain will become the result that gets passed to the next callback of the primary deferreds processing chain
 }}}
-...
 
 [[Navigation(siblings)]]
