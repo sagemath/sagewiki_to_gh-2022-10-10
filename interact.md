@@ -4,6 +4,9 @@ Post code that demonstrates the use of the interact command in Sage here.    It 
 
 [[TableOfContents]]
 
+ * [:interact/graph_theory:]
+ * [:interact/calculus:]
+
 == Differential Equations ==
 
 === Euler's Method in one variable ===
