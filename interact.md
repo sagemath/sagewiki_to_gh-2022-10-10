@@ -1,5 +1,6 @@
 = Sage Interactions =
-Post code that demonstrates the use of the interact command in Sage here.    It should be easy to just scroll through and paste examples out of here into their own sage notebooks.If you have suggestions on how to improve interact, add them [:interactSuggestions:here] or email sage-support@googlegroups.com .
+
+This is a collection of pages demonstrating the use of the interact command in Sage. It should be easy to just scroll through and copy/paste examples into sage notebooks. If you have suggestions on how to improve interact, add them [:interactSuggestions:here] or email sage-support@googlegroups.com . Of course, your own examples are also welcome!
 
  * [:interact/graph theory:Graph Theory]
  * [:interact/calculus:Calculus]
@@ -12,8 +13,7 @@ Post code that demonstrates the use of the interact command in Sage here.    It 
  * [:interact/graphics:Drawing Graphics]
  * [:interact/misc:Miscellaneous]
 
-
-== Example: Taylor Series ==
+== Explanatory example: Taylor Series ==
 
 This is the code and a mockup animation of the interact command. It defines a slider, seen on top, that can be dragged. Once dragged, it changes the value of the variable "order" and the whole block of code gets evaluated. This principle can be seen in various examples presented on the pages above!
 
