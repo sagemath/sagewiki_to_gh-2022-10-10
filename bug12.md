@@ -27,6 +27,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  1. David Harvey (not sure if I can make it; if I show up, I'll start by slaying #2943)
  1. Burcin Erocal
  1. Carlo Hämäläinen (#3150)
+ 1. Bjarke Hammersholt Roune (#1440, #2932)
 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
 
