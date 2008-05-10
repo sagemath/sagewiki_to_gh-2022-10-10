@@ -30,3 +30,4 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
 
 = Ticket status and reviews needed =
+  * [:/notebook: Notebook bugs (William Stein)]
