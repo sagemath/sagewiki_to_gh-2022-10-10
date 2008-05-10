@@ -4404,6 +4404,8 @@ hzsxjx\.cn
 jdaluminum\.com
 jshengfa\.com
 wx-fd\.com
+usfine\.com
+maplestoryer\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
