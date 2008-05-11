@@ -13,7 +13,7 @@ Twisted Python - Whats the Point?
  * ["/000 Introduction"]
  * ["/100 Twisted Deconstructed"]
  * ["/120 Callbacks and Deferreds"]
- * ['/125 Generators - Illusion of Blocking"]
+ * ["/125 Generators - Illusion of Blocking"]
  * ["/140 Protocols and Factories"]
  * ["/140 Safe Threading (not Thread Safe"]
  * ["/150 Non-Obvious Magic"]
