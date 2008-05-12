@@ -21,9 +21,15 @@ Go to http://sagemath.org/dist/src/index.html to download the tar archive for an
 
 == Installing and running Sage ==
 === How do I use the notebook with Firefox 3.0 beta 5? ===
+There is [https://bugzilla.mozilla.org/show_bug.cgi?id=427081 a bug in Firefox 3.0 beta 5] that causes it to reject connections to the Sage notebook with the error "Certificate key usage inadequate for attempted operation. (Error code: sec_error_inadequate_key_usage)". One solution is to use a different browser, such as Firefox 2, Konqueror, Safari, Opera, or even Internet Explorer. Another solution is to run the notebook in insecure mode by using the command {{{inotebook()}}} instead of {{{notebook()}}}; then Firefox 3.0b5 will work.  Finally, there is a rather tedious workaround:
 
-There is [https://bugzilla.mozilla.org/show_bug.cgi?id=427081 a bug in Firefox 3.0 beta 5] that causes it to reject connections to the Sage notebook with the error "Certificate key usage inadequate for attempted operation. (Error code: sec_error_inadequate_key_usage)". This will be fixed in Firefox 3, but for now one solution is to use a different browser, such as Firefox 2, Konqueror, Safari, Opera, or even Internet Explorer. Another solution is to run the notebook in insecure mode by using the command {{{inotebook()}}} instead of {{{notebook()}}}; then Firefox 3.0b5 will work.
-
+ 1. Go to a notebook with a certificate which fails
+ 1. Click on the warning sign next to the location bar, then "more information"
+ 1. Click "View Certificate", and go to the Details tab # Click "Export", and save the file to your local machine
+ 1. Open Firefox Preferences -> Advanced -> Encryption
+ 1. Click "View Certificates", then "Import"
+ 1. Import the file that you saved in step 4
+ 1. Reload the notebook, you should see another warning message, which has a link "Or you can add an exception..." and the rest is straightforward.
 === How do I compile the source to Sage? ===
 Download the source tar archive, extract the archive, change your directory to be inside of it, and read the README.txt file there.  Basically, after making sure you have the proper prerequisite tools installed, you type {{{make}}}.
 
@@ -49,7 +55,6 @@ You need the prerequisite tools listed in the README.txt file in the root direct
 You can browse the complete source code to everything in Sage at http://www.sagemath.org/hg/.  This is a web interface to the Mercurial repository.  The main source files are at http://www.sagemath.org/hg/sage-main?cmd=manifest;manifest=-1;path=/sage/.  The other directories include docs directories, the package system, etc.
 
 == Getting help ==
-
 === How do I get help? ===
 Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://sagemath.org/community.html for a listing of these resources.
 
@@ -181,11 +186,9 @@ Now every time the appliance reboots, it will automatically load directly to the
 limit maxproc 512 2048
 }}}
   . then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
-
 ----------
  * QUESTION: How do I use the bitwise XOR operator in sage?
- * ANSWER: Define two variables, for example {{{a = 5; b = 8}}}, and evaluate {{{a.__xor__(b)}}}, 13. You can also do {{{(5).__xor__(8)}}} (the parentheses are necessary so that Sage doesn't think you have a real number). 
-
+ * ANSWER: Define two variables, for example {{{a = 5; b = 8}}}, and evaluate {{{a.__xor__(b)}}}, 13. You can also do {{{(5).__xor__(8)}}} (the parentheses are necessary so that Sage doesn't think you have a real number).
 There are several ways to define a function: {{{xor = lambda x, y: x.__xor__(y)}}} and then do {{{xor(3, 8)}}}. Another option, which sneaks around the Sage preparser, is {{{def xor(a,b):  return eval("%s^%s"%(a,b))}}}. You can also turn off the Sage preparser with {{{preparser(False)}}} -- then {{{^}}} will work just like in Python, and you can later turn on the preparser with {{{preparser(True)}}}. (That only works in command-line Sage; in a notebook, switch to Python mode.)
 
 ----------
