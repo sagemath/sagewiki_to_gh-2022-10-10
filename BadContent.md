@@ -4406,6 +4406,7 @@ jshengfa\.com
 wx-fd\.com
 usfine\.com
 maplestoryer\.com
+gcdatenbanken\.(net|info)
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
