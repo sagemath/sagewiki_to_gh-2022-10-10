@@ -1,6 +1,8 @@
 = Sage Interactions - Calculus =
 goto [:interact:interact main page]
 
+[[TableOfContents]]
+
 
 == A contour map and 3d plot of two inverse distance functions ==
 by William Stein
