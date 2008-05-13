@@ -1,6 +1,8 @@
 = Sage Interactions - Number Theory =
 goto [:interact:interact main page]
 
+[[TableOfContents]]
+
 == Factor Trees ==
 by William Stein
 {{{
