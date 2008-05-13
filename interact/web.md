@@ -1,6 +1,8 @@
 = Sage Interactions - Web applications =
 goto [:interact:interact main page]
 
+[[TableOfContents]]
+
 == Stock Market data, fetched from Yahoo and Google ==
 by William Stein
 
