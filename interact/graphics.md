@@ -1,6 +1,9 @@
 = Sage Interactions - Graphics =
 goto [:interact:interact main page]
 
+
+[[TableOfContents]]
+
 == Catalog of 3D Parametric Plots ==
 {{{
 var('u,v')
