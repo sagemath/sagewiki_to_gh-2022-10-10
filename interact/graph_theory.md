@@ -1,6 +1,8 @@
 = Sage Interactions - Graph Theory =
 goto [:interact:interact main page]
 
+[[TableOfContents]]
+
 == Automorphism Groups of some Graphs ==
 by William Stein (I spent less than five minutes on this):
 
