@@ -13,3 +13,4 @@ This does not yet have a time slot scheduled.
 
  * Jason Grout
  * Kiran Kedlaya
+ * Craig Citro
