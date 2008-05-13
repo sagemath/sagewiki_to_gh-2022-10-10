@@ -1,6 +1,8 @@
 = Sage Interactions - Differential Equations =
 goto [:interact:interact main page]
 
+[[TableOfContents]]
+
 == Euler's Method in one variable ==
 by Marshall Hampton. This needs some polishing but its usable as is.
 {{{
