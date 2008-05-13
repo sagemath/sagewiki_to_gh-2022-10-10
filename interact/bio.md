@@ -1,6 +1,8 @@
 = Sage Interactions - Bioinformatics =
 goto [:interact:interact main page]
 
+[[TableOfContents]]
+
 == Web app: protein browser ==
 by Marshall Hampton (tested by William Stein)
 {{{
