@@ -53,6 +53,8 @@ attachment:bisect.png
 
 == Newton's Method ==
 
+Note that there is a more complicated Newton's method below. 
+
 by William Stein
 {{{
 def newton_method(f, c, eps, maxiter=100):
