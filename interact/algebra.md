@@ -1,6 +1,8 @@
 = Sage Interactions - Algebra =
 goto [:interact:interact main page]
 
+[[TableOfContents]]
+
 == Groebner fan of an ideal ==
 by Marshall Hampton; (needs sage-2.11 or higher, with gfan-0.3 interface)
 {{{
