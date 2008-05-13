@@ -1,6 +1,9 @@
 = Sage Interactions - Miscellaneous =
 goto [:interact:interact main page]
 
+
+[[TableOfContents]]
+
 == Profile a snippet of code ==
 {{{
 html('<h2>Profile the given input</h2>')
