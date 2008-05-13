@@ -2,6 +2,8 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  * [http://reddit.com/info/6j7ly/comments/ Sage on Reddit yet again (2008-05-13)]
+
   * [http://vnoel.wordpress.com/2008/05/03/bye-matlab-hello-python-thanks-sage/ Bye Matlab, hello Python, thanks Sage] by Vincent Noel, an atmospheric research scientist in France.
 
   * [http://openwetware.org/wiki/User:Marshall_Hampton/Sage  Sage and Cython: a brief introduction (Open Wetware)] by Marshall Hampton
