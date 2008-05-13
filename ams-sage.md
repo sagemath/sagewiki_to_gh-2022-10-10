@@ -1,6 +1,6 @@
 = AMS Special Session on SAGE and Mathematical Research Using Open Source Software =
 
-== Organizers ===
+=== Organizers ===
 
     * William A. Stein, University of Washington, Seattle wstein@gmail.com
     * David Saunders, University of Delaware
