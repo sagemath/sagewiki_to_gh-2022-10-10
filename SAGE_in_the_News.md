@@ -2,6 +2,8 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  * [http://www.walkingrandomly.com/?p=103 Walking Randomly: Interacting with SAGE - Part 1 (blog)]
+
   * [http://reddit.com/info/6j7ly/comments/ Sage on Reddit yet again (2008-05-13)]
 
   * [http://vnoel.wordpress.com/2008/05/03/bye-matlab-hello-python-thanks-sage/ Bye Matlab, hello Python, thanks Sage] by Vincent Noel, an atmospheric research scientist in France.
