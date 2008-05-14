@@ -4407,6 +4407,7 @@ wx-fd\.com
 usfine\.com
 maplestoryer\.com
 gcdatenbanken\.(net|info)
+google\.com/notebook/public
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
