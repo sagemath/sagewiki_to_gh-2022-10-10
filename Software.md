@@ -6,12 +6,9 @@ This is a list of programs and packages for mathematics that might possibly be i
  * http://www.gnu.org/software/glpk/ -- Linear programming.  It's 1MB, and very easy to build.
  * http://www-sop.inria.fr/galaad/software/synaps/ -- It's a GPL'd C++ library for doing numerical and algebraic stuff together and seems mature.  It requires FORTRAN and is very hard to build.  I skimmed some source code and it seemed relatively readable at first glance, and maybe there is something useful in there.   It's focused on numerical over algebraic.
  * http://yacas.sourceforge.net/ --   		YACAS is an easy to use, general purpose Computer Algebra System. It uses 		its own programming language (a sort of Lisp dialect) designed for symbolic as well as 		arbitrary-precision numerical computations (it can be linked to GMP library). YACAS comes with 		extensive documentation (320+ pages) covering the scripting language, 		the functionality that is already implemented in the system, and the 		algorithms used.
- * [https://networkx.lanl.gov/wiki NetworkX] (graph theory).
  * [http://servus.math.su.se/bergman/ Bergman] (non-commutative Groebner bases).
- * [http://www.mathe2.uni-bayreuth.de/axel/symneu_engl.html Symmetrica] (combinatorial representation theory).
  * [http://www.mit.edu/~ibaran/kseg.html kseg] (dynamic Euclidean geometry, a la Geometer's Sketchpad; relevant for educational users).
  * [http://www-swiss.ai.mit.edu/~gjs/6946/linux-install.htm scmutils], an MIT-Scheme package for symbolic manipulation, mostly with differential geometry. Created for the [http://www-swiss.ai.mit.edu/~gjs/6946/sicm-html/index.html SICM]: Structure and Interpretation of Classical Mechanics course
- * [http://rpy.sourceforge.net/ rpy] A python interface to [http://www.r-project.org/ R], an open source statistics package. 
 
 == Software that is free and tries to do what SAGE does ==
  * http://www.mathemagix.org/mmxweb/web/welcome.en.html -- Their overall goal is very similar to SAGE's.  However, they make different design choices than we have with SAGE in almost every way:
