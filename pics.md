@@ -399,3 +399,17 @@ curve = animate(v) # Animate the curve, and ...
 
 }}}
 We've shown the final image; done with program.
+
+ * I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings:
+
+http://sage.math.washington.edu/home/wdj/art/padic-seasons-greetings.png
+
+This is the code:
+
+{{{
+sage: P1 = Zp(3).plot(rgbcolor=(0,1,0))
+sage: P2 = Zp(7).plot(rgbcolor=(1,0,0))
+sage: P3 = text("$Seasons$ $Greetings$ ",(0.0,1.8))
+sage: P4 = text("$from$ $everyone$ $at$ sagemath.org!",(0.1,-1.6))
+sage: (P1+P2+P3+P4).show(axes=False)
+}}}
