@@ -2,6 +2,8 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  * [http://www.funjackals.com/blog/?p=274 Sage Makes Me Happier Than Seems Reasonable]
+
   * [http://www.walkingrandomly.com/?p=103 Walking Randomly: Interacting with SAGE - Part 1 (blog)]
 
   * [http://reddit.com/info/6j7ly/comments/ Sage on Reddit yet again (2008-05-13)]
