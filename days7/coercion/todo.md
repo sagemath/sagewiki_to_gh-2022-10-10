@@ -16,10 +16,10 @@ Done
  * complex, real
  * integer_mod
  * finite fields
+ * monoids/modules
 
 In progress
 
- * monoids/modules
  * matrix
  * probability (Mike)
 
