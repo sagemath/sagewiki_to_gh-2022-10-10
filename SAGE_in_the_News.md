@@ -2,6 +2,8 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE.
 
+  * [http://blog.mikael.johanssons.org/archive/2008/05/parallell-and-cluster-mpi4py/ Parallel and cluster computing with MPI4Py (and Sage)]
+
   * [http://pozorvlak.livejournal.com/103579.html A blog post about sage with many amusing comments at the bottom]
 
   * [http://www.macresearch.org/plug-and-play-scientific-python-sage Plug-and-Play Scientific Python with SAGE]
