@@ -28,6 +28,7 @@ EUROPEAN:
 CANADIAN:
 
  * Nick Alexander (June 13-20)
+ * Arne Storjohann
 
 AMERICAN:
 
@@ -37,6 +38,7 @@ AMERICAN:
  * Nathan Dunfield (tentative; probably will attend)
  * Gary Furnish (June 6-August) -- Windows port, Symbolics, Cython
  * Dan Gindikin (pnylab.com; Princeton) -- Cython
+ * Chris Gorecki -- Windows port
  * Mike Hansen (June 13-20)
  * David Harvey (probably will not attend)
  * David Roe (June 13-20)
