@@ -62,6 +62,7 @@ LOCAL:
  * Rob Beezer (from Univ of Puget Sound) -- will give an '''education-oriented''' colloquium talk on his free open source linear algebra book
  * Tom Boothby (June 13-20)
  * Robert Bradshaw
+ * Timothy Clemans -- Sage Notebook & DSage web interface
  * Josh Kantor
  * Emily Kirkman
  * Robert Miller (June 13-20)
