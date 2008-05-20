@@ -3372,7 +3372,6 @@ staticstroke\.tr\.cx
 vuhavrva\.com
 nfzwzphv\.com
 ljhasdic\.com
-volny\.cz
 peoazsog\.com
 szsbqqdb\.com
 kvxkloks\.com
