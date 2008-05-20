@@ -76,10 +76,13 @@ LOCAL:
 == Hotel information ==
 
 I have already pre-paid for a bunch of rooms at the Collegiana, so many of you can stay there:
+[:/roommates: Roommate list]
+{{{
     The Collegiana Inn
     4311 - 12th Ave. NE
     Seattle, WA 98105
     (206) 732-3200
+}}}
 
 Back during SD2, William recommend the Seattle University Travelodge:
 
