@@ -3,7 +3,15 @@
 
 [http://groups.google.com/group/sage-dev1 Mailing List]
 
-=== Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Microsoft Windows ===
+=== Groups: Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Microsoft Windows ===
+
+ * [:/cython: The Cython Group]
+ * [:/linalg: The Exact Linear Algebra Group]
+ * [:/dsage: The Parallel Computation Group]
+ * [:/windows: The Porting Sage to Windows Group]
+
+
+
 === ORGANIZERS: Robert Bradshaw, William Stein and Tom Boothby ===
 === DATES: June 13-20, 2008 ===
 === LOCATION: Seattle, Washington -- Mechanical Engineering 208 ===
