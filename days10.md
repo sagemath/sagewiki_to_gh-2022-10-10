@@ -2,6 +2,15 @@
 
 == October 10 to 15, 2008 at the Lorraine Laboratory of IT Research and its Applications (Loria) ==
 
+=== Program committee ===
+
+   * Michael Abshoff
+   * Timothy Daly
+   * Laurent Fousse
+   * Clément Pernet
+   * Ludovic Perret
+   * Paul Zimmermann
+
 The following program is preliminary.
 
 === Program: ===
