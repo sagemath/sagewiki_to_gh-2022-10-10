@@ -10,6 +10,12 @@
  * [:/dsage: The Parallel Computation Group]
  * [:/windows: The Porting Sage to Windows Group]
 
+=== Outings ===
+ 
+ * Party
+ * Camping
+ * Tourism afternoon
+
 
 
 === ORGANIZERS: Robert Bradshaw, William Stein and Tom Boothby ===
