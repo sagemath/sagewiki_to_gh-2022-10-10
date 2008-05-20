@@ -8,6 +8,7 @@
   * Tom Boothby
   * Craig Citro
   * Burcin Erocal
+  * Robert Miller
   * David Roe (p-adic linear algebra?)
   * Arne Storjohann
   * William Stein
