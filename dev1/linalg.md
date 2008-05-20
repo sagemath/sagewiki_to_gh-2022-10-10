@@ -8,7 +8,7 @@
   * Tom Boothby
   * Craig Citro
   * Burcin Erocal
-  * Robert Miller
+  * Robert Miller (especially sparse GF(2))
   * David Roe (p-adic linear algebra?)
   * Arne Storjohann
   * William Stein
