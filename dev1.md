@@ -18,7 +18,7 @@
 
 
 === Colloquium Talks ===
- * Martin Albrecht: Multiplying mod matrices
+ * Martin Albrecht: Multiplying GF(2) matrices
  * Rob Beezer: Writing and maintaining an open source undergraduate linear algebra book
  * Dan Gindikin -- Pex: combining Cython and Numpy
  * Arne Storjohann -- Exact Linear Algebra
