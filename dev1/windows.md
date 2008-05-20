@@ -1,8 +1,23 @@
 = Porting Sage to Windows =
 
-  * Michael Abshoff
-  * Gary Furnish
-  * Chris Gorecki
-  * Dan Shumow
-  * William Stein
-  * Ralf-Philipp Weinmann
+ * Michael Abshoff
+ * Gary Furnish
+ * Chris Gorecki
+ * Dan Shumow
+ * William Stein
+ * Ralf-Philipp Weinmann
+
+= Working Plan =
+
+I [Michael Abshoff] figure that I will help organize the Windows track of Dev1, so here are my thought on the issue: During Dev1 I would suggest that we work on two problem complexes:
+
+ * Cygwin port of Sage
+ * Proto-Sage
+
+== Cygwin port of Sage ==
+
+The Cygwin port of Sage is self explanatory I would assume we will either be very close or done with a working port when Dev1 starts. There will likely be some open issue and since the Cygwin port is essential to test MSVC-ized components during the MSVC port I would really like to have it well working and kept up
+
+== Proto-Sage ==
+
+Proto-Sage has the goal to start with Python 2.5.2 compiled with MSVC in 32 or 64 bit mode and add as many components from Sage to it as soon as they work, i.e. add numpy/scipy, Sympy, mercurial and so on. The list of packages shouldn't be limited to Python based spkgs, i.e. once we have pari up and running with MSVC it should be added to Proto-Sage. We should build a binary installer for Proto-Sage with individual components. Eventually it would be great for the installer to be able to fetch only new and updated packages from an online repo. The eventual goal of Proto-Sage is to become full fledged Sage once the Sage library has been ported and is working.
