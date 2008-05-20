@@ -23,3 +23,13 @@ GOAL 1 for Dev Days 1: A 100% complete working Cygwin port of Sage
 == Proto-Sage ==
 
 Proto-Sage has the goal to start with Python 2.5.2 compiled with MSVC in 32 or 64 bit mode and add as many components from Sage to it as soon as they work, i.e. add numpy/scipy, Sympy, mercurial and so on. The list of packages shouldn't be limited to Python based spkgs, i.e. once we have pari up and running with MSVC it should be added to Proto-Sage. We should build a binary installer for Proto-Sage with individual components. Eventually it would be great for the installer to be able to fetch only new and updated packages from an online repo. The eventual goal of Proto-Sage is to become full fledged Sage once the Sage library has been ported and is working.
+
+GOAL 2: Create a first minimal "Sage for Windows" distribution with MSI installer.  Hopefully this will include:
+   * 32/64-bit MSVC Python
+   * Pexpect (under development; may use xmlrpc and only talk to Python if this doesn't work)
+   * The Sage interfaces
+   * The Sage notebook
+   * Twisted
+   * Cython
+
+This will already be extremely useful to a lot of Python people, though it has little to do with mathematics. 
