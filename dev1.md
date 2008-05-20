@@ -27,8 +27,8 @@ EUROPEAN:
 
 CANADIAN:
 
- * Nick Alexander (June 13-20)
- * Arne Storjohann
+ * Nick Alexander (June 13-20) -- exact linear algebra, modular forms
+ * Arne Storjohann -- exact linear algebra
 
 AMERICAN:
 
