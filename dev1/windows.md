@@ -16,7 +16,9 @@ I [Michael Abshoff] figure that I will help organize the Windows track of Dev1, 
 
 == Cygwin port of Sage ==
 
-The Cygwin port of Sage is self explanatory I would assume we will either be very close or done with a working port when Dev1 starts. There will likely be some open issue and since the Cygwin port is essential to test MSVC-ized components during the MSVC port I would really like to have it well working and kept up
+The Cygwin port of Sage is self explanatory. I would assume we will either be very close or done with a working port when Dev1 starts. There will likely be some open issue and since the Cygwin port is essential to test MSVC-ized components during the MSVC port I would really like to have it well working and kept up.   Thus:
+
+GOAL 1 for Dev Days 1: A 100% complete working Cygwin port of Sage
 
 == Proto-Sage ==
 
