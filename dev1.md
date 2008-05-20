@@ -17,6 +17,12 @@
  * Tourism afternoon
 
 
+=== Colloquium Talks ===
+ * Martin Albrecht: Multiplying mod matrices
+ * Rob Beezer: Writing and maintaining an open source undergraduate linear algebra book
+ * Dan Gindikin -- Pex: combining Cython and Numpy
+ * Arne Storjohann -- Exact Linear Algebra
+ * Glenn Tarbox -- What is Twisted?
 
 === ORGANIZERS: Robert Bradshaw, William Stein and Tom Boothby ===
 === DATES: June 13-20, 2008 ===
