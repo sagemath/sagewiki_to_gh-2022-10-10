@@ -47,7 +47,7 @@ Todo
  * crypto
  * groups
  * modular
- * categories
+ * categories (homset.py, pushout.py, category_types.py)
 
 
 
