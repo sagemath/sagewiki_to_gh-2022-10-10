@@ -39,14 +39,14 @@ Todo
  * coding, functions, graphs
  * calculus (test_sympy.py, calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
- * sets
+ * sets (set.py)
  * geometry (lattice_polytope.py)
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
  * schemes
  * crypto
  * groups
- * modular (lots :-)
+ * modular ( lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
 
 
