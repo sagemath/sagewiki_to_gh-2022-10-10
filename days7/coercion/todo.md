@@ -20,6 +20,7 @@ Done
  * probability
  * games
  * catalogue, dsage, media, stats, server, logic, tests, misc, numerical
+ * algebras
 
 In progress
 
@@ -42,7 +43,6 @@ Todo
  * libs
  * interfaces
  * rings
- * algebras
  * schemes
  * crypto
  * groups
