@@ -39,7 +39,7 @@ Todo
  * calculus (test_sympy.py, calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
  * sets
- * geometry
+ * geometry (lattice_polytope.py)
  * libs
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
