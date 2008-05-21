@@ -17,11 +17,12 @@ Done
  * integer_mod
  * finite fields
  * monoids/modules
+ * probability
 
 In progress
 
  * matrix
- * probability (Mike)
+ * combinat (Mike)
 
 Todo
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical, gsl, quadratic_forms
@@ -32,7 +33,6 @@ Todo
  * geometry
  * libs
  * interfaces
- * combinat
  * rings
  * algebras
  * schemes
