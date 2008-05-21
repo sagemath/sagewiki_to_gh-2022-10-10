@@ -19,6 +19,7 @@ Done
  * monoids/modules
  * probability
  * games
+ * catalogue, dsage, media, stats, server, logic, tests, misc, numerical
 
 In progress
 
@@ -26,7 +27,13 @@ In progress
  * combinat (Mike)
 
 Todo
- * catalogue, dsage, databases, ext, media, stats, server, plot, logic, tests lfunctions, misc, numerical, gsl, quadratic_forms
+ * databases( database.py )
+ * ext ( interactive_constructors_c.pyx )
+ * plot ( plot.py, plot3d/shapes.pyx, animate.py, tachyon.py )
+ * lfunctions ( dokchitser.py )
+ * misc (latex.py, functional.py, misc.py)
+ * gsl ( dft.py, integration.pyx )
+ * quadratic forms ( binary_qf.py )
  * coding, functions, graphs
  * calculus
  * number fields
