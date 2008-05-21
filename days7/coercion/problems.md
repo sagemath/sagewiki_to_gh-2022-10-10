@@ -1,4 +1,4 @@
-= Segfaults = 
+= Segfaults =
 {{{
 sage: R = QQ['x,y'].fraction_field()
 sage: x,y = R.gens()
