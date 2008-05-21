@@ -18,6 +18,7 @@ Done
  * finite fields
  * monoids/modules
  * probability
+ * games
 
 In progress
 
@@ -25,7 +26,7 @@ In progress
  * combinat (Mike)
 
 Todo
- * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical, gsl, quadratic_forms
+ * catalogue, dsage, databases, ext, media, stats, server, plot, logic, tests lfunctions, misc, numerical, gsl, quadratic_forms
  * coding, functions, graphs
  * calculus
  * number fields
