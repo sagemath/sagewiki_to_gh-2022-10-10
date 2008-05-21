@@ -41,7 +41,7 @@ Todo
  * sets
  * geometry
  * libs
- * interfaces
+ * interfaces (done except for doctest failures caused elsewhere)
  * rings
  * schemes
  * crypto
