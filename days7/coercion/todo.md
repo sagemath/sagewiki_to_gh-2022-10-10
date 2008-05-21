@@ -21,6 +21,7 @@ Done
  * games
  * catalogue, dsage, media, stats, server, logic, tests, misc, numerical
  * algebras
+ * libs
 
 In progress
 
@@ -40,7 +41,6 @@ Todo
  * number fields
  * sets
  * geometry (lattice_polytope.py)
- * libs
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
  * schemes
