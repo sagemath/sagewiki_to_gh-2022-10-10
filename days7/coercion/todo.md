@@ -35,7 +35,7 @@ Todo
  * gsl ( dft.py, integration.pyx )
  * quadratic forms ( binary_qf.py )
  * coding, functions, graphs
- * calculus
+ * calculus (test_sympy.py, calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
  * sets
  * geometry
