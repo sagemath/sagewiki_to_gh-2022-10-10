@@ -12,3 +12,4 @@ Notes:
  * Nick Alexander is happy to room with anyone.
  * Martin Albrecht paired with Nick before, so why not again.
  * Bober is happy to room with anyone.
+ * Ralf is happy to room with anyone.
