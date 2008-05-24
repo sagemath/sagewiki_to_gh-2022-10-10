@@ -8,7 +8,7 @@ I also recently become a release manager for Sage and I chaired a number of rele
 
 === Currently Working on ===
  * Probably chairing the current Sage release
- * [:solaris:Solaris port of Sage}
+ * [:solaris:Solaris port of Sage]
  * [:freebsd:FreeBSD port of Sage]
  * [:windows:MSVC port of Sage]
  * [:windows:Cygwin re-port of Sage]
