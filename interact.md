@@ -3,6 +3,7 @@
 This is a collection of pages demonstrating the use of the interact command in Sage. It should be easy to just scroll through and copy/paste examples into sage notebooks. If you have suggestions on how to improve interact, add them [:interactSuggestions:here] or email sage-support@googlegroups.com . Of course, your own examples are also welcome!
 
  * [:interact/graph theory:Graph Theory]
+ * [:interact/fractal:Fractals]
  * [:interact/calculus:Calculus]
  * [:interact/diffeq:Differential Equations]
  * [:interact/linear algebra:Linear Algebra]
