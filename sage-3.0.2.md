@@ -6,14 +6,14 @@ Sage 3.0.2 was released on May 24th, 2008. For the official, comprehensive relea
 == Posets and Semi-Lattices (Peter Jipsen and Franco Saliola) ==
 Sage now includes basic support for finite posets and semi-lattices. There are several ways to define a finite poset.
 
-A tuple of elements and cover relations:
+1. A tuple of elements and cover relations:
 
 {{{#!python
 sage: Poset(([1,2,3,4,5,6,7],[[1,2],[3,4],[4,5],[2,5]]))
 Finite poset containing 7 elements
 }}}
 
-Alternatively, using the ''cover_relations=False'' keyword, the relations need not be cover relations (and they will be computed).
+2. Alternatively, using the ''cover_relations=False'' keyword, the relations need not be cover relations (and they will be computed).
 
 {{{#!python
 sage: elms = [1,2,3,4]
@@ -24,7 +24,7 @@ sage: P.cover_relations()
 [[1, 2], [2, 3], [3, 4]]
 }}}
 
-A list or dictionary of upper covers:
+3. A list or dictionary of upper covers:
 
 {{{#!python
 sage: Poset({'a':['b','c'], 'b':['d'], 'c':['d'], 'd':[]})
@@ -33,7 +33,7 @@ sage: Poset([[1,2],[4],[3],[4],[]])
 Finite poset containing 5 elements    
 }}}
 
-An acyclic DiGraph:
+4. An acyclic directory graph:
 
 {{{#!python
 sage: dag = DiGraph({0:[2,3], 1:[3,4], 2:[5], 3:[5], 4:[5]})
