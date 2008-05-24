@@ -51,14 +51,22 @@ for g in grs:
     except:
         grs.remove(g)
 @interact
-def graph_browser(graph_name = selector(grs, label = "Graph type:")):
+def graph_browser(graph_name = selector(grs, label = "Graph type:"), newargs = input_box('',type=str,label='tuple of args'), output_type = selector(['2D','3D'], default='2D')):
     base_g_str = 'graphs.' + graph_name
     docs = eval(base_g_str + '.__doc__')
     doc_ex_loc = docs.find('EXAMPLE')
     if docs.find('PLOTTING') != -1:
         doc_ex_loc = min(doc_ex_loc, docs.find('PLOTTING'))
     print docs[0:doc_ex_loc].replace('\n        ','\n')
-    t_graph = eval(examples[graph_name])
-    show(t_graph)
+    if newargs != '':
+        try:
+            t_graph = eval(base_g_str + newargs)
+        except:
+            print "Invalid arguments, using default"
+            t_graph = eval(examples[graph_name])
+    else: 
+        t_graph = eval(examples[graph_name])
+    if output_type == '2D': show(t_graph)
+    if output_type == '3D': t_graph.show3d()
 }}}
 attachment:graph_browse.png
