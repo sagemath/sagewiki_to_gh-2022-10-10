@@ -22,6 +22,7 @@ Done
  * catalogue, dsage, media, stats, server, logic, tests, misc, numerical
  * algebras
  * libs
+ * quadratic forms ( binary_qf.py )
 
 In progress
 
@@ -35,7 +36,6 @@ Todo
  * lfunctions ( dokchitser.py )
  * misc (latex.py, functional.py, misc.py)
  * gsl ( dft.py -- group failures )
- * quadratic forms ( binary_qf.py )
  * coding, functions, graphs
  * calculus (test_sympy.py, calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
