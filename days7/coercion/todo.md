@@ -22,7 +22,8 @@ Done
  * catalogue, dsage, media, stats, server, logic, tests, misc, numerical
  * algebras
  * libs
- * quadratic forms ( binary_qf.py )
+ * quadratic forms
+ * lfunctions
 
 In progress
 
@@ -33,7 +34,6 @@ Todo
  * databases( database.py )
  * ext ( interactive_constructors_c.pyx )
  * plot ( plot.py, plot3d/shapes.pyx, animate.py, tachyon.py )
- * lfunctions ( dokchitser.py )
  * misc (latex.py, functional.py, misc.py)
  * gsl ( dft.py -- group failures )
  * coding, functions, graphs
