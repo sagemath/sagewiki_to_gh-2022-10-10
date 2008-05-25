@@ -34,7 +34,7 @@ Todo
  * plot ( plot.py, plot3d/shapes.pyx, animate.py, tachyon.py )
  * lfunctions ( dokchitser.py )
  * misc (latex.py, functional.py, misc.py)
- * gsl ( dft.py, integration.pyx )
+ * gsl ( dft.py -- group failures )
  * quadratic forms ( binary_qf.py )
  * coding, functions, graphs
  * calculus (test_sympy.py, calculus.py, desolvers.py, wester.py, equations.py)
