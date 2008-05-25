@@ -37,7 +37,7 @@ Todo
  * misc (latex.py, functional.py, misc.py)
  * gsl ( dft.py -- group failures )
  * coding, functions, graphs
- * calculus (test_sympy.py, calculus.py, desolvers.py, wester.py, equations.py)
+ * calculus (calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
  * sets (set.py)
  * geometry (lattice_polytope.py)
