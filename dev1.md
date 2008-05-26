@@ -18,11 +18,12 @@
 
 
 === Colloquium Talks ===
- * Martin Albrecht: Linear Algebra over GF(2)
- * Rob Beezer: Writing and maintaining an open source undergraduate linear algebra book
- * Dan Gindikin -- Pex: combining Cython and Numpy
- * Arne Storjohann -- Exact Linear Algebra
- * Glenn Tarbox -- What is Twisted?
+ * Martin Albrecht (June 13, 11am): Linear Algebra over GF(2)
+ * Dan Gindikin (June 14, 11am) -- The Joy of Pex
+ * Glenn Tarbox (June 15, 11am) -- What is Twisted?
+ * Rob Beezer (June 16, 11am): Writing and maintaining an open source undergraduate linear algebra book
+ * Arne Storjohann (June 17, 11am) -- Exact Linear Algebra
+
 
 === ORGANIZERS: Robert Bradshaw, William Stein and Tom Boothby ===
 === DATES: June 13-20, 2008 ===
