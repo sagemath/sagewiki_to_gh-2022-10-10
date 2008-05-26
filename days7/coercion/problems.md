@@ -9,6 +9,20 @@
 }}}
 
 {{{
+sage:         sage: S = Set(QQ)
+sage:         sage: T = Set(ZZ['x'])
+sage:         sage: X = S.intersection(T)
+sage: a = X._X(4); a
+4
+sage: b = X._Y(4); b
+4
+sage: a == b
+False
+sage: QQ(4) == ZZ['x'](4)
+True
+}}}
+
+{{{
 sage: pi in QQ
 ---------------------------------------------------------------------------
 <type 'exceptions.AttributeError'>        Traceback (most recent call last)
