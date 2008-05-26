@@ -2,6 +2,44 @@
 
 
 = Errors =
+The following infinite recursion comes up in a couple places.  For example sage/rings/qqbar.py
+{{{
+
+      File "coerce_maps.pyx", line 135, in sage.structure.coerce_maps.NamedConvertMorphism._call_ (sage/structure/coerce_maps.c:3429)
+      File "/opt/sage-2.10.1/local/lib/python2.5/site-packages/sage/calculus/calculus.py", line 5052, in _polynomial_
+        return R( R.base_ring()(self) )
+      File "parent.pyx", line 189, in sage.structure.parent.Parent.__call__ (sage/structure/parent.c:1993)
+      File "morphism.pyx", line 124, in sage.categories.morphism.Morphism.__call__ (sage/categories/morphism.c:2677)
+        Defn: Choice of lifting map
+      File "coerce_maps.pyx", line 135, in sage.structure.coerce_maps.NamedConvertMorphism._call_ (sage/structure/coerce_maps.c:3429)
+      File "/opt/sage-2.10.1/local/lib/python2.5/site-packages/sage/calculus/calculus.py", line 5052, in _polynomial_
+        return R( R.base_ring()(self) )
+      File "parent.pyx", line 189, in sage.structure.parent.Parent.__call__ (sage/structure/parent.c:1993)
+      File "morphism.pyx", line 124, in sage.categories.morphism.Morphism.__call__ (sage/categories/morphism.c:2677)
+        Defn: Choice of lifting map
+      File "coerce_maps.pyx", line 135, in sage.structure.coerce_maps.NamedConvertMorphism._call_ (sage/structure/coerce_maps.c:3429)
+      File "/opt/sage-2.10.1/local/lib/python2.5/site-packages/sage/calculus/calculus.py", line 5052, in _polynomial_
+        return R( R.base_ring()(self) )
+      File "parent.pyx", line 189, in sage.structure.parent.Parent.__call__ (sage/structure/parent.c:1993)
+      File "morphism.pyx", line 124, in sage.categories.morphism.Morphism.__call__ (sage/categories/morphism.c:2677)
+        Defn: Choice of lifting map
+      File "coerce_maps.pyx", line 135, in sage.structure.coerce_maps.NamedConvertMorphism._call_ (sage/structure/coerce_maps.c:3429)
+      File "/opt/sage-2.10.1/local/lib/python2.5/site-packages/sage/calculus/calculus.py", line 5052, in _polynomial_
+        return R( R.base_ring()(self) )
+      File "parent.pyx", line 189, in sage.structure.parent.Parent.__call__ (sage/structure/parent.c:1993)
+      File "morphism.pyx", line 124, in sage.categories.morphism.Morphism.__call__ (sage/categories/morphism.c:2677)
+        Defn: Choice of lifting map
+      File "coerce_maps.pyx", line 135, in sage.structure.coerce_maps.NamedConvertMorphism._call_ (sage/structure/coerce_maps.c:3429)
+      File "/opt/sage-2.10.1/local/lib/python2.5/site-packages/sage/calculus/calculus.py", line 5052, in _polynomial_
+        return R( R.base_ring()(self) )
+      File "parent.pyx", line 189, in sage.structure.parent.Parent.__call__ (sage/structure/parent.c:1993)
+      File "morphism.pyx", line 124, in sage.categories.morphism.Morphism.__call__ (sage/categories/morphism.c:2677)
+        Defn: Choice of lifting map
+      File "coerce_maps.pyx", line 135, in sage.structure.coerce_maps.NamedConvertMorphism._call_ (sage/structure/coerce_maps.c:3429)
+      File "/opt/sage-2.10.1/local/lib/python2.5/site-packages/sage/calculus/calculus.py", line 5049, in _polynomial_
+        if self.number_of_arguments() == 0
+}}}
+
 {{{
 
     TypeError: sage.structure.parent.Set_generic.__new__(Set_object_enumerated) is not safe, use sage.structure.wrapper_parent.WrapperParent_model1.__new__()
