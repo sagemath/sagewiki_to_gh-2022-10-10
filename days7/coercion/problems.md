@@ -9,6 +9,11 @@
 }}}
 
 {{{
+    NotImplementedError: _call_with_args not overridden to accept arguments for <type 'sage.categories.morphism.IdentityMorphism'>
+
+}}}
+
+{{{
 sage:         sage: S = Set(QQ)
 sage:         sage: T = Set(ZZ['x'])
 sage:         sage: X = S.intersection(T)
