@@ -92,3 +92,5 @@ Frobby is software for computations with monomial ideals, and is included in Sag
 == Self-orthogonal Binary Codes (Robert Miller) ==
 
 == Notebook Improvements (William Stein, Tom Boothby) ==
+
+Tom Boothby and William Stein spent a long day just systematically fixing numerous bugs in the Sage notebook.   This should improve the overall quality of the notebook and make future development easier. 
