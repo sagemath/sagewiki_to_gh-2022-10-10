@@ -90,6 +90,7 @@ sage: P.show()
 Frobby is software for computations with monomial ideals, and is included in Sage 3.0.2 as an optional spkg. The current functionality of the Sage interface to Frobby is irreducible decomposition of monomial ideals, while work is on-going to expose more of the capabilities of Frobby, such as Hilbert-Poincare series, primary decomposition and Alexander dual. Frobby is orders of magnitude faster than other programs for many of its computations, primarily owing to an optimized implementation of the Slice Algorithm. See http://www.broune.com/frobby/ for more on Frobby.
 
 == Self-orthogonal Binary Codes (Robert Miller) ==
+Based on a part of the Supersymmetry project described in the SCREMS grant proposal, this is an implementation of the method of canonical augmentation on self-orthogonal binary linear error-correcting codes of length up to 32 (or, with trivial modification, 64). Based on the existing code to do automorphism groups and canonical labels.
 
 == Notebook Improvements (William Stein, Tom Boothby) ==
 
