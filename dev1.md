@@ -40,7 +40,7 @@ EUROPEAN:
 
  * Michael Abshoff (June 7-27) -- Windows port, exact linear algebra
  * Martin Albrecht (June 12-21) -- exact linear algebra (GF(2) LUP)
- * Stephan Behnel (June 12-19)  -- Cython
+ * Stephan Behnel (canceled)  -- Cython
  * Burcin Erocal (June 13-20) -- exact linear algebra, Cython
  * David Kohel (June 12-20) 
  * Dag Sverre Seljebotn (June 12-23) -- Cython
