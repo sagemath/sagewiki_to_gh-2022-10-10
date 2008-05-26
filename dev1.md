@@ -18,7 +18,7 @@
 
 
 === Colloquium Talks ===
- * Martin Albrecht (June 13, 11am): Linear Algebra over GF(2)
+ * Martin Albrecht (June 13, 11am): From the L1 Cache to Algebraic Cryptanalysis: Linear Algebra over GF(2)
  * Dan Gindikin (June 14, 11am) -- The Joy of Pex
  * Glenn Tarbox (June 15, 11am) -- What is Twisted?
  * Rob Beezer (June 16, 11am): Writing and maintaining an open source undergraduate linear algebra book
