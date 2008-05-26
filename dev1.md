@@ -23,6 +23,8 @@
  * Glenn Tarbox (June 15, 11am) -- What is Twisted?
  * Rob Beezer (June 16, 11am): Writing and maintaining an open source undergraduate linear algebra book
  * Arne Storjohann (June 17, 11am) -- Exact Linear Algebra
+ * Michael Abshoff (June 18, 11am) -- The Sage development process
+ * Mike Hansen (June 19, 11am) -- Combinatorics
 
 
 === ORGANIZERS: Robert Bradshaw, William Stein and Tom Boothby ===
