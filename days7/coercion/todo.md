@@ -30,13 +30,14 @@ In progress
 
  * matrix
  * combinat (Mike)
+ * functions (robertwb)
 
 Todo
  * databases( database.py )
  * plot ( plot.py, plot3d/shapes.pyx, animate.py, tachyon.py )
  * misc (latex.py, functional.py, misc.py)
  * gsl ( dft.py -- group failures )
- * coding, functions, graphs
+ * coding, graphs
  * calculus (calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
  * sets (set.py)
