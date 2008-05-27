@@ -12,15 +12,14 @@
 
 === Schedule ===
 
-||Friday, June 13|| 11am talk by Martin Albrecht || 4pm status reports || 
+||Friday, June 13|| 11am talk by Martin Albrecht || 4pm status reports ||
 ||Saturday, June 14|| 11am talk by Dan Gindikin  || 4pm status reports || 7pm party at Glenn Tarbox's house ||
-||Sunday, June 15|| 11am talk by Glenn Tarbox || 5pm status reports || 
-||Monday, June 16|| 11am talk by Rob Beezer|| 5pm status reports || 
-||Tuesday, June 17|| 11am talk by Arne Storjohann|| 5pm status reports || 
-||Wednesday, June 18|| 11am talk by Michael Abshoff|| 5pm status reports || 
-||Thursday, June 19|| 11am talk by Mike Hansen|| 5pm status reports || 
-||Friday, June 20|| 11am talk by ?? || 1pm-3pm final wrap session || 
-
+||Sunday, June 15|| 11am talk by Glenn Tarbox || Hiking/Tourism afternoon ||
+||Monday, June 16|| 11am talk by Rob Beezer|| 5pm status reports ||
+||Tuesday, June 17|| 11am talk by Arne Storjohann|| 5pm status reports ||
+||Wednesday, June 18|| 11am talk by Michael Abshoff|| 5pm status reports ||
+||Thursday, June 19|| 11am talk by Mike Hansen|| 5pm status reports ||
+||Friday, June 20|| 11am talk by ?? || 1pm-3pm final wrap session ||
 
 
 
