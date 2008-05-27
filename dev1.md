@@ -10,6 +10,20 @@
  * [:/dsage: The Parallel Computation Group]
  * [:/windows: The Porting Sage to Windows Group]
 
+=== Schedule ===
+
+||Friday, June 13|| 11am talk by Martin Albrecht || 4pm status reports || 
+||Saturday, June 14|| 11am talk by Dan Gindikin  || 4pm status reports || 7pm party at Glenn Tarbox's house ||
+||Sunday, June 15|| 11am talk by Glenn Tarbox || 5pm status reports || 
+||Monday, June 16|| 11am talk by Rob Beezer|| 5pm status reports || 
+||Tuesday, June 17|| 11am talk by Arne Storjohann|| 5pm status reports || 
+||Wednesday, June 18|| 11am talk by Michael Abshoff|| 5pm status reports || 
+||Thursday, June 19|| 11am talk by Mike Hansen|| 5pm status reports || 
+||Friday, June 20|| 11am talk by ?? || 1pm-3pm final wrap session || 
+
+
+
+
 === Outings ===
  
  * Party
@@ -21,7 +35,7 @@
  * Martin Albrecht (June 13, 11am): From the L1 Cache to Algebraic Cryptanalysis: Linear Algebra over GF(2)
  * Dan Gindikin (June 14, 11am) -- The Joy of Pex
  * Glenn Tarbox (June 15, 11am) -- What is Twisted?
- * Rob Beezer (June 16, 11am): Writing and maintaining an open source undergraduate linear algebra book
+ * Rob Beezer (June 16, 11am): Developing an open source undergraduate linear algebra book
  * Arne Storjohann (June 17, 11am) -- Exact Linear Algebra
  * Michael Abshoff (June 18, 11am) -- The Sage development process
  * Mike Hansen (June 19, 11am) -- Combinatorics
