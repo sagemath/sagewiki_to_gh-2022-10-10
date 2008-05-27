@@ -39,3 +39,13 @@ with SAGE, and 3 contributed speakers, who typically describe a SAGE module
 }}}
 
 [http://maps.google.fr/maps?f=q&hl=fr&geocode=&ie=UTF8&ll=48.665497,6.157295&spn=0.002643,0.00501&t=h&z=18 Google Maps]
+
+
+=== Sponsors ===
+
+[http://www.inria.fr/ INRIA]
+
+=== PhD students attendance support ===
+
+Thanks to funds donated by our sponsors, we are able to support attendance costs for a small number of PhD students.
+Interested students should apply directly per mail to Paul Zimmermann (<paul.zimmermann@loria.fr>).
