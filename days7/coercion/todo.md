@@ -24,6 +24,7 @@ Done
  * libs
  * quadratic forms
  * lfunctions
+ * ext
 
 In progress
 
@@ -32,7 +33,6 @@ In progress
 
 Todo
  * databases( database.py )
- * ext ( interactive_constructors_c.pyx )
  * plot ( plot.py, plot3d/shapes.pyx, animate.py, tachyon.py )
  * misc (latex.py, functional.py, misc.py)
  * gsl ( dft.py -- group failures )
