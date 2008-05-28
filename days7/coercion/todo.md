@@ -45,7 +45,7 @@ Todo
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
  * schemes
- * crypto
+ * crypto (classical.py, classical_cipher.py, lfsr.py, mq/mpolynomialsystem.py)
  * groups
  * modular ( lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
