@@ -43,7 +43,8 @@ with SAGE, and 3 contributed speakers, who typically describe a SAGE module
 
 === Sponsors ===
 
-[http://www.inria.fr/ INRIA]
+   * [http://www.inria.fr/ INRIA]
+   * [http://www.gdr-im.fr/ GDR IM]
 
 === PhD students attendance support ===
 
