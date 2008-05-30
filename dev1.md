@@ -31,13 +31,14 @@
 
 
 === Colloquium Talks ===
- * Martin Albrecht (June 13, 11am): From the L1 Cache to Algebraic Cryptanalysis: Linear Algebra over GF(2)
+ * Robert Dodier (June 13, 11am) -- Maxima
  * Dan Gindikin (June 14, 11am) -- The Joy of Pex
  * Glenn Tarbox (June 15, 11am) -- What is Twisted?
  * Rob Beezer (June 16, 11am): Developing an open source undergraduate linear algebra book
  * Arne Storjohann (June 17, 11am) -- Exact Linear Algebra
  * Michael Abshoff (June 18, 11am) -- The Sage development process
  * Mike Hansen (June 19, 11am) -- Combinatorics
+ * Martin Albrecht (June 20, 11am) -- From the L1 Cache to Algebraic Cryptanalysis: Linear Algebra over GF(2)
 
 
 === ORGANIZERS: Robert Bradshaw, William Stein and Tom Boothby ===
