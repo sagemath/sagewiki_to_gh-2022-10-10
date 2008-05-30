@@ -4,7 +4,7 @@ List pairs (or possibly triples) of people happy to room together here with DATE
 
  1. (Nick Alexander, Martin Albrecht [12.06 - 21.06])
  1. (Michael Abshoff, Gary Furnish)
- 1. (Jon Bober [June 12 to June 20], ???)
+ 1. (Jon Bober [June 12 to June 20], Dag Sverre Seljebotn [June 12 to June 23])
  1. (Burcin Erocal [June 12 to June 22], Ralf-Philipp Weinmann [June 12 to June 21])
 
 Notes:
@@ -13,3 +13,4 @@ Notes:
  * Nick Alexander is happy to room with anyone.
  * Martin Albrecht paired with Nick before, so why not again.
  * Bober is happy to room with anyone.
+ * Dag Sverre Seljebotn is happy to room with anyone. If staying until 23rd is a bit long he can find his own accomodation after the conference.
