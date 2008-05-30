@@ -13,8 +13,8 @@
 === Schedule ===
 
 || Friday, June 13 || 10am opening remarks by William Stein ||
-||Friday, June 13|| 11am talk by Robert Dodier -- Maxima || 4pm status reports ||
-||Saturday, June 14|| 11am talk by Dan Gindikin  -- Joy of Pex || 4pm status reports || 7pm party at Glenn Tarbox's house ||
+||Friday, June 13||11am talk by Dan Gindikin  -- Joy of Pex  || 4pm status reports ||
+||Saturday, June 14||  11am talk by Robert Dodier -- The Maxima Project || 4pm status reports || 7pm party at Glenn Tarbox's house ||
 ||Sunday, June 15|| 11am talk by Glenn Tarbox -- Twisted || Hiking/Tourism afternoon ||
 ||Monday, June 16|| 11am talk by Rob Beezer -- Linear Algebra Book || 5pm status reports || 7-9pm Demo of cool tools like IDE's etc for Sage development ||
 ||Tuesday, June 17|| 11am talk by Arne Storjohann -- Exact Linear Algebra|| 5pm status reports ||
