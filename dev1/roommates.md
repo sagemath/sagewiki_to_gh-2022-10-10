@@ -14,3 +14,4 @@ Notes:
  * Martin Albrecht paired with Nick before, so why not again.
  * Bober is happy to room with anyone.
  * Dag Sverre Seljebotn is happy to room with anyone. If staying until 23rd is a bit long he can find his own accomodation after the conference.
+ * Carl Witty (June 12 or 13 to June 20 or 21) is happy to room with anyone.
