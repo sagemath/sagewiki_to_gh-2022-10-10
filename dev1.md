@@ -73,6 +73,7 @@ AMERICAN:
  * Gregory Bard (June 13-20) -- exact linear algebra (GF(2) LUP)
  * Iftikhar Burhanuddin (June 13-20) -- || computation
  * Craig Citro (June 13-20) -- cython and exact linear algebra
+ * Robert Dodier (June 13-15)
  * Nathan Dunfield (tentative; probably will attend)
  * Gary Furnish (June 6-August) -- Windows port, Symbolics, Cython
  * Dan Gindikin (pnylab.com; Princeton) -- Cython
