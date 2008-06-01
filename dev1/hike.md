@@ -15,3 +15,4 @@ If anybody else is interested, put your name down, and how much hike you're up f
 If you have a car that you're willing to take people hiking in, put your name down:
 
  * Craig Citro (my wife will be in town with car, we can carry three more beyond ourselves)
+ * Tom Boothby (if we hike during the week, I can carry 3 extra; if during the weekend, my fiance will come)
