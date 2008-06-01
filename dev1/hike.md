@@ -8,3 +8,6 @@ If anybody else is interested, put your name down, and how much hike you're up f
 
  * Tom Boothby: hiking.
  * William Stein: hiking  (< 5 hours)
+ * David Roe: hiking.
+
+If you have a car that you're willing to take people hiking in, put your name down:
