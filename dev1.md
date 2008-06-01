@@ -93,7 +93,7 @@ LOCAL:
  * Robert Miller (June 13-20)
  * Bobby Moretti (?)
  * Clement Pernet (June 13-20) -- exact linear algebra
- * Yi Qiang -- distributed Sage
+ * Yi Qiang -- (June 16-20) Distributed Sage
  * Dan Shumow (unclear)
  * William Stein (June 13-20) -- everything, but especially exact linear algebra
  * Glenn Tarbox -- Dsage evolution and Twisted
