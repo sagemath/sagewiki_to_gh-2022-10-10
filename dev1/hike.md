@@ -7,3 +7,4 @@ Craig Citro, David Roe, and Tom Boothby have declared interest in hiking.  Here'
 If anybody else is interested, put your name down, and how much hike you're up for:
 
  * Tom Boothby: hiking.
+ * William Stein: hiking
