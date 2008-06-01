@@ -74,7 +74,7 @@ AMERICAN:
  * Iftikhar Burhanuddin (June 13-20) -- || computation
  * Craig Citro (June 13-20) -- cython and exact linear algebra
  * Robert Dodier (June 13-15)
- * Nathan Dunfield (tentative; probably will attend)
+ * --(Nathan Dunfield (tentative; probably will attend))--
  * Gary Furnish (June 6-August) -- Windows port, Symbolics, Cython
  * Dan Gindikin (pnylab.com; Princeton) -- Cython
  * Chris Gorecki -- Windows port
