@@ -13,6 +13,7 @@ If anybody else is interested, put your name down, and how much hike you're up f
  * Craig Citro: hiking. 
  * Yi Qiang: hiking 
  * Clément Pernet: hiking
+ * Dag Sverre Seljebotn: hiking (if not too much gear is required, < 5 hours will be fine)
 
 If you have a car that you're willing to take people hiking in, put your name down:
 
