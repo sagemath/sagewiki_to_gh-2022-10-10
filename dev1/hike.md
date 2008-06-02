@@ -14,9 +14,11 @@ If anybody else is interested, put your name down, and how much hike you're up f
  * Yi Qiang: hiking 
  * Clément Pernet: hiking
  * Dag Sverre Seljebotn: hiking (if not too much gear is required, < 5 hours will be fine)
+ * Robert Bradshaw
 
 If you have a car that you're willing to take people hiking in, put your name down:
 
  * Craig Citro (my wife will be in town with car, we can carry three more beyond ourselves)
  * Tom Boothby (if we hike during the week, I can carry 3 extra; if during the weekend, my fiance will come)
  * Clément Pernet (3 more people)
+ * Robert Bradshaw (3 more people)
