@@ -9,4 +9,6 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
  * 1 small, 1 large -- craig citro
  * 2 medium, 2 large, 2 X-large (?) -- glenn tarbox
  * 2 XX-large - mabshoff
-  
+ * 2 medium --Martin Albrecht
+
+ 
