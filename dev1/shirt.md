@@ -11,5 +11,5 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
  * 2 XX-large - mabshoff
  * 1 medium --Martin Albrecht
  * 1 large -- Robert Bradshaw
-
+ * 2 large -- Gary Furnish
  
