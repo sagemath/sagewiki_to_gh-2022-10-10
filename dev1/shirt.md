@@ -13,4 +13,4 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
  * 1 large -- Robert Bradshaw
  * 2 large -- Gary Furnish
  * 1 large -- Robert Miller
- 
+ * 1 medium -- Yi Qiang 
