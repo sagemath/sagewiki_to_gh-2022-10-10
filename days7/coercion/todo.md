@@ -26,12 +26,12 @@ Done
  * lfunctions
  * plot
  * ext
+ * functions
 
 In progress
 
  * matrix
  * combinat (Mike)
- * functions (robertwb)
 
 Todo
  * databases( database.py )
