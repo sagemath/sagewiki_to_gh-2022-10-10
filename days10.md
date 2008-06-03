@@ -2,7 +2,6 @@
 
 == October 10 to 15, 2008 at the Lorraine Laboratory of IT Research and its Applications (Loria) ==
 
-http://ljk.imag.fr/membres/Laurent.Fousse/lorraine.png
 
 === Program committee ===
 
@@ -45,6 +44,7 @@ with SAGE, and 3 contributed speakers, who typically describe a SAGE module
 
 === Sponsors ===
 
+   * http://ljk.imag.fr/membres/Laurent.Fousse/lorraine.png
    * [http://www.inria.fr/ INRIA]
    * [http://www.gdr-im.fr/ GDR IM]
 
