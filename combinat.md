@@ -14,7 +14,7 @@ See in particular [http://mupad-combinat.sf.net/Wiki/Sage]
 
 The collection of patches is managed using a patch server (mercurial
 queues). Although an occasional contributor can simply send such a
-patch to the sage-combinat mailing list [http://groups.google.com/group/sage-combinat-devel] anyone contributing
+patch to the sage-combinat [http://groups.google.com/group/sage-combinat-devel mailing list] anyone contributing
 regularly should use the patch server. Some detailed instructions about the patch server are at [http://wiki.sagemath.org/combinat/Mercurial].
 
 Anyone interested in sage-combinat is encouraged to join our mailing list: [http://groups.google.com/group/sage-combinat-devel].
