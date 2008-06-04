@@ -9,7 +9,7 @@ of those patches eventually will get integrated into sage as soon as
 they are mature enough, with a typical short life-cycle of a few
 weeks.
 
-Most likely, sage-combinat will become the natural successor of [http://mupad-combinat.sf.net|MuPAD-Combinat].
+Most likely, sage-combinat will become the natural successor of [http://mupad-combinat.sf.net MuPAD-Combinat].
 See in particular [http://mupad-combinat.sf.net/Wiki/Sage]
 
 The collection of patches is managed using a patch server (mercurial
