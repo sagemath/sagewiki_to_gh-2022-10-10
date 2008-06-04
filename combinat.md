@@ -9,9 +9,10 @@ of those patches eventually will get integrated into sage as soon as
 they are mature enough, with a typical short life-cycle of a few
 weeks.
 
+Most likely, sage-combinat will become the natural successor of [http://mupad-combinat.sf.net|MuPAD-Combinat].
+See in particular [http://mupad-combinat.sf.net/Wiki/Sage]
 
-
-This collection of patches is managed using a patch server (mercurial
+The collection of patches is managed using a patch server (mercurial
 queues). Although an occasional contributor can simply send such a
 patch to the sage-combinat mailing list [http://groups.google.com/group/sage-combinat-devel] anyone contributing
 regularly should use the patch server. Some detailed instructions about the patch server are at [http://wiki.sagemath.org/combinat/Mercurial].
