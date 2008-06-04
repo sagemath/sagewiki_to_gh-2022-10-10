@@ -10,7 +10,7 @@ they are mature enough, with a typical short life-cycle of a few
 weeks.
 
 sage-combinat is likely to become the natural successor of [http://mupad-combinat.sf.net MuPAD-Combinat].
-See in particular [http://mupad-combinat.sf.net/Wiki/Sage]
+See in particular: [http://mupad-combinat.sf.net/Wiki/Sage].
 
 Anyone interested in sage-combinat is encouraged to join our mailing list: [http://groups.google.com/group/sage-combinat-devel].
 
