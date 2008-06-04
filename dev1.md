@@ -102,6 +102,7 @@ LOCAL:
  * William Stein (June 13-20) -- everything, but especially exact linear algebra
  * Glenn Tarbox -- Dsage evolution and Twisted
  * Carl Witty (June 13-20) -- either my proposed randgen framework (random number seed management for Sage) or cylindrical algebraic decomposition (either wrapping qepcad or writing my own implementation).
+ * Chris Swierczewski -- Quantitative finance
 
 == Main Topics ==
  * '''''Cython '''''-- something much deeper than usual, and not necessarily so Sage related.  Cython is one of the "killer apps" of Sage:
