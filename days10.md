@@ -45,6 +45,8 @@ with SAGE, and 3 contributed speakers, who typically describe a SAGE module
 === Sponsors ===
 
    * http://ljk.imag.fr/membres/Laurent.Fousse/lorraine.png
+   * [http://www.grand-nancy.org/ Communauté Urbaine du Grand Nancy]
+   * [http://www.uhp-nancy.fr/ University Nancy 1 Henri Poincaré]
    * [http://www.inria.fr/ INRIA]
    * [http://www.gdr-im.fr/ GDR IM]
 
