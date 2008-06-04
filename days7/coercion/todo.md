@@ -30,7 +30,7 @@ Done
 
 In progress
 
- * matrix
+ * matrix (robertwb)
  * combinat (Mike)
 
 Todo
