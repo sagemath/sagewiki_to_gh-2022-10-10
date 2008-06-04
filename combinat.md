@@ -1,7 +1,7 @@
 == sage-combinat ==
 
 sage-combinat is a collection of experimental patches
-(i.e. extensions) on top of sage, developed by
+(i.e. extensions) on top of [http://www.sagemath.org/ sage], developed by
 a community in algebraic combinatorics. Its main purpose is to improve
 sage as an extensible toolbox for computer exploration, and foster
 code sharing between researchers in this area. The intent is that most
