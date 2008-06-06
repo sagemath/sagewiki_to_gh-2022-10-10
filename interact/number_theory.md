@@ -234,3 +234,138 @@ def _(p=slider(prime_range(1000), default=389)):
 }}}
 
 attachment:ellffplot.png
+
+=== Prime Spiral - Square ===
+by David Runde
+{{{
+@interact
+def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, invert=false, x_cord=0, y_cord=0, n = 0):
+
+    """
+    REFERENCES: 
+        Alpern, Dario. "Ulam's Spiral". http://www.alpertron.com.ar/ULAM.HTM
+        Sacks, Robert. http://www.NumberSpiral.com
+        Ventrella, Jeffery. "Prime Numbers are the Holes Behind Complex Composite Patterns". http://www.divisorplot.com
+        Williamson, John. Number Spirals. http://www.dcs.gla.ac.uk/~jhw/spirals/index.html jhw@dcs.gla.ac.uk
+        Weisstein, Eric W. "Prime-Generating Polynomial." From MathWorld--A Wolfram Web Resource. http://mathworld.wolfram.com/Prime-GeneratingPolynomial.html 
+    """
+
+    #Takes an (x,y) coordinate (and the start of the spiral) and gives its corresponding n value
+    def find_n(x,y, start):
+        if x>0 and y>-x and y<=x: return 4*(x-1)^2 + 5*(x-1) + (start+1) + y
+        elif x<=0 and y>=x and y<=-x: return 4*x^2 - x + (start) -y
+        elif y>=0 and -y+1 <= x and y-1 >= x: return 4*y^2 -y + start -x
+        elif y<0 and -x >= y and y<x: return 4*(y+1)^2 -11*(y+1) + (start+7) +x 
+        else: print 'NaN'
+
+    #Takes in an n and the start value of the spiral and gives its (x,y) coordinate 
+    def find_xy(num, start):
+        num = num - start +1 
+        bottom = floor(sqrt(num))
+        top = ceil(sqrt(num))    
+        if bottom^2 < num and num<=bottom^2+bottom+1:
+            if bottom%2 == 0:
+                x=-bottom/2
+                y=-x-(num-bottom^2)+1
+            else: 
+                x=bottom/2+1/2
+                y=-x + (num-bottom^2)
+        else:
+            if top%2 == 0:
+                y=top/2
+                x=-top/2+1+top^2-num
+            else: 
+                y=-top/2+1/2
+                x=top/2 -1/2 - (top^2-num)
+        x = Integer(x)
+        y = Integer(y)
+        return (x,y)
+
+    if start < 1 or end <=start: print "invalid start or end value"
+    if n > end: print "WARNING: n is larger than the end value"
+
+    #Changes the entry of a matrix by taking the old matrix and the (x,y) coordinate (in matrix coordinates) and returns the changed matrix
+    def matrix_morph(M, x, y, set):
+        N = M.copy()
+        N[x-1,y] = set
+        M = N
+        return M
+ 
+    #These functions return an int based on where the t is located in the spiral 
+    def SW_NE(t, x, y, start):
+        if -y<x: return 4*t^2 + 2*t -x+y+start
+        else: return 4*t^2 + 2*t +x-y+start
+    def NW_SE(t, x, y, start):
+        if x<y: return 4*t^2 -x-y+start
+        else: return 4*t^2 + 4*t +x+y+start
+
+    size = ceil(sqrt(end-start+1)) #Size of the matrix
+    num=copy(start) # Start number (might not be used)
+    x = ceil(size/2)   #starting center x of the matrix (in matrix coordinates)
+    y = copy(x)        #starting center y of the matrix (in matrix coordinates)
+    if n !=0: x_cord, y_cord = find_xy(n, start) #Overrides the user given x and y coordinates 
+    xt = copy(x_cord)
+    yt = copy(y_cord)
+    countx=0
+    county=0
+    overcount = 1
+    if size <= size_limit: M = matrix(ZZ, size+1) # Allows the numbers to be seen in the smaller matricies
+    else: M = matrix(GF(2), size+1) # Restricts the entries to 0 or 1
+    
+    main_list = set()
+    #print x_cord, y_cord
+    if show_lines: 
+        for t in [(-size-1)..size+1]: 
+            m= SW_NE(t, xt, yt, start)
+            if m.is_pseudoprime(): main_list.add(m) 
+            m= NW_SE(t, xt, yt, start)
+            if m.is_pseudoprime(): main_list.add(m)
+    else: main_list = set(prime_range(end))
+
+    #This for loop changes the matrix by spiraling out from the center and changing each entry as it goes. It is faster than the find_xy function above. 
+    for num in [start..end]:
+        #print x, "=x  y=", y, " num =", num
+        if countx < overcount:
+            if overcount % 2 == 1: x+=1
+            else: x-=1 
+            countx += 1
+        
+        elif county < overcount: 
+            if overcount % 2 == 1: y+=1
+            else: y-=1 
+            county += 1
+        else: 
+            overcount += 1
+            countx=2
+            county=0
+            if overcount % 2 == 1: x+=1
+            else: x-=1
+    
+        if not invert and num in main_list: 
+            if size <= size_limit: M = matrix_morph(M, x, y, num)
+            else: M = matrix_morph(M, x, y, 1)
+
+        elif invert and num not in main_list: #This does the opposite of the above if statement by changing the matrix only when a number is not in the list of allowable primes
+            if size <= size_limit: M = matrix_morph(M, x, y, num)
+            else: M = matrix_morph(M, x, y, 1)
+    
+    if n != 0: 
+        print '(to go from x,y coords to an n, reset by setting n=0)'
+        (x_cord, y_cord) = find_xy(n, start)
+        #print 'if n =', n, 'then (x,y) =', (x_cord, y_cord)
+
+    print '(x,y) =', (x_cord, y_cord), '<=> n =', find_n(x_cord, y_cord, start)
+    print ' '
+    print "SW/NE line"
+    if -y_cord<x_cord: print '4*t^2 + 2*t +', -x_cord+y_cord+start
+    else: print '4*t^2 + 2*t +', +x_cord-y_cord+start
+
+    print "NW/SE line"
+    if x_cord<y_cord: print '4*t^2 +', -x_cord-y_cord+start
+    else: print '4*t^2 + 4*t +', +x_cord+y_cord+start
+
+    if size <= size_limit: show(M) #Displays the matrix with integer entries
+    else: 
+        M.visualize_structure() # Displays the final resulting matrix as a series of pixels (1 <=> pixel on)
+        #matrix_plot(M)
+}}}
