@@ -7,6 +7,13 @@
 
 [http://groups.google.com/group/sage-dev1 Mailing List]
 
+=== Campus Wifi ===
+
+{{{
+  login: event0143
+  password: EomD=YorS=AudK
+}}}
+
 === Groups: Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Microsoft Windows ===
 
  * [:/cython: The Cython Group]
