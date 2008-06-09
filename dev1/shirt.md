@@ -18,3 +18,4 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
  * 1 small -- Mike Hansen
  * 1 XXL -- Carl Witty
  * 1 medium -- Dan Shumow
+ * 1 large -- Clement Pernet
