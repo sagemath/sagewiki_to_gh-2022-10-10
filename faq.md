@@ -62,7 +62,7 @@ Sage has two very active email lists: http://groups.google.com/group/sage-devel 
 ----------
  * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
  * ANSWER: Redefine RealNumber to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, for example:
-{{{
+ {{{
 sage: from scipy import stats
 sage: RealNumber=float
 sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
@@ -85,7 +85,7 @@ sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
  * ANSWER: Compiling Sage is quite taxing on the CPU. The above behavior usually indicates that your computer has overheated. In many cases this can be fixed by cleaning the CPU fan and assuring proper ventilation of the system. Please ask you system administrator or a professional to do this in case you have never done this since you can potentially damage your system.
 ----------
  * QUESTION: When I run doctests on OSX I see the following messages, but in the end Sage reports that everything went fine:
-{{{
+ {{{
 sage -t  devel/sage-main/sage/libs/pari/gen.pyx
 python(4563) malloc: *** vm_allocate(size=4096000000) failed (error code=3)
 python(4563) malloc: *** error: can't allocate region
@@ -126,7 +126,7 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
 ----------
  * QUESTION: I want to write some Cython code that uses finite field arithmetic but {{{cimport sage.rings.finite_field_givaro}}} fails. What can I do?
  * ANSWER: You need to give hints to Sage so that it uses C++ (both Givaro and NTL are C++ libraries), and it also needs the GMP and STDC C++ libraries. Here is a small example:
-{{{
+ {{{
 # These comments are hints to Sage/Pyrex about the compiler and
 # libraries needed for the Givaro library:
 #
@@ -154,30 +154,30 @@ for i in range(1, x.multiplicative_order() + 1):
     print i, x**i
 assert x*(1/x) == K.one_element()
 }}}
-To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} at the Sage prompt and hit tab, then use ?? to get more info on each function. For example:
+ To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} at the Sage prompt and hit tab, then use ?? to get more info on each function. For example:
 
-{{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}}
+ {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}}
 
-tells you more about the multiplicative unit element in the finite field.
+ tells you more about the multiplicative unit element in the finite field.
 
 ----------
  * QUESTION: How do I make the VMware appliance for Windows automatically login as "sage"?
  * ANSWER: Follow http://ubuntu-utah.ubuntuforums.org/showthread.php?t=303319.  Short version: put in the file {{{/usr/bin/autologin}}} the text
-{{{
+ {{{
 #! /bin/sh
 /bin/login -f sage
 }}}
-and make this file executable; then edit {{{/etc/event.d/tty1}}}, comment out
+ and make this file executable; then edit {{{/etc/event.d/tty1}}}, comment out
 
-{{{
+ {{{
 respawn /sbin/getty 38400 tty1
 }}}
-and add
+ and add
 
-{{{
+ {{{
 respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
 }}}
-Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
+ Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
 
 ----------
  * QUESTION: I'm getting weird build failures on OSX. How do I fix this?
@@ -185,13 +185,17 @@ Now every time the appliance reboots, it will automatically load directly to the
  {{{
 limit maxproc 512 2048
 }}}
-  . then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
+ . then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
 ----------
  * QUESTION: How do I use the bitwise XOR operator in sage?
  * ANSWER: Define two variables, for example {{{a = 5; b = 8}}}, and evaluate {{{a.__xor__(b)}}}, 13. You can also do {{{(5).__xor__(8)}}} (the parentheses are necessary so that Sage doesn't think you have a real number).
-There are several ways to define a function: {{{xor = lambda x, y: x.__xor__(y)}}} and then do {{{xor(3, 8)}}}. Another option, which sneaks around the Sage preparser, is {{{def xor(a,b):  return eval("%s^%s"%(a,b))}}}. You can also turn off the Sage preparser with {{{preparser(False)}}} -- then {{{^}}} will work just like in Python, and you can later turn on the preparser with {{{preparser(True)}}}. (That only works in command-line Sage; in a notebook, switch to Python mode.)
+ There are several ways to define a function: {{{xor = lambda x, y: x.__xor__(y)}}} and then do {{{xor(3, 8)}}}. Another option, which sneaks around the Sage preparser, is {{{def xor(a,b):  return eval("%s^%s"%(a,b))}}}. You can also turn off the Sage preparser with {{{preparser(False)}}} -- then {{{^}}} will work just like in Python, and you can later turn on the preparser with {{{preparser(True)}}}. (That only works in command-line Sage; in a notebook, switch to Python mode.)
 
 ----------
+ * QUESTION: When I try to use LaTeX in the notebook, it says it cannot find {{{fullpage.sty}}}!
+ * ANSWER: That's not a question. But we can help you solve your problem. :)
+
+ The general -- but perhaps not very helpful -- answer is that you need to install {{{fullpage.sty}}} into a directory searched by TeX. In Ubuntu (and probably many other Linux distributions), you should install the {{{texlive-latex-extra}}} package. If that's not available, try installing the {{{tetex-extra}}} package. If you are using OS X, you will have to use whatever TeX distribution you use to get {{{fullpage.sty}}} (if you use [http://www.tug.org/mactex MacTeX], it's likely already installed). If you are using the VMware image in Windows, you'll need to log into the VMware image and install {{{texlive-latex-extra}}} there.
 
 = ToDo =
  * QUESTION: Sage fails to compile on OSX 10.4
