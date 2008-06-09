@@ -52,6 +52,8 @@
  * Mike Hansen (June 19, 11am) -- Combinatorics
  * Martin Albrecht (June 20, 11am) -- From the L1 Cache to Algebraic Cryptanalysis: Linear Algebra over GF(2)
 
+=== T-shirt ===
+ * [:/shirt: T shirt]
 
 === ORGANIZERS: Robert Bradshaw, William Stein and Tom Boothby ===
 === DATES: June 13-20, 2008 ===
