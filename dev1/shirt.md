@@ -19,3 +19,4 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
  * 1 XXL -- Carl Witty
  * 1 medium -- Dan Shumow
  * 1 large -- Clement Pernet
+ * 1 large -- Dag
