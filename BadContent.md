@@ -4415,6 +4415,12 @@ jpxgbssdoait\.com
 cilanie\.com
 8bio\.com
 goodpolisher\.com
+watchepay\.com
+airprice\.com
+bonnych\.com
+watchec\.com
+ele-art\.com
+sqsensor\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
