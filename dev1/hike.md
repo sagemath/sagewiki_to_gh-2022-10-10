@@ -23,3 +23,11 @@ If you have a car that you're willing to take people hiking in, put your name do
  * Tom Boothby (if we hike during the week, I can carry 3 extra; if during the weekend, my fiance will come)
  * Clément Pernet (3 more people)
  * Robert Bradshaw (3 more people)
+
+
+Tom's comments
+
+ * Hiking on Sunday means that other people will be out hiking.  Hiking during the week is better.
+ * Hiking in the afternoon isn't as good of an idea as hiking in the morning.
+ * Hiking in the morning during the week is dumb, because we'd have to fight traffic.
+ * Bring food.  I'll have lunch & water enough for me.
