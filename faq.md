@@ -179,6 +179,11 @@ respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
 }}}
  Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
 
+
+----------
+ * QUESTION: When running Sage under VMware if you log in under manage you are not given the permissions to create a file! 
+ * ANSWER: Type "sudo su" before creating files.
+
 ----------
  * QUESTION: I'm getting weird build failures on OSX. How do I fix this?
  * ANSWER: search the build log (install.log) to see if you're getting "fork: Resource temporarily unavailable.". If so, try the following. Create (or edit) /etc/launchd.conf and include the following:
