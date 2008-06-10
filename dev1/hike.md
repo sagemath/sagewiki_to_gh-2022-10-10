@@ -16,6 +16,8 @@ If anybody else is interested, put your name down, and how much hike you're up f
  * Dag Sverre Seljebotn: hiking (if not too much gear is required, < 5 hours will be fine)
  * Robert Bradshaw
  * Carl Witty: hiking  (< 5 hours)
+ * Michael Abshoff: hiking  (< 5 hours), no special gear required, etc.
+
 
 If you have a car that you're willing to take people hiking in, put your name down:
 
