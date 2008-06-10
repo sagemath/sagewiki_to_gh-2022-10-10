@@ -17,3 +17,4 @@ Notes:
  * Carl Witty (June 12 or 13 to June 20 or 21) is happy to room with anyone.
  * David Kohel -- arriving on June 12
  * Arne Storjohann -- arriving on June 12
+ * Robert Dodier (June 13--15)
