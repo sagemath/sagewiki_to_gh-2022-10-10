@@ -4421,6 +4421,8 @@ bonnych\.com
 watchec\.com
 ele-art\.com
 sqsensor\.com
+mabinogi-gold\.org
+rohan-gold\.org
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
