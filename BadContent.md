@@ -4423,6 +4423,8 @@ ele-art\.com
 sqsensor\.com
 mabinogi-gold\.org
 rohan-gold\.org
+webprogress-seo\.com
+webprogress-de\.info
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
