@@ -7,10 +7,12 @@ List pairs (or possibly triples) of people happy to room together here with DATE
  1. (Jon Bober [June 12 to June 20], Dag Sverre Seljebotn [June 12 to June 23])
  1. (Burcin Erocal [June 12 to June 22], Ralf-Philipp Weinmann [June 12 to June 21])
 
-Arrival Times:
+== Arrival Times ==
  * Dag lands at 2:10 pm the 12th
  * Jon Bober lands at 9:14 p.m. on the 12th, should be at Collegiana by around 10:30.
 pm?)
+ * Martin Albrecht at 8:55 pm the 11th.
+
 Notes:
 
  * Gary Furnish moves out of Collegiana on June 21. 
