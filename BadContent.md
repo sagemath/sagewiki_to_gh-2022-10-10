@@ -4425,6 +4425,7 @@ mabinogi-gold\.org
 rohan-gold\.org
 webprogress-seo\.com
 webprogress-de\.info
+brandtrading\.net
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
