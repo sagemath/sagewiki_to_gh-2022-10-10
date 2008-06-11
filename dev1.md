@@ -93,6 +93,7 @@ AMERICAN:
  * Chris Gorecki -- Windows port
  * Mike Hansen (June 13-20)
  * David Harvey (probably will not attend)
+ * Greg Landweber (June 13-17) -- maybe an os x native Sage app?
  * David Roe (June 13-20)
 
 LOCAL:
