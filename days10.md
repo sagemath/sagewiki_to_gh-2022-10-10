@@ -2,6 +2,9 @@
 
 == October 10 to 15, 2008 at the Lorraine Laboratory of IT Research and its Applications (Loria) ==
 
+=== Registration ===
+
+Please register on the [http://registration.net-resa.com/cgi-bin/WebObjects/gnetresa.woa/wa/newParticipant?idevt=281&profil=396 registration website].
 
 === Program committee ===
 
