@@ -6,6 +6,7 @@ List pairs (or possibly triples) of people happy to room together here with DATE
  1. (Michael Abshoff, Gary Furnish)
  1. (Jon Bober [June 12 to June 20], Dag Sverre Seljebotn [June 12 to June 23])
  1. (Burcin Erocal [June 12 to June 22], Ralf-Philipp Weinmann [June 12 to June 21])
+ 1. (Mike Hansen, Carl Witty [June 12th - June 20th])
 
 == Arrival Times ==
  * Dag lands at 2:10 pm the 12th
