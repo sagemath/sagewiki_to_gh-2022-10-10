@@ -18,3 +18,6 @@ The collection of patches is managed using a [http://sage.math.washington.edu:21
 queues). Although an occasional contributor can simply send such a
 patch to the [http://groups.google.com/group/sage-combinat-devel mailing list] anyone contributing
 regularly should use the patch server. Some detailed instructions are at [http://wiki.sagemath.org/combinat/Mercurial].
+
+Thanks to Jason, there is a page who sumarize all the weirdness. I think we can start from that to make a TODO list :  
+[http://wiki.sagemath.org/combinat/Weirdness].
