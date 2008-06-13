@@ -4428,6 +4428,7 @@ webprogress-de\.info
 brandtrading\.net
 notebook-batteries\.org
 supply-batteries\.co\.uk
+casininio\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
