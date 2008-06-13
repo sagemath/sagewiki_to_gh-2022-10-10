@@ -2,16 +2,16 @@
 
   * Michael Abshoff -> LinBox debianization
   * Martin Albrecht -> GF(2), M4RI
-  * Nick Alexander
+  * Nick Alexander -> cylcotomic linalg
   * Gregory Bard -> M4RI
   * Rob Beezer
   * Tom Boothby
-  * Craig Citro
-  * Burcin Erocal
+  * Craig Citro -> cyclotomic linalg, p-adic linalg
+  * Burcin Erocal -> nullspace of polynomial matrices
   * Robert Miller (especially sparse GF(2)) -> sparse GF(2)
   * David Roe (p-adic linear algebra?) -> cyclotomic linear algebra
-  * Arne Storjohann ->
-  * William Stein -> Cyclotomic linear algebra, HNF
+  * Arne Storjohann -> HNF, Sparse GF(2) Linalg
+  * William Stein -> Cyclotomic linear algebra, HNF (LLL)
   * Ralf-Philipp Weinmann -> Sparse Elimination, Nullspace
 
 == Dense GF(2) ==
@@ -33,6 +33,7 @@
    * implement Bill's half table idea and benchmark it
 
 == Sparse GF(2) (and other small finite fields) ==
+ [Arne, Ralph, Clément, Rob Miller]
  * Sparse Reduced Echelon form (RPW)
    * Sparse Elimination: 
      * improve LinBox gauss-domain
@@ -42,7 +43,7 @@
 
 
 == Hermite Normal Form ==
- Arne, Clément, William
+ [Arne, Clément, William]
  * new algorithm, based on system solving (Arne Storjohann) -> already an implementation
    * integrate it in IML
    * benchmark it against Sage
@@ -52,11 +53,16 @@
  * LLL trick for the existing implementation in Sage (William & Clément)
 
 == Polynomial Matrix computations ==
+ [Burcin]
  * Nullspace computation (Burcin)
 
 == Cyclotomic linear algebra ==
+ [Rob Bradshaw, Craig, William]
 
-== p-adic linear algebra == 
+== P-adic linear algebra == 
+ [David Roe, Craig, David Cohet]
 
 == LinBox debianization and 1.1.6 spkgization ==
- * mabshoff, Clément
+ [mabshoff, Clément]
+ * get rid of gmp++
+ * generate and test linbox-1.1.6rc0.spkg
