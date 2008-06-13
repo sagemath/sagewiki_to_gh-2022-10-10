@@ -21,6 +21,7 @@
  * [:/dsage: The Parallel Computation Group]
  * [:/windows: The Porting Sage to Windows Group]
  * [:/modforms: The Modular Forms Group]
+ * [:/coercin: The Coercion Group]
 
 === Schedule ===
 
