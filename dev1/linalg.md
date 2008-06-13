@@ -15,6 +15,19 @@
   * Ralf-Philipp Weinmann
 
 == GF(2) ==
- * Implement Strassen (variant) for dense matrix reduction. The result should be faster than anything else available. Greg has two strategies in mind. We'll implement both and compare their speed.
- * Improve/implement multi-core matrix multiplication and if feasible multi-core reduction
- * If there is time: sparse matrix techniques
+ * implement LQUP decomposition [Clement]
+   * implement LQUP routine
+   * implement TRSM routine
+   * implement efficient column swaps/rotations [Martin]
+     * SSE2 might help a lot here
+   * implement memory efficient mzd_addmul_strassen [Martin]
+     * See Clement's et al. paper on memory efficient Strassen-Winograd
+ * implement Arne's asymptotically fast reduction algorithm [Martin]
+ * implement multi-core multiplication with optimal speed-up
+   * OpenMP seems to be nice and easy
+   * 2 cores probably main target, but think about 4 cores too
+ * improve efficiency of M4RM
+   * try 7 instead of 8 Gray code tables to leave room for the actual matrix in L1
+   * try to fit three matrices rather than two into L2 or understand why it works so good for two
+   * detect L1/L2 cache sizes at runtime and choose optimal parameters for them
+   * implement Bill's half table idea and benchmark it
