@@ -15,9 +15,9 @@
   * Ralf-Philipp Weinmann
 
 == GF(2) ==
- * implement LQUP decomposition [Clement]
-   * implement LQUP routine
-   * implement TRSM routine
+ * implement LQUP decomposition [Clement, Martin]
+   * implement LQUP routine [Clement]
+   * implement TRSM routine [Clement]
    * implement efficient column swaps/rotations [Martin]
      * SSE2 might help a lot here
    * implement memory efficient mzd_addmul_strassen [Martin]
