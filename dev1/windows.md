@@ -1,11 +1,11 @@
 = Porting Sage to Windows =
 
- * Michael Abshoff
- * Gary Furnish
- * Chris Gorecki
- * Dan Shumow
- * William Stein
- * Ralf-Philipp Weinmann
+ * Michael Abshoff: Cygwin, MSVC
+ * Gary Furnish: MSVC, ???
+ * Chris Gorecki: pexpect
+ * Dan Shumow: ???
+ * William Stein: SAGE Ultralite
+ * Ralf-Philipp Weinmann: ???
 
 = Working Plan =
 
