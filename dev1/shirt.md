@@ -24,3 +24,5 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
 
 Extras :)
  * 1 medium -- Burcin Erocal
+ * 1 XXL -- Pete Bismuti
+ * 1 small -- Alyson Deines
