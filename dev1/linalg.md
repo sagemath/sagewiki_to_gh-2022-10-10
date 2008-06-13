@@ -1,18 +1,18 @@
 = Dev Days 1: Exact Linear Algebra =
 
-  * Michael Abshoff
-  * Martin Albrecht
+  * Michael Abshoff -> LinBox debianization
+  * Martin Albrecht -> GF(2), M4RI
   * Nick Alexander
-  * Gregory Bard
+  * Gregory Bard -> M4RI
   * Rob Beezer
   * Tom Boothby
   * Craig Citro
   * Burcin Erocal
-  * Robert Miller (especially sparse GF(2))
-  * David Roe (p-adic linear algebra?)
-  * Arne Storjohann
-  * William Stein
-  * Ralf-Philipp Weinmann
+  * Robert Miller (especially sparse GF(2)) -> sparse GF(2)
+  * David Roe (p-adic linear algebra?) -> cyclotomic linear algebra
+  * Arne Storjohann ->
+  * William Stein -> Cyclotomic linear algebra, HNF
+  * Ralf-Philipp Weinmann -> Sparse Elimination, Nullspace
 
 == Dense GF(2) ==
  * implement LQUP decomposition [Clement, Martin]
@@ -40,5 +40,23 @@
      * ....
  * ....
 
+
 == Hermite Normal Form ==
- * new algorithm (Storjohann)
+ Arne, Clément, William
+ * new algorithm, based on system solving (Arne Storjohann) -> already an implementation
+   * integrate it in IML
+   * benchmark it against Sage
+ * generalization: block vector system solving
+   * implementation
+   * benchmark
+ * LLL trick for the existing implementation in Sage (William & Clément)
+
+== Polynomial Matrix computations ==
+ * Nullspace computation (Burcin)
+
+== Cyclotomic linear algebra ==
+
+== p-adic linear algebra == 
+
+== LinBox debianization and 1.1.6 spkgization ==
+ * mabshoff, Clément
