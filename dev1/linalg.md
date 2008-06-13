@@ -14,7 +14,7 @@
   * William Stein
   * Ralf-Philipp Weinmann
 
-== GF(2) ==
+== Dense GF(2) ==
  * implement LQUP decomposition [Clement, Martin]
    * implement LQUP routine [Clement]
    * implement TRSM routine [Clement]
@@ -31,3 +31,14 @@
    * try to fit three matrices rather than two into L2 or understand why it works so good for two
    * detect L1/L2 cache sizes at runtime and choose optimal parameters for them
    * implement Bill's half table idea and benchmark it
+
+== Sparse GF(2) (and other small finite fields) ==
+ * Sparse Reduced Echelon form (RPW)
+   * Sparse Elimination: 
+     * improve LinBox gauss-domain
+     * eclib sparse elimination
+     * ....
+ * ....
+
+== Hermite Normal Form ==
+ * new algorithm (Storjohann)
