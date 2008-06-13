@@ -1,5 +1,7 @@
 = Dev Days 1 Roomates =
 
+We've got six rooms.
+
 List pairs (or possibly triples) of people happy to room together here with DATES!
 
  1. (Nick Alexander, Martin Albrecht [12.06 - 21.06])
@@ -7,6 +9,8 @@ List pairs (or possibly triples) of people happy to room together here with DATE
  1. (Jon Bober [June 12 to June 20], Dag Sverre Seljebotn [June 12 to June 23])
  1. (Burcin Erocal [June 12 to June 22], Ralf-Philipp Weinmann [June 12 to June 21])
  1. (Mike Hansen, Carl Witty [June 12th - June 20th])
+ 1. Arne Storjohann 
+
 
 == Arrival Times ==
  * Dag lands at 2:10 pm the 12th
