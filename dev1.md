@@ -2,7 +2,7 @@
 = Sage Developer Days 1 (aka Sage Days 8.5) =
 
 === DATES: June 13-20, 2008 ===
-=== LOCATION: Seattle, Washington -- Mechanical Engineering 208 ===
+=== LOCATION: Seattle, Washington -- Mechanical Engineering 238 ===
 
 
 [http://groups.google.com/group/sage-dev1 Mailing List]
