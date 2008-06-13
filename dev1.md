@@ -20,6 +20,7 @@
  * [:/linalg: The Exact Linear Algebra Group]
  * [:/dsage: The Parallel Computation Group]
  * [:/windows: The Porting Sage to Windows Group]
+ * [:/modforms: The Modular Forms Group]
 
 === Schedule ===
 
