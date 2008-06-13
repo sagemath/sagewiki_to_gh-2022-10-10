@@ -22,7 +22,7 @@
      * SSE2 might help a lot here
    * implement memory efficient mzd_addmul_strassen [Martin]
      * See Clement's et al. paper on memory efficient Strassen-Winograd
- * implement Arne's asymptotically fast reduction algorithm [Martin]
+ * implement Arne's asymptotically fast elimination algorithm [Martin]
  * implement multi-core multiplication with optimal speed-up
    * OpenMP seems to be nice and easy
    * 2 cores probably main target, but think about 4 cores too
