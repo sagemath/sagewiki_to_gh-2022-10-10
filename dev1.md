@@ -44,7 +44,7 @@
 
 === Colloquium Talks ===
  * Robert Dodier (June 13, 11am) -- Maxima
- * Dan Gindikin (June 14, 11am) -- The Joy of Pex
+ * Dan Gindikin (June 14, 11am) -- The Joy of Pex  (Quote: "We wanted a less vigorous coredump experience.")
  * Glenn Tarbox (June 15, 11am) -- What is Twisted?
  * Rob Beezer (June 16, 11am): Developing an open source undergraduate linear algebra book
  * Arne Storjohann (June 17, 11am) -- Exact Linear Algebra
