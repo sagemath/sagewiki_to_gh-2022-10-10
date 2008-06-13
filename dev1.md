@@ -21,12 +21,20 @@
  * [:/dsage: The Parallel Computation Group]
  * [:/windows: The Porting Sage to Windows Group]
  * [:/modforms: The Modular Forms Group]
+
+---- /!\ '''Edit conflict - other version:''' ----
  * [:/coercion: The Coercion Group]
 
 ---- /!\ '''Edit conflict - other version:''' ----
  * [:/coercin: The Coercion Group]
 
 ---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+ * [:/coercion: The Coercion Group]
+ * [:/other: Other]
 
 ---- /!\ '''End of edit conflict''' ----
 
