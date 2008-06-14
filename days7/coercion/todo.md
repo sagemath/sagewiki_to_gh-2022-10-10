@@ -43,7 +43,7 @@ Todo
  * graphs (graph_isom.pyx)
  * calculus (calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
- * sets (set.py) -- william stein
+ * sets (set.py)
  * geometry (lattice_polytope.py)
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
