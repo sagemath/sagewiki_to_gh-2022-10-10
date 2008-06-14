@@ -4429,6 +4429,10 @@ brandtrading\.net
 notebook-batteries\.org
 supply-batteries\.co\.uk
 casininio\.com
+feiyun8\.cn
+pastemark\.com
+storeingame\.com
+ymcmotor\.com\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
