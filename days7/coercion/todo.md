@@ -27,6 +27,7 @@ Done
  * plot
  * ext
  * functions
+ * databases
 
 In progress
 
@@ -36,7 +37,6 @@ In progress
  * remaining inexact rings (intervals) (cwitty)
 
 Todo
- * databases( database.py )
  * misc (latex.py, functional.py, misc.py)
  * gsl ( dft.py -- group failures )
  * coding, graphs
