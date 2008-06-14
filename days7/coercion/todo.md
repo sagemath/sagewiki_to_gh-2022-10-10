@@ -33,6 +33,7 @@ In progress
  * matrix (robertwb)
  * combinat (Mike)
  * modular (craig)
+ * remaining inexact rings (intervals) (cwitty)
 
 Todo
  * databases( database.py )
