@@ -7,3 +7,12 @@
   * Carl Witty: Cython
   * Gary Furnish: fast memory management
   * Craig Citro: ?
+
+Numpy Static Syntax Options: 
+
+{{{
+ cdef ndarray[float, 2] arr = x
+ cdef ndarray<float, 2> arr = x
+}}}
+
+or some other syntax? (Consensus is that none of these are ideal.)
