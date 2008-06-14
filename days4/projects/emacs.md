@@ -18,3 +18,11 @@ attachment:sagetest.py
 The following is a slightly updated version.  It might fail horribly and is not yet customizable.
 
 attachment:sage-mode-0.2.spkg
+
+To install:
+{{{
+(add-to-list 'load-path (expand-file-name "~/emacs/sage"))
+(require 'python)
+(require 'pyrex "pyrex-mode")
+(require 'sage "sage-mode")
+}}}
