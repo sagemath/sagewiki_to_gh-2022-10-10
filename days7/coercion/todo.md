@@ -30,10 +30,10 @@ Done
  * ext
  * functions
  * databases
+ * matrix (all tests pass except for one sage/matrix/matrix_modn_dense.pyx due to groups)
 
 In progress
 
- * matrix (robertwb)
  * combinat (Mike)
  * remaining inexact rings (intervals) (cwitty)
 
