@@ -50,7 +50,7 @@ Todo
  * rings
  * schemes
  * crypto (classical.py, classical_cipher.py, lfsr.py, mq/mpolynomialsystem.py)
- * groups
+ * groups (permgroup_named.py, perm_group.py, perm_group_element.pyx)
  * modular (lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
 
