@@ -42,7 +42,7 @@ Todo
  * coding, graphs
  * calculus (calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
- * sets (set.py)
+ * sets (set.py) -- william stein
  * geometry (lattice_polytope.py)
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
