@@ -35,7 +35,7 @@ In progress
 
  * combinat (Mike)
  * remaining inexact rings (intervals) (cwitty)
- * finite fields
+ * finite fields (robertwb)
 
 Todo
  * misc (latex.py, functional.py, misc.py)
