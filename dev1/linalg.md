@@ -1,7 +1,7 @@
 = Dev Days 1: Exact Linear Algebra =
 
   * Michael Abshoff -> LinBox debianization
-  * Martin Albrecht -> GF(2), M4RI
+  * MartinAlbrecht -> M4RI GF(2)
   * Nick Alexander -> cylcotomic linalg
   * Gregory Bard -> M4RI
   * Rob Beezer
@@ -15,19 +15,22 @@
   * Ralf-Philipp Weinmann -> Sparse Elimination, Nullspace
 
 == Dense GF(2) ==
- * implement LQUP decomposition [Clement, Martin]
+ * implement LQUP decomposition [Clement, MartinAlbrecht]
    * implement LQUP routine [Clement]
    * implement TRSM routine [Clement]
-   * implement efficient column swaps/rotations [Martin]
+   * implement efficient column swaps/rotations [MartinAlbrecht]
      * SSE2 might help a lot here
    * implement memory efficient mzd_addmul_strassen [Martin]
      * See Clement's et al. paper on memory efficient Strassen-Winograd
- * implement Arne's asymptotically fast elimination algorithm [Martin]
+ * implement Arne's asymptotically fast elimination algorithm [MartinAlbrecht]
  * implement multi-core multiplication with optimal speed-up
    * OpenMP seems to be nice and easy
    * 2 cores probably main target, but think about 4 cores too
  * improve efficiency of M4RM
-   * try 7 instead of 8 Gray code tables to leave room for the actual matrix in L1
+   * try 7 instead of 8 Gray code tables to leave room for the actual matrix in L1 [MartinAlbrecht]
+     * It seems slower to be slower to use 7 tables rather than 8
+     * L1 cache doesn't seem to be the main reason for performance then
+     * try say 16 tables.
    * try to fit three matrices rather than two into L2 or understand why it works so good for two
    * detect L1/L2 cache sizes at runtime and choose optimal parameters for them
    * implement Bill's [http://groups.google.com/group/sage-devel/msg/6279228095b3d9f7 half table idea] and benchmark it 
