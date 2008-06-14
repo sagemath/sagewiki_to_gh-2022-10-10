@@ -39,7 +39,8 @@ In progress
 Todo
  * misc (latex.py, functional.py, misc.py)
  * gsl ( dft.py -- group failures )
- * coding, graphs
+ * coding
+ * graphs (graph_isom.pyx)
  * calculus (calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
  * sets (set.py) -- william stein
