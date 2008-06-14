@@ -4,3 +4,4 @@
  * 60% quality: everybody (see: http://lite.sagemath.org/development-status.html)
  * C/Fortran <-> fast float <-> polynomial evaluation: Carl Witty, Tom Boothby
  * fast mpfr / quad double: Carl Witty, John Bober
+ * finish the benchmark[et]ing module by Willem, William and Martin
