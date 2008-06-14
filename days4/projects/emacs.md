@@ -14,3 +14,7 @@ The following files need to go into sage/misc.
 attachment:sage_emacs.py
 attachment:xreload.py
 attachment:sagetest.py
+
+The following is a slightly updated version.  It might fail horribly and is not yet customizable.
+
+attachment:sage-mode-0.2.spkg
