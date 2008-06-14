@@ -34,7 +34,7 @@ Done
 In progress
 
  * combinat (Mike)
- * remaining inexact rings (intervals) (cwitty)
+ * rings/qqbar, polynomials (cwitty)
  * finite fields (robertwb)
  * rings (craigcitro, mostly low-hanging fruit)
 
