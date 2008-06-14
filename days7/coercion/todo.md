@@ -36,7 +36,6 @@ In progress
  * combinat (Mike)
  * rings/qqbar, polynomials (cwitty)
  * finite fields (robertwb)
- * rings (craigcitro, mostly low-hanging fruit)
 
 Todo
  * misc (latex.py, functional.py, misc.py)
