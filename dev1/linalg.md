@@ -30,7 +30,7 @@
    * try 7 instead of 8 Gray code tables to leave room for the actual matrix in L1
    * try to fit three matrices rather than two into L2 or understand why it works so good for two
    * detect L1/L2 cache sizes at runtime and choose optimal parameters for them
-   * implement Bill's half table idea and benchmark it
+   * implement Bill's [http://groups.google.com/group/sage-devel/msg/6279228095b3d9f7 half table idea] and benchmark it 
 
 == Sparse GF(2) (and other small finite fields) ==
  [Arne, Ralph, Clément, Rob Miller]
