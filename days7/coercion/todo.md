@@ -32,6 +32,7 @@ In progress
 
  * matrix (robertwb)
  * combinat (Mike)
+ * modular (craig)
 
 Todo
  * databases( database.py )
@@ -47,7 +48,6 @@ Todo
  * schemes
  * crypto (classical.py, classical_cipher.py, lfsr.py, mq/mpolynomialsystem.py)
  * groups
- * modular ( lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
 
 
