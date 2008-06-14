@@ -59,7 +59,7 @@
 == Cyclotomic linear algebra ==
  [Rob Bradshaw, Craig, William]
 
-== P-adic linear algebra == 
+== P-adic linear algebra ==
  [David Roe, Craig, David Cohet]
 
 == LinBox debianization and 1.1.6 spkgization ==
