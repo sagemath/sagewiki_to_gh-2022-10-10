@@ -17,7 +17,6 @@ Done
  * Integers, Rationals
  * complex, real
  * integer_mod
- * finite fields
  * monoids/modules
  * probability
  * games
@@ -36,6 +35,7 @@ In progress
 
  * combinat (Mike)
  * remaining inexact rings (intervals) (cwitty)
+ * finite fields
 
 Todo
  * misc (latex.py, functional.py, misc.py)
