@@ -36,6 +36,7 @@ In progress
  * combinat (Mike)
  * rings/qqbar, polynomials (cwitty)
  * finite fields (robertwb)
+ * schemes (ncalexan)
 
 Todo
  * misc (latex.py, functional.py, misc.py)
@@ -48,7 +49,6 @@ Todo
  * geometry (lattice_polytope.py)
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
- * schemes
  * crypto (classical.py, classical_cipher.py, lfsr.py, mq/mpolynomialsystem.py)
  * groups (permgroup_named.py, perm_group.py, perm_group_element.pyx)
  * modular (lots :-) )
