@@ -25,3 +25,6 @@ Dsage the Next Generation
  * ["/300 World Domination"]
 
 [[Navigation(children)]]
+
+[[AttachInfo]]
+[[AttachList]]
