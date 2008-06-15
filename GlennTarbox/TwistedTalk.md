@@ -5,7 +5,10 @@
 #format wiki
 #language en
 
-= The Slides are attached.  This Wiki series of slides are a work in progress =
+= The Slides are attached =
+
+'''Warning: work in progress'''
+
 [[AttachInfo]]
 [[AttachList]]
 
