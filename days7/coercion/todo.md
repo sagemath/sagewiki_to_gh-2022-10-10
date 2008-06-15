@@ -30,12 +30,12 @@ Done
  * functions
  * databases
  * matrix (all tests pass except for one sage/matrix/matrix_modn_dense.pyx due to groups)
+ * finite fields
 
 In progress
 
  * combinat (Mike)
  * rings/qqbar, polynomials (cwitty)
- * finite fields (robertwb)
  * schemes (ncalexan)
 
 Todo
