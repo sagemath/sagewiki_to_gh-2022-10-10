@@ -17,12 +17,14 @@ attachment:sagetest.py
 
 The following is a slightly updated version.  It might fail horribly and is not yet customizable.
 
-attachment:sage-mode-0.2.spkg
+attachment:sage-mode-0.3.spkg
 
-To install:
+The following installation instructions are suggested:
+
 {{{
-(add-to-list 'load-path (expand-file-name "~/emacs/sage"))
+(add-to-list 'load-path (expand-file-name "$SAGE_DATA/emacs"))
 (require 'python)
 (require 'pyrex "pyrex-mode")
 (require 'sage "sage-mode")
+(setq sage-command "$SAGE_ROOT/sage")
 }}}
