@@ -27,7 +27,7 @@
 === Schedule ===
 
 || Friday, June 13 || 10am opening remarks by William Stein (attachment:stein-intro.pdf, attachment:stein-intro.sws) ||
-||Friday, June 13||11am talk by Dan Gindikin  -- Joy of Pex  || 4pm status reports ||
+||Friday, June 13||11am talk by Dan Gindikin  -- Joy of Pex  (attachment:gindikin.pdf) || 4pm status reports ||
 ||Saturday, June 14||  11am talk by Robert Dodier -- The Maxima Project || 4pm status reports || 7pm party at Glenn Tarbox's house ||
 ||Sunday, June 15|| 11am talk by Glenn Tarbox -- Twisted || 7pm status reports||
 ||Monday, June 16|| 11am talk by Rob Beezer -- Linear Algebra Book || [:/hike: Hiking]/Tourism afternoon ??||
