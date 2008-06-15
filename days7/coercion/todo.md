@@ -36,10 +36,10 @@ In progress
 
  * combinat (Mike)
  * rings/qqbar, polynomials (cwitty)
- * schemes (ncalexan)
+ * misc (latex.py, functional.py, misc.py) (ncalexan)
 
 Todo
- * misc (latex.py, functional.py, misc.py)
+ * schemes
  * gsl ( dft.py -- group failures )
  * coding
  * graphs (graph_isom.pyx)
