@@ -4,6 +4,11 @@
 ##master-date:Unknown-Date
 #format wiki
 #language en
+
+= The Slides are attached.  This Wiki series of slides are a work in progress =
+[[AttachInfo]]
+[[AttachList]]
+
 [[Navigation(slideshow)]]
 
 ##attachment:mylogo.png
@@ -25,6 +30,3 @@ Dsage the Next Generation
  * ["/300 World Domination"]
 
 [[Navigation(children)]]
-
-[[AttachInfo]]
-[[AttachList]]
