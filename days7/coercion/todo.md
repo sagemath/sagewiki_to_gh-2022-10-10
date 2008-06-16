@@ -48,7 +48,7 @@ Todo
  * schemes
  * gsl ( dft.py -- abelian group failures )
  * graphs (graph_isom.pyx)
- * calculus (calculus.py, desolvers.py, wester.py, equations.py)
+ * calculus (calculus.py, equations.py)
  * number fields
  * sets (set.py)
  * rings
