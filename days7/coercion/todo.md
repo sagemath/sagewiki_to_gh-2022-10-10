@@ -54,7 +54,7 @@ Todo
  * rings/number_field  (lots)
  * rings (homset.py, integer_ring.pyx, J-Z?)
  * modular (lots :-) )
- * categories (homset.py, pushout.py, category_types.py)
+ * categories (homset.py, category_types.py)
  * abelian_gps (after merge)
 
 
