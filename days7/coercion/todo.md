@@ -32,13 +32,13 @@ Done
  * databases
  * matrix (all tests pass except for one sage/matrix/matrix_modn_dense.pyx due to groups)
  * finite fields
+ * coding
 
 In progress
 
  * combinat (Mike)
  * rings/polynomial (cwitty)
  * misc (latex.py, functional.py, misc.py) (ncalexan)
- * coding (roed)
  * crypto (classical.py, classical_cipher.py, lfsr.py, mq/mpolynomialsystem.py) (roed)
 
 Todo
