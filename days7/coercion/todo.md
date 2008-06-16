@@ -51,7 +51,7 @@ Todo
  * gsl ( dft.py -- abelian group failures )
  * graphs (graph_isom.pyx)
  * calculus (calculus.py)
- * rings/number_field
+ * rings/number_field  (lots)
  * rings (homset.py, integer_ring.pyx, J-Z?)
  * modular (lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
