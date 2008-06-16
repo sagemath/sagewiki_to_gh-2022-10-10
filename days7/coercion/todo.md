@@ -37,6 +37,7 @@ Done
  * geometry
  * groups
  * interfaces
+ * sets
 
 In progress
 
@@ -50,7 +51,6 @@ Todo
  * graphs (graph_isom.pyx)
  * calculus (calculus.py, equations.py)
  * number fields
- * sets (set.py)
  * rings
  * modular (lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
