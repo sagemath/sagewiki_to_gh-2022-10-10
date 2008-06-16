@@ -44,13 +44,14 @@ In progress
  * combinat (Mike)
  * rings/polynomial (cwitty)
  * misc (latex.py, functional.py, misc.py) (ncalexan)
+ * rings/padics (roed)
 
 Todo
  * schemes
  * gsl ( dft.py -- abelian group failures )
  * graphs (graph_isom.pyx)
  * calculus (calculus.py)
- * number fields
+ * rings/number_field
  * rings (homset.py, integer_ring.pyx, J-Z?)
  * modular (lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
