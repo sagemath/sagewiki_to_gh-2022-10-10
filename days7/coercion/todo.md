@@ -35,7 +35,8 @@ Done
  * coding
  * crypto
  * geometry
-
+ * groups
+ 
 In progress
 
  * combinat (Mike)
@@ -51,9 +52,9 @@ Todo
  * sets (set.py)
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
- * groups (permgroup_named.py, perm_group.py, perm_group_element.pyx)
  * modular (lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
+ * abelian_gps (after merge)
 
 
 
