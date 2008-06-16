@@ -21,8 +21,17 @@ The following program is preliminary.
 
 
    * October 10: Linear Algebra (chair Clement Pernet)
+     Invited speakers:
+       * Arne Storjohann
+       * Jean-Guillaume Dumas
    * October 11: Groebner Bases (chair Ludovic Perret)
+     Invited speakers:
+       * Carlo Traverso
+       * Eric Schost
+       * David Lubicz
    * October 12: Elliptic Curves (chair Laurent Fousse)
+     Invited speakers:
+       * John Cremona
    * October 13-15: Coding Sprints (chair Michael Abshoff)
 
 Each "talk" day (October 10 to 12) typically has 2 invited speakers, who are
