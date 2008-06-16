@@ -49,7 +49,7 @@ Todo
  * schemes
  * gsl ( dft.py -- abelian group failures )
  * graphs (graph_isom.pyx)
- * calculus (calculus.py, equations.py)
+ * calculus (calculus.py)
  * number fields
  * rings
  * modular (lots :-) )
