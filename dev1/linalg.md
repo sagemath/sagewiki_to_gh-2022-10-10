@@ -18,9 +18,10 @@
  * implement LQUP decomposition [Clement, MartinAlbrecht]
    * implement LQUP routine [Clement]
    * implement TRSM routine [Clement]
-   * implement efficient column swaps/rotations [MartinAlbrecht]
+   * --(implement efficient column swaps)-- [MartinAlbrecht]
+   * implement efficient column rotations [MartinAlbrecht]
      * SSE2 might help a lot here
-   * implement memory efficient mzd_addmul_strassen [Martin]
+   * --(implement memory efficient mzd_addmul_strassen)-- [Martin]
      * See Clement's et al. paper on memory efficient Strassen-Winograd
  * implement Arne's asymptotically fast elimination algorithm [MartinAlbrecht]
  * implement multi-core multiplication with optimal speed-up
