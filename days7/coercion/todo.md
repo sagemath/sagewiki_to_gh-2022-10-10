@@ -51,7 +51,7 @@ Todo
  * graphs (graph_isom.pyx)
  * calculus (calculus.py)
  * number fields
- * rings
+ * rings (homset.py, integer_ring.pyx, J-Z?)
  * modular (lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
  * abelian_gps (after merge)
