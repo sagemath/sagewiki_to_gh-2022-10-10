@@ -36,7 +36,8 @@ Done
  * crypto
  * geometry
  * groups
- 
+ * interfaces
+
 In progress
 
  * combinat (Mike)
@@ -50,7 +51,6 @@ Todo
  * calculus (calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
  * sets (set.py)
- * interfaces (done except for doctest failures caused elsewhere)
  * rings
  * modular (lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
