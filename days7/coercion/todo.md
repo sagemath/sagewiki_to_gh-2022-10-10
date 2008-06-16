@@ -34,6 +34,7 @@ Done
  * finite fields
  * coding
  * crypto
+ * geometry
 
 In progress
 
@@ -48,7 +49,6 @@ Todo
  * calculus (calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
  * sets (set.py)
- * geometry (lattice_polytope.py)
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
  * groups (permgroup_named.py, perm_group.py, perm_group_element.pyx)
