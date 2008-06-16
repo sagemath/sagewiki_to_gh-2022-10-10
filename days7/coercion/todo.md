@@ -45,12 +45,12 @@ In progress
  * rings/polynomial, rings (cwitty)
  * misc (latex.py, functional.py, misc.py) (ncalexan)
  * rings/padics (roed)
+ * calculus (calculus.py) (robertwb)
 
 Todo
  * schemes (a mess)
  * gsl ( dft.py -- abelian group failures )
  * graphs (graph_isom.pyx)
- * calculus (calculus.py)
  * rings/number_field  (lots)
  * rings (homset.py, integer_ring.pyx, J-Z?)
  * modular (lots :-) )
