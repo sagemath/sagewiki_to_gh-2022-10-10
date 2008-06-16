@@ -8,3 +8,6 @@ Software that may be useful  for
       * [http://www.pytables.org/ pytables]
 
     * [http://www.sagemath.org:9001/combinatorics Combinatorics]
+    * Notebook Editing
+     * [https://addons.mozilla.org/en-US/firefox/addon/4125 It's All Text] - a Firefox plug-in which will launch the editor of your choice with the contents of a text box.  Perfect for Wiki editing and working in the notebook
+    * [http://rgruet.free.fr/#QuickRef Python Quick Reference] - The ultimate single page reference to Python.  Grab the single page version and save locally (its pretty big)
