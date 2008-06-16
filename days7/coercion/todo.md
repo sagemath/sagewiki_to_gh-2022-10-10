@@ -47,7 +47,7 @@ In progress
  * rings/padics (roed)
 
 Todo
- * schemes
+ * schemes (a mess)
  * gsl ( dft.py -- abelian group failures )
  * graphs (graph_isom.pyx)
  * calculus (calculus.py)
