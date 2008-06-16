@@ -16,6 +16,7 @@ Done
 
  * Integers, Rationals
  * complex, real
+ * qqbar
  * integer_mod
  * monoids/modules
  * probability
@@ -35,7 +36,7 @@ Done
 In progress
 
  * combinat (Mike)
- * rings/qqbar, polynomials (cwitty)
+ * rings/polynomial (cwitty)
  * misc (latex.py, functional.py, misc.py) (ncalexan)
  * coding (roed)
  * crypto (classical.py, classical_cipher.py, lfsr.py, mq/mpolynomialsystem.py) (roed)
