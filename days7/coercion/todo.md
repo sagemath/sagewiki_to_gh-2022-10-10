@@ -46,7 +46,7 @@ In progress
 
 Todo
  * schemes
- * gsl ( dft.py -- group failures )
+ * gsl ( dft.py -- abelian group failures )
  * graphs (graph_isom.pyx)
  * calculus (calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
