@@ -38,6 +38,7 @@ In progress
  * rings/qqbar, polynomials (cwitty)
  * misc (latex.py, functional.py, misc.py) (ncalexan)
  * coding (roed)
+ * crypto (classical.py, classical_cipher.py, lfsr.py, mq/mpolynomialsystem.py) (roed)
 
 Todo
  * schemes
@@ -49,7 +50,6 @@ Todo
  * geometry (lattice_polytope.py)
  * interfaces (done except for doctest failures caused elsewhere)
  * rings
- * crypto (classical.py, classical_cipher.py, lfsr.py, mq/mpolynomialsystem.py)
  * groups (permgroup_named.py, perm_group.py, perm_group_element.pyx)
  * modular (lots :-) )
  * categories (homset.py, pushout.py, category_types.py)
