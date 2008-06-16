@@ -37,11 +37,11 @@ In progress
  * combinat (Mike)
  * rings/qqbar, polynomials (cwitty)
  * misc (latex.py, functional.py, misc.py) (ncalexan)
+ * coding (roed)
 
 Todo
  * schemes
  * gsl ( dft.py -- group failures )
- * coding
  * graphs (graph_isom.pyx)
  * calculus (calculus.py, desolvers.py, wester.py, equations.py)
  * number fields
