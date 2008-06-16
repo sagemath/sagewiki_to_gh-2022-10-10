@@ -28,11 +28,14 @@
    * OpenMP seems to be nice and easy
    * 2 cores probably main target, but think about 4 cores too
  * improve efficiency of M4RM
-   * try 7 instead of 8 Gray code tables to leave room for the actual matrix in L1 [MartinAlbrecht]
+   * --(try 7 instead of 8 Gray code tables to leave room for the actual matrix in L1)-- [MartinAlbrecht]
      * It seems slower to be slower to use 7 tables rather than 8
-     * L1 cache doesn't seem to be the main reason for performance then
-     * try say 16 tables.
-   * try to fit three matrices rather than two into L2 or understand why it works so good for two
+
+   * try say 16 tables instead of 8 on the Core2Duo [MartinAlbrecht]
+   * try Bill Hart's idea for L1 cache efficiency on the Core2Duo [MartinAlbrecht]
+   * --(try to fit three matrices rather than two into L2 or understand why it works so good for two)-- [MartinAlbrecht]
+     * it works since once we've written the date we can go on computing and let a cache handle the rest
+     * a cache miss for reading on the other hand really prevents us from computing
    * detect L1/L2 cache sizes at runtime and choose optimal parameters for them
    * implement Bill's [http://groups.google.com/group/sage-devel/msg/6279228095b3d9f7 half table idea] and benchmark it 
 
