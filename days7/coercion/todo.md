@@ -10,9 +10,9 @@ sage: coercion_traceback()
 
 which will give a listing of all errors caught in the coercion model. 
 
-=== Merge questions ===
+=== Merge Issues ===
 
-Matrix constructor rewritten, can't take gens and sequences anymore.
+ * Matrix constructor rewritten, can't take gens and sequences anymore.
 
 
 === Doctests ===
