@@ -38,6 +38,7 @@ Done
  * groups
  * interfaces
  * sets
+ * calculus
 
 In progress
 
@@ -45,12 +46,11 @@ In progress
  * rings/polynomial, rings (cwitty)
  * misc (latex.py, functional.py, misc.py) (ncalexan)
  * rings/padics (roed)
- * calculus (calculus.py) (robertwb)
 
 Todo
+ * graphs (graph.py, graph_bundle.py)
  * schemes (a mess)
  * gsl ( dft.py -- abelian group failures )
- * graphs (graph_isom.pyx)
  * rings/number_field  (lots)
  * rings (homset.py, integer_ring.pyx, J-Z?)
  * modular (lots :-) )
