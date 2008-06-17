@@ -1,4 +1,7 @@
+=== Sage has problems starting up with the code in this repository ===
 Merge up at http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/ (pull on top of 3.0.3 release candidate)
+
+I'm not quite sure how to fix it.
 
 
 
