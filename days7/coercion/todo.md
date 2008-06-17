@@ -1,4 +1,4 @@
-Merge up at http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/ (pull on top of 3.0.3rc1)
+Merge up at http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/ (pull on top of 3.0.3 release candidate)
 
 
 
