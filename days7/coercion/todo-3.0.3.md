@@ -1,3 +1,4 @@
+{{{
         sage -t  devel/sage-main/sage/combinat/combinat.py
 	sage -t  devel/sage-main/sage/combinat/combinatorial_algebra.py
 	sage -t  devel/sage-main/sage/combinat/crystals/crystals.py
@@ -36,3 +37,4 @@
 	sage -t  devel/sage-main/sage/combinat/symmetric_group_algebra.py
 	sage -t  devel/sage-main/sage/combinat/tableau.py
 	sage -t  devel/sage-main/sage/combinat/tuple.py
+}}}
