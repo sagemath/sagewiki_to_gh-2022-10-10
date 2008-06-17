@@ -13,6 +13,7 @@ which will give a listing of all errors caught in the coercion model.
 === Merge Issues ===
 
  * Matrix constructor rewritten, can't take gens and sequences anymore.
+ * finite_field -> finite_field_prime_modn
 
 
 === Doctests ===
