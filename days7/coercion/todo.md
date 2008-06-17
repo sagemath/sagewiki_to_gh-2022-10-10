@@ -53,7 +53,7 @@ Todo
  * rings/number_field  (lots)
  * rings (homset.py, integer_ring.pyx, J-Z?)
  * modular (lots :-) )
- * categories (homset.py, category_types.py)
+ * categories (category_types.py)
 
 Todo (after merge):
  * abelian_grps
