@@ -39,10 +39,10 @@ Done
  * interfaces
  * sets
  * calculus
+ * combinat
 
 In progress
 
- * combinat (Mike)
  * rings/polynomial, rings (cwitty)
  * misc (latex.py, functional.py, misc.py) (ncalexan)
  * rings/padics (roed)
