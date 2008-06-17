@@ -50,14 +50,14 @@ In progress
 Todo
  * graphs (graph.py, graph_bundle.py)
  * schemes (a mess)
- * gsl ( dft.py -- abelian group failures )
  * rings/number_field  (lots)
  * rings (homset.py, integer_ring.pyx, J-Z?)
  * modular (lots :-) )
  * categories (homset.py, category_types.py)
- * abelian_gps (after merge)
 
-
+Todo (after merge):
+ * abelian_grps
+ * gsl ( dft.py -- abelian group failures )
 
 === Files to fix (Make all parents conform to the spec) ===
 
