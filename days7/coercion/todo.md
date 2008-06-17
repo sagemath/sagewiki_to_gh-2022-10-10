@@ -46,13 +46,13 @@ In progress
  * rings/polynomial, rings (cwitty)
  * misc (latex.py, functional.py, misc.py) (ncalexan)
  * rings/padics (roed)
+ * modular (lots :-) )
 
 Todo
  * graphs (graph.py, graph_bundle.py)
  * schemes (a mess)
  * rings/number_field  (lots)
  * rings (integer_ring.pyx, J-Z?)
- * modular (lots :-) )
  * categories (category_types.py)
 
 Todo (after merge):
