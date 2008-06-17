@@ -1,9 +1,6 @@
 Merge up at http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/ (pull on top of 3.0.3rc1)
 
 
-To start, get a copy of Sage 2.10.1, install the latest cython spkg (available at http://sage.math.washington.edu/home/robertwb/cython/), pull from http://cython.org/coercion/hgwebdir.cgi/sage-coerce/ and build. 
-
-Import [attachment:fix-random.patch] to sage-scripts to ignore random tests.
 
 Hint: If something doesn't work, try typing 
 
@@ -18,6 +15,7 @@ which will give a listing of all errors caught in the coercion model.
  * Matrix constructor rewritten, can't take gens and sequences anymore.
  * finite_field -> finite_field_prime_modn
  * gap_to_sage renamed in finite fields?
+
 
 
 === Doctests ===
@@ -68,6 +66,7 @@ Todo
 Todo (after merge):
  * abelian_grps
  * gsl ( dft.py -- abelian group failures )
+
 
 === Files to fix (Make all parents conform to the spec) ===
 
@@ -135,3 +134,10 @@ a lot of things not easily accessible now from the interpreter, such as the coer
 }}}
 
 === Categories to implement ===
+
+
+=== Old notes ===
+
+To start, get a copy of Sage 2.10.1, install the latest cython spkg (available at http://sage.math.washington.edu/home/robertwb/cython/), pull from http://cython.org/coercion/hgwebdir.cgi/sage-coerce/ and build. 
+
+Import [attachment:fix-random.patch] to sage-scripts to ignore random tests.
