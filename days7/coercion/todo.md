@@ -25,6 +25,10 @@ which will give a listing of all errors caught in the coercion model.
 
 Done
 
+In Progress
+
+To Do
+
  * Integers, Rationals
  * complex, real
  * qqbar
@@ -41,7 +45,7 @@ Done
  * ext
  * functions
  * databases
- * matrix (all tests pass except for one sage/matrix/matrix_modn_dense.pyx due to groups)
+ * matrix
  * finite fields
  * coding
  * crypto
@@ -51,20 +55,15 @@ Done
  * sets
  * calculus
  * combinat
-
-In progress
-
- * rings/polynomial, rings (cwitty)
- * misc (latex.py, functional.py, misc.py) (ncalexan)
- * rings/padics (roed)
- * modular (lots :-) )
-
-Todo
- * graphs (graph.py, graph_bundle.py)
- * schemes (a mess)
- * rings/number_field  (lots)
- * rings (integer_ring.pyx, J-Z?)
- * categories (category_types.py)
+ * rings/polynomial
+ * misc
+ * rings/padics
+ * modular
+ * graphs
+ * schemes
+ * rings/number_field
+ * rings
+ * categories
 
 Todo (after merge):
  * abelian_grps
