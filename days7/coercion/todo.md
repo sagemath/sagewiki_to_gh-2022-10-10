@@ -51,7 +51,7 @@ Todo
  * graphs (graph.py, graph_bundle.py)
  * schemes (a mess)
  * rings/number_field  (lots)
- * rings (homset.py, integer_ring.pyx, J-Z?)
+ * rings (integer_ring.pyx, J-Z?)
  * modular (lots :-) )
  * categories (category_types.py)
 
