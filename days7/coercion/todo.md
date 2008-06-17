@@ -15,6 +15,7 @@ which will give a listing of all errors caught in the coercion model.
  * Matrix constructor rewritten, can't take gens and sequences anymore.
  * finite_field -> finite_field_prime_modn
  * gap_to_sage renamed in finite fields?
+ * Weakref real_mpfr
 
 
 === Doctests ===
