@@ -11,3 +11,6 @@ PEOPLE:
 
 GROUP:
   http://groups.google.com/group/sage-finance
+
+LINKS:
+  http://wiki.sagemath.org/GlennTarbox/QuantFin
