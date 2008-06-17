@@ -26,10 +26,10 @@ which will give a listing of all errors caught in the coercion model.
 Done
 
 In Progress
+ * Integers, Rationals (roed)
 
 To Do
 
- * Integers, Rationals
  * complex, real
  * qqbar
  * integer_mod
