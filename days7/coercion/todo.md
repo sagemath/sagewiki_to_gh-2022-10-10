@@ -18,6 +18,7 @@ Done
 In Progress
  * Integers, Rationals (roed)
  * integer_mod (robertwb)
+ * rings/formal_sums (craigcitro)
 
 To Do
 
