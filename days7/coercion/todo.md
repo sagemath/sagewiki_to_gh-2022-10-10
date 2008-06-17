@@ -1,7 +1,4 @@
-=== Sage has problems starting up with the code in this repository ===
-Merge up at http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/ (pull on top of 3.0.3 release candidate)
-
-I'm not quite sure how to fix it.
+Merge up at http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/ (pull on top of 3.0.3 release candidate) Should build and start without problems. 
 
 
 
@@ -13,13 +10,6 @@ sage: coercion_traceback()
 
 which will give a listing of all errors caught in the coercion model. 
 
-=== Merge Issues ===
-
- * Matrix constructor rewritten, can't take gens and sequences anymore.
- * finite_field -> finite_field_prime_modn
- * gap_to_sage renamed in finite fields?
-
-
 
 === Doctests ===
 
@@ -27,12 +17,12 @@ Done
 
 In Progress
  * Integers, Rationals (roed)
+ * integer_mod (robertwb)
 
 To Do
 
  * complex, real
  * qqbar
- * integer_mod
  * monoids/modules
  * probability
  * games
