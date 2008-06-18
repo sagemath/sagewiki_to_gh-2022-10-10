@@ -54,7 +54,7 @@ To Do
  * schemes
  * rings/number_field
  * rings
- * categories
+ * categories (category_types.py, homset.py)
 
 Todo (after merge):
  * abelian_grps
