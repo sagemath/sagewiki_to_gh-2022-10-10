@@ -9,9 +9,9 @@ Contact Nick Alexander on {{{sage-devel}}} to request features, report bugs, and
 
 '''Warning!'''  This is alpha code.  This might fail horribly and is not (yet) easily customizable.
 
-attachment:sage-mode-0.3.1.spkg
+attachment:sage-mode-0.4.spkg
 
-Use {{{sage -f sage-mode-0.3.1.spkg}}}.  The following installation instructions are suggested:
+Use {{{sage -f sage-mode-0.4.spkg}}}.  The following installation instructions are suggested:
 
 {{{
 (add-to-list 'load-path (expand-file-name "$SAGE_DATA/emacs"))
