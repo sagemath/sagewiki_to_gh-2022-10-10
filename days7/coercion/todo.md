@@ -27,12 +27,14 @@ Done
  * databases
  * sets
  * rings/rational
+ * rings/real_lazy
 
 In Progress
  * rings/padics (roed)
  * structure/formal_sums (craigcitro)
  * matrix (robertwb)
  * finite fields (robertwb)
+ * rings/polynomial (cwitty)
 
 To Do
 
