@@ -22,6 +22,7 @@ In Progress
  * rings/padics (roed)
  * structure/formal_sums (craigcitro)
  * matrix (robertwb)
+ * finite fields (robertwb)
 
 To Do
 
@@ -39,7 +40,6 @@ To Do
  * ext
  * functions
  * databases
- * finite fields
  * coding
  * crypto
  * geometry
