@@ -2,6 +2,10 @@
 {{{
 	sage -t  devel/sage-main/sage/gsl/dft.py
 
+	sage -t  devel/sage-main/sage/interfaces/maxima.py
+	sage -t  devel/sage-main/sage/interfaces/r.py
+	sage -t  devel/sage-main/sage/interfaces/sage0.py
+
 	sage -t  devel/sage-main/sage/combinat/combinat.py
 	sage -t  devel/sage-main/sage/combinat/crystals/crystals.py
 	sage -t  devel/sage-main/sage/combinat/crystals/tensor_product.py
