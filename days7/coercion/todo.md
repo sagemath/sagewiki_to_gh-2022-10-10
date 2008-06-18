@@ -26,9 +26,9 @@ Done
  * quadratic forms
  * databases
  * sets
+ * rings/rational
 
 In Progress
- * Integers, Rationals (roed)
  * rings/padics (roed)
  * structure/formal_sums (craigcitro)
  * matrix (robertwb)
