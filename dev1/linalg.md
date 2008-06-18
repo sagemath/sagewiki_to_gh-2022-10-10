@@ -23,20 +23,22 @@
      * SSE2 might help a lot here
    * --(implement memory efficient mzd_addmul_strassen)-- [Martin]
      * See Clement's et al. paper on memory efficient Strassen-Winograd
- * implement Arne's asymptotically fast elimination algorithm [MartinAlbrecht]
+ * --(implement Arne's asymptotically fast elimination algorithm)-- [MartinAlbrecht]
+   * It was agreed that this is not what we want for M4RI, a toy implementation is available at: http://www.informatik.uni-bremen.de/cgi-bin/cgiwrap/malb/blosxom.pl/2008/06/13#gauss-jordan-storjohann
  * implement multi-core multiplication with optimal speed-up
    * OpenMP seems to be nice and easy
    * 2 cores probably main target, but think about 4 cores too
  * improve efficiency of M4RM
    * --(try 7 instead of 8 Gray code tables to leave room for the actual matrix in L1)-- [MartinAlbrecht]
      * It seems slower to be slower to use 7 tables rather than 8
-
    * try say 16 tables instead of 8 on the Core2Duo [MartinAlbrecht]
    * try Bill Hart's idea for L1 cache efficiency on the Core2Duo [MartinAlbrecht]
+     * The idea is: construct 8 gray code tables but use one once it is in L1 a lot to reduce before using the second
    * --(try to fit three matrices rather than two into L2 or understand why it works so good for two)-- [MartinAlbrecht]
      * it works since once we've written the date we can go on computing and let a cache handle the rest
      * a cache miss for reading on the other hand really prevents us from computing
-   * detect L1/L2 cache sizes at runtime and choose optimal parameters for them
+   * --(detect L1/L2 cache sizes at runtime and choose optimal parameters for them)-- [MartinAlbrecht]
+   * Implement memory management s.t. the sys time on Opterons decreases.
    * implement Bill's [http://groups.google.com/group/sage-devel/msg/6279228095b3d9f7 half table idea] and benchmark it 
 
 == Sparse GF(2) (and other small finite fields) ==
