@@ -6,6 +6,7 @@ groups/matrix_grps
 games/
 finance/
 databases/
+catalogue/
 }}}
 
 ===Not so done:===
