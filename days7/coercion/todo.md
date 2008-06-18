@@ -20,7 +20,6 @@ In Progress
  * Integers, Rationals (roed)
  * rings/padics (roed)
  * structure/formal_sums (craigcitro)
- * matrix (robertwb)
 
 To Do
 
@@ -55,6 +54,7 @@ To Do
  * rings/number_field
  * rings
  * categories
+ * matrix
 
 Todo (after merge):
  * abelian_grps
