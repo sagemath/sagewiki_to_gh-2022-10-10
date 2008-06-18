@@ -1,4 +1,11 @@
 ==Mike:==
+===Done:===
+{{{
+groups/matrix_grps
+games/
+}}}
+===Not so done:===
+
 {{{
 	sage -t  devel/sage-main/sage/gsl/dft.py
 
