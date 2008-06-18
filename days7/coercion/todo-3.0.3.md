@@ -3,6 +3,7 @@
 {{{
 groups/matrix_grps
 games/
+finance/
 }}}
 ===Not so done:===
 
