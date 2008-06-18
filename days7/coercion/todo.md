@@ -16,6 +16,7 @@ which will give a listing of all errors caught in the coercion model.
 Done
  * integer_mod
  * calculus
+ * catalogue, dsage, media, stats, server, logic, tests, misc
 
 In Progress
  * Integers, Rationals (roed)
@@ -31,7 +32,7 @@ To Do
  * monoids/modules
  * probability
  * games
- * catalogue, dsage, media, stats, server, logic, tests, misc, numerical
+ * numerical
  * algebras
  * libs
  * quadratic forms
