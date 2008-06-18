@@ -18,7 +18,6 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
  * 1 large -- Dag
 
 Extras :)
- * 1 medium -- Burcin Erocal
  * 1 XXL -- Pete Bismuti
  * 1 small -- Alyson Deines
 
@@ -29,3 +28,4 @@ Extras :)
  * 2 XX-large - mabshoff
  * 1 XXL -- Carl Witty
  * 1 medium -- Nick Alexander
+ * 1 medium -- Burcin Erocal
