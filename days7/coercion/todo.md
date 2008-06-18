@@ -14,12 +14,13 @@ which will give a listing of all errors caught in the coercion model.
 === Doctests ===
 
 Done
+ * integer_mod
 
 In Progress
  * Integers, Rationals (roed)
  * rings/padics (roed)
- * integer_mod (robertwb)
  * structure/formal_sums (craigcitro)
+ * matrix (robertwb)
 
 To Do
 
@@ -37,7 +38,6 @@ To Do
  * ext
  * functions
  * databases
- * matrix
  * finite fields
  * coding
  * crypto
