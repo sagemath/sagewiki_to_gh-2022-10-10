@@ -17,6 +17,10 @@ Done
  * integer_mod
  * calculus
  * catalogue, dsage, media, stats, server, logic, tests, misc
+ * probability
+ * monoids
+ * games
+ * algebras
 
 In Progress
  * Integers, Rationals (roed)
@@ -29,11 +33,7 @@ To Do
 
  * complex, real
  * qqbar
- * monoids/modules
- * probability
- * games
  * numerical
- * algebras
  * libs
  * quadratic forms
  * lfunctions
