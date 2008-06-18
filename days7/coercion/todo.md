@@ -30,9 +30,10 @@ Done
  * rings/real_lazy
  * finite fields
  * structure/formal_sums
+ * rings/padics
 
 In Progress
- * rings/padics (roed)
+ * rings/number_field (roed)
  * matrix (robertwb)
  * rings/polynomial (cwitty)
  * schemes (ncalexan)
@@ -55,7 +56,6 @@ To Do
  * rings/polynomial
  * modular
  * graphs
- * rings/number_field
  * rings
  * categories (category_types.py, homset.py)
  * structure
