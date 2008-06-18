@@ -4,11 +4,8 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
 
 == Orders ==
 
- * 1 medium, 2 large -- william stein
  * 1 medium -- timothy clemans
- * 1 small, 1 large -- craig citro
  * 2 medium, 2 large, 2 X-large (?) -- glenn tarbox
- * 2 XX-large - mabshoff
  * 1 small, 1 medium --Martin Albrecht
  * 1 large -- Robert Bradshaw
  * 2 large -- Gary Furnish
@@ -26,3 +23,9 @@ Extras :)
  * 1 medium -- Burcin Erocal
  * 1 XXL -- Pete Bismuti
  * 1 small -- Alyson Deines
+
+== Filled ==
+
+ * 1 small, 1 large -- craig citro
+ * 1 medium, 2 large -- william stein
+ * 2 XX-large - mabshoff
