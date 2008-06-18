@@ -35,6 +35,7 @@ In Progress
  * matrix (robertwb)
  * finite fields (robertwb)
  * rings/polynomial (cwitty)
+ * schemes (ncalexan)
 
 To Do
 
@@ -53,7 +54,6 @@ To Do
  * rings/polynomial
  * modular
  * graphs
- * schemes
  * rings/number_field
  * rings
  * categories (category_types.py, homset.py)
