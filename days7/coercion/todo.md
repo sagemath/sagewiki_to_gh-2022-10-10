@@ -28,12 +28,12 @@ Done
  * sets
  * rings/rational
  * rings/real_lazy
+ * finite fields
 
 In Progress
  * rings/padics (roed)
  * structure/formal_sums (craigcitro)
  * matrix (robertwb)
- * finite fields (robertwb)
  * rings/polynomial (cwitty)
  * schemes (ncalexan)
 
