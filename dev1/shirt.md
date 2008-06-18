@@ -6,12 +6,8 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
 
  * 1 medium -- timothy clemans
  * 2 medium, 2 large, 2 X-large (?) -- glenn tarbox
- * 1 large -- Robert Bradshaw
- * 2 large -- Gary Furnish
  * 1 large -- Robert Miller
  * 1 medium -- Yi Qiang 
- * 1 large -- Clement Pernet
- * 1 small -- Mike Hansen
 
 Extras :)
  * 1 XXL -- Pete Bismuti
@@ -29,3 +25,7 @@ Extras :)
  * 1 medium -- Dan Shumow
  * 1 small -- Emily Kirkman
  * 1 large -- Dag
+ * 1 large -- Robert Bradshaw
+ * 2 large -- Gary Furnish
+ * 1 small -- Mike Hansen
+ * 1 large -- Clement Pernet
