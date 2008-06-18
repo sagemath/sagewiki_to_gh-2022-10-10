@@ -15,12 +15,12 @@ which will give a listing of all errors caught in the coercion model.
 
 Done
  * integer_mod
+ * calculus
 
 In Progress
  * Integers, Rationals (roed)
  * rings/padics (roed)
  * structure/formal_sums (craigcitro)
- * calculus (robertwb)
 
 To Do
 
