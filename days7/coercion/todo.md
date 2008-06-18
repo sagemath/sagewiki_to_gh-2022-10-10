@@ -20,6 +20,7 @@ In Progress
  * Integers, Rationals (roed)
  * rings/padics (roed)
  * structure/formal_sums (craigcitro)
+ * calculus (robertwb)
 
 To Do
 
@@ -44,7 +45,6 @@ To Do
  * groups
  * interfaces
  * sets
- * calculus
  * combinat
  * rings/polynomial
  * misc
