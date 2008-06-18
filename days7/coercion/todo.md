@@ -21,6 +21,11 @@ Done
  * monoids
  * games
  * algebras
+ * libs
+ * lfunctions
+ * quadratic forms
+ * databases
+ * sets
 
 In Progress
  * Integers, Rationals (roed)
@@ -34,22 +39,16 @@ To Do
  * complex, real
  * qqbar
  * numerical
- * libs
- * quadratic forms
- * lfunctions
- * plot
- * ext
- * functions
- * databases
+ * plot (animate.py, tachyon.py, plot.py)
+ * ext (interactive_constructors_c.pyx)
+ * functions (constants.py: just a rounding error)
  * coding
- * crypto
- * geometry
+ * crypto (mq/sbox.py, mq/mpolynomialsystem.py)
+ * geometry (lattice_polytope.py: pickling)
  * groups
- * interfaces
- * sets
+ * interfaces (r.py: one pickling doctest)
  * combinat
  * rings/polynomial
- * misc
  * modular
  * graphs
  * schemes
