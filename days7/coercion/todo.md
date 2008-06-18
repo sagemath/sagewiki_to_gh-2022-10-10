@@ -17,6 +17,7 @@ Done
 
 In Progress
  * Integers, Rationals (roed)
+ * rings/padics (roed)
  * integer_mod (robertwb)
  * structure/formal_sums (craigcitro)
 
@@ -48,7 +49,6 @@ To Do
  * combinat
  * rings/polynomial
  * misc
- * rings/padics
  * modular
  * graphs
  * schemes
