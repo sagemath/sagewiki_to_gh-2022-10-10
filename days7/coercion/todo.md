@@ -29,13 +29,14 @@ Done
  * rings/rational
  * rings/real_lazy
  * finite fields
+ * structure/formal_sums
 
 In Progress
  * rings/padics (roed)
- * structure/formal_sums (craigcitro)
  * matrix (robertwb)
  * rings/polynomial (cwitty)
  * schemes (ncalexan)
+ * modular (craigcitro)
 
 To Do
 
