@@ -6,7 +6,6 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
 
  * 1 medium -- timothy clemans
  * 2 medium, 2 large, 2 X-large (?) -- glenn tarbox
- * 1 small, 1 medium -- Martin Albrecht
  * 1 large -- Robert Bradshaw
  * 2 large -- Gary Furnish
  * 1 large -- Robert Miller
@@ -29,3 +28,4 @@ Extras :)
  * 1 XXL -- Carl Witty
  * 1 medium -- Nick Alexander
  * 1 medium -- Burcin Erocal
+ * 1 small, 1 medium -- Martin Albrecht
