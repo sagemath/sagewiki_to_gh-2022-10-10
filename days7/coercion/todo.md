@@ -59,6 +59,8 @@ To Do
  * rings
  * categories (category_types.py, homset.py)
  * structure
+ * modules
+ * algebras
 
 Todo (after merge):
  * abelian_grps
