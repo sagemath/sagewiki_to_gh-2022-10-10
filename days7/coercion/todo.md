@@ -31,6 +31,8 @@ Done
  * finite fields
  * structure/formal_sums
  * rings/padics
+ * graphs
+ * ext
 
 In Progress
  * rings/number_field (roed)
@@ -45,7 +47,6 @@ To Do
  * qqbar
  * numerical
  * plot (animate.py, tachyon.py, plot.py)
- * ext (interactive_constructors_c.pyx)
  * functions (constants.py: just a rounding error)
  * coding
  * crypto (mq/sbox.py, mq/mpolynomialsystem.py)
@@ -55,7 +56,6 @@ To Do
  * combinat
  * rings/polynomial
  * modular
- * graphs
  * rings
  * categories (category_types.py, homset.py)
  * structure
