@@ -34,6 +34,7 @@ Done
  * graphs
  * ext
  * functions
+ * complex, real
 
 In Progress
  * rings/number_field (roed)
@@ -44,7 +45,6 @@ In Progress
 
 To Do
 
- * complex, real
  * qqbar
  * numerical
  * plot (animate.py, tachyon.py, plot.py)
