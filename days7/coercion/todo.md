@@ -39,6 +39,7 @@ Done
 In Progress
  * rings/number_field (roed)
  * matrix (robertwb, errors related to number fields)
+ * numerical (robertwb)
  * rings/polynomial (cwitty)
  * schemes (ncalexan)
  * modular (craigcitro)
@@ -46,7 +47,6 @@ In Progress
 To Do
 
  * qqbar
- * numerical
  * plot (animate.py, tachyon.py, plot.py -- all due to failing Elliptic Curve point construction)
  * coding
  * crypto (mq/sbox.py, mq/mpolynomialsystem.py)
