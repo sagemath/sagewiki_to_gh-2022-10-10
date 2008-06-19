@@ -41,7 +41,6 @@ Done
 In Progress
  * rings/number_field (roed)
  * matrix (robertwb, errors related to number fields)
- * coding (robertwb)
  * rings/ (cwitty)
  * schemes (ncalexan)
  * modular (craigcitro)
@@ -54,13 +53,13 @@ To Do
  * groups
  * interfaces (r.py: one pickling doctest)
  * combinat
+ * coding
  * rings/polynomial
  * modular
  * rings
  * categories (category_types.py, homset.py)
  * structure
  * modules
- * algebras
 
 Todo (after merge):
  * abelian_grps
