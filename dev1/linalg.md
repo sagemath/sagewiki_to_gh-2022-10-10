@@ -16,11 +16,16 @@
 
 == Dense GF(2) ==
  * implement LQUP decomposition [Clement, MartinAlbrecht]
-   * implement LQUP routine [Clement]
-   * implement TRSM routine [Clement]
-   * --(implement efficient column swaps)-- [MartinAlbrecht]
-   * implement efficient column rotations [MartinAlbrecht]
-     * SSE2 might help a lot here
+   * --(implement LQUP routine)-- [Clement]
+   * implement {{{_mzd_addmul_weird}}} [Clement]
+   * implement LQUP basecase routine based on M4RI {{{mzd_lqup_m4ri}}} [MartinAlbrecht]
+     * dont' zero out in _mzd_gauss_submatrix (!)
+     * don't zero out below
+     * remember rowswaps => P
+     * remember Q[r] = c (translate to Lapack style later :-))
+   * --(implement TRSM routine)-- [Clement]
+   * --(implement column swaps)-- [MartinAlbrecht]
+   * --(implement column rotations)-- [MartinAlbrecht]
    * --(implement memory efficient mzd_addmul_strassen)-- [Martin]
      * See Clement's et al. paper on memory efficient Strassen-Winograd
  * --(implement Arne's asymptotically fast elimination algorithm)-- [MartinAlbrecht]
