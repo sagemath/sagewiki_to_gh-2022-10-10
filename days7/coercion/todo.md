@@ -45,11 +45,11 @@ In Progress
  * matrix (robertwb, errors related to number fields)
  * schemes (ncalexan)
  * modular (craigcitro)
+ * geometry (lattice_polytope.py: pickling) (cwitty)
 
 To Do
 
  * plot (animate.py, tachyon.py, plot.py -- all due to failing Elliptic Curve point construction)
- * geometry (lattice_polytope.py: pickling)
  * groups
  * combinat
  * coding
