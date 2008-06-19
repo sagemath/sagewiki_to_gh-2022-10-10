@@ -38,17 +38,16 @@ Done
  * numerical
  * crypto
  * interfaces
+ * qqbar
 
 In Progress
  * rings/number_field (robertwb)
  * matrix (robertwb, errors related to number fields)
- * rings/ (cwitty)
  * schemes (ncalexan)
  * modular (craigcitro)
 
 To Do
 
- * qqbar
  * plot (animate.py, tachyon.py, plot.py -- all due to failing Elliptic Curve point construction)
  * geometry (lattice_polytope.py: pickling)
  * groups
@@ -56,7 +55,7 @@ To Do
  * coding
  * rings/polynomial
  * modular
- * rings (laurent_series_ring.py, extended_rational_field.py, residue_field.pyx, natural.pyx, morphism.pyx)
+ * rings (laurent_series_ring.py, residue_field.pyx, natural.pyx)
  * categories (category_types.py, homset.py)
  * structure
  * modules
