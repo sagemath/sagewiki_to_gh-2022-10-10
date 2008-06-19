@@ -40,7 +40,7 @@ In Progress
  * rings/number_field (roed)
  * matrix (robertwb, errors related to number fields)
  * numerical (robertwb)
- * rings/polynomial (cwitty)
+ * rings/ (cwitty)
  * schemes (ncalexan)
  * modular (craigcitro)
 
