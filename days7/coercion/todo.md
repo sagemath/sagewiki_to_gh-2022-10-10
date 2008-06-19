@@ -33,6 +33,7 @@ Done
  * rings/padics
  * graphs
  * ext
+ * functions
 
 In Progress
  * rings/number_field (roed)
@@ -47,7 +48,6 @@ To Do
  * qqbar
  * numerical
  * plot (animate.py, tachyon.py, plot.py)
- * functions (constants.py: just a rounding error)
  * coding
  * crypto (mq/sbox.py, mq/mpolynomialsystem.py)
  * geometry (lattice_polytope.py: pickling)
