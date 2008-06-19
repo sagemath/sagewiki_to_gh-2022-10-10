@@ -47,7 +47,7 @@ To Do
 
  * qqbar
  * numerical
- * plot (animate.py, tachyon.py, plot.py)
+ * plot (animate.py, tachyon.py, plot.py -- all due to failing Elliptic Curve point construction)
  * coding
  * crypto (mq/sbox.py, mq/mpolynomialsystem.py)
  * geometry (lattice_polytope.py: pickling)
