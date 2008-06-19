@@ -36,11 +36,12 @@ Done
  * functions
  * complex, real
  * numerical
+ * crypto
 
 In Progress
  * rings/number_field (roed)
  * matrix (robertwb, errors related to number fields)
- * crypto (robertwb -- mq/sbox.py, mq/mpolynomialsystem.py)
+ * coding (robertwb)
  * rings/ (cwitty)
  * schemes (ncalexan)
  * modular (craigcitro)
@@ -49,7 +50,6 @@ To Do
 
  * qqbar
  * plot (animate.py, tachyon.py, plot.py -- all due to failing Elliptic Curve point construction)
- * coding
  * geometry (lattice_polytope.py: pickling)
  * groups
  * interfaces (r.py: one pickling doctest)
