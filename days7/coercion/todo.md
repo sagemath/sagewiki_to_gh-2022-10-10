@@ -37,9 +37,10 @@ Done
  * complex, real
  * numerical
  * crypto
+ * interfaces
 
 In Progress
- * rings/number_field (roed)
+ * rings/number_field (robertwb)
  * matrix (robertwb, errors related to number fields)
  * rings/ (cwitty)
  * schemes (ncalexan)
@@ -51,12 +52,11 @@ To Do
  * plot (animate.py, tachyon.py, plot.py -- all due to failing Elliptic Curve point construction)
  * geometry (lattice_polytope.py: pickling)
  * groups
- * interfaces (r.py: one pickling doctest)
  * combinat
  * coding
  * rings/polynomial
  * modular
- * rings
+ * rings (quotient_ring.py, laurent_series_ring.py, fraction_field_element.py, ideal.py, extended_rational_field.py, arith.py, residue_field.pyx, natural.pyx, morphism.pyx, ring.pyx)
  * categories (category_types.py, homset.py)
  * structure
  * modules
