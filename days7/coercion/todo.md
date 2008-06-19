@@ -38,7 +38,7 @@ Done
 
 In Progress
  * rings/number_field (roed)
- * matrix (robertwb)
+ * matrix (robertwb, errors related to number fields)
  * rings/polynomial (cwitty)
  * schemes (ncalexan)
  * modular (craigcitro)
