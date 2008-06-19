@@ -22,8 +22,10 @@
      * dont' zero out in _mzd_gauss_submatrix (!)
      * don't zero out below
      * remember rowswaps => P
-     * remember Q[r] = c (translate to Lapack style later :-))
+     * remember Q[r] = c (translate to Lapack style later :-) )
    * --(implement TRSM routine)-- [Clement]
+   * implement inplace triangular matrix inversion {{{mzd_trtri}}} [Clement]
+   * implement triangular triangular matrix multiplication {{{mzd_trtrm}}} [Clement]
    * --(implement column swaps)-- [MartinAlbrecht]
    * --(implement column rotations)-- [MartinAlbrecht]
    * --(implement memory efficient mzd_addmul_strassen)-- [Martin]
