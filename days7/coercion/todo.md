@@ -56,7 +56,7 @@ To Do
  * coding
  * rings/polynomial
  * modular
- * rings (quotient_ring.py, laurent_series_ring.py, fraction_field_element.py, ideal.py, extended_rational_field.py, arith.py, residue_field.pyx, natural.pyx, morphism.pyx, ring.pyx)
+ * rings (laurent_series_ring.py, extended_rational_field.py, residue_field.pyx, natural.pyx, morphism.pyx)
  * categories (category_types.py, homset.py)
  * structure
  * modules
