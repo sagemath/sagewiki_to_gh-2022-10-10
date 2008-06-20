@@ -17,3 +17,5 @@ x^4 + x^3 + x + 1
 }}}
 
 5. Gave a quick talk on Cylindrical Algebraic Decomposition.
+
+6. Brought a Segway and gave rides.
