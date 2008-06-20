@@ -21,6 +21,10 @@ I completed implementing the fraction free elimination,
  * One step Bareiss elimination, with a pivoting strategy to pick the smallest degree polynomial as pivot, can (almost) catch up to Maple on small examples
  * It surprisingly performs worse than a non fraction free Gaussian elimination algoritm (with clever pivoting) in MMA
 
+I also tried 
+ * using gcd's for reduction
+ * avoiding using the fraction free reduction on rows with zero entries in the pivot columns
+
 Ideas for new algorithms:
  * Arne's algorithm to compute adjoints over ZZ[x]
  * evaluate the matrices, solve the integer systems, interpolate to get nullspace over ZZ[x]
