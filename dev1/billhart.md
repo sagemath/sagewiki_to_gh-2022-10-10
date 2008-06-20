@@ -14,6 +14,6 @@ I worked with Gonzalo Tornaria on writing a polynomial multiplication routine in
 
 1) We decided to implement a multimodular method using David Harvey's zn_poly for the GFp[x] multiplication
 
-2) We wrote an n (log n)^3 algorithm for reduction mod primes of integers and CRT reconstruction. Work remains to make this n (log n)^2
+2) We wrote an n (log n)^3^ algorithm for reduction mod primes of integers and CRT reconstruction. Work remains to make this n (log n)^2^
 
 3) We did some profiling. As is, the code is about twice as slow as FLINT for polynomials over 10000 coefficients, but it uses less memory and when the machine runs out of memory the new code scales nicely, but FLINT thrashes the hard drive. Work remains to get this implementation down to the speed of FLINT.
