@@ -45,7 +45,7 @@ In Progress
  * matrix (robertwb, errors related to number fields)
  * schemes (ncalexan)
  * modular (craigcitro)
- * geometry (lattice_polytope.py: pickling) (cwitty)
+ * modules (cwitty)
 
 To Do
 
@@ -55,10 +55,10 @@ To Do
  * coding
  * rings/polynomial
  * modular
+ * geometry (lattice_polytope.py: pickling)
  * rings (laurent_series_ring.py, residue_field.pyx, natural.pyx)
  * categories (category_types.py, homset.py)
  * structure
- * modules
 
 Todo (after merge):
  * abelian_grps
