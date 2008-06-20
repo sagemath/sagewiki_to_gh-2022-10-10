@@ -40,7 +40,19 @@ Wall time: 44.50
 }}}
  * RAM consumption for elimination seems lower than Magma, since we don't use any temporaries due to the lack of asymptotically fast elimination. (after you substract the static Sage RAM).
   * Magma: Total time: 340.579 seconds, Total memory usage: 1934.02MB (for 64000^2^ / 8 / 1024.0^2^ = 488.281MB)
+ * 
+{{{#!python
+sage: A = random_matrix(GF(2),6.4*10^4,6.4*10^4)
+sage: time A.echelonize()
+CPU times: user 357.87 s, sys: 1.26 s, total: 359.12 s
+Wall time: 362.16
+}}}
 
+{{{
+> A:=RandomMatrix(GF(2),64*10^3, 64*10^3);
+> time E:=EchelonForm(A);
+Time: 336.350
+}}}
 
 == Parallel M4RI ==
  * Tried to implement parallel elimination and failed
