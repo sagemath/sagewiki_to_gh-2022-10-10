@@ -21,3 +21,15 @@ it would be nice to add, but already this is a very nice useful thing to have.  
 7. Helped a little bit with the coercion rewrite
 
 8. Rode a Segway.
+
+---
+
+== Modular Forms ==
+
+At the modular forms workshop, I:
+
+1. Gave an intro talk with challenge problems.
+
+2. Estimated time to solve them.
+
+3. Wrote code and computed 1.6GB of data (weight 2 and levels up to about 2200).   Very surprising timing results. 
