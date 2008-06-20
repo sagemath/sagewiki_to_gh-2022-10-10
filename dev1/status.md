@@ -10,11 +10,4 @@
  * [:dev1/rpw: Ralf-Philipp Weinmann]
  * [:dev1/burcin: Burcin Erocal]
  * [:dev1/status/malb: Martin Albrecht]
-
----- /!\ '''Edit conflict - other version:''' ----
- * [:dev1/malb: Martin Albrecht]
-
----- /!\ '''Edit conflict - your version:''' ----
  * [:dev1/gfurnish: Gary Furnish]
-
----- /!\ '''End of edit conflict''' ----
