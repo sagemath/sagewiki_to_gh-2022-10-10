@@ -47,12 +47,12 @@ In Progress
  * schemes (ncalexan)
  * modular (craigcitro)
  * modules (cwitty)
+ * coding (cwitty)
 
 To Do
 
  * groups
  * combinat
- * coding
  * rings/polynomial
  * modular
  * geometry (lattice_polytope.py: pickling)
