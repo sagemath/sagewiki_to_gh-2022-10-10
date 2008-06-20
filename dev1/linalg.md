@@ -15,7 +15,7 @@
   * Ralf-Philipp Weinmann -> Sparse Elimination, Nullspace
 
 == Dense GF(2) ==
- * implement LQUP decomposition [Clement, MartinAlbrecht]
+ * implement LQUP decomposition [ClementPernet, MartinAlbrecht]
    * --(implement LQUP routine)-- [Clement]
    * implement {{{_mzd_addmul_weird}}} [Clement]
    * implement LQUP basecase routine based on M4RI {{{mzd_lqup_m4ri}}} [MartinAlbrecht]
