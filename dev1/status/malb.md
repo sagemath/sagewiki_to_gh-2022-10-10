@@ -27,7 +27,6 @@ sage: time C = A._multiply_strassen(B,cutoff=8192) #New
 CPU times: user 44.93 s, sys: 0.15 s, total: 45.08 s
 Wall time: 45.32
 }}}
-
 {{{#!python
 sage: A = random_matrix(GF(2),3.2*10^4,3.2*10^4)
 sage: time A.echelonize() #Old
@@ -39,6 +38,8 @@ sage: time A.echelonize() #New
 CPU times: user 44.25 s, sys: 0.03 s, total: 44.29 s
 Wall time: 44.50
 }}}
+ * RAM consumption for elimination seems lower than Magma, since we don't use any temporaries due to the lack of asymptotically fast elimination. (after you substract the static Sage RAM).
+
 
 
 == Parallel M4RI ==
