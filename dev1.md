@@ -24,6 +24,10 @@
  * [:/coercion: The Coercion Group]
  * [:/other: Other]
 
+=== Final Status Reports ===
+
+The final status reports are linked [:/status: here].
+
 === Schedule ===
 
 || Friday, June 13 || 10am opening remarks by William Stein (attachment:stein-intro.pdf, attachment:stein-intro.sws) ||
