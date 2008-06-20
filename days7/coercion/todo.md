@@ -59,8 +59,15 @@ To Do
  * modular
  * rings (residue_field.pyx)
  * categories (category_types.py -- 1 failure due to Spec in schemes)
- * structure
  * plot (animate.py)
+ * structure
+
+{{{
+This should fail: 
+            sage: x, y = var('x,y')
+            sage: parent(ZZ[x][y](1)*vector(QQ[y],[1,2]))
+            sage: parent(ZZ[x](1)*vector(QQ[y],[1,2]))
+}}}
 
 
 === Files to fix (Make all parents conform to the spec) ===
