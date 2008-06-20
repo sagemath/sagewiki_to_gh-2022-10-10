@@ -1,5 +1,5 @@
 = What I did at dev1 =
--- Reviewed a bunch of patches
+-- Reviewed a bunch of patches / was involved in the editorial process
 
 -- Worked on Symbolics rewrite
 
