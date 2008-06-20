@@ -57,12 +57,6 @@ To Do
  * groups (generic.pyx due to elliptic curves over finite field problems)
  * rings/polynomial
  * modular
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
  * rings (residue_field.pyx)
  * categories (category_types.py -- 1 failure due to Spec in schemes)
  * structure
