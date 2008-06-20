@@ -39,7 +39,7 @@ Done
  * crypto
  * interfaces
  * qqbar
- * combinat (except for a few pickling errors)
+ * combinat
 
 In Progress
  * rings/number_field (robertwb)
