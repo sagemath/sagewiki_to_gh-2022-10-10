@@ -55,7 +55,7 @@ To Do
  * rings/polynomial
  * modular
  * geometry (lattice_polytope.py: pickling)
- * rings (laurent_series_ring.py, residue_field.pyx, natural.pyx)
+ * rings (residue_field.pyx)
  * categories (category_types.py, homset.py)
  * structure
  * plot (animate.py)
