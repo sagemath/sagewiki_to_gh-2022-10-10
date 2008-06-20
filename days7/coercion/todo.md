@@ -46,7 +46,7 @@ Done
 
 In Progress
  * rings/number_field (robertwb)
- * matrix (robertwb, errors related to number fields)
+ * matrix (robertwb, matrix2.pyx -- one number field error)
  * schemes (ncalexan)
  * modular (craigcitro)
  * modules (cwitty)
