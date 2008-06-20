@@ -7,3 +7,4 @@
  * [:dev1/robertwb: Robert Bradshaw]
  * [http://wiki.cython.org/DagSverreSeljebotn/dev1 Dag Sverre Seljebotn]
  * [:dev1/michaelabshoff: Michael Abshoff]
+ * [:dev1/rpw: Ralf-Philipp Weinmann]
