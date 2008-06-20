@@ -4,8 +4,8 @@
 [[ImageLink(mrw.png)]]
 
 PEOPLE:
-  * William Stein
-  * Glenn Tarbox
+  * [:WilliamStein:William Stein]
+  * [:GlennTarbox:GlennTarbox]
   * Brett Nakashima
   * Christopher Swierczewski
 
