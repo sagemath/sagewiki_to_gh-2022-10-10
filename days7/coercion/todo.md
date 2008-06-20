@@ -39,6 +39,7 @@ Done
  * crypto
  * interfaces
  * qqbar
+ * plot
 
 In Progress
  * rings/number_field (robertwb)
@@ -49,7 +50,6 @@ In Progress
 
 To Do
 
- * plot (animate.py, tachyon.py, plot.py -- all due to failing Elliptic Curve point construction)
  * groups
  * combinat
  * coding
