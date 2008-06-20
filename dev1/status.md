@@ -4,3 +4,5 @@
  * [:dev1/craigcitro: Craig Citro]
  * [:dev1/billhart: Bill Hart]
  * [:dev1/cwitty: Carl Witty]
+ * [:dev1/robertwb: Robert Bradshaw]
+ * [http://wiki.cython.org/DagSverreSeljebotn/dev1 Dag Sverre Seljebotn]
