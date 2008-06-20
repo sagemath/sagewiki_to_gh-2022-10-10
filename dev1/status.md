@@ -15,3 +15,4 @@
  * [:dev1/robertmiller: Robert Miller]
  * [:dev1/tornaria: Gonzalo Tornaría]
  * [:dev1/cpernet: Clément pernet]
+ * [:dev1/gbard: Greg Bard]
