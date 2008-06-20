@@ -41,6 +41,8 @@ Done
  * qqbar
  * combinat
  * gsl 
+ * abelian_grps
+
 
 In Progress
  * rings/number_field (robertwb)
@@ -60,10 +62,6 @@ To Do
  * categories (category_types.py, homset.py)
  * structure
  * plot (animate.py)
-
-Todo (after merge):
- * abelian_grps
-
 
 
 === Files to fix (Make all parents conform to the spec) ===
