@@ -21,7 +21,7 @@
    * trtrm (triangular triangular matmul)
 
 === Algorithms for matrices overs Z and Zp[X] ===
- * Theory: discussions and new insights with A Storjohann
+ * Theory: discussions and new insights with A Storjohann (computing Smith form transformation matrices)
  * practice: new libraries
 
 === Benchmark(et)ing ===
