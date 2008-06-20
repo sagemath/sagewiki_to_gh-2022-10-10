@@ -39,6 +39,7 @@ Done
  * crypto
  * interfaces
  * qqbar
+ * combinat (except for a few pickling errors)
 
 In Progress
  * rings/number_field (robertwb)
@@ -51,7 +52,6 @@ In Progress
 To Do
 
  * groups
- * combinat
  * rings/polynomial
  * modular
  * geometry (lattice_polytope.py: pickling)
