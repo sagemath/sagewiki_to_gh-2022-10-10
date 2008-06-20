@@ -1,14 +1,14 @@
-= sage-combinat =
+= Sage-combinat =
 
-sage-combinat is a collection of experimental patches
-(i.e. extensions) on top of [http://www.sagemath.org/ sage], developed by
+Sage-combinat is a collection of experimental patches
+(i.e. extensions) on top of [http://www.sagemath.org/ Sage], developed by
 a community in algebraic combinatorics. Its main purpose is to improve
-sage as an extensible toolbox for computer exploration, and foster
+Sage as an extensible toolbox for computer exploration, and foster
 code sharing between researchers in this area. The intent is that most
 of those patches eventually will get integrated into sage as soon as
 they are mature enough, with a typical short life-cycle of a few
-weeks. In other words: just install sage, and you will benefit from
-all the sage-combinat development, except for the latest bleeding edge features.
+weeks. In other words: just install Sage, and you will benefit from
+all the Sage-combinat development, except for the latest bleeding edge features.
 
 === NEWS: 2008-06-19: MuPAD-Combinat join forces with Sage ===
 
