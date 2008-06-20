@@ -15,3 +15,5 @@ sage: sage_input((polygen(GF(3))+1)^4)
 R.<x> = GF(3)[]
 x^4 + x^3 + x + 1
 }}}
+
+5. Gave a quick talk on Cylindrical Algebraic Decomposition.
