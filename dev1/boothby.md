@@ -19,3 +19,10 @@ Problems:
 
  * Patch bomb.
  * Can't test until I'm "done"
+
+
+== Other stuff ==
+
+ * Suggested (yet another) data structure to help RLM
+ * Reviewed some patches
+ * Encouraged a 3-way throw-down between GBill, Glenn, and Yi
