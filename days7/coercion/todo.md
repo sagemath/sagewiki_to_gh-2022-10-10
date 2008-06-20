@@ -40,6 +40,7 @@ Done
  * interfaces
  * qqbar
  * combinat
+ * gsl 
 
 In Progress
  * rings/number_field (robertwb)
@@ -62,7 +63,7 @@ To Do
 
 Todo (after merge):
  * abelian_grps
- * gsl ( dft.py -- abelian group failures )
+
 
 
 === Files to fix (Make all parents conform to the spec) ===
