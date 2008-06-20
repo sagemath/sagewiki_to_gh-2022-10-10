@@ -42,7 +42,7 @@ Done
  * combinat
  * gsl 
  * abelian_grps
-
+ * geometry 
 
 In Progress
  * rings/number_field (robertwb)
@@ -57,7 +57,6 @@ To Do
  * groups (generic.pyx due to elliptic curves over finite field problems)
  * rings/polynomial
  * modular
- * geometry (lattice_polytope.py: pickling)
  * rings (residue_field.pyx)
  * categories (category_types.py -- 1 failure due to Spec in schemes)
  * structure
