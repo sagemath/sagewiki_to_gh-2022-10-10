@@ -39,7 +39,6 @@ Done
  * crypto
  * interfaces
  * qqbar
- * plot
 
 In Progress
  * rings/number_field (robertwb)
@@ -59,6 +58,7 @@ To Do
  * rings (laurent_series_ring.py, residue_field.pyx, natural.pyx)
  * categories (category_types.py, homset.py)
  * structure
+ * plot (animate.py)
 
 Todo (after merge):
  * abelian_grps
