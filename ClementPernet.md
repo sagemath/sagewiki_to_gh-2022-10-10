@@ -15,7 +15,7 @@
    * generalization of matrix windows and algorithms working on them, to any dimensions
    * LQUP (close to done
 
-== Algorithms for matrices overs Z and Zp[X]
+== Algorithms for matrices overs Z and Zp[X] ==
  * Theory: discussions and new insights with A Storjohann
  * practice: new libraries
 == Benchmark(et)ing ==
