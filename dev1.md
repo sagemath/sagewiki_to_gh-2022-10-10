@@ -33,8 +33,8 @@
 ||Monday, June 16|| 11am talk by Rob Beezer -- Linear Algebra Book (attachment:beezer.pdf) || [:/hike: Hiking]/Tourism afternoon ??||
 ||Tuesday, June 17|| 11am talk by Arne Storjohann -- Exact Linear Algebra|| 7pm status reports || 8-9pm Demo of cool tools like IDE's etc for Sage development ||
 ||Wednesday, June 18|| 11am talk by Michael Abshoff -- Sage Development || 7pm status reports ||
-||Thursday, June 19|| 11am talk by Mike Hansen -- Combinatorics (attachment:mhansen.pdf  [http://sage.math.washington.edu/home/mhansen/CombinatorialSpeciesDemo.html Demo] ) || 5pm status reports || 9pm Game ||
-||Friday, June 20|| 11am talk by Martin Albrecht -- Linear Algebra over GF(2) || 1pm-3pm final wrap session ||
+||Thursday, June 19|| 11am talk by Mike Hansen -- Combinatorics (attachment:mhansen.pdf  [http://sage.math.washington.edu/home/mhansen/CombinatorialSpeciesDemo.html Demo] ) || 5pm status reports || 8pm Tarbox talk || 9pm Game || 10pm Editorial Meeting ||
+||Friday, June 20|| 11am talk by Martin Albrecht -- Linear Algebra over GF(2) || 12pm Modular forms wrap up || 1pm-3pm final wrap session ||
 
 
 
