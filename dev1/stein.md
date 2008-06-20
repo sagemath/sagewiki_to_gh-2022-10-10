@@ -14,10 +14,10 @@ it would be nice to add, but already this is a very nice useful thing to have.  
 
 4. [http://pyprocessing.berlios.de/ Pyprocessing] -- learned about it, used it, integrated with @parallel with Mike Hansen.  Very interesting technology.  Is '''very''' likely to finally make it so we can start using parallel computing in the core of the Sage library.  This is, imho, major.  
 
-6. Refereed a lot of patches.
+5. Refereed a lot of patches.
 
-7. Discussed notebook database schema with Tom Boothby.
+6. Discussed notebook database schema with Tom Boothby.
 
-8. Helped a little bit with the coercion rewrite
+7. Helped a little bit with the coercion rewrite
 
-5. Rode a Segway.
+8. Rode a Segway.
