@@ -7,6 +7,7 @@
 3. Discussed changes to fast_float: support more data types than only C doubles; evaluate DAGs with shared subexpressions; support conditionals; and possibly use a JIT for a further speedup (probably at least 5x on "sufficiently complicated" examples).
 
 4. Demonstrated sage_input and posted a preliminary version on TRAC (http://sagetrac.org/sage_trac/ticket/3485)
+
 Example:
 {{{
 sage: sage_input((polygen(GF(3))+1)^4)
