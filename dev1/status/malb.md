@@ -40,7 +40,7 @@ Wall time: 44.50
 }}}
  * RAM consumption for elimination seems lower than Magma, since we don't use any temporaries due to the lack of asymptotically fast elimination. (after you substract the static Sage RAM).
   * Magma: Total time: 340.579 seconds, Total memory usage: 1934.02MB (for 64000^2^ / 8 / 1024.0^2^ = 488.281MB)
- * 
+ * newest benchmarks:
 {{{#!python
 sage: A = random_matrix(GF(2),6.4*10^4,6.4*10^4)
 sage: time A.echelonize()
@@ -61,3 +61,6 @@ Time: 336.350
 = Review Process =
  * Editor Meetings
  * Reviews
+
+= Benchmark**ing =
+ * found out that the mention of "mark**ing" is not allowed on this wiki
