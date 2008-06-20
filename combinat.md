@@ -13,7 +13,7 @@ all the Sage-combinat development, except for the latest bleeding edge features.
 === NEWS: 2008-06-19: MuPAD-Combinat join forces with Sage ===
 
 Sage-combinat was born as a partial port of [http://mupad-combinat.sf.net MuPAD-Combinat].
-After months of discussions and experiments, an enthousiastic consensus emerged in the
+After months of discussions and experiments, an enthusiastic consensus emerged in the
 MuPAD-Combinat community to join Sage. Sage-combinat henceforth became
 the natural successor of MuPAD-Combinat.
 
@@ -32,4 +32,4 @@ See the [http:/combinat/RoadMap road map and current status] of the port.
 
  - The collection of patches is managed using a [http://sage.math.washington.edu:2144/ patch server] (mercurial queues). Use it to try out the latest experimental features, or contribute your own patches! Here are some [http:/combinat/Mercurial detailed instructions].
 
- - Contribute to the list of [http:/combinat/Weirdness quirks and weirness issues] in the *-Combinat design;
+ - Contribute to the list of [http:/combinat/Weirdness quirks and weirdness issues] in the *-Combinat design;
