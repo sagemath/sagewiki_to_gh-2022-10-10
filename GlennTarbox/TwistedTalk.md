@@ -12,6 +12,8 @@
 [[AttachInfo]]
 [[AttachList]]
 
+--------
+
 [[Navigation(slideshow)]]
 
 ##attachment:mylogo.png
