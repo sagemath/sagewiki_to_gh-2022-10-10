@@ -7,3 +7,5 @@ Greg Bard and I used the new compiled digraphs to implement a preprocessing algo
 === Compiled Graph Backends ===
 
 The new Cython graphs are now available as backends for Sage graphs. This involves speedups from 5-80 times for simple operations.
+
+=== Opted out of silly segway jokes, etc. ===
