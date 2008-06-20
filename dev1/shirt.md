@@ -4,7 +4,6 @@ The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt de
 
 == Orders ==
 
- * 1 medium -- timothy clemans
  * 1 medium -- Yi Qiang 
 
 Extras :)
@@ -29,3 +28,4 @@ Extras :)
  * 1 large -- Clement Pernet
  * 1 large -- Robert Miller
  * 2 medium, 2 large, 2 X-large (?) -- glenn tarbox
+ * 1 medium -- timothy clemans
