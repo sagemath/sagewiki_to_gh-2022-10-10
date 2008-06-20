@@ -39,7 +39,7 @@ CPU times: user 44.25 s, sys: 0.03 s, total: 44.29 s
 Wall time: 44.50
 }}}
  * RAM consumption for elimination seems lower than Magma, since we don't use any temporaries due to the lack of asymptotically fast elimination. (after you substract the static Sage RAM).
-
+  * Magma: Total time: 340.579 seconds, Total memory usage: 1934.02MB (for 64000^2^ / 8 / 1024.0^2^ = 488.281MB)
 
 
 == Parallel M4RI ==
