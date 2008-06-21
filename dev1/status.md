@@ -16,3 +16,4 @@
  * [:dev1/tornaria: Gonzalo Tornaría]
  * [:dev1/cpernet: Clément Pernet]
  * [:dev1/gbard: Greg Bard]
+ * [:dev1/ncalexan: Nick Alexander]
