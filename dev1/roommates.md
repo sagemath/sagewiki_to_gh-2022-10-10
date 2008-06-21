@@ -11,6 +11,8 @@ List pairs (or possibly triples) of people happy to room together here with DATE
  1. (Mike Hansen, Carl Witty [June 12th - June 20th])
  1. Arne Storjohann 
 
+== Departure times ==
+ * Dag wants to depart 4pm the 21st
 
 == Arrival Times ==
  * Dag lands at 2:10 pm the 12th
