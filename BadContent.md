@@ -4443,6 +4443,8 @@ jiuqusese-mm\.com\.cn
 rentiyishu9\.com\.cn
 replica031\.com
 thepowerlevel\.com
+bjktwx\.com
+ktwxbj\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
