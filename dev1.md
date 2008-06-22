@@ -10,8 +10,8 @@
 === Campus Wifi ===
 
 {{{
-  login: event0143
-  password: EomD=YorS=AudK
+UW NetID:   	 event0634
+Password:  	72uv;34se;22my
 }}}
 
 === Groups: Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Microsoft Windows ===
