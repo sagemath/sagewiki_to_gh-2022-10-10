@@ -158,3 +158,7 @@ There are some other options here:
   http://www.washington.edu/univrel/visitors/accommodations.html
 
 NOTE: UW's commencement is June 14th, so many hotels are already booked solid for the weekend and/or unusually expensive for the 13th and 14th.  
+
+----
+
+[[Navigation(children,1)]]
