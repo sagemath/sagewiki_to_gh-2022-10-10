@@ -161,4 +161,6 @@ NOTE: UW's commencement is June 14th, so many hotels are already booked solid fo
 
 ----
 
+= Child Pages =
+
 [[Navigation(children,1)]]
