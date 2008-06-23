@@ -443,3 +443,307 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
 
 attachment:PolarSpiral.PNG
 
+=== Quadratic Residue Table ===
+by Emily Kirkman
+{{{
+from numpy import array as narray
+@interact
+def quad_res_plot(first_n_odd_primes = (20,200),display_size=[7..15]):
+
+    # Compute numpy matrix of legendre symbols
+    r = int(first_n_odd_primes)
+    np = [nth_prime(i+2) for i in range(r)]
+    leg = [[legendre_symbol(np[i], np[j]) for i in range(r)] for j in range(r)]
+    na = narray(leg)
+    for i in range(r):
+        for j in range(r):
+            if na[i][j] == 1 and Mod((np[i]-1)*(np[j]-1)//4,2) == 0:
+                na[i][j] = 2
+    m = matrix(na)
+
+    # Define plot structure
+    MP = matrix_plot(m, cmap='Oranges')
+    for i in range(r):
+        if np[-1] < 100:
+            MP += text('%d'%nth_prime(i+2),(-.75,r-i-.5), rgbcolor='black')
+            MP += text('%d'%nth_prime(i+2), (i+.5,r+.5), rgbcolor='black')
+        if len(np) < 75:
+            MP += line([(0,i),(r,i)], rgbcolor='black')
+            MP += line([(i,0),(i,r)], rgbcolor='black')
+    if np[-1] < 100:
+        for i in range(r): # rows
+            for j in range(r): # cols
+                if m[j][i] == 0:
+                    MP += text('0',(i+.5,r-j-.5),rgbcolor='black')
+                elif m[j][i] == -1:
+                    MP += text('N',(i+.5,r-j-.5),rgbcolor='black')
+                elif m[j][i] == 1:
+                    MP += text('A',(i+.5,r-j-.5),rgbcolor='black')
+                elif m[j][i] == 2:
+                    MP += text('S',(i+.5,r-j-.5),rgbcolor='black')
+    MP += line([(0,r),(r,r)], rgbcolor='black')
+    MP += line([(r,0),(r,r)], rgbcolor='black')
+    MP += line([(0,0),(r,0)], rgbcolor='black')
+    MP += line([(0,0),(0,r)], rgbcolor='black')
+    if len(np) < 75:
+        MP += text('q',(r/2,r+2), rgbcolor='black', fontsize=15)
+        MP += text('p',(-2.5,r/2), rgbcolor='black', fontsize=15)
+    MP.show(axes=False, ymax=r, figsize=[display_size,display_size])
+    html('Symmetry of Prime Quadratic Residues mod the first %d odd primes.'%r)
+}}}
+
+attachment:quadres.png
+
+attachment:quadresbig.png
+
+=== Cubic Residue Table ===
+by Emily Kirkman
+{{{
+def power_residue_symbol(alpha, p, m):
+    if p.divides(alpha): return 0
+    if not p.is_prime():
+        return prod(power_residue_symbol(alpha,ell,m)^e
+                for ell, e in p.factor())
+    F = p.residue_field()
+    N = p.norm()
+    r = F(alpha)^((N-1)/m)
+    k = p.number_field()
+    for kr in k.roots_of_unity():
+        if r == F(kr):
+            return kr
+
+
+def cubic_is_primary(n):
+    g = n.gens_reduced()[0]
+    a,b = g.polynomial().coefficients()
+    if Mod(a,3)!=0 and Mod(b,3)==0:
+        return True
+    else:
+        return False
+
+
+from numpy import array as narray
+@interact
+def cubic_sym(n=(10..35),display_size=[7..15]):
+
+    # Compute numpy matrix of primary cubic residue symbols
+    r = n
+    m=3
+    D.<w> = NumberField(x^2+x+1)
+    it = D.primes_of_degree_one_iter()
+    pp = []
+    while len(pp) < r:
+        k = it.next()
+        if cubic_is_primary(k):
+            pp.append(k)
+    n = narray([ [ power_residue_symbol(pp[i].gens_reduced()[0], pp[j], m) \
+                        for i in range(r) ] for j in range(r) ])
+
+    # Convert to integer matrix for gradient colors
+    for i in range(r):
+        for j in range(r):
+            if n[i][j] == w:
+                n[i][j] = int(-1)
+            elif n[i][j] == w^2:
+                n[i][j] = int(-2)
+            elif n[i][j] == 1:
+                n[i][j] = int(1)
+    m = matrix(n)
+
+    # Define plot structure
+    MP = matrix_plot(m,cmap="Blues")
+    for i in range(r):
+        MP += line([(0,i),(r,i)], rgbcolor='black')
+        MP += line([(i,0),(i,r)], rgbcolor='black') 
+        for j in range(r):
+            if m[i][j] == -2:
+                MP += text('$\omega^2$',(i+.5,r-j-.5),rgbcolor='black')
+            if m[i][j] == -1:
+                MP += text('$\omega $',(i+.5,r-j-.5),rgbcolor='black')
+            if m[i][j] == 0:
+                MP += text('0',(i+.5,r-j-.5),rgbcolor='black')
+            if m[i][j] == 1:
+                MP += text('R',(i+.5,r-j-.5),rgbcolor='white')
+    MP += line([(0,r),(r,r)], rgbcolor='black')
+    MP += line([(r,0),(r,r)], rgbcolor='black')
+    MP += line([(0,0),(r,0)], rgbcolor='black')
+    MP += line([(0,0),(0,r)], rgbcolor='black')
+    MP += text('$ \pi_1$',(r/2,r+2), rgbcolor='black', fontsize=25)
+    MP += text('$ \pi_2$',(-2.5,r/2), rgbcolor='black', fontsize=25)
+
+    html('Symmetry of Primary Cubic Residues mod ' \
+          + '%d primary primes in $ \mathbf Z[\omega]$.'%r)
+    MP.show(axes=False, figsize=[display_size,display_size])
+}}}
+
+attachment:cubres.png
+
+=== Gauss and Jacobi Sums in Complex Plane ===
+by Emily Kirkman
+{{{
+def jacobi_sum(e,f):
+    # If they are both trivial, return p
+    if e.is_trivial() and f.is_trivial():
+        return (e.parent()).order() + 1
+
+    # If they are inverses of each other, return -e(-1)
+    g = e*f
+    if g.is_trivial():
+        return -e(-1)
+
+    # If both are nontrivial, apply mult. formula:
+    elif not e.is_trivial() and not f.is_trivial():
+        return e.gauss_sum()*f.gauss_sum()/g.gauss_sum()
+
+    # If exactly one is trivial, return 0
+    else:
+        return 0
+
+
+def latex2(e):
+    return latex(list(e.values_on_gens()))
+
+
+def jacobi_plot(p, e_index, f_index, with_text=True):
+    # Set values
+    G = DirichletGroup(p)
+    e = G[e_index]
+    f = G[f_index]
+    ef = e*f
+    js = jacobi_sum(e,f)
+    e_gs = e.gauss_sum()
+    f_gs = f.gauss_sum()
+    ef_gs = (e*f).gauss_sum()
+
+    # Compute complex coordinates
+    f_pt = list(f.values_on_gens()[0].complex_embedding())
+    e_pt = list(e.values_on_gens()[0].complex_embedding())
+    ef_pt = list(ef.values_on_gens()[0].complex_embedding())
+    f_gs_pt = list(f_gs.complex_embedding())
+    e_gs_pt = list(e_gs.complex_embedding())
+    ef_gs_pt = list(ef_gs.complex_embedding())
+    try:
+        js = int(js)
+        js_pt = [CC(js)]
+    except:
+        js_pt = list(js.complex_embedding())
+
+    # Define plot structure
+    S = circle((0,0),1,rgbcolor='yellow')  \ 
+    + line([e_pt,e_gs_pt], rgbcolor='red', thickness=4) \
+    + line([f_pt,f_gs_pt], rgbcolor='blue', thickness=3) \
+    + line([ef_pt,ef_gs_pt], rgbcolor='purple',thickness=2) \
+    + point(e_pt,pointsize=50, rgbcolor='red')  \
+    + point(f_pt,pointsize=50, rgbcolor='blue') \
+    + point(ef_pt,pointsize=50,rgbcolor='purple') \
+    + point(f_gs_pt,pointsize=75, rgbcolor='black') \        
+    + point(e_gs_pt,pointsize=75, rgbcolor='black') \
+    + point(ef_gs_pt,pointsize=75, rgbcolor='black') \
+    + point(js_pt,pointsize=100,rgbcolor='green')
+    if with_text:
+        S += text('$J(%s,%s) = %s$'%(latex2(e),latex2(f),latex(js)), \
+            (3,2.5),fontsize=15, rgbcolor='black')
+    else:
+        html('$$J(%s,%s) = %s$$'%(latex2(e),latex2(f),latex(js)))
+
+    return S
+
+@interact
+def single_jacobi_plot(p=prime_range(3,100), e_range=(0..100), f_range=(0..100)):
+    e_index = floor((p-2)*e_range/100)
+    f_index = floor((p-2)*f_range/100)
+    S = jacobi_plot(p,e_index,f_index,with_text=False)
+    S.show(aspect_ratio=1)
+}}}
+
+attachment:jacobising.png
+
+=== Exhaustive Jacobi Plotter ===
+by Emily Kirkman
+{{{
+def jacobi_sum(e,f):
+    # If they are both trivial, return p
+    if e.is_trivial() and f.is_trivial():
+        return (e.parent()).order() + 1
+
+    # If they are inverses of each other, return -e(-1)
+    g = e*f
+    if g.is_trivial():
+        return -e(-1)
+
+    # If both are nontrivial, apply mult. formula:
+    elif not e.is_trivial() and not f.is_trivial():
+        return e.gauss_sum()*f.gauss_sum()/g.gauss_sum()
+
+    # If exactly one is trivial, return 0
+    else:
+        return 0
+
+
+def latex2(e):
+    return latex(list(e.values_on_gens()))
+
+
+def jacobi_plot(p, e_index, f_index, with_text=True):
+    # Set values
+    G = DirichletGroup(p)
+    e = G[e_index]
+    f = G[f_index]
+    ef = e*f
+    js = jacobi_sum(e,f)
+    e_gs = e.gauss_sum()
+    f_gs = f.gauss_sum()
+    ef_gs = (e*f).gauss_sum()
+
+    # Compute complex coordinates
+    f_pt = list(f.values_on_gens()[0].complex_embedding())
+    e_pt = list(e.values_on_gens()[0].complex_embedding())
+    ef_pt = list(ef.values_on_gens()[0].complex_embedding())
+    f_gs_pt = list(f_gs.complex_embedding())
+    e_gs_pt = list(e_gs.complex_embedding())
+    ef_gs_pt = list(ef_gs.complex_embedding())
+    try:
+        js = int(js)
+        js_pt = [CC(js)]
+    except:
+        js_pt = list(js.complex_embedding())
+
+    # Define plot structure
+    S = circle((0,0),1,rgbcolor='yellow')  \ 
+    + line([e_pt,e_gs_pt], rgbcolor='red', thickness=4) \
+    + line([f_pt,f_gs_pt], rgbcolor='blue', thickness=3) \
+    + line([ef_pt,ef_gs_pt], rgbcolor='purple',thickness=2) \
+    + point(e_pt,pointsize=50, rgbcolor='red')  \
+    + point(f_pt,pointsize=50, rgbcolor='blue') \
+    + point(ef_pt,pointsize=50,rgbcolor='purple') \
+    + point(f_gs_pt,pointsize=75, rgbcolor='black') \        
+    + point(e_gs_pt,pointsize=75, rgbcolor='black') \
+    + point(ef_gs_pt,pointsize=75, rgbcolor='black') \
+    + point(js_pt,pointsize=100,rgbcolor='green')
+    if with_text:
+        S += text('$J(%s,%s) = %s$'%(latex2(e),latex2(f),latex(js)), \
+            (3,2.5),fontsize=15, rgbcolor='black')
+    else:
+        html('$$J(%s,%s) = %s$$'%(latex2(e),latex2(f),latex(js)))
+
+    return S
+
+@interact
+def exhaustive_jacobi_plot(p=prime_range(3,8)):
+    ga = [jacobi_plot(p,i,j) for i in range(p-1) for j in range(p-1)[i:]]
+
+    for i in range(len(ga)):
+        ga[i].save('j%d.PNG'%i,figsize=4,aspect_ratio=1, \
+                    xmin=-2.5,xmax=5, ymin=-2.5, ymax=2.5)
+
+    # Since p is odd, will have n = p-1 even.  So 1+2+...+n = (n/2)*(n+1).
+    # We divide this by rows of 2.
+    rows = ceil(p*(p-1)/4)
+    html('<table bgcolor=lightgrey cellpadding=2>')
+    for i in range(rows):
+        html('<tr><td align="center"><img src="cell://j%d.PNG"></td>'%(2*i))
+        html('<td align="center"><img src="cell://j%d.PNG"></td></tr>'%(2*i+1))
+    html('</table>')
+}}}
+
+attachment:jacobiexh.png
