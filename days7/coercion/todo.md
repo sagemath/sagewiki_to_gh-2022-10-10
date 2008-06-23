@@ -45,6 +45,7 @@ Done
  * geometry
  * groups
  * plot
+ * structure
 
 In Progress
  * rings/number_field (robertwb)
@@ -59,7 +60,6 @@ To Do
  * rings/polynomial
  * rings (residue_field.pyx)
  * categories (category_types.py -- 1 failure due to Spec in schemes)
- * structure
 
 {{{
 This should fail: 
