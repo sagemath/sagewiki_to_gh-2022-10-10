@@ -161,6 +161,9 @@ NOTE: UW's commencement is June 14th, so many hotels are already booked solid fo
 
 ----
 
+= Pictures =
+ * http://www.flickr.com/photos/martinralbrecht/tags/sagedev1
+
 = Child Pages =
 
 [[Navigation(children,1)]]
