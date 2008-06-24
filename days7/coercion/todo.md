@@ -52,7 +52,7 @@ In Progress
  * matrix (robertwb, matrix2.pyx -- one number field error)
  * schemes (ncalexan)
  * modular (craigcitro)
- * modules (cwitty)
+ * modules (cwitty, only failures in free_module.py caused by modular/ failures)
  * coding (cwitty)
 
 To Do
