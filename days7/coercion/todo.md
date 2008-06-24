@@ -46,13 +46,13 @@ Done
  * groups
  * plot
  * structure
+ * modules
 
 In Progress
  * rings/number_field (robertwb)
  * matrix (robertwb, matrix2.pyx -- one number field error)
  * schemes (ncalexan)
  * modular (craigcitro)
- * modules (cwitty, only failures in free_module.py caused by modular/ failures)
  * coding (cwitty)
 
 To Do
