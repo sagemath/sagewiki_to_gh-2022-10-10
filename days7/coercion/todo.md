@@ -58,6 +58,7 @@ In Progress
 To Do
 
  * rings/polynomial
+   * many segfaults for mhansen, probably due to libsingular invalid read
  * rings (residue_field.pyx)
  * categories (category_types.py -- 1 failure due to Spec in schemes)
 
