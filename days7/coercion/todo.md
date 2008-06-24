@@ -47,16 +47,16 @@ Done
  * plot
  * structure
  * modules
+ * coding
 
 In Progress
  * rings/number_field (robertwb)
  * matrix (robertwb, matrix2.pyx -- one number field error)
  * schemes (ncalexan)
  * modular (craigcitro)
- * coding (cwitty)
 
 To Do
-
+ * invalid free in self_orthogonal_binary_codes
  * rings/polynomial
    * many segfaults for mhansen, probably due to libsingular invalid read
  * rings (residue_field.pyx)
