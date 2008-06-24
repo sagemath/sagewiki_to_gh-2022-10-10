@@ -18,4 +18,8 @@
 
 = HG REPO =
 
- [:GlennTarbox/HgDevelopment: Information on how to do development and find the code for this project
+ GlennTarbox/HgDevelopment: Information on how to do development and find the code for this project
+
+= Things to Work On =
+
+ * Some Thoughts at: GlennTarbox/FinanceTasks
