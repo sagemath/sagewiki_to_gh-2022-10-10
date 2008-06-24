@@ -52,7 +52,7 @@ def factor_tree(n=100, font=(10, (8..20)), redraw=['Redraw']):
 }}}
 attachment:factortree.png
 
-=== Continued Fraction Plotter ===
+== Continued Fraction Plotter ==
 by William Stein
 {{{
 @interact
@@ -62,7 +62,7 @@ def _(number=e, ymax=selector([None,5,20,..,400],nrows=2), clr=Color('purple'), 
 }}}
 attachment:contfracplot.png
 
-=== Illustrating the prime number thoerem ===
+== Illustrating the prime number thoerem ==
 by William Stein
 {{{
 @interact
@@ -72,7 +72,7 @@ def _(N=(100,(2..2000))):
 }}}
 attachment:primes.png
 
-=== Computing Generalized Bernoulli Numbers ===
+== Computing Generalized Bernoulli Numbers ==
 by William Stein (Sage-2.10.3)
 {{{
 @interact
@@ -93,7 +93,7 @@ def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
 attachment:bernoulli.png
 
 
-=== Fundamental Domains of SL_2(ZZ) ===
+== Fundamental Domains of SL_2(ZZ) ==
 by Robert Miller
 {{{
 L = [[-0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000, -1, -1)]
@@ -122,7 +122,7 @@ def _(gen = selector(['t+1', 't-1', '-1/t'], nrows=1)):
 
 attachment:fund_domain.png
 
-=== Computing modular forms ===
+== Computing modular forms ==
 by William Stein
 {{{
 j = 0
@@ -145,7 +145,7 @@ def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40),
 attachment:modformbasis.png
 
 
-=== Computing the cuspidal subgroup ===
+== Computing the cuspidal subgroup ==
 by William Stein
 {{{
 html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>')
@@ -157,7 +157,7 @@ def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
 
 attachment:cuspgroup.png
 
-=== A Charpoly and Hecke Operator Graph ===
+== A Charpoly and Hecke Operator Graph ==
 by William Stein
 
 {{{
@@ -179,7 +179,7 @@ def f(N = prime_range(11,400),
 
 attachment:heckegraph.png
 
-=== Demonstrating the Diffie-Hellman Key Exchange Protocol ===
+== Demonstrating the Diffie-Hellman Key Exchange Protocol ==
 by Timothy Clemans (refereed by William Stein)
 {{{
 @interact
@@ -223,7 +223,7 @@ font-weight:bold
 
 attachment:dh.png
 
-=== Plotting an elliptic curve over a finite field ===
+== Plotting an elliptic curve over a finite field ==
 {{{
 E = EllipticCurve('37a')
 @interact
@@ -235,7 +235,7 @@ def _(p=slider(prime_range(1000), default=389)):
 
 attachment:ellffplot.png
 
-=== Prime Spiral - Square ===
+== Prime Spiral - Square ==
 by David Runde
 {{{
 @interact
@@ -372,7 +372,7 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
 
 attachment:SquareSpiral.PNG
 
-=== Prime Spiral - Polar ===
+== Prime Spiral - Polar ==
 by David Runde
 {{{
 @interact
@@ -443,7 +443,7 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
 
 attachment:PolarSpiral.PNG
 
-=== Quadratic Residue Table ===
+== Quadratic Residue Table ==
 by Emily Kirkman
 {{{
 from numpy import array as narray
@@ -496,7 +496,7 @@ attachment:quadres.png
 
 attachment:quadresbig.png
 
-=== Cubic Residue Table ===
+== Cubic Residue Table ==
 by Emily Kirkman
 {{{
 def power_residue_symbol(alpha, p, m):
@@ -578,7 +578,7 @@ def cubic_sym(n=(10..35),display_size=[7..15]):
 
 attachment:cubres.png
 
-=== Gauss and Jacobi Sums in Complex Plane ===
+== Gauss and Jacobi Sums in Complex Plane ==
 by Emily Kirkman
 {{{
 def jacobi_sum(e,f):
@@ -658,7 +658,7 @@ def single_jacobi_plot(p=prime_range(3,100), e_range=(0..100), f_range=(0..100))
 
 attachment:jacobising.png
 
-=== Exhaustive Jacobi Plotter ===
+== Exhaustive Jacobi Plotter ==
 by Emily Kirkman
 {{{
 def jacobi_sum(e,f):
