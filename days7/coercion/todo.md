@@ -52,7 +52,7 @@ Done
 In Progress
  * rings/number_field (robertwb)
  * matrix (robertwb, matrix2.pyx -- one number field error)
- * schemes (ncalexan)
+ * schemes (ncalexan, number field problems in elliptic_curves, padic problems in elliptic_curves, total mayhem in generic)
  * modular (craigcitro)
 
 To Do
