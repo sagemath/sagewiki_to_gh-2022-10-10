@@ -54,6 +54,11 @@ You need the prerequisite tools listed in the README.txt file in the root direct
 === Where is the source code to Sage? ===
 You can browse the complete source code to everything in Sage at http://www.sagemath.org/hg/.  This is a web interface to the Mercurial repository.  The main source files are at http://www.sagemath.org/hg/sage-main?cmd=manifest;manifest=-1;path=/sage/.  The other directories include docs directories, the package system, etc.
 
+== Working in Sage ==
+=== How do I save an object so I don't have to compute it each time I open a worksheet? ===
+The {{{save}}} and {{{load}}} commands will save and load an object, respectively.  In the notebook, the {{{DATA}}} variable is the location of the data storage area of the worksheet.  To save the object {{{my_stuff}}} in a worksheet, you could do {{{save(my_stuff, DATA+"my_stuff")}}} and to reload it, you would just do {{{my_stuff = load(my_stuff, DATA+"my_stuff")}}}
+
+
 == Getting help ==
 === How do I get help? ===
 Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://sagemath.org/community.html for a listing of these resources.
