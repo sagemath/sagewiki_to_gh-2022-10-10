@@ -49,12 +49,12 @@ Done
  * modules
  * coding
  * rings/number_field
+ * rings/polynomial/laurent*
  * matrix
 
 In Progress
  * schemes (ncalexan, number field problems in elliptic_curves, padic problems in elliptic_curves, total mayhem in generic)
  * modular (craigcitro)
- * rings/polynomial/laurent* (robertwb)
  * rings/natural.pyx (roed?)
 
 To Do
