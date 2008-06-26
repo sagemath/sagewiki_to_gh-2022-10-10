@@ -25,7 +25,7 @@ First, answers to the questions I expect:
 
 = Installation =
 
-You'll need foolscap.
+You'll need foolscap and PyProcessing
 
 {{{
 source SAGE_ROOT/local/bin/sage-env
@@ -33,6 +33,7 @@ cd /tmp
 hg clone http://foolscap.lothar.com/repos/trunk foolscap-trunk
 cd foolscap-trunk
 ./setup.py install
+sage -i processing-0.52
 }}}
 
 Then grab the tarball (or the repo... but the tarball is easier) from the Distributed branch
