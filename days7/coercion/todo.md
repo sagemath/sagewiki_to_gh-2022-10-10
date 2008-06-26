@@ -54,14 +54,14 @@ Done
 In Progress
  * schemes (ncalexan, number field problems in elliptic_curves, padic problems in elliptic_curves, total mayhem in generic)
  * modular (craigcitro)
+ * rings/polynomial/laurent* (robertwb)
+ * rings/natural.pyx (roed?)
 
 To Do
  * invalid free in self_orthogonal_binary_codes
  * rings/polynomial
    * many segfaults for mhansen, probably due to libsingular invalid read
  * rings/residue_field.pyx
- * rings/natural.pyx
- * rings/polynomial/laurent*
  * rings/polynomial/pbori.pyx
  * rings/polynomial/polynomial_quotient_ring.pyx
  * rings/polynomial/multi_polynomial_libsingular.pyx
