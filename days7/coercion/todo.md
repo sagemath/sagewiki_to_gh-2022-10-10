@@ -65,6 +65,7 @@ To Do
  * rings/polynomial/pbori.pyx
  * rings/polynomial/polynomial_quotient_ring.pyx
  * rings/polynomial/multi_polynomial_libsingular.pyx
+ * #3516 libSingular segfault related to the new coercion code [causes segfaults on startup on sage.math]
  * categories (category_types.py -- 1 failure due to Spec in schemes)
 
 {{{
