@@ -18,6 +18,6 @@ Don’t worry about people stealing your ideas. If your ideas
 are any good, you’ll have to ram them down people’s throats 
 -- Howard Aiken, IBM engineer
 }}}
-[[Navigation(children,1)]]
+[[Navigation(children,2)]]
 ----
 CategoryHomepage
