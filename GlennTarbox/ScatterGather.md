@@ -13,6 +13,37 @@ Also, you're entirely off the reservation here.  This is just for those few who 
 
 GlennTarbox has the usual contact information
 
+= High Level Architecture =
+
+There are a few key elements in the proposed architecture
+ * Twisted for asynchronous communications, event management, scheduling
+ * PyProcessing for spawning local processes and IPC
+ * Foolscap for Remote Procedure Call (RPC) abstraction over Twisted
+
+== Architecture Diagram ==
+[[ImageLink(DOC.png, height=500)]]
+
+The client itself, now has 2 processes.  In the example above, the notebook layer supports the browser view into Sage.  In Scatter Gather, another process is spawned using PyProcessing and communications between the two processes is maintained through Queues.
+
+ 1. The Client Child is passed a set of url's identifying the remote processes for execution.  While this is a very general capability, for ''Scatter Gather'', it simply means a process which takes a block of work and returns a result.
+ 1. The Client Parent generates a ''Task'' which in its simplest case (for scatter gather) is simply the argument set of a function call.  Fortunately, since we're using Python, this simply means we need to generate an args list and kargs dict for each Task.  A ''Scatter Set'' is simply a list of args, kargs tuples.
+
+{{{#!python
+""" Create list of args, kargs for remote method """
+inList[]
+for x in range(100):
+    inList.append(([x,3.14159,'hello'],{'distribution':'normal',
+                           'loc':1,'scale':1,'bins':10}))
+}}}
+
+
+ 1. This list is simply inserted in the downward queue in the figure.  The result of the function call is returned in the upward queue.  A nice feature is the ability to check for result availability without blocking.  In the case of the notebook, one can continuously add jobs to be processsed while investigating the results of previous jobs.
+ 1. If desired, you can block waiting for results as well.
+
+
+
+The child process is a conventional Twisted process.  A scheduler continuously checks for jobs having been submitted through a queue
+
 == Enhancements Comming Soon ==
 
 First, answers to the questions I expect:
