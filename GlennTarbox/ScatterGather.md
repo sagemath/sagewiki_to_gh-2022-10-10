@@ -13,7 +13,7 @@ Also, you're entirely off the reservation here.  This is just for those few who 
 
 = List =
 
-http://groups.google.com/group/sage-dsageng?hl=en
+Pending...
 
 = High Level Architecture =
 
