@@ -302,6 +302,8 @@ We have attempted to make a complete list of existing graph theory software.  We
   . Has its own format
   * '''Optimization'''
   . "Focuses on" combinatorical optimization algorithms, especially network flow and load balancing
+===== igraph =====
+ . [http://cneurocvs.rmki.kfki.hu/igraph/ Link], open source, written in C, with Python, Ruby and R interfaces.
 ==== JAVA ====
 ===== CAIDA's Walrus =====
  . [http://www.caida.org/tools/visualization/walrus/ link] GPL, written in Java, "best suited to visualizing moderately sized graphs that are nearly trees" (viz only), PRETTY, doesn't work in OS X currently (as of 10/10/06), no functionality
