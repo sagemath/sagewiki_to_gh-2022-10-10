@@ -13,13 +13,10 @@
 = GROUP =
   http://groups.google.com/group/sage-finance
 
-= LINKS =
-  http://wiki.sagemath.org/GlennTarbox/QuantFin
+= Development =
 
-= HG REPO =
+ GlennTarbox/HgDevelopment: Thoughts on development and process for SageFinance and DsageNg
 
- GlennTarbox/HgDevelopment: Information on how to do development and find the code for this project
+----
 
-= Things to Work On =
-
- * Some Thoughts at: GlennTarbox/FinanceTasks
+CategorySageFinance
