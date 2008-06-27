@@ -15,6 +15,16 @@ Also, you're entirely off the reservation here.  This is just for those few who 
 
 Pending...
 
+= Code =
+
+The tip of my repo is at:
+
+http://noc2.tarbox.org:8080/?p=sage-finance/.git;a=summary
+
+You can grab a tarball of any point.  I'll be making an Hg Clone of snapshots.  How to use them can be viewed at
+
+GlennTarbox/HgDevelopment
+
 = High Level Architecture =
 
 There are a few key elements in the proposed architecture
