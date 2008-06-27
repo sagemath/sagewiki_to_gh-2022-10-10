@@ -1,3 +1,4 @@
+## page was renamed from finance
 [[TableOfContents]]
 
 = Quantitative Finance in Sage =
@@ -19,4 +20,4 @@
 
 ----
 
-CategorySageFinance
+CategoryFinance
