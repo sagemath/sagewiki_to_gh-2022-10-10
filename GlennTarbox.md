@@ -14,7 +14,7 @@ ghtdak on AIM / Freenode / Yahoo
  * http://www.linkedin.com/in/glenntarbox
 
 = Major Activities =
- * [:finance: Sage Finance]
+ * SageFinance
  * DsageNg
 
 {{{
