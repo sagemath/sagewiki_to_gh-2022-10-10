@@ -1,3 +1,4 @@
+## page was renamed from GlennTarbox/ScatterGather
 ## Please edit system and help pages ONLY in the moinmaster wiki! For more
 ## information, please see MoinMaster:MoinPagesEditorGroup.
 ##master-page:CategoryTemplate
@@ -15,7 +16,7 @@ Also, you're entirely off the reservation here.  This is just for those few who 
 
 = List =
 
-Pending...
+http://groups.google.com/group/sage-dsageng
 
 = Code =
 
