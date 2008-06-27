@@ -9,9 +9,13 @@ ghtdak on AIM / Freenode / Yahoo
 206-494-0819
 
 
-http://www.tarbox.org
+ * http://www.tarbox.org
 
-http://www.linkedin.com/in/glenntarbox
+ * http://www.linkedin.com/in/glenntarbox
+
+= Major Activities =
+ * [:finance: Sage Finance]
+ * DsageNg
 
 {{{
 Don’t worry about people stealing your ideas. If your ideas
