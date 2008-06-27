@@ -141,6 +141,60 @@ c.command('refresh')
 c.command('die') # kills the child... probably don't wanna do this
 }}}
 
+== Additional Prose ==
+
+Briefly, the client (which is command line or notebook) forks a single
+pyprocess which is the twisted/foolscap scatter gather controller.
+There are persistent compute servers on multiple machines, each with
+multiple processes having been forked by pyprocessing. Each subordinate
+process is nailed to the scatter gather controller as a "worker"
+
+In my case, I have 4 servers each with 8 cores hence 8 processes.  So my
+scatter gather controller has 32 workers.
+
+The "actual" client (command line or notebook) submits jobs on a queue
+as a block of work to be scatter / gathered... and can block waiting for
+results... or check whether results have arrived in a non-blocking
+way... perfect for the notebook... 
+
+meanwhile, the client's child process, is fully asynchronous... able to
+handle results, continue feeding the workers... and could, of course,
+field exogenous events.  Currently, these events don't cause anything to
+happen in the client so must be polled... but that's our current
+interaction metaphor... easily adjusted / enhanced in the future.
+
+﻿The remote "worker" processes can be "refreshed" meaning killed and
+reforked very quickly because the parent doesn't do any computation so
+is always "clean".  One command across the wire and they die and refork
+almost instantly.
+
+Nothing fancy required. PyProcessing makes the server-pool spawning
+trivial and asynchronous event handling and IPC on the clients
+trivial... foolscap makes remote marshalling and general RPC signature
+semantics trivial...
+
+what was really cool was the IPC queues... I just shove full blown sage
+objects in one side of the queue (currently as lists of args, kargs each
+element of which can be an arbitrary Sage objects), the child process on
+the client side sucks from the Q, invokes all the workers who suck a job
+off, ﻿marshall the list of lists of objects across the wire to a remote
+server process, gets the result (a deferred manages each expected
+result), stores it, grabs another etc... so, its completely asynchronous
+and each worker process stays full regardless.
+
+Results are handed back in a result queue.
+
+I couldn't believe it all just worked...
+
+Very easily, I can send new blocks of code out to each of the
+workers, compile it, use it, and refresh...  at which point we're mostly
+done from the infrastructure perspective.
+
+The last steps are more complex event chains... but there's no work
+there from an infrastructure perspective... that's mostly
+initialization.  Nailing arbitrary topologies is trivialized by foolscap
+because I can pickle references... which open direct connections between
+objects in processes on whatever machine.. dynamic heterogeneous mesh.
 
 == Enhancements Comming Soon ==
 
