@@ -5,6 +5,8 @@
 #format wiki
 #language en
 
+[[TableOfContents]]
+
 = DsageNg Scatter Gather Alpha Edition =
 
 This is not an official release or anything close... but it seems to work.
