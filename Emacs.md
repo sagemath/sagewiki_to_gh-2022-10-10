@@ -5,8 +5,7 @@ editing Python code in emacs:
 
  * Download sage.el and byte compile it, or download sage.elc.
 
- * Download python-mode.el and byte compile it, or download python-mode.elc. This is highly recommended since it is a <i>vast improvement</i> over
-editing Python code without a special mode.
+ * Download python-mode.el and byte compile it, or download python-mode.elc. This is highly recommended since it is a vast improvement over editing Python code without a special mode.
 
 (NOTE: Recent versions of Emacs have their own major mode for Python called [[href="http://cvs.savannah.gnu.org/viewvc/emacs/lisp/progmodes/python.el?root=emacs&view=log python.el]].
 So those with GNU Emacs 22 or 23 shouldn't need python-mode.el. The modifications to your .emacs file suggested below will be the same, except you can remove or comment out {{{(load "python-mode")}}}.)
