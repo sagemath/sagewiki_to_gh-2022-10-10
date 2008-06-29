@@ -63,9 +63,7 @@ To Do
    * many segfaults for mhansen, probably due to libsingular invalid read
  * rings/residue_field.pyx
  * rings/polynomial/pbori.pyx
- * rings/polynomial/polynomial_quotient_ring.pyx
- * rings/polynomial/multi_polynomial_libsingular.pyx
- * #3516 libSingular segfault related to the new coercion code [causes segfaults on startup on sage.math]
+ * [http://trac.sagemath.org/sage_trac/ticket/3516 #3516] libSingular segfault related to the new coercion code [causes segfaults on startup on sage.math]
  * categories (category_types.py -- 1 failure due to Spec in schemes)
 
 {{{
