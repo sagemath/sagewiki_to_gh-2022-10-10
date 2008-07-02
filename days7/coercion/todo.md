@@ -52,11 +52,11 @@ Done
  * rings/polynomial/laurent*
  * matrix
  * rings/polynomial/pbori.pyx
+ * rings/natural.pyx
 
 In Progress
  * schemes (ncalexan, number field problems in elliptic_curves, padic problems in elliptic_curves, total mayhem in generic)
  * modular (craigcitro)
- * rings/natural.pyx (roed?)
 
 To Do
  * invalid free in self_orthogonal_binary_codes
