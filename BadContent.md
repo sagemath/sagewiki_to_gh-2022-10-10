@@ -4446,6 +4446,7 @@ thepowerlevel\.com
 bjktwx\.com
 ktwxbj\.com
 nikespaces\.com
+paris-hilton\.wikidot\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
