@@ -48,21 +48,17 @@ Done
  * structure
  * modules
  * coding
- * rings/number_field
- * rings/polynomial/laurent*
  * matrix
- * rings/polynomial/pbori.pyx
- * rings/natural.pyx
+ * rings
 
 In Progress
  * schemes (ncalexan, number field problems in elliptic_curves, padic problems in elliptic_curves, total mayhem in generic)
  * modular (craigcitro)
+ * invalid free in self_orthogonal_binary_codes (robertwb)
 
 To Do
- * invalid free in self_orthogonal_binary_codes
  * rings/polynomial
    * many segfaults for mhansen, probably due to libsingular invalid read
- * rings/residue_field.pyx
  * [http://trac.sagemath.org/sage_trac/ticket/3516 #3516] libSingular segfault related to the new coercion code [causes segfaults on startup on sage.math]
  * categories (category_types.py -- 1 failure due to Spec in schemes)
 
