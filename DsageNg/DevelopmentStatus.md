@@ -7,7 +7,7 @@
 
 [[TableOfContents]]
 
-Last Update: @sig@
+Last Update: GlennTarbox Jul 03, 2008 21:23:00 (need to get the timestamp macros figured out)
 
 = Shared State and Remote Access =
 
