@@ -65,7 +65,7 @@ And it was going so well...
 
 Here's the thing.  The forking of the child process to support Twisted and do the event handling is cool... but unnecessary.  We'll use it where we need performance, but this weeks work has made what was a concept more compelling and, turns out, easier.
 
-I came across the problem when trying to marshall remote references through the queue...  Foolscap doesn't want you to do that because those objects are &ldquo;factoried&rdquo; into existence so all the attendant nailup can occur.  If you want to simply email a remote reference, you ship the purl (url for is where I'm guessing the p comes from)
+I came across the problem when trying to marshall remote references through the queue...  Foolscap doesn't want you to do that because those objects are &ldquo;factoried&rdquo; into existence so all the attendant nailup can occur.  If you want to simply email a remote reference, you ship the purl (url for Perspective Broker (Twisted spread) is where I'm guessing the p comes from)
 
 Which started to generate code...
 
