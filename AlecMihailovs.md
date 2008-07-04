@@ -2,7 +2,7 @@
 #format wiki
 == Alec Mihailovs ==
 
-Email: <<MailTo(alec AT SPAMFREE mihailovs DOT com)>>
+Email: [[MailTo(alec AT SPAMFREE mihailovs DOT com)]]
 
 Home page: http://mihailovs.com/Alec/
 
