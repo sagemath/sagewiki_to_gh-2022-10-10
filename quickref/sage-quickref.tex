@@ -1,0 +1,257 @@
+\documentclass{article}
+\usepackage[landscape]{geometry}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\advance\topmargin-.8in
+\advance\textheight2in
+\advance\textwidth3in
+\advance\oddsidemargin-1.5in
+\advance\evensidemargin-1.5in
+\parindent0pt
+\parskip2pt
+\newcommand{\hr}{\centerline{\rule{3.5in}{1pt}}}
+\begin{document}
+\begin{multicols*}{3}
+\begin{center}
+\textbf{Sage Quick Reference (Basic Math)}\\
+Peter Jipsen, version 1.1\\
+latest version at \url{wiki.sagemath.org/quickref}\\
+GNU Free Document License, extend for your own use\\
+Aim: map standard math notation to Sage commands
+\end{center}
+
+\textbf{Notebook (and commandline)}
+
+Evaluate cell: $\langle$shift-enter$\rangle$
+
+\emph{com}$\langle$tab$\rangle$ tries to complete \emph{command}
+
+\emph{command}\verb|?|$\langle$tab$\rangle$ shows documentation
+
+\emph{command}\verb|??|$\langle$tab$\rangle$ shows source
+
+\verb|a.|$\langle$tab$\rangle$ shows all methods for object \verb|a| \quad
+(more: \verb|dir(a)|)
+
+\verb|search_doc('|\emph{string or regexp}\verb|')| \quad shows links to docs
+
+\verb|search_src('|\emph{string or regexp}\verb|')| \quad shows links to source
+
+\verb|lprint()| \quad toggle LaTeX output mode
+
+\verb|version()| \quad print version of Sage
+
+Insert cell: click on blue line between cells
+
+Delete cell: delete content then backspace
+
+%*********************************************
+\hr\textbf{Numerical types}
+
+Integers: $\mathbb Z=$ \verb|ZZ | e.g. \verb|-2  -1  0  1  10^100|
+
+Rationals: $\mathbb Q=$ \verb|QQ | e.g. \verb|1/2  1/1000  314/100  -42|
+
+Decimals: $\mathbb R\approx$ \verb|RR | e.g. \verb|.5  0.001  3.14  -42.|
+
+Complex: $\mathbb C\approx$ \verb|CC | e.g. \verb|1+i  2.5-3*i|
+
+%*********************************************
+\hr\textbf{Basic constants and functions}
+
+Constants: $\pi=$ \verb|pi| \quad $e=$ \verb|e| \quad $i=$ \verb|i| 
+\quad $\infty=$ \verb|oo|
+
+Approximate: \verb|pi.n(digits=18)| $=3.14159265358979324$
+
+%Binary operations: \verb|+  -  *  /  ^|
+
+Functions: \verb|sin cos tan sec csc cot sinh cosh tanh| \verb|sech csch coth log ln exp|
+
+$ab=$ \verb|a*b| \quad $\frac a b=$ \verb|a/b| 
+\quad 
+$a^b=$ \verb|a^b| \quad $\sqrt{x}=$ \verb|sqrt(x)|
+
+$\sqrt[n]{x}=$ \verb|x^(1/n)|
+\quad 
+$|x|=$ \verb|abs(x)|
+\quad 
+$\log_b(x)=$ \verb|log(x,b)|
+
+Symbolic variables: e.g. \verb|t,u,v,y,z = var('t u v y z')|
+
+Define function: e.g. $f(x)=x^2$ \qquad \verb| f(x)=x^2|
+
+or \verb| f=lambda x: x^2 | or \verb| def f(x): return x^2|
+
+%*********************************************
+\hr\textbf{Operations on expressions}
+
+\verb|factor(...)|\qquad \verb|expand(...)|\qquad \verb|(...).simplify_...|
+
+Symbolic equations: \verb|f(x)==g(x)|
+
+\verb|_| is previous output
+
+\verb|_+a| \quad \verb|_-a| \quad \verb|_*a| \quad \verb|_/a | manipulates equation
+
+Solve $f(x)=g(x)$: \verb| solve(f(x)==g(x),x)|
+
+\verb|solve([f(x,y)==0, g(x,y)==0], x,y)|
+
+\verb|find_root(f(x), a, b)|\quad find $x\in [a,b]$ s.t. $f(x)\approx 0$
+
+$\displaystyle\sum_{i=k}^n f(i)=$ \verb|sum([f(i) for i in [k..n]])|
+
+$\displaystyle\prod_{i=k}^n f(i)=$ \verb|prod([f(i) for i in [k..n]])|
+
+%*********************************************
+\hr\textbf{Calculus}
+
+$\displaystyle\lim_{x\to a} f(x)=$ \verb|limit(f(x), x=a)|
+
+$\displaystyle\lim_{x\to a^-} f(x)=$ \verb|limit(f(x), x=a, dir='minus')|
+
+$\displaystyle\lim_{x\to a^+} f(x)=$ \verb|limit(f(x), x=a, dir='plus')|
+
+$\frac{d}{dx}(f(x))=$ \verb|diff(f(x),x)|
+
+$\frac{\partial}{\partial x}(f(x,y))=$ \verb|diff(f(x,y),x)|
+
+\verb|diff| $=$ \verb|differentiate| $=$ \verb|derivative|
+
+$\int f(x)dx=$ \verb|integral(f(x),x)|
+
+\verb|integral| = \verb|integrate|
+
+$\int_a^b f(x)dx=$ \verb|integral(f(x),x,a,b)|
+
+Taylor polynomial, deg $n$ about $a$: \texttt{taylor(f(x),x,$a$,$n$)} 
+
+%*********************************************
+\hr\textbf{2d graphics}
+
+\texttt{line([($x_1$,$y_1$),$\ldots$,($x_n$,$y_n$)],$\it options$)}
+
+\texttt{polygon([($x_1$,$y_1$),$\ldots$,($x_n$,$y_n$)],$\it options$)}
+
+\texttt{circle(($x$,$y$),$r$,$\it options$)}
+
+\texttt{text("txt",($x$,$y$),$\it options$)}
+
+\emph{options} as in \verb|plot.options|, 
+e.g. \texttt{thickness=$\it pixel$},
+
+\texttt{rgbcolor=($r$,$g$,$b$)},
+\quad \texttt{hue=$h$} \quad where $0\le r,b,g,h\le 1$
+
+use option \verb|figsize=[w,h]| to adjust aspect ratio
+
+\texttt{plot(f($x$),$x_{\rm min}$,$x_{\rm max}$,$\it options$)}
+
+\texttt{parametric\_plot((f($t$),g($t$)),$t_{\rm min}$,$t_{\rm max}$,$\it options$)}
+
+\texttt{polar\_plot(f($t$),$t_{\rm min}$,$t_{\rm max}$,$\it options$)}
+
+combine graphs: \verb|circle((1,1),1)+line([(0,0),(2,2)])|
+
+\texttt{animate(}\emph{list of graphics objects, options}\texttt{).show(delay=20)}
+
+%*********************************************
+\hr\textbf{3d graphics}
+
+\texttt{line3d([($x_1$,$y_1$,$z_1$),$\ldots$,($x_n$,$y_n$,$z_n$)],$\it options$)}
+
+\texttt{sphere(($x$,$y$,$z$),$r$,$\it options$)}
+
+\texttt{tetrahedron(($x$,$y$,$z$),$size$,$\it options$)}
+
+\texttt{cube(($x$,$y$,$z$),$size$,$\it options$)}
+
+\texttt{octahedron(($x$,$y$,$z$),$size$,$\it options$)}
+
+\texttt{dodecahedron(($x$,$y$,$z$),$size$,$\it options$)}
+
+\texttt{icosahedron(($x$,$y$,$z$),$size$,$\it options$)}
+
+\mbox{\emph{options} e.g. \texttt{aspect\_ratio=$[1,1,1]$ color='red' opacity}}
+
+\texttt{plot3d(f($x,y$),[$x_{\rm b}$,$x_{\rm e}$],[$y_{\rm b}$,$y_{\rm e}$],$\it options$)}
+
+add option \verb|plot_points=[|$m,n$\verb|]| or use \texttt{plot3d\_adaptive}
+
+\texttt{parametric\_plot3d((f($t$),g($t$),h($t$)),[$t_{\rm b}$,$t_{\rm e}$],$\it options$)}
+
+\texttt{parametric\_plot3d((f($u,v$),g($u,v$),h($u,v$)),}
+
+\qquad \qquad \qquad \qquad \qquad \qquad 
+\texttt{[$u_{\rm b}$,$u_{\rm e}$],[$v_{\rm b}$,$v_{\rm e}$],$\it options$)}
+
+use + to combine graphics objects
+
+%*********************************************
+\hr\textbf{Discrete math}
+
+$\lfloor x\rfloor=$ \verb|floor(x)| 
+\quad 
+$\lceil x\rceil=$ \verb|ceil(x)|
+
+Remainder of $n$ divided by $k=$ \verb|n%k| \quad\, $k|n$ iff \verb| n%k==0|
+
+$n!=$ \verb|factorial(n)| \qquad
+${x\choose m}=$ \verb|binomial(x,m)|
+
+$\phi=$ \verb|golden_ratio| \qquad $\phi(n)=$ \texttt{euler\_phi($n$)}
+
+Strings: e.g. \ \verb|s = 'Hello'| = \verb|"Hello"| = \verb|""+"He"+'llo'|
+
+\texttt{s[0]='H' \quad s[-1]='o' \quad s[1:3]='el' \quad s[3:]='lo'}
+
+Lists: e.g. \ \verb|[1,'Hello',x]| = \verb|[]+[1,'Hello']+[x]|
+
+Tuples: e.g. \ \verb|(1,'Hello',x)| \quad (immutable)
+
+Sets: e.g. \ $\{1,2,1,a\}=$ \verb|Set([1,2,1,'a'])| \ ($=\{1,2,a\}$)
+
+List comprehension $\approx$ set builder notation, e.g.
+
+$\{f(x):x\in X, x>0\}=$ \verb|Set([f(x) for x in X if x>0])|
+
+%*********************************************
+\hr\textbf{Linear algebra}
+
+$\begin{pmatrix}1\\2\end{pmatrix}=$ \verb|vector([1,2])|
+
+$\begin{pmatrix}1&2\\3&4\end{pmatrix}=$ \verb|matrix([[1,2],[3,4]])|
+
+$\left|\begin{matrix}1&2\\3&4\end{matrix}\right|=$
+\verb|det(matrix([[1,2],[3,4]]))|
+
+$Av=$ \verb|A*v| \quad $A^{-1}=$ \verb|A^-1| \quad $A^t=$ \verb|A.transpose()|
+
+methods: \verb|nrows() ncols() nullity() rank() trace()|...
+
+%*********************************************
+\hr\textbf{Sage modules and packages}
+
+\verb|from| \emph{module\_name} \verb|import *| \qquad (many preloaded)
+
+e.g. \texttt{calculus coding combinat crypto functions games
+geometry graphs groups logic matrix numerical plot probability 
+rings sets stats}
+
+\verb|sage.|\emph{module\_name}\verb|.all.|$\langle$tab$\rangle$ shows exported commands
+
+\mbox{Std packages: Maxima GP/PARI GAP Singular R Shell ...}
+
+Opt packages: Biopython Fricas(Axiom) Gnuplot Kash ...
+
+\%\emph{package\_name} then use package command syntax
+
+\verb|time| \emph{command} \quad to show timing information
+
+\end{multicols*}
+
+\end{document}
