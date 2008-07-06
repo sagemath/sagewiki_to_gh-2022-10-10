@@ -5,6 +5,9 @@
 #format wiki
 #language en
 
+[[Navigation(children,2)]]
+[[TableOfContents]]
+
 = High Level Architecture =
 
  * One type of architecture is DsageNg/ScatterGather which is the first implementation.  Its been rethought some
@@ -14,10 +17,6 @@
 
  * by Glyph: http://glyph.twistedmatrix.com/2008/07/constructive-criticism.html
  * nice description on what Twisted is (thanks Max Murphy) http://www.linuxjournal.com/article/7871
-
-= Child Pages =
-
-[[Navigation(children,2)]]
 
 ----
 CategoryDsageNg
