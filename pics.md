@@ -413,3 +413,59 @@ sage: P3 = text("$Seasons$ $Greetings$ ",(0.0,1.8))
 sage: P4 = text("$from$ $everyone$ $at$ sagemath.org!",(0.1,-1.6))
 sage: (P1+P2+P3+P4).show(axes=False)
 }}}
+
+ * Loretz butterfly:
+
+{{{
+"""
+Draws Loretz butterfly using matplotlib (2d) or jmol (3d).
+Written by Matthew Miller and William Stein.
+
+"""
+
+def butterfly2d():
+    """"
+    EXAMPLE:
+        sage: butterfly2d()
+    """    
+    g = Graphics()
+    x1, y1 = 0, 0
+    from math import sin, cos, exp, pi
+    for theta in srange( 0, 10*pi, 0.01 ):
+        r = exp(cos(theta)) - 2*cos(4*theta) + sin(theta/12)^5
+        x = r * cos(theta)  # Convert polar to rectangular coordinates
+        y = r * sin(theta)
+        xx = x*6 + 25       # Scale factors to enlarge and center the curve.
+        yy = y*6 + 25
+        if theta != 0: 
+            l = line( [(x1, y1), (xx, yy)], rgbcolor=hue(theta/7 + 4) )
+            g = g + l
+            x1, y1 = xx, yy
+    g.show(dpi=100, axes=False)
+
+def butterfly3d():
+    """"
+    EXAMPLE:
+        sage: butterfly3d()
+    """    
+    g = point3d((0,0,0))
+    x1, y1 = 0, 0
+    from math import sin, cos, exp, pi
+    for theta in srange( 0, 10*pi, 0.05):
+        r = exp(cos(theta)) - 2*cos(4*theta) + sin(theta/12)^5
+        x = r * cos(theta)  # Convert polar to rectangular coordinates
+        y = r * sin(theta)
+        xx = x*6 + 25       # Scale factors to enlarge and center the curve.
+        yy = y*6 + 25
+        if theta != 0:
+            l = line3d( [(x1, y1, theta), (xx, yy, theta)],
+            rgbcolor=hue(theta/7 + 4) )
+            g = g + l
+            x1, y1 = xx, yy
+    g.show(dpi=100, axes=False)
+
+}}}
+
+http://sage.math.washington.edu/home/wdj/art/butterfly2d.png
+
+http://sage.math.washington.edu/home/wdj/art/butterfly3d.png
