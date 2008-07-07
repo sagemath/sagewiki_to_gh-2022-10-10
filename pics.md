@@ -414,7 +414,7 @@ sage: P4 = text("$from$ $everyone$ $at$ sagemath.org!",(0.1,-1.6))
 sage: (P1+P2+P3+P4).show(axes=False)
 }}}
 
- * Loretz butterfly:
+ * Lorentz butterfly:
 
 {{{
 """
