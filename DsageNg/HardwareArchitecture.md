@@ -5,11 +5,9 @@
 #format wiki
 #language en
 
-[[TableOfContents]]
-
-= Child Pages =
 
 [[Navigation(children,2)]]
+[[TableOfContents]]
 
 ----
 CategoryDsageNg
