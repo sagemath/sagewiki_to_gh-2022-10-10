@@ -14,10 +14,6 @@
 = GROUP =
   http://groups.google.com/group/sage-finance
 
-= Development =
-
- GlennTarbox/HgDevelopment: Thoughts on development and process for SageFinance and DsageNg
-
 ----
 
 CategoryFinance
