@@ -4,6 +4,9 @@
 
 Dates: November 7 -- 10, 2008. 
 
+Organizers: William Stein, Fernando Perez, Fernando Rodriguez-Villegas, Sal Butt, Craig Citro
+
+
 
 
 NOTE: The Supercomputing 2008 conference (officially known as SC08) is
