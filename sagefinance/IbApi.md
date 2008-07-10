@@ -5,7 +5,7 @@
 #format wiki
 #language en
 
-[[[TableOfContents]]
+[[TableOfContents]]
 
 = Ib Api Code Outline =
 
