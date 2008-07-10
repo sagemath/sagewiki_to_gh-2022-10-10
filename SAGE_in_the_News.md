@@ -2,6 +2,8 @@
 
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is percieved in the outside world.
 
+  * [http://www.macresearch.org/plug-and-play-scientific-python-sage macresearch.org: "Plug-and-Play Scientific Python with SAGE"]
+
   * [http://www.stumbleupon.com/url/www.sagemath.org/ Stumbleupon collective social bookmarking]
 
   * [http://www.labonline.com.au/news/8212-A-free-alternative-to-Matlab-Maple-Mathematica-and-Magma Blog LAB Online: "A free alternative to Matlab, Maple, Mathematica and Magma"]
