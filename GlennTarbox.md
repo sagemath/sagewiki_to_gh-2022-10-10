@@ -2,26 +2,7 @@
 #format wiki
 == Glenn Tarbox ==
 
-Email: [[MailTo(glenn AT SPAMFREE tarbox DOT org)]] (gtalk)
+Refs: Unperson
 
-ghtdak on AIM / Freenode / Yahoo
-
-206-494-0819
-
-
- * http://www.tarbox.org
-
- * http://www.linkedin.com/in/glenntarbox
-
-= Major Activities =
- * SageFinance
- * DsageNg
-
-{{{
-Don’t worry about people stealing your ideas. If your ideas
-are any good, you’ll have to ram them down people’s throats 
--- Howard Aiken, IBM engineer
-}}}
-[[Navigation(children,2)]]
 ----
 CategoryHomepage
