@@ -1,5 +1,5 @@
 = Combinatorica Comparison =
-This page compares the functionality in SAGE with that of the Combinatorica package in Mathematica.  We compare to Mathematica version 6 and  Combinatorica version 2.1.0.
+This page compares the functionality in SAGE 2.8.10 (November 2007) with that of the Combinatorica package in Mathematica.  We compare to Mathematica version 6 and  Combinatorica version 2.1.0.  Feel free to update this page.
 
 == SAGE functions ==
 This table lists the functions available in SAGE and the equivalent Combinatorica functions.  It also has some notes about the implementation and suggestions on how to make SAGE better.
