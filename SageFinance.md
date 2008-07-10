@@ -7,7 +7,6 @@
 
 = PEOPLE =
   * [:WilliamStein:William Stein]
-  * [:GlennTarbox:GlennTarbox]
   * Brett Nakashima
   * Christopher Swierczewski
 
