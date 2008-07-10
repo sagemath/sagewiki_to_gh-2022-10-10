@@ -1,0 +1,496 @@
+## Please edit system and help pages ONLY in the moinmaster wiki! For more
+## information, please see MoinMaster:MoinPagesEditorGroup.
+##master-page:CategoryTemplate
+##master-date:Unknown-Date
+#format wiki
+#language en
+
+[[TableOfContents]]
+
+{{{#!java
+
+tickPrice(int, int, double, int)
+tickSize(int, int, int)
+tickOptionComputation(int, int, double, double, double, double)
+tickGeneric(int, int, double)
+tickString(int, int, String)
+tickEFP(int, int, double, String, double, int, String, double, double)
+orderStatus(int, String, int, int, double, int, int, double, int, String)
+openOrder(int, Contract, Order, OrderState)
+updateAccountValue(String, String, String, String)
+updatePortfolio(Contract, int, double, double, double, double, double, String)
+updateAccountTime(String)
+nextValidId(int)
+contractDetails(ContractDetails)
+bondContractDetails(ContractDetails)
+execDetails(int, Contract, Execution)
+updateMktDepth(int, int, int, int, double, int)
+updateMktDepthL2(int, int, String, int, int, double, int)
+updateNewsBulletin(int, int, String, String)
+managedAccounts(String)
+receiveFA(int, String)
+historicalData(int, String, double, double, double, double, int, int, double, boolean)
+scannerParameters(String)
+scannerData(int, int, ContractDetails, String, String, String, String)
+scannerDataEnd(int)
+realtimeBar(int, long, double, double, double, double, long, double, int)
+currentTime(long)
+
+public interface EWrapper extends AnyWrapper {
+
+    void tickPrice( int tickerId, int field, double price, int canAutoExecute);
+    void tickSize( int tickerId, int field, int size);
+    void tickOptionComputation( int tickerId, int field, double impliedVol,
+    		double delta, double modelPrice, double pvDividend);
+	void tickGeneric(int tickerId, int tickType, double value);
+	void tickString(int tickerId, int tickType, String value);
+	void tickEFP(int tickerId, int tickType, double basisPoints,
+			String formattedBasisPoints, double impliedFuture, int holdDays,
+			String futureExpiry, double dividendImpact, double dividendsToExpiry);
+    void orderStatus( int orderId, String status, int filled, int remaining,
+            double avgFillPrice, int permId, int parentId, double lastFillPrice,
+            int clientId, String whyHeld);
+    void openOrder( int orderId, Contract contract, Order order, OrderState orderState);
+    void updateAccountValue(String key, String value, String currency, String accountName);
+    void updatePortfolio(Contract contract, int position, double marketPrice, double marketValue,
+            double averageCost, double unrealizedPNL, double realizedPNL, String accountName);
+    void updateAccountTime(String timeStamp);
+    void nextValidId( int orderId);
+    void contractDetails(ContractDetails contractDetails);
+    void bondContractDetails(ContractDetails contractDetails);
+    void execDetails( int orderId, Contract contract, Execution execution);
+    void updateMktDepth( int tickerId, int position, int operation, int side, double price, int size);
+    void updateMktDepthL2( int tickerId, int position, String marketMaker, int operation,
+    		int side, double price, int size);
+    void updateNewsBulletin( int msgId, int msgType, String message, String origExchange);
+    void managedAccounts( String accountsList);
+    void receiveFA(int faDataType, String xml);
+    void historicalData(int reqId, String date, double open, double high, double low,
+                      double close, int volume, int count, double WAP, boolean hasGaps);
+    void scannerParameters(String xml);
+    void scannerData(int reqId, int rank, ContractDetails contractDetails, String distance,
+    		String benchmark, String projection, String legsStr);
+    void scannerDataEnd(int reqId);
+    void realtimeBar(int reqId, long time, double open, double high, double low, double close, long volume, double wap, int count);
+    void currentTime(long time);
+}
+}}}
+
+== Contract Details ==
+
+{{{#!java
+public class ContractDetails {
+    public ContractDetails( Contract p_summary, String p_marketName, String p_tradingClass,
+    		double p_minTick, String p_orderTypes, String p_validExchanges) {
+        m_summary = p_summary;
+    	m_marketName = p_marketName;
+    	m_tradingClass = p_tradingClass;
+    	m_minTick = p_minTick;
+    	m_orderTypes = p_orderTypes;
+    	m_validExchanges = p_validExchanges;
+    }
+}
+m_summary : Contract
+m_marketName : String
+m_tradingClass : String
+m_minTick : double
+m_priceMagnifier : int
+m_orderTypes : String
+m_validExchanges : String
+m_cusip : String
+m_ratings : String
+m_descAppend : String
+m_bondType : String
+m_couponType : String
+m_callable : boolean
+m_putable : boolean
+m_coupon : double
+m_convertible : boolean
+m_maturity : String
+m_issueDate : String
+m_nextOptionDate : String
+m_nextOptionType : String
+m_nextOptionPartial : boolean
+m_notes : String
+ContractDetails()
+ContractDetails(Contract, String, String, double, String, String)
+}}}
+
+== Contract ==
+
+{{{#!java
+m_conId : int
+m_symbol : String
+m_secType : String
+m_expiry : String
+m_strike : double
+m_right : String
+m_multiplier : String
+m_exchange : String
+m_currency : String
+m_localSymbol : String
+m_primaryExch : String
+m_includeExpired : boolean
+m_comboLegsDescrip : String
+m_comboLegs : Vector
+Contract()
+clone()
+Contract(int, String, String, String, double, String, String, String, String, String, Vector, String, boolean)
+equals(Object)
+}}}
+
+== Combo Leg ==
+
+{{{#!java
+SAME : int
+OPEN : int
+CLOSE : int
+UNKNOWN : int
+m_conId : int
+m_ratio : int
+m_action : String
+m_exchange : String
+m_openClose : int
+m_shortSaleSlot : int
+m_designatedLocation : String
+ComboLeg()
+ComboLeg(int, int, String, String, int)
+ComboLeg(int, int, String, String, int, int, String)
+equals(Object)
+}}}
+
+== EClient Socket ==
+
+{{{#!java
+CLIENT_VERSION : int
+SERVER_VERSION : int
+EOL : byte[]
+BAG_SEC_TYPE : String
+GROUPS : int
+PROFILES : int
+ALIASES : int
+faMsgTypeName(int)
+REQ_MKT_DATA : int
+CANCEL_MKT_DATA : int
+PLACE_ORDER : int
+CANCEL_ORDER : int
+REQ_OPEN_ORDERS : int
+REQ_ACCOUNT_DATA : int
+REQ_EXECUTIONS : int
+REQ_IDS : int
+REQ_CONTRACT_DATA : int
+REQ_MKT_DEPTH : int
+CANCEL_MKT_DEPTH : int
+REQ_NEWS_BULLETINS : int
+CANCEL_NEWS_BULLETINS : int
+SET_SERVER_LOGLEVEL : int
+REQ_AUTO_OPEN_ORDERS : int
+REQ_ALL_OPEN_ORDERS : int
+REQ_MANAGED_ACCTS : int
+REQ_FA : int
+REPLACE_FA : int
+REQ_HISTORICAL_DATA : int
+EXERCISE_OPTIONS : int
+REQ_SCANNER_SUBSCRIPTION : int
+CANCEL_SCANNER_SUBSCRIPTION : int
+REQ_SCANNER_PARAMETERS : int
+CANCEL_HISTORICAL_DATA : int
+REQ_CURRENT_TIME : int
+REQ_REAL_TIME_BARS : int
+CANCEL_REAL_TIME_BARS : int
+MIN_SERVER_VER_REAL_TIME_BARS : int
+MIN_SERVER_VER_SCALE_ORDERS : int
+MIN_SERVER_VER_SNAPSHOT_MKT_DATA : int
+MIN_SERVER_VER_SSHORT_COMBO_LEGS : int
+MIN_SERVER_VER_WHAT_IF_ORDERS : int
+MIN_SERVER_VER_CONTRACT_CONID : int
+MIN_SERVER_VER_PTA_ORDERS : int
+m_anyWrapper : AnyWrapper
+m_socket : Socket
+m_dos : DataOutputStream
+m_connected : boolean
+m_reader : EReader
+m_serverVersion : int
+m_TwsTime : String
+serverVersion()
+TwsConnectionTime()
+wrapper()
+reader()
+EClientSocket(AnyWrapper)
+isConnected()
+eConnect(String, int, int)
+connectionError()
+checkConnected(String)
+createReader(EClientSocket, DataInputStream)
+eConnect(Socket, int)
+eDisconnect()
+cancelScannerSubscription(int)
+reqScannerParameters()
+reqScannerSubscription(int, ScannerSubscription)
+reqMktData(int, Contract, String, boolean)
+cancelHistoricalData(int)
+cancelRealTimeBars(int)
+reqHistoricalData(int, Contract, String, String, String, String, int, int)
+reqRealTimeBars(int, Contract, int, String, boolean)
+reqContractDetails(Contract)
+reqMktDepth(int, Contract, int)
+cancelMktData(int)
+cancelMktDepth(int)
+exerciseOptions(int, Contract, int, int, String, int)
+placeOrder(int, Contract, Order)
+reqAccountUpdates(boolean, String)
+reqExecutions(ExecutionFilter)
+cancelOrder(int)
+reqOpenOrders()
+reqIds(int)
+reqNewsBulletins(boolean)
+cancelNewsBulletins()
+setServerLogLevel(int)
+reqAutoOpenOrders(boolean)
+reqAllOpenOrders()
+reqManagedAccts()
+requestFA(int)
+replaceFA(int, String)
+reqCurrentTime()
+}}}
+
+== Order ==
+{{{#!java
+CUSTOMER : int
+FIRM : int
+OPT_UNKNOWN : char
+OPT_BROKER_DEALER : char
+OPT_CUSTOMER : char
+OPT_FIRM : char
+OPT_ISEMM : char
+OPT_FARMM : char
+OPT_SPECIALIST : char
+AUCTION_MATCH : int
+AUCTION_IMPROVEMENT : int
+AUCTION_TRANSPARENT : int
+EMPTY_STR : String
+m_orderId : int
+m_clientId : int
+m_permId : int
+m_action : String
+m_totalQuantity : int
+m_orderType : String
+m_lmtPrice : double
+m_auxPrice : double
+m_tif : String
+m_ocaGroup : String
+m_ocaType : int
+m_orderRef : String
+m_transmit : boolean
+m_parentId : int
+m_blockOrder : boolean
+m_sweepToFill : boolean
+m_displaySize : int
+m_triggerMethod : int
+m_outsideRth : boolean
+m_hidden : boolean
+m_goodAfterTime : String
+m_goodTillDate : String
+m_overridePercentageConstraints : boolean
+m_rule80A : String
+m_allOrNone : boolean
+m_minQty : int
+m_percentOffset : double
+m_trailStopPrice : double
+m_faGroup : String
+m_faProfile : String
+m_faMethod : String
+m_faPercentage : String
+m_openClose : String
+m_origin : int
+m_shortSaleSlot : int
+m_designatedLocation : String
+m_discretionaryAmt : double
+m_eTradeOnly : boolean
+m_firmQuoteOnly : boolean
+m_nbboPriceCap : double
+m_auctionStrategy : int
+m_startingPrice : double
+m_stockRefPrice : double
+m_delta : double
+m_stockRangeLower : double
+m_stockRangeUpper : double
+m_volatility : double
+m_volatilityType : int
+m_continuousUpdate : int
+m_referencePriceType : int
+m_deltaNeutralOrderType : String
+m_deltaNeutralAuxPrice : double
+m_basisPoints : double
+m_basisPointsType : int
+m_scaleNumComponents : int
+m_scaleComponentSize : int
+m_scalePriceIncrement : double
+m_account : String
+m_settlingFirm : String
+m_clearingAccount : String
+m_clearingIntent : String
+m_whatIf : boolean
+Order()
+equals(Object)
+}}}
+
+== Scanner Subscription == 
+
+{{{#!java
+NO_ROW_NUMBER_SPECIFIED : int
+m_numberOfRows : int
+m_instrument : String
+m_locationCode : String
+m_scanCode : String
+m_abovePrice : double
+m_belowPrice : double
+m_aboveVolume : int
+m_averageOptionVolumeAbove : int
+m_marketCapAbove : double
+m_marketCapBelow : double
+m_moodyRatingAbove : String
+m_moodyRatingBelow : String
+m_spRatingAbove : String
+m_spRatingBelow : String
+m_maturityDateAbove : String
+m_maturityDateBelow : String
+m_couponRateAbove : double
+m_couponRateBelow : double
+m_excludeConvertible : String
+m_scannerSettingPairs : String
+m_stockTypeFilter : String
+numberOfRows()
+instrument()
+locationCode()
+scanCode()
+abovePrice()
+belowPrice()
+aboveVolume()
+averageOptionVolumeAbove()
+marketCapAbove()
+marketCapBelow()
+moodyRatingAbove()
+moodyRatingBelow()
+spRatingAbove()
+spRatingBelow()
+maturityDateAbove()
+maturityDateBelow()
+couponRateAbove()
+couponRateBelow()
+excludeConvertible()
+scannerSettingPairs()
+stockTypeFilter()
+numberOfRows(int)
+instrument(String)
+locationCode(String)
+scanCode(String)
+abovePrice(double)
+belowPrice(double)
+aboveVolume(int)
+averageOptionVolumeAbove(int)
+marketCapAbove(double)
+marketCapBelow(double)
+moodyRatingAbove(String)
+moodyRatingBelow(String)
+spRatingAbove(String)
+spRatingBelow(String)
+maturityDateAbove(String)
+maturityDateBelow(String)
+couponRateAbove(double)
+couponRateBelow(double)
+excludeConvertible(String)
+scannerSettingPairs(String)
+stockTypeFilter(String)
+}}}
+
+== Tick Type ==
+
+{{{#!java
+BID_SIZE : int
+BID : int
+ASK : int
+ASK_SIZE : int
+LAST : int
+LAST_SIZE : int
+HIGH : int
+LOW : int
+VOLUME : int
+CLOSE : int
+BID_OPTION : int
+ASK_OPTION : int
+LAST_OPTION : int
+MODEL_OPTION : int
+OPEN : int
+LOW_13_WEEK : int
+HIGH_13_WEEK : int
+LOW_26_WEEK : int
+HIGH_26_WEEK : int
+LOW_52_WEEK : int
+HIGH_52_WEEK : int
+AVG_VOLUME : int
+OPEN_INTEREST : int
+OPTION_HISTORICAL_VOL : int
+OPTION_IMPLIED_VOL : int
+OPTION_BID_EXCH : int
+OPTION_ASK_EXCH : int
+OPTION_CALL_OPEN_INTEREST : int
+OPTION_PUT_OPEN_INTEREST : int
+OPTION_CALL_VOLUME : int
+OPTION_PUT_VOLUME : int
+INDEX_FUTURE_PREMIUM : int
+BID_EXCH : int
+ASK_EXCH : int
+AUCTION_VOLUME : int
+AUCTION_PRICE : int
+AUCTION_IMBALANCE : int
+MARK_PRICE : int
+BID_EFP_COMPUTATION : int
+ASK_EFP_COMPUTATION : int
+LAST_EFP_COMPUTATION : int
+OPEN_EFP_COMPUTATION : int
+HIGH_EFP_COMPUTATION : int
+LOW_EFP_COMPUTATION : int
+CLOSE_EFP_COMPUTATION : int
+LAST_TIMESTAMP : int
+SHORTABLE : int
+getField(int)
+}}}
+
+== Execution ==
+
+{{{#!java
+m_orderId : int
+m_clientId : int
+m_execId : String
+m_time : String
+m_acctNumber : String
+m_exchange : String
+m_side : String
+m_shares : int
+m_price : double
+m_permId : int
+m_liquidation : int
+Execution()
+Execution(int, int, String, String, String, String, String, int, double, int, int)
+equals(Object)
+}}}
+
+== Execution Filter ==
+
+{{{#!java
+m_clientId : int
+m_acctCode : String
+m_time : String
+m_symbol : String
+m_secType : String
+m_exchange : String
+m_side : String
+ExecutionFilter()
+ExecutionFilter(int, String, String, String, String, String, String)
+equals(Object)
+}}}
+
+
+----
+CategoryFinance
