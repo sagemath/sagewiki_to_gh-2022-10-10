@@ -9,8 +9,7 @@
 
 = Ib Api Code Outline =
 
- * couldn't be saved cuz it looked like bad content by the wiki badcontent thingy...
- * grab it at http://tarbox.org/sage/ibapisummary.txt
+ * attachment:ibapisummary.txt
 
 ----
 CategoryCategory
