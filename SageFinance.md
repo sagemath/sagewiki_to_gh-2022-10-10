@@ -1,4 +1,5 @@
 ## page was renamed from finance
+[[Navigation(children,1)]]
 [[TableOfContents]]
 
 = Quantitative Finance in Sage =
