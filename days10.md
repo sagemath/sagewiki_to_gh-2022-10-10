@@ -54,7 +54,7 @@ with SAGE, and 3 contributed speakers, who typically describe a SAGE module
 
 === Close events ===
 
-You may be interested in the [http://cado.gforge.inria.fr/ws.en.html CADO project workshop]
+You may be interested in the [http://cado.gforge.inria.fr/workshop/ CADO project workshop]
 which will occur at the same place, 7-9 october.
 
 === Sponsors ===
