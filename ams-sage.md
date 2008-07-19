@@ -6,7 +6,10 @@
     * David Harvey, Harvard University
     * David Joyner, U.S. Naval Academy 
 
-This does not yet have a time slot scheduled.
+The time slots scheduled are: 
+  
+    * Thursday, January 8, 2009:  8:00-10:50 AM
+    * Thursday, January 8, 2009:  1:00-5:50 PM
 
 === Attendees (tentative) ===
 
