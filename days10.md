@@ -24,14 +24,14 @@ The following program is preliminary.
      Invited speakers:
        * [http://www.cs.uwaterloo.ca/~astorjoh/ Arne Storjohann]
        * [http://ljk.imag.fr/membres/Jean-Guillaume.Dumas/ Jean-Guillaume Dumas]
-   * October 11: Groebner Bases (chair Ludovic Perret)
+   * October 11: Elliptic Curves (chair Laurent Fousse)
+     Invited speakers:
+       * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]
+       * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]
+   * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
        * Carlo Traverso
        * [http://www.csd.uwo.ca/~eschost/ Éric Schost]
-       * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]
-   * October 12: Elliptic Curves (chair Laurent Fousse)
-     Invited speakers:
-       * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]
    * October 13-15: Coding Sprints (chair Michael Abshoff)
 
 Each "talk" day (October 10 to 12) typically has 2 invited speakers, who are
