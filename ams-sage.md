@@ -14,3 +14,4 @@ This does not yet have a time slot scheduled.
  * Jason Grout
  * Kiran Kedlaya
  * Craig Citro
+ * Nathan Ryan <nathan.ryan@bucknell.edu>
