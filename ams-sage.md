@@ -18,3 +18,4 @@ The time slots scheduled are:
  * Kiran Kedlaya, MIT
  * Craig Citro, UCLA
  * Nathan Ryan <nathan.ryan@bucknell.edu>
+ * Karl Crisman <Karl.Crisman@gordon.edu>
