@@ -4177,7 +4177,6 @@ casa-lavoro\.net
 chicodeguzman\.net
 designblog\.gr
 hartenergy\.com
-unicauca\.edu\.co
 isdev\.odg\.cc
 jshyx1985
 mode2testsite\.com
@@ -4449,9 +4448,16 @@ nikespaces\.com
 paris-hilton\.wikidot\.com
 cert-world\.com
 weebly\.com
+## This is University Cauca, Colombia - we hope they solved their spam problem meanwhile
+## and remove the pattern because some people having email addresses there are having problems
+## publishing them on other (moin) wiki sites. If you start getting spam for this again, try
+## to use a more specific pattern than this:
+## unicauca\.edu\.co
+
+
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
 ## MoinMoin 1.6 has TextCHAs for spam prevention and they are currently very effective (no
-## spam any more since switching to 1.6). So if you still suffer from spam, consider 1.6.
+## spam any more since switching to 1.6). So if you still suffer from spam, consider 1.6 or 1.7.
 ## ===========================================================================================
