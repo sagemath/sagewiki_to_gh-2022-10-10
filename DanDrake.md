@@ -6,5 +6,7 @@ I'm a postdoc at the [http://kaist.ac.kr Korea Advanced Institute of Science and
 
 My (extremely unexciting) homepage is [http://math.kaist.ac.kr/~drake].
 
+A link to a subpage: /OhYeah
+
 ----
 CategoryHomepage
