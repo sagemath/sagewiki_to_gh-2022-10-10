@@ -47,6 +47,9 @@ Windows is currently supported via the VMWare image, so see the instructions for
 === How do I run a parallel build? ===
 {{{export MAKE="make -j8"}}} will enable 8 threads for parts of the build that support parallelism.
 
+=== How do I run Sage in a browser that is not the system default ===
+Issue this command "env SAGE_BROWSER=opera /usr/bin/sage -notebook" either from the command prompt or as a menu command for Sage.
+
 == Developing in Sage ==
 === What tools do I need to develop in Sage? ===
 You need the prerequisite tools listed in the README.txt file in the root directory of Sage.
