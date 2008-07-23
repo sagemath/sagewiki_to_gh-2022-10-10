@@ -48,7 +48,8 @@ Windows is currently supported via the VMWare image, so see the instructions for
 {{{export MAKE="make -j8"}}} will enable 8 threads for parts of the build that support parallelism.
 
 === How do I run Sage in a browser that is not the system default ===
-Issue this command "env SAGE_BROWSER=opera /usr/bin/sage -notebook" either from the command prompt or as a menu command for Sage.
+Issue this command "env SAGE_BROWSER=opera /usr/bin/sage -notebook" either from the command prompt or as a menu command for Sage. Assumes a linux operating system, opera as the browser,
+and I happen to use KDE as my desktop.
 
 == Developing in Sage ==
 === What tools do I need to develop in Sage? ===
