@@ -3,7 +3,7 @@
 Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is percieved in the outside world.
 
 
-  * [http://translate.google.com/translate?hl=en&sl=ro&u=http://incearca.softwareliber.ro/&sa=X&oi=translate&resnum=1&ct=result&prev=/search%3Fq%3Do%2Balternativa%2Bviabila%2Bla%2BMatlab,%2BMathematica%2B%2526%2Bco%26hl%3Den Translated Romanian Blog/Article about Sage]
+  * [http://translate.google.com/translate?hl=en&sl=ro&u=http://incearca.softwareliber.ro/2008/07/21/sage-o-alternativa-viabila-la-matlab-mathematica-co/ Translated Romanian Blog/Article about Sage]
 
   * [http://libreamoi.com/index.php/what-are-your-chances-of-hitting-a-fly-with-a-tennis-racquet/ What are your chances of hitting a fly with a tennis racquet?] Blog / 2008-07-18 / Sage helps solving    [http://code.google.com/codejam google gode-jam] question!
 
