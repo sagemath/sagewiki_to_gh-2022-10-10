@@ -2,14 +2,11 @@
 
 http://www.pims.math.ca/science/2008/08mgvw/images/poster.png
 
-Have a look at [http://www.pims.math.ca/science/2008/08mgvw/ the Official Webpage].
-
 DATES:        August 8 - 16, 2008
 
-LOCATION:     The IRMACS Centre
-              Simon Fraser University, Burnaby (Greater Vancouver), British Columbia, CANADA
+LOCATION:     The IRMACS Centre, Simon Fraser University, Burnaby (Greater Vancouver), British Columbia, CANADA
 
-WEB SITE:     http://www.pims.math.ca/science/2008/08mgvw
+WEB SITE:     [http://www.pims.math.ca/science/2008/08mgvw/ http://www.pims.math.ca/science/2008/08mgvw]
 
 INFORMATION:  Nils Bruin, Email: nbruin@sfu.ca, Phone: 778.782.3794
 
