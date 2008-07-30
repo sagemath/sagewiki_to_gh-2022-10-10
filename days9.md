@@ -2,7 +2,7 @@
 
 http://www.pims.math.ca/science/2008/08mgvw/images/poster.png
 
-Apply now online at [http://www.pims.math.ca/science/2008/08mgvw/ the Official Webpage].
+Have a look at [http://www.pims.math.ca/science/2008/08mgvw/ the Official Webpage].
 
 DATES:        August 8 - 16, 2008
 
@@ -10,7 +10,7 @@ LOCATION:     Simon Fraser University, Burnaby (Greater Vancouver), British Colu
 
 WEB SITE:     http://www.pims.math.ca/science/2008/08mgvw
 
-INFORMATION:  Jo-Anne Rockwood (MITACS), Email: jrockwood@mitacs.ca, Phone: 778.782.3711
+INFORMATION:  Nils Bruin, Email: nbruin@sfu.ca, Phone: 778.782.3794
 
 ORGANIZERS:   
    * David Austin (Grand Valley State University)
@@ -37,6 +37,6 @@ FUNDING: Participants will be housed on campus in SFU student dorms at no cost t
 We have funds available to cover some travel costs, but not enough to cover everyone's. We expect most participants to find
 their own source. If you need them to be covered, please explain in your application.
 
-APPLICATIONS: Apply by April 15 online at http://www.pims.math.ca/science/2008/08mgvw/apply.html
+APPLICATIONS: Application is closed.
 
 COMPUTING EQUIPMENT: You will spend a large part of the workshop working on computers.  We have a number of workstations available, but we shall not be able to provide everybody with a workstation. You are encouraged to bring a laptop with wireless networking capability.
