@@ -6,7 +6,8 @@ Have a look at [http://www.pims.math.ca/science/2008/08mgvw/ the Official Webpag
 
 DATES:        August 8 - 16, 2008
 
-LOCATION:     Simon Fraser University, Burnaby (Greater Vancouver), British Columbia, CANADA
+LOCATION:     The IRMACS Centre
+              Simon Fraser University, Burnaby (Greater Vancouver), British Columbia, CANADA
 
 WEB SITE:     http://www.pims.math.ca/science/2008/08mgvw
 
@@ -20,6 +21,7 @@ ORGANIZERS:
    * William Stein (University of Washington)
 
 SPONSORS:     MITACS, SFU, PIMS
+              Technical support by IRMACS
 
 OBJECTIVES: This workshop is intended to teach skills in mathematical graphics for research articles, for presentation, and on web pages, to graduate students and advanced undergraduates.
 
