@@ -13,6 +13,7 @@ The schedule is as follows:
 12:00- 2:00: Thai food lunch (Araya's)
 
 2:00 - 5:00:
+ * Igor Tolkov: Interact
  * Robert Miller: [http://wiki.rlmiller.org/PartitionRefinement Backtracking]
  * Emily Kirkman: Graphics
  * Christopher Swierczewski: Quantitative Finance
