@@ -62,7 +62,7 @@ def _(number=e, ymax=selector([None,5,20,..,400],nrows=2), clr=Color('purple'), 
 }}}
 attachment:contfracplot.png
 
-== Illustrating the prime number thoerem ==
+== Illustrating the prime number theorem ==
 by William Stein
 {{{
 @interact
