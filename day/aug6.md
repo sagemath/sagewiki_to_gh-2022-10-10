@@ -6,7 +6,7 @@ at 10am in [http://www.css.washington.edu/room/PAR+112 Parrington Hall 112].
 The schedule is as follows:
 
 10 - 12:00:
- * Michael Abshoff: Porting Sage
+ * Michael Abshoff: Porting Sage for Fun and Profit!
  * Elliott Brossard: Calculus Tutorial
  * Gary Furnish: Symbolics
 
