@@ -1,7 +1,7 @@
 = Sage Day: August 6 =
 
 We will have a "Sage Day" next Wednesday, August 6, 2008 starting
-at 10am in [http://www.css.washington.edu/room/PAR+112 Parrington Hall 112].
+at 9am in [http://www.css.washington.edu/room/PAR+112 Parrington Hall 112].
 
 The schedule is as follows, with 20 minutes for each talk.
 
