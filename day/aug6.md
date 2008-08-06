@@ -6,7 +6,7 @@ at 9am in [http://www.css.washington.edu/room/PAR+112 Parrington Hall 112].
 The schedule is as follows, with 20 minutes for each talk.
 
 9:00am - 1:00pm:
- * Elliott Brossard: [http://elliottbrossard.110mb.com/project4/intro.html Calculus Tutorial]
+ * Elliott Brossard: [http://sage.math.washington.edu/home/elliottd/calctut/intro.html]
  * Robert Miller: [http://wiki.rlmiller.org/PartitionRefinement Backtracking]
  * Gary Furnish: Symbolics
  * Michael Abshoff: Porting Sage for Fun and Profit!
