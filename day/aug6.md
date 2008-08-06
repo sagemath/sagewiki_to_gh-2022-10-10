@@ -8,8 +8,8 @@ The schedule is as follows, with 20 minutes for each talk.
 9:00am - 1:00pm:
  * Elliott Brossard: Calculus Tutorial
  * Robert Miller: [http://wiki.rlmiller.org/PartitionRefinement Backtracking]
- * Michael Abshoff: Porting Sage for Fun and Profit!
  * Gary Furnish: Symbolics
+ * Michael Abshoff: Porting Sage for Fun and Profit!
  * Igor Tolkov: Interact
  * Emily Kirkman: Graphics
  * Christopher Swierczewski: Quantitative Finance
