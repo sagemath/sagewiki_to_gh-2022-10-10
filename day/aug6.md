@@ -11,7 +11,7 @@ The schedule is as follows, with 20 minutes for each talk.
  * Gary Furnish: Symbolics
  * Michael Abshoff: Porting Sage for Fun and Profit!
  * Igor Tolkov: Interact
- * Emily Kirkman: Graphics
+ * Emily Kirkman: [:2d_graphics:2D Graphics]
  * Christopher Swierczewski: Quantitative Finance
  * William Stein: Hidden Markov Models attachment:stein.sws
 
