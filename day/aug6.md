@@ -13,7 +13,7 @@ The schedule is as follows, with 20 minutes for each talk.
  * Igor Tolkov: Interact
  * Emily Kirkman: Graphics
  * Christopher Swierczewski: Quantitative Finance
- * William Stein: Hidden Markov Models
+ * William Stein: Hidden Markov Models attachment:stein.sws
 
 
 
