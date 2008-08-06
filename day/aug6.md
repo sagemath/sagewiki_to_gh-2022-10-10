@@ -7,13 +7,7 @@ The schedule is as follows, with 20 minutes for each talk.
 
 9:00am - 1:00pm:
 
----- /!\ '''Edit conflict - other version:''' ----
- * Elliott Brossard: [http://sage.math.washington.edu/home/elliottd/calctut/intro.html]
-
----- /!\ '''Edit conflict - your version:''' ----
  * Elliott Brossard: [http://sage.math.washington.edu/home/elliottd/calctut/intro.html Calculus Tutorial]
-
----- /!\ '''End of edit conflict''' ----
  * Robert Miller: [http://wiki.rlmiller.org/PartitionRefinement Backtracking]
  * Gary Furnish: Symbolics
  * Michael Abshoff: Porting Sage for Fun and Profit!
