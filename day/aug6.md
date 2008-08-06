@@ -17,6 +17,3 @@ The schedule is as follows, with 20 minutes for each talk.
  * William Stein: Hidden Markov Models attachment:stein.sws
 
 
-
-
-There is still room in the schedule in the afternoon, so if you're not listed above and would like to talk, please let me know.
