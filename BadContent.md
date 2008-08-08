@@ -4448,12 +4448,8 @@ nikespaces\.com
 paris-hilton\.wikidot\.com
 cert-world\.com
 weebly\.com
-## This is University Cauca, Colombia - we hope they solved their spam problem meanwhile
-## and remove the pattern because some people having email addresses there are having problems
-## publishing them on other (moin) wiki sites. If you start getting spam for this again, try
-## to use a more specific pattern than this:
-## unicauca\.edu\.co
-
+db-gcadressen\.info
+dbadressen\.com
 
 
 ## ===========================================================================================
