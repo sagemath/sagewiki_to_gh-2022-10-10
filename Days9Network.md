@@ -1,7 +1,16 @@
 = IRMACS network connections =
 You have several ways of making use of the IRMACS computing facilities:
 
+== IRMACS workstations ==
+
  * You can log into one of the OSX workstations, using the account information you received together with your name badge,
+
+== IRMACS SAGE server ==
+
+ * From within IRMACS, we have a SAGE server available at [https://hydrogen.irmacs.sfu.ca:8000 https://hydrogen.irmacs.sfu.ca:8000]. You can make your own sage account on that server. This machine is behind the IRMACS firewall, so you cannot connect to it from outside IRMACS. See below for VPN options.
+
+== Wireless network options ==
+
  * You can connect to the "irmacs" wireless network, using the account information you received together with your name badge. In case you need this information: Authentication is supposed to be 802.1x, TTLS/PAP. Linux NetworkManager seems to have trouble keeping its connection. You may have more luck using wpasupplicant directly:
 
 In case it helps: with Linux, the following entry in {{{/etc/wpasupplicant.conf}}} seemed to work:
@@ -19,8 +28,6 @@ network={
  * You can connect to the campus-wide wireless networks {{{SFU}}} (authenticate in a browser) or {{{SFU-SECURE}}} (a WPA/WPA2 enterprise network using TTLS/PAP). SFU students can use their normal campus account. A guest account is available upon request.
 
  * People from UBC should be able to connect to {{{eduroam}}} using their UBC credentials.
-
- * From within IRMACS, we have a SAGE server available at [https://hydrogen.irmacs.sfu.ca:8000 https://hydrogen.irmacs.sfu.ca:8000]. You can make your own sage account on that server.
 
 == IRMACS VPN ==
 
