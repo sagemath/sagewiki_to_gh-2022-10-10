@@ -2,7 +2,7 @@
 You have several ways of making use of the IRMACS computing facilities:
 
  * You can log into one of the OSX workstations, using the account information you received together with your name badge,
- * You can connect to the "irmacs" wireless network, using the account information you received together with your name badge. In case you need this information: Authentication is supposed to be 802.1x, TTLS/PAP.
+ * You can connect to the "irmacs" wireless network, using the account information you received together with your name badge. In case you need this information: Authentication is supposed to be 802.1x, TTLS/PAP. Linux NetworkManager seems to have trouble keeping its connection. You may have more luck using wpasupplicant directly:
 
 In case it helps: with Linux, the following entry in {{{/etc/wpasupplicant.conf}}} seemed to work:
 {{{
@@ -20,9 +20,22 @@ network={
 
  * People from UBC should be able to connect to {{{eduroam}}} using their UBC credentials.
 
- * From within IRMACS, we have a SAGE server available at [https://hydrogen.irmacs.sfu.ca:8000 https://hydrogen.irmacs.sfu.ca:8000]. You can make your own account on that server.
+ * From within IRMACS, we have a SAGE server available at [https://hydrogen.irmacs.sfu.ca:8000 https://hydrogen.irmacs.sfu.ca:8000]. You can make your own sage account on that server.
+
+== IRMACS VPN ==
 
 If you connect using {{{SFU}}}, {{{SFU-SECURE}}} or {{{eduroam}}}, you will not be inside the irmacs firewall, so {{{hydrogen}}} will not be accessible. In order to access {{{hydrogen}}}, you can make use of the [http://www.irmacs.sfu.ca/technical_support/vpn.php IRMACS VPN] (again, use IRMACS credentials to authenticate).
+
+=== VPN via NetworkManager on Linux ===
+
+Under linux, NetworkManager 0.7.0 with vpnc 0.5.1 seems to work fine. The following information is needed to set up the VPN using vpnc:
+{{{
+Gateway: portal.irmacs.sfu.ca
+Group Name: KerbGroup
+}}}
+Under "optional" you can specify your Irmacs user name. You can specify to only use the VPN connection for the irmacs address range using {{{142.58.52.0/23}}}. The Group Password is {{{Etu9*3Tv@}}} (this is not really a secret, since it's posted in obfuscated form in the irmacs.pcf file anyway, and the obfuscation is easily undone using {{{cisco-decrypt}}}).
+
+=== VPN via vpnc's configuration files on Linux ===
 
 Under linux, vpnc 0.5.1 seems to work well (probably better than Cisco's own vpnclient software, but I did not try). Configuration goes in {{{/etc/vpnc/default.conf}}}:
 {{{
