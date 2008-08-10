@@ -1,1 +1,1 @@
-=Sphinx Documentation SEP=
+= Sphinx Documentation SEP =
