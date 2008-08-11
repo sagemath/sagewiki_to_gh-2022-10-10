@@ -10,3 +10,5 @@ Please add your project to this list. Follow the example.
  * ''Aurel Meyer'': '''Symmetry groups of polytopes'''.  Graphics to illustrate that all symmetry groups of regular polytopes are finite Coxeter groups.
 
  * ''Yair Go1dberg'': '''3D Graphing in PiScript'''. Plotting 3 dimensional functions in PiScript.
+
+ * ''Steve Kieffer'': '''Algebra sketches'''. Tools with which to produce sketches of a kind often drawn on blackboards to illustrate algebraic structures.
