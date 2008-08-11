@@ -8,3 +8,5 @@ Please add your project to this list. Follow the example.
  * ''Jakub Marecek'': '''Toy Integer Programming Solver'''.  A very limited integer programming solver for instances with 3 variables, but complete with several primal (and possibly branching) heuristics in use today, and nice plots. Coming up soon at http://cs.nott.ac.uk/~jxm/ -- hopefully as a Java WebStart. '''SVG and PDF Output for JyScript'''. A quick hack using Apache Batik.  
 
  * ''Aurel Meyer'': '''Symmetry groups of polytopes'''.  Graphics to illustrate that all symmetry groups of regular polytopes are finite Coxeter groups.
+
+ * ''Yair'': '''3D Graphing in PiScript'''. Plotting 3 dimensional functions in PiScript.
