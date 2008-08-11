@@ -9,4 +9,4 @@ Please add your project to this list. Follow the example.
 
  * ''Aurel Meyer'': '''Symmetry groups of polytopes'''.  Graphics to illustrate that all symmetry groups of regular polytopes are finite Coxeter groups.
 
- * ''Yair'': '''3D Graphing in PiScript'''. Plotting 3 dimensional functions in PiScript.
+ * ''Yair G0ldberg'': '''3D Graphing in PiScript'''. Plotting 3 dimensional functions in PiScript.
