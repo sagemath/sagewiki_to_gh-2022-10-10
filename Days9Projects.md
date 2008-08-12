@@ -10,3 +10,5 @@ Please add your project to this list. Follow the examples that are already there
  * ''Yair Go1dberg'': '''3D Graphing in PiScript'''. Plotting 3 dimensional functions in PiScript.
 
  * ''Steve Kieffer'': '''Algebra sketches'''. Tools with which to produce sketches of a kind often drawn on blackboards to illustrate algebraic structures.
+ 
+ * ''Michael Lamoureux'': '''EasyBalls'''. A 2D animation of colliding balls, maybe with gravity, maybe with E&M if I can get the 3D in there.
