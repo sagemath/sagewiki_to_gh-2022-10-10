@@ -4,6 +4,8 @@ See also [:SymbolicBenchmarks: this other page].
 
 The conditions for something to be listed here: (a) it must be resemble an ''actual'' computation somebody actually wanted to do in Sage, and (b) the question must be precisely formulated with Sage code that uses the Sage symbolics in a straightforward way (i.e., don't cleverly use number fields).   Do ''not'' post any "synthetic" benchmarks.  This page is supposed to be about nailing down exactly why people consider the sage symbolics at present "so slow as to be completely useless for anything but fast float". 
 
+Just to emphasize, some of these seem silly but they all come up when REAL USERS use Sage.
+
 == Problem 1 ==
 
 SETUP: Define a function $f(z) = \sqrt{1/3}\cdot z^2 + i/3$.  COMPUTATION: Compute the real part of $f(f(f(...(f(i/2))...)$ iterated $10$ times. 
