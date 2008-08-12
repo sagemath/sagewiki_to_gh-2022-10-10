@@ -8,7 +8,7 @@ The conditions for something to be listed here: (a) it must be resemble an ''act
 
 Just to emphasize, some of these seem silly but they all come up when REAL USERS use Sage.  For synthetic benchmarks, see the second section below.
 
-== Problem 1 ==
+== Problem R1 ==
 
 SETUP: Define a function $f(z) = \sqrt{1/3}\cdot z^2 + i/3$.  COMPUTATION: Compute the real part of $f(f(f(...(f(i/2))...)$ iterated $10$ times. 
 {{{
@@ -22,7 +22,7 @@ Time: CPU 0.11 s, Wall: 0.34 s
 }}}
 
 
-== Problem 2 ==
+== Problem R2 ==
 
 {{{
 def hermite(n,y):
@@ -40,7 +40,7 @@ time a = phi(25,4)
 Time: CPU 0.59 s, Wall: 0.60 s
 }}}
 
-== Problem 3 ==
+== Problem R3 ==
 {{{
 sage: var('x,y,z')
 sage: f = x+y+z
@@ -49,7 +49,7 @@ sage: time for _ in range(10): a = bool(f==f)
 CPU time: 0.09 s,  Wall time: 0.52 s
 }}}
 
-== Problem 4 ==
+== Problem R4 ==
 {{{
 sage: u=[e,pi,sqrt(2)]
 sage: time Tuples(u,3).count()
@@ -67,4 +67,10 @@ Time: CPU 0.00 s, Wall: 0.00 s
 
 = The Synthetic Symbolic Benchmark Suite =
 
-Here is where synthetic benchmarks go.  These are made up because you abstract think they are good benchmarks.  They don't have to come up in real world problems at all
+Here is where synthetic benchmarks go.  These are made up because you abstract think they are good benchmarks.  They don't have to come up in real world problems.
+
+== Problem S1 ==
+{{{
+
+
+}}}
