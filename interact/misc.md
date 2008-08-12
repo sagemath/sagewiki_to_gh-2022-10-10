@@ -56,7 +56,7 @@ def _(X='1,2,3,a', Y='2,a,3,4,apple', Z='a,b,10,apple'):
 
     # Show it
     G.show(aspect_ratio=1, axes=False)
-}}
+}}}
 
 attachment:veng.png
 
