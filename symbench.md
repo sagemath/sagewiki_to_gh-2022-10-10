@@ -18,3 +18,28 @@ real(f(f(f(f(f(f(f(f(f(f(i/2)))))))))))
 
 
 == Problem 2 ==
+
+{{{
+def hermite(n,y):
+  if n == 1:
+      return 2*y
+  if n == 0:
+      return 1
+  return 2*y*hermite(n-1,y) - 2*(n-1)*hermite(n-2,y)
+
+def phi(n,y):
+  return 1/(sqrt(2^n*factorial(n))*pi^(1/4))*exp(-y^2/2)*hermite(n,y)
+
+time a = phi(25,4)
+//
+Time: CPU 0.59 s, Wall: 0.60 s
+}}}
+
+== Problem 3 ==
+{{{
+sage: var('x,y,z')
+sage: f = x+y+z
+sage: time for _ in range(10): a = bool(f==f)
+//
+CPU time: 0.09 s,  Wall time: 0.52 s
+}}}
