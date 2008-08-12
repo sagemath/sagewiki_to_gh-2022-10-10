@@ -1,8 +1,10 @@
-||<-2> Problem Key                    ||
-|| $\rightarrow$ || simplify          ||
-|| $A(...)$      || assume ...        ||
-|| $S(...,x)$    || solve ... for $x$ ||
-|| (p.v.)        || principal value   ||
+||<-2> Problem Key                                 ||
+|| $\rightarrow$ || simplify                       ||
+|| $A(...)$      || assume ...                     ||
+|| $S(...,x)$    || solve ... for $x$              ||
+|| $T(...,x=b)$  || Taylor series of ... based at b||
+|| (p.v.)        || principal value                ||
+|| (div)         || divergent                      ||
 
 ||<-2> Performance Key                                           ||
 || $\times$                || wrong answer/cannot do the problem ||
@@ -40,9 +42,15 @@
 || $\int|x|dx \rightarrow \frac{x|x|}{2}$                       ||       ||             ||       ||        ||      ||           || ||
 || $\int\frac{x}{\sqrt{1+x}+\sqrt{1-x}}dx \rightarrow \frac{(1+x)^{3/2}+(1-x)^{3/2}}{3}$ || || || ||       ||      ||           || ||
 || $\int\frac{\sqrt{1+x}+\sqrt{1-x}}{2}dx \rightarrow \frac{(1+x)^{3/2}+(1-x)^{3/2}}{3}$ || || || ||       ||      ||           || ||
-|| $\int_{-1}^1\frac{1}{x}dx \rightarrow 0$(p.v.)               ||       ||             ||       ||        ||      ||           || ||
-
-
-
-
+|| $\int_{-1}^1\frac{1}{x}dx \rightarrow 0$ (p.v.)              ||       ||             ||       ||        ||      ||           || ||
+|| $\int_{-1}^1\frac{1}{x^2}dx \rightarrow$ (div)               ||       ||             ||       ||        ||      ||           || ||
+|| $\int_0^1\sqrt{x + \frac1x - 2}dx \rightarrow \frac43$       ||       ||             ||       ||        ||      ||           || ||
+|| $\int_1^2\sqrt{x + \frac1x - 2}dx \rightarrow \frac{4-\sqrt8}3$||     ||             ||       ||        ||      ||           || ||
+|| $\int_0^2\sqrt{x + \frac1x - 2}dx \rightarrow \frac{8-\sqrt8}3$||     ||             ||       ||        ||      ||           || ||
+|| $A(a>0); \int_{-\infty}^\infty\frac{\cos x}{x^2+a^2}dx \rightarrow \frac\pi ae^{-a}$|| || ||  ||        ||      ||           || ||
+|| $A(0 < a < 1); \int_0^\infty\frac{t^{a-1}}{t+1}dt \rightarrow \frac{\pi}{\sin(\pi a)}$|| || || ||       ||      ||           || ||
+|| $T(\frac1\sqrt{1-(x/c)^2},x=0)$                              ||       ||             ||       ||        ||      ||           || ||
+|| $T((\log x)^ae^{-bx},x=1)$                                   ||       ||             ||       ||        ||      ||           || ||
+|| $T(\log(\sinh z) + \log(\cosh(z + w)))$                      ||       ||             ||       ||        ||      ||           || ||
+|| $T(\log(\frac{\sin x}{x}), x=0)$                             ||       ||             ||       ||        ||      ||           || ||
 
