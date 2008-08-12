@@ -1,10 +1,12 @@
 See also [:SymbolicBenchmarks: this other page].
 
-= The Symbolic Benchmark Suite =
+[[TableOfContents]]
+
+= The "Real World" Symbolic Benchmark Suite =
 
 The conditions for something to be listed here: (a) it must be resemble an ''actual'' computation somebody actually wanted to do in Sage, and (b) the question must be precisely formulated with Sage code that uses the Sage symbolics in a straightforward way (i.e., don't cleverly use number fields).   Do ''not'' post any "synthetic" benchmarks.  This page is supposed to be about nailing down exactly why people consider the sage symbolics at present "so slow as to be completely useless for anything but fast float". 
 
-Just to emphasize, some of these seem silly but they all come up when REAL USERS use Sage.
+Just to emphasize, some of these seem silly but they all come up when REAL USERS use Sage.  For synthetic benchmarks, see the second section below.
 
 == Problem 1 ==
 
@@ -62,3 +64,7 @@ sage: time Tuples(u,3).count()
 27
 Time: CPU 0.00 s, Wall: 0.00 s
 }}}
+
+= The Synthetic Symbolic Benchmark Suite =
+
+Here is where synthetic benchmarks go.  These are made up because you abstract think they are good benchmarks.  They don't have to come up in real world problems at all
