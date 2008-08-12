@@ -95,7 +95,11 @@ Time: CPU 0.08 s, Wall: 0.08 s
 Here is where synthetic benchmarks go.  These are made up because you abstract think they are good benchmarks.  They don't have to come up in real world problems.
 
 == Problem S1 ==
+We use only 7, since Sage's current symbolics are SO slow at this.
 {{{
-
-
+sage: var('x,y,z')
+sage: f = (x+y+z+1)^7
+sage: time g = expand(f*(f+1))
+///
+CPU time: 0.14 s,  Wall time: 2.76 s
 }}}
