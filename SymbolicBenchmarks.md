@@ -49,8 +49,7 @@
 || $\int_0^2\sqrt{x + \frac1x - 2}dx \rightarrow \frac{8-\sqrt8}3$||     ||             ||       ||        ||      ||           || ||
 || $A(a>0); \int_{-\infty}^\infty\frac{\cos x}{x^2+a^2}dx \rightarrow \frac\pi ae^{-a}$|| || ||  ||        ||      ||           || ||
 || $A(0 < a < 1); \int_0^\infty\frac{t^{a-1}}{t+1}dt \rightarrow \frac{\pi}{\sin(\pi a)}$|| || || ||       ||      ||           || ||
-|| $T(\frac1\sqrt{1-(x/c)^2},x=0)$                              ||       ||             ||       ||        ||      ||           || ||
+|| $T(\frac1{\sqrt{1-(x/c)^2}},x=0)$                              ||       ||             ||       ||        ||      ||           || ||
 || $T((\log x)^ae^{-bx},x=1)$                                   ||       ||             ||       ||        ||      ||           || ||
 || $T(\log(\sinh z) + \log(\cosh(z + w)))$                      ||       ||             ||       ||        ||      ||           || ||
 || $T(\log(\frac{\sin x}{x}), x=0)$                             ||       ||             ||       ||        ||      ||           || ||
-
