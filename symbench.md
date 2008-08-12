@@ -65,6 +65,31 @@ sage: time Tuples(u,3).count()
 Time: CPU 0.00 s, Wall: 0.00 s
 }}}
 
+== Problem R5 ==
+{{{
+def blowup(L,n):
+    for i in [0..n]:
+        L.append( (L[i] + L[i+1]) * L[i+2] )
+}}}
+
+{{{
+(x,y,z)=var('x,y,z')
+L = [x,y,z]
+blowup(L,8)
+time L=uniq(L)
+//
+Time: CPU 0.17 s, Wall: 0.68 s
+}}}
+
+{{{
+R.<x,y,z> = QQ[]
+L = [x,y,z]
+blowup(L,8)
+time L=uniq(L)
+//
+Time: CPU 0.08 s, Wall: 0.08 s
+}}}
+
 = The Synthetic Symbolic Benchmark Suite =
 
 Here is where synthetic benchmarks go.  These are made up because you abstract think they are good benchmarks.  They don't have to come up in real world problems.
