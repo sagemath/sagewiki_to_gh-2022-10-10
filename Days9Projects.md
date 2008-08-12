@@ -4,7 +4,7 @@ Please add your project to this list. Follow the examples that are already there
  * ''Mclean Edwards, Scott Zhou'': '''BFGS Iterates'''.  Plotting iterates, in an interactive manner, of the celebrated BFGS method applied to nonconvex and convex functions.  Comparison of sage, jyscript/piscript, and our own python-based solutions.
 
  * ''Jakub Marecek'': '''Toy Integer Programming Solver'''.  A very limited integer programming solver for instances with 3 variables, but complete with several primal heuristics in use today, and visualising the workings nicely. (Java & vtkHull?) 
-   Further ideas: '''SVG and PDF Output for JyScript'''. A quick hack using Apache Batik. '''TeX and PS and PDF Output for SAGE'''. A quick hack using [Sketch|http://www.frontiernet.net/~eugene.ressler/].
+   Further ideas: '''SVG and PDF Output for JyScript'''. A quick hack using Apache Batik. '''TeX and PS and PDF Output for SAGE'''. A quick hack using http://www.frontiernet.net/~eugene.ressler/
 
  * ''Aurel Meyer'': '''Symmetry groups of polytopes'''.  Graphics to illustrate that all symmetry groups of regular polytopes are finite Coxeter groups.
 
