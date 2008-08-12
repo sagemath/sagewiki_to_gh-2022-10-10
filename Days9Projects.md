@@ -14,4 +14,4 @@ Please add your project to this list. Follow the examples that are already there
  
  * ''Michael Lamoureux'': '''EasyBalls'''. A 2D animation of colliding balls, maybe with gravity, maybe with E&M if I can get the 3D in there.
 
- * ''Ryan Hoban'': '''Drawing in Hyperbolic Geometry'''. Using sage to draw geometric structures in the Hyperbolic plane.
+ * ''Ryan Hoban'': '''Hyperbolic Geometry'''. Using sage to draw geometric structures in the Hyperbolic plane.
