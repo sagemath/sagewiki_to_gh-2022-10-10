@@ -1,9 +1,13 @@
 See also [:SymbolicBenchmarks: this other page].
 
-= The Symbolic Benchmark Challenge Suite =
+= The Symbolic Benchmark Suite =
 
- 1. SETUP: Let $f = (x+y+z+1)^{15}$.   COMPUTATION: Compute all coefficients of all monomials of $f\cdot (f+1)$, i.e., expand that expression.  
+The conditions for something to be listed here: (a) it must be resemble an ''actual'' computation somebody actually wanted to do in Sage, and (b) the question must be precisely formulated with Sage code that uses the Sage symbolics in a straightforward way (i.e., don't cleverly use number fields). 
 
- 1. SETUP: Define a function $f(z) = \sqrt{1/3}\cdot z^2 + i/3$.  COMPUTATION: Compute the first 5 digits of the numerator of the real part of $f(f(f(...(f(i/2))...)$ iterated $10$ times. 
+== PROBLEM 1 == 
 
- 
+SETUP: Define a function $f(z) = \sqrt{1/3}\cdot z^2 + i/3$.  COMPUTATION: Compute the real part of $f(f(f(...(f(i/2))...)$ iterated $10$ times. 
+{{{
+def f(z): return sqrt(1/3)*z^2 + i/3
+timeit('real(f(f(f(f(f(f(f(f(f(f(i/2)))))))))))')
+}}}
