@@ -90,6 +90,16 @@ time L=uniq(L)
 Time: CPU 0.08 s, Wall: 0.08 s
 }}}
 
+== Problem R6 ==
+
+{{{
+sage: time sum(((x+sin(i))/x+(x-sin(i))/x).rational_simplify() for i in xrange(100))
+///
+200
+CPU time: 1.39 s,  Wall time: 8.65 s
+}}}
+
+
 = The Synthetic Symbolic Benchmark Suite =
 
 Here is where synthetic benchmarks go.  These are made up because you abstract think they are good benchmarks.  They don't have to come up in real world problems.
