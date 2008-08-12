@@ -4,7 +4,7 @@ goto [:interact:interact main page]
 
 [[TableOfContents]]
 
-== An Interactive Venn Diagram == 
+== An Interactive Venn Diagram ==
 
 {{{
 def f(s, braces=True): 
