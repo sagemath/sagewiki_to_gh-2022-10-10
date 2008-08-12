@@ -5,6 +5,7 @@
 ||<-2> Performance Key ||
 || $\times$ || wrong answer/cannot do the problem ||
 || $s\ sec/ms/\mu s$     || performs correctly in time $s$ ||
+|| $> s\ sec/ms/\mu s$   || does not finish in time $s$ ||
 || $>.<, s$ || performs correctly in time $s$, very difficult to convince system to do what you want ||
 
 || Problem || Maple || Mathematica || GiNaC || Maxima || Sage || Symbolics || Notes (such as code used/version etc.) ||
