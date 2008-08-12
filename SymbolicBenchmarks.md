@@ -6,7 +6,7 @@
 || $\times$ || wrong answer/cannot do the problem ||
 || $s\ sec/ms/\mu s$     || performs correctly in time $s$ ||
 || $> s\ sec/ms/\mu s$   || does not finish in time $s$ ||
-|| $>.<,s$ or $>.<,\times$ || very difficult to convince system to do what you want (regardless of performance) ||
+|| >.<,$s$ or >.<,$\times$ || very difficult to convince system to do what you want (regardless of performance) ||
 
 || Problem || Maple || Mathematica || GiNaC || Maxima || Sage || Symbolics || Notes (such as code used/version etc.) ||
 || $\sqrt{2\sqrt{3} + 4} \rightarrow 1 + \sqrt{3}$ || || || || || || || ||
