@@ -26,8 +26,7 @@ Please add your project to this list. Follow the examples that are already there
 
  * ''Michael Lamoureux'': '''EasyBalls'''. A 2D animation of colliding balls, maybe with gravity, maybe with E&M if I can get the 3D in there.
 
- * ''Jakub Marecek'': '''Toy Integer Programming Solver'''.  A very limited integer programming solver for instances with 3 variables, but complete with several primal heuristics in use today, and visualising the workings nicely. (Java & vtkHull?)
-  . Further ideas: '''SVG and PDF Output for JyScript'''. A quick hack using Apache Batik (http://xmlgraphics.apache.org/batik/). '''TeX and PS and PDF Output for SAGE'''. A quick hack using Sketch (http://www.frontiernet.net/~eugene.ressler/).
+ * ''Jakub Marecek'': '''Toy Integer Programming Solver'''.  A very limited integer programming solver for instances with 3 variables, but complete with several primal heuristics in use today, and visualising the workings nicely. See [http://wiki.sagemath.org/JakubMarecek here] for more.
 
  * ''Aurel Meyer'': '''Symmetry groups of polytopes'''.  Graphics to illustrate that all symmetry groups of regular polytopes are finite Coxeter groups.
 
