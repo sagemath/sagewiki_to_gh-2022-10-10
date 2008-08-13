@@ -22,3 +22,4 @@ Please add your project to this list. Follow the examples that are already there
         1. No two adjacent edges have the same color.
         2. Our coloring splits the set of edges of K_n into color classes; we require that every class has at least two members. 
         3. The coloring is minimal by inclusion. That is, if we delete any subset of vertices  of K_n (and any adjacent edges), then property 2 is violated - there will be at least one color class with one member.   
+ * ''Adrian Belshaw'': '''Unimodular Polynomials.''' Using Sage to draw unimodualr polynomials on the unit circle in the complex plane.
