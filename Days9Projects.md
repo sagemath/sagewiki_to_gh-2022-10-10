@@ -9,4 +9,7 @@ Please add your project to this list. Follow the examples that are already there
  * ''Steve Kieffer'': '''Algebra sketches'''. Tools with which to produce sketches of a kind often drawn on blackboards to illustrate algebraic structures.
  * ''Michael Lamoureux'': '''EasyBalls'''. A 2D animation of colliding balls, maybe with gravity, maybe with E&M if I can get the 3D in there.
  * ''Ryan Hoban'': '''Hyperbolic Geometry'''. Using sage to draw geometric structures in the Hyperbolic plane.
- * ''Sébastien Labbé'': '''Combinatorics on words'''. 1. Use colors and @interact of sage to study equations on words. 2. Use jyscript and jython to create a java applet to illustrate Christoffel words (http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=view&target=ChristoffelWord.py).
+ * ''Sébastien Labbé'': '''Combinatorics on words'''. 
+        1. Use colors and @interact of sage to study equations on words. 
+        2. Use jyscript and jython to create a java applet to illustrate Christoffel words 
+           (http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=view&target=ChristoffelWord.py).
