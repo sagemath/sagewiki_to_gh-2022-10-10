@@ -16,5 +16,17 @@ Please add your project to this list. Follow the examples that are already there
            [http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=view&target=ChristoffelWord.py ChristoffelWord.py]
         3. Add gridlines support for show() in sage. Franco Saliola improved *a lot* my initial patch by changing it all (!!) and added many options to make it work like in Matematica. See [http://trac.sagemath.org/sage_trac/ticket/3825 Ticket #3825]
  * ''Arnaud Bergeron'': '''Better adaptive plotting in Sage'''.  At William's request, I am working on better adaptive refinement for Sage's plot() command.
+
+---- /!\ '''Edit conflict - other version:''' ----
  * ''Avra Laarakker'': '''Properties of Digit Sets and Dilation Matrices using Sage'''. Given a dilation matrix A, and a digit set D, want to see visually if a tiling of Z^n is possible. 
  * ''Ignacio Rozada'': '''Python and PDE's.''' Solving and plotting numerical solutions to reaction-diffusion partial differential equations on growing domains; a comparison between scipy-matplotlib and matlab.
+
+---- /!\ '''Edit conflict - your version:''' ----
+ * ''Zhivko Nedev'': '''Encoding/Representing a class of combinatorial structures and making tools for their visualization and analysis'''. The comb. structure is a MINIMAL edge coloring of K_n, the complete graph, with the following properties:
+        1. No two adjacent edges have the same color.
+        2. Our coloring splits the set of edges of K_n into color classes; we require that every class has at least two members. 
+        3. The coloring is minimal by inclusion. That is, if we delete any subset of vertices  of K_n (and any adjacent edges), then property 2 is violated - there will be at least one color class with one member.   
+
+* ''Avra Laarakker'': '''Properties of Digit Sets and Dilation Matrices using Sage'''. Given a dilation matrix A, and a digit set D, want to see visually if a tiling of Z^n is possible. 
+
+---- /!\ '''End of edit conflict''' ----
