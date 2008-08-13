@@ -1,3 +1,5 @@
-I'm giving some talks at Sage Days 9 and will put stuff relevant to that here.
+I gave two talks on using graphics with LaTeX. The slides, in source and PDF format, are available here.
 
-attachment:listing.gz is a test attachment and you should ignore it.
+PDF of my first talk: attachment:graphics-talk-1.pdf
+
+LaTeX source (and images) of my first talk: attachment:sd9-talk-1.tar.gz
