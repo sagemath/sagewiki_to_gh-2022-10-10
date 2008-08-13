@@ -99,6 +99,17 @@ sage: time sum(((x+sin(i))/x+(x-sin(i))/x).rational_simplify() for i in xrange(1
 CPU time: 1.39 s,  Wall time: 8.65 s
 }}}
 
+== Problem R7 ==
+
+{{{
+sage: var('a b c')
+sage: eqn1 = a - exp((-pi*b)/sqrt(1-b)) == 0
+sage: eqn2 = c - atan(2*b*sqrt(1/(sqrt(4*b^4+1) - 2*b^2)))==0
+sage: solve([eqn1,eqn2,a==0.1975],b,c,a) 
+///
+[]
+}}}
+WRONG!
 
 = The Synthetic Symbolic Benchmark Suite =
 
