@@ -6,7 +6,7 @@ I work at the [http://kaist.ac.kr Korea Advanced Institute of Science and Techno
 
 I'm the main author of [http://tug.ctan.org/pkg/sagetex SageTeX], a LaTeX package that allows you to integrate Sage code into your documents. I am working on the next version and hope to have it out sometime this autumn.
 
-I'll be giving some talks at [:days9:Sage Days 9], and will put my slides, etc, at /Days9Talks.
+I'll be giving some talks at [:days9:Sage Days 9], and put my slides, etc, at /Days9Talks.
 
 My homepage is http://math.kaist.ac.kr/~drake.
 
