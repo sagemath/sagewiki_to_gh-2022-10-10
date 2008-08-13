@@ -100,18 +100,6 @@ CPU time: 1.39 s,  Wall time: 8.65 s
 }}}
 
 == Problem R7 ==
-
-{{{
-var('a b c')
-eqn1 = a - exp((-pi*b)/sqrt(1-b)) == 0
-eqn2 = c - atan(2*b*sqrt(1/(sqrt(4*b^4+1) - 2*b^2)))==0
-solve([eqn1,eqn2,a==1/8],b,c,a) 
-///
-[]
-}}}
-WRONG and LAME!  (This isn't exactly a "symbolic benchmark", but ...)
-
-== Problem R8 ==
 {{{
 var('x')
 f = x^24+34*x^12+45*x^3+9*x^18 +34*x^10+ 32*x^21
@@ -121,7 +109,7 @@ Time: CPU 11.92 s, Wall: 12.73 s
 }}}
 
 
-== Problem R9 ==
+== Problem R8 ==
 {{{
 def right(f,a,b,n):
    Deltax = (b-a)/n; c=a; est=0
@@ -137,7 +125,7 @@ Time: CPU 1.53 s, Wall: 1.57 s
 66676667/1600000
 }}}
 
-== Problem R10 ==
+== Problem R9 ==
 {{{
 var('x,y')
 time factor(x^20 - pi^5*y^20)
@@ -149,7 +137,26 @@ Time: CPU 0.02 s, Wall: 7.43 s
 Note that singular takes .05 seconds to do $x^{20} - w^5 y^{20}$, and one could use
 that.
 
-== Problem R11 ==
+
+= Sage Gets the Answer All Wrong =
+
+Examples where Sage is just blatantly wrong (often because of Maxima).
+
+
+== Problem W1 ==
+
+{{{
+var('a b c')
+eqn1 = a - exp((-pi*b)/sqrt(1-b)) == 0
+eqn2 = c - atan(2*b*sqrt(1/(sqrt(4*b^4+1) - 2*b^2)))==0
+solve([eqn1,eqn2,a==1/8],b,c,a) 
+///
+[]
+}}}
+WRONG and LAME!  This is because of a bug in Maxima.
+
+
+== Problem W2 ==
 This is related R10.  It's quick, but the output is WRONG, since if you replace pi by $2^{1/3}$ above you will get a 
 {{{
 var('x,y')
@@ -168,6 +175,7 @@ x^20 - 2*2^(2/3)*y^20
 }}}
 
 
+This is because of a bug in Maxima.
 
 
 = The Synthetic Symbolic Benchmark Suite =
