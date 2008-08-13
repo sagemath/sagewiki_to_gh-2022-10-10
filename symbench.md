@@ -23,6 +23,7 @@ Time: CPU 0.11 s, Wall: 0.34 s
 
 
 == Problem R2 ==
+Compute and evaluate a Hermite polynomial using the recurrence that defines it.
 
 {{{
 def hermite(n,y):
