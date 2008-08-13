@@ -14,4 +14,4 @@ Please add your project to this list. Follow the examples that are already there
            [http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=get&target=Equations_on_words_with_color.sws Equations_on_words_with_color.sws] (Next version of [http://code.google.com/p/sage-words/ sage-words package] needed to run it!!)
         2. Use jyscript and jython to create a java applet to illustrate Christoffel words
            [http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=view&target=ChristoffelWord.py ChristoffelWord.py]
- * ''Arnaud Bergeron'': ''Better adaptive plotting in Sage''.  At William's request, I am working on better adaptive refinement for Sage's plot() command.
+ * ''Arnaud Bergeron'': '''Better adaptive plotting in Sage'''.  At William's request, I am working on better adaptive refinement for Sage's plot() command.
