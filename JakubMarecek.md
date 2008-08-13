@@ -15,7 +15,7 @@ Using Java VTK Wrappers:
 
 SVG and PDF Output for JyScript.
 
- * This should be a quick hack using Apache Batik (http://xmlgraphics.apache.org/batik/).
+ * This should be a quick hack using Apache Batik (http://xmlgraphics.apache.org/batik/). Replace the standard Graphics2D with the Graphics2D from Batik to get PDF. 
 
 TeX and PS and PDF Output for SAGE plot3s
 
