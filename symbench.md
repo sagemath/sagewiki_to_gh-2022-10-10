@@ -1,4 +1,4 @@
-See also [:SymbolicBenchmarks: this other page].
+See also [:WesterBenchmarks: this other page], which lists some of Wester's benchmarks. We have already found one problem where Sage (by using Maxima) doesn't hold up to these standards of quality, at trac #3829.
 
 [[TableOfContents]]
 
