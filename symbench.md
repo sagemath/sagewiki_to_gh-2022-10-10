@@ -44,7 +44,7 @@ Time: CPU 0.59 s, Wall: 0.60 s
 {{{
 sage: var('x,y,z')
 sage: f = x+y+z
-sage: time for _ in range(10): a = bool(f==f)
+sage: time a = [bool(f==f) for _ in range(10)]
 //
 CPU time: 0.09 s,  Wall time: 0.52 s
 }}}
