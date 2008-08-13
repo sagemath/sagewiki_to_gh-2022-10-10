@@ -147,6 +147,8 @@ CPU times: user 0.44 s, sys: 0.12 s, total: 0.56 s
 Wall time: 5.58 s
 }}}
 
+[:/r10: Notes]
+
 
 = Sage Gets the Answer All Wrong =
 
