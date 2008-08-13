@@ -111,7 +111,7 @@ solve([eqn1,eqn2,a==1/8],b,c,a)
 }}}
 WRONG and LAME!  (This isn't exactly a "symbolic benchmark", but ...)
 
-== PROBLEM R8 ==
+== Problem R8 ==
 {{{
 var('x')
 f = x^24+34*x^12+45*x^3+9*x^18 +34*x^10+ 32*x^21
@@ -119,6 +119,7 @@ time a = [f(random()) for _ in xrange(10^4)]
 ///
 Time: CPU 11.92 s, Wall: 12.73 s
 }}}
+
 
 
 = The Synthetic Symbolic Benchmark Suite =
