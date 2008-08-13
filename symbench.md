@@ -93,7 +93,7 @@ Time: CPU 0.08 s, Wall: 0.08 s
 == Problem R6 ==
 
 {{{
-sage: time sum(((x+sin(i))/x+(x-sin(i))/x).rational_simplify() for i in xrange(100))
+time sum(((x+sin(i))/x+(x-sin(i))/x).rational_simplify() for i in xrange(100))
 ///
 200
 CPU time: 1.39 s,  Wall time: 8.65 s
@@ -102,14 +102,24 @@ CPU time: 1.39 s,  Wall time: 8.65 s
 == Problem R7 ==
 
 {{{
-sage: var('a b c')
-sage: eqn1 = a - exp((-pi*b)/sqrt(1-b)) == 0
-sage: eqn2 = c - atan(2*b*sqrt(1/(sqrt(4*b^4+1) - 2*b^2)))==0
-sage: solve([eqn1,eqn2,a==0.1975],b,c,a) 
+var('a b c')
+eqn1 = a - exp((-pi*b)/sqrt(1-b)) == 0
+eqn2 = c - atan(2*b*sqrt(1/(sqrt(4*b^4+1) - 2*b^2)))==0
+solve([eqn1,eqn2,a==1/8],b,c,a) 
 ///
 []
 }}}
-WRONG!
+WRONG and LAME!  (This isn't exactly a "symbolic benchmark", but ...)
+
+== PROBLEM R8 ==
+{{{
+var('x')
+f = x^24+34*x^12+45*x^3+9*x^18 +34*x^10+ 32*x^21
+time a = [f(random()) for _ in xrange(10^4)]
+///
+Time: CPU 11.92 s, Wall: 12.73 s
+}}}
+
 
 = The Synthetic Symbolic Benchmark Suite =
 
