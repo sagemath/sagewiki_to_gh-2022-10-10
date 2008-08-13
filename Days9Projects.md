@@ -7,6 +7,8 @@ Please add your project to this list. Follow the examples that are already there
 
  * ''Mclean Edwards, Scott Zhou'': '''BFGS Iterates'''.  Plotting iterates, in an interactive manner, of the celebrated BFGS method for the minimization of nonconvex and convex functions.  Comparison of sage, jyscript/piscript, and our own python-based solutions.
 
+ * ''Adam Getchell'': '''Nonlinear Dynamics in SAGE'''. Illustrate and solve solutions to non-linear equations. Add basic cobweb diagrams. Wrap Maxima's CTensor package and compare speed with SAGE's Christoffel symbol calculation in calculus/tests.py.  
+
  * ''Yair Go1dberg'': '''3D Graphing in PiScript'''. Plotting 3 dimensional functions in PiScript.
 
  * ''Ryan Hoban'': '''Hyperbolic Geometry'''. Using sage to draw geometric structures in the Hyperbolic plane.
@@ -33,6 +35,5 @@ Please add your project to this list. Follow the examples that are already there
         1. No two adjacent edges have the same color.
         2. Our coloring splits the set of edges of K_n into color classes; we require that every class has at least two members. 
         3. The coloring is minimal by inclusion. That is, if we delete any subset of vertices  of K_n (and any adjacent edges), then property 2 is violated - there will be at least one color class with one member. 
- * ''Adam Getchell'': '''Nonlinear Dynamics in SAGE'''. Illustrate and solve solutions to non-linear equations. Add basic cobweb diagrams. Wrap Maxima's CTensor package and compare speed with SAGE's Christoffel symbol calculation in calculus/tests.py.  
 
- * ''Ignacio Rozada'': '''Python and PDE's.''' Solving and plotting numerical solutions to reaction-diffusion partial differential equations on growing domains; a comparison between scipy-matplotlib and matlab. * ''Adrian Belshaw'': '''Unimodular Polynomials.''' Using Sage to draw unimodualr polynomials on the unit circle in the complex plane.
+ * ''Ignacio Rozada'': '''Python and PDE's.''' Solving and plotting numerical solutions to reaction-diffusion partial differential equations on growing domains; a comparison between scipy-matplotlib and matlab.
