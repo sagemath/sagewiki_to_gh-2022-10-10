@@ -53,5 +53,3 @@ public class Demo extends Applet {
 TeX and PS and PDF Output for SAGE plot3s
 
  * This could perhaps be done using Sketch (http://www.frontiernet.net/~eugene.ressler/). It implements the painter's algorithm (z-buffering), and hence it should be just the output of triangles in the right format it takes.
-----
- . CategoryHomepage
