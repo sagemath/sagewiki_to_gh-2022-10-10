@@ -42,25 +42,25 @@ Time: CPU 0.59 s, Wall: 0.60 s
 
 == Problem R3 ==
 {{{
-sage: var('x,y,z')
-sage: f = x+y+z
-sage: time a = [bool(f==f) for _ in range(10)]
+var('x,y,z')
+f = x+y+z
+time a = [bool(f==f) for _ in range(10)]
 //
 CPU time: 0.09 s,  Wall time: 0.52 s
 }}}
 
 == Problem R4 ==
 {{{
-sage: u=[e,pi,sqrt(2)]
-sage: time Tuples(u,3).count()
+u = [e, pi, sqrt(2)]
+time Tuples(u,3).count()
 //
 27
 Time: CPU 0.23 s, Wall: 1.55 s
 }}}
 For comparison, see what happens with integers.
 {{{
-sage: u=[1,2,3]
-sage: time Tuples(u,3).count()
+u = [1,2,3]
+time Tuples(u,3).count()
 27
 Time: CPU 0.00 s, Wall: 0.00 s
 }}}
