@@ -21,5 +21,6 @@ Please add your project to this list. Follow the examples that are already there
  * ''Zhivko Nedev'': '''Encoding/Representing a class of combinatorial structures and making tools for their visualization and analysis'''. The comb. structure is a MINIMAL edge coloring of K_n, the complete graph, with the following properties:
         1. No two adjacent edges have the same color.
         2. Our coloring splits the set of edges of K_n into color classes; we require that every class has at least two members. 
-        3. The coloring is minimal by inclusion. That is, if we delete any subset of vertices  of K_n (and any adjacent edges), then property 2 is violated - there will be at least one color class with one member.   
+        3. The coloring is minimal by inclusion. That is, if we delete any subset of vertices  of K_n (and any adjacent edges), then property 2 is violated - there will be at least one color class with one member. 
+ * ''Adam Getchell'':'''Nonlinear Dynamics in SAGE'''. Illustrate and solve solutions to non-linear equations. Add basic cobweb diagrams support. Wrap Maxima's CTensor package and compare speed with SAGE's Christoffel symbol calculation in calculus/tests.py  
  * ''Adrian Belshaw'': '''Unimodular Polynomials.''' Using Sage to draw unimodualr polynomials on the unit circle in the complex plane.
