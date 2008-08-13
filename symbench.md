@@ -137,6 +137,38 @@ Time: CPU 1.53 s, Wall: 1.57 s
 66676667/1600000
 }}}
 
+== Problem R10 ==
+{{{
+var('x,y')
+time factor(x^20 - pi^5*y^20)
+///
+-(pi*y^4 - x^4)*(pi^4*y^16 + pi^3*x^4*y^12 + pi^2*x^8*y^8 + pi*x^12*y^4 + x^16)
+Time: CPU 0.02 s, Wall: 7.43 s
+}}}
+
+Note that singular takes .05 seconds to do $x^{20} - w^5 y^{20}$, and one could use
+that.
+
+== Problem R11 ==
+This is related R10.  It's quick, but the output is WRONG, since if you replace pi by $2^(1/3)$ above you will get a 
+{{{
+var('x,y')
+time factor(x^20 - (2^(1/3))^5*y^20)
+///
+-(2*2^(2/3)*y^20 - x^20)
+Time: CPU 0.02 s, Wall: 0.12 s
+}}}
+
+Observe that
+
+{{{
+w = (2^(1/3))
+expand(-(w*y^4 - x^4)*(w^4*y^16 + w^3*x^4*y^12 + w^2*x^8*y^8 + w*x^12*y^4 + x^16))
+///
+x^20 - 2*2^(2/3)*y^20
+}}}
+
+
 = The Synthetic Symbolic Benchmark Suite =
 
 Here is where synthetic benchmarks go.  These are made up because you abstract think they are good benchmarks.  They don't have to come up in real world problems.
