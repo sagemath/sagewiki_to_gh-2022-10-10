@@ -150,7 +150,7 @@ Note that singular takes .05 seconds to do $x^{20} - w^5 y^{20}$, and one could 
 that.
 
 == Problem R11 ==
-This is related R10.  It's quick, but the output is WRONG, since if you replace pi by $2^(1/3)$ above you will get a 
+This is related R10.  It's quick, but the output is WRONG, since if you replace pi by $2^{1/3}$ above you will get a 
 {{{
 var('x,y')
 time factor(x^20 - (2^(1/3))^5*y^20)
@@ -160,13 +160,14 @@ Time: CPU 0.02 s, Wall: 0.12 s
 }}}
 
 Observe that
-
 {{{
 w = (2^(1/3))
 expand(-(w*y^4 - x^4)*(w^4*y^16 + w^3*x^4*y^12 + w^2*x^8*y^8 + w*x^12*y^4 + x^16))
 ///
 x^20 - 2*2^(2/3)*y^20
 }}}
+
+
 
 
 = The Synthetic Symbolic Benchmark Suite =
