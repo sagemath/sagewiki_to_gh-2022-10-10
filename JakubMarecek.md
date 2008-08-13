@@ -17,6 +17,103 @@ SVG and PDF Output for JyScript.
 
  * This should be a quick hack using Apache Batik (http://xmlgraphics.apache.org/batik/). Replace the standard Graphics2D with the Graphics2D from Batik to get SVG export. 
 
+import org.w3c.dom.*;
+
+import org.w3c.dom.Element;
+
+import org.w3c.dom.DOMImplementation;
+
+import org.w3c.dom.svg.*;
+
+import org.w3c.dom.svg.SVGDocument;
+
+
+
+import org.apache.batik.swing.*;
+
+import org.apache.batik.swing.JSVGCanvas;
+
+import org.apache.batik.svggen.*;
+
+import org.apache.batik.svggen.SVGGraphics2D;
+
+import org.apache.batik.dom.svg.SVGDOMImplementation;
+
+import org.apache.batik.transcoder.TranscoderInput;
+
+import org.apache.batik.transcoder.TranscoderOutput;
+
+import org.apache.batik.transcoder.*;
+
+import org.apache.fop.svg.PDFTranscoder;
+
+
+
+
+public class Demo extends Applet {
+
+
+  /* ... */
+
+
+  public static void export() {
+
+    DOMImplementation impl = SVGDOMImplementation.getDOMImplementation();
+
+    String svgNS = SVGDOMImplementation.SVG_NAMESPACE_URI;
+
+    SVGDocument doc = (SVGDocument)impl.createDocument(svgNS, "svg", null);
+
+
+
+    SVGGraphics2D g = new SVGGraphics2D(doc);
+
+    
+    /* Here use g as if it was the usual canvas */
+
+
+    Element root = doc.getDocumentElement();
+
+    g.getRoot(root);
+
+
+
+    JSVGCanvas canvas = new JSVGCanvas();
+
+    JFrame f = new JFrame();
+
+    f.getContentPane().add(canvas);
+
+    canvas.setSVGDocument(doc);
+
+    f.pack();
+
+    f.setVisible(true);
+
+
+
+    try {
+
+      PDFTranscoder pdfTranscoder = new PDFTranscoder();
+
+      TranscoderInput tIn = new TranscoderInput(doc);
+
+      FileOutputStream fileOut = new FileOutputStream("test.pdf");
+
+      TranscoderOutput tOut = new TranscoderOutput(fileOut);
+
+      pdfTranscoder.transcode(tIn, tOut);
+
+      fileOut.flush();
+
+      fileOut.close();
+
+    } catch(Exception e) {e.printStackTrace();}
+
+  }
+
+
+
 TeX and PS and PDF Output for SAGE plot3s
 
  * This could perhaps be done using Sketch (http://www.frontiernet.net/~eugene.ressler/). It implements the painter's algorithm (z-buffering), and hence it should be just the output of triangles in the right format it takes.
