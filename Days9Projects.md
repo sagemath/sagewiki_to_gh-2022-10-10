@@ -16,3 +16,4 @@ Please add your project to this list. Follow the examples that are already there
            [http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=view&target=ChristoffelWord.py ChristoffelWord.py]
         3. Add gridlines support for show() in sage. Franco Saliola improved *a lot* my initial patch by changing it all (!!) and added many options to make it work like in Matematica. See [http://trac.sagemath.org/sage_trac/ticket/3825 Ticket #3825]
  * ''Arnaud Bergeron'': '''Better adaptive plotting in Sage'''.  At William's request, I am working on better adaptive refinement for Sage's plot() command.
+* ''Avra Laarakker'': '''Properties of Digit Sets and Dilation Matrices using Sage'''. Given a dilation matrix A, and a digit set D, want to see visually if a tiling of Z^n is possible. 
