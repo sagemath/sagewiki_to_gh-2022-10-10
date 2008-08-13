@@ -11,6 +11,6 @@ Please add your project to this list. Follow the examples that are already there
  * ''Ryan Hoban'': '''Hyperbolic Geometry'''. Using sage to draw geometric structures in the Hyperbolic plane.
  * ''Sébastien Labbé'': '''Combinatorics on words'''. 
         1. Use colors and @interact of sage to study equations on words.
-           [http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=get&target=Equations_on_words_with_color.sws Equations_on_words_with_color.sws] (The [http://code.google.com/p/sage-words/ sage-words package] is needed to run the precedent sage worksheet.)
+           [http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=get&target=Equations_on_words_with_color.sws Equations_on_words_with_color.sws] (Next version of [http://code.google.com/p/sage-words/ sage-words package] needed !!)
         2. Use jyscript and jython to create a java applet to illustrate Christoffel words 
            [http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=view&target=ChristoffelWord.py ChristoffelWord.py]
