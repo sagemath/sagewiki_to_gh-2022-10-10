@@ -138,6 +138,15 @@ Time: CPU 0.02 s, Wall: 7.43 s
 Note that singular takes .05 seconds to do $x^{20} - w^5 y^{20}$, and one could use
 that.
 
+== Problem R10 ==
+Create a list of the equally spaced symbolic values between $-\pi$ and $\pi$.  This is incredibly slow in Sage right now.  The wall time below is what matters:
+{{{
+sage: time v = [-pi,-pi+1/10..,pi]
+///
+CPU times: user 0.44 s, sys: 0.12 s, total: 0.56 s
+Wall time: 5.58 s
+}}}
+
 
 = Sage Gets the Answer All Wrong =
 
