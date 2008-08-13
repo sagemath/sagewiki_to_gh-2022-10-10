@@ -35,7 +35,9 @@ public class Demo extends Applet {
    SVGDocument doc = (SVGDocument)impl.createDocument(svgNS, "svg", null);
    SVGGraphics2D g = new SVGGraphics2D(doc); 
 
-   /* Here use g as if it was the usual canvas */ 
+   /* Here use can use g as if it was the usual canvas */ 
+
+   /* Here we make it visible */ 
 
    Element root = doc.getDocumentElement(); 
    g.getRoot(root); 
