@@ -121,6 +121,21 @@ Time: CPU 11.92 s, Wall: 12.73 s
 }}}
 
 
+== Problem R9 ==
+{{{
+def right(f,a,b,n):
+   Deltax = (b-a)/n; c=a; est=0
+   for i in range(n):
+       c += Deltax
+       est += f(c)
+   return est*Deltax
+
+var('x')
+time right(x^2,0,5,10^4)
+///
+Time: CPU 1.53 s, Wall: 1.57 s
+66676667/1600000
+}}}
 
 = The Synthetic Symbolic Benchmark Suite =
 
