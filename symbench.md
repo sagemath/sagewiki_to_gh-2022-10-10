@@ -229,6 +229,9 @@ z^8)^3
 
 # explodes:
 print p.coefficients(z) 
+
+TypeError: Error executing code in Maxima
+Maxima encountered a Lisp error:
 }}}
 
 = The Synthetic Symbolic Benchmark Suite =
