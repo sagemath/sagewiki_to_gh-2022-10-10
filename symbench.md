@@ -201,7 +201,7 @@ x^20 - 2*2^(2/3)*y^20
 This is because of a bug in Maxima.
 
 == Problem W3 ==
-The first example of simplifying in the ginac manual (on page 10) remarks that Ginac isn't so stupid as to simplify $\cos(\acos(x))$ to $x$.  Well Sage is stupid does (unlike Mathematica).  This is bad, since then $42\pi = 0$.  
+The first example of simplifying in the ginac manual (on page 10) remarks that Ginac isn't so stupid as to simplify $\cos(\arccos(x))$ to $x$.  Well Sage is stupid does (unlike Mathematica).  This is bad, since then $42\pi = 0$.  
 
 {{{
 sage: acos(cos(x))
