@@ -5,6 +5,8 @@ Please add your project to this list. Follow the examples that are already there
 
  * ''Arnaud Bergeron'': '''Better adaptive plotting in Sage'''.  At William's request, I am working on better adaptive refinement for Sage's plot() command.
 
+ * ''Drew Chorney'': '''Fundamental Domains of Congruence Subgroups and an Animation of a Geodesic :'''Some Geodesic's on the identification space of a fundamental domain for PSL(2,Z) in jyscript. And visualization of fundamental domains for congruence subgroups using SAGE.  
+
  * ''Mclean Edwards, Scott Zhou'': '''BFGS Iterates'''.  Plotting iterates, in an interactive manner, of the celebrated BFGS method for the minimization of nonconvex and convex functions.  Comparison of sage, jyscript/piscript, and our own python-based solutions.
 
  * ''Adam Getchell'': '''Nonlinear Dynamics in SAGE'''. Illustrate and solve solutions to non-linear equations. Add basic cobweb diagrams. Wrap Maxima's CTensor package and compare speed with SAGE's Christoffel symbol calculation in calculus/tests.py.  
@@ -35,10 +37,8 @@ Please add your project to this list. Follow the examples that are already there
         2. Our coloring splits the set of edges of K_n into color classes; we require that every class has at least two members. 
         3. The coloring is minimal by inclusion. That is, if we delete any subset of vertices  of K_n (and any adjacent edges), then property 2 is violated - there will be at least one color class with one member. 
 
- * ''Ignacio Rozada'': '''Python and PDE's.''' Solving and plotting numerical solutions to reaction-diffusion partial differential equations on growing domains; a comparison between scipy-matplotlib and matlab.
-
  * ''Olesya Peshko'': '''Intensity-based Image Segmentation Tool''' A simple segmentation tool which shows regions of the image (represented by a 2D or 3D matrix of pixel/voxel intensity values) in different colours for easy visualization of the structures shown in the image. 
 
- * ''Drew Chorney": '''Fundamental Domains of Congruence Subgroups and an Animation of a Geodesic :'''Some Geodesic's on the identification space of a fundamental domain for PSL(2,Z) in jyscript. And visualization of fundamental domains for congruence subgroups using SAGE.  
+ * ''Ignacio Rozada'': '''Python and PDE's.''' Solving and plotting numerical solutions to reaction-diffusion partial differential equations on growing domains; a comparison between scipy-matplotlib and matlab.
 
- * ''Véronique Sangin-Gagnon": '''Triangle Hyperbolic Group''' Graphics that show the representation of a hyperbolic group. 
+ * ''Véronique Sangin-Gagnon'': '''Triangle Hyperbolic Group''' Graphics that show the representation of a hyperbolic group. 
