@@ -139,6 +139,7 @@ Note that singular takes .05 seconds to do $x^{20} - w^5 y^{20}$, and one could 
 that.
 
 == Problem R10 ==
+
 Create a list of the equally spaced symbolic values between $-\pi$ and $\pi$.  This is incredibly slow in Sage right now.  The wall time below is what matters:
 {{{
 sage: time v = [-pi,-pi+1/10..,pi]
@@ -149,7 +150,8 @@ Wall time: 5.58 s
 
 [:/r10: Notes]
 
-== Problem R11 == 
+== Problem R11 ==
+
 This came up when a user was computed zeros of the derivative of the Riemann zeta function.  They fortunately didn't conclude that Sage is completely useless.
 {{{
 sage: a = [random() + random()*I for w in [0..1000]]
