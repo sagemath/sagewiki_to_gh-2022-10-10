@@ -1,6 +1,8 @@
-I gave two talks on using graphics with LaTeX. The slides, in source and PDF format, are available here.PDF of my first talk: attachment:graphics-talk-1.pdf , and LaTeX source (and images) of my first talk: attachment:sd9-talk-1.tar.gz
+I gave two talks on using graphics with LaTeX. The slides, in source and PDF format, are available here. PDF of my first talk: attachment:graphics-talk-1.pdf, and LaTeX source (and images) of my first talk: attachment:sd9-talk-1.tar.gz.
 
-One warning: you really need PGF/TikZ version 2.00 to compile the slides. Right now, TeXShop doesn't include this, and nor does Ubuntu. I have no idea what the state of affairs is with Windows. To fix this in OS X:
+PDF of the second talk: attachment:graphics-talk-2.pdf and source file: attachment:graphics-talk-2.tex.
+
+One warning: you really need PGF/TikZ version 2.00 to compile the slides from the first talk. Right now, TeXShop doesn't include this, and nor does Ubuntu. I have no idea what the state of affairs is with Windows. To fix this in OS X:
 
  * download [http://sourceforge.net/projects/pgf/ PGF]
  * extract the package. You get a directory `pgf-2.00`
