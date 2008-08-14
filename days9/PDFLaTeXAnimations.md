@@ -21,9 +21,10 @@ The following LaTeX file now does the trick (let's call the file gamma.tex)
 \begin{frame}
     \frametitle{Bill's character rotations}
     \begin{center}
-        % Set frame rate to 12 frames/sec. Load frames from setanim.pdf.
-        % We will use all frames, so there is no need to specify a start
-        % and end frame.
+        % Set frame rate to 20 frames/sec
+        % We use frames 1 through 71. The file really has 72 frames, but the last is
+        % identical to the first, which causes a hiccup in the looped animation.
+        % See the animate manual for further options. 
         \animategraphics[autoplay,loop,controls]{20}{c3d}{1}{71}
     \end{center}
 \end{frame}
@@ -33,4 +34,4 @@ After making sure we have {{{animate}}} installed, we run
 {{{
 pdflatex gamma.tex
 }}}
-and the resulting file {{{gamma.pdf}}} does the trick when viewed with {{{acroread}}}
+and the resulting file [attachment:gamma.pdf gamma.pdf] does the trick when viewed with {{{acroread}}}.
