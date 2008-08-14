@@ -149,6 +149,15 @@ Wall time: 5.58 s
 
 [:/r10: Notes]
 
+== Problem R11 == 
+This came up when a user was computed zeros of the derivative of the Riemann zeta function.  They fortunately didn't conclude that Sage is completely useless.
+{{{
+sage: a = [random() + random()*I for w in [0..1000]]
+///
+sage: time a.sort()
+CPU time: 9.83 s,  Wall time: 28.08 s
+}}}
+
 
 = Sage Gets the Answer All Wrong =
 
