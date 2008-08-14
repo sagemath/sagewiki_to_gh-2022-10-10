@@ -39,4 +39,4 @@ Please add your project to this list. Follow the examples that are already there
 
  * ''Olesya Peshko'': '''Intensity-based Image Segmentation Tool''' A simple segmentation tool which shows regions of the image (represented by a 2D or 3D matrix of pixel/voxel intensity values) in different colours for easy visualization of the structures shown in the image. 
 
- * ''Drew Chorney": '''Geodesics on Identification Spaces of some Fundamental Domains:''' Looking at geodesics on identification spaces of fundamental domain's of PSL(2,Z) and congruence subgroups. Making animations in jyscript to see the geodesics moving along in the region.
+ * ''Drew Chorney": '''Fundamental Domains of Congruence Subgroups and an Animation of a Geodesic :'''Some Geodesic's on the identification space of a fundamental domain for PSL(2,Z) in jyscript. And visualization of fundamental domains for congruence subgroups using SAGE.  
