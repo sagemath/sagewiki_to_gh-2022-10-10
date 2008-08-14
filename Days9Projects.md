@@ -41,4 +41,4 @@ Please add your project to this list. Follow the examples that are already there
 
  * ''Drew Chorney": '''Fundamental Domains of Congruence Subgroups and an Animation of a Geodesic :'''Some Geodesic's on the identification space of a fundamental domain for PSL(2,Z) in jyscript. And visualization of fundamental domains for congruence subgroups using SAGE.  
 
- * ''Véronique Sangin-Gagnon": '''Triangle Hyperbolic Group'''Graphics that show the representation of a hyperbolic group. 
+ * ''Véronique Sangin-Gagnon": '''Triangle Hyperbolic Group''' Graphics that show the representation of a hyperbolic group. 
