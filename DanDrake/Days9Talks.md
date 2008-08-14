@@ -13,3 +13,5 @@ In Ubuntu, it's almost the same thing, but create a directory `/usr/local/share/
 In Windows you are on your own. 
 
 This all seems very complicated, and it is because (1) a complete TeX system relies on tens of thousands of files, and (2) the system for finding the right file dates to the 80's.
+
+[Nils Bruin] There is actually an easy way of putting animations in pdf-presentations created by LaTeX. See the [:days9/PDFLaTeXAnimations: LaTeX animations] page.
