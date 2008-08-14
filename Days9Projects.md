@@ -36,3 +36,5 @@ Please add your project to this list. Follow the examples that are already there
         3. The coloring is minimal by inclusion. That is, if we delete any subset of vertices  of K_n (and any adjacent edges), then property 2 is violated - there will be at least one color class with one member. 
 
  * ''Ignacio Rozada'': '''Python and PDE's.''' Solving and plotting numerical solutions to reaction-diffusion partial differential equations on growing domains; a comparison between scipy-matplotlib and matlab.
+
+ * ''Olesya Peshko'': '''Intensity-based Image Segmentation Tool''' A simple segmentation tool which shows regions of the image (represented by a 2D or 3D matrix of pixel/voxel intensity values) in different colours for easy visualization of the structures shown in the image. 
