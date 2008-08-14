@@ -216,6 +216,20 @@ sage: mathematica.eval('ArcCos[Cos[x]]')
 
 This is because of a bug in Maxima.
 
+== Problem W4 ==
+
+{{{
+sage: var("C_1_0 C_2_0 C_3_0 C_4_0 C_4_1 C_4_2 C_4_3 C_4_4 D_1_0 D_2_0 D_3_0
+D_3_1 D_3_2 D_3_3 D_3_4 D_3_5 D_3_6 D_3_7 gamma z")
+
+sage: p = C_1_0*C_2_0^2*C_3_0^3*(z^4*C_4_4 + z^3*C_4_3 + z^2*C_4_2 + z*C_4_1
++ C_4_0 + z^5)^4*gamma^4 - D_1_0*D_2_0^2*(z^7*D_3_7 + z^6*D_3_6 +
+z^5*D_3_5 + z^4*D_3_4 + z^3*D_3_3 + z^2*D_3_2 + z*D_3_1 + D_3_0 +
+z^8)^3
+
+# explodes:
+print p.coefficients(z) 
+}}}
 
 = The Synthetic Symbolic Benchmark Suite =
 
