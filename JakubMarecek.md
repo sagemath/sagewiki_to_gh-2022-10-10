@@ -7,9 +7,9 @@ My personal homepage proper is at http://cs.nott.ac.uk/~jxm. This is just SAGE D
 
  My goal was to present the workings of an integer programming solver in an interactive Java Web Start. This proved, however, rather difficult. First, it's difficult to get Java (and the more Java Web Start) applications to run with VTK. Second, VTK crashes the JVM when I render anything but the most trivial polyhedra.
 
-attachment:Screenshot01.jpg
+ attachment:Screenshot01.jpg
 
-attachment:Screenshot02.jpg
+ attachment:Screenshot02.jpg
 
 '''Installing VTK with Java Wrappers: '''
 
