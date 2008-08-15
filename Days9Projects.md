@@ -42,3 +42,5 @@ Please add your project to this list. Follow the examples that are already there
  * ''Ignacio Rozada'': '''Python and PDE's.''' Solving and plotting numerical solutions to reaction-diffusion partial differential equations on growing domains; a comparison between scipy-matplotlib and matlab.
 
  * ''Véronique Sangin-Gagnon'': '''Triangle Hyperbolic Group''' Graphics that show the representation of a hyperbolic group. 
+
+ * ''Matthew Stamps'': '''Topological Methods for Determining Graph Colourablility''' Graph colouring problems are, in general, very difficult and often require a wide variety of mathematical techniques to solve.  A number of topological methods for bounding the chromatic number of a graph have been developed over the last 30 years.  I will introduce one such approach with the help of an interactive graph editor I developed in PiScript/JyScript this week.
