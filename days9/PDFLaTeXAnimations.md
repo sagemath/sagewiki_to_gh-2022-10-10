@@ -34,4 +34,4 @@ After making sure we have {{{animate}}} installed, we run
 {{{
 pdflatex gamma.tex
 }}}
-and the resulting file [attachment:gamma.pdf gamma.pdf] does the trick when viewed with {{{acroread}}}.
+and the resulting file [attachment:gamma.pdf gamma.pdf] produces a nice animation when viewed with {{{acroread}}}.
