@@ -11,6 +11,11 @@ My personal homepage proper is at http://cs.nott.ac.uk/~jxm. This is just SAGE D
 
  attachment:Screenshot02.jpg
 
+ I am afraid that the lesson it VTK is no good in Java, if anywhere. If you wanted to play with this, feel free to:
+
+ attachment:toy-ip-0.1.1-bin.zip
+ attachment:toy-ip-0.1.1-src.zip
+
 '''Installing VTK with Java Wrappers: '''
 
  * Download VTK sources and ccmake.
