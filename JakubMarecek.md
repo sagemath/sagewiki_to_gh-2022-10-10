@@ -60,3 +60,29 @@ public class Demo extends Applet {
 '''TeX and PS and PDF Output for SAGE plot3s '''
 
  * This could perhaps be done using Sketch (http://www.frontiernet.net/~eugene.ressler/). It implements the painter's algorithm (z-buffering) with polygon splitting, and hence it should be just the output of triangles in the right format it takes. Nils (http://www.cecm.sfu.ca/~nbruin) now got that to work, sortof:
+
+  https://hydrogen.irmacs.sfu.ca:8000/home/pub/8/
+
+{{{     	
+P.triangulate()
+vl=P.vertex_list()
+fl=P.face_list() 
+import os         	
+F=open("a.sk","w")
+F.write("def mymy {\n")
+for a in fl:
+  F.write('  polygon')
+  F.write(''.join(['('+str(p[0])+','+str(p[1])+','+str(p[2])+')' for p in a]))
+  F.write('\n')
+  a.reverse()
+  F.write('  polygon')
+  F.write(''.join(['('+str(p[0])+','+str(p[1])+','+str(p[2])+')' for p in a]))
+  F.write('\n')
+  F.write("}\n")
+  F.write("put { view((2,2.5,2)) } {mymy}\n")
+  F.close()
+os.system("/localhome/sage/bin/sketch -V1.0 -T a.sk -o a.tex")
+os.system("latex a.tex >/dev/null")
+os.system("dvips a.dvi -o >/dev/null")
+os.system("convert a.ps a.png") 
+}}}
