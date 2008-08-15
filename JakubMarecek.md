@@ -5,7 +5,7 @@ My personal homepage proper is at http://cs.nott.ac.uk/~jxm. This is just SAGE D
 
 '''Graphical Demo of Integer Programming: '''
 
-My goal was to present the workings of a :
+My goal was to present the workings of an integer programming solver in an interactive Java Web Start.
 
 attachment:Screenshot01.jpg
 
