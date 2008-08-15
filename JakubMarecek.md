@@ -5,7 +5,7 @@ My personal homepage proper is at http://cs.nott.ac.uk/~jxm. This is just SAGE D
 
 '''Graphical Demo of Integer Programming: '''
 
-My goal was to present the workings of an integer programming solver in an interactive Java Web Start. This proved, however, rather difficult. First, it's difficult to get Java (and the more Java Web Start) applications to run with VTK. Second, VTK crashes the JVM when I render anything but the most trivial polyhedra.
+ My goal was to present the workings of an integer programming solver in an interactive Java Web Start. This proved, however, rather difficult. First, it's difficult to get Java (and the more Java Web Start) applications to run with VTK. Second, VTK crashes the JVM when I render anything but the most trivial polyhedra.
 
 attachment:Screenshot01.jpg
 
@@ -60,12 +60,11 @@ public class Demo extends Applet {
 '''TeX and PS and PDF Output for SAGE plot3ds '''
 
  * This could perhaps be done using Sketch (http://www.frontiernet.net/~eugene.ressler/). It implements the painter's algorithm (z-buffering) with polygon splitting, and hence it should be just the output of triangles in the right format it takes. Nils (http://www.cecm.sfu.ca/~nbruin) now got that to work, sortof:
-
-{{{     	
+{{{
 P.triangulate()
 vl=P.vertex_list()
-fl=P.face_list() 
-import os         	
+fl=P.face_list()
+import os
 F=open("a.sk","w")
 F.write("def mymy {\n")
 for a in fl:
@@ -82,7 +81,6 @@ for a in fl:
 os.system("/localhome/sage/bin/sketch -V1.0 -T a.sk -o a.tex")
 os.system("latex a.tex >/dev/null")
 os.system("dvips a.dvi -o >/dev/null")
-os.system("convert a.ps a.png") 
+os.system("convert a.ps a.png")
 }}}
-
-See this for yourself at [https://hydrogen.irmacs.sfu.ca:8000/home/pub/8/]
+See this for yourself at https://hydrogen.irmacs.sfu.ca:8000/home/pub/8/
