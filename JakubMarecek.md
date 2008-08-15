@@ -7,7 +7,7 @@ My personal homepage proper is at http://cs.nott.ac.uk/~jxm. This is just SAGE D
 
 My goal was to present the workings of a :
 
-
+attachment:screenshot01.jpg
 
 '''Installing VTK with Java Wrappers: '''
 
