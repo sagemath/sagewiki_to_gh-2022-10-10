@@ -57,7 +57,7 @@ public class Demo extends Applet {
     } catch(Exception e) {e.printStackTrace();}
  }
 }}}
-'''TeX and PS and PDF Output for SAGE plot3s '''
+'''TeX and PS and PDF Output for SAGE plot3ds '''
 
  * This could perhaps be done using Sketch (http://www.frontiernet.net/~eugene.ressler/). It implements the painter's algorithm (z-buffering) with polygon splitting, and hence it should be just the output of triangles in the right format it takes. Nils (http://www.cecm.sfu.ca/~nbruin) now got that to work, sortof:
 
