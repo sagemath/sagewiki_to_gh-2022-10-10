@@ -61,8 +61,6 @@ public class Demo extends Applet {
 
  * This could perhaps be done using Sketch (http://www.frontiernet.net/~eugene.ressler/). It implements the painter's algorithm (z-buffering) with polygon splitting, and hence it should be just the output of triangles in the right format it takes. Nils (http://www.cecm.sfu.ca/~nbruin) now got that to work, sortof:
 
-  https://hydrogen.irmacs.sfu.ca:8000/home/pub/8/
-
 {{{     	
 P.triangulate()
 vl=P.vertex_list()
@@ -86,3 +84,5 @@ os.system("latex a.tex >/dev/null")
 os.system("dvips a.dvi -o >/dev/null")
 os.system("convert a.ps a.png") 
 }}}
+
+See this for yourself at [https://hydrogen.irmacs.sfu.ca:8000/home/pub/8/]
