@@ -13,7 +13,7 @@ Please add your project to this list. Follow the examples that are already there
 
  * ''Yair Go1dberg'': '''3D Graphing in PiScript'''. Plotting 3 dimensional functions in PiScript.
 
- * ''Ryan Hoban'': '''Geometric Structures'''. Using sage to draw geometric structures in the Hyperbolic plane.
+ * ''Ryan Hoban'': '''Geometric Structures'''. Using sage to draw geometric structures in the Hyperbolic plane. (Slides available <a href="http://www.math.umd.edu/~rfhoban/GeometricStructures.pdf"> here</a>
 
  * ''Steve Kieffer'': '''Algebra sketches'''. Tools with which to produce sketches of a kind often drawn on blackboards to illustrate algebraic structures.
 
