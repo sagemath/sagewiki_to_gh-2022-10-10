@@ -1,7 +1,7 @@
 ##master-page:HomepageTemplate
 #format wiki
 == Jakub Marecek ==
-My personal homepage proper is at http://cs.nott.ac.uk/~jxm. This is just SAGE Days related stuff:
+My personal homepage proper is at http://cs.nott.ac.uk/~jxm. This is just my slides from SAGE Days 9 (attachment:slides.pdf) and related stuff:
 
 '''Graphical Demo of Integer Programming: '''
 
