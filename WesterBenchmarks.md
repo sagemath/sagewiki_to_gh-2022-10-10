@@ -1,3 +1,5 @@
+## page was renamed from SymbolicBenchmarks
+#pragma supplementation-page on
 ||<-2> Problem Key                                 ||
 || $\rightarrow$ || simplify                       ||
 || $A(...)$      || assume ...                     ||
