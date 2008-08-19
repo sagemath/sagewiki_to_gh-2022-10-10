@@ -25,6 +25,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  2. William Stein (fix that Sage's SymbolicRing is slow as molasses): [http://trac.sagemath.org/sage_trac/ticket/3872 #3872]
  3. Mike Hansen
  4. Timothy Clemans (Notebook)
+ 5. Martin Albrecht (I'll drop in late (GMT) and work on random-ish tickets on Trac)
 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
 
