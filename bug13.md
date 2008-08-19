@@ -22,6 +22,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 
 = Participants (with area they would like to work on) =
  1. Michael Abshoff (old bugs, merging patches, portability fixes)
+ 2. William Stein (fix that Sage's SymbolicRing is slow as molasses): [http://trac.sagemath.org/sage_trac/ticket/3872 #3872]
 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
 
