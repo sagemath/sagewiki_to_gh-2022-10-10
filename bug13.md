@@ -1,4 +1,4 @@
-= SAGE Bug Day 12 =
+= SAGE Bug Day 13 =
 
 The event will take place on '''Saturday, August 23rd, 2008''' and officially start at 10 am pacific standard time.
 
