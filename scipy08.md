@@ -3,3 +3,4 @@
 See http://conference.scipy.org/
 
  * attachment:Scipy_2008_Sage_Tutorial.sws
+ * attachment:scipy-cython.tgz
