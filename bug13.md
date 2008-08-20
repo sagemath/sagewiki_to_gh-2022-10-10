@@ -22,11 +22,12 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 
 = Participants (with area they would like to work on) =
  1. Michael Abshoff (old bugs, merging patches, portability fixes)
- 2. William Stein (fix that Sage's SymbolicRing is slow as molasses): [http://trac.sagemath.org/sage_trac/ticket/3872 #3872]
- 3. Mike Hansen
- 4. Timothy Clemans (Notebook)
- 5. Martin Albrecht (I'll drop in late (GMT) and work on random-ish tickets on Trac)
+ 1. William Stein (fix that Sage's SymbolicRing is slow as molasses): [http://trac.sagemath.org/sage_trac/ticket/3872 #3872]
+ 1. Mike Hansen
+ 1. Timothy Clemans (Notebook)
+ 1. Martin Albrecht (I'll drop in late (GMT) and work on random-ish tickets on Trac)
  1. Burcin Erocal (help out with #3872)
+ 1. Craig Citro (I'll be on a plane from London to LA, but I'll be fixing bugs on the plane)
 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
 
