@@ -1,5 +1,7 @@
 See also [:WesterBenchmarks: this other page], which lists some of Wester's benchmarks.
 
+See also [http://wiki.sympy.org/wiki/Symbench SymPy's benchmarks], that do the same as below, but in SymPy.
+
 [[TableOfContents]]
 
 = The "Real World" Symbolic Benchmark Suite =
