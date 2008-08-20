@@ -26,6 +26,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  3. Mike Hansen
  4. Timothy Clemans (Notebook)
  5. Martin Albrecht (I'll drop in late (GMT) and work on random-ish tickets on Trac)
+ 1. Burcin Erocal (help out with #3872)
 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
 
