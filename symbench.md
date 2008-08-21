@@ -259,3 +259,36 @@ sage: time g = expand(f*(f+1))
 ///
 CPU time: 0.14 s,  Wall time: 2.76 s
 }}}
+
+== Problem S2 ==
+Compute an expansion of an expression involving funny powers and trig functions.
+{{{
+sage: time a = expand((x^sin(x) + y^cos(y) - z^(x+y))^100)   # sage-3.1.1
+CPU times: user 7.93 s, sys: 0.22 s, total: 8.14 s
+Wall time: 20.67 s        # <----------- wall time is what matters for this!
+}}}
+Mathematica is much faster:
+{{{
+sage: mathematica.eval('Timing[a = Expand[(x^Sin[x] +y^Cos[y] - z^(x+y))^100];]')
+         {0.180212, Null}
+}}}
+The new Pynac based Sage is even faster than Mathematica at this:
+{{{
+sage: time a = expand((x^sin(x) + y^cos(y) - z^(x+y))^100)
+CPU times: user 0.15 s, sys: 0.00 s, total: 0.15 s
+Wall time: 0.16 s
+}}}
+
+Sympycore is pretty good:
+{{{
+sage: x = sympycore.Symbol('x'); y = sympycore.Symbol('y'); z = sympycore.Symbol('z')
+sage: time a = expand((x^sympycore.sin(x) + y^sympycore.cos(y) - z^(x+y))^100r)
+CPU times: user 0.33 s, sys: 0.02 s, total: 0.35 s
+}}}
+
+Sympy doesn't do well:
+{{{
+sage: x = sympy.var('x'); y = sympy.var('y'); z = sympy.var('z')
+sage: time a = expand((x^sympy.sin(x) + y^sympy.cos(y) - z^(x+y))^100r)
+CPU times: user 14.64 s, sys: 0.23 s, total: 14.86 s
+}}}
