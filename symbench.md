@@ -163,7 +163,7 @@ CPU time: 9.83 s,  Wall time: 28.08 s
 }}}
 
 
-= Sage Gets the Answer All Wrong =
+= Sage Gets the Answer All Wrong or Just Can't Do It =
 
 Examples where Sage is just blatantly wrong (often because of Maxima).
 
@@ -235,6 +235,16 @@ print p.coefficients(z)
 TypeError: Error executing code in Maxima
 Maxima encountered a Lisp error:
 }}}
+
+== Problem W5 ==
+
+{{{
+sage: var('r, kappa'); 
+sage: psi = function('psi',r);  
+sage: g = (1/r^2*(2*r*diff(psi,r) + r^2*diff(psi,r,2)); g
+(r^2*diff(psi(r), r, 2) + 2*r*diff(psi(r), r, 1))/r^2
+}}}
+The problem is to automatically extract the coefficient of the second derivative of psi(r).
 
 = The Synthetic Symbolic Benchmark Suite =
 
