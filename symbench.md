@@ -286,7 +286,7 @@ sage: time a = expand((x^sympycore.sin(x) + y^sympycore.cos(y) - z^(x+y))^100r)
 CPU times: user 0.33 s, sys: 0.02 s, total: 0.35 s
 }}}
 
-Sympy in current doesn't do well:
+Sympy in the current Sage doesn't do well:
 {{{
 sage: x = sympy.var('x'); y = sympy.var('y'); z = sympy.var('z')
 sage: time a = expand((x^sympy.sin(x) + y^sympy.cos(y) - z^(x+y))^100r)
