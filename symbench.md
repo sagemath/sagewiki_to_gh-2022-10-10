@@ -286,9 +286,19 @@ sage: time a = expand((x^sympycore.sin(x) + y^sympycore.cos(y) - z^(x+y))^100r)
 CPU times: user 0.33 s, sys: 0.02 s, total: 0.35 s
 }}}
 
-Sympy doesn't do well:
+Sympy in current doesn't do well:
 {{{
 sage: x = sympy.var('x'); y = sympy.var('y'); z = sympy.var('z')
 sage: time a = expand((x^sympy.sin(x) + y^sympy.cos(y) - z^(x+y))^100r)
 CPU times: user 14.64 s, sys: 0.23 s, total: 14.86 s
+}}}
+
+SymPy after merging the ticket [http://trac.sagemath.org/sage_trac/ticket/3707 #3707] is 10x faster than before:
+{{{
+sage: import sympy
+sage: x = sympy.var('x'); y = sympy.var('y'); z = sympy.var('z')
+sage: time a = expand((x^sympy.sin(x) + y^sympy.cos(y) - z^(x+y))^100r)
+
+CPU times: user 1.48 s, sys: 0.05 s, total: 1.53 s
+Wall time: 1.55 s
 }}}
