@@ -70,6 +70,8 @@ In favor of switching:
 
  * Sphinx doesn't use LaTeX syntax.
 
+ * I think the output from Sphinx looks much better than latex2html.  -- William Stein
+
 Against switching:
 
  * Potential temporary pain during the conversion process.
