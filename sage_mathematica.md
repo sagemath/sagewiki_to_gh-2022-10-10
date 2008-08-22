@@ -11,3 +11,52 @@ Indexing: Lists in Mathematica are indexed starting from 1.  In SAGE, as in Pyth
 
 == Combinatorica ==
 For a comparison of graph theory functionality between SAGE and the Mathematica Combinatorica package, see the CombinatoricaCompare page.
+
+= Sage and Python Quickstart for Mathematica users =
+This is not a proper introduction to Python, but a list of examples that Mathematica users will need to figure out how to do if they want to use Sage.
+
+== Basic functionality ==
+=== Declaring variables ===
+Mathematica assumes that all otherwise unknown symbols are algebraic quantities.  Python and Sage don't, they are declared as follows:
+
+{{{
+sage: var('x,y,a,b,c')
+(x, y, a, b, c)
+sage: y == a*x^2 + b*x + c
+y == a*x^2 + b*x + c
+}}}
+
+=== Space as multiplication ===
+{{{
+sage: implicit_multiplication(True)
+sage: y == a x^2 + b x + c
+y == a*x^2 + b*x + c
+}}}
+
+== Procedural programming ==
+=== Table ===
+Mathematica: {{{ Table[f[i], {i, 1, 10}] }}}
+
+{{{
+sage: [f(i) for i in range(1, 11)] 
+[g(1), g(2), g(3), g(4), g(5), g(6), g(7), g(8), g(9), g(10)]
+}}}
+
+(note that the endpoint of the range is not included).
+
+== Advanced Mathematica syntax ==
+=== Mapping functions across a list ===
+From a list called ''data'', create a new list where a function ''f'' is applied to each element of ''data''.
+
+Mathematica: {{{f /@ data}}}
+
+Python: {{{[f(d) for d in data]}}}
+
+Unlike in Mathematica, this ''for d in data'' cannot be applied to an arbitrary expression ''data''.  So {{{[f(d) for d in g(x,y,z)]}}} is not possible.
+
+=== Mapping pure functions across a list ===
+(Replacing elements that are less than zero with zero.)
+
+Mathematica: {{{data /. _?(# < 0&) -> 0}}}
+
+Python: {{{[(0 if d < 0 else d) for d in data]}}}
