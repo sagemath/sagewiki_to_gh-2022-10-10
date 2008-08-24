@@ -14,7 +14,7 @@ The time slots scheduled are:
 === Attendees (tentative) ===
 
  * William A. Stein, University of Washington, wstein@gmail.com
- * Jason Grout
+ * Jason Grout <jason-sage@creativetrax.com>
  * Kiran Kedlaya, MIT
  * Craig Citro, UCLA
  * Nathan Ryan <nathan.ryan@bucknell.edu>
