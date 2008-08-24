@@ -304,3 +304,127 @@ sage: time a = expand((x^sympy.sin(x) + y^sympy.cos(y) - z^(x+y))^100r)
 CPU times: user 1.48 s, sys: 0.05 s, total: 1.53 s
 Wall time: 1.55 s
 }}}
+
+== Problem S3 ==
+Compute the derivative with respect to z of the expanded form of $(x^y + y^z + z^x)^{50}$. 
+
+SUMMARY: Maple is the fastest, mathemaica and Sage/Ginac are very close, and Sage-3.1.1 sucks:
+
+   Maple < Mathematica < Sage/Ginac < Sympcore < Sympy < Maxima < Sage now = Infinity
+
+In Sage's maxima/python symbolics this just goes BOOM:
+{{{
+sage: time f = expand((x^y + y^z + z^x)^50)
+CPU times: user 0.73 s, sys: 0.02 s, total: 0.75 s
+Wall time: 2.42 s
+sage: time g = f.diff(x)
+---------------------------------------------------------------------------
+RuntimeError                              Traceback (most recent call last)
+
+/Users/was/s/local/lib/python2.5/site-packages/sage/calculus/calculus.py in variables(self)
+   4416         except AttributeError:
+   4417             pass
+-> 4418         vars = list(set(sum([list(op.variables()) for op in self._operands], [])))
+   4419         
+   4420         vars.sort(var_cmp)
+RuntimeError: maximum recursion depth exceeded
+}}}
+
+In Sage's new Ginac-based symbolics (on August 24) it takes 0.09 seconds:
+{{{
+sage: var('x,y,z', ns=1)
+(x, y, z)
+sage: time f = expand((x^y + y^z + z^x)^50)
+CPU times: user 0.03 s, sys: 0.00 s, total: 0.03 s
+sage: time g = f.diff(x)
+CPU times: user 0.08 s, sys: 0.01 s, total: 0.09 s
+Wall time: 0.09 s
+
+# We can even do an exponent of 500 in a reasonable amount of time:
+sage: time f = expand((x^y + y^z + z^x)^500)
+CPU times: user 3.53 s, sys: 0.08 s, total: 3.61 s
+Wall time: 3.67 s
+sage: time g = f.diff(x)
+CPU times: user 8.84 s, sys: 0.50 s, total: 9.34 s
+Wall time: 9.52 s
+}}}
+
+Directly in Sage's (clisp-based) Maxima it takes 52.93 seconds. This has
+nothing to do with pexpect or transmitting data -- this is all raw compute time
+in the core of maxima, which is evidently 588 times slower than Sage's Ginac.
+{{{
+sage: g = maxima('expand((x^y + y^z + z^x)^50)')
+sage: time h = g.diff(z)
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 52.93 s
+}}}
+
+In sympy-0.6.2 it takes 1.35 seconds:
+{{{
+sage: from sympy import *
+sage: x,y,z = var('x,y,z')
+sage: g = expand((x^y + y^z + z^x)^50)
+sage: time h = g.diff(x)
+CPU times: user 1.33 s, sys: 0.02 s, total: 1.35 s
+Wall time: 1.38 s
+
+# Redoing it is faster do to caching.
+sage: time h = g.diff(x)
+CPU times: user 0.74 s, sys: 0.00 s, total: 0.75 s
+Wall time: 0.76 s
+
+# Start from scratch and do 500
+
+}}}
+
+Sympcore does reasonably well at this synthetic benchmark, though sage/ginac and Mathematica still beat it.
+{{{
+sage: import sympycore
+sage: x = sympycore.Symbol("x"); y = sympycore.Symbol("y"); z = sympycore.Symbol("z")
+sage: time g = ((x^y + y^z + z^x)^int(50)).expand()
+CPU times: user 0.07 s, sys: 0.00 s, total: 0.08 s
+Wall time: 0.08 s
+sage: time h = g.diff(x)
+CPU times: user 0.18 s, sys: 0.01 s, total: 0.19 s
+Wall time: 0.20 s
+
+# Pushing harder:
+sage: time g = ((x^y + y^z + z^x)^int(500)).expand()
+CPU times: user 12.19 s, sys: 0.39 s, total: 12.58 s
+Wall time: 12.91 s
+sage: time h = g.diff(x)
+CPU times: user 42.43 s, sys: 0.77 s, total: 43.20 s
+Wall time: 44.51 s
+}}}
+
+Mathematica is very good at this, of course:
+{{{
+sage: g = mathematica('Expand[(x^y + y^z + z^x)^50]')
+sage: time mathematica.eval('Timing[w = D[%s, x];]'%g.name())
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
+         {0.00207, Null}
+}}}
+
+We try the harder challenge with exponent 500 and compare to what ginac-sage gets.  Mathematica takes about 6.5
+seconds and Ginac-Sage takes 9.3 seconds.  
+{{{
+sage: g = mathematica('Expand[(x^y + y^z + z^x)^500]')
+sage: time g = mathematica('Expand[(x^y + y^z + z^x)^500]')
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 4.07 s
+sage: time mathematica.eval('Timing[w = D[%s, x];]'%g.name())
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 6.56 s
+         {6.41675, Null}
+}}}
+
+Maple is asymptotically the fastest at this benchmark:
+{{{
+sage: g = maple('expand((x^y + y^z + z^x)^50)')
+sage: t=maple.cputime(); k = g.diff(x); maple.cputime(t)
+0.012
+sage: g = maple('expand((x^y + y^z + z^x)^500)')
+sage: t=maple.cputime(); k = g.diff(x); maple.cputime(t)
+1.4990000000000001
+}}}
