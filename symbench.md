@@ -306,11 +306,14 @@ Wall time: 1.55 s
 }}}
 
 == Problem S3 ==
-Compute the derivative with respect to z of the expanded form of $(x^y + y^z + z^x)^{50}$. 
+Compute the derivative with respect to z of the ''expanded form'' of $(x^y + y^z + z^x)^{50}$. 
 
 SUMMARY: Maple is the fastest, mathemaica and Sage/Ginac are very close, and Sage-3.1.1 sucks:
 
    Maple < Mathematica < Sage/Ginac < Sympcore < Sympy < Maxima < Sage now = Infinity
+
+Note that none of the programs secretly remember the unexpanded form, since when I benchmark
+differentiating that, it is instant. 
 
 In Sage's maxima/python symbolics this just goes BOOM:
 {{{
