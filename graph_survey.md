@@ -545,3 +545,4 @@ These need to be organized...
  * [http://amalfi.dis.unina.it/graph/ "The Graph Database"]
  * [http://research.microsoft.com/users/lovasz/geommain.pdf Paper]: Geometric Representations of Graphs, by Lásló Lovász
  * [http://web.cs.ualberta.ca/~joe/Coloring/ Joe Culberson]'s graph coloring software
+ * [http://www.win.tue.nl/~aeb/graphs/index.html Andries Brouwer]'s collection of various graphs.
