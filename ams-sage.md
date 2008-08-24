@@ -19,3 +19,4 @@ The time slots scheduled are:
  * Craig Citro, UCLA
  * Nathan Ryan <nathan.ryan@bucknell.edu>
  * Karl Crisman <Karl.Crisman@gordon.edu>
+ * [http://www.math.umb.edu/~anoel/ Alfred Noel]
