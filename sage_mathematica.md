@@ -52,7 +52,7 @@ Mathematica: {{{f /@ data}}}
 
 Python: {{{[f(d) for d in data]}}}
 
-Unlike in Mathematica, this ''for d in data'' cannot be applied to an arbitrary expression ''data''.  So {{{[f(d) for d in g(x,y,z)]}}} is not possible.
+Unlike in Mathematica, this ''for d in data'' cannot be applied to an arbitrary expression ''data''.  So {{{[f(d) for d in g(x,y,z)]}}} is not possible (this is not entirely true, all {{{g(x,y,z)}}} needs to do is to return something iterable, malb).
 
 === Mapping pure functions across a list ===
 (Replacing elements that are less than zero with zero.)
