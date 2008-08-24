@@ -350,6 +350,13 @@ Wall time: 3.67 s
 sage: time g = f.diff(x)
 CPU times: user 8.84 s, sys: 0.50 s, total: 9.34 s
 Wall time: 9.52 s
+
+sage: time g = expand((x^y + y^z + z^x)^1000)
+CPU times: user 23.34 s, sys: 0.54 s, total: 23.88 s
+Wall time: 27.33 s
+sage: time h = g.diff(x)
+CPU times: user 35.92 s, sys: 2.19 s, total: 38.11 s
+Wall time: 40.13 s
 }}}
 
 Directly in Sage's (clisp-based) Maxima it takes 52.93 seconds. This has
