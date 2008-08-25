@@ -16,7 +16,6 @@ The time slots scheduled are:
  * William A. Stein, University of Washington, wstein@gmail.com
  * Jason Grout <jason-sage@creativetrax.com>
  * Kiran Kedlaya, MIT
- * Craig Citro, UCLA
  * Nathan Ryan <nathan.ryan@bucknell.edu>
  * Karl Crisman <Karl.Crisman@gordon.edu>
  * [http://www.math.umb.edu/~anoel/ Alfred Noel]
