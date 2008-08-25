@@ -8,13 +8,13 @@ See also [http://axiom.svn.sourceforge.net/viewvc/axiom/trunk/axiom/src/input/ka
 
 = The "Real World" Symbolic Benchmark Suite =
 
-The conditions for something to be listed here: (a) it must be resemble an ''actual'' computation somebody actually wanted to do in Sage, and (b) the question must be precisely formulated with Sage code that uses the Sage symbolics in a straightforward way (i.e., don't cleverly use number fields).   Do ''not'' post any "synthetic" benchmarks.  This page is supposed to be about nailing down exactly why people consider the sage symbolics at present "so slow as to be completely useless for anything but fast float". 
+The conditions for something to be listed here: (a) it must be resemble an ''actual'' computation somebody actually wanted to do in Sage, and (b) the question must be precisely formulated with Sage code that uses the Sage symbolics in a straightforward way (i.e., don't cleverly use number fields).   Do ''not'' post any "synthetic" benchmarks.  This page is supposed to be about nailing down exactly why people consider the sage symbolics at present "so slow as to be completely useless for anything but fast float".
 
 Just to emphasize, some of these seem silly but they all come up when REAL USERS use Sage.  For synthetic benchmarks, see the second section below.
 
 == Problem R1 ==
 
-SETUP: Define a function $f(z) = \sqrt{1/3}\cdot z^2 + i/3$.  COMPUTATION: Compute the real part of $f(f(f(...(f(i/2))...)$ iterated $10$ times. 
+SETUP: Define a function $f(z) = \sqrt{1/3}\cdot z^2 + i/3$.  COMPUTATION: Compute the real part of $f(f(f(...(f(i/2))...)$ iterated $10$ times.
 {{{
 # setup
 def f(z): return sqrt(1/3)*z^2 + i/3
@@ -28,22 +28,59 @@ Time: CPU 0.11 s, Wall: 0.34 s
 
 == Problem R2 ==
 Compute and evaluate a Hermite polynomial using the recurrence that defines it.
+(Note -- changed because original problem didn't actually involve anything nontrivial that was symbolic.)
 
 {{{
 def hermite(n,y):
-  if n == 1:
-      return 2*y
-  if n == 0:
-      return 1
-  return 2*y*hermite(n-1,y) - 2*(n-1)*hermite(n-2,y)
+  if n == 1: return 2*y
+  if n == 0: return 1
+  return expand(2*y*hermite(n-1,y) - 2*(n-1)*hermite(n-2,y))
 
-def phi(n,y):
-  return 1/(sqrt(2^n*factorial(n))*pi^(1/4))*exp(-y^2/2)*hermite(n,y)
-
-time a = phi(25,4)
-//
-Time: CPU 0.59 s, Wall: 0.60 s
+time hermite(15,var('y'))
+///
+32768*y^15 - 1720320*y^13 + 33546240*y^11 - 307507200*y^9 +
+1383782400*y^7 - 2905943040*y^5 + 2421619200*y^3 - 518918400*y
+Time: CPU 12.65 s, Wall: 44.34 s
 }}}
+
+Using the new ginac-based Symbolics in Sage is 183 times faster:
+{{{
+def hermite(n,y):
+  if n == 1: return 2*y
+  if n == 0: return 1
+  return expand(2*y*hermite(n-1,y) - 2*(n-1)*hermite(n-2,y))
+
+time hermite(15,var('y',ns=1))
+///
+32768*y^15 - 1720320*y^13 + 33546240*y^11 - 307507200*y^9 +
+1383782400*y^7 - 2905943040*y^5 + 2421619200*y^3 - 518918400*y
+Time: CPU 0.24 s, Wall: 0.25 s
+}}}
+
+For reference (and it doesn't count for our purposes), FLINT can do this problem in 0.04 seconds, or 1100 times faster than Sage's default symbolics:
+{{{
+time hermite(15, polygen(ZZ))
+///
+32768*x^15 - 1720320*x^13 + 33546240*x^11 - 307507200*x^9 +
+1383782400*x^7 - 2905943040*x^5 + 2421619200*x^3 - 518918400*x
+Time: CPU 0.04 s, Wall: 0.04 s
+}}}
+
+Sympy is good at this benchmark, better than the above Ginac-Sage timing:
+{{{
+from sympy import *
+def hermite(n,y):
+  if n == 1: return 2*y
+  if n == 0: return 1
+  return expand(2*y*hermite(n-1,y) - 2*(n-1)*hermite(n-2,y))
+
+time hermite(15,var('y'))
+///
+-518918400*y + 2421619200*y**3 - 2905943040*y**5 + 1383782400*y**7 -
+307507200*y**9 + 33546240*y**11 - 1720320*y**13 + 32768*y**15
+Time: CPU 0.15 s, Wall: 0.16 s
+}}}
+
 
 == Problem R3 ==
 {{{
@@ -176,7 +213,7 @@ Examples where Sage is just blatantly wrong (often because of Maxima).
 var('a b c')
 eqn1 = a - exp((-pi*b)/sqrt(1-b)) == 0
 eqn2 = c - atan(2*b*sqrt(1/(sqrt(4*b^4+1) - 2*b^2)))==0
-solve([eqn1,eqn2,a==1/8],b,c,a) 
+solve([eqn1,eqn2,a==1/8],b,c,a)
 ///
 []
 }}}
@@ -184,7 +221,7 @@ WRONG and LAME!  This is because of a bug in Maxima.
 
 
 == Problem W2 ==
-This is related R10.  It's quick, but the output is WRONG, since if you replace pi by $2^{1/3}$ above you will get a 
+This is related R10.  It's quick, but the output is WRONG, since if you replace pi by $2^{1/3}$ above you will get a
 {{{
 var('x,y')
 time factor(x^20 - (2^(1/3))^5*y^20)
@@ -205,7 +242,7 @@ x^20 - 2*2^(2/3)*y^20
 This is because of a bug in Maxima.
 
 == Problem W3 ==
-The first example of simplifying in the ginac manual (on page 10) remarks that Ginac isn't so stupid as to simplify $\cos(\arccos(x))$ to $x$.  Well Sage is stupid does (unlike Mathematica).  This is bad, since then $42\pi = 0$.  
+The first example of simplifying in the ginac manual (on page 10) remarks that Ginac isn't so stupid as to simplify $\cos(\arccos(x))$ to $x$.  Well Sage is stupid does (unlike Mathematica).  This is bad, since then $42\pi = 0$.
 
 {{{
 sage: acos(cos(x))
@@ -232,7 +269,7 @@ z^5*D_3_5 + z^4*D_3_4 + z^3*D_3_3 + z^2*D_3_2 + z*D_3_1 + D_3_0 +
 z^8)^3
 
 # explodes:
-print p.coefficients(z) 
+print p.coefficients(z)
 
 TypeError: Error executing code in Maxima
 Maxima encountered a Lisp error:
@@ -241,8 +278,8 @@ Maxima encountered a Lisp error:
 == Problem W5 ==
 
 {{{
-sage: var('r, kappa'); 
-sage: psi = function('psi',r);  
+sage: var('r, kappa');
+sage: psi = function('psi',r);
 sage: g = (1/r^2*(2*r*diff(psi,r) + r^2*diff(psi,r,2)); g
 (r^2*diff(psi(r), r, 2) + 2*r*diff(psi(r), r, 1))/r^2
 }}}
@@ -306,14 +343,14 @@ Wall time: 1.55 s
 }}}
 
 == Problem S3 ==
-Compute the derivative with respect to z of the ''expanded form'' of $(x^y + y^z + z^x)^{50}$. 
+Compute the derivative with respect to z of the ''expanded form'' of $(x^y + y^z + z^x)^{50}$.
 
 SUMMARY: Maple is the fastest, mathemaica and Sage/Ginac are very close, and Sage-3.1.1 sucks:
 
    Maple < Mathematica < Sage/Ginac < Sympcore < Sympy < Maxima < Sage now = Infinity
 
 Note that none of the programs secretly remember the unexpanded form, since when I benchmark
-differentiating that, it is instant. 
+differentiating that, it is instant.
 
 In Sage's maxima/python symbolics this just goes BOOM:
 {{{
@@ -328,7 +365,7 @@ RuntimeError                              Traceback (most recent call last)
    4416         except AttributeError:
    4417             pass
 -> 4418         vars = list(set(sum([list(op.variables()) for op in self._operands], [])))
-   4419         
+   4419
    4420         vars.sort(var_cmp)
 RuntimeError: maximum recursion depth exceeded
 }}}
@@ -417,7 +454,7 @@ Wall time: 0.00 s
 }}}
 
 We try the harder challenge with exponent 500 and compare to what ginac-sage gets.  Mathematica takes about 6.5
-seconds and Ginac-Sage takes 9.3 seconds.  
+seconds and Ginac-Sage takes 9.3 seconds.
 {{{
 sage: g = mathematica('Expand[(x^y + y^z + z^x)^500]')
 sage: time g = mathematica('Expand[(x^y + y^z + z^x)^500]')
