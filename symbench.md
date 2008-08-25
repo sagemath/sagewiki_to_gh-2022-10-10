@@ -499,3 +499,59 @@ sage: g = maple('expand((x^y + y^z + z^x)^500)')
 sage: t=maple.cputime(); k = g.diff(x); maple.cputime(t)
 1.4990000000000001
 }}}
+
+== Problem S4 ==
+Compute the first 1000 terms of the Taylor series about 0 of $\sin(x) \cos(x)$.
+
+Sage right now takes about 107 seconds:
+{{{
+x = var('x')
+time w = (sin(x)*cos(x)).taylor(x,0,1000)
+///
+CPU time: 76.48 s,  Wall time: 107.20 s
+}}}
+
+The Sage-Ginac (Aug 24) takes 11 seconds:
+{{{
+var('x,y',ns=1)
+time w = (sin(x)*cos(x)).series(x,1000)
+///
+Time: CPU 11.01 s, Wall: 11.91 s
+}}}
+
+Straight Maxima takes about 29 seconds, which illustrates
+that there is some major overhead to using the pexpect interface
+in this particular case:
+{{{
+sage: m = maxima(sin(x)*cos(x))
+sage: time w =m.taylor(x,0,1000)
+CPU time: 0.01 s,  Wall time: 29.05 s
+}}}
+
+Sympy-0.6.2 takes an unbelievably long long long time (and tons of RAM):
+{{{
+from sympy import *
+f = sin(x)*cos(x)
+time g = f.series(x, 0, 1000)
+///  	
+CPU time: 1202.11 s,  Wall time: 1218.15 s
+}}}
+
+Mathematica takes 6.1 seconds:
+{{{
+%mathematica
+Timing[Series[Sin[x]*Cos[x], {x,0, 1000}];]
+///
+{6.11751, Null}
+}}}
+
+
+Maple takes 7.5 seconds:
+{{{
+%maple
+t := time():
+series(sin(x)*cos(x), x=0,1000):
+time() - t
+///
+7.504
+}}}
