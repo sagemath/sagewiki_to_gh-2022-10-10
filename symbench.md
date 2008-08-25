@@ -25,6 +25,31 @@ real(f(f(f(f(f(f(f(f(f(f(i/2)))))))))))
 Time: CPU 0.11 s, Wall: 0.34 s
 }}}
 
+The new Ginac-based symbolics do not have a working real part for I yet, but they take about 0.05 seconds for this benchmark:
+{{{
+reset()
+x = var('x',ns=1); S = x.parent()
+i = S(NumberField(polygen(QQ)^2+1, 'i').gen())
+def f(z): 
+    return expand(S(1/3).sqrt()*z^2 + i/3)
+
+# computation
+time s = f(f(f(f(f(f(f(f(f(f(i/2))))))))))
+///
+
+}}}
+
+Sympy-0.6.2 does very good on this benchmark:
+{{{
+from sympy import *
+def f(z): return sqrt(1/3)*z**2 + I/3
+time e = f(f(f(f(f(f(f(f(f(f(I/2)))))))))).as_real_imag()[int(0)]
+///
+Time: CPU 0.01 s, Wall: 0.01 s
+}}}
+
+
+
 
 == Problem R2 ==
 Compute and evaluate a Hermite polynomial using the recurrence that defines it.
