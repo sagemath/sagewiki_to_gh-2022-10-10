@@ -31,12 +31,11 @@ reset()
 x = var('x',ns=1); S = x.parent()
 i = S(NumberField(polygen(QQ)^2+1, 'i').gen())
 def f(z): 
-    return expand(S(1/3).sqrt()*z^2 + i/3)
-
+    return S(1/3).sqrt()*z^2 + i/3
 # computation
 time s = f(f(f(f(f(f(f(f(f(f(i/2))))))))))
 ///
-
+Time: CPU 0.05 s, Wall: 0.05 s
 }}}
 
 Sympy-0.6.2 does very good on this benchmark:
