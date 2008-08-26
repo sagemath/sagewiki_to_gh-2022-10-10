@@ -3,20 +3,19 @@ goto [:interact:interact main page]
 
 [[TableOfContents]]
 
-
 == Root Finding Using Bisection ==
-
 by William Stein
+
 {{{
 def bisect_method(f, a, b, eps):
-    try: 
+    try:
         f = f._fast_float_(f.variables()[0])
     except AttributeError:
         pass
     intervals = [(a,b)]
     two = float(2); eps = float(eps)
     while True:
-        c = (a+b)/two 
+        c = (a+b)/two
         fa = f(a); fb = f(b); fc = f(c)
         if abs(fc) < eps: return c, intervals
         if fa*fc < 0:
@@ -26,7 +25,6 @@ def bisect_method(f, a, b, eps):
         else:
             raise ValueError, "f must have a sign change in the interval (%s,%s)"%(a,b)
         intervals.append((a,b))
-
 html("<h1>Double Precision Root Finding Using Bisection</h1>")
 @interact
 def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16..-1))):
@@ -50,17 +48,16 @@ def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16..-1))):
 }}}
 attachment:bisect.png
 
-
 == Newton's Method ==
-
-Note that there is a more complicated Newton's method below. 
+Note that there is a more complicated Newton's method below.
 
 by William Stein
+
 {{{
 def newton_method(f, c, eps, maxiter=100):
     x = f.variables()[0]
     fprime = f.derivative(x)
-    try: 
+    try:
         g = f._fast_float_(x)
         gprime = fprime._fast_float_(x)
     except AttributeError:
@@ -70,13 +67,9 @@ def newton_method(f, c, eps, maxiter=100):
        fc = g(c)
        if abs(fc) < eps: return c, iterates
        c = c - fc/gprime(c)
-       iterates.append(c)    
-    return c, iterates   
-
-
-
+       iterates.append(c)
+    return c, iterates
 html("<h1>Double Precision Root Finding Using Newton's Method</h1>")
-
 @interact
 def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
      eps = 10^(eps)
@@ -93,26 +86,27 @@ def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
              line([(w,h),(w,j)],rgbcolor='black',thickness=0.2) for i,w in enumerate(iterates))
      show(P + L, xmin=z-interval, xmax=z+interval)
 }}}
-
 attachment:newton.png
 
 == A contour map and 3d plot of two inverse distance functions ==
 by William Stein
+
 {{{
 @interact
-def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)), 
-      cmap=['autumn', 'bone', 'cool', 'copper', 'gray', 'hot', 'hsv', 
+def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
+      cmap=['autumn', 'bone', 'cool', 'copper', 'gray', 'hot', 'hsv',
            'jet', 'pink', 'prism', 'spring', 'summer', 'winter']):
      x,y = var('x,y')
      f = q1/sqrt((x+1)^2 + y^2) + q2/sqrt((x-1)^2+(y+0.5)^2)
      C = contour_plot(f, (-2,2), (-2,2), plot_points=30, contours=15, cmap=cmap)
      show(C, figsize=3, aspect_ratio=1)
-     show(plot3d(f, (x,-2,2), (y,-2,2)), figsize=5, viewer='tachyon')     
+     show(plot3d(f, (x,-2,2), (y,-2,2)), figsize=5, viewer='tachyon')
 }}}
 attachment:mountains.png
 
 == A simple tangent line grapher ==
 by Marshall Hampton
+
 {{{
 html('<h2>Tangent line grapher</h2>')
 @interact
@@ -132,27 +126,23 @@ def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xe
 attachment:tangents.png
 
 == Function tool ==
-Enter symbolic functions $f$, $g$, and $a$, a range, then click the appropriate
-button to compute and plot some combination of $f$, $g$, and $a$ along with $f$ and $g$.
-This is inspired by the Matlab funtool GUI. 
+Enter symbolic functions $f$, $g$, and $a$, a range, then click the appropriate button to compute and plot some combination of $f$, $g$, and $a$ along with $f$ and $g$. This is inspired by the Matlab funtool GUI.
 
 {{{
 x = var('x')
-
 @interact
 def _(f=sin(x), g=cos(x), xrange=input_box((0,1)), yrange='auto', a=1,
       action=selector(['f', 'df/dx', 'int f', 'num f', 'den f', '1/f', 'finv',
-                       'f+a', 'f-a', 'f*a', 'f/a', 'f^a', 'f(x+a)', 'f(x*a)', 
-                       'f+g', 'f-g', 'f*g', 'f/g', 'f(g)'], 
+                       'f+a', 'f-a', 'f*a', 'f/a', 'f^a', 'f(x+a)', 'f(x*a)',
+                       'f+g', 'f-g', 'f*g', 'f/g', 'f(g)'],
              width=15, nrows=5, label="h = "),
       do_plot = ("Draw Plots", True)):
-
     try:
         f = SR(f); g = SR(g); a = SR(a)
     except TypeError, msg:
         print msg[-200:]
         print "Unable to make sense of f,g, or a as symbolic expressions."
-        return 
+        return
     if not (isinstance(xrange, tuple) and len(xrange) == 2):
           xrange = (0,1)
     h = 0; lbl = ''
@@ -216,8 +206,6 @@ def _(f=sin(x), g=cos(x), xrange=input_box((0,1)), yrange='auto', a=1,
     elif action == 'f(g)':
         h = f(g)
         lbl = 'f(g)'
-      
-      
     html('<center><font color="red">$f = %s$</font></center>'%latex(f))
     html('<center><font color="green">$g = %s$</font></center>'%latex(g))
     html('<center><font color="blue"><b>$h = %s = %s$</b></font></center>'%(lbl, latex(h)))
@@ -231,27 +219,21 @@ def _(f=sin(x), g=cos(x), xrange=input_box((0,1)), yrange='auto', a=1,
             yrange = sage_eval(yrange)
             show(P, xmin=xrange[0], xmax=xrange[1], ymin=yrange[0], ymax=yrange[1])
 }}}
-
 attachment:funtool.png
 
 == Newton-Raphson Root Finding ==
-
 by Neal Holtz
 
-This allows user to display the Newton-Raphson procedure one step at a time.
-It uses the heuristic that, if any of the values of the controls change,
-then the procedure should be re-started, else it should be continued.
+This allows user to display the Newton-Raphson procedure one step at a time. It uses the heuristic that, if any of the values of the controls change, then the procedure should be re-started, else it should be continued.
 
 {{{
 # ideas from 'A simple tangent line grapher' by Marshall Hampton
 # http://wiki.sagemath.org/interact
-
 State = Data = None   # globals to allow incremental additions to graphics
-
 @interact
-def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'), 
-             xmin = input_box(default=0), 
-             xmax = input_box(default=4*pi), 
+def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
+             xmin = input_box(default=0),
+             xmax = input_box(default=4*pi),
              x0 = input_box(default=3, label='x0'),
              show_calcs = ("Show Calcs",True),
              step = ['Next','Reset'] ):
@@ -264,7 +246,6 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
         Fplot = plot(f, prange[0], prange[1])
         Data = [X, df, Fplot]
         State = state
-
     X, df, Fplot = Data
     i = len(X) - 1              # compute and append the next x value
     xi = X[i]
@@ -272,7 +253,6 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
     fpi = RR(df(xi))
     xip1 = xi - fi/fpi
     X.append(xip1)
-
     msg = xip1s = None          # now check x value for reasonableness
     is_inf = False
     if abs(xip1) > 10E6*(xmax-xmin):
@@ -286,7 +266,6 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
         msg = 'x value out of range; probable divergence!'
     if xip1s is None:
         xip1s = '%.4g' % (xip1,)
-
     def Disp( s, color="blue" ):
         if show_calcs:
             html( """<font color="%s">$ %s $</font>""" % (color,s,) )
@@ -302,7 +281,6 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
     else:
         c = "blue"
     Disp( r"""x_{%d} = %.4g - ({%.4g})/({%.4g}) = %s""" % (i+1,xi,fi,fpi,xip1s), color=c )
-
     Fplot += line( [(xi,0),(xi,fi)], linestyle=':', rgbcolor=(1,0,0) ) # vert dotted line
     Fplot += points( [(xi,0),(xi,fi)], rgbcolor=(1,0,0) )
     labi = text( '\nx%d\n' % (i,), (xi,0), rgbcolor=(1,0,0),
@@ -320,14 +298,10 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
         labi += text( '\nx%d\n' % (i+1,), (xip1,0), rgbcolor=(1,0,0),
                  vertical_alignment="bottom" if fi < 0 else "top" )
     Fplot += line( [(xl,yl),(xr,yr)], rgbcolor=(1,0,0) )  # tangent
-
     show( Fplot+labi, xmin = prange[0], xmax = prange[1] )
     Data = [X, df, Fplot]
 }}}
-
-
 attachment:newtraph.png
-
 
 == Coordinate Transformations ==
 by Jason Grout
@@ -348,31 +322,24 @@ def trans(x=input_box(u^2-v^2, label="x=",type=SR), \
     v_val = min(v_range)+(max(v_range)-min(v_range))*v_percent
     t_min = -t_val
     t_max = t_val
-
     g1=sum([parametric_plot((SR(u.subs(u=i))._fast_float_('v'),v.subs(u=i)._fast_float_('v')), t_min,t_max, rgbcolor=(1,0,0)) for i in u_range])
     g2=sum([parametric_plot((u.subs(v=i)._fast_float_('u'),SR(v.subs(v=i))._fast_float_('u')), t_min,t_max, rgbcolor=(0,0,1)) for i in v_range])
     vline_straight=parametric_plot((SR(u.subs(v=v_val))._fast_float_('u'),SR(v.subs(v=v_val))._fast_float_('u')), t_min,t_max, rgbcolor=(0,0,1), linestyle='-',thickness=thickness)
     uline_straight=parametric_plot((SR(u.subs(u=u_val))._fast_float_('v'),SR(v.subs(u=u_val))._fast_float_('v')), t_min,t_max,rgbcolor=(1,0,0), linestyle='-',thickness=thickness)
-
     (g1+g2+vline_straight+uline_straight).save("uv_coord.png",aspect_ratio=1, figsize=[5,5], axes_labels=['$u$','$v$'])
-
-
     g3=sum([parametric_plot((x.subs(u=i)._fast_float_('v'),y.subs(u=i)._fast_float_('v')),  t_min,t_max, rgbcolor=(1,0,0)) for i in u_range])
     g4=sum([parametric_plot((x.subs(v=i)._fast_float_('u'),y.subs(v=i)._fast_float_('u')),  t_min,t_max, rgbcolor=(0,0,1)) for i in v_range])
     vline=parametric_plot((SR(x.subs(v=v_val))._fast_float_('u'),SR(y.subs(v=v_val))._fast_float_('u')),  t_min,t_max, rgbcolor=(0,0,1), linestyle='-',thickness=thickness)
     uline=parametric_plot((SR(x.subs(u=u_val))._fast_float_('v'),SR(y.subs(u=u_val))._fast_float_('v')),  t_min,t_max,rgbcolor=(1,0,0), linestyle='-',thickness=thickness)
     (g3+g4+vline+uline).save("xy_coord.png", aspect_ratio=1, figsize=[5,5], axes_labels=['$x$','$y$'])
-
-
     print jsmath("x=%s, \: y=%s"%(latex(x), latex(y)))
     print "<html><table><tr><td><img src='cell://uv_coord.png'/></td><td><img src='cell://xy_coord.png'/></td></tr></table></html>"
 }}}
-
-attachment:coordinate-transform-1.png
-attachment:coordinate-transform-2.png
+attachment:coordinate-transform-1.png attachment:coordinate-transform-2.png
 
 == Taylor Series ==
 by Harald Schilly
+
 {{{
 var('x')
 x0  = 0
@@ -388,3 +355,34 @@ def _(order=(1..12)):
     show(dot + p + pt, ymin = -.5, ymax = 1)
 }}}
 attachment:taylor_series_animated.gif
+
+== Illustration of the precise definition of a limit ==
+by John Perry
+
+I'll break tradition and put the image first. Apologies if this is Not A Good Thing.
+
+attachment:snapshot_epsilon_delta.png
+
+{{{
+html("<h2>Limits: <i>ε-δ</i></h2>")
+html("This allows you to estimate which values of <i>δ</i> guarantee that <i>f</i> is within <i>ε</i> units of a limit.")
+html("<ul><li>Modify the value of <i>f</i> to choose a function.</li>")
+html("<li>Modify the value of <i>a</i> to change the <i>x</i>-value where the limit is being estimated.</li>")
+html("<li>Modify the value of <i>L</i> to change your guess of the limit.</li>")
+html("<li>Modify the values of <i>δ</i> and <i>ε</i> to modify the rectangle.</li></ul>")
+html("If the blue curve passes through the pink boxes, your values for <i>δ</i> and/or <i>ε</i> are probably wrong.")
+@interact
+def delta_epsilon(f = input_box(default=(x^2-x)/(x-1)), a=input_box(default=1), L = input_box(default=1), delta=input_box(label="δ",default=0.1), epsilon=input_box(label="ε",default=0.1), xm=input_box(label="<i>x</i><sub>min</sub>",default=-1), xM=input_box(label="<i>x</i><sub>max</sub>",default=4)):
+    f_left_plot = plot(f,xm,a-delta/3,thickness=2)
+    f_right_plot = plot(f,a+delta/3,xM,thickness=2)
+    epsilon_line_1 = line([(xm,L-epsilon),(xM,L-epsilon)], rgbcolor=(0.5,0.5,0.5),linestyle='--')
+    epsilon_line_2 = line([(xm,L+epsilon),(xM,L+epsilon)], rgbcolor=(0.5,0.5,0.5),linestyle='--')
+    ym = min(f_right_plot.ymin(),f_left_plot.ymin())
+    yM = max(f_right_plot.ymax(),f_left_plot.ymax())
+    bad_region_1 = polygon([(a-delta,L+epsilon),(a-delta,yM),(a+delta,yM),(a+delta,L+epsilon)], rgbcolor=(1,0.6,0.6))
+    bad_region_2 = polygon([(a-delta,L-epsilon),(a-delta,ym),(a+delta,ym),(a+delta,L-epsilon)], rgbcolor=(1,0.6,0.6))
+    aL_point = point((a,L),rgbcolor=(1,0,0),pointsize=20)
+    delta_line_1 = line([(a-delta,ym),(a-delta,yM)],rgbcolor=(0.5,0.5,0.5),linestyle='--')
+    delta_line_2 = line([(a+delta,ym),(a+delta,yM)],rgbcolor=(0.5,0.5,0.5),linestyle='--')
+    (f_left_plot +f_right_plot +epsilon_line_1 +epsilon_line_2 +delta_line_1 +delta_line_2 +aL_point +bad_region_1 +bad_region_2).show(xmin=xm,xmax=xM)
+}}}
