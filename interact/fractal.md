@@ -115,6 +115,7 @@ def f(A = matrix([[0,0,2],[1,0,1],[0,1,-1]]), D = '[[0,0,0],[1,0,0]]', k=(3..15)
     
 }}}
 attachment:3.png
+
 attachment:4.png
 ----
 CategoryCategory
