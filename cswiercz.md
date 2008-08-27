@@ -9,6 +9,7 @@
 
 The following is a missing piece of documentation for adding new {{{.pyx}}} to the ''Sage'' library: See [http://www.sagemath.org/doc/html/prog/node40.html 5.2] of the [http://www.sagemath.org/doc/html/prog/prog.html Sage Programming Guide].
 
+= Cython =
 == Writing Optimized Compiled Code with Sage ==
 === Examples ===
 ==== Creating .pyx Files in the Sage Library ====
