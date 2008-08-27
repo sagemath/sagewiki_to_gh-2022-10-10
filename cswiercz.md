@@ -1,9 +1,13 @@
 ##master-page:HomepageTemplate
 #format wiki
 == Chris Swierczewski ==
-Email: [[MailTo(cswiercz AT SPAMFREE gmail DOT com)]]
+ University of Washington
+ BS Mathematics with Distinction
+ Email: [[MailTo(cswiercz AT SPAMFREE gmail DOT com)]] .
+ Google Talk: cswiercz
+ IRC: cswiercz
 
-The following is a missing piece of documentation for adding new <tt>.pyx</tt> to the ''Sage'' library: See [http://www.sagemath.org/doc/html/prog/node40.html 5.2] of the [http://www.sagemath.org/doc/html/prog/prog.html Sage Programming Guide].
+The following is a missing piece of documentation for adding new {{{.pyx}}} to the ''Sage'' library: See [http://www.sagemath.org/doc/html/prog/node40.html 5.2] of the [http://www.sagemath.org/doc/html/prog/prog.html Sage Programming Guide].
 
 == Writing Optimized Compiled Code with Sage ==
 === Examples ===
@@ -20,20 +24,57 @@ Opentick provides free real-time and historical market data for trading systems 
 
 This package is used by the sage.finance module.
 
-=== otfeed1.1 (Chris Swierczewski, 27 Aug 2008) ===
+=== opentick1.1 (Chris Swierczewski, 27 Aug 2008) ===
  * Checkout from {{{cvs -d :pserver:anonymous@cvs.opentick.com:/var/cvs co otfeed1.1-dev}}} (Note that this currently does not work! Results in following error message:)
    {{{
    cvs [checkout aborted]: connect to cvs.opentick.com(64.210.196.151):2401 failed: No route to host
    }}}
-   For now, download from http://cvs.opentick.com/cgi-bin/cvsweb.cgi/otfeed1.1-dev/otfeed1.1-dev.tar.gz?tarball=1.
+ For now, download from http://cvs.opentick.com/cgi-bin/cvsweb.cgi/otfeed1.1-dev/otfeed1.1-dev.tar.gz?tarball=1.
  * Download patch from http://otfeed-patches.googlecode.com/files/otfeed1.1-dev-autotools.patch into top-level folder so that compiler can use GNU autotools.
  * Apply patch using the following command:
    {{{
-   patch -p1 < otfeed1.1-dev-autotools.patch
+   $ patch -p1 < otfeed1.1-dev-autotools.patch 
+     patching file Applications/HistCsv/Include/Makefile.am 
+     patching file Applications/HistCsv/Makefile 
+     patching file Applications/HistCsv/Makefile.am 
+     patching file Applications/HistCsv/Sources/Makefile.am 
+     patching file Applications/Makefile.am 
+     patching file AUTHORS 
+     patching file ChangeLog 
+     patching file configure.ac 
+     patching file COPYING 
+     patching file Include/Makefile.am 
+     patching file INSTALL 
+     patching file Makefile.am 
+     patching file NEWS 
+     patching file OTFeed.CPP/Include/Makefile.am 
+     patching file OTFeed.CPP/Makefile 
+     patching file OTFeed.CPP/Makefile.am 
+     patching file OTFeed.CPP/Sources/Makefile.am 
+     patching file README 
+     patching file Samples/Linux/Makefile 
+     patching file Samples/Linux/Makefile.am 
+     patching file Samples/Makefile.am
    }}}
- * Configure, make, and install Opentick source in {{{src/}}} to {{{$SAGE_ROOT}}}
- * Make and install C++ binary, otwrapper.
- * Copy binary into {{{$SAGE_LOCAL/bin}}}
+ * Bootstrap the autotool build system:
+   {{{
+   $ autoreconf -i 
+     configure.ac:8: installing `./missing' 
+     configure.ac:8: installing `./install-sh' 
+     Applications/HistCsv/Sources/Makefile.am: installing `./depcomp'
+   }}}
+ * Configure, make, and install Opentick source in {{{src/}}} to {{{$SAGE_ROOT}}}. Libraries are put into {{{$SAGE_LOCAL/lib}}} and headers into  {{{$SAGE_LOCAL/include}}}:
+   {{{
+   ./configure --prefix=$SAGE_LOCAL
+   make 
+   make install
+   }}}
+ * Make and install C++ binary, otwrapper. Binary is copied to {{{$SAGE_LOCAL/bin}}}
+   {{{
+   cd otwrapper
+   make
+   make install
+   }}}
 
 ----
  CategoryHomepage
