@@ -62,7 +62,8 @@ def f(A = matrix([[1,1],[-1,1]]), D = '[[0,0],[1,0]]', k=(3..17)):
     show(G, frame=True, axes=False)
     
 }}}
- 
+attachment:1.png 
+
 == Demonstrating that the Twin Dragon Matrix is likely to yield a Tiling of a Compact Interval of R^2 as k->infinity (It does!) ==
 
 {{{
@@ -85,7 +86,8 @@ def f(A = matrix([[1,1],[-1,1]]), D = '[[0,0],[1,0]]', k=(3..17)):
     show(G, frame=True, axes=False)
  
 }}}
-    
+attachment:2.png
+
 == Now in 3d ==
     
 {{{
@@ -112,3 +114,7 @@ def f(A = matrix([[0,0,2],[1,0,1],[0,1,-1]]), D = '[[0,0,0],[1,0,0]]', k=(3..15)
     show(G, axes=False, frame=False)
     
 }}}
+attachment:3.png
+attachment:4.png
+----
+CategoryCategory
