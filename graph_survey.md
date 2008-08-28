@@ -1,11 +1,11 @@
 [[TableOfContents]]
 
 == Introduction ==
-The SAGE [http://www.sagemath.org:9001/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
+The SAGE [http://wiki.sagemath.org/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
 
 The main people working on this project are Emily Kirkman and Robert Miller.
 
-We have attempted to make a complete list of existing graph theory software.  We posted functionality lists and some algorithm/construction summaries.  We are very interested in feedback or last-minute additions, as we are ready to begin [http://sage.math.washington.edu:9001/graph_benchmark benchmarking] our findings.
+We have attempted to make a complete list of existing graph theory software.  We posted functionality lists and some algorithm/construction summaries.  We are very interested in feedback or last-minute additions, as we are ready to begin [http://wiki.sagemath.org/graph_benchmark benchmarking] our findings.
 
 == Existing Graph Theory software ==
 === Software included with SAGE ===
