@@ -1,15 +1,11 @@
 [[TableOfContents]]
 
-==  Introduction ==
-
-Robert Miller is working on this project. [http://sage.math.washington.edu:9001/graph Back to main wiki]
+== Introduction ==
+Robert Miller is working on this project. [http://www.sagemath.org:9001/graph Back to main wiki]
 
 == 2D Plotting ==
-
  * matplotlib plotting is supported (albeit awkwardly) by NetworkX. Smooth interfacing of this functionality with SAGE (especially the notebook) is almost complete. Part of this implementation was writing a NetworkX graphics primitive. In this routine, each edge is treated as a spring; after each node is randomly placed on the plot screen, fifty iterations allow the "springs" to align themselves in equilibrium, often revealing geometric symmetries of the graph (try plotting a Platonic solid...). There are also options to pre-specify vertex positions: the graph class now comes with an optional positioning variable, so that if a user likes to think of a graph in a certain visual layout, that layout can be made part of the graph information. Boundary nodes default to plot a different color, and edge labels will soon be displayed. Pending another graphics primitive, graphics objects can be associated with nodes so that the plots show up in place of the nodes when a graph is displayed.
-
  * Examples:
-
 {{{
 graphs.PetersenGraph().show()
 }}}
@@ -59,15 +55,12 @@ C.show(vertex_labels=False, node_size=60, graph_border=True, color_dict=color, f
 attachment:9-cube.png
 
 == 3D Plotting ==
-
  * Tachyon plots are here!!
-
-   . The Dodecahedron,
+  . The Dodecahedron,
 attachment:dod3d.png
 
-   . and the Four Cube
+ . and the Four Cube
 attachment:4-cube3d.png
 
  * Interactive graph viewing (i.e. spin it around...) will hopefully be available by March.
-
  * Interactive graph editing is on Chris Godsil's wishlist; it will be implemented via Java applet some time in the future.
