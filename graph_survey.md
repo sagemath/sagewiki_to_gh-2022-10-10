@@ -320,7 +320,7 @@ We have attempted to make a complete list of existing graph theory software.  We
 ===== WilmaScope =====
  . [http://www.wilmascope.org/ Link] a Java3D application which creates real time 3d animations of dynamic graph structures
 ===== nv2d =====
- . [http://web.mit.edu/bshi/Public/nv2d/ link]
+ . [http://ostatic.com/110007-software-opensource/nv2d link]
   1. '''Visualization'''
   1. Java visualization, designed to run in a browser
   1. Spring model visualization
@@ -341,7 +341,7 @@ These need to be organized...
 ===== DISCRETA =====
  . [http://www.mathe2.uni-bayreuth.de/discreta/ Link]
 ===== GTL =====
- . The Graph Template Library, and extension of the STL... a few basic algorithms. see also [http://ceu.fi.udc.es/SAL/E/2/GRAPHLET.html Graphlet]
+ . The [http://www.cs.sunysb.edu/~algorith/implement/gtl/implement.shtml Graph Template Library], and extension of the STL... a few basic algorithms. see also [http://www.infosun.fim.uni-passau.de/Graphlet/ Graphlet]
 ===== GeoSteiner =====
  . [http://www.diku.dk/geosteiner/ Link]
   1. ''' Construction''' A set of points in different formats
@@ -373,7 +373,7 @@ These need to be organized...
 ===== DSATUR =====
  . [http://prolland.free.fr/works/research/dsatphp/dsat.html Link], a program for computing graph colorings, algorithm [http://prolland.free.fr/works/research/dsat/index.html#anchor38034 documentation] in French, input in [http://mat.gsia.cmu.edu/COLOR/general/ccformat.ps DIMACS] format, [http://prolland.free.fr/works/research/dsatphp/dsat.txt source code]
 ===== LEDA =====
- I. [http://www.alogorithmic-solutions.com Link]
+ I. [http://www.algorithmic-solutions.info/leda_guide/graph_algorithms/graph_draw.html Link]
   a. Commercial, but supposedly fast
   a. '''Morphisms / Group Actions'''
    . Module graph and subgraph isomorphisms
