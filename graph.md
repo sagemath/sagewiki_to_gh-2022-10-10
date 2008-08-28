@@ -37,8 +37,8 @@ attachment:9_cube.png
 
 == Other wiki pages ==
  * Surveys
-  . [http://www.sagemath.org:9001/graph_survey Existing Software]: We are always seeking additions and comments.
-  . [http://www.sagemath.org:9001/graph_db_survey Existing Databases]: Includes comments by Jason Grout.
+  . [http://wiki.sagemath.org/graph_survey Existing Software]: We are always seeking additions and comments.
+  . [http://wiki.sagemath.org/graph_db_survey Existing Databases]: Includes comments by Jason Grout.
 
  * [http://www.sagemath.org:9001/graph_benchmark Benchmarks]
   . Initial Benchmarks indicated that NetworkX was the appropriate package for inclusion in SAGE. They were designed to compare the constructions and very basic functionality found in our survey of existing software.
