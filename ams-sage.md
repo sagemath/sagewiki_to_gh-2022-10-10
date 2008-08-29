@@ -1,4 +1,4 @@
-= [http://www.ams.org/amsmtgs/2110_program_ss2.html#title AMS Special Session on SAGE and Mathematical Research Using Open Source Software] =
+= AMS Special Session on SAGE and Mathematical Research Using Open Source Software =
 
 === Organizers ===
 
@@ -19,3 +19,5 @@ The time slots scheduled are:
  * Nathan Ryan <nathan.ryan@bucknell.edu>
  * Karl Crisman <Karl.Crisman@gordon.edu>
  * [http://www.math.umb.edu/~anoel/ Alfred Noel]
+
+AMS session [http://www.ams.org/amsmtgs/2110_program_ss2.html#title webpage]
