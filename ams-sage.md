@@ -1,4 +1,4 @@
-= AMS Special Session on SAGE and Mathematical Research Using Open Source Software =
+= [http://www.ams.org/amsmtgs/2110_program_ss2.html#title AMS Special Session on SAGE and Mathematical Research Using Open Source Software] =
 
 === Organizers ===
 
