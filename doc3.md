@@ -2,7 +2,7 @@
 
 '''Saturday, August 30, 2008'''
 
-We will focus mostly on doctests Doc Days 3.   Our goal is to raise the coverage score for the Sage library to 60%, since this is a central goal for September.   We need about XXX new doctests to get to 60% coverage.
+We will focus mostly on doctests Doc Days 3.   Our goal is to raise the coverage score for the Sage library to 60%, since this is a central goal for September.   We need about 460 new doctests to get to 60% coverage (compared to mabshoff's 3.1.2.alpha3 merge tree as of 10am PST)
 
 == Meetups ==
 
