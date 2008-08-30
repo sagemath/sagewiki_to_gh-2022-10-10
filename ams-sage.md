@@ -1,5 +1,7 @@
 = AMS Special Session on SAGE and Mathematical Research Using Open Source Software =
 
+The purpose of this session is to bring together researchers interested in using the mathematical software Sage.
+
 === Organizers ===
 
     * David Saunders, University of Delaware
