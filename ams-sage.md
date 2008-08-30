@@ -1,6 +1,6 @@
 = AMS Special Session on SAGE and Mathematical Research Using Open Source Software =
 
-The purpose of this session is to bring together researchers interested in using the mathematical software Sage.
+ The purpose of this session is to bring together those who develop and/or use or would like to use the mathematical software system [http://www.sagemath.org/ Sage] and related open source software in their research.
 
 === Organizers ===
 
