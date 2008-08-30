@@ -11,13 +11,13 @@ Sage is a comprehensive open-source mathematics software suite that has the miss
 Yes!  Go to http://www.sagenb.org/ and set up a free account.  If you log in, you will be working on a free Sage notebook server that will work identically to the one you get with Sage.
 
 === How do I get a Sage program I can run immediately? ===
-Go to http://sagemath.org/download.html and click on the link for the binary for your operating system.
+Go to http://www.sagemath.org/download.html and click on the link for the binary for your operating system.
 
 === How do I get the Sage source code? ===
-Go to http://sagemath.org/dist/src/index.html to download the tar archive for any release of Sage.
+Go to http://www.sagemath.org/src/ to download the tar archive for any release of Sage.
 
 === How do I get a previous release of Sage? ===
-Go to http://sagemath.org/dist/src/index.html to download the tar archive for any release of Sage.
+Go to http://www.sagemath.org/src/ to download the tar archive for any release of Sage.
 
 == Installing and running Sage ==
 === How do I use the notebook with Firefox 3.0 beta 5? ===
@@ -48,8 +48,7 @@ Windows is currently supported via the VMWare image, so see the instructions for
 {{{export MAKE="make -j8"}}} will enable 8 threads for parts of the build that support parallelism.
 
 === How do I run Sage in a browser that is not the system default ===
-Issue this command "env SAGE_BROWSER=opera /usr/bin/sage -notebook" either from the command prompt or as a menu command for Sage. Assumes a linux operating system, opera as the browser,
-and I happen to use KDE as my desktop.
+Issue this command "env SAGE_BROWSER=opera /usr/bin/sage -notebook" either from the command prompt or as a menu command for Sage. Assumes a Linux operating system, Opera as the browser, and I happen to use KDE as my desktop.
 
 == Developing in Sage ==
 === What tools do I need to develop in Sage? ===
@@ -65,7 +64,7 @@ The {{{save}}} and {{{load}}} commands will save and load an object, respectivel
 
 == Getting help ==
 === How do I get help? ===
-Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://sagemath.org/community.html for a listing of these resources.
+Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://www.sagemath.org/help.html for a listing of these resources.
 
 == Other questions ==
 ----------
@@ -91,7 +90,7 @@ sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
  * ANSWER: Moving a sage install on OSX 10.4 and then upgrading anything that is linked against NTL leads to link errors due to missing gmp symbols. The problem is the link mode with which the dynamic NTL is created. I have a fix, but I am currently verifying that it really fixes the issue. Everything that is linked against NTL needs to be recompiled, i.e. singular and cremona at the moment. To add to the confusion: This is not an issue on OSX 10.5. A fix for this issue went into 2.8.15, so please report if you see this with a more current Sage release.
 ----------
  * QUESTION: When I compile Sage my computer beeps and shuts down or hangs.
- * ANSWER: Compiling Sage is quite taxing on the CPU. The above behavior usually indicates that your computer has overheated. In many cases this can be fixed by cleaning the CPU fan and assuring proper ventilation of the system. Please ask you system administrator or a professional to do this in case you have never done this since you can potentially damage your system.
+ * ANSWER: Compiling Sage is quite taxing on the CPU. The above behavior usually indicates that your computer has overheated. In many cases this can be fixed by cleaning the CPU fan and assuring proper ventilation of the system. Please ask your system administrator or a professional to do this in case you have never done this since you can potentially damage your system.
 ----------
  * QUESTION: When I run doctests on OSX I see the following messages, but in the end Sage reports that everything went fine:
  {{{
@@ -100,10 +99,10 @@ python(4563) malloc: *** vm_allocate(size=4096000000) failed (error code=3)
 python(4563) malloc: *** error: can't allocate region
 python(4563) malloc: *** set a breakpoint in szone_error to debug
 }}}
- * ANSWER: The issue above isn't a doctest failure, it is an error message printed by the system and it is exactly what one expects to see -- in that particular doctest, we try to allocate a very large list in Pari that doesn't fit into physical memory (it it at least 100GB in size). So OSX tells you that it couldn't allocate a chunk of memory roughly 4 GB in size, which is expected, since Sage is still a 32 bit application on OSX.
+ * ANSWER: The issue above isn't a doctest failure, it is an error message printed by the system and it is exactly what one expects to see -- in that particular doctest, we try to allocate a very large list in Pari that doesn't fit into physical memory (it is at least 100GB in size). So OSX tells you that it couldn't allocate a chunk of memory roughly 4 GB in size, which is expected, since Sage is still a 32 bit application on OSX.
 ----------
  * QUESTION: Sage 2.9 and higher fails compiling ATLAS on Linux. How can I fix this?
- * ANSWER: The most likely cause is enabled power management. Disabling it should fix the problem. Depending on your flavor of distribution this might either be possible with some nice GUI tool or not. On the commandline do the following as {{{root}}} for each CPU you have: {{{/usr/bin/cpufreq-selector -g performance -c #number CPU}}}. On Ubuntu try disabling "Power Manager" via "System --> Preferences --> Sessions" under the "Startup Programs" or using {{{cpufreq-set}}} via command line.
+ * ANSWER: The most likely cause is enabled power management. Disabling it should fix the problem. Depending on your flavor of distribution, this might either be possible with some nice GUI tool or not. On the command line do the following as {{{root}}} for each CPU you have: {{{/usr/bin/cpufreq-selector -g performance -c #number CPU}}}. On Ubuntu try disabling "Power Manager" via "System --> Preferences --> Sessions" under the "Startup Programs" or using {{{cpufreq-set}}} via command line.
 ----------
  * QUESTION: Sage fails with the error message {{{restore segment prot after reloc: Permission denied}}}. What is wrong?
  * ANSWER: The problem is related to SELinux: http://www.ittvis.com/services/techtip.asp?ttid=3092. We are currently tracking this issue at http://www.sagetrac.org/sage_trac/ticket/480.
@@ -118,7 +117,7 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * ANSWER: We currently do not have a ready-to-go solution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://www.sagetrac.org/sage_trac/ticket/381 - so stay tuned.
 ----------
  * QUESTION: I downloaded a Sage binary and it crashes on startup with {{{Illegal instruction}}}. What can I do?
- * ANSWER: The binaries have been built for a newer architecture than you have. We want to acquire an older machine and install a bunch of minimal Linux images on it for building Sage binaries to avoid this, but it hasn't happened  yet. One solution is to build from source. Another solution to have your distributions' ATLAS package installed. That package has to provide dynamic version of the ATLAS libaries from the 3.8 release. Then go into {{{$SAGE_LOCAL/lib}}} and delete {{{libatlas.*}}}, {{{libf77blas.*}}} and {{{libcblas.*}}}.  That needs to be repeated every time you update Sage. Certain Via CPUs like {{{Nehemiah}}} also seem to have trouble with the binaries we provide and the solution seems to be to build from source since ATLAS isn't the culprit in that case. We are investigating the issue.
+ * ANSWER: The binaries have been built for a newer architecture than you have. We want to acquire an older machine and install a bunch of minimal Linux images on it for building Sage binaries to avoid this, but it hasn't happened yet. One solution is to build from source. Another solution is to have your distribution's ATLAS package installed. That package has to provide a dynamic version of the ATLAS libaries from the 3.8 release. Then go into {{{$SAGE_LOCAL/lib}}} and delete {{{libatlas.*}}}, {{{libf77blas.*}}} and {{{libcblas.*}}}.  That needs to be repeated every time you update Sage. Certain Via CPUs like {{{Nehemiah}}} also seem to have trouble with the binaries we provide and the solution seems to be to build from source since ATLAS isn't the culprit in that case. We are investigating the issue.
 ----------
  * QUESTION: I just downloaded version 2.8.15 for Mac OSX and tried to run notebook() and dyld is unable to load libintl.3.dylib.  I don't have a libintl.3.dylib in {{{usr/local/lib}}} and I didn't find it in {{{$SAGE_ROOT/local/lib}}}. Is there a workaround?
  * ANSWER:  Yes, put the libintl3.dylib from http://sagemath.org/SAGEbin/apple_osx/intel/10.4-extra_files/ {{{in SAGE_ROOT/local/lib/}}}. Sage 2.8.15 and later contain a copy of the library, so please let us know if you experience the problem with any later release.
@@ -127,11 +126,11 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * ANSWER: See http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html where it says "For Mac OS X users: download and unpack the archive, then drag the fonts to your Library/Fonts folder (or to the FontBook, or just double-click them and press the "install" button).".
 ----------
  * QUESTION: The show command for plotting 3D objects does not work.
- * ANSWER: Since Sage 2.9.2 we have switched to using jmol, a Java applet, for 3D plotting. There are several possibilities for the cause of the malfunction: You do not have Java installed at all or the Java installed is an older GNU based alternative Java implementation, which causes some yet to determine problem. A solution to both issues is to either install Sun's Java SDK or to update the GNU based Java implementation. As of January 2008 Debian's Java in testing works, but stable does have problems.
+ * ANSWER 1: Since Sage 2.9.2 we have switched to using jmol, a Java applet, for 3D plotting. There are several possibilities for the cause of the malfunction: You do not have Java installed at all or the Java installed is an older GNU based alternative Java implementation, which causes some yet to determine problem. A solution to both issues is to either install Sun's Java SDK or to update the GNU based Java implementation. As of January 2008 Debian's Java in testing works, but stable does have problems.
  * ANSWER 2: If you are running a brand new (as of April 2008) Ubuntu 8.04, they ship the Java Plugin by IcedTea. This is basically a good idea, but a bit too early since it is broken. Either wait for an update or uninstall the IcedTea Plugin and install the "SUN Java 6 Plugin". Later, switch back to IcedTea, since it is based on OpenJDK 7 (or SUNs Java 7) which is the next Java version. You can check for the used plugin in Firefox 3 by typing "about:plugins" into the URL bar. [https://bugs.launchpad.net/ubuntu/+source/icedtea-java7/ read more here at launchpad]
 ----------
  * QUESTION: May I use Sage tools in a commercial environment?
- * ANSWER: YES!  Absolutely!  Basically the *only* constraint is that if you make changes to Sage itself and redistribute this changed version of Sage publicly, then you must make these changes available to us so that we can put them into the standard version of Sage (if we want).   Otherwise, you'll free to use as many copies of Sage as you want completely for free to make money, etc., without paying any license fees at all.
+ * ANSWER: YES!  Absolutely!  Basically the *only* constraint is that if you make changes to Sage itself and redistribute this changed version of Sage publicly, then you must make these changes available to us so that we can put them into the standard version of Sage (if we want).   Otherwise, you are free to use as many copies of Sage as you want completely for free to make money, etc., without paying any license fees at all.
 ----------
  * QUESTION: I want to write some Cython code that uses finite field arithmetic but {{{cimport sage.rings.finite_field_givaro}}} fails. What can I do?
  * ANSWER: You need to give hints to Sage so that it uses C++ (both Givaro and NTL are C++ libraries), and it also needs the GMP and STDC C++ libraries. Here is a small example:
@@ -163,7 +162,7 @@ for i in range(1, x.multiplicative_order() + 1):
     print i, x**i
 assert x*(1/x) == K.one_element()
 }}}
- To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} at the Sage prompt and hit tab, then use ?? to get more info on each function. For example:
+ To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} at the Sage prompt and hit tab, then use ?? to get more information on each function. For example:
 
  {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}}
 
@@ -190,18 +189,18 @@ respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
 
 
 ----------
- * QUESTION: When running Sage under VMware if you log in under manage you are not given the permissions to create a file! 
+ * QUESTION: When running Sage under VMware, if you log in under manage you are not given the permissions to create a file! 
  * ANSWER: Type "sudo su" before creating files.
 
 ----------
  * QUESTION: I'm getting weird build failures on OSX. How do I fix this?
- * ANSWER: search the build log (install.log) to see if you're getting "fork: Resource temporarily unavailable.". If so, try the following. Create (or edit) /etc/launchd.conf and include the following:
+ * ANSWER: Search the build log (install.log) to see if you're getting "fork: Resource temporarily unavailable.". If so, try the following. Create (or edit) /etc/launchd.conf and include the following:
  {{{
 limit maxproc 512 2048
 }}}
  . then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
 ----------
- * QUESTION: How do I use the bitwise XOR operator in sage?
+ * QUESTION: How do I use the bitwise XOR operator in Sage?
  * ANSWER: Define two variables, for example {{{a = 5; b = 8}}}, and evaluate {{{a.__xor__(b)}}}, 13. You can also do {{{(5).__xor__(8)}}} (the parentheses are necessary so that Sage doesn't think you have a real number).
  There are several ways to define a function: {{{xor = lambda x, y: x.__xor__(y)}}} and then do {{{xor(3, 8)}}}. Another option, which sneaks around the Sage preparser, is {{{def xor(a,b):  return eval("%s^%s"%(a,b))}}}. You can also turn off the Sage preparser with {{{preparser(False)}}} -- then {{{^}}} will work just like in Python, and you can later turn on the preparser with {{{preparser(True)}}}. (That only works in command-line Sage; in a notebook, switch to Python mode.)
 
