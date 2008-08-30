@@ -10,6 +10,8 @@ We will focus mostly on doctests Doc Days 3.   Our goal is to raise the coverage
 
 Add your name here if you're going to be involved, and mention what Sage module you're going to work on!
 
+- Timothy Clemans, hand-tests for the notebook
+
 == Modules ==
 
 Coverage scores by module for sage-3.1.2.alpha2  I made this with the following
