@@ -10,7 +10,8 @@ We will focus mostly on doctests Doc Days 3.   Our goal is to raise the coverage
 
 Add your name here if you're going to be involved, and mention what Sage module you're going to work on!
 
-- Timothy Clemans, hand-tests for the notebook
+ * Timothy Clemans, hand-tests for the notebook
+ * Michael Abshoff: merging and reviewing patches
 
 == Modules ==
 
