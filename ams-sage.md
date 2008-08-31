@@ -5,9 +5,9 @@
 
 === Organizers ===
 
-    * David Saunders, University of Delaware
-    * David Harvey, Harvard University
-    * David Joyner, U.S. Naval Academy 
+    * David Saunders, University of Delaware,  <saunders@udel.edu>
+    * David Harvey, New York University, <dmharvey@cims.nyu.edu>
+    * David Joyner, U.S. Naval Academy, <wdjoyner@gmail.com>
 
 The time slots scheduled are: 
   
