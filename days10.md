@@ -40,7 +40,7 @@ with SAGE, and 3 contributed speakers, who typically describe a SAGE module
 
 === Location: ===
 
-[http://www.loria.fr/presentation-en Loria] [http://www.loria.fr/access-en/acceder/the-way-to-loria/view?set_language=en Coming to Loria]
+[http://www.loria.fr/presentation-en Loria] [http://cado.gforge.inria.fr/workshop/venue.html Coming to Loria (webpage from another event, don't be confused).]
 
 
 {{{
