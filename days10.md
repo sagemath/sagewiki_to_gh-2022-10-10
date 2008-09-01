@@ -52,6 +52,8 @@ with SAGE, and 3 contributed speakers, who typically describe a SAGE module
 
 [http://maps.google.fr/maps?f=q&hl=en&geocode=&ie=UTF8&ll=48.665497,6.157295&spn=0.002643,0.00501&t=h&z=18 Google Maps]
 
+[http://www.ot-nancy.fr/uk/centre_historique/index.php Finding an hotel in Nancy.]
+
 === Close events ===
 
 You may be interested in the [http://cado.gforge.inria.fr/workshop/ CADO project workshop]
