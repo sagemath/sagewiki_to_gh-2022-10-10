@@ -38,6 +38,8 @@ specialists in the corresponding domain, not necessarily already in contact
 with SAGE, and 3 contributed speakers, who typically describe a SAGE module
 (or a proposal of).
 
+The SAGE Days 10 dinner will take place on the 11th.
+
 === Location: ===
 
 [http://www.loria.fr/presentation-en Loria] [http://cado.gforge.inria.fr/workshop/venue.html Coming to Loria (webpage from another event, don't be confused).]
