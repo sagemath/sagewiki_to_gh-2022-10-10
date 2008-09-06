@@ -6,6 +6,7 @@ This is a collection of pages demonstrating the use of the interact command in S
  * [:interact/fractal:Fractals]
  * [:interact/calculus:Calculus]
  * [:interact/diffeq:Differential Equations]
+ * [:interact/dynsys:Dynamical Systems]
  * [:interact/linear algebra:Linear Algebra]
  * [:interact/algebra:Algebra]
  * [:interact/number theory:Number Theory]
