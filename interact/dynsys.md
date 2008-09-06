@@ -40,3 +40,4 @@ def cobwebber(f_text = input_box(default = "3.8*x*(1-x)",label = "function", typ
         return eval(f_text)
     show(cobweb(f, start_val, iterations = its))
 }}}
+attachment:cobweb.png
