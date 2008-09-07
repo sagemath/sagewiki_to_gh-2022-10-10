@@ -16,3 +16,53 @@ def gfan_browse(p1 = input_box('x^3+y^2',type = str, label='polynomial 1: '), p2
     show(testr, axes = False, figsize=[8,8*(3^(.5))/2])
 }}}
 attachment:gfan_interact.png
+
+== Numerical Solutions of Polynomial Systems with PHCpack ==
+by Marshall Hampton; requires phcpack optional package (PHCpack written by Jan Verschelde).
+The example below is a two-parameter deformation of the cyclic-6 problem.  Solution paths are tracked through the parameter homotopy.  
+{{{
+zringA.<z0,z1,z2,z3,z4,z5,a,b> = PolynomialRing(QQ,8)
+cyclic6 = [z0 + z1 + z2 + z3 + z4 + z5+a,
+ z0*z1 + z1*z2 + z2*z3 + z3*z4 + z4*z5 + z5*z0,
+ z0*z1*z2 + z1*z2*z3 + z2*z3*z4 + z3*z4*z5 + z4*z5*z0 + z5*z0*z1,
+ z0*z1*z2*z3 + z1*z2*z3*z4 + z2*z3*z4*z5 + z3*z4*z5*z0 + z4*z5*z0*z1 
+ + z5*z0*z1*z2,
+ z0*z1*z2*z3*z4 + z1*z2*z3*z4*z5 + z2*z3*z4*z5*z0 + z3*z4*z5*z0*z1 
+ + z4*z5*z0*z1*z2 + z5*z0*z1*z2*z3,
+ z0*z1*z2*z3*z4*z5 - b]
+zring.<z0,z1,z2,z3,z4,z5> = PolynomialRing(QQ,6)
+z1 = [zring(x.subs({a:1/10, b:1/10})) for x in cyclic6]
+s1 = phc.blackbox(z1,zring)
+s1sas = s1.save_as_start(start_filename = DATA + 's1phc')
+cstate = [open(DATA + 's1phc').read()]
+def def_cyclic(ain, bin):
+    eqs = [zring(x.subs({a:ain, b:bin})) for x in cyclic6]
+    return eqs
+slines2d = []
+mpts = []
+@interact
+def tbp_tracker(show_eqs = checkbox(False),a = slider(-1,1,1/100,1/100), b = slider(-1,1,1/100,1/100), h_c_skew = slider(0,.1,.001,0.0, label='Homotopy skew'), scale = slider([2.0^x for x in srange(.1,4,.025)],default = 2^1.6)):
+    z_pt = phc._path_track_file(start_filename_or_string = cstate[-1], polys = def_cyclic(a,b), input_ring = zring, c_skew = h_c_skew)
+    cstate.append(open(z_pt).read())
+    z_pp = phc._parse_path_file(z_pt)
+    hue_v = len(cstate)/(len(cstate)+1)
+    znames = ['z0','z1','z2','z3','z4','z5']
+    for a_sol in z_pp:
+        for z in znames:
+            mpts.append(point([a_sol[0][z].real(), a_sol[0][z].imag()], hue=hue_v,pointsize=3))
+            mpts.append(point([a_sol[-1][z].real(), a_sol[-1][z].imag()], hue=hue_v,pointsize=3))
+    for a_sol in z_pp:
+        zlines = [[] for q in znames]
+        for data in a_sol:
+            for i in range(len(znames)):
+                zn = znames[i]
+                zlines[i].append([data[zn].real(), data[zn].imag()])
+        for zl in zlines:
+            slines2d.append(line(zl, thickness = .5))
+    show(sum(slines2d)+sum(mpts), figsize = [5,5], xmin = -scale, xmax=scale, ymin=-scale,ymax=scale, axes = false)
+    if show_eqs:
+        pols = def_cyclic(a,b)
+        for i in len(pols):
+            show(pols[i])
+}}}
+attachment:pathtrack.png
