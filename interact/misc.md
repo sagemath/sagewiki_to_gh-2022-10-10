@@ -155,3 +155,50 @@ def rwalk3d(n=(50,1000), frame=True):
     show(line3d(v,color='black'),aspect_ratio=[1,1,1],frame=frame)
 }}}
 attachment:randomwalk3d.png
+
+== Minkowski Sum ==
+by Marshall Hampton
+{{{
+def minkdemo(list1,list2):
+    '''
+    Returns the Minkowski sum of two lists.
+    '''
+    output = []
+    for stuff1 in list1:
+        for stuff2 in list2:
+            temp = [stuff1[i] + stuff2[i] for i in range(len(stuff1))]
+            output.append(temp)
+    return output
+@interact
+def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), yb = slider(1,4,1/10,2, label = 'Blue point y coord.')):
+    t_list = [[1,0],[x1tri,1],[0,0]]
+    kite_list = [[3, 0], [1, 0], [0, 1], [1, yb]]
+    triangle = polygon([[q[0]-6,q[1]] for q in t_list], alpha = .5, rgbcolor = (1,0,0))
+    t_vert = point([x1tri-6,1], rgbcolor = (1,0,0))
+    b_vert = point([kite_list[3][0]-4,yb], rgbcolor = (0,0,1))
+    kite = polygon([[q[0]-4,q[1]] for q in kite_list], alpha = .5,rgbcolor = (0,0,1))
+    p12 = minkdemo(t_list, kite_list)
+    p12 = [[q[0],q[1]] for q in p12]
+    p12poly = Polyhedron(p12)
+    edge_lines = Graphics()
+    verts = p12poly.vertices()
+    for an_edge in p12poly.vertex_adjacencies():
+        edge_lines = edge_lines + line([verts[an_edge[0]], verts[an_edge[1][0]]])
+        edge_lines = edge_lines + line([verts[an_edge[0]], verts[an_edge[1][1]]])
+    triangle_sum = Graphics()
+    for vert in kite_list:
+        temp_list = []
+        for q in t_list:
+            temp_list.append([q[i] + vert[i] for i in range(len(t_list[0]))])
+        triangle_sum = triangle_sum + polygon(temp_list, alpha = .5, rgbcolor = (1,0,0))
+    kite_sum = Graphics()
+    for vert in t_list:
+        temp_list = []
+        for q in kite_list:
+            temp_list.append([q[i] + vert[i] for i in range(len(t_list[0]))])
+        kite_sum = kite_sum + polygon(temp_list, alpha = .3,rgbcolor = (0,0,1))
+    labels = text('+', (-4.3,.5), rgbcolor = (0,0,0))
+    labels = labels + text('=', (-.2,.5), rgbcolor = (0,0,0))
+    show(labels + t_vert + b_vert+ triangle + kite + triangle_sum + kite_sum + edge_lines, axes=False, figsize = [11.0*.7, 4*.7], xmin = -6, ymin = 0, ymax = 4)
+}}}
+attachment:minksum.png
