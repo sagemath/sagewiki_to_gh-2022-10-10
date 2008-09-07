@@ -59,7 +59,7 @@ The SAGE Days 10 dinner will take place on the 11th.
 === Close events ===
 
 You may be interested in the [http://cado.gforge.inria.fr/workshop/ CADO project workshop]
-which will occur at the same place, 7-9 october.
+which will occur at the same place, October 7-9.
 
 === Sponsors ===
 
@@ -71,5 +71,5 @@ which will occur at the same place, 7-9 october.
 
 === PhD students attendance support ===
 
-Thanks to funds donated by our sponsors, we are able to support attendance costs for a small number of PhD students.
+Thanks to funds donated by our sponsors, we are able to support attendance costs for a small number of Ph.D. students.
 Interested students should apply directly per mail to Paul Zimmermann (<paul.zimmermann@loria.fr>).
