@@ -4,7 +4,6 @@
 上
 是
 大
-gold
 ipod
 celebrities
 Youtube
