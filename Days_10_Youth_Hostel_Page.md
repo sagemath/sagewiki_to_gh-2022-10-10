@@ -10,4 +10,12 @@ Château de Rémicourt
  * It is a walking distance from campus: [http://tinyurl.com/65tmy2 googlemaps].
  * It is 14 euros/night, that we could maybe get slightly down with a group fare.
  * The bed-sheet service and breakfast are included
- * The dormitories are rater small 3 to 4 beds each.
+ * There is no individual room but small capacity dormitories: 3 to 4 beds each.
+
+Anyone interested to join the group reservation, please register by editing your name in the following list, or send an email at {{{clement . pernet [at] gmail.com}}}.
+
+Please sign up until '''Septembre 16''', so that we could contact the Hostel early enough with a good idea of the number of persons.
+
+== List of participants willing to stay at the Youth Hostel ==
+
+ * '''Clement Pernet''': from thursday 9 to wed 15
