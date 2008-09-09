@@ -29,7 +29,7 @@ The following program is preliminary.
        * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
-       * Carlo Traverso
+       * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
        * [http://www.csd.uwo.ca/~eschost/ Éric Schost]
    * October 13-15: Coding Sprints (chair Michael Abshoff)
 
