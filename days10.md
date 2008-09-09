@@ -30,7 +30,11 @@ The following program is preliminary.
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
-       * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: Computing with triangular families of polynomials: an overview                                            
+       * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: Computing with triangular families of polynomials: an overview
+     Contributed speaker:
+       * B.  Erocal : SCrypt: Using Symbolic Computation to Bridge the Gap Between Algebra and Cryptography                                                                                           
+       * M. Brickenstein : Secrets of Singular and PolyBoRi
+       * [http://www-calfor.lip6.fr/~renault/index.html G. Renault]                      
    * October 13-15: Coding Sprints (chair Michael Abshoff)
 
 Each "talk" day (October 10 to 12) typically has 2 invited speakers, who are
