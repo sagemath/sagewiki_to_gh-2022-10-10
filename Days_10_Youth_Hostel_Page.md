@@ -7,9 +7,9 @@ Château de Rémicourt
 54600 - Villers-les-Nancy
 }}}
 
- * It is a walking distance from campus: [http://tinyurl.com/65tmy2 googlemaps].
- * It is 14 euros/night, that we could maybe get slightly down with a group fare.
- * The bed-sheet service and breakfast are included
+ * It is a walking distance from campus: [http://tinyurl.com/65tmy2 googlemaps],
+ * It is 14 euros/night, that we could maybe get slightly down with a group fare,
+ * The bed-sheet service and breakfast are included,
  * There is no individual room but small capacity dormitories: 3 to 4 beds each.
 
 Anyone interested to join the group reservation, please register by editing your name in the following list, or send an email at {{{clement . pernet [at] gmail.com}}}.
