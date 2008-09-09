@@ -18,4 +18,4 @@ Please sign up until '''Septembre 16''', so that we could contact the Hostel ear
 
 == List of participants willing to stay at the Youth Hostel ==
 
- * '''Clement Pernet''': from thursday 9 to wed 15
+ * '''Clément Pernet''': from thursday 9 to wednesday 15,
