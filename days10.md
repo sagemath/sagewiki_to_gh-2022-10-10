@@ -30,7 +30,7 @@ The following program is preliminary.
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
-       * [http://www.csd.uwo.ca/~eschost/ Éric Schost]
+       * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: Computing with triangular families of polynomials: an overview                                            
    * October 13-15: Coding Sprints (chair Michael Abshoff)
 
 Each "talk" day (October 10 to 12) typically has 2 invited speakers, who are
