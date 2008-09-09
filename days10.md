@@ -58,8 +58,11 @@ The SAGE Days 10 dinner will take place on the 11th.
 
 [http://maps.google.fr/maps?f=q&hl=en&geocode=&ie=UTF8&ll=48.665497,6.157295&spn=0.002643,0.00501&t=h&z=18 Google Maps]
 
-[http://www.ot-nancy.fr/uk/centre_historique/index.php Finding an hotel in Nancy.]
+=== Accomodations ===
 
+  * [http://www.ot-nancy.fr/uk/centre_historique/index.php Finding an hotel in Nancy.]
+
+  * We will also coordinate a group reservation at the youth hostel: [http://www.fuaj.org/Nancy# Un petit coin de paradis]. Sign up in the ["Days 10 Youth Hostel Page"] if you're interested.
 === Close events ===
 
 You may be interested in the [http://cado.gforge.inria.fr/workshop/ CADO project workshop]
