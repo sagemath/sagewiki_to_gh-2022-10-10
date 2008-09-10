@@ -26,7 +26,7 @@ The following program is preliminary.
      Contributing speakers:
        * Martin Albrecht
        * Gregory Bard
-       * [http://www.rlmiller.org Robert Miller]
+       * [http://www.rlmiller.org Robert Miller]: An example of implementing automorphism groups: linear codes
    * October 11: Elliptic Curves (chair Laurent Fousse)
      Invited speakers:
        * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]
