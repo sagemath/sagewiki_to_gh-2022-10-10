@@ -23,6 +23,10 @@ The following program is preliminary.
      Invited speakers:
        * [http://www.cs.uwaterloo.ca/~astorjoh/ Arne Storjohann]
        * [http://ljk.imag.fr/membres/Jean-Guillaume.Dumas/ Jean-Guillaume Dumas]
+     Contributing speakers:
+       * Martin Albrecht
+       * Gregory Bard
+       * [http://www.rlmiller.org Robert Miller]
    * October 11: Elliptic Curves (chair Laurent Fousse)
      Invited speakers:
        * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]
@@ -31,7 +35,7 @@ The following program is preliminary.
      Invited speakers:
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
        * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: Computing with triangular families of polynomials: an overview
-     Contributed speaker:
+     Contributing speakers:
        * B.  Erocal : SCrypt: Using Symbolic Computation to Bridge the Gap Between Algebra and Cryptography
        * M. Brickenstein : Secrets of Singular and PolyBoRi
          This talk presents techniques for Gröbner bases calculations
