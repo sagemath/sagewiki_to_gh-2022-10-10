@@ -22,7 +22,8 @@ The following program is preliminary.
    * October 10: Linear Algebra (chair Clement Pernet)
      Invited speakers:
        * [http://www.cs.uwaterloo.ca/~astorjoh/ Arne Storjohann]
-       * [http://ljk.imag.fr/membres/Jean-Guillaume.Dumas/ Jean-Guillaume Dumas]
+       * [http://ljk.imag.fr/membres/Jean-Guillaume.Dumas/ Jean-Guillaume Dumas]:["Simultaneous Modular Reduction and Kronecker Substitution for
+ Small Finite Fields"]
      Contributing speakers:
        * Martin Albrecht
        * Gregory Bard
