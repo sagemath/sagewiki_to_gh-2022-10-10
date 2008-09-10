@@ -19,3 +19,4 @@ Please sign up until '''Septembre 16''', so that we could contact the Hostel ear
 == List of participants willing to stay at the Youth Hostel ==
 
  * '''Clément Pernet''': from thursday 9 to wednesday 15,
+ * '''David Harvey''': friday 10th to monday 13th (i.e. 4 nights)
