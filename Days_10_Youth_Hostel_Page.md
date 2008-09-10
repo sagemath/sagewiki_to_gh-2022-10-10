@@ -14,12 +14,15 @@ Château de Rémicourt
 
 Anyone interested to join the group reservation, please register by editing your name in the following list, or send an email at {{{clement . pernet [at] gmail.com}}}.
 
-Please sign up until '''Septembre 16''', so that we could contact the Hostel early enough with a good idea of the number of persons.
+Please sign up until '''September 16''', so that we could contact the Hostel early enough with a good idea of the number of persons.
 
 == List of participants willing to stay at the Youth Hostel ==
 ||                     || from       || to (including the night of that day) ||
-|| '''Clément Pernet'''||  thursday 9 || wednesday 15 ||
-|| '''David Harvey'''|| friday 10th || monday 13th (i.e. 4 nights)||
+|| '''Clément Pernet'''||  Thursday 9th || Wednesday 15th ||
+|| '''David Harvey'''|| Friday 10th || Monday 13th (i.e. 4 nights)||
 || '''Mike Hansen'''|| Friday 10th || Wednesday 15th ||
-|| '''Robert Bradshaw'''|| Thursday 9 || Wednesday 15||
-|| '''Harald Schilly'''|| Fri 10 || Wed 15 ||
+|| '''Robert Bradshaw'''|| Thursday 9th || Wednesday 15th ||
+|| '''Harald Schilly'''|| Friday 10 || Wednesday 15th ||
+|| '''Martin Albrecht''' || Thursday 9th || Wednesday 15th ||
+
+i.e. if you put 15th in there for '''to''', you check out on the 16th.
