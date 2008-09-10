@@ -22,3 +22,4 @@ Please sign up until '''Septembre 16''', so that we could contact the Hostel ear
  * '''David Harvey''': friday 10th to monday 13th (i.e. 4 nights)
  * '''Mike Hansen''': Friday 10th to Wednesday 15th
  * '''Robert Bradshaw''': Thursday 9 to Wednesday 15
+ * '''Harald Schilly''': Fri 10 to Thu 16 <- is the last day including or excluding? i leave on 16th.
