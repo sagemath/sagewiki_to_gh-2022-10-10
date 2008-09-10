@@ -24,7 +24,7 @@ The following program is preliminary.
        * [http://www.cs.uwaterloo.ca/~astorjoh/ Arne Storjohann]
        * [http://ljk.imag.fr/membres/Jean-Guillaume.Dumas/ Jean-Guillaume Dumas]:[:/JGDumasTalk: Simultaneous Modular Reduction and Kronecker Substitution for Small Finite Fields]
      Contributing speakers:
-       * Martin Albrecht
+       * Martin Albrecht: [:/MAlbrechtTalk: Matrix multiplication over GF(2) and the M4RI library]
        * Gregory Bard
        * [http://www.rlmiller.org Robert Miller]: An example of implementing automorphism groups: linear codes
    * October 11: Elliptic Curves (chair Laurent Fousse)
