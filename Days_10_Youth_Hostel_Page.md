@@ -20,3 +20,4 @@ Please sign up until '''Septembre 16''', so that we could contact the Hostel ear
 
  * '''Clément Pernet''': from thursday 9 to wednesday 15,
  * '''David Harvey''': friday 10th to monday 13th (i.e. 4 nights)
+ * '''Mike Hansen''': Friday 10th to Wednesday 15th
