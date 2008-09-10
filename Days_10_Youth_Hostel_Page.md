@@ -17,9 +17,9 @@ Anyone interested to join the group reservation, please register by editing your
 Please sign up until '''Septembre 16''', so that we could contact the Hostel early enough with a good idea of the number of persons.
 
 == List of participants willing to stay at the Youth Hostel ==
-
- * '''Clément Pernet''': from thursday 9 to wednesday 15,
- * '''David Harvey''': friday 10th to monday 13th (i.e. 4 nights)
- * '''Mike Hansen''': Friday 10th to Wednesday 15th
- * '''Robert Bradshaw''': Thursday 9 to Wednesday 15
- * '''Harald Schilly''': Fri 10 to Thu 16 <- is the last day including or excluding? i leave on 16th.
+||                     || from       || to (including the night of that day) ||
+|| '''Clément Pernet'''||  thursday 9 || wednesday 15 ||
+|| '''David Harvey'''|| friday 10th || monday 13th (i.e. 4 nights)||
+|| '''Mike Hansen'''|| Friday 10th || Wednesday 15th ||
+|| '''Robert Bradshaw'''|| Thursday 9 || Wednesday 15||
+|| '''Harald Schilly'''|| Fri 10 || Wed 15 ||
