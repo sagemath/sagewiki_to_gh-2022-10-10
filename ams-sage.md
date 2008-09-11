@@ -24,5 +24,6 @@ The time slots scheduled are:
  * [http://www.math.umb.edu/~anoel/ Alfred Noel]
  * Gregory Bard, Fordham, <bard@fordham.edu>
  * Marshall Hampton <mhampton@d.umn.edu>
+ * [http://www4.ncsu.edu/~kaltofen/ Erich Kaltofen]
 
 AMS session [http://www.ams.org/amsmtgs/2110_program_ss2.html#title webpage]
