@@ -24,5 +24,6 @@ Please sign up until '''September 16''', so that we could contact the Hostel ear
 || '''Robert Bradshaw'''|| Thursday 9th || Wednesday 15th ||
 || '''Harald Schilly'''|| Friday 10 || Wednesday 15th ||
 || '''Martin Albrecht''' || Thursday 9th || Wednesday 15th ||
+|| '''Robert Miller'''|| Friday 10th || Wednesday 15th ||
 
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
