@@ -469,3 +469,76 @@ def butterfly3d():
 http://sage.math.washington.edu/home/wdj/art/butterfly2d.png
 
 http://sage.math.washington.edu/home/wdj/art/butterfly3d.png
+
+ * "three famous plots of chaos" by Pablo Angulo
+{{{
+# Author: Pablo Angulo
+
+Posted to sage-devel 2008-09-13. See also https://sage.math.washington.edu:8101/home/pub/3
+-----------------------------------
+
+#Plots Feigenbaum diagram: divides the parameter interval [2,4] for mu
+#into N steps. For each value of the parameter, iterate the discrete
+#dynamical system x->mu*x*(1-x), drop the first M1 points in the orbit
+#and plot the next M2 points in a (mu,x) diagram
+
+N=200
+M1=200
+M2=200
+x0=0.509434
+
+puntos=[]
+for t in range(N):
+   mu=2.0+2.0*t/N
+   x=x0
+   for i in range(M1):
+       x=mu*x*(1-x)
+   for i in range(M2):
+       x=mu*x*(1-x)
+       puntos.append((mu,x))
+point(puntos,pointsize=1)
+
+---------------------------------------
+#Lorentz attractor
+#plots the orbit of the point (1,1,1) using the simplest euler method
+
+h=0.01;         # time step
+k=2000          # number of iterations (time k*h will be reached)
+
+sigma=10;       #parameters
+rho=28;
+beta=8/3;
+
+x=1; y=1; z=1;              # initial data
+
+puntos=[]
+for i in range(k):
+   x,y,z=x+h*( sigma*(y-x) ), y+h*( x*(rho - z) - y ), z+h*( x*y - beta*z )
+   puntos.append((x,y,z))
+point3d(puntos)
+
+--------------------------------------------
+
+#Mandelbrot set: the final plot is a subset of the complex plane;
+#the color at point c is porportional to the number of iterations that
+#the discrete dynamical system z->z^2+c takes to leave a circle around
+#the origin when z0=0
+
+N=100        #resolution of the plot
+L=50        #limits the number of iterations
+x0=-2; x1=1; y0=-1.5; y1=1.5  #boundary of the region plotted
+R=3        #stop after leaving the circle of radius R
+
+m=matrix(N,N)
+for i in range(N):
+   for k in range(N):
+       c=complex(x0+i*(x1-x0)/N, y0+k*(y1-y0)/N)
+       z=0
+       h=0
+       while (h<L) and (abs(z)<R):
+           z=z*z+c
+           h+=1
+       m[i,k]=h
+matrix_plot(m)
+
+}}}
