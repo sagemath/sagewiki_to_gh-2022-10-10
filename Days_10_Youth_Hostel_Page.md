@@ -26,4 +26,5 @@ Please sign up until '''September 16''', so that we could contact the Hostel ear
 || '''Martin Albrecht''' || Thursday 9th || Wednesday 15th ||
 || '''Robert Miller'''|| Friday 10th || Wednesday 15th ||
 || '''Gunnar Völkel'''|| Thursday 9th|| Sunday 12th||
+|| '''Bertrand Meyer'''|| Thursday 9th|| Sunday 12th||
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
