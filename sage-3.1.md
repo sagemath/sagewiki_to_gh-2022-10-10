@@ -4,7 +4,9 @@ Sage 3.1.1 was released on XXX, 2008. For the official, comprehensive release no
 
 == Graph and Plotting Improvements ==
 
-Franco Saliola, Arnaud Bergeron, Jason Grout
+Arnaud Bergeron, Jason Grout, Robert Miller, Franco Saliola
+
+  * (Robert Miller, Franco Saliola) Automatic plotting of trees and posets.
 
 == Major Update to Root Systems ==
 
@@ -29,6 +31,8 @@ David Harvey
 == Partition Refinement ==
 
 Robert Miller
+
+  * Generalized the existing algorithms for graphs and binary codes, rewrote algorithm to be substantially more legible and maintainable.
 
 == Implement Integral Point Finding for Elliptic Curves over Q ==
 
