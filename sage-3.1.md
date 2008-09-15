@@ -38,7 +38,7 @@ Robert Miller
 
 Tobias Nagel, Michael Mardaus, John Cremona
 
-  * Integral pints on elliptic curves over Q: done, in 3.1.1
+  * Integral points on elliptic curves over Q: done, in 3.1.1
   * S-integral points on elliptic curves over Q: in progress
 
 == New sage_input Function ==
