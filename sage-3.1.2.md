@@ -6,6 +6,7 @@ Sage 3.1.2 was released on XXX, 2008. For the official, comprehensive release no
  * Mike Hansen wrote doctests for almost all pexpect interfaces, which will ensure greater stability across the board.
 
 == Hidden Markov Models ==
+ * William Stein wrote Cython bindings for the GHMM C library for computing with Hidden Markov Models, which are a statistical tool that is important in machine learning, natural language processing, bioinformatics, and other areas.  GHMM is also now included standard in Sage.
 
 == Notebook Bugs ==
  * Many bugs introduced in 3.1.1 were fixed by Mike Hansen and Timothy Clemans. 
@@ -46,5 +47,6 @@ Robert Miller
 == Better SymPy Integration ==
 
 == Faster Determinants of Matrices over Multivariate Polynomial Rings ==
+ * Martin Albrecht modified Sage to use Singular 
 
 == Real Number Inputs Improved ==
