@@ -11,7 +11,7 @@ Sage 3.1.2 was released on XXX, 2008. For the official, comprehensive release no
  * Many bugs introduced in 3.1.1 were fixed by Mike Hansen and Timothy Clemans. 
  * A new testing procedure was implemented, hopefully preventing regressions like in 3.1.1 in the future.
 
-== New Structure for Partition Refinement ==
+== New Structures for Partition Refinement ==
 
 Robert Miller
 
