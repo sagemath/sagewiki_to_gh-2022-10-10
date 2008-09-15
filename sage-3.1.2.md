@@ -46,7 +46,38 @@ Robert Miller
 
 == Better SymPy Integration ==
 
-== Faster Determinants of Matrices over Multivariate Polynomial Rings ==
+== Faster Determinants of Dense Matrices over Multivariate Polynomial Rings ==
  * Martin Albrecht modified Sage to use Singular 
 
+'''Before'''
+{{{
+sage: P.<x,y> = QQ[]
+sage: C = random_matrix(P,8,8)
+sage: %time d = C.det()
+CPU times: user 2.78 s, sys: 0.02 s, total: 2.80 s
+}}}
+
+'''After'''
+{{{
+sage: P.<x,y> = QQ[]
+sage: C = random_matrix(P,8,8)
+sage: %time d = C.det()
+CPU times: user 0.09 s, sys: 0.00 s, total: 0.09 s
+}}}
+ * a discussion about this issue can be found on [http://groups.google.com/group/sage-devel/browse_thread/thread/7aa1bd1e945ff372/ sage-devel]
+
 == Real Number Inputs Improved ==
+ * Robert Bradshaw improved real number input so that the precision is preserved better:
+
+'''Before'''
+
+{{{
+sage: RealField(256)(1.2)
+1.199999999999999955591079014993738383054733276367187500000000000000000000000
+}}}
+
+'''After'''
+{{{
+sage: RealField(256)(1.2)
+1.200000000000000000000000000000000000000000000000000000000000000000000000000
+}}}
