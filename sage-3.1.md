@@ -34,9 +34,12 @@ Robert Miller
 
   * Generalized the existing algorithms for graphs and binary codes, rewrote algorithm to be substantially more legible and maintainable.
 
-== Implement Integral Point Finding for Elliptic Curves over Q ==
+== Integral Point Finding for Elliptic Curves over Q ==
 
 Tobias Nagel, Michael Mardaus, John Cremona
+
+  * Integral pints on elliptic curves over Q: done, in 3.1.1
+  * S-integral points on elliptic curves over Q: in progress
 
 == New sage_input Function ==
 
