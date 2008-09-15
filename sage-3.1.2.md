@@ -21,16 +21,56 @@ Robert Miller
 
 == Improved Dense Linear Algebra over GF(2) ==
  * M4RI (http://m4ri.sagemath.org) was updated to the newest upstream release which
-  * provides much improved performance for multiplication,
+  * provides much improved performance for multiplication (see [http://m4ri.sagemath.org/performance.html M4RI's "performance" page]),
   * provides improved performance for elimination,
   * contains several build and bugfixes.
- * hashs and matrix pickling was much improved
- * dense matrices over $\mathbb{F}_2$ can now be written to/read from 1-bit PNG images
+ * hashs and matrix pickling was much improved (Martin Albrecht)
+ * dense matrices over $\mathbb{F}_2$ can now be written to/read from 1-bit PNG images (Martin Albrecht)
 
 == New PolyBoRi Version (0.5) and Improved Interface ==
- * PolyBoRi was upgraded from 0.3 to 0.5rc
+ * PolyBoRi was upgraded from 0.3 to 0.5rc (Tim Abbott, Michael Abshoff, Martin Albrecht)
  * {{{mq.SR}}} now returns PolyBoRi equation systems if asked to
  * support for boolean polynomial interpolation was added
+
+'''Example'''
+
+First we create a random-ish boolean polynomial.
+
+{{{
+sage: B.<a,b,c,d,e,f> = BooleanPolynomialRing(6)
+sage: f = a*b*c*e + a*d*e + a*f + b + c + e + f + 1
+}}}            
+Now we find interpolation points mapping to zero and to one.
+
+{{{
+sage: zeros = set([(1, 0, 1, 0, 0, 0), (1, 0, 0, 0, 1, 0), \
+                   (0, 0, 1, 1, 1, 1), (1, 0, 1, 1, 1, 1), \
+                   (0, 0, 0, 0, 1, 0), (0, 1, 1, 1, 1, 0), \
+                   (1, 1, 0, 0, 0, 1), (1, 1, 0, 1, 0, 1)])
+sage: ones = set([(0, 0, 0, 0, 0, 0), (1, 0, 1, 0, 1, 0), \
+                  (0, 0, 0, 1, 1, 1), (1, 0, 0, 1, 0, 1), \
+                  (0, 0, 0, 0, 1, 1), (0, 1, 1, 0, 1, 1), \
+                  (0, 1, 1, 1, 1, 1), (1, 1, 1, 0, 1, 0)])
+sage: [f(*p) for p in zeros]
+[0, 0, 0, 0, 0, 0, 0, 0]
+sage: [f(*p) for p in ones]
+[1, 1, 1, 1, 1, 1, 1, 1]
+}}}
+
+Finally, we find the lexicographically smallest interpolation polynomial using PolyBoRi .
+
+{{{
+sage: g = B.interpolation_polynomial(zeros, ones); g
+b*f + c + d*f + d + e*f + e + 1
+}}}
+
+{{{
+sage: [g(*p) for p in zeros]
+[0, 0, 0, 0, 0, 0, 0, 0]
+sage: [g(*p) for p in ones]
+[1, 1, 1, 1, 1, 1, 1, 1]
+}}}
+
 
 == QEPCAD Interface ==
 
