@@ -22,6 +22,8 @@ $ ./sage -t -valgrind devel/sage/sage/groups/perm_gps/
 
 (Note that currently the "valgrind" option cannot be the first argument.)
 
+Once the session is finished, the results can be found in `$HOME/.sage/valgrind/`. Each file can be searched for phrases like "definitely lost" or "conditional jump", and the stack traces give line numbers in the generated C source (remember to look up that line number in the `.c` file and use that to figure out which line it is in the `.pyx` file).
+
 = Introduction =
 Sage 2.8.5 and later supports a number of valgrind tools:
 
