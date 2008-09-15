@@ -25,6 +25,29 @@ Robert Miller
   * provides improved performance for elimination,
   * contains several build and bugfixes.
  * hashs and matrix pickling was much improved (Martin Albrecht)
+
+'''Before'''
+{{{
+sage: A = random_matrix(GF(2),10000,10000)
+sage: A.set_immutable()
+sage: %time _ = hash(A)
+CPU times: user 3.96 s, sys: 0.62 s, total: 4.58 s
+sage: A = random_matrix(GF(2),2000,2000)
+sage: %time _ = loads(dumps(A))
+CPU times: user 4.00 s, sys: 0.07 s, total: 4.07 s
+}}}
+
+'''After'''
+{{{
+sage: A = random_matrix(GF(2),10000,10000)
+sage: A.set_immutable()
+sage: %time _ = hash(A)
+CPU times: user 0.02 s, sys: 0.00 s, total: 0.02 s
+sage: A = random_matrix(GF(2),2000,2000)
+sage: %time _ = loads(dumps(A))
+CPU times: user 1.35 s, sys: 0.01 s, total: 1.37 s
+}}}
+
  * dense matrices over $\mathbb{F}_2$ can now be written to/read from 1-bit PNG images (Martin Albrecht)
 
 == New PolyBoRi Version (0.5) and Improved Interface ==
@@ -85,6 +108,7 @@ sage: [g(*p) for p in ones]
  * In the {{{module matrix_group}}}, the method {{{module_composition_factors}}} interfaces with GAP's [http://www.gap-system.org/Manuals/doc/htm/ref/CHAP067.htm Meataxe] implementation. This will return decomposition information for a G-module, for any matrix group G over a finite field.
 
 == Better SymPy Integration ==
+ * Ondrej Cetrik implemented more conversions from Sage native types to SymPy native types.
 
 == Faster Determinants of Dense Matrices over Multivariate Polynomial Rings ==
  * Martin Albrecht modified Sage to use Singular 
