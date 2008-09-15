@@ -21,7 +21,7 @@ Please sign up until '''September 16''', so that we could contact the Hostel ear
 || '''Clément Pernet'''||  Thursday 9th || Wednesday 15th ||
 || '''David Harvey'''|| Friday 10th || Monday 13th (i.e. 4 nights)||
 || '''Mike Hansen'''|| Friday 10th || Wednesday 15th ||
-|| '''Robert Bradshaw'''|| Thursday 9th || Thursday 16th ||
+|| '''Robert Bradshaw'''|| Thursday 9th || Wednesday 15th ||
 || '''Harald Schilly'''|| Friday 10 || Wednesday 15th ||
 || '''Martin Albrecht''' || Thursday 9th || Wednesday 15th ||
 || '''Robert Miller'''|| Friday 10th || Wednesday 15th ||
