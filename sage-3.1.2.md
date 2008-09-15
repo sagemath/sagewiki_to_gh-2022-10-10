@@ -12,7 +12,11 @@ Sage 3.1.2 was released on XXX, 2008. For the official, comprehensive release no
  * A new testing procedure was implemented, hopefully preventing regressions like in 3.1.1 in the future.
 
 == New Structure for Partition Refinement ==
+
+Robert Miller
+
  * Hypergraphs (i.e. incidence structures) -- this includes simplicial complexes and block designs
+ * Matrices -- the automorphism group of a matrix is the set of column permutations which leave the (unordered) set of rows unchanged
 
 == Improved Dense Linear Algebra over GF(2) ==
  * M4RI (http://m4ri.sagemath.org) was updated to the newest upstream release which
