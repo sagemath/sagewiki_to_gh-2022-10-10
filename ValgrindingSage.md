@@ -1,3 +1,27 @@
+= Quick and Dirty Intro =
+To use Valgrind in Sage 3.1.2:
+{{{
+$ tar xf sage-3.1.2.tar
+...
+$ cd sage-3.1.2
+$ SAGE_VALGRIND="yes"
+$ export SAGE_VALGRIND
+$ make
+}}}
+You may also want to change `$SAGE_LOCAL/lib/python/config/Makefile` to have optimization `-O0` for easier to read stack traces.
+
+After this, you can test interactive sessions:
+{{{
+$ ./sage -valgrind
+}}}
+or run valgrind on a set of doctests:
+
+{{{
+$ ./sage -t -valgrind devel/sage/sage/groups/perm_gps/
+}}}
+
+(Note that currently the "valgrind" option cannot be the first argument.)
+
 = Introduction =
 Sage 2.8.5 and later supports a number of valgrind tools:
 
@@ -11,10 +35,10 @@ Valgrinding Sage is difficult because it runs on top of Python which poses a num
 {{{
 sage -optional
 }}}
-to see the list of optional packages. You should install the valgrind.spkg with the highest revision number. There is also a special version that includes omega, an experimental valgrind tool.
+to see the list of optional packages. You should install the valgrind.spkg with the highest revision number.
 
 = Valgrind Version =
-The latest official valgrind 3.2.3 does not work. You need to build from 3.3.0svn trunk. There is an experimental Sage valgrind.spkg that works and is used by many of the Sage developers.
+As of Sage 3.1.2, Valgrind 3.3.1 is available as an optional package.
 
 = Known Issues With Sage Components =
 
