@@ -30,4 +30,5 @@ Please sign up until '''September 16''', so that we could contact the Hostel ear
 || '''Pascal Molin'''|| Thursday 9th|| Monday 13th||
 || '''Simon King'''||  Thursday 9th || Wednesday 15th ||
 || '''Philippe Ravache'''|| Thursday 9th|| Tuesday 14th||
+|| '''Michael Abshoff'''||  Thursday 9th || Wednesday 15th ||
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
