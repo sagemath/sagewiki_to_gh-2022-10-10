@@ -25,5 +25,7 @@ The time slots scheduled are:
  * Gregory Bard, Fordham, <bard@fordham.edu>
  * Marshall Hampton <mhampton@d.umn.edu>
  * [http://www4.ncsu.edu/~kaltofen/ Erich Kaltofen]
+ * Qing Xiang <xiang@math.udel.edu>
+ * Robert Miller, University of Washington, <rlmiller@gmail.com>
 
 AMS session [http://www.ams.org/amsmtgs/2110_program_ss2.html#title webpage]
