@@ -15,8 +15,7 @@ $\mathcal{M}_{\overline{n}}$ of abelian varieties of dimension $g$
 over a field $k$ together with an ample symmetric line bundle
 $L$ and a theta structure of type $\overline{n}$. If $\ell$ is a
 prime and let $\overline{\ell}=(\ell, \ldots , \ell)$, there exists a
-modular correspondence $\mathcal{M}_{\overline{\ell n}} \rightarrow
-\mathcal{M}_{\overline{n}} \times \mathcal{M}_{\overline{n}}$. We give
+modular correspondence $\mathcal{M}_{\overline{\ell n}} \rightarrow \mathcal{M}_{\overline{n}} \times \mathcal{M}_{\overline{n}}$. We give
 a system of algebraic equations defining the image of this modular
 correspondence.
 
