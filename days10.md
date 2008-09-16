@@ -31,6 +31,8 @@ The following program is preliminary.
      Invited speakers:
        * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]
        * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]
+     Contributing speakers:
+       * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using SAGE]
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
