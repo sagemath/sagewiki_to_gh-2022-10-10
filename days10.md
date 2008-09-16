@@ -30,7 +30,7 @@ The following program is preliminary.
    * October 11: Elliptic Curves (chair Laurent Fousse)
      Invited speakers:
        * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]
-       * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]
+       * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]: [:/DavidLubiczTalk: Computing modular correspondences for abelian varieties (with Jean-Charles Faugère)]
      Contributing speakers:
        * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using SAGE]
    * October 12: Groebner Bases (chair Ludovic Perret)
