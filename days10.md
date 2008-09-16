@@ -29,7 +29,7 @@ The following program is preliminary.
        * [http://www.rlmiller.org Robert Miller]: [:/RMillerTalk: An example of implementing automorphism groups: linear codes]
    * October 11: Elliptic Curves (chair Laurent Fousse)
      Invited speakers:
-       * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]
+       * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]: Elliptic Curves in Sage
        * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]: [:/DavidLubiczTalk: Computing modular correspondences for abelian varieties (with Jean-Charles Faugère)]
      Contributing speakers:
        * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using SAGE]
