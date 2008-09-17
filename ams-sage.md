@@ -28,6 +28,6 @@ The time slots scheduled are:
  * Qing Xiang <xiang@math.udel.edu>
  * Robert Miller, University of Washington, <rlmillster@gmail.com>
  * [http://www.ens-lyon.fr/~gvillard Gilles Villard]
- * Dan Roche, Univ. Waterloo
+ * Dan Roche, Univ. Waterloo, droche@cs.uwaterloo.ca
 
 AMS session [http://www.ams.org/amsmtgs/2110_program_ss2.html#title webpage]
