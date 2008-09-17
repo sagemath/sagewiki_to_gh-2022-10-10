@@ -26,7 +26,7 @@ The time slots scheduled are:
  * Marshall Hampton <mhampton@d.umn.edu>
  * [http://www4.ncsu.edu/~kaltofen/ Erich Kaltofen]
  * Qing Xiang <xiang@math.udel.edu>
- * Robert Miller, University of Washington, <rlmiller@gmail.com>
+ * Robert Miller, University of Washington, <rlmillster@gmail.com>
  * [http://www.ens-lyon.fr/~gvillard Gilles Villard]
  * Dan Roche, Univ. Waterloo
 
