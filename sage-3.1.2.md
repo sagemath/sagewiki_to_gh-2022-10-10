@@ -145,3 +145,11 @@ sage: RealField(256)(1.2)
 sage: RealField(256)(1.2)
 1.200000000000000000000000000000000000000000000000000000000000000000000000000
 }}}
+
+== Arrow drawing improved ==
+ * The arrows in Sage were redone to look nicer and behave better with graphs:
+
+{{{
+sage: g = DiGraph({0:[1,2,3],1:[0,3,4], 3:[4,6]})
+sage: show(g)
+}}}
