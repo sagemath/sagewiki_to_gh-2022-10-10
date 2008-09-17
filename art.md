@@ -3,7 +3,7 @@
  * [http://sage.math.washington.edu/home/malb/graphics/banner.png Banner idea (not used)]
  * [http://sage.math.washington.edu/home/was/tmp/ams/sage_banner.png Banner]
  * [http://sage.math.washington.edu/home/was/tmp/ams/sage_poster_conference_schilly.tar.gz Banner files]
- * [http://sagemath.org/flier2/ files for a flyer]
+ * [http://sagemath.org/old/flier2/ files for a flyer]
 ----
 = Sage Days =
 == Sage Days 4 ==
@@ -26,8 +26,8 @@
 ----
 = Sage-related art =
  * [http://sage.math.washington.edu/home/malb/graphics/banner/sagelogo.png logo]
- * [http://modular.math.washington.edu/sage/days2/sage-car.png Sage car]
+ * [http://www.sagemath.org/old/days2/sage-car.png Sage car]
  * [http://sage.math.washington.edu/home/malb/graphics/sage-car.pdf Sage car PDF]
- * [http://sagemath.org/art/ old sage art page, some good graffiti!]
+ * [http://sagemath.org/old/art/ old sage art page, some good graffiti!]
  * [attachment:BadMugDesign.jpg Mug design, too dark though]
  * [attachment:gfan_example.png A Groebner fan; not sure if its art]
