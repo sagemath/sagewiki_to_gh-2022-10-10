@@ -62,11 +62,6 @@ Standard day schedule is as follows:
    * 15h30-16h00 Contributed Talk 2
    * 16h00-16h30 Contributed Talk 3
 
-Each "talk" day (October 10 to 12) typically has 2 invited speakers, who are
-specialists in the corresponding domain, not necessarily already in contact
-with SAGE, and 3 contributed speakers, who typically describe a SAGE module
-(or a proposal of).
-
 The SAGE Days 10 dinner will take place on the 11th.
 
 === Location: ===
@@ -100,8 +95,3 @@ which will occur at the same place, October 7-9.
    * [http://www.uhp-nancy.fr/ University Nancy 1 Henri Poincaré]
    * [http://www.inria.fr/ INRIA]
    * [http://www.gdr-im.fr/ GDR IM]
-
-=== PhD students attendance support ===
-
-Thanks to funds donated by our sponsors, we are able to support attendance costs for a small number of Ph.D. students.
-Interested students should apply directly per mail to Paul Zimmermann (<paul.zimmermann@loria.fr>).
