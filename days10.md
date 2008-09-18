@@ -50,6 +50,18 @@ The following program is preliminary.
        * [http://www-calfor.lip6.fr/~renault/index.html G. Renault]
    * October 13-15: Coding Sprints (chair Michael Abshoff)
 
+Standard day schedule is as follows:
+
+   * 09h30-10h00 Arrival/registration
+   * 10h00-11h00 Invited Talk 1
+   * 11h00-11h30 Coffee Break
+   * 11h30-12h00 Contributed Talk 1
+   * 12h00-14h00 Lunch Break
+   * 14h00-15h00 Invited Talk 2
+   * 15h00-15h30 Coffee Break
+   * 15h30-16h00 Contributed Talk 2
+   * 16h00-16h30 Contributed Talk 3
+
 Each "talk" day (October 10 to 12) typically has 2 invited speakers, who are
 specialists in the corresponding domain, not necessarily already in contact
 with SAGE, and 3 contributed speakers, who typically describe a SAGE module
