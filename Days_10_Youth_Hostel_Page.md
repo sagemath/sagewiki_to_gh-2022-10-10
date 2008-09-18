@@ -34,4 +34,5 @@ Please sign up until '''September 16''', so that we could contact the Hostel ear
 || '''Burcin Erocal'''||  Thursday 9th || Wednesday 15th ||
 || '''Edouardo Ocampo'''|| Thursday 9th || Wednesday 15th||
 || '''Andrey Timoveef'''|| Thursday 9th || Tuesday 14th||
+|| '''Nicolas Thierry'''|| Saturday 11th|| Wednesday 15th||
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
