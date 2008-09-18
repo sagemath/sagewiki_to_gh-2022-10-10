@@ -18,7 +18,7 @@ Please sign up until '''September 16''', so that we could contact the Hostel ear
 
 == List of participants willing to stay at the Youth Hostel ==
 ||                     || from       || to (including the night of that day) ||
-|| '''Clément Pernet'''||  Thursday 9th || Wednesday 15th ||
+|| '''Clément Pernet'''||  Thursday 9th || Tuesday 14th ||
 || '''David Harvey'''|| Friday 10th || Monday 13th (i.e. 4 nights)||
 || '''Mike Hansen'''|| Friday 10th || Wednesday 15th ||
 || '''Robert Bradshaw'''|| Thursday 9th || Wednesday 15th ||
@@ -33,4 +33,5 @@ Please sign up until '''September 16''', so that we could contact the Hostel ear
 || '''Michael Abshoff'''||  Thursday 9th || Wednesday 15th ||
 || '''Burcin Erocal'''||  Thursday 9th || Wednesday 15th ||
 || '''Edouardo Ocampo'''|| Thursday 9th || Wednesday 15th||
+|| '''Andrey Timoveef'''|| Thursday 9th || Tuesday 14th||
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
