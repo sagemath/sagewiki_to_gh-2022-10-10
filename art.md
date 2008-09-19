@@ -10,7 +10,7 @@
  * [http://www.sagemath.org/flier/flier.pdf flyer]
 == Sage Days 3 ==
  * [http://modular.math.washington.edu/home/wdj/art/sd3-motivator-mozaic.jpg mosaic poster]
- * [http://modular.math.washington.edu/home/wdj/art/sd3-motivator-poster.jpg poster with SAGE graphic]
+ * [http://modular.math.washington.edu/home/wdj/art/sd3-motivator-poster.jpg poster with Sage graphic]
  * [http://modular.math.washington.edu/home/wdj/art/sd3-magazine-cover.jpg magazine-cover style poster]
  * [http://sage.math.washington.edu/home/boothby/icons/sagedays3.1.png sage days 3 logo]
 == Sage Days 2 ==
