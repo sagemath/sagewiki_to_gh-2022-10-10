@@ -191,3 +191,5 @@ sage: D
 sage: a*P==P*D
 True
 }}}
+
+The question marks at the end of the numbers in the previous example mean that Sage is printing out an approximation of an exact value that it uses.  In particular, the question mark means that the last digit can vary by plus or minus 1.  In other words, 32.46424919657298? means that the exact number is really between 32.46424919657297 and 32.46424919657299.  Sage knows what the exact number is and uses the exact number in calculations.
