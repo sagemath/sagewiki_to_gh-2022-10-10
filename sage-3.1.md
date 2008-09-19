@@ -48,3 +48,15 @@ Tobias Nagel, Michael Mardaus, John Cremona
 == New sage_input Function ==
 
 Carl Witty
+
+== New printing for intervals and QQbar elements ==
+
+Carl Witty
+
+Sage 3.1.1 introduces a new way to print intervals and QQbar elements:
+{{{
+sage: QQbar(sqrt(2))
+1.414213562373095?
+}}}
+
+The question mark syntax indicates that the real value is within 1.414213562373094 and 1.414213562373096 (that the last digit could vary by up to plus or minus one).  For QQbar elements, Sage knows the real value and uses that value in calculations.
