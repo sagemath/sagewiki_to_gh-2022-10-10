@@ -97,12 +97,12 @@ http://sage.math.washington.edu/home/wdj/art/hypotrochoid_R_equals_7,_r_equals_2
 
                      Inspiration:                                                                  
                                                                                
- But a SAGE newbie & out to do projects & learn more, one day I was surfing    
+ But a Sage newbie & out to do projects & learn more, one day I was surfing    
  Wikipedia and hit < http://en.wikipedia.org/wiki/Hypotrochoid >, saw          
- the animated graph, and thought, ...                                                                                                                          "I bet I can make SAGE do that."                                                                                                         
+ the animated graph, and thought, ...                                                                                                                          "I bet I can make Sage do that."                                                                                                         
  Never one to back from a challenge, I did it.  A few mistakes & wrong turns,  
  at times some strong language & threatening the computer with violence, a few 
- questions to SAGE support groups, but, I finally pounded out code that        
+ questions to Sage support groups, but, I finally pounded out code that        
  worked.         
                                                                                                                                                                                                  
  I named it "Hypotrochoid," as animating this was the original inspiration,    
@@ -113,7 +113,7 @@ http://sage.math.washington.edu/home/wdj/art/hypotrochoid_R_equals_7,_r_equals_2
                                                                                
  This program animates (not just "draws," but "animates") graphs of several    
  relations, the hypotrochoid, the hypocycloid, the limacon (or "limacon of     
- Pascal"; SAGE doesn't like the French character in the original), the         
+ Pascal"; Sage doesn't like the French character in the original), the         
  cardioid, the epitrochoid, and the epicycloid.                                
                                                  
                               
@@ -141,7 +141,7 @@ http://sage.math.washington.edu/home/wdj/art/hypotrochoid_R_equals_7,_r_equals_2
                            
   ** For the epitrochoid, see < http://en.wikipedia.org/wiki/Epitrochoid >.        
      
-  ** For the Limacon (SAGE completely choked and spewed error messages on the      
+  ** For the Limacon (Sage completely choked and spewed error messages on the      
  French character in the original, even in a comment) of Pascal, see           
  < http://en.wikipedia.org/wiki/Lima%C3%A7on >.                                
      
@@ -163,7 +163,7 @@ http://sage.math.washington.edu/home/wdj/art/hypotrochoid_R_equals_7,_r_equals_2
 
  2) The hypocycloid, by setting 0 < r < R, d = r.                              
 
- 3) The limacon (or "limacon of Pascal"; SAGE doesn't like the French          
+ 3) The limacon (or "limacon of Pascal"; Sage doesn't like the French          
     character in the original), use r < 0, R = abs(r).                         
 
  4) The epicycloid, use r < 0 (put rotating circle on outside), d = r          
