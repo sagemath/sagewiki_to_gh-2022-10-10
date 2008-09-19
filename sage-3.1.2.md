@@ -147,9 +147,47 @@ sage: RealField(256)(1.2)
 }}}
 
 == Arrow drawing improved ==
- * The arrows in Sage were redone to look nicer and behave better with graphs:
+ * Jason Grout redid the arrows to look nicer and behave better with graphs:
 
 {{{
 sage: g = DiGraph({0:[1,2,3],1:[0,3,4], 3:[4,6]})
 sage: show(g)
+}}}
+
+== Eigen functions for matrices ==
+ * Jason Grout added a few standard functions to compute left and right eigenvalues and eigenvectors, returning exact results in QQbar.
+
+{{{
+sage: a = matrix(QQ, 4, range(16)); a
+[ 0  1  2  3]
+[ 4  5  6  7]
+[ 8  9 10 11]
+[12 13 14 15]
+sage: a.eigenvalues()
+[0, 0, -2.464249196572981?, 32.46424919657298?]
+sage: a.eigenvectors_right()
+[(0, [
+(1, 0, -3, 2),
+(0, 1, -2, 1)
+], 2),
+ (-2.464249196572981?,
+  [(1, 0.3954107716733585?, -0.2091784566532830?, -0.8137676849799244?)],
+  1),
+ (32.46424919657298?,
+  [(1, 2.890303514040928?, 4.780607028081855?, 6.670910542122782?)],
+  1)]
+sage: D,P=a.eigenmatrix_right()
+sage: P
+[                   1                    0                    1                    1]
+[                   0                    1  0.3954107716733585?   2.890303514040928?]
+[                  -3                   -2 -0.2091784566532830?   4.780607028081855?]
+[                   2                    1 -0.8137676849799244?   6.670910542122782?]
+sage: D
+
+[                  0                   0                   0                   0]
+[                  0                   0                   0                   0]
+[                  0                   0 -2.464249196572981?                   0]
+[                  0                   0                   0  32.46424919657298?]
+sage: a*P==P*D
+True
 }}}
