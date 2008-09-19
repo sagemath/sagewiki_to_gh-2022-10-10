@@ -155,7 +155,7 @@ sage: show(g)
 }}}
 
 == Eigen functions for matrices ==
- * Jason Grout added a few standard functions to compute left and right eigenvalues and eigenvectors, returning exact results in QQbar.
+ * Jason Grout added a few standard functions to compute eigenvalues and left and right eigenvectors, returning exact results in QQbar.
 
 {{{
 sage: a = matrix(QQ, 4, range(16)); a
