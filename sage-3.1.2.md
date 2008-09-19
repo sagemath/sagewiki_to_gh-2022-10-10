@@ -1,6 +1,6 @@
 = Sage 3.1.2 Release Tour =
 
-Sage 3.1.2 was released on XXX, 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release. For the latest changes see sage-3.1.2.txt. 
+Sage 3.1.2 was released on September 19th, 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release. For the latest changes see sage-3.1.2.txt. 
 
 == Doctest Coverage Hits 60% ==
  * Mike Hansen wrote doctests for almost all pexpect interfaces, which will ensure greater stability across the board.
