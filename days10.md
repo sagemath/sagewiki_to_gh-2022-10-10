@@ -49,6 +49,7 @@ The following program is preliminary.
          to exploit it.
        * [http://www-calfor.lip6.fr/~renault/index.html G. Renault]
    * October 13-15: Coding Sprints (chair Michael Abshoff)
+   * October 14: SAGE Demo by Robert Bradshaw at 17h.
 
 Standard day schedule is as follows:
 
