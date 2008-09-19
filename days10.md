@@ -32,7 +32,7 @@ The following program is preliminary.
        * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]: Elliptic Curves in Sage
        * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]: [:/DavidLubiczTalk: Computing modular correspondences for abelian varieties (with Jean-Charles Faugère)]
      Contributing speakers:
-       * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using SAGE]
+       * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using Sage]
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
@@ -62,7 +62,7 @@ Standard day schedule is as follows:
    * 15h30-16h00 Contributed Talk 2
    * 16h00-16h30 Contributed Talk 3
 
-The SAGE Days 10 dinner will take place on the 11th.
+The Sage Days 10 dinner will take place on the 11th.
 
 === Location: ===
 
