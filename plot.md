@@ -1,4 +1,4 @@
-== SAGE plotting ==
+== Sage plotting ==
 
 Here are some python plotting engines/libraries:
 
@@ -6,7 +6,7 @@ Here are some python plotting engines/libraries:
        * Grace: [http://plasma-gate.weizmann.ac.il/Grace/ grace], [http://www.idyll.org/~n8gray/code python interface]
        * PGPLOT: [http://efault.net/npat/hacks/ppgplot ppgplot], [http://www.astro.caltech.edu/~tjp/pgplot/ pgplot], [http://astro.swarthmore.edu/~burns/pygplot/ pygplot]
        * PLplot: http://www.plplot.org
-       * opemath: Written by William Schelter and part of Maxima (thus also SAGE) is a TCL/Tk plotting program which allows for interactive viewing. It has no separate download page. An example is this [http://modular.math.washington.edu/home/wdj/art/saddle.png saddle]: {{{sage: maxima.eval("plot3d(2^(-u^2+v^2),[u,-1,1],[v,-1,1],[plot_format, openmath]);")}}}
+       * opemath: Written by William Schelter and part of Maxima (thus also Sage) is a TCL/Tk plotting program which allows for interactive viewing. It has no separate download page. An example is this [http://modular.math.washington.edu/home/wdj/art/saddle.png saddle]: {{{sage: maxima.eval("plot3d(2^(-u^2+v^2),[u,-1,1],[v,-1,1],[plot_format, openmath]);")}}}
        * Dislin: [http://www.mps.mpg.de/dislin/ dislin], [http://kim.bio.upenn.edu/~pmagwene/disipyl.html disipyl] (a python wrapper for dislin). It's license says dislin is "free for non-commercial use". 
        * Pyqwt at http://pyqwt.sourceforge.net/ is a plotting package requiring QT. It seems to have some 3d capabilities http://pyqwt.sourceforge.net/pyqwt3d-examples.html.
    Currently developed / good:
@@ -15,8 +15,8 @@ Here are some python plotting engines/libraries:
    Under active development:
        * Jmol: http://jmol.sourceforge.net/
 
-SAGE's plotting functionality is built on top of matplotlib, which is a
+Sage's plotting functionality is built on top of matplotlib, which is a
 very extensive plotting library with a user interface that is very similiar to Matlab's plotting.
-The interface that SAGE provides to matplotlib is very Mathematica like.
+The interface that Sage provides to matplotlib is very Mathematica like.
 
 There are also several links to plotting/graphics/data visualization programs at the scipy [http://www.scipy.org/Topical_Software#head-b98ffdb309ccce4e4504a25ea75b5c806e4897b6 wiki].
