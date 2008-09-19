@@ -1,6 +1,6 @@
 == Sage in the News, Blogs, Forums and Buzz Sites ==
 
-Broadly construed, this will describe how SAGE (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving SAGE. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is percieved in the outside world.
+Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is percieved in the outside world.
 
 
   * [http://translate.google.com/translate?hl=en&sl=ro&u=http://incearca.softwareliber.ro/2008/07/21/sage-o-alternativa-viabila-la-matlab-mathematica-co/ Translated Romanian Blog/Article about Sage]
@@ -9,7 +9,7 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
 
   * [http://linuxappfinder.com/package/sage linux appfinder software list]
 
-  * [http://www.macresearch.org/plug-and-play-scientific-python-sage macresearch.org: "Plug-and-Play Scientific Python with SAGE"]
+  * [http://www.macresearch.org/plug-and-play-scientific-python-sage macresearch.org: "Plug-and-Play Scientific Python with Sage"]
 
   * [http://www.stumbleupon.com/url/www.sagemath.org/ Stumbleupon collective social bookmarking]
 
@@ -23,11 +23,11 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
 
   * [http://pozorvlak.livejournal.com/103579.html A blog post about sage with many amusing comments at the bottom]
 
-  * [http://www.macresearch.org/plug-and-play-scientific-python-sage Plug-and-Play Scientific Python with SAGE]
+  * [http://www.macresearch.org/plug-and-play-scientific-python-sage Plug-and-Play Scientific Python with Sage]
 
   * [http://www.funjackals.com/blog/?p=274 Sage Makes Me Happier Than Seems Reasonable]
 
-  * [http://www.walkingrandomly.com/?p=103 Walking Randomly: Interacting with SAGE - Part 1 (blog)]
+  * [http://www.walkingrandomly.com/?p=103 Walking Randomly: Interacting with Sage - Part 1 (blog)]
 
   * [http://reddit.com/info/6j7ly/comments/ Sage on Reddit yet again (2008-05-13)]
 
@@ -47,7 +47,7 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
  
   * [http://64.233.179.104/translate_c?hl=en&langpair=pt%7Cen&u=http://emersonbrasilgomes.blogspot.com/2008/01/software-para-experimentao-geomtrica-e.html  A Portuguese Article about Sage translated into English]
 
-  * [http://www.tuxmachines.org/node/23678 PCLinuxOS Repositories now include SAGE Math]
+  * [http://www.tuxmachines.org/node/23678 PCLinuxOS Repositories now include Sage Math]
  
   * Sage is mentioned in [http://www.math.rutgers.edu/~zeilberg/Opinion85.html Opinion 85: We Should Continue To Be Ambivalent Towards Ambiguity in Mathematics: It Sure Did Some Good, But It Also Did (and Does) Lots of Harm]
 
@@ -84,16 +84,16 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
   *  A blog post: Online version of MATLAB/Mathematica/Maple
     http://sidk.info/2007/11/19/online-version-of-matlabmathematicamaple/
 
-  *  A Blog post -- SAGE: Open source Math software released
+  *  A Blog post -- Sage: Open source Math software released
     http://wildaboutmath.com/2007/12/09/sage-open-source-math-software-released/
 
   *  Math and Open Source -- Sage and Mathematica
     http://decodingliberation.blogspot.com/2007/11/math-and-open-source.html
 
-  *  SAGE: open-source mathematics software -- an interesting blog post on Sage:
+  *  Sage: open-source mathematics software -- an interesting blog post on Sage:
     http://godplaysdice.blogspot.com/2007/12/sage-open-source-mathematics-software.html
 
-  *  SAGE in Russia:
+  *  Sage in Russia:
     http://rnd.cnews.ru/math/news/line/index_science.shtml?2007/12/10/278779
        [http://www.google.com/translate?u=http%3A%2F%2Frnd.cnews.ru%2Fmath%2Fnews%2Fline%2Findex_science.shtml%3F2007%2F12%2F10%2F278779&langpair=ru%7Cen&hl=en&ie=UTF8 English Version]
 
@@ -103,7 +103,7 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
   *  ZDNet: Sage - not a piece of cake, but powerful and open, Chris Dawson, Dec 9, 2007.
     http://education.zdnet.com/?p=1416
 
-  *  SAGE: Open Source Mathematics Software [del.icio.us] 
+  *  Sage: Open Source Mathematics Software [del.icio.us] 
     http://del.icio.us/url/4e91bfd942059dac1876d2c009c7d022
 
   *  Sage in TG Daily: Sage: a free, open-source complex math tool, by Rick C. Hodgin, Dec 7, 2007
@@ -111,28 +111,28 @@ Broadly construed, this will describe how SAGE (the software or the machine sage
 
   * [http://www.ddj.com/linux-open-source/204702621 Sage in Doctor Dobbs Journal]
 
-  *  WIRED: SAGE vs Mathematica is the topic of the Wired magazine blog:
+  *  WIRED: Sage vs Mathematica is the topic of the Wired magazine blog:
     Math Geek Software Smackdown: Sage v. Mathematica http://blog.wired.com/monkeybites/2007/12/math-geek-softw.html
 
 
-  *  SAGE is the topic of the UWeek article
+  *  Sage is the topic of the UWeek article
     [http://uwnews.org/uweek/uweekarticle.asp?articleID=38415 Free Software Brings Affordability, Transparency To Mathematics]
     [http://digg.com/software/Free_software_brings_affordability_to_mathematics Digg It]
     [http://physorg.com/news116173009.html PhysOrg]
 
-  *  SAGE is the topic of the slashdot article
+  *  Sage is the topic of the slashdot article
      Open Source 'Sage' Takes Aim at High End Math Software http://science.slashdot.org/article.pl?sid=07/12/08/1350258
   
-  *  SAGE is mentioned in the slashdot article
+  *  Sage is mentioned in the slashdot article
      Open Source Math http://science.slashdot.org/article.pl?sid=07/11/18/1341232
 
-  *  SAGE is the topic of the Science Daily News article
+  *  Sage is the topic of the Science Daily News article
     Free Software Brings Affordability, Transparency To Mathematics http://www.sciencedaily.com/releases/2007/12/071206145213.htm
 
-  *  SAGE was awarded the Trophees du Libre for scientific software!
+  *  Sage was awarded the Trophees du Libre for scientific software!
     http://www.tropheesdulibre.org/?lang=en
 
-  *  SAGE is mentioned in the Linux Insider article
+  *  Sage is mentioned in the Linux Insider article
     It's Time to Consider Open Source Software, Part 2 http://www.linuxinsider.com/story/57760.html
 
   *  E8 structure was decoded using the machine sage.math 
