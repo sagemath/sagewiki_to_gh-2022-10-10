@@ -21,7 +21,7 @@ I'll try to organize rooms as well as I can, so there is no garanty that you end
 == List of participants willing to stay at the Youth Hostel ==
 ||                     || from       || to (including the night of that day) || Confirmed ||
 || '''Clément Pernet'''||  Thursday 9th || Tuesday 14th || X ||
-|| '''David Harvey'''|| Friday 10th || Monday 13th (i.e. 4 nights)|| ||
+|| '''David Harvey'''|| Friday 10th || Monday 13th (i.e. 4 nights)|| X ||
 || '''Mike Hansen'''|| Friday 10th || Wednesday 15th || ||
 || '''Robert Bradshaw'''|| Thursday 9th || Wednesday 15th || ||
 || '''Harald Schilly'''|| Friday 10 || Wednesday 15th || X ||
