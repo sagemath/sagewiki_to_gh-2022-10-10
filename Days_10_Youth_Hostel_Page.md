@@ -32,7 +32,7 @@ I'll try to organize rooms as well as I can, so there is no garanty that you end
 || '''Pascal Molin'''|| Thursday 9th|| Monday 13th|| X ||
 || '''Simon King'''||  Thursday 9th || Wednesday 15th || X ||
 || '''Philippe Ravache'''|| Thursday 9th|| Tuesday 14th|| X ||
-|| '''Michael Abshoff'''||  Thursday 9th || Wednesday 15th || ||
+|| '''Michael Abshoff'''||  Thursday 9th || Wednesday 15th || X ||
 || '''Burcin Erocal'''||  Thursday 9th || Wednesday 15th || X ||
 || '''Edouardo Ocampo'''|| Thursday 9th || Wednesday 15th|| X ||
 || '''Andrey Timoveef'''|| Thursday 9th || Tuesday 14th|| ||
