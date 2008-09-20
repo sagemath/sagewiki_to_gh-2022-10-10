@@ -105,7 +105,7 @@ sage: [g(*p) for p in ones]
 == Fast Numerical Integration ==
 
 == GAP Meataxe Interface ==
- * In the {{{module matrix_group}}}, the method {{{module_composition_factors}}} interfaces with GAP's [http://www.gap-system.org/Manuals/doc/htm/ref/CHAP067.htm Meataxe] implementation. This will return decomposition information for a G-module, for any matrix group G over a finite field.
+ * In the {{{module matrix_group}}}, the method {{{module_composition_factors}}} interfaces with GAP's [http://www.gap-system.org/Manuals/doc/htm/ref/CHAP067.htm Meataxe] implementation. This will return decomposition information for a G-module, for any matrix group G over a finite field (David Joyner and Simon King).
 
 == Better SymPy Integration ==
  * Ondrej Cetrik implemented more conversions from Sage native types to SymPy native types.
