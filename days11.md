@@ -19,5 +19,9 @@ Austin's bus system is run by [http://www.capmetro.org/ Capital Metro] which has
 
 === To and From the Airport ===
 
- * Capital Metro has a bus (the Airport Flyer, Route 100) that runs between the Austin-Bergstrom International Airport (ABIA) and central Austin. Its schedule can be found [http://www.capmetro.org/riding/schedules.asp?f1=100 here]. It doesn't have many stops, but they are all centrally located and intersect other bus routes.
+There are a couple of options to get to and from the Austin-Bergstrom International Airport (ABIA).
+
+ * Capital Metro has a bus (the Airport Flyer, Route 100) that runs between ABIA and central Austin. Its schedule can be found [http://www.capmetro.org/riding/schedules.asp?f1=100 here]. It doesn't have many stops, but they are all centrally located and intersect other bus routes. Many UT graduate students use the Airport Flyer and find that it is a very inexpensive and easy way to travel ($1 for a 24-hour pass). This may be due to their knowledge of the bus system and knowing what bus to take get home.
  * There are also plenty of cabs and shared-ride vans as well.
+
+My suggestion would be to use the Airport Flyer if your hotel is centrally located. Otherwise a cab or shared-ride van is probably your best option.
