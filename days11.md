@@ -19,5 +19,5 @@ Austin's bus system is run by [http://www.capmetro.org/ Capital Metro] which has
 
 === To and From the Airport ===
 
- * Capital Metro has a bus (the Airport Flyer, Route 100) that runs between the Austin-Bergstrom International Airport (ABIA) and central Austin. It's schedule can be found [http://www.capmetro.org/riding/schedules.asp?f1=100 here]. It doesn't have many stops, but they are all centrally located and intersect other bus routes.
+ * Capital Metro has a bus (the Airport Flyer, Route 100) that runs between the Austin-Bergstrom International Airport (ABIA) and central Austin. Its schedule can be found [http://www.capmetro.org/riding/schedules.asp?f1=100 here]. It doesn't have many stops, but they are all centrally located and intersect other bus routes.
  * There are also plenty of cabs and shared-ride vans as well.
