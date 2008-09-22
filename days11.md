@@ -53,8 +53,31 @@ Robert Lee Moore (RLM) Hall is the home of the Math Department at UT. Maps of th
 
 ==== From the Doubletree Suites ====
 
- * Walking: You can walk from the hotel to RLM by walking one block west along 15th St to Guadalupe St, walking north along Guadalupe, and making a right to walk east once you get to Dean Keaton. RLM will be on the corner of Dean Keaton and Speedway, on the south side of Dean Keaton. 
+ * Walking: You can walk from the hotel to RLM by walking one block west along 15th St to Guadalupe St, then walking north along Guadalupe (which marks the west end of campus), and finally making a right to walk east once you get to Dean Keaton. RLM will be on the corner of Dean Keaton and Speedway, on the south side of Dean Keaton. 
  * Bus: You can take the Enfield Road (ER) or Lake Austin (LA) UT shuttle that Capital Metro runs. They both can be grabbed along 15th St and will wind you around campus. 
   * Going to RLM, you will want to get off on 21st St and Speedway, walk along Speedway north (the bus drops you off on the north side of 21st St) to RLM.
   * Returning from RLM, you will want to grab the bus at the 21st and Speedway stop and take it to Guadalupe St and 15th St, walk east along 15th St one block to Lavaca St and the Doubletree Suites.
   * After 7pm, the ER and LA combine routes to become the ER/LA route. It runs until 11pm and has the same route around campus as the ER and LA do separately.
+
+== Food ==
+
+=== Near the Doubletree Suites ===
+
+* [http://www.claypit.com/ Clay Pit]: contemporary Indian cuisine. Fairly good and not overly expensive. They have a lunch buffet (including on Saturday) this is an excellent deal. On Guadalupe St, between 16th and 17th streets (Guadalupe is one block west of Lavaca).
+* [http://www.cactushill.com/TCP/home.htm Texas Chili Parlor]: chili, burgers, tacos/enchiladas, bar food. Tasty, but probably not the healthiest option. They are located on Lavaca between 14th and 15th streets, so very close to the Doubltree Suites
+
+=== Between the Doubletree Suites and RLM ===
+
+As you walk up to campus along Guadalupe to RLM, you will find lots of dining options. There's a range of restaurants that vary between fast food and sit-down restaurants. Here are some highlights, listed in increasing proximity to RLM.
+
+* Players: Burgers and bar food. Located on the corner of Guadalupe and MLK Blvd.
+* Taco Cabana: A fast food place serving Mexican food. Think Taco Bell but with fresher ingredients that won't make you sick. Located on MLK Blvd about 1.5 blocks west of Guadalupe.
+* Veggie Heaven: A quite tasty veggie/vegan informal sit-down restaurant. Located on Guadalupe, just north of MLK Blvd, on the west side of Guadalupe.
+* Pho Hoang: Vietnamese place specializing in pho. Located near Veggie Heaven on Guadalupe, just north of MLK Blvd, on the west side of Guadalupe.
+* Chipotle: I'm sure you all know about Chipotle. Located on Guadalupe on the west side of the street, just north of 22nd St.
+* Pot Belly: A (hot) sandwich place that sells Nantucket Nectar drinks (the only place in Austin where I have found Nantucket Nectars). Located on the west side of Guadalupe, just north of 23rd St.
+* Which Wich: A sandwich place. Located on the west side of Guadalupe, just north of 23rd St.
+* Kismet Cafe: A falafel/gyro place. Tasty and well-priced. Located on 24th St, just a few feet west of Guadalupe.
+* Kerbey Lane Cafe: A 24 hour cafe/diner. Moderately priced (entrees are about \$10), but a great place for breakfast or brunch. Expect long lines for Saturday or Sunday brunch as nearby undergrads flock to it then. Located on the west side of Guadalupe, just north of 26th St, it's a little out of the way from RLM but still not very far (just one block north of Dean Keaton).
+* Madam Mam's: A very tasty Thai restaurant. I've never been to Thailand, but friends who have say Madam Mam's is legit. Reasonably priced (curries are around $7), though you should expect a wait during the lunch hour rush. They also do pick-up orders. Located on the west side of Guadalupe at its intersection with Dean Keaton.
+* Slices and Ices: Pizza joint offering NY style (i.e. thin crust) pizza. In my (Salman's) opinion, one of the top three pizza places in Austin. A couple of slices and a drink will set you back about \$6-\$7. Located at the intersection of Guadalupe and Dean Keaton, just a few feet north of Madam Mam's.
