@@ -78,6 +78,13 @@ As you walk up to campus along Guadalupe to RLM, you will find lots of dining op
  * Pot Belly: A (hot) sandwich place that sells Nantucket Nectar drinks (the only place in Austin where I have found Nantucket Nectars). Located on the west side of Guadalupe, just north of 23rd St.
  * Which Wich: A sandwich place. Located on the west side of Guadalupe, just north of 23rd St.
  * Kismet Cafe: A falafel/gyro place. Tasty and well-priced. Located on 24th St, just a few feet west of Guadalupe.
- * Kerbey Lane Cafe: A 24 hour cafe/diner. Moderately priced (entrees are about \$10), but a great place for breakfast or brunch. Expect long lines for Saturday or Sunday brunch as nearby undergrads flock to it then. Located on the west side of Guadalupe, just north of 26th St, it's a little out of the way from RLM but still not very far (just one block north of Dean Keaton).
+ * Kerbey Lane Cafe: A 24 hour cafe/diner. Moderately priced (entrees are about $10), but a great place for breakfast or brunch. Expect long lines for Saturday or Sunday brunch as nearby undergrads flock to it then. Located on the west side of Guadalupe, just north of 26th St, it's a little out of the way from RLM but still not very far (just one block north of Dean Keaton).
  * Madam Mam's: A very tasty Thai restaurant. I've never been to Thailand, but friends who have say Madam Mam's is legit. Reasonably priced (curries are around $7), though you should expect a wait during the lunch hour rush. They also do pick-up orders. Located on the west side of Guadalupe at its intersection with Dean Keaton.
- * Slices and Ices: Pizza joint offering NY style (i.e. thin crust) pizza. In my (Salman's) opinion, one of the top three pizza places in Austin. A couple of slices and a drink will set you back about \$6-\$7. Located at the intersection of Guadalupe and Dean Keaton, just a few feet north of Madam Mam's.
+ * Slices and Ices: Pizza joint offering NY style (i.e. thin crust) pizza. In my (Salman's) opinion, one of the top three pizza places in Austin. A couple of slices and a drink will set you back about $7. Located at the intersection of Guadalupe and Dean Keaton, just a few feet north of Madam Mam's.
+
+=== Near RLM ===
+
+ * [http://www.oscampuscafe.com/ O's Campus Cafe]: UT-run restaurant (only open on weekdays until 3pm). Just south of RLM in the ACES building at the corner of 24th St and Speedway St.
+ * [http://www.utexas.edu/student/housing/index.php?site=0&scode=5&id=1073&menu=284 Littlefield Patio Cafe]: UT-run cafe offering sandwiches, burgers, pizza, etc. Quick, inexpensive, and located near RLM on Dean Keaton and University Ave (2 blocks west of Speedway).
+ * [http://posseeast.com/ Posse East]: Burgers, tacos, and bar food. On the corner of Duval St and San Jacinto Blvd (just a little northeast of RLM).
+ * [http://www.saopaulos.net/ Sau Paulo's Restaurante]: Brazilian restaurant close to campus. Entrees are very tasty and about $10. Located on San Jacinto Blvd, up the street from Posse East.
