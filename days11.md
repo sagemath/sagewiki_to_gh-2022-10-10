@@ -88,3 +88,7 @@ As you walk up to campus along Guadalupe to RLM, you will find lots of dining op
  * [http://www.utexas.edu/student/housing/index.php?site=0&scode=5&id=1073&menu=284 Littlefield Patio Cafe]: UT-run cafe offering sandwiches, burgers, pizza, etc. Quick, inexpensive, and located near RLM on Dean Keaton and University Ave (2 blocks west of Speedway).
  * [http://posseeast.com/ Posse East]: Burgers, tacos, and bar food. On the corner of Duval St and San Jacinto Blvd (just a little northeast of RLM).
  * [http://www.saopaulos.net/ Sau Paulo's Restaurante]: Brazilian restaurant close to campus. Entrees are very tasty and about $10. Located on San Jacinto Blvd, up the street from Posse East.
+
+=== Coffee/Tea ===
+
+ * [http://www.jpsjava.com/ JP's Java]: The unofficial Math Department coffee shop, their coffee, espresso, and tea are quite good. The back room is ideal for a large group working together. Power outlets can be a problem, so bringing along power strips would be a good idea. Located at the corner of Duval St and San Jacinto Blvd, just across the street from Posse East. 
