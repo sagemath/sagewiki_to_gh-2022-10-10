@@ -1,5 +1,5 @@
 == Arne Storjohann ==
-=== Simultaneous Modular Reduction and Kronecker Substitution for Small Finite Fields ===
+=== Algorithms for linear algebra on polynomial and integer matrices: similarities and differences===
 
 Much recent progress has been made on algorithms for exact linear algebra with matrices having entries integers or univariate polynomials with coefficients from a field.  In many cases, an algorithm for integer matrices translate in a straightforward fashion to give an algorithm for polynomial matrices, and vice versa.  In this talk I will survey some recently developed algorithmic techniques that don't extend so easily from polynomials to integers.
 
