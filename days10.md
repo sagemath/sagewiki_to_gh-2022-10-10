@@ -36,9 +36,9 @@ The following program is preliminary.
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
-       * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: Computing with triangular families of polynomials: an overview
+       * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: [:/EricSchostTalk: Computing with triangular families of polynomials: an overview]
      Contributing speakers:
-       * B.  Erocal : SCrypt: Using Symbolic Computation to Bridge the Gap Between Algebra and Cryptography
+       * B.  Erocal : [:/BurcinErocalTalk: SCrypt: Using Symbolic Computation to Bridge the Gap Between Algebra and Cryptography]
        * M. Brickenstein : Secrets of Singular and PolyBoRi
          This talk presents techniques for Gröbner bases calculations
          implemented in the computer algebra system Singular and the
