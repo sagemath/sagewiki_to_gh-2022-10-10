@@ -47,5 +47,10 @@ There are a couple of options to get to and from the Austin-Bergstrom Internatio
 
 If you will be staying at the Doubletree Suites, you can take the Airport Flyer to 18th St and Congress Ave, walk south on Congress (toward the State Capitol) to 15th St, make a right, and walk two blocks west to Lavaca St to the hotel. Otherwise, if your hotel is centrally located, my suggestion would be to use the Airport Flyer. A cab or shared-ride van is probably your best option if your hotel is not along the Airport Flyer route. It takes about 20-30 minutes to reach central Austin from the airport (depending on traffic).
 
+=== To and From RLM ===
 
- 
+Robert Lee Moore (RLM) Hall is the home of the Math Department at UT. Maps of the University can be found [http://www.utexas.edu/maps/ here] -- click on the "4" to get a zoom in of RLM, at the corner of Dean Keaton St and Speedway St. A picture of RLM can be found [http://www.utexas.edu/maps/main/buildings/rlm.html here].
+
+==== From the Doubletree Suites ====
+
+ * Walking: You can walk from the hotel to RLM by walking one block west along 15th St to Guadalupe St, walking north along Guadalupe, and making a right to walk east once you get to Dean Keaton. RLM will be on the corner of Dean Keaton and Speedway, on the south side of Dean Keaton. 
