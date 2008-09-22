@@ -45,4 +45,7 @@ There are a couple of options to get to and from the Austin-Bergstrom Internatio
  * Capital Metro has a bus (the Airport Flyer, Route 100) that runs between ABIA and central Austin. Its schedule can be found [http://www.capmetro.org/riding/schedules.asp?f1=100 here]. It doesn't have many stops, but they are all centrally located and intersect other bus routes. Many UT graduate students use the Airport Flyer and find that it is a very inexpensive and easy way to travel ($1 for a 24-hour pass). This may be due to their knowledge of the bus system and knowing what bus to take get home.
  * There are also plenty of cabs and shared-ride vans as well.
 
-If you will be staying at the Doubletree Suites, you can take the Airport Flyer to 18th and Congress, walk south on Congress (toward the State Capitol) to 15th St, make a right, and walk two blocks west to Lavaca St to the hotel. Otherwise, my suggestion would be to use the Airport Flyer if your hotel is centrally located. Otherwise a cab or shared-ride van is probably your best option.
+If you will be staying at the Doubletree Suites, you can take the Airport Flyer to 18th St and Congress Ave, walk south on Congress (toward the State Capitol) to 15th St, make a right, and walk two blocks west to Lavaca St to the hotel. Otherwise, if your hotel is centrally located, my suggestion would be to use the Airport Flyer. A cab or shared-ride van is probably your best option if your hotel is not along the Airport Flyer route. It takes about 20-30 minutes to reach central Austin from the airport (depending on traffic).
+
+
+ 
