@@ -38,9 +38,9 @@ I'll try to organize rooms as well as I can, so there is no garanty that you end
 || '''Edouardo Ocampo'''|| Thursday 9th || Wednesday 15th|| X ||
 || '''Andrey Timoveef'''|| Thursday 9th || Tuesday 14th|| ||
 || '''Nicolas Thierry'''|| Saturday 11th|| Wednesday 15th|| X ||
-|| ''' Adrian Boussicault'''|| Thursday 9th|| Wednesday 15th?|| X ||
-|| ''' Florent Hiver'''|| Thursday 9th|| Wednesday 15th?|| X ||
-|| ''' Emily Kirkman'''|| Thursday 9th || Wednesday 15th || X ||
+|| '''Adrian Boussicault'''|| Thursday 9th|| Tuesday 14th|| X ||
+|| '''Florent Hiver'''|| Thursday 9th|| Tuesday 14th|| X ||
+|| '''Emily Kirkman'''|| Thursday 9th || Wednesday 15th || X ||
 || '''Gema Maria Diaz Toca'''|| Thursday 9th || Sunday 12th || X ||
 
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
