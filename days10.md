@@ -27,12 +27,13 @@ The following program is preliminary.
        * Martin Albrecht: [:/MAlbrechtTalk: Matrix multiplication over GF(2) and the M4RI library]
        * Gregory Bard
        * [http://www.rlmiller.org Robert Miller]: [:/RMillerTalk: An example of implementing automorphism groups: linear codes]
-   * October 11: Elliptic Curves (chair Laurent Fousse)
+   * October 11: Elliptic Curves (chair Laurent Fousse) and SAGE-combinat (chair Nicolas Thiery)
      Invited speakers:
        * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]: Elliptic Curves in Sage
        * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]: [:/DavidLubiczTalk: Computing modular correspondences for abelian varieties (with Jean-Charles Faugère)]
      Contributing speakers:
        * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using Sage]
+     The Elliptic Curves session will be followed by the SAGE-combinat session, starting at 15h30.
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
