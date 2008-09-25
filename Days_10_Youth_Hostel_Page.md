@@ -33,7 +33,7 @@ If you are in a rush, and still looking for a place to stay at, there might be s
 || '''Adrian Boussicault'''|| Thursday 9th|| Tuesday 14th|| Twin 4||
 || '''Florent Hiver'''|| Thursday 9th|| Tuesday 14th|| Twin 4 ||
 || '''Philippe Ravache'''|| Thursday 9th|| Tuesday 14th|| Twin 5 ||
-|| '''Clément Pernet'''||  Thursday 9th || Tuesday 14th || 5 ||
+|| '''Clément Pernet'''||  Thursday 9th || Tuesday 14th || Twin 5 ||
 || '''David Harvey'''|| Friday 10th || Monday 13th (i.e. 4 nights)|| Studio ||
 || '''Harald Schilly'''|| Friday 10 || Wednesday 15th || Studio ||
 || '''Gunnar Völkel'''|| Thursday 9th|| Sunday 12th|| Studio||
