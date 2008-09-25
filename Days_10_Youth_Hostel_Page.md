@@ -42,5 +42,5 @@ I'll try to organize rooms as well as I can, so there is no garanty that you end
 || '''Florent Hiver'''|| Thursday 9th|| Tuesday 14th|| X ||
 || '''Emily Kirkman'''|| Thursday 9th || Wednesday 15th || X ||
 || '''Gema Maria Diaz Toca'''|| Thursday 9th || Sunday 12th || X ||
-
+|| '''Gregory Bard'''||Thursday 9th|| Monday 13th|| X ||
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
