@@ -13,10 +13,13 @@ E-mail: contact-nancy@imhotel.fr
  * There is a limited number of twin bedrooms (4 to 5), which would cost about 23euros/night/person
  * There is a number of studios for the rest of the group which would cost about 37euros/night
 
-The reservation is imminent, so if you are not listed on this page, contact {{{clement . pernet [at] gmail.com}}} as soon as possible.
-I am also waiting for everyone listed here to confirm me by email that this option works, and if they have a preference between single or double room. 
-I'll try to organize rooms as well as I can, so there is no garanty that you end up having a twin room even if you said you would prefer one.
+The reservation is now done. Everyone listed below has a room booked for the dates that are indicated in the table.
+I tried to do my best for dispatching participants in the studios and twin bedrooms, trying to optimize the length of usage of the twin bedrooms, and accomodate everyone's preferences. This was not possible to match everyone's preference, but I hope this solution is sub-optimal or something!
 
+For any question, you can contact me at {{{clement . pernet [at] gmail . com}}}
+I reported in the table the kind of room everyone end up with.
+
+If you are in a rush, and still looking for a place to stay at, there might be still some studios left. In this case, please contact directly the residence.
 
 == List of participants willing to stay at the Youth Hostel ==
 
