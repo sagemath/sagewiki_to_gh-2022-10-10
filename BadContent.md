@@ -4453,6 +4453,10 @@ dbadressen\.com
 rezeptfrei-kaufen\.com
 armee\.roonk\.de
 easysixpack\.de
+agoodic\.com
+ugamegold\.com
+zglxjkw\.com
+ourdtv\.tv
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
