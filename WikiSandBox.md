@@ -64,3 +64,4 @@ drawing:mytest
 ==== Heading 4 ====
 
 == A graphical illustration of sin(x)/x -> 1 as x-> 0 ==
+attachment:sinelimit.png
