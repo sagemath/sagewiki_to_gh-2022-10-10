@@ -63,7 +63,7 @@ drawing:mytest
 === Heading 3 ===
 ==== Heading 4 ====
 
-== A graphical illustration ==
+== A graphical illustration of $\lim_{x -> 0} sin(x)/x =1$ ==
 
 {{{
 x=var('x')
