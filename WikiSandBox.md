@@ -63,7 +63,8 @@ drawing:mytest
 === Heading 3 ===
 ==== Heading 4 ====
 
-== A graphical illustration of $\lim_{x -> 0} sin(x)/x =1$ ==
+== A graphical illustration of sin(x)/x -> 1 as x-> 0 ==
+by Wai Yan Pong
 
 {{{
 x=var('x')
