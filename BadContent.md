@@ -4457,6 +4457,8 @@ agoodic\.com
 ugamegold\.com
 zglxjkw\.com
 ourdtv\.tv
+flowexpo\.com
+supakopi\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
