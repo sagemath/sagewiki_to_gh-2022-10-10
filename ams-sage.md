@@ -31,7 +31,7 @@ The time slots scheduled are:
 
 AMS session [http://www.ams.org/amsmtgs/2110_program_ss2.html#title webpage]
 
-=== Tentative schedule ==
+=== Tentative schedule ===
 
  * 8:00- 8:20 Crisman-102 - math of voting - undergrads
  * 8:30- 8:50 Villard-1571 - LLL and floating point
