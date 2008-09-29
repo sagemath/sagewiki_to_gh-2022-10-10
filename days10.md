@@ -39,7 +39,7 @@ The following program is preliminary.
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
        * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: [:/EricSchostTalk: Computing with triangular families of polynomials: an overview]
      Contributing speakers:
-       * B.  Erocal : [:/BurcinErocalTalk: SCrypt: Using Symbolic Computation to Bridge the Gap Between Algebra and Cryptography]
+       * B.  Erocal : [:/BurcinErocalTalk: SCrypt: Symbolic computation assists algebraic cryptanalysis]
        * M. Brickenstein : Secrets of Singular and PolyBoRi
          This talk presents techniques for Gröbner bases calculations
          implemented in the computer algebra system Singular and the
