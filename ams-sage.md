@@ -30,3 +30,20 @@ The time slots scheduled are:
  * Dan Roche, Univ. Waterloo, droche@cs.uwaterloo.ca
 
 AMS session [http://www.ams.org/amsmtgs/2110_program_ss2.html#title webpage]
+
+=== Tentative schedule ==
+
+ * 8:00- 8:20 Crisman-102 - math of voting - undergrads
+ * 8:30- 8:50 Villard-1571 - LLL and floating point
+ * 9:00- 9:20 Harvey-1822 - zn_poly - polys over Z/nZ
+ * 9:30- 9:50 Roche-1837 - poly mul in small space
+ * 10:00-10:20 Hampton-20 - polys in Sage
+ * 10:30-10:50 Kaltofen-2094 - minimize 2 norm of polys
+
+ * 1:00- 1:20 Ryan-266 - Siegel modular forms
+ * 1:30- 1:50 Noel-272 - nilpotent orbit, weyl gp, atlas of lie gps and reps
+ * 2:00- 2:20 Joyner/Miller-758 - coding theory
+ * 2:30- 2:50 Grout-1841 - course using Sage, minimum rank problem
+ * 3:00- 3:20 Bard-1959 - sparse elim over gf2,  row echelon form
+ * 3:30- 3:50 Xiang-1752 - p-ranks, strongly regular graphs from semi-fields
+ * 4:00- 4:20 Saunders-2007 - p-ranks computation
