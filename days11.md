@@ -38,6 +38,8 @@ A block of rooms has been reserved for us at the Doubletree Guest Suites, 303 W.
 
 Austin's bus system is run by [http://www.capmetro.org/ Capital Metro] which has a number of bus routes that service the UT campus. UT shuttle buses are marked by white and burnt orange buses that use letters for their route as opposed to numbers. UT shuttles are free to ride.
 
+An important note: there is a football game that Saturday. Expect a lot of traffic and people on and near campus. Most places near campus will be crowded, so keep that in mind. There isn't much we can do about it, but the inside of RLM will be nice and quiet.
+
 === To and From the Airport ===
 
 There are a couple of options to get to and from the Austin-Bergstrom International Airport (ABIA).
