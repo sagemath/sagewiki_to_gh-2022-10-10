@@ -40,11 +40,11 @@ AMS session [http://www.ams.org/amsmtgs/2110_program_ss2.html#title webpage]
  * 10:00-10:20 Hampton-20 - Solutions, bounds, and finiteness of polynomial systems in  Sage.
  * 10:30-10:50 Kaltofen-2094 - Rump’s model problem and the computer search for records in number theory.
 
- * 1:00- 1:20 Ryan-266 - Siegel modular forms
- * 1:30- 1:50 Noel-272 - nilpotent orbit, weyl gp, atlas of lie gps and reps
- * 2:00- 2:20 Joyner/Miller-758 - coding theory
- * 2:30- 2:50 Villard-1571 - LLL and floating point
+ * 1:00- 1:20 Ryan-266 - Siegel modular forms in Sage.
+ * 1:30- 1:50 Noel-272 - Nilpotent orbits associated to Coxeter cells.
+ * 2:00- 2:20 Joyner/Miller-758 - Coding theory and combinatorics in Sage.
+ * 2:30- 2:50 Villard-1571 - Numerical analysis tools for LLL lattice basis reduction.
  * 3:00- 3:30 break
- * 3:30- 3:50 Bard-1959 - sparse elim over gf2,  row echelon form
- * 4:00- 4:20 Xiang-1752 - p-ranks, strongly regular graphs from semi-fields
- * 4:30- 4:50 Saunders-2007 - p-ranks computation
+ * 3:30- 3:50 Bard-1959 - Ultra-sparse matrix reduction to reduced row-echelon form for matrices over GF(2)
+ * 4:00- 4:20 Xiang-1752 - Modular ranks of the adjacency matrices of strongly regular graphs arising from semiﬁelds.
+ * 4:30- 4:50 Saunders-2007 - On matrix rank modulo small primes.
