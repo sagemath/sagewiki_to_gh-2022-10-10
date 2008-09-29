@@ -33,12 +33,12 @@ AMS session [http://www.ams.org/amsmtgs/2110_program_ss2.html#title webpage]
 
 === Tentative schedule ===
 
- * 8:00- 8:20 Crisman-102 - math of voting - undergrads
- * 8:30- 8:50 Grout-1841 - course using Sage, minimum rank problem
- * 9:00- 9:20 Harvey-1822 - zn_poly - polys over Z/nZ
- * 9:30- 9:50 Roche-1837 - poly mul in small space
- * 10:00-10:20 Hampton-20 - polytopes in Sage
- * 10:30-10:50 Kaltofen-2094 - minimize 2 norm of polys
+ * 8:00- 8:20 Crisman-102 - Undergraduate research in the mathematics of voting and choice using Sage.
+ * 8:30- 8:50 Grout-1841 - Sage in an early-graduate research course investigating the minimum rank problem
+ * 9:00- 9:20 Harvey-1822 - zn_poly: a library for polynomial arithmetic.
+ * 9:30- 9:50 Roche-1837 - Fast multiplication with low space complexity.
+ * 10:00-10:20 Hampton-20 - Solutions, bounds, and finiteness of polynomial systems in  Sage.
+ * 10:30-10:50 Kaltofen-2094 - Rump’s model problem and the computer search for records in number theory.
 
  * 1:00- 1:20 Ryan-266 - Siegel modular forms
  * 1:30- 1:50 Noel-272 - nilpotent orbit, weyl gp, atlas of lie gps and reps
