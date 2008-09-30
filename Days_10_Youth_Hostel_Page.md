@@ -43,7 +43,7 @@ If you are in a rush, and still looking for a place to stay at, there might be s
 || '''Edouardo Ocampo'''|| Thursday 9th || Wednesday 15th|| Studio ||
 || '''Andrey Timoveef'''|| Thursday 9th || Tuesday 14th|| Studio||
 || '''Nicolas Thierry'''|| Saturday 11th|| Wednesday 15th|| Studio ||
-|| '''Emily Kirkman'''|| Thursday 9th || Wednesday 15th || Studio ||
+|| '''Emily Kirkman'''|| Friday 10th || Tuesday 14th || Studio ||
 || '''Gema Maria Diaz Toca'''|| Thursday 9th || Sunday 12th || Studio ||
 || '''Gregory Bard'''||Thursday 9th|| Monday 13th|| Studio ||
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
