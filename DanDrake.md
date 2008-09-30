@@ -8,7 +8,7 @@ I'm the main author of [http://tug.ctan.org/pkg/sagetex SageTeX], a LaTeX packag
 
 I'll be giving some talks at [:days9:Sage Days 9], and put my slides, etc, at /Days9Talks.
 
-My homepage is http://math.kaist.ac.kr/~drake.
+My homepage is http://mathsci.kaist.ac.kr/~drake.
 
 ----
 CategoryHomepage
