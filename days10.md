@@ -19,6 +19,8 @@ The following program is preliminary.
 
 === Program: ===
 
+See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf format].
+
    * October 10: Linear Algebra (chair Clement Pernet)
      Invited speakers:
        * [http://www.cs.uwaterloo.ca/~astorjoh/ Arne Storjohann]:[:/AStorjohannTalk: Algorithms for linear algebra on polynomial and integer matrices: similarities and differences]
