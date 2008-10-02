@@ -21,15 +21,6 @@ attachment:gfan_interact.png
 by Marshall Hampton
 {{{
 def proj4_to_3(gfanobj, poly4):
-    """
-    A utility function that takes a 4d polytope, projects
-    it to 3d, and returns a list of edges.
-
-    INPUT:
-        polyhedral_data -- an object with 4d vertex and adjacency information
-
-    OUTPUT:
-    """
     fpoints = poly4.vertices()
     tpoints = [gfanobj._embed_tetra(q) for q in fpoints]
     adj_data = poly4.vertex_adjacencies()
@@ -43,26 +34,11 @@ def proj4_to_3(gfanobj, poly4):
 from sage.plot.plot3d.index_face_set import IndexFaceSet
 
 def render_solid(poly, color = 'blue', opacity = .5):
-    """
-    Returns solid 3d rendering of a 3d polytope.
-    """
     tri_faces = poly.triangulated_facial_incidences()
     from sage.plot.plot3d.index_face_set import IndexFaceSet
     return IndexFaceSet([q[1] for q in tri_faces], poly.vertices(), enclosed = True, color = color, opacity = opacity)
 
 def render3d(a_gf, color_fan = True, verbose = False, highlights = 'all'):
-    """
-    For a Groebner fan of an ideal in a ring with four variables,
-    this function intersects the fan with the standard simplex
-    perpendicular to (1,1,1,1), creating a 3d polytope, which is
-    then projected into 3 dimensions.  The edges of this projected
-    polytope are returned as lines.
-
-    EXAMPLES:
-        sage: R4.<w,x,y,z> = PolynomialRing(QQ,4)
-        sage: gf = R4.ideal([w^2-x,x^2-y,y^2-z,z^2-x]).groebner_fan()
-        sage: three_d = gf.render3d()
-    """
     g_cones = [q.groebner_cone() for q in a_gf.reduced_groebner_bases()]
     g_cones_facets = [q.facets() for q in g_cones]
     g_cones_ieqs = [a_gf._cone_to_ieq(q) for q in g_cones_facets]
@@ -82,8 +58,7 @@ def render3d(a_gf, color_fan = True, verbose = False, highlights = 'all'):
         degs = [[max([q.degree(avar) for q in b]) for avar in our_vars] for b in a_gf.reduced_groebner_bases()]
         maxdegs = [max([float(q[i]) for q in degs]) for i in range(len(our_vars))]
         color_list = [[b[0]/maxdegs[0],b[1]/maxdegs[1],(b[2]+b[3])/(maxdegs[2]+maxdegs[3])] for b in degs]
-        color_list = [tuple([c[i]/max(c) for i in range(3)]) for c in color_list]
-        #print color_list  
+        color_list = [tuple([c[i]/max(c) for i in range(3)]) for c in color_list] 
         faces = []     
     if highlights == 'all':
         highlights = range(len(cone_info))
@@ -91,15 +66,12 @@ def render3d(a_gf, color_fan = True, verbose = False, highlights = 'all'):
     all_lines = []
     i = 0
     for cone_data in cone_info:
-        #print cone_data
         # cone_data is a Polyhedron.
         try:
             pdata = proj4_to_3(a_gf,cone_data)
             cone_lines = pdata[0]
             cone_verts = pdata[1]
-            if color_fan == True:
-                #using fixed color scheme
-                #print i, faces, color_list[i], cone_verts            
+            if color_fan == True:       
                 if i in highlights:
                     faces.append(render_solid(Polyhedron(vertices = cone_verts), color = color_list[i]))
                 i = i + 1
