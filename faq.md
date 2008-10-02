@@ -61,7 +61,6 @@ You can browse the complete source code to everything in Sage at http://www.sage
 === How do I save an object so I don't have to compute it each time I open a worksheet? ===
 The {{{save}}} and {{{load}}} commands will save and load an object, respectively.  In the notebook, the {{{DATA}}} variable is the location of the data storage area of the worksheet.  To save the object {{{my_stuff}}} in a worksheet, you could do {{{save(my_stuff, DATA+"my_stuff")}}} and to reload it, you would just do {{{my_stuff = load(my_stuff, DATA+"my_stuff")}}}
 
-
 == Getting help ==
 === How do I get help? ===
 Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://www.sagemath.org/help.html for a listing of these resources.
@@ -90,7 +89,34 @@ sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
  * ANSWER: Moving a sage install on OSX 10.4 and then upgrading anything that is linked against NTL leads to link errors due to missing gmp symbols. The problem is the link mode with which the dynamic NTL is created. I have a fix, but I am currently verifying that it really fixes the issue. Everything that is linked against NTL needs to be recompiled, i.e. singular and cremona at the moment. To add to the confusion: This is not an issue on OSX 10.5. A fix for this issue went into 2.8.15, so please report if you see this with a more current Sage release.
 ----------
  * QUESTION: When I compile Sage my computer beeps and shuts down or hangs.
- * ANSWER: Compiling Sage is quite taxing on the CPU. The above behavior usually indicates that your computer has overheated. In many cases this can be fixed by cleaning the CPU fan and assuring proper ventilation of the system. Please ask your system administrator or a professional to do this in case you have never done this since you can potentially damage your system.
+ * ANSWER 1: Compiling Sage is quite taxing on the CPU. The above behavior usually indicates that your computer has overheated. In many cases this can be fixed by cleaning the CPU fan and assuring proper ventilation of the system. Please ask your system administrator or a professional to do this in case you have never done this since you can potentially damage your system.
+ * ANSWER 2: For Linux users, if you suspect that the compilation fails because of a resource issue, a fix might be to edit your /etc/inittab so that Linux boots into run level 3. The file /etc/inittab usually contains something similar to the following snippet:
+ {{{
+#   0 - halt (Do NOT set initdefault to this)
+#   1 - Single user mode
+#   2 - Multiuser, without NFS (The same as 3, if you do not have networking)
+#   3 - Full multiuser mode
+#   4 - unused
+#   5 - X11
+#   6 - reboot (Do NOT set initdefault to this)
+# 
+id:5:initdefault:
+}}}
+which directs your Linux distribution to boot into a graphical login screen. Comment out the line "id:5:initdefault:" and add the line "id:3:initdefault:", so that you now have something like:
+ {{{
+#   0 - halt (Do NOT set initdefault to this)
+#   1 - Single user mode
+#   2 - Multiuser, without NFS (The same as 3, if you do not have networking)
+#   3 - Full multiuser mode
+#   4 - unused
+#   5 - X11
+#   6 - reboot (Do NOT set initdefault to this)
+# 
+# id:5:initdefault:
+id:3:initdefault:
+}}}
+Now if you reboot your system, you'll be greeted with a text based login screen. This allows you to log into your system with a text based session from within a virtual terminal, which doesn't consume as much system resources as would be the case with a graphical session. Then build your Sage source distribution from within your text based session.
+
 ----------
  * QUESTION: When I run doctests on OSX I see the following messages, but in the end Sage reports that everything went fine:
  {{{
@@ -163,11 +189,7 @@ for i in range(1, x.multiplicative_order() + 1):
 assert x*(1/x) == K.one_element()
 }}}
  To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} at the Sage prompt and hit tab, then use ?? to get more information on each function. For example:
-
- {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}}
-
- tells you more about the multiplicative unit element in the finite field.
-
+ {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}} tells you more about the multiplicative unit element in the finite field.
 ----------
  * QUESTION: How do I make the VMware appliance for Windows automatically login as "sage"?
  * ANSWER: Follow http://ubuntu-utah.ubuntuforums.org/showthread.php?t=303319.  Short version: put in the file {{{/usr/bin/autologin}}} the text
@@ -176,22 +198,17 @@ assert x*(1/x) == K.one_element()
 /bin/login -f sage
 }}}
  and make this file executable; then edit {{{/etc/event.d/tty1}}}, comment out
-
  {{{
 respawn /sbin/getty 38400 tty1
 }}}
  and add
-
  {{{
 respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
 }}}
  Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
-
-
 ----------
- * QUESTION: When running Sage under VMware, if you log in under manage you are not given the permissions to create a file! 
+ * QUESTION: When running Sage under VMware, if you log in under manage you are not given the permissions to create a file!
  * ANSWER: Type "sudo su" before creating files.
-
 ----------
  * QUESTION: I'm getting weird build failures on OSX. How do I fix this?
  * ANSWER: Search the build log (install.log) to see if you're getting "fork: Resource temporarily unavailable.". If so, try the following. Create (or edit) /etc/launchd.conf and include the following:
@@ -201,15 +218,11 @@ limit maxproc 512 2048
  . then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
 ----------
  * QUESTION: How do I use the bitwise XOR operator in Sage?
- * ANSWER: Define two variables, for example {{{a = 5; b = 8}}}, and evaluate {{{a.__xor__(b)}}}, 13. You can also do {{{(5).__xor__(8)}}} (the parentheses are necessary so that Sage doesn't think you have a real number).
- There are several ways to define a function: {{{xor = lambda x, y: x.__xor__(y)}}} and then do {{{xor(3, 8)}}}. Another option, which sneaks around the Sage preparser, is {{{def xor(a,b):  return eval("%s^%s"%(a,b))}}}. You can also turn off the Sage preparser with {{{preparser(False)}}} -- then {{{^}}} will work just like in Python, and you can later turn on the preparser with {{{preparser(True)}}}. (That only works in command-line Sage; in a notebook, switch to Python mode.)
-
+ * ANSWER: Define two variables, for example {{{a = 5; b = 8}}}, and evaluate {{{a.__xor__(b)}}}, 13. You can also do {{{(5).__xor__(8)}}} (the parentheses are necessary so that Sage doesn't think you have a real number). There are several ways to define a function: {{{xor = lambda x, y: x.__xor__(y)}}} and then do {{{xor(3, 8)}}}. Another option, which sneaks around the Sage preparser, is {{{def xor(a,b):  return eval("%s^%s"%(a,b))}}}. You can also turn off the Sage preparser with {{{preparser(False)}}} -- then {{{^}}} will work just like in Python, and you can later turn on the preparser with {{{preparser(True)}}}. (That only works in command-line Sage; in a notebook, switch to Python mode.)
 ----------
  * QUESTION: When I try to use LaTeX in the notebook, it says it cannot find {{{fullpage.sty}}}!
  * ANSWER: That's not a question. But we can help you solve your problem. :)
-
  The general -- but perhaps not very helpful -- answer is that you need to install {{{fullpage.sty}}} into a directory searched by TeX. In Ubuntu (and probably many other Linux distributions), you should install the {{{texlive-latex-extra}}} package. If that's not available, try installing the {{{tetex-extra}}} package. If you are using OS X, you will have to use whatever TeX distribution you use to get {{{fullpage.sty}}} (if you use [http://www.tug.org/mactex MacTeX], it's likely already installed). If you are using the VMware image in Windows, you'll need to log into the VMware image and install {{{texlive-latex-extra}}} there.
-
 = ToDo =
  * QUESTION: Sage fails to compile on OSX 10.4
  * ANSWER: Most likely resource issue.
