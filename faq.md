@@ -102,7 +102,7 @@ sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
 # 
 id:5:initdefault:
 }}}
-which directs your Linux distribution to boot into a graphical login screen. Comment out the line "id:5:initdefault:" and add the line "id:3:initdefault:", so that you now have something like:
+ which directs your Linux distribution to boot into a graphical login screen. Comment out the line "id:5:initdefault:" and add the line "id:3:initdefault:", so that you now have something like:
  {{{
 #   0 - halt (Do NOT set initdefault to this)
 #   1 - Single user mode
@@ -115,7 +115,7 @@ which directs your Linux distribution to boot into a graphical login screen. Com
 # id:5:initdefault:
 id:3:initdefault:
 }}}
-Now if you reboot your system, you'll be greeted with a text based login screen. This allows you to log into your system with a text based session from within a virtual terminal, which doesn't consume as much system resources as would be the case with a graphical session. Then build your Sage source distribution from within your text based session.
+ Now if you reboot your system, you'll be greeted with a text based login screen. This allows you to log into your system with a text based session from within a virtual terminal, which doesn't consume as much system resources as would be the case with a graphical session. Then build your Sage source distribution from within your text based session.
 
 ----------
  * QUESTION: When I run doctests on OSX I see the following messages, but in the end Sage reports that everything went fine:
