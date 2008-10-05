@@ -10,6 +10,8 @@ If you use a different nickname on the [[http://groups.google.com/group/sage-dev
 
  * MatteoCasati AKA Cassa
 
+ * AlessandroPezzoni
+
  * ...
 
 === TODO list ===
