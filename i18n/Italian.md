@@ -1,4 +1,3 @@
-
 == SAGE Italian Translation ==
 
 This page is intended as a coordination page for Italian translation of Sage documentation.
@@ -9,7 +8,9 @@ If you use a different nickname on the [[http://groups.google.com/group/sage-dev
 
  * CristianConsonni AKA CristianCantoro
 
- *...
+ * MatteoCasati AKA Cassa
+
+ * ...
 
 === TODO list ===
  * Translate the SAGE tutorial .rst files. - you can find the original files [[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/ | here]]
