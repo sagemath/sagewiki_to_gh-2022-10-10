@@ -30,6 +30,18 @@ Please add your name to the list if you're going to be coming to SD11.
  * Michael Abshoff
  * Michael Rubinstein
 
+== Tentative Schedule ==
+ * Friday, 11/07
+  * Morning talk: Introduction to SAGE, Craig Citro
+  * Coding
+ * Saturday, 11/08
+  * Morning talk: Parallel Computation at TACC, Salman Butt
+  * Coding
+ * Sunday, 11/09
+  * Coding
+ * Monday, 11/10
+  * Wrap up
+
 == Hotel Info ==
 
 A block of rooms has been reserved for us at the Doubletree Guest Suites, 303 W. 15th St, Austin, Texas. [http://maps.google.com/maps?f=q&hl=en&geocode=&q=doubletree,+15th+st,+austin,+texas&ie=UTF8&ll=30.27986,-97.741971&spn=0.020161,0.025878&z=15 Here] is a link to a google maps view of the hotel.
