@@ -57,3 +57,4 @@ For those arriving thursday evening, we need someone to volunteer, to get the ke
 || Name || Day of arrival || Expected time of arrival (at the residence) ||
 || '''Clément Pernet''' || Thursday 9th || 10pm ||
 || '''Martin Albrecht''' || Thursday 9th || 7:30pm ||
+|| '''David Harvey''' || Friday 10th || morning (not sure if I'll go straight to hotel or talks) ||
