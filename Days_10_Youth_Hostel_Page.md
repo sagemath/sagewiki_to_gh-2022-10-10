@@ -59,3 +59,4 @@ For those arriving thursday evening, we need someone to volunteer, to get the ke
 || '''Martin Albrecht''' || Thursday 9th || 7:30pm ||
 || '''David Harvey''' || Friday 10th || morning (not sure if I'll go straight to hotel or talks) ||
 || '''Harald Schilly ''' || Friday 10th || 9am-11am, also not sure if talks or hotel first ||
+|| '''Gunnar Voelkel''' || Thursday 9th|| 7:20pm ||
