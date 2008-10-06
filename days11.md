@@ -4,7 +4,7 @@
 
 == November 7 -- 10, 2008, Austin, Texas ==
 
-Organizers: William Stein, Fernando Perez, Fernando Rodriguez-Villegas, Salman Butt, Craig Citro
+Organizers: William Stein, Fernando Perez, Fernando Rodriguez-Villegas, Irene Gamba, Salman Butt, Craig Citro
 
 NOTE: The Supercomputing 2008 conference (officially known as SC08) is
 described here: http://sc08.supercomputing.org/  It takes place from
