@@ -64,3 +64,4 @@ For those arriving thursday evening, we need someone to volunteer, to get the ke
 ||'''Eduardo Ocampo'''|| Thursday 9th|| 9:30pm||
 ||'''Emily Kirkman'''|| Friday 10th|| 6:30pm||
 ||'''Simon King'''|| Thursday 9th|| 6:30pm||
+||'''Gema Diaz-Toca'''|| Thursday 9th||10:30pm||
