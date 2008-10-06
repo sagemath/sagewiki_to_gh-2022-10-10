@@ -48,3 +48,11 @@ If you are in a rush, and still looking for a place to stay at, there might be s
 || '''Gregory Bard'''||Thursday 9th|| Monday 13th|| Studio ||
 || '''Nicolas Borie'''|| Saturday 11th|| Wednesday 15th|| Studio ||
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
+
+== Arrival on thursday evening ==
+The reception of la maison des chercheurs closes at 6pm. If you can not check in before 6pm the day of your arrival, please list your name below, or send me an email (clement . pernet [at] gmail . com), with your approximate time of arrival; I will get the keys for your room, and pass them to you.
+
+For those arriving thursday evening, we need someone to volunteer, to get the keys, since I will only arrive around 10pm that night.
+
+|||Name ||| Day of arrival ||| Expected time of arrival (at the residence)|||
+|| '''Clément Pernet''' || Thursday 9th || 10pm ||
