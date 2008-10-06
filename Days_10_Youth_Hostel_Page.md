@@ -46,4 +46,5 @@ If you are in a rush, and still looking for a place to stay at, there might be s
 || '''Emily Kirkman'''|| Friday 10th || Tuesday 14th || Studio ||
 || '''Gema Maria Diaz Toca'''|| Thursday 9th || Sunday 12th || Studio ||
 || '''Gregory Bard'''||Thursday 9th|| Monday 13th|| Studio ||
+|| '''Nicolas Borie'''|| Saturday 11th|| Wednesday 15th|| Studio ||
 i.e. if you put 15th in there for '''to''', you check out on the 16th.
