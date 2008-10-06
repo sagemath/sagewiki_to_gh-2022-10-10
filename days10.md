@@ -6,6 +6,8 @@
 
 Please register on the [http://registration.net-resa.com/cgi-bin/WebObjects/gnetresa.woa/wa/newParticipant?idevt=281&profil=396 registration website].
 
+See the [http://www.loria.fr/~zimmerma/sd10_participants.pdf list of participants].
+
 === Program committee ===
 
    * Michael Abshoff
