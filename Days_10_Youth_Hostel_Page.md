@@ -55,13 +55,15 @@ The reception of la maison des chercheurs closes at 6pm. If you can not check in
 For those arriving thursday evening, we need someone to volunteer, to get the keys, since I will only arrive around 10pm that night.
 
 || Name || Day of arrival || Expected time of arrival (at the residence) ||
-|| '''Clément Pernet''' || Thursday 9th || 10pm ||
+||'''Bertrand Meyer'''|| Thursday 9th||5:30pm||
+||'''Michael Abshoff'''||Thursday 9th||6pm||
+||'''Simon King'''|| Thursday 9th|| 6:30pm||
 || '''Martin Albrecht''' || Thursday 9th || 7:30pm ||
-|| '''David Harvey''' || Friday 10th || morning (not sure if I'll go straight to hotel or talks) ||
-|| '''Harald Schilly ''' || Friday 10th || 9am-11am, also not sure if talks or hotel first ||
-|| '''Gunnar Voelkel''' || Thursday 9th|| 7:20pm ||
+|| '''Gunnar Voelkel''' || Thursday 9th|| 7:30pm ||
 ||'''Philippe Ravache'''|| Thursday 9th|| 7:30pm||
 ||'''Eduardo Ocampo'''|| Thursday 9th|| 9:30pm||
-||'''Emily Kirkman'''|| Friday 10th|| 6:30pm||
-||'''Simon King'''|| Thursday 9th|| 6:30pm||
+|| '''Clément Pernet''' || Thursday 9th || 10pm ||
 ||'''Gema Diaz-Toca'''|| Thursday 9th||10:30pm||
+|| '''David Harvey''' || Friday 10th || morning (not sure if I'll go straight to hotel or talks) ||
+|| '''Harald Schilly ''' || Friday 10th || 9am-11am, also not sure if talks or hotel first ||
+||'''Emily Kirkman'''|| Friday 10th|| 6:30pm||
