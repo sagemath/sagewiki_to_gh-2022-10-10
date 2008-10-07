@@ -35,7 +35,7 @@ Please add your name to the list if you're going to be coming to SD11.
   * Morning talk: Introduction to SAGE, Craig Citro
   * Coding
  * Saturday, 11/08
-  * Morning talk: Parallel Computation at TACC, Salman Butt
+  * Morning talk: Parallel Computation for Pure Mathematics at TACC, Salman Butt
   * Coding
  * Sunday, 11/09
   * Coding
