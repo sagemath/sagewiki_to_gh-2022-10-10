@@ -1,4 +1,4 @@
-== introduction_it.rst file ==
+== introduction_it.rst ==
 {{{
 Questo tutorial dovrebbe richiedere circa 3/4 ore per
 una lettura completa. Lo si può leggere in versione HTML o PDF, o dal notebook Sage;
@@ -148,3 +148,7 @@ Obiettivi di lungo periodo per Sage
 
 .. [Sage] (en) Sage, http://www.sagemath.org
 }}}
+
+== rst file ==
+[[AttachInfo]]
+[[AttachList]]
