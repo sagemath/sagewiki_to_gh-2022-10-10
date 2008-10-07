@@ -38,7 +38,7 @@ Here there is a list of the .rst to be tanslated:
 ||tour_algebra.rst|| || ||
 ||tour_advanced.rst|| || ||
 ||programming.rst|| || ||
-||introduction.rst||<style="background-color: #80FF80;"> [[http://wiki.sagemath.org/i18n/Italian/IntroductionIt |done]] || ||
+||introduction.rst||<style="background-color: #80FF80;"> [:i18n/Italian/IntroductionIt: done] || ||
 ||interfaces.rst|| || ||
 ||interactive_shell.rst|| || ||
 ||index.rst|| || ||
