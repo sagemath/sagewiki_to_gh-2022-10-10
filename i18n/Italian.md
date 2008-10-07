@@ -21,7 +21,13 @@ If you use a different nickname on the [[http://groups.google.com/group/sage-dev
 
  * ...
 
+----
 ==== Tutorial ====
+
+I file tradotti verrano nominati nel seguente modo filename.rst => filename_it.rst.
+I file saranno inseriti come "Allegati" in una nuova pagina collegata alla casella corrispondente della tabella.
+Per favore, non fare copia-incolla del testo visualizzato nella pagina o del codice sorgente del medesimo (ci possono essere delle differenze inserite per
+adattare la pagina alla sintassi di MoinMoin), usare il file allegato.
 
 Here there is a list of the .rst to be tanslated:
 ||||||<tablestyle="width: 75%">'''File list'''||
