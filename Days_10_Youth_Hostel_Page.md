@@ -61,6 +61,7 @@ For those arriving thursday evening, we need someone to volunteer, to get the ke
 || '''Martin Albrecht''' || Thursday 9th || 7:30pm ||
 || '''Gunnar Voelkel''' || Thursday 9th|| 7:30pm ||
 ||'''Philippe Ravache'''|| Thursday 9th|| 7:30pm||
+||'''Gregory Bard'''|| Thursday 9th||9:30pm||
 ||'''Eduardo Ocampo'''|| Thursday 9th|| 9:30pm||
 || '''Clément Pernet''' || Thursday 9th || 10pm ||
 ||'''Gema Diaz-Toca'''|| Thursday 9th||10:30pm||
