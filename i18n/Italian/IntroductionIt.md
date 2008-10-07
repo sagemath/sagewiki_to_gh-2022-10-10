@@ -1,5 +1,6 @@
 == introduction_it.rst file ==
-`{Questo tutorial dovrebbe richiedere circa 3/4 ore per 
+{{{
+Questo tutorial dovrebbe richiedere circa 3/4 ore per
 una lettura completa. Lo si può leggere in versione HTML o PDF, o dal notebook Sage;
 fare clic su "Help", poi fare clic su "Tutorial" per leggere interattivamente
 il tutorial dall'interno di Sage.
@@ -53,7 +54,7 @@ Per esempio:
     sage: N(k,30)      # 30 "bits"
     0.16549568 - 0.052149208*I
     sage: latex(k)
-    \frac{1}{{\sqrt{ 3 } i} + \frac{{5 \sqrt{ 73 }}}{9} + \frac{3}{4}}
+    \frac{1}{{\sqrt{ 3 } i} + \frac{{5 \sqrt{ 73 `}}}`{9} + \frac{3}{4}}
 
 
 Installazione
@@ -145,4 +146,5 @@ Obiettivi di lungo periodo per Sage
 
 .. [PyT] (en) Il tutorial Python, http://www.python.org/
 
-.. [Sage] (en) Sage, http://www.sagemath.org`}
+.. [Sage] (en) Sage, http://www.sagemath.org
+}}}
