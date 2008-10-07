@@ -29,7 +29,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
        * [http://ljk.imag.fr/membres/Jean-Guillaume.Dumas/ Jean-Guillaume Dumas]:[:/JGDumasTalk: Simultaneous Modular Reduction and Kronecker Substitution for Small Finite Fields]
      Contributing speakers:
        * Martin Albrecht: [:/MAlbrechtTalk: Matrix multiplication over GF(2) in the M4RI library]
-       * Gregory Bard
+       * Gregory Bard : Using Graph Theory to Control Fill-in for Sparse Matrix Reduction to RREF over Fields of non-zero characteristic
        * [http://www.rlmiller.org Robert Miller]: [:/RMillerTalk: An example of implementing automorphism groups: linear codes]
    * October 11: Elliptic Curves (chair Laurent Fousse)
      Invited speakers:
