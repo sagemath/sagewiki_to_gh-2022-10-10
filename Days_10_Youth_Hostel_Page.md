@@ -56,7 +56,7 @@ For those arriving thursday evening, we need someone to volunteer, to get the ke
 
 || Name || Day of arrival || Expected time of arrival (at the residence) ||
 ||'''Bertrand Meyer'''|| Thursday 9th||5:30pm||
-||'''Michael Abshoff'''||Thursday 9th||6pm||
+||'''Michael Abshoff'''||Thursday 9th||6:30pm||
 ||'''Simon King'''|| Thursday 9th|| 6:30pm||
 || '''Martin Albrecht''' || Thursday 9th || 7:30pm ||
 || '''Gunnar Voelkel''' || Thursday 9th|| 7:30pm ||
