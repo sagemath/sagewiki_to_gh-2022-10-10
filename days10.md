@@ -34,6 +34,9 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
    * October 11: Elliptic Curves (chair Laurent Fousse)
      Invited speakers:
        * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]: Elliptic Curves in Sage
+         This talk will give a survey of Sage's capabilities for computations with
+         elliptic curves, including some recent developments and a wish-list of
+	 possible future developments.
        * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]: [:/DavidLubiczTalk: Computing modular correspondences for abelian varieties (with Jean-Charles Faugère)]
      Contributing speakers:
        * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using Sage]     
