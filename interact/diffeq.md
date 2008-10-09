@@ -129,3 +129,11 @@ def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=inpu
     show(vector_field + starting_point + sum(path), aspect_ratio=1, figsize=[8,9])
 }}}
 attachment:ode_runga_kutta.png
+
+== Mass/Spring systems ==
+by Jason Grout
+
+These two interacts involve some Cython code or other scipy imports, so I've posted a file containing them.  You can download the worksheet or copy it online.
+
+  * https://sage.math.washington.edu/home/pub/42
+  * https://sage.math.washington.edu/home/pub/43
