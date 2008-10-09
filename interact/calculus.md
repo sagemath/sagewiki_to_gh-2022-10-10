@@ -255,77 +255,102 @@ This allows user to display the Newton-Raphson procedure one step at a time. It 
 {{{
 # ideas from 'A simple tangent line grapher' by Marshall Hampton
 # http://wiki.sagemath.org/interact
-State = Data = None   # globals to allow incremental additions to graphics
+
+State = Data = None   # globals to allow incremental changes in interaction data
+
 @interact
-def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
-             xmin = input_box(default=0),
-             xmax = input_box(default=4*pi),
+def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'), 
+             xmin = input_box(default=0), 
+             xmax = input_box(default=4*pi), 
              x0 = input_box(default=3, label='x0'),
              show_calcs = ("Show Calcs",True),
-             step = ['Next','Reset'] ):
+             step = ['Next','Prev', 'Reset'] ):
     global State, Data
-    prange = [xmin,xmax]
     state = [f,xmin,xmax,x0,show_calcs]
     if (state != State) or (step == 'Reset'):   # when any of the controls change
-        X = [RR(x0)]                     # restart the plot
-        df = diff(f)
-        Fplot = plot(f, prange[0], prange[1])
-        Data = [X, df, Fplot]
+        Data = [ 1 ]                            # reset the plot
         State = state
-    X, df, Fplot = Data
-    i = len(X) - 1              # compute and append the next x value
-    xi = X[i]
-    fi = RR(f(xi))
-    fpi = RR(df(xi))
-    xip1 = xi - fi/fpi
-    X.append(xip1)
-    msg = xip1s = None          # now check x value for reasonableness
+    elif step == 'Next':
+        N, = Data
+        Data = [ N+1 ]
+    elif step == 'Prev':
+        N, = Data
+        if N > 1:
+            Data = [ N-1 ]
+    N, = Data
+    df = diff(f)
+
+    theplot = plot( f, xmin, xmax )
+    theplot += text( '\n$x_0$', (x0,0), rgbcolor=(1,0,0),
+                     vertical_alignment="bottom" if f(x0) < 0 else "top" )
+    theplot += points( [(x0,0)], rgbcolor=(1,0,0) )
+
+    Trace = []
+    def Err( msg, Trace=Trace ):
+        Trace.append( '<font color="red"><b>Error: %s!!</b></font>' % (msg,) )
+    def Disp( s, color="blue", Trace=Trace ):
+        Trace.append( """<font color="%s">$ %s $</font>""" % (color,s,) )
+
+    Disp( """f(x) = %s""" % (latex(f),) )
+    Disp( """f'(x) = %s""" % (latex(df),) )
+
+    stop = False
     is_inf = False
-    if abs(xip1) > 10E6*(xmax-xmin):
-        is_inf = True
-        show_calcs = True
-        msg = 'Derivative is 0!'
-        xip1s = latex(xip1.sign()*infinity)
-        X.pop()
-    elif not ((xmin - 0.5*(xmax-xmin)) <= xip1 <= (xmax + 0.5*(xmax-xmin))):
-        show_calcs = True
-        msg = 'x value out of range; probable divergence!'
-    if xip1s is None:
-        xip1s = '%.4g' % (xip1,)
-    def Disp( s, color="blue" ):
-        if show_calcs:
-            html( """<font color="%s">$ %s $</font>""" % (color,s,) )
-    Disp( """f(x) = %s""" % (latex(f),)  +
-          """~~~~f'(x) = %s""" % (latex(df),) )
-    Disp( """i = %d""" % (i,)  +
-          """~~~~x_{%d} = %.4g""" % (i,xi)  +
-          """~~~~f(x_{%d}) = %.4g""" % (i,fi)  +
-          """~~~~f'(x_{%d}) = %.4g""" % (i,fpi) )
-    if msg:
-        html( """<font color="red"><b>%s</b></font>""" % (msg,) )
-        c = "red"
-    else:
-        c = "blue"
-    Disp( r"""x_{%d} = %.4g - ({%.4g})/({%.4g}) = %s""" % (i+1,xi,fi,fpi,xip1s), color=c )
-    Fplot += line( [(xi,0),(xi,fi)], linestyle=':', rgbcolor=(1,0,0) ) # vert dotted line
-    Fplot += points( [(xi,0),(xi,fi)], rgbcolor=(1,0,0) )
-    labi = text( '\nx%d\n' % (i,), (xi,0), rgbcolor=(1,0,0),
-                 vertical_alignment="bottom" if fi < 0 else "top" )
-    if is_inf:
-        xl = xi - 0.05*(xmax-xmin)
-        xr = xi + 0.05*(xmax-xmin)
-        yl = yr = fi
-    else:
-        xl = min(xi,xip1) - 0.02*(xmax-xmin)
-        xr = max(xi,xip1) + 0.02*(xmax-xmin)
-        yl = -(xip1-xl)*fpi
-        yr = (xr-xip1)*fpi
-        Fplot += points( [(xip1,0)], rgbcolor=(0,0,1) )       # new x value
-        labi += text( '\nx%d\n' % (i+1,), (xip1,0), rgbcolor=(1,0,0),
-                 vertical_alignment="bottom" if fi < 0 else "top" )
-    Fplot += line( [(xl,yl),(xr,yr)], rgbcolor=(1,0,0) )  # tangent
-    show( Fplot+labi, xmin = prange[0], xmax = prange[1] )
-    Data = [X, df, Fplot]
+    xi = x0
+    for i in range(N):
+        fi = RR(f(xi))
+        fpi = RR(df(xi))
+
+        theplot += points( [(xi,fi)], rgbcolor=(1,0,0) )
+        theplot += line( [(xi,0),(xi,fi)], linestyle=':', rgbcolor=(1,0,0) ) # vert dotted line
+        Disp( """i = %d""" % (i,) )
+        Disp( """~~~~x_{%d} = %.4g""" % (i,xi) )
+        Disp( """~~~~f(x_{%d}) = %.4g""" % (i,fi) )
+        Disp( """~~~~f'(x_{%d}) = %.4g""" % (i,fpi) )
+
+        if fpi == 0.0:
+            Err( 'Derivative is 0 at iteration %d' % (i+1,) )
+            is_inf = True
+            show_calcs = True
+        else:
+            xip1 = xi - fi/fpi
+            Disp( r"""~~~~x_{%d} = %.4g - ({%.4g})/({%.4g}) = %.4g""" % (i+1,xi,fi,fpi,xip1) )
+            if abs(xip1) > 10*(xmax-xmin):
+                Err( 'Derivative is too close to 0!' )
+                is_inf = True
+                show_calcs = True
+            elif not ((xmin - 0.5*(xmax-xmin)) <= xip1 <= (xmax + 0.5*(xmax-xmin))):
+                Err( 'x value out of range; probable divergence!' )
+                stop = True
+                show_calcs = True
+ 
+        if is_inf:
+            xl = xi - 0.05*(xmax-xmin)
+            xr = xi + 0.05*(xmax-xmin)
+            yl = yr = fi
+        else:
+            xl = min(xi,xip1) - 0.01*(xmax-xmin)
+            xr = max(xi,xip1) + 0.01*(xmax-xmin)
+            yl = -(xip1-xl)*fpi
+            yr = (xr-xip1)*fpi
+            theplot += text( '\n$x_{%d}$' % (i+1,), (xip1,0), rgbcolor=(1,0,0),
+                             vertical_alignment="bottom" if f(xip1) < 0 else "top" )
+            theplot += points( [(xip1,0)], rgbcolor=(1,0,0) )
+
+        theplot += line( [(xl,yl),(xr,yr)], rgbcolor=(1,0,0) )  # tangent
+
+        if stop or is_inf:
+            break
+        epsa = 100.0*abs((xip1-xi)/xip1)
+        nsf = 2 - log(2.0*epsa)/log(10.0)
+        Disp( r"""~~~~~~~~\epsilon_a = \left|(%.4g - %.4g)/%.4g\right|\times100\%% = %.4g \%%""" % (xip1,xi,xip1,epsa) )
+        Disp( r"""~~~~~~~~num.~sig.~fig. \approx %.2g""" % (nsf,) )
+        xi = xip1
+
+    show( theplot, xmin=xmin, xmax=xmax )
+    if show_calcs:
+        for t in Trace:
+            html( t )
 }}}
 attachment:newtraph.png
 
