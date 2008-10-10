@@ -13,6 +13,7 @@ These should be held on Monday
 
  * Using Cython (Robert Bradshaw)
  * The new coercion system - the final frontier (Robert Bradshaw or any other volunteer)
+ * Mercurial and Mercurial Ques (Mike Hansen)
 
 == Coordinators ==
 
