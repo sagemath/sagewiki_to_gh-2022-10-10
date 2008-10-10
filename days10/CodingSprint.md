@@ -49,3 +49,5 @@ These should be held on Monday
  * Linear Algebra on GPU: play with the local Ge8800 and FFLAS-FFPACK (Michael Abshoff, Clément Pernet)
 
  * Simultaneous Diophantine Approximation of Real Numbers (Andy Novocin)
+
+ * non-coding: summarize the entire Sage history for a sagemath.org/library/history.html web-page: collect old talks, the documentation, ask someone. You would just have to write text, no html (Harald Schilly)
