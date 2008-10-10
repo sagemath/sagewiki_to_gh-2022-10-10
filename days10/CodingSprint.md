@@ -8,5 +8,3 @@
  * 3.1.3 should be out by monday
 
 == Suggested projects ==
-
- * SageCombinat
