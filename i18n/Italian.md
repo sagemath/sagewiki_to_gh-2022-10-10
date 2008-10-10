@@ -53,7 +53,7 @@ Here there is a list of the .rst to be tanslated:
 ||introduction.rst||<style="background-color: #80FF80;"> [:i18n/Italian/IntroductionIt: done] || ||
 ||interfaces.rst|| || ||
 ||interactive_shell.rst|| || ||
-||index.rst|| || ||
+||index.rst||<style="background-color: #80FF80;"> [:i18n/Italian/IndexIt: done] || ||
 ||distributed.rst|| || ||
 ||conf.py|| || ||
 ||bibliography.rst|| || ||
