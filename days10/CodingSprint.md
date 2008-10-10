@@ -43,3 +43,5 @@ These should be held on Monday
  * Linear Algebra modulo Small Primes (Clément Pernet, , Jean-Guillaume Dumas)
 
  * Sage-Combinat (coming soon)
+
+ * Linear Algebra on GPU: play with the local Ge8800 and FFLAS-FFPACK (Michael Abshoff, Clément Pernet)
