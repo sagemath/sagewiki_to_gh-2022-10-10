@@ -40,7 +40,7 @@ Indici e tabelle
 
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`
+* :ref:`cerca`
 }}}
 
 == rst file ==
