@@ -24,12 +24,15 @@ These should be held on Monday
 
 == Suggested projects ==
 
- * Bug Squashing (Michael Abshoff)
+ * Bug Squashing (Michael Abshoff, 1/2 David Harvey, Simon King)
 
- * Polynomial Factory over QQ (Andy, Bill Hart, David Harvey)
+ * Polynomial Factory over QQ (Andy, Bill Hart, 1/2 David Harvey, Michael Abshoff)
 
- * Nash Equlibria (Greg Bard)
+ * Nash Equlibria (Greg Bard, Paul)
 
  * F5 (Martin Albrecht)
   http://www.math.usm.edu/perry/Research/
- * Matrix Factorisation over GF(2) (Martin Albrecht, Clément Pernet)
+
+ * Matrix Factorisation over GF(2) (Martin Albrecht, Clément Pernet, Greg Bard)
+
+ * 
