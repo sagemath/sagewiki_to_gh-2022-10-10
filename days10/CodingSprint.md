@@ -35,4 +35,7 @@ These should be held on Monday
 
  * Matrix Factorisation over GF(2) (Martin Albrecht, Clément Pernet, Greg Bard)
 
- * 
+ * linear algebra over polynomial rings (Burcin Erocal)
+  (esp. for nullspace computation over fraction fields of these)
+
+ * improve the state of fraction fields (Burcin Erocal)
