@@ -7,6 +7,13 @@
  * each person should only participate in a project or two
  * 3.1.3 should be out by monday
 
+== Informal lectures ==
+
+These should be held on Monday
+
+ * Using Cython (Robert Bradshaw)
+ * The new coercion system - the final frontier (Robert Bradshaw or any other volunteer)
+
 == Coordinators ==
 
  * Combinatorics: Mike Hansen
