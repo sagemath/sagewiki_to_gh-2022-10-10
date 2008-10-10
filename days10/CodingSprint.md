@@ -26,7 +26,7 @@ These should be held on Monday
 
  * Bug Squashing (Michael Abshoff, 1/2 David Harvey, Simon King)
 
- * Polynomial Factory over QQ (Andy, Bill Hart, 1/2 David Harvey, Michael Abshoff)
+ * Polynomial Factory over QQ (Andy Novocin, Bill Hart, 1/2 David Harvey, Michael Abshoff)
 
  * Nash Equlibria (Greg Bard, Paul Leopardi)
 
@@ -47,3 +47,5 @@ These should be held on Monday
  * Sage-Combinat (coming soon)
 
  * Linear Algebra on GPU: play with the local Ge8800 and FFLAS-FFPACK (Michael Abshoff, Clément Pernet)
+
+ * Simultaneous Diophantine Approximation of Real Numbers (Andy Novocin)
