@@ -41,3 +41,5 @@ These should be held on Monday
  * Matrix Factorisation over GF(2) (Martin Albrecht, Clément Pernet, Greg Bard, , Jean-Guillaume Dumas)
 
  * Linear Algebra modulo Small Primes (Clément Pernet, , Jean-Guillaume Dumas)
+
+ * Sage-Combinat (coming soon)
