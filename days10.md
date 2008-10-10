@@ -85,6 +85,10 @@ Standard day schedule is as follows:
 
 The Sage Days 10 dinner will take place on the 11th.
 
+=== Coding Sprint ===
+
+[:/CodingSprint: Overview page]
+
 === Location: ===
 
 [http://www.loria.fr/presentation-en Loria] [http://cado.gforge.inria.fr/workshop/venue.html Coming to Loria (webpage from another event, don't be confused).]
