@@ -31,5 +31,5 @@ These should be held on Monday
  * Nash Equlibria (Greg Bard)
 
  * F5 (Martin Albrecht)
-
+  http://www.math.usm.edu/perry/Research/
  * Matrix Factorisation over GF(2) (Martin Albrecht, Clément Pernet)
