@@ -28,19 +28,21 @@ These should be held on Monday
 
  * Polynomial Factory over QQ (Andy, Bill Hart, 1/2 David Harvey, Michael Abshoff)
 
- * Nash Equlibria (Greg Bard, Paul)
+ * Nash Equlibria (Greg Bard, Paul Leopardi)
 
- * linear algebra over polynomial rings (Burcin Erocal)
+ * Glucat (Paul Loepardi)
+
+ * Linear Algebra over Polynomial Rings (Burcin Erocal)
   (esp. for nullspace computation over fraction fields of these)
 
- * improve the state of fraction fields (Burcin Erocal)
+ * Improve the State of Fraction Fields (Burcin Erocal)
 
- * F5 (Martin Albrecht, Michael Brickenstein, Simon King, Paul)
+ * F5 (Martin Albrecht, Michael Brickenstein, Simon King)
   http://www.math.usm.edu/perry/Research/
 
- * Matrix Factorisation over GF(2) (Martin Albrecht, Clément Pernet, Greg Bard, , Jean-Guillaume Dumas)
+ * Matrix Factorisation over GF(2) (Martin Albrecht, Clément Pernet, Greg Bard, Jean-Guillaume Dumas)
 
- * Linear Algebra modulo Small Primes (Clément Pernet, , Jean-Guillaume Dumas)
+ * Linear Algebra modulo Small Primes (Clément Pernet, Jean-Guillaume Dumas)
 
  * Sage-Combinat (coming soon)
 
