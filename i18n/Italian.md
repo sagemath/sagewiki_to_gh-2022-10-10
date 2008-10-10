@@ -1,6 +1,6 @@
 == SAGE Italian Translation ==
 
-This page is intended as a coordination page for Italian translation of Sage documentation.
+This page is intended as a coordination page for the Italian translation of Sage documentation.
 
 === Interested members ===
 Put your name in the list here below if you're interested in translating Sage documentation (tutorials, web pages, help pages, etc.) in italian.
@@ -21,6 +21,12 @@ If you use a different nickname on the [[http://groups.google.com/group/sage-dev
 
  * ...
 
+=== Questions? Ideas? Proposals? ===
+If you have any question or idea about this project, or about the way we should make the translation, please put a message in the '''"Questions and Discussion"''' section at the bottom of this page. You can write either in english or italian. Please, put long discussions on dedicated subpages.
+
+If you have suggestion about the translation/revision of specific files, please, put your comments on the page where the translation/revision file is attached .
+
+Below this line you can write either in english or italian.
 ----
 ==== Tutorial ====
 
@@ -80,7 +86,7 @@ suggerimenti proposti nei seguenti siti:
 
 Nota: Ovviamente l'introduzione di nuovi termini in questa lista è gradita.
 
-=== Convenzioni ===
+=== Convenzioni di traduzione ===
 
 Conformemente all'uso italiano, nella traduzione del tutorial di Sage verrà utilizzata
 la forma impersonale.
@@ -97,6 +103,16 @@ Verranno marcati i collegamenti ipertestuali contenuti nel test con la seguente 
 
  * ...
 
+=== Convenzioni sui collegamenti ipertestuali e sulla sintassi dei file rst ===
+
+Nel tradurre i file rst bisgona porre la massima attenzione, soprattutto da parte dei revisori, al fatto che la formattazione originale dei file .rst venga mantenuta. In particolare bisogna fare attenzione a tutti gli elementi caratteristici della formattazione dei file rst (un brevissimo elenco [[http://en.wikipedia.org/wiki/ReStructuredText | qui]]), in particolare:
+ * intestazioni
+ * uso particolare degli spazi
+ * elenchi puntati e numerati
+e alla presenza di sintassi specifiche, (per esempio, collegamenti ipertestuali e riferimenti ad altre parti del tutorial stesso).
+Dovranno essere tradotti tutti i collegamenti che si riferiscono a parti del tutorial stesso (sintassi ''':ref:''') in quanto rimandano a parti del testo che verranno tradotte nel seguito. 
+I collegamenti esterni al tutorial (siti esterni, documentazione di Sage, reference manual, ecc.) per i quali non è ancora stato avviato un progetto di traduzione vanno lasciati invariati.
+
 === Glossario ===
 (per favore, cercare di mettere i termine in ordine alfabetico)
 
@@ -105,3 +121,6 @@ Verranno marcati i collegamenti ipertestuali contenuti nel test con la seguente 
 || to (double) click || fare (doppio) clic ||
 || how-to || how to||
 || online || on line, in linea||
+
+
+== Domande e discussione - Questions and Discussion ==
