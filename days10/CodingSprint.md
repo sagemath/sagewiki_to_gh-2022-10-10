@@ -26,7 +26,7 @@ These should be held on Monday
 
  * Bug Squashing (Michael Abshoff)
 
- * Polynomial Factory over QQ (Andy)
+ * Polynomial Factory over QQ (Andy, Bill Hart, David Harvey)
 
  * Nash Equlibria (Greg Bard)
 
