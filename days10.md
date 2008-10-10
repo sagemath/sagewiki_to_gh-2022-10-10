@@ -41,6 +41,12 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
      Contributing speakers:
        * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using Sage]     
    * October 11: Sage-Combinat (chair Nicolas Thiery) (follows the Elliptic Curves session)
+       The purpose of the *-Combinat project is to provide an extensible
+       toolbox for computer exploration in algebraic combinatorics, and
+       foster code sharing between researchers in this area. We will present
+       the history, features, and design of MuPAD-Combinat, and discuss the
+       timeline, difficulties, but also great technical and community
+       opportunities that arise from the ongoing port as Sage-Combinat.
      Invited Speakers:
        * Florent Hivert and Nicolas Thiéry: *-Combinat: Sharing Algebraic Combinatorics since 2000
      Contribution speakers:
