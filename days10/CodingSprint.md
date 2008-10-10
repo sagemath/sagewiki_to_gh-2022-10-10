@@ -30,6 +30,8 @@ These should be held on Monday
 
  * Nash Equlibria (Greg Bard, Paul)
 
+
+---- /!\ '''Edit conflict - other version:''' ----
  * F5 (Martin Albrecht)
   http://www.math.usm.edu/perry/Research/
 
@@ -39,3 +41,13 @@ These should be held on Monday
   (esp. for nullspace computation over fraction fields of these)
 
  * improve the state of fraction fields (Burcin Erocal)
+
+---- /!\ '''Edit conflict - your version:''' ----
+ * F5 (Martin Albrecht, Michael Brickenstein, Simon King, Paul)
+  http://www.math.usm.edu/perry/Research/
+
+ * Matrix Factorisation over GF(2) (Martin Albrecht, Clément Pernet, Greg Bard, , Jean-Guillaume Dumas)
+
+ * Linear Algebra modulo Small Primes (Clément Pernet, , Jean-Guillaume Dumas)
+
+---- /!\ '''End of edit conflict''' ----
