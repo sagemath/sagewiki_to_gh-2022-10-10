@@ -28,7 +28,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
        * [http://www.cs.uwaterloo.ca/~astorjoh/ Arne Storjohann]:[:/AStorjohannTalk: Algorithms for linear algebra on polynomial and integer matrices: similarities and differences]
        * [http://ljk.imag.fr/membres/Jean-Guillaume.Dumas/ Jean-Guillaume Dumas]:[:/JGDumasTalk: Simultaneous Modular Reduction and Kronecker Substitution for Small Finite Fields]
      Contributing speakers:
-       * Martin Albrecht: [:/MAlbrechtTalk: Matrix multiplication over GF(2) in the M4RI library]
+       * Martin Albrecht: [:/MAlbrechtTalk: Matrix multiplication over GF(2) in the M4RI library] attachment:Martin_Albrecht_Matmul_M4RI.pdf
        * Gregory Bard : Using Graph Theory to Control Fill-in for Sparse Matrix Reduction to RREF over Fields of non-zero characteristic
        * [http://www.rlmiller.org Robert Miller]: [:/RMillerTalk: An example of implementing automorphism groups: linear codes]
    * October 11: Elliptic Curves (chair Laurent Fousse)
