@@ -56,6 +56,8 @@ These should be held on Monday
 
 === Linear Algebra modulo Small Primes ===
 (Clément Pernet, Jean-Guillaume Dumas)
+  * implement the bound computation and splitting system to use the compressed matmul over small finite fields,
+  * create a matrix_modn_dense implementation based on floating point coefficients and wrapping most of FFLAS-FFPACK (cf tickets #4258,#4259,#4269)
 
 === Sage-Combinat (coming soon) ===
 
