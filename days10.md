@@ -89,6 +89,12 @@ The Sage Days 10 dinner will take place on the 11th.
 
 [:/CodingSprint: Overview page]
 
+=== Dinner on Saturday ===
+
+The dinner is at [http://maps.google.com/maps?f=q&hl=en&geocode=&q=cafe+foy&sll=48.693892,6.182599&sspn=0.008342,0.022745&ie=UTF8&ll=48.693262,6.18394&spn=0.004171,0.011373&t=h&z=17&iwloc=A grand cafe foy ] - train 1 station cathedral, if you look into the train's direction, turn left. then:
+
+[http://maps.google.com/maps?f=d&saddr=Rue+Saint-Georges&daddr=1,+Place+Stanislas,+54000+Nancy,+France+(Grand+Cafe+Foy)&hl=en&geocode=Fdr65gIdqmReAA%3B&mra=ls&dirflg=w&sll=48.691343,6.184273&sspn=0.004171,0.011373&ie=UTF8&t=h&z=18 click here to see how to walk from the station "Cathedrale" to the place] (I'm not sure about the starting point, but it should be easy)
+
 === Location: ===
 
 [http://www.loria.fr/presentation-en Loria] [http://cado.gforge.inria.fr/workshop/venue.html Coming to Loria (webpage from another event, don't be confused).]
