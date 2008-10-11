@@ -76,3 +76,6 @@ These should be held on Monday
 
 === Add Better Support for Identifying and Citing "Sub"-Systems ===
  * make sure credit goes where credit is due
+
+=== Hilbert class polynomial ===
+(Eduardo Ocampo-Alvarez, Andrey Timofeev)
