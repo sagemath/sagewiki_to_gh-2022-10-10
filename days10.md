@@ -30,7 +30,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
      Contributing speakers:
        * Martin Albrecht: [:/MAlbrechtTalk: Matrix multiplication over GF(2) in the M4RI library] attachment:Martin_Albrecht_Matmul_M4RI.pdf
        * Gregory Bard : Using Graph Theory to Control Fill-in for Sparse Matrix Reduction to RREF over Fields of non-zero characteristic
-       * [http://www.rlmiller.org Robert Miller]: [:/RMillerTalk: An example of implementing automorphism groups: linear codes]
+       * [http://www.rlmiller.org Robert Miller]: [:/RMillerTalk: An example of implementing automorphism groups: linear codes] (cancelled due to illness)
    * October 11: Elliptic Curves (chair Laurent Fousse)
      Invited speakers:
        * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]: Elliptic Curves in Sage
@@ -51,7 +51,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
        * Florent Hivert and Nicolas Thiéry: *-Combinat: Sharing Algebraic Combinatorics since 2000
      Contribution speakers:
        * Mike Hansen: Decomposable Objects and combinatorial species
-       * Robert Miller: Partition Refinement for Classification
+       * [http://www.rlmiller.org Robert Miller]: Partition Refinement for Classification attachment:Miller_SD10_talk.pdf
        * Franco Saliola: Posets and words in Sage-Combinat
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
