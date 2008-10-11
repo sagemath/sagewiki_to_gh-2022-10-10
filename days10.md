@@ -26,7 +26,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
    * October 10: Linear Algebra (chair Clement Pernet)
      Invited speakers:
        * [http://www.cs.uwaterloo.ca/~astorjoh/ Arne Storjohann]:[:/AStorjohannTalk: Algorithms for linear algebra on polynomial and integer matrices: similarities and differences]
-       * [http://ljk.imag.fr/membres/Jean-Guillaume.Dumas/ Jean-Guillaume Dumas]:[:/JGDumasTalk: Simultaneous Modular Reduction and Kronecker Substitution for Small Finite Fields]
+       * [http://ljk.imag.fr/membres/Jean-Guillaume.Dumas/ Jean-Guillaume Dumas]:[:/JGDumasTalk: Simultaneous Modular Reduction and Kronecker Substitution for Small Finite Fields] attachment:Dumas_SD10_talk.pdf
      Contributing speakers:
        * Martin Albrecht: [:/MAlbrechtTalk: Matrix multiplication over GF(2) in the M4RI library] attachment:Martin_Albrecht_Matmul_M4RI.pdf
        * Gregory Bard : Using Graph Theory to Control Fill-in for Sparse Matrix Reduction to RREF over Fields of non-zero characteristic
