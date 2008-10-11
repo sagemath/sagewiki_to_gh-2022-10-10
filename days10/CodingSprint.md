@@ -79,3 +79,7 @@ These should be held on Monday
 
 === Hilbert class polynomial ===
 (Eduardo Ocampo-Alvarez, Andrey Timofeev)
+
+=== Implement Sparse FGLM ===
+(Martin Albrecht)
+ * see http://eprint.iacr.org/2008/402.pdf for timings why this makes sense
