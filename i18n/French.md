@@ -42,6 +42,6 @@ Here there is a list of the .rst to be tanslated:
 
 == Conventions ==
 
-== Dictionnaire ==
+== Glossaire ==
 
-Pour se mettre d'accord sur la traduction de termes courants.
+Pour se mettre d'accord sur la traduction de termes courants. On peut aussi utiliser le [http://glossaire.traduc.org/ glossaire] de traduc.org (cependant, le but est d'obtenir une traduction claire et pas trop lourde : on n'est pas obligé de s'y tenir).
