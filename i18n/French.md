@@ -30,10 +30,10 @@ Here there is a list of the .rst to be tanslated:
 ||tour_algebra.rst|| || ||
 ||tour_advanced.rst|| || ||
 ||programming.rst|| || ||
-||introduction.rst|| || ||
+||introduction.rst|| in progress (MM) || ||
 ||interfaces.rst|| || ||
 ||interactive_shell.rst|| || ||
-||index.rst|| || ||
+||index.rst|| in progress (MM) || ||
 ||distributed.rst|| || ||
 ||conf.py|| || ||
 ||bibliography.rst|| || ||
