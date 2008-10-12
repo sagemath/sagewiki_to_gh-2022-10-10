@@ -108,3 +108,7 @@ A schedule for the talks should be announced during the organizational meeting o
 === French Translation of the Tutorial (A Project for Newcomers!) ===
 (Bertrand Meyer, Marc Mezzarobba)
  * as a means to discover Sage while doing something (hopefully) useful, we are trying to translate: http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/
+
+=== Improve Emacs Interface ===
+(Matthias Meulien)
+ * The goal is to mimic what is available for maxima http://members3.jcom.home.ne.jp/imaxima/Site/Download_and_Install.html
