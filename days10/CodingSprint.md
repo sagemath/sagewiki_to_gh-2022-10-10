@@ -10,9 +10,9 @@
 The following rooms are available all day during the coding sprint (until midnight)
 
  * A008 with a capacity of 50 people
- * A006 with a capacity of 30p people
- * A208 with a capacity of 10p people
- * A217 with a capacity of 8p people
+ * A006 with a capacity of 30 people
+ * A208 with a capacity of 10 people
+ * A217 with a capacity of 8 people
 
 == Rules ==
 
@@ -41,7 +41,7 @@ A schedule for the talks should be announced during the organizational meeting o
 == Suggested projects ==
 
 === Bug Squashing ===
-(Michael Abshoff, 1/2 David Harvey, Simon King) 
+(Michael Abshoff, 1/2 David Harvey, Simon King, Paul Zimmermann) 
 
 === Polynomial Factory over QQ ===
 (Andy Novocin, Bill Hart, 1/2 David Harvey, Michael Abshoff)
@@ -112,3 +112,6 @@ A schedule for the talks should be announced during the organizational meeting o
 === Improve Emacs Interface ===
 (Matthias Meulien)
  * The goal is to mimic what is available for maxima http://members3.jcom.home.ne.jp/imaxima/Site/Download_and_Install.html
+
+=== Increase Doctest Coverage ===
+(Paul Zimmermann)
