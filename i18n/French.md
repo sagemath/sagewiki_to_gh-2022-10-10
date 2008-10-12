@@ -18,7 +18,7 @@ Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez
 Here there is a list of the .rst to be tanslated:
 ||||||<tablestyle="width: 75%">'''File list'''||
 ||''file name''||<style="background-color: #80FF80;"> ''translated''||<style="background-color: #8080FF;"> ''reviewed''||
-||tour.rst|| in progress (BM) || ||
+||tour.rst|| en cours (BM) || ||
 ||tour_rings.rst|| || ||
 ||tour_polynomial.rst|| || ||
 ||tour_plotting.rst|| || ||
@@ -26,7 +26,7 @@ Here there is a list of the .rst to be tanslated:
 ||tour_linalg.rst|| || ||
 ||tour_help.rst || || ||
 ||tour_groups.rst|| || ||
-||tour_assignment.rst|| || ||
+||tour_assignment.rst|| en cours (BM) || ||
 ||tour_algebra.rst|| || ||
 ||tour_advanced.rst|| || ||
 ||programming.rst|| || ||
