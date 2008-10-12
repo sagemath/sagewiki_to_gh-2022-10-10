@@ -1,4 +1,4 @@
-= Sage Days 14 =
+= Sage Days 14: Barcelona, Spain =
 
 Sage Days 14 will take place June 22-27, 2009, the week after MEGA 2009. The event will be organised by the CRM (http://www.crm.cat) and the OSRM of the UPC (http://www-fme.upc.edu/osrm/), and will take place at the FME, in the campus of the UPC, in Barcelona.
 
