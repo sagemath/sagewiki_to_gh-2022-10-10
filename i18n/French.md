@@ -27,7 +27,7 @@ Here there is a list of the .rst to be tanslated:
 ||tour_help.rst || || ||
 ||tour_groups.rst|| || ||
 ||tour_assignment.rst|| en cours (BM) || ||
-||tour_algebra.rst|| || ||
+||tour_algebra.rst|| en cours (BM) || ||
 ||tour_advanced.rst|| || ||
 ||programming.rst|| || ||
 ||introduction.rst|| in progress (MM) || ||
