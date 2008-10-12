@@ -101,3 +101,6 @@ A schedule for the talks should be announced during the organizational meeting o
 === Implement Sparse FGLM ===
 (Martin Albrecht)
  * see http://eprint.iacr.org/2008/402.pdf for timings why this makes sense
+
+=== Speed-Up Arithmetic for Elliptic Curves over Finite Fields ===
+(Nadia El Mrabet)
