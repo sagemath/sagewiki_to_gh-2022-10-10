@@ -59,7 +59,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
        * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: [:/EricSchostTalk: Computing with triangular families of polynomials: an overview]
      Contributing speakers:
        * B.  Erocal : [:/BurcinErocalTalk: SCrypt: Symbolic computation assists algebraic cryptanalysis]
-       * M. Brickenstein : Secrets of Singular and PolyBoRi
+       * M. Brickenstein : Secrets of Singular and PolyBoRi attachment:brickenstein_secrets.pdf
          This talk presents techniques for Gröbner bases calculations
          implemented in the computer algebra system Singular and the
          PolyBoRi framework. I will consider
