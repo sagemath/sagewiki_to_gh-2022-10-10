@@ -1,0 +1,631 @@
+
+   *----*    MuPAD Pro 4.0.0 -- The Open Computer Algebra System
+  /|   /|
+ *----* |    Copyright (c)  1997 - 2006  by SciFace Software
+ | *--|-*                   All rights reserved.
+ |/   |/
+ *----*      Licensed to:   MuPAD Combinat Developer
+
+
+ +---+
+ | T |             MuPAD-Combinat 1.3.3 (development)
+ +---+---+
+ | A | K |         an open source MuPAD package for
+ +---+---+---+
+     | I | N |    research in Algebraic Combinatorics
+     +---+---+
+
+This package provides or extends the following libraries:
+  combinat, examples, Dom, Cat, output, experimental, IPC, operators
+
+For quick information on a particular library, please type:
+  info(library)   or   ?library   (requires MuPAD >= 4.0.0)
+
+For the full html documentation, please browse through:
+  http://mupad-combinat.sf.net/ (project web page)
+  file:/media/AdvDisk/Combinat//index.html (local mirror)
+
+-- Interface:
+packages::Combinat::dotCategories, packages::Combinat::help,
+packages::Combinat::viewDot,       packages::Combinat::viewDotTeX,
+packages::Combinat::viewTeX                                       
+>> TEXTWIDTH:=84:
+>> 1+1
+
+                                         2
+                                                                       Time: 0 msec 
+>> export(combinat):
+>> partitions::list(5)
+
+     [[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]]
+                                                                      Time: 68 msec 
+>> partitions::count(10)
+
+                                         42
+                                                                       Time: 4 msec 
+>> trees::list(5)
+
+    --   o  ,  o ,  o ,  o  ,  o ,  o ,  o ,   o ,  o ,  o ,  o ,  o ,  o , o --
+    |  // \\  /|\  /|\  / \   / \  /|\  / \   / \  / \   |    |    |    |   |  |
+    |           |   |     /\    |  |    | |  /\    |    /|\  / \  / \   |   |  |
+    |                           |                  |           |  |    / \  |  |
+    --                                                                      | --
+                                                                     Time: 392 msec 
+>> trees::count(6)
+
+                                         42
+                                                                       Time: 0 msec 
+>> trees::random(50)
+
+                                                o
+                                                |
+                                            /  / \\
+                                           /  \|  /\
+                                /  /       |\\     |
+                                 //  \    \
+                                  |  |    |
+                                 / \ |   /|\
+                                    / \    |
+                                      |
+                                     /  \
+                                    /|\ |
+                                      |/ \
+                                      | / \
+                                         /|\
+                                         |
+                                                                      Time: 96 msec 
+
+Sin								      
+
+>> print(eq) $ eq in binaryTrees::grammar::specification
+
+                            Tree = Union(LeafNil, Node)
+
+             Node = Alias(NodeRaw, x -> dom([op(x, 1), op(op(x, 2))]))
+
+                        NodeRaw = Prod(NodeLabel, ChildList)
+
+                               NodeLabel = Atom(NIL)
+
+                            ChildList = Prod(Tree, Tree)
+
+              Leaf = Alias(LeafLabel, combinat::binaryTrees@DOM_LIST)
+
+                               LeafLabel = Atom(NIL)
+
+                                LeafNil = Epsilon(.)
+>> r := binaryTrees::grammar::recurrenceRelation():
+>>  assume(n>0):
+>>  u(n) = factor(op(solve(r, u(n)),1))
+
+                                   2 u(n - 1) (2 n - 1)
+                            u(n) = --------------------
+                                           n + 1
+                                                                     Time: 136 msec 
+>> domain Trees
+>>  inherits combinat::trees;
+>>  category Cat::TreesClass(Ordered = FALSE);
+>>  axiom    Ax::normalRep, Ax::canonicalRep;
+>>  
+>>  info := "A domain for rooted unordered trees";
+>>  
+>>  grafts :=
+>>  proc(x:dom, y:dom) : Type::ListOf(dom)
+>>      local i;
+>>  begin
+>>      [sort(x::append(y))] .           // Base case
+>>      (map( (x[i])::grafts(y),         // Recursively
+>>            z -> sort(x::subsop(i=z))) //     graft back each result in turn
+>>       $ i=1..nops(x))                 // on all childs
+>>  end_proc;
+>>  end_domain:
+>> T := Trees::list(4);
+
+                               -- o,  o ,  o ,  o  --
+                               |  |   |   / \  /|\  |
+                               |  |  / \    |       |
+                               -- |                --
+                                                                     Time: 100 msec 
+>> t1 := T[2]; t2 := subsop(Trees::list(5)[7], 0=0)
+
+                                         o
+                                         |
+                                        / \
+                                                                       Time: 4 msec 
+
+                                         0
+                                        / \
+                                        | |
+                                                                      Time: 52 msec 
+>> t1::grafts(t2)
+
+                           --   o  ,  o  ,  o  ,  o   --
+                           |   / \    |     |     |    |
+                           |  /\ 0   /|\   / \   / \   |
+                           |    / \    0     |     |   |
+                           |    | |   / \    0     0   |
+                           |          | |   / \   / \  |
+                           --               | |   | | --
+                                                                      Time: 36 msec 
+>> domain preLieAlgebra(R = Dom::ExpressionField(): Cat::Ring)
+>>  inherits Dom::FreeModule(R, Trees);
+>>  category Cat::AlgebraWithBasis(R); // Non Associative...
+>>  
+>>  v := dom::term(Trees([NIL]));
+>>  
+>>  mult2Basis :=
+>>  proc(t1 : Trees,
+>>       t2 : Trees)
+>>      local t;
+>>  begin
+>>      dom::plus(dom::term(t) $ t in Trees::grafts(t1,t2));
+>>  end;
+>>  end_domain:
+>> pr := preLieAlgebra():
+>> d := pr::v
+
+                                        B(o)
+                                                                       Time: 4 msec 
+>> d := d * pr::v
+
+                                        B o
+                                         (|)
+                                                                       Time: 8 msec 
+>> d := d * pr::v
+
+                                  B  o   + B/ o \
+                                   (/ \)    | | |
+                                            \ | /
+                                                                       Time: 4 msec 
+>> d := d * pr::v
+
+                      3 B/  o  \ + B/  o  \ + B/ o \ + B  o
+                         | / \ |    |  |  |    | | |    (/|\)
+                         \   | /    \ / \ /    | | |
+                                               \ | /
+                                                                      Time: 12 msec 
+>> d := d * pr::v;
+
+B   o    + 6 B/  o  \ + 4 B/  o  \ + 3 B/  o  \ + B/  o  \ + B/ o \ + 4 B/  o   \ +
+ (// \\)      | /|\ |      | / \ |      |  |  |    |  |  |    | | |      | / \  |
+              \   | /      |   | |      | / \ |    |  |  |    | | |      \   /\ /
+                           \   | /      \   | /    \ / \ /    | | |
+                                                              \ | /
+
+   B/  o  \ + 3 B/  o  \
+    |  |  |      | / \ |
+    \ /|\ /      \ | | /
+                                                                      Time: 40 msec 
+>> _plus(coeff(d))
+
+                                         24
+                                                                       Time: 0 msec 
+>> d := d * pr::v;
+
+15 B/  o  \ + 10 B/  o   \ + 10 B/  o  \ + 5 B/  o   \ + B/   o   \ + 6 B/  o  \ +
+    | /|\ |       | / \  |       | / \ |      | / \  |    |   |   |      |  |  |
+    \  || /       \ | /\ /       | | | |      \  /|\ /    \ // \\ /      | /|\ |
+                                 \   | /                                 \   | /
+
+   10 B/  o   \ + 15 B/  o   \ + 5 B/  o  \ + 4 B/  o  \ + 3 B/  o  \ + B/  o  \ +
+       | /|\  |       | / \  |      | / \ |      |  |  |      |  |  |    |  |  |
+       \   /\ /       |   /\ |      |   | |      | / \ |      |  |  |    |  |  |
+                      \    | /      |   | |      |   | |      | / \ |    |  |  |
+                                    \   | /      \   | /      \   | /    \ / \ /
+
+   B/ o \ + 5 B/  o   \ + 4 B/  o   \ + B/  o  \ + 3 B/  o  \ + 10 B/  o  \ +
+    | | |      | / \  |      |  |   |    |  |  |      |  |  |       | /|\ |
+    | | |      |   |  |      | / \  |    |  |  |      | / \ |       |   | |
+    | | |      \  / \ /      \   /\ /    \ /|\ /      \ | | /       \   | /
+    | | |
+    \ | /
+
+   10 B/   o   \ + B   o
+       | // \\ |    (//|\\)
+       \     | /
+                                                                      Time: 88 msec 
+>> _plus(coeff(d))
+
+                                        120
+                                                                       Time: 0 msec 
+>> d := d * pr::v;
+
+B    o     + 15 B/   o   \ + 45 B/   o   \ + 20 B/   o    \ + 20 B/   o   \ +
+ (/// \\\)       | //|\\ |       | // \\ |       | // \\  |       | // \\ |
+                 \     | /       \    || /       \     /\ /       |     | |
+                                                                  \     | /
+
+   60 B/  o  \ + 45 B/  o   \ + 15 B/  o   \ + 15 B/  o  \ + 18 B/  o   \ +
+       | /|\ |       | /|\  |       | /|\  |       | /|\ |       | / \  |
+       |  || |       |   /\ |       |   |  |       |   | |       |   /\ |
+       \   | /       \    | /       \  / \ /       |   | |       \   || /
+                                                   \   | /
+
+   15 B/  o  \ + 10 B/  o   \ + 10 B/  o  \ + 6 B/  o   \ + 5 B/  o   \ +
+       |  |  |       |  |   |       |  |  |      | / \  |      |  |   |
+       | /|\ |       | / \  |       | / \ |      |   |  |      | / \  |
+       \  || /       \ | /\ /       | | | |      \  /|\ /      \  /|\ /
+                                    \   | /
+
+   B/   o   \ + 6 B/  o  \ + 24 B/  o    \ + 10 B/  o   \ + 15 B/  o   \ +
+    |   |   |      |  |  |       | / \   |       |  |   |       |  |   |
+    |   |   |      |  |  |       |   /\  |       | /|\  |       | / \  |
+    \ // \\ /      | /|\ |       \    /\ /       \   /\ /       |   /\ |
+                   \   | /                                      \    | /
+
+   15 B/  o   \ + 18 B/  o   \ + 6 B/  o  \ + 5 B/  o  \ + 4 B/  o  \ +
+       | / \  |       | / \  |      | / \ |      |  |  |      |  |  |
+       | | |  |       |   |  |      |   | |      | / \ |      |  |  |
+       \  / \ /       |  / \ |      |   | |      |   | |      | / \ |
+                      \    | /      |   | |      |   | |      |   | |
+                                    \   | /      \   | /      \   | /
+
+   3 B/  o  \ + B/  o  \ + B/ o \ + 6 B/  o   \ + 5 B/  o   \ + 4 B/  o   \ +
+      |  |  |    |  |  |    | | |      | / \  |      |  |   |      |  |   |
+      |  |  |    |  |  |    | | |      |   |  |      | / \  |      |  |   |
+      |  |  |    |  |  |    | | |      |   |  |      |   |  |      | / \  |
+      | / \ |    |  |  |    | | |      \  / \ /      \  / \ /      \   /\ /
+      \   | /    \ / \ /    | | |
+                            \ | /
+
+   B/  o  \ + 3 B/  o  \ + 24 B/  o   \ + 10 B/  o  \ + 15 B/  o  \ +
+    |  |  |      |  |  |       | / \  |       |  |  |       | / \ |
+    |  |  |      |  |  |       |   /\ |       | /|\ |       | | | |
+    |  |  |      | / \ |       |    | |       |   | |       |   | |
+    \ /|\ /      \ | | /       \    | /       \   | /       \   | /
+
+   45 B/  o   \ + 36 B/  o   \ + 60 B/  o   \ + 15 B/  o    \ + 10 B/   o   \ +
+       | / \  |       | / \  |       | /|\  |       | /| \  |       |   |   |
+       | | /\ |       |  /|\ |       \  |/\ /       \   /|\ /       | // \\ |
+       \    | /       \    | /                                      \     | /
+
+   6 B/  o    \ + B/   o   \ + 15 B/  o   \ + 20 B/  o   \ + 10 B/  o  \ +
+      | / \   |    |   |   |       | / \  |       | / \  |       | / \ |
+      \  //\\ /    \ //|\\ /       \ |/|\ /       | | /\ |       | | | |
+                                                  \ |    /       \ | | /
+
+   10 B/   o   \ + 15 B/  o  \
+       |  / \  |       | /|\ |
+       \ /\ /\ /       \ ||| /
+                                                                     Time: 188 msec 
+>> _plus(coeff(d))
+
+                                        720
+                                                                       Time: 0 msec 
+>> // Identité Prélie :
+>>  bool(     (x*y)*z  -  x*(y*z)   =   (x*z)*y  -  x*(z*y)     )
+>>  $ x in pr::basis(3) $ y in pr::basis(3) $ z in pr::basis(3);
+
+                   TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE
+                                                                     Time: 120 msec 
+>> read("experimental/2005-09-08-David.mu"):
+//////////////////////////////////////////////////////////////////////
+Loading worksheet: Twisted Kac algebras
+Cf.  p. 715 of '2-cocycles and twisting of Kac algebras'
+
+Version: $Id: 2005-09-08-David.mu 7495 2008-04-30 20:01:44Z nthiery $
+To update to the latest version, go to the MuPAD-Combinat directory and type:
+       svn update
+Content:
+  G := DihedralGroup(4)
+  SkewTensorProduct(A, B)	-- Skew tensor product of A and B (A being the dual of B)
+  coidealDual([ p ])	-- Basis of the dual of the left coideal generated by p
+
+  TwistedDihedralGroupAlgebra:
+    KD4 := TwistedDihedralGroupAlgebra(4):
+    KD4 := KD(4):			-- shortcut
+    KD4::G = KD4::group			-- KD4 expressed on group elements
+    KD4::G([3,1])			-- a^3 b
+    KD4::M = KD4::matrix		-- KD4 expressed as block diagonal matrices
+    KD4::G::tensorSquare		-- the tensor product KD4::G # KD4::G
+    KD4::M::tensorSquare		--
+
+    KD4::coeffRing			-- the coefficient field
+    KD4::coeffRing::primitiveUnitRoot(4)-- the complex value I
+
+    KD4::M(x), KD4::G(x)		-- conversions between bases
+    KD4::e(1), KD4::e(2,2,1)		-- matrix units
+    KD4::p(2,2,j), KD4::r(2,2,j)	-- some projectors of the j-th block
+    KD4::p1, KD4::p2, KD4::q1, KD4::q1	-- some projectors
+    KD4::G::Omega			-- Omega in the group basis
+    KD4::M::tensorSquare( KD4::G::Omega )-- Omega in the matrix basis
+    KD4::M::coproductAsMatrix(e(1))	-- the coproduct of e(1) as a matrix
+
+    KD4::automorphismReverseOddBlocks   -- some (potential) automorphisms
+    KD4::automorphismTransposeEvenBlocks--
+    KD4::automorphismTransposeOddBlocks -- (not an automorphism for KD4!)
+
+    // To get shorter notations:
+    export(KD4, Alias, e, p1, p2, q1, q2):
+    alias(view = KD4::M::coproductAsMatrix):
+    // Then you can do:
+    e(2,2,1) ...
+    view(e(1))
+
+  TwistedQuaternionGroupAlgebra(N)
+    KQ4 := TwistedDihedralGroupAlgebra(4):
+    KQ4 := KD(4):		-- shortcut
+    Same usage as for KD(N)
+
+  algebraClosure([a,b,c])
+  coidealClosure([a,b,c])
+  coidealAndAlgebraClosure([a,b,c])
+  echelonForm([a,b,c], Reduced)
+  Isomorphism KD(2N) <-> KQ(2N)
+  The most natural isomorphism, in the G basis:
+   KQ4::G(KD4::G([1,0])):              -- The image of a of KD4 in KQ4
+   KD4::G(KQ4::G([0,1])):              -- The image of b of KQ4 in KD4
+
+  The 8 possible isomorphisms in the M basis:
+   phi := isomorphismKDMKQM(4, 3, TRUE)-- isomorphism KD(4)::M -> KQ(4)::M
+   KD4::M::isHopfAlgebraMorphism(f);
+   inv := KD4::M::inverseOfModuleMorphism(phi);
+   KQ4::M::isHopfAlgebraMorphism(inv);
+
+
+A sample computation:
+  M := KQ(4):
+  Fbasis := coidealAndAlgebraClosure([M::e(1) + M::e(2)]):
+  F := Dom::SubFreeModule(Fbasis, [Cat::FiniteDimensionalHopfAlgebraWithBasis(M::coeffRing)]):
+  Fdual := Dom::DualOfFreeModule(F):
+  G := Fdual::intrisicGroup():
+  G::list();   // C'est le groupe dihedral D4
+
+//////////////////////////////////////////////////////////////////////
+>> KD3 := KD(3):
+>> KD3::categories
+
+[Cat::HopfAlgebraWithSeveralBases(Q(II, epsilon)),
+
+   TwistedDihedralOrQuaternionGroupAlgebra(3),
+
+   Cat::AlgebraWithSeveralBases(Q(II, epsilon)), Cat::Algebra(Q(II, epsilon)),
+
+   Cat::ModuleWithSeveralBases(Q(II, epsilon)), Cat::Ring,
+
+   Cat::Module(Q(II, epsilon)), Cat::DomainWithSeveralRepresentations, Cat::Rng,
+
+   Cat::SemiRing, Cat::LeftModule(KD(3, Q(II, epsilon))),
+
+   Cat::LeftModule(Q(II, epsilon)), Cat::RightModule(Q(II, epsilon)),
+
+   Cat::UseOverloading, Cat::FacadeDomain, Cat::SemiRng, Cat::Monoid,
+
+   Cat::AbelianGroup, Cat::SemiGroup, Cat::CancellationAbelianMonoid,
+
+   Cat::AbelianMonoid, Cat::AbelianSemiGroup, Cat::Object, Cat::BaseCategory]
+                                                                       Time: 4 msec 
+>> [aa,bb] := KD3::group::algebraGenerators::list()
+
+                                    [B(a), B(b)]
+                                                                       Time: 4 msec 
+>> bb^2
+
+                                        B(1)
+                                                                      Time: 12 msec 
+>> aa^2, aa^6, bb*aa
+
+                                   2            5
+                                B(a ), B(1), B(a  b)
+                                                                       Time: 4 msec 
+>> (1 - aa^3)*(bb + aa^3) + 1/2*bb*aa^3
+
+                                           3            3
+                       -1 B(1) + B(b) + B(a ) + -1/2 B(a  b)
+                                                                      Time: 24 msec 
+>> KD3::M(aa + 2*bb)
+
+          +-                                                           -+
+          |  3,  0,  0, 0,    0,         0,           0,          0     |
+          |                                                             |
+          |  0, -1,  0, 0,    0,         0,           0,          0     |
+          |                                                             |
+          |  0,  0, -3, 0,    0,         0,           0,          0     |
+          |                                                             |
+          |  0,  0,  0, 1,    0,         0,           0,          0     |
+          |                                                             |
+          |  0,  0,  0, 0, epsilon,      2,           0,          0     |
+          |                                                             |
+          |  0,  0,  0, 0,    2,    1 - epsilon,      0,          0     |
+          |                                                             |
+          |  0,  0,  0, 0,    0,         0,      epsilon - 1,     2     |
+          |                                                             |
+          |  0,  0,  0, 0,    0,         0,           2,      -epsilon  |
+          +-                                                           -+
+                                                                      Time: 48 msec 
+>> coproduct(aa^3), coproduct(bb)
+
+                                3       3
+                             B(a ) # B(a ), B(b) # B(b)
+                                                                     Time: 496 msec 
+>> coproduct(aa)
+
+                                                        2                   2
+7/16 B(a) # B(a) + 1/16 B(a) # B(a b) + -1/16 B(a) # B(a ) + 1/16 B(a) # B(a  b) +
+
+                  4                   4                     5
+   3/16 B(a) # B(a ) + 1/16 B(a) # B(a  b) + 3/16 B(a) # B(a ) +
+
+                  5
+   1/16 B(a) # B(a  b) + 1/16 B(a b) # B(a) + 1/16 B(a b) # B(a b) +
+
+                    2                     2      /   II        \             4
+   1/16 B(a b) # B(a ) + 1/16 B(a b) # B(a  b) + | - -- - 1/16 | B(a b) # B(a ) +
+                                                 \    8        /
+
+   / II        \             4      / II        \             5
+   | -- - 1/16 | B(a b) # B(a  b) + | -- - 1/16 | B(a b) # B(a ) +
+   \  8        /                    \  8        /
+
+   /   II        \             5               2                   2
+   | - -- - 1/16 | B(a b) # B(a  b) + -1/16 B(a ) # B(a) + 1/16 B(a ) # B(a b) +
+   \    8        /
+
+            2       2            2       2               2       4
+   -1/16 B(a ) # B(a ) + 1/16 B(a ) # B(a  b) + -1/16 B(a ) # B(a ) +
+
+           2       4               2       5            2       5
+   1/16 B(a ) # B(a  b) + -1/16 B(a ) # B(a ) + 1/16 B(a ) # B(a  b) +
+
+           2                     2                       2         2
+   1/16 B(a  b) # B(a) + 1/16 B(a  b) # B(a b) + 1/16 B(a  b) # B(a ) +
+
+           2         2      /   II        \    2         4
+   1/16 B(a  b) # B(a  b) + | - -- - 1/16 | B(a  b) # B(a ) +
+                            \    8        /
+
+   /   II        \    2         4      / II        \    2         5
+   | - -- - 1/16 | B(a  b) # B(a  b) + | -- - 1/16 | B(a  b) # B(a ) +
+   \    8        /                     \  8        /
+
+   / II        \    2         5              4
+   | -- - 1/16 | B(a  b) # B(a  b) + 3/16 B(a ) # B(a) +
+   \  8        /
+
+   / II        \    4                      4       2
+   | -- - 1/16 | B(a ) # B(a b) + -1/16 B(a ) # B(a ) +
+   \  8        /
+
+   / II        \    4       2              4       4
+   | -- - 1/16 | B(a ) # B(a  b) + 3/16 B(a ) # B(a ) +
+   \  8        /
+
+   /   II        \    4       4               4       5
+   | - -- - 1/16 | B(a ) # B(a  b) + -1/16 B(a ) # B(a ) +
+   \    8        /
+
+   /   II        \    4       5              4
+   | - -- - 1/16 | B(a ) # B(a  b) + 1/16 B(a  b) # B(a) +
+   \    8        /
+
+   /   II        \    4                       4         2
+   | - -- - 1/16 | B(a  b) # B(a b) + 1/16 B(a  b) # B(a ) +
+   \    8        /
+
+   / II        \    4         2      / II        \    4         4
+   | -- - 1/16 | B(a  b) # B(a  b) + | -- - 1/16 | B(a  b) # B(a ) +
+   \  8        /                     \  8        /
+
+           4         4      /   II        \    4         5
+   1/16 B(a  b) # B(a  b) + | - -- - 1/16 | B(a  b) # B(a ) +
+                            \    8        /
+
+           4         5              5           /   II        \    5
+   1/16 B(a  b) # B(a  b) + 3/16 B(a ) # B(a) + | - -- - 1/16 | B(a ) # B(a b) +
+                                                \    8        /
+
+            5       2    /   II        \    5       2               5       4
+   -1/16 B(a ) # B(a ) + | - -- - 1/16 | B(a ) # B(a  b) + -1/16 B(a ) # B(a ) +
+                         \    8        /
+
+   / II        \    5       4              5       5
+   | -- - 1/16 | B(a ) # B(a  b) + 3/16 B(a ) # B(a ) +
+   \  8        /
+
+   / II        \    5       5              5
+   | -- - 1/16 | B(a ) # B(a  b) + 1/16 B(a  b) # B(a) +
+   \  8        /
+
+   / II        \    5                       5         2
+   | -- - 1/16 | B(a  b) # B(a b) + 1/16 B(a  b) # B(a ) +
+   \  8        /
+
+   /   II        \    5         2      / II        \    5         4
+   | - -- - 1/16 | B(a  b) # B(a  b) + | -- - 1/16 | B(a  b) # B(a ) +
+   \    8        /                     \  8        /
+
+           5         4      /   II        \    5         5            5         5
+   1/16 B(a  b) # B(a  b) + | - -- - 1/16 | B(a  b) # B(a ) + 1/16 B(a  b) # B(a  b)
+                            \    8        /
+                                                                     Time: 260 msec 
+>> K := KD3::G:   // un simple raccourci
+>>  checkAntipode := K::mu @ ( K::id # K::antipode ) @ K::coproduct:
+>> checkAntipode(x) $ x in K::basis::list()
+
+       B(1), B(1), B(1), B(1), B(1), B(1), B(1), B(1), B(1), B(1), B(1), B(1)
+                                                                    Time: 2020 msec 
+>> e := KD3::e:
+>> K2basis := coidealAndAlgebraClosure([ e(1)+e(2) ])
+
+-- +-                        -+  +-                        -+
+|  |  1, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+|  |                          |  |                          |
+|  |  0, 1, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+|  |                          |  |                          |
+|  |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 1, 0, 0, 0, 0, 0  |
+|  |                          |  |                          |
+|  |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 1, 0, 0, 0, 0  |
+|  |                          |, |                          |,
+|  |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+|  |                          |  |                          |
+|  |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+|  |                          |  |                          |
+|  |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+|  |                          |  |                          |
+|  |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+-- +-                        -+  +-                        -+
+
+   +-                         -+  +-                        -+
+   |  0, 0, 0, 0, 0,  0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+   |                           |  |                          |
+   |  0, 0, 0, 0, 0,  0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+   |                           |  |                          |
+   |  0, 0, 0, 0, 0,  0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+   |                           |  |                          |
+   |  0, 0, 0, 0, 0,  0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+   |                           |, |                          |,
+   |  0, 0, 0, 0, 0, -1, 0, 0  |  |  0, 0, 0, 0, 1, 0, 0, 0  |
+   |                           |  |                          |
+   |  0, 0, 0, 0, 1,  0, 0, 0  |  |  0, 0, 0, 0, 0, 1, 0, 0  |
+   |                           |  |                          |
+   |  0, 0, 0, 0, 0,  0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+   |                           |  |                          |
+   |  0, 0, 0, 0, 0,  0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |
+   +-                         -+  +-                        -+
+
+   +-                        -+  +-                        -+ --
+   |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |  |
+   |                          |  |                          |  |
+   |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |  |
+   |                          |  |                          |  |
+   |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |  |
+   |                          |  |                          |  |
+   |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |  |
+   |                          |, |                          |  |
+   |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |  |
+   |                          |  |                          |  |
+   |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |  |
+   |                          |  |                          |  |
+   |  0, 0, 0, 0, 0, 0, 1, 0  |  |  0, 0, 0, 0, 0, 0, 0, 0  |  |
+   |                          |  |                          |  |
+   |  0, 0, 0, 0, 0, 0, 0, 0  |  |  0, 0, 0, 0, 0, 0, 0, 1  |  |
+   +-                        -+  +-                        -+ --
+                                                                   Time: 13601 msec 
+>> K2 := Dom::SubFreeModule(K2basis,
+>>      [Cat::FiniteDimensionalHopfAlgebraWithBasis(KD3::coeffRing)]):
+>> K2::isCommutative(), K2::isCocommutative()
+
+                                    TRUE, FALSE
+                                                                      Time: 56 msec 
+>> K2dual := K2::Dual():
+>> K2dual::groupLikeElements()
+
+ _          _          _          _              _           _
+[B([3, 3]), B([1, 1]), B([8, 8]), B([7, 7]), -II B([6, 5]) + B([5, 5]),
+
+      _           _
+   II B([6, 5]) + B([5, 5])]
+                                                                    Time: 1236 msec 
+>> G := K2dual::intrinsicGroup():
+>>  G::list()
+
+                     [[], [1], [1, 1], [2], [1, 2], [1, 1, 2]]
+                                                                       Time: 0 msec 
+>> K2dual::isSemiSimple()
+
+                                        TRUE
+                                                                      Time: 56 msec 
+>> K2dual::simpleModulesDimensions()
+
+                                     [2, 1, 1]
+                                                                     Time: 704 msec 
