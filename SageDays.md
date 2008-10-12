@@ -12,3 +12,4 @@ Previously organized Sage Days, together with dates, location, sponsors and them
   Computational Arithmetic Geometry
  * [:days6: Sage Days 6], November 10-14, 2007 (Bristol, UK at the Heilbronn Institute)
   Cryptography and Computational Number Theory
+ * [:days12: Sage Days 12], San Diego, CA, US
