@@ -21,7 +21,7 @@ Here there is a list of the .rst to be tanslated:
 ||tour.rst|| en cours (BM) || ||
 ||tour_rings.rst|| || ||
 ||tour_polynomial.rst|| || ||
-||tour_plotting.rst|| || ||
+||tour_plotting.rst|| en cours (BM) || ||
 ||tour_numtheory.rst|| || ||
 ||tour_linalg.rst|| || ||
 ||tour_help.rst || || ||
