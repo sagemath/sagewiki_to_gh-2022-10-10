@@ -7,6 +7,13 @@
  * Tuesday, October 14th at 4pm status meeting in A008 
  * Wednesday, October 15th at 4pm status meeting in A008
 
+The following rooms are available all day during the coding sprint (until midnight)
+
+ * A008 with a capacity of 50 people
+ * A006 with a capacity of 30p people
+ * A208 with a capacity of 10p people
+ * A217 with a capacity of 8p people
+
 == Rules ==
 
  * participation is optional
@@ -21,6 +28,8 @@ These should be held on Monday
  * Using Cython (Robert Bradshaw)
  * The new coercion system - the final frontier (Robert Bradshaw or any other volunteer)
  * Mercurial and Mercurial Queues (Mike Hansen)
+
+A schedule for the talks should be announced during the organizational meeting on Monday.
 
 == Coordinators ==
 
