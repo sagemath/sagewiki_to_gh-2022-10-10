@@ -19,7 +19,7 @@ Here there is a list of the .rst to be tanslated:
 ||||||<tablestyle="width: 75%">'''File list'''||
 ||''file name''||<style="background-color: #80FF80;"> ''translated''||<style="background-color: #8080FF;"> ''reviewed''||
 ||tour.rst|| en cours (BM) || ||
-||tour_rings.rst|| || ||
+||tour_rings.rst|| en cours (BM) || ||
 ||tour_polynomial.rst|| || ||
 ||tour_plotting.rst|| en cours (BM) || ||
 ||tour_numtheory.rst|| || ||
