@@ -1,11 +1,11 @@
 = SD 10 Coding Sprint =
 
 
-== Meetings ==
+== Coding Sprint Meetings ==
 
- * Monday, October 13th at 11am in A008
- * Tuesday, October 14th: 4pm status meeting in A008 
- * Wednesday, October 15th: 4pm status meeting in A008
+ * Monday, October 13th at 11am status meeting in A008
+ * Tuesday, October 14th at 4pm status meeting in A008 
+ * Wednesday, October 15th at 4pm status meeting in A008
 
 == Rules ==
 
