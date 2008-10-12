@@ -48,7 +48,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
        timeline, difficulties, but also great technical and community
        opportunities that arise from the ongoing port as Sage-Combinat.
      Invited Speakers:
-       * Florent Hivert and Nicolas Thiéry: *-Combinat: Sharing Algebraic Combinatorics since 2000
+       * Florent Hivert and Nicolas Thiéry: [:/Combinat-Talk : *-Combinat: Sharing Algebraic Combinatorics since 2000]
      Contribution speakers:
        * Mike Hansen: Decomposable Objects and combinatorial species
        * [http://www.rlmiller.org Robert Miller]: Partition Refinement for Classification attachment:Miller_SD10_talk.pdf
