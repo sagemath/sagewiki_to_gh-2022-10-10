@@ -93,7 +93,9 @@ A schedule for the talks should be announced during the organizational meeting o
  * see: http://www.singular.uni-kl.de/Manual/3-0-4/sing_355.htm
 
 === Add Better Support for Identifying and Citing "Sub"-Systems ===
+ (Mike Hansen)
  * make sure credit goes where credit is due
+ * There is a initial patch for handling this at http://trac.sagemath.org/sage_trac/ticket/4269
 
 === Hilbert class polynomial ===
 (Eduardo Ocampo-Alvarez, Andrey Timofeev)
