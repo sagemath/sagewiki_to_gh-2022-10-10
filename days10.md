@@ -50,7 +50,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
      Invited Speakers:
        * Florent Hivert and Nicolas Thiéry: [:/Combinat-Talk : *-Combinat: Sharing Algebraic Combinatorics since 2000]
      Contribution speakers:
-       * Mike Hansen: Decomposable Objects and combinatorial species
+       * Mike Hansen: Decomposable Objects and combinatorial species attachment:mhansen-species.pdf
        * [http://www.rlmiller.org Robert Miller]: Partition Refinement for Classification attachment:Miller_SD10_talk.pdf
        * Franco Saliola: Posets and words in Sage-Combinat
    * October 12: Groebner Bases (chair Ludovic Perret)
