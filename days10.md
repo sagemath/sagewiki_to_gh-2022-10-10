@@ -52,7 +52,8 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
      Contribution speakers:
        * Mike Hansen: Decomposable Objects and combinatorial species attachment:mhansen-species.pdf
        * [http://www.rlmiller.org Robert Miller]: Partition Refinement for Classification attachment:Miller_SD10_talk.pdf
-       * Franco Saliola: Posets and words in Sage-Combinat
+       * [http://www-igm.univ-mlv.fr/~saliola Franco Saliola]: Posets and words in Sage-Combinat attachment:saliola-sd10-talk.pdf
+
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
