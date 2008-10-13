@@ -125,3 +125,7 @@ A schedule for the talks should be announced during the organizational meeting o
 
 === Increase Doctest Coverage ===
 (Paul Zimmermann)
+
+=== 2d Graph Plotting Enhancements ===
+(Emily Kirkman, Philippe Saade)
+* The goals include restructuring current graph plot function to have more readable code, as well as adding features such as multiedge plotting and better scaling heuristics.  Abandon ship of networkx plotting and interact directly with matplotlib.
