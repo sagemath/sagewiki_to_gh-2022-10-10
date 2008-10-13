@@ -26,6 +26,8 @@ The following rooms are available all day during the coding sprint (until midnig
 Talks held on Monday
 
  * 11:30 am: Mercurial and Mercurial Queues (Mike Hansen) 
+   * Mercurial Book: http://hgbook.red-bean.com/
+   * Mercurial Queues: http://wiki.sagemath.org/MercurialQueues
  * 1:30 pm: Using Cython (Robert Bradshaw)
  * 2:15 pm: new coercion system - the final frontier (Robert Bradshaw)
 
