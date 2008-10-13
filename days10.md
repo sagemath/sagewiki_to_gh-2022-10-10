@@ -33,7 +33,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
        * [http://www.rlmiller.org Robert Miller]: [:/RMillerTalk: An example of implementing automorphism groups: linear codes] (cancelled due to illness)
    * October 11: Elliptic Curves (chair Laurent Fousse)
      Invited speakers:
-       * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]: Elliptic Curves in Sage
+       * [http://www.warwick.ac.uk/staff/J.E.Cremona/ John Cremona]: Elliptic Curves in Sage attachment:John_Cremona_talk.pdf
          This talk will give a survey of Sage's capabilities for computations with
          elliptic curves, including some recent developments and a wish-list of
 	 possible future developments.
