@@ -10,6 +10,9 @@ Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez
  * Quand on commence à traduire un chapitre, on le mentionne dans la colonne ''translated'' pour éviter que deux personnes travaillent sur le même.
  * Quand il est traduit et prêt à relire, on l'indique au même endroit.
  * Idem avec l'autre colonne quand on entreprend ou termine une relecture.
+
+Les fichiers ci-dessous sont pour l'instant dans des encodages aléatoires suivant la config de chacun, je vais uniformiser ça (MM).
+
 Here there is a list of the .rst to be tanslated:
 ||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
 ||''file name'' ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
@@ -19,7 +22,7 @@ Here there is a list of the .rst to be tanslated:
 ||tour_plotting.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_plotting_fr.rst PremierJet] || ||
 ||tour_numtheory.rst || "réservé" (BM) || ||
 ||tour_linalg.rst || "réservé" (BM) || ||
-||tour_help.rst || || ||
+||tour_help.rst || en cours (MM) || ||
 ||tour_groups.rst || "réservé" (BM)|| ||
 ||tour_assignment.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_assignment_fr.rst PremierJet] || ||
 ||tour_algebra.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_algebra_fr.rst PremierJet] || ||
