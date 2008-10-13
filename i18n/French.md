@@ -30,7 +30,7 @@ Here there is a list of the .rst to be tanslated:
 ||programming.rst || || ||
 ||introduction.rst || in progress (MM) || ||
 ||interfaces.rst || || ||
-||interactive_shell.rst || || ||
+||interactive_shell.rst || en cours (MM) || ||
 ||index.rst || in progress (MM) || ||
 ||distributed.rst || || ||
 ||conf.py || || ||
