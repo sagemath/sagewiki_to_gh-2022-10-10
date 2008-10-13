@@ -18,7 +18,7 @@ Here there is a list of the .rst to be tanslated:
 ||''file name'' ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
 ||tour.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_fr.rst PremierJet] || ||
 ||tour_rings.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_rings_fr.rst PremierJet] || ||
-||tour_polynomial.rst || en cours (BM) || ||
+||tour_polynomial.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_polynomial_fr.rst PremierJet] || ||
 ||tour_plotting.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_plotting_fr.rst PremierJet] || ||
 ||tour_numtheory.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_numtheory_fr.rst PremierJet]  || ||
 ||tour_linalg.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_linalg_fr.rst PremierJet]  || ||
