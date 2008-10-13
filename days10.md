@@ -39,7 +39,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
 	 possible future developments.
        * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]: [:/DavidLubiczTalk: Computing modular correspondences for abelian varieties (with Jean-Charles Faugère)]
      Contributing speakers:
-       * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using Sage]     
+       * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using Sage] attachment:slides_ELMRABET_sage.pdf
    * October 11: Sage-Combinat (chair Nicolas Thiery) (follows the Elliptic Curves session)
        The purpose of the *-Combinat project is to provide an extensible
        toolbox for computer exploration in algebraic combinatorics, and
