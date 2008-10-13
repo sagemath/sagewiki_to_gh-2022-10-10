@@ -9,9 +9,14 @@ The transition is going to be a massive investment: seven years of hard work to 
 See the [http:/combinat/RoadMap road map and current status] of the port.
 
 === How to participate and contribute ===
- . - Join our mailing list: http://groups.google.com/group/sage-combinat-devel.
+ - Join our mailing list: http://groups.google.com/group/sage-combinat-devel.
+
  - Post bug reports, suggestion, patches on the [http://sagetrac.org/sage_trac/milestone/sage-combinat Sage-combinat trac server] or on the [http://groups.google.com/group/sage-combinat-devel mailing list].
+
  - The collection of patches is managed using a [http://sage.math.washington.edu:2144/ patch server] (mercurial queues). Use it to try out the latest experimental features, or contribute your own patches!
-  . - [http:/combinat/MercurialBasic Basic instructions]  (in particular, how to '''download sage-combinat''')
+
+  - [http:/combinat/MercurialBasic Basic instructions]  (in particular, how to '''download sage-combinat''')
+
   - [http:/combinat/Mercurial Advanced instructions].
+
  - Contribute to the list of [http:/combinat/Weirdness quirks and weirdness issues] in the *-Combinat design;
