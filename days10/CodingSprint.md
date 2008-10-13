@@ -23,11 +23,12 @@ The following rooms are available all day during the coding sprint (until midnig
 
 == Informal lectures ==
 
-These should be held on Monday
+Talks held on Monday
 
- * Using Cython (Robert Bradshaw)
- * The new coercion system - the final frontier (Robert Bradshaw or any other volunteer)
- * Mercurial and Mercurial Queues (Mike Hansen)
+ * 11:30 am: Mercurial and Mercurial Queues (Mike Hansen) 
+ * 1:30 pm: Using Cython (Robert Bradshaw)
+ * 2:15 pm: new coercion system - the final frontier (Robert Bradshaw)
+
 
 A schedule for the talks should be announced during the organizational meeting on Monday.
 
