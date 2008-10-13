@@ -53,7 +53,7 @@ A schedule for the talks should be announced during the organizational meeting o
 (Paul Loepardi)
 
 === Linear Algebra over Polynomial Rings ===
-(Burcin Erocal)
+(Burcin Erocal, Arne Storjohann, Clément Pernet)
  * (esp. for nullspace computation over fraction fields of these)
 
 === Improve the State of Fraction Fields ===
@@ -91,6 +91,10 @@ A schedule for the talks should be announced during the organizational meeting o
 === Add Wrapper for PLURAL to Sage ===
 (Burcin Erocal, Michael Brickenstein)
  * see: http://www.singular.uni-kl.de/Manual/3-0-4/sing_355.htm
+ * see: http://sage.math.washington.edu/home/burcin/plural_start.patch
+ * Figure out:
+  * Where to put these things in the type hierarchy
+  * How to create one of these objects
 
 === Add Better Support for Identifying and Citing "Sub"-Systems ===
  (Mike Hansen)
