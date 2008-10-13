@@ -114,6 +114,7 @@ A schedule for the talks should be announced during the organizational meeting o
 === French Translation of the Tutorial (A Project for Newcomers!) ===
 (Bertrand Meyer, Marc Mezzarobba)
  * as a means to discover Sage while doing something (hopefully) useful, we are trying to translate: http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/
+ * see http://wiki.sagemath.org/i18n/French
 
 === Improve Emacs Interface ===
 (Matthias Meulien)
