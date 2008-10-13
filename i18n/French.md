@@ -20,13 +20,13 @@ Here there is a list of the .rst to be tanslated:
 ||tour_rings.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_rings_fr.rst PremierJet] || ||
 ||tour_polynomial.rst || en cours (BM) || ||
 ||tour_plotting.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_plotting_fr.rst PremierJet] || ||
-||tour_numtheory.rst || "réservé" (BM) || ||
-||tour_linalg.rst || "réservé" (BM) || ||
+||tour_numtheory.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_numtheory_fr.rst PremierJet]  || ||
+||tour_linalg.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_linalg_fr.rst PremierJet]  || ||
 ||tour_help.rst || en cours (MM) || ||
-||tour_groups.rst || "réservé" (BM)|| ||
+||tour_groups.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_groups_fr.rst PremierJet] || ||
 ||tour_assignment.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_assignment_fr.rst PremierJet] || ||
 ||tour_algebra.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_algebra_fr.rst PremierJet] || ||
-||tour_advanced.rst || "réservé (BM)" || ||
+||tour_advanced.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_advanced_fr.rst PremierJet]  || ||
 ||programming.rst || || ||
 ||introduction.rst || in progress (MM) || ||
 ||interfaces.rst || || ||
