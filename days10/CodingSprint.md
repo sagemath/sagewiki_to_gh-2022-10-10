@@ -94,11 +94,13 @@ A schedule for the talks should be announced during the organizational meeting o
 === Add Wrapper for PLURAL to Sage ===
 (Burcin Erocal, Michael Brickenstein)
  * see: http://www.singular.uni-kl.de/Manual/3-0-4/sing_355.htm
- * see: http://sage.math.washington.edu/home/burcin/plural_start.patch
+ * see: http://sage.math.washington.edu/home/bricken/plural_2.patch
  * Figure out:
   * Where to put these things in the type hierarchy
   * How to create one of these objects
-
+ * Progress:
+  * general g-algebra creation
+  * exterior algebras (seem to) work
 === Add Better Support for Identifying and Citing "Sub"-Systems ===
  (Mike Hansen)
  * make sure credit goes where credit is due
