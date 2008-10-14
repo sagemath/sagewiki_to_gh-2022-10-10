@@ -29,7 +29,7 @@ Here there is a list of the .rst to be tanslated:
 ||tour_advanced.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_advanced_fr.rst PremierJet]  || ||
 ||programming.rst || || ||
 ||introduction.rst || in progress (MM) || ||
-||interfaces.rst || || ||
+||interfaces.rst || en cours (BM) || ||
 ||interactive_shell.rst || en cours (MM) || ||
 ||index.rst || in progress (MM) || ||
 ||distributed.rst || || ||
