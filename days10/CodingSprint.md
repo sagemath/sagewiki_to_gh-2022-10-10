@@ -124,7 +124,9 @@ A schedule for the talks should be announced during the organizational meeting o
 === Improve Emacs Interface ===
 (Matthias Meulien)
 
-attachment:Capture-emacs@maruta.png
+Work in progress!!!
+attachment:sage-view.el
+http://wiki.sagemath.org/days10/CodingSprint?action=AttachFile&do=view&target=Capture-emacs%40maruta.png
 
 === Increase Doctest Coverage ===
 (Paul Zimmermann)
