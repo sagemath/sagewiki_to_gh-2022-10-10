@@ -37,7 +37,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
          This talk will give a survey of Sage's capabilities for computations with
          elliptic curves, including some recent developments and a wish-list of
 	 possible future developments.
-       * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]: [:/DavidLubiczTalk: Computing modular correspondences for abelian varieties (with Jean-Charles Faugère)]
+       * [http://perso.univ-rennes1.fr/david.lubicz/index_en.html David Lubicz]: [:/DavidLubiczTalk: Computing modular correspondences for abelian varieties (with Jean-Charles Faugère)] attachment:David_Lubicz_talk.pdf
      Contributing speakers:
        * Nadia El Mrabet: [:/NadiaElMrabetTalk: Implementing the Weil, Tate and Ate pairings using Sage] attachment:slides_ELMRABET_sage.pdf
    * October 11: Sage-Combinat (chair Nicolas Thiery) (follows the Elliptic Curves session)
