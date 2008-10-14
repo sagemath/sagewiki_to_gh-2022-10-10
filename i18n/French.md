@@ -27,7 +27,7 @@ Here there is a list of the .rst to be tanslated:
 ||tour_assignment.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_assignment_fr.rst PremierJet] || ||
 ||tour_algebra.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_algebra_fr.rst PremierJet] || ||
 ||tour_advanced.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_advanced_fr.rst PremierJet]  || ||
-||programming.rst || || ||
+||programming.rst || en cours (MM) || ||
 ||introduction.rst || in progress (MM) || ||
 ||interfaces.rst || en cours (BM) || ||
 ||interactive_shell.rst || en cours (MM) || ||
