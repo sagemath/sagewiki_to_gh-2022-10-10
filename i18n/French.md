@@ -32,7 +32,7 @@ Here there is a list of the .rst to be tanslated:
 ||interfaces.rst || en cours (BM) || ||
 ||interactive_shell.rst || en cours (MM) || ||
 ||index.rst || in progress (MM) || ||
-||distributed.rst || || ||
+||distributed.rst || en cours (MM) || ||
 ||conf.py || || ||
 ||bibliography.rst || || ||
 ||appendix.rst || || ||
