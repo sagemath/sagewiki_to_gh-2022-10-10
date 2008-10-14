@@ -123,7 +123,8 @@ A schedule for the talks should be announced during the organizational meeting o
 
 === Improve Emacs Interface ===
 (Matthias Meulien)
- * The goal is to mimic what is available for maxima http://members3.jcom.home.ne.jp/imaxima/Site/Download_and_Install.html
+
+attachment:Capture-emacs@maruta.png
 
 === Increase Doctest Coverage ===
 (Paul Zimmermann)
