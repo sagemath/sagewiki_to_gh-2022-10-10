@@ -33,9 +33,9 @@ Here there is a list of the .rst to be tanslated:
 ||interactive_shell.rst || en cours (MM) || ||
 ||index.rst || in progress (MM) || ||
 ||distributed.rst || en cours (MM) || ||
-||conf.py || || ||
-||bibliography.rst || || ||
-||appendix.rst || || ||
+||conf.py || done (MM) || ||
+||bibliography.rst || done (MM) || ||
+||appendix.rst || en cours (MM) || ||
 ||afterword.rst || || ||
 
 
