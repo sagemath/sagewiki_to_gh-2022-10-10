@@ -124,7 +124,7 @@ A schedule for the talks should be announced during the organizational meeting o
 === Improve Emacs Interface ===
 (Matthias Meulien)
 
-Work in progress!!!
+Goal: provide fancy enhancement to Nick Alexander's emacs mode for Sage. It adds LaTeX processing of Sage output and embed images in emacs Sage buffer. Work in progress!!!
 attachment:sage-view.el
 
 attachment:Capture-emacs%40maruta.png
