@@ -65,7 +65,9 @@ A schedule for the talks should be announced during the organizational meeting o
 === F5 ===
 (Martin Albrecht, Michael Brickenstein, Simon King, Ludovic Perret)
  * we will '''read''' the original F5 paper and try to understand it
+   * we're working on a toy implementation of F5/Matrix now
  * we will port John Perry's F5 Singular and pseudo code to Sage, see: http://www.math.usm.edu/perry/Research/
+   * this is done: see attachment:f5.py
  * additional material: http://eprint.iacr.org/2006/404.pdf
 
 === Matrix Factorisation over GF(2) ===
