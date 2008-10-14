@@ -5,7 +5,7 @@
 
  * Monday, October 13th at 11am status meeting in A008
  * Tuesday, October 14th at 4pm status meeting in A008 
- * Wednesday, October 15th at 4pm status meeting in A008
+ * Wednesday, October 15th at 11:30am final wrap up session in A008 [after the coffee break]
 
 The following rooms are available all day during the coding sprint (until midnight)
 
