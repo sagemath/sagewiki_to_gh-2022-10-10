@@ -33,7 +33,7 @@ Here there is a list of the .rst to be tanslated:
 ||interactive_shell.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interactive_shell_fr.rst done (pending review)] (MM) || ||
 ||index.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/index_fr.rst done (pending review)] (MM)  || ||
 ||distributed.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst done (pending review)] (MM) || ||
-||conf.py || done (MM) || ||
+||conf.py || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/conf_fr.py done (pending review)] || ||
 ||bibliography.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst done (pending review)] (MM) || ||
 ||appendix.rst || en cours (MM) || ||
 ||afterword.rst || en cours (BM) || ||
