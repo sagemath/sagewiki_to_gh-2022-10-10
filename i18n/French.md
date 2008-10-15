@@ -11,22 +11,20 @@ Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez
  * Quand il est traduit et prêt à relire, on l'indique au même endroit.
  * Idem avec l'autre colonne quand on entreprend ou termine une relecture.
 
-Les fichiers ci-dessous sont pour l'instant dans des encodages aléatoires suivant la config de chacun, je vais uniformiser ça (MM).
-
 Here there is a list of the .rst to be tanslated:
 ||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
 ||''file name'' ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
-||tour.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_fr.rst PremierJet] || ||
-||tour_rings.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_rings_fr.rst PremierJet] || ||
-||tour_polynomial.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_polynomial_fr.rst PremierJet] || ||
-||tour_plotting.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_plotting_fr.rst PremierJet] || ||
-||tour_numtheory.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_numtheory_fr.rst PremierJet]  || ||
-||tour_linalg.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_linalg_fr.rst PremierJet]  || ||
+||tour.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst PremierJet] || ||
+||tour_rings.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst PremierJet] || ||
+||tour_polynomial.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst PremierJet] || ||
+||tour_plotting.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst PremierJet] || ||
+||tour_numtheory.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst PremierJet]  || ||
+||tour_linalg.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst PremierJet]  || ||
 ||tour_help.rst || en cours (MM) || ||
-||tour_groups.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_groups_fr.rst PremierJet] || ||
-||tour_assignment.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_assignment_fr.rst PremierJet] || ||
-||tour_algebra.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_algebra_fr.rst PremierJet] || ||
-||tour_advanced.rst || en cours (BM) [http://perso.crans.org/~bmeyer/Sage_Traductions/tour_advanced_fr.rst PremierJet]  || ||
+||tour_groups.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst PremierJet] || ||
+||tour_assignment.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst PremierJet] || ||
+||tour_algebra.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst PremierJet] || ||
+||tour_advanced.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst PremierJet]  || ||
 ||programming.rst || en cours (MM) || ||
 ||introduction.rst || in progress (MM) || ||
 ||interfaces.rst || en cours (BM) || ||
