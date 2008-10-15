@@ -77,7 +77,7 @@ A schedule for the talks should be announced during the organizational meeting o
  * we have two out of four TRSM routines, we need to add the remaining two and optimized the existing ones
    Done: attachment:m4ri_trsm_UL_LR.patch
  * Linear system solving in M4RI: 
-   Implemented and tested (using LinBox sparse PLUQ, while M4RI PLUQ is under developpment).
+   Implemented and tested (using LinBox sparse PLUQ, while M4RI PLUQ is under developpment).attachment:jgd_solve.patch
 === Linear Algebra modulo Small Primes ===
 (Clément Pernet, Jean-Guillaume Dumas)
   * implement the bound computation and splitting system to use the compressed matmul over small finite fields,
