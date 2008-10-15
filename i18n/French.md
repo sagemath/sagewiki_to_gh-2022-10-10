@@ -31,14 +31,14 @@ Here there is a list of the .rst to be tanslated:
 ||tour_advanced.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst PremierJet]  || ||
 ||programming.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst done (pending review)] (MM)  || ||
 ||introduction.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst done (pending review)] (MM) || ||
-||interfaces.rst || en cours (BM) || ||
+||interfaces.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interfaces_fr.rst done (pending review)] (BM) || ||
 ||interactive_shell.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interactive_shell_fr.rst done (pending review)] (MM) || ||
 ||index.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/index_fr.rst done (pending review)] (MM)  || ||
 ||distributed.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst done (pending review)] (MM) || ||
 ||conf.py || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/conf.py done (pending review)] (MM) || ||
 ||bibliography.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst done (pending review)] (MM) || ||
 ||appendix.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/appendix_fr.rst done (pending review)] (MM) || ||
-||afterword.rst || en cours (BM) || ||
+||afterword.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/afterword_fr.rst done (pending review)] (BM) || ||
 
 Pour faciliter la relecture, une version après rendu html d'une partie des fichiers est disponible à 
 http://www.eleves.ens.fr/~mezzarob/sagetutfr/html
