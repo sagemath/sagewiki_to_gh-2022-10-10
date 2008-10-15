@@ -73,9 +73,11 @@ A schedule for the talks should be announced during the organizational meeting o
 === Matrix Factorisation over GF(2) ===
 (Martin Albrecht, Clément Pernet, Greg Bard, Jean-Guillaume Dumas)
  * we have many building blocks for LQUP factorization in place in the M4RI library, these need to be plugged together and optimized
+   Implementation is done, painfull debugging still in progress
  * we have two out of four TRSM routines, we need to add the remaining two and optimized the existing ones
    Done: attachment:m4ri_trsm_UL_LR.patch
-
+ * Linear system solving in M4RI: 
+   Implemented and tested (using LinBox sparse PLUQ, while M4RI PLUQ is under developpment).
 === Linear Algebra modulo Small Primes ===
 (Clément Pernet, Jean-Guillaume Dumas)
   * implement the bound computation and splitting system to use the compressed matmul over small finite fields,
