@@ -36,7 +36,7 @@ Here there is a list of the .rst to be tanslated:
 ||conf.py || done (MM) || ||
 ||bibliography.rst || done (MM) || ||
 ||appendix.rst || en cours (MM) || ||
-||afterword.rst || || ||
+||afterword.rst || en cours (BM) || ||
 
 
 == Conventions ==
