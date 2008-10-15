@@ -106,6 +106,7 @@ A schedule for the talks should be announced during the organizational meeting o
  * Progress:
   * general g-algebra creation
   * exterior algebras (seem to) work
+  * can be defined using free algebra and relations
 === Add Better Support for Identifying and Citing "Sub"-Systems ===
  (Mike Hansen)
  * make sure credit goes where credit is due
