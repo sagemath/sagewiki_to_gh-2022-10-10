@@ -10,6 +10,8 @@ Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez
  * Quand on commence à traduire un chapitre, on le mentionne dans la colonne ''translated'' pour éviter que deux personnes travaillent sur le même.
  * Quand il est traduit et prêt à relire, on l'indique au même endroit.
  * Idem avec l'autre colonne quand on entreprend ou termine une relecture.
+ * Pour relire un chapitre, on le télécharge, on fait les modifications que l'on propose dans un fichier séparé, que l'on lie dans la colonne ''review''. Le traducteur peut faire un diff entre les deux versions pour vérifier qu'il est d'accord avec les propositions du relecteur.
+
 
 Here there is a list of the .rst to be tanslated:
 ||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
