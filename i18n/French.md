@@ -25,14 +25,14 @@ Here there is a list of the .rst to be tanslated:
 ||tour_assignment.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst PremierJet] || ||
 ||tour_algebra.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst PremierJet] || ||
 ||tour_advanced.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst PremierJet]  || ||
-||programming.rst || en cours (MM) || ||
-||introduction.rst || in progress (MM) || ||
+||programming.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst in progress] (MM)  || ||
+||introduction.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst in progress] (MM) || ||
 ||interfaces.rst || en cours (BM) || ||
-||interactive_shell.rst || en cours (MM) || ||
-||index.rst || in progress (MM) || ||
-||distributed.rst || en cours (MM) || ||
+||interactive_shell.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interactive_shell_fr.rst done (pending review)] (MM) || ||
+||index.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/index_fr.rst done (pending review)] (MM)  || ||
+||distributed.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst done (pending review)] (MM) || ||
 ||conf.py || done (MM) || ||
-||bibliography.rst || done (MM) || ||
+||bibliography.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst done (pending review)] (MM) || ||
 ||appendix.rst || en cours (MM) || ||
 ||afterword.rst || en cours (BM) || ||
 
