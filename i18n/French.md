@@ -35,7 +35,7 @@ Here there is a list of the .rst to be tanslated:
 ||distributed.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst done (pending review)] (MM) || ||
 ||conf.py || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/conf_fr.py done (pending review)] || ||
 ||bibliography.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst done (pending review)] (MM) || ||
-||appendix.rst || en cours (MM) || ||
+||appendix.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/appendix_fr.rst done (pending review)] || ||
 ||afterword.rst || en cours (BM) || ||
 
 
