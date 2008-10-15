@@ -2,6 +2,7 @@
 
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is percieved in the outside world.
 
+  * [http://www.softpedia.com/reviews/linux/Sage-3-0-2-Review-Review-93004.shtml Review of Sage at Softpedia]
 
   * [http://translate.google.com/translate?hl=en&sl=ro&u=http://incearca.softwareliber.ro/2008/07/21/sage-o-alternativa-viabila-la-matlab-mathematica-co/ Translated Romanian Blog/Article about Sage]
 
