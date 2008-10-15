@@ -18,8 +18,8 @@ Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez
 Here there is a list of the .rst to be tanslated:
 ||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
 ||''file name'' ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
-||tour.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst PremierJet] || ||
-||tour_rings.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst PremierJet] || ||
+||tour.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst PremierJet] || en cours (MM) ||
+||tour_rings.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst PremierJet] || en cours (MM) ||
 ||tour_polynomial.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst PremierJet] || ||
 ||tour_plotting.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst PremierJet] || ||
 ||tour_numtheory.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst PremierJet]  || ||
