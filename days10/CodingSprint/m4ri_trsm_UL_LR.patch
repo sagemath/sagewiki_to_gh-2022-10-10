@@ -1,0 +1,1020 @@
+# HG changeset patch
+# User Clement Pernet <clement.pernet@gmail.com>
+# Date 1223885528 -7200
+# Node ID cafd6739ffedec5f329365aa8d5a9ffb758a55ab
+# Parent  7d525bf8b16f4c51f6e45e0b09dda5cdf3eae34c
+Added the 2 remaining trsm and the corresponding testsuite and benchmarks.
+
+diff -r 7d525bf8b16f -r cafd6739ffed src/trsm.c
+--- a/src/trsm.c	Sat Oct 11 10:16:18 2008 +0200
++++ b/src/trsm.c	Mon Oct 13 10:12:08 2008 +0200
+@@ -24,6 +24,7 @@
+ #include "parity.h"
+ #include "stdio.h"
+ 
++/* Upper right case */
+ void mzd_trsm_upper_right (packedmatrix *U, packedmatrix *B, const int cutoff) {
+   if(U->nrows != B->ncols)
+     m4ri_die("mzd_trsm_upper_right: U nrows (%d) need to match B ncols (%d).\n", U->nrows, B->ncols);
+@@ -130,52 +131,75 @@ void _mzd_trsm_upper_right_weird (packed
+   }
+ }
+ 
++void _mzd_trsm_upper_right_base (packedmatrix* U, packedmatrix* B, const int cutoff){ 
++  
++  size_t mb = B->nrows;
++  size_t nb = B->ncols;
++
++  for (size_t i=1; i < nb; ++i) {
++    /* Computes X_i = B_i + X_{0..i-1} U_{0..i-1,i} */
++    register word ucol = 0;
++    for (size_t k=0; k<i; ++k) {
++      if (GET_BIT (U->values[U->rowswap[k]], i))
++	SET_BIT (ucol, k);
++    }
++    
++    /* doing 64 dotproducts at a time, to use the parity64 parallelism */
++    size_t giantstep;
++    word tmp[64];
++    for (giantstep = 0; giantstep + RADIX < mb; giantstep += RADIX) {
++      for (size_t babystep = 0; babystep < RADIX; ++babystep)
++	tmp [babystep] = B->values [B->rowswap [babystep + giantstep]] & ucol;
++      
++      word dotprod = parity64 (tmp);
++      
++      for (size_t babystep = 0; babystep < RADIX; ++babystep)
++	if (GET_BIT (dotprod, babystep))
++	  FLIP_BIT (B->values [B->rowswap [giantstep + babystep]], i);
++    }
++    
++    for (size_t babystep = 0; babystep < mb - giantstep; ++babystep)
++      tmp [babystep] = B->values [B->rowswap [babystep + giantstep]] & ucol;
++    for (size_t babystep = mb-giantstep; babystep < 64; ++babystep)
++      tmp [babystep] = 0;
++    
++    word dotprod = parity64 (tmp);
++    for (size_t babystep = 0; babystep < mb - giantstep; ++babystep)
++      if (GET_BIT (dotprod, babystep))
++	FLIP_BIT (B->values [B->rowswap [giantstep + babystep ]], i);
++  }
++}
++/* void _mzd_trsm_upper_right_base (packedmatrix* U, packedmatrix* B, const int cutoff){ */
++/*   size_t mb = B->nrows; */
++/*   size_t nb = B->ncols; */
++/*   for (size_t i=1; i < nb; ++i) { */
++/*     /\* Computes X_i = B_i + X_{0..i-1} U_{0..i-1,i} *\/ */
++/*     packedmatrix *Xm = mzd_init_window(B,  0,     0,   mb, i); */
++/*     packedmatrix *Bm = mzd_init_window(B,  0,     i,   mb, i+1); */
++/*     packedmatrix *Um = mzd_init_window(U,  0,     i,   i, i+1); */
++/*     _mzd_addmul(Bm, Xm, Um, cutoff); */
++/*     mzd_free_window(Xm); */
++/*     mzd_free_window(Um); */
++/*     mzd_free_window(Bm); */
++/*   } */
++/* } */
++
+ /**
+  * Variant where U and B start at an even bit position
+  * Assumes that U->ncols < 64
+  */
++#define TRSM_THRESHOLD 64
++
+ void _mzd_trsm_upper_right_even (packedmatrix *U, packedmatrix *B, const int cutoff) {
+ 
+   size_t mb = B->nrows;
+   size_t nb = B->ncols;
+-    
+-  if (nb <= RADIX){
++  
++  if (nb <= TRSM_THRESHOLD){
+     /* base case */
+-    for (size_t i=1; i < nb; ++i) {
+-
+-      /* Computes X_i = B_i + X_{0..i-1} U_{0..i-1,i} */
+-
+-      register word ucol = 0;
+-      for (size_t k=0; k<i; ++k) {
+-	if (GET_BIT (U->values[U->rowswap[k]], i))
+-	  SET_BIT (ucol, k);
+-      }
+-
+-      /* doing 64 dotproducts at a time, to use the parity64 parallelism */
+-      size_t giantstep;
+-      word tmp[64];
+-      for (giantstep = 0; giantstep + RADIX < mb; giantstep += RADIX) {
+-	for (size_t babystep = 0; babystep < RADIX; ++babystep)
+-	  tmp [babystep] = B->values [B->rowswap [babystep + giantstep]] & ucol;
+-
+-	word dotprod = parity64 (tmp);
+-
+-	for (size_t babystep = 0; babystep < RADIX; ++babystep)
+-	  if (GET_BIT (dotprod, babystep))
+-	    FLIP_BIT (B->values [B->rowswap [giantstep + babystep]], i);
+-      }  
+-      
+-      for (size_t babystep = 0; babystep < mb - giantstep; ++babystep)
+-	tmp [babystep] = B->values [B->rowswap [babystep + giantstep]] & ucol;
+-      for (size_t babystep = mb-giantstep; babystep < 64; ++babystep)
+-	tmp [babystep] = 0;
+-
+-      word dotprod = parity64 (tmp);
+-      for (size_t babystep = 0; babystep < mb - giantstep; ++babystep)
+-	if (GET_BIT (dotprod, babystep))
+-	  FLIP_BIT (B->values [B->rowswap [giantstep + babystep ]], i);
+-    }
+-  } else {
++    _mzd_trsm_upper_right_base (U, B, cutoff);
++  }
++  else {
+     size_t nb1 = (((nb-1) / RADIX + 1) >> 1) * RADIX;
+ 
+     packedmatrix *B0 = mzd_init_window(B,  0,     0,   mb, nb1);
+@@ -196,6 +220,208 @@ void _mzd_trsm_upper_right_even (packedm
+     mzd_free_window(U11);
+   }
+ }
++
++/* Lower right case */
++void mzd_trsm_lower_right (packedmatrix *L, packedmatrix *B, const int cutoff) {
++  if(L->nrows != B->ncols)
++    m4ri_die("mzd_trsm_lower_right: L nrows (%d) need to match B ncols (%d).\n", L->nrows, B->ncols);
++  if(L->nrows != L->ncols)
++    m4ri_die("mzd_trsm_lower_right: L must be square and is found to be (%d) x (%d).\n", L->nrows, L->ncols);
++  
++  if (cutoff <= 0)
++    m4ri_die("mzd_trsm_lower_right: cutoff must be > 0.\n");
++
++  _mzd_trsm_lower_right (L, B, cutoff);
++}
++
++void _mzd_trsm_lower_right (packedmatrix *L, packedmatrix *B, const int cutoff) {
++  size_t nb = B->ncols;
++  size_t mb = B->nrows;
++  size_t n1 = RADIX-B->offset;
++  if (nb <= n1)
++    _mzd_trsm_lower_right_weird (L, B, cutoff);
++  else{
++  /**
++   \verbatim  
++     
++     |\
++     | \  
++     |  \
++     |L00\
++     |____\
++     |    |\  
++     |    | \
++     |    |  \
++     |L10 |L11\ 
++     |____|____\
++      _________
++     |B0  |B1  |
++     |____|____|
++   \endverbatim
++ 
++   * L00 and B0 are possibly located at uneven locations.
++   * Their column dimension is lower than 64
++   * The first column of L10, L11, B1 are aligned to words.
++   */
++    packedmatrix *B0  = mzd_init_window (B,  0,  0, mb, n1);
++    packedmatrix *B1  = mzd_init_window (B,  0, n1, mb, nb);
++    packedmatrix *L00 = mzd_init_window (L,  0,  0, n1, n1);
++    packedmatrix *L10 = mzd_init_window (L,  n1, 0, nb, n1);
++    packedmatrix *L11 = mzd_init_window (L, n1, n1, nb, nb);
++    
++    _mzd_trsm_lower_right_even (L11, B1, cutoff);
++    mzd_addmul (B0, B1, L10, cutoff);
++    _mzd_trsm_lower_right_weird (L00, B0, cutoff);
++    
++    mzd_free_window(B0);
++    mzd_free_window(B1);
++    
++    mzd_free_window(L00);
++    mzd_free_window(L10);
++    mzd_free_window(L11);
++  }
++}
++
++/**
++ * Variant where L and B start at an odd bit position
++ * Assumes that L->ncols < 64
++ */
++void _mzd_trsm_lower_right_weird (packedmatrix *L, packedmatrix *B, const int cutoff) {
++
++  size_t mb = B->nrows;
++  size_t nb = B->ncols;
++  size_t offset = B->offset;
++  
++  for (int i=nb-1; i >=0; --i) {
++    
++    /* Computes X_i = B_i + X_{i+1,n} L_{i+1..n,i} */
++    
++    register word ucol = 0;
++    for (size_t k=i+1; k<nb; ++k) {
++      if (GET_BIT (L->values[L->rowswap[k]], i + L->offset))
++	SET_BIT (ucol, k+offset);
++    }
++    /* doing 64 dotproducts at a time, to use the parity64 parallelism */
++    size_t giantstep;
++    word tmp[64];
++    for (giantstep = 0; giantstep + RADIX < mb; giantstep += RADIX) {
++      for (size_t babystep = 0; babystep < RADIX; ++babystep)
++	tmp [babystep] = B->values [B->rowswap [babystep + giantstep]] & ucol;
++
++      word dotprod = parity64 (tmp);
++      
++      for (size_t babystep = 0; babystep < RADIX; ++babystep)
++	  if (GET_BIT (dotprod, babystep))
++	    FLIP_BIT (B->values [B->rowswap [giantstep + babystep]], i + offset);
++      }      
++    for (size_t babystep = 0; babystep < mb - giantstep; ++babystep){
++      tmp [babystep] = B->values [B->rowswap [babystep + giantstep]] & ucol;
++
++    }
++    for (size_t babystep = mb-giantstep; babystep < 64; ++babystep){
++      tmp [babystep] = 0;
++    }
++
++    word dotprod = parity64 (tmp);
++    
++    for (size_t babystep = 0; babystep < mb - giantstep; ++babystep)
++      if (GET_BIT (dotprod, babystep))
++	FLIP_BIT (B->values [B->rowswap [giantstep + babystep ]], i + offset);
++  }
++}
++
++void _mzd_trsm_lower_right_base (packedmatrix* L, packedmatrix* B, const int cutoff){ 
++  
++  size_t mb = B->nrows;
++  size_t nb = B->ncols;
++
++  for (int i=nb-1; i >=0; --i) {
++    
++    /* Computes X_i = B_i + X_{i+1,n} L_{i+1..n,i} */
++    
++    register word ucol = 0;
++    for (size_t k=i+1; k<nb; ++k) {
++      if (GET_BIT (L->values[L->rowswap[k]], i))
++	SET_BIT (ucol, k);
++    }
++    
++    /* doing 64 dotproducts at a time, to use the parity64 parallelism */
++    size_t giantstep;
++    word tmp[64];
++    for (giantstep = 0; giantstep + RADIX < mb; giantstep += RADIX) {
++      for (size_t babystep = 0; babystep < RADIX; ++babystep)
++	tmp [babystep] = B->values [B->rowswap [babystep + giantstep]] & ucol;
++      
++      word dotprod = parity64 (tmp);
++      
++      for (size_t babystep = 0; babystep < RADIX; ++babystep)
++	if (GET_BIT (dotprod, babystep))
++	  FLIP_BIT (B->values [B->rowswap [giantstep + babystep]], i);
++    }
++    
++    for (size_t babystep = 0; babystep < mb - giantstep; ++babystep)
++      tmp [babystep] = B->values [B->rowswap [babystep + giantstep]] & ucol;
++    for (size_t babystep = mb-giantstep; babystep < 64; ++babystep)
++      tmp [babystep] = 0;
++    
++    word dotprod = parity64 (tmp);
++    for (size_t babystep = 0; babystep < mb - giantstep; ++babystep)
++      if (GET_BIT (dotprod, babystep))
++	FLIP_BIT (B->values [B->rowswap [giantstep + babystep ]], i);
++  }
++}
++/* void _mzd_trsm_lower_right_base (packedmatrix* L, packedmatrix* B, const int cutoff){ */
++/*   size_t mb = B->nrows; */
++/*   size_t nb = B->ncols; */
++/*   for (size_t i=1; i < nb; ++i) { */
++/*     /\* Computes X_i = B_i + X_{0..i-1} L_{0..i-1,i} *\/ */
++/*     packedmatrix *Xm = mzd_init_window(B,  0,     0,   mb, i); */
++/*     packedmatrix *Bm = mzd_init_window(B,  0,     i,   mb, i+1); */
++/*     packedmatrix *Lm = mzd_init_window(L,  0,     i,   i, i+1); */
++/*     _mzd_addmul(Bm, Xm, Lm, cutoff); */
++/*     mzd_free_window(Xm); */
++/*     mzd_free_window(Lm); */
++/*     mzd_free_window(Bm); */
++/*   } */
++/* } */
++
++/**
++ * Variant where L and B start at an even bit position
++ * Assumes that L->ncols < 64
++ */
++#define TRSM_THRESHOLD 64
++
++void _mzd_trsm_lower_right_even (packedmatrix *L, packedmatrix *B, const int cutoff) {
++
++  size_t mb = B->nrows;
++  size_t nb = B->ncols;
++  
++  if (nb <= TRSM_THRESHOLD){
++    /* base case */
++    _mzd_trsm_lower_right_base (L, B, cutoff);
++  }
++  else {
++    size_t nb1 = (((nb-1) / RADIX + 1) >> 1) * RADIX;
++
++    packedmatrix *B0 = mzd_init_window(B,  0,     0,   mb, nb1);
++    packedmatrix *B1 = mzd_init_window(B,  0,   nb1,   mb, nb);
++    packedmatrix *L00 = mzd_init_window(L, 0,     0, nb1, nb1);
++    packedmatrix *L10 = mzd_init_window(L, nb1, 0, nb, nb1);
++    packedmatrix *L11 = mzd_init_window(L, nb1, nb1,  nb, nb);
++
++    _mzd_trsm_lower_right_even (L11, B1, cutoff);
++    mzd_addmul (B0, B1, L10, cutoff);
++    _mzd_trsm_lower_right_even (L00, B0, cutoff);
++
++    mzd_free_window(B0);
++    mzd_free_window(B1);
++
++    mzd_free_window(L00);
++    mzd_free_window(L10);
++    mzd_free_window(L11);
++  }
++}
++
+ 
+ /* Lower Left Implementations */
+ 
+@@ -236,7 +462,7 @@ void _mzd_trsm_lower_left (packedmatrix 
+        * |L10 |L11\  |      |
+        * |____|____\ |______|
+        * 
+-       * L00 L10 and B0 are possibly located at uneven locations.
++       * L00 L10 B0 and B1 are possibly located at uneven locations.
+        * Their column dimension is lower than 64
+        * The first column of L01, L11, B1 are aligned to words.
+        */
+@@ -279,6 +505,7 @@ void _mzd_trsm_lower_left_weird (packedm
+       mask_begin = ~mask_begin;
+     word mask_end = LEFT_BITMASK(nbrest);
+ 
++    // L[0,0] = 1, so no work required for i=0
+     for (size_t i=1; i < mb; ++i) {
+       
+       /* Computes X_i = B_i + L_{i,0..i-1} X_{0..i-1}  */
+@@ -390,3 +617,201 @@ void _mzd_trsm_lower_left_even (packedma
+     mzd_free_window(L11);
+   }
+ }
++
++
++
++/* Upper Left Implementations */
++
++void mzd_trsm_upper_left (packedmatrix *U, packedmatrix *B, const int cutoff) {
++  if(U->ncols != B->nrows)
++    m4ri_die("mzd_trsm_upper_left: U ncols (%d) need to match B nrows (%d).\n", U->ncols, B->nrows);
++  if(U->nrows != U->ncols)
++    m4ri_die("mzd_trsm_upper_left: U must be square and is found to be (%d) x (%d).\n", U->nrows, U->ncols);
++  
++  if (cutoff <= 0)
++    m4ri_die("mzd_trsm_upper_left: cutoff must be > 0.\n");
++
++  _mzd_trsm_upper_left (U, B, cutoff);
++}
++
++void _mzd_trsm_upper_left (packedmatrix *U, packedmatrix *B, const int cutoff) {
++
++
++  if (!U->offset)
++    _mzd_trsm_upper_left_even (U, B, cutoff);
++  else{
++    size_t nb = B->ncols;
++    size_t mb = B->nrows;
++    size_t m1 = RADIX - U->offset;
++    if (mb <= m1)
++      _mzd_trsm_upper_left_weird (U, B, cutoff);
++    else{
++      /**
++       *  __________   ______
++       *  \ U00|    | |      |
++       *   \   |U01 | |      |
++       *    \  |    | |  B0  |
++       *     \ |    | |      |
++       *      \|____| |______|
++       *       \    | |      |
++       *        \U11| |      |
++       *         \  | |  B1  |
++       *          \ | |      |
++       *           \| |______|
++       * 
++       * U00, B0 and B1 are possibly located at uneven locations.
++       * Their column dimension is greater than 64
++       * The first column of U01, U11, B0 and B1 are aligned to words.
++       */
++      
++      packedmatrix *B0  = mzd_init_window (B,  0,  0, m1, nb);
++      packedmatrix *B1  = mzd_init_window (B,  m1, 0, mb, nb);
++      packedmatrix *U00 = mzd_init_window (U,  0,  0, m1, m1);
++      packedmatrix *U01 = mzd_init_window (U,  0, m1, m1, mb);
++      packedmatrix *U11 = mzd_init_window (U, m1, m1, mb, mb);
++      
++      _mzd_trsm_upper_left_even (U11, B1, cutoff);
++      mzd_addmul (B0, U01, B1, cutoff);
++      _mzd_trsm_upper_left_weird (U00, B0, cutoff);
++    
++      mzd_free_window(B0);
++      mzd_free_window(B1);
++      
++      mzd_free_window(U00);
++      mzd_free_window(U01);
++      mzd_free_window(U11);
++    }
++  }
++}
++
++/**
++ * Variant where U and B start at an odd bit position
++ * Assumes that U->ncols < 64
++ */
++void _mzd_trsm_upper_left_weird (packedmatrix *U, packedmatrix *B, const int cutoff) {
++
++  size_t mb = B->nrows;
++  size_t nb = B->ncols;
++  size_t Boffset = B->offset;
++  size_t nbrest = (nb + Boffset) % RADIX;
++  if (nb + Boffset >= RADIX) {
++
++    // Large B
++    word mask_begin = RIGHT_BITMASK(RADIX-B->offset);
++    if (B->offset == 0)
++      mask_begin = ~mask_begin;
++    word mask_end = LEFT_BITMASK(nbrest);
++
++    // U[mb-1,mb-1] = 1, so no work required for i=mb-1
++    for (int i=mb-2; i >= 0; --i) {
++      
++      /* Computes X_i = B_i + U_{i,i+1..mb} X_{i+1..mb}  */
++      size_t Uidx = U->rowswap[i];
++      size_t Bidx = B->rowswap[i];
++
++      for (size_t k=i+1; k<mb; ++k) {
++	if (GET_BIT (U->values [Uidx], k + U->offset)){
++	  B->values [Bidx] ^= B->values [B->rowswap [k]] & mask_begin;
++	  for (size_t j = 1; j < B->width-1; ++j)
++	    B->values [Bidx + j] ^= B->values [B->rowswap [k] + j];
++	  B->values [Bidx + B->width - 1] ^= B->values [B->rowswap [k] + B->width - 1] & mask_end;
++	}
++      }
++    }
++  } else { // Small B
++
++    word mask = ((ONE << nb) - 1) ;
++    mask <<= (RADIX-nb-B->offset);
++
++    // U[mb-1,mb-1] = 1, so no work required for i=mb-1
++    for (int i=mb-2; i >= 0; --i) {
++      /* Computes X_i = B_i + U_{i,i+1..mb} X_{i+1..mb}  */
++      size_t Uidx = U->rowswap[i];
++      size_t Bidx = B->rowswap[i];
++
++      for (size_t k=i+1; k<mb; ++k) {
++	if (GET_BIT (U->values [Uidx], k + U->offset)){
++	  B->values [Bidx] ^= B->values [B->rowswap [k]] & mask;
++	}
++      }
++    }
++  }
++}
++
++/**
++ * Variant where U and B start at an odd bit position
++ * Assumes that U->ncols < 64
++ */
++void _mzd_trsm_upper_left_even (packedmatrix *U, packedmatrix *B, const int cutoff) {
++
++  size_t mb = B->nrows;
++  size_t nb = B->ncols;
++  size_t Boffset = B->offset;
++  size_t nbrest = (nb + Boffset) % RADIX;
++
++  if (mb <= RADIX){
++    /* base case */
++
++    if (nb + B->offset >= RADIX) {
++      // B is large
++      word mask_begin = RIGHT_BITMASK(RADIX-B->offset);
++      if (B->offset == 0)
++        mask_begin = ~mask_begin;
++      word mask_end = LEFT_BITMASK(nbrest);
++
++      // U[mb-1,mb-1] = 1, so no work required for i=mb-1
++      for (int i=mb-2; i >= 0; --i) {
++
++	/* Computes X_i = B_i + U_{i,i+1..mb} X_{i+1..mb}  */
++	size_t Uidx = U->rowswap[i];
++	size_t Bidx = B->rowswap[i];
++
++	for (size_t k=i+1; k<mb; ++k) {
++	  if (GET_BIT (U->values [Uidx], k)){
++	    B->values [Bidx] ^= B->values [B->rowswap [k]] & mask_begin;
++	    for (size_t j = 1; j < B->width-1; ++j)
++	      B->values [Bidx + j] ^= B->values [B->rowswap [k] + j];
++	    B->values [Bidx + B->width - 1] ^= B->values [B->rowswap [k] + B->width - 1] & mask_end;
++	  }
++	}
++      }
++    } else { // B is small
++      word mask = ((ONE << nb) - 1) ;
++      mask <<= (RADIX-nb-B->offset);
++      // U[mb-1,mb-1] = 1, so no work required for i=mb-1
++      for (int i=mb-2; i >= 0; --i) {
++
++	/* Computes X_i = B_i + U_{i,i+1..mb} X_{i+1..mb}  */
++	size_t Uidx = U->rowswap [i];
++	size_t Bidx = B->rowswap [i];
++
++	for (size_t k=i+1; k<mb; ++k) {
++	  if (GET_BIT (U->values [Uidx], k)){
++	    B->values [Bidx] ^= B->values [B->rowswap[k]] & mask;
++	  }
++	}
++      }
++    }
++  } else {
++    size_t mb1 = (((mb-1) / RADIX + 1) >> 1) * RADIX;
++
++    packedmatrix *B0 = mzd_init_window(B,  0,     0,   mb1, nb);
++    packedmatrix *B1 = mzd_init_window(B, mb1,    0,   mb,  nb);
++    packedmatrix *U00 = mzd_init_window(U, 0,     0, mb1, mb1);
++    packedmatrix *U01 = mzd_init_window(U, 0,   mb1, mb1, mb);
++    packedmatrix *U11 = mzd_init_window(U, mb1, mb1, mb, mb);
++
++    _mzd_trsm_upper_left_even (U11, B1, cutoff);
++
++    _mzd_addmul (B0, U01, B1, cutoff);
++
++    _mzd_trsm_upper_left_even (U00, B0, cutoff);
++
++    mzd_free_window(B0);
++    mzd_free_window(B1);
++
++    mzd_free_window(U00);
++    mzd_free_window(U01);
++    mzd_free_window(U11);
++  }
++}
+diff -r 7d525bf8b16f -r cafd6739ffed src/trsm.h
+--- a/src/trsm.h	Sat Oct 11 10:16:18 2008 +0200
++++ b/src/trsm.h	Mon Oct 13 10:12:08 2008 +0200
+@@ -75,6 +75,43 @@ void _mzd_trsm_upper_right_weird (packed
+ /**
+  * \brief TRiangular System solving with matrix.
+  *
++ * Solves X L = B where X and B are matrices, and L is lower triangular.
++ * X is stored inplace on B
++ * * 
++ * This is the wrapper function including bounds checks. See
++ * _mzd_trsm_upper_right for implementation details.
++ *
++ * \param L Input upper triangular matrix.
++ * \param B Input matrix, being overwritten by the solution matrix X
++ * \param cutoff Minimal dimension for Strassen recursion.
++ *
++ */
++
++void mzd_trsm_lower_right (packedmatrix *L, packedmatrix *B, const int cutoff);
++
++/**
++ * \brief TRiangular System solving with matrix.
++ *
++ * Solves X L = B where X and B are matrices, and L is lower triangular.
++ * This version assumes that the matrices are at an even position on
++ * the RADIX grid and that their dimension is a multiple of RADIX.
++ * X is stored inplace on B
++ *
++ * \param L Input lower triangular matrix.
++ * \param B Input matrix, being overwritten by the solution matrix X
++ * \param cutoff Minimal dimension for Strassen recursion.
++ *
++ * \internal
++ */
++void _mzd_trsm_lower_right (packedmatrix *L, packedmatrix *B, const int cutoff);
++
++void _mzd_trsm_lower_right_even (packedmatrix *L, packedmatrix *B, const int cutoff);
++
++void _mzd_trsm_lower_right_weird (packedmatrix *L, packedmatrix *B, const int cutoff);
++
++/**
++ * \brief TRiangular System solving with matrix.
++ *
+  * Solves L X = B where X and B are matrices, and L is lower triangular.
+  *  X is stored inplace on B
+  *  
+@@ -107,4 +144,40 @@ void _mzd_trsm_lower_left_even (packedma
+ 
+ void _mzd_trsm_lower_left_weird (packedmatrix *L, packedmatrix *B, const int cutoff);
+ 
++
++/**
++ * \brief TRiangular System solving with matrix.
++ *
++ * Solves U X = B where X and B are matrices, and U is upper triangular.
++ *  X is stored inplace on B
++ *  
++ * This is the wrapper function including bounds checks. See
++ * _mzd_trsm_upper_left for implementation details.
++ *
++ * \param U Input upper triangular matrix.
++ * \param B Input matrix, being overwritten by the solution matrix X
++ * \param cutoff Minimal dimension for Strassen recursion.
++ *
++ */
++
++void mzd_trsm_upper_left (packedmatrix *U, packedmatrix *B, const int cutoff);
++
++/**
++ * \brief TRiangular System solving with matrix.
++ *
++ * Solves U X = B where X and B are matrices, and U is upper triangular.
++ * X is stored inplace on B
++ *
++ * \param U Input upper triangular matrix.
++ * \param B Input matrix, being overwritten by the solution matrix X
++ * \param cutoff Minimal dimension for Strassen recursion.
++ *
++ * \internal
++ */
++void _mzd_trsm_upper_left (packedmatrix *U, packedmatrix *B, const int cutoff);
++
++void _mzd_trsm_upper_left_even (packedmatrix *U, packedmatrix *B, const int cutoff);
++
++void _mzd_trsm_upper_left_weird (packedmatrix *U, packedmatrix *B, const int cutoff);
++
+ #endif
+diff -r 7d525bf8b16f -r cafd6739ffed testsuite/Makefile
+--- a/testsuite/Makefile	Sat Oct 11 10:16:18 2008 +0200
++++ b/testsuite/Makefile	Mon Oct 13 10:12:08 2008 +0200
+@@ -4,7 +4,7 @@ DEBUG=-ggdb
+ 
+ 
+ 
+-PRGS=test_elimination test_multiplication bench_elimination bench_multiplication bench_addition test_trsm
++PRGS=test_elimination test_multiplication bench_elimination bench_multiplication bench_addition test_trsm bench_trsm_lowerleft bench_trsm_upperright bench_trsm_upperleft bench_trsm_lowerright
+ 
+ CPUCYCLES_DIR=./cpucycles-20060326
+ 
+diff -r 7d525bf8b16f -r cafd6739ffed testsuite/bench_trsm_lowerleft.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/testsuite/bench_trsm_lowerleft.c	Mon Oct 13 10:12:08 2008 +0200
+@@ -0,0 +1,36 @@
++#include <stdlib.h>
++
++#include "cpucycles.h"
++#include "walltime.h"
++#include "m4ri.h"
++
++int main(int argc, char **argv) {
++  int n,m;
++  unsigned long long t;
++  double wt;
++  double clockZero = 0.0;
++
++  if (argc != 3) {
++    m4ri_die("Parameters m, n expected.\n");
++  }
++  m = atoi(argv[1]);
++  n = atoi(argv[2]);
++  packedmatrix *B = mzd_init(m, n);
++  packedmatrix *L = mzd_init(m, m);
++  mzd_randomize(B);
++  mzd_randomize(L);
++  size_t i,j;
++  for (i=0; i<n; ++i){
++    for (j=i+1; j<n;++j)
++      mzd_write_bit(L,i,j, 0);
++    mzd_write_bit(L,i,i, 1);
++  }
++  
++  wt = walltime(&clockZero);
++  t = cpucycles();
++  mzd_trsm_lower_left(L, B, 2048);
++  printf("n: %5d, cpu cycles: %llu wall time: %lf\n",n, cpucycles() - t, walltime(&wt));
++
++  mzd_free(B);
++  mzd_free(L);
++}
+diff -r 7d525bf8b16f -r cafd6739ffed testsuite/bench_trsm_lowerright.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/testsuite/bench_trsm_lowerright.c	Mon Oct 13 10:12:08 2008 +0200
+@@ -0,0 +1,36 @@
++#include <stdlib.h>
++
++#include "cpucycles.h"
++#include "walltime.h"
++#include "m4ri.h"
++
++int main(int argc, char **argv) {
++  int n,m;
++  unsigned long long t;
++  double wt;
++  double clockZero = 0.0;
++
++  if (argc != 3) {
++    m4ri_die("Parameters m, n expected.\n");
++  }
++  m = atoi(argv[1]);
++  n = atoi(argv[2]);
++  packedmatrix *B = mzd_init(m, n);
++  packedmatrix *L = mzd_init(n, n);
++  mzd_randomize(B);
++  mzd_randomize(L);
++  size_t i,j;
++  for (i=0; i<n; ++i){
++    for (j=i+1; j<n;++j)
++      mzd_write_bit(L,i,j, 0);
++    mzd_write_bit(L,i,i, 1);
++  }
++  
++  wt = walltime(&clockZero);
++  t = cpucycles();
++  mzd_trsm_lower_right(L, B, 2048);
++  printf("n: %5d, cpu cycles: %llu wall time: %lf\n",n, cpucycles() - t, walltime(&wt));
++
++  mzd_free(B);
++  mzd_free(L);
++}
+diff -r 7d525bf8b16f -r cafd6739ffed testsuite/bench_trsm_upperleft.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/testsuite/bench_trsm_upperleft.c	Mon Oct 13 10:12:08 2008 +0200
+@@ -0,0 +1,36 @@
++#include <stdlib.h>
++
++#include "cpucycles.h"
++#include "walltime.h"
++#include "m4ri.h"
++
++int main(int argc, char **argv) {
++  int n,m;
++  unsigned long long t;
++  double wt;
++  double clockZero = 0.0;
++
++  if (argc != 3) {
++    m4ri_die("Parameters m, n expected.\n");
++  }
++  m = atoi(argv[1]);
++  n = atoi(argv[2]);
++  packedmatrix *B = mzd_init(m, n);
++  packedmatrix *U = mzd_init(m, m);
++  mzd_randomize(B);
++  mzd_randomize(U);
++  size_t i,j;
++  for (i=0; i<n; ++i){
++    for (j=0; j<i;++j)
++      mzd_write_bit(U,i,j, 0);
++    mzd_write_bit(U,i,i, 1);
++  }
++  
++  wt = walltime(&clockZero);
++  t = cpucycles();
++  mzd_trsm_upper_left(U, B, 2048);
++  printf("n: %5d, cpu cycles: %llu wall time: %lf\n",n, cpucycles() - t, walltime(&wt));
++
++  mzd_free(B);
++  mzd_free(U);
++}
+diff -r 7d525bf8b16f -r cafd6739ffed testsuite/bench_trsm_upperright.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/testsuite/bench_trsm_upperright.c	Mon Oct 13 10:12:08 2008 +0200
+@@ -0,0 +1,36 @@
++#include <stdlib.h>
++
++#include "cpucycles.h"
++#include "walltime.h"
++#include "m4ri.h"
++
++int main(int argc, char **argv) {
++  int n,m;
++  unsigned long long t;
++  double wt;
++  double clockZero = 0.0;
++
++  if (argc != 3) {
++    m4ri_die("Parameters m, n expected.\n");
++  }
++  m = atoi(argv[1]);
++  n = atoi(argv[2]);
++  packedmatrix *B = mzd_init(m, n);
++  packedmatrix *U = mzd_init(n, n);
++  mzd_randomize(B);
++  mzd_randomize(U);
++  size_t i,j;
++  for (i=0; i<n; ++i){
++    for (j=0; j<i;++j)
++      mzd_write_bit(U,i,j, 0);
++    mzd_write_bit(U,i,i, 1);
++  }
++  
++  wt = walltime(&clockZero);
++  t = cpucycles();
++  mzd_trsm_upper_right(U, B, 2048);
++  printf("n: %5d, cpu cycles: %llu wall time: %lf\n",n, cpucycles() - t, walltime(&wt));
++
++  mzd_free(B);
++  mzd_free(U);
++}
+diff -r 7d525bf8b16f -r cafd6739ffed testsuite/test_trsm.c
+--- a/testsuite/test_trsm.c	Sat Oct 11 10:16:18 2008 +0200
++++ b/testsuite/test_trsm.c	Mon Oct 13 10:12:08 2008 +0200
+@@ -45,6 +45,59 @@ int test_trsm_upper_right (int m, int n,
+   mzd_free_window (B);
+   mzd_free (W);
+   mzd_free(Ubase);
++  mzd_free(Bbase);
++  mzd_free(Bbasecopy);
++
++  if (!status)
++    printf("passed\n");
++  else
++    printf("failed\n");
++  return status;
++}
++
++int test_trsm_lower_right (int m, int n, int offset){
++  packedmatrix* Lbase = mzd_init (2048,2048);
++  packedmatrix* Bbase = mzd_init (2048,2048);
++  mzd_randomize (Lbase);
++  mzd_randomize (Bbase);
++  packedmatrix* Bbasecopy = mzd_copy (NULL, Bbase);
++
++  packedmatrix* L = mzd_init_window (Lbase, 0, offset, n, offset + n);
++  packedmatrix* B = mzd_init_window (Bbase, 0, offset, m, offset + n);
++  packedmatrix* W = mzd_copy (NULL, B);
++
++  size_t i,j;
++  for (i=0; i<n; ++i){
++    for (j=i+1; j<n;++j)
++      mzd_write_bit(L,i,j, 0);
++    mzd_write_bit(L,i,i, 1);
++  }
++  mzd_trsm_lower_right (L, B, 2048);
++
++  mzd_addmul(W, B, L, 2048);
++
++  int status = 0;
++  for ( i=0; i<m; ++i)
++    for ( j=0; j<n; ++j){
++      if (mzd_read_bit (W,i,j)){
++	status = 1;
++      }
++    }
++
++  // Verifiying that nothing has been changed around the submatrices
++  mzd_addmul(W, B, L, 2048);
++  mzd_copy (B, W);
++
++  for ( i=0; i<2048; ++i)
++    for ( j=0; j<2048/RADIX; ++j){
++      if (Bbase->values [Bbase->rowswap[i] + j] != Bbasecopy->values [Bbasecopy->rowswap[i] + j]){
++	status = 1;
++      }
++    }
++  mzd_free_window (L);
++  mzd_free_window (B);
++  mzd_free (W);
++  mzd_free(Lbase);
+   mzd_free(Bbase);
+   mzd_free(Bbasecopy);
+ 
+@@ -110,6 +163,62 @@ int test_trsm_lower_left (int m, int n, 
+   return status;
+ }
+ 
++
++
++int test_trsm_upper_left (int m, int n, int offsetU, int offsetB){
++  packedmatrix* Ubase = mzd_init (2048,2048);
++  packedmatrix* Bbase = mzd_init (2048,2048);
++  mzd_randomize (Ubase);
++  mzd_randomize (Bbase);
++  packedmatrix* Bbasecopy = mzd_copy (NULL, Bbase);
++
++  packedmatrix* U = mzd_init_window (Ubase, 0, offsetU, m, offsetU + m);
++  packedmatrix* B = mzd_init_window (Bbase, 0, offsetB, m, offsetB + n);
++  packedmatrix* W = mzd_copy (NULL, B);
++
++  size_t i,j;
++  for (i=0; i<m; ++i){
++    for (j=0; j<i;++j)
++      mzd_write_bit(U,i,j, 0);
++    mzd_write_bit(U,i,i, 1);
++  }    
++  mzd_trsm_upper_left(U, B, 2048);
++  
++  mzd_addmul(W, U, B, 2048);
++
++  int status = 0;
++  for ( i=0; i<m; ++i)
++    for ( j=0; j<n; ++j){
++      if (mzd_read_bit (W,i,j)){
++	status = 1;
++      }
++    }
++
++  // Verifiying that nothing has been changed around the submatrices
++  mzd_addmul(W, U, B, 2048);
++
++  mzd_copy (B, W);
++
++  for ( i=0; i<2048; ++i)
++    for ( j=0; j<2048/RADIX; ++j){
++      if (Bbase->values [Bbase->rowswap[i] + j] != Bbasecopy->values [Bbasecopy->rowswap[i] + j]){
++	status = 1;
++      }
++    }
++  mzd_free_window (U);
++  mzd_free_window (B);
++  mzd_free_window (W);
++  mzd_free(Ubase);
++  mzd_free(Bbase);
++  mzd_free(Bbasecopy);
++
++  if (!status)
++    printf("passed\n");
++  else
++    printf("failed\n");
++  return status;
++}
++
+ int main(int argc, char **argv) {
+   int status = 0;
+ 
+@@ -125,6 +234,19 @@ int main(int argc, char **argv) {
+   status += test_trsm_upper_right(57, 80, 60);
+   printf("UpperRight: larger, odd placed ... ");
+   status += test_trsm_upper_right(1577, 1802, 189);
++
++  printf("LowerRight: small, even placed ... ");
++  status += test_trsm_lower_right(57, 10, 0);
++  printf("LowerRight: large, even placed ... ");
++  status += test_trsm_lower_right(57, 150, 0);
++  printf("LowerRight: small, odd placed  ... ");
++  status += test_trsm_lower_right(57, 3, 4);
++  printf("LowerRight: medium, odd placed ... ");
++  status += test_trsm_lower_right(57, 4, 62);
++  printf("LowerRight: large, odd placed  ... ");
++  status += test_trsm_lower_right(57, 80, 60);
++  printf("LowerRight: larger, odd placed ... ");
++  status += test_trsm_lower_right(1577, 1802, 189);
+ 
+   printf("LowerLeft: small L even, small B even ... ");
+   status += test_trsm_lower_left (10, 20, 0, 0);
+@@ -171,7 +293,53 @@ int main(int argc, char **argv) {
+   printf("LowerLeft: larger L odd, larger B odd ... ");
+   status += test_trsm_lower_left (1764, 1345, 198, 123);
+ 
+-  
++
++  printf("UpperLeft: small U even, small B even ... ");
++  status += test_trsm_upper_left (10, 20, 0, 0);
++  printf("UpperLeft: small U even, large B even ... ");
++  status += test_trsm_upper_left (10, 80, 0, 0);
++
++  printf("UpperLeft: small U even, small B odd  ... ");
++  status += test_trsm_upper_left (10, 20, 0, 15);
++  printf("UpperLeft: small U even, large B odd  ... ");
++  status += test_trsm_upper_left (10, 80, 0, 15);
++
++  printf("UpperLeft: small U odd, small B even  ... ");
++  status += test_trsm_upper_left (10, 20, 15, 0);
++  printf("UpperLeft: small U odd, large B even  ... ");
++  status += test_trsm_upper_left (10, 80, 15, 0);
++
++  printf("UpperLeft: small U odd, small B odd   ... ");
++  status += test_trsm_upper_left (10, 20, 15, 20);
++  printf("UpperLeft: small U odd, large B odd   ... ");
++  status += test_trsm_upper_left (10, 80, 15, 20);
++
++  printf("UpperLeft: large U even, small B even ... ");
++  status += test_trsm_upper_left (70, 20, 0, 0);
++  printf("UpperLeft: large U even, large B even ... ");
++  status += test_trsm_upper_left (70, 80, 0, 0);
++
++  printf("UpperLeft: large U even, small B odd  ... ");
++  status += test_trsm_upper_left (70, 10, 0, 15);
++  printf("UpperLeft: large U even, large B odd  ... ");
++  status += test_trsm_upper_left (70, 80, 0, 15);
++
++  printf("UpperLeft: large U odd, small B even  ... ");
++  status += test_trsm_upper_left (70, 20, 15, 0);
++  printf("UpperLeft: large U odd, large B even  ... ");
++  status += test_trsm_upper_left (70, 80, 15, 0);
++
++  printf("UpperLeft: large U odd, small B odd   ... ");
++  status += test_trsm_upper_left (70, 20, 15, 20);
++  printf("UpperLeft: large U odd, large B odd   ... ");
++  status += test_trsm_upper_left (70, 80, 15, 20);
++
++  printf("UpperLeft: larger U odd, larger B odd ... ");
++  status += test_trsm_upper_left (770, 1600, 75, 89);
++  printf("UpperLeft: larger U odd, larger B odd ... ");
++  status += test_trsm_upper_left (1764, 1345, 198, 123);
++
++
+   if (!status) {
+     printf("All tests passed.\n");
+   }
