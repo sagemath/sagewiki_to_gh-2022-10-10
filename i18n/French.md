@@ -20,8 +20,8 @@ Here there is a list of the .rst to be tanslated:
 ||''file name'' ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
 ||tour.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr_rev.rst changements proposés] (MM) ||
 ||tour_rings.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr_rev.rst changements proposés] (MM) ||
-||tour_polynomial.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst PremierJet] || en cours (MM) ||
-||tour_plotting.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst PremierJet] || en cours (MM) ||
+||tour_polynomial.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr_rev.rst changements proposés] (MM) ||
+||tour_plotting.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr_rev.rst changements proposés] (MM) ||
 ||tour_numtheory.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst PremierJet]  || ||
 ||tour_linalg.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst PremierJet]  || ||
 ||tour_help.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst done (pending review)] (MM) || ||
