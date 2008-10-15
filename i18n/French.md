@@ -41,7 +41,7 @@ Here there is a list of the .rst to be tanslated:
 ||afterword.rst || en cours (BM) || ||
 
 Pour faciliter la relecture, une version après rendu html d'une partie des fichiers est disponible à 
-http://www.eleves.ens.fr/~mezzarob/sagetutfr/html.tgz
+http://www.eleves.ens.fr/~mezzarob/sagetutfr/html
 
 == Conventions ==
 == Glossaire ==
