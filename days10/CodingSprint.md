@@ -140,9 +140,7 @@ Goal: provide fancy enhancement to Nick Alexander's emacs mode for Sage.
 
 attachment:sage-view.el
 
-This code adds LaTeX processing of Sage output and images embedding in emacs Sage buffer. Work in progress!!! Needs Ghostcript, AUCTeX... and recent emacs!!
-
-attachment:Capture-emacs%40maruta.png
+This code adds LaTeX processing of Sage output and images embedding in emacs Sage buffer. Work in progress!!! Needs Ghostcript, AUCTeX... and recent emacs!! Done some bug fixing and performance stuff yesterday... Still a major bug with long output...
 
 === Increase Doctest Coverage ===
 (Paul Zimmermann)
