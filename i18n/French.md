@@ -22,11 +22,11 @@ Here there is a list of the .rst to be tanslated:
 ||tour_rings.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr_rev.rst changements proposés] (MM) ||
 ||tour_polynomial.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr_rev.rst changements proposés] (MM) ||
 ||tour_plotting.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr_rev.rst changements proposés] (MM) ||
-||tour_numtheory.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst PremierJet]  || ||
-||tour_linalg.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst PremierJet]  || ||
+||tour_numtheory.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst PremierJet]  ||[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr_rev.rst changements proposés] (MM) ||
+||tour_linalg.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst PremierJet]  || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr_rev.rst changements proposés] (MM) ||
 ||tour_help.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst done (pending review)] (MM) || ||
-||tour_groups.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst PremierJet] || ||
-||tour_assignment.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst PremierJet] || ||
+||tour_groups.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr_rev.rst changements proposés] (MM) ||
+||tour_assignment.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr_rev.rst changements proposés] (MM) ||
 ||tour_algebra.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst PremierJet] || ||
 ||tour_advanced.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst PremierJet]  || ||
 ||programming.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst done (pending review)] (MM)  || ||
