@@ -58,9 +58,14 @@ A schedule for the talks should be announced during the organizational meeting o
 === Linear Algebra over Polynomial Rings ===
 (Burcin Erocal, Arne Storjohann, Clément Pernet)
  * (esp. for nullspace computation over fraction fields of these)
+ * done -- implemented algorithm suggested by Arne for Z_p[x]
+ * lift the results to Z[x]
+ * optimize (using ffblas operations from linbox)
 
 === Improve the State of Fraction Fields ===
 (Burcin Erocal)
+ * done -- move Fraction Fields to the new coercion model
+ * add a rational function class using flint for Z(x)
 
 === F5 ===
 (Martin Albrecht, Michael Brickenstein, Simon King, Ludovic Perret)
