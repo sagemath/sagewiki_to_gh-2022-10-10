@@ -35,7 +35,7 @@ Here there is a list of the .rst to be tanslated:
 ||tour_help.rst || || ||
 ||tour_groups.rst || || ||
 ||tour_assignment.rst || || ||
-||tour_algebra.rst ||<bgcolor="#80ff80" style=""> [:i18n/Italian/Tour_AlgebraIt:done] || ||
+||tour_algebra.rst ||<bgcolor="#80ff80" style=""> [:i18n/Italian/tour_algebrait:done] || ||
 ||tour_advanced.rst || || ||
 ||programming.rst || || ||
 ||introduction.rst ||<bgcolor="#80ff80" style=""> [:i18n/Italian/IntroductionIt:done] || ||
