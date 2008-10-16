@@ -1,4 +1,4 @@
-== tour_algebr_it.rst ==
+== tour_algebra_it.rst ==
 {{{
 Algebra di base e Analisi
 
