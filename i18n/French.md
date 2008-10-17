@@ -27,8 +27,8 @@ Here there is a list of the .rst to be tanslated:
 ||tour_help.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst done (pending review)] (MM) || ||
 ||tour_groups.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr_rev.rst changements proposés] (MM) ||
 ||tour_assignment.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr_rev.rst changements proposés] (MM) ||
-||tour_algebra.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst PremierJet] || ||
-||tour_advanced.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst PremierJet]  || ||
+||tour_algebra.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr_rev.rst changements proposés] (MM) ||
+||tour_advanced.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst PremierJet]  || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr_rev.rst changements proposés] (MM) ||
 ||programming.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst done (pending review)] (MM)  || ||
 ||introduction.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst done (pending review)] (MM) || ||
 ||interfaces.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interfaces_fr.rst done (pending review)] (BM) || ||
