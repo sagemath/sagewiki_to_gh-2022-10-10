@@ -3,7 +3,8 @@ This page is intended as a coordination page for the French translation of Sage 
 
 === TODO list ===
  * For now we are translating the SAGE tutorial .rst files. - you can find the original files [[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/ | here]]
- * ...
+ * Tutoriel : finir de relire (notamment les « ??? » un peu partout, uniformiser l'usage des espaces insécables.
+
 ==== Tutorial ====
 Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez bien Sage pour contribuer efficacement au code tente de le découvrir en traduisant en français le tutorial au passage.
 
@@ -16,6 +17,9 @@ Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez
 
 
 Here there is a list of the .rst to be tanslated:
+
+ATTENTION : mes relectures ne sont pas tout à fait à jour (la version HTML l'est), pas le temps de corriger tout de suite. --MM
+
 ||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
 ||''file name'' ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
 ||tour.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr_rev.rst changements proposés] (MM) ||
@@ -40,8 +44,8 @@ Here there is a list of the .rst to be tanslated:
 ||appendix.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/appendix_fr.rst done (pending review)] (MM) || ||
 ||afterword.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/afterword_fr.rst done (pending review)] (BM) || ||
 
-Pour faciliter la relecture, une version après rendu html d'une partie des fichiers est disponible à 
-http://www.eleves.ens.fr/~mezzarob/sagetutfr/html
+Pour faciliter la relecture, une version après rendu html des derniers fichiers marqués (MM) du tableau est disponible à 
+http://www.eleves.ens.fr/~mezzarob/sagetutfr/html/index_fr.html
 
 == Conventions ==
 == Glossaire ==
