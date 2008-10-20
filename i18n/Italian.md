@@ -41,7 +41,7 @@ Here there is a list of the .rst to be tanslated:
 ||introduction.rst ||<bgcolor="#80ff80" style=""> [:i18n/Italian/IntroductionIt:done] || ||
 ||interfaces.rst || || ||
 ||interactive_shell.rst || || ||
-||index.rst ||<bgcolor="#80ff80" style=""> [:i18n/Italian/IndexIt:done] || ||
+||index.rst ||<bgcolor="#80ff80" style=""> [:i18n/Italian/IndexIt:done] || <bgcolor="#8080ff" style=""> ''reviewed''||
 ||distributed.rst || || ||
 ||conf.py || || ||
 ||bibliography.rst || || ||
