@@ -16,33 +16,31 @@ Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez
 À l'intention des personnes extérieures qui liraient ce tutoriel en français : tous vos commentaires sont les bienvenus, vous pouvez les laisser directement sur cette page ou écrire à marc à mezzarobba point net.
 
 
-Here there is a list of the .rst to be tanslated:
-
-ATTENTION : mes relectures ne sont pas tout à fait à jour (la version HTML l'est), pas le temps de corriger tout de suite. --MM
+Here there is a list of the .rst to be translated:
 
 ||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
-||''file name'' ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
-||tour.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr_rev.rst changements proposés] (MM) ||
-||tour_rings.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr_rev.rst changements proposés] (MM) ||
-||tour_polynomial.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr_rev.rst changements proposés] (MM) ||
-||tour_plotting.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr_rev.rst changements proposés] (MM) ||
-||tour_numtheory.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst PremierJet]  ||[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr_rev.rst changements proposés] (MM) ||
-||tour_linalg.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst PremierJet]  || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr_rev.rst changements proposés] (MM) ||
-||tour_help.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst done (pending review)] (MM) || ||
-||tour_groups.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr_rev.rst changements proposés] (MM) ||
-||tour_assignment.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr_rev.rst changements proposés] (MM) ||
-||tour_algebra.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst PremierJet] || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr_rev.rst changements proposés] (MM) ||
-||tour_advanced.rst || en cours (BM) [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst PremierJet]  || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr_rev.rst changements proposés] (MM) ||
-||programming.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst done (pending review)] (MM)  || ||
-||introduction.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst done (pending review)] (MM) || ||
-||interfaces.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interfaces_fr.rst done (pending review)] (BM) || ||
+||''file name''         ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
+||tour.rst              || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst changements proposés] (MM) ||
+||tour_rings.rst        || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst changements proposés] (MM) ||
+||tour_polynomial.rst   || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst changements proposés] (MM) ||
+||tour_plotting.rst     || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst changements proposés] (MM) ||
+||tour_numtheory.rst    || done (BM) ||[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst changements proposés] (MM) ||
+||tour_linalg.rst       || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst changements proposés] (MM) ||
+||tour_help.rst         || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst done (pending review)] (MM) || ||
+||tour_groups.rst       || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst changements proposés] (MM) ||
+||tour_assignment.rst   || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst changements proposés] (MM) ||
+||tour_algebra.rst      || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst changements proposés] (MM) ||
+||tour_advanced.rst     || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst changements proposés] (MM) ||
+||programming.rst       || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst done (pending review)] (MM)  || ||
+||introduction.rst      || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst done] (PZ) ||
+||interfaces.rst        || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interfaces_fr.rst done (pending review)] (BM) || ||
 ||interactive_shell.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interactive_shell_fr.rst done (pending review)] (MM) || ||
-||index.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/index_fr.rst done (pending review)] (MM)  || ||
-||distributed.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst done (pending review)] (MM) || ||
-||conf.py || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/conf.py done (pending review)] (MM) || ||
-||bibliography.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst done (pending review)] (MM) || ||
-||appendix.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/appendix_fr.rst done (pending review)] (MM) || ||
-||afterword.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/afterword_fr.rst done (pending review)] (BM) || ||
+||index.rst             || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/index_fr.rst done] (PZ)  ||
+||distributed.rst       || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst done (pending review)] (MM) || ||
+||conf.py               || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/conf.py done (pending review)] (MM) || ||
+||bibliography.rst      || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst done (pending review)] (MM) || ||
+||appendix.rst          || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/appendix_fr.rst done (pending review)] (MM) || ||
+||afterword.rst         || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/afterword_fr.rst done (pending review)] (BM) || ||
 
 Pour faciliter la relecture, une version après rendu html des derniers fichiers marqués (MM) du tableau est disponible à 
 http://www.eleves.ens.fr/~mezzarob/sagetutfr/html/index_fr.html
