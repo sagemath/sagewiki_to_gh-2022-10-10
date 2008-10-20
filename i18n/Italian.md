@@ -25,7 +25,7 @@ I file tradotti verrano nominati nel seguente modo filename.rst => filename_it.r
 
 Here there is a list of the .rst to be tanslated:
 ||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
-||''file name'' ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
+||''file name'' ||<bgcolor="#80ff80"> ''translated'' ||<bgcolor="#8080ff"> ''reviewed'' ||
 ||tour.rst || || ||
 ||tour_rings.rst || || ||
 ||tour_polynomial.rst || || ||
@@ -35,13 +35,13 @@ Here there is a list of the .rst to be tanslated:
 ||tour_help.rst || || ||
 ||tour_groups.rst || || ||
 ||tour_assignment.rst || || ||
-||tour_algebra.rst ||<bgcolor="#80ff80" style=""> [:i18n/Italian/tour_algebrait:done] || ||
+||tour_algebra.rst ||<bgcolor="#80ff80"> [:i18n/Italian/tour algebrait:done] || ||
 ||tour_advanced.rst || || ||
 ||programming.rst || || ||
-||introduction.rst ||<bgcolor="#80ff80" style=""> [:i18n/Italian/IntroductionIt:done] || ||
+||introduction.rst ||<bgcolor="#80ff80"> [:i18n/Italian/IntroductionIt:done] || ||
 ||interfaces.rst || || ||
 ||interactive_shell.rst || || ||
-||index.rst ||<bgcolor="#80ff80" style=""> [:i18n/Italian/IndexIt:done] || <bgcolor="#8080ff" style=""> reviewed||
+||index.rst ||<bgcolor="#80ff80"> [:i18n/Italian/IndexIt:done] || <bgcolor="#8080ff">[reviewed] ||
 ||distributed.rst || || ||
 ||conf.py || || ||
 ||bibliography.rst || || ||
