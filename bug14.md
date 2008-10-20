@@ -18,16 +18,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
 
 = Participants (with area they would like to work on) =
 
----- /!\ '''Edit conflict - other version:''' ----
  1. Michael Abshoff (Merges, memory leaks, reviews)
- 1. William Stein (number theory bugs)
-
-Many other people will hopefully participate, but didn't yet add themselves here yet.
-
----- /!\ '''Edit conflict - your version:''' ----
- 1. Michael Abshoff 
  1. William Stein (number theory bugs; magma/sage interface bugs)
 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
-
----- /!\ '''End of edit conflict''' ----
