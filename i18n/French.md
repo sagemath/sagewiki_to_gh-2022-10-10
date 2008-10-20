@@ -15,7 +15,6 @@ Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez
 
 À l'intention des personnes extérieures qui liraient ce tutoriel en français : tous vos commentaires sont les bienvenus, vous pouvez les laisser directement sur cette page ou écrire à marc à mezzarobba point net.
 
-
 Here there is a list of the .rst to be translated:
 
 ||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
@@ -24,25 +23,27 @@ Here there is a list of the .rst to be translated:
 ||tour_rings.rst        || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst changements proposés] (MM) ||
 ||tour_polynomial.rst   || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst changements proposés] (MM) ||
 ||tour_plotting.rst     || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst changements proposés] (MM) ||
-||tour_numtheory.rst    || done (BM) ||[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst changements proposés] (MM) ||
+||tour_numtheory.rst    || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst changements proposés] (MM) ||
 ||tour_linalg.rst       || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst changements proposés] (MM) ||
-||tour_help.rst         || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst done (pending review)] (MM) || ||
+||tour_help.rst         || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst done] (BM) ||
 ||tour_groups.rst       || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst changements proposés] (MM) ||
 ||tour_assignment.rst   || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst changements proposés] (MM) ||
 ||tour_algebra.rst      || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst changements proposés] (MM) ||
 ||tour_advanced.rst     || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst changements proposés] (MM) ||
-||programming.rst       || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst done (pending review)] (MM)  || ||
-||introduction.rst      || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst done] (PZ) ||
+||programming.rst       || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst done *] (BM) ||
+||introduction.rst      || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst done] (BM, PZ) ||
 ||interfaces.rst        || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interfaces_fr.rst done (pending review)] (BM) || ||
-||interactive_shell.rst || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interactive_shell_fr.rst done (pending review)] (MM) || ||
+||interactive_shell.rst || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interactive_shell_fr.rst done *] (BM) ||
 ||index.rst             || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/index_fr.rst done] (PZ)  ||
-||distributed.rst       || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst done (pending review)] (MM) || ||
+||distributed.rst       || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst done] (BM) ||
 ||conf.py               || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/conf.py done (pending review)] (MM) || ||
 ||bibliography.rst      || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst done (pending review)] (MM) || ||
 ||appendix.rst          || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/appendix_fr.rst done (pending review)] (MM) || ||
 ||afterword.rst         || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/afterword_fr.rst done (pending review)] (BM) || ||
 
-Pour faciliter la relecture, une version après rendu html des derniers fichiers marqués (MM) du tableau est disponible à 
+Ci-dessus, '*' dans la colonne relecture signifie (que le fichier a été relu mais) qu'il reste des points peu clairs, des corrections à apporter...
+
+Pour faciliter la relecture, une version après rendu html des fichiers ci-dessus est disponible à 
 http://www.eleves.ens.fr/~mezzarob/sagetutfr/html/index_fr.html
 
 == Conventions ==
