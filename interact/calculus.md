@@ -464,3 +464,33 @@ def _(x = slider(-7/10,7/10,1/20,1/2)):
     result.show(aspect_ratio=1, figsize=[3,3], axes=False)
 }}}
 attachment:sinelimit.png
+
+== The midpoint rule for numerically integrating a function of two variables ==
+by Marshall Hampton
+{{{
+var('x,y')
+R16 = RealField(16)
+npi = RDF(pi)
+sin,cos = math.sin,math.cos 
+html("<h1>The midpoint rule for a function of two variables</h1>")
+@interact
+def midpoint2d(func = input_box('y*sin(x)/x+sin(y)',type=str,label='function of x and y'), nx = slider(2,20,1,3,label='x subdivisions'), ny = slider(2,20,1,3,label='y subdivisions'), x_start = slider(-10,10,.1,0), x_end = slider(-10,10,.1,3*npi), y_start= slider(-10,10,.1,0), y_end= slider(-10,10,.1,3*npi)):
+    f = sage_eval('lambda x,y: ' + func)
+    delx = (x_end - x_start)/nx
+    dely = (y_end - y_start)/nx
+    xvals = [RDF(x_start + (i+1.0/2)*delx) for i in range(nx)]
+    yvals = [RDF(y_start + (i+1.0/2)*dely) for i in range(ny)]
+    num_approx = 0
+    cubs = []
+    darea = delx*dely
+    for xv in xvals:
+        for yv in yvals:
+            num_approx += f(xv,yv)*darea
+            cubs.append(cuboid([xv-delx/2,yv-dely/2,0],[xv+delx/2,yv+dely/2,f(xv,yv)], opacity = .5, rgbcolor = (1,0,0)))
+    html("$$\int_{"+str(R16(y_start))+"}^{"+str(R16(y_end))+"} "+ "\int_{"+str(R16(x_start))+"}^{"+str(R16(x_end))+"} "+func+"\ dx \ dy$$")
+    html('<p style="text-align: center;">Numerical approximation: ' + str(num_approx)+'</p>')
+    p1 = plot3d(f,(x,x_start,x_end),(y,y_start,y_end))
+    show(p1+sum(cubs))
+}}}
+attachment:numint2c.png
+attachment:numint2.png
