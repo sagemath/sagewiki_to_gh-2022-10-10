@@ -507,5 +507,4 @@ def midpoint2d(func = input_box('y*sin(x)/x+sin(y)',type=str,label='function of 
     p1 = plot3d(f,(x,x_start,x_end),(y,y_start,y_end))
     show(p1+sum(cubs))
 }}}
-attachment:numint2c.png
-attachment:numint2.png
+attachment:numint2d.png
