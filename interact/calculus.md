@@ -468,6 +468,21 @@ attachment:sinelimit.png
 == The midpoint rule for numerically integrating a function of two variables ==
 by Marshall Hampton
 {{{
+from sage.plot.plot3d.platonic import index_face_set
+def cuboid(v1,v2,**kwds):
+    """
+    Cuboid defined by corner points v1 and v2.
+    """
+    ptlist = []
+    for vi in (v1,v2):
+        for vj in (v1,v2):
+            for vk in (v1,v2):
+                ptlist.append([vi[0],vj[1],vk[2]])
+    f_incs = [[0, 2, 6, 4], [0, 1, 3, 2], [0, 1, 5, 4], [1, 3, 7, 5], [2, 3, 7, 6], [4, 5, 7, 6]]
+    
+    if 'aspect_ratio' not in kwds:
+        kwds['aspect_ratio'] = [1,1,1]
+    return index_face_set(f_incs,ptlist,enclosed = True, **kwds)
 var('x,y')
 R16 = RealField(16)
 npi = RDF(pi)
