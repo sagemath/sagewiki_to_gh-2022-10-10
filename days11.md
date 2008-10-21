@@ -30,7 +30,7 @@ Please add your name to the list if you're going to be coming to SD11.
  * Michael Abshoff
  * Michael Rubinstein
  * William Stein (Nov 7-9)
- * John Voight (Nov 7-9)
+ * John Voight (Nov 8-9)
 
 == Tentative Schedule ==
  * Friday, 11/07
