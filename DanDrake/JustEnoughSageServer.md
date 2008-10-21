@@ -4,8 +4,8 @@ This is intended for a server that you build and administer yourself; it's not t
 
 == Preliminaries ==
 
-* I'm using !VirtualBox OSE, version 2.0.2. I prefer the OSE version partially because I have a tiny free-software-zealot streak, but mostly because I'm lazy, and the open source edition gets packaged and maintained for Ubuntu. This means I can manage the !VirtualBox packages along with all my other Ubuntu packages without even adding a "deb" line to my `sources.list`.
-* JeOS used to be distributed as an .iso file, just like all the other flavors of Ubuntu, but now one uses [https://help.ubuntu.com/community/JeOSVMBuilder vmbuilder]; this is nice, except that it only supports KVM or Xen. I already know !VirtualBox, so I'm using that -- if you know how to get Sage running under KVM or Xen, let us know. For this project, it's enough to use the [http://cdimage.ubuntu.com/jeos/releases/hardy/release/ Hardy CD image for JeOS]; Hardy is a long-term release, so we get security updates for the server version until 2013.
+  * I'm using !VirtualBox OSE, version 2.0.2. I prefer the OSE version partially because I have a tiny free-software-zealot streak, but mostly because I'm lazy, and the open source edition gets packaged and maintained for Ubuntu. This means I can manage the !VirtualBox packages along with all my other Ubuntu packages without even adding a "deb" line to my `sources.list`.
+  * JeOS used to be distributed as an .iso file, just like all the other flavors of Ubuntu, but now one uses [https://help.ubuntu.com/community/JeOSVMBuilder vmbuilder]; this is nice, except that it only supports KVM or Xen. I already know !VirtualBox, so I'm using that -- if you know how to get Sage running under KVM or Xen, let us know. For this project, it's enough to use the [http://cdimage.ubuntu.com/jeos/releases/hardy/release/ Hardy CD image for JeOS]; Hardy is a long-term release, so we get security updates for the server version until 2013.
 
 == Setup ==
 
@@ -40,4 +40,13 @@ VBoxManage setextradata "$VMNAME" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/sag
 VBoxManage setextradata "$VMNAME" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/sage/Protocol" TCP
 }}}
 
-Now inside the VM, we'll create some unprivileged users. First, though, I created a `sageusers` group
+Now inside the VM, we'll create some unprivileged users. First, though, I created a `sageusers` group and added my main user (`sageadm`) to it:
+{{{
+sudo addgroup sageusers
+sudo adduser sageadm sageusers
+}}}
+Create an unprivileged user that defaults to the `sageusers` group:
+{{{
+sudo adduser --ingroup sageusers nb1
+}}}
+I also created `nb2`, `nb3`, `nb4`, and `nb5`. I don't know how many you really need. Next, generate a passwordless ssh key as the `sageadm` user and copy it to all the unprivileged users; it's convenient to use "`ssh-copy-id nb1@localhost`" for this.
