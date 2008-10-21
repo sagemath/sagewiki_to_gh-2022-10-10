@@ -50,3 +50,15 @@ Create an unprivileged user that defaults to the `sageusers` group:
 sudo adduser --ingroup sageusers nb1
 }}}
 I also created `nb2`, `nb3`, `nb4`, and `nb5`. I don't know how many you really need. Next, generate a passwordless ssh key as the `sageadm` user and copy it to all the unprivileged users; it's convenient to use "`ssh-copy-id nb1@localhost`" for this.
+
+== Running the server ==
+
+Download Sage to the VM and install it; I unpacked the tarball into `/opt`. Create a directory for the notebook files -- this must be outside `sageadm`'s dot-sage directory; I used `~/nbfiles`. Change the permissions so it's group-writable by the `sageusers` group. Now run the server with `directory='/home/sageadm/nbfiles'`, an appropriate `server_pool`, and so on. I've attached the actual script I use to start the notebook.
+
+== Security notes ==
+
+to come
+
+== Other things I find convenient ==
+
+to come
