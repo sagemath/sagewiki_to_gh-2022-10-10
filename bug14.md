@@ -20,5 +20,6 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
 
  1. Michael Abshoff (Merges, memory leaks, reviews)
  1. William Stein (number theory bugs; magma/sage interface bugs)
+ 1. DanDrake (notebook documentation, reviews...starting about 23:30 UTC)
 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
