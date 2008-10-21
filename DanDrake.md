@@ -8,6 +8,8 @@ I'm the main author of [http://tug.ctan.org/pkg/sagetex SageTeX], a LaTeX packag
 
 I'll be giving some talks at [:days9:Sage Days 9], and put my slides, etc, at /Days9Talks.
 
+I wrote some notes on setting up a (hopefully) secure Sage virtual machine using Ubuntu JeOS: /JustEnoughSageServer.
+
 My homepage is http://mathsci.kaist.ac.kr/~drake.
 
 ----
