@@ -73,7 +73,7 @@ A schedule for the talks should be announced during the organizational meeting o
    * we're working on a toy implementation of F5/Matrix now
  * we will port John Perry's F5 Singular and pseudo code to Sage, see: http://www.math.usm.edu/perry/Research/
    * this is done: see attachment:f5.py
-   * for a different implementation, see attachment:f5.pxd attachment:f5.pyx
+   * for a different implementation, see attachment:f5.pyx
  * additional material: http://eprint.iacr.org/2006/404.pdf
 
 === Matrix Factorisation over GF(2) ===
