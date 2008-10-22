@@ -57,7 +57,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
    * October 12: Groebner Bases (chair Ludovic Perret)
      Invited speakers:
        * Carlo Traverso: [:/CarloTraversoTalk: Groebner bases, lattices and cryptography]
-       * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: [:/EricSchostTalk: Computing with triangular families of polynomials: an overview]
+       * [http://www.csd.uwo.ca/~eschost/ Éric Schost]: [:/EricSchostTalk: Computing with triangular families of polynomials: an overview] attachment:Sage08Eric.pdf
      Contributing speakers:
        * B.  Erocal : [:/BurcinErocalTalk: SCrypt: Symbolic computation assists algebraic cryptanalysis] attachment:erocal_scrypt_sd10.pdf
        * M. Brickenstein : Secrets of Singular and PolyBoRi attachment:brickenstein_secrets.pdf
