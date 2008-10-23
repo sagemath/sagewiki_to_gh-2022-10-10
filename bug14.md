@@ -20,11 +20,18 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
 
  1. Michael Abshoff (Merges, memory leaks, reviews)
  1. William Stein (number theory bugs; magma/sage interface bugs):
-      * [http://trac.sagemath.org/sage_trac/ticket/3901 3901 -- automated doctesting elementary number theory book]
-      * [http://trac.sagemath.org/sage_trac/ticket/3900 3900 -- pickle jar]
+    * Magma
+      * [http://trac.sagemath.org/sage_trac/ticket/4241 4241 -- massive magma interface memory leaks]
+      * [http://trac.sagemath.org/sage_trac/ticket/2171 2171 -- magma matrix conversion; probably just a rebase]
+      * [http://trac.sagemath.org/sage_trac/ticket/1997 1997 -- magma control-c too aggressive]
+      * [http://trac.sagemath.org/sage_trac/ticket/4348 4348 -- get magma interface to 100% coverage]
+    * Number theory
       * [http://trac.sagemath.org/sage_trac/ticket/4347 4347 -- generalized bernoulli numbers]
-      * [http://trac.sagemath.org/sage_trac/ticket/4182 4182 -- referee (3d plotting patch)]
-      * [http://trac.sagemath.org/sage_trac/ticket/4248 4248 -- referee (3d plotting patch)]
+      * [http://trac.sagemath.org/sage_trac/ticket/3901 3901 -- automated doctesting elementary number theory book]
+    * Other
+      * [http://trac.sagemath.org/sage_trac/ticket/3900 3900 -- pickle jar]
+      * [http://trac.sagemath.org/sage_trac/ticket/3765 3765 -- parallel option for "sage -br"]
+
  1. DanDrake (notebook documentation, reviews...starting about 23:30 UTC)
  1. Alex Ghitza (ssmod bugs, modular forms)
 
