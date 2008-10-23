@@ -28,6 +28,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
     * Number theory
       * [http://trac.sagemath.org/sage_trac/ticket/4347 4347 -- generalized bernoulli numbers]
       * [http://trac.sagemath.org/sage_trac/ticket/3901 3901 -- automated doctesting elementary number theory book]
+      * [http://trac.sagemath.org/sage_trac/ticket/4337 4337 -- q-expansions on Gamma_1(N) modular forms]
     * Other
       * [http://trac.sagemath.org/sage_trac/ticket/3900 3900 -- pickle jar]
       * [http://trac.sagemath.org/sage_trac/ticket/3765 3765 -- parallel option for "sage -br"]
