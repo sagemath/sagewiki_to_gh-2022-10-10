@@ -32,7 +32,8 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
     * Other
       * [http://trac.sagemath.org/sage_trac/ticket/3900 3900 -- pickle jar]
       * [http://trac.sagemath.org/sage_trac/ticket/3765 3765 -- parallel option for "sage -br"]
-      * [http://trac.sagemath.org/sage_trac/ticket/4346 4346 -- weird linear algebra segfault]
+      * (done) [http://trac.sagemath.org/sage_trac/ticket/4346 4346 -- weird linear algebra segfault]; but note this led to 4350 and 4351...
+      * [http://trac.sagemath.org/sage_trac/ticket/4350 4350] and [http://trac.sagemath.org/sage_trac/ticket/4351 4351] -- issues related to 4346.
 
  1. DanDrake (notebook documentation, reviews...starting about 23:30 UTC)
  1. Alex Ghitza (ssmod bugs, modular forms)
