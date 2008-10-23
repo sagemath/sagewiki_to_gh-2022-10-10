@@ -34,5 +34,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
 
  1. DanDrake (notebook documentation, reviews...starting about 23:30 UTC)
  1. Alex Ghitza (ssmod bugs, modular forms)
-
+ 1. Mike Hansen
+    * Templating the Notebook
+    * [http://trac.sagemath.org/sage_trac/ticket/4330 4330 -- interfaces function_call(...) function is a total MESS]
 Many other people will hopefully participate, but didn't yet add themselves here.
