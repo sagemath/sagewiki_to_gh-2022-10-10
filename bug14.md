@@ -22,7 +22,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
  1. Craig Citro
  1. William Stein (number theory bugs; magma/sage interface bugs):
     * Magma
-      * [http://trac.sagemath.org/sage_trac/ticket/4241 4241 -- massive magma interface memory leaks]
+      * (done) [http://trac.sagemath.org/sage_trac/ticket/4241 4241 -- massive magma interface memory leaks]
       * [http://trac.sagemath.org/sage_trac/ticket/2171 2171 -- magma matrix conversion; probably just a rebase]
       * [http://trac.sagemath.org/sage_trac/ticket/1997 1997 -- magma control-c too aggressive]
       * [http://trac.sagemath.org/sage_trac/ticket/4348 4348 -- get magma interface to 100% coverage]
