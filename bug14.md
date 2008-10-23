@@ -19,6 +19,8 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
 = Participants (with area they would like to work on) =
 
  1. Michael Abshoff (Merges, memory leaks, reviews)
+ 1. Craig Citro:
+    *  * [http://trac.sagemath.org/sage_trac/ticket/4351 4351] -- issues related to 4346
  1. William Stein (number theory bugs; magma/sage interface bugs):
     * Magma
       * [http://trac.sagemath.org/sage_trac/ticket/4241 4241 -- massive magma interface memory leaks]
@@ -33,7 +35,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
       * [http://trac.sagemath.org/sage_trac/ticket/3900 3900 -- pickle jar]
       * [http://trac.sagemath.org/sage_trac/ticket/3765 3765 -- parallel option for "sage -br"]
       * (done) [http://trac.sagemath.org/sage_trac/ticket/4346 4346 -- weird linear algebra segfault]; but note this led to 4350 and 4351...
-      * [http://trac.sagemath.org/sage_trac/ticket/4350 4350] and [http://trac.sagemath.org/sage_trac/ticket/4351 4351] -- issues related to 4346.
+      * [http://trac.sagemath.org/sage_trac/ticket/4350 4350] 
 
  1. DanDrake (notebook documentation, reviews...starting about 23:30 UTC)
  1. Alex Ghitza (ssmod bugs, modular forms)
