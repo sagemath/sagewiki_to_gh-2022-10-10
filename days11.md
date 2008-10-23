@@ -6,6 +6,8 @@
 
 Organizers: William Stein, Fernando Perez, Fernando Rodriguez-Villegas, Irene Gamba, Salman Butt, Craig Citro
 
+SAGE Days 11 is being funded by the National Science Foundation (NSF) and the Institute of Computational Engineering and Sciences (ICES) and the Mathematics Department at the University of Texas at Austin.
+
 NOTE: The Supercomputing 2008 conference (officially known as SC08) is
 described here: http://sc08.supercomputing.org/  It takes place from
 November 15-21 at the Austin convention center.
