@@ -25,7 +25,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
       * (done) [http://trac.sagemath.org/sage_trac/ticket/4241 4241 -- massive magma interface memory leaks]
       * [http://trac.sagemath.org/sage_trac/ticket/2171 2171 -- magma matrix conversion; probably just a rebase]
       * [http://trac.sagemath.org/sage_trac/ticket/1997 1997 -- magma control-c too aggressive]
-      * [http://trac.sagemath.org/sage_trac/ticket/4348 4348 -- get magma interface to 100% coverage]
+      * (done) [http://trac.sagemath.org/sage_trac/ticket/4348 4348 -- get magma interface to 100% coverage]
     * Number theory
       * [http://trac.sagemath.org/sage_trac/ticket/4347 4347 -- generalized bernoulli numbers]
       * [http://trac.sagemath.org/sage_trac/ticket/3901 3901 -- automated doctesting elementary number theory book]
