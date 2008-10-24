@@ -68,7 +68,7 @@ See [http://www.loria.fr/~zimmerma/sd10_schedule.pdf the full program in pdf for
           * algorithms
          and give application examples, show their structure and explain how
          to exploit it.
-       * [http://www-calfor.lip6.fr/~renault/index.html Guénaël Renault]: [:/GuenaelRenaultTalk: Computation of the Triangular Representation of a Splitting Field]
+       * [http://www-calfor.lip6.fr/~renault/index.html Guénaël Renault]: [:/GuenaelRenaultTalk: Computation of the Triangular Representation of a Splitting Field] attachment:TalkRenault.pdf
    * October 13-15: Coding Sprints (chair Michael Abshoff)
    * October 14: SAGE Demo by Robert Bradshaw at 17h.
 
