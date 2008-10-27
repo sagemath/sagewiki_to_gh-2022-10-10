@@ -61,6 +61,18 @@ You can browse the complete source code to everything in Sage at http://www.sage
 === How do I save an object so I don't have to compute it each time I open a worksheet? ===
 The {{{save}}} and {{{load}}} commands will save and load an object, respectively.  In the notebook, the {{{DATA}}} variable is the location of the data storage area of the worksheet.  To save the object {{{my_stuff}}} in a worksheet, you could do {{{save(my_stuff, DATA+"my_stuff")}}} and to reload it, you would just do {{{my_stuff = load(my_stuff, DATA+"my_stuff")}}}
 
+
+
+=== I get an error from jsMath or the math symbols don't look right when displaying in the notebook ===
+If you see the error "It looks like jsMath failed to set up properly (error code -7).  I
+will try to keep going, but it could get ugly.", you haven't installed the TeX fonts which help jsMath render beautiful mathematics.  To get the nice TeX 
+display with jsMath, please download a set of fonts from here:
+
+[http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html]
+
+If you are on Unix, ignore the instructions on the page and just unzip 
+the fonts into your ~/.fonts directory.
+
 == Getting help ==
 === How do I get help? ===
 Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://www.sagemath.org/help.html for a listing of these resources.
@@ -99,7 +111,7 @@ sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
 #   4 - unused
 #   5 - X11
 #   6 - reboot (Do NOT set initdefault to this)
-# 
+#
 id:5:initdefault:
 }}}
  which directs your Linux distribution to boot into a graphical login screen. Comment out the line "id:5:initdefault:" and add the line "id:3:initdefault:", so that you now have something like:
@@ -111,12 +123,11 @@ id:5:initdefault:
 #   4 - unused
 #   5 - X11
 #   6 - reboot (Do NOT set initdefault to this)
-# 
+#
 # id:5:initdefault:
 id:3:initdefault:
 }}}
  Now if you reboot your system, you'll be greeted with a text based login screen. This allows you to log into your system with a text based session from within a virtual terminal, which doesn't consume as much system resources as would be the case with a graphical session. Then build your Sage source distribution from within your text based session.
-
 ----------
  * QUESTION: When I run doctests on OSX I see the following messages, but in the end Sage reports that everything went fine:
  {{{
@@ -188,8 +199,7 @@ for i in range(1, x.multiplicative_order() + 1):
     print i, x**i
 assert x*(1/x) == K.one_element()
 }}}
- To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} at the Sage prompt and hit tab, then use ?? to get more information on each function. For example:
- {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}} tells you more about the multiplicative unit element in the finite field.
+ To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} at the Sage prompt and hit tab, then use ?? to get more information on each function. For example: {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}} tells you more about the multiplicative unit element in the finite field.
 ----------
  * QUESTION: How do I make the VMware appliance for Windows automatically login as "sage"?
  * ANSWER: Follow http://ubuntu-utah.ubuntuforums.org/showthread.php?t=303319.  Short version: put in the file {{{/usr/bin/autologin}}} the text
@@ -221,8 +231,7 @@ limit maxproc 512 2048
  * ANSWER: Define two variables, for example {{{a = 5; b = 8}}}, and evaluate {{{a.__xor__(b)}}}, 13. You can also do {{{(5).__xor__(8)}}} (the parentheses are necessary so that Sage doesn't think you have a real number). There are several ways to define a function: {{{xor = lambda x, y: x.__xor__(y)}}} and then do {{{xor(3, 8)}}}. Another option, which sneaks around the Sage preparser, is {{{def xor(a,b):  return eval("%s^%s"%(a,b))}}}. You can also turn off the Sage preparser with {{{preparser(False)}}} -- then {{{^}}} will work just like in Python, and you can later turn on the preparser with {{{preparser(True)}}}. (That only works in command-line Sage; in a notebook, switch to Python mode.)
 ----------
  * QUESTION: When I try to use LaTeX in the notebook, it says it cannot find {{{fullpage.sty}}}!
- * ANSWER: That's not a question. But we can help you solve your problem. :)
- The general -- but perhaps not very helpful -- answer is that you need to install {{{fullpage.sty}}} into a directory searched by TeX. In Ubuntu (and probably many other Linux distributions), you should install the {{{texlive-latex-extra}}} package. If that's not available, try installing the {{{tetex-extra}}} package. If you are using OS X, you will have to use whatever TeX distribution you use to get {{{fullpage.sty}}} (if you use [http://www.tug.org/mactex MacTeX], it's likely already installed). If you are using the VMware image in Windows, you'll need to log into the VMware image and install {{{texlive-latex-extra}}} there.
+ * ANSWER: That's not a question. But we can help you solve your problem. :) The general -- but perhaps not very helpful -- answer is that you need to install {{{fullpage.sty}}} into a directory searched by TeX. In Ubuntu (and probably many other Linux distributions), you should install the {{{texlive-latex-extra}}} package. If that's not available, try installing the {{{tetex-extra}}} package. If you are using OS X, you will have to use whatever TeX distribution you use to get {{{fullpage.sty}}} (if you use [http://www.tug.org/mactex MacTeX], it's likely already installed). If you are using the VMware image in Windows, you'll need to log into the VMware image and install {{{texlive-latex-extra}}} there.
 = ToDo =
  * QUESTION: Sage fails to compile on OSX 10.4
  * ANSWER: Most likely resource issue.
