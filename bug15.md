@@ -21,3 +21,4 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
  1. William Stein (number theory bugs; magma/sage interface bugs):
  2. Michael Abshoff (memory leaks, merges, build issues)
  3. Timothy Clemans (notebook)
+ 4. Robert Bradshaw (coercion bugs, misc)
