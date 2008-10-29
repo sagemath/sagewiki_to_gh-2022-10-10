@@ -24,16 +24,21 @@ We have some limited funding available for participants. Please register [http:/
 
 Please add your name to the list if you're going to be coming to SD11.
 
- * Fernando Rodriguez-Villegas
- * Fernando Perez
+ * Michael Abshoff
  * Salman Butt
  * Craig Citro
+ * Inderjit Dhillon
+ * Victor Eijkhout
+ * Irene Gamba
+ * Chris Hall
  * David Harvey (Nov 7-9)
- * Michael Abshoff
+ * Fernando Perez
+ * Fernando Rodriguez-Villegas
  * Michael Rubinstein
  * William Stein (Nov 7-9)
- * John Voight (Nov 8-9)
  * Gonzalo Tornaría
+ * Robert van de Geijn
+ * John Voight (Nov 8-9)
 
 == Tentative Schedule ==
  * Friday, 11/07
