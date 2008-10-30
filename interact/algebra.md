@@ -117,6 +117,7 @@ attachment:gb3d.png
 by Marshall Hampton; requires phcpack optional package (PHCpack written by Jan Verschelde).
 The example below is a two-parameter deformation of the cyclic-6 problem.  Solution paths are tracked through the parameter homotopy.  
 {{{
+from sage.interfaces.phc import phc
 zringA.<z0,z1,z2,z3,z4,z5,a,b> = PolynomialRing(QQ,8)
 cyclic6 = [z0 + z1 + z2 + z3 + z4 + z5+a,
  z0*z1 + z1*z2 + z2*z3 + z3*z4 + z4*z5 + z5*z0,
