@@ -6,26 +6,26 @@ Sage is fully supported on the following platforms:
  * Linux on PPC (32 bit only)
  * MacOSX 10.4 and 10.5 on PPC (32 bit only)
  * MacOSX 10.4 and 10.5  on Intel (32 bit only)
- * VMWare via a 32 bit Linux image (we support a specific preconfigured image meant for use in windows).
+ * VMWare via a 32 bit Linux image (we support a specific preconfigured image meant for use in Windows).
 
-Supported means all doctests pass. If not please report the problem to the Google group sage-devel or sage-support. You might also report problems in the IRC channel #sage-devel on freenode.
+"Supported" means all doctests pass. If not, please report the problem to the Google group [http://groups.google.com/group/sage-devel sage-devel] or [http://groups.google.com/group/sage-support sage-support]. You might also report problems in the IRC channel #sage-devel on [http://freenode.net freenode].
  
-The following platforms are feasible in the short term and depend mostly on somebody who is willing to do the job. If you intend to work  on a specific port please let the Sage people know.
+The following platforms are feasible in the short term and depend mostly on somebody who is willing to do the job. If you intend to work on a specific port, please let the Sage people know.
 
- * Linux PPC 64 bit [planning, hardware access available]
- * MacOSX on PPC 64 bit [wait for next os x release, i.e. Leopard]
- * MacOSX on Intel 64 bit [wait for next os x release, i.e. Leopard]
- * Solaris 9 on Sparc 32 bit [ongoing, getting close, mabshoff is working on this]
- * Solaris 9 on Sparc 64 bit [work will start on this once the 32 bit port works]
- * Solaris 10 on Sparc 32 bit [ongoing, getting close, mabshoff is working on this]
- * Solaris 10 on Sparc 64 bit [work will start on this once the 32 bit port works]
- * Solaris 10 on x86 32 bit, Opteron/EMT64 32 bit [ongoing, getting close, mabshoff is working on this]
- * Solaris 10 on Opteron/EMT64 64 bit [work will start on this once the 32 bit port works]
+ * Linux PPC 64 bit (planning, hardware access available)
+ * MacOSX on PPC 64 bit (wait for next OS X release, i.e. Leopard)
+ * MacOSX on Intel 64 bit (wait for next OS X release, i.e. Leopard)
+ * Solaris 9 on Sparc 32 bit (ongoing, getting close, mabshoff is working on this)
+ * Solaris 9 on Sparc 64 bit (work will start on this once the 32 bit port works)
+ * Solaris 10 on Sparc 32 bit (ongoing, getting close, mabshoff is working on this)
+ * Solaris 10 on Sparc 64 bit (work will start on this once the 32 bit port works)
+ * Solaris 10 on x86 32 bit, Opteron/EMT64 32 bit (ongoing, getting close, mabshoff is working on this)
+ * Solaris 10 on Opteron/EMT64 64 bit (work will start on this once the 32 bit port works)
  * BSD support on x86, x86-64: most likely FreeBSD
  * Windows/MSVC 32 & 64 bit: monumental undertaking, estimate: 1-2 man years, but we are receiving funding to do the port
  * Windows/Cygwin: this port was dropped due to numerous problems after the 2.5.0 release, but will be resurrected as a stepping stone in the MSVC port
 
-The status of various port can be followed in the following places:
+The status of various ports can be followed in the following places:
  * the Solaris port can be followed at [:solaris:The Solaris port page].
  * the Windows ports can be followed at [:windows:The Windows port page].
  * the FreeBSD port can be followed at [:freebsd:The FreeBSD port page].
