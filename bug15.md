@@ -25,6 +25,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
     Misc.
       * make it possible to upgrade to the latest alpha version.
       * fix [http://trac.sagemath.org/sage_trac/ticket/961 #961: sage -standard fails without write permission to $SAGE_LOCAL/tmp]
+      * referee [http://trac.sagemath.org/sage_trac/ticket/3693 #3693: upgrade moinmoin to 1.7.2]
     Number Theory:
       * fix [http://trac.sagemath.org/sage_trac/ticket/4388 #4388: elliptic curves: basis_matrix command totally broken]
       * referee [http://trac.sagemath.org/sage_trac/ticket/4062 #4062: Problems with Eisenstein series code]
