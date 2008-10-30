@@ -24,7 +24,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
       * (done) fix [http://trac.sagemath.org/sage_trac/ticket/4394 #4394: magma related optional doctest failure in sage/rings/polynomial/polynomial_element.pyx]
       * (done) fix [http://trac.sagemath.org/sage_trac/ticket/4395 #4395: magma related optional doctest failure in sage/rings/quotient_ring.py] 
       * (done) fix [http://trac.sagemath.org/sage_trac/ticket/4397 #4397: optional doctest failure in sage/rings/number_field/number_field.py]
-      * fix [http://trac.sagemath.org/sage_trac/ticket/4398 #4398: magma related optional doctest failure in sage/sage/modules/free_module.py]
+      * (done) fix [http://trac.sagemath.org/sage_trac/ticket/4398 #4398: magma related optional doctest failure in sage/sage/modules/free_module.py]
       * fix [http://trac.sagemath.org/sage_trac/ticket/4399 #4399: magma related optional doctest failure in sage/matrix/matrix1.pyx]
       * fix [http://trac.sagemath.org/sage_trac/ticket/4400 #4400: magma related doctest failures in sage/interfaces/magma.py]
       * fix [http://trac.sagemath.org/sage_trac/ticket/4401 #4401: magma related optional doctest failure in sage/crypto/mq/mpolynomialsystem.py]
