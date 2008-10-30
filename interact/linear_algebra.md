@@ -1,6 +1,8 @@
 = Sage Interactions - Linear Algebra =
 goto [:interact:interact main page]
 
+[[TableOfContents]]
+
 == Numerical instability of the classical Gram-Schmidt algorithm ==
 by Marshall Hampton (tested by William Stein, who thinks this is really nice!)
 {{{
