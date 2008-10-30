@@ -24,3 +24,4 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
  1. Robert Bradshaw (coercion bugs, misc)
  1. Craig Citro (morning only -- http://trac.sagemath.org/sage_trac/ticket/4357)
  1. David Joyner (http://trac.sagemath.org/sage_trac/ticket/4383, but I won't have time until late afternoon)
+ 1. John Cremona (http://trac.sagemath.org/sage_trac/ticket/4392)
