@@ -59,7 +59,6 @@ def gstest(precision = slider(range(3,53), default = 10), a1 = input_box([1,1/10
 }}}
 attachment:GramSchmidt.png
 
-
 == Linear transformations ==
 by Jason Grout
 
@@ -76,6 +75,32 @@ def linear_transformation(theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, defaul
     show(v.plot(rgbcolor=(1,0,0))+w.plot(rgbcolor=(0,0,1))+circles,aspect_ratio=1)
 }}}
 attachment:Linear-Transformations.png
+
+== Gerschgorin Circle Theorem ==
+by Marshall Hampton
+{{{
+from scipy import linalg
+html('<h2>The Gerschgorin circle theorem</h2>')
+@interact
+def Gerschgorin(A = input_grid(4, 4, default=[[10,1,1,0],[-1,9,0,.1],[1,0,2,.3],[-.5
+,0,-.3,1]], label='A = ', to_value=lambda x:x, width=4)):
+    print jsmath('A = ' + latex(matrix(RealField(10),A)))
+    eigs = [CDF(x) for x in linalg.eigvals(matrix(A).numpy())]
+    eigpoints = points([(real(q),imag(q)) for q in eigs],pointsize = 10, rgbcolor = (0,0,0))
+    centers = [(real(q),imag(q)) for q in [A[i][i] for i in range(4)]]
+    radii_row = [sum([abs(A[i][j]) for j in range(i)+range(i+1,4)]) for i in range(4)]
+    radii_col = [sum([abs(A[j][i]) for j in range(i)+range(i+1,4)]) for i in range(4)]
+    x_min = min([centers[i][0]-radii_row[i] for i in range(4)]+[centers[i][0]-radii_col[i] for i in range(4)])
+    x_max = max([centers[i][0]+radii_row[i] for i in range(4)]+[centers[i][0]+radii_col[i] for i in range(4)])
+    y_min = min([centers[i][1]-radii_row[i] for i in range(4)]+[centers[i][1]-radii_col[i] for i in range(4)])
+    y_max = max([centers[i][1]+radii_row[i] for i in range(4)]+[centers[i][1]+radii_col[i] for i in range(4)])
+    scale = max([(x_max-x_min),(y_max-y_min)])
+    scale = 7/scale
+    row_circles = sum([circle(centers[i],radii_row[i],fill=True, alpha = .3) for i in range(4)])
+    col_circles = sum([circle(centers[i],radii_col[i],fill=True, rgbcolor = (1,1,0), alpha = .3) for i in range(4)])
+    show(eigpoints+row_circles+col_circles, figsize = [(x_max-x_min)*scale,(y_max-y_min)*scale], xmin = x_min, xmax=x_max, ymin = y_min, ymax = y_max)
+}}}
+attachment:gerschgorin.png
 
 == Singular value decomposition ==
 by Marshall Hampton
