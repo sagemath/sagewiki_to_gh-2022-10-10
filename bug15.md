@@ -22,7 +22,8 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
     Magma:
       * fix [http://trac.sagemath.org/sage_trac/ticket/4393 #4393: magma related optional doctest failure in sage/structure/element.pyx]
       * fix [http://trac.sagemath.org/sage_trac/ticket/4394 #4394: magma related optional doctest failure in sage/rings/polynomial/polynomial_element.pyx]
-      * fix [http://trac.sagemath.org/sage_trac/ticket/4395 #4395: magma related optional doctest failure in sage/rings/quotient_ring.py]
+      * fix [http://trac.sagemath.org/sage_trac/ticket/4395 #4395: magma related optional doctest failure in sage/rings/quotient_ring.py] 
+      * fix [http://trac.sagemath.org/sage_trac/ticket/4397 #4397: optional doctest failure in sage/rings/number_field/number_field.py]
       * referee/integrate [http://trac.sagemath.org/sage_trac/ticket/4290 #4290: function to turn plane curves of genus one into elliptic curves]
     Misc.
       * fix [http://trac.sagemath.org/sage_trac/ticket/4396 #4396: make it possible to upgrade to the latest alpha version.]
