@@ -24,7 +24,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
       * fix [http://trac.sagemath.org/sage_trac/ticket/4394 #4394: magma related optional doctest failure in sage/rings/polynomial/polynomial_element.pyx]
       * referee/integrate [http://trac.sagemath.org/sage_trac/ticket/4290 #4290: function to turn plane curves of genus one into elliptic curves]
     Misc.
-      * make it possible to upgrade to the latest alpha version.
+      * fix [http://trac.sagemath.org/sage_trac/ticket/4396 #4396: make it possible to upgrade to the latest alpha version.]
       * fix [http://trac.sagemath.org/sage_trac/ticket/961 #961: sage -standard fails without write permission to $SAGE_LOCAL/tmp]
       * referee [http://trac.sagemath.org/sage_trac/ticket/3693 #3693: upgrade moinmoin to 1.7.2]
     Number Theory:
