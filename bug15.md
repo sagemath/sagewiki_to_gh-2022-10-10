@@ -30,6 +30,8 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
       * fix [http://trac.sagemath.org/sage_trac/ticket/4401 #4401: magma related optional doctest failure in sage/crypto/mq/mpolynomialsystem.py]
       * fix [http://trac.sagemath.org/sage_trac/ticket/4401 #4402: magma related optional doctest failure in tut.tex]
       * referee/integrate [http://trac.sagemath.org/sage_trac/ticket/4290 #4290: function to turn plane curves of genus one into elliptic curves]
+      * fix [http://trac.sagemath.org/sage_trac/ticket/4236 #4236: boolean ring conversions]
+      * fix [http://trac.sagemath.org/sage_trac/ticket/4237 #4237: finite field matrix conversions]
     Misc.
       * fix [http://trac.sagemath.org/sage_trac/ticket/4396 #4396: make it possible to upgrade to the latest alpha version.]
       * fix [http://trac.sagemath.org/sage_trac/ticket/961 #961: sage -standard fails without write permission to $SAGE_LOCAL/tmp]
