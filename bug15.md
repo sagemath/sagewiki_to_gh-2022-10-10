@@ -20,7 +20,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
 
  1. William Stein (number theory bugs; magma/sage interface bugs):
     Magma:
-      * fix [http://trac.sagemath.org/sage_trac/ticket/4393 #4393: magma related optional doctest failure in sage/structure/element.pyx]
+      * (done) fix [http://trac.sagemath.org/sage_trac/ticket/4393 #4393: magma related optional doctest failure in sage/structure/element.pyx]
       * fix [http://trac.sagemath.org/sage_trac/ticket/4394 #4394: magma related optional doctest failure in sage/rings/polynomial/polynomial_element.pyx]
       * fix [http://trac.sagemath.org/sage_trac/ticket/4395 #4395: magma related optional doctest failure in sage/rings/quotient_ring.py] 
       * fix [http://trac.sagemath.org/sage_trac/ticket/4397 #4397: optional doctest failure in sage/rings/number_field/number_field.py]
