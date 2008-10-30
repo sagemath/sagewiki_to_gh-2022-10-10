@@ -33,6 +33,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
       * fix [http://trac.sagemath.org/sage_trac/ticket/4388 #4388: elliptic curves: basis_matrix command totally broken]
       * referee [http://trac.sagemath.org/sage_trac/ticket/4062 #4062: Problems with Eisenstein series code]
       * referee [http://trac.sagemath.org/sage_trac/ticket/4392 #4392: smallest_integer() is broken]
+      * fix [http://trac.sagemath.org/sage_trac/ticket/1234 #1234: analytic_rank crashes]
 
  1. Michael Abshoff (memory leaks, merges, build issues)
  1. Timothy Clemans (notebook)
