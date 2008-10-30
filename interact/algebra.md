@@ -159,7 +159,7 @@ def tbp_tracker(show_eqs = checkbox(False),a = slider(-1,1,1/100,1/100), b = sli
     show(sum(slines2d)+sum(mpts), figsize = [5,5], xmin = -scale, xmax=scale, ymin=-scale,ymax=scale, axes = false)
     if show_eqs:
         pols = def_cyclic(a,b)
-        for i in len(pols):
+        for i in range(len(pols)):
             show(pols[i])
 }}}
 attachment:pathtrack.png
