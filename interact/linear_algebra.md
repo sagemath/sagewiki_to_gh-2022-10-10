@@ -84,23 +84,43 @@ by Marshall Hampton
 from scipy import linalg
 html('<h2>The Gerschgorin circle theorem</h2>')
 @interact
-def Gerschgorin(A = input_grid(4, 4, default=[[10,1,1,0],[-1,9,0,.1],[1,0,2,.3],[-.5
-,0,-.3,1]], label='A = ', to_value=lambda x:x, width=4)):
+def Gerschgorin(Ain = input_box(default='[[10,1,1/10,0],[-1,9,0,1],[1,0,2,3/10],[-.5,0,-.3,1]]', type = str, label = 'A = '), an_size = slider(1,100,1,1.0)):
+    A = sage_eval(Ain)
+    size = len(A)
     print jsmath('A = ' + latex(matrix(RealField(10),A)))
-    eigs = [CDF(x) for x in linalg.eigvals(matrix(A).numpy())]
-    eigpoints = points([(real(q),imag(q)) for q in eigs],pointsize = 10, rgbcolor = (0,0,0))
-    centers = [(real(q),imag(q)) for q in [A[i][i] for i in range(4)]]
-    radii_row = [sum([abs(A[i][j]) for j in range(i)+range(i+1,4)]) for i in range(4)]
-    radii_col = [sum([abs(A[j][i]) for j in range(i)+range(i+1,4)]) for i in range(4)]
-    x_min = min([centers[i][0]-radii_row[i] for i in range(4)]+[centers[i][0]-radii_col[i] for i in range(4)])
-    x_max = max([centers[i][0]+radii_row[i] for i in range(4)]+[centers[i][0]+radii_col[i] for i in range(4)])
-    y_min = min([centers[i][1]-radii_row[i] for i in range(4)]+[centers[i][1]-radii_col[i] for i in range(4)])
-    y_max = max([centers[i][1]+radii_row[i] for i in range(4)]+[centers[i][1]+radii_col[i] for i in range(4)])
-    scale = max([(x_max-x_min),(y_max-y_min)])
-    scale = 7/scale
-    row_circles = sum([circle(centers[i],radii_row[i],fill=True, alpha = .3) for i in range(4)])
-    col_circles = sum([circle(centers[i],radii_col[i],fill=True, rgbcolor = (1,1,0), alpha = .3) for i in range(4)])
-    show(eigpoints+row_circles+col_circles, figsize = [(x_max-x_min)*scale,(y_max-y_min)*scale], xmin = x_min, xmax=x_max, ymin = y_min, ymax = y_max)
+    A = matrix(RealField(10),A)
+    B = [[0 for i in range(size)] for j in range(size)]
+    for i in range(size):
+        B[i][i] = A[i][i]
+    B = matrix(B)
+    frames = []
+
+    centers = [(real(q),imag(q)) for q in [A[i][i] for i in range(size)]]
+    radii_row = [sum([abs(A[i][j]) for j in range(i)+range(i+1,size)]) for i in range(size)]
+    radii_col = [sum([abs(A[j][i]) for j in range(i)+range(i+1,size)]) for i in range(size)]
+    x_min = min([centers[i][0]-radii_row[i] for i in range(size)]+[centers[i][0]-radii_col[i] for i in range(size)])
+    x_max = max([centers[i][0]+radii_row[i] for i in range(size)]+[centers[i][0]+radii_col[i] for i in range(size)])
+    y_min = min([centers[i][1]-radii_row[i] for i in range(size)]+[centers[i][1]-radii_col[i] for i in range(size)])
+    y_max = max([centers[i][1]+radii_row[i] for i in range(size)]+[centers[i][1]+radii_col[i] for i in range(size)])
+
+    if an_size > 1: 
+        t_range= srange(0,1+1/an_size,1/an_size)
+    else:
+        t_range = [1]
+    for t in t_range:
+        C = t*A + (1-t)*B
+        eigs = [CDF(x) for x in linalg.eigvals(C.numpy())]
+        eigpoints = points([(real(q),imag(q)) for q in eigs],pointsize = 10, rgbcolor = (0,0,0))
+        centers = [(real(q),imag(q)) for q in [A[i][i] for i in range(size)]]
+        radii_row = [sum([abs(C[i][j]) for j in range(i)+range(i+1,size)]) for i in range(size)]
+        radii_col = [sum([abs(C[j][i]) for j in range(i)+range(i+1,size)]) for i in range(size)]
+        scale = max([(x_max-x_min),(y_max-y_min)])
+        scale = 7/scale
+        row_circles = sum([circle(centers[i],radii_row[i],fill=True, alpha = .3) for i in range(size)])
+        col_circles = sum([circle(centers[i],radii_col[i],fill=True, rgbcolor = (1,0,0), alpha = .3) for i in range(size)])
+        ft = eigpoints+row_circles+col_circles
+        frames.append(ft)
+    show(animate(frames,figsize = [(x_max-x_min)*scale,(y_max-y_min)*scale], xmin = x_min, xmax=x_max, ymin = y_min, ymax = y_max))
 }}}
 attachment:Gerschanimate.png
 
