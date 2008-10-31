@@ -27,7 +27,7 @@ The status of various ports can be followed in the following places:
  * the Solaris port can be followed at [:solaris:The Solaris port page].
  * the Windows ports can be followed at [:windows:The Windows port page].
  * the FreeBSD port can be followed at [:freebsd:The FreeBSD port page].
- * a AIX 64 bit port is in the early stages
- * a Linux ppc64 bit port has been done and is waiting to be merged back into mainline
- * a Linux Mips64 port is in the early stages
+ * the AIX 64 bit port is in the early stages - it can be followed at [:AIX64:The AIX 64 bit port page]
+ * the Linux ppc64 port can be followed at [:linuxPPC64:The Linux PPC64 port page]
+ * the Linux Mips64 port can be followed at [:SiCortex:The SiCortex port page].
  * the 64 bit MacIntel port is ongoing, but needs some more work
