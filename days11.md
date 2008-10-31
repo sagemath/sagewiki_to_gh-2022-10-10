@@ -41,6 +41,7 @@ Please add your name to the list if you're going to be coming to SD11.
  * Kimberly Hopkins
  * Flourent Jouve
  * Martin Mereb
+ * Travis Oliphant
  * Fernando Perez
  * Rishikesh
  * Miguel Rodriguez
