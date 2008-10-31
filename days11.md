@@ -31,6 +31,7 @@ Please add your name to the list if you're going to be coming to SD11.
  * Salman Butt
  * Craig Citro
  * Yingda Cheng
+ * Timothy Clemans
  * Inderjit Dhillon
  * Victor Eijkhout
  * Irene Gamba
