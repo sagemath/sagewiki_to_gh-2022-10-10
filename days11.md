@@ -79,7 +79,7 @@ Please add your name to the list if you're going to be coming to SD11.
  * Sunday, November 9
    * 10:00 - 10:45: Enumerating Totally Real Fields using DSAGE, Voight
    * 10:45 - 11:00: Break
-   * 11:00 - 11:45: Computing Bernoulli numbers, Harvey
+   * 11:00 - 11:45: Large-scale verification of Vandiver's conjecture, Harvey
    * 11:45 - 01:00: Lunch
    * 01:00 - end of day: Work/informal talks
 
