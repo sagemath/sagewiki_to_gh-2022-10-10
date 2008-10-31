@@ -41,3 +41,45 @@ def cobwebber(f_text = input_box(default = "3.8*x*(1-x)",label = "function", typ
     show(cobweb(f, start_val, iterations = its))
 }}}
 attachment:cobweb.png
+
+== Cythonized Logistic Orbit Map ==
+By Marshall Hampton
+{{{
+%cython
+cpdef double logorb(double k,long N,double x0):
+    cdef double x = x0
+    cdef long i 
+    for i from 1 <= i <= N:
+        x = k*x*(1-x)
+    return x
+
+cpdef logtraj(double k,long N, double x0):
+    cdef double x = x0
+    xvals = []
+    cdef long i 
+    for i from 1 <= i <= N:
+        x = k*x*(1-x)
+        xvals.append(x)
+    return xvals
+}}}
+{{{
+html('<h2>Orbit diagram of the logistic map</h2>')
+@interact
+def logistic_bifs(k_min = slider(0.0,4.0,.001,3.5), k_max = slider(0.0,4.0,.001,4.0)):
+    tkmax = max(k_min, k_max)
+    tkmin = min(k_min, k_max)
+    dk = (tkmax - tkmin)/1000.0
+    xpts = []
+    x = .5
+    for k in srange(tkmin,tkmax,dk):
+        x = logorb(k,100,x)
+        ks = logtraj(k,12,x)
+        if max(ks)-min(ks) < .001:
+            xpts.append([k,x])
+        else:
+            x = logorb(k,1000,x)
+            ks = logtraj(k,100,x)
+            xpts = xpts + [[k,q] for q in ks]
+    show(points(xpts, pointsize = 1), figsize = [6,6])
+}}}
+attachment:logisticorbits.png
