@@ -56,17 +56,36 @@ Please add your name to the list if you're going to be coming to SD11.
  * Robert van de Geijn
  * John Voight (Nov 8-9)
  * Felipe Voloch
+
 == Tentative Schedule ==
- * Friday, 11/07
-  * Morning talk: Introduction to SAGE, Craig Citro
-  * Coding
- * Saturday, 11/08
-  * Morning talk: Parallel Computation for Pure Mathematics at TACC, Salman Butt
-  * Coding
- * Sunday, 11/09
-  * Coding
- * Monday, 11/10
-  * Wrap up
+ * Friday
+   * 09:30 - 10:15: Intro to SAGE, Citro
+   * 10:15 - 10:30: Break
+   * 10:30 - 11:15: Computing on TACC, Eijkhout
+   * 11:15 - 11:30: Break
+   * 11:30 - 12:15: TBA, Oliphant
+   * 12:15 - 02:00: Lunch break
+   * 02:00 - 02:45: Symmetric eigenvalue problem, Dhillon
+   * 02:45 - 03:00: Break
+   * 03:00 - 05:00: Lab session for TACC/others work
+
+ * Saturday
+   * 10:00 - 10:45: Beautiful Parallel Code, van de Geijn
+   * 10:45 - 11:00: Break
+   * 11:00 - 11:45: Introduction to L-functions, Rubinstein
+   * 11:45 - 01:00: Lunch
+   * 01:00 - end of day: Work/informal talks
+
+ * Sunday
+   * 10:00 - 10:45: Enumerating Totally Real Fields using DSAGE, Voight
+   * 10:45 - 11:00: Break
+   * 11:00 - 11:45: Computing Bernoulli numbers, Harvey
+   * 11:45 - 01:00: Lunch
+   * 01:00 - end of day: Work/informal talks
+
+ * Monday
+   * 10:00 - 11:00: Work
+   * 11:00 - 12:00: Summary/Recap/End of workshop 
 
 == Hotel Info ==
 
