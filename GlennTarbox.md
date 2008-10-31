@@ -1,8 +1,7 @@
 ##master-page:HomepageTemplate
 #format wiki
 == Glenn Tarbox ==
-
-Refs: Unperson
+glenn@tarbox.org
 
 ----
-CategoryHomepage
+ . CategoryHomepage
