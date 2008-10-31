@@ -103,6 +103,7 @@ def Gerschgorin(A = input_grid(4, 4, default=[[10,1,1,0],[-1,9,0,.1],[1,0,2,.3],
     show(eigpoints+row_circles+col_circles, figsize = [(x_max-x_min)*scale,(y_max-y_min)*scale], xmin = x_min, xmax=x_max, ymin = y_min, ymax = y_max)
 }}}
 attachment:gerschgorin.png
+attachment:Gersch.gif
 
 == Singular value decomposition ==
 by Marshall Hampton
