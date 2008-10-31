@@ -80,7 +80,7 @@ attachment:Linear-Transformations.png
 
 == Gerschgorin Circle Theorem ==
 by Marshall Hampton.  This animated version requires convert (imagemagick) to be installed, but it can easily be modified to a static version.
-The animation illustrates the idea behind the stronger version of Gercshgorin's theorem, which says that if the disks around the eigenvalues are disjoint then there is one eigenvalue per disk.  The proof is by continuity of the eigenvalues under a homotopy to a diagonal matrix. 
+The animation illustrates the idea behind the stronger version of Gerschgorin's theorem, which says that if the disks around the eigenvalues are disjoint then there is one eigenvalue per disk.  The proof is by continuity of the eigenvalues under a homotopy to a diagonal matrix. 
 {{{
 from scipy import linalg
 html('<h2>The Gerschgorin circle theorem</h2>')
