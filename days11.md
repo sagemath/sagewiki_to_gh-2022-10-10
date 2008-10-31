@@ -6,7 +6,7 @@
 
 Organizers: William Stein, Fernando Perez, Fernando Rodriguez-Villegas, Irene Gamba, Salman Butt, Craig Citro
 
-SAGE Days 11 is being funded by the National Science Foundation (NSF) and the Institute of Computational Engineering and Sciences (ICES) and the Mathematics Department at the University of Texas at Austin.
+Sage Days 11 is being funded by the National Science Foundation (NSF) and the Institute of Computational Engineering and Sciences (ICES) and the Mathematics Department at the University of Texas at Austin.
 
 NOTE: The Supercomputing 2008 conference (officially known as SC08) is
 described here: http://sc08.supercomputing.org/  It takes place from
@@ -60,7 +60,7 @@ Please add your name to the list if you're going to be coming to SD11.
 
 == Tentative Schedule ==
  * Friday, November 7
-   * 09:30 - 10:15: Intro to SAGE, Citro
+   * 09:30 - 10:15: Intro to Sage, Citro
    * 10:15 - 10:30: Break
    * 10:30 - 11:15: Computing on TACC, Eijkhout
    * 11:15 - 11:30: Break
@@ -78,7 +78,7 @@ Please add your name to the list if you're going to be coming to SD11.
    * 01:00 - end of day: Work/informal talks
 
  * Sunday, November 9
-   * 10:00 - 10:45: Enumerating Totally Real Fields using DSAGE, Voight
+   * 10:00 - 10:45: Enumerating Totally Real Fields using DSage, Voight
    * 10:45 - 11:00: Break
    * 11:00 - 11:45: Large-Scale Verification of Vandiver's Conjecture, Harvey
    * 11:45 - 01:00: Lunch
