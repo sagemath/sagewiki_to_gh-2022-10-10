@@ -24,22 +24,37 @@ We have some limited funding available for participants. Please register [http:/
 
 Please add your name to the list if you're going to be coming to SD11.
 
+ * Silvia Adduci
+ * Evan Archer
  * Michael Abshoff
+ * Herivelto Borges
  * Salman Butt
  * Craig Citro
+ * Yingda Cheng
  * Inderjit Dhillon
  * Victor Eijkhout
  * Irene Gamba
+ * Brian Granger
  * Chris Hall
+ * Jonathan Hanke
  * David Harvey (Nov 7-9)
+ * Kimberly Hopkins
+ * Flourent Jouve
+ * Martin Mereb
  * Fernando Perez
+ * Rishikesh
+ * Miguel Rodriguez
  * Fernando Rodriguez-Villegas
  * Michael Rubinstein
+ * Adriana Salerno
+ * Phillip Schmitz
+ * Sourav Sen Gupta
  * William Stein (Nov 7-9)
+ * Chia-Liang Sun
  * Gonzalo Tornaría
  * Robert van de Geijn
  * John Voight (Nov 8-9)
-
+ * Felipe Voloch
 == Tentative Schedule ==
  * Friday, 11/07
   * Morning talk: Introduction to SAGE, Craig Citro
