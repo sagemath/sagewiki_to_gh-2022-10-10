@@ -58,7 +58,7 @@ Please add your name to the list if you're going to be coming to SD11.
  * Felipe Voloch
 
 == Tentative Schedule ==
- * Friday
+ * Friday, November 7
    * 09:30 - 10:15: Intro to SAGE, Citro
    * 10:15 - 10:30: Break
    * 10:30 - 11:15: Computing on TACC, Eijkhout
@@ -69,21 +69,21 @@ Please add your name to the list if you're going to be coming to SD11.
    * 02:45 - 03:00: Break
    * 03:00 - 05:00: Lab session for TACC/others work
 
- * Saturday
+ * Saturday, November 8
    * 10:00 - 10:45: Beautiful Parallel Code, van de Geijn
    * 10:45 - 11:00: Break
    * 11:00 - 11:45: Introduction to L-functions, Rubinstein
    * 11:45 - 01:00: Lunch
    * 01:00 - end of day: Work/informal talks
 
- * Sunday
+ * Sunday, November 9
    * 10:00 - 10:45: Enumerating Totally Real Fields using DSAGE, Voight
    * 10:45 - 11:00: Break
    * 11:00 - 11:45: Computing Bernoulli numbers, Harvey
    * 11:45 - 01:00: Lunch
    * 01:00 - end of day: Work/informal talks
 
- * Monday
+ * Monday, November 10
    * 10:00 - 11:00: Work
    * 11:00 - 12:00: Summary/Recap/End of workshop 
 
