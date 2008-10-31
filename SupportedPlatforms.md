@@ -11,10 +11,8 @@ Sage is fully supported on the following platforms:
 "Supported" means all doctests pass. If not, please report the problem to the Google group [http://groups.google.com/group/sage-devel sage-devel] or [http://groups.google.com/group/sage-support sage-support]. You can also report problems in the IRC channel #sage-devel on [http://freenode.net freenode].
  
 The following platforms are feasible in the short term and depend mostly on somebody who is willing to do the job. If you intend to work on a specific port, please let the Sage people know.
+ard)
 
- * Linux PPC 64 bit (planning, hardware access available)
- * MacOSX on PPC 64 bit (wait for next OS X release, i.e. Leopard)
- * MacOSX on Intel 64 bit (wait for next OS X release, i.e. Leopard)
  * Solaris 9 on Sparc 32 bit (ongoing, getting close, mabshoff is working on this)
  * Solaris 9 on Sparc 64 bit (work will start on this once the 32 bit port works)
  * Solaris 10 on Sparc 32 bit (ongoing, getting close, mabshoff is working on this)
@@ -29,7 +27,7 @@ The status of various ports can be followed in the following places:
  * the Solaris port can be followed at [:solaris:The Solaris port page].
  * the Windows ports can be followed at [:windows:The Windows port page].
  * the FreeBSD port can be followed at [:freebsd:The FreeBSD port page].
-
-Wanted/wishlist:
-
- * AIX 64 bit [access to hardware missing]
+ * a AIX 64 bit port is in the early stages
+ * a Linux ppc64 bit port has been done and is waiting to be merged back into mainline
+ * a Linux Mips64 port is in the early stages
+ * the 64 bit MacIntel port is ongoing, but needs some more work
