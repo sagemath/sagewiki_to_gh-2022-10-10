@@ -68,7 +68,8 @@ Please add your name to the list if you're going to be coming to SD11.
    * 12:15 - 02:00: Lunch break
    * 02:00 - 02:45: Symmetric eigenvalue problem, Dhillon
    * 02:45 - 03:00: Break
-   * 03:00 - 05:00: Lab session for TACC/others work
+   * 03:00 - 05:00: Lab session for TACC/Work
+   * 05:00 - 07:00: Linear algebra Birds of a Feather/Work
 
  * Saturday, November 8
    * 10:00 - 10:45: Beautiful Parallel Code, van de Geijn
