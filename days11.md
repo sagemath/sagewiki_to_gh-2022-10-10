@@ -76,7 +76,7 @@ Please add your name to the list if you're going to be coming to SD11.
    * 10:00 - 10:45: Beautiful Parallel Code, van de Geijn
    * 10:45 - 11:00: Break
    * 11:00 - 11:45: Introduction to $L$-functions, Rubinstein
-   * 11:45 - 01:00: Lunch
+   * 11:45 - 01:00: Lunch break
    * 01:00 - end of day: Work/informal talks
 
  * Sunday, November 9
@@ -84,7 +84,7 @@ Please add your name to the list if you're going to be coming to SD11.
    * 10:00 - 10:45: Enumerating Totally Real Fields using DSage, Voight
    * 10:45 - 11:00: Break
    * 11:00 - 11:45: Large-Scale Verification of Vandiver's Conjecture, Harvey
-   * 11:45 - 01:00: Lunch
+   * 11:45 - 01:00: Lunch break
    * 01:00 - end of day: Work/informal talks
 
  * Monday, November 10
