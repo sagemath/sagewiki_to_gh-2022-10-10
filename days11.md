@@ -64,7 +64,8 @@ Please add your name to the list if you're going to be coming to SD11.
    * 10:15 - 10:30: Break
    * 10:30 - 11:15: Computing on TACC, Eijkhout
    * 11:15 - 11:30: Break
-   * 11:30 - 12:15: TBA, Oliphant
+   * 11:30 - 12:15: Overview of Enthought Technologies: NumPy, SciPy, and the Enthought
+Tool Suite, Oliphant
    * 12:15 - 02:00: Lunch break
    * 02:00 - 02:45: Symmetric eigenvalue problem, Dhillon
    * 02:45 - 03:00: Break
