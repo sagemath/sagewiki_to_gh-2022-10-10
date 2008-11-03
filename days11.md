@@ -30,7 +30,7 @@ Please add your name to the list if you're going to be coming to SD11.
  * Herivelto Borges, UT-Austin
  * Salman Butt, UT-Austin
  * Craig Citro, UCLA
- * Yingda Cheng, UT-Austin,
+ * Yingda Cheng, UT-Austin
  * Timothy Clemans, Sage
  * Inderjit Dhillon, UT-Austin
  * Victor Eijkhout, UT-Austin
