@@ -24,39 +24,39 @@ We have some limited funding available for participants. Please register [http:/
 
 Please add your name to the list if you're going to be coming to SD11.
 
- * Silvia Adduci
- * Evan Archer
- * Michael Abshoff
- * Herivelto Borges
- * Salman Butt
- * Craig Citro
- * Yingda Cheng
- * Timothy Clemans
- * Inderjit Dhillon
- * Victor Eijkhout
- * Irene Gamba
- * Brian Granger
- * Chris Hall
- * Jonathan Hanke
- * David Harvey (Nov 7-9)
- * Kimberly Hopkins
- * Flourent Jouve
- * Martin Mereb
- * Travis Oliphant
- * Fernando Perez
- * Rishikesh
- * Miguel Rodriguez
- * Fernando Rodriguez-Villegas
- * Michael Rubinstein
- * Adriana Salerno
- * Phillip Schmitz
- * Sourav Sen Gupta
- * William Stein (Nov 7-9)
- * Chia-Liang Sun
- * Gonzalo Tornaría
- * Robert van de Geijn
- * John Voight (Nov 8-9)
- * Felipe Voloch
+ * Silvia Adduci, UT-Austin
+ * Evan Archer, UT-Austin
+ * Michael Abshoff, TU Dortmund
+ * Herivelto Borges, UT-Austin
+ * Salman Butt, UT-Austin
+ * Craig Citro, UCLA
+ * Yingda Cheng, UT-Austin,
+ * Timothy Clemans, Sage
+ * Inderjit Dhillon, UT-Austin
+ * Victor Eijkhout, UT-Austin
+ * Irene Gamba, UT-Austin
+ * Brian Granger, Cal Poly San Luis Obispo
+ * Chris Hall, University of Michigan
+ * Jonathan Hanke, University of Georgia, Athens
+ * David Harvey (Nov 7-9), NYU
+ * Kimberly Hopkins, UT-Austin
+ * Flourent Jouve, UT-Austin
+ * Martin Mereb, UT-Austin
+ * Travis Oliphant, Enthought
+ * Fernando Perez, Berkeley
+ * Rishikesh, University of Waterloo
+ * Miguel Rodriguez, UT-Austin
+ * Fernando Rodriguez-Villegas, UT-Austin
+ * Michael Rubinstein, University of Waterloo
+ * Adriana Salerno, UT-Austin
+ * Phillip Schmitz, UT-Austin
+ * Sourav Sen Gupta, University of Washington
+ * William Stein (Nov 7-9), University of Washington
+ * Chia-Liang Sun, UT-Austin
+ * Gonzalo Tornaría, Universidad de la República, Uruguay
+ * Robert van de Geijn, UT-Austin
+ * John Voight (Nov 8-9), University of Vermont
+ * Felipe Voloch, UT-Austin
 
 == Tentative Schedule ==
  * Friday, November 7
