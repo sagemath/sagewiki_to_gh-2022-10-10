@@ -1,5 +1,7 @@
 = Sage Days 11 =
+
 == Special functions and computational number theory meet scientific computing ==
+
 == November 7 -- 10, 2008, Austin, Texas ==
 Organizers: William Stein, Fernando Perez, Fernando Rodriguez-Villegas, Irene Gamba, Salman Butt, Craig Citro
 
@@ -84,7 +86,7 @@ Please add your name to the list if you're going to be coming to SD11.
 A block of rooms has been reserved for us at the Doubletree Guest Suites, 303 W. 15th St, Austin, Texas. [http://maps.google.com/maps?f=q&hl=en&geocode=&q=doubletree,+15th+st,+austin,+texas&ie=UTF8&ll=30.27986,-97.741971&spn=0.020161,0.025878&z=15 Here] is a link to a google maps view of the hotel.
 
 == Ground Transportation ==
-'''NOTE''': Capital Metro bus drivers are expected to go on strike November 5, 2008. Some core routes will still be available from 6am to 7:30pm daily and all UT shuttles will continue to run as usual. No fares will be charged during the strike. '''BUT''' the Airport Flyer will not be running. If the strike is still going on when you arrive, your best bet may be to take a cab or shared-ride van. We will update this space as we get more information.
+'''NOTE: Capital Metro bus drivers are expected to go on strike November 5, 2008. Some core routes will still be available from 6am to 7:30pm daily and all UT shuttles will continue to run as usual. No fares will be charged during the strike. BUT the Airport Flyer will not be running. If the strike is still going on when you arrive, your best bet may be to take a cab or shared-ride van. We will update this space as we get more information.'''
 
 Austin's bus system is run by [http://www.capmetro.org/ Capital Metro] which has a number of bus routes that service the UT campus. UT shuttle buses are marked by white and burnt orange buses that use letters for their route as opposed to numbers. UT shuttles are free to ride.
 
