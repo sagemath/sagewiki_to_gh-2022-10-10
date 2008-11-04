@@ -54,16 +54,16 @@ Please add your name to the list if you're going to be coming to SD11.
 
 == Tentative Schedule ==
  * Friday, November 7
-  * 09:30 - 10:15: Intro to Sage, Citro
+  * 09:30 - 10:15: Intro to Sage, Citro, RLM 9.166
   * 10:15 - 10:30: Break
-  * 10:30 - 11:15: Computing on TACC, Eijkhout
+  * 10:30 - 11:15: Computing on TACC, Eijkhout, RLM 9.166
   * 11:15 - 11:30: Break
-  * 11:30 - 12:15: Overview of Enthought Technologies: NumPy, SciPy, and the Enthought Tool Suite, Oliphant
+  * 11:30 - 12:15: Overview of Enthought Technologies: NumPy, SciPy, and the Enthought Tool Suite, Oliphant, RLM 9.166
   * 12:15 - 02:00: Lunch break
-  * 02:00 - 02:45: Symmetric eigenvalue problem, Dhillon
+  * 02:00 - 02:45: Symmetric eigenvalue problem, Dhillon, TBA
   * 02:45 - 03:00: Break
-  * 03:00 - 05:00: Lab session for TACC/Work
-  * 05:00 - 07:00: Linear algebra Birds of a Feather/Work
+  * 03:00 - 05:00: Lab session for TACC/Work, RLM 7.122
+  * 05:00 - 07:00: Linear algebra Birds of a Feather/Work, RLM 9.166
  * Saturday, November 8
   * 09:00 - 10:00: Breakfast
   * 10:00 - 10:45: Beautiful Parallel Code, van de Geijn
