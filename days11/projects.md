@@ -1,0 +1,12 @@
+= Sage Days 11 Projects =
+
+These are projects for [:days11: Sage Days 11].
+
+
+== Native Implementation of Dokchitser's Algorithm ==
+People: William Stein, Sourev San Gupta, Michael Rubinstein
+
+[:/dokchitser: More details.]
+
+== Cython Wrapping of Rubinstein's L-calc ==
+People: William Stein, Sourev San Gupta, Michael Rubinstein
