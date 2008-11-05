@@ -9,4 +9,4 @@ People: William Stein, Sourev San Gupta, Michael Rubinstein
 [:/dokchitser: More details.]
 
 == Cython Wrapping of Rubinstein's L-calc ==
-People: William Stein, Sourev San Gupta, Michael Rubinstein
+People: William Stein, Sourev San Gupta, Michael Rubinstein, Craig Citro
