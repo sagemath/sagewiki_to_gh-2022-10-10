@@ -2,6 +2,10 @@
 
 == Special functions and computational number theory meet scientific computing ==
 
+== Projects ==
+
+   * [:/projects: List of Projects]
+
 == November 7 -- 10, 2008, Austin, Texas ==
 Organizers: William Stein, Fernando Perez, Fernando Rodriguez-Villegas, Irene Gamba, Salman Butt, Craig Citro
 
