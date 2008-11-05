@@ -17,4 +17,4 @@ a means of computing bounds (I think Mike Rubinstein said that
 continued fractions won't). Also, l4.py doesn't work for imaginary
 inputs yet - some coercion with SymbolicRing that I didn't try.
 
-Dokchiter's Paper: attachment:dokchitser.pd
+Dokchiter's Paper: attachment:dokchitser.pdf
