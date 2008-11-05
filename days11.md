@@ -88,6 +88,8 @@ Please add your name to the list if you're going to be coming to SD11.
 == Hotel Info ==
 A block of rooms has been reserved for us at the Doubletree Guest Suites, 303 W. 15th St, Austin, Texas. [http://maps.google.com/maps?f=q&hl=en&geocode=&q=doubletree,+15th+st,+austin,+texas&ie=UTF8&ll=30.27986,-97.741971&spn=0.020161,0.025878&z=15 Here] is a link to a google maps view of the hotel.
 
+attachment:hotel.png
+
 == Ground Transportation ==
 '''NOTE: Capital Metro bus drivers are expected to go on strike November 5, 2008. Some core routes will still be available from 6am to 7:30pm daily and all UT shuttles will continue to run as usual. No fares will be charged during the strike. BUT the Airport Flyer will not be running. If the strike is still going on when you arrive, your best bet may be to take a cab or shared-ride van. We will update this space as we get more information.'''
 
