@@ -91,7 +91,7 @@ A block of rooms has been reserved for us at the Doubletree Guest Suites, 303 W.
 attachment:hotel.png
 
 == Ground Transportation ==
-'''NOTE: Capital Metro bus drivers are expected to go on strike November 5, 2008. Some core routes will still be available from 6am to 7:30pm daily and all UT shuttles will continue to run as usual. No fares will be charged during the strike. BUT the Airport Flyer will not be running. If the strike is still going on when you arrive, your best bet may be to take a cab or shared-ride van. We will update this space as we get more information.'''
+'''NOTE: Capital Metro bus drivers went on strike November 5, 2008. Some core routes will still be available from 6am to 7:30pm daily and all UT shuttles will continue to run as usual. No fares will be charged during the strike. BUT the Airport Flyer will not be running. If the strike is still going on when you arrive, your best bet may be to take a cab or shared-ride van. We will update this space as we get more information.'''
 
 Austin's bus system is run by [http://www.capmetro.org/ Capital Metro] which has a number of bus routes that service the UT campus. UT shuttle buses are marked by white and burnt orange buses that use letters for their route as opposed to numbers. UT shuttles are free to ride.
 
