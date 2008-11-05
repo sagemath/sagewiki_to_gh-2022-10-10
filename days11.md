@@ -65,22 +65,25 @@ Please add your name to the list if you're going to be coming to SD11.
   * 03:00 - 05:00: Lab session for TACC/Work, RLM 7.122
   * 05:00 - 07:00: Linear algebra Birds of a Feather/Work, RLM 9.166
  * Saturday, November 8
-  * 09:00 - 10:00: Breakfast
-  * 10:00 - 10:45: Beautiful Parallel Code, van de Geijn
+  * 09:00 - 10:00: Catered breakfast
+  * 10:00 - 10:45: Beautiful Parallel Code, van de Geijn, RLM 12.166
   * 10:45 - 11:00: Break
-  * 11:00 - 11:45: Introduction to $L$-functions, Rubinstein
+  * 11:00 - 11:45: Introduction to $L$-functions, Rubinstein, RLM 12.166
   * 11:45 - 01:00: Lunch break
   * 01:00 - end of day: Work/informal talks
  * Sunday, November 9
-  * 09:00 - 10:00: Breakfast
-  * 10:00 - 10:45: Enumerating Totally Real Fields using DSage, Voight
+  * 09:00 - 10:00: Catered breakfast
+  * 10:00 - 10:45: Enumerating Totally Real Fields using DSage, Voight, RLM 12.166
   * 10:45 - 11:00: Break
-  * 11:00 - 11:45: Large-Scale Verification of Vandiver's Conjecture, Harvey
+  * 11:00 - 11:45: Large-Scale Verification of Vandiver's Conjecture, Harvey, RLM 12.166
   * 11:45 - 01:00: Lunch break
   * 01:00 - end of day: Work/informal talks
+  * 06:00 - 07:00: Catered dinner, RLM 12th floor lounge
  * Monday, November 10
   * 10:00 - 11:00: Work
   * 11:00 - 12:00: Summary/Recap/End of workshop
+  * 12:00 - 01:00: Lunch break
+  * 01:00 - end of day: Work, ACES 2.402
 
 == Hotel Info ==
 A block of rooms has been reserved for us at the Doubletree Guest Suites, 303 W. 15th St, Austin, Texas. [http://maps.google.com/maps?f=q&hl=en&geocode=&q=doubletree,+15th+st,+austin,+texas&ie=UTF8&ll=30.27986,-97.741971&spn=0.020161,0.025878&z=15 Here] is a link to a google maps view of the hotel.
