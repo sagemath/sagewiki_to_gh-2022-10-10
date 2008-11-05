@@ -5,7 +5,8 @@
 Email: [[MailTo(harald DOT schilly AT SPAMFREE gmail DOT com)]]
 
  * SageJournal
- * R
+ * [wiki:R R]
+ * DocumentationProject
 
 ----
 CategoryHomepage
