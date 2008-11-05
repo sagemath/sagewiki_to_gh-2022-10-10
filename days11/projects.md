@@ -10,3 +10,6 @@ People: William Stein, Sourev San Gupta, Michael Rubinstein
 
 == Cython Wrapping of Rubinstein's L-calc ==
 People: William Stein, Sourev San Gupta, Michael Rubinstein, Craig Citro
+
+== Screencasts, Documentation, and Video Interviews ==
+People: Timothy Clemans
