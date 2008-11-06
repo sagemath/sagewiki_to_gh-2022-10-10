@@ -15,4 +15,4 @@ People: William Stein, Sourev San Gupta, Michael Rubinstein, Craig Citro
 People: Timothy Clemans
 
 == Trac Tickets 3580 and 4249 ==
-People: John Voight and possibly Craig Citro
+People: John Voight, Craig Citro
