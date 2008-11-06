@@ -1,6 +1,6 @@
-At [:days9:Sage Days 9], I gave two talks on using graphics with LaTeX. The slides, in source and PDF format, are available here. PDF of my first talk: attachment:graphics-talk-1.pdf , and LaTeX source (and images) of my first talk: attachment:sd9-talk-1.tar.gz . Those materials are licensed under the [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-Share Alike 3.0 Unported License].
+At [:days9:Sage Days 9], I gave two talks on using graphics with LaTeX. The slides, in source and PDF format, are available here. PDF of my first talk: attachment:graphics-talk-1.pdf , and LaTeX source (and images) of my first talk: attachment:sd9-talk-1.tar.gz .
 
-PDF of the second talk: attachment:graphics-talk-2.pdf and source file: attachment:graphics-talk-2.tex .
+PDF of the second talk: attachment:graphics-talk-2.pdf and source file: attachment:graphics-talk-2.tex . The materials for both talks are licensed under the [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-Share Alike 3.0 Unported License].
 
 *CORRECTION!* In the second talk, I claimed that the arXiv does not support TikZ. I am very glad to be wrong about this; you *can* submit papers with TikZ figures to the arXiv -- see [http://arxiv.org/abs/0708.0245 arxiv:0708.0245] for an example. They may not have the newest version of PGF/TikZ, though.
 
