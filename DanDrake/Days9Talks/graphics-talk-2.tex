@@ -1,0 +1,316 @@
+% This is the second of two talks given at Sage Days 9. See 
+% http://wiki.sagemath.org/DanDrake/Days9Talks
+% for the first talk. Also, the KAIST logo used on the title page is in
+% sd9-talk-1.tar.gz on that wiki page.
+%
+% See the above wiki page for more info. The disclaimers and information
+% at the top of the first of these talks apply here, too!
+%
+% --Dan Drake 
+% email:  python -c "print '.'.join(['ddrake@member', 'ams', 'org'])"
+%
+% This work is licensed under a Creative Commons Attribution-Share Alike
+% 3.0 Unported License: http://creativecommons.org/licenses/by-sa/3.0/
+
+\documentclass{beamer}
+\usepackage{tikz}
+
+\mode<presentation>
+{
+  \usetheme{Boadilla}
+  \setbeamercovered{transparent}
+}
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+% the default Courier typewriter font looks bad, this is much better
+\usepackage[scaled]{beramono}
+
+\title[Graphics tools \& \LaTeX{} 2]{Tools for Getting Graphics Into \LaTeX}
+\subtitle{Part \texorpdfstring{$2$}{2}}
+
+\author{Dan Drake}
+
+% the template file mentions that you can add a logo (look for the
+% "university-logo" stuff) but that doesn't seem to actually do
+% anything. This works and looks relatively nice.
+\institute[KAIST]{\includegraphics[scale=.2]{kaist}\\Korea Advanced
+Institute of Science and Technology}
+
+\date{14 August 2008 / Sage Days 9}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+\newcommand{\myhref}[1]{\href{http://#1}{\texttt{#1}}}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{Resources}
+
+\begin{frame}{Good resources}
+
+  Links below are all clickable, so all you \emph{really} need to know
+  is that these slides will be at
+  \myhref{wiki.sagemath.org/DanDrake/Days9Talks}.
+
+  \begin{itemize}
+    \item books: I like \emph{A Guide to \LaTeX} and \emph{The \LaTeX{}
+      Companion}
+    \item \emph{The \LaTeX{} Graphics Companion}. Be sure you have the
+      2nd edition.
+    \item \emph{The Prac\TeX{} Journal}, \myhref{www.tug.org/pracjourn}
+    \item the web, \LaTeX{} geeks
+  \end{itemize}
+
+\end{frame}
+
+\section{Strategy \texorpdfstring{$i$}{\emph{i}} software}
+
+\begin{frame}{Strategy \texorpdfstring{$i$}{\emph{i}}: use something
+  else to create the graphics}
+
+  \begin{itemize}
+    \item xfig (\myhref{xfig.org})
+    \item Inkscape (\myhref{inkscape.org})
+    \item PiScript (\myhref{www.google.ca/search?q=piscript})
+  \end{itemize}
+
+  Also\ldots
+
+  \begin{itemize}
+    \item Dia (\myhref{www.gnome.org/projects/dia})
+    \item Gnuplot (\myhref{www.gnuplot.info})
+    \item GIMP (\myhref{www.gimp.org})
+    \item tons of others (\myhref{google.com} and
+    \myhref{www.maa.org/editorial/mathgames/mathgames\_08\_01\_05.html})
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  Oh, one more:
+
+  \begin{center}
+  \scalebox{7}{Sage!}
+
+  \vspace{10pt}
+
+  \myhref{sagemath.org}
+  \end{center}
+
+\end{frame}
+
+\begin{frame}{Using xfig optimally}
+
+  If you add text
+  \begin{itemize}
+    \item select the ``special'' text flag
+    \item change the text font to a \LaTeX{} font
+  \end{itemize}
+
+  Then use ``combined PS/PDF/LaTeX (3 parts)'' to export your graphics.
+  Choose a filename, and do \texttt{\textbackslash input\{filename\}} in
+  your document.
+
+  \pause\vspace{10pt}
+
+  Advantage: text rendered at compile time, so your document can be
+  compiled using different fonts than you have. No extra stuff needed by
+  anyone else who has all your files.
+
+\end{frame}
+
+\begin{frame}[fragile]{Using \texttt{psfrag}}
+
+  The \texttt{psfrag} package accomplishes much the same thing as
+  \texttt{xfig}'s combined export:
+
+  \begin{itemize}
+    \item put a text tag (``Rn'') into your EPS file
+    \item do \verb|\psfrag{Rn}{\mathcal{R}^n}|
+    \item do usual \texttt{\textbackslash includegraphics} stuff
+  \end{itemize}
+
+  Any ``Rn'' in your EPS files are magically replaced by
+  $\mathcal{R}^n$.
+
+  Unfortunately, you can't use \texttt{pdflatex}; you need to use
+  \texttt{dvips}.
+
+  \vfill
+
+  See also: \texttt{psfragx}, \texttt{overpic} (other \LaTeX{} packages)
+
+\end{frame}
+
+\begin{frame}{Render text as paths}
+
+  Inkscape (via the \texttt{textext} extension) and PiScript take your
+  \LaTeX{} and render it into a big path. This is nice, but you do need
+  to re-render if you change anything about the font in your document
+  and want text in your images to change too.
+
+  \pause\vspace{10pt}
+
+  But\ldots anyone who can use EPS graphics can see the text exactly as
+  you intended.
+
+\end{frame}
+
+\newcommand{\tikZ}{Ti\emph{k}Z}
+
+\section{Strategy \texorpdfstring{$1$}{1} options}
+
+\begin{frame}{Strategy \texorpdfstring{$1$}{1}: use \LaTeX{}
+  to create the graphics}
+
+  Two big players: PSTricks (\myhref{tug.org/PSTricks}) and PGF/\tikZ{}
+  (\myhref{www.google.com/search?q=tikz}). PSTricks is older and better
+  known, but I think \tikZ{} has many advantages.
+
+  \pause\vspace{10pt}
+
+  Two other well-known packages worthy of consideration: XY-pic, which
+  is designed for commutative diagrams, and MetaPost, which is a
+  separate language/file format but is part of the \TeX{} ecosystem.
+
+\end{frame}
+
+\begin{frame}{PSTricks}
+
+  PSTricks is in the same spirit as PiScript: sortof an interface to
+  Postscript from \TeX.\\
+
+  \pause\vspace{10pt}
+
+  The ``PS'' means Postscript, so compiling to a PDF requires
+  \texttt{dvips} and \texttt{ps2pdf}. But you can do more or less
+  anything that Postscript can.
+
+\end{frame}
+
+\begin{frame}{PGF and \tikZ}
+
+  PGF stands for ``Portable Graphics Format'' and is the underlying
+  engine for the higher-level \tikZ, which stands for ``\tikZ{} ist kein
+  Zeichenprogramm''.
+
+  \pause\vspace{10pt}
+
+  \tikZ{} works with plain \TeX, \LaTeX, Con\TeX t, compiling to DVI or
+  PDF. It comes with a well-written $560$-page manual.
+
+  \pause\vspace{10pt}
+
+  \tikZ{} syntax, though still complicated, is often more consistent
+  than PSTricks, as \tikZ{} was designed knowing the shortcomings of
+  PSTricks. Pretty much the only thing \tikZ{} can't do that PSTricks
+  can is text that follows a path.
+
+\end{frame}
+
+\begin{frame}{Good features of PSTricks and \tikZ}
+
+  Both work as \emph{building blocks} (higher level or specialized
+  packages are built on them) and as \emph{output formats}---several
+  graphical programs output PSTricks or \tikZ{} code, and there's a
+  Python script that converts xfig files to \tikZ.
+
+\end{frame}
+
+\begin{frame}{My recommendations}
+
+  \begin{itemize}
+    \item Choose PSTricks or \tikZ{} and use that for as much of your
+    inline graphics as possible. I prefer \tikZ.
+    \pause
+    \item Use Sage, Inkscape, xfig, and psfrag for external graphics.
+    Use Sage\TeX{} (\myhref{tug.ctan.org/pkg/sagetex}) to help integrate
+    Sage into your document.
+  \end{itemize}
+
+  Support for \tikZ{} is not as widespread as PSTricks (arXiv!) but see
+  ``externalizing graphics'' in the PGF/\tikZ{} manual. \emph{See next
+  slide for correction!}
+
+\end{frame}
+
+\begin{frame}{Correction, 20 August 2008}
+
+  I discovered today that the previous slide's claim about the arXiv is
+  \emph{wrong}: they \emph{do} support \tikz{} in submissions. See
+  \href{http://arxiv.org/abs/0708.0245}{arxiv:0708.0245} for a paper
+  that uses \tikz{} for figures.
+
+\end{frame}
+
+\begin{frame}{The future: \TeX{} and SVG}
+   SVG is ``Scalable Vector Graphics''. Designed for use on the web, but
+   browser support is still sub-optimal. Very promising, though.
+
+   \vspace{10pt}
+
+   There's a \texttt{dvi2svg} converter, but more work needs to be done.
+   I think this is an important development, though, so stay tuned.
+\end{frame}
+
+\begin{frame}{Thank you}
+
+  These slides (source and PDF) will be available from the Sage Days 9
+  wiki page, and \href{http://wiki.sagemath.org/DanDrake/Days9Talks}
+  {\texttt{wiki.sagemath.org/DanDrake/Days9Talks}}
+
+\end{frame}
+
+\section{Post-talk additions}
+
+\begin{frame}{Special director's cut bonus scenes!}
+
+  Here is some exclusive bonus material, available only here. I've added
+  this after my talk, because in giving these talks I learned a lot from
+  my audience. (It often works that way, doesn't it?)
+
+  \begin{itemize}
+    \item Michael Abshoff mentioned jfig:
+    \myhref{http://tams-www.informatik.uni-hamburg.de/applets/jfig/}. It
+    does work, but it looks like the nice \LaTeX{} export facilities
+    depend on the \texttt{fig2dev} utility\ldots which I thinks works in
+    Windows.
+   \item The cool SVG blobs I showed:
+   \myhref{www.themaninblue.com/experiment/Blobular/}
+   \item An article on \texttt{dvi2svg}, ironically (though
+   unsurprisingly) in PDF format:
+   \myhref{tug.org/TUGboat/Articles/tb27-2/tb87frischauf.pdf} and here
+   are some examples:
+   \myhref{wmula.republika.pl/proj/pydvi2svg/index.html\#samples}
+ \end{itemize}
+ 
+ More bonus material\ldots
+ \end{frame}
+
+\begin{frame}{Bonus scenes continued}
+ 
+ \begin{itemize}
+   \item The cool \tikZ{} animation:
+   \myhref{www.fauskes.net/pgftikzexamples/animated-distributions/}.
+   Nils Bruin found out more out using \LaTeX{} for animations:
+   \myhref{wiki.sagemath.org/days9/PDFLaTeXAnimations}
+  \end{itemize}
+\end{frame}
+
+\end{document}
+
