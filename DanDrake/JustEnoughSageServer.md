@@ -1,4 +1,4 @@
-These are some notes on using [http://www.ubuntu.com/products/whatisubuntu/serveredition/jeos JeOS] -- which stands for "Just Enough Operating System" -- and virtualization software to create a (hopefully) secure Sage server. I'm using [http://www.virtualbox.org/ VirtualBox] and a Ubuntu host.
+These are some notes on using [http://www.ubuntu.com/products/whatisubuntu/serveredition/jeos JeOS] -- which stands for "Just Enough Operating System" -- and virtualization software to create a (hopefully) secure Sage server. I'm using [http://www.virtualbox.org/ VirtualBox] and an Ubuntu host.
 
 This is intended for a server that you build and administer yourself; it's not the same as the VMWare image we distribute, which is intended "for the masses". I'm assuming you have experience with Linux administration and using virtualization software.
 
