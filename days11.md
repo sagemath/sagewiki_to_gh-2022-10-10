@@ -60,6 +60,7 @@ Please add your name to the list if you're going to be coming to SD11.
 
 == Tentative Schedule ==
  * Friday, November 7
+  * 09:00 - 09:30: Opening Remarks, Villegas, 12.104 (12th Floor Lounge)
   * 09:30 - 10:15: Intro to Sage, Citro, RLM 9.166
   * 10:15 - 10:30: Break
   * 10:30 - 11:15: Computing on TACC, Eijkhout, RLM 9.166
@@ -116,7 +117,7 @@ attachment:rlm.png
 
 ==== From the Doubletree Suites ====
  * Walking: You can walk from the hotel to RLM by walking one block west along 15th St to Guadalupe St, then walking north along Guadalupe (which marks the west end of campus), and finally making a right to walk east once you get to Dean Keaton. RLM will be on the corner of Dean Keaton and Speedway, on the south side of Dean Keaton.
- * Bus: You can take the Enfield Road (ER) or Lake Austin (LA) UT shuttle that Capital Metro runs. They both can be grabbed along 15th St and will wind you around campus.
+ * Bus: You can take the Enfield Road (ER) or Lake Austin (LA) UT shuttle that Capital Metro runs. They both can be grabbed along 15th St and will wind you around campus. '''Note that these buses will still be running during the strike.'''
   * Going to RLM, you will want to get off on 21st St and Speedway, walk along Speedway north (the bus drops you off on the north side of 21st St) to RLM.
   * Returning from RLM, you will want to grab the bus at the 21st and Speedway stop and take it to Guadalupe St and 15th St, walk east along 15th St one block to Lavaca St and the Doubletree Suites.
   * After 7pm, the ER and LA combine routes to become the ER/LA route. It runs until 11pm and has the same route around campus as the ER and LA do separately.
