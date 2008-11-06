@@ -19,5 +19,8 @@ People: Timothy Clemans
 == Trac Tickets 3580 and 4249 ==
 People: John Voight, Craig Citro, someone with a system similar to Cremona's
 
+
+== Work on IPython topics that affect Sage directly ==
+People: Fernando Perez, William Stein to provide list of topics and feedback.
 == Enumeration of relative quadratic extensions ==
 People: John Voight
