@@ -1,10 +1,11 @@
-At [:days9:Sage Days 9], I gave two talks on using graphics with LaTeX. The slides, in source and PDF format, are available here. PDF of my first talk: attachment:graphics-talk-1.pdf , and LaTeX source (and images) of my first talk: attachment:sd9-talk-1.tar.gz .
+At [:days9:Sage Days 9], I gave two talks on using graphics with LaTeX. The slides, in source and PDF format, are available here. PDF of my first talk: attachment:graphics-talk-1.pdf , and LaTeX source (and images) of my first talk: attachment:sd9-talk-1.tar.gz . Those materials are licensed under the [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-Share Alike 3.0 Unported License].
 
 PDF of the second talk: attachment:graphics-talk-2.pdf and source file: attachment:graphics-talk-2.tex .
 
 *CORRECTION!* In the second talk, I claimed that the arXiv does not support TikZ. I am very glad to be wrong about this; you *can* submit papers with TikZ figures to the arXiv -- see [http://arxiv.org/abs/0708.0245 arxiv:0708.0245] for an example. They may not have the newest version of PGF/TikZ, though.
 
-One warning: you really need PGF/TikZ version 2.00 to compile the slides from the first talk. Right now, TeXShop doesn't include this, and nor does Ubuntu Hardy. (Intrepid, version 8.10, has the necessary version). I have no idea what the state of affairs is with Windows. To fix this in OS X:
+
+'''A note of warning:''' you really need PGF/TikZ version 2.00 to compile the slides from the first talk. Right now, TeXShop doesn't include this, and nor does Ubuntu Hardy. (Intrepid, version 8.10, has the necessary version). I have no idea what the state of affairs is with Windows. To fix this in OS X:
 
  * download [http://sourceforge.net/projects/pgf/ PGF]
  * extract the package. You get a directory `pgf-2.00`
