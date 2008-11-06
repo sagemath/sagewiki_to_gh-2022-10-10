@@ -112,6 +112,7 @@ If you will be staying at the Doubletree Suites, you can take the Airport Flyer 
 
 === To and From RLM ===
 Robert Lee Moore (RLM) Hall is the home of the Math Department at UT. Maps of the University can be found [http://www.utexas.edu/maps/ here] -- click on the "4" to get a zoom in of RLM, at the corner of Dean Keaton St and Speedway St. A picture of RLM can be found [http://www.utexas.edu/maps/main/buildings/rlm.html here].
+attachment:rlm.png
 
 ==== From the Doubletree Suites ====
  * Walking: You can walk from the hotel to RLM by walking one block west along 15th St to Guadalupe St, then walking north along Guadalupe (which marks the west end of campus), and finally making a right to walk east once you get to Dean Keaton. RLM will be on the corner of Dean Keaton and Speedway, on the south side of Dean Keaton.
