@@ -22,5 +22,9 @@ People: John Voight, Craig Citro, someone with a system similar to Cremona's
 
 == Work on IPython topics that affect Sage directly ==
 People: Fernando Perez, William Stein to provide list of topics and feedback.
+
 == Enumeration of relative quadratic extensions ==
 People: John Voight
+
+== High Level Memory Profiling and Modular Forms Memory Caching Issues ==
+People: Michael Abshoff - understanding of guppy and muppy ought to be helpful
