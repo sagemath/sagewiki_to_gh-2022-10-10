@@ -1,3 +1,5 @@
+[[TableOfContents(2)]]
+
 = Sage Days 11 Projects =
 
 These are projects for [:days11: Sage Days 11].
