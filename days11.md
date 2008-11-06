@@ -1,3 +1,5 @@
+[[TableOfContents(2)]]
+
 = Sage Days 11 =
 
 == Special functions and computational number theory meet scientific computing ==
