@@ -16,3 +16,6 @@ People: Timothy Clemans
 
 == Trac Tickets 3580 and 4249 ==
 People: John Voight, Craig Citro, someone with a system similar to Cremona's
+
+== Enumeration of relative quadratic extensions ==
+People: John Voight
