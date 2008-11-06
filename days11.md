@@ -70,7 +70,7 @@ Please add your name to the list if you're going to be coming to SD11.
   * 05:00 - 07:00: Linear algebra Birds of a Feather/Work, RLM 9.166
  * Saturday, November 8
   * 09:00 - 10:00: Catered breakfast
-  * 10:00 - 10:45: Beautiful Parallel Code, van de Geijn, RLM 12.166
+  * 10:00 - 10:45: [http://www.cs.utexas.edu/users/flame/pubs/sc08_workshop.pdf Beautiful Parallel Code: Evolution vs. Intelligent Design], van de Geijn, RLM 12.166
   * 10:45 - 11:00: Break
   * 11:00 - 11:45: Introduction to $L$-functions, Rubinstein, RLM 12.166
   * 11:45 - 01:00: Lunch break
