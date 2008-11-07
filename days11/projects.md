@@ -28,3 +28,6 @@ People: John Voight
 
 == High Level Memory Profiling and Modular Forms Memory Caching Issues ==
 People: Michael Abshoff - understanding of guppy and muppy ought to be helpful
+
+== Optimize Modular Symbols ==
+People: Craig Citro, William Stein
