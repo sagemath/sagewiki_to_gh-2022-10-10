@@ -67,7 +67,7 @@ Please add your name to the list if you're going to be coming to SD11.
   * 10:15 - 10:30: Break
   * 10:30 - 11:15: Computing on TACC, Eijkhout, RLM 9.166
   * 11:15 - 11:30: Break
-  * 11:30 - 12:15: Overview of Enthought Technologies: NumPy, SciPy, and the Enthought Tool Suite, Oliphant, RLM 9.166
+  * 11:30 - 12:15: [http://www.ma.utexas.edu/sage/talks/oliphant.ppt Overview of Enthought Technologies: NumPy, SciPy, and the Enthought Tool Suite], Oliphant, RLM 9.166
   * 12:15 - 02:00: Lunch break
   * 02:00 - 02:45: Symmetric eigenvalue problem, Dhillon, RLM 10.176
   * 02:45 - 03:00: Break
