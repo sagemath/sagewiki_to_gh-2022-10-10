@@ -58,10 +58,12 @@ Please add your name to the list if you're going to be coming to SD11.
  * John Voight (Nov 8-9), University of Vermont
  * Felipe Voloch, UT-Austin
 
-== Tentative Schedule ==
+== Schedule ==
  * Friday, November 7
   * 09:00 - 09:30: Opening Remarks, Villegas, 12.104 (12th Floor Lounge)
   * 09:30 - 10:15: Intro to Sage, Citro, RLM 9.166
+    * Talk slides [attachment:citro-slides.pdf here]
+    * Sage worksheet as [attachment:citro-sage-worksheet.sws worksheet] and [attachment:citro-sage-worksheet.pdf pdf].
   * 10:15 - 10:30: Break
   * 10:30 - 11:15: Computing on TACC, Eijkhout, RLM 9.166
   * 11:15 - 11:30: Break
