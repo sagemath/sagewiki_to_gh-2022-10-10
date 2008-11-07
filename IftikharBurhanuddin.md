@@ -45,6 +45,6 @@ I am an Assistant Adjunct Professor at UCLA and a SAGEvangelist.
 
   Research Statement http://sage.math.washington.edu/home/burhanud/job_app/restat.pdf
 
-* Make wikipage about Talks related to SAGE (plan)
+* [:Talks: Make wikipage about Talks related to SAGE (plan)]
 
 CategoryHomepage
