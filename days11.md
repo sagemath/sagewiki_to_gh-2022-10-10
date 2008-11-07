@@ -4,8 +4,6 @@
 
 == Special functions and computational number theory meet scientific computing ==
 
-attachment:sd11.jpg
-
 == Projects ==
 
    * [:/projects: List of Projects]
