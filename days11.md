@@ -72,7 +72,8 @@ Please add your name to the list if you're going to be coming to SD11.
   * 02:00 - 02:45: Symmetric eigenvalue problem, Dhillon, RLM 10.176
   * 02:45 - 03:00: Break
   * 03:00 - 05:00: Lab session for TACC/Work, RLM 7.122
-  * 05:00 - 07:00: Linear algebra Birds of a Feather/Work, RLM 9.166
+  * 05:00 - 06:00 (?): Linear algebra Birds of a Feather/Work, RLM 9.166
+  * 06:00 - 07:00: Coding Sprint Organization
  * Saturday, November 8
   * 09:00 - 10:00: Catered breakfast
   * 10:00 - 10:45: [http://www.cs.utexas.edu/users/flame/pubs/sc08_workshop.pdf Beautiful Parallel Code: Evolution vs. Intelligent Design], van de Geijn, RLM 12.166
