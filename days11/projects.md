@@ -48,4 +48,13 @@ People: Michael Abshoff - understanding of guppy and muppy ought to be helpful; 
 People: Craig Citro, William Stein
   * tell us what sucks
 
+== Quadratic forms ==
+People: Jon Hanke, Craig Citro, Gonzalo Tornaria
+
+Lay some groundwork.  What is out there?   E.g., Hanke's code, etc.
  
+
+== Optimize sage -br ==
+People: Gonzalo Tornaria, Craig Citro, David Harvey
+
+ progress
