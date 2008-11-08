@@ -81,7 +81,7 @@ Please add your name to the list if you're going to be coming to SD11.
   * 10:45 - 11:00: Break
   * 11:00 - 11:45: Introduction to $L$-functions, Rubinstein, RLM 12.166
   * 11:45 - 01:00: Lunch break
-  * 01:00 - end of day: Work/informal talks (Stein/Gupta - Dokchitser at 3:30pm; Citro/Stein - Cythonization at 3pm; Citro/Stein - Modular Symbols at 8pm)
+  * 01:00 - end of day: Work/informal talks (Stein/Gupta - Dokchitser at 3:30pm; Citro/Stein - Cythonization at 5pm; Citro/Stein - Modular Symbols at 8pm)
  * Sunday, November 9
   * 09:00 - 10:00: Catered breakfast
   * 10:00 - 10:45: Enumerating Totally Real Fields using DSage, Voight, RLM 12.166
