@@ -58,3 +58,10 @@ Lay some groundwork.  What is out there?   E.g., Hanke's code, etc.
 People: Gonzalo Tornaria, Craig Citro, David Harvey
 
  progress
+
+== Elliptic Curves over Function Fields ==
+People: Chris Hall and Sal Butt
+
+  char >= 5, GF(q)[t]
+
+  * goal: L-series
