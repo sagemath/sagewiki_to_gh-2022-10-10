@@ -61,6 +61,7 @@ Please add your name to the list if you're going to be coming to SD11.
 
 == Schedule ==
  * Friday, November 7
+  Video for day 1: http://sage.math.washington.edu/home/was/days11/
   * 09:00 - 09:30: Opening Remarks, Villegas, 12.104 (12th Floor Lounge)
   * 09:30 - 10:15: Intro to Sage, Citro, RLM 9.166
     * Talk slides [attachment:citro-slides.pdf here]
