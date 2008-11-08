@@ -16,10 +16,8 @@ http://sage.math.washington.edu/home/was/tmp/dokchitser.tar.bz2
 == Cython Wrapping of Rubinstein's L-calc ==
 People: William Stein, Sourav Sen Gupta, Michael Rubinstein, Craig Citro, Rishi
 
-  * Michael Abshoff -- update to latest version
+  * Michael Abshoff -- update to latest version of lcalc, i.e. the 1.2 release
   
-
-
 == Screencasts, Documentation, and Video Interviews ==
 People: Timothy Clemans
 
@@ -36,9 +34,8 @@ People: Fernando Perez, William Stein to provide list of topics and feedback.
  * way nicer writing out of history as an option (seg faulting, crashing, invidual history overlap)
  * annoying valgrind crap?
 
-== 3.9 atlas testing ==
- * mabshoff
- * fernando
+== test ATLAS 3.9.4 with NumPy, SciPy and Sage ==
+People: Michael Abshoff, Fernando Perez
 
 == Enumeration of relative quadratic extensions ==
 People: John Voight, Jon Hanke
