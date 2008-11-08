@@ -57,6 +57,7 @@ Please add your name to the list if you're going to be coming to SD11.
  * Robert van de Geijn, UT-Austin
  * John Voight (Nov 8-9), University of Vermont
  * Felipe Voloch, UT-Austin
+ * R. Clint Whaley, UT San Antonio
 
 == Schedule ==
  * Friday, November 7
