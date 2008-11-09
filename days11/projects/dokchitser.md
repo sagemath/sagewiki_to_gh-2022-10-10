@@ -1,5 +1,19 @@
 = Dokchitser Project for Sage Days 11 =
 
+
+TODO:
+
+    1. Stuff still computed using gp:
+        * Delta polynomials in _recursions_at_infinity (search for comment below)
+        * _without_gp (gamma_series) has this line
+                sinser = sage_eval(rs(gp_eval('Vec(sin(Pi*(%s)))'%(z0+x))))
+        * init_Ginf: still uses pari (see below)
+        * Ginf: still uses pari to evaluate continued fraction
+    2. Doctest.
+
+
+-----------------------------------------------------
+
 From Jen:
 
 Here's the version (closest to Dokchitser's original pari code) that
