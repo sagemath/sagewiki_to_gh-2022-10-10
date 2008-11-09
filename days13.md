@@ -1,5 +1,8 @@
 = Sage Days 13: Athens, Georgia =
 
+== Date ==
+ * Feb 28 -- March 2, 2009
+
 == Goals: ==
   * Introdution to SAGE for new users/developers
   * Discuss goals for quadratic forms code, and what is currently missing. E.g.:
