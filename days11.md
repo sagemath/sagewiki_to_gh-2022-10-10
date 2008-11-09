@@ -8,6 +8,11 @@
 
    * [:/projects: List of Projects]
 
+
+== Photos ==
+
+   * http://picasaweb.google.com/wstein/SageDays11Day1DinnerAndDay2
+
 == November 7 -- 10, 2008, Austin, Texas ==
 Organizers: William Stein, Fernando Perez, Fernando Rodriguez-Villegas, Irene Gamba, Salman Butt, Craig Citro
 
