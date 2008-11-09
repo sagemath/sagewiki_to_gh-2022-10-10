@@ -9,7 +9,9 @@ TODO:
                 sinser = sage_eval(rs(gp_eval('Vec(sin(Pi*(%s)))'%(z0+x))))
         * init_Ginf: still uses pari (see below)
         * Ginf: still uses pari to evaluate continued fraction
-    2. Doctest.
+    2. Doctest everything, making sure it all works 100% and fix issues with coercion, complex inputs, etc., as they are systematically uncovered.
+    3. Possibly maybe change from digits to bits prec.
+    4. Optimize.
 
 
 -----------------------------------------------------
