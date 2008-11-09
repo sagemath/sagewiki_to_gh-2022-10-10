@@ -1,3 +1,7 @@
+== Pictures drawn by Sage ==
+
+These pictures and images were drawn by [http://www.sagemath.org Sage].
+
  * Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway):
 {{{p = Graphics()
 for n in range(1,20):
