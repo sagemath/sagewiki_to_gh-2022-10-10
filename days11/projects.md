@@ -55,9 +55,9 @@ Lay some groundwork.  What is out there?   E.g., Hanke's code, etc.
  
 
 == Optimize sage -br ==
-People: Gonzalo Tornaria, Craig Citro, David Harvey
+People: Gonzalo Tornaria, Craig Citro, David Harvey, (Robert Bradshaw)
 
- progress
+ For the Cython side of things, see http://trac.sagemath.org/sage_trac/ticket/4480
 
 == Elliptic Curves over Function Fields ==
 People: Chris Hall and Sal Butt
