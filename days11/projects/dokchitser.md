@@ -4,10 +4,10 @@
 TODO:
 
     1. Modularize the code (break into the following classes and sort dependencies)
-        * LSeries  --------  Is already in there (have to free it from the other 3 modules)
-        * GammaFactor  -------  Done and documented
-        * IncompleteGeneralizedGammaFactor  ------  To be done
-        * InverseMellinGammaFactor  -------  To be done
+        * LSeries (Is already in there. Have to free it from the other 3 modules)
+        * GammaFactor (Done and documented)
+        * IncompleteGeneralizedGammaFactor (To be done)
+        * InverseMellinGammaFactor (To be done)
 
     2. Stuff still computed using gp:
         * Delta polynomials in _recursions_at_infinity (search for comment below)
