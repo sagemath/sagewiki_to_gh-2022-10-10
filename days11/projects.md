@@ -74,6 +74,8 @@ Lay some groundwork.  What is out there?   E.g., Hanke's code, etc.
  * general quadratic modules/lattices class
  * goal: in Sage before Sage Days UGA.
 
+See also http://trac.sagemath.org/sage_trac/ticket/4470
+
 == Optimize sage -br ==
 People: Gonzalo Tornaria, Craig Citro, David Harvey, (Robert Bradshaw)
 
