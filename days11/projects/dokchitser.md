@@ -3,15 +3,21 @@
 
 TODO:
 
-    1. Stuff still computed using gp:
+    1. Modularize the code (break into the following classes and sort dependencies)
+        * LSeries  --------  Is already in there (have to free it from the other 3 modules)
+        * GammaFactor  -------  Done and documented
+        * IncompleteGeneralizedGammaFactor  ------  To be done
+        * InverseMellinGammaFactor  -------  To be done
+
+    2. Stuff still computed using gp:
         * Delta polynomials in _recursions_at_infinity (search for comment below)
         * _without_gp (gamma_series) has this line
                 sinser = sage_eval(rs(gp_eval('Vec(sin(Pi*(%s)))'%(z0+x))))
         * init_Ginf: still uses pari (see below)
         * Ginf: still uses pari to evaluate continued fraction
-    2. Doctest everything, making sure it all works 100% and fix issues with coercion, complex inputs, etc., as they are systematically uncovered.
-    3. Possibly maybe change from digits to bits prec.
-    4. Optimize.
+    3. Doctest everything, making sure it all works 100% and fix issues with coercion, complex inputs, etc., as they are systematically uncovered.
+    4. Possibly maybe change from digits to bits prec.
+    5. Optimize.
 
 
 -----------------------------------------------------
