@@ -97,9 +97,7 @@ Please add your name to the list if you're going to be coming to SD11.
   * 01:00 - end of day: Work/informal talks (Chris Hall - Drinfeld stuff at 2pm; Mabshoff - Muppy at 3pm) 
   * 06:00 - 07:00: Catered dinner, RLM 12th floor lounge
  * Monday, November 10
-  * 10:00 - 11:00: Work
-  * 11:00 - 12:00: Summary/Recap/End of workshop
-  * 12:00 - 01:00: Lunch break
+  * 10:00 - 11:00: Work/Lunch, RLM 12.104
   * 01:00 - end of day: Work, ACES 2.402
 
 == Hotel Info ==
