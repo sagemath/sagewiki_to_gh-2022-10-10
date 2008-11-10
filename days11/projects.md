@@ -33,12 +33,12 @@ Totally DONE!    Real root finding subtleties -- proof = False?
 == Work on IPython topics that affect Sage directly ==
 People: Fernando Perez, William Stein to provide list of topics and feedback.
   
- * (tricky -- startup time issues!!) %timeit isn't preparsed
+ * (tricky -- startup time issues!!) %timeit isn't preparsed.  See https://bugs.launchpad.net/ipython/+bug/296116
  * mabshoff -- upgrade to latest release (get 0.9.1 -- has "ipython1"; missing snippet of code to make this "usable" for idiots).
  * $HOME/sage.init -- wthread issue; problem is -wthread has to be first option. Solution: sage should kludge around. 
- * way nicer writing out of history as an option (seg faulting, crashing, invidual history overlap): personally, Stein, would be happy basically having the option to have a *merged* history; basically I view the history as a "set"-ish thing, so I don't care about the history being complete and linear for each session.  Watch out about history switching for debugging -- have a temp file with history for just this session. 
+ * way nicer writing out of history as an option (seg faulting, crashing, invidual history overlap): personally, Stein, would be happy basically having the option to have a *merged* history; basically I view the history as a "set"-ish thing, so I don't care about the history being complete and linear for each session.  Watch out about history switching for debugging -- have a temp file with history for just this session.   See https://bugs.launchpad.net/ipython/+bug/296113 and https://bugs.launchpad.net/ipython/+bug/296114
  * (progress, startup time issues) annoying valgrind crap?
- * (done) exception on startup of sage look lame
+ * (done) exception on startup of sage look lame.  See https://bugs.launchpad.net/ipython/+bug/295798
  * (progress) testing framework/robustness improvements
 
 == test ATLAS 3.9.4 with NumPy, SciPy and Sage ==
