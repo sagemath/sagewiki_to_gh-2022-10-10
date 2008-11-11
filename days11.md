@@ -94,7 +94,7 @@ Please add your name to the list if you're going to be coming to SD11.
   * 10:45 - 11:00: Break
   * 11:00 - 11:45: [attachment:vandiver-talk.pdf Large-Scale Verification of Vandiver's Conjecture], Harvey, RLM 12.166
   * 11:45 - 01:00: Lunch break
-  * 01:00 - end of day: Work/informal talks (Chris Hall - Drinfeld stuff at 2pm; Mabshoff - Muppy at 3pm) 
+  * 01:00 - end of day: Work/informal talks (Chris Hall - Drinfeld stuff at 2pm; [:/muppy: Mabshoff - Muppy at 3pm]) 
   * 06:00 - 07:00: Catered dinner, RLM 12th floor lounge
  * Monday, November 10
   * 10:00 - 11:00: Work/Lunch, RLM 12.104
