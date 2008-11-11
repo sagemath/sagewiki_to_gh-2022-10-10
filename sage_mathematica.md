@@ -38,11 +38,9 @@ y == a*x^2 + b*x + c
 Mathematica: {{{ Table[f[i], {i, 1, 10}] }}}
 
 {{{
-sage: [f(i) for i in range(1, 11)] 
+sage: [f(i) for i in [1..10]] 
 [g(1), g(2), g(3), g(4), g(5), g(6), g(7), g(8), g(9), g(10)]
 }}}
-
-(note that the endpoint of the range is not included).
 
 == Advanced Mathematica syntax ==
 === Mapping functions across a list ===
