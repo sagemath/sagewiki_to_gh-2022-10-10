@@ -19,3 +19,4 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
 = Participants (with area they would like to work on) =
 
  1. William Stein (magma/sage interface)
+ 2. Franco Saliola (I'm open to suggestions)
