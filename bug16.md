@@ -20,3 +20,4 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
 
  1. William Stein (magma/sage interface)
  2. Franco Saliola (I'm open to suggestions)
+ 3. Michael Abshoff (merges, quadratic forms code)
