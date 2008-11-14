@@ -59,7 +59,7 @@ In Progress
 To Do
  * rings/polynomial
    * many segfaults for mhansen, probably due to libsingular invalid read
- * [http://trac.sagemath.org/sage_trac/ticket/3516 #3516] libSingular segfault related to the new coercion code [causes segfaults on startup on sage.math]
+ * [[http://trac.sagemath.org/sage_trac/ticket/3516|#3516]] libSingular segfault related to the new coercion code [causes segfaults on startup on sage.math]
  * categories (category_types.py -- 1 failure due to Spec in schemes)
 
 {{{
@@ -72,7 +72,7 @@ This should fail:
 
 === Files to fix (Make all parents conform to the spec) ===
 
-Useful script to list all parents in a given module that still need work: [attachment:list_parents.sage]
+Useful script to list all parents in a given module that still need work: [[attachment:list_parents.sage]]
 
 Nothing to do
  * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical,gsl, quadratic_forms
@@ -80,9 +80,9 @@ Nothing to do
 
 Done
  * coding, functions, graphs
- * matrix [http://sage.math.washington.edu/home/robertwb/coerce/coerce-all.hg]
- * complex, real [http://sage.math.washington.edu/home/robertwb/coerce/coerce-real-complex.hg]
- * modules [attachment:coerce-free-module.patch]
+ * matrix [[http://sage.math.washington.edu/home/robertwb/coerce/coerce-all.hg]]
+ * complex, real [[http://sage.math.washington.edu/home/robertwb/coerce/coerce-real-complex.hg]]
+ * modules [[attachment:coerce-free-module.patch]]
  * quotient rings
  * finite fields (including natural embeddings into each other when Conway polynomials are used)
  * calculus
@@ -142,4 +142,4 @@ a lot of things not easily accessible now from the interpreter, such as the coer
 
 To start, get a copy of Sage 2.10.1, install the latest cython spkg (available at http://sage.math.washington.edu/home/robertwb/cython/), pull from http://cython.org/coercion/hgwebdir.cgi/sage-coerce/ and build. 
 
-Import [attachment:fix-random.patch] to sage-scripts to ignore random tests.
+Import [[attachment:fix-random.patch]] to sage-scripts to ignore random tests.
