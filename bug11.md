@@ -5,8 +5,8 @@ The event will take place on '''Saturday, April 5th, 2008''' and officially star
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
  * The base version of SAGE we'll start with is '''3.0.alpha1'''
- * [:bug11/status:STATUS]
- * [:bug11/irc:IRC log]
+ * [[bug11/status|STATUS]]
+ * [[bug11/irc|IRC log]]
  * Write to wstein@gmail.com or michael.abshoff@gmail.com for an account on the bug tracker.
  * We'll all be on #sage-devel at irc.freenode.net.
 {{{
