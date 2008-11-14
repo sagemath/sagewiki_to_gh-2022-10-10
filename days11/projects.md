@@ -1,14 +1,14 @@
-[[TableOfContents(2)]]
+<<TableOfContents(2)>>
 
 = Sage Days 11 Projects =
 
-These are projects for [:days11: Sage Days 11].
+These are projects for [[days11| Sage Days 11]].
 
 
 == Native Implementation of Dokchitser's Algorithm ==
 People: Craig Citro, William Stein, Sourav Sen Gupta, Michael Rubinstein, Rishi Kesh, Gonzalo Tornaria
 
-[:/dokchitser: More details.]
+[[/dokchitser| More details.]]
 
 http://sage.math.washington.edu/home/was/tmp/dokchitser.tar.bz2
 
