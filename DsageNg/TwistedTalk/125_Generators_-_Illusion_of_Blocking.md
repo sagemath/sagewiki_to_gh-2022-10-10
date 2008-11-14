@@ -1,3 +1,4 @@
+## page was renamed from GlennTarbox/TwistedTalk/125 Generators - Illusion of Blocking
 ## Please edit system and help pages ONLY in the moinmaster wiki! For more
 ## information, please see MoinMaster:MoinPagesEditorGroup.
 ##master-page:SlideTemplate
@@ -5,7 +6,7 @@
 #format wiki
 #language en
 #pragma section-numbers off
-[[Navigation(slides)]]
+<<Navigation(slides)>>
 = Generators - Maintaining Local Frame State =
 
 The Python literature mostly discusses generators in the context of iterators.  This masks the subtle truth:
