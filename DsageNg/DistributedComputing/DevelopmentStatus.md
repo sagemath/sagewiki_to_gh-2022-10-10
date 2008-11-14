@@ -1,3 +1,4 @@
+## page was renamed from DsageNg/DevelopmentStatus
 ## Please edit system and help pages ONLY in the moinmaster wiki! For more
 ## information, please see MoinMaster:MoinPagesEditorGroup.
 ##master-page:CategoryTemplate
@@ -5,7 +6,7 @@
 #format wiki
 #language en
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 Last Update: GlennTarbox Jul 03, 2008 21:23:00 (need to get the timestamp macros figured out)
 
