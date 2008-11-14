@@ -5,14 +5,14 @@ the kinds of documentation is Sage. Here are some areas that need work:
 
  * DOCTESTS -- This is the most obvious, as our doctest coverage is somewhere
    in the 33-35% range (depending on which cdef'd functions are counted, etc).
- * Manuals/Guides -- All of the guides [http://www.sagemath.org/documentation.html: here] 
+ * Manuals/Guides -- All of the guides [[http://www.sagemath.org/documentation.html:|here]] 
    could probably use some work.
  * Programming Guides -- There are several pieces of the code base (coercion model, 
    p-adics, pexpect interfaces, the notebook, etc) that are hard to understand at a 
    first glance (or even a tenth glance). It would be nice if people familiar with 
    those sections could write a general guide for each of them.
  * Several more suggestions were made in this thread:
-   [http://groups.google.com/group/sage-devel/browse_thread/thread/8a1b32d7339a293f/959e52081a57e914#959e52081a57e914: sage-devel thread]
+   [[http://groups.google.com/group/sage-devel/browse_thread/thread/8a1b32d7339a293f/959e52081a57e914#959e52081a57e914:|sage-devel thread]]
 
 == Names ==
 
