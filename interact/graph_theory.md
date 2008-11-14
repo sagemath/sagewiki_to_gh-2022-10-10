@@ -1,7 +1,7 @@
 = Sage Interactions - Graph Theory =
-goto [:interact:interact main page]
+goto [[interact|interact main page]]
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Graph Browser ==
 by Marshall Hampton 
@@ -42,7 +42,7 @@ def graph_browser(graph_name = selector(grs, label = "Graph type:"), newargs = i
     if output_type == '2D': show(t_graph)
     if output_type == '3D': t_graph.show3d()
 }}}
-attachment:graph_browse.png
+{{attachment:graph_browse.png}}
 
 
 == Automorphism Groups of some Graphs ==
@@ -70,4 +70,4 @@ def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
     show(plot(G))
 }}}
 
-attachment:auto_graph2.png
+{{attachment:auto_graph2.png}}
