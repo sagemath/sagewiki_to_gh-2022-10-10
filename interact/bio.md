@@ -1,7 +1,7 @@
 = Sage Interactions - Bioinformatics =
-goto [:interact:interact main page]
+goto [[interact|interact main page]]
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Web app: protein browser ==
 by Marshall Hampton (tested by William Stein)
@@ -18,7 +18,7 @@ def protein_browser(GenBank_ID = input_box('165940577', type = str), file_type =
     f.close()
     html(g)
 }}}
-attachment:biobrowse.png
+{{attachment:biobrowse.png}}
 
 == Coalescent simulator ==
 by Marshall Hampton
@@ -68,4 +68,4 @@ def coalescents(pop_size = slider(2,100,1,15,'Population size'), selection = sli
     print 'Generations until coalescence: ' + str(len(gens))
     show(coal_plot(coal_data1), axes = False, figsize = [8,4.0*len(gens)/pop_size], ymax = len(gens)-1)
 }}}
-attachment:coalescent.png
+{{attachment:coalescent.png}}
