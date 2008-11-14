@@ -11,7 +11,7 @@ Dear Participant, please enter:
 
  * Bremner, Murray R. (University of Saskatchewan)
 
- * [:IftikharBurhanuddin: Burhanuddin, Iftikhar] (University of Southern California, Computer Science)
+ * [[IftikharBurhanuddin| Burhanuddin, Iftikhar]] (University of Southern California, Computer Science)
 
  * Butt, Salman (University of Texas, Austin)
 
@@ -19,9 +19,9 @@ Dear Participant, please enter:
 
  * Clemesha, Alex 
 
- * [http://www.cs.berkeley.edu/~demmel/ Demmel, James] (UC Berkeley, Mathematics and Computer Science)
+ * [[http://www.cs.berkeley.edu/~demmel/|Demmel, James]] (UC Berkeley, Mathematics and Computer Science)
 
- * [http://homepage.mac.com/ehgoins/ Goins, Edray] (Purdue University, Mathematics)
+ * [[http://homepage.mac.com/ehgoins/|Goins, Edray]] (Purdue University, Mathematics)
  
  * Fearnley, Jack     jack@alcor.concordia.ca
 
@@ -31,7 +31,7 @@ Dear Participant, please enter:
 
  * Harvey, David Michael
 
- * [http://www.math.ncsu.edu/~kaltofen/index.html Kaltofen, Erich] (North Carolina State University, Mathematics)
+ * [[http://www.math.ncsu.edu/~kaltofen/index.html|Kaltofen, Erich]] (North Carolina State University, Mathematics)
 
  * Kane, Ben (University of Wisconsin - Madison, Mathematics)
 
@@ -43,7 +43,7 @@ Dear Participant, please enter:
 
  * Neun, Winfried (Zuse Institute Berlin, Germany)
 
- * [http://amath.colorado.edu/faculty/fperez/ Perez, Fernando] (University of Colorado, Applied Math)
+ * [[http://amath.colorado.edu/faculty/fperez/|Perez, Fernando]] (University of Colorado, Applied Math)
 
  * Pernet, Clement 
 
@@ -55,12 +55,12 @@ Dear Participant, please enter:
 
  * Stapleton, James Robert
 
- * [http://sage.math.washington.edu Stein, William] (University of Washington, Mathematics)
+ * [[http://sage.math.washington.edu|Stein, William]] (University of Washington, Mathematics)
 
  * Weening, Joe (CCR, Research) 
 
- * [http://www.math.lsu.edu/~verrill/ Verrill, Helena] (Lousianna State University, Mathematics)
+ * [[http://www.math.lsu.edu/~verrill/|Verrill, Helena]] (Lousianna State University, Mathematics)
 
- * [http://www.math.uic.edu/~jan Verschelde, Jan] (University of Illinois at Chicago)
+ * [[http://www.math.uic.edu/~jan|Verschelde, Jan]] (University of Illinois at Chicago)
 
  * Voight, John Michael
