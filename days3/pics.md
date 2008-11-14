@@ -1,10 +1,10 @@
 == SD3 Pics ==
 
 
-* [http://www.flickr.com/photos/martinralbrecht/tags/sagedays3/ Martin Albrecht] 
+* [[http://www.flickr.com/photos/martinralbrecht/tags/sagedays3/|Martin Albrecht]] 
 
-* [http://sage.math.washington.edu/home/burhanud/SD3_pics Iftikhar Burhanuddin] 
+* [[http://sage.math.washington.edu/home/burhanud/SD3_pics|Iftikhar Burhanuddin]] 
 
-* [http://www.yiqiang.net/gallery/sd3 Yi Qiang]
+* [[http://www.yiqiang.net/gallery/sd3|Yi Qiang]]
 
-* [http://sage.math.washington.edu/pics/new/2007-02/ William Stein]
+* [[http://sage.math.washington.edu/pics/new/2007-02/|William Stein]]
