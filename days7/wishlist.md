@@ -1,6 +1,6 @@
 This wishlist should be a list of features, software, algorithms, databases, or anything else you'd like to see in Sage.
 
-Back to the [:days7: main conference page].
+Back to the [[days7| main conference page]].
 
 == Features ==
 === Combinatorial Species ===
@@ -10,7 +10,7 @@ NickAlexander: Along these lines, I would like to be able to view a polynomial r
 
 === Graphs ===
  * Applet / javascript for dragging/repositioning vertices
- * Edge-labeled isomorphism checking [http://trac.sagemath.org/sage_trac/ticket/1304 DONE]
+ * Edge-labeled isomorphism checking [[http://trac.sagemath.org/sage_trac/ticket/1304|DONE]]
  * a nauty interface
  * a graph category in Sage
  * Graphs on surfaces
