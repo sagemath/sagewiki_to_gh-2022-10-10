@@ -1,20 +1,20 @@
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Introduction ==
-The SAGE [http://wiki.sagemath.org/graph Graph Theory Project] aims to implement Graph objects and algorithms in ["SAGE"].
+The SAGE [[http://wiki.sagemath.org/graph|Graph Theory Project]] aims to implement Graph objects and algorithms in [[SAGE]].
 
 The main people working on this project are Emily Kirkman and Robert Miller.
 
-We have attempted to make a complete list of existing graph theory software.  We posted functionality lists and some algorithm/construction summaries.  We are very interested in feedback or last-minute additions, as we are ready to begin [http://wiki.sagemath.org/graph_benchmark benchmarking] our findings.
+We have attempted to make a complete list of existing graph theory software.  We posted functionality lists and some algorithm/construction summaries.  We are very interested in feedback or last-minute additions, as we are ready to begin [[http://wiki.sagemath.org/graph_benchmark|benchmarking]] our findings.
 
 == Existing Graph Theory software ==
 === Software included with SAGE ===
 ==== GAP ====
  . (see GRAPE-- noting that GRAPE is not standard in SAGE)
 ==== Maxima ====
- . [http://wxmaxima.sourceforge.net/graphs/ GRAPHS package]
+ . [[http://wxmaxima.sourceforge.net/graphs/|GRAPHS package]]
 ==== NetworkX ====
- . [https://networkx.lanl.gov/ Link] Seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, !SciPy, PyGSL, sAsync, PyYAML: EXCELLENT documentation with links to source code from each function descriptor (TODO: make sense of networkx.utils, networkx.threshold, networkx.generators.small, networkx.me, networkx.mixing, networkx.search_class, networkx.tests); uses pygraphviz to interface to graphviz
+ . [[https://networkx.lanl.gov/|Link]] Seems pretty comprehensive, released under "GNU Lesser General Public License", works on Python $\geq$ 2.3, interfaces with Matplotlib, Pygraphviz, Graphviz, Pydot, numpy or Numeric, Ipython, !SciPy, PyGSL, sAsync, PyYAML: EXCELLENT documentation with links to source code from each function descriptor (TODO: make sense of networkx.utils, networkx.threshold, networkx.generators.small, networkx.me, networkx.mixing, networkx.search_class, networkx.tests); uses pygraphviz to interface to graphviz
   1. '''Representation'''
    * in Graph and !DiGraph, "data structures based on an adjacency list implemented as a node-centric dictionary of dictionaries. The dictionary contains keys corresponding to the nodes and the values are dictionaries of neighboring node keys with the value None (the Python None type). This allows fast addition, deletion and lookup of nodes and neighbors in large graphs"
    * "The XGraph and XDiGraph classes are extensions of the Graph and !DiGraph classes... The key difference is that an XGraph edge is a 3-tuple e=(n1,n2,x), representing an undirected edge between nodes n1 and n2 that is decorated with the object x. Here n1 and n2 are (hashable) node objects and x is a (not necessarily hashable) edge object. Since the edge is undirected, edge (n1,n2,x) is equivalent to edge (n2,n1,x). An XDiGraph edge is a similar 3-tuple e=(n1,n2,x), with the additional property of directedness. I.e. e=(n1,n2,x) is a directed edge from n1 to n2 decorated with the object x, and is not equivalent to the edge (n2,n1,x). Whether a graph or digraph allow self-loops or multiple edges is determined at the time of object instantiation via specifying the parameters selfloops=True/False and multiedges=True/False."
@@ -52,12 +52,12 @@ We have attempted to make a complete list of existing graph theory software.  We
    * layout: circular, shell, random, spring model, spectral layout, Power Iteration method to find smallest eigenvectors of Laplacian(G)
    * intervace to pygraphviz
    * Draw networks with matplotlib (pylab)
-   * Draw networks in 3d with [http://www.vtk.org/ vtk]
+   * Draw networks in 3d with [[http://www.vtk.org/|vtk]]
 === Software optional in SAGE ===
 ==== GRAPE ====
- . [http://www.maths.qmul.ac.uk/~leonard/grape/ Link]
+ . [[http://www.maths.qmul.ac.uk/~leonard/grape/|Link]]
   a. says David Joyner, "An official GAP package which must be installed separately. GRAPE is primarily designed for the construction and analysis of finite graphs related to groups, designs, and geometries. It has about 50 graph-theoretical functions written in GAP. However, 6 of these call (directly or indirectly) B. D. !McKay's program nauty."
-  a. Some of the following is copy/paste directly from L. H. Soicher's stellar [http://www.maths.qmul.ac.uk/~leonard/grape/manual/chapters.htm documentation]
+  a. Some of the following is copy/paste directly from L. H. Soicher's stellar [[http://www.maths.qmul.ac.uk/~leonard/grape/manual/chapters.htm|documentation]]
    1. '''Construction'''
     . In general GRAPE deals with finite directed graphs which may have loops but have no multiple edges. However, many GRAPE functions only work for simple graphs.  In GRAPE, a graph gamma is stored as a record, with mandatory components isGraph, order, group, schreierVector, representatives, and adjacencies.  The only mandatory component which may change once a graph is initially constructed is adjacencies. This is the most general and useful way of constructing a graph in GRAPE:
      * Graph( G, L, act, rel )
@@ -86,7 +86,7 @@ We have attempted to make a complete list of existing graph theory software.  We
    1. '''Colorings'''
     . Vertex Colorings
 ==== Nauty ====
- . [http://cs.anu.edu.au/~bdm/nauty/ Link]
+ . [[http://cs.anu.edu.au/~bdm/nauty/|Link]]
   a. Subset of GRAPE, which is why GRAPE is not be standard in SAGE as is
   a. Benchmark program
   a. Source posted, but no public license - should contact Brendan !McKay
@@ -100,11 +100,11 @@ We have attempted to make a complete list of existing graph theory software.  We
     . Computing automorphism groups of graphs and digraphs, isomorphism testing
 === Software interfaced in SAGE ===
 ==== Magma ====
- . [http://magma.maths.usyd.edu.au/magma/htmlhelp/text1452.htm Link]
+ . [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1452.htm|Link]]
   1. '''Representation'''
    . Sparse support; function computes memory requirement for graph with n verts and m edges; consists of graph itself, vertex set, and edge set
   1. '''Storage/Pipes'''
-   . one function opens either file or stream, files stored in [http://cs.anu.edu.au/~bdm/data/formats.html Graph6 and Sparse6 format]
+   . one function opens either file or stream, files stored in [[http://cs.anu.edu.au/~bdm/data/formats.html|Graph6 and Sparse6 format]]
   1. '''Construction'''
    . From matrix; from edge tuples; from vertex neighbors; from edges of other graphs; subgraphs; quotient graphs; incremental construction; complement; contraction; breaking edges; line graph; switch nbrs for non-nbrs of a vertex; disjoint unions, edge unions; complete unions; cartesian, lexicographic and tensor products; n-th power (same vert set, incident iff dist $\leq$ n); graph $\leftrightarrow$ digraph; Cayley graph constructor; Schreier graph constructor; Orbital graph constructor; Closure graph constructor (given G, add edges to make G invariant under a given permutation group); Paley graphs and tournaments; graphs from incidence structures; converse(reverse digraph); n-th odd graph; n-th triangular graph; n-th square lattice graph; Clebsch, Shrikhande, Gewirtz and Chang graphs;
   1. '''Decorations''' (Coloring, Weight, Flow, etc.)
@@ -114,11 +114,11 @@ We have attempted to make a complete list of existing graph theory software.  We
   1. '''Predicates'''
    . 2 verts incident, 2 edges incident, 1 vertex and 1 edge incident, subgraph, bipartite, complete, Eulerian, tree, forest, empty, null, path, polygon, regular
   1. '''Subgraphs and Subsets'''
-   . has k-clique, clique number, all cliques, maximum clique ([http://magma.maths.usyd.edu.au/magma/htmlhelp/text1473.htm "When comparing both algorithms in the situation where the problem is to find a maximum clique one observes that in general BranchAndBound does better. However Dynamic outperforms BranchAndBound when the graphs under consideration are large (more then 400 vertices) random graphs with high density (larger than 0.5%). So far, it can only be said that the comparative behaviour of both algorithms is highly dependent on the structure of the graphs."]), independent sets and number,
+   . has k-clique, clique number, all cliques, maximum clique ([[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1473.htm|"When comparing both algorithms in the situation where the problem is to find a maximum clique one observes that in general BranchAndBound does better. However Dynamic outperforms BranchAndBound when the graphs under consideration are large (more then 400 vertices) random graphs with high density (larger than 0.5%). So far, it can only be said that the comparative behaviour of both algorithms is highly dependent on the structure of the graphs."]]), independent sets and number,
   1. '''Adjacency, etc.'''
    . (in- & out-) degree, degree vector, valence (if regular), vertex nbrs, edge nbrs, bipartition, dominating sets
   1. '''Connectivity'''
-   . (strongly) connected, components, separable, 2-connected, 2-components, triconnectivity ([http://magma.maths.usyd.edu.au/magma/htmlhelp/text1466.htm "The linear-time triconnectivity algorithm by Hopcroft and Tarjan (HT73) has been implemented with corrections of our own and from C. Gutwenger and P. Mutzel (GM01). This algorithm requires that the graph has a sparse representation."]), k-vertex connectivity, vertex separator, k-edge connectivity, edge separator
+   . (strongly) connected, components, separable, 2-connected, 2-components, triconnectivity ([[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1466.htm|"The linear-time triconnectivity algorithm by Hopcroft and Tarjan (HT73) has been implemented with corrections of our own and from C. Gutwenger and P. Mutzel (GM01). This algorithm requires that the graph has a sparse representation."]]), k-vertex connectivity, vertex separator, k-edge connectivity, edge separator
   1. '''Paths, etc.'''
    . distance and geodesic, diameter and corr. path, ball and sphere, distance partition, equitable partition, girth and corr. cycle
   1. '''Trees, etc.'''
@@ -126,7 +126,7 @@ We have attempted to make a complete list of existing graph theory software.  We
   1. '''Colorings'''(see also Decorations)
    . chromatic number and index, optimal vertex and edge colorings, chromatic polynomial
   1. '''Optimization'''
-   . Max flow min cut (2 algorithms: [http://magma.maths.usyd.edu.au/magma/htmlhelp/text1499.htm#15274 Dinic & push-relabel]), maximum matching for bipartite,
+   . Max flow min cut (2 algorithms: [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1499.htm#15274|Dinic & push-relabel]]), maximum matching for bipartite,
   1. '''Embedding''' (Planar graphs, etc.)
    . planarity, Kuratowski subgraphs, faces of a planar graph, embedding info as orientation of edges from a vertex
   1. '''Algebra'''
@@ -174,7 +174,7 @@ We have attempted to make a complete list of existing graph theory software.  We
   1. '''Visualization'''
    . plots graphs either in lines (Linear) or in concentric circles (Concentric), ability to give specific graphs specific plotting procedures, 3d plots ("The location of the vertices of the graph is determined as follows. Let A be the adjacency matrix of G and let u, v and w be three eigenvectors of A with corresponding second, third, and fourth largest eigenvalue in absolute value. Then the (x,y,z) coordinates of the ith vertex of G is (u[i],v[i],w[i])."; "Sometimes other symmetries in the graph can be seen by using other eigenvectors. If the optional argument eigenvectors = [e1, e2, e3] is specified, where e1, e2, and e3 are vertex numbers (integers from 1 through the number of vertices), the eigenvectors corresponding to the eigenvalues of these relative magnitudes are used.")
 ==== Mathematica ====
- . [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/ GraphPlot]([http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotReferences.html biblio]) is built-in: also a few functions for "applications" (?); designed to work well with large graphs; also supports graphs from ''Combinatorica''
+ . [[http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/|GraphPlot]]([[http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotReferences.html|biblio]]) is built-in: also a few functions for "applications" (?); designed to work well with large graphs; also supports graphs from ''Combinatorica''
   1. '''Representation'''
    . graph simply ''is'' an adjacency matrix (could be sparse), or a list of rules (e.g. {1->2, 2->3, 3->4, 4->1})
   1. '''Construction'''
@@ -186,16 +186,16 @@ We have attempted to make a complete list of existing graph theory software.  We
   1. '''Connectivity'''
    . list strongly connected components,
   1. '''Paths, etc.'''
-   . distance, pseudo-diameter (see [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotPseudoDiameter.html Documentation])
+   . distance, pseudo-diameter (see [[http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotPseudoDiameter.html|Documentation]])
   1. '''Trees, etc.'''
-   . [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotTreePlot.html TreePlot] uses the layered drawing algorithm, implements more control:
+   . [[http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotTreePlot.html|TreePlot]] uses the layered drawing algorithm, implements more control:
   1. '''Optimization'''
-   . maximum matching for bipartite, [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotMinCut.html min cut] problem
+   . maximum matching for bipartite, [[http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotMinCut.html|min cut]] problem
   1. '''Visualization'''
-   . [http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotGraphPlotAndGraphPlot3D.html ALGORITHMS] include spring model, spring-electrical model, high-dimensional embedding (random seeds can be given for spring models, link includes options for the spring models); tree algorithms include radial drawing, layered drawing (see G. Di Battista, P. Eades, R. Tamassia, and I. G. Tollis, Algorithms for the Visualization of Graphs, Prentice-Hall, 1999.); vertex styles and colors, edge styles and colors; function to return coordinates without drawing
+   . [[http://documents.wolfram.com/mathematica/Built-inFunctions/AdvancedDocumentation/DiscreteMath/GraphPlot/AdvancedDocumentationGraphPlotGraphPlotAndGraphPlot3D.html|ALGORITHMS]] include spring model, spring-electrical model, high-dimensional embedding (random seeds can be given for spring models, link includes options for the spring models); tree algorithms include radial drawing, layered drawing (see G. Di Battista, P. Eades, R. Tamassia, and I. G. Tollis, Algorithms for the Visualization of Graphs, Prentice-Hall, 1999.); vertex styles and colors, edge styles and colors; function to return coordinates without drawing
 === Extensions of interfaced software in SAGE ===
 ==== Maple: 'laplacian.mpl' ====
- a. [http://www.math.uga.edu/~mbaker/REU/maple/laplacian-guide.html 'laplacian.mpl']; [http://www.fmf.uni-lj.si/~mohar/Papers/Spec.pdf here] is a paper on the Laplacian Spectrum
+ a. [[http://www.math.uga.edu/~mbaker/REU/maple/laplacian-guide.html|'laplacian.mpl']]; [[http://www.fmf.uni-lj.si/~mohar/Papers/Spec.pdf|here]] is a paper on the Laplacian Spectrum
   1. '''Storage/Pipes'''
    . creation of certain spreadsheets, such as known eigenvalues and eigenvalues of increasing subdivisions of the graph
   1. '''Construction'''
@@ -205,10 +205,10 @@ We have attempted to make a complete list of existing graph theory software.  We
   1. '''Algebra'''
    . discrete laplacian matrix (this function may fight with the built-in laplacian in 'linalg'), compute its eigenvalues given a measure,
   1. '''Topology'''
-   . (laplacian matrix), effective resistance between vertices, discrete and continuous canonical measure [http://www.math.uga.edu/~mbaker/REU/tex/canonical.pdf#search="graph%20tau" an unrelated explanation?] and tau (also, taushorten "Investigates the behavior of tau as an edge is shortened"), discrete dx measure
- a. [http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf GraphTheory] and [http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf Part II] of the paper (haven't yet found the actual package...)
+   . (laplacian matrix), effective resistance between vertices, discrete and continuous canonical measure [[http://www.math.uga.edu/~mbaker/REU/tex/canonical.pdf#search="graph%20tau"|an unrelated explanation?]] and tau (also, taushorten "Investigates the behavior of tau as an edge is shortened"), discrete dx measure
+ a. [[http://www.cecm.sfu.ca/CAG/papers/GTpaper.pdf|GraphTheory]] and [[http://www.cecm.sfu.ca/CAG/papers/GT2006.pdf|Part II]] of the paper (haven't yet found the actual package...)
 ==== Mathematica: Combinatorica ====
- a. [http://www.combinatorica.com/ Combinatorica] - for a list of functions, see [http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf help.pdf], page 13-14, 18, 21, 23, 25 - for a [http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/ book]
+ a. [[http://www.combinatorica.com/|Combinatorica]] - for a list of functions, see [[http://www.cs.sunysb.edu/~skiena/combinatorica/help.pdf|help.pdf]], page 13-14, 18, 21, 23, 25 - for a [[http://www.amazon.com/exec/obidos/ASIN/0521806860/ref=nosim/thealgorithmrepo/|book]]
  a. For a comparison of functionality in Combinatorica and SAGE, see the CombinatoricaCompare page.
 === Other (useful) software ===
 ==== Python Libraries ====
@@ -216,33 +216,33 @@ We have attempted to make a complete list of existing graph theory software.  We
  . contains pygraph and pydot
  . spanning trees by dijkstra and prim, shortest path, depth and breadth first (yep, that's it)
 ===== Pygraphviz, pydot, YAPGVB =====
- . [http://networkx.lanl.gov/pygraphviz/ Pygraphviz] is a part of NetworkX, meant to be a python interface to Graphviz
- . [http://dkbza.org/pydot.html Pydot] is a python interface to Graphviz's dot language
- . [http://yapgvb.sourceforge.net/ Yet Another Python Graphviz Binding] is yet another acronym, also has boost-graph bindings...
+ . [[http://networkx.lanl.gov/pygraphviz/|Pygraphviz]] is a part of NetworkX, meant to be a python interface to Graphviz
+ . [[http://dkbza.org/pydot.html|Pydot]] is a python interface to Graphviz's dot language
+ . [[http://yapgvb.sourceforge.net/|Yet Another Python Graphviz Binding]] is yet another acronym, also has boost-graph bindings...
 ===== GraphViz =====
- . [http://www.graphviz.org Link]
+ . [[http://www.graphviz.org|Link]]
   a. open source, Common Public License Version 1.0 (BSD style)
   a. poorly documented, at least on the web
    1. '''Visualization'''
     . DOT makes "hierarchical" drawings of directed graphs.  Algorithm aims edges in same direction and attempts to not cross edges and reduce length.
     . NEATO uses spring method, via the Kamada-Kawai algorithm (statistical multi-dimensional scaling)
     . fdp also uses the spring model, via the Fruchterman-Reingold heuristic (handles larger graphs and undirected, clustered graphs)
-    . a [http://www.dkbza.org/pydot.html python interface]
+    . a [[http://www.dkbza.org/pydot.html|python interface]]
     . "options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes."
 ===== Gato =====
- . [http://gato.sourceforge.net/ Link] A tool that animates algorithms, perhaps SAGE cannot actually include right now as is, but license is LGPL, and it requires Python and Tcl/Tk: would be good for educational purposes
+ . [[http://gato.sourceforge.net/|Link]] A tool that animates algorithms, perhaps SAGE cannot actually include right now as is, but license is LGPL, and it requires Python and Tcl/Tk: would be good for educational purposes
   . seems that you can write your algorithm in one window and watch it go, supports 3d
 ==== C/C++ ====
 ===== CHomP =====
- . [http://www.math.gatech.edu/~chomp/software/ link] GPL, written in C++, several benchmarks on page
-  . application, and C++ [http://www.math.gatech.edu/~chomp/advanced/library.php library]: "The CHomP library allows a C++ programmer to access the data structures and homology computation procedures directly from their own programs, without the need to write data to files and then run homology programs which would read them in turn." (This had worried me at first, because the main programs only take strictly black&white bitmaps as input... -RLM)
+ . [[http://www.math.gatech.edu/~chomp/software/|link]] GPL, written in C++, several benchmarks on page
+  . application, and C++ [[http://www.math.gatech.edu/~chomp/advanced/library.php|library]]: "The CHomP library allows a C++ programmer to access the data structures and homology computation procedures directly from their own programs, without the need to write data to files and then run homology programs which would read them in turn." (This had worried me at first, because the main programs only take strictly black&white bitmaps as input... -RLM)
    1. Homology computation: compute the homology groups over $\mathbf{Z}$ or $\mathbf{Z}_p$ of a chain complex, as well as the homs induced in homology by chain maps; compute the (relative) homology of a set of cubes or a cubical set, as well as the homomorphism induced in homology by an acyclic combinatorial cubical multivalued map; compute the homology of a finite abstract simplicial complex or relative homology of a pair of simplicial complexes; construct a chain selector of an almost perfect combinatorial cubical multivalued map- this program was written by Marcin Mazur and Jacek Szybowski; find an index pair with Andrzej Szymczak's algorithm
    1. Data verification: verify whether a combinatorial cubical multivalued map is suitable for the (relative) homology computation with homcubes; verify whether a combinatorial cubical multivalued map satisfy the almost-perfectnessassumption of the chmap program
    1. Converting data files: convert a set of cubes between the format used in the Bill Kalies' chom program and the format used in this Homology Package; extract a list of squares from an uncompressed Windows bitmap file; convert a set of cubical cells into a set of cubes- in the input file, if any cell spans across several cubes, then all the cubes it contains are written to the output file; convert a chain map from the output format of the chmap program written by Marcin Mazur and Jacek Szybowski to the input format for homchain, which is necessary if one wants to compute the homomorphism induced in homology by such a map; convert a combinatorial cubical multivalued map from the format used in chmap by Marcin Mazur and Jacek Szybowski to the format used in the Homology Package, in which each cube is mapped to a set of cubes, not necessarily convex; convert a set of cubes to a set of corresponding cubical cells; create a map whose graph is stored as a set of cubes, or create the combinatorial cubical multivalued indentity map on the given set of cubes; extract the domain, image, and/or graph of a combinatorial cubical multivalued map; extract a list of pixels or voxels from a raw bitmap data; draw a 2-dimensional projection of a set of cubes onto one of the planes spanned by selected two axes
    1. Data manipulation: create a chain complex of a set of cubes; create chain maps corresponding to the projections of a map whose graph is given onto domain and codomain; compute the difference of two sets of cubes; divide a set of cubes into subsets separated by hyperplanes; create a chain complex of a simplicial complex; compute the restriction of a map to the given subset of its domain; compute the common part of given sets of cubes; split a set of cubes into connected components; compute the union of given sets of cubes
    1. Tools and test programs
 ===== Boost C++ Libraries =====
- . [http://www.boost.org/libs/graph/doc/index.html link]: a C++ library with a GPL-ish license, algorithms:
+ . [[http://www.boost.org/libs/graph/doc/index.html|link]]: a C++ library with a GPL-ish license, algorithms:
   * Dijkstra's Shortest Paths
   * Bellman-Ford Shortest Paths
   * Johnson's All-Pairs Shortest Paths
@@ -257,19 +257,19 @@ We have attempted to make a complete list of existing graph theory software.  We
   * Smallest Last Vertex Ordering
   * Sequential Vertex Coloring
 ===== Very_nauty =====
- . [http://keithbriggs.info/very_nauty.html Link]
+ . [[http://keithbriggs.info/very_nauty.html|Link]]
   a. designed to be compatible with nauty
   a. C library
   a. '''Subgraphs and Subsets'''
    . cliques in G(n,p), # of graphs on n nodes with chromatic number k, # of graphs on n nodes with clique number k, new data on chromatic number and cliqe number, Lambert's w function
 ===== plantri/fullgen =====
- . [http://cs.anu.edu.au/people/bdm/plantri/ Link] written in C, tested mainly on UNIX, weird license ('free for all purposes other than sale for profit. However, they remain subject to our copyright and are not "public domain".'): interesting note, co-authored by Brendan !McKay, of ''nauty''
+ . [[http://cs.anu.edu.au/people/bdm/plantri/|Link]] written in C, tested mainly on UNIX, weird license ('free for all purposes other than sale for profit. However, they remain subject to our copyright and are not "public domain".'): interesting note, co-authored by Brendan !McKay, of ''nauty''
   1. '''Generation/Random Graphs'''
    * plantri: "exactly one member of each isomorphism class is output without the need for storing them. The speed of generation is more than 100,000 graphs per second in most cases, so extremely large classes of graph can be exhaustively listed.", classes include planar triangulations, quadrangulations, simple graphs, triangulations of a disc, planar cubic and quartic graphs
    * fullgen generates fullerenes
-   * see also [http://hep.physics.indiana.edu/~tsulanke/graphs/surftri/ surftri], which generates triangulations of surfaces of higher genus
+   * see also [[http://hep.physics.indiana.edu/~tsulanke/graphs/surftri/|surftri]], which generates triangulations of surfaces of higher genus
 ===== GraphThing =====
- . [http://graph.seul.org/ link] GPL, C++, [http://www.wxwidgets.org/ wxWidgets]
+ . [[http://graph.seul.org/|link]] GPL, C++, [[http://www.wxwidgets.org/|wxWidgets]]
   * Adding, deleting and moving of vertices and edges.
   * Loading and saving of graphs.
   * Graph complements, induced subgraphs and line graphs.
@@ -280,21 +280,21 @@ We have attempted to make a complete list of existing graph theory software.  We
   * Chromatic polynomial and chromatic number.
   * Network algorithms: Maximum network flow.
 ===== EWS =====
- . [http://www.mathe2.uni-bayreuth.de/axel/ews.html Link]
+ . [[http://www.mathe2.uni-bayreuth.de/axel/ews.html|Link]]
   . auf Deutsche
 ===== LINK =====
- I. [http://dimacs.rutgers.edu/~berryj/LINK.html (hyper)link]
+ I. [[http://dimacs.rutgers.edu/~berryj/LINK.html|(hyper)link]]
   a. Free, but not open source
   a. C++ libraries
   a. Doc's are PS, which upsets my computer very much!!! (ie - I can't read them so I don't actually know that much about LINK)
 ===== ABACUS (A Branch-And-!CUt System) =====
- . [http://www.informatik.uni-koeln.de/abacus/ Link]
+ . [[http://www.informatik.uni-koeln.de/abacus/|Link]]
   a. open source, GNU Lesser GPL v2.1
   a. C++ libraries
   a. '''Optimization'''
    . Branch-and-Bound algorithm, linear programming relaxations allow for dynamic generation of cutting planes or columns)
 ===== GOBLIN =====
- . [http://www.math.uni-augsburg.de/~fremuth/goblin.html Link]
+ . [[http://www.math.uni-augsburg.de/~fremuth/goblin.html|Link]]
   . LGPL C++ library with Tcl/Tk interface
   * '''Representation'''
   . Adjacency matrix or incidence list
@@ -303,57 +303,57 @@ We have attempted to make a complete list of existing graph theory software.  We
   * '''Optimization'''
   . "Focuses on" combinatorical optimization algorithms, especially network flow and load balancing
 ===== igraph =====
- . [http://cneurocvs.rmki.kfki.hu/igraph/ Link], open source, written in C, with Python, Ruby and R interfaces.
+ . [[http://cneurocvs.rmki.kfki.hu/igraph/|Link]], open source, written in C, with Python, Ruby and R interfaces.
 ==== JAVA ====
 ===== CAIDA's Walrus =====
- . [http://www.caida.org/tools/visualization/walrus/ link] GPL, written in Java, "best suited to visualizing moderately sized graphs that are nearly trees" (viz only), PRETTY, doesn't work in OS X currently (as of 10/10/06), no functionality
+ . [[http://www.caida.org/tools/visualization/walrus/|link]] GPL, written in Java, "best suited to visualizing moderately sized graphs that are nearly trees" (viz only), PRETTY, doesn't work in OS X currently (as of 10/10/06), no functionality
 ===== The Graph Visualization Framework =====
- . [http://gvf.sourceforge.net/ Link] Name self-explanatory.  Open source, but written in Java.
+ . [[http://gvf.sourceforge.net/|Link]] Name self-explanatory.  Open source, but written in Java.
 ===== JGraphT =====
- . [http://jgrapht.sourceforge.net/ Link] JGraphT is a free Java graph library that provides mathematical graph-theory objects and algorithms
+ . [[http://jgrapht.sourceforge.net/|Link]] JGraphT is a free Java graph library that provides mathematical graph-theory objects and algorithms
 ===== GINY =====
- . [http://csbi.sourceforge.net/ Link] Open source java intefaces for supreme graph visualization
+ . [[http://csbi.sourceforge.net/|Link]] Open source java intefaces for supreme graph visualization
 ===== JUNG =====
- . [http://jung.sourceforge.net/ Link] Open source java library
+ . [[http://jung.sourceforge.net/|Link]] Open source java library
 ===== JDigraph =====
- . [http://jdigraph.sourceforge.net/ Link] Open source java library
+ . [[http://jdigraph.sourceforge.net/|Link]] Open source java library
 ===== WilmaScope =====
- . [http://www.wilmascope.org/ Link] a Java3D application which creates real time 3d animations of dynamic graph structures
+ . [[http://www.wilmascope.org/|Link]] a Java3D application which creates real time 3d animations of dynamic graph structures
 ===== nv2d =====
- . [http://ostatic.com/110007-software-opensource/nv2d link]
+ . [[http://ostatic.com/110007-software-opensource/nv2d|link]]
   1. '''Visualization'''
   1. Java visualization, designed to run in a browser
   1. Spring model visualization
   1. '''Construction'''
   1. Data from GraphML, Nfile
 ===== JGraphEd =====
- . [http://www.jharris.ca/JGraphEd/ Link], Java-based graph editor, entirely GUI, with very basic interface. Good example of a bad interactive environment.
+ . [[http://www.jharris.ca/JGraphEd/|Link]], Java-based graph editor, entirely GUI, with very basic interface. Good example of a bad interactive environment.
 ===== JIGGLE =====
- . [http://www.cs.cmu.edu/~quixote/ Link]
+ . [[http://www.cs.cmu.edu/~quixote/|Link]]
   1. '''Visualization'''
   1. Java visualization applet, poor interface, minimal, source available
 ===== RoxGT =====
- . [http://roxgt.sourceforge.net Link]
+ . [[http://roxgt.sourceforge.net|Link]]
   . Claims to be a complete extensible graph framework, written in Java. No documentation.
 ==== And more ====
 These need to be organized...
 
 ===== DISCRETA =====
- . [http://www.mathe2.uni-bayreuth.de/discreta/ Link]
+ . [[http://www.mathe2.uni-bayreuth.de/discreta/|Link]]
 ===== GTL =====
- . The [http://www.cs.sunysb.edu/~algorith/implement/gtl/implement.shtml Graph Template Library], and extension of the STL... a few basic algorithms. see also [http://www.infosun.fim.uni-passau.de/Graphlet/ Graphlet]
+ . The [[http://www.cs.sunysb.edu/~algorith/implement/gtl/implement.shtml|Graph Template Library]], and extension of the STL... a few basic algorithms. see also [[http://www.infosun.fim.uni-passau.de/Graphlet/|Graphlet]]
 ===== GeoSteiner =====
- . [http://www.diku.dk/geosteiner/ Link]
+ . [[http://www.diku.dk/geosteiner/|Link]]
   1. ''' Construction''' A set of points in different formats
   1. '''Trees, etc.'''
   1. Euclidean Steiner Tree Problem in the Plane
   1. Rectilinear Steiner Tree Problem in the Plane
   1. Minimum Spanning Tree Problem in Hypergraphs
- [http://www.diku.dk/geosteiner/LICENSE License]
+ [[http://www.diku.dk/geosteiner/LICENSE|License]]
 ===== GUESS =====
- . [http://graphexploration.cond.org/ link] represents graphs in JUNG, "still a work in progress", most if not all functionality besides visualization reduces to JUNG
+ . [[http://graphexploration.cond.org/|link]] represents graphs in JUNG, "still a work in progress", most if not all functionality besides visualization reduces to JUNG
 ===== GRIN =====
- . [http://www.geocities.com/pechv_ru/ Link]
+ . [[http://www.geocities.com/pechv_ru/|Link]]
   a. for windows only
   a. not open-source, but free download
    1. '''Connectivity'''
@@ -371,9 +371,9 @@ These need to be organized...
    1. '''Visualization'''
     . 2d only, Clipboard edit, decomposition of edges, resize
 ===== DSATUR =====
- . [http://prolland.free.fr/works/research/dsatphp/dsat.html Link], a program for computing graph colorings, algorithm [http://prolland.free.fr/works/research/dsat/index.html#anchor38034 documentation] in French, input in [http://mat.gsia.cmu.edu/COLOR/general/ccformat.ps DIMACS] format, [http://prolland.free.fr/works/research/dsatphp/dsat.txt source code]
+ . [[http://prolland.free.fr/works/research/dsatphp/dsat.html|Link]], a program for computing graph colorings, algorithm [[http://prolland.free.fr/works/research/dsat/index.html#anchor38034|documentation]] in French, input in [[http://mat.gsia.cmu.edu/COLOR/general/ccformat.ps|DIMACS]] format, [[http://prolland.free.fr/works/research/dsatphp/dsat.txt|source code]]
 ===== LEDA =====
- I. [http://www.algorithmic-solutions.info/leda_guide/graph_algorithms/graph_draw.html Link]
+ I. [[http://www.algorithmic-solutions.info/leda_guide/graph_algorithms/graph_draw.html|Link]]
   a. Commercial, but supposedly fast
   a. '''Morphisms / Group Actions'''
    . Module graph and subgraph isomorphisms
@@ -383,47 +383,47 @@ These need to be organized...
    a. Module Cryptography
    a. Static Graphs
 ===== GDToolkit =====
- . [http://www.dia.uniroma3.it/~gdt/ Link] Closed source, visualization. OOP hierarchy of graph drawing classes - but we can't see the classes... hence 'useless'.
+ . [[http://www.dia.uniroma3.it/~gdt/|Link]] Closed source, visualization. OOP hierarchy of graph drawing classes - but we can't see the classes... hence 'useless'.
 ===== StOCNET =====
- . [http://stat.gamma.rug.nl/stocnet/ Link] Social Networks
+ . [[http://stat.gamma.rug.nl/stocnet/|Link]] Social Networks
 ===== TouchGraph =====
- . [http://touchgraph.sourceforge.net/ Link] a GraphLayout library.  I can't say much else because the 'CVS + Source' link is dead.  Is this a temporary problem or should we completely toss this one?
+ . [[http://touchgraph.sourceforge.net/|Link]] a GraphLayout library.  I can't say much else because the 'CVS + Source' link is dead.  Is this a temporary problem or should we completely toss this one?
 ===== Vancouver Network Analysis Team =====
- . [http://www.sfu.ca/~richards/ Link], Social Network Analysis
+ . [[http://www.sfu.ca/~richards/|Link]], Social Network Analysis
 ===== yFiles =====
- . [http://www.yworks.com/en/products_yfiles_about.htm Link], Commercial but pretty visualization
+ . [[http://www.yworks.com/en/products_yfiles_about.htm|Link]], Commercial but pretty visualization
 ===== prefuse =====
- . [http://prefuse.org/ link] "information visualization toolkit"
+ . [[http://prefuse.org/|link]] "information visualization toolkit"
 ===== LGL (Large Graph Layout) =====
- . [http://sourceforge.net/projects/lgl link] LGL is a compendium of applications for making the visualization of large networks and trees tractable. LGL was specifically motivated by the need to make the visualization and exploration of large biological networks more accessible.
+ . [[http://sourceforge.net/projects/lgl|link]] LGL is a compendium of applications for making the visualization of large networks and trees tractable. LGL was specifically motivated by the need to make the visualization and exploration of large biological networks more accessible.
 ===== Otter =====
- . [http://www.caida.org/tools/utilities/ Link] Defunct
+ . [[http://www.caida.org/tools/utilities/|Link]] Defunct
 ===== Gravisto =====
- . [http://gravisto.fmi.uni-passau.de/ Link]
+ . [[http://gravisto.fmi.uni-passau.de/|Link]]
 ===== INGRID =====
- . [http://ingrid.ldgo.columbia.edu/ Link]
+ . [[http://ingrid.ldgo.columbia.edu/|Link]]
   . Seems geared for climate modeling. Written in PostScript (???)
 ===== METIS =====
- . [http://glaros.dtc.umn.edu/gkhome/views/metis/ Link]
+ . [[http://glaros.dtc.umn.edu/gkhome/views/metis/|Link]]
   1. '''Paths'''
   1. Claims to be fast at partitioning using various algorithms
   1. Fill-reducing ordering algorithms on sparse matrix representations, running a fill-reducing ordering on a matrix increases algorithm efficiency.
-  1. [http://www.dtc.umn.edu/publications/reports/2006_03.pdf Documentation here]
+  1. [[http://www.dtc.umn.edu/publications/reports/2006_03.pdf|Documentation here]]
 ===== Algolib =====
- . [http://algo.inria.fr/libraries/software.html Link]
+ . [[http://algo.inria.fr/libraries/software.html|Link]]
   . Appears to be for general combinatorics (gen. functions, mostly) Doesn't seem to do graph theory.
 ===== ACE =====
- . [http://phalanstere.univ-mlv.fr/~ace/ACE/3.0/ACE.html Link]
+ . [[http://phalanstere.univ-mlv.fr/~ace/ACE/3.0/ACE.html|Link]]
   . MAPLE Package for computer algebra and combinatorics. No longer being maintained.
 ===== Scalable Libraries for Graph Partitioning =====
- . [http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html Link], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
+ . [[http://www.npac.syr.edu/NPAC1/PUB/ranka/part/part.html|Link]], no software yet, but good references on page: "Efficient methods for graph partitioning and incremental graph partitioning are important for parallelization of a large number of unstructured and/or adaptive applications."
 ===== Netvis Module =====
- . [http://www.netvis.org/ Link], Social Networks
+ . [[http://www.netvis.org/|Link]], Social Networks
 ===== Cyram Netminer =====
- . [http://www.netminer.com/NetMiner/home_01.jsp Link], closed source, social networks
+ . [[http://www.netminer.com/NetMiner/home_01.jsp|Link]], closed source, social networks
 == Algorithm Repositories ==
 === Stony Brook ===
- . [http://www.cs.sunysb.edu/~algorith/index.html Linky]
+ . [[http://www.cs.sunysb.edu/~algorith/index.html|Linky]]
   1. Polynomial time
    * Connected Components
    * Topological Sorting
@@ -450,17 +450,17 @@ These need to be organized...
    * Steiner Tree
    * Feedback Edge/Vertex Set
 === InterTools ===
- . [http://rtm.science.unitn.it/intertools/ InterTools]
+ . [[http://rtm.science.unitn.it/intertools/|InterTools]]
   1. Maximum Clique in Graphs (MAX-CLIQUE)
   1. Graph Partitioning (equicut)
   1. Quadratic Assignment Problem (QAP)
 === Graph Partitioners ===
- . [http://www.cs.cmu.edu/~scandal/alg/separator.html Link]
+ . [[http://www.cs.cmu.edu/~scandal/alg/separator.html|Link]]
   1. Coordinate Bisection
   1. Random Circles
   1. Spectral Bisection
 === GraphBase ===
- . [http://www.cs.sunysb.edu/~algorith/implement/graphbase/implement.shtml Standford Link]
+ . [[http://www.cs.sunysb.edu/~algorith/implement/graphbase/implement.shtml|Standford Link]]
   1. '''Generations/Random Graphs'''
    a. Generating Graphs
    a. Random Number Generation
@@ -488,7 +488,7 @@ These need to be organized...
    a. Voronoi Diagrams
    a. Cryptography
 === Groups & Graphs ===
- . [http://www.paddle.mb.ca/G&G/G&G.html Link]
+ . [[http://www.paddle.mb.ca/G&G/G&G.html|Link]]
   a. free download, but no mention of source or license
   a. no internet doc's
   a. links out to papers on algorithms (references Brendan !McKay's ''Practical Graph Isomorphism'' paper)
@@ -510,7 +510,7 @@ These need to be organized...
    1. '''Needs a Functionality Category'''
     a. Projective Configurations
 === Dr. Epstein ===
- . [http://www.ics.uci.edu/~eppstein/PADS/ Some python algorithms]
+ . [[http://www.ics.uci.edu/~eppstein/PADS/|Some python algorithms]]
 == Functionality categories ==
  1. '''Representation'''
  1. '''Storage/Pipes'''
@@ -535,14 +535,14 @@ These need to be organized...
  1. '''Database'''
  1. '''Visualization'''
 == Miscellaneous Flora and Fauna ==
- * [http://wwwteo.informatik.uni-rostock.de/isgci/smallgraphs.html List of small graphs]
- * [http://citeseer.ist.psu.edu/hansen01computers.html Computers and Discovery in Algebraic Graph Theory]
- * [http://people.freenet.de/Emden-Weinert/graphs.html Thomas Emden-Weinert's webpage]: many many many many many links and resources
- * [http://vlado.fmf.uni-lj.si/vlado/vladonet.htm Vladimir Batagelj's website]: same story
- * [http://hypergraph.sourceforge.net/ HyperGraph], open source Java library for hypergraphs (might be interesting to browse the source at some point)
- * [http://glaros.dtc.umn.edu/gkhome/views/cluto/index.html CLUTO] - Family of Data Clustering Software Tools
- * [http://glaros.dtc.umn.edu/gkhome/views/metis/parmetis/index.html METIS] - Family of Multilevel Partitioning Algorithms: "a family of programs for partitioning unstructured graphs and hypergraphs and computing fill-reducing orderings of sparse matrices. The underlying algorithms used by METIS are based on the state-of-the-art multilevel paradigm that has been shown to produce high quality results and scale to very large problems."
- * [http://amalfi.dis.unina.it/graph/ "The Graph Database"]
- * [http://research.microsoft.com/users/lovasz/geommain.pdf Paper]: Geometric Representations of Graphs, by Lásló Lovász
- * [http://web.cs.ualberta.ca/~joe/Coloring/ Joe Culberson]'s graph coloring software
- * [http://www.win.tue.nl/~aeb/graphs/index.html Andries Brouwer]'s collection of various graphs.
+ * [[http://wwwteo.informatik.uni-rostock.de/isgci/smallgraphs.html|List of small graphs]]
+ * [[http://citeseer.ist.psu.edu/hansen01computers.html|Computers and Discovery in Algebraic Graph Theory]]
+ * [[http://people.freenet.de/Emden-Weinert/graphs.html|Thomas Emden-Weinert's webpage]]: many many many many many links and resources
+ * [[http://vlado.fmf.uni-lj.si/vlado/vladonet.htm|Vladimir Batagelj's website]]: same story
+ * [[http://hypergraph.sourceforge.net/|HyperGraph]], open source Java library for hypergraphs (might be interesting to browse the source at some point)
+ * [[http://glaros.dtc.umn.edu/gkhome/views/cluto/index.html|CLUTO]] - Family of Data Clustering Software Tools
+ * [[http://glaros.dtc.umn.edu/gkhome/views/metis/parmetis/index.html|METIS]] - Family of Multilevel Partitioning Algorithms: "a family of programs for partitioning unstructured graphs and hypergraphs and computing fill-reducing orderings of sparse matrices. The underlying algorithms used by METIS are based on the state-of-the-art multilevel paradigm that has been shown to produce high quality results and scale to very large problems."
+ * [[http://amalfi.dis.unina.it/graph/|"The Graph Database"]]
+ * [[http://research.microsoft.com/users/lovasz/geommain.pdf|Paper]]: Geometric Representations of Graphs, by Lásló Lovász
+ * [[http://web.cs.ualberta.ca/~joe/Coloring/|Joe Culberson]]'s graph coloring software
+ * [[http://www.win.tue.nl/~aeb/graphs/index.html|Andries Brouwer]]'s collection of various graphs.
