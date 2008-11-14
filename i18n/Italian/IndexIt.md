@@ -44,5 +44,5 @@ Indici e tabelle
 }}}
 
 == rst file ==
-[[AttachInfo]]
-[[AttachList]]
+<<AttachInfo>>
+<<AttachList>>
