@@ -2,9 +2,9 @@
 #format wiki
 == Timothy Clemans ==
 
-Email: [[MailTo(timothy.clemans AT gmail DOT com)]]
+Email: <<MailTo(timothy.clemans AT gmail DOT com)>>
 
-[http://tclemans.nonlogic.org]
+[[http://tclemans.nonlogic.org]]
 
 ----
 CategoryHomepage
