@@ -20,7 +20,7 @@ I was involved in both `dev1` and the modular forms school; I'll divide what I d
 
  * With William and Salman, I helped compute data for William's three challenge problems. I was in charge of computing $S_2(\Gamma_0(N), \chi)$ for all $N < 100$ and all $\chi$. I've computed up to 20, and stopped -- not because the code is too slow to finish this challenge, but because I hit a bug in sage. :( I'm going to fix it this weekend, and I '''strongly''' believe that we'll be able to take care of William's challenge problem over the weekend. William's new `@parallel` makes doing this in parallel trivial, which is ridiculously cool to use.
 
-   Data so far: [http://sage.math.washington.edu/home/citro/modsym-char-data/data/ data]
+   Data so far: [[http://sage.math.washington.edu/home/citro/modsym-char-data/data/|data]]
 
  * I chatted with David Kohel several times about implementing computation of Brandt matrices in sage. I did a basic implementation of this at the AWS in 2007, but there's a decent bit of framework that still needs to be built. I wanted to work with David on this during the week, but was busy with other things, sadly. :( We have plans to get this working in the not-too-distant future (read: over the summer). 
 
