@@ -2,7 +2,7 @@
 #format wiki
 == Craig Citro ==
 
-Email: [[MailTo(craigcitro AT SPAMFREE gmail DOT com)]]
+Email: <<MailTo(craigcitro AT SPAMFREE gmail DOT com)>>
 
 I'm a grad student at UCLA. 
 
