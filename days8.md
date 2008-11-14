@@ -1,12 +1,12 @@
 = Sage/Scipy Days 8 at Enthought =
 == Connecting Pure Mathematics With Scientific Computation ==
 
-'''February 29 until March 4, 2008 at the [http://www.enthought.com/ Enthought headquarters in Austin, Texas]'''
+'''February 29 until March 4, 2008 at the [[http://www.enthought.com/|Enthought headquarters in Austin, Texas]]'''
 
 
-[:/schedule: The Schedule]
+[[/schedule| The Schedule]]
 
-[:/sprint: Coding Sprint Projects]
+[[/sprint| Coding Sprint Projects]]
 
 
 ORGANIZERS:
@@ -69,7 +69,7 @@ The workshop will be held at the headquarters of `Enthought Inc.`_::
   (512) 536-1057, voice
   (512) 536-1059, fax
 }}}
-[http://enthought.com Enthought Inc.]
+[[http://enthought.com|Enthought Inc.]]
 
 == Costs and Funding ==
 
