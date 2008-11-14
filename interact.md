@@ -1,19 +1,19 @@
 = Sage Interactions =
 
-This is a collection of pages demonstrating the use of the interact command in Sage. It should be easy to just scroll through and copy/paste examples into sage notebooks. If you have suggestions on how to improve interact, add them [:interactSuggestions:here] or email sage-support@googlegroups.com . Of course, your own examples are also welcome!
+This is a collection of pages demonstrating the use of the interact command in Sage. It should be easy to just scroll through and copy/paste examples into sage notebooks. If you have suggestions on how to improve interact, add them [[interactSuggestions|here]] or email sage-support@googlegroups.com . Of course, your own examples are also welcome!
 
- * [:interact/graph theory:Graph Theory]
- * [:interact/fractal:Fractals]
- * [:interact/calculus:Calculus]
- * [:interact/diffeq:Differential Equations]
- * [:interact/dynsys:Dynamical Systems]
- * [:interact/linear algebra:Linear Algebra]
- * [:interact/algebra:Algebra]
- * [:interact/number theory:Number Theory]
- * [:interact/web:Web Applications]
- * [:interact/bio:Bioinformatics]
- * [:interact/graphics:Drawing Graphics]
- * [:interact/misc:Miscellaneous]
+ * [[interact/graph_theory|Graph Theory]]
+ * [[interact/fractal|Fractals]]
+ * [[interact/calculus|Calculus]]
+ * [[interact/diffeq|Differential Equations]]
+ * [[interact/dynsys|Dynamical Systems]]
+ * [[interact/linear_algebra|Linear Algebra]]
+ * [[interact/algebra|Algebra]]
+ * [[interact/number_theory|Number Theory]]
+ * [[interact/web|Web Applications]]
+ * [[interact/bio|Bioinformatics]]
+ * [[interact/graphics|Drawing Graphics]]
+ * [[interact/misc|Miscellaneous]]
 
 == Explanatory example: Taylor Series ==
 
@@ -33,4 +33,4 @@ def _(order=(1..12)):
   html('$\hat{f}(x;%s)\;=\;%s+\mathcal{O}(x^{%s})$'%(x0,latex(ft),order+1))
   show(dot + p + pt, ymin = -.5, ymax = 1)
 }}}
-attachment:taylor_series_animated.gif
+{{attachment:taylor_series_animated.gif}}
