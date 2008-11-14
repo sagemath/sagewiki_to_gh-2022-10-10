@@ -1,8 +1,8 @@
 = Sage Interactions - Graphics =
-goto [:interact:interact main page]
+goto [[interact|interact main page]]
 
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Catalog of 3D Parametric Plots ==
 {{{
@@ -71,7 +71,7 @@ def _(example=selector(plots, buttons=True, nrows=2),
     show(P, viewer='tachyon' if tachyon else 'jmol', frame=frame)
 }}}
 
-attachment:parametricplot3d.png
+{{attachment:parametricplot3d.png}}
 
 == Interactive rotatable raytracing with Tachyon3d ==
 
@@ -84,7 +84,7 @@ def example(theta=(0,2*pi), phi=(0,2*pi), zoom=(1,(1,4))):
 }}}
 
 
-attachment:tachyonrotate.png
+{{attachment:tachyonrotate.png}}
 
 
 == Interactive 3d plotting ==
@@ -105,9 +105,9 @@ def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='
 }}}
 
 
-attachment:tachyonplot3d.png
+{{attachment:tachyonplot3d.png}}
 
-[[Anchor(eggpaint)]]
+<<Anchor(eggpaint)>>
 
 == Somewhat Silly Egg Painter ==
 by Marshall Hampton (refereed by William Stein)
@@ -124,4 +124,4 @@ def _(band_number = selector(range(1,5)), current_color = Color('red')):
     egg = sum([P(colorlist[i],[-2.75+5.5*(i/4),-2.75+5.5*(i+1)/4]) for i in range(4)])
     show(egg)
 }}}
-attachment:eggpaint.png
+{{attachment:eggpaint.png}}
