@@ -26,12 +26,12 @@
    * some beta available, other's can start working with it
 
  * Programming Guide
-   * see [:days6/sprint/prog_guide: new plan]
+   * see [[days6/sprint/prog_guide| new plan]]
 
  * FFT Improvements for NTL (dmharvey)
    * much faster on Opterons
    * not so much faster on Core2Duo (~ 20%)
-   * available on [http://www.math.harvard.edu/~dmharvey/code/ntl-fft/index.html David's website]
+   * available on [[http://www.math.harvard.edu/~dmharvey/code/ntl-fft/index.html|David's website]]
    * automatic tuning required, not ready for inclusion
 
  * Sympy & SAGE (Ondrej)
@@ -70,7 +70,7 @@
 
  * coercion model/calculus/programming manual (robertwb, roed, John Hanke, Ondrey, David Loeffler, Jaap)
 
- * [:days6/sprint/packages:packages/updates/LinBox] (cpernet, mabshoff)
+ * [[days6/sprint/packages|packages/updates/LinBox]] (cpernet, mabshoff)
   * LinBox bugfixes and updates
   * Givaro
   * IML
@@ -81,13 +81,13 @@
 
 == Originally Proposed Projects ==
 
- * (wstein and ondrej certik) [:/debian: determine exactly which sage packages are in debian]
+ * (wstein and ondrej certik) [[/debian| determine exactly which sage packages are in debian]]
 
- * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [:/prog_guide: Programming Guide]
+ * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [[/prog_guide| Programming Guide]]
 
- * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [:/coercion: Coercion]
+ * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [[/coercion| Coercion]]
 
- * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [:/calculus: Calculus]
+ * (robertwb, roed, willem, jaap, jon hanke, david loeffler, ondrej) [[/calculus| Calculus]]
 
  * (wstein) upgrade the freetype package in sage.
 
@@ -105,7 +105,7 @@
 
  * (wstein) R Python expect interface
 
- * (wstein) [:/edwards: Redo all the "edwards coord" proofs in Sage instead of Magma.]  
+ * (wstein) [[/edwards| Redo all the "edwards coord" proofs in Sage instead of Magma.]]  
 
  * (wstein) ATLAS into Sage on Linux.
 
@@ -119,7 +119,7 @@
 
  * (wstein) Compute kernels of matrices over $\mathbf{Z}/p^n\mathbf{Z}$.
 
- * (Ondrej Certik) simplify/improve calculus in SAGE [:/calculus: see this link for more info]
+ * (Ondrej Certik) simplify/improve calculus in SAGE [[/calculus| see this link for more info]]
 
  * (mabshoff) fix BlasMatrix::Hom leak in LinBox
 
