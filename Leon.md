@@ -1,6 +1,6 @@
-[:reu07: Back to the REU wiki]
+[[reu07| Back to the REU wiki]]
 
-J.S. Leon's [http://tigger.uic.edu/~jleon/ webpage]
+J.S. Leon's [[http://tigger.uic.edu/~jleon/|webpage]]
 
 == Goals ==
 
@@ -29,7 +29,7 @@ Program was executing function read01Matrix (line 234 in file
 ../../src/leon/src/readdes.c).
 }}}
   . Related files:
-   * attachment:huffman-code4.gap
+   * [[attachment:huffman-code4.gap]]
   * SOLUTION: Cayley library format does not support names with hyphens. Use only alphanumeric and underscore characters. 
 
  1. Bus Errors
@@ -38,7 +38,7 @@ Program was executing function read01Matrix (line 234 in file
 Bus error
 }}}
   . Related file:
-   * attachment:example1 
+   * [[attachment:example1]] 
   * Happens on OS X, but not Linux- it is due to invalid memory access.
   * SOLUTION: see above, regarding "fencepost error."
 
@@ -166,4 +166,4 @@ checking equivalence of:
 ./desauto -code huffman-code4.gap huffman_matrix4 huffman_autgp4 // fall into infinite loop
 }}}
   . Related files:
-   * attachment:huffman-code4.gap
+   * [[attachment:huffman-code4.gap]]
