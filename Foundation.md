@@ -2,7 +2,7 @@
 
 SAGE clearly needs a '''SAGE Foundation'''. 
 
-There is already something called [http://thesagefoundation.org/ The SAGE foundation] in New Jersey. (The financial section of their website is interesting, since they post several relevant IRS documents.)
+There is already something called [[http://thesagefoundation.org/|The SAGE foundation]] in New Jersey. (The financial section of their website is interesting, since they post several relevant IRS documents.)
 
    QUESTION 1: Can I create another "SAGE Foundation", or do foundation names have to be unique?  This is a question about IRS tax codes, I think. 
 
@@ -38,14 +38,14 @@ Note that http://www.irs.gov/charities/ lists several charities whose status has
             * provides requested functionality, when possible.
 
    * What are our guiding principles? 
-         * All software included in the SAGE core distribution must be free and [http://www.opensource.org/docs/definition.php open source]. Moreover, arbitrary modifications of the source code must be allowed and redistribution of any line of source code in its modified form must be allowed. 
+         * All software included in the SAGE core distribution must be free and [[http://www.opensource.org/docs/definition.php|open source]]. Moreover, arbitrary modifications of the source code must be allowed and redistribution of any line of source code in its modified form must be allowed. 
          * Included software must not discriminate against persons, groups or fields of endeavor. For example, software with a license that only permits use for "academic purposes" will not be included with SAGE.
          * We should provide a model for the '''mathematical community''' of software development with a strong emphasis on openness, community, cooperation, and collaboration.
          * We should always strive to create '''professional quality software''' and documentation that is available to everyone.
          * That mathematical software must be high quality, accessible, open source, and free for everyone to download and use at no cost.
          * We strive to provide an encouraging, stable, productive, programming environment for developing future mathematical programming projects.
 
- * Other Examples: [http://www.claymath.org/ Clay Math Institute], [http://www.math.uiuc.edu/ntf/ Number Theory Foundation], [http://www.python.org/psf/mission/ Python Foundation] and the [http://www.maa.org/Aboutmaa/mission.html MAA].
+ * Other Examples: [[http://www.claymath.org/|Clay Math Institute]], [[http://www.math.uiuc.edu/ntf/|Number Theory Foundation]], [[http://www.python.org/psf/mission/|Python Foundation]] and the [[http://www.maa.org/Aboutmaa/mission.html|MAA]].
 
 == Organizational Structure ==
 
@@ -65,7 +65,7 @@ Note that http://www.irs.gov/charities/ lists several charities whose status has
 
 Do any other mathematics software systems, e.g., Axiom, Magma, GAP, PARI, etc., have a foundation?
 
- * GAP has [http://www.gap-system.org/Contacts/centres.html GAP Centers] and a [http://www.gap-system.org/Contacts/People/Council/council.html GAP Council]. 
+ * GAP has [[http://www.gap-system.org/Contacts/centres.html|GAP Centers]] and a [[http://www.gap-system.org/Contacts/People/Council/council.html|GAP Council]]. 
    * The ''Council'' provides broad policy advice for the future development of GAP, among other things. (The Council chairman serves as the "editor" of the GAP webpages, though he is not the webmaster, and also as an "editor in chief" of the "GAP packages".) See the web pages for more details. 
    * The ''Centers'' are physical locations where GAP expertise is found (for example, St. Andrews). The developers located there are Council members and have several "possible tasks": (1) run GAP-related conferences, (2) use their local computer facilities to test and develop GAP, (3) try to raise money, ... . See the web pages for more details.
 
