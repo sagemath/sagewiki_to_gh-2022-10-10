@@ -1,8 +1,8 @@
-[:days2:SAGE Days 2] Schedule
+[[days2|SAGE Days 2]] Schedule
 
- * [http://sage.math.washington.edu/sage SAGE]
+ * [[http://sage.math.washington.edu/sage|SAGE]]
 
- * [http://sage.math.washington.edu/sage_days2_audio/ Complete Audio Recordings of All Talks]
+ * [[http://sage.math.washington.edu/sage_days2_audio/|Complete Audio Recordings of All Talks]]
 
 =================================================================
 
@@ -11,25 +11,25 @@ FRIDAY (Coding sprint day):
 The organizational session will be in B027 which is in the basement in the communications building.  The communications building is directly across the street from Padelford (see above).   (My cell phone 858-220-6876 doesn't work there, unfortunately.)  
 
  * 9am  - 11am: Organization session
- * head to a block of coffee shops on the Ave for a coding sprint, see, especially [:sd2-coffeeshops: the list]; my phone 858-220-6876 will work there. 
+ * head to a block of coffee shops on the Ave for a coding sprint, see, especially [[sd2-coffeeshops| the list]]; my phone 858-220-6876 will work there. 
  
 =================================================================
 
 SATURDAY (many many talks):
 
-  * 9:00 - 10:00 -- W. Stein:  [:sd2-stein-status:SAGE Status Report]
-  * 10:10 - 11:00 -- D. Joyner: [http://sage.math.washington.edu/home/wdj/sagefiles/sagedays2/sagedays2-10-7-2006.pdf SAGE--A Guide for Educators]
-  * 11:10 - 12:00 -- M. Albrecht: [:pyrex-sd2talk:Pyrex]
+  * 9:00 - 10:00 -- W. Stein:  [[sd2-stein-status|SAGE Status Report]]
+  * 10:10 - 11:00 -- D. Joyner: [[http://sage.math.washington.edu/home/wdj/sagefiles/sagedays2/sagedays2-10-7-2006.pdf|SAGE--A Guide for Educators]]
+  * 11:10 - 12:00 -- M. Albrecht: [[pyrex-sd2talk|Pyrex]]
   * 12:00 -  2:00 -- BAGEL BANQUET LUNCH
-  * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): [http://sage.math.washington.edu/home/robertwb/days2/sagedays2-linalg.pdf Optimizing linear algebra in SAGE]
-  * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics [http://sage.math.washington.edu/home/agc]
-  * 3:05 -  3:35 -- T. Boothby: The SAGE Notebook [http://sage.math.washington.edu/home/boothby/talks/notebook_talk_20061007.tgz worksheets in .sws format] (not all features will work until SAGE 1.4.1)
+  * 2:00 -  2:25 -- R. Bradshaw (& D. Harvey): [[http://sage.math.washington.edu/home/robertwb/days2/sagedays2-linalg.pdf|Optimizing linear algebra in SAGE]]
+  * 2:30 -  3:00 -- A. Clemesha: SAGE Graphics [[http://sage.math.washington.edu/home/agc]]
+  * 3:05 -  3:35 -- T. Boothby: The SAGE Notebook [[http://sage.math.washington.edu/home/boothby/talks/notebook_talk_20061007.tgz|worksheets in .sws format]] (not all features will work until SAGE 1.4.1)
   * 3:35 -  4:15 -- AFTERNOON BREAK
-  * 4:15 -  4:45 -- B. Page: [:AxiomCompiler:Introduction to the Axiom Library compiler for Python Programmers]
+  * 4:15 -  4:45 -- B. Page: [[AxiomCompiler|Introduction to the Axiom Library compiler for Python Programmers]]
   * 4:50 -  5:25 -- A. Portes: Doyen Live CD
-  * 6:00 -  6:25 -- K. McGown: Computing Bernoulli Numbers with SAGE [http://sage.math.washington.edu/home/kmcgown/sdays2006.html]
-  * 6:30 -  7:00 -- I. Burhanuddin : Computing Elliptic Curve Rational Torsion in SAGE [http://sage.math.washington.edu/home/burhanud/SD2talk]
-  * 7:10 -  7:45 -- M. Albrecht: [:groebner-bases-in-sage-sd2talk:Gröbner Bases in SAGE (e.g., F4)]
+  * 6:00 -  6:25 -- K. McGown: Computing Bernoulli Numbers with SAGE [[http://sage.math.washington.edu/home/kmcgown/sdays2006.html]]
+  * 6:30 -  7:00 -- I. Burhanuddin : Computing Elliptic Curve Rational Torsion in SAGE [[http://sage.math.washington.edu/home/burhanud/SD2talk]]
+  * 7:10 -  7:45 -- M. Albrecht: [[groebner-bases-in-sage-sd2talk|Gröbner Bases in SAGE (e.g., F4)]]
   * 8:00 - ? -- DINNER; hang out at cool Seattle coffee shops
 =================================================================
 
@@ -37,18 +37,18 @@ SUNDAY
 
 (lots of food provided)
 
-  *  9:00 -  9:25 -- J. Voight: [:Algorithms for quaternion algebras]
-  *  9:30 - 10:00 -- S. Pauli: [http://www.uncg.edu/~s_pauli/pub/pauli_sagedays_2.pdf Algorithmic algebraic number theory -- status report]
+  *  9:00 -  9:25 -- J. Voight: [[Algorithms_for_quaternion_algebras]]
+  *  9:30 - 10:00 -- S. Pauli: [[http://www.uncg.edu/~s_pauli/pub/pauli_sagedays_2.pdf|Algorithmic algebraic number theory -- status report]]
   * 10:00 - 10:30 -- Morning break.
-  * 10:45 - 11:25 -- D. Harvey: Implementation experience (the p-adic sigma functions) [http://modular.math.washington.edu/home/dmharvey/padic-heights-talk.pdf pfd]
+  * 10:45 - 11:25 -- D. Harvey: Implementation experience (the p-adic sigma functions) [[http://modular.math.washington.edu/home/dmharvey/padic-heights-talk.pdf|pfd]]
   * 11:35 - 12:05 -- T. Boothby: Ray tracing and SAGE
-  * 12:05 - 12:35 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE [http://sage.math.washington.edu/home/jkantor/current.pdf pdf]
-  * 12:45 -  1:35 -- D. Harvey: SAGE architecture, design and coding [http://modular.math.washington.edu/home/dmharvey/sage-architecture-talk.pdf pdf]
-  * 1:40 -  2:10 -- W. Stein: Topic -- [:Foundation:The SAGE Mathematics Foundation] and wrap up.
+  * 12:05 - 12:35 -- J. Kantor (and T. Boothby): Numerical Computation in SAGE [[http://sage.math.washington.edu/home/jkantor/current.pdf|pdf]]
+  * 12:45 -  1:35 -- D. Harvey: SAGE architecture, design and coding [[http://modular.math.washington.edu/home/dmharvey/sage-architecture-talk.pdf|pdf]]
+  * 1:40 -  2:10 -- W. Stein: Topic -- [[Foundation|The SAGE Mathematics Foundation]] and wrap up.
 
   * 2:30 - 6:30  -- Coding sprint.
   * 6:30 - 8:00  -- DINNER on the aveafter
-  * 8:00 - 11:30 + 3 -- Meet back at [http://www.washington.edu/home/maps/northcentral.html?OUG Odegaard] for coding sprint.  Call 858-220-6876 if you have trouble getting in.  See note at top of this page. 
+  * 8:00 - 11:30 + 3 -- Meet back at [[http://www.washington.edu/home/maps/northcentral.html?OUG|Odegaard]] for coding sprint.  Call 858-220-6876 if you have trouble getting in.  See note at top of this page. 
 
 =================================================================
 
