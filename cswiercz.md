@@ -3,11 +3,11 @@
 == Chris Swierczewski ==
  University of Washington
  BS Mathematics with Distinction
- Email: [[MailTo(cswiercz AT SPAMFREE gmail DOT com)]] .
+ Email: <<MailTo(cswiercz AT SPAMFREE gmail DOT com)>> .
  Google Talk: cswiercz
  IRC: cswiercz
 
-The following is a missing piece of documentation for adding new {{{.pyx}}} to the ''Sage'' library: See [http://www.sagemath.org/doc/html/prog/node40.html 5.2] of the [http://www.sagemath.org/doc/html/prog/prog.html Sage Programming Guide].
+The following is a missing piece of documentation for adding new {{{.pyx}}} to the ''Sage'' library: See [[http://www.sagemath.org/doc/html/prog/node40.html|5.2]] of the [[http://www.sagemath.org/doc/html/prog/prog.html|Sage Programming Guide]].
 
 = Cython =
 == Writing Optimized Compiled Code with Sage ==
