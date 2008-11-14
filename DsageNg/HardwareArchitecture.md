@@ -6,8 +6,8 @@
 #language en
 
 
-[[Navigation(children,2)]]
-[[TableOfContents]]
+<<Navigation(children,2)>>
+<<TableOfContents>>
 
 ----
 CategoryDsageNg
