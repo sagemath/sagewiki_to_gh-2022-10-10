@@ -5,9 +5,9 @@ The event will take place on '''FRIDAY, December 14, 2007''' and officially star
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
  * The base version of SAGE we'll start with is '''2.9.alpha7'''.
- * [:bug7/status:STATUS]
- * [:bug7/irc:IRC log]
- * ["/Results"]
+ * [[bug7/status|STATUS]]
+ * [[bug7/irc|IRC log]]
+ * [[/Results]]
  * Write to wstein@gmail.com for an account on the bug tracker.
  * We'll all be on #sage-devel at irc.freenode.net.
 {{{
