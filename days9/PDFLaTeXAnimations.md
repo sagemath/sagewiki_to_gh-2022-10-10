@@ -2,9 +2,9 @@
 
 One of the main things that PowerPoint used to have up on presentations prepared by pdflatex were animations. It turns out this is easy to do now if you use acroread to display your slides!
 
-We need the [http://www.ctan.org/tex-archive/macros/latex/contrib/animate/ animate package].
+We need the [[http://www.ctan.org/tex-archive/macros/latex/contrib/animate/|animate package]].
 
-As an example, we'll build an example starting from Bill Casselman's [http://www.math.ubc.ca/~cass/piscript/examples/c3d.eps rotating Gamma] in eps format.
+As an example, we'll build an example starting from Bill Casselman's [[http://www.math.ubc.ca/~cass/piscript/examples/c3d.eps|rotating Gamma]] in eps format.
 
 First, we turn this into a pdf file, using {{{epstopdf}}} by calling
 {{{
@@ -34,4 +34,4 @@ After making sure we have {{{animate}}} installed, we run
 {{{
 pdflatex gamma.tex
 }}}
-and the resulting file [attachment:gamma.pdf gamma.pdf] produces a nice animation when viewed with {{{acroread}}}.
+and the resulting file [[attachment:gamma.pdf|gamma.pdf]] produces a nice animation when viewed with {{{acroread}}}.
