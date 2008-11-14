@@ -150,5 +150,5 @@ Obiettivi di lungo periodo per Sage
 }}}
 
 == rst file ==
-[[AttachInfo]]
-[[AttachList]]
+<<AttachInfo>>
+<<AttachList>>
