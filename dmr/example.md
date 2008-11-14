@@ -2,11 +2,11 @@ Trying out html2moin.py processor; this is one step in processing doc pages for 
 
 14.3 Abelian group elements
 
-||[http://modular.math.washington.edu/sage/doc/html/ref/module-sage.groups.abelian-gps.abelian-group.html prev]||[http://modular.math.washington.edu/sage/doc/html/ref/node144.html parent]||[http://modular.math.washington.edu/sage/doc/html/ref/module-sage.groups.abelian-gps.abelian-group-morphism.html next]||<style="width:90%; text-align: center;">[http://modular.math.washington.edu/sage/doc/html/ref/contents.html ''SAGE'' Reference Manual]||[http://modular.math.washington.edu/sage/doc/html/ref/modindex.html module index]||[http://modular.math.washington.edu/sage/doc/html/ref/genindex.html general index]||
+||[[http://modular.math.washington.edu/sage/doc/html/ref/module-sage.groups.abelian-gps.abelian-group.html|prev]]||[[http://modular.math.washington.edu/sage/doc/html/ref/node144.html|parent]]||[[http://modular.math.washington.edu/sage/doc/html/ref/module-sage.groups.abelian-gps.abelian-group-morphism.html|next]]||<style="width:90%; text-align: center;">[[http://modular.math.washington.edu/sage/doc/html/ref/contents.html|''SAGE'' Reference Manual]]||[[http://modular.math.washington.edu/sage/doc/html/ref/modindex.html|module index]]||[[http://modular.math.washington.edu/sage/doc/html/ref/genindex.html|general index]]||
 
- '''Previous:''' [http://modular.math.washington.edu/sage/doc/html/ref/module-sage.groups.abelian-gps.abelian-group.html 14.2 Multiplicative Abelian Groups]
- '''Up:''' [http://modular.math.washington.edu/sage/doc/html/ref/node144.html 14. Groups]
- '''Next:''' [http://modular.math.washington.edu/sage/doc/html/ref/module-sage.groups.abelian-gps.abelian-group-morphism.html 14.4 Homomorphisms of abelian]
+ '''Previous:''' [[http://modular.math.washington.edu/sage/doc/html/ref/module-sage.groups.abelian-gps.abelian-group.html|14.2 Multiplicative Abelian Groups]]
+ '''Up:''' [[http://modular.math.washington.edu/sage/doc/html/ref/node144.html|14. Groups]]
+ '''Next:''' [[http://modular.math.washington.edu/sage/doc/html/ref/module-sage.groups.abelian-gps.abelian-group-morphism.html|14.4 Homomorphisms of abelian]]
 
 
 ----
@@ -15,21 +15,21 @@ Trying out html2moin.py processor; this is one step in processing doc pages for 
 
 
 = 14.3 Abelian group elements =
-[[Anchor(SECTION0016300000000000000000)]]
+<<Anchor(SECTION0016300000000000000000)>>
  '''Module:''' {{{sage.groups.abelian_gps.abelian_group_element}}}
 
-[[Anchor(module-sage.groups.abelian-gps.abelian-group-element)]]
+<<Anchor(module-sage.groups.abelian-gps.abelian-group-element)>>
 
- '''Author Log:''' [[BR]]
+ '''Author Log:''' <<BR>>
 
 
  * David Joyner (2006-02); based on free_abelian_monoid_element.py, written
- by David Kohel.[[BR]]
+ by David Kohel.<<BR>>
 
- * David Joyner (2006-05); bug fix in order[[BR]]
+ * David Joyner (2006-05); bug fix in order<<BR>>
 
  * " (2006-08); bug fix+new method in pow for negatives+fixed corresponding
- examples.[[BR]]
+ examples.<<BR>>
 
 Recall an example from abelian groups.
 {{{#!python
