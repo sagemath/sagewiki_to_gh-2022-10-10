@@ -12,19 +12,19 @@ The following three graphs show the results.
 
 ==== MAGMA vs NTL: ====
 
-attachment:magma_vs_ntl.png
+{{attachment:magma_vs_ntl.png}}
 
 ==== MAGMA vs PARI: ====
 
-attachment:magma_vs_pari.png
+{{attachment:magma_vs_pari.png}}
 
 ==== PARI vs NTL: ====
 
-attachment:pari_vs_ntl.png
+{{attachment:pari_vs_ntl.png}}
 
 == Raw output data ==
 
- * attachment:output.txt
+ * [[attachment:output.txt]]
 
 This is the file produced by poly_multiply_benchmark.sage.
 
@@ -39,8 +39,8 @@ The fields in each line are:
 
 == The code ==
 
- * attachment:poly_multiply_benchmark.sage (runs the timing tests)
- * attachment:make_graphs.sage (generates the pretty graphs)
+ * [[attachment:poly_multiply_benchmark.sage]] (runs the timing tests)
+ * [[attachment:make_graphs.sage]] (generates the pretty graphs)
 
 == Methodology ==
 
