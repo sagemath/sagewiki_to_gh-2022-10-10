@@ -5,11 +5,11 @@ The event will take place on '''SATURDAY, October 20''' and officially start at 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
 
- * [:bug4/status: STATUS]
+ * [[bug4/status| STATUS]]
 
- * [:bug4/irc: IRC log]
+ * [[bug4/irc| IRC log]]
 
- * [:bug4/Results: Results]
+ * [[bug4/Results| Results]]
 
  * The base version of SAGE we'll start with is here: sage-2.8.7.2, which you can get to by just doing "sage -upgrade".
 Alternatively, do:
@@ -54,6 +54,6 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  10. Joel Mohler -- small matrix and/or multi-variate poly rings
  11. Robert Miller -- nice bug
 
-[[ImageLink(bugs.jpg)]] [[ImageLink(compact.jpg)]]
+[[attachment:bugs.jpg|{{attachment:bugs.jpg}}]] [[attachment:compact.jpg|{{attachment:compact.jpg}}]]
 
 (from http://www.flickr.com/photos/electrasteph/689860347/ and http://www.ecosherpa.com/images/ )
