@@ -13,7 +13,7 @@
 
 == Notes ==
 
-[:LinBox/LinBox: tips for using Linbox]
+[[LinBox/LinBox| tips for using Linbox]]
 
 == Benchmarks ==
 From sage-2.1.2 do 
