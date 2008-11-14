@@ -1,7 +1,7 @@
 ##master-page:HomepageTemplate
 #format wiki
 == Didier ==
-Email: [[MailTo(dfdeshom AT SPAMFREE gmail DOT com)]]
+Email: <<MailTo(dfdeshom AT SPAMFREE gmail DOT com)>>
 
 == SAGE-related projects ==
 
@@ -39,7 +39,7 @@ Logging of pictures in dvi and mathml logger.
   . without converting it to an EPS file?).
 
 === Doctest Status ===
-Does each method have an example? Instead of checking by hand a handy script could be used. I have a script that does that: [http://sage.math.washington.edu/home/dfdeshom/sage/devel/sage/doctest-status.py http://sage.math.washington.edu/home/dfdeshom/sage/devel/sage/doctest-status.py ] For example, here is the output for integer.pyx:
+Does each method have an example? Instead of checking by hand a handy script could be used. I have a script that does that: [[http://sage.math.washington.edu/home/dfdeshom/sage/devel/sage/doctest-status.py|http://sage.math.washington.edu/home/dfdeshom/sage/devel/sage/doctest-status.py ]] For example, here is the output for integer.pyx:
 {{{ 
 Results for  sage/ext/integer.pyx
 ----------------------------------------
