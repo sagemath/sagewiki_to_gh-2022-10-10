@@ -11,7 +11,7 @@ The Singular team won the ISAAC 2004 Richard D. Jenks Memorial Prize for Excelle
 http://www.singular.uni-kl.de/
 
 = Integration into SAGE =
-The [:pexpect:pexpect] interface allows to deal with Singular objects from within SAGE. This allows to perform almost any Singular calculation 
+The [[pexpect]] interface allows to deal with Singular objects from within SAGE. This allows to perform almost any Singular calculation 
 from within SAGE.
 
 {{{#!python
@@ -55,7 +55,7 @@ sage: I.groebner_basis() # calls Singular in background
 
 However, the communication channel via pseudo ttys and string parsing may be pretty slow depending on the task at hand.
 
-To use Singular's high performance multivariate polynomial arithmetic SAGE links directly against a shared library called libSINGULAR which we derive from Singular. So far, multivariate polynomial arithmetic over $Q$, $GF(p)$, and $GF(p^n)$ is implemented this way. However, in this shared library mode no support for the Singular interpreter is provided which means that only a basic subset of Singular's capabilities are available, i.e. those written in C/C++. All of Singular's capabilities are however available through the forementioned [:pexpect:pexpect] interface and convenient conversion methods are provided.
+To use Singular's high performance multivariate polynomial arithmetic SAGE links directly against a shared library called libSINGULAR which we derive from Singular. So far, multivariate polynomial arithmetic over $Q$, $GF(p)$, and $GF(p^n)$ is implemented this way. However, in this shared library mode no support for the Singular interpreter is provided which means that only a basic subset of Singular's capabilities are available, i.e. those written in C/C++. All of Singular's capabilities are however available through the forementioned [[pexpect]] interface and convenient conversion methods are provided.
 
 = Examples =
 {{{#!python
@@ -72,7 +72,7 @@ x + 2*y + 2*z - 1
 }}}
 
 = Performance =
-Singular provides a very fast multivariate polynomial implementation. Please note, that benchmarking these things in the Singular interpreter will probably give false results as the interpreter is very basic. To gather some simple performance datapoints consider Richard Fateman's [http://www.sigsam.org/cca/articles/143/fastmult.pdf fastmult] benchmark
+Singular provides a very fast multivariate polynomial implementation. Please note, that benchmarking these things in the Singular interpreter will probably give false results as the interpreter is very basic. To gather some simple performance datapoints consider Richard Fateman's [[http://www.sigsam.org/cca/articles/143/fastmult.pdf|fastmult]] benchmark
 {{{#!python
 sage: print "over QQ"
 
