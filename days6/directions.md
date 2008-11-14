@@ -1,5 +1,5 @@
 = Directions =
-This information is mostly taken from [attachment:rail%20and%20airport%20directions%20and%20centre%20map.pdf this PDF file].
+This information is mostly taken from [[attachment:rail and airport directions and centre map.pdf|this PDF file]].
 == Train and bus directions ==
 There are two mainline railway stations in Bristol, Temple Meads and
 Parkway. If you have a choice, you are advised to arrive at Temple
@@ -31,4 +31,4 @@ least one other Marriott Hotel in central Bristol!  Their room charges
 including breakfast will be met by the Heilbronn Institute (University
 of Bristol) but extras will have to be paid for.
 
-[http://maps.google.com/maps/ms?hl=en&ie=UTF8&msa=0&msid=112610897445948971988.00043e6bf99e665606a4b&ll=51.454782,-2.597408&spn=0.011472,0.042272&z=15&om=1 A Google Map]
+[[http://maps.google.com/maps/ms?hl=en&ie=UTF8&msa=0&msid=112610897445948971988.00043e6bf99e665606a4b&ll=51.454782,-2.597408&spn=0.011472,0.042272&z=15&om=1|A Google Map]]
