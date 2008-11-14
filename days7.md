@@ -2,20 +2,20 @@
 = ``Come stay up with us...'' =
 == Important Links ==
 
- * [:days7/schedule: Schedule]
- * [:days7/sprints: Sprints]
- * [:days7/wishlist: Wishlist]
- * [http://www.sagemath.org/ Sage homepage]
- * [:days7/discussions: Discussions]
- * [http://sage.math.washington.edu/home/was/sagedays7/medium/ VIDEO!]
+ * [[days7/schedule| Schedule]]
+ * [[days7/sprints| Sprints]]
+ * [[days7/wishlist| Wishlist]]
+ * [[http://www.sagemath.org/|Sage homepage]]
+ * [[days7/discussions| Discussions]]
+ * [[http://sage.math.washington.edu/home/was/sagedays7/medium/|VIDEO!]]
 
 == Speakers & Schedule ==
 
-The schedule is [:days7/schedule: here].
+The schedule is [[days7/schedule| here]].
 
 == Dates & Location ==
 
-SD7 will be held Feb. 5-9, 2008. The conference is being hosted and funded by [http://www.ipam.ucla.edu IPAM], at UCLA.
+SD7 will be held Feb. 5-9, 2008. The conference is being hosted and funded by [[http://www.ipam.ucla.edu|IPAM]], at UCLA.
 
 == Description ==
 
@@ -30,13 +30,13 @@ The structure of the workshop is as follows: there will be two days of lectures 
 == Registration ==
 
 
-If you would like to register for the conference, please fill out the [https://www.ipam.ucla.edu/elements/choose.aspx?pc=sage2008 IPAM registration form], '''even if you are not applying for funding'''. (If you came to SD3, when you begin the registration process, it will ask you for your "reference code" ... send us an email at sagedays@gmail.com and we'll get right back to you with it.)
+If you would like to register for the conference, please fill out the [[https://www.ipam.ucla.edu/elements/choose.aspx?pc=sage2008|IPAM registration form]], '''even if you are not applying for funding'''. (If you came to SD3, when you begin the registration process, it will ask you for your "reference code" ... send us an email at sagedays@gmail.com and we'll get right back to you with it.)
 
 The funding application deadline has already passed.
 
 == Hotel Info ==
 
-Hotel info is [:days7/hotel: here].
+Hotel info is [[days7/hotel| here]].
 
 == Ground transportation ==
 
@@ -44,16 +44,16 @@ Hotel info is [:days7/hotel: here].
  .    
  . Many people have asked us about travel to and from LAX. There are several options, of varying price and speed, but probably one of the best is the relatively new LAX Flyaway Shuttle:
  .    
- . [http://www.lawa.org/lax/LAXflyAway.cfm]
+ . [[http://www.lawa.org/lax/LAXflyAway.cfm]]
  .    
  . The Westwood shuttle will take you to a parking lot that's part of the UCLA campus (though still a few minutes walk from the main part of the campus). A map with that parking lot, Hilgard House, and IPAM (which is labeled "Portola Plaza building") can be found here:
  . 
- . [http://www.ucla.edu/map/map.html]
+ . [[http://www.ucla.edu/map/map.html]]
  . 
  
  * '''From Lot 32 to IPAM, via shuttle'''
  . 
- . There is a campus shuttle from where the Westwood shuttle drops you off to close IPAM, if you don't feel like walking. A map is [http://www.transportation.ucla.edu/portal/maps/cemap/CEMAP.htm here], and more information on the shuttle can be found [http://map.ais.ucla.edu/portal/site/UCLA/menuitem.789d0eb6c76e7ef0d66b02ddf848344a/?vgnextoid=bd4aaad23985c010VgnVCM200000dd6643a4RCRD  here].
+ . There is a campus shuttle from where the Westwood shuttle drops you off to close IPAM, if you don't feel like walking. A map is [[http://www.transportation.ucla.edu/portal/maps/cemap/CEMAP.htm|here]], and more information on the shuttle can be found [[http://map.ais.ucla.edu/portal/site/UCLA/menuitem.789d0eb6c76e7ef0d66b02ddf848344a/?vgnextoid=bd4aaad23985c010VgnVCM200000dd6643a4RCRD|here]].
  . 
 
  * '''Walking directions from Lot 32 to IPAM'''
@@ -75,13 +75,13 @@ Hotel info is [:days7/hotel: here].
 
 == Wishlist ==
 
-As mentioned in the invitation letters, we'd like participants to contribute ideas to the [:days7/wishlist: wishlist] of  things you'd like to see in Sage.
+As mentioned in the invitation letters, we'd like participants to contribute ideas to the [[days7/wishlist| wishlist]] of  things you'd like to see in Sage.
 
 == Images ==
 
-[:days7/misc_art: Miscellaneous Artwork]
+[[days7/misc_art| Miscellaneous Artwork]]
 
 Right now, just some images I've (Robert M) got lying around, produced using Sage. Maybe for the t-shirts or something...
 
-attachment:bug.jpg
-attachment:counter.jpg
+{{attachment:bug.jpg}}
+{{attachment:counter.jpg}}
