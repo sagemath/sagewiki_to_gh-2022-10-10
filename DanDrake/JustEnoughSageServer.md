@@ -1,11 +1,11 @@
-These are some notes on using [http://www.ubuntu.com/products/whatisubuntu/serveredition/jeos JeOS] -- which stands for "Just Enough Operating System" -- and virtualization software to create a (hopefully) secure Sage server. I'm using [http://www.virtualbox.org/ VirtualBox] and an Ubuntu host.
+These are some notes on using [[http://www.ubuntu.com/products/whatisubuntu/serveredition/jeos|JeOS]] -- which stands for "Just Enough Operating System" -- and virtualization software to create a (hopefully) secure Sage server. I'm using [[http://www.virtualbox.org/|VirtualBox]] and an Ubuntu host.
 
 This is intended for a server that you build and administer yourself; it's not the same as the VMWare image we distribute, which is intended "for the masses". I'm assuming you have experience with Linux administration and using virtualization software.
 
 == Preliminaries ==
 
   * I'm using !VirtualBox OSE, version 2.0.2. I prefer the OSE version partially because I have a tiny free-software-zealot streak, but mostly because I'm lazy, and the open source edition gets packaged and maintained for Ubuntu. This means I can manage the !VirtualBox packages along with all my other Ubuntu packages without even adding a "deb" line to my `sources.list`.
-  * JeOS used to be distributed as an .iso file, just like all the other flavors of Ubuntu, but now one uses [https://help.ubuntu.com/community/JeOSVMBuilder vmbuilder]; this is nice, except that it only supports KVM or Xen (and maybe VMWare?). Another option starting with Intrepid is to use the usual Ubuntu Server install disc and select "Minimal Install" from the main menu. (Type F4 to select "minimal virtual machine".) I already know !VirtualBox, so I'm using that -- if you know how to get Sage running under KVM or Xen, let us know. For this project, it's enough to use the [http://cdimage.ubuntu.com/jeos/releases/hardy/release/ Hardy CD image for JeOS]; Hardy is a long-term release, so we get security updates for the server version until 2013.
+  * JeOS used to be distributed as an .iso file, just like all the other flavors of Ubuntu, but now one uses [[https://help.ubuntu.com/community/JeOSVMBuilder|vmbuilder]]; this is nice, except that it only supports KVM or Xen (and maybe VMWare?). Another option starting with Intrepid is to use the usual Ubuntu Server install disc and select "Minimal Install" from the main menu. (Type F4 to select "minimal virtual machine".) I already know !VirtualBox, so I'm using that -- if you know how to get Sage running under KVM or Xen, let us know. For this project, it's enough to use the [[http://cdimage.ubuntu.com/jeos/releases/hardy/release/|Hardy CD image for JeOS]]; Hardy is a long-term release, so we get security updates for the server version until 2013.
 
 == Setup ==
 
@@ -53,7 +53,7 @@ I also created `nb2`, `nb3`, `nb4`, and `nb5`. I don't know how many you really 
 
 == Running the server ==
 
-Download Sage to the VM and install it; I unpacked the tarball into `/opt`. Create a directory for the notebook files -- this must be outside `sageadm`'s dot-sage directory; I used `~/nbfiles`. Change the permissions so it's group-writable by the `sageusers` group. Now run the server with `directory='/home/sageadm/nbfiles'`, an appropriate `server_pool`, and so on. I've attached the actual script I use to start the notebook: attachment:start_notebook.sage.
+Download Sage to the VM and install it; I unpacked the tarball into `/opt`. Create a directory for the notebook files -- this must be outside `sageadm`'s dot-sage directory; I used `~/nbfiles`. Change the permissions so it's group-writable by the `sageusers` group. Now run the server with `directory='/home/sageadm/nbfiles'`, an appropriate `server_pool`, and so on. I've attached the actual script I use to start the notebook: [[attachment:start_notebook.sage]].
 
 == Security notes ==
 
