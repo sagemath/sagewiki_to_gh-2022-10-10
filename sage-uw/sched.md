@@ -35,7 +35,7 @@ approach, involving no isomorphism elimination at all. This approach will
 be explained, and some new coding theory software will be presented.
 
 }}}
-[http://rlmiller.org/talks/generation.pdf Slides]
+[[http://rlmiller.org/talks/generation.pdf|Slides]]
 
 =======================================================================
 
@@ -52,7 +52,7 @@ given an ideal $I \subset k[x_1,\ldots x_n]$, and $f \in k[x_1,\ldots,
 x_n]$, how does one check whether or not $f\in I$. We will show how
 Groebner basis solve this problem, and others.
 }}}
-[http://sage.math.washington.edu/home/jkantor/grobner_slides.pdf slides]
+[[http://sage.math.washington.edu/home/jkantor/grobner_slides.pdf|slides]]
 
 =======================================================================
 
@@ -76,7 +76,7 @@ that have arisen in their implementation, and things still left to do.
 }}}
 
 
-[http://mwhansen.org/combinatorial_algebras.pdf Slides] [http://www.mwhansen.org/sage-uw.html Worksheets] [http://video.google.com/videoplay?docid=4519457622361288638&hl=en Video]
+[[http://mwhansen.org/combinatorial_algebras.pdf|Slides]] [[http://www.mwhansen.org/sage-uw.html|Worksheets]] [[http://video.google.com/videoplay?docid=4519457622361288638&hl=en|Video]]
 
 =======================================================================
 
