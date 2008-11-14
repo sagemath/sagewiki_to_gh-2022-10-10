@@ -1,7 +1,7 @@
 = Sage Interactions - Web applications =
-goto [:interact:interact main page]
+goto [[interact|interact main page]]
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Stock Market data, fetched from Yahoo and Google ==
 by William Stein
@@ -123,7 +123,7 @@ def data(symbol = symbols, other_symbol='', spline_samples=(8,[0..15])):
 
 }}}
 
-attachment:stocks.png
+{{attachment:stocks.png}}
 
 == CO2 data plot, fetched from NOAA ==
 by Marshall Hampton
@@ -154,7 +154,7 @@ def mauna_loa_co2(start_date = slider(1958,2010,1,1958), end_date = slider(1958,
     var('x,y')
     show(list_plot(sel_data, plotjoined=True, rgbcolor=(1,0,0)) + plot(slope*x+intercept,start_date,end_date), xmin = start_date, ymin = c_min-2, axes = True, xmax = end_date, ymax = c_max+3, frame = False)
 }}}
-attachment:co2c.png
+{{attachment:co2c.png}}
 
 == Pie Chart from the Google Chart API ==
 by Harald Schilly
@@ -173,4 +173,4 @@ def gChart(title="Google Chart API plots Pie Charts!", color1=Color('purple'), c
     print url
     html('<div style="border:3px dashed;text-align:center;padding:50px 0 50px 0"><img src="%s"></div>'%url)
 }}}
-attachment:interact_with_google_chart_api.png
+{{attachment:interact_with_google_chart_api.png}}
