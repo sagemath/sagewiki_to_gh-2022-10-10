@@ -7,7 +7,7 @@ You have several ways of making use of the IRMACS computing facilities:
 
 == IRMACS SAGE server ==
 
- * From within IRMACS, we have a SAGE server available at [https://hydrogen.irmacs.sfu.ca:8000 https://hydrogen.irmacs.sfu.ca:8000]. You can make your own sage account on that server. This machine is behind the IRMACS firewall, so you cannot connect to it from outside IRMACS. See below for VPN options.
+ * From within IRMACS, we have a SAGE server available at [[https://hydrogen.irmacs.sfu.ca:8000|https://hydrogen.irmacs.sfu.ca:8000]]. You can make your own sage account on that server. This machine is behind the IRMACS firewall, so you cannot connect to it from outside IRMACS. See below for VPN options.
 
 == Wireless network options ==
 
@@ -31,7 +31,7 @@ network={
 
 == IRMACS VPN ==
 
-If you connect using {{{SFU}}}, {{{SFU-SECURE}}} or {{{eduroam}}}, you will not be inside the irmacs firewall, so {{{hydrogen}}} will not be accessible. In order to access {{{hydrogen}}}, you can make use of the [http://www.irmacs.sfu.ca/technical_support/vpn.php IRMACS VPN] (again, use IRMACS credentials to authenticate).
+If you connect using {{{SFU}}}, {{{SFU-SECURE}}} or {{{eduroam}}}, you will not be inside the irmacs firewall, so {{{hydrogen}}} will not be accessible. In order to access {{{hydrogen}}}, you can make use of the [[http://www.irmacs.sfu.ca/technical_support/vpn.php|IRMACS VPN]] (again, use IRMACS credentials to authenticate).
 
 === VPN via NetworkManager on Linux ===
 
