@@ -1,12 +1,13 @@
+## page was renamed from days9
 = SAGE DAYS 9:  Sage and Graphics (an ACCELERATE BC Graduate training event) =
 
-http://www.pims.math.ca/science/2008/08mgvw/images/poster.png
+{{http://www.pims.math.ca/science/2008/08mgvw/images/poster.png}}
 
 DATES:        August 8 - 16, 2008
 
 LOCATION:     The IRMACS Centre, Simon Fraser University, Burnaby (Greater Vancouver), British Columbia, CANADA
 
-WEB SITE:     [http://www.pims.math.ca/science/2008/08mgvw/ http://www.pims.math.ca/science/2008/08mgvw]
+WEB SITE:     [[http://www.pims.math.ca/science/2008/08mgvw/|http://www.pims.math.ca/science/2008/08mgvw]]
 
 INFORMATION:  Nils Bruin, Email: nbruin@sfu.ca, Phone: 778.782.3794
 
