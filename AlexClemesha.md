@@ -1,9 +1,9 @@
 ##master-page:HomepageTemplate
 #format wiki
-[http://clemesha.org Alex Clemesha]
+[[http://clemesha.org|Alex Clemesha]]
 
 My main focus with respect to Sage has been
-working on [http://knoboo.com Knoboo - Interactive Web Based Programming Notebook].
+working on [[http://knoboo.com|Knoboo - Interactive Web Based Programming Notebook]].
 
 Knoboo is functionally similar to the Sage Notebook, but has some unique 
 features such as it has a relational database backeded, has a decoupled frontend 
