@@ -1,4 +1,4 @@
-Return to [:reu07:main page].
+Return to [[reu07|main page]].
 
 == REU 2007 Archive Schedule ==
  * Friday, June 22, 2007
@@ -11,7 +11,7 @@ Return to [:reu07:main page].
   * 10:30 -- PDL loading dock: Aquarium
  * Monday, June 25, 2007 (Jim will be missing)
   * 10:00 am -- Brainstorming to come up with problems and other activities.
-    * [http://www.math.washington.edu/~reu/brainstorm.txt Brainstorming Results]
+    * [[http://www.math.washington.edu/~reu/brainstorm.txt|Brainstorming Results]]
   * 12:45 pm -- Zome Tools
  * Tuesday, June 26, 2007
   * 9:30 am -- Peter lecture
@@ -77,7 +77,7 @@ Return to [:reu07:main page].
   * Vote on t-shirt design
  * Friday, Saturday, and Sunday, July 20-22, 2007  
    * Bite of Seattle
-   * Jeremy Enigk at the Chop Suey (21+). Doors open at 9 p.m. [http://www.ticketweb.com/user/?region=wa&query=schedule&venue=chopsuey1 Tickets.]
+   * Jeremy Enigk at the Chop Suey (21+). Doors open at 9 p.m. [[http://www.ticketweb.com/user/?region=wa&query=schedule&venue=chopsuey1|Tickets.]]
  * Monday, July 23, 2007
   * Joey on angle systems; vote on t-shirts
  * Tuesday, July 24, 2007
