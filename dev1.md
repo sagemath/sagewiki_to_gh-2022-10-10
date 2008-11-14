@@ -5,7 +5,7 @@
 === LOCATION: Seattle, Washington -- Mechanical Engineering 238 ===
 
 
-[http://groups.google.com/group/sage-dev1 Mailing List]
+[[http://groups.google.com/group/sage-dev1|Mailing List]]
 
 === Campus Wifi ===
 
@@ -16,29 +16,29 @@ Password:  	72uv;34se;22my
 
 === Groups: Cython, Exact Linear Algebra, Parallel Computation, and Porting Sage to Microsoft Windows ===
 
- * [:/cython: The Cython Group]
- * [:/linalg: The Exact Linear Algebra Group]
- * [:/dsage: The Parallel Computation Group]
- * [:/windows: The Porting Sage to Windows Group]
- * [:/modforms: The Modular Forms Group]
- * [:/coercion: The Coercion Group]
- * [:/other: Other]
+ * [[/cython| The Cython Group]]
+ * [[/linalg| The Exact Linear Algebra Group]]
+ * [[/dsage| The Parallel Computation Group]]
+ * [[/windows| The Porting Sage to Windows Group]]
+ * [[/modforms| The Modular Forms Group]]
+ * [[/coercion| The Coercion Group]]
+ * [[/other| Other]]
 
 === Final Status Reports ===
 
-The final status reports are linked [:/status: here].
+The final status reports are linked [[/status| here]].
 
 === Schedule ===
 
-|| Friday, June 13 || 10am opening remarks by William Stein (attachment:stein-intro.pdf, attachment:stein-intro.sws) ||
-||Friday, June 13||11am talk by Dan Gindikin  -- Joy of Pex  (attachment:gindikin.pdf) || 4pm status reports ||
-||Saturday, June 14||  11am talk by Robert Dodier -- The Maxima Project (attachment:dodier.pdf)|| 4pm status reports || 7pm party at Glenn Tarbox's house ||
-||Sunday, June 15|| 11am talk by Glenn Tarbox -- Twisted (attachment:tarbox.pdf) || 7pm status reports||
-||Monday, June 16|| 11am talk by Rob Beezer -- Linear Algebra Book (attachment:beezer.pdf) || [:/hike: Hiking]/Tourism afternoon ??||
+|| Friday, June 13 || 10am opening remarks by William Stein ([[attachment:stein-intro.pdf]], [[attachment:stein-intro.sws]]) ||
+||Friday, June 13||11am talk by Dan Gindikin  -- Joy of Pex  ([[attachment:gindikin.pdf]]) || 4pm status reports ||
+||Saturday, June 14||  11am talk by Robert Dodier -- The Maxima Project ([[attachment:dodier.pdf]])|| 4pm status reports || 7pm party at Glenn Tarbox's house ||
+||Sunday, June 15|| 11am talk by Glenn Tarbox -- Twisted ([[attachment:tarbox.pdf]]) || 7pm status reports||
+||Monday, June 16|| 11am talk by Rob Beezer -- Linear Algebra Book ([[attachment:beezer.pdf]]) || [[/hike| Hiking]]/Tourism afternoon ??||
 ||Tuesday, June 17|| 11am talk by Arne Storjohann -- Exact Linear Algebra|| 7pm status reports || 8-9pm Demo of cool tools like IDE's etc for Sage development ||
 ||Wednesday, June 18|| 11am talk by Michael Abshoff -- Sage Development || 7pm status reports ||
-||Thursday, June 19|| 11am talk by Mike Hansen -- Combinatorics (attachment:mhansen.pdf  [http://sage.math.washington.edu/home/mhansen/CombinatorialSpeciesDemo.html Demo] ) || 5pm status reports || 8pm Tarbox talk || 9pm Game || 10pm Editorial Meeting ||
-||Friday, June 20|| 11am talk by Martin Albrecht -- Linear Algebra over GF(2) (attachment:malb-xor.pdf)|| 12pm Modular forms wrap up || 1pm-3pm final wrap session ||
+||Thursday, June 19|| 11am talk by Mike Hansen -- Combinatorics ([[attachment:mhansen.pdf]]  [[http://sage.math.washington.edu/home/mhansen/CombinatorialSpeciesDemo.html|Demo]] ) || 5pm status reports || 8pm Tarbox talk || 9pm Game || 10pm Editorial Meeting ||
+||Friday, June 20|| 11am talk by Martin Albrecht -- Linear Algebra over GF(2) ([[attachment:malb-xor.pdf]])|| 12pm Modular forms wrap up || 1pm-3pm final wrap session ||
 
 
 
@@ -60,7 +60,7 @@ The final status reports are linked [:/status: here].
  * Martin Albrecht (June 20, 11am) -- From the L1 Cache to Algebraic Cryptanalysis: Linear Algebra over GF(2)
 
 === T-shirt ===
- * [:/shirt: T shirt]
+ * [[/shirt| T shirt]]
 
 === ORGANIZERS: Robert Bradshaw, William Stein and Tom Boothby ===
 === DATES: June 13-20, 2008 ===
@@ -140,7 +140,7 @@ LOCAL:
 == Hotel information ==
 
 I have already pre-paid for a bunch of rooms at the Collegiana, so many of you can stay there:
-[:/roommates: Roommate list]
+[[/roommates| Roommate list]]
 {{{
     The Collegiana Inn
     4311 - 12th Ave. NE
@@ -166,4 +166,4 @@ NOTE: UW's commencement is June 14th, so many hotels are already booked solid fo
 
 = Child Pages =
 
-[[Navigation(children,1)]]
+<<Navigation(children,1)>>
