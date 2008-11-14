@@ -1,6 +1,6 @@
 = Distributed Computation =
 
-[:days4/projects/: Other SAGE Days 4 Project]
+[[days4/projects/| Other SAGE Days 4 Project]]
 
 
 Continuing a major trend started at the MSRI workshop in January 2007 on parallel computation, participants will design algorithms for parallel distributed integer factorization, computation of Hecke eigenvalues, and other algorithms. In particular, participants will explore several of the other ideas listed above in the context of parallel computation. Implementing these algorithms will likely vastly improve the stability and reliability of distributed computation in SAGE.
