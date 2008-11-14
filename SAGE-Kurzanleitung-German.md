@@ -25,4 +25,4 @@ Es gibt prinzipiell zwei Arten Sage zu starten: die '''interaktive Kommandozeile
 Neben den standardmäßig Installierten Paketen gibt es noch weitere optionale. Diese können auf der Kommandozeile mittels der Option "sage -optional" installiert werden.
 
 == Bedienung ==
-Zur Bedienung von Sage lesen Sie bitte: ["SAGE-Kurzreferenz-German"]
+Zur Bedienung von Sage lesen Sie bitte: [[SAGE-Kurzreferenz-German]]
