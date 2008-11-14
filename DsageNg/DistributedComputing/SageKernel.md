@@ -1,3 +1,4 @@
+## page was renamed from DsageNg/SageKernel
 ## Please edit system and help pages ONLY in the moinmaster wiki! For more
 ## information, please see MoinMaster:MoinPagesEditorGroup.
 ##master-page:CategoryTemplate
@@ -5,7 +6,7 @@
 #format wiki
 #language en
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 = The Sage Kernel System =
 
