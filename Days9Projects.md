@@ -13,7 +13,7 @@ Please add your project to this list. Follow the examples that are already there
 
  * ''Yair Go1dberg'': '''3D Graphing in PiScript'''. Plotting 3 dimensional functions in PiScript.
 
- * ''Ryan Hoban'': '''Geometric Structures'''. Using sage to draw geometric structures in the Hyperbolic plane. (Slides available [http://www.math.umd.edu/~rfhoban/GeometricStructures.pdf here])
+ * ''Ryan Hoban'': '''Geometric Structures'''. Using sage to draw geometric structures in the Hyperbolic plane. (Slides available [[http://www.math.umd.edu/~rfhoban/GeometricStructures.pdf|here]])
 
  * ''Steve Kieffer'': '''Algebra sketches'''. Tools with which to produce sketches of a kind often drawn on blackboards to illustrate algebraic structures.
 
@@ -21,14 +21,14 @@ Please add your project to this list. Follow the examples that are already there
 
  * ''Sébastien Labbé'': '''Combinatorics on words'''.
         1. Use colors and @interact of sage to study equations on words.
-           [http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=get&target=Equations_on_words_with_color.sws Equations_on_words_with_color.sws] (Next version of [http://code.google.com/p/sage-words/ sage-words package] needed to run it!!)
+           [[http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=get&target=Equations_on_words_with_color.sws|Equations_on_words_with_color.sws]] (Next version of [[http://code.google.com/p/sage-words/|sage-words package]] needed to run it!!)
         2. Use jyscript and jython to create a java applet to illustrate Christoffel words
-           [http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=view&target=ChristoffelWord.py ChristoffelWord.py]
-        3. Add gridlines support for show() in sage. Franco Saliola improved *a lot* my initial patch by changing it all (!!) and added many options to make it work like in Matematica. See [http://trac.sagemath.org/sage_trac/ticket/3825 Ticket #3825]
+           [[http://wiki.sagemath.org/Days9Projects?action=AttachFile&do=view&target=ChristoffelWord.py|ChristoffelWord.py]]
+        3. Add gridlines support for show() in sage. Franco Saliola improved *a lot* my initial patch by changing it all (!!) and added many options to make it work like in Matematica. See [[http://trac.sagemath.org/sage_trac/ticket/3825|Ticket #3825]]
 
  * ''Michael Lamoureux'': '''EasyBalls'''. A 2D animation of colliding balls, maybe with gravity, maybe with E&M if I can get the 3D in there.
 
- * ''Jakub Marecek'': '''Toy Integer Programming Solver'''.  A very limited integer programming solver for instances with 3 variables, but complete with several primal heuristics in use today, and visualising the workings nicely. See [http://wiki.sagemath.org/JakubMarecek here] for more.
+ * ''Jakub Marecek'': '''Toy Integer Programming Solver'''.  A very limited integer programming solver for instances with 3 variables, but complete with several primal heuristics in use today, and visualising the workings nicely. See [[http://wiki.sagemath.org/JakubMarecek|here]] for more.
 
  * ''Aurel Meyer'': '''Symmetry groups of polytopes'''.  Graphics to illustrate that all symmetry groups of regular polytopes are finite Coxeter groups.
 
