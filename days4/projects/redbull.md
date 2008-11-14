@@ -1,11 +1,11 @@
 === Stay up all night and post cracked out nonsense. ===
 
-[:days4/projects/: Other SAGE Days 4 Project]
+[[days4/projects/| Other SAGE Days 4 Project]]
 
 
-attachment:nun.jpg
+{{attachment:nun.jpg}}
 
-attachment:redbull.jpg
+{{attachment:redbull.jpg}}
 
   * Emily: Be careful of the Dr. Pepper; there's still juice in that.
   . Robert: Dr. Pepper juice?
@@ -13,11 +13,11 @@ attachment:redbull.jpg
   * SAGE: Because hey, if you want to rm -rf your own hard drive, go for it! (R. Miller)
     * CRACKER: Yes I would be happy to do rm -rf on my own server in my own jail but rm -rf is not interesting anymore, since there are passwords to steal.
 
-  * From the [http://www.serve.com/cmtan/buddhism/Stories/cucumber.html Cucumber Sage]: "The whole universe is pickled cucumber; a pickled cucumber is the whole universe!"
+  * From the [[http://www.serve.com/cmtan/buddhism/Stories/cucumber.html|Cucumber Sage]]: "The whole universe is pickled cucumber; a pickled cucumber is the whole universe!"
    * "A pickled cucumber is just a pickle..." (E. Kirkman)
 
 
-  * SAGE: Way better than saffron, [http://www.florilegium.org/files/PLANTS/saffron-msg.html since]
+  * SAGE: Way better than saffron, [[http://www.florilegium.org/files/PLANTS/saffron-msg.html|since]]
 {{{
 "If a man do but open and ransack a bag of one hundredweight or two
 hundredweight, as merchants do when they buy it, it will strike such an air
@@ -40,18 +40,18 @@ the force thereof."
   . Robert: I'm sorry, stomach.
 
 
-attachment:shocker.gif
+{{attachment:shocker.gif}}
 
-attachment:sotired.png
+{{attachment:sotired.png}}
 
-attachment:dillhole.gif
+{{attachment:dillhole.gif}}
 
-attachment:nino.gif
+{{attachment:nino.gif}}
 
-attachment:ninja1.jpg
+{{attachment:ninja1.jpg}}
 
-attachment:ninja2.jpg
+{{attachment:ninja2.jpg}}
 
-attachment:ninja3.jpg
+{{attachment:ninja3.jpg}}
 
-attachment:ninja4.jpg
+{{attachment:ninja4.jpg}}
