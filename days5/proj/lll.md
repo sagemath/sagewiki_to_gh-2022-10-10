@@ -1,5 +1,5 @@
 = The Road to LLL in SAGE =
-[http://perso.ens-lyon.fr/damien.stehle/english.html Damien Stehle]'s fpLLL code is wrapped at [http://trac.sagemath.org/sage_trac/ticket/723 #723] or [http://sage.math.washington.edu/home/malb/fplll.patch fplll.patch] respectively. For some problems, this gives quite good performance already:
+[[http://perso.ens-lyon.fr/damien.stehle/english.html|Damien Stehle]]'s fpLLL code is wrapped at [[http://trac.sagemath.org/sage_trac/ticket/723|#723]] or [[http://sage.math.washington.edu/home/malb/fplll.patch|fplll.patch]] respectively. For some problems, this gives quite good performance already:
 
 {{{#!python
 sage: B = MatrixSpace(IntegerRing(), 50, 51)(0)
@@ -24,7 +24,7 @@ CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
 Wall time: 11.68
 }}}
 
-However, the main strength of MAGMA's LLL is that it chooses a reasonably 'good' LLL implementation automatically. This is described in Damien Stehle's [http://perso.ens-lyon.fr/damien.stehle/FPLLL_SURVEY.html paper] and timings can be found in some of his [http://magma.maths.usyd.edu.au/Magma2006/talks/stehle.pdf slides]. For those examples SAGE seems to perform quite poorly.
+However, the main strength of MAGMA's LLL is that it chooses a reasonably 'good' LLL implementation automatically. This is described in Damien Stehle's [[http://perso.ens-lyon.fr/damien.stehle/FPLLL_SURVEY.html|paper]] and timings can be found in some of his [[http://magma.maths.usyd.edu.au/Magma2006/talks/stehle.pdf|slides]]. For those examples SAGE seems to perform quite poorly.
 
 == LLL Heuristic ==
 To develop a simple heuristic how to choose a LLL implementation, we thought about using the following benchmarking examples. All these examples are generated using Stehle's {{{generate.c}}}} code and follow his slides for dimensions and bitsizes.
