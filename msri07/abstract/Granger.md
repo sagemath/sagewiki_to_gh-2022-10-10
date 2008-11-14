@@ -1,6 +1,6 @@
 == Interactive Parallel Computing using Python and IPython ==
 
-[http://txcorp.com Brian Granger - Tech X Corp.]
+[[http://txcorp.com|Brian Granger - Tech X Corp.]]
 
 Interactive computing environments, such as Matlab, IDL and
 Mathematica are popular among researchers because their
