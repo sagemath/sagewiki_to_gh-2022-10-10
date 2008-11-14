@@ -7,9 +7,9 @@ The event will take place on '''SATURDAY, December 1, 2007''' and officially sta
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
  * The base version of SAGE we'll start with is '''2.8.14'''.
- * [:bug6/status:STATUS]
- * [:bug6/irc:IRC log]
- * ["/Results"]
+ * [[bug6/status|STATUS]]
+ * [[bug6/irc|IRC log]]
+ * [[/Results]]
  * Write to wstein@gmail.com for an account on the bug tracker.
  * We'll all be on #sage-devel at irc.freenode.net.
 {{{
@@ -33,4 +33,4 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
  1. Robert Bradshaw --- I might be around a bit. 
 = A mugshot of a Sage bug =
 
-attachment:bug.jpg
+{{attachment:bug.jpg}}
