@@ -2,10 +2,10 @@
 #format wiki
 == Harald Schilly ==
 
-Email: [[MailTo(harald DOT schilly AT SPAMFREE gmail DOT com)]]
+Email: <<MailTo(harald DOT schilly AT SPAMFREE gmail DOT com)>>
 
  * SageJournal
- * [wiki:R R]
+ * [[R|R]]
  * DocumentationProject
 
 ----
