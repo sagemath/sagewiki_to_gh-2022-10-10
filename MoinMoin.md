@@ -35,14 +35,14 @@ Other pages about MoinMoin:
  * MoinMoin:MoinMoinEtymology
 
 External links:
- * [http://sourceforge.net/projects/moin/ SourceForge Project Info]
- * [http://moinmo.in/ Project Homepage]
- * [http://freshmeat.net/projects/moin FreshMeat Entry]
- * [http://www.oreillynet.com/pub/a/python/2000/11/29/pythonnews.html PythonNews article on wikis]
+ * [[http://sourceforge.net/projects/moin/|SourceForge Project Info]]
+ * [[http://moinmo.in/|Project Homepage]]
+ * [[http://freshmeat.net/projects/moin|FreshMeat Entry]]
+ * [[http://www.oreillynet.com/pub/a/python/2000/11/29/pythonnews.html|PythonNews article on wikis]]
 
 Connect to Foldoc:IRC for meeting the author and other MoinMoin users and developers:
  * channel `#moin` on freenode server `irc.freenode.net`
- * see also [http://freenode.net/ freenode home page] and esp. [http://freenode.net/irc_servers.shtml freenode IRC servers] for more information
+ * see also [[http://freenode.net/|freenode home page]] and esp. [[http://freenode.net/irc_servers.shtml|freenode IRC servers]] for more information
 
-http://www.opensource.org/trademarks/opensource/web/opensource-110x95.png
-[[BR]][http://www.opensource.org/docs/definition.php Open Source]
+{{http://www.opensource.org/trademarks/opensource/web/opensource-110x95.png}}
+<<BR>>[[http://www.opensource.org/docs/definition.php|Open Source]]
