@@ -1,6 +1,6 @@
 == Pictures drawn by Sage ==
 
-These pictures and images were drawn by [http://www.sagemath.org Sage].
+These pictures and images were drawn by [[http://www.sagemath.org|Sage]].
 
  * Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway):
 {{{p = Graphics()
@@ -11,7 +11,7 @@ for n in range(1,20):
 p.show(xmin=0, ymin=0,dpi=250)
 }}}
 
-[http://sage.math.washington.edu/home/wdj/art/cool-sage-pic-small1.png cool pic 1]
+[[http://sage.math.washington.edu/home/wdj/art/cool-sage-pic-small1.png|cool pic 1]]
 
  * Math art by Tom Boothby:
 {{{
@@ -38,7 +38,7 @@ for i in srange(-pi*10,0,.01):
 t.show(verbose=1)
 }}}
 
-[http://sage.math.washington.edu/home/wdj/art/boothby-tachyon1.png cool pic 2]
+[[http://sage.math.washington.edu/home/wdj/art/boothby-tachyon1.png|cool pic 2]]
 
  * Twisted cubic in tachyon:
 {{{
@@ -55,7 +55,7 @@ for i in srange(-5,1.5,0.1):
 t.show()
 }}}
 
-[http://sage.math.washington.edu/home/wdj/art/boothby-tachyon2.png cool pic 3]
+[[http://sage.math.washington.edu/home/wdj/art/boothby-tachyon2.png|cool pic 3]]
 
  * Reflections from four spheres in tachyon
 {{{
@@ -72,7 +72,7 @@ t6.plane((0,0,-1.9259),(0,0,1),'p')
 t6.show()
 }}}
 
-[attachment:fourspheres.png]
+[[attachment:fourspheres.png]]
 
  * A cone inside a sphere:
 {{{
@@ -82,7 +82,7 @@ sage: p2 = sphere((0,0,2/3), color='red', opacity=0.5, aspect_ratio=[1,1,1])
 sage: show(p1+p2)
 }}}
 
-http://sage.math.washington.edu/home/wdj/art/cone-inside-sphere.jpg
+{{http://sage.math.washington.edu/home/wdj/art/cone-inside-sphere.jpg}}
 
  * A cylinder inside a cone:
 {{{
@@ -92,12 +92,12 @@ sage: p2 = parametric_plot3d([cos(u)/2, sin(u)/2, v-3/4], (u, 0, 2*pi), (v, 0, 3
 sage: show(p1+p2)
 }}}
 
-http://sage.math.washington.edu/home/wdj/art/cylinder-inside-cone.jpg
+{{http://sage.math.washington.edu/home/wdj/art/cylinder-inside-cone.jpg}}
 
  * An animation by Dean Moore: 
 Hypotrochoid. Written by Dean Moore, February 2008                            
 
-http://sage.math.washington.edu/home/wdj/art/hypotrochoid_R_equals_7,_r_equals_2,_d=3.gif
+{{http://sage.math.washington.edu/home/wdj/art/hypotrochoid_R_equals_7,_r_equals_2,_d=3.gif}}
 
                      Inspiration:                                                                  
                                                                                
@@ -406,7 +406,7 @@ We've shown the final image; done with program.
 
  * I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings:
 
-http://sage.math.washington.edu/home/wdj/art/padic-seasons-greetings.png
+{{http://sage.math.washington.edu/home/wdj/art/padic-seasons-greetings.png}}
 
 This is the code:
 
@@ -470,9 +470,9 @@ def butterfly3d():
 
 }}}
 
-http://sage.math.washington.edu/home/wdj/art/butterfly2d.png
+{{http://sage.math.washington.edu/home/wdj/art/butterfly2d.png}}
 
-http://sage.math.washington.edu/home/wdj/art/butterfly3d.png
+{{http://sage.math.washington.edu/home/wdj/art/butterfly3d.png}}
 
  * "three famous plots of chaos" by Pablo Angulo
 {{{
