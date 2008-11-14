@@ -90,6 +90,6 @@ sage: W.plot_histogram()
 }}}
 This yields the following plot:
 
-http://sage.math.washington.edu/home/wdj/art/hamming4-wt-histogram.png
+{{http://sage.math.washington.edu/home/wdj/art/hamming4-wt-histogram.png}}
 
-Sage can also compute algebraic-geometric codes, called AG codes, via the Singular interface. One may also use the (one-point planar) AG codes implemented in GUAVA via the Sage interface to GAP gap_console(). See the [http://sage.math.washington.edu/home/wdj/guava/: GUAVA] manual for more details.
+Sage can also compute algebraic-geometric codes, called AG codes, via the Singular interface. One may also use the (one-point planar) AG codes implemented in GUAVA via the Sage interface to GAP gap_console(). See the [[http://sage.math.washington.edu/home/wdj/guava/:|GUAVA]] manual for more details.
