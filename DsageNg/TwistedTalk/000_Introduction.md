@@ -1,3 +1,4 @@
+## page was renamed from GlennTarbox/TwistedTalk/000 Introduction
 ## Please edit system and help pages ONLY in the moinmaster wiki! For more
 ## information, please see MoinMaster:MoinPagesEditorGroup.
 ##master-page:SlideTemplate
@@ -5,7 +6,7 @@
 #format wiki
 #language en
 #pragma section-numbers off
-[[Navigation(slides)]]
+<<Navigation(slides)>>
 = Twisted =
 == Asynchronous Programming ==
  * Reactor (aka: Nexus, Tetranode, MCP)
@@ -21,4 +22,4 @@
 == Processes, Threads ==
  * "Threads Declared Evil" - news at 11
 
-[[Navigation(siblings)]]
+<<Navigation(siblings)>>
