@@ -7,7 +7,7 @@
 #format wiki
 #language en
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 = DsageNg Scatter Gather Alpha Edition =
 
@@ -27,7 +27,7 @@ There are a few key elements in the proposed architecture
  * Foolscap for Remote Procedure Call (RPC) abstraction over Twisted
 
 == Architecture Diagram ==
-[[ImageLink(DOC.png, height=500)]]
+[[attachment:DOC.png|{{attachment:DOC.png||height=500}}]]
 
 The client itself, now has 2 processes.  In the example above, the notebook layer supports the browser view into Sage.  In Scatter Gather, another process is spawned using PyProcessing and communications between the two processes is maintained through Queues.
 
