@@ -62,7 +62,7 @@ The default settings for callgrind do not interact well with Cython-generated co
 
 = Preliminary Presentation =
 
-More to come at SD6. But: [attachment:SageDays5_preliminary_valgrind_talk.pdf]
+More to come at SD6. But: [[attachment:SageDays5_preliminary_valgrind_talk.pdf]]
 
 = Interesting Experimnetal Valgrind Tools/Components =
 
