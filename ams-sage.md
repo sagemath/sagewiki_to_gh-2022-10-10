@@ -1,6 +1,6 @@
 = AMS Special Session on Sage and Mathematical Research Using Open Source Software =
 
- The purpose of this session is to bring together those who develop and/or use or would like to use the mathematical software system [http://www.sagemath.org/ Sage] and related open source software in their research. The Sage session abstracts will be published in the [http://www.sigsam.org/cca/ CCA].
+ The purpose of this session is to bring together those who develop and/or use or would like to use the mathematical software system [[http://www.sagemath.org/|Sage]] and related open source software in their research. The Sage session abstracts will be published in the [[http://www.sigsam.org/cca/|CCA]].
 
 
 === Organizers ===
@@ -20,16 +20,16 @@ The time slots scheduled are:
  * Kiran Kedlaya, MIT
  * Nathan Ryan <nathan.ryan@bucknell.edu>
  * Karl Crisman <Karl.Crisman@gordon.edu>
- * [http://www.math.umb.edu/~anoel/ Alfred Noel]
+ * [[http://www.math.umb.edu/~anoel/|Alfred Noel]]
  * Gregory Bard, Fordham, <bard@fordham.edu>
  * Marshall Hampton <mhampton@d.umn.edu>
- * [http://www4.ncsu.edu/~kaltofen/ Erich Kaltofen]
+ * [[http://www4.ncsu.edu/~kaltofen/|Erich Kaltofen]]
  * Qing Xiang <xiang@math.udel.edu>
  * Robert Miller, University of Washington, <rlmillster@gmail.com>
- * [http://www.ens-lyon.fr/~gvillard Gilles Villard]
+ * [[http://www.ens-lyon.fr/~gvillard|Gilles Villard]]
  * Dan Roche, Univ. Waterloo, droche@cs.uwaterloo.ca
 
-AMS session [http://www.ams.org/amsmtgs/2110_program_ss2.html#title webpage]
+AMS session [[http://www.ams.org/amsmtgs/2110_program_ss2.html#title|webpage]]
 
 === Tentative schedule ===
 
