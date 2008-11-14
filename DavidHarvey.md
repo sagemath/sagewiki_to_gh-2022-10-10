@@ -2,7 +2,7 @@
 #format wiki
 == David Harvey ==
 
-Email: [[MailTo(dmharvey AT SPAMFREE math DOT harvard DOT edu)]]
+Email: <<MailTo(dmharvey AT SPAMFREE math DOT harvard DOT edu)>>
 
 === Who am I ===
 
