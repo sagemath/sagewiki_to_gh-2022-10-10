@@ -9,7 +9,7 @@ Contact Nick Alexander on {{{sage-devel}}} to request features, report bugs, and
 
 '''Warning!'''  This is alpha code.  This might fail horribly and is not (yet) easily customizable.
 
-attachment:sage-mode-0.4.spkg
+[[attachment:sage-mode-0.4.spkg]]
 
 Use {{{sage -f sage-mode-0.4.spkg}}}.  The following installation instructions are suggested:
 
@@ -25,11 +25,11 @@ Use {{{sage -f sage-mode-0.4.spkg}}}.  The following installation instructions a
 
 This version was from Sage Days 4.
 
-attachment:sage-mode.el
-attachment:pyrex-mode.el
+[[attachment:sage-mode.el]]
+[[attachment:pyrex-mode.el]]
 
 The following files need to go into sage/misc.
 
-attachment:sage_emacs.py
-attachment:xreload.py
-attachment:sagetest.py
+[[attachment:sage_emacs.py]]
+[[attachment:xreload.py]]
+[[attachment:sagetest.py]]
