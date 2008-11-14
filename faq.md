@@ -1,6 +1,6 @@
 #pragma section-numbers 2
 = Sage FAQ: Frequently Asked Questions =
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Introduction ==
 === What is Sage? ===
@@ -21,7 +21,7 @@ Go to http://www.sagemath.org/src/ to download the tar archive for any release o
 
 == Installing and running Sage ==
 === How do I use the notebook with Firefox 3.0 beta 5? ===
-There is [https://bugzilla.mozilla.org/show_bug.cgi?id=427081 a bug in Firefox 3.0 beta 5] that causes it to reject connections to the Sage notebook with the error "Certificate key usage inadequate for attempted operation. (Error code: sec_error_inadequate_key_usage)". One solution is to use a different browser, such as Firefox 2, Konqueror, Safari, Opera, or even Internet Explorer. Another solution is to run the notebook in insecure mode by using the command {{{inotebook()}}} instead of {{{notebook()}}}; then Firefox 3.0b5 will work.  Finally, there is a rather tedious workaround:
+There is [[https://bugzilla.mozilla.org/show_bug.cgi?id=427081|a bug in Firefox 3.0 beta 5]] that causes it to reject connections to the Sage notebook with the error "Certificate key usage inadequate for attempted operation. (Error code: sec_error_inadequate_key_usage)". One solution is to use a different browser, such as Firefox 2, Konqueror, Safari, Opera, or even Internet Explorer. Another solution is to run the notebook in insecure mode by using the command {{{inotebook()}}} instead of {{{notebook()}}}; then Firefox 3.0b5 will work.  Finally, there is a rather tedious workaround:
 
  1. Go to a notebook with a certificate which fails
  1. Click on the warning sign next to the location bar, then "more information"
@@ -68,7 +68,7 @@ If you see the error "It looks like jsMath failed to set up properly (error code
 will try to keep going, but it could get ugly.", you haven't installed the TeX fonts which help jsMath render beautiful mathematics.  To get the nice TeX 
 display with jsMath, please download a set of fonts from here:
 
-[http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html]
+[[http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html]]
 
 If you are on Unix, ignore the instructions on the page and just unzip 
 the fonts into your ~/.fonts directory.
@@ -164,7 +164,7 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
 ----------
  * QUESTION: The show command for plotting 3D objects does not work.
  * ANSWER 1: Since Sage 2.9.2 we have switched to using jmol, a Java applet, for 3D plotting. There are several possibilities for the cause of the malfunction: You do not have Java installed at all or the Java installed is an older GNU based alternative Java implementation, which causes some yet to determine problem. A solution to both issues is to either install Sun's Java SDK or to update the GNU based Java implementation. As of January 2008 Debian's Java in testing works, but stable does have problems.
- * ANSWER 2: If you are running a brand new (as of April 2008) Ubuntu 8.04, they ship the Java Plugin by IcedTea. This is basically a good idea, but a bit too early since it is broken. Either wait for an update or uninstall the IcedTea Plugin and install the "SUN Java 6 Plugin". Later, switch back to IcedTea, since it is based on OpenJDK 7 (or SUNs Java 7) which is the next Java version. You can check for the used plugin in Firefox 3 by typing "about:plugins" into the URL bar. [https://bugs.launchpad.net/ubuntu/+source/icedtea-java7/ read more here at launchpad]
+ * ANSWER 2: If you are running a brand new (as of April 2008) Ubuntu 8.04, they ship the Java Plugin by IcedTea. This is basically a good idea, but a bit too early since it is broken. Either wait for an update or uninstall the IcedTea Plugin and install the "SUN Java 6 Plugin". Later, switch back to IcedTea, since it is based on OpenJDK 7 (or SUNs Java 7) which is the next Java version. You can check for the used plugin in Firefox 3 by typing "about:plugins" into the URL bar. [[https://bugs.launchpad.net/ubuntu/+source/icedtea-java7/|read more here at launchpad]]
 ----------
  * QUESTION: May I use Sage tools in a commercial environment?
  * ANSWER: YES!  Absolutely!  Basically the *only* constraint is that if you make changes to Sage itself and redistribute this changed version of Sage publicly, then you must make these changes available to us so that we can put them into the standard version of Sage (if we want).   Otherwise, you are free to use as many copies of Sage as you want completely for free to make money, etc., without paying any license fees at all.
@@ -225,17 +225,17 @@ respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
  {{{
 limit maxproc 512 2048
 }}}
- . then reboot.  See [http://www.macosxhints.com/article.php?story=20050709233920660 this page] for more details.
+ . then reboot.  See [[http://www.macosxhints.com/article.php?story=20050709233920660|this page]] for more details.
 ----------
  * QUESTION: How do I use the bitwise XOR operator in Sage?
  * ANSWER: Define two variables, for example {{{a = 5; b = 8}}}, and evaluate {{{a.__xor__(b)}}}, 13. You can also do {{{(5).__xor__(8)}}} (the parentheses are necessary so that Sage doesn't think you have a real number). There are several ways to define a function: {{{xor = lambda x, y: x.__xor__(y)}}} and then do {{{xor(3, 8)}}}. Another option, which sneaks around the Sage preparser, is {{{def xor(a,b):  return eval("%s^%s"%(a,b))}}}. You can also turn off the Sage preparser with {{{preparser(False)}}} -- then {{{^}}} will work just like in Python, and you can later turn on the preparser with {{{preparser(True)}}}. (That only works in command-line Sage; in a notebook, switch to Python mode.)
 ----------
  * QUESTION: When I try to use LaTeX in the notebook, it says it cannot find {{{fullpage.sty}}}!
- * ANSWER: That's not a question. But we can help you solve your problem. :) The general -- but perhaps not very helpful -- answer is that you need to install {{{fullpage.sty}}} into a directory searched by TeX. In Ubuntu (and probably many other Linux distributions), you should install the {{{texlive-latex-extra}}} package. If that's not available, try installing the {{{tetex-extra}}} package. If you are using OS X, you will have to use whatever TeX distribution you use to get {{{fullpage.sty}}} (if you use [http://www.tug.org/mactex MacTeX], it's likely already installed). If you are using the VMware image in Windows, you'll need to log into the VMware image and install {{{texlive-latex-extra}}} there.
+ * ANSWER: That's not a question. But we can help you solve your problem. :) The general -- but perhaps not very helpful -- answer is that you need to install {{{fullpage.sty}}} into a directory searched by TeX. In Ubuntu (and probably many other Linux distributions), you should install the {{{texlive-latex-extra}}} package. If that's not available, try installing the {{{tetex-extra}}} package. If you are using OS X, you will have to use whatever TeX distribution you use to get {{{fullpage.sty}}} (if you use [[http://www.tug.org/mactex|MacTeX]], it's likely already installed). If you are using the VMware image in Windows, you'll need to log into the VMware image and install {{{texlive-latex-extra}}} there.
 = ToDo =
  * QUESTION: Sage fails to compile on OSX 10.4
  * ANSWER: Most likely resource issue.
  * QUESTION: Notebook doesn't work
  * ANSWER: networking issues, firewall blocking, proxy setting screwed up
  * Individual FAQ entries should be referable by a URL, possibly http://wiki.sagemath.org/faq?someid=something
- * You can do that with page anchors: http://wiki.sagemath.org/faq?#something. Moin``Moin [http://moinmo.in/HelpOnLinking can insert page anchors] but it doesn't seem like that facility is turned on for this installation. If we could get that enabled, we could insert anchors for all the questions on this page.
+ * You can do that with page anchors: http://wiki.sagemath.org/faq?#something. Moin``Moin [[http://moinmo.in/HelpOnLinking|can insert page anchors]] but it doesn't seem like that facility is turned on for this installation. If we could get that enabled, we could insert anchors for all the questions on this page.
