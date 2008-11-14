@@ -1,4 +1,4 @@
-[[TableOfContents(2)]]
+<<TableOfContents(2)>>
 
 = Sage Days 11 =
 
@@ -6,7 +6,7 @@
 
 == Projects ==
 
-   * [:/projects: List of Projects]
+   * [[/projects| List of Projects]]
 
 
 == Photos ==
@@ -21,10 +21,10 @@ Sage Days 11 is being funded by the National Science Foundation (NSF) and the In
 NOTE: The Supercomputing 2008 conference (officially known as SC08) is described here: http://sc08.supercomputing.org/  It takes place from November 15-21 at the Austin convention center.
 
 == Official Webpage ==
-We have an official webpage for the conference [http://www.math.utexas.edu/sage here]. Please visit this page to register for the conference!
+We have an official webpage for the conference [[http://www.math.utexas.edu/sage|here]]. Please visit this page to register for the conference!
 
 == Registration and Funding ==
-We have some limited funding available for participants. Please register [http://www.ma.utexas.edu/sage/rform1.php here] if you are planning on attending, and indicate whether you would like reimbursement for travel, hotel, or both.
+We have some limited funding available for participants. Please register [[http://www.ma.utexas.edu/sage/rform1.php|here]] if you are planning on attending, and indicate whether you would like reimbursement for travel, hotel, or both.
 
 == Participants ==
 Please add your name to the list if you're going to be coming to SD11.
@@ -69,12 +69,12 @@ Please add your name to the list if you're going to be coming to SD11.
   Video for day 1: http://sage.math.washington.edu/home/was/days11/
   * 09:00 - 09:30: Opening Remarks, Villegas, 12.104 (12th Floor Lounge)
   * 09:30 - 10:15: Intro to Sage, Citro, RLM 9.166
-    * Talk slides [attachment:citro-slides.pdf here]
-    * Sage worksheet as [attachment:citro-sage-worksheet.sws worksheet] and [attachment:citro-sage-worksheet.pdf pdf].
+    * Talk slides [[attachment:citro-slides.pdf|here]]
+    * Sage worksheet as [[attachment:citro-sage-worksheet.sws|worksheet]] and [[attachment:citro-sage-worksheet.pdf|pdf]].
   * 10:15 - 10:30: Break
   * 10:30 - 11:15: Computing on TACC, Eijkhout, RLM 9.166
   * 11:15 - 11:30: Break
-  * 11:30 - 12:15: [http://www.ma.utexas.edu/sage/talks/oliphant.ppt Overview of Enthought Technologies: NumPy, SciPy, and the Enthought Tool Suite], Oliphant, RLM 9.166
+  * 11:30 - 12:15: [[http://www.ma.utexas.edu/sage/talks/oliphant.ppt|Overview of Enthought Technologies: NumPy, SciPy, and the Enthought Tool Suite]], Oliphant, RLM 9.166
   * 12:15 - 02:00: Lunch break
   * 02:00 - 02:45: Symmetric eigenvalue problem, Dhillon, RLM 10.176
   * 02:45 - 03:00: Break
@@ -83,45 +83,45 @@ Please add your name to the list if you're going to be coming to SD11.
   * 06:00 - 07:00: Coding Sprint Organization
  * Saturday, November 8
   * 09:00 - 10:00: Catered breakfast
-  * 10:00 - 10:45: [http://www.cs.utexas.edu/users/flame/pubs/sc08_workshop.pdf Beautiful Parallel Code: Evolution vs. Intelligent Design], van de Geijn, RLM 12.166
+  * 10:00 - 10:45: [[http://www.cs.utexas.edu/users/flame/pubs/sc08_workshop.pdf|Beautiful Parallel Code: Evolution vs. Intelligent Design]], van de Geijn, RLM 12.166
   * 10:45 - 11:00: Break
-  * 11:00 - 11:45: [attachment:rubinstein.pdf Introduction to computing L-functions], Rubinstein, RLM 12.166
+  * 11:00 - 11:45: [[attachment:rubinstein.pdf|Introduction to computing L-functions]], Rubinstein, RLM 12.166
   * 11:45 - 01:00: Lunch break
-  * 01:00 - end of day: Work/informal talks (Stein/Gupta - Dokchitser at 3:30pm attachment:dokchitser.pdf ; Citro/Stein - Cythonization at 5pm; Citro/Stein - Modular Symbols at 8pm)
+  * 01:00 - end of day: Work/informal talks (Stein/Gupta - Dokchitser at 3:30pm [[attachment:dokchitser.pdf]] ; Citro/Stein - Cythonization at 5pm; Citro/Stein - Modular Symbols at 8pm)
  * Sunday, November 9
   * 09:00 - 10:00: Catered breakfast
-  * 10:00 - 10:45: [http://www.cems.uvm.edu/~voight/nf-tables/austin-quintics-beamer.pdf A database of totally real quintic fields], Voight, RLM 12.166
+  * 10:00 - 10:45: [[http://www.cems.uvm.edu/~voight/nf-tables/austin-quintics-beamer.pdf|A database of totally real quintic fields]], Voight, RLM 12.166
   * 10:45 - 11:00: Break
-  * 11:00 - 11:45: [attachment:vandiver-talk.pdf Large-Scale Verification of Vandiver's Conjecture], Harvey, RLM 12.166
+  * 11:00 - 11:45: [[attachment:vandiver-talk.pdf|Large-Scale Verification of Vandiver's Conjecture]], Harvey, RLM 12.166
   * 11:45 - 01:00: Lunch break
-  * 01:00 - end of day: Work/informal talks (Chris Hall - Drinfeld stuff at 2pm; [:/muppy: Mabshoff - Muppy at 3pm]) 
+  * 01:00 - end of day: Work/informal talks (Chris Hall - Drinfeld stuff at 2pm; [[/muppy| Mabshoff - Muppy at 3pm]]) 
   * 06:00 - 07:00: Catered dinner, RLM 12th floor lounge
  * Monday, November 10
   * 10:00 - 11:00: Work/Lunch, RLM 12.104
   * 01:00 - end of day: Work, ACES 2.402
 
 == Hotel Info ==
-A block of rooms has been reserved for us at the Doubletree Guest Suites, 303 W. 15th St, Austin, Texas. [http://maps.google.com/maps?f=q&hl=en&geocode=&q=doubletree,+15th+st,+austin,+texas&ie=UTF8&ll=30.27986,-97.741971&spn=0.020161,0.025878&z=15 Here] is a link to a google maps view of the hotel.
+A block of rooms has been reserved for us at the Doubletree Guest Suites, 303 W. 15th St, Austin, Texas. [[http://maps.google.com/maps?f=q&hl=en&geocode=&q=doubletree,+15th+st,+austin,+texas&ie=UTF8&ll=30.27986,-97.741971&spn=0.020161,0.025878&z=15|Here]] is a link to a google maps view of the hotel.
 
-attachment:hotel.png
+{{attachment:hotel.png}}
 
 == Ground Transportation ==
 '''NOTE: Capital Metro bus drivers went on strike November 5, 2008. Some core routes will still be available from 6am to 7:30pm daily and all UT shuttles will continue to run as usual. No fares will be charged during the strike. BUT the Airport Flyer will not be running. If the strike is still going on when you arrive, your best bet may be to take a cab or shared-ride van. We will update this space as we get more information.'''
 
-Austin's bus system is run by [http://www.capmetro.org/ Capital Metro] which has a number of bus routes that service the UT campus. UT shuttle buses are marked by white and burnt orange buses that use letters for their route as opposed to numbers. UT shuttles are free to ride.
+Austin's bus system is run by [[http://www.capmetro.org/|Capital Metro]] which has a number of bus routes that service the UT campus. UT shuttle buses are marked by white and burnt orange buses that use letters for their route as opposed to numbers. UT shuttles are free to ride.
 
 An important note: there is a football game that Saturday. Expect a lot of traffic and people on and near campus. Most places near campus will be crowded, so keep that in mind. There isn't much we can do about it, but the inside of RLM will be nice and quiet.
 
 === To and From the Airport ===
 There are a couple of options to get to and from the Austin-Bergstrom International Airport (ABIA).
 
- * Capital Metro has a bus (the Airport Flyer, Route 100) that runs between ABIA and central Austin. Its schedule can be found [http://www.capmetro.org/riding/schedules.asp?f1=100 here]. It doesn't have many stops, but they are all centrally located and intersect other bus routes. Many UT graduate students use the Airport Flyer and find that it is a very inexpensive and easy way to travel (1.50 USD or 3 USD for a 24-hour pass). This may be due to their knowledge of the bus system and knowing what bus to take get home.
+ * Capital Metro has a bus (the Airport Flyer, Route 100) that runs between ABIA and central Austin. Its schedule can be found [[http://www.capmetro.org/riding/schedules.asp?f1=100|here]]. It doesn't have many stops, but they are all centrally located and intersect other bus routes. Many UT graduate students use the Airport Flyer and find that it is a very inexpensive and easy way to travel (1.50 USD or 3 USD for a 24-hour pass). This may be due to their knowledge of the bus system and knowing what bus to take get home.
  * There are also plenty of cabs and shared-ride vans as well.
 If you will be staying at the Doubletree Suites, you can take the Airport Flyer to 15th and Lavaca St, right next to the hotel. Otherwise, if your hotel is centrally located, my suggestion would be to use the Airport Flyer. A cab or shared-ride van is probably your best option if your hotel is not along the Airport Flyer route. It takes about 20-30 minutes to reach central Austin from the airport (depending on traffic).
 
 === To and From RLM ===
-Robert Lee Moore (RLM) Hall is the home of the Math Department at UT. Maps of the University can be found [http://www.utexas.edu/maps/ here] -- click on the "4" to get a zoom in of RLM, at the corner of Dean Keaton St and Speedway St. A picture of RLM can be found [http://www.utexas.edu/maps/main/buildings/rlm.html here].
-attachment:rlm.png
+Robert Lee Moore (RLM) Hall is the home of the Math Department at UT. Maps of the University can be found [[http://www.utexas.edu/maps/|here]] -- click on the "4" to get a zoom in of RLM, at the corner of Dean Keaton St and Speedway St. A picture of RLM can be found [[http://www.utexas.edu/maps/main/buildings/rlm.html|here]].
+{{attachment:rlm.png}}
 
 ==== From the Doubletree Suites ====
  * Walking: You can walk from the hotel to RLM by walking one block west along 15th St to Guadalupe St, then walking north along Guadalupe (which marks the west end of campus), and finally making a right to walk east once you get to Dean Keaton. RLM will be on the corner of Dean Keaton and Speedway, on the south side of Dean Keaton.
@@ -133,8 +133,8 @@ attachment:rlm.png
 == Food ==
 
 === Near the Doubletree Suites ===
- * [http://www.claypit.com/ Clay Pit]: contemporary Indian cuisine. Fairly good and not overly expensive. They have a lunch buffet (including on Saturday) this is an excellent deal. On Guadalupe St, between 16th and 17th streets (Guadalupe is one block west of Lavaca).
- * [http://www.cactushill.com/TCP/home.htm Texas Chili Parlor]: chili, burgers, tacos/enchiladas, bar food. Tasty, but probably not the healthiest option. They are located on Lavaca between 14th and 15th streets, so very close to the Doubltree Suites
+ * [[http://www.claypit.com/|Clay Pit]]: contemporary Indian cuisine. Fairly good and not overly expensive. They have a lunch buffet (including on Saturday) this is an excellent deal. On Guadalupe St, between 16th and 17th streets (Guadalupe is one block west of Lavaca).
+ * [[http://www.cactushill.com/TCP/home.htm|Texas Chili Parlor]]: chili, burgers, tacos/enchiladas, bar food. Tasty, but probably not the healthiest option. They are located on Lavaca between 14th and 15th streets, so very close to the Doubltree Suites
 
 === Between the Doubletree Suites and RLM ===
 As you walk up to campus along Guadalupe to RLM, you will find lots of dining options. There's a range of restaurants that vary between fast food and sit-down restaurants. Here are some highlights, listed in increasing proximity to RLM.
@@ -152,10 +152,10 @@ As you walk up to campus along Guadalupe to RLM, you will find lots of dining op
  * Slices and Ices: Pizza joint offering NY style (i.e. thin crust) pizza. In my (Salman's) opinion, one of the top three pizza places in Austin. A couple of slices and a drink will set you back about $7. Located at the intersection of Guadalupe and Dean Keaton, just a few feet north of Madam Mam's.
 
 === Near RLM ===
- * [http://www.oscampuscafe.com/ O's Campus Cafe]: UT-run restaurant (only open on weekdays until 3pm). Just south of RLM in the ACES building at the corner of 24th St and Speedway St.
- * [http://www.utexas.edu/student/housing/index.php?site=0&scode=5&id=1073&menu=284 Littlefield Patio Cafe]: UT-run cafe offering sandwiches, burgers, pizza, etc. Quick, inexpensive, and located near RLM on Dean Keaton and University Ave (2 blocks west of Speedway).
- * [http://posseeast.com/ Posse East]: Burgers, tacos, and bar food. On the corner of Duval St and San Jacinto Blvd (just a little northeast of RLM).
- * [http://www.saopaulos.net/ Sau Paulo's Restaurante]: Brazilian restaurant close to campus. Entrees are very tasty and about $10. Located on San Jacinto Blvd, up the street from Posse East.
+ * [[http://www.oscampuscafe.com/|O's Campus Cafe]]: UT-run restaurant (only open on weekdays until 3pm). Just south of RLM in the ACES building at the corner of 24th St and Speedway St.
+ * [[http://www.utexas.edu/student/housing/index.php?site=0&scode=5&id=1073&menu=284|Littlefield Patio Cafe]]: UT-run cafe offering sandwiches, burgers, pizza, etc. Quick, inexpensive, and located near RLM on Dean Keaton and University Ave (2 blocks west of Speedway).
+ * [[http://posseeast.com/|Posse East]]: Burgers, tacos, and bar food. On the corner of Duval St and San Jacinto Blvd (just a little northeast of RLM).
+ * [[http://www.saopaulos.net/|Sau Paulo's Restaurante]]: Brazilian restaurant close to campus. Entrees are very tasty and about $10. Located on San Jacinto Blvd, up the street from Posse East.
 
 === Coffee/Tea ===
- * [http://www.jpsjava.com/ JP's Java]: The unofficial Math Department coffee shop, their coffee, espresso, and tea are quite good. The back room is ideal for a large group working together. Power outlets can be a problem, so bringing along power strips would be a good idea. Located at the corner of Duval St and San Jacinto Blvd, just across the street from Posse East.
+ * [[http://www.jpsjava.com/|JP's Java]]: The unofficial Math Department coffee shop, their coffee, espresso, and tea are quite good. The back room is ideal for a large group working together. Power outlets can be a problem, so bringing along power strips would be a good idea. Located at the corner of Duval St and San Jacinto Blvd, just across the street from Posse East.
