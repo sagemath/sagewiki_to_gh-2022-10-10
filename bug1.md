@@ -4,11 +4,11 @@ Sage Bug Day 1 took place from 10 am PST August 18th until 2 am August 19th 2007
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
- * [:bug1/status: STATUS]
+ * [[bug1/status| STATUS]]
 
- * [:bug1/irc: IRC log]
+ * [[bug1/irc| IRC log]]
 
- * [:bug1/Results: Results]
+ * [[bug1/Results| Results]]
 
  * The base version of SAGE we'll start with is here:
       http://sage.math.washington.edu/bug/
