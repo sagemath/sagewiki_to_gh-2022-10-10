@@ -10,7 +10,7 @@ The goal is to eventually extended this to handle general binary and ternary qua
 
 == Multiplying large polynomials ==
 
-Worked with Bill Hart on huge polynomial multiplication using multimodular method (see his [:dev1/billhart: Status Report]). So far the code is twice as slow as FLINT, but uses less memory. For instance, I can multiply two polinomials of 1 million 960 bit coefficients each in 4 minutes in my laptop. FLINT would take an estimated 2 minutes, but I "only" have 2Gb of RAM in my laptop (I killed it after 10 minutes just before the OOM killer jumped in).
+Worked with Bill Hart on huge polynomial multiplication using multimodular method (see his [[dev1/billhart| Status Report]]). So far the code is twice as slow as FLINT, but uses less memory. For instance, I can multiply two polinomials of 1 million 960 bit coefficients each in 4 minutes in my laptop. FLINT would take an estimated 2 minutes, but I "only" have 2Gb of RAM in my laptop (I killed it after 10 minutes just before the OOM killer jumped in).
 
 == Montgomery multiplication ==
 
