@@ -4,20 +4,20 @@ Sage did not get selected as a mentoring organization.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-[http://sagemath.org Sage]: Open Source Mathematical Software
+[[http://sagemath.org|Sage]]: Open Source Mathematical Software
 
 == Important Dates ==
 Check http://code.google.com/soc/2008/faqs.html#0.1_timeline for important dates.
 
 == GSoC Sage Projects ==
 
-All #numbers below refer to [http://trac.sagemath.org trac tickets].
+All #numbers below refer to [[http://trac.sagemath.org|trac tickets]].
 
 
 
 === Cython ===
 
-[http://cython.org Cython] is both a Python compiler and a very nice way to write extensions to Python.  It can be viewed as the successor to Pyrex.  Our goal is to get Cython into Python and along the way to vastly improve the functionality, speed, and ease of use of Cython.   Some specific goals for GSoC projects include:
+[[http://cython.org|Cython]] is both a Python compiler and a very nice way to write extensions to Python.  It can be viewed as the successor to Pyrex.  Our goal is to get Cython into Python and along the way to vastly improve the functionality, speed, and ease of use of Cython.   Some specific goals for GSoC projects include:
 
  * Improve C++ support
    * better integration of stl classes (vector, list, etc.)
