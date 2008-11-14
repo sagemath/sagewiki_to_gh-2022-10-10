@@ -1,6 +1,6 @@
 = T-shirt =
 
-The [http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/ t-shirt design].
+The [[http://sage.math.washington.edu/home/malb/graphics/dev1_t-shirt/|t-shirt design]].
 
 == Orders ==
 
