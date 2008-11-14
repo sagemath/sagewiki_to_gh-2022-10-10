@@ -6,11 +6,11 @@ Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a tr
 
 The results: http://trac.sagemath.org/sage_trac/milestone/sage-2.8.5
 
- * [:bug3/status: STATUS]
+ * [[bug3/status| STATUS]]
 
- * [:bug3/irc: IRC log]
+ * [[bug3/irc| IRC log]]
 
- * [:bug3/Results: Results]
+ * [[bug3/Results| Results]]
 
  * The base version of SAGE we'll start with is here: sage-2.8.4.2.1, which you can upgrade to using "sage -upgrade"
 
@@ -61,4 +61,4 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  1. David Harvey: yeah bugs and stuff
 
 
-[[ImageLink(bugs.jpg)]]
+[[attachment:bugs.jpg|{{attachment:bugs.jpg}}]]
