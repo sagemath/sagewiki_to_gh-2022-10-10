@@ -1,8 +1,8 @@
 = Thoughts about the account model for the SAGE notebook =
 
-This page is linked to from  [:days4/projects/nb: The SAGE Notebook project page].
+This page is linked to from  [[days4/projects/nb| The SAGE Notebook project page]].
 
-See [:/userData: User Data] for the configurable options.
+See [[/userData| User Data]] for the configurable options.
 
 When hashing out a user/permissions model, I think it's probably best to begin by envisioning use cases. So here is a range of examples of what I think typical notebook users will look like:
 
