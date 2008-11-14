@@ -1,6 +1,6 @@
 = Linear Algebra =
 
-[:days4/projects/: Other SAGE Days 4 Project]
+[[days4/projects/| Other SAGE Days 4 Project]]
 
 David Joyner, David Saunders, Nick Alexander, Thea Gegenberg, David Harvey, David Roe
 
