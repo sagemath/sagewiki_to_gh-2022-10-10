@@ -2,8 +2,8 @@
 
 MENTORS: William Stein (wstein@gmail.com) and Tom Boothby (boothby@u.washington.edu). 
 
-[http://sagemath.org Sage] is a unified open source mathematics software environment that provides a viable free open source alternative to
-Magma, Maple, Mathematica, and Matlab.   Try the notebook [https://sagenb.org online right now]; also, come chat with us at #sage-devel on
+[[http://sagemath.org|Sage]] is a unified open source mathematics software environment that provides a viable free open source alternative to
+Magma, Maple, Mathematica, and Matlab.   Try the notebook [[https://sagenb.org|online right now]]; also, come chat with us at #sage-devel on
 irc.freenode.net. 
 
 * See also: http://www.knoboo.com/ for ideas, possibilities for collaboration, etc.  That code is all GPL'd so we can easily share back and forth, etc. 
@@ -18,35 +18,35 @@ main ''killer features'' of Sage.  This project is about improving the notebook.
 write to William Stein (wstein@gmail.com) and Tom Boothby (boothby@u.washington.edu).
 
 
- * Develop the new [http://wiki.sagemath.org/interact interact functionality]
- * Rewrite the storage backend (for users and data) to use a [http://www.sqlalchemy.org/ SQLalchemy]-based backend. 
+ * Develop the new [[http://wiki.sagemath.org/interact|interact functionality]]
+ * Rewrite the storage backend (for users and data) to use a [[http://www.sqlalchemy.org/|SQLalchemy]]-based backend. 
  * Implement user profiles and per-user customization.
  * Make the notebook user-skinable. 
- * General improvements and bug fixes; here are some relevant [http://trac.sagemath.org/sage_trac trac tickets] (search for #number):
-  * [http://sagetrac.org/sage_trac/ticket/2652 #2652]: notebook should let you evaluate cells without losing cursor position
-  * [http://sagetrac.org/sage_trac/ticket/2636 #2636]: notebook -- changing a cell without evaluate should put the red line back ...
-  * [http://sagetrac.org/sage_trac/ticket/2633 #2633]: Notebook tweaks
-  * [http://sagetrac.org/sage_trac/ticket/2631 #2631]: Distinguishing between (un)evaluated cells
-  * [http://sagetrac.org/sage_trac/ticket/2629 #2629]: Bottom of page problems
-  * [http://sagetrac.org/sage_trac/ticket/2628 #2628]: Literate notebook
-  * [http://sagetrac.org/sage_trac/ticket/2606 #2606]: command line option to kill a background notebook
-  * [http://sagetrac.org/sage_trac/ticket/2605 #2605]: Notebook tab-backspace-(shift enter) gives bug
-  * [http://sagetrac.org/sage_trac/ticket/386 #386]  Enhance "attach <file>" in the notebook
-  * [http://sagetrac.org/sage_trac/ticket/406 #406]  notebook -- improve support for other system modes
-  * [http://sagetrac.org/sage_trac/ticket/408 #408]  Notebook glitch in Safari
-  * [http://sagetrac.org/sage_trac/ticket/413 #413]  saving non-evaluated cells
-  * [http://sagetrac.org/sage_trac/ticket/1466 #1466]  improve the "click to the left" aspect of the notebook
-  * [http://sagetrac.org/sage_trac/ticket/1467 #1467]  make it possible to upload/download worksheets as plain text
-  * [http://sagetrac.org/sage_trac/ticket/1468 #1468]  notebook -- create a global option so that word wrap is on or off by default always
-  * [http://sagetrac.org/sage_trac/ticket/1496 #1496]  notebook -- make it easy to link different worksheets
-  * [http://sagetrac.org/sage_trac/ticket/245 #245]  a bunch of random notebook improvement ideas
-  * [http://sagetrac.org/sage_trac/ticket/246 #246]  height of a notebook cell
-  * [http://sagetrac.org/sage_trac/ticket/251 #251]  Notebook worksheet multithreading
-  * [http://sagetrac.org/sage_trac/ticket/260 #260]  transparent graphics output
-  * [http://sagetrac.org/sage_trac/ticket/301 #301]  Create some functions for notebook history
-  * [http://sagetrac.org/sage_trac/ticket/302 #302]  Report server errors to online notebook users
-  * [http://sagetrac.org/sage_trac/ticket/322 #322]  Have global code page for Notebook
-  * [http://sagetrac.org/sage_trac/ticket/336 #336]  Create an option to clear all cell output
-  * [http://sagetrac.org/sage_trac/ticket/338 #338]  In doc browser make hyper links to referenced code in SAGE library
-  * [http://sagetrac.org/sage_trac/ticket/353 #353]  public sage notebook robustness
-  * [http://sagetrac.org/sage_trac/ticket/359 #359]  Consider adding dhtml javascript drawing functionality to the SAGE notebook
+ * General improvements and bug fixes; here are some relevant [[http://trac.sagemath.org/sage_trac|trac tickets]] (search for #number):
+  * [[http://sagetrac.org/sage_trac/ticket/2652|#2652]]: notebook should let you evaluate cells without losing cursor position
+  * [[http://sagetrac.org/sage_trac/ticket/2636|#2636]]: notebook -- changing a cell without evaluate should put the red line back ...
+  * [[http://sagetrac.org/sage_trac/ticket/2633|#2633]]: Notebook tweaks
+  * [[http://sagetrac.org/sage_trac/ticket/2631|#2631]]: Distinguishing between (un)evaluated cells
+  * [[http://sagetrac.org/sage_trac/ticket/2629|#2629]]: Bottom of page problems
+  * [[http://sagetrac.org/sage_trac/ticket/2628|#2628]]: Literate notebook
+  * [[http://sagetrac.org/sage_trac/ticket/2606|#2606]]: command line option to kill a background notebook
+  * [[http://sagetrac.org/sage_trac/ticket/2605|#2605]]: Notebook tab-backspace-(shift enter) gives bug
+  * [[http://sagetrac.org/sage_trac/ticket/386|#386]]  Enhance "attach <file>" in the notebook
+  * [[http://sagetrac.org/sage_trac/ticket/406|#406]]  notebook -- improve support for other system modes
+  * [[http://sagetrac.org/sage_trac/ticket/408|#408]]  Notebook glitch in Safari
+  * [[http://sagetrac.org/sage_trac/ticket/413|#413]]  saving non-evaluated cells
+  * [[http://sagetrac.org/sage_trac/ticket/1466|#1466]]  improve the "click to the left" aspect of the notebook
+  * [[http://sagetrac.org/sage_trac/ticket/1467|#1467]]  make it possible to upload/download worksheets as plain text
+  * [[http://sagetrac.org/sage_trac/ticket/1468|#1468]]  notebook -- create a global option so that word wrap is on or off by default always
+  * [[http://sagetrac.org/sage_trac/ticket/1496|#1496]]  notebook -- make it easy to link different worksheets
+  * [[http://sagetrac.org/sage_trac/ticket/245|#245]]  a bunch of random notebook improvement ideas
+  * [[http://sagetrac.org/sage_trac/ticket/246|#246]]  height of a notebook cell
+  * [[http://sagetrac.org/sage_trac/ticket/251|#251]]  Notebook worksheet multithreading
+  * [[http://sagetrac.org/sage_trac/ticket/260|#260]]  transparent graphics output
+  * [[http://sagetrac.org/sage_trac/ticket/301|#301]]  Create some functions for notebook history
+  * [[http://sagetrac.org/sage_trac/ticket/302|#302]]  Report server errors to online notebook users
+  * [[http://sagetrac.org/sage_trac/ticket/322|#322]]  Have global code page for Notebook
+  * [[http://sagetrac.org/sage_trac/ticket/336|#336]]  Create an option to clear all cell output
+  * [[http://sagetrac.org/sage_trac/ticket/338|#338]]  In doc browser make hyper links to referenced code in SAGE library
+  * [[http://sagetrac.org/sage_trac/ticket/353|#353]]  public sage notebook robustness
+  * [[http://sagetrac.org/sage_trac/ticket/359|#359]]  Consider adding dhtml javascript drawing functionality to the SAGE notebook
