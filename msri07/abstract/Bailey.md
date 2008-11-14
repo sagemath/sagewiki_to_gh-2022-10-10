@@ -1,6 +1,6 @@
 == Experimental Mathematics and High-Performance Computing ==
  
-[http://www.icsi.berkeley.edu/~dbailey/ David H Bailey], Lawrence Berkeley Lab
+[[http://www.icsi.berkeley.edu/~dbailey/|David H Bailey]], Lawrence Berkeley Lab
  
 Abstract:
  
