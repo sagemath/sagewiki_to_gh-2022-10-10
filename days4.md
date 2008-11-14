@@ -6,13 +6,13 @@ The conference was fully funded by the NSF UW/VIGRE and PIMS, so there was no re
 
 The focus was on coding sprints.  SAGE Days 4 was a developer-oriented workshop, with plenty of opportunities for participants to talk and work with others.
 
- * [http://www.sagemath.org/flier/flier.pdf Poster]
+ * [[http://www.sagemath.org/flier/flier.pdf|Poster]]
 
- * [:days4schedule: Schedule]
+ * [[days4schedule| Schedule]]
 
- * [:days4/projects: Coding Sprint Projects]
+ * [[days4/projects| Coding Sprint Projects]]
  
- * [:days4/Pictures: Pictures]
+ * [[days4/Pictures| Pictures]]
 
 == Organizers ==
 
@@ -29,7 +29,7 @@ The following people expressed interest, and most attended.
  * Martin Albrecht (remotely)
  * Nick Alexander (UC Irvine grad student)
  * Tom Boothby (UW undergrad)
- * [:IftikharBurhanuddin:Iftikhar Burhanuddin] (UCLA postdoc)
+ * [[IftikharBurhanuddin|Iftikhar Burhanuddin]] (UCLA postdoc)
  * Craig Citro (UCLA grad student; first three days)
  * Timothy Clemans (Seattle High School Student)
  * Alex Clemesha (UCSD)
@@ -65,11 +65,11 @@ and continue north past Husky Stadium. Move over to the right and take the
 3rd right after the Stadium. Park in lot E1. It will cost $ 5 (a machine
 takes ones and fives). Park your car and walk over the overpass
 and up the hill. Look for the math Dept using the campus map
-[http://www.washington.edu/home/maps/campusmappg.pdf campus map] (pdf)
-or [http://www.washington.edu/home/maps/northcentral.html?PDL Padelford Hall map].
+[[http://www.washington.edu/home/maps/campusmappg.pdf|campus map]] (pdf)
+or [[http://www.washington.edu/home/maps/northcentral.html?PDL|Padelford Hall map]].
 
 Accomodations:
 
- * [http://www.washington.edu/univrel/visitors/accommodations.html General hotel information]
- * The [http://www.seattleuniversityhotel.com/index.html Seattle University Travelodge] has free wifi and is conveniently located. Their rates are also reasonable (e.g., 78 and 88). 
- * The [http://www.collegeinnseattle.com/ College Inn] is also a good choice, though sometimes gets booked up.
+ * [[http://www.washington.edu/univrel/visitors/accommodations.html|General hotel information]]
+ * The [[http://www.seattleuniversityhotel.com/index.html|Seattle University Travelodge]] has free wifi and is conveniently located. Their rates are also reasonable (e.g., 78 and 88). 
+ * The [[http://www.collegeinnseattle.com/|College Inn]] is also a good choice, though sometimes gets booked up.
