@@ -1,6 +1,6 @@
 = Numerical Computation =
 
-[:days4/projects/: Other SAGE Days 4 Project]
+[[days4/projects/| Other SAGE Days 4 Project]]
 
 Participants: Kirsten Fagnan, Josh Kantor, didier deshommes
 
@@ -18,5 +18,5 @@ The last one would be great to have someone do, but I'm not very good at writing
  
 
 
-* look at [http://web.comlab.ox.ac.uk/projects/chebfun/ chebfun].
+* look at [[http://web.comlab.ox.ac.uk/projects/chebfun/|chebfun]].
  
