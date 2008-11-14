@@ -1,3 +1,4 @@
+## page was renamed from DsageNg/CellProcessor
 ## Please edit system and help pages ONLY in the moinmaster wiki! For more
 ## information, please see MoinMaster:MoinPagesEditorGroup.
 ##master-page:CategoryTemplate
@@ -5,7 +6,7 @@
 #format wiki
 #language en
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 = IBM Cell =
 
