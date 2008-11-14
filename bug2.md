@@ -4,11 +4,11 @@ The event will take place on '''THURSDAY September 6th, 2007''' and officially s
 
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
- * [:bug2/status: STATUS]
+ * [[bug2/status| STATUS]]
 
- * [:bug2/irc: IRC log]
+ * [[bug2/irc| IRC log]]
 
- * [:bug2/Results: Results]
+ * [[bug2/Results| Results]]
 
  * The base version of SAGE we'll start with is here: sage-2.8.3.6, which you can upgrade to.
 
