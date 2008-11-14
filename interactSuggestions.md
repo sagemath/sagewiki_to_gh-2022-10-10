@@ -9,4 +9,4 @@ This is a informal page for coordinating suggestions on improving the interact c
     5. Show current value next to slider control, perhaps also min/max: e.g. {{{[min] |----------------[V]----| value [max]}}}
 
 == Links ==
- * [http://code.google.com/p/playwith/wiki/Screenshots R package playwith] - similar idea, inside a gtk2 window
+ * [[http://code.google.com/p/playwith/wiki/Screenshots|R package playwith]] - similar idea, inside a gtk2 window
