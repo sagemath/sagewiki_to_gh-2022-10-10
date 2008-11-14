@@ -8,7 +8,7 @@ Sage is fully supported on the following platforms:
  * MacOSX 10.4 and 10.5  on Intel (32 bit only)
  * VMWare via a 32 bit Linux image (we support a specific preconfigured image meant for use in Windows).
 
-"Supported" means all doctests pass. If not, please report the problem to the Google group [http://groups.google.com/group/sage-devel sage-devel] or [http://groups.google.com/group/sage-support sage-support]. You can also report problems in the IRC channel #sage-devel on [http://freenode.net freenode].
+"Supported" means all doctests pass. If not, please report the problem to the Google group [[http://groups.google.com/group/sage-devel|sage-devel]] or [[http://groups.google.com/group/sage-support|sage-support]]. You can also report problems in the IRC channel #sage-devel on [[http://freenode.net|freenode]].
  
 The following platforms are feasible in the short term and depend mostly on somebody who is willing to do the job. If you intend to work on a specific port, please let the Sage people know.
 ard)
@@ -24,10 +24,10 @@ ard)
  * Windows/Cygwin: this port was dropped due to numerous problems after the 2.5.0 release, but will be resurrected as a stepping stone in the MSVC port
 
 The status of various ports can be followed in the following places:
- * the Solaris port can be followed at [:solaris:The Solaris port page].
- * the Windows ports can be followed at [:windows:The Windows port page].
- * the FreeBSD port can be followed at [:freebsd:The FreeBSD port page].
- * the AIX 64 bit port is in the early stages - it can be followed at [:AIX64:The AIX 64 bit port page]
- * the Linux ppc64 port can be followed at [:linuxPPC64:The Linux PPC64 port page]
- * the Linux Mips64 port can be followed at [:SiCortex:The SiCortex port page].
+ * the Solaris port can be followed at [[solaris|The Solaris port page]].
+ * the Windows ports can be followed at [[windows|The Windows port page]].
+ * the FreeBSD port can be followed at [[freebsd|The FreeBSD port page]].
+ * the AIX 64 bit port is in the early stages - it can be followed at [[AIX64|The AIX 64 bit port page]]
+ * the Linux ppc64 port can be followed at [[linuxPPC64|The Linux PPC64 port page]]
+ * the Linux Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
  * the 64 bit MacIntel port is ongoing, but needs some more work
