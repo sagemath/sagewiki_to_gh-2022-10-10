@@ -1,7 +1,7 @@
 = Sage Interactions - Number Theory =
-goto [:interact:interact main page]
+goto [[interact|interact main page]]
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Factor Trees ==
 by William Stein
@@ -50,7 +50,7 @@ def factor_tree(n=100, font=(10, (8..20)), redraw=['Redraw']):
     ftree(rows, v, 0, factor(n))
     show(draw_ftree(rows, font), axes=False)
 }}}
-attachment:factortree.png
+{{attachment:factortree.png}}
 
 == Continued Fraction Plotter ==
 by William Stein
@@ -60,7 +60,7 @@ def _(number=e, ymax=selector([None,5,20,..,400],nrows=2), clr=Color('purple'), 
     c = list(continued_fraction(RealField(prec)(number))); print c
     show(line([(i,z) for i, z in enumerate(c)],rgbcolor=clr),ymax=ymax,figsize=[10,2])
 }}}
-attachment:contfracplot.png
+{{attachment:contfracplot.png}}
 
 == Illustrating the prime number theorem ==
 by William Stein
@@ -70,7 +70,7 @@ def _(N=(100,(2..2000))):
     html("<font color='red'>$\pi(x)$</font> and <font color='blue'>$x/(\log(x)-1)$</font> for $x < %s$"%N)
     show(plot(prime_pi, 0, N, rgbcolor='red') + plot(x/(log(x)-1), 5, N, rgbcolor='blue'))
 }}}
-attachment:primes.png
+{{attachment:primes.png}}
 
 == Computing Generalized Bernoulli Numbers ==
 by William Stein (Sage-2.10.3)
@@ -90,7 +90,7 @@ def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
     html(s)
 }}}
 
-attachment:bernoulli.png
+{{attachment:bernoulli.png}}
 
 
 == Fundamental Domains of SL_2(ZZ) ==
@@ -120,7 +120,7 @@ def _(gen = selector(['t+1', 't-1', '-1/t'], nrows=1)):
     P.show()
 }}}
 
-attachment:fund_domain.png
+{{attachment:fund_domain.png}}
 
 == Computing modular forms ==
 by William Stein
@@ -142,7 +142,7 @@ def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40),
     print "\n\n\nDone computing basis."
 }}}
 
-attachment:modformbasis.png
+{{attachment:modformbasis.png}}
 
 
 == Computing the cuspidal subgroup ==
@@ -155,7 +155,7 @@ def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
     print A.cuspidal_subgroup()
 }}}
 
-attachment:cuspgroup.png
+{{attachment:cuspgroup.png}}
 
 == A Charpoly and Hecke Operator Graph ==
 by William Stein
@@ -177,7 +177,7 @@ def f(N = prime_range(11,400),
         show(G.plot(),figsize=7)
 }}}
 
-attachment:heckegraph.png
+{{attachment:heckegraph.png}}
 
 == Demonstrating the Diffie-Hellman Key Exchange Protocol ==
 by Timothy Clemans (refereed by William Stein)
@@ -221,7 +221,7 @@ font-weight:bold
        (g^ b)^a, g^a, b, p, (g^a)^b)
 }}}
 
-attachment:dh.png
+{{attachment:dh.png}}
 
 == Plotting an elliptic curve over a finite field ==
 {{{
@@ -233,7 +233,7 @@ def _(p=slider(prime_range(1000), default=389)):
     show(E.change_ring(GF(p)).plot(),xmin=0,ymin=0)
 }}}
 
-attachment:ellffplot.png
+{{attachment:ellffplot.png}}
 
 == Prime Spiral - Square ==
 by David Runde
@@ -370,7 +370,7 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
         #matrix_plot(M)
 }}}
 
-attachment:SquareSpiral.PNG
+{{attachment:SquareSpiral.PNG}}
 
 == Prime Spiral - Polar ==
 by David Runde
@@ -441,7 +441,7 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
     else: show(R+P, aspect_ratio = 1, axes = false)
 }}}
 
-attachment:PolarSpiral.PNG
+{{attachment:PolarSpiral.PNG}}
 
 == Quadratic Residue Table ==
 by Emily Kirkman
@@ -492,9 +492,9 @@ def quad_res_plot(first_n_odd_primes = (20,200),display_size=[7..15]):
     html('Symmetry of Prime Quadratic Residues mod the first %d odd primes.'%r)
 }}}
 
-attachment:quadres.png
+{{attachment:quadres.png}}
 
-attachment:quadresbig.png
+{{attachment:quadresbig.png}}
 
 == Cubic Residue Table ==
 by Emily Kirkman
@@ -576,7 +576,7 @@ def cubic_sym(n=(10..35),display_size=[7..15]):
     MP.show(axes=False, figsize=[display_size,display_size])
 }}}
 
-attachment:cubres.png
+{{attachment:cubres.png}}
 
 == Gauss and Jacobi Sums in Complex Plane ==
 by Emily Kirkman
@@ -656,7 +656,7 @@ def single_jacobi_plot(p=prime_range(3,100), e_range=(0..100), f_range=(0..100))
     S.show(aspect_ratio=1)
 }}}
 
-attachment:jacobising.png
+{{attachment:jacobising.png}}
 
 == Exhaustive Jacobi Plotter ==
 by Emily Kirkman
@@ -746,4 +746,4 @@ def exhaustive_jacobi_plot(p=prime_range(3,8)):
     html('</table>')
 }}}
 
-attachment:jacobiexh.png
+{{attachment:jacobiexh.png}}
