@@ -1,6 +1,6 @@
 = Sage Days 10, Youth Hostel accomodation page =
 
-The chosen accomodation is [http://www.maison-des-chercheurs-nancy.imhotel.fr/index_en.php "La maison des chercheurs"].
+The chosen accomodation is [[http://www.maison-des-chercheurs-nancy.imhotel.fr/index_en.php|"La maison des chercheurs"]].
 {{{
 167 Avenue du Général Leclerc
 54500 VANDOEUVRE-LES-NANCY
