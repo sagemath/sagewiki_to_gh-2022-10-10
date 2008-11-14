@@ -1,6 +1,6 @@
 = Sage Interactions - Dynamical Systems =
-goto [:interact:interact main page]
-[[TableOfContents]]
+goto [[interact|interact main page]]
+<<TableOfContents>>
 == Cobweb diagrams on [0,1] ==
 by Marshall Hampton.
 {{{
@@ -40,7 +40,7 @@ def cobwebber(f_text = input_box(default = "3.8*x*(1-x)",label = "function", typ
         return eval(f_text)
     show(cobweb(f, start_val, iterations = its))
 }}}
-attachment:cobweb.png
+{{attachment:cobweb.png}}
 
 == Cythonized Logistic Orbit Map ==
 By Marshall Hampton
@@ -82,4 +82,4 @@ def logistic_bifs(k_min = slider(0.0,4.0,.001,3.5), k_max = slider(0.0,4.0,.001,
             xpts = xpts + [[k,q] for q in ks]
     show(points(xpts, pointsize = 1), figsize = [6,6])
 }}}
-attachment:logisticorbits.png
+{{attachment:logisticorbits.png}}
