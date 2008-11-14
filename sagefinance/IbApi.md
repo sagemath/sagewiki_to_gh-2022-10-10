@@ -5,11 +5,11 @@
 #format wiki
 #language en
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 = Ib Api Code Outline =
 
- * attachment:ibapisummary.txt
+ * [[attachment:ibapisummary.txt]]
 
 ----
 CategoryCategory
