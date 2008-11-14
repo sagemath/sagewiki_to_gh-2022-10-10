@@ -1,4 +1,4 @@
-This page lists some configuration options that we will need for the new [:days4/projects/nb/: twisted notebook].
+This page lists some configuration options that we will need for the new [[days4/projects/nb/| twisted notebook]].
 
 = Notebook Configuration Data =
 
