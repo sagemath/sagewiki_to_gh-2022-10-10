@@ -1,8 +1,8 @@
 = Sage Interactions - Miscellaneous =
-goto [:interact:interact main page]
+goto [[interact|interact main page]]
 
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 == An Interactive Venn Diagram ==
 
@@ -58,7 +58,7 @@ def _(X='1,2,3,a', Y='2,a,3,4,apple', Z='a,b,10,apple'):
     G.show(aspect_ratio=1, axes=False)
 }}}
 
-attachment:veng.png
+{{attachment:veng.png}}
 
 == Unreadable code ==
 by Igor Tolkov
@@ -72,7 +72,7 @@ def _(h=(20,(1,36,1))):
         )
     )
 }}}
-attachment:unreadable.png
+{{attachment:unreadable.png}}
 
 
 == Profile a snippet of code ==
@@ -90,7 +90,7 @@ def _(cmd = ("Statement", '2 + 2'),
         profile.run(cmd)
     print "</html>"
 }}}
-attachment:profile.png
+{{attachment:profile.png}}
 
 
 === Evaluate a bit of code in a given system ===
@@ -102,7 +102,7 @@ def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), 
     print globals()[system].eval(code)
 }}}
 
-attachment:evalsys.png
+{{attachment:evalsys.png}}
 
 == A Random Walk ==
 
@@ -139,7 +139,7 @@ def foo(pts = checkbox(True, "Show points"),
     if pts: L += points(v, pointsize=10, rgbcolor='red')
     show(L, xmin=0, figsize=[8,3])
 }}}
-attachment:randomwalk.png
+{{attachment:randomwalk.png}}
 
 == 3D Random Walk ==
 {{{
@@ -154,7 +154,7 @@ def rwalk3d(n=(50,1000), frame=True):
         v.append(copy(pnt))
     show(line3d(v,color='black'),aspect_ratio=[1,1,1],frame=frame)
 }}}
-attachment:randomwalk3d.png
+{{attachment:randomwalk3d.png}}
 
 == Minkowski Sum ==
 by Marshall Hampton
@@ -201,4 +201,4 @@ def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), y
     labels = labels + text('=', (-.2,.5), rgbcolor = (0,0,0))
     show(labels + t_vert + b_vert+ triangle + kite + triangle_sum + kite_sum + edge_lines, axes=False, figsize = [11.0*.7, 4*.7], xmin = -6, ymin = 0, ymax = 4)
 }}}
-attachment:minksum.png
+{{attachment:minksum.png}}
