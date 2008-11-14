@@ -1,7 +1,7 @@
 = Sage: freies Softwarepaket für Mathematik =
-[:SAGE:Sage] ist eine Distribution freier Mathematiksoftware, bestehend aus zahlreichen eingebundenen Paketen, die eine einheitliche Oberfläche zum Behandeln verschiedenster Themen der Mathematik bereitstellt.
+[[SAGE|Sage]] ist eine Distribution freier Mathematiksoftware, bestehend aus zahlreichen eingebundenen Paketen, die eine einheitliche Oberfläche zum Behandeln verschiedenster Themen der Mathematik bereitstellt.
 
-Außerdem ist es eine Schnittstelle zu bestehenden Computer Algebra Systemen und eine Python-Bibliothek zum Einbinden in andere Programme. Die Umsetzung geht auf eine Idee von ["William Stein"] und zahlreiche andere Mitwirkende aus der ganzen Welt zurück. Sage ist unter den Bedingungen der GNU General Public License (GPL) verfügbar.
+Außerdem ist es eine Schnittstelle zu bestehenden Computer Algebra Systemen und eine Python-Bibliothek zum Einbinden in andere Programme. Die Umsetzung geht auf eine Idee von [[William_Stein]] und zahlreiche andere Mitwirkende aus der ganzen Welt zurück. Sage ist unter den Bedingungen der GNU General Public License (GPL) verfügbar.
 
 Webseite: http://sagemath.org
 
@@ -9,13 +9,13 @@ Webseite: http://sagemath.org
 
 Sage beinhaltet diverse mathematische Open-Source Bibliotheken und bietet eine vereinheitlichte Schnittstelle zu ihnen an:
 
- * für kommutative '''Algebra''': ["Singular"], ["PolyBoRi"]
- * '''Analysis''': ["Maxima"], ["SymPy"]
- * '''Gruppentheorie''': ["GAP"]
- * Elliptische Kurven: John Cremona's ["MWRANK"] Bibliothek
- * '''Zahlentheorie''': ["PARI"], Shoup's Zahlentheorie Bibliothek ["NTL"]
- * '''Grafiken''': [:matplotlib:Matplotlib] (für 2D und 3D Graphiken), jmol (ein 3D Renderer)
- * Numerik: ["NumPy"], ["SciPy"]
+ * für kommutative '''Algebra''': [[Singular]], [[PolyBoRi]]
+ * '''Analysis''': [[Maxima]], [[SymPy]]
+ * '''Gruppentheorie''': [[GAP]]
+ * Elliptische Kurven: John Cremona's [[MWRANK]] Bibliothek
+ * '''Zahlentheorie''': [[PARI]], Shoup's Zahlentheorie Bibliothek [[NTL]]
+ * '''Grafiken''': [[matplotlib|Matplotlib]] (für 2D und 3D Graphiken), jmol (ein 3D Renderer)
+ * Numerik: [[NumPy]], [[SciPy]]
  * Intervallarithmetik: MPRI
  * Statistik: R
  * '''Graphentheorie''': NetworkX
@@ -43,9 +43,9 @@ Sage beinhaltet diverse mathematische Open-Source Bibliotheken und bietet eine v
 
 
 == Anleitung zur Installation ==
-siehe: ["SAGE-Kurzanleitung-German"]
+siehe: [[SAGE-Kurzanleitung-German]]
 
 == Einführung und Kurzreferenz ==
 
- * siehe: ["SAGE-Bedienung-German"]
- * siehe: ["SAGE-Kurzreferenz-German"]
+ * siehe: [[SAGE-Bedienung-German]]
+ * siehe: [[SAGE-Kurzreferenz-German]]
