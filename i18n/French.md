@@ -2,7 +2,7 @@
 This page is intended as a coordination page for the French translation of Sage documentation.
 
 === TODO list ===
- * For now we are translating the SAGE tutorial .rst files. - you can find the original files [[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/ | here]]
+ * For now we are translating the SAGE tutorial .rst files. - you can find the original files [[[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/|| here]]]
  * Tutoriel : finir de relire (notamment les « ??? » un peu partout, uniformiser l'usage des espaces insécables.
 
 ==== Tutorial ====
@@ -19,27 +19,27 @@ Here there is a list of the .rst to be translated:
 
 ||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
 ||''file name''         ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
-||tour.rst              || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst changements proposés] (MM) ||
-||tour_rings.rst        || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst changements proposés] (MM) ||
-||tour_polynomial.rst   || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst changements proposés] (MM) ||
-||tour_plotting.rst     || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst changements proposés] (MM) ||
-||tour_numtheory.rst    || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst changements proposés] (MM) ||
-||tour_linalg.rst       || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst changements proposés] (MM) ||
-||tour_help.rst         || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst done] (BM) ||
-||tour_groups.rst       || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst changements proposés] (MM) ||
-||tour_assignment.rst   || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst changements proposés] (MM) ||
-||tour_algebra.rst      || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst changements proposés] (MM) ||
-||tour_advanced.rst     || done (BM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst changements proposés] (MM) ||
-||programming.rst       || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst done *] (BM) ||
-||introduction.rst      || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst done] (BM, PZ) ||
-||interfaces.rst        || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interfaces_fr.rst done (pending review)] (BM) || ||
-||interactive_shell.rst || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/interactive_shell_fr.rst done *] (BM) ||
-||index.rst             || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/index_fr.rst done] (PZ)  ||
-||distributed.rst       || done (MM) || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst done] (BM) ||
-||conf.py               || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/conf.py done (pending review)] (MM) || ||
-||bibliography.rst      || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst done (pending review)] (MM) || ||
-||appendix.rst          || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/appendix_fr.rst done (pending review)] (MM) || ||
-||afterword.rst         || [http://www.eleves.ens.fr/~mezzarob/sagetutfr/afterword_fr.rst done (pending review)] (BM) || ||
+||tour.rst              || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst|changements proposés]] (MM) ||
+||tour_rings.rst        || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst|changements proposés]] (MM) ||
+||tour_polynomial.rst   || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst|changements proposés]] (MM) ||
+||tour_plotting.rst     || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst|changements proposés]] (MM) ||
+||tour_numtheory.rst    || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst|changements proposés]] (MM) ||
+||tour_linalg.rst       || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst|changements proposés]] (MM) ||
+||tour_help.rst         || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst|done]] (BM) ||
+||tour_groups.rst       || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst|changements proposés]] (MM) ||
+||tour_assignment.rst   || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst|changements proposés]] (MM) ||
+||tour_algebra.rst      || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst|changements proposés]] (MM) ||
+||tour_advanced.rst     || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst|changements proposés]] (MM) ||
+||programming.rst       || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst|done *]] (BM) ||
+||introduction.rst      || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst|done]] (BM, PZ) ||
+||interfaces.rst        || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/interfaces_fr.rst|done (pending review)]] (BM) || ||
+||interactive_shell.rst || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/interactive_shell_fr.rst|done *]] (BM) ||
+||index.rst             || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/index_fr.rst|done]] (PZ)  ||
+||distributed.rst       || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst|done]] (BM) ||
+||conf.py               || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/conf.py|done (pending review)]] (MM) || ||
+||bibliography.rst      || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst|done (pending review)]] (MM) || ||
+||appendix.rst          || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/appendix_fr.rst|done (pending review)]] (MM) || ||
+||afterword.rst         || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/afterword_fr.rst|done (pending review)]] (BM) || ||
 
 Ci-dessus, '*' dans la colonne relecture signifie (que le fichier a été relu mais) qu'il reste des points peu clairs, des corrections à apporter...
 
@@ -48,4 +48,4 @@ http://www.eleves.ens.fr/~mezzarob/sagetutfr/html/index_fr.html
 
 == Conventions ==
 == Glossaire ==
-Pour se mettre d'accord sur la traduction de termes courants. On peut aussi utiliser le [http://glossaire.traduc.org/ glossaire] de traduc.org (cependant, le but est d'obtenir une traduction claire et pas trop lourde : on n'est pas obligé de s'y tenir).
+Pour se mettre d'accord sur la traduction de termes courants. On peut aussi utiliser le [[http://glossaire.traduc.org/|glossaire]] de traduc.org (cependant, le but est d'obtenir une traduction claire et pas trop lourde : on n'est pas obligé de s'y tenir).
