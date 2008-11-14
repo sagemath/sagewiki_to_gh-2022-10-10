@@ -1,7 +1,7 @@
 = Integral Calculus =
 
 
-Besides the examples on this page, please see the discussion in ["BasicCalculus"].
+Besides the examples on this page, please see the discussion in [[BasicCalculus]].
 
 == Definite and Indefinite Integrals ==
 
