@@ -1,6 +1,6 @@
 = Documentation =
 
-[:days4/projects/: Other SAGE Days 4 Project]
+[[days4/projects/| Other SAGE Days 4 Project]]
 
  
  * M Albrecht: Go through the wiki and clean it up, write more documentation,  and check what content should be added to the documentation
