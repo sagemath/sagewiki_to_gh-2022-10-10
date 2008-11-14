@@ -21,7 +21,7 @@ Robert Miller
 
 == Improved Dense Linear Algebra over GF(2) ==
  * M4RI (http://m4ri.sagemath.org) was updated to the newest upstream release which
-  * provides much improved performance for multiplication (see [http://m4ri.sagemath.org/performance.html M4RI's "performance" page]),
+  * provides much improved performance for multiplication (see [[http://m4ri.sagemath.org/performance.html|M4RI's "performance" page]]),
   * provides improved performance for elimination,
   * contains several build and bugfixes.
  * hashs and matrix pickling was much improved (Martin Albrecht)
@@ -105,7 +105,7 @@ sage: [g(*p) for p in ones]
 == Fast Numerical Integration ==
 
 == GAP Meataxe Interface ==
- * In the {{{module matrix_group}}}, the method {{{module_composition_factors}}} interfaces with GAP's [http://www.gap-system.org/Manuals/doc/htm/ref/CHAP067.htm Meataxe] implementation. This will return decomposition information for a G-module, for any matrix group G over a finite field (David Joyner and Simon King).
+ * In the {{{module matrix_group}}}, the method {{{module_composition_factors}}} interfaces with GAP's [[http://www.gap-system.org/Manuals/doc/htm/ref/CHAP067.htm|Meataxe]] implementation. This will return decomposition information for a G-module, for any matrix group G over a finite field (David Joyner and Simon King).
 
 == Better SymPy Integration ==
  * Ondrej Cetrik implemented more conversions from Sage native types to SymPy native types.
@@ -128,7 +128,7 @@ sage: C = random_matrix(P,8,8)
 sage: %time d = C.det()
 CPU times: user 0.09 s, sys: 0.00 s, total: 0.09 s
 }}}
- * a discussion about this issue can be found on [http://groups.google.com/group/sage-devel/browse_thread/thread/7aa1bd1e945ff372/ sage-devel]
+ * a discussion about this issue can be found on [[http://groups.google.com/group/sage-devel/browse_thread/thread/7aa1bd1e945ff372/|sage-devel]]
 
 == Real Number Inputs Improved ==
  * Robert Bradshaw improved real number input so that the precision is preserved better:
