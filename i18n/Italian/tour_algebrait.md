@@ -405,5 +405,5 @@ nell'esempio seguente:
 }}}
 
 == rst file ==
-[[AttachInfo]]
-[[AttachList]]
+<<AttachInfo>>
+<<AttachList>>
