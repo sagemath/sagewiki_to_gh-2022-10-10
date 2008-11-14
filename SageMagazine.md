@@ -46,7 +46,7 @@ remember that this magazine will still be available years after publishing. ther
 Issues are numbered by the <year>-<month> of their release. Maybe every two month, depending on the number of submissions.
 
 == Submissions ==
- * Submissions on a continuous base, email them to the Editor: [[MailTo(harald DOT schilly AT SPAMFREE gmail DOT com)]]
+ * Submissions on a continuous base, email them to the Editor: <<MailTo(harald DOT schilly AT SPAMFREE gmail DOT com)>>
  * Announcements on sage-devel
 
 === Volume 2008-0x ===
@@ -71,7 +71,7 @@ resources for article ideas:
  * blogs
  * own experience
 == Copyright ==
-as mentioned on the first page of this wiki: contributions are licensed under the [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons 3.0 license].
+as mentioned on the first page of this wiki: contributions are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 license]].
 
 == Citation ==
 possible style to cite an article
@@ -92,7 +92,7 @@ possible style to cite an article
 }}}
 == Prerequisites / TODO ==
  * SageMagazine.sty latex stylefile: twocolumn, title, TOC, editorial notice, articles are included as separate TeX files, they should have a title (spans over both columns), subtitle, author and automatic formatting.
- * [http://www.loc.gov/issn/e-serials.html ISSN number]
+ * [[http://www.loc.gov/issn/e-serials.html|ISSN number]]
  * website listing all volumes, links to pdf's, (plus erratum), general explanation, explanation who is behind, explanation how to submit articles
 == Organization ==
 Before releasing the first volume, we need:
@@ -114,9 +114,9 @@ Before releasing the first volume, we need:
   1. if trac-issue mentions an error, editor uploads patched pdf and a small text file called "erratum" and updates sources in the repository
 
 == Links ==
- * this reminds me a bit of Haskell's [http://www.haskell.org/haskellwiki/The_Monad.Reader The Monad Reader]. --DanDrake
- * similar project is R's Newsletter [http://www.r-project.org/doc/Rnews/index.html R News]
- * Blender Art Magazine for the open source 3D software: [http://www.blenderart.org/ BlenderArt Magazine]
+ * this reminds me a bit of Haskell's [[http://www.haskell.org/haskellwiki/The_Monad.Reader|The Monad Reader]]. --DanDrake
+ * similar project is R's Newsletter [[http://www.r-project.org/doc/Rnews/index.html|R News]]
+ * Blender Art Magazine for the open source 3D software: [[http://www.blenderart.org/|BlenderArt Magazine]]
 
 == Comments ==
 write here general comments or edit errors above ...
