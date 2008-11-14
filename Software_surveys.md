@@ -1,3 +1,3 @@
- * [:graph survey]
- * [:K math software survey]
- * [:interactive notebook software]
+ * [[graph_survey]]
+ * [[K_math_software_survey]]
+ * [[interactive_notebook_software]]
