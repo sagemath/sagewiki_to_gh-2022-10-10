@@ -2,7 +2,7 @@
 
 Some useful links: 
 
-   * [http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/version/Doc/overview.html]
+   * [[http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/version/Doc/overview.html]]
 
 Pyrex has an unfortunate bug in the way it handles the power function for cdef integers. Namely
 
