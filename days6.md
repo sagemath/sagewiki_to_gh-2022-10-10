@@ -1,15 +1,15 @@
 = SAGE Days 6: Cryptology, Number theory, and Arithmetic Geometry =
 == Schedule ==
-The [:days6/talks:schedule is here].   All lectures on Saturday and Sunday, and the panel discussion on Sunday evening,  will take place in the Mathematics Department (29 on the map).  All activities on Monday-Wednesday will take place in the Royal Fort Annexe (30 on the map).  Also, see [http://ondrejcertik.blogspot.com/search/label/sage Ondrej's blog].
+The [[days6/talks|schedule is here]].   All lectures on Saturday and Sunday, and the panel discussion on Sunday evening,  will take place in the Mathematics Department (29 on the map).  All activities on Monday-Wednesday will take place in the Royal Fort Annexe (30 on the map).  Also, see [[http://ondrejcertik.blogspot.com/search/label/sage|Ondrej's blog]].
 
 == Pictures ==
-[:days6/pictures:Photos from Sage Days 6]
+[[days6/pictures|Photos from Sage Days 6]]
 
 == Videos ==
-[:days6/videos:Videos from Sage Days 6]
+[[days6/videos|Videos from Sage Days 6]]
 
 == Coding Sprints ==
-[:days6/sprint:Coding Sprint Organization Page]
+[[days6/sprint|Coding Sprint Organization Page]]
 
 == Dates ==
 The 6th SAGE days 2007 was held November 10-14, 2007 in Bristol, UK at http://www.maths.bris.ac.uk/research/labs/heilbronn/. The Bristol webpage about SAGE Days 6 is here:
@@ -23,7 +23,7 @@ If you will be arriving too late for registration on Friday:   for invited parti
 
 We may plan some informal activities on Friday evening:  watch this space.
 
-See [http://www.bristol.ac.uk/university/maps/precinct.html this map]: Royal Fort House (& Annexe) is 30; Mathematics (for lectures) is 29; the Marriott Hotel is just to the right of the cathedral, on College Green (see bottom of map).
+See [[http://www.bristol.ac.uk/university/maps/precinct.html|this map]]: Royal Fort House (& Annexe) is 30; Mathematics (for lectures) is 29; the Marriott Hotel is just to the right of the cathedral, on College Green (see bottom of map).
 
 == Mailing list ==
  * http://groups.google.com/group/sagedays6
@@ -76,4 +76,4 @@ Note you must register via the Bristol webpage linked above if you are not an in
  * Chris Wuthrich (Nottingham, UK)
  * Paul Zimmerman (INRIA, Paris France)
 == Directions ==
-See ["days6/directions"].
+See [[days6/directions]].
