@@ -2,9 +2,9 @@
 
 Pippenger's Algorithm is a method to compute a sequence of multiple products of multiple inputs.  I intend to use this to (drastically, in some cases) speed up the evaluation of multivariate polynomials over arbitrary rings.
 
-[http://cr.yp.to/papers/pippenger.pdf Paper]
+[[http://cr.yp.to/papers/pippenger.pdf|Paper]]
 
-[http://sage.math.washington.edu/home/boothby/sprint/pippenger.sws Worksheet] with my progress so far.
+[[http://sage.math.washington.edu/home/boothby/sprint/pippenger.sws|Worksheet]] with my progress so far.
 
 Skip to page 13.  I've already implemented:
 
