@@ -1,3 +1,4 @@
+## page was renamed from GlennTarbox/TwistedTalk/100 Twisted Deconstructed
 ## Please edit system and help pages ONLY in the moinmaster wiki! For more
 ## information, please see MoinMaster:MoinPagesEditorGroup.
 ##master-page:SlideTemplate
@@ -5,7 +6,7 @@
 #format wiki
 #language en
 #pragma section-numbers off
-[[Navigation(slides)]]
+<<Navigation(slides)>>
 = Concurrency =
 == We got Both Kinds ==
 
@@ -47,4 +48,4 @@ This is a very important passage... but don't hurt your brain!!
 If you need to call a method that returns a deferred within your callback chain, just return that deferred, and the result of the secondary deferred's processing chain will become the result that gets passed to the next callback of the primary deferreds processing chain
 }}}
 
-[[Navigation(siblings)]]
+<<Navigation(siblings)>>
