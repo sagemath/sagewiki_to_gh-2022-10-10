@@ -1,7 +1,7 @@
 = Sage Interactions - Differential Equations =
-goto [:interact:interact main page]
+goto [[interact|interact main page]]
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Euler's Method in one variable ==
 by Marshall Hampton. This needs some polishing but its usable as is.
@@ -42,7 +42,7 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
         table_range = range(0,floor(steps_shown/2)) + range(len(sol)-floor(steps_shown/2),len(sol))
     html(tab_list([[i,xvals[i],sol[i]] for i in table_range], headers = ['step','x','y']))
 }}}
-attachment:eulermethod.png
+{{attachment:eulermethod.png}}
 
 == Vector Fields and Euler's Method ==
 by Mike Hansen (tested and updated by William Stein)
@@ -79,7 +79,7 @@ def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x),
     print "Steps: %s"%steps
     result.show(xmin=xmin,xmax=xmax,ymin=ymin,ymax=ymax)
 }}}
-attachment:euler.png
+{{attachment:euler.png}}
 
 == Vector Field with Runga-Kutta-Fehlberg ==
 by Harald Schilly
@@ -128,7 +128,7 @@ def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=inpu
     starting_point = point([x_start, y_start], pointsize=50)
     show(vector_field + starting_point + sum(path), aspect_ratio=1, figsize=[8,9])
 }}}
-attachment:ode_runga_kutta.png
+{{attachment:ode_runga_kutta.png}}
 
 == Mass/Spring systems ==
 by Jason Grout
