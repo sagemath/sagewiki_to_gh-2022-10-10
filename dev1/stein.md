@@ -12,7 +12,7 @@ It turns out that *all* 465 pickles in sage-3.0.3 made on opteron 64-bit linux *
 Actually used this to compute 1.6GB of modular symbols spaces in parallel. Works well.  There are a few details that
 it would be nice to add, but already this is a very nice useful thing to have.  I deleted more code than I wrote.
 
-4. [http://pyprocessing.berlios.de/ Pyprocessing] -- learned about it, used it, integrated with @parallel with Mike Hansen.  Very interesting technology.  Is '''very''' likely to finally make it so we can start using parallel computing in the core of the Sage library.  This is, imho, major.  
+4. [[http://pyprocessing.berlios.de/|Pyprocessing]] -- learned about it, used it, integrated with @parallel with Mike Hansen.  Very interesting technology.  Is '''very''' likely to finally make it so we can start using parallel computing in the core of the Sage library.  This is, imho, major.  
 
 5. Refereed a lot of patches.
 
