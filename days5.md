@@ -2,7 +2,7 @@
 
 The 5th SAGE days 2007 will be at the Clay Math Institute Sept 30 -- Oct 3, 2007.  It will be focused on computational arithmetic geometry.
 
-The [:/sched: Workshop Schedule is here], with slides and '''video''' from many of the talks.
+The [[/sched| Workshop Schedule is here]], with slides and '''video''' from many of the talks.
 
 
 The official Clay Mathematics Institute page on this workshop is here: http://www.claymath.org/workshops/cag/
@@ -21,11 +21,11 @@ The workshop will end by 2:30pm on October 3 (Mark Watkins is giving a talk at t
  * William Stein, wstein@gmail.com
 
 == Coding Sprints ==
- * [:/proj: List of projects]
- * [http://video.google.com/videoplay?docid=-565959676512509213&hl=en Google Video of People Chatting]
+ * [[/proj| List of projects]]
+ * [[http://video.google.com/videoplay?docid=-565959676512509213&hl=en|Google Video of People Chatting]]
 
 
 
-[http://video.google.com/videoplay?docid=7507858133889751200&hl=en A moment in Harvard Square (Google Video)] 
-[http://video.google.com/videoplay?docid=-294842101664469228&hl=en Harvard Square]
-[http://video.google.com/videoplay?docid=-9001212703020089368&hl=en Harvard Square]
+[[http://video.google.com/videoplay?docid=7507858133889751200&hl=en|A moment in Harvard Square (Google Video)]] 
+[[http://video.google.com/videoplay?docid=-294842101664469228&hl=en|Harvard Square]]
+[[http://video.google.com/videoplay?docid=-9001212703020089368&hl=en|Harvard Square]]
