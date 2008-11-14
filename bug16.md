@@ -18,7 +18,7 @@ If you are using Konversation (the KDE IRC client), you can set up an auto-repla
 
 = Participants (with area they would like to work on) =
 
- 1. William Stein (magma/sage interface): #4515, #4516, #4517, referee #4363
+ 1. William Stein (magma/sage interface): #4515 (done), #4516, #4517, referee #4363 (done)
  2. Franco Saliola (I'm open to suggestions)
  3. Michael Abshoff (merges, quadratic forms code)
  4. Robert Bradshaw (coercion, calculus, misc bugs, referee process)
