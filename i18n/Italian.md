@@ -2,15 +2,15 @@
 This page is intended as a coordination page for the Italian translation of Sage documentation.
 
 === Interested members ===
-Put your name in the list here below if you're interested in translating Sage documentation (tutorials, web pages, help pages, etc.) in italian. If you use a different nickname on the [[http://groups.google.com/group/sage-devel/ | sage-devel group]], please mention it!
+Put your name in the list here below if you're interested in translating Sage documentation (tutorials, web pages, help pages, etc.) in italian. If you use a different nickname on the [[[http://groups.google.com/group/sage-devel/|| sage-devel group]]], please mention it!
 
  * CristianConsonni AKA CristianCantoro
  * MatteoCasati AKA Cassa
  * AlessandroPezzoni
  * ...
 === TODO list ===
- * Translate the SAGE tutorial .rst files. - you can find the original files [[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/ | here]]
- * Complete revision of the [[http://wiki.sagemath.org/SAGE-intro-Italian | sage-intro italian]] page
+ * Translate the SAGE tutorial .rst files. - you can find the original files [[[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/|| here]]]
+ * Complete revision of the [[[http://wiki.sagemath.org/SAGE-intro-Italian|| sage-intro italian]]] page
  * ...
 === Questions? Ideas? Proposals? ===
 If you have any question or idea about this project, or about the way we should make the translation, please put a message in the '''"Questions and Discussion"''' section at the bottom of this page. You can write either in english or italian. Please, put long discussions on dedicated subpages.
@@ -35,13 +35,13 @@ Here there is a list of the .rst to be tanslated:
 ||tour_help.rst || || ||
 ||tour_groups.rst || || ||
 ||tour_assignment.rst || || ||
-||tour_algebra.rst ||<bgcolor="#80ff80"> [:i18n/Italian/tour algebrait:done] || ||
+||tour_algebra.rst ||<bgcolor="#80ff80"> [[i18n/Italian/tour_algebrait|done]] || ||
 ||tour_advanced.rst || || ||
 ||programming.rst || || ||
-||introduction.rst ||<bgcolor="#80ff80"> [:i18n/Italian/IntroductionIt:done] || ||
+||introduction.rst ||<bgcolor="#80ff80"> [[i18n/Italian/IntroductionIt|done]] || ||
 ||interfaces.rst || || ||
 ||interactive_shell.rst || || ||
-||index.rst ||<bgcolor="#80ff80"> [:i18n/Italian/IndexIt:done] || <bgcolor="#8080ff">[reviewed] ||
+||index.rst ||<bgcolor="#80ff80"> [[i18n/Italian/IndexIt|done]] || <bgcolor="#8080ff">[reviewed] ||
 ||distributed.rst || || ||
 ||conf.py || || ||
 ||bibliography.rst || || ||
@@ -56,9 +56,9 @@ LISTA DI CONVENZIONI E BREVE GLOSSARIO PER LA TRADUZIONE ITALIANA DEL TUTORIAL D
 
 Di seguito riportiamo una lista della convenzioni che verranno adottate per la traduzione italiana del tutorial di SAGE, lo scopo di questa lista è di uniformare il più possibile le traduzioni della documentazione compiute da diverse traduttori. Per ogni questione non definita nel seguente documento si raccomanda di attenersi ai suggerimenti proposti nei seguenti siti:
 
- * [[http://digilander.libero.it/elleuca/linee-guida/linee-guida.xhtml | Linee guida per la traduzione di GNOME]]
- * [[http://tp.linux.it/buona_traduzione.html | Regole per una buona traduzione - Free Translation Project]]
- * Ulteriori suggerimenti possono essere trovati facendo riferimento alla pagina del [[http://wiki.ubuntu-it.org/GruppoTraduzione/Strumenti | Gruppo di traduzione italiano di Ubuntu]]
+ * [[[http://digilander.libero.it/elleuca/linee-guida/linee-guida.xhtml|| Linee guida per la traduzione di GNOME]]]
+ * [[[http://tp.linux.it/buona_traduzione.html|| Regole per una buona traduzione - Free Translation Project]]]
+ * Ulteriori suggerimenti possono essere trovati facendo riferimento alla pagina del [[[http://wiki.ubuntu-it.org/GruppoTraduzione/Strumenti|| Gruppo di traduzione italiano di Ubuntu]]]
 Nota: Ovviamente l'introduzione di nuovi termini in questa lista è gradita.
 
 === Convenzioni di traduzione ===
@@ -72,7 +72,7 @@ Verranno marcati i collegamenti ipertestuali contenuti nel test con la seguente 
  * (es) - per collegamenti in lingua spagnola
  * ...
 === Convenzioni sui collegamenti ipertestuali e sulla sintassi dei file rst ===
-Nel tradurre i file rst bisgona porre la massima attenzione, soprattutto da parte dei revisori, al fatto che la formattazione originale dei file .rst venga mantenuta. In particolare bisogna fare attenzione a tutti gli elementi caratteristici della formattazione dei file rst (un brevissimo elenco [[http://en.wikipedia.org/wiki/ReStructuredText | qui]]), in particolare:
+Nel tradurre i file rst bisgona porre la massima attenzione, soprattutto da parte dei revisori, al fatto che la formattazione originale dei file .rst venga mantenuta. In particolare bisogna fare attenzione a tutti gli elementi caratteristici della formattazione dei file rst (un brevissimo elenco [[[http://en.wikipedia.org/wiki/ReStructuredText|| qui]]]), in particolare:
 
  * intestazioni
  * uso particolare degli spazi
