@@ -1,6 +1,6 @@
 == SAGE Days 2: SAGE: Status Report ==
 
-A talk for [:days2:the SAGE Days 2 workshop], by William Stein.
+A talk for [[days2|the SAGE Days 2 workshop]], by William Stein.
 
 Here are my slides: http://modular.math.washington.edu/talks/2006-10-07-sagedays2/
 
