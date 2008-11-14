@@ -1,7 +1,7 @@
 = Fixing Singular's build system =
 
 == People ==
-[:MartinAlbrecht:Martin Albrecht], Justin Walker
+[[MartinAlbrecht|Martin Albrecht]], Justin Walker
 
 == Tasks ==
  * re-enable the dynamic kernel for OSX
