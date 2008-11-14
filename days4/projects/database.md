@@ -1,8 +1,8 @@
 = Databases =
 
-[:days4/projects/: Other SAGE Days 4 Projects]
+[[days4/projects/| Other SAGE Days 4 Projects]]
 
-SAGE [http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html interface] to sqlite: [:sqlite-tutorial: creating your own database using sqlite in sage]
+SAGE [[http://www.initd.org/pub/software/pysqlite/doc/usage-guide.html|interface]] to sqlite: [[sqlite-tutorial| creating your own database using sqlite in sage]]
 
 Robert Miller, Emily Kirkman, Tom Boothby, David Joyner, Yi Qiang
 
@@ -84,7 +84,7 @@ KeyError: 'Table must be specified'
   * export these tables to files, along with a pickle of each object, if desired.
     * note- this should not necessarily be depended on! pickling isn't quite stable yet. As William says, the safest is to store things in a text file, together with a function that can recreate the pickles (with a current version so pickles are up to date).
 
- 1. Create a web server modeled on the new notebook that uses Zope to serve either sql databases (for query type webpages like Grout's) or ZODB databases ([http://modular.fas.harvard.edu:8080/mfd/index.html e.g.] for webpages such as WS's Modular Forms Database).
+ 1. Create a web server modeled on the new notebook that uses Zope to serve either sql databases (for query type webpages like Grout's) or ZODB databases ([[http://modular.fas.harvard.edu:8080/mfd/index.html|e.g.]] for webpages such as WS's Modular Forms Database).
 
 
 
@@ -111,4 +111,4 @@ KeyError: 'Table must be specified'
      * storing a list as an array of rows (experience tells us that this is inefficient)
   1. Licensing: $\exists$ DBGPL?
   1. Noticing identical database entries [added by David Joyner -- I think this can be resolved using a query. Is that correct Tom?]
-  1. [added by David Joyner] I'd like the issue of "uniformity" to be discussed. For example, I think having an "AUTHORS" and "REFERENCES" field (like the [http://www.research.att.com/~njas/sequences/ OEIS]) would be great. For example, when Kate Minolta computes a new Conway polynomial, not only is the entry added by she gets proper credit.
+  1. [added by David Joyner] I'd like the issue of "uniformity" to be discussed. For example, I think having an "AUTHORS" and "REFERENCES" field (like the [[http://www.research.att.com/~njas/sequences/|OEIS]]) would be great. For example, when Kate Minolta computes a new Conway polynomial, not only is the entry added by she gets proper credit.
