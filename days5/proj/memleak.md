@@ -1,1 +1,1 @@
-All content has been moved to [:ValgrindingSage: valgrinding Sage].
+All content has been moved to [[ValgrindingSage| valgrinding Sage]].
