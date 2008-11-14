@@ -5,7 +5,7 @@ I am an Assistant Adjunct Professor at UCLA and a SAGEvangelist.
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
 
-* [http://modular.math.washington.edu/sage/apps/ Example Scripts]
+* [[http://modular.math.washington.edu/sage/apps/|Example Scripts]]
 
 
 * Editing the SAGE programming guide in time for the release of sage-2.0
@@ -16,7 +16,7 @@ I am an Assistant Adjunct Professor at UCLA and a SAGEvangelist.
 
   http://sage.math.washington.edu/sage/doc/html/ref/index.html
 
-* Mestre's method of graphs project which started at the  [http://modular.math.washington.edu/msri06 MSRI Computing with Modular Forms] workshop. 
+* Mestre's method of graphs project which started at the  [[http://modular.math.washington.edu/msri06|MSRI Computing with Modular Forms]] workshop. 
 
   Check out: 
 
@@ -45,6 +45,6 @@ I am an Assistant Adjunct Professor at UCLA and a SAGEvangelist.
 
   Research Statement http://sage.math.washington.edu/home/burhanud/job_app/restat.pdf
 
-* [:Talks: Make wikipage about Talks related to SAGE (plan)]
+* [[Talks| Make wikipage about Talks related to SAGE (plan)]]
 
 CategoryHomepage
