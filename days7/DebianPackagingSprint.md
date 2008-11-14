@@ -57,7 +57,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
 
 == Setting up the build system (In Detail) ==
 
- * based on build system for [http://debathena.mit.edu Debian-Athena]
+ * based on build system for [[http://debathena.mit.edu|Debian-Athena]]
  * Start Debian installer
  * Partitioning method: "Guided - use entire disk and set up LVM" - accept defaults and write LVM init to disk
  * delete original main LVM volume, create new VG, say with 10GB
@@ -65,7 +65,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * update to lenny: edit /etc/apt/source and replace "etch" with "lenny"
  * "aptitude update"
  * "aptitude dist-upgrade" (wait a while :) )
- * download Tim's script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarballs here for now)], untar ... [the code is being partially merged in the sage-scripts repo, some of the other might end up on a wiki page somewhere else once this is over]
+ * download Tim's script collection from the main Deb packaging page [[http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile|(tarballs here for now)]], untar ... [the code is being partially merged in the sage-scripts repo, some of the other might end up on a wiki page somewhere else once this is over]
  * file "packages" contains list of packages needed for the build system
  * aptitude install `cat packages` installs the packages listed in packages.  Also install cdbs.
  * file "approx.conf.tail": append file to approx.conf - make sure to set a fast mirror, i.e. not the MIT repo
@@ -73,7 +73,7 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
  * edit make-chroot and set $VG to volume group name or export VG
  * Now create change roots for various targets using make-chroot: Parameters $1 is SUITE (i.e. lenny), $2 is ARCH (i.e. i386)
  * If things go wrong remove lvm group created :(
- * download Tim's other script collection from the main Deb packaging page [http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile (tarballs for now)], untar into /usr/local/bin ...
+ * download Tim's other script collection from the main Deb packaging page [[http://www.sagemath.org:9001/days7/DebianPackagingSprint?action=AttachFile|(tarballs for now)]], untar into /usr/local/bin ...
  * export DEBATHENA_APT=(path to SAGE apt repository)
  * adduser sage sbuild (where sage is a user you want to be able to do builds)
 
@@ -118,4 +118,4 @@ sbuild: lenny x86-64: can create 32 & 64 bit arch specific packages, ~12 in tota
 
 == Possibly useful links ==
 
- * Debian alternatives system: see [http://www.debian-administration.org/articles/91], [http://manpages.debian.net/cgi-bin/man.cgi?query=update-alternatives&apropos=0&sektion=0&manpath=Debian+Sid&format=html&locale=en]
+ * Debian alternatives system: see [[http://www.debian-administration.org/articles/91]], [[http://manpages.debian.net/cgi-bin/man.cgi?query=update-alternatives&apropos=0&sektion=0&manpath=Debian+Sid&format=html&locale=en]]
