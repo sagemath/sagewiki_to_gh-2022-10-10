@@ -5,7 +5,7 @@ The event will take place on '''Thursday, November 13, 2008''' and officially st
 Don't work on '''anything''' unless there is a trac ticket for it.
 
  * The base version of SAGE we'll start with is '''3.2.?'''
- * For a trac account follow [:TracGuidelines:these] instructions
+ * For a trac account follow [[TracGuidelines|these]] instructions
  * We'll all be on #sage-devel at irc.freenode.net.
 {{{
 From Linux you can chat via a text console by installing "irssi", running it, and typing
