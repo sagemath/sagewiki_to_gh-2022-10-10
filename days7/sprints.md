@@ -1,8 +1,8 @@
 == Sage Days 7 coding sprints ==
 
-Back to the [:days7: main conference page].
+Back to the [[days7| main conference page]].
 
- * [:/linalg: Linear Algebra -- Hermite Normal Form]
+ * [[/linalg| Linear Algebra -- Hermite Normal Form]]
      .
      . Implement a Hermite Normal Form over ZZ that is faster than anything else in the world (e.g., Magma). Also, implement quotients of free modules over ZZ.
      .
@@ -10,7 +10,7 @@ Back to the [:days7: main conference page].
      . 
    * Clement Pernet (chair)
    * Craig Citro (Jordan & Rational forms)
-   * William Stein([:days7/p-adics:discussion page])
+   * William Stein([[days7/p-adics|discussion page]])
    * Nicolas Thiery (relating to combinatorics)
    * Franco Saliola
    * Gregg Musiker -- Smith normal form with rational function entries (think symbolic)
@@ -23,7 +23,7 @@ Back to the [:days7: main conference page].
    * Pete Jipsen
    * Stephen Hartke
 
- * Edge labeled graph isomorphism [http://trac.sagemath.org/sage_trac/ticket/1304 DONE]
+ * Edge labeled graph isomorphism [[http://trac.sagemath.org/sage_trac/ticket/1304|DONE]]
    * Robert Miller
 
  * Crystals / Graph Visualization
@@ -67,7 +67,7 @@ Back to the [:days7: main conference page].
      . 
      . dinner Weds
      . 
-   * [http://sage.math.washington.edu/home/ekirkman/embeddings_improvements.hg Current Bundle]
+   * [[http://sage.math.washington.edu/home/ekirkman/embeddings_improvements.hg|Current Bundle]]
    * Emily Kirkman (chair)
    * Tom Boothby
    * Robert Miller
@@ -103,12 +103,12 @@ Back to the [:days7: main conference page].
    * Mike Hansen
    * Dan Bump
 
- * Debian Packaging ([:days7/DebianPackagingSprint:details & progress])
+ * Debian Packaging ([[days7/DebianPackagingSprint|details & progress]])
    * Mike Abshoff
    * Tim Abbott (chair)
    * Franco Saliola 
 
- * Referee David Roe's patch ([:days7/p-adics:discussion page])
+ * Referee David Roe's patch ([[days7/p-adics|discussion page]])
    * Robert Bradshaw (chair)
    * Kiran Kedlaya
    * Jen Balakrishnan
@@ -128,7 +128,7 @@ Back to the [:days7: main conference page].
 
  * Interfacing a C/C++ library to Sage via Cython
      .
-     . [attachment:cython_demo.patch Hello world example of a new Cython extension of Sage]
+     . [[attachment:cython_demo.patch|Hello world example of a new Cython extension of Sage]]
      .
    * Mike Hansen
    * Stephen Hartke
@@ -145,7 +145,7 @@ Back to the [:days7: main conference page].
    * Emily Kirkman
    * Tim Abbott
 
- * How close is Sage to ready to use as a tool for a grad/undergrad combinatorics course? (Weds) 10AM Thursday ([:days7/sprints/teaching:discussion page])
+ * How close is Sage to ready to use as a tool for a grad/undergrad combinatorics course? (Weds) 10AM Thursday ([[days7/sprints/teaching|discussion page]])
       . 
       . Make a quick reference card a la Jipsen
       . 
@@ -184,7 +184,7 @@ Back to the [:days7: main conference page].
    * Mike Hansen
    * David Roe
 
- * [:/testing: Sage testing system (parallel testings, regression testing, removing extra "sage.:", etc)]
+ * [[/testing| Sage testing system (parallel testings, regression testing, removing extra "sage.:", etc)]]
    * Nick Alexander
    * Mike Hansen
    * Mike Abshoff
@@ -219,7 +219,7 @@ Back to the [:days7: main conference page].
    * Mike Abshoff
    * Mike Hansen
 
- * coercion -- work on leftovers from SD6 [:days7/coercion:]
+ * coercion -- work on leftovers from SD6 [[days7/coercion]]
      . 
      . tutorial -- Fri night
      . 
