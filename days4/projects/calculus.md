@@ -1,6 +1,6 @@
 = Symbolic Calculus =
 
-[:days4/projects/: Other SAGE Days 4 Project]
+[[days4/projects/| Other SAGE Days 4 Project]]
 
 Tom Boothby, David Joyner, Bobby Moretti.
 
