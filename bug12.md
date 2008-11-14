@@ -5,9 +5,9 @@ The event will take place on '''Saturday, May 10th, 2008''' and officially start
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
  * The base version of SAGE we'll start with is (probably) '''3.0.1'''
- * [:/status:STATUS]
- * [:/irc:IRC log]
- * For a trac account follow [:TracGuidelines:these] instructions
+ * [[/status|STATUS]]
+ * [[/irc|IRC log]]
+ * For a trac account follow [[TracGuidelines|these]] instructions
  * We'll all be on #sage-devel at irc.freenode.net.
 {{{
 From Linux you can chat via a text console by installing "irssi", running it, and typing
@@ -32,4 +32,4 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 Many other people will hopefully participate, but didn't yet add themselves here yet.
 
 = Ticket status and reviews needed =
-  * [:/notebook: Notebook bugs (William Stein)]
+  * [[/notebook| Notebook bugs (William Stein)]]
