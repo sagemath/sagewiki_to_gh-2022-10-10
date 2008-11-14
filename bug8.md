@@ -5,8 +5,8 @@ The event will take place on '''Wednesday, January 2, 2008''' and officially sta
 Remember the "Twisted Rule" -- Don't work on '''anything''' unless there is a trac ticket for it.
 
  * The base version of SAGE we'll start with is '''2.9.2.alphaX'''.
- * [:bug8/status:STATUS]
- * [:bug8/irc:IRC log]
+ * [[bug8/status|STATUS]]
+ * [[bug8/irc|IRC log]]
  * Write to wstein@gmail.com for an account on the bug tracker.
  * We'll all be on #sage-devel at irc.freenode.net.
 {{{
