@@ -1,7 +1,7 @@
 = Sage Interactions - Calculus =
-goto [:interact:interact main page]
+goto [[interact|interact main page]]
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Root Finding Using Bisection ==
 by William Stein
@@ -46,7 +46,7 @@ def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16..-1))):
          L += sum(line([(d,h*i-h/4), (d,h*i+h/4)]) for i, (c,d) in enumerate(intervals) )
          show(P + L, xmin=a, xmax=b)
 }}}
-attachment:bisect.png
+{{attachment:bisect.png}}
 
 == Newton's Method ==
 Note that there is a more complicated Newton's method below.
@@ -86,7 +86,7 @@ def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
              line([(w,h),(w,j)],rgbcolor='black',thickness=0.2) for i,w in enumerate(iterates))
      show(P + L, xmin=z-interval, xmax=z+interval)
 }}}
-attachment:newton.png
+{{attachment:newton.png}}
 
 == A contour map and 3d plot of two inverse distance functions ==
 by William Stein
@@ -102,7 +102,7 @@ def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
      show(C, figsize=3, aspect_ratio=1)
      show(plot3d(f, (x,-2,2), (y,-2,2)), figsize=5, viewer='tachyon')
 }}}
-attachment:mountains.png
+{{attachment:mountains.png}}
 
 == A simple tangent line grapher ==
 by Marshall Hampton
@@ -123,7 +123,7 @@ def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xe
     fmin = f.find_minimum_on_interval(prange[0], prange[1])[0]
     show(fplot + tanplot, xmin = prange[0], xmax = prange[1], ymax = fmax, ymin = fmin)
 }}}
-attachment:tangents.png
+{{attachment:tangents.png}}
 
 == Numerical integrals with the midpoint rule ==
 by Marshall Hampton
@@ -150,7 +150,7 @@ def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), 
     print "Midpoint estimated answer: " + str(RDF(dx*sum([midys[q] for q in range(n)])))
     show(plot(func,a,b) + rects, xmin = a, xmax = b, ymin = min_y, ymax = max_y)
 }}}
-attachment:num_int.png
+{{attachment:num_int.png}}
 == Function tool ==
 Enter symbolic functions $f$, $g$, and $a$, a range, then click the appropriate button to compute and plot some combination of $f$, $g$, and $a$ along with $f$ and $g$. This is inspired by the Matlab funtool GUI.
 
@@ -245,7 +245,7 @@ def _(f=sin(x), g=cos(x), xrange=input_box((0,1)), yrange='auto', a=1,
             yrange = sage_eval(yrange)
             show(P, xmin=xrange[0], xmax=xrange[1], ymin=yrange[0], ymax=yrange[1])
 }}}
-attachment:funtool.png
+{{attachment:funtool.png}}
 
 == Newton-Raphson Root Finding ==
 by Neal Holtz
@@ -352,7 +352,7 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
         for t in Trace:
             html( t )
 }}}
-attachment:newtraph.png
+{{attachment:newtraph.png}}
 
 == Coordinate Transformations ==
 by Jason Grout
@@ -386,7 +386,7 @@ def trans(x=input_box(u^2-v^2, label="x=",type=SR), \
     print jsmath("x=%s, \: y=%s"%(latex(x), latex(y)))
     print "<html><table><tr><td><img src='cell://uv_coord.png'/></td><td><img src='cell://xy_coord.png'/></td></tr></table></html>"
 }}}
-attachment:coordinate-transform-1.png attachment:coordinate-transform-2.png
+{{attachment:coordinate-transform-1.png}} {{attachment:coordinate-transform-2.png}}
 
 == Taylor Series ==
 by Harald Schilly
@@ -405,14 +405,14 @@ def _(order=(1..12)):
     html('$\hat{f}(x;%s)\;=\;%s+\mathcal{O}(x^{%s})$'%(x0,latex(ft),order+1))
     show(dot + p + pt, ymin = -.5, ymax = 1)
 }}}
-attachment:taylor_series_animated.gif
+{{attachment:taylor_series_animated.gif}}
 
 == Illustration of the precise definition of a limit ==
 by John Perry
 
 I'll break tradition and put the image first. Apologies if this is Not A Good Thing.
 
-attachment:snapshot_epsilon_delta.png
+{{attachment:snapshot_epsilon_delta.png}}
 
 {{{
 html("<h2>Limits: <i>ε-δ</i></h2>")
@@ -463,7 +463,7 @@ def _(x = slider(-7/10,7/10,1/20,1/2)):
     result = C+p1+p2+line1+line2+line3+line4
     result.show(aspect_ratio=1, figsize=[3,3], axes=False)
 }}}
-attachment:sinelimit.png
+{{attachment:sinelimit.png}}
 
 == The midpoint rule for numerically integrating a function of two variables ==
 by Marshall Hampton
@@ -507,4 +507,4 @@ def midpoint2d(func = input_box('y*sin(x)/x+sin(y)',type=str,label='function of 
     p1 = plot3d(f,(x,x_start,x_end),(y,y_start,y_end))
     show(p1+sum(cubs))
 }}}
-attachment:numint2d.png
+{{attachment:numint2d.png}}
