@@ -1,7 +1,7 @@
 = Sage Interactions - Linear Algebra =
-goto [:interact:interact main page]
+goto [[interact|interact main page]]
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 == Numerical instability of the classical Gram-Schmidt algorithm ==
 by Marshall Hampton (tested by William Stein, who thinks this is really nice!)
@@ -59,7 +59,7 @@ def gstest(precision = slider(range(3,53), default = 10), a1 = input_box([1,1/10
     html('Stable Gram-Schmidt:')
     show(matrix(displayR,qb))
 }}}
-attachment:GramSchmidt.png
+{{attachment:GramSchmidt.png}}
 
 == Linear transformations ==
 by Jason Grout
@@ -76,7 +76,7 @@ def linear_transformation(theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, defaul
     print jsmath("v = %s,\; %s v=%s"%(v.n(4),latex(A),w.n(4)))
     show(v.plot(rgbcolor=(1,0,0))+w.plot(rgbcolor=(0,0,1))+circles,aspect_ratio=1)
 }}}
-attachment:Linear-Transformations.png
+{{attachment:Linear-Transformations.png}}
 
 == Gerschgorin Circle Theorem ==
 by Marshall Hampton.  This animated version requires convert (imagemagick) to be installed, but it can easily be modified to a static version.
@@ -123,9 +123,9 @@ def Gerschgorin(Ain = input_box(default='[[10,1,1/10,0],[-1,9,0,1],[1,0,2,3/10],
         frames.append(ft)
     show(animate(frames,figsize = [(x_max-x_min)*scale,(y_max-y_min)*scale], xmin = x_min, xmax=x_max, ymin = y_min, ymax = y_max))
 }}}
-attachment:Gerschanimate.png
+{{attachment:Gerschanimate.png}}
 
-attachment:Gersch.gif
+{{attachment:Gersch.gif}}
 
 == Singular value decomposition ==
 by Marshall Hampton
@@ -159,7 +159,7 @@ def svd_vis(a11=slider(-1,1,.05,1),a12=slider(-1,1,.05,1),a21=slider(-1,1,.05,0)
     graph_stuff.set_aspect_ratio(1)
     show(graph_stuff,frame = False,axes=False,figsize=[fsize,fsize])
 }}}
-attachment:svd1.png
+{{attachment:svd1.png}}
 
 == Discrete Fourier Transform ==
 by Marshall Hampton
@@ -176,4 +176,4 @@ def discrete_fourier(f = input_box(default=sum([sin(k*x) for k in range(1,5,2)])
     my_fft = Fourier.fft(f_vals)
     show(list_plot([abs(x) for x in my_fft], plotjoined=True), figsize = [4,3])
 }}}
-attachment:dfft1.png
+{{attachment:dfft1.png}}
