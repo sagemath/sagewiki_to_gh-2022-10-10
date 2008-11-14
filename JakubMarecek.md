@@ -1,15 +1,15 @@
 ##master-page:HomepageTemplate
 #format wiki
 == Jakub Marecek ==
-My personal homepage proper is at http://cs.nott.ac.uk/~jxm. This is just my slides from SAGE Days 9 (attachment:slides.pdf) and related stuff:
+My personal homepage proper is at http://cs.nott.ac.uk/~jxm. This is just my slides from SAGE Days 9 ([[attachment:slides.pdf]]) and related stuff:
 
 '''Graphical Demo of Integer Programming: '''
 
  . My goal was to present the workings of an integer programming solver in an interactive Java Web Start. This proved, however, rather difficult. First, it's difficult to get Java (and the more Java Web Start) applications to run with VTK. Second, VTK crashes the JVM when I render anything but the most trivial polyhedra.
- attachment:Screenshot01.jpg
- attachment:Screenshot02.jpg
+ {{attachment:Screenshot01.jpg}}
+ {{attachment:Screenshot02.jpg}}
  .  I am afraid that the lesson is VTK is no good in Java, if anywhere. If you wanted to play with this, feel free to:
- attachment:toy-ip-0.1.1-bin.zip attachment:toy-ip-0.1.1-src.zip
+ [[attachment:toy-ip-0.1.1-bin.zip]] [[attachment:toy-ip-0.1.1-src.zip]]
  .  Notice, however, that you need VTK with Java Wrappers installed in order (not) to run this.
 
 '''Installing VTK with Java Wrappers: '''
