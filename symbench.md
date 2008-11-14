@@ -1,10 +1,10 @@
-See also [:WesterBenchmarks: this other page], which lists some of Wester's benchmarks.
+See also [[WesterBenchmarks| this other page]], which lists some of Wester's benchmarks.
 
-See also [http://wiki.sympy.org/wiki/Symbench SymPy's benchmarks], that do the same as below, but in SymPy.
+See also [[http://wiki.sympy.org/wiki/Symbench|SymPy's benchmarks]], that do the same as below, but in SymPy.
 
-See also [http://axiom.svn.sourceforge.net/viewvc/axiom/trunk/axiom/src/input/kamke0.input.pamphlet an ODE test suite].
+See also [[http://axiom.svn.sourceforge.net/viewvc/axiom/trunk/axiom/src/input/kamke0.input.pamphlet|an ODE test suite]].
 
-[[TableOfContents]]
+<<TableOfContents>>
 
 = The "Real World" Symbolic Benchmark Suite =
 
@@ -213,7 +213,7 @@ CPU times: user 0.44 s, sys: 0.12 s, total: 0.56 s
 Wall time: 5.58 s
 }}}
 
-[:/r10: Notes]
+[[/r10| Notes]]
 
 == Problem R11 ==
 
@@ -356,7 +356,7 @@ sage: time a = expand((x^sympy.sin(x) + y^sympy.cos(y) - z^(x+y))^100r)
 CPU times: user 14.64 s, sys: 0.23 s, total: 14.86 s
 }}}
 
-SymPy after merging the ticket [http://trac.sagemath.org/sage_trac/ticket/3707 #3707] is 10x faster than before:
+SymPy after merging the ticket [[http://trac.sagemath.org/sage_trac/ticket/3707|#3707]] is 10x faster than before:
 {{{
 sage: import sympy
 sage: x = sympy.var('x'); y = sympy.var('y'); z = sympy.var('z')
