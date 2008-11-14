@@ -2,7 +2,7 @@
 
 * Here is a proof of concept implementation:
 
-    attachment:proofofconcept.sws attachment:proofofconcept.pdf
+    [[attachment:proofofconcept.sws]] [[attachment:proofofconcept.pdf]]
 
 Notes: (1) I realized that reducing the entries in B modulo p^prec right before doing right_solve greatly speeds up the
 above proof of concept.  (2) To make the above viable will require either modifying IML, modifying Linbox, or implementing
@@ -11,7 +11,7 @@ over how it works, *and* we really want to use Pernet'ts FFLAS fast matrix-mod-p
 
 * Here are slides from a talk by Michael Monagan (join work with Liang Chen) on the same problem, but the approach is different:
 
-    attachment:Cyclotomic.pdf
+    [[attachment:Cyclotomic.pdf]]
 
 I think this approach is perhaps misguided (?), since it doesn't seem to mention LLL at all, and it's of course '''critical''' to understand
 how to apply LLL to this problem.  There's no way around that.   
