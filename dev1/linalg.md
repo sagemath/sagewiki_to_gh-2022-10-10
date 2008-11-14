@@ -46,7 +46,7 @@
      * a cache miss for reading on the other hand really prevents us from computing
    * --(detect L1/L2 cache sizes at runtime and choose optimal parameters for them)-- [MartinAlbrecht]
    * Implement memory management s.t. the sys time on Opterons decreases.
-   * implement Bill's [http://groups.google.com/group/sage-devel/msg/6279228095b3d9f7 half table idea] and benchmark it 
+   * implement Bill's [[http://groups.google.com/group/sage-devel/msg/6279228095b3d9f7|half table idea]] and benchmark it 
 
 == Sparse GF(2) (and other small finite fields) ==
  [Arne, Ralph, Clément, Rob Miller]
