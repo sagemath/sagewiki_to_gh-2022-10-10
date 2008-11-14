@@ -8,7 +8,7 @@ Suggested discussion topics for panel discussion on
 
 Chair: John Cremona
 
-Panel members: William Stein ([:/william/ my thoughts]), Ondrej Certik, Bill Allombert, Michael Abshoff, Dan Bernstein.
+Panel members: William Stein ([[/william/ my thoughts]]), Ondrej Certik, Bill Allombert, Michael Abshoff, Dan Bernstein.
 
 
  1. What are the strength and weaknesses of open source versus closed source software?
@@ -27,7 +27,7 @@ Panel members: William Stein ([:/william/ my thoughts]), Ondrej Certik, Bill All
 
  1. Discuss ideas for funding the creation of open source mathematical software, and of improving the *quality* of open mathematical software (e.g., testing, bug days, trac, etc., language choices, etc.).
 
- 1. Should software implementations be treated more like journal submissions, being refereed and hence putting computational work on the same footing as more theoretical work in the context of academic credit?   (cf [http://www.sagemath.org/jsage/ JSage])
+ 1. Should software implementations be treated more like journal submissions, being refereed and hence putting computational work on the same footing as more theoretical work in the context of academic credit?   (cf [[http://www.sagemath.org/jsage/|JSage]])
 
  1. Fork GMP?
 
