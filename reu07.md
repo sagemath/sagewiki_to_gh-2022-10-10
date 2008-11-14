@@ -1,16 +1,16 @@
-[[TableOfContents]]
+<<TableOfContents>>
 
 == REU Resources ==
- * [http://www.math.washington.edu/~morrow/reu07/reu.html Jim Morrow's page]: Relevant papers.
- * [http://www.math.washington.edu/~reu/ REU Archives]
- * [http://www.math.washington.edu/~billey/classes/schubert.notes/notes.pdf Sara Billey's Schubert Variety notes]
+ * [[http://www.math.washington.edu/~morrow/reu07/reu.html|Jim Morrow's page]]: Relevant papers.
+ * [[http://www.math.washington.edu/~reu/|REU Archives]]
+ * [[http://www.math.washington.edu/~billey/classes/schubert.notes/notes.pdf|Sara Billey's Schubert Variety notes]]
  * Dive into Python: http://www.diveintopython.org/
  * Python Library reference: http://www.python.org/doc/current/lib/lib.html
 
 === Talks ===
- *  All talks are posted on [http://www.math.washington.edu/~reu/papers/current/]
+ *  All talks are posted on [[http://www.math.washington.edu/~reu/papers/current/]]
 === Schedule ===
- * [:reu07/sched_archive:Archive Schedule]
+ * [[reu07/sched_archive|Archive Schedule]]
  * Tuesday, August 7
     * 9:30 am: Joey
  * Wednesday, August 8
@@ -35,14 +35,14 @@
   * Circular Planarity Testing: 
     * Status: Linear time achievable by modifying the graph before calling an O(n) planar embedding (testing) algorithm.  (Not reinventing the wheel, just sticking one in the graph).  Currently working on including the Boost library in SAGE.
     * Resources: 
-      * A simple O(n) Planarity Testing [http://www.cs.uvic.ca/~wendym/my_pubs/boyer.ps Algorithm]
-      * [http://boost.sourceforge.net/ Boost] implementation of the algorithm.
+      * A simple O(n) Planarity Testing [[http://www.cs.uvic.ca/~wendym/my_pubs/boyer.ps|Algorithm]]
+      * [[http://boost.sourceforge.net/|Boost]] implementation of the algorithm.
   * Criticality
  1. Enhancing precision with exact linear algebra
   * Tom Boothby, Emily Kirkman
  1. Combinatorics of Coxeter Groups (with Sara Billey)
   * Sean Howe, Emily Kirkman, Robert Miller
-  * [:reu07/bruhat_notes]
+  * [[reu07/bruhat_notes]]
  1. Dirichlet Problem for Directed Networks
   * Kari Christianson, Lindsay Erickson
  1. Complexers
@@ -53,10 +53,10 @@
   * Joey Greer
  1. New Algorithm for Finding Planar Embeddings with user-defined Topological Constraints
   * Emily Kirkman - This will also come after inclusion of Boost.  (see above)
- 1. [:Leon:Update] Jeffrey Leon's Partition Backtracking code
+ 1. [[Leon|Update]] Jeffrey Leon's Partition Backtracking code
   * Tom Boothby, Robert Miller
 === Pictures ===
- * [:emilyk:Emily Kirkman]
+ * [[emilyk|Emily Kirkman]]
 
 == T-shirt Decision ==
  * Crab full size on back
