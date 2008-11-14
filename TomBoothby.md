@@ -1,6 +1,6 @@
 '''Programming'''
 
- * Wrapping [http://gnu.org/gsl GSL] -- currently working on RealDoubleField
+ * Wrapping [[http://gnu.org/gsl|GSL]] -- currently working on RealDoubleField
  * Notebook
  * 3d plotting with mpl and tachyon
  * Music / visual art
@@ -25,4 +25,4 @@
          * can others write?
 
 
-'''My argument for including GD in it's full glory'''''' http://sage.math.washington.edu/home/boothby/f.png '''
+'''My argument for including GD in it's full glory'''''' {{http://sage.math.washington.edu/home/boothby/f.png}} '''
