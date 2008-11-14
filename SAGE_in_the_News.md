@@ -2,57 +2,57 @@
 
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is perceived in the outside world.
 
-  * Review of Sage 3.0.1 in [http://www.linuxformat.co.uk Linux Format magazine], issue 109, September 2008, page 33. Unfortunately, there is as yet no freely available online version of this review. You must have subscription or view the dead tree version. But here's a [http://mvngu.wordpress.com/2008/10/27/sage-301-reviewed-in-lxf/ blog post] on that review.
+  * Review of Sage 3.0.1 in [[http://www.linuxformat.co.uk|Linux Format magazine]], issue 109, September 2008, page 33. Unfortunately, there is as yet no freely available online version of this review. You must have subscription or view the dead tree version. But here's a [[http://mvngu.wordpress.com/2008/10/27/sage-301-reviewed-in-lxf/|blog post]] on that review.
 
-  * [http://www.softpedia.com/reviews/linux/Sage-3-0-2-Review-Review-93004.shtml Review of Sage at Softpedia]
+  * [[http://www.softpedia.com/reviews/linux/Sage-3-0-2-Review-Review-93004.shtml|Review of Sage at Softpedia]]
 
-  * [http://translate.google.com/translate?hl=en&sl=ro&u=http://incearca.softwareliber.ro/2008/07/21/sage-o-alternativa-viabila-la-matlab-mathematica-co/ Translated Romanian Blog/Article about Sage]
+  * [[http://translate.google.com/translate?hl=en&sl=ro&u=http://incearca.softwareliber.ro/2008/07/21/sage-o-alternativa-viabila-la-matlab-mathematica-co/|Translated Romanian Blog/Article about Sage]]
 
-  * [http://libreamoi.com/index.php/what-are-your-chances-of-hitting-a-fly-with-a-tennis-racquet/ What are your chances of hitting a fly with a tennis racquet?] Blog / 2008-07-18 / Sage helps solving    [http://code.google.com/codejam google gode-jam] question!
+  * [[http://libreamoi.com/index.php/what-are-your-chances-of-hitting-a-fly-with-a-tennis-racquet/|What are your chances of hitting a fly with a tennis racquet?]] Blog / 2008-07-18 / Sage helps solving    [[http://code.google.com/codejam|google gode-jam]] question!
 
-  * [http://linuxappfinder.com/package/sage linux appfinder software list]
+  * [[http://linuxappfinder.com/package/sage|linux appfinder software list]]
 
-  * [http://www.macresearch.org/plug-and-play-scientific-python-sage macresearch.org: "Plug-and-Play Scientific Python with Sage"]
+  * [[http://www.macresearch.org/plug-and-play-scientific-python-sage|macresearch.org: "Plug-and-Play Scientific Python with Sage"]]
 
-  * [http://www.stumbleupon.com/url/www.sagemath.org/ Stumbleupon collective social bookmarking]
+  * [[http://www.stumbleupon.com/url/www.sagemath.org/|Stumbleupon collective social bookmarking]]
 
-  * [http://www.labonline.com.au/news/8212-A-free-alternative-to-Matlab-Maple-Mathematica-and-Magma Blog LAB Online: "A free alternative to Matlab, Maple, Mathematica and Magma"]
+  * [[http://www.labonline.com.au/news/8212-A-free-alternative-to-Matlab-Maple-Mathematica-and-Magma|Blog LAB Online: "A free alternative to Matlab, Maple, Mathematica and Magma"]]
 
-  * [http://en.wikiversity.org/wiki/School_of_Mathematics:Software Wikiversity / School of Mathematics / Software]
+  * [[http://en.wikiversity.org/wiki/School_of_Mathematics:Software|Wikiversity / School of Mathematics / Software]]
 
-  * [http://linux.about.com/b/2008/06/27/mathematics-software-sage-version-303-available.htm Sage covered in "Juergen's Focus on Linux" Blog]
+  * [[http://linux.about.com/b/2008/06/27/mathematics-software-sage-version-303-available.htm|Sage covered in "Juergen's Focus on Linux" Blog]]
 
-  * [http://blog.mikael.johanssons.org/archive/2008/05/parallell-and-cluster-mpi4py/ Parallel and cluster computing with MPI4Py (and Sage)]
+  * [[http://blog.mikael.johanssons.org/archive/2008/05/parallell-and-cluster-mpi4py/|Parallel and cluster computing with MPI4Py (and Sage)]]
 
-  * [http://pozorvlak.livejournal.com/103579.html A blog post about sage with many amusing comments at the bottom]
+  * [[http://pozorvlak.livejournal.com/103579.html|A blog post about sage with many amusing comments at the bottom]]
 
-  * [http://www.macresearch.org/plug-and-play-scientific-python-sage Plug-and-Play Scientific Python with Sage]
+  * [[http://www.macresearch.org/plug-and-play-scientific-python-sage|Plug-and-Play Scientific Python with Sage]]
 
-  * [http://www.funjackals.com/blog/?p=274 Sage Makes Me Happier Than Seems Reasonable]
+  * [[http://www.funjackals.com/blog/?p=274|Sage Makes Me Happier Than Seems Reasonable]]
 
-  * [http://www.walkingrandomly.com/?p=103 Walking Randomly: Interacting with Sage - Part 1 (blog)]
+  * [[http://www.walkingrandomly.com/?p=103|Walking Randomly: Interacting with Sage - Part 1 (blog)]]
 
-  * [http://reddit.com/info/6j7ly/comments/ Sage on Reddit yet again (2008-05-13)]
+  * [[http://reddit.com/info/6j7ly/comments/|Sage on Reddit yet again (2008-05-13)]]
 
-  * [http://vnoel.wordpress.com/2008/05/03/bye-matlab-hello-python-thanks-sage/ Bye Matlab, hello Python, thanks Sage] by Vincent Noel, an atmospheric research scientist in France.
+  * [[http://vnoel.wordpress.com/2008/05/03/bye-matlab-hello-python-thanks-sage/|Bye Matlab, hello Python, thanks Sage]] by Vincent Noel, an atmospheric research scientist in France.
 
-  * [http://openwetware.org/wiki/User:Marshall_Hampton/Sage  Sage and Cython: a brief introduction (Open Wetware)] by Marshall Hampton
+  * [[http://openwetware.org/wiki/User:Marshall_Hampton/Sage|Sage and Cython: a brief introduction (Open Wetware)]] by Marshall Hampton
 
-  * [http://reddit.com/info/6hvsn/comments/ Sage on Reddit]
+  * [[http://reddit.com/info/6hvsn/comments/|Sage on Reddit]]
 
-  * [http://www.sciencedaily.com/releases/2008/03/080313124415.htm Glimpses Of A New (mathematical) World]: This article is about a computation (not using Sage) of an L-function, a computation about that L-function (using Sage), and a major new NSF-funded initiative to compute large tables of modular forms and L-functions that William Stein (director of the Sage project) is co-directing, which will have a large impact on Sage development. 
+  * [[http://www.sciencedaily.com/releases/2008/03/080313124415.htm|Glimpses Of A New (mathematical) World]]: This article is about a computation (not using Sage) of an L-function, a computation about that L-function (using Sage), and a major new NSF-funded initiative to compute large tables of modular forms and L-functions that William Stein (director of the Sage project) is co-directing, which will have a large impact on Sage development. 
 
-  * [:/axiomdev: Some Axiom Developers Talking About Sage]
+  * [[/axiomdev| Some Axiom Developers Talking About Sage]]
    
-  * [http://blog.interlinked.org/science/open_source_math_programs.html Free and Open Source Math Programs]
+  * [[http://blog.interlinked.org/science/open_source_math_programs.html|Free and Open Source Math Programs]]
 
-  * [http://feedingthesnake.wordpress.com/2008/02/01/sage-great-free-mathematics-software/ Sage: great free mathematics software]  
+  * [[http://feedingthesnake.wordpress.com/2008/02/01/sage-great-free-mathematics-software/|Sage: great free mathematics software]]  
  
-  * [http://64.233.179.104/translate_c?hl=en&langpair=pt%7Cen&u=http://emersonbrasilgomes.blogspot.com/2008/01/software-para-experimentao-geomtrica-e.html  A Portuguese Article about Sage translated into English]
+  * [[http://64.233.179.104/translate_c?hl=en&langpair=pt%7Cen&u=http://emersonbrasilgomes.blogspot.com/2008/01/software-para-experimentao-geomtrica-e.html|A Portuguese Article about Sage translated into English]]
 
-  * [http://www.tuxmachines.org/node/23678 PCLinuxOS Repositories now include Sage Math]
+  * [[http://www.tuxmachines.org/node/23678|PCLinuxOS Repositories now include Sage Math]]
  
-  * Sage is mentioned in [http://www.math.rutgers.edu/~zeilberg/Opinion85.html Opinion 85: We Should Continue To Be Ambivalent Towards Ambiguity in Mathematics: It Sure Did Some Good, But It Also Did (and Does) Lots of Harm]
+  * Sage is mentioned in [[http://www.math.rutgers.edu/~zeilberg/Opinion85.html|Opinion 85: We Should Continue To Be Ambivalent Towards Ambiguity in Mathematics: It Sure Did Some Good, But It Also Did (and Does) Lots of Harm]]
 
   * Sage appears in the University of Washington's student newspaper, The Daily.
     http://thedaily.washington.edu/2008/1/14/sage-insights-open-source-technology/
@@ -64,10 +64,10 @@ Broadly construed, this will describe how Sage (the software or the machine sage
     http://larryshiller.blogspot.com/2007/12/theres-new-sage-in-mathematics.html
 
   *  Matemáticas Libres: A Spanish Blog/Article about Sage:
-    [http://territoriolibre.org/index.php/2007/12/26/matematicas-libres/ Spanish Version] and [http://www.google.com/translate?u=http%3A%2F%2Fterritoriolibre.org%2Findex.php%2F2007%2F12%2F26%2Fmatematicas-libres%2F&langpair=es%7Cen&hl=en&ie=UTF8 English Translation (Google)]
+    [[http://territoriolibre.org/index.php/2007/12/26/matematicas-libres/|Spanish Version]] and [[http://www.google.com/translate?u=http%3A%2F%2Fterritoriolibre.org%2Findex.php%2F2007%2F12%2F26%2Fmatematicas-libres%2F&langpair=es%7Cen&hl=en&ie=UTF8|English Translation (Google)]]
 
   *  Sage is #5 in Layer 8's "Top 10 of 2007" (whatever that is):
-    [http://www.networkworld.com/slideshows/2007/121807-top-10-layer-8.html?netht=rn_122007&nladname=122007dailynewspmal Slideshow]
+    [[http://www.networkworld.com/slideshows/2007/121807-top-10-layer-8.html?netht=rn_122007&nladname=122007dailynewspmal|Slideshow]]
 
   *  Sage, Sustainable Living, and the Developing World
     http://sustainabledesignupdate.com/?p=462
@@ -98,7 +98,7 @@ Broadly construed, this will describe how Sage (the software or the machine sage
 
   *  Sage in Russia:
     http://rnd.cnews.ru/math/news/line/index_science.shtml?2007/12/10/278779
-       [http://www.google.com/translate?u=http%3A%2F%2Frnd.cnews.ru%2Fmath%2Fnews%2Fline%2Findex_science.shtml%3F2007%2F12%2F10%2F278779&langpair=ru%7Cen&hl=en&ie=UTF8 English Version]
+       [[http://www.google.com/translate?u=http%3A%2F%2Frnd.cnews.ru%2Fmath%2Fnews%2Fline%2Findex_science.shtml%3F2007%2F12%2F10%2F278779&langpair=ru%7Cen&hl=en&ie=UTF8|English Version]]
 
   *  AHN: Free Math Software Provides Powerful Number-Crunching
     http://www.allheadlinenews.com/articles/7009426590
@@ -112,16 +112,16 @@ Broadly construed, this will describe how Sage (the software or the machine sage
   *  Sage in TG Daily: Sage: a free, open-source complex math tool, by Rick C. Hodgin, Dec 7, 2007
     http://www.tgdaily.com/content/view/35187/113/
 
-  * [http://www.ddj.com/linux-open-source/204702621 Sage in Doctor Dobbs Journal]
+  * [[http://www.ddj.com/linux-open-source/204702621|Sage in Doctor Dobbs Journal]]
 
   *  WIRED: Sage vs Mathematica is the topic of the Wired magazine blog:
     Math Geek Software Smackdown: Sage v. Mathematica http://blog.wired.com/monkeybites/2007/12/math-geek-softw.html
 
 
   *  Sage is the topic of the UWeek article
-    [http://uwnews.org/uweek/uweekarticle.asp?articleID=38415 Free Software Brings Affordability, Transparency To Mathematics]
-    [http://digg.com/software/Free_software_brings_affordability_to_mathematics Digg It]
-    [http://physorg.com/news116173009.html PhysOrg]
+    [[http://uwnews.org/uweek/uweekarticle.asp?articleID=38415|Free Software Brings Affordability, Transparency To Mathematics]]
+    [[http://digg.com/software/Free_software_brings_affordability_to_mathematics|Digg It]]
+    [[http://physorg.com/news116173009.html|PhysOrg]]
 
   *  Sage is the topic of the slashdot article
      Open Source 'Sage' Takes Aim at High End Math Software http://science.slashdot.org/article.pl?sid=07/12/08/1350258
