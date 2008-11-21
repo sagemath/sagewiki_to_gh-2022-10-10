@@ -25,7 +25,7 @@ Arnaud Bergeron and Marshall Hampton
  * Built-in polytope class was added with many standard regular polytopes and families (e.g. hypersimplices)
  * New polytope methods such as polars, graphs, and Schlegel projections were added.
  * Support for scalar multiplication and translation by vectors.
- * Here is a demo of just some of the new functionality: {{attachment:polydemo.mov|Polytope demo}}
+ * Here is a demo of just some of the new functionality: [[attachment:polydemo.mov|Polytope demo]] (need to download this to view properly, the wiki doesn't seem to show it)
 
 == Improved Dense Linear Algebra over GF(2) ==
  * M4RI (http://m4ri.sagemath.org) was updated to the newest upstream release which
