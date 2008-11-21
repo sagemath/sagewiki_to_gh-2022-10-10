@@ -19,6 +19,14 @@ Robert Miller
  * Hypergraphs (i.e. incidence structures) -- this includes simplicial complexes and block designs
  * Matrices -- the automorphism group of a matrix is the set of column permutations which leave the (unordered) set of rows unchanged
 
+== Major polytope improvements ==
+Arnaud Bergeron and Marshall Hampton
+ * Triangulation code was improved (could still be better)
+ * Built-in polytope class was added with many standard regular polytopes and families (e.g. hypersimplices)
+ * New polytope methods such as polars, graphs, and Schlegel projections were added.
+ * Support for scalar multiplication and translation by vectors.
+ * Here is a demo of just some of the new functionality: [polydemo.mov]
+
 == Improved Dense Linear Algebra over GF(2) ==
  * M4RI (http://m4ri.sagemath.org) was updated to the newest upstream release which
   * provides much improved performance for multiplication (see [[http://m4ri.sagemath.org/performance.html|M4RI's "performance" page]]),
