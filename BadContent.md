@@ -4480,6 +4480,12 @@ banjia99\.com
 bjgs01\.cn
 diaoche160\.com
 tuoyun160\.com
+lvhang\.net
+oilpaintingscn\.com
+shbaojing\.com
+wansp\.cn
+yaliuya\.cn
+yayaliu\.cn
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
