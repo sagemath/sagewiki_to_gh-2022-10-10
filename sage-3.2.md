@@ -17,9 +17,9 @@ Paul Zimmermann: much improved elliptic curve doctests and some bug fixes
 
 
 == Modular Forms ==
-Craig Citro: Huge number of small fixes to modular forms code 
-David Loeffler: Eta product modular functions
-Craig Citro: massively speed up Victor Miller basis code
+* Craig Citro: Huge number of small fixes to modular forms code 
+* David Loeffler: Eta product modular functions
+* Craig Citro: massively speed up Victor Miller basis code
 
 == Magma Interface ==
 William Stein: much improved magma interface with 100% doctests
