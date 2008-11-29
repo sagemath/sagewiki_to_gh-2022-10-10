@@ -13,7 +13,7 @@ David Loeffler: General group algebras class
 
 == Elliptic Curve Doctesting ==
 
-Paul Zimmermann: much improved improved elliptic curve doctests and some bug fixes
+Paul Zimmermann: much improved elliptic curve doctests and some bug fixes
 
 
 == Modular Forms ==
