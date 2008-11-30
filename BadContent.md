@@ -49,7 +49,6 @@
 \.xs3\.com
 \.ya\.com
 \.yadoo\.cn
-\bby\.ru\b
 \bda\.ru\b
 \bde\.gg\b
 \bde\.nr\b
