@@ -33,7 +33,7 @@ Martin Albrecht, Paul Zimmermann: improve modular composition in GF(2)[x]
 == Polyhedral Improvements ==
 Marshall Hampton: Schlegel diagrams, standard polytopes, multiplication, polars
 
-= Notebook =
+== Notebook ==
 Timothy Clemans: notebook templatization work
 
 == Sage Build ==
