@@ -1,5 +1,6 @@
 = Sage 3.2.1 Release Tour =
 
+Sage 3.2.1 was released on December FIXME, 2008. For the official, comprehensive release notes, see [[http://www.sagemath.org/src/announce/sage-3.2.1.txt|sage-3.2.1.txt]].
 
 == Algebra ==
 
