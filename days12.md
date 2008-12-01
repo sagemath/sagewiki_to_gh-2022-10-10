@@ -1,16 +1,23 @@
 = Sage Days 12: San Diego =
 
+Sage is a free open-source mathematics software system licensed under the GPL. It combines the power  of many existing open-source packages into a common Python-based interface.  Sage Days 12 is a mainly developer-oriented workshop for work on the Sage mathematical software system.  It will be held at the [[http://www.calit2.net/|Calit2 Center at UC San Diego]] and is funded by [[http://www.ccrwest.org/|CCR La Jolla]]. 
+
 == Date and Location ==
 
-The workshop will be  held at UCSD (http://www.ucsd.edu) from Jan 21-24, 2009.
+The workshop will be  held Jan 21-24, 2009 at [[http://www.calit2.net/|Calit2]].
+
+On Jan 21, 2pm - 5pm, there will be three colloquium-style talks aimed at a general audience:
+   * 2pm: ''Introduction to Sage'' (William Stein, Univ. of Washington, Project Founder and Director)
+   * 3pm: ''The "Killer Apps" in Sage: Cython, Interact, and 3d Graphics'' (Craig Citro, UCLA, Developer)
+   * 4pm: ''The Sage Community'' (Michael Abshoff, Dortmund, Sage Release Manager)
 
 == Organization Committee ==
 
- * William Stein
+ * Michael Abshoff
+ * Martin Albrecht
  * Joe Buhler
  * Craig Citro
- * Martin Albrecht
- * Michael Abshoff
+ * William Stein
 
 == Schedule ==
 
