@@ -521,3 +521,41 @@ def midpoint2d(func = input_box('y*sin(x)/x+sin(y)',type=str,label='function of 
     show(p1+sum(cubs))
 }}}
 {{attachment:numint2d.png}}
+
+== Gaussian (Legendre) quadrature ==
+by Jason Grout
+
+The output shows the points evaluated using Gaussian quadrature (using a weight of 1, so using Legendre polynomials).  The vertical bars are shaded to represent the relative weights of the points (darker = more weight).  The error in the trapezoid, Simpson, and quadrature methods is both printed out and compared through a bar graph.  The "Real" error is the error returned from scipy on the definite integral.
+{{{
+from scipy.special.orthogonal import p_roots
+from scipy.integrate import quad, trapz, simps
+from sage.ext.fast_eval import fast_float
+from numpy import linspace
+show_weight_graph=False
+@interact
+def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x))):
+    ff = fast_float(f,'x')    
+    x,w = p_roots(int(n))
+    coords = zip(x,w)
+    max_weight = max(w)
+    weight_graph=line([(x,y/max_weight) for x,y in coords], rgbcolor='green',alpha=0.4)
+    f_graph = plot(f,(x,-1,1))
+    stem = sum([line([(x,0),(x,ff(x))],rgbcolor=(1-y/max_weight,1-y/max_weight,1-y/max_weight),thickness=2,markersize=6,alpha=y/max_weight) for x,y in coords])
+    stems = sum([points([(x,0),(x,ff(x))],rgbcolor='black',pointsize=30) for x,y in coords])
+    graph = stem+stems+f_graph
+    if show_weight_graph:
+        graph += weight_graph
+    show(graph,xmin=-1,xmax=1)
+    approximation = sum([w*ff(x) for x,w in coords])
+    integral,integral_error = scipy.integrate.quad(ff, -1, 1)
+    x_val = linspace(-1r,1,n)
+    y_val = map(ff,x_val)
+    trapezoid = integral-trapz(y_val, x_val)
+    simpson = integral-simps(y_val, x_val)
+    html("$$\sum_{i=1}^{i=%s}w_i\left(%s\\right)= %s\\approx %s =\int_{-1}^{1}%s \,dx$$"%(n,latex(f.subs(x="x_i")), approximation, integral, latex(f)))
+    error_data = [trapezoid, simpson, integral-approximation,integral_error]
+    show(bar_chart(error_data,width=1),ymin=min(error_data), ymax=max(error_data))
+    print "Trapezoid: %s, Simpson: %s, \nQuadrature: %s, Real: %s"%tuple(error_data)
+}}}
+{{attachment:quadrature1.png}}
+{{attachment:quadrature2.png}}
