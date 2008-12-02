@@ -11,3 +11,5 @@ John Palmieri: a few methods for finite field elements including additive order,
 == Basic arithmetic ==
 
 Burcin Erocal: improving the user interface of polynomial classes. 
+
+John Palmieri, Carl Witty: a method to test whether a polynomial is square over the field it is defined. If the polynomial is square, then the method has the option of returning a square root.
