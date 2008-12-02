@@ -17,3 +17,9 @@ John Palmieri, Carl Witty: a method to test whether a polynomial is square over 
 == Build ==
 
 William Stein, Michael Abshoff: binary distributions of Sage for Linux (e.g. Ubuntu) may not work properly once installed. The following CPU flags are known to prevent Sage from running properly: sse, 3d, mmx, pni, and cmov.
+
+== Combinatorics ==
+
+ * Coding theory (David Joyner) - Several changes in linear_codes.py which should speed up (and in some cases do:-) some coding theory computations considerably. It adds interfaces to Cython and C functions of Robert Miller, CJ Tjhal, and Jeffery Leon. Speed up of minimum_distance (for codes over GF(2) and GF(3)), the spectrum (=weight_distribution), and permutation_automorphism_group are expected and in most cases achieved. (Also a new function is_permutation_equivalent was added, which interfaces with Robert Miller's double coset partition refinement code.)
+
+ * Incidence structures and block designs (David Joyner) - Beginning of an incidence structure class and an implementation of some basic block design algorithms. A few functions require GAP's Design package (which is included in gap_packages-4.4.10_6.spkg) but calling GAP or GAP's Design was only done when the corresponding Sage functionality was missing. Robert Miller's recent code on computing the automorphism group of a non-linear binary code was used to implement the automorphism group of a block design. 
