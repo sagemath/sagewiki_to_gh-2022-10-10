@@ -18,6 +18,14 @@ Sage 3.2.1 was released on December FIXME, 2008. For the official, comprehensive
 
  * Problematic CPU flags (William Stein, Michael Abshoff) -- Binary distributions of Sage for Linux (e.g. Ubuntu) may not work properly once installed. The following CPU flags are known to prevent Sage from running properly: sse, 3d, mmx, pni, and cmov.
 
+== Calculus ==
+
+ * Gamma and factorial functions (Mike Hansen, Burcin Erocal, Wilfried Huss) -- Symbolic gamma and factorial functions.
+
+ * Update to sympy-0.6.3 (Ondrej Certik) -- Update to the latest upstream of SymPy (sympy-0.6.3), which is a Python library for symbolic mathematics. For more information about SymPy, please visit http://code.google.com/p/sympy/.
+
+ * Numerical trigonometry (Robert Bradshaw) -- Optimized floating point evaluation of trigonometric functions such as sine and cosine. For example, numerical calculation of sine via _fast_float_ is now twice as fast as math.sin.
+
 == Combinatorics ==
 
  * Coding theory (David Joyner) -- Several changes in linear_codes.py which should speed up (and in some cases do:-) some coding theory computations considerably. It adds interfaces to Cython and C functions of Robert Miller, CJ Tjhal, and Jeffery Leon. Speed up of minimum_distance (for codes over GF(2) and GF(3)), the spectrum (=weight_distribution), and permutation_automorphism_group are expected and in most cases achieved. (Also a new function is_permutation_equivalent was added, which interfaces with Robert Miller's double coset partition refinement code.)
