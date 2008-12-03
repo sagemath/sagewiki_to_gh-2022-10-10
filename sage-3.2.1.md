@@ -26,6 +26,8 @@ Sage 3.2.1 was released on December FIXME, 2008. For the official, comprehensive
 
  * Numerical trigonometry (Robert Bradshaw) -- Optimized floating point evaluation of trigonometric functions such as sine and cosine. For example, numerical calculation of sine via _fast_float_ is now twice as fast as math.sin.
 
+ * Floating point calculation (Robert Bradshaw) -- Changing the parsing code for numerical computation to use RDF, which is a better reflection of the underlying precision. For calculus expressions involving real numbers, redundant trailing zeros are removed.
+
 == Combinatorics ==
 
  * Coding theory (David Joyner) -- Several changes in linear_codes.py which should speed up (and in some cases do:-) some coding theory computations considerably. It adds interfaces to Cython and C functions of Robert Miller, CJ Tjhal, and Jeffery Leon. Speed up of minimum_distance (for codes over GF(2) and GF(3)), the spectrum (=weight_distribution), and permutation_automorphism_group are expected and in most cases achieved. (Also a new function is_permutation_equivalent was added, which interfaces with Robert Miller's double coset partition refinement code.)
