@@ -50,6 +50,25 @@ Windows is currently supported via the VMWare image, so see the instructions for
 === How do I run Sage in a browser that is not the system default ===
 Issue this command "env SAGE_BROWSER=opera /usr/bin/sage -notebook" either from the command prompt or as a menu command for Sage. Assumes a Linux operating system, Opera as the browser, and I happen to use KDE as my desktop.
 
+=== How to get Sage's Python to recognize my system's Tcl/Tk install? ===
+It may be that you have Tcl/Tk installed and that your system's Python recognizes it but Sage's Python does not. To fix that, install the tcl/tk development library. On Ubuntu, this is the command
+
+{{{
+sudo apt-get install tk8.5-dev
+}}}
+Next, reinstall Sage's Python:
+
+{{{
+sage -f python-2.5.2.p8
+}}}
+This will pick up the tcl/tk library automatically. If
+ 
+{{{
+sage: import _tkinter
+sage: import Tkinter
+}}}
+does not raise an ImportError then it worked.
+
 == Developing in Sage ==
 === What tools do I need to develop in Sage? ===
 You need the prerequisite tools listed in the README.txt file in the root directory of Sage.
