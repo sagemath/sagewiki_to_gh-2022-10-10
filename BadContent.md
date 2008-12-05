@@ -4489,6 +4489,7 @@ csjqlts\.cn
 crltjqsplts\.cn
 luoliaosp\.cn
 qqmnsplts\.cn
+kaoyao\.net
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
