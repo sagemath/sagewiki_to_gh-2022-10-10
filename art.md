@@ -31,4 +31,4 @@
  * [[http://sagemath.org/old/art/|old sage art page, some good graffiti!]]
  * [[attachment:BadMugDesign.jpg|Mug design, too dark though]]
  * [[attachment:gfan_example.png|A Groebner fan; not sure if its art]]
- * [[http://www.lulu.com/content/4858716] Sage-produced mathematical coloring book]
+ * [[http://www.lulu.com/content/4858716| Sage-produced mathematical coloring book]]
