@@ -42,4 +42,4 @@ Sage 3.2.1 was released on December 1, 2008. For the official, comprehensive rel
 
 == Testing ==
 
- * Added only_optional doctest option (William Stein) -- Added a new option {{{sage -t -only_optional=component}}} that allows one to run only the optional doctests that depend on a given component.   Thus instead of much of the optional functionality of Sage being broken, it will now be much easier to automatically test it. 
+ * Added only_optional doctest option (William Stein) -- Added a new option {{{sage -t -only_optional=component}}} that allows one to run only the optional doctests that depend on a given component.   Thus much of the optional functionality of Sage will now be much easier to automatically test. 
