@@ -4,7 +4,7 @@ Sage 3.2.1 was released on December 1, 2008. For the official, comprehensive rel
 
 == Algebra ==
 
- * Division over integers (Robert Bradshaw) -- A much simpler and faster algorithm for the divisors function over integers. The new optimized code is faster than a similar integer divisor function in the version of PARI/GP that's bundled with Sage 3.2.1, as well as outperforming a similar integer divisor function found in the version of Magma that Sage 3.2.1 interfaces with.
+ * Divisors over integers (Robert Bradshaw) -- A much simpler and faster algorithm for the divisors function over integers. The new optimized code is faster than a similar integer divisor function in the version of PARI/GP that's bundled with Sage 3.2.1, as well as outperforming a similar integer divisor function found in the version of Magma that Sage 3.2.1 interfaces with.
 
  * Finite field operations (John Palmieri) -- A few methods for finite field elements including additive order, p-th power, and p-th root where p is the characteristic of the field.
 
