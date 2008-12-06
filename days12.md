@@ -33,4 +33,26 @@ participant is free to work on whatever he/she feels most productive working on.
 
 == Confirmed Participants ==
 
- * Coming soon
+ * Tom Boothby
+ * Robert Bradshaw
+ * Craig Citro
+ * Jason Grout
+ * Mike Hansen
+ * David Harvey
+ * John Perry
+ * Robert Miller
+ * David Roe
+ * Nick Alexander
+ * William Stein
+ * Till Stegers
+ * Joe Wetherell
+ * Alex Clemesha
+ * Dorian Raimer
+ * Michael Abshoff
+ * Martin Albrecht
+ * Burcin Erocal
+ * Alex Ghitza
+ * Kiran Kedlaya
+ * Joe Buhler
+ * Phaedon Sinis
+ * Mark Watkins
