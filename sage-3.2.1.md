@@ -40,6 +40,11 @@ Sage 3.2.1 was released on December 1, 2008. For the official, comprehensive rel
 
  * Incidence structures and block designs (David Joyner) -- Beginning of an incidence structure class and an implementation of some basic block design algorithms. A few functions require GAP's Design package (which is included in gap_packages-4.4.10_6.spkg) but calling GAP or GAP's Design was only done when the corresponding Sage functionality was missing. Robert Miller's recent code on computing the automorphism group of a non-linear binary code was used to implement the automorphism group of a block design. 
 
+== Finance ==
+
+ * Obtaining high resolution financial data (Chris Swierczewski, Brett Nakashima, William Stein) -- Refined ability to obtain weekly and daily financial data from Google Finance and Yahoo Finance. Input options, such as start date and end date, are more user-friendly. More elaborate documentation. Some support for international (read: non-NASDAQ or NYSE) stock exchanges.
+ * Experimental support for interfacing with Opentick (Chris Swierczewski) -- [[http://www.opentick.com/|Opentick]] is an open-source package for obtaining high-resolution stock data. An experimental package for interfacing with Opentick through Sage is in development. However, there are currently some issues with the Opentick servers and they are currently not allowing any new accounts.
+
 == Testing ==
 
  * Added only_optional doctest option (William Stein) -- Added a new option {{{sage -t -only_optional=component}}} that allows one to run only the optional doctests that depend on a given component.   Thus much of the optional functionality of Sage will now be much easier to automatically test. 
