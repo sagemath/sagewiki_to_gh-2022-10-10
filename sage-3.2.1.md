@@ -43,7 +43,6 @@ Sage 3.2.1 was released on December 1, 2008. For the official, comprehensive rel
 == Finance ==
 
  * Obtaining high resolution financial data (Chris Swierczewski, Brett Nakashima, William Stein) -- Refined ability to obtain weekly and daily financial data from Google Finance and Yahoo Finance. Input options, such as start date and end date, are more user-friendly. More elaborate documentation. Some support for international (read: non-NASDAQ or NYSE) stock exchanges.
- * Experimental support for interfacing with Opentick (Chris Swierczewski) -- [[http://www.opentick.com/|Opentick]] is an open-source package for obtaining high-resolution stock data. An experimental package for interfacing with Opentick through Sage is in development. However, there are currently some issues with the Opentick servers and they are currently not allowing any new accounts.
 
 == Testing ==
 
