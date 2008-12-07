@@ -551,34 +551,37 @@ matrix_plot(m)
  * This was a black+white Sierpinski triangle coded by Marshall Hampton, with some slight tweeking by David Joyner to add colors:
 
 {{{
-
-
 def sierpinski_seasons_greetings():
     """
     Code by Marshall Hampton.
     Colors by David Joyner.
+    General depth by Rob Beezer.
     Copyright Marshall Hampton 2008, licensed
     creative commons, attribution share-alike.
     """
+    depth = 7
     nsq = RR(3^(1/2))/2.0
     tlist_old = [[[-1/2.0,0.0],[1/2.0,0.0],[0.0,nsq]]]
     tlist_new = [x for x in tlist_old]
-    #sierp = Graphics()
-    for ind in range(6):
+    for ind in range(depth):
        for tri in tlist_old:
            for p in tri:
                new_tri = [[(p[0]+x[0])/2.0, (p[1]+x[1])/2.0] for x in tri]
                tlist_new.append(new_tri)
        tlist_old = [x for x in tlist_new]
     T = tlist_old
-    N = len(T)
-    N1 = 729 # 243 does the upper third
-    N2 = N - N1
-    q1 = sum([line(T[i]+[T[i][0]], rgbcolor = (0,1,0)) for i in range(N2)])
-    q2 = sum([line(T[i]+[T[i][0]], rgbcolor = (1,0,0)) for i in range(N2,N)])
+    N  = 4^depth
+    N1 = N - 3^depth
+    q1 = sum([line(T[i]+[T[i][0]], rgbcolor = (0,1,0)) for i in range(N1)])
+    q2 = sum([line(T[i]+[T[i][0]], rgbcolor = (1,0,0)) for i in range(N1,N)])
     show(q2+q1, figsize = [6,6*nsq], axes = False)
 }}}
 
 GIMP was used to add a Season's greetings message:
 
 {{http://sage.math.washington.edu/home/wdj/art/sierpinski-seasons-greetings-from-sage.png}}
+
+Also (thanks to Rob Beezer) available in poster form in pdf format:
+http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage.pdf,
+and in A4 size:
+http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage-a4.pdf.
