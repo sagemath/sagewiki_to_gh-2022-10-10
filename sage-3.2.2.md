@@ -8,7 +8,7 @@ Sage 3.2.2 was released on FIXME. For the official, comprehensive release notes,
 
 == Basic Arithmetic ==
 
- * Fraction fields (Burcin Erocal) -- Updated the {{{sage.rings.fraction_field.FractionField_generic}}} class to the new coercion model, and Cythonize the {{{sage.rings.fraction_field_element.FractionFieldElement}}} class. Homomorphisms of fraction fields now work, and the {{{random_element()}}} method of fraction fields returns sensible results. 
+ * Fraction fields (Burcin Erocal) -- Updated the {{{sage.rings.fraction_field.FractionField_generic}}} class to the new coercion model and Cythonize the {{{sage.rings.fraction_field_element.FractionFieldElement}}} class. Homomorphisms of fraction fields now work, and the {{{random_element()}}} method of fraction fields returns sensible results. 
 
 == Build ==
 
@@ -19,3 +19,7 @@ Sage 3.2.2 was released on FIXME. For the official, comprehensive release notes,
  * Derivative of a vector and a matrix (Jason Grout) -- Given a vector or matrix of differentiable expressions, the entries in that vector or matrix can be differentiated. This is handy for working with differential equations when we want to do differentiation and integration of matrices and vectors, with the exact same answer as obtained by using the {{{apply_map}}} method.
 
  * Cleaned up implementation of piecewise-defined functions (Mike Hansen, Paul Butler) -- Some updating of the class {{{sage/functions/piecewise.py}}}. This includes not explicitly using Maxima where not necessary in order to take advantage of pynac in the future. When differentiating piecewise functions where some piece uses multiplication, the expression that is passed to Maxima is properly formatted for Maxima to work with that expression.
+
+== Coercion ==
+
+ * A factory and pickling framework (Robert Bradshaw) -- Uniqueness of parents makes Sage operate much more smoothly. This leads to an enormous amount of nearly identical caching code scattered throughout the library. This factory handles all the caching and also provides a good pickling mechanism.
