@@ -8,7 +8,7 @@ Sage 3.2.2 was released on FIXME. For the official, comprehensive release notes,
 
 == Basic Arithmetic ==
 
- * Fraction fields (Burcin Erocal) -- Updated the {{{sage.rings.fraction_field.FractionField_generic}}} class to the new coercion model and Cythonize the {{{sage.rings.fraction_field_element.FractionFieldElement}}} class. Homomorphisms of fraction fields now work, and the {{{random_element()}}} method of fraction fields returns sensible results. 
+ * Fraction fields (Burcin Erocal) -- Updated the {{{sage.rings.fraction_field.FractionField_generic}}} class to the new coercion model, and Cythonize the {{{sage.rings.fraction_field_element.FractionFieldElement}}} class. Homomorphisms of fraction fields now work, and the {{{random_element()}}} method of fraction fields returns sensible results. 
 
 == Build ==
 
