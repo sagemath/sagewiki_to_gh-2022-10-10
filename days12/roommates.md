@@ -1,0 +1,3 @@
+All SD 12 participants staying at the official hotel should add their arrival and departures times here. We will then later use this page to match roommates.
+
+ * Michael Abshoff (info coming soon)
