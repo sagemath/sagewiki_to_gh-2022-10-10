@@ -2,6 +2,7 @@ This may be more of a work-in-progress than a formal SEP, but I\'m not sure wher
 
 Basically, we now have inconsistency of what functions are defined for what matrix types. This makes things confusing to students, for example; when they are doing a problem, often a matrix will be coerced into a new type, which then has a different set of functions.
 
+We should also carefully look at the eig* functions in each datatype and make sure that the interface is consistent and that the eigenvalues/vectors/spaces/matrices are computed in the appropriate way.
 
 || method || Integer Ring || Rational Field || Real Field with 53 bits of precision || Complex Field with 53 bits of precision || Real Double Field || Complex Double Field || Symbolic Ring ||
 || BKZ || TRUE ||  ||  ||  ||  ||  ||  ||
