@@ -55,5 +55,4 @@ participant is free to work on whatever he/she feels most productive working on.
  * Kiran Kedlaya
  * Joe Buhler
  * Phaedon Sinis
- * Mark Watkins
  * Dan Shumow
