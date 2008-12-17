@@ -89,8 +89,8 @@ display with jsMath, please download a set of fonts from here:
 
 [[http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html]]
 
-If you are on Unix, ignore the instructions on the page and just unzip 
-the fonts into your ~/.fonts directory.
+If you are on Linux/Unix, ignore the instructions on the page and just unzip 
+the fonts into your ~/.fonts directory. You can also install the "jsmath-fonts" package.
 
 == Getting help ==
 === How do I get help? ===
