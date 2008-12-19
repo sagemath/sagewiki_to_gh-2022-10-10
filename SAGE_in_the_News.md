@@ -1,6 +1,8 @@
 == Sage in the News, Blogs, Forums and Buzz Sites ==
 
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is perceived in the outside world.
+  
+  * [[http://amca01.wordpress.com/2008/12/19/sage-an-open-source-mathematics-software-system/|Sage: an open source mathematics software system]] - 2008-12-19 Alasdair's musings blog posting.
 
   * Review of Sage 3.0.1 in [[http://www.linuxformat.co.uk|Linux Format magazine]], issue 109, September 2008, page 33. Unfortunately, there is as yet no freely available online version of this review. You must have subscription or view the dead tree version. But here's a [[http://mvngu.wordpress.com/2008/10/27/sage-301-reviewed-in-lxf/|blog post]] on that review.
 
