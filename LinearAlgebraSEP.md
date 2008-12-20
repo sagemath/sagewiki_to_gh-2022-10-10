@@ -63,7 +63,7 @@ We should also carefully look at the eig* functions in each datatype and make su
 || eigenvectors_left || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || eigenvectors_right || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || elementary_divisors || TRUE ||  ||  ||  ||  ||  ||  ||
-|| exp ||  ||  ||  ||  ||  ||  || TRUE ||
+|| exp || #4733 || #4733 || #4733 || #4733 || #4733 || #4733 || TRUE ||
 || expand ||  ||  ||  ||  ||  ||  || TRUE ||
 || factor ||  ||  ||  ||  ||  ||  || TRUE ||
 || fcp || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
