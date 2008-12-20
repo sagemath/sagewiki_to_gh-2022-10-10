@@ -203,7 +203,7 @@ These functions are on the todo list.
 || charpoly || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || No documentation explaining the characteristic polynomial. ||
 || cholesky ||  ||  ||  ||  || TRUE || TRUE ||  ||
 || column_space || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Make this just an alias for column_module.  In fact, we might deprecate this, since currently it says it returns a vector space for an integer matrix, for example, but does not (returns a free module). ||
-|| conjugate || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Does not work for integer matrices.  Maybe we need to coerce to complex numbers first? ||
+|| conjugate || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Does not work for integer matrices (see #4494).  Maybe we need to coerce to complex numbers first? ||
 || decomposition || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Doesn't work for SR matrices ||
 || decomposition_of_subspace || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Doesn't work for SR matrices? ||
 || denominator || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Doesn't work for SR matrices ||
