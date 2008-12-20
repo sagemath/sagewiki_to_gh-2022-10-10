@@ -11,3 +11,4 @@ Please fill in below whether and how long you would like to participate, and whi
  * NicolasThiéry: not 5-9 of January, not 4-6 of February
  * Michael Abshoff: not after SD 12 starts, i.e. Jan 19th due to travel
  * Sébastien Labbé: between ~15th January and ~13th February, not 2-6 February.
+ * Nicolas Borie : not 5-9 of January.
