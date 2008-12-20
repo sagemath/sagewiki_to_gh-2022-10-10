@@ -4,66 +4,38 @@ Basically, we now have inconsistency of what functions are defined for what matr
 
 We should also carefully look at the eig* functions in each datatype and make sure that the interface is consistent and that the eigenvalues/vectors/spaces/matrices are computed in the appropriate way.
 
+
+These methods are fine the way they are now:
+
 || method || Integer Ring || Rational Field || Real Field with 53 bits of precision || Complex Field with 53 bits of precision || Real Double Field || Complex Double Field || Symbolic Ring ||
 || BKZ || TRUE ||  ||  ||  ||  ||  ||  ||
 || LLL || TRUE ||  ||  ||  ||  ||  ||  ||
 || LLL_gram || TRUE ||  ||  ||  ||  ||  ||  ||
-|| LU ||  ||  ||  ||  || TRUE || TRUE ||  ||
-|| LU_valid ||  ||  ||  ||  || TRUE || TRUE ||  ||
-|| QR ||  ||  ||  ||  || TRUE || TRUE ||  ||
-|| SVD ||  ||  ||  ||  || TRUE || TRUE ||  ||
-|| abs || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| act_on_polynomial || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || add_multiple_of_column || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || add_multiple_of_row || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| additive_order || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| adjoint || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| antitranspose || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || apply_map || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || apply_morphism || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || arguments ||  ||  ||  ||  ||  ||  || TRUE ||
-|| augment || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| base_extend || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| base_ring || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| block_sum || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| category || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || change_ring || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| characteristic_polynomial || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| charpoly || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| cholesky ||  ||  ||  ||  || TRUE || TRUE ||  ||
 || column || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || column_module || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| column_space || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || columns || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || commutator || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| conjugate || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || copy || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| db || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| decomposition || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| decomposition_of_subspace || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| denominator || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
+|| db || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||  Is this used?? ||
 || dense_columns || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || dense_matrix || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || dense_rows || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| density || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| derivative || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || det || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || determinant || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || dict || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || dump || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || dumps || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| echelon_form || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| echelonize || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| eigenmatrix_left || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| eigenmatrix_right || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| eigenspaces || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| eigenspaces_left || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| eigenspaces_right || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| eigenvalues || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| eigenvectors_left || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| eigenvectors_right || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
-|| elementary_divisors || TRUE ||  ||  ||  ||  ||  ||  ||
-|| exp || #4733 || #4733 || #4733 || #4733 || #4733 || #4733 || TRUE ||
+
+
+These methods still need to be combed through to see if something needs to be done.
+
+|| method || Integer Ring || Rational Field || Real Field with 53 bits of precision || Complex Field with 53 bits of precision || Real Double Field || Complex Double Field || Symbolic Ring ||
 || expand ||  ||  ||  ||  ||  ||  || TRUE ||
 || factor ||  ||  ||  ||  ||  ||  || TRUE ||
 || fcp || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
@@ -207,6 +179,48 @@ We should also carefully look at the eig* functions in each datatype and make su
 || with_rescaled_col || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || with_rescaled_row || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
 || with_row_set_to_multiple_of_row || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
+
+
+
+These functions are on the todo list.
+
+|| method || Integer Ring || Rational Field || Real Field with 53 bits of precision || Complex Field with 53 bits of precision || Real Double Field || Complex Double Field || Symbolic Ring || TODO ||
+|| LU ||  ||  ||  ||  || TRUE || TRUE ||  ||
+|| LU_valid ||  ||  ||  ||  || TRUE || TRUE ||  ||
+|| QR ||  ||  ||  ||  || TRUE || TRUE ||  ||
+|| SVD ||  ||  ||  ||  || TRUE || TRUE ||  ||
+|| abs || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Make it clear that this returns the determinant ||
+|| act_on_polynomial || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Does not deal with symbolic polynomials ||
+|| additive_order || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||  Is this implemented for any matrix ||
+|| adjoint || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Rename to adjugate, deprecate this function.  Later, define this function to be the conjugate transpose ||
+|| antitranspose || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||  Define antitranspose in the docs ||
+|| augment || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Make it clear that other will be coerced to a matrix over self.base_ring().  Maybe this should be changed so that the returned matrix is of a type that both matrices can be coerced to? ||
+|| base_extend || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || No documentation ||
+|| base_ring || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || No documentation ||
+|| block_sum || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Same comment as augment above.  In fact, fixing augment may fix this. ||
+|| category || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || No documentation ||
+|| characteristic_polynomial || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Docs point to charpoly, but in reality, the long name should have all the docs and charpoly should just be an alias ||
+|| charpoly || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || No documentation explaining the characteristic polynomial. ||
+|| cholesky ||  ||  ||  ||  || TRUE || TRUE ||  ||
+|| column_space || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Make this just an alias for column_module.  In fact, we might deprecate this, since currently it says it returns a vector space for an integer matrix, for example, but does not (returns a free module). ||
+|| conjugate || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Does not work for integer matrices.  Maybe we need to coerce to complex numbers first? ||
+|| decomposition || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Doesn't work for SR matrices ||
+|| decomposition_of_subspace || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Doesn't work for SR matrices? ||
+|| denominator || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Doesn't work for SR matrices ||
+|| density || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || typo in docstring "ration" -> "ratio" ||
+|| derivative || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Doesn't work for integer matrices (need to define a derivative function for numeric constants?) ||
+|| echelon_form || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Implement #3211 ||
+|| echelonize || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Implement #3211 ||
+|| eigenmatrix_left || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || For all the eigenfunctions below, make sure that the return values are consistent across rings. ||
+|| eigenmatrix_right || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
+|| eigenspaces || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
+|| eigenspaces_left || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
+|| eigenspaces_right || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
+|| eigenvalues || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||
+|| eigenvectors_left || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || Implement #4834 ||
+|| eigenvectors_right || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE || TRUE ||  Implement #4834 ||
+|| elementary_divisors || TRUE ||  ||  ||  ||  ||  ||  || Doesn't work over SR matrices; apparently this function was expanded in 3.2.2 to work over more matrices. ||
+|| exp || #4733 || #4733 || #4733 || #4733 || #4733 || #4733 || TRUE ||
 
 
 I got this from this code:
