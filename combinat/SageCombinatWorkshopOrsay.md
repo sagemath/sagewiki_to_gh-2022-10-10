@@ -12,3 +12,4 @@ Please fill in below whether and how long you would like to participate, and whi
  * Michael Abshoff: not after SD 12 starts, i.e. Jan 19th due to travel
  * Sébastien Labbé: between ~15th January and ~13th February, not 2-6 February.
  * Nicolas Borie : not 5-9 of January.
+ * FrancoSaliola: between 15 January--1 March.
