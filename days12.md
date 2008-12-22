@@ -47,7 +47,7 @@ participant is free to work on whatever he/she feels most productive working on.
  * Till Stegers
  * Joe Wetherell
  * Alex Clemesha
- * Dorian Raimer
+ * Dorian Raymer
  * Michael Abshoff
  * Martin Albrecht
  * Burcin Erocal
@@ -56,3 +56,4 @@ participant is free to work on whatever he/she feels most productive working on.
  * Joe Buhler
  * Phaedon Sinis
  * Dan Shumow
+ * Simon King
