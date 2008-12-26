@@ -5,7 +5,7 @@
 
 Email: <<wdjoyner@gmail.com>>
 
-GAP's SPKG.txt file: [[spkg/gap]]
+[[spkg/gap|GAP's SPKG.txt file]]
 
 ----
 CategoryHomepage
