@@ -43,7 +43,7 @@ AMS session [[http://www.ams.org/amsmtgs/2110_program_ss2.html#title|webpage]]
  * 1:00- 1:20 Ryan-266 - Siegel modular forms in Sage.
  * 1:30- 1:50 Noel-272 - Nilpotent orbits associated to Coxeter cells.
  * 2:00- 2:20 Joyner/Miller-758 - Coding theory and combinatorics in Sage.
- * 2:30- 2:50 Villard-1571 - Numerical analysis tools for LLL lattice basis reduction.
+ * 2:30- 2:50 Villard-1571 - Numerical analysis tools for LLL lattice basis reduction. ("cancelled")
  * 3:00- 3:30 break
  * 3:30- 3:50 Bard-1959 - Ultra-sparse matrix reduction to reduced row-echelon form for matrices over GF(2)
  * 4:00- 4:20 Xiang-1752 - Modular ranks of the adjacency matrices of strongly regular graphs arising from semiﬁelds.
