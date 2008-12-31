@@ -8,8 +8,8 @@ This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry pr
 
 == Organizers ==
 
- Local organizers: David Eisenbud (UC Berkeley), Daniel Erman (UC Berkeley), Dan Grayson (University of Illinois at Urbana-Champaign), Mike Stillman (Cornell University)
+ * Local organizers: David Eisenbud (UC Berkeley), Daniel Erman (UC Berkeley), Dan Grayson (University of Illinois at Urbana-Champaign), Mike Stillman (Cornell University)
 
- Sage organizers: William Stein (University of Washington)
+ * Sage organizers: William Stein (University of Washington)
 
- Interested people: Justin Walker
+ * Interested people: Justin Walker
