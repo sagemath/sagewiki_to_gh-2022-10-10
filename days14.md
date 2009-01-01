@@ -12,4 +12,4 @@ This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry pr
 
  * Sage organizers: William Stein (University of Washington)
 
- * Interested people: Justin Walker
+ * Interested Sage developers: Alex Ghitza, Justin Walker
