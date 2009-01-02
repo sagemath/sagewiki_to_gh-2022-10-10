@@ -11,6 +11,10 @@ On Jan 21, 2pm - 5pm, there will be three colloquium-style talks aimed at a gene
    * 3pm: ''The "Killer Apps" in Sage: Cython, Interact, and 3d Graphics'' (Craig Citro, UCLA, Developer)
    * 4pm: ''The Sage Community'' (Michael Abshoff, Dortmund, Sage Release Manager)
 
+== Mailing List ==
+
+ * http://groups.google.com/group/sagedays12
+
 == Organization Committee ==
 
  * Michael Abshoff
