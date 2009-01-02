@@ -26,10 +26,12 @@ On Jan 21, 2pm - 5pm, there will be three colloquium-style talks aimed at a gene
 
 == Goals and Structure ==
 
-The structure of the workshop is as follows: there will be a few lectures each day and and the rest of the day is spent with intense working
-sessions. This will consist mostly of groups working to implement new functionality in Sage, or discussing design decisions for new features. One
-of the main goals of this workshop is get many bugs as listed on Sage's bug tracker (http://trac.sagemath.org/sage_trac/) fixed. Of course, every
-participant is free to work on whatever he/she feels most productive working on. For instance, a small group will focus on discussing and implementation Jean-Charles Faugere's F5 algorithm for computing Gröbner bases.
+The structure of the workshop is as follows: there will be very few lectures, and the rest of the day is spent with intense working
+sessions.  This will consist mostly of:
+   * Fix bugs in Sage: there are hundreds of known documented bugs in Sage; let's fix them.
+   * Write doctests: the coverage score of sage as of Jan 1 2009 is 64.3%; let's get this to 80% by writing about 3400 new doctests
+
+Though a small group will focus on discussing and implementation Jean-Charles Faugere's F5 algorithm for computing Gröbner bases, ''by far the main goal of this workshop'' is '''fixing bugs and writing doctests''', which will uncover numerous additional bugs.  
 
 == Confirmed Participants ==
 
