@@ -1,6 +1,6 @@
 = Sage Days 14: Algebraic Geometry =
 
-March 9 - 12, 2008
+March 9 - 12, 2008 in Berkeley, CA
 
  * [[http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_workshop| Official MSRI Page]]
 
