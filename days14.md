@@ -13,3 +13,7 @@ This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry pr
  * Sage organizers: William Stein (University of Washington)
 
  * Interested Sage developers: Alex Ghitza, Justin Walker, Andrey Novoseltsev, Emily Kirkman
+
+== Hotel ==
+
+ * We have a block of 8 rooms reserved at [[http://www.rosegardeninn.com/| the Rose Garden Inn]].
