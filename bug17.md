@@ -1,4 +1,4 @@
-= SAGE Bug Day 1y =
+= SAGE Bug Day 17 =
 
 The event will take place on '''Thursday, January 8th, 2009''' and officially start at 9 am pacific standard time and go on until people run out of energy.
 
