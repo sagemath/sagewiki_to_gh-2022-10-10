@@ -22,13 +22,13 @@ Sage 3.2.3 was released on FIXME. For the official, comprehensive release notes,
 
  * Fix performance regression in {{{eisenstein_submodule.py}}} (Robert Bradshaw) -- Performance regression in {{{eisenstein_submodule.py}}} was due to cyclotomic coercion. Previously, it would take about 73.3 seconds to run all doctests in {{{eisenstein_submodule.py}}}. Now, the performance is substantially increased such that all dotests in {{{eisenstein_submodule.py}}} should now take about 3.4 seconds.
 
-== Commutative Algebra ==
-
 == Doctest ==
 
-== Documentation ==
-
 == Graphics ==
+
+ * Some fixes to {{{matrix_plot()}}} and the plotting of {{{gamma(x)}}} (Mike Hansen, Robert Bradshaw).
+
+ * Fix fallout in refactoring the plotting module (William Stein, Mike Hansen) -- Sage 3.2.1 refactored {{{plot.py}}} so that it was splitted up into multiple modules. However, the functions xmin/xmax/ymin/ymax were all removed without deprecating them. These are now added back exactly as before, since they are depended upon by a lot of plotting code.
 
 == Interfaces ==
 
