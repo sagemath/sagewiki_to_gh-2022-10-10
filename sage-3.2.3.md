@@ -6,7 +6,7 @@ Sage 3.2.3 was released on FIXME. For the official, comprehensive release notes,
 
  * Powers of polynomial variables (Alex Ghitza) -- Report an error message when a determinate of a (multivariate) polynomial is raised to a fractional exponent. Previously, raising a polynomial determinate to a fractional power has the effect of rounding the exponent to an integer. As yet, fractional powers is not supported.
 
- * Extensions of finite fields (Alex Ghitza) -- Implements methods {{{random_element()}}} and {{{order()}}} for quotients of polynomial rings. The method {{{random_element()}}} returns the number of elements of a quotient ring, and {{{order()}}} returns a random element of a quotient ring.
+ * Extensions of finite fields (Alex Ghitza) -- Implements methods {{{random_element()}}} and {{{order()}}} for quotients of polynomial rings. The method {{{order()}}} returns the number of elements of a quotient ring, and {{{random_element()}}} returns a random element of a quotient ring.
 
  * Conjugates for integer, rational and real numbers (Alex Ghitza) -- Implements trivial {{{conjugate()}}} methods for elements over the integers, rationals, and reals. Conjugates work (trivially) for matrices over rings that embed canonically into the real numbers.
 
