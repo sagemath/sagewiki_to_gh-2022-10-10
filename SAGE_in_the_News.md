@@ -2,6 +2,8 @@
 
 
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is perceived in the outside world.
+
+  * [[http://vijaybalajithecitizen.blogspot.com/2009/01/sage-mathematics-software.html|Sage: Mathematics Software]] - blogpost at "a blog for technology", 2009-01-06
   
   * [[http://www.math.washington.edu/newsletter/2008/sage.php|Sage: Insight into open source technology]], an article in the Autumn 2008 Newsletter of the Department of Mathematics at the University of Washington.
 
