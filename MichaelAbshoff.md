@@ -19,6 +19,7 @@ I am the main release manager for Sage and I chaired a number of releases - 29 s
  * [[freebsd|FreeBSD port of Sage]]
  * [[windows|MSVC port of Sage]]
  * [[windows|Cygwin re-port of Sage]]
+ * [[osx64|64 bit OSX port of Sage]]
  * hunt mem-leaks in C/C++ code of Sage
  * [[DebianSAGE]]
  * whatever else currently needs fixing
