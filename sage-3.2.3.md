@@ -24,6 +24,12 @@ Sage 3.2.3 was released on FIXME. For the official, comprehensive release notes,
 
 == Doctest ==
 
+ * Disable DSage doctests (Michael Abshoff) -- Doctesting DSage is disabled for now due to a number of problems in the doctests. This issue is expected to be revisited in the 3.4.x series, the earliest one probably is 3.4.alpha0. It will not be considered in Sage 3.3 since that release is mainly concerned with sphinxifying the Sage documentation.
+
+ * Numerical noise in Sage 3.2.2 (Michael Abshoff) -- Compiling with GCC 4.3.2, the module {{{sage/rings/number_field/number_field_morphisms.pyx}}} exhibited numerical noise during doctesting.
+
+ * {{{matrix1.pyx}}} reference related doctest crash (William Stein) -- 
+
 == Graphics ==
 
  * Some fixes to {{{matrix_plot()}}} and the plotting of {{{gamma(x)}}} (Mike Hansen, Robert Bradshaw).
