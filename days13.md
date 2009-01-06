@@ -17,7 +17,7 @@ The event will be held at the University of Georgia at Athens.
 
 == Goals ==
 
- * Introdution to SAGE for new users/developers
+ * Introduction to SAGE for new users/developers
  * Discuss goals for quadratic forms code, and what is currently missing. E.g.:
    * Spinor genera
    * p-Neighbors
