@@ -12,6 +12,7 @@ This is a collection of pages demonstrating the use of the interact command in S
  * [[interact/number_theory|Number Theory]]
  * [[interact/web|Web Applications]]
  * [[interact/bio|Bioinformatics]]
+ * [[interact/calculus|Geometry]]
  * [[interact/graphics|Drawing Graphics]]
  * [[interact/misc|Miscellaneous]]
 
