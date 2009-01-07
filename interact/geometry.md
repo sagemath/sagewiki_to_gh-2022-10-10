@@ -19,4 +19,13 @@ p7 = Polyhedron(vertices = [[0,1,0],[0,0,0],[1,1,0],[0,1,1]])
 p8 = Polyhedron(vertices = [[2/3,1/3,2/3],[0,0,0],[1,1,0],[0,1,1]])
 p78 = p7.union(p8)
 pti = p12.intersection(p34).intersection(p56).intersection(p78)
+@interact
+def tetra_plot(opac = slider(srange(0,1.0,float(.01)), default = float(.25))):
+    print opac
+    p12r = p12.render_wireframe()+p12.render_solid(opacity = opac)
+    p34r = p34.render_wireframe()+p34.render_solid(rgbcolor = (0,0,1),opacity = opac)
+    p56r = p56.render_wireframe()+p56.render_solid(rgbcolor = (0,1,0),opacity = opac)
+    p78r = p78.render_wireframe()+p78.render_solid(rgbcolor = (0,1,1),opacity = opac)
+    ptir = pti.render_wireframe()+pti.render_solid(rgbcolor = (1,0,1),opacity = .9)
+    show(p12r+p34r+p56r+p78r+ptir, frame = False)
 }}}
