@@ -12,7 +12,7 @@ This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry pr
 
  * Sage organizers: William Stein (University of Washington)
 
- * Interested Sage developers: Alex Ghitza, Justin Walker, Andrey Novoseltsev, Emily Kirkman
+ * Interested Sage developers: Mike Hansen, Alex Ghitza, Justin Walker, Andrey Novoseltsev, Emily Kirkman
 
 == Hotel ==
 
