@@ -29,4 +29,4 @@ def tetra_plot(opac = slider(srange(0,1.0,float(.01)), default = float(.25))):
     ptir = pti.render_wireframe()+pti.render_solid(rgbcolor = (1,0,1),opacity = .9)
     show(p12r+p34r+p56r+p78r+ptir, frame = False)
 }}}
-attachment:tetrareflect.png
+[attachment:tetrareflect.png]
