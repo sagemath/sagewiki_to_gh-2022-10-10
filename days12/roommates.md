@@ -14,3 +14,6 @@ Room 2:
  * David Roe (20.01.09 - 25.01.09)
  * William Stein (19.01.09 - 25.01.09)
   
+Room 3:
+ * Craig Citro (20.01.09 - 26.01.09)
+ * Alex Ghitza (20.01.09 - 26.01.09)
