@@ -6,6 +6,7 @@ goto [[interact|interact main page]]
 == Intersecting tetrahedral reflections ==
 by Marshall Hampton.  Inspired by a question from Hans Schepker of Glass Geometry.
 {{{
+#Pairs of tetrahedra, one the reflection of the other in the internal face, are joined by union operations:
 p1 = Polyhedron(vertices = [[1,1,1],[1,1,0],[0,1,1],[1,0,1]])
 p2 = Polyhedron(vertices = [[1/3,1/3,1/3],[1,1,0],[0,1,1],[1,0,1]])
 p12 = p1.union(p2)
@@ -21,7 +22,6 @@ p78 = p7.union(p8)
 pti = p12.intersection(p34).intersection(p56).intersection(p78)
 @interact
 def tetra_plot(opac = slider(srange(0,1.0,float(.01)), default = float(.25))):
-    print opac
     p12r = p12.render_wireframe()+p12.render_solid(opacity = opac)
     p34r = p34.render_wireframe()+p34.render_solid(rgbcolor = (0,0,1),opacity = opac)
     p56r = p56.render_wireframe()+p56.render_solid(rgbcolor = (0,1,0),opacity = opac)
