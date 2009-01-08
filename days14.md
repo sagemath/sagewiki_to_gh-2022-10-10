@@ -17,3 +17,23 @@ This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry pr
 == Hotel ==
 
  * We have a block of 8 rooms reserved at [[http://www.rosegardeninn.com/| the Rose Garden Inn]].
+
+== Very Tentative Schedule ==
+
+{{{
+Tuesday, March 10:
+  * 9 - 10 am William Stein: Introduction to Sage
+  * 10:30 - 11:30am Mike Hansen: The Sage/Macaulay2 interface
+  * 1:00 - 2:00 pm: Alex Ghitza: Algebraic Geometry using Sage
+  * 2:30 - 3:30 pm Andrey Novoseltsov: Lattice Polytopes using Sage
+  * 4:00 - 5:30 pm Justin Walker et al.: Interactive Sage Tutorial
+  * evening projects and discussion by people interested in coding
+
+Wednesday, March 11:
+  * 10:00am - 12:00 pm: William Stein: informal discussion about mathematical software -- what do you want?
+  * 2:00 - 3:30 pm Justin Walker et al.: Interactive Sage Tutorial, part 2
+  * afternoon/evening projects and discussion by people interested in coding
+
+Thursday, March 12:
+  * 3pm: Project wrapups and discussion
+}}}
