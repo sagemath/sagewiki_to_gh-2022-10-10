@@ -1,6 +1,6 @@
 All SD 12 participants staying at the official hotel should add their arrival and departures times here. We will then later use this page to match roommates.
 
- * Michael Abshoff (info coming soon)
+ * Michael Abshoff (20.01.09 - 26.01.09)
  * Jason Grout (20.01.09 - 24.01.09)
  * Robert Miller (21.01.09 - 24.01.09)
  * John Perry (20.01.09 - 25.01.09)
