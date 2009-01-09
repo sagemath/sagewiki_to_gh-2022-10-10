@@ -5,6 +5,7 @@ All SD 12 participants staying at the official hotel should add their arrival an
  * Robert Miller (21.01.09, 16:27 - 24.01.09, 10:55)
  * John Perry (20.01.09 - 25.01.09)
  * Nick Alexander (20.01.09 - 24.01.09, but I am close enough to be flexible)
+ * Simon King (arrival 19.01.09, 20:01 at Lindbergh Int. airport; departure 25.01.09, 13:21 at Lindbergh Int. airport)
 
 Room 1:
  * Martin Albrecht (18.01.09 - 25.01.09)
