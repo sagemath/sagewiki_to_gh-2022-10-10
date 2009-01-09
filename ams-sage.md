@@ -33,18 +33,18 @@ AMS session [[http://www.ams.org/amsmtgs/2110_program_ss2.html#title|webpage]]
 
 === Tentative schedule ===
 
- * 8:00- 8:20 Crisman-102 - Undergraduate research in the mathematics of voting and choice using Sage.
- * 8:30- 8:50 Grout-1841 - Sage in an early-graduate research course investigating the minimum rank problem
- * 9:00- 9:20 Harvey-1822 - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/harvey-znpoly-talk.pdf | zn_poly: a library for polynomial arithmetic]].
- * 9:30- 9:50 Roche-1837 - Fast multiplication with low space complexity.
- * 10:00-10:20 Hampton-20 - Solutions, bounds, and finiteness of polynomial systems in  Sage.
- * 10:30-10:50 Kaltofen-2094 - Rump’s model problem and the computer search for records in number theory.
+ * 8:00- 8:20 Crisman - Undergraduate research in the mathematics of voting and choice using Sage.
+ * 8:30- 8:50 Grout - Sage in an early-graduate research course investigating the minimum rank problem
+ * 9:00- 9:20 Harvey - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/harvey-znpoly-talk.pdf | zn_poly: a library for polynomial arithmetic]].
+ * 9:30- 9:50 Roche - Fast multiplication with low space complexity.
+ * 10:00-10:20 Hampton - Solutions, bounds, and finiteness of polynomial systems in  Sage.
+ * 10:30-10:50 Kaltofen - Rump’s model problem and the computer search for records in number theory.
 
- * 1:00- 1:20 Ryan-266 - Siegel modular forms in Sage.
- * 1:30- 1:50 Noel-272 - Nilpotent orbits associated to Coxeter cells.
- * 2:00- 2:20 Joyner/Miller-758 - Coding theory and combinatorics in Sage.
- * 2:30- 2:50 Villard-1571 - Numerical analysis tools for LLL lattice basis reduction. (cancelled - sorry)
+ * 1:00- 1:20 Ryan - Siegel modular forms in Sage.
+ * 1:30- 1:50 Noel - Nilpotent orbits associated to Coxeter cells.
+ * 2:00- 2:20 Joyner/Miller - Coding theory and combinatorics in Sage.
+ * 2:30- 2:50 Villard - Numerical analysis tools for LLL lattice basis reduction. (cancelled - sorry)
  * 3:00- 3:30 break
- * 3:30- 3:50 Bard-1959 - Ultra-sparse matrix reduction to reduced row-echelon form for matrices over GF(2)
- * 4:00- 4:20 Xiang-1752 - Modular ranks of the adjacency matrices of strongly regular graphs arising from semiﬁelds.
- * 4:30- 4:50 Saunders-2007 - On matrix rank modulo small primes.
+ * 3:30- 3:50 Bard - Ultra-sparse matrix reduction to reduced row-echelon form for matrices over GF(2)
+ * 4:00- 4:20 Xiang - Modular ranks of the adjacency matrices of strongly regular graphs arising from semiﬁelds.
+ * 4:30- 4:50 Saunders - On matrix rank modulo small primes.
