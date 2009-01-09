@@ -13,7 +13,7 @@ The open source software paradigm provides freely available and freely modifiabl
 === Panelists ===
 
  * David Joyner, US Naval Academy, Differential Equations with Sage (confirmed)
- * John Verzani, CUNY, Introductory Statistics with R (confirmed)
+ * John Verzani, CUNY, [http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/verzani-RinIntroStats.pdf | Introductory Statistics with R]
  * Michael Gage, University of Rochester, WebWorK (confirmed)
  * Robert Miller, University of Washington, Undergraduate Research and Open Source (tentative)
 
