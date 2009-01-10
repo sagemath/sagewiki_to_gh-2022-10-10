@@ -13,8 +13,7 @@ On Jan 21, 2pm - 5pm, there will be three colloquium-style talks aimed at a gene
 
 == Getting there ==
 The conference hotel is ''The Residence Inn on Gilman, across from UCSD''. 
-   * The Cloud 9 Shuttle is probably the most straightforward thing to do --- www.cloud9shuttle.com: "It is possible to make a reservation online, but it's almost always fine
-to just show up on the sidewalk where all the shuttles show up.   I have dim recollections that there are several stops, depending on where you are going, and that you want one labeled "north" or "north county," and that the price is about $25."  
+   * The Cloud 9 Shuttle is probably the most straightforward thing to do --- www.cloud9shuttle.com: "It is possible to make a reservation online, but it's almost always fine to just show up on the sidewalk where all the shuttles show up.   I have dim recollections that there are several stops, depending on where you are going, and that you want one labeled "north" or "north county," and that the price is about $25."  
    * Public transportation (bus): "You can take the 992 from the airport to 4th and Broadway and then take the 30 north to UCSD.  It's like an hour and 45 minutes and $4.50."
    * Rent a car
    * A Taxi -- about $50
