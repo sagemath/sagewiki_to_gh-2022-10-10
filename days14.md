@@ -10,9 +10,13 @@ This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry pr
 
  * Local organizers: David Eisenbud (UC Berkeley), Daniel Erman (UC Berkeley), Dan Grayson (University of Illinois at Urbana-Champaign), Mike Stillman (Cornell University)
 
- * Sage organizers: William Stein (University of Washington)
+ * Sage organizers: William Stein (University of Washington), Mike Hansen (University fo Washington)
 
- * Interested Sage developers: Mike Hansen, Alex Ghitza, Justin Walker, Andrey Novoseltsev, Emily Kirkman
+== Participants ==
+
+ * Confirmed: Mike Hansen, Justin Walker, Andrey Novoseltsev
+
+ * Likely: Alex Ghitza, Emily Kirkman
 
 == Hotel ==
 
