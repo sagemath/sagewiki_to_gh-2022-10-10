@@ -31,7 +31,7 @@ Tuesday, March 10:
 
 Wednesday, March 11:
   * 10:00am - 12:00 pm: William Stein: informal discussion about mathematical software -- what do you want?
-  * 2:00 - 3:30 pm Justin Walker et al.: Interactive Sage Tutorial, part 2
+  * 1:30 - 3:00 pm Justin Walker et al.: Interactive Sage Tutorial, part 2
   * afternoon/evening projects and discussion by people interested in coding
 
 Thursday, March 12:
