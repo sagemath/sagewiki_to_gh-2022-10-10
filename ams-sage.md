@@ -45,6 +45,6 @@ AMS session [[http://www.ams.org/amsmtgs/2110_program_ss2.html#title|webpage]]
  * 2:00- 2:20 Joyner/Miller - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/miller-joyner-ams2009wdc-Sage-coding-theory.pdf | Coding theory and combinatorics in Sage]].
  * 2:30- 2:50 Villard - Numerical analysis tools for LLL lattice basis reduction. (cancelled - sorry)
  * 3:00- 3:30 break
- * 3:30- 3:50 Bard - Ultra-sparse matrix reduction to reduced row-echelon form for matrices over GF(2)
+ * 3:30- 3:50 Bard - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/bard_miller-linalg-talk.pdf | Ultra-sparse matrix reduction to reduced row-echelon form for matrices over GF(2)]]
  * 4:00- 4:20 Xiang - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/xiang-Joint-ams-maa09.pdf | Modular ranks of the adjacency matrices of strongly regular graphs arising from semiﬁelds]].
  * 4:30- 4:50 Saunders - On matrix rank modulo small primes.
