@@ -14,8 +14,8 @@ The open source software paradigm provides freely available and freely modifiabl
 
  * David Joyner, US Naval Academy, [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/joyner-sage-and-diffyq-teaching.pdf | Differential Equations with Sage]]
  * John Verzani, CUNY, [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/verzani-RinIntroStats.pdf | Introductory Statistics with R]]
- * Michael Gage, University of Rochester, WebWorK (confirmed)
- * Robert Miller, University of Washington, Undergraduate Research and Open Source (tentative)
+ * Michael Gage, [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/gage-webwork-2009_JMM.pdf | Webwork]], University of Rochester, WebWorK 
+ * Robert Miller, University of Washington, Undergraduate Research and Open Source 
 
 === MAA blurb ===
 
