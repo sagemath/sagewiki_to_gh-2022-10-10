@@ -6,7 +6,8 @@
 
 == Location ==
 
-The event will be held at the University of Georgia at Athens.
+The event will be held at the [[http://www.uga.edu/visit/directions.html|University of Georgia]] at Athens
+    
 
 == Organizers ==
 
