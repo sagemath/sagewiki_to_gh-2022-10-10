@@ -42,7 +42,7 @@ AMS session [[http://www.ams.org/amsmtgs/2110_program_ss2.html#title|webpage]]
 
  * 1:00- 1:20 Ryan - Siegel modular forms in Sage.
  * 1:30- 1:50 Noel - Nilpotent orbits associated to Coxeter cells.
- * 2:00- 2:20 Joyner/Miller - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/miller-joyner-ams2009wdc-Sage-coding-theory.pdf | Coding theory and combinatorics in Sage]].
+ * 2:00- 2:20 Joyner/Miller - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/miller-joyner-ams2009wdc-Sage-coding-thry.pdf | Coding theory and combinatorics in Sage]].
  * 2:30- 2:50 Villard - Numerical analysis tools for LLL lattice basis reduction. (cancelled - sorry)
  * 3:00- 3:30 break
  * 3:30- 3:50 Bard - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/bard_miller-linalg-talk.pdf | Ultra-sparse matrix reduction to reduced row-echelon form for matrices over GF(2)]]
