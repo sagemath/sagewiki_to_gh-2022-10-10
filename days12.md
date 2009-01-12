@@ -65,7 +65,7 @@ Though a small group will focus on discussing and implementation Jean-Charles Fa
  * Martin Albrecht
  * Burcin Erocal
  * Alex Ghitza
- * Kiran Kedlaya
+ * Kiran Kedlaya (remotely)
  * Joe Buhler
  * Phaedon Sinis
  * Dan Shumow
