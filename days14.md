@@ -16,7 +16,7 @@ This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry pr
 
  * Confirmed: Mike Hansen, Justin Walker, Andrey Novoseltsev
 
- * Likely: Alex Ghitza, Emily Kirkman
+ * Likely: Alex Ghitza, Emily Kirkman, Kiran Kedlaya (probably March 11-12)
 
 == Hotel ==
 
