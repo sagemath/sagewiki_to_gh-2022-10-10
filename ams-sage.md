@@ -37,7 +37,7 @@ AMS session [[http://www.ams.org/amsmtgs/2110_program_ss2.html#title|webpage]]
  * 8:30- 8:50 Grout - Sage in an early-graduate research course investigating the minimum rank problem
  * 9:00- 9:20 Harvey - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/harvey-znpoly-talk.pdf | zn_poly: a library for polynomial arithmetic]].
  * 9:30- 9:50 Roche - Fast multiplication with low space complexity.
- * 10:00-10:20 Hampton - Solutions, bounds, and finiteness of polynomial systems in  Sage.
+ * 10:00-10:20 Hampton - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/hampton-celest-mech-sage-ams2009.pdf | Solutions, bounds, and finiteness of polynomial systems in Sage]].
  * 10:30-10:50 Kaltofen - Rump’s model problem and the computer search for records in number theory.
 
  * 1:00- 1:20 Ryan - Siegel modular forms in Sage.
