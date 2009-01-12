@@ -35,6 +35,8 @@ The conference hotel is ''The Residence Inn on Gilman, across from UCSD''.
 
  * Coming soon
 
+== Talks ==
+ * [[/abstracts|Abstracts]]
 
 == Goals and Structure ==
 
