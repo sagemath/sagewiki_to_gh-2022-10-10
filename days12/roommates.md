@@ -4,7 +4,8 @@ All SD 12 participants staying at the official hotel should add their arrival an
  * Robert Miller (21.01.09, 16:27 - 24.01.09, 10:55)
  * John Perry (20.01.09 - 25.01.09)
  * Nick Alexander (20.01.09 - 24.01.09, but I am close enough to be flexible)
- * Robert Bradshaw (19.01.09 - 21.01.90)
+ * Robert Bradshaw (19.01.09 - 21.01.09)
+ * Till Stegers (21.01.09 - 23.01.09)
 
 Room 1:
  * Martin Albrecht (18.01.09 - 25.01.09)
