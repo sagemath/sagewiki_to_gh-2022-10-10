@@ -47,6 +47,10 @@ sessions.  This will consist mostly of:
 
 Though a small group will focus on discussing and implementation Jean-Charles Faugere's F5 algorithm for computing Gröbner bases, ''by far the main goal of this workshop'' is '''fixing bugs and writing doctests''', which will uncover numerous additional bugs.  
 
+== Tickets ==
+
+ http://trac.sagemath.org/sage_trac/wiki/sd12-bugs
+
 == Confirmed Participants ==
 
  * Tom Boothby
