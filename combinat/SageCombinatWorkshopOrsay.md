@@ -10,7 +10,7 @@ Purpose: work on the foundations (Hopf algebra infrastructure, ...) and get form
 Please fill in below whether and how long you would like to participate, and which period is convenient:
 
  * NicolasThiéry: not 5-9 of January, not 4-6 of February
- * Michael Abshoff: not after SD 12 starts, i.e. Jan 19th due to travel
+ * Michael Abshoff: gone for SD 12, i.e. Jan 20th-26th
  * Sébastien Labbé: between 25th-31st of January
  * Nicolas Borie : not 5-9 of January.
  * FrancoSaliola: between 15 January--1 March.
