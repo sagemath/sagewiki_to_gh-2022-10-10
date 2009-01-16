@@ -29,7 +29,7 @@ The conference hotel is ''The Residence Inn on Gilman, across from UCSD''.
  * Martin Albrecht
  * Joe Buhler
  * Craig Citro
- * William Stein
+ * William Stein  (206)419-0925  (cell phone)
 
 == Schedule ==
 
