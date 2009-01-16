@@ -5,6 +5,7 @@ All SD 12 participants staying at the official hotel should add their arrival an
  * John Perry (20.01.09 - 25.01.09)
  * Nick Alexander (20.01.09 - 24.01.09, but I am close enough to be flexible)
  * Till Stegers (21.01.09 - 23.01.09)
+ * Mike Hansen (21.01.09 - 25.01.09)
 
 Room 1:
  * Martin Albrecht (18.01.09 - 25.01.09)
