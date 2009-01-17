@@ -53,27 +53,32 @@ Though a small group will focus on discussing and implementation Jean-Charles Fa
 
 == Confirmed Participants ==
 
+=== Out of town ===
+ 1. Michael Abshoff
+ 1. Martin Albrecht
+ 1. Nick Alexander
  1. Tom Boothby
- * Robert Bradshaw
  * Craig Citro
- * Jason Grout
- * Mike Hansen
- * David Harvey
- * John Perry
- * Robert Miller
- * David Roe
- * Nick Alexander
- * William Stein
- * Till Stegers
- * Joe Wetherell
- * Alex Clemesha
- * Dorian Raymer
- * Michael Abshoff
- * Martin Albrecht
  * Burcin Erocal
  * Alex Ghitza
- * Kiran Kedlaya (remotely)
- * Joe Buhler
- * Phaedon Sinis
- * Dan Shumow
+ * Jason Grout
+ * Mike Hansen
  * Simon King
+ * Robert Miller
+ * John Perry
+ * David Roe
+ * Dan Shumow
+ * Phaedon Sinis
+ * Till Stegers
+ * William Stein
+
+=== Locals ===
+ 1. Joe Buhler
+ * Alex Clemesha
+ * Dorian Raymer
+ * Joe Wetherell
+
+=== Remote: Not actually coming ===
+ 1. Robert Bradshaw
+ 1. David Harvey
+ * Kiran Kedlaya (remotely)
