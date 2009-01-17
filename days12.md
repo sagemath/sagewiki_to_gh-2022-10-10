@@ -7,7 +7,8 @@ Sage is a free open-source mathematics software system licensed under the GPL. I
 
 == Date and Location ==
 
-The workshop will be  held Jan 21-24, 2009 at [[http://www.calit2.net/|Calit2]] in Room 4004.
+The workshop will be  held Jan 21-24, 2009 at [[http://atkinsonhall.calit2.net/|Atkinson Hall (Calit2)]] in Room 4004.  There are [[http://atkinsonhall.calit2.net/directions/|several maps here]].  The best map there is probably [[http://atkinsonhall.calit2.net/directions/pdf/UCSD_map_Calit2.pdf|this one (3MB pdf)]]; our hotel is just below the bottom of that map around 13E.
+
 
 On Jan 21, 2pm - 5pm, there will be three colloquium-style talks aimed at a general audience:
    * 2pm: ''Introduction to Sage'' (William Stein, Univ. of Washington, Project Founder and Director)
