@@ -4,7 +4,7 @@ Sage is a free open-source mathematics software system licensed under the GPL. I
 
 == Date and Location ==
 
-The workshop will be  held Jan 21-24, 2009 at [[http://www.calit2.net/|Calit2]].
+The workshop will be  held Jan 21-24, 2009 at [[http://www.calit2.net/|Calit2]] in Room 4004.
 
 On Jan 21, 2pm - 5pm, there will be three colloquium-style talks aimed at a general audience:
    * 2pm: ''Introduction to Sage'' (William Stein, Univ. of Washington, Project Founder and Director)
