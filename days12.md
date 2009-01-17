@@ -2,6 +2,8 @@
 
 Sage is a free open-source mathematics software system licensed under the GPL. It combines the power  of many existing open-source packages into a common Python-based interface.  Sage Days 12 is a mainly developer-oriented workshop for work on the Sage mathematical software system.  It will be held at the [[http://www.calit2.net/|Calit2 Center at UC San Diego]] and is funded by [[http://www.ccrwest.org/|CCR La Jolla]]. 
 
+attachment:shirt.png
+
 == Date and Location ==
 
 The workshop will be  held Jan 21-24, 2009 at [[http://www.calit2.net/|Calit2]] in Room 4004.
