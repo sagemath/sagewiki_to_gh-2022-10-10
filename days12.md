@@ -53,7 +53,7 @@ Though a small group will focus on discussing and implementation Jean-Charles Fa
 
 == Confirmed Participants ==
 
- * Tom Boothby
+ 1. Tom Boothby
  * Robert Bradshaw
  * Craig Citro
  * Jason Grout
