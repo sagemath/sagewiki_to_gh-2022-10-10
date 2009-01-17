@@ -21,7 +21,7 @@ I am the main release manager for Sage and I chaired a number of releases - 29 s
  * [[windows|MSVC port of Sage]]
  * [[windows|Cygwin re-port of Sage]]
  * [[osx64|64 bit OSX port of Sage]]
- * [[ps2|PS3 port of Sage]]
+ * [[ps3|PS3 port of Sage]]
  * hunt mem-leaks in C/C++ code of Sage
  * [[DebianSAGE]]
  * whatever else currently needs fixing
