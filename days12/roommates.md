@@ -1,7 +1,5 @@
 All SD 12 participants staying at the official hotel should add their arrival and departures times here. We will then later use this page to match roommates.
 
- * Phaedon Sinis (ASSUME: not coming?)
-
 NOTE: The guy I talked to over the phone to make the reservations evidently scrambled a lot of the names, despite me carefully spelling them out.  
 Here's a key: Craig Citro --> "CRAIGE CITOR", Alex Ghitza --> "ALEX GHIAT", Tom Boothby --> "TOM DOOEHEY", Nick Alexander --> "MIC ALEXDER", Till Stegers --> "TILL SETVERS"; Michael Abshoff --> "MICHEAL UPSHOSS"; Burcin Erocal --> "BURIN EROCAL"
 
@@ -23,7 +21,7 @@ Room 4: CONF #: 88334323
  
 Room 5: CONF #: 88334978
  * Tom Boothby (ASSUME: 20.01.09 - 25.01.09)
- * Dan Shumow (ASSUME: 20.01.09 - 25.01.09)
+ * Dan Shumow (20.01.09 - 24.01.09)
 
 Room 6: CONF #: 88335675
  * Mike Hansen (21.01.09 - 25.01.09)
