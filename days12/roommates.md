@@ -3,7 +3,7 @@ All SD 12 participants staying at the official hotel should add their arrival an
 NOTE: The guy I talked to over the phone to make the reservations evidently scrambled a lot of the names, despite me carefully spelling them out.  
 Here's a key: Craig Citro --> "CRAIGE CITOR", Alex Ghitza --> "ALEX GHIAT", Tom Boothby --> "TOM DOOEHEY", Nick Alexander --> "MIC ALEXDER", Till Stegers --> "TILL SETVERS"; Michael Abshoff --> "MICHEAL UPSHOSS"; Burcin Erocal --> "BURIN EROCAL"
 
-Room 1: CONF #: 88332497
+Room '''523''': CONF #: 88332497
  * Martin Albrecht (18.01.09 - 25.01.09)
  * Burcin Erocal (19.01.09 - 26.01.09 7.45 AM) 
  
