@@ -1,18 +1,19 @@
 = Sage-Combinat workshop in Orsay =
 
-Week of 26-30 of January 2009
+January 26-30 of 2009
 
-3-4 days depending on the last minutes constraints of the participants.
+Purpose: work on the foundations and get former MuPAD-Combinat developers on board. See below for details.
 
-Purpose: work on the foundations (Hopf algebra infrastructure, ...) and get former MuPAD-Combinat developers on board
+== Accomodation ==
 
+Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house  in Cernay-la-Ville
+(La tour) [http://www.cernayvacances.com/CFrans.html]. Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves. I'll post shortly details on how to come (in short RER B to Saint-Rémi de Chevreuse + 10 minutes of bus
 
 == Participants ==
 
-Please fill in below whether and how long you would like to participate, and which period is convenient:
+Please fill in below whether and how long you would like to participate:
 
- * NicolasThiéry: not 5-9 of January, not 4-6 of February
- * Michael Abshoff: gone for SD 12, i.e. Jan 20th-26th
+ * NicolasThiéry: I'll be there most of the time
  * Sébastien Labbé: between 25th-31st of January
  * Nicolas Borie : not 5-9 of January.
  * FrancoSaliola: I can (and will) participate for the whole week.
@@ -20,6 +21,8 @@ Please fill in below whether and how long you would like to participate, and whi
  * Jean-Christophe Novelli: only 27-28 of January possible
  * Adrien Boussicault
  * Vincent D: "I have three days free (26-28) during which I will come to Orsay"
+
+ * Michael Abshoff: available online
 
 == Suggested Topics ==
 
