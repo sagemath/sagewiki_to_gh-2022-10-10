@@ -7,7 +7,7 @@ Purpose: work on the foundations and get former MuPAD-Combinat developers on boa
 == Accomodation ==
 
 Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house  in Cernay-la-Ville
-(La tour) [http://www.cernayvacances.com/CFrans.html]. Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves. I'll post shortly details on how to come (in short RER B to Saint-Rémi de Chevreuse + 10 minutes of bus
+([http://www.cernayvacances.com/CFrans.html | la tour]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves. I'll post shortly details on how to come (in short RER B to Saint-Rémi de Chevreuse + 10 minutes of bus
 
 == Participants ==
 
