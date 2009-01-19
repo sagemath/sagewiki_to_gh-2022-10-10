@@ -25,3 +25,7 @@ Sage 3.2.2 was released on December 30, 2008. For the official, comprehensive re
 == Coercion ==
 
  * A factory and pickling framework (Robert Bradshaw) -- Uniqueness of parents makes Sage operate much more smoothly. This leads to an enormous amount of nearly identical caching code scattered throughout the library. This factory handles all the caching and also provides a good pickling mechanism.
+
+== Words ==
+
+ * A library for studying and manipulating words (Arnaud Bergeron, Amy Glen, Sebastien Labbe, [[http://www-igm.univ-mlv.fr/~saliola/|Franco Saliola]]) -- This adds lots of functionality for combinatorics on words. The new features are highlighted in this [[http://www-igm.univ-mlv.fr/~saliola/maths/talks/slides/SageTalk2/06_Words.sws|Sage worksheet]] ([[http://www-igm.univ-mlv.fr/~saliola/maths/talks/slides/SageTalk2/06_Words.pdf|PDF version]]).
