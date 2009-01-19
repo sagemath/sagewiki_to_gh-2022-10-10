@@ -19,6 +19,7 @@ Please fill in below whether and how long you would like to participate, and whi
  * Florent Hivert: not 29th of January
  * Jean-Christophe Novelli: only 27-28 of January possible
  * Adrien Boussicault
+ * Vincent D: "I have three days free (26-28) during which I will come to Orsay"
 
 == Suggested Topics ==
 
