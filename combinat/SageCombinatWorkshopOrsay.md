@@ -24,12 +24,11 @@ Please fill in below whether and how long you would like to participate, and whi
 
 Add topics that you want discuss or work on. Add your name next to anything you'd like to participate with. Your name should at least appear next to the topics you suggest :-)
 
- * '''Words''' -- Improvements to the words code, and discussions regarding the trac #5002. (FrancoSaliola, Sébastien Labbé)
+ * '''Words''' -- Improvements to the words code, discussions regarding the trac #5002, finish and post words_new_fct_sl.patch to trac. (FrancoSaliola, Sébastien Labbé)
  * '''NCSF''' -- Mike Zabrocki sent me an implementation of noncommutative symmetric functions in Sage. I'll have it with me at the meeting to share and discuss. (It's not on the patch server because he finds the instructions complicated, which brings me to the next point.) (FrancoSaliola)
  * '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better. (FrancoSaliola)
  * '''Posets''' -- the posets code in Sage needs to be re-designed to integrate properly with the rest of sage-combinat (FrancoSaliola).
  * '''SetPartition (with no s)''' -- Implement SetPartition as a child of SetPartitions. Use the code from DisjointSet which is already in the sage-combinat tree (Sébastien Labbé).
-
-== Suggested Short Presentations ==
-
+ * '''WordPaths''' -- Final improvements to word paths, get the patch posted to trac and reviewed. (Sébastien Labbé).
+ * '''DyckWord''' -- Discussions about getting DyckWords inherits from WordPaths. Comparisons of efficiency. (Sébastien Labbé).
  * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert). 
