@@ -29,3 +29,7 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better. (FrancoSaliola)
  * '''Posets''' -- the posets code in Sage needs to be re-designed to integrate properly with the rest of sage-combinat (FrancoSaliola).
  * '''SetPartition (with no s)''' -- Implement SetPartition as a child of SetPartitions. Use the code from DisjointSet which is already in the sage-combinat tree (Sébastien Labbé).
+
+== Suggested Short Presentations ==
+
+ * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert). 
