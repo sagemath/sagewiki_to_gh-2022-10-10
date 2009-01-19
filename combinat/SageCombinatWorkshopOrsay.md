@@ -33,3 +33,9 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * '''Word Paths''' -- Final improvements to word paths, get the patch posted to trac and reviewed. (Sébastien Labbé).
  * '''Dyck Word''' -- Discussions about getting Dyck Words inherits from Word Paths. Comparisons of efficiency. (Sébastien Labbé).
  * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert, FrancoSaliola). 
+
+== Talks ==
+
+If you would like to give a talk, for example, to demonstrate your code, then add your name and topic to the list. These talks should be not more than 20 minutes (since we want a lot of time to code).
+
+ * 
