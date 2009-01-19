@@ -16,3 +16,4 @@ Please fill in below whether and how long you would like to participate, and whi
  * FrancoSaliola: I can (and will) participate for the whole week.
  * Florent Hivert: not 29th of January
  * Jean-Christophe Novelli: only 27-28 of January possible
+ * Adrien Boussicault
