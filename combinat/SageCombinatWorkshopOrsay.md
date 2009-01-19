@@ -32,4 +32,4 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * '''Set Partition (with no s)''' -- Implement Set Partition as a child of Set Partitions. Use the code from Disjoint Set which is already in the sage-combinat tree (Sébastien Labbé).
  * '''Word Paths''' -- Final improvements to word paths, get the patch posted to trac and reviewed. (Sébastien Labbé).
  * '''Dyck Word''' -- Discussions about getting Dyck Words inherits from Word Paths. Comparisons of efficiency. (Sébastien Labbé).
- * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert). 
+ * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert, FrancoSaliola). 
