@@ -43,3 +43,4 @@ Add topics that you want discuss or work on. Add your name next to anything you'
 If you would like to give a talk, for example, to demonstrate your code, then add your name and topic to the list. These talks should be not more than 20 minutes (since we want a lot of time to code).
 
  * '''Sage-Combinat Development''' -- how to install sage-combinat; how to update; how to contribute (hg, patch server, trac, ....). (Who wants to lead this?)
+ * '''Cythonize python files''' -- The key points to do when translating a python file already in sage into cython. (Who wants to lead this?)
