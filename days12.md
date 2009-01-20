@@ -17,7 +17,7 @@ On Jan 21, 2pm - 5pm, there will be three colloquium-style talks aimed at a gene
    * 4pm: ''The Sage Community'' (Michael Abshoff, Dortmund, Sage Release Manager)
 
 == Getting there ==
-The conference hotel is ''The Residence Inn on Gilman, across from UCSD''. 
+The conference hotel is ''[[http://www.marriott.com/hotels/travel/lajca-residence-inn-san-diego-la-jolla/|The Residence Inn]] on Gilman, across from UCSD''. 
    * The Cloud 9 Shuttle is probably the most straightforward thing to do --- www.cloud9shuttle.com: "It is possible to make a reservation online, but it's almost always fine to just show up on the sidewalk where all the shuttles show up.   I have dim recollections that there are several stops, depending on where you are going, and that you want one labeled "north" or "north county," and that the price is about $25."  
    * Public transportation (bus): "You can take the 992 from the airport to 4th and Broadway and then take the 30 north to UCSD.  It's like an hour and 45 minutes and $4.50."
    * BETTER Public transportation (bus + trolley): "Danalee likes to ride busses and trolleys.  Here's how she would get to the Gilman Residence Inn from the airport: Take 992 to the transit center at 4th and Broadway.  Take the trolley (either red or blue line) to the Old Town transit center (several stops).  In Old Town, take bus 150 north.  Bus 150 gets on the freeway and takes the Gilman exit, i.e., passes right by the Marriott Residence Inn after a light or two (half a mile?).  This is almost certainly faster than using bus 30, but it does get on the freeway.  Note that the bus web site won't suggest this because it uses the trolley."
