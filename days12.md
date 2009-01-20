@@ -85,5 +85,6 @@ Though a small group will focus on discussing and implementation Jean-Charles Fa
 
 === Remote: Not actually coming ===
  1. Robert Bradshaw
+ 1. Timothy Clemans
  1. David Harvey
  * Kiran Kedlaya (remotely)
