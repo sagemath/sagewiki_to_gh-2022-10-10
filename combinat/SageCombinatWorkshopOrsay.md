@@ -35,6 +35,8 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * '''Word Paths''' -- Final improvements to word paths, get the patch posted to trac and reviewed. Discussion about getting Christoffel Words inherits from Word Paths. (Sébastien Labbé).
  * '''Dyck Word''' -- Discussions about getting Dyck Words inherits from Word Paths. Comparisons of efficiency. (Sébastien Labbé).
  * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert, FrancoSaliola). 
+ * '''Word Morphism''' -- Word Morphism actually herits from SageObject and it should be a more general Morphism class. (Sébastien Labbé). 
+ * '''Language''' -- Create a Language class. (Sébastien Labbé). 
 
 == Talks ==
 
