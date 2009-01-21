@@ -33,4 +33,4 @@ Room 7: CONF #: 88336070
 
 Room 8: CONF #: 88336424 
  * John Perry (20.01.09 - 25.01.09)
- * Till Stegers (21.01.09 - 23.01.09)
+ * 
