@@ -73,8 +73,8 @@ Though a small group will focus on discussing and implementation Jean-Charles Fa
  * John Perry
  * David Roe
  * Dan Shumow
- * Phaedon Sinis
- * Till Stegers
+ * --(Phaedon Sinis)--
+ * --(Till Stegers)--
  * William Stein
 
 === Locals ===
@@ -87,4 +87,4 @@ Though a small group will focus on discussing and implementation Jean-Charles Fa
  1. Robert Bradshaw
  1. Timothy Clemans
  1. David Harvey
- * Kiran Kedlaya (remotely)
+ * Kiran Kedlaya
