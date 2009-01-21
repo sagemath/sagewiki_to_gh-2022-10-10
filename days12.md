@@ -56,6 +56,10 @@ Though a small group will focus on discussing and implementation Jean-Charles Fa
 
  http://trac.sagemath.org/sage_trac/wiki/sd12-bugs
 
+== Hit Lists ==
+
+
+
 == Confirmed Participants ==
 
 === Out of town ===
