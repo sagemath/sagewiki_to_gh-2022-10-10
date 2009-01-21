@@ -13,12 +13,14 @@ Sage is a free open-source mathematics software system licensed under the GPL. I
 
 The workshop will be  held Jan 21-24, 2009 at [[http://atkinsonhall.calit2.net/|Atkinson Hall (Calit2)]] in Room 4004.  There are [[http://atkinsonhall.calit2.net/directions/|several maps here]].  The best map there is probably [[http://atkinsonhall.calit2.net/directions/pdf/UCSD_map_Calit2.pdf|this one (3MB pdf)]]; our hotel is just below the bottom of that map around 13E.
 
-On Jan 21, we will meet at 10am to organize the meeting. Those who stay at the Residence Inn will meet at 9:15 am to go the conference venue.
+The probability of this attack to succeed is 
 
 On Jan 21, 2pm - 5pm, there will be three colloquium-style talks aimed at a general audience:
    * 2pm: ''Introduction to Sage'' (William Stein, Univ. of Washington, Project Founder and Director)
    * 3pm: ''The "Killer Apps" in Sage: Cython, Interact, and 3d Graphics'' (Craig Citro, UCLA, Developer)
    * 4pm: ''The Sage Community'' (Michael Abshoff, Dortmund, Sage Release Manager)
+
+We will have a bug triage at 5pm.
 
 == Getting there ==
 The conference hotel is ''[[http://www.marriott.com/hotels/travel/lajca-residence-inn-san-diego-la-jolla/|The Residence Inn]] on Gilman, across from UCSD''. 
