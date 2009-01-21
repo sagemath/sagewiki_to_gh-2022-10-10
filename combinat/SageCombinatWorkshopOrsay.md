@@ -7,7 +7,7 @@ Purpose: work on the foundations and get former MuPAD-Combinat developers on boa
 == Accomodation ==
 
 Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house  in Cernay-la-Ville
-([http://www.cernayvacances.com/CFrans.html | la tour]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves. I'll post shortly details on how to come (in short RER B to Saint-Rémi de Chevreuse + 10 minutes of bus
+([[http://www.cernayvacances.com/CFrans.html | la tour]]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves. I'll post shortly details on how to come (in short RER B to Saint-Rémi de Chevreuse + 10 minutes of bus
 
 == Participants ==
 
@@ -27,16 +27,37 @@ Please fill in below whether and how long you would like to participate:
 
 Add topics that you want discuss or work on. Add your name next to anything you'd like to participate with. Your name should at least appear next to the topics you suggest :-)
 
- * '''Words''' -- Improvements to the words code, discussions regarding the trac #5002, finish and post words_new_fct_sl.patch to trac. Add Generalized Thue-Morse words to words.[TAB], Add Random Word and Random Testing, Add Notes about words library. (FrancoSaliola, Sébastien Labbé)
- * '''NCSF''' -- Mike Zabrocki sent me an implementation of noncommutative symmetric functions in Sage. I'll have it with me at the meeting to share and discuss. (It's not on the patch server because he finds the instructions complicated, which brings me to the next point.) (FrancoSaliola)
- * '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better. (FrancoSaliola, Sébastien Labbé)
- * '''Posets''' -- the posets code in Sage needs to be re-designed to integrate properly with the rest of sage-combinat (FrancoSaliola).
- * '''Set Partition (with no s)''' -- Implement Set Partition as a child of Set Partitions. Use the code from Disjoint Set which is already in the sage-combinat tree (Sébastien Labbé).
+'''Words''' (FrancoSaliola, Sébastien Labbé)
+ * ideas for improving to the code (Stream for infinite words?)
+ * discussions regarding the trac #5002
+ * finish and post words_new_fct_sl.patch to trac
+ * create a Lyndon word class
+ * Add Generalized Thue-Morse words to words.[TAB]
+ * Add Random Word and Random Testing
+ * Add Notes about words library
  * '''Word Paths''' -- Final improvements to word paths, get the patch posted to trac and reviewed. Discussion about getting Christoffel Words inherits from Word Paths. (Sébastien Labbé).
  * '''Dyck Word''' -- Discussions about getting Dyck Words inherits from Word Paths. Comparisons of efficiency. (Sébastien Labbé).
- * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert, FrancoSaliola). 
  * '''Word Morphism''' -- Word Morphism actually herits from SageObject and it should be a more general Morphism class. (Sébastien Labbé). 
  * '''Language''' -- Create a Language class. (Sébastien Labbé). 
+
+'''NCSF'''
+ * Mike Zabrocki sent me (Franco) an implementation of noncommutative symmetric functions in Sage. I'll have it with me at the meeting to share and discuss. (It's not on the patch server because he finds the instructions complicated, which brings me to another point below.)
+
+'''Documentation'''
+ * '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better.
+ * '''User's Guide''' -- descriptions of and how to use the fundamental sage-combinat data structures: CombinatorialClass, CombinatorialObject, CombinatorialAlgebra, LazyFamily, ...
+
+'''Posets''' (FrancoSaliola)
+ * the posets code in Sage needs to be re-designed to integrated properly with the rest of sage-combinat.
+ * design discussions for abstract larger/infinite posets
+
+'''Representation Theory of Finite Dimensional Algebras'''
+ * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert, FrancoSaliola).
+ * a basic class for the quiver of an algebra
+
+'''Miscellaneous'''
+ * deal with more of the [[http://wiki.sagemath.org/combinat/Weirdness|quirks and weirdness issues]].
+ * '''Set Partition (with no s)''' -- Implement Set Partition as a child of Set Partitions. Use the code from Disjoint Set which is already in the sage-combinat tree (Sébastien Labbé).
 
 == Talks ==
 
