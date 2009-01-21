@@ -58,7 +58,7 @@ Add topics that you want discuss or work on. Add your name next to anything you'
 
 '''Miscellaneous'''
  * deal with more of the [[http://wiki.sagemath.org/combinat/Weirdness|quirks and weirdness issues]].
- * '''Set Partition (with no s)''' -- Implement Set Partition as a child of Set Partitions. Use the code from Disjoint Set which is already in the sage-combinat tree. See #5039. (Sébastien Labbé).
+ * '''Set Partition (with no s)''' -- Implement Set Partition as a child of Set Partitions. Use the code from Disjoint Set which is already in the sage-combinat tree. See trac #5039. (Sébastien Labbé).
 
 == Talks ==
 
