@@ -33,7 +33,7 @@ AMS session [[http://www.ams.org/amsmtgs/2110_program_ss2.html#title|webpage]]
 
 === Tentative schedule ===
 
- * 8:00- 8:20 Crisman - Undergraduate research in the mathematics of voting and choice using Sage.
+ * 8:00- 8:20 Crisman - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/crisman-SageURTalk.pdf | Undergraduate research in the mathematics of voting and choice using Sage]].
  * 8:30- 8:50 Grout - Sage in an early-graduate research course investigating the minimum rank problem
  * 9:00- 9:20 Harvey - [[http://sage.math.washington.edu/home/wdj/sagedays/ams2009/talks/harvey-znpoly-talk.pdf | zn_poly: a library for polynomial arithmetic]].
  * 9:30- 9:50 Roche - Fast multiplication with low space complexity.
