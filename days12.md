@@ -5,6 +5,10 @@ Sage is a free open-source mathematics software system licensed under the GPL. I
 
 [[attachment:shirt.png|{{attachment:shirt.png}}]]
 
+== Tickets ==
+
+ http://trac.sagemath.org/sage_trac/wiki/sd12-bugs
+
 == Date and Location ==
 
 The workshop will be  held Jan 21-24, 2009 at [[http://atkinsonhall.calit2.net/|Atkinson Hall (Calit2)]] in Room 4004.  There are [[http://atkinsonhall.calit2.net/directions/|several maps here]].  The best map there is probably [[http://atkinsonhall.calit2.net/directions/pdf/UCSD_map_Calit2.pdf|this one (3MB pdf)]]; our hotel is just below the bottom of that map around 13E.
@@ -51,10 +55,6 @@ sessions.  This will consist mostly of:
    * Write doctests: the coverage score of sage as of Jan 1 2009 is 64.3%; let's get this to 80% by writing about 3400 new doctests
 
 Though a small group will focus on discussing and implementation Jean-Charles Faugere's F5 algorithm for computing Gröbner bases, ''by far the main goal of this workshop'' is '''fixing bugs and writing doctests''', which will uncover numerous additional bugs.  
-
-== Tickets ==
-
- http://trac.sagemath.org/sage_trac/wiki/sd12-bugs
 
 == Hit Lists ==
 
