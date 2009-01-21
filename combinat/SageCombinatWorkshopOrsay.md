@@ -30,12 +30,13 @@ Add topics that you want discuss or work on. Add your name next to anything you'
 '''Words''' (FrancoSaliola, Sébastien Labbé)
  * ideas for improving to the code (Stream for infinite words?)
  * discussions regarding the trac #5002
- * finish and post words_new_fct_sl.patch to trac
+ * finish and post words_new_fct_sl.patch to trac #5037
  * create a Lyndon word class
+ * trac #4954: Words_over_Alphabet should check the type of input alphabet
  * Add Generalized Thue-Morse words to words.[TAB]
  * Add Random Word and Random Testing
  * Add Notes about words library
- * '''Word Paths''' -- Final improvements to word paths, get the patch posted to trac and reviewed. Discussion about getting Christoffel Words inherits from Word Paths. (Sébastien Labbé).
+ * '''Word Paths''' -- Final improvements to word paths, get the patch posted to trac #5038 and reviewed. Discussion about getting Christoffel Words inherits from Word Paths. (Sébastien Labbé).
  * '''Dyck Word''' -- Discussions about getting Dyck Words inherits from Word Paths. Comparisons of efficiency. (Sébastien Labbé).
  * '''Word Morphism''' -- Word Morphism actually herits from SageObject and it should be a more general Morphism class. (Sébastien Labbé). 
  * '''Language''' -- Create a Language class. (Sébastien Labbé). 
@@ -57,7 +58,7 @@ Add topics that you want discuss or work on. Add your name next to anything you'
 
 '''Miscellaneous'''
  * deal with more of the [[http://wiki.sagemath.org/combinat/Weirdness|quirks and weirdness issues]].
- * '''Set Partition (with no s)''' -- Implement Set Partition as a child of Set Partitions. Use the code from Disjoint Set which is already in the sage-combinat tree (Sébastien Labbé).
+ * '''Set Partition (with no s)''' -- Implement Set Partition as a child of Set Partitions. Use the code from Disjoint Set which is already in the sage-combinat tree. See #5039. (Sébastien Labbé).
 
 == Talks ==
 
