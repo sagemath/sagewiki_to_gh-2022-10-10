@@ -1,5 +1,20 @@
 = Sage Days 12: San Diego =
 
+
+== Schedule ==
+
+ * Thursday at 4pm -- a talk by Simon King on cohomology of p-groups in Atkinson 4004
+ * Thursday at 5pm -- bug triage session in Atkinson 4004
+ * Thursday at 7pm -- dinner at Sea Rocket Bistro
+ * Thursday 10pm - late: coding in lobby
+ * Friday at 11am -- Jon Perry's talk on F5 in Atkinson 4004
+ * Friday at 4pm -- bug status report in Atkinson 4004
+ * Thursday 7pm - late: coding in lobby
+ * Saturday at 2pm -- status reports 
+ * Saturday 7pm - late: coding in lobby
+
+== About ==
+
 Sage is a free open-source mathematics software system licensed under the GPL. It combines the power  of many existing open-source packages into a common Python-based interface.  Sage Days 12 is a mainly developer-oriented workshop for work on the Sage mathematical software system.  It will be held at the [[http://www.calit2.net/|Calit2 Center at UC San Diego]] and is funded by [[http://www.ccrwest.org/|CCR La Jolla]]. 
 
 
@@ -44,13 +59,6 @@ The conference hotel is ''[[http://www.marriott.com/hotels/travel/lajca-residenc
  * Craig Citro
  * William Stein  (206)419-0925  (cell phone)
 
-== Schedule ==
-
- * Thursday at 4pm -- a talk on F5 in Atkinson 4004
- * Thursday at 5pm -- bug triage session in Atkinson 4004
- * Friday at 4pm -- talk on F5 in Atkinson 4004
- * Friday at 5pm -- bug status report
- * Saturday at 2pm -- status reports 
 
 
 == Talks ==
