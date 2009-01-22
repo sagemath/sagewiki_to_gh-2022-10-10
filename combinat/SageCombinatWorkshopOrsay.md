@@ -6,8 +6,8 @@ Purpose: work on the foundations and get former MuPAD-Combinat developers on boa
 
 == Accomodation ==
 
-Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house  in Cernay-la-Ville
-([[http://www.cernayvacances.com/CFrans.html|la tour]]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves.
+Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house in Cernay-la-Ville
+([[http://www.cernayvacances.com/CFrans.html|la tour]]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves (bring your favorite recipes!).
 
 == Coming to the meeting from downtown Paris ==
 
@@ -15,13 +15,15 @@ Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented 
  - From Chatelet-les-Halles: 45 minutes RER B to Saint-Remy les Chevreuses + 15 minutes bus to Cernay-la-Ville
 
  - Time tables Saint-Remy <-> Cernay <-> Rambouillet:
-   There are two bus stops at Cernay, the closest is Grand'Place, near the gite.
-   [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_103_2009.pdf||39.103]]
+   [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_103_2009.pdf|39.103]]
    [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_03_2009.pdf|39.003]]
    [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_303_2009.pdf|39.303 express]]
-   BEWARE: there are very few busses between 8am and 12 am!
-   In case of trouble, we should have a car, and probably can do some shuttles from Saint Rémi. Nicolas' phone: 06 77 90 32 79
-- [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
+
+   There are two bus stops at Cernay, the closest is Grand'Place, near the gite.
+
+   BEWARE: there are very few busses between 8am and 12 am! In case of trouble, we should have a car, and probably can do some shuttles from Saint Rémi. Nicolas' phone: 06 77 90 32 79
+
+ - [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
 
 == Participants ==
 
