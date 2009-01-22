@@ -56,7 +56,7 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * '''Dyck Word''' -- Discussions about getting Dyck Words inherits from Word Paths. Comparisons of efficiency. (Sébastien Labbé).
  * '''Word Morphism''' -- Word Morphism actually herits from SageObject and it should be a more general Morphism class. (Sébastien Labbé). 
  * '''Language''' -- Create a Language class. (Sébastien Labbé). 
- * Discussion about the datastructure as child (anti?)design pattern
+ * Discussion about the content-datastructure-as-subobject (anti?)design pattern
 
 '''Documentation'''
  * '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better.
