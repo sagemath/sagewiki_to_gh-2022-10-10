@@ -66,7 +66,7 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * the posets code in Sage needs to be re-designed to integrate properly with the rest of sage-combinat.
  * design discussions for abstract larger/lazy/infinite posets
 
-'''Categories''' (Nicolas)
+'''Categories''' (NicolasThiery)
  * Design and naming convention discussions
  * Put it to intensive use: the NCSF and representation theory projects will be perfect for this
 
@@ -76,7 +76,9 @@ Add topics that you want discuss or work on. Add your name next to anything you'
 '''Representation Theory of Finite Dimensional Algebras and monoids'''
  * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert, FrancoSaliola).
  * a basic class for the quiver of an algebra
- * The core work will be on the subspace and quotient for combinatorial free modules, and corresponding category framework 
+ * core work: subspaces and quotients for combinatorial free modules, and corresponding category framework
+ * Finish the basic implementation of representation theory of monoids via J-classes
+ * DiscreteMonoid implemented via lists instead of matrices
 
 '''Miscellaneous'''
  * deal with more of the [[http://wiki.sagemath.org/combinat/Weirdness|quirks and weirdness issues]].
@@ -86,7 +88,7 @@ Add topics that you want discuss or work on. Add your name next to anything you'
 
 If you would like to give a talk, for example, to demonstrate your code, then add your name and topic to the list. These talks should be not more than 20 minutes (since we want a lot of time to code).
 
- * '''Sage-Combinat Development''' -- how to install sage-combinat; how to update; how to contribute (hg, patch server, trac, ....). (Nicolas)
+ * '''Sage-Combinat Development''' -- how to install sage-combinat; how to update; how to contribute (hg, patch server, trac, ....). (NicolasThiery)
  * '''Cythonize python files''' -- The key points to do when translating a python file already in sage into cython. (Who wants to lead this?)
- * '''The new category framework''' -- Design and usage (Nicolas)
- * '''Root system plots''' -- Demo (Nicolas Borie)
+ * '''The new category framework''' -- Design and usage (NicolasThiery)
+ * '''Root system plots''' -- Demo (NicolasBorie)
