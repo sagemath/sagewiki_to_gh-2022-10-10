@@ -11,10 +11,10 @@ Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented 
 
 == Coming to the meeting from downtown Paris ==
 
- - From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
- - From Chatelet-les-Halles: 45 minutes RER B to Saint-Remy les Chevreuses + 15 minutes bus to Cernay-la-Ville
+ * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
+ * From Chatelet-les-Halles: 45 minutes RER B to Saint-Remy les Chevreuses + 15 minutes bus to Cernay-la-Ville
 
- - Time tables Saint-Remy <-> Cernay <-> Rambouillet:
+ * Time tables Saint-Remy <-> Cernay <-> Rambouillet:
    [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_103_2009.pdf|39.103]]
    [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_03_2009.pdf|39.003]]
    [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_303_2009.pdf|39.303 express]]
@@ -23,7 +23,7 @@ Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented 
 
    BEWARE: there are very few busses between 8am and 12 am! In case of trouble, we should have a car, and probably can do some shuttles from Saint Rémi. Nicolas' phone: 06 77 90 32 79
 
- - [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
+ * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
 
 == Participants ==
 
@@ -66,7 +66,7 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * the posets code in Sage needs to be re-designed to integrate properly with the rest of sage-combinat.
  * design discussions for abstract larger/lazy/infinite posets
 
-'''Categories'''
+'''Categories''' (Nicolas)
  * Design and naming convention discussions
  * Put it to intensive use: the NCSF and representation theory projects will be perfect for this
 
@@ -89,3 +89,4 @@ If you would like to give a talk, for example, to demonstrate your code, then ad
  * '''Sage-Combinat Development''' -- how to install sage-combinat; how to update; how to contribute (hg, patch server, trac, ....). (Nicolas)
  * '''Cythonize python files''' -- The key points to do when translating a python file already in sage into cython. (Who wants to lead this?)
  * '''The new category framework''' -- Design and usage (Nicolas)
+ * '''Root system plots''' -- Demo (Nicolas Borie)
