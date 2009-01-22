@@ -46,7 +46,12 @@ The conference hotel is ''[[http://www.marriott.com/hotels/travel/lajca-residenc
 
 == Schedule ==
 
- * Coming soon
+ * Thursday at 4pm -- a talk on F5 in Atkinson 4004
+ * Thursday at 5pm -- bug triage session in Atkinson 4004
+ * Friday at 4pm -- talk on F5 in Atkinson 4004
+ * Friday at 5pm -- bug status report
+ * Saturday at 2pm -- status reports 
+
 
 == Talks ==
  * [[/abstracts|Abstracts]]
