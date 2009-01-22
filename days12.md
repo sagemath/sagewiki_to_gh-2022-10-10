@@ -7,7 +7,7 @@
  * Thursday at 5pm -- bug triage session in Atkinson 4004
  * Thursday at 7pm -- dinner at Sea Rocket Bistro
  * Thursday 10pm - late: coding in lobby
- * Friday at 11am -- Jon Perry's talk on F5 in Atkinson 4004
+ * Friday at 11am -- John Perry's talk on F5 in Atkinson 4004
  * Friday at 4pm -- bug status report in Atkinson 4004
  * Thursday 7pm - late: coding in lobby
  * Saturday at 2pm -- status reports 
