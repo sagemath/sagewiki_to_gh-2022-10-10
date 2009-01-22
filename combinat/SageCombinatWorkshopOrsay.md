@@ -29,9 +29,9 @@ Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented 
 
 Please fill in below whether and how long you would like to participate:
 
- * NicolasThiéry: I'll be there most of the time
+ * NicolasThiéry: I'll be there most of the time except Tuesday
  * Sébastien Labbé: between 25th-31st of January
- * Nicolas Borie : not 5-9 of January.
+ * Nicolas Borie:
  * FrancoSaliola: I can (and will) participate for the whole week.
  * Florent Hivert: not 29th of January
  * Jean-Christophe Novelli: only 27-28 of January possible
@@ -56,29 +56,36 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * '''Dyck Word''' -- Discussions about getting Dyck Words inherits from Word Paths. Comparisons of efficiency. (Sébastien Labbé).
  * '''Word Morphism''' -- Word Morphism actually herits from SageObject and it should be a more general Morphism class. (Sébastien Labbé). 
  * '''Language''' -- Create a Language class. (Sébastien Labbé). 
-
-'''NCSF'''
- * Mike Zabrocki sent me (Franco) an implementation of noncommutative symmetric functions in Sage. I'll have it with me at the meeting to share and discuss. (It's not on the patch server because he finds the instructions complicated, which brings me to another point below.)
+ * Discussion about the datastructure as child (anti?)design pattern
 
 '''Documentation'''
  * '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better.
- * '''User's Guide''' -- descriptions of and how to use the fundamental sage-combinat data structures: CombinatorialClass, CombinatorialObject, CombinatorialAlgebra, LazyFamily, ...
+ * '''User's Guide''' -- descriptions of and how to use the fundamental sage-combinat data structures: CombinatorialClass, CombinatorialObject, CombinatorialFreeModule, Categories, Family, ...
 
 '''Posets''' (FrancoSaliola)
- * the posets code in Sage needs to be re-designed to integrated properly with the rest of sage-combinat.
- * design discussions for abstract larger/infinite posets
+ * the posets code in Sage needs to be re-designed to integrate properly with the rest of sage-combinat.
+ * design discussions for abstract larger/lazy/infinite posets
 
-'''Representation Theory of Finite Dimensional Algebras'''
+'''Categories'''
+ * Design and naming convention discussions
+ * Put it to intensive use: the NCSF and representation theory projects will be perfect for this
+
+'''NCSF'''
+ * Mike Zabrocki sent me (Franco) an implementation of noncommutative symmetric functions in Sage. I'll have it with me at the meeting to share and discuss. (It's not on the patch server because he finds the instructions complicated, which brings to the patch server point).
+
+'''Representation Theory of Finite Dimensional Algebras and monoids'''
  * '''Desosseur''' -- Computing the Cartan invariant and more generally representation theory of finite dimensional algebras (FlorentHivert, FrancoSaliola).
  * a basic class for the quiver of an algebra
+ * The core work will be on the subspace and quotient for combinatorial free modules, and corresponding category framework 
 
 '''Miscellaneous'''
  * deal with more of the [[http://wiki.sagemath.org/combinat/Weirdness|quirks and weirdness issues]].
  * '''Set Partition (with no s)''' -- Implement Set Partition as a child of Set Partitions. Use the code from Disjoint Set which is already in the sage-combinat tree. See trac #5039. (Sébastien Labbé).
-
+ * Fix Anne's bug with Partitions(0)
 == Talks ==
 
 If you would like to give a talk, for example, to demonstrate your code, then add your name and topic to the list. These talks should be not more than 20 minutes (since we want a lot of time to code).
 
- * '''Sage-Combinat Development''' -- how to install sage-combinat; how to update; how to contribute (hg, patch server, trac, ....). (Who wants to lead this?)
+ * '''Sage-Combinat Development''' -- how to install sage-combinat; how to update; how to contribute (hg, patch server, trac, ....). (Nicolas)
  * '''Cythonize python files''' -- The key points to do when translating a python file already in sage into cython. (Who wants to lead this?)
+ * '''The new category framework''' -- Design and usage (Nicolas)
