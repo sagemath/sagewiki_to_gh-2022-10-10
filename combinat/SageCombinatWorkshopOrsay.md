@@ -7,25 +7,21 @@ Purpose: work on the foundations and get former MuPAD-Combinat developers on boa
 == Accomodation ==
 
 Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house  in Cernay-la-Ville
-([[http://www.cernayvacances.com/CFrans.html | la tour]]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves.
+([[http://www.cernayvacances.com/CFrans.html|la tour]]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves.
 
-== How to come ==
-
- I'll post shortly details on how to come (in short RER B to Saint-Rémi de Chevreuse + 10 minutes of bus
-
-
-Coming to the meeting from downtown Paris:
+== Coming to the meeting from downtown Paris ==
 
  - From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
  - From Chatelet-les-Halles: 45 minutes RER B to Saint-Remy les Chevreuses + 15 minutes bus to Cernay-la-Ville
 
-There are two bus stops at Cernay, the Place one is on the map : Grand'Place, near the gite.
-
- - [ [http://www.savac.fr/fr/transports/pdf/horaires_06_07/H039003.pdf|Time tables Saint-Remy <-> Cernay <-> Rambouillet]]
+ - Time tables Saint-Remy <-> Cernay <-> Rambouillet:
+   There are two bus stops at Cernay, the closest is Grand'Place, near the gite.
+   [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_103_2009.pdf||39.103]]
+   [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_03_2009.pdf|39.003]]
+   [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_303_2009.pdf|39.303 express]]
    BEWARE: there are very few busses between 8am and 12 am!
-   In case of trouble, we should have a car, and probably can do some shuttles. Nicolas' phone: 06 77 90 32 79
-- [http://www26.mappy.com/sid1CyvhfyNPKXMn21w/cFGM?recherche=0&posl=poi&show_poi=1&show_iti=0&poix=0&poiy=0&poi_rr=0.5&poi_rx=0.6&poi_ry=0.5&csl=poi&fsl=m2&gsl=m2&msl=m2&temp_no_prop=0&comment=&xsl=plan&out=2&lr=0.5&wcm2=&nom2=&tcm2=&a10m2=&xm2=&ym2=&wnm2=+37+Rue+de+la+Ferme+&tnm2=Cernay-la-Ville&pcm2=78720&scm2=&ccm2=250&com2=EU&x=38&y=3 |Map and and aerial photo]
-
+   In case of trouble, we should have a car, and probably can do some shuttles from Saint Rémi. Nicolas' phone: 06 77 90 32 79
+- [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
 
 == Participants ==
 
