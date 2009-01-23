@@ -21,7 +21,11 @@ Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented 
 
    There are two bus stops at Cernay, the closest is Grand'Place, near the gite.
 
-   BEWARE: there are very few busses between 8am and 12 am! In case of trouble, we should have a car, and probably can do some shuttles from Saint Rémi. Nicolas' phone: 06 77 90 32 79
+   BEWARE: there are no busses between 7:35am and 12 am!
+
+ * We will do some car shuttles from Saint Rémi. Please contact us in advance to synchronize. NicolasThiery' phone: 06 77 90 32 79
+    * Monday morning 10am on the parking of Saint-Rémi de Chevreuse (Nicolas Borie: 06 89 29 78 44)
+    * ...
 
  * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
 
