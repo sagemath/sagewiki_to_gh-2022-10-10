@@ -36,15 +36,15 @@ Please fill in below whether and how long you would like to participate:
  * Florent Hivert: not 29th of January
  * Jean-Christophe Novelli: only 27-28 of January possible
  * Adrien Boussicault
- * Vincent Delecroix: "I have three days free (26-28) during which I will come to Orsay"
+ * Vincent Delecroix: I will participate three days (26-28) and perhaps whole week
  * Michael Abshoff: available online
 
 == Suggested Topics ==
 
 Add topics that you want discuss or work on. Add your name next to anything you'd like to participate with. Your name should at least appear next to the topics you suggest :-)
 
-'''Words''' (FrancoSaliola, Sébastien Labbé)
- * ideas for improving to the code (Stream for infinite words?)
+'''Words''' (FrancoSaliola, Sébastien Labbé, Vincent Delecroix)
+ * ideas for improving to the code (Stream for infinite words?) (Vincent Delecroix)
  * discussions regarding the trac #5002
  * finish and post words_new_fct_sl.patch to trac #5037
  * create a Lyndon word class
@@ -55,8 +55,11 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * '''Word Paths''' -- Final improvements to word paths, get the patch posted to trac #5038 and reviewed. Discussion about getting Christoffel Words inherits from Word Paths. (Sébastien Labbé).
  * '''Dyck Word''' -- Discussions about getting Dyck Words inherits from Word Paths. Comparisons of efficiency. (Sébastien Labbé).
  * '''Word Morphism''' -- Word Morphism actually herits from SageObject and it should be a more general Morphism class. (Sébastien Labbé). 
- * '''Language''' -- Create a Language class. (Sébastien Labbé). 
+ * '''Language''' -- Create a Language class. (Sébastien Labbé, Vincent Delecroix). 
  * Discussion about the content-datastructure-as-subobject (anti?)design pattern
+ * '''Fixed points of word morphisms''' (Vincent Delecroix) : creation of a new class derived from InfinteWord for fixed point of a WordMorphism. It's necessary to consider those words as very special infinite words because most of the 'infinite objects' associated (language, complexity, ...) can be computed.
+ * '''Geometrisation of WordMorphism''' (Vincent Delecroix) : following the work of G. Rauzy, A. Siegel, P. Arnoux, ...
+ * Class for biinfinite words, and words indexed by anything (Z^2, Z^n, graphs, ...) (Vincent Delecroix)
 
 '''Documentation'''
  * '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better.
