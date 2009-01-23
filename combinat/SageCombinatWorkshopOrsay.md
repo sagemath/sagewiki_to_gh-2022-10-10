@@ -66,7 +66,7 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * '''Language''' -- Create a Language class. (Sébastien Labbé, Vincent Delecroix). 
  * Discussion about the content-datastructure-as-subobject (anti?)design pattern
  * '''Fixed points of word morphisms''' (Vincent Delecroix) : creation of a new class derived from InfinteWord for fixed point of a WordMorphism. It's necessary to consider those words as very special infinite words because most of the 'infinite objects' associated (language, complexity, ...) can be computed.
- * '''Geometrisation of WordMorphism''' (Vincent Delecroix) : following the work of G. Rauzy, A. Siegel, P. Arnoux, ...
+ * '''Geometrization of WordMorphism''' (Vincent Delecroix) : following the work of G. Rauzy, A. Siegel, P. Arnoux, ...
  * Class for biinfinite words, and words indexed by anything (Z^2^, Z^n^, graphs, ...) (Vincent Delecroix)
 
 '''Interval Exchange Transformation and Linear Involution''' (Vincent Delecroix)
