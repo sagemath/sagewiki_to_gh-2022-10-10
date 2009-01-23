@@ -9,7 +9,7 @@ Purpose: work on the foundations and get former MuPAD-Combinat developers on boa
 Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house in Cernay-la-Ville
 ([[http://www.cernayvacances.com/CFrans.html|la tour]]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves (bring your favorite recipes!).
 
-== Coming to the meeting from downtown Paris ==
+== Coming from downtown Paris ==
 
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
  * From Chatelet-les-Halles: 45 minutes RER B to Saint-Remy les Chevreuses + 15 minutes bus to Cernay-la-Ville
@@ -28,6 +28,10 @@ Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented 
     * ...
 
  * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
+
+== Schedule ==
+
+We will start on Monday at 10:30 with an introductory talk. The following days, we will start at 10 am, with a short talk. On monday morning, we will setup a more detailed schedule for each topic, and post it here. 
 
 == Participants ==
 
