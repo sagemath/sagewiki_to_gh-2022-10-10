@@ -9,7 +9,7 @@
  * Thursday 10pm - late: coding in lobby
  * Friday at 11am -- John Perry's talk on F5 in Atkinson 4004
  * Friday at 4pm -- bug status report in Atkinson 4004
- * Thursday 7pm - late: coding in lobby
+ * Friday 7pm - late: coding in lobby
  * Saturday at 2pm -- status reports 
  * Saturday 7pm - late: coding in lobby
 
