@@ -65,12 +65,12 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * '''Word Morphism''' -- Word Morphism actually herits from SageObject and it should be a more general Morphism class. (Sébastien Labbé). 
  * '''Language''' -- Create a Language class. (Sébastien Labbé, Vincent Delecroix). 
  * Discussion about the content-datastructure-as-subobject (anti?)design pattern
- * '''Fixed points of word morphisms''' (Vincent Delecroix) : creation of a new class derived from InfinteWord for fixed point of a WordMorphism. It's necessary to consider those words as very special infinite words because most of the 'infinite objects' associated (language, complexity, ...) can be computed.
- * '''Geometrization of WordMorphism''' (Vincent Delecroix) : following the work of G. Rauzy, A. Siegel, P. Arnoux, ...
- * Class for biinfinite words, and words indexed by anything (Z^2^, Z^n^, graphs, ...) (Vincent Delecroix)
+ * '''Fixed points of word morphisms''' -- Create of a new class derived from InfinteWord for fixed point of a WordMorphism. It's necessary to consider those words as very special infinite words because most of the 'infinite objects' associated (language, complexity, ...) can be computed. (Vincent Delecroix).
+ * '''Geometrization of WordMorphism''' -- following the work of G. Rauzy, A. Siegel, P. Arnoux, ... (Vincent Delecroix)
+ * Class for biinfinite words, and words indexed by anything (Z^2^, Z^n^, graphs, ...). (Vincent Delecroix)
 
 '''Interval Exchange Transformation and Linear Involution''' (Vincent Delecroix)
- Patch a first version of code for the combinatoric of interval exchange transformations and their generalizations. It will be a hard task to choose names because standards one are Permutation and GeneralizedPermutation which are confusing ! Perhaps IETPermutation... but not very beautiful.
+ * Patch a first version of code for the combinatoric of interval exchange transformations and their generalizations. It will be a hard task to choose names because standards one are Permutation and GeneralizedPermutation which are confusing ! Perhaps IETPermutation... but not very beautiful.
 
 '''Documentation'''
  * '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better.
