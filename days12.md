@@ -62,6 +62,7 @@ The conference hotel is ''[[http://www.marriott.com/hotels/travel/lajca-residenc
 == Talks ==
  * [[/abstracts|Abstracts]]
  * Slides for the first two talks: [[attachment:craig-stein.pdf|PDF]] and [[attachment:craig-stein.sws|SWS]]
+ * Slides of Simon's talk on [[attachment:Cohomology2.pdf|Cohomology]]
 
 == Goals and Structure ==
 
