@@ -2,8 +2,7 @@
 
 == Patches ==
 
- [[http://trac.sagemath.org/sage_trac/ticket/797|#797]], [[http://trac.sagemath.org/sage_trac/ticket/3128|#3128]], [[http://trac.sagemath.org/sage_trac/ticket/5047|#5047]], [[http://trac.sagemath.org/sage_trac/ticket/1587|#1587]],
-[[http://trac.sagemath.org/sage_trac/ticket/5053|blocker #5053]]
+ [[http://trac.sagemath.org/sage_trac/ticket/797|#797]], [[http://trac.sagemath.org/sage_trac/ticket/3128|#3128]], [[http://trac.sagemath.org/sage_trac/ticket/5047|#5047]], [[http://trac.sagemath.org/sage_trac/ticket/1587|#1587]], [[http://trac.sagemath.org/sage_trac/ticket/5053|blocker #5053]]
 
 == Reviews ==
 
