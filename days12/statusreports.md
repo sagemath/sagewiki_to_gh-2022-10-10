@@ -13,3 +13,5 @@ If you were at Sage Days 12, add your name and your status report below.
  * [[days12/statusreports/wstein|William Stein]]
 
  * [[days12/statusreports/mhansen|Mike Hansen]]
+
+ * [[days12/statusreports/aghitza|Alex Ghitza]]
