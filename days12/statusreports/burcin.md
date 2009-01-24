@@ -1,3 +1,4 @@
+## page was renamed from days12/statusreports/burcinerocal
 == Burcin's status report for SD 12 ==
 
 === pynac ===
@@ -25,8 +26,9 @@ which need to be cleaned up and tested more. They should be available for testin
 
  * #4981 clean up polynomial_ring.py
  * #4840 FLINT: call the stack cleanup function at exit
+ * #3298 Cython warnings for `PolyBoRi`
 
 == reviews ==
- * 4850 bug in power_mod
- * 5027 comparing complex i raises error
- * 2957 Singular multivariate polynomials are buggy on exponent overflow)
+ * #4850 bug in power_mod
+ * #5027 comparing complex i raises error
+ * #2957 Singular multivariate polynomials are buggy on exponent overflow)
