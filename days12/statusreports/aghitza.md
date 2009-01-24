@@ -18,7 +18,11 @@ NOTE: We used a naive approach to solving both of these issues, but there is mor
 
 === Number Theory ===
 
- * 3045 - K.gen() where K = GF(p) returns 1, not a primitive element
+ * #3045 - K.gen() where K = GF(p) returns 1, not a primitive element
+
+=== Linear Algebra ===
+
+ * #4048 - missing minpoly for GF(p)
 
 === Calculus ===
 
