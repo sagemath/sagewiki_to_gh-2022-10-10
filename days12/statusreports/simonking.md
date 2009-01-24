@@ -2,9 +2,11 @@
 
 == Patches ==
 
- #797, #3128, #5047, #1587
+ [[http://trac.sagemath.org/sage_trac/ticket/797|#797]], [[http://trac.sagemath.org/sage_trac/ticket/3128|#3128]], [[http://trac.sagemath.org/sage_trac/ticket/5047|#5047]], [[http://trac.sagemath.org/sage_trac/ticket/1587|#1587]]
 
 == Reviews ==
+
+ [[http://trac.sagemath.org/sage_trac/ticket/4770|#4770]], [[http://trac.sagemath.org/sage_trac/ticket/5056|#5056]], [[http://trac.sagemath.org/sage_trac/ticket/4761|#4761]]
 
 == Cohomology ==
 
