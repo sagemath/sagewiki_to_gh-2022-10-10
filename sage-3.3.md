@@ -5,10 +5,10 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Clean up various doctest failures from 3.2.3
  * Fix some build issues from 3.2.3 on the new set of supported images
  * Merge small to medium sized patches ready to go in
- * Switch to eMPIRe
- * Switch to ecl
- * Update Python to 2.5.4
- * Update Pari to 2.3.4svn
+ * Switch to [[http://www.mpir.org|eMPIRe]] as an implementation of multi-precision integers and rationals
+ * Switch to [[http://ecls.sourceforge.net|ecl]] for a Common Lisp implementation
+ * Update [[http://www.python.org|Python]] to 2.5.4
+ * Update [[http://pari.math.u-bordeaux.fr|Pari]] to 2.3.4svn
 
 Here's a summary of features in this release, categorized under various headings.
 
