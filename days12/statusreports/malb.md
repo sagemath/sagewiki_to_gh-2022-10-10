@@ -23,4 +23,5 @@ Learned more about F5 from John Perry and Robert Dellaca. Played around a little
 
 == Misc ==
  * I have a cold and I use that as an excuse for my lameness w.r.t. staying up late.
- * Gave a talk about: http://www.cpni.gov.uk/Products/3716.aspx
+ * gave a talk about: http://www.cpni.gov.uk/Products/3716.aspx
+ * had a browser war with Craig (Opera vs. Firefox): turns out both are awesome.
