@@ -7,6 +7,7 @@
  * #1234 -- analytic_rank crashes: fix use mwrank
  * #1867 -- factoring multivariate polynomials over finite fields is broken in Singular: wrote code to reduce to GF(p) case, then found that even that is buggy in Singular, ''much to my surprise''.
  * #2020 -- change an error message when running a certain command and the elliptic curve database is too small: make a clean workaround.
+ * #2601 -- problem with _mpoly_dict_recursive: had to understand some crazy code for multivariate polynomials, then fix it; a pretty serious bug...
  * #3544 -- PermutationGroup is_transitive broken: changed wrapping of a Gap function and documented better
  * #4274 -- assertion failure in rank for elliptic curves
 
