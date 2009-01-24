@@ -1,7 +1,7 @@
-== Simon King's Status Report ==
+= Simon King's Status Report =
 
-= Patches =
+== Patches ==
 
-= Reviews =
+== Reviews ==
 
-= Cohomology =
+== Cohomology ==
