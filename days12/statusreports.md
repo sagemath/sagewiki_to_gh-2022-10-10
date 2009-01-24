@@ -9,3 +9,5 @@ If you were at Sage Days 12, add your name and your status report below.
  * [[days12/statusreports/rlm|Robert Miller]]
 
  * [[days12/statusreports/johnperry|John Perry]]
+
+ * [[days12/statusreports/wstein|William Stein]]
