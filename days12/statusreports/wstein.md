@@ -10,6 +10,7 @@
  * #2601 -- problem with _mpoly_dict_recursive: had to understand some crazy code for multivariate polynomials, then fix it; a pretty serious bug...
  * #3544 -- PermutationGroup is_transitive broken: changed wrapping of a Gap function and documented better
  * #4274 -- assertion failure in rank for elliptic curves
+ * #5001 -- kernels of integer matrices
 
 === Graphics ===
 
