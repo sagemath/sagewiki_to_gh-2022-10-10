@@ -14,7 +14,7 @@ NOTE: We used a naive approach to solving both of these issues, but there is mor
 
  * #4322 - modular polynomials database is broken
 
- * #4755 - CremonaDatabase().number_of_curves() should work when the optional database isn't installed
+ * #4755 - !CremonaDatabase().number_of_curves() should work when the optional database isn't installed
 
 === Calculus ===
 
