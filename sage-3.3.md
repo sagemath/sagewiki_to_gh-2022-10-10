@@ -30,6 +30,8 @@ Here's a summary of features in this release, categorized under various headings
 
 == Build ==
 
+ * 64-bit OSX (Michael Abshoff) -- Fixed 64-bit OSX build support for f2c, added 64-bit OSX build support for tachyon, added 64-bit OSX build support for flintqs, and added persistent Sage 64-bit building switch on OSX and Solaris.
+
 == Calculus ==
 
 == Coding Theory ==
