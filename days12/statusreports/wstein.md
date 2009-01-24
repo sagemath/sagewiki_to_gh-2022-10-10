@@ -16,13 +16,13 @@
  * #2858 -- parametric_plot3d throws an error when the sum of the components cancels a variable: fixed by rewriting to check if is a CallableSymbolicExpression.
  * #4818 -- bug in list_plot3d -- invalid index: easy
 
-
 === System and Build ===
 
  * #773 -- SAGE drops . from path: fixed by patching around a nasty bug in pexpect
  * #2129 -- implement "sage -t" for .spyx files; also fixed testing of .py, .sage, .pyx when out of tree to import file, build file, etc. 
  * #2861 -- scripts do not exit with correct exit code when sys.exit() is used: i learned that {{{sys.exit(os.system('...')>>8)}}} !!
  * #4029 -- sage-env kills the shell when called from "wrong" directory: break sage-env into two files
+ * #4734 -- sage -notebook option now broken: wrote something to wrap inputs
  * #4936 -- massive bloat: make something delete everything in ~/.sage/gap > 1 week old and untouched: fixed by modifying gap.py to do that.
  * #5041/4955 -- make it so the magma .sig files in extcode don't get written there by magma: fixed by copying files to a temp dir then loading
  * #5044 -- on some systems mwrank dumps core and crashes on exit when run under pexpect: fixed with kill -9
