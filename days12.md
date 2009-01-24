@@ -1,5 +1,8 @@
 = Sage Days 12: San Diego =
 
+== Final Status Reports ==
+
+Final status reports are [[days12/statusreports|here]].
 
 == Schedule ==
 
@@ -10,7 +13,7 @@
  * Friday at 4pm -- John Perry's talk on F5 in Atkinson 4004
  * Friday at 5pm -- bug status report in Atkinson 4004
  * Friday at 7pm - late: coding in lobby
- * Saturday at 2pm -- status reports 
+ * Saturday at 11:45am -- meet in hotel lobby for lunch 
  * Saturday 7pm - late: coding in lobby
 
 == About ==
