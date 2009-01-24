@@ -8,7 +8,7 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Switch to eMPIRe
  * Switch to ecl
  * Update Python to 2.5.4
- * Ppdate Pari to 2.3.4svn
+ * Update Pari to 2.3.4svn
 
 Here's a summary of features in this release, categorized under various headings.
 
@@ -17,6 +17,8 @@ Here's a summary of features in this release, categorized under various headings
  * Transitivity for permutation groups (William Stein) -- In the permutation group module {{{permgroup.py}}}, the query function {{{is_transitive()}}} returns whether or not the group is transitive on {{{[1..G.degree()]}}}. A few surrounding docstrings are fixed and doctest coverage for the file {{{sage/groups/perm_gps/permgroup.py}}} is now 100%.
 
 == Algebraic Geometry ==
+
+ * Improved precision and performance when calculating analytic rank (William Stein) -- When calculating the analytic rank of an elliptic curve, the default is to use Cremona's {{{gp}}} script, where the precision is automatically doubled until it doesn't fail. The precision is started at 16 rather than the previous default precision. The computation is now about 3 times faster usually by starting off using this smaller precision.
 
 == Basic Arithmetic ==
 
