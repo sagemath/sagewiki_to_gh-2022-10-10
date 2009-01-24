@@ -16,6 +16,14 @@ NOTE: We used a naive approach to solving both of these issues, but there is mor
 
  * #4755 - !CremonaDatabase().number_of_curves() should work when the optional database isn't installed
 
+=== Number Theory ===
+
+ * 3045 - K.gen() where K = GF(p) returns 1, not a primitive element
+
 === Calculus ===
 
  * #2404 - subs_expr claims to take a dictionary, but doesn't
+
+=== Documentation ===
+
+ * #5087 - purge "cannonical" typos
