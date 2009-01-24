@@ -11,6 +11,7 @@
  * #3294 GAP interface broken after CTRL-C
  * #3752 gap.eval -- oddity in parsing multiline input and comments
  * #4405 double/single quotation marks in docstring
+ * #4611 deprecated sqrt_approx
 
 == Tickets Questioned ==
 
