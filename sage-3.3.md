@@ -14,6 +14,8 @@ Here's a summary of features in this release, categorized under various headings
 
 == Algebra ==
 
+ * Transitivity for permutation groups (William Stein) -- In the permutation group module {{{permgroup.py}}}, the query function {{{is_transitive()}}} returns whether or not the group is transitive on {{{[1..G.degree()]}}}. A few surrounding docstrings are fixed and doctest coverage for the file {{{sage/groups/perm_gps/permgroup.py}}} is now 100%.
+
 == Algebraic Geometry ==
 
 == Basic Arithmetic ==
