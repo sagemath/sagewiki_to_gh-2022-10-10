@@ -13,7 +13,10 @@ I fixed these bugs:
  * http://trac.sagemath.org/sage_trac/ticket/5026
  * http://trac.sagemath.org/sage_trac/ticket/5059 ... and learned a ton about pickling
 
+I also spent a bunch of time reviewing a few annoying and hard to review patches. That was about as much fun as it sounds.
+
 == Comments ==
 
  * Had a browser war with Martin, and defended Firefox's honor admirably
  * Learned about the awesomeness of having a quake console on my Mac (Visor!)
+ * Starting using queues. (Huzzah!)
