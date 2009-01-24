@@ -26,4 +26,6 @@ NOTE: We used a naive approach to solving both of these issues, but there is mor
 
 === Documentation ===
 
+ * #5077 - bug in fibonacci function
+
  * #5087 - purge "cannonical" typos
