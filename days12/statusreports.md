@@ -17,3 +17,5 @@ If you were at Sage Days 12, add your name and your status report below.
  * [[days12/statusreports/aghitza|Alex Ghitza]]
 
  * [[days12/statusreports/danshumow|Dan Shumow]]
+
+ * [[days12/statusreports/ncalexan|Nick Alexander]]
