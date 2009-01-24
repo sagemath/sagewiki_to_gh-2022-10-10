@@ -2,6 +2,10 @@
 
 This has probably been my most productive Sage Days ever.  About 80% of my time awake was used reading / writing / reviewing code that ended up being useful.  I'd say that about 10% of my time was spent working on code was not useful, and the remaining 10% was spent eating, walking, and insulting Dan Shumow.
 
+I really enjoyed the triage sessions.  They were a lot of fun, and a very good way of delegating work.  I'd like to see these triage sessions integrated into future Sage Days: for example, at Developer Days, there should be a two day sequence of bug fixing followed by reviews.  At Sage Days devoted to special topics, the first day could include a brainstorming session in which various desired features are discussed, and then delegated.  
+
+In the future, we should make sure to ping people who aren't around but have been assigned bugs. For example, Carl Witty seemed displeased that he'd been assigned tickets and not told about it for nearly 24 hours.  Perhaps we should have somebody transcribe summary info to IRC as it all goes down.
+
 == Bugs Fixed ==
 
  1. #4440 Automatic Indentation: the notebook now handles Python indentation like a "real IDE".  For the record, nano, my favorite development environment, can do this too.
