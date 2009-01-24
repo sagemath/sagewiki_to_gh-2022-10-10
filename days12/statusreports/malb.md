@@ -3,6 +3,7 @@
  * #2957 Singular multivariate polynomials are buggy on exponent overflow
  * #4593 do not unconditionally use M2 for Gbasis computations over ZZ if it is installed
  * #3321 Matrix.visualize_structure is too dark/messed up
+ * #2360 Strange Polynomial substitution problem
 
 == Tickets Reviewed with Positive Review ==
 
