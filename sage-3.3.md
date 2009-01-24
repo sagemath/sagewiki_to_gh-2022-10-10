@@ -9,6 +9,7 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Switch to [[http://ecls.sourceforge.net|ecl]] for a Common Lisp implementation
  * Update [[http://www.python.org|Python]] to 2.5.4
  * Update [[http://pari.math.u-bordeaux.fr|Pari]] to 2.3.4svn
+ * Switch to FLINT for univariate polynomial arithmetic over Z/nZ
 
 Here's a summary of features in this release, categorized under various headings.
 
