@@ -14,7 +14,14 @@ This has probably been my most productive Sage Days ever.  About 80% of my time 
 
  1. #5064 Steenrod algebras were non-unique.  Discovered working on #3999, and fixed this.  However, it's not done -- unpickling will result in non-unique algebras.
 
+
+---- /!\ '''Edit conflict - other version:''' ----
  1.(ish) #5079 Problems in preparsing number literals.  While I'm not directly responsible for fixing this, I did a lot of research into it before punting to Robert Bradshaw.  So, I was able to help him and guide him around various pitfalls, as well as find subtle bugs & workarounds in his implementation.  Also, I suggested pre-emptive compatibility with py3k literals, which Robert liked and implemented.
+
+---- /!\ '''Edit conflict - your version:''' ----
+ 1. (ish) #5079 Problems in preparsing number literals.  While I'm not directly responsible for fixing this, I did a lot of research into it before punting to Robert Bradshaw.  So, I was able to help him and guide him around various pitfalls, as well as find subtle bugs & workarounds in his implementation.  Also, I suggested pre-emptive compatibility with py3k literals, which Robert liked and implemented.
+
+---- /!\ '''End of edit conflict''' ----
 
 == Bugs Reviewed ==
 
