@@ -34,6 +34,8 @@ Here's a summary of features in this release, categorized under various headings
 
 == Calculus ==
 
+ * LaTeX output (Mike Hansen) -- Added LaTeX output for ceiling, floor, and derivative functions. LaTaXing 
+
 == Coding Theory ==
 
 == Coercion ==
