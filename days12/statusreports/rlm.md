@@ -1,3 +1,5 @@
+= Robert Miller =
+
 == Bugs Slain ==
 
  * #1847 - add nice print method for Sha(Elliptic curve)
