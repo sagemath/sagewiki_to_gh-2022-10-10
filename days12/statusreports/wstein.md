@@ -21,6 +21,7 @@
 
  * #773 -- SAGE drops . from path: fixed by patching around a nasty bug in pexpect
  * #2129 -- implement "sage -t" for .spyx files; also fixed testing of .py, .sage, .pyx when out of tree to import file, build file, etc. 
+ * #2861 -- scripts do not exit with correct exit code when sys.exit() is used
  * #4029 -- sage-env kills the shell when called from "wrong" directory: break sage-env into two files
  * #4936 -- massive bloat: make something delete everything in ~/.sage/gap > 1 week old and untouched: fixed by modifying gap.py to do that.
  * #5041/4955 -- make it so the magma .sig files in extcode don't get written there by magma: fixed by copying files to a temp dir then loading
