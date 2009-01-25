@@ -9,6 +9,13 @@ Like all browsers, Firefox has a "search" box (usually to the right of the addre
 
 The first one takes a phrase to search for, and searches on trac for it. The second one is more useful -- given a number, it goes '''directly''' to the corresponding trac ticket. (If you enter something that doesn't exist, it will instead search for a hash symbol followed by your search query.)
 
+You can copy the following bits of text into your browser address bar to have Firefox automatically download and install the search plugins:
+
+ * `javascript:window.external.AddSearchProvider("http://wiki.sagemath.org/firefox-trac?action=AttachFile&do=get&target=trac.xml")`
+ * `javascript:window.external.AddSearchProvider("http://wiki.sagemath.org/firefox-trac?action=AttachFile&do=get&target=speed-trac.xml")`
+
+Or, if you want to download the plugins and install manually, see below for directions.
+
 These are easy to use: Firefox maintains a directory of search plugins. They're located here:
 
  * `/Applications/Firefox.app/Contents/MacOS/searchplugins` (Mac)
