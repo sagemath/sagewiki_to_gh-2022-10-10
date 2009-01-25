@@ -15,10 +15,9 @@ Albrecht, Boothby, Perry, King and Alexander fixed several bugs in univariate an
 
 Boothby improved basic arithmetic in Steenrod algebras.
 
-Citro fixed  bugs for modular symbols and free modules.
+Citro and Ghitza fixed  bugs for modular symbols and free modules. Ghitza made sure that the generator returned for prime order finite fields is a valid multiplicative generator and fixed the interface to Cremona's database.
 
 Albrecht and Perry worked on an F4-style F5 algorithm and finished a toy implementation of it.
-
 
 \hd{Graphics}%
 Stein fixed bugs in parametric and list 3d plotting.
@@ -34,6 +33,8 @@ usage, cached gap workspaces, loading of magma/sage interface files, and make ch
 Shumow, Stein and Abshoff discussed the future process of Sage's Windows port.
 
 King fixed a bug which would prevent the clearance of the tmp directory, improved the timeit command, 
+
+Miller fixed several memory leaks in sparse linear algebra and fixed many bugs across the library.
 
 \hd{Testing}%
 Stein removed some long doctests that left cruft around.
