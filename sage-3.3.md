@@ -45,6 +45,10 @@ Here's a summary of features in this release, categorized under various headings
 
 == Coercion ==
 
+ * Ring coercion for polynomials over finite fields (William Stein).
+
+ * Move univariate polynomial rings to new coercion model (Robert Bradshaw).
+
 == Combinatorics ==
 
 == Commutative Algebra ==
