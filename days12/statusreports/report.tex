@@ -1,0 +1,104 @@
+\documentclass{article}
+\title{Sage Days 12: Final Report}
+\author{William Stein}
+\newcommand{\hd}[1]{\vspace{4ex}\noindent{\bf\large #1}\vspace{1ex}
+
+\noindent}
+\usepackage{graphicx}
+\begin{document}
+%\maketitle
+%\section{Overview}
+\begin{center}
+{\LARGE\bf
+Sage Days 12: Final Report}
+\end{center}
+\vspace{4ex} 
+
+At Sage Days 12, the 15 funded participants resolved about 30\% of the
+known defects in Sage.  We also found and reported about 40 new defect
+tickets while fixing these bugs.  When Sage Days 12 started, there
+were 621 reported defects in Sage, many of which were difficult bugs
+that had been around for a while.  Several of the bugs we fixed were
+reported as far back as 2007!
+
+There were many interesting discussions of mathematics, e.g., elliptic
+curves, cryptography, F5 (Groebner Basis computation), and algorithms
+for $p$-adic arithmetic.  Several participants also did {\em
+  significant} planning for future Sage Days workshops, including
+SD13, SD14, and a new Sage Days 17 that will be in the San Juan
+islands in late August 2009.
+
+
+The first day of the workshop had talks by Citro, Stein, and Abshoff.
+The next two days also featured interesting talks on group cohomology
+(Simon King) and F5 (John Perry).  
+
+The following people participated intensely in the coding sprints:
+Michael Abshoff, Martin Albrecht, Nick Alexander, Tom Boothby, Craig
+Citro, Burcin Erocal, Alex Ghitza, Jason Grout, Mike Hansen, Simon
+King, Robert Miller, John Perry, David Roe, William Stein, Dan Shumow.
+We worked mainly in the Residence Inn hotel lobby, and some at
+Atkinson Hall at UCSD.
+
+
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{pie}
+\end{center}
+
+\newpage
+\begin{center}
+{\LARGE\bf
+Summary of Bugs Fixed}
+\end{center}
+\vspace{4ex}
+
+\hd{Overall}%
+
+A huge number of tickets were closed, making Sage-3.3 a candidate for
+being the biggest release ever.
+
+\hd{Math}%
+Stein fixed bugs in Sage's use of mwrank, factorization of multivariate polynomials over finite fields, the elliptic curve
+database, multivariate polynomial arithmetic, ring changes and hashing over Givaro finite fields, kernels of integer matrices and getting help on primes.
+
+King improved the documentation of the kernel command.
+
+Alexander fixed a bug in the creation of fractional ideals in relative number field which in turn caused quite a few other bugs in that area.
+
+Albrecht, Boothby, Perry, King and Alexander fixed several bugs in univariate and multivariate polynomials which could lead to segmentation faults and wrong results in computations. Perry improved the support for multivariate polynomial rings over finite fields with large prime characteristic.
+
+Boothby improved basic arithmetic in Steenrod algebras.
+
+Citro and Ghitza fixed  bugs for modular symbols and free modules. Ghitza made sure that the generator returned for prime order finite fields is a valid multiplicative generator and fixed the interface to Cremona's database.
+
+Albrecht and Perry worked on an F4-style F5 algorithm and finished a toy implementation of it.
+
+\hd{Graphics}%
+Stein fixed bugs in parametric and list 3d plotting.
+Albrecht fixed bugs in the visualization of the structure of matrices.
+Shumow fixed a bug in the 3d plotting of points.
+
+\hd{System}%
+Stein fixed PATH issues, doctesting of spyx and sage files, the -notebook option, getting memory
+usage, cached gap workspaces, loading of magma/sage interface files, and make check.
+
+Shumow, Stein and Abshoff discussed the future process of Sage's Windows port.
+
+King fixed a bug which would prevent the clearance of the tmp directory, improved the timeit command, 
+
+Miller fixed several memory leaks in sparse linear algebra and fixed many bugs across the library.
+
+\hd{Testing}%
+Stein removed some long doctests that left cruft around.
+
+\hd{Notebook and Interfaces}%
+
+Hansen fixed 12 bugs in the Sage notebook including problems with the LaTeX and HTML cells in the notebooks. As part of these fixes, he simplified a significant portion of the notebook code.
+
+Boothby implemented auto indentation in the notebook.
+
+Hansen worked on improving the robustness and functionality of the GAP and Mathematica interfaces.
+
+
+\end{document}
