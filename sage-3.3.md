@@ -63,8 +63,6 @@ Here's a summary of features in this release, categorized under various headings
 
  * GAP configuration file (Matthias Meulien) -- A user's local GAP configuration file is usually named {{{$HOME/.gaprc}}}. When such a file already exists and Sage is compiled from source, using the Sage interface to GAP, e.g. {{{gap._eval_line('1+3;')}}}, can result in gibberish. This is now fixed so that the GAP interface would output a comprehensible message/answer as a result of some GAP calculation.
 
-== Doctest ==
-
 == Documentation ==
 
 == Geometry ==
