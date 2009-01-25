@@ -75,6 +75,14 @@ Here's a summary of features in this release, categorized under various headings
 
 == Graphics ==
 
+ * Plotting a region (Arnaud Bergeron) -- Plot a region where a system of equations/inequalities were true.
+
+ * Consistency in variable range (Mike Hansen, Jason Grout) -- The variable range of {{{parametric_plot}}} is now consistent with that of {{{plot}}}, namely {{{(var, min, max)}}}.
+
+ * Polar plot syntax (Jason Grout) -- Polar plot now accepts the syntax {{{(t, 0, 2*pi)}}} for the interval.
+
+ * Add a {{{density_plot()}}} function and improve colour map handling (Arnaud Bergeron) -- The {{{density_plot}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Some improve on how colour map is handled.
+
 == Group Theory ==
 
 == Interact ==
