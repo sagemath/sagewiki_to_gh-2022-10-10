@@ -10,6 +10,8 @@
 
 == Cohomology ==
 
+  I delivered a talk on my Sage project on the computation of the modular cohomology rings of finite p-groups. Here are my [[http://wiki.sagemath.org/days12?action=AttachFile&do=view&target=Cohomology2.pdf|slides]].
+
   Supported by Michael Abshoff, I tried some optimisations of my programs, and I tried to port it to OS X. However, this turned out to be not so easy. 
   Main problem seems to be MeatAxe, which, according to its web page, has still no support for OS X. 
   There was a huge speedup by choosing other compiler options, but this did not work on all platforms. So, there remains a lot of work.
