@@ -53,6 +53,12 @@ Here's a summary of features in this release, categorized under various headings
 
 == Commutative Algebra ==
 
+ * Multivariate polynomials over residue fields of number fields (Nick Alexander) -- Fixed an infinite loop bug when working with multivariate polynomials over residue fields of number fields. Previously in hashing "large" characteristic residue fields, the hash method would try to hash an ideal of the residue field itself, which in turn would try to hash its parent, and so on ad infinitum. At no point has a residue field with cardinality a very large prime been created in Sage.
+
+ * GCD of polynomials over finite fields (Martin Albrecht) -- Previously when using  ibsingular to compute the GCD of two (multivariate) polynomials over finite fields, Sage would segfault whenever the base rings are not identical.
+
+ * Deprecate {{{Ideal.reduced_basis}}} (John Perry) -- The previous name {{{Ideal.reduced_basis}}} is misleading as it suggests that it can be used for computing the reduced Gröbner basis, when in fact it returns the interreduced basis. Thus {{{Ideal.reduced_basis()}}} is now deprecated and users are encouraged to use {{{Ideal.interreduced_basis()}}} instead.
+
 == Distribution ==
 
 == Doctest ==
