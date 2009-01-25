@@ -2,9 +2,9 @@
 
 == Bugs ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/1396|Bug 1396]]. I submitted a patch that in any sane, just, and sinless universe would work. Sadly, a serious bug in the interface between Sage and Singular prevents it from working, so I passed it back to Martin.
- * [[http://trac.sagemath.org/sage_trac/ticket/2159|Bug 2159]], patch submitted for one of the functions that didn't work properly ({{{dimension}}}). Recommended creating a new ticket for the other ({{{variety}}}).
- * [[http://trac.sagemath.org/sage_trac/ticket/5056|Bug 5056]], patch submitted and accepted.
+ * [[http://trac.sagemath.org/sage_trac/ticket/1396|Bug 1396]] Ideal.groebner_basis should accept keyword arguments for strategy parameters. In any sane, just, and sinless universe this patch would work. Sadly, a serious bug in the interface between Sage and Singular prevents it from working, so I passed it back to Martin.
+ * [[http://trac.sagemath.org/sage_trac/ticket/2159|Bug 2159]] Gröbner bases over any field (cont'd). Patch submitted for one of the functions that didn't work properly ({{{dimension}}}). Recommended creating a new ticket for the other ({{{variety}}}).
+ * [[http://trac.sagemath.org/sage_trac/ticket/5056|Bug 5056]] rename Ideal.reduced_basis to Ideal.interreduced_basis. This ticket was created for the express purpose of accomodating people who don't read (i.e. me). Patch submitted and accepted.
 
 == Doctests ==
 
