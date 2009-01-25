@@ -71,6 +71,8 @@ Here's a summary of features in this release, categorized under various headings
 
 == Graph Theory ==
 
+ * Equality testing in graphs (Robert Miller) -- The "weighted" property or edge label is taken into account when testing for equality in graphs.
+
 == Graphics ==
 
 == Group Theory ==
