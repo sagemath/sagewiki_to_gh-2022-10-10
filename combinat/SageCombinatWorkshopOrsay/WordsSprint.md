@@ -1,4 +1,14 @@
 '''Words Sprint''' (FrancoSaliola, Sébastien Labbé, Vincent Delecroix)
+
+ * New implementation for words:
+ ** faster
+ ** space efficient
+ ** special class for words over an alphabet of at most four letters (each letter takes one bit)
+
+---
+
+Un-organized ideas:
+
  * ideas for improving to the code (Stream for infinite words?) (Vincent Delecroix)
  * discussions regarding the trac #5002
  * finish and post words_new_fct_sl.patch to trac #5037
