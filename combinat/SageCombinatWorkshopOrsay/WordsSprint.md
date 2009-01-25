@@ -1,9 +1,9 @@
 '''Words Sprint''' (FrancoSaliola, Sébastien Labbé, Vincent Delecroix)
 
  * New implementation for words:
- ** faster
- ** space efficient
- ** special class for words over an alphabet of at most four letters (each letter takes one bit)
+   * faster
+   * space efficient
+   * special class for words over an alphabet of at most two letters (each letter takes one bit)
 
 ---
 
