@@ -1,0 +1,14 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>trac</ShortName>
+<Description>Sage trac Search</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9gFHhQrCV4c1V8AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAACO0lEQVQ4y22TS0uyYRCGr3nfRzuoYaRGSAVfi4qoTVBUEgXRMpI2te6H+Ff6D0mrIAiKoq0dEME00hbmqQNl5nyL99UO3zfwwMAzc889N/dIIqHKv6HuY2ICeXoCY5BcrvPfaiem3dDXh/T2wtAQDAyAz4f4/YhtQzQKDw/o3h7ijrPaIAbAtpHdXRCBQgGOj5FqFV5fHfSdHahWYXwcvblB3KEW0LIAPj+hWERLJTg/d0DazbaN+v1weIiOj0MwyI+VLQBj0GoVkkl0bQ0GB1GXYisSQUsl9OMDjo7Q1VUwptMvFkB/P/r8DOUykkyiGxvg8zkVIyNIPu/k9TqkUrCy8ovBzAxSrzu7FYtwcgLxOGIMjI5CLtehLZkMAujmJiqCGkA9Hri8/Cq6uqIVCiHb24jPh5TLaCAACwsO/WAQwmHE43EACIdhbMyZ1NOD+v2I1wvDw4hlwdYWUq9DNosUi+jyMtzdoY0GmGgUCYVgaQmdm0MKBXh5gft7mJxEczlH3JZjHbFt8Hrh8dE1UqkEmQyUy3B6in735ewscnDQaQagqwsaDWg2XRHf39H9fWg0kMVFRFybGIPUatBsYrlii2VBIACtFqTTjmZW2/cXFyCCxGKIbSPRKKLacR3GQCQCsRjc3n4xMt+Oh7MzZH4eicdRy0Lf3sDvh+lpZ+8/f9BaDbLZLwBJJPTzmzPF60WmptD1daRSQet1qFQgn3csn07/uFjM7zNuNNBUCqpVtLsbub7mf+feib/2tuRz0aLANwAAAABJRU5ErkJggg==</Image>
+<Url type="text/html" method="GET" template="http://trac.sagemath.org/sage_trac/search">
+  <Param name="q" value="{searchTerms}"/>
+  <Param name="noquickjump" value="1" />
+  <Param name="ticket" value="1" />
+  <Param name="wiki" value="1" />
+  <!-- Dynamic parameters -->
+</Url>
+<SearchForm>http://trac.sagemath.org/sage_trac/</SearchForm>
+</SearchPlugin>
