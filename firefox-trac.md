@@ -13,11 +13,7 @@ These are easy to use: Firefox maintains a directory of search plugins. They're 
 
  * `/Applications/Firefox.app/Contents/MacOS/searchplugins` (Mac)
 
-Here `/Applications/Firefox.app` should be replaced by the path to your Firefox app. I don't have another machine handy to find out where the directory is on Linux -- but here's the developer page about the feature, which would probably tell me if I were willing to read it:
-
- * [[https://developer.mozilla.org/en/Creating_OpenSearch_plugins_for_Firefox|Firefox Search Plugins]]
-
-If someone wants to find it there, and post the path here, everyone would probably appreciate it.
+Here `/Applications/Firefox.app` should be replaced by the path to your Firefox app. In Linux, you can place the XML files in the searchplugins/ directory in your Firefox profile directory; for example, Mike put his in /home/mike/.mozilla/firefox/thvmoys3.default/searchplugins/ and it worked correctly.
 
 So now, once those two files are in place, you simply restart Firefox. Two new searches will be available (with Sage favicons!). You can simply use them as normal from the upper right corner, but that's not too exciting. Much more exciting: in Firefox 3 at least, you can bind a key shortcut to each of them. (I use `t` for speed-trac and `trac` for trac.) Once you do this, typing `t 1000` in the address bar will immediately take you to trac ticket #1000, and typing `trac notebook` will search for notebook on trac.
 
