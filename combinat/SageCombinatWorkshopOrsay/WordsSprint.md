@@ -5,6 +5,12 @@
    * space efficient
    * special class for words over an alphabet of at most two letters (each letter takes one bit)
 
+ * bi-infinite words, bi-infinite alphabets, words indexed by other objects besides integers
+
+ * look through the algorithms for finite words, and identify the ones that need improvement (some are really slow)
+
+ *  
+
 ---
 
 Un-organized ideas:
