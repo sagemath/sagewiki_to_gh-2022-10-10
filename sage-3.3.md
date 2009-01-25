@@ -89,6 +89,12 @@ Here's a summary of features in this release, categorized under various headings
 
 == Interfaces ==
 
+ * Magma interface (William Stein) -- Fixed a problem in Sage's interface to Magma so that now the Magma {{{.sig}}} files in {{{extcode}}} are no longer written there by Magma itself. The current behaviour is that the first (and only first) time a Magma interface is started in a given session, files in {{{data/extcode/magma}}} are copied to a temporary directory.
+
+ * GAP interface (Mike Hansen) -- Ensured that the GAP interface handles keyboard interrupt gracefully, that GAP output would be printed, and that multi-line input and comments are handled as expected.
+
+ * Sage preparser (Robert Bradshaw) -- Some simplification of the Sage preparser, together with improved handling of literal numbers.
+
 == Linear Algebra ==
 
 == Memory Leak ==
