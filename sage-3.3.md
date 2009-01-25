@@ -81,9 +81,11 @@ Here's a summary of features in this release, categorized under various headings
 
  * Polar plot syntax (Jason Grout) -- Polar plot now accepts the syntax {{{(t, 0, 2*pi)}}} for the interval.
 
- * Add a {{{density_plot()}}} function and improve colour map handling (Arnaud Bergeron) -- The {{{density_plot}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Some improve on how colour map is handled.
+ * Added a {{{density_plot()}}} function and improve colour map handling (Arnaud Bergeron) -- The {{{density_plot}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Some improve on how colour map is handled.
 
 == Group Theory ==
+
+ * Added an {{{is_cyclic}}} method (David Joyner) -- The {{{is_cyclic}}} method for (finite) groups is currently not as optimized as it should be. Given a finite abelian group, one can test to see whether or not it is cyclic, a test that depends on calculating the elementary divisors of the group. As correctness is the main concern in the current implementation of {{{elementary_divisors()}}}, performance is not taken into account. However, the docstring for {{{elementary_divisors()}}} describes an algorithm communicated by Robert Miller for speeding up this method.
 
 == Interact ==
 
