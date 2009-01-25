@@ -7,7 +7,7 @@ Purpose: work on the foundations and get former MuPAD-Combinat developers on boa
 == Accomodation ==
 
 Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house in Cernay-la-Ville
-([[http://www.cernayvacances.com/CFrans.html|la tour]]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 euros total). We will do the cooking ourselves (bring your favorite recipes!).
+([[http://www.cernayvacances.com/CFrans.html|la tour]]). Hopefully, this will be paid for by the university of Orsay; otherwise we will split the charges (~600 + food). We will do the cooking ourselves (bring your favorite recipes!).
 
 == Coming from downtown Paris ==
 
@@ -39,9 +39,10 @@ Please fill in below whether and how long you would like to participate:
 
  * NicolasThiéry: I'll be there most of the time except Tuesday
  * Sébastien Labbé: between 25th-31st of January
+ * Thomas Fenrique
  * Nicolas Borie:
  * FrancoSaliola: I can (and will) participate for the whole week.
- * Florent Hivert: not 29th of January
+ * Florent Hivert:
  * Jean-Christophe Novelli: only 27-28 of January possible
  * Adrien Boussicault
  * Vincent Delecroix: I will participate three days (26-28) and perhaps whole week
