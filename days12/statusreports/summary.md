@@ -1,4 +1,7 @@
 {{{
+\hd{Overall}%
+
+Overall XXX bugs were fixed and closed making the release 3.3 a candidate for being the biggest release ever.
 
 \hd{Math}%
 Stein fixed bugs in Sage's use of mwrank, factorization of multivariate polynomials over finite fields, the elliptic curve
@@ -23,7 +26,6 @@ Shumow fixed a bug in the 3d plotting of points.
 \hd{System}%
 Stein fixed PATH issues, doctesting of spyx and sage files, the -notebook option, getting memory
 usage, cached gap workspaces, loading of magma/sage interface files, and make check.
-
 
 Shumow, Stein and Abshoff discussed the future process of Sage's Windows port.
 
