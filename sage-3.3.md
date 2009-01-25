@@ -67,6 +67,8 @@ Here's a summary of features in this release, categorized under various headings
 
 == Geometry ==
 
+ * Polyhedral improvements (Marshall Hampton) -- Added more built-in Archimedean solids and some new methods such as the Gale transform, bipyramid construction, edge truncation, and perspective projection with (optionally) hidden faces invisible. The Schlegel projection code has also been somewhat refactored to make it more general in the future.
+
 == Graph Theory ==
 
 == Graphics ==
