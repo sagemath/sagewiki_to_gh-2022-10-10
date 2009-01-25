@@ -9,8 +9,9 @@ Like all browsers, Firefox has a "search" box (usually to the right of the addre
 
 The first one takes a phrase to search for, and searches on trac for it. The second one is more useful -- given a number, it goes '''directly''' to the corresponding trac ticket. (If you enter something that doesn't exist, it will instead search for a hash symbol followed by your search query.)
 
-These are easy to use: Firefox maintains a directory of search plugins. On a Mac, it's located in: 
- * `/Applications/Firefox.app/Contents/MacOS/searchplugins` 
+These are easy to use: Firefox maintains a directory of search plugins. They're located here:
+
+ * `/Applications/Firefox.app/Contents/MacOS/searchplugins` (Mac)
 
 Here `/Applications/Firefox.app` should be replaced by the path to your Firefox app. I don't have another machine handy to find out where the directory is on Linux -- but here's the developer page about the feature, which would probably tell me if I were willing to read it:
 
