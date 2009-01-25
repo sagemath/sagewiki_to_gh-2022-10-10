@@ -18,4 +18,6 @@ Here `/Applications/Firefox.app` should be replaced by the path to your Firefox 
 
 If someone wants to find it there, and post the path here, everyone would probably appreciate it.
 
-So now, once those two files are in place, you simply restart Firefox. Two new 
+So now, once those two files are in place, you simply restart Firefox. Two new searches will be available (with Sage favicons!). You can simply use them as normal from the upper right corner, but that's not too exciting. Much more exciting: in Firefox 3 at least, you can bind a key shortcut to each of them. (I use `t` for speed-trac and `trac` for trac.) Once you do this, typing `t 1000` in the address bar will immediately take you to trac ticket #1000, and typing `trac notebook` will search for notebook on trac.
+
+Enjoy.
