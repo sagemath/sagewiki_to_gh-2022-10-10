@@ -1,6 +1,8 @@
 == Final Status Reports ==
 
-[[days12/statusreports/summary|Overall Summary]]
+[[days12/statusreports/summary|Overall Summary]] 
+[[attachment:report.pdf]]
+[[attachment:report.tex]]
 
 If you were at Sage Days 12, add your name and your status report below.
 
