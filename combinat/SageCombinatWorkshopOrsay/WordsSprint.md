@@ -5,36 +5,29 @@
    * space efficient
    * special class for words over an alphabet of at most two letters (each letter takes one bit)
    * consider using Streams and (Lazy)Familys here.
-
- * bi-infinite words, bi-infinite alphabets, words indexed by other objects besides integers
-
- * look through the algorithms for finite words, and identify the ones that need improvement (some are really slow, like is_subword_of)
-
- * words over the an alphabet of elements of a group
+   * discussion about the content-datastructure-as-subobject (anti?)design pattern
+   * allow for words over arbitrary alphabets? (example, the alphabet of the elements of a group)
 
  * New classes:
    * Language
-   * FixedPointOfMorphism
+   * FixedPointOfMorphism (things like the language, complexity, ..., can be computed).
+   * Lyndon word class
+   * Dyck Word, discussions about getting DyckWord to inherit from WordPaths, comparisons of efficiency.
+   * bi-infinite words, or more generally, words indexed by objects other than integers
+   * bi-infinite alphabets (like integers)
+
+ * New words:
+   * Generalized Thue-Morse words to words.[TAB]
+   * Add Random Word and Random Testing
 
  * Geometrization:
    * WordMorphism, following the work of G. Rauzy, A. Siegel, P. Arnoux, ...
    * Word Paths, via words as paths in a lattice
-   * Dyck Word, discussions about getting Dyck Words inherits from Word Paths. Comparisons of efficiency.
 
-
----
-
-Un-organized ideas:
-
- * ideas for improving to the code (Stream for infinite words?) (Vincent Delecroix)
- * discussions regarding the trac #5002
- * finish and post words_new_fct_sl.patch to trac #5037
- * create a Lyndon word class
- * trac #4954: Words_over_Alphabet should check the type of input alphabet
- * Add Generalized Thue-Morse words to words.[TAB]
- * Add Random Word and Random Testing
- * Add Notes about words library
- * '''Word Morphism''' -- Word Morphism actually herits from SageObject and it should be a more general Morphism class. (Sébastien Labbé). 
- * Discussion about the content-datastructure-as-subobject (anti?)design pattern
- * '''Fixed points of word morphisms''' -- Create of a new class derived from InfinteWord for fixed point of a WordMorphism. It's necessary to consider those words as very special infinite words because most of the 'infinite objects' associated (language, complexity, ...) can be computed. (Vincent Delecroix).
- * Class for biinfinite words, and words indexed by anything (Z^2^, Z^n^, graphs, ...). (Vincent Delecroix)
+ * Miscellaneous:
+   * add notes about words library
+   * trac #4954: Words_over_Alphabet should check the type of input alphabet
+   * finish and post words_new_fct_sl.patch to trac #5037
+   * discussions regarding the trac #5002
+   * look through the algorithms for finite words, and identify the ones that need improvement (some are really slow, like ''is_subword_of'')
+   * WordMorphism, inherits from SageObject and it should be a more general Morphism class.
