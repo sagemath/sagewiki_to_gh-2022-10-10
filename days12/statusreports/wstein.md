@@ -11,6 +11,7 @@
  * #3544 -- PermutationGroup is_transitive broken: changed wrapping of a Gap function and documented better
  * #4274 -- assertion failure in rank for elliptic curves
  * #5001 -- kernels of integer matrices
+ * #5092 -- {{{Primes()??}}} gets hung in len call; also bring coverage to 100% for primes.py
 
 === Graphics ===
 
