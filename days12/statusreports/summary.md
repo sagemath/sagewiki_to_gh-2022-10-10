@@ -24,6 +24,7 @@ usage, cached gap workspaces, loading of magma/sage interface files, and make ch
 Stein removed some long doctests that left cruft around.
 
 \hd{Notebook}%
+Hansen fixed 12 bugs in the Sage notebook including problems with the LaTeX and HTML cells in the notebooks. As part of these fixes, he simplified a significant portion of the notebook code.
 
 \hd{Interfaces}%
 }}}
