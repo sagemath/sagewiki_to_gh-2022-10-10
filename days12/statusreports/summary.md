@@ -39,11 +39,12 @@ Miller fixed several memory leaks in sparse linear algebra and fixed many bugs a
 \hd{Testing}%
 Stein removed some long doctests that left cruft around.
 
-\hd{Notebook}%
+\hd{Notebook and Interfaces}%
 
 Hansen fixed 12 bugs in the Sage notebook including problems with the LaTeX and HTML cells in the notebooks. As part of these fixes, he simplified a significant portion of the notebook code.
 
 Boothby implemented auto indentation in the notebook.
 
-\hd{Interfaces}%
+Hansen worked on improving the robustness and functionality of the GAP and Mathematica interfaces.
+
 }}}
