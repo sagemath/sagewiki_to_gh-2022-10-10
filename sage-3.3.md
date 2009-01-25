@@ -5,11 +5,11 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Clean up various doctest failures from 3.2.3
  * Fix some build issues from 3.2.3 on the new set of supported images
  * Merge small to medium sized patches ready to go in
- * Switch to [[http://www.mpir.org|eMPIRe]] as an implementation of multi-precision integers and rationals
+ * Switch to [[http://www.mpir.org|eMPIRe]] for multi-precision integers and rationals
  * Switch to [[http://ecls.sourceforge.net|ecl]] for a Common Lisp implementation
  * Update [[http://www.python.org|Python]] to 2.5.4
  * Update [[http://pari.math.u-bordeaux.fr|Pari]] to 2.3.4svn
- * Switch to FLINT for univariate polynomial arithmetic over Z/nZ
+ * Switch to [[http://www.flintlib.org|FLINT]] for univariate polynomial arithmetic over {{{Z/nZ}}}
 
 Here's a summary of features in this release, categorized under various headings.
 
@@ -25,7 +25,7 @@ Here's a summary of features in this release, categorized under various headings
 
  * {{{ivalue}}} field in {{{integer_mod.pyx}}} is no longer public (Craig Citro) -- The {{{ivalue}}} field for {{{IntegerMod_int}}} is no longer public. This gives about a 1.5 to 2X speedup when multiplying {{{IntegerMod_ints}}}. 
 
- * Some fixes for {{{is_perfect_power}}} and {{{bessel_J(0,0)}}} (Craig Citro, Rob Bradshaw, Robert Miller) -- A temporary work around for an upstream bug in GMP when using {{{is_perfect_power()}}}. Resolved a Pari interface bug when using {{{bessel_J(0,0)}}}.
+ * Some fixes for {{{is_perfect_power}}} and {{{bessel_J(0,0)}}} (Craig Citro, Robert Bradshaw, Robert Miller) -- A temporary work around for an upstream bug in GMP when using {{{is_perfect_power()}}}. Resolved a Pari interface bug when using {{{bessel_J(0,0)}}}.
 
  * Improved performance for generic polynomial rings, and for univariate polynomial arithmetic over {{{Z/nZ[x]}}} (Yann Laigle-Chapuy, Martin Albrecht) -- Improved performance when performing modulo arithmetic between elements of a generic polynomial ring. Univariate polynomial arithmetic over {{{Z/nZ[x]}}} now has considerable speed-up at approximately 20x.
 
@@ -40,6 +40,8 @@ Here's a summary of features in this release, categorized under various headings
  * Make {{{bernoulli_polynomial}}} independent of Maxima (Craig Citro) -- A rewrite of {{{bernoulli_polynomial}}} to avoid using Maxima completely in computing Bernoulli polynomials. This gives roughly a factor of 10 speedup.
 
 == Coding Theory ==
+
+ * Weight distribution for binary codes (Robert Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation.
 
 == Coercion ==
 
