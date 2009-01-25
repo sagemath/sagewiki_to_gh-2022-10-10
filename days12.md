@@ -110,3 +110,6 @@ Though a small group will focus on discussing and implementation Jean-Charles Fa
  1. Timothy Clemans
  1. David Harvey
  * Kiran Kedlaya
+
+== Pictures ==
+ * by [[http://www.flickr.com/photos/martinralbrecht/tags/sagedays12/|Martin Albrecht]]
