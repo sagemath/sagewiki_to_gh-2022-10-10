@@ -166,3 +166,5 @@ Here's a summary of features in this release, categorized under various headings
  * Added a {{{hg_examples}}} Mercurial wrapper for the examples repository (Mike Hansen).
 
 == Website/Wiki ==
+
+ * The trac server now displays the comments of a Mercurial diff (Robert Bradshaw).
