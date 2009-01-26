@@ -21,7 +21,7 @@ Here's a summary of features in this release, categorized under various headings
 
 == Build ==
 
- * Upgrade ATLAS in Sage to version 3.8.2 (Michael Abshoff) -- An update of the ATLAS spkg to the upstream version 3.8.2. This upstream version now provides: (1) better detection of Pentium D and E; (2) detect more Core2Duos cores; and (3) properly detect Dunnington cores. Versions 3.8.x for x < 2 sometimes detect a modern CPU architecture as an older architecture, hence causing a massive blow up in the time it takes to compile ATLAS on systems like Xeon core 2 quad, Itanium 2, and Xeon E5420.
+ * Upgrade ATLAS in Sage to version 3.8.2 (Michael Abshoff) -- An update of the ATLAS spkg to the upstream version 3.8.2. This upstream version now provides: (1) better detection of Pentium D and E; (2) detect more Core 2 Duo cores; and (3) properly detect Dunnington cores. Versions 3.8.x for x < 2 sometimes detect a modern CPU architecture as an older architecture, hence causing a massive blow up in the time it takes to compile ATLAS on systems like Xeon core 2 quad, Itanium 2, and Xeon E5420.
 
  * Update optional Sage package polymake (Michael Abshoff) -- The updated optional Sage package is polymake-2.2.p5. Earlier versions hard coded spkg versions of cddlib and gmp, and could cause polymake to break in Sage versions 3.0.3 and 3.0.4.
 
