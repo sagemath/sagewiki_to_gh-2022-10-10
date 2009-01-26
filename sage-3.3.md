@@ -109,8 +109,6 @@ Here's a summary of features in this release, categorized under various headings
 
  * Added a kernel method for sparse integer matrices (John Palmieri).
 
-== Memory Leak ==
-
 == Miscellaneous ==
 
 == Modular Forms ==
