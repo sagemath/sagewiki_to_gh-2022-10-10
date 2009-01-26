@@ -159,7 +159,7 @@ Here's a summary of features in this release, categorized under various headings
 
 == Solaris ==
 
- * Solaris 10 (Michael Abshoff) -- Upgrade libgcrypt to version 1.4.3
+ * Upgrade libgcrypt to version 1.4.3 and force the function {{{get_memory_usage()}}} to fall back to using {{{top}}} when not on Linux (Michael Abshoff).
 
 == User Interface ==
 
