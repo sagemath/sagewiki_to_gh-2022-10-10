@@ -155,6 +155,8 @@ Here's a summary of features in this release, categorized under various headings
 
 == Porting ==
 
+ * OS X 64-bit (Michael Abshoff) -- Added proper {{{libcsage}}} build support, and [[http://www.singular.uni-kl.de|Singular]] is now built using the flag "{{{--with-malloc=system}}}".
+
 == Solaris ==
 
 == User Interface ==
