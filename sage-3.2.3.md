@@ -35,7 +35,7 @@ Here's a summary of features in this release, categorized under various headings
 
  * Numerical noise in Sage 3.2.2 (Michael Abshoff) -- Compiling with GCC 4.3.2, the module {{{sage/rings/number_field/number_field_morphisms.pyx}}} exhibited numerical noise during doctesting.
 
- * {{{matrix1.pyx}}} reference related doctest crash (William Stein) -- 
+ * {{{matrix1.pyx}}} reference related doctest crash (William Stein)
 
 == Graphics ==
 
