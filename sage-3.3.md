@@ -117,8 +117,6 @@ Here's a summary of features in this release, categorized under various headings
 
  * The function {{{CremonaDatabase().number_of_curves()}}} now works even when the optional Cremona database isn't installed (Alex Ghitza).
 
-== Modular Forms ==
-
 == Notebook ==
 
 == Number Theory ==
