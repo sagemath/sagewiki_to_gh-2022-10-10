@@ -50,10 +50,12 @@ Sage 3.2.3 was released on January 5th, 2009. For the official, comprehensive re
 
 == Notebook ==
 
-== Number Theory ==
+ * By default, the twisted package is no longer imported at startup (William Stein).
 
-== Optional Packages ==
+ * Support "application shortcut" in chrome and gears (Alexander Hupfer, Timothy Clemans).
 
 == Packages ==
 
-== Solaris ==
+ * Upgrade FLINT to version 1.0.21 (Michael Abshoff).
+
+ * Upgrade ECM to version 6.2.1 (Michael Abshoff).
