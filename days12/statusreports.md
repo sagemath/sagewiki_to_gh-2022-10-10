@@ -27,3 +27,5 @@ If you were at Sage Days 12, add your name and your status report below.
  * [[days12/statusreports/simonking|Simon King]]
 
  * [[days12/statusreports/tomboothby|Tom Boothby]]
+
+ * [[days12/statusreports/jasongrout|Jason Grout]]
