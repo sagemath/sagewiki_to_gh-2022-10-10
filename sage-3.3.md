@@ -141,6 +141,18 @@ Here's a summary of features in this release, categorized under various headings
 
 == Packages ==
 
+ * Switch gmp to eMPIRe svn1555 (Michael Abshoff) -- The package {{{eMPIRe.spkg}}} is a drop in for the previous package {{{gmp-4.2.1.spkg}}}.
+
+ * Upgrade [[http://ecm.gforge.inria.fr|GMP-ECM]] to version 6.2.1 (Michael Abshoff).
+
+ * Move [[http://jquery.com|jquery]] into its own spkg (Jason Grout).
+
+ * Upgrade [[http://www.selenic.com/mercurial/wiki|Mercurial]] to version 1.1.2 (Mike Hansen).
+
+ * OS X 64-bit (Michael Abshoff) -- Added 64-bit build support for [[http://sourceforge.net/projects/pynac|PyNaC]], [[http://www.r-project.org|R]], [[http://ghmm.sourceforge.net|GHMM]], and [[http://bdwgc.sourceforge.net|Boehm GC]]. Also added {{{fortran-OSX64-20090120.spkg}}} to the experimental spkg repository.
+
+ * Upgrade [[http://ipython.scipy.org/moin|IPython]] to version 0.9.1 (Mike Hansen).
+
 == Porting ==
 
 == Solaris ==
