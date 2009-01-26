@@ -45,6 +45,8 @@ Here's a summary of features in this release, categorized under various headings
 
  * Make {{{bernoulli_polynomial}}} independent of Maxima (Craig Citro) -- A rewrite of {{{bernoulli_polynomial}}} to avoid using Maxima completely in computing Bernoulli polynomials. This gives roughly a factor of 10 speedup.
 
+ * Support integration without explicit variable declaration (Karl-Dieter Crisman).
+
 == Coding Theory ==
 
  * Weight distribution for binary codes (Robert Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation.
