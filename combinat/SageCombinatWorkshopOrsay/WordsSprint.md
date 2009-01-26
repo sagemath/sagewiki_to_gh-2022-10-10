@@ -10,7 +10,7 @@
 
  * New classes:
    * '''Sebastien, Vincent''': Language
-   * '''Vincent''': FixedPointOfMorphism (things like the language, complexity, ..., can be computed).
+   * '''Vincent''': FixedPointOfMorphism (things like the language, iterator with logarithmic storage, complexity, ..., can be computed).
    * Lyndon word class
    * Dyck Word, discussions about getting DyckWord to inherit from Language, comparisons of efficiency.
    * bi-infinite words, or more generally, words indexed by objects other than integers
