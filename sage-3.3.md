@@ -159,6 +159,8 @@ Here's a summary of features in this release, categorized under various headings
 
 == Solaris ==
 
+ * Solaris 10 (Michael Abshoff) -- Upgrade libgcrypt to version 1.4.3
+
 == User Interface ==
 
 == Website/Wiki ==
