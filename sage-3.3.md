@@ -137,6 +137,8 @@ Here's a summary of features in this release, categorized under various headings
 
 == Optional Packages ==
 
+ * Modular polynomials database (Alex Ghitza) -- Remove the use of {{{polydict}}} in {{{databases/db_modular_polynomials.py}}}. 
+
 == Packages ==
 
 == Porting ==
