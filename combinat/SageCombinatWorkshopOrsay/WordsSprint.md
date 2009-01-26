@@ -23,8 +23,8 @@
    * Random Testing (how do we do this?)
 
  * Geometrization:
-   * WordMorphism, following the work of G. Rauzy, A. Siegel, P. Arnoux, ...
-   * Word Paths, via words as paths in a lattice
+   * '''Vincent, Sebasiten, Franco''': WordMorphism, following the work of G. Rauzy, A. Siegel, P. Arnoux, ...
+   * '''Sebastien''': Word Paths, via words as paths in a lattice
 
  * Miscellaneous:
    * add notes about words library
