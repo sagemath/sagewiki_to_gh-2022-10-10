@@ -163,4 +163,6 @@ Here's a summary of features in this release, categorized under various headings
 
 == User Interface ==
 
+ * Added a {{{hg_examples}}} Mercurial wrapper for the examples repository (Mike Hansen).
+
 == Website/Wiki ==
