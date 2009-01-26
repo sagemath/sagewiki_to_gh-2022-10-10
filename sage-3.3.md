@@ -129,6 +129,12 @@ Here's a summary of features in this release, categorized under various headings
 
 == Number Theory ==
 
+ * Number field ideal utilities (John Cremona, Maite Aranes) -- New function {{{invertible_residues()}}} for iterating through only the invertible residues modulo an integral ideal. New function {{{element_1_mod()}}} such that {{{A.element_1_mod(B)}}} returns some {{{a}}} in {{{A}}} such that {{{1 - a}}} is in {{{B}}}.
+
+ * New function {{{random_element}}} for returning a random element of a number field (Alex Ghitza).
+
+ * Elliptic curve function {{{integral_points()}}} misses some points (John Cremona) -- Francois Glineur reported that for the elliptic curve {{{20160bg2}}}, the output of {{{integral_points()}}} misses the points {{{x = 168}}} and {{{x = 381}}}. This problem has been narrowed down to the function {{{point_preprocessing()}}}, and the bug is now fixed.
+
 == Numerical ==
 
 == Optional Packages ==
