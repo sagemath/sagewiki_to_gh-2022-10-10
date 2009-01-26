@@ -6,7 +6,7 @@
    * special class for words over an alphabet of at most two letters (each letter takes one bit)
    * '''Franco''': consider using Streams and (Lazy)Familys here. [Streams doesn't exactly do what we need, but the ideas are interesting (caching)]
    * discussion about the content-datastructure-as-subobject (anti?)design pattern
-   * '''Franco''': allow for words over arbitrary alphabets? (example, the alphabet of the elements of a group) [Franco can implement any CombinatorialClass as an alphabet]
+   * DONE '''Franco''': allow for words over arbitrary alphabets? (example, the alphabet of the elements of a group) [Franco can implement any CombinatorialClass as an alphabet]
 
  * New classes:
    * '''Sebastien, Vincent''': Language
@@ -30,6 +30,6 @@
    * add notes about words library
    * trac #4954: Words_over_Alphabet should check the type of input alphabet (related to allowing CombinatorialClass as alphabets)
    * finish and post words_new_fct_sl.patch to trac #5037
-   * discussions regarding the trac #5002
+   * [DONE: Franco implemented an alphabet of integers, ordered naturally] discussions regarding the trac #5002
    * look through the algorithms for finite words, and identify the ones that need improvement (some are really slow, like ''is_subword_of'')
    * WordMorphism, inherits from SageObject and it should be a more general Morphism class.
