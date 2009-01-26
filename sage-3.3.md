@@ -111,6 +111,12 @@ Here's a summary of features in this release, categorized under various headings
 
 == Miscellaneous ==
 
+ * Rewrite of the function {{{__getitem__}}} (Jason Grout, Craig Citro) -- A rewrite of the function {{{__getitem__}}} in {{{matrix/matrix0.pyx}}} to better support slices, negative indices, and improved performance.
+
+ * Function {{{get_memory_usage()}}} now return a float on all platforms (William Stein).
+
+ * The function {{{CremonaDatabase().number_of_curves()}}} now works even when the optional Cremona database isn't installed (Alex Ghitza).
+
 == Modular Forms ==
 
 == Notebook ==
