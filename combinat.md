@@ -25,4 +25,6 @@ See the [[http:/combinat/RoadMap|road map and current status]] of the port.
 
   - [[http:/combinat/Mercurial|Advanced instructions]].
 
+  - [[http:/combinat/MercurialStepByStep|Step by step instructions]].
+
  - Contribute to the list of [[http:/combinat/Weirdness|quirks and weirdness issues]] in the *-Combinat design;
