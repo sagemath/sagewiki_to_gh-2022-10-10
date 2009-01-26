@@ -59,7 +59,7 @@ Add topics that you want discuss or work on. Add your name next to anything you'
  * Patch a first version of code for the combinatoric of interval exchange transformations and their generalizations. It will be a hard task to choose names because standards one are Permutation and GeneralizedPermutation which are confusing ! Perhaps IETPermutation... but not very beautiful.
 
 '''Documentation'''
- * '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better.
+ * '''1st version DONE see [[http:/combinat/MercurialStepByStep|step by step instructions]]''' '''Patch Server Guide''' -- Write a better guide for the patch server. It's currently way too long, and a shorter, concise version would be better.
  * '''User's Guide''' -- descriptions of and how to use the fundamental sage-combinat data structures: CombinatorialClass, CombinatorialObject, CombinatorialFreeModule, Categories, Family, ...
 
 '''Posets''' (FrancoSaliola)
