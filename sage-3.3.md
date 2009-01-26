@@ -119,6 +119,14 @@ Here's a summary of features in this release, categorized under various headings
 
 == Notebook ==
 
+ * Interact cells in the notebook are not automatically evaluated (Mike Hansen).
+
+ * Clear browser cache when restarting the worksheet (Mike Hansen).
+
+ * Update jsmath to version 3.6 (Jason Grout).
+
+ * In-line WYSIWYG editor for text cells using [[http://tinymce.moxiecode.com|TinyMCE]] (Jason Grout).
+
 == Number Theory ==
 
 == Numerical ==
