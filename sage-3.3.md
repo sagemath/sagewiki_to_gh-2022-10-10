@@ -97,6 +97,18 @@ Here's a summary of features in this release, categorized under various headings
 
 == Linear Algebra ==
 
+ * Multiplication of sparse matrices over finite fields (William Stein, Craig Citro) -- Significant performance improvement when multiplying two sparse matrices over the same finite field. In some cases, performance is about 37 times faster than previously.
+
+ * Minimum polynomials for {{{GF(p)}}} (Alex Ghitza).
+
+ * Matrix exponential for general matrices (Jason Grout) -- Added a generic matrix exponential that depends on Maxima's matrix exponentiation function. If the matrix has floating point numbers, these will be rounded automatically to rational numbers during the computation. For numerical approximations to the exponential, one can first convert the matrix to RDF or CDF.
+
+ * 100% doctest coverage for {{{matrix/constructor.py}}}, {{{matrix/misc.pyx}}}, {{{matrix/matrix_generic_dense.pyx}}} (William Stein) -- Apart from the full doctest coverage, calculating the lift of a matrix is now 20 times faster than previously.
+
+ * Improved performance for method {{{density()}}} in {{{matrix/matrix_modn_sparse.pyx}}} (Craig Citro).
+
+ * Added a kernel method for sparse integer matrices (John Palmieri).
+
 == Memory Leak ==
 
 == Miscellaneous ==
