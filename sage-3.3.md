@@ -29,6 +29,12 @@ Here's a summary of features in this release, categorized under various headings
 
  * Improved performance for generic polynomial rings, and for univariate polynomial arithmetic over {{{Z/nZ[x]}}} (Yann Laigle-Chapuy, Martin Albrecht) -- Improved performance when performing modulo arithmetic between elements of a generic polynomial ring. Univariate polynomial arithmetic over {{{Z/nZ[x]}}} now has considerable speed-up at approximately 20x.
 
+ * Deprecate the function {{{sqrt_approx()}}} (David Roe) -- To obtain a numerical approximation of the square root of a ring element (integers, polynomials over {{{GF(2^x)}}}, rationals), users are advised to use the function {{{sqrt()}}} with a given number of bits of precision instead.
+
+ * Use Pohlig-Hellman for generic discrete logarithm (Yann Laigle-Chapuy) -- This results in significant improvement in performance and less memory foot print.
+
+ * Exact division syntax in finite fields of prime order (David Roe) -- Support the division operator {{{//}}} for finite fields of prime order.
+
 == Build ==
 
  * 64-bit OSX (Michael Abshoff) -- Fixed 64-bit OSX build support for f2c, added 64-bit OSX build support for tachyon, added 64-bit OSX build support for flintqs, and added persistent Sage 64-bit building switch on OSX and Solaris.
