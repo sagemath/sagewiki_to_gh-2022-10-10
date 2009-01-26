@@ -135,8 +135,6 @@ Here's a summary of features in this release, categorized under various headings
 
  * Elliptic curve function {{{integral_points()}}} misses some points (John Cremona) -- Francois Glineur reported that for the elliptic curve {{{20160bg2}}}, the output of {{{integral_points()}}} misses the points {{{x = 168}}} and {{{x = 381}}}. This problem has been narrowed down to the function {{{point_preprocessing()}}}, and the bug is now fixed.
 
-== Numerical ==
-
 == Optional Packages ==
 
 == Packages ==
