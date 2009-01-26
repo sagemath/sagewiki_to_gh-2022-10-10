@@ -92,3 +92,4 @@ If you would like to give a talk, for example, to demonstrate your code, then ad
  * '''Cythonize python files''' -- The key points to do when translating a python file already in sage into cython. (Who wants to lead this?)
  * '''The new category framework''' -- Design and usage (NicolasThiery)
  * '''Root system plots''' -- Demo (NicolasBorie)
+ * '''Word paths and/or Equations on words''' -- Demo (Sébastien Labbé)
