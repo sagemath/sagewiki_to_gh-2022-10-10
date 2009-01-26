@@ -1,6 +1,6 @@
 = Sage 3.2.3 Release Tour =
 
-Sage 3.2.3 was released on FIXME. For the official, comprehensive release notes, see [[http://www.sagemath.org/src/announce/sage-3.2.3.txt|sage-3.2.3.txt]].
+Sage 3.2.3 was released on January 5th, 2009. For the official, comprehensive release notes, see [[http://www.sagemath.org/src/announce/sage-3.2.3.txt|sage-3.2.3.txt]].
 
 == Algebra ==
 
@@ -36,13 +36,17 @@ Sage 3.2.3 was released on FIXME. For the official, comprehensive release notes,
 
  * Fix fallout in refactoring the plotting module (William Stein, Mike Hansen) -- Sage 3.2.1 refactored {{{plot.py}}} so that it was splitted up into multiple modules. However, the functions xmin/xmax/ymin/ymax were all removed without deprecating them. These are now added back exactly as before, since they are depended upon by a lot of plotting code.
 
-== Interfaces ==
-
 == Linear Algebra ==
+
+ * Upgrade ATLAS to version 3.8.2 (Michael Abshoff).
 
 == Miscellaneous ==
 
-== Modular Forms ==
+ * Remove ancient files (Michael Abshoff) -- The following files are now removed from Sage
+
+    1. sage/functions/elementary.py 
+    1. sage/rings/interval.py
+    1. sage/schemes/elliptic_curves/heegner.py
 
 == Notebook ==
 
