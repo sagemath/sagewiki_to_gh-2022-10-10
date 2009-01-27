@@ -35,6 +35,8 @@ Here's a summary of features in this release, categorized under various headings
 
  * Exact division syntax in finite fields of prime order (David Roe) -- Support the division operator {{{//}}} for finite fields of prime order.
 
+ * Consistent integer hashing (Craig Citro).
+
 == Build ==
 
  * 64-bit OSX (Michael Abshoff) -- Fixed 64-bit OSX build support for f2c, added 64-bit OSX build support for tachyon, added 64-bit OSX build support for flintqs, and added persistent Sage 64-bit building switch on OSX and Solaris.
@@ -66,6 +68,8 @@ Here's a summary of features in this release, categorized under various headings
  * GCD of polynomials over finite fields (Martin Albrecht) -- Previously when using  ibsingular to compute the GCD of two (multivariate) polynomials over finite fields, Sage would segfault whenever the base rings are not identical.
 
  * Deprecate {{{Ideal.reduced_basis}}} (John Perry) -- The previous name {{{Ideal.reduced_basis}}} is misleading as it suggests that it can be used for computing the reduced Gröbner basis, when in fact it returns the interreduced basis. Thus {{{Ideal.reduced_basis()}}} is now deprecated and users are encouraged to use {{{Ideal.interreduced_basis()}}} instead.
+
+ * Factoring multivariate polynomials over non-prime finite fields (William Stein) -- The factoring algorithm works as follow. If {{{f}}} is a polynomial over a non-prime finite field, factoring {{{f}}} is reduced to factoring over a prime field and using GCD over the non-prime field.
 
 == Distribution ==
 
@@ -124,6 +128,8 @@ Here's a summary of features in this release, categorized under various headings
  * Function {{{get_memory_usage()}}} now return a float on all platforms (William Stein).
 
  * The function {{{CremonaDatabase().number_of_curves()}}} now works even when the optional Cremona database isn't installed (Alex Ghitza).
+
+ * Set iteration for finite sets (Robert Miller) -- Set iteration is now implemented for finite sets.
 
 == Notebook ==
 
