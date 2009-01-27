@@ -1,6 +1,6 @@
 = Sage-Combinat workshop in Orsay =
 
-{{attachment:logo_UFR.png||width=50}} {{attachment:logo_u-psud.png||width=200}}
+{{attachment:logo_UFR.png||width=80}} {{attachment:logo_u-psud.png||width=200}}
 
 January 26-30 of 2009
 
