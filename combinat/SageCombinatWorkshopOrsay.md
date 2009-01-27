@@ -1,10 +1,10 @@
-= Sage-Combinat workshop in Orsay = {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}} {{attachment:logo_u-psud.png|Université Paris Sud|width=200}}
+= Sage-Combinat workshop in Orsay = 
 
 January 26-30 of 2009
 
 Purpose: work on the foundations and get former MuPAD-Combinat developers on board. See below for details.
 
-Sponsored by: 
+Sponsored by: {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}} {{attachment:logo_u-psud.png|Université Paris Sud|width=200}}
 
 == Accomodation ==
 
