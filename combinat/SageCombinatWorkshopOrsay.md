@@ -1,4 +1,4 @@
-= Sage-Combinat workshop in Orsay =
+={{attachment:logo_UFR.png}} Sage-Combinat workshop in Orsay {{attachment:logo_u-psud.png}}=
 
 January 26-30 of 2009
 
