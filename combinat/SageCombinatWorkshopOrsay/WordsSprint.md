@@ -4,7 +4,7 @@
    * faster [some caching will be implemented]
    * space efficient
    * special class for words over an alphabet of at most two letters (each letter takes one bit)
-   * '''Franco''': consider using Streams and (Lazy)Familys here. [Streams doesn't exactly do what we need, but the ideas are interesting (caching)]
+   * '''[DONE: Franco added two new classes for caching for words from iterators and functions; caching can be turned off through WordOptions]''': consider using Streams and (Lazy)Familys here. [Streams doesn't exactly do what we need, but the ideas are interesting (caching)]
    * discussion about the content-datastructure-as-subobject (anti?)design pattern
    * '''[DONE: Franco implemented any CombinatorialClass as an alphabet]''' : allow for words over arbitrary alphabets? (example, the alphabet of the elements of a group) 
 
