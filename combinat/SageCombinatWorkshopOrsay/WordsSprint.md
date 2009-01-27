@@ -28,7 +28,7 @@
 
  * Miscellaneous:
    * add notes about words library
-   * trac #4954: Words_over_Alphabet should check the type of input alphabet (related to allowing CombinatorialClass as alphabets)
+   * '''[DONE: Sebastien's patch is in the s-combinat tree]''' trac #4954: Words_over_Alphabet should check the type of input alphabet (related to allowing CombinatorialClass as alphabets)
    * finish and post words_new_fct_sl.patch to trac #5037
    * '''[DONE: Franco implemented an alphabet of integers, ordered naturally]''' discussions regarding the trac #5002
    * look through the algorithms for finite words, and identify the ones that need improvement (some are really slow, like ''is_subword_of'')
