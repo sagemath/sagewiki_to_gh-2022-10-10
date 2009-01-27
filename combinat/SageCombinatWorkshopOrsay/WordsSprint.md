@@ -17,7 +17,7 @@
    * bi-infinite alphabets (like integers)
 
  * New words:
-   * Generalized Thue-Morse words to words.[TAB]
+   * '''[DONE: Sebastien]''' Generalized Thue-Morse words to words.[TAB]
    * [needs fixing] Add Random Word (combine arguments m and alphabet)
    * fix random_element for Words 
    * Random Testing (how do we do this?)
