@@ -39,5 +39,5 @@ Wednesday, March 11:
   * afternoon/evening projects and discussion by people interested in coding
 
 Thursday, March 12:
-  * 3pm: Project wrapups and discussion
+  * 1pm: Project wrapups and discussion
 }}}
