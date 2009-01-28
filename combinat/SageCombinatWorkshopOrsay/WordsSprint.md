@@ -1,6 +1,7 @@
 '''Words Sprint''' (FrancoSaliola, Sébastien Labbé, Vincent Delecroix)
 
  * New implementation for words:
+   * new design of the abstract words (here : SemanticOfWords)
    * faster [some caching will be implemented]
    * space efficient
    * special class for words over an alphabet of at most two letters (each letter takes one bit)
