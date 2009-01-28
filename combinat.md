@@ -2,13 +2,13 @@
 
 Sage-combinat is a collection of experimental patches (i.e. extensions) on top of [[http://www.sagemath.org/|Sage]], developed by a community in algebraic combinatorics. Its main purpose is to improve Sage as an extensible toolbox for computer exploration, and foster code sharing between researchers in this area. The intent is that most of those patches eventually will get integrated into sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
 
-=== NEWS: January 2009: Upcoming Sage Combinat workshop in Orsay ===
+=== NEWS: 2009-01-26: Sage-Combinat workshop in Orsay ===
 
-There will be a [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop]] in Orsay on the last week of January 2009.
+There is a [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop]] in Orsay on the last week of January 2009.
 
 === NEWS: 2008-06-19: MuPAD-Combinat join forces with Sage ===
 
-Sage-combinat was born as a partial port of [[http://mupad-combinat.sf.net|MuPAD-Combinat]]. After months of discussions and experiments, an enthusiastic consensus emerged in the MuPAD-Combinat community to join Sage. Sage-combinat henceforth became the natural successor of MuPAD-Combinat.
+Sage-combinat was born as a partial port of [[http://mupad-combinat.sf.net|MuPAD-Combinat]]. After months of discussions and experiments, an enthusiastic consensus emerged in the MuPAD-Combinat community to join Sage. Sage-combinat henceforth became the natural successor of {{{MuPAD-Combinat}}}.
 
 The transition is going to be a massive investment: seven years of hard work to port over! However a lot of experience was gained since 2000, and most of the design is now pretty clear. By sharing the work the transition will hopefuly be relatively quick.
 
