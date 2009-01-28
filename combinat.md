@@ -23,6 +23,6 @@ See the [[http:/combinat/RoadMap|road map and current status]] of the port.
 
   - [[http:/combinat/MercurialBasic|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
 
-  - [[http:/combinat/Mercurial|Messy technical background on the {{{Sage-Combinat}}} patch server]].
+  - [[http:/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
 
  - Contribute to the list of [[http:/combinat/Weirdness|quirks and weirdness issues]] in the {{{*-Combinat}}} design;
