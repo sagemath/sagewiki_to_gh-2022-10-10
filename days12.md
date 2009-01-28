@@ -31,6 +31,7 @@ Sage is a free open-source mathematics software system licensed under the GPL. I
  * [[/abstracts|Abstracts]]
  * Slides for the first two talks: [[attachment:craig-stein.pdf|PDF]] and [[attachment:craig-stein.sws|SWS]]
  * Slides of Simon's talk on [[attachment:Cohomology2.pdf|Cohomology]]
+ * Slides of John's talk on [[attachment:F5SageDays12.pdf|F5]]
 
 == Date and Location ==
 
