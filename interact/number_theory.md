@@ -822,3 +822,4 @@ def line_from_curve_points(E,P,Q,style='-',rgb=(1,0,0),length=25):
 		f(x) = l * (x - P[0]) + P[1]
 		return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
 }}}
+{{attachment:PointAddEllipticCurve.png}}
