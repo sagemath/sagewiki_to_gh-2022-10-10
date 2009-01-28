@@ -27,11 +27,35 @@ the iterator
  * emptyness
  * reversal  -->  reversed operation
  * is_palindrome  -->  check for finiteness and length and use, depending on that reversed operator
- * is_square
- * is_square_free
- * is_cube
- * is_cube_free
  * is_quasi_periodic
+ * conjugation
+ * is_cadence
+ * longest_common_prefix
+ * longest_common_suffix
+ * period
+ * order
+ * critical exponent
+ * is_overlap
+ * is_primitive
+
+ * exponent
+ * is_cube
+ * is_square
+
+ * is_square_free
+ * is_cube_free
+
+
+ * factor_occurences
+
+ * return_words
+ * complete_return_words
+
+ * delta
+ * delta_inv
+
+ * phi
+ * mappings
 
 == middle level ==
  * is_subfactor_of
