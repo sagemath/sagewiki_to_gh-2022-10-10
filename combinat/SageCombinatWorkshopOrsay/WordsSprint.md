@@ -20,7 +20,7 @@
    * '''[DONE: Sebastien]''' Generalized Thue-Morse words to words.[TAB]
    * [needs fixing] Add Random Word (combine arguments m and alphabet)
    * fix random_element for Words 
-   * Random Testing (how do we do this?)
+   * Random Testing (how do we do this?) See : http://www.sagemath.org/doc/prog/node14.html
 
  * Geometrization:
    * '''Vincent, Sebasiten, Franco''': WordMorphism, following the work of G. Rauzy, A. Siegel, P. Arnoux, ...
