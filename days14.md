@@ -24,7 +24,7 @@ This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry pr
 
 Participants needing hotel room (please add your name and dates here):
 
- * William Stein ()
+ * William Stein (arrive March 9; leave March 12)
  * Justin Walker ()
  * Alex Ghitza (March 8 to March 13)
 
