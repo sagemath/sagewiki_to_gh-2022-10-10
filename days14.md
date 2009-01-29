@@ -10,17 +10,23 @@ This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry pr
 
  * Local organizers: David Eisenbud (UC Berkeley), Daniel Erman (UC Berkeley), Dan Grayson (University of Illinois at Urbana-Champaign), Mike Stillman (Cornell University)
 
- * Sage organizers: William Stein (University of Washington), Mike Hansen (University fo Washington)
+ * Sage organizers: William Stein (University of Washington), Mike Hansen (University of Washington)
 
 == Participants ==
 
- * Confirmed: Mike Hansen, Justin Walker, Andrey Novoseltsev
+ * Confirmed: Mike Hansen, Justin Walker, Andrey Novoseltsev, Alex Ghitza
 
- * Likely: Alex Ghitza, Emily Kirkman, Kiran Kedlaya (probably March 11-12)
+ * Likely: Emily Kirkman, Kiran Kedlaya (probably March 11-12)
 
 == Hotel ==
 
  * We have a block of 8 rooms reserved at [[http://www.rosegardeninn.com/| the Rose Garden Inn]].
+
+Participants needing hotel room (please add your name and dates here):
+
+ * William Stein ()
+ * Justin Walker ()
+ * Alex Ghitza (March 8 to March 13)
 
 == Very Tentative Schedule ==
 
