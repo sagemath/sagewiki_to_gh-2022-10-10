@@ -32,18 +32,20 @@ Participants needing hotel room (please add your name and dates here):
 
 {{{
 Tuesday, March 10:
-  * 9 - 10 am William Stein: Introduction to Sage
-  * 10:30 - 11:30am Mike Hansen: The Sage/Macaulay2 interface
-  * 1:00 - 2:00 pm: Alex Ghitza: Algebraic Geometry using Sage
-  * 2:30 - 3:30 pm Andrey Novoseltsov: Lattice Polytopes using Sage
-  * 4:00 - 5:30 pm Justin Walker et al.: Interactive Sage Tutorial
-  * evening projects and discussion by people interested in coding
+ * 9 - 10 am William Stein: Introduction to Sage
+ * 10:30 - 11:30 David Eisenbud: Introduction to Macaulay2
+ * 1:00 - 2:00pm Mike Hansen: The Sage/Macaulay2 interface
+ * 2:30 - 3:30 pm: Alex Ghitza: Algebraic Geometry using Sage
+ * 4:00 - 5:30 pm Justin Walker et al.: Interactive Sage Tutorial (for command line users)
+ * evening projects and discussion by people interested in coding
 
 Wednesday, March 11:
-  * 10:00am - 12:00 pm: William Stein: informal discussion about mathematical software -- what do you want?
-  * 1:30 - 3:00 pm Justin Walker et al.: Interactive Sage Tutorial, part 2
-  * afternoon/evening projects and discussion by people interested in coding
+ * 9:30 - 10:30 am Andrey Novoseltsov: Lattice Polytopes using Sage
+ * 11:00am - 12:00 pm: William Stein et al.: discussion about
+mathematical software -- what do you want?
+ * 1:30 - 3:00 pm Mike Hansen et al.: Interactive Sage Tutorial (for notebook users)
+ * afternoon/evening projects and discussion by people interested in coding
 
 Thursday, March 12:
-  * 1pm: Project wrapups and discussion
+ * 1pm: Project wrapups and discussion
 }}}
