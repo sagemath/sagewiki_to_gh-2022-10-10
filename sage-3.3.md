@@ -7,9 +7,11 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Merge small to medium sized patches ready to go in
  * Switch to [[http://www.mpir.org|eMPIRe]] for multi-precision integers and rationals
  * Switch to [[http://ecls.sourceforge.net|ecl]] for a Common Lisp implementation
- * Update [[http://www.python.org|Python]] to 2.5.4
- * Update [[http://pari.math.u-bordeaux.fr|Pari]] to 2.3.4svn
+ * Update [[http://www.python.org|Python]] to 2.5.4 upstream release
+ * Update [[http://pari.math.u-bordeaux.fr|Pari]] to 2.3.4svn upstream release
  * Switch to [[http://www.flintlib.org|FLINT]] for univariate polynomial arithmetic over {{{Z/nZ}}}
+ * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
+ * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
 
 Here's a summary of features in this release, categorized under various headings.
 
@@ -91,6 +93,8 @@ Here's a summary of features in this release, categorized under various headings
 
  * Equality testing in graphs (Robert Miller) -- The "weighted" property or edge label is taken into account when testing for equality in graphs.
 
+ * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 (Robert Miller, Michael Abshoff).
+
 == Graphics ==
 
  * Plotting a region (Arnaud Bergeron) -- Plot a region where a system of equations/inequalities were true.
@@ -161,6 +165,8 @@ Here's a summary of features in this release, categorized under various headings
 
  * Elliptic curve (Robert Bradshaw) -- Support for the construction of an elliptic curve via a Weierstrass equation. The Weierstrass equation can be passed as an argument to {{{EllipticCurve()}}}.
 
+ * Separating relative number fields from generic/absolute number fields (Nick Alexander) -- Functionalities in the module {{{rings/number_field/number_field.py}}} that deal with relative number fields are now wrapped inside the new module {{{rings/number_field/number_field_rel.py}}}.
+
 == Optional Packages ==
 
  * Modular polynomials database (Alex Ghitza) -- Remove the use of {{{polydict}}} in {{{databases/db_modular_polynomials.py}}}. 
@@ -178,6 +184,8 @@ Here's a summary of features in this release, categorized under various headings
  * OS X 64-bit (Michael Abshoff) -- Added 64-bit build support for [[http://sourceforge.net/projects/pynac|PyNaC]], [[http://www.r-project.org|R]], [[http://ghmm.sourceforge.net|GHMM]], and [[http://bdwgc.sourceforge.net|Boehm GC]]. Also added {{{fortran-OSX64-20090120.spkg}}} to the experimental spkg repository.
 
  * Upgrade [[http://ipython.scipy.org/moin|IPython]] to version 0.9.1 (Mike Hansen).
+
+ * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release (Sebastien Barthelemy).
 
 == Porting ==
 
