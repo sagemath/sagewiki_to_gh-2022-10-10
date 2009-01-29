@@ -49,6 +49,8 @@ Here's a summary of features in this release, categorized under various headings
 
  * Support integration without explicit variable declaration (Karl-Dieter Crisman).
 
+ * CPU time of a Maxima session (Martin Albrecht) -- The new function {{{cputime()}}} in {{{interfaces/maxima.py}}} returns the amount of CPU time used by a Maxima session.
+
 == Coding Theory ==
 
  * Weight distribution for binary codes (Robert Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation.
@@ -60,6 +62,10 @@ Here's a summary of features in this release, categorized under various headings
  * Move univariate polynomial rings to new coercion model (Robert Bradshaw).
 
 == Combinatorics ==
+
+ * Bell polynomials (Blair Sutton) -- New function {{{bell_polynomial()}}} in {{{combinat/combinat.py}}} returns the Bell polynomial.
+
+ * Covering design (Daniel Gordon) -- New module {{{combinat/designs/covering_design.py}}} adds basic support for covering design. The function {{{best_known_covering_design_www()}}} is an interface to the online database of best known covering design at the [[http://www.ccrwest.org|La Jolla Covering Repository]].
 
 == Commutative Algebra ==
 
@@ -94,6 +100,8 @@ Here's a summary of features in this release, categorized under various headings
  * Polar plot syntax (Jason Grout) -- Polar plot now accepts the syntax {{{(t, 0, 2*pi)}}} for the interval.
 
  * Added a {{{density_plot()}}} function and improve colour map handling (Arnaud Bergeron) -- The {{{density_plot}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Some improve on how colour map is handled.
+
+ * 3-D polygon (Arnaud Bergeron) -- The new function {{{polygon3d()}}} allows for plotting of 3-D polygons.
 
 == Group Theory ==
 
@@ -141,6 +149,8 @@ Here's a summary of features in this release, categorized under various headings
 
  * In-line WYSIWYG editor for text cells using [[http://tinymce.moxiecode.com|TinyMCE]] (Jason Grout).
 
+ * Automatic indentation (Alexander Hupfer, Tom Boothby) -- Automatic indentation for Python code after colons and same level identation. Currently, up to four levels of identation are supported.
+
 == Number Theory ==
 
  * Number field ideal utilities (John Cremona, Maite Aranes) -- New function {{{invertible_residues()}}} for iterating through only the invertible residues modulo an integral ideal. New function {{{element_1_mod()}}} such that {{{A.element_1_mod(B)}}} returns some {{{a}}} in {{{A}}} such that {{{1 - a}}} is in {{{B}}}.
@@ -148,6 +158,8 @@ Here's a summary of features in this release, categorized under various headings
  * New function {{{random_element}}} for returning a random element of a number field (Alex Ghitza).
 
  * Elliptic curve function {{{integral_points()}}} misses some points (John Cremona) -- Francois Glineur reported that for the elliptic curve {{{20160bg2}}}, the output of {{{integral_points()}}} misses the points {{{x = 168}}} and {{{x = 381}}}. This problem has been narrowed down to the function {{{point_preprocessing()}}}, and the bug is now fixed.
+
+ * Elliptic curve (Robert Bradshaw) -- Support for the construction of an elliptic curve via a Weierstrass equation. The Weierstrass equation can be passed as an argument to {{{EllipticCurve()}}}.
 
 == Optional Packages ==
 
