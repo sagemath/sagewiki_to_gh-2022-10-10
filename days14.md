@@ -35,19 +35,23 @@ Reservations may be made by calling 1-800-992-9005 OR directly on their website.
 {{{
 Tuesday, March 10:
  * 9 - 10 am William Stein: Introduction to Sage
- * 10:30 - 11:30 David Eisenbud: Introduction to Macaulay2
+ * 10:30 - 11:30 David Eisenbud and Mike Stillman: Doing Algebraic
+                 Geometry in Macaulay2 -- an introduction
  * 1:00 - 2:00pm Mike Hansen: The Sage/Macaulay2 interface
  * 2:30 - 3:30 pm: Alex Ghitza: Algebraic Geometry using Sage
- * 4:00 - 5:30 pm Justin Walker et al.: Interactive Sage Tutorial (for command line users)
+ * 4:00 - 5:30 pm Justin Walker et al.: Interactive Sage Tutorial (for
+                 command line users)
  * evening projects and discussion by people interested in coding
 
 Wednesday, March 11:
  * 9:30 - 10:30 am Andrey Novoseltsov: Lattice Polytopes using Sage
  * 11:00am - 12:00 pm: William Stein et al.: discussion about
-mathematical software -- what do you want?
- * 1:30 - 3:00 pm Mike Hansen et al.: Interactive Sage Tutorial (for notebook users)
+             mathematical software -- what do you want?
+ * 1:30 - 3:00 pm Mike Hansen et al.: Interactive Sage Tutorial (for
+             notebook users)
  * afternoon/evening projects and discussion by people interested in coding
 
 Thursday, March 12:
- * 1pm: Project wrapups and discussion
+ * 10:30 - 11:30am Dan Bump: something about representation theory (?)
+              using sage
 }}}
