@@ -52,6 +52,6 @@ Wednesday, March 11:
  * afternoon/evening projects and discussion by people interested in coding
 
 Thursday, March 12:
- * 10:30 - 11:30am Dan Bump: something about representation theory (?)
-              using sage
-}}}
+ * 10:30 - 11:30am Dan Bump: Lie theoretic methods in Sage
+ * 1:00pm: final wrap-up
+}}} 
