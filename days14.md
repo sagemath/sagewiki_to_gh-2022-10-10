@@ -1,4 +1,4 @@
-= Sage Days 14: Algebraic Geometry =
+= Sage Days 14: Sage and Macaulay2 for Algebraic Geometry Experimentation =
 
 March 10 - 12, 2008 in Berkeley, CA
 
@@ -44,7 +44,7 @@ Tuesday, March 10:
  * evening projects and discussion by people interested in coding
 
 Wednesday, March 11:
- * 9:30 - 10:30 am Andrey Novoseltsov: Lattice Polytopes using Sage
+ * 9:30 - 10:30 am Andrey Novoseltsev: Lattice Polytopes using Sage
  * 11:00am - 12:00 pm: William Stein et al.: discussion about
              mathematical software -- what do you want?
  * 1:30 - 3:00 pm Mike Hansen et al.: Interactive Sage Tutorial (for
