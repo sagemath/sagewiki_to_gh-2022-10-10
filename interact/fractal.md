@@ -110,7 +110,7 @@ def f(A = matrix([[0,0,2],[1,0,1],[0,1,-1]]), D = '[[0,0,0],[1,0,0]]', k=(3..15)
     print D
     G = point3d([v.list() for v in Dn(D,A,k)], size=8)#, opacity=.85)
     if labels:
-        G += sum([text(str(v),v) for v in Dn(D,A,k)])
+        G += sum([text3d(str(v),v) for v in Dn(D,A,k)])
     show(G, axes=False, frame=False)
     
 }}}
