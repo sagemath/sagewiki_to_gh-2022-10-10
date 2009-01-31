@@ -6,6 +6,8 @@ March 10 - 12, 2008 in Berkeley, CA
 
 This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry program at MSRI]].
 
+We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|svg source file]]).
+
 == Organizers ==
 
  * Local organizers: David Eisenbud (UC Berkeley), Daniel Erman (UC Berkeley), Dan Grayson (University of Illinois at Urbana-Champaign), Mike Stillman (Cornell University)
