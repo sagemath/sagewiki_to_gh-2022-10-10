@@ -30,8 +30,11 @@ Use {{{sage -f sage-mode-0.5.spkg}}}.  The following installation instructions a
 == Old versions ==
 
 [[attachment:sage-mode-0.4.spkg]]
+
 [[attachment:sage-mode-0.3.1.spkg]]
+
 [[attachment:sage-mode-0.3.spkg]]
+
 [[attachment:sage-mode-0.2.spkg]]
 
 == Original version ==
