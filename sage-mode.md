@@ -9,7 +9,7 @@ Contact Nick Alexander on {{{sage-devel}}} to request features, report bugs, and
 
 '''Warning!'''  This is alpha code.  This might fail horribly and is not (yet) easily customizable.
 
-Version 0.5 adds Matthias Meulien's sage-view.el and adds sage-rerun, and C-u sage-build, as requested by Nicolas Thierry.
+Version 0.5 adds Matthias Meulien's sage-view.el and adds sage-rerun, and C-u sage-build, as requested by Nicolas Thiery.
 
 [[attachment:sage-mode-0.5.spkg]]
 
