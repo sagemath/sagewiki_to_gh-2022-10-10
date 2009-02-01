@@ -4490,7 +4490,7 @@ crltjqsplts\.cn
 luoliaosp\.cn
 qqmnsplts\.cn
 kaoyao\.net
-javagoldmine\.by\.ru
+goldmine\.by\.ru
 tarkus01\.by\.ru
 newsmaestro
 
