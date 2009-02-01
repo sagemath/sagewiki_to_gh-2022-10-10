@@ -125,3 +125,16 @@ def _(band_number = selector(range(1,5)), current_color = Color('red')):
     show(egg)
 }}}
 {{attachment:eggpaint.png}}
+
+== Color of 2D Plot Experimenter ==
+by Timothy Clemans
+{{{
+@interact
+def color_experimenter(expression=input_box('', 'Expression', str), color=Color('red')):
+    if expression:
+        try:
+            plot(SR(expression), rgbcolor=color).show()
+        except TypeError:
+            print "There's a problem with your expression."
+}}}
+{{attachment:color_of_plot_changer.png}} 
