@@ -39,9 +39,9 @@ Altogether this made for a tight budget (around 1200 euros total for 5 days and 
  * Adrien Boussicault, doctorant, Institut Gaspard Monge, Université de Marne-la-Vallée
  * Vincent Delecroix, doctorant, Institut de Mathématiques de Luminy, Marseille
  * Franco Saliola, Post-doc, Institut Gaspard Monge, Université de Marne-la-Vallée
- * Nicolas M. Thiéry, MdC, Orsay
+ * NicolasThiéry, MdC, Orsay
  * Thomas Fenrique, CR, Laboratoire d'Informatique Fondamentale, Univ. Marseille
- * Florent Hivert, Prof, LITIS, Université de Rouen
+ * FlorentHivert, Prof, LITIS, Université de Rouen
 
 == Short talks ==
 
