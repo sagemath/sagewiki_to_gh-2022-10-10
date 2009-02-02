@@ -12,6 +12,7 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Switch to [[http://www.flintlib.org|FLINT]] for univariate polynomial arithmetic over {{{Z/nZ}}}
  * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
  * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
+ * Some improvements to [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]]
 
 Here's a summary of features in this release, categorized under various headings.
 
@@ -78,6 +79,9 @@ Here's a summary of features in this release, categorized under various headings
  * Deprecate {{{Ideal.reduced_basis}}} (John Perry) -- The previous name {{{Ideal.reduced_basis}}} is misleading as it suggests that it can be used for computing the reduced Gröbner basis, when in fact it returns the interreduced basis. Thus {{{Ideal.reduced_basis()}}} is now deprecated and users are encouraged to use {{{Ideal.interreduced_basis()}}} instead.
 
  * Factoring multivariate polynomials over non-prime finite fields (William Stein) -- The factoring algorithm works as follow. If {{{f}}} is a polynomial over a non-prime finite field, factoring {{{f}}} is reduced to factoring over a prime field and using GCD over the non-prime field.
+
+ * Groebner bases over any field (John Perry) -- Support for computing the dimension of fields of large prime characteristics via the method {{{dimension()}}} in the module {{{rings/polynomial/multi_polynomial_ideal.py}}}. The default is to use the functionalities of Singular to do so. However, if the characteristic of the field is larger than what Singular can handle, the method falls back on a toy implementation of Buchberger to compute the Groebner basis, and finally using the algorithm described in Chapter 9, Section 1 of the following text:
+    * David A. Cox, John B. Little & Donal O'Shea. "Ideals, Varieties, and Algorithms: An Introduction to Computational Algebraic Geometry and Commutative Algebra" 3rd edition. Springer, 2007.
 
 == Distribution ==
 
@@ -167,9 +171,17 @@ Here's a summary of features in this release, categorized under various headings
 
  * Separating relative number fields from generic/absolute number fields (Nick Alexander) -- Functionalities in the module {{{rings/number_field/number_field.py}}} that deal with relative number fields are now wrapped inside the new module {{{rings/number_field/number_field_rel.py}}}.
 
+ * Cremona's database of elliptic curves (William Stein) -- Improved handling of the case {{{990h}}}.
+
+ * Manin constant (William Stein) -- New function {{{manin_constant()}}} to compute the Manin constant of an elliptic curve. This function only works if the curve is in the installed Cremona database. By default Sage includes a small databases, whereas the full database must be installed as an optional package. WARNING: The result is _not_ provably correct in the sense that when the numbers are huge, isogenies could be missed due to precision issues.  The newly implemented function can be found in the module {{{schemes/elliptic_curves/ell_rational_field.py}}}.
+
+ * Bach bound (William Stein) -- New function {{{bach_bound()}}} to compute the Bach bound associated to a number field. Assuming the General Riemann Hypothesis, the Bach bound is a bound B such that every integral ideal is equivalent modulo principal fractional ideals to an integral ideal of norm at most B. The newly implemented function can be found in the module {{{rings/number_field/number_field_base.pyx}}}.
+
 == Optional Packages ==
 
  * Modular polynomials database (Alex Ghitza) -- Remove the use of {{{polydict}}} in {{{databases/db_modular_polynomials.py}}}. 
+
+ * {{{lrs.spkg}}} improvements (Marshall Hampton) -- Further tests added to the {{{makefile}}} of the package [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]]. This optional package implements the reverse search algorithm for vertex enumeration and convex hull problems.
 
 == Packages ==
 
