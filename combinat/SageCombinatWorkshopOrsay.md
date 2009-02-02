@@ -10,7 +10,7 @@ Sponsored by: {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}} {{attachmen
 
 Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house in Cernay-la-Ville
 ([[http://www.cernayvacances.com/CFrans.html|la tour]]). We did the cooking ourselves (bring your favorite recipes!).
-Altogether this made for a tight budget (around 1200 euros total)
+Altogether this made for a tight budget (around 1200 euros total for 5 days and 8 persons).
 
 == Coming from downtown Paris ==
 
