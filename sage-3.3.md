@@ -12,7 +12,7 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Switch to [[http://www.flintlib.org|FLINT]] for univariate polynomial arithmetic over {{{Z/nZ}}}
  * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
  * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
- * Some improvements to [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]]
+ * Some improvements to the [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]] spkg
 
 Here's a summary of features in this release, categorized under various headings.
 
