@@ -2,9 +2,13 @@
 
 Sage-combinat is a collection of experimental patches (i.e. extensions) on top of [[http://www.sagemath.org/|Sage]], developed by a community in algebraic combinatorics. Its main purpose is to improve Sage as an extensible toolbox for computer exploration, and foster code sharing between researchers in this area. The intent is that most of those patches eventually will get integrated into sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
 
-=== NEWS: 2009-01-26: Sage-Combinat workshop in Orsay ===
+=== NEWS: July 25-29: *-Combinat 2009 ===
 
-There is a [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop]] in Orsay on the last week of January 2009.
+We will hold an International Sage Workshop on [[http:/combinat/FPSAC09|Free and Practical Software for Algebraic Combinatorics]] at RISC, Linz, Austria, right after FPSAC'09.
+
+=== NEWS: January 26-30: Sage-Combinat workshop in Orsay ===
+
+We held [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop]] in Orsay on the last week of January 2009.
 
 === NEWS: 2008-06-19: MuPAD-Combinat join forces with Sage ===
 
