@@ -13,6 +13,7 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
  * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
  * Some improvements to the [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]] spkg
+ * [[http://sourceforge.net/projects/pynac|PyNaC]] interface enhancements
 
 Here's a summary of features in this release, categorized under various headings.
 
@@ -53,6 +54,15 @@ Here's a summary of features in this release, categorized under various headings
  * Support integration without explicit variable declaration (Karl-Dieter Crisman).
 
  * CPU time of a Maxima session (Martin Albrecht) -- The new function {{{cputime()}}} in {{{interfaces/maxima.py}}} returns the amount of CPU time used by a Maxima session.
+
+ * PyNaC interface enhancements (Burcin Erocal) -- New enhancements to the PyNaC interface include:
+     * Add the method {{{operator()}}} to {{{sage/symbolic/expression.pyx}}} to return the topmost operator in an expression.
+     * Allow PyNaC symbolic variables as arguments to {{{factorial()}}} and {{{binomial()}}}.
+     * Iterator support to {{{sage.symbolic.expression.Expression}}}.
+     * Allow substituting more than one variable in PyNaC expressions. 
+     * New function {{{collect_common_factors}}} to {{{sage.symbolic.expression.Expression}}}. 
+     * LaTeX printing.
+     * Allow PyNaC symbolics to be used in {{{CallableSymbolicExpressions}}}. 
 
 == Coding Theory ==
 
