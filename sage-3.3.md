@@ -1,6 +1,6 @@
 = Sage 3.3 Release Tour =
 
-Sage 3.3 was released on FIXME. For the official, comprehensive release notes, see [[http://www.sagemath.org/src/announce/sage-3.3.txt|sage-3.3.txt]]. In general terms, the following points are some of the foci of this release:
+Sage 3.3 was released on FIXME. For the official, comprehensive release notes, see [[http://www.sagemath.org/src/announce/sage-3.3.txt|sage-3.3.txt]]. The following points are some of the foci of this release:
 
  * Clean up various doctest failures from 3.2.3
  * Fix some build issues from 3.2.3 on the new set of supported images
@@ -14,12 +14,16 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
  * Some improvements to the [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]] spkg
  * [[http://sourceforge.net/projects/pynac|PyNaC]] interface enhancements
+ * Update the [[http://tiswww.case.edu/php/chet/readline/rltop.html|readline]] spkg
+ * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg
 
 Here's a summary of features in this release, categorized under various headings.
 
 == Algebra ==
 
  * Transitivity for permutation groups (William Stein) -- In the permutation group module {{{permgroup.py}}}, the query function {{{is_transitive()}}} returns whether or not the group is transitive on {{{[1..G.degree()]}}}. A few surrounding docstrings are fixed and doctest coverage for the file {{{sage/groups/perm_gps/permgroup.py}}} is now 100%.
+
+ * Update the ATLAS spkg (Michael Abshoff).
 
 == Algebraic Geometry ==
 
@@ -44,6 +48,8 @@ Here's a summary of features in this release, categorized under various headings
 == Build ==
 
  * 64-bit OSX (Michael Abshoff) -- Fixed 64-bit OSX build support for f2c, added 64-bit OSX build support for tachyon, added 64-bit OSX build support for flintqs, and added persistent Sage 64-bit building switch on OSX and Solaris.
+
+ * Update readline spkg (Michael Abshoff) -- The updated readline spkg allows readline-5.2 to be built on the 64-bit version of OpenSUSE 11.1.
 
 == Calculus ==
 
