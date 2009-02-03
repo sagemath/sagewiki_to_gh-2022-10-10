@@ -6,9 +6,7 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Fix some build issues from 3.2.3 on the new set of supported images
  * Merge small to medium sized patches ready to go in
  * Switch to [[http://www.mpir.org|eMPIRe]] for multi-precision integers and rationals
- * Switch to [[http://ecls.sourceforge.net|ecl]] for a Common Lisp implementation
  * Update [[http://www.python.org|Python]] to 2.5.4 upstream release
- * Update [[http://pari.math.u-bordeaux.fr|Pari]] to 2.3.4svn upstream release
  * Switch to [[http://www.flintlib.org|FLINT]] for univariate polynomial arithmetic over {{{Z/nZ}}}
  * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
  * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
