@@ -171,3 +171,4 @@ def interactive_2d_plotter(expression=input_box('sin(x)', 'Expression', str), x_
             print error_msg("This expression contains an unknown function.")
             return
 }}}
+{{{attachment:interactive_2d_plotting.png}}}
