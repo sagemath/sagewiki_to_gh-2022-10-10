@@ -29,6 +29,7 @@ Participants needing hotel room (please add your name and dates here):
  * William Stein (arrive March 9; leave March 12)
  * Justin Walker ()
  * Alex Ghitza (March 8 to March 13)
+ * Andrey Novoseltsev (arrive March 9, leave March 12, reserved an "original double" room already)
 
 Reservations may be made by calling 1-800-992-9005 OR [[https://reservations.ihotelier.com/onescreen.cfm?hotelid=5082&languageid=1|directly on their website]]. Click on Corporate at the bottom of the screen reached by the link in the previous sentence.
 
