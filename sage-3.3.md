@@ -14,6 +14,8 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * [[http://sourceforge.net/projects/pynac|PyNaC]] interface enhancements
  * Update the [[http://tiswww.case.edu/php/chet/readline/rltop.html|readline]] spkg
  * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg
+ * Update the [[http://www.shoup.net/ntl|NTL]] spkg
+ * Updage [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release
 
 Here's a summary of features in this release, categorized under various headings.
 
@@ -100,6 +102,8 @@ Here's a summary of features in this release, categorized under various headings
 == Distribution ==
 
  * GAP configuration file (Matthias Meulien) -- A user's local GAP configuration file is usually named {{{$HOME/.gaprc}}}. When such a file already exists and Sage is compiled from source, using the Sage interface to GAP, e.g. {{{gap._eval_line('1+3;')}}}, can result in gibberish. This is now fixed so that the GAP interface would output a comprehensible message/answer as a result of some GAP calculation.
+
+ * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. The OSX Sage launcher can be built using {{{-bdist}}} on OSX.
 
 == Documentation ==
 
@@ -212,6 +216,8 @@ Here's a summary of features in this release, categorized under various headings
  * Upgrade [[http://ipython.scipy.org/moin|IPython]] to version 0.9.1 (Mike Hansen).
 
  * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release (Sebastien Barthelemy).
+
+ * Updage [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release (Martin Albrecht).
 
 == Porting ==
 
