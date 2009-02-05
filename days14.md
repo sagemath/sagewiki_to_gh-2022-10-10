@@ -16,9 +16,9 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
 
 == Participants ==
 
- * Confirmed: Mike Hansen, Justin Walker, Andrey Novoseltsev, Alex Ghitza
+ * Confirmed: Mike Hansen, Justin Walker, Andrey Novoseltsev, Alex Ghitza, Kiran Kedlaya (March 11-13)
 
- * Likely: Emily Kirkman, Kiran Kedlaya (probably March 11-12)
+ * Likely: Emily Kirkman
 
 == Hotel ==
 
@@ -30,6 +30,7 @@ Participants needing hotel room (please add your name and dates here):
  * Justin Walker ()
  * Alex Ghitza (March 8 to March 13)
  * Andrey Novoseltsev (arrive March 9, leave March 12, reserved an "original double" room already)
+ * Kiran Kedlaya (March 11 to 13, but may not need to use the block)
 
 Reservations may be made by calling 1-800-992-9005 OR [[https://reservations.ihotelier.com/onescreen.cfm?hotelid=5082&languageid=1|directly on their website]]. Click on Corporate at the bottom of the screen reached by the link in the previous sentence.
 
