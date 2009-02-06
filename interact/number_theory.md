@@ -1,7 +1,6 @@
-= Sage Interactions - Number Theory =
-goto [[interact|interact main page]]
-
 <<TableOfContents>>
+
+= Integer Factorization =
 
 == Factor Trees ==
 by William Stein
@@ -52,15 +51,24 @@ def factor_tree(n=100, font=(10, (8..20)), redraw=['Redraw']):
 }}}
 {{attachment:factortree.png}}
 
-== Continued Fraction Plotter ==
-by William Stein
+More complicated demonstration using Mathematica: http://demonstrations.wolfram.com/FactorTrees/
+
+== Factoring an Integer ==
+by Timothy Clemans
+
+Sage implementation of the Mathematica demonstration of the same name. http://demonstrations.wolfram.com/FactoringAnInteger/
+
 {{{
 @interact
-def _(number=e, ymax=selector([None,5,20,..,400],nrows=2), clr=Color('purple'), prec=[500,1000,..,5000]):
-    c = list(continued_fraction(RealField(prec)(number))); print c
-    show(line([(i,z) for i, z in enumerate(c)],rgbcolor=clr),ymax=ymax,figsize=[10,2])
+def _(r=selector(range(0,10000,1000), label='range', buttons=True), n=slider(0,1000,1,2,'n',False)):
+    if not r and n in (0, 1):
+        n = 2
+    s = '$%d = %s$' % (r + n, factor(r + n))
+    s = s.replace('*', '\\times')
+    html(s)
 }}}
-{{attachment:contfracplot.png}}
+
+= Prime Numbers =
 
 == Illustrating the prime number theorem ==
 by William Stein
@@ -71,169 +79,6 @@ def _(N=(100,(2..2000))):
     show(plot(prime_pi, 0, N, rgbcolor='red') + plot(x/(log(x)-1), 5, N, rgbcolor='blue'))
 }}}
 {{attachment:primes.png}}
-
-== Computing Generalized Bernoulli Numbers ==
-by William Stein (Sage-2.10.3)
-{{{
-@interact
-def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
-    G = DirichletGroup(m)
-    s = "<h3>First n=%s Bernoulli numbers attached to characters with modulus m=%s</h3>"%(n,m)
-    s += '<table border=1>'
-    s += '<tr bgcolor="#edcc9c"><td align=center>$\\chi$</td><td>Conductor</td>' + \
-           ''.join('<td>$B_{%s,\chi}$</td>'%k for k in [1..n]) + '</tr>'
-    for eps in G.list():
-        v = ''.join(['<td align=center bgcolor="#efe5cd">$%s$</td>'%latex(eps.bernoulli(k)) for k in [1..n]])
-        s += '<tr><td bgcolor="#edcc9c">%s</td><td bgcolor="#efe5cd" align=center>%s</td>%s</tr>\n'%(
-             eps, eps.conductor(), v)
-    s += '</table>'
-    html(s)
-}}}
-
-{{attachment:bernoulli.png}}
-
-
-== Fundamental Domains of SL_2(ZZ) ==
-by Robert Miller
-{{{
-L = [[-0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000, -1, -1)]
-R = [[0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000)]
-xes = [x/1000.0 for x in xrange(-500,501,1)]
-M = [[x,abs(sqrt(x^2-1))] for x in xes]
-fundamental_domain = L+M+R
-fundamental_domain = [[x-1,y] for x,y in fundamental_domain]
-@interact
-def _(gen = selector(['t+1', 't-1', '-1/t'], nrows=1)):
-    global fundamental_domain
-    if gen == 't+1':
-        fundamental_domain = [[x+1,y] for x,y in fundamental_domain]
-    elif gen == 't-1':
-        fundamental_domain = [[x-1,y] for x,y in fundamental_domain]
-    elif gen == '-1/t':
-        new_dom = []
-        for x,y in fundamental_domain:
-            sq_mod = x^2 + y^2
-            new_dom.append([(-1)*x/sq_mod, y/sq_mod])
-        fundamental_domain = new_dom
-    P = polygon(fundamental_domain)
-    P.ymax(1.2); P.ymin(-0.1)
-    P.show()
-}}}
-
-{{attachment:fund_domain.png}}
-
-== Computing modular forms ==
-by William Stein
-{{{
-j = 0
-@interact
-def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40), 
-      group=[(Gamma0, 'Gamma0'), (Gamma1, 'Gamma1')]):
-    M = CuspForms(group(N),k)
-    print j; global j; j += 1
-    print M; print '\n'*3
-    print "Computing basis...\n\n"
-    if M.dimension() == 0:
-         print "Space has dimension 0"
-    else:
-        prec = max(prec, M.dimension()+1)
-        for f in M.basis():
-             view(f.q_expansion(prec))
-    print "\n\n\nDone computing basis."
-}}}
-
-{{attachment:modformbasis.png}}
-
-
-== Computing the cuspidal subgroup ==
-by William Stein
-{{{
-html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>')
-@interact
-def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
-    A = J0(N)
-    print A.cuspidal_subgroup()
-}}}
-
-{{attachment:cuspgroup.png}}
-
-== A Charpoly and Hecke Operator Graph ==
-by William Stein
-
-{{{
-# Note -- in Sage-2.10.3; multiedges are missing in plots; loops are missing in 3d plots
-@interact
-def f(N = prime_range(11,400),
-      p = selector(prime_range(2,12),nrows=1),
-      three_d = ("Three Dimensional", False)):
-    S = SupersingularModule(N)
-    T = S.hecke_matrix(p)
-    G = Graph(T, multiedges=True, loops=not three_d)
-    html("<h1>Charpoly and Hecke Graph: Level %s, T_%s</h1>"%(N,p))
-    show(T.charpoly().factor())
-    if three_d:
-        show(G.plot3d(), aspect_ratio=[1,1,1])
-    else:
-        show(G.plot(),figsize=7)
-}}}
-
-{{attachment:heckegraph.png}}
-
-== Demonstrating the Diffie-Hellman Key Exchange Protocol ==
-by Timothy Clemans (refereed by William Stein)
-{{{
-@interact
-def diffie_hellman(button=selector(["New example"],label='',buttons=True), 
-    bits=("Number of bits of prime", (8,12,..512))):
-    maxp = 2^bits
-    p = random_prime(maxp)
-    k = GF(p)
-    if bits>100:
-        g = k(2)
-    else:
-        g = k.multiplicative_generator()
-    a = ZZ.random_element(10, maxp)
-    b = ZZ.random_element(10, maxp)
-
-    print """
-<html>
-<style>
-.gamodp {
-background:yellow
-}
-.gbmodp {
-background:orange
-}
-.dhsame {
-color:green;
-font-weight:bold
-}
-</style>
-<h2>%s-Bit Diffie-Hellman Key Exchange</h2>
-<ol style="color:#000;font:12px Arial, Helvetica, sans-serif">
-<li>Alice and Bob agree to use the prime number p=%s and base g=%s.</li>
-<li>Alice chooses the secret integer a=%s, then sends Bob (<span class="gamodp">g<sup>a</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gamodp">%s</span>.</li>
-<li>Bob chooses the secret integer b=%s, then sends Alice (<span class="gbmodp">g<sup>b</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gbmodp">%s</span>.</li>
-<li>Alice computes (<span class="gbmodp">g<sup>b</sup> mod p</span>)<sup>a</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
-<li>Bob computes (<span class="gamodp">g<sup>a</sup> mod p</span>)<sup>b</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
-</ol></html>
-    """ % (bits, p, g, a, g, a, p, (g^a), b, g, b, p, (g^b), (g^b), a, p, 
-       (g^ b)^a, g^a, b, p, (g^a)^b)
-}}}
-
-{{attachment:dh.png}}
-
-== Plotting an elliptic curve over a finite field ==
-{{{
-E = EllipticCurve('37a')
-@interact
-def _(p=slider(prime_range(1000), default=389)):
-    show(E)
-    print "p = %s"%p
-    show(E.change_ring(GF(p)).plot(),xmin=0,ymin=0)
-}}}
-
-{{attachment:ellffplot.png}}
 
 == Prime Spiral - Square ==
 by David Runde
@@ -443,6 +288,68 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
 
 {{attachment:PolarSpiral.PNG}}
 
+
+= Modular Forms =
+
+== Computing modular forms ==
+by William Stein
+{{{
+j = 0
+@interact
+def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40), 
+      group=[(Gamma0, 'Gamma0'), (Gamma1, 'Gamma1')]):
+    M = CuspForms(group(N),k)
+    print j; global j; j += 1
+    print M; print '\n'*3
+    print "Computing basis...\n\n"
+    if M.dimension() == 0:
+         print "Space has dimension 0"
+    else:
+        prec = max(prec, M.dimension()+1)
+        for f in M.basis():
+             view(f.q_expansion(prec))
+    print "\n\n\nDone computing basis."
+}}}
+
+{{attachment:modformbasis.png}}
+
+
+== Computing the cuspidal subgroup ==
+by William Stein
+{{{
+html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>')
+@interact
+def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
+    A = J0(N)
+    print A.cuspidal_subgroup()
+}}}
+
+{{attachment:cuspgroup.png}}
+
+== A Charpoly and Hecke Operator Graph ==
+by William Stein
+
+{{{
+# Note -- in Sage-2.10.3; multiedges are missing in plots; loops are missing in 3d plots
+@interact
+def f(N = prime_range(11,400),
+      p = selector(prime_range(2,12),nrows=1),
+      three_d = ("Three Dimensional", False)):
+    S = SupersingularModule(N)
+    T = S.hecke_matrix(p)
+    G = Graph(T, multiedges=True, loops=not three_d)
+    html("<h1>Charpoly and Hecke Graph: Level %s, T_%s</h1>"%(N,p))
+    show(T.charpoly().factor())
+    if three_d:
+        show(G.plot3d(), aspect_ratio=[1,1,1])
+    else:
+        show(G.plot(),figsize=7)
+}}}
+
+{{attachment:heckegraph.png}}
+
+= Modular Arithmetic =
+
 == Quadratic Residue Table ==
 by Emily Kirkman
 {{{
@@ -577,6 +484,8 @@ def cubic_sym(n=(10..35),display_size=[7..15]):
 }}}
 
 {{attachment:cubres.png}}
+
+= Cyclotomic Fields =
 
 == Gauss and Jacobi Sums in Complex Plane ==
 by Emily Kirkman
@@ -748,6 +657,8 @@ def exhaustive_jacobi_plot(p=prime_range(3,8)):
 
 {{attachment:jacobiexh.png}}
 
+= Elliptic Curves =
+
 == Adding points on an elliptic curve ==
 by David Møller Hansen
 {{{
@@ -823,3 +734,129 @@ def line_from_curve_points(E,P,Q,style='-',rgb=(1,0,0),length=25):
 		return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
 }}}
 {{attachment:PointAddEllipticCurve.png}}
+
+
+== Plotting an elliptic curve over a finite field ==
+{{{
+E = EllipticCurve('37a')
+@interact
+def _(p=slider(prime_range(1000), default=389)):
+    show(E)
+    print "p = %s"%p
+    show(E.change_ring(GF(p)).plot(),xmin=0,ymin=0)
+}}}
+
+{{attachment:ellffplot.png}}
+
+= Cryptography =
+
+== The Diffie-Hellman Key Exchange Protocol ==
+by Timothy Clemans and William Stein
+{{{
+@interact
+def diffie_hellman(bits=slider(8, 513, 4, 8, 'Number of bits', False),
+    button=selector(["Show new example"],label='',buttons=True)):
+    maxp = 2 ^ bits
+    p = random_prime(maxp)
+    k = GF(p)
+    if bits > 100:
+        g = k(2)
+    else:
+        g = k.multiplicative_generator()
+    a = ZZ.random_element(10, maxp)
+    b = ZZ.random_element(10, maxp)
+
+    print """
+<html>
+<style>
+.gamodp, .gbmodp {
+color:#000;
+padding:5px
+}
+.gamodp {
+background:#846FD8
+}
+.gbmodp {
+background:#FFFC73
+}
+.dhsame {
+color:#000;
+font-weight:bold
+}
+</style>
+<h2 style="color:#000;font-family:Arial, Helvetica, sans-serif">%s-Bit Diffie-Hellman Key Exchange</h2>
+<ol style="color:#000;font-family:Arial, Helvetica, sans-serif">
+<li>Alice and Bob agree to use the prime number p = %s and base g = %s.</li>
+<li>Alice chooses the secret integer a = %s, then sends Bob (<span class="gamodp">g<sup>a</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gamodp">%s</span>.</li>
+<li>Bob chooses the secret integer b=%s, then sends Alice (<span class="gbmodp">g<sup>b</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gbmodp">%s</span>.</li>
+<li>Alice computes (<span class="gbmodp">g<sup>b</sup> mod p</span>)<sup>a</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
+<li>Bob computes (<span class="gamodp">g<sup>a</sup> mod p</span>)<sup>b</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
+</ol></html>
+    """ % (bits, p, g, a, g, a, p, (g^a), b, g, b, p, (g^b), (g^b), a, p, 
+       (g^ b)^a, g^a, b, p, (g^a)^b)
+}}}
+
+
+{{attachment:dh.png}}
+
+= Other =
+
+== Continued Fraction Plotter ==
+by William Stein
+{{{
+@interact
+def _(number=e, ymax=selector([None,5,20,..,400],nrows=2), clr=Color('purple'), prec=[500,1000,..,5000]):
+    c = list(continued_fraction(RealField(prec)(number))); print c
+    show(line([(i,z) for i, z in enumerate(c)],rgbcolor=clr),ymax=ymax,figsize=[10,2])
+}}}
+{{attachment:contfracplot.png}}
+
+== Computing Generalized Bernoulli Numbers ==
+by William Stein (Sage-2.10.3)
+{{{
+@interact
+def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
+    G = DirichletGroup(m)
+    s = "<h3>First n=%s Bernoulli numbers attached to characters with modulus m=%s</h3>"%(n,m)
+    s += '<table border=1>'
+    s += '<tr bgcolor="#edcc9c"><td align=center>$\\chi$</td><td>Conductor</td>' + \
+           ''.join('<td>$B_{%s,\chi}$</td>'%k for k in [1..n]) + '</tr>'
+    for eps in G.list():
+        v = ''.join(['<td align=center bgcolor="#efe5cd">$%s$</td>'%latex(eps.bernoulli(k)) for k in [1..n]])
+        s += '<tr><td bgcolor="#edcc9c">%s</td><td bgcolor="#efe5cd" align=center>%s</td>%s</tr>\n'%(
+             eps, eps.conductor(), v)
+    s += '</table>'
+    html(s)
+}}}
+
+{{attachment:bernoulli.png}}
+
+
+== Fundamental Domains of SL_2(ZZ) ==
+by Robert Miller
+{{{
+L = [[-0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000, -1, -1)]
+R = [[0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000)]
+xes = [x/1000.0 for x in xrange(-500,501,1)]
+M = [[x,abs(sqrt(x^2-1))] for x in xes]
+fundamental_domain = L+M+R
+fundamental_domain = [[x-1,y] for x,y in fundamental_domain]
+@interact
+def _(gen = selector(['t+1', 't-1', '-1/t'], nrows=1)):
+    global fundamental_domain
+    if gen == 't+1':
+        fundamental_domain = [[x+1,y] for x,y in fundamental_domain]
+    elif gen == 't-1':
+        fundamental_domain = [[x-1,y] for x,y in fundamental_domain]
+    elif gen == '-1/t':
+        new_dom = []
+        for x,y in fundamental_domain:
+            sq_mod = x^2 + y^2
+            new_dom.append([(-1)*x/sq_mod, y/sq_mod])
+        fundamental_domain = new_dom
+    P = polygon(fundamental_domain)
+    P.ymax(1.2); P.ymin(-0.1)
+    P.show()
+}}}
+
+{{attachment:fund_domain.png}}
