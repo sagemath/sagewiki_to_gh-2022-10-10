@@ -1,27 +1,28 @@
 = Sage 3.3 Release Tour =
 
-Sage 3.3 was released on FIXME. For the official, comprehensive release notes, see [[http://www.sagemath.org/src/announce/sage-3.3.txt|sage-3.3.txt]]. The following points are some of the foci of this release:
+Sage 3.3 was released on FIXME. For the official, comprehensive release note, see [[http://www.sagemath.org/src/announce/sage-3.3.txt|sage-3.3.txt]]. The following points are some of the foci of this release:
 
  * Clean up various doctest failures from 3.2.3
  * Fix some build issues from 3.2.3 on the new set of supported images
  * Merge small to medium sized patches ready to go in
  * Switch to [[http://www.mpir.org|eMPIRe]] for multi-precision integers and rationals
- * Update [[http://www.python.org|Python]] to 2.5.4 upstream release
+ * Upgrade [[http://www.python.org|Python]] to 2.5.4 upstream release
  * Switch to [[http://www.flintlib.org|FLINT]] for univariate polynomial arithmetic over {{{Z/nZ}}}
- * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
- * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
+ * Upgrade [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
+ * Upgrade [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
  * Some improvements to the [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]] spkg
  * [[http://sourceforge.net/projects/pynac|PyNaC]] interface enhancements
  * Update the [[http://tiswww.case.edu/php/chet/readline/rltop.html|readline]] spkg
  * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg
  * Update the [[http://www.shoup.net/ntl|NTL]] spkg
- * Update [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release
+ * Upgrade [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release
+ * Upgrade [[http://www.math.union.edu/~dpvc/jsMath/|jsMath]] to version 3.6 upstream release
 
-Here's a summary of features in this release, categorized under various headings.
+All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/sage_trac/milestone/sage-3.3|trac server]]. Here's a summary of features in this release, categorized under various headings.
 
 == Algebra ==
 
- * Transitivity for permutation groups (William Stein) -- In the permutation group module {{{permgroup.py}}}, the query function {{{is_transitive()}}} returns whether or not the group is transitive on {{{[1..G.degree()]}}}. A few surrounding docstrings are fixed and doctest coverage for the file {{{sage/groups/perm_gps/permgroup.py}}} is now 100%.
+ * Transitivity for permutation groups (William Stein) -- In the permutation group module {{{permgroup.py}}}, the query function {{{is_transitive()}}} returns whether or not the group is transitive on {{{[1..G.degree()]}}}. A few surrounding docstrings are fixed and doctest coverage for the module {{{sage.groups.perm_gps.permgroup.py}}} is now 100%.
 
  * Update the ATLAS spkg (Michael Abshoff).
 
@@ -31,9 +32,9 @@ Here's a summary of features in this release, categorized under various headings
 
 == Basic Arithmetic ==
 
- * {{{ivalue}}} field in {{{integer_mod.pyx}}} is no longer public (Craig Citro) -- The {{{ivalue}}} field for {{{IntegerMod_int}}} is no longer public. This gives about a 1.5 to 2X speedup when multiplying {{{IntegerMod_ints}}}. 
+ * {{{ivalue}}} field in {{{integer_mod.pyx}}} is no longer public (Craig Citro) -- The {{{ivalue}}} field for {{{IntegerMod_int}}} is no longer public. This gives about a 1.5 to 2X speed-up when multiplying {{{IntegerMod_ints}}}. 
 
- * Some fixes for {{{is_perfect_power}}} and {{{bessel_J(0,0)}}} (Craig Citro, Robert Bradshaw, Robert Miller) -- A temporary work around for an upstream bug in GMP when using {{{is_perfect_power()}}}. Resolved a Pari interface bug when using {{{bessel_J(0,0)}}}.
+ * Some fixes for {{{is_perfect_power()}}} and {{{bessel_J(0,0)}}} (Craig Citro, Robert Bradshaw, Robert L. Miller) -- A temporary work around for an upstream bug in GMP when using {{{is_perfect_power()}}}. Resolved a Pari interface bug when using {{{bessel_J(0,0)}}}.
 
  * Improved performance for generic polynomial rings, and for univariate polynomial arithmetic over {{{Z/nZ[x]}}} (Yann Laigle-Chapuy, Martin Albrecht) -- Improved performance when performing modulo arithmetic between elements of a generic polynomial ring. Univariate polynomial arithmetic over {{{Z/nZ[x]}}} now has considerable speed-up at approximately 20x.
 
@@ -57,24 +58,24 @@ Here's a summary of features in this release, categorized under various headings
 
  * LaTeX output (Mike Hansen) -- Added LaTeX output for ceiling, floor, and derivative functions, and LaTaX'ing of powers of negative numbers.
 
- * Make {{{bernoulli_polynomial}}} independent of Maxima (Craig Citro) -- A rewrite of {{{bernoulli_polynomial}}} to avoid using Maxima completely in computing Bernoulli polynomials. This gives roughly a factor of 10 speedup.
+ * Make {{{bernoulli_polynomial()}}} independent of Maxima (Craig Citro) -- A rewrite of {{{bernoulli_polynomial()}}} to avoid using Maxima completely in computing Bernoulli polynomials. This gives roughly a factor of 10 speed-up.
 
  * Support integration without explicit variable declaration (Karl-Dieter Crisman).
 
- * CPU time of a Maxima session (Martin Albrecht) -- The new function {{{cputime()}}} in {{{interfaces/maxima.py}}} returns the amount of CPU time used by a Maxima session.
+ * CPU time of a Maxima session (Martin Albrecht) -- The new function {{{cputime()}}} in {{{sage.interfaces.maxima.py}}} returns the amount of CPU time used by a Maxima session.
 
  * PyNaC interface enhancements (Burcin Erocal) -- New enhancements to the PyNaC interface include:
-     * Add the method {{{operator()}}} to {{{sage/symbolic/expression.pyx}}} to return the topmost operator in an expression.
+     * Add the method {{{operator()}}} to {{{sage.symbolic.expression.pyx}}} to return the top-most operator in an expression.
      * Allow PyNaC symbolic variables as arguments to {{{factorial()}}} and {{{binomial()}}}.
      * Iterator support to {{{sage.symbolic.expression.Expression}}}.
      * Allow substituting more than one variable in PyNaC expressions. 
-     * New function {{{collect_common_factors}}} to {{{sage.symbolic.expression.Expression}}}. 
+     * New function {{{collect_common_factors()}}} to {{{sage.symbolic.expression.Expression}}}. 
      * LaTeX printing.
      * Allow PyNaC symbolics to be used in {{{CallableSymbolicExpressions}}}. 
 
 == Coding Theory ==
 
- * Weight distribution for binary codes (Robert Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation.
+ * Weight distribution for binary codes (Robert L. Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation.
 
  * Linear codes decoding algorithms (David Joyner, Robert L. Miller) -- A number of algorithms in the GAP package Guava are moved to Sage. Two decoding methods are implemented, in particular, the methods nearest neighbor and syndrome. 
 
@@ -86,21 +87,21 @@ Here's a summary of features in this release, categorized under various headings
 
 == Combinatorics ==
 
- * Bell polynomials (Blair Sutton) -- New function {{{bell_polynomial()}}} in {{{combinat/combinat.py}}} returns the Bell polynomial.
+ * Bell polynomials (Blair Sutton) -- New function {{{bell_polynomial()}}} in {{{sage.combinat.combinat.py}}} returns the Bell polynomial.
 
- * Covering design (Daniel Gordon) -- New module {{{combinat/designs/covering_design.py}}} adds basic support for covering design. The function {{{best_known_covering_design_www()}}} is an interface to the online database of best known covering design at the [[http://www.ccrwest.org|La Jolla Covering Repository]].
+ * Covering design (Daniel Gordon) -- New module {{{sage.combinat.designs.covering_design.py}}} adds basic support for covering design. The function {{{best_known_covering_design_www()}}} is an interface to the online database of best known covering design at the [[http://www.ccrwest.org|La Jolla Covering Repository]].
 
 == Commutative Algebra ==
 
  * Multivariate polynomials over residue fields of number fields (Nick Alexander) -- Fixed an infinite loop bug when working with multivariate polynomials over residue fields of number fields. Previously in hashing "large" characteristic residue fields, the hash method would try to hash an ideal of the residue field itself, which in turn would try to hash its parent, and so on ad infinitum. At no point has a residue field with cardinality a very large prime been created in Sage.
 
- * GCD of polynomials over finite fields (Martin Albrecht) -- Previously when using  ibsingular to compute the GCD of two (multivariate) polynomials over finite fields, Sage would segfault whenever the base rings are not identical.
+ * GCD of polynomials over finite fields (Martin Albrecht) -- Previously when using libsingular to compute the GCD of two (multivariate) polynomials over finite fields, Sage would segfault whenever the base rings are not identical.
 
- * Deprecate {{{Ideal.reduced_basis}}} (John Perry) -- The previous name {{{Ideal.reduced_basis}}} is misleading as it suggests that it can be used for computing the reduced Gröbner basis, when in fact it returns the interreduced basis. Thus {{{Ideal.reduced_basis()}}} is now deprecated and users are encouraged to use {{{Ideal.interreduced_basis()}}} instead.
+ * Deprecate {{{Ideal.reduced_basis()}}} (John Perry) -- The previous name {{{Ideal.reduced_basis()}}} is misleading as it suggests that it can be used for computing the reduced Groebner basis, when in fact it returns the interreduced basis. Thus {{{Ideal.reduced_basis()}}} is now deprecated and users are encouraged to use {{{Ideal.interreduced_basis()}}} instead.
 
  * Factoring multivariate polynomials over non-prime finite fields (William Stein) -- The factoring algorithm works as follow. If {{{f}}} is a polynomial over a non-prime finite field, factoring {{{f}}} is reduced to factoring over a prime field and using GCD over the non-prime field.
 
- * Groebner bases over any field (John Perry) -- Support for computing the dimension of fields of large prime characteristics via the method {{{dimension()}}} in the module {{{rings/polynomial/multi_polynomial_ideal.py}}}. The default is to use the functionalities of Singular to do so. However, if the characteristic of the field is larger than what Singular can handle, the method falls back on a toy implementation of Buchberger to compute the Groebner basis, and finally using the algorithm described in Chapter 9, Section 1 of the following text:
+ * Groebner bases over any field (John Perry) -- Support for computing the dimension of fields of large prime characteristics via the method {{{dimension()}}} in the module {{{sage.rings.polynomial.multi_polynomial_ideal.py}}}. The default is to use the functionalities of Singular to do so. However, if the characteristic of the field is larger than what Singular can handle, the method falls back on a toy implementation of Buchberger to compute the Groebner basis, and finally using the algorithm described in Chapter 9, Section 1 of the following text:
     * David A. Cox, John B. Little & Donal O'Shea. "Ideals, Varieties, and Algorithms: An Introduction to Computational Algebraic Geometry and Commutative Algebra" 3rd edition. Springer, 2007.
 
 == Distribution ==
@@ -111,31 +112,31 @@ Here's a summary of features in this release, categorized under various headings
 
 == Geometry ==
 
- * Polyhedral improvements (Marshall Hampton) -- Added more built-in Archimedean solids and some new methods such as the Gale transform, bipyramid construction, edge truncation, and perspective projection with (optionally) hidden faces invisible. The Schlegel projection code has also been somewhat refactored to make it more general in the future.
+ * Polyhedral improvements (Marshall Hampton) -- Added more built-in Archimedean solids and some new methods such as the Gale transform, bipyramid construction, edge truncation, and perspective projection with (optionally) hidden faces invisible. The Schlegel projection code has also been refactored to make it more general in the future.
 
 == Graph Theory ==
 
- * Equality testing in graphs (Robert Miller) -- The "weighted" property or edge label is taken into account when testing for equality in graphs.
+ * Equality testing in graphs (Robert L. Miller) -- The "weighted" property or edge label is taken into account when testing for equality in graphs.
 
- * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 (Robert Miller, Michael Abshoff).
+ * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release (Robert L. Miller, Michael Abshoff).
 
 == Graphics ==
 
  * Plotting a region (Arnaud Bergeron) -- New function {{{region_plot()}}} for plotting a region where a system of equations/inequalities holds true. Here's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/2770/plot-region.png|sample plot]] using the new function {{{region_plot()}}}.
 
- * Consistency in variable range (Mike Hansen, Jason Grout) -- The variable range of {{{parametric_plot}}} is now consistent with that of {{{plot}}}, namely {{{(var, min, max)}}}.
+ * Consistency in variable range (Mike Hansen, Jason Grout) -- The variable range of {{{parametric_plot()}}} is now consistent with that of {{{plot()}}}, namely {{{(var, min, max)}}}.
 
  * Polar plot syntax (Jason Grout) -- Polar plot now accepts the syntax {{{(t, 0, 2*pi)}}} for the interval.
 
- * Added a {{{density_plot()}}} function and improve colour map handling (Arnaud Bergeron) -- The {{{density_plot}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Some improve on how colour map is handled.
+ * New function {{{density_plot()}}} and improved colour map handling (Arnaud Bergeron) -- The new function {{{density_plot()}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Also, some improvements on how color map is handled.
 
  * 3-D polygon (Arnaud Bergeron) -- The new function {{{polygon3d()}}} allows for plotting of 3-D polygons.
 
- * Fill option for {{{plot}}}, {{{polar_plot}}} and {{{parametric_plot}}} (Wilfried Huss, Karl-Dieter Crisman, Michael Abshoff) -- Added new options "fill", "fillcolor", and "fillalpha" to the plot family of functions. These new fill options allow users to fill the area between two functions in a plot, or to fill the area between the function and the x-axis. The syntax for the new fill option is similar to what Mathematica uses. Here's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/4976/fill1.png|sample plot]] using the new fill option.
+ * Fill option for {{{plot()}}}, {{{polar_plot()}}} and {{{parametric_plot()}}} (Wilfried Huss, Karl-Dieter Crisman, Michael Abshoff) -- Added new options "fill", "fillcolor", and "fillalpha" to the plot family of functions. These new fill options allow users to fill the area between two functions in a plot, or to fill the area between the function and the x-axis. The syntax for the new fill option is similar to what Mathematica uses. Here's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/4976/fill1.png|sample plot]] using the new fill option.
 
 == Group Theory ==
 
- * Added an {{{is_cyclic}}} method (David Joyner) -- The {{{is_cyclic}}} method for (finite) groups is currently not as optimized as it should be. Given a finite abelian group, one can test to see whether or not it is cyclic, a test that depends on calculating the elementary divisors of the group. As correctness is the main concern in the current implementation of {{{elementary_divisors()}}}, performance is not taken into account. However, the docstring for {{{elementary_divisors()}}} describes an algorithm communicated by Robert Miller for speeding up this method.
+ * New method {{{is_cyclic()}}} (David Joyner) -- The new method {{{is_cyclic()}}} for (finite) groups is currently not as optimized as it should be. Given a finite abelian group, one can test to see whether or not it is cyclic, a test that depends on calculating the elementary divisors of the group. As correctness is the main concern in the current implementation of {{{elementary_divisors()}}}, performance is not taken into account. However, the docstring for {{{elementary_divisors()}}} describes an algorithm communicated by Robert L. Miller for speeding up this method.
 
 == Interfaces ==
 
@@ -153,23 +154,23 @@ Here's a summary of features in this release, categorized under various headings
 
  * Matrix exponential for general matrices (Jason Grout) -- Added a generic matrix exponential that depends on Maxima's matrix exponentiation function. If the matrix has floating point numbers, these will be rounded automatically to rational numbers during the computation. For numerical approximations to the exponential, one can first convert the matrix to RDF or CDF.
 
- * 100% doctest coverage for {{{matrix/constructor.py}}}, {{{matrix/misc.pyx}}}, {{{matrix/matrix_generic_dense.pyx}}} (William Stein) -- Apart from the full doctest coverage, calculating the lift of a matrix is now 20 times faster than previously.
+ * 100% doctest coverage for the modules {{{sage.matrix.constructor.py}}}, {{{sage.matrix.misc.pyx}}}, {{{sage.matrix.matrix_generic_dense.pyx}}} (William Stein) -- Apart from the full doctest coverage, calculating the lift of a matrix is now 20 times faster than previously.
 
- * Improved performance for method {{{density()}}} in {{{matrix/matrix_modn_sparse.pyx}}} (Craig Citro).
+ * Improved performance for method {{{density()}}} in {{{sage.matrix.matrix_modn_sparse.pyx}}} (Craig Citro).
 
- * Added a kernel method for sparse integer matrices (John Palmieri).
+ * Added a kernel method for sparse integer matrices (John H. Palmieri).
 
  * Speed up {{{right_nullity()}}} for matrices (John H. Palmieri).
 
 == Miscellaneous ==
 
- * Rewrite of the function {{{__getitem__}}} (Jason Grout, Craig Citro) -- A rewrite of the function {{{__getitem__}}} in {{{matrix/matrix0.pyx}}} to better support slices, negative indices, and improved performance.
+ * Rewrite of the function {{{__getitem__}}} (Jason Grout, Craig Citro) -- A rewrite of the function {{{__getitem__}}} in {{{sage.matrix.matrix0.pyx}}} to better support slices and negative indices.
 
- * Function {{{get_memory_usage()}}} now return a float on all platforms (William Stein).
+ * Function {{{get_memory_usage()}}} now returns a float on all platforms (William Stein).
 
  * The function {{{CremonaDatabase().number_of_curves()}}} now works even when the optional Cremona database isn't installed (Alex Ghitza).
 
- * Set iteration for finite sets (Robert Miller) -- Set iteration is now implemented for finite sets.
+ * Set iteration for finite sets (Robert L. Miller) -- Set iteration is now implemented for finite sets.
 
 == Notebook ==
 
@@ -177,33 +178,33 @@ Here's a summary of features in this release, categorized under various headings
 
  * Clear browser cache when restarting the worksheet (Mike Hansen).
 
- * Update jsmath to version 3.6 (Jason Grout).
+ * Update jsMath to version 3.6 upstream release (Jason Grout).
 
  * In-line WYSIWYG editor for text cells using [[http://tinymce.moxiecode.com|TinyMCE]] (Jason Grout).
 
- * Automatic indentation (Alexander Hupfer, Tom Boothby) -- Automatic indentation for Python code after colons and same level identation. Currently, up to four levels of identation are supported.
+ * Automatic indentation (Alexander Hupfer, Tom Boothby) -- Automatic indentation for Python code after colons and same level identation. Currently, up to four levels of indentation are supported.
 
 == Number Theory ==
 
  * Number field ideal utilities (John Cremona, Maite Aranes) -- New function {{{invertible_residues()}}} for iterating through only the invertible residues modulo an integral ideal. New function {{{element_1_mod()}}} such that {{{A.element_1_mod(B)}}} returns some {{{a}}} in {{{A}}} such that {{{1 - a}}} is in {{{B}}}.
 
- * New function {{{random_element}}} for returning a random element of a number field (Alex Ghitza).
+ * New function {{{random_element()}}} for returning a random element of a number field (Alex Ghitza).
 
  * Elliptic curve function {{{integral_points()}}} misses some points (John Cremona) -- Francois Glineur reported that for the elliptic curve {{{20160bg2}}}, the output of {{{integral_points()}}} misses the points {{{x = 168}}} and {{{x = 381}}}. This problem has been narrowed down to the function {{{point_preprocessing()}}}, and the bug is now fixed.
 
  * Elliptic curve (Robert Bradshaw) -- Support for the construction of an elliptic curve via a Weierstrass equation. The Weierstrass equation can be passed as an argument to {{{EllipticCurve()}}}.
 
- * Separating relative number fields from generic/absolute number fields (Nick Alexander) -- Functionalities in the module {{{rings/number_field/number_field.py}}} that deal with relative number fields are now wrapped inside the new module {{{rings/number_field/number_field_rel.py}}}.
+ * Separating relative number fields from generic/absolute number fields (Nick Alexander) -- Functionalities in the module {{{sage.rings.number_field.number_field.py}}} that deal with relative number fields are now wrapped inside the new module {{{sage.rings.number_field.number_field_rel.py}}}.
 
  * Cremona's database of elliptic curves (William Stein) -- Improved handling of the case {{{990h}}}.
 
- * Manin constant (William Stein) -- New function {{{manin_constant()}}} to compute the Manin constant of an elliptic curve. This function only works if the curve is in the installed Cremona database. By default Sage includes a small databases, whereas the full database must be installed as an optional package. WARNING: The result is _not_ provably correct in the sense that when the numbers are huge, isogenies could be missed due to precision issues.  The newly implemented function can be found in the module {{{schemes/elliptic_curves/ell_rational_field.py}}}.
+ * Manin constant (William Stein) -- New function {{{manin_constant()}}} to compute the Manin constant of an elliptic curve. This function only works if the curve is in the installed Cremona database. By default Sage includes a small database, whereas the full database must be installed as an optional package. WARNING: The result is _not_ provably correct in the sense that when the numbers are huge, isogenies could be missed due to precision issues.  The newly implemented function can be found in the module {{{sage.schemes.elliptic_curves.ell_rational_field.py}}}.
 
- * Bach bound (William Stein) -- New function {{{bach_bound()}}} to compute the Bach bound associated to a number field. Assuming the General Riemann Hypothesis, the Bach bound is a bound B such that every integral ideal is equivalent modulo principal fractional ideals to an integral ideal of norm at most B. The newly implemented function can be found in the module {{{rings/number_field/number_field_base.pyx}}}.
+ * Bach bound (William Stein) -- New function {{{bach_bound()}}} to compute the Bach bound associated to a number field. Assuming the General Riemann Hypothesis, the Bach bound is a bound B such that every integral ideal is equivalent modulo principal fractional ideals to an integral ideal of norm at most B. The newly implemented function can be found in the module {{{sage.rings.number_field.number_field_base.pyx}}}.
 
 == Optional Packages ==
 
- * Modular polynomials database (Alex Ghitza) -- Remove the use of {{{polydict}}} in {{{databases/db_modular_polynomials.py}}}. 
+ * Modular polynomials database (Alex Ghitza) -- Removed the use of {{{polydict}}} in the module {{{sage.databases.db_modular_polynomials.py}}}. 
 
  * {{{lrs.spkg}}} improvements (Marshall Hampton) -- Further tests added to the {{{makefile}}} of the package [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]]. This optional package implements the reverse search algorithm for vertex enumeration and convex hull problems.
 
@@ -211,27 +212,27 @@ Here's a summary of features in this release, categorized under various headings
 
  * Switch gmp to eMPIRe svn1555 (Michael Abshoff) -- The package {{{eMPIRe.spkg}}} is a drop in for the previous package {{{gmp-4.2.1.spkg}}}.
 
- * Upgrade [[http://ecm.gforge.inria.fr|GMP-ECM]] to version 6.2.1 (Michael Abshoff).
+ * Upgrade [[http://ecm.gforge.inria.fr|GMP-ECM]] to version 6.2.1 upstream release (Michael Abshoff).
 
  * Move [[http://jquery.com|jquery]] into its own spkg (Jason Grout).
 
- * Upgrade [[http://www.selenic.com/mercurial/wiki|Mercurial]] to version 1.1.2 (Mike Hansen).
+ * Upgrade [[http://www.selenic.com/mercurial/wiki|Mercurial]] to version 1.1.2 upstream release (Mike Hansen).
 
  * OS X 64-bit (Michael Abshoff) -- Added 64-bit build support for [[http://sourceforge.net/projects/pynac|PyNaC]], [[http://www.r-project.org|R]], [[http://ghmm.sourceforge.net|GHMM]], and [[http://bdwgc.sourceforge.net|Boehm GC]]. Also added {{{fortran-OSX64-20090120.spkg}}} to the experimental spkg repository.
 
- * Upgrade [[http://ipython.scipy.org/moin|IPython]] to version 0.9.1 (Mike Hansen).
+ * Upgrade [[http://ipython.scipy.org/moin|IPython]] to version 0.9.1 upstream release (Mike Hansen).
 
- * Update [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release (Sebastien Barthelemy).
+ * Upgrade [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release (Sebastien Barthelemy).
 
- * Updage [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release (Martin Albrecht).
+ * Upgrade [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release (Martin Albrecht).
 
 == Porting ==
 
- * OS X 64-bit (Michael Abshoff) -- Added proper {{{libcsage}}} build support, and [[http://www.singular.uni-kl.de|Singular]] is now built using the flag "{{{--with-malloc=system}}}".
+ * OSX 64-bit (Michael Abshoff) -- Added proper {{{libcsage}}} build support, and [[http://www.singular.uni-kl.de|Singular]] is now built using the flag {{{--with-malloc=system}}}.
 
 == Solaris ==
 
- * Upgrade libgcrypt to version 1.4.3 and force the function {{{get_memory_usage()}}} to fall back to using {{{top}}} when not on Linux (Michael Abshoff).
+ * Upgrade [[http://directory.fsf.org/project/libgcrypt|libgcrypt]] to version 1.4.3 upstream release and force the function {{{get_memory_usage()}}} to fall back to using {{{top}}} when not on Linux (Michael Abshoff).
 
 == User Interface ==
 
