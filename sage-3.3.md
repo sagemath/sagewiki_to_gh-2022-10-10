@@ -15,7 +15,7 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release notes, s
  * Update the [[http://tiswww.case.edu/php/chet/readline/rltop.html|readline]] spkg
  * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg
  * Update the [[http://www.shoup.net/ntl|NTL]] spkg
- * Updage [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release
+ * Update [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release
 
 Here's a summary of features in this release, categorized under various headings.
 
@@ -45,6 +45,8 @@ Here's a summary of features in this release, categorized under various headings
 
  * Consistent integer hashing (Craig Citro).
 
+ * Unit of least precision for RR and RDF (Robert Bradshaw) -- New function {{{ulp()}}} to get the unit of least precision for a real number defined using RR or RDF. The unit of least precision for such a number is the weight of its least significant bit. Unless the number in question is exactly a power of two, it is gap between this number and the next closest distinct number that can be represented. 
+
 == Build ==
 
  * 64-bit OSX (Michael Abshoff) -- Fixed 64-bit OSX build support for f2c, added 64-bit OSX build support for tachyon, added 64-bit OSX build support for flintqs, and added persistent Sage 64-bit building switch on OSX and Solaris.
@@ -73,6 +75,8 @@ Here's a summary of features in this release, categorized under various headings
 == Coding Theory ==
 
  * Weight distribution for binary codes (Robert Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation.
+
+ * Linear codes decoding algorithms (David Joyner, Robert L. Miller) -- A number of algorithms in the GAP package Guava are moved to Sage. Two decoding methods are implemented, in particular, the methods nearest neighbor and syndrome. 
 
 == Coercion ==
 
@@ -105,8 +109,6 @@ Here's a summary of features in this release, categorized under various headings
 
  * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. The OSX Sage launcher can be built using {{{-bdist}}} on OSX.
 
-== Documentation ==
-
 == Geometry ==
 
  * Polyhedral improvements (Marshall Hampton) -- Added more built-in Archimedean solids and some new methods such as the Gale transform, bipyramid construction, edge truncation, and perspective projection with (optionally) hidden faces invisible. The Schlegel projection code has also been somewhat refactored to make it more general in the future.
@@ -119,7 +121,7 @@ Here's a summary of features in this release, categorized under various headings
 
 == Graphics ==
 
- * Plotting a region (Arnaud Bergeron) -- Plot a region where a system of equations/inequalities were true.
+ * Plotting a region (Arnaud Bergeron) -- New function {{{region_plot()}}} for plotting a region where a system of equations/inequalities holds true. Here's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/2770/plot-region.png|sample plot]] using the new function {{{region_plot()}}}.
 
  * Consistency in variable range (Mike Hansen, Jason Grout) -- The variable range of {{{parametric_plot}}} is now consistent with that of {{{plot}}}, namely {{{(var, min, max)}}}.
 
@@ -128,6 +130,8 @@ Here's a summary of features in this release, categorized under various headings
  * Added a {{{density_plot()}}} function and improve colour map handling (Arnaud Bergeron) -- The {{{density_plot}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Some improve on how colour map is handled.
 
  * 3-D polygon (Arnaud Bergeron) -- The new function {{{polygon3d()}}} allows for plotting of 3-D polygons.
+
+ * Fill option for {{{plot}}}, {{{polar_plot}}} and {{{parametric_plot}}} (Wilfried Huss, Karl-Dieter Crisman, Michael Abshoff) -- Added new options "fill", "fillcolor", and "fillalpha" to the plot family of functions. These new fill options allow users to fill the area between two functions in a plot, or to fill the area between the function and the x-axis. The syntax for the new fill option is similar to what Mathematica uses. Here's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/4976/fill1.png|sample plot]] using the new fill option.
 
 == Group Theory ==
 
@@ -154,6 +158,8 @@ Here's a summary of features in this release, categorized under various headings
  * Improved performance for method {{{density()}}} in {{{matrix/matrix_modn_sparse.pyx}}} (Craig Citro).
 
  * Added a kernel method for sparse integer matrices (John Palmieri).
+
+ * Speed up {{{right_nullity()}}} for matrices (John H. Palmieri).
 
 == Miscellaneous ==
 
