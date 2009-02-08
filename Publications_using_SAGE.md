@@ -7,7 +7,7 @@ If you use Sage in a book, paper, website, etc., please email me at wstein@gmail
 {{{
 @manual{sage,
        Key = {SAGE},
-       Author = {William Stein},
+       Author = {W.\thinspace{}A. Stein and others},
        Organization = {The Sage~Group},
        Title = {{S}age {M}athematics {S}oftware ({V}ersion 3.3)},
        note= {{\tt http://www.sagemath.org}},
@@ -16,9 +16,10 @@ If you use Sage in a book, paper, website, etc., please email me at wstein@gmail
 
 To reference Sage using TeX, use:
 {{{
-\bibitem[SAGE]{sage}
-Stein, William, \emph{Sage {M}athematics {S}oftware ({V}ersion 2.7)}, 
-The Sage~Group, 2007, {\tt http://www.sagemath.org}.
+\newcommand{\etalchar}[1]{$^{#1}$}
+\bibitem[S{\etalchar{+}}09]{sage}
+W.\thinspace{}A. Stein et~al., \emph{{S}age {M}athematics {S}oftware ({V}ersion
+  3.3)}, The Sage~Group, 2009, {\tt http://www.sagemath.org}.
 }}}
 Also, be sure to find out what components of Sage, e.g., Numpy, PARI, GAP, that your calculation uses, and properly attribute those systems (for example, ask on sage-devel). Similarly, consider finding out who wrote the Sage code you're using and acknowledge them explicitly as well.
 
