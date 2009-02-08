@@ -162,6 +162,22 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * Speed up {{{right_nullity()}}} for matrices (John H. Palmieri).
 
+ * Considerable (optional) speed-up for row echelon forms of dense matrices over GF(2).
+ {{{
+#Old
+sage: A = random_matrix(GF(2),2*10^4,2*10^4)
+sage: %time A.echelon_form(algorithm='m4ri')
+CPU times: user 15.49 s, sys: 0.05 s, total: 15.54 s
+Wall time: 15.72 s
+20000 x 20000 dense matrix over Finite Field of size 2
+#New
+sage: A = random_matrix(GF(2),2*10^4,2*10^4)
+sage: %time A.echelon_form(algorithm='pluq')
+CPU times: user 9.86 s, sys: 0.04 s, total: 9.91 s
+Wall time: 9.97 s
+20000 x 20000 dense matrix over Finite Field of size 2
+ }}}
+
 == Miscellaneous ==
 
  * Rewrite of the function {{{__getitem__}}} (Jason Grout, Craig Citro) -- A rewrite of the function {{{__getitem__}}} in {{{sage.matrix.matrix0.pyx}}} to better support slices and negative indices.
