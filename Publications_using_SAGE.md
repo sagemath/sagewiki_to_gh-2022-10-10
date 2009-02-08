@@ -1,7 +1,7 @@
 == Technical/Scholarly Publications mentioning Sage ==
 If you use Sage in a book, paper, website, etc., please email me at wstein@gmail.com and reference Sage as follows:
 
-{{{William Stein, Sage Mathematics Software (Version 2.7), The Sage Group, 2007, http://www.sagemath.org/.}}}
+{{{William Stein, Sage Mathematics Software (Version 3.2), The Sage Group, 2009, http://www.sagemath.org/.}}}
 
  . where you should change the version number and the year to reflect the version of Sage that you used for the publication. To reference Sage using Bibtex, use:
 {{{
