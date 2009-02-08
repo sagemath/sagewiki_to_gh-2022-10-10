@@ -9,9 +9,9 @@ If you use Sage in a book, paper, website, etc., please email me at wstein@gmail
        Key = {SAGE},
        Author = {William Stein},
        Organization = {The Sage~Group},
-       Title = {{S}age {M}athematics {S}oftware ({V}ersion 2.7)},
+       Title = {{S}age {M}athematics {S}oftware ({V}ersion 3.3)},
        note= {{\tt http://www.sagemath.org}},
-       Year = 2007}
+       Year = 2009}
 }}}
 
 To reference Sage using TeX, use:
