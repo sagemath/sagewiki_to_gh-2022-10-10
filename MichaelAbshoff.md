@@ -1,7 +1,15 @@
 = Michael Abshoff's Wiki SAGE page =
-Hello, I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated around packages and their portability. I added valgrind support to Sage 2.8.3 and have been using various valgrind tools to investigate Sage's memory consumption.
 
-I am the main release manager for Sage and I chaired a number of releases - 29 so far: 
+== Contact Information ==
+
+ * For an email address check [[http://groups.google.com/groups/profile?enc_user=GGRP9BcAAAAZQo9hoMaeKCAqGq1BeY9EHqZiDvCVswhrZ6TQxKj0ww|this Google profile]]
+ * I hang out in #sage-devel on freenode
+
+== Involvement with Sage ==
+
+I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated around packages and their portability. I added valgrind support to Sage 2.8.3 and have been using various valgrind tools to investigate Sage's memory consumption.
+
+I am the main release manager for Sage and I chaired a number of releases - 30 so far: 
 
  * 2.8.11, 2.8.13-2.8.15
  * 2.9, 2.9.2-3
@@ -10,6 +18,7 @@ I am the main release manager for Sage and I chaired a number of releases - 29 s
  * 3.0, 3.0.1-6
  * 3.1, 3.1.1-4
  * 3.2, 3.2.1-3 
+ * 3.3
 
 == Sage Projects ==
 
