@@ -15,6 +15,7 @@
   * Papers:
    * Efficient Sum-Product Computations on GPUs: http://www.cs.technion.ac.il/~marks/docs/SumProductCisco.pdf
     * Silberstein Home Page: http://www.cs.technion.ac.il/~marks/
+   * Speeding up Mutual Information Computation Using Cuda: http://users.rsise.anu.edu.au/~ramtin/cuda.htm
   * Sites:
    * GPGPU: http://www.gpgpu.org/
 
