@@ -125,7 +125,7 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * Equality testing in graphs (Robert L. Miller) -- The "weighted" property or edge label is taken into account when testing for equality in graphs.
 
- * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release (Robert L. Miller, Michael Abshoff).
+ * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release (Robert L. Miller, Michael Abshoff) -- NetworkX is a Python package for studying the structure and dynamics of complex networks. It can be used to analyze large networks including social, biological and technological networks.
 
 == Graphics ==
 
@@ -201,9 +201,9 @@ Wall time: 9.97 s
 
  * Clear browser cache when restarting the worksheet (Mike Hansen).
 
- * Update jsMath to version 3.6 upstream release (Jason Grout).
+ * Update jsMath to version 3.6 upstream release (Jason Grout) -- jsMath is a package for including professional quality mathematics typesetting a la LaTeX/TeX in HTML pages. It works across multiple popular browsers and is platform independent.
 
- * In-line WYSIWYG editor for text cells using [[http://tinymce.moxiecode.com|TinyMCE]] (Jason Grout).
+ * In-line WYSIWYG editor for text cells using [[http://tinymce.moxiecode.com|TinyMCE]] (Jason Grout) -- TinyMCE is a Javascript library that implements a WYSIWYG editor within a browser.
 
  * Automatic indentation (Alexander Hupfer, Tom Boothby) -- Automatic indentation for Python code after colons and same level identation. Currently, up to four levels of indentation are supported.
 
