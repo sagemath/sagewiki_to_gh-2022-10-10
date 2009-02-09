@@ -30,6 +30,9 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * Improved precision and performance when calculating analytic rank (William Stein) -- When calculating the analytic rank of an elliptic curve, the default is to use Cremona's {{{gp}}} script, where the precision is automatically doubled until it doesn't fail. The precision is started at 16 rather than the previous default precision. The computation is now about 3 times faster usually by starting off using this smaller precision.
 
+ * Weil pairing (David Moller Hansen, John Cremona) -- A basic framework for Weil pairing on elliptic curves using Miller's algorithm as contained in Proposition 8 of the following paper:
+    * Victor S. Miller. "The Weil pairing, and its efficient calculation". Journal of Cryptology, 17(4):235-261, 2004.
+
 == Basic Arithmetic ==
 
  * {{{ivalue}}} field in {{{integer_mod.pyx}}} is no longer public (Craig Citro) -- The {{{ivalue}}} field for {{{IntegerMod_int}}} is no longer public. This gives about a 1.5 to 2X speed-up when multiplying {{{IntegerMod_ints}}}. 
@@ -73,6 +76,8 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
      * LaTeX printing.
      * Allow PyNaC symbolics to be used in {{{CallableSymbolicExpressions}}}. 
 
+ * Indefinite integration for piecewise functions (Paul Butler).
+
 == Coding Theory ==
 
  * Weight distribution for binary codes (Robert L. Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation.
@@ -108,7 +113,9 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * GAP configuration file (Matthias Meulien) -- A user's local GAP configuration file is usually named {{{$HOME/.gaprc}}}. When such a file already exists and Sage is compiled from source, using the Sage interface to GAP, e.g. {{{gap._eval_line('1+3;')}}}, can result in gibberish. This is now fixed so that the GAP interface would output a comprehensible message/answer as a result of some GAP calculation.
 
- * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. The OSX Sage launcher can be built using {{{-bdist}}} on OSX.
+ * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. The clickable Mac application launcher can be built using {{{-bdist}}} on OSX.
+
+ * Port to 64-bit OSX 10.5 (Michael Abshoff).
 
 == Geometry ==
 
@@ -226,7 +233,9 @@ Wall time: 9.97 s
 
 == Packages ==
 
- * Switch gmp to eMPIRe svn1555 (Michael Abshoff) -- The package {{{eMPIRe.spkg}}} is a drop in for the previous package {{{gmp-4.2.1.spkg}}}.
+ * Switch from GMP to [[http://www.mpir.org|MPIR]] and upgrade to version 0.9.rc3 upstream release  (Michael Abshoff) -- MPIR, otherwise known as eMPIRe, is a library for multiprecision integers and rationals based on the [[http://www.gmplib.org|GMP]] project. Among other things, MPIR aims to provide native build capability under Windows.
+
+ * Upgrade [[http://www.mpfr.org|MPFR]] to version 2.4.0 upstream release (Michael Abshoff) -- MPFR is a C library for multiprecision floating-point computations that is based on the GMP project.
 
  * Upgrade [[http://ecm.gforge.inria.fr|GMP-ECM]] to version 6.2.1 upstream release (Michael Abshoff).
 
