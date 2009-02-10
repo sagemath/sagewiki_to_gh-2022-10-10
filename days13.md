@@ -27,3 +27,31 @@ The event will be held at the [[http://www.uga.edu/visit/directions.html|Univers
  * Discuss generalizations of existing code to Hermitian forms and number fields 
  * Write new code for quadratic forms and lattices (??)
  
+== Participants ==
+
+Travelling attendees:
+
+   1. Michael Abshoff
+   2. Jon Bober
+   3. Henry Cohn
+   4. Alyson Deines
+   5. Gabrielle Nebe
+   6. Sourav san Gupta
+   7. Rudolph Scharlau
+   8. Gonzalo Tornaria
+   9. Dan Shumow
+   10. William Stein
+   11. Stephanie Vance
+   12. John Voight
+   13. Justin Walker
+   14. Matry Weissman
+
+
+Local Attendees:
+
+   1. Jason Cantarella
+   2. Pete Clark
+   3. Jonathan Hanke
+   4. Dino Lorenzini
+   5. Robert Rumley
+   6. David Swinarski
