@@ -6,6 +6,8 @@ Final status reports are [[days12/statusreports|here]].
 
 == Schedule ==
 
+ * Wednesday pm -- talk by William Stein and Craig Citro on Introduction to Sage
+ * Wednesday pm -- talk by Michael Abshoff on Developing for Sage
  * Thursday at 4pm -- a talk by Simon King on cohomology of p-groups in Atkinson 4004
  * Thursday at 5pm -- bug triage session in Atkinson 4004
  * Thursday at 7pm -- dinner at Sea Rocket Bistro
