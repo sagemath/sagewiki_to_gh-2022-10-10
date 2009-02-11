@@ -74,3 +74,22 @@ $ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/gues
 $ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guest8000/GuestPort" 8000
 $ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guest8000/HostPort" 8000
 }}}
+
+== Sage ==
+
+Download and install Sage as usual in the virtual machine. Start the notebook:
+{{{
+$ ./sage
+----------------------------------------------------------------------
+| Sage Version 3.2.3, Release Date: 2009-01-05                       |
+| Type notebook() for the GUI, and license() for information.        |
+----------------------------------------------------------------------
+sage: notebook(address="")
+[...]
+**************************************************
+*                                                *
+* Open your web browser to http://localhost:8000 *
+*                                                *
+**************************************************
+}}}
+And connect to http://localhost:8000 on your host machine.
