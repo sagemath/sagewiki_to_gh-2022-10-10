@@ -110,3 +110,14 @@ Create a working directory:
 mkdir nbfiles
 chmod g+w nbfiles
 }}}
+Create `notebook.py`:
+{{{
+from sage.all import *
+
+notebook(directory='/home/ondrej/nbfiles', port=8000, accounts=True, address='', ulimit='-u 100 -v 300000 -t 3600', open_viewer=False, timeout=120, secure=False, server_pool=['nbuser@localhost'])
+}}}
+And start it using:
+{{{
+sage -python notebook.py
+}}}
+}}}
