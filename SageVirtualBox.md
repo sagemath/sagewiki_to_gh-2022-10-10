@@ -110,7 +110,7 @@ Create a working directory:
 mkdir nbfiles
 chmod g+w nbfiles
 }}}
-You *have* to make Sage available just by calling `sage` and it needs to be in default paths, e.g. it's not enough to add the path to Sage to your .bashrc. Do it by:
+You '''have''' to make Sage available just by calling `sage` and it needs to be in default paths, e.g. it's not enough to add the path to Sage to your .bashrc. Do it by:
 {{{
 cd /usr/local/bin
 sudo ln -s /home/ondrej/ext/sage-3.2.3-Debian4.0-32bit-Intel-i686-Linux/sage .
