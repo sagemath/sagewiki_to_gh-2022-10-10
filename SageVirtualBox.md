@@ -120,4 +120,3 @@ And start it using:
 {{{
 sage -python notebook.py
 }}}
-}}}
