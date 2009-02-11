@@ -95,7 +95,7 @@ sage: notebook(address="")
 And connect to http://localhost:8000 on your host machine.
 
 
-== Setting up Apache and securing the Sage notebook ==
+== Securing the Sage notebook ==
 
 Do all of the below as the user `ondrej`, that will run the notebook server. Create an `nbuser` user that will run the actual worksheets:
 {{{
@@ -107,13 +107,13 @@ $ sudo adduser nbuser sageusers
 Setup ssh keys, so that you can do `ssh nbuser@localhost` without a password.
 Create a working directory:
 {{{
-mkdir nbfiles
-chmod g+w nbfiles
+$ mkdir nbfiles
+$ chmod g+w nbfiles
 }}}
 You '''have''' to make Sage available just by calling `sage` and it needs to be in default paths, e.g. it's not enough to add the path to Sage to your .bashrc. Do it by:
 {{{
-cd /usr/local/bin
-sudo ln -s /home/ondrej/ext/sage-3.2.3-Debian4.0-32bit-Intel-i686-Linux/sage .
+$ cd /usr/local/bin
+$ sudo ln -s /home/ondrej/ext/sage-3.2.3-Debian4.0-32bit-Intel-i686-Linux/sage .
 }}}
 Create `notebook.py`:
 {{{
@@ -123,5 +123,29 @@ notebook(directory='/home/ondrej/nbfiles', port=8000, accounts=True, address='',
 }}}
 And start it using:
 {{{
-sage -python notebook.py
+$ sage -python notebook.py
+}}}
+
+== Setting up lighttpd ==
+
+{{{
+$ wajig install lighttpd
+}}}
+Create `/etc/lighttpd/conf-available/20-notebook.conf`:
+{{{
+server.modules   += ( "mod_proxy" )
+
+$SERVER["socket"] == ":8080" {
+    proxy.server = ( "" =>
+        ( (
+        "host" => "127.0.0.1",
+        "port" => 8000
+        ) )
+    )
+}
+}}}
+Enable it:
+{{{
+$ sudo lighty-enable-mod notebook
+$ sudo /etc/init.d/lighttpd force-reload
 }}}
