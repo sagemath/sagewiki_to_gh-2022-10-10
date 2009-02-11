@@ -13,9 +13,9 @@ Answer yes to install the kernel module, it should just work. Create the virtual
 {{{
 $ VBoxManage createvm -name ubuntu -register
 $ VBoxManage modifyvm ubuntu -memory "2048MB" -acpi on -boot1 dvd -nic1 nat
-$ VBoxManage createvdi -filename “/var/vbox/ubuntu.vdi” -size 20000 -register
-$ VBoxManage registerimage dvd ~/ext/debian-40r6-amd64-netinst.iso
-$ VBoxManage modifyvm ubuntu -dvd ~/ext/debian-40r6-amd64-netinst.iso
+$ VBoxManage createvdi -filename ~/.VirtualBox/Machines/ubuntu/ubuntu.vdi -size 20000 -register
+$ VBoxManage registerimage dvd ~/ext/debian-40r6-i386-netinst.iso
+$ VBoxManage modifyvm ubuntu -dvd ~/ext/debian-40r6-i386-netinst.iso
 }}}
 == Start the image ==
 {{{
