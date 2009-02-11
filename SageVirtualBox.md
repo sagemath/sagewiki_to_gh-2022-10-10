@@ -14,7 +14,7 @@ $ VBoxManage createvdi -filename “/var/vbox/ubuntu.vdi” -size 20000 -registe
 $ VBoxManage registerimage dvd ~/ext/debian-40r6-amd64-netinst.iso
 $ VBoxManage modifyvm ubuntu -dvd ~/ext/debian-40r6-amd64-netinst.iso
 }}}
-Start the image:
+== Start the image ==
 {{{
 $ VBoxHeadless -startvm ubuntu
 VirtualBox Headless Interface 2.1.2
