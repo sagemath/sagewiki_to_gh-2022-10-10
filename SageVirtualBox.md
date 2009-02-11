@@ -97,10 +97,16 @@ And connect to http://localhost:8000 on your host machine.
 
 == Setting up Apache and securing the Sage notebook ==
 
-Create an `nbuser` user that will run the actual worksheets:
+Do all of the below as the user `ondrej`, that will run the notebook server. Create an `nbuser` user that will run the actual worksheets:
 {{{
 $ sudo adduser nbuser
 $ sudo addgroup sageusers
 $ sudo adduser ondrej sageusers
 $ sudo adduser nbuser sageusers
+}}}
+Setup ssh keys, so that you can do `ssh nbuser@localhost` without a password.
+Create a working directory:
+{{{
+mkdir nbfiles
+chmod g+w nbfiles
 }}}
