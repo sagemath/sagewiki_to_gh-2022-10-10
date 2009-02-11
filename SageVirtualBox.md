@@ -23,8 +23,15 @@ All rights reserved.
 
 Listening on port 3389
 }}}
-Connect to the image (requires X):
+Connect to the image (requires X) on the same machine:
 {{{
 rdesktop localhost
 }}}
-You can login remotely if you want, or forward the port.
+Or you can login remotely by forwarding the 3389 port:
+{{{
+$ ssh -L 3389:localhost:3389 server
+}}}
+And from your desktop computer
+{{{
+rdesktop localhost
+}}}
