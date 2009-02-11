@@ -36,7 +36,12 @@ And from your desktop computer
 rdesktop localhost
 }}}
 
-== Stop the image ==
+== Stop the image (do not save changes) ==
 {{{
 VBoxManage controlvm ubuntu poweroff
+}}}
+
+== Stop the image (save changes) ==
+{{{
+VBoxManage controlvm ubuntu savestate
 }}}
