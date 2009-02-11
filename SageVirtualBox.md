@@ -1,3 +1,6 @@
+You need a recent virtualbox, or the (proprietary) server version of it (which is free as in beer). In any case, the steps below work for me on Ubuntu intrepid:
+
+
 /etc/apt/sources.list:
 {{{
 deb http://download.virtualbox.org/virtualbox/debian intrepid non-free
