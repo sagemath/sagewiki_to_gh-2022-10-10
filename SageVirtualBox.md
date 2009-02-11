@@ -35,3 +35,8 @@ And from your desktop computer
 {{{
 rdesktop localhost
 }}}
+
+== Stop the image ==
+{{{
+VBoxManage controlvm ubuntu poweroff
+}}}
