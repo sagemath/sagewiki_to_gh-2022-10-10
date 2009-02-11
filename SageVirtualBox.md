@@ -37,17 +37,22 @@ $ ssh -L 3389:localhost:3389 server
 }}}
 And from your desktop computer
 {{{
-rdesktop localhost
+$ rdesktop localhost
+}}}
+
+Install the system. After installing it, remove the cd (iso image) by
+{{{
+$ VBoxManage modifyvm ubuntu -dvd none
 }}}
 
 == Stop the image (do not save changes) ==
 {{{
-VBoxManage controlvm ubuntu poweroff
+$ VBoxManage controlvm ubuntu poweroff
 }}}
 
 == Stop the image (save changes) ==
 {{{
-VBoxManage controlvm ubuntu savestate
+$ VBoxManage controlvm ubuntu savestate
 }}}
 
 
@@ -55,11 +60,17 @@ VBoxManage controlvm ubuntu savestate
 
 In order to be able to login using ssh, do:
 {{{
-VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/Protocol" TCP
-VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/GuestPort" 22
-VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/HostPort" 2222
+$ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/Protocol" TCP
+$ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/GuestPort" 22
+$ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/HostPort" 2222
 }}}
 Then you can login on the server using:
 {{{
-ssh -p 2222 localhost
+$ ssh -p 2222 localhost
+}}}
+To forward the port 8000 for the Sage notebook, use:
+{{{
+$ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guest8000/Protocol" TCP
+$ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guest8000/GuestPort" 8000
+$ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guest8000/HostPort" 8000
 }}}
