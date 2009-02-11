@@ -149,3 +149,4 @@ Enable it:
 $ sudo lighty-enable-mod notebook
 $ sudo /etc/init.d/lighttpd force-reload
 }}}
+And login to your computer from the outside world to the port 8080 (you can of course just setup the port 80 instead of 8080).
