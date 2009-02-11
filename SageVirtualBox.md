@@ -49,3 +49,17 @@ VBoxManage controlvm ubuntu poweroff
 {{{
 VBoxManage controlvm ubuntu savestate
 }}}
+
+
+== Networking ==
+
+In order to be able to login using ssh, do:
+{{{
+VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/Protocol" TCP
+VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/GuestPort" 22
+VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/HostPort" 2222
+}}}
+Then you can login on the server using:
+{{{
+ssh -p 2222 localhost
+}}}
