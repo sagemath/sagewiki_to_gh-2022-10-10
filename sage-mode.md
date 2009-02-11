@@ -9,11 +9,11 @@ Contact Nick Alexander on {{{sage-devel}}} to request features, report bugs, and
 
 '''Warning!'''  This is alpha code.  This might fail horribly and is not (yet) easily customizable.
 
-Version 0.5 adds Matthias Meulien's sage-view.el and adds sage-rerun, and C-u sage-build, as requested by Nicolas Thiery.
+Version 0.5.1 adds Matthias Meulien's sage-view.el and adds sage-rerun, and C-u sage-build, as requested by Nicolas Thiery.  It fixes a small bug with binding in sage-view and now the install instructions are correct.
 
-[[attachment:sage-mode-0.5.spkg]]
+[[attachment:sage-mode-0.5.1.spkg]]
 
-Use {{{sage -f sage-mode-0.5.spkg}}}.  The following installation instructions are suggested:
+Use {{{sage -f sage-mode.spkg}}}.  The following installation instructions are suggested:
 
 {{{
 (add-to-list 'load-path (expand-file-name "$SAGE_DATA/emacs"))
@@ -24,10 +24,13 @@ Use {{{sage -f sage-mode-0.5.spkg}}}.  The following installation instructions a
 
 ;; If you want sage-view to typeset all your output and have plot()
 ;; commands inline, uncomment the following line and configure sage-view:
-;; (add-hook 'inferior-sage-mode-hook 'sage-view)
+;; (require 'sage-view "sage-view")
+;; (add-hook 'sage-startup-hook 'sage-view-always)
 }}}
 
 == Old versions ==
+
+[[attachment:sage-mode-0.5.spkg]]
 
 [[attachment:sage-mode-0.4.spkg]]
 
