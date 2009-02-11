@@ -68,6 +68,16 @@ Then you can login on the server using:
 {{{
 $ ssh -p 2222 localhost
 }}}
+Or if you put this into your `.ssh/config`:
+{{{
+Host pythonnb
+    HostName localhost
+    User ondrej
+    Compression no
+    Port 2222
+}}}
+Then you can connect just by `ssh pythonnb`.
+
 To forward the port 8000 for the Sage notebook, use:
 {{{
 $ VBoxManage setextradata ubuntu "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guest8000/Protocol" TCP
