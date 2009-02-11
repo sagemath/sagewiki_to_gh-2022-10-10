@@ -93,3 +93,14 @@ sage: notebook(address="")
 **************************************************
 }}}
 And connect to http://localhost:8000 on your host machine.
+
+
+== Setting up Apache and securing the Sage notebook ==
+
+Create an `nbuser` user that will run the actual worksheets:
+{{{
+$ sudo adduser nbuser
+$ sudo addgroup sageusers
+$ sudo adduser ondrej sageusers
+$ sudo adduser nbuser sageusers
+}}}
