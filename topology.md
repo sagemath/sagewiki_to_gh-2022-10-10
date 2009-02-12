@@ -120,4 +120,4 @@ Computing Ext over connected algebras is important throughout algebra and topolo
 
 <<Anchor(unstable)>>
 === Unstable homotopy groups of spheres ===
-[[http://neil-strickland.staff.shef.ac.uk/toda/|Neil Strickland]] has written some Mathematica programs to reproduce some of Toda's calculations of stable homotopy groups of spheres, and this could be translated to Sage.
+[[http://neil-strickland.staff.shef.ac.uk/toda/|Neil Strickland]] has written some Mathematica programs to reproduce some of Toda's calculations of stable homotopy groups of spheres, and these could be translated to Sage.
