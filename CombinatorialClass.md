@@ -43,12 +43,19 @@ When two combinatorial classes As and Bs with object a and b from OOclass A and 
 
 It is maybe not a very strong rule. Possible exception A is very standard and B is very exotic. Then maybe one can only write {{{b.to_A()}}} and {{{B.from_A}}}
 
-It might be cool to have some generic intelligence here.  If we agree to reserve the methods {{{to()}}} and {{{from()}}}, when I add  the new CClass {{{C}}} to sage and implement {{{C.to(A,c)}}} and then call {{{A.from(C,c)}}}, when {{{A}}} can't figure out what to do it automatically tries {{{C.to(A,c)}}}. Thoughts? -jbandlow)
+(It might be cool to have some generic intelligence here.   Suppose I add the new CClass {{{C}}} to sage and implement {{{C._to(A,c)}}}.  Then I would like it if when I call either {{{C.to(A,c)}}} or {{{A.from(C,c)}}}, sage automatically tries both (if necessary) of {{{A._from(C,c)}}} and {{{C._to(A,c)}}}. In other words, {{{CombinatorialClass}}} itself could have a method like:{{{
+def to(self, class, element):
+  try:
+    return self._to(class, element)
+  except(NotImplementedError):
+    return class._from(self, element)
+}}}
+And similar for {{{from()}}}. Thoughts? -jbandlow)
 
 == Combinatorial Class Factory ==
 
 The goal here is to make it simple to make a subclass of a combinatorial class by adding some constraints. For example if {{{p4=Permutations(4)}}}. The user may want to get the subclass of p4 of permutations of length say 5. So
- - Each combinatorial class should embed the necessary information to rebuild itself with extra constraint.
+ - Each combinatorial class should embed the necessary information to rebuild itself with extra constraints.
  - what is the syntax to add this extra constraints ? 
    * p4.subclass(length=5) ? 
    * other suggestion ?  (I would prefer p4.with_constraint(length=5).  I feel it is more clear than .subclass to a naive mathematician looking at a tab-completion list. -jbandlow)
