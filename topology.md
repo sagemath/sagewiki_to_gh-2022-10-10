@@ -58,7 +58,7 @@ simplicial complexes, often generated from point cloud data. Originally develope
 
 <<Anchor(king)>>
 === Spkg of David Green and Simon King ===
-Based on C-programs of David Green, Simon King created Cython modules for the computation of cohomology rings of finite p-groups with coefficients in GF(p). Currently this seems to be by far the most powerful framework for computing modular cohomology of finite p-groups. Results can be found [[http://users.minet.uni-jena.de/~king/cohomology/|here]]. It seems that we are close to making a spkg out of it. Next project would be to study Steenrod actions.
+Based on C-programs of David Green, Simon King created Cython modules for the computation of cohomology rings of finite p-groups with coefficients in GF(p). Currently this seems to be by far the most powerful framework for computing modular cohomology rings of finite p-groups. Results can be found [[http://users.minet.uni-jena.de/~king/cohomology/|here]]. It seems that we are close to making a spkg out of it. Next project would be to study Steenrod actions.
 
 <<Anchor(kenzo)>>
 === Kenzo ===
