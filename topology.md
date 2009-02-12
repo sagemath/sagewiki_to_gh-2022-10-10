@@ -2,9 +2,9 @@
 
 Various people expressed the wish to have Algebraic Topology in Sage. This Wiki is for collecting suggestions. The first version is based on [[http://groups.google.com/group/sage-devel/browse_thread/thread/dadd2946ff1b1948?hl=en|this thread]].
 
-'''Disclaimer:''' Here we are not (yet) talking about ''standard'' packages. Some of them can only be optional, due to lack of support of various platforms or due to licence problems. Also we do not claim that ''all'' the suggestions below are interesting enough for considering inclusion. Please feel free to remove items if you think they are clearly inappropriate.
+'''Disclaimer:''' Here we are not (yet) talking about ''standard'' packages. Some of them can only be optional, due to lack of support for various platforms or due to licence problems. Also we do not claim that ''all'' the suggestions below are interesting enough for considering inclusion. Please feel free to remove items if you think they are clearly inappropriate.
 
-One wish was to compute the homology of simplicial complexes, which might be doable with various packages. This is partially related with the study of point cloud data (''persistent'' homology). But there are also various pieces of software that are specialized on questions in Low-Dimensional Topology and are partially related with (riemannian) geometry and decision problems (e.g., 'determine whether or not to 3-manifolds are homeomorphic').
+One wish was to compute the homology of simplicial complexes, which might be doable with various packages. This is partially related with the study of point cloud data (''persistent'' homology). But there are also various pieces of software that are specialized on questions in Low-Dimensional Topology and are partially related with (riemannian) geometry and decision problems (e.g., 'determine whether or not two 3-manifolds are homeomorphic').
 
 == List of Suggestions ==
 There is one section for each of the items (follow the links). Many of our suggestions were taken from [[http://www.math.uiuc.edu/~nmd/computop/|Nathan Dunfield's list]].
