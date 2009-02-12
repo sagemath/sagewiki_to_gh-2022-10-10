@@ -50,3 +50,178 @@ The goal here is to make is simple to take a subclass of a combinatorial class b
  - If no algorithm is known to handles the new constraints what should be the behavior ?
    * raise an error suggesting the user to use a {{{filter}}}     
    * do the filter automatically   
+
+Here is the copy paste of an old mail from Nicolas which was buried. 
+
+{{{
+> Factories of combinatorial classes:
+> 
+> There are three levels:
+> 
+> (a) Combinatorial class factories, like:
+>     Permutations
+> 
+> (b) Combinatorial classes, with list/count operations:
+>     Permutations(4): models the combinatorial class of permutations of size 4
+>     Permutations(4, descents = [2,1])
+>     Permutations(4, greater_than = [3,1,2])
+>     Permutations(bruhat_smaller=[3,1,2])
+>     Permutations(left_bruhat_smaller=[3,1,2])
+>     Permutations(4, left_bruhat_smaller=[3,1,2]): should raise an exception
+> 
+>     Those are objects which may be an instance of many classes:
+>      - Permutations_of_size
+>      - Permutations_from_descents
+>      - Permutations_lower_ideal_left_weak_order
+>     Those classes are implementation details, and need not be known by the user
+> 
+> (c) Data structures for combinatorial objects
+>     class Permutation, class PermutationArray, class PermutationCycle
+> 
+>     Those classes are mostly implementation details
+>     They define the data structure and algorithms
+> 
+> (d) Combinatorial objects:
+>     Permutation([1,3,2])
+> 
+>     One can always use a combinatorial class CC as constructor; in
+>     that case, the result c is always an element of CC (i.e. c.parent() = CC)
+> 
+>     Example:
+>      - Permutation([1,2,3]) creates one permutation in Permutations()
+>      - Permutations(4)([1,2,3,4]) also creates one permutation but this time in Permutations(4)
+> 
+>     This might even be the recommended way.
+> 
+> More involved example: tableaux
+> 
+> (a) The Tableaux factory:
+>     def Tableaux (# size options; only one can be specified?
+>                   size=:, shape
+>                   # content options; only one can be specified
+> 		  # standard = True if none is specified?
+>                   standard, alphabet, evaluation, content
+> 		  young=True,
+> 		  constructor)
+> 
+>     Maybe some aliases:
+>      - def StandardYoungTableaux(*): Tableaux(*,standard=True, parent = StandardYoungTableaux())
+>      - def SemiStandardYoungTableaux(*): Tableaux(*, parent = StandardYoungTableaux())
+> 
+> (b) Tableaux(4):          standard young tableaux of size 4
+>     Tableaux(shape=[4,1]) standard young tableaux of shape [4,1]
+> 
+>     Tableaux(shape=[4,1], evaluation=[3,2])
+>     Tableaux(shape=[4,1], alphabet=[1,2,4]) : semi standard young tableaux (obtained by crystal operations)
+> 
+>     The default parent for the generated tableaux, depends on the young and standard options:
+>      - Tableaux(standard = True, Young = True)
+>      - Tableaux(standard=False, Young = True)
+>      - Tableaux(standard=False, Young = True)
+> 
+> 
+> 
+> (c) Data structures for combinatorial objects
+>     Again, those classes are mostly implementation details
+>     They define the data structure and algorithms (e.g. RSK will be in YoungTableau)
+> 
+>     There may be more than one Tableau data structure (by rows, by
+>     columns) in which case Tableau is a common abstract class.
+> 
+> (d) Combinatorial objects:
+>     Tableau([[2,3],[1,2]])
+>     StandardTableau([[4,3],[1,2]])
+>     StandardYoungTableau([[3,4],[1,2]])
+> 
+>     One can always use a combinatorial class as constructor; this
+>     might even be the recommended way:
+>     Tableaux([[2,3],[1,2]])
+> 
+> 
+> Different data structures and fundamental algorithms for combinatorial objects:
+>  - Tableau(LabelledObject)
+>    Indexation choice: t[row,col] with indexing 0 based and longest row first
+> 
+>  - from Tableau derives:
+>     class YoungTableau(Tableau):          implements e.g. RSK
+>     class StandardTableau(Tableau)
+>     class StandardYoungTableaux(YoungTableau,StandardTableau)
+> 
+>  - SkewTableau(LabelledObject)       (LabelledObject)
+> 
+>  - class AbstractTree(AbstractDigraph)
+>    Defines precisely the syntax for constructors
+> 
+>  - class MyTree(AbstractTree)
+> 
+> ##############################################################################
+> Factories, subfactories and subclasses
+> 
+> 
+>  - Consider a factory and a combinatorial class C=Factory(constraints)
+>    Then C.sub_class(extra_contraints) is the sub class of C satisfying
+>    simultaneously the constraints for C (including the default ones)
+>    and the extra_constraints. In practice, this will be constructed by
+>    calling the factory with all the constraints set.
+> 
+>    Consider for example the Tableaux factory (recall that the options
+>    standard and evaluation are mutually incompatible)
+> 
+>    Then, C = Tableaux() models the set of standard tableaux. It is
+>    equivalent to C=Tableaux(standard=True).
+>    Now, C.sub_class(evaluation=[3,2]) is *not* Tableaux(evaluation=[3,2])
+>    but rather Tableaux(standard=True, evaluation=[3,2]) which should
+>    trigger an error.
+> 
+> ##############################################################################
+> Factories as databases of algorithms
+> 
+>    The Tableaux factory will typically be implemented using a database like:
+>     {
+>       { standard=True, n:     "*"} : StandardTableauxBySize
+>       { standard=True, shape: "*"} : StandardTableauxByShape
+>       { alphabet: "*", shape: "*"} : SemiStandardTableauxByShapeAndAlphabetCrystal
+>     }
+> 
+>    This allows for two nice features 
+>     - A posteriori extensions of the database by pluging in new algorithm
+>     - Construction of partially specialized subfactory with
+> 	Tableaux.subfactory(shape="*", alphabet="*")
+>       to bypass the option checking for those case speed is at a premium
+> 
+>    Questions:
+> 
+>     - in some cases, we may want to split between the different cases
+>       differently for counting and listing. Should we support this?
+>     - does it make sense to define StandardTableaux as
+>       StandardTableaux = Tableaux.sub_factory(standard=True)
+> 
+> 
+> 
+> 
+> CC = CombinatorialClass
+> 
+> To create the combinatorial classes:
+> 
+> for x in Tableaux(3):
+>     ...
+> 
+> Comp = Compositions()
+> Compositions(4)              : CC of elements of Compositions()
+> Compositions(4, parent=Compositions(4)) : CC of elements of Compositions(4)
+> 
+> Trees(4, constructor=MyTree) : CC of instances of my_data_structure
+> 
+> Comp.sub_class(4)            : returns Compositions(4)
+> 
+> Comp([3,1,2])                : returns the element [3,1,2] of Comp
+> 
+> Arrangements()
+> 
+> 
+> 
+> Permutations(4)([1,3,2,4]) : returns an element of Permutations(4)
+> 
+> In general if C is a combinatorial class C(...) returns an element of C
+> (Example C=Trees(4))
+}}}
