@@ -2,14 +2,19 @@
 
 There are a lot of design issues which concern combinatorial classes. I'd like to discuss them here. The following are mostly notes from discussion with Nicolas. Once fixed this material should ends in the doc of CombinatorialClass. Please add comment at any places.
 
+
+== Foreword ==
+
+I need to fix some terminology. Maybe the name combinatorial class is bad in the context of Object Oriented programming. Should we call these "combinatorial set" ? Anyway it the following when there is a ambiguity I write OOClass and CClass
+
 == Interface and basic usage ==
 
-The name of the ObjOrientedClasses should be uniform : let's take the example of permutations
- * the combinatorial class of all permutations should be named {{{Permutations}}} (which is now permutations_all) the {{{__init__}}} should take in charge to call sub-classes if needed.  
- * sub-comb-classes are called {{{Permutations_constraints}}} 
- * for the objects one removes the s as in {{{Permutation}}}
+The name of the OOClasses involved in building a CClass should be uniform : let's take the example of permutations
+ * the OOClass whose unique instance is the CClass of all permutations should be named {{{Permutations}}} (which is now permutations_all) the {{{__init__}}} should take in charge to call sub-classes (see below discusion about factories) if needed.  
+ * the OOClasses whose instances are sub-CClasses are called {{{Permutations_constraints}}} 
+ * the OOClass of the objects of a CClass are called in singular as in {{{Permutation}}}
 
-The following function are standard and should be documented/publicized for all CombClass:
+The following function are standard and should be documented/publicized for all CClass:
  * {{{list}}}
  * {{{count}}} is the name fixed ? coherent with the rests of sage ?  
 
@@ -22,8 +27,8 @@ The following function should be written but are not supposed to be called direc
 
 The goal here is to be able to inherits smoothly from a combinatorial class to add extra mathematical structure (eg Poset, Group, Monoid).
 
- * By default each element created by a combinatorial class should have a parent (Permutations for example).
- * Any element should be constructed by an overloadable function and never by calling directly a class name. {{{_element_constructor}}} seems to be sage default. 
+ * By default each element created by a combinatorial class should have a parent by default it seem to me that this should be that largest combinatorial class which has no constraints (Permutations  and not Permutations(4) for example). This should be simple to change this behavior. 
+ * Any element should be constructed by an overloadable function and never by calling directly a class name. {{{_element_constructor_}}} seems to be sage default. 
 
 A solution is to set two (lazy)_attribute in the combinatorial class named {{{element_class}}} and {{{element_parent}}}
 
