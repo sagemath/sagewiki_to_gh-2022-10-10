@@ -29,4 +29,6 @@ See the [[http:/combinat/RoadMap|road map and current status]] of the port.
 
   - [[http:/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
 
+ - Have a look and participate to [[http:/combinat/DesignDiscussion|design discussions]]
+
  - Contribute to the list of [[http:/combinat/Weirdness|quirks and weirdness issues]] in the {{{*-Combinat}}} design;
