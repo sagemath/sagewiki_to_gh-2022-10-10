@@ -37,3 +37,16 @@ When two combinatorial classes As and Bs with object a and b from OOclass A and 
  * Hom(As, Bs).nameOftheBijection(a) ?   
 
 It is maybe not a very strong rule. Possible exception A is very standard and B is very exotic. Then maybe one can only write b.to_A() and B.from_A
+
+
+
+== Combinatorial Class Factory ==
+
+The goal here is to make is simple to take a subclass of a combinatorial class by adding some constraints. For example if {{{p4=Permutations(4)}}}. The user may want to get the subclass of p4 of permutations of length say 5. So
+ - Each combinatorial class should embed the necessary information to rebuild itself with extra constraint.
+ - what is the syntax to add this extra constraints ? 
+   * p4.subclass(length5=5) ?
+   * other suggestion ? 
+ - If no algorithm is known to handles the new constraints what should be the behavior ?
+   * raise an error suggesting the user to use a {{{filter}}}     
+   * do the filter automatically   
