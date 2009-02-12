@@ -87,7 +87,7 @@ Here are some [[http://www.math.sunysb.edu/~moira/#Applets|Java applets]] due to
 <<Anchor(t3m)>>
 === t3m ===
 [[http://www.math.uic.edu/~t3m|t3m]] is a Python framework for doing computations in 3-manifolds. It includes !SnapPea, which seems to be a quite mature project for computations concerning hyperbolic 3-manifolds. At least, when attending conferences about low-dimensional topology, quite a few speakers use it.
-!SnapPea contains a census of small volume hyperbolic manifolds, and there are extensions and data bases, for example: Generating [[http://www.math.uiuc.edu/~nmd/snappea/index.html|link projections]] or [[http://www.math.uiuc.edu/%7Enmd/snappea/tables/index.html|tables of knots and links]] in !SnapPea format.
+!SnapPea contains a census of small volume hyperbolic manifolds, and there are extensions (e.g., generating [[http://www.math.uiuc.edu/~nmd/snappea/index.html|link projections]]) and data bases (e.g., [[http://www.math.uiuc.edu/%7Enmd/snappea/tables/index.html|tables of knots and links]] in !SnapPea format).
 
 t3m also includes a program of Berge that allows manipulation of Heegaard diagrams. Moreover, t3m provides tools for computing mod 2 Heegaard-Floer link homology (this is a ''very hot topic''!). 
 
