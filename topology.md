@@ -107,4 +107,4 @@ This is one of the most interesting topics in knot theory. Heegaard-Floer link h
 <<BR>>
 There is a [[http://www.math.columbia.edu/~wgillam/hfk|c++ program]] written by by John Baldwin and William Gillam.
 <<BR>>
-There is also a [[http://katlas.math.toronto.edu/wiki/Heegaard_Floer_Knot_Homology|Python program]] due to Jean-Marie Droz and Anna Beliakova. The program is available [[http://www.math.uzh.ch/user/jdroz/|here]]. It requires the Python package 'psyco'.
+There is also a [[http://katlas.math.toronto.edu/wiki/Heegaard_Floer_Knot_Homology|Python program]] ([[http://www.math.uzh.ch/user/jdroz/|sources]]) due to Jean-Marie Droz and Anna Beliakova. It requires the Python package 'psyco'.
