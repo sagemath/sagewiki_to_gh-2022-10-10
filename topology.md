@@ -66,7 +66,7 @@ Based on C-programs of David Green, Simon King created Cython modules for the co
 
 <<Anchor(chomp)>>
 === CHomP ===
-[[http://chomp.rutgers.edu/|CHomP]]has a set of tools for computing the homology of a collection of n-dimensional cubes, with a view towards applied applications in dynamical systems, chaos theory, and pattern characterization. Both sources and binaries are available.
+[[http://chomp.rutgers.edu/|CHomP]] has a set of tools for computing the homology of a collection of n-dimensional cubes, with a view towards applied applications in dynamical systems, chaos theory, and pattern characterization. Both sources and binaries are available.
 
 == Surfaces ==
 
