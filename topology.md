@@ -32,6 +32,10 @@ About knots
  * [[#heegaardfloer|Heegaard-Floer link homology]] 
  * Much more is [[http://www.math.uiuc.edu/~nmd/computop/|here]]!
 
+About homotopy theory
+ * [[#ext|Ext over connected algebras]]
+ * [[#unstable|Unstable homotopy groups of spheres]]
+
 About visualization
  * ''please insert your favourites here!''
 
@@ -108,3 +112,12 @@ This is one of the most interesting topics in knot theory. Heegaard-Floer link h
 There is a [[http://www.math.columbia.edu/~wgillam/hfk|c++ program]] written by by John Baldwin and William Gillam.
 <<BR>>
 There is also a [[http://katlas.math.toronto.edu/wiki/Heegaard_Floer_Knot_Homology|Python program]] ([[http://www.math.uzh.ch/user/jdroz/|sources]]) due to Jean-Marie Droz and Anna Beliakova. It requires the Python package 'psyco'.
+
+== Homotopy theory ==
+<<Anchor(ext)>>
+=== Ext over connected algebras ===
+Computing Ext over connected algebras is important throughout algebra and topology. Ext over the Steenrod algebra, in particular, is useful in homotopy theory, because it is the E_2 term of the Adams spectral sequence converging to the stable homotopy groups of spheres.  [[http://www.math.wayne.edu/~rrb/cohom/index.html|Bob Bruner]] has written C programs to do these sorts of computations.  Some related work is at [[http://www.nullhomotopie.de/|Christian Nassau's web site]].  Bob has expressed a strong interest in getting this stuff into Sage, or at least getting an interface between the two.
+
+<<Anchor(unstable)>>
+=== Unstable homotopy groups of spheres ===
+[[http://neil-strickland.staff.shef.ac.uk/toda/|Neil Strickland]] has written some Mathematica programs to reproduce some of Toda's calculations of stable homotopy groups of spheres, and this could be translated to Sage.
