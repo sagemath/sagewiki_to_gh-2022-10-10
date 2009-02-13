@@ -1,11 +1,16 @@
-## page was renamed from days15
 = Sage Days 15: Seattle, WA =
 
-== OFFICIAL DATES: May 16 - 21, 2009 ==
+== DATES: May 16 - 21, 2009 ==
 
 == Topics ==
  * Computational Algebraic Topology
  * Porting Sage to Windows
+ * Number Theory
+ * TBA
+
+== Organizers ==
+ * Craig Citro
+ * William Stein
  * TBA
 
 == Confirmed Participants ==
