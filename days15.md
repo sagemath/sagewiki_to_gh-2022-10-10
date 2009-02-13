@@ -11,6 +11,7 @@
 == Organizers ==
  * Craig Citro
  * William Stein
+ * John Palmieri
  * TBA
 
 == Confirmed Participants ==
