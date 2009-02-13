@@ -3,7 +3,12 @@
 
 == OFFICIAL DATES: May 16 - 21, 2009 ==
 
+== Attendees ==
 
-NOTE: David Joyner is willing to help organize. However, for him "After May 11th is fine, but after May 18th is slightly better."
-
-NOTE: I (Marshall Hampton) would love to attend but I cannot make it March 30 - April 5th.
+ * Michael Abshoff
+ * Bob Bruner (Wayne State)
+ * Craig Citro
+ * Bill Hart
+ * David Joyner
+ * William Stein
+ 
