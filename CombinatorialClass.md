@@ -10,8 +10,8 @@ I need to fix some terminology. Maybe the name combinatorial class is bad in the
 == Interface and basic usage ==
 
 The name of the OOClasses involved in building a CClass should be uniform : let's take the example of permutations
- * the OOClass whose unique instance is the CClass of all permutations should be named {{{Permutations}}} (which is now permutations_all) the {{{__init__}}} should take in charge to call sub-classes (see below discusion about factories) if needed.  
- * the OOClasses whose instances are sub-CClasses are called {{{Permutations_constraints}}} 
+ * the OOClass whose unique instance is the CClass of all permutations should be named {{{Permutations}}} (which is now {{{permutations_all}}}) the {{{__init__}}} should take in charge to call sub-classes (see below discusion about factories) if needed.  
+ * the OOClasses whose instances are sub-CClasses are called {{{Permutations_constraints}}} (eg:{{{Permutations_n}}}) 
  * the OOClass of the objects of a CClass are called by the singular form of the word as in {{{Permutation}}}
 
 The following functions are standard and should be documented/publicized for all CClass:
