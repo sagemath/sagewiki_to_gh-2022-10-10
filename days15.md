@@ -6,6 +6,7 @@
 == Topics ==
  * Computational Algebraic Topology
  * Porting Sage to Windows
+ * TBA
 
 == Confirmed Participants ==
 
