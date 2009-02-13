@@ -3,6 +3,10 @@
 
 == OFFICIAL DATES: May 16 - 21, 2009 ==
 
+== Topics ==
+ * Computational Algebraic Topology
+ * Porting Sage to Windows
+
 == Confirmed Participants ==
 
  * Michael Abshoff
