@@ -2,6 +2,9 @@
 
 == DATES: May 16 - 21, 2009 ==
 
+== Location ==
+ * The campus of University of Washington
+
 == Topics ==
  * Computational Algebraic Topology
  * Porting Sage to Windows
@@ -12,6 +15,9 @@
  * Craig Citro
  * William Stein
  * John Palmieri
+ * TBA
+
+== Colloquium Talks ==
  * TBA
 
 == Confirmed Participants ==
