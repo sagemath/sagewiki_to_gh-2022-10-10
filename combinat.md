@@ -18,6 +18,11 @@ The transition is going to be a massive investment: seven years of hard work to 
 
 See the [[http:/combinat/RoadMap|road map and current status]] of the port.
 
+=== Who are we? ===
+
+ - [[http:/combinat/Contributors|Contributors]]
+ - [[http:/combinat/Institutions|Institutions and sponsors]]
+
 === How to participate and contribute ===
  - Join our mailing list: http://groups.google.com/group/sage-combinat-devel.
 
