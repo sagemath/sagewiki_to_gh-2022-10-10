@@ -1,7 +1,8 @@
 = Combinatorial Classes =
 
-There are a lot of design issues which concern combinatorial classes. I'd like to discuss them here. The following are mostly notes from discussion with Nicolas. Once fixed, this material should end up in the doc of CombinatorialClass. Please add comments anywhere.
+There are a lot of design issues which concern combinatorial classes. I'd like to discuss them here. The following are mostly notes from discussion with Nicolas. Once fixed, this material should end up in the doc of CombinatorialClass (I volunteer for this -Florent). Please add comments anywhere.
 
+<<TableOfContents(2)>>
 
 == Foreword (Teminology) ==
 
