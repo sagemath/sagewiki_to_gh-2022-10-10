@@ -2,16 +2,18 @@
 
 The list below is very very incomplete. Please edit!
 
- - American Institute of Mathematics
+ * American Institute of Mathematics
 
- - National Science Fundation
+ * National Science Fundation
 
- - Department of Mathematics, University of California at Davis
+ * Department of Mathematics, University of California at Davis
 
- - Laboratoire de Mathématiques d'Orsay, Université Paris Sud
+ * Laboratoire de Mathématiques d'Orsay, Université Paris Sud
 
- - IGM
+ * IGM
 
- - Rouen
+ * Rouen
 
- - ...
+ * ...
+
+ * MSRI
