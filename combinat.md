@@ -21,6 +21,7 @@ See the [[http:/combinat/RoadMap|road map and current status]] of the port.
 === Who are we? ===
 
  - [[http:/combinat/Contributors|Contributors]]
+
  - [[http:/combinat/Institutions|Institutions and sponsors]]
 
 === How to participate and contribute ===
