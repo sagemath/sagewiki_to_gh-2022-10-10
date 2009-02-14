@@ -3,9 +3,21 @@
 There are a lot of design issues which concern combinatorial classes. I'd like to discuss them here. The following are mostly notes from discussion with Nicolas. Once fixed, this material should end up in the doc of CombinatorialClass. Please add comments anywhere.
 
 
-== Foreword ==
+== Foreword (Teminology) ==
 
 I need to fix some terminology. Maybe the name combinatorial class is bad in the context of Object Oriented programming. Should we call these "combinatorial set" ? Anyway, in the following when there is ambiguity I write OOClass and CClass. 
+
+== Documentation ==
+
+We should agree on a overall structure of the main doc page of a CClass and write a template. I put here a stub for this. Before expanding it we should wait for the transition latex -> ReST.
+
+{{{
+   r"""
+    My Favorite Combinatorial Class
+
+    ...
+    """
+}}} 
 
 == Interface and basic usage ==
 
