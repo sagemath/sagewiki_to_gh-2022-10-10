@@ -15,10 +15,19 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
  * Sage organizers: William Stein (University of Washington), Mike Hansen (University of Washington)
 
 == Participants ==
+ * David Eisenbud
+ * Daniel Erman
+ * Alex Ghitza
+ * Dan Grayson
+ * Mike Hansen
+ * Kiran Kedlaya (March 11-13)
+ * Emily Kirkman
+ * Andrey Novoseltsev
+ * William Stein
+ * Mike Stillman
+ * Nicolas M. Thiery
+ * Justin Walker
 
- * Confirmed: Mike Hansen, Justin Walker, Andrey Novoseltsev, Alex Ghitza, Kiran Kedlaya (March 11-13)
-
- * Likely: Emily Kirkman
 
 == Hotel ==
 
