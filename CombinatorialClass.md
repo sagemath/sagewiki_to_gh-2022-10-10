@@ -29,22 +29,34 @@ The name of the OOClasses involved in building a CClass should be uniform : let'
 The following functions are standard and should be documented/publicized for all CClass:
  * {{{list()}}}
  * {{{count()}}} is the name fixed? coherent with the rest of sage?  (+1 for {{{count()}}}.  As far as I know it is standard. -jbandlow)
+ * {{{len}}} is deprecated and should not be used
 
 The following function should be written but are not supposed to be called directly by the user:
  * {{{__contains__}}} what should be the answer to {{{[2,1,3] in permutations([2,1,3])}}} ? 
  * {{{__iter__}}} this allows for the class itself to be iterated through. Therefore there is no need for {{{iterator}}}. {{{iterator}}} should be deprecated and removed. 
-
+   
+ What should we do if there is several iterators ? See the discussion on the mailing list. 
 
 == Objects/Elements/Parents ==
 
 The goal here is to be able to inherit smoothly from a combinatorial class to add extra mathematical structure (eg Poset, Group, Monoid).
 
  * By default each element created by a combinatorial class should have a parent by default. It seems to me that this should be that largest combinatorial class which has no constraints (Permutations and not Permutations(4) for example). This should be simple to change this behavior. 
- * Elements should be constructed by an overloadable function and never by calling directly a class name. {{{_element_constructor_}}} seems to be sage default. 
+ * In case where we want to add more structure, We inherits from the combinatorial class. But the class of the element has to be changed. Therefore, elements should be constructed by an overloadable function and never by calling directly a class name. {{{_element_constructor_}}} seems to be sage default.
+ 
+    Let me give an example: I want to construct the symmetric group {{{SG4}}} from the CClass {{{Permutations(4)}}} (what an original example :-). I clearly want to write {{{SG4.count()}}} and {{{SG4.list()}}}. A good way to do this is that the OOClass of {{{SG4}}} (says {{{SymGroup}}} for short) inherits from the OOClass Permutations. But we have to be careful that {{{SG4.list()}}} construct instance of {{{SG4.element_class}}} (whatever it is) with parents {{{SG4}}} and not instance of {{{Permutation}}} with parent {{{Permutations()}}}.  
 
-A solution is to set two (lazy)_attribute in the combinatorial class named {{{element_class}}} and {{{element_parent}}} .
+ A solution is to set two (lazy)_attribute in the combinatorial class named {{{element_class}}} and {{{element_parent}}}, and to define 
+ {{{
+   def CClass._element_constructor_(self, x):
+      return self.element_class(z, self.element_parent)
+}}}
+ Of course for this to work we must ensure that any element constructed by the CClass is constructed through this function or by methods of {{{self.element_class}}}. Except as a default in {{{self.element_class}}} there should not be any reference in {{{Permutations}}}, {{{Permutations_n}}} and the others to the OOClass {{{Permutation}}}.
 
-(I agree strongly with the first point.  I don't understand the second point.  Could you give an example or describe this more precisely? -jbandlow)
+
+(I agree strongly with the first point.  I don't understand the second point.  Could you give an example or describe this more precisely? -jbandlow
+
+Yes ! see up there -Florent)
 
 == Bijections ==
 
@@ -64,6 +76,15 @@ def to(self, class, element):
 }}}
 And similar for {{{from()}}}. Thoughts? -jbandlow)
 
+(I like this idea of generic intelligence which looks both at the domain and the image set. However, it it not clear for me if we  prefer to write {{{Cs.to(As,c)}}} than {{{C.to(A, c)}}} (remember {{{C}}} and {{{A}}} is the OOClass of {{{a}}} and {{{c}}} whereas {{{Cs}}} and {{{As}}} are combinatorial classes. Bijection acts on objects but are beetween combinatorial classes. So I seems to by in favor of {{{Cs.to(As,c)}}} - Florent
+
+Further comments about jbandlow suggestion:
+ * maybe we want to use coercion for that.
+ * How to deal with several bijections? extra arg {{{Cs.to(As, c, 'name_of_the_bijection')}}}. I maybe prefer {{{Cs.to(As, 'name')(c)}}}
+ * To avoid unuseful selection/dispatching logic I'd rather _to to try {{{A._from_C}}} and {{{C._to_A}}}. 
+
+Further comments ?) 
+
 == Combinatorial Class Factory ==
 
 The goal here is to make it simple to make a subclass of a combinatorial class by adding some constraints. For example if {{{p4=Permutations(4)}}}. The user may want to get the subclass of p4 of permutations of length say 5. So
@@ -74,7 +95,12 @@ The goal here is to make it simple to make a subclass of a combinatorial class b
 
  - If no algorithm is known to handle the new constraints what should be the behavior ?
    * raise an error suggesting the user to use a {{{filter}}}     
-   * do the filter automatically (*Definitely* this. Why not?  -jbandlow)
+   * do the filter automatically (*Definitely* this. Why not?  -jbandlow
+
+Probably because we can't do that automatically. How do you choose from which class you filter in horrible things such as  {{{
+Permutations().with_constraint(descents=[3,5], shape=[4,3,1,1], length=7)
+}}}
+As suggested by Nicolas, we can do that if there is a syntax for the user to tell what is the base class and what is the filter condition. - Florent)
 
 (By the way, I *really* like the idea of Factories in general. -jbandlow)
 
