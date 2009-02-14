@@ -14,6 +14,6 @@ The list below is very very incomplete. Please edit!
 
  * Rouen
 
- * ...
-
  * MSRI
+
+ * ...
