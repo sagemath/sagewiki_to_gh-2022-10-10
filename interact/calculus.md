@@ -585,3 +585,109 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x)),show_
 }}}
 {{attachment:quadrature1.png}}
 {{attachment:quadrature2.png}}
+
+== Vector Calculus, 2-D Motion ==
+By Rob Beezer
+
+{{{
+# 2-D motion and vector calculus
+# Copyright 2009, Robert A. Beezer
+# Creative Commons BY-SA 3.0 US
+#
+# 2009/02/15  Built on Sage 3.3.rc0
+#
+# variable parameter is  t
+# later at a particular value named t0
+#
+var('t')
+#
+# parameter range
+#
+start=0
+stop=2*pi
+#
+# position vector definition
+# edit here for new example
+# example is wide ellipse
+# adjust figsize in final show() to get accurate aspect ratio
+#
+position=vector( (4*cos(t), sin(t)) )
+#
+# graphic of the motion itself
+#
+path = parametric_plot( position(t).list(), (t, start, stop), color = "black" )
+#
+# derivatives of motion, lengths, unit vectors, etc
+#
+velocity = derivative( position(t) )
+acceleration = derivative(velocity(t))
+speed = velocity.norm()
+speed_deriv = derivative(speed)
+tangent = (1/speed)*velocity
+dT = derivative(tangent(t))
+normal = (1/dT.norm())*dT
+#
+# interact section
+#   slider for parameter, 24 settings
+#   checkboxes for various vector displays
+#   computations at one value of parameter, t0
+#
+@interact
+def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start) , label = "Parameter"),
+      pos_check = ("Position", True), 
+      vel_check = ("Velocity", False),
+      tan_check = ("Unit Tangent", False),
+      nor_check = ("Unit Normal", False),
+      acc_check = ("Acceleration", False),
+      tancomp_check = ("Tangential Component", False),
+      norcomp_check = ("Normal Component", False)
+       ):
+    #
+    # various scalar quantities at point
+    #
+    speed_component = speed(t0)
+    tangent_component = speed_deriv(t0)
+    normal_component = sqrt( acceleration(t0).norm()^2 - tangent_component^2 )
+    curvature = normal_component/speed_component^2
+    #
+    # various vectors, mostly as arrows from the point
+    #
+    pos = arrow((0,0), position(t0), rgbcolor=(0,0,0))
+    tan = arrow(position(t0), position(t0) + tangent(t0), rgbcolor=(0,1,0) )
+    vel = arrow(position(t0), position(t0) + velocity(t0), rgbcolor=(0,0.5,0))
+    nor = arrow(position(t0), position(t0) + normal(t0), rgbcolor=(0.5,0,0))
+    acc = arrow(position(t0), position(t0) + acceleration(t0), rgbcolor=(1,0,1))
+    tancomp = arrow(position(t0), position(t0) + tangent_component*tangent(t0), rgbcolor=(1,0,1) )
+    norcomp = arrow(position(t0), position(t0) + normal_component*normal(t0), rgbcolor=(1,0,1))
+    #
+    # accumulate the graphic based on checkboxes
+    #
+    picture = path
+    if pos_check:
+        picture = picture + pos
+    if vel_check:
+        picture = picture + vel
+    if tan_check:
+        picture = picture+ tan
+    if nor_check:
+        picture = picture + nor
+    if acc_check:
+        picture = picture + acc
+    if tancomp_check:
+        picture = picture + tancomp
+    if norcomp_check:
+        picture = picture + norcomp
+    #
+    # print textual info
+    #
+    print "Position vector defined as r(t)=", position(t)
+    print "Speed is ", N(speed(t0))
+    print "Curvature is ", N(curvature)
+    #
+    # show accumulated graphical info
+    # adjust figsize to x-,y- extents to get aspect ratio correct
+    #   so perpendicular vectors "look right"
+    #
+    show(picture, figsize=[8,2])
+}}}
+{{attachment:motion2d.png}}
