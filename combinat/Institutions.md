@@ -2,9 +2,9 @@
 
 The list below is very very preliminary. Please edit!
 
- * American Institute of Mathematics, USA
+ * National Science Fundation, USA (funded in part by DMS-0652641, DMS-0652652, DMS-0652668, DMS-0652648 through the provisions of NSF 06-580, Focused Research Groups in the Mathematical Sciences (FRG), and is administered through the American Institute of Mathematics, Drexel University, UC Davis, and Virginia Tech).
 
- * National Science Fundation, USA
+ * American Institute of Mathematics, USA
 
  * Department of Mathematics, University of California at Davis, USA
 
