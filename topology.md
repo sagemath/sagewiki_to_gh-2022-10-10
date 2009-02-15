@@ -99,9 +99,9 @@ Last but not least, t3m can compute normal surfaces, which is a major brick for 
 
 <<Anchor(recognizer)>>
 === 3-manifold recognizer ===
-The [[http://www.csu.ac.ru/~trk/spine/|3-manifold recognizer]] was developed by the research group of Sergei Matveev at Chelyabinsk State University. It provides a very successful and fast heuristics for recognizing whether two given closed 3-dimensional manifolds are homeomorphic. Although there is no guarantee that it succeeds in all cases, it was able to classify all 13396 closed orientable irreducible manifolds that can be presented by a singular triangulation of up to 11 tetrahedra. 
+The [[http://www.csu.ac.ru/~trk/spine/|3-manifold recognizer]] was developed by the research group of Sergei Matveev at Chelyabinsk State University. It provides a very successful and fast heuristics for recognizing whether two given closed 3-dimensional manifolds are homeomorphic. Although there is no guarantee that it succeeds in all cases, it was able to classify all 13396 closed orientable irreducible manifolds that can be presented by (non-classical) triangulations of up to 11 tetrahedra. 
 
-However, I am not sure if it is open source and if it provides sufficient support on various platforms. So far, I only know a program for Windows, and the last version is of 2006.
+The source code for this program appears not to be publicly available, and a Windows binary from 2006 is the only version offered on the above webpage.  
 
 == Knots ==
 
