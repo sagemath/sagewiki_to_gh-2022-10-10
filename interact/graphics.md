@@ -4,6 +4,43 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
+== Curves of Pursuit ==
+by Marshall Hampton.  
+{{{
+npi = RDF(pi)
+from math import cos,sin
+def rot(t):
+    return matrix([[cos(t),sin(t)],[-sin(t),cos(t)]])
+
+def pursuit(n,x0,y0,lamb,steps = 100, threshold = .01):
+    paths = [[[x0,y0]]]
+    for i in range(1,n):
+        rx,ry = list(rot(2*npi*i/n)*vector([x0,y0]))
+        paths.append([[rx,ry]])
+    oldpath = [x[-1] for x in paths]
+    for q in range(steps):
+        diffs = [[oldpath[(j+1)%n][0]-oldpath[j][0],oldpath[(j+1)%n][1]-oldpath[j][1]] for j in range(n)]
+        npath = [[oldpath[j][0]+lamb*diffs[j][0],oldpath[j][1]+lamb*diffs[j][1]] for j in range(n)]
+        for j in range(n):
+            paths[j].append(npath[j])
+        oldpath = npath
+    return paths
+html('<h3>Curves of Pursuit</h3>')
+@interact
+def curves_of_pursuit(n = slider([2..20],default = 6, label="# of points"),steps = slider([2^i for i in range(1,10)],default = 10, label="# of steps"), stepsize = slider(srange(.01,1,.01),default = .2, label="stepsize"), colorize = checkbox(default = False)):
+    outpaths = pursuit(n,1,0,stepsize, steps = steps)
+    mcolor = (0,0,0)
+    outer = line([q[0] for q in outpaths]+[outpaths[0][0]], rgbcolor = mcolor)
+    if colorize:
+        colors = [hue(j/steps,1,1) for j in range(len(outpaths[0]))]
+    else:
+        colors = [(0,0,0) for j in range(len(outpaths[0]))]
+    nested = sum([line([q[j] for q in outpaths]+[outpaths[0][j]], rgbcolor = colors[j]) for j in range(len(outpaths[0]))])
+    lpaths = [line(x, rgbcolor = mcolor) for x in outpaths]
+    show(sum(lpaths)+nested, axes = False, figsize = [5,5], xmin = -1, xmax = 1, ymin = -1, ymax =1)
+}}}
+{{attacment:pcurves.png}}
+
 == Catalog of 3D Parametric Plots ==
 {{{
 var('u,v')
