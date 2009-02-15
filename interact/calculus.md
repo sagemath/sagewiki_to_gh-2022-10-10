@@ -691,3 +691,126 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     show(picture, figsize=[8,2])
 }}}
 {{attachment:motion2d.png}}
+
+== Vector Calculus, 3-D Motion ==
+by Rob Beezer
+
+{{{
+# 3-D motion and vector calculus
+# Copyright 2009, Robert A. Beezer
+# Creative Commons BY-SA 3.0 US
+#
+#
+# 2009/02/15  Built on Sage 3.3.rc0
+#
+# variable parameter is  t
+# later at a particular value named t0
+# 
+# un-comment double hash (##) to get
+# time-consuming torsion computation
+#
+var('t')
+#
+# parameter range
+#
+start=-4*pi
+stop=8*pi
+#
+# position vector definition
+# edit here for new example
+# example is wide ellipse
+# adjust figsize in final show() to get accurate aspect ratio
+#
+a=1/(8*pi)
+c=(3/2)*a
+position=vector( (exp(a*t)*cos(t), exp(a*t)*sin(t), exp(c*t)) )
+#
+# graphic of the motion itself
+#
+path = parametric_plot3d( position(t).list(), (t, start, stop), color = "black" )
+#
+# derivatives of motion, lengths, unit vectors, etc
+#
+velocity = derivative( position(t) )
+acceleration = derivative(velocity(t))
+speed = velocity.norm()
+speed_deriv = derivative(speed)
+tangent = (1/speed)*velocity
+dT = derivative(tangent(t))
+normal = (1/dT.norm())*dT
+binormal = tangent.cross_product(normal)
+## dB = derivative(binormal(t))
+#
+# interact section
+#   slider for parameter, 24 settings
+#   checkboxes for various vector displays
+#   computations at one value of parameter, t0
+#
+@interact
+def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start) , label = "Parameter"),
+      pos_check = ("Position", True), 
+      vel_check = ("Velocity", False),
+      tan_check = ("Unit Tangent", False),
+      nor_check = ("Unit Normal", False),
+      bin_check = ("Unit Binormal", False),
+      acc_check = ("Acceleration", False),
+      tancomp_check = ("Tangential Component", False),
+      norcomp_check = ("Normal Component", False)
+       ):
+    #
+    # various scalar quantities at point
+    #
+    speed_component = speed(t0)
+    tangent_component = speed_deriv(t0)
+    normal_component = sqrt( acceleration(t0).norm()^2 - tangent_component^2 )
+    curvature = normal_component/speed_component^2
+    ## torsion = (1/speed_component)*(dB(t0)).dot_product(normal(t0))
+    #
+    # various vectors, mostly as arrows from the point
+    #
+    pos = arrow3d((0,0,0), position(t0), rgbcolor=(0,0,0))
+    tan = arrow3d(position(t0), position(t0) + tangent(t0), rgbcolor=(0,1,0) )
+    vel = arrow3d(position(t0), position(t0) + velocity(t0), rgbcolor=(0,0.5,0))
+    nor = arrow3d(position(t0), position(t0) + normal(t0), rgbcolor=(0.5,0,0))
+    bin = arrow3d(position(t0), position(t0) + binormal(t0), rgbcolor=(0,0,0.5))
+    acc = arrow3d(position(t0), position(t0) + acceleration(t0), rgbcolor=(1,0,1))
+    tancomp = arrow3d(position(t0), position(t0) + tangent_component*tangent(t0), rgbcolor=(1,0,1) )
+    norcomp = arrow3d(position(t0), position(t0) + normal_component*normal(t0), rgbcolor=(1,0,1))
+    #
+    # accumulate the graphic based on checkboxes
+    #
+    picture = path
+    if pos_check:
+        picture = picture + pos
+    if vel_check:
+        picture = picture + vel
+    if tan_check:
+        picture = picture+ tan
+    if nor_check:
+        picture = picture + nor
+    if bin_check:
+        picture = picture + bin
+    if acc_check:
+        picture = picture + acc
+    if tancomp_check:
+        picture = picture + tancomp
+    if norcomp_check:
+        picture = picture + norcomp
+    #
+    # print textual info
+    #
+    print "Position vector: r(t)=", position(t)
+    print "Speed is ", N(speed(t0))
+    print "Curvature is ", N(curvature)
+    ## print "Torsion is ", N(torsion)
+    print
+    print "Right-click on graphic to zoom to 400%"
+    print "Drag graphic to rotate"
+    #
+    # show accumulated graphical info
+    # adjust figsize to x-,y- extents to get aspect ratio correct
+    #   so perpendicular vectors "look right"
+    #
+    show(picture, aspect_ratio=[1,1,1])
+}}}
+{{attachment:motion3d.png}}
