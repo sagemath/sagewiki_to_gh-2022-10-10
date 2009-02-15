@@ -10,12 +10,14 @@ The list below is very very preliminary. Please edit!
 
  * Laboratoire de Mathématiques d'Orsay, Université Paris Sud, FRANCE
 
- * IGM, FRANCE
+ * Laboratoire d'informatique Gaspard-Monge (UMR 8049 IGM-LabInfo), Université Paris Est Marne-La-Vallée, FRANCE
 
- * Rouen
+ * Laboratoire d'Informatique, de Traitement de l'Information
+  et des Systèmes (EA 4108), Université de Rouen, France
 
  * MSRI
 
  * Agence Nationale pour la Recherche, FRANCE
+   Partially supported by grant ANR-BLAN-06-0380.
 
  * CNRS, FRANCE
