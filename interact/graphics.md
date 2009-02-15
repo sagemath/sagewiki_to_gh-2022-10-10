@@ -39,7 +39,7 @@ def curves_of_pursuit(n = slider([2..20],default = 6, label="# of points"),steps
     lpaths = [line(x, rgbcolor = mcolor) for x in outpaths]
     show(sum(lpaths)+nested, axes = False, figsize = [5,5], xmin = -1, xmax = 1, ymin = -1, ymax =1)
 }}}
-{{attacment:pcurves.png}}
+{{attachment:pcurves.png}}
 
 == Catalog of 3D Parametric Plots ==
 {{{
