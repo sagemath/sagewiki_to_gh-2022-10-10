@@ -14,9 +14,9 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
 
  * Sage organizers: William Stein (University of Washington), Mike Hansen (University of Washington)
 
-== Projects == 
+== Projects ==
 
- 
+ * [[/projects| List of Projects]]
 
 == Participants ==
  * David Eisenbud
