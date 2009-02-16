@@ -1,0 +1,23 @@
+= Sage Days 14 projects =
+
+This is a list of projects suitable for [[days14 | Sage Days 14]].  Feel free to add your favourite ideas/wishes, and to put your name down for something you're interested in (you'll need to get an account on the wiki to do this).  The projects can be about Sage, or Macaulay2, or both.
+
+== Improve Sage visualisation capabilities ==
+
+People: Alex Ghitza, 
+
+There is good 2d plotting infrastructure, and nicely developing 3d plotting.  We should attach this functionality to algebraic curves, surfaces, etc.
+
+
+== Documentation for algebraic geometry code in Sage ==
+
+People: Alex Ghitza, 
+
+Go through schemes/* and add docstrings and doctests everywhere they're missing.  This is a good project for becoming familiar with the Sage code; it is also sorely needed.
+
+
+== Hierarchy of algebraic-geometric objects in Sage ==
+
+People: Alex Ghitza, 
+
+This is about infrastructure and long-term plans.  We need to look at the existing hierarchy, figure out which high-level objects are missing and think about the best ways to organise them.  (Example: do we want a "coherent sheaf" object in Sage?  how would we implement it?)  I'll try to touch upon some of these issues in my talk.
