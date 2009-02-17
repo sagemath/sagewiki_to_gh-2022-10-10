@@ -44,7 +44,7 @@ Travelling attendees:
    11. Stephanie Vance
    12. John Voight
    13. Justin Walker
-   14. Matry Weissman
+   14. Marty Weissman
 
 
 Local Attendees:
