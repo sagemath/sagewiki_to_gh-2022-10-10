@@ -41,8 +41,26 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * Some fixes for {{{is_perfect_power()}}} and {{{bessel_J(0,0)}}} (Craig Citro, Robert Bradshaw, Robert L. Miller) -- A temporary work around for an upstream bug in GMP when using {{{is_perfect_power()}}}. Resolved a Pari interface bug when using {{{bessel_J(0,0)}}}.
 
- * Improved performance for generic polynomial rings, and for univariate polynomial arithmetic over {{{Z/nZ[x]}}} (Yann Laigle-Chapuy, Martin Albrecht) -- Improved performance when performing modulo arithmetic between elements of a generic polynomial ring. Univariate polynomial arithmetic over {{{Z/nZ[x]}}} now has considerable speed-up at approximately 20x.
+ * Improved performance for generic polynomial rings, and for univariate polynomial arithmetic over {{{Z/nZ[x]}}} (Yann Laigle-Chapuy, Martin Albrecht, Burcin Erocal) -- Improved performance when performing modulo arithmetic between elements of a generic polynomial ring. Univariate polynomial arithmetic over {{{Z/nZ[x]}}} now has considerable speed-up at approximately 20x.
+{{{
+# Old
+sage: P.<x> = PolynomialRing(GF(7))
+sage: type(x)
+<type 'sage.rings.polynomial.polynomial_modn_dense_ntl.Polynomial_dense_mod_p'>
+sage: f = P.random_element(100)
+sage: g = P.random_element(100)
+sage: %timeit f*g
+1000 loops, best of 3: 445 µs per loop
 
+# New
+sage: P.<x> = PolynomialRing(GF(7))
+sage: type(x)
+<type 'sage.rings.polynomial.polynomial_zmod_flint.Polynomial_zmod_flint'>
+sage: f = P.random_element(100)
+sage: g = P.random_element(100)
+sage: %timeit f*g
+100000 loops, best of 3: 7.92 µs per loop
+}}}
  * Deprecate the function {{{sqrt_approx()}}} (David Roe) -- To obtain a numerical approximation of the square root of a ring element (integers, polynomials over {{{GF(2^x)}}}, rationals), users are advised to use the function {{{sqrt()}}} with a given number of bits of precision instead.
 
  * Use Pohlig-Hellman for generic discrete logarithm (Yann Laigle-Chapuy) -- This results in significant improvement in performance and less memory foot print.
@@ -110,7 +128,7 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * Factoring multivariate polynomials over non-prime finite fields (William Stein) -- The factoring algorithm works as follow. If {{{f}}} is a polynomial over a non-prime finite field, factoring {{{f}}} is reduced to factoring over a prime field and using GCD over the non-prime field.
 
- * Groebner bases over any field (John Perry) -- Support for computing the dimension of fields of large prime characteristics via the method {{{dimension()}}} in the module {{{sage.rings.polynomial.multi_polynomial_ideal.py}}}. The default is to use the functionalities of Singular to do so. However, if the characteristic of the field is larger than what Singular can handle, the method falls back on a toy implementation of Buchberger to compute the Groebner basis, and finally using the algorithm described in Chapter 9, Section 1 of the following text:
+ * Multivariate ideal dimensions over any field (John Perry) -- Support for computing the dimension of fields of large prime characteristics via the method {{{dimension()}}} in the module {{{sage.rings.polynomial.multi_polynomial_ideal.py}}}. The default is to use the functionalities of Singular to do so. However, if the characteristic of the field is larger than what Singular can handle, the method falls back on a toy implementation of Buchberger to compute the Groebner basis, and finally using the algorithm described in Chapter 9, Section 1 of the following text:
     * David A. Cox, John B. Little & Donal O'Shea. "Ideals, Varieties, and Algorithms: An Introduction to Computational Algebraic Geometry and Commutative Algebra" 3rd edition. Springer, 2007.
 
 == Distribution ==
@@ -186,7 +204,7 @@ Wall time: 0.89 s
 
  * Speed up {{{right_nullity()}}} for matrices (John H. Palmieri).
 
- * Considerable (optional) speed-up for row echelon forms of dense matrices over GF(2).
+ * Considerable (optional) speed-up for row echelon forms of dense matrices over GF(2) due to new M4RI library (Martin Albrecht).
  {{{
 #Before
 sage: A = random_matrix(GF(2),2*10^4,2*10^4)
