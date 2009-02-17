@@ -8,7 +8,7 @@
 
 The event will be held at the [[http://www.uga.edu/visit/directions.html|University of Georgia]] at Athens.
 
-== How to get to Athens ==
+== How to get to UGA ==
 
 he preferred way of getting to Athens is to fly into Atlanta (ATL), and then take the [[http://www.aaaairportexpress.com/routes/athens.html|AAA Shuttle express]] shuttle to the Georgia center.  The shuttle takes about 1.5 hours and costs about $45 each way.  Since the shuttle sometimes fills up, it is recommended that you call ahead and make both arrival and departure reservations.  The shuttle phone number is (800) 354-7874 or (404) 767-2000.
 
