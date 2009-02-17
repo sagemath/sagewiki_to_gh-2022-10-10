@@ -4494,6 +4494,7 @@ goldmine\.by\.ru
 tarkus01\.by\.ru
 newsmaestro
 7vee\.info
+shoeshome\.net
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
