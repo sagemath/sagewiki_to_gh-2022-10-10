@@ -17,6 +17,7 @@ About algebraic topology (in the sense of homology, cohomology and stuff):
  * A nearly completed [[#king|spkg]]  due to D. Green and S. King.
  * [[#kenzo|Kenzo]], a Lisp program for computing homology, cohomology, and homotopy groups.
  * [[#chomp|CHomP]], the Computational Homology Project.
+ * [[#dga|Differential graded algebras]]
 
 About 2-dimensional topology:
  * [[#circlepackings|Circle packings]] by Ken Stephenson
@@ -33,9 +34,14 @@ About knots
  * Much more is [[http://www.math.uiuc.edu/~nmd/computop/|here]]!
 
 About homotopy theory
- * [[#ext|Ext over connected algebras]]
  * [[#unstable|Unstable homotopy groups of spheres]]
+ * [[#unstablemodule|Unstable modules over the Steenrod algebra]]
 
+About algebra related to topology
+ * [[#ext|Ext over connected algebras]]
+ * [[#gradedcommutative|Graded commutative rings]]
+ * [[#fgl|Formal group laws]]
+  
 About visualization
  * ''please insert your favourites here!''
 
@@ -71,6 +77,10 @@ Based on C-programs of David Green, Simon King created Cython modules for the co
 <<Anchor(chomp)>>
 === CHomP ===
 [[http://chomp.rutgers.edu/|CHomP]] has a set of tools for computing the homology of a collection of n-dimensional cubes, with a view towards applied applications in dynamical systems, chaos theory, and pattern characterization. Both sources and binaries are available.
+
+<<Anchor(dga)>>
+=== DGAs ===
+Justin Noel suggested that we implement differential graded algebras over fields, and their homology algebras. This might include Massey product calculations, also.  Perhaps something about A-infinity algebras could be done, too?
 
 == Surfaces ==
 
@@ -114,10 +124,24 @@ There is a [[http://www.math.columbia.edu/~wgillam/hfk|c++ program]] written by 
 There is also a [[http://katlas.math.toronto.edu/wiki/Heegaard_Floer_Knot_Homology|Python program]] ([[http://www.math.uzh.ch/user/jdroz/|sources]]) due to Jean-Marie Droz and Anna Beliakova. It requires the Python package 'psyco'.
 
 == Homotopy theory ==
+<<Anchor(unstable)>>
+=== Unstable homotopy groups of spheres ===
+[[http://neil-strickland.staff.shef.ac.uk/toda/|Neil Strickland]] has written some Mathematica programs to reproduce some of Toda's calculations of stable homotopy groups of spheres, and these could be translated to Sage.
+
+<<Anchor(unstablemodule)>>
+=== Unstable modules over the Steenrod algebra ===
+Sage should know about modules (both ordinary and unstable) over the Steenrod algebra, and it could also have a database of some useful ones, e.g. Brown-Gitler modules or the mod p cohomology of some important spaces.
+
+== About algebra related to topology ==
 <<Anchor(ext)>>
 === Ext over connected algebras ===
 Computing Ext over connected algebras is important throughout algebra and topology. Ext over the Steenrod algebra, in particular, is useful in homotopy theory, because it is the E_2 term of the Adams spectral sequence converging to the stable homotopy groups of spheres.  [[http://www.math.wayne.edu/~rrb/cohom/index.html|Bob Bruner]] has written C programs to do these sorts of computations.  Some related work is at [[http://www.nullhomotopie.de/|Christian Nassau's web site]].  Bob has expressed a strong interest in getting this stuff into Sage, or at least getting an interface between the two.
 
-<<Anchor(unstable)>>
-=== Unstable homotopy groups of spheres ===
-[[http://neil-strickland.staff.shef.ac.uk/toda/|Neil Strickland]] has written some Mathematica programs to reproduce some of Toda's calculations of stable homotopy groups of spheres, and these could be translated to Sage.
+<<Anchor(gradedcommutative)>>
+=== Graded commutative rings ===
+These ought to be implemented without going using some general noncommutative algebra package.
+
+<<Anchor(fgl)>>
+=== Formal group laws ===
+Justin Noel suggests: Functions for working with formal group laws: Expand a special formal group law or p-series (Honda fgl's, one of the
+universal formal group laws, the formal group law for BP); translating between Hazewinkel and Araki generators for BP. 
