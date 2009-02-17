@@ -17,6 +17,8 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release note, se
  * Update the [[http://www.shoup.net/ntl|NTL]] spkg
  * Upgrade [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release
  * Upgrade [[http://www.math.union.edu/~dpvc/jsMath/|jsMath]] to version 3.6 upstream release
+ * Upgrade [[http://www.gap-system.org|GAP]] to version 4.4.12 upstream release
+ * Upgrade [[http://sage.math.washington.edu/home/wdj/guava|GUAVA]] to version 3.9 upstream release
 
 All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/sage_trac/milestone/sage-3.3|trac server]]. Here's a summary of features in this release, categorized under various headings.
 
@@ -241,6 +243,8 @@ Wall time: 9.97 s
 
  * Bach bound (William Stein) -- New function {{{bach_bound()}}} to compute the Bach bound associated to a number field. Assuming the General Riemann Hypothesis, the Bach bound is a bound B such that every integral ideal is equivalent modulo principal fractional ideals to an integral ideal of norm at most B. The newly implemented function can be found in the module {{{sage.rings.number_field.number_field_base.pyx}}}.
 
+ * Make relative number fields lazy (Nick Alexander) -- Relative number fields are now truly lazy, meaning that they no longer require PARI's nf or bnf structures for the base field nor PARI's rnf structures for the extension. Arithmetic can now be done in huge extensions, those for which there is no hope of finding units, class groups, etc.
+
 == Optional Packages ==
 
  * Modular polynomials database (Alex Ghitza) -- Removed the use of {{{polydict}}} in the module {{{sage.databases.db_modular_polynomials.py}}}. 
@@ -266,6 +270,8 @@ Wall time: 9.97 s
  * Upgrade [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release (Sebastien Barthelemy).
 
  * Upgrade [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release (Martin Albrecht).
+
+ * Upgrade GAP/GUAVA to versions 4.4.12/3.9 upstream releases (David Joyner).
 
 == Porting ==
 
