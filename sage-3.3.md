@@ -51,6 +51,8 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * Unit of least precision for RR and RDF (Robert Bradshaw) -- New function {{{ulp()}}} to get the unit of least precision for a real number defined using RR or RDF. The unit of least precision for such a number is the weight of its least significant bit. Unless the number in question is exactly a power of two, it is gap between this number and the next closest distinct number that can be represented. 
 
+ * Wrap FLINT's pseudo-division algorithm for univariate polynomials over ZZ (William Stein).
+
 == Build ==
 
  * 64-bit OSX (Michael Abshoff) -- Fixed 64-bit OSX build support for f2c, added 64-bit OSX build support for tachyon, added 64-bit OSX build support for flintqs, and added persistent Sage 64-bit building switch on OSX and Solaris.
@@ -127,6 +129,19 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * Update [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release (Robert L. Miller, Michael Abshoff) -- NetworkX is a Python package for studying the structure and dynamics of complex networks. It can be used to analyze large networks including social, biological and technological networks.
 
+ * Improve timings for {{{adjacency_matrix}}}, {{{weighted_adjacency_matrix}}}, and {{{kirchoff_matrix}}} (Mike Hansen).
+ {{{
+#Before
+sage: %time m = graphs.GridGraph([50,50]).laplacian_matrix()
+CPU times: user 38.42 s, sys: 0.24 s, total: 38.66 s
+Wall time: 39.02 s
+
+#After
+sage: %time m = graphs.GridGraph([50,50]).laplacian_matrix()
+CPU times: user 0.63 s, sys: 0.06 s, total: 0.69 s
+Wall time: 0.89 s
+ }}}
+
 == Graphics ==
 
  * Plotting a region (Arnaud Bergeron) -- New function {{{region_plot()}}} for plotting a region where a system of equations/inequalities holds true. Here's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/2770/plot-region.png|sample plot]] using the new function {{{region_plot()}}}.
@@ -171,13 +186,14 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * Considerable (optional) speed-up for row echelon forms of dense matrices over GF(2).
  {{{
-#Old
+#Before
 sage: A = random_matrix(GF(2),2*10^4,2*10^4)
 sage: %time A.echelon_form(algorithm='m4ri')
 CPU times: user 15.49 s, sys: 0.05 s, total: 15.54 s
 Wall time: 15.72 s
 20000 x 20000 dense matrix over Finite Field of size 2
-#New
+
+#After
 sage: A = random_matrix(GF(2),2*10^4,2*10^4)
 sage: %time A.echelon_form(algorithm='pluq')
 CPU times: user 9.86 s, sys: 0.04 s, total: 9.91 s
