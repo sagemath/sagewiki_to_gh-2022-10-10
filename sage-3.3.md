@@ -61,6 +61,53 @@ sage: g = P.random_element(100)
 sage: %timeit f*g
 100000 loops, best of 3: 7.92 µs per loop
  }}}
+ * Technical preview of David Harvey's {{{zn_poly}}} library exposed to the Sage library (Martin Albrecht).
+ {{{
+def f(p,n):
+    P = PolynomialRing(GF(next_prime(p)),'x')
+    f = P.random_element(n)
+    g = P.random_element(n)
+
+    t0 = cputime()
+    r0 = f*g
+    t0 = cputime(t0)
+
+    t1 = cputime()
+    r1 = f._mul_zn_poly(g)
+    t1 = cputime(t1)
+
+    assert(r0 == r1)
+
+    return p,n,t0,t1
+
+for i in range(21): 
+   f(2**47,2**i)
+ }}}
+ returns on sage.math
+ {{{
+# (140737488355328, 1, 0.0, 0.0)
+# (140737488355328, 2, 0.0, 0.0)
+# (140737488355328, 4, 0.00099999999999766942, 0.0)
+# (140737488355328, 8, 0.0, 0.0)
+# (140737488355328, 16, 0.0, 0.0)
+# (140737488355328, 32, 0.0059990000000027521, 0.0)
+# (140737488355328, 64, 0.0, 0.0)
+# (140737488355328, 128, 0.0, 0.0)
+# (140737488355328, 256, 0.0, 0.0)
+# (140737488355328, 512, 0.0, 0.00099999999999766942)
+# (140737488355328, 1024, 0.00099999999999766942, 0.0)
+# (140737488355328, 2048, 0.0020000000000024443, 0.0019989999999978636)
+# (140737488355328, 4096, 0.0049989999999979773, 0.005000000000002558)
+# (140737488355328, 8192, 0.010998000000000729, 0.011997999999998399)
+# (140737488355328, 16384, 0.023995999999996798, 0.023997000000001378)
+# (140737488355328, 32768, 0.050992000000000814, 0.052991999999996153)
+# (140737488355328, 65536, 0.1149820000000048, 0.10598499999999689)
+# (140737488355328, 131072, 0.29195599999999189, 0.21996599999999944)
+# (140737488355328, 262144, 0.6119070000000022, 0.45393199999999467)
+# (140737488355328, 524288, 1.5217689999999919, 1.0278430000000043)
+# (140737488355328, 1048576, 3.1365230000000111, 2.0966819999999871)
+ }}}
+
  * Deprecate the function {{{sqrt_approx()}}} (David Roe) -- To obtain a numerical approximation of the square root of a ring element (integers, polynomials over {{{GF(2^x)}}}, rationals), users are advised to use the function {{{sqrt()}}} with a given number of bits of precision instead.
 
  * Use Pohlig-Hellman for generic discrete logarithm (Yann Laigle-Chapuy) -- This results in significant improvement in performance and less memory foot print.
