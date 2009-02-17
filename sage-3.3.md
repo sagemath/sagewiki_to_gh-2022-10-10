@@ -42,7 +42,7 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
  * Some fixes for {{{is_perfect_power()}}} and {{{bessel_J(0,0)}}} (Craig Citro, Robert Bradshaw, Robert L. Miller) -- A temporary work around for an upstream bug in GMP when using {{{is_perfect_power()}}}. Resolved a Pari interface bug when using {{{bessel_J(0,0)}}}.
 
  * Improved performance for generic polynomial rings, and for univariate polynomial arithmetic over {{{Z/nZ[x]}}} (Yann Laigle-Chapuy, Martin Albrecht, Burcin Erocal) -- Improved performance when performing modulo arithmetic between elements of a generic polynomial ring. Univariate polynomial arithmetic over {{{Z/nZ[x]}}} now has considerable speed-up at approximately 20x.
-{{{
+ {{{
 # Old
 sage: P.<x> = PolynomialRing(GF(7))
 sage: type(x)
@@ -60,7 +60,7 @@ sage: f = P.random_element(100)
 sage: g = P.random_element(100)
 sage: %timeit f*g
 100000 loops, best of 3: 7.92 µs per loop
-}}}
+ }}}
  * Deprecate the function {{{sqrt_approx()}}} (David Roe) -- To obtain a numerical approximation of the square root of a ring element (integers, polynomials over {{{GF(2^x)}}}, rationals), users are advised to use the function {{{sqrt()}}} with a given number of bits of precision instead.
 
  * Use Pohlig-Hellman for generic discrete logarithm (Yann Laigle-Chapuy) -- This results in significant improvement in performance and less memory foot print.
