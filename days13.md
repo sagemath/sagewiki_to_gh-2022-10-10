@@ -45,7 +45,7 @@ Travelling attendees:
    5. Gabrielle Nebe
    6. Sourav san Gupta
    7. Rudolph Scharlau
-   8. Gonzalo Tornaria
+   8. Gonzalo Tornaria (Feb 13 -- Mar 3)
    9. Dan Shumow
    10. William Stein
    11. Stephanie Vance
