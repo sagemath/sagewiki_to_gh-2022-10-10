@@ -6,7 +6,7 @@ There are a lot of design issues which concern combinatorial classes. I'd like t
 
 == Foreword (Teminology) ==
 
-I need to fix some terminology. Maybe the name combinatorial class is bad in the context of Object Oriented programming. Should we call these "combinatorial set" ? Anyway, in the following when there is ambiguity I write OOClass and CClass. 
+I need to fix some terminology. Maybe the name combinatorial class is bad in the context of object oriented programming. Should we call these "combinatorial set" ? Anyway, in the following when there is ambiguity I write OOClass and CClass. 
 
 == Documentation ==
 
