@@ -43,7 +43,7 @@ Travelling attendees:
    3. Henry Cohn
    4. Alyson Deines
    5. Gabrielle Nebe
-   6. Sourav san Gupta
+   6. Sourav Sen Gupta
    7. Rudolph Scharlau
    8. Gonzalo Tornaria (Feb 13 -- Mar 3)
    9. Dan Shumow
