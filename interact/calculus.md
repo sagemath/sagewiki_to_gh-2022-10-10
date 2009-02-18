@@ -588,6 +588,7 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x)),show_
 
 == Vector Calculus, 2-D Motion ==
 By Rob Beezer
+fast_float() version available in a [[worksheet|http://buzzard.ups.edu/sage/motion.sws]]
 
 {{{
 # 2-D motion and vector calculus
