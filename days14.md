@@ -25,7 +25,7 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
  * Dan Grayson
  * Mike Hansen
  * Kiran Kedlaya (March 11-13)
- * Emily Kirkman
+ * --(Emily Kirkman)--
  * Andrey Novoseltsev
  * William Stein
  * Mike Stillman
