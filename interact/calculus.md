@@ -595,6 +595,7 @@ By Rob Beezer
 # Creative Commons BY-SA 3.0 US
 #
 # 2009/02/15  Built on Sage 3.3.rc0
+# 2009/02/17  Improvements from Jason Grout
 #
 # variable parameter is  t
 # later at a particular value named t0
@@ -609,7 +610,7 @@ stop=2*pi
 # position vector definition
 # edit here for new example
 # example is wide ellipse
-# adjust figsize in final show() to get accurate aspect ratio
+# adjust x, extents in final show()
 #
 position=vector( (4*cos(t), sin(t)) )
 #
@@ -643,6 +644,10 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
       norcomp_check = ("Normal Component", False)
        ):
     #
+    # location of interest
+    #
+    pos_tzero = position(t0)
+    #
     # various scalar quantities at point
     #
     speed_component = speed(t0)
@@ -652,13 +657,13 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     #
     # various vectors, mostly as arrows from the point
     #
-    pos = arrow((0,0), position(t0), rgbcolor=(0,0,0))
-    tan = arrow(position(t0), position(t0) + tangent(t0), rgbcolor=(0,1,0) )
-    vel = arrow(position(t0), position(t0) + velocity(t0), rgbcolor=(0,0.5,0))
-    nor = arrow(position(t0), position(t0) + normal(t0), rgbcolor=(0.5,0,0))
-    acc = arrow(position(t0), position(t0) + acceleration(t0), rgbcolor=(1,0,1))
-    tancomp = arrow(position(t0), position(t0) + tangent_component*tangent(t0), rgbcolor=(1,0,1) )
-    norcomp = arrow(position(t0), position(t0) + normal_component*normal(t0), rgbcolor=(1,0,1))
+    pos = arrow((0,0), pos_tzero, rgbcolor=(0,0,0))
+    tan = arrow(pos_tzero, pos_tzero + tangent(t0), rgbcolor=(0,1,0) )
+    vel = arrow(pos_tzero, pos_tzero + velocity(t0), rgbcolor=(0,0.5,0))
+    nor = arrow(pos_tzero, pos_tzero + normal(t0), rgbcolor=(0.5,0,0))
+    acc = arrow(pos_tzero, pos_tzero + acceleration(t0), rgbcolor=(1,0,1))
+    tancomp = arrow(pos_tzero, pos_tzero + tangent_component*tangent(t0), rgbcolor=(1,0,1) )
+    norcomp = arrow(pos_tzero, pos_tzero + normal_component*normal(t0), rgbcolor=(1,0,1))
     #
     # accumulate the graphic based on checkboxes
     #
@@ -685,10 +690,9 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     print "Curvature is ", N(curvature)
     #
     # show accumulated graphical info
-    # adjust figsize to x-,y- extents to get aspect ratio correct
-    #   so perpendicular vectors "look right"
+    # adjust x-,y- extents to get best plot
     #
-    show(picture, figsize=[8,2])
+    show(picture, xmin=-4,xmax=4, ymin=-1.5,ymax=1.5,aspect_ratio=1)
 }}}
 {{attachment:motion2d.png}}
 
@@ -702,6 +706,7 @@ by Rob Beezer
 #
 #
 # 2009/02/15  Built on Sage 3.3.rc0
+# 2009/02/17  Improvements from Jason Grout
 #
 # variable parameter is  t
 # later at a particular value named t0
@@ -758,6 +763,10 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
       norcomp_check = ("Normal Component", False)
        ):
     #
+    # location of interest
+    #
+    pos_tzero = position(t0)
+    #
     # various scalar quantities at point
     #
     speed_component = speed(t0)
@@ -768,14 +777,14 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     #
     # various vectors, mostly as arrows from the point
     #
-    pos = arrow3d((0,0,0), position(t0), rgbcolor=(0,0,0))
-    tan = arrow3d(position(t0), position(t0) + tangent(t0), rgbcolor=(0,1,0) )
-    vel = arrow3d(position(t0), position(t0) + velocity(t0), rgbcolor=(0,0.5,0))
-    nor = arrow3d(position(t0), position(t0) + normal(t0), rgbcolor=(0.5,0,0))
-    bin = arrow3d(position(t0), position(t0) + binormal(t0), rgbcolor=(0,0,0.5))
-    acc = arrow3d(position(t0), position(t0) + acceleration(t0), rgbcolor=(1,0,1))
-    tancomp = arrow3d(position(t0), position(t0) + tangent_component*tangent(t0), rgbcolor=(1,0,1) )
-    norcomp = arrow3d(position(t0), position(t0) + normal_component*normal(t0), rgbcolor=(1,0,1))
+    pos = arrow3d((0,0,0), pos_tzero, rgbcolor=(0,0,0))
+    tan = arrow3d(pos_tzero, pos_tzero + tangent(t0), rgbcolor=(0,1,0) )
+    vel = arrow3d(pos_tzero, pos_tzero + velocity(t0), rgbcolor=(0,0.5,0))
+    nor = arrow3d(pos_tzero, pos_tzero + normal(t0), rgbcolor=(0.5,0,0))
+    bin = arrow3d(pos_tzero, pos_tzero + binormal(t0), rgbcolor=(0,0,0.5))
+    acc = arrow3d(pos_tzero, pos_tzero + acceleration(t0), rgbcolor=(1,0,1))
+    tancomp = arrow3d(pos_tzero, pos_tzero + tangent_component*tangent(t0), rgbcolor=(1,0,1) )
+    norcomp = arrow3d(pos_tzero, pos_tzero + normal_component*normal(t0), rgbcolor=(1,0,1))
     #
     # accumulate the graphic based on checkboxes
     #
@@ -808,8 +817,6 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     print "Drag graphic to rotate"
     #
     # show accumulated graphical info
-    # adjust figsize to x-,y- extents to get aspect ratio correct
-    #   so perpendicular vectors "look right"
     #
     show(picture, aspect_ratio=[1,1,1])
 }}}
