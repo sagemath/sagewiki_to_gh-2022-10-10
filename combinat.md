@@ -27,23 +27,23 @@ See the [[http:/combinat/RoadMap|road map and current status]] of the port.
 
 === Who are we? ===
 
-* [[http:/combinat/Contributors|Contributors]]
+ * [[http:/combinat/Contributors|Contributors]]
 
-* [[http:/combinat/Institutions|Institutions and sponsors]]
+ * [[http:/combinat/Institutions|Institutions and sponsors]]
 
 === How to participate and contribute ===
-* Join our mailing list: http://groups.google.com/group/sage-combinat-devel.
+ * Join our mailing list: http://groups.google.com/group/sage-combinat-devel.
 
-* Post bug reports, suggestions, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
+ * Post bug reports, suggestions, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
 
-* Cite Sage-Combinat when you use it for research publications (TODO: provide a standard citation here).
+ * Cite Sage-Combinat when you use it for research publications (TODO: provide a standard citation here).
 
-* The collection of patches is managed using a [[http://sage.math.washington.edu:2144/|patch server]] (mercurial queues). Use it to try out the latest experimental features, or contribute your own patches!
+ * The collection of patches is managed using a [[http://sage.math.washington.edu:2144/|patch server]] (mercurial queues). Use it to try out the latest experimental features, or contribute your own patches!
 
- * [[http:/combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
+  * [[http:/combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
 
- * [[http:/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
+  * [[http:/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
 
-* Have a look and participate to [[http:/combinat/DesignDiscussion|design discussions]].
+ * Have a look and participate to [[http:/combinat/DesignDiscussion|design discussions]].
 
-* Contribute to the list of [[http:/combinat/Weirdness|quirks and weirdness issues]] in the {{{*-Combinat}}} design.
+ * Contribute to the list of [[http:/combinat/Weirdness|quirks and weirdness issues]] in the {{{*-Combinat}}} design.
