@@ -6,10 +6,8 @@ Sage-combinat is a collection of experimental patches (i.e. extensions) on top o
 
 We will hold an International Sage Workshop on [[http:/combinat/FPSAC09|Free and Practical Software for Algebraic Combinatorics]] at RISC, Linz, Austria, right after [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]].
 
-=== NEWS: February 20th of 2009 ===
-
-Submission of a software demonstration request for FPSAC 2009:
- - [[attachment:.2009-07-20-FPSAC.tex|Source]] / [[attachment:2009-07-20-FPSAC.pdf|PDF]]
+=== NEWS: February 20th of 2009: Submission of a software demonstration request for FPSAC 2009 ===
+[[attachment:.2009-07-20-FPSAC.tex|Source]] / [[attachment:2009-07-20-FPSAC.pdf|PDF]]
 
 === NEWS: January 26-30: Sage-Combinat workshop in Orsay ===
 
