@@ -9,7 +9,7 @@ We will hold an International Sage Workshop on [[http:/combinat/FPSAC09|Free and
 === NEWS: February 20th of 2009 ===
 
 Submission of a software demonstration request for FPSAC 2009:
- - {{attachment:.2009-07-20-FPSAC.tex|Source]] / [[2009-07-20-FPSAC.pdf|PDF]]
+ - {{attachment:.2009-07-20-FPSAC.tex|Source}} / {{attachment:2009-07-20-FPSAC.pdf|PDF}}
 
 === NEWS: January 26-30: Sage-Combinat workshop in Orsay ===
 
