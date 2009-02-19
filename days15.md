@@ -23,6 +23,7 @@
 == Confirmed Participants ==
 
  * Michael Abshoff
+ * Rob Beezer
  * Robert Bradshaw
  * Bob Bruner (Wayne State)
  * Craig Citro
