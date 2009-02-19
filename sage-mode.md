@@ -9,26 +9,32 @@ Contact Nick Alexander on {{{sage-devel}}} to request features, report bugs, and
 
 '''Warning!'''  This is alpha code.  This might fail horribly and is not (yet) easily customizable.
 
-Version 0.5.1 adds Matthias Meulien's sage-view.el and adds sage-rerun, and C-u sage-build, as requested by Nicolas Thiery.  It fixes a small bug with binding in sage-view and now the install instructions are correct.
+Version 0.5.2 improves Matthias Meulien's sage-view.el and makes it easier to use parts of sage-view.  It also improves multiple outputs/plots with sage-view.
 
-[[attachment:sage-mode-0.5.1.spkg]]
+[[attachment:sage-mode-0.5.2.spkg]]
 
 Use {{{sage -f sage-mode.spkg}}}.  The following installation instructions are suggested:
 
 {{{
-(add-to-list 'load-path (expand-file-name "$SAGE_DATA/emacs"))
+(add-to-list 'load-path (expand-file-name "path-to-sage-mode-el-files"))
 (require 'python)
 (require 'pyrex "pyrex-mode")
 (require 'sage "sage-mode")
-(setq sage-command "$SAGE_ROOT/sage")
+(setq sage-command "/path/to/sage")
 
 ;; If you want sage-view to typeset all your output and have plot()
 ;; commands inline, uncomment the following line and configure sage-view:
 ;; (require 'sage-view "sage-view")
 ;; (add-hook 'sage-startup-hook 'sage-view-always)
+;; You can use commands like
+;; (add-hook 'sage-startup-hook 'sage-view-always
+;; 'sage-view-disable-inline-output 'sage-view-disable-inline-plots)
+;; to have some combination of features.
 }}}
 
 == Old versions ==
+
+[[attachment:sage-mode-0.5.1.spkg]]
 
 [[attachment:sage-mode-0.5.spkg]]
 
