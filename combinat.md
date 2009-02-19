@@ -34,7 +34,7 @@ See the [[http:/combinat/RoadMap|road map and current status]] of the port.
 === How to participate and contribute ===
 * Join our mailing list: http://groups.google.com/group/sage-combinat-devel.
 
-* Post bug reports, suggestion, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
+* Post bug reports, suggestions, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
 
 * Cite Sage-Combinat when you use it for research publications (TODO: provide a standard citation here).
 
