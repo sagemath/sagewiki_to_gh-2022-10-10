@@ -1,0 +1,165 @@
+\documentclass[proceedings,submission]{dmtcs}
+\usepackage[utf8]{inputenc}
+\usepackage{ae,aecompl,aeguill}	% pour utiliser << et >>
+\usepackage[english]{babel}
+%\frenchbsetup{og=«, fg=»}
+\usepackage{hyperref}
+
+\usepackage[babel=true,kerning=true]{microtype} 
+
+\title[\texttt{Sage-Combinat},
+  Free and Practical Software
+  for Algebraic Combinatorics]{\texttt{Sage-Combinat}\\
+  Free and Practical Software\\
+  for Algebraic Combinatorics}
+
+\author[{Nicolas M. Thiéry \textbf{et al.}}]{Nicolas M. Thiéry \textbf{et al.$^{1}$}}
+
+\address{Department of Mathematics, University of California, One
+ Shields Avenue, Davis, CA 95616, U.S.A.\\
+ Univ Paris-Sud, Laboratoire de Mathématiques d'Orsay,
+  Orsay, F-91405; CNRS, Orsay, F-91405, France}
+
+%\email{Nicolas.Thiery@u-psud.fr}
+
+
+\begin{document}
+
+
+\maketitle
+
+\section{Description}
+
+\texttt{Sage}~\cite{Sage} (\url{http://www.sagemath.org}) is a free
+open-source mathematics software system licensed under the GPL. It
+combines the power of many existing open-source packages
+(GAP~\cite{GAP4}, Linbox, Singular~\cite{Singular} to name a few) into
+a common Python-based interface.
+
+The mission of \texttt{Sage-Combinat} itself
+(\texttt{http://wiki.sagemath.org/combinat/}) is to improve
+\texttt{Sage} as an extensible toolbox for computer exploration in
+combinatorics and algebraic combinatorics, and to foster code sharing
+between researchers in this area.
+%
+As such, \texttt{Sage-Combinat} and its predecessor
+\texttt{MuPAD-Combinat} played an essential role in more than 50
+publications.
+
+In practice, \texttt{Sage-Combinat} takes the form of a collection of
+experimental extensions (patches), developed jointly by a growing
+community of researchers\footnote{ Nicolas Borie, Jason Bandlow,
+  Daniel Bump, Adrien Boussicault, Vincent Delecroix, Tom Denton,
+  Teresa Gomez-Diaz, Mike Hansen, Florent Hivert, Brant Jones,
+  Sébastien Labbé, Gregg Musiker, Franco Saliola, Anne Schilling, Mark
+  Shimozono, Lenny Tevlin, Nicolas M. Thiéry, Justin Walker, Mike
+  Zabrocki, as well as, for \texttt{MuPAD-Combinat} and sister
+  projects, Houda Abbad, Christophe Carré, Frédéric Chapoton, François
+  Descouens, Ralf Hemmecke, Éric Laugerotte, Cédric Lecouvey, Patrick
+  Lemeur, Robert Miller, Xavier Molinero, Jean-Christophe Novelli,
+  Janvier Nzeutchap, Wang Qiang, Martin Rubey }, worldwide. Those
+extensions are intended to have a short life cycle, and to be merged
+into the \texttt{Sage} library as soon as they are mature
+enough. Hence, in a matter of months, most new features are made
+available to all \texttt{Sage} users. Those interested in the bleeding
+edge features can further download the experimental extensions by
+simply running \texttt{Sage} as \texttt{sage -combinat install}.
+
+
+\section{Software demonstration}
+  
+During the software demonstration at FPSAC'09, we will present the
+prominent features of \texttt{Sage} for combinatorics and algebraic
+combinatorics, and discuss its design and development
+model. Afterward, we will run some informal tutorials during the
+evenings. For those interested
+in learning more or getting involved, there will also be a satellite
+workshop around \texttt{Sage-Combinat} and sister projects:
+
+\noindent
+\texttt{*-Combinat 09}\\
+July 25-29, RISC, Linz, Austria\\
+Free and Practical Software for Algebraic Combinatorics\\
+\url{http://wiki.sagemath.org/combinat/fpsac09}.
+
+
+\section{Short history of \texttt{*-Combinat}}
+
+\texttt{Sage-Combinat} started in 2000, under the name
+\texttt{MuPAD-Combinat}~\cite{Hivert_Thiery.MuPAD-Combinat.2004}, as
+an open source library for the computer algebra system
+\texttt{MuPAD}~\cite{MuPAD.96}. It took its roots in the projects
+\texttt{ACE}~\cite{ACE}, $\mu$\texttt{-EC}~\cite{muEC},
+\texttt{PerMuVAR}~\cite{Thiery.PerMuVAR}, and progressively integrated
+\texttt{CS}~\cite{Denise_all.1998.CS},
+\texttt{Symmetrica}~\cite{SYMMETRICA}
+\texttt{Nauty}~\cite{McKay.nauty} and \texttt{lrcalc}. The
+\texttt{MuPAD} platform was technically sound, and played its role
+very well for the first seven years. However, and as it was clear from
+the beginning, it suffered from not being open source. In particular,
+this hindered its dissemination, and the growth opportunities for both
+the users and developers community. This motivated our decision, in
+June 2008, to migrate the project to \texttt{Sage}, once this platform
+became mature enough, and despite the large overhead (100k lines of
+code to migrate). This migration allowed to almost double the
+community, in particular thanks to joining our efforts with the
+combinatorics on words project \texttt{Sage-words}.
+
+The migration is on its way, and it is expected that, by FPSAC'09,
+most of the combinatorics code will be migrated, as well as part of
+the algebraic code.
+
+
+%(Marne-la-Vallée, Rouen, Orsay, Barcelone, UC-Davis, Stanford,
+%Toronto, Philadelphie, Seattle, ...).
+
+
+\section{Features}
+\label{section.sage}
+
+From \url{http://www.sagemath.org/tour.html}:
+
+\texttt{Sage} can be used to study general and advanced, pure and
+applied mathematics. This comprises a wide range of mathematics,
+including algebra, calculus, elementary to very advanced number
+theory, cryptography, numerical computation, commutative algebra,
+group theory, combinatorics, graph theory, exact linear algebra and
+much more. It combines various software packages and seamlessly
+integrates their functionality into a common experience. It is well
+suited for education, studying and research.  The interface is a
+notebook in a web-browser or the command-line. Using the notebook,
+Sage connects either locally to your own Sage installation or to a
+Sage server on the network. Inside the Sage notebook you can create
+embedded graphics, beautifully typeset mathematical expressions, add
+and delete input, and share your work across the network.
+
+Here are some of the features of \texttt{Sage} that are developed
+specifically by the \texttt{Sage-Combinat} project:
+\begin{itemize}
+\item Basic combinatorial classes: permutations, tableaux, ...
+\item Decomposable objects / Species
+\item Root systems and crystals
+\item Combinatorics on words
+\item (Non commutative) symmetric functions and related combinatorial
+  (Hopf) algebras
+\item Easy definitions of new combinatorial (Hopf) algebras
+\end{itemize}
+
+Other \texttt{Sage} features related to combinatorics include graphs
+(in particular via \texttt{NetworkX}), groups (via \texttt{GAP}), etc.
+
+\section{Hardware requirements}
+
+\texttt{Sage} can be installed on most platforms, including
+\texttt{Linux}, \texttt{Mac OS X}, and \texttt{Windows}.
+
+\bibliographystyle{alpha}
+\bibliography{main}
+
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
