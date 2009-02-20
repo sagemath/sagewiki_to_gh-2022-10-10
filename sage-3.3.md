@@ -35,20 +35,68 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
 == Algebraic Geometry ==
 
- * Improved precision and performance when calculating analytic rank (William Stein) -- When calculating the analytic rank of an elliptic curve, the default is to use Cremona's {{{gp}}} script, where the precision is automatically doubled until it doesn't fail. The precision is started at 16 rather than the previous default precision. The computation is now about 3 times faster usually by starting off using this smaller precision. 
+ * Improved precision and performance when calculating analytic rank (William Stein) -- When calculating the analytic rank of an elliptic curve, the default is to use Cremona's {{{gp}}} script, where the precision is automatically doubled until it doesn't fail. The precision is started at 16 rather than the previous default precision. The computation is now about 3 times faster usually by starting off using this smaller precision. Here's an example:
+ {{{
+# BEFORE
+sage: E = EllipticCurve('5077a')
+sage: time E.analytic_rank()
+CPU times: user 0.01 s, sys: 0.01 s, total: 0.02 s
+Wall time: 0.21 s
+
+# AFTER
+sage: E = EllipticCurve('5077a')
+sage: time E.analytic_rank()
+CPU times: user 0.02 s, sys: 0.00 s, total: 0.02 s
+Wall time: 0.06 s
+ }}}
+ And another:
+ {{{
+# BEFORE
+sage: time elliptic_curves.rank(4)[0].analytic_rank()
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.50 s
+
+# AFTER
+sage: time elliptic_curves.rank(4)[0].analytic_rank()
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.33 s
+ }}}
 
  * Weil pairing (David Moller Hansen, John Cremona) -- A basic framework for Weil pairing on elliptic curves using Miller's algorithm as contained in Proposition 8 of the following paper:
     * Victor S. Miller. "The Weil pairing, and its efficient calculation". Journal of Cryptology, 17(4):235-261, 2004.
 
 == Basic Arithmetic ==
 
- * {{{ivalue}}} field in {{{integer_mod.pyx}}} is no longer public (Craig Citro) -- The {{{ivalue}}} field for {{{IntegerMod_int}}} is no longer public. This gives about a 1.5 to 2X speed-up when multiplying {{{IntegerMod_ints}}}. 
+ * {{{ivalue}}} field in {{{integer_mod.pyx}}} is no longer public (Craig Citro) -- The {{{ivalue}}} field for {{{IntegerMod_int}}} is no longer public. This gives about a 1.5 to 2X speed-up when multiplying {{{IntegerMod_ints}}}. Here's an example:
+ {{{
+# BEFORE
+sage: R = Integers(100) ; x = R(3) ; y = R(5)
+sage: timeit('x*y')
+625 loops, best of 3: 403 ns per loop
+sage: timeit('x*y')
+625 loops, best of 3: 370 ns per loop
+sage: timeit('x*y')
+625 loops, best of 3: 410 ns per loop
+sage: timeit('x*y')
+625 loops, best of 3: 405 ns per loop
+
+# AFTER
+sage: R = Integers(100) ; x = R(3) ; y = R(5)
+sage: timeit('x*y')
+625 loops, best of 3: 190 ns per loop
+sage: timeit('x*y')
+625 loops, best of 3: 213 ns per loop
+sage: timeit('x*y')
+625 loops, best of 3: 174 ns per loop
+sage: timeit('x*y')
+625 loops, best of 3: 191 ns per loop
+ }}}
 
  * Some fixes for {{{is_perfect_power()}}} and {{{bessel_J(0,0)}}} (Craig Citro, Robert Bradshaw, Robert L. Miller) -- A temporary work around for an upstream bug in GMP when using {{{is_perfect_power()}}}. Resolved a Pari interface bug when using {{{bessel_J(0,0)}}}.
 
  * Improved performance for generic polynomial rings, and for univariate polynomial arithmetic over {{{Z/nZ[x]}}} (Yann Laigle-Chapuy, Martin Albrecht, Burcin Erocal) -- Improved performance when performing modulo arithmetic between elements of a generic polynomial ring. Univariate polynomial arithmetic over {{{Z/nZ[x]}}} now has considerable speed-up at approximately 20x.
  {{{
-# Old
+# BEFORE
 sage: P.<x> = PolynomialRing(GF(7))
 sage: type(x)
 <type 'sage.rings.polynomial.polynomial_modn_dense_ntl.Polynomial_dense_mod_p'>
@@ -57,7 +105,7 @@ sage: g = P.random_element(100)
 sage: %timeit f*g
 1000 loops, best of 3: 445 µs per loop
 
-# New
+# AFTER
 sage: P.<x> = PolynomialRing(GF(7))
 sage: type(x)
 <type 'sage.rings.polynomial.polynomial_zmod_flint.Polynomial_zmod_flint'>
@@ -115,7 +163,56 @@ for i in range(21):
 
  * Deprecate the function {{{sqrt_approx()}}} (David Roe) -- To obtain a numerical approximation of the square root of a ring element (integers, polynomials over {{{GF(2^x)}}}, rationals), users are advised to use the function {{{sqrt()}}} with a given number of bits of precision instead.
 
- * Use Pohlig-Hellman for generic discrete logarithm (Yann Laigle-Chapuy) -- This results in significant improvement in performance and less memory foot print.
+ * Use Pohlig-Hellman for generic discrete logarithm (Yann Laigle-Chapuy) -- This results in significant improvement in performance and less memory foot print. Here's an example with a smooth order:
+ {{{
+sage: factor(5^15-1)
+2^2 * 11 * 31 * 71 * 181 * 1741
+
+# BEFORE
+sage: F.<a>=GF(5^15)
+sage: g=F.gen()
+sage: u=g^123456789
+sage: time log(u,g)
+CPU times: user 271.39 s, sys: 4.72 s, total: 276.11 s
+Wall time: 276.96 s
+123456789
+sage: get_memory_usage()
+378.21875
+
+# AFTER
+sage: F.<a>=GF(5^15)
+sage: g=F.gen()
+sage: u=g^123456789
+sage: time log(u,g)
+CPU times: user 0.14 s, sys: 0.00 s, total: 0.14 s
+Wall time: 0.16 s
+123456789
+sage: get_memory_usage()
+115.8984375
+ }}}
+ And here's another example with a not-so-smooth order:
+ {{{
+sage:factor(3^13-1)
+2 * 797161
+
+# BEFORE
+sage: F.<a>=GF(3**13)
+sage: g=F.gen()
+sage: u=g^1234567
+sage: timeit('log(u,g)')
+5 loops, best of 3: 1.54 s per loop
+sage: get_memory_usage()
+155.11328125
+
+# AFTER
+sage: F.<a>=GF(3**13)
+sage: g=F.gen()
+sage: u=g^1234567
+sage: timeit('log(u,g)')
+5 loops, best of 3: 931 ms per loop
+sage: get_memory_usage()
+139.4296875
+ }}}
 
  * Exact division syntax in finite fields of prime order (David Roe) -- Support the division operator {{{//}}} for finite fields of prime order.
 
@@ -156,7 +253,30 @@ for i in range(21):
 
 == Coding Theory ==
 
- * Weight distribution for binary codes (Robert L. Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation.
+ * Weight distribution for binary codes (Robert L. Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation. Here's an example:
+ {{{
+# BEFORE
+sage: time C.spectrum()
+CPU times: user 0.03 s, sys: 0.02 s, total: 0.05 s
+Wall time: 3.36 s
+[1, 0, 0, 7, 7, 0, 0, 1]
+sage: time C.spectrum()
+CPU times: user 0.02 s, sys: 0.01 s, total: 0.03 s
+Wall time: 2.20 s
+[1, 0, 0, 7, 7, 0, 0, 1]
+sage: time C.spectrum()
+CPU times: user 0.02 s, sys: 0.01 s, total: 0.03 s
+Wall time: 3.26 s
+[1, 0, 0, 7, 7, 0, 0, 1]
+sage: time C.spectrum()
+CPU times: user 0.02 s, sys: 0.01 s, total: 0.03 s
+Wall time: 2.74 s
+[1, 0, 0, 7, 7, 0, 0, 1]
+
+# AFTER
+sage: timeit('C.spectrum()')
+625 loops, best of 3: 1.86 ms per loop
+ }}}
 
  * Linear codes decoding algorithms (David Joyner, Robert L. Miller) -- A number of algorithms in the GAP package Guava are moved to Sage. Two decoding methods are implemented, in particular, the methods nearest neighbor and syndrome. 
 
@@ -189,7 +309,7 @@ for i in range(21):
 
  * GAP configuration file (Matthias Meulien) -- A user's local GAP configuration file is usually named {{{$HOME/.gaprc}}}. When such a file already exists and Sage is compiled from source, using the Sage interface to GAP, e.g. {{{gap._eval_line('1+3;')}}}, can result in gibberish. This is now fixed so that the GAP interface would output a comprehensible message/answer as a result of some GAP calculation.
 
- * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. The clickable Mac application launcher can be built using {{{-bdist}}} on OSX.
+ * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. The clickable Mac application launcher can be built using {{{-bdist}}} on OSX. A screenshot of a Sage Mac OSX clickable app in action can be found [[http://sage.math.washington.edu/home/mabshoff/SageApp.png|here]].
 
  * Port to 64-bit OSX 10.5 (Michael Abshoff).
 
@@ -205,12 +325,12 @@ for i in range(21):
 
  * Improve timings for {{{adjacency_matrix}}}, {{{weighted_adjacency_matrix}}}, and {{{kirchoff_matrix}}} (Mike Hansen).
  {{{
-#Before
+# BEFORE
 sage: %time m = graphs.GridGraph([50,50]).laplacian_matrix()
 CPU times: user 38.42 s, sys: 0.24 s, total: 38.66 s
 Wall time: 39.02 s
 
-#After
+# AFTER
 sage: %time m = graphs.GridGraph([50,50]).laplacian_matrix()
 CPU times: user 0.63 s, sys: 0.06 s, total: 0.69 s
 Wall time: 0.89 s
@@ -228,7 +348,12 @@ Wall time: 0.89 s
 
  * Polar plot syntax (Jason Grout) -- Polar plot now accepts the syntax {{{(t, 0, 2*pi)}}} for the interval.
 
- * New function {{{density_plot()}}} and improved colour map handling (Arnaud Bergeron) -- The new function {{{density_plot()}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Also, some improvements on how color map is handled.
+ * New function {{{density_plot()}}} and improved colour map handling (Arnaud Bergeron) -- The new function {{{density_plot()}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Also, some improvements on how color map is handled. Here's [[http://trac.sagemath.org/sage_trac/attachment/ticket/4878/trac_4878-sample-plot-bw.png|an example image]] in grayscale produced using the following code:
+ {{{
+sage: x,y = var('x,y')
+sage: density_plot(sin(x)*sin(y), (-2, 2), (-2, 2))
+ }}}
+ A sample image in colour can be found [[http://trac.sagemath.org/sage_trac/attachment/ticket/4878/4878_example.png|here]].
 
  * 3-D polygon (Arnaud Bergeron) -- The new function {{{polygon3d()}}} allows for plotting of 3-D polygons.
 
@@ -249,6 +374,21 @@ Wall time: 0.89 s
 == Linear Algebra ==
 
  * Multiplication of sparse matrices over finite fields (William Stein, Craig Citro) -- Significant performance improvement when multiplying two sparse matrices over the same finite field. In some cases, performance is about 37 times faster than previously.
+ {{{
+# BEFORE
+sage: m = random_matrix(GF(10007), 100, 100, sparse=True)
+sage: %time m*m
+CPU times: user 3.36 s, sys: 0.03 s, total: 3.39 s
+Wall time: 3.42 s
+100 x 100 sparse matrix over Finite Field of size 10007
+
+# AFTER
+sage: m = random_matrix(GF(10007), 100, 100, sparse=True)
+sage: %time m*m
+CPU times: user 0.09 s, sys: 0.00 s, total: 0.09 s
+Wall time: 0.09 s
+100 x 100 sparse matrix over Finite Field of size 10007
+ }}}
 
  * Minimum polynomials for {{{GF(p)}}} (Alex Ghitza).
 
@@ -264,14 +404,14 @@ Wall time: 0.89 s
 
  * Considerable (optional) speed-up for row echelon forms of dense matrices over GF(2) due to new M4RI library (Martin Albrecht).
  {{{
-#Before
+# BEFORE
 sage: A = random_matrix(GF(2),2*10^4,2*10^4)
 sage: %time A.echelon_form(algorithm='m4ri')
 CPU times: user 15.49 s, sys: 0.05 s, total: 15.54 s
 Wall time: 15.72 s
 20000 x 20000 dense matrix over Finite Field of size 2
 
-#After
+# AFTER
 sage: A = random_matrix(GF(2),2*10^4,2*10^4)
 sage: %time A.echelon_form(algorithm='pluq')
 CPU times: user 9.86 s, sys: 0.04 s, total: 9.91 s
