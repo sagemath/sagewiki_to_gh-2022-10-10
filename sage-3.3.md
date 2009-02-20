@@ -6,7 +6,7 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release note, se
  * Fix some build issues from 3.2.3 on the new set of supported images
  * Merge small to medium sized patches ready to go in
  * Switch to [[http://www.mpir.org|eMPIRe]] for multi-precision integers and rationals
- * Upgrade [[http://www.python.org|Python]] to 2.5.4 upstream release
+ * Upgrade [[http://www.python.org|Python]] to version 2.5.4 upstream release
  * Switch to [[http://www.flintlib.org|FLINT]] for univariate polynomial arithmetic over {{{Z/nZ}}}
  * Upgrade [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
  * Upgrade [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
@@ -19,6 +19,9 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release note, se
  * Upgrade [[http://www.math.union.edu/~dpvc/jsMath/|jsMath]] to version 3.6 upstream release
  * Upgrade [[http://www.gap-system.org|GAP]] to version 4.4.12 upstream release
  * Upgrade [[http://sage.math.washington.edu/home/wdj/guava|GUAVA]] to version 3.9 upstream release
+ * Upgrade [[http://jmol.sourceforge.net|Jmol]] to version 11.6 upstream release
+ * Upgrade [[http://matplotlib.sourceforge.net|matplotlib]] to version 0.98.5.3-svn6910 upstream release
+ * Upgrade [[http://www.libpng.org|libpng]] to version 1.2.34 upstream release
 
 All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/sage_trac/milestone/sage-3.3|trac server]]. Here's a summary of features in this release, categorized under various headings.
 
@@ -28,9 +31,11 @@ All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/
 
  * Update the ATLAS spkg (Michael Abshoff).
 
+ * New function {{{is_unit()}}} for symbolic ring (Florent Hivert) -- The new function {{{sage.calculus.calculus.SymbolicExpressionRing.is_unit()}}} returns whether or not an element of the symbolic ring is a unit.
+
 == Algebraic Geometry ==
 
- * Improved precision and performance when calculating analytic rank (William Stein) -- When calculating the analytic rank of an elliptic curve, the default is to use Cremona's {{{gp}}} script, where the precision is automatically doubled until it doesn't fail. The precision is started at 16 rather than the previous default precision. The computation is now about 3 times faster usually by starting off using this smaller precision.
+ * Improved precision and performance when calculating analytic rank (William Stein) -- When calculating the analytic rank of an elliptic curve, the default is to use Cremona's {{{gp}}} script, where the precision is automatically doubled until it doesn't fail. The precision is started at 16 rather than the previous default precision. The computation is now about 3 times faster usually by starting off using this smaller precision. 
 
  * Weil pairing (David Moller Hansen, John Cremona) -- A basic framework for Weil pairing on elliptic curves using Miller's algorithm as contained in Proposition 8 of the following paper:
     * Victor S. Miller. "The Weil pairing, and its efficient calculation". Journal of Cryptology, 17(4):235-261, 2004.
@@ -147,6 +152,8 @@ for i in range(21):
 
  * Indefinite integration for piecewise functions (Paul Butler).
 
+ * New function {{{jacobian()}}} for computing the Jacobian matrix (Jason Grout) -- The new function is {{{sage.calculus.functions.jacobian()}}} which returns the Jacobian matrix consisting of partial derivatives in which the i,j entry of the Jacobian matrix is the partial derivative {{{diff(functions[i], variables[j])}}}.
+
 == Coding Theory ==
 
  * Weight distribution for binary codes (Robert L. Miller) -- A weight distribution algorithm for binary codes using Robert Bradshaw's bitsets. This implementation in [[http://www.cython.org|Cython]] gives a 19 to 20 times performance speed-up over the previous GAP/Guava implementation.
@@ -208,6 +215,10 @@ sage: %time m = graphs.GridGraph([50,50]).laplacian_matrix()
 CPU times: user 0.63 s, sys: 0.06 s, total: 0.69 s
 Wall time: 0.89 s
  }}}
+
+ * Pretty plot of graphs with multiedges (Emily Kirkman) -- A plot of a multiedge graph can be found [[http://trac.sagemath.org/sage_trac/attachment/ticket/3541/trac_3541-multiedge-graph-example-plot.png|here]].
+
+ * Improvements to the {{{Graph(...)}}} constructor for input matrices Robert L. Miller) --  This is an overhaul of the {{{Graph}}} and {{{DiGraph}}} initialization functions. Among other things, one can now naturally convert between {{{Graph}}} and {{{DiGraph}}}.
 
 == Graphics ==
 
@@ -337,6 +348,14 @@ Wall time: 9.97 s
  * Upgrade [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release (Martin Albrecht).
 
  * Upgrade GAP/GUAVA to versions 4.4.12/3.9 upstream releases (David Joyner).
+
+ * Upgrade [[http://jmol.sourceforge.net|Jmol]] to version 11.6 upstream release (Michael Abshoff).
+
+ * Upgrade [[http://matplotlib.sourceforge.net|matplotlib]] to version 0.98.5.3-svn6910 upstream release (Jason Grout, Michael Abshoff).
+
+ * Upgrade [[http://www.python.org|Python]] to version 2.5.4 upstream release (Michael Abshoff).
+
+ * Upgrade [[http://www.libpng.org|libpng]] to version 1.2.34 upstream release (Michael Abshoff).
 
 == Porting ==
 
