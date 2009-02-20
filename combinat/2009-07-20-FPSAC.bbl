@@ -1,0 +1,68 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{{The}96}
+
+\bibitem[DDZ98]{Denise_all.1998.CS}
+Alain Denise, Isabelle Dutour, and Paul Zimmermann.
+\newblock {C}{S}: a {M}u{P}{A}{D} package for counting and randomly generating
+  combinatorial structures.
+\newblock {\em Proceedings of FPSAC'98}, pages 195--204, 1998.
+
+\bibitem[GAP99]{GAP4}
+The GAP~Group, Aachen, St~Andrews.
+\newblock {\em {GAP -- Groups, Algorithms, and Programming, Version 4.1}},
+  1999.
+
+\bibitem[GPS98]{Singular}
+G.-M. Greuel, G.~Pfister, and H.~Sch{\"o}nemann.
+\newblock {Singular version 1.2 User Manual }.
+\newblock In {\em Reports On Computer Algebra}, number~21. Centre for Computer
+  Algebra, University of Kaiserslautern, June 1998.
+
+\bibitem[HT04]{Hivert_Thiery.MuPAD-Combinat.2004}
+Florent Hivert and Nicolas~M. Thi{\'e}ry.
+\newblock Mu{PAD}-{C}ombinat, an open-source package for research in algebraic
+  combinatorics.
+\newblock {\em S\'em. Lothar. Combin.}, 51:Art. B51z, 70 pp. (electronic),
+  2004.
+\newblock \texttt{http://mupad-combinat.sf.net/}.
+
+\bibitem[KKL]{SYMMETRICA}
+Adalbert Kerber, Axel Kohnert, and Alain Lascoux.
+\newblock {SYMMETRICA, an object oriented computer-algebra system for the
+  symmetric group.}
+
+\bibitem[McK90]{McKay.nauty}
+Brendan~D. McKay.
+\newblock nauty user's guide (version 1.5).
+\newblock Technical report, Dept. Computer Science, Austral. Nat. Univ., 1990.
+
+\bibitem[Pro99]{muEC}
+V.~Prosper.
+\newblock {\em Combinatoire des polyn\^omes multivari\'es}.
+\newblock PhD thesis, IGM, Universit\'e de Marne la Vall\'ee, 1999.
+
+\bibitem[S{\etalchar{+}}09]{Sage}
+W.\thinspace{}A. Stein et~al.
+\newblock {\em {S}age {M}athematics {S}oftware ({V}ersion 3.3)}.
+\newblock The Sage~Development Team, 2009.
+\newblock {\tt http://www.sagemath.org}.
+
+\bibitem[{The}96]{MuPAD.96}
+{The MuPAD Group, Benno Fuchssteiner et al.}
+\newblock {\em MuPAD User's Manual - MuPAD Version 1.2.2}.
+\newblock John Wiley and sons, Chichester, New York, first edition, march 1996.
+\newblock includes a CD for Apple Macintosh and UNIX.
+
+\bibitem[Thi]{Thiery.PerMuVAR}
+Nicolas~M. Thiéry.
+\newblock \texttt{PerMuVAR}, a library for \texttt{MuPAD} for computing in
+  invariant rings of permutation groups.
+\newblock \texttt{http://permuvar.sf.net/}.
+
+\bibitem[Vei98]{ACE}
+S.~Veigneau.
+\newblock {ACE}, an {Algebraic Combinatorics Environment} for the computer
+  algebra system {MAPLE}: {User's Reference Manual, Version 3.0}.
+\newblock Report 98--11, IGM, 1998.
+
+\end{thebibliography}
