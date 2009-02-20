@@ -14,6 +14,7 @@
 == Organizers ==
  * Craig Citro
  * Mike Hansen
+ * Bill Hart
  * William Stein
  * John Palmieri
  * TBA
