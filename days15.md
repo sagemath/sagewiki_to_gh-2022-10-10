@@ -16,9 +16,9 @@
  * Craig Citro
  * Mike Hansen
  * Bill Hart
+ * David Joyner
  * William Stein
  * John Palmieri
- * TBA
 
 == Colloquium Talks ==
  * TBA
