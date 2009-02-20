@@ -12,6 +12,7 @@
  * TBA
 
 == Organizers ==
+ * Michael Abshoff
  * Craig Citro
  * Mike Hansen
  * Bill Hart
