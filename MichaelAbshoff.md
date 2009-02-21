@@ -9,7 +9,7 @@
 
 I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated around packages and their portability. I added valgrind support to Sage 2.8.3 and have been using various valgrind tools to investigate Sage's memory consumption.
 
-I am the main release manager for Sage and I chaired a number of releases - 30 so far: 
+I am the main release manager for Sage and I chaired a number of releases - 31 so far: 
 
  * 2.8.11, 2.8.13-2.8.15
  * 2.9, 2.9.2-3
@@ -19,6 +19,7 @@ I am the main release manager for Sage and I chaired a number of releases - 30 s
  * 3.1, 3.1.1-4
  * 3.2, 3.2.1-3 
  * 3.3
+ * 3.4
 
 == Sage Projects ==
 
@@ -35,6 +36,7 @@ I am the main release manager for Sage and I chaired a number of releases - 30 s
  * [[DebianSAGE]]
  * whatever else currently needs fixing
  * [[http://trac.sagemath.org/sage_trac/query?status=new&status=assigned&status=reopened&owner=mabshoff&order=priority|My open trac tickets]] (the idea was shamelessly stolen from Martin Albrecht)
+ * Maintain the [[sage.math/SageBinaries|collection]] of Sage releases installed on sage.math. This can be useful to pinpoint regressions or just to use older Sage releases
 
 === Low Level: Build System Improvements ===
 
