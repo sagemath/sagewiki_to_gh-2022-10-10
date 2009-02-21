@@ -7,9 +7,7 @@
 
 == Involvement with Sage ==
 
-I study math at the University of Dortmund. Most of the time I spend with SAGE is dedicated around packages and their portability. I added valgrind support to Sage 2.8.3 and have been using various valgrind tools to investigate Sage's memory consumption.
-
-I am the main release manager for Sage and I chaired a number of releases - 31 so far: 
+In addition of heading the Solaris as well as Windows port of Sage I am also the main release manager. So far I have chaired 31 releases: 
 
  * 2.8.11, 2.8.13-2.8.15
  * 2.9, 2.9.2-3
@@ -20,6 +18,8 @@ I am the main release manager for Sage and I chaired a number of releases - 31 s
  * 3.2, 3.2.1-3 
  * 3.3
  * 3.4
+
+I still study math at the University of Dortmund and one day will finish my degree :)
 
 == Sage Projects ==
 
