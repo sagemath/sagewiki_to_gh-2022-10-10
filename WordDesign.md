@@ -47,6 +47,8 @@ Modified:
 
 
 == Comparison methods ==
+A comparison involves two different words. But a word could be a lot of different object (in particular from a data point of vue). 
+
  * Flexibility or not ?
  * What is exactly authorized ?
 
