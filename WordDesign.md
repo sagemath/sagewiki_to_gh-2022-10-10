@@ -28,4 +28,4 @@ We can improve the speed of a lot of algorithms providing two functions
 def find_first_different(self, other)
 def find_last_different(self, other)
 }}}
-which should returns the first index of the different characters and -1 if one of the two words ended before.
+which should returns the first index of the different characters and -1 if one of the two words ended before. Those one could be really fast in the cythonized version.
