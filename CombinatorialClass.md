@@ -29,7 +29,14 @@ The name of the OOClasses involved in building a CClass should be uniform : let'
 
 The following functions are standard and should be documented/publicized for all CClass:
  * {{{list()}}}
- * {{{count()}}} is the name fixed? coherent with the rest of sage?  (+1 for {{{count()}}}.  As far as I know it is standard. -jbandlow)
+ * {{{count()}}} is the name fixed? coherent with the rest of sage?  (+1 for {{{count()}}}.  As far as I know it is standard. -jbandlow) It's not consistent with python count method :  {{{
+S.count(sub[, start[, end]]) -> int
+
+Return the number of occurrences of substring sub in string
+S[start:end].  Optional arguments start and end are
+interpreted as in slice notation.
+}}} I really prefer the {{{length()}}} which is used in words for example :).
+
  * {{{len}}} is deprecated and should not be used
 
 The following function should be written but are not supposed to be called directly by the user:
