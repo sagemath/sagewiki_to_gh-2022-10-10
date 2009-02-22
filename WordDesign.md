@@ -1,6 +1,7 @@
 = Word Design =
 
-The following page discusses the whole specifications of methods in the class of Word. Most of the times the methods do what we want, but this page could help to define standards. Specifications must be precise because we accept that any Word_datatype overload the methods defined in Word_all or Finiteword_all...
+This page discusses the specifications of methods in the class of Word. Most of the times the methods do what we want, but this page could help to define standards. Specifications must be precise because we accept that any Word_datatype overwrite methods defined in Word_all or Finiteword_all...
+
 This page could also serve for discussion about improvement of words algorithms and words vocabulary.
 
 In particular:
