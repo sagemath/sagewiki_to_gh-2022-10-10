@@ -5,7 +5,8 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release note, se
  * Clean up various doctest failures from 3.2.3
  * Fix some build issues from 3.2.3 on the new set of supported images
  * Merge small to medium sized patches ready to go in
- * Switch to [[http://www.mpir.org|eMPIRe]] for multi-precision integers and rationals
+ * Switch to [[http://www.mpir.org|MPIR]] for multi-precision integers and rationals
+ * Update the [[http://www.mpir.org/|gmp-mpir]] spkg
  * Upgrade [[http://www.python.org|Python]] to version 2.5.4 upstream release
  * Switch to [[http://www.flintlib.org|FLINT]] for univariate polynomial arithmetic over {{{Z/nZ}}}
  * Upgrade [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
@@ -14,6 +15,7 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release note, se
  * [[http://sourceforge.net/projects/pynac|PyNaC]] interface enhancements
  * Update the [[http://tiswww.case.edu/php/chet/readline/rltop.html|readline]] spkg
  * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg
+ * Upgrade [[http://math-atlas.sourceforge.net|ATLAS]] to version 3.8.3 upstream release
  * Update the [[http://www.shoup.net/ntl|NTL]] spkg
  * Upgrade [[http://bitbucket.org/malb/m4ri/wiki/|M4RI]] to version 20090105 upstream release
  * Upgrade [[http://www.math.union.edu/~dpvc/jsMath/|jsMath]] to version 3.6 upstream release
@@ -22,6 +24,10 @@ Sage 3.3 was released on FIXME. For the official, comprehensive release note, se
  * Upgrade [[http://jmol.sourceforge.net|Jmol]] to version 11.6 upstream release
  * Upgrade [[http://matplotlib.sourceforge.net|matplotlib]] to version 0.98.5.3-svn6910 upstream release
  * Upgrade [[http://www.libpng.org|libpng]] to version 1.2.34 upstream release
+ * Upgrade [[http://sphinx.pocoo.org|Sphinx]] to version 0.5.1 upstream release
+ * Upgrade [[http://www.bzip.org|bzip2]] to version 1.0.5 upstream release
+ * Upgrade [[http://trac.edgewall.org|trac]] to version 0.11 upstream release
+
 
 All tickets in the 3.3 milestone can be found on the [[http://trac.sagemath.org/sage_trac/milestone/sage-3.3|trac server]]. Here's a summary of features in this release, categorized under various headings.
 
@@ -227,6 +233,8 @@ sage: get_memory_usage()
  * 64-bit OSX (Michael Abshoff) -- Fixed 64-bit OSX build support for f2c, added 64-bit OSX build support for tachyon, added 64-bit OSX build support for flintqs, and added persistent Sage 64-bit building switch on OSX and Solaris.
 
  * Update readline spkg (Michael Abshoff) -- The updated readline spkg allows readline-5.2 to be built on the 64-bit version of OpenSUSE 11.1.
+
+ * Update the [[http://www.mpir.org/|gmp-mpir]] spkg (Michael Abshoff) -- The new spkg version 0.9 fixes various build issues on MacIntel architectures.
 
 == Calculus ==
 
@@ -546,6 +554,12 @@ Wall time: 9.97 s
 
  * Upgrade [[http://www.libpng.org|libpng]] to version 1.2.34 upstream release (Michael Abshoff).
 
+ * Upgrade [[http://sphinx.pocoo.org|Sphinx]] to version 0.5.1 upstream release (Mike Hansen).
+
+ * Upgrade [[http://www.bzip.org|bzip2]] to version 1.0.5 upstream release (Michael Abshoff).
+
+ * Upgrade [[http://math-atlas.sourceforge.net|ATLAS]] to version 3.8.3 upstream release (Michael Abshoff).
+
 == Porting ==
 
  * OSX 64-bit (Michael Abshoff) -- Added proper {{{libcsage}}} build support, and [[http://www.singular.uni-kl.de|Singular]] is now built using the flag {{{--with-malloc=system}}}.
@@ -558,3 +572,5 @@ Wall time: 9.97 s
  * The trac server now displays the comments of a Mercurial diff (Robert Bradshaw) -- Here's a screenshot, [[attachment:trac-better-diff.png]], showing Mercurial diff comments when viewing patches on the trac server.
 
  * Added a {{{hg_examples}}} Mercurial wrapper for the examples repository (Mike Hansen).
+
+ * Upgrade [[http://trac.edgewall.org|trac]] to version 0.11 upstream release (William Stein).
