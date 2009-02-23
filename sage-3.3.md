@@ -305,6 +305,19 @@ sage: timeit('C.spectrum()')
  * Multivariate ideal dimensions over any field (John Perry) -- Support for computing the dimension of fields of large prime characteristics via the method {{{dimension()}}} in the module {{{sage.rings.polynomial.multi_polynomial_ideal.py}}}. The default is to use the functionalities of Singular to do so. However, if the characteristic of the field is larger than what Singular can handle, the method falls back on a toy implementation of Buchberger to compute the Groebner basis, and finally using the algorithm described in Chapter 9, Section 1 of the following text:
     * David A. Cox, John B. Little & Donal O'Shea. "Ideals, Varieties, and Algorithms: An Introduction to Computational Algebraic Geometry and Commutative Algebra" 3rd edition. Springer, 2007.
 
+ * Improve {{{mq.SR}}} usability and performance (Martin Albrecht) -- Here are some improvements for {{{mq.SR}}}:
+     * faster {{{polynomial_system}}} generation by pre-computing S-Box polynomials
+     * support for finite extension field elements in {{{mq.SBox}}} (needed by {{{mq.SR}}})
+     * more module level documentation for {{{mq.sr}}}
+     * new {{{sbox()}}} function which returns AES (or SR) SBox object
+     * {{{AllowZeroInversionsContext()}}} to handle table creation and such
+     * more user friendly encryption, i.e. accept more inputs and make sense of them
+     * {{{varstr()}}} function to return a specific string rather than a list of strings using {{{varstrs()}}}
+     * {{{variable_dict()}}} function which gives fast access to string -> variable mappings
+     * ring constructor now accepts optional {{{reverse_variables}}} parameter
+     * {{{SR_gf2_2}}} class as an example on how to customize things
+     * added {{{constant_coefficient()}}} function to {{{BooleanPolynomials}}} (needed by {{{sbox()}}})
+
 == Distribution ==
 
  * GAP configuration file (Matthias Meulien) -- A user's local GAP configuration file is usually named {{{$HOME/.gaprc}}}. When such a file already exists and Sage is compiled from source, using the Sage interface to GAP, e.g. {{{gap._eval_line('1+3;')}}}, can result in gibberish. This is now fixed so that the GAP interface would output a comprehensible message/answer as a result of some GAP calculation.
