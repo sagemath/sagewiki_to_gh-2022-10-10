@@ -1,3 +1,5 @@
+Note: see also: DanDrake/JustEnoughSageServer
+
 You need a recent virtualbox, or the (proprietary) server version of it (which is free as in beer). In any case, the steps below work for me on Ubuntu intrepid:
 
 
