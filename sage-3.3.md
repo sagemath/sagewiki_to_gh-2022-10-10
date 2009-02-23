@@ -339,8 +339,8 @@ Wall time: 0.89 s
  * Pretty plot of graphs with multiedges (Emily Kirkman) -- A plot of a multiedge graph can be found in [[attachment:multiedge-graph.png]]. The plot is produced using the following code from the docstring of {{{sage.graphs.graph.GenericGraph.plot()}}}:
  {{{
 sage: g = Graph({}, loops=True, multiedges=True)
-sage: g.add_edges([(0,0,'a'),(0,0,'b'),(0,1,'c'),(0,1,'d'), 
-...     (0,1,'e'),(0,1,'f'),(0,1,'f'),(2,1,'g'),(2,2,'h')]) 
+sage: g.add_edges([(0,0,'a'), (0,0,'b'), (0,1,'c'),(0,1,'d'), 
+...     (0,1,'e'), (0,1,'f'), (0,1,'f'), (2,1,'g'),(2,2,'h')]) 
 sage: g.plot(edge_labels=True, color_by_label=True, edge_style='dashed')
  }}}
 
@@ -348,7 +348,16 @@ sage: g.plot(edge_labels=True, color_by_label=True, edge_style='dashed')
 
 == Graphics ==
 
- * Plotting a region (Arnaud Bergeron) -- New function {{{region_plot()}}} for plotting a region where a system of equations/inequalities holds true. Here's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/2770/plot-region.png|sample plot]] using the new function {{{region_plot()}}}.
+ * Plotting a region (Arnaud Bergeron) -- New function {{{region_plot()}}} for plotting a region where a system of equations/inequalities holds true. Here's a region plot,  [[attachment:concentric-ellipses.png]], produced using the following code from the docstring of {{{sage.plot.contour_plot.region_plot()}}}:
+ {{{
+sage: x, y = var('x, y') 
+sage: region_plot(cos(x^2 + y^2) < 0, (-3, 3), (-3, 3))
+ }}}
+ Here is a more sophisticated plot, [[attachment:yellow-dots.png]], produced using the following code from the doctring of {{{sage.plot.contour_plot.region_plot()}}}:
+ {{{
+sage: x, y = var('x, y')
+sage: region_plot(sin(x) * sin(y) >= 1/4, (-10,10), (-10,10), incol='yellow', bordercol='black', plot_points=100).show(aspect_ratio=1)
+ }}}
 
  * Consistency in variable range (Mike Hansen, Jason Grout) -- The variable range of {{{parametric_plot()}}} is now consistent with that of {{{plot()}}}, namely {{{(var, min, max)}}}.
 
