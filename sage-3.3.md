@@ -336,7 +336,13 @@ CPU times: user 0.63 s, sys: 0.06 s, total: 0.69 s
 Wall time: 0.89 s
  }}}
 
- * Pretty plot of graphs with multiedges (Emily Kirkman) -- A plot of a multiedge graph can be found [[http://trac.sagemath.org/sage_trac/attachment/ticket/3541/trac_3541-multiedge-graph-example-plot.png|here]].
+ * Pretty plot of graphs with multiedges (Emily Kirkman) -- A plot of a multiedge graph can be found in [[attachment:multiedge-graph.png]]. The plot is produced using the following code from the docstring of {{{sage.graphs.graph.GenericGraph.plot()}}}:
+ {{{
+sage: g = Graph({}, loops=True, multiedges=True)
+sage: g.add_edges([(0,0,'a'),(0,0,'b'),(0,1,'c'),(0,1,'d'), 
+...     (0,1,'e'),(0,1,'f'),(0,1,'f'),(2,1,'g'),(2,2,'h')]) 
+sage: g.plot(edge_labels=True, color_by_label=True, edge_style='dashed')
+ }}}
 
  * Improvements to the {{{Graph(...)}}} constructor for input matrices Robert L. Miller) --  This is an overhaul of the {{{Graph}}} and {{{DiGraph}}} initialization functions. Among other things, one can now naturally convert between {{{Graph}}} and {{{DiGraph}}}.
 
