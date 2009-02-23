@@ -1,6 +1,6 @@
 = Sage 3.3 Release Tour =
 
-Sage 3.3 was released on FIXME. For the official, comprehensive release note, see [[http://www.sagemath.org/src/announce/sage-3.3.txt|sage-3.3.txt]]. The following points are some of the foci of this release:
+Sage 3.3 was released on February 21st, 2009. For the official, comprehensive release note, see [[http://www.sagemath.org/src/announce/sage-3.3.txt|sage-3.3.txt]]. The following points are some of the foci of this release:
 
  * Clean up various doctest failures from 3.2.3
  * Fix some build issues from 3.2.3 on the new set of supported images
