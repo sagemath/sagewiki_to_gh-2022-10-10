@@ -363,16 +363,37 @@ sage: region_plot(sin(x) * sin(y) >= 1/4, (-10,10), (-10,10), incol='yellow', bo
 
  * Polar plot syntax (Jason Grout) -- Polar plot now accepts the syntax {{{(t, 0, 2*pi)}}} for the interval.
 
- * New function {{{density_plot()}}} and improved colour map handling (Arnaud Bergeron) -- The new function {{{density_plot()}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Also, some improvements on how color map is handled. Here's [[http://trac.sagemath.org/sage_trac/attachment/ticket/4878/trac_4878-sample-plot-bw.png|an example image]] in grayscale produced using the following code:
+ * New function {{{density_plot()}}} and improved colour map handling (Arnaud Bergeron) -- The new function {{{density_plot()}}} takes a function of two variables and plots contour lines of the function over two specified ranges. Also, some improvements on how color map is handled. Here's a density plot in grayscale, [[attachment:density-plot-bw.png]], produced using the following code:
  {{{
-sage: x,y = var('x,y')
-sage: density_plot(sin(x)*sin(y), (-2, 2), (-2, 2))
+sage: x,y = var('x, y')
+sage: density_plot(sin(x) * sin(y), (-2, 2), (-2, 2))
  }}}
- A sample image in colour can be found [[http://trac.sagemath.org/sage_trac/attachment/ticket/4878/4878_example.png|here]].
+ A sample plot in colour, [[attachment:density-plot-colour.png]], is produced using the following code:
+ {{{
+sage: density_plot(sin(x^2 + y^2) * cos(x) * sin(y), (-4, 4), (-4, 4), cmap='jet', plot_points=100)
+ }}}
 
  * 3-D polygon (Arnaud Bergeron) -- The new function {{{polygon3d()}}} allows for plotting of 3-D polygons.
 
- * Fill option for {{{plot()}}}, {{{polar_plot()}}} and {{{parametric_plot()}}} (Wilfried Huss, Karl-Dieter Crisman, Michael Abshoff) -- Added new options "fill", "fillcolor", and "fillalpha" to the plot family of functions. These new fill options allow users to fill the area between two functions in a plot, or to fill the area between the function and the x-axis. The syntax for the new fill option is similar to what Mathematica uses. Here's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/4976/fill1.png|sample plot]] using the new fill option.
+ * Fill option for {{{plot()}}}, {{{polar_plot()}}} and {{{parametric_plot()}}} (Wilfried Huss, Karl-Dieter Crisman, Michael Abshoff) -- Added new options "fill", "fillcolor", and "fillalpha" to the plot family of functions. These new fill options allow users to fill the area between two functions in a plot, or to fill the area between the function and the x-axis. The syntax for the new fill option is similar to what Mathematica uses. Here's a fill plot, [[attachment:fill-plot.png]], produced using the following code:
+ {{{
+maxima.load('interpol')
+
+def f(x):
+    return RDF(1 / (1 + 25 * x^2))
+
+def runge():
+    g = plot(f, -1, 1, rgbcolor='red', thickness=1)
+    polynom = []
+    for i, n in enumerate([6, 8, 10, 12]):
+        data = [(x, f(x)) for x in xsrange(-1, 1, 2 / (n - 1), include_endpoint=True)]
+        polynom.append(maxima.lagrange(data).sage())
+        g += list_plot(data, rgbcolor='black', pointsize=5)
+    g += plot(polynom, -1, 1, fill=f, fillalpha=0.2, thickness=0)
+    return g
+
+runge().show(ymin=0, ymax=1)
+ }}}
 
 == Group Theory ==
 
