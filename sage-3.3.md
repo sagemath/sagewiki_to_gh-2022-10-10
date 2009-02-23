@@ -550,14 +550,11 @@ Wall time: 9.97 s
 
  * OSX 64-bit (Michael Abshoff) -- Added proper {{{libcsage}}} build support, and [[http://www.singular.uni-kl.de|Singular]] is now built using the flag {{{--with-malloc=system}}}.
 
-== Solaris ==
+ * Upgrade [[http://directory.fsf.org/project/libgcrypt|libgcrypt]] to version 1.4.3 upstream release and force the function {{{get_memory_usage()}}} to fall back to using {{{top}}} when not on Linux (Michael Abshoff) -- This is part of the Solaris port.
 
- * Upgrade [[http://directory.fsf.org/project/libgcrypt|libgcrypt]] to version 1.4.3 upstream release and force the function {{{get_memory_usage()}}} to fall back to using {{{top}}} when not on Linux (Michael Abshoff).
-
-== User Interface ==
-
- * Added a {{{hg_examples}}} Mercurial wrapper for the examples repository (Mike Hansen).
 
 == Website/Wiki ==
 
- * The trac server now displays the comments of a Mercurial diff (Robert Bradshaw).
+ * The trac server now displays the comments of a Mercurial diff (Robert Bradshaw) -- Here's a screenshot, [[attachment:trac-better-diff.png]], showing Mercurial diff comments when viewing patches on the trac server.
+
+ * Added a {{{hg_examples}}} Mercurial wrapper for the examples repository (Mike Hansen).
