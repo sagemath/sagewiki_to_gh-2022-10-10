@@ -7,7 +7,6 @@ Sage 3.3 was released on February 21st, 2009. For the official, comprehensive re
  * Merge small to medium sized patches ready to go in
  * Switch to [[http://www.mpir.org|MPIR]] for multi-precision integers and rationals
  * Update the [[http://www.mpir.org/|gmp-mpir]] spkg
- * Upgrade [[http://www.python.org|Python]] to version 2.5.4 upstream release
  * Switch to [[http://www.flintlib.org|FLINT]] for univariate polynomial arithmetic over {{{Z/nZ}}}
  * Upgrade [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
  * Upgrade [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
@@ -549,8 +548,6 @@ Wall time: 9.97 s
  * Upgrade [[http://jmol.sourceforge.net|Jmol]] to version 11.6 upstream release (Michael Abshoff).
 
  * Upgrade [[http://matplotlib.sourceforge.net|matplotlib]] to version 0.98.5.3-svn6910 upstream release (Jason Grout, Michael Abshoff).
-
- * Upgrade [[http://www.python.org|Python]] to version 2.5.4 upstream release (Michael Abshoff).
 
  * Upgrade [[http://www.libpng.org|libpng]] to version 1.2.34 upstream release (Michael Abshoff).
 
