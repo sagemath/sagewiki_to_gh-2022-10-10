@@ -4495,6 +4495,10 @@ tarkus01\.by\.ru
 newsmaestro
 7vee\.info
 shoeshome\.net
+desiresecrets\.com
+toyline\.net
+sexyfancy\.net
+pleasuretoys\.biz
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
