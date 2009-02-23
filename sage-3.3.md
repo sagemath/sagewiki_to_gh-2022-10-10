@@ -238,7 +238,7 @@ sage: get_memory_usage()
 
 == Calculus ==
 
- * LaTeX output (Mike Hansen) -- Added LaTeX output for ceiling, floor, and derivative functions, and LaTaX'ing of powers of negative numbers.
+ * LaTeX output (Mike Hansen) -- Added LaTeX output for ceiling, floor, and derivative functions, and LaTeX'ing of powers of negative numbers.
 
  * Make {{{bernoulli_polynomial()}}} independent of Maxima (Craig Citro) -- A rewrite of {{{bernoulli_polynomial()}}} to avoid using Maxima completely in computing Bernoulli polynomials. This gives roughly a factor of 10 speed-up.
 
