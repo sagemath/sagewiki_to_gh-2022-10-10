@@ -11,7 +11,7 @@ Sage 3.3 was released on February 21st, 2009. For the official, comprehensive re
  * Upgrade [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
  * Upgrade [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
  * Some improvements to the [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]] spkg
- * Pynac interface enhancements
+ * [[spkg/pynac|Pynac]] interface enhancements
  * Update the [[http://tiswww.case.edu/php/chet/readline/rltop.html|readline]] spkg
  * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg
  * Upgrade [[http://math-atlas.sourceforge.net|ATLAS]] to version 3.8.3 upstream release
@@ -245,7 +245,7 @@ sage: get_memory_usage()
 
  * CPU time of a Maxima session (Martin Albrecht) -- The new function {{{cputime()}}} in {{{sage.interfaces.maxima.py}}} returns the amount of CPU time used by a Maxima session.
 
- * Pynac interface enhancements (Burcin Erocal) -- New enhancements to the Pynac interface include:
+ * [[spkg/pynac|Pynac]] interface enhancements (Burcin Erocal) -- New enhancements to the Pynac interface include:
      * Add the method {{{operator()}}} to {{{sage.symbolic.expression.pyx}}} to return the top-most operator in an expression.
      * Allow Pynac symbolic variables as arguments to {{{factorial()}}} and {{{binomial()}}}.
      * Iterator support to {{{sage.symbolic.expression.Expression}}}.
