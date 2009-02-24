@@ -329,7 +329,7 @@ sage: timeit('C.spectrum()')
 
  * GAP configuration file (Matthias Meulien) -- A user's local GAP configuration file is usually named {{{$HOME/.gaprc}}}. When such a file already exists and Sage is compiled from source, using the Sage interface to GAP, e.g. {{{gap._eval_line('1+3;')}}}, can result in gibberish. This is now fixed so that the GAP interface would output a comprehensible message/answer as a result of some GAP calculation.
 
- * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. The clickable Mac application launcher can be built using {{{-bdist}}} on OSX. A screenshot of a Sage Mac OSX clickable app in action can be found in [[attachment:sage-OSX-app.png]].
+ * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. The clickable Mac application launcher can be built using {{{-bdist}}} on OSX. A screenshot of a Sage Mac OSX clickable app in action can be found in [[attachment:sage-osx-app.png]].
 
  * Port to 64-bit OSX 10.5 (Michael Abshoff).
 
