@@ -11,7 +11,7 @@ Sage 3.3 was released on February 21st, 2009. For the official, comprehensive re
  * Upgrade [[http://networkx.lanl.gov|NetworkX]] to version 0.99 upstream release
  * Upgrade [[http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html|cddlib]] to version 0.94f upstream release
  * Some improvements to the [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrs]] spkg
- * [[spkg/pynac|PyNaC]] interface enhancements
+ * Pynac interface enhancements
  * Update the [[http://tiswww.case.edu/php/chet/readline/rltop.html|readline]] spkg
  * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg
  * Upgrade [[http://math-atlas.sourceforge.net|ATLAS]] to version 3.8.3 upstream release
@@ -245,14 +245,14 @@ sage: get_memory_usage()
 
  * CPU time of a Maxima session (Martin Albrecht) -- The new function {{{cputime()}}} in {{{sage.interfaces.maxima.py}}} returns the amount of CPU time used by a Maxima session.
 
- * PyNaC interface enhancements (Burcin Erocal) -- New enhancements to the PyNaC interface include:
+ * Pynac interface enhancements (Burcin Erocal) -- New enhancements to the Pynac interface include:
      * Add the method {{{operator()}}} to {{{sage.symbolic.expression.pyx}}} to return the top-most operator in an expression.
-     * Allow PyNaC symbolic variables as arguments to {{{factorial()}}} and {{{binomial()}}}.
+     * Allow Pynac symbolic variables as arguments to {{{factorial()}}} and {{{binomial()}}}.
      * Iterator support to {{{sage.symbolic.expression.Expression}}}.
-     * Allow substituting more than one variable in PyNaC expressions. 
+     * Allow substituting more than one variable in Pynac expressions. 
      * New function {{{collect_common_factors()}}} to {{{sage.symbolic.expression.Expression}}}. 
      * LaTeX printing.
-     * Allow PyNaC symbolics to be used in {{{CallableSymbolicExpressions}}}. 
+     * Allow Pynac symbolics to be used in {{{CallableSymbolicExpressions}}}. 
 
  * Indefinite integration for piecewise functions (Paul Butler).
 
@@ -535,7 +535,7 @@ Wall time: 9.97 s
 
  * Upgrade [[http://www.selenic.com/mercurial/wiki|Mercurial]] to version 1.1.2 upstream release (Mike Hansen).
 
- * OS X 64-bit (Michael Abshoff) -- Added 64-bit build support for [[http://sourceforge.net/projects/pynac|PyNaC]], [[http://www.r-project.org|R]], [[http://ghmm.sourceforge.net|GHMM]], and [[http://bdwgc.sourceforge.net|Boehm GC]]. Also added {{{fortran-OSX64-20090120.spkg}}} to the experimental spkg repository.
+ * OS X 64-bit (Michael Abshoff) -- Added 64-bit build support for Pynac, [[http://www.r-project.org|R]], [[http://ghmm.sourceforge.net|GHMM]], and [[http://bdwgc.sourceforge.net|Boehm GC]]. Also added {{{fortran-OSX64-20090120.spkg}}} to the experimental spkg repository.
 
  * Upgrade [[http://ipython.scipy.org/moin|IPython]] to version 0.9.1 upstream release (Mike Hansen).
 
