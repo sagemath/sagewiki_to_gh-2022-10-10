@@ -233,7 +233,7 @@ sage: get_memory_usage()
 
  * Update readline spkg (Michael Abshoff) -- The updated readline spkg allows readline-5.2 to be built on the 64-bit version of OpenSUSE 11.1.
 
- * Update the [[http://www.mpir.org/|gmp-mpir]] spkg (Michael Abshoff) -- The new spkg version 0.9 fixes various build issues on MacIntel architectures.
+ * Update the [[http://www.mpir.org/|gmp-mpir]] spkg (Michael Abshoff) -- The new spkg version 0.9 fixes various build issues on MacIntel architectures. [[http://www.mpir.org|MPIR]] is a library supporting multiprecision integers and rationals, based on the [[http://gmplib.org|GMP (GNU Multi Precision)]] project.
 
 == Calculus ==
 
