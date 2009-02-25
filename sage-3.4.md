@@ -29,7 +29,15 @@ All tickets in the 3.4 milestone can be found on the [[http://trac.sagemath.org/
 
 == Numerical ==
 
+
 == Packages ==
+
+
+ * Update the [[http://www.gnupg.org/index.en.html|libgcrypt]] spkg to {{{libgcrypt-1.4.3.p0.spkg}}} (Michael Abshoff) -- Originally based on Gnu Privacy Guard (GnuPG), libgcrypt is a general purpose library of cryptographic primitives. As such, it does not provide an implementation of any cryptographic protocols, but rather serves as a collection of cryptographic building blocks.
+
+
+ * Update the [[http://www.python.org|Python]] spkg to {{{python-2.5.2.p9.spkg}}} (Michael Abshoff) -- Python is a general purpose, object oriented programming language. Together with various other open source components, Python serves as a fundamental tool that unify the components of Sage under a common interface.
+
 
 == Porting ==
 
