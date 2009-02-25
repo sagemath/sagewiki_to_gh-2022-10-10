@@ -522,7 +522,19 @@ Wall time: 9.97 s
 
  * Elliptic curve function {{{integral_points()}}} misses some points (John Cremona) -- Francois Glineur reported that for the elliptic curve {{{20160bg2}}}, the output of {{{integral_points()}}} misses the points {{{x = 168}}} and {{{x = 381}}}. This problem has been narrowed down to the function {{{point_preprocessing()}}}, and the bug is now fixed.
 
- * Elliptic curve (Robert Bradshaw) -- Support for the construction of an elliptic curve via a Weierstrass equation. The Weierstrass equation can be passed as an argument to {{{EllipticCurve()}}}.
+ * Elliptic curve (Robert Bradshaw) -- Support for the construction of an elliptic curve via a Weierstrass equation. The Weierstrass equation can be passed as an argument to {{{EllipticCurve()}}}. For example, to construct the elliptic curve {{{y^2 = x^3 - x}}}, one can now do the following:
+ {{{
+sage: x, y = var("x, y")
+sage: ellW = EllipticCurve(y^2 == x^3 - x)
+sage: ellW.plot()
+ }}}
+ to get the plot in [[attachment:elliptic-curve.png]]. Previously, if one is not familiar with the Cremona database, the above elliptic curve would very likely be constructed by passing in its a-invariants as follows:
+ {{{
+sage: ellA = EllipticCurve([0, 0, 0, -1, 0])
+sage: ellA == ellW
+True
+ }}}
+ where the a-invariants of a general elliptic curve are specified in {{{y^2 + a_1 xy + a_3 y = x^3 + a_2 x^2 + a_4 x + a_6}}}.
 
  * Separating relative number fields from generic/absolute number fields (Nick Alexander) -- Functionalities in the module {{{sage.rings.number_field.number_field.py}}} that deal with relative number fields are now wrapped inside the new module {{{sage.rings.number_field.number_field_rel.py}}}.
 
