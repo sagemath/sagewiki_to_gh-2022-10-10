@@ -49,9 +49,14 @@ The following function should be written but are not supposed to be called direc
 
 The goal here is to be able to inherit smoothly from a combinatorial class to add extra mathematical structure (eg Poset, Group, Monoid).
 
- * By default each element created by a combinatorial class should have a parent by default. It seems to me that this should be that largest combinatorial class which has no constraints (Permutations and not Permutations(4) for example). This should be simple to change this behavior. 
- * In case where we want to add more structure, We inherits from the combinatorial class. But the class of the element has to be changed. Therefore, elements should be constructed by an overloadable function and never by calling directly a class name. {{{_element_constructor_}}} seems to be sage default.
- 
+ * Every combinatorial object created by a combinatorial class should have a parent. By default, this parent should be the largest combinatorial class containing this object (Permutations and not Permutations(4) for example). 
+
+ * It should be easy to specify an alternative parent. Typically when one want to add more structure.
+
+ * By default, this should be done by deriving a subclass, and overloading _element_constructor_. As a syntactical sugar, and in the often used use-cases where creating a new class would be inconvenient, one can instead pass the parent as an optional argument: {{{Permutations(4, element_constructor=Permutations())}}} (or {{{parent=...}}}?). 
+
+ * In general, the element_constructor (say in {{{CC(5, element_constructor=constr))}}} is a gadget allowing to construct objects; it does not necessarily need to be a parent; it could just be a class, a function, a callable, ... Also, how constr is actually used by CC is specified by CC. Most of the time that will be constr(some data). But when, for example, the elements of CC are tree-like objects, we could imagine CC using constr as {{{constr.leaf(label=3)}}}, or {{{constr.node(label=3, [child1, child2])}}}
+
     Let me give an example: I want to construct the symmetric group {{{SG4}}} from the CClass {{{Permutations(4)}}} (what an original example :-). I clearly want to write {{{SG4.count()}}} and {{{SG4.list()}}}. A good way to do this is that the OOClass of {{{SG4}}} (says {{{SymGroup}}} for short) inherits from the OOClass Permutations. But we have to be careful that {{{SG4.list()}}} construct instance of {{{SG4.element_class}}} (whatever it is) with parents {{{SG4}}} and not instance of {{{Permutation}}} with parent {{{Permutations()}}}.  
 
  A solution is to set two (lazy)_attribute in the combinatorial class named {{{element_class}}} and {{{element_parent}}}, and to define 
