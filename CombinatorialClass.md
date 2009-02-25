@@ -51,7 +51,7 @@ The goal here is to be able to inherit smoothly from a combinatorial class to ad
 
  * Every combinatorial object created by a combinatorial class should have a parent. By default, this parent should be the largest combinatorial class containing this object (Permutations and not Permutations(4) for example). 
 
- * It should be easy to specify an alternative parent. Typically when one want to add more structure.
+ * It should be easy to specify an alternative parent. Typical use case: adding a group structure on Permutations(4).
 
  * By default, this should be done by deriving a subclass, and overloading _element_constructor_. As a syntactical sugar, and in the often used use-cases where creating a new class would be inconvenient, one can instead pass the parent as an optional argument: {{{Permutations(4, element_constructor=Permutations())}}} (or {{{parent=...}}}?). 
 
