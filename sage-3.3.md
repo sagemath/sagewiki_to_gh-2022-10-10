@@ -1,6 +1,6 @@
 = Sage 3.3 Release Tour =
 
-Sage 3.3 was released on February 21st, 2009. For the official, comprehensive release note, see [[http://www.sagemath.org/src/announce/sage-3.3.txt|sage-3.3.txt]]. The following points are some of the foci of this release:
+Sage 3.3 was released on February 21st, 2009. For the official, comprehensive release note, see [[http://www.sagemath.org/src/announce/sage-3.3.txt|sage-3.3.txt]]. There's also a [[http://mvngu.wordpress.com/2009/02/23/sage-33-released|beautifully formatted version]] of this release tour. The following points are some of the foci of this release:
 
  * Clean up various doctest failures from 3.2.3
  * Fix some build issues from 3.2.3 on the new set of supported images
@@ -329,7 +329,24 @@ sage: timeit('C.spectrum()')
 
  * GAP configuration file (Matthias Meulien) -- A user's local GAP configuration file is usually named {{{$HOME/.gaprc}}}. When such a file already exists and Sage is compiled from source, using the Sage interface to GAP, e.g. {{{gap._eval_line('1+3;')}}}, can result in gibberish. This is now fixed so that the GAP interface would output a comprehensible message/answer as a result of some GAP calculation.
 
- * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. The clickable Mac application launcher can be built using {{{-bdist}}} on OSX. A screenshot of a Sage Mac OSX clickable app in action can be found in [[attachment:sage-osx-app.png]].
+ * An OSX Sage launcher (Ivan Andrus, Karl-Dieter Crisman) -- Support for building a clickable Sage launcher on Mac OSX. With the source distribution of Sage 3.3, creating a clickable Mac OSX app is as easy as 1-2-3:
+  1. Download and extract [[http://www.sagemath.org/download.html|sage-3.3.tar]] to a directory that you have write access:
+  {{{
+tar -xvf sage-3.3.tar -C /path/to/preferred/dir
+  }}}
+
+  1. Nagivate to the top level directory of the uncompressed source distribution, and compile Sage 3.3 from there:
+  {{{
+cd SAGE_ROOT/
+make  # be patient here. Go get a drink or something.
+make test  # this is optional. Be very patient here, if you do this.
+  }}}
+
+  1. Now create a binary OSX clickable app:
+  {{{
+./sage -bdist 3.3  # this can take a while
+  }}}
+  After the system has completed building the binary version, you can find the binaries in {{{SAGE_ROOT/dist}}}. A screenshot of a Sage Mac OSX clickable app in action can be found in [[attachment:sage-osx-app.png]].
 
  * Port to 64-bit OSX 10.5 (Michael Abshoff).
 
