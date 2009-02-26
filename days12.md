@@ -116,3 +116,4 @@ Though a small group will focus on discussing and implementation Jean-Charles Fa
 
 == Pictures ==
  * by [[http://www.flickr.com/photos/martinralbrecht/tags/sagedays12/|Martin Albrecht]]
+ * by [[http://picasaweb.google.com/wstein/SageDays12InSanDiego|William Stein]]
