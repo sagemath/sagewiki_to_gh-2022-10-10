@@ -55,7 +55,7 @@ This used to be a module of Polymake, but AFAIK it was removed due to build prob
 
 <<Anchor(palmieri)>>
 === Patch of John Palmieri ===
-The patch is [[http://sage.math.washington.edu/home/palmieri/homology.patch|here]]. John, could you provide a link to the corresponding ticket once you open it?
+The patch is on the Trac server [[http://trac.sagemath.org/sage_trac/ticket/5386|here]].
 
 <<Anchor(plex)>>
 === Plex ===
