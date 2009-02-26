@@ -13,7 +13,7 @@ Timeline:
 
 The official ticket for this is at http://trac.sagemath.org/sage_trac/ticket/2314
 
-There is a public repository up at http://sage.math.washington.edu/home/robertwb/sage-coerce-3.0.3/devel/sage-main-old .
+There is a repository up at http://sage.math.washington.edu/home/robertwb/sage-coerce-3.0.3/devel/sage-main-old .
 
 Our goal: to clarify and ease the process of writing a new ring/combinatorial class/special kind of matrix while adding mathematical structure and lessening the need for code duplication.
 
