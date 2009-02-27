@@ -1,12 +1,15 @@
 = Schedule for SAGE DAYS 13 at UGA =
 
+Talks on saturday and sunday will be at the Student Learning Center room #267, we have room #268 also reserved for us all day on sat-sun.
+The coding sessions after dinner will be at the Georgia Center. Monday we will meet at the Student Learning Center North Tower.
+
 Friday Feb 27th:
 
   *  Afternoon/Evening – Check-in at the Georgia Center
   *   6:30pm – Dinner for those in town.
  
 
-Saturday Feb 28th: (Student Learning Center room #267)
+Saturday Feb 28th:
 
  * 10-11am Talk: “Introduction to SAGE” (Stein)
  * 11am-Noon Talk:  “Introduction to Computing with Quadratic Forms/Lattices” (Hanke)
@@ -19,7 +22,7 @@ Saturday Feb 28th: (Student Learning Center room #267)
  * 7:30pm – Late:  Coding Session at Georgia Center
 
 
-Sunday March 1st: (Student Learning Center room #267)
+Sunday March 1st:
 
   *    10-11am Talk:  “Introduction to SAGE Development” (Abshoff)
   *  11am-Noon Talk:  “Genera of Lattices” (Nebe/Scharlau)
