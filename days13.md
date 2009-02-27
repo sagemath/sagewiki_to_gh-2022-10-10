@@ -6,7 +6,7 @@
 
 == Schedule ==
 
-Preliminary [[days13/schedule|schedule]]:
+Preliminary [[days13/schedule|schedule]]
 
 == Location ==
 
