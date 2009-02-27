@@ -14,7 +14,7 @@ Saturday Feb 28th:
  * 10-11am Talk: “Introduction to SAGE” (Stein)
  * 11am-Noon Talk:  “Introduction to Computing with Quadratic Forms/Lattices” (Hanke)
  * Noon-2pm Lunch Break
- * 2-3pm Talk:  “Introduction to Computing with Quaternion Algebras” (Voight)
+ * 2-3pm Talk:  “Algorithms for Enumerating Ideal Classes in Quaternion Orders” (Voight)
  * 3pm – 3:30pm – Discuss project ideas and Break into working groups
  * 3:30pm – 5pm – Work in groups on SAGE Code
  * 5 – 5:30pm – Status Reports
