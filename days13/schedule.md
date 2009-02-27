@@ -1,9 +1,9 @@
 = Schedule for SAGE DAYS 13 at UGA =
 
-Talks on saturday and sunday will be at the Student Learning Center (http://www.slc.uga.edu/directions/index.html) room #267, we have room #268 also reserved for us all day on sat-sun.
+Talks on saturday and sunday will be at the [[http://www.slc.uga.edu/directions/index.html|Student Learning Center]] room #267, we have room #268 also reserved for us all day on sat-sun.
 The coding sessions after dinner will be at the Georgia Center. Monday we will meet at the Student Learning Center North Tower.
 
-To get to the Student Learning Center from the Georgia Center, just walk up Lumpkin Street (http://maps.google.com/maps?f=d&source=s_d&saddr=georgia+center-uga&daddr=Bldg.+0081,+48+Baxter+St.,+Athens,+GA+30602+(Student+Learning+Center)&geocode=FfXzBQIdL7kH-yGwPsVHdQ3PYw%3BCbuwNibzyWq6FdYNBgIdS8gH-yHNsvPikPCGjw&hl=en&mra=pe&mrcr=0&dirflg=w&sll=33.975705,-83.37528&sspn=0.136091,0.2211&ie=UTF8&z=16).
+To get to the Student Learning Center from the Georgia Center, just [[http://maps.google.com/maps?f=d&source=s_d&saddr=georgia+center-uga&daddr=Bldg.+0081,+48+Baxter+St.,+Athens,+GA+30602+(Student+Learning+Center)&geocode=FfXzBQIdL7kH-yGwPsVHdQ3PYw%3BCbuwNibzyWq6FdYNBgIdS8gH-yHNsvPikPCGjw&hl=en&mra=pe&mrcr=0&dirflg=w&sll=33.975705,-83.37528&sspn=0.136091,0.2211&ie=UTF8&z=16|walk up Lumpkin Street]].
 
 Friday Feb 27th:
 
