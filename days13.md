@@ -4,6 +4,10 @@
 
  * Feb 28 - March 2, 2009
 
+== Schedule ==
+
+
+
 == Location ==
 
 The event will be held at the [[http://www.uga.edu/visit/directions.html|University of Georgia]] at Athens.
@@ -14,7 +18,7 @@ We have a block of rooms for the conference reserved at the [[http://www.georgia
 
 The preferred way of getting to Athens is to fly into Atlanta (ATL), and then take the [[http://www.aaaairportexpress.com/routes/athens.html|AAA Shuttle express]] shuttle to the Georgia center.  The shuttle takes about 1.5 hours and costs about $45 each way.  Since the shuttle sometimes fills up, it is recommended that you call ahead and make both arrival and departure reservations.  The shuttle phone number is (800) 354-7874 or (404) 767-2000.
 
-We recommend that you arrive on Friday Feb 28th, and there will be an informal dinner at a local restaurant for those who arrive on/before the 4:45pm shuttle (arrives 6:30pm to UGA).
+We recommend that you arrive on Friday Feb 27th, and there will be an informal dinner at a local restaurant for those who arrive on/before the 4:45pm shuttle (arrives 6:30pm to UGA).
 
 == Organizers ==
 
