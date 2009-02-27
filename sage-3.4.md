@@ -41,7 +41,13 @@ All tickets in the 3.4 milestone can be found on the [[http://trac.sagemath.org/
 
 == Porting ==
 
+
 == Quadratic Forms ==
+
+
+ * Merge Jon Hanke's quadratic forms code (Gonzalo Tornaria, Michael Abshoff) -- John Hanke has written a substantial amount of Sage code for working with [[http://en.wikipedia.org/wiki/Quadratic_forms|quadratic forms]]. Hanke's code can serve as base for further enhancement to the case of binary quadratic forms, which are quadratic forms involving two variables. There are currently a number of patches on the trac server for enhancing the functionalities of binary quadratic forms.
+
+
 
 == Solaris ==
 
