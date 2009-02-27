@@ -6,7 +6,7 @@
 
 == Schedule ==
 
-Preliminary schedule: [[attachment:SD13+Tentative+schedule+(as+of+2-17-2009).pdf]]
+Preliminary [[days13/schedule|schedule]]: [[attachment:SD13+Tentative+schedule+(as+of+2-17-2009).pdf]]
 
 == Location ==
 
