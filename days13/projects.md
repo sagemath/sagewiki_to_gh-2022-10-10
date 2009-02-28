@@ -56,6 +56,8 @@ Two PDFs:
 
 == Octonions and Cubes ==
   PEOPLE: J. Hanke, M. Weissman, Jim S.
- 
-  
-  
+
+== Discussion on structures for quadratic forms and lattices
+  PEOPLE: all
+
+    [[/structure|More details]]
