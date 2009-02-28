@@ -1,5 +1,7 @@
 = Reimplement Basic Quaternion Algebra Arithmetic =
 
+<<TableOfContents>>
+
 PEOPLE: 
   * William Stein
   * Justin Walker
