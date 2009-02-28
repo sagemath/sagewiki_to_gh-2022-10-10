@@ -11,6 +11,7 @@ Below a list of proposed projects
 == Sage For Newbies ==
  PEOPLE: Erik, A. Deines, S. Sourov, P. Clark
 
+ [[/sagenewbiew|More details]]
 
 == Reimplement Basic Quaternion Algebra Arithmetic ==
  PEOPLE: W. Stein, J. Bober, J. Voight
