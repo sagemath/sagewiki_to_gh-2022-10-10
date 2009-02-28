@@ -4,6 +4,10 @@
 
 Below a list of proposed projects
 
+== Reimplement Basic Quaternion Algebra Arithmetic ==
+
+[[/quatalg|More details]]
+
 == ZAK code integration ==
 
 To quote the Introduction of the ZAK software survey by Rainer Schulze-Pillot (linked below as PDF):
