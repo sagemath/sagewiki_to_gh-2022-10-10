@@ -8,12 +8,17 @@
 Below a list of proposed projects
 
 
+== Sage For Newbies ==
+ PEOPLE: Erik, A. Deines, S. Sourov, P. Clark
+
 
 == Reimplement Basic Quaternion Algebra Arithmetic ==
+ PEOPLE: W. Stein, J. Bober, J. Voight
 
-[[/quatalg|More details]]
+ [[/quatalg|More details]]
 
 == ZAK code integration ==
+PEOPLE: M. Abshoff
 
 To quote the Introduction of the ZAK software survey by Rainer Schulze-Pillot (linked below as PDF):
 {{{
@@ -40,6 +45,17 @@ Two PDFs:
  * Schulze-Pillot's 1991 article on the neighbour method: [[attachment:issac3b.pdf]] (hard to find in libraries)
  * Schulze-Pillot's survey of ZAK related code: [[attachment:schulzepillot_qfcomputing_zak.pdf]]
 
-== Tutorial / documentation ==
-
 == Maps, e.g. abelian groups to set of ideals for class groups ==
+  PEOPLE: S. Pauli
+
+== Neighbor Method ==
+  PEOPLE: G. Nebe, J. Hanke, Scharlau
+
+== Trac #4120 -- Binary Quadratic Forms ==
+  PEOPLE: J. Walker, Farbod
+
+== Octonions and Cubes ==
+  PEOPLE: J. Hanke, M. Weissman, Jim S.
+ 
+  
+  
