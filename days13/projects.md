@@ -37,3 +37,5 @@ Two PDFs:
 
  * Schulze-Pillot's 1991 article on the neighbour method: [[attachment:issac3b.pdf]] (hard to find in libraries)
  * Schulze-Pillot's survey of ZAK related code: [[attachment:schulzepillot_qfcomputing_zak.pdf]]
+
+== Tutorial / documentation ==
