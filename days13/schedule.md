@@ -1,5 +1,7 @@
 = Schedule for SAGE DAYS 13 at UGA =
 
+'''For the main SD 13 wiki page go [[days13|here]]'''
+
 Talks on saturday and sunday will be at the [[http://www.slc.uga.edu/directions/index.html|Student Learning Center]] room #267, we have room #268 also reserved for us all day on sat-sun.
 The coding sessions after dinner will be at the Georgia Center. Monday we will meet at the Student Learning Center North Tower.
 
