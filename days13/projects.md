@@ -7,6 +7,9 @@
 
 Below a list of proposed projects
 
+
+== Maps, e.g. abelian groups to set of ideals for class groups ==
+
 == Reimplement Basic Quaternion Algebra Arithmetic ==
 
 [[/quatalg|More details]]
