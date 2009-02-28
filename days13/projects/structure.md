@@ -1,0 +1,33 @@
+Scharlau's talk:
+
+== Basic structure & operations ==
+ * $R$ ground ring, e.g. $R = ZZ_F$
+ * $F$ is the quotient ring of $R$
+ * $V$ a vector space over $F$
+ * quadratic module $(L,b)$ where
+  * $L\subseteq V$ is a f.g. $R$-module s.t. $FL=V$
+  * $b : L\times L\rightarrow F$ symmetric bilinear form
+
+=== Operations ===
+
+ * scaling : $^\tau(L,b) := (L, \tau b)$
+ * multiplying : $\tau\cdot(L,b) := (\tau L, b)$
+ * dualizing: $(L,b)^\# := (L^\#, b)$
+  $L^\# := \{ y\in V \;:\; b(x,y)\in R \forall x\in L \}$
+ * intersection: $L\cap M$
+ * sum $L+M$
+ * sublattices
+  * defined by generators
+  * defined by congruences
+     $L_{v,p} := \{x\in L \;:\; b(v,x) \in pR \}$
+    for $p$ an ideal of $R$, $v\in L^\#$.
+ * radical modulo $p$
+
+=== Example ===
+
+ * "partial dual" of $(L,b)$
+  $m\in F$, then $D_m(L,b) := (L^\#\cap m^{-1} L, mb)$.
+ typically, $L\subseteq L^\#$ and $m\mid level(L,b)$
+  (here $level(L,b):=exponent(L^\#/L)$.)
+  * remark: for $\Theta_L$, $D_p$ induces the Atkin-Lehner involution.
+ 
