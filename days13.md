@@ -6,7 +6,11 @@
 
 == Schedule ==
 
-Preliminary [[days13/schedule|schedule]]
+See the [[days13/schedule|schedule]] page.
+
+== Projects ==
+
+See the [[days13/projects|projects]] page.
 
 == Location ==
 
