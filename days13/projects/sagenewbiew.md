@@ -1,4 +1,6 @@
 Describe days13/projects/sagenewbiew here.
+LINKS:
+http://docutils.sourceforge.net/rst.html
 
 Sage Tutorial
 
@@ -125,4 +127,3 @@ ii.	diagonal quadratic forms; sums of squares (ENT p. 25)
 4.	Elliptic curves and congruent numbers (chapter 6, stein)
 
 iii.	Pell’s Equation (?)
-
