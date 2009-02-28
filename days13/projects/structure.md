@@ -1,4 +1,4 @@
-<<TableOfContents>
+<<TableOfContents>>
 
 = Scharlau's talk =
 
