@@ -4,7 +4,7 @@ Below a list of proposed projects
 
 == ZAK code integration ==
 
-To quote Rainer Schulze-Pillot:
+To quote the Introduction of the ZAK software survey by Rainer Schulze-Pillot (linked below as PDF):
 {{{
 In the 1990s Rudolf Scharlau and I had a joint project concerned with computations
 for and with integral quadratic (and later also hermitian) forms over Z and also over
@@ -23,3 +23,8 @@ All experiments I did now are under Linux (Suse 11.0) using gcc 4.3. The present
 new interest in such computations, in particular in the SAGE project, raises the
 question whether it is worthwhile (and possible) to revive these programs.
 }}}
+
+Two PDFs:
+
+ * Schulze-Pillot's 1991 article on the neighbour method: [[attachment:issac3b.pdf]] (hard to find in libraries)
+ * Schulze-Pillot's survey of ZAK related code: [[attachment:schulzepillot_qfcomputing_zak.pdf]]
