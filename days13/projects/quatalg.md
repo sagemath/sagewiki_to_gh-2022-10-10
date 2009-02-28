@@ -4,7 +4,15 @@ PEOPLE:
   * William Stein
   * Justin Walker
 
-Basic arithmetic in quaternion algebras in Sage is very bad.  For example consider the following:
+Basic arithmetic in quaternion algebras in Sage is horrid since it is about 20-50 times SLOWER than Magma!  For example consider the following (see below).  Doctest coverage is not horrid:
+{{{
+quaternion_algebra.py: 37% (11 of 29)
+quaternion_algebra_element.py: 57% (12 of 21)
+quaternion_order.py: 0% (0 of 9)
+quaternion_order_element.py: 0% (0 of 8)
+quaternion_order_ideal.py: 0% (0 of 6)
+quaternion_order_ideal_element.py: 0% (0 of 1)
+}}}
 
 {{{
 %magma
@@ -69,3 +77,9 @@ print cputime(t)
 ///
 25.4950181818182
 }}}
+
+== Project goals ==
+
+  1. Bring doctest coverage of quaternion_* to 100%
+  2. Make basic arithmetic with quaternions as fast (or faster) than Magma.
+  
