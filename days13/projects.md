@@ -1,5 +1,8 @@
 = Sage Days 13 Coding Spring Projects =
 
+<<TableOfContents>>
+
+
 '''For the main SD 13 wiki page go [[days13|here]]'''
 
 Below a list of proposed projects
