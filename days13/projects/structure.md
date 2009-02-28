@@ -1,4 +1,6 @@
-Scharlau's talk:
+<<TableOfContents>
+
+= Scharlau's talk =
 
 == Basic structure & operations ==
  * $R$ ground ring, e.g. $R = ZZ_F$
