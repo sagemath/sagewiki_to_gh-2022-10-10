@@ -12,7 +12,7 @@ Major Goals:
 
 (c) Number Theory via Primes (target: Elementary Number Theory students)
 
-(d) Group Theory (target: UnderGrad Math Majors) [http://abstract.ups.edu/sage-aata.html by Rob Beezer]
+(d) Group Theory (target: Undergraduate Math Majors) [http://abstract.ups.edu/sage-aata.html by Rob Beezer]
 
 (e) Differential Calculus (target: Freshmen) [http://sage.math.washington.edu/home/wdj/teaching/calc1-sage/ by David Joyner]
 
