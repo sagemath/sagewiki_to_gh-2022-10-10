@@ -17,7 +17,7 @@ Major Goals:
 
 (f) Integral Calculus (target: Freshmen) [http://wdjoyner.com/teach/calc2-sage/hoffman-stein-calculus.pdf by Hoffman, Joyner & Stein]
 
-
+(3) Port "Sage for Newbies" to ReST
 
 ------------
 Typesetting:
