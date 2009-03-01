@@ -2,8 +2,8 @@
 Major Goals:
 
 1. SAGE as a Smart Calculator (target: Freshmen)
-[[attachment:Sage_as_a_Smart_Calculator_0.2.sws]]
 [[attachment:Sage_as_a_Smart_Calculator_0.3.sws]]
+[[attachment:Sage_as_a_Smart_Calculator_0.4.sws]]
 
 2. SAGE Primers / Tutorials for
 
