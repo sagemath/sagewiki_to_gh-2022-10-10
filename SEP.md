@@ -6,3 +6,4 @@ A SEP is a '''S'''age '''E'''enhancement '''P'''roposal.
  * [[SphinxSEP|Sphinx Documentation Conversion]] - will be implemented in Sage 3.3
  * [[GmoduleSEP|G module]] - seems to be abandoned 
  * [[LinearAlgebraSEP|Linear Algebra]] - ongoing
+ * [[SEP/primer|Primer worksheets]] - ongoing
