@@ -31,5 +31,5 @@
   $m\in F$, then $D_m(L,b) := (L^\#\cap m^{-1} L, mb)$.
  typically, $L\subseteq L^\#$ and $m\mid level(L,b)$
   (here $level(L,b):=exponent(L^\#/L)$.)
-  * remark: for $\Theta_L$, $D_p$ induces the Atkin-Lehner involution.
- 
+  * remark: for the theta series $\Theta_L$, the operator $D_p$ induces the Atkin-Lehner involution
+ * A Pari function for the partial dual, taking a Gram matrix as input
