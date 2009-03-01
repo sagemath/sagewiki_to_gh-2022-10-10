@@ -59,4 +59,4 @@ Sage-combinat is a collection of experimental patches (i.e. extensions) on top o
 
 === Documentation ===
 
- * From sage 3.4 on, the documentation system is based on ReST/Sphinx. Here are some HelpOnTheDoc
+ * From sage 3.4 on, the documentation system is based on ReST/Sphinx. Here are some [[HelpOnTheDoc|help about the new doc system]]
