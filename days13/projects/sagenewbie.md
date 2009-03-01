@@ -77,8 +77,6 @@ d.	Interact
 
 e.	Sage data types
 
-f.	Email(?)
-
 4)	Programming
 
 a.	Types, casting, relevant Sage data types
