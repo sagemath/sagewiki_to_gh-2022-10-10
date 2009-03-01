@@ -22,7 +22,8 @@ Major Goals:
 
 (g) Primer guidelines [[attachment:primer_template\example.sws]]
 
-(3) Port "Sage for Newbies" to ReST
+(3) Primer Design Principles [[attachment:primer_template\example.sws]]
+
 
 ------------
 Typesetting:
