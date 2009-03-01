@@ -1,7 +1,13 @@
+## page was renamed from days13/projects/sagenewbiew
 Major Goals:
 
 1. SAGE as a Smart Calculator (from the students' point of view)
-2. SAGE Primers
+
+2. SAGE Primers for
+
+(a) Quadratic Forms
+
+(b) 
 
 LINKS:
 
