@@ -1,4 +1,7 @@
-Describe days13/projects/sagenewbiew here.
+Major Goals:
+
+1. SAGE as a Smart Calculator (from the students' point of view)
+2. SAGE Primers
 
 LINKS:
 
