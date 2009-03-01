@@ -6,17 +6,17 @@ Major Goals:
 
 2. SAGE Primers / Tutorials for
 
-(a) Quadratic Forms (target: Arizona Winter School Participants)
+    (a) Quadratic Forms (target: Arizona Winter School Participants)
 
-(b) Number Theory via Diophantine Equations (target: Elementary Number Theory students)
+    (b) Number Theory via Diophantine Equations (target: Elementary Number Theory students)
 
-(c) Number Theory via Primes (target: Elementary Number Theory students)
+    (c) Number Theory via Primes (target: Elementary Number Theory students)
 
-(d) Group Theory (target: Undergraduate Math Majors) [http://abstract.ups.edu/sage-aata.html by Rob Beezer]
+    (d) Group Theory (target: Undergraduate Math Majors) [http://abstract.ups.edu/sage-aata.html by Rob Beezer]
 
-(e) Differential Calculus (target: Freshmen) [http://sage.math.washington.edu/home/wdj/teaching/calc1-sage/ by David Joyner]
+    (e) Differential Calculus (target: Freshmen) [http://sage.math.washington.edu/home/wdj/teaching/calc1-sage/ by David Joyner]
 
-(f) Integral Calculus (target: Freshmen) [http://wdjoyner.com/teach/calc2-sage/hoffman-stein-calculus.pdf by Hoffman, Joyner & Stein]
+    (f) Integral Calculus (target: Freshmen) [http://wdjoyner.com/teach/calc2-sage/hoffman-stein-calculus.pdf by Hoffman, Joyner & Stein]
 
 
 
