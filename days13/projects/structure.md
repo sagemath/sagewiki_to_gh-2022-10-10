@@ -33,3 +33,4 @@
   (here $level(L,b):=exponent(L^\#/L)$.)
   * remark: for the theta series $\Theta_L$, the operator $D_p$ induces the Atkin-Lehner involution
  * A Pari function for the partial dual, taking a Gram matrix as input
+[[attachment:partial_dual.gp]]
