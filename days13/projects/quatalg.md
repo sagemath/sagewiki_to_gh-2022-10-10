@@ -84,4 +84,20 @@ print cputime(t)
 
   1. Bring doctest coverage of quaternion_* to 100%
   2. Make basic arithmetic with quaternions as fast (or faster) than Magma.
+
+== Wishlist ==
+
+=== From Rainer Schulze-Pillot ===
+
+ * create  representatives for the types of maximal orders in a quaternion algebra over a number (or maybe also function)  field.
+
+ * same for Eichler orders of given square free level, for an Eichler order give also maximal orders whose intersection it is
+
+ * compute numbers of ideal classes, Brandt matrices and reduced Brandt matrices, compute the neighbourhod graph of (types of) maximal orders
+
+ * compute for an Eichler order the index of the group of units of the ground field in the group of units of the order.
+
+
+The basic facts are in Vigneras' Springer lecture notes 800 and her article in L'Enseignement Mathematique 21, a nicer (although written in german) writeup is in Ute Gebhardt's Diplom thesis, to be found at http://www.math.uni-sb.de/ag/schulze/ute/
+
   
