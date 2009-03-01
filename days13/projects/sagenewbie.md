@@ -15,7 +15,8 @@ Major Goals:
 
 (d) Group Theory (target: Undergraduate Math Majors) [http://abstract.ups.edu/sage-aata.html by Rob Beezer]
 
-(e) Differential Calculus (target: Freshmen) [http://sage.math.washington.edu/home/wdj/teaching/calc1-sage/ by David Joyner]
+(e) Differential Calculus (target: Freshmen)
+[[attachment:Differential_Calculus_Primer_0.3.sws]]
 
 (f) Integral Calculus (target: Freshmen) [http://wdjoyner.com/teach/calc2-sage/hoffman-stein-calculus.pdf by Hoffman, Joyner & Stein]
 
