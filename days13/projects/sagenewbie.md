@@ -1,14 +1,13 @@
 ------------
 Major Goals:
-------------
 
 1. SAGE as a Smart Calculator (target: Freshmen)
 
 2. SAGE Primers / Tutorials for
 
-    (a) Quadratic Forms (target: Arizona Winter School Participants)
+    (a) Quadratic Forms (target: Arizona Winter School Participants)\n
 
-    (b) Number Theory via Diophantine Equations (target: Elementary Number Theory students)
+    (b) Number Theory via Diophantine Equations (target: Elementary Number Theory students)\n
 
     (c) Number Theory via Primes (target: Elementary Number Theory students)
 
@@ -22,15 +21,13 @@ Major Goals:
 
 ------------
 Typesetting:
-------------
+
 
 reSTRUCTUREDtext [http://docutils.sourceforge.net/rst.html]
 
 
 
 
--------------
-Sage Tutorial
 -------------
 
 Goals:
