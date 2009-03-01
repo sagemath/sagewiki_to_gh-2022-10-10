@@ -1,19 +1,37 @@
-## page was renamed from days13/projects/sagenewbiew
+------------
 Major Goals:
+------------
 
-1. SAGE as a Smart Calculator (from the students' point of view)
+1. SAGE as a Smart Calculator (target: Freshmen)
 
-2. SAGE Primers for
+2. SAGE Primers / Tutorials for
 
-(a) Quadratic Forms
+(a) Quadratic Forms (target: Arizona Winter School Participants)
 
-(b) 
+(b) Number Theory via Diophantine Equations (target: Elementary Number Theory students)
 
-LINKS:
+(c) Number Theory via Primes (target: Elementary Number Theory students)
 
-http://docutils.sourceforge.net/rst.html
+(d) Group Theory (target: UnderGrad Math Majors) [http://abstract.ups.edu/sage-aata.html by Rob Beezer]
 
+(e) Differential Calculus (target: Freshmen) [http://sage.math.washington.edu/home/wdj/teaching/calc1-sage/ by David Joyner]
+
+(f) Integral Calculus (target: Freshmen) [http://wdjoyner.com/teach/calc2-sage/hoffman-stein-calculus.pdf by Hoffman, Joyner & Stein]
+
+
+
+------------
+Typesetting:
+------------
+
+reSTRUCTUREDtext [http://docutils.sourceforge.net/rst.html]
+
+
+
+
+-------------
 Sage Tutorial
+-------------
 
 Goals:
 
