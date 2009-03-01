@@ -22,7 +22,7 @@ Major Goals:
 
 (g) Primer guidelines [[attachment:primer_template\example.sws]]
 
-(3) Primer Design Principles [[attachment:primer_template\example.sws]]
+(3) Primer Design Principles [[attachment:primer_design_principles.rtf]]
 
 
 ------------
