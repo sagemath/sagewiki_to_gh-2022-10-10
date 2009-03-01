@@ -19,7 +19,42 @@ All tickets in the 3.4 milestone can be found on the [[http://trac.sagemath.org/
 
 == Documentation ==
 
+
 == Graphics ==
+
+
+ * Arrowheads in multi-edge digraphs (Emily Kirkman) -- This feature has been in Sage even before this release. However, in version 3.4, Emily worked on enhancing the visualization of multi-edge digraphs. In a multi-edge digraph, the arrowheads pointing to a vertex are now clearly displayed. Here's [[attachment:a plot]] of a multi-edge digraph, produced using the following code:
+ {{{
+sage: S = SupersingularModule(389)
+sage: D = DiGraph(S.hecke_matrix(2))
+sage: D.plot(vertex_size=50).show(figsize=10)
+ }}}
+
+
+== Linear Algebra ==
+
+
+ * Optimize transpose and antitranspose for dense matrices (Rob Beezer, Yann Laigle-Chapuy) -- A rewrite of sections of the method {{{transpose()}}} in the class {{{sage/matrix/matrix_dense.Matrix_dense}}}, resulting in improved performance of between 15% to 20%, depending on the computer architecture. Here are some statistics:
+ {{{
+# Before
+
+sage: m=identity_matrix(3000)
+sage: time m2=m.transpose(); m3=m.antitranspose()
+CPU times: user 14.13 s, sys: 1.11 s, total: 15.44 s
+Wall time: 15.44 s
+sage: get_memory_usage()
+1254.28125
+
+# After
+
+sage: m=identity_matrix(3000)
+sage: time m2=m.transpose(); m3=m.antitranspose()
+CPU times: user 2.92 s, sys: 0.46 s, total: 3.38 s
+Wall time: 3.38 s
+sage: get_memory_usage()
+835.6171875
+ }}}
+
 
 == Miscellaneous ==
 
