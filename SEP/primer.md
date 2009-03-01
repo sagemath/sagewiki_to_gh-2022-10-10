@@ -6,5 +6,5 @@
 
 Needs to be done:
 
- * doctesting of worksheets
+ * doctesting of worksheets - see [[http://trac.sagemath.org/sage_trac/ticket/116|trac #116]]
  * ReST <-> HTML conversion?
