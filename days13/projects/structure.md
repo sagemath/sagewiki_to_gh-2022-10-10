@@ -15,7 +15,7 @@
  * scaling : $^\tau(L,b) := (L, \tau b)$
  * multiplying : $\tau\cdot(L,b) := (\tau L, b)$
  * dualizing: $(L,b)^\# := (L^\#, b)$
-  $L^\# := \{ y\in V \;:\; b(x,y)\in R \forall x\in L \}$
+  $L^\# := \{ y\in V \;:\; b(x,y)\in R\;\forall x\in L \}$
  * intersection: $L\cap M$
  * sum $L+M$
  * sublattices
