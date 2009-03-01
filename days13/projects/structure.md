@@ -3,7 +3,7 @@
 = Scharlau's talk =
 
 == Basic structure & operations ==
- * $R$ ground ring, e.g. $R = ZZ_F$
+ * $R$ ground ring, e.g. $R = Z_F$
  * $F$ is the quotient ring of $R$
  * $V$ a vector space over $F$
  * basic structure: a quadratic module $(L,b)$, where
