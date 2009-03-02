@@ -10,7 +10,7 @@
 
  * Primer Design Principles [[attachment:primer_design_principles.rtf]]
 
- * SAGE as a Smart Calculator (target: Freshmen) [[attachment:Sage_as_a_Smart_Calculator_0.3.sws]] [[attachment:Sage_as_a_Smart_Calculator_0.4.sws]]
+ * SAGE as a Smart Calculator (target: Freshmen) [[attachment:Sage_as_a_Smart_Calculator_0.4.sws]]
 
 === Calculus ===
 
@@ -28,7 +28,7 @@
 
 === Abstract Algebra ===
 
- * Group Theory (target: Undergraduate Math Majors)
+ * Group Theory by Robert Beezer (target: Undergraduate Math Majors) [[attachment:group_theory.sws]]
 
 
 == Target
