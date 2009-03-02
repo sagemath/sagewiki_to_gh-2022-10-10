@@ -9,7 +9,7 @@ Below a list of proposed projects
 
 
 == Sage For Newbies ==
- PEOPLE: Erik, A. Deines, Sourav, P. Clark
+ PEOPLE: Erik [[mailto:erikdjacobson@gmail.com]], A. Deines, Sourav, P. Clark
 
  [[/sagenewbie|More details]]
 
