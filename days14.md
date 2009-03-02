@@ -49,7 +49,7 @@ Participants needing hotel room (please add your name and dates here):
 
 Reservations may be made by calling 1-800-992-9005 OR [[https://reservations.ihotelier.com/onescreen.cfm?hotelid=5082&languageid=1|directly on their website]]. Click on Corporate at the bottom of the screen reached by the link in the previous sentence.
 
-== Very Tentative Schedule ==
+== Schedule ==
 
 {{{
 Tuesday, March 10:
