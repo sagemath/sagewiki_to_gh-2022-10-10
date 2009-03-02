@@ -14,9 +14,6 @@
 
           * 1.3. Sage Devel Basics [Erik, Aly]
 
-          * 1.4. 2D and 3D Plotting in Sage [Erik]
-
-          * 1.5. Interact in Sage [Erik]
 
     * 2. Calculus
 
@@ -50,7 +47,11 @@
 
     * 1. Basics
 
-          * 1.3. Programming in Sage 
+          * 1.3. Programming in Sage [Erik]
+
+          * 1.5. 2D and 3D Plotting in Sage [Erik]
+
+          * 1.6. Interact in Sage [Erik]
 
     * 2. Calculus
 
