@@ -18,7 +18,7 @@
 
     * 4. Abstract Algebra
 
-          * 4.1. Group Theory [[attachment:group_theory.sws]] (by Robert Beezer)
+          * 4.1. Group Theory [[attachment:group_theory.txt]] (by Robert Beezer)
 
     * 5. Number Theory
 
