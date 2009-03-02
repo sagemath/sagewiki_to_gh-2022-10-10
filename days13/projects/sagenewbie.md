@@ -5,19 +5,19 @@
 
 == Done / In Progress ==
 
-    * 0. Front Matter
+    * 0. Sage Primer Design Principles [[attachment:primer_design_principles.rtf]]
 
     * 1. Basics
 
-          * 1.1. Primer Template: An Example [[attachment:primer_template\example.sws]] [[attachment:primer_design_principles.rtf]]
+          * 1.1. Primer Template: An Example [[attachment:primer_template_example.sws]] 
 
-          * 1.2. Sage as a Smart Calculator [[attachment:sage_as_a_smart_calculator.sws]]
+          * 1.2. Sage as a Smart Calculator [[attachment:basics.smart_calculator_0.4.sws]]
 
           * 1.4. Sage Devel Basics [Erik, Aly]
 
     * 2. Calculus
 
-          * 2.1. Differential Calculus [[attachment:differential_calculus.sws]]
+          * 2.1. Differential Calculus [[attachment:calculus.differential_calculus_1.0.sws]]
 
           * 2.2. Integral Calculus [Sourav]
 
@@ -27,11 +27,11 @@
 
     * 4. Abstract Algebra
 
-          * 4.1. Group Theory [[attachment:group_theory.txt]] (by Robert Beezer)
+          * 4.1. Group Theory [[attachment:group_theory.sws]] (by Robert Beezer)
 
     * 5. Number Theory
 
-          * 5.1. Elementary Number Theory I [[attachment: number_theory.primes_0.1.sws]]
+          * 5.1. Elementary Number Theory I [[attachment:number_theory.primes_0.5.sws]]
 
           * 5.2. Elementary Number Theory II [Erik]
 
@@ -47,9 +47,9 @@
 
     * 1. Basics
 
-          * 1.3. Programming in Sage [Erik]
+          * 1.3. Programming in Sage
 
-          * 1.5. 2D and 3D Plotting in Sage [Erik]
+          * 1.5. 2D and 3D Plotting in Sage
 
           * 1.6. Interact in Sage [Erik]
 
