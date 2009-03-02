@@ -1,11 +1,14 @@
-------------
-Major Goals:
+= Sage for Newbies =
 
-1. SAGE as a Smart Calculator (target: Freshmen)
-[[attachment:Sage_as_a_Smart_Calculator_0.3.sws]]
-[[attachment:Sage_as_a_Smart_Calculator_0.4.sws]]
+<<TableofContents>>
 
-2. SAGE Primers / Tutorials for
+== Major Goals : Sage Primers ==
+
+=== Basics ===
+
+ * SAGE as a Smart Calculator (target: Freshmen) [[attachment:Sage_as_a_Smart_Calculator_0.3.sws]] [[attachment:Sage_as_a_Smart_Calculator_0.4.sws]]
+
+2. SAGE Primers
 
 (a) Quadratic Forms (target: Arizona Winter School Participants) [[attachment: quadratic_forms.sws]]
 
