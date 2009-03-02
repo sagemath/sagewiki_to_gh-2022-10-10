@@ -1,45 +1,37 @@
 = Sage for Newbies =
 
-<<TableofContents>>
+<<TableOfContents>>
 
 == Major Goals : Sage Primers ==
 
 === Basics ===
 
+ * Primer Guidelines [[attachment:primer_template\example.sws]]
+
+ * Primer Design Principles [[attachment:primer_design_principles.rtf]]
+
  * SAGE as a Smart Calculator (target: Freshmen) [[attachment:Sage_as_a_Smart_Calculator_0.3.sws]] [[attachment:Sage_as_a_Smart_Calculator_0.4.sws]]
 
-2. SAGE Primers
+=== Calculus ===
 
-(a) Quadratic Forms (target: Arizona Winter School Participants) [[attachment: quadratic_forms.sws]]
+ * Differential Calculus (target: Freshmen) [[attachment:Differential_Calculus_Primer_0.3.sws]]
 
-(b) Number Theory via Diophantine Equations (target: Elementary Number Theory students)
+ * Integral Calculus (target: Freshmen)
 
-(c) Number Theory via Primes (target: Elementary Number Theory students)
+=== Number Theory ===
 
-(d) Group Theory (target: Undergraduate Math Majors) [http://abstract.ups.edu/sage-aata.html by Rob Beezer]
+ * Quadratic Forms (target: Arizona Winter School Participants) [[attachment: quadratic_forms.sws]]
 
-(e) Differential Calculus (target: Freshmen)
-[[attachment:Differential_Calculus_Primer_0.3.sws]]
+ * Number Theory via Diophantine Equations (target: Elementary Number Theory students)
 
-(f) Integral Calculus (target: Freshmen) [http://wdjoyner.com/teach/calc2-sage/hoffman-stein-calculus.pdf by Hoffman, Joyner & Stein]
+ * Number Theory via Primes (target: Elementary Number Theory students) [[attachment: number_theory.primes_0.1.sws]]
 
-(g) Primer guidelines [[attachment:primer_template\example.sws]]
+=== Abstract Algebra ===
 
-(3) Primer Design Principles [[attachment:primer_design_principles.rtf]]
-
-
-------------
-Typesetting:
+ * Group Theory (target: Undergraduate Math Majors)
 
 
-reSTRUCTUREDtext [http://docutils.sourceforge.net/rst.html]
-
-
-
-
--------------
-
-Goals:
+== Target
 
 1)	Accessible to high school math teachers and undergraduate mathematics majors.
 
