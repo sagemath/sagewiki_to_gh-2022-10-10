@@ -5,7 +5,7 @@
 
 == Done / In Progress ==
 
-    * 0. Sage Primer Design Principles [[attachment:Sage Primer Design Principles.pdf]]
+    * 0. Sage Primer Design Principles [[attachment:Sage Primer Design Principles.pdf]] [[attachment:primer_design_principles.rtf]]
 
     * 1. Basics
 
