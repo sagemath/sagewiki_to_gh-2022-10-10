@@ -10,11 +10,11 @@
 
  * Primer Design Principles [[attachment:primer_design_principles.rtf]]
 
- * SAGE as a Smart Calculator (target: Freshmen) [[attachment:Sage_as_a_Smart_Calculator_0.4.sws]]
+ * SAGE as a Smart Calculator (target: Freshmen) [[attachment:sage_as_a_smart_calculator.sws]]
 
 === Calculus ===
 
- * Differential Calculus (target: Freshmen) [[attachment:Differential_Calculus_Primer_0.3.sws]]
+ * Differential Calculus (target: Freshmen) [[attachment:differential_calculus.sws]]
 
  * Integral Calculus (target: Freshmen)
 
@@ -31,7 +31,7 @@
  * Group Theory by Robert Beezer (target: Undergraduate Math Majors) [[attachment:group_theory.sws]]
 
 
-== Target
+== Target ==
 
 1)	Accessible to high school math teachers and undergraduate mathematics majors.
 
