@@ -7,7 +7,7 @@ Major Goals:
 
 2. SAGE Primers / Tutorials for
 
-(a) Quadratic Forms (target: Arizona Winter School Participants)
+(a) Quadratic Forms (target: Arizona Winter School Participants) [[attachment: quadratic_forms.sws]]
 
 (b) Number Theory via Diophantine Equations (target: Elementary Number Theory students)
 
