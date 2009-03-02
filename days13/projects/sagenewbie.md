@@ -12,7 +12,11 @@
 
           * 1.2. Sage as a Smart Calculator [[attachment:sage_as_a_smart_calculator.sws]]
 
-          * 1.4. Sage Devel Basics [Erik, Aly]
+          * 1.3. Sage Devel Basics [Erik, Aly]
+
+          * 1.4. 2D and 3D Plotting in Sage [Erik]
+
+          * 1.5. Interact in Sage [Erik]
 
     * 2. Calculus
 
