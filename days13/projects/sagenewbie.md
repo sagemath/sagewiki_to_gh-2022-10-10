@@ -2,7 +2,7 @@
 
 <<TableOfContents>>
 
-== Done ==
+== Done / In Progress ==
 
     * 0. Front Matter
 
@@ -12,9 +12,17 @@
 
           * 1.2. Sage as a Smart Calculator [[attachment:sage_as_a_smart_calculator.sws]]
 
+          * 1.4. Sage Devel Basics [Erik, Aly]
+
     * 2. Calculus
 
           * 2.1. Differential Calculus [[attachment:differential_calculus.sws]]
+
+          * 2.2. Integral Calculus [Sourav]
+
+    * 3. Linear Algebra
+
+          * 3.1. Matrix Algebra [Sourav]
 
     * 4. Abstract Algebra
 
@@ -24,7 +32,11 @@
 
           * 5.1. Elementary Number Theory I [[attachment: number_theory.primes_0.1.sws]]
 
+          * 5.2. Elementary Number Theory II [Erik]
+
           * 5.5. Quadratic Forms [[attachment: quadratic_forms.sws]]
+
+          * 5.7. Quaternion Algebra [Sourav]
 
     * 9. About this document ...
 
@@ -36,11 +48,7 @@
 
           * 1.3. Programming in Sage 
 
-          * 1.4. Sage Devel Basics [Erik, Aly, Sourav]
-
     * 2. Calculus
-
-          * 2.2. Integral Calculus [Sourav]
 
           * 2.3. Multivariate Calculus
 
@@ -50,8 +58,6 @@
 
     * 3. Linear Algebra
 
-          * 3.1. Matrix Algebra [Sourav]
-
           * 3.2. Vector Spaces [Sourav]
 
     * 4. Abstract Algebra
@@ -60,15 +66,11 @@
 
     * 5. Number Theory
 
-          * 5.2. Elementary Number Theory II [Erik]
-
           * 5.3. Cryptography [Dan]
 
           * 5.4. Elliptic Curves [Aly]
 
           * 5.6. Automorphic Forms 
-
-          * 5.7. Quaternion Algebra [Aly, Sourav]
 
           * 5.8. Modular Forms 
 
