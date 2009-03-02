@@ -42,8 +42,7 @@ Linux kernel: 2.6.24-23
  }}}
  one would obtain the following timing and memory statistics for a 3000x3000 identity matrix:
  {{{
-# Before
-
+# BEFORE
 sage: m=identity_matrix(3000)
 sage: time m2=m.transpose(); m3=m.antitranspose()
 CPU times: user 14.13 s, sys: 1.11 s, total: 15.44 s
@@ -51,8 +50,7 @@ Wall time: 15.44 s
 sage: get_memory_usage()
 1254.28125
 
-# After
-
+# AFTER
 sage: m=identity_matrix(3000)
 sage: time m2=m.transpose(); m3=m.antitranspose()
 CPU times: user 2.92 s, sys: 0.46 s, total: 3.38 s
