@@ -41,7 +41,7 @@ Sunday March 1st:
 Monday March 2nd:
 
  * 9:30 am: meeting in the lobby of the Georgia Center
- * 11:15am-12:05pm Talk:  “Automorphic forms for exceptional groups” (Weissman)
+ * 11:15am-12:05pm Talk:  “Automorphic forms for exceptional groups” (Weissman) [[attachment:SAGE13Talk-marty.pdf]]
  * 12:15-2pm Lunch Break
  * 2pm – 2:30pm – Discuss project ideas and Break into working groups
  * 2:30pm – 5pm – Work in groups on SAGE Code
