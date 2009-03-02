@@ -19,6 +19,8 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
  * [[/projects| List of Projects]]
 
 == Participants ==
+
+ * Michael Abshoff
  * David Eisenbud
  * Daniel Erman
  * Alex Ghitza
