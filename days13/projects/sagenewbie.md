@@ -2,153 +2,48 @@
 
 <<TableOfContents>>
 
-== Major Goals : Sage Primers ==
-
-=== Basics ===
-
- * Primer Guidelines [[attachment:primer_template\example.sws]]
-
- * Primer Design Principles [[attachment:primer_design_principles.rtf]]
-
- * SAGE as a Smart Calculator (target: Freshmen) [[attachment:sage_as_a_smart_calculator.sws]]
-
-=== Calculus ===
-
- * Differential Calculus (target: Freshmen) [[attachment:differential_calculus.sws]]
-
- * Integral Calculus (target: Freshmen)
-
-=== Number Theory ===
-
- * Quadratic Forms (target: Arizona Winter School Participants) [[attachment: quadratic_forms.sws]]
-
- * Number Theory via Diophantine Equations (target: Elementary Number Theory students)
-
- * Number Theory via Primes (target: Elementary Number Theory students) [[attachment: number_theory.primes_0.1.sws]]
-
-=== Abstract Algebra ===
-
- * Group Theory by Robert Beezer (target: Undergraduate Math Majors) [[attachment:group_theory.sws]]
-
-
-== Target ==
-
-1)	Accessible to high school math teachers and undergraduate mathematics majors.
-
-2)	Anticipated user desires
-
-a.	Content specific modules
-
-i.	Quadratic Forms
-
-ii.	Group theory
-
-iii.	Abstract algebra
-
-iv.	Calculus
-
-v.	Number theory
-
-vi.	High school algebra / trigonometry / precalculus
-
-vii.	Probability
-
-viii.	Statistics
-
-b.	Plotting 2 and 3 dimensions
-
-c.	Sage math functions (sage as calculator), sage constants
-
-d.	Generate Classroom examples
-
-i.	show (), latex()
-
-ii.	matplotlab
-
-3)	Demonstrate SAGE functionality:
-
-a.	Primes
-
-b.	Random numbers
-
-c.	Plotting
-
-d.	Interact
-
-e.	Sage data types
-
-4)	Programming
-
-a.	Types, casting, relevant Sage data types
-
-b.	Lists, tuples
-
-c.	Control operators (if, then, else, logical operators, in, srange())
-
-d.	Loops
-
-i.	For, in, srange(), range()
-
-e.	Functions
-
-f.	Recursion
-
-5)	Topics
-
-a.	Primes and factorization
-
-i.	Given a random number, is it a prime?
-
-1.	Modular division
-
-a.	random()
-
-b.	Factor()
-
-2.	Euclidean algorithm
-
-a.	Recursion
-
-b.	gcd()
-
-3.	primality testing
-
-a.	for loops
-
-b.	range()
-
-c.	is_prime()
-
-ii.	How many primes are there?
-
-1.	prime_pi()
-
-2.	plotting example
-
-iii.	Where are the primes?
-
-1.	Density of primes
-
-2.	primes()
-
-3.	Arithemtic sequences of primes
-
-b.	Diophantine equations
-
-i.	Linear Diophantine equation 
-
-1.	extended euclidean algorithm
-
-2.	recursion vs iteration
-
-ii.	diagonal quadratic forms; sums of squares (ENT p. 25)
-
-1.	Pythagorean triples and generating them
-
-2.	Graphing the Pythagorean triples
-
-3.	Enumerating all triples using linear intersections
-
-4.	Elliptic curves and congruent numbers (chapter 6, stein)
-
-iii.	Pell’s Equation (?)
+== Done ==
+
+    * 0. Front Matter
+    * 1. Basics
+          o 1.1. Primer Template: An Example [[attachment:primer_template\example.sws]] [[attachment:primer_design_principles.rtf]]
+          o 1.2. Sage as a Smart Calculator [[attachment:sage_as_a_smart_calculator.sws]]
+    * 2. Calculus
+          o 2.1. Differential Calculus [[attachment:differential_calculus.sws]]
+    * 4. Abstract Algebra
+          o 4.1. Group Theory [[attachment:group_theory.sws]] (by Robert Beezer)
+    * 5. Number Theory
+          o 5.1. Elementary Number Theory I [[attachment: number_theory.primes_0.1.sws]]
+          o 5.5. Quadratic Forms [[attachment: quadratic_forms.sws]]
+    * 9. About this document ...
+
+== To Do ==
+
+    * 1. Basics
+          o 1.3. Programming in Sage
+          o 1.4. Sage Devel Basics 
+    * 2. Calculus
+          o 2.2. Integral Calculus
+          o 2.3. Multivariate Calculus
+          o 2.4. Taylor Series and Infinite Sums
+          o 2.5. Differential Equations 
+    * 3. Linear Algebra
+          o 3.1. Matrix Algebra
+          o 3.2. Vector Spaces 
+    * 4. Abstract Algebra
+          o 4.2. Rings and Fields 
+    * 5. Number Theory
+          o 5.2. Elementary Number Theory II
+          o 5.3. Cryptography
+          o 5.4. Elliptic Curves
+          o 5.6. Automorphic Forms
+          o 5.7. Quaternion Algebra
+          o 5.8. Modular Forms 
+    * 6. Combinatorics
+          o 6.1. Counting
+          o 6.2. Graph Theory 
+    * 7. Geometry
+    * 8. Statistics
+          o 8.1. Statistical Methods
+          o 8.2. Probability
+          o 8.3. Finance 
