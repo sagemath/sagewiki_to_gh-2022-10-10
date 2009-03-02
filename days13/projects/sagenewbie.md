@@ -1,4 +1,4 @@
-= Sage for Newbies =
+= Sage Primers =
 
 <<TableOfContents>>
 
@@ -34,13 +34,13 @@
 
     * 1. Basics
 
-          * 1.3. Programming in Sage
+          * 1.3. Programming in Sage 
 
-          * 1.4. Sage Devel Basics 
+          * 1.4. Sage Devel Basics [Erik, Aly, Sourav]
 
     * 2. Calculus
 
-          * 2.2. Integral Calculus
+          * 2.2. Integral Calculus [Sourav]
 
           * 2.3. Multivariate Calculus
 
@@ -50,25 +50,25 @@
 
     * 3. Linear Algebra
 
-          * 3.1. Matrix Algebra
+          * 3.1. Matrix Algebra [Sourav]
 
-          * 3.2. Vector Spaces 
+          * 3.2. Vector Spaces [Sourav]
 
     * 4. Abstract Algebra
 
-          * 4.2. Rings and Fields 
+          * 4.2. Rings and Fields [Erik]
 
     * 5. Number Theory
 
-          * 5.2. Elementary Number Theory II
+          * 5.2. Elementary Number Theory II [Erik]
 
-          * 5.3. Cryptography
+          * 5.3. Cryptography [Dan]
 
-          * 5.4. Elliptic Curves
+          * 5.4. Elliptic Curves [Aly]
 
-          * 5.6. Automorphic Forms
+          * 5.6. Automorphic Forms 
 
-          * 5.7. Quaternion Algebra
+          * 5.7. Quaternion Algebra [Aly, Sourav]
 
           * 5.8. Modular Forms 
 
@@ -82,8 +82,8 @@
 
     * 8. Statistics
 
-          * 8.1. Statistical Methods
+          * 8.1. Statistical Methods [Erik]
 
-          * 8.2. Probability
+          * 8.2. Probability [Erik]
 
           * 8.3. Finance 
