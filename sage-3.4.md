@@ -87,6 +87,12 @@ RAM: 8 GB
  * Update the [[http://www.python.org|Python]] spkg to {{{python-2.5.2.p9.spkg}}} (Michael Abshoff) -- Python is a general purpose, object oriented programming language. Together with various other open source components, Python serves as a fundamental tool that unify the components of Sage under a common interface.
 
 
+ * Upgrade [[http://www.mpfr.org|MPFR]] to version 2.4.1 upstream release (Michael Abshoff) -- Version 2.4.1 of MPFR fixes critical security vulnerabilities in {{{mpfr_snprintf()}}} and {{{mpfr_vsnprintf()}}}, in particular, [[http://cwe.mitre.org/top25/#CWE-119|buffer overflow]] or off-by-one vulnerabilities. These vulnerabilities have been reported in previous versions of MPFR, and they can be exploited to compromise an application that uses the MPFR library. Users are advised to upgrade to the new MPFR spkg {{{mpfr-2.4.1.spkg}}}. The Secunia security advisory can be found [[http://secunia.com/advisories/34063|here]].
+
+
+ * Upgrade [[http://pypi.python.org/pypi/pycrypto|PyCrypto]] to version 2.0.1 upstream release (Michael Abshoff) -- Version 2.0.1 fixes a buffer overflow vulnerability in the hash functions [[http://en.wikipedia.org/wiki/SHA256|SHA256]] and [[http://en.wikipedia.org/wiki/RIPEMD|RIPEMD]], which previously failed to adequately verify user-supplied input. The affected module is {{{ARC2}}}, an implementation of the [[http://en.wikipedia.org/wiki/RC2|RC2]] block cipher. A successful exploit may allow an attacker to execute arbitrary code in the context of applications that uses the previously vulnerable ARC2 module. Furthermore, a failed attempt may lead to a [[http://en.wikipedia.org/wiki/Denial-of-service_attack|denial-of-service]] attack. Users are advised to upgrade to the new PyCrypto spkg {{{pycrypto-2.0.1.p3.spkg}}}.
+
+
 == Porting ==
 
 
@@ -94,6 +100,10 @@ RAM: 8 GB
 
 
  * Merge Jon Hanke's quadratic forms code (Gonzalo Tornaria, Michael Abshoff) -- John Hanke has written a substantial amount of Sage code for working with [[http://en.wikipedia.org/wiki/Quadratic_forms|quadratic forms]]. Hanke's code can serve as base for further enhancement to the case of binary quadratic forms, which are quadratic forms involving two variables. There are currently a number of patches on the trac server for enhancing the functionalities of binary quadratic forms.
+
+
+ * [FIXME] Clifford invariant and Clifford conductor (Gonzalo Tornaria) -- New functions {{{clifford_invariant()}}} and {{{clifford_conductor()}}} for computing Clifford invariants and conductors. The Clifford invariant is the class in the Brauer group of the Clifford algebra for even dimension. The new function {{{clifford_invariant()}}} computes the Clifford invariant of the even Clifford Algebra for odd dimension. The new function {{{clifford_conductor()}}} computes the Clifford conductor, i.e. the product of all primes where the Clifford invariant is -1. See the following text for the definition of the Clifford invariant and p.119 for the formula relating it to the Hasse invariant:
+   * T.Y. Lam. "Introduction to Quadratic Forms over Fields". Graduate Studies in Mathematics, vol.67. American Mathematical Society, 2005.
 
 
 
