@@ -67,6 +67,7 @@ Local Attendees:
    1. Jason Cantarella
    2. Pete Clark
    3. Jonathan Hanke
-   4. Dino Lorenzini
-   5. Robert Rumley
-   6. David Swinarski
+   4. Erik Jacobson
+   5. Dino Lorenzini
+   6. Robert Rumley
+   7. David Swinarski
