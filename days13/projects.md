@@ -37,6 +37,8 @@ Two PDFs:
 == Trac #4120 -- Binary Quadratic Forms ==
   PEOPLE: J. Walker, Farbod
 
+    [[/4120|More details]]
+
 == Octonions and Cubes ==
   PEOPLE: J. Hanke, M. Weissman, Jim S.
 
