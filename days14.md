@@ -22,6 +22,8 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
 
 == Participants ==
 
+See http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_participants for the official list -- the below is not comprehensive!
+
  * Michael Abshoff
  * David Eisenbud
  * Daniel Erman
