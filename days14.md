@@ -1,5 +1,7 @@
 = Sage Days 14: Sage and Macaulay2 for Algebraic Geometry Experimentation =
 
+<<TableOfContents>>
+
 March 10 - 12, 2008 in Berkeley, CA
 
  * [[http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_workshop| Official MSRI Page]]
