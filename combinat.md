@@ -53,7 +53,7 @@ Sage-combinat is a collection of experimental patches (i.e. extensions) on top o
 
  * For the curious: [[http:/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
 
- * [[http://combinat.sagemath.org/misc/|Mercurial server for miscelleanous files and documents]]
+ * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]]
 === Design ===
 
  * Have a look and participate to [[http:/combinat/DesignDiscussion|design discussions]].
