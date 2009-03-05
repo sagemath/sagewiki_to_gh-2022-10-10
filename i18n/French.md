@@ -1,50 +1,17 @@
 == SAGE French Translation ==
 This page is intended as a coordination page for the French translation of Sage documentation.
 
-=== TODO list ===
- * For now we are translating the SAGE tutorial .rst files. - you can find the original files [[[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/|| here]]]
- * Tutoriel : finir de relire (notamment les « ??? » un peu partout, uniformiser l'usage des espaces insécables.
+==== Tutoriel / Tutorial ====
 
-==== Tutorial ====
-Dans le cadre des SD10, un groupe de nouveaux arrivants ne connaissant pas assez bien Sage pour contribuer efficacement au code tente de le découvrir en traduisant en français le tutorial au passage.
+ * Original (English) version: http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/
+ * French translation (rst source): http://algo.inria.fr/mezzarobba/sagetutfr/sagetut-fr.tgz
 
- * Quand on commence à traduire un chapitre, on le mentionne dans la colonne ''translated'' pour éviter que deux personnes travaillent sur le même.
- * Quand il est traduit et prêt à relire, on l'indique au même endroit.
- * Idem avec l'autre colonne quand on entreprend ou termine une relecture.
- * Pour relire un chapitre, on le télécharge, on fait les modifications que l'on propose dans un fichier séparé, que l'on lie dans la colonne ''review''. Le traducteur peut faire un diff entre les deux versions pour vérifier qu'il est d'accord avec les propositions du relecteur.
+Le tutoriel Sage a été traduit en français pendant les Sage Days 10 à Nancy. Voici :
+ * la VO qui a servi de point de départ (source .rst) : http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/
+ * la traduction (source rst) : http://algo.inria.fr/mezzarobba/sagetutfr/sagetut-fr.tgz
+ * en attendant qu'elle soit intégrée à Sage, la traduction en  [[http://algo.inria.fr/mezzarobba/sagetutfr/html/|HTML]] ou ou en [[http://algo.inria.fr/mezzarobba/sagetutfr/SageTutorial_fr.pdf|PDF]].
 
-À l'intention des personnes extérieures qui liraient ce tutoriel en français : tous vos commentaires sont les bienvenus, vous pouvez les laisser directement sur cette page ou écrire à marc à mezzarobba point net.
-
-Here there is a list of the .rst to be translated:
-
-||||||<tablewidth="75%"style="text-align: center;">'''File list''' ||
-||''file name''         ||<bgcolor="#80ff80" style=""> ''translated'' ||<bgcolor="#8080ff" style=""> ''reviewed'' ||
-||tour.rst              || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_fr.rst|changements proposés]] (MM) ||
-||tour_rings.rst        || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_rings_fr.rst|changements proposés]] (MM) ||
-||tour_polynomial.rst   || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_polynomial_fr.rst|changements proposés]] (MM) ||
-||tour_plotting.rst     || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_plotting_fr.rst|changements proposés]] (MM) ||
-||tour_numtheory.rst    || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_numtheory_fr.rst|changements proposés]] (MM) ||
-||tour_linalg.rst       || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_linalg_fr.rst|changements proposés]] (MM) ||
-||tour_help.rst         || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_help_fr.rst|done]] (BM) ||
-||tour_groups.rst       || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_groups_fr.rst|changements proposés]] (MM) ||
-||tour_assignment.rst   || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_assignment_fr.rst|changements proposés]] (MM) ||
-||tour_algebra.rst      || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_algebra_fr.rst|changements proposés]] (MM) ||
-||tour_advanced.rst     || done (BM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/tour_advanced_fr.rst|changements proposés]] (MM) ||
-||programming.rst       || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/programming_fr.rst|done *]] (BM) ||
-||introduction.rst      || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/introduction_fr.rst|done]] (BM, PZ) ||
-||interfaces.rst        || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/interfaces_fr.rst|done (pending review)]] (BM) || ||
-||interactive_shell.rst || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/interactive_shell_fr.rst|done *]] (BM) ||
-||index.rst             || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/index_fr.rst|done]] (PZ)  ||
-||distributed.rst       || done (MM) || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/distributed_fr.rst|done]] (BM) ||
-||conf.py               || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/conf.py|done (pending review)]] (MM) || ||
-||bibliography.rst      || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/bibliography_fr.rst|done (pending review)]] (MM) || ||
-||appendix.rst          || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/appendix_fr.rst|done (pending review)]] (MM) || ||
-||afterword.rst         || [[http://www.eleves.ens.fr/~mezzarob/sagetutfr/afterword_fr.rst|done (pending review)]] (BM) || ||
-
-Ci-dessus, '*' dans la colonne relecture signifie (que le fichier a été relu mais) qu'il reste des points peu clairs, des corrections à apporter...
-
-Pour faciliter la relecture, une version après rendu html des fichiers ci-dessus est disponible à 
-http://www.eleves.ens.fr/~mezzarob/sagetutfr/html/index_fr.html
+Les traducteurs sont Bertrand Meyer et Marc Mezzarobba. Merci Paul Zimmermann et à Ismaël Bouya pour leurs commentaires. Merci de signaler les erreurs ou autres problèmes concernant la VF à marc à mezzarobba point net.
 
 == Conventions ==
 == Glossaire ==
