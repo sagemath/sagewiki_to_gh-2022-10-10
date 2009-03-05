@@ -9,7 +9,6 @@
  * Computational Algebraic Topology
  * Porting Sage to Windows
  * Number Theory
- * TBA
 
 == Organizers ==
  * Michael Abshoff
