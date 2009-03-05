@@ -34,7 +34,7 @@ sage: D.plot(vertex_size=50).show(figsize=10)
 == Linear Algebra ==
 
 
- * Optimize transpose and antitranspose for dense matrices (Rob Beezer, Yann Laigle-Chapuy) -- A rewrite of sections of the method {{{transpose()}}} in the class {{{sage.matrix.matrix_dense.Matrix_dense}}}, resulting in improved performance of between 15% to 18%, depending on the computer architecture. For a system with architecture
+ * Optimize transpose and antitranspose for dense matrices (Rob Beezer, Yann Laigle-Chapuy) -- A rewrite of sections of the method {{{transpose()}}} in the class {{{sage.matrix.matrix_dense.Matrix_dense}}}, resulting in an improvement of up to 5x, depending on the computer architecture. For a system with architecture
  {{{
 CPU: Intel(R) Core(TM)2 Duo CPU T5450  @ 1.66GHz
 RAM: 2066004 KB
@@ -63,7 +63,7 @@ sage: get_memory_usage()
 CPU: Intel(R) Core(TM)2 Duo CPU E8500 @ 3.16GHz
 RAM: 8 GB
  }}}
- for a 5000x5000 identity matrix, the new improved time would be about 2.46 seconds.
+ for a 5000x5000 identity matrix, the previous time was 11.94s and the new improved time would be about 2.46s.
 
 
  * Optimize transpose for integer and rational dense matrices (Yann Laigle-Chapuy) -- New methods {{{transpose()}}} and {{{antitranspose()}}} for the classes {{{sage.matrix.matrix_integer_dense.Matrix_integer_dense}}} and {{{sage.matrix.matrix_rational_dense.Matrix_rational_dense}}}. The new method {{{transpose()}}} returns the transpose of an integer (respectively rational) dense matrix without changing the original matrix itself. In addition, the new method {{{antitranspose()}}} returns the antitranspose of an integer (respectively rational) matrix, leaving the original matrix unchanged.
