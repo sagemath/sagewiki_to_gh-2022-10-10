@@ -46,7 +46,7 @@ See http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_participants fo
 Participants needing hotel room (please add your name and dates here):
 
  * William Stein (arrive March 9; leave March 12)
- * Justin Walker ()
+ * Justin Walker (arrive March 9; leave March 12; have a room reserved)
  * Alex Ghitza (March 8 to March 13)
  * Andrey Novoseltsev (arrive March 9, leave March 12, reserved an "original double" room already)
  * Kiran Kedlaya (March 11 to 13, but may not need to use the block)
