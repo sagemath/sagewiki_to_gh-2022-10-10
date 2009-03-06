@@ -825,3 +825,54 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     show(picture, aspect_ratio=[1,1,1])
 }}}
 {{attachment:motion3d.png}}
+
+== Directional Derivatives ==
+
+This interact displays graphically a tangent line to a function, illustrating a directional derivative (the slope of the tangent line).
+
+{{{
+var('x,y,t,z')
+f(x,y)=sin(x)*cos(y)
+
+pif = float(pi)
+
+line_thickness=3
+surface_color='blue'
+plane_color='purple'
+line_color='red'
+tangent_color='green'
+gradient_color='orange'
+
+@interact
+def myfun(location=input_grid(1, 2, default=[0,0], label = "Location (x,y)", width=2), angle=slider(0, 2*pif, label = "Angle"), 
+show_surface=("Show surface", True)):
+    location3d = vector(location[0]+[0])
+    location = location3d[0:2]
+    direction3d = vector(RDF, [cos(angle), sin(angle), 0])
+    direction=direction3d[0:2]
+    cos_angle = math.cos(angle)
+    sin_angle = math.sin(angle)
+    df = f.gradient()
+    direction_vector=line3d([location3d, location3d+direction3d], arrow_head=True, rgbcolor=line_color, thickness=line_thickness)
+    curve_point = (location+t*direction).list()
+    curve = parametric_plot(curve_point+[f(*curve_point)], (t,-3,3),color=line_color,thickness=line_thickness)
+    plane = parametric_plot((cos_angle*x+location[0],sin_angle*x+location[1],t), (x, -3,3), (t,-3,3),opacity=0.8, color=plane_color)
+    pt = point3d(location3d.list(),color='green', size=10)
+
+    tangent_line = parametric_plot((location[0]+t*cos_angle, location[1]+t*sin_angle, f(*location)+t*df(*location)*(direction)), (t, -3,3), thickness=line_thickness, color=tangent_color)
+    picture3d = direction_vector+curve+plane+pt+tangent_line
+
+    picture2d = contour_plot(f(x,y), (x,-3,3),(y,-3,3), plot_points=100)
+    picture2d += arrow(location.list(), (location+direction).list()) 
+    picture2d += point(location.list(),rgbcolor='green',pointsize=40)
+    if show_surface:
+        picture3d += plot3d(f, (x,-3,3),(y,-3,3),opacity=0.7)
+        
+    dff = df(location[0], location[1])
+    dff3d = vector(RDF,dff.list()+[0])
+    picture3d += line3d([location3d, location3d+dff3d], arrow_head=True, rgbcolor=gradient_color, thickness=line_thickness)
+    picture2d += arrow(location.list(), (location+dff).list(), rgbcolor=gradient_color, width=line_thickness)
+    show(picture3d,aspect=[1,1,1], axes=True)
+    show(picture2d, aspect_ratio=1)
+}}}
+{{attachment:directional derivative.png}}
