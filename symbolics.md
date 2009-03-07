@@ -20,6 +20,8 @@ With the switch to Pynac based symbolics, it will be possible to implement nativ
   * Transcendental Risch (from [[http://www-sop.inria.fr/cafe/Manuel.Bronstein/publications/symbint1.html|Bronstein's book]])
 
  * Solve
+  * [[http://www.unk.edu/uploadedFiles/facstaff/profiles/willisb/solve-talk(3).pdf|Talk by Barton Willis]] on Maxima's to_poly solve function
+  * [[http://maxima.cvs.sourceforge.net/viewvc/maxima/maxima/share/contrib/rtest_to_poly_solver.mac?view=markup|test suite]] for Maxima's to_poly solver
 
  * Limits
 
