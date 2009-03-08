@@ -7,9 +7,15 @@ See the GSoC2009 FAQ for the timeline here http://code.google.com/opensource/gso
 
 All #numbers below refer to [[http://trac.sagemath.org|trac tickets]].
 
-== Note: ==
+== Notes: ==
 
 We should take care to define delivarables for the items below. These should be doable with less than 3 months of work.
+
+Here is what the FAQ says for "Ideas" lists:
+
+  An "Ideas" list should be a list of suggested student projects. This list is meant to introduce contributors to your project's needs and to provide inspiration to would-be student applicants. It is useful to classify each idea as specifically as possible, e.g. "must know Python" or "easier project; good for a student with more limited experience with C++." If your organization plans to provide an application template, you should include it on your Ideas list.
+
+ Keep in mind that your Ideas list should be a starting point for student applications; we've heard from past mentoring organization participants that some of their best student projects are those that greatly expanded on a proposed idea or were blue-sky proposals not mentioned on the Ideas list at all. 
 
 === Notebook ===
 
@@ -22,9 +28,6 @@ No special mathematical knowledge is required.  Knowledge of Javascript, jQuery,
 and general AJAX techniques is needed. 
 
  * Authentication backend (ldap, kerberos?)
-
-    The Sage notebook is a web-based AJAX application for multiple users. It allowes them to sign in to their worksheets, stored on the server. The authentication is handled by Sage. It would be very useful to create a plugable authentication mechanism for existing sytems like LDAP, Kerberos, Active Directory, etc. - possibly supporting single-side-on - or other systems like OpenID (i.e. use your google or yahoo! account to log in using  https://www.google.com/accounts/o8/id or http://openid.yahoo.com/ )
-
  * Refactoring
   * independent component of Sage
   * move to Django
