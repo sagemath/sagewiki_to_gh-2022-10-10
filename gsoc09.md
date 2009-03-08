@@ -7,6 +7,10 @@ See the GSoC2009 FAQ for the timeline here http://code.google.com/opensource/gso
 
 All #numbers below refer to [[http://trac.sagemath.org|trac tickets]].
 
+== Note: ==
+
+We should take care to define delivarables for the items below. These should be doable with less than 3 months of work.
+
 === Notebook ===
 
 The Sage notebook is an AJAX application similar to Google Documents that provides
@@ -16,6 +20,19 @@ and has been used daily by thousands of people over the last year.  It's one of 
 main ''killer features'' of Sage.  This project is about improving the notebook.
 No special mathematical knowledge is required.  Knowledge of Javascript, jQuery, Python,
 and general AJAX techniques is needed. 
+
+ * Authentication backend (ldap, kerberos?)
+ * Refactoring
+  * independent component of Sage
+  * move to Django
+ * Improvements to interact
+ * Add support for making presentations
+
+ * Add task here
+
+=== Interfaces to Sage ===
+
+Make it easier to call Sage from other applications. 
 
  * Add task here
 
