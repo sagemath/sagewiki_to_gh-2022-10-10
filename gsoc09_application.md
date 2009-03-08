@@ -10,6 +10,8 @@ The FAQ for the Google Summer of Code 2009 is [[http://code.google.com/opensourc
 
 === Describe your organization. ===
 
+Sage is an open-source mathematical software system. It combines numerous software libraries under one umbrella. It's main user interface, besides the command-line, is a dynamic web-interface where worksheets are stored for each user. Python is the main programming language and also the language of choice for all interactions with the built in objects and functions. The goal of Sage is to create an open-source alternative to all other major proprietary mathematical software systems. 
+
 === Why is your organization applying to participate in GSoC 2009? What do you hope to gain by participating? ===
 
 === Did your organization participate in past GSoCs? If so, please summarize your involvement and the successes and challenges of your participation. ===
