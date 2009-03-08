@@ -23,7 +23,7 @@ and general AJAX techniques is needed.
 
  * Authentication backend (ldap, kerberos?)
 
-    The Sage notebook is a web-based AJAX application for multiple users. It allowes them to sign in to their worksheets, stored on the server. The authentication is handled by Sage. It would be very useful to connect the authentication mechanism with existing sytems like LDAP, Kerberos, Active Directory - possibly supporting single-side on systems - or other systems like OpenID (i.e. use your google or yahoo! account to log in using  https://www.google.com/accounts/o8/id or http://openid.yahoo.com/ )
+    The Sage notebook is a web-based AJAX application for multiple users. It allowes them to sign in to their worksheets, stored on the server. The authentication is handled by Sage. It would be very useful to create a plugable authentication mechanism for existing sytems like LDAP, Kerberos, Active Directory, etc. - possibly supporting single-side-on - or other systems like OpenID (i.e. use your google or yahoo! account to log in using  https://www.google.com/accounts/o8/id or http://openid.yahoo.com/ )
 
  * Refactoring
   * independent component of Sage
