@@ -17,12 +17,16 @@ The FAQ for the Google Summer of Code 2009 is [[http://code.google.com/opensourc
 === If your organization has not previously participated in GSoC, have you applied in the past? If so, for what year(s)? ===
 
 === What license(s) does your project use? ===
+GPLv2+, GPLv3, Apache 2.0
 
 === What is the URL for your ideas page? ===
+[[http://wiki.sagemath.org/gsoc09]]
 
 === What is the main development mailing list or forum for your organization? ===
+[[http://groups.google.com/group/sage-devel]]
 
 === What is the main IRC channel for your organization? ===
+[[irc://irc.freenode.org/#sage-devel]]
 
 === Does your organization have an application template you would like to see students use? If so, please provide it now. ===
 
