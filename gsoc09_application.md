@@ -2,6 +2,8 @@
 
 Here is a list of questions we're expected to answer as a part of the application for Google Summer of Code 2009.
 
+[[gsoc09|The list of ideas for 2009.]]
+
 The FAQ for the Google Summer of Code 2009 is [[http://code.google.com/opensource/gsoc/2009/faqs.html|here]].
 
 [[http://code.google.com/opensource/gsoc/2009/faqs.html#0_1_org_app_08250740394219425_|Original list of questions]] 
