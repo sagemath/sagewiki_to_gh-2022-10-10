@@ -30,8 +30,8 @@ and general AJAX techniques is needed.
   * move to Django
  * Improvements to interact
  * Add support for making presentations
-
- * Add task here
+ * Enhance export capabilites create methods for well designed PDF, LaTeX (with or without SageTeX) or ODF output.
+ * ...
 
 === Interfaces to Sage ===
 
