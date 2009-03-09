@@ -34,6 +34,8 @@ and general AJAX techniques is needed.
  * Improvements to interact
  * Add support for making presentations
  * Enhance export capabilites create methods for well designed PDF, LaTeX (with or without SageTeX) or ODF output.
+ * master-notebook, collection of other notebooks for a script or book.
+ * enhance history and snapshot capabilites.
  * ...
 
 === Interfaces to Sage ===
