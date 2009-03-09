@@ -24,10 +24,14 @@ GPLv2+, GPLv3, Apache 2.0
 === What is the URL for your ideas page? ===
 [[http://wiki.sagemath.org/gsoc09]]
 
+<<Anchor(mailinglist)>>
 === What is the main development mailing list or forum for your organization? ===
+
 [[http://groups.google.com/group/sage-devel]]
 
+<<Anchor(ircchannel)>>
 === What is the main IRC channel for your organization? ===
+
 
 The official IRC channel of the Sage project is [[irc://irc.freenode.net/#sage-devel|#sage-devel]] on [[http://freenode.net|freenode.net]]. There are usually more than 20 people logged in to the channel at any time. Since Sage developers are distributed around the world, it is possible to get answers to questions any time of day. Support from developers on IRC have received praise on many occasions, and led to many new comers choosing to use Sage instead of the propriety alternatives.
 
@@ -51,5 +55,9 @@ The Sage project tries to keep the bus factor for any component of the library h
 As also mentioned above, we plan to ask the students to submit progress reports to the development lists. While there will of course be only one official mentor, this way we can make sure that there are lots of eyes studying the work and suggesting improvements and the students progress is not tied to the attentiveness of the mentor during a certain time frame.
 
 === What steps will you take to encourage students to interact with your project's community before, during and after the program? ===
+
+Sage has a very active developer community, which communicates mainly through the [[#ircchannel|IRC channel]] and [[#mailinglist|mailing lists]] mentioned above. There are also workshops named [[MyStartingPage#sagedays|Sage Days]] with varying degrees of academic or development focus organized in universities in the US and in Europe. Dates and places of upcoming Sage Days are listed on the [[MyStartingPage#sagedays|front page]] of this wiki.
+
+The students working on GSoC projects for Sage will be encouraged to hang out in the IRC channel, and submit their questions and progress reports to the development list. Since the tone of the lists and the IRC channel is very supportive, this will hopefully be enough to get them in close contact with other developers and users interested in their work. Depending on funding, timing and place of Sage Days organizations, students will also be encouraged to attend a workshop where they can meet some developers in person, and join night long coding sprints. :)
 
 === What will you do to ensure that your accepted students stick with the project after GSoC concludes? ===
