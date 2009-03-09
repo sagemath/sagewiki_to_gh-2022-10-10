@@ -33,9 +33,11 @@ and general AJAX techniques is needed.
   * move to Django
  * Improvements to interact
  * Add support for making presentations
- * Enhance export capabilites create methods for well designed PDF, LaTeX (with or without SageTeX) or ODF output.
+ * Enhance export capabilities create methods for well designed PDF, LaTeX (with or without SageTeX) or ODF output.
  * master-notebook, collection of other notebooks for a script or book.
- * enhance history and snapshot capabilites.
+ * enhance history and snapshot capabilities.
+ * concurrent editing of one single document: only altered cells are updated and "collision" warnings issued if more than one change happens with appropriate methods to solve it
+ * read/write permission management for groups with roles (teacher is able to read notebooks, but students are not able to read each others)
  * ...
 
 === Interfaces to Sage ===
