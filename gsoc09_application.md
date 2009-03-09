@@ -19,7 +19,13 @@ Sage is an open-source mathematical software system. It combines numerous softwa
 === If your organization has not previously participated in GSoC, have you applied in the past? If so, for what year(s)? ===
 
 === What license(s) does your project use? ===
-GPLv2+, GPLv3, Apache 2.0
+
+Sage is a collection of [[http://www.sagemath.org/links-components.html|many open source packages]] most of which provide specialized mathematics functionality, with a library written mostly in Python, Cython with a little C/C++ to glue these together and provide a unified interface as well as implementations of new mathematical functionality. 
+
+Code submitted to the Sage library should be under the GPLv2 or later license. Code written during the GSoC is also expected to be under the GPLv2+. Contributors to Sage are not expected to transfer copyright to anybody or foundation.
+
+The distribution of Sage, including all the components mentioned above alongside the library, is under the GPLv3 license. Detailed license information about the components can be found in the COPYING.txt file of the corresponding release tarball.
+
 
 === What is the URL for your ideas page? ===
 [[http://wiki.sagemath.org/gsoc09]]
