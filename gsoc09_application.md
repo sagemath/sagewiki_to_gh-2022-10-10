@@ -28,7 +28,8 @@ GPLv2+, GPLv3, Apache 2.0
 [[http://groups.google.com/group/sage-devel]]
 
 === What is the main IRC channel for your organization? ===
-[[irc://irc.freenode.org/#sage-devel]]
+
+The official IRC channel of the Sage project is [[irc://irc.freenode.net/#sage-devel|#sage-devel]] on [[http://freenode.net|freenode.net]]. There are usually more than 20 people logged in to the channel at any time. Since Sage developers are distributed around the world, it is possible to get answers to questions any time of day. Support from developers on IRC have received praise on many occasions, and led to many new comers choosing to use Sage instead of the propriety alternatives.
 
 === Does your organization have an application template you would like to see students use? If so, please provide it now. ===
 
