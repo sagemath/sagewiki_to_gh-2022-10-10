@@ -40,6 +40,9 @@ and general AJAX techniques is needed.
  * read/write permission management for groups with roles (teacher is able to read notebooks, but students are not able to read each others)
  * ...
 
+=== Community Tools ===
+ * Enhance publishing of Notebook documents (i.e. like on [[http://www.sagenb.org/pub]]). Wiki-like platform for editing notebooks for publishing mathematical, physical, statistical and other content. Also, to efficiently exchange usage examples, tips and ideas.
+
 === Interfaces to Sage ===
 
 Make it easier to call Sage from other applications. 
