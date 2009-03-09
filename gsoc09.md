@@ -41,7 +41,10 @@ and general AJAX techniques is needed.
  * ...
 
 === Community Tools ===
- * Enhance publishing of Notebook documents (i.e. like on [[http://www.sagenb.org/pub]]). Wiki-like platform for editing notebooks for publishing mathematical, physical, statistical and other content. Also, to efficiently exchange usage examples, tips and ideas.
+ * Enhance publishing of Notebook documents (i.e. like on [[http://www.sagenb.org/pub]]).
+   * Wiki-like platform for editing notebooks for publishing mathematical, physical, statistical and other content. 
+   * tagging support, listings by tags
+   * efficiently exchange usage examples, tips and ideas.
 
 === Interfaces to Sage ===
 
