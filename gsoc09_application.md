@@ -14,9 +14,18 @@ Sage is an open-source mathematical software system. It combines numerous softwa
 
 === Why is your organization applying to participate in GSoC 2009? What do you hope to gain by participating? ===
 
+We hope to gain new contributors to the project who can help out with tasks oriented more towards software engineering. As we do with any contributor, we will also encourage GSoC students to stay as a member of the community and keep working with us even after the GSoC ends.
+
+While the Sage project tries to make it easy to submit fixes and enhancements (and it is mostly successful at this task with [[http://www.sagemath.org/development-map.html|>140 contributors]]), most of these fixes are to the mathematical functionality. Since most users and those interested in making Sage better are mathematicians, developers interested in enhancing the user interface or basic functionality are hard to find. Whereas it is relatively easier to find/finance a student to implement new mathematical functionality from research grants. We hope GSoC will be able to fill this gap.
+
+
 === Did your organization participate in past GSoCs? If so, please summarize your involvement and the successes and challenges of your participation. ===
 
+No, the Sage project did not participate in any past GSoCs as a mentor organization.
+
 === If your organization has not previously participated in GSoC, have you applied in the past? If so, for what year(s)? ===
+
+Applications of the Sage project as a mentor organization was not accepted for 2006, 2007 and 2008.
 
 === What license(s) does your project use? ===
 
@@ -28,7 +37,10 @@ The distribution of Sage, including all the components mentioned above alongside
 
 
 === What is the URL for your ideas page? ===
+The ideas for GSoC'09 projects are collected at this URL:
+
 [[http://wiki.sagemath.org/gsoc09]]
+
 
 <<Anchor(mailinglist)>>
 === What is the main development mailing list or forum for your organization? ===
