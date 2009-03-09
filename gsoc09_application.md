@@ -27,7 +27,11 @@ GPLv2+, GPLv3, Apache 2.0
 <<Anchor(mailinglist)>>
 === What is the main development mailing list or forum for your organization? ===
 
-[[http://groups.google.com/group/sage-devel]]
+Main development discussions take place on the [[http://groups.google.com/group/sage-devel|sage-devel]] Google Groups list.
+
+Support questions are mostly handled through the [[http://groups.google.com/group/sage-support|sage-support]] list.
+
+There are also other mailing lists for more specialized Sage related discussions, such as [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]], [[http://groups.google.com/group/sage-nt|sage-nt]], [[http://groups.google.com/group/sage-edu|sage-edu]] and [[http://groups.google.com/group/sage-words-dev|sage-words-dev]].
 
 <<Anchor(ircchannel)>>
 === What is the main IRC channel for your organization? ===
