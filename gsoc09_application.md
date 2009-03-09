@@ -46,6 +46,10 @@ It should also be noted that due to the nature of the Sage project, many develop
 
 === What is your plan for dealing with disappearing mentors? ===
 
+The Sage project tries to keep the bus factor for any component of the library higher than one. This is basically accomplished by asking for formal reviews and approval of submitted code from another developer before any patch is applied. Hence, there is always more than one person knowledgeable about a certain part of the library, and if there are problems with one mentor, someone else can take up the task.
+
+As also mentioned above, we plan to ask the students to submit progress reports to the development lists. While there will of course be only one official mentor, this way we can make sure that there are lots of eyes studying the work and suggesting improvements and the students progress is not tied to the attentiveness of the mentor during a certain time frame.
+
 === What steps will you take to encourage students to interact with your project's community before, during and after the program? ===
 
 === What will you do to ensure that your accepted students stick with the project after GSoC concludes? ===
