@@ -48,7 +48,7 @@ Participants needing hotel room (please add your name and dates here):
  * William Stein (arrive March 9; leave March 12)
  * Justin Walker (arrive March 9; leave March 12; have a room reserved)
  * Alex Ghitza (March 8 to March 13)
- * Andrey Novoseltsev (arrive March 9, leave March 12, reserved an "original double" room already)
+ * Andrey Novoseltsev (arrive March 9, leave March 12)
  * Kiran Kedlaya (March 11 to 13, but may not need to use the block)
 
 Reservations may be made by calling 1-800-992-9005 OR [[https://reservations.ihotelier.com/onescreen.cfm?hotelid=5082&languageid=1|directly on their website]]. Click on Corporate at the bottom of the screen reached by the link in the previous sentence.
@@ -66,7 +66,7 @@ Tuesday, March 10:
  * evening projects and discussion by people interested in coding
 
 Wednesday, March 11:
- * 9:30 - 10:30 am Andrey Novoseltsev: Lattice Polytopes using Sage
+ * 9:30 - 10:30 am Andrey Novoseltsev: Fibered K3 Surfaces using Sage
  * 11:00am - 12:00 pm: William Stein et al.: discussion about
              mathematical software -- what do you want?
  * 1:30 - 3:00 pm Mike Hansen, Michael Abshoff: Interactive Sage Tutorial - Developing for Sage (bring your laptop!)
