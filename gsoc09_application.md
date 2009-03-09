@@ -35,6 +35,15 @@ The official IRC channel of the Sage project is [[irc://irc.freenode.net/#sage-d
 
 === What is your plan for dealing with disappearing students? ===
 
+After committing to work on a well defined project with a mentor, there are few reasons for a student to disappear. We can't do anything about personal matters, such as family or health problems. Other possible reasons to give up on a project are lack of feedback from a mentor when one is struggling with technical problems and not being able to move on, or general communication problems between the student and the mentor.
+
+We plan to avoid running into these problems, first by carefully evaluating the applications and making sure that the student assigned to a task is capable of completing it, then by keeping in close contact with the mentor and the student so that communication problems can be noted and handled promptly. 
+
+We will also encourage students to post their progress reports and questions to the development lists and spend some time hanging out on IRC. Since Sage has a very lively community, and the topics suggested for the Google Summer of Code project are features requested by many developers and users, they will be sure to get feedback and support for their work.
+
+It should also be noted that due to the nature of the Sage project, many developers and likely mentors are related to academia, and have extensive experience tutoring and advising students.
+
+
 === What is your plan for dealing with disappearing mentors? ===
 
 === What steps will you take to encourage students to interact with your project's community before, during and after the program? ===
