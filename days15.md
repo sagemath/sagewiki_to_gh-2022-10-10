@@ -15,6 +15,7 @@
  * Craig Citro
  * Mike Hansen
  * Bill Hart
+ * Matt Klassen (digipen)
  * David Joyner
  * William Stein
  * John Palmieri
