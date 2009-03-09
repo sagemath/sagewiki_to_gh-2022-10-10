@@ -11,7 +11,7 @@
 
           * 1.1. Primer Template: An Example [[attachment:primer_template_example.sws]] 
 
-          * 1.2. Sage as a Smart Calculator [[attachment:basics.smart_calculator_0.4.sws]]
+          * 1.2. Sage as a Smart Calculator [[attachment:basics.smart_calculator_0.5.sws]]
 
           * 1.4. Sage Devel Basics [Erik, Aly]
 
