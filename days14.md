@@ -74,5 +74,5 @@ Wednesday, March 11:
 
 Thursday, March 12:
  * 10:30 - 11:30am Dan Bump: Lie theoretic methods in Sage
- * 1:00pm: final wrap-up
+ * 1:00 - 2:00pm: final wrap-up
 }}} 
