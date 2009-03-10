@@ -41,6 +41,7 @@ and general AJAX techniques is needed.
  * Add support for making presentations
  * Enhance export capabilities create methods for well designed PDF, LaTeX (with or without SageTeX) or ODF output.
  * master-notebook, collection of other notebooks for a script or book.
+ * Permanent hyperlinks between worksheets, independent of worksheet numbering, to support multi-worksheet documents (ie books)
  * enhance history and snapshot capabilities.
  * concurrent editing of one single document: only altered cells are updated and "collision" warnings issued if more than one change happens with appropriate methods to solve it
  * read/write permission management for groups with roles (teacher is able to read notebooks, but students are not able to read each others)
