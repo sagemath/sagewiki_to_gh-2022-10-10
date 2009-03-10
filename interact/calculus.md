@@ -950,3 +950,39 @@ def _(func=input_box('sqrt(x^3+y^3)',label="f(x,y)=",type=str), x0=1, y0=2, \
   show(A+B+C+CC+D)
 }}}
 {{attachment:3D_differential.png}}
+
+== Taylor approximations in two variables ==
+by John Palmieri
+
+{{{
+var('x y')
+var('xx yy', ns=1)
+G = sin(xx^2 + yy^2) * cos(yy) * exp(-0.5*(xx^2+yy^2))
+def F(x,y):
+    return G.subs(xx=x).subs(yy=y)
+plotF = plot3d(F, (0.4, 2), (0.4, 2), adaptive=True, color='blue')
+@interact
+def _(x0=(0.5,1.5), y0=(0.5, 1.5),
+      order=(1..10)):
+    F0 = float(G.subs(xx=x0).subs(yy=y0))
+    P = (x0, y0, F0)
+    dot = point3d(P, size=15, color='red')
+    plot = dot + plotF
+    approx = F0
+    for n in range(1, order+1):
+        for i in range(n+1):
+            if i == 0:
+                deriv = G.diff(yy, n)
+            elif i == n:
+                deriv = G.diff(xx, n)
+            else:
+                deriv = G.diff(xx, i).diff(yy, n-i)
+            deriv = float(deriv.subs(xx=x0).subs(yy=y0))
+            coeff = binomial(n, i)/factorial(n)
+            approx += coeff * deriv * (x-x0)^i * (y-y0)^(n-i)
+    plot += plot3d(approx, (x, 0.4, 1.6), 
+             (y, 0.4, 1.6), color='red', opacity=0.7)
+    html('$F(x,y) = e^{-(x^2+y^2)/2} \\cos(y) \\sin(x^2+y^2)$')
+    show(plot)
+}}}
+{{attachment:taylor-3d.png}}
