@@ -876,3 +876,40 @@ show_surface=("Show surface", True)):
     show(picture2d, aspect_ratio=1)
 }}}
 {{attachment:directional derivative.png}}
+
+== 3D graph with points ==
+By Robert Marik
+
+This sagelet is handy when showing local maxima and minima in two variables. 
+Available as a [[http://user.mendelu.cz/marik/sage/3Dgraph_with_points.sws|worksheet]]
+
+{{{
+x,y=var('x y')
+u,v=var('u v')
+html('<h2>Graph in two variables</h2>')
+@interact
+def _(func=input_box('2*x^3+x*y^2-5*x^2+y^2',label="f(x,y)=",type=str), xmin=-1,xmax=3, ymin=-1,ymax=3,\
+ st_points=input_box('(0,0),(5/3,0)',label="points", type=str),\
+ show_planes=("Show zero planes", False),  show_axes=("Show axes", True)):
+ f=sage_eval('lambda x,y: ' + func)
+ A=plot3d(f(x,y),(x,xmin,xmax),(y,ymin,ymax),opacity=0.5)
+ html(r'Function $ f(x,y)=%s$ '%latex(f(x,y)))
+ st_p=sage_eval('('+st_points+')')
+ for current in range(len(st_p)):
+   A=A+point3d((st_p[current][0],st_p[current][1],f(st_p[current][0],st_p[current][1])),size=9,rgbcolor='red')
+ if show_planes:
+   A=A+plot3d(0,(x,xmin,xmax),(y,ymin,ymax),opacity=0.3,rgbcolor='gray')
+   zmax=A.bounding_box()[1][2]
+   zmin=A.bounding_box()[0][2]
+   A=A+parametric_plot3d((u,0,v),(u,xmin,xmax),(v,zmin,zmax),opacity=0.3,rgbcolor='gray')
+   A=A+parametric_plot3d((0,u,v),(u,ymin,ymax),(v,zmin,zmax),opacity=0.3,rgbcolor='gray')
+ if show_axes:
+   zmax=A.bounding_box()[1][2]
+   zmin=A.bounding_box()[0][2]
+   A=A+line3d([(xmin,0,0), (xmax,0,0)], arrow_head=True,rgbcolor='black') 
+   A=A+line3d([(0,ymin,0), (0,ymax,0)], arrow_head=True,rgbcolor='black') 
+   A=A+line3d([(0,0,zmin), (0,0,zmax)], arrow_head=True,rgbcolor='black') 
+ show(A)
+}}}
+
+{{attachment:3Dgraph_with_points.png}}
