@@ -2,6 +2,13 @@
 
 This is a list of projects suitable for [[days14 | Sage Days 14]].  Feel free to add your favourite ideas/wishes, and to put your name down for something you're interested in (you'll need to get an account on the wiki to do this).  The projects can be about Sage, or Macaulay2, or both.
 
+== Get the 3d implicit plotting code to work better ==
+
+  * See trac http://trac.sagemath.org/sage_trac/ticket/5249
+  * Weird bumpiness
+  * Colors
+  * Put Alex Ghitza's examples (from the singular book) into Sage. 
+
 == Create an interface from Macaulay2 to Sage ==
 
 Make it possible to use Sage *from* Macaulay2.  See http://trac.sagemath.org/sage_trac/ticket/5475 for something maybe useful.
