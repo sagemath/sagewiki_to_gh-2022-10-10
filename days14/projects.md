@@ -6,24 +6,9 @@ This is a list of projects suitable for [[days14 | Sage Days 14]].  Feel free to
 
 Make it possible to use Sage *from* Macaulay2.
 
-== The Sage/Macaulay2 interface is evidently not very robust ==
+== Improve robustness of the Sage/Macaulay2 ==
 
-For example, in the following session I quickly get nonsense when the input is large:
-{{{
-sage: R.<x,y,z> = GF(997)[]; R
-Multivariate Polynomial Ring in x, y, z over Finite Field of size 997
-sage: macaulay2(x)
-x
-sage: 997*macaulay2(x)
-0
-sage: macaulay2((x+y+z+1)^20)
-997   #HUH??
-sage: str(macaulay2((x+y+z+1)^20))
-x     # HUH??
-sage: macaulay2.console()
-Macaulay 2, version 1.1
-}}}
-
+See http://trac.sagemath.org/sage_trac/ticket/5467
 
 == Improve Sage visualisation capabilities ==
 
