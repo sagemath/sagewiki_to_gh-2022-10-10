@@ -4,7 +4,7 @@ This is a list of projects suitable for [[days14 | Sage Days 14]].  Feel free to
 
 == Create an interface from Macaulay2 to Sage ==
 
-Make it possible to use Sage *from* Macaulay2.
+Make it possible to use Sage *from* Macaulay2.  See http://trac.sagemath.org/sage_trac/ticket/5475 for something maybe useful.
 
 == Improve robustness of the Sage/Macaulay2 ==
 
