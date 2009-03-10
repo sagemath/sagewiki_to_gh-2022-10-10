@@ -15,7 +15,7 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
 
 === Tuesday, March 10 ===
 || 9 - 10 am || William Stein: [[http://wstein.org/talks/20090310-msri-sd14/ | Introduction to Sage]] ||
-|| 10:30 - 11:30 || David Eisenbud and Mike Stillman: Doing Algebraic Geometry in Macaulay2 -- an introduction||
+|| 10:30 - 11:30 || David Eisenbud and Mike Stillman: Doing Algebraic Geometry in Macaulay2 -- an introduction [[attachment:cubicsurface.m2]] ||
 || 1:00 - 2:00pm || Mike Hansen: The Sage/Macaulay2 interface ||
 || 2:30 - 3:30 pm || Alex Ghitza: Algebraic Geometry using Sage ||
 || 4:00 - 5:30 pm || Justin Walker et al.: Interactive Sage Tutorial - Using Sage (bring your laptop!)||
