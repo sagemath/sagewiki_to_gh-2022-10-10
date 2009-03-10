@@ -913,3 +913,38 @@ def _(func=input_box('2*x^3+x*y^2-5*x^2+y^2',label="f(x,y)=",type=str), xmin=-1,
 }}}
 
 {{attachment:3Dgraph_with_points.png}}
+
+== Approximating function in two variables by differential ==
+by Robert Marik
+{{{
+x,y=var('x y')
+html('<h2>Explaining approximation of a function in two \
+variables by differential</h2>')
+html('Points x0 and y0 are values where the exact value of the function \
+is known. Deltax and Deltay are displacements of the new point. Exact value \
+and approximation by differential at shifted point are compared.')
+@interact
+def _(func=input_box('sqrt(x^3+y^3)',label="f(x,y)=",type=str), x0=1, y0=2, \
+  deltax=slider(-1,1,0.01,0.2),\
+  deltay=slider(-1,1,0.01,-0.4), xmin=0, xmax=2, ymin=0, ymax=3):
+  f=sage_eval('lambda x,y: ' + func)
+  derx(x,y)=diff(f(x,y),x)
+  dery(x,y)=diff(f(x,y),y)
+  tangent(x,y)=f(x0,y0)+derx(x0,y0)*(x-x0)+dery(x0,y0)*(y-y0)
+  A=plot3d(f(x,y),(x,xmin,xmax),(y,ymin,ymax),opacity=0.5)
+  B=plot3d(tangent(x,y),(x,xmin,xmax),(y,ymin,ymax),color='red',opacity=0.5)
+  C=point3d((x0,y0,f(x0,y0)),rgbcolor='blue',size=9)
+  CC=point3d((x0+deltax,y0+deltay,f(x0+deltax,y0+deltay)),rgbcolor='blue',size=9)
+  D=point3d((x0+deltax,y0+deltay,tangent(x0+deltax,y0+deltay)),rgbcolor='red',size=9)
+  exact_value_ori=f(x0,y0).n(digits=10)
+  exact_value=f(x0+deltax,y0+deltay)
+  approx_value=tangent(x0+deltax,y0+deltay).n(digits=10)
+  abs_error=(abs(exact_value-approx_value))
+  html(r'Function $ f(x,y)=%s \approx %s $ '%(latex(f(x,y)),latex(tangent(x,y))))
+  html(r' $f %s = %s$'%(latex((x0,y0)),latex(exact_value_ori)))
+  html(r'Shifted point $%s$'%latex(((x0+deltax),(y0+deltay))))
+  html(r'Value of the function in shifted point is $%s$'%f(x0+deltax,y0+deltay))
+  html(r'Value on the tangent plane in shifted point is $%s$'%latex(approx_value))
+  html(r'Error is $%s$'%latex(abs_error)) 
+  show(A+B+C+CC+D)
+}}}
