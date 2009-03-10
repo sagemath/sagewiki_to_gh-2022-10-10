@@ -23,6 +23,8 @@ People: Alex Ghitza,
 
 Go through schemes/* and add docstrings and doctests everywhere they're missing.  This is a good project for becoming familiar with the Sage code; it is also sorely needed.
 
+I (=William) did something -- w00t!: http://trac.sagemath.org/sage_trac/ticket/5476
+
 
 == Hierarchy of algebraic-geometric objects in Sage ==
 
