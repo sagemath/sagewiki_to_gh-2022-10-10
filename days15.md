@@ -3,7 +3,7 @@
 == DATES: May 16 - 21, 2009 ==
 
 == Location ==
- * The campus of University of Washington
+ * The campus of University of Washington, Digipen, and Microsoft Research.
 
 == Topics ==
  * Computational Algebraic Topology
@@ -47,3 +47,5 @@ hotel to Digipen:
 
 Microsoft is on the corner of NE 36th place and 148th Ave, which is
 about 1/3rd of the way from the hotel to Digipen.
+
+ * [http://sage.math.washington.edu/home/wdj/sagedays/sagedays15.pdf Flyer] (pdf)
