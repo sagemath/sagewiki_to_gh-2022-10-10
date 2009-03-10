@@ -55,15 +55,13 @@ Reservations may be made by calling 1-800-992-9005 OR [[https://reservations.iho
 
 == Schedule ==
 
-{{{
-Tuesday, March 10:
- * 9 - 10 am William Stein: Introduction to Sage
- * 10:30 - 11:30 David Eisenbud and Mike Stillman: Doing Algebraic
-                 Geometry in Macaulay2 -- an introduction
- * 1:00 - 2:00pm Mike Hansen: The Sage/Macaulay2 interface
- * 2:30 - 3:30 pm: Alex Ghitza: Algebraic Geometry using Sage
- * 4:00 - 5:30 pm Justin Walker et al.: Interactive Sage Tutorial - Using Sage (bring your laptop!)
- * evening projects and discussion by people interested in coding
+=== Tuesday, March 10 ===
+|| 9 - 10 am || William Stein: [[http://wstein.org/talks/20090310-msri-sd14/ | Introduction to Sage]] ||
+|| 10:30 - 11:30 || David Eisenbud and Mike Stillman: Doing Algebraic Geometry in Macaulay2 -- an introduction||
+|| 1:00 - 2:00pm || Mike Hansen: The Sage/Macaulay2 interface ||
+|| 2:30 - 3:30 pm || Alex Ghitza: Algebraic Geometry using Sage ||
+|| 4:00 - 5:30 pm || Justin Walker et al.: Interactive Sage Tutorial - Using Sage (bring your laptop!)||
+|| 5:30 - 6:00pm || Project organization -- discussion by people interested in coding||
 
 Wednesday, March 11:
  * 9:30 - 10:30 am Andrey Novoseltsev: Fibered K3 Surfaces using Sage
