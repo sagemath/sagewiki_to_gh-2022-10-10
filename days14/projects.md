@@ -10,6 +10,10 @@ Make it possible to use Sage *from* Macaulay2.  See http://trac.sagemath.org/sag
 
 See http://trac.sagemath.org/sage_trac/ticket/5467
 
+== Implement automorphism_group for elliptic curves over finite fields ==
+
+Right now only {{{E.automorphisms()}}} is implemented, and it returns a list. 
+
 == Improve Sage visualisation capabilities ==
 
 People: Alex Ghitza, 
