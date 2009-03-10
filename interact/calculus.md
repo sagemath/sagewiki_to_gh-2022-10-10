@@ -954,6 +954,7 @@ def _(func=input_box('sqrt(x^3+y^3)',label="f(x,y)=",type=str), x0=1, y0=2, \
 == Taylor approximations in two variables ==
 by John Palmieri
 
+This displays the nth order Taylor approximation, for n from 1 to 10, of the function sin(x^2^ + y^2^) cos(y) exp(-(x^2^+y^2^)/2).
 {{{
 var('x y')
 var('xx yy', ns=1)
