@@ -916,6 +916,7 @@ def _(func=input_box('2*x^3+x*y^2-5*x^2+y^2',label="f(x,y)=",type=str), xmin=-1,
 
 == Approximating function in two variables by differential ==
 by Robert Marik
+
 {{{
 x,y=var('x y')
 html('<h2>Explaining approximation of a function in two \
@@ -948,3 +949,4 @@ def _(func=input_box('sqrt(x^3+y^3)',label="f(x,y)=",type=str), x0=1, y0=2, \
   html(r'Error is $%s$'%latex(abs_error)) 
   show(A+B+C+CC+D)
 }}}
+{{attachment:3D_differential.png}}
