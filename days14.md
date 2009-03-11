@@ -23,7 +23,7 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
 
 === Wednesday, March 11 ===
 ||9:30 - 10:30 am || Andrey Novoseltsev: Fibered K3 Surfaces using Sage ||
-||11:00am - 12:00 pm|| William Stein et al.: discussion about mathematical software -- what do you want? ||
+||11:00am - 12:00 pm|| William Stein et al.: discussion about mathematical software -- what do you want? [[/what|Questions]] ||
 || 1:30 - 3:00 pm || Mike Hansen, Michael Abshoff: Interactive Sage Tutorial - Developing for Sage (bring your laptop!)||
 || afternoon/evening || projects and discussion by people interested in coding in Evans Hall||
 ||  4:10–5:00pm, 740 Evans || William Stein: Number Theory Seminar (not on Sage)||
