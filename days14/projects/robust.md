@@ -11,4 +11,4 @@
 #format wiki
 #language en
 
-= Title 1 = Some bugs involving the Macaulay2-sage interface
+Some bugs involving the Macaulay2-sage interface
