@@ -120,3 +120,5 @@ Call docstring:
 }}}
 
 4. C.dd, C.dd_3, (for C a Macaulay2 chain complex) should work.  For now, C.dot("dd")[3] works. C.dd should probably return a sage list of Macaulay2 matrices, until a 'ChainComplex' type is defined.
+
+5. The M2 executable should be called with a new argument "--print-width 0", so that M2 doesn't try to wrap output going to sage.
