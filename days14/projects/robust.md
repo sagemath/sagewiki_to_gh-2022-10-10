@@ -119,4 +119,4 @@ Call docstring:
     x.__init__(...) initializes x; see x.__class__.__doc__ for signature
 }}}
 
-4. C.dd, C.dd_3, (for C a Macaulay2 chain complex) should work.  For now, C.dot("dd")[3] works. C.dd should probably return a sage list of Macaulay2 matrices, until a ChainComplex type is defined.
+4. C.dd, C.dd_3, (for C a Macaulay2 chain complex) should work.  For now, C.dot("dd")[3] works. C.dd should probably return a sage list of Macaulay2 matrices, until a 'ChainComplex' type is defined.
