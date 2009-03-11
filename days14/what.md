@@ -28,12 +28,15 @@
  * etale cohomology
  * usable resolution of singularities
 
-=== Polytopes ===
+==== Polytopes ====
  * packages: lrs, cddlib, porta, 4ti2, polymake, coin/or
  * optimal performance: important algorithms are reverse search (lrs), double description
  * optimization: linear and integer programming (coin/or), semidefinite programming
  * combinatorial aspects
  * polymake puts a lot of these things together, but it does not build!
+
+==== Linear algebra ====
+ * for a lot of the above issues, we need very very fast linear algebra over a huge range of fields/rings
 
 == What are some things that disturb you about the direction in which Sage is going?  (E.g., too big/ambitious? not open enough or too open?  too many bugs?  changing too quickly? referee process for code inclusion too onerous?) ==
 
