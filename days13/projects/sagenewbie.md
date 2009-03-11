@@ -13,7 +13,7 @@
 
           * 1.2. Sage as a Smart Calculator [[attachment:basics.smart_calculator_0.5.sws]]
 
-          * 1.4. Sage Devel Basics [Erik, Aly]
+          * 1.4. Sage Devel Basics [Erik, Aly] [[attachment:dev_for_newbies.html]]-this needs to be restified.
 
     * 2. Calculus
 
