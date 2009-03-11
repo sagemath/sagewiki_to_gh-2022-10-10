@@ -46,8 +46,6 @@
  * third party code currently not refereed: how do we know it's reliable?
  * credit: young people, publication record
  * longterm survivability
- * keeping large scale vision, consistency among various development efforts/packages
+ * keeping large scale vision, consistency among various development efforts/packages: categories, generic algorithms and info, learn from Axiom and MuPAD-combinat
 
 == What are some things that disturb you about the direction in which Macaulay2 is going?  (similar e.g. as above) ==
-
- 
