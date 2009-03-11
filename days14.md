@@ -6,6 +6,9 @@ March 10 - 12, 2008 in Berkeley, CA
 
  * [[http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_workshop| Official MSRI Page]]
 
+
+[[attachment:polytope.png|{{attachment:polytope.png}}]]
+
 This is part of the [[http://ag.msri2009.org/|massive 2009 algebraic geometry program at MSRI]].
 
 We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|svg source file]]).
