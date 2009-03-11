@@ -1,6 +1,8 @@
 = Discussion: Sage, Macaulay 2, and other Mathematical Software for Algebraic Geometry =
 
  1. What are the absolutely critical "killer" features that you *must* have in the mathematical software you use for ''your'' research?
+
+ 1. What are the "killer" features that your dream mathematical software would have?
  
  1. Do you use or want to use 2d and 3d graphics in your research (or papers)?  If so, how?  What are you missing?
 
