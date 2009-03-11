@@ -47,5 +47,7 @@
  * credit: young people, publication record
  * longterm survivability
  * keeping large scale vision, consistency among various development efforts/packages: categories, generic algorithms and info, learn from Axiom and MuPAD-combinat
+ * more documentation: to improve consistency, explain options to user (there can be 25 different algorithms for doing one thing)
+ * track usage
 
 == What are some things that disturb you about the direction in which Macaulay2 is going?  (similar e.g. as above) ==
