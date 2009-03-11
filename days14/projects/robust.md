@@ -118,3 +118,5 @@ o5 = -- code for method: gcd(List)
 Call docstring:
     x.__init__(...) initializes x; see x.__class__.__doc__ for signature
 }}}
+
+4. C.dd, C.dd_3, C_3 (for C a Macaulay2 chain complex) should work.
