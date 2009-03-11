@@ -42,7 +42,11 @@
 == What are some things that disturb you about the direction in which Sage is going?  (E.g., too big/ambitious? not open enough or too open?  too many bugs?  changing too quickly? referee process for code inclusion too onerous?) ==
  * developer \neq user => lameness  (e.g. gfan, polyhedral code)
  * language, "relations", US-ification, Sage taking over the universe of free math software is dangerous, respect for other math software
-
+ * bugginess in core algebraic geometry code: not up to snuff, cannot trust the answers now, need to first fix the basics before implementing new stuff
+ * third party code currently not refereed: how do we know it's reliable?
+ * credit: young people, publication record
+ * longterm survivability
+ * keeping large scale vision, consistency among various development efforts/packages
 
 == What are some things that disturb you about the direction in which Macaulay2 is going?  (similar e.g. as above) ==
 
