@@ -58,3 +58,5 @@
  * uncertainty of long-term funding (only NSF, fickle)
  * todo list needs to be upgraded (just text files in svn repository now)
  * webpage needs to be upgraded
+ * narrow scope restricts number of developers (only commutative algebraists and algebraic geometers can contribute, and the intersection between this set and the set of software engineers/programmers is too small)
+ * narrow scope restricts users (e.g. lack of group theory functionality makes some algebraic geometers have to use a different system for their research)
