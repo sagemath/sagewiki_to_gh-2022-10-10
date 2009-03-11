@@ -1,18 +1,7 @@
-## Please edit system and help pages ONLY in the master wiki!
-## For more information, please see MoinMoin:MoinDev/Translation.
-## IMPORTANT NOTE:
-## When you use this page as a template for creating your project page:
-##  * please remove all lines starting with two hashes (##)
-##  * except the acl line, please keep that, but remove one hash, so it reads #acl ...
-##  * fix the acl line so it has the correct page instead of the sample Project/...Group
-##acl Project/AdminGroup:admin,read,write,delete,revert Project/ReadWriteGroup:read,write Project/ReadGroup:read
-##master-page:Unknown-Page
-##master-date:Unknown-Date
-#format wiki
-#language en
-
 Some bugs involving the Macaulay2-sage interface
 
 1. In a notebook, running sage, the following displays the tex source instead of the formatted tex.
 
-       m = macaulay2('matrix {{1,2},{3,4}}')
+{{{
+    m = macaulay2('matrix {{1,2},{3,4}}')
+}}}
