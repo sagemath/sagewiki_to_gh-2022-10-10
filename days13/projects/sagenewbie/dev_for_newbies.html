@@ -1,0 +1,101 @@
+Sage Development for Newbies.
+
+Sage comes with a nifty program called the Mercurial which is the source control system that is included with Sage.
+1. Before using Mercurial, make sure to define your username so the patches you make are identified as yours. Make a file ~/.hgrc in your home directory like this one:
+
+[ui]
+username = Carl Gauss <cgauss@math.university.edu>
+
+and so you are able to happily use Sage should your code break everything, make a copy to modify:
+
+2.  At the command line in the sage directory type: sage -clone namehere, example:
+~/sage-3.4.alpha0: sage -clone myver
+
+3. Next, go write some code!  For example and example ofcode to put in the sage clone, create a function that returns the polynomial of a Quadratic Form.  You can first create and text the code in the sage notebook or at the command line.  After formatting to the code to Sage standards (see the Development Guide: http://www.sagemath.org/doc/prog/node9.html), save the code as part of the appropriate file. For example take:
+
+##=============================================================================================================
+
+    def polynomial(self):
+	"""
+	Returns the polynomial of the quadratic form in the ring R[X] where X=<x0,x1,...,x(n-1)>
+	Input: Q - a quadratic form
+        Output: P - the polynomial form of a Quadratic form
+	EXAMPLES:
+	    sage: Q = DiagonalQuadraticForm(QQ,[1,3,5,7])
+	    sage: P = Q.polynomial(); P
+	    2*x0^2 + 6*x1^2 + 10*x2^2 + 14*x3^2
+	"""
+	M = self.matrix()
+        n = self.dim()
+        R = PolynomialRing(self.base_ring(),'x',n)
+        V = vector([R.gens()[i] for i in range(n)])
+        P = (M*V).dot_product(V)
+        return P
+
+
+
+##=============================================================================================================
+
+When you are satisfied with the code, copy it into ~/sage-3.4.alpha0/devel/sage-myver/sage/quadratic_forms/quadratic_forms.py
+
+Notice that the above code calls PolynomialRing and vector.  Checking the import statements at the top of quadratic_forms.py we see that neither is supported, so we add the following to the import statements
+##===============================================================================
+from sage.rings.polynomial.polynomial_ring_constructor import PolynomialRing
+from sage.modules.free_module_element import vector
+##===============================================================================
+
+For the first, to find the correct path, at the Sage command line or in you notebook type:
+PolynomialRing?? <shift>+<enter>
+The top line gives the file, just use the path beginning at sage and follow the above syntax.
+
+Now you need to build your copy of sage with these changes.  Go to 
+~/Desktop/sage-3.4.alpha0$
+and run sage -b myver (or sage -br myver to run sage-myver on completion)
+i.e.
+~/Desktop/sage-3.4.alpha0$ ./sage -br myver
+
+This shouldn't take long.
+Then you can try some examples.  
+
+Now comes to the fun part, where you submit your changes to the Sage community, i.e. you submit your code as a patch.
+
+This is where we use the Mercurial to produce these patch files.  You can use the notebook or the Sage command line.
+At the Sage command line type or in a notebook cell:
+hg_sage.status()
+then 
+hg_sage.diff()
+
+Next commit the changes in the files to the repository.  First the output of hg_diff is displayed: look at it or just enter q. Then you are dumped into an editor to type a brief comment on the changes. The default editor is vi, so type i, write some meaningful one line description, hit Escape and type :wq.  This also shows your username as given in the file you created previously (see above).  Quick note: In bash, to make emacs the default editor, type export EDITOR=emacs (or whatever you like to use). 
+
+Now to finally create a patch, first type
+hg_sage.log() 
+to see your revision number.  
+This is the 5-digit number at the top of the screen following changeset, ie.
+changeset:   11732:5d9f5da78387
+the revision number here is 11732.
+
+Then type 
+hg_sage.export('revision number here')  (make sure to use ' ')
+
+Your patch is now located in your sage-*.*.* folder (in this example sage-3.4.alpha0) as revision_number.patch.  
+
+To see this in the notebook format, use the same commands in the same order, for an example check out the notebook: development_for_newbies
+
+If you want to apply a patch file, use the command hg_sage.patch('filename').
+
+The next step is to post your patch on the Sage trac server.
+To post to the trac server you must first get a trac account.  To do this: "write an email to michael.abshoff.abc@googlemail.com [remove the abc] and provide an account name and password. The account name should be non-silly, i.e. no first names, no leet-handles. Ideally it should be the first character of your first name together with your last name. It is also recommended that it should be identical or at least close to your Google group's handle. The password currently cannot be changed by the user."
+
+Once you have a trac account you can post a patch as a ticket. (First look around and get a feel for the site and how the tickets are written). Click on New Ticket in upper right hand corner.  And fill in like so:
+Create New Ticket:
+Summary: [with patch, needs review] Quadratic Form polynomial
+Description: Given a quadratic form Q over the ring R of dimension n, this returns the polynomial form in n variables over R.   
+Type: enhancement   Priority: trivial
+Milestone: sage-3.4.1  Component: quadratic forms
+Keywords: quadratic forms
+check box: I have files to attach to this ticket
+then click on the create ticket.
+The next page allows you to attach the patch.
+After attaching the patch you are now a Sage developer!
+
+
