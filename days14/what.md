@@ -51,3 +51,10 @@
  * track usage
 
 == What are some things that disturb you about the direction in which Macaulay2 is going?  (similar e.g. as above) ==
+ * all of the above
+ * very few developers (solution: M2 days, packages, journal)
+ * documentation and tutorial issues (improving)
+ * community building lacking
+ * uncertainty of long-term funding (only NSF, fickle)
+ * todo list needs to be upgraded (just text files in svn repository now)
+ * webpage needs to be upgraded
