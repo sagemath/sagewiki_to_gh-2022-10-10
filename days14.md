@@ -18,7 +18,7 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
 || 10:30 - 11:30 || David Eisenbud and Mike Stillman: Doing Algebraic Geometry in Macaulay2 -- an introduction [[attachment:cubicsurface.m2]] and [[attachment:cubicsurface.sws]] ||
 || 1:00 - 2:00pm || Mike Hansen: The Sage/Macaulay2 interface ||
 || 2:30 - 3:30 pm || Alex Ghitza: Algebraic Geometry using Sage [[attachment:main.pdf]], [[attachment:SD14__Algebraic_schemes.sws]], [[attachment:SD14__Morphisms_and_points.sws]], [[attachment:SD14__Curves.sws]], [[attachment:SD14__Elliptic_curves.sws]], [[attachment:SD14__Visualisation_1.sws]], [[attachment:SD14__Visualisation_2.sws]], [[attachment:SD14__Visualisation_3.sws]] (NOTE: some graphing functionality relies on patches not yet merged into Sage -- so they'll probably not work for you yet.) ||
-|| 4:00 - 5:30 pm || Justin Walker et al.: [[attachment:Tut.pdf | Sage Tutorial]] Interactive Sage Tutorial - Using Sage (bring your laptop!)||
+|| 4:00 - 5:30 pm || Justin Walker et al.:  Interactive Sage Tutorial - Using Sage (bring your laptop!)[[attachment:Tut.pdf | Sage Tutorial,]][[attachment:Resources.pdf | Sage Resources,]][[attachment:stuff.sage| Sage Examples,]][[attachment:ram.sage | RamifiedPrimes function]]||
 || 5:30 - 6:00pm || Project organization -- discussion by people interested in coding||
 
 === Wednesday, March 11 ===
