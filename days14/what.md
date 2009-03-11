@@ -8,4 +8,4 @@
 
  1. What are some things that disturb you about the direction in which Macaulay2 is going?  (similar e.g. as above)
 
- 1. Should Macaulay2 be made a standard component of Sage this year?  Why or why not? 
+ 
