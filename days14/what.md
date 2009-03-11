@@ -1,6 +1,6 @@
 = Discussion: Sage, Macaulay 2, and other Mathematical Software for Algebraic Geometry =
 
- 1. What are the absolutely critical features that you *must* have in the mathematical software you use for ''your'' research? (E.g., fast linear algebra, Groebner basis, sheaves?)
+ 1. What are the absolutely critical features that you '''must''' have in the mathematical software you use for '''your''' research? (E.g., fast linear algebra, Groebner basis, sheaves?)
 
  1. What are the '''killer features''' that your dream mathematical software would have? (e.g., good mailing list, free, super fast algorithm for XXX, latex output?)
  
