@@ -12,7 +12,7 @@
 
 == What are the '''killer features''' that your dream mathematical software would have? (e.g., good mailing list, free, super fast algorithm for XXX, latex output?) ==
  * (huge) polyhedral geometry (not just polymake)
- * representation theory for finite groups (char 0 and modular, not just GAP)
+ * representation theory for finite groups (char 0 and modular, not just GAP, compare to what MAGMA can do -- and how fast it can do it)
  * rings of representations (Grothendieck rings, etc.)
  * local rings and global rings: localization, really working (not just M2)
  * GB over all rings (e.g. field extensions), even noncommutative when possible
