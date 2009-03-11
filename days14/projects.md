@@ -22,15 +22,6 @@ Make it possible to use Sage *from* Macaulay2.  See http://trac.sagemath.org/sag
 
 See http://trac.sagemath.org/sage_trac/ticket/5467
 
-== Implement automorphism_group for elliptic curves over finite fields ==
-
-Right now only {{{E.automorphisms()}}} is implemented, and it returns a list. 
-
-== Improve Sage visualisation capabilities ==
-
-People: Alex Ghitza, 
-
-There is good 2d plotting infrastructure, and nicely developing 3d plotting.  We should attach this functionality to algebraic curves, surfaces, etc.
 
 
 == Documentation for algebraic geometry code in Sage ==
@@ -66,3 +57,13 @@ This is about infrastructure and long-term plans.  We need to look at the existi
   * Weird bumpiness
   * Colors
   * Put Alex Ghitza's examples (from the singular book) into Sage. 
+
+== Implement automorphism_group for elliptic curves over finite fields ==
+
+Right now only {{{E.automorphisms()}}} is implemented, and it returns a list. 
+
+== Improve Sage visualisation capabilities ==
+
+People: Alex Ghitza, 
+
+There is good 2d plotting infrastructure, and nicely developing 3d plotting.  We should attach this functionality to algebraic curves, surfaces, etc.
