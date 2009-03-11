@@ -2,27 +2,28 @@
 
 == What are the absolutely critical features that you '''must''' have in the mathematical software you use for '''your''' research? (E.g., fast linear algebra, Groebner basis, sheaves?) ==
  * modular forms
- * fast R[x_1,...,x_n], and f^(1/n)
- * GB's, free resolutions, flexible gradings, term orders
+ * fast R[x_1,...,x_n], also with fractional exponents
+ * GB's, flexible gradings, term orders
  * rings (not necessarily commutative)
  * modules (not just ideals, not just free)
- * homological algebra
+ * sheaves
+ * homological algebra (free resolutions)
  * linear algebra with basis an arbitrary index set I
- * fast sparse and dense linear algebra over GF(q)
+ * fast sparse and dense linear algebra over finite fields
 
 == What are the '''killer features''' that your dream mathematical software would have? (e.g., good mailing list, free, super fast algorithm for XXX, latex output?) ==
- * (huge) polyhedral geometry (not just polymake)
+ * (huge) polyhedral geometry (not just polymake, see more below)
  * representation theory for finite groups (char 0 and modular, not just GAP, compare to what MAGMA can do -- and how fast it can do it)
  * rings of representations (Grothendieck rings, etc.)
  * local rings and global rings: localization, really working (not just M2)
  * GB over all rings (e.g. field extensions), even noncommutative when possible
- * full functoriality (e.g. GL_n-actions, functors, operations on functors, Yoneda product, tensor products)
- * full homological algebra (spectral sequences, etc.)
+ * full functoriality (e.g. preservation of GL_n-actions, functors, operations on functors, Yoneda product, tensor products)
+ * full homological algebra (spectral sequences, derived categories, etc.)
  * parallelize everything
  * deformation theory
- * a "good clean" programming language (not just M2, e.g. Maple -- having to put things into rings before being able to use them is annoying)
+ * a "good clean" programming language (not just M2, e.g. Maple -- having to put things into rings before being able to use them is annoying; work easily with general expressions)
  * super fast GB's and syzygies (speed and low memory usage)
- * super fast primary decomposition (e.g. numerical) and integral closure
+ * super fast and low memoryprimary decomposition (e.g. numerical) and integral closure
  * sheaves, Chern classes, intersection theory on singular spaces
  * algebraic topology on complex and real points on a variety
  * etale cohomology
@@ -30,8 +31,8 @@
 
 ==== Polytopes ====
  * packages: lrs, cddlib, porta, 4ti2, polymake, coin/or
- * optimal performance: important algorithms are reverse search (lrs), double description
- * optimization: linear and integer programming (coin/or), semidefinite programming
+ * optimal performance: important algorithms are reverse search (as in lrs, uses less memory), double description (track the duals, as in cdd and 4ti2)
+ * optimization: linear and integer programming (coin/or), semidefinite programming (any good software for this?)
  * combinatorial aspects
  * polymake puts a lot of these things together, but it does not build!
 
