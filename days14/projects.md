@@ -5,7 +5,8 @@ This is a list of projects suitable for [[days14 | Sage Days 14]].  Feel free to
 == 4ti2 ==
  * Mike Hansen
  * William Stein
-
+ * Peter Malkin
+ * Matthias Koeppe
 
 == Create an interface from Macaulay2 to Sage ==
 
