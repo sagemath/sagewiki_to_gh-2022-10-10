@@ -157,6 +157,7 @@ def _(tiempo=(0.1*j for j in (0..10))):
     pt = plot(ft,0, 2*pi, color='green', thickness=2)
     show(p + pt, ymin = -.2)
 }}}
+{{attachment:heat_fourier.png}}
 
 == Heat equation using finite diferences in cython (very fast!) ==
 by Pablo Angulo
@@ -196,3 +197,5 @@ def _(f=input_box(default=x*exp(-x^2)), longitud=input_box(default=2*pi),
     ut=calor_cython(u0,dx,k,tiempo,tsteps)
     show( line2d(zip(xs, u0)) + line2d(zip(xs, ut), rgbcolor='green') )
 }}}
+
+{{attachment:heat_findif.png}}
