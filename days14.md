@@ -25,7 +25,7 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
 || 5:30 - 6:00pm || Project organization -- discussion by people interested in coding||
 
 === Wednesday, March 11 ===
-||9:30 - 10:30 am || Andrey Novoseltsev: Fibered K3 Surfaces using Sage ||
+||9:30 - 10:30 am || Andrey Novoseltsev: Fibered K3 Surfaces using Sage (a.k.a. Lattice Polytopes using Sage) [[attachment:K3viaSage.pdf]], [[attachment:SD14PolytopeDemo.sws]]||
 ||11:00am - 12:00 pm|| William Stein et al.: discussion about mathematical software -- what do you want? [[/what|Questions]] ||
 || 1:30 - 3:00 pm || Mike Hansen, Michael Abshoff: Interactive Sage Tutorial - Developing for Sage (bring your laptop!)||
 || afternoon/evening || projects and discussion by people interested in coding in Evans Hall||
