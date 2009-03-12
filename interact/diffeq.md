@@ -152,10 +152,10 @@ orden=10
 alpha=[(n,c*numerical_integral(f(x)*sin(x*n/2),0,2*pi)[0] ) for n in range(1,orden)]
 
 @interact
-def _(tiempo=(0.1*j for j in (0..10))):
-    ft=sum(a*sin(x*n/2)*exp(-k*(n/2)^2*tiempo) for n,a in alpha)
-    pt = plot(ft,0, 2*pi, color='green', thickness=2)
-    show(p + pt, ymin = -.2)
+def _(tiempo = (0.1*j for j in (0..10)) ):
+    ft = sum( a*sin(x*n/2)*exp(-k*(n/2)^2*tiempo) for n,a in alpha)
+    pt = plot(ft, 0, 2*pi, color='green', thickness=2)
+    show( p + pt, ymin = -.2)
 }}}
 {{attachment:heat_fourier.png}}
 
@@ -164,6 +164,7 @@ by Pablo Angulo
 
 {{{
 %cython
+#cython code implementing a very simple finite diference scheme
 import numpy as np
 def calor_cython(u0,float dx, float k,float t_f,int tsteps):
     cdef int m
@@ -171,14 +172,14 @@ def calor_cython(u0,float dx, float k,float t_f,int tsteps):
     cdef float s
     u=np.array(u0)
     dt=t_f/tsteps
-    s=k*dt/(dx**2)        #tenemos que sustituir ^ por ** para exponenciar
+    s=k*dt/(dx**2)        #we cannot use ^ for exponentiation in cython
     for m in range(tsteps):
         u[1:-1]=(1-2*s)*u[1:-1]+s*u[0:-2]+s*u[2:]
     return u
 }}}
 
 {{{
-#Versión interactiva usando el código cython
+#interact box wrapping the code above
 var('x')
 
 @interact
@@ -192,7 +193,7 @@ def _(f=input_box(default=x*exp(-x^2)), longitud=input_box(default=2*pi),
     
     s=k*(tiempo/tsteps) /dx^2
     if s>0.5:
-        print 's=%f > 1/2!!!  El metodo no es estable'%s
+        print 's=%f > 1/2!!!  The method is not stable'%s
     
     ut=calor_cython(u0,dx,k,tiempo,tsteps)
     show( line2d(zip(xs, u0)) + line2d(zip(xs, ut), rgbcolor='green') )
