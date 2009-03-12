@@ -32,7 +32,7 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
 ||  4:10–5:00pm, 740 Evans || William Stein: Number Theory Seminar (not on Sage)||
 
 === Thursday, March 12 ===
-|| 10:30 - 11:30am || Dan Bump: Lie theoretic methods in Sage||
+|| 10:30 - 11:30am || Dan Bump: Lie theoretic methods in Sage (see http://sporadic.stanford.edu/bump/sagedays/)||
 || 1:00 - 2:00pm || final coding sprint project wrap-up ||
 
 
