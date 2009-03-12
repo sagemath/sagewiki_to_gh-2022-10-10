@@ -4,4 +4,4 @@ This page is dedicated to overall design discussions. Please add new topic as yo
 
   * CombinatorialClass
   * WordDesign
- 
+  * CategoryFrameworkAndCleanup  
