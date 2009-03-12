@@ -57,8 +57,11 @@ See http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_participants fo
  * Dan Grayson
  * Mike Hansen
  * Kiran Kedlaya (March 11-13)
+ * Mathias Koeppe
  * --(Emily Kirkman)--
+ * Peter Malkin
  * Andrey Novoseltsev
+ * Steve Pon
  * William Stein
  * Mike Stillman
  * Nicolas M. Thiéry
