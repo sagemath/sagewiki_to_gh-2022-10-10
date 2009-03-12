@@ -63,6 +63,8 @@ See http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_participants fo
  * Mike Stillman
  * Nicolas M. Thiery
  * Justin Walker
+ * Sebastian Xambo
+
 
 
 == Hotel ==
