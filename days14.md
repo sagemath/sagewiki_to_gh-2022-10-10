@@ -61,9 +61,9 @@ See http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_participants fo
  * Andrey Novoseltsev
  * William Stein
  * Mike Stillman
- * Nicolas M. Thiery
+ * Nicolas M. Thiéry
  * Justin Walker
- * Sebastian Xambo
+ * Sébastian Xambo
 
 
 
