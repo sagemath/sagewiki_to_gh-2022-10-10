@@ -160,9 +160,9 @@ Other features:
 * calibrated representations / calibrated graphs
 
 * double affine hecke algebra
-
+  {{{
     sage: H = DoubleAffineHeckeAlgebra(...)
     sage: B = H.YXT
-
+  }}}
 * non symmetric Macdonald polynomials through intertwining operators
 * ...
