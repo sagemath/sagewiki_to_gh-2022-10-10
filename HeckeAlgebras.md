@@ -32,6 +32,11 @@ parameters `q_1` and `q_2`.
     sage: HeckeAlgebra(R, W, q1, q2)
     The (q1,q2)-Hecke algebra of the Weyl group of type B_3
 
+}}}
+||<style="background-color: #FFFFE0;">''AM''  The most general Hecke algebra of type B has three parameters. In general, you can two generators for each (conjugacy class of) simple reflections. I also prefer the syntax {{{ WeylGroup("B",3) }}}. ||
+{{{
+
+
 The default value for the parameters give the usual normalization q1=q and q2=-1:
 
     sage: HeckeAlgebra(QQ['q'], W)
@@ -76,8 +81,9 @@ convenience for the reader?
 which would be equivalent to:
 
     sage: T[s[1]] + 2 * T[s[3]+s[2]+s[3]+s[1]]
-
-
+}}}
+||<style="background-color: #FFFFE0;">''AM''  I like the general syntax. My vote is to allow {{{T[1,2,3]}}} -- or instead {{{T(1,2,3)}}}? Is the .basis() really necessary in {{{ T.H.T().basis() }}}? I would prefer to use {{{ H.T(1) }}} rather than {{{ H.T().basis[1] }}} etc. <<BR>>There is also a question of how much we overload these basis functions. Do we accept integer sequences, simple root sequences, group elements, elements of algebra written with respect to another basis: {{{ H.T( H.C(w) )}}}? Chevie allows all of these, and that would be my vote. ||
+{{{
 Another option is to express elements in the Yang Baxter basis, which
 depends on a set of spectral parameters (aka an element of the torus
 of the Lie group, or character of the root lattice).
@@ -165,4 +171,7 @@ Other features:
     sage: B = H.YXT
   }}}
 * non symmetric Macdonald polynomials through intertwining operators
+
+* ''AM'' complex reflection groups: at some point I would hope to add functionality at least for the Hecke algebras of type {{{ G(r,1,n) }}}
+
 * ...
