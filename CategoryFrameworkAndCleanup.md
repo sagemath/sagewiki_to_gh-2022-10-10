@@ -10,3 +10,11 @@ Note that this will raise many problems because inheriting from Parent (a class)
  * mathematical comparison (see mailing lists discussion about < and sys-order) should be handled by a category {{{OrderedSets()}}} and {{{TotallyOrderedSets()}}} (or {{{OrderedSets()}}} and {{{PartialyOrderedSets()}}} whether it sounds more familiar to the english native people or not (remember non-negative :-) )
 
  * {{{list}}} and {{{__iter__}}} through a set should be handled by {{{EnumeratedSets()}}}
+
+ * Parent -> ParentMethods, Element -> ElementMethods
+ * Element as nested in Parent
+ * lookup for Element in all super classes of the parent
+ * super_categories, ..., generators as methods, not attributes (not yet convinced for one/product/coproduct)
+ * Fix the stupid inheritance for morphisms
+ * Better inheritance handling for covariant functors
+ * meet of categories
