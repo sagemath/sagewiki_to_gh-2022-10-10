@@ -5,13 +5,10 @@ NicolasBorie, DanBump, BrantJones, VincentFeray, FlorentHivert, MikeHansen, Andr
 
 There are pieces of code for it in many different places in MuPAD-Combinat, also a bit in Sage, etc. It is time for setting up where we want to go, and cleanup that mess!
 
-* http://mupad-combinat.svn.sourceforge.net/viewvc/mupad-combinat/trunk/MuPAD-Combinat/lib/EXAMPLES/HeckeAlgebra.mu
-
-* http://mupad-combinat.svn.sourceforge.net/viewvc/mupad-combinat/trunk/MuPAD-Combinat/lib/EXAMPLES/HeckeGroupAlgebra.mu
-
-* http://mupad-combinat.svn.sourceforge.net/viewvc/mupad-combinat/trunk/MuPAD-Combinat/experimental/2006-06-27-HeckeCoxeter.mu
-
-* http://www.mupad-combinat.svn.sourceforge.net:80/viewvc/mupad-combinat/trunk/MuPAD-Combinat/experimental/2008-02-13-HeckeSpechtModules.mu
+ * http://mupad-combinat.svn.sourceforge.net/viewvc/mupad-combinat/trunk/MuPAD-Combinat/lib/EXAMPLES/HeckeAlgebra.mu
+ * http://mupad-combinat.svn.sourceforge.net/viewvc/mupad-combinat/trunk/MuPAD-Combinat/lib/EXAMPLES/HeckeGroupAlgebra.mu
+ * http://mupad-combinat.svn.sourceforge.net/viewvc/mupad-combinat/trunk/MuPAD-Combinat/experimental/2006-06-27-HeckeCoxeter.mu
+ * http://www.mupad-combinat.svn.sourceforge.net:80/viewvc/mupad-combinat/trunk/MuPAD-Combinat/experimental/2008-02-13 HeckeSpechtModules.mu
 
 Here is a first draft of user story describing how we would want to use this algebra. Please expand and comment!
 
@@ -40,7 +37,7 @@ The default value for the parameters give the usual normalization q1=q and q2=-1
     sage: HeckeAlgebra(QQ['q'], W)
     The q-Hecke algebra of the Weyl group of type B_3
 
-(note: do we want to automatically extend the field with the parameter 'q'???
+(note: do we want to automatically extend the field with the parameter 'q'???)
 
 The parameters can also be specialized to numbers, like roots of
 unity, ... Here we construct the algebra of the symmetric group, the
