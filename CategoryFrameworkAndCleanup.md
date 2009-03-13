@@ -18,3 +18,4 @@ Note that this will raise many problems because inheriting from Parent (a class)
  * Fix the stupid inheritance for morphisms
  * Better inheritance handling for covariant functors
  * meet of categories
+ * tensor_product -> tensor
