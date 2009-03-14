@@ -12,6 +12,10 @@ See the [[days13/schedule|schedule]] page.
 
 See the [[days13/projects|projects]] page.
 
+== Photos ==
+
+ * [[http://picasaweb.google.com/wstein/SageDays13Georgia|William Stein's Photos]]
+
 == Location ==
 
 The event will be held at the [[http://www.uga.edu/visit/directions.html|University of Georgia]] at Athens.
