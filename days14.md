@@ -35,7 +35,7 @@ We now have a [[attachment:sd14.pdf|poster]] (or get the [[attachment:sd14.svg|s
 
 === Thursday, March 12 ===
 || 10:30 - 11:30am || Dan Bump: Lie theoretic methods in Sage (see http://sporadic.stanford.edu/bump/sagedays/)||
-|| 1:00 - 2:00pm || final coding sprint project wrap-up ||
+|| 1:30 - 3:00pm || final coding sprint project wrap-up ||
 
 
 == Organizers ==
