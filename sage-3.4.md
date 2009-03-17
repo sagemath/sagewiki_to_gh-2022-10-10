@@ -1,6 +1,6 @@
 = Sage 3.4 Release Tour =
 
-Sage 3.4 was released on March 03, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-3.4.txt|sage-3.4.txt]]. A nicely formatted version of this release tour can be found [[http://mvngu.wordpress.com/2009/03/16/sage-34-released/|here]]. The following points are some of the foci of this release:
+Sage 3.4 was released on March 11, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-3.4.txt|sage-3.4.txt]]. A nicely formatted version of this release tour can be found [[http://mvngu.wordpress.com/2009/03/16/sage-34-released/|here]]. The following points are some of the foci of this release:
 
  * Merging of Jon Hanke's quadratic forms code
  * Sphinxifying the Sage documentation and move its content to the main Sage development repository
