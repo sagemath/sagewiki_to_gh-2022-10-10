@@ -918,8 +918,8 @@ def _(func=input_box(INI_func,label="f(x,y)=",type=str),\
               </tr>'%(latex(x0),latex(y0),z0.n()))
          A=A+point3d((x0,y0,z0),size=9,rgbcolor=point_color)           
      html(r'</table>')
- bnd_cc=sage_eval('('+bnd_curves+',)',locals={'t':t})
- if not(bool(st_points=='')):
+ if not(bool(bnd_curves=='')):
+     bnd_cc=sage_eval('('+bnd_curves+',)',locals={'t':t})
      for current in range(len(bnd_cc)):
          bnd_c=bnd_cc[current]+('black',) 
          A=A+parametric_plot3d((bnd_c[0],bnd_c[1],f(bnd_c[0],bnd_c[1])),\
