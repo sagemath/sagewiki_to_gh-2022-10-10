@@ -128,6 +128,8 @@ import numpy as np
 def mandelbrot_cython(float x0,float  x1,float  y0,float  y1,int N=200, int L=50, float R=3):
     '''returns an array NxN to be plotted with matrix_plot
     '''
+    cdef complex c,z
+    cdef int h, i, k
     m= np.zeros([N,N], dtype=np.int)
     for i in range(N):
         for k in range(N):
