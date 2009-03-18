@@ -119,3 +119,31 @@ def f(A = matrix([[0,0,2],[1,0,1],[0,1,-1]]), D = '[[0,0,0],[1,0,0]]', k=(3..15)
 {{attachment:4.png}}
 ----
 CategoryCategory
+
+== Exploring Mandelbrot ==
+Pablo Angulo
+{{{
+%cython
+import numpy as np
+def mandelbrot_cython(float x0,float  x1,float  y0,float  y1,int N=200, int L=50, float R=3):
+    '''returns an array NxN to be plotted with matrix_plot
+    '''
+    m= np.zeros([N,N], dtype=np.int)
+    for i in range(N):
+        for k in range(N):
+            c=complex(x0+i*(x1-x0)/N, y0+k*(y1-y0)/N)
+            z=complex(0,0)
+            h=0
+            while (h<L) and (abs(z)<R):
+                z=z*z+c
+                h+=1
+            m[i,k]=h
+    return m
+}}}
+{{{
+@interact
+def showme_mandelbrot(x0=-2, y0=-1.5, side=3.0,N=(100*i for i in range(1,11)), L=(20*i for i in range(1,11)) ):
+    time m=mandelbrot_cython(x0 ,x0 + side ,y0 ,y0 + side , N, L )
+    time show(matrix_plot(m))
+}}}
+{{attachment:mandelbrot_cython.png}}
