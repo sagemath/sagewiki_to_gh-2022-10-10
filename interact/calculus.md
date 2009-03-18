@@ -877,38 +877,65 @@ show_surface=("Show surface", True)):
 }}}
 {{attachment:directional derivative.png}}
 
-== 3D graph with points ==
+== 3D graph with points and curves ==
 By Robert Marik
 
-This sagelet is handy when showing local maxima and minima in two variables. 
+This sagelet is handy when showing local, constrained and absolute maxima and minima in two variables. 
 Available as a [[http://user.mendelu.cz/marik/sage/3Dgraph_with_points.sws|worksheet]]
 
 {{{
-x,y=var('x y')
-u,v=var('u v')
-html('<h2>Graph in two variables</h2>')
+%hide
+%auto
+x,y, t, u, v =var('x y t u v')
+INI_func='x^2-2*x+y^2-2*y'
+INI_box='-1,3.2,-1,3.2'
+INI_points='(1,1,\'green\'),(3/2,3/2),(0,1),(1,0),(0,0,\'black\'),(3,0,\'black\'),(0,3,\'black\')'
+INI_curves='(t,0,0,3,\'red\'),(0,t,0,3,\'green\'),(t,3-t,0,3)'
 @interact
-def _(func=input_box('2*x^3+x*y^2-5*x^2+y^2',label="f(x,y)=",type=str), xmin=-1,xmax=3, ymin=-1,ymax=3,\
- st_points=input_box('(0,0),(5/3,0)',label="points", type=str),\
- show_planes=("Show zero planes", False),  show_axes=("Show axes", True)):
+def _(func=input_box(INI_func,label="f(x,y)=",type=str),\
+  bounds=input_box(INI_box,label="xmin,xmax,ymin,ymax",type=str),\
+  st_points=input_box(INI_points,\
+  label="points <br><small><small>(comma separated pairs, optionally with color)</small></small>", type=str),\
+  bnd_curves=input_box(INI_curves,label="curves on boundary<br> <small><small><i>(x(t),y(t),tmin,tmax,'opt_color')</i></small></small>", type=str),\
+ show_planes=("Show zero planes", False),  show_axes=("Show axes", True),  
+ show_table=("Show table", True)):
  f=sage_eval('lambda x,y: ' + func)
- A=plot3d(f(x,y),(x,xmin,xmax),(y,ymin,ymax),opacity=0.5)
  html(r'Function $ f(x,y)=%s$ '%latex(f(x,y)))
- st_p=sage_eval('('+st_points+')')
- for current in range(len(st_p)):
-   A=A+point3d((st_p[current][0],st_p[current][1],f(st_p[current][0],st_p[current][1])),size=9,rgbcolor='red')
+ xmin,xmax,ymin,ymax=sage_eval('('+bounds+')')
+ A=plot3d(f(x,y),(x,xmin,xmax),(y,ymin,ymax),opacity=0.5)
+ if not(bool(st_points=='')):
+     st_p=sage_eval('('+st_points+',)')
+     html(r'<table border=1>')
+     for current in range(len(st_p)):
+         point_color='red'
+         if bool(len(st_p[current])==3):
+              point_color=st_p[current][2]
+         x0=st_p[current][0]
+         y0=st_p[current][1]
+         z0=f(x0,y0)
+         if show_table:
+              html(r'<tr><td>$\quad f(%s,%s)\quad $</td><td>$\quad %s$</td>\
+              </tr>'%(latex(x0),latex(y0),z0.n()))
+         A=A+point3d((x0,y0,z0),size=9,rgbcolor=point_color)           
+     html(r'</table>')
+ bnd_cc=sage_eval('('+bnd_curves+',)',locals={'t':t})
+ if not(bool(st_points=='')):
+     for current in range(len(bnd_cc)):
+         bnd_c=bnd_cc[current]+('black',) 
+         A=A+parametric_plot3d((bnd_c[0],bnd_c[1],f(bnd_c[0],bnd_c[1])),\
+             (t,bnd_c[2],bnd_c[3]),thickness=3,rgbcolor=bnd_c[4])
  if show_planes:
-   A=A+plot3d(0,(x,xmin,xmax),(y,ymin,ymax),opacity=0.3,rgbcolor='gray')
-   zmax=A.bounding_box()[1][2]
-   zmin=A.bounding_box()[0][2]
-   A=A+parametric_plot3d((u,0,v),(u,xmin,xmax),(v,zmin,zmax),opacity=0.3,rgbcolor='gray')
-   A=A+parametric_plot3d((0,u,v),(u,ymin,ymax),(v,zmin,zmax),opacity=0.3,rgbcolor='gray')
+     A=A+plot3d(0,(x,xmin,xmax),(y,ymin,ymax),opacity=0.3,rgbcolor='gray')
+     zmax=A.bounding_box()[1][2]
+     zmin=A.bounding_box()[0][2]
+     A=A+parametric_plot3d((u,0,v),(u,xmin,xmax),(v,zmin,zmax),opacity=0.3,rgbcolor='gray')
+     A=A+parametric_plot3d((0,u,v),(u,ymin,ymax),(v,zmin,zmax),opacity=0.3,rgbcolor='gray')
  if show_axes:
-   zmax=A.bounding_box()[1][2]
-   zmin=A.bounding_box()[0][2]
-   A=A+line3d([(xmin,0,0), (xmax,0,0)], arrow_head=True,rgbcolor='black') 
-   A=A+line3d([(0,ymin,0), (0,ymax,0)], arrow_head=True,rgbcolor='black') 
-   A=A+line3d([(0,0,zmin), (0,0,zmax)], arrow_head=True,rgbcolor='black') 
+     zmax=A.bounding_box()[1][2]
+     zmin=A.bounding_box()[0][2]
+     A=A+line3d([(xmin,0,0), (xmax,0,0)], arrow_head=True,rgbcolor='black') 
+     A=A+line3d([(0,ymin,0), (0,ymax,0)], arrow_head=True,rgbcolor='black') 
+     A=A+line3d([(0,0,zmin), (0,0,zmax)], arrow_head=True,rgbcolor='black') 
  show(A)
 }}}
 
