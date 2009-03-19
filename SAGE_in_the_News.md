@@ -3,6 +3,8 @@
 
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is perceived in the outside world.
 
+  * [[https://www.educonnection.org/ecommunity/educonnection/article.page?item_id=40748024|Sage Project: Viable Open Source Alternative to Math Software]] - artcle at educonnection.org by Lisa !DiCarlo, 2009-03-19
+ 
   * [[http://cmcallister.vox.com/library/post/sage---open-source-software-for-mathematicians.html|Sage - Open Source Software for Mathematicians]] - blogpost by Colin !McAllister, 2009-01-10
 
   * [[http://vijaybalajithecitizen.blogspot.com/2009/01/sage-mathematics-software.html|Sage: Mathematics Software]] - blogpost at "a blog for technology", 2009-01-06
