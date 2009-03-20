@@ -16,6 +16,7 @@ With the switch to Pynac based symbolics, it will be possible to implement nativ
 
  * Integration
   * [[http://www-sop.inria.fr/cafe/Manuel.Bronstein/pmint/index.html|Poor man's integrator]]
+  * [[http://books.google.at/books?id=9fOUwkkRxT4C&pg=PR2&hl=en#PPA473,M1|A summary of heuristics used in Maple]] from Algorithms in Computer Algebra by Geddes, Czapor and Labahn
   * Heuristics from maxima (relevant parts of the [[http://maxima.sourceforge.net/docs/manual/en/maxima_20.html#Item_003a-integrate|maxima manual]] have some documentation)
   * Transcendental Risch (from [[http://www-sop.inria.fr/cafe/Manuel.Bronstein/publications/symbint1.html|Bronstein's book]])
 
