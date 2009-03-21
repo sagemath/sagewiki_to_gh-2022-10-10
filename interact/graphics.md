@@ -43,7 +43,6 @@ def curves_of_pursuit(n = slider([2..20],default = 5, label="# of points"),steps
         colors = [(0,0,0) for j in range(len(outpaths[0]))]
     nested = sum([line([q[j] for q in outpaths]+[outpaths[0][j]], rgbcolor = colors[j]) for j in range(len(outpaths[0]))])
     lpaths = [line(x, rgbcolor = mcolor) for x in outpaths]
-    (sum(lpaths)+nested+polys).save('/Users/mh/Desktop/Pursuit1.pdf',axes = False, figsize = [5,5], xmin = -1, xmax = 1, ymin = -1, ymax =1)
     show(sum(lpaths)+nested+polys, axes = False, figsize = [5,5], xmin = -1, xmax = 1, ymin = -1, ymax =1)
 }}}
 {{attachment:pcurves.png}}
