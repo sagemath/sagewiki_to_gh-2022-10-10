@@ -27,18 +27,24 @@ def pursuit(n,x0,y0,lamb,steps = 100, threshold = .01):
     return paths
 html('<h3>Curves of Pursuit</h3>')
 @interact
-def curves_of_pursuit(n = slider([2..20],default = 6, label="# of points"),steps = slider([2^i for i in range(1,10)],default = 10, label="# of steps"), stepsize = slider(srange(.01,1,.01),default = .2, label="stepsize"), colorize = checkbox(default = False)):
-    outpaths = pursuit(n,1,0,stepsize, steps = steps)
+def curves_of_pursuit(n = slider([2..20],default = 5, label="# of points"),steps = slider([floor(1.4^i) for i in range(2,18)],default = 10, label="# of steps"), stepsize = slider(srange(.01,1,.01),default = .2, label="stepsize"), colorize = selector(['BW','Line color', 'Filled'],default = 'BW')):
+    outpaths = pursuit(n,0,1,stepsize, steps = steps)
     mcolor = (0,0,0)
     outer = line([q[0] for q in outpaths]+[outpaths[0][0]], rgbcolor = mcolor)
-    if colorize:
+    polys = Graphics()
+    if colorize=='Line color':
         colors = [hue(j/steps,1,1) for j in range(len(outpaths[0]))]
+    elif colorize == 'BW':
+        colors = [(0,0,0) for j in range(len(outpaths[0]))]
     else:
+        colors = [hue(j/steps,1,1) for j in range(len(outpaths[0]))]
+        polys = sum([polygon([outpaths[(i+1)%n][j+1],outpaths[(i+1)%n][j], outpaths[i][j+1]], rgbcolor = colors[j]) for i in range(n) for j in range(len(outpaths[0])-1)])
+        #polys = polys[0]
         colors = [(0,0,0) for j in range(len(outpaths[0]))]
     nested = sum([line([q[j] for q in outpaths]+[outpaths[0][j]], rgbcolor = colors[j]) for j in range(len(outpaths[0]))])
     lpaths = [line(x, rgbcolor = mcolor) for x in outpaths]
-    show(sum(lpaths)+nested, axes = False, figsize = [5,5], xmin = -1, xmax = 1, ymin = -1, ymax =1)
-}}}
+    (sum(lpaths)+nested+polys).save('/Users/mh/Desktop/Pursuit1.pdf',axes = False, figsize = [5,5], xmin = -1, xmax = 1, ymin = -1, ymax =1)
+    show(sum(lpaths)+nested+polys, axes = False, figsize = [5,5], xmin = -1, xmax = 1, ymin = -1, ymax =1)
 {{attachment:pcurves.png}}
 
 == Catalog of 3D Parametric Plots ==
