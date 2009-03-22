@@ -10,8 +10,8 @@ http://qsnake.googlecode.com/files/qsnake_all-0.2.tar
 
 == How to create the SPD ==
 
-1. Download sage-3.3.tar
-2. ./build_spd
+  1. Download sage-3.3.tar
+  2. ./build_spd
 
 where `build_spd` is:
 {{{
