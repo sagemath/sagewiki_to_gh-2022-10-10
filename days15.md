@@ -13,6 +13,7 @@
 == Organizers ==
  * Michael Abshoff
  * Craig Citro
+ * Marshall Hampton
  * Mike Hansen
  * Bill Hart
  * Matt Klassen (digipen)
