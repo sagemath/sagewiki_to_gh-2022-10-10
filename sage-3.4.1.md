@@ -9,10 +9,95 @@ Sage 3.4.1 was released on FIXME. For the official, comprehensive release note, 
 == Algebra ==
 
 
+ * FIXME: summarize ticket #5535.
+
+
+ * Speed-up in irreducibility test (Ryan Hinton) -- For polynomials over the finite field {{{GF(2)}}}, the test for irreducibility is now up to 40,000 times faster than previously. On a 64-bit Debian/squeeze machine with Core 2 Duo running at 2.33 GHz, one has the following timing improvements:
+ {{{
+# BEFORE
+sage: P.<x> = GF(2)[]
+sage: f = P.random_element(1000)
+sage: %timeit f.is_irreducible()
+10 loops, best of 3: 948 ms per loop
+sage:
+sage: f = P.random_element(10000)
+sage: %time f.is_irreducible()
+# gave up because it took minutes!
+
+
+# AFTER
+sage: P.<x> = GF(2)[]
+sage: f = P.random_element(1000)
+sage: %timeit f.is_irreducible()
+10000 loops, best of 3: 22.7 µs per loop
+sage:
+sage: f = P.random_element(10000)
+sage: %timeit f.is_irreducible()
+1000 loops, best of 3: 394 µs per loop
+sage:
+sage: f = P.random_element(100000)
+sage: %timeit f.is_irreducible()
+100 loops, best of 3: 10.4 ms per loop
+ }}}
+Furthermore, on Debian 5.0 Lenny with the following system info:
+ {{{
+kernel: 2.6.24-1-686
+CPU: Intel(R) Celeron(R) 2.00GHz 
+RAM: 1.0GB
+ }}}
+here are some timing statistics:
+ {{{
+# BEFORE
+sage: P.<x> = GF(2)[]
+sage: f = P.random_element(1000)
+sage: %timeit f.is_irreducible()
+10 loops, best of 3: 1.14 s per loop
+sage: 
+sage: f = P.random_element(10000)
+sage: %time f.is_irreducible()
+CPU times: user 4972.13 s, sys: 2.83 s, total: 4974.95 s
+Wall time: 5043.02 s
+False
+
+
+# AFTER
+sage: P.<x> = GF(2)[]
+sage: f = P.random_element(1000)
+sage: %timeit f.is_irreducible()
+10000 loops, best of 3: 40.7 µs per loop
+sage: 
+sage: f = P.random_element(10000)
+sage: %timeit f.is_irreducible()
+1000 loops, best of 3: 930 µs per loop
+sage: 
+sage: 
+sage: f = P.random_element(100000)
+sage: %timeit f.is_irreducible()
+10 loops, best of 3: 27.6 ms per loop
+ }}}
+
+
 == Algebraic Geometry ==
 
 
 == Basic Arithmetic ==
+
+
+ * Speed-up in dividing a polynomial by an integer (Burcin Erocal) -- Dividing a polynomial by an integer is now up to 7x faster than previously. On the machine sage.math, one has the following timing statistics:
+ {{{
+# BEFORE
+sage: R.<x> = ZZ["x"]
+sage: f = 389 * R.random_element(1000)
+sage: timeit("f//389")
+625 loops, best of 3: 231 µs per loop
+
+
+# AFTER
+sage: R.<x> = ZZ["x"]
+sage: f = 389 * R.random_element(1000)
+sage: timeit("f//389")
+625 loops, best of 3: 32.4 µs per loop
+ }}}
 
 
 == Build ==
@@ -28,6 +113,20 @@ Sage 3.4.1 was released on FIXME. For the official, comprehensive release note, 
 
 
 == Commutative Algebra ==
+
+
+ * New function {{{weil_restriction()}}} on multivariate ideals (Martin Albrecht) -- The new function {{{weil_restriction()}}} computes the [[http://en.wikipedia.org/wiki/Weil_restriction|Weil restriction]] of a multivariate ideal over some extension field. A Weil restriction is also known as a restriction of scalars. Here's an example on computing a Weil restriction:
+ {{{
+sage: k.<a> = GF(2^2) 
+sage: P.<x,y> = PolynomialRing(k, 2)
+sage: I = Ideal([x*y + 1, a*x + 1])
+sage: I.variety() 
+[{y: a, x: a + 1}] 
+sage: J = I.weil_restriction() 
+sage: J 
+Ideal (x1*y0 + x0*y1 + x1*y1, x0*y0 + x1*y1 + 1, x0 + x1, x1 + 1) of 
+Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
+ }}}
 
 
 == Distribution ==
@@ -51,10 +150,70 @@ Sage 3.4.1 was released on FIXME. For the official, comprehensive release note, 
 == Group Theory ==
 
 
+ * Speed-up in comparing elements of a permutation group (Robert Bradshaw, John H. Palmieri, Rob Beezer) -- For elements of a permutation group, comparison between those elements is now up to 13x faster. On Mac OS X 10.4 with Intel Core 2 duo running at 2.33 GHz, one has the following improvement in timing statistics:
+ {{{
+# BEFORE
+sage: a = SymmetricGroup(20).random_element()
+sage: b = SymmetricGroup(10).random_element()
+sage: timeit("a == b")
+625 loops, best of 3: 3.19 µs per loop
+
+
+# AFTER
+sage: a = SymmetricGroup(20).random_element()
+sage: b = SymmetricGroup(10).random_element()
+sage: time v = [a == b for _ in xrange(2000)]
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
+sage: timeit("a == b")
+625 loops, best of 3: 240 ns per loop
+ }}}
+
+
 == Interfaces ==
 
 
 == Linear Algebra ==
+
+
+ * Deprecate the function {{{invert()}}} (John H. Palmieri) -- The function {{{invert()}}} for calculating the inverse of a dense matrix with rational entries is now deprecated. Instead, users are now advised to use the function {{{inverse()}}}. Here's an example of using the function {{{inverse()}}}:
+ {{{
+sage: a = matrix(QQ, 2, [1, 5, 17, 3])
+sage: a.inverse()  
+[-3/82  5/82] 
+[17/82 -1/82] 
+ }}}
+
+
+ * Speed-up in calculating determinants of matrices (John H. Palmieri, William Stein) -- For matrices over {{{Z/nZ}}} with {{{n}}} composite, calculating their determinants is now up to 1.5% faster. On the machine sage.math, one can see the following improvement in computation time:
+ {{{
+# BEFORE
+sage: mat = random_matrix(Integers(256), 30)
+sage: timeit("Integers(256)(mat.lift().det())")
+25 loops, best of 3: 9.53 ms per loop
+sage: 
+sage: mat = random_matrix(Integers(256), 200)
+sage: timeit("Integers(256)(mat.lift().det())")
+5 loops, best of 3: 779 ms per loop
+sage: 
+sage: mat = random_matrix(Integers(2^20), 500)
+sage: timeit("Integers(256)(mat.lift().det())")
+5 loops, best of 3: 13.5 s per loop
+
+
+# AFTER
+sage: mat = random_matrix(Integers(256), 30)
+sage: timeit("Integers(256)(mat.lift().det())")
+25 loops, best of 3: 10 ms per loop
+sage: 
+sage: mat = random_matrix(Integers(256), 200)
+sage: timeit("Integers(256)(mat.lift().det())")
+5 loops, best of 3: 762 ms per loop
+sage: 
+sage: mat = random_matrix(Integers(2^20), 500)
+sage: timeit("Integers(256)(mat.lift().det())")
+5 loops, best of 3: 13.3 s per loop
+ }}}
 
 
 == Miscellaneous ==
