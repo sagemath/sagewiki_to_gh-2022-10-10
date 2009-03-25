@@ -239,6 +239,13 @@ respawn /sbin/getty 38400 tty1
 respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
 }}}
  Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
+
+If you do need to escape to a shell, you can run the following from inside sage (untested):
+{{{
+import os
+os.execp('sh')
+}}}
+then use "sudo -s" to get a root shell.
 ----------
  * QUESTION: When running Sage under VMware, if you log in under manage you are not given the permissions to create a file!
  * ANSWER: Type "sudo su" before creating files.
