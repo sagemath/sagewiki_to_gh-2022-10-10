@@ -110,7 +110,7 @@ computational books but he does do complexity analysis a la MCA.
 
 Done.
 
-http://sage.math.washington.edu:9001/sd2-padicArithmetic
+http://wiki.sagemath.org/sd2-padicArithmetic
 
 
 Ifti.
