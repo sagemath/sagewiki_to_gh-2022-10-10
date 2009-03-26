@@ -100,16 +100,26 @@ sage: timeit("f//389")
  }}}
 
 
+ * FIXME: summarize #5093
+
+
 == Build ==
 
 
 == Calculus ==
 
 
+ * FIXME: summarize #5413
+
+
+
 == Coercion ==
 
 
 == Combinatorics ==
+
+
+ * FIXME: summarize #5200
 
 
 == Commutative Algebra ==
@@ -127,6 +137,12 @@ sage: J
 Ideal (x1*y0 + x0*y1 + x1*y1, x0*y0 + x1*y1 + 1, x0 + x1, x1 + 1) of 
 Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
  }}}
+
+
+ * FIXME: summarize #5146
+
+
+ * FIXME: summarize #5353
 
 
 == Distribution ==
@@ -228,6 +244,11 @@ sage: timeit("Integers(256)(mat.lift().det())")
 == Number Theory ==
 
 
+ * FIXME: summarize #5518
+
+ * FIXME: summarize #5508
+
+
 == Numerical ==
 
 
@@ -235,6 +256,9 @@ sage: timeit("Integers(256)(mat.lift().det())")
 
 
 == Packages ==
+
+
+ * FIXME: summarize #4987
 
 
 == Quadratic Forms ==
