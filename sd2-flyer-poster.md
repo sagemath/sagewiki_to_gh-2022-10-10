@@ -16,7 +16,7 @@ A mosaic:
 * [[http://sage.math.washington.edu/home/wdj/art/sagedays2mosaic.jpg|mosaic]] (jpg)
 
 [[http://flagrantdisregard.com/flickr/|Flickr]] motivational-style poster for SAGE (using art-work
-by [[http://sage.math.washington.edu:9001/MartinAlbrecht|Martin Albrecht]]):
+by [[http://wiki.sagemath.org/MartinAlbrecht|Martin Albrecht]]):
 
 * [[http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster.jpg|poster 1]] (jpg)
 
