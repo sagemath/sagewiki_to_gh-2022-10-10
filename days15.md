@@ -33,6 +33,7 @@
  * Bob Bruner (Wayne State)
  * Craig Citro
  * Bill Hart
+ * Fredrik Johansson
  * David Joyner
  * John Palmieri
  * David Perkinson
