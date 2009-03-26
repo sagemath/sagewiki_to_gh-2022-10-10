@@ -43,11 +43,6 @@
 
 == Local travel info ==
 
-Here are google maps directions from the Fairfield Inn (Marriott) hotel to Digipen:
-
-[[http://maps.google.com/maps?f=d&source=s_d&saddr=14652+NE+29th+Pl,+Bellevue,+WA+98007&daddr=5001+150th+Ave+NE,+Redmond,+WA+98052+(Digipen+Main+Campus)&hl=en&geocode=%3BCRbkztZHpXzeFVAl1wIdrEC4-CF_VLUKmO2qQg&mra=pe&mrcr=0&rtol=0&dirflg=w&sll=47.652553,-122.131233&sspn=0.057008,0.154495&ie=UTF8&t=h&z=14|Walking directions]].
-
-Microsoft is on the corner of NE 36th place and 148th Ave, which is
-about 1/3rd of the way from the hotel to Digipen.
+Details still being worked out. See however, http://www.collegeinnseattle.com/.
 
  * [[http://sage.math.washington.edu/home/wdj/sagedays/sagedays15.pdf|Flyer]] (pdf)
