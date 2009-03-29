@@ -138,21 +138,21 @@ is a field allowing polynomial factorization, this function returns true
 
 === Misc poly functions ===
 
-I have no idea what QMatrix is... 
+The QMatrix of a degree d polynomial f over F_q is the matrix of the q'th power Frobenius map on the d-dimensional F_q-algebra F_q[x]/(f):   
 {{{
 QMatrix(f) : RngUPolElt -> AlgMatElt
     Given a univariate polynomial f of degree d over a finite field F this 
 function returns the Berlekamp Q-matrix associated with f, which is an 
-element of the degree d - 1 matrix algebra over F. 
+element of the degree d matrix algebra over F. 
 }}}
 
-Sage doesn't have this easy function:
+The CompanionMatrix of a degree d polynomial f over a ring R is the matrix of the multiplication-by-x map on the R-algebra R[x]/(f). Sage doesn't have this easy function:
 {{{
 CompanionMatrix(f) : RngUPolElt -> AlgMatElt
 
     Given a monic univariate polynomial f of degree d over some ring R, return the 
-companion matrix of f as an element of the full matrix algebra of degree d - 1 over R. 
-The companion matrix for f=a0 + a1x + ... + a1x1 + xd is given by
+companion matrix of f as an element of the full matrix algebra of degree d over R. 
+The companion matrix for f=a_0 + a_1x + ... + a_{d-1}x^{d-1} + x^d is given by
 
         [    0    1    0    ...        0 ]
         [    0    0    1    ...        0 ]
