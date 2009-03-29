@@ -177,6 +177,30 @@ squarefree, that is, s should not contain repeated factors.
 }}}
 See http://magma.maths.usyd.edu.au/magma/htmlhelp/text304.htm#1869 for an example of Hensel lifting in Magma.
 
+== Coding Theory ==
+
+=== Weight distributions ===
+
+Magma can compute weight distributions quickly for any base field.
+
+{{{
+WeightDistribution(C) : Code -> [ <RngIntElt, RngIntElt> ]
+}}}
+Sage can only do this quickly in the binary case (using Cython) or in the case of a field of size q<11 (using Leon's code).
+
+=== Other code constructions ===
+
+Magma has Quantum codes, codes over rings, LDPC codes, AG codes, and many other code constructions which Sage does not have.
+
+http://magma.maths.usyd.edu.au/magma/htmlhelp/text1694.htm#17385
+http://magma.maths.usyd.edu.au/magma/htmlhelp/text1686.htm
+http://magma.maths.usyd.edu.au/magma/htmlhelp/text1722.htm
+
+=== Decoding algeorithms ===
+
+Magma has a wide range of specialized decoding algorithms which Sage does not have.
+
+http://magma.maths.usyd.edu.au/magma/htmlhelp/text1681.htm
 
 = Specialized Functionality in Magma also in Sage =
 
