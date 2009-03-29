@@ -6,6 +6,8 @@ The point of this page is to list functionality that Magma has and whether Sage 
 
 The main reference for what Magma does is [[http://magma.maths.usyd.edu.au/magma/htmlhelp/MAGMA.htm|the Magma reference manual]].  
 
+<<TableOfContents>>
+
 == Functionality in Magma not in Sage ==
 
 There are tons of things that Magma does that Sage also obviously does, e.g., "compute with univariate polynomials".  The goal is to list here only things that Magma does that Sage doesn't do.  Also, if Magma can do something ''much'' more efficiently than Sage, it should be listed here. 
