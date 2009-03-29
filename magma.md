@@ -8,11 +8,11 @@ The main reference for what Magma does is [[http://magma.maths.usyd.edu.au/magma
 
 <<TableOfContents>>
 
-== Functionality in Magma not in Sage ==
+= Functionality in Magma not in Sage =
 
 There are tons of things that Magma does that Sage also obviously does, e.g., "compute with univariate polynomials".  The goal is to list here only things that Magma does that Sage doesn't do.  Also, if Magma can do something ''much'' more efficiently than Sage, it should be listed here. 
 
-=== Platform Support ===
+== Platform Support ==
 Magma officially support the following hardware/OS platforms that Sage does not officially support:
 
 Alpha (Linux), Alpha (OSF/Tru64), IBM PowerPC64 (AIX), IBM PowerPC64 (Linux), Macintosh 64-bit Intel (OS X 10.5 [Leopard]), Sparc (Solaris), Sparc64 (Solaris)
@@ -23,12 +23,31 @@ Notes:
   * We do not have access to any AIX boxes.
   * There is active work to port sage to 64-bit MacIntel, but it is '''not''' done.  Libsingular, fortran, and pexpect issues remain.  Sage-3.4.1.alpha0 builds with the spkg at http://trac.sagemath.org/sage_trac/ticket/5057, but does not start. 
 
-== Specialized Functionality in Magma also in Sage ==
+== Univariate Polynomials ==
+=== Interpolation===
+
+Magma has the following function, which Sage doesn't have.
+
+{{{
+Interpolation(I, V) : [ RngElt ], [ RngElt ] -> RngUPolElt
+
+    This function finds a univariate polynomial that evaluates to the values V in the interpolation points I. Let K be a field and n>0 an integer; given sequences I and V, both consisting of n elements of K, return the unique univariate polynomial p over K of degree less than n such that p(I[i]) = V[i] for each 1≤i≤n. 
+}}}
+
+The corresponding Sage function would likely work like this:
+{{{
+sage: R.<x> = QQ[]
+sage: f = R.interpolation([1,2/3,3], [-1,2,3/5])
+}}}
+Then f would be the monic polynomial over QQ s.t. f(1)=-1, f(2/3)=2, f(3)=3/5.
+
+
+= Specialized Functionality in Magma also in Sage =
 
 Here we list specialized things Magma does that Sage also does.    For example, both Magma and Sage have extensive support for computing with modular symbols (far beyond all other math software).  
 
 
 
-== Specialized Functionality in Sage not in Magma ==
+= Specialized Functionality in Sage not in Magma =
 
 Here we list functionality in Sage that Magma doesn't have, but is functionality that is part of Magma's core goals, i.e., solving computationally hard problems in algebra, number theory, geometry and combinatorics.  Note that because Sage does calculus, graphics, statics and numerical computation, there are thousands of functions and features in Sage that are not in Magma and never will be in Magma, and this won't be mentioned here. 
