@@ -1,6 +1,6 @@
 = Magma versus Sage =
 
-The goal of [[http://magma.maths.usyd.edu.au/magma/|Magma]] is to provides a mathematically rigorous environment for solving computationally hard problems in algebra, number theory, geometry and combinatorics.  The core goal of Sage is to provide a free open source alternative to Magma.  This includes being able to do everything Magma does and to do it better.   This page is meant to track our progress in that direction. 
+The goal of [[http://magma.maths.usyd.edu.au/magma/|Magma]] is to provides a mathematically rigorous environment for solving computationally hard problems in algebra, number theory, geometry and combinatorics.  The core goal of Sage is to provide a free open source alternative to Magma.  This includes being able to do everything Magma does and to do it better.   This page is meant to track our progress in that direction.  We intend to accomplish this by some combination of: (1) extremely hard work, (2) better technology, (3) getting Magma open sourced and incorporated into Sage, (4) sharing of effort (e.g., people who work for Magma sharing the code and algorithms they produce with the Sage community). 
 
 The point of this page is to list functionality that Magma has and whether Sage has it or not, and if Sage has said functionality, how does the speed compare.  It is basically to answer the question "can Magma still do anything Sage can't do".
 
