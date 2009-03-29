@@ -24,7 +24,7 @@ Notes:
   * There is active work to port sage to 64-bit MacIntel, but it is '''not''' done.  Libsingular, fortran, and pexpect issues remain.  Sage-3.4.1.alpha0 builds with the spkg at http://trac.sagemath.org/sage_trac/ticket/5057, but does not start. 
 
 == Univariate Polynomials ==
-=== Interpolation===
+=== Interpolation ===
 
 Magma has the following function, which Sage doesn't have.
 
