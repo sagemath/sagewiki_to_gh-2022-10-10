@@ -136,6 +136,8 @@ is a field allowing polynomial factorization, this function returns true
  iff f is separable. 
 }}}
 
+=== Misc poly functions ===
+
 I have no idea what QMatrix is... 
 {{{
 QMatrix(f) : RngUPolElt -> AlgMatElt
@@ -160,6 +162,20 @@ The companion matrix for f=a0 + a1x + ... + a1x1 + xd is given by
         [ -a_0 -a_1 -a_2    ... -a_(d-1) ]
 
 }}}
+
+=== Hensel Lifting ===
+
+{{{
+HenselLift(f, s, P) : RngUPolElt, [ RngUPolElt ], RngUPol -> [ RngUPolElt ]
+
+    Given the sequence of irreducible factors s modulo some prime p of the univariate 
+integer polynomial f, return the Hensel lifting into the polynomial ring P, which must 
+be the univariate polynomial ring over a residue class ring modulo some power of p.
+Thus given f = ∏i si mod p, this returns f = ∏i ti mod pk for some k ≥1, as a 
+sequence of polynomials in Z/pkZ. The factorization of f modulo p must be 
+squarefree, that is, s should not contain repeated factors. 
+}}}
+See http://magma.maths.usyd.edu.au/magma/htmlhelp/text304.htm#1869 for an example of Hensel lifting in Magma.
 
 
 = Specialized Functionality in Magma also in Sage =
