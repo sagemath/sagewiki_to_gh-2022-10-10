@@ -49,9 +49,9 @@ Sage-combinat is a collection of experimental patches (i.e. extensions) on top o
 
  * The collection of patches is managed using a [[http://combinat.sagemath.org/patches/|patch server]]  (mercurial queues). Use it to try out the latest experimental features, or contribute your own patches! (You may still need to access to the  [[http://sage.math.washington.edu:2144/|old patch server]])
 
- * Please read the [[http:/combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
+ * Please read the [[http://wiki.sagemath.org/combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
 
- * For the curious: [[http:/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
+ * For the curious: [[http://wiki.sagemath.org/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
 
  * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]]
    To check them out, use {{{hg clone http://combinat.sagemath.org/misc/ Sage-Combinat-misc-file}}}. This will create a subdirectory {{{Sage-Combinat-misc-file}}} in the current directory; you can use any other name for this subdirectory.
