@@ -42,6 +42,126 @@ sage: f = R.interpolation([1,2/3,3], [-1,2,3/5])
 Then f would be the monic polynomial over QQ s.t. f(1)=-1, f(2/3)=2, f(3)=3/5.
 
 
+=== Reductum ===
+Magma has this and Sage doesn't:
+{{{
+Reductum(f) : RngUPolElt -> RngUPolElt
+    The reductum of a polynomial f, which is the polynomial obtained by removing the leading term of f. 
+}}}
+
+=== PowerPolynomial ===
+Magma has this and Sage doesn't:
+{{{
+PowerPolynomial(f,n) : RngUPolElt, RngIntElt -> RngUPolElt
+    The polynomial whose roots are the nth powers of the roots of the given polynomial (which should have coefficients in some field). 
+}}}
+
+=== PrimitivePart, MaxNorm, SumNorm ===
+For polynomials over ZZ, Magma has these and Sage doesn't:
+{{{
+PrimitivePart(p) : RngUPolElt -> RngUPolElt
+    The primitive part of p, being p divided by the content of p. 
+
+MaxNorm(p) : RngUPolElt -> RngIntElt
+    The maximum of the absolute values of the coefficients of p. 
+
+SumNorm(p) : RngUPolElt -> RngIntElt
+    The sum of the coefficients of p. 
+
+DedekindTest(p, m) : RngUPolElt, RngIntElt -> Boolelt
+    Given a monic polynomial p (univariate or multivariate in one variable) and a 
+    prime number m, this returns true if p satisfies the Dedekind criterion at m, 
+    and false otherwise. The Dedekind criterion is satisfied at m if and only if 
+    the equation order corresponding to p is locally maximal at m [PZ89, p. 295]. 
+}}}
+In Sage we would have:
+{{{
+sage: R.<x> = ZZ[]
+sage: f = 6*(x^3 + 2*x + 3)
+sage: f.primitive_part()
+x^3 + 2*x + 3
+sage: f.max_norm()
+sage: f.sum_norm()
+sage: f.dedekind_test(3)
+}}}
+
+=== Normalize ===
+Magma has this and Sage doesn't, and it looks like it could be useful.
+{{{
+Normalize(f) : RngUPolElt -> RngUPolElt
+    Given a univariate polynomial f over the ring R, this function returns the unique 
+normalized polynomial g which is associate to f (so g=uf for some unit in R). This is 
+chosen so that if R is a field then g is monic, if R is Z then the leading coefficient 
+of g is positive, if R is a polynomial ring itself, then the leading coefficient of g 
+is recursively normalized, and so on for other rings. 
+}}}
+
+=== Factorization ===
+
+Sage is missing these:
+
+{{{
+DistinctDegreeFactorization(f) : RngUPolElt -> [ <RngIntElt, RngUPolElt> ]
+
+    Degree: RngIntElt                   Default: 0
+
+    Given a squarefree univariate polynomial f∈F[x] with F a finite field, this 
+function returns the distinct-degree factorization of f as a sequence of pairs, 
+each consisting of a degree d, together with the product of the degree-d 
+irreducible factors of f.
+
+    If the optional parameter Degree is given a value L > 0, then only (products of) 
+factors up to degree L are returned. 
+}}}
+
+{{{
+EqualDegreeFactorization(f, d, g) : RngUPolElt, RngIntElt, RngUPolElt -> [ RngUPolElt ]
+
+    Given a squarefree univariate polynomial f∈F[x] with F a finite field, and 
+integer d and another polynomial g∈F[x] such that F is known to be the product of 
+distinct degree-d irreducible polynomials alone, and g is xq mod f, where q is the 
+cardinality of F, this function returns the irreducible factors of f as a sequence 
+of polynomials (no multiplicities are needed).
+
+    If the conditions are not satisfied, the result is unpredictable. This function 
+allows one to split f, assuming that one has computed f in some special way. 
+}}}
+
+Sage should definitely have this, but doesn't.
+{{{
+IsSeparable(f) : RngUPolElt -> BoolElt
+
+    Given a polynomial f∈K[x] such that f is a polynomial of degree ≥1 and K 
+is a field allowing polynomial factorization, this function returns true
+ iff f is separable. 
+}}}
+
+I have no idea what QMatrix is... 
+{{{
+QMatrix(f) : RngUPolElt -> AlgMatElt
+    Given a univariate polynomial f of degree d over a finite field F this 
+function returns the Berlekamp Q-matrix associated with f, which is an 
+element of the degree d - 1 matrix algebra over F. 
+}}}
+
+Sage doesn't have this easy function:
+{{{
+CompanionMatrix(f) : RngUPolElt -> AlgMatElt
+
+    Given a monic univariate polynomial f of degree d over some ring R, return the 
+companion matrix of f as an element of the full matrix algebra of degree d - 1 over R. 
+The companion matrix for f=a0 + a1x + ... + a1x1 + xd is given by
+
+        [    0    1    0    ...        0 ]
+        [    0    0    1    ...        0 ]
+        [    .    .    .    .          . ]
+        [    .    .    .     .         . ]
+        [    .    .    .      .        . ]
+        [ -a_0 -a_1 -a_2    ... -a_(d-1) ]
+
+}}}
+
+
 = Specialized Functionality in Magma also in Sage =
 
 Here we list specialized things Magma does that Sage also does.    For example, both Magma and Sage have extensive support for computing with modular symbols (far beyond all other math software).  
