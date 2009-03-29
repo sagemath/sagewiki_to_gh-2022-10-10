@@ -6,11 +6,20 @@ The point of this page is to list functionality that Magma has and whether Sage 
 
 The main reference for what Magma does is [[http://magma.maths.usyd.edu.au/magma/htmlhelp/MAGMA.htm|the Magma reference manual]].  
 
- In particular, this page focuses 
-
 == Functionality in Magma not in Sage ==
 
 There are tons of things that Magma does that Sage also obviously does, e.g., "compute with univariate polynomials".  The goal is to list here only things that Magma does that Sage doesn't do.  Also, if Magma can do something ''much'' more efficiently than Sage, it should be listed here. 
+
+=== Platform Support ===
+Magma officially support the following hardware/OS platforms that Sage does not officially support:
+
+Alpha (Linux), Alpha (OSF/Tru64), IBM PowerPC64 (AIX), IBM PowerPC64 (Linux), Macintosh 64-bit Intel (OS X 10.5 [Leopard]), Sparc (Solaris), Sparc64 (Solaris)
+
+Notes: 
+  * Nobody cares about Alpha support anymore.
+  * We do not have access to any PPC linux boxes.
+  * We do not have access to any AIX boxes.
+  * There is active work to port sage to 64-bit MacIntel, but it is '''not''' done.  Libsingular, fortran, and pexpect issues remain.  Sage-3.4.1.alpha0 builds with the spkg at http://trac.sagemath.org/sage_trac/ticket/5057, but does not start. 
 
 == Specialized Functionality in Magma also in Sage ==
 
