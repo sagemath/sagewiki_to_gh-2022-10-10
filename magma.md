@@ -41,6 +41,14 @@ sage: f = R.interpolation([1,2/3,3], [-1,2,3/5])
 }}}
 Then f would be the monic polynomial over QQ such that f(1) = -1, f(2/3) = 2 and f(3) = 3/5.
 
+Note that Sage has
+{{{
+sage: R.<x> = QQ[]
+sage: R.lagrange_polynomial([(1,-1),(2/3,2),(3,3/5)])
+21/5*x^2 - 16*x + 54/5
+}}}
+so this problem can easily be solved via an alias. 
+
 
 === Reductum ===
 Magma has this and Sage doesn't:
