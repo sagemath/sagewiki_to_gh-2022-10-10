@@ -1,6 +1,6 @@
 = Magma versus Sage =
 
-The goal of [[http://magma.maths.usyd.edu.au/magma/|Magma]] is to provides a mathematically rigorous environment for solving computationally hard problems in algebra, number theory, geometry and combinatorics.  The core goal of Sage is to provide a free open source alternative to Magma.  This includes being able to do everything Magma does and to do it better.   This page is meant to track our progress in that direction.  We intend to accomplish this by some combination of: (1) extremely hard work, (2) better technology, (3) getting Magma open sourced and incorporated into Sage, (4) sharing of effort (e.g., people who work for Magma sharing the code and algorithms they produce with the Sage community). 
+The goal of [[http://magma.maths.usyd.edu.au/magma/|Magma]] is to provide a mathematically rigorous environment for solving computationally hard problems in algebra, number theory, geometry and combinatorics.  The core goal of Sage is to provide a free open source alternative to Magma.  This includes being able to do everything Magma does and to do it better.   This page is meant to track our progress in that direction.  We intend to accomplish this by some combination of: (1) extremely hard work, (2) better technology, (3) getting Magma open sourced and incorporated into Sage, (4) sharing of effort (e.g., people who work for Magma sharing the code and algorithms they produce with the Sage community). 
 
 The point of this page is to list functionality that Magma has and whether Sage has it or not, and if Sage has said functionality, how does the speed compare.  It is basically to answer the question "can Magma still do anything Sage can't do".
 
@@ -13,13 +13,13 @@ The main reference for what Magma does is [[http://magma.maths.usyd.edu.au/magma
 There are tons of things that Magma does that Sage also obviously does, e.g., "compute with univariate polynomials".  The goal is to list here only things that Magma does that Sage doesn't do.  Also, if Magma can do something ''much'' more efficiently than Sage, it should be listed here. 
 
 == Platform Support ==
-Magma officially support the following hardware/OS platforms that Sage does not officially support:
+Magma officially supports the following hardware/OS platforms that Sage does not officially support:
 
 Alpha (Linux), Alpha (OSF/Tru64), IBM PowerPC64 (AIX), IBM PowerPC64 (Linux), Macintosh 64-bit Intel (OS X 10.5 [Leopard]), Sparc (Solaris), Sparc64 (Solaris)
 
 Notes: 
   * Nobody cares about Alpha support anymore.
-  * We do not have access to any PPC linux boxes.
+  * We do not have access to any PPC Linux boxes.
   * We do not have access to any AIX boxes.
   * There is active work to port sage to 64-bit MacIntel, but it is '''not''' done.  Libsingular, fortran, and pexpect issues remain.  Sage-3.4.1.alpha0 builds with the spkg at http://trac.sagemath.org/sage_trac/ticket/5057, but does not start. 
 
@@ -31,7 +31,7 @@ Magma has the following function, which Sage doesn't have.
 {{{
 Interpolation(I, V) : [ RngElt ], [ RngElt ] -> RngUPolElt
 
-    This function finds a univariate polynomial that evaluates to the values V in the interpolation points I. Let K be a field and n>0 an integer; given sequences I and V, both consisting of n elements of K, return the unique univariate polynomial p over K of degree less than n such that p(I[i]) = V[i] for each 1≤i≤n. 
+    This function finds a univariate polynomial that evaluates to the values V in the interpolation points I. Let K be a field and n > 0 an integer. Given sequences I and V both consisting of n elements of K, return the unique univariate polynomial p over K of degree less than n such that p(I[i]) = V[i] for each 1≤i≤n. 
 }}}
 
 The corresponding Sage function would likely work like this:
@@ -39,7 +39,7 @@ The corresponding Sage function would likely work like this:
 sage: R.<x> = QQ[]
 sage: f = R.interpolation([1,2/3,3], [-1,2,3/5])
 }}}
-Then f would be the monic polynomial over QQ s.t. f(1)=-1, f(2/3)=2, f(3)=3/5.
+Then f would be the monic polynomial over QQ such that f(1) = -1, f(2/3) = 2 and f(3) = 3/5.
 
 
 === Reductum ===
@@ -72,7 +72,7 @@ DedekindTest(p, m) : RngUPolElt, RngIntElt -> Boolelt
     Given a monic polynomial p (univariate or multivariate in one variable) and a 
     prime number m, this returns true if p satisfies the Dedekind criterion at m, 
     and false otherwise. The Dedekind criterion is satisfied at m if and only if 
-    the equation order corresponding to p is locally maximal at m [PZ89, p. 295]. 
+    the equation order corresponding to p is locally maximal at m [PZ89, p.295]. 
 }}}
 In Sage we would have:
 {{{
@@ -90,7 +90,7 @@ Magma has this and Sage doesn't, and it looks like it could be useful.
 {{{
 Normalize(f) : RngUPolElt -> RngUPolElt
     Given a univariate polynomial f over the ring R, this function returns the unique 
-normalized polynomial g which is associate to f (so g=uf for some unit in R). This is 
+normalized polynomial g which is associated to f (so g = uf for some unit in R). This is 
 chosen so that if R is a field then g is monic, if R is Z then the leading coefficient 
 of g is positive, if R is a polynomial ring itself, then the leading coefficient of g 
 is recursively normalized, and so on for other rings. 
@@ -138,10 +138,10 @@ is a field allowing polynomial factorization, this function returns true
 
 === Misc poly functions ===
 
-The QMatrix of a degree d polynomial f over F_q is the matrix of the q'th power Frobenius map on the d-dimensional F_q-algebra F_q[x]/(f):   
+The QMatrix of a degree d polynomial f over F_q is the matrix of the qth power Frobenius map on the d-dimensional F_q-algebra F_q[x]/(f):   
 {{{
 QMatrix(f) : RngUPolElt -> AlgMatElt
-    Given a univariate polynomial f of degree d over a finite field F this 
+    Given a univariate polynomial f of degree d over a finite field F, this 
 function returns the Berlekamp Q-matrix associated with f, which is an 
 element of the degree d matrix algebra over F. 
 }}}
@@ -204,7 +204,7 @@ http://magma.maths.usyd.edu.au/magma/htmlhelp/text1681.htm
 
 = Specialized Functionality in Magma also in Sage =
 
-Here we list specialized things Magma does that Sage also does.    For example, both Magma and Sage have extensive support for computing with modular symbols (far beyond all other math software).  
+Here we list specialized things Magma does that Sage also does. For example, both Magma and Sage have extensive support for computing with modular symbols (far beyond all other math software).  
 
 
 
