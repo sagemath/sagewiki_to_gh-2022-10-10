@@ -201,34 +201,27 @@ sage: a.inverse()
  }}}
 
 
- * Speed-up in calculating determinants of matrices (John H. Palmieri, William Stein) -- For matrices over {{{Z/nZ}}} with {{{n}}} composite, calculating their determinants is now up to 1.5% faster. On the machine sage.math, one can see the following improvement in computation time:
+ * Speed-up in calculating determinants of matrices (John H. Palmieri, William Stein) -- For matrices over {{{Z/nZ}}} with {{{n}}} composite, calculating their determinants is now up to 1500x faster. On Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) 2.00GHz CPU with 1.0GB of RAM, one has the following timing statistics:
  {{{
 # BEFORE
-sage: mat = random_matrix(Integers(256), 30)
-sage: timeit("Integers(256)(mat.lift().det())")
-25 loops, best of 3: 9.53 ms per loop
-sage: 
-sage: mat = random_matrix(Integers(256), 200)
-sage: timeit("Integers(256)(mat.lift().det())")
-5 loops, best of 3: 779 ms per loop
-sage: 
-sage: mat = random_matrix(Integers(2^20), 500)
-sage: timeit("Integers(256)(mat.lift().det())")
-5 loops, best of 3: 13.5 s per loop
+sage: time random_matrix(Integers(26), 10).determinant()
+CPU times: user 15.52 s, sys: 0.02 s, total: 15.54 s
+Wall time: 15.54 s
+13
+sage: time random_matrix(Integers(256), 10).determinant()
+CPU times: user 15.38 s, sys: 0.00 s, total: 15.38 s
+Wall time: 15.38 s
+144
 
 
 # AFTER
-sage: mat = random_matrix(Integers(256), 30)
-sage: timeit("Integers(256)(mat.lift().det())")
-25 loops, best of 3: 10 ms per loop
-sage: 
-sage: mat = random_matrix(Integers(256), 200)
-sage: timeit("Integers(256)(mat.lift().det())")
-5 loops, best of 3: 762 ms per loop
-sage: 
-sage: mat = random_matrix(Integers(2^20), 500)
-sage: timeit("Integers(256)(mat.lift().det())")
-5 loops, best of 3: 13.3 s per loop
+sage: time random_matrix(Integers(26), 10).determinant()
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.01 s
+23
+sage: time random_matrix(Integers(256), 10).determinant()
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
  }}}
 
 
