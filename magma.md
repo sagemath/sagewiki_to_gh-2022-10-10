@@ -225,6 +225,12 @@ Magma has a wide range of specialized decoding algorithms which Sage does not ha
 
 http://magma.maths.usyd.edu.au/magma/htmlhelp/text1681.htm
 
+=== Analytic jacobians of hyperelliptic curves ===
+
+Magma has a wide-ranging package implemented principally by Paul van Wamelen for computing analytic parametrizations of Jacobians of hyperelliptic curves.  Nick Alexander has code for doing some of this and has code for interfacing to Magma's code for doing this buried in his tree; contact him if you're interested in doing more work in this direction.
+
+http://magma.maths.usyd.edu.au/magma/htmlhelp/text1400.htm
+
 = Specialized Functionality in Magma also in Sage =
 
 Here we list specialized things Magma does that Sage also does. For example, both Magma and Sage have extensive support for computing with modular symbols (far beyond all other math software).  
