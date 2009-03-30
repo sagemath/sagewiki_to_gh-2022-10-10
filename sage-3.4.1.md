@@ -93,7 +93,7 @@ sage: timeit("f//389")
  }}}
 
 
- * FIXME: summarize #5093
+ * New {{{fast_float}}} supports more datatypes with improved performance (Carl Witty) -- A rewrite of {{{fast_float}}} to support multiple types. Here, we get accelerated evaluation over {{{RealField(k)}}} as well as {{{RDF}}}, real double field. As compared with the previous {{{fast_float}}}, improved performance can range from 2% faster to more than 2x as fast. An extended list of benchmark details is available at [[http://trac.sagemath.org/sage_trac/ticket/5093|ticket 5093]].
 
 
 == Build ==
@@ -102,7 +102,15 @@ sage: timeit("f//389")
 == Calculus ==
 
 
- * FIXME: summarize #5413
+ * Deprecate the calling of symbolic functions with unnamed arguments (Carl Witty, Michael Abshoff) -- Previous releases of Sage supported symbolic functions with "no arguments". This style of constructing symbolic functions is now deprecated. For example, previously Sage allowed for defining a symbolic function in the following way
+ {{{
+f2 = 5 - x^2  # bad; this is deprecated
+ }}}
+ But users are encouraged to explicitly declare the variables used in a symolic function. For instance, the following is encouraged:
+ {{{
+sage: x,y = var("x, y")    # explicitly declare your variables
+sage: f(x, y) = x^2 + y^2  # this syntax is encouraged
+ }}}
 
 
 
