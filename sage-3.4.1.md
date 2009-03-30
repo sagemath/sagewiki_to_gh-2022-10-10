@@ -83,20 +83,19 @@ sage: %timeit f.is_irreducible()
 == Basic Arithmetic ==
 
 
- * Speed-up in dividing a polynomial by an integer (Burcin Erocal) -- Dividing a polynomial by an integer is now up to 7x faster than previously. On the machine sage.math, one has the following timing statistics:
+ * Speed-up in dividing a polynomial by an integer (Burcin Erocal) -- Dividing a polynomial by an integer is now up to 6x faster than previously. On Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) CPU running at 2.00GHz with 1.0GB of RAM, one has the following timing statistics:
  {{{
 # BEFORE
 sage: R.<x> = ZZ["x"]
 sage: f = 389 * R.random_element(1000)
 sage: timeit("f//389")
-625 loops, best of 3: 231 µs per loop
-
+625 loops, best of 3: 312 µs per loop
 
 # AFTER
 sage: R.<x> = ZZ["x"]
 sage: f = 389 * R.random_element(1000)
 sage: timeit("f//389")
-625 loops, best of 3: 32.4 µs per loop
+625 loops, best of 3: 48.3 µs per loop
  }}}
 
 
