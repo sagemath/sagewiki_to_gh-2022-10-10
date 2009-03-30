@@ -177,6 +177,19 @@ squarefree, that is, s should not contain repeated factors.
 }}}
 See http://magma.maths.usyd.edu.au/magma/htmlhelp/text304.htm#1869 for an example of Hensel lifting in Magma.
 
+== Galois Theory ==
+
+Magma's support for computing Galois groups of polynomials over QQ is substantially better than that of Pari, or indeed anything else. The algorithms used by Magma are well-documented but implementing them would be a very major project.
+
+== Modular Forms ==
+
+Magma has:
+
+   * Kevin Buzzard's code for computing weight 1 cusp forms
+   * Lassina Dembele's algorithms for Hilbert modular forms using definite quaternion algebras
+
+Getting either of these into Sage would be a worthy project (the first much easier than the second).
+
 == Coding Theory ==
 
 === Weight distributions ===
