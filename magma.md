@@ -198,6 +198,8 @@ Magma has:
 
 Getting either of these into Sage would be a worthy project (the first much easier than the second).
 
+The second is very much also work of John Voight.  I don't think the second would be too hard, given the work that John Voight and Lassina Dembele have already done, since they have both written numerous nice papers very clearly explaining the algorithms, and they are more than willing to share all the Magma code they wrote. -- William Stein. 
+
 == Coding Theory ==
 
 === Weight distributions ===
