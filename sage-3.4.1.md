@@ -39,13 +39,7 @@ sage: f = P.random_element(100000)
 sage: %timeit f.is_irreducible()
 100 loops, best of 3: 10.4 ms per loop
  }}}
-Furthermore, on Debian 5.0 Lenny with the following system info:
- {{{
-kernel: 2.6.24-1-686
-CPU: Intel(R) Celeron(R) 2.00GHz 
-RAM: 1.0GB
- }}}
-here are some timing statistics:
+Furthermore, on Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) CPU running at 2.00GHz with 1.0GB of RAM, one has the following timing statistics:
  {{{
 # BEFORE
 sage: P.<x> = GF(2)[]
