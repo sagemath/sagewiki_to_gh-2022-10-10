@@ -234,6 +234,7 @@ Wall time: 0.00 s
 
 == Notebook ==
 
+A number of tickets related to UTF-8 text got merged and should definitely be mentioned! #4547, #5211; #2896 and #1477 got fixed by those tickets. There's also #5564, which may not get merged for 3.4.1 but should get in soon; it pulls together a whole bunch of UTF-8 fixes and improvements.
 
 == Number Theory ==
 
