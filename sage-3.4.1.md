@@ -96,6 +96,9 @@ sage: timeit("f//389")
  * New {{{fast_float}}} supports more datatypes with improved performance (Carl Witty) -- A rewrite of {{{fast_float}}} to support multiple types. Here, we get accelerated evaluation over {{{RealField(k)}}} as well as {{{RDF}}}, real double field. As compared with the previous {{{fast_float}}}, improved performance can range from 2% faster to more than 2x as fast. An extended list of benchmark details is available at [[http://trac.sagemath.org/sage_trac/ticket/5093|ticket 5093]].
 
 
+ * FIXME: summarize #5622
+
+
 == Build ==
 
 
@@ -255,6 +258,9 @@ Wall time: 0.00 s
 
 
 == Modular Forms ==
+
+
+ * FIXME: summarize #5520
 
 
 == Notebook ==
