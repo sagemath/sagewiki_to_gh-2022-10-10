@@ -5,6 +5,9 @@
 == Location ==
  * The campus of University of Washington, Digipen, and Microsoft Research.
 
+== Mailing list ==
+ * http://groups.google.com/group/sagedays15
+
 == Topics ==
  * Computational Algebraic Topology
  * Porting Sage to Windows
