@@ -120,7 +120,32 @@ sage: f(x, y) = x^2 + y^2  # this syntax is encouraged
 == Combinatorics ==
 
 
- * FIXME: summarize #5200
+ * Enhancements to the {{{Subsets}}} and {{{Subwords}}} modules (Florent Hivert) -- Numerous enhancements to the modules {{{Subsets}}} and {{{Subwords}}} include:
+  1. An implementation of subsets for finite multisets, i.e. sets with repetitions.
+  1. Adding the method {{{__contains__}}} for {{{Subsets}}} and {{{Subwords}}}.
+ Here's an example for working with multisets:
+ {{{
+sage: S = Subsets([1, 2, 2], submultiset=True); S
+SubMultiset of [1, 2, 2]
+sage: S.list()
+[[], [1], [2], [1, 2], [2, 2], [1, 2, 2]]
+sage: Set([1,2]) in S  # this uses __contains__ in Subsets
+True
+sage: Set([]) in S
+True
+sage: Set([3]) in S
+False
+ }}}
+ And here's an example of using {{{__contains__}}} with {{{Subwords}}}:
+ {{{
+sage: [] in Subwords([1,2,3,4,3,4,4])
+True
+sage: [2,3,3,4] in Subwords([1,2,3,4,3,4,4])
+True
+sage: [2,3,3,1] in Subwords([1,2,3,4,3,4,4])
+False
+ }}}
+
 
 
 == Commutative Algebra ==
