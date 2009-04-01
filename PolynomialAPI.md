@@ -20,12 +20,8 @@ Not listed are methods that make sense only in the uni- or only in the multivari
 The last column provides suggestions for a common name (or '?' if it is not clear whether there should be a common method).
 
 ||'''Topic'''||'''univariate only'''||'''multivariate only'''||'''suggested Common methods'''||
-||<|5>''Basic methods''|| copy || - || - ||
-|| is_gen || is_generator || is_generator ||
-|| is_monic || - || is_monic ||
-|| is_square || - || ? ||
-|| - || is_univariate || is_univariate ||
-||<|8>''Constituents'' || change_variable_name, change_ring || change_ring || change_ring ||
+|| ''Basic methods'' || copy || - || - ||
+||<|9> ''Constituents'' || change_variable_name, change_ring || change_ring || change_ring ||
 || variable_name || - || variable_names ||
 || - || variable || variable ||
 || coeffs/coefficients/list || coefficients || coefficients ''only''||
@@ -33,14 +29,18 @@ The last column provides suggestions for a common name (or '?' if it is not clea
 || - || monomial_coefficient || ? ||
 || - || monomials || monomials ||
 || - ||content || content ||
-||<|6>''Term order''|| degree || total_degree || degree ||
+|| - || is_univariate || is_univariate ||
+||<|7>''Term order''|| degree || total_degree || degree ||
 || - || degrees || degrees? ||
+|| is_monic || - || is_monic ||
 || leading_coefficient || lc || lc ||
 || - || lm || lm ||
 || - || lt || lt ||
 || - || reduce || reduce ||
-||<|5>''Etc.''|| denominator || - || ? ||
+||<|7>''Etc.''|| denominator || - || ? ||
 || numerator || - || ? ||
 || xgcd || - || ? ||
 || plot || - || ? (3D) ||
 || factor_mod || - || factor_mod ||
+|| is_gen || is_generator || is_generator ||
+|| is_square || - || ? ||
