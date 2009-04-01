@@ -64,6 +64,13 @@ PowerPolynomial(f,n) : RngUPolElt, RngIntElt -> RngUPolElt
     The polynomial whose roots are the nth powers of the roots of the given polynomial (which should have coefficients in some field). 
 }}}
 
+Here is how to implement it in Sage:
+{{{
+def power_polynomial(f,n):
+    y0,y1=PolynomialRing(f.base_ring(),2,'y').gens()
+    return f(y1).resultant(y0-y1**n,y1).substitute({y0:f.parent().gen(),y1:0})
+}}}
+It would also be easy to generalise, retruning the polynomial whose roots are g(a) where a runs over the roots of f and g is another univariate polynomial.  Just change y1**n to g(y1).
 === PrimitivePart, MaxNorm, SumNorm ===
 For polynomials over ZZ, Magma has these and Sage doesn't:
 {{{
