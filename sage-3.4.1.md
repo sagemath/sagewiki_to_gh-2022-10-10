@@ -11,6 +11,8 @@ Sage 3.4.1 was released on FIXME. For the official, comprehensive release note, 
 
  * FIXME: summarize ticket #5535.
 
+ * FIXME: summarize ticket #5658.
+
 
  * Speed-up in irreducibility test (Ryan Hinton) -- For polynomials over the finite field {{{GF(2)}}}, the test for irreducibility is now up to 40,000 times faster than previously. On a 64-bit Debian/squeeze machine with Core 2 Duo running at 2.33 GHz, one has the following timing improvements:
  {{{
@@ -72,6 +74,9 @@ sage: %timeit f.is_irreducible()
 
 
 == Algebraic Geometry ==
+
+
+ * FIXME: summarize #5629
 
 
 == Basic Arithmetic ==
@@ -180,6 +185,9 @@ Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
 == Doctest ==
 
 
+ * FIXME: summarize #5318
+
+
 == Documentation ==
 
 
@@ -187,6 +195,9 @@ Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
 
 
 == Graph Theory ==
+
+
+ * FIXME: summarize #5623
 
 
 == Graphics ==
@@ -257,15 +268,22 @@ Wall time: 0.00 s
 == Miscellaneous ==
 
 
+ * FIXME: summarize #5638
+
+
 == Modular Forms ==
 
 
  * FIXME: summarize #5520
 
+ * FIXME: summarize #5648
+
 
 == Notebook ==
 
+
 FIXME: A number of tickets related to UTF-8 text got merged and should definitely be mentioned! #4547, #5211; #2896 and #1477 got fixed by those tickets. There's also #5564, which may not get merged for 3.4.1 but should get in soon; it pulls together a whole bunch of UTF-8 fixes and improvements.
+
 
 == Number Theory ==
 
@@ -274,17 +292,26 @@ FIXME: A number of tickets related to UTF-8 text got merged and should definitel
 
  * FIXME: summarize #5508
 
+ * FIXME: summarize #793
+
+ * FIXME: summarize #4667
+
+ * FIXME: summarize #5159
+
 
 == Numerical ==
-
-
-== Optional Packages ==
 
 
 == Packages ==
 
 
  * FIXME: summarize #4987
+
+ * FIXME: summarize #4881
+
+ * FIXME: summarize #4880
+
+ * FIXME: summarize #4876
 
 
 == Quadratic Forms ==
