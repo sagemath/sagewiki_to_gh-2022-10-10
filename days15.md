@@ -46,6 +46,13 @@
 
 == Local travel info ==
 
-Details still being worked out. See however, http://www.collegeinnseattle.com/.
+Details still being worked out. See however, http://www.collegeinnseattle.com/ and
+
+{{{
+    The Collegiana Inn
+    4311 - 12th Ave. NE
+    Seattle, WA 98105
+    (206) 732-3200
+}}}
 
  * [[http://sage.math.washington.edu/home/wdj/sagedays/sagedays15.pdf|Flyer]] (pdf)
