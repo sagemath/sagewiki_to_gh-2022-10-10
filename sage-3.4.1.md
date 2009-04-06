@@ -155,6 +155,13 @@ False
  }}}
 
 
+ * FIXME: summarize #5551
+
+ * FIXME: summarize #5308
+
+ * FIXME: summarize #4549
+
+
 
 == Commutative Algebra ==
 
@@ -278,11 +285,16 @@ Wall time: 0.00 s
 
  * FIXME: summarize #5648
 
+ * FIXME: summarize #5180
+
 
 == Notebook ==
 
 
 FIXME: A number of tickets related to UTF-8 text got merged and should definitely be mentioned! #4547, #5211; #2896 and #1477 got fixed by those tickets. There's also #5564, which may not get merged for 3.4.1 but should get in soon; it pulls together a whole bunch of UTF-8 fixes and improvements.
+
+
+ * FIXME: summarize #5681
 
 
 == Number Theory ==
@@ -298,6 +310,8 @@ FIXME: A number of tickets related to UTF-8 text got merged and should definitel
 
  * FIXME: summarize #5159
 
+ * FIXME: summarize #4990
+
 
 == Numerical ==
 
@@ -312,6 +326,10 @@ FIXME: A number of tickets related to UTF-8 text got merged and should definitel
  * FIXME: summarize #4880
 
  * FIXME: summarize #4876
+
+ * FIXME: summarize #5672
+
+ * FIXME: summarize #5240
 
 
 == Quadratic Forms ==
