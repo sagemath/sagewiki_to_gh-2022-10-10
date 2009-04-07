@@ -8,7 +8,7 @@ I'm the main author of [[http://tug.ctan.org/pkg/sagetex|SageTeX]], a LaTeX pack
 
 I'll be giving some talks at [[days9|Sage Days 9]], and put my slides, etc, at /Days9Talks.
 
-I also gave a colloquium talk on Sage at [[http://skku.ac.kr|Sungkyunkwan University]]: the slides are at /SKKUTalk.
+I also gave a colloquium talk on Sage at [[http://skku.ac.kr|Sungkyunkwan University]]: the slides are at [[DanDrake/SKKUTalk|/SKKUTalk]].
 
 I wrote some notes on setting up a (hopefully) secure Sage virtual machine using Ubuntu JeOS: /JustEnoughSageServer. I'm also expanding the notebook() docstring at StartingTheNotebook; this will likely end up in the official documentation, I think.
 
