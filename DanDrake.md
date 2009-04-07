@@ -10,7 +10,7 @@ I'll be giving some talks at [[days9|Sage Days 9]], and put my slides, etc, at /
 
 I wrote some notes on setting up a (hopefully) secure Sage virtual machine using Ubuntu JeOS: /JustEnoughSageServer. I'm also expanding the notebook() docstring at StartingTheNotebook; this will likely end up in the official documentation, I think.
 
-My homepage is http://mathsci.kaist.ac.kr/~drake. To email me, [http://mailhide.recaptcha.net/d?k=01UvrR4ej8IbigfFYbi9SUDQ==&amp;c=cU5vhedfflfwjMdUotIwLQ== click here].
+My homepage is http://mathsci.kaist.ac.kr/~drake.
 
 ----
 CategoryHomepage
