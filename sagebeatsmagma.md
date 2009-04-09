@@ -1,5 +1,14 @@
 = List of Computations where Sage is Noticeably Faster than Magma =
 
+== Machines used ==
+
+eno:
+{{{
+4-core: model name	: Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz
+}}}
+
+== Benchmarks ==
+
 * Large degree polynomial multiplication modulo n (sage is twice as fast):
 {{{
 [wstein@eno]$ ~/eno/build/sage-3.4.alpha0/sage
