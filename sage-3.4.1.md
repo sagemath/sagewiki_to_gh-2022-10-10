@@ -157,7 +157,21 @@ False
 
  * FIXME: summarize #5551
 
- * FIXME: summarize #5308
+ * First pass of cleanup of the interface of combinatorial classes -- Florent Hivert
+
+ Before the patch the interface of combinatorial classes had two problems:
+
+   - there where two redundant way to get the number of elements {{{len(C)}}} and {{{C.count()}}}. Moreover {{{len}}} must return a plain {{{int}}} where we want arbitrary large number and even {{{infinity}}};
+
+   - there where two redundant way to get at iterator for the elements {{{C.iterator()}}} and {{{iter(C)}}} via {{{C.__iter__}}}.
+ 
+ The patch standardize those ways to
+
+   - {{{C.cardinality}}} which is more explicit and consistent with the rest of Sage;
+
+   - {{{iter(C)}}} via {{{C.__iter__}}} with is clearly more Pythonic.
+ 
+ While the former use of {{{ iterator}}} and {{{count}}} are deprecated but still working, there is no way to keep {{{len}}} working. The reason is that {{{len}}} is called silently by a bunch of function such as {{{list / filter / map}}}, so that if we issue a warning it will pop up at a very large seemingly unrelated places which is way to much confusing. So it was decided to simply remove it and issue an error, telling to call {{{cardinality}}} instead. 
 
  * FIXME: summarize #4549
 
