@@ -6,6 +6,8 @@ The point of this page is to list functionality that Magma has and whether Sage 
 
 The main reference for what Magma does is [[http://magma.maths.usyd.edu.au/magma/htmlhelp/MAGMA.htm|the Magma reference manual]].  
 
+See also [[sagebeatsmagma|Sage versus Magma]].
+
 <<TableOfContents>>
 
 = Functionality in Magma not in Sage =
