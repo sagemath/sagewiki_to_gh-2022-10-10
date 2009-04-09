@@ -155,7 +155,19 @@ False
  }}}
 
 
- * FIXME: summarize #5551
+ * Fix and Enhancements to permutations (Sebastien Labbe) -- 
+ Corrects the Robinson-Schensted algorithm on trivial permutations. Implements the inverse Robinson-Schensted algorithm:
+ {{{
+ sage: Permutation((Tableau([[1,2,4],[3]]), Tableau([[1,3,4],[2]])))
+ [3, 1, 2, 4]
+ sage: Permutation(([[1,2,4],[3]], [[1,3,4],[2]]))
+ [3, 1, 2, 4]
+ }}}
+ It also works for arbitrary words (with semi-standard tableaux):
+ {{{
+ sage: Permutation(([[1,2,2],[3]], [[1,3,4],[2]]))
+ [3, 1, 2, 2]
+ }}}
 
  * First pass of cleanup of the interface of combinatorial classes -- Florent Hivert
 
