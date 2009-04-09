@@ -39,8 +39,13 @@ Sage-combinat is a collection of experimental patches (i.e. extensions) on top o
 
 
 === Communication ===
- * Join our mailing list: http://groups.google.com/group/sage-combinat-devel.
 
+ * Join our mailing lists:
+    * Announcement mailing list (to come)
+    * Developpers mailing list (http://groups.google.com/group/sage-combinat-devel)
+    * Commits mailing list (http://groups.google.com/group/sage-combinat-commits)
+       Receives an automatic notice whenever a sage-combinat related ticket is modified (and eventually whenever a commit is done on the patch server)
+ 
  * Post bug reports, suggestions, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
 
  * Cite Sage-Combinat when you use it for research publications (TODO: provide a standard citation here).
