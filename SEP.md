@@ -8,4 +8,4 @@ A SEP is a '''S'''age '''E'''nhancement '''P'''roposal.
  * [[LinearAlgebraSEP|Linear Algebra]] - ongoing
  * [[SEP/primer|Primer worksheets]] - ongoing
  * [[AlgebraicGeometrySEP|Algebraic Geometry]] - ongoing
- * [[Pyhton2.6SEP|Python 2.6]] - not started yet
+ * [[Python2.6SEP|Python 2.6]] - not started yet
