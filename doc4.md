@@ -1,6 +1,6 @@
 = Sage Doc Day 4 =
 
-'''Saturday, April 11th, 2008'''
+'''Saturday, April 11th, 2008, starting 9am'''
 
 We will focus on writing doctests during Doc Days 4. Our goal is to raise the coverage score for the Sage library to 70%. 
 
