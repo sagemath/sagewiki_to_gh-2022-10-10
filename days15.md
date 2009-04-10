@@ -8,8 +8,8 @@
  * Monday May 18: 5-7pm in MEB 238
  * Tuesday May 19 (morning): at Microsoft Research
  * Tuesday May 19: 5-7pm in MEB 238
- * Wednesday May 20: TBA
- * Thursday May 21: TBA
+ * Wednesday May 20: 5-7pm in [http://www.css.washington.edu/room/PAA+A110 PAA A110]
+ * Thursday May 21: 5-7pm in [http://www.css.washington.edu/room/PAA+A110 PAA A110]
 
 
 == Mailing list ==
