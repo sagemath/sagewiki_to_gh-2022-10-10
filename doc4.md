@@ -4,6 +4,8 @@
 
 We will focus on writing doctests during Doc Days 4. Our goal is to raise the coverage score for the Sage library to 70%. 
 
+Basis for the Doc Day should be 3.4.1.rc2 to be released on Friday, i.e. April 10th, 2008.
+
 == Game Plan ==
 
 See the discussion at https://groups.google.com/group/sage-devel/browse_thread/thread/8344d4f19346b98d
@@ -49,3 +51,9 @@ William
 == Relevant Tickets ==
 
 If you are working on '''any''' of the above please open a ticket and link it here so that we avoid duplicated work.
+
+== Participants ==
+
+Please add yourself here if you plan to be around.
+
+ 1. Michael Abshoff (Merges)
