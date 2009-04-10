@@ -3,7 +3,14 @@
 == DATES: May 16 - 21, 2009 ==
 
 == Location ==
- * The campus of University of Washington, Digipen, and Microsoft Research.
+ * Saturday May 16: Gates Common in the CS building (Paul G. Allen Center) at University of Washington
+ * Sunday May 17: Gates Common in the CS building (Paul G. Allen Center) at University of Washington
+ * Monday May 18: 5-7pm in MEB 238
+ * Tuesday May 19 (morning): at Microsoft Research
+ * Tuesday May 19: 5-7pm in MEB 238
+ * Wednesday May 20: TBA
+ * Thursday May 21: TBA
+
 
 == Mailing list ==
  * http://groups.google.com/group/sagedays15
