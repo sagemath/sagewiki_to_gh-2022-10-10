@@ -20,7 +20,7 @@ schemes/generic/morphism.py: 2% (1 of 40)
 modular/modsym/manin_symbols.py: 2% (2 of 68)
 interfaces/kash.py: 3% (1 of 30)
 probability/random_variable.py: 3% (1 of 30)
-rings/extended_integer_ring.py: 4% (6 of 128)
+rings/extended_integer_ring.py: 4% (6 of 128)  # DELETE!!
 rings/pari_ring.py: 4% (1 of 22)                          # could thisbe deleted???
 structure/formal_sum.py: 4% (1 of 22)
 interfaces/cocoa.py: 4% (1 of 23)                      # delete this, it doesn't work yet
