@@ -1,0 +1,328 @@
+% Dan Drake
+% email: http://mailhide.recaptcha.net/d?k=01UvrR4ej8IbigfFYbi9SUDQ==&amp;c=cU5vhedfflfwjMdUotIwLQ==
+%
+% This work is licensed under a Creative Commons Attribution-Share Alike
+% 3.0 License: http://creativecommons.org/licenses/by-sa/3.0/
+
+\documentclass{beamer}
+
+% for nice printing: add [handout] above, and uncomment below
+% \usepackage{pgfpages}
+% \pgfpagesuselayout{2 on 1}[a4paper, border shrink=5mm]
+
+\mode<presentation>
+{
+  \usetheme{Boadilla}
+  \setbeamercovered{transparent}
+}
+
+% disable the navigation icons, which I don't use
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+% the default Courier typewriter font looks bad, this is much better
+\usepackage[scaled]{beramono}
+
+\title[Sage: free software for mathematics]{Sage: free software for
+  mathematics education and research}
+
+\author{Dan Drake}
+
+% the template file mentions that you can add a logo (look for the
+% "university-logo" stuff) but that doesn't seem to actually do
+% anything. This works and looks relatively nice.
+\institute[KAIST]{\includegraphics[scale=.15]{kaist}}
+
+\date[9 April 2009]{9 April 2009 / Sungkyunkwan University}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+\newcommand{\myhref}[1]{\href{http://#1}{\texttt{#1}}}
+\newcommand{\blankline}{\vspace{\baselineskip}}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{My history with math software}
+
+\begin{frame}
+  \frametitle{Graduate school}
+
+  Learned, and got really good at, Mathematica.
+
+  \pause
+  \begin{itemize}
+  \item wrote multivariable calculus labs, web applets
+  \pause
+  \item did my thesis research
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{KAIST postdoc}
+
+  KAIST only has (an old version of) Maple.
+
+  \begin{itemize}
+    \item couldn't really get much done until I learned Maple
+    \pause
+    \item books: too old; websites: too new
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Buy a copy for myself?}
+ 
+  Not a practical solution.
+ 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Sage: a much better solution}
+  
+  In October 2007 I started using Sage, and will tell you why it's an
+  excellent choice for mathematics education and research.
+
+\end{frame}
+
+\section{What is Sage?}
+
+\begin{frame}
+  \frametitle{What is Sage?}
+  
+  Sage is a ``mathematics software system'' composed of free and open
+  source software.
+
+  \pause \blankline
+
+  Its mission is to create a viable, free, open source alternative to
+  ``the four M's'': Magma, Maple, Mathematica and Matlab.
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Under the hood}
+  
+  Sage is based on the well-known and powerful language Python and ties
+  together many high-quality free software packages:
+
+  \begin{itemize}
+  \item GAP
+  \pause
+  \item Maxima
+  \pause
+  \item Singular
+  \pause
+  \item Pari/GP
+  \pause
+  \item R
+  \end{itemize}
+
+\pause Along with:
+\pause SymPy,
+\pause NumPy,
+\pause Linbox,
+\pause MPFR,
+\pause MPFI,
+\pause NTL,
+\pause eclib,
+\pause ATLAS,
+\pause FLINT,
+\pause lcalc,
+\pause PolyBori,
+\pause NetworkX,
+\pause PyCrypto,
+\pause cvxopt,
+\pause matplotlib
+
+\pause \blankline
+
+and many more.
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Based on Python}
+  
+  \begin{itemize}
+  \item \ldots so programming language design is left to experts.
+  \pause
+  \item Immediate benefit from nearly 20 years of development.
+  \pause
+  \item Lots of non-English resources.
+  \end{itemize}
+
+\end{frame}
+
+\section{What can Sage do?}
+
+\begin{frame}
+  \frametitle{Easy network access}
+  
+  The Sage notebook can be accessed with any modern web browser.
+
+  % demo
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Create fast compiled code}
+  
+  Sage includes Cython, which converts Python-like code to C code and
+  compiles it into fast Python extensions.
+
+  % Cython success story
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Integrate into \LaTeX{} documents}
+  
+  Sage\TeX{}, an optional add-on to Sage, allows you to integrate Sage
+  computations into your \LaTeX{} documents.
+
+  % Stirling triangle example
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Experiment interactively}
+
+  The ``\texttt{@interact}'' decorator allows easy interactive
+  experiments.
+
+  % ginkgo @interact
+  
+\end{frame}
+
+\section{Why use Sage?}
+
+\begin{frame}
+  \frametitle{Practical reasons}
+
+  Anyone can use it for zero cost---no ``dog whistle symphonies'',
+  or retraining.
+
+  % http://www.mat.univie.ac.at/~kratt/hyp_hypq/hyp.html
+  % http://www.math.lsa.umich.edu/~jrs/maple.html
+  
+\end{frame}
+
+\begin{frame}
+  \frametitle{Practical reasons}
+
+  Sharing and collaboration is built into the Sage notebook.
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Practical reasons}
+  
+  Sage has interfaces to seamlessly interoperate with Maple,
+  Mathematica, and Magma.
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Sage is Free software}
+
+  ``Free'' means \emph{freedom}, not just zero cost. Everyone has:
+
+  \begin{itemize}
+  \pause
+  \item the freedom to use Sage for any purpose;
+  \pause
+  \item the freedom to study how it works, and adapt it to their needs;
+  \pause
+  \item the freedom to redistribute copies of Sage;
+  \pause
+  \item the freedom to improve Sage and release the improvements so the
+    whole mathematical community benefits.
+  \end{itemize}
+  \pause
+
+  (Adapted from the Free Software Definition.)
+
+\end{frame}
+
+\begin{frame}
+  
+  From Joachim Neub\"user, who started GAP:
+
+  \begin{quote}
+    You can read Sylow's Theorem and its proof [\ldots] and then you can
+    use Sylow's Theorem for the rest of your life free of charge, but
+    for many computer algebra systems license fees have to be paid
+    regularly [\ldots]. You press buttons and you get answers in the
+    same way as you get the bright pictures from your television set but
+    you cannot control how they were made in either case.
+  \end{quote}
+
+  \vfill
+
+  \hfill quote continues \ldots
+
+\end{frame}
+
+\begin{frame}
+
+  \begin{quote}
+    With this situation two of the most basic rules of conduct in
+    mathematics are violated: \emph{in mathematics information is passed
+      on free of charge and everything is laid open for checking}. Not
+    applying these rules to computer algebra systems that are made for
+    mathematical research [\ldots] means moving in a most undesirable
+    direction. Most important: can we expect somebody to believe a
+    result of a program that he is not allowed to see?
+  \end{quote}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Free software is best for education}
+
+  Training students to use commercial math software is like asking them
+  to pay license fees to use the fundamental theorem of calculus.
+
+  \pause \blankline
+
+  It trains students to not ask questions about how things work.  
+  
+\end{frame}
+
+\begin{frame}
+
+  \begin{center}
+    \Large Sage: free software for mathematics education and research
+  \end{center}
+  
+\end{frame}
+
+\begin{frame}
+  \begin{center}
+    Visit \myhref{sagemath.org} or \myhref{sagenb.kaist.ac.kr}
+
+    to learn about and use Sage.
+
+    \blankline
+
+    Thank you
+  \end{center}
+
+\end{frame}
+\end{document}
