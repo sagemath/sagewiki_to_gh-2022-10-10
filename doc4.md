@@ -59,6 +59,7 @@ If you are working on '''any''' of the above please open a ticket and link it he
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5750 | 5750]]: matrix/matrix_integer_2x2.pyx
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5754 | 5754]]: misc/sagedoc.py
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5757 | 5757]]: sage-test and sage-ptest
+ * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5764 | 5764]]: sageinspect
  * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5734 | 5734]]: modular/modsym/* [Done: p1list.pyx.  in progress: manin_symbols.py]
  * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5756 | 5756]]: rings/morphism.pyx  (William Stein)
 
