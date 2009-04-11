@@ -27,7 +27,7 @@ interfaces/cocoa.py: 4% (1 of 23)                      # delete this, it doesn't
 interfaces/reduce.py: 4% (1 of 23)                     # delete; it doesn't work
 plot/plot3d/base.pyx: 5% (4 of 78)
 plot/tachyon.py: 8% (5 of 58)
-rings/morphism.pyx: 8% (3 of 35)
+DONE rings/morphism.pyx: 8% (3 of 35)
 structure/generators.pyx: 11% (5 of 45)
 categories/pushout.py: 12% (9 of 73)
 rings/laurent_series_ring.py: 13% (3 of 23)
