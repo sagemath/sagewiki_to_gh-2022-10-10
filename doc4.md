@@ -52,9 +52,9 @@ William
 
 If you are working on '''any''' of the above please open a ticket and link it here so that we avoid duplicated work.
 
- * [[http://trac.sagemath.org/sage_trac/ticket/5631 | 5631]]: schemes/generic/affine_space.py
- * [[http://trac.sagemath.org/sage_trac/ticket/5745 | 5745]]: schemes/generic/projective_space.py
- * [[http://trac.sagemath.org/sage_trac/ticket/5747 | 5747]]: schemes/generic/ambient_space.py
+ * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5631 | 5631]]: schemes/generic/affine_space.py
+ * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5745 | 5745]]: schemes/generic/projective_space.py
+ * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5747 | 5747]]: schemes/generic/ambient_space.py
 
 == Participants ==
 
