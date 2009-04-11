@@ -52,6 +52,8 @@ William
 
 If you are working on '''any''' of the above please open a ticket and link it here so that we avoid duplicated work.
 
+ * [[http://trac.sagemath.org/sage_trac/ticket/5745 | 5745]]: schemes/generic/projective_space.py
+
 == Participants ==
 
 Please add yourself here if you plan to be around.
