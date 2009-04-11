@@ -58,6 +58,7 @@ If you are working on '''any''' of the above please open a ticket and link it he
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5749 | 5749]]: rings/power_series_poly.pyx
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5750 | 5750]]: matrix/matrix_integer_2x2.pyx
  * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5734 | 5734]]: modular/modsym/* [Done: p1list.pyx.  in progress: manin_symbols.py]
+ * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5756 | 5756]]: rings/morphism.pyx  (William Stein)
 
 == Bugs found as a result of writing doctests ==
  * http://trac.sagemath.org/sage_trac/ticket/5754: inject_vars and docstrings
