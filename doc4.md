@@ -59,6 +59,9 @@ If you are working on '''any''' of the above please open a ticket and link it he
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5750 | 5750]]: matrix/matrix_integer_2x2.pyx
  * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5734 | 5734]]: modular/modsym/* [Done: p1list.pyx.  in progress: manin_symbols.py]
 
+== Bugs found as a result of writing doctests ==
+ * http://trac.sagemath.org/sage_trac/ticket/5754
+
 == Participants ==
 
 Please add yourself here if you plan to be around.
@@ -66,3 +69,5 @@ Please add yourself here if you plan to be around.
  1. Michael Abshoff (Merges)
  2. Craig Citro (two patches above, more if I have time)
  3. Rob Beezer
+ 1. John Palmieri
+ 1. William Stein
