@@ -70,4 +70,5 @@ Please add yourself here if you plan to be around.
  2. Craig Citro (two patches above, more if I have time)
  3. Rob Beezer
  1. John Palmieri
- 1. William Stein
+ 1. William Stein: 
+    * rings/morphism.pyx: 8% (3 of 35)
