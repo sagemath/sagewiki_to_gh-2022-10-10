@@ -60,7 +60,7 @@ If you are working on '''any''' of the above please open a ticket and link it he
  * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5734 | 5734]]: modular/modsym/* [Done: p1list.pyx.  in progress: manin_symbols.py]
 
 == Bugs found as a result of writing doctests ==
- * http://trac.sagemath.org/sage_trac/ticket/5754
+ * http://trac.sagemath.org/sage_trac/ticket/5754: inject_vars and docstrings
 
 == Participants ==
 
