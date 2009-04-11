@@ -55,9 +55,12 @@ If you are working on '''any''' of the above please open a ticket and link it he
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5631 | 5631]]: schemes/generic/affine_space.py
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5745 | 5745]]: schemes/generic/projective_space.py
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5747 | 5747]]: schemes/generic/ambient_space.py
+ * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5749 | 5749]]: rings/power_series_poly.pyx
+ * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5750 | 5750]]: matrix/matrix_integer_2x2.pyx
 
 == Participants ==
 
 Please add yourself here if you plan to be around.
 
  1. Michael Abshoff (Merges)
+ 1. Craig Citro (two patches above, more if I have time)
