@@ -60,10 +60,10 @@ If you are working on '''any''' of the above please open a ticket and link it he
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5754 | 5754]]: misc/sagedoc.py
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5757 | 5757]]: sage-test and sage-ptest
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5764 | 5764]]: sageinspect
+ * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5756 | 5756]]: rings/morphism.pyx  (William Stein)
  * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5734 | 5734]]: modular/modsym/* [Done: p1list.pyx.  in progress: manin_symbols.py]
- * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5756 | 5756]]: rings/morphism.pyx  (William Stein)
 
-== Bugs found as a result of writing doctests ==
+== Bugs with new tickets found as a result of writing doctests ==
  * http://trac.sagemath.org/sage_trac/ticket/5754: inject_vars and docstrings
  * http://trac.sagemath.org/sage_trac/ticket/5758: "hello" bug
  * http://trac.sagemath.org/sage_trac/ticket/5759: "divides" bug
@@ -77,7 +77,7 @@ Please add yourself here if you plan to be around.
  3. Rob Beezer
  1. John Palmieri
  1. William Stein: 
-    * rings/morphism.pyx: 8% (3 of 35)
+    * rings/morphism.pyx: [100% (35 of 35)] [was 8% (3 of 35)]
  1. John Cremona:
     * modular/modsym/p1list.pyx: 100%  (27 of 27) [was 15% (4 of 26)]
     * modular/manin_symbols.py:  35% (24 of 67) so far [was 2% (2 of 68)]
