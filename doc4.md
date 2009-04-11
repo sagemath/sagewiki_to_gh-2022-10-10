@@ -65,6 +65,7 @@ If you are working on '''any''' of the above please open a ticket and link it he
 == Bugs found as a result of writing doctests ==
  * http://trac.sagemath.org/sage_trac/ticket/5754: inject_vars and docstrings
  * http://trac.sagemath.org/sage_trac/ticket/5758: "hello" bug
+ * http://trac.sagemath.org/sage_trac/ticket/5759: "divides" bug
 
 == Participants ==
 
