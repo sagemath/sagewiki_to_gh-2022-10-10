@@ -77,3 +77,6 @@ Please add yourself here if you plan to be around.
  1. John Palmieri
  1. William Stein: 
     * rings/morphism.pyx: 8% (3 of 35)
+ 1. John Cremona:
+    * modular/modsym/p1list.pyx: 100%  (27 of 27) [was:  15% (4 of 26)]
+    * modular/manin_symbols.py:  2% (2 of 68)
