@@ -50,6 +50,15 @@
  * William Stein
  * Robert Miller
  * Tom Boothby
+ * Nicolas M. Thiery
+ * Christian Nassau
+ * Dan Shumow
+ * Mike Hill
+ * Shaun Ault
+ * Karen T. Kohl
+ * Kiran S. Kedlaya
+ * David Roe
+
 
 == Local travel info ==
 
