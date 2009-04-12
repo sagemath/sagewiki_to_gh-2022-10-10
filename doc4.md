@@ -81,6 +81,8 @@ Please add yourself here if you plan to be around.
  1. Michael Abshoff (Merges)
  2. Craig Citro (two patches above, more if I have time)
  3. Rob Beezer
+    * sage/games/sudoku.py [100% (3 of 3)]
+    * misc/latex.py [underway]
  1. John Palmieri
  1. William Stein: 
     * rings/morphism.pyx: [100% (35 of 35)] [was 8% (3 of 35)]
