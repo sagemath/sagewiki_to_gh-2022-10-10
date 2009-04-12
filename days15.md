@@ -65,13 +65,14 @@
 
 == Local travel info ==
 
-* William Stein has pre-paid for FIVE 3-person rooms at 
+* William Stein has already fully paid for FIVE 3-person rooms May 15 - May 22, 2009, at 
 {{{
     The Collegiana Inn
     4311 - 12th Ave. NE
     Seattle, WA 98105
     (206) 732-3200
 }}}
+If you would like to stay in one of the Collegiana rooms, email wstein@gmail.com to reserve a spot. (And, you don't have to pay anything out of pocket.)
 
  * This place has rooms: http://www.collegeinnseattle.com/ 
 
