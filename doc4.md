@@ -22,7 +22,7 @@ interfaces/kash.py: 3% (1 of 30)
 probability/random_variable.py: 3% (1 of 30)
 rings/extended_integer_ring.py: 4% (6 of 128)  # DELETE!!
 rings/pari_ring.py: 4% (1 of 22)                          # could thisbe deleted???
-structure/formal_sum.py: 4% (1 of 22)
+DONE structure/formal_sum.py: 4% (1 of 22)
 interfaces/cocoa.py: 4% (1 of 23)                      # delete this, it doesn't work yet
 interfaces/reduce.py: 4% (1 of 23)                     # delete; it doesn't work
 plot/plot3d/base.pyx: 5% (4 of 78)
@@ -63,9 +63,9 @@ If you are working on '''any''' of the above please open a ticket and link it he
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5756 | 5756]]: rings/morphism.pyx  (William Stein)
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5756 | 5756]]: plot3d/shapes.pyx
  * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5735 | 5735]]: remove extended ZZ/QQ
+ * ready for review: [[http://trac.sagemath.org/sage_trac/ticket/5766 | 5766]] (William Stein)
 
  * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5734 | 5734]]: modular/modsym/* [Done: p1list.pyx.  in progress: manin_symbols.py]
- * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5766 | 5766]] (William Stein)
  * in progress: [[http://trac.sagemath.org/sage_trac/ticket/5767 | 5767]]: plot3d/base.pyx
 
 == Bugs with new tickets found as a result of writing doctests ==
@@ -83,7 +83,7 @@ Please add yourself here if you plan to be around.
  1. John Palmieri
  1. William Stein: 
     * rings/morphism.pyx: [100% (35 of 35)] [was 8% (3 of 35)]
-    * structure/formal_sum.py: [was 4% (1 of 22)]
+    * structure/formal_sum.py: [100% (22 of 22)] [was 4% (1 of 22)]
  1. John Cremona:
     * modular/modsym/p1list.pyx: 100%  (27 of 27) [was 15% (4 of 26)]
     * modular/manin_symbols.py:  35% (24 of 67) so far [was 2% (2 of 68)]
