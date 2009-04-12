@@ -53,6 +53,7 @@
  * Kiran S. Kedlaya
  * Matt Klassen
  * Karen T. Kohl
+ * Jerome Lefebvre
  * Robert Miller
  * Christian Nassau
  * John Palmieri
