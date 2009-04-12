@@ -65,13 +65,17 @@
 
 == Local travel info ==
 
-Details still being worked out. See however, http://www.collegeinnseattle.com/ and
-
+* William Stein has pre-paid for FIVE 3-person rooms at 
 {{{
     The Collegiana Inn
     4311 - 12th Ave. NE
     Seattle, WA 98105
     (206) 732-3200
 }}}
+
+ * This place has rooms: http://www.collegeinnseattle.com/ 
+
+ * There is probably a very nice studio and/or 1-bedroom available apartment that can be rented for a week here: http://www.stanfordatuw.com/
+
 
  * [[http://sage.math.washington.edu/home/wdj/sagedays/sagedays15.pdf|Flyer]] (pdf)
