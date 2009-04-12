@@ -38,27 +38,29 @@
 
  * Michael Abshoff
  * Martin Albrecht
+ * Shaun Ault
  * Rob Beezer
+ * Tom Boothby
  * Robert Bradshaw
  * Bob Bruner (Wayne State)
  * Craig Citro
+ * Marshall Hampton
+ * Mike Hansen
  * Bill Hart
+ * Mike Hill
  * Fredrik Johansson
  * David Joyner
+ * Kiran S. Kedlaya
+ * Matt Klassen
+ * Karen T. Kohl
+ * Robert Miller
+ * Christian Nassau
  * John Palmieri
  * David Perkinson
- * William Stein
- * Robert Miller
- * Tom Boothby
- * Nicolas M. Thiery
- * Christian Nassau
- * Dan Shumow
- * Mike Hill
- * Shaun Ault
- * Karen T. Kohl
- * Kiran S. Kedlaya
  * David Roe
-
+ * Dan Shumow
+ * William Stein
+ * Nicolas M. Thiery
 
 == Local travel info ==
 
