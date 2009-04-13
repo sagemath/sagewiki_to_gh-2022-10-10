@@ -1,7 +1,7 @@
 ##master-page:HomepageTemplate
 #format wiki
 #language en
-== Your Name ==
+== Kevin Loranger ==
 
 Email: <<MailTo(you AT SPAMFREE example DOT com)>>
 
