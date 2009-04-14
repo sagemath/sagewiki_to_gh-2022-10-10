@@ -29,7 +29,6 @@ plot/plot3d/base.pyx: 5% (4 of 78)
 plot/tachyon.py: 8% (5 of 58)
 DONE rings/morphism.pyx: 8% (3 of 35)
 structure/generators.pyx: 11% (5 of 45)
-categories/pushout.py: 12% (9 of 73)
 rings/laurent_series_ring.py: 13% (3 of 23)
 plot/plot3d/shapes.pyx: 16% (5 of 31)
 gsl/probability_distribution.pyx: 20% (4 of 20)   # has a nodoctest at
