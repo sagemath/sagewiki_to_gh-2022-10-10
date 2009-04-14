@@ -23,7 +23,7 @@ Sage-combinat is a collection of experimental patches (i.e. extensions) on top o
 
    The transition is going to be a massive investment: seven years of hard work to port over! However a lot of experience was gained since 2000, and most of the design is now pretty clear. By sharing the work the transition will hopefuly be relatively quick.
 
-   See the [[http://nthiery@sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]] of the port.
+   See the [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]] of the port.
 
 ----
 
@@ -44,7 +44,7 @@ Sage-combinat is a collection of experimental patches (i.e. extensions) on top o
     * Announcement mailing list (to come)
     * [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]: Developpers mailing list
     * [[http://groups.google.com/group/sage-combinat-commits|sage-combinat-commits]]: A low traffic mailing list which receives an automatic notice whenever a sage-combinat related ticket is modified (and eventually whenever a commit is done on the patch server).
- * Check the  [[http://nthiery@sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]] 
+ * Check the  [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]] 
  * Post bug reports, suggestions, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
  
  * Cite Sage-Combinat when you use it for research publications (TODO: provide a standard citation here).
