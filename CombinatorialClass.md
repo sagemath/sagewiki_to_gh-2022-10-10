@@ -28,22 +28,32 @@ The name of the OOClasses involved in building a CClass should be uniform : let'
  * the OOClass of the objects of a CClass are called by the singular form of the word as in {{{Permutation}}}
 
 The following functions are standard and should be documented/publicized for all CClass:
- * {{{list()}}}
- * {{{count()}}} is the name fixed? coherent with the rest of sage?  (+1 for {{{count()}}}.  As far as I know it is standard. -jbandlow) It's not consistent with python count method :  {{{
-S.count(sub[, start[, end]]) -> int
-
-Return the number of occurrences of substring sub in string
-S[start:end].  Optional arguments start and end are
-interpreted as in slice notation.
-}}} I really prefer the {{{length()}}} which is used in words for example :).
-
- * {{{len}}} is deprecated and should not be used
+ * {{{CC.list()}}}
+ * {{{CC.cardinality()}}} 
+   Note: using {{{CC.count()}}} or {{{len(CC)}}} is deprecated in Sage 3.4.1
 
 The following function should be written but are not supposed to be called directly by the user:
  * {{{__contains__}}} what should be the answer to {{{[2,1,3] in permutations([2,1,3])}}} ? 
- * {{{__iter__}}} this allows for the class itself to be iterated through. Therefore there is no need for {{{iterator}}}. {{{iterator}}} should be deprecated and removed. 
-   
- What should we do if there is several iterators ? See the discussion on the mailing list. 
+ * {{{__iter__}}} this allows for the class itself to be iterated through. 
+   Note: using {{{CC.iterator()}}} is deprecated in Sage 3.4.1
+
+== Sets with several natural enumerations
+
+An enumerated set has, by definition, a single canonical enumeration, to which list/__iter__/rank/unrank should all adhere to.
+To implement several enumerations on the same set, one should construct as many enumerated sets.
+{{{
+sage: C = Combinations(range(6),3, enumerated_by='ChaseGrayCode')
+sage: for c in C:
+        ...
+}}}
+
+As a sugar for the user, one may also want to allow for:
+{{{
+C.enumerated_by('lex')
+}}}
+which returns the same enumerated set  as Combinations(..., enumerated_by = 'lex')
+
+To be discussed: any better suggestion for the keyword name? enumeration? ordered_by?
 
 == Objects/Elements/Parents ==
 
