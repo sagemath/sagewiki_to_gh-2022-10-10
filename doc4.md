@@ -90,5 +90,5 @@ Please add yourself here if you plan to be around.
     * I GIVE; I can't deal with that! -- structure/generators.pyx: xxx so far [was generators.pyx: 11% (5 of 45)]
  1. John Cremona:
     * modular/modsym/p1list.pyx: 100%  (27 of 27) [was 15% (4 of 26)] (patch ready for review)
-    * modular/manin_symbols.py:  35% (24 of 67) so far [was 2% (2 of 68)]
+    * modular/manin_symbols.py:  60% (41 of 68) so far [was 2% (2 of 68)]
  1. Robert Bradshaw
