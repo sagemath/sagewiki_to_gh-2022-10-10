@@ -24,6 +24,7 @@ The last column provides suggestions for a common name (or '?' if it is not clea
 ||<|9> ''Constituents'' || change_variable_name, change_ring || change_ring || change_ring ||
 || variable_name || - || variable_names ||
 || - || variable || variable ||
+|| exponents (list of Ints) || exponents (list of tuples) || exponents (list of tuples) ||
 || coeffs/coefficients/list || coefficients || coefficients ''only''||
 || - || coefficient || ? ||
 || - || monomial_coefficient || ? ||
