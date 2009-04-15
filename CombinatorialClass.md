@@ -83,12 +83,20 @@ Yes ! see up there -Florent)
 
 == Bijections ==
 
-When two combinatorial classes As and Bs with object a and b from OOclass A and B are in bijection, there are several possibilities
- * {{{a.to_B()}}} and {{{b.to_A()}}} : this is practical for the user, from the combinatorial point of view. however there is no control on the class nor the parent of the results. 
- * {{{As.from_B(b)}}} and {{{Bs.from_A(s)}}} is more consistent. The combinatorial class knows its bijections. 
- * {{{Hom(As, Bs).nameOftheBijection(a)}}} ?   
+When two combinatorial classes As and Bs with object a and b from OOclass A and B are in bijection, there are several possibilities:
+ * {{{a.to_B()}}} and {{{b.to_A()}}} : this is practical for the user (automatic completion), from the combinatorial point of view. however there is no control on the class nor the parent of the results. 
+ * {{{As.from_B(b)}}} and {{{Bs.from_A(s)}}} is more consistent. The combinatorial class knows its bijections. And we can get the bijection itself
+    by f = As.from_B.
+ * {{{Hom(As, Bs).nameOftheBijection(a)}}} 
 
-It is maybe not a very strong rule. Possible exception A is very standard and B is very exotic. Then maybe one can only write {{{b.to_A()}}} and {{{B.from_A}}}
+We probably should not try to impose too strong a choice, since depending on the context some possibilities are much more natural than others.
+For example, if A is very standard and B is very exotic, the most natural is to use {{{b.to_A()}}} and {{{B.from_A}}}
+
+At the moment, I (NT) would recommend implementing any one of a.to_B(), B.from_A(a), or Bs.from_A(a). Possibly with aliases like {{{B.from_A(a)}}} calling {{{a.to_B()}}}, or {{{B(a)}}} calling {{{B.from_A(a)}}} for the most common use cases.
+
+Then, when we will have more experience, we should investigate further the more advanced options which are discussed below.
+
+=== Toward a bijection framework? ===
 
 (It might be cool to have some generic intelligence here.   Suppose I add the new CClass {{{C}}} to sage and implement {{{C._to(A,c)}}}.  Then I would like it if when I call either {{{C.to(A,c)}}} or {{{A.from(C,c)}}}, sage automatically tries both (if necessary) of {{{A._from(C,c)}}} and {{{C._to(A,c)}}}. In other words, {{{CombinatorialClass}}} itself could have a method like:{{{
 def to(self, class, element):
