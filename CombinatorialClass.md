@@ -86,14 +86,17 @@ Yes ! see up there -Florent)
 When two combinatorial classes As and Bs with object a and b from OOclass A and B are in bijection, there are several possibilities:
  * {{{a.to_B()}}} and {{{b.to_A()}}} : this is practical for the user (automatic completion), from the combinatorial point of view. however there is no control on the class nor the parent of the results. 
  * {{{As.from_B(b)}}} and {{{Bs.from_A(s)}}} is more consistent. The combinatorial class knows its bijections. And we can get the bijection itself
-    by f = As.from_B.
+    by f = As.from_B. Also, it can work on some object b which is not typed (say a list or tuple).
  * {{{Hom(As, Bs).nameOftheBijection(a)}}}
  * Bs(a) / B(a)
 
 We probably should not try to impose too strong a choice, since depending on the context some possibilities are much more natural than others.
-For example, if A is very standard and B is very exotic, the most natural is to use {{{b.to_A()}}} and {{{B.from_A}}}
+For example, if A is very standard and B is very exotic, the most natural is to use {{{b.to_A()}}} and {{{B.from_A(a)}}}.
 
 At the moment, I (NT) would recommend implementing whichever of a.to_B(), B.from_A(a), or Bs.from_A(a) feels more natural and practical code wise. Possibly with aliases like {{{B.from_A(a)}}} calling {{{a.to_B()}}}, or {{{B(a)}}} calling {{{B.from_A(a)}}} for the most common use cases.
+
+Also, I would recommend keeping the __init__() as concise as possible. Ideally, they would just handle basic construction of
+objects from simple input, and possibly some dispatching logic. All the rest should be delegated to the .from_ and .to_.
 
 Then, when we will have more experience, we should investigate further the more advanced options which are discussed below.
 
