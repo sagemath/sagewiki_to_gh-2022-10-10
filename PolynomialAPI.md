@@ -38,10 +38,14 @@ The last column provides suggestions for a common name (or '?' if it is not clea
 || - || lm || lm ||
 || - || lt || lt ||
 || - || reduce || reduce ||
-||<|7>''Etc.''|| denominator || - || ? ||
+||<|11>''Etc.''|| denominator || - || ? ||
 || numerator || - || ? ||
 || xgcd || - || ? ||
 || plot || - || ? (3D) ||
 || factor_mod || - || factor_mod ||
 || is_gen || is_generator || is_generator ||
 || is_square || - || ? ||
+|| is_irreducible || - || ||
+|| factor || - || ||
+|| polynomial || || ||
+|| ldegree || || ||
