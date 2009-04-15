@@ -87,12 +87,13 @@ When two combinatorial classes As and Bs with object a and b from OOclass A and 
  * {{{a.to_B()}}} and {{{b.to_A()}}} : this is practical for the user (automatic completion), from the combinatorial point of view. however there is no control on the class nor the parent of the results. 
  * {{{As.from_B(b)}}} and {{{Bs.from_A(s)}}} is more consistent. The combinatorial class knows its bijections. And we can get the bijection itself
     by f = As.from_B.
- * {{{Hom(As, Bs).nameOftheBijection(a)}}} 
+ * {{{Hom(As, Bs).nameOftheBijection(a)}}}
+ * Bs(a) / B(a)
 
 We probably should not try to impose too strong a choice, since depending on the context some possibilities are much more natural than others.
 For example, if A is very standard and B is very exotic, the most natural is to use {{{b.to_A()}}} and {{{B.from_A}}}
 
-At the moment, I (NT) would recommend implementing any one of a.to_B(), B.from_A(a), or Bs.from_A(a). Possibly with aliases like {{{B.from_A(a)}}} calling {{{a.to_B()}}}, or {{{B(a)}}} calling {{{B.from_A(a)}}} for the most common use cases.
+At the moment, I (NT) would recommend implementing whichever of a.to_B(), B.from_A(a), or Bs.from_A(a) feels more natural and practical code wise. Possibly with aliases like {{{B.from_A(a)}}} calling {{{a.to_B()}}}, or {{{B(a)}}} calling {{{B.from_A(a)}}} for the most common use cases.
 
 Then, when we will have more experience, we should investigate further the more advanced options which are discussed below.
 
@@ -107,14 +108,18 @@ def to(self, class, element):
 }}}
 And similar for {{{from()}}}. Thoughts? -jbandlow)
 
-(I like this idea of generic intelligence which looks both at the domain and the image set. However, it it not clear for me if we  prefer to write {{{Cs.to(As,c)}}} than {{{C.to(A, c)}}} (remember {{{C}}} and {{{A}}} is the OOClass of {{{a}}} and {{{c}}} whereas {{{Cs}}} and {{{As}}} are combinatorial classes. Bijection acts on objects but are beetween combinatorial classes. So I seems to by in favor of {{{Cs.to(As,c)}}} - Florent
+I like this idea of generic intelligence which looks both at the domain and the image set. However, it it not clear for me if we  prefer to write {{{Cs.to(As,c)}}} than {{{C.to(A, c)}}} (remember {{{C}}} and {{{A}}} is the OOClass of {{{a}}} and {{{c}}} whereas {{{Cs}}} and {{{As}}} are combinatorial classes. Bijection acts on objects but are beetween combinatorial classes. So I seems to be in favor of {{{Cs.to(As,c)}}} - Florent
++1 (NT);  and also, Cs.to(As) to get the bijection itself.
 
 Further comments about jbandlow suggestion:
  * maybe we want to use coercion for that.
+    NT: delegating the dispatch logic to conversions definitely sounds good. I am not so sure about coercions, unless the bijection is really
+    really canonical.
  * How to deal with several bijections? extra arg {{{Cs.to(As, c, 'name_of_the_bijection')}}}. I maybe prefer {{{Cs.to(As, 'name')(c)}}}
+    +1 (NT)
  * To avoid unuseful selection/dispatching logic I'd rather _to to try {{{A._from_C}}} and {{{C._to_A}}}. 
 
-Further comments ?) 
+Further comments ?
 
 == Combinatorial Class Factory ==
 
