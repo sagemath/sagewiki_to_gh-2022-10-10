@@ -51,7 +51,7 @@
 
           * 1.3. Programming in Sage
 
-          * 1.5. 2D and 3D Plotting in Sage
+          * 1.5. 2D and 3D Plotting in Sage [JoseGuzman]
 
           * 1.6. Interact in Sage [Erik]
 
