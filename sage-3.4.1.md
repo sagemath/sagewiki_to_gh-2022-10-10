@@ -78,6 +78,8 @@ sage: %timeit f.is_irreducible()
 
  * FIXME: summarize #5629
 
+ * FIXME: summarize #5270
+
 
 == Basic Arithmetic ==
 
@@ -102,6 +104,14 @@ sage: timeit("f//389")
 
 
  * FIXME: summarize #5622
+
+ * FIXME: summarize #5735
+
+ * FIXME: summarize #5659
+
+ * FIXME: summarize #3309
+
+ * FIXME: summarize #5685
 
 
 == Build ==
@@ -187,6 +197,12 @@ False
 
  * FIXME: summarize #4549
 
+ * FIXME: summarize #5729
+
+ * FIXME: summarize #5478
+
+ * FIXME: summarize #5721
+
 
 == Commutative Algebra ==
 
@@ -209,6 +225,9 @@ Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
 
 
  * FIXME: summarize #5353
+
+
+ * FIXME: summarize #3812
 
 
 == Distribution ==
@@ -236,6 +255,11 @@ Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
 == Graphics ==
 
 
+ * FIXME: summarize #5606
+
+ * FIXME: summarize #5450
+
+
 == Group Theory ==
 
 
@@ -257,6 +281,9 @@ Wall time: 0.00 s
 sage: timeit("a == b")
 625 loops, best of 3: 240 ns per loop
  }}}
+
+
+ * FIXME: summarize #5264
 
 
 == Interfaces ==
@@ -298,10 +325,15 @@ Wall time: 0.00 s
  }}}
 
 
+ * FIXME: summarize #5715
+
+
 == Miscellaneous ==
 
 
  * FIXME: summarize #5638
+
+ * FIXME: summarize #5386
 
 
 == Modular Forms ==
@@ -338,6 +370,12 @@ FIXME: A number of tickets related to UTF-8 text got merged and should definitel
 
  * FIXME: summarize #4990
 
+ * FIXME: summarize #3081
+
+ * FIXME: summarize #4724
+
+ * FIXME: summarize #5673
+
 
 == Numerical ==
 
@@ -357,11 +395,23 @@ FIXME: A number of tickets related to UTF-8 text got merged and should definitel
 
  * FIXME: summarize #5240
 
+ * FIXME: summarize #5738
+
+ * FIXME: summarize #5696
+
+ * FIXME: summarize #4987
+
+ * FIXME: summarize #5697
+
+ * FIXME: summarize #5823
+
 
 == Quadratic Forms ==
 
 
 == Symbolics ==
+
+ * FIXME: summarize #5737
 
 
 == User Interface ==
