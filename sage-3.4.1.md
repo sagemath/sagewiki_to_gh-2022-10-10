@@ -238,37 +238,46 @@ False
  }}}
 
 
- * Fix and Enhancements to permutations (Sebastien Labbe) -- 
- Corrects the Robinson-Schensted algorithm on trivial permutations. Implements the inverse Robinson-Schensted algorithm:
+ * Fix and enhancements to permutations (Sebastien Labbe) -- This corrects the Robinson-Schensted algorithm on trivial permutations. It implements the inverse Robinson-Schensted algorithm:
  {{{
- sage: Permutation((Tableau([[1,2,4],[3]]), Tableau([[1,3,4],[2]])))
- [3, 1, 2, 4]
- sage: Permutation(([[1,2,4],[3]], [[1,3,4],[2]]))
- [3, 1, 2, 4]
+sage: Permutation((Tableau([[1,2,4],[3]]), Tableau([[1,3,4],[2]])))
+[3, 1, 2, 4]
+sage: Permutation(([[1,2,4],[3]], [[1,3,4],[2]]))
+[3, 1, 2, 4]
  }}}
- It also works for arbitrary words (with semi-standard tableaux):
+ And it works for arbitrary words (with semi-standard tableaux):
  {{{
- sage: Permutation(([[1,2,2],[3]], [[1,3,4],[2]]))
- [3, 1, 2, 2]
+sage: Permutation(([[1,2,2],[3]], [[1,3,4],[2]]))
+[3, 1, 2, 2]
  }}}
 
- * First pass of cleanup of the interface of combinatorial classes -- Florent Hivert
 
- Before the patch the interface of combinatorial classes had two problems:
-
-   - there were two redundant ways to get the number of elements {{{len(C)}}} and {{{C.count()}}}. Moreover {{{len}}} must return a plain {{{int}}} where we want arbitrary large number and even {{{infinity}}};
-
-   - there were two redundant way to get an iterator for the elements {{{C.iterator()}}} and {{{iter(C)}}} (allowing for {{{for c in C: ...}}}) via {{{C.__iter__}}}.
+ * First pass of cleanup of the interface of combinatorial classes (Florent Hivert) -- Before the patch, the interface of combinatorial classes had two problems:
+  1. There were two redundant ways to get the number of elements {{{len(C)}}} and {{{C.count()}}}. Moreover {{{len}}} must return a plain {{{int}}} where we want an arbitrary large number and even {{{infinity}}};
+  1. There were two redundant ways to get an iterator for the elements {{{C.iterator()}}} and {{{iter(C)}}} (allowing for {{{for c in C: ...}}}) via {{{C.__iter__}}}.
  
- The patch standardize those to:
-
-   - {{{C.cardinality()}}} which is more explicit and consistent with many other Sage libraries;
-
-   - {{{iter(C)}}} / {{{for x in C:}}} via {{{C.__iter__}}} with is clearly more Pythonic.
+ The patch standardize those issues to:
+  1. {{{C.cardinality()}}} which is more explicit and consistent with many other Sage libraries;
+  1. {{{iter(C)}}} / {{{for x in C:}}} via {{{C.__iter__}}} which is clearly more Pythonic.
  
-  The functions {{{ iterator}}} and {{{count}}} are deprecated (with a warning) but still working for the moment (please fix your code). On the other hand, there was no way to keep backward compatibility for {{{len}}}. Indeed, many of function such as {{{list / filter / map}}} try silently to call {{{len}}},  which would have caused miriads of warnings to be issued in seemingly unrelated places. So it was decided to simply remove it, and issue an error, suggesting to call {{{cardinality}}} instead. 
+  The functions {{{iterator()}}} and {{{count()}}} are deprecated (with a warning), but will be removed in a later release. On the other hand, there was no way to keep backward compatibility for {{{len}}}. Indeed, many of function such as {{{list / filter / map}}} try silently to call {{{len}}},  which would have caused miriads of warnings to be issued in seemingly unrelated places. So it was decided to simply remove it and issue an error, suggesting to call {{{cardinality}}} instead. 
 
- * FIXME: summarize #4549
+
+ * New class {{{IntegerListLex}}} for generating integer lists (Nicolas M. Thiery, Florent Hivert) -- The new class provides a Constant Amortized Time iterator through the combinatorial classes of integer lists. For example, we create the combinatorial class of lists of length 3 and sum 2 as follows:
+ {{{
+sage: C = IntegerListsLex(2, length=3); C
+Integer lists of sum 2 satisfying certain constraints
+sage: C.count()
+6
+sage: [p for p in C]
+[[2, 0, 0], [1, 1, 0], [1, 0, 1], [0, 2, 0], [0, 1, 1], [0, 0, 2]]
+ }}}
+ Here's the list of all compositions of 4: 
+ {{{
+sage: list(IntegerListsLex(4, min_part = 1)) 
+[[4], [3, 1], [2, 2], [2, 1, 1], [1, 3], [1, 2, 1], [1, 1, 2], [1, 1, 1, 1]]
+ }}}
+
 
  * FIXME: summarize #5729
 
