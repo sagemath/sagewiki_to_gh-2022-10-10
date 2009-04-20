@@ -182,7 +182,46 @@ Wall time: 0.02 s
  (2, 2, 1)]
  }}}
 
- * FIXME: summarize #3309
+
+ * Optimized binomial function when an input is real or complex floating point (Dan Drake, William Stein) -- The function {{{binomial()}}} for returning the binomial coefficients is now much faster. In some cases, speed efficiency can be up to 4000x. Here are some timing statistics obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: x, y = 1140000.78, 420000
+sage: %timeit binomial(x, y)
+10 loops, best of 3: 1.19 s per loop
+sage: 
+sage: x, y = RR(pi^5), 10
+sage: %timeit binomial(x, y)
+10000 loops, best of 3: 28.2 µs per loop
+sage: 
+sage: x, y = RR(pi^15), 500
+sage: %timeit binomial(x, y)
+1000 loops, best of 3: 799 µs per loop
+sage:
+sage: x, y = RealField(500)(1729000*sqrt(2)), 17000
+sage: %timeit binomial(x, y)
+10 loops, best of 3: 34.4 ms per loop
+
+
+# AFTER
+
+sage: x, y = 1140000.78, 420000
+sage: %timeit binomial(x, y)
+1000 loops, best of 3: 297 µs per loop
+sage: 
+sage: x, y = RR(pi^5), 10
+sage: %timeit binomial(x, y)
+10000 loops, best of 3: 189 µs per loop
+sage: 
+sage: x, y = RR(pi^15), 500
+sage: %timeit binomial(x, y)
+1000 loops, best of 3: 335 µs per loop
+sage: 
+sage: x, y = RealField(500)(1729000*sqrt(2)), 17000
+sage: %timeit binomial(x, y)
+1000 loops, best of 3: 692 µs per loop
+ }}}
 
  * FIXME: summarize #5685
 
