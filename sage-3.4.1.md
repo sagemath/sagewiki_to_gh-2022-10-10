@@ -132,7 +132,55 @@ sage: timeit("f//389")
 
  * FIXME: summarize #5735
 
- * FIXME: summarize #5659
+ * Speed-up the function {{{solve_mod()}}} (Wilfried Huss) -- Performance improvement for the function {{{solve_mod()}}} is now up to 5x when solving an equation or a list of equations modulo a given integer modulus. On the machine sage.math, we have the following timing statistics:
+ {{{
+# BEFORE
+
+sage: x, y = var('x,y')
+sage: time solve_mod([x^2 + 2 == x, x^2 + y == y^2], 14)
+CPU times: user 0.01 s, sys: 0.02 s, total: 0.03 s
+Wall time: 0.18 s
+[(4, 2), (4, 6), (4, 9), (4, 13)]
+sage:
+sage: x,y,z = var('x,y,z')
+sage: time solve_mod([x^5 + y^5 == z^5], 3)
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.10 s
+
+[(0, 0, 0),
+ (0, 1, 1),
+ (0, 2, 2),
+ (1, 0, 1),
+ (1, 1, 2),
+ (1, 2, 0),
+ (2, 0, 2),
+ (2, 1, 0),
+ (2, 2, 1)]
+
+
+# AFTER
+
+sage: x, y = var('x,y')
+sage: time solve_mod([x^2 + 2 == x, x^2 + y == y^2], 14)
+CPU times: user 0.03 s, sys: 0.01 s, total: 0.04 s
+Wall time: 0.16 s
+[(4, 2), (4, 6), (4, 9), (4, 13)
+sage:
+sage: x,y,z = var('x,y,z')
+sage:  time solve_mod([x^5 + y^5 == z^5], 3)
+CPU times: user 0.01 s, sys: 0.01 s, total: 0.02 s
+Wall time: 0.02 s
+
+[(0, 0, 0),
+ (0, 1, 1),
+ (0, 2, 2),
+ (1, 0, 1),
+ (1, 1, 2),
+ (1, 2, 0),
+ (2, 0, 2),
+ (2, 1, 0),
+ (2, 2, 1)]
+ }}}
 
  * FIXME: summarize #3309
 
