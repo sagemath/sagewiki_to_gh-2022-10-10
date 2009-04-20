@@ -76,7 +76,22 @@ sage: %timeit f.is_irreducible()
 == Algebraic Geometry ==
 
 
- * FIXME: summarize #5629
+ * Refactor {{{dimension()}}} method for schemes (Alex Ghitza) -- Implement methods {{{dimension_absolute()}}} and {{{dimension_relative()}}}, where {{{dimension()}}} is an alias for {{{dimension_absolute()}}}. Here are some examples of using {{{dimension_absolute()}}} and {{{dimension()}}}:
+ {{{
+sage: A2Q = AffineSpace(2, QQ)
+sage: A2Q.dimension_absolute()
+2
+sage: A2Q.dimension()
+2
+ }}}
+ And here's an example demonstrating the use of {{{dimension_relative()}}}:
+ {{{
+sage: S = Spec(ZZ)
+sage: S.dimension_relative()
+0
+ }}}
+
+
 
  * FIXME: summarize #5270
 
