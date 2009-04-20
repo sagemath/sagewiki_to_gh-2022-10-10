@@ -92,8 +92,18 @@ sage: S.dimension_relative()
  }}}
 
 
-
- * FIXME: summarize #5270
+ * Plotting affine and projective curves (Alex Ghitza) -- Improving the plotting usability so it is now easier to plot affine and projective curves. For example, we can plot a [[attachment:5-nodal curve]] of degree 11:
+ {{{
+sage: R.<x, y> = ZZ[] 
+sage: C = Curve(32*x^2 - 2097152*y^11 + 1441792*y^9 - 360448*y^7 + 39424*y^5 - 1760*y^3 + 22*y - 1) 
+sage: C.plot((x, -1, 1), (y, -1, 1), plot_points=400)
+ }}}
+ Now we plot an [[attachment:elliptic curve]]:
+ {{{
+sage: E = EllipticCurve('101a') 
+sage: C = Curve(E) 
+sage: C.plot()
+ }}}
 
 
 == Basic Arithmetic ==
