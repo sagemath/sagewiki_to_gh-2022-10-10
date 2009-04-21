@@ -9,9 +9,53 @@ Sage 3.4.1 was released on FIXME. For the official, comprehensive release note, 
 == Algebra ==
 
 
- * FIXME: summarize ticket #5535.
+ * Optimized {{{is_primitive()}}} method (Ryan Hinton) -- The method {{{is_primitive()}}} in {{{sage/rings/polynomial/polynomial_element.pyx}}} is used for determining whether or not a polynomial is primitive over a finite field. Prime divisors are calculated during the test for polynomial primitivity. Where n is large, calculating those prime divisors can dominate the running time of the test. The {{{is_primitive()}}} method now has the optional argument {{{n_prime_divs}}} for providing precomputed prime divisors. This optional argument can result in a performance improvement of up to 4x. On the machine sage.math, one has the following timing statistics:
+ {{{
+sage: R.<x> = PolynomialRing(GF(2), 'x')
+sage: nn = 128
+sage: max_order = 2^nn - 1
+sage: pdivs = max_order.prime_divisors()
+sage: poly = R.random_element(nn)
+sage: while not (poly.degree()==nn and poly.is_primitive(max_order, pdivs)):
+....:     poly = R.random_element(nn)
+....:     
+sage: %timeit poly.is_primitive()  # without n_prime_divs optional argument
+10 loops, best of 3: 285 ms per loop
+sage: %timeit poly.is_primitive(max_order, pdivs)  # with n_prime_divs optional argument
+10 loops, best of 3: 279 ms per loop
+sage: 
+sage: 
+sage: nn = 256
+sage: max_order = 2^nn - 1
+sage: pdivs = max_order.prime_divisors()
+sage: poly = R.random_element(nn)
+sage: while not (poly.degree()==nn and poly.is_primitive(max_order, pdivs)):
+....:     poly = R.random_element(nn)
+....:     
+sage: %timeit poly.is_primitive()  # without n_prime_divs optional argument
+10 loops, best of 3: 3.22 s per loop
+sage: %timeit poly.is_primitive(max_order, pdivs)  # with n_prime_divs optional argument
+10 loops, best of 3: 700 ms per loop
+ }}}
 
- * FIXME: summarize ticket #5658.
+
+ * Speed-up the method {{{order_from_multiple()}}} (John Cremona) -- For groups of prime order n, every non-identity element has order n. The previous implementation of the method {{{order_from_multiple()}}} computes g^n twice when g is not the identity and n is prime. Such double computation is now avoided. Now for each prime p dividing the given multiple of the order, we avoid the last multiplication/powering by p, hence saving some computation time whenever the p-exponent of the order is maximal. The new implementation of {{{order_from_multiple()}}} results in a performance improvement of up to 25%. Here are some timing statistics obtained using the machine sage.math:
+ {{{
+# BEFORE
+sage: F = GF(2^1279, 'a')
+sage: n = F.cardinality() - 1 # Mersenne prime
+sage: order_from_multiple(F.random_element(), n, [n], operation='*') == n
+True
+sage: %timeit order_from_multiple(F.random_element(), n, [n], operation='*') == n
+10 loops, best of 3: 63.7 ms per loop
+
+
+# AFTER
+sage: F = GF(2^1279, 'a')
+sage: n = F.cardinality() - 1 # Mersenne prime
+sage: %timeit order_from_multiple(F.random_element(), n, [n], operation='*') == n
+10 loops, best of 3: 47.2 ms per loop
+ }}}
 
 
  * Speed-up in irreducibility test (Ryan Hinton) -- For polynomials over the finite field {{{GF(2)}}}, the test for irreducibility is now up to 40,000 times faster than previously. On a 64-bit Debian/squeeze machine with Core 2 Duo running at 2.33 GHz, one has the following timing improvements:
@@ -41,7 +85,7 @@ sage: f = P.random_element(100000)
 sage: %timeit f.is_irreducible()
 100 loops, best of 3: 10.4 ms per loop
  }}}
-Furthermore, on Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) CPU running at 2.00GHz with 1.0GB of RAM, one has the following timing statistics:
+ Furthermore, on Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) CPU running at 2.00GHz with 1.0GB of RAM, one has the following timing statistics:
  {{{
 # BEFORE
 sage: P.<x> = GF(2)[]
