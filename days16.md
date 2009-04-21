@@ -12,4 +12,6 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
  * Organizing Committee: Enrique González-Jiménez, Joaquim Puig, Jordi Quer.
   
 
-More info coming soon.
+== Mailing lists ==
+ * Participants lists (open): http://groups.google.com/group/sagedays16
+ * Organizers list (closed): http://groups.google.com/group/sagedays16-org
