@@ -11,18 +11,20 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
  * [[Michael Abshoff|MichaelAbshoff]], [[http://www.informatik.uni-bremen.de/~malb/|Martin Albrecht]], [[http://www.warwick.ac.uk/~masgaj/|John Cremona]], [[http://www-ma2.upc.es/~quer/|Jordi Quer]], [[http://wstein.org|William Stein]], [[http://www.uam.es/personal_pdi/ciencias/engonz/|Enrique González-Jiménez]], [[http://polit.upc.es/~puig/indexen.html|Joaquim Puig]].
 
 == Participants ==
-  * Michael Abshoff
-  * Martin Albrecht
-  * Christian Eder
-  * Burcin Erocal
-  * Jordi Guàrdia
-  * David Loeffler
-  * Joaquim Puig
-  * Jordi Quer
-  * Emmanuel Thome
-  * Gonzalo Tornaria
-  * William Stein
-  * Brian Wyman
+  1. Michael Abshoff
+  1. Martin Albrecht
+  1. Wouter Castryck
+  1. Christian Eder
+  1. Burcin Erocal
+  1. Jordi Guàrdia
+  1. David Loeffler
+  1. Robert Miller
+  1. Joaquim Puig
+  1. Jordi Quer
+  1. Emmanuel Thome
+  1. Gonzalo Tornaria
+  1. William Stein
+  1. Brian Wyman
   
 
 == Mailing lists ==
