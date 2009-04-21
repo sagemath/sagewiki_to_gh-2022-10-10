@@ -8,7 +8,7 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 
 == Organizers ==
 
- * Michael Abshoff, Martin Albrecht, John Cremona, Jordi Quer, William Stein, Enrique González-Jiménez, [[http://polit.upc.es/~puig/indexen.html|Joaquim Puig]].
+ * [[Michael Abshoff|MichaelAbshoff]], [[Martin Albrecht|http://www.informatik.uni-bremen.de/~malb/]], [[http://www.warwick.ac.uk/~masgaj/|John Cremona]], [[http://www-ma2.upc.es/~quer/|Jordi Quer]], [[http://wstein.org|William Stein]], [[http://www.uam.es/personal_pdi/ciencias/engonz/|Enrique González-Jiménez]], [[http://polit.upc.es/~puig/indexen.html|Joaquim Puig]].
   
 
 == Mailing lists ==
