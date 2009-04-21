@@ -9,8 +9,22 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 == Organizers ==
 
  * [[Michael Abshoff|MichaelAbshoff]], [[http://www.informatik.uni-bremen.de/~malb/|Martin Albrecht]], [[http://www.warwick.ac.uk/~masgaj/|John Cremona]], [[http://www-ma2.upc.es/~quer/|Jordi Quer]], [[http://wstein.org|William Stein]], [[http://www.uam.es/personal_pdi/ciencias/engonz/|Enrique González-Jiménez]], [[http://polit.upc.es/~puig/indexen.html|Joaquim Puig]].
+
+== Invited Speakers ==
+  * Christian Eder
+  * Jordi Guàrdia
+  * David Loeffler
+  * Gonzalo Tornaria
   
 
 == Mailing lists ==
  * Participants lists (open): http://groups.google.com/group/sagedays16
  * Organizers list (closed): http://groups.google.com/group/sagedays16-org
+
+== Schedule ==
+ * Monday, June 22: [[http://www.crm.es/Conferences/IndexThematicDaysEng.htm|CRM Thematic Day on Mathematics and Computation]]
+ * Tuesday, June 23:
+ * Wednesday, June 24:
+ * Thursday, June 25:
+ * Friday, June 26:
+ * Saturday, June 27:
