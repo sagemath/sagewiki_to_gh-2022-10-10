@@ -161,6 +161,7 @@ sage: f = 389 * R.random_element(1000)
 sage: timeit("f//389")
 625 loops, best of 3: 312 µs per loop
 
+
 # AFTER
 sage: R.<x> = ZZ["x"]
 sage: f = 389 * R.random_element(1000)
@@ -172,9 +173,8 @@ sage: timeit("f//389")
  * New {{{fast_float}}} supports more datatypes with improved performance (Carl Witty) -- A rewrite of {{{fast_float}}} to support multiple types. Here, we get accelerated evaluation over {{{RealField(k)}}} as well as {{{RDF}}}, real double field. As compared with the previous {{{fast_float}}}, improved performance can range from 2% faster to more than 2x as fast. An extended list of benchmark details is available at [[http://trac.sagemath.org/sage_trac/ticket/5093|ticket 5093]].
 
 
- * FIXME: summarize #5622
+ * Complex double fast callable interpreter (Robert Bradshaw) -- Support for complex double floating point (CDF). The new interpreter is implemented in the class {{{CDFInterpreter}}} of {{{sage/ext/gen_interpreters.py}}}.
 
- * FIXME: summarize #5735
 
  * Speed-up the function {{{solve_mod()}}} (Wilfried Huss) -- Performance improvement for the function {{{solve_mod()}}} is now up to 5x when solving an equation or a list of equations modulo a given integer modulus. On the machine sage.math, we have the following timing statistics:
  {{{
@@ -362,7 +362,8 @@ sage: list(IntegerListsLex(4, min_part = 1))
  }}}
 
 
- * FIXME: summarize #5729
+ * Cleanup of crystal code (Anne Schilling, Nicolas M. Thiery) -- Cartan type is now implemented as the method {{{cartan_type}}}, rather than an attribute as was previously the case.
+
 
  * FIXME: summarize #5478
 
