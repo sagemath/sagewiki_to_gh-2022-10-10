@@ -8,14 +8,14 @@ Sage-combinat is a collection of experimental patches (i.e. extensions) on top o
  * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days]] 
    The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille will include a Sage days session. FlorentHivert, NicolasThiéry, and FrancoSaliola will be among the organizers, there will be a serious combinatorics slant. 
    
- * July 25-29: *-Combinat 2009
+ * July 25-29, 2009: *-Combinat 2009
 
    We will hold an International Sage Workshop on [[http:/combinat/FPSAC09|Free and Practical Software for Algebraic Combinatorics]] at RISC, Linz, Austria, right after [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
 
- * 2009-04-15: Software demonstration accepted for [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
+ * April 15th, 2009: Software demonstration accepted for [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
  [[attachment:2009-07-20-FPSAC.pdf|PDF]], [[attachment:.2009-07-20-FPSAC.tex|LaTeX Source]] [[attachment:2009-07-20-FPSAC.bbl|LaTeX bibliography]]
 
- * January 26-30: [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop in Orsay]]
+ * January 26-30, 2009: [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop in Orsay]]
 
  * 2008-06-19: MuPAD-Combinat join forces with Sage
 
