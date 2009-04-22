@@ -282,12 +282,18 @@ sage: %timeit binomial(x, y)
 
  * Deprecate the calling of symbolic functions with unnamed arguments (Carl Witty, Michael Abshoff) -- Previous releases of Sage supported symbolic functions with "no arguments". This style of constructing symbolic functions is now deprecated. For example, previously Sage allowed for defining a symbolic function in the following way
  {{{
-f2 = 5 - x^2  # bad; this is deprecated
+sage: x,y = var("x,y")
+sage: f = x^2 + y^2  
+sage: f(2,3) # bad; this is deprecated
  }}}
- But users are encouraged to explicitly declare the variables used in a symolic function. For instance, the following is encouraged:
+ But users are encouraged to explicitly declare the variables used in a symbolic function. For instance, the following is encouraged:
  {{{
-sage: x,y = var("x, y")    # explicitly declare your variables
-sage: f(x, y) = x^2 + y^2  # this syntax is encouraged
+sage: x,y = var("x, y")
+sage: f(x, y) = x^2 + y^2  # this syntax is encouraged, or
+sage: f(2,3) # since we specified the order when defining f, we know that x=2, y=3
+sage: f = x^2 + y^2 # You can also do it this way
+sage: f(x=2,y=3) # and then explicitly name your inputs
+sage: f.subs(x=2,y=3) # or use the subs "substitute" command in a similar fashion
  }}}
 
 
