@@ -524,7 +524,7 @@ Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
  }}}
 
 
- * Varieties and polynomial ideals (John Perry, Martin Albrecht) -- Support for polynomial ideals over finite fields of characteristics greater than what Singular supports.  Thus in case where the characteristic of the base field is too large for Singular, we use a toy implementation to compute the variety of the polynomial ideal. This implementation is contained in the new module {{{/sage/rings/polynomial/toy_variety.py}}}, which implements an educational version of the Groebner basis algorithm.
+ * Varieties and polynomial ideals (John Perry) -- Support for polynomial ideals over finite fields of characteristics greater than what Singular supports.  Thus in case where the characteristic of the base field is too large for Singular, we use a toy implementation to compute the variety of the polynomial ideal. This implementation is contained in the new module {{{/sage/rings/polynomial/toy_variety.py}}}, which implements an educational version of the Groebner basis algorithm.
 
 
  * Extended Euclidean algorithm for polynomials over {{{GF(2)}}} (Mike Hansen) -- An {{{xgcd()}}} method for polynomials with base field being the Galois field of 2 elements.
