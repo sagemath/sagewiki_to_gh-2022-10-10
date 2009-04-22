@@ -81,6 +81,21 @@ You need the prerequisite tools listed in the README.txt file in the root direct
 You can browse the complete source code to everything in Sage at http://www.sagemath.org/hg/.  This is a web interface to the Mercurial repository.  The main source files are at http://www.sagemath.org/hg/sage-main?cmd=manifest;manifest=-1;path=/sage/.  The other directories include docs directories, the package system, etc.
 
 == Working in Sage ==
+
+=== Type issues using scipy, cvxopt or numpy from Sage ===
+
+* QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
+ * ANSWER: Redefine RealNumber and/or Integer to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, and integer literals are Python ints.  For example:
+ {{{
+sage: RealNumber=float; Integer=int
+sage: from scipy import stats
+sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
+(array(0.076752955645333687), 0.940704902474)
+sage: stats.uniform(0,15).ppf([0.5,0.7])
+array([  7.5,  10.5])
+}}}
+
+
 === How do I save an object so I don't have to compute it each time I open a worksheet? ===
 The {{{save}}} and {{{load}}} commands will save and load an object, respectively.  In the notebook, the {{{DATA}}} variable is the location of the data storage area of the worksheet.  To save the object {{{my_stuff}}} in a worksheet, you could do {{{save(my_stuff, DATA+"my_stuff")}}} and to reload it, you would just do {{{my_stuff = load(DATA+"my_stuff")}}}
 
@@ -101,15 +116,6 @@ the fonts into your ~/.fonts directory. You can also install the "jsmath-fonts" 
 Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://www.sagemath.org/help.html for a listing of these resources.
 
 == Other questions ==
-----------
- * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
- * ANSWER: Redefine RealNumber to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, for example:
- {{{
-sage: from scipy import stats
-sage: RealNumber=float
-sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
-(array(0.076752955645333687), 0.940704902474)
-}}}
 ----------
  * QUESTION: I created the file {{{SAGE_ROOT/devel/sage/sage/calculus/stokes.py}}}, and have changed my mind and want to completely delete it from Sage, but it keeps coming back (i.e. it is still importable) when I type {{{sage -br}}}.  What do I do?
  * ANSWER: Delete both {{{SAGE_ROOT/devel/sage/build/sage/calculus/stokes.py}}} '''and''' {{{SAGE_ROOT/devel/sage/build/lib.*/sage/calculus/stokes.py}}}.
