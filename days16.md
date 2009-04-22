@@ -18,6 +18,7 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
   1. Christian Eder
   1. Burcin Erocal
   1. Jordi Guàrdia
+  1. David Kohel
   1. David Loeffler
   1. Robert Miller
   1. Joaquim Puig
