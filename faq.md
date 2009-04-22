@@ -84,7 +84,7 @@ You can browse the complete source code to everything in Sage at http://www.sage
 
 === Type issues using scipy, cvxopt or numpy from Sage ===
 
-* QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
+ * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
  * ANSWER: Redefine RealNumber and/or Integer to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, and integer literals are Python ints.  For example:
  {{{
 sage: RealNumber=float; Integer=int
