@@ -13,6 +13,7 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 == Participants ==
   1. Michael Abshoff
   1. Martin Albrecht
+  1. Maite Aranes
   1. Wouter Castryck
   1. Christian Eder
   1. Burcin Erocal
