@@ -440,23 +440,14 @@ Wall time: 0.19 s
 [A2(0,0,0) + A2(2,1,0), A2(0,0,0) + A2(2,1,0), A2(0,0,0), -A2(0,0,0), 0]
 sage:
 sage: A2 = WeylCharacterRing(['A',2])
-sage: %time [-x for x in [A2(0,0,0), 2*A2(0,0,0), -A2(0,0,0), -2*A2(0,0,0)]]
-CPU times: user 0.02 s, sys: 0.00 s, total: 0.02 s
-Wall time: 0.02 s
-[-A2(0,0,0), -2*A2(0,0,0), A2(0,0,0), 2*A2(0,0,0)]
 sage: %timeit [-x for x in [A2(0,0,0), 2*A2(0,0,0), -A2(0,0,0), -2*A2(0,0,0)]]
 10 loops, best of 3: 20 ms per loop
 sage:
 sage: A2 = WeylCharacterRing(['A',2])
 sage: chi = A2(0,0,0)+2*A2(1,0,0)+3*A2(2,0,0)
 sage: mu =  3*A2(0,0,0)+2*A2(1,0,0)+A2(2,0,0)
-sage: %time chi - mu
-CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
-Wall time: 0.01 s
--2*A2(0,0,0) + 2*A2(2,0,0)
 sage: %timeit chi - mu
 100 loops, best of 3: 8.16 ms per loop
-sage: 
 sage: 
 sage: A2 = WeylCharacterRing(['A',2])
 sage: chi = A2(1,0,0)
@@ -492,20 +483,12 @@ Wall time: 0.04 s
 [A2(0,0,0) + A2(2,1,0), A2(0,0,0) + A2(2,1,0), A2(0,0,0), -A2(0,0,0), 0]
 sage:
 sage: A2 = WeylCharacterRing(['A',2])
-sage: %time [-x for x in [A2(0,0,0), 2*A2(0,0,0), -A2(0,0,0), -2*A2(0,0,0)]]
-CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
-Wall time: 0.00 s
-[-A2(0,0,0), -2*A2(0,0,0), A2(0,0,0), 2*A2(0,0,0)]
 sage: %timeit [-x for x in [A2(0,0,0), 2*A2(0,0,0), -A2(0,0,0), -2*A2(0,0,0)]]
 100 loops, best of 3: 3.33 ms per loop
 sage:
 sage: A2 = WeylCharacterRing(['A',2])
 sage: chi = A2(0,0,0)+2*A2(1,0,0)+3*A2(2,0,0)
 sage: mu =  3*A2(0,0,0)+2*A2(1,0,0)+A2(2,0,0)
-sage: %time chi - mu
-CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
-Wall time: 0.00 s
--2*A2(0,0,0) + 2*A2(2,0,0)
 sage: %timeit chi - mu
 1000 loops, best of 3: 771 µs per loop
 sage:
