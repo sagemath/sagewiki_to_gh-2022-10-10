@@ -539,7 +539,9 @@ Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
 == Doctest ==
 
 
- * FIXME: summarize #5318
+ * New and improved random testing module (Carl Witty) -- The new and improved random tester can be found in {{{sage/misc/random_testing.py}}}. The random testing module is useful for Sage modules that do random testing in their doctests by constructing test cases using a random number generator. It provides a decorator to help write random testers that meet the following goals:
+  1. To get the broadest possible test coverage by using different random seeds in doctests.
+  1. To be able to reproduce problems when debugging.
 
 
 == Documentation ==
