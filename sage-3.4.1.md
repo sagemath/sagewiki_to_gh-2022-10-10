@@ -267,7 +267,12 @@ sage: %timeit binomial(x, y)
 1000 loops, best of 3: 692 µs per loop
  }}}
 
- * FIXME: summarize #5685
+
+ * Enhanced {{{nth_root()}}} in {{{ZZ}}} and {{{QQ}}} and related utilities (John Cremona) -- Some consistency in the method {{{nth_root()}}} of {{{ZZ}}} and {{{QQ}}}. There are also some new utility methods for the rational numbers:
+  1. {{{prime_to_S_part(self, S=[])}}} -- Returns {{{self}}} with all powers of all primes in S removed.
+  1. {{{is_nth_power(self, int n)}}} -- Returns {{{True}}} if {{{self}}} is an n-th power; else {{{False}}}.
+  1. {{{is_S_integral(self, S=[])}}} -- Determine if the rational number is S-integral.
+  1. {{{is_S_unit(self, S=None)}}} -- Determine if the rational number is an S-unit.
 
 
 == Build ==
@@ -365,7 +370,54 @@ sage: list(IntegerListsLex(4, min_part = 1))
  * Cleanup of crystal code (Anne Schilling, Nicolas M. Thiery) -- Cartan type is now implemented as the method {{{cartan_type}}}, rather than an attribute as was previously the case.
 
 
- * FIXME: summarize #5478
+ * Deprecate the function {{{RestrictedPartitions()}}} (Dan Drake) -- The function {{{RestrictedPartitions()}}} in {{{sage/combinat/partition.py}}} is now deprecated and will be removed in a future release. Users are advised to instead consider the function {{{Partitions()}}} with the {{{parts_in}}} keyword, which is functionally equivalent to {{{RestrictedPartitions()}}} but is more memory and time efficient. The timing improvement in {{{Partitions()}}} is up to 5x faster than {{{RestrictedPartitions()}}}. The following memory and timing statistics are produced using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: get_memory_usage()
+721.26171875
+sage: ps = RestrictedPartitions(100, ([1,6..100] + [4,9..100]))
+sage: %time sum(1 for p in ps)
+CPU times: user 27.26 s, sys: 1.06 s, total: 28.32 s
+Wall time: 28.99 s
+74040
+sage: get_memory_usage()
+1807.03515625
+
+sage: get_memory_usage()
+721.265625
+sage: ps = RestrictedPartitions(3000, [10,50,100,500,1000])
+sage: %time sum(1 for p in ps)
+CPU times: user 5.60 s, sys: 0.21 s, total: 5.81 s
+Wall time: 5.95 s
+3506
+sage: get_memory_usage()
+962.54296875
+
+
+# AFTER
+
+sage: get_memory_usage()
+719.3984375
+sage: ps = Partitions(100, parts_in=([1,6..100] + [4,9..100]))
+sage: %time sum(1 for p in ps)
+CPU times: user 5.09 s, sys: 0.01 s, total: 5.10 s
+Wall time: 5.10 s
+74040
+sage: get_memory_usage()
+719.3984375
+
+sage: get_memory_usage()
+719.3984375
+sage: ps = Partitions(3000, parts_in=[10,50,100,500,1000])
+sage: %time sum(1 for p in ps)
+CPU times: user 1.12 s, sys: 0.01 s, total: 1.13 s
+Wall time: 1.13 s
+3506
+sage: get_memory_usage()
+719.3984375
+ }}}
+
 
  * FIXME: summarize #5721
 
