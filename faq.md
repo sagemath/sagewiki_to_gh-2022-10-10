@@ -94,6 +94,11 @@ sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
 sage: stats.uniform(0,15).ppf([0.5,0.7])
 array([  7.5,  10.5])
 }}}
+  Alternatively, be explicit about data types, e.g.
+{{{
+sage: stats.uniform(int(0),int(15)).ppf([float(0.5),float(0.7)])
+array([  7.5,  10.5])
+}}}
 
 
 === How do I save an object so I don't have to compute it each time I open a worksheet? ===
