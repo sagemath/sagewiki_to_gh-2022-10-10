@@ -24,7 +24,6 @@ sage: %timeit poly.is_primitive()  # without n_prime_divs optional argument
 sage: %timeit poly.is_primitive(max_order, pdivs)  # with n_prime_divs optional argument
 10 loops, best of 3: 279 ms per loop
 sage: 
-sage: 
 sage: nn = 256
 sage: max_order = 2^nn - 1
 sage: pdivs = max_order.prime_divisors()
@@ -419,7 +418,110 @@ sage: get_memory_usage()
  }}}
 
 
- * FIXME: summarize #5721
+ * Speed-up the {{{weyl_characters.py}}} module (Mike Hansen, Daniel Bump, Michael Abshoff) -- The timing efficiency is between 4x to 10x, depending on the operations involved. Here are some timing statistics produced using the machine sage.math:
+ {{{
+# BEFORE
+sage: R = WeylCharacterRing(['B',3], prefix = "R")
+sage: %time r =  R(1,1,0)
+CPU times: user 0.14 s, sys: 0.00 s, total: 0.14 s
+Wall time: 0.14 s
+sage:
+sage: R = WeylCharacterRing(['B',3], prefix = "R")
+sage: %time [R(w) for w in R.lattice().fundamental_weights()]
+CPU times: user 0.25 s, sys: 0.00 s, total: 0.25 s
+Wall time: 0.25 s
+[R(1,0,0), R(1,1,0), R(1/2,1/2,1/2)]
+sage:
+sage: A2 = WeylCharacterRing(['A',2])
+sage: %time [A2(0,0,0)+A2(2,1,0), A2(2,1,0)+A2(0,0,0), - A2(0,0,0)+2*A2(0,0,0), 
+-2*A2(0,0,0)+A2(0,0,0), -A2(2,1,0)+2*A2(2,1,0)-A2(2,1,0)]
+CPU times: user 0.18 s, sys: 0.00 s, total: 0.18 s
+Wall time: 0.19 s
+[A2(0,0,0) + A2(2,1,0), A2(0,0,0) + A2(2,1,0), A2(0,0,0), -A2(0,0,0), 0]
+sage:
+sage: A2 = WeylCharacterRing(['A',2])
+sage: %time [-x for x in [A2(0,0,0), 2*A2(0,0,0), -A2(0,0,0), -2*A2(0,0,0)]]
+CPU times: user 0.02 s, sys: 0.00 s, total: 0.02 s
+Wall time: 0.02 s
+[-A2(0,0,0), -2*A2(0,0,0), A2(0,0,0), 2*A2(0,0,0)]
+sage: %timeit [-x for x in [A2(0,0,0), 2*A2(0,0,0), -A2(0,0,0), -2*A2(0,0,0)]]
+10 loops, best of 3: 20 ms per loop
+sage:
+sage: A2 = WeylCharacterRing(['A',2])
+sage: chi = A2(0,0,0)+2*A2(1,0,0)+3*A2(2,0,0)
+sage: mu =  3*A2(0,0,0)+2*A2(1,0,0)+A2(2,0,0)
+sage: %time chi - mu
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.01 s
+-2*A2(0,0,0) + 2*A2(2,0,0)
+sage: %timeit chi - mu
+100 loops, best of 3: 8.16 ms per loop
+sage: 
+sage: 
+sage: A2 = WeylCharacterRing(['A',2])
+sage: chi = A2(1,0,0)
+sage: %time [chi^k for k in range(6)]
+CPU times: user 1.05 s, sys: 0.02 s, total: 1.07 s
+Wall time: 1.07 s
+
+[A2(0,0,0),
+ A2(1,0,0),
+ A2(1,1,0) + A2(2,0,0),
+ A2(1,1,1) + 2*A2(2,1,0) + A2(3,0,0),
+ 3*A2(2,1,1) + 2*A2(2,2,0) + 3*A2(3,1,0) + A2(4,0,0),
+ 5*A2(2,2,1) + 6*A2(3,1,1) + 5*A2(3,2,0) + 4*A2(4,1,0) + A2(5,0,0)]
+
+
+# AFTER
+
+sage: R = WeylCharacterRing(['B',3], prefix = "R")
+sage: %time r =  R(1,1,0)
+CPU times: user 0.03 s, sys: 0.00 s, total: 0.03 s
+Wall time: 0.03 s
+sage:
+sage: R = WeylCharacterRing(['B',3], prefix = "R")
+sage: %time [R(w) for w in R.lattice().fundamental_weights()]
+CPU times: user 0.05 s, sys: 0.00 s, total: 0.05 s
+Wall time: 0.05 s
+[R(1,0,0), R(1,1,0), R(1/2,1/2,1/2)]
+sage:
+sage: A2 = WeylCharacterRing(['A',2])
+sage: %time [A2(0,0,0)+A2(2,1,0), A2(2,1,0)+A2(0,0,0), - A2(0,0,0)+2*A2(0,0,0), -2*A2(0,0,0)+A2(0,0,0), -A2(2,1,0)+2*A2(2,1,0)-A2(2,1,0)]
+CPU times: user 0.04 s, sys: 0.00 s, total: 0.04 s
+Wall time: 0.04 s
+[A2(0,0,0) + A2(2,1,0), A2(0,0,0) + A2(2,1,0), A2(0,0,0), -A2(0,0,0), 0]
+sage:
+sage: A2 = WeylCharacterRing(['A',2])
+sage: %time [-x for x in [A2(0,0,0), 2*A2(0,0,0), -A2(0,0,0), -2*A2(0,0,0)]]
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.00 s
+[-A2(0,0,0), -2*A2(0,0,0), A2(0,0,0), 2*A2(0,0,0)]
+sage: %timeit [-x for x in [A2(0,0,0), 2*A2(0,0,0), -A2(0,0,0), -2*A2(0,0,0)]]
+100 loops, best of 3: 3.33 ms per loop
+sage:
+sage: A2 = WeylCharacterRing(['A',2])
+sage: chi = A2(0,0,0)+2*A2(1,0,0)+3*A2(2,0,0)
+sage: mu =  3*A2(0,0,0)+2*A2(1,0,0)+A2(2,0,0)
+sage: %time chi - mu
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
+-2*A2(0,0,0) + 2*A2(2,0,0)
+sage: %timeit chi - mu
+1000 loops, best of 3: 771 µs per loop
+sage:
+sage: A2 = WeylCharacterRing(['A',2])
+sage: chi = A2(1,0,0)
+sage: %time [chi^k for k in range(6)]
+CPU times: user 0.20 s, sys: 0.00 s, total: 0.20 s
+Wall time: 0.20 s
+
+[A2(0,0,0),
+ A2(1,0,0),
+ A2(1,1,0) + A2(2,0,0),
+ A2(1,1,1) + 2*A2(2,1,0) + A2(3,0,0),
+ 3*A2(2,1,1) + 2*A2(2,2,0) + 3*A2(3,1,0) + A2(4,0,0),
+ 5*A2(2,2,1) + 6*A2(3,1,1) + 5*A2(3,2,0) + 4*A2(4,1,0) + A2(5,0,0)]
+ }}}
 
 
 == Commutative Algebra ==
