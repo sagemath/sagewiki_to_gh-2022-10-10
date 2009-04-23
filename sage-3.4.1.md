@@ -616,7 +616,7 @@ timeit("foo()")
 == Group Theory ==
 
 
- * Speed-up in comparing elements of a permutation group (Robert Bradshaw, John H. Palmieri, Rob Beezer) -- For elements of a permutation group, comparison between those elements is now up to 13x faster. On Mac OS X 10.4 with Intel Core 2 duo running at 2.33 GHz, one has the following improvement in timing statistics:
+ * Speed-up in comparing elements of a permutation group (Robert Bradshaw, Rob Beezer, John H. Palmieri) -- For elements of a permutation group, comparison between those elements is now up to 13x faster. On Mac OS X 10.4 with Intel Core 2 duo running at 2.33 GHz, one has the following improvement in timing statistics:
  {{{
 # BEFORE
 sage: a = SymmetricGroup(20).random_element()
@@ -685,8 +685,6 @@ Wall time: 0.00 s
 
 
  * FIXME: summarize #5638
-
- * FIXME: summarize #5386
 
 
 == Modular Forms ==
@@ -766,6 +764,65 @@ FIXME: A number of tickets related to UTF-8 text got merged and should definitel
 
  * FIXME: summarize #5737
 
+
+== Topology ==
+
+ * Implemented simplicial complexes and their homology (John Palmieri):
+ {{{
+sage: circle = SimplicialComplex(2, [[0,1], [1,2], [2,0]])
+sage: circle.homology(0)  # 'homology' means reduced homology
+0
+sage: circle.homology(1, base_ring=QQ)  # homology with coefficients
+Vector space of dimension 1 over Rational Field
+ }}}
+ A number of simplicial complexes are already defined: type {{{simplicial_complexes.}}} and hit the TAB key to get a list.
+ {{{
+sage: K = simplicial_complexes.KleinBottle()
+sage: K.cohomology()  # without an argument, get all homology groups as a dictionary
+{0: 0, 1: Z, 2: C2}
+sage: S = simplicial_complexes.NotIConnectedGraphs(6,2)  # an example from graph theory
+sage: S.f_vector()
+[1, 15, 105, 455, 1365, 3003, 4945, 5715, 3990, 1470, 306, 30]
+sage: sum(S.f_vector())  # total number of simplices
+21400
+sage: time S.homology()  # on a 2.4 GHz iMac
+Wall time: 20.31 s
+{0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: Z^24, 8: 0, 9: 0, 10: 0}
+ }}}
+
+ Each simplicial complex has an associated chain complex, and chain complexes can also be defined on their own:
+ {{{
+sage: S = simplicial_complexes.NotIConnectedGraphs(6,2)
+sage: C = S.chain_complex()
+sage: C.differential()
+{0: [],
+ 1: 15 x 105 sparse matrix over Integer Ring,
+ 2: 105 x 455 sparse matrix over Integer Ring,
+ 3: 455 x 1365 sparse matrix over Integer Ring,
+ 4: 1365 x 3003 sparse matrix over Integer Ring,
+ 5: 3003 x 4945 sparse matrix over Integer Ring,
+ 6: 4945 x 5715 sparse matrix over Integer Ring,
+ 7: 5715 x 3990 sparse matrix over Integer Ring,
+ 8: 3990 x 1470 sparse matrix over Integer Ring,
+ 9: 1470 x 306 sparse matrix over Integer Ring,
+ 10: 306 x 30 sparse matrix over Integer Ring}
+sage: D = ChainComplex([identity_matrix(2), matrix(3,2), identity_matrix(3)])
+sage: D
+Chain complex with at most 4 nonzero terms over Integer Ring.
+sage: D.differential(0)
+[1 0]
+[0 1]
+sage: D.differential(1)
+[0 0]
+[0 0]
+[0 0]
+sage: D.differential(2)
+[1 0 0]
+[0 1 0]
+[0 0 1]
+sage: D.differential(3)
+[]
+ }}}
 
 == User Interface ==
 
