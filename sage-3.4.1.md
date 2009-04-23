@@ -653,7 +653,33 @@ sage: timeit("a == b")
  }}}
 
 
- * FIXME: summarize #5264
+ * Optimize small permutation group elements (Robert Bradshaw) -- Avoid allocation for very small permutation group elements, otherwise there can be a significant cost of element creation. In some cases, there can be up to 17% efficiency. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: G = SymmetricGroup(3)
+sage: L = [G.random_element() for _ in range(100)] * 17
+sage: %timeit prod(L)
+1000 loops, best of 3: 290 µs per loop
+sage: 
+sage: G = SymmetricGroup(10)
+sage: L = [G.random_element() for _ in range(100)] * 17
+sage: %timeit prod(L)
+1000 loops, best of 3: 321 µs per loop
+
+
+# AFTER
+
+sage: G = SymmetricGroup(3)
+sage: L = [G.random_element() for _ in range(100)] * 17
+sage: %timeit prod(L)
+1000 loops, best of 3: 240 µs per loop
+sage: 
+sage: G = SymmetricGroup(10)
+sage: L = [G.random_element() for _ in range(100)] * 17
+sage: %timeit prod(L)
+1000 loops, best of 3: 271 µs per loop
+ }}}
 
 
 == Interfaces ==
@@ -695,13 +721,28 @@ Wall time: 0.00 s
  }}}
 
 
- * FIXME: summarize #5715
+ * Optimize string representation for matrices over {{{GF(2)}}} () -- Optimize the method {{{str()}}} for returning a string representation of a matrix over the field {{{GF(2)}}}. The efficiency gain is up to 26x. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: a = random_matrix(GF(2),1000)
+sage: %time b = a.str()
+CPU times: user 0.25 s, sys: 0.01 s, total: 0.26 s
+Wall time: 0.26 s
+
+
+# AFTER
+sage: a = random_matrix(GF(2),1000)
+sage: %time b = a.str()
+CPU times: user 0.00 s, sys: 0.01 s, total: 0.01 s
+Wall time: 0.01 s
+ }}}
 
 
 == Miscellaneous ==
 
 
- * FIXME: summarize #5638
+ * Deprecate function {{{jsmath()}}} from the command line (John H. Palmieri) -- The function {{{jsmath()}}} is now deprecated and will be removed from a future release. Users are advised to consider the function {{{html()}}} instead. For example, users should replace {{{jsmath("MATH", mode="display")}}} with {{{html("$$MATH$$")}}}, and replace {{{jsmath("MATH", mode="inline")}}} with {{{html("$MATH$")}}}.
 
 
 == Modular Forms ==
