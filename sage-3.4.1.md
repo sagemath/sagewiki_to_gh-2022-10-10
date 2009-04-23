@@ -608,7 +608,24 @@ timeit("foo()")
 == Graphics ==
 
 
- * FIXME: summarize #5606
+ * Color complex plotting (Robert Bradshaw) -- New function {{{complex_plot()}}} for plotting functions of a complex variable. The function {{{complex_plot()}}} takes a complex function {{{f(z)}}} of one variable and plots output of the function over the specified {{{xrange}}} and {{{yrange}}}. The magnitude of the output is indicated by the brightness (with zero being black and infinity being white), while the argument is represented by the hue with red being positive real and increasing through orange, yellow, etc. as the argument increases. The general syntax of the function is {{{complex_plot(f, (xmin, xmax), (ymin, ymax), ...)}}}. The following code produces a plot of the [[attachment:complex square root]] function:
+ {{{
+sage: complex_plot(sqrt, (-5, 5), (-5, 5))
+ }}}
+ Here's a plot of the [[attachment:complex sine]] function:
+ {{{
+sage: complex_plot(sin, (-5, 5), (-5, 5))
+ }}}
+ Plot of a [[attachment:complex function]] with some nice zeros and a pole:
+ {{{
+sage: f(z) = z^5 + z - 1 + 1/z
+sage: complex_plot(f, (-3, 3), (-3, 3))
+ }}}
+ A plot of the complex [[attachment:Riemann zeta function]]:
+ {{{
+sage: complex_plot(zeta, (-30,30), (-30,30))
+ }}}
+
 
  * FIXME: summarize #5450
 
