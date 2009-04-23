@@ -786,23 +786,63 @@ FIXME: A number of tickets related to UTF-8 text got merged and should definitel
 == Number Theory ==
 
 
- * FIXME: summarize #5518
+ * Improve efficiency of {{{multiplicative_order()}}} for number field elements (John Cremona) -- Before, the following example
+ {{{
+sage: x = polygen(QQ)
+sage: K.<a>=NumberField(x^40 - x^20 + 4)
+sage: u = 1/4*a^30 + 1/4*a^10 + 1/2
+sage: u.multiplicative_order()
+6
+sage: a.multiplicative_order()
++Infinity
+ }}}
+ would have required raising {{{a}}} to the power {{{2**40}}}. Furthermore, previously the following example
+ {{{
+sage: K.<a, b> = NumberField([x^2 + x + 1, x^2 - 3])
+sage: z = (a - 1)*b/3
+sage: z.multiplicative_order()
++Infinity
+ }}}
+ returns {{{+Infinity}}}, which is wrong. This is now fixed, as illustrated here:
+ {{{
+sage: K.<a, b> = NumberField([x^2 + x + 1, x^2 - 3])
+sage: z = (a - 1)*b/3
+sage: z.multiplicative_order()
+12
+ }}}
 
- * FIXME: summarize #5508
 
- * FIXME: summarize #793
+ * New functionalities for relative number fields (Francis Clarke) -- Many improvements for relative number fields. In particular a whole load of previously unimplemented functions for ideals in a relative number field now work, and others work better. For several functions, the distinction between the relative and absolute version has been made explicit in order to avoid ambiguity. Thus, for example, for a relative number field both {{{relative_degree}}} and {{{absolute_degree}}} are defined but {{{degree}}} is unimplemented, while for an absolute number field {{{relative_degree}}}, {{{absolute_degree}}} and {{{degree}}} are all defined (with the same meaning).
 
- * FIXME: summarize #4667
 
- * FIXME: summarize #5159
+ * Wrapper for hyperelliptic curve zeta functions (David Harvey, Nick Alexander) -- This is a basic wrapper. Here's an example on using it:
+ {{{
+sage: R.<x> = PolynomialRing(GF(10007))
+sage: H = HyperellipticCurve(x^7 + x + 1)
+sage: H.frobenius_polynomial()
+x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 1002101470343
+ }}}
 
- * FIXME: summarize #4990
 
- * FIXME: summarize #3081
+ * Quadratic twists for p-adic L-functions (Chris Wuthrich) -- New features for computing p-adic L-function of quadratic twists of elliptic curves.
 
- * FIXME: summarize #4724
 
- * FIXME: summarize #5673
+ * Unifying the computation of Galois groups (David Loeffler, John Cremona) -- One can now compute the Galois group of a number field using the function {{{galois_group()}}}, which by default calls [[http://pari.math.u-bordeaux.fr/|Pari]].
+
+
+ * New functions for computing Hilbert class polynomials (Eduardo Ocampo Alvarez, Andrey Timofeev, Alex Ghitza) -- The new method {{{hilbert_class_polynomial()}}} allows for Computing the Hilbert class polynomial of a quadratic field. Currently, there's only support for imaginary quadratic fields.
+
+
+ * Support for Kloosterman sums (Kilian Kilger) -- Adds support for exact and numerical evaluation of "twisted" Kloosterman sums. This generalizes Gauss sums, Salie sums and normal Kloosterman sums. The method {{{kloosterman_sum()}}} returns the "twisted" Kloosterman sum associated to a Dirichlet character. The method {{{kloosterman_sum_numerical()}}} returns the Kloosterman sum associated to a Dirichlet character as an approximate complex number with a specified number of bits of precision.
+
+
+ * Exposes Pari's galois and finer number field interfaces (Nick Alexander) -- New functions for interfacing with Pari's galois computation functionalities include:
+  1. {{{nfgaloisconj(self)}}} -- Returns a list of conjugates of a root.
+  1. {{{nfroots(self, poly)}}} -- Returns the roots of {{{poly}}} in the number field self without multiplicity.
+  1. {{{automorphisms(self)}}} -- Computes all Galois automorphisms of {{{self}}}.
+
+
+ * Enhanced handling of elliptic curve twists (John Cremona) -- New methods {{{is_quadratic_twist()}}}, {{{is_quartic_twist()}}}, {{{is_sextic_twist()}}} for detecting twists between curves (and returning the appropriate twisting paramenter). The {{{EllipticCurve(j)}}} constructor is now deprecated and will be removed in a future release. Users are advised to consider the constructor {{{EllipticCurve_from_j(j)}}} instead. Over the rationals, the constructor {{{EllipticCurve_from_j(j)}}} gives the minimal twist, i.e. a curve with the correct {{{j}}} and minimal conductor.
 
 
 == Numerical ==
