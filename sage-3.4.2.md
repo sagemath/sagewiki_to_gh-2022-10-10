@@ -44,6 +44,9 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 == Documentation ==
 
 
+ * FIXME: summarize #5610
+
+
 == Geometry ==
 
 
@@ -65,6 +68,9 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 == Linear Algebra ==
 
 
+ * FIXME: summarize #5886
+
+
 == Miscellaneous ==
 
 
@@ -84,11 +90,18 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 
  * FIXME: summarize #5822
 
+ * FIXME: summarize #5704
+
+ * FIXME: summarize #4193
+
 
 == Numerical ==
 
 
 == Packages ==
+
+
+ * FIXME: summarize #5803
 
 
 == Quadratic Forms ==
