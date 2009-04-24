@@ -26,7 +26,13 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 == Combinatorics ==
 
 
+ * FIXME: summarize #5751
+
+
 == Commutative Algebra ==
+
+
+ * FIXME: summarize #5795
 
 
 == Distribution ==
@@ -53,6 +59,9 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 == Interfaces ==
 
 
+ * FIXME: summarize #5111
+
+
 == Linear Algebra ==
 
 
@@ -62,10 +71,18 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 == Modular Forms ==
 
 
+ * FIXME: summarize #5876
+
+
 == Notebook ==
 
 
 == Number Theory ==
+
+
+ * FIXME: summarize #5130
+
+ * FIXME: summarize #5822
 
 
 == Numerical ==
