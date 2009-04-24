@@ -135,19 +135,23 @@ sage: S.dimension_relative()
  }}}
 
 
- * Plotting affine and projective curves (Alex Ghitza) -- Improving the plotting usability so it is now easier to plot affine and projective curves. For example, we can plot a [[attachment:5-nodal curve]] of degree 11:
+ * Plotting affine and projective curves (Alex Ghitza) -- Improving the plotting usability so it is now easier to plot affine and projective curves. For example, we can plot a 5-nodal curve of degree 11:
  {{{
 sage: R.<x, y> = ZZ[] 
 sage: C = Curve(32*x^2 - 2097152*y^11 + 1441792*y^9 - 360448*y^7 + 39424*y^5 - 1760*y^3 + 22*y - 1) 
 sage: C.plot((x, -1, 1), (y, -1, 1), plot_points=400)
  }}}
- Now we plot an [[attachment:elliptic curve]]:
+
+{{attachment:5-nodal curve.png}} 
+
+ Now we plot an elliptic curve:
  {{{
 sage: E = EllipticCurve('101a') 
 sage: C = Curve(E) 
 sage: C.plot()
  }}}
 
+{{attachment:elliptic curve.png}}
 
 == Basic Arithmetic ==
 
@@ -608,24 +612,34 @@ timeit("foo()")
 == Graphics ==
 
 
- * Color complex plotting (Robert Bradshaw) -- New function {{{complex_plot()}}} for plotting functions of a complex variable. The function {{{complex_plot()}}} takes a complex function {{{f(z)}}} of one variable and plots output of the function over the specified {{{xrange}}} and {{{yrange}}}. The magnitude of the output is indicated by the brightness (with zero being black and infinity being white), while the argument is represented by the hue with red being positive real and increasing through orange, yellow, etc. as the argument increases. The general syntax of the function is {{{complex_plot(f, (xmin, xmax), (ymin, ymax), ...)}}}. The following code produces a plot of the [[attachment:complex square root]] function:
+ * Color complex plotting (Robert Bradshaw) -- New function {{{complex_plot()}}} for plotting functions of a complex variable. The function {{{complex_plot()}}} takes a complex function {{{f(z)}}} of one variable and plots output of the function over the specified {{{xrange}}} and {{{yrange}}}. The magnitude of the output is indicated by the brightness (with zero being black and infinity being white), while the argument is represented by the hue with red being positive real and increasing through orange, yellow, etc. as the argument increases. The general syntax of the function is {{{complex_plot(f, (xmin, xmax), (ymin, ymax), ...)}}}. The following code produces a plot of the square root function:
  {{{
 sage: complex_plot(sqrt, (-5, 5), (-5, 5))
  }}}
- Here's a plot of the [[attachment:complex sine]] function:
+
+{{attachment:complex square root.png}}
+
+ Here's a plot of the sine function:
  {{{
 sage: complex_plot(sin, (-5, 5), (-5, 5))
  }}}
- Plot of a [[attachment:complex function]] with some nice zeros and a pole:
+
+{{attachment:complex sine.png}} 
+
+ Plot of a meromorphic with some nice zeros and a pole:
  {{{
 sage: f(z) = z^5 + z - 1 + 1/z
 sage: complex_plot(f, (-3, 3), (-3, 3))
  }}}
- A plot of the complex [[attachment:Riemann zeta function]]:
+
+{{attachment:complex function.png}}
+
+ A plot of the Riemann zeta function:
  {{{
 sage: complex_plot(zeta, (-30,30), (-30,30))
  }}}
 
+{{attachment:Riemann zeta function.png}}
 
  * FIXME: summarize #5450
 
