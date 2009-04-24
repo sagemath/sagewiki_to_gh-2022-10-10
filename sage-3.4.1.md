@@ -792,11 +792,9 @@ Modular Forms space of dimension 4 for Congruence Subgroup Gamma1(3) of weight 1
  }}}
 
 
- * Improvements to congruence subgroups (David Loeffler, Georg S. Weber) -- The code for congruence subgroups is now split up into several files under {{{sage/modular/congroups}}}. The previous file {{{sage/modular/congroup.py}}} still exists, so pickles created with previous versions should unpickle safely under the new one. New functionality includes allowing congruence subgroups to calculate the width and regularity of their cusps, and their number of elliptic points.
+ * Improvements to congruence subgroups (David Loeffler, Georg S. Weber, Chris Kurth) -- The code for congruence subgroups is now split up into several files under {{{sage/modular/arithgroup}}}. The previous file {{{sage/modular/congroup.py}}} still exists, so pickles created with previous versions should unpickle safely under the new one. New functionality includes handle arbitrary (not necessarily congruence) finite index subgroups of SL2(Z), defined in terms of the right permutation action of SL2(Z) on their cosets, based on code from Chris Kurth's KFarey package; and a variety of tools for calculating quantities relating to the geometry of the modular curve X(Gamma) for arbitrary Gamma, including finding the genus, the set of cusps with their widths and their regularity, and the dimensions of their modular forms spaces for all weights other than 1. 
 
-
- * FIXME: summarize #5642
-
+ * Overconvergent modular forms (David Loeffler) -- the space of overconvergent modular forms is in some sense a "p-adic completion" of the space of classical modular forms, which is important in understanding congruence properties of modular forms. This version of Sage incorporates an algorithm (based on work of Smithline, Buzzard + Calegari and others) which calculates the matrices of Hecke operators on these spaces and approximations to the q-expansions of eigenforms, for certain small levels and primes (but any weight). 
 
 == Notebook ==
 
