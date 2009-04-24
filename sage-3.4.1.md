@@ -642,6 +642,12 @@ sage: complex_plot(zeta, (-30,30), (-30,30))
 {{attachment:Riemann zeta function.png}}
 
 
+ * FIXME: summarize #5230
+
+
+ * FIXME: summarize #5706
+
+
 == Group Theory ==
 
 
@@ -751,6 +757,9 @@ Wall time: 0.01 s
  }}}
 
 
+ * FIXME: summarize #5683
+
+
 == Miscellaneous ==
 
 
@@ -786,13 +795,19 @@ Modular Forms space of dimension 4 for Congruence Subgroup Gamma1(3) of weight 1
  * Improvements to congruence subgroups (David Loeffler, Georg S. Weber) -- The code for congruence subgroups is now split up into several files under {{{sage/modular/congroups}}}. The previous file {{{sage/modular/congroup.py}}} still exists, so pickles created with previous versions should unpickle safely under the new one. New functionality includes allowing congruence subgroups to calculate the width and regularity of their cusps, and their number of elliptic points.
 
 
+ * FIXME: summarize #5642
+
+
 == Notebook ==
 
 
-FIXME: A number of tickets related to UTF-8 text got merged and should definitely be mentioned! #4547, #5211; #2896 and #1477 got fixed by those tickets. There's also #5564, which may not get merged for 3.4.1 but should get in soon; it pulls together a whole bunch of UTF-8 fixes and improvements.
+ * FIXME: A number of tickets related to UTF-8 text got merged and should definitely be mentioned! #4547, #5211; #2896 and #1477 got fixed by those tickets. There's also #5564, which may not get merged for 3.4.1 but should get in soon; it pulls together a whole bunch of UTF-8 fixes and improvements.
 
 
  * FIXME: summarize #5681
+
+
+ * FIXME: summarize #5720
 
 
 == Number Theory ==
@@ -857,6 +872,13 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
  * Enhanced handling of elliptic curve twists (John Cremona) -- New methods {{{is_quadratic_twist()}}}, {{{is_quartic_twist()}}}, {{{is_sextic_twist()}}} for detecting twists between curves (and returning the appropriate twisting paramenter). The {{{EllipticCurve(j)}}} constructor is now deprecated and will be removed in a future release. Users are advised to consider the constructor {{{EllipticCurve_from_j(j)}}} instead. Over the rationals, the constructor {{{EllipticCurve_from_j(j)}}} gives the minimal twist, i.e. a curve with the correct {{{j}}} and minimal conductor.
 
 
+ * FIXME: summarize #5156
+
+ * FIXME: summarize #5306
+
+ * FIXME: summarize #5513
+
+
 == Numerical ==
 
 
@@ -876,6 +898,9 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
 
 
  * Upgrade [[http://clisp.cons.org|Clisp]] to version 2.47 latest upstream release (Michael Abshoff, Gonzalo Tornaria) -- The new package {{{clisp-2.47.p0.spkg}}} also introduces {{{noreadline}}} mode dynammically for Clisp and [[http://maxima.sourceforge.net|Maxima]].
+
+
+ * FIXME: summarize #5688
 
 
  * Downgrade [[http://www.gap-system.org|GAP]] from version 4.4.12 down to version 4.4.10 (Michael Abshoff) -- The previous package {{{gap-4.4.12.p1.spkg}}} didn't work smoothly under Itanium processors. Moreover, there was a reported problem with the function {{{deepcopy()}}} when used with {{{WeylGroup}}}. See this [[http://groups.google.com/group/sage-devel/browse_thread/thread/8ed374142c41087d/c76435c6522fb985|sage-devel thread]] for further details.
