@@ -903,7 +903,8 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
 
 == Topology ==
 
- * Implemented simplicial complexes and their homology (John Palmieri):
+
+ * Implements simplicial complexes, chain complexes, and their homology (John Palmieri) -- Simplicial complexes are implemented in the new module {{{sage/homology/simplicial_complex.py}}}, and chain complexes are implmented in the new module {{{sage/homology/chain_complex.py}}}. Here's an example on using the new class {{{SimplicialComplex}}} and the method {{{homology()}}}:
  {{{
 sage: circle = SimplicialComplex(2, [[0,1], [1,2], [2,0]])
 sage: circle.homology(0)  # 'homology' means reduced homology
@@ -911,7 +912,7 @@ sage: circle.homology(0)  # 'homology' means reduced homology
 sage: circle.homology(1, base_ring=QQ)  # homology with coefficients
 Vector space of dimension 1 over Rational Field
  }}}
- A number of simplicial complexes are already defined: type {{{simplicial_complexes.}}} and hit the TAB key to get a list.
+ A number of simplicial complexes are already defined. For example, type {{{simplicial_complexes.}}} and then hit the TAB key to get a list.
  {{{
 sage: K = simplicial_complexes.KleinBottle()
 sage: K.cohomology()  # without an argument, get all homology groups as a dictionary
@@ -925,7 +926,6 @@ sage: time S.homology()  # on a 2.4 GHz iMac
 Wall time: 20.31 s
 {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: Z^24, 8: 0, 9: 0, 10: 0}
  }}}
-
  Each simplicial complex has an associated chain complex, and chain complexes can also be defined on their own:
  {{{
 sage: S = simplicial_complexes.NotIConnectedGraphs(6,2)
