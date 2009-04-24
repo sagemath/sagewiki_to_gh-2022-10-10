@@ -5,3 +5,4 @@
  * C/Fortran <-> fast float <-> polynomial evaluation: Carl Witty, Tom Boothby
  * fast mpfr / quad double: Carl Witty, John Bober
  * finish the benchmark[et]ing module by Willem, William and Martin
+ * "Name that file" game [[attachment:random_file.py]]
