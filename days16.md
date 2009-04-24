@@ -23,6 +23,7 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
   1. Robert Miller
   1. Joaquim Puig
   1. Jordi Quer
+  1. Jaap Spies
   1. Emmanuel Thome
   1. Gonzalo Tornaria
   1. William Stein
