@@ -863,27 +863,31 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
 == Packages ==
 
 
- * FIXME: summarize #4987
+ * Upgrade to [[http://www.cython.org|Cython]] version 0.11 upstream release (Robert Bradshaw) -- Based on Pyrex, Cython is a language that closely resembles Python and developed for writing C extensions for Python. For critical functionalities and performance, Sage uses Cython to generate very efficient C code from Cython code, for wrapping external C libraries, and for fast C modules that speed up the execution of Python code.
 
- * FIXME: summarize #4881
 
- * FIXME: summarize #4880
+ * Upgrade [[http://www.mpir.org|MPIR]] to version 1.1 upstream release (Michael Abshoff) -- MPIR is a library for multiprecision integers and rationals based on the [[http://www.gmplib.org|GMP project]]. Among other things, MPIR aims to provide native build capability under Windows.
 
- * FIXME: summarize #4876
 
- * FIXME: summarize #5672
+ * Upgrade [[http://www.flintlib.org|FLINT]] to version 1.2.4 upstream release (Michael Abshoff) -- FLINT (Fast Library for Number Theory) is a library for univariate polynomial arithmetic over {{{Z/nZ}}}.
 
- * FIXME: summarize #5240
 
- * FIXME: summarize #5738
+ * Upgrade [[http://www.libpng.org/pub/png/libpng.html|libpng]] to version 1.2.35 upstream release (Michael Abshoff) -- Version 1.2.35 fixes a number of security issues, which are documented at the libpng project web site.
 
- * FIXME: summarize #5696
 
- * FIXME: summarize #4987
+ * Upgrade [[http://clisp.cons.org|Clisp]] to version 2.47 latest upstream release (Michael Abshoff, Gonzalo Tornaria) -- The new package {{{clisp-2.47.p0.spkg}}} also introduces {{{noreadline}}} mode dynammically for Clisp and [[http://maxima.sourceforge.net|Maxima]].
 
- * FIXME: summarize #5697
 
- * FIXME: summarize #5823
+ * Downgrade [[http://www.gap-system.org|GAP]] from version 4.4.12 down to version 4.4.10 (Michael Abshoff) -- The previous package {{{gap-4.4.12.p1.spkg}}} didn't work smoothly under Itanium processors. Moreover, there was a reported problem with the function {{{deepcopy()}}} when used with {{{WeylGroup}}}. See this [[http://groups.google.com/group/sage-devel/browse_thread/thread/8ed374142c41087d/c76435c6522fb985|sage-devel thread]] for further details.
+
+
+ * Update to optional package {{{kash3-2008-07-31.spkg}}} (William Stein) -- [[http://www.math.tu-berlin.de/~kant/kash.html|Kash]] is a computer algebra system for computations in algebraic number theory. Kash is closed source, but binaries are freely available.
+
+
+ * Experimental package {{{ets-3.1.1.rev23241.spkg}}}, also including Chaco and Mayavi2 (Jaap Spies) -- The [[http://code.enthought.com/projects|Enthought Tool Suite]] is a collection of components that comprises 2-D and 3-D graphics, scientific, mathematics and development libraries.
+
+
+ * Improvement to experimental package {{{vtk-5.2.1.spkg}}} (Jaap Spies) -- The [[http://www.vtk.org|Visualization Toolkit (VTK)]] is an open-source, freely available software system for 3-D computer graphics, image processing, and visualization. VTK consists of a C++ class library and several interpreted interface layers including Tcl/Tk, Java, and Python.
 
 
 == Quadratic Forms ==
