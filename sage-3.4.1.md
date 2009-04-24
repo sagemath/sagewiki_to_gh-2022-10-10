@@ -641,8 +641,6 @@ sage: complex_plot(zeta, (-30,30), (-30,30))
 
 {{attachment:Riemann zeta function.png}}
 
- * FIXME: summarize #5450
-
 
 == Group Theory ==
 
@@ -893,7 +891,10 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
 
 == Symbolics ==
 
- * FIXME: summarize #5737
+
+ * Pynac interface improvements (Burcin Erocal) -- Some enhancements to the Pynac interface and two new methods:
+  1. {{{find(self, pattern)}}} -- Find all occurences of the given pattern in this expression. Note that once a subexpression matches the pattern, the search doesn't extend to subexpressions of it.
+  1. {{{is_polynomial(self, var)}}} -- Returns {{{True}}} if {{{self}}} is a polynomial in the given variable.
 
 
 == Topology ==
