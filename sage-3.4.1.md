@@ -549,7 +549,7 @@ Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
  * Extended Euclidean algorithm for polynomials over {{{GF(2)}}} (Mike Hansen) -- An {{{xgcd()}}} method for polynomials with base field being the Galois field of 2 elements.
 
 
- * New method {{{apply_morphism()}}} for ideals (Nick Alexander, John Cremona) -- The new method {{{apply_morphism()}}} in {{{sage/rings/ideal.py}}} applies a specified morphism to every element of an ideal.
+ * New method {{{apply_morphism()}}} for ideals (Nick Alexander) -- The new method {{{apply_morphism()}}} in {{{sage/rings/ideal.py}}} applies a specified morphism to every element of an ideal.
 
 
 == Doctest ==
@@ -569,7 +569,7 @@ Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
 == Graph Theory ==
 
 
- * Improved time efficiency of {{{all_graph_colorings()}}} function (Carlo Hamalainen, Tom Boothby) -- The function {{{all_graph_colorings()}}} in {{{sage/graphs/graph_coloring.py}}} now uses the C++ dancing links implementation instead of the Cython implementation in computing graph colorings. In some cases, the speed-up can be up to 5x. Here are some timing statistics obtained using the machine sage.math. First, define a testing script called {{{color_test.sage}}} with the following content:
+ * Improved time efficiency of {{{all_graph_colorings()}}} function (Carlo Hamalainen) -- The function {{{all_graph_colorings()}}} in {{{sage/graphs/graph_coloring.py}}} now uses the C++ dancing links implementation instead of the Cython implementation in computing graph colorings. In some cases, the speed-up can be up to 5x. Here are some timing statistics obtained using the machine sage.math. First, define a testing script called {{{color_test.sage}}} with the following content:
  {{{
 from sage.graphs.graph_coloring import all_graph_colorings
 set_random_seed(0)
