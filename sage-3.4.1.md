@@ -169,7 +169,7 @@ sage: C.plot()
 == Basic Arithmetic ==
 
 
- * Speed-up in dividing a polynomial by an integer (Burcin Erocal) -- Dividing a polynomial by an integer is now up to 6x faster than previously. On Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) CPU running at 2.00GHz with 1.0GB of RAM, one has the following timing statistics:
+ * Speed-up in dividing a polynomial by an integer (William Stein, Burcin Erocal) -- Dividing a polynomial by an integer is now up to 6x faster than previously. On Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) CPU running at 2.00GHz with 1.0GB of RAM, one has the following timing statistics:
  {{{
 # BEFORE
 
@@ -245,7 +245,7 @@ Wall time: 0.02 s
  }}}
 
 
- * Optimized binomial function when an input is real or complex floating point (Dan Drake, William Stein) -- The function {{{binomial()}}} for returning the binomial coefficients is now much faster. In some cases, speed efficiency can be up to 4000x. Here are some timing statistics obtained using the machine sage.math:
+ * Optimized binomial function when an input is real or complex floating point (Dan Drake) -- The function {{{binomial()}}} for returning the binomial coefficients is now much faster. In some cases, speed efficiency can be up to 4000x. Here are some timing statistics obtained using the machine sage.math:
  {{{
 # BEFORE
 
@@ -296,7 +296,7 @@ sage: %timeit binomial(x, y)
 == Calculus ==
 
 
- * Deprecate the calling of symbolic functions with unnamed arguments (Carl Witty, Michael Abshoff) -- Previous releases of Sage supported symbolic functions with "no arguments". This style of constructing symbolic functions is now deprecated. For example, previously Sage allowed for defining a symbolic function in the following way
+ * Deprecate the calling of symbolic functions with unnamed arguments (Carl Witty) -- Previous releases of Sage supported symbolic functions with "no arguments". This style of constructing symbolic functions is now deprecated. For example, previously Sage allowed for defining a symbolic function in the following way
  {{{
 sage: x,y = var("x,y")
 sage: f = x^2 + y^2  
@@ -357,18 +357,18 @@ sage: Permutation(([[1,2,2],[3]], [[1,3,4],[2]]))
  }}}
 
 
- * First pass of cleanup of the interface of combinatorial classes (Florent Hivert) -- Before the patch, the interface of combinatorial classes had two problems:
-  1. There were two redundant ways to get the number of elements {{{len(C)}}} and {{{C.count()}}}. Moreover {{{len}}} must return a plain {{{int}}} where we want an arbitrary large number and even {{{infinity}}};
+ * Cleanup the interface of combinatorial classes (Florent Hivert) -- Before, the interface of combinatorial classes had two problems:
+  1. There were two redundant ways to get the number of elements {{{len(C)}}} and {{{C.count()}}}. Moreover {{{len}}} must return a plain {{{int}}} where we want an arbitrary large number and even {{{infinity}}}.
   1. There were two redundant ways to get an iterator for the elements {{{C.iterator()}}} and {{{iter(C)}}} (allowing for {{{for c in C: ...}}}) via {{{C.__iter__}}}.
  
- The patch standardize those issues to:
-  1. {{{C.cardinality()}}} which is more explicit and consistent with many other Sage libraries;
+ These issues are now standardized to:
+  1. {{{C.cardinality()}}} which is more explicit and consistent with many other Sage libraries.
   1. {{{iter(C)}}} / {{{for x in C:}}} via {{{C.__iter__}}} which is clearly more Pythonic.
  
-  The functions {{{iterator()}}} and {{{count()}}} are deprecated (with a warning), but will be removed in a later release. On the other hand, there was no way to keep backward compatibility for {{{len}}}. Indeed, many of function such as {{{list / filter / map}}} try silently to call {{{len}}},  which would have caused miriads of warnings to be issued in seemingly unrelated places. So it was decided to simply remove it and issue an error, suggesting to call {{{cardinality}}} instead. 
+ The functions {{{iterator()}}} and {{{count()}}} are deprecated (with a warning), but will be removed in a later release. On the other hand, there was no way to keep backward compatibility for {{{len}}}. Indeed, many of function such as {{{list / filter / map}}} try silently to call {{{len}}},  which would have caused miriads of warnings to be issued in seemingly unrelated places. So it was decided to simply remove it and issue an error, suggesting to call {{{cardinality}}} instead. 
 
 
- * New class {{{IntegerListLex}}} for generating integer lists (Nicolas M. Thiery, Florent Hivert) -- The new class provides a Constant Amortized Time iterator through the combinatorial classes of integer lists. For example, we create the combinatorial class of lists of length 3 and sum 2 as follows:
+ * New class {{{IntegerListLex}}} for generating integer lists (Nicolas M. Thiery) -- The new class provides a Constant Amortized Time iterator through the combinatorial classes of integer lists. For example, we create the combinatorial class of lists of length 3 and sum 2 as follows:
  {{{
 sage: C = IntegerListsLex(2, length=3); C
 Integer lists of sum 2 satisfying certain constraints
@@ -384,7 +384,7 @@ sage: list(IntegerListsLex(4, min_part = 1))
  }}}
 
 
- * Cleanup of crystal code (Anne Schilling, Nicolas M. Thiery) -- Cartan type is now implemented as the method {{{cartan_type}}}, rather than an attribute as was previously the case.
+ * Cleanup of crystal code (Anne Schilling) -- Cartan type is now implemented as the method {{{cartan_type}}}, rather than an attribute as was previously the case.
 
 
  * Deprecate the function {{{RestrictedPartitions()}}} (Dan Drake) -- The function {{{RestrictedPartitions()}}} in {{{sage/combinat/partition.py}}} is now deprecated and will be removed in a future release. Users are advised to instead consider the function {{{Partitions()}}} with the {{{parts_in}}} keyword, which is functionally equivalent to {{{RestrictedPartitions()}}} but is more memory and time efficient. The timing improvement in {{{Partitions()}}} is up to 5x faster than {{{RestrictedPartitions()}}}. The following memory and timing statistics are produced using the machine sage.math:
@@ -436,7 +436,7 @@ sage: get_memory_usage()
  }}}
 
 
- * Speed-up the {{{weyl_characters.py}}} module (Mike Hansen, Daniel Bump, Michael Abshoff) -- The timing efficiency is between 4x to 10x, depending on the operations involved. Here are some timing statistics produced using the machine sage.math:
+ * Speed-up the {{{weyl_characters.py}}} module (Mike Hansen, Daniel Bump) -- The timing efficiency is between 4x to 10x, depending on the operations involved. Here are some timing statistics produced using the machine sage.math:
  {{{
 # BEFORE
 
