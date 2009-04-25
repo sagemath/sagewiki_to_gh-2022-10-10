@@ -14,6 +14,24 @@ p.show(xmin=0, ymin=0,dpi=250)
 
 [[http://sage.math.washington.edu/home/wdj/art/cool-sage-pic-small1.png|cool pic 1]]
 
+ * Mirrored balls in tachyon:
+
+{{{
+t = Tachyon(camera_center=(8.5,5,5.5), look_at=(2,0,0), raydepth=6, xres=1500, yres=1500)
+t.light((10,3,4), 1, (1,1,1))
+t.texture('mirror', ambient=0.05, diffuse=0.05, specular=.9, opacity=0.9, color=(.8,.8,.8))
+t.texture('grey', color=(.8,.8,.8), texfunc=7) ## try other values of texfunc too!
+t.plane((0,0,0),(0,0,1),'grey')
+t.sphere((4,-1,1), 1, 'mirror')
+t.sphere((0,-1,1), 1, 'mirror')
+t.sphere((2,-1,1), 0.5, 'mirror')
+t.sphere((2,1,1), 0.5, 'mirror')
+show(t)
+}}}
+
+
+[[http://sage.math.washington.edu/home/wdj/art/balls-mirrored-sage-tachyon1a.png|cool ray tracing pic]]
+
  * Math art by Tom Boothby:
 {{{
 # Author: Tom Boothby
