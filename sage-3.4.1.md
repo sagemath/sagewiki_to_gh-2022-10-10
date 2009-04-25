@@ -3,7 +3,7 @@
 Sage 3.4.1 was released on April 22nd, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-3.4.1.txt|sage-3.4.1.txt]]. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
 
  * Upgrade to Cython 0.11.
- * Rewrite {{{fast_float}}} to support more datatypes.
+ * Rewrite {{{fast_float}}} to support more data types.
  * Improved UTF8/Unicode support in the Notebook.
  * Latest upstream versions of MPIR and FLINT.
  * Pizer's algorithm for computing Brandt Modules and Brandt Matrices.
@@ -47,6 +47,7 @@ sage: %timeit poly.is_primitive(max_order, pdivs)  # with n_prime_divs optional 
  * Speed-up the method {{{order_from_multiple()}}} (John Cremona) -- For groups of prime order n, every non-identity element has order n. The previous implementation of the method {{{order_from_multiple()}}} computes g^n twice when g is not the identity and n is prime. Such double computation is now avoided. Now for each prime p dividing the given multiple of the order, we avoid the last multiplication/powering by p, hence saving some computation time whenever the p-exponent of the order is maximal. The new implementation of {{{order_from_multiple()}}} results in a performance improvement of up to 25%. Here are some timing statistics obtained using the machine sage.math:
  {{{
 # BEFORE
+
 sage: F = GF(2^1279, 'a')
 sage: n = F.cardinality() - 1 # Mersenne prime
 sage: order_from_multiple(F.random_element(), n, [n], operation='*') == n
@@ -56,6 +57,7 @@ sage: %timeit order_from_multiple(F.random_element(), n, [n], operation='*') == 
 
 
 # AFTER
+
 sage: F = GF(2^1279, 'a')
 sage: n = F.cardinality() - 1 # Mersenne prime
 sage: %timeit order_from_multiple(F.random_element(), n, [n], operation='*') == n
@@ -66,6 +68,7 @@ sage: %timeit order_from_multiple(F.random_element(), n, [n], operation='*') == 
  * Speed-up in irreducibility test (Ryan Hinton) -- For polynomials over the finite field {{{GF(2)}}}, the test for irreducibility is now up to 40,000 times faster than previously. On a 64-bit Debian/squeeze machine with Core 2 Duo running at 2.33 GHz, one has the following timing improvements:
  {{{
 # BEFORE
+
 sage: P.<x> = GF(2)[]
 sage: f = P.random_element(1000)
 sage: %timeit f.is_irreducible()
@@ -77,6 +80,7 @@ sage: %time f.is_irreducible()
 
 
 # AFTER
+
 sage: P.<x> = GF(2)[]
 sage: f = P.random_element(1000)
 sage: %timeit f.is_irreducible()
@@ -93,6 +97,7 @@ sage: %timeit f.is_irreducible()
  Furthermore, on Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) CPU running at 2.00GHz with 1.0GB of RAM, one has the following timing statistics:
  {{{
 # BEFORE
+
 sage: P.<x> = GF(2)[]
 sage: f = P.random_element(1000)
 sage: %timeit f.is_irreducible()
@@ -106,6 +111,7 @@ False
 
 
 # AFTER
+
 sage: P.<x> = GF(2)[]
 sage: f = P.random_element(1000)
 sage: %timeit f.is_irreducible()
@@ -159,12 +165,14 @@ sage: C.plot()
 
 {{attachment:elliptic curve.png}}
 
+
 == Basic Arithmetic ==
 
 
  * Speed-up in dividing a polynomial by an integer (Burcin Erocal) -- Dividing a polynomial by an integer is now up to 6x faster than previously. On Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) CPU running at 2.00GHz with 1.0GB of RAM, one has the following timing statistics:
  {{{
 # BEFORE
+
 sage: R.<x> = ZZ["x"]
 sage: f = 389 * R.random_element(1000)
 sage: timeit("f//389")
@@ -172,6 +180,7 @@ sage: timeit("f//389")
 
 
 # AFTER
+
 sage: R.<x> = ZZ["x"]
 sage: f = 389 * R.random_element(1000)
 sage: timeit("f//389")
@@ -179,7 +188,7 @@ sage: timeit("f//389")
  }}}
 
 
- * New {{{fast_float}}} supports more datatypes with improved performance (Carl Witty) -- A rewrite of {{{fast_float}}} to support multiple types. Here, we get accelerated evaluation over {{{RealField(k)}}} as well as {{{RDF}}}, real double field. As compared with the previous {{{fast_float}}}, improved performance can range from 2% faster to more than 2x as fast. An extended list of benchmark details is available at [[http://trac.sagemath.org/sage_trac/ticket/5093|ticket 5093]].
+ * New {{{fast_float}}} supports more data types with improved performance (Carl Witty) -- A rewrite of {{{fast_float}}} to support multiple types. Here, we get accelerated evaluation over {{{RealField(k)}}} as well as {{{RDF}}}, real double field. As compared with the previous {{{fast_float}}}, improved performance can range from 2% faster to more than 2x as fast. An extended list of benchmark details is available at [[http://trac.sagemath.org/sage_trac/ticket/5093|ticket 5093]].
 
 
  * Complex double fast callable interpreter (Robert Bradshaw) -- Support for complex double floating point (CDF). The new interpreter is implemented in the class {{{CDFInterpreter}}} of {{{sage/ext/gen_interpreters.py}}}.
@@ -284,9 +293,6 @@ sage: %timeit binomial(x, y)
   1. {{{is_S_unit(self, S=None)}}} -- Determine if the rational number is an S-unit.
 
 
-== Build ==
-
-
 == Calculus ==
 
 
@@ -305,10 +311,6 @@ sage: f = x^2 + y^2 # You can also do it this way
 sage: f(x=2,y=3) # and then explicitly name your inputs
 sage: f.subs(x=2,y=3) # or use the subs "substitute" command in a similar fashion
  }}}
-
-
-
-== Coercion ==
 
 
 == Combinatorics ==
@@ -437,6 +439,7 @@ sage: get_memory_usage()
  * Speed-up the {{{weyl_characters.py}}} module (Mike Hansen, Daniel Bump, Michael Abshoff) -- The timing efficiency is between 4x to 10x, depending on the operations involved. Here are some timing statistics produced using the machine sage.math:
  {{{
 # BEFORE
+
 sage: R = WeylCharacterRing(['B',3], prefix = "R")
 sage: %time r =  R(1,1,0)
 CPU times: user 0.14 s, sys: 0.00 s, total: 0.14 s
@@ -549,18 +552,12 @@ Multivariate Polynomial Ring in x0, x1, y0, y1 over Finite Field of size 2
  * New method {{{apply_morphism()}}} for ideals (Nick Alexander, John Cremona) -- The new method {{{apply_morphism()}}} in {{{sage/rings/ideal.py}}} applies a specified morphism to every element of an ideal.
 
 
-== Distribution ==
-
-
 == Doctest ==
 
 
  * New and improved random testing module (Carl Witty) -- The new and improved random tester can be found in {{{sage/misc/random_testing.py}}}. The random testing module is useful for Sage modules that do random testing in their doctests by constructing test cases using a random number generator. It provides a decorator to help write random testers that meet the following goals:
   1. To get the broadest possible test coverage by using different random seeds in doctests.
   1. To be able to reproduce problems when debugging.
-
-
-== Documentation ==
 
 
 == Geometry ==
@@ -660,6 +657,7 @@ sage: complex_plot(zeta, (-30,30), (-30,30))
  * Speed-up in comparing elements of a permutation group (Robert Bradshaw, Rob Beezer, John H. Palmieri) -- For elements of a permutation group, comparison between those elements is now up to 13x faster. On Mac OS X 10.4 with Intel Core 2 duo running at 2.33 GHz, one has the following improvement in timing statistics:
  {{{
 # BEFORE
+
 sage: a = SymmetricGroup(20).random_element()
 sage: b = SymmetricGroup(10).random_element()
 sage: timeit("a == b")
@@ -667,6 +665,7 @@ sage: timeit("a == b")
 
 
 # AFTER
+
 sage: a = SymmetricGroup(20).random_element()
 sage: b = SymmetricGroup(10).random_element()
 sage: time v = [a == b for _ in xrange(2000)]
@@ -706,9 +705,6 @@ sage: %timeit prod(L)
  }}}
 
 
-== Interfaces ==
-
-
 == Linear Algebra ==
 
 
@@ -724,6 +720,7 @@ sage: a.inverse()
  * Speed-up in calculating determinants of matrices (John H. Palmieri, William Stein) -- For matrices over {{{Z/nZ}}} with {{{n}}} composite, calculating their determinants is now up to 1500x faster. On Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) 2.00GHz CPU with 1.0GB of RAM, one has the following timing statistics:
  {{{
 # BEFORE
+
 sage: time random_matrix(Integers(26), 10).determinant()
 CPU times: user 15.52 s, sys: 0.02 s, total: 15.54 s
 Wall time: 15.54 s
@@ -735,6 +732,7 @@ Wall time: 15.38 s
 
 
 # AFTER
+
 sage: time random_matrix(Integers(26), 10).determinant()
 CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
 Wall time: 0.01 s
@@ -894,7 +892,7 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
   1. {{{automorphisms(self)}}} -- Computes all Galois automorphisms of {{{self}}}.
 
 
- * Enhanced handling of elliptic curve twists (John Cremona) -- New methods {{{is_quadratic_twist()}}}, {{{is_quartic_twist()}}}, {{{is_sextic_twist()}}} for detecting twists between curves (and returning the appropriate twisting paramenter). The {{{EllipticCurve(j)}}} constructor is now deprecated and will be removed in a future release. Users are advised to consider the constructor {{{EllipticCurve_from_j(j)}}} instead. Over the rationals, the constructor {{{EllipticCurve_from_j(j)}}} gives the minimal twist, i.e. a curve with the correct {{{j}}} and minimal conductor.
+ * Enhanced handling of elliptic curve twists (John Cremona) -- New methods {{{is_quadratic_twist()}}}, {{{is_quartic_twist()}}}, {{{is_sextic_twist()}}} for detecting twists between curves (and returning the appropriate twisting parameter). The {{{EllipticCurve(j)}}} constructor is now deprecated and will be removed in a future release. Users are advised to consider the constructor {{{EllipticCurve_from_j(j)}}} instead. Over the rationals, the constructor {{{EllipticCurve_from_j(j)}}} gives the minimal twist, i.e. a curve with the correct {{{j}}} and minimal conductor.
 
 
  * Conjectural (analytic) order of Sha for elliptic curves over Heegner quadratic imaginary fields (William Stein) -- New method {{{heegner_sha_an()}}} for computing the conjectural (analytic) order of Sha. In computing this analytic order of Sha, we assume a default 53-bit of precision, but the exact number of precision can be changed using the argument {{{prec}}}. The new method can be found in {{{sage/schemes/elliptic_curves/ell_rational_field.py}}}.
@@ -912,9 +910,6 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
  * Enhanced support for number field unit groups (John Cremona) -- New class {{{UnitGroup}}} in the module {{{sage/rings/number_field/unit_group.py}}} for representing the unit group of a number field. As before, the units are computed using the Pari library, but now it is easier (for example) to obtain all generators of the unit group. Also, there's a wrapping for the Pari function {{{bnfisunit()}}} which implements a discrete log function to express any unit in terms of the generators.
 
 
-== Numerical ==
-
-
 == Packages ==
 
 
@@ -930,7 +925,7 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
  * Upgrade [[http://www.libpng.org/pub/png/libpng.html|libpng]] to version 1.2.35 upstream release (Michael Abshoff) -- Version 1.2.35 fixes a number of security issues, which are documented at the libpng project web site.
 
 
- * Upgrade [[http://clisp.cons.org|Clisp]] to version 2.47 latest upstream release (Michael Abshoff, Gonzalo Tornaria) -- The new package {{{clisp-2.47.p0.spkg}}} also introduces {{{noreadline}}} mode dynammically for Clisp and [[http://maxima.sourceforge.net|Maxima]].
+ * Upgrade [[http://clisp.cons.org|Clisp]] to version 2.47 latest upstream release (Michael Abshoff, Gonzalo Tornaria) -- The new package {{{clisp-2.47.p0.spkg}}} also introduces {{{noreadline}}} mode dynamically for Clisp and [[http://maxima.sourceforge.net|Maxima]].
 
 
  * FIXME: summarize #5688
@@ -948,21 +943,18 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
  * Improvement to experimental package {{{vtk-5.2.1.spkg}}} (Jaap Spies) -- The [[http://www.vtk.org|Visualization Toolkit (VTK)]] is an open-source, freely available software system for 3-D computer graphics, image processing, and visualization. VTK consists of a C++ class library and several interpreted interface layers including Tcl/Tk, Java, and Python.
 
 
-== Quadratic Forms ==
-
-
 == Symbolics ==
 
 
  * Pynac interface improvements (Burcin Erocal) -- Some enhancements to the Pynac interface and two new methods:
-  1. {{{find(self, pattern)}}} -- Find all occurences of the given pattern in this expression. Note that once a subexpression matches the pattern, the search doesn't extend to subexpressions of it.
+  1. {{{find(self, pattern)}}} -- Find all occurrences of the given pattern in this expression. Note that once a subexpression matches the pattern, the search doesn't extend to subexpressions of it.
   1. {{{is_polynomial(self, var)}}} -- Returns {{{True}}} if {{{self}}} is a polynomial in the given variable.
 
 
 == Topology ==
 
 
- * Implements simplicial complexes, chain complexes, and their homology (John Palmieri) -- Simplicial complexes are implemented in the new module {{{sage/homology/simplicial_complex.py}}}, and chain complexes are implmented in the new module {{{sage/homology/chain_complex.py}}}. Here's an example on using the new class {{{SimplicialComplex}}} and the method {{{homology()}}}:
+ * Implements simplicial complexes, chain complexes, and their homology (John Palmieri) -- Simplicial complexes are implemented in the new module {{{sage/homology/simplicial_complex.py}}}, and chain complexes are implemented in the new module {{{sage/homology/chain_complex.py}}}. Here's an example on using the new class {{{SimplicialComplex}}} and the method {{{homology()}}}:
  {{{
 sage: circle = SimplicialComplex(2, [[0,1], [1,2], [2,0]])
 sage: circle.homology(0)  # 'homology' means reduced homology
@@ -1017,8 +1009,3 @@ sage: D.differential(2)
 sage: D.differential(3)
 []
  }}}
-
-== User Interface ==
-
-
-== Website / Wiki ==
