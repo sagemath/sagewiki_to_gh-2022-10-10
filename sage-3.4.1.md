@@ -2,8 +2,14 @@
 
 Sage 3.4.1 was released on April 22nd, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-3.4.1.txt|sage-3.4.1.txt]]. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
 
- * Merging improvements during the Sage Days 13 coding sprint.
- * Other bug fixes post Sage 3.4.
+ * Upgrade to Cython 0.11.
+ * Rewrite {{{fast_float}}} to support more datatypes.
+ * Improved UTF8/Unicode support in the Notebook.
+ * Latest upstream versions of MPIR and FLINT.
+ * Pizer's algorithm for computing Brandt Modules and Brandt Matrices.
+ * Quadratic twists for p-adic L-functions.
+ * Overconvergent modular forms for genus 0 primes.
+ * Many improvements for computing with number field.
 
 
 == Algebra ==
