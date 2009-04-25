@@ -823,13 +823,10 @@ Modular Forms space of dimension 4 for Congruence Subgroup Gamma1(3) of weight 1
 == Notebook ==
 
 
- * FIXME: A number of tickets related to UTF-8 text got merged and should definitely be mentioned! #4547, #5211; #2896 and #1477 got fixed by those tickets. There's also #5564, which may not get merged for 3.4.1 but should get in soon; it pulls together a whole bunch of UTF-8 fixes and improvements.
+ * Unicode support for the Sage Notebook (Mike Hansen, Dan Drake).
 
 
- * FIXME: summarize #5681
-
-
- * FIXME: summarize #5720
+ * Worksheets open in new page/tab (William Stein, John Palmieri) -- When one opens a worksheet, it appears in a new tab (or window) so that there is no history, hence nothing to accidentally go back to. The "new worksheet" button would also open a new worksheet in a new tab. Note that with this new feature, there's still a known issue. If one opens up a worksheet, work for a while with that worksheet, then hit "Save & Quit" or "Discard & Quit", one would now have two tabs open listing the active worksheets.
 
 
 == Number Theory ==
