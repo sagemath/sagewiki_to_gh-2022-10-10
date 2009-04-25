@@ -654,7 +654,7 @@ sage: complex_plot(zeta, (-30,30), (-30,30))
 == Group Theory ==
 
 
- * Speed-up in comparing elements of a permutation group (Robert Bradshaw, Rob Beezer, John H. Palmieri) -- For elements of a permutation group, comparison between those elements is now up to 13x faster. On Mac OS X 10.4 with Intel Core 2 duo running at 2.33 GHz, one has the following improvement in timing statistics:
+ * Speed-up in comparing elements of a permutation group (John Palmieri, Robert Bradshaw) -- For elements of a permutation group, comparison between those elements is now up to 13x faster. On Mac OS X 10.4 with Intel Core 2 duo running at 2.33 GHz, one has the following improvement in timing statistics:
  {{{
 # BEFORE
 
@@ -717,7 +717,7 @@ sage: a.inverse()
  }}}
 
 
- * Speed-up in calculating determinants of matrices (John H. Palmieri, William Stein) -- For matrices over {{{Z/nZ}}} with {{{n}}} composite, calculating their determinants is now up to 1500x faster. On Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) 2.00GHz CPU with 1.0GB of RAM, one has the following timing statistics:
+ * Speed-up in calculating determinants of matrices (John H. Palmieri) -- For matrices over {{{Z/nZ}}} with {{{n}}} composite, calculating their determinants is now up to 1500x faster. On Debian 5.0 Lenny with kernel 2.6.24-1-686, an Intel(R) Celeron(R) 2.00GHz CPU with 1.0GB of RAM, one has the following timing statistics:
  {{{
 # BEFORE
 
@@ -743,7 +743,7 @@ Wall time: 0.00 s
  }}}
 
 
- * Optimize string representation for matrices over {{{GF(2)}}} () -- Optimize the method {{{str()}}} for returning a string representation of a matrix over the field {{{GF(2)}}}. The efficiency gain is up to 26x. The following timing statistics were obtained using the machine sage.math:
+ * Optimize string representation for matrices over {{{GF(2)}}} (Robert Bradshaw) -- Optimize the method {{{str()}}} for returning a string representation of a matrix over the field {{{GF(2)}}}. The efficiency gain is up to 26x. The following timing statistics were obtained using the machine sage.math:
  {{{
 # BEFORE
 
@@ -793,7 +793,7 @@ sage: m.inverse()
 == Modular Forms ==
 
 
- * Implement Pizer's algorithm for computing Brandt Modules and Brandt Matrices (Jon Bober, Alia Hamieh, Victoria de Quehen, William Stein, Gonzalo Tornaria) -- The new module {{{sage/modular/quatalg/brandt.py}}} implements the algorithm of Pizer for computing modular forms using quaternion algebras. See the [[http://swc-wiki.sagemath.org/2009/other/pizer|sage wiki]] for more information on this implementation and Pizer's original algorithm.
+ * Implement Pizer's algorithm for computing Brandt Modules and Brandt Matrices (William Stein, Gonzalo Tornaria, Jon Bober, Alia Hamieh, Victoria de Quehen) -- The new module {{{sage/modular/quatalg/brandt.py}}} implements the algorithm of Pizer for computing modular forms using quaternion algebras. See the [[http://swc-wiki.sagemath.org/2009/other/pizer|sage wiki]] for more information on this implementation and Pizer's original algorithm.
 
 
  * Multiplication for modular forms (David Loeffler) -- New method {{{__mul__}}} for {{{ModularFormElement}}} objects, which essentially allows for multiplication of modular forms. Here's an example with character:
