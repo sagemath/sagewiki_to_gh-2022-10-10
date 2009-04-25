@@ -757,7 +757,27 @@ Wall time: 0.01 s
  }}}
 
 
- * FIXME: summarize #5683
+ * Inverse operation for matrices over non-integral domain (William Stein) -- Inverse operation for matrices over the integers modulo a composite modulus. Here are some examples for working such matrices:
+ {{{
+sage: m = matrix(Zmod(49), 2, [2,1,3,3])
+sage: type(m)
+<type 'sage.matrix.matrix_modn_dense.Matrix_modn_dense'>
+sage: m.inverse()
+
+[ 1 16]
+[48 17]
+sage: m = matrix(Zmod(2^100), 2, [2,1,3,3])
+sage: type(m)
+<type 'sage.matrix.matrix_generic_dense.Matrix_generic_dense'>
+sage: m.inverse() * m
+
+[1 0]
+[0 1]
+sage: m.inverse()
+
+[                              1  422550200076076467165567735125]
+[1267650600228229401496703205375  422550200076076467165567735126]
+ }}}
 
 
 == Miscellaneous ==
@@ -792,9 +812,13 @@ Modular Forms space of dimension 4 for Congruence Subgroup Gamma1(3) of weight 1
  }}}
 
 
- * Improvements to congruence subgroups (David Loeffler, Georg S. Weber, Chris Kurth) -- The code for congruence subgroups is now split up into several files under {{{sage/modular/arithgroup}}}. The previous file {{{sage/modular/congroup.py}}} still exists, so pickles created with previous versions should unpickle safely under the new one. New functionality includes handle arbitrary (not necessarily congruence) finite index subgroups of SL2(Z), defined in terms of the right permutation action of SL2(Z) on their cosets, based on code from Chris Kurth's KFarey package; and a variety of tools for calculating quantities relating to the geometry of the modular curve X(Gamma) for arbitrary Gamma, including finding the genus, the set of cusps with their widths and their regularity, and the dimensions of their modular forms spaces for all weights other than 1. 
+ * Improvements to congruence subgroups (David Loeffler, Georg S. Weber, Chris Kurth) -- The code for congruence subgroups is now split up into several files under {{{sage/modular/arithgroup}}}. The previous file {{{sage/modular/congroup.py}}} still exists, so pickles created with previous versions should unpickle safely under the new one. New functionality includes:
+  1. Handling arbitrary (not necessarily congruence) finite index subgroups of {{{SL2(Z)}}}, defined in terms of the right permutation action of {{{SL2(Z)}}} on their cosets. This is based on code from Chris Kurth's KFarey package.
+  1. A variety of tools for calculating quantities relating to the geometry of the modular curve {{{X(Gamma)}}} for arbitrary {{{Gamma}}}, including finding the genus, the set of cusps with their widths and their regularity, and the dimensions of their modular forms spaces for all weights other than 1. 
 
- * Overconvergent modular forms (David Loeffler) -- the space of overconvergent modular forms is in some sense a "p-adic completion" of the space of classical modular forms, which is important in understanding congruence properties of modular forms. This version of Sage incorporates an algorithm (based on work of Smithline, Buzzard + Calegari and others) which calculates the matrices of Hecke operators on these spaces and approximations to the q-expansions of eigenforms, for certain small levels and primes (but any weight). 
+
+ * Overconvergent modular forms (David Loeffler) -- The space of overconvergent modular forms is in some sense a "p-adic completion" of the space of classical modular forms, which is important in understanding congruence properties of modular forms. This version of Sage incorporates an algorithm (based on work of Smithline, Buzzard and Calegari, and others) which calculates the matrices of Hecke operators on these spaces and approximations to the q-expansions of eigenforms, for certain small levels and primes (but any weight). 
+
 
 == Notebook ==
 
