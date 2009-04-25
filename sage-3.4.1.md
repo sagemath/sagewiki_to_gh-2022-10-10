@@ -877,7 +877,7 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
  * Quadratic twists for p-adic L-functions (Chris Wuthrich) -- New features for computing p-adic L-function of quadratic twists of elliptic curves.
 
 
- * Unifying the computation of Galois groups (David Loeffler, John Cremona) -- One can now compute the Galois group of a number field using the function {{{galois_group()}}}, which by default calls [[http://pari.math.u-bordeaux.fr/|Pari]].
+ * Unifying the computation of Galois groups (David Loeffler) -- One can now compute the Galois group of a number field using the function {{{galois_group()}}}, which by default calls [[http://pari.math.u-bordeaux.fr/|Pari]].
 
 
  * New functions for computing Hilbert class polynomials (Eduardo Ocampo Alvarez, Andrey Timofeev, Alex Ghitza) -- The new method {{{hilbert_class_polynomial()}}} allows for Computing the Hilbert class polynomial of a quadratic field. Currently, there's only support for imaginary quadratic fields.
@@ -919,16 +919,16 @@ x^6 + 4*x^5 + 21884*x^4 - 99088*x^3 + 218993188*x^2 + 400560196*x + 100210147034
  * Upgrade [[http://www.mpir.org|MPIR]] to version 1.1 upstream release (Michael Abshoff) -- MPIR is a library for multiprecision integers and rationals based on the [[http://www.gmplib.org|GMP project]]. Among other things, MPIR aims to provide native build capability under Windows.
 
 
- * Upgrade [[http://www.flintlib.org|FLINT]] to version 1.2.4 upstream release (Michael Abshoff) -- FLINT (Fast Library for Number Theory) is a library for univariate polynomial arithmetic over {{{Z/nZ}}}.
+ * Upgrade [[http://www.flintlib.org|FLINT]] to version 1.2.4 upstream release (Burcin Erocal) -- FLINT (Fast Library for Number Theory) is a library for univariate polynomial arithmetic over {{{Z/nZ}}}.
 
 
  * Upgrade [[http://www.libpng.org/pub/png/libpng.html|libpng]] to version 1.2.35 upstream release (Michael Abshoff) -- Version 1.2.35 fixes a number of security issues, which are documented at the libpng project web site.
 
 
- * Upgrade [[http://clisp.cons.org|Clisp]] to version 2.47 latest upstream release (Michael Abshoff, Gonzalo Tornaria) -- The new package {{{clisp-2.47.p0.spkg}}} also introduces {{{noreadline}}} mode dynamically for Clisp and [[http://maxima.sourceforge.net|Maxima]].
+ * Upgrade [[http://clisp.cons.org|Clisp]] to version 2.47 latest upstream release (Gonzalo Tornaria, Michael Abshoff) -- The new package {{{clisp-2.47.p0.spkg}}} also introduces {{{noreadline}}} mode dynamically for Clisp and [[http://maxima.sourceforge.net|Maxima]].
 
 
- * FIXME: summarize #5688
+ * Upgrade [[http://code.google.com/p/sympy|SymPy]] to version 0.6.4 latest upstream release (Ondrej Certik) -- SymPy is a Python library for symbolic mathematics.
 
 
  * Downgrade [[http://www.gap-system.org|GAP]] from version 4.4.12 down to version 4.4.10 (Michael Abshoff) -- The previous package {{{gap-4.4.12.p1.spkg}}} didn't work smoothly under Itanium processors. Moreover, there was a reported problem with the function {{{deepcopy()}}} when used with {{{WeylGroup}}}. See this [[http://groups.google.com/group/sage-devel/browse_thread/thread/8ed374142c41087d/c76435c6522fb985|sage-devel thread]] for further details.
