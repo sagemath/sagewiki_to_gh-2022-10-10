@@ -816,7 +816,7 @@ Modular Forms space of dimension 4 for Congruence Subgroup Gamma1(3) of weight 1
  }}}
 
 
- * Improvements to congruence subgroups (David Loeffler, Georg S. Weber, Chris Kurth) -- The code for congruence subgroups is now split up into several files under {{{sage/modular/arithgroup}}}. The previous file {{{sage/modular/congroup.py}}} still exists, so pickles created with previous versions should unpickle safely under the new one. New functionality includes:
+ * Improvements to congruence subgroups (David Loeffler, Chris Kurth) -- The code for congruence subgroups is now split up into several files under {{{sage/modular/arithgroup}}}. The previous file {{{sage/modular/congroup.py}}} still exists, so pickles created with previous versions should unpickle safely under the new one. New functionality includes:
   1. Handling arbitrary (not necessarily congruence) finite index subgroups of {{{SL2(Z)}}}, defined in terms of the right permutation action of {{{SL2(Z)}}} on their cosets. This is based on code from Chris Kurth's KFarey package.
   1. A variety of tools for calculating quantities relating to the geometry of the modular curve {{{X(Gamma)}}} for arbitrary {{{Gamma}}}, including finding the genus, the set of cusps with their widths and their regularity, and the dimensions of their modular forms spaces for all weights other than 1. 
 
