@@ -645,10 +645,20 @@ sage: complex_plot(zeta, (-30,30), (-30,30))
 {{attachment:Riemann zeta function.png}}
 
 
- * FIXME: summarize #5230
+ * Parameter {{{boundary_style}}} for parametric 3-D plots (Bill Cauchois) -- Implement {{{boundary_style}}} parameter to describe how to draw the boundaries of regions by giving options that are passed to the {{{line3d}}} command. Here's an example:
+ {{{
+sage: u, v = var("u, v")
+sage: parametric_plot3d((cos(u), sin(u) + cos(v), sin(v)), (u,0,pi), (v,0,pi), boundary_style={"color":"black", "thickness":2}, zoom=1.2)
+ }}}
+{{attachment:Parametric 3D plot.png}}
 
 
- * FIXME: summarize #5706
+ * Support implicit plotting of equations (William Stein) -- The function {{{implicit_plot}}} now supports implicit plotting of equations. Here's an example implicit plot of the unit circle:
+ {{{
+sage: x, y = var("x, y ")
+sage: implicit_plot(x^2 + y^2 == 1, (x,-2,2), (y,-2,2)).show(aspect_ratio=1)
+ }}}
+{{attachment:Implicit plot equation.png}}
 
 
 == Group Theory ==
