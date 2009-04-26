@@ -812,7 +812,17 @@ sage: B.hecke_matrix(2).charpoly().factor()
 sage: B.right_ideals()
 (Fractional ideal (2 + 2*j, 2*i + 46*k, 4*j, 60*k), Fractional ideal (2 + 2*j + 60*k, 2*i + 4*j + 46*k, 8*j, 120*k), ... Fractional ideal (2 + 2*i + 10*j + 226*k, 4*i + 12*j + 152*k, 16*j + 240*k, 480*k))
  }}}
-
+ This gives the first ever open source implementation of computation of Tamagawa numbers of (certain) modular abelian varieties:
+ {{{
+sage: A = J0(55)[3]; A
+Simple abelian subvariety 55b(1,55) of dimension 2 of J0(55)
+sage: A.dimension()
+2
+sage: A.tamagawa_number(5)
+2
+sage: A.tamagawa_number(11)
+2
+ }}}
 
 
  * Multiplication for modular forms (David Loeffler) -- New method {{{__mul__}}} for {{{ModularFormElement}}} objects, which essentially allows for multiplication of modular forms. Here's an example with character:
