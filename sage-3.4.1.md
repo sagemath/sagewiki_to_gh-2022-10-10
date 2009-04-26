@@ -805,6 +805,15 @@ sage: m.inverse()
 
  * Implement Pizer's algorithm for computing Brandt Modules and Brandt Matrices (William Stein, Gonzalo Tornaria, Jon Bober, Alia Hamieh, Victoria de Quehen) -- The new module {{{sage/modular/quatalg/brandt.py}}} implements the algorithm of Pizer for computing modular forms using quaternion algebras. See the [[http://swc-wiki.sagemath.org/2009/other/pizer|sage wiki]] for more information on this implementation and Pizer's original algorithm.
 
+ {{{
+sage: B = BrandtModule(11,15)
+sage: B.hecke_matrix(2).charpoly().factor()
+(x - 3) * (x - 1)^4 * (x + 2)^4 * (x^2 - 3) * (x^2 + 2*x - 1) * (x^2 - 2*x - 1)^2 * (x^3 + x^2 - 5*x - 1)
+sage: B.right_ideals()
+(Fractional ideal (2 + 2*j, 2*i + 46*k, 4*j, 60*k), Fractional ideal (2 + 2*j + 60*k, 2*i + 4*j + 46*k, 8*j, 120*k), ... Fractional ideal (2 + 2*i + 10*j + 226*k, 4*i + 12*j + 152*k, 16*j + 240*k, 480*k))
+ }}}
+
+
 
  * Multiplication for modular forms (David Loeffler) -- New method {{{__mul__}}} for {{{ModularFormElement}}} objects, which essentially allows for multiplication of modular forms. Here's an example with character:
  {{{
