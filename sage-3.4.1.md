@@ -365,7 +365,7 @@ sage: Permutation(([[1,2,2],[3]], [[1,3,4],[2]]))
   1. {{{C.cardinality()}}} which is more explicit and consistent with many other Sage libraries.
   1. {{{iter(C)}}} / {{{for x in C:}}} via {{{C.__iter__}}} which is clearly more Pythonic.
  
- The functions {{{iterator()}}} and {{{count()}}} are deprecated (with a warning), but will be removed in a later release. On the other hand, there was no way to keep backward compatibility for {{{len}}}. Indeed, many of function such as {{{list / filter / map}}} try silently to call {{{len}}},  which would have caused miriads of warnings to be issued in seemingly unrelated places. So it was decided to simply remove it and issue an error, suggesting to call {{{cardinality}}} instead. 
+ The functions {{{iterator()}}} and {{{count()}}} are deprecated (with a warning), but will be removed in a later release. On the other hand, there was no way to keep backward compatibility for {{{len}}}. Indeed, many of function such as {{{list / filter / map}}} try silently to call {{{len}}},  which would have caused myriads of warnings to be issued in seemingly unrelated places. So it was decided to simply remove it and issue an error, suggesting to call {{{cardinality}}} instead. 
 
 
  * New class {{{IntegerListLex}}} for generating integer lists (Nicolas M. Thiery) -- The new class provides a Constant Amortized Time iterator through the combinatorial classes of integer lists. For example, we create the combinatorial class of lists of length 3 and sum 2 as follows:
