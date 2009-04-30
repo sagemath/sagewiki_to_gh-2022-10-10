@@ -35,7 +35,7 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
         xvals.append(xvals[-1] + stepsize)
     sol_max = max(sol + [find_maximum_on_interval(y_exact,start,stop)[0]])
     sol_min = min(sol + [find_minimum_on_interval(y_exact,start,stop)[0]])
-    show(plot(y_exact(x),start,stop,rgbcolor=(1,0,0))+line([[xvals[index],sol[index]] for index in range(len(sol))]),xmin=start,xmax = stop, ymax = sol_max, ymin = sol_min)    
+    show(plot(y_exact(x),start,stop,rgbcolor=(1,0,0))+line([[xvals[index],sol[index]] for index in range(len(sol))]),xmin=start,xmax = stop, ymax = sol_max, ymin = sol_min)
     if nsteps < steps_shown:
         table_range = range(len(sol))
     else:
@@ -45,26 +45,25 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
 {{attachment:eulermethod.png}}
 
 == Vector Fields and Euler's Method ==
-by Mike Hansen (tested and updated by William Stein)
+by Mike Hansen (tested and updated by William Stein, and later by Dan Drake)
 {{{
 x,y = var('x,y')
+from sage.ext.fast_eval import fast_float
 @interact
-def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x), 
-      xmin=input_box(default=-1), xmax=input_box(default=1), 
-      ymin=input_box(default=-1), ymax=input_box(default=1), 
-      start_x=input_box(default=0.5), start_y=input_box(default=0.5),  
+def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x),
+      xmin=input_box(default=-1), xmax=input_box(default=1),
+      ymin=input_box(default=-1), ymax=input_box(default=1),
+      start_x=input_box(default=0.5), start_y=input_box(default=0.5),
       step_size=(0.01,(0.001, 0.2)), steps=(600,(0, 1400)) ):
-    old_f = f
-    f = f.function(x,y)
-    old_g = g
-    g = g.function(x,y)
+    ff = fast_float(f, 'x', 'y')
+    gg = fast_float(g, 'x', 'y')
     steps = int(steps)
 
     points = [ (start_x, start_y) ]
     for i in range(steps):
         xx, yy = points[-1]
         try:
-            points.append( (xx+step_size*f(xx,yy), yy+step_size*g(xx,yy)) )
+            points.append( (xx + step_size * ff(xx,yy), yy + step_size * gg(xx,yy)) )
         except (ValueError, ArithmeticError, TypeError):
             break
 
@@ -73,10 +72,8 @@ def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x),
     vector_field = plot_vector_field( (f,g), (x,xmin,xmax), (y,ymin,ymax) )
 
     result = vector_field + starting_point + solution
-    
-    html(r"<h2>$ \frac{dx}{dt} = %s$  $ \frac{dy}{dt} = %s$</h2>"%(latex(old_f),latex(old_g)))
-    print "Step size: %s"%step_size
-    print "Steps: %s"%steps
+
+    html(r"$\displaystyle\frac{dx}{dt} = %s$  $ \displaystyle\frac{dy}{dt} = %s$" % (latex(f),latex(g)))
     result.show(xmin=xmin,xmax=xmax,ymin=ymin,ymax=ymax)
 }}}
 {{attachment:euler.png}}
@@ -89,10 +86,10 @@ by Harald Schilly
 # (jacobian doesn't work, please fix ...)
 var('x y')
 @interact
-def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=input_box(default=x^3-x+1/100*exp(y*x^2+x*y^2)-0.7*x), 
-      xmin=input_box(default=-1), xmax=input_box(default=1.8), 
-      ymin=input_box(default=-1.3), ymax=input_box(default=1.5), 
-      x_start=(-1,(-2,2)), y_start=(0,(-2,2)), error=(0.5,(0,1)), 
+def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=input_box(default=x^3-x+1/100*exp(y*x^2+x*y^2)-0.7*x),
+      xmin=input_box(default=-1), xmax=input_box(default=1.8),
+      ymin=input_box(default=-1.3), ymax=input_box(default=1.5),
+      x_start=(-1,(-2,2)), y_start=(0,(-2,2)), error=(0.5,(0,1)),
       t_length=(23,(0, 100)) , num_of_points = (1500,(5,2000)),
       algorithm = selector([
          ("rkf45" , "runga-kutta-felhberg (4,5)"),
@@ -106,19 +103,19 @@ def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=inpu
          ("gear2" , "M=2 implicit gear")
       ])):
     f(x,y)=fin
-    g(x,y)=gin    
-    
+    g(x,y)=gin
+
     ff = f._fast_float_(*f.args())
     gg = g._fast_float_(*g.args())
-    
+
     #solve
-    path = []      
+    path = []
     err = error
     xerr = 0
     for yerr in [-err, 0, +err]:
       T=ode_solver()
       T.algorithm=algorithm
-      T.function = lambda t, yp: [ff(yp[0],yp[1]), gg(yp[0],yp[1])]  
+      T.function = lambda t, yp: [ff(yp[0],yp[1]), gg(yp[0],yp[1])]
       T.jacobian = lambda t, yp: [[diff(fun,dval)(yp[0],yp[1]) for dval in [x,y]] for fun in [f,g]]
       T.ode_solve(y_0=[x_start + xerr, y_start + yerr],t_span=[0,t_length],num_points=num_of_points)
       path.append(line([p[1] for p in T.solution]))
@@ -190,11 +187,11 @@ def _(f=input_box(default=x*exp(-x^2)), longitud=input_box(default=2*pi),
     dx=float(longitud/M)
     xs=[n*dx for n in range(M+1)]
     u0=[efe(a) for a in xs]
-    
+
     s=k*(tiempo/tsteps) /dx^2
     if s>0.5:
         print 's=%f > 1/2!!!  The method is not stable'%s
-    
+
     ut=calor_cython(u0,dx,k,tiempo,tsteps)
     show( line2d(zip(xs, u0)) + line2d(zip(xs, ut), rgbcolor='green') )
 }}}
