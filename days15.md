@@ -66,6 +66,7 @@
  * Dan Shumow
  * William Stein
  * Nicolas M. Thiery
+ * Carl Witty
 
 == Local travel info ==
 
