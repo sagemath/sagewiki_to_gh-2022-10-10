@@ -69,13 +69,48 @@ sage: list(squarefree_divisors(81))
 == Combinatorics ==
 
 
- * FIXME: summarize #5751
+ * Make {{{cartan_type}}} a method rather than an attribute (Dan Bump) -- For the module {{{sage/combinat/root_system/weyl_characters.py}}}, {{{cartan_type}}} is now a method, not an attribute. For example, one can now invoke {{{cartan_type}}} as a method like so:
+ {{{
+sage: A2 = WeylCharacterRing("A2")
+sage: A2([1,0,0]).cartan_type()
+['A', 2]
+ }}}
 
 
 == Commutative Algebra ==
 
 
- * FIXME: summarize #5795
+ * Improved performance in {{{MPolynomialRing_libsingular}}} (Simon King) -- This provides some optimization of the method {{{MPolynomialRing_libsingular.__call__()}}}. In some cases, the efficiency is up to 19%. The following timing statistics are obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: R = PolynomialRing(QQ,5,"x")
+sage: S = PolynomialRing(QQ,6,"x")
+sage: T = PolynomialRing(QQ,5,"y")
+sage: U = PolynomialRing(GF(2),5,"x")
+sage: p = R("x0*x1+2*x4+x3*x1^2")^4
+sage: timeit("q = S(p)")
+625 loops, best of 3: 321 µs per loop
+sage: timeit("q = T(p)")
+625 loops, best of 3: 348 µs per loop
+sage: timeit("q = U(p)")
+625 loops, best of 3: 435 µs per loop
+
+
+# AFTER
+
+sage: R = PolynomialRing(QQ,5,"x")
+sage: S = PolynomialRing(QQ,6,"x")
+sage: T = PolynomialRing(QQ,5,"y")
+sage: U = PolynomialRing(GF(2),5,"x")
+sage: p = R("x0*x1+2*x4+x3*x1^2")^4
+sage: timeit("q = S(p)")
+625 loops, best of 3: 316 µs per loop
+sage: timeit("q = T(p)")
+625 loops, best of 3: 281 µs per loop
+sage: timeit("q = U(p)")
+625 loops, best of 3: 392 µs per loop
+ }}}
 
 
 == Distribution ==
