@@ -329,9 +329,11 @@ sage: type(E)
 == Packages ==
 
 
- * FIXME: summarize #5803
+ * Upgrade [[http://www.cython.org|Cython]] to version 0.11.1 latest upstream release (Robert Bradshaw) -- Based on Pyrex, Cython is a language that closely resembles Python and developed for writing C extensions for Python. For critical functionalities and performance, Sage uses Cython to generate very efficient C code from Cython code, for wrapping external C libraries, and for fast C modules that speed up the execution of Python code.
 
- * FIXME: summarize #5849
+
+ * Upgrade [[http://www.mpir.org|MPIR|]] to version 1.1.1 latest upstream release (Michael Abshoff) -- MPIR is a library for multiprecision integers and rationals based on the [[http://www.gmplib.org|GMP project]]. Among other things, MPIR aims to provide native build capability under Windows.
+
 
  * Move DSage to its own spkg (William Stein) -- The Distributed Sage framework (DSage) contained in {{{sage/dsage}}} is now packaged as a self-contained spkg. DSage allows for distributed computing from within Sage.
 
