@@ -13,6 +13,17 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
  * FIXME: summarize #5921
 
 
+ * Coercing factors into a common universe (Alex Ghitza) -- New method {{{base_change(self, U)}}} in the module {{{sage/structure/factorization.py}}} to allow the factorization {{{self}}} with its factors (including the unit part) coerced into the universe {{{U}}}. Here's an example for working with the new method {{{base_change()}}}:
+ {{{
+sage: F = factor(2006)
+sage: F.universe() 
+Integer Ring
+sage: P.<x> = ZZ["x"]
+sage: F.base_change(P).universe() 
+Univariate Polynomial Ring in x over Integer Ring
+ }}}
+
+
 == Algebraic Geometry ==
 
 
@@ -125,25 +136,18 @@ sage: timeit("q = U(p)")
  * FIXME: summarize #5610
 
 
-== DSage ==
-
-
- * FIXME: summarize #5824
-
-
-== Factorization ==
-
-
- * FIXME: summarize #5928
-
-
 == Geometry ==
 
 
 == Graph Theory ==
 
 
- * FIXME: summarize #5914
+ * Default edge color is black (Robert Miller) -- If only one edge of a graph is colored red, for example, then the remaining edges should be colored with black by default. Here's an example:
+ {{{
+sage: G = graphs.CompleteGraph(5)
+sage: G.show(edge_colors={'red':[(0,1)]})
+ }}}
+{{attachment:pentagon-graph.png}}
 
 
 == Graphics ==
@@ -208,6 +212,8 @@ sage: timeit("q = U(p)")
  * FIXME: summarize #5803
 
  * FIXME: summarize #5849
+
+ * Move DSage to its own spkg (William Stein) -- The Distributed Sage framework (DSage) contained in {{{sage/dsage}}} is now packaged as a self-contained spkg. DSage allows for distributed computing from within Sage.
 
 
 == P-adics ==
