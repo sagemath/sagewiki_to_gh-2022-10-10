@@ -39,8 +39,9 @@
 
 == Confirmed Participants ==
 
- * Michael Abshoff
+ 1. Michael Abshoff
  * Martin Albrecht
+ * D. Benjamin Antieau
  * Shaun Ault
  * Rob Beezer
  * Tom Boothby
