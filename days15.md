@@ -87,6 +87,7 @@ Room 2:
  * Carl Witty
 
 Room 3:
+ * D. Benjamin Antieau
 
 Room 4:
 
