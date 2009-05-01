@@ -139,6 +139,8 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 
  * FIXME: summarize #5803
 
+ * FIXME: summarize #5849
+
 
 == P-adics ==
 
