@@ -8,10 +8,20 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 == Algebra ==
 
 
+ * FIXME: summarize #5820
+
+ * FIXME: summarize #5921
+
+
 == Algebraic Geometry ==
 
 
 == Basic Arithmetic ==
+
+
+ * FIXME: summarize #545
+
+ * FIXME: summarize #5855
 
 
 == Build ==
@@ -47,10 +57,25 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
  * FIXME: summarize #5610
 
 
+== DSage ==
+
+
+ * FIXME: summarize #5824
+
+
+== Factorization ==
+
+
+ * FIXME: summarize #5928
+
+
 == Geometry ==
 
 
 == Graph Theory ==
+
+
+ * FIXME: summarize #5914
 
 
 == Graphics ==
@@ -83,6 +108,13 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 == Notebook ==
 
 
+ * FIXME: summarize #5912
+
+ * FIXME: summarize #2740
+
+ * FIXME: summarize #5880
+
+
 == Number Theory ==
 
 
@@ -94,6 +126,10 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 
  * FIXME: summarize #4193
 
+ * FIXME: summarize #5890
+
+ * FIXME: summarize #5856
+
 
 == Numerical ==
 
@@ -102,6 +138,12 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 
 
  * FIXME: summarize #5803
+
+
+== P-adics ==
+
+
+ * FIXME: summarize #5946
 
 
 == Quadratic Forms ==
