@@ -174,7 +174,47 @@ sage: G.show(edge_colors={'red':[(0,1)]})
 == Modular Forms ==
 
 
- * FIXME: summarize #5876
+ * Vast speedup in {{{P1List}}} construction (John Cremona) -- This provides huge improvement in the {{{P1List()}}} constructor for Manin symbols. The efficiency gain can range from 27% up to 6x. Here are some timing statistics obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: time P1List(100000)
+CPU times: user 4.11 s, sys: 0.08 s, total: 4.19 s
+Wall time: 4.19 s
+The projective line over the integers modulo 100000
+sage: time P1List(1000000)
+CPU times: user 192.22 s, sys: 0.60 s, total: 192.82 s
+Wall time: 192.84 s
+The projective line over the integers modulo 1000000
+sage: time P1List(1009*1013)
+CPU times: user 31.20 s, sys: 0.05 s, total: 31.25 s
+Wall time: 31.25 s
+The projective line over the integers modulo 1022117
+sage: time P1List(1000003)
+CPU times: user 35.92 s, sys: 0.05 s, total: 35.97 s
+Wall time: 35.97 s
+The projective line over the integers modulo 1000003
+
+
+# AFTER
+
+sage: time P1List(100000)
+CPU times: user 0.78 s, sys: 0.02 s, total: 0.80 s
+Wall time: 0.80 s
+The projective line over the integers modulo 100000
+sage: time P1List(1000000)
+CPU times: user 27.82 s, sys: 0.21 s, total: 28.03 s
+Wall time: 28.02 s
+The projective line over the integers modulo 1000000
+sage: time P1List(1009*1013)
+CPU times: user 21.59 s, sys: 0.04 s, total: 21.63 s
+Wall time: 21.63 s
+The projective line over the integers modulo 1022117
+sage: time P1List(1000003)
+CPU times: user 26.19 s, sys: 0.05 s, total: 26.24 s
+Wall time: 26.24 s
+The projective line over the integers modulo 1000003
+ }}}
 
 
 == Notebook ==
@@ -182,7 +222,9 @@ sage: G.show(edge_colors={'red':[(0,1)]})
 
  * FIXME: summarize #5912
 
- * FIXME: summarize #2740
+
+ * Downloading and uploading folders of worksheets (Robert Bradshaw) -- One can now download and upload entire folders of worksheets at once, instead of individual worksheets one at a time. This also allows for downloading only selecting worksheets in one go.
+
 
  * FIXME: summarize #5880
 
@@ -190,17 +232,95 @@ sage: G.show(edge_colors={'red':[(0,1)]})
 == Number Theory ==
 
 
- * FIXME: summarize #5130
+ * New function {{{prime_pi()}}} for counting primes (R. Andrew Ohana) -- The new function {{{prime_pi()}}} in {{{sage/functions/prime_pi.pyx}}} implements the prime counting function {{{pi(n)}}}. Essentially, {{{prime_pi(n)}}} counts the number of primes less than or equal to {{{n}}}. Here are some examples:
+ {{{
+sage: prime_pi(10)
+4
+sage: prime_pi(100)
+25
+sage: prime_pi(-10)
+0
+sage: prime_pi(-0.5)
+0
+sage: prime_pi(10^10)
+455052511
+ }}}
 
- * FIXME: summarize #5822
 
- * FIXME: summarize #5704
+ * Action of the Galois group on cusps (William Stein) -- New method {{{galois_action()}}} in {{{sage/modular/cusps.py}}} for computing action of the Galois group on cusps for congruence subgroups. The relevant algorithm here is taken from section 1.3 of the following text:
+  * S. Glenn. Arithmetic on Modular Curves. Progress in Mathematics, volume 20, Birkhauser, 1982.
+ Here are some examples for working with {{{galois_action()}}}:
+ {{{
+sage: Cusp(1/10).galois_action(3, 50)
+1/170
+sage: Cusp(oo).galois_action(3, 50)
+Infinity
+sage: Cusp(0).galois_action(3, 50)
+0
+ }}}
 
- * FIXME: summarize #4193
+
+ * Finding elliptic curves with prescribed reduction over {{{QQ}}} (John Cremona) -- New function {{{EllipticCurves_with_good_reduction_outside_S()}}} for constructing elliptic curves with good reduction outside a finite set of primes. This essentially implements the algorithm presented in the paper, but currently only over {{{QQ}}}:
+  * J. Cremona and M. Lingham. Finding all elliptic curves with good reduction outside a given set of primes. Experimental Mathematics, 16(3):303--312, 2007.
+ Here are some examples for working with this new function:
+ {{{
+sage: EllipticCurves_with_good_reduction_outside_S([])
+[]
+sage: elist = EllipticCurves_with_good_reduction_outside_S([2])
+sage: elist
+
+[Elliptic Curve defined by y^2 = x^3 + 4*x over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - x over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - 11*x - 14 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - 11*x + 14 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - 4*x over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - 44*x - 112 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - 44*x + 112 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 + x over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 + x^2 + x + 1 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 + x^2 - 9*x + 7 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 + x^2 + 3*x - 5 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 + x^2 - 2*x - 2 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - x^2 + x - 1 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - x^2 - 9*x - 7 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - x^2 + 3*x + 5 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - x^2 - 2*x + 2 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 + x^2 - 3*x + 1 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 + x^2 - 13*x - 21 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - 2*x over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 + 8*x over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 + 2*x over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - 8*x over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - x^2 - 3*x - 1 over Rational Field,
+ Elliptic Curve defined by y^2 = x^3 - x^2 - 13*x + 21 over Rational Field]
+sage: len(elist)
+24
+sage: ', '.join([e.label() for e in elist])
+'32a1, 32a2, 32a3, 32a4, 64a1, 64a2, 64a3, 64a4, 128a1, 128a2, 128b1, 128b2, 128c1, 128c2, 128d1, 128d2, 256a1, 256a2, 256b1, 256b2, 256c1, 256c2, 256d1, 256d2'
+ }}}
+
+
+ * Make elliptic curves over the mod rings {{{Z/pZ}}} behave like elliptic curves over the finite fields {{{GF(p)}}} (Alex Ghitza) -- Elliptic curves over {{{Z/NZ}}} for prime {{{N}}} are now treated as being over a finite field. For example,
+ {{{
+sage: F = Zmod(101)
+sage: EllipticCurve(F, [2, 3])
+Elliptic Curve defined by y^2 = x^3 + 2*x + 3 over Ring of integers modulo 101
+sage: E = EllipticCurve([F(2), F(3)])
+sage: type(E)
+<class 'sage.schemes.elliptic_curves.ell_finite_field.EllipticCurve_finite_field'>
+ }}}
+ However, if {{{N}}} is composite, then elliptic curves over {{{Z/NZ}}} are treated as being of the type "generic elliptic curve". For example,
+ {{{
+sage: F = Zmod(95)
+sage: EllipticCurve(F, [2, 3])
+Elliptic Curve defined by y^2 = x^3 + 2*x + 3 over Ring of integers modulo 95
+sage: E = EllipticCurve([F(2), F(3)])
+sage: type(E)
+<class 'sage.schemes.elliptic_curves.ell_generic.EllipticCurve_generic'>
+ }}}
+
 
  * FIXME: summarize #5890
-
- * FIXME: summarize #5856
 
 
 == Numerical ==
