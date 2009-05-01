@@ -77,6 +77,21 @@
     (206) 732-3200
 }}}
 If you would like to stay in one of the Collegiana rooms, email wstein@gmail.com to reserve a spot. (And, you don't have to pay anything out of pocket.)
+{{{
+Room 1:
+ * Alia Hamieh
+ * Karen T. Kohl
+
+Room 2:
+ * Carl Witty
+
+Room 3:
+
+Room 4:
+
+Room 5:
+
+}}}
 
  * This place has rooms: http://www.collegeinnseattle.com/ 
 
