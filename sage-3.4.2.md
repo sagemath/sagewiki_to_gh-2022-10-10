@@ -8,7 +8,25 @@ Sage 3.4.2 was released on FIXME. For the official, comprehensive release note, 
 == Algebra ==
 
 
- * FIXME: summarize #5820
+ * Comparison of ring coercion morphisms (Alex Ghitza) -- New comparison method {{{__cmp__()}}} for the class {{{RingHomomorphism_coercion}}} in {{{sage/rings/morphism.pyx}}}. The comparison method {{{__cmp__(self, other)}}} compares a ring coercion morphism {{{self}}} to {{{other}}}. Ring coercion morphisms never compare equal to any other data type. If {{{other}}} is a ring coercion morphism, the parents of {{{self}}} and {{{other}}} are compared. Here are some examples on comparing ring coercion morphisms:
+ {{{
+sage: f = ZZ.hom(QQ)
+sage: g = ZZ.hom(ZZ)
+sage: f == g
+False
+sage: f > g
+True
+sage: f < g
+False
+sage: h = Zmod(6).lift()
+sage: f == h
+False
+sage: f = ZZ.hom(QQ)
+sage: g = loads(dumps(f))
+sage: f == g
+True
+ }}}
+
 
  * FIXME: summarize #5921
 
