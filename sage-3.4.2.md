@@ -232,7 +232,7 @@ The projective line over the integers modulo 1000003
 == Number Theory ==
 
 
- * New function {{{prime_pi()}}} for counting primes (R. Andrew Ohana) -- The new function {{{prime_pi()}}} in {{{sage/functions/prime_pi.pyx}}} implements the prime counting function {{{pi(n)}}}. Essentially, {{{prime_pi(n)}}} counts the number of primes less than or equal to {{{n}}}. Here are some examples:
+ * Enhanced function {{{prime_pi()}}} for counting primes (R. Andrew Ohana) -- The improved function {{{prime_pi()}}} in {{{sage/functions/prime_pi.pyx}}} implements the prime counting function {{{pi(n)}}}. Essentially, {{{prime_pi(n)}}} counts the number of primes less than or equal to {{{n}}}. Here are some examples:
  {{{
 sage: prime_pi(10)
 4
