@@ -17,7 +17,7 @@ In addition of heading the Solaris as well as Windows port of Sage I am also the
  * 3.1, 3.1.1-4
  * 3.2, 3.2.1-3 
  * 3.3
- * 3.4, 3.4.1, 3.4.2
+ * 3.4, 3.4.1-2
 
 I still study math at the University of Dortmund and one day will finish my degree :)
 
