@@ -1,0 +1,9 @@
+= Sage Days 15 Project Ideas =
+
+These are project ideas for [[days15|Sage Days 15]].
+
+== Prime Pi ==
+
+PEOPLE: Fredrik Johansson
+
+  * Investigate implementing the Meissel, Lehmer, Lagarias, Miller, Odlyzko for computing the number of primes up to x.
