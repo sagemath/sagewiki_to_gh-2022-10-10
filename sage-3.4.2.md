@@ -356,7 +356,7 @@ sage: type(E)
  * Move DSage to its own spkg (William Stein) -- The Distributed Sage framework (DSage) contained in {{{sage/dsage}}} is now packaged as a self-contained spkg. DSage allows for distributed computing from within Sage.
 
 
- * Update the FLINT spkg (Michael Abshoff) -- The new FLINT spkg is {{{flint-1.2.4.p2.spkg}}} and now supports OS X 64-bit.
+ * Update the FLINT spkg (Michael Abshoff) -- The new FLINT spkg is {{{flint-1.2.4.p2.spkg}}} and fixes spkg-check on OS X 64-bit.
 
 
 == P-adics ==
