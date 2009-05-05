@@ -17,6 +17,9 @@
 == Mailing list ==
  * http://groups.google.com/group/sagedays15
 
+== Video ==
+ * Might be broadcast using http://www.ustream.tv
+
 == Topics ==
  * Computational Algebraic Topology
  * Porting Sage to Windows
