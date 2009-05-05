@@ -11,6 +11,8 @@
  * Wednesday May 20: 5-7pm in [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
  * Thursday May 21: 5-7pm in [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
 
+== Project Ideas ==
+ * [[/projects|Projects]]
 
 == Mailing list ==
  * http://groups.google.com/group/sagedays15
