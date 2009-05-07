@@ -358,6 +358,8 @@ sage: type(E)
 
  * Update the FLINT spkg (Michael Abshoff) -- The new FLINT spkg is {{{flint-1.2.4.p2.spkg}}} and fixes spkg-check on OS X 64-bit.
 
+ * Update the Maxima spkg (Michael Abshoff) -- The Lisp implementation Clisp needs a stack size larger than many systems provide, i.e. 8KB. When Clisp is used as the Lisp implementation for Maxima, then Maxima can randomly fail to build if the stack size is not raised. The updated Maxima spkg {{{maxima-5.16.3.p2.spkg}}} sets the stack size to 32KB for Clisp.
+
 
 == P-adics ==
 
