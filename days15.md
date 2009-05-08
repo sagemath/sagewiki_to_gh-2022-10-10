@@ -96,6 +96,7 @@ Room 3:
  * D. Benjamin Antieau
 
 Room 4:
+ * Bob Bruner
 
 Room 5:
 
