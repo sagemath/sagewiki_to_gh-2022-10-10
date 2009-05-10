@@ -57,6 +57,8 @@ Sage-combinat is a collection of experimental patches (i.e. extensions) on top o
 
  * For the curious: [[http://wiki.sagemath.org/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
 
+ * For hg lovers: [[http://hgbook.red-bean.com/read/|Mercurial: The Definite Guide]] an e-book by Bryan O'Sullivan
+
  * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]]
    To check them out, use {{{hg clone http://combinat.sagemath.org/misc/ Sage-Combinat-misc-file}}}. This will create a subdirectory {{{Sage-Combinat-misc-file}}} in the current directory; you can use any other name for this subdirectory.
 
