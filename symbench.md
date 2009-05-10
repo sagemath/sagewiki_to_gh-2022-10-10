@@ -118,7 +118,7 @@ CPU time: 0.09 s,  Wall time: 0.52 s
 == Problem R4 ==
 {{{
 u = [e, pi, sqrt(2)]
-time Tuples(u,3).count()
+time Tuples(u,3).cardinality()
 //
 27
 Time: CPU 0.23 s, Wall: 1.55 s
