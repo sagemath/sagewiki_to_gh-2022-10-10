@@ -193,7 +193,7 @@ Room 4:
  * Bob Bruner
 
 Room 5:
-
+ * Shaun V. Ault
 }}}
 
  * This place has rooms: http://www.collegeinnseattle.com/ 
