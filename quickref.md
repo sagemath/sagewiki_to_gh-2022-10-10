@@ -10,6 +10,8 @@
 
  * '''Basic Math''' by Peter Jipsen, version 1.1 (January 2008) - [[attachment:sage-quickref.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref.pdf|download]] (and the source [[attachment:sage-quickref.tex]])
 
+ * '''Math. de base''' (Traduction francaise de '''Basic Math''') - [[attachment:sage-quickref_fr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref_fr.pdf|download]] (and the source [[attachment:sage-quickref_fr.tex]])
+
 
 Please feel free to tweak or critique this experimental table:
 
