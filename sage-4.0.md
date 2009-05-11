@@ -66,11 +66,21 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 == Modular Forms ==
 
+ * FIXME: summarize #4337
+
+ * FIXME: summarize #4357
+
+ * FIXME: summarize #5262
+
+ * FIXME: summarize #5792
+
 
 == Notebook ==
 
 
 == Number Theory ==
+
+ * FIXME: summarize #5250
 
 
 == Numerical ==
@@ -80,6 +90,8 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 
 == P-adics ==
+
+ * FIXME: summarize #5105
 
 
 == Quadratic Forms ==
