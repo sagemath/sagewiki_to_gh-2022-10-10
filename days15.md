@@ -48,6 +48,8 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G
 
 === Monday, May 18 ===
 
+ * 11:00AM - 5:00PM: Coding Sprints in [[http://depts.washington.edu/sauf/scc/sccres/246.php|SCC 246]]
+
  * (1:30PM - 2:20PM: William's Modular Abelian Varieties class, MEB 243)
  * (2:30PM - 3:20PM: William's undergrad Sage class, CMU B027)
 
@@ -76,6 +78,8 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G
 
 === Wednesday, May 20 ===
 
+ * 11:00AM - 5:00PM: Coding Sprints in [[http://depts.washington.edu/sauf/scc/sccres/246.php|SCC 246]]
+
  * (1:30PM - 2:20PM: William's Modular Abelian Varieties class)
  * (2:30PM - 3:20PM: William's undergrad Sage class)
 
@@ -90,7 +94,8 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G
 
 '''Morning''': Final Status Reports
 
- * 10:00AM - 12:00PM: Final Status Reports
+ * 11:00AM - 1:00PM: Final Status Reports in [[http://depts.washington.edu/sauf/scc/sccres/246.php|SCC 246]]
+ * 1:00PM - 5:00PM: Coding Sprints in [[http://depts.washington.edu/sauf/scc/sccres/246.php|SCC 246]]
 
  * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov, Sieg 134]]
 
