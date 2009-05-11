@@ -83,7 +83,7 @@ All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen C
 
 '''Evening''': [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
 
- * 5:15PM - 6:05PM: Nicolas Thiery, topic TBA
+ * 5:15PM - 6:05PM: Sage-Combinat and Categories for the Working Mathematical Programmer, Nicolas Thiery
  * 6:15PM - 6:45PM: Coding Sprint Organization
 
 === Thursday, May 21 ===
