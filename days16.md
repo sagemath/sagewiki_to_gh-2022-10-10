@@ -11,46 +11,50 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
  * [[MichaelAbshoff|Michael Abshoff]], [[http://www.informatik.uni-bremen.de/~malb/|Martin Albrecht]], [[http://www.warwick.ac.uk/~masgaj/|John Cremona]], [[http://www-ma2.upc.es/~quer/|Jordi Quer]], [[http://wstein.org|William Stein]], [[http://www.uam.es/personal_pdi/ciencias/engonz/|Enrique González-Jiménez]], [[http://polit.upc.es/~puig/indexen.html|Joaquim Puig]], [[http://www.cmat.edu.uy/~tornaria/|Gonzalo Tornaría]].
 
 == Participants ==
-  1. Michael Abshoff
-  1. Martin Albrecht
-  1. Maite Aranes
-  1. Gabriel Cardona *
-  1. Wouter Castryck
-  1. Henri Cohen
-  1. Francesc Creixell
-  1. Christian Eder
-  1. Burcin Erocal
-  1. Julio Fernández *
-  1. Imma Gálvez *
-  1. Enrique González-Jimenez *
-  1. Josep González *
-  1. Jordi Guàrdia *
-  1. Xavier Guitart *
-  1. Amir Hashemi
-  1. David Kohel
-  1. Joan Carles Lario *
-  1. David Loeffler
-  1. Robert Miller
-  1. Antonio Molina
-  1. Enric Nart *
-  1. Sebastian Pancratz
-  1. Joaquim Puig *
-  1. Jordi Quer *
-  1. Anna Río *
-  1. Víctor Rotger *
-  1. Bjarke Roune
-  1. Utpal Sarkar *
-  1. Diana Savin
-  1. Rainer Schulze-Pillot
-  1. Mehmet Sengun
-  1. Jaap Spies
-  1. William Stein
-  1. Emmanuel Thome
-  1. Andrew Tonks
-  1. Gonzalo Tornaría
-  1. Eulàlia Tramuns *
-  1. Montrserrat Vela *
-  1. Brian Wyman
+  1. Michael Abshoff, Technische Universität Dortmund
+  1. Martin Albrecht, University of London
+  1. Maite Aranes, University of Warwick
+  1. Michal Bulant, Masaryk University
+  1. Gabriel Cardona, UPC
+  1. Wouter Castryck, Leuven
+  1. Henri Cohen, Bordeaux
+  1. Francesc Creixell, UPC
+  1. Christian Eder, TU Kaiserslautern
+  1. Burcin Erocal, RISC, JKU - Linz
+  1. Julio Fernández, UPC
+  1. Imma Gálvez, UAB
+  1. Enrique González-Jimenez, Universidad Autónoma de Madrid
+  1. Josep González, UPC
+  1. Jordi Guàrdia, UPC
+  1. Xavier Guitart, UPC
+  1. Amir Hashemi, Isfahan University of Technology (Iran)
+  1. David Kohel, Institut de Mathématiques de Luminy
+  1. Joan Carles Lario, UPC
+  1. Hamish Law, Sydney-Marseille
+  1. David Loeffler, University of Cambridge
+  1. Robert Miller, University of Washington
+  1. Antonio Molina, Addlink Software Científico
+  1. Enric Nart, UAB
+  1. Sebastian Pancratz, University of Oxford
+  1. Joaquim Puig, UPC
+  1. Jordi Quer, UPC
+  1. Anna Río, UPC
+  1. Víctor Rotger, UPC
+  1. Bjarke Roune, University of Aarhus
+  1. Utpal Sarkar, HP (+UPC)
+  1. Diana Savin, Ovidius University (Romania)
+  1. Rainer Schulze-Pillot, Universitaet des Saarlandes
+  1. Mehmet Sengun, University of Duisburg-Essen
+  1. Jaap Spies, Holland
+  1. William Stein, University of Washington
+  1. Emmanuel Thome, INRIA Lorraine
+  1. Andrew Tonks, London Metropolitan University
+  1. Gonzalo Tornaría, Universidad de la República (Uruguay)
+  1. Eulàlia Tramuns, UPC
+  1. Montrserrat Vela, UPC
+  1. Christian Wuthrich, University of Nottingham
+  1. Brian Wyman, Univ of Michigan
+
   
 == Mailing lists ==
  * Participants lists (open): http://groups.google.com/group/sagedays16
