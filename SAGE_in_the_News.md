@@ -39,7 +39,7 @@ Broadly construed, this will describe how Sage (the software or the machine sage
 
   * [[http://pozorvlak.livejournal.com/103579.html|A blog post about sage with many amusing comments at the bottom]]
 
-  * [[http://www.macresearch.org/plug-and-play-scientific-python-sage|Plug-and-Play Scientific Python with Sage]]
+  * [[http://www.synbio.org.uk/scientific-computing-news/1136.html|Plug-and-Play Scientific Python with Sage]]
 
   * [[http://www.funjackals.com/blog/?p=274|Sage Makes Me Happier Than Seems Reasonable]]
 
