@@ -6,7 +6,7 @@
 
 === Saturday, May 16: Introduction to Sage ===
 
-All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen Center, top floor.
+All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G. Allen Center, top floor.
 
 '''Morning''': Introductory Sage Talks
 
@@ -31,7 +31,7 @@ All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen C
 
 === Sunday, May 17: Research/Development ===
 
-All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen Center, top floor.
+All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G. Allen Center, top floor.
 
 '''Morning'''
 
