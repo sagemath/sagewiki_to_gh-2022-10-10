@@ -2,14 +2,102 @@
 
 == DATES: May 16 - 21, 2009 ==
 
-== Location ==
- * Saturday May 16: Gates Common in the CS building (Paul G. Allen Center) at University of Washington
- * Sunday May 17: Gates Common in the CS building (Paul G. Allen Center) at University of Washington
- * Monday May 18: 5-7pm in MEB 238
- * Tuesday May 19 (morning): at Microsoft Research
- * Tuesday May 19: 5-7pm in MEB 238
- * Wednesday May 20: 5-7pm in [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
- * Thursday May 21: 5-7pm in [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
+== Schedule ==
+
+=== Saturday, May 16: Introduction to Sage ===
+
+All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen Center, top floor.
+
+'''Morning''': Introductory Sage Talks
+
+ These talks are aimed at Sage newbies, anywhere from advanced
+ undergrads to people teaching courses on these topics who are
+ interested in seeing Sage in action.
+
+ * 9:30AM - 10:20AM: Linear Algebra using Sage, Rob Beezer
+ * 10:30AM - 11:20AM: Calculus using Sage, William Stein
+ * 11:30AM - 12:20PM: Number Theory using Sage, William Stein and Craig Citro
+
+'''Afternoon''': Advanced Topics
+
+ * 2:30PM - 3:00PM: From LaTeX to Sage and back again, Rob Beezer
+ * 3:15PM - 4:45PM: Cython, Robert Bradshaw & Craig Citro
+ * 5:00PM - 5:50PM: Advanced Mercurial Usage, Mike Hansen
+
+'''Evening''': Coding!
+
+ * 5:30PM - 6:30PM: Coding Sprint organization
+ * 6:30PM - ???: Coding Sprints!!!
+
+=== Sunday, May 17: Research/Development ===
+
+All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen Center, top floor.
+
+'''Morning'''
+
+ * 10:00AM - 10:50AM: Sage Status Report, William Stein
+ * 11:00AM - 11:50PM: Algebraic Topology and Sage, John Palmieri
+
+'''Afternoon'''
+
+ * 2:00PM - 2:50PM: ReST/Sphinx, Mike Hansen and John Palmieri
+ * 3:00PM - 4:50PM: MPIR/FLINT, Bill Hart and Tom Boothby
+
+ * 5:00PM - 6:00PM: Coding Spring Organization
+ * 6:00PM - ???: Coding!!!
+
+=== Monday, May 18 ===
+
+ * (1:30PM - 2:20PM: William's Modular Abelian Varieties class, MEB 243)
+ * (2:30PM - 3:20PM: William's undergrad Sage class, CMU B027)
+
+'''Evening''': MEB 238
+
+ * 5:00PM - 6:00PM: Fredrik Johanssen: MPMath
+ * 6:00PM - 6:30PM: Coding Spring Organization
+
+=== Tuesday, May 19 ===
+
+'''Morning''': Microsoft Research!
+
+ * 9:30AM - 2:30PM: Microsoft Research
+ * 9:30AM - 9:55AM: Introduction to Sage, Craig Citro
+ * 10:00AM - 10:25AM: Introduction to Cython, Robert Bradshaw
+ * 10:30AM - 11:00AM: IronPython: Python and .NET, Jim Hugunin
+ * 11:15AM - 12:00PM: sage-windows, William Stein and Dan Shumow
+ * 12:00PM - 2:30PM: Lunch and Discussion at MSR
+
+ * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov, Sieg 134]]
+
+'''Evening''': MEB 238
+
+ * 5:15PM - 6:05PM: Yacop/Algebraic Topology in Sage, Christian Nassau
+ * 6:15PM - 6:45PM: Coding Spring Organization
+
+=== Wednesday, May 20 ===
+
+ * (1:30PM - 2:20PM: William's Modular Abelian Varieties class)
+ * (2:30PM - 3:20PM: William's undergrad Sage class)
+
+ * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov, Sieg 134]]
+
+'''Evening''': [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
+
+ * 5:15PM - 6:05PM: Nicolas Thiery, topic TBA
+ * 6:15PM - 6:45PM: Coding Spring Organization
+
+=== Thursday, May 21 ===
+
+'''Morning''': Final Status Reports
+
+ * 10:00AM - 12:00PM: Final Status Reports
+
+ * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov, Sieg 134]]
+
+'''Evening''': [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
+
+ * 5:00PM - 7:00PM: Last Wrap-up (for those still here)
+
 
 == Project Ideas ==
  * [[/projects|Projects]]
