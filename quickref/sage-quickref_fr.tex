@@ -1,0 +1,248 @@
+\documentclass[landscape]{article}
+\usepackage[a4paper,landscape, dvips]{geometry}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\advance\topmargin-.8in
+\advance\textheight2in
+\advance\textwidth3in
+\advance\oddsidemargin-1.5in
+\advance\evensidemargin-1.5in
+\parindent0pt
+\parskip2pt
+\newcommand{\hr}{\centerline{\rule{3.5in}{1pt}}}
+\begin{document}
+\begin{multicols*}{3}
+\begin{center}
+\textbf{Sage Quick Reference (Basic Math)}\\
+Peter Jipsen, version 1.1\\
+latest version at \url{wiki.sagemath.org/quickref}\\
+GNU Free Document License, extend for your own use\\
+But : relier les notations standard aux commandes Sage
+\end{center}
+
+\textbf{Interface web (et interface texte)}
+
+Pour évaluer une cellule : $\langle$shift-enter$\rangle$
+
+\emph{com}$\langle$tab$\rangle$ essaye de compléter la \emph{commande}
+
+\emph{commande}\verb|?|$\langle$tab$\rangle$ montre la documentation
+
+\emph{commande}\verb|??|$\langle$tab$\rangle$ montre la source
+
+\verb|a.|$\langle$tab$\rangle$ montre toutes les méthodes pour l'objet \verb|a| \quad
+
+\verb|search_doc('|\emph{chaîne ou regexp}\verb|')| \quad cherche dans la doc.
+
+\verb|search_src('|\emph{chaîne ou regexp}\verb|')| \quad cherche dans les sources
+
+\verb|lprint()| \quad bascule le mode sortie LaTeX
+
+\verb|version()| \quad donne la version de Sage
+
+Insérer une cellule : cliquer sur la ligne bleue
+
+Supprimer une cellule : supprimer le contenu puis backspace
+
+%*********************************************
+\hr\textbf{Types numériques}
+
+Entiers : $\mathbb Z=$ \verb|ZZ | par ex. \verb|-2  -1  0  1  10^100|
+
+Rationnels : $\mathbb Q=$ \verb|QQ | par ex. \verb|1/2  1/1000  314/100  -42|
+
+Décimaux : $\mathbb R\approx$ \verb|RR | par ex. \verb|.5  0.001  3.14  -42.|
+
+Complexes : $\mathbb C\approx$ \verb|CC | par ex. \verb|1+i  2.5-3*i|
+
+%*********************************************
+\hr\textbf{Constantes et fonctions de base}
+
+Constantes : $\pi=$ \verb|pi| \quad $e=$ \verb|e| \quad $i=$ \verb|i| 
+\quad $\infty=$ \verb|oo|
+
+Approximation : \verb|pi.n(digits=18)| $=3.14159265358979324$
+
+%Binary operations: \verb|+  -  *  /  ^|
+
+Fonctions : \verb|sin cos tan sec csc cot sinh cosh tanh| \verb|sech csch coth log ln exp|
+
+$ab=$ \verb|a*b| \quad $\frac a b=$ \verb|a/b| 
+\quad 
+$a^b=$ \verb|a^b| \quad $\sqrt{x}=$ \verb|sqrt(x)|
+
+$\sqrt[n]{x}=$ \verb|x^(1/n)|
+\quad 
+$|x|=$ \verb|abs(x)|
+\quad 
+$\log_b(x)=$ \verb|log(x,b)|
+
+Variables symboliques : \verb|t,u,v,y,z = var('t u v y z')|
+
+Définir une fonction : par ex. $f(x)=x^2$ \qquad \verb| f(x)=x^2|
+
+ou \verb| f=lambda x: x^2 | ou \verb| def f(x): return x^2|
+
+%*********************************************
+\hr\textbf{Opérations sur les expressions}
+
+\verb|factor(...)|\qquad \verb|expand(...)|\qquad \verb|(...).simplify_...|
+
+Équations symboliques : \verb|f(x)==g(x)|
+
+\verb|_| est le résultat précédent
+
+%\verb|_+a| \quad \verb|_-a| \quad \verb|_*a| \quad \verb|_/a | pour manipuler les équations
+
+Résoudre $f(x)=g(x)$ : \verb| solve(f(x)==g(x),x)|
+
+\verb|solve([f(x,y)==0, g(x,y)==0], x,y)|
+
+\verb|find_root(f(x), a, b)|\quad trouve $x\in [a,b]$ t.q. $f(x)\approx 0$
+
+$\displaystyle\sum_{i=k}^n f(i)=$ \verb|sum([f(i) for i in [k..n]])|
+
+$\displaystyle\prod_{i=k}^n f(i)=$ \verb|prod([f(i) for i in [k..n]])|
+
+%*********************************************
+\hr\textbf{Calcul différentiel et intégral}
+
+$\displaystyle\lim_{x\to a} f(x)=$ \verb|limit(f(x), x=a)|
+
+$\displaystyle\lim_{x\to a^-} f(x)=$ \verb|limit(f(x), x=a, dir='minus')|
+
+$\displaystyle\lim_{x\to a^+} f(x)=$ \verb|limit(f(x), x=a, dir='plus')|
+
+$\frac{d}{dx}(f(x))=$ \verb|diff(f(x),x)|
+
+$\frac{\partial}{\partial x}(f(x,y))=$ \verb|diff(f(x,y),x)|
+
+Dériver : \verb|diff| $=$ \verb|differentiate| $=$ \verb|derivative|
+
+$\int f(x)dx=$ \verb|integral(f(x),x)|
+
+Intégrer : \verb|integral| = \verb|integrate|
+
+$\int_a^b f(x)dx=$ \verb|integral(f(x),x,a,b)|
+
+Dev. de Taylor, ordre $n$ en $a$: \texttt{taylor(f(x),x,$a$,$n$)} 
+
+%*********************************************
+\hr\textbf{Graphiques dans le plan}
+
+\texttt{line([($x_1$,$y_1$),$\ldots$,($x_n$,$y_n$)],$\it options$)}
+
+\texttt{polygon([($x_1$,$y_1$),$\ldots$,($x_n$,$y_n$)],$\it options$)}
+
+\texttt{circle(($x$,$y$),$r$,$\it options$)}
+
+\texttt{text("txt",($x$,$y$),$\it options$)}
+
+\emph{options} comme dans \verb|plot.options|, 
+par ex. \texttt{thickness=$\it pixel$},
+
+\texttt{rgbcolor=($r$,$g$,$b$)},
+\quad \texttt{hue=$h$} \quad avec $0\le r,b,g,h\le 1$
+
+utiliser l'option \verb|figsize=[w,h]| pour ajuster le rapport largeur/hauteur
+
+\texttt{plot(f($x$),$x_{\rm min}$,$x_{\rm max}$,$\it options$)}
+
+\texttt{parametric\_plot((f($t$),g($t$)),$t_{\rm min}$,$t_{\rm max}$,$\it options$)}
+
+\texttt{polar\_plot(f($t$),$t_{\rm min}$,$t_{\rm max}$,$\it options$)}
+
+pour combiner : \verb|circle((1,1),1)+line([(0,0),(2,2)])|
+
+\texttt{animate(}\emph{liste d'objets graphiques, options}\texttt{).show(delay=20)}
+
+%*********************************************
+\hr\textbf{Graphiques dans l'espace}
+
+\texttt{line3d([($x_1$,$y_1$,$z_1$),$\ldots$,($x_n$,$y_n$,$z_n$)],$\it options$)}
+
+\texttt{sphere(($x$,$y$,$z$),$r$,$\it options$)}
+
+\texttt{tetrahedron(($x$,$y$,$z$),$size$,$\it options$)}
+
+\texttt{cube(($x$,$y$,$z$),$size$,$\it options$)}
+
+\mbox{\emph{options} par ex. \texttt{aspect\_ratio=$[1,1,1]$ color='red' opacity}}
+
+\texttt{plot3d(f($x,y$),[$x_{\rm b}$,$x_{\rm e}$],[$y_{\rm b}$,$y_{\rm e}$],$\it options$)}
+
+ajouter l'option \verb|plot_points=[|$m,n$\verb|]| ou utiliser \texttt{plot3d\_adaptive}
+
+\texttt{parametric\_plot3d((f($t$),g($t$),h($t$)),[$t_{\rm b}$,$t_{\rm e}$],$\it options$)}
+
+\texttt{parametric\_plot3d((f($u,v$),g($u,v$),h($u,v$)),}
+
+\qquad \qquad \qquad \qquad \qquad \qquad 
+\texttt{[$u_{\rm b}$,$u_{\rm e}$],[$v_{\rm b}$,$v_{\rm e}$],$\it options$)}
+
+utiliser + pour combiner des objets graphiques
+
+%*********************************************
+\hr\textbf{Math. discrètes}
+
+Partie entière $\lfloor x\rfloor=$ \verb|floor(x)| 
+\quad 
+$\lceil x\rceil=$ \verb|ceil(x)|
+
+Reste de la division de $n$ par $k=$ \verb|n%k| \quad\, $k|n$ ssi \verb| n%k==0|
+
+$n!=$ \verb|factorial(n)| \qquad
+${x\choose m}=$ \verb|binomial(x,m)|
+
+$\phi=$ \verb|golden_ratio| \qquad $\phi(n)=$ \texttt{euler\_phi($n$)}
+
+Chaînes : \ \verb|s = 'Salut'| = \verb|"Salut"| = \verb|""+"Sa"+'lut'|
+
+\texttt{s[0]='S' \quad s[-1]='t' \quad s[1:3]='al' \quad s[3:]='ut'}
+
+Listes : par ex. \ \verb|[1,'Salut',x]| = \verb|[]+[1,'Salut']+[x]|
+
+Tuples : par ex. \ \verb|(1,'Salut',x)| \quad (non mutable)
+
+Ensembles : \ $\{1,2,1,a\}=$ \verb|Set([1,2,1,'a'])| \ ($=\{1,2,a\}$)
+
+Création de liste $\approx$ notation ensembliste, par ex.
+
+$\{f(x):x\in X, x>0\}=$ \verb|Set([f(x) for x in X if x>0])|
+
+%*********************************************
+\hr\textbf{Algèbre linéaire}
+
+$\begin{pmatrix}1\\2\end{pmatrix}=$ \verb|vector([1,2])| , $\begin{pmatrix}1&2\\3&4\end{pmatrix}=$ \verb|matrix([[1,2],[3,4]])|
+
+$\left|\begin{matrix}1&2\\3&4\end{matrix}\right|=$
+\verb|det(matrix([[1,2],[3,4]]))|
+
+$Av=$ \verb|A*v| \quad $A^{-1}=$ \verb|A^-1| \quad $A^t=$ \verb|A.transpose()|
+
+méthodes: \verb|nrows() ncols() nullity() rank() trace()|...
+nbr de colonnes, nbr de lignes, dim. noyau, rang, trace
+
+%*********************************************
+\hr\textbf{Modules et paquetages}
+
+\verb|from| \emph{nom\_module} \verb|import *| \qquad (beaucoup sont préchargés)
+
+\texttt{calculus coding combinat crypto functions games geometry graphs groups logic matrix numerical plot probability rings sets stats}
+
+\verb|sage.|\emph{nom\_module}\verb|.all.|$\langle$tab$\rangle$ montre les commandes
+
+\mbox{Paquetages standards : Maxima GP/PARI GAP Singular R ...}
+
+Paquetages opt. : Biopython Fricas(Axiom) Gnuplot ...
+
+\%\emph{nom\_paquetage} pour charger
+
+\verb|time| \emph{commande} \quad pour montrer la durée du calcul
+
+\end{multicols*}
+
+\end{document}
