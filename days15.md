@@ -43,7 +43,7 @@ All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen C
  * 2:00PM - 2:50PM: ReST/Sphinx, Mike Hansen and John Palmieri
  * 3:00PM - 4:50PM: MPIR/FLINT, Bill Hart and Tom Boothby
 
- * 5:00PM - 6:00PM: Coding Spring Organization
+ * 5:00PM - 6:00PM: Coding Sprint Organization
  * 6:00PM - ???: Coding!!!
 
 === Monday, May 18 ===
@@ -54,7 +54,7 @@ All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen C
 '''Evening''': MEB 238
 
  * 5:00PM - 6:00PM: Fredrik Johanssen: MPMath
- * 6:00PM - 6:30PM: Coding Spring Organization
+ * 6:00PM - 6:30PM: Coding Sprint Organization
 
 === Tuesday, May 19 ===
 
@@ -72,7 +72,7 @@ All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen C
 '''Evening''': MEB 238
 
  * 5:15PM - 6:05PM: Yacop/Algebraic Topology in Sage, Christian Nassau
- * 6:15PM - 6:45PM: Coding Spring Organization
+ * 6:15PM - 6:45PM: Coding Sprint Organization
 
 === Wednesday, May 20 ===
 
@@ -84,7 +84,7 @@ All talks on Saturday and Sunday are in the Gates Common, in the Paul G. Allen C
 '''Evening''': [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
 
  * 5:15PM - 6:05PM: Nicolas Thiery, topic TBA
- * 6:15PM - 6:45PM: Coding Spring Organization
+ * 6:15PM - 6:45PM: Coding Sprint Organization
 
 === Thursday, May 21 ===
 
