@@ -6,7 +6,7 @@
 
 === Saturday, May 16: Introduction to Sage ===
 
-All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G. Allen Center, top floor.
+All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http://www.washington.edu/home/maps/southcentral.html?CSE|Paul G. Allen Center]], top floor.
 
 '''Morning''': Introductory Sage Talks
 
@@ -31,7 +31,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G
 
 === Sunday, May 17: Research/Development ===
 
-All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G. Allen Center, top floor.
+All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http://www.washington.edu/home/maps/southcentral.html?CSE|Paul G. Allen Center]], top floor.
 
 '''Morning'''
 
@@ -48,12 +48,12 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G
 
 === Monday, May 18 ===
 
- * 11:00AM - 5:00PM: Coding Sprints in [[http://depts.washington.edu/sauf/scc/sccres/246.php|SCC 246]]
+ * 11:00AM - 5:00PM: Coding Sprints in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246 ([[http://depts.washington.edu/sauf/scc/sccres/246.php|room info]])
 
- * (1:30PM - 2:20PM: William's Modular Abelian Varieties class, MEB 243)
- * (2:30PM - 3:20PM: William's undergrad Sage class, CMU B027)
+ * (1:30PM - 2:20PM: William's Modular Abelian Varieties class, [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 243)
+ * (2:30PM - 3:20PM: William's undergrad Sage class, [[http://www.washington.edu/home/maps/northcentral.html?CMU|CMU]] B027)
 
-'''Evening''': MEB 238
+'''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 238
 
  * 5:00PM - 6:00PM: Fredrik Johanssen: MPMath
  * 6:00PM - 6:30PM: Coding Sprint Organization
@@ -69,7 +69,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G
  * 11:15AM - 12:00PM: sage-windows, William Stein and Dan Shumow
  * 12:00PM - 2:30PM: Lunch and Discussion at MSR
 
- * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov, Sieg 134]]
+ * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov]], [[http://www.washington.edu/home/maps/northcentral.html?SIG|Sieg]] 134
 
 '''Evening''': MEB 238
 
@@ -78,14 +78,14 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G
 
 === Wednesday, May 20 ===
 
- * 11:00AM - 5:00PM: Coding Sprints in [[http://depts.washington.edu/sauf/scc/sccres/246.php|SCC 246]]
+ * 11:00AM - 5:00PM: Coding Sprints in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246
 
  * (1:30PM - 2:20PM: William's Modular Abelian Varieties class)
  * (2:30PM - 3:20PM: William's undergrad Sage class)
 
- * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov, Sieg 134]]
+ * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov]], [[http://www.washington.edu/home/maps/northcentral.html?SIG|Sieg]] 134
 
-'''Evening''': [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
+'''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?PAA|PAA]] A110
 
  * 5:15PM - 6:05PM: Sage-Combinat and Categories for the Working Mathematical Programmer, Nicolas Thiery
  * 6:15PM - 6:45PM: Coding Sprint Organization
@@ -94,12 +94,12 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the Paul G
 
 '''Morning''': Final Status Reports
 
- * 11:00AM - 1:00PM: Final Status Reports in [[http://depts.washington.edu/sauf/scc/sccres/246.php|SCC 246]]
- * 1:00PM - 5:00PM: Coding Sprints in [[http://depts.washington.edu/sauf/scc/sccres/246.php|SCC 246]]
+ * 11:00AM - 1:00PM: Final Status Reports in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246
+ * 1:00PM - 5:00PM: Coding Sprints in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246
 
- * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov, Sieg 134]]
+ * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov]], [[http://www.washington.edu/home/maps/northcentral.html?SIG|Sieg]] 134
 
-'''Evening''': [[http://www.css.washington.edu/room/PAA+A110|PAA A110]]
+'''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?PAA|PAA]] A110
 
  * 5:00PM - 7:00PM: Last Wrap-up (for those still here)
 
