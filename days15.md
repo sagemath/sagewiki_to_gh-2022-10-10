@@ -95,8 +95,8 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 '''Morning''': Final Status Reports
 
- * 11:00AM - 1:00PM: Final Status Reports in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246
- * 1:00PM - 5:00PM: Coding Sprints in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246
+ * 11:00AM - 1:00PM: Final Status Reports in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 248
+ * 1:00PM - 5:00PM: Coding Sprints in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 248
 
  * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov]], [[http://www.washington.edu/home/maps/northcentral.html?SIG|Sieg]] 134
 
