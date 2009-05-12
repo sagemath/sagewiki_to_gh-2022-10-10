@@ -12,3 +12,7 @@ PEOPLE: Fredrik Johansson
 == Steenrod Algebra cohomology (Yacop integration) ==
 
   * A first version is already available. Here's a page with installation instructions: [[Yacop]] 
+
+== Sage/Magma Comparison Audit ==
+
+  * See [[sagebeatsmagma]] and [[magma]]
