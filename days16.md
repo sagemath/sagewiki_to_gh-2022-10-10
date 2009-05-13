@@ -28,9 +28,9 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
   1. Jordi Guàrdia, UPC
   1. Xavier Guitart, UPC
   1. Amir Hashemi, Isfahan University of Technology (Iran)
+  1. Hamish Ivey-Law, Sydney-Marseille
   1. David Kohel, Institut de Mathématiques de Luminy
   1. Joan Carles Lario, UPC
-  1. Hamish Law, Sydney-Marseille
   1. David Loeffler, University of Cambridge
   1. Robert Miller, University of Washington
   1. Antonio Molina, Addlink Software Científico
