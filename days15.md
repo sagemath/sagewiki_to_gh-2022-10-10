@@ -51,8 +51,8 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
  * 11:00AM - 5:00PM: Coding Sprints in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246 ([[http://depts.washington.edu/sauf/scc/sccres/246.php|room info]])
 
- * (1:30PM - 2:20PM: William's Modular Abelian Varieties class, [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 243)
- * (2:30PM - 3:20PM: William's undergrad Sage class, [[http://www.washington.edu/home/maps/northcentral.html?CMU|CMU]] B027)
+ * (1:30PM - 2:20PM: William's Modular Abelian Varieties class, [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 243) -- Lecture on Computing with modular forms in Sage
+ * (2:30PM - 3:20PM: William's undergrad Sage class, [[http://www.washington.edu/home/maps/northcentral.html?CMU|CMU]] B027) -- LAB/Tutorial: Writing larger Sage/Python programs 
 
 '''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 238
 
@@ -81,8 +81,8 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
  * 11:00AM - 5:00PM: Coding Sprints in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246
 
- * (1:30PM - 2:20PM: William's Modular Abelian Varieties class)
- * (2:30PM - 3:20PM: William's undergrad Sage class)
+ * (1:30PM - 2:20PM: William's Modular Abelian Varieties class) -- Explicit modular abelian varieties
+ * (2:30PM - 3:20PM: William's undergrad Sage class) -- LECTURE: How I built the Sage project from the ground up 
 
  * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov]], [[http://www.washington.edu/home/maps/northcentral.html?SIG|Sieg]] 134
 
