@@ -10,6 +10,8 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 == Algebraic Geometry ==
 
+ * FIXME: summarize #6010
+
 
 == Basic Arithmetic ==
 
@@ -25,8 +27,16 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 == Combinatorics ==
 
+ * FIXME: summarize #5502
+
+ * FIXME: summarize #5586
+
 
 == Commutative Algebra ==
+
+ * FIXME: summarize #5576
+
+ * FIXME: summarize #5609
 
 
 == Distribution ==
@@ -42,6 +52,8 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 
 == Graph Theory ==
+
+ * FIXME: summarize #5913
 
 
 == Graphics ==
@@ -60,6 +72,12 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 == Linear Algebra ==
 
+ * FIXME: summarize #5974 
+
+ * FIXME: summarize #5557
+
+ * FIXME: summarize #5381
+
 
 == Miscellaneous ==
 
@@ -74,6 +92,12 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
  * FIXME: summarize #5792
 
+ * FIXME: summarize #5796
+
+ * FIXME: summarize #6019
+
+ * FIXME: summarize #5924
+
 
 == Notebook ==
 
@@ -82,11 +106,23 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
  * FIXME: summarize #5250
 
+ * FIXME: summarize #6013
+
+ * FIXME: summarize #6008
+
+ * FIXME: summarize #6004
+
 
 == Numerical ==
 
 
 == Packages ==
+
+ * FIXME: summarize #4223
+
+ * FIXME: summarize #6031
+
+ * FIXME: summarize #5934
 
 
 == P-adics ==
@@ -101,6 +137,8 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 
 == Topology ==
+
+ * FIXME: summarize #5889
 
 
 == User Interface ==
