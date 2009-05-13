@@ -187,16 +187,13 @@ Room 1:
 Room 2:
  * Carl Witty 
  * David Roe
- * David Perkinson
 
 Room 3:
  * D. Benjamin Antieau
- * Fredrik Johansson
  * Jerome LeFebvre
 
 Room 4:
  * Bob Bruner
- * Mike Hill
 
 Room 5:
  * Shaun V. Ault
