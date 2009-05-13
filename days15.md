@@ -17,7 +17,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
  * 9:30AM - 10:20AM: Linear Algebra using Sage, Rob Beezer
  * 10:30AM - 11:00AM: Calculus using Sage, William Stein
  * 11:05AM - 11:20AM: 3D Plotting, William Cauchois
- * 11:30AM - 12:20PM: Number Theory using Sage, William Stein and Craig Citro
+ * 11:30AM - 12:20PM: Number Theory using Sage, Craig Citro
 
 '''Afternoon''': Advanced Topics
 
