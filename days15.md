@@ -185,16 +185,22 @@ Room 1:
  * Karen T. Kohl
 
 Room 2:
- * Carl Witty
+ * Carl Witty 
+ * David Roe
+ * David Perkinson
 
 Room 3:
  * D. Benjamin Antieau
+ * Fredrik Johansson
+ * Jerome LeFebvre
 
 Room 4:
  * Bob Bruner
+ * Mike Hill
 
 Room 5:
  * Shaun V. Ault
+ * Nicolas Thiery
 }}}
 
  * This place has rooms: http://www.collegeinnseattle.com/ 
