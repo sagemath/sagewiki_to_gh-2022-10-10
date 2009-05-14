@@ -25,10 +25,11 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
  * 3:15PM - 4:45PM: Cython, Robert Bradshaw & Craig Citro
  * 5:00PM - 5:50PM: Advanced Mercurial Usage, Mike Hansen
 
-'''Evening''': Coding!
+'''Evening''': Coding! Party!
 
  * 5:30PM - 6:30PM: Coding Sprint organization
- * 6:30PM - ???: Coding Sprints!!!
+ * 7:00PM - 9:30PM: Sage-4.0 PRERELEASE PARTY!!!! Math Lounge, Padelford Hall
+ * 9:30PM - ???: Coding Sprints!!!
 
 === Sunday, May 17: Research/Development ===
 
