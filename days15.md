@@ -185,7 +185,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 }}}
 If you would like to stay in one of the Collegiana rooms, email wstein@gmail.com to reserve a spot. (And, you don't have to pay anything out of pocket.)
 
-[[/directions:Directions]]
+[[/directions|Directions]]
 
 {{{
 Room 1:
