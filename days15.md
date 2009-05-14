@@ -6,7 +6,7 @@
 
 === Saturday, May 16: Introduction to Sage ===
 
-All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http://www.washington.edu/home/maps/southcentral.html?CSE|Paul G. Allen Center]], top floor.
+All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http://www.washington.edu/home/maps/southcentral.html?CSE|Paul G. Allen Center]] (see also [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=paul+g+allen+center&mrt=websearch&sll=47.658552,-122.308538&sspn=0.01175,0.023324&ie=UTF8&ll=47.656254,-122.308838&spn=0.011751,0.023324&z=16|Google maps to Paul G. Allen Center]], top floor.
 
 '''Morning''': Introductory Sage Talks
 
