@@ -142,37 +142,37 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 == Confirmed Participants ==
 
- 1. Michael Abshoff
- * Martin Albrecht
- * D. Benjamin Antieau
- * Shaun Ault
- * Rob Beezer
- * Tom Boothby
- * Robert Bradshaw
+ 1. Michael Abshoff (Dortmund)
+ * Martin Albrecht (Royal Holloway)
+ * D. Benjamin Antieau (UIC)
+ * Shaun Ault (Fordham)
+ * Rob Beezer (University of Puget Sound)
+ * Tom Boothby (UW)
+ * Robert Bradshaw (UW)
  * Dan Brown  -- interested in Sage + Latex for teaching
  * Bob Bruner (Wayne State)
- * Craig Citro
- * Alia Hamieh
- * Marshall Hampton
- * Mike Hansen
- * Bill Hart
- * Mike Hill
- * Fredrik Johansson
- * David Joyner
- * Kiran S. Kedlaya
- * Matt Klassen
- * Karen T. Kohl
- * Jerome Lefebvre
- * Robert Miller
- * Christian Nassau
- * John Palmieri
- * David Perkinson
- * David Roe
- * Dan Shumow
- * William Stein
- * Nicolas M. Thiery
- * Stephanie Vance
- * Carl Witty
+ * Craig Citro (UW)
+ * Alia Hamieh (University of British Columbia)
+ * Marshall Hampton (University of Minnesota, Duluth)
+ * Mike Hansen (UW)
+ * Bill Hart (Warwick, UK)
+ * Mike Hill 
+ * Fredrik Johansson (Chalmers, in Gothenburg, SWEDEN)
+ * David Joyner (US Naval Academy)
+ * Kiran S. Kedlaya (MIT, but soon UC San Diego)
+ * Matt Klassen (Digipen)
+ * Karen T. Kohl (canceled)
+ * Jerome Lefebvre (University of British Columbia)
+ * Robert Miller (UW)
+ * Christian Nassau (Germany)
+ * John Palmieri (UW)
+ * David Perkinson (Reed College)
+ * David Roe (MIT)
+ * Dan Shumow (UW)
+ * William Stein (UW)
+ * Nicolas M. Thiery (France)
+ * Stephanie Vance (UW)
+ * Carl Witty (Newton Labs)
 
 == Local travel info ==
 
