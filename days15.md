@@ -191,7 +191,7 @@ Room 2:
  * David Roe
 
 Room 3:
- * D. Benjamin Antieau
+ * D. Benjamin Antieau -- get it to SEA/TAC at 9.38pm via United flight 0015.
  * Jerome LeFebvre
 
 Room 4:
