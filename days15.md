@@ -37,7 +37,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 '''Morning'''
 
- * 10:00AM - 10:50AM: Sage Status Report, William Stein
+ * 10:00AM - 10:50AM: Sage -- What's on the Horizon for Sage development, William Stein
  * 11:00AM - 11:50PM: Algebraic Topology and Sage, John Palmieri
 
 '''Afternoon'''
@@ -200,7 +200,7 @@ Room 4:
 
 Room 5:
  * Shaun V. Ault
- * Nicolas Thiery
+ * Nicolas Thiery -- Sunday in the afternoon (3-4pm), and join you at Paul Allen Center.
 }}}
 
  * This place has rooms: http://www.collegeinnseattle.com/ 
