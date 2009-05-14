@@ -170,6 +170,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
  * Dan Shumow
  * William Stein
  * Nicolas M. Thiery
+ * Stephanie Vance
  * Carl Witty
 
 == Local travel info ==
