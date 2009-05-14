@@ -190,6 +190,7 @@ If you would like to stay in one of the Collegiana rooms, email wstein@gmail.com
 {{{
 Room 1:
  * Alia Hamieh
+ * Jerome LeFebvre
 
 Room 2:
  * Carl Witty  -- Friday afternoon
@@ -197,7 +198,7 @@ Room 2:
 
 Room 3:
  * D. Benjamin Antieau -- get it to SEA/TAC Friday at 9.38pm via United flight 0015.
- * Jerome LeFebvre
+
 
 Room 4:
  * Bob Bruner  -- NW Flight 211, arriving Seattle Tacoma (SEA) at 11:21 AM on Friday.
