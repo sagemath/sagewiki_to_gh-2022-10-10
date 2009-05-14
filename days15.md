@@ -195,7 +195,7 @@ Room 3:
  * Jerome LeFebvre
 
 Room 4:
- * Bob Bruner
+ * Bob Bruner  -- NW Flight 211, arriving Seattle Tacoma (SEA) at 11:21 AM.
  * Christian Nassau
 
 Room 5:
