@@ -149,6 +149,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
  * Rob Beezer
  * Tom Boothby
  * Robert Bradshaw
+ * Dan Brown  -- interested in Sage + Latex for teaching
  * Bob Bruner (Wayne State)
  * Craig Citro
  * Alia Hamieh
