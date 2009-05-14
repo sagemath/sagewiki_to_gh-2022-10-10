@@ -185,7 +185,6 @@ If you would like to stay in one of the Collegiana rooms, email wstein@gmail.com
 {{{
 Room 1:
  * Alia Hamieh
- * Karen T. Kohl
 
 Room 2:
  * Carl Witty 
@@ -197,6 +196,7 @@ Room 3:
 
 Room 4:
  * Bob Bruner
+ * Christian Nassau
 
 Room 5:
  * Shaun V. Ault
