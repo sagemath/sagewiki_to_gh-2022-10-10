@@ -193,7 +193,7 @@ Room 1:
 
 Room 2:
  * Carl Witty  -- Friday afternoon
- * David Roe
+ * David Roe -- 11:55pm Friday via JetBlue 497, but I'm spending Saturday with family and will start being around late Saturday evening.
 
 Room 3:
  * D. Benjamin Antieau -- get it to SEA/TAC Friday at 9.38pm via United flight 0015.
