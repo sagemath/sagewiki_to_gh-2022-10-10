@@ -192,15 +192,15 @@ Room 1:
  * Alia Hamieh
 
 Room 2:
- * Carl Witty 
+ * Carl Witty  -- Friday afternoon
  * David Roe
 
 Room 3:
- * D. Benjamin Antieau -- get it to SEA/TAC at 9.38pm via United flight 0015.
+ * D. Benjamin Antieau -- get it to SEA/TAC Friday at 9.38pm via United flight 0015.
  * Jerome LeFebvre
 
 Room 4:
- * Bob Bruner  -- NW Flight 211, arriving Seattle Tacoma (SEA) at 11:21 AM.
+ * Bob Bruner  -- NW Flight 211, arriving Seattle Tacoma (SEA) at 11:21 AM on Friday.
  * Christian Nassau
 
 Room 5:
