@@ -184,6 +184,9 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
     (206) 732-3200
 }}}
 If you would like to stay in one of the Collegiana rooms, email wstein@gmail.com to reserve a spot. (And, you don't have to pay anything out of pocket.)
+
+[[:/directions:]]
+
 {{{
 Room 1:
  * Alia Hamieh
