@@ -1,6 +1,8 @@
 = How to get to UW/Collegiana from the SEATAC Airport =
 
-Google map link to the Collegiana: http://maps.google.com/maps?oe=utf-8&client=firefox-a&ie=UTF8&hl=en&q=http:%2F%2Fwikimapia.org%2Fsys%2Fexp_kml%2F%3Fid%3D9908384%26l%3D0%26v%3D141558543&ftid=BAC34B8B4CDCBED7&ll=47.660256,-122.315782&spn=0.01175,0.023324&z=16
+Google map link to the Collegiana: [[http://maps.google.com/maps?oe=utf-8&client=firefox-a&ie=UTF8&hl=en&q=http:%2F%2Fwikimapia.org%2Fsys%2Fexp_kml%2F%3Fid%3D9908384%26l%3D0%26v%3D141558543&ftid=BAC34B8B4CDCBED7&ll=47.660256,-122.315782&spn=0.01175,0.023324&z=16|Google maps]]
+
+Google map link to the Stanford Apartments: [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=stanford+apartments+seattle&sll=47.658357,-122.314249&sspn=0.094001,0.186596&ie=UTF8&ll=47.658566,-122.314246&spn=0.01136,0.023324&z=16&iwloc=A|Google maps]]
 
 William Stein's Cell Phone Number: 206-419-0925
 
@@ -8,7 +10,7 @@ William Stein's Cell Phone Number: 206-419-0925
 
 Rent a car (100's) or take a taxi (about 45 each way.
 
-== Medium fancy way == 
+== Medium fancy way ==
 
 Take a shuttle (about 35).  
 
