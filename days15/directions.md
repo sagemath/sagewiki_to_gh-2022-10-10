@@ -6,19 +6,19 @@ William Stein's Cell Phone Number: 206-419-0925
 
 == Fancy way ==
 
-Rent a car ($100's) or take a taxi (about $45 each way.
+Rent a car (100's) or take a taxi (about 45 each way.
 
 == Medium fancy way == 
 
-Take a shuttle (about $35).  
+Take a shuttle (about 35).  
 
-The Shuttle express is $37 one way, $64 round trip. Go to their booth on the 3rd floor of the parking garage  (for
+The Shuttle express is 37 one way, 64 round trip. Go to their booth on the 3rd floor of the parking garage  (for
 people coming in on NW anyway) and take the next one available, but you should make a reservation.
 
 
 == Thrifty way ==
 
-You can take the Metro transit bus from Seatac to the Collegiana Inn or the University of Washington. The bus runs every 15-20 minutes during the day, the trip requires approximately 1 hour (including transfer), for a cost of $1.75 (non-peak) or $2.50 (peak fare).
+You can take the Metro transit bus from Seatac to the Collegiana Inn or the University of Washington. The bus runs every 15-20 minutes during the day, the trip requires approximately 1 hour (including transfer), for a cost of 1.75 (non-peak) or 2.50 (peak fare).
 
 General directions are:
 
@@ -30,7 +30,7 @@ Detailed directions are:
 
 At Seatac, go outside from baggage to the sidewalk. Turn right, and walk in the direction of traffic to the end of the building. You will see signs for Metro bus service. At bay 2, take the 194 bus to Downtown Seattle. Do not take the 194 to Federal Way (the wrong direction, in bay 1), and do not take the 174 (very slow).
 
-You will pay $1.75 (non-peak) or $2.50 (peak). Exact change is required, but of course the driver will accept $2 instead of $1.75. You will be paying for a two-zone fare, and you should receive a transfer (a slip of paper that lets you ride any bus for the next few hours free).
+You will pay 1.75 (non-peak) or 2.50 (peak). Exact change is required, but of course the driver will accept 2 instead of 1.75. You will be paying for a two-zone fare, and you should receive a transfer (a slip of paper that lets you ride any bus for the next few hours free).
 
 The 194 bus will go first on the freeway towards Seattle, then use a bus-only road, and finally a tunnel in Downtown Seattle. Get off at the University Street station (where the University of Washington was founded, but moved over 100 years ago). All buses through the tunnel use the same route, so you can change buses at any station in the tunnel.
 
