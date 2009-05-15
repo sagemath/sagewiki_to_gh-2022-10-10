@@ -54,7 +54,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
  * 12:00PM - 5:00PM: Coding Sprints in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246 ([[http://depts.washington.edu/sauf/scc/sccres/246.php|room info]])
 
  * (1:30PM - 2:20PM: William's Modular Abelian Varieties class, [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 243) -- Lecture on Computing with modular forms in Sage
- * (2:30PM - 3:20PM: William's undergrad Sage class, [[http://www.washington.edu/home/maps/northcentral.html?CMU|CMU]] B027) -- LAB/Tutorial: Writing larger Sage/Python programs 
+ * (2:30PM - 3:20PM: William's undergrad Sage class, [[http://www.washington.edu/home/maps/northcentral.html?CMU|CMU]] B027) -- LAB/Tutorial: Writing Sage programs and using the command line (see http://wiki.wstein.org/09/480b/schedule for a link to notes).
 
 '''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 238
 
