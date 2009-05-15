@@ -156,7 +156,6 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
  * Marshall Hampton (University of Minnesota, Duluth)
  * Mike Hansen (UW)
  * Bill Hart (Warwick, UK)
- * Mike Hill 
  * Fredrik Johansson (Chalmers, in Gothenburg, SWEDEN)
  * David Joyner (US Naval Academy)
  * Kiran S. Kedlaya (MIT, but soon UC San Diego)
