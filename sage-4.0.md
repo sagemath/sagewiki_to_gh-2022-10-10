@@ -7,6 +7,8 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 == Algebra ==
 
+ * FIXME: summarize #5997
+
 
 == Algebraic Geometry ==
 
@@ -38,6 +40,8 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
  * FIXME: summarize #5609
 
+ * FIXME: summarize #5566
+
 
 == Distribution ==
 
@@ -58,8 +62,14 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 == Graphics ==
 
+ * FIXME: summarize #5249
+
 
 == Group Theory ==
+
+ * FIXME: summarize #5664
+
+ * FIXME: summarize #5844
 
 
 == Interfaces ==
@@ -68,6 +78,9 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
  * Viewing Sage objects with a PDF viewer (INSERT CREDIT) -- Implements the option {{{viewer="pdf"}}} for the command {{{view()}}} so that one can invoke this command in the form {{{view(object, viewer="pdf")}}} in order to view {{{object}}} using a PDF viewer. Typical uses of this new optional argument include:
   * You prefer to use a PDF viewer rather than a DVI viewer.
   * You want to view LaTeX snippets which are not displayed well in DVI viewers (e.g. graphics produced using tikzpicture).
+
+
+ * FIXME: summarize #6039
 
 
 == Linear Algebra ==
@@ -80,6 +93,8 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 
 == Miscellaneous ==
+
+ * FIXME: summarize #6012
 
 
 == Modular Forms ==
