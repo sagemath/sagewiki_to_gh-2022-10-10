@@ -21,7 +21,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 '''Afternoon''': Advanced Topics
 
- * 2:30PM - 3:00PM: Authoring Interactive Sage Worksheets, Rob Beezer
+ * 2:30PM - 3:00PM: Authoring Interactive Sage Worksheets, Rob Beezer [[attachment:beezer-authoring-SD15.pdf]]
  * 3:15PM - 4:45PM: Cython, Robert Bradshaw & Craig Citro
  * 5:00PM - 5:50PM: Advanced Mercurial Usage, Mike Hansen
 
