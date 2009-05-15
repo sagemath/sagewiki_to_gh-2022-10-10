@@ -69,7 +69,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
  * 9:30AM - 9:55AM: Introduction to Sage, Craig Citro
  * 10:00AM - 10:25AM: Introduction to Cython, Robert Bradshaw
  * 10:30AM - 11:00AM: IronPython: Python and .NET, Jim Hugunin
- * 11:15AM - 12:00PM: sage-windows, William Stein and Dan Shumow
+ * 11:15AM - 12:00PM: sage-windows, William Stein and Dan Shumow      attachment:stein-sage-windows.sws
  * 12:00PM - 2:30PM: Lunch and Discussion at MSR
 
  * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov]], [[http://www.washington.edu/home/maps/northcentral.html?SIG|Sieg]] 134
