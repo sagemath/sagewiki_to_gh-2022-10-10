@@ -3,6 +3,9 @@
 
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is perceived in the outside world.
 
+  * [[http://salsa-dev.at.tut.by/pub/SAGEforScientificGrid_BG2AHMRiga2009.pdf|Talk from BalticGrid 2nd All Hands Meeting in Riga]] - ''"We MUST have a universal and comprehensive math software 
+package inside the borders of academics to unify research results and work on the same platform!  If this platform could be our UNICORE or gLite-based Grid then  SAGE will be the best option for everyone involved in science."''
+
   * [[http://everything2.com/title/mathematica%20and%20free%20software|e2: Mathematica and free software]] - ''"What we should be doing is using and generating code by mathematicians for mathematicians. What we should be using and generating is free software. We deserve it, and our art/science, mathematics, deserves it too. "'' - essay at everything2.com by Jordi G. H., 2007-07-30 (+updates)
 
   * [[https://www.educonnection.org/ecommunity/educonnection/article.page?item_id=40748024|Sage Project: Viable Open Source Alternative to Math Software]] - artcle at educonnection.org by Lisa !DiCarlo, 2009-03-19
