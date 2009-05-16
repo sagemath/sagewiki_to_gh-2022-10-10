@@ -2,6 +2,11 @@
 
 == DATES: May 16 - 21, 2009 ==
 
+
+== Project Ideas ==
+
+ * [[/projects|Projects]]
+
 == Schedule ==
 
 === Saturday, May 16: Introduction to Sage ===
@@ -108,14 +113,13 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
  * 5:00PM - 7:00PM: Last Wrap-up (for those still here)
 
 
-== Project Ideas ==
- * [[/projects|Projects]]
 
 == Mailing list ==
  * http://groups.google.com/group/sagedays15
 
 == Video ==
- * Might be broadcast using http://www.ustream.tv
+
+ * TBA
 
 == Topics ==
  * Computational Algebraic Topology
