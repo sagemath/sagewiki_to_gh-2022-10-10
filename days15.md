@@ -43,7 +43,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 '''Afternoon'''
 
  * 2:00PM - 2:50PM: ReST/Sphinx, Mike Hansen and John Palmieri
- * 3:00PM - 4:50PM: MPIR/FLINT, Bill Hart and Tom Boothby
+ * 3:00PM - 4:50PM: MPIR/FLINT, Bill Hart
 
  * 5:00PM - 6:00PM: Coding Sprint Organization
  * 6:00PM - ???: Coding!!!
