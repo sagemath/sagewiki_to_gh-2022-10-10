@@ -15,7 +15,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
  interested in seeing Sage in action.
 
  * 9:30AM - 10:20AM: Linear Algebra using Sage, Rob Beezer  [[attachment:beezer-linear.sws]] [[attachment:quickref-linalg.pdf|QuickRef]]
- * 10:30AM - 11:00AM: Calculus using Sage, William Stein     [[attachment:stein-calculus.sws]]  [[http://sagenb.org/home/pub/538/|Published Worksheet at sagenb.org]]
+ * 10:30AM - 11:00AM: Calculus using Sage, William Stein     [[attachment:stein-calculus.sws]]   [[attachment:stein-calculus-actual_lecture.sws]]    [[http://sagenb.org/home/pub/538/|Published Worksheet at sagenb.org]]
  * 11:05AM - 11:20AM: 3D Plotting using Sage, William Cauchois [[attachment:wcauchois-plotting.sws]]
  * 11:30AM - 12:20PM: Number Theory using Sage, Craig Citro [[attachment:citro-number-theory.sws]]
 
