@@ -2,6 +2,14 @@
 
 == DATES: May 16 - 21, 2009 ==
 
+== UW Campus Wireless ==
+
+{{{
+UW NetID:        event0928
+Password:       72UV-67CX-75GK
+}}}
+
+
 
 == Project Ideas ==
 
