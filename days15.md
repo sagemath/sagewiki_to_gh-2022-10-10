@@ -119,7 +119,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 == Video ==
 
- * TBA
+ * http://sage.math.washington.edu/home/wstein/sagedays15/
 
 == Topics ==
  * Computational Algebraic Topology
