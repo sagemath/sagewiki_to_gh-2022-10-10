@@ -41,3 +41,8 @@ Gonzalo Tornaria (theta functions expert)
  * Kernel
  * Launch threads - issues based on hierarchy of memory - CPU registers-> memory per processor block-> main graphics memory-> system memory
  * Can launch all the threads on all cpus in a couple of cycles
+
+ * How GPU would compare to carefuly programmed FPGA?
+ * E.g a Stratix IV can have around 1000 18x18 multipliers, but maybe that's not too much, and this is probably very expensive hardware
+ * http://www.altera.com/products/devices/stratix-fpgas/stratix-iv/stxiv-index.jsp
+ * Carl Witty does FPGA programming - says it is probably very expensive
