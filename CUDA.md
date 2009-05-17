@@ -47,6 +47,8 @@ Gonzalo Tornaria (theta functions expert)
  * http://www.altera.com/products/devices/stratix-fpgas/stratix-iv/stxiv-index.jsp
  * Carl Witty does FPGA programming - says it is probably very expensive
  * Accoding to the spec the stratix can have parallel high-bandwith communication
+ * Up to 48 8.5Gb/s tranceivers or 24 11.3 gbps tranceivers
+ * Deal with 533MHz DDR3 memory directly
 
 Jeff Gilchrist
  
