@@ -50,14 +50,13 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 '''Morning'''
 
- * 9:55AM - 10:00AM: Plan Tuesday's MSR visit
  * 10:00AM - 10:50AM: Sage -- What's on the Horizon for Sage development, William Stein  [[attachment:stein-horizon.sws]]
- * 11:00AM - 11:50PM: Algebraic Topology and Sage, John Palmieri
+ * 11:00AM - 12:00PM: Plan Tuesday's MSR visit, note schedule change for MPIR/FLINT talk
+ * 11:10AM - 12:00PM: Algebraic Topology and Sage, John Palmieri
 
 '''Afternoon'''
 
  * 2:00PM - 2:50PM: ReST/Sphinx, Mike Hansen and John Palmieri
- * 3:00PM - 4:50PM: MPIR/FLINT, Bill Hart
 
  * 5:00PM - 6:00PM: Coding Sprint Organization
  * 6:00PM - ???: Coding!!!
@@ -105,7 +104,9 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 '''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?PAA|PAA]] A110
  
  * 5:00PM - 5:30PM: Coding Sprint Organization
- * 5:30PM - 7:00PM: Coding Sprints!!!
+ * 5:30PM - 7:00PM: MPIR/FLINT, Bill Hart
+
+ * 7:00PM - ???: Coding Sprints!!!
 
 
 === Thursday, May 21 ===
