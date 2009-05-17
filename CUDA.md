@@ -40,3 +40,4 @@ Gonzalo Tornaria (theta functions expert)
 
  * Kernel
  * Launch threads - issues based on hierarchy of memory - CPU registers-> memory per processor block-> main graphics memory-> system memory
+ * Can launch all the threads on all cpus in a couple of cycles
