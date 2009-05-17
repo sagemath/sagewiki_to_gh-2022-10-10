@@ -31,3 +31,4 @@ CUDA issues:
 Other Options:
 
  * AMD Math library AML provides BLAS interface uses GPU - but that's for linear algebra
+ * PTX NVIDIA GPU assembler code for inner loops
