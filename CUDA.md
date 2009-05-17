@@ -26,4 +26,4 @@ CUDA documentation:
 
 CUDA issues:
 
- * Memory bandwidth limits algorithms - matrices n^2 entries to get in and out, matrix multiplication O(n^2.7), but for integers n limbs to get in and out O(n log n log log n) operations to multiply
+ * Memory bandwidth limits algorithms - matrices n**2 entries to get in and out, matrix multiplication O(n**2.7), but for integers n limbs to get in and out O(n log n log log n) operations to multiply
