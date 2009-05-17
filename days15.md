@@ -56,7 +56,8 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 '''Afternoon'''
 
- * 2:00PM - 2:50PM: ReST/Sphinx, Mike Hansen and John Palmieri
+ * 2:30PM - 3:20PM: ReST/Sphinx, Mike Hansen and John Palmieri
+ * 3:30PM - ???: CUDA/MPIR
 
  * 5:00PM - 6:00PM: Coding Sprint Organization
  * 6:00PM - ???: Coding!!!
