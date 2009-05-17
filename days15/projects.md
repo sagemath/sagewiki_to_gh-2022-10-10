@@ -1,6 +1,10 @@
 = Sage Days 15 Project Ideas =
 
-These are project ideas for [[days15|Sage Days 15]].
+These are project ideas for [[days15|Sage Days 15]]
+
+== Low Level Simplicial Sets ==
+
+PEOPLE: S. Ault, B. Antieau
 
 == Prime Pi ==
 
