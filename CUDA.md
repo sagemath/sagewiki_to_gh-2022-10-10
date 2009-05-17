@@ -62,3 +62,4 @@ Bill Hart
 Glenn Tarbox 
 
  * Flame - for overall integration of libraries
+ * What is the focus for mathematicians? E.g. mathematica is reputedly going to have parallel CUDA or something similar
