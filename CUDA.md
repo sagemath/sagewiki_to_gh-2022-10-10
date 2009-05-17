@@ -11,6 +11,7 @@ Parallel algorithms:
  * Scalar algorithms
  * Peter Montgomery's remainder algorithm a mod b, precompute b1 = B mod b, b2 = B^2 mod b, b3 = B^3 mod b, then write a = a0 + a1*B + a2*B^2 +..., then compute a0 + a1*b1 + a2*b2 +.... and do final reduction mod b. Multiplications can be done in parallel.
  * Addition and subtraction can be parallelised using nails - non-unique representation of numbers
+ * Classical algorithm is embarrassingly parallel
 
 Glenn Tarbox (Owner of cuda1, AMD K10 with NVIDA CUDA card - expert on large scale parallelisation)
 
@@ -36,5 +37,3 @@ Other Options:
 Gonzalo Tornaria (theta functions expert)
 
  * Is there a way to encode integer multiplication in linear algebra? (A. Perhaps vectors - multimodular, but not matrices)
-
-
