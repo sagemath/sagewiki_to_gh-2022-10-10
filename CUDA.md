@@ -53,8 +53,7 @@ Gonzalo Tornaria (theta functions expert)
 Jeff Gilchrist
  
  * What about ATI hardware - why not support OpenCL?
- * Carl Witty says - 
- * Nobody ships OpenCL yet but in a year or two it should be common
+ * Carl Witty says - Nobody ships OpenCL yet but in a year or two it should be common
  * Intel has Larrabee and will ship some intel library, NVIDIA has CUDA and PTX, ATI has AML (basically BLAS) + low level interface - OpenCL is slated to be common
  * OSX will ship with OpenCL
 
