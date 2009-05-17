@@ -22,4 +22,8 @@ Michael Abshoff (Sage release manager)
 
 CUDA documentation:
 
-  * [[http://www.nvidia.co.uk/object/cuda_develop_emeai.html|NVIDA website]]
+ * [[http://www.nvidia.co.uk/object/cuda_develop_emeai.html|NVIDA website]]
+
+CUDA issues:
+
+ * Memory bandwidth limits algorithms - matrices n^2 entries to get in and out, matrix multiplication O(n^2.7), but for integers n limbs to get in and out O(n log n log log n) operations to multiply
