@@ -228,7 +228,7 @@ http://magma.maths.usyd.edu.au/magma/htmlhelp/text1694.htm#17385
 http://magma.maths.usyd.edu.au/magma/htmlhelp/text1686.htm
 http://magma.maths.usyd.edu.au/magma/htmlhelp/text1722.htm
 
-=== Decoding algeorithms ===
+=== Decoding algorithms ===
 
 Magma has a wide range of specialized decoding algorithms which Sage does not have.
 
