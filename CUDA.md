@@ -37,3 +37,6 @@ Other Options:
 Gonzalo Tornaria (theta functions expert)
 
  * Is there a way to encode integer multiplication in linear algebra? (A. Perhaps vectors - multimodular, but not matrices)
+
+ * Kernel
+ * Launch threads - issues based on hierarchy of memory - CPU registers-> memory per processor block-> main graphics memory-> system memory
