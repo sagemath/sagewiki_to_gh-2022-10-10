@@ -46,3 +46,17 @@ Gonzalo Tornaria (theta functions expert)
  * E.g a Stratix IV can have around 1000 18x18 multipliers, but maybe that's not too much, and this is probably very expensive hardware
  * http://www.altera.com/products/devices/stratix-fpgas/stratix-iv/stxiv-index.jsp
  * Carl Witty does FPGA programming - says it is probably very expensive
+ * Accoding to the spec the stratix can have parallel high-bandwith communication
+
+Jeff Gilchrist
+ 
+ * What about ATI hardware - why not support OpenCL?
+ * Carl Witty says - 
+
+Bill Hart
+
+ * Cell port will happen as it is funded by EPSRC Grant - will be proof of principle code to apply for a port to Cell2Xi
+
+Glenn Tarbox 
+
+ * Flame - for overall integration of libraries
