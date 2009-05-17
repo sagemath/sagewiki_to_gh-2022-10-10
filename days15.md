@@ -35,7 +35,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 '''Afternoon''': Advanced Topics
 
  * 2:30PM - 3:00PM: Authoring Interactive Sage Worksheets, Rob Beezer [[attachment:beezer-authoring-SD15.pdf]]
- * 3:15PM - 4:45PM: Cython, Robert Bradshaw & Craig Citro
+ * 3:15PM - 4:45PM: Cython, Robert Bradshaw & Craig Citro [[attachment:sd15-cython-slides.pdf]] [[attachment:sd15__cython.sws]]
  * 4:50PM - 5:25PM: Advanced Mercurial Usage, Mike Hansen
 
 '''Evening''': Coding! Party!
