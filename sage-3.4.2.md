@@ -141,7 +141,7 @@ sage: G.show(edge_colors={'red':[(0,1)]})
 == Interfaces ==
 
 
- * Split off the FriCAS interface from the Axiom interface (Mike Hansen, Bill Page) -- The FriCAS interface is now split off from the Axiom interface and can now be found in the module {{{sage/interfaces/fricas.py}}}.
+ * Split off the [[http://fricas.sourceforge.net|FriCAS]] interface from the [[http://www.axiom-developer.org|Axiom]] interface (Mike Hansen, Bill Page) -- The FriCAS interface is now split off from the Axiom interface and can now be found in the module {{{sage/interfaces/fricas.py}}}.
 
 
 == Modular Forms ==
@@ -290,10 +290,7 @@ sage: type(E)
  }}}
 
 
- * Clean up {{{sage/schemes/elliptic_curves/ell_generic.py}}} (Alex Ghitza) -- A lot of code in the module {{{sage/schemes/elliptic_curves/ell_generic.py}}} has been moved around and cleaned up. In particular, all methods relating to twists from {{{ell_generic.py}}} have been moved to {{{sage/schemes/elliptic_curves/ell_field.py}}}, including the alias {{{base_field = base_ring}}}. We now have {{{change_ring}}} being an alias for {{{base_extend}}}, since the two have the exact same functionality and equivalent code. And the standalone function {{{Hasse_bounds}}} has been moved from {{{ell_generic.py}}} to {{{sage/schemes/plane_curves/projective_curve.py}}}. 
-
-
-== Numerical ==
+ * Clean up {{{sage/schemes/elliptic_curves/ell_generic.py}}} (Alex Ghitza) -- A lot of code in the module {{{sage/schemes/elliptic_curves/ell_generic.py}}} has been moved around and cleaned up. In particular, all methods relating to twists from {{{ell_generic.py}}} have been moved to {{{sage/schemes/elliptic_curves/ell_field.py}}}, including the alias {{{base_field = base_ring}}}. We now have {{{change_ring}}} being an alias for {{{base_extend}}}, since the two have the exact same functionality and equivalent code. And the standalone function {{{Hasse_bounds}}} has been moved from {{{ell_generic.py}}} to {{{sage/schemes/plane_curves/projective_curve.py}}}.
 
 
 == Packages ==
@@ -308,27 +305,7 @@ sage: type(E)
  * Move DSage to its own spkg (William Stein) -- The Distributed Sage framework (DSage) contained in {{{sage/dsage}}} is now packaged as a self-contained spkg. DSage allows for distributed computing from within Sage.
 
 
- * Update the FLINT spkg (Michael Abshoff) -- The new FLINT spkg is {{{flint-1.2.4.p2.spkg}}} and fixes spkg-check on OS X 64-bit.
-
- * Update the Maxima spkg (Michael Abshoff) -- The Lisp implementation Clisp needs a stack size larger than many systems provide, i.e. 8KB. When Clisp is used as the Lisp implementation for Maxima, then Maxima can randomly fail to build if the stack size is not raised. The updated Maxima spkg {{{maxima-5.16.3.p2.spkg}}} sets the stack size to 32KB for Clisp.
+ * Update the [[http://www.flintlib.org|FLINT]] spkg (Michael Abshoff) -- The new FLINT spkg is {{{flint-1.2.4.p2.spkg}}} and fixes spkg-check on OS X 64-bit.
 
 
-== P-adics ==
-
-
- * FIXME: summarize #5946
-
-
-== Quadratic Forms ==
-
-
-== Symbolics ==
-
-
-== Topology ==
-
-
-== User Interface ==
-
-
-== Website / Wiki ==
+ * Update the [[http://maxima.sourceforge.net|Maxima]] spkg (Michael Abshoff) -- The Lisp implementation [[http://clisp.cons.org|Clisp]] needs a stack size larger than many systems provide, i.e. 8KB. When Clisp is used as the Lisp implementation for Maxima, then Maxima can randomly fail to build if the stack size is not raised. The updated Maxima spkg {{{maxima-5.16.3.p2.spkg}}} sets the stack size to 32KB for Clisp.
