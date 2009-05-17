@@ -28,9 +28,6 @@ True
  }}}
 
 
- * FIXME: summarize #5921
-
-
  * Coercing factors into a common universe (Alex Ghitza) -- New method {{{base_change(self, U)}}} in the module {{{sage/structure/factorization.py}}} to allow the factorization {{{self}}} with its factors (including the unit part) coerced into the universe {{{U}}}. Here's an example for working with the new method {{{base_change()}}}:
  {{{
 sage: F = factor(2006)
@@ -40,9 +37,6 @@ sage: P.<x> = ZZ["x"]
 sage: F.base_change(P).universe() 
 Univariate Polynomial Ring in x over Integer Ring
  }}}
-
-
-== Algebraic Geometry ==
 
 
 == Basic Arithmetic ==
@@ -84,15 +78,6 @@ sage: list(squarefree_divisors(6))
 sage: list(squarefree_divisors(81))
 [1, 3]
  }}}
-
-
-== Build ==
-
-
-== Calculus ==
-
-
-== Coercion ==
 
 
 == Combinatorics ==
@@ -142,21 +127,6 @@ sage: timeit("q = U(p)")
  }}}
 
 
-== Distribution ==
-
-
-== Doctest ==
-
-
-== Documentation ==
-
-
- * FIXME: summarize #5610
-
-
-== Geometry ==
-
-
 == Graph Theory ==
 
 
@@ -168,25 +138,10 @@ sage: G.show(edge_colors={'red':[(0,1)]})
 {{attachment:pentagon-graph.png}}
 
 
-== Graphics ==
-
-
-== Group Theory ==
-
-
 == Interfaces ==
 
 
- * FIXME: summarize #5111
-
-
-== Linear Algebra ==
-
-
- * FIXME: summarize #5886
-
-
-== Miscellaneous ==
+ * Split off the FriCAS interface from the Axiom interface (Mike Hansen, Bill Page) -- The FriCAS interface is now split off from the Axiom interface and can now be found in the module {{{sage/interfaces/fricas.py}}}.
 
 
 == Modular Forms ==
@@ -238,13 +193,10 @@ The projective line over the integers modulo 1000003
 == Notebook ==
 
 
- * FIXME: summarize #5912
-
-
  * Downloading and uploading folders of worksheets (Robert Bradshaw) -- One can now download and upload entire folders of worksheets at once, instead of individual worksheets one at a time. This also allows for downloading only selecting worksheets in one go.
 
 
- * FIXME: summarize #5880
+ * Reduce the number of actions that trigger taking a snapshot (William Stein, Rob Beezer) -- Snapshots now need to be explicitly requested by clicking the save button. This greatly reduces many unnecessary snapshots.
 
 
 == Number Theory ==
@@ -338,7 +290,7 @@ sage: type(E)
  }}}
 
 
- * FIXME: summarize #5890
+ * Clean up {{{sage/schemes/elliptic_curves/ell_generic.py}}} (Alex Ghitza) -- A lot of code in the module {{{sage/schemes/elliptic_curves/ell_generic.py}}} has been moved around and cleaned up. In particular, all methods relating to twists from {{{ell_generic.py}}} have been moved to {{{sage/schemes/elliptic_curves/ell_field.py}}}, including the alias {{{base_field = base_ring}}}. We now have {{{change_ring}}} being an alias for {{{base_extend}}}, since the two have the exact same functionality and equivalent code. And the standalone function {{{Hasse_bounds}}} has been moved from {{{ell_generic.py}}} to {{{sage/schemes/plane_curves/projective_curve.py}}}. 
 
 
 == Numerical ==
