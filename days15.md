@@ -51,7 +51,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 '''Morning'''
 
  * 10:00AM - 10:50AM: Sage -- What's on the Horizon for Sage development, William Stein  [[attachment:stein-horizon.sws]]
- * 11:00AM - 12:00PM: Plan Tuesday's MSR visit, note schedule change for MPIR/FLINT talk
+ * 11:00AM - 11:10AM: Plan Tuesday's MSR visit, note schedule change for MPIR/FLINT talk
  * 11:10AM - 12:00PM: Algebraic Topology and Sage, John Palmieri
 
 '''Afternoon'''
