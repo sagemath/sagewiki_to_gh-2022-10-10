@@ -19,3 +19,7 @@ Glenn Tarbox (Owner of cuda1, AMD K10 with NVIDA CUDA card - expert on large sca
 Michael Abshoff (Sage release manager)
  
  * Link into Sage via cython and link in CUDA
+
+CUDA documentation:
+
+  * [[http://www.nvidia.co.uk/object/cuda_develop_emeai.html|NVIDA website]]
