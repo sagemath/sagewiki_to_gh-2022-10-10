@@ -15,9 +15,15 @@ PEOPLE: Christian, John Palmieri, S. Ault, Benjamin Antieau, Bob Bruner
 
   * A first version is already available. Here's a page with installation instructions: [[Yacop]] 
 
+== Quaternion Algebras (implement odd power of p dividing level case) ==
+
+PEOPLE: Alia H., William Stein
+
+
+
 == Sage/Magma Comparison Audit ==
 
-PEOPLE: William Stein, Bill Hart, Robert Bradshaw
+PEOPLE: William Stein, Bill Hart, Robert Bradshaw, Alia H.
 
   * See [[sagebeatsmagma]] and [[magma]]
 
