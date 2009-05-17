@@ -139,6 +139,12 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
  * FIXME: summarize #5934
 
+ * FIXME: summarize #1338
+
+ * FIXME: summarize #6032
+
+ * FIXME: summarize #6024
+
 
 == P-adics ==
 
