@@ -17,13 +17,13 @@ PEOPLE: Christian, John Palmieri, S. Ault, Benjamin Antieau, Bob Bruner
 
 == Quaternion Algebras (implement odd power of p dividing level case) ==
 
-PEOPLE: Alia H., William Stein
+PEOPLE: Alia Hamieh, Jerome Lefebvre, William Stein.
 
 
 
 == Sage/Magma Comparison Audit ==
 
-PEOPLE: William Stein, Bill Hart, Robert Bradshaw, Alia H.
+PEOPLE: William Stein, Bill Hart, Robert Bradshaw, Alia Hamieh, Jerome Lefebvre.
 
   * See [[sagebeatsmagma]] and [[magma]]
 
