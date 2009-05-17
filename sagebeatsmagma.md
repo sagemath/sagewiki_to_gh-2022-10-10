@@ -56,3 +56,55 @@ Wall time: 19.11 s
 sage: 27.34/18.76
 1.45735607675906
 }}}
+
+* Rank of random dense matrices over GF(2)
+
+{{{
+----------------------------------------------------------------------
+| Sage Version 4.0.alpha0, Release Date: 2009-05-15                  |
+| Type notebook() for the GUI, and license() for information.        |
+----------------------------------------------------------------------
+sage: A = random_matrix(GF(2),10^4,10^4)
+sage: %time A.rank()
+CPU times: user 1.23 s, sys: 0.01 s, total: 1.23 s
+Wall time: 1.25 s
+9998
+
+sage: A = random_matrix(GF(2),2*10^4,2*10^4)
+sage: %time A.rank()
+CPU times: user 9.65 s, sys: 0.02 s, total: 9.67 s
+Wall time: 9.85 s
+19937
+sage: A = random_matrix(GF(2),2*10^4,2*10^4)
+sage: %time A.echelonize(algorithm='pluq')
+CPU times: user 7.26 s, sys: 0.02 s, total: 7.27 s
+Wall time: 7.40 s
+
+sage: A = random_matrix(GF(2),3.2*10^4,3.2*10^4)
+sage: %time A.rank()
+CPU times: user 34.60 s, sys: 0.05 s, total: 34.65 s
+Wall time: 35.21 s
+19937
+sage: %time A.echelonize(algorithm='pluq')
+CPU times: user 28.35 s, sys: 0.04 s, total: 28.39 s
+Wall time: 28.86 s
+}}}
+
+{{{
+Magma V2.15-8     Sun May 17 2009 13:16:26 on eno      [Seed = 595144467]
+Type ? for help.  Type <Ctrl>-D to quit.
+> A:=RandomMatrix(GF(2),10^4,10^4);
+> time Rank(A);
+10000
+Time: 2.790
+
+> A:=RandomMatrix(GF(2),2*10^4,2*10^4);
+> time Rank(A);
+20000
+Time: 19.500
+
+> A:=RandomMatrix(GF(2),32*10^3,32*10^3);
+> time Rank(A);
+31999
+Time: 63.480
+}}}
