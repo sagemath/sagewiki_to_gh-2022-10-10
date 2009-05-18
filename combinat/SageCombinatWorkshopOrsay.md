@@ -12,6 +12,9 @@ Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented 
 ([[http://www.cernayvacances.com/CFrans.html|la tour]]). We did the cooking ourselves (bring your favorite recipes!).
 Altogether this made for a tight budget (around 1200 euros total for 5 days and 8 persons).
 
+{{attachment:img1.jpg|Photo 1|width=200}}
+{{attachment:img2.jpg|Photo 2|width=200}}
+
 == Coming from downtown Paris ==
 
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
