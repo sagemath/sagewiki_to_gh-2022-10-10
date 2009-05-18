@@ -7,6 +7,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 ----
 == NEWS ==
+ * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]] of the port.
+
  * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days]] 
    The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille will include a Sage days session. FlorentHivert, NicolasThiéry, and FrancoSaliola will be among the organizers, there will be a serious combinatorics slant. 
    
@@ -23,9 +25,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
     Sage-combinat was born as a partial port of [[http://mupad-combinat.sf.net|MuPAD-Combinat]]. After months of discussions and experiments, an enthusiastic consensus emerged in the MuPAD-Combinat community to join Sage. Sage-combinat henceforth became the natural successor of {{{MuPAD-Combinat}}}.
 
-   The transition is going to be a massive investment: seven years of hard work to port over! However a lot of experience was gained since 2000, and most of the design is now pretty clear. By sharing the work the transition will hopefuly be relatively quick.
-
-   See the [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]] of the port.
+   The transition is a massive investment: seven years of hard work to port over! However a lot of experience was gained since 2000, and most of the design is now pretty clear. By sharing the work the transition will hopefuly be relatively quick.
 
 ----
 
