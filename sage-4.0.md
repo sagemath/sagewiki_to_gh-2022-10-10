@@ -7,12 +7,17 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 == Algebra ==
 
- * FIXME: summarize #5997
+
+ * Deprecate the {{{order()}}} method on elements of rings (John Palmieri) -- The method {{{order()}}} of the class {{{sage.structure.element.RingElement}}} is now deprecated and will be removed in a future release. For additive or multiplicative order, use the {{{additive_order}}} or {{{multiplicative_order}}} method respectively.
 
 
 == Algebraic Geometry ==
 
- * FIXME: summarize #6010
+
+ * Various invariants for genus 2 hyperelliptic curves (Nick Alexander) -- The following invariants for genus 2 hyperelliptic curves are implemented in the module {{{sage/schemes/hyperelliptic_curves/hyperelliptic_g2_generic.py}}}:
+  * the Clebsch invariants
+  * the Igusa-Clebsch invariants
+  * the absolute Igusa invariants
 
 
 == Basic Arithmetic ==
@@ -57,7 +62,18 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 == Graph Theory ==
 
- * FIXME: summarize #5913
+
+ * Graph colouring (Robert Miller) -- New method {{{coloring()}}} of the class {{{sage.graphs.graph.Graph}}} for obtaining the first (optimal) coloring found on a graph. Here are some examples on using this new method:
+ {{{
+sage: G = Graph("Fooba")
+sage: P = G.coloring()
+sage: G.plot(partition=P)
+sage: H = G.coloring(hex_colors=True)
+sage: G.plot(vertex_colors=H)
+ }}}
+{{attachment:graph-colour-1.png}}
+
+{{attachment:graph-colour-2.png}}
 
 
 == Graphics ==
