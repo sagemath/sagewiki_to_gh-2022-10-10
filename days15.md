@@ -64,7 +64,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 === Monday, May 18 ===
 
- * 11:00AM - 12:00PM: Sage-Combinat and Categories for the Working Mathematical Programmer, Nicolas Thiery in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246
+ * '''MOVED TO 6PM''': 11:00AM - 12:00PM: Sage-Combinat and Categories for the Working Mathematical Programmer, Nicolas Thiery in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246
  * 12:00PM - 5:00PM: Coding Sprints in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 246 ([[http://depts.washington.edu/sauf/scc/sccres/246.php|room info]])
 
  * (1:30PM - 2:20PM: William's Modular Abelian Varieties class, [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 243) -- Lecture on Computing with modular forms in Sage
@@ -73,7 +73,8 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 '''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 238
 
  * 5:00PM - 6:00PM: Fredrik Johanssen: MPMath
- * 6:00PM - 6:30PM: Coding Sprint Organization
+ * '''6:00PM - 7:00PM''': Sage-Combinat and Categories for the Working Mathematical Programmer, Nicolas Thiery
+ * 7:00PM - 7:30PM: Coding Sprint Organization
 
 === Tuesday, May 19 ===
 
