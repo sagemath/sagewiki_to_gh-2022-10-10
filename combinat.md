@@ -7,7 +7,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 ----
 == NEWS ==
- * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]] of the port.
+ * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]]
 
  * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days]] 
    The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille will include a Sage days session. FlorentHivert, NicolasThiéry, and FrancoSaliola will be among the organizers, there will be a serious combinatorics slant. 
