@@ -1,6 +1,8 @@
 = Sage-Combinat =
 
-Sage-combinat is a collection of experimental patches (i.e. extensions) on top of [[http://www.sagemath.org/|Sage]], developed by a community in algebraic combinatorics. Its main purpose is '''to improve Sage as an extensible toolbox for computer exploration, and foster code sharing between researchers in this area'''. The intent is that most of those patches eventually will get integrated into sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
+Mission statement: '''to improve Sage as an extensible toolbox for computer exploration, and foster code sharing between researchers in this area'''.
+
+In practice, Sage-combinat is a collection of experimental patches (i.e. extensions) on top of [[http://www.sagemath.org/|Sage]], developed by a community in algebraic combinatorics. The intent is that most of those patches get eventually integrated into sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
 
 
 ----
