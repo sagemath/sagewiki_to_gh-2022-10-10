@@ -96,7 +96,7 @@ sage: G.plot(vertex_colors=H)
   * You want to view LaTeX snippets which are not displayed well in DVI viewers (e.g. graphics produced using tikzpicture).
 
 
- * FIXME: summarize #6039
+ * Change name of Pari's {{{sum}}} function when imported (Craig Citro) -- When Pari's {{{sum}}} function is imported, it is renamed to {{{pari_sum}}} in order to avoid conflict Python's {{{sum}}} function.
 
 
 == Linear Algebra ==
@@ -110,7 +110,13 @@ sage: G.plot(vertex_colors=H)
 
 == Miscellaneous ==
 
- * FIXME: summarize #6012
+
+ * Allow use of {{{pdflatex}}} instead of {{{latex}}} (John Palmieri) -- One can now use {{{pdflatex}}} instead of {{{latex}}} in two different ways:
+  * Use a {{{%pdflatex}}} cell in a notebook; or
+  * Call {{{latex.pdflatex(True)}}} 
+ after which any use of {{{latex}}} (in a {{{%latex}}} cell or using the {{{view}}} command) will use {{{pdflatex}}}. One visually appealing aspect of this is that if you have the most recent version of [[http://pgf.sourceforge.net|pgf]] installed, as well as the {{{tkz-graph}}} package, you can produce images like the following:
+{{attachment:pgf-graph.png}}
+
 
 
 == Modular Forms ==
@@ -175,7 +181,12 @@ sage: G.plot(vertex_colors=H)
 
 == Topology ==
 
- * FIXME: summarize #5889
+
+ * Random simplicial complexes (John Palmieri) -- New method {{{RandomComplex()}}} in the module {{{sage/homology/examples.py}}} for producing a random {{{d}}}-dimensional simplicial complex on {{{n}}} vertices. Here's an example:
+ {{{
+sage: simplicial_complexes.RandomComplex(6,12)
+Simplicial complex with vertex set (0, 1, 2, 3, 4, 5, 6, 7) and facets {(0, 1, 2, 3, 4, 5, 6, 7)}
+ }}}
 
 
 == User Interface ==
