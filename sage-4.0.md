@@ -11,6 +11,9 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
  * Deprecate the {{{order()}}} method on elements of rings (John Palmieri) -- The method {{{order()}}} of the class {{{sage.structure.element.RingElement}}} is now deprecated and will be removed in a future release. For additive or multiplicative order, use the {{{additive_order}}} or {{{multiplicative_order}}} method respectively.
 
 
+ * FIXME: summarize #6052
+
+
 == Algebraic Geometry ==
 
 
@@ -21,6 +24,10 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 
 == Basic Arithmetic ==
+
+ * FIXME: summarize #6036
+
+ * FIXME: summarize #6080
 
 
 == Build ==
@@ -80,6 +87,10 @@ sage: G.plot(vertex_colors=H)
 
  * FIXME: summarize #3932
 
+ * FIXME: summarize #5940
+
+ * FIXME: summarize #6086
+
 
 == Graphics ==
 
@@ -112,6 +123,8 @@ sage: G.plot(vertex_colors=H)
 
  * FIXME: summarize #5381
 
+ * FIXME: summarize #5554
+
 
 == Miscellaneous ==
 
@@ -122,6 +135,7 @@ sage: G.plot(vertex_colors=H)
  after which any use of {{{latex}}} (in a {{{%latex}}} cell or using the {{{view}}} command) will use {{{pdflatex}}}. One visually appealing aspect of this is that if you have the most recent version of [[http://pgf.sourceforge.net|pgf]] installed, as well as the {{{tkz-graph}}} package, you can produce images like the following:
 {{attachment:pgf-graph.png}}
 
+ * FIXME: summarize #5783
 
 
 == Modular Forms ==
@@ -180,6 +194,8 @@ sage: G.plot(vertex_colors=H)
 == P-adics ==
 
  * FIXME: summarize #5105
+
+ * FIXME: summarize #5236
 
 
 == Quadratic Forms ==
