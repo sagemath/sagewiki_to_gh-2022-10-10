@@ -137,6 +137,33 @@ These two interacts involve some Cython code or other scipy imports, so I've pos
 
 == Autonomous equations and stable/unstable fixed points ==
 by Marshall Hampton
+This needs the Cython functon defined in a seperate cell.  Note that it is not a particularly good example of Cython use.
+
+{{{
+%cython
+cpdef RK4_1d(f, double t_start, double y_start, double t_end, int steps, double y_upper = 10**6, double y_lower = -10**6):
+    '''
+    Fourth-order scalar Runge-Kutta solver with fixed time steps. f must be a function of t,y, 
+    where y is just a scalar variable.
+    '''
+    cdef double step_size = (t_end - t_start)/steps
+    cdef double t_current = t_start
+    cdef double y_current = y_start
+    cdef list answer_table = []
+    cdef int j
+    answer_table.append([t_current,y_current])
+    for j in range(0,steps):
+        k1=f(t_current, y_current)
+        k2=f(t_current+step_size/2, y_current + k1*step_size/2)
+        k3=f(t_current+step_size/2, y_current + k2*step_size/2)
+        k4=f(t_current+step_size, y_current + k3*step_size)
+        t_current += step_size
+        y_current = y_current + (step_size/6)*(k1+2*k2+2*k3+k4)
+        if y_current > y_upper or y_current < y_lower: 
+            j = steps
+        answer_table.append([t_current,y_current])
+    return answer_table
+}}}
 
 {{{
 from sage.rings.polynomial.real_roots import *
