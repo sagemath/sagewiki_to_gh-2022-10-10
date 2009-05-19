@@ -72,7 +72,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 '''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 238
 
- * 5:00PM - 6:00PM: Fredrik Johanssen: MPMath
+ * 5:00PM - 6:00PM: Fredrik Johansson: MPMath [[attachment:johansson-mpmath.pdf]]
  * '''6:00PM - 7:00PM''': Sage-Combinat and Categories for the Working Mathematical Programmer, Nicolas Thiery
  * 7:00PM - 7:30PM: Coding Sprint Organization
 
