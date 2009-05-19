@@ -239,6 +239,79 @@ http://magma.maths.usyd.edu.au/magma/htmlhelp/text1681.htm
 Magma has a wide-ranging package implemented principally by Paul van Wamelen for computing analytic parametrizations of Jacobians of hyperelliptic curves.  Nick Alexander has code for doing some of this and has code for interfacing to Magma's code for doing this buried in his tree; contact him if you're interested in doing more work in this direction.
 
 http://magma.maths.usyd.edu.au/magma/htmlhelp/text1400.htm
+== Quadratic Forms ==
+=== Binary Quadratic Forms ===
+Magma has the following and Sage doesn't.
+
+{{{
+BinaryQuadraticForms(D) : RngIntElt -> QuadBin
+
+QuadraticForms(D) : RngIntElt -> QuadBin
+
+Create the structure of integral binary quadratic forms of discriminant D.
+}}}
+
+{{{
+Composition(f, g) : QuadBinElt, QuadBinElt -> QuadBinElt
+
+Al: MonStgElt                       Default: "Gauss"
+Reduction: BoolElt                  Default: false
+
+Returns the composition of two binary quadratic forms f and g. The default for Composition is Reduction := false, so that one can work in the group of forms, rather in the set of class group representatives. The function Composition takes a further parameter Al which specifies whether the algorithm of Gauss or Shanks, set to "Gauss" by default. The algorithm of Shanks performs partial intermediate reductions, so the combination Reduction := false and Al := "Shanks" are incompatible and returns a runtime error.
+}}}
+
+{{{
+AmbiguousForms(Q) : QuadBin -> SeqEnum
+
+Enumerates the ambiguous forms of negative discriminant D, where D is the discriminant of the magma of binary quadratic forms Q.
+}}}
+{{{
+Order(f) : QuadBinElt -> RngIntElt
+
+For a binary quadratic form f, returns its order as an element of the class group Cl(Q) where Q is the parent of f.
+}}}
+
+{{{
+IsEquivalent(f, g) : QuadBinElt, QuadBinElt -> BoolElt, AlgMatElt
+
+Return true if the quadratic forms f and g reduce to the same form and false otherwise. If true and the discriminant is negative, then the transformation matrix is also returned. An error is returned if the forms are not of the same discriminant.
+}}}
+
+{{{
+QuadraticOrder(Q) : QuadBin -> RngQuad
+
+Given a structure of quadratic forms of discriminant D, returns the associated order of discriminant D in a quadratic field.
+}}}
+
+{{{
+ClassGroup(Q: parameters) : QuadBin -> GrpAb, Map
+
+    FactorBasisBound: FldPrElt          Default: 0.1
+    ProofBound: FldPrElt                Default: 6
+    ExtraRelations: RngIntElt           Default: 1
+The class group of the binary quadratic forms of discriminant D. The function also returns a map from the abelian group to the structure of quadratic forms.
+
+}}}
+
+The following functionalities are in Magma but in Sage they are only implemented for definite binary quadratic forms.
+
+{{{
+IsReduced(f) : QuadBinElt -> BoolElt
+
+Return true if the quadratic form f is reduced; false otherwise.
+}}}
+
+{{{
+ReducedForm(f) : QuadBinElt -> QuadBinElt, Mtrx
+
+Returns a reduced quadratic form equivalent to f, and the transformation matrix.
+}}}
+{{{
+ReducedOrbits(Q) : QuadBin -> [ {@ QuadBinElt @} ]
+
+Given the structure of quadratic forms of positive discriminant D, returns the sequence of all reduced orbits of primitive forms of discriminant D, as an indexed set.
+}}}
+
 
 = Specialized Functionality in Magma also in Sage =
 
