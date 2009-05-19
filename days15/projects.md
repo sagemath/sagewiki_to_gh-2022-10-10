@@ -2,9 +2,12 @@
 
 These are project ideas for [[days15|Sage Days 15]]
 
-== Low Level Simplicial Sets ==
+== Low Level Simplicial Sets, CW Complexes, and Morphisms for Simplicial Complexes and Chain Complexes ==
 
 PEOPLE: S. Ault, B. Antieau
+
+  * S. Ault has a CW Complex class mostly up and running. He's about to work on creating the associated chain complex.
+  * B. Antieau has rudimentary simplicial complex morphisms, and is working on the functor to morphisms of chain complexes. No classes are implemented yet.
 
 == Prime Pi ==
 
