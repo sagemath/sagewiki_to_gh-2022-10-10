@@ -135,6 +135,36 @@ These two interacts involve some Cython code or other scipy imports, so I've pos
   * https://sage.math.washington.edu/home/pub/42
   * https://sage.math.washington.edu/home/pub/43
 
+== Autonomous equations and stable/unstable fixed points ==
+by Marshall Hampton
+
+{{{
+from sage.rings.polynomial.real_roots import *
+var('x')
+@interact
+def autonomous_plot(poly=input_box(x*(x-1)*(x-2),label='polynomial'), t_end = slider(1,10,step_size = .1)): 
+    var('x')   
+    y = polygen(ZZ)
+    ypoly = sage_eval(repr(poly).replace('x','y'),locals=locals())
+    rr = real_roots(ypoly, max_diameter = 1/100)
+    eps = 0.2
+    delvals = .04
+    minr = min([x[0][0] for x in rr])
+    maxr = max([x[0][1] for x in rr])
+    svals = [(minr-eps)*t+(1-t)*(maxr+eps) for t in srange(0,1+delvals,delvals)]
+    def polyf(t,xi):
+        return poly(x=xi)
+    paths = [RK4_1d(polyf,0.0,q,t_end,100.0) for q in svals]    
+    miny = max(minr-eps,min([min([q1[1] for q1 in q]) for q in paths]))
+    maxy = min(maxr+eps,max([max([q1[1] for q1 in q]) for q in paths]))
+    solpaths = sum([line(q) for q in paths])
+    fixedpoints = sum([line([[0,(q[0][0]+q[0][1])/2],[t_end,(q[0][0]+q[0][1])/2]], rgbcolor = (1,0,0)) for q in rr])
+    var('t')
+    html("Autonomous differential equation $x' = p(x)$")
+    show(solpaths+fixedpoints, ymin = miny, ymax = maxy, xmin = 0, xmax = t_end, figsize = [6,4])
+}}}
+{{attachment:Autonomous1.png}}
+
 == Heat equation using Fourier series ==
 by Pablo Angulo
 
