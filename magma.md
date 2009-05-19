@@ -242,14 +242,38 @@ http://magma.maths.usyd.edu.au/magma/htmlhelp/text1400.htm
 == Quadratic Forms ==
 === Binary Quadratic Forms ===
 Magma has the following and Sage doesn't.
-{{{Composition(f, g) : QuadBinElt, QuadBinElt -> QuadBinElt
+{{{
+Composition(f, g) : QuadBinElt, QuadBinElt -> QuadBinElt
 
     Al: MonStgElt                       Default: "Gauss"
     Reduction: BoolElt                  Default: false
-Returns the composition of two binary quadratic forms f and g. The default for Composition is Reduction := false, so that one can work in the group of forms, rather in the set of class group representatives. The function Composition takes a further parameter Al which specifies whether the algorithm of Gauss or Shanks, set to "Gauss" by default. The algorithm of Shanks performs partial intermediate reductions, so the combination Reduction := false and Al := "Shanks" are incompatible and returns a runtime error.}}}
-{{{IsEquivalent(f, g) : QuadBinElt, QuadBinElt -> BoolElt, AlgMatElt
+Returns the composition of two binary quadratic forms f and g. The default for Composition is Reduction := false, so that one can work in the group of forms, rather in the set of class group representatives. The function Composition takes a further parameter Al which specifies whether the algorithm of Gauss or Shanks, set to "Gauss" by default. The algorithm of Shanks performs partial intermediate reductions, so the combination Reduction := false and Al := "Shanks" are incompatible and returns a runtime error.
+}}}
 
-Return true if the quadratic forms f and g reduce to the same form and false otherwise. If true and the discriminant is negative, then the transformation matrix is also returned. An error is returned if the forms are not of the same discriminant.}}}
+{{{
+IsEquivalent(f, g) : QuadBinElt, QuadBinElt -> BoolElt, AlgMatElt
+
+Return true if the quadratic forms f and g reduce to the same form and false otherwise. If true and the discriminant is negative, then the transformation matrix is also returned. An error is returned if the forms are not of the same discriminant.
+}}}
+
+{{{
+AmbiguousForms(Q) : QuadBin -> SeqEnum
+
+Enumerates the ambiguous forms of negative discriminant D, where D is the discriminant of the magma of binary quadratic forms Q.
+}}}
+{{{
+Order(f) : QuadBinElt -> RngIntElt
+
+For a binary quadratic form f, returns its order as an element of the class group Cl(Q) where Q is the parent of f.
+}}}
+{{{
+
+BinaryQuadraticForms(D) : RngIntElt -> QuadBin
+
+QuadraticForms(D) : RngIntElt -> QuadBin
+
+Create the structure of integral binary quadratic forms of discriminant D.
+}}}
 = Specialized Functionality in Magma also in Sage =
 
 Here we list specialized things Magma does that Sage also does. For example, both Magma and Sage have extensive support for computing with modular symbols (far beyond all other math software).  
