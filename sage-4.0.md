@@ -76,6 +76,11 @@ sage: G.plot(vertex_colors=H)
 {{attachment:graph-colour-2.png}}
 
 
+ * FIXME: summarize #6066
+
+ * FIXME: summarize #3932
+
+
 == Graphics ==
 
  * FIXME: summarize #5249
@@ -149,6 +154,10 @@ sage: G.plot(vertex_colors=H)
 
  * FIXME: summarize #6004
 
+ * FIXME: summarize #6059
+
+ * FIXME: summarize #6064
+
 
 == Numerical ==
 
@@ -174,6 +183,9 @@ sage: G.plot(vertex_colors=H)
 
 
 == Quadratic Forms ==
+
+
+ * FIXME: summarize #6037
 
 
 == Symbolics ==
