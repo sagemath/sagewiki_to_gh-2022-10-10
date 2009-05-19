@@ -31,9 +31,9 @@ PEOPLE: William Stein, Bill Hart, Robert Bradshaw, Alia Hamieh, Jerome Lefebvre.
 
   * See [[sagebeatsmagma]] and [[magma]]
 
-== Generalized Bernoulli Numbers ==
+== CANCELLED (already in Sage!) Generalized Bernoulli Numbers ==
 
-PEOPLE: William Stein
+PEOPLE: William Stein   
   
   * There is a simple 2 or 3 line formula for generalized Bernoulli numbers in terms of non-generalized ones, which could be used to speed up the chi.bernoulli_number(k) command (for a Dirichlet character chi) by a factor of thousands.
   * [[:/bern:|more details]]
