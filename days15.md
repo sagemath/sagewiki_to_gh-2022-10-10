@@ -2,6 +2,9 @@
 
 == DATES: May 16 - 21, 2009 ==
 
+== Need to get into MEB? ==
+David Roe's cell: 503-476-4894
+
 == UW Campus Wireless ==
 
 {{{
