@@ -81,7 +81,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 === Tuesday, May 19 ===
 
-'''Morning''': Microsoft Research! [[/carpool_list]]
+'''Morning''': Microsoft Research! [[/carpool_list]] [[http://maps.google.com/maps?f=d&source=s_d&saddr=98195&daddr=14820+NE+36th+Street&hl=en&geocode=&mra=ls&sll=47.644097,-122.132778&sspn=0.003311,0.006866&ie=UTF8&ll=47.643649,-122.229424&spn=0.10594,0.219727&t=h&z=12|Directions]]
 
  * 9:30AM - 2:30PM: Microsoft Research
  * 9:30AM - 9:55AM: Introduction to Sage, Craig Citro
