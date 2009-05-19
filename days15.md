@@ -84,7 +84,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 '''Morning''': Microsoft Research! [[/carpool_list]] [[http://maps.google.com/maps?f=d&source=s_d&saddr=98195&daddr=14820+NE+36th+Street&hl=en&geocode=&mra=ls&sll=47.644097,-122.132778&sspn=0.003311,0.006866&ie=UTF8&ll=47.643649,-122.229424&spn=0.10594,0.219727&t=h&z=12|Directions]]
 
  * 9:30AM - 2:30PM: Microsoft Research
- * 9:30AM - 9:55AM: Introduction to Sage, Craig Citro [[citro-sd15-talk.pdf|pdf]], [[citro-sd15-worksheet.sws|sage worksheet]]
+ * 9:30AM - 9:55AM: Introduction to Sage, Craig Citro [[attachment:citro-sd15-talk.pdf]], [[attachment:citro-sd15-worksheet.sws]]
  * 10:00AM - 10:25AM: Introduction to Cython, Robert Bradshaw
  * 10:30AM - 11:00AM: IronPython: Python and .NET, Jim Hugunin
  * 11:15AM - 12:00PM: Porting Sage to Microsoft Windows, William Stein and Dan Shumow      [[attachment:stein-sage-windows.sws]]
