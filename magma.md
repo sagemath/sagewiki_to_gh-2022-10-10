@@ -332,7 +332,7 @@ Magma seems to offer two modes for storing group algebra elements. One for small
 Magma seems to accept Group Rings over any unital ring, not just commutative rings.
 
 ==== Construction of Subalgebras, Ideals and Quotient Algebras ====
-Sage does nothing about subalgebras of a group algebra. Essentially this entire page http://magma.maths.usyd.edu.au/magma/htmlhelp/text1113.htm is 
+Sage does nothing about subalgebras of a group algebra. Essentially this entire page http://magma.maths.usyd.edu.au/magma/htmlhelp/text1113.htm is missing. 
 
 ==== Operations on Group Algebras and their Subalgebras ====
 Again here, Sage does absolutely nothing relating to the operations listed here http://magma.maths.usyd.edu.au/magma/htmlhelp/text1110.htm
