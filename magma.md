@@ -385,6 +385,30 @@ The centralizer of the element a (of a group algebra A) in the subalgebra S of A
 }}}
 
 
+=== K[G]-Modules and group representations ===
+
+Ok, this stuff is amazing in Magma, but not at all in Sage.
+http://magma.maths.usyd.edu.au/magma/htmlhelp/text1117.htm#-6
+I want this so badly, I'm ready to pay for Magma and eat instant noodles for a year.
+
+Magma seems to give you a very natural way of manipulating modules; for example tensoring two modules. Which would be a great way of exploring their properties.
+
+=== Representation of symmetric groups ===
+Here it is hard to say what is in Sage.
+For example this discussion 
+http://groups.google.com/group/sage-support/browse_thread/thread/ce478c8ac55b5b88
+says that characters of symmetric group can be computed by using functionality coming from sage-combinat. For the life of me, I can't find good documentation for sage-combinat. So, their should be wrappers for using this combinatorial stuff from SymmetricGroup, so that a student doesn't have to learn all the combinatorial lingo to do basic representation theory of the symmetric group.
+
+http://magma.maths.usyd.edu.au/magma/htmlhelp/text1131.htm
+
+
+=== Representations of Lie groups and algebras ===
+
+Gap seems to do some of theses things, but Sage is lacking the warpers to make effective use of this.
+So, I don't feel productive saying this, but Sage is again missing all the functionality that is listed here;
+http://magma.maths.usyd.edu.au/magma/htmlhelp/text1139.htm
+
+
 
 = Specialized Functionality in Magma also in Sage =
 
