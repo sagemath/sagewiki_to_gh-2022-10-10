@@ -73,3 +73,11 @@ PEOPLE: Nicolas Thiery, Robert Bradshaw, Mike Hansen, Craig Citro, Carl Witty
 == Notebook Work ==
 
 PEOPLE: Mike Hansen, (William Stein), Tom Boothby
+
+== Latex for (Combinatorial) Graphs ==
+
+PEOPLE: Rob Beezer, Fidel Barrera, John Palmieri, Emily Kirkman
+
+[[attachment:view-graphs.png|Screenshot]]
+
+[[http://trac.sagemath.org/sage_trac/ticket/5975|Details at #5975]]
