@@ -81,3 +81,7 @@ PEOPLE: Rob Beezer, Fidel Barrera, John Palmieri, Emily Kirkman
 [[attachment:view-graphs.png|Screenshot]]
 
 [[http://trac.sagemath.org/sage_trac/ticket/5975|Details at #5975]]
+
+==Wrap mpmath==
+
+PEOPLE: Fredrik Johansson
