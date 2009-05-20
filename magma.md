@@ -322,6 +322,67 @@ IsotropicSubspace(M) : Mtrx -> ModTupRng
 This returns an isotropic subspace for the given quadratic form (which must be either integral or rational), which may be given either as a multivariate polynomial f or as a symmetric matrix M. The subspace returned is in many cases guaranteed to be a maximal totally isotropic subspace.
 }}}
 
+
+
+Representation Theory
+
+=== Group Algebra===
+Magma seems to offer two modes for storing group algebra elements. One for small groups, and an other optimize for large (finite?) group. Sage only seems to implement one way. Also not sure which as formal_sum.py has no comments or docstring.
+
+Magma seems to accept Group Rings over any unital ring, not just commutative rings.
+
+==== Construction of Subalgebras, Ideals and Quotient Algebras ====
+Sage does nothing about subalgebras of a group algebra. Essentially this entire page http://magma.maths.usyd.edu.au/magma/htmlhelp/text1113.htm is 
+
+==== Operations on Group Algebras and their Subalgebras ====
+Again here, Sage does absolutely nothing relating to the operations listed here http://magma.maths.usyd.edu.au/magma/htmlhelp/text1110.htm
+
+==== Operations on Elements ====
+http://magma.maths.usyd.edu.au/magma/htmlhelp/text1115.htm
+Here are several small functions that Magma has, but Sage doesn't have.
+
+Theses first few would be easy to implement.
+{{{
+Support(a) : AlgGrpElt -> SeqEnum
+
+The support of a; that is, the sequence of group elements whose coefficients in a are non-zero.
+Trace(a) : AlgGrpElt -> RngElt
+
+The trace of a; that is, the coefficient of 1G in a.
+Augmentation(a) : AlgGrpElt -> RngElt
+
+The augmentation of the group algebra element a; that is, ∑G rg where a = ∑G rg * g.
+Involution(a) : AlgGrpElt -> AlgGrpElt
+
+If a = ∑G rg * g, returns ∑G rg * g1.
+Coefficient(a, g) : AlgGrpElt, GrpElt -> RngElt
+
+a[g] : AlgGrpElt, GrpElt -> RngElt
+
+The coefficient of g ∈G in a ∈R[G].
+
+
+Coefficients(a) : AlgGrpElt -> SeqEnum
+
+}}}
+
+Theses would be much harder.
+{{{
+For an element a from a group algebra A given in vector representation, this returns the sequence of coefficients with respect to the fixed basis of A.
+Centraliser(a) : AlgGrpElt -> AlgGrpSub
+
+Centralizer(a) : AlgGrpElt -> AlgGrpSub
+
+The centralizer in the group algebra A of the element a of A.
+Centraliser(S, a) : AlgGrpSub, AlgGrpElt -> AlgGrpSub
+
+Centralizer(S, a) : AlgGrpSub, AlgGrpElt -> AlgGrpSub
+
+The centralizer of the element a (of a group algebra A) in the subalgebra S of A.
+}}}
+
+
+
 = Specialized Functionality in Magma also in Sage =
 
 Here we list specialized things Magma does that Sage also does. For example, both Magma and Sage have extensive support for computing with modular symbols (far beyond all other math software).  
