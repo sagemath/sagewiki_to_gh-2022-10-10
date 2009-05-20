@@ -311,7 +311,7 @@ ReducedOrbits(Q) : QuadBin -> [ {@ QuadBinElt @} ]
 
 Given the structure of quadratic forms of positive discriminant D, returns the sequence of all reduced orbits of primitive forms of discriminant D, as an indexed set.
 }}}
-=== General Quadratic forms===
+=== General Quadratic forms ===
 The quadratic forms package in Sage supports a wider array of functions than that in Magma.
 Here's the only functionality that Magma has and I couldn't find in Sage.
 {{{
