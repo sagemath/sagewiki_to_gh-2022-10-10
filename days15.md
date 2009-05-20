@@ -94,7 +94,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 '''Evening''': MEB 238
 
- * 5:15PM - 6:05PM: Yacop/Algebraic Topology in Sage, Christian Nassau
+ * 5:15PM - 6:05PM: Yacop/Algebraic Topology in Sage, Christian Nassau [[attachment:nassau-yacop.pdf]]
  * 6:15PM - 6:45PM: Coding Sprint Organization
 
 === Wednesday, May 20 ===
