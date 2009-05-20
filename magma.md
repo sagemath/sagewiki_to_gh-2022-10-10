@@ -420,7 +420,7 @@ This returns the weighted blowup of the plane curve C at the origin defined by t
 }}}
 === Local Intersection Theory ===
 
-The following "easy to implement" should be in Sage.
+The following "easy to implement" stuff should be in Sage.
 {{{
 
 IsIntersection(C,D,p) : Sch,Sch,Pt -> BoolElt
