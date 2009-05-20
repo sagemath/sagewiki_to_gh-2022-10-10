@@ -324,9 +324,9 @@ This returns an isotropic subspace for the given quadratic form (which must be e
 
 
 
-Representation Theory
+== Representation Theory ==
 
-=== Group Algebra===
+=== Group Algebra ===
 Magma seems to offer two modes for storing group algebra elements. One for small groups, and an other optimize for large (finite?) group. Sage only seems to implement one way. Also not sure which as formal_sum.py has no comments or docstring.
 
 Magma seems to accept Group Rings over any unital ring, not just commutative rings.
