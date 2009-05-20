@@ -322,6 +322,34 @@ IsotropicSubspace(M) : Mtrx -> ModTupRng
 This returns an isotropic subspace for the given quadratic form (which must be either integral or rational), which may be given either as a multivariate polynomial f or as a symmetric matrix M. The subspace returned is in many cases guaranteed to be a maximal totally isotropic subspace.
 }}}
 
+== Algebraic Geometry ==
+=== Base Change ===
+Magma has the following and Sage doesn't.
+{{{
+BaseChange(C, m) : Sch,Map -> Sch
+
+The base change of the curve C by the map of base rings m. The resulting curve will lie in a newly created plane.
+BaseChange(C, A) : Sch,Sch -> Sch
+
+BaseChange(C, A, m) : Sch,Sch,Map -> Sch
+
+The base change of the curve C to a curve in the new ambient space A. The space A must be of the same type as the ambient of C and its base ring must either admit coercion from the base ring of C or have the map m between the two explicitly given.
+
+BaseChange(C, n) : Sch, RngIntElt -> Sch
+
+The base change of C, where the base ring of C is a finite field to the finite field which is a degree n extension of the base field of C.
+}}}
+
+It seems that Sage only has the analogue of the following magma function
+
+{{{
+
+BaseChange(C, K) : Sch,Rng -> Sch
+
+The base change of the curve C to the new base ring K. This is only possible if elements of the current base ring of C can be coerced automatically into K.
+}}}
+
+
 
 
 == Representation Theory ==
