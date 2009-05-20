@@ -351,7 +351,7 @@ The base change of the curve C to the new base ring K. This is only possible if 
 
 === Some Basic Attributes of Schemes ===
 
- Again Magma has the following functions which I couldn't find in Sage
+Again Magma has the following functions which I couldn't find in Sage
 
 {{{
 
@@ -368,6 +368,7 @@ HessianMatrix(C) : Sch -> Mtrx
 The symmetric matrix of second partial derivatives of the defining polynomial of the plane curve C.
 }}}
 
+=== Generation of Random Curves ===
 
 == Representation Theory ==
 
