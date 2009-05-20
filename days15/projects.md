@@ -27,7 +27,7 @@ PEOPLE: Fredrik Johansson, William Stein, Robert Bradshaw
 
 == Steenrod Algebra cohomology (Yacop integration) ==
   
-PEOPLE: Christian, John Palmieri, S. Ault, Benjamin Antieau, Bob Bruner
+PEOPLE: Christian, John Palmieri, S. Ault, Bob Bruner
 
   * A first version is already available. Here's a page with installation instructions: [[Yacop]] 
 
