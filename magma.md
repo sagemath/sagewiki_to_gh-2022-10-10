@@ -369,6 +369,26 @@ The symmetric matrix of second partial derivatives of the defining polynomial of
 }}}
 
 === Generation of Random Curves ===
+The following is implemented in Magma but not in Sage:
+{{{
+RandomNodalCurve(d, g, P) : RngIntElt, RngIntElt, Prj -> CrvPln
+
+    RandomBound: RngIntElt              Default: 9
+Generates a random plane curve in the projective plane P of degree d and genus g with only nodes as singularities. These nodes are chosen as a random set of points in P. The base field may be a finite field or Q.
+
+RandomCurveByGenus(g, K) : RngIntElt, Fld -> Crv
+
+    RandomBound: RngIntElt              Default: 9
+Given a positive integer g and a field K this function generates a random projective curve over K of genus g. The field K must be a finite field or Q.
+
+Adjoints(C,d) : Crv, RngIntElt -> LinearSys
+
+Given a plane curve C, this gives the general degree d adjoint linear system.
+}}}
+
+
+
+
 
 == Representation Theory ==
 
