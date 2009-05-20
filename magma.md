@@ -386,6 +386,52 @@ Adjoints(C,d) : Crv, RngIntElt -> LinearSys
 Given a plane curve C, this gives the general degree d adjoint linear system.
 }}}
 
+=== Singularity Analysis ===
+
+Magma treats this in a more explicit way than Sage does. For example, the following is in Magma.
+
+{{{
+
+HasSingularPointsOverExtension(C) : Sch -> BoolElt
+
+Returns false if and only if the scheme of singularities of the curve C has support defined over the base field of C. This function requires that C be reduced.
+
+These functions report an error if p is not a singular point of C. Again, the arguments can be abbreviated to just the point if care is taken about its parent. Currently, each of these functions apply only to plane curves.
+
+Multiplicity(p) : Sch,Pt -> RngIntElt
+
+Multiplicity(C,p) : Sch,Pt -> RngIntElt
+
+The multiplicity of the plane curve C at the point p.
+}}}
+
+==== Resolution of Singularities ====
+
+
+{{{
+
+Blowup(C) : CrvPln -> CrvPln, CrvPln
+
+Given the affine plane curve C, return the two affine plane curves lying on the standard patches of the blowup of the affine plane at the origin. Note that the two curves returned are the birational transforms of C on the blowup patches. The patches are contained in the same affine space as the curve itself. If C does not contain the origin this returns an error message.
+
+Blowup(C,M) : CrvPln,Mtrx -> CrvPln, RngIntElt, RngIntElt
+
+This returns the weighted blowup of the plane curve C at the origin defined by the 2 x 2 matrix of integers M. Again, the birational transform of C is returned inside the ambient plane of C. An error is reported if M does not have determinant +- 1.
+}}}
+=== Local Intersection Theory ===
+
+The following "easy to implement" should be in Sage.
+{{{
+
+IsIntersection(C,D,p) : Sch,Sch,Pt -> BoolElt
+
+Returns true if and only if the point p lies on both curves C and D.
+
+IntersectionNumber(C,D,p) : Sch,Sch,Pt -> RngIntElt
+
+The local intersection number Ip(C, D) of the plane curves C and D at the point p. This reports an error if C or D have a common component at p.
+}}}
+
 
 
 
