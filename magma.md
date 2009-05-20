@@ -340,7 +340,7 @@ BaseChange(C, n) : Sch, RngIntElt -> Sch
 The base change of C, where the base ring of C is a finite field to the finite field which is a degree n extension of the base field of C.
 }}}
 
-It seems that Sage only has the analogue of the following magma function
+I think Sage only has the analogue of the following magma function
 
 {{{
 
@@ -349,7 +349,24 @@ BaseChange(C, K) : Sch,Rng -> Sch
 The base change of the curve C to the new base ring K. This is only possible if elements of the current base ring of C can be coerced automatically into K.
 }}}
 
+=== Some Basic Attributes of Schemes ===
 
+ Again Magma has the following functions which I couldn't find in Sage
+
+{{{
+
+JacobianIdeal(C) : Sch -> RngMPol
+
+The ideal of partial derivatives of the defining polynomials of the curve C.
+
+JacobianMatrix(C) : Sch -> ModMatRngElt
+
+The matrix of partial derivatives of the defining polynomials of the curve C.
+
+HessianMatrix(C) : Sch -> Mtrx
+
+The symmetric matrix of second partial derivatives of the defining polynomial of the plane curve C.
+}}}
 
 
 == Representation Theory ==
