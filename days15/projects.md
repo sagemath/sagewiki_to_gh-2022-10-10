@@ -2,6 +2,11 @@
 
 These are project ideas for [[days15|Sage Days 15]]
 
+== MSVC 2008 port of PARI-2.4.2.alpha0 ==
+
+
+  Do a port of PARI-2.4.2.alpha0 to MSVC 2008, including MPIR support.
+
 == Low Level Simplicial Sets, CW Complexes, and Morphisms for Simplicial Complexes and Chain Complexes ==
 
 PEOPLE: S. Ault, B. Antieau
