@@ -344,7 +344,7 @@ Again here, Sage does absolutely nothing relating to the operations listed here 
 http://magma.maths.usyd.edu.au/magma/htmlhelp/text1115.htm
 Here are several small functions that Magma has, but Sage doesn't have.
 
-These first few would be easy to implement.
+These first few would be easy to implement. (Note; I'm (Jerome) is working on this easy stuff right now. May 20th 2009)
 {{{
 Support(a) : AlgGrpElt -> SeqEnum
 
