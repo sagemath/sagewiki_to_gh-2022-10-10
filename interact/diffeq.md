@@ -267,3 +267,4 @@ def BCs(b=input_box(1,label='BC at far endpoint'), c = slider(1,5,step_size = .0
     P2 = plot(a*cos(x)+(b-a*cos(c))*sin(x)/sin(c),x,0,5)
     (P1+P2).show()
 }}}
+[[attachment:de-interact-with-BCs.sws]]
