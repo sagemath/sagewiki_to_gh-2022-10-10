@@ -108,7 +108,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 '''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 238
  
- * 5:30PM - 7:00PM: MPIR/FLINT, Bill Hart
+ * 5:30PM - 7:00PM: MPIR/FLINT, Bill Hart     [[attachment:hart-mpir.sws]]   [[attachment:hart-mpir.pdf]]
  * 7:00PM - 7:30PM: Status reports
 
  * 7:00PM - ???: Coding Sprints!!!
