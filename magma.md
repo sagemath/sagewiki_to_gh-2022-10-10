@@ -435,7 +435,8 @@ The local intersection number Ip(C, D) of the plane curves C and D at the point 
 === Divisors ===
 
 The Divisors package in Sage needs serious work to be at the level of Magma. [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1288.htm#13052|Here's]] what Magma offers.
-Also it seems to me that Sage has completely ignored the subject of Linear Equivalence of Divisors, where as Magma [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1289.htm|hasn't]]! 
+
+Also it seems to me that Sage has completely ignored the subject of Linear Equivalence of Divisors, where as Magma [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1289.htm|hasn't]] :) 
 
 
 === Function Fields ===
