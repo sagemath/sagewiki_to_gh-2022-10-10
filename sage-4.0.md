@@ -41,18 +41,91 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
 == Combinatorics ==
 
- * FIXME: summarize #5502
 
- * FIXME: summarize #5586
+ * ASCII art output for Dynkin diagrams (Dan Bump) -- Support for ASCII art representation of [[http://en.wikipedia.org/wiki/Dynkin_diagram|Dynkin diagrams]] of a finite Cartan type. Here are some examples:
+ {{{
+sage: DynkinDiagram("E6")
+
+        O 2
+        |
+        |
+O---O---O---O---O
+1   3   4   5   6   
+E6
+sage: DynkinDiagram(['E',6,1])
+
+        O 0
+        |
+        |
+        O 2
+        |
+        |
+O---O---O---O---O
+1   3   4   5   6
+E6~
+ }}}
 
 
 == Commutative Algebra ==
 
- * FIXME: summarize #5576
 
- * FIXME: summarize #5609
+ * Improved performance for {{{SR}}} (Martin Albrecht) -- The speed-up gain for {{{SR}}} is up to 6x. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
 
- * FIXME: summarize #5566
+sage: sr = mq.SR(4, 4, 4, 8, gf2=True, polybori=True, allow_zero_inversions=True)
+sage: %time F,s = sr.polynomial_system()
+CPU times: user 21.65 s, sys: 0.03 s, total: 21.68 s
+Wall time: 21.83 s
+
+
+# AFTER
+
+sage: sr = mq.SR(4, 4, 4, 8, gf2=True, polybori=True, allow_zero_inversions=True)
+sage: %time F,s = sr.polynomial_system()
+CPU times: user 3.61 s, sys: 0.06 s, total: 3.67 s
+Wall time: 3.67 s
+ }}}
+
+
+ * Symmetric Groebner bases and infinitely generated polynomial rings (Simon King, Mike Hansen) -- The new modules {{{sage/rings/polynomial/infinite_polynomial_element.py}}} and {{{sage/rings/polynomial/infinite_polynomial_ring.py}}} support computation in polynomial rings with a countably infinite number of variables. Here are some examples for working with these new modules:
+ {{{
+sage: from sage.rings.polynomial.infinite_polynomial_element import InfinitePolynomial
+sage: X.<x> = InfinitePolynomialRing(QQ)
+sage: a = InfinitePolynomial(X, "(x1 + x2)^2"); a
+x2^2 + 2*x2*x1 + x1^2
+sage: p = a.polynomial()
+sage: b = InfinitePolynomial(X, a.polynomial())
+sage: a == b
+True
+sage: InfinitePolynomial(X, int(1))
+1
+sage: InfinitePolynomial(X, 1)
+1
+sage: Y.<x,y> = InfinitePolynomialRing(GF(2), implementation="sparse")
+sage: InfinitePolynomial(Y, a)
+x2^2 + x1^2
+
+sage: X.<x,y> = InfinitePolynomialRing(QQ, implementation="sparse")
+sage: A.<a,b> = InfinitePolynomialRing(QQ, order="deglex")
+sage: f = x[5] + 2; f
+x5 + 2
+sage: g = 3*y[1]; g
+3*y1
+sage: g._p.parent()
+Univariate Polynomial Ring in y1 over Rational Field
+sage: f2 = a[5] + 2; f2
+a5 + 2
+sage: g2 = 3*b[1]; g2
+3*b1
+sage: A.polynomial_ring()
+Multivariate Polynomial Ring in b5, b4, b3, b2, b1, b0, a5, a4, a3, a2, a1, a0 over Rational Field
+sage: f + g
+3*y1 + x5 + 2
+sage: p = x[10]^2 * (f + g); p
+3*y1*x10^2 + x10^2*x5 + 2*x10^2
+ }}}
+ Furthermore, the new module {{{sage/rings/polynomial/symmetric_ideal.py}}} supports ideals of polynomial rings in a countably infinite number of variables that are invariant under variable permuation. Symmetric reduction of infinite polynomials is provided by the new module {{{sage/rings/polynomial/symmetric_reduction.pyx}}}.
 
 
 == Distribution ==
