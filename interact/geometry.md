@@ -32,7 +32,8 @@ def tetra_plot(opac = slider(srange(0,1.0,.25), default = .25)):
 {{attachment:tetrareflect.png}}
 
 == Evolutes ==
-by Pablo Angulo. Computes the evolute of a plane curve given in parametric coordinates. The curve must be parametrized from the interval [0,2pi].
+by Pablo Angulo. Computes the evolute of a plane curve given in parametric coordinates. The curve must be parametrized from the interval [0,2pi]. The following animation was done with similar code:
+http://www.uam.es/personal_pdi/ciencias/pangulo/adjuntos/evoluta.gif
 {{{
 var('t');
 def norma(v):
