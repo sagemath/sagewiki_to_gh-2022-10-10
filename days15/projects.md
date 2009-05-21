@@ -31,6 +31,12 @@ PEOPLE: Christian, John Palmieri, S. Ault, Bob Bruner
 
   * A first version is already available. Here's a page with installation instructions: [[Yacop]] 
 
+Stuff for the final report:
+
+  * Installation problems on Mac OS X fixed
+  * Defined SAGE framework for modules over the Steenrod algebra and created a first proof-of-concept implementation of some modules.
+
+
 == Quaternion Algebras (implement odd power of p dividing level case) ==
 
 PEOPLE: Alia Hamieh, Jerome Lefebvre, William Stein.
