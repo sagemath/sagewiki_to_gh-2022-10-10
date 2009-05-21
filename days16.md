@@ -14,8 +14,9 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
   1. Michael Abshoff, Technische Universität Dortmund
   1. Martin Albrecht, University of London
   1. Maite Aranes, University of Warwick
+  1. Tomasz Buchert, Adam Mickiewicz University
   1. Michal Bulant, Masaryk University
-  1. Gabriel Cardona, UPC
+  1. Gabriel Cardona, Universitat de les Illes Balears
   1. Wouter Castryck, Leuven
   1. Henri Cohen, Bordeaux
   1. Francesc Creixell, UPC
@@ -28,14 +29,17 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
   1. Jordi Guàrdia, UPC
   1. Xavier Guitart, UPC
   1. Amir Hashemi, Isfahan University of Technology (Iran)
+  1. Nikolas Karalis, National Technical University of Athens 
   1. Hamish Ivey-Law, Sydney-Marseille
   1. David Kohel, Institut de Mathématiques de Luminy
   1. Joan Carles Lario, UPC
+  1. Offray Vladimir Luna Cárdenas, Javeriana (Colombia)
   1. David Loeffler, University of Cambridge
   1. Robert Miller, University of Washington
   1. Antonio Molina, Addlink Software Científico
   1. Enric Nart, UAB
   1. Sebastian Pancratz, University of Oxford
+  1. Clement Pernet
   1. Joaquim Puig, UPC
   1. Jordi Quer, UPC
   1. Anna Río, UPC
@@ -52,6 +56,7 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
   1. Gonzalo Tornaría, Universidad de la República (Uruguay)
   1. Eulàlia Tramuns, UPC
   1. Montrserrat Vela, UPC
+  1. Preston Wake, !McMaster
   1. Christian Wuthrich, University of Nottingham
   1. Brian Wyman, Univ of Michigan
 
