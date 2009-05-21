@@ -35,6 +35,7 @@ PEOPLE: Christian, John Palmieri, S. Ault, Bob Bruner
 
 PEOPLE: Alia Hamieh, Jerome Lefebvre, William Stein.
 
+   * Alia understands all the math involves, and we'll start working on the algorithm tonight.
 
 
 == Sage/Magma Comparison Audit ==
