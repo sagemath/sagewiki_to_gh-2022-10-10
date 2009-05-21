@@ -202,3 +202,43 @@ def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), y
     show(labels + t_vert + b_vert+ triangle + kite + triangle_sum + kite_sum + edge_lines, axes=False, figsize = [11.0*.7, 4*.7], xmin = -6, ymin = 0, ymax = 4)
 }}}
 {{attachment:minksum.png}}
+== Queens on board ==
+An interaction to play with the problem of placing eight queens on a board so that they do not threaten each other. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3.
+by Pablo Angulo
+{{{
+queens=[]
+opciones=['Clean board', 'Add queen', 'Remove queen' ]
+
+@interact
+def _(queen=input_box(default=(0,0)), opcion=selector(opciones, buttons=True), auto_update=False ):
+    global queens
+    if opcion=='Clean board':
+        queens=[]
+    elif opcion=='Add queen':
+        if queen not in queens:
+            queens.append(queen)
+    else:
+        queens.remove(queen)
+        
+    board=matrix(ZZ,8,8)
+    for x in range(8):
+        for y in range(8):
+            board[x,y]=(x+y)%2*7
+    for x,y in queens:
+        for i in range(8):
+            if i!=y:  board[x,i]=1+(x+i)%2*5
+            if i!=x:  board[i,y]=1+(i+y)%2*5
+        for i in range(-min(x,y),min(8-x,8-y)):
+            if i!=0: board[x+i,y+i]=1+(x+y)%2*5
+        for i in range(max(-x,y-7),min(8-x,y+1)):
+            if i!=0: board[x+i,y-i]=1+(x+y)%2*5
+    for x,y in queens:
+        if ( board[x,y]==1 or board[x,y]==6 ):
+            print 'Queen at (%d,%d) is threatened by another queen'%(x,y)
+            board[x,y]=4  
+        else:
+            board[x,y]=3
+    show(matrix_plot(board, cmap='Oranges' ))
+    
+}}}
+{{attachment:queens.png}}
