@@ -106,7 +106,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
  * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov]], [[http://www.washington.edu/home/maps/northcentral.html?SIG|Sieg]] 134
 
-'''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?PAA|PAA]] A110
+'''Evening''': [[http://www.washington.edu/home/maps/southcentral.html?MEB|MEB]] 238
  
  * 5:30PM - 7:00PM: MPIR/FLINT, Bill Hart
  * 7:00PM - 7:30PM: Status reports
