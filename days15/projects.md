@@ -99,8 +99,8 @@ PEOPLE: Fredrik Johansson
 
 PEOPLE: Robert Bradshaw, Kiran Kedlaya
 
-  * Prepared patches to address bugs in tickets 5947, 5948; see [[http://trac.sagemath.org/sage_trac/ticket/5947|trac 5947]]. I (Kiran) have asked Jen Balakrishnan to referee this, since she found the bugs.
-  * We might look at 5430 later, but Jen says this isn't a blocker for her (as the others were).
+  * Prepared patches to address bugs in tickets 5947, 5948; see [[http://trac.sagemath.org/sage_trac/ticket/5948|trac 5948]]. These have been reviewed by Jen Balakrishnan.
+  * Prepared patch to address ticket 5430; see [[http://trac.sagemath.org/sage_trac/ticket/5430|trac 5430]].
 
 == p-adic Polynomials ==
 
