@@ -36,6 +36,32 @@ Stuff for the final report:
   * Installation problems on Mac OS X fixed
   * Defined SAGE framework for modules over the Steenrod algebra and created a first proof-of-concept implementation of some modules.
 
+== MinRes - Mininmal resolutions over the Steenrod algebra ==
+
+PEOPLE:  Bob Bruner, Christian Nassau, John Palmieri, David Roe
+
+  * Create SAGE interface to Bruner's minimal resolutions package *
+  * Package is general for mod 2 connected algebras, but currently only has
+    support for mod 2 Steenrod algebra and the subalgebra <Sq^1, Sq^2, Sq^4> 
+  * Focus is on multiplicative structure:  Ext_A(M,M) as an algebra w.r.t. Yoneda
+    product, and Ext_A(M,N) and Ext_A(N,M) modules over it.
+
+Accomplished this week:
+
+  * Crude Steenrod algebra as vector space datatype and interface to module creation and
+    minimal resolution calculation
+  * Results integrated into Yacop's GUI and database manager.
+
+Still to do:
+
+  * Integrate crude datatype into better Steenrod module datatype
+  * Implement MinRes's FP module datatype
+  * Implement chain maps (MinRes can lift an arbitrary cocycle - from this the multiplicative
+    structure is evident, including Toda brackets)
+  * Create spectral sequence datatype to accept Ext algebras and modules as inputs, and
+    differentials (calculated using Bruner's thesis in case of H_\infty ring spectra) (lazy
+    evaluation essential here) and use algebra structure to extend and explore consequences.
+
 
 == Quaternion Algebras (implement odd power of p dividing level case) ==
 
