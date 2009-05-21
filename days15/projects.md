@@ -11,12 +11,18 @@ These are project ideas for [[days15|Sage Days 15]]
 
 PEOPLE: S. Ault, B. Antieau
 
-  * S. Ault has a CW Complex class up and running (including the chain_complex() method).  The next step is to work on a homology_with_generators method within the ChainComplex (See trac #5882).
-  * B. Antieau has simplicial complex morphisms, and has the functor to morphisms of chain complexes.
+  * Rudimentary method to check if input defines a simplicial set. Brainstorming on how to make this accessible to a user.
+  * S. Ault has a CW Complex class up and running (including the chain_complex() method).  The next step is to work on a homology_with_generators method within the ChainComplex (See trac #5882 and #6100).
+    * Constructor of CW complexes from simplicial complexes.
+    * Will include some standard CW complexes for playing around with. Including various projective spaces.
+  * B. Antieau has simplicial complex morphisms, and has the functor to morphisms of chain complexes. (See trac #6099.)
     * There are simplicial complex morphism and chain complex morphism classes, and there is a method on the former to produce and instance of the latter, including base rings, augmentation, chain v. cochain.
     * Working on various associated complexes of a map, like graph, mapping_{cone,cylinder,path_space}.
     * Working on fiber products.
-    * Prepping for induced maps on homology, cohomology, ring structure on cohomology.
+    * Prepping for induced maps on homology, cohomology, ring structure on cohomology. (See trac #6101 and #6102.)
+    * Milestone for these patches is 4.0.2.
+  * All of this code is going rely heavily on William's #5882 patch for arbitrary finitely generated modules over rings with implemented Smith normal form. As the SAGE code for linear algebra gets faster, we will be able to compute more and more homology and cohomology.
+  * This all provides groundwork for the creation of modules over John Palmieri's SAGE implementation of the Steenrod algebra, which is a long-term goal.
 
 == Prime Pi ==
 
