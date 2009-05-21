@@ -172,9 +172,32 @@ sage: G.plot(vertex_colors=H)
 
 == Group Theory ==
 
- * FIXME: summarize #5664
 
- * FIXME: summarize #5844
+ * Improved efficiency of {{{is_subgroup}}} (Simon King) -- Testing whether a group is a subgroup of another group is now up to 2x faster than previously. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: G = SymmetricGroup(7)
+sage: H = SymmetricGroup(6)
+sage: %time H.is_subgroup(G)
+CPU times: user 4.12 s, sys: 0.53 s, total: 4.65 s
+Wall time: 5.51 s
+True
+sage: %timeit H.is_subgroup(G)
+10000 loops, best of 3: 118 µs per loop
+
+
+# AFTER
+
+sage: G = SymmetricGroup(7)
+sage: H = SymmetricGroup(6)
+sage: %time H.is_subgroup(G)
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
+True
+sage: %timeit H.is_subgroup(G)
+10000 loops, best of 3: 56.3 µs per loop
+ }}}
 
 
 == Interfaces ==
@@ -190,7 +213,29 @@ sage: G.plot(vertex_colors=H)
 
 == Linear Algebra ==
 
- * FIXME: summarize #5974 
+
+ * Improved performance for the generic {{{linear_combination_of_rows}}} and {{{linear_combination_of_columns}}} functions for matrices (William Stein) -- The speed-up for the generic functions {{{linear_combination_of_rows}}} and {{{linear_combination_of_columns}}} is up to 4x. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: A = random_matrix(QQ, 50)
+sage: v = [1..50]
+sage: %timeit A.linear_combination_of_rows(v);
+1000 loops, best of 3: 1.99 ms per loop
+sage: %timeit A.linear_combination_of_columns(v);
+1000 loops, best of 3: 1.97 ms per loop
+
+
+# AFTER
+
+sage: A = random_matrix(QQ, 50)
+sage: v = [1..50]
+sage: %timeit A.linear_combination_of_rows(v);
+1000 loops, best of 3: 436 µs per loop
+sage: %timeit A.linear_combination_of_columns(v);
+1000 loops, best of 3: 457 µs per loop
+ }}}
+
 
  * FIXME: summarize #5557
 
