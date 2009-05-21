@@ -127,6 +127,15 @@ PEOPLE: Mike Hansen, (William Stein), Tom Boothby
 
 PEOPLE: Rob Beezer, Fidel Barrera, John Palmieri, Emily Kirkman
 
+* Palmieri has extended ongoing general improvements to the customized applications of Latex in Sage.
+
+* Beezer, with substantial assistance from Kirkman, has provided general support for customizing Latex representations of (combinatorial) graphs, which should be useful in other areas, e.g. graphs depicting simplicial complexes, and other "diagrams" such as perhaps lattices and posets.  Work during SD15 focused on limited initial support for the tkz-graph latex package.
+
+* Barrera has provided detailed code for converting graphs, and user-supplied option, into tkz-graph commands.  Once the general setup is reviewed he will begin adding a multitude of options.
+
+* Future Work: Palmieri will continue to extend Latex support, Beezer will extend and improve the graph options infrastructure and Barrera will extend support for tkz-graph.
+
+
 [[attachment:view-graphs.png|Screenshot]]
 
 [[http://trac.sagemath.org/sage_trac/ticket/5975|Details at #5975]]
