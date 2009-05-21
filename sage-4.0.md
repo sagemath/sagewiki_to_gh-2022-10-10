@@ -39,6 +39,9 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 == Coercion ==
 
 
+ * FIXME: summarize #5582
+
+
 == Combinatorics ==
 
 
@@ -64,6 +67,9 @@ O---O---O---O---O
 1   3   4   5   6
 E6~
  }}}
+
+
+ * FIXME: summarize #5879
 
 
 == Commutative Algebra ==
@@ -140,6 +146,11 @@ sage: p = x[10]^2 * (f + g); p
 == Geometry ==
 
 
+ * FIXME: summarize #6077
+
+ * FIXME: summarize #5581
+
+
 == Graph Theory ==
 
 
@@ -167,7 +178,11 @@ sage: G.plot(vertex_colors=H)
 
 == Graphics ==
 
+
  * FIXME: summarize #5249
+
+
+ * FIXME: summarize #4875
 
 
 == Group Theory ==
@@ -330,6 +345,9 @@ Wall time: 18.43 s
  * FIXME: summarize #5796
 
 
+ * FIXME: summarize #5120
+
+
 == Modular Forms ==
 
 
@@ -408,6 +426,8 @@ sage: ModularForms(Gamma1(11), 2).hecke_matrix(2)
 
 
  * FIXME: summarize #5777
+
+ * FIXME: summarize #5930
 
 
 == Topology ==
