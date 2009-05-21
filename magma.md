@@ -340,7 +340,7 @@ BaseChange(C, n) : Sch, RngIntElt -> Sch
 The base change of C, where the base ring of C is a finite field to the finite field which is a degree n extension of the base field of C.
 }}}
 
-I think Sage only has the analogue of the following magma function
+I think Sage only has an analogue of the following magma function.
 
 {{{
 
@@ -351,7 +351,7 @@ The base change of the curve C to the new base ring K. This is only possible if 
 
 === Some Basic Attributes of Schemes ===
 
-Again Magma has the following functions which I couldn't find in Sage
+Again Magma has the following functions which I couldn't find in Sage.
 
 {{{
 
@@ -436,7 +436,7 @@ The local intersection number Ip(C, D) of the plane curves C and D at the point 
 
 The Divisors package in Sage needs serious work to be at the level of Magma. [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1288.htm#13052|Here's]] what Magma offers.
 
-Also it seems to me that Sage has completely ignored the subject of Linear Equivalence of Divisors, where as Magma [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1289.htm|hasn't]] :) 
+Also it seems to me that Sage has completely ignored the subject of Linear Equivalence of Divisors, where as Magma [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1289.htm|hasn't]] :) .
 
 
 === Function Fields ===
