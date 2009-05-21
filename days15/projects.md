@@ -97,4 +97,13 @@ PEOPLE: Fredrik Johansson
 
 == p-adic Integration ==
 
+PEOPLE: Robert Bradshaw, Kiran Kedlaya
+
+  * Prepared patches to address bugs in tickets 5947, 5948; see [[http://trac.sagemath.org/sage_trac/ticket/5947|trac 5947]]. I (Kiran) have asked Jen Balakrishnan to referee this, since she found the bugs.
+  * We might look at 5430 later, but Jen says this isn't a blocker for her (as the others were).
+
 == p-adic Polynomials ==
+
+PEOPLE: Kiran Kedlaya, David Roe
+
+  * David is preparing a large patch at [[http://trac.sagemath.org/sage_trac/ticket/6048|trac 6048]] to restructure p-adic polynomials. Besides adding new functionality, this should fix several previously reported bugs; once this is in, we should check [[http://trac.sagemath.org/sage_trac/ticket/1210|1210]], [[http://trac.sagemath.org/sage_trac/ticket/2943|2943]], [[http://trac.sagemath.org/sage_trac/ticket/4656|4656]], [[http://trac.sagemath.org/sage_trac/ticket/5075|5075]], and maybe some others.
