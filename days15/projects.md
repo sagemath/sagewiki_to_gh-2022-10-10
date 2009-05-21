@@ -94,3 +94,7 @@ PEOPLE: Rob Beezer, Fidel Barrera, John Palmieri, Emily Kirkman
 == Wrap mpmath ==
 
 PEOPLE: Fredrik Johansson
+
+== p-adic Integration ==
+
+== p-adic Polynomials ==
