@@ -97,6 +97,8 @@ PEOPLE: William Stein
 
 PEOPLE: Carl Witty
 
+  * Fixed several cases that assumed that polynomial roots were well-separated to instead do interval arithmetic with ever-increasing precision so that the correct answer will eventually be found.
+
 == Pynac Integration ==
 
 PEOPLE: Mike Hansen, William Stein, Robert Bradshaw, Carl Witty
