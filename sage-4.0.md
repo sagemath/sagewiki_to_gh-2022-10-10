@@ -207,6 +207,9 @@ sage: G.plot(vertex_colors=H)
 == Symbolics ==
 
 
+ * FIXME: summarize #5777
+
+
 == Topology ==
 
 
