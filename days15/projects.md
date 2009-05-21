@@ -59,9 +59,9 @@ Still to do:
   * Implement chain maps (MinRes can lift an arbitrary cocycle - from this the multiplicative
     structure is evident, including Toda brackets)
   * Create spectral sequence datatype to accept Ext algebras and modules as inputs, and
-    differentials (calculated using Bruner's thesis in case of H_\infty ring spectra) (lazy
+    differentials (calculated using Bruner's thesis in case of $H_\infty$ ring spectra) (lazy
     evaluation essential here) and use algebra structure to extend and explore consequences.
-
+  * Use Palmieri's Steenrod algebra routines to minimize effort in describing modules 
 
 == Quaternion Algebras (implement odd power of p dividing level case) ==
 
