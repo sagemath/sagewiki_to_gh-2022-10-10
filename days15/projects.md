@@ -43,6 +43,9 @@ PEOPLE: William Stein, Bill Hart, Robert Bradshaw, Alia Hamieh, Jerome Lefebvre.
 
   * See [[sagebeatsmagma]] and [[magma]]
 
+  * Alia compared all of the functionality in both quadratic forms package and algebraic geometry package. She also has implemented an algorithm to be included in the binary quadratic form package.
+  * Jerome has done so for representation theory and is working on improving the group algebra in sage.
+
 == CANCELLED (already in Sage!) Generalized Bernoulli Numbers ==
 
 PEOPLE: William Stein   
