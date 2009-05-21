@@ -11,7 +11,7 @@ These are project ideas for [[days15|Sage Days 15]]
 
 PEOPLE: S. Ault, B. Antieau
 
-  * S. Ault has a CW Complex class up and running (including the chain_complex() method).  The next step is to work on a homology_with_generators method within the ChainComplex
+  * S. Ault has a CW Complex class up and running (including the chain_complex() method).  The next step is to work on a homology_with_generators method within the ChainComplex (See trac #5882).
   * B. Antieau has simplicial complex morphisms, and has the functor to morphisms of chain complexes.
     * There are simplicial complex morphism and chain complex morphism classes, and there is a method on the former to produce and instance of the latter, including base rings, augmentation, chain v. cochain.
     * Working on various associated complexes of a map, like graph, mapping_{cone,cylinder,path_space}.
