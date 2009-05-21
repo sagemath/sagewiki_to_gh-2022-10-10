@@ -237,9 +237,79 @@ sage: %timeit A.linear_combination_of_columns(v);
  }}}
 
 
- * FIXME: summarize #5557
+ * Massively improved performance for {{{4 x 4}}} determinants (Tom Boothby) -- The efficiency of computing the determinants of {{{4 x 4}}} matrices can range from 16x up to 58,083x faster than previously, depending on the base ring. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
 
- * FIXME: summarize #5381
+sage: S = MatrixSpace(ZZ, 4)
+sage: M = S.random_element(1, 10^8)
+sage: timeit("M.det(); M._clear_cache()")
+625 loops, best of 3: 53 µs per loop
+sage: M = S.random_element(1, 10^10)
+sage: timeit("M.det(); M._clear_cache()")
+625 loops, best of 3: 54.1 µs per loop
+sage: 
+sage: M = S.random_element(1, 10^200)
+sage: timeit("M.det(); M._clear_cache()")
+5 loops, best of 3: 121 ms per loop
+sage: M = S.random_element(1, 10^300)
+sage: timeit("M.det(); M._clear_cache()")
+5 loops, best of 3: 338 ms per loop
+sage: M = S.random_element(1, 10^1000)
+sage: timeit("M.det(); M._clear_cache()")
+5 loops, best of 3: 9.7 s per loop
+
+
+# AFTER
+
+sage: S = MatrixSpace(ZZ, 4)
+sage: M = S.random_element(1, 10^8)
+sage: timeit("M.det(); M._clear_cache()")
+625 loops, best of 3: 3.17 µs per loop
+sage: M = S.random_element(1, 10^10)
+sage: timeit("M.det(); M._clear_cache()")
+625 loops, best of 3: 3.44 µs per loop
+sage: 
+sage: M = S.random_element(1, 10^200)
+sage: timeit("M.det(); M._clear_cache()")
+625 loops, best of 3: 15.3 µs per loop
+sage: M = S.random_element(1, 10^300)
+sage: timeit("M.det(); M._clear_cache()")
+625 loops, best of 3: 27 µs per loop
+sage: M = S.random_element(1, 10^1000)
+sage: timeit("M.det(); M._clear_cache()")
+625 loops, best of 3: 167 µs per loop
+ }}}
+
+
+ * Refactor matrix kernels (Rob Beezer) -- The core section of kernel computation for each (specialized) class is now moved into the method {{{right_kernel()}}}. Mostly these would replace {{{kernel()}}} methods that are computing left kernels. A call to {{{kernel()}}} or {{{left_kernel()}}} should arrive at the top of the hierarchy where it would take a transpose and call the (specialized) {{{right_kernel()}}}. So there wouldn't be a change in behavior in routines currently calling {{{kernel()}}} or {{{left_kernel()}}}, and Sage's preference for the left is retained by having the vanilla {{{kernel()}}} give back a left kernel. The speed-up for the computation of left kernels is up to 5% faster, and the computation of right kernels is up to 31% by eliminating paired transposes. The followingn timing statistics were obtained using sage.math:
+ {{{
+# BEFORE
+
+sage: n = 2000
+sage: entries = [[1/(i+j+1) for i in srange(n)] for j in srange(n)]
+sage: mat = matrix(QQ, entries)
+sage: %time mat.left_kernel();
+CPU times: user 21.92 s, sys: 3.22 s, total: 25.14 s
+Wall time: 25.26 s
+sage: %time mat.right_kernel();
+CPU times: user 23.62 s, sys: 3.32 s, total: 26.94 s
+Wall time: 26.94 s
+
+
+# AFTER
+
+sage: n = 2000
+sage: entries = [[1/(i+j+1) for i in srange(n)] for j in srange(n)]
+sage: mat = matrix(QQ, entries)
+sage: %time mat.left_kernel();
+CPU times: user 20.87 s, sys: 2.94 s, total: 23.81 s
+Wall time: 23.89 s
+sage: %time mat.right_kernel();
+CPU times: user 18.43 s, sys: 0.00 s, total: 18.43 s
+Wall time: 18.43 s
+ }}}
+
 
  * FIXME: summarize #5554
 
@@ -253,20 +323,32 @@ sage: %timeit A.linear_combination_of_columns(v);
  after which any use of {{{latex}}} (in a {{{%latex}}} cell or using the {{{view}}} command) will use {{{pdflatex}}}. One visually appealing aspect of this is that if you have the most recent version of [[http://pgf.sourceforge.net|pgf]] installed, as well as the {{{tkz-graph}}} package, you can produce images like the following:
 {{attachment:pgf-graph.png}}
 
+
  * FIXME: summarize #5783
+
+
+ * FIXME: summarize #5796
 
 
 == Modular Forms ==
 
- * FIXME: summarize #4337
 
- * FIXME: summarize #4357
+ * Action of Hecke operators on {{{Gamma_1(N)}}} modular forms (David Loeffler) -- Here's an example:
+ {{{
+sage: ModularForms(Gamma1(11), 2).hecke_matrix(2)
 
- * FIXME: summarize #5262
+[       -2         0         0         0         0         0         0         0         0         0]
+[        0      -381         0      -360         0       120     -4680     -6528     -1584      7752]
+[        0      -190         0      -180         0        60     -2333     -3262      -789      3887]
+[        0   -634/11         1   -576/11         0    170/11  -7642/11 -10766/11      -231  12555/11]
+[        0     98/11         0     78/11         0    -26/11   1157/11   1707/11        30  -1959/11]
+[        0    290/11         0    271/11         0    -50/11   3490/11   5019/11        99  -5694/11]
+[        0    230/11         0    210/11         0    -70/11   2807/11   3940/11        84  -4632/11]
+[        0    122/11         0    120/11         1    -40/11   1505/11   2088/11        48  -2463/11]
+[        0     42/11         0     46/11         0    -30/11    554/11    708/11        21   -970/11]
+[        0     10/11         0     12/11         0      7/11    123/11    145/11         7   -177/11]
+ }}}
 
- * FIXME: summarize #5792
-
- * FIXME: summarize #5796
 
  * FIXME: summarize #6019
 
