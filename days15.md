@@ -118,7 +118,7 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 
 '''Morning''': Final Status Reports
 
- * 1:00PM - 3:00PM: Final Status Reports in [[http://www.washington.edu/home/maps/southcentral.html?SOCC|SCC]] 248
+ * 11:00AM: Final Status Reports at Alegro Coffee Shop (probably upstairs).  (University and 15th)  Off 42nd.  Alley.
 
  * 4:00PM - 5:00PM: [[http://www.math.washington.edu/Seminars/milliman_0809.php|Andrei Okounkov]], [[http://www.washington.edu/home/maps/northcentral.html?SIG|Sieg]] 134
 
