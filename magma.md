@@ -432,7 +432,13 @@ IntersectionNumber(C,D,p) : Sch,Sch,Pt -> RngIntElt
 The local intersection number Ip(C, D) of the plane curves C and D at the point p. This reports an error if C or D have a common component at p.
 }}}
 
+=== Divisors ===
 
+The DivisorGroup package in Sage needs serious work to be at the level of Magma. [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1288.htm#13052|Here's]] what Magma offers. Also it seems to me that Sage has completely ignored the subject of Linear Equivalence of Divisors, where as Magma [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1289.htm|hasn't]]! 
+
+
+=== Function Fields ===
+Sage should have an elaborate FunctionField package, but it doesn't. Click [[http://magma.maths.usyd.edu.au/magma/htmlhelp/text1287.htm|here]] to view Magma's treatment of this subject.
 
 
 
