@@ -42,9 +42,9 @@ PEOPLE:  Bob Bruner, Christian Nassau, John Palmieri, David Roe
 
   * Create SAGE interface to Bruner's minimal resolutions package *
   * Package is general for mod 2 connected algebras, but currently only has
-    support for mod 2 Steenrod algebra and the subalgebra <Sq^1, Sq^2, Sq^4> 
-  * Focus is on multiplicative structure:  Ext_A(M,M) as an algebra w.r.t. Yoneda
-    product, and Ext_A(M,N) and Ext_A(N,M) modules over it.
+    support for mod 2 Steenrod algebra and the subalgebra <$Sq^1$, $Sq^2$, $Sq^4$> 
+  * Focus is on multiplicative structure:  $Ext_A(M,M)$ as an algebra w.r.t. Yoneda
+    product, and $Ext_A(M,N)$ and $Ext_A(N,M)$ modules over it.
 
 Accomplished this week:
 
