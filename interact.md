@@ -14,7 +14,7 @@ This is a collection of pages demonstrating the use of the interact command in S
  * [[interact/bio|Bioinformatics]]
  * [[interact/geometry|Geometry]]
  * [[interact/graphics|Drawing Graphics]]
- * [[iteract/games|Games and Diversions]]
+ * [[interact/games|Games and Diversions]]
  * [[interact/misc|Miscellaneous]]
 
 == Explanatory example: Taylor Series ==
