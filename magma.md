@@ -240,6 +240,9 @@ Magma has a wide-ranging package implemented principally by Paul van Wamelen for
 
 http://magma.maths.usyd.edu.au/magma/htmlhelp/text1400.htm
 == Quadratic Forms ==
+
+A patch from Alia to help improve the balance [[http://trac.sagemath.org/sage_trac/ticket/6106|trac 6106]].
+
 === Binary Quadratic Forms ===
 Magma has the following and Sage doesn't.
 
