@@ -11,7 +11,26 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
  * Deprecate the {{{order()}}} method on elements of rings (John Palmieri) -- The method {{{order()}}} of the class {{{sage.structure.element.RingElement}}} is now deprecated and will be removed in a future release. For additive or multiplicative order, use the {{{additive_order}}} or {{{multiplicative_order}}} method respectively.
 
 
- * FIXME: summarize #6052
+ * Partial fraction decomposition for irreducible denominators (Gonzalo Tornaria) -- For example, over the field {{{ZZ[x]}}} you can do
+ {{{
+sage: R.<x> = ZZ["x"]
+sage: q = x^2 / (x - 1)
+sage: q.partial_fraction_decomposition()
+(x + 1, [1/(x - 1)])
+sage: q = x^10 / (x - 1)^5
+sage: whole, parts = q.partial_fraction_decomposition()
+sage: whole + sum(parts)
+x^10/(x^5 - 5*x^4 + 10*x^3 - 10*x^2 + 5*x - 1)
+sage: whole + sum(parts) == q
+True
+ }}}
+ and over the finite field {{{GF(2)[x]}}}:
+ {{{
+sage: R.<x> = GF(2)["x"]
+sage: q = (x + 1) / (x^3 + x + 1)
+qsage: q.partial_fraction_decomposition()
+(0, [(x + 1)/(x^3 + x + 1)])
+ }}}
 
 
 == Algebraic Geometry ==
@@ -27,8 +46,29 @@ Sage 4.0 was released on FIXME. For the official, comprehensive release note, pl
 
  * FIXME: summarize #6036
 
- * FIXME: summarize #6080
 
+ * Utility methods for integer arithmetics (Fredrik Johansson) -- New methods {{{trailing_zero_bits()}}} and {{{sqrtrem()}}} for the class {{{Integer}}} in {{{sage/rings/integer.pyx}}}:
+  * {{{trailing_zero_bits(self)}}} -- Returns the number of trailing zero bits in {{{self}}}, i.e. the exponent of the largest power of 2 dividing {{{self}}}.
+  * {{{sqrtrem(self)}}} -- Returns a pair {{{(s, r)}}} where {{{s}}} is the integer square root of {{{self}}} and {{{r}}} is the remainder such that {{{self = s^2 + r}}}.
+ Here are some examples for working with these new methods:
+ {{{
+sage: 13.trailing_zero_bits()
+0
+sage: (-13).trailing_zero_bits()
+0
+sage: (-13 >> 2).trailing_zero_bits()
+2
+sage: (-13 >> 3).trailing_zero_bits()
+1
+sage: (-13 << 3).trailing_zero_bits()
+3
+sage: (-13 << 2).trailing_zero_bits()
+2
+sage: 29.sqrtrem()
+(5, 4)
+sage: 25.sqrtrem()
+(5, 0)
+ }}}
 
 == Build ==
 
@@ -69,7 +109,43 @@ E6~
  }}}
 
 
- * FIXME: summarize #5879
+ * Crystal of letters for type E (Dan Bump) -- Support crystal of letters for type E corresponding to the highest weight crystal {{{B(\Lambda_1)}}} and its dual {{{B(\Lambda_6)}}} (using the Sage labelling convention of the Dynkin nodes). Here are some examples:
+ {{{
+sage: C = CrystalOfLetters(['E',6])
+sage: C.list()
+
+[[1],
+ [-1, 3],
+ [-3, 4],
+ [-4, 2, 5],
+ [-2, 5],
+ [-5, 2, 6],
+ [-2, -5, 4, 6],
+ [-4, 3, 6],
+ [-3, 1, 6],
+ [-1, 6],
+ [-6, 2],
+ [-2, -6, 4],
+ [-4, -6, 3, 5],
+ [-3, -6, 1, 5],
+ [-1, -6, 5],
+ [-5, 3],
+ [-3, -5, 1, 4],
+ [-1, -5, 4],
+ [-4, 1, 2],
+ [-1, -4, 2, 3],
+ [-3, 2],
+ [-2, -3, 4],
+ [-4, 5],
+ [-5, 6],
+ [-6],
+ [-2, 1],
+ [-1, -2, 3]]
+sage: C = CrystalOfLetters(['E',6], element_print_style="compact")
+sage: C.list()
+
+[+, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+ }}}
 
 
 == Commutative Algebra ==
@@ -146,9 +222,28 @@ sage: p = x[10]^2 * (f + g); p
 == Geometry ==
 
 
- * FIXME: summarize #6077
+ * Simplicial complex method for polytopes (Marshall Hampton) -- New method {{{simplicial_complex()}}} in the class {{{Polyhedron}}} of {{{sage/geometry/polyhedra.py}}} for computing the simplicial complex from a triangulation of the polytope. Here's an example:
+ {{{
+sage: p = polytopes.cuboctahedron()
+sage: p.simplicial_complex()
+Simplicial complex with 13 vertices and 20 facets
+ }}}
 
- * FIXME: summarize #5581
+
+ * Face lattices and f-vectors for polytopes (Marshall Hampton) -- New methods {{{face_lattice()}}} and {{{f_vector()}}} in the class {{{Polyhedron}}} of {{{sage/geometry/polyhedra.py}}}:
+  * {{{face_lattice()}}} -- Returns the face-lattice poset.  Elements are tuples of (vertices, facets) which keeps track of both the vertices in each face, and all the facets containing them. This method implements the results from the following paper:
+   * V. Kaibel and M.E. Pfetsch. Computing the face lattice of a polytope from its vertex-facet incidences. Computational Geometry, 23(3):281--290, 2002.
+  * {{{f_vector()}}} -- Returns the f-vector of a polytope as a list.
+ Here are some examples:
+ {{{
+sage: c5_10 = Polyhedron(vertices = [[i,i^2,i^3,i^4,i^5] for i in xrange(1,11)]) 
+sage: c5_10_fl = c5_10.face_lattice()
+sage: [len(x) for x in c5_10_fl.level_sets()]
+[1, 10, 45, 100, 105, 42, 1]
+sage: p = Polyhedron(vertices = [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1], [0, 0, 0]])
+sage: p.f_vector()
+[1, 7, 12, 7, 1]
+ }}}
 
 
 == Graph Theory ==
