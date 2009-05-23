@@ -32,8 +32,7 @@ def tetra_plot(opac = slider(srange(0,1.0,.25), default = .25)):
 {{attachment:tetrareflect.png}}
 
 == Evolutes ==
-by Pablo Angulo. Computes the evolute of a plane curve given in parametric coordinates. The curve must be parametrized from the interval [0,2pi]. The following animation was done with similar code:
-http://www.uam.es/personal_pdi/ciencias/pangulo/adjuntos/evoluta.gif
+by Pablo Angulo. Computes the evolute of a plane curve given in parametric coordinates. The curve must be parametrized from the interval [0,2pi].
 {{{
 var('t');
 def norma(v):
@@ -41,9 +40,13 @@ def norma(v):
 paso_angulo=5
 
 @interact
-def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)), 
-    rango_angulos=range_slider(0,360,paso_angulo,(0,45),label='Draw lines for these angles') ):
-    print rango_angulos
+def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)),
+    draw_normal_lines=True, 
+    rango_angulos=range_slider(0,360,paso_angulo,(0,90),label='Draw lines for these angles'), 
+    draw_osculating_circle=True, 
+    t0=input_box(default=pi/3,label='parameter value for the osculating circle'), 
+    auto_update=False ):
+        
     gamma=(gamma1,gamma2)
     gammap=(gamma[0].derivative(),gamma[1].derivative())
     normal=(gammap[1]/norma(gammap), -gammap[0]/norma(gammap))
@@ -52,15 +55,27 @@ def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)),
     np=norma(gammap)
     npp=norma(gammapp)
     pe=gammap[0]*gammapp[0]+gammap[1]*gammapp[1]
-    radio=np^3/sqrt(np^2*npp^2-pe^2)
+    curvatura=(gammap[1]*gammapp[0]-gammap[0]*gammapp[1])/norma(gammap)^3
+    radio=1/curvatura
+        
     centros=(gamma[0]+radio*normal[0],gamma[1]+radio*normal[1])
-    
+            
     curva=parametric_plot(gamma,(t,0,2*pi))
     evoluta=parametric_plot(centros,(t,0,2*pi), color='red')
+    grafica=curva+evoluta
 
-    f=2*pi/360
-    lineas=sum(line2d([(gamma[0](t=i*f), gamma[1](t=i*f)), (centros[0](t=i*f), centros[1](t=i*f)) ], thickness=1,rgbcolor=(1,0.8,0.8)) for i in range(rango_angulos[0],rango_angulos[1]+paso_angulo,paso_angulo))
+    if draw_normal_lines:
+        f=2*pi/360
+        lineas=sum(line2d( [ (gamma[0](t=i*f), gamma[1](t=i*f)), 
+                             (centros[0](t=i*f), centros[1](t=i*f)) ], 
+                           thickness=1,rgbcolor=(1,0.8,0.8)) 
+                   for i in range(rango_angulos[0], rango_angulos[1]+paso_angulo, paso_angulo))
+        grafica+=lineas
+    
+    if draw_osculating_circle and 0<t0<2*pi:
+        punto=point((gamma[0](t=t0), gamma[1](t=t0)), rgbcolor=hue(0),pointsize=30)
+        circulo=circle( (centros[0](t=t0), centros[1](t=t0)), radio(t=t0) )  
+        grafica+=punto+circulo
 
-    show(curva+evoluta+lineas,aspect_ratio=1,xmin=-2,xmax=2,ymin=-2,ymax=2)
-}}}
+    show(grafica,aspect_ratio=1,xmin=-2,xmax=2,ymin=-2,ymax=2)}}}
 {{attachment:evoluta3.png}}
