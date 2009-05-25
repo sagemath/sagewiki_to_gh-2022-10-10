@@ -19,9 +19,11 @@
 
     * 2. Calculus
 
-          * 2.1. Differential Calculus [[attachment:calculus.differential_calculus_1.0.sws]]
+          * 2.1. Limits Calculus [Jose Guzman]
 
-          * 2.2. Integral Calculus [Sourav]
+          * 2.2. Differential Calculus [[attachment:calculus.differential_calculus_1.0.sws]]
+
+          * 2.3. Integral Calculus [Sourav]
 
     * 3. Linear Algebra
 
