@@ -19,7 +19,7 @@
 
     * 2. Calculus
 
-          * 2.1. Limits Calculus [[attachment:Analysis_tutorial_Limits_v1.0.2.sws]][Jose Guzman]
+          * 2.1. Limits Calculus [[attachment:Analysis_tutorial_Limits_v1.0.2.sws]] by Jose Guzman
 
           * 2.2. Differential Calculus [[attachment:calculus.differential_calculus_1.0.sws]]
 
