@@ -2,15 +2,10 @@
 
 == DATES: May 16 - 21, 2009 ==
 
-== Need to get into MEB? ==
-David Roe's cell: 503-476-4894
 
-== UW Campus Wireless ==
+== Video and Photos ==
 
-{{{
-UW NetID:        event0928
-Password:       72UV-67CX-75GK
-}}}
+ * http://wstein.org/sagedays15/
 
 
 
@@ -131,9 +126,6 @@ All talks on Saturday and Sunday are in the Gates Common, room 691 in the [[http
 == Mailing list ==
  * http://groups.google.com/group/sagedays15
 
-== Video ==
-
- * http://sage.math.washington.edu/home/wstein/sagedays15/
 
 == Topics ==
  * Computational Algebraic Topology
