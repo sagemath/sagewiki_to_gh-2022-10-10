@@ -109,7 +109,7 @@ E6~
  }}}
 
 
- * Crystal of letters for type E (Dan Bump) -- Support crystal of letters for type E corresponding to the highest weight crystal {{{B(\Lambda_1)}}} and its dual {{{B(\Lambda_6)}}} (using the Sage labelling convention of the Dynkin nodes). Here are some examples:
+ * Crystal of letters for type E (Brant Jones and Anne Schilling) -- Support crystal of letters for type E corresponding to the highest weight crystal {{{B(\Lambda_1)}}} and its dual {{{B(\Lambda_6)}}} (using the Sage labeling convention of the Dynkin nodes). Here are some examples:
  {{{
 sage: C = CrystalOfLetters(['E',6])
 sage: C.list()
