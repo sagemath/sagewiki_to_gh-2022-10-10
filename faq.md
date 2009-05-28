@@ -82,6 +82,13 @@ You can browse the complete source code to everything in Sage at http://www.sage
 
 == Working in Sage ==
 
+=== Why is Sage's command history different than Magma's ===
+
+ * QUESTION: Using Sage, I am missing a feature of Magma command line interface. In Magma, if I enter a line found in history using up arrow key, and then
+press down arrow key, then the next line in history is fetched. This feature allows me to fetch as many successive lines in history as like. Does Sage(or readline) have a similar feature?
+ * ANSWER: No, Sage does not have a similar feature.  The IPython command prompt uses the readline library (via pyreadline), which evidently doesn't support this feature.  Magma has its own custom "readline-like" library, which does support this feature.   (Since so many people have requested this feature, if anybody can figure out how to implement it, then such an implementation would certainly be welcome!)
+
+
 === Type issues using scipy, cvxopt or numpy from Sage ===
 
  * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
