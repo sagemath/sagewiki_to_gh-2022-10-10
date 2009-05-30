@@ -2,6 +2,17 @@
 
 = Integer Factorization =
 
+== Divisibility Poset ==
+by William Stein
+{{{
+@interact
+def _(n=(5..100)):
+    Poset(([1..n], lambda x, y: y%x == 0) ).show()
+}}}
+
+{{attachment:divposet.png}}
+
+
 == Factor Trees ==
 by William Stein
 {{{
