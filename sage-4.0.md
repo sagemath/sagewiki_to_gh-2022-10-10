@@ -76,6 +76,9 @@ sage: 25.sqrtrem()
 == Calculus ==
 
 
+ * FIXME: summarize #6111
+
+
 == Coercion ==
 
 
@@ -423,6 +426,8 @@ Wall time: 18.43 s
 
  * FIXME: summarize #5554
 
+ * FIXME: summarize #6115
+
 
 == Miscellaneous ==
 
@@ -502,6 +507,10 @@ sage: ModularForms(Gamma1(11), 2).hecke_matrix(2)
  * FIXME: summarize #6032
 
  * FIXME: summarize #6024
+
+ * FIXME: summarize #6145
+
+ * FIXME: summarize #5218
 
 
 == P-adics ==
