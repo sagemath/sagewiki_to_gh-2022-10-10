@@ -279,10 +279,10 @@ sage: G.plot(vertex_colors=H)
 == Graphics ==
 
 
- * FIXME: summarize #5249
+ * Implicit Surfaces (Bill Cauchois, Carl Witty) -- implicit_plot3d plots level sets of 3D functions.
 
 
- * FIXME: summarize #4875
+ * Fixed bug in rendering 2D polytopes embedded in 3D (Arnauld Bergeron, Bill Cauchois, Marshall Hampton).
 
 
 == Group Theory ==
