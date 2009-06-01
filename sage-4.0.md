@@ -635,17 +635,17 @@ sage: OverconvergentModularForms(2,1,1/3,char=DirichletGroup(4,QQ).0).slopes(5)
 
 == Number Theory ==
 
- * FIXME: summarize #5250
+ * Fixed bug in multiplicative_generator function for Z/NZ (#5250)
 
- * FIXME: summarize #6013
+ * Rewritten relativization of number fields relativize to be much faster (#6013)
 
- * FIXME: summarize #6008
+ * Improved efficiency of elliptic curve torsion computation (#6008)
 
- * FIXME: summarize #6004
+ * Added odd_degree_model function to hyperelliptic curves (#6004)
 
- * FIXME: summarize #6059
+ * Fixed speed regresion in hilbert_symbol (#6059)
 
- * FIXME: summarize #6064
+ * Rational arguments are now allowed in kronecker_symbol and legendre_symbol (#6064)
 
 
 == Numerical ==
