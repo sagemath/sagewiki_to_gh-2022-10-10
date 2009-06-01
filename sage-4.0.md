@@ -523,15 +523,6 @@ sage: %timeit a.det()
 {{attachment:pgf-graph.png}}
 
 
- * FIXME: summarize #5783
-
-
- * FIXME: summarize #5796
-
-
- * FIXME: summarize #5120
-
-
 == Modular Forms ==
 
 
@@ -552,9 +543,13 @@ sage: ModularForms(Gamma1(11), 2).hecke_matrix(2)
  }}}
 
 
- * FIXME: summarize #6019
-
- * FIXME: summarize #5924
+ * Slopes of {{{U_p}}} operator acting on a space of overconvergent modular forms (Lloyd Kilford) -- New method {{{slopes}}} of the class {{{OverconvergentModularFormsSpace}}} in {{{sage/modular/overconvergent/genus0.py}}} for computing the slopes of the {{{U_p}}} operator acting on a space of overconvergent modular forms. Here are some examples of using this new method:
+ {{{
+sage: OverconvergentModularForms(5,2,1/3,base_ring=Qp(5),prec=100).slopes(5)
+[0, 2, 5, 6, 9]
+sage: OverconvergentModularForms(2,1,1/3,char=DirichletGroup(4,QQ).0).slopes(5)
+[0, 2, 4, 6, 8]
+ }}}
 
 
 == Notebook ==
