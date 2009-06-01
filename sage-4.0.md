@@ -271,7 +271,28 @@ sage: G.plot(vertex_colors=H)
 {{attachment:graph-colour-2.png}}
 
 
- * FIXME: summarize #6066
+ * Optimize the construction of large Sage graphs (Radoslav Kirov) -- The construction of large Sage graphs is now up to 19x faster than previously. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: D = {}
+sage: for i in xrange(10^3):
+....:     D[i] = [i+1, i-1]
+....:     
+sage: timeit("g = Graph(D)")
+5 loops, best of 3: 1.02 s per loop
+
+
+# AFTER
+
+sage: D = {}
+sage: for i in xrange(10^3):
+....:     D[i] = [i+1, i-1]
+....:     
+sage: timeit("g = Graph(D)")
+5 loops, best of 3: 51.2 ms per loop
+ }}}
+
 
  * FIXME: summarize #3932
 
