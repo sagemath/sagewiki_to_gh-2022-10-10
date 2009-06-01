@@ -279,7 +279,14 @@ sage: G.plot(vertex_colors=H)
 == Graphics ==
 
 
- * Implicit Surfaces (Bill Cauchois, Carl Witty) -- implicit_plot3d plots level sets of 3D functions.
+ * Implicit Surfaces (Bill Cauchois, Carl Witty) -- implicit_plot3d plots level sets of 3D functions.  There are many nice examples in the documentation, here is one:
+ {{{var('x,y,z')
+T = 1.61803398875
+p = 2 - (cos(x + T*y) + cos(x - T*y) + cos(y + T*z) + cos(y - T*z) + cos(z - T*x) + cos(z + T*x)) 
+r = 4.77
+implicit_plot3d(p, (-r, r), (-r, r), (-r, r), plot_points=40).show()
+ }}}
+{{{attachment:impplot.png}}}
 
 
  * Fixed bug in rendering 2D polytopes embedded in 3D (Arnauld Bergeron, Bill Cauchois, Marshall Hampton).
