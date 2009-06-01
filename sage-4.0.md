@@ -300,14 +300,28 @@ sage: timeit("g = Graph(D)")
 == Graphics ==
 
 
- * Implicit Surfaces (Bill Cauchois, Carl Witty) -- implicit_plot3d plots level sets of 3D functions.  There are many nice examples in the documentation, here is one:
- {{{var('x,y,z')
-T = 1.61803398875
-p = 2 - (cos(x + T*y) + cos(x - T*y) + cos(y + T*z) + cos(y - T*z) + cos(z - T*x) + cos(z + T*x)) 
-r = 4.77
-implicit_plot3d(p, (-r, r), (-r, r), (-r, r), plot_points=40).show()
+ * Implicit Surfaces (Bill Cauchois, Carl Witty) -- New function {{{implicit_plot3d}}} for plotting level sets of 3-D functions.  The documentation contains many examples. Here's a sphere contained inside a tube-like sphere:
+ {{{
+sage: x, y, z = var("x, y, z")
+sage: T = 1.61803398875
+sage: p = 2 - (cos(x + T*y) + cos(x - T*y) + cos(y + T*z) + cos(y - T*z) + cos(z - T*x) + cos(z + T*x))
+sage: r = 4.77
+sage: implicit_plot3d(p, (-r, r), (-r, r), (-r, r), plot_points=40, zoom=1.2).show()
  }}}
-{{{attachment:impplot.png}}}
+{{attachment:sphere-inside-tube.png}}
+ Here's a Klein bottle:
+ {{{
+sage: x, y, z = var("x, y, z")
+sage: implicit_plot3d((x^2+y^2+z^2+2*y-1)*((x^2+y^2+z^2-2*y-1)^2-8*z^2)+16*x*z*(x^2+y^2+z^2-2*y-1), (x, -3, 3), (y, -3.1, 3.1), (z, -4, 4), zoom=1.2)
+ }}}
+{{attachment:klein-bottle.png}}
+ This example shows something resembling a water droplet:
+
+ {{{
+sage: x, y, z = var("x, y, z")
+sage: implicit_plot3d(x^2 +y^2 -(1-z)*z^2, (x, -1.5, 1.5), (y, -1.5, 1.5), (z, -1, 1), zoom=1.2)
+ }}}
+{{attachment:water-droplet.png}}
 
 
  * Fixed bug in rendering 2D polytopes embedded in 3D (Arnauld Bergeron, Bill Cauchois, Marshall Hampton).
