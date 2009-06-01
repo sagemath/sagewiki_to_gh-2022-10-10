@@ -44,8 +44,6 @@ qsage: q.partial_fraction_decomposition()
 
 == Basic Arithmetic ==
 
- * FIXME: summarize #6036
-
 
  * Utility methods for integer arithmetics (Fredrik Johansson) -- New methods {{{trailing_zero_bits()}}} and {{{sqrtrem()}}} for the class {{{Integer}}} in {{{sage/rings/integer.pyx}}}:
   * {{{trailing_zero_bits(self)}}} -- Returns the number of trailing zero bits in {{{self}}}, i.e. the exponent of the largest power of 2 dividing {{{self}}}.
@@ -82,7 +80,15 @@ sage: 25.sqrtrem()
 == Coercion ==
 
 
- * FIXME: summarize #5582
+ * Coercion from float to rationals (Robert Bradshaw) -- One can now coerce a number of type float to {{{QQ}}}. Here's an example:
+ {{{
+sage: a = float(1.0)
+sage: QQ(a)
+1
+sage: type(a); type(QQ(a))
+<type 'float'>
+<type 'sage.rings.rational.Rational'>
+ }}}
 
 
 == Combinatorics ==
@@ -112,7 +118,7 @@ E6~
  }}}
 
 
- * Crystal of letters for type E (Brant Jones and Anne Schilling) -- Support crystal of letters for type E corresponding to the highest weight crystal {{{B(\Lambda_1)}}} and its dual {{{B(\Lambda_6)}}} (using the Sage labeling convention of the Dynkin nodes). Here are some examples:
+ * Crystal of letters for type E (Brant Jones, Anne Schilling) -- Support crystal of letters for type E corresponding to the highest weight crystal {{{B(\Lambda_1)}}} and its dual {{{B(\Lambda_6)}}} (using the Sage labeling convention of the Dynkin nodes). Here are some examples:
  {{{
 sage: C = CrystalOfLetters(['E',6])
 sage: C.list()
@@ -269,10 +275,6 @@ sage: G.plot(vertex_colors=H)
 
  * FIXME: summarize #3932
 
- * FIXME: summarize #5940
-
- * FIXME: summarize #6086
-
 
 == Graphics ==
 
@@ -424,7 +426,66 @@ Wall time: 18.43 s
  }}}
 
 
- * FIXME: summarize #5554
+ * Cholesky decomposition for matrices other than {{{RDF}}} (Nick Alexander) -- The method {{{cholesky()}}} of the class {{{Matrix_double_dense}}} in {{{sage/matrix/matrix_double_dense.pyx}}} is now deprecated and will be removed in a future release. Users are advised to use {{{cholesky_decomposition()}}} instead. The new method {{{cholesky_decomposition()}}} in the class {{{Matrix}}} of {{{sage/matrix/matrix2.pyx}}} can be used to compute the Cholesky decomposition of matrices with entries over arbitrary precision real and complex fields. Here's an example over the real double field:
+ {{{
+sage: r = matrix(RDF, 5, 5, [ 0,0,0,0,1, 1,1,1,1,1, 16,8,4,2,1, 81,27,9,3,1, 256,64,16,4,1 ])
+sage: m = r * r.transpose(); m
+
+[    1.0     1.0     1.0     1.0     1.0]
+[    1.0     5.0    31.0   121.0   341.0]
+[    1.0    31.0   341.0  1555.0  4681.0]
+[    1.0   121.0  1555.0  7381.0 22621.0]
+[    1.0   341.0  4681.0 22621.0 69905.0]
+sage: L = m.cholesky_decomposition(); L
+
+[          1.0           0.0           0.0           0.0           0.0]
+[          1.0           2.0           0.0           0.0           0.0]
+[          1.0          15.0 10.7238052948           0.0           0.0]
+[          1.0          60.0 60.9858144589 7.79297342371           0.0]
+[          1.0         170.0 198.623524155 39.3665667796 1.72309958068]
+sage: L.parent()
+Full MatrixSpace of 5 by 5 dense matrices over Real Double Field
+sage: L*L.transpose()
+
+[    1.0     1.0     1.0     1.0     1.0]
+[    1.0     5.0    31.0   121.0   341.0]
+[    1.0    31.0   341.0  1555.0  4681.0]
+[    1.0   121.0  1555.0  7381.0 22621.0]
+[    1.0   341.0  4681.0 22621.0 69905.0]
+sage: ( L*L.transpose() - m ).norm(1) < 2^-30
+True
+ }}}
+ Here's an example over a higher precision real field:
+ {{{
+sage: r = matrix(RealField(100), 5, 5, [ 0,0,0,0,1, 1,1,1,1,1, 16,8,4,2,1, 81,27,9,3,1, 256,64,16,4,1 ])
+sage: m = r * r.transpose()
+sage: L = m.cholesky_decomposition()
+sage: L.parent()
+Full MatrixSpace of 5 by 5 dense matrices over Real Field with 100 bits of precision
+sage: ( L*L.transpose() - m ).norm(1) < 2^-50
+True
+ }}}
+ Here's a Hermitian example:
+ {{{
+sage: r = matrix(CDF, 2, 2, [ 1, -2*I, 2*I, 6 ]); r
+
+[   1.0 -2.0*I]
+[ 2.0*I    6.0]
+sage: r.eigenvalues()
+[0.298437881284, 6.70156211872]
+sage: ( r - r.conjugate().transpose() ).norm(1) < 1e-30
+True
+sage: L = r.cholesky_decomposition(); L
+
+[          1.0             0]
+[        2.0*I 1.41421356237]
+sage: ( r - L*L.conjugate().transpose() ).norm(1) < 1e-30
+True
+sage: L.parent()
+Full MatrixSpace of 2 by 2 dense matrices over Complex Double Field
+ }}}
+ Note that the implementation uses a standard recursion that is not known to be numerically stable. Furthermore, it is potentially expensive to ensure that the input is positive definite.  Therefore this is not checked and it is possible that the output matrix is not a valid Cholesky decomposition of a matrix.
+
 
  * FIXME: summarize #6115
 
