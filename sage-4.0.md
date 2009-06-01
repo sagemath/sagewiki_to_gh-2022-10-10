@@ -294,7 +294,50 @@ sage: timeit("g = Graph(D)")
  }}}
 
 
- * FIXME: summarize #3932
+ * Generate size {{{n}}} trees in linear time (Ryan Dingman) -- The speed-up can be up to 3400x. However, the efficiency gain is greater as {{{n}}} becomes larger. The following timing statistics were produced using the maching sage.math:
+ {{{
+# BEFORE
+
+sage: %time L = list(graphs.trees(2))
+CPU times: user 0.13 s, sys: 0.02 s, total: 0.15 s
+Wall time: 0.18 s
+sage: %time L = list(graphs.trees(4))
+CPU times: user 0.02 s, sys: 0.00 s, total: 0.02 s
+Wall time: 0.02 s
+sage: %time L = list(graphs.trees(6))
+CPU times: user 0.08 s, sys: 0.00 s, total: 0.08 s
+Wall time: 0.07 s
+sage: %time L = list(graphs.trees(8))
+CPU times: user 0.59 s, sys: 0.00 s, total: 0.59 s
+Wall time: 0.60 s
+sage: %time L = list(graphs.trees(10))
+CPU times: user 34.48 s, sys: 0.02 s, total: 34.50 s
+Wall time: 34.51 s
+
+
+# AFTER
+sage: %time L = list(graphs.trees(2))
+CPU times: user 0.11 s, sys: 0.02 s, total: 0.13 s
+Wall time: 0.15 s
+sage: %time L = list(graphs.trees(4))
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.00 s
+sage: %time L = list(graphs.trees(6))
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
+sage: %time L = list(graphs.trees(8))
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
+sage: %time L = list(graphs.trees(10))
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.01 s
+sage: %time L = list(graphs.trees(12))
+CPU times: user 0.06 s, sys: 0.00 s, total: 0.06 s
+Wall time: 0.05 s
+sage: %time L = list(graphs.trees(14))
+CPU times: user 0.51 s, sys: 0.01 s, total: 0.52 s
+Wall time: 0.52 s
+ }}}
 
 
 == Graphics ==
