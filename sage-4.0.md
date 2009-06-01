@@ -494,7 +494,23 @@ Full MatrixSpace of 2 by 2 dense matrices over Complex Double Field
  Note that the implementation uses a standard recursion that is not known to be numerically stable. Furthermore, it is potentially expensive to ensure that the input is positive definite.  Therefore this is not checked and it is possible that the output matrix is not a valid Cholesky decomposition of a matrix.
 
 
- * FIXME: summarize #6115
+ * Make symbolic matrices use pynac symbolics (Mike Hansen, Jason Grout) -- Using Pynac symbolics, calculating the determinant of a symbolic matrix can be up to 2500x faster than previously. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: x00, x01, x10, x11 = var("x00, x01, x10, x11")
+sage: a = matrix(2, [[x00,x01], [x10,x11]])
+sage: %timeit a.det()
+100 loops, best of 3: 8.29 ms per loop
+
+
+# AFTER
+
+sage: x00, x01, x10, x11 = var("x00, x01, x10, x11")
+sage: a = matrix(2, [[x00,x01], [x10,x11]])
+sage: %timeit a.det()
+100000 loops, best of 3: 3.2 µs per loop
+ }}}
 
 
 == Miscellaneous ==
