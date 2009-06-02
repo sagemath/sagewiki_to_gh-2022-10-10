@@ -727,7 +727,9 @@ sage: legendre_symbol(2/3,7)
 
 == Packages ==
 
- * FIXME: summarize #4223
+
+ * Upgrade [[http://perso.ens-lyon.fr/damien.stehle/#software|fpLLL]] to latest upstream release version 3.0.12 (Michael Abshoff)
+
 
  * FIXME: summarize #6031
 
