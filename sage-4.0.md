@@ -660,15 +660,66 @@ sage: len(AbelianGroup([2,4,8]).subgroups())
  }}}
 
 
- * Rewritten relativization of number fields relativize to be much faster (#6013)
+ * Speed-up relativization of number fields (Nick Alexander) -- The efficiency gain of relativizing a number field is up to 16%. Futhermore, the rewrite of the method {{{relativize()}}} allows for relativization over large number fields. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
 
- * Improved efficiency of elliptic curve torsion computation (#6008)
+sage: K.<a> = NumberField(x^10 - 2)
+sage: %time L.<c,d> = K.relativize(a^4 + a^2 + 2)
+CPU times: user 0.06 s, sys: 0.00 s, total: 0.06 s
+Wall time: 0.06 s
 
- * Added odd_degree_model function to hyperelliptic curves (#6004)
 
- * Fixed speed regresion in hilbert_symbol (#6059)
+#AFTER
 
- * Rational arguments are now allowed in kronecker_symbol and legendre_symbol (#6064)
+sage: K.<a> = NumberField(x^10 - 2)
+sage: %time L.<c,d> = K.relativize(a^4 + a^2 + 2)
+CPU times: user 0.05 s, sys: 0.01 s, total: 0.06 s
+Wall time: 0.05 s
+ }}}
+
+
+ * Improved efficiency of elliptic curve torsion computation (John Cremona) -- The speed-up of computing elliptic curve torsion can be up to 12%. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: F.<z> = CyclotomicField(21)
+sage: E = EllipticCurve([2,-z^7,-z^7,0,0])
+sage: time E._p_primary_torsion_basis(7);
+CPU times: user 9.87 s, sys: 0.07 s, total: 9.94 s
+Wall time: 9.95 s
+
+
+# AFTER
+
+sage: F.<z> = CyclotomicField(21)
+sage: E = EllipticCurve([2,-z^7,-z^7,0,0])
+sage: time E._p_primary_torsion_basis(7,2);
+CPU times: user 8.56 s, sys: 0.11 s, total: 8.67 s
+Wall time: 8.67 s
+ }}}
+
+
+ * New method {{{odd_degree_model()}}} for hyperelliptic curves (Nick Alexander) -- The new method {{{odd_degree_model()}}} in the class {{{HyperellipticCurve_generic}}} of {{{sage/schemes/hyperelliptic_curves/hyperelliptic_generic.py}}} computes an odd degree model of a hyperelliptic curve. Here are some examples:
+ {{{
+sage: x = QQ['x'].gen()
+sage: H = HyperellipticCurve((x^2 + 2)*(x^2 + 3)*(x^2 + 5))
+sage: K2 = QuadraticField(-2, 'a')
+sage: H.change_ring(K2).odd_degree_model()
+Hyperelliptic Curve over Number Field in a with defining polynomial x^2 + 2 defined by y^2 = 6*a*x^5 - 29*x^4 - 20*x^2 + 6*a*x + 1
+sage: K3 = QuadraticField(-3, 'b')
+sage: H.change_ring(QuadraticField(-3, 'b')).odd_degree_model()
+Hyperelliptic Curve over Number Field in b with defining polynomial x^2 + 3 defined by y^2 = -4*b*x^5 - 14*x^4 - 20*b*x^3 - 35*x^2 + 6*b*x + 1
+ }}}
+
+
+ * Rational arguments in {{{kronecker_symbol()}}} and {{{legendre_symbol()}}} (Gonzalo Tornaria) -- The functions {{{kronecker_symbol()}}} and {{{legendre_symbol()}}} in {{{sage/rings/arith.py}}} now support rational arguments. Here are some examples for working with rational arguments to these functions:
+ {{{
+sage: kronecker(2/3,5)
+1
+sage: legendre_symbol(2/3,7)
+-1
+ }}}
 
 
 == Numerical ==
