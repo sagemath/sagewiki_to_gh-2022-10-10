@@ -728,22 +728,28 @@ sage: legendre_symbol(2/3,7)
 == Packages ==
 
 
- * Upgrade [[http://perso.ens-lyon.fr/damien.stehle/#software|fpLLL]] to latest upstream release version 3.0.12 (Michael Abshoff)
+ * Upgrade [[http://perso.ens-lyon.fr/damien.stehle/#software|fpLLL]] to latest upstream release version 3.0.12 (Michael Abshoff).
 
 
- * FIXME: summarize #6031
+ * Update the [[http://www.shoup.net/ntl/|NTL]] spkg to version ntl-5.4.2.p7 (Michael Abshoff).
 
- * FIXME: summarize #5934
 
- * FIXME: summarize #1338
+ * Downgrade the [[http://networkx.lanl.gov/|NetworkX]] spkg to version 0.36 (William Stein) -- The previous {{{networkx-0.99.p0.spkg}}} spkg contained both NetworkX 0.36, which Sage was using, and NetworkX 0.99. When installing {{{networkx-0.99.p0.spkg}}}, only version 0.36 would be installed. This wastes disk space, and it confuses users. The current NetworkX package that's shipped by Sage only contains version 0.36.
 
- * FIXME: summarize #6032
 
- * FIXME: summarize #6024
+ * Upgrade [[http://www.algorithm.uni-bayreuth.de/en/research/SYMMETRICA/|Symmetrica]] to latest upstream release version 2.0 (Michael Abshoff).
 
- * FIXME: summarize #6145
 
- * FIXME: summarize #5218
+ * Split off the [[http://www.boost.org/|Boost]] library from {{{polybori.spkg}}} (Michael Abshoff) -- Boost version 1.34.1 is now contained within its own spkg.
+
+
+ * Switch from [[http://clisp.cons.org/|Clisp]] version 2.47 to [[http://ecls.sourceforge.net/|ECL]] version 9.4.1 (Michael Abshoff).
+
+
+ * Upgrade [[http://www.mpir.org/|MPIR]] to latest upstream release version 1.1.2 (William Stein).
+
+
+ * Upgrade [[http://www.python.org/|Python]] to latest 2.5.x upstream release version 2.5.4 (Michael Abshoff, Mike Hansen).
 
 
 == P-adics ==
