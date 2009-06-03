@@ -764,7 +764,7 @@ sage: w.abs()
  * Update [[http://pynac.sagemath.org/|Pynac]] to version 0.1.7 (Burcin Erocal).
 
 
- * Switch from Maxima to Pynac for core symbolic manipulation (Mike Hansen, William Stein, Carl Witty).
+ * Switch from Maxima to Pynac for core symbolic manipulation (Mike Hansen, William Stein, Carl Witty, Robert Bradshaw).
 
 
 == Topology ==
