@@ -74,10 +74,7 @@ sage: 25.sqrtrem()
  }}}
 
 
-== Coercion ==
-
-
- * Coercion from float to rationals (Robert Bradshaw) -- One can now coerce a number of type float to {{{QQ}}}. Here's an example:
+ * Casting from float to rationals (Robert Bradshaw) -- One can now create a rational out of a float. Here's an example:
  {{{
 sage: a = float(1.0)
 sage: QQ(a)
@@ -86,6 +83,9 @@ sage: type(a); type(QQ(a))
 <type 'float'>
 <type 'sage.rings.rational.Rational'>
  }}}
+
+ * Speedup to Integer creation (Robert Bradshaw) -- Memory for recycled integers are only reclaimed if over 10 limbs are used, giving a significant speedup for small integers. (Previously all integers were reallocated to a single limb, which were often then reallocated to two limbs for arithmetic operations even when the result fit into a single limb.)
+
 
 
 == Combinatorics ==
