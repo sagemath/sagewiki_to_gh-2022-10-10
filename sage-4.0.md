@@ -73,14 +73,6 @@ sage: 25.sqrtrem()
 (5, 0)
  }}}
 
-== Build ==
-
-
-== Calculus ==
-
-
- * FIXME: summarize #6111
-
 
 == Coercion ==
 
@@ -222,15 +214,6 @@ sage: p = x[10]^2 * (f + g); p
 3*y1*x10^2 + x10^2*x5 + 2*x10^2
  }}}
  Furthermore, the new module {{{sage/rings/polynomial/symmetric_ideal.py}}} supports ideals of polynomial rings in a countably infinite number of variables that are invariant under variable permuation. Symmetric reduction of infinite polynomials is provided by the new module {{{sage/rings/polynomial/symmetric_reduction.pyx}}}.
-
-
-== Distribution ==
-
-
-== Doctest ==
-
-
-== Documentation ==
 
 
 == Geometry ==
@@ -635,9 +618,6 @@ sage: OverconvergentModularForms(2,1,1/3,char=DirichletGroup(4,QQ).0).slopes(5)
  }}}
 
 
-== Notebook ==
-
-
 == Number Theory ==
 
 
@@ -727,9 +707,6 @@ sage: legendre_symbol(2/3,7)
  }}}
 
 
-== Numerical ==
-
-
 == Packages ==
 
 
@@ -798,9 +775,3 @@ sage: w.abs()
 sage: simplicial_complexes.RandomComplex(6,12)
 Simplicial complex with vertex set (0, 1, 2, 3, 4, 5, 6, 7) and facets {(0, 1, 2, 3, 4, 5, 6, 7)}
  }}}
-
-
-== User Interface ==
-
-
-== Website / Wiki ==
