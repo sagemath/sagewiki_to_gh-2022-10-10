@@ -779,9 +779,10 @@ sage: w.abs()
 == Symbolics ==
 
 
- * FIXME: summarize #5777
+ * Update [[http://pynac.sagemath.org/|Pynac]] to version 0.1.7 (Burcin Erocal).
 
- * FIXME: summarize #5930
+
+ * Switch from Maxima to Pynac for core symbolic manipulation (Mike Hansen, William Stein, Carl Witty).
 
 
 == Topology ==
