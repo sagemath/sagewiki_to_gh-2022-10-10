@@ -213,7 +213,7 @@ sage: f + g
 sage: p = x[10]^2 * (f + g); p
 3*y1*x10^2 + x10^2*x5 + 2*x10^2
  }}}
- Furthermore, the new module {{{sage/rings/polynomial/symmetric_ideal.py}}} supports ideals of polynomial rings in a countably infinite number of variables that are invariant under variable permuation. Symmetric reduction of infinite polynomials is provided by the new module {{{sage/rings/polynomial/symmetric_reduction.pyx}}}.
+ Furthermore, the new module {{{sage/rings/polynomial/symmetric_ideal.py}}} supports ideals of polynomial rings in a countably infinite number of variables that are invariant under variable permutation. Symmetric reduction of infinite polynomials is provided by the new module {{{sage/rings/polynomial/symmetric_reduction.pyx}}}.
 
 
 == Geometry ==
@@ -282,7 +282,7 @@ sage: timeit("g = Graph(D)")
  }}}
 
 
- * Generate size {{{n}}} trees in linear time (Ryan Dingman) -- The speed-up can be up to 3400x. However, the efficiency gain is greater as {{{n}}} becomes larger. The following timing statistics were produced using the maching sage.math:
+ * Generate size {{{n}}} trees in linear time (Ryan Dingman) -- The speed-up can be up to 3400x. However, the efficiency gain is greater as {{{n}}} becomes larger. The following timing statistics were produced using the machine sage.math:
  {{{
 # BEFORE
 
@@ -470,7 +470,7 @@ sage: timeit("M.det(); M._clear_cache()")
  }}}
 
 
- * Refactor matrix kernels (Rob Beezer) -- The core section of kernel computation for each (specialized) class is now moved into the method {{{right_kernel()}}}. Mostly these would replace {{{kernel()}}} methods that are computing left kernels. A call to {{{kernel()}}} or {{{left_kernel()}}} should arrive at the top of the hierarchy where it would take a transpose and call the (specialized) {{{right_kernel()}}}. So there wouldn't be a change in behavior in routines currently calling {{{kernel()}}} or {{{left_kernel()}}}, and Sage's preference for the left is retained by having the vanilla {{{kernel()}}} give back a left kernel. The speed-up for the computation of left kernels is up to 5% faster, and the computation of right kernels is up to 31% by eliminating paired transposes. The followingn timing statistics were obtained using sage.math:
+ * Refactor matrix kernels (Rob Beezer) -- The core section of kernel computation for each (specialized) class is now moved into the method {{{right_kernel()}}}. Mostly these would replace {{{kernel()}}} methods that are computing left kernels. A call to {{{kernel()}}} or {{{left_kernel()}}} should arrive at the top of the hierarchy where it would take a transpose and call the (specialized) {{{right_kernel()}}}. So there wouldn't be a change in behavior in routines currently calling {{{kernel()}}} or {{{left_kernel()}}}, and Sage's preference for the left is retained by having the vanilla {{{kernel()}}} give back a left kernel. The speed-up for the computation of left kernels is up to 5% faster, and the computation of right kernels is up to 31% by eliminating paired transposes. The following timing statistics were obtained using sage.math:
  {{{
 # BEFORE
 
@@ -645,7 +645,7 @@ sage: len(AbelianGroup([2,4,8]).subgroups())
  }}}
 
 
- * Speed-up relativization of number fields (Nick Alexander) -- The efficiency gain of relativizing a number field is up to 16%. Futhermore, the rewrite of the method {{{relativize()}}} allows for relativization over large number fields. The following timing statistics were obtained using the machine sage.math:
+ * Speed-up relativization of number fields (Nick Alexander) -- The efficiency gain of relativizing a number field is up to 16%. Furthermore, the rewrite of the method {{{relativize()}}} allows for relativization over large number fields. The following timing statistics were obtained using the machine sage.math:
  {{{
 # BEFORE
 
@@ -737,7 +737,7 @@ sage: legendre_symbol(2/3,7)
 == P-adics ==
 
 
- * Norm function in the {{{p}}}-adic ring (David Roe) -- New function {{{abs()}}} to calculate the {{{p}}}-adic absolute value. This is normalized so that the absolute value of {{{p}}} is {{{1/p}}}. This should be distringuished from the function {{{norm()}}}, which computes the norm of a {{{p}}}-adic element over a ground ring. Here are some examples of using the new function {{{abs()}}}:
+ * Norm function in the {{{p}}}-adic ring (David Roe) -- New function {{{abs()}}} to calculate the {{{p}}}-adic absolute value. This is normalized so that the absolute value of {{{p}}} is {{{1/p}}}. This should be distinguished from the function {{{norm()}}}, which computes the norm of a {{{p}}}-adic element over a ground ring. Here are some examples of using the new function {{{abs()}}}:
  {{{
 sage: a = Qp(5)(15); a.abs()
 1/5
