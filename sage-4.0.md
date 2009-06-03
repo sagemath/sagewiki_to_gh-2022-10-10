@@ -754,9 +754,20 @@ sage: legendre_symbol(2/3,7)
 
 == P-adics ==
 
- * FIXME: summarize #5105
 
- * FIXME: summarize #5236
+ * Norm function in the {{{p}}}-adic ring (David Roe) -- New function {{{abs()}}} to calculate the {{{p}}}-adic absolute value. This is normalized so that the absolute value of {{{p}}} is {{{1/p}}}. This should be distringuished from the function {{{norm()}}}, which computes the norm of a {{{p}}}-adic element over a ground ring. Here are some examples of using the new function {{{abs()}}}:
+ {{{
+sage: a = Qp(5)(15); a.abs()
+1/5
+sage: a.abs(53)
+0.200000000000000
+sage: R = Zp(5, 5)
+sage: S.<x> = ZZ[]
+sage: f = x^5 + 75*x^3 - 15*x^2 +125*x - 5
+sage: W.<w> = R.ext(f)
+sage: w.abs()
+0.724779663677696
+ }}}
 
 
 == Quadratic Forms ==
