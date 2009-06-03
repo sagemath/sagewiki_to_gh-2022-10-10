@@ -2,7 +2,12 @@
 
 Sage 4.0 was released on FIXME. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-4.0.txt|sage-4.0.txt]]. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
 
- * 
+ * New symbolics based on Pynac
+ * Bring doctest coverage up to at least 75%
+ * Solaris 10 support (at least for gcc 4.3.x + gmake)
+ * Switch from Clisp to ECL
+ * gcc 4.4.0 support
+ * OS X 64-bit support 
 
 
 == Algebra ==
