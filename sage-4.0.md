@@ -773,7 +773,7 @@ sage: w.abs()
 == Quadratic Forms ==
 
 
- * FIXME: summarize #6037
+ * Major upgrade to the {{{QuadraticForm}}} local density routines (Jon Hanke) -- A complete rewrite of local densities routines, following a consistent interface (and algorithms) as described in [[http://trac.sagemath.org/sage_trac/attachment/ticket/6037/Local%20Densities%20Writeup.pdf|this paper]].
 
 
 == Symbolics ==
