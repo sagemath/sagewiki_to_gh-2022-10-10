@@ -6,7 +6,6 @@ Sage 4.0 was released on May 29, 2009. For the official, comprehensive release n
  * Bring doctest coverage up to at least 75%
  * Solaris 10 support (at least for gcc 4.3.x + gmake)
  * Switch from Clisp to ECL
- * gcc 4.4.0 support
  * OS X 64-bit support 
 
 
