@@ -1,4 +1,4 @@
-= List of Computations where Sage is Noticeably Faster than Magma =
+= List of Computations where Sage is Noticeably Faster than Magma.... =
 
 == Machines used ==
 
@@ -108,3 +108,6 @@ Time: 19.500
 31999
 Time: 63.480
 }}}
+
+
+= ....But Magma has the following features which Sage doesn't have (yet) =
