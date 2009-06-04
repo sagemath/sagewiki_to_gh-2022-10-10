@@ -2,7 +2,8 @@
 
 == Machines used ==
 
-eno:
+eno: (a binary of Sage 4.0.1-rc1 will be available on eno in a couple of hours)
+
 {{{
 4-core: model name	: Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz
 }}}
