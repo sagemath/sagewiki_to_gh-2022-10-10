@@ -112,3 +112,7 @@ Time: 63.480
 
 
 = ....But Magma has the following features which Sage doesn't have (yet) =
+
+* fast and correct multivariate polynomial factorisation algorithm
+* fast Gröbner basis computations mod p (p > 2, p prime) and QQ
+* fast GCD of multivariate polynomials
