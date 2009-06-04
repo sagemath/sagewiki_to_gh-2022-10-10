@@ -10,16 +10,37 @@ Sage 4.0.1 was released on FIXME. For the official, comprehensive release note, 
 == Algebra ==
 
 
+ * FIXME: summarize #6016
+
+ * FIXME: summarize #3699
+
+
 == Algebraic Geometry ==
+
+
+ * FIXME: summarize #5948
 
 
 == Basic Arithmetic ==
 
 
+ * FIXME: summarize #5732
+
+
 == Combinatorics ==
 
 
+ * FIXME: summarize #6000
+
+ * FIXME: summarize #6167
+
+ * FIXME: summarize #6093
+
+
 == Commutative Algebra ==
+
+
+ * FIXME: summarize #6120
 
 
 == Geometry ==
@@ -29,6 +50,11 @@ Sage 4.0.1 was released on FIXME. For the official, comprehensive release note, 
 
 
 == Graphics ==
+
+
+ * FIXME: summarize #6184
+
+ * FIXME: summarize #5599
 
 
 == Group Theory ==
@@ -43,13 +69,45 @@ Sage 4.0.1 was released on FIXME. For the official, comprehensive release note, 
 == Miscellaneous ==
 
 
+ * FIXME: summarize #5967
+
+ * FIXME: summarize #5483
+
+
 == Modular Forms ==
+
+
+ * FIXME: summarize #5995
+
+
+== Notebook ==
+
+
+ * FIXME: summarize #4575
+
+ * FIXME: summarize #5895
 
 
 == Number Theory ==
 
 
+ * FIXME: summarize #133
+
+ * FIXME: summarize #6021
+
+
 == Packages ==
+
+
+ * FIXME: summarize #5840
+
+ * FIXME: summarize #6173
+
+ * FIXME: summarize #5817
+
+ * FIXME: summarize #6156
+
+ * FIXME: summarize #6169
 
 
 == P-adics ==
@@ -62,3 +120,6 @@ Sage 4.0.1 was released on FIXME. For the official, comprehensive release note, 
 
 
 == Topology ==
+
+
+ * FIXME: summarize #6141
