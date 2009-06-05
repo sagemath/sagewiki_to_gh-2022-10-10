@@ -154,6 +154,10 @@ Time: 62.980
 
 }}}
 
+* Fast HNF and determinant for integer matrices, especially for as the entries get large.
+
+ http://wstein.org/papers/hnf/hnf.pdf
+
 
 = ....But Magma has the following features which Sage doesn't have (yet) =
 
