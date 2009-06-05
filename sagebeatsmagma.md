@@ -2,7 +2,8 @@
 
 == Machines used ==
 
-eno: (a binary of Sage 4.0.1-rc1 will be available on eno in a couple of hours)
+eno: (a binary of Sage 4.0.1-rc1 is available at /home/wbhart/sage-4.0.1.rc1/sage on eno)
+(a script to stop background processes for benchmarking purposes is available at /home/wbhart/script - but please stop it when done)
 
 {{{
 4-core: model name	: Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz
