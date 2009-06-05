@@ -70,42 +70,47 @@ sage: %time A.rank()
 CPU times: user 1.20 s, sys: 0.01 s, total: 1.20 s
 Wall time: 1.20 s
 9999
+
 sage: A = random_matrix(GF(2),2*10^4,2*10^4)
 sage: %time A.rank()
 CPU times: user 9.34 s, sys: 0.02 s, total: 9.36 s
 Wall time: 9.36 s
 19937
+
 sage: A = random_matrix(GF(2),2*10^4,2*10^4)
 sage: %time A.echelonize(algorithm='pluq')
 CPU times: user 6.79 s, sys: 0.01 s, total: 6.80 s
 Wall time: 6.80 s
+
 sage: A = random_matrix(GF(2),3.2*10^4,3.2*10^4)
 sage: %time A.rank()
 CPU times: user 31.57 s, sys: 0.05 s, total: 31.62 s
 Wall time: 31.63 s
 19937
+
 sage: %time A.echelonize(algorithm='pluq')
 CPU times: user 27.10 s, sys: 0.04 s, total: 27.14 s
 Wall time: 27.15 s
 }}}
 
 {{{
-Magma V2.15-8     Sun May 17 2009 13:16:26 on eno      [Seed = 595144467]
+Magma V2.15-8     Thu Jun  4 2009 21:58:05 on eno      [Seed = 3168701748]
 Type ? for help.  Type <Ctrl>-D to quit.
 > A:=RandomMatrix(GF(2),10^4,10^4);
 > time Rank(A);
-10000
-Time: 2.790
+9999
+Time: 3.040
 
 > A:=RandomMatrix(GF(2),2*10^4,2*10^4);
 > time Rank(A);
-20000
-Time: 19.500
+19999
+Time: 17.750
 
 > A:=RandomMatrix(GF(2),32*10^3,32*10^3);
 > time Rank(A);
 31999
-Time: 63.480
+Time: 62.980
+
 }}}
 
 
