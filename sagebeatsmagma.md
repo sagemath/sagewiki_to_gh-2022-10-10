@@ -166,3 +166,5 @@ Time: 62.980
 * fast Gröbner basis computations mod p (p > 2, p prime) and QQ
 
 * fast GCD of multivariate polynomials
+
+* 3, 4, and 8 descent
