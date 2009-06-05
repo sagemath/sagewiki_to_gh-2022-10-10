@@ -168,3 +168,5 @@ Time: 62.980
 * fast GCD of multivariate polynomials
 
 * 3, 4, and 8 descent
+
+* fast computation of Riemann/Siegel theta functions
