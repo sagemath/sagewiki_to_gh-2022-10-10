@@ -11,7 +11,8 @@ eno: (a binary of Sage 4.0.1-rc1 is available at /home/wbhart/sage-4.0.1.rc1/sag
 
 == Benchmarks ==
 
-* Large degree polynomial multiplication modulo n (sage is three times as fast):
+* Large degree polynomial multiplication modulo n (Sage is three times as fast).
+
 {{{
 [wbhart@eno sage-4.0.1.rc1]$ ./sage
 ----------------------------------------------------------------------
@@ -31,7 +32,8 @@ sage: magma.eval('time z:=[%s*%s : i in [1..100]]'%(f.name(), f.name()))
 'Time: 0.540'
 }}}
 
-* Large degree polynomial multiplication over ZZ (sage is 4.5 times as fast):
+* Large degree polynomial multiplication over ZZ (Sage is 4.5 times as fast).
+
 {{{
 ----------------------------------------------------------------------
 | Sage Version 4.0.1.rc1, Release Date: 2009-06-04                   |
@@ -52,6 +54,7 @@ Wall time: 99.62 s
 }}}
 
 * Computing factorials (Sage is more than twice the speed).
+
 {{{
 [wbhart@eno sage-4.0.1.rc1]$ ./sage
 ----------------------------------------------------------------------
@@ -78,7 +81,7 @@ sage: 27.30/11.75
 2.32340425531915
 }}}
 
-* Rank of random dense matrices over GF(2)
+* Rank of random dense matrices over GF(2) (Sage is more than twice the speed).
 
 {{{
 ----------------------------------------------------------------------
