@@ -31,6 +31,26 @@ sage: magma.eval('time z:=[%s*%s : i in [1..100]]'%(f.name(), f.name()))
 'Time: 0.540'
 }}}
 
+* Large degree polynomial multiplication modulo n (sage is 4.5 times as fast):
+{{{
+----------------------------------------------------------------------
+| Sage Version 4.0.1.rc1, Release Date: 2009-06-04                   |
+| Type notebook() for the GUI, and license() for information.        |
+----------------------------------------------------------------------
+sage: R.<x>=ZZ['x']
+sage: ff = R.random_element(degree=3200)
+sage: gg = R.random_element(degree=3200)
+sage: time v = [ff*gg^i for i in [1..40]]
+CPU times: user 22.29 s, sys: 0.22 s, total: 22.50 s
+Wall time: 22.51 s
+sage: S = magma(R)
+sage: f = magma(ff)
+sage: g = magma(gg)
+sage: time v = [f*g^i for i in [1..40]]
+CPU times: user 0.05 s, sys: 0.01 s, total: 0.06 s
+Wall time: 99.62 s
+}}}
+
 * Computing factorials (Sage is more than twice the speed).
 {{{
 [wbhart@eno sage-4.0.1.rc1]$ ./sage
