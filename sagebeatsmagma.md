@@ -83,9 +83,8 @@ sage: magma.eval('time z:=[%s*%s^i : i in [1..40]]'%(f.name(), g.name()))
 * Sage is asymptotically faster for Quotrem over ZZ (used in computation of Sturm sequences)
 
 {{{
+sage: R.<x>=ZZ['x']
 sage: ff = R.random_element(degree=10000)
-sage: R
-Univariate Polynomial Ring in x over Integer Ring
 sage: gg = R.random_element(degree=5000)
 sage: time v=ff.quo_rem(gg)
 CPU times: user 0.17 s, sys: 0.02 s, total: 0.18 s
