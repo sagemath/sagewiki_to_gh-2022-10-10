@@ -158,6 +158,24 @@ Time: 62.980
 
  http://wstein.org/papers/hnf/hnf.pdf
 
+* Modular composition over GF(2)
+
+{{{
+sage: P.<x> = GF(2)[]  
+sage: d = 5*10^4; f,g,h = P.random_element(d),P.random_element(d),P.random_element(d)
+sage: %time r = f.modular_composition(g,h)                                           
+CPU times: user 2.69 s, sys: 0.01 s, total: 2.69 s                                   
+Wall time: 2.70 s  
+}}}
+
+{{{
+sage: fM,gM,hM = magma(f),magma(g),magma(h)
+sage: t = magma.cputime(); rM = fM.ModularComposition(gM,hM); magma.cputime(t)
+13.44
+sage: rM == magma(r)
+True
+}}}
+
 
 = ....But Magma has the following features which Sage doesn't have (yet) =
 
@@ -170,3 +188,5 @@ Time: 62.980
 * 3, 4, and 8 descent
 
 * fast computation of Riemann/Siegel theta functions
+
+* fast dense linear algebra over finite extension fields
