@@ -177,6 +177,21 @@ True
 }}}
 
 
+{{{
+sage: d = 5*10^5; f,g,h = P.random_element(d),P.random_element(d),P.random_element(d)
+sage: %time r = f.modular_composition(g,h)
+^ACPU times: user 288.13 s, sys: 0.14 s, total: 288.26 s
+Wall time: 288.34 s
+
+sage: %time r = f.modular_composition(g,h,algorithm='ntl')
+CPU times: user 303.45 s, sys: 0.04 s, total: 303.49 s
+Wall time: 303.60 s
+
+sage: fM,gM,hM = magma(f),magma(g),magma(h)
+sage: t = magma.cputime(); rM = fM.ModularComposition(gM,hM); magma.cputime(t)
+832.03999999999996
+}}}
+
 = ....But Magma has the following features which Sage doesn't have (yet) =
 
 * fast and correct multivariate polynomial factorisation algorithm
