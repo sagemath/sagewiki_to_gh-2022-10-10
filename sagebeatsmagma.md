@@ -11,6 +11,34 @@ eno: (a binary of Sage 4.0.1-rc1 is available at /home/wbhart/sage-4.0.1.rc1/sag
 
 == Benchmarks ==
 
+* Computing factorials (Sage is more than twice the speed).
+
+{{{
+[wbhart@eno sage-4.0.1.rc1]$ ./sage
+----------------------------------------------------------------------
+| Sage Version 4.0.1.rc1, Release Date: 2009-06-04                   |
+| Type notebook() for the GUI, and license() for information.        |
+----------------------------------------------------------------------
+sage: magma.version()
+((2, 15, 8), 'V2.15-8')
+sage: time n = factorial(10^6)
+CPU times: user 0.57 s, sys: 0.01 s, total: 0.58 s
+Wall time: 0.59 s
+sage: time magma.eval('time n := Factorial(10^6);')
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 1.45 s
+'Time: 1.440'
+sage: time magma.eval('time n := Factorial(10^7);')
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 27.33 s
+'Time: 27.300'
+sage: time n = factorial(10^7)
+CPU times: user 11.50 s, sys: 0.25 s, total: 11.75 s
+Wall time: 11.75 s
+sage: 27.30/11.75
+2.32340425531915
+}}}
+
 * Large degree polynomial multiplication modulo n (Sage is three times as fast).
 
 {{{
@@ -52,32 +80,21 @@ sage: magma.eval('time z:=[%s*%s^i : i in [1..40]]'%(f.name(), g.name()))
 'Time: 112.820'
 }}}
 
-* Computing factorials (Sage is more than twice the speed).
+* Sage is asymptotically faster for Quotrem over ZZ (used in computation of Sturm sequences)
 
 {{{
-[wbhart@eno sage-4.0.1.rc1]$ ./sage
-----------------------------------------------------------------------
-| Sage Version 4.0.1.rc1, Release Date: 2009-06-04                   |
-| Type notebook() for the GUI, and license() for information.        |
-----------------------------------------------------------------------
-sage: magma.version()
-((2, 15, 8), 'V2.15-8')
-sage: time n = factorial(10^6)
-CPU times: user 0.57 s, sys: 0.01 s, total: 0.58 s
-Wall time: 0.59 s
-sage: time magma.eval('time n := Factorial(10^6);')
-CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
-Wall time: 1.45 s
-'Time: 1.440'
-sage: time magma.eval('time n := Factorial(10^7);')
-CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
-Wall time: 27.33 s
-'Time: 27.300'
-sage: time n = factorial(10^7)
-CPU times: user 11.50 s, sys: 0.25 s, total: 11.75 s
-Wall time: 11.75 s
-sage: 27.30/11.75
-2.32340425531915
+sage: ff = R.random_element(degree=10000)
+sage: R
+Univariate Polynomial Ring in x over Integer Ring
+sage: gg = R.random_element(degree=5000)
+sage: time v=ff.quo_rem(gg)
+CPU times: user 0.17 s, sys: 0.02 s, total: 0.18 s
+Wall time: 0.18 s
+
+sage: f=magma(ff)
+sage: g=magma(gg)
+sage: magma.eval('time z:=Quotrem(%s,%s)'%(f.name(), g.name()))
+'Time: 1.970'
 }}}
 
 * Rank of random dense matrices over GF(2) (Sage is more than twice the speed).
