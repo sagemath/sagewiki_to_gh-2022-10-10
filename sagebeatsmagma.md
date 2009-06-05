@@ -31,31 +31,31 @@ sage: magma.eval('time z:=[%s*%s : i in [1..100]]'%(f.name(), f.name()))
 'Time: 0.540'
 }}}
 
-* Computing factorials (Magma takes 50% longer).
+* Computing factorials (Sage is more than twice the speed).
 {{{
-[wstein@eno]$ ~/eno/build/sage-3.4.alpha0/sage
+[wbhart@eno sage-4.0.1.rc1]$ ./sage
 ----------------------------------------------------------------------
-| Sage Version 3.4.alpha0, Release Date: 2009-02-24                  |
+| Sage Version 4.0.1.rc1, Release Date: 2009-06-04                   |
 | Type notebook() for the GUI, and license() for information.        |
 ----------------------------------------------------------------------
 sage: magma.version()
-((2, 15, 5), 'V2.15-5')
+((2, 15, 8), 'V2.15-8')
 sage: time n = factorial(10^6)
-CPU times: user 0.94 s, sys: 0.02 s, total: 0.96 s
-Wall time: 0.98 s
+CPU times: user 0.57 s, sys: 0.01 s, total: 0.58 s
+Wall time: 0.59 s
 sage: time magma.eval('time n := Factorial(10^6);')
-CPU times: user 0.00 s, sys: 0.02 s, total: 0.02 s
-Wall time: 2.95 s
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 1.45 s
 'Time: 1.440'
 sage: time magma.eval('time n := Factorial(10^7);')
 CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
-Wall time: 27.88 s
-'Time: 27.340'
+Wall time: 27.33 s
+'Time: 27.300'
 sage: time n = factorial(10^7)
-CPU times: user 18.60 s, sys: 0.17 s, total: 18.76 s
-Wall time: 19.11 s
-sage: 27.34/18.76
-1.45735607675906
+CPU times: user 11.50 s, sys: 0.25 s, total: 11.75 s
+Wall time: 11.75 s
+sage: 27.30/11.75
+2.32340425531915
 }}}
 
 * Rank of random dense matrices over GF(2)
