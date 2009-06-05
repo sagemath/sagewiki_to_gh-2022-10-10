@@ -31,7 +31,7 @@ sage: magma.eval('time z:=[%s*%s : i in [1..100]]'%(f.name(), f.name()))
 'Time: 0.540'
 }}}
 
-* Large degree polynomial multiplication modulo n (sage is 4.5 times as fast):
+* Large degree polynomial multiplication over ZZ (sage is 4.5 times as fast):
 {{{
 ----------------------------------------------------------------------
 | Sage Version 4.0.1.rc1, Release Date: 2009-06-04                   |
