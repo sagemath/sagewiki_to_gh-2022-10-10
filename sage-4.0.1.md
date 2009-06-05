@@ -10,9 +10,33 @@ Sage 4.0.1 was released on FIXME. For the official, comprehensive release note, 
 == Algebra ==
 
 
- * FIXME: summarize #6016
+ * Factoring rational functions (Soroosh Yazdani) -- New method {{{factor()}}} in the class {{{FractionFieldElement}}} of {{{sage/rings/fraction_field_element.pyx}}} to return the factorization of self over the base ring. Here's an example for working with this new method:
+ {{{
+sage: K.<x> = QQ["x"]
+sage: f = (x^3 + x) / (x-3)
+sage: f.factor()
+(x - 3)^-1 * x * (x^2 + 1)
+ }}}
 
- * FIXME: summarize #3699
+
+ * Faster {{{basis_matrix()}}} for ambient modules (John Cremona) -- The speed-up can be up to 376x faster than previously. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: K = FreeModule(ZZ, 2000)
+sage: %time I = K.basis_matrix()
+CPU times: user 292.74 s, sys: 20.11 s, total: 312.85 s
+Wall time: 312.90 s
+
+
+# AFTER
+
+sage: K = FreeModule(ZZ, 2000)
+sage: %time I = K.basis_matrix()
+CPU times: user 0.41 s, sys: 0.43 s, total: 0.84 s
+Wall time: 0.83 s
+ }}}
+
 
  * FIXME: summarize #6081
 
