@@ -48,9 +48,8 @@ Wall time: 22.51 s
 sage: S = magma(R)
 sage: f = magma(ff)
 sage: g = magma(gg)
-sage: time v = [f*g^i for i in [1..40]]
-CPU times: user 0.05 s, sys: 0.01 s, total: 0.06 s
-Wall time: 99.62 s
+sage: magma.eval('time z:=[%s*%s^i : i in [1..40]]'%(f.name(), g.name()))
+'Time: 112.820'
 }}}
 
 * Computing factorials (Sage is more than twice the speed).
