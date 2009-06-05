@@ -62,33 +62,31 @@ sage: 27.30/11.75
 
 {{{
 ----------------------------------------------------------------------
-| Sage Version 4.0.alpha0, Release Date: 2009-05-15                  |
+| Sage Version 4.0.1.rc1, Release Date: 2009-06-04                   |
 | Type notebook() for the GUI, and license() for information.        |
 ----------------------------------------------------------------------
 sage: A = random_matrix(GF(2),10^4,10^4)
 sage: %time A.rank()
-CPU times: user 1.23 s, sys: 0.01 s, total: 1.23 s
-Wall time: 1.25 s
-9998
-
+CPU times: user 1.20 s, sys: 0.01 s, total: 1.20 s
+Wall time: 1.20 s
+9999
 sage: A = random_matrix(GF(2),2*10^4,2*10^4)
 sage: %time A.rank()
-CPU times: user 9.65 s, sys: 0.02 s, total: 9.67 s
-Wall time: 9.85 s
+CPU times: user 9.34 s, sys: 0.02 s, total: 9.36 s
+Wall time: 9.36 s
 19937
 sage: A = random_matrix(GF(2),2*10^4,2*10^4)
 sage: %time A.echelonize(algorithm='pluq')
-CPU times: user 7.26 s, sys: 0.02 s, total: 7.27 s
-Wall time: 7.40 s
-
+CPU times: user 6.79 s, sys: 0.01 s, total: 6.80 s
+Wall time: 6.80 s
 sage: A = random_matrix(GF(2),3.2*10^4,3.2*10^4)
 sage: %time A.rank()
-CPU times: user 34.60 s, sys: 0.05 s, total: 34.65 s
-Wall time: 35.21 s
+CPU times: user 31.57 s, sys: 0.05 s, total: 31.62 s
+Wall time: 31.63 s
 19937
 sage: %time A.echelonize(algorithm='pluq')
-CPU times: user 28.35 s, sys: 0.04 s, total: 28.39 s
-Wall time: 28.86 s
+CPU times: user 27.10 s, sys: 0.04 s, total: 27.14 s
+Wall time: 27.15 s
 }}}
 
 {{{
