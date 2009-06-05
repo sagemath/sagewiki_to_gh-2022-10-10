@@ -11,25 +11,24 @@ eno: (a binary of Sage 4.0.1-rc1 is available at /home/wbhart/sage-4.0.1.rc1/sag
 
 == Benchmarks ==
 
-* Large degree polynomial multiplication modulo n (sage is twice as fast):
+* Large degree polynomial multiplication modulo n (sage is three times as fast):
 {{{
-[wstein@eno]$ ~/eno/build/sage-3.4.alpha0/sage
+[wbhart@eno sage-4.0.1.rc1]$ ./sage
 ----------------------------------------------------------------------
-| Sage Version 3.4.alpha0, Release Date: 2009-02-24                  |
+| Sage Version 4.0.1.rc1, Release Date: 2009-06-04                   |
 | Type notebook() for the GUI, and license() for information.        |
 ----------------------------------------------------------------------
 sage: magma.version()
-((2, 15, 5), 'V2.15-5')
-sage: sage: R.<t> = Zmod(next_prime(8000^3))[]
-sage: sage: ff = R.random_element(degree=3200)
-sage: sage: time v = [ff*ff for i in [1..100]]
-CPU times: user 0.26 s, sys: 0.00 s, total: 0.26 s
-Wall time: 0.27 s
-sage: 
-sage: sage: S = magma(R)
-sage: sage: f = magma('%s![Random(0,10000000) : i in [1..3200]]'%S.name())
-sage: sage: magma.eval('time z:=[%s*%s : i in [1..100]]'%(f.name(), f.name()))
-'Time: 0.560'
+((2, 15, 8), 'V2.15-8')
+sage: R.<t> = Zmod(next_prime(8000^3))[]
+sage: ff = R.random_element(degree=3200)
+sage: time v = [ff*ff for i in [1..100]]
+CPU times: user 0.18 s, sys: 0.00 s, total: 0.18 s
+Wall time: 0.18 s
+sage: S = magma(R)
+sage: f = magma('%s![Random(0,10000000) : i in [1..3200]]'%S.name())
+sage: magma.eval('time z:=[%s*%s : i in [1..100]]'%(f.name(), f.name()))
+'Time: 0.540'
 }}}
 
 * Computing factorials (Magma takes 50% longer).
