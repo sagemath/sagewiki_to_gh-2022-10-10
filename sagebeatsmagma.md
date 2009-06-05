@@ -27,9 +27,9 @@ sage: time v = [ff*ff for i in [1..100]]
 CPU times: user 0.18 s, sys: 0.00 s, total: 0.18 s
 Wall time: 0.18 s
 sage: S = magma(R)
-sage: f = magma('%s![Random(0,10000000) : i in [1..3200]]'%S.name())
+sage: f = magma(ff)
 sage: magma.eval('time z:=[%s*%s : i in [1..100]]'%(f.name(), f.name()))
-'Time: 0.540'
+'Time: 0.530'
 }}}
 
 * Large degree polynomial multiplication over ZZ (Sage is 4.5 times as fast).
