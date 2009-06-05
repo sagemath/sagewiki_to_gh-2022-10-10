@@ -38,9 +38,111 @@ Wall time: 0.83 s
  }}}
 
 
- * FIXME: summarize #6081
+ * Optimize the construction of Lagrange interpolation polynomials (Minh Van Nguyen) -- Rewrite the method {{{lagrange_polynomial()}}} in the class {{{PolynomialRing_field}}} of {{{sage/rings/polynomial/polynomial_ring.py}}} for generating the {{{n}}}-th Lagrange interpolation polynomial. The method now provides two new options:
 
- * FIXME: summarize #6043
+  * {{{algorithm}}} --- (default: {{{divided_difference}}}) If {{{algorithm="divided_difference"}}}, then use the method of divided difference. If {{{algorithm="neville"}}}, then use a variant of Neville's method to recursively generate the {{{n}}}-th Lagrange interpolation polynomial. This adaptation of Neville's method is more memory efficient than the original Neville's method, since the former doesn't generate the full Neville table resulting from Neville's recursive procedure. Instead the adaptation only keeps track of the current and previous rows of the said table.
+
+  * {{{previous_row}}} --- (default: {{{None}}}) This is only relevant if used together with {{{algorithm="neville"}}}. Here "previous row" refers to the last row in the Neville table that was obtained from a previous computation of an {{{n}}}-th Lagrange interpolation polynomial using Neville's method. If the last row is provided, then use a memory efficient variant of Neville's method to recursively generate a better interpolation polynomial from the results of previous computation. 
+
+ There's also the new method {{{divided_difference()}}} to compute the Newton divided-difference coefficients of the {{{n}}}-th Lagrange interpolation polynomial. The following are some timing statistics obtained using sage.math. When the results of previous computations are fed to {{{lagrange_polynomial}}} in order to produce better interpolation polynomials, we can gain an efficiency of up to 42%. 
+ {{{
+# BEFORE
+
+# using the definition of Lagrange interpolation polynomial
+sage: R = PolynomialRing(QQ, 'x')
+sage: %timeit R.lagrange_polynomial([(0,1),(2,2),(3,-2),(-4,9)])
+1000 loops, best of 3: 1.71 ms per loop
+sage: R = PolynomialRing(GF(2**3,'a'), 'x')
+sage: a = R.base_ring().gen()
+sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)])")
+625 loops, best of 3: 233 µs per loop
+
+# without using precomputed values to generate successively better interpolation polynomials
+
+sage: R = PolynomialRing(QQ, 'x')
+sage: timeit("R.lagrange_polynomial([(0,1),(2,2)])");
+625 loops, best of 3: 571 µs per loop
+sage: # add two more points
+sage: timeit("R.lagrange_polynomial([(0,1),(2,2),(3,-2),(-4,9)])");
+125 loops, best of 3: 2.29 ms per loop
+sage: 
+sage: R = PolynomialRing(GF(2**3,'a'), 'x')
+sage: a = R.base_ring().gen()
+sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1)])")
+625 loops, best of 3: 76.1 µs per loop
+sage: # add another point
+sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)])")
+625 loops, best of 3: 229 µs per loop
+sage:
+sage: R = PolynomialRing(QQ, 'x')
+sage: points = [(random(), random()) for i in xrange(100)]
+sage: time R.lagrange_polynomial(points);
+CPU times: user 1.21 s, sys: 0.00 s, total: 1.21 s
+Wall time: 1.21 s
+sage: # add three more points
+sage: for i in xrange(3): points.append((random(), random()))
+....: 
+sage: time R.lagrange_polynomial(points);
+CPU times: user 1.28 s, sys: 0.01 s, total: 1.29 s
+Wall time: 1.29 s
+sage: # add another 100 points
+sage: for i in xrange(100): points.append((random(), random()))
+....: 
+sage: time R.lagrange_polynomial(points);
+CPU times: user 5.87 s, sys: 0.02 s, total: 5.89 s
+Wall time: 5.89 s
+
+
+# AFTER
+
+# using the method of divided-difference
+sage: R = PolynomialRing(QQ, 'x')
+sage: %timeit R.lagrange_polynomial([(0,1),(2,2),(3,-2),(-4,9)])
+1000 loops, best of 3: 827 µs per loop
+sage: R = PolynomialRing(GF(2**3,'a'), 'x')
+sage: a = R.base_ring().gen()
+sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)])")
+625 loops, best of 3: 111 µs per loop
+
+# using precomputed values to generate successively better interpolation polynomials
+
+sage: R = PolynomialRing(QQ, 'x')
+sage: timeit("R.lagrange_polynomial([(0,1),(2,2)], neville=True)");
+625 loops, best of 3: 332 µs per loop
+sage: p = R.lagrange_polynomial([(0,1),(2,2)], neville=True);
+sage: # add two more points
+sage: timeit("R.lagrange_polynomial([(0,1),(2,2),(3,-2),(-4,9)], neville=True, previous_row=p)");
+625 loops, best of 3: 1.41 ms per loop
+sage:
+sage: R = PolynomialRing(GF(2**3,'a'), 'x')
+sage: a = R.base_ring().gen()
+sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1)], neville=True)");
+625 loops, best of 3: 36.4 µs per loop
+sage: p = R.lagrange_polynomial([(a^2+a,a),(a,1)], neville=True);
+sage: # add another point
+sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)], neville=True, previous_row=p)");
+625 loops, best of 3: 131 µs per loop
+sage:
+sage: R = PolynomialRing(QQ, 'x')
+sage: points = [(random(), random()) for i in xrange(100)]
+sage: time R.lagrange_polynomial(points, neville=True);
+CPU times: user 1.26 s, sys: 0.00 s, total: 1.26 s
+Wall time: 1.26 s
+sage: p = R.lagrange_polynomial(points, neville=True);
+sage: # add three more points
+sage: for i in xrange(3): points.append((random(), random()))
+....: 
+sage: time R.lagrange_polynomial(points, neville=True, previous_row=p);
+CPU times: user 0.09 s, sys: 0.00 s, total: 0.09 s
+Wall time: 0.08 s
+sage: p = R.lagrange_polynomial(points, neville=True, previous_row=p)
+sage: # add another 100 points
+sage: for i in xrange(100): points.append((random(), random()))
+....: 
+sage: time R.lagrange_polynomial(points, neville=True, previous_row=p);
+CPU times: user 4.62 s, sys: 0.00 s, total: 4.62 s
+Wall time: 4.62 s
+ }}}
 
 
 == Algebraic Geometry ==
