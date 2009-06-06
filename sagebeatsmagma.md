@@ -254,6 +254,23 @@ Wall time: 5.89 s
  (514136077885092448181278/169697035249 : -368651568597676351513664298941602072/69905505791578807 : 1)]
 }}}
 
+{{{
+> D:=6611719866;
+> E:=EllipticCurve([0,0,0,-D^2,0]);
+> time Rank(E);
+Warning: rank computed (2) is only a lower bound
+(It may still be correct, though)
+2
+Time: 9.640
+> time Generators(E);
+Height bound (50.6331) on point search is too large -- reducing to 15.0000
+This means that the computed group may only generate a group of finite
+index in the actual group.
+[ (-6611719866 : 0 : 1), (0 : 0 : 1), (-156630507 : -82723846945707 : 1),
+(213545146551959209/902500 : -98642697824946986013197323/857375000 : 1) ]
+Time: 57.970
+}}}
+
 = ....But Magma has the following features which Sage doesn't have (yet) =
 
 * fast and correct multivariate polynomial factorisation algorithm
