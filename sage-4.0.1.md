@@ -154,7 +154,59 @@ Wall time: 4.62 s
 == Basic Arithmetic ==
 
 
- * FIXME: summarize #5732
+ * Speed overhaul for {{{digits}}}, {{{exact_log}}} and {{{ndigits}}} (Joel B. Mohler) -- Speed-up for the cases where the method {{{exact_log}}} can conveniently be computed by log 2 estimation. In some cases, time efficiency can be up to 927x faster than previously. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: n = 5^1000
+sage: m = 2975982357823879528793587928793592
+sage: %timeit n.exact_log(m)
+1000 loops, best of 3: 205 µs per loop
+sage: n = 5^50
+sage: m = 33
+sage: %timeit n.exact_log(m)
+10000 loops, best of 3: 29.6 µs per loop
+sage: def zlog(m, n, k):
+....:     for i in xrange(0, m/1000):
+....:         a = ZZ.random_element(n) + 2
+....:         b = ZZ.random_element(k)
+....:         c = a^b
+....:         for i in xrange (0, 1000):
+....:             c.exact_log(a)
+....:             
+sage: time zlog(100000, 2^100, 100)
+CPU times: user 22.59 s, sys: 0.12 s, total: 22.71 s
+Wall time: 22.70 s
+sage: time zlog(100000, 100, 100)
+CPU times: user 3.45 s, sys: 0.02 s, total: 3.47 s
+Wall time: 3.47 s
+
+
+# AFTER
+
+sage: n = 5^1000
+sage: m = 2975982357823879528793587928793592
+sage: %timeit n.exact_log(m)
+1000000 loops, best of 3: 221 ns per loop
+sage: n = 5^50
+sage: m = 33
+sage: %timeit n.exact_log(m)
+1000000 loops, best of 3: 526 ns per loop
+sage: def zlog(m, n, k):
+....:     for i in xrange(0, m/1000):
+....:         a = ZZ.random_element(n) + 2
+....:         b = ZZ.random_element(k)
+....:         c = a^b
+....:         for i in xrange (0, 1000):
+....:             c.exact_log(a)
+....:             
+sage: time zlog(100000, 2^100, 100)
+CPU times: user 1.96 s, sys: 0.02 s, total: 1.98 s
+Wall time: 1.99 s
+sage: time zlog(100000, 100, 100)
+CPU times: user 0.05 s, sys: 0.01 s, total: 0.06 s
+Wall time: 0.05 s
+ }}}
 
 
 == Calculus ==
