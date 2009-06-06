@@ -105,12 +105,11 @@ sage: magma.eval('time z:=Quotrem(%s,%s)'%(f.name(), g.name()))
 sage: def zlog(m, n, k):
 ....:         for i in range(0, m/1000):
 ....:             a = ZZ.random_element(n)+2
-....:         b = ZZ.random_element(k)
-....:         c = a^b
-....:         for j in range (0, 1000):
+....:             b = ZZ.random_element(k)
+....:             c = a^b
+....:             for j in range (0, 1000):
 ....:                 c.exact_log(a)
 ....:
-sage:
 sage: time zlog(1000000, 100, 100)
 CPU times: user 0.62 s, sys: 0.23 s, total: 0.85 s
 Wall time: 0.85 s
