@@ -212,7 +212,7 @@ Wall time: 0.05 s
 == Calculus ==
 
 
- * FIXME: summarize #5404
+ * Deprecate the function {{{numerical_sqrt()}}} (Robert Bradshaw, John H. Palmieri) -- The function {{{numerical_sqrt()}}} in {{{sage/misc/functional.py}}} is now deprecated. Users are advised to instead use {{{sqrt()}}}.
 
 
 == Combinatorics ==
