@@ -195,7 +195,7 @@ Time: 62.980
 
 }}}
 
-* Fast HNF and determinant for integer matrices, especially for as the entries get large.
+* Fast HNF and determinant for integer matrices, especially as the entries get large.
 
  http://wstein.org/papers/hnf/hnf.pdf
 
