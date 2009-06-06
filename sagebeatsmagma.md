@@ -14,6 +14,20 @@ eno: (a script to stop background processes for benchmarking purposes is availab
 
 == Benchmarks ==
 
+* Sage is a tad faster at computing partitions
+
+{{{
+sage: time z=number_of_partitions(1000000)
+CPU times: user 0.05 s, sys: 0.00 s, total: 0.05 s
+Wall time: 0.05 s
+
+sage: magma.eval('time z:=NumberOfPartitions(1000000)')
+'Time: 233.960'
+
+sage: 233.96/0.05
+4679.20000000000
+}}}
+
 * Computing factorials (Sage is more than twice the speed).
 
 {{{
