@@ -28,6 +28,18 @@ sage: 233.96/0.05
 4679.20000000000
 }}}
 
+* .... and Bernoulli numbers
+
+{{{
+sage: time z=bernoulli(10000);
+CPU times: user 0.04 s, sys: 0.00 s, total: 0.04 s
+Wall time: 0.04 s
+}}}
+
+{{{
+}}}
+
+
 * Computing factorials (Sage is more than twice the speed).
 
 {{{
