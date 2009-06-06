@@ -257,7 +257,27 @@ Wall time: 0.05 s
 == Interfaces ==
 
 
- * FIXME: summarize #6208
+ * Improving the GAP interface by pre-compiling certain regular expressions (Simon King) -- The speed-up in the GAP interface is now up to 37% faster than previously. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: G = SymmetricGroup(7)
+sage: g = G._gap_()
+sage: l = g.Elements()
+sage: time L = [gap.eval(l.name() + '[%d]^2' % (i)) for i in xrange(1, 7.factorial() + 1)]
+CPU times: user 1.90 s, sys: 0.16 s, total: 2.06 s
+Wall time: 2.08 s
+
+
+# AFTER
+
+sage: G = SymmetricGroup(7)
+sage: g = G._gap_()
+sage: l = g.Elements()
+sage: time L = [gap.eval(l.name() + '[%d]^2' % (i)) for i in xrange(1, 7.factorial() + 1)]
+CPU times: user 1.07 s, sys: 0.22 s, total: 1.29 s
+Wall time: 1.31 s
+ }}}
 
 
 == Linear Algebra ==
