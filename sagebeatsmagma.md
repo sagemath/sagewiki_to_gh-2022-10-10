@@ -37,8 +37,13 @@ Wall time: 0.04 s
 }}}
 
 {{{
+> time z:=BernoulliNumber(10000);
+Time: 464.250
 }}}
 
+{{{
+464.25/0.04 = 11606.25
+}}}
 
 * Computing factorials (Sage is more than twice the speed).
 
