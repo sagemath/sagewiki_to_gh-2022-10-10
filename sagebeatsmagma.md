@@ -99,6 +99,48 @@ sage: magma.eval('time z:=Quotrem(%s,%s)'%(f.name(), g.name()))
 'Time: 1.970'
 }}}
 
+* Exact logarithm of integers is faster in Sage.
+
+{{{
+sage: def zlog(m, n, k):
+....:         for i in range(0, m/1000):
+....:             a = ZZ.random_element(n)+2
+....:         b = ZZ.random_element(k)
+....:         c = a^b
+....:         for j in range (0, 1000):
+....:                 c.exact_log(a)
+....:
+sage:
+sage: time zlog(1000000, 100, 100)
+CPU times: user 0.62 s, sys: 0.23 s, total: 0.85 s
+Wall time: 0.85 s
+sage: time zlog(1000000, 2^50, 100)
+CPU times: user 2.10 s, sys: 0.27 s, total: 2.36 s
+Wall time: 2.36 s
+sage: time zlog(1000000, 100, 2^10)
+CPU times: user 1.75 s, sys: 0.26 s, total: 2.01 s
+Wall time: 2.01 s
+}}}
+
+{{{
+> procedure z_log(m, n, k)
+procedure> for i := 0 to (m div 1000) do
+procedure|for> a := Random(n) + 2;
+procedure|for> b := Random(k);
+procedure|for> c := a^b;
+procedure|for> for j := 1 to 1000 do
+procedure|for|for> d := Ilog(a, c);
+procedure|for|for> end for;
+procedure|for> end for;
+procedure> end procedure;
+> time z_log(1000000, 100, 100);
+Time: 1.180
+> time z_log(1000000, 2^50, 100);
+Time: 5.830
+> time z_log(1000000, 100, 2^10);
+Time: 6.450
+}}}
+
 * Rank of random dense matrices over GF(2) (Sage is more than twice the speed).
 
 {{{
