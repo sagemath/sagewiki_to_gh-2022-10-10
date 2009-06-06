@@ -233,7 +233,7 @@ sage: t = magma.cputime(); rM = fM.ModularComposition(gM,hM); magma.cputime(t)
 832.03999999999996
 }}}
 
-* Sage computed ranks of elliptic curves and generators, fast... and correctly
+* Sage computes ranks of elliptic curves and generators, fast... and correctly
 
 {{{
 sage: D=6611719866
