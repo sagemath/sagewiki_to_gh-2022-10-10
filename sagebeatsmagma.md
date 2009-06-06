@@ -83,6 +83,20 @@ sage: magma.eval('time z:=[%s*%s^i : i in [1..40]]'%(f.name(), g.name()))
 'Time: 112.820'
 }}}
 
+* Division of a polynomial by an integer is faster in Sage
+
+{{{
+sage: R=ZZ['x']
+sage: f = 3876877658987687 * R.random_element(10000)
+sage: timeit("f//3876877658987687")
+625 loops, best of 3: 294 Âµs per loop
+sage: ff = magma(f)
+sage: magma.eval('time z:=[%s div 3876877658987687 : i in [1..1000]]'%(ff.name()))
+'Time: 1.010'
+sage: 0.00101/0.000294
+3.43537414965986
+}}}
+
 * Sage is asymptotically faster for Quotrem over ZZ (used in computation of Sturm sequences)
 
 {{{
