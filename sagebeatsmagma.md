@@ -233,6 +233,27 @@ sage: t = magma.cputime(); rM = fM.ModularComposition(gM,hM); magma.cputime(t)
 832.03999999999996
 }}}
 
+* Sage computed ranks of elliptic curves and generators, fast... and correctly
+
+{{{
+sage: D=6611719866
+sage: E=EllipticCurve([0,0,0,-D^2,0])
+sage:  time E.rank()
+CPU times: user 0.01 s, sys: 0.01 s, total: 0.02 s
+Wall time: 3.20 s
+6
+sage:  time E.gens()
+CPU times: user 0.07 s, sys: 0.06 s, total: 0.13 s
+Wall time: 5.89 s
+
+[(247424194842066/37249 : 373863724821481185720/7189057 : 1),
+ (165541824817/16 : 51806810701954601/64 : 1),
+ (15062000442 : 1660900534642656 : 1),
+ (548503784857/36 : -365985935192610019/216 : 1),
+ (11638545941238203281/246490000 : 39314069377271931544287972679/3869893000000 : 1),
+ (514136077885092448181278/169697035249 : -368651568597676351513664298941602072/69905505791578807 : 1)]
+}}}
+
 = ....But Magma has the following features which Sage doesn't have (yet) =
 
 * fast and correct multivariate polynomial factorisation algorithm
