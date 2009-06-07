@@ -435,11 +435,31 @@ sage: html.table(t, header = True)
 == Number Theory ==
 
 
- * FIXME: summarize #133
+ * Galois action (David Loeffler) -- For example, one can now perform computations similar to the following:
+ {{{
+sage: F.<z> = CyclotomicField(7)
+sage: G = F.galois_group()
+sage: phi = G.random_element()
+sage: phi(z)
+z^4
+ }}}
 
- * FIXME: summarize #6021
 
- * FIXME: summarize #6206
+ * Period lattices for elliptic curves over {{{CC}}} (John Cremona) -- For elliptic curves over number fields, period lattice for complex embeddings is supported, using the complex AGM (Gauss' Arithmetic-Geometric Mean) method to compute the basis. Here's an example:
+ {{{
+sage: K.<a> = NumberField(x^3 - 2)
+sage: E = EllipticCurve([0, 1, 0, a, a])
+sage: emb = K.embeddings(ComplexField())[0]
+sage: E.period_lattice(emb)
+
+Period lattice associated to Elliptic Curve defined by y^2 = x^3 + x^2 + a*x + a over Number Field in a with defining polynomial x^3 - 2 with respect to the embedding Ring morphism:
+  From: Number Field in a with defining polynomial x^3 - 2
+  To:   Algebraic Field
+  Defn: a |--> -0.6299605249474365? - 1.091123635971722?*I
+ }}}
+
+
+ * Move the {{{algebraic_closure}}} method from {{{RLF}}} to {{{LazyField}}} (Nick Alexander).
 
 
 == Numerical ==
