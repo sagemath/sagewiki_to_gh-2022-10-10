@@ -260,10 +260,31 @@ A2xB2xF4
  }}}
 
 
- * Speed-up computation in symmetric algebra group (Dan Christensen) -- The previous code essentially reimplemented the multiplication in the group algebra. Now it accumulates the symmetrizers and antisymmetrizers separately, and then does one multiplication at the end. This probably results in the same number of operations, but it avoids creating many intermediate objects. The speed-up can be up to ...
+ * Speed-up computation in symmetric algebra group (Dan Christensen) -- The previous code essentially reimplemented the multiplication in the group algebra. Now it accumulates the symmetrizers and antisymmetrizers separately, and then does one multiplication at the end. This probably results in the same number of operations, but it avoids creating many intermediate objects. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: from sage.combinat.symmetric_group_algebra import e
+sage: time dummy = e([[1,2,3,4], [5,6,7]])
+CPU times: user 1.91 s, sys: 0.31 s, total: 2.22 s
+Wall time: 3.15 s
+sage: time e([[1,2,3,4,5],[6,7,8],[9,10],[11]]);
+# hangs for over 6 hours
 
 
- * Improve speed of combinatorial algebra multiplication (Dan Christensen) -- The speed-up concerns the method {{{multiply()}}} of the class {{{CombinatorialAlgebra}}} in {{{sage/combinat/combinatorial_algebra.py}}}. The speed-up can be up to ... 
+# AFTER
+
+sage: from sage.combinat.symmetric_group_algebra import e
+sage: time dummy = e([[1,2,3,4], [5,6,7]])
+CPU times: user 0.12 s, sys: 0.05 s, total: 0.17 s
+Wall time: 0.32 s
+sage: time e([[1,2,3,4,5],[6,7,8],[9,10],[11]]);
+CPU times: user 31.20 s, sys: 0.53 s, total: 31.73 s
+Wall time: 31.73 s
+ }}}
+
+
+ * Improve speed of combinatorial algebra multiplication (Dan Christensen) -- The speed-up concerns the method {{{multiply()}}} of the class {{{CombinatorialAlgebra}}} in {{{sage/combinat/combinatorial_algebra.py}}}.
 
 
 == Graphics ==
