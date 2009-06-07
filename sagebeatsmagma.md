@@ -24,6 +24,16 @@ sage: time qsieve(n)
 CPU times: user 0.00 s, sys: 0.00 s, total: 0.01 s
 Wall time: 10.05 s
 ([9594859962293488319946733153, 1764491262701368590074626129037], '')
+
+sage: n=ZZ.random_element(10^34).next_prime()*ZZ.random_element(10^36).next_prime()
+sage: n
+875905585594859559501188824768701936589874544145799136043283226938267
+sage: time qsieve(n)
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 82.13 s
+
+([1763643785109465131425492782015799, 496645407077197397173724652476563133],
+ '')
 }}}
 
 {{{
