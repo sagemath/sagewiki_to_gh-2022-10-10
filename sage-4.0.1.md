@@ -339,11 +339,61 @@ Wall time: 1.31 s
 == Miscellaneous ==
 
 
- * FIXME: summarize #5967
+ *  Wrapping Sage or Python objects as Sage elements (Nicolas Thiery) -- New class {{{ElementWrapper}}} in {{{sage/structure/element_wrapper.py}}} for wrapping Sage or Python objects as Sage elements, with reasonable default implementations of {{{repr}}}, {{{cmp}}}, {{{hash}}}, etc. The typical use case is for trivially constructing new element classes from pre-existing Sage or Python classes, with a containment relation. Here's an example on using {{{ElementWrapper}}}:
+ {{{
+sage: o = ElementWrapper("bla", parent=ZZ); o
+'bla'
+sage: isinstance(o, sage.structure.element.Element)
+True
+sage: o.parent()
+Integer Ring
+sage: o.value
+'bla'
+ }}}
 
- * FIXME: summarize #5483
 
- * FIXME: summarize #6139
+ * A tool for understanding Python pickles (Carl Witty) -- The new module {{{sage/misc/explain_pickle.py}}} has a function called {{{explain_pickle}}} that takes a pickle and produces Sage code that will evaluate to the contents of the pickle.  The combination of {{{explain_sage}}} to produce Sage code and {{{sage_eval}}} to evaluate the code should be a 100% compatible implementation of cPickle's unpickler. That is, {{{explain_sage}}} explains a pickle by producing source code such that evaluating the code is equivalent to loading the pickle. Feeding the result of {{{explain_pickle}}} to {{{sage_eval}}} should be totally equivalent to loading the pickle with cPickle. Here are some examples on using {{{explain_pickle}}}:
+ {{{
+sage: explain_pickle(dumps({('a', 'b'): [1r, 2r]}))
+{('a', 'b'):[1r, 2r]}
+sage: explain_pickle(dumps(RR(pi)), in_current_sage=True)
+
+from sage.rings.real_mpfr import __create__RealNumber_version0
+from sage.rings.real_mpfr import __create__RealField_version0
+__create__RealNumber_version0(__create__RealField_version0(53r, False, 'RNDN'), '3.4gvml245kc0@0', 32r)
+sage: s = 'hi'
+sage: explain_pickle(dumps((s, s)))
+('hi', 'hi')
+sage: explain_pickle(dumps((s, s)), pedantic=True)
+
+si = 'hi'
+(si, si)
+sage: explain_pickle(dumps(5r)
+....: )
+5r
+sage: explain_pickle(dumps(22/7))
+
+pg_make_rational = unpickle_global('sage.rings.rational', 'make_rational')
+pg_make_rational('m/7')
+sage: explain_pickle(dumps(22/7), in_current_sage=True)
+
+from sage.rings.rational import make_rational
+make_rational('m/7')
+sage: explain_pickle(dumps(22/7), default_assumptions=True)
+
+from sage.rings.rational import make_rational
+make_rational('m/7')
+ }}}
+
+
+ * S-box calling when {{{m != n}}} (Martin Albrecht) -- An S-box takes {{{m}}} input bits and transforms them into {{{n}}} output bits. This is called an {{{m x n}}} S-box. The case of invoking an S-box with {{{m != n}}} is now supported:
+ {{{
+sage: S = mq.SBox(3, 0, 1, 3, 1, 0, 2, 2)
+sage: S(0)
+3
+sage: S([0,0,0])
+[1, 1]
+ }}}
 
 
 == Modular Forms ==
