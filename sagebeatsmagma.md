@@ -14,6 +14,21 @@ eno: (a script to stop background processes for benchmarking purposes is availab
 
 == Benchmarks ==
 
+* Sage is faster at multiplying large numbers
+
+{{{
+sage: a=ZZ.random_element(2^100000)
+sage: b=ZZ.random_element(2^100000)
+sage: time c = [a*b for i in [1..10000]]
+CPU times: user 6.20 s, sys: 0.00 s, total: 6.20 s
+Wall time: 6.20 s
+
+sage: aa=magma(a)
+sage: bb=magma(b)
+sage: magma.eval('time z:=[%s*%s : i in [1..10000]]'%(aa.name(), bb.name()))
+'Time: 11.210'
+}}}
+
 * Sage is faster at factoring large numbers
 
 {{{
