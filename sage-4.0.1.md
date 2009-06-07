@@ -465,7 +465,18 @@ Period lattice associated to Elliptic Curve defined by y^2 = x^3 + x^2 + a*x + a
 == Numerical ==
 
 
- * FIXME: summarize #5827
+ * Solving the subset sum problem for super-increasing sequences (Minh Van Nguyen) -- New module {{{sage/numerical/knapsack.py}}} for solving knapsack problems. The class {{{Superincreasing}}} in that module can be used to solve the subset sum problem for super-increasing sequences. Here are some examples:
+ {{{
+sage: from sage.numerical.knapsack import Superincreasing
+sage: L = [1, 2, 5, 21, 69, 189, 376, 919]
+sage: seq = Superincreasing(L)
+sage: seq
+Super-increasing sequence of length 8
+sage: seq.is_superincreasing()
+True
+sage: Superincreasing().is_superincreasing([1,3,5,7])
+False
+ }}}
 
 
 == Packages ==
