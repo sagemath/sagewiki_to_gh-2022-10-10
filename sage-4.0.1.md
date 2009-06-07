@@ -482,19 +482,19 @@ False
 == Packages ==
 
 
- * FIXME: summarize #5840
+ * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg to version atlas-3.8.3.p3.spkg (William Stein).
 
- * FIXME: summarize #6173
 
- * FIXME: summarize #5817
+ * Update [[http://www.flintlib.org|FLINT]] to version 1.2.5 latest upstream release (Michael Abshoff, Mike Hansen ).
 
- * FIXME: summarize #6156
 
- * FIXME: summarize #6169
+ * Update the [[http://www.gap-system.org|GAP]] spkg to version gap-4.4.10.p12.spkg (William Stein).
 
- * FIXME: summarize #6209
 
- * FIXME: summarize #6219
+ * Update [[http://www.mpir.org|MPIR]] to version 1.2 latest upstream release (William Stein).
+
+
+ * Update the optional [[http://bitbucket.org/ddrake/sagetex|SageTeX]] spkg to version 2.1.1 (Dan Drake).
 
 
 == P-adics ==
