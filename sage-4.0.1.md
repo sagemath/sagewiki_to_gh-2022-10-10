@@ -269,7 +269,11 @@ A2xB2xF4
 == Graphics ==
 
 
- * FIXME: summarize #6184
+ * Mesh lines for 3-D plots (Bill Cauchois) -- One can produce 3-D plots with mesh lines as follows:
+ {{{
+sage: plot3d(lambda x,y: exp(x+y*I).real(), (-2, 2.4), (-3, 3), mesh=True, zoom=1.3)
+ }}}
+{{attachment:mesh-plot.png}}
 
 
  * Centering of contour and density plots (Jason Grout) -- The following example shows a "spotlight" on the origin:
