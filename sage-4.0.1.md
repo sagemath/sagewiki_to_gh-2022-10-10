@@ -526,4 +526,4 @@ sage: t*A
 == Topology ==
 
 
- * FIXME: summarize #6141
+ * Change {{{facets}}} from an attribute to a method in simplicial complexes (John Palmieri).
