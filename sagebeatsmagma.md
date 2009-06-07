@@ -241,8 +241,29 @@ Time: 62.980
 }}}
 
 * Fast HNF and determinant for integer matrices, especially as the entries get large.
-
- http://wstein.org/papers/hnf/hnf.pdf
+{{{
+[wstein@eno sage-4.0.1]$ ./sage
+----------------------------------------------------------------------
+| Sage Version 4.0.1, Release Date: 2009-06-06                       |
+| Type notebook() for the GUI, and license() for information.        |
+----------------------------------------------------------------------
+sage: a = random_matrix(ZZ,300,x=-2^128,y=2^128)
+sage: time d = a.det()
+CPU times: user 5.97 s, sys: 0.02 s, total: 5.98 s
+Wall time: 5.99 s
+sage: b = magma(a)
+sage: time magma.eval('time d := Determinant(%s);'%b.name())
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 35.59 s
+'Time: 35.500'
+sage: time h = a.hermite_form()
+CPU times: user 23.99 s, sys: 0.10 s, total: 24.09 s
+Wall time: 24.17 s
+sage: time magma.eval('time h := HermiteForm(%s);'%b.name())
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 90.31 s
+'Time: 90.200'
+}}}
 
 * Modular composition over GF(2)
 
