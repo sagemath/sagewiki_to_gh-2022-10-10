@@ -265,6 +265,19 @@ Wall time: 90.31 s
 'Time: 90.200'
 }}}
 
+A bigger det where Sage is *ten* times faster:
+{{{
+sage: a = random_matrix(ZZ,1000,x=-2^128,y=2^128)
+sage: time d = a.det()
+CPU times: user 122.57 s, sys: 0.25 s, total: 122.82 s
+Wall time: 122.90 s
+sage: b = magma(a)
+sage: time magma.eval('time d := Determinant(%s);'%b.name())
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 1262.36 s
+'Time: 1261.980'
+}}}
+
 * Modular composition over GF(2)
 
 {{{
