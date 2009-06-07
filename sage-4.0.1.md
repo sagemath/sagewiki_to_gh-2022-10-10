@@ -268,13 +268,7 @@ A2xB2xF4
  * Speed-up computation in symmetric algebra group (Dan Christensen) -- The previous code essentially reimplemented the multiplication in the group algebra. Now it accumulates the symmetrizers and antisymmetrizers separately, and then does one multiplication at the end. This probably results in the same number of operations, but it avoids creating many intermediate objects. The speed-up can be up to ...
 
 
- * Improve speed of combinatorial algebra multiplication (Dan Christensen) -- The speed-up concerns the method {{{multiply()}}} of the class {{{CombinatorialAlgebra}}} in {{{sage/combinat/combinatorial_algebra.py}}}. 
-
-
-== Commutative Algebra ==
-
-
- * FIXME: summarize #6120
+ * Improve speed of combinatorial algebra multiplication (Dan Christensen) -- The speed-up concerns the method {{{multiply()}}} of the class {{{CombinatorialAlgebra}}} in {{{sage/combinat/combinatorial_algebra.py}}}. The speed-up can be up to ... 
 
 
 == Geometry ==
@@ -288,8 +282,27 @@ A2xB2xF4
 
  * FIXME: summarize #6184
 
- * FIXME: summarize #5599
 
+ * Centering of contour and density plots (Jason Grout) -- The following example shows a "spotlight" on the origin:
+ {{{
+sage: x, y = var('x,y')
+sage: density_plot(1/(x^10+y^10), (x, -10, 10), (y, -10, 10))
+ }}}
+{{attachment:spotlight.png}}
+
+ This plots concentric circles centered at the origin:
+ {{{
+sage: x, y = var('x,y')
+sage: contour_plot(x^2 + y^2 - 2, (x,-1,1), (y,-1,1)).show(aspect_ratio=1)
+ }}}
+{{attachment:concentric-circles.png}}
+
+ The following example plots a disk centered at the origin:
+ {{{
+sage: x, y = var('x,y')
+sage: region_plot(x^2 + y^2 < 1, (x,-1,1), (y,-1,1)).show(aspect_ratio=1)
+ }}}
+{{attachment:disk.png}}
 
 == Group Theory ==
 
