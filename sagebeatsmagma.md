@@ -297,6 +297,23 @@ Wall time: 0.27 s
 'Time: 0.250'
 }}}
 
+* Multiplication of random dense matrices over GF(2) 
+
+{{{
+sage: A = random_matrix(GF(2),10^4,10^4)
+sage: B = random_matrix(GF(2),10^4,10^4)
+sage: time C = A*B
+CPU times: user 1.41 s, sys: 0.00 s, total: 1.41 s
+Wall time: 1.43 s
+}}}
+
+{{{
+> A:=RandomMatrix(GF(2),10^4,10^4);
+> B:=RandomMatrix(GF(2),10^4,10^4);
+> time C := A*B;
+Time: 3.720
+}}}
+
 * Rank of random dense matrices over GF(2) (Sage is more than twice the speed).
 
 {{{
