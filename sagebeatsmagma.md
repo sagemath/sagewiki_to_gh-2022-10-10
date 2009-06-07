@@ -304,6 +304,21 @@ Wall time: 1262.36 s
 'Time: 1261.980'
 }}}
 
+* Characteristic polynomials of integer matrices with ''large entries'' (here Sage is over 4 times faster):
+{{{
+sage: a = random_matrix(ZZ,100,x=-2^512,y=2^512)
+sage: time f = a.charpoly()
+CPU times: user 16.76 s, sys: 0.00 s, total: 16.76 s
+Wall time: 16.76 s
+sage: b = magma(a)
+sage: time magma.eval('time f := CharacteristicPolynomial(%s)'%b.name())
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 71.27 s
+'Time: 71.120'
+sage: 71.120/16.76
+4.24343675417661
+}}}
+
 * Modular composition over GF(2)
 
 {{{
