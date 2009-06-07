@@ -264,8 +264,26 @@ Time: 5.830
 Time: 6.450
 }}}
 
+* Univariate polynomial multiplication over a finite field
+
+{{{
+sage: p=ZZ.random_element(2^25).next_prime()
+sage: p
+26540959
+sage: f=R.random_element(4000)
+sage: g=R.random_element(4000)
+sage: time z = [f*g for i in [1..100]]
+CPU times: user 0.39 s, sys: 0.00 s, total: 0.39 s
+Wall time: 0.39 s
+
+sage: ff=magma(f)
+sage: gg=magma(g)
+sage: magma.eval('time z:=[%s*%s : i in [1..100]]'%(ff.name(), gg.name()))
+'Time: 1.040'
+}}}
 
 * Multivariate polynomial multiplication over a finite field (Sage is more than twice as fast at this "Fateman benchmark"):
+
 {{{
 sage: R.<x,y,z> = GF(389)[]
 sage: f = (x+y+z+1)^20
