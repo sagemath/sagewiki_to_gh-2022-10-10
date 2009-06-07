@@ -413,9 +413,23 @@ True
 == Notebook ==
 
 
- * FIXME: summarize #4575
+ * Show nested lists as HTML tables (Wilfried Huss) -- One can produce such HTML tables as follows:
+ {{{
+sage: functions = [sin(x), cos(x), tan(x), acos(x)]
+sage: t = [[f, taylor(f, x, 0, 10)] for f in functions]
+sage: html.table([["Function", "Series"]] + t, header = True)
+ }}}
+{{attachment:html-table-1.png}}
+ One can also place graphic objects into the table:
+ {{{
+sage: f = 1/x*sin(x)
+sage: t = [["Function", "Plot"],[f, plot(f, x, -4*pi, 4*pi)]]
+sage: html.table(t, header = True)
+ }}}
+{{attachment:html-table-2.png}}
 
- * FIXME: summarize #5895
+
+ * Limit the number of worksheet snapshots (Rob Beezer) -- Reduce the unlimited growth of snapshots of worksheets when using the notebook.
 
 
 == Number Theory ==
