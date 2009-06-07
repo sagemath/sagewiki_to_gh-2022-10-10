@@ -185,6 +185,21 @@ Time: 5.830
 Time: 6.450
 }}}
 
+
+* Multivariate polynomial multiplication over a finite field (Sage is more than twice as fast at this "Fateman benchmark"):
+{{{
+sage: R.<x,y,z> = GF(389)[]
+sage: f = (x+y+z+1)^20
+sage: time g = f*(f+1)
+CPU times: user 0.12 s, sys: 0.00 s, total: 0.12 s
+Wall time: 0.12 s
+sage: ff = magma(f)
+sage: time magma.eval('time g := %s*(%s+1);'%(ff.name(),ff.name()))
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.27 s
+'Time: 0.250'
+}}}
+
 * Rank of random dense matrices over GF(2) (Sage is more than twice the speed).
 
 {{{
