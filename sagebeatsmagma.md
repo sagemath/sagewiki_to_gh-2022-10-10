@@ -121,6 +121,8 @@ CPU times: user 8.41 s, sys: 0.25 s, total: 8.65 s
 sage: magma.eval('R<q> := PowerSeriesRing(IntegerRing());')
 sage: magma.eval('time d := Delta(q + O(q^(10^6)));')
 'Time: 31.700'
+sage: 31.7/8.6
+3.68604651162791
 }}}
 
 * Division of a polynomial by an integer is faster in Sage
