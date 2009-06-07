@@ -14,6 +14,18 @@ eno: (a script to stop background processes for benchmarking purposes is availab
 
 == Benchmarks ==
 
+* Sage is faster at factoring large numbers
+
+{{{
+sage: n=ZZ.random_element(10^29).next_prime()*ZZ.random_element(10^31).next_prime()
+sage: n
+16930046570310043023762335280694777006455061519242383863661
+sage: time qsieve(n)
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.01 s
+Wall time: 10.05 s
+([9594859962293488319946733153, 1764491262701368590074626129037], '')
+}}}
+
 * Sage is a tad faster at computing partitions
 
 {{{
