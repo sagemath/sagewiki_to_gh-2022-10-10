@@ -2,9 +2,10 @@
 
 Sage 4.0.1 was released on FIXME. For the official, comprehensive release note, please refer to FIXME. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
 
- * 
- * 
- * 
+ * Nested lists as nicely formatted HTML tables.
+ * Update FLINT and MPIR to latest upstream releases.
+ * Speed optimization for algebra, basic arithmetics, and the GAP interface.
+ * A tool for understanding pickling.
 
 
 == Algebra ==
