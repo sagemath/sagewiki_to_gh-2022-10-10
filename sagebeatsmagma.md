@@ -190,6 +190,24 @@ sage: magma.eval('time z:=Quotrem(%s,%s)'%(f.name(), g.name()))
 'Time: 1.970'
 }}}
 
+* Polynomial GCD over ZZ is faster in Sage
+{{{
+sage: R=ZZ['x']
+sage: f=R.random_element(100)
+sage: g=R.random_element(100)
+sage: h=R.random_element(100)
+sage: s=f*g
+sage: t=f*h
+sage: time v = [s.gcd(t) for i in [1..1000]]
+CPU times: user 0.15 s, sys: 0.00 s, total: 0.16 s
+Wall time: 0.16 s
+
+sage: ss=magma(s)
+sage: tt=magma(t)
+sage: magma.eval('time u:=[Gcd(%s,%s) : i in [1..1000]]'%(ss.name(), tt.name()))
+'Time: 1.230'
+}}}
+
 * Exact logarithm of integers is faster in Sage.
 
 {{{
