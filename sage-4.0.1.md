@@ -399,7 +399,15 @@ sage: S([0,0,0])
 == Modular Forms ==
 
 
- * FIXME: summarize #5995
+ * Membership testing for modular forms subspaces (David Loeffler) -- One can test such membership as follows:
+ {{{
+sage: M = ModularForms(17, 4)
+sage: S = M.cuspidal_submodule()
+sage: M.0 == S.0
+True
+sage: M.0 in S
+True
+ }}}
 
 
 == Notebook ==
