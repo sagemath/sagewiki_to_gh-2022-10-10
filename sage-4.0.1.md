@@ -506,9 +506,21 @@ False
 == Symbolics ==
 
 
- * FIXME: summarize #6144
-
- * FIXME: summarize #6194
+ * Simplify when multiplying by exponential expressions (Burcin Erocal, Mike Hansen) -- Here are some examples:
+ {{{
+sage: x, y = var("x,y")
+sage: exp(x) * exp(y)
+e^(x + y)
+sage: x^y * exp(x+y) * exp(-y)
+x^y*e^x
+sage: x^y * exp(x+y) * (x+y) * (2*x + 2*y) * exp(-y)
+2*(x + y)^2*x^y*e^x
+sage: A = exp(I*pi/5)
+sage: t = A*A*A*A; t
+e^(4/5*I*pi)
+sage: t*A
+-1
+ }}}
 
 
 == Topology ==
