@@ -146,12 +146,6 @@ Wall time: 4.62 s
  }}}
 
 
-== Algebraic Geometry ==
-
-
- * FIXME: summarize #5948
-
-
 == Basic Arithmetic ==
 
 
@@ -272,12 +266,6 @@ A2xB2xF4
  * Improve speed of combinatorial algebra multiplication (Dan Christensen) -- The speed-up concerns the method {{{multiply()}}} of the class {{{CombinatorialAlgebra}}} in {{{sage/combinat/combinatorial_algebra.py}}}. The speed-up can be up to ... 
 
 
-== Geometry ==
-
-
-== Graph Theory ==
-
-
 == Graphics ==
 
 
@@ -305,8 +293,6 @@ sage: region_plot(x^2 + y^2 < 1, (x,-1,1), (y,-1,1)).show(aspect_ratio=1)
  }}}
 {{attachment:disk.png}}
 
-== Group Theory ==
-
 
 == Interfaces ==
 
@@ -332,9 +318,6 @@ sage: time L = [gap.eval(l.name() + '[%d]^2' % (i)) for i in xrange(1, 7.factori
 CPU times: user 1.07 s, sys: 0.22 s, total: 1.29 s
 Wall time: 1.31 s
  }}}
-
-
-== Linear Algebra ==
 
 
 == Miscellaneous ==
@@ -496,12 +479,6 @@ False
 
 
  * Update the optional [[http://bitbucket.org/ddrake/sagetex|SageTeX]] spkg to version 2.1.1 (Dan Drake).
-
-
-== P-adics ==
-
-
-== Quadratic Forms ==
 
 
 == Symbolics ==
