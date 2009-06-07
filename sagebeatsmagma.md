@@ -391,16 +391,39 @@ index in the actual group.
 Time: 57.970
 }}}
 
-= ....But Magma has the following features which Sage doesn't have (yet) =
 
-* fast and correct multivariate polynomial factorisation algorithm
+* Computation with Brandt modules, i.e., using quaternion algebras to compute Hecke module isomorphic to free abelian group on enhanced supersingular elliptic curves in characteristic p  (in the example below, Sage is over 4 times faster):
 
-* fast Gröbner basis computations mod p (p > 2, p prime) and QQ
+{{{
+sage: time B = BrandtModule(59,15)
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
+sage: time B.hecke_matrix(2)
+CPU times: user 9.29 s, sys: 0.27 s, total: 9.56 s
+Wall time: 9.57 s
+116 x 116 dense matrix over Rational Field
+sage: time B.hecke_matrix(3)
+CPU times: user 0.03 s, sys: 0.00 s, total: 0.03 s
+Wall time: 0.03 s
+116 x 116 dense matrix over Rational Field
+sage: time B.hecke_matrix(5)
+CPU times: user 0.02 s, sys: 0.00 s, total: 0.02 s
+Wall time: 0.02 s
+116 x 116 dense matrix over Rational Field
+sage: time B.hecke_matrix(7)
+CPU times: user 0.02 s, sys: 0.00 s, total: 0.03 s
+Wall time: 0.03 s
+116 x 116 dense matrix over Rational Field
 
-* fast GCD of multivariate polynomials
 
-* 3, 4, and 8 descent
-
-* fast computation of Riemann/Siegel theta functions
-
-* fast dense linear algebra over finite extension fields
+sage: magma.eval('time B := BrandtModule(59,15);')
+'Time: 40.820'
+sage: magma.eval('time T2 := HeckeOperator(B,2);')
+'Time: 0.330'
+sage: magma.eval('time T3 := HeckeOperator(B,3);')
+'Time: 0.360'
+sage: magma.eval('time T5 := HeckeOperator(B,5);')
+'Time: 0.390'
+sage: magma.eval('time T7 := HeckeOperator(B,7);')
+'Time: 0.400'
+}}}
