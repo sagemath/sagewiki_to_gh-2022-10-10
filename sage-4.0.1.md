@@ -214,8 +214,8 @@ Wall time: 0.05 s
 
 
  * Sets enumerated by exploring a search space with a (lazy) tree or graph structure (Nicolas Thiery) -- Extend the {{{sage.combinat.backtrack}}} library with other generic tools for constructing large sets whose elements can be enumerated by exploring a search space with a (lazy) tree or graph structure. The following generic utilities have been added:
-  1. {{{SearchForest}}}: Depth first search through a tree descrived by a "child" function.
-  1. {{{GenericBacktracker}}}: Depth first search through a tree descrived by a "child" function, with branch pruning, etc.
+  1. {{{SearchForest}}}: Depth first search through a tree described by a "child" function.
+  1. {{{GenericBacktracker}}}: Depth first search through a tree described by a "child" function, with branch pruning, etc.
   1. {{{TransitiveIdeal}}}: Depth first search through a graph described by a "neighbours" relation.
   1. {{{TransitiveIdealGraded}}}: Breath first search through a graph described by a "neighbours" relation.
 
