@@ -114,6 +114,15 @@ sage: magma.eval('time z:=[%s*%s^i : i in [1..40]]'%(f.name(), g.name()))
 'Time: 112.820'
 }}}
 
+* Application of polynomial multiplication to modular forms -- Computing the q-expansion of the Delta function:
+{{{
+sage: time d = delta_qexp(10^6)
+CPU times: user 8.41 s, sys: 0.25 s, total: 8.65 s
+sage: magma.eval('R<q> := PowerSeriesRing(IntegerRing());')
+sage: magma.eval('time d := Delta(q + O(q^(10^6)));')
+'Time: 31.700'
+}}}
+
 * Division of a polynomial by an integer is faster in Sage
 
 {{{
