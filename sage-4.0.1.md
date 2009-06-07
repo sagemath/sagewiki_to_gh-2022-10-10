@@ -218,17 +218,57 @@ Wall time: 0.05 s
 == Combinatorics ==
 
 
- * FIXME: summarize #6000
+ * Sets enumerated by exploring a search space with a (lazy) tree or graph structure (Nicolas Thiery) -- Extend the {{{sage.combinat.backtrack}}} library with other generic tools for constructing large sets whose elements can be enumerated by exploring a search space with a (lazy) tree or graph structure. The following generic utilities have been added:
+  1. {{{SearchForest}}}: Depth first search through a tree descrived by a "child" function.
+  1. {{{GenericBacktracker}}}: Depth first search through a tree descrived by a "child" function, with branch pruning, etc.
+  1. {{{TransitiveIdeal}}}: Depth first search through a graph described by a "neighbours" relation.
+  1. {{{TransitiveIdealGraded}}}: Breath first search through a graph described by a "neighbours" relation.
 
- * FIXME: summarize #6167
 
- * FIXME: summarize #6093
+ * The Sloane sequence A000008 (Joanna Gaski) -- The [[http://www.research.att.com/~njas/sequences/A000008|Sloane sequence A000008]] is concerned with the number of ways of making change for {{{n}}} cents where one is restricted to using only coins of denominations 1, 2, 5, and 10 cents. This is contained in the new class {{{A000008}}} in {{{sage/combinat/sloane_functions.py}}}. Here are some examples on using this class:
+ {{{
+sage: a = sloane.A000008; a
+Number of ways of making change for n cents using coins of 1, 2, 5, 10 cents.
+sage: a(0)
+1
+sage: a(1)
+1
+sage: a(13)
+16
+sage: a.list(14)
+[1, 1, 2, 2, 3, 4, 5, 6, 7, 8, 11, 12, 15, 16]
+ }}}
 
- * FIXME: summarize #6050
 
- * FIXME: summarize #5931
+ * Read {{{ext_rep}}} format of combinatorial designs (Carlo Hamalainen) -- The new module {{{sage/combinat/designs/ext_rep.py}}} is an API to the abstract tree represented by an XML document containing the External Representation of a list of block designs. The relevant combinatorial designs are read from the online database at [[http://designtheory.org/database]]. This module also provides the related I/O operations for reading and writing ext-rep files or data. The parsing is based on {{{expat}}}.
 
- * FIXME: summarize #5925
+
+ * Dynkin diagram ASCII art for reducible Cartan types (Dan Bump) -- Here are some examples on such ASCII art:
+ {{{
+sage: CartanType("F4xA2").dynkin_diagram()
+
+O---O=>=O---O
+1   2   3   4
+O---O
+5   6
+F4xA2
+sage: t = CartanType("A2xB2xF4")
+sage: dd = DynkinDiagram(t); dd
+
+O---O
+1   2
+O=>=O
+3   4
+O---O=>=O---O
+5   6   7   8
+A2xB2xF4
+ }}}
+
+
+ * Speed-up computation in symmetric algebra group (Dan Christensen) -- The previous code essentially reimplemented the multiplication in the group algebra. Now it accumulates the symmetrizers and antisymmetrizers separately, and then does one multiplication at the end. This probably results in the same number of operations, but it avoids creating many intermediate objects. The speed-up can be up to ...
+
+
+ * Improve speed of combinatorial algebra multiplication (Dan Christensen) -- The speed-up concerns the method {{{multiply()}}} of the class {{{CombinatorialAlgebra}}} in {{{sage/combinat/combinatorial_algebra.py}}}. 
 
 
 == Commutative Algebra ==
