@@ -284,7 +284,31 @@ Wall time: 31.73 s
  }}}
 
 
- * Improve speed of combinatorial algebra multiplication (Dan Christensen) -- The speed-up concerns the method {{{multiply()}}} of the class {{{CombinatorialAlgebra}}} in {{{sage/combinat/combinatorial_algebra.py}}}.
+ * Improve speed of combinatorial algebra multiplication (Dan Christensen) -- The speed-up concerns the method {{{multiply()}}} of the class {{{CombinatorialAlgebra}}} in {{{sage/combinat/combinatorial_algebra.py}}}. In some cases, the efficiency can be up to 3x. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: from sage.combinat.symmetric_group_algebra import e
+sage: Y=[[1,2,3,4],[5,6]]
+sage: time eY = e(Y)
+CPU times: user 0.46 s, sys: 0.08 s, total: 0.54 s
+Wall time: 0.74 s
+sage: time eY2 = eY*eY
+CPU times: user 1.47 s, sys: 0.00 s, total: 1.47 s
+Wall time: 1.47 s
+
+
+# AFTER
+
+sage: from sage.combinat.symmetric_group_algebra import e
+sage: Y = [[1,2,3,4], [5,6]]
+sage: time eY = e(Y)
+CPU times: user 0.05 s, sys: 0.02 s, total: 0.07 s
+Wall time: 0.22 s
+sage: time eY2 = eY*eY
+CPU times: user 1.24 s, sys: 0.00 s, total: 1.24 s
+Wall time: 1.24 s
+ }}}
 
 
 == Graphics ==
