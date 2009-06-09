@@ -127,6 +127,78 @@ def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=inpu
 }}}
 {{attachment:ode_runga_kutta.png}}
 
+== Euler's Method, Improved Euler, and 4th order Runge-Kutta in one variable ==
+by Marshall Hampton.  This is a more baroque version of the Euler's method demo above.
+{{{
+def ImpEulerMethod(xstart, ystart, xfinish, nsteps, f):
+    sol = [ystart]
+    xvals = [xstart]
+    h = N((xfinish-xstart)/nsteps)
+    for step in range(nsteps):
+        k1 = f(xvals[-1],sol[-1])
+        k2 = f(xvals[-1] + h,sol[-1] + k1*h)
+        sol.append(sol[-1] + h*(k1+k2)/2)
+        xvals.append(xvals[-1] + h)
+    return zip(xvals,sol)
+def RK4Method(xstart, ystart, xfinish, nsteps, f):
+    sol = [ystart]
+    xvals = [xstart]
+    h = N((xfinish-xstart)/nsteps)
+    for step in range(nsteps):
+        k1 = f(xvals[-1],sol[-1])
+        k2 = f(xvals[-1] + h/2,sol[-1] + k1*h/2)
+        k3 = f(xvals[-1] + h/2,sol[-1] + k2*h/2)
+        k4 = f(xvals[-1] + h,sol[-1] + k3*h)
+        sol.append(sol[-1] + h*(k1+2*k2+2*k3+k4)/6)
+        xvals.append(xvals[-1] + h)
+    return zip(xvals,sol)
+def tab_list(y, headers = None):
+    '''
+    Converts a list into an html table with borders.
+    '''
+    s = '<table border = 1>'
+    if headers:
+        for q in headers:
+            s = s + '<th>' + str(q) + '</th>'
+    for x in y:
+        s = s + '<tr>'
+        for q in x:
+            s = s + '<td>' + str(q) + '</td>'
+        s = s + '</tr>'
+    s = s + '</table>'
+    return s
+var('x, y')
+@interact
+def euler_method(q = range_slider(0,10,.1,(0,6),'x range'), y_exact_in = input_box('-cos(x)+2.0', type = str, label = 'Exact solution = '), y_prime_in = input_box('sin(x)', type = str, label = "y' = "), startval = input_box(1.0, label = 'Starting value for y: '), nsteps = slider([2^m for m in range(0,10)], default = 10, label = 'Number of steps: '), show_steps = slider([2^m for m in range(0,10)], default = 8, label = 'Number of steps shown in table: ')):
+    start = q[0]
+    stop = q[1]
+    y_exact = lambda x: eval(y_exact_in)
+    y_prime = lambda x,y: eval(y_prime_in)
+    stepsize = float((stop-start)/nsteps)
+    steps_shown = min(nsteps,show_steps)
+    sol2 = ImpEulerMethod(start, startval, stop, nsteps, y_prime)
+    sol3 = RK4Method(start, startval, stop, nsteps, y_prime)
+    sol = [startval]
+    xvals = [start]
+    for step in range(nsteps):
+        sol.append(sol[-1] + stepsize*y_prime(xvals[-1],sol[-1]))
+        xvals.append(xvals[-1] + stepsize)
+    sol_max = max(sol + [find_maximum_on_interval(y_exact,start,stop)[0]])
+    sol_min = min(sol + [find_minimum_on_interval(y_exact,start,stop)[0]])
+    slopes = plot_slope_field(y_prime(x=x,y=y), (start,stop), (sol_min, sol_max))
+    exact_plot = plot(y_exact(x),start,stop,rgbcolor=(1,0,0))
+    euler_plot = line([[xvals[index],sol[index]] for index in range(len(sol))])
+    rk4_plot = line(sol3, rgbcolor = (0,0,.125))
+    imp_plot = line(sol2, rgbcolor = (1,0,1))
+    show(slopes +exact_plot + euler_plot + imp_plot+ rk4_plot,xmin=start,xmax = stop, ymax = sol_max, ymin = sol_min)
+    if nsteps < steps_shown:
+        table_range = range(len(sol))
+    else:
+        table_range = range(0,floor(steps_shown/2)) + range(len(sol)-floor(steps_shown/2),len(sol))
+    html(tab_list([[i,xvals[i],sol[i],sol2[i][1],sol3[i][1],y_exact(xvals[i])] for i in table_range], headers = ['step','x','<font color="#0000FF">Euler</font>','<font color="#FF00FF">Imp. Euler</font>', '<font color="#0000bb">RK4</font>','<font color="#FF0000">Exact</font>']))
+}}}
+{{attachment:rk4.png}}
+
 == Mass/Spring systems ==
 by Jason Grout
 
