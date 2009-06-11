@@ -151,6 +151,23 @@ Wall time: 3.87 s
 [618034, 381966]
 }}}
 
+The following got worse (why?)!! :
+
+{{{
+sage: w = wold.words.StandardEpisturmianWord(wold.Word('abc'))
+sage: time len(w[:1000].palindromes())
+CPU times: user 3.50 s, sys: 0.01 s, total: 3.51 s
+Wall time: 3.52 s
+1001
+}}}
+{{{
+sage: w = words.StandardEpisturmianWord(Word('abc'))
+sage: time len(w[:1000].palindromes())
+CPU times: user 9.36 s, sys: 0.00 s, total: 9.36 s
+Wall time: 9.36 s
+1001
+}}}
+
 === 6. Remove the repository sage/combinat/words_old ===
 
 === 7. Make the words_ng patches commutable in the sage-combinat tree ===
