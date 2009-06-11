@@ -183,6 +183,27 @@ Wall time: 3.20 s
 212
 }}}
 
+Equality testing :
+
+{{{
+sage: s = 'abab'*100
+sage: t = 'abab'*100
+sage: %timeit s == t
+1000000 loops, best of 3: 979 ns per loop
+}}}
+{{{
+sage: w = wold.Word('abab'*100)
+sage: y = wold.Word('abab'*100)
+sage: %timeit w == y
+10000 loops, best of 3: 125 µs per loop
+}}}
+{{{
+sage: w = Word('abab'*100)
+sage: y = Word('abab'*100)
+sage: %timeit w == y
+10000 loops, best of 3: 175 µs per loop
+}}}
+
 
 === 6. Remove the repository sage/combinat/words_old ===
 
