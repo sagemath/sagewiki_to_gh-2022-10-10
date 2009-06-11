@@ -219,6 +219,8 @@ sage: %timeit w == y
 10000 loops, best of 3: 132 µs per loop
 }}}
 
+Is palindrome...
+
 {{{
 sage: w = wold.Word([1,0,1]*1000)
 sage: %timeit w.is_palindrome()
