@@ -1,5 +1,9 @@
 = Word Design =
 
+Since Sage-combinat days in Orsay last January, Franco Saliola, Vincent Delecroix and Sébastien Labbé have been rethinking the design of the sage-words library. We call this new design the {{{words_next_generation}}} or simply {{{words_ng}}}. We did a lot of work during the Sage-combinat days but did not finished it. So, quickly the new code got rotten because of the spinxification that got in Sage in February. On June 9th, the ReST documentation was finished in all the files of {{{words_ng}}}. We hope to finish this big work really soon.
+
+== GOAL ==
+
 The goal of the new design of the words library is to separate the data structures from the mathematical objects which will improve greatly the effectiveness of what is actually in sage.
 
 Mathematical Objects :
