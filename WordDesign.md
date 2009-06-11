@@ -168,6 +168,22 @@ Wall time: 9.36 s
 1001
 }}}
 
+{{{
+sage: w = words.ThueMorseWord()
+sage: time w[:1000].defect()
+CPU times: user 5.48 s, sys: 0.02 s, total: 5.51 s
+Wall time: 5.61 s
+212
+}}}
+{{{
+sage: w = wold.words.ThueMorseWord()
+sage: time w[:1000].defect()
+CPU times: user 3.20 s, sys: 0.00 s, total: 3.20 s
+Wall time: 3.20 s
+212
+}}}
+
+
 === 6. Remove the repository sage/combinat/words_old ===
 
 === 7. Make the words_ng patches commutable in the sage-combinat tree ===
