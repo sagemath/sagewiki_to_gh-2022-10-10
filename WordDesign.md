@@ -134,6 +134,23 @@ Wall time: 0.01 s
 False
 }}}
 
+Evaluation...
+
+{{{
+sage: w = wold.words.FibonacciWord()
+sage: time w[:1000000].evaluation()
+CPU times: user 7.30 s, sys: 0.03 s, total: 7.34 s
+Wall time: 7.41 s
+[618034, 381966]
+}}}
+{{{
+sage: w = words.FibonacciWord()
+sage: time w[:1000000].evaluation()
+CPU times: user 3.82 s, sys: 0.02 s, total: 3.84 s
+Wall time: 3.87 s
+[618034, 381966]
+}}}
+
 === 6. Remove the repository sage/combinat/words_old ===
 
 === 7. Make the words_ng patches commutable in the sage-combinat tree ===
