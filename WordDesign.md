@@ -286,6 +286,17 @@ Counting occurrences of letters
         Wall time: 60.51 s
 }}}
 
+Without alphabet is better:
+
+{{{
+sage: wa=Word('aabababa'*100,alphabet='ab')
+sage: w=Word('aabababa'*100)
+sage: %timeit w == w
+1000 loops, best of 3: 340 µs per loop
+sage: %timeit wa == wa
+100 loops, best of 3: 2.59 ms per loop
+}}}
+
 Critical exponent...
 
 {{{
