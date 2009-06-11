@@ -79,6 +79,8 @@ DONE by Franco :
 
 We should compare the timing between the new and old code. Here is a start :
 
+Critical exponent...
+
 {{{
 sage: s = [0,1,2,3,0,1,2,3]*10
 sage: w1 = wold.Word(s)
@@ -86,17 +88,23 @@ sage: time w1.critical_exponent()
 CPU times: user 1.11 s, sys: 0.00 s, total: 1.11 s
 Wall time: 1.11 s
 20
+}}}
+{{{
 sage: w2 = Word(s)
 sage: time w2.critical_exponent()
 CPU times: user 0.26 s, sys: 0.00 s, total: 0.26 s
 Wall time: 0.27 s
 20
+}}}
+{{{
 sage: w3 = Word(s, datatype="cpp_basic_string")
 sage: time w3.critical_exponent()
 CPU times: user 0.23 s, sys: 0.00 s, total: 0.23 s
 Wall time: 0.23 s
 20
 }}}
+
+Is factor of...
 
 {{{
 sage: t = wold.words.ThueMorseWord([0,1])
@@ -106,12 +114,23 @@ sage: time w.is_factor_of(t[:1000000])
 CPU times: user 17.51 s, sys: 0.00 s, total: 17.51 s
 Wall time: 17.54 s
 False
+}}}
+{{{
 sage: t = words.ThueMorseWord([0,1])
 sage: W = t.parent()
 sage: w = W([0,0,0])
 sage: time w.is_factor(t[:1000000])
 CPU times: user 7.88 s, sys: 0.02 s, total: 7.90 s
 Wall time: 7.96 s
+False
+}}}
+{{{
+sage: l = [sum(Integer(n).digits(base=2))%2 for n in range(1000000)]
+sage: w = Word(l, datatype="cpp_basic_string")
+sage: y = Word([0,0,0], datatype="cpp_basic_string")
+sage: time w.has_factor(y)
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.01 s
 False
 }}}
 
