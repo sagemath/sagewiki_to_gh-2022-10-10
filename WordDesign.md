@@ -31,6 +31,41 @@ DONE by Franco :
 
 "I implemented a class called CallableFromListOfWords, which creates a callable object from a list/tuple of words (it is just a tuple with the __call__ method define). This is an improved version of what was there before. Take a look at the patch called words_ng_concatenation-fs.patch."
 
+
+But the following is still a problem. If X and Y are two words, the parent of X*Y seems to be the one of X:
+
+{{{
+sage: W=Words('ab')
+sage: Y=Words('a')
+sage: y=Y('aaa')
+sage: w=W('aaa')
+sage: y*w
+word: aaaaaa
+sage: w*y
+word: aaaaaa
+sage: (y*w).parent()
+Words over Ordered Alphabet ['a']
+sage: (w*y).parent()
+Words over Ordered Alphabet ['a', 'b']
+sage: w2=W('aaab')
+sage: w2*y
+word: aaabaaa
+sage: y*w2
+Traceback (most recent call last):
+...
+ValueError: b not in alphabet!
+}}}
+
+Franco says :
+"The behaviour is from the old code: it tries
+to create a word from Y in X.parent(); if that fails, then it tries to
+create a word from X in Y.parent(); and if that fails, then it raises an
+error. We don't have to raise an error: we could always return a word with
+parent Words_all."
+
+I say it migth return a word in the union of the parents.
+
+
 === 2. Add doctests ===
 
 A bunch of stuff is missing doctests.
