@@ -4500,6 +4500,7 @@ toyline\.net
 sexyfancy\.net
 pleasuretoys\.biz
 jsjgjt\.com
+cuvyr\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
