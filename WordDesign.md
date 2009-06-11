@@ -23,7 +23,7 @@ Data Structures :
 
 == TO BE DONE ==
 
-=== 1. Concatenation (done) ===
+=== 1. Concatenation (almost done) ===
 
 Create a class for concatenating words; we want to at least be able to do what the old code could do.
 
