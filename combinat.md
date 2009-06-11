@@ -17,6 +17,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
    We will hold an International Sage Workshop on [[http:/combinat/FPSAC09|Free and Practical Software for Algebraic Combinatorics]] at RISC, Linz, Austria, right after [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
 
  * May 25th, 2009: The Sage-words library demonstrated at the 2nd Canadian Discrete and Algorithmic Mathematics Conference [[http://www.crm.umontreal.ca/CanaDAM2009/index_e.shtml|CanaDAM'09]]
+ [[attachment:2009-05-25-CanaDAM.sws|Sage worksheet]], [[attachment:2009-05-25-CanaDAM.pdf|PDF]].
 
  * April 15th, 2009: Software demonstration accepted for [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
  [[attachment:2009-07-20-FPSAC.pdf|PDF]], [[attachment:.2009-07-20-FPSAC.tex|LaTeX Source]] [[attachment:2009-07-20-FPSAC.bbl|LaTeX bibliography]]
