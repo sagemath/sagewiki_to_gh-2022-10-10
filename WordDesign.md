@@ -1,5 +1,115 @@
 = Word Design =
 
+The goal of the new design of the words library is to separate the data structures from the mathematical objects which will improve greatly the effectiveness of what is actually in sage.
+
+Mathematical Objects :
+    *  Classes of words :
+        * Combinatorial class of all words
+        * Combinatorial class of all words over a given alphabet
+    * Words :
+        * Finite words
+        * Infinite words
+Data Structures :
+    * Python lists
+    * Python string
+    * Python tuple
+    * Python functions
+    * Python iterators
+    * C++ vector (by Vincent Delecroix, Marseille)
+
+== TO BE DONE ==
+
+=== 1. Concatenation (done) ===
+
+Create a class for concatenating words; we want to at least be able to do what the old code could do.
+
+DONE by Franco :
+
+"I implemented a class called CallableFromListOfWords, which creates a callable object from a list/tuple of words (it is just a tuple with the __call__ method define). This is an improved version of what was there before. Take a look at the patch called words_ng_concatenation-fs.patch."
+
+=== 2. Add doctests ===
+
+A bunch of stuff is missing doctests.
+
+Here is the coverage in date of June 11th:
+
+{{{
+~/sage-4.0/devel/sage-combinat/sage/combinat/words$ sage -coverage .
+alphabet.py: 100% (27 of 27)
+morphism.py: 100% (35 of 35)
+shuffle_product.py: 100% (14 of 14)
+suffix_trees.py: 97% (46 of 47)
+word.py: 97% (146 of 150)
+word_datatypes.pyx: 0% (0 of 61)
+word_generators.py: 95% (19 of 20)
+word_infinite_datatypes.py: 81% (18 of 22)
+word_options.py: 100% (1 of 1)
+words.py: 100% (38 of 38)
+
+Overall weighted coverage score:  82.6%
+Total number of functions:  415
+We need    9 more function to get to 85% coverage.
+We need   30 more function to get to 90% coverage.
+We need   51 more function to get to 95% coverage.
+}}}
+
+There are already many doctest inside of word_datatypes.pyx but they are not seen by the coverage script. I think that this problem is related to http://trac.sagemath.org/sage_trac/ticket/1795 which has a patch but still needs work.
+
+=== 3. ReST the documentation (done) ===
+
+Convert the documentation to the ReST format.
+
+DONE (finished June 9th 2009)
+
+=== 4. Run the old doctests (done) ===
+
+Run all the old doctests against with the new code and see what breaks.  This is mainly to test for backwards compatibility; and to test to see if we deleted some methods (then we have to deprecate them).
+
+DONE by Franco :
+
+"Today I re-ran the old doctests, and posted a small patch (called words_ng_small_fix-fs.patch) that dealt with one issue that I found.  There is nothing left to do with the old doctests.
+
+[Note that if you run the old tests, then you will see lots of errors. What I did was to go through each error and decide whether it was really an error. If it was, then it got fixed. Some of the old tests break because the new representation is different than the old one. Some doctests that test internal functions break as well, but that is okay since they are internal functions that are not available to the user.]"
+
+=== 5. Performance testing ===
+
+We should compare the timing between the new and old code. Here is a start :
+
+{{{
+sage: s = [0,1,2,3,0,1,2,3]*10
+sage: w1 = wold.Word(s)
+sage: time w1.critical_exponent()
+CPU times: user 1.11 s, sys: 0.00 s, total: 1.11 s
+Wall time: 1.11 s
+20
+sage: w2 = Word(s)
+sage: time w2.critical_exponent()
+CPU times: user 0.26 s, sys: 0.00 s, total: 0.26 s
+Wall time: 0.27 s
+20
+sage: w3 = Word(s, datatype="cpp_basic_string")
+sage: time w3.critical_exponent()
+CPU times: user 0.23 s, sys: 0.00 s, total: 0.23 s
+Wall time: 0.23 s
+20
+}}}
+
+=== 6. Remove the repository sage/combinat/words_old ===
+
+=== 7. Make the words_ng patches commutable in the sage-combinat tree ===
+
+Actually, they do not commute with generalized permutations patches because of small conflicts in the setup.py file.
+
+=== 8. Remove side effects of words_ng ===
+
+Actually, the words_ng patches creates the empty repository sage/combinat/words_ng.
+
+=== 9. Fold all the patches together!! ===
+
+=== 10. Create a ticket on the sage trac ===
+
+= Discussions made at Orsay =
+
 This page discusses the specifications of methods in the class of Word. Most of the times the methods do what we want, but this page could help to define standards. Specifications must be precise because we accept that any Word_datatype overwrite methods defined in Word_all or Finiteword_all...
 
 This page could also serve for discussion about improvement of words algorithms and words vocabulary.
