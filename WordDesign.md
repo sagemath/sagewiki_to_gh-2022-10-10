@@ -112,7 +112,7 @@ DONE by Franco :
 
 === 5. Performance testing ===
 
-We should compare the timing between the new and old code. Here is a start :
+We should compare the timing between the new and old code. Note that the old code has been moved to {{{sage/combinat/words_old}}} while the new is in {{{sage/combinat/words}}}
 
 Critical exponent...
 
