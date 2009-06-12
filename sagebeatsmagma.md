@@ -67,6 +67,11 @@ Time: 284.390
 * Sage is faster at *proving* primality
 
 {{{
+sage: is_prime?
+<SNIP>
+        Returns True if `x` is prime, and False otherwise. The
+        result is proven correct - *this is NOT a pseudo-primality test!*.
+<SNIP>
 sage: n = ZZ.random_element(2^1000)
 sage: n=next_prime(n)
 sage: time is_prime(n)
