@@ -64,6 +64,20 @@ Time: 30.640
 Time: 284.390
 }}}
 
+* Sage is faster at *proving* primality
+
+{{{
+sage: n = ZZ.random_element(2^1000)
+sage: n=next_prime(n)
+sage: time is_prime(n)
+CPU times: user 6.02 s, sys: 0.00 s, total: 6.02 s
+Wall time: 6.02 s
+True
+sage: nn=magma(n)
+sage: magma.eval('time IsPrime(%s)'%(nn.name()))
+'true\nTime: 22.330'
+}}}
+
 * Sage is a tad faster at computing partitions
 
 {{{
