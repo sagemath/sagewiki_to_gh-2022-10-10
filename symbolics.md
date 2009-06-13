@@ -45,7 +45,7 @@ Some of the functionality listed above is provided by Maxima wrappers at the mom
   * [[http://www.mat.univie.ac.at/~kratt/hyp_hypq/hyp.html|HYP]] from Christian Krattenthaler for MMA
   * [[http://www-igm.univ-mlv.fr/~gauthier/HYPERG.html|HYPERG]] from Bruno Gauthier for Maple
    This should let us do the following:
-$$\sum_{s \ge m} \binom{s}{m} \frac{(n)_s}{(\frac{n}{2} + 1)_s 2^{s}} = \frac{(n)_m}{2^{m}(\frac{n}{2}+1)_m} \,_2 F_1 \left( \begin{array}{cc} m+1, m+n \\ m+ \frac{n}{2} +1 \end{array} ; \frac{1}{2} \right) = \frac{2^{n-1} \Gamma(\frac{n}{2} +1) \Gamma(\frac{m}{2} + \frac{n}{2})}{\Gamma(\frac{m}{2} + 1)\Gamma(n)}$$
+$$\sum_{s \ge m} {s \choose m} \frac{(n)_s}{(\frac{n}{2} + 1)_s 2^{s}} = \frac{(n)_m}{2^{m}(\frac{n}{2}+1)_m} \,_2 F_1 \left( \begin{array}{cc} m+1, m+n \\ m+ \frac{n}{2} +1 \end{array} ; \frac{1}{2} \right) = \frac{2^{n-1} \Gamma(\frac{n}{2} +1) \Gamma(\frac{m}{2} + \frac{n}{2})}{\Gamma(\frac{m}{2} + 1)\Gamma(n)}$$
 
 
  * Meijer G-Functions
