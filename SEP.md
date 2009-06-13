@@ -9,3 +9,4 @@ A SEP is a '''S'''age '''E'''nhancement '''P'''roposal.
  * [[SEP/primer|Primer worksheets]] - ongoing
  * [[AlgebraicGeometrySEP|Algebraic Geometry]] - ongoing
  * [[Python2.6SEP|Python 2.6]] - not started yet
+ * [[Unit of Measurement]] - early discussion phase
