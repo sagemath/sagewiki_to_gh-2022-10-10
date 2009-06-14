@@ -27,8 +27,6 @@ Comments from [[http://mail.scipy.org/pipermail/ipython-dev/2007-May/002932.html
 [[http://home.scarlet.be/be052320/Unum_tutorial.html|Unum tutorial]]
  * ''License'': GPL
  * Last update: 2005
- * ''Unit Conversions'' feature, allowing to combine in the same expression multiple units of the same dimension (i.e.: meters, and millimeters, and inches), getting a consistent result.
- * ''Consistency Checking'' feature which prevents from combining incompatible units. 
  * It boasts [[http://home.scarlet.be/be052320/Unum_tutorial.html#_Integration_with_Numerical_1|integration]] with NumPy and some degree of customization. 
  * Small size (12.7 Kbytes archived) and self-consistent. Easy installation.
  * It has been tested to work with basic functionalities in '''SAGE 3.4.2'''
@@ -52,6 +50,28 @@ sage: mass = 1.5*KG; mass
 sage: kinetic_energy = 0.5*(mass*speed^2); kinetic_energy
 3.00000000000000 [kg.m2/s2]
 }}}
+ * ''Consistency Checking'' feature which prevents from combining incompatible units. 
+{{{#!python
+sage: distance = 50*M
+sage: distance + 3*KG
+---------------------------------------------------------------------------
+DimensionError                            Traceback (most recent call last)
+...
+DimensionError: [m] incompatible with [kg]
+}}}
+ * ''Unit Conversions'' feature, allowing to combine in the same expression multiple units of the same dimension (i.e.: meters, and millimeters, and inches), getting a consistent result.
+{{{#!python
+sage: TON + 500*KG
+1.5 [t]
+sage: 5e-8*M - 28*ANGSTROM
+472.000000000000 [angstrom]
+sage: 3*H + 20*MIN + 15*S
+3.3375 [h]
+sage: H == 60*MIN
+True
+sage: 10000*S > 3*H + 15*MIN
+False
+}}}
 
 === Enthought's Units ===
 
@@ -60,6 +80,7 @@ sage: kinetic_energy = 0.5*(mass*speed^2); kinetic_energy
 === Quantities ===
 
 [[http://packages.python.org/quantities/user/tutorial.html|Quantities tutorial]]
+ * License: ''BSD License'' (revised) 
  * Born as refactoring and joining of the two Enthought packages. 
  * '''Actively developed''', the target is the inclusion in NumPy 1.3.
  * It has been tested in SAGE. It is not natively compatible with SAGE numerical types. 
