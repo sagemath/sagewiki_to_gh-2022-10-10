@@ -7,3 +7,5 @@ Describe test here.
 reStructuredText goes here...
 
 }}}
+
+$2^3 + \sqrt{\pi^\pi}$
