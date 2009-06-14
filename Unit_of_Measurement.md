@@ -106,6 +106,13 @@ sage: dt = 0.32*S
 sage: cos(2*pi*f*dt)
 0.30901699437502272
 }}}
+ * Simplification between units of the same physical quantity (not present in '''Quantities''')
+{{{#!python
+sage: a = 1*MILE
+sage: b = 1*M
+sage: a/b
+1609.34 []
+}}}
 
 === Enthought's Units ===
 
@@ -116,12 +123,13 @@ sage: cos(2*pi*f*dt)
 [[http://packages.python.org/quantities/user/tutorial.html|Quantities tutorial]]
  * License: ''BSD License'' (revised) 
  * Author: Darren Dale
+ * '''Requires''': NumPy 1.2
  * Born as refactoring and joining of the two Enthought packages. 
  * '''Actively developed''', the target is the inclusion in NumPy 1.3.
  * It has been tested in SAGE. It is not natively compatible with SAGE numerical types. 
  * In [[https://mail.enthought.com/pipermail/enthought-dev/2007-September/009130.html|this discussion]] from the Enthought mailing list, they claim that: ''"The units package is very stable, but perhaps lacking in documentation."''
  * Small size (746 Kbytes) and self-consistent. Easy installation.
- * It has been tested to work with basic functionalities in '''SAGE 3.4.2'''
+ * It has been tested to work with basic functionalities in '''SAGE 3.4.2''': its heavy use of NumPy is representing an obstacle, provided that SAGE still doesn't play completely nicely with NumPy
 {{{#!python
 ----------------------------------------------------------------------
 | Sage Version 3.4.2, Release Date: 2009-05-05                       |
@@ -138,6 +146,67 @@ AttributeError                            Traceback (most recent call last)
 ...
 AttributeError: 'NotImplementedType' object has no attribute '_dimensionality'
 }}}
+* The workaround to make it work is to provide Python buil-in numerical types:
+{{{#!python
+sage: q = 1*pq.m
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+...
+TypeError: unsupported operand parent(s) for '*': 'Integer Ring' and '<class 'quantities.unitquantity.UnitLength'>'
+sage: q = 1r*pq.m
+sage: q
+array(1.0)*m
+}}}
+ * Modify quantity's unit:
+{{{#!python
+sage: q.units = pq.ft
+sage: print q
+3.28083989501 ft
+}}}
+ * Dimensional analysis check:
+{{{#!python
+sage: q2 = q.rescale(pq.watt)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+...
+ValueError: Unable to convert between units of "ft" and "W"
+}}}
+ * Seems to have problems with power in SAGE
+{{{#!python
+sage: q = (10r*pq.meter)**2
+---------------------------------------------------------------------------
+AssertionError                            Traceback (most recent call last)
+
+/media/LaCie/Software/sage-3.4.2-sage.math-only-x86_64-Linux/<ipython console> in <module>()
+
+/media/LaCie/Software/sage-3.4.2-sage.math-only-x86_64-Linux/local/lib/python2.5/site-packages/quantities-0.5b2-py2.5.egg/quantities/quantity.pyc in __pow__(self, other)
+    319             raise ValueError('Quantities must be raised to a single power')
+    320 
+--> 321         dims = self._dimensionality**other.min()
+    322         ret = super(Quantity, self).__pow__(other)
+    323         ret._dimensionality = dims
+
+/media/LaCie/Software/sage-3.4.2-sage.math-only-x86_64-Linux/local/lib/python2.5/site-packages/quantities-0.5b2-py2.5.egg/quantities/dimensionality.pyc in __pow__(self, other)
+    132 
+    133     def __pow__(self, other):
+--> 134         assert isinstance(other, (int, float))
+    135         new = Dimensionality(self)
+    136         for i in new:
+
+AssertionError: 
+}}}
+ * Per designer's choice doesn't automatically simplify in ambiguous situations
+{{{#!python
+sage: q
+array(10.0)*m
+sage: q2 = q/(1r*pq.ft)
+sage: q2
+array(10.0)*m/ft
+sage: qs = q2.simplified
+sage: print qs
+32.8083989501 dimensionless
+}}}
+ * Supports quantities with uncertainty 
 
 ==== Darren Dale comments ====
 
