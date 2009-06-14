@@ -26,6 +26,7 @@ Comments from [[http://mail.scipy.org/pipermail/ipython-dev/2007-May/002932.html
 
 [[http://home.scarlet.be/be052320/Unum_tutorial.html|Unum tutorial]]
  * ''License'': GPL
+ * Author: Pierre Denis
  * Last update: 2005 - Designed for '''Python 2.5'''
  * Supported architectures: Linux, Windows, others
  * It boasts [[http://home.scarlet.be/be052320/Unum_tutorial.html#_Integration_with_Numerical_1|integration]] with NumPy and some degree of customization. 
@@ -114,6 +115,7 @@ sage: cos(2*pi*f*dt)
 
 [[http://packages.python.org/quantities/user/tutorial.html|Quantities tutorial]]
  * License: ''BSD License'' (revised) 
+ * Author: Darren Dale
  * Born as refactoring and joining of the two Enthought packages. 
  * '''Actively developed''', the target is the inclusion in NumPy 1.3.
  * It has been tested in SAGE. It is not natively compatible with SAGE numerical types. 
