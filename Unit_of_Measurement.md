@@ -120,6 +120,24 @@ sage: cos(2*pi*f*dt)
  * '''Actively developed''', the target is the inclusion in NumPy 1.3.
  * It has been tested in SAGE. It is not natively compatible with SAGE numerical types. 
  * In [[https://mail.enthought.com/pipermail/enthought-dev/2007-September/009130.html|this discussion]] from the Enthought mailing list, they claim that: ''"The units package is very stable, but perhaps lacking in documentation."''
+ * Small size (12.7 Kbytes archived, 119.7 Kbytes installed) and self-consistent. Easy installation.
+ * It has been tested to work with basic functionalities in '''SAGE 3.4.2'''
+{{{#!python
+----------------------------------------------------------------------
+| Sage Version 3.4.2, Release Date: 2009-05-05                       |
+| Type notebook() for the GUI, and license() for information.        |
+----------------------------------------------------------------------
+sage: import quantities as pq
+sage: q = pq.Quantity([1,2,3],'J')
+sage: q
+array([1, 2, 3], dtype=object)*J
+sage: import numpy as np
+sage: q = np.array([1,2,3])*pq.J
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+...
+AttributeError: 'NotImplementedType' object has no attribute '_dimensionality'
+}}}
 
 ==== Darren Dale comments ====
 
