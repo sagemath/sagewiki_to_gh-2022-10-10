@@ -24,8 +24,34 @@ Comments from [[http://mail.scipy.org/pipermail/ipython-dev/2007-May/002932.html
 
 === Unum ===
 
-[[http://home.scarlet.be/be052320/Unum_tutorial.html|Unum tutorial]]: it has the ''Unit Conversions'' feature, allowing to combine in the same expression multiple units of the same dimension (i.e.: meters, and millimeters, and inches), getting a consistent result. Moreover it has a ''Consistency Checking'' feature which prevents from combining incompatible units. It also boasts compatibility with NumPy and some degree of customization. 
-''License'': GPL
+[[http://home.scarlet.be/be052320/Unum_tutorial.html|Unum tutorial]]
+ * ''License'': GPL
+ * Last update: 2005
+ * ''Unit Conversions'' feature, allowing to combine in the same expression multiple units of the same dimension (i.e.: meters, and millimeters, and inches), getting a consistent result.
+ * ''Consistency Checking'' feature which prevents from combining incompatible units. 
+ * It boasts [[http://home.scarlet.be/be052320/Unum_tutorial.html#_Integration_with_Numerical_1|integration]] with NumPy and some degree of customization. 
+ * Small size (12.7 Kbytes archived) and self-consistent. Easy installation.
+ * It has been tested to work with basic functionalities in '''SAGE 3.4.2'''
+{{{#!python
+----------------------------------------------------------------------
+| Sage Version 3.4.2, Release Date: 2009-05-05                       |
+| Type notebook() for the GUI, and license() for information.        |
+----------------------------------------------------------------------
+sage: from unum.units import *
+sage: distance = 50*M
+sage: distance
+50.0 [m]
+sage: volume = distance ^ 3; volume
+125000.0 [m3]
+sage: duration = 25*S; duration
+25.0 [s]
+sage: speed = distance/duration; speed
+2.0 [m/s]
+sage: mass = 1.5*KG; mass
+1.50000000000000 [kg]
+sage: kinetic_energy = 0.5*(mass*speed^2); kinetic_energy
+3.00000000000000 [kg.m2/s2]
+}}}
 
 === Enthought's Units ===
 
@@ -33,9 +59,11 @@ Comments from [[http://mail.scipy.org/pipermail/ipython-dev/2007-May/002932.html
 
 === Quantities ===
 
-[[http://packages.python.org/quantities/user/tutorial.html|Quantities tutorial]]: Quantities was born as refactoring and joining of the two Enthought packages. It is currently developed, and the target is the inclusion in NumPy 1.3.
-It has been tested in SAGE. It is not natively compatible with SAGE numerical types. In [[https://mail.enthought.com/pipermail/enthought-dev/2007-September/009130.html|this discussion]] from the Enthought mailing list, they claim that: "The units package is
-very stable, but perhaps lacking in documentation." 
+[[http://packages.python.org/quantities/user/tutorial.html|Quantities tutorial]]
+ * Born as refactoring and joining of the two Enthought packages. 
+ * '''Actively developed''', the target is the inclusion in NumPy 1.3.
+ * It has been tested in SAGE. It is not natively compatible with SAGE numerical types. 
+ * In [[https://mail.enthought.com/pipermail/enthought-dev/2007-September/009130.html|this discussion]] from the Enthought mailing list, they claim that: ''"The units package is very stable, but perhaps lacking in documentation."''
 
 ==== Darren Dale comments ====
 
