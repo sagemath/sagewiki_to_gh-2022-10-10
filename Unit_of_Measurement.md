@@ -72,6 +72,38 @@ True
 sage: 10000*S > 3*H + 15*MIN
 False
 }}}
+ * ''as'' statement not working, although the ''matchUnits'' function used does still work
+{{{#!python
+sage: (M).as(ANGSTROM)
+------------------------------------------------------------
+   File "<ipython console>", line 1
+     (M).as(ANGSTROM)
+          ^
+SyntaxError: invalid syntax
+
+sage: M.matchUnits(ANGSTROM)
+(10000000000.0 [angstrom], 1.0 [angstrom])
+}}}
+ * ''Integration with mathematical functions'' working for python standard math
+{{{#!python
+sage: from math import cos
+sage: cos(180*ARCDEG)
+-1.0
+sage: sin(180*ARCDEG)
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+...
+TypeError: cannot coerce type '<class 'unum.Unum'>' into a SymbolicExpression.
+sage: f = 440*HZ
+sage: cos(f)
+---------------------------------------------------------------------------
+DimensionError                            Traceback (most recent call last)
+...
+DimensionError: unit [Hz] unexpected
+sage: dt = 0.32*S
+sage: cos(2*pi*f*dt)
+0.30901699437502272
+}}}
 
 === Enthought's Units ===
 
