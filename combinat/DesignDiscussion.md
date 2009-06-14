@@ -6,3 +6,4 @@ This page is dedicated to overall design discussions. Please add new topic as yo
   * WordDesign
   * CategoryFrameworkAndCleanup  
   * HeckeAlgebras
+  * Languages
