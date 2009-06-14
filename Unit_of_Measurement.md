@@ -22,15 +22,22 @@ This is the situation described by the trac ticket at about August 2008. The pro
 
 Comments from [[http://mail.scipy.org/pipermail/ipython-dev/2007-May/002932.html|IPython mailing list]]: it is supported by ipython, whose ''physics'' [[http://ipython.scipy.org/doc/manual/html/config/customization.html|profile]] is supposed to be used in conjunction with.
 
-[[http://home.scarlet.be/be052320/Unum_tutorial.html|Unum]]: it has the ''Unit Conversions'' feature, allowing to combine in the same expression multiple units of the same dimension (i.e.: meters, and millimeters, and inches), getting a consistent result. Moreover it has a ''Consistency Checking'' feature which prevents from combining incompatible units. It also boasts compatibility with NumPy and some degree of customization. ''GPL''.
+=== Unum ===
 
-[[https://svn.enthought.com/enthought/ticket/1524|Enthought]]: the Enthought suite provides two units modules (the second one seems to be Physical Quantities from ScientificPython), so the unification has been proposed, but seems still not completed. As a workaround, both the units package have been [[https://mail.enthought.com/pipermail/enthought-dev/2008-July/015717.html|deprecated]] in favor of a unification/refactoring. This was happening in July 2008
+[[http://home.scarlet.be/be052320/Unum_tutorial.html|Unum tutorial]]: it has the ''Unit Conversions'' feature, allowing to combine in the same expression multiple units of the same dimension (i.e.: meters, and millimeters, and inches), getting a consistent result. Moreover it has a ''Consistency Checking'' feature which prevents from combining incompatible units. It also boasts compatibility with NumPy and some degree of customization. 
+''License'': GPL
 
-[[http://packages.python.org/quantities/user/tutorial.html|Quantities]]: Quantities was born as refactoring and joining of the two Enthought packages. It is currently developed, and the target is the inclusion in NumPy 1.3.
+=== Enthought's Units ===
+
+[[https://svn.enthought.com/enthought/ticket/1524|Enthought ticket]]: the Enthought suite provides two units modules (the second one seems to be Physical Quantities from ScientificPython), so the unification has been proposed, but seems still not completed. As a workaround, both the units package have been [[https://mail.enthought.com/pipermail/enthought-dev/2008-July/015717.html|deprecated]] in favor of a unification/refactoring. This was happening in July 2008
+
+=== Quantities ===
+
+[[http://packages.python.org/quantities/user/tutorial.html|Quantities tutorial]]: Quantities was born as refactoring and joining of the two Enthought packages. It is currently developed, and the target is the inclusion in NumPy 1.3.
 It has been tested in SAGE. It is not natively compatible with SAGE numerical types. In [[https://mail.enthought.com/pipermail/enthought-dev/2007-September/009130.html|this discussion]] from the Enthought mailing list, they claim that: "The units package is
 very stable, but perhaps lacking in documentation." 
 
-=== Darren Dale comments ===
+==== Darren Dale comments ====
 
 Darren Dale is the developer of '''Quantities'''. From the sage-devel [[http://groups.google.com/group/sage-devel/msg/151133f4e35eaee9|discussion]]:
 
