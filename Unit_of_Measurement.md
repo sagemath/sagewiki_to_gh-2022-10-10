@@ -106,7 +106,7 @@ sage: dt = 0.32*S
 sage: cos(2*pi*f*dt)
 0.30901699437502272
 }}}
- * Simplification between units of the same physical quantity (not present in '''Quantities''')
+ * Automatic simplification between units of the same physical quantity (in '''Quantities''' this is present but not automatic)
 {{{#!python
 sage: a = 1*MILE
 sage: b = 1*M
@@ -129,6 +129,7 @@ sage: a/b
  * It has been tested in SAGE. It is not natively compatible with SAGE numerical types. 
  * In [[https://mail.enthought.com/pipermail/enthought-dev/2007-September/009130.html|this discussion]] from the Enthought mailing list, they claim that: ''"The units package is very stable, but perhaps lacking in documentation."''
  * Small size (746 Kbytes) and self-consistent. Easy installation.
+ * At a first look, the package has a quite complex structure, which may comes from careful investigation of pros and cons and software design of other packages, to provide a well designed system. The code is harder to read for a newbie, which may stand for code coming from an experienced programmer.
  * It has been tested to work with basic functionalities in '''SAGE 3.4.2''': its heavy use of NumPy is representing an obstacle, provided that SAGE still doesn't play completely nicely with NumPy
 {{{#!python
 ----------------------------------------------------------------------
