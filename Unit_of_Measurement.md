@@ -189,7 +189,8 @@ fergusnoble agreed to clean up his code and to make a little demo.
 
 In the first run, I was very attracted from '''Quantities''' being actively developed. So, I tried to install it within SAGE, but I was disappointed from having to deal with different numeric types than the built-in ones. Once discussed this with the developers, I was trying to overcome the problem, but I soon discovered that '''Quantities''' was missing a couple of desired features, like dealing with different units of the same physical quantity. I consider this fundamental to a package like this. The author is certainly nice and kind, but he looks pretty busy, so the amount of help in trying to adapt '''Quantities''' to my need was too poor.
 
-In the second run, I have rediscovered '''Unum'''. My next try will be to install it in SAGE. I honestly expect the same numerical type issue obtained with '''Quantities''', but from the tutorial it seems to provide the kind of features I'd like to get, so it could be worthwhile to give it a try.
+In the second run, I have rediscovered '''Unum'''. From the tutorial it seems to provide the kind of features I'd like to get, so it could be worthwhile to give it a try.
+I've easily installed it, and it successfully runs in SAGE. Next step is to understand how hard would it be to let the SAGE mathematical functions to accept Unum types.
 
 = Threads =
 
