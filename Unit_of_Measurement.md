@@ -18,9 +18,9 @@ This is the situation described by the trac ticket at about August 2008. The pro
  * [[http://code.enthought.com/projects/files/ets_api/enthought.units.html|Units module]] from the [[http://www.enthought.com/|Enthought]] suite
  * [[http://packages.python.org/quantities/|Quantities]] package from Darren Dale. It looks like the most actively developed (news also in 2009)
 
-== Comments ==
+=== PhysicalQuantities ===
 
-[[http://mail.scipy.org/pipermail/ipython-dev/2007-May/002932.html|PhysicalQuantities]]: it is supported by ipython, whose ''physics'' [[http://ipython.scipy.org/doc/manual/html/config/customization.html|profile]] is supposed to be used in conjunction with.
+Comments from [[http://mail.scipy.org/pipermail/ipython-dev/2007-May/002932.html|IPython mailing list]]: it is supported by ipython, whose ''physics'' [[http://ipython.scipy.org/doc/manual/html/config/customization.html|profile]] is supposed to be used in conjunction with.
 
 [[http://home.scarlet.be/be052320/Unum_tutorial.html|Unum]]: it has the ''Unit Conversions'' feature, allowing to combine in the same expression multiple units of the same dimension (i.e.: meters, and millimeters, and inches), getting a consistent result. Moreover it has a ''Consistency Checking'' feature which prevents from combining incompatible units. It also boasts compatibility with NumPy and some degree of customization. ''GPL''.
 
