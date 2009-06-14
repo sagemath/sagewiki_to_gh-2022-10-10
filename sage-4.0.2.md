@@ -8,6 +8,19 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
 == Algebra ==
 
 
+ * FIXME: summarize #5845
+
+ * FIXME: summarize #6229
+
+ * FIXME: summarize #6250
+
+
+== Algebraic Geometry ==
+
+
+ * FIXME: summarize #6218
+
+
 == Basic Arithmetic ==
 
 
@@ -20,6 +33,12 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
 == Calculus ==
 
 
+== Coding Theory ==
+
+
+ * FIXME: summarize #6014
+
+
 == Combinatorics ==
 
 
@@ -29,13 +48,44 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
  * FIXME: summarize #6051
 
 
+== Cryptography ==
+
+
+ * FIXME: summarize #6185
+
+
+== Graph Theory ==
+
+
+ * FIXME: summarize #5975
+
+
 == Graphics ==
+
+
+== Group Theory ==
+
+
+ * FIXME: summarize #6263
 
 
 == Interfaces ==
 
 
+== Linear Algebra ==
+
+
+ * FIXME: summarize #6178
+
+ * FIXME: summarize #5510
+
+
 == Miscellaneous ==
+
+
+ * FIXME: summarize #6089
+
+ * FIXME: summarize #6110
 
 
 == Modular Forms ==
@@ -46,8 +96,23 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
 
  * FIXME: summarize #6259
 
+ * FIXME: summarize #6225
+
+ * FIXME: summarize #5371
+
 
 == Number Theory ==
+
+
+ * FIXME: summarize #5976
+
+ * FIXME: summarize #5842
+
+ * FIXME: summarize #6205
+
+ * FIXME: summarize #6193
+
+ * FIXME: summarize #6044
 
 
 == Numerical ==
