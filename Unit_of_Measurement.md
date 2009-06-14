@@ -113,6 +113,11 @@ sage: b = 1*M
 sage: a/b
 1609.34 []
 }}}
+ * A couple of possible issues from [[http://home.scarlet.be/be052320/Unum_diary.html|Unum Diary]] about release 4.0 (the last available):
+{{{
+- Note that the issue of Celsius conversions is not addressed in this version, i.e. Unum assumes that all quantities are relative, in particular, 1°C is considered as equivalent to 1 K, which is not false if we talk about a raise of temperature. Debates are still on-going on possible Unum evolution to cope with absolute temperatures and offsets, to get at last 1°C = 274.15 K. I am afraid that there is no simple solution to this because it is impossible to guess, without further information from the user, when the offset is needed or not.
+- I have another idea for further development, which is more technical. It is to remove the unit dictionary stored as Unum's class attributes (which is the cornerstone of the current design !). Currently, the unit symbol strings are used as keys for this dictionary; numerous dictionary lookups may occur at unit normalization or unification. The idea now is that each unum contains direct references to other unums representing its inner units. More precisely, basic units (as meter, second, etc) are, by definition, terminal unums (without references); derived units (as Newton, Joule, etc) have a dictionary with, as keys, unums representing basic/derived units, and, as values, their exponents; finally, any quantity may be derived with the same idea. The big picture at the end is that all quantities, units and conversion rules boils down to a single connected graph where each node is a unum. This redesign should save a lot in time and memory consumption. It requires however to rewrite almost all Unum's methods. I wrote a small prototype to validate the concept, with promising results.
+}}}
 
 === Enthought's Units ===
 
@@ -130,6 +135,7 @@ sage: a/b
  * In [[https://mail.enthought.com/pipermail/enthought-dev/2007-September/009130.html|this discussion]] from the Enthought mailing list, they claim that: ''"The units package is very stable, but perhaps lacking in documentation."''
  * Small size (746 Kbytes) and self-consistent. Easy installation.
  * At a first look, the package has a quite complex structure, which may comes from careful investigation of pros and cons and software design of other packages, to provide a well designed system. The code is harder to read for a newbie, which may stand for code coming from an experienced programmer.
+ * Its documentation is already provided in '''ReST'''
  * It has been tested to work with basic functionalities in '''SAGE 3.4.2''': its heavy use of NumPy is representing an obstacle, provided that SAGE still doesn't play completely nicely with NumPy
 {{{#!python
 ----------------------------------------------------------------------
