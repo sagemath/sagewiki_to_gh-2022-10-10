@@ -27,7 +27,7 @@ Comments from [[http://mail.scipy.org/pipermail/ipython-dev/2007-May/002932.html
 [[http://home.scarlet.be/be052320/Unum_tutorial.html|Unum tutorial]]
  * ''License'': GPL
  * Author: Pierre Denis
- * Last update: 2005 - Designed for '''Python 2.5'''
+ * Last update: 2005 - Designed for '''Python 2.2'''
  * Supported architectures: Linux, Windows, others
  * It boasts [[http://home.scarlet.be/be052320/Unum_tutorial.html#_Integration_with_Numerical_1|integration]] with NumPy and some degree of customization. 
  * Small size (12.7 Kbytes archived, 119.7 Kbytes installed) and self-consistent. Easy installation.
