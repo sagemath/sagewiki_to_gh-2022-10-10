@@ -68,6 +68,8 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
 
  * FIXME: summarize #6263
 
+ * FIXME: summarize #6123
+
 
 == Interfaces ==
 
@@ -78,6 +80,8 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
  * FIXME: summarize #6178
 
  * FIXME: summarize #5510
+
+ * FIXME: summarize #2256
 
 
 == Miscellaneous ==
@@ -114,6 +118,8 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
 
  * FIXME: summarize #6044
 
+ * FIXME: summarize #6046
+
 
 == Numerical ==
 
@@ -128,6 +134,12 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
 
 
  * Upgrade [[http://www.singular.uni-kl.de|Singular]] to version 3-1-0 latest upstream release (Martin Albrecht).
+
+
+ * Upgrade [[http://www.flintlib.org|FLINT]] to version 1.3.0 latest upstream release (Nick Alexander).
+
+
+ * Update the [[http://www.mpir.org|MPIR]] spkg to version {{{mpir-1.2.p3.spkg}}} (Nick Alexander).
 
 
  * Remove [[http://sage.math.washington.edu/home/wdj/guava|Guava]] as a standard Sage package (David Joyner).
