@@ -4501,6 +4501,8 @@ sexyfancy\.net
 pleasuretoys\.biz
 jsjgjt\.com
 cuvyr\.com
+air\.io
+
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
