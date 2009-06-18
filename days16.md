@@ -68,6 +68,7 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 == Schedule ==
  * Monday, June 22: [[http://www.crm.cat/Conferences/0809/ThematicDays/SageDay/index.htm|CRM Thematic Day on Mathematics and Computation]]
  * Tuesday, June 23:
+ *   Tuesday night -- Saint Joan!!! http://www.barcelonayellow.com/content/view/128/1/
  * Wednesday, June 24:
  * Thursday, June 25:
  * Friday, June 26:
