@@ -67,6 +67,9 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 ||<|2>14:30-15:30||<|2>Maite Aranes|| '''Manin symbols over number fields''' ||
 || I will discuss results about cusps and Manin symbols over a number field K, which should be useful in the computation of spaces of cusp forms for GL(2, K) via modular symbols. I will also present ongoing work on implementations of both of these in Sage. ||
 ||16:00--||Coding Sprint ||||
+||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Saturday, June 26||
+||||||FME||
+||10:30--||Coding Sprint wrapup ||||
 
 
  * Wednesday, June 24:
