@@ -29,6 +29,8 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
 
  * FIXME: summarize #6234
 
+ * FIXME: summarize #6170
+
 
 == Calculus ==
 
