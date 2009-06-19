@@ -145,6 +145,9 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
  * Remove [[http://sage.math.washington.edu/home/wdj/guava|Guava]] as a standard Sage package (David Joyner).
 
 
+ * FIXME: summarize #6298
+
+
 == Symbolics ==
 
 
