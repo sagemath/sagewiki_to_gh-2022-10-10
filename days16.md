@@ -66,7 +66,20 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
  * Organizers list (closed): http://groups.google.com/group/sagedays16-org
 
 == Schedule ==
- * Monday, June 22: [[http://www.crm.cat/Conferences/0809/ThematicDays/SageDay/index.htm|CRM Thematic Day on Mathematics and Computation]]
+
+||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday, June 22||
+||||||[[http://www.crm.cat/Conferences/0809/ThematicDays/SageDay/index.htm|CRM Thematic Day on Mathematics and Computation]]||
+||<|2>10:30-11:30||<|2> William&nbsp;Stein || '''Sage: open source mathematical software''' ||
+|| This will be an overview talk about Sage, which explains the history and motivation for the project, demos some key features of Sage, and discusses where we are going next. It will be accessible to people in all research areas and assumes no prior experience with Sage. ||
+||11:30-12:00||Coffee&nbsp;Break||||
+||<|2>12:00-13:00||<|2> Henri&nbsp;Cohen || '''Experimental methods in number theory and analysis''' ||
+|| In this talk, I would like to give a number of examples of numerical experiments coming from number theory and analysis, mention the tools used to perform them, and show how they sometimes can lead to interesting and deep conjectures. ||
+||<|2>14:30-15:30||<|2> Àngel&nbsp;Jorba || '''Developing tailored software for specific problems''' ||
+|| We will discuss the advantages and inconveniences of developing software (in a general purpose language like C) for concrete problems. I will also mention the results of a pool done by the Spanish project "i-Math" on the use of computational resources of the mathematical research groups in Spain. ||
+||15:30-16:00||Coffee&nbsp;Break||||
+||16:00-17:00||Round&nbsp;Table||||
+
+
  * Tuesday, June 23:
  *   Tuesday night -- Saint Joan!!! http://www.barcelonayellow.com/content/view/128/1/
  * Wednesday, June 24:
