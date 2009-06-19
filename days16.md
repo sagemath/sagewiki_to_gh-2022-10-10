@@ -58,7 +58,7 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 || 16:00-- || Coding Sprint ||||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, June 26||
 ||||||FME||
-||<|2> 10:30-11:30 || Gonzalo&nbsp;Tornaria || '''TBA''' ||
+||<|2> 10:30-11:30 ||<|2> Gonzalo&nbsp;Tornaria || '''TBA''' ||
 || TBA ||
 || 11:30-12:00 || Coffee Break || ||
 ||<|2> 12:00-13:00 ||<|2> Emmanuel&nbsp;Thomé || '''Multiplication of binary polynomials''' ||
