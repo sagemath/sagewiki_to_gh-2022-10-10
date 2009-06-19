@@ -8,11 +8,55 @@ Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, 
 == Algebra ==
 
 
- * FIXME: summarize #5845
+ * Correct precision bound in {{{hilbert_class_polynomial()}}} and miscellaneous new functions (John Cremona) -- The two new functions are {{{elliptic_j()}}} in {{{sage/functions/special.py}}}, and {{{is_primitive()}}} in the class {{{BinaryQF}}} of {{{sage/quadratic_forms/binary_qf.py}}}. The function {{{elliptic_j(z)}}} returns the elliptic modular {{{j}}}-function evaluated at {{{z}}}. The function {{{is_primitive()}}} determines whether the binary quadratic form {{{ax^2 + bxy + cy^2}}} satisfies {{{gcd(a,b,c) = 1}}}, i.e. that it is primitive. Here are some examples on using these new functions:
+ {{{
+sage: elliptic_j(CC(i))
+1728.00000000000
+sage: elliptic_j(sqrt(-2.0))
+8000.00000000000
+sage: Q = BinaryQF([6,3,9])
+sage: Q.is_primitive()
+False
+sage: Q = BinaryQF([1,1,1])
+sage: Q.is_primitive()
+True
+ }}}
 
- * FIXME: summarize #6229
 
- * FIXME: summarize #6250
+ * Efficient Lagrange interpolation polynomial (Yann Laigle-Chapuy) -- Calculating the Lagrange interpolation polynomial of a set of points is now up to 48% faster than previously. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: R = PolynomialRing(QQ, 'x')
+sage: %timeit R.lagrange_polynomial([(0,1),(2,2),(3,-2),(-4,9)])
+1000 loops, best of 3: 824 µs per loop
+sage: R.lagrange_polynomial([(0,1),(2,2),(3,-2),(-4,9)])
+-23/84*x^3 - 11/84*x^2 + 13/7*x + 1
+sage: R = PolynomialRing(GF(2**3,'a'), 'x')
+sage: a = R.base_ring().gen()
+sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)])")
+625 loops, best of 3: 111 µs per loop
+sage: R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)])
+a^2*x^2 + a^2*x + a^2
+
+
+# AFTER
+
+sage: R = PolynomialRing(QQ, 'x')
+sage: %timeit R.lagrange_polynomial([(0,1),(2,2),(3,-2),(-4,9)])
+1000 loops, best of 3: 425 µs per loop
+sage: R.lagrange_polynomial([(0,1),(2,2),(3,-2),(-4,9)])
+-23/84*x^3 - 11/84*x^2 + 13/7*x + 1
+sage: R = PolynomialRing(GF(2**3,'a'), 'x')
+sage: a = R.base_ring().gen()
+sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)])")
+625 loops, best of 3: 86.4 µs per loop
+sage: R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)])
+a^2*x^2 + a^2*x + a^2
+ }}}
+
+
+ * Deprecate the method {{{__len__()}}} for a matrix group (Nicolas Thiery) -- The method {{{__len__()}}} of the class {{{MatrixGroup_gap}}} in {{{sage/groups/matrix_gps/matrix_group.py}}} is now deprecated and will be removed in a future release. To get the number of elements in a matrix group, users are advised to use the method {{{cardinality()}}} instead. The method {{{order()}}} is essentially the same as {{{cardinality()}}}, so {{{order()}}} will be deprecated in a future release.
 
 
 == Algebraic Geometry ==
