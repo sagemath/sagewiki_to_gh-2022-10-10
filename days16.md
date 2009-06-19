@@ -14,7 +14,7 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday, June 22||
 ||||||[[http://www.crm.cat/Conferences/0809/ThematicDays/SageDay/index.htm|CRM Thematic Day on Mathematics and Computation]]||
-||<|2>10:30-11:30||<|2> William&nbsp;Stein || '''Sage: open source mathematical software''' ||
+||<|2>10:30-11:30||<|2 style="width: 200"> William&nbsp;Stein || '''Sage: open source mathematical software''' ||
 || This will be an overview talk about Sage, which explains the history and motivation for the project, demos some key features of Sage, and discusses where we are going next. It will be accessible to people in all research areas and assumes no prior experience with Sage. ||
 ||11:30-12:00||Coffee&nbsp;Break||||
 ||<|2>12:00-13:00||<|2> Henri&nbsp;Cohen || '''Experimental methods in number theory and analysis''' ||
@@ -37,7 +37,7 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 || In several ways, challenges in computational mathematics (including computational number theory, graph theory, cryptanalysis, ...) involve large linear algebra computations over Z or Q. Distributed, peer-to-peer or Cloud computing represent nowadays the best perspectives to access to a large and cheap computing power, but based on unrealible ressources. Fault tolerant techniques are therefore developped in order to increase the confidence in the computations, or even to certify it. In the case of exact computations, the algebraic properties of the problems are well suited for the developpment of algorithm based fault tolerant protocols. In particular, the Chinese Remaindering Algorithm, offering an embarassingly easy parallelization, can be adapted to work as an error correcting code and tolerate errors. We will present an demonstrate these algorithms and protocols in the case of a distributed computation of the determinant of a matrix over Z. ||
 ||<|2>15:30-16:30||<|2>Martin&nbsp;Albrecht|| '''How to get started developing Sage''' ||
 || In this talk, we will try to highlight a few interesting and relevant bits and pieces for getting into Sage development. We will give an overview of how Sage is structured and step through the Sage development process. The talk is meant to be fairly interactive with people asking questions etc. ||
-|| Free&nbsp;evening|| [[http://www.barcelonayellow.com/content/view/128/1/|Sant&nbsp;Joan&nbsp;festivity]] ||||
+|| Free&nbsp;evening|| [[http://www.barcelonayellow.com/content/view/128/1/|Sant Joan festivity]] ||||
 
 
  * Wednesday, June 24:
