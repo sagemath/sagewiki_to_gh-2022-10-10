@@ -25,10 +25,21 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 ||16:00-17:00||Round&nbsp;Table||||
 ||||||FME||
 ||19:00--||Coding&nbsp;Sprint Organization||||
+||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, June 23||
+||||||FME||
+||<|2>10:30-11:30||<|2> Jordi&nbsp;Guàrdia || '''New ideas for computing integral bases''' ||
+|| The determination of the ring of integers of a number field is one of the main tasks of computational algebraic number theory. The use of higher Newton polygons provides a new insight in the problem, leading to a fast method to compute integral bases, discriminants and prime ideal factorization in number fields. ||
+||11:30-12:00||Coffee&nbsp;Break||||
+||<|2>12:00-13:00||<|2>William&nbsp;Stein|| '''How to use Sage to compute with Elliptic Curves''' ||
+|| I will explain how to use Sage to define elliptic curves over various fields, do arithmetic on them, and compute standard invariants. Then I'll talk about elliptic curves over finite fields, and how to count points and compute the group structure. Next, I'll talk about elliptic curves over number fields and Sage's implementation of Tate's algorithm. Finally, I'll discuss computing the invariants in the BSD conjecture for elliptic curves over QQ. ||
+||13:00-14:30||Lunch||||
+||<|2>14:30-15:30||<|2>Clement&nbsp;Pernet & Majid&nbsp;Khonji|| '''Computing exactly with unsafe ressources: fault tolerant exact linear algebra and cloud computing''' ||
+|| In several ways, challenges in computational mathematics (including computational number theory, graph theory, cryptanalysis, ...) involve large linear algebra computations over Z or Q. Distributed, peer-to-peer or Cloud computing represent nowadays the best perspectives to access to a large and cheap computing power, but based on unrealible ressources. Fault tolerant techniques are therefore developped in order to increase the confidence in the computations, or even to certify it. In the case of exact computations, the algebraic properties of the problems are well suited for the developpment of algorithm based fault tolerant protocols. In particular, the Chinese Remaindering Algorithm, offering an embarassingly easy parallelization, can be adapted to work as an error correcting code and tolerate errors. We will present an demonstrate these algorithms and protocols in the case of a distributed computation of the determinant of a matrix over Z. ||
+||<|2>15:30-16:30||<|2>Martin&nbsp;Albrecht|| '''How to get started developing Sage''' ||
+|| In this talk, we will try to highlight a few interesting and relevant bits and pieces for getting into Sage development. We will give an overview of how Sage is structured and step through the Sage development process. The talk is meant to be fairly interactive with people asking questions etc. ||
+|| Free&nbsp;evening|| [[http://www.barcelonayellow.com/content/view/128/1/|Sant&nbsp;Joan&nbsp;festivity]] ||||
 
 
- * Tuesday, June 23:
- *   Tuesday night -- Saint Joan!!! http://www.barcelonayellow.com/content/view/128/1/
  * Wednesday, June 24:
  * Thursday, June 25:
  * Friday, June 26:
