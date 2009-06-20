@@ -7,6 +7,12 @@ PEOPLE: William Stein
 
   Right now basic arithmetic on elliptic curves is way too slow.  It could be sped up by moving the point class to Cython, and possibly by using better formulas for arithmetic, e.g., using projective coordinates. 
 
+== Create elliptic curve classes for elliptic curve models in the Explicit-Formulas Database ==
+
+PEOPLE: David Kohel
+
+  In order to optimize and compare arithmetic, we should first implement alternative models and verify relative performance.  The isomorphisms between different models should also be implemented, and classes for isogenies of these models developed, making use first of the new isogenies code, and eventually putting in place special optimized code for specific models.
+
 == Rewrite abelian groups ==
 
 PEOPLE: William Stein
