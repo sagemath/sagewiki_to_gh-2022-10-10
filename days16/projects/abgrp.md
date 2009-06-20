@@ -1,4 +1,4 @@
-= Rewrite Abelian Groups ==
+= Rewrite Abelian Groups =
 
 Comment from John Cremona: 
 {{{
