@@ -13,6 +13,8 @@ PEOPLE: David Kohel
 
   In order to optimize and compare arithmetic, we should first implement alternative models and verify relative performance.  The isomorphisms between different models should also be implemented, and classes for isogenies of these models developed, making use first of the new isogenies code, and eventually putting in place special optimized code for specific models.
 
+See the EFD: http://www.hyperelliptic.org/EFD/
+
 == Rewrite abelian groups ==
 
 PEOPLE: William Stein
