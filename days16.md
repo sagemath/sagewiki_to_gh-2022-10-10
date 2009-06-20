@@ -5,6 +5,9 @@ Sage Days 16 will take place June 22-27, 2009, the week after [[http://www.imub.
 
  * [[http://www.uam.es/enrique.gonzalez.jimenez/sagedays16/| Official webpage]]
 
+== Projects ==
+ * [[/projects|Project page]]
+
   
 == Mailing lists ==
  * Participants lists (open): http://groups.google.com/group/sagedays16
