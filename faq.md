@@ -73,6 +73,33 @@ sage: import Tkinter
 }}}
 does not raise an ImportError then it worked.
 
+=== I'm seeing an error about 'Permission denied' on a file called sage-flags.txt ===
+
+When sage is built from source, it keeps track of what special instructions your CPU 
+supports (such as `SSE2`), and records these (so that if you try running the code on a different machine,
+which doesn't support these extra instructions, you get a sensible error message instead
+of a segfault or illegal instruction). Since this should be stored with sage itself (as opposed 
+to a user's `.sage` directory), it has to be created by someone with the appropriate permissions.
+
+So if you're seeing something like this:
+
+{{{
+Traceback (most recent call last):
+  File "/usr/local/sage-4.0.2/local/bin/sage-location", line 174, in <module>
+    t, R = install_moved()
+  File "/usr/local/sage-4.0.2/local/bin/sage-location", line 18, in install_moved
+    write_flags_file()
+  File "/usr/local/sage-4.0.2/local/bin/sage-location", line 82, in write_flags_file
+    open(flags_file,'w').write(get_flags_info())
+IOError: [Errno 13] Permission denied: '/usr/local/sage-4.0.2/local/lib/sage-flags.txt'
+}}}
+
+it probably means that you compiled/installed sage as one user, but haven't run it to let it
+generate the `sage-flags.txt` file. Just run `sage` one time as whatever user installed it, and 
+this problem should go away. This would also be easy to fix by having sage run once as part of
+the install process; see [[http://trac.sagemath.org/sage_trac/ticket/6375|trac #6375]] for 
+this fix.
+
 == Developing in Sage ==
 === What tools do I need to develop in Sage? ===
 You need the prerequisite tools listed in the README.txt file in the root directory of Sage.
