@@ -28,3 +28,11 @@ PEOPLE: William Stein
 PEOPLE: Robert Miller
 
   Ticket [[http://trac.sagemath.org/sage_trac/ticket/6085|#6085]] contains a lot of work so that a graph created by Graph(implementation='c_graph') is just as functional as a Sage graph. I will be sporadically working on improving documentation and optimizing graphs all week, and anyone interested is welcome to join.
+
+== Cliquer SPKG for Sage ==
+
+PEOPLE: Robert Miller, Nathann Cohen (remotely)
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/6355|#6355]]
+  * [[http://trac.sagemath.org/sage_trac/ticket/5793|#5793]]
+  * [[http://trac.sagemath.org/sage_trac/ticket/5669|#5669]]
