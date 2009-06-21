@@ -123,7 +123,7 @@ Sage Days 16 will take place on June 22--27, 2009, the week after [[http://www.i
   1. Rainer Schulze-Pillot, Universitaet des Saarlandes
   1. Mehmet Sengun, University of Duisburg-Essen
   1. Jaap Spies, Holland
-  1. William Stein, University of Washington
+  1. William Stein, University of Washington   (Room C-113 at Residencia)
   1. Emmanuel Thome, INRIA Lorraine
   1. Andrew Tonks, London Metropolitan University
   1. Gonzalo Tornaría, Universidad de la República (Uruguay)
