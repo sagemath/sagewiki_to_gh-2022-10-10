@@ -62,7 +62,59 @@ a^2*x^2 + a^2*x + a^2
 == Algebraic Geometry ==
 
 
- * FIXME: summarize #6218
+ * Optimize hyperelliptic curve arithmetic (Nick Alexander) -- Arithmetics with hyperelliptic curves can be up to 6x faster than previously. The following timing statistics were obtained using the maching sage.math:
+ {{{
+#BEFORE
+
+sage: F = GF(next_prime(10^30))
+sage: x = F['x'].gen()
+sage: f = x^7 + x^2 + 1
+sage: H = HyperellipticCurve(f, 2*x)
+sage: J = H.jacobian()(F)
+verbose 0 (902: multi_polynomial_ideal.py, dimension) Warning: falling back to very slow toy implementation.
+sage: Q = J(H.lift_x(F(1)))
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 0.65 s, sys: 0.02 s, total: 0.67 s
+Wall time: 0.68 s
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 1.08 s, sys: 0.00 s, total: 1.08 s
+Wall time: 1.08 s
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 0.72 s, sys: 0.02 s, total: 0.74 s
+Wall time: 0.74 s
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 0.67 s, sys: 0.00 s, total: 0.67 s
+Wall time: 0.67 s
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 0.66 s, sys: 0.00 s, total: 0.66 s
+Wall time: 0.66 s
+
+
+# AFTER
+
+sage: F = GF(next_prime(10^30))
+sage: x = F['x'].gen()
+sage: f = x^7 + x^2 + 1
+sage: H = HyperellipticCurve(f, 2*x)
+sage: J = H.jacobian()(F)
+verbose 0 (919: multi_polynomial_ideal.py, dimension) Warning: falling back to very slow toy implementation.
+sage: Q = J(H.lift_x(F(1)))
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 0.14 s, sys: 0.01 s, total: 0.15 s
+Wall time: 0.15 s
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 0.10 s, sys: 0.00 s, total: 0.10 s
+Wall time: 0.10 s
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 0.09 s, sys: 0.00 s, total: 0.09 s
+Wall time: 0.10 s
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 0.09 s, sys: 0.01 s, total: 0.10 s
+Wall time: 0.10 s
+sage: %time ZZ.random_element(10**10) * Q;
+CPU times: user 0.10 s, sys: 0.00 s, total: 0.10 s
+Wall time: 0.11 s
+ }}}
 
 
 == Basic Arithmetic ==
@@ -70,8 +122,6 @@ a^2*x^2 + a^2*x + a^2
 
 == Build ==
 
-
- * FIXME: summarize #6234
 
  * FIXME: summarize #6170
 
