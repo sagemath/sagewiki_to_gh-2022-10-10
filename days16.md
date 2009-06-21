@@ -85,7 +85,7 @@ Sage Days 16 will take place on June 22--27, 2009, the week after [[http://www.i
 
 == Participants ==
   1. Michael Abshoff, Technische Universität Dortmund
-  1. Martin Albrecht, University of London
+  1. Martin Albrecht, University of London (Room C-010 at Residencia)
   1. Maite Aranes, University of Warwick
   1. Tomasz Buchert, Adam Mickiewicz University
   1. Michal Bulant, Masaryk University
