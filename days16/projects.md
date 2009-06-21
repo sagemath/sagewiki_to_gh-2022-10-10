@@ -57,6 +57,6 @@ PEOPLE: Bjarke Hammersholt Roune
 
    * Find the best way to compute toric Grobner bases in Sage (4ti2?)
    * Improve the integration of the library Frobby for monomial ideal computations.
-   * Code the algorithms (easy at this point)
+   * Code the algorithms (should be easy at this point)
 
-Help is welcome!
+  Help is welcome, especially for writing a Cython interface to Frobby.
