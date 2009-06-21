@@ -1,5 +1,17 @@
 = Sage Days 16 Project Idea Page =
 
+== Implement evaluation of elliptic curve isomorphism at a point ==
+
+PEOPLE: William Stein
+
+{{{
+sage: E = EllipticCurve('37a'); F = E.quadratic_twist(-17)
+sage: K.<a> = QuadraticField(-17); E = E.change_ring(K); F = F.change_ring(K)
+sage: phi = E.isomorphism_to(F); phi(E.gens()[0])
+Traceback (click to the left for traceback)
+...
+NotImplementedError: not implemented.
+}}}
   
 == Create a Cython class for points on elliptic curves and optimize basic arithmetic ==
 
@@ -15,11 +27,13 @@ PEOPLE: David Kohel
 
 See the EFD: http://www.hyperelliptic.org/EFD/
 
-== Rewrite abelian groups ==
+== Rewrite abelian groups (hard) ==
 
 PEOPLE: William Stein
 
   It would be possible to use [[http://trac.sagemath.org/sage_trac/ticket/5882|trac 5882]] to rewrite abelian groups natively in Sage (not using GAP), in a way that is much more flexible than the current implementation.  This could be useful for many number theory applications.   
+
+  This project is "hard", since many have tried and always failed.
 
   [[/abgrp|More Details]]
 
