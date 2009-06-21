@@ -15,6 +15,10 @@ Sage Days 16 will take place on June 22--27, 2009, the week after [[http://www.i
 
 == Schedule ==
 
+||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Sunday, June 21||
+||<|2> 21:00 ||<|2>  || '''Meet informally in the lobby of the Resedentia and go to dinner''' ||
+
+
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday, June 22||
 ||||||[[http://www.crm.cat/Conferences/0809/ThematicDays/SageDay/index.htm|CRM Thematic Day on Mathematics and Computation]]||
 ||<|2> 10:30-11:30 ||<|2> William&nbsp;Stein || '''Sage: open source mathematical software''' ||
