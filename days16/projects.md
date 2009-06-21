@@ -36,3 +36,8 @@ PEOPLE: Robert Miller, Nathann Cohen (remotely)
  * [[http://trac.sagemath.org/sage_trac/ticket/6355|#6355]]
   * [[http://trac.sagemath.org/sage_trac/ticket/5793|#5793]]
   * [[http://trac.sagemath.org/sage_trac/ticket/5669|#5669]]
+
+== Take a look at the possibility of making GAP a dynamically loadable library ==
+
+PEOPLE: Robert Miller, Martin Albrecht (hopefully)
+
