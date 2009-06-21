@@ -46,3 +46,5 @@ PEOPLE: Robert Miller, Martin Albrecht (hopefully)
 PEOPLE: Robert Miller
 
 I plan on at least copying the Python implementation on wikipedia, since now we have nothing at all for max flow problems. Hopefully then someone who really cares about it will try to use it, realize it is slow, start improving it, etc. etc. etc.
+
+ * http://en.wikipedia.org/wiki/Ford-Fulkerson_algorithm
