@@ -108,7 +108,7 @@ Sage Days 16 will take place on June 22--27, 2009, the week after [[http://www.i
   1. Joan Carles Lario, UPC
   1. Offray Vladimir Luna Cárdenas, Javeriana (Colombia)
   1. David Loeffler, University of Cambridge
-  1. Robert Miller, University of Washington
+  1. Robert Miller, University of Washington (Room C-010 at Residencia) 
   1. Antonio Molina, Addlink Software Científico
   1. Enric Nart, UAB
   1. Sebastian Pancratz, University of Oxford
