@@ -35,7 +35,7 @@
 
     * 5. Number Theory
 
-          * 5.1. Elementary Number [Erik]
+          * 5.1. Elementary Number [Erik] [[attachment:number_theory.primes_diophantine_equations.1.0.sws]]
 
           * 5.5. Quadratic Forms [[attachment:quadratic_forms.sws]]
 
