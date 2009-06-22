@@ -124,4 +124,6 @@ PEOPLE: Burcin Erocal, Clément Pernet
 
 == Ray class groups and Groessencharacters ==
 
+Implement computations of the ray class group modulo an ideal of a number field, and the corresponding character group.
+
 PEOPLE: David Loeffler
