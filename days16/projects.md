@@ -80,3 +80,9 @@ PEOPLE: Bjarke Hammersholt Roune
 PEOPLE: Martin Albrecht
 
 Both PolyBoRi's (Gröbner bases in GF(2)[x_i]/<x_i^2+x_i>) and Singular's interface need some (engineering) work & documentation.
+
+== Elliptic curves isogenies -- greatly improve usability ==
+
+PEOPLE: William Stein
+
+Dan Shumow wrote new code for computing isogenies between elliptic curves, but it is still very rough around the edges.  Fix it up.  See e.g., http://trac.sagemath.org/sage_trac/ticket/6384
