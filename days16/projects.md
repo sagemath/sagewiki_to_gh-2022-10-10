@@ -109,3 +109,15 @@ PEOPLE: Clément Pernet
 Merge the `PrimitiveFunction` and `SFunction` classes in `sage.symbolic.function` and make it easier to define new special functions with custom evaluation, printing, etc. methods. This also involves adding capability to represent symbolic sums and integrals in Sage as a first step to adding native Sage code to deal with these.
 
 PEOPLE: Burcin Erocal
+
+== M4RI: improvement of PLUQ factorization ==
+
+Change/improve the slow columnswap in PLUQ factorization
+
+PEOPLE: Martin Albrecht, Clément Pernet
+
+== LinBox wrappers ==
+
+Rewrite LinBox wrappers using C++ wrappers of Cython directly
+
+PEOPLE: Burcin Erocal, Clément Pernet
