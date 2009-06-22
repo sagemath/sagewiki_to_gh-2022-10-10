@@ -97,3 +97,9 @@ Add the early termination technique for the reconstruction of multiple values
 Apply it to Burcin's computation of nullspace over Z[x]
 
 PEOPLE: Burcin Erocal, Clément Pernet
+
+== Minpoly over small finite field ==
+[[http://trac.sagemath.org/sage_trac/ticket/6296|#6296]]
+Implement a certified computation of minpoly over a small finite field.
+
+PEOPLE: Clément Pernet
