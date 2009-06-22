@@ -93,4 +93,7 @@ Dan Shumow wrote new code for computing isogenies between elliptic curves, but i
 
 Fix / Unify code / optimize the hell out of it
 
+Add the early termination technique for the reconstruction of multiple values
+Apply it to Burcin's computation of nullspace over Z[x]
+
 PEOPLE: Burcin Erocal, Clément Pernet
