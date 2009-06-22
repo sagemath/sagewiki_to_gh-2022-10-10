@@ -37,7 +37,7 @@ Sage Days 16 will take place on June 22--27, 2009, the week after [[http://www.i
 ||<|2> 10:30-11:30 ||<|2> Jordi&nbsp;Guàrdia || '''New ideas for computing integral bases''' ||
 || The determination of the ring of integers of a number field is one of the main tasks of computational algebraic number theory. The use of higher Newton polygons provides a new insight into the problem, leading to a fast method to compute integral bases, discriminants and prime ideal factorization in number fields. ||
 || 11:30-12:00 || Coffee&nbsp;Break ||||
-||<|2> 12:00-13:00 ||<|2> William&nbsp;Stein || [['''How to use Sage to compute with Elliptic Curves'''|http://wstein.org/talks/20090623-elliptic_curves/]] ||
+||<|2> 12:00-13:00 ||<|2> William&nbsp;Stein || [[http://wstein.org/talks/20090623-elliptic_curves/|'''How to use Sage to compute with Elliptic Curves''']] ||
 || I will explain how to use Sage to define elliptic curves over various fields, do arithmetic on them, and compute standard invariants. Then I'll talk about elliptic curves over finite fields, and how to count points and compute the group structure. Next, I'll talk about elliptic curves over number fields and Sage's implementation of Tate's algorithm. Finally, I'll discuss computing the invariants in the BSD conjecture for elliptic curves over QQ. ||
 || 13:00-14:30 || Lunch || ||
 ||<|2> 14:30-15:30 ||<|2> Clément&nbsp;Pernet & Majid&nbsp;Khonji || '''Computing exactly with unsafe resources: fault tolerant exact linear algebra and cloud computing''' ||
