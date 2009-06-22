@@ -77,7 +77,7 @@ PEOPLE: Bjarke Hammersholt Roune
 
 == PolyBoRi and Singular ==
 
-PEOPLE: Martin Albrecht
+PEOPLE: Martin Albrecht, Burcin Erocal
 
 Both PolyBoRi's (Gröbner bases in GF(2)[x_i]/<x_i^2+x_i>) and Singular's interface need some (engineering) work & documentation.
 
@@ -103,3 +103,9 @@ PEOPLE: Burcin Erocal, Clément Pernet
 Implement a certified computation of minpoly over a small finite field.
 
 PEOPLE: Clément Pernet
+
+== Refactor symbolic functions ==
+
+Merge the `PrimitiveFunction` and `SFunction` classes in `sage.symbolic.function` and make it easier to define new special functions with custom evaluation, printing, etc. methods. This also involves adding capability to represent symbolic sums and integrals in Sage as a first step to adding native Sage code to deal with these.
+
+PEOPLE: Burcin Erocal
