@@ -31,7 +31,8 @@ Sage Days 16 will take place on June 22--27, 2009, the week after [[http://www.i
 || 15:30-16:00 || Coffee&nbsp;Break || ||
 || 16:00-17:00 || Round&nbsp;Table || ||
 ||||||FME||
-|| 19:00-- || Coding&nbsp;Sprint Organization || ||
+|| 18:45 || Leave from Residencia to UPC || ||
+|| 19:00-- || Coding&nbsp;Sprint Organization at UPC || ||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, June 23||
 ||||||FME||
 ||<|2> 10:30-11:30 ||<|2> Jordi&nbsp;Guàrdia || '''New ideas for computing integral bases''' ||
