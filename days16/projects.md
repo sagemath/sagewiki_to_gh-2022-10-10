@@ -121,3 +121,7 @@ PEOPLE: Martin Albrecht, Clément Pernet
 Rewrite LinBox wrappers using C++ wrappers of Cython directly
 
 PEOPLE: Burcin Erocal, Clément Pernet
+
+== Ray class groups and Groessencharacters ==
+
+PEOPLE: David Loeffler
