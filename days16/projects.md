@@ -74,3 +74,9 @@ PEOPLE: Bjarke Hammersholt Roune
    * Code the algorithms (should be easy at this point)
 
   Help is welcome, especially for writing a Cython interface to Frobby.
+
+== PolyBoRi and Singular ==
+
+PEOPLE: Martin Albrecht
+
+Both PolyBoRi's (Gröbner bases in GF(2)[x_i]/<x_i^2+x_i>) and Singular's interface need some (engineering) work & documentation.
