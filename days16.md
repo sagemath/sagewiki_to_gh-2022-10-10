@@ -43,7 +43,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || 19:00-- || Coding&nbsp;Sprint Organization at UPC [[http://wstein.org/edu/2009/sd16/00031-introductions_by_conference_participants.m4v|video introductions]]|| ||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, June 23||
 ||||||FME||
-||<|2> 10:30-11:30 ||<|2> Jordi&nbsp;Guàrdia || '''New ideas for computing integral bases''' ||
+||<|2> 10:30-11:30 ||<|2> Jordi&nbsp;Guàrdia || [[attachment:guardia.pdf|'''New ideas for computing integral bases''']] ||
 || The determination of the ring of integers of a number field is one of the main tasks of computational algebraic number theory. The use of higher Newton polygons provides a new insight into the problem, leading to a fast method to compute integral bases, discriminants and prime ideal factorization in number fields. ||
 || 11:30-12:00 || Coffee&nbsp;Break ||||
 ||<|2> 12:00-13:00 ||<|2> William&nbsp;Stein || [[http://wstein.org/talks/20090623-elliptic_curves/|'''How to use Sage to compute with Elliptic Curves''']] ||
