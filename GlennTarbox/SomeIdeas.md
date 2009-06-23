@@ -37,11 +37,10 @@ In the extreme cases, its hard to truly compete with Matlab, but IMHO, that isn'
 = Distributed Architecture =
 
  * Service Architecture - Components available as services with a language / OS / location neutral interface
- * Parallel computing - Components designed as workers
+ * Parallel computing - This is gonna take some splaining... a number of decisions will need to be made on the (approximately) 8.2 gazillion issues at the heart of distributed / parallel computing.  The good news is a majority of folks can be served very well with a few paradigms such as scatter-gather and map-reduce.  More below
+ * Language neutral integration - the author is not clear whether this is critical just yet.  I'll present a few thoughts but will shelve any substantial discussion for the time being (war wounds beginning to act up)
 
-Service Architecture is pretty straightforward nowadays.  Typically, some form of XML (ReST) service is defined and XML is pumped around.  This could be done although I think for the Sage domain, a simpler and more useful approach might be tried first.
-
-Google Protocol Buffers - http://code.google.com/p/protobuf/ (protobuf) was open sourced by Google some time ago.  Protobuf was Google's core mechanism for transport and storage of serialized data.  The reasons for this and why there are some advantages over XML are available on their site.
+Service Architecture is pretty straightforward nowadays.  Typically, some form of XML (ReST) service is defined and XML is pumped around (SOAP is silly and evil and no time will be spent discussing it here... those interested can find great architecture flamewars in various places).  
 
 For Sage, the advantages are:
  * Language support - Native bindings are available for Python, Java and C++
@@ -60,3 +59,9 @@ The only tricky bit is that distributed systems "tend" to work better when they'
 Asynchronous programming is straightforward but requires a bit of rethinking.  Twisted Python is the penultimate asynchronous inversion thought process but is truly great stuff and, again, for Sage much of the Twisted nastiness could be hidden beneath a library for those not wanting to delve too deeply into Twisted.
 
 The one area which would need some work, therefore, is the Sage Notebook itself.  While the core notebook server uses Twisted to manage connections (and is asynchronous), the notebook process itself is Pexpect based and blocks...  I'm fairly sure that inverting the notebook process to be asynchronous would be straightforward but would require some evaluation.
+
+=== Language Neutral (advanced topic) ===
+
+Google Protocol Buffers - http://code.google.com/p/protobuf/ (protobuf) was open sourced by Google some time ago.  Protobuf was Google's core mechanism for transport and storage of serialized data.  The reasons for this and why there are some advantages over XML are available on their site.
+
+AMQO - Advanced Message Queuing Protocol - http://jira.amqp.org/confluence/display/AMQP/Advanced+Message+Queuing+Protocol is gathering some steam
