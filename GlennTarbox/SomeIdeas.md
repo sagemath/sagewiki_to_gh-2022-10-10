@@ -42,17 +42,21 @@ In the extreme cases, its hard to truly compete with Matlab, but IMHO, that isn'
 
 Service Architecture is pretty straightforward nowadays.  Typically, some form of XML (ReST) service is defined and XML is pumped around (SOAP is silly and evil and no time will be spent discussing it here... those interested can find great architecture flamewars in various places).  
 
-For Sage, the advantages are:
- * Language support - Native bindings are available for Python, Java and C++
- * Performance - Protocol buffers are substantially higher performance in terms of size and speed when compared with XML
-
-To simplify the discussion, the two main areas for Sage WRT distribution are:
- * Sage specific - Sage on both sides of the wire for general services and parallel computing
- * Integration with other systems - an example here is Java based systems or other legacy systems where coarse grained integration is preferred over linking with Sage in the same process
-
 == Distributed Sage ==
 
 Distribution using Python is amazingly easy as the interpreter can be exploited to trivialize what is often nasty in strongly typed compiled languages.  The simple case is shipping a string of python code to be "eval()ed" on the other side.  When data needs to be shipped it can be pickled... Most Sage objects support dumps() and loads().  Sending arguments to functions / methods is a matter of constructing lists and dictionaries... Much of the plumbing can be hidden very easily using decorators (I have examples of this approach) and also permits exceptions to be thrown "over the wire"
+
+=== General Distributed Object Computing (DOC) ===
+
+Distributed Object Computing (DOC) takes this relatively simple concept a step further.  Generally, the idea is that the user obtains an object with methods to be used like any Plain Old Python Object (PoPo).  Under the covers, this object (aka proxy) gathers up the arguments, encodes which method was called, the "Id" of the sending object, serializes the lot, ships it to the "other side" where the computation is to occur and does the inverse with anything returned.
+
+Of course, this is where the fun begins... general DOC is a massive failure with lots of good reasons why its been such a disaster.  But, I won't bore you with my life and since I don't drink any more, the chances of you hearing about the millions of lives lost on this problem may be erased from history (good riddance) (look up the history of CORBA and the OMG to follow a still ongoing DOC train wreck).
+
+But, I will say that the difficulties stem from the fact that a call over the wire isn't the same as a call in the same process space.  For one thing, the failure modes are wildly more complex.  Another has to do with subtle performance issues which can be hidden under the local proxy object...  then there's the deadlock problem which occurs even in single threaded processes if one starts to use peer-to-peer style computing... and this is way before we get into the issues of object ownership, persistence, transactions or any of the madness which always comes up in the general case... bake for 30 years and throw out the result.
+
+=== Parallel Computing for Scientists / Mathematicians / Engineers ===
+
+Fortunately, 
 
 The only tricky bit is that distributed systems "tend" to work better when they're asynchronous.  Its simply not effective to block waiting for a result over the wire, particularly when working on scatter-gather parallelism or when integrating with live data sets (the types of things engineers would also be interested in).  Often, threads are introduced to get around this blocking, making the code more complex than it need be and introducing all the wonderful bugs which tend to crop up.  Threads are great when they're needed... they're hell but great... when they're not needed, they're just hell.
 
@@ -65,3 +69,11 @@ The one area which would need some work, therefore, is the Sage Notebook itself.
 Google Protocol Buffers - http://code.google.com/p/protobuf/ (protobuf) was open sourced by Google some time ago.  Protobuf was Google's core mechanism for transport and storage of serialized data.  The reasons for this and why there are some advantages over XML are available on their site.
 
 AMQO - Advanced Message Queuing Protocol - http://jira.amqp.org/confluence/display/AMQP/Advanced+Message+Queuing+Protocol is gathering some steam
+
+For Sage, the advantages are:
+ * Language support - Native bindings are available for Python, Java and C++
+ * Performance - Protocol buffers are substantially higher performance in terms of size and speed when compared with XML
+
+To simplify the discussion, the two main areas for Sage WRT distribution are:
+ * Sage specific - Sage on both sides of the wire for general services and parallel computing
+ * Integration with other systems - an example here is Java based systems or other legacy systems where coarse grained integration is preferred over linking with Sage in the same process
