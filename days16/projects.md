@@ -50,6 +50,8 @@ PEOPLE: Robert Miller, Nathann Cohen (remotely), brian, ncohen, rlmiller, bjarke
 
 PEOPLE: Robert Miller, Martin Albrecht (hopefully), wstein, michael
 
+  * Robert Miller and William Stein succeeded in making a first very rough Cython module that links in GAP as a library and allows one to type commands to the interpreter.  See http://trac.sagemath.org/sage_trac/ticket/6391   This proof-of-concept that not only can GAP be linked as a library instead of used via pexpect, but that the result is likely to be  *better* than libPARI and libSingular, in that one has full access to the GAP interpreter scripts and capabilities (just like embedding Python allows for that).   Also, it turns out that so far there are no issues because of the GAP memory manager. 
+
 == Python implementation of Ford-Fulkerson algorithm ==
 
 PEOPLE: Robert Miller, brian, michael, tom
