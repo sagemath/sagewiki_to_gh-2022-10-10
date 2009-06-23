@@ -28,7 +28,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || 21:00 ||<-2> '''From the Resedentia, go to dinner''' ||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday, June 22||
 ||||||[[http://www.crm.cat/Conferences/0809/ThematicDays/SageDay/index.htm|CRM Thematic Day on Mathematics and Computation]]||
-|| 9:00 ||<-2> '''Meet with Jordi Quer at the Residencia lobby, take the train together to CRM''' ||
+|| 9:00 ||<-2> '''Meet with Jordi Quer at the [[http://www.resa.es/eng/residencias/torre_girona|Residencia lobby]], take the train together to CRM''' ||
 ||<|2> 10:30-11:30 ||<|2> William&nbsp;Stein || [[http://wstein.org/talks/20090622-sagedays16-thematic/|'''Sage: Unifying Mathematical Software''']], [[http://wstein.org/edu/2009/sd16/00021-stein-unifying_open_source_math_software-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00022-stein-unifying_open_source_math_software-part2.m4v|video part 2]]||
 || This will be an overview talk about Sage, which explains the history and motivation for the project, demos some key features of Sage, and discusses where we are going next. It will be accessible to people in all research areas and assumes no prior experience with Sage. ||
 || 11:30-12:00 || Coffee&nbsp;Break || ||
