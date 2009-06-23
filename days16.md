@@ -63,8 +63,8 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || 16:00-- || Coding&nbsp;Sprint || ||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, June 25||
 ||||||FME||
-||<|2> 10:30-11:30 ||<|2> David&nbsp;Loeffler || '''TBA''' ||
-|| TBA ||
+||<|2> 10:30-11:30 ||<|2> David&nbsp;Loeffler || '''P-adic modular forms in Sage''' ||
+|| I will give a quick introduction to p-adic modular forms, which are a generalisation of classical modular forms. I will first give a quick introduction to the theory, and then describe a few algorithms that can be used to compute them, and give an example of one of these which has been implemented in Sage since 3.4.1. Finally I will talk a little about some issues in inexact p-adic linear algebra that come up in the process. ||
 || 11:30-12:00 || Coffee Break || ||
 ||<|2> 12:00-13:00 ||<|2> David&nbsp;Kohel || '''ECHIDNA: Open source Magma extensions for Sage''' ||
 || I will present the open source GPL repository of Magma code:<<BR>>Elliptic Curves and Higher Dimensional Analogues<<BR>>(http://echidna.maths.usyd.edu.au/kohel/alg/), <<BR>> with associated databases, and its use as an extension to Sage. This repository includes updates to the original packages for quaternion algebras, Brandt modules and generalization of my code for genera of lattices (as a quadratic modules package). As new features, it includes p-adic point counting via canonical lifts for elliptic curves (AGM-X_0(N)), extensions to the Igusa invariants and Mestre's algorithm (to small characteristic) in genus 2, arithmetic of CM fields and CM constructions for curves of genus 2, invariants of genus 3 curves (Dixmier-Ohno and Shioda's hyperelliptic invariants), and numerous other features (e.g. working in generic Picard groups, singular cubic curves and generalized Jacobians of singular hyperelliptics, etc.). The majority of the algorithms are completely new to Magma, and represent algorithms developed over more than a decade (with students and collaborators). The Sage developer community is invited to contribute, document, and improve ECHIDNA, and port features directly to Sage. ||
