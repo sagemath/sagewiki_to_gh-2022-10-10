@@ -34,8 +34,8 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].
 || 11:30-12:00 || Coffee&nbsp;Break || ||
 ||<|2> 12:00-13:00 ||<|2> Henri&nbsp;Cohen || '''Experimental methods in number theory and analysis''' [[http://wstein.org/edu/2009/sd16/00023-cohen-experimental_methods-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00024-cohen-experimental_methods-part2.m4v|video part 2]] ||
 || In this talk, I would like to give a number of examples of numerical experiments coming from number theory and analysis, mention the tools used to perform them, and show how they sometimes can lead to interesting and deep conjectures. ||
-||<|2> 14:30-15:30 ||<|2> Àngel&nbsp;Jorba || '''Developing tailored software for specific problems''' ||
-|| We will discuss the advantages and inconveniences of developing software (in a general purpose language like C) for concrete problems. I will also mention the results of a pool done by the Spanish project "i-Math" on the use of computational resources of the mathematical research groups in Spain. [[http://wstein.org/edu/2009/sd16/00025-jorba-tailored_software-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00026-jorba-tailored_software-part2.m4v|video part 2]] ||
+||<|2> 14:30-15:30 ||<|2> Àngel&nbsp;Jorba || '''Developing tailored software for specific problems'''  [[http://wstein.org/edu/2009/sd16/00025-jorba-tailored_software-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00026-jorba-tailored_software-part2.m4v|video part 2]]||
+|| We will discuss the advantages and inconveniences of developing software (in a general purpose language like C) for concrete problems. I will also mention the results of a pool done by the Spanish project "i-Math" on the use of computational resources of the mathematical research groups in Spain. ||
 || 15:30-16:00 || Coffee&nbsp;Break || ||
 || 16:00-17:00 || Round&nbsp;Table [[http://wstein.org/edu/2009/sd16/00028-panel_discussion-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00029-panel_discussion-part2.m4v|video part 2]]|| ||
 ||||||FME||
