@@ -10,9 +10,10 @@ PEOPLE: William Stein, wouter, dkohel
 
 == Create elliptic curve classes for elliptic curve models in the Explicit-Formulas Database ==
 
-PEOPLE: David Kohel
+PEOPLE: David Kohel, Wouter Castryck
 
   In order to optimize and compare arithmetic, we should first implement alternative models and verify relative performance.  The isomorphisms between different models should also be implemented, and classes for isogenies of these models developed, making use first of the new isogenies code, and eventually putting in place special optimized code for specific models.
+(Wouter) As a comment to that, none of these alternative models cover the whole range of elliptic curves (as far as I know). E.g. an elliptic curve can be shaped into Edwards form only if it has a point of order 4. So one should in any case optimize arithmetic on pure Weierstrass curves (using weighted projective coordinates or so).
 
 See the EFD: http://www.hyperelliptic.org/EFD/
 
