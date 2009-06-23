@@ -90,7 +90,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 
 == Organizers ==
 
- * [[MichaelAbshoff|Michael Abshoff]], [[http://www.informatik.uni-bremen.de/~malb/|Martin Albrecht]], [[http://www.warwick.ac.uk/~masgaj/|John Cremona]], [[http://www-ma2.upc.es/~quer/|Jordi Quer]], [[http://wstein.org|William Stein]], [[http://www.uam.es/personal_pdi/ciencias/engonz/|Enrique González-Jiménez]], [[http://polit.upc.es/~puig/indexen.html|Joaquim Puig]], [[http://www.cmat.edu.uy/~tornaria/|Gonzalo Tornaría]].
+ * [[MichaelAbshoff|Michael Abshoff]], [[http://www.informatik.uni-bremen.de/~malb/|Martin Albrecht]], [[http://www.warwick.ac.uk/~masgaj/|John Cremona]], [[http://www-ma2.upc.es/~quer/|Jordi Quer]], [[http://wstein.org|William Stein]], [[http://www.uam.es/personal_pdi/ciencias/engonz/|Enrique González-Jiménez]], [[http://polit.upc.es/~puig/indexen.html|Joaquim Puig]], [[http://www.cmat.edu.uy/~tornaria/|Gonzalo Tornaría]], [[http://rlmiller.org/|Robert Miller]].
 
 == Participants ==
   1. Michael Abshoff, Technische Universität Dortmund
