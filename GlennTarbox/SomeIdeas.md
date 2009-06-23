@@ -52,11 +52,13 @@ Distributed Object Computing (DOC) takes this relatively simple concept a step f
 
 Of course, this is where the fun begins... general DOC is a massive failure with lots of good reasons why its been such a disaster.  But, I won't bore you with my life and since I don't drink any more, the chances of you hearing about the millions of lives lost on this problem may be erased from history (good riddance) (look up the history of CORBA and the OMG to follow a still ongoing DOC train wreck).
 
-But, I will say that the difficulties stem from the fact that a call over the wire isn't the same as a call in the same process space.  For one thing, the failure modes are wildly more complex.  Another has to do with subtle performance issues which can be hidden under the local proxy object...  then there's the deadlock problem which occurs even in single threaded processes if one starts to use peer-to-peer style computing... and this is way before we get into the issues of object ownership, persistence, transactions or any of the madness which always comes up in the general case... bake for 30 years and throw out the result.
+But, I will say that the difficulties stem from the fact that a call over the wire isn't the same as a call in the same process space.  For one thing, the failure modes are wildly more complex.  Another has to do with subtle performance issues which can be hidden under the local proxy object (this will be discussed below as the Call-to-Compute ratio)...  then there's the deadlock problem which occurs even in single threaded processes if one starts to use peer-to-peer style computing... and this is way before we get into the issues of object ownership, persistence, transactions or any of the madness which always comes up in the general case... bake for 30 years and throw out the result.
 
 === Parallel Computing for Scientists / Mathematicians / Engineers ===
 
-Fortunately, 
+Fortunately, technical folks with compute bound problems are often able to greatly simplify what is necessary (sufficient?) for their parallel computing problems... and, it turns out, is pretty simple to implement.
+
+So, lets assume that the problem is "trivially" parallelizable: which essentially means that
 
 The only tricky bit is that distributed systems "tend" to work better when they're asynchronous.  Its simply not effective to block waiting for a result over the wire, particularly when working on scatter-gather parallelism or when integrating with live data sets (the types of things engineers would also be interested in).  Often, threads are introduced to get around this blocking, making the code more complex than it need be and introducing all the wonderful bugs which tend to crop up.  Threads are great when they're needed... they're hell but great... when they're not needed, they're just hell.
 
