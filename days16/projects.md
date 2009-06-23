@@ -44,6 +44,7 @@ PEOPLE: Robert Miller, Nathann Cohen (remotely), brian, ncohen, rlmiller, bjarke
  * [[http://trac.sagemath.org/sage_trac/ticket/6355|#6355]]
   * [[http://trac.sagemath.org/sage_trac/ticket/5793|#5793]]
   * [[http://trac.sagemath.org/sage_trac/ticket/5669|#5669]]
+ * [[http://groups.google.com/group/sage-devel/browse_thread/thread/8afc622316dc102d|sage-devel thread]]
 
 == Take a look at the possibility of making GAP a dynamically loadable library ==
 
