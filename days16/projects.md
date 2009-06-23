@@ -21,11 +21,11 @@ See the EFD: http://www.hyperelliptic.org/EFD/
 
 PEOPLE: William Stein, rlmiller, dkohel, wstein, dloeffler, bjarke
 
-  It would be possible to use [[http://trac.sagemath.org/sage_trac/ticket/5882|trac 5882]] to rewrite abelian groups natively in Sage (not using GAP), in a way that is much more flexible than the current implementation.  This could be useful for many number theory applications.   
+  . It would be possible to use [[http://trac.sagemath.org/sage_trac/ticket/5882|trac 5882]] to rewrite abelian groups natively in Sage (not using GAP), in a way that is much more flexible than the current implementation.  This could be useful for many number theory applications.   
 
-  This project is "hard", since many have tried and always failed.
+  . This project is "hard", since many have tried and always failed. The reason for this is the temptation to rewrite the current implementation all at once. See more details for the new plan, which avoids this pitfall...
 
-  [[/abgrp|More Details]]
+  . [[/abgrp|More Details]]
 
 == Multisets ==
 
