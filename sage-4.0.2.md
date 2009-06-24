@@ -219,9 +219,7 @@ view(g, pdflatex=True)
 == Group Theory ==
 
 
- * FIXME: summarize #6263
-
- * FIXME: summarize #6123
+ * Python interface to partition backtrack functions (Robert Miller) -- New module in {{{sage/groups/perm_gps/partn_ref/refinement_python.pyx}}} provides Python frontends to the Cython-based partition backtrack functions. This allows one to write the three input functions ({{{all_children_are_equivalent}}}, {{{refine_and_return_invariant}}}, and {{{compare_structures}}}) in pure Python, and still use the Cython algorithms. Experimentation with specific partition backtrack implementations no longer requires compilation, as the input functions can be dynamically changed at runtime. Note that this is not intended for production quality implementations of partition refinement, but instead for experimentation, learning, and use of the Python debugger.
 
 
 == Interfaces ==
@@ -230,19 +228,35 @@ view(g, pdflatex=True)
 == Linear Algebra ==
 
 
- * FIXME: summarize #6178
-
- * FIXME: summarize #5510
-
- * FIXME: summarize #2256
+ * Hermite normal form over principal ideal domains (David Loeffler) -- This adds echelon form (or Hermite normal form) over principal ideal domains. Here an example:
+ {{{
+sage: L.<w> = NumberField(x^2 - x + 2)
+sage: OL = L.ring_of_integers()
+sage: m = matrix(OL, 2, 2, [1,2,3,4+w])
+sage: m.echelon_form()
+[    1    -2]
+[    0 w - 2]
+sage: m.echelon_form(transformation=True)
+([    1    -2]
+[    0 w - 2], [-3*w - 2    w + 1]
+[      -3        1])
+ }}}
 
 
 == Miscellaneous ==
 
 
- * FIXME: summarize #6089
+ * Bypassing jsMath with view command (John Palmieri) -- This provides a way to not always use jsMath when rendering LaTeX for the {{{view}}} command in the notebook. It works by looking for certain strings in the LaTeX code for the object, and if it finds them, it creates and displays a PNG file, bypassing jsMath altogether. The "certain strings" are stored in a list which is initially empty, but can be populated by using
+ {{{
+latex.jsmath_avoid_list(...)
+ }}}
+ or
+ {{{
+latex.add_to_jsmath_avoid_list(...)
+ }}}
 
- * FIXME: summarize #6110
+
+ * A "decorator" to allow pickling nested classes (Carl Witty, Nicolas Thiery) -- The {{{nested_pickle}}} decorator modifies nested classes to be picklable. (In Python 2.6 it should be usable as a decorator, although that hasn't been tested; Python 2.5 doesn't support class decorators, so you can't use that syntax in Sage until Sage upgrades to Python 2.6.)
 
 
 == Modular Forms ==
@@ -293,6 +307,9 @@ view(g, pdflatex=True)
 
 
  * Update the [[http://www.mpir.org|MPIR]] spkg to version {{{mpir-1.2.p3.spkg}}} (Nick Alexander).
+
+
+ * Update the [[http://m4ri.sagemath.org|M4RI]] spkg to version {{{libm4ri-20090617}}} (Martin Albrecht).
 
 
  * Remove [[http://sage.math.washington.edu/home/wdj/guava|Guava]] as a standard Sage package (David Joyner).
