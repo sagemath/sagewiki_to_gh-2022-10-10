@@ -117,18 +117,6 @@ Wall time: 0.11 s
  }}}
 
 
-== Basic Arithmetic ==
-
-
-== Build ==
-
-
- * FIXME: summarize #6170
-
-
-== Calculus ==
-
-
 == Coding Theory ==
 
 
@@ -137,9 +125,6 @@ Wall time: 0.11 s
   * J. Conway. Hexacode and tetracode -- MINIMOG and MOG. In M. Atkinson (ed.) Computational Group Theory, Academic Press, 1984.
   * J. Conway and N. Sloane. Lexicographic codes: error-correcting codes from game theory. IEEE Transactions on Information Theory, 32:337-348, 1986.
   * J. Kahane and A. Ryba. The hexad game. Electronic Journal of Combinatorics, 8, 2001.  http://www.combinatorics.org/Volume_8/Abstracts/v8i2r11.html
-
-
-== Combinatorics ==
 
 
 == Commutative Algebra ==
@@ -213,16 +198,10 @@ view(g, pdflatex=True)
 {{attachment:petersen-latex.png}}
 
 
-== Graphics ==
-
-
 == Group Theory ==
 
 
  * Python interface to partition backtrack functions (Robert Miller) -- New module in {{{sage/groups/perm_gps/partn_ref/refinement_python.pyx}}} provides Python frontends to the Cython-based partition backtrack functions. This allows one to write the three input functions ({{{all_children_are_equivalent}}}, {{{refine_and_return_invariant}}}, and {{{compare_structures}}}) in pure Python, and still use the Cython algorithms. Experimentation with specific partition backtrack implementations no longer requires compilation, as the input functions can be dynamically changed at runtime. Note that this is not intended for production quality implementations of partition refinement, but instead for experimentation, learning, and use of the Python debugger.
-
-
-== Interfaces ==
 
 
 == Linear Algebra ==
@@ -257,9 +236,6 @@ latex.add_to_jsmath_avoid_list(...)
 
 
  * A "decorator" to allow pickling nested classes (Carl Witty, Nicolas Thiery) -- The {{{nested_pickle}}} decorator modifies nested classes to be picklable. (In Python 2.6 it should be usable as a decorator, although that hasn't been tested; Python 2.5 doesn't support class decorators, so you can't use that syntax in Sage until Sage upgrades to Python 2.6.)
-
-
-== Modular Forms ==
 
 
 == Notebook ==
@@ -318,9 +294,6 @@ sage: b.global_height(prec=200)
  }}}
 
 
-== Numerical ==
-
-
 == Packages ==
 
 
@@ -345,10 +318,4 @@ sage: b.global_height(prec=200)
  * Remove [[http://sage.math.washington.edu/home/wdj/guava|Guava]] as a standard Sage package (David Joyner).
 
 
- * FIXME: summarize #6298
-
-
-== Symbolics ==
-
-
-== Topology ==
+ * New experimental spkg {{{libcocoa-0.9930.spkg}}} (William Stein).
