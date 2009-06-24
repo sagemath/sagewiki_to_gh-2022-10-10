@@ -14,7 +14,7 @@ p.show(xmin=0, ymin=0,dpi=250)
 
 [[http://sage.math.washington.edu/home/wdj/art/cool-sage-pic-small1.png|cool pic 1]]
 
- * Mirrored balls in tachyon:
+=== Mirrored balls in tachyon ===
 
 {{{
 t = Tachyon(camera_center=(8.5,5,5.5), look_at=(2,0,0), raydepth=6, xres=1500, yres=1500)
@@ -32,7 +32,7 @@ show(t)
 
 [[http://sage.math.washington.edu/home/wdj/art/balls-mirrored-sage-tachyon1a.png|cool ray tracing pic]]
 
- * Math art by Tom Boothby:
+=== Math art by Tom Boothby ===
 {{{
 # Author: Tom Boothby
 # This is a remake of an old art piece I made in POVRay
@@ -59,7 +59,7 @@ t.show(verbose=1)
 
 [[http://sage.math.washington.edu/home/wdj/art/boothby-tachyon1.png|cool pic 2]]
 
- * Twisted cubic in tachyon:
+=== Twisted cubic in tachyon ===
 {{{
 t = Tachyon(xres=512,yres=512, camera_center=(5,0,0))
 t.light((4,3,2), 0.2, (1,1,1))
@@ -76,7 +76,7 @@ t.show()
 
 [[http://sage.math.washington.edu/home/wdj/art/boothby-tachyon2.png|cool pic 3]]
 
- * Reflections from four spheres in tachyon
+=== Reflections from four spheres in tachyon ===
 {{{
 t6 = Tachyon(camera_center=(0,-4,1), xres = 800, yres = 600, raydepth = 12, aspectratio=.75, antialiasing = True)
 t6.light((0.02,0.012,0.001), 0.01, (1,0,0))
@@ -93,7 +93,7 @@ t6.show()
 
 [[attachment:fourspheres.png]]
 
- * A cone inside a sphere:
+=== A cone inside a sphere ===
 {{{
 sage: u,v = var("u,v")
 sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3*v/2-1/3], (u, 0, 2*pi), (v, 0, 0.95),plot_points=[20,20])
@@ -103,7 +103,7 @@ sage: show(p1+p2)
 
 {{http://sage.math.washington.edu/home/wdj/art/cone-inside-sphere.jpg}}
 
- * A cylinder inside a cone:
+=== A cylinder inside a cone ===
 {{{
 sage: u,v = var("u,v")
 sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3/2-3*v/2], (u, 0, 2*pi), (v, 0, 1.5), opacity = 0.5, plot_points=[20,20])
@@ -113,7 +113,7 @@ sage: show(p1+p2)
 
 {{http://sage.math.washington.edu/home/wdj/art/cylinder-inside-cone.jpg}}
 
- * An animation by Dean Moore: 
+=== A hypotrochoid animation by Dean Moore ===
 Hypotrochoid. Written by Dean Moore, February 2008                            
 
 {{http://sage.math.washington.edu/home/wdj/art/hypotrochoid_R_equals_7,_r_equals_2,_d=3.gif}}
@@ -423,6 +423,113 @@ curve = animate(v) # Animate the curve, and ...
 }}}
 We've shown the final image; done with program.
 
+=== A simpler hypotrochoid ===
+
+The following animates a hypotrochoid much to the same effect as the previous script, but much more concisely.
+
+{{{
+import operator
+
+# The colors for various elements of the plot:
+class color:
+    stylus = (1, 0, 0)
+    outer  = (.8, .8, .8)
+    inner  = (0, 0, 1)
+    plot   = (0, 0, 0)
+    center = (0, 0, 0)
+    tip    = (1, 0, 0)
+# and the corresponding line weights:
+class weight:
+    stylus = 1
+    outer  = 1
+    inner  = 1
+    plot   = 1
+    center = 5
+    tip    = 5
+
+scale = 1            # The scale of the image
+animation_delay = .1 # The delay between frames, in seconds
+
+# Starting and ending t values
+t_i = 0
+t_f = 2*pi
+# The t values of the animation frames
+tvals = srange(t_i, t_f, (t_f-t_i)/60)
+
+r_o = 8 # Outer circle radius
+r_i = 2 # Inner circle radius
+r_s = 3 # Stylus radius
+
+# Coordinates of the center of the inner circle
+x_c = lambda t: (r_o - r_i)*cos(t)
+y_c = lambda t: (r_o - r_i)*sin(t)
+
+# Parametric coordinates for the plot
+x = lambda t: x_c(t) + r_s*cos(t*(r_o/r_i))
+y = lambda t: y_c(t) - r_s*sin(t*(r_o/r_i))
+
+# Maximum x and y values of the plot
+x_max = r_o - r_i + r_s
+y_max = find_maximum_on_interval(y, t_i, t_f)[0]
+
+# The plots of the individual elements. Order is important; plots
+# are stacked from bottom to top as they appear.
+elements = (
+    # The outer circle
+    lambda t_f: circle((0, 0),               r_o, rgbcolor=color.outer, thickness=weight.outer),
+    # The plot itself
+    lambda t_f: parametric_plot((x, y), t_i, t_f, rgbcolor=color.plot,  thickness=weight.plot),
+    # The inner circle
+    lambda t_f: circle((x_c(t_f), y_c(t_f)), r_i, rgbcolor=color.inner, thickness=weight.inner),
+    # The inner circle's center
+    lambda t_f: point((x_c(t_f), y_c(t_f)),       rgbcolor=color.center,pointsize=weight.center),
+    # The stylus
+    lambda t_f: line([(x_c(t_f), y_c(t_f)), (x(t_f), y(t_f))], rgbcolor=color.stylus, thickness=weight.stylus),
+    # The stylus' tip
+    lambda t_f: point((x_c(t_f), y_c(t_f)),       rgbcolor=color.tip,   pointsize=weight.tip),
+)
+
+# Create the plots and animate them. The animate function renders an
+# animated gif from the frames provided as its first argument.
+# Though avid python programmers will find the syntax clear, an
+# explanation is provided for novices.
+animation = animate([reduce(operator.add, (f(t) for f in elements))
+                     for t in tvals],
+                    xmin=-x_max, xmax=x_max,
+                    ymin=-y_max, ymax=y_max,
+                    figsize=(x_max*scale, y_max*scale * y_max/x_max))
+
+animation.show(delay=animation_delay)
+
+# The previous could be expressed more pedagogically as follows:
+#
+#   Evaluate each function in the elements array for the provided t
+#   value:
+#
+#     plots = lambda t: f(t) for f in elements
+#
+#   Join a group of plots together to form a single plot:
+#
+#     def join_plots(plots):
+#         result = plots[0]
+#         for plot in plots[1:]:
+#             result += plot
+#         return result
+#
+#   or
+#
+#     add = lambda a, b: a + b
+#     join_plots = lambda plots: reduce(add, plots)
+#
+#   Create an array of plots, one for each provided t value:
+#
+#     frames = [join_plots(plots(t)) for t in tvals]
+#
+#   Finally, animate the frames:
+#
+#     animation = animate(frames)
+}}}
+
  * I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings:
 
 {{http://sage.math.washington.edu/home/wdj/art/padic-seasons-greetings.png}}
@@ -437,7 +544,7 @@ sage: P4 = text("$from$ $everyone$ $at$ sagemath.org!",(0.1,-1.6))
 sage: (P1+P2+P3+P4).show(axes=False)
 }}}
 
- * Lorentz butterfly:
+=== Lorentz butterfly ===
 
 {{{
 """
@@ -493,7 +600,7 @@ def butterfly3d():
 
 {{http://sage.math.washington.edu/home/wdj/art/butterfly3d.png}}
 
- * "three famous plots of chaos" by Pablo Angulo
+=== "three famous plots of chaos" by Pablo Angulo ===
 {{{
 # Author: Pablo Angulo
 
