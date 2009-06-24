@@ -60,7 +60,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || I will survey the capabilities in Sage for computing dimensions of modular forms spaces, congruence subgroups, modular symbols, modular forms, Brandt modules, overconvergent modular forms, half-integral weight forms, and modular abelian varieties. I will discuss both what is in Sage, and what is missing. ||
 ||<|2> 14:30-15:30 ||<|2> Christian&nbsp;Eder || [[attachment:eder.pdf|'''Faugere's F5 Algorithm: variants and implementation issues''']] ||
 || In this talk we shortly recall main properties of Gröbner bases used for their computations. After an introduction on Faugere's F5 Algorithm we examine its points of inefficiency, especially the reduction process, and present the variant F5C improving these. The benefits of this improvement are explained and represented in detail. Moreover some hints implementing F5's data structures are given and the positive effects of F5C on these are shown. In the end we give some insight into the implementation of F5's reduction process in an F4-ish manner, i.e. using symbolic preprocessing. ||
-|| 16:00-- || Coding&nbsp;Sprint || ||
+|| 16:00-- || Coding Sprint / Status Report || ||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, June 25||
 ||||||FME||
 ||<|2> 10:30-11:30 ||<|2> David&nbsp;Loeffler || '''P-adic modular forms in Sage''' ||
@@ -71,7 +71,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || 13:00-14:30 || Lunch ||||
 ||<|2> 14:30-15:30 ||<|2> Robert&nbsp;Miller || '''Fast compiled graphs in Sage''' ||
 || There will be a demonstration and advertisement of new developments in graph theory in Sage. In particular, compiled Sage graphs have finally reached the same level of functionality as NetworkX graphs, the slower Python implementation. ||
-|| 16:00-- || Coding Sprint ||||
+|| 16:00-- || Coding Sprint Organizer / Status Report ||||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, June 26||
 ||||||FME||
 ||<|2> 10:30-11:30 ||<|2> Gonzalo&nbsp;Tornaria || '''CANCELLED''' ||
