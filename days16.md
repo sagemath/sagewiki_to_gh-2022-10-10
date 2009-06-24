@@ -74,8 +74,8 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || 16:00-- || Coding Sprint Organizer / Status Report ||||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, June 26||
 ||||||FME||
-||<|2> 10:30-11:30 ||<|2> Gonzalo&nbsp;Tornaria || '''CANCELLED''' ||
-|| Due to American Airlines epic FAIL ||
+||<|2> 10:30-11:30 ||<|2> R. Shulze-Pillot || Siegel Theta Series and Modular Forms ||
+|| ||
 || 11:30-12:00 || Coffee Break || ||
 ||<|2> 12:00-13:00 ||<|2> Emmanuel&nbsp;Thomé || '''Multiplication of binary polynomials''' ||
 || Multiplying binary polynomials is an elementary operation which occurs as a basic primitive in several contexts, from computer algebra to coding theory and cryptography. We study here a variety of algorithms for this operation, with the intent of obtaining satisfactory speeds for a wide range of possible degrees. We look into "low level" aspects related to microprocessor-specific optimizations, and higher level algorithms such as of course the Karatsuba and Toom-Cook approaches, but also two different FFT algorithms. Several improvements are presented. We provide comparisons of the timings obtained with those of the NTL library. The software presented can, as of NTL 5.5, be hooked into NTL as an add-on. ||
