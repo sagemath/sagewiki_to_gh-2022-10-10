@@ -2,7 +2,11 @@
 
 Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, please refer to FIXME. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
 
- * 
+ * Upgrade NumPy, SciPy, Singular, and FLINT to latest upstream releases.
+ * A script to automate the testing and merging of tickets.
+ * LaTeX output for combinatorial graphs.
+ * New features for linear algebra include Hermite normal form over principal ideal domains.
+ * New features for number theory include elliptic curve isogeny, and local and global heights for number fields.
 
 
 == Algebra ==
