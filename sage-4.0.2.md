@@ -1,6 +1,6 @@
 = Sage 4.0.2 Release Tour =
 
-Sage 4.0.2 was released on FIXME. For the official, comprehensive release note, please refer to FIXME. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
+Sage 4.0.2 was released on June 18th, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-4.0.2.txt|sage-4.0.2.txt]]. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
 
  * Upgrade NumPy, SciPy, Singular, and FLINT to latest upstream releases.
  * A script to automate the testing and merging of tickets.
