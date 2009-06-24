@@ -56,7 +56,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || Free&nbsp;evening || Sant Joan festivity ||||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday, June 24||
 ||||||FME||
-||<|2> 13:00-14:00 ||<|2> William&nbsp;Stein || '''Modular forms and modular abelian varieties in Sage''' ||
+||<|2> 13:00-14:00 ||<|2> William&nbsp;Stein || [[http://wstein.org/talks/20090622-sagedays16-modform/|'''Modular forms and modular abelian varieties in Sage''']] ||
 || I will survey the capabilities in Sage for computing dimensions of modular forms spaces, congruence subgroups, modular symbols, modular forms, Brandt modules, overconvergent modular forms, half-integral weight forms, and modular abelian varieties. I will discuss both what is in Sage, and what is missing. ||
 ||<|2> 14:30-15:30 ||<|2> Christian&nbsp;Eder || [[attachment:eder.pdf|'''Faugere's F5 Algorithm: variants and implementation issues''']] ||
 || In this talk we shortly recall main properties of Gröbner bases used for their computations. After an introduction on Faugere's F5 Algorithm we examine its points of inefficiency, especially the reduction process, and present the variant F5C improving these. The benefits of this improvement are explained and represented in detail. Moreover some hints implementing F5's data structures are given and the positive effects of F5C on these are shown. In the end we give some insight into the implementation of F5's reduction process in an F4-ish manner, i.e. using symbolic preprocessing. ||
