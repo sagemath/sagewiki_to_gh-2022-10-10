@@ -66,7 +66,7 @@ a^2*x^2 + a^2*x + a^2
 == Algebraic Geometry ==
 
 
- * Optimize hyperelliptic curve arithmetic (Nick Alexander) -- Arithmetics with hyperelliptic curves can be up to 6x faster than previously. The following timing statistics were obtained using the maching sage.math:
+ * Optimize hyperelliptic curve arithmetic (Nick Alexander) -- Arithmetics with hyperelliptic curves can be up to 6x faster than previously. The following timing statistics were obtained using the machine sage.math:
  {{{
 #BEFORE
 
@@ -239,7 +239,7 @@ latex.add_to_jsmath_avoid_list(...)
  }}}
 
 
- * A "decorator" to allow pickling nested classes (Carl Witty, Nicolas Thiery) -- The {{{nested_pickle}}} decorator modifies nested classes to be picklable. (In Python 2.6 it should be usable as a decorator, although that hasn't been tested; Python 2.5 doesn't support class decorators, so you can't use that syntax in Sage until Sage upgrades to Python 2.6.)
+ * A "decorator" to allow pickling nested classes (Carl Witty, Nicolas Thiery) -- The {{{nested_pickle}}} decorator modifies nested classes to be pickleable. (In Python 2.6 it should be usable as a decorator, although that hasn't been tested; Python 2.5 doesn't support class decorators, so you can't use that syntax in Sage until Sage upgrades to Python 2.6.)
 
 
 == Notebook ==
