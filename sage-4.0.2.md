@@ -132,7 +132,11 @@ Wall time: 0.11 s
 == Coding Theory ==
 
 
- * FIXME: summarize #6014
+ * Hexads in {{{S(5,6,12)}}} and mathematical blackjack (David Joyner) -- Implements kittens, hexads and mathematical blackjack as described in the following papers:
+  * R. Curtis. The Steiner system {{{S(5,6,12)}}}, the Mathieu group {{{M_{12}}}}, and the kitten. In M. Atkinson (ed.) Computational Group Theory, Academic Press, 1984.
+  * J. Conway. Hexacode and tetracode -- MINIMOG and MOG. In M. Atkinson (ed.) Computational Group Theory, Academic Press, 1984.
+  * J. Conway and N. Sloane. Lexicographic codes: error-correcting codes from game theory. IEEE Transactions on Information Theory, 32:337-348, 1986.
+  * J. Kahane and A. Ryba. The hexad game. Electronic Journal of Combinatorics, 8, 2001.  http://www.combinatorics.org/Volume_8/Abstracts/v8i2r11.html
 
 
 == Combinatorics ==
@@ -141,19 +145,72 @@ Wall time: 0.11 s
 == Commutative Algebra ==
 
 
- * FIXME: summarize #6051
+ * Enable Singular's coefficient rings which are not fields (Martin Albrecht) -- Singular 3-1-0 supports coefficient rings which are not fields. In particular, it supports {{{ZZ}}} and {{{ZZ/nZZ}}} now. These are now natively supported in Sage.
 
 
 == Cryptography ==
 
 
- * FIXME: summarize #6185
+ * S-box to CNF Conversion (Martin Albrecht) -- New method {{{cnf()}}} in the class {{{SBox}}} of {{{sage/crypto/mq/sbox.py}}} for converting an S-box to conjunctive normal form. Here are some examples on S-box to CNF conversion:
+ {{{
+sage: S = mq.SBox(1,2,0,3); S
+(1, 2, 0, 3)
+sage: S.cnf()
+
+[(1, 2, -3),
+ (1, 2, 4),
+ (1, -2, 3),
+ (1, -2, -4),
+ (-1, 2, -3),
+ (-1, 2, -4),
+ (-1, -2, 3),
+ (-1, -2, 4)]
+sage: # convert this representation to the DIMACS format
+sage: print S.cnf(format='dimacs')
+p cnf 4 8
+1 2 -3 0
+1 2 4 0
+1 -2 3 0
+1 -2 -4 0
+-1 2 -3 0
+-1 2 -4 0
+-1 -2 3 0
+-1 -2 4 0
+
+sage: # as a truth table
+sage: log = SymbolicLogic()
+sage: s = log.statement(S.cnf(format='symbolic'))
+sage: log.truthtable(s)[1:]
+
+[['False', 'False', 'False', 'False', 'False'],
+ ['False', 'False', 'False', 'True', 'False'],
+ ['False', 'False', 'True', 'False', 'False'],
+ ['False', 'False', 'True', 'True', 'True'],
+ ['False', 'True', 'False', 'False', 'True'],
+ ['False', 'True', 'False', 'True', 'True'],
+ ['False', 'True', 'True', 'False', 'True'],
+ ['False', 'True', 'True', 'True', 'True'],
+ ['True', 'False', 'False', 'False', 'True'],
+ ['True', 'False', 'False', 'True', 'True'],
+ ['True', 'False', 'True', 'False', 'True'],
+ ['True', 'False', 'True', 'True', 'True'],
+ ['True', 'True', 'False', 'False', 'True'],
+ ['True', 'True', 'False', 'True', 'True'],
+ ['True', 'True', 'True', 'False', 'True'],
+ ['True', 'True', 'True', 'True', 'True']]
+ }}}
 
 
 == Graph Theory ==
 
 
- * FIXME: summarize #5975
+ * LaTeX output for (combinatorial) graphs (Robert Beezer, Fidel Barrera Cruz) -- Implement the option {{{tkz_style}}} to output graphs in LaTeX format so that they could be processed by pgf/tkz. Here's an example of the Petersen graph visualized using tkz:
+ {{{
+g = graphs.PetersenGraph()
+g.set_latex_options(tkz_style='Art')
+view(g, pdflatex=True)
+ }}}
+{{attachment:petersen-latex.png}}
 
 
 == Graphics ==
