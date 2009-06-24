@@ -265,27 +265,57 @@ latex.add_to_jsmath_avoid_list(...)
 == Notebook ==
 
 
- * FIXME: summarize #6259
-
- * FIXME: summarize #6225
-
- * FIXME: summarize #5371
+ * Add link to IRC in notebook help page (Harald Schilly).
 
 
 == Number Theory ==
 
 
- * FIXME: summarize #5976
+ * Elliptic curve isogeny object (Dan Shumow).
 
- * FIXME: summarize #5842
 
- * FIXME: summarize #6205
+ * Various number field improvements (Francis Clarke) -- Among other things, one can now do
+ {{{
+sage: K.<a> = NumberField(x^2 + 5)
+sage: L.<b> = K.extension(x^2 + 1)
+sage: L.ideal(K.ideal(2, a + 1))
+Fractional ideal (b + 1)
+ }}}
+ For a number field {{{K}}}, one can obtain the prime factors using {{{K.prime_factors}}}:
+ {{{
+sage: CyclotomicField(3).prime_factors(7)
+[Fractional ideal (-2*zeta3 + 1), Fractional ideal (2*zeta3 + 3)]
+ }}}
 
- * FIXME: summarize #6193
 
- * FIXME: summarize #6044
+ * Enhanced reduction modulo ideals of number fields (Maite Aranes) -- The function {{{residues()}}} is modified so that it returns a canonical set of coset representatives. The new function {{{reduce()}}} returns the canonical reduction of an integral element of a number field modulo self. The function {{{inverse_mod}}} now works for integral elements of a number field without having to coerce to the ring of integers.
 
- * FIXME: summarize #6046
+
+ * Local and global heights for number field elements (John Cremona) -- New method {{{local_height()}}} and {{{global_height()}}} in the class {{{NumberFieldElement}}} of {{{sage/rings/number_field/number_field_element.pyx}}}. The method {{{local_height()}}} returns the local height of a number field element at a given prime ideal. The method {{{global_height()}}} returns the absolute logarithmic height of a number field element. Here are some examples for working with these new methods:
+ {{{
+sage: R.<x> = QQ["x"]
+sage: K.<a> = NumberField(x^4 + 3*x^2 - 17)
+sage: P = K.ideal(61).factor()[0][0]
+sage: b = 1/(a^2 + 30)
+sage: b.local_height(P)
+4.11087386417331
+sage: b.local_height(P, weighted=True)
+8.22174772834662
+sage: b.local_height(P, 200)
+4.1108738641733112487513891034256147463156817430812610629374
+sage: (b^2).local_height(P)
+8.22174772834662
+sage: (b^-1).local_height(P)
+0.000000000000000
+sage: 
+sage: R.<x> = QQ["x"]
+sage: K.<a> = NumberField(x^4 + 3*x^2 - 17)
+sage: b = a/2
+sage: b.global_height()
+2.86922224068797
+sage: b.global_height(prec=200)
+2.8692222406879748488543678846959454765968722137813736080066
+ }}}
 
 
 == Numerical ==
