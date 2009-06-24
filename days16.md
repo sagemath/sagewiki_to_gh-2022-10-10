@@ -82,7 +82,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || 13:00-14:30 || Lunch || ||
 ||<|2> 14:30-15:30 ||<|2> Maite&nbsp;Aranes || '''Manin symbols over number fields''' ||
 || I will discuss results about cusps and Manin symbols over a number field K, which should be useful in the computation of spaces of cusp forms for GL(2, K) via modular symbols. I will also present ongoing work on implementations of both of these in Sage. ||
-|| 16:00-- ||Coding Sprint ||||
+|| 16:00-- ||Coding Sprint // Status Report ||||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Saturday, June 26||
 ||||||FME||
 || 10:30-- || Coding Sprint wrapup ||||
