@@ -86,7 +86,7 @@ Dan Shumow wrote new code for computing isogenies between elliptic curves, but i
 
 == Siegel Theta Functions ==
 
-PEOPLE: guardia, holuk, drkohel, rlmiller, preston
+PEOPLE: guardia, holuk, drkohel, rlmiller, preston, schulze-pillot
  
 
 == Multimodular reconstruction implementation ==
