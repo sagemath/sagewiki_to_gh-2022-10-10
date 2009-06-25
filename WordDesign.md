@@ -396,27 +396,54 @@ Wall time: 3.87 s
 [618034, 381966]
 }}}
 
+Palindromic defect (length + 1 - number of distincts palindromes factors):
+
 {{{
-sage: w = Word('ab'*1000)
-sage: time w.defect()
-CPU times: user 8.76 s, sys: 0.01 s, total: 8.77 s
-Wall time: 8.77 s
-0
-sage: w = Word(['a','b']*1000)
-sage: time w.defect()
-CPU times: user 8.74 s, sys: 0.07 s, total: 8.81 s
-Wall time: 8.83 s
-0
-sage: w = Word(('a','b')*1000, alphabet='ab')
-sage: time w.defect()
-CPU times: user 10.58 s, sys: 0.02 s, total: 10.60 s
-Wall time: 10.65 s
-0
-sage: w = wold.Word('ab'*1000)
-sage: time w.defect()
-CPU times: user 10.09 s, sys: 0.04 s, total: 10.14 s
-Wall time: 10.16 s
-0
+	sage: s = 'ab'*1000
+	sage: l = ['a', 'b']*1000
+	sage: t = ('a', 'b')*1000
+
+    from string
+
+	sage: w = wold.Word(s)
+	sage: time w.defect()
+	CPU times: user 10.09 s, sys: 0.04 s, total: 10.14 s
+	Wall time: 10.16 s
+	0
+
+	sage: w = Word(s)
+	sage: time w.defect()
+	CPU times: user 8.76 s, sys: 0.01 s, total: 8.77 s
+	Wall time: 8.77 s
+	0
+
+    from list
+
+	sage: w = wold.Word(l)
+	sage: time w.defect()
+	CPU times: user 10.12 s, sys: 0.03 s, total: 10.15 s
+	Wall time: 10.18 s
+	0
+
+	sage: w = Word(l)
+	sage: time w.defect()
+	CPU times: user 8.69 s, sys: 0.04 s, total: 8.73 s
+	Wall time: 8.73 s
+	0
+
+    from tuple
+
+	sage: w = wold.Word(t, alphabet=['a','b'])
+	sage: time w.defect()
+	CPU times: user 10.10 s, sys: 0.03 s, total: 10.12 s
+	Wall time: 10.13 s
+	0
+
+	sage: w = Word(t)
+	sage: time w.defect()
+	CPU times: user 8.70 s, sys: 0.01 s, total: 8.72 s
+	Wall time: 8.72 s
+	0
 }}}
 
 The following got worse (why?)!! :
