@@ -11,10 +11,16 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 == Algebraic Geometry ==
 
 
+ * FIXME: summarize #4290
+
+
 == Basic Arithmetic ==
 
 
 == Combinatorics ==
+
+
+ * FIXME: summarize #5878
 
 
 == Commutative Algebra ==
@@ -35,16 +41,34 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 == Interfaces ==
 
 
+ * FIXME: summarize #4313
+
+
 == Linear Algebra ==
+
+
+ * FIXME: summarize #6261
 
 
 == Miscellaneous ==
 
 
+ * FIXME: summarize #3084
+
+
 == Modular Forms ==
 
 
+== Notebook ==
+
+
+ * FIXME: summarize #5637
+
+
 == Number Theory ==
+
+
+ * FIXME: summarize #6273
 
 
 == Packages ==
