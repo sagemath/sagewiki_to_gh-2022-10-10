@@ -382,18 +382,52 @@ Is factor of...
 Evaluation...
 
 {{{
-sage: w = wold.words.FibonacciWord()
-sage: time w[:1000000].evaluation()
-CPU times: user 7.30 s, sys: 0.03 s, total: 7.34 s
-Wall time: 7.41 s
-[618034, 381966]
-}}}
-{{{
-sage: w = words.FibonacciWord()
-sage: time w[:1000000].evaluation()
-CPU times: user 3.82 s, sys: 0.02 s, total: 3.84 s
-Wall time: 3.87 s
-[618034, 381966]
+        sage: fibo = words.FibonacciWord()
+        sage: l = list(fibo[:1000000])
+        sage: t = tuple(l)
+        sage: s = ''.join(map(str,l))
+
+    from string
+
+	sage: w = wold.Word(s)
+	sage: time w.evaluation()
+	CPU times: user 3.38 s, sys: 0.00 s, total: 3.38 s
+	Wall time: 3.38 s
+	[618034, 381966]
+
+	sage: w = Word(s)
+	sage: time w.evaluation_dict()
+	CPU times: user 0.48 s, sys: 0.00 s, total: 0.48 s
+	Wall time: 0.49 s
+	{'0': 618034, '1': 381966}
+
+    from list
+
+	sage: w = wold.Word(l)
+	sage: time w.evaluation()
+	CPU times: user 3.47 s, sys: 0.00 s, total: 3.47 s
+	Wall time: 3.47 s
+	[618034, 381966]
+
+	sage: w = Word(l)
+	sage: time w.evaluation_dict()
+	CPU times: user 0.48 s, sys: 0.00 s, total: 0.48 s
+	Wall time: 0.48 s
+	{0: 618034, 1: 381966}
+
+    from tuple
+
+	sage: w = wold.Word(t, alphabet= [0,1])
+	sage: time w.evaluation()
+	CPU times: user 3.61 s, sys: 0.01 s, total: 3.62 s
+	Wall time: 3.62 s
+	[618034, 381966]
+
+	sage: w = Word(t)
+	sage: time w.evaluation_dict()
+	CPU times: user 0.46 s, sys: 0.00 s, total: 0.46 s
+	Wall time: 0.48 s
+	{0: 618034, 1: 381966}
 }}}
 
 Palindromic defect (length + 1 - number of distincts palindromes factors):
@@ -449,81 +483,77 @@ Palindromic defect (length + 1 - number of distincts palindromes factors):
 The following got worse (why?)!! :
 
 {{{
-sage: w = wold.words.StandardEpisturmianWord(wold.Word('abc'))
-sage: time len(w[:1000].palindromes())
-CPU times: user 3.50 s, sys: 0.01 s, total: 3.51 s
-Wall time: 3.52 s
-1001
-}}}
-{{{
-sage: w = words.StandardEpisturmianWord(Word('abc'))
-sage: time len(w[:1000].palindromes())
-CPU times: user 9.36 s, sys: 0.00 s, total: 9.36 s
-Wall time: 9.36 s
-1001
+	sage: sage: w = wold.words.StandardEpisturmianWord(wold.Word('abc'))
+	sage: time w[1000]
+	CPU times: user 0.80 s, sys: 0.00 s, total: 0.80 s
+	Wall time: 0.81 s
+	'b'
+
+	sage: w = words.StandardEpisturmianWord(Word('abc'))
+	sage: time w[1000]
+	CPU times: user 5.78 s, sys: 0.00 s, total: 5.79 s
+	Wall time: 5.83 s
+	'b'
 }}}
 
-{{{
-sage: w = words.ThueMorseWord()
-sage: time w[:1000].defect()
-CPU times: user 5.48 s, sys: 0.02 s, total: 5.51 s
-Wall time: 5.61 s
-212
-}}}
-{{{
-sage: w = wold.words.ThueMorseWord()
-sage: time w[:1000].defect()
-CPU times: user 3.20 s, sys: 0.00 s, total: 3.20 s
-Wall time: 3.20 s
-212
-}}}
-
-Equality testing :
+Equality testing (this could be improved by adding __eq__ and __ne__ to the datatypes.):
 
 {{{
-sage: s = 'abab'*100
-sage: t = 'abab'*100
-sage: %timeit s == t
-1000000 loops, best of 3: 979 ns per loop
-}}}
-{{{
-sage: w = Word('abab'*100)
-sage: y = Word('abab'*100)
-sage: %timeit w == y
-10000 loops, best of 3: 175 µs per loop
-}}}
-{{{
-sage: w = wold.Word('abab'*100)
-sage: y = wold.Word('abab'*100)
-sage: %timeit w == y
-10000 loops, best of 3: 125 µs per loop
+        sage: fibo = words.FibonacciWord()
+        sage: l = list(fibo[:1000000])
+	sage: l2 = list(l)
+        sage: t = tuple(l)
+	sage: t2 = tuple(l)
+        sage: s = ''.join(map(str,l))
+	sage: s2 = str(s)
+
+    from string
+
+	sage: %timeit s == s2
+	10000000 loops, best of 3: 143 ns per loop
+
+	sage: w = wold.Word(s)
+	sage: w2 = wold.Word(s2)
+	sage: %timeit w == w2
+	10 loops, best of 3: 250 ms per loop
+
+	sage: w = Word(s)
+	sage: w2 = Word(s2)
+	sage: %timeit w == w2
+	10 loops, best of 3: 409 ms per loop
+
+    from list
+
+	sage: %timeit l == l2
+	100 loops, best of 3: 8.17 ms per loop
+
+	sage: w = wold.Word(l)
+	sage: w2 = wold.Word(l2)
+	sage: %timeit w == w2
+	10 loops, best of 3: 254 ms per loop
+
+	sage: w = Word(l)
+	sage: w2 = Word(l2)
+	sage: %timeit w == w2
+	10 loops, best of 3: 390 ms per loop
+
+    from tuple
+
+	sage: %timeit t == t2
+	100 loops, best of 3: 7.06 ms per loop
+
+	sage: w = wold.Word(t, alphabet=[0,1])
+	sage: w2 = wold.Word(t2, alphabet=[0,1])
+	sage: %timeit w == w2
+	10 loops, best of 3: 252 ms per loop
+
+	sage: w = Word(t)
+	sage: w2 = Word(t2)
+	sage: %timeit w == w2
+	10 loops, best of 3: 386 ms per loop
+
 }}}
 
-{{{
-sage: s = [4,5,4,5]*100
-sage: t = [4,5,4,5]*100
-sage: %timeit s == t
-10000 loops, best of 3: 44.8 µs per loop
-sage: w = Word(s)
-sage: y = Word(t)
-sage: %timeit w == y
-1000 loops, best of 3: 213 µs per loop
-sage: w = wold.Word(s)
-sage: y = wold.Word(t)
-sage: %timeit w == y
-10000 loops, best of 3: 132 µs per loop
-}}}
-
-Is palindrome...
-
-{{{
-sage: w = wold.Word([1,0,1]*1000)
-sage: %timeit w.is_palindrome()
-1000 loops, best of 3: 1.8 ms per loop
-sage: w = Word([1,0,1]*1000)
-sage: %timeit w.is_palindrome()
-1000 loops, best of 3: 971 µs per loop
-}}}
 
 In the new code, many functions are faster without an ordered alphabet :
 
