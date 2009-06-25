@@ -23,7 +23,7 @@ Data Structures :
 
 == TO BE DONE ==
 
-=== 1. Concatenation ===
+=== 1. Concatenation (done) ===
 
 Create a class for concatenating words; we want to at least be able to do what the old code could do.
 
@@ -63,36 +63,35 @@ create a word from X in Y.parent(); and if that fails, then it raises an
 error. We don't have to raise an error: we could always return a word with
 parent Words_all."
 
-I say it migth return a word in the union of the parents.
-
-
 === 2. Add doctests ===
 
 A bunch of stuff is missing doctests.
 
-Here is the coverage in date of June 11th:
+Here is the coverage in date of June 25th:
 
 {{{
 ~/sage-4.0/devel/sage-combinat/sage/combinat/words$ sage -coverage .
 alphabet.py: 100% (27 of 27)
 morphism.py: 100% (35 of 35)
 shuffle_product.py: 100% (14 of 14)
-suffix_trees.py: 97% (46 of 47)
-word.py: 97% (146 of 150)
+suffix_trees.py: 100% (47 of 47)
+word.py: 100% (150 of 150)
 word_datatypes.pyx: 0% (0 of 61)
-word_generators.py: 95% (19 of 20)
+word_generators.py: 100% (20 of 20)
 word_infinite_datatypes.py: 81% (18 of 22)
 word_options.py: 100% (1 of 1)
 words.py: 100% (38 of 38)
 
-Overall weighted coverage score:  82.6%
+Overall weighted coverage score:  84.3%
 Total number of functions:  415
-We need    9 more function to get to 85% coverage.
-We need   30 more function to get to 90% coverage.
-We need   51 more function to get to 95% coverage.
+We need    2 more function to get to 85% coverage.
+We need   23 more function to get to 90% coverage.
+We need   44 more function to get to 95% coverage.
 }}}
 
-There are already many doctest inside of word_datatypes.pyx but they are not seen by the coverage script. I think that this problem is related to http://trac.sagemath.org/sage_trac/ticket/1795 which has a patch but still needs work.
+{{{word_infinite_datatypes.py}}} : Four concatenation functions introduced by Franco are still missing documentation and doctests.
+
+{{{word_datatypes.pyx}}} : There are already many doctest inside of this file but they are not seen by the coverage script. I think that this problem is related to http://trac.sagemath.org/sage_trac/ticket/1795 which has a patch but still needs work.
 
 === 3. ReST the documentation (done) ===
 
