@@ -74,7 +74,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || 16:00-- || Coding Sprint Organizer / Status Report ||||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, June 26||
 ||||||FME||
-||<|2> 10:30-11:30 ||<|2> R. Shulze-Pillot || Siegel Theta Series and Modular Forms ||
+||<|2> 10:30-11:30 ||<|2> Rainer&nbsp;Schulze-Pillot || Siegel Theta Series and Modular Forms ||
 || Ordinary theta series count (in their Fourier coefficients) the number of ways in which the integral positive definite quadratic form $Q(x)=x^t A x$ in m variables represents an integer n. Siegel theta series count instead the number of ways in which a given positive semidefinite g x g - matrix T can be represented as $X^t A X$ with an integral m x g-Matrix X. In the same way in which ordinary theta series give modular forms on the upper half plane for congruence subgroups of SL_2(Z) the Siegel theta series give modular forms on a g(g+1)/2-dimensional space H_g for the symplectic group Sp_g(Z) and its congruence subgroups. Some computations for these have been done by Scharlau, Schiemann, and myself about 10 years ago; since then nothing much has happened apart from isolated computations of examples - maybe it's time to start another systematic attack on the subject.||
 || 11:30-12:00 || Coffee Break || ||
 ||<|2> 12:00-13:00 ||<|2> Emmanuel&nbsp;Thomé || '''Multiplication of binary polynomials''' ||
