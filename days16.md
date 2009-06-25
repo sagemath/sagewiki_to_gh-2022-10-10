@@ -63,7 +63,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || 16:00-- || Coding Sprint / Status Report || ||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, June 25||
 ||||||FME||
-||<|2> 10:30-11:30 ||<|2> David&nbsp;Loeffler || '''P-adic modular forms in Sage''' ||
+||<|2> 10:30-11:30 ||<|2> David&nbsp;Loeffler || [[http://www.dpmms.cam.ac.uk/~dl267/maths/lecturenotes/sagedays16_slides.pdf|'''P-adic modular forms in Sage''']] ||
 || I will give a quick introduction to p-adic modular forms, which are a generalisation of classical modular forms. I will first give a quick introduction to the theory, and then describe a few algorithms that can be used to compute them, and give an example of one of these which has been implemented in Sage since 3.4.1. Finally I will talk a little about some issues in inexact p-adic linear algebra that come up in the process. ||
 || 11:30-12:00 || Coffee Break || ||
 ||<|2> 12:00-13:00 ||<|2> David&nbsp;Kohel || '''ECHIDNA: Open source Magma extensions for Sage''' ||
