@@ -285,70 +285,98 @@ Counting occurrences of letters
         Wall time: 60.51 s
 }}}
 
-Without alphabet is better:
-
-{{{
-sage: wa=Word('aabababa'*100,alphabet='ab')
-sage: w=Word('aabababa'*100)
-sage: %timeit w == w
-1000 loops, best of 3: 340 µs per loop
-sage: %timeit wa == wa
-100 loops, best of 3: 2.59 ms per loop
-}}}
 
 Critical exponent...
 
 {{{
-sage: s = [0,1,2,3,0,1,2,3]*10
-sage: w1 = wold.Word(s)
-sage: time w1.critical_exponent()
-CPU times: user 1.11 s, sys: 0.00 s, total: 1.11 s
-Wall time: 1.11 s
-20
-}}}
-{{{
-sage: w2 = Word(s)
-sage: time w2.critical_exponent()
-CPU times: user 0.26 s, sys: 0.00 s, total: 0.26 s
-Wall time: 0.27 s
-20
-}}}
-{{{
-sage: w3 = Word(s, datatype="cpp_basic_string")
-sage: time w3.critical_exponent()
-CPU times: user 0.23 s, sys: 0.00 s, total: 0.23 s
-Wall time: 0.23 s
-20
+	sage: l = [0,1,2,3,0,1,2,3]*10
+
+    from list
+
+	sage: w = Word(l)
+	sage: u = wold.Word(l)
+	sage: time u.critical_exponent()
+	CPU times: user 1.11 s, sys: 0.00 s, total: 1.11 s
+	Wall time: 1.11 s
+	20
+	sage: time w.critical_exponent()
+	CPU times: user 0.26 s, sys: 0.00 s, total: 0.26 s
+	Wall time: 0.27 s
+	20
+
+    from cpp_basic_string 
+
+	sage: w3 = Word(l, datatype="cpp_basic_string")
+	sage: time w3.critical_exponent()
+	CPU times: user 0.23 s, sys: 0.00 s, total: 0.23 s
+	Wall time: 0.23 s
+	20
 }}}
 
 Is factor of...
 
 {{{
-sage: t = wold.words.ThueMorseWord([0,1])
-sage: W = t.parent()
-sage: w = W([0,0,0])
-sage: time w.is_factor_of(t[:1000000])
-CPU times: user 17.51 s, sys: 0.00 s, total: 17.51 s
-Wall time: 17.54 s
-False
-}}}
-{{{
-sage: t = words.ThueMorseWord([0,1])
-sage: W = t.parent()
-sage: w = W([0,0,0])
-sage: time w.is_factor(t[:1000000])
-CPU times: user 7.88 s, sys: 0.02 s, total: 7.90 s
-Wall time: 7.96 s
-False
-}}}
-{{{
-sage: l = [sum(Integer(n).digits(base=2))%2 for n in range(1000000)]
-sage: w = Word(l, datatype="cpp_basic_string")
-sage: y = Word([0,0,0], datatype="cpp_basic_string")
-sage: time w.has_factor(y)
-CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
-Wall time: 0.01 s
-False
+        sage: tm = words.ThueMorseWord()
+        sage: l = list(tm[:1000000])
+        sage: t = tuple(l)
+        sage: s = ''.join(map(str,l))
+
+    from string
+
+	sage: w = wold.Word(s)
+	sage: u = w.parent()('000')
+	sage: time u.is_factor_of(w)
+	CPU times: user 11.10 s, sys: 0.10 s, total: 11.19 s
+	Wall time: 11.21 s
+	False
+
+        sage: w = Word(s)
+	sage: u = w.parent()('000')
+	sage: time u.is_factor(w)
+	CPU times: user 1.29 s, sys: 0.00 s, total: 1.29 s
+	Wall time: 1.34 s
+	False
+
+    from list
+
+	sage: w = wold.Word(l)
+	sage: u = w.parent()([0,0,0])
+	sage: time u.is_factor_of(w)
+	CPU times: user 10.88 s, sys: 0.01 s, total: 10.89 s
+	Wall time: 10.91 s
+	False
+
+	sage: w = Word(l)
+	sage: u = w.parent()([0,0,0])
+	sage: time u.is_factor_of(w)
+	CPU times: user 2.66 s, sys: 0.00 s, total: 2.66 s
+	Wall time: 2.67 s
+	False
+
+    from tuple
+
+	sage: w = wold.Word(t, alphabet=[0,1])
+	sage: u = w.parent()((0,0,0))
+	sage: time u.is_factor_of(w)
+	CPU times: user 10.96 s, sys: 0.00 s, total: 10.96 s
+	Wall time: 10.96 s
+	False
+
+	sage: w = Word(t)
+	sage: u = w.parent()((0,0,0))
+	sage: time u.is_factor(w)
+	CPU times: user 2.60 s, sys: 0.00 s, total: 2.60 s
+	Wall time: 2.61 s
+	False
+
+    from cpp_basic_string
+
+	sage: w = Word(l, datatype='cpp_basic_string')
+	sage: u = w.parent()([0,0,0], datatype='cpp_basic_string')
+	sage: time w.has_factor(u)
+	CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+	Wall time: 0.01 s
+	False
 }}}
 
 Evaluation...
@@ -366,6 +394,29 @@ sage: time w[:1000000].evaluation()
 CPU times: user 3.82 s, sys: 0.02 s, total: 3.84 s
 Wall time: 3.87 s
 [618034, 381966]
+}}}
+
+{{{
+sage: w = Word('ab'*1000)
+sage: time w.defect()
+CPU times: user 8.76 s, sys: 0.01 s, total: 8.77 s
+Wall time: 8.77 s
+0
+sage: w = Word(['a','b']*1000)
+sage: time w.defect()
+CPU times: user 8.74 s, sys: 0.07 s, total: 8.81 s
+Wall time: 8.83 s
+0
+sage: w = Word(('a','b')*1000, alphabet='ab')
+sage: time w.defect()
+CPU times: user 10.58 s, sys: 0.02 s, total: 10.60 s
+Wall time: 10.65 s
+0
+sage: w = wold.Word('ab'*1000)
+sage: time w.defect()
+CPU times: user 10.09 s, sys: 0.04 s, total: 10.14 s
+Wall time: 10.16 s
+0
 }}}
 
 The following got worse (why?)!! :
@@ -447,6 +498,16 @@ sage: %timeit w.is_palindrome()
 1000 loops, best of 3: 971 µs per loop
 }}}
 
+In the new code, many functions are faster without an ordered alphabet :
+
+{{{
+	sage: wa = Word('aabababa'*100,alphabet='ab')
+	sage: w = Word('aabababa'*100)
+	sage: %timeit w == w
+	1000 loops, best of 3: 340 µs per loop
+	sage: %timeit wa == wa
+	100 loops, best of 3: 2.59 ms per loop
+}}}
 
 === 6. Remove the repository sage/combinat/words_old ===
 
