@@ -450,6 +450,8 @@ sage: %timeit w.is_palindrome()
 
 === 6. Remove the repository sage/combinat/words_old ===
 
+Right now, many files in {{{sage/combinat}}} still depend on {{{sage/combinat/words_old}}}. This must me changed to the new code.
+
 === 7. Make the words_ng patches commutable in the sage-combinat tree ===
 
 Actually, they do not commute with generalized permutations patches because of small conflicts in the setup.py file.
