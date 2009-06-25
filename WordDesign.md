@@ -118,67 +118,67 @@ Creation of small words:
 {{{
     Empty word
 
-        sage: %timeit Word()
-        100000 loops, best of 3: 7.94 µs per loop
         sage: %timeit wold.Word()
         10000 loops, best of 3: 52.4 µs per loop
+        sage: %timeit Word()
+        100000 loops, best of 3: 7.94 µs per loop
 
     from string
 
-        sage: %timeit Word("abbabaab")
-        100000 loops, best of 3: 13.4 µs per loop
         sage: %timeit wold.Word("abbabaab")
         10000 loops, best of 3: 72 µs per loop
+        sage: %timeit Word("abbabaab")
+        100000 loops, best of 3: 13.4 µs per loop
 
     from list
 
-        sage: %timeit Word([0,1,1,0,1,0,0,1])
-        100000 loops, best of 3: 11.9 µs per loop
         sage: %timeit wold.Word([0,1,1,0,1,0,0,1])
         10000 loops, best of 3: 68.6 µs per loop
+        sage: %timeit Word([0,1,1,0,1,0,0,1])
+        100000 loops, best of 3: 11.9 µs per loop
 
     converted to list
 
-        sage: %timeit Word("01101001", datatype="list")
-        100000 loops, best of 3: 14.4 µs per loop
         sage: %timeit wold.Word("01101001") # already converts to a 'list'
         10000 loops, best of 3: 70.9 µs per loop
+        sage: %timeit Word("01101001", datatype="list")
+        100000 loops, best of 3: 14.4 µs per loop
 
     from tuple
 
-        sage: %timeit Word((0,1,1,0,1,0,0,1)))
-        100000 loops, best of 3: 12.2 µs per loop
         sage: %timeit wold.Word((0,1,1,0,1,0,0,1), alphabet=(0,1))
         10000 loops, best of 3: 65.8 µs per loop
+        sage: %timeit Word((0,1,1,0,1,0,0,1)))
+        100000 loops, best of 3: 12.2 µs per loop
 
     from iterator
 
         sage: from itertools import count
-        sage: %timeit Words(alphabet='natural numbers')(count())  # includes checks
-        10000 loops, best of 3: 147 µs per loop
         sage: %timeit wold.Words(alphabet='natural numbers')(count()) # no checks
         10000 loops, best of 3: 60.9 µs per loop
+        sage: %timeit Words(alphabet='natural numbers')(count())  # includes checks
+        10000 loops, best of 3: 147 µs per loop
 
     from callable
 
         sage: f = lambda n : add(Integer(n).digits(2)) % 2
 
-        sage: %timeit Word(f) # includes checks
-        1000 loops, best of 3: 587 µs per loop
         sage: %timeit wold.Word(f, alphabet=[0,1]) # no checks
         10000 loops, best of 3: 62.1 µs per loop
+        sage: %timeit Word(f) # includes checks
+        1000 loops, best of 3: 587 µs per loop
 
-        sage: %timeit Word(f, length=8) # includes checks
-        10000 loops, best of 3: 128 µs per loop
         sage: %timeit wold.Word(f, alphabet=[0,1])[:8] # no checks
         10000 loops, best of 3: 103 µs per loop
+        sage: %timeit Word(f, length=8) # includes checks
+        10000 loops, best of 3: 128 µs per loop
 
     from a string and with a parent
 
-        sage: %timeit Word("abbabaab", alphabet="abc")
-        10000 loops, best of 3: 27.9 µs per loop
         sage: %timeit wold.Word("abbabaab", alphabet="abc")
         10000 loops, best of 3: 66.7 µs per loop
+        sage: %timeit Word("abbabaab", alphabet="abc")
+        10000 loops, best of 3: 27.9 µs per loop
 }}}
 
 Creation of large words:
@@ -189,30 +189,30 @@ Creation of large words:
         sage: t = words.ThueMorseWord()
         sage: w = list(t[:1000000])
 
-        sage: %timeit Word(w)
-        10000 loops, best of 3: 23.4 µs per loop
         sage: %timeit wold.Word(w)
         10 loops, best of 3: 819 ms per loop
+        sage: %timeit Word(w)
+        10000 loops, best of 3: 23.4 µs per loop
 
-        sage: %timeit Words([0,1])(w)
-        10000 loops, best of 3: 86.6 µs per loop
         sage: %timeit wold.Words([0,1])(w)
         10 loops, best of 3: 836 ms per loop
+        sage: %timeit Words([0,1])(w)
+        10000 loops, best of 3: 86.6 µs per loop
 
     from a string
 
         sage: t = words.ThueMorseWord()
         sage: u = ''.join(map,(str,list(t[:1000000])))
 
-        sage: %timeit Word(u)
-        10000 loops, best of 3: 25 µs per loop
         sage: %timeit wold.Word(u)
         10 loops, best of 3: 840 ms per loop
+        sage: %timeit Word(u)
+        10000 loops, best of 3: 25 µs per loop
 
-        sage: %timeit Words('01')(u)
-        10000 loops, best of 3: 87.5 µs per loop
         sage: %timeit wold.Words('01')(u)
         10 loops, best of 3: 861 ms per loop
+        sage: %timeit Words('01')(u)
+        10000 loops, best of 3: 87.5 µs per loop
 
     from list, converted to string datatype
 
@@ -235,30 +235,33 @@ Accessing letters
 
     from list
 
-        sage: w = Word(l)
         sage: u = wold.Word(l)
-        sage: %timeit w[95827]
-        1000000 loops, best of 3: 238 ns per loop
         sage: %timeit u[95827]
         100000 loops, best of 3: 8.37 µs per loop
 
+        sage: w = Word(l)
+        sage: %timeit w[95827]
+        1000000 loops, best of 3: 238 ns per loop
+
     from tuple
 
-        sage: w = Word(t)
         sage: u = wold.Word(t, alphabet=(0,1))
-        sage: %timeit w[95827]
-        1000000 loops, best of 3: 232 ns per loop
         sage: %timeit u[95827]
         100000 loops, best of 3: 8.66 µs per loop
 
+        sage: w = Word(t)
+        sage: %timeit w[95827]
+        1000000 loops, best of 3: 232 ns per loop
+
     from string
 
-        sage: w = Word(s)
         sage: u = wold.Word(s)
-        sage: %timeit w[95827]
-        1000000 loops, best of 3: 233 ns per loop
         sage: %timeit u[95827]
         100000 loops, best of 3: 8.33 µs per loop
+
+        sage: w = Word(s)
+        sage: %timeit w[95827]
+        1000000 loops, best of 3: 233 ns per loop
 }}}
 
 Counting occurrences of letters
@@ -266,23 +269,25 @@ Counting occurrences of letters
 {{{
     from string
 
-        sage: w = Word(s)
         sage: u = wold.Word(s)
-        sage: %timeit w.count('0')
-        1000 loops, best of 3: 1.41 ms per loop
         sage: time u.count('0')
         CPU times: user 59.69 s, sys: 0.03 s, total: 59.72 s
         Wall time: 59.97 s
 
+        sage: w = Word(s)
+        sage: %timeit w.count('0')
+        1000 loops, best of 3: 1.41 ms per loop
+
     from list
 
-        sage: w = Word(l)
         sage: u = wold.Word(l)
-        sage: %timeit w.count(0)
-        100 loops, best of 3: 16.9 ms per loop
         sage: time u.count(0)
         CPU times: user 59.45 s, sys: 0.28 s, total: 59.73 s
         Wall time: 60.51 s
+
+        sage: w = Word(l)
+        sage: %timeit w.count(0)
+        100 loops, best of 3: 16.9 ms per loop
 }}}
 
 
@@ -293,12 +298,13 @@ Critical exponent...
 
     from list
 
-	sage: w = Word(l)
 	sage: u = wold.Word(l)
 	sage: time u.critical_exponent()
 	CPU times: user 1.11 s, sys: 0.00 s, total: 1.11 s
 	Wall time: 1.11 s
 	20
+
+	sage: w = Word(l)
 	sage: time w.critical_exponent()
 	CPU times: user 0.26 s, sys: 0.00 s, total: 0.26 s
 	Wall time: 0.27 s
@@ -496,7 +502,7 @@ The following got worse (why?)!! :
 	'b'
 }}}
 
-Equality testing (this could be improved by adding __eq__ and __ne__ to the datatypes.):
+Equality testing (this could be improved by adding {{{__eq__}}} and {{{__ne__}}} to the datatypes.):
 
 {{{
         sage: fibo = words.FibonacciWord()
