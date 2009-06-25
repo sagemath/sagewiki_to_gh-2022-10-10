@@ -32,6 +32,9 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 == Graph Theory ==
 
 
+ * FIXME: summarize #6085
+
+
 == Graphics ==
 
 
@@ -72,6 +75,9 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
 
 == Packages ==
+
+
+ * FIXME: summarize #6359
 
 
 == P-adics ==
