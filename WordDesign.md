@@ -109,7 +109,7 @@ DONE by Franco :
 
 [Note that if you run the old tests, then you will see lots of errors. What I did was to go through each error and decide whether it was really an error. If it was, then it got fixed. Some of the old tests break because the new representation is different than the old one. Some doctests that test internal functions break as well, but that is okay since they are internal functions that are not available to the user.]"
 
-=== 5. Performance testing ===
+=== 5. Performance testing (done) ===
 
 We should compare the timing between the new and old code. Note that the old code has been moved to {{{sage/combinat/words_old}}} while the new is in {{{sage/combinat/words}}}. This allow to make comparison testing by using the old code by adding {{{wold.}}} in front of functions.
 
