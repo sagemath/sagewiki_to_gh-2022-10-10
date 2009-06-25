@@ -460,9 +460,11 @@ Actually, they do not commute with generalized permutations patches because of s
 
 Actually, the words_ng patches creates the empty repository sage/combinat/words_ng.
 
-=== 9. Fold all the patches together!! ===
+=== 9. Add equality testing for datatypes (or later?) ===
 
-=== 10. Create a ticket on the sage trac ===
+=== 10. Fold all the patches together!! ===
+
+=== 11. Create a ticket on the sage trac ===
 
 = Discussions made at Orsay =
 
