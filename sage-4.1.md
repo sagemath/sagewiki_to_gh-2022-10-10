@@ -26,6 +26,12 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 == Commutative Algebra ==
 
 
+== Cryptography ==
+
+
+ * FIXME: summarize #6164
+
+
 == Geometry ==
 
 
@@ -36,6 +42,9 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
 
 == Graphics ==
+
+
+ * FIXME: summarize #6162
 
 
 == Group Theory ==
@@ -57,6 +66,8 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
 
  * FIXME: summarize #3084
+
+ * FIXME: summarize #6097
 
 
 == Modular Forms ==
