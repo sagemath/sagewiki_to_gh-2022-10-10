@@ -131,11 +131,9 @@ Change/improve the slow column swap in PLUQ factorization
  * We moved from PLUQ to LQUP because it requires less column swaps.
 
 {{attachment:m4ri-pluq-sparse-ish.png}}
-
 {{attachment:m4ri-dense-10.png}}
 {{attachment:m4ri-dense-20.png}}
 {{attachment:m4ri-dense-30.png}}
-
 
 == LinBox wrappers ==
 
@@ -154,9 +152,11 @@ PEOPLE: David Loeffler, rlmiller, wstein, dkohel, haluk, michael
 
   PEOPLE: wstein, dloeffler, hamish, michael
 
-== SAge notebook security ==
+== Sage notebook security ==
 
   PEOPLE: Yoav, malb
+
+ We had some nice design discussions.
 
 == Texmacs --> Sage Worksheet converter ==
   PEOPLE: Offray
