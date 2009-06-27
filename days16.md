@@ -88,7 +88,7 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 || 16:00-- ||Coding Sprint // Status Report ||||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Saturday, June 26||
 ||||||FME||
-|| 10:30-- || Coding Sprint wrapup ||||
+|| 10:30-- || Coding Sprint wrapup [[http://wstein.org/edu/2009/sd16/00039.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00040.m4v|video part 2]]  [[http://wstein.org/edu/2009/sd16/00041.m4v|video part 3]] ||||
 
 
 == Organizers ==
