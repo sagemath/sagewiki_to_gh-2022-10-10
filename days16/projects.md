@@ -74,14 +74,9 @@ PEOPLE: Bjarke Hammersholt Roune
 
   Help is welcome, especially for writing a Cython interface to Frobby.
 
-
----- /!\ '''Edit conflict - other version:''' ----
 A Cython interface to Frobby was written and submitted to track along with an spkg. A preexisting command-line based interface to 4ti2 by Mike Hansen that was floating around was improved and submitted to trac. This allowed the easy implementation of the Frobenius number computation, while time ran out on coding the genus, though this should not be too hard to do.
 
 
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
 == PolyBoRi and Singular ==
 
 PEOPLE: Martin Albrecht, Burcin Erocal
