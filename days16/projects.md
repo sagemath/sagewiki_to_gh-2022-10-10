@@ -122,11 +122,20 @@ Merge the `PrimitiveFunction` and `SFunction` classes in `sage.symbolic.function
 
 == M4RI: improvement of PLUQ factorization ==
 
-Change/improve the slow columnswap in PLUQ factorization
-
 PEOPLE: Martin Albrecht, Clément Pernet
 
+Change/improve the slow column swap in PLUQ factorization
+
+ * We improved the PLUQ/LQUP base case by using up to four tables now instead of only two.
+ * We improved the implementation for various column swaps and permutation matrix multiplications.
+ * We moved from PLUQ to LQUP because it requires less column swaps.
+
 {{attachment:m4ri-pluq-sparse-ish.png}}
+
+{{attachment:m4ri-dense-10.png}}
+{{attachment:m4ri-dense-20.png}}
+{{attachment:m4ri-dense-30.png}}
+
 
 == LinBox wrappers ==
 
