@@ -19,6 +19,9 @@ Sage Days 16 will take place on June 22--27, 2009, the week after [[http://www.i
  * Participants list (open): http://groups.google.com/group/sagedays16
  * Organizers list (closed): http://groups.google.com/group/sagedays16-org
 
+== Pictures ==
+ * [[http://wstein.org/pics/new/20090627-barcelona_sage_days16/|William Stein's Pictures]]
+
 == Schedule ==
 
 All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by re-encoding HD video to "iPhone" video using Handbrake.  Each video file is at most 200mb, and will play fine with [[http://www.videolan.org/vlc/|VLC]] (and on the iPhone, of course). 
