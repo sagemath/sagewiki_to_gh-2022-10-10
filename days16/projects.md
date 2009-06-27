@@ -74,8 +74,14 @@ PEOPLE: Bjarke Hammersholt Roune
 
   Help is welcome, especially for writing a Cython interface to Frobby.
 
+
+---- /!\ '''Edit conflict - other version:''' ----
 A Cython interface to Frobby was written and submitted to track along with an spkg. A preexisting command-line based interface to 4ti2 by Mike Hansen that was floating around was improved and submitted to trac. This allowed the easy implementation of the Frobenius number computation, while time ran out on coding the genus, though this should not be too hard to do.
 
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 == PolyBoRi and Singular ==
 
 PEOPLE: Martin Albrecht, Burcin Erocal
@@ -143,7 +149,16 @@ Change/improve the slow column swap in PLUQ factorization
 
 == LinBox wrappers ==
 
-Rewrite LinBox wrappers using C++ wrappers of Cython directly
+    * Change LinBox wrappers -> new spkg
+    * New classes `matrix_modn_dense_double`, `matrix_modn_dense_float`
+    * bindings still under construction
+
+Timings:
+Multiplying 3000x3000 matrices over GF(101)
+Sage proper implementation (default):   30.24s
+Old LinBox wrappers (using double):      5.93s
+New LinBox wrappers: (using double):     5.3s
+New LinBox wrappers: (using float        3.52s
 
 PEOPLE: Burcin Erocal, Clément Pernet, rlmiller, malb
 
