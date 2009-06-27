@@ -60,6 +60,8 @@ I plan on at least copying the Python implementation on wikipedia, since now we 
 
  * http://en.wikipedia.org/wiki/Ford-Fulkerson_algorithm
 
+There were several algorithms created - Edmonds-Karp (tom, michal), Push-Relabel (from wikipedia - brian - now optimizing the code), Dinic (tom - performs better on dense graph, needs? improvement), Malhotra, Pramodh Kumar, and Maheshwari's (MPM - michal - not yet finished) and some general framework (tom still? working on it)
+
 == Frobenius number and genus of numerical semigroups using toric Grobner bases ==
 
 PEOPLE: Bjarke Hammersholt Roune, wouter
