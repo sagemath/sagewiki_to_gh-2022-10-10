@@ -150,10 +150,10 @@ Change/improve the slow column swap in PLUQ factorization
 
 Timings:
 Multiplying 3000x3000 matrices over GF(101)
-Sage proper implementation (default):   30.24s
-Old LinBox wrappers (using double):      5.93s
-New LinBox wrappers: (using double):     5.3s
-New LinBox wrappers: (using float        3.52s
+  * Sage proper implementation (default):   30.24s
+  * Old LinBox wrappers (using double):      5.93s
+  * New LinBox wrappers: (using double):     5.3s
+  * New LinBox wrappers: (using float        3.52s
 
 PEOPLE: Burcin Erocal, Clément Pernet, rlmiller, malb
 
