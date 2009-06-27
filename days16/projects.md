@@ -130,7 +130,7 @@ Change/improve the slow column swap in PLUQ factorization
  * We improved the implementation for various column swaps and permutation matrix multiplications.
  * We moved from PLUQ to LQUP because it requires less column swaps.
 
-{{attachment:lqup-vs-pluq.png}}}
+{{attachment:lqup-vs-pluq.png}}
 
 {{attachment:m4ri-pluq-sparse-ish.png}}
 {{attachment:m4ri-dense-10.png}}
