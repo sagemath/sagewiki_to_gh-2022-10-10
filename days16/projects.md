@@ -101,6 +101,7 @@ PEOPLE: clement, wstein, burcin, rlmiller, dloeffler, sebastian, brian
 
    * CRT in rings/arith.py is unsanely slow
    * !MultimodularBasis class is broken
+    patch available at [[http://trac.sagemath.org/sage_trac/ticket/5133|issue 5133]] on trac
 
 Fix / Unify code / optimize the hell out of it
 
@@ -146,6 +147,7 @@ Change/improve the slow column swap in PLUQ factorization
 
     * Change LinBox wrappers -> new spkg
     * New classes `matrix_modn_dense_double`, `matrix_modn_dense_float`
+      [[http://sage.math.washington.edu/home/burcin/linbox_interface.patch|patch available on sage.math]]
     * bindings still under construction
 
 Timings:
