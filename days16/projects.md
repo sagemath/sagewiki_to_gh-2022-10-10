@@ -126,7 +126,7 @@ Change/improve the slow columnswap in PLUQ factorization
 
 PEOPLE: Martin Albrecht, Clément Pernet
 
-[[attachment:m4ri-pluq-sparse-ish.png]]
+{{attachment:m4ri-pluq-sparse-ish.png}}
 
 == LinBox wrappers ==
 
