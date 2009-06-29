@@ -9,6 +9,7 @@ Matplotlib is included with Sage, and emulates Matlab plotting functionality. By
 
 We're going to reinstall two packages automatically in sage. At any stage in the installation, you can test matplotlib by trying "sage -ipython -pylab" and running something like {{{x=randn(1000); hist(x)}}}.
 
+ 1. Add the following line to your $HOME/.matplotlib/matplotlibrc (or create it if necessary): "backend : TkAgg". If "sage -ipython -pylab" still won't show you your plot, go to the next step.
  1. Make sure you have the SAGE_ROOT environment variable set. Otherwise, enter your Sage top-level or sage/local/bin/.
  1. Start "sage -python" and make sure "import _tkinter" and "import Tkinter" don't work. If they do, skip the next step.
  1. The Python shipped in Sage is not compiled with Tk support. Assuming you have the Tk development libraries installed somewhere in your Linux(*), run the following: "sage -f -i python-2_XXX" where you replace the last word with the latest python package included with sage: search http://sagemath.org/packages/standard/ for "python" to find out which it is. This will recompile Sage's Python (may take a few minutes).
