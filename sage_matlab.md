@@ -11,10 +11,11 @@ We're going to reinstall two packages automatically in sage. At any stage in the
 
  1. Make sure you have the SAGE_ROOT environment variable set. Otherwise, enter your Sage top-level or sage/local/bin/.
  1. Start "sage -python" and make sure "import _tkinter" and "import Tkinter" don't work. If they do, skip the next step.
- 1. The Python shipped in Sage is not compiled with Tk support. Assuming you have the Tk development libraries installed somewhere in your Linux, run the following: "sage -f -i python-2_XXX" where you replace the last word with the latest python package included with sage: search http://sagemath.org/packages/standard/ for "python" to find out which it is. This will recompile Sage's Python (may take a few minutes).
+ 1. The Python shipped in Sage is not compiled with Tk support. Assuming you have the Tk development libraries installed somewhere in your Linux(*), run the following: "sage -f -i python-2_XXX" where you replace the last word with the latest python package included with sage: search http://sagemath.org/packages/standard/ for "python" to find out which it is. This will recompile Sage's Python (may take a few minutes).
  1. Try "sage -ipython -pylab" and plot something. If everything is fine, then skip the rest of these steps. If it isn't, Sage will complain it cannot import _tkagg. 
- 1. Export SAGE_MATPLOTLIB_GUI to anything but no, e.g., "export SAGE_MATPLOTLIB_GUI='tk'".
+ 1. Export SAGE_MATPLOTLIB_GUI to anything but no, e.g., "export SAGE_MATPLOTLIB_GUI='hello momma'".
  1. Recompile matplotlib with: "sage -f -i matplotlib-0.98_XXX" where again you get the latest matplotlib package name from http://sagemath.org/packages/standard/.
+(*) To make sure your Linux has at least Tcl installed, make sure "tclsh" starts and gives you a prompt.
 
 Now, if you start "sage -ipython -pylab" and try {{{x=randn(1000); hist(x)}}}, a beautiful Tk plot should pop up. You have your standard zoom and pan. You can run {{{xlabel('signal (mV)')}}} and the window will automatically update.
 
