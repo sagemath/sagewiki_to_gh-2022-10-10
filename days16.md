@@ -21,6 +21,7 @@ Sage Days 16 will take place on June 22--27, 2009, the week after [[http://www.i
 
 == Pictures ==
  * [[http://wstein.org/pics/new/20090627-barcelona_sage_days16/|William Stein's Pictures]]
+ * [[http://www.flickr.com/photos/39977365@N02/sets/72157620625048159/|Yoav Aner's Pictures]]
 
 == Schedule ==
 
