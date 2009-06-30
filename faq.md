@@ -119,8 +119,15 @@ press down arrow key, then the next line in history is fetched. This feature all
 === Type issues using scipy, cvxopt or numpy from Sage ===
 
  * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
- * ANSWER: Redefine RealNumber and/or Integer to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, and integer literals are Python ints.  For example:
+ * ANSWER: When you type in numbers into Sage, the pre-processor converts them to a base ring, which you can see by doing: 
  {{{
+sage: preparse('stats.uniform(0,15).ppf([0.5,0.7])')
+"stats.uniform(Integer(0),Integer(15)).ppf([RealNumber('0.5'),RealNumber('0.7')])"
+}}}
+Unfortunately, Numpy support of these advanced Sage types like Integer or RealNumber is not yet at 100%. 
+
+As a solution, redefine RealNumber and/or Integer to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, and integer literals are Python ints.  For example:
+{{{
 sage: RealNumber=float; Integer=int
 sage: from scipy import stats
 sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
@@ -128,12 +135,20 @@ sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
 sage: stats.uniform(0,15).ppf([0.5,0.7])
 array([  7.5,  10.5])
 }}}
-  Alternatively, be explicit about data types, e.g.
+
+Alternatively, be explicit about data types, e.g.
 {{{
 sage: stats.uniform(int(0),int(15)).ppf([float(0.5),float(0.7)])
 array([  7.5,  10.5])
 }}}
 
+As a third alternative, use the raw suffix:
+{{{
+sage: stats.uniform(0r,15r).ppf([0.5r,0.7r])
+array([  7.5,  10.5])
+}}}
+
+Disabling the preprocessor is also achievable in code by {{{preparse(False)}}}. One may start IPython alone from the command line ("sage -ipython") which does not pre-load anything Sage-specific; or switching the Notebook language to "python".
 
 === How do I save an object so I don't have to compute it each time I open a worksheet? ===
 The {{{save}}} and {{{load}}} commands will save and load an object, respectively.  In the notebook, the {{{DATA}}} variable is the location of the data storage area of the worksheet.  To save the object {{{my_stuff}}} in a worksheet, you could do {{{save(my_stuff, DATA+"my_stuff")}}} and to reload it, you would just do {{{my_stuff = load(DATA+"my_stuff")}}}
