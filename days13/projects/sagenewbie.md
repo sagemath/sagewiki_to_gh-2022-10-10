@@ -13,7 +13,7 @@
 
           * 1.2. Sage as a Smart Calculator [[attachment:basics.smart_calculator_0.5.sws]]
 
-          * 1.3. Basic 2D plotting with Sage [[attachment:Ploting_with_Sage_v1.0.1]] by Jose Guzman
+          * 1.3. Basic 2D plotting with Sage [[attachment:Ploting_with_Sage_v1.0.1.sws]] by Jose Guzman
 
           * 1.4. Sage Devel Basics [Erik, Aly] [[attachment:dev_for_newbies.html]]-this needs to be restified., [[attachment: development_for_newbies.sws]]
 
