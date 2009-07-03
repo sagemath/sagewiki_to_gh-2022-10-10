@@ -39,6 +39,7 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
 
  * FIXME: summarize #6085
+ * FIXME: summarize #6258
 
 
 == Graphics ==
@@ -60,6 +61,7 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
 
  * FIXME: summarize #6261
+ * FIXME: summarize #5882
 
 
 == Miscellaneous ==
@@ -83,12 +85,26 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
 
  * FIXME: summarize #6273
+ * FIXME: summarize #5854
 
 
 == Packages ==
 
 
  * FIXME: summarize #6359
+ * FIXME: summarize #6196
+ * FIXME: summarize #6276
+ * FIXME: summarize #5517
+ * FIXME: summarize #5854
+ * FIXME: summarize #5866
+ * FIXME: summarize #5867
+ * FIXME: summarize #5868
+ * FIXME: summarize #5869
+ * FIXME: summarize #5870
+ * FIXME: summarize #5872
+ * FIXME: summarize #5874
+ * FIXME: summarize #5875
+ * FIXME: summarize #6281
 
 
 == P-adics ==
