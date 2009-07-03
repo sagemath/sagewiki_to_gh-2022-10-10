@@ -53,7 +53,9 @@ I also created `nb2`, `nb3`, `nb4`, and `nb5`. I don't know how many you really 
 
 == Running the server ==
 
-Download Sage to the VM and install it; I unpacked the tarball into `/opt`. Create a directory for the notebook files -- this must be outside `sageadm`'s dot-sage directory; I used `~/nbfiles`. Change the permissions so it's group-writable by the `sageusers` group. Now run the server with `directory='/home/sageadm/nbfiles'`, an appropriate `server_pool`, and so on. I've attached the actual script I use to start the notebook: [[attachment:start_notebook.sage]].
+Download Sage to the VM and install it; I unpacked the tarball into `/opt`. Create a directory for the notebook files -- this must be outside `sageadm`'s dot-sage directory; I used `~/nbfiles`. Change the permissions so it's group-writable by the `sageusers` group, and flip the setgid bit: do {{{chown sageadm:sageusers nbfiles}}}, then {{{chmod 2775 nbfiles}}}. ([[http://en.wikipedia.org/wiki/Setuid#setgid_on_directories|Some information on the setgid bit]].)
+
+Now run the server with `directory='/home/sageadm/nbfiles'`, an appropriate `server_pool`, and so on. I've attached the actual script I use to start the notebook: [[attachment:start_notebook.sage]].
 
 == Security notes ==
 
