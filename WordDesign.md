@@ -572,19 +572,45 @@ In the new code, many functions are faster without an ordered alphabet :
 	100 loops, best of 3: 2.59 ms per loop
 }}}
 
-=== 6. Remove the repository sage/combinat/words_old ===
+=== 6. Remove or move some files. ===
 
-Right now, many files in {{{sage/combinat}}} still depend on {{{sage/combinat/words_old}}}. This must me changed to the new code.
+The following two files are currently added by the words_ng patch:
 
-=== 7. Make the words_ng patches commutable in the sage-combinat tree ===
+{{{
+A sage/combinat/words/setup.py
+A sage/combinat/words/translator.py
+}}}
 
-Actually, they do not commute with generalized permutations patches because of small conflicts in the setup.py file.
+I think the translator could be deleted. For the setup.py, I wonder if its content should not be moved to the usual setup.py file of sage....
 
-=== 8. Add equality testing for datatypes (to be done later) ===
+=== 7. Remove the dependencies to the repository sage/combinat/words_old ===
 
-=== 9 Fold all the patches together!! (done) ===
+Right now, many files in {{{sage/combinat}}} still depend on {{{sage/combinat/words_old}}}. For example, the following ones :
 
-=== 10. Create a ticket on the sage trac ===
+{{{
+M sage/combinat/integer_vector_weighted.py
+M sage/combinat/lyndon_word.py
+M sage/combinat/ribbon.py
+M sage/combinat/ribbon_tableau.py
+M sage/combinat/set_partition_ordered.py
+M sage/combinat/sf/ns_macdonald.py
+M sage/combinat/skew_tableau.py
+M sage/combinat/tableau.py
+}}}
+
+This must me changed to the new code.
+
+=== 8. Remove the repository sage/combinat/words_old ===
+
+=== 9. Make the words_ng patches commutable in the sage-combinat tree ===
+
+Actually, the words_ng patch doesn't apply cleanly on a untouched version sage (there are small conflicts). Moreover, it is possible that the other sage-combinat patches don't apply cleanly over words_ng patch due for example to small conflict in the {{{setup.py}}} file.
+
+=== 10. Add equality testing for datatypes (to be done later) ===
+
+=== 11. Fold all the patches together!! (done) ===
+
+=== 12. Create a ticket on the sage trac ===
 
 = Discussions made at Orsay =
 
