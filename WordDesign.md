@@ -600,15 +600,15 @@ M sage/combinat/tableau.py
 
 This must me changed to the new code.
 
-=== 8. Remove the repository sage/combinat/words_old ===
-
-=== 9. Make the words_ng patches commutable in the sage-combinat tree ===
+=== 8. Make the words_ng patches commutable in the sage-combinat tree ===
 
 Actually, the words_ng patch doesn't apply cleanly on a untouched version sage (there are small conflicts). Moreover, it is possible that the other sage-combinat patches don't apply cleanly over words_ng patch due for example to small conflict in the {{{setup.py}}} file.
 
-=== 10. Add equality testing for datatypes (to be done later) ===
+=== 9. Add equality testing for datatypes (to be done later) ===
 
-=== 11. Fold all the patches together!! (done) ===
+=== 10. Fold all the patches together!! (done) ===
+
+=== 11. Remove the repository sage/combinat/words_old ===
 
 === 12. Create a ticket on the sage trac ===
 
