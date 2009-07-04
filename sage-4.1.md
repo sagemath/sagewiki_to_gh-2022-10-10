@@ -8,6 +8,9 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 == Algebra ==
 
 
+ * FIXME: summarize #6362
+
+
 == Algebraic Geometry ==
 
 
@@ -15,6 +18,9 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
 
 == Basic Arithmetic ==
+
+
+ * FIXME: summarize #6083
 
 
 == Combinatorics ==
@@ -71,6 +77,8 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
  * FIXME: summarize #6097
 
+ * FIXME: summarize #6417
+
 
 == Modular Forms ==
 
@@ -86,6 +94,13 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
  * FIXME: summarize #6273
  * FIXME: summarize #5854
+ * FIXME: summarize #6386
+
+
+== Numerical ==
+
+
+ * FIXME: summarize #6200
 
 
 == Packages ==
@@ -114,6 +129,9 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
 
 == Symbolics ==
+
+
+ * FIXME: summarize #6421
 
 
 == Topology ==
