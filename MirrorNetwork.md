@@ -19,6 +19,9 @@ where {{{$TARGET}}} should be replaced by your local target directory.
  1. {{{-v}}} (or {{{-vv}}}, {{{-vvv}}}) verbosity level, for the lovely logs
  1. {{{--delete-after}}} tells rsync to delete files that are not on the master ''after'' the synchronization has finished. There are also other versions of {{{--delete*}}} that can be used to delete older files earlier or during the process, but it's best if files stay on the mirror as long as possible.
 
+=== rsync master ===
+It's dead simple to setup an rsync master server. In Ubuntu/Debian, you have to install rsync and then edit the rsync config file {{{/etc/rsyncd.conf}}}. The inet deamon calls the rsync process if someone wants to connect. 
+
 == Periodic Checks ==
 
 At least twice a day, a mirror should check if there are updates on the master. Most of the time there is nothing to do, so it quits fast and nothing happens. If there is a new release, the synchronization starts and it might take some time. Here I describe two techniques, how to avoid concurrent calls of the rsync task in case it takes a bit longer. I use a setup where the mirror checks on every full hour and only runs as one instance.
