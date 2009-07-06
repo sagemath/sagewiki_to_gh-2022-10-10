@@ -47,3 +47,28 @@ flock -xn ./mirror_sagemath.lock rsync ....
 
 It might happen that the debian package linux-utils (that holds flock) is not installed. I found a [[http://stackoverflow.com/questions/185451/quick-and-dirty-way-to-ensure-only-one-instance-of-a-shell-script-is-running-at-a|nice workaround at stackoverflow]]. This is how I use it:
 
+$ cat rsync_sagemath
+
+# rsyncs from sage.math.washington.edu using it's rsync daemon
+# for automated use, remove the "vv" and "progress" switches
+
+# locking mechanism from http://stackoverflow.com/questions/185451/quick-and-dirty-way-to-ensure-only-one-instance-of-a-shell-script-is-running-at-a
+# since flock is not installed :(
+
+cd
+
+LOCKFILE=./rsync_sagemath.lock
+
+if [ -e ${LOCKFILE} ] && kill -0 `cat ${LOCKFILE}`; then
+    echo "rsync_sagemath already running ... exit"
+    exit
+fi
+
+# make sure the lockfile is removed when we exit and then claim it
+trap "rm -f ${LOCKFILE}; exit" INT TERM EXIT
+echo $$ > ${LOCKFILE}
+
+# actual work
+rsync -av --delete-after --partial sage.math.washington.edu::sage /home/<username>/sage/
+
+rm -f ${LOCKFILE}
