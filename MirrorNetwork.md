@@ -13,11 +13,11 @@ To synchronize with Sage's master, you can use this command:
 {{{
 rsync -av --delete-after sage.math.washington.edu::sage $TARGET
 }}}
-where $TARGET should be replaced by your local target directory.
+where {{{$TARGET}}} should be replaced by your local target directory.
 
  1. {{{-a}}} switches to archive mode (same timestamp, ...)
  1. {{{-v}}} (or {{{-vv}}}, {{{-vvv}}}) verbosity level, for the lovely logs
- 1. --delete-after tells rsync to delete files that are not on the master '''after''' the synchronization has finished. There are also other versions of --delete* that can be used to delete older files earlier or during the process.
+ 1. {{{--delete-after}}} tells rsync to delete files that are not on the master ''after'' the synchronization has finished. There are also other versions of {{{--delete*}}} that can be used to delete older files earlier or during the process, but it's best if files stay on the mirror as long as possible.
 
 == Periodic Checks ==
 
@@ -26,6 +26,7 @@ At least twice a day, a mirror should check if there are updates on the master. 
 === crontab ===
 
 [[http://linux.die.net/man/1/crontab|crontab]] is a nice system daemon, that does periodic task scheduling in linux. As a regular user, run '''crontab -e''' in a terminal to start the crontab editor. A line like
+
 {{{
 0 * * * * "/home/<username>/rsync_sagemath" 2> /home/<username>/rsync_sagemath.errors > /dev/null
 }}}
