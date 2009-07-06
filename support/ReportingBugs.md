@@ -2,7 +2,7 @@
 
 Any and all bug reports are greatly appreciated!!!!  
 
-The Sage developers very much want to know about every single bug in Sage, no matter how small.  We already know about hundreds of bugs, which are [[http://trac.sagemath.org/sage_trac/|all listed here on trac]], so you may want to search trac before reporting a bug.  However, if you can't be bothered to search trac but found a bug, it can't hurt to report it.   When a known bug is reported repeatedly, that will raise people's interest in trying to fix it.
+The Sage developers very much want to know about every single bug in Sage, no matter how small.  We already know about many bugs, which are [[http://trac.sagemath.org/sage_trac/|all listed here on trac]], so you may want to search trac before reporting a bug.  However, if you can't be bothered to search trac but found a bug, it can't hurt to report it.   When a known bug is reported repeatedly, that will raise people's interest in trying to fix it.
 
 == Reporting Bugs Via The Notebook ==
 
@@ -15,3 +15,7 @@ Join [[http://groups.google.com/group/sage-support|sage-support]] and send us an
 == Reporting Bugs Via Trac ==
 
 Get a trac account [[http://trac.sagemath.org/sage_trac/|all listed here on trac]], then click on New Ticket.   This is generally meant for people who are more involved with the Sage project.   First time bug reports are best sent to the sage-support list, so they can be "filtered" by more experienced Sage developers, and so workarounds can be posted, when possible. 
+
+== Third-Party Packages ==
+
+Sometimes a package such as numpy/scipy/maxima, etc. included in Sage itself has a bug in it.  We want to know about these too, but you may also want to report the bug to the mailing lists for those projects.
