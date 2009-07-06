@@ -16,7 +16,7 @@ When you send a bug report, please tell us as much as you possibly can about exa
 
 == Reporting Bugs Via Trac ==
 
-Get a trac account [[http://trac.sagemath.org/sage_trac/|all listed here on trac]], then click on New Ticket.   This is generally meant for people who are more involved with the Sage project.   First time bug reports are best sent to the sage-support list, so they can be "filtered" by more experienced Sage developers, and so workarounds can be posted, when possible. 
+Get a trac account [[http://trac.sagemath.org/sage_trac/|all listed here on trac]], then click on New Ticket.   This is generally meant for people who are more involved with the Sage project.   First time bug reports are best sent to [[http://groups.google.com/group/sage-support|sage-support]], so they can be "filtered" by more experienced Sage developers, and so workarounds can be posted, when possible. 
 
 == Third-Party Packages ==
 
