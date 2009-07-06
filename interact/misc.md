@@ -4,6 +4,48 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
+== Hearing a trigonometric identity ==
+by Marshall Hampton
+
+{{{
+import wave
+
+class SoundFile:
+   def  __init__(self, signal,lab=''):
+       self.file = wave.open('./test' + lab + '.wav', 'wb')
+       self.signal = signal
+       self.sr = 44100
+
+   def write(self):
+       self.file.setparams((1, 2, self.sr, 44100*4, 'NONE', 'noncompressed'))
+       self.file.writeframes(self.signal)
+       self.file.close()
+
+mypi = float(pi)
+from math import sin
+
+@interact
+def sinsound(freq_ratio =  slider(0,1,1/144,1/12)):
+    hz1 = 440.0
+    hz2 = float(440.0*2^freq_ratio)
+    html('$\cos(\omega t) - \cos(\omega_0 t) = 2 \sin(\\frac{\omega + \omega_0}{2}t) \sin(\\frac{\omega - \omega_0}{2}t)$')
+    s2 = [sin(hz1*x*mypi*2)+sin(hz2*x*mypi*2) for x in srange(0,4,1/44100.0)]
+    s2m = max(s2)
+    s2f = [16384*x/s2m for x in s2]
+    s2str = ''
+    for x in s2f:
+        s2str += wave.struct.pack('h',x)
+    lab=str(float(freq_ratio))
+    f = SoundFile(s2str,lab=lab)
+    f.write()
+    pnum = 1500+int(500/freq_ratio)
+    show(list_plot(s2[0:pnum],plotjoined=True))
+    html('<embed src="https:./test'+ lab +'.wav" width="200" height="100"></embed>')
+    html('Frequencies: '+ '$\omega_0 = ' + str(hz1) + ' $, $\omega = '+latex(hz2) + '$')
+}}}
+{{attachment:sinsound.png}}
+
+
 == An Interactive Venn Diagram ==
 
 {{{
