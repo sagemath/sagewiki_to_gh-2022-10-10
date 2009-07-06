@@ -5,7 +5,7 @@ goto [[interact|interact main page]]
 <<TableOfContents>>
 
 == Hearing a trigonometric identity ==
-by Marshall Hampton
+by Marshall Hampton.  When the two frequencies are well seperated, we hear the right hand side of the identity.  When they start getting close, we hear the higher-pitched factor in the left-hand side modulated by the lower-pitched envelope.
 
 {{{
 import wave
