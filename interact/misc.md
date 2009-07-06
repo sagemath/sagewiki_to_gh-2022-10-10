@@ -35,7 +35,7 @@ def sinsound(freq_ratio =  slider(0,1,1/144,1/12)):
     s2str = ''
     for x in s2f:
         s2str += wave.struct.pack('h',x)
-    lab=str(float(freq_ratio))
+    lab="%1.2f"%float(freq_ratio)
     f = SoundFile(s2str,lab=lab)
     f.write()
     pnum = 1500+int(500/freq_ratio)
