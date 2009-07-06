@@ -67,7 +67,7 @@ sage -f python-2.5.2.p8
 }}}
 This will pick up the tcl/tk library automatically. If
  
-{{{#!python numbers=off
+{{{#!python numbers=none
 sage: import _tkinter
 sage: import Tkinter
 }}}
@@ -83,7 +83,7 @@ to a user's `.sage` directory), it has to be created by someone with the appropr
 
 So if you're seeing something like this:
 
-{{{#!python numbers=off
+{{{#!python numbers=none
 Traceback (most recent call last):
   File "/usr/local/sage-4.0.2/local/bin/sage-location", line 174, in <module>
     t, R = install_moved()
@@ -120,14 +120,14 @@ press down arrow key, then the next line in history is fetched. This feature all
 
  * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
  * ANSWER: When you type in numbers into Sage, the pre-processor converts them to a base ring, which you can see by doing: 
- {{{#!python numbers=off
+ {{{#!python numbers=none
 sage: preparse('stats.uniform(0,15).ppf([0.5,0.7])')
 "stats.uniform(Integer(0),Integer(15)).ppf([RealNumber('0.5'),RealNumber('0.7')])"
 }}}
 Unfortunately, Numpy support of these advanced Sage types like Integer or RealNumber is not yet at 100%. 
 
 As a solution, redefine RealNumber and/or Integer to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, and integer literals are Python ints.  For example:
-{{{#!python numbers=off
+{{{#!python numbers=none
 sage: RealNumber=float; Integer=int
 sage: from scipy import stats
 sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
@@ -137,13 +137,13 @@ array([  7.5,  10.5])
 }}}
 
 Alternatively, be explicit about data types, e.g.
-{{{#!python numbers=off
+{{{#!python numbers=none
 sage: stats.uniform(int(0),int(15)).ppf([float(0.5),float(0.7)])
 array([  7.5,  10.5])
 }}}
 
 As a third alternative, use the raw suffix:
-{{{#!python numbers=off
+{{{#!python numbers=none
 sage: stats.uniform(0r,15r).ppf([0.5r,0.7r])
 array([  7.5,  10.5])
 }}}
@@ -301,7 +301,7 @@ respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
  Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
 
 If you do need to escape to a shell, you can run the following from inside sage (untested):
-{{{#!python numbers=off
+{{{#!python numbers=none
 import os
 os.execp('sh')
 }}}
