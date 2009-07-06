@@ -25,11 +25,11 @@ At least twice a day, a mirror should check if there are updates on the master. 
 
 === crontab ===
 
-'''crontab''' is a nice system daemon, that does periodic task scheduling in linux. As a regular user, run '''crontab -e''' in a terminal to start the crontab editor. A line like
+[[http://linux.die.net/man/1/crontab|crontab]] is a nice system daemon, that does periodic task scheduling in linux. As a regular user, run '''crontab -e''' in a terminal to start the crontab editor. A line like
 
 0 * * * * "/home/<username>/rsync_sagemath" 2> /home/<username>/rsync_sagemath.errors > /dev/null
 
-calls the rsync_sagemath script every time the minutes in the computer clock are "00". Something like "0 */2 * * * " does it every second hour when the minutes are "00" and so on. Read the man page for more information. The part after that just says that errors should be written into a specific file and everything else should be written nowhere. 
+calls the rsync_sagemath script every time the minutes in the computer clock are "00". Something like "0 */2 * * * " does it every second hour when the minutes are "00", "0 1,9,19 * * * " at full hours 1am, 9am and 7pm, ... Read the [[http://linux.die.net/man/1/crontab|man page]] for more information. The part after that just says that errors should be written into a specific file and everything else should be written nowhere. 
 
 A nice addition would be to write the output of the rsync task to a temporary file that is copied into the mirror as a hidden file. Then, the operators of the master server can check, if there were problems with that mirror server!
 
@@ -59,7 +59,7 @@ cd
 
 LOCKFILE=./rsync_sagemath.lock
 
-if [ -e ${LOCKFILE} ] && kill -0 `cat ${LOCKFILE}`; then
+if [ -e ${LOCKFILE} ] \&\& kill -0 `cat ${LOCKFILE}`; then
     echo "rsync_sagemath already running ... exit"
     exit
 fi
