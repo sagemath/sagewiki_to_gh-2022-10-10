@@ -3,7 +3,7 @@
 These pictures and images were drawn by [[http://www.sagemath.org|Sage]].
 
  * Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway):
-{{{
+{{{#!python numbers=off
 p = Graphics()
 for n in range(1,20):
   f = lambda x: sum([sin(x*3^i)/(2^i) for i in range(1,n)])
@@ -16,7 +16,7 @@ p.show(xmin=0, ymin=0,dpi=250)
 
 === Mirrored balls in tachyon ===
 
-{{{
+{{{#!python numbers=off
 t = Tachyon(camera_center=(8.5,5,5.5), look_at=(2,0,0), raydepth=6, xres=1500, yres=1500)
 t.light((10,3,4), 1, (1,1,1))
 t.texture('mirror', ambient=0.05, diffuse=0.05, specular=.9, opacity=0.9, color=(.8,.8,.8))
@@ -33,7 +33,7 @@ show(t)
 [[http://sage.math.washington.edu/home/wdj/art/balls-mirrored-sage-tachyon1a.png|cool ray tracing pic]]
 
 === Math art by Tom Boothby ===
-{{{
+{{{#!python numbers=off
 # Author: Tom Boothby
 # This is a remake of an old art piece I made in POVRay
 
@@ -60,7 +60,7 @@ t.show(verbose=1)
 [[http://sage.math.washington.edu/home/wdj/art/boothby-tachyon1.png|cool pic 2]]
 
 === Twisted cubic in tachyon ===
-{{{
+{{{#!python numbers=off
 t = Tachyon(xres=512,yres=512, camera_center=(5,0,0))
 t.light((4,3,2), 0.2, (1,1,1))
 t.texture('t0', ambient=0.1, diffuse=0.9, specular=0.5, opacity=1.0, color=(1.0,0,0))
@@ -77,7 +77,7 @@ t.show()
 [[http://sage.math.washington.edu/home/wdj/art/boothby-tachyon2.png|cool pic 3]]
 
 === Reflections from four spheres in tachyon ===
-{{{
+{{{#!python numbers=off
 t6 = Tachyon(camera_center=(0,-4,1), xres = 800, yres = 600, raydepth = 12, aspectratio=.75, antialiasing = True)
 t6.light((0.02,0.012,0.001), 0.01, (1,0,0))
 t6.light((0,0,10), 0.01, (0,0,1))
@@ -94,7 +94,7 @@ t6.show()
 [[attachment:fourspheres.png]]
 
 === A cone inside a sphere ===
-{{{
+{{{#!python numbers=off
 sage: u,v = var("u,v")
 sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3*v/2-1/3], (u, 0, 2*pi), (v, 0, 0.95),plot_points=[20,20])
 sage: p2 = sphere((0,0,2/3), color='red', opacity=0.5, aspect_ratio=[1,1,1])
@@ -104,7 +104,7 @@ sage: show(p1+p2)
 {{http://sage.math.washington.edu/home/wdj/art/cone-inside-sphere.jpg}}
 
 === A cylinder inside a cone ===
-{{{
+{{{#!python numbers=off
 sage: u,v = var("u,v")
 sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3/2-3*v/2], (u, 0, 2*pi), (v, 0, 1.5), opacity = 0.5, plot_points=[20,20])
 sage: p2 = parametric_plot3d([cos(u)/2, sin(u)/2, v-3/4], (u, 0, 2*pi), (v, 0, 3/2), plot_points=[20,20])
@@ -143,14 +143,14 @@ Hypotrochoid. Written by Dean Moore, February 2008
  The parametric equations that define a hypotrochoid follow; the parameter     
  is *t*; for hypotrochoid we have R, r, d > 0, R > r > 0:                      
              
-{{{                                                                  
+{{{#!python numbers=off
  x-coordinate: x = (R - r)*cos(t) + d*cos(((R - r)/r)*t)                       
  y-coordinate: y = (R - r)*sin(t) - d*sin(((R - r)/r)*t)                       
 }}}
                                                                             
  For a epitrochoid, the equations are:                                         
 
-{{{                                                                               
+{{{#!python numbers=off
  x = (R + r)*cos(t) - d*cos(((R + r)/r)*t)                                                          
  y = (R + r)*sin(t) - d*sin(((R + r)/r)*t)                                     
 }}}                                                                            
@@ -206,7 +206,7 @@ is for the future.
 Program commences:
 
 
-{{{
+{{{#!python numbers=off
 #*****************************************************************************
 #       Copyright (C) 2007 Dean Moore < dino@boulder.net >
 #
@@ -284,7 +284,7 @@ limit =  ceil(2*circle2PI/step)    # Loop about circle this many times, by *step
 First: I use the same trig functions, over an over again.  Why re-invent the
 wheel & waste computer time? Put the needed trig functions in arrays & "recycle" them as needed.
 
-{{{
+{{{#!python numbers=off
 sin1 = [ 0 for i in range(limit) ] # First
 sin2 = [ 0 for i in range(limit) ] # define
 cos1 = [ 0 for i in range(limit) ] # arrays, ...
@@ -330,7 +330,7 @@ terminal point comes from the parametric equation of a hypotrochoid (top).
   ** The parameter *pointAtPen* makes a point where the end of the bar draws the figure, 
 of the same color as the final curve.  Note it is at the same point as the terminal point of the "bar."
 
-{{{
+{{{#!python numbers=off
 fixedCircle     = animate([circle(origin, R,          # Centered at origin, radius *R*.
                            rgbcolor=colorOfFixedCircle,
                            thickness = thicknessOfFixedCircle)
@@ -427,7 +427,7 @@ We've shown the final image; done with program.
 
 The following animates a hypotrochoid much to the same effect as the previous script, but much more concisely.
 
-{{{
+{{{#!python numbers=off
 import operator
 
 # The colors for various elements of the plot:
@@ -536,7 +536,7 @@ animation.show(delay=animation_delay)
 
 This is the code:
 
-{{{
+{{{#!python numbers=off
 sage: P1 = Zp(3).plot(rgbcolor=(0,1,0))
 sage: P2 = Zp(7).plot(rgbcolor=(1,0,0))
 sage: P3 = text("$Seasons$ $Greetings$ ",(0.0,1.8))
@@ -546,7 +546,7 @@ sage: (P1+P2+P3+P4).show(axes=False)
 
 === Lorentz butterfly ===
 
-{{{
+{{{#!python numbers=off
 """
 Draws Loretz butterfly using matplotlib (2d) or jmol (3d).
 Written by Matthew Miller and William Stein.
@@ -601,7 +601,7 @@ def butterfly3d():
 {{http://sage.math.washington.edu/home/wdj/art/butterfly3d.png}}
 
 === "three famous plots of chaos" by Pablo Angulo ===
-{{{
+{{{#!python numbers=off
 # Author: Pablo Angulo
 
 Posted to sage-devel 2008-09-13. See also https://sage.math.washington.edu:8101/home/pub/3
@@ -675,7 +675,7 @@ matrix_plot(m)
 
  * This was a black+white Sierpinski triangle coded by Marshall Hampton, with some slight tweeking by David Joyner to add colors:
 
-{{{
+{{{#!python numbers=off
 def sierpinski_seasons_greetings():
     """
     Code by Marshall Hampton.
