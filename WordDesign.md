@@ -63,35 +63,30 @@ create a word from X in Y.parent(); and if that fails, then it raises an
 error. We don't have to raise an error: we could always return a word with
 parent Words_all."
 
-=== 2. Add doctests ===
+=== 2. Add doctests (done) ===
 
 A bunch of stuff is missing doctests.
 
-Here is the coverage in date of June 25th:
+Here is the coverage in date of July 7:
 
 {{{
-~/sage-4.0/devel/sage-combinat/sage/combinat/words$ sage -coverage .
 alphabet.py: 100% (27 of 27)
 morphism.py: 100% (35 of 35)
 shuffle_product.py: 100% (14 of 14)
 suffix_trees.py: 100% (47 of 47)
-word.py: 100% (150 of 150)
-word_datatypes.pyx: 0% (0 of 61)
+word.py: 100% (152 of 152)
+word_datatypes.pyx: 76% (45 of 59)
 word_generators.py: 100% (20 of 20)
-word_infinite_datatypes.py: 81% (18 of 22)
+word_infinite_datatypes.py: 100% (18 of 18)
 word_options.py: 100% (1 of 1)
 words.py: 100% (38 of 38)
 
-Overall weighted coverage score:  84.3%
-Total number of functions:  415
-We need    2 more function to get to 85% coverage.
-We need   23 more function to get to 90% coverage.
-We need   44 more function to get to 95% coverage.
+Overall weighted coverage score:  96.6%
+Total number of functions:  411
+We need   10 more function to get to 99% coverage.
 }}}
 
-{{{word_infinite_datatypes.py}}} : Four concatenation functions introduced by Franco are still missing documentation and doctests.
-
-{{{word_datatypes.pyx}}} : There are already many doctest inside of this file but they are not seen by the coverage script. I think that this problem is related to http://trac.sagemath.org/sage_trac/ticket/1795 which has a patch but still needs work.
+Everything but {{{word_datatypes.pyx}}} is at 100%, but the fact that this is not at 100% is an illusion. The coverage script does not detect the doctest inside pyx files correctly. I think that this problem is related to http://trac.sagemath.org/sage_trac/ticket/1795 which has a patch but still needs work.
 
 === 3. ReST the documentation (done) ===
 
@@ -572,7 +567,7 @@ In the new code, many functions are faster without an ordered alphabet :
 	100 loops, best of 3: 2.59 ms per loop
 }}}
 
-=== 6. Remove or move some files. ===
+=== 6. Remove or move some files (done) ===
 
 The following two files are currently added by the words_ng patch:
 
@@ -583,7 +578,9 @@ A sage/combinat/words/translator.py
 
 I think the translator could be deleted. For the setup.py, I wonder if its content should not be moved to the usual setup.py file of sage....
 
-=== 7. Remove the dependencies to the repository sage/combinat/words_old ===
+Neither was necessary, I deleted them. --Franco
+
+=== 7. Remove the dependencies to the repository sage/combinat/words_old (done) ===
 
 Right now, many files in {{{sage/combinat}}} still depend on {{{sage/combinat/words_old}}}. For example, the following ones :
 
@@ -600,17 +597,19 @@ M sage/combinat/tableau.py
 
 This must me changed to the new code.
 
-=== 8. Make the words_ng patches commutable in the sage-combinat tree ===
+=== 8. Make the words_ng patches commutable in the sage-combinat tree (done) ===
 
 Actually, the words_ng patch doesn't apply cleanly on a untouched version sage (there are small conflicts). Moreover, it is possible that the other sage-combinat patches don't apply cleanly over words_ng patch due for example to small conflict in the {{{setup.py}}} file.
 
 === 9. Add equality testing for datatypes (to be done later) ===
 
-=== 10. Fold all the patches together!! (done) ===
+=== 10. Remove the repository sage/combinat/words_old (done) ===
 
-=== 11. Remove the repository sage/combinat/words_old ===
+=== 11. Fold all the patches together!! (waiting for review) ===
 
-=== 12. Create a ticket on the sage trac ===
+=== 12. Rebase to the latest version of sage (incorporating any changes made to the current code in Sage while we were developing) ===
+
+=== 13. Create a ticket on the sage trac ===
 
 = Discussions made at Orsay =
 
