@@ -1,6 +1,6 @@
 = How to Report Bugs in Sage =
 
-Any and all bug reports are greatly appreciated!!!!  
+Any and all bug reports are greatly appreciated!
 
 The Sage developers very much want to know about every single bug in Sage, no matter how small.  We already know about many bugs, which are [[http://trac.sagemath.org/sage_trac/|all listed here on trac]], so you may want to search trac before reporting a bug.  However, if you can't be bothered to search trac but found a bug, it can't hurt to report it.   When a known bug is reported repeatedly, that will raise people's interest in trying to fix it.
 
