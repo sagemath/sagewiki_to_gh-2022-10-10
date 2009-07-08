@@ -120,6 +120,7 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
  * FIXME: summarize #5874
  * FIXME: summarize #5875
  * FIXME: summarize #6281
+ * FIXME: summarize #6470
 
 
 == P-adics ==
