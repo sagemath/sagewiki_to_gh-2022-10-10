@@ -47,6 +47,7 @@ You must install the VMWare software (the free VMWare Player should work).  Simp
 
 === How do I run Sage in Windows? ===
 Windows is currently supported via the VMWare image, so see the instructions for running Sage under VMWare.
+See [[windows]] for information on efforts to make a native port of Sage to Windows.
 
 === How do I run a parallel build? ===
 {{{export MAKE="make -j8"}}} will enable 8 threads for parts of the build that support parallelism.
