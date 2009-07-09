@@ -4,8 +4,35 @@ Sage-Combinat is a software project whose mission statement is: '''to improve th
 
 In practice, Sage-combinat is a collection of experimental patches (i.e. extensions) on top of [[http://www.sagemath.org/|Sage]], developed by a community of researchers. The intent is that most of those patches get eventually integrated into sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
 
+----
+
+== Installation instructions ==
+
+Short instructions:
+
+ 1. To install the experimental patches provided by Sage-combinat, you first need to install Sage.
+    1. Download the source code archive for the latest version [[http://sagemath.org/download-source.html]].
+    1. Extract the archive (change the version number appropriately):
+        {{{
+tar -xvf sage-4.1.tar
+}}}
+    1. Compile (this may take several hours):
+        {{{
+cd sage-4.1
+make
+}}}
+
+ 1. Install Sage-combinat:
+    {{{
+sage -combinat install
+    }}}
+
+Long instructions:
+
+ * See the [[http://wiki.sagemath.org/combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
 
 ----
+
 == NEWS ==
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]]
 
