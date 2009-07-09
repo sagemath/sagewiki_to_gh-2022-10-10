@@ -2,6 +2,8 @@
 
 This guide explains, how to download Sage from one of the [[http://www.sagemath.org/mirrors.html|download mirrors]]. You need to know your operating system and maybe some specific information.
 
+For more information on how to actually install Sage, please read on in the [[http://www.sagemath.org/doc/installation/|Installation Guide]].
+
 == Operating System ==
 
 The first thing you have to know is your [[http://en.wikipedia.org/wiki/Operating_System|operating system]]. When you computer boots, it probably displays a startup screen that tells it you. The second most important thing, if applicable, is your type of CPU: 32 bit, 64 bit, or something else like "atom" for netbooks.
