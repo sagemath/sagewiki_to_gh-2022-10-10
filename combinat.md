@@ -25,7 +25,9 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 ./sage -combinat install
     }}}
 (note: this may require Sage 4.1 which will be out shortly).
-If this step fails, please send an email to the {{{sage-combinat-devel}}} mailing list below with the error message.
+If this step fails, please send an email to the
+[[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]
+mailing list with the error message.
 
 === Long instructions ===
 
