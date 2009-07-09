@@ -24,7 +24,7 @@ make
 
  1. Install Sage-combinat:
     {{{
-sage -combinat install
+./sage -combinat install
     }}}
 
 Long instructions:
