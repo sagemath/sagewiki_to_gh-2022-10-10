@@ -10,17 +10,26 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 === Short instructions ===
 
- 1. To install the experimental patches provided by Sage-combinat, you first need to install Sage.
-    1. Download the source code archive for the latest version [[http://sagemath.org/download-source.html]].
-    1. Extract the archive (change the version number appropriately):
-        {{{
+ 1. To install the experimental patches provided by Sage-combinat, you first need to install Sage. You have two options.
+
+    * Binary installation (takes less time; only option on Windows; only works if a binary exists for your system):
+
+        1. Download a binary distribution from [[http://sagemath.org/download.html]] and follow the installation instructions on that page.
+
+    * Source installation (recommended, but time-consuming; works for Linux and OSX as long as you have a compilier):
+
+        1. Download the source code archive for the latest version [[http://sagemath.org/download-source.html]].
+        1. Extract the archive (change the version number appropriately):
+            {{{
 tar -xvf sage-4.1.tar
 }}}
-    1. Compile (this may take several hours):
-        {{{
+        1. Compile (this may take several hours):
+            {{{
 cd sage-4.1
 make
 }}}
+
+    See [[http://sagemath.org/download-source.html]] for more detailed installation instructions.
 
  1. Install Sage-combinat:
     {{{
