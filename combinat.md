@@ -24,12 +24,12 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
     {{{
 ./sage -combinat install
     }}}
-Note: this requires Sage 4.1 which will be out shortly.
-If this step fails, then send an email to the {{{sage-combinat-devel}}} mailing list below with the error message.
+(note: this may require Sage 4.1 which will be out shortly).
+If this step fails, please send an email to the {{{sage-combinat-devel}}} mailing list below with the error message.
 
 === Long instructions ===
 
- * See the [[http://wiki.sagemath.org/combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
+ * See the [[http://wiki.sagemath.org/combinat/MercurialStepByStep|Patch server Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
 
 ----
 
