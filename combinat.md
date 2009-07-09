@@ -20,10 +20,11 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
         * Download the source code from [[http://sagemath.org/download-source.html]] and follow the installation instructions on that page.
 
-'''Step 2.''' Install Sage-combinat:
+'''Step 2.''' Install Sage-combinat by running the following command ''inside the sage directory'':
     {{{
 ./sage -combinat install
     }}}
+If this step fails, then send an email to the {{{sage-combinat-devel}}} mailing list below with the error message.
 
 === Long instructions ===
 
