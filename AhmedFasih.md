@@ -3,6 +3,14 @@
 #language en
 == Ahmed Fasih Aldebran ==
 
+=== Personal ===
+I'm getting my PhD in electrical engineering at Ohio State University.
+ * Web 1.0 presence: http://ece.osu.edu/~fasiha
+ * Web 2.0 presence: http://sites.google.com/site/aldebrn/Research
+My academic research interests are in statistical signal processing and reconstruction, applied mathematics, and scientific computing. My personal research interests include my academic ones but also molecular evolutionary biology, Pyrrhonian skepticism and decision-making under natural uncertainty, business and management, and ancient literature.
+
+Although I use Sage regularly for my research, as of now, I have not contributed to the project beyond minor technical support on IRC and the mailing lists. I state this fact to spur me (via shame) into adding to the codebase.
+
 Email: <<MailTo(fasih.1 AT SPAMFREE osu DOT edu)>>
 
 === Sage stand-alone GUI versus web-based Notebook ===
