@@ -30,13 +30,13 @@ Here's a conversation that news of Google Chrome OS triggered, where William Ste
  * <wstein> The vast majority of webapps have exactly the problem you point out.
  * <wstein> I would like gmail a lot more if it had a 100% offline open source version that used IMAP (or something) to synchronize with a server.
  * <wstein> Oh well.
- * <aldebrn> Would it have been easier (time-wise, maintenance-wise) to write an internet-aware stand-alone Notebook that interfaced with a local/remote Sage, and did all kinds of cool display/visualization/programming things than relying on IE/Firefox/Chrome/Safari?
+ * '''<aldebrn> Would it have been easier (time-wise, maintenance-wise) to write an internet-aware stand-alone Notebook that interfaced with a local/remote Sage, and did all kinds of cool display/visualization/programming things than relying on IE/Firefox/Chrome/Safari?
  * <aldebrn> Stand-alone as in, an executable app that you downloaded and connected to sagenb.org or localhost:8000
  * <wstein> aldebrn -- definitely not.
  * <wstein> It would have been vastly harder to write a standalone app.
  * <aldebrn> Ok I'll take your word for it
  * <wstein> I've put a grand total of just over 6 weeks fulltime work on the notebook, since it started.
- * <wstein> And I did most of the work.
+ * <wstein> And I did most of the work.'''
  * <wstein> Try developing that sophisticated of a GUI app that has a native look on OS X, Linux, and Windows, and interfaces with a network server in that
  * <wstein> amount of time.  I think it is not possible.
  * <aldebrn> Incredible, and that's inclusive of all the great tab-completion, AJAX action, etc.?
@@ -54,9 +54,9 @@ Here's a conversation that news of Google Chrome OS triggered, where William Ste
  * <aldebrn> No I understand. That's a very valuable piece of insight, it should be somewhere on the wiki
  * <wstein> But the total time wasn't very much.
  * <wstein> I'm not at all opposed to having a traditional GUI interface.  It's just that it's too hard to do given limited time.
- * <aldebrn> I thought that getting it all to work well in IE/Firefox/etc. would take much longer than writing a GUI interface
+ * '''<aldebrn> I thought that getting it all to work well in IE/Firefox/etc. would take much longer than writing a GUI interface
  * <wstein> Well it takes time, but it is *easy to parallelize*.
- * <wstein> E.g., for getting the notebook to work with IE, I just asked Tom Boothby to work on it, and he spent one week and did it (for pay).
+ * <wstein> E.g., for getting the notebook to work with IE, I just asked Tom Boothby to work on it, and he spent one week and did it (for pay).'''
  * <wstein> wxmaxima seems to have been improved a bit since when I looked at it 3 years ago (when the sage notebook project started); I'll have to try out the new version..
  * <aldebrn> Especially when I started using the HTML cells in the Notebook to annotate my code
  * <wstein> aldebrn -- last summer at ISSAC the directory of development at Maple gave a talk about the new features in Maple 11.
