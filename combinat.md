@@ -20,11 +20,11 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
         * Download the source code from [[http://sagemath.org/download-source.html]] and follow the installation instructions on that page.
 
-'''Step 2.''' Install the Sage-Combinat patches by running the following command ''inside the sage directory'':
+'''Step 2.''' If you really need the latest features: install the Sage-Combinat patches by running the following command ''inside the sage directory'':
     {{{
 ./sage -combinat install
     }}}
-(note: this may require Sage 4.1 which will be out shortly).
+This works best with the latest version of Sage (4.1 as of 06/10/2009).
 If this step fails, please send an email to the
 [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]
 mailing list with the error message.
@@ -91,7 +91,7 @@ mailing list with the error message.
 
  * For the curious: [[http://wiki.sagemath.org/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
 
- * For hg lovers: [[http://hgbook.red-bean.com/read/|Mercurial: The Definite Guide]] an e-book by Bryan O'Sullivan
+ * For hg/mercurial lovers: [[http://hgbook.red-bean.com/read/|Mercurial: The Definite Guide]] an e-book by Bryan O'Sullivan
 
  * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]]
    To check them out, use {{{hg clone http://combinat.sagemath.org/misc/ Sage-Combinat-misc-file}}}. This will create a subdirectory {{{Sage-Combinat-misc-file}}} in the current directory; you can use any other name for this subdirectory.
