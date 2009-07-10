@@ -25,8 +25,107 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
 
 == Combinatorics ==
 
+ 1. '''Irreducible matrix representations of symmetric groups (Ticket #5878)'''. FrancoSaliola, based on the [[http://www-igm.univ-mlv.fr/~al|Alain Lascoux]] article 
+ [[http://phalanstere.univ-mlv.fr/~al/ARTICLES/ProcCrac.ps.gz|Young representations of the symmetric group]], 
+ added support for constructing irreducible representations of the symmetric group.
 
- * FIXME: summarize #5878
+ Three types of representations have been implemented.
+
+    * '''Specht representations'''. The matrices have integer entries.
+    {{{
+sage: chi = SymmetricGroupRepresentation([3,2])
+Specht representation of the symmetric group corresponding to [3, 2]
+
+sage: chi([5,4,3,2,1])
+[ 1 -1  0  1  0]
+[ 0  0 -1  0  1]
+[ 0  0  0 -1  1]
+[ 0  1 -1 -1  1]
+[ 0  1  0 -1  1]
+}}}
+
+    * '''Young's seminormal representation'''. The matrices have rational entries.
+    {{{
+sage: snorm = SymmetricGroupRepresentation([2,1], "seminormal")
+sage: snorm
+Seminormal representation of the symmetric group corresponding to [2, 1]
+
+sage: snorm([1,3,2])
+[-1/2  3/2]
+[ 1/2  1/2]
+}}}
+
+    * '''Young's orthogonal representation''' (the matrices are orthogonal). These matrices are defined over Sage's {{{Symbolic Ring}}}.
+    {{{
+sage: ortho = SymmetricGroupRepresentation([3,2], "orthogonal")
+sage: ortho
+Orthogonal representation of the symmetric group corresponding to [3, 2]
+
+sage: ortho([1,3,2,4,5])
+[          1           0           0           0           0]
+[          0        -1/2 1/2*sqrt(3)           0           0]
+[          0 1/2*sqrt(3)         1/2           0           0]
+[          0           0           0        -1/2 1/2*sqrt(3)]
+[          0           0           0 1/2*sqrt(3)         1/2]
+}}}
+
+ One can also create the {{{CombinatorialClass}}} of all irreducible matrix representations of a given symmetric group.
+ Then particular representations can be created by providing partitions. For example:
+    {{{
+sage: chi = SymmetricGroupRepresentations(5)
+sage: chi
+Specht representations of the symmetric group of order 5! over Integer Ring
+
+sage: chi([5]) # the trivial representation
+Specht representation of the symmetric group corresponding to [5]
+sage: chi([5])([2,1,3,4,5])
+[1]
+
+sage: chi([1,1,1,1,1]) # the sign representation
+Specht representation of the symmetric group corresponding to [1, 1, 1, 1, 1]
+sage: chi([1,1,1,1,1])([2,1,3,4,5])
+[-1]
+
+sage: chi([3,2])
+Specht representation of the symmetric group corresponding to [3, 2]
+sage: chi([3,2])([5,4,3,2,1])
+[ 1 -1  0  1  0]
+[ 0  0 -1  0  1]
+[ 0  0  0 -1  1]
+[ 0  1 -1 -1  1]
+[ 0  1  0 -1  1]
+}}}
+
+ See the documentation {{{SymmetricGroupRepresentation?}}} and
+ {{{SymmetricGroupRepresentations?}}} for more information and examples.
+
+ 1. '''Yang-Baxter Graphs (Ticket #5878)'''.
+ Ticket #5878 (irreducible matrix representations of the symmetric group) also
+ introduced support for Yang-Baxter graphs. Besides being used for constructing
+ those representations, they can also be used to construct the Cayley graph
+ of a finite group:
+    {{{
+sage: def left_multiplication_by(g):
+...       return lambda h : h*g
+
+sage: G = AlternatingGroup(4)
+sage: operators = [ left_multiplication_by(gen) for gen in G.gens() ]
+sage: Y = YangBaxterGraph(root=G.identity(), operators=operators); Y
+Yang-Baxter graph with root vertex ()
+sage: Y.plot(edge_labels=False)
+}}}
+
+ and to construct the permutahedron:
+    {{{
+sage: from sage.combinat.yang_baxter_graph import SwapIncreasingOperator
+sage: operators = [SwapIncreasingOperator(i) for i in range(3)]
+sage: Y = YangBaxterGraph(root=(1,2,3,4), operators=operators); Y
+Yang-Baxter graph with root vertex (1, 2, 3, 4)
+sage: Y.plot()
+}}}
+
+ See the documentation {{{YangBaxterGraph?}}} for more information and
+ examples.
 
 
 == Commutative Algebra ==
