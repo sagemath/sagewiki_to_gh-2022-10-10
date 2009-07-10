@@ -62,7 +62,6 @@ Here's a conversation that news of Google Chrome OS triggered, where William Ste
  * <wstein> aldebrn -- last summer at ISSAC the directory of development at Maple gave a talk about the new features in Maple 11.
  * <wstein> One of the "major new features" was that tables could have colored backgrounds.
  * <wstein> That's the sort of thing that just comes for free to the sage notebook.
- * <wstein> aldebrn -- we should really have a mode in the notebook where it catches all NameError exceptions and auto-defines the variables, then reruns the code.
  * <aldebrn> So skills in webapp development is definitely important, ok, I'll brush up my JS/Ajax. If Sage Notebook had zoom-pan-trace features for the plots it generated, it'd be just about as useable as the Matlab GUI
  * <wstein> aldebrn -- we could add such plotting very nicely with Geogebra or maybe FLOT.
  * <wstein> Geogebra wold be the java way, and FLOT the javascript way.
