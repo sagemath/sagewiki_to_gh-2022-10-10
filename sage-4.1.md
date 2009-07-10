@@ -143,8 +143,69 @@ sage: Y.plot()
 == Graph Theory ==
 
 
- * FIXME: summarize #6085
- * FIXME: summarize #6258
+  1. FIXME: summarize #6085
+
+
+  1.  '''Improve accuracy of graph eigenvalues  (Ticket #6258)''', Rob Beezer.  New routines compute eigenvalues and eigenvectors of integer matrices more precisely than before.  Rather than convert adjacency matrices of graphs to computations over the reals or complexes, this patch retains adjacency matrices as matrices over the integers, yielding more accurate and informative results for eigenvalues, eigenvectors, and eigenspaces.
+
+    *  Examples follow for a circuit on 8 vertices:
+    {{{
+g = graphs.CycleGraph(8)
+    }}}
+
+    *  Integer eigenvalues are exact, irrational eigenvalues are more precise, making multiplicities easier to determine.
+    {{{
+sage: g.spectrum()
+
+[2, 1.414213562373095?, 1.414213562373095?, 0, 0, -1.414213562373095?, -1.414213562373095?, -2]
+    }}}
+
+    *  Similar comments apply to eigenvectors.
+    {{{
+sage: g.eigenvectors()
+
+[(2, [
+(1, 1, 1, 1, 1, 1, 1, 1)
+], 1),
+ (-2, [
+(1, -1, 1, -1, 1, -1, 1, -1)
+], 1),
+ (0, [
+(1, 0, -1, 0, 1, 0, -1, 0),
+(0, 1, 0, -1, 0, 1, 0, -1)
+], 2),
+ (-1.414213562373095?,
+  [(1, 0, -1, 1.414213562373095?, -1, 0, 1, -1.414213562373095?),
+   (0, 1, -1.414213562373095?, 1, 0, -1, 1.414213562373095?, -1)],
+  2),
+ (1.414213562373095?,
+  [(1, 0, -1, -1.414213562373095?, -1, 0, 1, 1.414213562373095?),
+   (0, 1, 1.414213562373095?, 1, 0, -1, -1.414213562373095?, -1)],
+  2)]
+   }}}
+
+    *  Eigenspaces are exact, in that they can be expressed as vector spaces over number fields.  When the defining polynomial has several roots, the eigenspaces are not repeated.  Previously eigenspaces were "fractured" owing to slight computational differences in identical eigenvalues.  In concert with {{{eigenvectors()}}} this command illuminates the structure of a graph's eigenspaces more than purely numerical results.
+    {{{
+sage: g.eigenspaces()
+
+[
+(2, Vector space of degree 8 and dimension 1 over Rational Field
+User basis matrix:
+[1 1 1 1 1 1 1 1]),
+(-2, Vector space of degree 8 and dimension 1 over Rational Field
+User basis matrix:
+[ 1 -1  1 -1  1 -1  1 -1]),
+(0, Vector space of degree 8 and dimension 2 over Rational Field
+User basis matrix:
+[ 1  0 -1  0  1  0 -1  0]
+[ 0  1  0 -1  0  1  0 -1]),
+(a3, Vector space of degree 8 and dimension 2 over Number Field in a3 with defining polynomial x^2 - 2
+User basis matrix:
+[  1   0  -1 -a3  -1   0   1  a3]
+[  0   1  a3   1   0  -1 -a3  -1])
+    }}}
+
+    *  Complex eigenvalues (of digraphs) previously were missing their imaginary parts.  This bug has been fixed as part of this ticket.
 
 
 == Graphics ==
