@@ -6,7 +6,7 @@ For more information on how to actually install Sage, please refer to the [[http
 
 == Operating System ==
 
-The first thing you have to know is your [[http://en.wikipedia.org/wiki/Operating_System|operating system]]. When your computer boots, it probably displays a startup screen that indicates the name of your operating system. The second most important thing, if applicable, is your type of [[http://en.wikipedia.org/wiki/CPU|CPU]]: is it a 32-bit CPU, a 64-bit CPU, or something else like "atom" for netbooks?
+The first thing you have to know is your [[http://en.wikipedia.org/wiki/Operating_System|operating system]]. When your computer boots, it probably displays a startup screen that indicates the name of your operating system. The second most important thing, if applicable, is your type of [[http://en.wikipedia.org/wiki/CPU|CPU]]: is it a 32-bit CPU, a 64-bit CPU, or something else like "atom" for some netbooks?
 
  1. [[http://en.wikipedia.org/wiki/Microsoft_windows|Microsoft Windows]] -- If you are using Windows (whether XP or Vista), you need to get a [[http://en.wikipedia.org/wiki/VMware|VMware image]] for the [[http://www.vmware.com/products/player/|VMWare virtual machine player]]. The VMware player runs Sage inside a virtual computer, which is actually Linux, and you can interact with Sage through your web browser. From the VMware player window, you can also interact with Sage through the Sage command line interface. The VMware image can also be run on other platforms, provided that there are VMware players for those platforms.
 
