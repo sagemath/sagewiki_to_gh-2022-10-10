@@ -18,4 +18,4 @@ The first thing you have to know is your [[http://en.wikipedia.org/wiki/Operatin
 
 If you know how to select your binary, then proceed with downloading it from your nearest [[http://www.sagemath.org/mirrors.html|download mirror]]. After the binary has been successfully downloaded, extract that binary and you can then run Sage. It is possible to develop Sage with that binary.
 
-If you are unsure about your system or you wish to compile Sage by yourself, download the source distribution. It is an archive that contains a base system with compressed Sage packages, also known as SPKGs.
+If you are unsure about your system or you wish to compile Sage by yourself, download the source distribution. It is an archive that contains a base system with compressed Sage packages, also known as [[spkg|SPKGs]].
