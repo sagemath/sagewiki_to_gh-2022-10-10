@@ -14,8 +14,6 @@ Here's a conversation that news of Google Chrome OS triggered, where William Ste
  * <aldebrn> Something Alan Kay said influenced my attitude towards webapps: in the 50s, it was a big breakthrough to realize that one could ship code with data that knew how to work with it. The markup languages of the 80s to today represent a huge regression because we're back to shipping just data without any code, instead relying on the recipient's browser to interface with it
  * <Dcoder> amen
  * <aldebrn> Though I guess a modern day answer, Java VM, isn't that great (for various reasons)
- * <ncohen> ( sorry to interrupt, but do you know of to ask sage to look for libraries in another dir that local/lib ? )
- * <wstein> ncohen -- maybe you should look at what is done in module_list.py ?
  * <wstein> I personally like web apps.   I don't know if they are a regression or not.
  * <wstein> I just know there are a *lot* of "everyday people" out there who don't know anything about computers, but really like
  * <wstein> using webapps too.  A big plus is that collaboration and community features are much easier to implement.
@@ -33,7 +31,6 @@ Here's a conversation that news of Google Chrome OS triggered, where William Ste
  * <wstein> I would like gmail a lot more if it had a 100% offline open source version that used IMAP (or something) to synchronize with a server.
  * <wstein> Oh well.
  * <aldebrn> Would it have been easier (time-wise, maintenance-wise) to write an internet-aware stand-alone Notebook that interfaced with a local/remote Sage, and did all kinds of cool display/visualization/programming things than relying on IE/Firefox/Chrome/Safari?
- * <ncohen> wstein: I found arguments to add "include" directories ( -I ) bu nothing for -L
  * <aldebrn> Stand-alone as in, an executable app that you downloaded and connected to sagenb.org or localhost:8000
  * <wstein> aldebrn -- definitely not.
  * <wstein> It would have been vastly harder to write a standalone app.
@@ -59,9 +56,7 @@ Here's a conversation that news of Google Chrome OS triggered, where William Ste
  * <wstein> I'm not at all opposed to having a traditional GUI interface.  It's just that it's too hard to do given limited time.
  * <aldebrn> I thought that getting it all to work well in IE/Firefox/etc. would take much longer than writing a GUI interface
  * <wstein> Well it takes time, but it is *easy to parallelize*.
- * <ncohen> ( what would you look for if you get "ImportError: dynamic module does not define init function (initOsiSolver)" when you import a module you just built ? )
  * <wstein> E.g., for getting the notebook to work with IE, I just asked Tom Boothby to work on it, and he spent one week and did it (for pay).
- * <wstein> ncohen - I don't know.  I've seen that message before, but I can't remember at the moment what the fix is. 
  * <wstein> wxmaxima seems to have been improved a bit since when I looked at it 3 years ago (when the sage notebook project started); I'll have to try out the new version..
  * <aldebrn> Especially when I started using the HTML cells in the Notebook to annotate my code
  * <wstein> aldebrn -- last summer at ISSAC the directory of development at Maple gave a talk about the new features in Maple 11.
