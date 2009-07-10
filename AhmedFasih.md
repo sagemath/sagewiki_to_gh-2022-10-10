@@ -6,7 +6,7 @@
 Email: <<MailTo(fasih.1 AT SPAMFREE osu DOT edu)>>
 
 === Sage stand-alone GUI versus web-based Notebook ===
-Here's a conversation that news of Google Chrome OS triggered, where William Stein outlines his reasons for strongly preferring developing a web-based interface to Sage, rather than stand-alone graphical interfaces. 
+Here's a conversation that news of Google Chrome OS triggered, where William Stein outlines his reasons for strongly preferring developing a web-based interface for Sage, rather than stand-alone graphical interfaces. 
 
  * <aldebrn> I was somewhat put off by this line in the Google Chrome OS release: 'For application developers, the web is the platform' but then I remembered the intense Sage Notebook experience and now am optimistic
  * <wstein> the web is the platform -- drink the coolaide :-)
