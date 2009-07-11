@@ -2,9 +2,15 @@
 
 == 14, 15 et 16 juillet 2009 ==
 
+Local : ...
+
+Se veut accessible à tous...
+
+
+
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mardi le 14 juillet 2009||
 || 9:00 ||<-2> '''Arrivée des participants.''' ||
-||<|2> 10:30-11:30 ||<|2> Sébastien Labbé || [[http://wstein.org/talks/20090622-sagedays16-thematic/|'''Sage: Unifying Mathematical Software''']], [[http://wstein.org/edu/2009/sd16/00021-stein-unifying_open_source_math_software-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00022-stein-unifying_open_source_math_software-part2.m4v|video part 2]]||
+||<|2> 9:30-10:30 ||<|2> Sébastien Labbé || [[http://wstein.org/talks/20090622-sagedays16-thematic/|'''Sage: Unifying Mathematical Software''']], [[http://wstein.org/edu/2009/sd16/00021-stein-unifying_open_source_math_software-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00022-stein-unifying_open_source_math_software-part2.m4v|video part 2]]||
 || This will be an overview talk about Sage, which explains the history and motivation for the project, demos some key features of Sage, and discusses where we are going next. It will be accessible to people in all research areas and assumes no prior experience with Sage. ||
 || 11:30-12:00 || Coffee&nbsp;Break || ||
 ||<|2> 12:00-13:00 ||<|2> Henri&nbsp;Cohen || [[attachment:barcelona_cohen.pdf|'''Experimental methods in number theory and analysis''']] [[http://wstein.org/edu/2009/sd16/00023-cohen-experimental_methods-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00024-cohen-experimental_methods-part2.m4v|video part 2]] ||
@@ -14,50 +20,3 @@
 || 15:30-16:00 || Coffee&nbsp;Break || ||
 || 16:00-17:00 || Round&nbsp;Table [[http://wstein.org/edu/2009/sd16/00028-panel_discussion-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00029-panel_discussion-part2.m4v|video part 2]]|| ||
 ||||||FME||
-|| 18:45 || Leave from Residencia to UPC || ||
-|| 19:00-- || Coding&nbsp;Sprint Organization at UPC [[http://wstein.org/edu/2009/sd16/00031-introductions_by_conference_participants.m4v|video introductions]]|| ||
-||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, June 23||
-||||||FME||
-||<|2> 10:30-11:30 ||<|2> Jordi&nbsp;Guàrdia || [[attachment:guardia.pdf|'''New ideas for computing integral bases''']]  [[http://wstein.org/edu/2009/sd16/00031-jordi_guardia-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00032-jordi_guardia-part2.m4v|video part 2]]||
-|| The determination of the ring of integers of a number field is one of the main tasks of computational algebraic number theory. The use of higher Newton polygons provides a new insight into the problem, leading to a fast method to compute integral bases, discriminants and prime ideal factorization in number fields. ||
-|| 11:30-12:00 || Coffee&nbsp;Break ||||
-||<|2> 12:00-13:00 ||<|2> William&nbsp;Stein || [[http://wstein.org/talks/20090623-elliptic_curves/|'''How to use Sage to compute with Elliptic Curves''']]  [[http://wstein.org/edu/2009/sd16/00033-wstein-elliptic_curves-part1.m4v|video part 1]]  [[http://wstein.org/edu/2009/sd16/00034-wstein-elliptic_curves-part2.m4v|video part 2]]||
-|| I will explain how to use Sage to define elliptic curves over various fields, do arithmetic on them, and compute standard invariants. Then I'll talk about elliptic curves over finite fields, and how to count points and compute the group structure. Next, I'll talk about elliptic curves over number fields and Sage's implementation of Tate's algorithm. Finally, I'll discuss computing the invariants in the BSD conjecture for elliptic curves over QQ. ||
-|| 13:00-14:30 || Lunch || ||
-||<|2> 14:30-15:30 ||<|2> Clément&nbsp;Pernet & Majid&nbsp;Khonji || [[attachment:SD16_mkhonji_cpernet.pdf|'''Computing exactly with unsafe resources: fault tolerant exact linear algebra and cloud computing''']] [[http://wstein.org/edu/2009/sd16/00035-pernet-linear_algebra_part1.m4v|video part 1]]  [[http://wstein.org/edu/2009/sd16/00036-pernet-linear_algebra-part2.m4v|video part 2]]||
-|| In several ways, challenges in computational mathematics (including computational number theory, graph theory, cryptanalysis, ...) involve large linear algebra computations over Z or Q. Distributed, peer-to-peer or Cloud computing represents nowadays the best perspectives to access large and cheap computing power, but based on unreliable resources. Fault tolerant techniques are therefore developed in order to increase the confidence in the computations, or even to certify it. In the case of exact computations, the algebraic properties of the problems are well suited for the development of algorithm based fault tolerant protocols. In particular, the Chinese Remaindering Algorithm, offering an embarrassingly easy parallelization, can be adapted to work as an error correcting code and tolerate errors. We will present and demonstrate these algorithms and protocols in the case of a distributed computation of the determinant of a matrix over Z. ||
-||<|2> 15:30-16:30 ||<|2> Martin&nbsp;Albrecht || [[attachment:albrecht_sagedev.pdf|'''How to get started developing Sage''']]   [[http://wstein.org/edu/2009/sd16/00037-malb-how_to_be_sage_dev.m4v|video part 1]]    [[http://wstein.org/edu/2009/sd16/00038-malb-how_to_be_sage_dev.m4v|video part 2]]||
-|| In this talk, we will try to highlight a few interesting and relevant bits and pieces for getting into Sage development. We will give an overview of how Sage is structured and step through the Sage development process. The talk is meant to be fairly interactive with people asking questions etc. ||
-|| Free&nbsp;evening || Sant Joan festivity ||||
-||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday, June 24||
-||||||FME||
-||<|2> 13:00-14:00 ||<|2> William&nbsp;Stein || [[http://wstein.org/talks/20090624-sagedays16-modform/|'''Modular forms and modular abelian varieties in Sage''']] [[http://wstein.org/edu/2009/sd16/wstein-modular_forms-part1.m4v|video part 1]]   [[http://wstein.org/edu/2009/sd16/wstein-modular_forms-part2.m4v|video part 2]]||
-|| I will survey the capabilities in Sage for computing dimensions of modular forms spaces, congruence subgroups, modular symbols, modular forms, Brandt modules, overconvergent modular forms, half-integral weight forms, and modular abelian varieties. I will discuss both what is in Sage, and what is missing. ||
-||<|2> 14:30-15:30 ||<|2> Christian&nbsp;Eder || [[attachment:eder.pdf|'''Faugere's F5 Algorithm: variants and implementation issues''']] [[http://wstein.org/edu/2009/sd16/eden-f5-part1.m4v|video part 1]]  [[http://wstein.org/edu/2009/sd16/eden-f5-part2.m4v|video part 2]]||
-|| In this talk we shortly recall main properties of Gröbner bases used for their computations. After an introduction on Faugere's F5 Algorithm we examine its points of inefficiency, especially the reduction process, and present the variant F5C improving these. The benefits of this improvement are explained and represented in detail. Moreover some hints implementing F5's data structures are given and the positive effects of F5C on these are shown. In the end we give some insight into the implementation of F5's reduction process in an F4-ish manner, i.e. using symbolic preprocessing. ||
-|| 16:00-- || Coding Sprint / Status Report || ||
-||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, June 25||
-||||||FME||
-||<|2> 10:30-11:30 ||<|2> David&nbsp;Loeffler || [[http://www.dpmms.cam.ac.uk/~dl267/maths/lecturenotes/sagedays16_slides.pdf|'''P-adic modular forms in Sage''']]   [[http://wstein.org/edu/2009/sd16/loeffler-padic_modular_forms-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/loeffler-padic_modular_forms-part2.m4v|video part 2]]||
-|| I will give a quick introduction to p-adic modular forms, which are a generalisation of classical modular forms. I will first give a quick introduction to the theory, and then describe a few algorithms that can be used to compute them, and give an example of one of these which has been implemented in Sage since 3.4.1. Finally I will talk a little about some issues in inexact p-adic linear algebra that come up in the process. ||
-|| 11:30-12:00 || Coffee Break || ||
-||<|2> 12:00-13:00 ||<|2> David&nbsp;Kohel || '''ECHIDNA: Open source Magma extensions for Sage''' [[attachment:ECHIDNA.sws|sws]], [[attachment:ECHIDNA.pdf|PDF]]  [[http://wstein.org/edu/2009/sd16/kohel-echidna-elliptic_curves_and_higher_dimensional_analogues-part1.m4v|video part 1]]   [[http://wstein.org/edu/2009/sd16/kohel-echidna-elliptic_curves_and_higher_dimensional_analogues-part2.m4v|video part 2]]||
-|| I will present the open source GPL repository of Magma code:<<BR>>Elliptic Curves and Higher Dimensional Analogues<<BR>>(http://echidna.maths.usyd.edu.au/kohel/alg/), <<BR>> with associated databases, and its use as an extension to Sage. This repository includes updates to the original packages for quaternion algebras, Brandt modules and generalization of my code for genera of lattices (as a quadratic modules package). As new features, it includes p-adic point counting via canonical lifts for elliptic curves (AGM-X_0(N)), extensions to the Igusa invariants and Mestre's algorithm (to small characteristic) in genus 2, arithmetic of CM fields and CM constructions for curves of genus 2, invariants of genus 3 curves (Dixmier-Ohno and Shioda's hyperelliptic invariants), and numerous other features (e.g. working in generic Picard groups, singular cubic curves and generalized Jacobians of singular hyperelliptics, etc.). The majority of the algorithms are completely new to Magma, and represent algorithms developed over more than a decade (with students and collaborators). The Sage developer community is invited to contribute, document, and improve ECHIDNA, and port features directly to Sage. ||
-|| 13:00-14:30 || Lunch ||||
-||<|2> 14:30-15:30 ||<|2> Robert&nbsp;Miller || '''Fast compiled graphs in Sage'''  [[http://wstein.org/edu/2009/sd16/miller-graph_theory_in_sage-part1.m4v|video part 1]]  [[http://wstein.org/edu/2009/sd16/miller-graph_theory_in_sage-part2.m4v|video part 2]]||
-|| There will be a demonstration and advertisement of new developments in graph theory in Sage. In particular, compiled Sage graphs have finally reached the same level of functionality as NetworkX graphs, the slower Python implementation. ||
-|| 16:00-- || Coding Sprint Organizer / Status Report ||||
-||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, June 26||
-||||||FME||
-||<|2> 10:30-11:30 ||<|2> Rainer&nbsp;Schulze-Pillot || [[attachment:schulze-pillot.pdf|Siegel Theta Series and Modular Forms]] ||
-|| Ordinary theta series count (in their Fourier coefficients) the number of ways in which the integral positive definite quadratic form $Q(x)=x^t A x$ in m variables represents an integer n. Siegel theta series count instead the number of ways in which a given positive semidefinite g x g - matrix T can be represented as $X^t A X$ with an integral m x g-Matrix X. In the same way in which ordinary theta series give modular forms on the upper half plane for congruence subgroups of SL_2(Z) the Siegel theta series give modular forms on a g(g+1)/2-dimensional space H_g for the symplectic group Sp_g(Z) and its congruence subgroups. Some computations for these have been done by Scharlau, Schiemann, and myself about 10 years ago; since then nothing much has happened apart from isolated computations of examples - maybe it's time to start another systematic attack on the subject.||
-|| 11:30-12:00 || Coffee Break || ||
-||<|2> 12:00-13:00 ||<|2> Emmanuel&nbsp;Thomé || [[attachment:thome.pdf|'''Multiplication of binary polynomials''']] ||
-|| Multiplying binary polynomials is an elementary operation which occurs as a basic primitive in several contexts, from computer algebra to coding theory and cryptography. We study here a variety of algorithms for this operation, with the intent of obtaining satisfactory speeds for a wide range of possible degrees. We look into "low level" aspects related to microprocessor-specific optimizations, and higher level algorithms such as of course the Karatsuba and Toom-Cook approaches, but also two different FFT algorithms. Several improvements are presented. We provide comparisons of the timings obtained with those of the NTL library. The software presented can, as of NTL 5.5, be hooked into NTL as an add-on. ||
-|| 13:00-14:30 || Lunch || ||
-||<|2> 14:30-15:30 ||<|2> Maite&nbsp;Aranes || [[attachment:aranes.pdf|'''Manin symbols over number fields''']]  [[http://wstein.org/edu/2009/sd16/aranes-manin_symbols_over_number_fields.m4v|video]]||
-|| I will discuss results about cusps and Manin symbols over a number field K, which should be useful in the computation of spaces of cusp forms for GL(2, K) via modular symbols. I will also present ongoing work on implementations of both of these in Sage. ||
-|| 16:00-- ||Coding Sprint // Status Report ||||
-||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Saturday, June 26||
-||||||FME||
-|| 10:30-- || Coding Sprint wrapup [[http://wstein.org/edu/2009/sd16/00039.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00040.m4v|video part 2]]  [[http://wstein.org/edu/2009/sd16/00041.m4v|video part 3]] ||||
