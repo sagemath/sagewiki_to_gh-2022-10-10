@@ -16,6 +16,10 @@ PEOPLE: Franco Saliola
 
   This should be a nice exercise in adding a new basis (the seminormal basis) to an algebra (the group algebra of the symmetric group). We don't even have to introduce any new code to construct the basis since it already exists in Sage, thanks to Mike Hansen. On the other hand, I do have a better implementation based on a method that Alain Lascoux explained to me, so we could use that instead.
 
+== Try out Nathann Cohen new interface to Mixed Integer Linear Programming software ==
+
+PEOPLE Nicolas Thiéry
+
 == <Project name goes here> ==
 
 PEOPLE: <list of interested participants>
