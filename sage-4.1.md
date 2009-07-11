@@ -2,7 +2,17 @@
 
 Sage 4.1 was released on July 09, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-4.1.txt|sage-4.1.txt]]. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
 
- * 
+ * Upgrade to Python 2.6.x
+ * Support for building Singular with GCC 4.4
+ * Optimized integer division
+ * Combinatorics: irreducible matrix representations of symmetric groups; and Yang-Baxter Graphs
+ * Cryptography: Mini Advanced Encryption Standard for educational purposes
+ * Graph theory: back-end for graph theory with Cython (c_graph); and improve accuracy of graph eigenvalues
+ * Linear algebra: a general package for finitely generated, not-necessarily free R-modules; and multiplicative order for matrices over finite fields
+ * Miscellaneous: optimized Sudoku solver; a decorator for declaring abstract methods; and support Unicode in LaTeX cells (notebook)
+ * Number theory: improved random element generation for number field orders and ideals; support Michael Stoll's ratpoints package; and elliptic exponential
+ * Numerical: computing numerical values of constants using mpmath
+ * Update, upgrade 18 packages to latest upstream releases
 
 
 == Algebra ==
