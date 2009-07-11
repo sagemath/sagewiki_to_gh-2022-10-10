@@ -1,4 +1,4 @@
-
+== Jours Sage à l'UQAM ==
 
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mardi le 14 juillet 2009||
 ||||||[[http://www.crm.cat/Conferences/0809/ThematicDays/SageDay/index.htm|CRM Thematic Day on Mathematics and Computation]]||
