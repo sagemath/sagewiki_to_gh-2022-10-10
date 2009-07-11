@@ -4,4 +4,4 @@ I am currently graduate student in mathematics at Université du Québec à Mont
 
 I will give a 3-days course on Sage on July 14th-16th in UQAM. 
 
-[[http://combinat.sagemath.org/SébastienLabbé/CoursSurSage|Cours sur Sage]].
+[[http://combinat.sagemath.org/SébastienLabbé/CoursSurSage|Cours sur Sage (juillet 2009)]].
