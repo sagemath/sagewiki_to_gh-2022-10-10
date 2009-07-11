@@ -1,8 +1,6 @@
-Rédiger « SébastienLabbé/CoursSurSage » ici.
 
-||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Sunday, June 21||
-|| 19:00 ||<-2> '''Meet informally in the lobby of the Resedentia''' ||
-|| 21:00 ||<-2> '''From the Resedentia, go to dinner''' ||
+
+
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday, June 22||
 ||||||[[http://www.crm.cat/Conferences/0809/ThematicDays/SageDay/index.htm|CRM Thematic Day on Mathematics and Computation]]||
 || 9:00 ||<-2> '''Meet with Jordi Quer at the [[http://www.resa.es/eng/residencias/torre_girona|Residencia lobby]], take the train together to CRM''' ||
