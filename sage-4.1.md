@@ -32,7 +32,7 @@ Sage 4.1 was released on FIXME. For the official, comprehensive release note, pl
  Three types of representations have been implemented.
 
     * '''Specht representations'''. The matrices have integer entries.
-    {{{
+    {{{#!python numbers=off
 sage: chi = SymmetricGroupRepresentation([3,2])
 Specht representation of the symmetric group corresponding to [3, 2]
 
@@ -45,7 +45,7 @@ sage: chi([5,4,3,2,1])
 }}}
 
     * '''Young's seminormal representation'''. The matrices have rational entries.
-    {{{
+    {{{#!python numbers=off
 sage: snorm = SymmetricGroupRepresentation([2,1], "seminormal")
 sage: snorm
 Seminormal representation of the symmetric group corresponding to [2, 1]
@@ -56,7 +56,7 @@ sage: snorm([1,3,2])
 }}}
 
     * '''Young's orthogonal representation''' (the matrices are orthogonal). These matrices are defined over Sage's {{{Symbolic Ring}}}.
-    {{{
+    {{{#!python numbers=off
 sage: ortho = SymmetricGroupRepresentation([3,2], "orthogonal")
 sage: ortho
 Orthogonal representation of the symmetric group corresponding to [3, 2]
@@ -71,7 +71,7 @@ sage: ortho([1,3,2,4,5])
 
  One can also create the {{{CombinatorialClass}}} of all irreducible matrix representations of a given symmetric group.
  Then particular representations can be created by providing partitions. For example:
-    {{{
+    {{{#!python numbers=off
 sage: chi = SymmetricGroupRepresentations(5)
 sage: chi
 Specht representations of the symmetric group of order 5! over Integer Ring
@@ -104,7 +104,7 @@ sage: chi([3,2])([5,4,3,2,1])
  introduced support for Yang-Baxter graphs. Besides being used for constructing
  those representations, they can also be used to construct the Cayley graph
  of a finite group:
-    {{{
+    {{{#!python numbers=off
 sage: def left_multiplication_by(g):
 ...       return lambda h : h*g
 
@@ -116,7 +116,7 @@ sage: Y.plot(edge_labels=False)
 }}}
 
  and to construct the permutahedron:
-    {{{
+    {{{#!python numbers=off
 sage: from sage.combinat.yang_baxter_graph import SwapIncreasingOperator
 sage: operators = [SwapIncreasingOperator(i) for i in range(3)]
 sage: Y = YangBaxterGraph(root=(1,2,3,4), operators=operators); Y
@@ -149,19 +149,19 @@ sage: Y.plot()
   1.  '''Improve accuracy of graph eigenvalues  (Ticket #6258)''', Rob Beezer.  New routines compute eigenvalues and eigenvectors of integer matrices more precisely than before.  Rather than convert adjacency matrices of graphs to computations over the reals or complexes, this patch retains adjacency matrices as matrices over the integers, yielding more accurate and informative results for eigenvalues, eigenvectors, and eigenspaces.
 
     *  Examples follow for a circuit on 8 vertices:
-    {{{
+    {{{#!python numbers=off
 g = graphs.CycleGraph(8)
     }}}
 
     *  Integer eigenvalues are exact, irrational eigenvalues are more precise, making multiplicities easier to determine.
-    {{{
+    {{{#!python numbers=off
 sage: g.spectrum()
 
 [2, 1.414213562373095?, 1.414213562373095?, 0, 0, -1.414213562373095?, -1.414213562373095?, -2]
     }}}
 
     *  Similar comments apply to eigenvectors.
-    {{{
+    {{{#!python numbers=off
 sage: g.eigenvectors()
 
 [(2, [
@@ -185,7 +185,7 @@ sage: g.eigenvectors()
    }}}
 
     *  Eigenspaces are exact, in that they can be expressed as vector spaces over number fields.  When the defining polynomial has several roots, the eigenspaces are not repeated.  Previously eigenspaces were "fractured" owing to slight computational differences in identical eigenvalues.  In concert with {{{eigenvectors()}}} this command illuminates the structure of a graph's eigenspaces more than purely numerical results.
-    {{{
+    {{{#!python numbers=off
 sage: g.eigenspaces()
 
 [
