@@ -12,7 +12,7 @@ Se veut accessible à tous...
 || 9:00 ||<-2> '''Arrivée des participants.''' ||
 ||<|2> 9:30-10:30 ||<|2> Sébastien Labbé || [[http://wstein.org/talks/20090622-sagedays16-thematic/|'''Sage: Unifying Mathematical Software''']], [[http://wstein.org/edu/2009/sd16/00021-stein-unifying_open_source_math_software-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00022-stein-unifying_open_source_math_software-part2.m4v|video part 2]]||
 || This will be an overview talk about Sage, which explains the history and motivation for the project, demos some key features of Sage, and discusses where we are going next. It will be accessible to people in all research areas and assumes no prior experience with Sage. ||
-|| 11:30-12:00 || Coffee&nbsp;Break || ||
+|| 10:30-11:00 || Pause || ||
 ||<|2> 12:00-13:00 ||<|2> Henri&nbsp;Cohen || [[attachment:barcelona_cohen.pdf|'''Experimental methods in number theory and analysis''']] [[http://wstein.org/edu/2009/sd16/00023-cohen-experimental_methods-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00024-cohen-experimental_methods-part2.m4v|video part 2]] ||
 || In this talk, I would like to give a number of examples of numerical experiments coming from number theory and analysis, mention the tools used to perform them, and show how they sometimes can lead to interesting and deep conjectures. ||
 ||<|2> 14:30-15:30 ||<|2> Àngel&nbsp;Jorba || [[attachment:transpes.pdf|'''Developing tailored software for specific problems''']]   [[http://wstein.org/edu/2009/sd16/00025-jorba-tailored_software-part1.m4v|video part 1]], [[http://wstein.org/edu/2009/sd16/00026-jorba-tailored_software-part2.m4v|video part 2]]||
