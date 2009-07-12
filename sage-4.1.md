@@ -1,5 +1,3 @@
-#6261, #5882
-
 = Sage 4.1 Release Tour =
 
 Sage 4.1 was released on July 09, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-4.1.txt|sage-4.1.txt]]. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
@@ -448,20 +446,124 @@ Finitely generated module V/W over Integer Ring with invariants ()
 == Miscellaneous ==
 
 
- * FIXME: summarize #3084
+ * An optimized Sudoku solver (Rob Beezer, Tom Boothby) -- Support two algorithms for efficiently solving a Sudoku puzzle: a backtrack algorithm and the DLX algorithm. Generally, the DLX algorithm is very fast and very consistent. The backtrack algorithm is very variable in its performance, on some occasions markedly faster than DLX but usually slower by a similar factor, with the potential to be orders of magnitude slower. The following, we compare the performance between the Sudoku solver in Sage 4.0.2 and that in this release. We also compare the performance between the backtrack algorithm and the DLX algorithm. All timing statistics were obtained using the machine sage.math:
+ {{{#!python numbers=off
+# BEFORE
 
- * FIXME: summarize #6097
+sage: A = matrix(ZZ,9,[5,0,0, 0,8,0, 0,4,9, 0,0,0, 5,0,0, 0,3,0, 0,6,7, \
+....: 3,0,0, 0,0,1,  1,5,0, 0,0,0, 0,0,0,  0,0,0, 2,0,8, 0,0,0, \
+....: 0,0,0, 0,0,0, 0,1,8, \
+....: 7,0,0, 0,0,4, 1,5,0, 0,3,0, 0,0,2, 0,0,0,  4,9,0, 0,5,0, 0,0,3])
+sage: %timeit sudoku(A);
+10 loops, best of 3: 43.5 ms per loop
+sage: from sage.games.sudoku import solve_recursive
+sage: B = matrix(ZZ, 9, 9, [ [0,0,0,0,1,0,9,0,0], [8,0,0,4,0,0,0,0,0], \
+....: [2,0,0,0,0,0,0,0,0], [0,7,0,0,3,0,0,0,0], [0,0,0,0,0,0,2,0,4], \
+....: [0,0,0,0,0,0,0,5,8], [0,6,0,0,0,0,1,3,0], [7,0,0,2,0,0,0,0,0], \
+....: [0,0,0,8,0,0,0,0,0] ])
+sage: %timeit solve_recursive(B, 8, 5);
+1000 loops, best of 3: 325 µs per loop
 
- * FIXME: summarize #6417
+
+# AFTER
+
+sage: h = Sudoku('8..6..9.5.............2.31...7318.6.24.....73...........279.1..5...8..36..3......')
+sage: %timeit h.solve(algorithm='backtrack').next();
+1000 loops, best of 3: 1.12 ms per loop
+sage: %timeit h.solve(algorithm='dlx').next();
+1000 loops, best of 3: 1.58 ms per loop
+sage: # These are the first 10 puzzles in a list of "Top 95" puzzles.
+sage: top =['4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......',\
+....: '52...6.........7.13...........4..8..6......5...........418.........3..2...87.....',\
+....: '6.....8.3.4.7.................5.4.7.3..2.....1.6.......2.....5.....8.6......1....',\
+....: '48.3............71.2.......7.5....6....2..8.............1.76...3.....4......5....',\
+....: '....14....3....2...7..........9...3.6.1.............8.2.....1.4....5.6.....7.8...',\
+....: '......52..8.4......3...9...5.1...6..2..7........3.....6...1..........7.4.......3.',\
+....: '6.2.5.........3.4..........43...8....1....2........7..5..27...........81...6.....',\
+....: '.524.........7.1..............8.2...3.....6...9.5.....1.6.3...........897........',\
+....: '6.2.5.........4.3..........43...8....1....2........7..5..27...........81...6.....',\
+....: '.923.........8.1...........1.7.4...........658.........6.5.2...4.....7.....9.....']
+sage: p = [Sudoku(top[i]) for i in xrange(10)]
+sage: for i in xrange(10):
+....:     %timeit p[i].solve(algorithm='dlx').next();
+....:     %timeit p[i].solve(algorithm='backtrack').next();
+....:     
+100 loops, best of 3: 2.26 ms per loop
+10 loops, best of 3: 223 ms per loop
+100 loops, best of 3: 2.6 ms per loop
+10 loops, best of 3: 21.3 ms per loop
+100 loops, best of 3: 2.38 ms per loop
+10 loops, best of 3: 83.5 ms per loop
+1000 loops, best of 3: 1.76 ms per loop
+10 loops, best of 3: 43.5 ms per loop
+1000 loops, best of 3: 1.86 ms per loop
+10 loops, best of 3: 316 ms per loop
+1000 loops, best of 3: 1.65 ms per loop
+10 loops, best of 3: 145 ms per loop
+100 loops, best of 3: 1.84 ms per loop
+10 loops, best of 3: 547 ms per loop
+1000 loops, best of 3: 1.77 ms per loop
+10 loops, best of 3: 255 ms per loop
+100 loops, best of 3: 2.08 ms per loop
+10 loops, best of 3: 445 ms per loop
+1000 loops, best of 3: 1.67 ms per loop
+10 loops, best of 3: 266 ms per loop
+ }}}
 
 
-== Modular Forms ==
+ * A decorator for declaring abstract methods (Nicolas Thiéry) -- Support a decorator that can be used to declare a method that should be implemented by derived classes. This declaration should typically include documentation for the specification for this method. The purpose of the decorator is to enforce a consistent and visual syntax for such declarations. The decorator is also used by the Sage categories framework for automated tests. As an example, here we create a class with an abstract method:
+ {{{#!python numbers=off
+sage: class A(object):
+....:     @abstract_method
+....:     def my_method(self):
+....:         """
+....:         The method :meth:`my_method` computes my_method
+....:         """
+....:         pass
+....:     
+sage: A.my_method
+<abstract method my_method at 0x7f53414a7410>
+ }}}
+ The current policy is that a {{{NotImplementedError}}} is raised  when accessing the method through an instance, even before the method is called:
+ {{{#!python numbers=off
+sage: x = A()
+sage: x.my_method
+Traceback (most recent call last):
+...
+NotImplementedError: <abstract method my_method at 0x7f53414a7410>
+ }}}
+ It is also possible to mark abstract methods as optional:
+ {{{#!python numbers=off
+sage: class A(object):
+....:     @abstract_method(optional=True)
+....:     def my_method(self):
+....:         """
+....:         The method :meth:`my_method` computes my_method
+....:         """
+....:         pass
+....:     
+sage: A.my_method
+<optional abstract method my_method at 0x3b551b8>
+sage: x = A()
+sage: x.my_method
+NotImplemented
+ }}}
 
 
 == Notebook ==
 
 
- * FIXME: summarize #5637
+ * Unicode in {{{%latex}}} cells (Peter Mora) -- One can now enter Unicode characters directly in Notebook cells. Here is a screenshot illustrating this:
+{{attachment:unicode-latex.png}}
+
+
+ * Allow {{{\[}}} and {{{\]}}} to delimit math in {{{%html}}} blocks (John Palmieri) -- One can now enter
+ {{{#!python numbers=off
+%html
+test
+\[ x^2 \]
+ }}}
+ and the expression {{{x^2}}} is typeset in math mode.
 
 
 == Number Theory ==
