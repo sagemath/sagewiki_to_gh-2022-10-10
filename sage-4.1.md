@@ -569,9 +569,88 @@ test
 == Number Theory ==
 
 
- * FIXME: summarize #6273
- * FIXME: summarize #5854
- * FIXME: summarize #6386
+ * Improved {{{random_element()}}} method for number field orders and ideals (John Cremona) -- The new method {{{random_element()}}} of the class {{{NumberFieldIdeal}}} in {{{sage/rings/number_field/number_field_ideal.py}}} returns a random element of a fractional ideal, computed as a random {{{ZZ}}}-linear combination of the basis. A similar method has also been implemented for the class {{{Order}}} in {{{sage/rings/number_field/order.py}}}}. Here are some examples on using this new method:
+ {{{#!python numbers=off
+sage: K.<a> = NumberField(x^3 + 2)
+sage: I = K.ideal(1 - a)
+sage: I.random_element()
+2*a^2 + a + 3
+sage: I.random_element(distribution="uniform")
+-a^2 + 2*a + 2
+sage: I.random_element(-30, 30)
+-30*a^2 + 17*a - 11
+sage: I.random_element(-30,30).parent() is K
+True
+sage: K.<a> = NumberField(x^3 + 2)
+sage: OK = K.ring_of_integers()
+sage: OK.random_element()
+2*a^2 + 7*a + 2
+sage: OK.random_element(distribution="uniform")
+-2*a^2 + a - 1
+sage: K.order(a).random_element()
+-2*a^2 - a - 5
+ }}}
+
+
+ * Support for Michael Stoll's ratpoints package (Robert Miller, Michael Stoll) -- Stoll's ratpoints package is a program for finding points of bounded height on curves of the form {{{y^2 = a_n x^n + ... + a_1 x + a_0}}}. Here are some examples for working with ratpoints:
+ {{{#!python numbers=off
+sage: from sage.libs.ratpoints import ratpoints
+sage: for x,y,z in ratpoints([1..6], 200):
+....:     print -1*y^2 + 1*z^6 + 2*x*z^5 + 3*x^2*z^4 + 4*x^3*z^3 + 5*x^4*z^2 + 6*x^5*z
+....:     
+0
+0
+0
+0
+0
+0
+0
+sage: for x,y,z in ratpoints([1..5], 200):
+....:     print -1*y^2 + 1*z^4 + 2*x*z^3 + 3*x^2*z^2 + 4*x^3*z + 5*x^4
+....:     
+0
+0
+0
+0
+0
+0
+0
+0
+ }}}
+
+
+ * Elliptic exponential (John Cremona) -- New method {{{elliptic_exponential()}}} in the class {{{EllipticCurve_rational_field}}} in {{{sage/schemes/elliptic_curves/ell_rational_field.py}}} for computing the elliptic exponential of a complex number with respect to an elliptic curve. A similar method is also defined for the class {{{PeriodLattice_ell}}} in {{{sage/schemes/elliptic_curves/period_lattice.py}}}. Here are some examples:
+ {{{#!python numbers=off
+sage: E = EllipticCurve([1,1,1,-8,6])
+sage: P = E([0,2])
+sage: z = P.elliptic_logarithm()
+sage: E.elliptic_exponential(z)
+(-1.6171648557030742010940435588e-29 : 2.0000000000000000000000000000 : 1.0000000000000000000000000000)
+sage: z = E([0,2]).elliptic_logarithm(precision=200)
+sage: E.elliptic_exponential(z)
+(-1.6490990486332025523931769742517329237564168247111092902718e-59 : 2.0000000000000000000000000000000000000000000000000000000000 : 1.0000000000000000000000000000000000000000000000000000000000)
+ }}}
+ And here are some torsion examples:
+ {{{#!python numbers=off
+sage: E = EllipticCurve('389a')
+sage: w1,w2 = E.period_lattice().basis()
+sage: E.two_division_polynomial().roots(CC,multiplicities=False)
+[-2.04030220028546, 0.135409240221753, 0.904892960063711]
+sage: [E.elliptic_exponential((a*w1+b*w2)/2)[0] for a,b in [(0,1),(1,1),(1,0)]]
+[-2.04030220028546, 0.135409240221753, 0.904892960063711]
+sage: E.division_polynomial(3).roots(CC,multiplicities=False)
+
+[-2.88288879135334,
+ 1.39292799513138,
+ 0.0783137314443164 - 0.492840991709879*I,
+ 0.0783137314443164 + 0.492840991709879*I]
+sage: [E.elliptic_exponential((a*w1+b*w2)/3)[0] for a,b in [(0,1),(1,0),(1,1),(2,1)]]
+
+[-2.88288879135335,
+ 1.39292799513138,
+ 0.0783137314443165 - 0.492840991709879*I,
+ 0.0783137314443168 + 0.492840991709879*I]
+ }}}
 
 
 == Numerical ==
