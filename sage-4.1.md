@@ -772,14 +772,14 @@ sage: RealField(100)(glaisher)
 
 
  * Symbolic {{{arctan2}}} function (Karl-Dieter Crisman) -- New symbolic trigonometric function {{{arctan2}}} in {{{sage/functions/trig.py}}}. This symbolic function returns the arctangent (measured in radians) of {{{y/x}}}. Unlike {{{arctan(y/x)}}}, the signs of both {{{x}}} and {{{y}}} are considered. For example, note the difference between {{{arctan2()}}} and {{{arctan()}}}:
- {{{
+ {{{#!python numbers=off
 sage: arctan2(1,-1)
 3/4*pi
 sage: arctan(1/-1)
 -1/4*pi
  }}}
  The new symbolic function {{{arctan2()}}} is also consistent with the implementations in Python and Maxima:
- {{{
+ {{{#!python numbers=off
 sage: arctan2(1,-1)  # the symbolic arctan2
 3/4*pi
 sage: maxima.atan2(1,-1)  # Maxima implementation
@@ -788,7 +788,7 @@ sage: math.atan2(1,-1)  # Python implementation
 2.3561944901923448
  }}}
  We can also compute an approximation:
- {{{
+ {{{#!python numbers=off
 sage: arctan2(-.5,1).n(100)
 -0.46364760900080611621425623146
  }}}
