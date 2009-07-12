@@ -1,3 +1,4 @@
+
 = Sage 4.1 Release Tour =
 
 Sage 4.1 was released on July 09, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-4.1.txt|sage-4.1.txt]]. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
@@ -168,13 +169,66 @@ sage: Y.plot()
  See the documentation of {{{YangBaxterGraph}}} for more information and examples.
 
 
-== Commutative Algebra ==
-
-
 == Cryptography ==
 
 
- * FIXME: summarize #6164
+ * Mini Advanced Encryption Standard for educational purposes (Minh Van Nguyen) -- New module {{{sage/crypto/block_cipher/miniaes.py}}} to support the Mini Advanced Encryption Standard (Mini-AES) to allow students to explore the working of a block cipher. This is a simplified variant of the Advanced Encryption Standard (AES) to be used for cryptography education. Mini-AES is described in the paper:
+
+  * A. C.-W. Phan. Mini advanced encryption standard (mini-AES): a testbed for cryptanalysis students. Cryptologia, 26(4):283--306, 2002. 
+
+ We can encrypt a plaintext using Mini-AES as follows:
+ {{{#!python numbers=off
+sage: from sage.crypto.block_cipher.miniaes import MiniAES
+sage: maes = MiniAES()
+sage: K = FiniteField(16, "x")
+sage: MS = MatrixSpace(K, 2, 2)
+sage: P = MS([K("x^3 + x"), K("x^2 + 1"), K("x^2 + x"), K("x^3 + x^2")]); P
+
+[  x^3 + x   x^2 + 1]
+[  x^2 + x x^3 + x^2]
+sage: key = MS([K("x^3 + x^2"), K("x^3 + x"), K("x^3 + x^2 + x"), K("x^2 + x + 1")]); key
+
+[    x^3 + x^2       x^3 + x]
+[x^3 + x^2 + x   x^2 + x + 1]
+sage: C = maes.encrypt(P, key); C
+
+[            x       x^2 + x]
+[x^3 + x^2 + x       x^3 + x]
+ }}}
+ Here is the decryption process:
+ {{{#!python numbers=off
+sage: plaintxt = maes.decrypt(C, key)
+sage: plaintxt == P
+True
+ }}}
+ We can also work directly with binary strings:
+ {{{#!python numbers=off
+sage: from sage.crypto.block_cipher.miniaes import MiniAES
+sage: maes = MiniAES()
+sage: bin = BinaryStrings()
+sage: key = bin.encoding("KE"); key
+0100101101000101
+sage: P = bin.encoding("Encrypt this secret message!")
+sage: C = maes(P, key, algorithm="encrypt")
+sage: plaintxt = maes(C, key, algorithm="decrypt")
+sage: plaintxt == P
+True
+ }}}
+ Or work with integers {{{n}}} such that {{{0 <= n <= 15}}}:
+ {{{#!python numbers=off
+sage: from sage.crypto.block_cipher.miniaes import MiniAES
+sage: maes = MiniAES()
+sage: P = [n for n in xrange(16)]; P
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+sage: key = [2, 3, 11, 0]; key
+[2, 3, 11, 0]
+sage: P = maes.integer_to_binary(P)
+sage: key = maes.integer_to_binary(key)
+sage: C = maes(P, key, algorithm="encrypt")
+sage: plaintxt = maes(C, key, algorithm="decrypt")
+sage: plaintxt == P
+True
+ }}}
 
 
 == Geometry ==
