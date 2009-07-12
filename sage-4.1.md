@@ -15,22 +15,69 @@ Sage 4.1 was released on July 09, 2009. For the official, comprehensive release 
  * Update, upgrade 18 packages to latest upstream releases
 
 
-== Algebra ==
-
-
- * FIXME: summarize #6362
-
-
 == Algebraic Geometry ==
 
 
- * FIXME: summarize #4290
+ * Construct an elliptic curve from a plane curve of genus one (Lloyd Kilford, John Cremona ) -- New function {{{EllipticCurve_from_plane_curve()}}} in the module {{{sage/schemes/elliptic_curves/constructor.py}}} to allow the construction of an elliptic curve from a smooth plane cubic with a rational point. Currently, this function uses Magma and it will not work on machines that do not have Magma installed. Assuming you have Magma installed on your computer, we can use the function {{{EllipticCurve_from_plane_curve()}}} to first check that the Fermat cubic is isomorphic to the curve with Cremona label "27a1":
+ {{{#!python numbers=off
+sage: x, y, z = PolynomialRing(QQ, 3, 'xyz').gens() # optional - magma  
+sage: C = Curve(x^3 + y^3 + z^3) # optional - magma 
+sage: P = C(1, -1, 0) # optional - magma 
+sage: E = EllipticCurve_from_plane_curve(C, P) # optional - magma 
+sage: E # optional - magma 
+Elliptic Curve defined by y^2 + y = x^3 - 7 over Rational Field 
+sage: E.label() # optional - magma 
+'27a1'
+ }}}
+ Here is a quartic example:
+ {{{#!python numbers=off
+sage: u, v, w = PolynomialRing(QQ, 3, 'uvw').gens() # optional - magma  
+sage: C = Curve(u^4 + u^2*v^2 - w^4) # optional - magma 
+sage: P = C(1, 0, 1) # optional - magma 
+sage: E = EllipticCurve_from_plane_curve(C, P) # optional - magma 
+sage: E # optional - magma 
+Elliptic Curve defined by y^2  = x^3 + 4*x over Rational Field 
+sage: E.label() # optional - magma 
+'32a1'
+ }}}
 
 
 == Basic Arithmetic ==
 
 
- * FIXME: summarize #6083
+ * Speed-up integer division (Robert Bradshaw ) -- In some cases, integer division is now up to 31% faster than previously. The following timing statistics were obtained using the machine sage.math:
+ {{{#!python numbers=off
+# BEFORE
+
+sage: a = next_prime(2**31)
+sage: b = Integers(a)(100)
+sage: %timeit a % b;
+1000000 loops, best of 3: 1.12 µs per loop
+sage: %timeit 101 // int(5);
+1000000 loops, best of 3: 215 ns per loop
+sage: %timeit 100 // int(-3)
+1000000 loops, best of 3: 214 ns per loop
+sage: a = ZZ.random_element(10**50)
+sage: b = ZZ.random_element(10**15)
+sage: %timeit a.quo_rem(b)
+1000000 loops, best of 3: 454 ns per loop
+
+
+# AFTER
+
+sage: a = next_prime(2**31)
+sage: b = Integers(a)(100)
+sage: %timeit a % b;
+1000000 loops, best of 3: 1.02 µs per loop
+sage: %timeit 101 // int(5);
+1000000 loops, best of 3: 201 ns per loop
+sage: %timeit 100 // int(-3)
+1000000 loops, best of 3: 194 ns per loop
+sage: a = ZZ.random_element(10**50)
+sage: b = ZZ.random_element(10**15)
+sage: %timeit a.quo_rem(b)
+1000000 loops, best of 3: 313 ns per loop
+ }}}
 
 
 == Combinatorics ==
@@ -274,6 +321,9 @@ User basis matrix:
 
 
 == Packages ==
+
+
+ * Upgrade [[http://www.singular.uni-kl.de|Singular]] to version singular-3-1-0-2-20090620 with support for compiling with GCC 4.4.
 
 
  * FIXME: summarize #6359
