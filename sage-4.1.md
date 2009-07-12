@@ -4,6 +4,7 @@ Sage 4.1 was released on July 09, 2009. For the official, comprehensive release 
 
  * Upgrade to Python 2.6.x
  * Support for building Singular with GCC 4.4
+ * FreeBSD support for the following packages: FreeType, gd, libgcrypt, libgpg-error, Linbox, NTL, Readline, Tachyon
  * Optimized integer division
  * Combinatorics: irreducible matrix representations of symmetric groups; and Yang-Baxter Graphs
  * Cryptography: Mini Advanced Encryption Standard for educational purposes
