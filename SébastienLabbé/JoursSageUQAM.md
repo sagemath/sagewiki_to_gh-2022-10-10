@@ -20,3 +20,7 @@ Se veut accessible à tous...
 || Nous présenterons les classes en python. ||
 ||<|2> 14:30-17:00 || '''Exercices''' ||
 || Séance d'exercices. Plusieurs liens à ajouter. Projet Euler, Devoirs de Stein, etc.||
+||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mercredi le 15 juillet 2009||
+|| 9:00 ||'''Arrivée des participants.''' ||
+||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Jeudi le 16 juillet 2009||
+|| 9:00 ||'''Arrivée des participants.''' ||
