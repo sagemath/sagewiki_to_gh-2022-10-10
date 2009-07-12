@@ -656,7 +656,53 @@ sage: [E.elliptic_exponential((a*w1+b*w2)/3)[0] for a,b in [(0,1),(1,0),(1,1),(2
 == Numerical ==
 
 
- * FIXME: summarize #6200
+ * Use mpmath to compute constants (Fredrik Johannson, Mike Hansen) -- Previously the function {{{khinchin()}}}, {{{mertens()}}} and {{{twinprime()}}} in {{{sage/symbolic/constants.py}}} were {{{LimitedPrecisionConstant}}}. Using mpmath, these functions now support arbitrary precision for the corresponding constants. There is now also support for the Glaisher-Kinkelin constant {{{A = \exp(\frac{1}{12}-\zeta'(-1))}}} using mpmath. Here are some examples on using these functions with the mpmath backend. The Khinchin constant:
+ {{{#!python numbers=off
+sage: float(khinchin)
+2.6854520010653062
+sage: khinchin.n(digits=60)
+2.68545200106530644530971483548179569382038229399446295305115
+sage: khinchin._mpfr_(RealField(100))
+2.6854520010653064453097148355
+sage: RealField(100)(khinchin)
+2.6854520010653064453097148355
+ }}}
+ The Twin Primes constant:
+ {{{#!python numbers=off
+sage: float(twinprime)
+0.66016181584686962
+sage: twinprime.n(digits=60)
+0.660161815846869573927812110014555778432623360284733413319448
+sage: twinprime._mpfr_(RealField(100))
+0.66016181584686957392781211001
+sage: RealField(100)(twinprime)
+0.66016181584686957392781211001
+ }}}
+ The Mertens constant:
+ {{{#!python numbers=off
+sage: float(mertens)
+0.26149721284764277
+sage: mertens.n(digits=60)
+0.261497212847642783755426838608695859051566648261199206192064
+sage: mertens._mpfr_(RealField(100))
+0.26149721284764278375542683861
+sage: RealField(100)(mertens)
+0.26149721284764278375542683861
+ }}}
+ The Glaisher-Kinkelin constant:
+ {{{#!python numbers=off
+sage: float(glaisher)
+1.2824271291006226
+sage: glaisher.n(digits=60)
+1.28242712910062263687534256886979172776768892732500119206374
+sage: a = glaisher + 2
+sage: parent(a)
+Symbolic Ring
+sage: glaisher._mpfr_(RealField(100))
+1.2824271291006226368753425689
+sage: RealField(100)(glaisher)
+1.2824271291006226368753425689
+ }}}
 
 
 == Packages ==
