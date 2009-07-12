@@ -251,7 +251,7 @@ Wall time: 0.19 s
  Here, we see an efficiency gain of up to 47x using {{{c_graph}}}.
 
 
- * Improve accuracy of graph eigenvalues (Rob Beezer) -- New routines compute eigenvalues and eigenvectors of integer matrices more precisely than before. Rather than convert adjacency matrices of graphs to computations over the real or complex fields, adjacency matrices are retained as matrices over the integers, yielding more accurate and informative results for eigenvalues, eigenvectors, and eigenspaces. Here is a comparison involving the computation of graph spectrum:
+ * Improve accuracy of graph eigenvalues (Rob Beezer) -- New routines to compute eigenvalues and eigenvectors of integer matrices more precisely than before. Rather than converting adjacency matrices of graphs to computations over the real or complex fields, adjacency matrices are retained as matrices over the integers, yielding more accurate and informative results for eigenvalues, eigenvectors, and eigenspaces. Here is a comparison involving the computation of graph spectrum:
  {{{#!python numbers=off
 # BEFORE
 
@@ -392,7 +392,7 @@ sage: (Q.0+Q.1).additive_order()
 12
  }}}
 
-  * {{{sage/modules/fg_pid/fgp_module.py}}} -- Finitely generated modules over a principal ideal domain. Currently, on the principal ideal domain {{{ZZ}}} of integers is supported. Here are some examples:
+  * {{{sage/modules/fg_pid/fgp_module.py}}} -- Finitely generated modules over a principal ideal domain. Currently, only the principal ideal domain {{{ZZ}}} of integers is supported. Here are some examples:
  {{{#!python numbers=off
 sage: V = span([[1/2,1,1], [3/2,2,1], [0,0,1]], ZZ)
 sage: W = V.span([2*V.0+4*V.1, 9*V.0+12*V.1, 4*V.2])
@@ -446,7 +446,7 @@ Finitely generated module V/W over Integer Ring with invariants ()
 == Miscellaneous ==
 
 
- * An optimized Sudoku solver (Rob Beezer, Tom Boothby) -- Support two algorithms for efficiently solving a Sudoku puzzle: a backtrack algorithm and the DLX algorithm. Generally, the DLX algorithm is very fast and very consistent. The backtrack algorithm is very variable in its performance, on some occasions markedly faster than DLX but usually slower by a similar factor, with the potential to be orders of magnitude slower. The following, we compare the performance between the Sudoku solver in Sage 4.0.2 and that in this release. We also compare the performance between the backtrack algorithm and the DLX algorithm. All timing statistics were obtained using the machine sage.math:
+ * An optimized Sudoku solver (Rob Beezer, Tom Boothby) -- Support two algorithms for efficiently solving a Sudoku puzzle: a backtrack algorithm and the DLX algorithm. Generally, the DLX algorithm is very fast and very consistent. The backtrack algorithm is very variable in its performance, on some occasions markedly faster than DLX but usually slower by a similar factor, with the potential to be orders of magnitude slower. The following code compares the performance between the Sudoku solver in Sage 4.0.2 and that in this release. We also compare the performance between the backtrack algorithm and the DLX algorithm. All timing statistics were obtained using the machine sage.math:
  {{{#!python numbers=off
 # BEFORE
 
@@ -592,7 +592,7 @@ sage: K.order(a).random_element()
  }}}
 
 
- * Support for Michael Stoll's ratpoints package (Robert Miller, Michael Stoll) -- Stoll's ratpoints package is a program for finding points of bounded height on curves of the form {{{y^2 = a_n x^n + ... + a_1 x + a_0}}}. Here are some examples for working with ratpoints:
+ * Support for Michael Stoll's ratpoints package (Robert Miller, Michael Stoll) -- Stoll's ratpoints package is a program for finding points of bounded height on curves of the form {{{y^2 = a_n x^n + ... + a_1 x + a_0}}}. The library code is contained in the Cython module {{{sage/libs/ratpoints.pyx}}}. Here are some examples for working with ratpoints:
  {{{#!python numbers=off
 sage: from sage.libs.ratpoints import ratpoints
 sage: for x,y,z in ratpoints([1..6], 200):
@@ -619,7 +619,7 @@ sage: for x,y,z in ratpoints([1..5], 200):
  }}}
 
 
- * Elliptic exponential (John Cremona) -- New method {{{elliptic_exponential()}}} in the class {{{EllipticCurve_rational_field}}} in {{{sage/schemes/elliptic_curves/ell_rational_field.py}}} for computing the elliptic exponential of a complex number with respect to an elliptic curve. A similar method is also defined for the class {{{PeriodLattice_ell}}} in {{{sage/schemes/elliptic_curves/period_lattice.py}}}. Here are some examples:
+ * Elliptic exponential (John Cremona) -- New method {{{elliptic_exponential()}}} in the class {{{EllipticCurve_rational_field}}} of {{{sage/schemes/elliptic_curves/ell_rational_field.py}}} for computing the elliptic exponential of a complex number with respect to an elliptic curve. A similar method is also defined for the class {{{PeriodLattice_ell}}} in {{{sage/schemes/elliptic_curves/period_lattice.py}}}. Here are some examples:
  {{{#!python numbers=off
 sage: E = EllipticCurve([1,1,1,-8,6])
 sage: P = E([0,2])
@@ -656,7 +656,7 @@ sage: [E.elliptic_exponential((a*w1+b*w2)/3)[0] for a,b in [(0,1),(1,0),(1,1),(2
 == Numerical ==
 
 
- * Use mpmath to compute constants (Fredrik Johannson, Mike Hansen) -- Previously the function {{{khinchin()}}}, {{{mertens()}}} and {{{twinprime()}}} in {{{sage/symbolic/constants.py}}} were {{{LimitedPrecisionConstant}}}. Using mpmath, these functions now support arbitrary precision for the corresponding constants. There is now also support for the Glaisher-Kinkelin constant {{{A = \exp(\frac{1}{12}-\zeta'(-1))}}} using mpmath. Here are some examples on using these functions with the mpmath backend. The Khinchin constant:
+ * Use mpmath to compute constants (Fredrik Johannson, Mike Hansen) -- Previously the functions {{{khinchin()}}}, {{{mertens()}}} and {{{twinprime()}}} in {{{sage/symbolic/constants.py}}} were {{{LimitedPrecisionConstant}}}. Using mpmath, these functions now support arbitrary precision for the corresponding constants. There is now also support for the Glaisher-Kinkelin constant {{{A = \exp(\frac{1}{12}-\zeta'(-1))}}} using mpmath. Here are some examples on using these functions with the mpmath backend. The Khinchin constant:
  {{{#!python numbers=off
 sage: float(khinchin)
 2.6854520010653062
