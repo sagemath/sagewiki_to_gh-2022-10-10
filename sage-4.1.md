@@ -1,5 +1,3 @@
-#6085, #6258
-
 = Sage 4.1 Release Tour =
 
 Sage 4.1 was released on July 09, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-4.1.txt|sage-4.1.txt]]. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
@@ -330,7 +328,24 @@ User basis matrix:
 == Graphics ==
 
 
- * FIXME: summarize #6162
+ * Plot histogram improvement (David Joyner) -- Some improvements to the {{{plot_histogram()}}} function of the class {{{IndexedSequence}}} in {{{sage/gsl/dft.py}}}. The default colour of the histogram is blue:
+ {{{
+sage: J = range(3)
+sage: A = [ZZ(i^2)+1 for i in J]
+sage: s = IndexedSequence(A, J)
+sage: s.plot_histogram()
+ }}}
+{{attachment:histogram-blue.png}}
+ You can now change the colour of the histogram with the argument {{{clr}}}:
+ {{{
+sage: s.plot_histogram(clr=(1,0,0))
+ }}}
+{{attachment:histogram-red.png}}
+ and even use the argument {{{eps}}} to change the width of the spacing between the bars:
+ {{{
+sage: s.plot_histogram(clr=(1,0,1), eps=0.3)
+ }}}
+{{attachment:histogram-pink.png}}
 
 
 == Group Theory ==
