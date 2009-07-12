@@ -51,3 +51,5 @@ Liens vers python, sage, ...
 || Démonstration de l'outil interact + exercices. ||
 ||<|2> 11:00-12:00 || '''Théorie des groupes''' ||
 || Démo.... ||
+||<|2> 13:30-17:00 || '''À déterminer''' ||
+|| ... ||
