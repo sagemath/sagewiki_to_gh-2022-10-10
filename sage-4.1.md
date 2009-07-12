@@ -1,3 +1,4 @@
+#6085, #6258
 
 = Sage 4.1 Release Tour =
 
@@ -231,31 +232,54 @@ True
  }}}
 
 
-== Geometry ==
-
-
 == Graph Theory ==
 
 
-  1. FIXME: summarize #6085
+ * Fast compiled graphs {{{c_graph}}} (Robert Miller) -- The Python package [[http://networkx.lanl.gov|NetworkX]] version 0.36 is currently the default graph implementation in Sage. The goal of fast compiled graphs, or {{{c_graph}}}, is to be the default implementation of graph theory in Sage. The c_graph implementation is developed using Cython, which allows graph theoretic computations to run at the speed of C. The {{{c_graph}}} backend is implemented in the module {{{sage/graphs/base/c_graph.pyx}}}. This module is called by higher-level frontends in {{{sage/graphs/}}}. Where support is provided for using {{{c_graph}}}, graph theoretic computations is usually more efficient than using NetworkX. For example, the following timing statistics were obtained using the machine sage.math:
+ {{{#!python numbers=off
+# NetworkX 0.36
+
+sage: time G = Graph(1000000, implementation="networkx")
+CPU times: user 8.74 s, sys: 0.27 s, total: 9.01 s
+Wall time: 9.08 s
 
 
-  1.  '''Improve accuracy of graph eigenvalues  (Ticket #6258)''', Rob Beezer.  New routines compute eigenvalues and eigenvectors of integer matrices more precisely than before.  Rather than convert adjacency matrices of graphs to computations over the reals or complexes, this patch retains adjacency matrices as matrices over the integers, yielding more accurate and informative results for eigenvalues, eigenvectors, and eigenspaces.
+# c_graph
 
-    *  Examples follow for a circuit on 8 vertices:
-    {{{#!python numbers=off
-g = graphs.CycleGraph(8)
-    }}}
+sage: time G = Graph(1000000, implementation="c_graph")
+CPU times: user 0.01 s, sys: 0.14 s, total: 0.15 s
+Wall time: 0.19 s
+ }}}
+ Here, we see an efficiency gain of up to 47x using {{{c_graph}}}.
 
-    *  Integer eigenvalues are exact, irrational eigenvalues are more precise, making multiplicities easier to determine.
-    {{{#!python numbers=off
+
+ * Improve accuracy of graph eigenvalues (Rob Beezer) -- New routines compute eigenvalues and eigenvectors of integer matrices more precisely than before. Rather than convert adjacency matrices of graphs to computations over the real or complex fields, adjacency matrices are retained as matrices over the integers, yielding more accurate and informative results for eigenvalues, eigenvectors, and eigenspaces. Here is a comparison involving the computation of graph spectrum:
+ {{{#!python numbers=off
+# BEFORE
+
+sage: g = graphs.CycleGraph(8); g
+Cycle graph: Graph on 8 vertices
 sage: g.spectrum()
 
-[2, 1.414213562373095?, 1.414213562373095?, 0, 0, -1.414213562373095?, -1.414213562373095?, -2]
-    }}}
+[-2.0,
+ -1.41421356237,
+ -1.41421356237,
+ 4.02475820828e-18,
+ 6.70487495185e-17,
+ 1.41421356237,
+ 1.41421356237,
+ 2.0]
 
-    *  Similar comments apply to eigenvectors.
-    {{{#!python numbers=off
+
+# AFTER
+
+sage: g = graphs.CycleGraph(8); g
+Cycle graph: Graph on 8 vertices
+sage: g.spectrum()
+[2, 1.414213562373095?, 1.414213562373095?, 0, 0, -1.414213562373095?, -1.414213562373095?, -2]
+ }}}
+ Integer eigenvalues are now exact, irrational eigenvalues are more precise than previously, making multiplicities easier to determine. Similar comments apply to eigenvectors:
+ {{{#!python numbers=off
 sage: g.eigenvectors()
 
 [(2, [
@@ -276,10 +300,10 @@ sage: g.eigenvectors()
   [(1, 0, -1, -1.414213562373095?, -1, 0, 1, 1.414213562373095?),
    (0, 1, 1.414213562373095?, 1, 0, -1, -1.414213562373095?, -1)],
   2)]
-   }}}
+ }}}
 
-    *  Eigenspaces are exact, in that they can be expressed as vector spaces over number fields.  When the defining polynomial has several roots, the eigenspaces are not repeated.  Previously eigenspaces were "fractured" owing to slight computational differences in identical eigenvalues.  In concert with {{{eigenvectors()}}} this command illuminates the structure of a graph's eigenspaces more than purely numerical results.
-    {{{#!python numbers=off
+ Eigenspaces are exact, in that they can be expressed as vector spaces over number fields.  When the defining polynomial has several roots, the eigenspaces are not repeated. Previously, eigenspaces were "fractured" owing to slight computational differences in identical eigenvalues. In concert with {{{eigenvectors()}}}, this command illuminates the structure of a graph's eigenspaces more than purely numerical results.
+ {{{#!python numbers=off
 sage: g.eigenspaces()
 
 [
@@ -297,9 +321,10 @@ User basis matrix:
 User basis matrix:
 [  1   0  -1 -a3  -1   0   1  a3]
 [  0   1  a3   1   0  -1 -a3  -1])
-    }}}
+]
+ }}}
 
-    *  Complex eigenvalues (of digraphs) previously were missing their imaginary parts.  This bug has been fixed as part of this ticket.
+ Complex eigenvalues (of digraphs) previously were missing their imaginary parts. This issue has been fixed as part of the improvement in calculating graph eigenvalues.
 
 
 == Graphics ==
