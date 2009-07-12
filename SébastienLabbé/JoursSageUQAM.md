@@ -1,5 +1,7 @@
 = Jours Sage à l'UQAM =
 
+== Organisateur : Sébastien Labbé ==
+
 == 14, 15 et 16 juillet 2009 ==
 
 Local : ...
