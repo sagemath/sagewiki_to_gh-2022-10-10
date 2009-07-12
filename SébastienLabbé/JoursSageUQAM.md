@@ -47,3 +47,5 @@ Liens vers python, sage, ...
 || Démonstration des fonctionnalités de dessins de Sage (plot, plot3d, etc.) + exercices. ||
 ||<|2> 10:30-11:00 || '''L'outil interact''' ||
 || Démonstration de l'outil interact + exercices. ||
+||<|2> 11:00-12:00 || '''Théorie des groupes''' ||
+|| Démo.... ||
