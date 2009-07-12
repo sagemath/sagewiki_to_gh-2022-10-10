@@ -708,27 +708,64 @@ sage: RealField(100)(glaisher)
 == Packages ==
 
 
- * Upgrade [[http://www.singular.uni-kl.de|Singular]] to version singular-3-1-0-2-20090620 with support for compiling with GCC 4.4.
+ * New package [[http://code.google.com/p/mpmath/|mpmath]] version 0.12 for multiprecision floating-point arithmetic (Fredrik Johannson, Mike Hansen) -- The Python package mpmath is now a standard package of Sage. Functions in mpmath can be called from Sage using the library under {{{sage/libs/mpmath}}}, with automatic data conversion between Sage and mpmath.
 
 
- * FIXME: summarize #6359
- * FIXME: summarize #6196
- * FIXME: summarize #6276
- * FIXME: summarize #5517
- * FIXME: summarize #5854
- * FIXME: summarize #5866
- * FIXME: summarize #5867
- * FIXME: summarize #5868
- * FIXME: summarize #5869
- * FIXME: summarize #5870
- * FIXME: summarize #5872
- * FIXME: summarize #5874
- * FIXME: summarize #5875
- * FIXME: summarize #6281
- * FIXME: summarize #6470
- * FIXME: summarize #6470
- * FIXME: summarize #6492
- * FIXME: summarize #6408
+ * New package [[http://www.mathe2.uni-bayreuth.de/stoll/programs/|Ratpoints]] version 2.1.2 for computing rational points on hyperelliptic curves (Robert Miller, Michael Stoll) -- The C package Ratpoints is now a standard spkg. The corresponding library file is {{{sage/libs/ratpoints.pyx}}}.
+
+
+ * Upgrade [[http://www.singular.uni-kl.de|Singular]] to version singular-3-1-0-2-20090620 with support for compiling with GCC 4.4 (Andrzej Giniewicz, Martin Albrecht, Craig Citro).
+
+
+ * Upgrade Sage's [[http://www.python.org|Python]] spkg to the 2.6.x series (Mike Hansen).
+
+
+ * Upgrade [[http://twistedmatrix.com|Twisted]] to version 8.2.0 latest upstream release (Mike Hansen).
+
+
+ * Upgrade [[http://www.scons.org|SCons]] to version 1.2.0 latest upstream release (Mike Hansen).
+
+
+ * Update the [[http://pynac.sagemath.org|Pynac]] spkg to version pynac-0.1.8.p1.spkg (Mike Hansen).
+
+
+ * Update the [[http://ipython.scipy.org|IPython]] spkg to version ipython-0.9.1.p0.spkg (Mike Hansen).
+
+
+ * Update the [[http://math-atlas.sourceforge.net/|ATLAS]] spkg to version atlas-3.8.3.p5.spkg (David Kirkby).
+
+
+ * Update the [[http://abel.ee.ucla.edu/cvxopt/|CVXOPT]] spkg to version cvxopt-0.9.p8.spkg (Gonzalo Tornaria).
+
+
+ * Update the [[http://www.freetype.org|FreeType]] spkg to version freetype-2.3.5.p1.spkg (Peter Jeremy).
+
+
+ * Update the [[http://www.libgd.org|GD]] spkg to version gd-2.0.35.p2.spkg (Peter Jeremy).
+
+
+ * Update the [[http://www.gnupg.org|libgcrypt]] spkg to version libgcrypt-1.4.3.p1.spkg (Peter Jeremy).
+
+
+ * Update the [[http://www.gnupg.org|libgpg_error]] spkg to version libgpg_error-1.6.p1.spkg (Peter Jeremy).
+
+
+ * Update the [[http://www.linbox.org|linbox]] spkg to version linbox-1.1.6.p0.spkg (Peter Jeremy).
+
+
+ * Update the [[http://www.shoup.net/ntl/|NTL]] spkg to version ntl-5.4.2.p8.spkg (Peter Jeremy).
+
+
+ * Update the [[http://tiswww.case.edu/php/chet/readline/rltop.html|Readline]] spkg to version readline-5.2.p7.spkg (Peter Jeremy).
+
+
+ * Update the [[http://jedi.ks.uiuc.edu/~johns/raytracer/|Tachyon]] spkg to version tachyon-0.98beta (Peter Jeremy).
+
+
+ * Update the [[http://www.math.ucf.edu/~reid/Rubik/optimal_solver.html|Rubik]] spkg to version rubiks-20070912.p9.spkg (William Stein) -- This adds support for compiling Rubiks in parallel.
+
+
+ * Update the [[http://pypi.python.org/pypi/python-gnutls|python-gnutls]] spkg to version python_gnutls-1.1.4.p5.spkg (William Stein).
 
 
 == P-adics ==
