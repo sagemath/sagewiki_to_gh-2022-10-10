@@ -144,7 +144,7 @@ sage: chi([3, 2])([5, 4, 3, 2, 1])
 }}}
  See the documentation of {{{SymmetricGroupRepresentation}}} and  {{{SymmetricGroupRepresentations}}} for more information and examples.
 
- * Yang-Baxter Graphs (Franco Saliola) -- Besides being used for constructing the irreducible matrix representations of the symmetric group, Yang-Baxter graphs can also be used to construct the Cayley graph of a finite group. For example:
+ * Yang-Baxter graphs (Franco Saliola) -- Besides being used for constructing the irreducible matrix representations of the symmetric group, Yang-Baxter graphs can also be used to construct the Cayley graph of a finite group. For example:
     {{{#!python numbers=off
 sage: def left_multiplication_by(g):
 ....:     return lambda h : h*g
