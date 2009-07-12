@@ -614,7 +614,9 @@ It made it easier for rebasing (next step).
 
 === 12. Rebase to the latest version of sage (incorporating any changes made to the current code in Sage while we were developing) (done) ===
 
-=== 13. Create a ticket on the sage trac ===
+=== 13. Create a ticket on the sage trac (done) ===
+
+This is ticket [[http://trac.sagemath.org/sage_trac/ticket/6519|#6519]].
 
 = Discussions made at Orsay =
 
