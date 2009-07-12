@@ -1,3 +1,5 @@
+#6261, #5882
+
 = Sage 4.1 Release Tour =
 
 Sage 4.1 was released on July 09, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-4.1.txt|sage-4.1.txt]]. A nicely formatted version of this release tour can be found at FIXME. The following points are some of the foci of this release:
@@ -329,7 +331,7 @@ User basis matrix:
 
 
  * Plot histogram improvement (David Joyner) -- Some improvements to the {{{plot_histogram()}}} function of the class {{{IndexedSequence}}} in {{{sage/gsl/dft.py}}}. The default colour of the histogram is blue:
- {{{
+ {{{#!python numbers=off
 sage: J = range(3)
 sage: A = [ZZ(i^2)+1 for i in J]
 sage: s = IndexedSequence(A, J)
@@ -337,31 +339,110 @@ sage: s.plot_histogram()
  }}}
 {{attachment:histogram-blue.png}}
  You can now change the colour of the histogram with the argument {{{clr}}}:
- {{{
+ {{{#!python numbers=off
 sage: s.plot_histogram(clr=(1,0,0))
  }}}
 {{attachment:histogram-red.png}}
  and even use the argument {{{eps}}} to change the width of the spacing between the bars:
- {{{
+ {{{#!python numbers=off
 sage: s.plot_histogram(clr=(1,0,1), eps=0.3)
  }}}
 {{attachment:histogram-pink.png}}
 
 
-== Group Theory ==
-
-
-== Interfaces ==
-
-
- * FIXME: summarize #4313
-
-
 == Linear Algebra ==
 
 
- * FIXME: summarize #6261
- * FIXME: summarize #5882
+ * Multiplicative order for matrices over finite fields (Yann Laigle-Chapuy) -- New method {{{multiplicative_order()}}} in the class {{{Matrix}}} of {{{sage/matrix/matrix0.pyx}}} for computing the multiplicative order of a matrix. Here are some examples on using the new method {{{multiplicative_order()}}}:
+ {{{#!python numbers=off
+sage: A = matrix(GF(59), 3, [10,56,39,53,56,33,58,24,55])
+sage: A.multiplicative_order()
+580
+sage: (A^580).is_one()
+True
+sage: B = matrix(GF(10007^3, 'b'), 0)
+sage: B.multiplicative_order()
+1
+sage: E = MatrixSpace(GF(11^2, 'e'), 5).random_element()
+sage: (E^E.multiplicative_order()).is_one()
+True
+ }}}
+ 
+
+ * A general package for finitely generated not-necessarily free R-modules (William Stein, David Loeffler ) -- This consists of the following new Sage modules:
+
+  * {{{sage/modules/fg_pid/fgp_element.py}}} -- Elements of finitely generated modules over a principal ideal domain. Here are some examples:
+ {{{#!python numbers=off
+sage: V = span([[1/2,1,1], [3/2,2,1], [0,0,1]], ZZ)
+sage: W = V.span([2*V.0+4*V.1, 9*V.0+12*V.1, 4*V.2])
+sage: Q = V/W
+sage: x = Q(V.0-V.1); x
+(0, 3)
+sage: type(x)
+<class 'sage.modules.fg_pid.fgp_element.FGP_Element'>
+sage: x is Q(x)
+True
+sage: x.parent() is Q
+True
+sage: Q
+Finitely generated module V/W over Integer Ring with invariants (4, 12)
+sage: Q.0.additive_order()
+4
+sage: Q.1.additive_order()
+12
+sage: (Q.0+Q.1).additive_order()
+12
+ }}}
+
+  * {{{sage/modules/fg_pid/fgp_module.py}}} -- Finitely generated modules over a principal ideal domain. Currently, on the principal ideal domain {{{ZZ}}} of integers is supported. Here are some examples:
+ {{{#!python numbers=off
+sage: V = span([[1/2,1,1], [3/2,2,1], [0,0,1]], ZZ)
+sage: W = V.span([2*V.0+4*V.1, 9*V.0+12*V.1, 4*V.2])
+sage: import sage.modules.fg_pid.fgp_module
+sage: Q = sage.modules.fg_pid.fgp_module.FGP_Module(V, W)
+sage: type(Q)
+<class 'sage.modules.fg_pid.fgp_module.FGP_Module_class'>
+sage: Q is sage.modules.fg_pid.fgp_module.FGP_Module(V, W, check=False)
+True
+sage: X = ZZ**2 / span([[3,0],[0,2]], ZZ)
+sage: X.linear_combination_of_smith_form_gens([1])
+(1)
+sage: Q
+Finitely generated module V/W over Integer Ring with invariants (4, 12)
+sage: Q.gens()
+((1, 0), (0, 1))
+sage: Q.coordinate_vector(-Q.0)
+(-1, 0)
+sage: Q.coordinate_vector(-Q.0, reduce=True)
+(3, 0)
+sage: Q.cardinality()
+48
+ }}}
+
+  * {{{sage/modules/fg_pid/fgp_morphism.py}}} -- Morphisms between finitely generated modules over a principal ideal domain. Here are some examples:
+ {{{#!python numbers=off
+sage: V = span([[1/2,1,1],[3/2,2,1],[0,0,1]],ZZ)
+sage: W = V.span([2*V.0+4*V.1, 9*V.0+12*V.1, 4*V.2])
+sage: Q = V/W; Q
+Finitely generated module V/W over Integer Ring with invariants (4, 12)
+sage: phi = Q.hom([Q.0+3*Q.1, -Q.1]); phi
+Morphism from module over Integer Ring with invariants (4, 12) to module with invariants (4, 12) that sends the generators to [(1, 3), (0, 11)]
+sage: phi(Q.0) == Q.0 + 3*Q.1
+True
+sage: phi(Q.1) == -Q.1
+True
+sage: Q.hom([0, Q.1]).kernel()
+Finitely generated module V/W over Integer Ring with invariants (4)
+sage: A = Q.hom([Q.0, 0]).kernel(); A
+Finitely generated module V/W over Integer Ring with invariants (12)
+sage: Q.1 in A
+True
+sage: phi = Q.hom([Q.0-3*Q.1, Q.0+Q.1])
+sage: A = phi.kernel(); A
+Finitely generated module V/W over Integer Ring with invariants (4)
+sage: phi(A)
+Finitely generated module V/W over Integer Ring with invariants ()
+ }}}
 
 
 == Miscellaneous ==
