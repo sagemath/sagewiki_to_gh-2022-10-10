@@ -82,18 +82,14 @@ sage: %timeit a.quo_rem(b)
 
 == Combinatorics ==
 
- 1. '''Irreducible matrix representations of symmetric groups (Ticket #5878)'''. FrancoSaliola, based on the [[http://www-igm.univ-mlv.fr/~al|Alain Lascoux]] article 
- [[http://phalanstere.univ-mlv.fr/~al/ARTICLES/ProcCrac.ps.gz|Young representations of the symmetric group]], 
- added support for constructing irreducible representations of the symmetric group.
+ * Irreducible matrix representations of symmetric groups (Franco Saliola) -- Support for constructing irreducible representations of the symmetric group. This is based on [[http://www-igm.univ-mlv.fr/~al|Alain Lascoux's]] article [[http://phalanstere.univ-mlv.fr/~al/ARTICLES/ProcCrac.ps.gz|Young representations of the symmetric group]]. The following types of representations are supported:
 
- Three types of representations have been implemented.
-
-    * '''Specht representations'''. The matrices have integer entries.
+    * Specht representations -- The matrices have integer entries:
     {{{#!python numbers=off
-sage: chi = SymmetricGroupRepresentation([3,2])
+sage: chi = SymmetricGroupRepresentation([3, 2]); chi
 Specht representation of the symmetric group corresponding to [3, 2]
+sage: chi([5, 4, 3, 2, 1])
 
-sage: chi([5,4,3,2,1])
 [ 1 -1  0  1  0]
 [ 0  0 -1  0  1]
 [ 0  0  0 -1  1]
@@ -101,24 +97,22 @@ sage: chi([5,4,3,2,1])
 [ 0  1  0 -1  1]
 }}}
 
-    * '''Young's seminormal representation'''. The matrices have rational entries.
+    * Young's seminormal representation -- The matrices have rational entries:
     {{{#!python numbers=off
-sage: snorm = SymmetricGroupRepresentation([2,1], "seminormal")
-sage: snorm
+sage: snorm = SymmetricGroupRepresentation([2, 1], "seminormal"); snorm
 Seminormal representation of the symmetric group corresponding to [2, 1]
+sage: snorm([1, 3, 2])
 
-sage: snorm([1,3,2])
 [-1/2  3/2]
 [ 1/2  1/2]
 }}}
 
-    * '''Young's orthogonal representation''' (the matrices are orthogonal). These matrices are defined over Sage's {{{Symbolic Ring}}}.
+    * Young's orthogonal representation (the matrices are orthogonal) -- These matrices are defined over Sage's {{{Symbolic Ring}}}:
     {{{#!python numbers=off
-sage: ortho = SymmetricGroupRepresentation([3,2], "orthogonal")
-sage: ortho
+sage: ortho = SymmetricGroupRepresentation([3, 2], "orthogonal"); ortho
 Orthogonal representation of the symmetric group corresponding to [3, 2]
+sage: ortho([1, 3, 2, 4, 5])
 
-sage: ortho([1,3,2,4,5])
 [          1           0           0           0           0]
 [          0        -1/2 1/2*sqrt(3)           0           0]
 [          0 1/2*sqrt(3)         1/2           0           0]
@@ -126,53 +120,43 @@ sage: ortho([1,3,2,4,5])
 [          0           0           0 1/2*sqrt(3)         1/2]
 }}}
 
- One can also create the {{{CombinatorialClass}}} of all irreducible matrix representations of a given symmetric group.
- Then particular representations can be created by providing partitions. For example:
+ You can also create the {{{CombinatorialClass}}} of all irreducible matrix representations of a given symmetric group. Then particular representations can be created by providing partitions. For example:
     {{{#!python numbers=off
-sage: chi = SymmetricGroupRepresentations(5)
-sage: chi
+sage: chi = SymmetricGroupRepresentations(5); chi
 Specht representations of the symmetric group of order 5! over Integer Ring
-
 sage: chi([5]) # the trivial representation
 Specht representation of the symmetric group corresponding to [5]
-sage: chi([5])([2,1,3,4,5])
+sage: chi([5])([2, 1, 3, 4, 5])
 [1]
-
-sage: chi([1,1,1,1,1]) # the sign representation
+sage: chi([1, 1, 1, 1, 1]) # the sign representation
 Specht representation of the symmetric group corresponding to [1, 1, 1, 1, 1]
-sage: chi([1,1,1,1,1])([2,1,3,4,5])
+sage: chi([1, 1, 1, 1, 1])([2, 1, 3, 4, 5])
 [-1]
-
-sage: chi([3,2])
+sage: chi([3, 2])
 Specht representation of the symmetric group corresponding to [3, 2]
-sage: chi([3,2])([5,4,3,2,1])
+sage: chi([3, 2])([5, 4, 3, 2, 1])
+
 [ 1 -1  0  1  0]
 [ 0  0 -1  0  1]
 [ 0  0  0 -1  1]
 [ 0  1 -1 -1  1]
 [ 0  1  0 -1  1]
 }}}
+ See the documentation of {{{SymmetricGroupRepresentation}}} and  {{{SymmetricGroupRepresentations}}} for more information and examples.
 
- See the documentation {{{SymmetricGroupRepresentation?}}} and
- {{{SymmetricGroupRepresentations?}}} for more information and examples.
-
- 1. '''Yang-Baxter Graphs (Ticket #5878)'''.
- Ticket #5878 (irreducible matrix representations of the symmetric group) also
- introduced support for Yang-Baxter graphs. Besides being used for constructing
- those representations, they can also be used to construct the Cayley graph
- of a finite group:
+ * Yang-Baxter Graphs (Franco Saliola) -- Besides being used for constructing the irreducible matrix representations of the symmetric group, Yang-Baxter graphs can also be used to construct the Cayley graph of a finite group. For example:
     {{{#!python numbers=off
 sage: def left_multiplication_by(g):
-...       return lambda h : h*g
-
+....:     return lambda h : h*g
+....: 
 sage: G = AlternatingGroup(4)
 sage: operators = [ left_multiplication_by(gen) for gen in G.gens() ]
 sage: Y = YangBaxterGraph(root=G.identity(), operators=operators); Y
 Yang-Baxter graph with root vertex ()
 sage: Y.plot(edge_labels=False)
 }}}
-
- and to construct the permutahedron:
+{{attachment:cayley-graph.png}}
+ Yang-Baxter graphs can also be used to construct the permutahedron:
     {{{#!python numbers=off
 sage: from sage.combinat.yang_baxter_graph import SwapIncreasingOperator
 sage: operators = [SwapIncreasingOperator(i) for i in range(3)]
@@ -180,9 +164,8 @@ sage: Y = YangBaxterGraph(root=(1,2,3,4), operators=operators); Y
 Yang-Baxter graph with root vertex (1, 2, 3, 4)
 sage: Y.plot()
 }}}
-
- See the documentation {{{YangBaxterGraph?}}} for more information and
- examples.
+{{attachment:permutahedron.png}}
+ See the documentation of {{{YangBaxterGraph}}} for more information and examples.
 
 
 == Commutative Algebra ==
