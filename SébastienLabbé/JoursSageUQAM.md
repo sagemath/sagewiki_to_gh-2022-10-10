@@ -61,7 +61,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 14:00-14:30 || '''Sage et LaTeX''' ||
 || Nous présenterons comment utiliser sage dans des documents LaTeX via le paquetage optionnel sagetex. ||
 ||<|2> 15:00-15:30 || '''Café du LaCIM''' ||
-|| Les participants sont invités au Café du LaCIM au local PK-4214. Café et collations seront servis. ||
+|| Les participants sont invités au Café du LaCIM au local PK-4214 où Lise, secrétaire du LaCIM, nous accueillera. Café et collations seront servis. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
 || * Créer une classe Matrice et implémenter la somme et le produit. * Continuer les feuilles de travail de Franco Saliola. * Projet Euler. * Devoirs de Stein. ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Jeudi le 16 juillet 2009||
