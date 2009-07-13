@@ -41,20 +41,20 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 || Ceci sera une présentation générale sur Sage qui expliquera l'histoire et les motivations du projet. Nous montrerons plusieurs exemples d'utilisation de Sage. Liens à ajouter. ||
 || 10:30-11:00 || Pause ||
 ||<|2> 11:00-12:00 || '''Introduction à Python 1''' ||
-|| Nous présenterons les objets de base du langage python : int, float, str, list, tuple, dict. Aussi : map et filter. Nous présenterons comment définir une fonction et comment utiliser un fichier pour les définir. ||
+|| Nous présenterons les objets de base du langage python : int, float, str, list, tuple, dict. Aussi : map, filter et list-comprehension. Parcours d'une liste avec une boucle. Nous présenterons comment définir une fonction et comment utiliser un fichier pour les définir. ||
 || 12:00-13:30 || Dîner ||
-||<|2> 13:30-14:00 || '''Façons d'utiliser Sage.''' à déplacer plus tard ||
-|| Nous verrons comment utiliser Sage avec plus d'habiletés avec chacune des façons suivantes : 1. La ligne de commande. 2. Le notebook.  3. Par internet (suggéré pour les utilisateurs de Windows). ||
-||<|2> 14:00-15:00 || '''Comment fait-on ceci en Sage?''' ||
-|| Obtenir de l'aide dans Sage: Tutoriels, Sage-Wiki, ?, ??, *mot*?, sage-support, search_doc, search_src, search_def, ... ||
+||<|2> 13:30-14:00 || '''Comment fait-on ceci en Sage?''' ||
+|| Obtenir de l'aide dans Sage: La touche TAB et Complétion automatique, Tutoriels, Sage-Wiki, ?, ??, *mot*?, sage-support, search_doc, search_src, search_def, ... ||
+||<|2> 14:00-15:00 || '''Exercices''' ||
+|| 1. Trouver 3 exemples dans le Tutoriel et tester-les.  2. Trouver 3 exemples dans le Sage-Wiki et tester-les. 3. Feuilles de travail ??? du site web de Franco Saliola. ||
 ||<|2> 15:00-15:30 || '''Dessinner avec Sage''' ||
 || Démonstration des fonctionnalités de dessins de Sage (plot, plot3d, etc.) + exercices. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
-|| Séance d'exercices. Plusieurs liens à ajouter. Projet Euler, Devoirs de Stein, etc.||
+|| 1. Dessiner le graphe de votre fonction favorite. 2. Trouver un exemple de dessin dans le Sage-Wiki et tester-les. 3. Feuilles de travail ??? du site web de Franco Saliola. ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mercredi le 15 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
 ||<|2> 9:00-12:00 || '''Temps libre et exercices''' ||
-|| (Note: Le présentateur sera absent durant cet avant-midi. Le laboratoire sera disponible pour les participants.) Séance d'exercices. Plusieurs liens à ajouter. Projet Euler, Devoirs de Stein, etc.||
+|| (Note: Le présentateur sera absent durant cet avant-midi. Le laboratoire sera disponible pour les participants.) 1. Feuilles de travail ??? du site de Franco Saliola. 2. Créer un compte sur Projet Euler et résoudre tous les problèmes! 3. Exercices supplémentaires : Répondre aux questions des devoirs du cours ??? donné par William Stein en ???. ||
 ||<|2> 13:30-14:00 || '''Introduction à Python 2''' ||
 || Nous présenterons les classes en python. ||
 ||<|2> 14:00-14:30 || '''Sage et LaTeX''' ||
@@ -62,7 +62,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 15:00-15:30 || '''Café du LaCIM''' ||
 || Les participants sont invités au Café du LaCIM au local PK-4214. Café et collations seront servis. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
-|| Séance d'exercices. Plusieurs liens à ajouter. Projet Euler, Devoirs de Stein, etc.||
+|| 1. Créer une classe Matrice et implémenter la somme et le produit. 2. Continuer les feuilles de travail de Franco Saliola. 3. Projet Euler. 4. Devoirs de Stein. ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Jeudi le 16 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
 ||<|2> 9:30-10:00 || '''Cython''' ||
@@ -71,5 +71,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 || Démonstration de l'outil interact + exercices. ||
 ||<|2> 11:00-12:00 || '''Théorie des groupes''' ||
 || Démo.... ||
-||<|2> 13:30-17:00 || '''À déterminer''' ||
-|| ... ||
+||<|2> 13:30-14:00 || '''Façons d'utiliser Sage efficacement''' ||
+|| Nous verrons comment utiliser Sage avec plus d'habiletés avec chacune des façons suivantes : 1. La ligne de commande. 2. Le notebook.  3. Par internet (suggéré pour les utilisateurs de Windows). ||
+||<|2> 14:00-17:00 || '''À déterminer... ''' ||
+|| Exercices et démonstrations selon les demandes des participants. ||
