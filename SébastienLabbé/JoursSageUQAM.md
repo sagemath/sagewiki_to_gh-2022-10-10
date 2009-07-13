@@ -4,10 +4,9 @@
 
 == 14, 15 et 16 juillet 2009 ==
 
-Local : ... à déterminer (sera indiqué ici vers midi, le 13 juillet. Il suffit que je discute avec le technicien.)
+=== Local : PK-S1570, salle E. On y accède via la porte PK-M500 au niveau métro (près de la rue Jeanne-Mance). ===
 
-Se veut accessible à tous...
-Nous n'assumons pas que les participants ont déjà une expérience avec Sage.
+La formation se veut accessible à tous. Nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage.
 
 Info sur le répertoire partagé...
 
