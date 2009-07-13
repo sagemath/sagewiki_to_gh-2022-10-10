@@ -47,13 +47,11 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 13:30-14:00 || '''Comment fait-on ceci en Sage?''' ||
 || Obtenir de l'aide dans Sage: La touche TAB et Complétion automatique, Tutoriels, Sage-Wiki, ?, ??, *mot*?, sage-support, search_doc, search_src, search_def, ... ||
 ||<|2> 14:00-15:00 || '''Exercices''' ||
-|| * Trouver 3 exemples dans le Tutoriel et tester-les.  
- * Trouver 3 exemples dans le Sage-Wiki et tester-les.
- * Feuilles de travail "Getting Help",   "Lists" et "First steps towards programming" du cours de Franco Saliola (voir lien ci-haut). ||
+|| 1. Trouver 3 exemples dans le Tutoriel et tester-les.  2. Trouver 3 exemples dans le Sage-Wiki et tester-les. 3. Feuilles de travail "Getting Help",   "Lists" et "First steps towards programming" du cours de Franco Saliola (voir lien ci-haut). ||
 ||<|2> 15:00-15:30 || '''Calcul, dessins et interact''' ||
 || Démonstration des fonctionnalités de dessins de Sage (plot, plot3d, etc.). La présentation ici sera basée sur celle de Franco Saliola. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
-|| * Dessiner le graphe de votre fonction favorite. * Trouver un exemple de dessin dans le Sage-Wiki et tester-les. * Feuilles de travail "Calculus, plotting and interact" du site web de Franco Saliola. ||
+|| 1. Dessiner le graphe de votre fonction favorite. 2. Trouver un exemple de dessin dans le Sage-Wiki et tester-les. 3. Feuilles de travail "Calculus, plotting and interact" du site web de Franco Saliola. ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mercredi le 15 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
 ||<|2> 9:00-12:00 || '''Temps libre et exercices''' ||
