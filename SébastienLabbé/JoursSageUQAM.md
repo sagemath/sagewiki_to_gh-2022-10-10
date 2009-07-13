@@ -53,7 +53,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 9:00-9:30 ||'''Arrivée des participants.''' ||
 || Mot de bienvenue. Distribution des mots de passe. ||
 ||<|2> 9:30-10:30 || '''Introduction à Sage''' ||
-|| Ceci sera une présentation générale sur Sage qui expliquera l'histoire et les motivations du projet. Nous montrerons plusieurs exemples d'utilisation de Sage. Nous utiliserons des [[http://wiki.sagemath.org/Talks|présentations sur Sage]] déjà fait par d'autres ||
+|| Ceci sera une présentation générale sur Sage qui expliquera l'histoire et les motivations du projet. Nous montrerons plusieurs exemples d'utilisation de Sage. Nous utiliserons des [[http://wiki.sagemath.org/Talks|présentations sur Sage]] déjà fait par d'autres. Note à moi-même : Commencer par celle de Franco, ensuite celle de Martin et terminer par celle de William. ||
 || 10:30-11:00 || Pause ||
 ||<|2> 11:00-12:00 || '''Introduction à Python 1''' ||
 || Nous présenterons les objets de base du langage python : int, float, str, list, tuple, dict. Aussi : map, filter et list-comprehension. Parcours d'une liste avec une boucle. Nous présenterons comment définir une fonction et comment utiliser un fichier pour les définir. ||
