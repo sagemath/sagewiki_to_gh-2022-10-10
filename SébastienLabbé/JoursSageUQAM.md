@@ -14,6 +14,7 @@ Info sur le répertoire partagé...
 
 Liens vers python, sage, à ajouter ici....
 
+Calcul symbolique.
 
 ATTENTION : L'horaire en encore en construction!!!
 
