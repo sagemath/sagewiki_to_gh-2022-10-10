@@ -59,7 +59,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 || Nous présenterons les objets de base du langage python : int, float, str, list, tuple, dict. Aussi : map, filter et list-comprehension. Parcours d'une liste avec une boucle. Nous présenterons comment définir une fonction et comment utiliser un fichier pour les définir. ||
 || 12:00-13:30 || Dîner ||
 ||<|2> 13:30-14:00 || '''Comment fait-on ceci en Sage?''' ||
-|| Obtenir de l'aide dans Sage: La touche TAB et Complétion automatique, Tutoriels, Sage-Wiki, ?, ??, *mot*?, sage-support, search_doc, search_src, search_def, ... ||
+|| Obtenir de l'aide dans Sage: La touche TAB et Complétion automatique, [[http://www.sagemath.org/help.html|Help Web Page]],Tutoriels, Sage-Wiki, ?, ??, *mot*?, sage-support, search_doc, search_src, search_def, ... ||
 ||<|2> 14:00-15:00 || '''Exercices''' ||
 || 1. Trouver 3 exemples dans le Tutoriel et tester-les.  2. Trouver 3 exemples dans le Sage-Wiki et tester-les. 3. Feuilles de travail "Getting Help",   "Lists" et "First steps towards programming" du cours de Franco Saliola (voir lien ci-haut). ||
 ||<|2> 15:00-15:30 || '''Calcul, dessins et interact''' ||
