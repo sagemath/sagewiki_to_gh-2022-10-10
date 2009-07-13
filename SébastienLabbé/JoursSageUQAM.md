@@ -1,6 +1,4 @@
-= Jours Sage à l'UQAM =
-
-= 14, 15 et 16 juillet 2009 =
+= Jours Sage à l'UQAM -- 14, 15 et 16 juillet 2009 =
 
 === Local : PK-S1570, salle E. On y accède via la porte PK-M500 au niveau métro (près de la rue Jeanne-Mance) ===
 
