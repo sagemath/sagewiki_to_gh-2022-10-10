@@ -4508,6 +4508,16 @@ eklmnhost\.com
 il\.mahidol\.ac\.th
 nmxxkmzgonko\.com
 johnmoan1\.freehostia\.com
+warezboard\.seothaithai\.com
+mooselodgeproductions\.com
+tenormedia\.com
+forums\.sellyoursitefast\.com
+forum\.dreamaboutchina\.com
+nikonisti\.ro
+redeseducativaspade\.com
+quantulus\.com
+guineaonline\.com
+globalunitedsavings\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
