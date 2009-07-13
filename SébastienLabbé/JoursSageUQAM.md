@@ -1,22 +1,42 @@
-= Jours Sage à l'UQAM -- 14, 15 et 16 juillet 2009 =
+= Jours Sage au LaCIM (UQAM) -- 14, 15 et 16 juillet 2009 =
+
+== Lieu ==
 
 === Local : PK-S1570, salle E. On y accède via la porte PK-M500 au niveau métro (près de la rue Jeanne-Mance) ===
 [[http://www.uqam.ca/campus/pavillons/pk.htm|Carte du campus]]
 
-=== Organisé par Sébastien Labbé ===
+=== Organisé par Sébastien Labbé en colaboration avec le LaCIM ===
+
+Dans le cadre de son École d'été, le LaCIM organise les """Jours Sage au LaCIM""" et ceci pour une deuxième année consécutive. En effet, FrancoSaliola alors PostDoc au LaCIM avait organisé une semaine sur Sage en mai 2008. Cette année, la formation est donnée par Sébastien Labbé, étudiant au doctorat en mathématiques. Les professeurs comme les étudiants sont invités. Comme l'an passé, la formation sur Sage se veut accessible à tous, c'est-à-dire que nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage. À l'image des Sage Days, les Jours Sage au LaCIM seront très interactifs et les participants auront beaucoup de temps pour expérimenter la théorie présentée.
+
+Liens :
+
+[[http://www.lacim.uqam.ca/|Laboratoire de Combinatoire et d'Informatique Mathématique (LaCIM)]]
+[[http://www.uqam.ca/|Université du Québec à Montréal (UQAM)]]
+
+== Connexion aux terminaux ==
+
+Pour vous connecter aux terminaux, veuillez suivre les indications suivantes :
+1. À l'écran de SUN, cliquez sur Options > Connexion à distance > Entrer le nom de la machine distante.
+2. Ecrire 'chicoree'
+3. Le nom d'utilisateur et le mot de passe vous sera fourni sur place. Vous conserverez le meme toute la semaine.
 
 
-La formation se veut accessible à tous. Nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage. À l'image des Sage Days, les Jours Sage à l'UQAM seront très interactifs. Les participants auront beaucoup de temps pour expérimenter la théorie présentée.
+== Informations sur le répertoire partagé ==
 
+à ajouter...
 
-Info sur le répertoire partagé...
+== Liens vers python, sage ==
 
+ à ajouter ici....
 
-Liens vers python, sage, à ajouter ici....
+== Thèmes à aborder au cours de la semaine et demandes spéciales ==
 
 Calcul symbolique.
 
-ATTENTION : L'horaire en encore en construction!!!
+== Horaire ==
+
+ATTENTION : L'horaire est encore en construction et est sujet à changement.
 
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mardi le 14 juillet 2009||
 ||<|2> 9:00-9:30 ||'''Arrivée des participants.''' ||
