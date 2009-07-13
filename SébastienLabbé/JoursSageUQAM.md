@@ -4,16 +4,18 @@
 
 == 14, 15 et 16 juillet 2009 ==
 
-Local : ...
+Local : ... à déterminer (sera indiqué ici vers midi, le 13 juillet. Il suffit que je discute avec le technicien.)
 
 Se veut accessible à tous...
 Nous n'assumons pas que les participants ont déjà une expérience avec Sage.
 
-Répertoire partagé...
+Info sur le répertoire partagé...
 
 
-Liens vers python, sage, ...
+Liens vers python, sage, à ajouter ici....
 
+
+ATTENTION : L'horaire en encore en construction!!!
 
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mardi le 14 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
