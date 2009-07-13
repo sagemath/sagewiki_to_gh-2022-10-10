@@ -23,9 +23,23 @@ Pour vous connecter aux terminaux, veuillez suivre les indications suivantes :
 
 à ajouter...
 
-== Liens vers python, sage ==
+== Liens ==
 
- à ajouter ici....
+Sage
+
+    * [[http://www.sagemath.org/|La page web de Sage]]
+
+Python
+
+    * [[http://www.python.org/|La page web de Python]]
+    * [[http://doc.python.org/tut|The Python tutorial]]: great place to start learning about Python.
+    * [[http://diveintopython.adrahon.org/|Plongez au coeur de Python]] (en français).
+    * [[http://www.poromenos.org/tutorials/python|Learn Python in 10 minutes]]
+
+Autre
+
+    * [[http://www.projecteuler.net/|Project Euler]]: Problèms et défis mathématiques et informatiques. Ils nous serviront d'exercices.
+    * [[http://www-irma.u-strasbg.fr/~saliola/sage/SienaLectures/|Introduzione a Sage]]: Cours sur Sage donné par Franco Saliola en mai dernier.
 
 == Thèmes à aborder au cours de la semaine ne faisant pas encore partie de l'horaire et autres demandes spéciales ==
 
