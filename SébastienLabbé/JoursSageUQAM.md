@@ -13,9 +13,10 @@ Dans le cadre de son École d'été, le [[http://www.lacim.uqam.ca/|Laboratoire 
 == Connexion aux terminaux ==
 
 Pour vous connecter aux terminaux, veuillez suivre les indications suivantes :
- # À l'écran de SUN, cliquez sur Options > Connexion à distance > Entrer le nom de la machine distante.
- # Ecrire 'chicoree' et ceci ouvrira l'écran de Fedora.
- # Le nom d'utilisateur et le mot de passe vous sera fourni sur place. Vous conserverez le meme toute la semaine.
+
+ * À l'écran de SUN, cliquez sur Options > Connexion à distance > Entrer le nom de la machine distante.
+ * Ecrire 'chicoree' et ceci ouvrira l'écran de Fedora.
+ * Le nom d'utilisateur et le mot de passe vous sera fourni sur place. Vous conserverez le meme toute la semaine.
 
 
 == Informations sur le répertoire partagé ==
