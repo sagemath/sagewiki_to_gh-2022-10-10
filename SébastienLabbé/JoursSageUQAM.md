@@ -26,7 +26,7 @@ Pour vous connecter aux terminaux, veuillez suivre les indications suivantes :
 
  à ajouter ici....
 
-== Thèmes à aborder au cours de la semaine et demandes spéciales ==
+== Thèmes à aborder au cours de la semaine ne faisant pas encore partie de l'horaire et autres demandes spéciales ==
 
 Calcul symbolique.
 
