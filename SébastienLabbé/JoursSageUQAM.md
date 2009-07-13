@@ -8,7 +8,7 @@ On y accède via la porte PK-M500 au niveau métro (près de la rue Jeanne-Mance
 
 === Organisé par Sébastien Labbé et le LaCIM ===
 
-Dans le cadre de son École d'été, le [[http://www.lacim.uqam.ca/|Laboratoire de Combinatoire et d'Informatique Mathématique (LaCIM)]] organise les Jours Sage au LaCIM et ceci pour une deuxième année consécutive à l'[[http://www.uqam.ca/|Université du Québec à Montréal (UQAM)]]. En effet, FrancoSaliola alors post doc au LaCIM avait organisé une semaine sur Sage en mai 2008. Cette année, la formation est donnée par SébastienLabbé, étudiant au doctorat en mathématiques. Les professeurs comme les étudiants sont invités. Comme l'an passé, la formation sur Sage se veut accessible à tous, c'est-à-dire que nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage. À l'image des Sage Days, les Jours Sage au LaCIM seront très interactifs et les participants auront beaucoup de temps pour expérimenter la théorie présentée.
+Dans le cadre de son École d'été, le [[http://www.lacim.uqam.ca/|Laboratoire de Combinatoire et d'Informatique Mathématique (LaCIM)]] organise les Jours Sage au LaCIM et ceci pour une deuxième année consécutive à l'[[http://www.uqam.ca/|Université du Québec à Montréal (UQAM)]]. En effet, FrancoSaliola alors post doc au LaCIM avait organisé une semaine sur Sage en mai 2008. Cette année, la formation est donnée par SébastienLabbé, étudiant au doctorat en mathématiques. Les professeurs comme les étudiants sont invités. Comme l'an passé, la formation sur Sage se veut accessible à tous, c'est-à-dire que nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage. À l'image des Sage Days, les Jours Sage au LaCIM seront très interactifs et les participants auront beaucoup de temps pour expérimenter la théorie présentée. Les exercices qui seront proposés au cours de la semaine seront basés sur un le cours [[http://www-irma.u-strasbg.fr/~saliola/sage/SienaLectures/|Introduzione a Sage]] donné par FrancoSaliola en mai dernier à Sienne, en Italie.
 
 == Connexion aux terminaux ==
 
@@ -46,15 +46,15 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 13:30-14:00 || '''Comment fait-on ceci en Sage?''' ||
 || Obtenir de l'aide dans Sage: La touche TAB et Complétion automatique, Tutoriels, Sage-Wiki, ?, ??, *mot*?, sage-support, search_doc, search_src, search_def, ... ||
 ||<|2> 14:00-15:00 || '''Exercices''' ||
-|| 1. Trouver 3 exemples dans le Tutoriel et tester-les.  2. Trouver 3 exemples dans le Sage-Wiki et tester-les. 3. Feuilles de travail ??? du site web de Franco Saliola. ||
-||<|2> 15:00-15:30 || '''Dessinner avec Sage''' ||
-|| Démonstration des fonctionnalités de dessins de Sage (plot, plot3d, etc.) + exercices. ||
+|| 1. Trouver 3 exemples dans le Tutoriel et tester-les.  2. Trouver 3 exemples dans le Sage-Wiki et tester-les. 3. Feuilles de travail "Getting Help",   "Lists" et "First steps towards programming" du cours de Franco Saliola (voir lien ci-haut). ||
+||<|2> 15:00-15:30 || '''Calcul, dessins et interact''' ||
+|| Démonstration des fonctionnalités de dessins de Sage (plot, plot3d, etc.). La présentation ici sera basée sur celle de Franco Saliola. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
-|| 1. Dessiner le graphe de votre fonction favorite. 2. Trouver un exemple de dessin dans le Sage-Wiki et tester-les. 3. Feuilles de travail ??? du site web de Franco Saliola. ||
+|| 1. Dessiner le graphe de votre fonction favorite. 2. Trouver un exemple de dessin dans le Sage-Wiki et tester-les. 3. Feuilles de travail "Calculus, plotting and interact" du site web de Franco Saliola. ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mercredi le 15 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
 ||<|2> 9:00-12:00 || '''Temps libre et exercices''' ||
-|| (Note: Le présentateur sera absent durant cet avant-midi. Le laboratoire sera disponible pour les participants.) 1. Feuilles de travail ??? du site de Franco Saliola. 2. Créer un compte sur Projet Euler et résoudre tous les problèmes! 3. Exercices supplémentaires : Répondre aux questions des devoirs du cours ??? donné par William Stein en ???. ||
+|| (Note: Le présentateur sera absent durant cet avant-midi. Le laboratoire sera disponible pour les participants.) 1. Feuilles de travail "The 3n+1 Conjecture", "Dictionaries and Graph Theory" et "Strings and the Burrows-Wheeler Transform" du site de Franco Saliola. 2. Créer un compte sur Projet Euler et résoudre tous les problèmes! 3. Exercices supplémentaires : Répondre aux questions des devoirs du cours ??? donné par William Stein en ???. ||
 ||<|2> 13:30-14:00 || '''Introduction à Python 2''' ||
 || Nous présenterons les classes en python. ||
 ||<|2> 14:00-14:30 || '''Sage et LaTeX''' ||
