@@ -6,7 +6,8 @@
 === Organisé par Sébastien Labbé ===
 
 
-La formation se veut accessible à tous. Nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage.
+La formation se veut accessible à tous. Nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage. À l'image des Sage Days, les Jours Sage à l'UQAM seront très interactifs. Les participants auront beaucoup de temps pour expérimenter la théorie présentée.
+
 
 Info sur le répertoire partagé...
 
@@ -41,9 +42,9 @@ ATTENTION : L'horaire en encore en construction!!!
 ||<|2> 13:30-14:00 || '''Introduction à Python 2''' ||
 || Nous présenterons les classes en python. ||
 ||<|2> 14:00-14:30 || '''Sage et LaTeX''' ||
-|| Nous présenterons comment utiliser sage dans des documents LaTeX via le pacquetage optionnel sagetex. ||
+|| Nous présenterons comment utiliser sage dans des documents LaTeX via le paquetage optionnel sagetex. ||
 ||<|2> 15:00-15:30 || '''Café du LaCIM''' ||
-|| Tout le monde est invité au Café du LaCIM au local .. (à confirmer!!). ||
+|| Les participants sont invités au Café du LaCIM au local PK-4214. Café et collations seront servis. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
 || Séance d'exercices. Plusieurs liens à ajouter. Projet Euler, Devoirs de Stein, etc.||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Jeudi le 16 juillet 2009||
