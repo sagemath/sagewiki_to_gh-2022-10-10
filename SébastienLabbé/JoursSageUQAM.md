@@ -23,7 +23,7 @@ Liens vers python, sage, ...
 ||<|2> 11:00-12:00 || '''Introduction à Python 1''' ||
 || Nous présenterons les objets de base du langage python : int, float, str, list, tuple, dict. Nous présenterons comment définir une fonction et comment utiliser un fichier pour les définir. ||
 || 12:00-13:30 || Dîner ||
-||<|2> 13:30-14:00 || '''Façons d'utiliser Sage.''' ||
+||<|2> 13:30-14:00 || '''Façons d'utiliser Sage.''' à déplacer plus tard ||
 || Nous verrons comment utiliser Sage avec plus d'habiletés avec chacune des façons suivantes : 1. La ligne de commande. 2. Le notebook.  3. Par internet (suggéré pour les utilisateurs de Windows). ||
 ||<|2> 14:00-15:00 || '''Comment fait-on ceci en Sage?''' ||
 || Obtenir de l'aide dans Sage: Tutoriels, Sage-Wiki, ?, ??, *mot*?, sage-support, search_doc, search_src, search_def, ... ||
