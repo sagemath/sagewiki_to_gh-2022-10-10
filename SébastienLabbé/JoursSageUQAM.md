@@ -24,7 +24,7 @@ ATTENTION : L'horaire en encore en construction!!!
 || Ceci sera une présentation générale sur Sage qui expliquera l'histoire et les motivations du projet. Nous montrerons plus exemples d'utilisation de Sage. Liens à ajouter. ||
 || 10:30-11:00 || Pause ||
 ||<|2> 11:00-12:00 || '''Introduction à Python 1''' ||
-|| Nous présenterons les objets de base du langage python : int, float, str, list, tuple, dict. Nous présenterons comment définir une fonction et comment utiliser un fichier pour les définir. ||
+|| Nous présenterons les objets de base du langage python : int, float, str, list, tuple, dict. Aussi : map et filter. Nous présenterons comment définir une fonction et comment utiliser un fichier pour les définir. ||
 || 12:00-13:30 || Dîner ||
 ||<|2> 13:30-14:00 || '''Façons d'utiliser Sage.''' à déplacer plus tard ||
 || Nous verrons comment utiliser Sage avec plus d'habiletés avec chacune des façons suivantes : 1. La ligne de commande. 2. Le notebook.  3. Par internet (suggéré pour les utilisateurs de Windows). ||
