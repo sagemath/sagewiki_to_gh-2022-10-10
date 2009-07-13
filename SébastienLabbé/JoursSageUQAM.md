@@ -87,6 +87,6 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 11:00-12:00 || '''Théorie des groupes''' ||
 || Démo.... ||
 ||<|2> 13:30-14:00 || '''Façons d'utiliser Sage efficacement''' ||
-|| Nous verrons comment utiliser Sage avec plus d'habiletés avec chacune des façons suivantes : 1. La ligne de commande. 2. Le notebook.  3. Par internet (suggéré pour les utilisateurs de Windows). ||
+|| Nous verrons comment utiliser Sage avec plus d'habiletés avec chacune des façons suivantes : 1. La ligne de commande. 2. Le notebook.  3. Par internet (suggéré pour les utilisateurs de Windows). Voir aussi les [[http://wiki.sagemath.org/Tips|conseils]] sur le Sage-Wiki. ||
 ||<|2> 14:00-17:00 || '''À déterminer... ''' ||
 || Exercices et démonstrations selon les demandes des participants. ||
