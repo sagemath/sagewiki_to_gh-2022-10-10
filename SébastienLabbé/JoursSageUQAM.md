@@ -1,10 +1,10 @@
 = Jours Sage à l'UQAM -- 14, 15 et 16 juillet 2009 =
 
 === Local : PK-S1570, salle E. On y accède via la porte PK-M500 au niveau métro (près de la rue Jeanne-Mance) ===
+[[http://www.uqam.ca/campus/pavillons/pk.htm|Carte du campus]]
 
 === Organisé par Sébastien Labbé ===
 
-[[http://www.uqam.ca/campus/pavillons/pk.htm|Carte du campus]]
 
 La formation se veut accessible à tous. Nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage.
 
