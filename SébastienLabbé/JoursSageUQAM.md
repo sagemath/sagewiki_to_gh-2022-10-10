@@ -1,15 +1,14 @@
 = Jours Sage au LaCIM (UQAM) -- 14, 15 et 16 juillet 2009 =
 
-== Lieu ==
 
-=== Local : PK-S1570, salle E. On y accède via la porte PK-M500 au niveau métro (près de la rue Jeanne-Mance) ===
+=== Local : PK-S1570, salle E. ===
+
+On y accède via la porte PK-M500 au niveau métro (près de la rue Jeanne-Mance).
 [[http://www.uqam.ca/campus/pavillons/pk.htm|Carte du campus]]
 
 === Organisé par Sébastien Labbé en colaboration avec le LaCIM ===
 
-Dans le cadre de son École d'été, le LaCIM organise les """Jours Sage au LaCIM""" et ceci pour une deuxième année consécutive. En effet, FrancoSaliola alors PostDoc au LaCIM avait organisé une semaine sur Sage en mai 2008. Cette année, la formation est donnée par Sébastien Labbé, étudiant au doctorat en mathématiques. Les professeurs comme les étudiants sont invités. Comme l'an passé, la formation sur Sage se veut accessible à tous, c'est-à-dire que nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage. À l'image des Sage Days, les Jours Sage au LaCIM seront très interactifs et les participants auront beaucoup de temps pour expérimenter la théorie présentée.
-
-Liens :
+Dans le cadre de son École d'été, le LaCIM organise les *Jours Sage au LaCIM* et ceci pour une deuxième année consécutive. En effet, FrancoSaliola alors PostDoc au LaCIM avait organisé une semaine sur Sage en mai 2008. Cette année, la formation est donnée par Sébastien Labbé, étudiant au doctorat en mathématiques. Les professeurs comme les étudiants sont invités. Comme l'an passé, la formation sur Sage se veut accessible à tous, c'est-à-dire que nous n'assumons pas que les participants ont déjà une expérience avec Python ou avec Sage. À l'image des Sage Days, les Jours Sage au LaCIM seront très interactifs et les participants auront beaucoup de temps pour expérimenter la théorie présentée.
 
 [[http://www.lacim.uqam.ca/|Laboratoire de Combinatoire et d'Informatique Mathématique (LaCIM)]]
 [[http://www.uqam.ca/|Université du Québec à Montréal (UQAM)]]
