@@ -32,7 +32,7 @@ Sage
 Python
 
     * [[http://www.python.org/|La page web de Python]]
-    * [[http://doc.python.org/tut|The Python tutorial]]: great place to start learning about Python.
+    * [[http://python.ftp-developpez.com/cours/TutoVanRossum/fichiers/TutorielPython.pdf|Tutoriel Python]]: Traduction française du Tutoriel Python.
     * [[http://diveintopython.adrahon.org/|Plongez au coeur de Python]] (en français).
     * [[http://www.poromenos.org/tutorials/python|Learn Python in 10 minutes]]
 
