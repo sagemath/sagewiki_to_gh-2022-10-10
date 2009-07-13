@@ -228,11 +228,11 @@ Below are timings between the new 'words_ng' code and the code in Sage
 versions 4.1 and earlier. In the following comparisons, the old code was
 loaded as the module {{{wold.}}}.
 
-'''NOTE:''' the examples below involving the cpp_basic_string datatype are
+'''NOTE: the examples below involving the cpp_basic_string datatype are
 not part of the patch for trac ticket
 [[http://trac.sagemath.org/sage_trac/ticket/6519|#6519]]. A patch
 implementing the cpp_basic_string datatype will be included in a separate
-ticket.
+ticket.'''
 
 Creation of small words:
 
