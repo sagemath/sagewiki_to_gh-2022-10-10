@@ -13,9 +13,9 @@ Dans le cadre de son École d'été, le [[http://www.lacim.uqam.ca/|Laboratoire 
 == Connexion aux terminaux ==
 
 Pour vous connecter aux terminaux, veuillez suivre les indications suivantes :
-1. À l'écran de SUN, cliquez sur Options > Connexion à distance > Entrer le nom de la machine distante. \\
-2. Ecrire 'chicoree' et ceci ouvrira l'écran de Fedora. \\
-3. Le nom d'utilisateur et le mot de passe vous sera fourni sur place. Vous conserverez le meme toute la semaine.
+ # À l'écran de SUN, cliquez sur Options > Connexion à distance > Entrer le nom de la machine distante.
+ # Ecrire 'chicoree' et ceci ouvrira l'écran de Fedora.
+ # Le nom d'utilisateur et le mot de passe vous sera fourni sur place. Vous conserverez le meme toute la semaine.
 
 
 == Informations sur le répertoire partagé ==
@@ -46,11 +46,11 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 13:30-14:00 || '''Comment fait-on ceci en Sage?''' ||
 || Obtenir de l'aide dans Sage: La touche TAB et Complétion automatique, Tutoriels, Sage-Wiki, ?, ??, *mot*?, sage-support, search_doc, search_src, search_def, ... ||
 ||<|2> 14:00-15:00 || '''Exercices''' ||
-|| 1. Trouver 3 exemples dans le Tutoriel et tester-les.  2. Trouver 3 exemples dans le Sage-Wiki et tester-les. 3. Feuilles de travail "Getting Help",   "Lists" et "First steps towards programming" du cours de Franco Saliola (voir lien ci-haut). ||
+|| * Trouver 3 exemples dans le Tutoriel et tester-les.  * Trouver 3 exemples dans le Sage-Wiki et tester-les. * Feuilles de travail "Getting Help",   "Lists" et "First steps towards programming" du cours de Franco Saliola (voir lien ci-haut). ||
 ||<|2> 15:00-15:30 || '''Calcul, dessins et interact''' ||
 || Démonstration des fonctionnalités de dessins de Sage (plot, plot3d, etc.). La présentation ici sera basée sur celle de Franco Saliola. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
-|| 1. Dessiner le graphe de votre fonction favorite. 2. Trouver un exemple de dessin dans le Sage-Wiki et tester-les. 3. Feuilles de travail "Calculus, plotting and interact" du site web de Franco Saliola. ||
+|| * Dessiner le graphe de votre fonction favorite. * Trouver un exemple de dessin dans le Sage-Wiki et tester-les. * Feuilles de travail "Calculus, plotting and interact" du site web de Franco Saliola. ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mercredi le 15 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
 ||<|2> 9:00-12:00 || '''Temps libre et exercices''' ||
@@ -62,7 +62,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 15:00-15:30 || '''Café du LaCIM''' ||
 || Les participants sont invités au Café du LaCIM au local PK-4214. Café et collations seront servis. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
-|| 1. Créer une classe Matrice et implémenter la somme et le produit. 2. Continuer les feuilles de travail de Franco Saliola. 3. Projet Euler. 4. Devoirs de Stein. ||
+|| * Créer une classe Matrice et implémenter la somme et le produit. * Continuer les feuilles de travail de Franco Saliola. * Projet Euler. * Devoirs de Stein. ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Jeudi le 16 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
 ||<|2> 9:30-10:00 || '''Cython''' ||
