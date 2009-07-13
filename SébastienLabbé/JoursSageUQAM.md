@@ -39,7 +39,7 @@ Python
 Autre
 
     * [[http://www.projecteuler.net/|Project Euler]]: Problèms et défis mathématiques et informatiques. Ils nous serviront d'exercices.
-    * [[http://www-irma.u-strasbg.fr/~saliola/sage/SienaLectures/|Introduzione a Sage]]: Cours sur Sage donné par Franco Saliola en mai dernier.
+    * [[http://www-irma.u-strasbg.fr/~saliola/sage/SienaLectures/|Introduzione a Sage]]: Cours sur Sage donné par Franco Saliola en mai dernier que nous utiliserons beaucoup beaucoup. Merci à Franco!
 
 == Thèmes à aborder au cours de la semaine ne faisant pas encore partie de l'horaire et autres demandes spéciales ==
 
