@@ -19,6 +19,8 @@ ATTENTION : L'horaire en encore en construction!!!
 
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Mardi le 14 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
+||<|2> 9:00-9:30 ||'''Arrivée des participants.''' ||
+|| Mot de bienvenue. Distribution des mots de passe pour les terminaux. ||
 ||<|2> 9:30-10:30 || '''Introduction à Sage''' ||
 || Ceci sera une présentation générale sur Sage qui expliquera l'histoire et les motivations du projet. Nous montrerons plus exemples d'utilisation de Sage. Liens à ajouter. ||
 || 10:30-11:00 || Pause ||
