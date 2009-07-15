@@ -74,12 +74,12 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 || (Note: Le présentateur sera absent durant cet avant-midi. Le laboratoire sera disponible pour les participants.) 0. Terminer les exercices de mardi. 1. Feuilles de travail [[http://www-irma.u-strasbg.fr/~saliola/sage/SienaLectures/worksheets/sws/Worksheet_5___3n_1_Conjecture.sws|The 3n+1 Conjecture]], [[http://www-irma.u-strasbg.fr/~saliola/sage/SienaLectures/worksheets/sws/Worksheet_8___Dictionaries_and_Graph_Theory.sws|Dictionaries and Graph Theory]] et [[http://www-irma.u-strasbg.fr/~saliola/sage/SienaLectures/worksheets/sws/Worksheet_7___Strings_and_the_BWT.sws|Strings and the Burrows-Wheeler Transform]] du site de Franco Saliola. 2. Créer un compte sur [[http://projecteuler.net/|Projet Euler]] et résoudre tous les problèmes! 3. Exercices supplémentaires : Répondre aux questions des [[http://wiki.wstein.org/2008/480a/homework|devoirs du cours]] Math 480a Algebraic, Scientiﬁc, and Statistical Computing, an Open Source Approach Using Sage donné par William Stein au printemps 2008. Le [[http://wiki.wstein.org/2008/480a|site du cours]] contient aussi beaucoup d'informations pertinentes tel que les vidéos de tous les cours! ||
 ||<|2> 13:30-14:00 || '''Introduction à Python 2''' ||
 || Nous présenterons les classes en python. ||
-||<|2> 14:00-14:30 || '''Sage et LaTeX''' ||
+||<|2> 14:00-14:30 || '''Makefile, Sage et LaTeX''' ||
 || Nous présenterons comment utiliser sage dans des documents LaTeX via le paquetage optionnel sagetex. ||
 ||<|2> 15:00-15:30 || '''Café du LaCIM''' ||
 || Les participants sont invités au Café du LaCIM au local PK-4214 où Lise, secrétaire du LaCIM, nous accueillera. Café et collations seront servis. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
-|| * Créer une classe Matrice et implémenter la somme et le produit. * Continuer les feuilles de travail de Franco Saliola. * Projet Euler. * Devoirs de Stein. ||
+|| 1. Créer une classe Matrice et implémenter la somme et le produit. 2. Continuer les feuilles de travail de Franco Saliola. 3. Projet Euler. 4. Devoirs du cours de Stein. ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Jeudi le 16 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
 ||<|2> 9:30-10:00 || '''Cython''' ||
@@ -87,7 +87,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 10:30-11:00 || '''L'outil interact''' ||
 || Démonstration de l'outil interact + exercices. ||
 ||<|2> 11:00-12:00 || '''Théorie des groupes''' ||
-|| Démo.... ||
+|| Démo. Nous utiliserons possiblement la feuille de travail du [[http://wiki.wstein.org/2008/480a/schedule/2008-04-16|cours de W. Stein sur les groupes]]. ||
 ||<|2> 13:30-14:00 || '''Façons d'utiliser Sage efficacement''' ||
 || Nous verrons comment utiliser Sage avec plus d'habiletés avec chacune des façons suivantes : 1. La ligne de commande. 2. Le notebook.  3. Par internet (suggéré pour les utilisateurs de Windows). Voir aussi les [[http://wiki.sagemath.org/Tips|conseils]] sur le Sage-Wiki. ||
 ||<|2> 14:00-17:00 || '''À déterminer... ''' ||
