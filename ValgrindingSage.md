@@ -1,9 +1,9 @@
 = Quick and Dirty Intro =
-To use Valgrind (last verified in Sage 3.1.2):
+To use Valgrind (last verified in Sage 4.1):
 {{{
-$ tar xf sage-3.1.2.tar
+$ tar xf sage-4.1.tar
 ...
-$ cd sage-3.1.2
+$ cd sage-4.1
 $ SAGE_VALGRIND="yes"
 $ export SAGE_VALGRIND
 $ make
