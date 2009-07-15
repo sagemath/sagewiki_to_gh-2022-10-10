@@ -20,6 +20,16 @@ PEOPLE: Franco Saliola
 
 PEOPLE Nicolas Thiéry
 
+== Bug squashing! ==
+
+PEOPLE: Franco Saliola
+
+  There are bugs in Sage that need fixin':
+
+    1. [[http://trac.sagemath.org/sage_trac/ticket/6538|Bugs in Partitions]]
+    1. The wiki page [[combinat/Weirdness|quirks and weirdness in sage-combinat]] contains a list of quirks and weirdness in sage-combinat.
+    1. The [[http://trac.sagemath.org/sage_trac/query?status=assigned&status=new&status=reopened&group=status&milestone=sage-combinat|sage-combinat milestone]] lists all tickets labelled sage-combinat. 
+
 == <Project name goes here> ==
 
 PEOPLE: <list of interested participants>
