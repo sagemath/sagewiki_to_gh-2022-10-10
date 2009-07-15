@@ -80,7 +80,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 15:00-15:30 || '''Café du LaCIM''' ||
 || Les participants sont invités au Café du LaCIM au local PK-4214 où Lise, secrétaire du LaCIM, nous accueillera. Café et collations seront servis. ||
 ||<|2> 15:30-17:00 || '''Exercices''' ||
-|| 1. Créer une classe Matrice et implémenter la somme et le produit. 2. Continuer les feuilles de travail de Franco Saliola. 3. Projet Euler. 4. Devoirs du cours de Stein. ||
+|| 1. Créer une classe Matrice et implémenter la somme et le produit. 2. Continuer [[http://www-irma.u-strasbg.fr/~saliola/sage/SienaLectures/|les feuilles de travail]] de Franco Saliola. 3. Projet Euler. 4. Devoirs du cours de Stein. ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Jeudi le 16 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
 ||<|2> 9:30-10:00 || '''Cython''' ||
