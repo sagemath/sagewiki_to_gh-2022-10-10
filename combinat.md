@@ -38,9 +38,9 @@ mailing list with the error message.
 == NEWS ==
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]]
 
- * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days]] 
-   The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille will include a Sage days session. FlorentHivert, NicolasThiéry, and FrancoSaliola will be among the organizers, there will be a serious combinatorics slant. 
-   
+ * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days]]
+   The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille will include a Sage days session. FlorentHivert, NicolasThiéry, and FrancoSaliola will be among the organizers, there will be a serious combinatorics slant.
+
  * July 25-29, 2009: *-Combinat 2009
 
    We will hold an International Sage Workshop on [[combinat/FPSAC09|Free and Practical Software for Algebraic Combinatorics]] at RISC, Linz, Austria, right after [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
@@ -76,11 +76,11 @@ mailing list with the error message.
 
  * Join our mailing lists:
     * Announcement mailing list (to come)
-    * [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]: Developpers mailing list
+    * [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]: Developers' mailing list
     * [[http://groups.google.com/group/sage-combinat-commits|sage-combinat-commits]]: A low traffic mailing list which receives an automatic notice whenever a sage-combinat related ticket is modified (and eventually whenever a commit is done on the patch server).
- * Check the  [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]] 
+ * Check the  [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]]
  * Post bug reports, suggestions, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
- 
+
  * Cite Sage-Combinat when you use it for research publications (TODO: provide a standard citation here).
 
 === Code ===
