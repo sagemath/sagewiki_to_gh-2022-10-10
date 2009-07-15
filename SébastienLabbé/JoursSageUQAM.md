@@ -86,7 +86,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 9:30-10:00 || '''Cython''' ||
 || Démonstration de l'outil Cython qui permet de traduire du code python en code C. ||
 ||<|2> 10:30-11:00 || '''L'outil interact''' ||
-|| Démonstration de l'outil interact + exercices. ||
+|| Démonstration de l'outil interact + exercices. Utilisez interact? pour obtenir la documentation. ||
 ||<|2> 11:00-12:00 || '''Théorie des groupes''' ||
 || Démo. Nous utiliserons possiblement la feuille de travail du [[http://wiki.wstein.org/2008/480a/schedule/2008-04-16|cours de W. Stein sur les groupes]]. ||
 ||<|2> 13:30-14:00 || '''Façons d'utiliser Sage efficacement''' ||
