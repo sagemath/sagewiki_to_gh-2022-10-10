@@ -46,6 +46,7 @@ Autre
 Calcul symbolique.
 Codage des caractères d'un fichier python.
 Table de hashage.
+Anneau de polynômes non commutatifs.
 
 == Horaire ==
 
