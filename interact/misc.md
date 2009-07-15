@@ -244,3 +244,44 @@ def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), y
     show(labels + t_vert + b_vert+ triangle + kite + triangle_sum + kite_sum + edge_lines, axes=False, figsize = [11.0*.7, 4*.7], xmin = -6, ymin = 0, ymax = 4)
 }}}
 {{attachment:minksum.png}}
+
+== Cellular Automata ==
+by Pablo Angulo
+
+{{{
+%cython
+from numpy import zeros
+
+def cellular(rule, int N):
+    '''Yields a matrix showing the evolution of a Wolfram's cellular automaton
+    
+    rule:     determines how a cell's value is updated, depending on its neighbors
+    N:        number of iterations
+    '''
+    cdef int j,k,l
+    M=zeros( (N,2*N+1), dtype=int)
+    M[0,N]=1  
+    
+    for j in range(1,N):
+        for k in range(N-j,N+j+1):
+            l = 4*M[j-1,k-1] + 2*M[j-1,k] + M[j-1,k+1]
+            M[j,k]=rule[ l ]
+    return M
+}}}
+{{{
+def num2rule(number):
+    if not (0 <= number <= 255):
+        raise Exception('Invalid rule number')
+    binary_digits = number.digits(base=2)
+    return binary_digits + [0]*(8-len(binary_digits))
+
+@interact
+def _( N=input_box(label='Number of iterations',default=100),
+       rule_number=input_box(label='Rule number',default=110),
+       size = slider(1, 11, step_size=1, default=6 ) ):
+    rule = num2rule(rule_number)
+    M = cellular(rule, N)
+    plot_M = matrix_plot(M)
+    plot_M.show( figsize=[size,size])
+}}}
+{{attachment:cellular.png}}
