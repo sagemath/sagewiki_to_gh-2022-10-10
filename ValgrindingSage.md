@@ -1,5 +1,5 @@
 = Quick and Dirty Intro =
-To use Valgrind in Sage 3.1.2:
+To use Valgrind (last verified in Sage 3.1.2):
 {{{
 $ tar xf sage-3.1.2.tar
 ...
@@ -8,7 +8,7 @@ $ SAGE_VALGRIND="yes"
 $ export SAGE_VALGRIND
 $ make
 }}}
-You may also want to change `$SAGE_LOCAL/lib/python/config/Makefile` to have optimization `-O0` for easier to read stack traces.
+You may also want to change `$SAGE_LOCAL/lib/python/config/Makefile` to have optimization `-O0` for easier to read stack traces. After doing this, you will need to do a `sage -ba`, of course.
 
 After installing the Sage optional package "valgrind*," you can test interactive sessions:
 {{{
