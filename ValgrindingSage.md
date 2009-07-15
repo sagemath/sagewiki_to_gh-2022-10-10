@@ -10,7 +10,7 @@ $ make
 }}}
 You may also want to change `$SAGE_LOCAL/lib/python/config/Makefile` to have optimization `-O0` for easier to read stack traces.
 
-After this, you can test interactive sessions:
+After installing the Sage optional package "valgrind*," you can test interactive sessions:
 {{{
 $ ./sage -valgrind
 }}}
