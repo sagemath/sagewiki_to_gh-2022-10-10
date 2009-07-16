@@ -19,9 +19,9 @@ Pour vous connecter aux terminaux, veuillez suivre les indications suivantes :
  * Le nom d'utilisateur et le mot de passe vous sera fourni sur place. Vous conserverez le meme toute la semaine.
 
 
-== Informations sur le répertoire partagé ==
+== Informations sur les répertoires partagés ==
 
-à ajouter...
+Les participants peuvent accéder aux documents (aliments.py, dossier sagelatex) via le répertoire /homelocal/partage/ . Les participants peuvent partager des fichiers entre eux via le répertoire /homelocal/partage/etudiants/ .
 
 == Liens ==
 
