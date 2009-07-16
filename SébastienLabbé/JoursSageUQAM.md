@@ -84,7 +84,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Jeudi le 16 juillet 2009||
 || 9:00 ||'''Arrivée des participants.''' ||
 ||<|2> 9:30-10:00 || '''Cython''' ||
-|| Démonstration de l'outil Cython qui permet de traduire du code python en code C. ||
+|| Démonstration de l'outil Cython qui permet de traduire du code python en code C. Consultez l'exemple presente en classe ici : [[attachment:Huard_cythone.sws]] ||
 ||<|2> 10:30-11:00 || '''L'outil interact''' ||
 || Démonstration de l'outil interact + exercices. Utilisez interact? pour obtenir la documentation. ||
 ||<|2> 11:00-12:00 || '''Théorie des groupes''' ||
