@@ -90,7 +90,7 @@ ATTENTION : L'horaire est encore en construction et est sujet à changement.
 ||<|2> 11:00-12:00 || '''Théorie des groupes''' ||
 || Démo. Nous utiliserons possiblement la feuille de travail du [[http://wiki.wstein.org/2008/480a/schedule/2008-04-16|cours de W. Stein sur les groupes]]. ||
 ||<|2> 13:30-14:00 || '''Façons d'utiliser Sage efficacement''' ||
-|| Nous verrons comment utiliser Sage avec plus d'habiletés avec chacune des façons suivantes : 1. La ligne de commande. 2. Le notebook.  3. Par internet (suggéré pour les utilisateurs de Windows). Voir aussi les [[http://wiki.sagemath.org/Tips|conseils]] sur le Sage-Wiki. ||
+|| Nous verrons comment utiliser Sage avec plus d'habiletés avec chacune des façons suivantes : 1. La ligne de commande (utilisation de la commande attach, de la barre de soulignement pour obtenir le dernier calcul, de l'historique, du point d'exclamation (!) pour faire des commandes du terminal et plus encore... 2. Le notebook (dans ce dernier, cliquez sur Help en haut à droite pour obtenir les conseils). 3. Par internet via [[www.sagenb.org]] (suggéré pour les utilisateurs de Windows). Voir aussi les [[http://wiki.sagemath.org/Tips|conseils]] sur le Sage-Wiki. ||
 ||<|2> 14:00-14:30 || '''Calcul symbolique avec Sage''' ||
 || [[http://wiki.wstein.org/2008/480a/schedule/2008-05-21b|Présentation sur le Calcul Symbolique]] de William Stein. ||
 ||<|2> 14:00-17:00 || '''À déterminer... ''' ||
