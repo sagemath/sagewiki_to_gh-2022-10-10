@@ -12,7 +12,7 @@ Sage 4.1 was released on July 09, 2009. For the official, comprehensive release 
  * Miscellaneous: optimized Sudoku solver; a decorator for declaring abstract methods; support Unicode in LaTeX cells (notebook); and optimized integer division
  * Number theory: improved random element generation for number field orders and ideals; support Michael Stoll's ratpoints package; and elliptic exponential
  * Numerical: computing numerical values of constants using mpmath
- * Update/upgrade 18 packages to latest upstream releases
+ * Update/upgrade 19 packages to latest upstream releases
 
 
 == Algebraic Geometry ==
@@ -766,6 +766,9 @@ sage: RealField(100)(glaisher)
 
 
  * Update the [[http://pypi.python.org/pypi/python-gnutls|python-gnutls]] spkg to version python_gnutls-1.1.4.p5.spkg (William Stein).
+
+
+ * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg to version atlas-3.8.3.p5.spkg (David Kirkby).
 
 
 == Symbolics ==
