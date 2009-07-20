@@ -41,7 +41,7 @@ mailing list with the error message.
  * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days]]
    The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille will include a Sage days session. FlorentHivert, NicolasThiéry, and FrancoSaliola will be among the organizers, there will be a serious combinatorics slant.
 
- * July 25-29, 2009: *-Combinat 2009
+ * July 25-29, 2009: [[combinat/FPSAC09|*-Combinat 2009]]
 
    We will hold an International Sage Workshop on [[combinat/FPSAC09|Free and Practical Software for Algebraic Combinatorics]] at RISC, Linz, Austria, right after [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
 
