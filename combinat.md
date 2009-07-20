@@ -78,6 +78,7 @@ mailing list with the error message.
     * Announcement mailing list (to come)
     * [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]: Developers' mailing list
     * [[http://groups.google.com/group/sage-combinat-commits|sage-combinat-commits]]: A low traffic mailing list which receives an automatic notice whenever a sage-combinat related ticket is modified (and eventually whenever a commit is done on the patch server).
+    * [[http://groups.google.com/group/sage-combinat-days|sage-combinat-days]]: Mailing list for the organisation of Sage-Combinat days
  * Check the  [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]]
  * Post bug reports, suggestions, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
 
