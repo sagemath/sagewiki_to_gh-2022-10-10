@@ -4521,6 +4521,26 @@ globalunitedsavings\.com
 lakechelanalumni\.net
 forum\.fasanga\.com
 edinburgh\.craigslist\.co\.uk
+blogcelular\.net
+i0799\.com
+reagentcafe\.com
+leronimo\.com
+forum\.a2actors\.com
+forum\.money2take\.tk
+commsedu\.co\.uk
+long1985.byethost3\.com
+pictures-point\.nl
+ojodelaplata\.vox\.com
+dragon-tech\.org
+kotsos3\.livepage\.gr
+lifemind\.com
+canvaco\.org
+nightdomination\.altervista\.org
+alhorea\.com
+pardaan\.com
+tinavmurray\.com
+blazn360\.com
+gol\.mainwebsite\.org
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
 ## MoinMoin 1.6 has TextCHAs for spam prevention and they are currently very effective (no
