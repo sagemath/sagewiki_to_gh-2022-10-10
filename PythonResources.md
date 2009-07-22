@@ -28,7 +28,7 @@
  * [[http://networkx.lanl.gov/ | NetworkX]] - Complex networks and graphs [[http://networkx.lanl.gov/contents.html | docs]].
  * [[http://numpy.scipy.org/ | NumPy]] - N-dimensional arrays and routines - [[http://docs.scipy.org/doc/ | docs]].
  * [[http://pexpect.sourceforge.net/pexpect.html | Pexpect]] - Spawn and control processes.
- * [[http://www.amk.ca/python/code/crypto.html | pycrypto]] - Cryptographic algorithms and protocols.
+ * [[http://www.amk.ca/python/code/crypto.html | PyCrypto]] - Cryptographic algorithms and protocols.
  * [[http://pygments.org/ | Pygments]]  - Syntax highlighter - [[http://pygments.org/docs/ | docs]].
  * [[http://pynac.sagemath.org/ | Pynac]] - Symbolic manipulation - [[http://www.ginac.de/ | GiNaC]].
  * [[http://rpy.sourceforge.net/ | RPy]] - Statistical computing - [[http://rpy.sourceforge.net/documentation.html | docs]].
