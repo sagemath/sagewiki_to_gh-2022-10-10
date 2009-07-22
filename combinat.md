@@ -14,7 +14,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
     1. Binary installation (takes less time; only option on Windows; only works if a binary exists for your system):
 
-        * Download a binary distribution ''for your system'' from [[http://sagemath.org/download.html]] and follow the installation instructions on that page.
+        * Download a binary distribution ''for your system'' from [[http://sage.math.washington.edu/home/wstein/binaries/4.1.combinat/]] and follow the installation instructions on [[http://wiki.sagemath.org/DownloadAndInstallationGuide|there]]
 
     2. Source installation (recommended, but time-consuming; works for Linux and OSX as long as you have a compilier):
 
