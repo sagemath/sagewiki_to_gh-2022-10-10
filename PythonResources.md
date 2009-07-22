@@ -16,7 +16,7 @@
  * [[http://docs.python.org/howto/functional.html | Functional Programming HOWTO]] by A. M. Kuchling.
  * [[http://docs.python.org/howto/regex.html | Regular Expression HOWTO]] by A. M. Kuchling.
 
-== Packages included with Sage ==
+== Packages included in Sage ==
  * [[http://abel.ee.ucla.edu/cvxopt/ | CVXOPT]] - Convex optimization - [[http://abel.ee.ucla.edu/cvxopt/userguide/index.html | docs]], [[http://abel.ee.ucla.edu/cvxopt/examples/index.html | examples]].
  * [[http://newcenturycomputers.net/projects/gdmodule.html | GDmodule]] - Image graphics - [[http://www.libgd.org/Main_Page | library]].
  * [[http://ghmm.org/ | GHMM]] - Hidden Markov models - [[http://ghmm.org/Pydoc/index.html | docs]].
@@ -28,6 +28,7 @@
  * [[http://networkx.lanl.gov/ | NetworkX]] - Complex networks and graphs [[http://networkx.lanl.gov/contents.html | docs]].
  * [[http://numpy.scipy.org/ | NumPy]] - N-dimensional arrays and routines - [[http://docs.scipy.org/doc/ | docs]].
  * [[http://pexpect.sourceforge.net/pexpect.html | Pexpect]] - Spawn and control processes.
+ * [[http://www.amk.ca/python/code/crypto.html | pycrypto]] - Cryptographic algorithms and protocols.
  * [[http://pygments.org/ | Pygments]]  - Syntax highlighter - [[http://pygments.org/docs/ | docs]].
  * [[http://pynac.sagemath.org/ | Pynac]] - Symbolic manipulation - [[http://www.ginac.de/ | GiNaC]].
  * [[http://rpy.sourceforge.net/ | RPy]] - Statistical computing - [[http://rpy.sourceforge.net/documentation.html | docs]].
