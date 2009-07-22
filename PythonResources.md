@@ -25,6 +25,7 @@
  * [[http://matplotlib.sourceforge.net/ | matplotlib]] - 2D plotting - [[http://matplotlib.sourceforge.net/contents.html | docs]], [[http://matplotlib.sourceforge.net/examples/index.html | examples]], [[http://matplotlib.sourceforge.net/gallery.html | gallery]].
  * [[http://mercurial.selenic.com/wiki/ | Mercurial (hg)]] - Source control manager - [[http://hgbook.red-bean.com/read/ | book]], [[http://mercurial.selenic.com/wiki/UsingExtensions | extensions]].
  * [[http://moinmo.in/ | MoinMoin]] - Wiki engine - [[http://moinmo.in/MoinMoinExtensions | extensions]].
+ * [[http://networkx.lanl.gov/ | NetworkX]] - Complex networks and graphs [[http://networkx.lanl.gov/contents.html | docs]].
  * [[http://numpy.scipy.org/ | NumPy]] - N-dimensional arrays and routines - [[http://docs.scipy.org/doc/ | docs]].
  * [[http://pexpect.sourceforge.net/pexpect.html | Pexpect]] - Spawn and control processes.
  * [[http://pygments.org/ | Pygments]]  - Syntax highlighter - [[http://pygments.org/docs/ | docs]].
