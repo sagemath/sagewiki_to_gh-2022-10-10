@@ -6,7 +6,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 ----
 
-'''[[http://wiki.sagemath.org/combinat/MercurialStepByStep|Installation instructions]]'''
+'''[[http://wiki.sagemath.org/combinat/Installation|Installation instructions]]'''
 ----
 
 == NEWS ==
