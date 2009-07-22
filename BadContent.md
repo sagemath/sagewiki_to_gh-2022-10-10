@@ -4541,6 +4541,12 @@ pardaan\.com
 tinavmurray\.com
 blazn360\.com
 gol\.mainwebsite\.org
+com-health\.com
+genius-entertainment\.com
+lydiadeetz\.vox\.com
+pilipino\.com
+faceroll\.se
+dustie\.com
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
 ## MoinMoin 1.6 has TextCHAs for spam prevention and they are currently very effective (no
