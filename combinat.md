@@ -6,33 +6,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 ----
 
-== Installation instructions ==
-
-=== Short instructions ===
-
-'''Step 1.''' To install the experimental patches provided by Sage-combinat, you first need to install Sage. You have two options.
-
-    1. Binary installation (takes less time; only option on Windows; only works if a binary exists for your system):
-
-        * Download a binary distribution ''for your system'' from [[http://sage.math.washington.edu/home/wstein/binaries/4.1.combinat/]] and follow the [[http://wiki.sagemath.org/DownloadAndInstallationGuide|installation instructions]]
-
-    2. Source installation (recommended, but time-consuming; works for Linux and OSX as long as you have a compilier):
-
-        * Download the source code from [[http://sagemath.org/download-source.html]] and follow the installation instructions on that page.
-
-'''Step 2.''' If you really need the latest features: install the Sage-Combinat patches by running the following command ''inside the sage directory'':
-    {{{
-./sage -combinat install
-    }}}
-This works best with the latest version of Sage (4.1 as of 06/10/2009).
-If this step fails, please send an email to the
-[[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]
-mailing list with the error message.
-
-=== Long instructions ===
-
- * See the [[http://wiki.sagemath.org/combinat/MercurialStepByStep|Patch server Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
-
+'''[[http://wiki.sagemath.org/combinat/MercurialStepByStep|Installation instructions]]'''
 ----
 
 == NEWS ==
