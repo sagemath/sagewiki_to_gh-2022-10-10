@@ -48,6 +48,14 @@ NicolasBorie, AnneSchilling, NicolasThiéry
 
 Anne Schilling, FrancoSaliola, NicolasThiéry
 
+== Quickref card for sage.combinat ==
+
+JasonBandlow, FrancoSaliola, NicolasThiéry
+
+== Refactoring of symmetric functions ==
+
+JasonBandlow
+
 == <Project name goes here> ==
 
 PEOPLE: <list of interested participants>
