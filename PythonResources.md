@@ -1,3 +1,43 @@
-== Python / Cython resources == 
+= Python / Cython resources =
 
- * [[]]
+== General ==
+
+ * [[http://www.python.org | Python]] - [[http://docs.python.org | docs]], [[http://www.python.org/doc/faq/ | FAQs]], [[http://wiki.python.org/moin/ | wiki]], [[http://docs.python.org/reference/ | language]], [[http://docs.python.org/library/ | library]], [[http://docs.python.org/modindex.html | modules]], [[http://pypi.python.org/pypi | packages]], [[http://rgruet.free.fr/#QuickRef | quickref]], [[http://dir.gmane.org/gmane.comp.python.devel | python-dev]], [[http://svn.python.org/view/ | repo]], [[http://bugs.python.org/ | tracker]].
+ * [[http://www.cython.org/ | Cython]] - [[http://docs.cython.org/ | docs]], [[http://wiki.cython.org/FAQ |FAQ]], [[http://wiki.cython.org/ | wiki]], [[http://dir.gmane.org/gmane.comp.python.cython.devel | cython-dev]], [[http://hg.cython.org/ | repo]], [[http://trac.cython.org/cython_trac/ | tracker]].
+
+== Tutorials, books, etc. ==
+ * [[http://docs.python.org/tutorial/ | Official Python Tutorial]].
+ * [[http://diveintopython.org/ | Dive into Python]] by M. Pilgrim.
+ * [[http://openbookproject.net/thinkCSpy/ | How to Think Like a Computer Scientist: Learning with Python]] by J. Elkener, A. B. Downey, and C. Meyers.
+ * [[http://www.greenteapress.com/thinkpython/ | Python for Software Design]] by A. B. Downey.
+
+== Articles, HOWTOs, etc. ==
+ * [[http://pypi.python.org/pypi/decorator/3.0.1 | decorator]] by M. Simionato.
+ * [[http://docs.python.org/howto/functional.html | Functional Programming HOWTO]] by A. M. Kuchling.
+ * [[http://docs.python.org/howto/regex.html | Regular Expression HOWTO]] by A. M. Kuchling.
+
+== Packages included with Sage ==
+ * [[http://abel.ee.ucla.edu/cvxopt/ | CVXOPT]] - Convex optimization - [[http://abel.ee.ucla.edu/cvxopt/userguide/index.html | docs]], [[http://abel.ee.ucla.edu/cvxopt/examples/index.html | examples]].
+ * [[http://newcenturycomputers.net/projects/gdmodule.html | GDmodule]] - Image graphics - [[http://www.libgd.org/Main_Page | library]].
+ * [[http://ghmm.org/ | GHMM]] - Hidden Markov models - [[http://ghmm.org/Pydoc/index.html | docs]].
+ * [[http://ipython.scipy.org/moin/ | IPython]] - Enhanced interpreter - [[http://ipython.scipy.org/moin/Documentation | docs]].
+ * [[http://jinja.pocoo.org/ | Jinja]] - Template engine - [[http://jinja.pocoo.org/1/documentation/ | v1 docs]], [[http://jinja.pocoo.org/2/documentation/ | v2 docs]].
+ * [[http://matplotlib.sourceforge.net/ | matplotlib]] - 2D plotting - [[http://matplotlib.sourceforge.net/contents.html | docs]], [[http://matplotlib.sourceforge.net/examples/index.html | examples]], [[http://matplotlib.sourceforge.net/gallery.html | gallery]].
+ * [[http://mercurial.selenic.com/wiki/ | Mercurial (hg)]] - Source control manager - [[http://hgbook.red-bean.com/read/ | book]], [[http://mercurial.selenic.com/wiki/UsingExtensions | extensions]].
+ * [[http://moinmo.in/ | MoinMoin]] - Wiki engine - [[http://moinmo.in/MoinMoinExtensions | extensions]].
+ * [[http://numpy.scipy.org/ | NumPy]] - N-dimensional arrays and routines - [[http://docs.scipy.org/doc/ | docs]].
+ * [[http://pexpect.sourceforge.net/pexpect.html | Pexpect]] - Spawn and control processes.
+ * [[http://pygments.org/ | Pygments]]  - Syntax highlighter - [[http://pygments.org/docs/ | docs]].
+ * [[http://pynac.sagemath.org/ | Pynac]] - Symbolic manipulation - [[http://www.ginac.de/ | GiNaC]].
+ * [[http://rpy.sourceforge.net/ | RPy]] - Statistical computing - [[http://rpy.sourceforge.net/documentation.html | docs]].
+ * [[http://www.scipy.org/ | SciPy]] - Numerical algorithms and routines - [[http://docs.scipy.org/doc/ | docs]].
+ * [[http://sphinx.pocoo.org/ | Sphinx]] - Documentation generator - [[http://sphinx.pocoo.org/contents.html | docs]].
+ * [[http://www.sqlalchemy.org/ | SQLAlchemy]] - Database toolkit - [[http://www.sqlalchemy.org/docs/05/index.html | docs]].
+ * [[http://code.google.com/p/sympy/ | SymPy]] - Symbolic mathematics - [[http://docs.sympy.org/ | docs]], [[http://wiki.sympy.org/wiki/Main_Page | wiki]].
+ * [[http://twistedmatrix.com/trac/ | Twisted]] - Networking engine - [[http://twistedmatrix.com/trac/wiki/Documentation | docs]].
+ * [[http://www.zope.org/Products/StandaloneZODB | ZODB]] - Object database.
+
+== Other packages ==
+ * [[http://www.djangoproject.com/ | Django]] - Web framework - [[http://docs.djangoproject.com/en/dev/ | docs]].
+ * [[http://code.google.com/appengine/ | Google App Engine]] - Web framework - [[http://code.google.com/appengine/docs/python/overview.html | docs]].
+ * [[http://pyjs.org/ | Pyjamas]] - Web and desktop framework.
