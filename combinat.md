@@ -62,6 +62,10 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * The collection of patches is managed using a [[http://combinat.sagemath.org/patches/|patch server]]  (mercurial queues). Use it to try out the latest experimental features, or contribute your own patches! (You may still need to access to the  [[http://sage.math.washington.edu:2144/|old patch server]])
 
+ * Browse the [[http://combinat.sagemath.org/code/tip/sage/|Sage sources with the Sage-combinat patches applied]]
+
+ * Browse the
+
  * Please read the [[http://wiki.sagemath.org/combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
 
  * For the curious: [[http://wiki.sagemath.org/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
@@ -79,4 +83,4 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 === Documentation ===
 
- * From sage 3.4 on, the documentation system is based on ReST/Sphinx. Here are some [[combinat/HelpOnTheDoc|help about the new doc system]]
+ *  Browse the [[http://combinat.sagemath.org/doc/|Sage documentation with the Sage-combinat patches applied]]
