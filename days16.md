@@ -84,7 +84,8 @@ All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by r
 ||<|2> 12:00-13:00 ||<|2> Emmanuel&nbsp;Thomé || [[attachment:thome.pdf|'''Multiplication of binary polynomials''']] ||
 || Multiplying binary polynomials is an elementary operation which occurs as a basic primitive in several contexts, from computer algebra to coding theory and cryptography. We study here a variety of algorithms for this operation, with the intent of obtaining satisfactory speeds for a wide range of possible degrees. We look into "low level" aspects related to microprocessor-specific optimizations, and higher level algorithms such as of course the Karatsuba and Toom-Cook approaches, but also two different FFT algorithms. Several improvements are presented. We provide comparisons of the timings obtained with those of the NTL library. The software presented can, as of NTL 5.5, be hooked into NTL as an add-on. ||
 || 13:00-14:30 || Lunch || ||
-||<|2> 14:30-15:30 ||<|2> Maite&nbsp;Aranes || [[attachment:aranes.pdf|'''Manin symbols over number fields''']]  [[http://wstein.org/edu/2009/sd16/aranes-manin_symbols_over_number_fields.m4v|video]]||
+||<|2> 14:30-15:30 ||<|2> Maite&nbsp;Aranes || [[attachment:aranes.pdf|'''Manin symbols over number fields (pdf)''']] 
+[[attachment:aranes.sws|Sage worksheet]], and [[http://wstein.org/edu/2009/sd16/aranes-manin_symbols_over_number_fields.m4v|video]]||
 || I will discuss results about cusps and Manin symbols over a number field K, which should be useful in the computation of spaces of cusp forms for GL(2, K) via modular symbols. I will also present ongoing work on implementations of both of these in Sage. ||
 || 16:00-- ||Coding Sprint // Status Report ||||
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Saturday, June 26||
