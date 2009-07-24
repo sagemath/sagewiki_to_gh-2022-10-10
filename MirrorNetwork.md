@@ -35,6 +35,8 @@ At least twice a day, a mirror should check if there are updates on the master. 
 }}}
 calls the rsync_sagemath script every time the minutes in the computer clock are "00". Something like "{{{0 */2 * * * }}}" does it every second hour when the minutes are "00", "{{{0 1,9,19 * * * }}}" at full hours 1am, 9am and 7pm, ... Read the [[http://linux.die.net/man/1/crontab|man page]] for more information. The part after that just says that errors should be written into a specific file and everything else should be written nowhere. 
 
+Beware, there *has* to be a <newline> at the end of the file, not just the crontab line.
+
 A nice addition would be to write the output of the rsync task to a temporary file that is copied into the mirror as a hidden file. Then, the operators of the master server can check, if there were problems with that mirror server!
 
 === flock ===
@@ -47,7 +49,7 @@ flock -xn ./mirror_sagemath.lock rsync ....
  1. {{{./mirror_sagemath.lock}}} is the lock file
  1. then, the entire rsync command ...
 
-=== No flock??? ===
+=== No flock ??? ===
 
 It might happen that the debian package linux-utils (that holds flock) is not installed. I found a [[http://stackoverflow.com/questions/185451/quick-and-dirty-way-to-ensure-only-one-instance-of-a-shell-script-is-running-at-a|nice workaround at stackoverflow]]. This is how I use it:
 
