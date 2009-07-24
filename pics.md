@@ -532,7 +532,9 @@ animation.show(delay=animation_delay)
 
 == The witch of Maria Agnesi ==
 by Marshall Hampton
-{{{xtreme = 4.1
+
+{{{#!python numbers=none
+xtreme = 4.1
 myaxes = line([[-xtreme,0],[xtreme,0]],rgbcolor = (0,0,0))
 myaxes = myaxes + line([[0,-1],[0,2.1]],rgbcolor = (0,0,0))
 a = 1.0
@@ -551,7 +553,6 @@ am = line([[-.05,a],[.05,a]], rgbcolor = (0,0,0))
 at = text('a',[-.1,a], rgbcolor = (0,0,0))
 yt = text('y',[0,2.2], rgbcolor = (0,0,0))
 xt = text('x',[xtreme + .1,-.1], rgbcolor = (0,0,0))
-#tt = text('t',[.15,.1], rgbcolor = (0,0,0))
 matext = at+yt+xt
 ma = mac+myaxes+maL+am+matext+maL2+map1+maL3+map2
 return ma
@@ -565,6 +566,7 @@ a2 = animate([witchy(i) for i in srange(.1,npi-.1,npi/60)]+[witchy(i) for i in s
 
 a2.show()
 }}}
+
 {{attachment:witch.gif}}
 
  * I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings:
