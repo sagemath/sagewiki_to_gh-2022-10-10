@@ -56,6 +56,28 @@ JasonBandlow, FrancoSaliola, NicolasThiéry
 
 JasonBandlow
 
+== Improve Nonsymmetric Macdonald polynomials ==
+
+ * Add doctests with examples on specifying q, t, and the basement pi
+ * Add input checks for pi. Maybe accept a list as input, and make it into an appropriate permutation
+ * Maybe implement:
+{{{
+        sage: F = QQ['q,t']; (q,t) = F.gens(); F.rename('QQ(q,t)')
+        sage: P = AbstractPolynomialRing(F, 'x0,x1,x2'); P
+        The abstract ring of multivariate polynomials in x0, x1, x2 over QQ(q,t)
+        sage: m = Macdo.m; m
+        Multivariate Polynomial Ring in x0, x1, x2 over QQ(q,t)
+        sage: Macdo = P.MacdonaldPolynomials(q, t)
+        sage: E = Macdo.E(pi = [3,1,2]); E
+        Multivariate Polynomial Ring in x0, x1, x2 over QQ(q,t), in the Macdonald E basis, with basement [3,1,2]
+        sage: E[1,0,0]
+        E[1,0,0]
+        sage: m(E[1,0,0])
+        x0
+}}}
+
+People: Jeff
+
 == <Project name goes here> ==
 
 PEOPLE: <list of interested participants>
