@@ -569,6 +569,8 @@ a2.show()
 
 {{attachment:witch.gif}}
 
+== p-adic Seasons Greetings ==
+
  * I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings:
 
 {{http://sage.math.washington.edu/home/wdj/art/padic-seasons-greetings.png}}
