@@ -12,7 +12,7 @@ PEOPLE: Burcin Erocal
 
 == An example of adding a new basis to an algebra ==
 
-PEOPLE: Franco Saliola
+PEOPLE: Franco Saliola, CoryBrunson
 
   This should be a nice exercise in adding a new basis (the seminormal basis) to an algebra (the group algebra of the symmetric group). We don't even have to introduce any new code to construct the basis since it already exists in Sage, thanks to Mike Hansen. On the other hand, I do have a better implementation based on a method that Alain Lascoux explained to me, so we could use that instead.
 
@@ -42,7 +42,7 @@ FlorentHivert, FrancoSaliola, AnneSchilling, NicolasThiéry
 
 And application to parabolic subroot-systems
 
-NicolasBorie, AnneSchilling, NicolasThiéry
+NicolasBorie, AnneSchilling, NicolasThiéry, CoryBrunson
 
 == graph layout using graphviz / dot2tex optional package ==
 
@@ -59,7 +59,7 @@ JasonBandlow, FrancoSaliola, NicolasThiéry
  * Bring all symmetric functions under the SymmetricFunctions umbrella
  * Improve documentation
  
-JasonBandlow
+JasonBandlow, CoryBrunson
 
 == Improve Nonsymmetric Macdonald polynomials ==
 
