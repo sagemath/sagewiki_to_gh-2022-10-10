@@ -22,7 +22,7 @@ PEOPLE Nicolas Thiéry
 
 == Bug squashing! ==
 
-PEOPLE: Franco Saliola
+PEOPLE: Franco Saliola, Jason Bandlow
 
   There are bugs in Sage that need fixin':
 
