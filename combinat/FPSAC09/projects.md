@@ -54,6 +54,11 @@ JasonBandlow, FrancoSaliola, NicolasThiéry
 
 == Refactoring of symmetric functions ==
 
+ * Patch Symmetrica
+ * Make Lacalc spkg
+ * Bring all symmetric functions under the SymmetricFunctions umbrella
+ * Improve documentation
+ 
 JasonBandlow
 
 == Improve Nonsymmetric Macdonald polynomials ==
