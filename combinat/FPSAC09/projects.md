@@ -55,7 +55,7 @@ JasonBandlow, FrancoSaliola, NicolasThiéry
 == Refactoring of symmetric functions ==
 
  * Patch Symmetrica
- * Make Lacalc spkg
+ * Make LRcalc spkg
  * Bring all symmetric functions under the SymmetricFunctions umbrella
  * Improve documentation
  
