@@ -83,8 +83,9 @@ JasonBandlow
 
 People: Jeff
 
-== <Project name goes here> ==
+== Module for generate integer list up to the action of a permutation group ==
 
-PEOPLE: <list of interested participants>
+ * Integrate a StabChain from Gap to sage
+ * Finalise the module and submit it
 
-  <summary & goals of project>
+NicolasBorie
