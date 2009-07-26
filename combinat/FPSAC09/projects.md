@@ -65,13 +65,32 @@ JasonBandlow, CoryBrunson
 
  * Add doctests with examples on specifying q, t, and the basement pi
  * Add input checks for pi. Maybe accept a list as input, and make it into an appropriate permutation
- * Maybe implement:
+
+== Setup the framework for MultivariatePolynomials with several bases
+
 {{{
-        sage: F = QQ['q,t']; (q,t) = F.gens(); F.rename('QQ(q,t)')
+
+        Let us work over `F=\QQ(q,t)` (will be needed for Macdonald polynomials)::
+
+            sage: F = QQ['q,t']; (q,t) = F.gens(); F.rename('QQ(q,t)')
+
+    We construct an (abstract) ring of multivariate polynomials over F::
+
         sage: P = AbstractPolynomialRing(F, 'x0,x1,x2'); P
         The abstract ring of multivariate polynomials in x0, x1, x2 over QQ(q,t)
-        sage: m = Macdo.m; m
+
+    This ring has several bases, starting with the usual monomial basis::
+
+        sage: m = P.m
         Multivariate Polynomial Ring in x0, x1, x2 over QQ(q,t)
+
+        sage:: m is MultivariatePolynomialRing(F, 'x0,x1,x2')
+        True
+        
+    
+
+
+
         sage: Macdo = P.MacdonaldPolynomials(q, t)
         sage: E = Macdo.E(pi = [3,1,2]); E
         Multivariate Polynomial Ring in x0, x1, x2 over QQ(q,t), in the Macdonald E basis, with basement [3,1,2]
