@@ -74,7 +74,7 @@ People: AlainLascoux
 
 == Module for generate integer list up to the action of a permutation group ==
 
- * Integrate a StabChain from Gap to sage
+ * Integrate a StabChain from Gap to sage 
  * Finalise the module and submit it
 
-NicolasBorie
+NicolasBorie (help needed!)
