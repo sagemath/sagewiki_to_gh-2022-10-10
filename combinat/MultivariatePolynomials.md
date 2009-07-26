@@ -8,7 +8,7 @@ First micro draft
 
     Let us work over `F=\QQ(q,t)` (will be needed for Macdonald polynomials)::
 
-        sage: F = QQ['q,t']; (q,t) = F.gens(); F.rename('QQ(q,t)')
+        sage: F = FractionField(QQ['q,t']); (q,t) = F.gens(); F.rename('QQ(q,t)')
 
     We construct an (abstract) ring of multivariate polynomials over F::
 
