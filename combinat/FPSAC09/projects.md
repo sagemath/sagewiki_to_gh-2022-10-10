@@ -85,10 +85,18 @@ NicolasBorie (help needed!)
 
 People: Flavia Stan, Burcin Erocal
 
-== Standardize TransitiveIdeal TransitiveIdealGraded, SearchForest, ... ==
+== Design discussions ==
 
-[[http://sagetrac.org/sage_trac/ticket/6637]]
+ - Standardize TransitiveIdeal TransitiveIdealGraded, SearchForest, ...
 
-== Choose and implement a syntax to import standard notations from a Parent (from SymmetricFunctions(QQ).shortcuts() import *) ==
+   [[http://sagetrac.org/sage_trac/ticket/6637]]
 
-[[http://trac.sagemath.org/sage_trac/ticket/6638]]
+ - Choose and implement a syntax to import standard notations from a Parent (from SymmetricFunctions(QQ).shortcuts() import *) ==
+
+   [[http://trac.sagemath.org/sage_trac/ticket/6638]]
+
+ - Choose syntax and semantic conventions for permutations and discrete functions
+
+   [[combinat/01]]
+
+== 
