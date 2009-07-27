@@ -323,6 +323,10 @@ limit maxproc 512 2048
 ----------
  * QUESTION: When I try to use LaTeX in the notebook, it says it cannot find {{{fullpage.sty}}}!
  * ANSWER: That's not a question. But we can help you solve your problem. :) The general -- but perhaps not very helpful -- answer is that you need to install {{{fullpage.sty}}} into a directory searched by TeX. In Ubuntu (and probably many other Linux distributions), you should install the {{{texlive-latex-extra}}} package. If that's not available, try installing the {{{tetex-extra}}} package. If you are using OS X, you will have to use whatever TeX distribution you use to get {{{fullpage.sty}}} (if you use [[http://www.tug.org/mactex|MacTeX]], it's likely already installed). If you are using the VMware image in Windows, you'll need to log into the VMware image and install {{{texlive-latex-extra}}} there.
+----------
+ * QUESTION: With objects {{{a}}} and {{{b}}} and a function {{{f}}}, I accidentally typed {{{f(a) = b}}} instead of {{{f(a) == b}}}.  This returned a {{{TypeError}}} (as expected), but also deleted the object {{{a}}}.  Why?
+ * ANSWER: It's because of how functions are  defined in Sage using the {{{f(x) = expr}}} notation using the preparser.  Also notice that if you make this mistake inside of an {{{if}}} statement, you will get a {{{SyntaxError}}} before anything else goes wrong, so in this case, there is no problem.
+
 = ToDo =
  * QUESTION: Sage fails to compile on OSX 10.4
  * ANSWER: Most likely resource issue.
