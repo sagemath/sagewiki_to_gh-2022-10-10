@@ -85,6 +85,10 @@ NicolasBorie (help needed!)
 
 People: Flavia Stan, Burcin Erocal
 
-== Standardize TransitiveIdeal TransitiveIdealGraded, SearchForest, ...
+== Standardize TransitiveIdeal TransitiveIdealGraded, SearchForest, ... ==
 
 [[http://sagetrac.org/sage_trac/ticket/6637]]
+
+== Choose and implement a syntax to import standard notations from a Parent (from SymmetricFunctions(QQ).shortcuts() import *) ==
+
+[[http://trac.sagemath.org/sage_trac/ticket/6638]]
