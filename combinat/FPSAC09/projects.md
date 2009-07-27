@@ -46,6 +46,8 @@ NicolasBorie, AnneSchilling, NicolasThiéry, CoryBrunson
 
 == graph layout using graphviz / dot2tex optional package ==
 
+[[attachment:dot2tex-0.1.spkg]]
+
 Anne Schilling, FrancoSaliola, NicolasThiéry
 
 == Quickref card for sage.combinat ==
