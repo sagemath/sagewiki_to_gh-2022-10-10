@@ -84,3 +84,7 @@ NicolasBorie (help needed!)
  Use the new symbolics to implement simplification of expressions with binomials, factorials, etc. This is [[http://trac.sagemath.org/sage_trac/ticket/6636|#6636]] on trac.
 
 People: Flavia Stan, Burcin Erocal
+
+== Standardize TransitiveIdeal TransitiveIdealGraded, SearchForest, ...
+
+[[http://sagetrac.org/sage_trac/ticket/6637]]
