@@ -24,7 +24,8 @@ First micro draft
 
         sage: m = P.m
         Multivariate Polynomial Ring in x0, x1, x2 over QQ(q,t)
-
+        sage: m.basis().keys()
+        Integer vectors of length 3
         sage: x0,x1,x2 = m.gens()
 
         sage: m.term([3,1,2]) + x2^3 + 3
@@ -33,7 +34,21 @@ First micro draft
         sage:: m is MultivariatePolynomialRing(F, 'x0,x1,x2')
         True
 
-    The SchurSchubert bases (see MuPAD)::
+    The Schubert basis::
+
+        sage: Y = P.schubert() #should take an optional parameter for the second alphabet
+        sage: Y
+        Multivariate polynomials in the Schubert basis
+        sage: Y.basis().keys()
+        Integer vectors of length 3
+        sage: Y[1,0,0] * Y[0,1,0]
+        Y[1,1,0] + Y[2,0,0]
+        sage: m(Y[1,0,0])
+        x0
+
+    The 
+
+    The SchurSchubert basis (see MuPAD)::
 
         sage:: P.SchurSchubert()
 
