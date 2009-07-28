@@ -43,6 +43,7 @@
  * [[http://www.zope.org/Products/StandaloneZODB | ZODB]] - Object database.
 
 == Other packages ==
+ * [[http://biopython.org/wiki/Main_Page | Biopython]] - Bioinformatics - [[http://www.biopython.org/wiki/Documentation | docs]].
  * [[http://www.djangoproject.com/ | Django]] - Web framework - [[http://docs.djangoproject.com/en/dev/ | docs]].
  * [[http://code.google.com/appengine/ | Google App Engine]] - Web framework - [[http://code.google.com/appengine/docs/python/overview.html | docs]].
  * [[http://www.pythonware.com/products/pil/ | Python Imaging Library (PIL)]] - Image processing - [[http://www.pythonware.com/library/pil/handbook/index.htm | docs]].
