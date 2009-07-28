@@ -46,6 +46,7 @@
  * [[http://biopython.org/wiki/Main_Page | Biopython]] - Bioinformatics - [[http://www.biopython.org/wiki/Documentation | docs]].
  * [[http://www.djangoproject.com/ | Django]] - Web framework - [[http://docs.djangoproject.com/en/dev/ | docs]].
  * [[http://code.google.com/appengine/ | Google App Engine]] - Web framework - [[http://code.google.com/appengine/docs/python/overview.html | docs]].
+ * [[http://igraph.sourceforge.net/index.html | igraph]] - Graph theory and network analysis - [[http://igraph.sourceforge.net/documentation.html | docs]].
  * [[http://www.pythonware.com/products/pil/ | Python Imaging Library (PIL)]] - Image processing - [[http://www.pythonware.com/library/pil/handbook/index.htm | docs]].
  * [[http://pyjs.org/ | Pyjamas]] - Web and desktop framework.
  * [[http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS | VIPS]] - Image processing - [[http://www.vips.ecs.soton.ac.uk/index.php?title=Documentation | docs]].
