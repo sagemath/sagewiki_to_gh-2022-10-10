@@ -76,10 +76,12 @@ People: AlainLascoux
 
 == Module for generate integer list up to the action of a permutation group ==
 
- * Integrate a StabChain from Gap to sage 
- * Finalise the module and submit it
+ * Integrate a method in the gap interface to get an element in a gap record : [[http://trac.sagemath.org/sage_trac/ticket/6620]]
+ * Add transversals, orbit and stabilizer methods for permutation groups : [[http://trac.sagemath.org/sage_trac/ticket/6647]]
+ * Implement or port a StabilizerChain in Sage
+ * Finalise the module of generation and submit it
 
-NicolasBorie (help needed!)
+NicolasBorie
 
 == Implement simplify_factorial in Sage ==
 
