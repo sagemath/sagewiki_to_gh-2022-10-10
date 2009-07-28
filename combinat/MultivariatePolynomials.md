@@ -94,13 +94,10 @@ Setup the framework for MultivariatePolynomials with several bases:
         Multivariate polynomials in the key polynomial basis
         sage: G.basis().keys()
         Integer vectors of length 3
-        sage: G(x0 * (x0+x1))
-        G[0,2,0] - G[2,0,0]
-        sage: G[1,0,0] * G[0,1,0]
-        G[1,1,0] + G[2,0,0]
-        sage: m(K[0,2,0] - K[2,0,0])
-        x0^2 + x0*x1
-        # TODO: add larger examples computed with ACE!
+        sage: hK[2,4,1] * hK[2,1,3]          # x2hK(expand(K2x(hK[0,2,1]) * K2x(hK[1,0,1]))))
+        hK[1,2,2] + hK[2,1,2]
+        sage: x(hK[4,0,3])                       # K2x(hK[4,0,3])
+        x[4,2,1] + x[4,1,2] + x[4,0,3]
 
     The SchurSchubert basis (see MuPAD)::
 
