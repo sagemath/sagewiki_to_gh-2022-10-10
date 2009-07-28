@@ -4,7 +4,7 @@ Ticket [[http://sagetrac.org/sage_trac/ticket/6629|6629]]
 
 First micro draft
 {{{
-== Setup the framework for MultivariatePolynomials with several bases
+Setup the framework for MultivariatePolynomials with several bases:
 
     Let us work over `F=\QQ(q,t)` (will be needed for Macdonald polynomials)::
 
@@ -34,9 +34,13 @@ First micro draft
         sage:: m is MultivariatePolynomialRing(F, 'x0,x1,x2')
         True
 
+        sage: m.print_style(style = "vectors")
+        sage: m.term([3,1,2]) + x2^3 + 3
+        x[3,1,2] + x[0,0,3] + 3*x[0,0,0]
+
     The Schubert basis::
 
-        sage: Y = P.schubert() #should take an optional parameter for the second alphabet
+        sage: Y = P.schubert()
         sage: Y
         Multivariate polynomials in the Schubert basis
         sage: Y.basis().keys()
@@ -45,8 +49,50 @@ First micro draft
         Y[1,1,0] + Y[2,0,0]
         sage: m(Y[1,0,0])
         x0
+       # TODO: add larger examples!
 
-    The 
+# Design to be discussed in the long run
+#     One can optionaly specify an alphabet, whose elements should leave in the ground ring::
+#      sage: Y = P.schubert([x2,x1,x0])
+#    If the ground ring allows for it, the default alphabet should be [y0,y1,y2]
+
+    The key polynomials (Demazure characters)::
+
+        sage: K = P.key_polynomials(type = "A")
+        sage: K
+        Multivariate polynomials in the key polynomial basis
+        sage: K.basis().keys()
+        Integer vectors of length 3
+        sage: K(x0 * (x0+x1))
+        K[0,2,0] - K[2,0,0]
+        sage: K[1,0,0] * K[0,1,0]
+        K[1,1,0] + K[2,0,0]
+        sage: m(K[0,2,0] - K[2,0,0])
+        x0^2 + x0*x1
+        # TODO: add larger examples computed with ACE!
+
+    The Demazure atoms::
+
+        sage: HK = P.demazure_atoms(type = "A")
+
+    Or possibly::
+
+        sage: HK = K.dual()
+        sage: HK
+        Multivariate polynomials in the demazure atoms basis
+        sage: HK.dual()
+        Multivariate polynomials in the key polynomial basis
+        sage: scalar(HK[5,2,4], K[4,2,5])  # Watch for the reversal of the vector (weight)
+        1
+        sage: HK.basis().keys()
+        Integer vectors of length 3
+        sage: H
+        sage: HK[1,0,0] * HK[0,1,0]
+        K[1,1,0] + K[2,0,0]
+        sage: m(Y[1,0,0])
+        x0
+        # TODO: add larger examples!
+
 
     The SchurSchubert basis (see MuPAD)::
 
