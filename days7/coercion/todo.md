@@ -1,3 +1,8 @@
+'''This page is out of date''', for information on the coercion model, please see the 
+[[coercion|main coercion page]].
+
+----
+
 Merge up at http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/ (pull on top of 3.0.3 release candidate) Should build and start without problems. 
 
 
