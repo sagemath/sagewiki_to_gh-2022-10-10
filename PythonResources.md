@@ -4,7 +4,9 @@
 
  * [[http://www.python.org | Python]] - [[http://docs.python.org | docs]], [[http://www.python.org/doc/faq/ | FAQs]], [[http://wiki.python.org/moin/ | wiki]], [[http://docs.python.org/reference/ | language]], [[http://docs.python.org/library/ | library]], [[http://docs.python.org/modindex.html | modules]], [[http://pypi.python.org/pypi | packages]], [[http://rgruet.free.fr/#QuickRef | quickref]], [[http://dir.gmane.org/gmane.comp.python.devel | python-dev]], [[http://svn.python.org/view/ | repo]], [[http://bugs.python.org/ | tracker]].
 
- * Utilities - [[http://docs.python.org/library/errno.html | errno]], [[http://docs.python.org/library/functools.html | functools]], [[http://docs.python.org/library/gettext.html | gettext]], [[http://docs.python.org/library/glob.html | glob]], [[http://docs.python.org/library/inspect.html | inspect]], [[http://docs.python.org/library/itertools.html | itertools]], [[http://docs.python.org/library/locale.html | locale]], [[http://docs.python.org/library/logging.html | logging]], [[http://docs.python.org/library/multiprocessing.html | multiprocessing]], [[http://docs.python.org/library/optparse.html | optparse]], [[http://docs.python.org/library/os.html | os]], [[http://docs.python.org/library/os.path.html | os.path]], [[http://docs.python.org/library/pdb.html | pdb]], [[http://docs.python.org/library/pickle.html | pickle]], [[http://docs.python.org/library/re.html | re]], [[http://docs.python.org/library/shutil.html | shutil]], [[http://docs.python.org/library/string.html | string]], [[http://docs.python.org/library/subprocess.html | subprocess]], [[http://docs.python.org/library/sys.html | sys]], [[http://docs.python.org/library/tabnanny.html | tabnanny]], [[http://docs.python.org/library/threading.html | threading]], [[http://docs.python.org/library/time.html | time]], [[http://docs.python.org/library/timeit.html | timeit]], [[http://docs.python.org/library/trace.html | trace]], [[http://docs.python.org/library/traceback.html | traceback]], [[http://docs.python.org/library/urllib2.html | urllib2]].
+ * Library tools - [[http://docs.python.org/library/errno.html | errno]], [[http://docs.python.org/library/functools.html | functools]], [[http://docs.python.org/library/gettext.html | gettext]], [[http://docs.python.org/library/glob.html | glob]], [[http://docs.python.org/library/inspect.html | inspect]], [[http://docs.python.org/library/itertools.html | itertools]], [[http://docs.python.org/library/locale.html | locale]], [[http://docs.python.org/library/logging.html | logging]], [[http://docs.python.org/library/multiprocessing.html | multiprocessing]], [[http://docs.python.org/library/optparse.html | optparse]], [[http://docs.python.org/library/os.html | os]], [[http://docs.python.org/library/os.path.html | os.path]], [[http://docs.python.org/library/pdb.html | pdb]], [[http://docs.python.org/library/pickle.html | pickle]], [[http://docs.python.org/library/re.html | re]], [[http://docs.python.org/library/shutil.html | shutil]], [[http://docs.python.org/library/string.html | string]], [[http://docs.python.org/library/subprocess.html | subprocess]], [[http://docs.python.org/library/sys.html | sys]], [[http://docs.python.org/library/tabnanny.html | tabnanny]], [[http://docs.python.org/library/threading.html | threading]], [[http://docs.python.org/library/time.html | time]], [[http://docs.python.org/library/timeit.html | timeit]], [[http://docs.python.org/library/trace.html | trace]], [[http://docs.python.org/library/traceback.html | traceback]], [[http://docs.python.org/library/urllib2.html | urllib2]].
+
+ * Other tools - [[http://pychecker.sourceforge.net/ | PyChecker]], [[http://divmod.org/trac/wiki/DivmodPyflakes | PyFlakes]], [[http://www.logilab.org/project/pylint | Pylint]].
 
  * [[http://www.cython.org/ | Cython]] - [[http://docs.cython.org/ | docs]], [[http://wiki.cython.org/FAQ |FAQ]], [[http://wiki.cython.org/ | wiki]], [[http://dir.gmane.org/gmane.comp.python.cython.devel | cython-dev]], [[http://hg.cython.org/ | repo]], [[http://trac.cython.org/cython_trac/ | tracker]].
 
@@ -18,6 +20,7 @@
  * [[http://pypi.python.org/pypi/decorator/3.0.1 | decorator]] by M. Simionato.
  * [[http://docs.python.org/howto/functional.html | Functional Programming HOWTO]] by A. M. Kuchling.
  * [[http://docs.python.org/howto/regex.html | Regular Expression HOWTO]] by A. M. Kuchling.
+ * [[http://docutils.sourceforge.net/rst.html | reStructuredText / reST]].
 
 == Packages included in Sage ==
  * [[http://abel.ee.ucla.edu/cvxopt/ | CVXOPT]] - Convex optimization - [[http://abel.ee.ucla.edu/cvxopt/userguide/index.html | docs]], [[http://abel.ee.ucla.edu/cvxopt/examples/index.html | examples]].
@@ -26,7 +29,7 @@
  * [[http://ipython.scipy.org/moin/ | IPython]] - Enhanced interpreter - [[http://ipython.scipy.org/moin/Documentation | docs]].
  * [[http://jinja.pocoo.org/ | Jinja]] - Template engine - [[http://jinja.pocoo.org/1/documentation/ | v1 docs]], [[http://jinja.pocoo.org/2/documentation/ | v2 docs]].
  * [[http://matplotlib.sourceforge.net/ | matplotlib]] - 2D plotting - [[http://matplotlib.sourceforge.net/contents.html | docs]], [[http://matplotlib.sourceforge.net/examples/index.html | examples]], [[http://matplotlib.sourceforge.net/gallery.html | gallery]].
- * [[http://mercurial.selenic.com/wiki/ | Mercurial (hg)]] - Source control manager - [[http://hgbook.red-bean.com/read/ | book]], [[http://mercurial.selenic.com/wiki/UsingExtensions | extensions]].
+ * [[http://mercurial.selenic.com/wiki/ | Mercurial / hg]] - Source control manager - [[http://hgbook.red-bean.com/read/ | book]], [[http://mercurial.selenic.com/wiki/UsingExtensions | extensions]].
  * [[http://moinmo.in/ | MoinMoin]] - Wiki engine - [[http://moinmo.in/MoinMoinExtensions | extensions]].
  * [[http://networkx.lanl.gov/ | NetworkX]] - Complex networks and graphs - [[http://networkx.lanl.gov/contents.html | docs]].
  * [[http://numpy.scipy.org/ | NumPy]] - N-dimensional arrays and routines - [[http://docs.scipy.org/doc/ | docs]].
@@ -47,6 +50,6 @@
  * [[http://www.djangoproject.com/ | Django]] - Web framework - [[http://docs.djangoproject.com/en/dev/ | docs]].
  * [[http://code.google.com/appengine/ | Google App Engine]] - Web framework - [[http://code.google.com/appengine/docs/python/overview.html | docs]].
  * [[http://igraph.sourceforge.net/index.html | igraph]] - Graph theory and network analysis - [[http://igraph.sourceforge.net/documentation.html | docs]].
- * [[http://www.pythonware.com/products/pil/ | Python Imaging Library (PIL)]] - Image processing - [[http://www.pythonware.com/library/pil/handbook/index.htm | docs]].
+ * [[http://www.pythonware.com/products/pil/ | Python Imaging Library / PIL]] - Image processing - [[http://www.pythonware.com/library/pil/handbook/index.htm | docs]].
  * [[http://pyjs.org/ | Pyjamas]] - Web and desktop framework.
  * [[http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS | VIPS]] - Image processing - [[http://www.vips.ecs.soton.ac.uk/index.php?title=Documentation | docs]].
