@@ -12,7 +12,7 @@ I gave a 3-days course on Sage on July 14th-16th in LaCIM at UQAM :
 
 An animation of Fibonacci Tiles :
 
-[[attachment:animateF1-4-7-10.gif]]
+{{attachment:animateF1-4-7-10.gif}}
 
 ----
 CategoryHomepage
