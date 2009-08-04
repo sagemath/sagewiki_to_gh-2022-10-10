@@ -1,0 +1,241 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\textwidth = 6.5in
+\textheight= 9in
+\hoffset=-.75in
+\voffset=-.75in
+\usepackage{color}
+
+\usepackage{listings} %Pour insérer du code.
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc} %Codage UNICODE (UTF-8)
+
+\usepackage[T1]{fontenc} %Hyphénation des mots accentués
+\usepackage{lmodern} %Polices vectorielles
+
+\usepackage{sagetex}
+
+
+\newtheorem{defi}{Définition}
+\newtheorem{lem}{Lemme}
+\newtheorem{prop}{Proposition}
+\newtheorem{cor}{Corollaire}
+\newtheorem{alg}{Algorithme}
+\newtheorem{thm}{Théorème}
+\newtheorem{rem}{Remarque}
+\newtheorem{conj}{Conjecture}
+\newtheorem{exa}{Exemple}
+
+\newcommand{\bib}{thebibliography}
+\newcommand{\nl}{\par\medskip\noindent}
+\newcommand{\Proof}{\par\noindent{\it Preuve.\ }}
+\newcommand{\qed}{\hspace{2pt}\rule{1ex}{1ex}}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\Pos}{\mathbb P}
+%\newcommand{\R}{\mathbb R}
+\newcommand{\R}{{\cal R}}
+\newcommand{\Basis}{{\nl\textsc{Base}.\ }}
+\newcommand{\Induction}{{\nl\textsc{Induction}.\ }}
+
+\setlength{\itemsep}{0pt}
+
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Jours Sage au LaCIM \\ Démonstration de l'outil sagetex }
+\author{Sébastien Labbé} 
+\date{14 juillet 2009}
+
+\maketitle
+\thispagestyle{empty}
+
+Dans ce document, nous utilisons l'outil sagetex en illustrant des exemples de l'algèbre linéaire, du calcul ainsi que des graphes.
+
+\section{Algèbre linéaire}
+
+\begin{sagesilent}
+l = range(16)
+l2 = [1,4,5,2,6,9,7,5,4,2,4,6,1,3,0,2]
+A = matrix(4, l)
+m = A.minimal_polynomial()
+v1,v2,v3,v4 = A.eigenvalues()
+\end{sagesilent}
+
+Soit $A=\sage{A}$. Faisons quelques calculs sur la matrice $A$. 
+%Les valeurs propres de $A$ sont $\sage{v1}$, $\sage{v2}$, $\sage{v3}$ et $\sage{v4}$.
+
+\begin{center}
+\begin{tabular}{c|c}
+$\det(A)$ & $\sage{A.det()}$ \\
+\hline
+$\chi_A(x)$ & $\sage{A.characteristic_polynomial()}$ \\
+\hline
+$m_A(x)$ & $\sage{A.minimal_polynomial()}$ \\
+\hline
+Forme échelonnée & $\sage{A.echelon_form()}$ \\
+\hline
+Diviseurs élémentaires & $\sage{A.elementary_divisors()}$ \\
+\end{tabular}
+\end{center}
+
+On vérifie que le polynôme minimal de $A$ s'annule bien en $A$, c'est-à-dire 
+\begin{equation*}% sagetex works fine for equation and equation* environement
+m_A(A) = \sage{m(A)}. 
+\end{equation*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%sagetexbug for eqnarray and eqnarray*
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{eqnarray*}
+%m_A(A) &=& $\sage{A}^3 -30 \sage{A}^2 - 80 \sage{A}$ \\
+%&=& $\sage{m(A)}$.
+%\end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{sagesilent}
+B = matrix(4, range(16, 32))
+\end{sagesilent}
+
+Soit maintenant $B=\sage{B}$. Le produit de $A$ par $B$ est 
+\[
+\sage{A*B}.
+\]
+
+\newpage
+
+\section{Calcul}
+
+\subsection{Racines}
+
+\begin{sagesilent}
+chi = A.characteristic_polynomial()
+xmin = -3
+xmax = 1
+\end{sagesilent}
+
+On désire étudier la fonction $\chi_A(x)=\sage{chi}$. Commençons par tracer le graphe de ce polynôme dans l'intervalle $[\sage{xmin}, \sage{xmax}]$.
+
+
+\begin{figure}[h]
+\begin{center}
+\sageplot[width=8cm]{plot(chi, xmin=xmin, xmax=xmax)}
+\caption{La fonction $\chi_A(x)$.}
+%\caption{La fonction $\chi_A(x)=\sage{chi}$.} %sagetexbug
+\end{center}
+\end{figure}
+
+\begin{sageblock}
+r1,r2,r3,r4 = chi.real_roots()
+\end{sageblock}
+
+Un simple calcul dans Sage nous donne les racines réelles de $\chi_A(x)$ qui sont $\sage{r1}$, $\sage{r2}$, $\sage{r3}$ et $\sage{r4}$. Ceci nous indique que le graphe précédent a négligé une racine du polynôme comme le confirme le graphe suivant.
+
+\begin{figure}[h]
+\begin{center}
+\sageplot[width=8cm]{plot(chi, xmin=30, xmax=34)}
+\caption{La fonction $\chi_A(x)$.}
+\end{center}
+\end{figure}
+
+\subsection{Calcul différentiel et intégral}
+
+On s'intéresse aussi à la dérivée et l'intégrale de $\chi_A(x)$ par rapport à $x$. On obtient facilement (surtout avec sagetex!) que 
+\[
+\frac{d}{dx}\chi_A(x) = \sage{derivative(chi)}
+\]
+et que
+\[
+\int\chi_A(x)dx = \sage{integrate(chi)}.
+\]
+
+\subsection{Limites}
+
+\begin{sagesilent}
+x = var('x')
+f = x*log(x)
+g = (x+1)^(1/x)
+h = e^x/x
+\end{sagesilent}
+Calculons quelques limites avec Sage :
+\[
+\lim_{x\to 0+}\sage{f} = \sage{limit(f, x = 0, dir='above')}
+\]
+\[
+\lim_{x\to 0}\sage{g} = \sage{limit(g, x = 0)}
+\]
+\[
+\lim_{x\to \sage{oo}}\sage{h} = \sage{limit(h, x = oo)}
+\]
+\[
+\lim_{x\to \sage{-oo}}\sage{h} = \sage{limit(h, x = -oo)}
+\]
+\[
+\lim_{x\to 0}\sage{1/x} = \sage{limit(1/x, x = 0)}
+\]
+\[
+\lim_{x\to 0+}\sage{1/x} = \sage{limit(1/x, x = 0, dir='above')}
+\]
+
+
+
+\newpage
+
+\section{Graphes}
+
+
+\begin{sagesilent}
+n = 3
+S = SymmetricGroup(n)
+g = S.cayley_graph()
+\end{sagesilent}
+
+Ici, on s'intéresse au graphe de Cayley du groupe symétrique d'ordre $\sage{n}$. Les couleurs des arêtes du graphe correspondent aux générateurs suivants : $\sage{S.gens()}$.
+
+\sageplot[width=6cm]{g.plot(color_by_label=True, vertex_size=0.01)}
+
+\begin{sagesilent}
+n = 4
+S = SymmetricGroup(n)
+g = S.cayley_graph()
+\end{sagesilent}
+
+Ici, on s'intéresse au graphe de Cayley du groupe symétrique d'ordre $\sage{n}$. Les couleurs des arêtes du graphe correspondent aux générateurs suivants : $\sage{S.gens()}$.
+
+\sageplot[width=8cm]{g.plot(color_by_label=True, vertex_size=0.01)}
+
+
+\section{À propos de sagetex}
+
+On peut obtenir plus d'information sur sagetex en consultant la documentation disponible dans l'arborescence de sage : {\tt sage-4.1/examples/latex\_embed/sagetexpackage.pdf}.
+
+Présentement, sagetex est un paquetage optionnel à Sage. On peut l'installer en faisant {\tt sage -i sagetex-2.1.1} dans la ligne de commande (la version de sagetex peut changer. Si c'est le cas, un message d'erreur vous indiquera comment connaître le nom de la version de sagetex la plus récente.)
+
+%%%%%%%%%%%%%%%%%
+% Bibliographie %
+%%%%%%%%%%%%%%%%%
+\begin{thebibliography}{0}
+
+\bibitem{sage}
+Stein, W. 2009. \emph{Sage: {O}pen {S}ource {M}athematical {S}oftware
+({V}ersion 4.1)}, The Sage~Group, {\tt www.sagemath.org}.
+
+\bibitem{sagetex}
+Drake, D. 2009. Le paquetage sagetex,\\ {\tt
+http://www.ctan.org/tex-archive/help/Catalogue/entries/sagetex.html}
+
+\end{thebibliography}
+
+
+
+\end{document}
