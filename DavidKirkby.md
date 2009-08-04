@@ -20,7 +20,7 @@ if [ -z "$SAGE_LOCAL" ] ; then
    exit 1
 fi
 
-# Force an exit on all errors. However, not it will be desirable to unset this
+# Force an exit on all errors. However, it will be desirable to unset this
 # sometimes, as you might want to test for a particular error and exit with
 # a message. You can't do that with 'set -e'. So use 'set +e' to unset it
 set -e
