@@ -2,9 +2,9 @@
 #format wiki
 #language en
 == David Kirkby ==
-Email: <<MailTo(you AT SPAMFREE example DOT com)>>
+Email: <<MailTo(david.kirkby AT SPAMFREE onetel DOT net)>>
 
 ...
 
 ----
- CategoryHomepage
+ . CategoryHomepage
