@@ -57,12 +57,16 @@ fi
 
 # gcc/g++/gfortran uses -Wall to show this.
 
-# The best flags for the Sun Studio 12 compilers below. It is possible some of these
+# The best flags for the Sun Studio 12 compiler suite are below. It is possible some of these
 # flags may not work with older version of Sun compilers. It would also need
 # more testing, before being more widely used in Sage.
 
 
-# Determine if the C compiler is the Sun or GNU compiler
+# Determine if the C compiler is the Sun or GNU compiler. This is based on the fact that
+# 'gcc --version' will print 'GNU' somewhere in the output, and the Sun compiler will print
+# 'sun' somewhere in the output if called with the options '-flags'. The exit code of grep is used,
+# as I'm advised this is the best way to do this. 
+
 # Add appropriate flag(s) to show all warnings.
 if "$CC" -flags 2>&1 | grep -i sun  ;  then
   CFLAGS="$CFLAGS -errshort=full "
