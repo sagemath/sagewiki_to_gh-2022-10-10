@@ -3,6 +3,8 @@
 
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is perceived in the outside world.
 
+  * [[http://www.sun.com/customers/servers/univ_washington.xml|University Adds Power and Speed to Mathematics Software with Sun Server Technology ]]
+
   * [[http://www.walkingrandomly.com/?p=1386|Sage Math 4.0 released]] -- A review of Sage 4.0. 2009-06-19
 
   * [[http://amca01.wordpress.com/2009/05/12/stirling-numbers/|Stirling numbers]] -- On the different definitions of Stirling numbers and their implementation in different CAS's. 2009-05-12
