@@ -10,7 +10,9 @@ I gave a 3-days course on Sage on July 14th-16th in LaCIM at UQAM :
 
 [[http://wiki.sagemath.org/SébastienLabbé/JoursSageUQAM|Jours Sage au LaCIM, juillet 2009]].
 
-An animation of the first four Fibonacci Tiles (DGCI 2009, Montréal): {{attachment:animateF1-4-7-10.gif}}
+An animation of the first four Fibonacci Tiles (DGCI 2009, Montréal): 
+
+{{attachment:animateF1-4-7-10.gif}}
 
 ----
 CategoryHomepage
