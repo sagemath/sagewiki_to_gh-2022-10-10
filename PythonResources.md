@@ -52,4 +52,5 @@
  * [[http://igraph.sourceforge.net/index.html | igraph]] - Graph theory and network analysis - [[http://igraph.sourceforge.net/documentation.html | docs]].
  * [[http://www.pythonware.com/products/pil/ | Python Imaging Library / PIL]] - Image processing - [[http://www.pythonware.com/library/pil/handbook/index.htm | docs]].
  * [[http://pyjs.org/ | Pyjamas]] - Web and desktop framework.
+ * [[http://niftilib.sourceforge.net/pynifti/ | PyNIfTI]] - Medical imaging.
  * [[http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS | VIPS]] - Image processing - [[http://www.vips.ecs.soton.ac.uk/index.php?title=Documentation | docs]].
