@@ -22,7 +22,7 @@ Participant List:
  * Tim Dokchitser
  * Jared Weinstein
  * Soroosh Yazdani
- * Victor Miller (Sep. 14 - 16)
+ * Victor Miller (Sep. 14 - 17)
  * Amod Agashe (Sep. 16)
  * Randy Heaton
 
