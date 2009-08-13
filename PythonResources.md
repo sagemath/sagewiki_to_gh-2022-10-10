@@ -21,6 +21,7 @@
  * [[http://docs.python.org/howto/functional.html | Functional Programming HOWTO]] by A. M. Kuchling.
  * [[http://docs.python.org/howto/regex.html | Regular Expression HOWTO]] by A. M. Kuchling.
  * [[http://docutils.sourceforge.net/rst.html | reStructuredText / reST]].
+ * [[http://www.doughellmann.com/articles/CompletelyDifferent-2008-03-linters/index.html | Static Code Analyzers]] by D. Hellmann.
 
 == Packages included in Sage ==
  * [[http://abel.ee.ucla.edu/cvxopt/ | CVXOPT]] - Convex optimization - [[http://abel.ee.ucla.edu/cvxopt/userguide/index.html | docs]], [[http://abel.ee.ucla.edu/cvxopt/examples/index.html | examples]].
