@@ -49,8 +49,9 @@
 == Elliptic Curves ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6381|#6381]]
+ *  [[http://trac.sagemath.org/sage_trac/ticket/6381|#6381]] (bug in integral_points when rank is large):
 
+The function integral_x_coords_in_interval() for finding all integral points on an elliptic curve defined over the rationals whose x-coordinate lies in an interval is now more efficient when the interval is large.
 
  * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6407|#6407]]
 
