@@ -234,6 +234,11 @@ sage: H.a_invariants()
 [-Infinity, -Infinity, -3, -3]
 sage: H.poincare_series()
 (-t^2 - t - 1)/(t^6 - 2*t^5 + t^4 - t^2 + 2*t - 1)
+sage: H.nil_radical()
+
+a_1_0,
+a_1_1,
+a_2_4
    }}}
    * Data from the repository on sage.math:
    {{{
@@ -248,11 +253,6 @@ sage: H.a_invariants()
 [-Infinity, -4, -3, -3]
 sage: H.poincare_series()
 (t^14 - 2*t^13 + 2*t^12 - t^11 - t^10 + t^9 - 2*t^8 + 2*t^7 - 2*t^6 + 2*t^5 - 2*t^4 + t^3 - t^2 - 1)/(t^17 - 3*t^16 + 4*t^15 - 4*t^14 + 4*t^13 - 4*t^12 + 4*t^11 - 4*t^10 + 4*t^9 - 4*t^8 + 4*t^7 - 4*t^6 + 4*t^5 - 4*t^4 + 4*t^3 - 4*t^2 + 3*t - 1)
-sage: H.nil_radical()
-
-a_1_0,
-a_1_1,
-a_2_4
    }}}
    * Some computation from scratch, involving different ring presentations and induced maps:
    {{{
