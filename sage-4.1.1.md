@@ -197,7 +197,7 @@ Intersection of ideals in number fields is now implemented.
 
  * new optional package [[http://sage.math.washington.edu/home/SimonKing/Cohomology/|p_group_cohomology]] (Simon A. King, David J. Green)
 
-   * Compute the cohomology ring with coefficients in GF(p) for any finite p-group, in terms of a minimal generating set a minimal set of algebraic relations. We use Benson's criterion to prove the completeness of the ring structure.
+   * Compute the cohomology ring with coefficients in GF(p) for any finite p-group, in terms of a minimal generating set and a minimal set of algebraic relations. We use Benson's criterion to prove the completeness of the ring structure.
    * Compute depth, dimension, Poincare series and a-invariants of the cohomology rings. 
    * Construct induced homomorphisms.
    * The package includes a list of cohomology rings for all groups of order 64.
