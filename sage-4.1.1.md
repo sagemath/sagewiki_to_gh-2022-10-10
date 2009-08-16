@@ -236,7 +236,7 @@ sage: H.poincare_series()
    }}}
    * Data from the repository on sage.math:
    {{{
-sage: H = CohomologyRing(128,562)
+sage: H = CohomologyRing(128,562) # if there is internet connection, the ring data are downloaded behind the scenes
 sage: len(H.gens())
 35
 sage: len(H.rels())
