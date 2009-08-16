@@ -131,8 +131,9 @@ The function integral_x_coords_in_interval() for finding all integral points on 
 == Number Theory ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6457|#6457]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/6457|#6457]] (Intersection of ideals in a number field)
 
+Intersection of ideals in number fields is now implemented.
 
  * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6045|#6045]]
 
