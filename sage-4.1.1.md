@@ -199,6 +199,7 @@ Intersection of ideals in number fields is now implemented.
 
    * Compute the cohomology ring with coefficients in GF(p) for any finite p-group, in terms of a minimal generating set and a minimal set of algebraic relations. We use Benson's criterion to prove the completeness of the ring structure.
    * Compute depth, dimension, Poincare series and a-invariants of the cohomology rings. 
+   * Compute the nil radical
    * Construct induced homomorphisms.
    * The package includes a list of cohomology rings for all groups of order 64.
    * With the package, the cohomology for all groups of order 128 and for the Sylow 2-subgroup of the third Conway group (order 1024) was computed for the first time. The result of these and many other computations (e.g., all but 6 groups of order 243) is accessible in a repository on sage.math.
@@ -247,6 +248,11 @@ sage: H.a_invariants()
 [-Infinity, -4, -3, -3]
 sage: H.poincare_series()
 (t^14 - 2*t^13 + 2*t^12 - t^11 - t^10 + t^9 - 2*t^8 + 2*t^7 - 2*t^6 + 2*t^5 - 2*t^4 + t^3 - t^2 - 1)/(t^17 - 3*t^16 + 4*t^15 - 4*t^14 + 4*t^13 - 4*t^12 + 4*t^11 - 4*t^10 + 4*t^9 - 4*t^8 + 4*t^7 - 4*t^6 + 4*t^5 - 4*t^4 + 4*t^3 - 4*t^2 + 3*t - 1)
+sage: H.nil_radical()
+
+a_1_0,
+a_1_1,
+a_2_4
    }}}
    * Some computation from scratch, involving different ring presentations and induced maps:
    {{{
@@ -327,6 +333,20 @@ sage: H.a_invariants()
 [-Infinity, -3, -2]
 sage: H.poincare_series()
 (t^4 - t^3 + t^2 + 1)/(t^6 - 2*t^5 + 2*t^4 - 2*t^3 + 2*t^2 - 2*t + 1)
+sage: H.nil_radical()
+
+a_1_0,
+a_1_1,
+a_2_1,
+a_2_2,
+a_3_2,
+a_4_1,
+a_5_2,
+a_5_3,
+b_2_0*b_4_2,
+a_7_5,
+b_2_0*b_6_3,
+b_6_3^2+b_4_2^3
    }}}
 
 
