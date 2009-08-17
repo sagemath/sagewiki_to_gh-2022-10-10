@@ -1,7 +1,10 @@
 == Sage in the News, Blogs, Forums and Buzz Sites ==
 
 
-Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is perceived in the outside world.
+Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage 
+is perceived in the outside world.
+
+  * [[http://eduard-gamonal.net/?p=85|Sage Rocks!]]
 
   * [[http://www.sun.com/customers/servers/univ_washington.xml|University Adds Power and Speed to Mathematics Software with Sun Server Technology ]]
 
