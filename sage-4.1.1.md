@@ -107,7 +107,20 @@ The function integral_x_coords_in_interval() for finding all integral points on 
  * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6554|#6554]]
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6301|#6301]]
+ * Elementwise (Hadamard) product of matrices (Rob Beezer)  (Trac [[http://trac.sagemath.org/sage_trac/ticket/6301|#6301]])
+
+   Given matrices A and B of the same size, {{{C = A.elementwise_product(B)}}} creates the new matrix C, of the same size, with entries given by C[i,j]=A[i,j]*B[i,j].  The multiplication occurs in a ring defined by Sage's coercion model, as appropriate for the base rings of A and B (or an error is raised if there is no sensible common ring).  In particular, if A and B are defined over a noncommutative ring, then the operation is also noncommutative.  The implementation is different for dense matrices versus sparse matrices, but there are probably further optimizations available for specific rings.  This operation is often call the Hadamard product.
+
+   {{{
+sage: G = matrix(GF(3),2,[0,1,2,2]) 
+sage: H = matrix(ZZ,2,[1,2,3,4]) 
+sage: J = G.elementwise_product(H) 
+sage: J 
+[0 2] 
+[0 2] 
+sage: J.parent() 
+Full MatrixSpace of 2 by 2 dense matrices over Finite Field of size 
+   }}}
 
 
 == Modular Forms ==
