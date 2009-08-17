@@ -71,7 +71,8 @@ The function integral_x_coords_in_interval() for finding all integral points on 
 == Graph Theory ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6355|#6355]]
+ * Inclusion of Cliquer as a standard package (Trac[[http://trac.sagemath.org/sage_trac/ticket/6355|#6355]])
+   [[http://users.tkk.fi/pat/cliquer.html|Cliquer]] is a set of C routines for finding cliques in an arbitrary weighted graph. It uses an exact branch-and-bound algorithm recently developed by Patric Ostergard and mainly written by Sampo Niskanen. It is published under the GPL license.
 
 
  * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6540|#6540]]
@@ -83,8 +84,32 @@ The function integral_x_coords_in_interval() for finding all integral points on 
  * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6578|#6578]]
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/5793|#5793]]
+ * New algorithm for all Graph functions related to the computation of maximum Cliques (Trac [[http://trac.sagemath.org/sage_trac/ticket/5793|#5793]])
+   With the inclusion of  Cliquer as a standard SPKG, the following functions can now use the cliquer Algorithm :
+       * Graph.max_clique()
+         Returns the vertex set of a maximum complete subgraph
+       * Graph.cliques_maximum()
+         Returns the list of all maximum cliques, with each clique represented by a list of vertices. A clique is an induced complete subgraph, and a maximal clique is one of maximal order. 
+       * Graph.clique_number()
+         Returns the size of the largest clique of the graph
+       * Graph.cliques_vertex_clique_number()
+         Returns a list of sizes of the largest maximal cliques containing each vertex. (Returns a single value if only one input vertex).
+       * Graph.independent_set()
+         Returns a maximal independent set, which is a set of vertices which induces an empty subgraph.
+   These functions already existed in Sage : Cliquer does not bring to SAGE any new feature, but a huge improvement of its efficiency in the computation of clique number. The previous NetworkX algorithm was very slow in its computations of these functions, even though it remains faster than Cliquer for the computation of Graph.cliques_vertex_clique_number(). 
 
+   Here is what happens when comparing Cliquer to NetworkX
+   {{{
+sage: g=graphs.RandomGNP(200,.4)
+sage: time g.clique_number(algorithm="networkx")
+CPU times: user 14.63 s, sys: 0.04 s, total: 14.68 s
+Wall time: 14.68 s
+9
+sage: time g.clique_number(algorithm="cliquer")
+CPU times: user 0.11 s, sys: 0.00 s, total: 0.11 s
+Wall time: 0.11 s
+9
+   }}}
 
 == Interfaces ==
 
