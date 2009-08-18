@@ -25,9 +25,7 @@
 == Combinatorics ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6519|#6519]]
-
-Many examples are available a the bottom of [[http://wiki.sagemath.org/WordDesign|WordDesign]] page.
+ * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6519|#6519]]. Many BEFORE-AFTER examples are available a the bottom of [[http://wiki.sagemath.org/WordDesign|WordDesign]] page. Those could be copy and pasted here.
 
 
  * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6621|#6621]]
