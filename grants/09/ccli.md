@@ -34,7 +34,7 @@ This is fleshed out from William's email:
   * ask for as much as we can to say
 
 
-  * tim bogart -- NSF funded guided discovery in combinatorics
+  * Ken Bogart, Dartmouth College -- NSF funded guided discovery in combinatorics (see below)
 
   * we're the guinnea pigs; now it's time to get lots of other people up
   and running
@@ -53,7 +53,9 @@ This is fleshed out from William's email:
 
   * David Farmer -- just
 
-  * Tom Judson -- http://www.math.rutgers.edu/~weibel/webwork.html
+  * Tom Judson -- possible math ed assistance
+
+  * http://www.math.rutgers.edu/~weibel/webwork.html
 
   * find out about background
 
@@ -107,8 +109,24 @@ Pay attention to what happens when you explain the idea to others.  If there is 
 A helpful thing: seven people that commit to using sage as we go along and are paid honorariums to write tutorials telling how to integrate Sage into their courses.
 
 
+== Open Textbooks in Mathematics ==
 
+ * Candidates for conversion to Sage notebooks - open licenses, TeX source
+   * [[http://linear.pugetsound.edu/|A First Course in Linear Algebra, Beezer]]
+   * [[http://abstract.ups.edu/|Abstract Algebra, Theory and Applications, Judson]]
+   * [[http://www.math.dartmouth.edu/news-resources/electronic/kpbogart/|Combinatorics Through Guided Discovery, Bogart]]
+   * Maybe more at [[http://linear.ups.edu/curriculum.html|Open Math Curriculum]]
 
+ * Demonstration Project
+   * Make a new account at [[http://sagenb.org|sagenb.org]]
+   * Login and click on "Upload" in upper-left
+   * Second box, cut/paste URL:  http://buzzard.ups.edu/sage/sage-group-theory-primer.sws
+   * Click on "Upload Worksheet" button
+   * Experiment running Sage cells (click in cell, then click "evaluate" below)
+   * Search on the phrase "default=12" to find interactive Sage cell
+   * Evaluate the cell, then vary group order to see all subgroups of a cyclic group
+   * This worksheet was authored in LaTeX, then converted with software tools to a Sage worksheet
+   * PDF version of worksheet, and more at [[Abstract Algebra textbook site|http://abstract.ups.edu/sage-aata.html]]
 
 == Wiki example of creating a subpage of this page ==
 
