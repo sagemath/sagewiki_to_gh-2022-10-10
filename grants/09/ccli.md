@@ -120,13 +120,22 @@ A helpful thing: seven people that commit to using sage as we go along and are p
  * Demonstration Project
    * Make a new account at [[http://sagenb.org|sagenb.org]]
    * Login and click on "Upload" in upper-left
-   * Second box, cut/paste URL:  http://buzzard.ups.edu/sage/sage-group-theory-primer.sws
+   * Into second box cut/paste the URL:  `http://buzzard.ups.edu/sage/sage-group-theory-primer.sws`
    * Click on "Upload Worksheet" button
    * Experiment running Sage cells (click in cell, then click "evaluate" below)
    * Search on the phrase "default=12" to find interactive Sage cell
    * Evaluate the cell, then vary group order to see all subgroups of a cyclic group
-   * This worksheet was authored in LaTeX, then converted with software tools to a Sage worksheet
-   * PDF version of worksheet, and more at [[Abstract Algebra textbook site|http://abstract.ups.edu/sage-aata.html]]
+   * This tutorial was authored in LaTeX, then converted with software tools to a Sage worksheet
+   * PDF version of worksheet, and more, at [[Abstract Algebra textbook site|http://abstract.ups.edu/sage-aata.html]]
+   * Most of the translation is via [[tex4ht|http://www.cse.ohio-state.edu/~gurari/TeX4ht/]], an NSF funded project
+   * Rendering in Sage is via [[jsMath|http://www.math.union.edu/~dpvc/jsMath/]]
+
+== MAA Resources ==
+
+ * PREP Workshops for dissemination? Especially for community colleges?  Done virtually, there would be no travel expenses for participants.  http://www.maa.org/prep/
+ * MAA wiki on WebWork.  Note NSF funding.  http://webwork.maa.org/wiki/Main_Page
+ * National Problem Library for WebWork (12,000 problems)  http://webwork.maa.org/wiki/National_Problem_Library
+ * Michael Pearson, MAA Director of Programs and Services, http://www.maa.org/aboutmaa/pearsonbio.html
 
 == Wiki example of creating a subpage of this page ==
 
