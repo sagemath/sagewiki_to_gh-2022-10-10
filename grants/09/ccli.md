@@ -8,6 +8,8 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
 
+[[http://www.nsf.gov/awardsearch/piSearch.do?SearchType=piSearch&page=1&QueryText=CCLI&PIFirstName=&PILastName=&PIInstitution=&PIState=&PIZip=&PICountry=&RestrictActive=on&Search=Search#results|Past CCLI Awards]]
+
 == 18 Aug Conference Call ==
 
 This is fleshed out from William's email:
