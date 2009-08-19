@@ -8,7 +8,15 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
 
-[[http://www.nsf.gov/awardsearch/piSearch.do?SearchType=piSearch&page=1&QueryText=CCLI&PIFirstName=&PILastName=&PIInstitution=&PIState=&PIZip=&PICountry=&RestrictActive=on&Search=Search#results|Past CCLI Awards]]
+Past Awards:
+
+  * [[http://www.nsf.gov/awardsearch/afSearch.do?ProgEleCode=7494&page=4&QueryText=&SearchType=afSearch&PIFirstName=&PILastName=&COPILastName=&COPIFirstName=&IncludeCOPI=&PIInstitution=&PIState=&PIZip=&PICountry=&ProgOrganization=&ProgOfficer=&ProgProgram&ProgRefCode=&ProgFoaCode=&CongDistCode=&AwardNumberOperator=&AwardNumberFrom=&AwardNumberTo=&StartDateOperator=&ExpDateOperator=&StartDateFrom=&StartDateTo=&ExpDateFrom=&ExpDateTo=&AwardAmount=&AwardInstrument=&Search=Search#results|Past CCLI Phase I Awards]]
+
+  * [[http://www.nsf.gov/awardsearch/afSearch.do?ProgEleCode=7492&page=4&QueryText=&SearchType=afSearch&PIFirstName=&PILastName=&COPILastName=&COPIFirstName=&IncludeCOPI=&PIInstitution=&PIState=&PIZip=&PICountry=&ProgOrganization=&ProgOfficer=&ProgProgram&ProgRefCode=&ProgFoaCode=&CongDistCode=&AwardNumberOperator=&AwardNumberFrom=&AwardNumberTo=&StartDateOperator=&ExpDateOperator=&StartDateFrom=&StartDateTo=&ExpDateFrom=&ExpDateTo=&AwardAmount=&AwardInstrument=&Search=Search#results|Past CCLI Phase II Awards]]
+
+  * [[http://www.nsf.gov/awardsearch/afSearch.do?ProgEleCode=7493&page=4&QueryText=&SearchType=afSearch&PIFirstName=&PILastName=&COPILastName=&COPIFirstName=&IncludeCOPI=&PIInstitution=&PIState=&PIZip=&PICountry=&ProgOrganization=&ProgOfficer=&ProgProgram&ProgRefCode=&ProgFoaCode=&CongDistCode=&AwardNumberOperator=&AwardNumberFrom=&AwardNumberTo=&StartDateOperator=&ExpDateOperator=&StartDateFrom=&StartDateTo=&ExpDateFrom=&ExpDateTo=&AwardAmount=&AwardInstrument=&Search=Search#results|Past CCLI Phase III Awards]]
+
+
 
 == 18 Aug Conference Call ==
 
