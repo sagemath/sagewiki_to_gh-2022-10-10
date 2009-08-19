@@ -8,7 +8,8 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
 
-Past Awards:
+== Past CCLI Awards ==
+
 
   * [[http://www.nsf.gov/awardsearch/afSearch.do?ProgEleCode=7494&page=4&QueryText=&SearchType=afSearch&PIFirstName=&PILastName=&COPILastName=&COPIFirstName=&IncludeCOPI=&PIInstitution=&PIState=&PIZip=&PICountry=&ProgOrganization=&ProgOfficer=&ProgProgram&ProgRefCode=&ProgFoaCode=&CongDistCode=&AwardNumberOperator=&AwardNumberFrom=&AwardNumberTo=&StartDateOperator=&ExpDateOperator=&StartDateFrom=&StartDateTo=&ExpDateFrom=&ExpDateTo=&AwardAmount=&AwardInstrument=&Search=Search#results|Past CCLI Phase I Awards]]
 
@@ -16,7 +17,17 @@ Past Awards:
 
   * [[http://www.nsf.gov/awardsearch/afSearch.do?ProgEleCode=7493&page=4&QueryText=&SearchType=afSearch&PIFirstName=&PILastName=&COPILastName=&COPIFirstName=&IncludeCOPI=&PIInstitution=&PIState=&PIZip=&PICountry=&ProgOrganization=&ProgOfficer=&ProgProgram&ProgRefCode=&ProgFoaCode=&CongDistCode=&AwardNumberOperator=&AwardNumberFrom=&AwardNumberTo=&StartDateOperator=&ExpDateOperator=&StartDateFrom=&StartDateTo=&ExpDateFrom=&ExpDateTo=&AwardAmount=&AwardInstrument=&Search=Search#results|Past CCLI Phase III Awards]]
 
+  * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0535327]] -- this type II past award was for developing flash libraries for math education.  I've heard Doug Ensley (the co-pi) talk about this work at national meetings.  They also had a PREP workshop helping people learn how to develop flash applets for math education.
 
+  * [[http://www.nsf.gov/awardsearch/afSearch.do?SearchType=afSearch&page=4&QueryText=web&PIFirstName=&PILastName=&PIInstitution=&PIState=&PIZip=&PICountry=&ProgOrganization=&ProgOfficer=&ProgEleCode=7492&BooleanElement=false&ProgRefCode=&BooleanRef=false&ProgProgram=&ProgFoaCode=&OriginalAwardDateOperator=&OriginalAwardDateFrom=&OriginalAwardDateTo=&StartDateOperator=&StartDateFrom=&StartDateTo=&ExpDateOperator=&ExpDateFrom=&ExpDateTo=&AwardNumberOperator=&AwardNumberFrom=&AwardNumberTo=&AwardAmount=&AwardInstrument=&Search=Search#results|Type II grants with the word "web" in title or abstract]].  Some relevant awards dealing with software and curricula are:
+    * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0918271|Interactive web activities for a statics course]] -- there were actually more than 5 awards, all having the same title, but for different amounts.
+    * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0816783| Web-based Interactive Organic Chemistry Homework]]
+    * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0935049| Bio-Organic Reaction Animations ]], see also another award for this at [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0717133]]
+    * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0716952| Exploring Earth's Volcanic Environment: Development of Virtual Reality Education Modules(Phase 2) ]]
+    * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0618456|Collaborative Research-Collaborative Research-Creating Exemplary Curricula and Supporting Faculty Development in Using Social Explorer to Teach with Demographic Data Maps]]
+    * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0618744| Biofilms: The Hypertextbook--A Web-Based Active-Learning Approach for Rapid Infusion of Emerging Knowledge into Undergraduate STEM Curricula ]]
+    * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0206571| The Web-based ARTIST Project ]]
+    * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0231083| MathDL Books Online ]]
 
 == 18 Aug Conference Call ==
 
