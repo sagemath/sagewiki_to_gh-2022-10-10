@@ -62,7 +62,7 @@ This is fleshed out from William's email:
   * what we would like to do behind the scenes.
 
 
-== Next Conference call: Tuesday, 25 Aug 2009, 10AM PST ==
+== Next Conference call: Tuesday, 25 Aug 2009, 10AM Pacific Time ==
 
 == Wiki example of creating a subpage of this page ==
 
