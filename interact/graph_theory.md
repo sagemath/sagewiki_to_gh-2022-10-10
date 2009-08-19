@@ -71,3 +71,21 @@ def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
 }}}
 
 {{attachment:auto_graph2.png}}
+
+== View an induced subgraph ==
+by Jason Grout
+
+{{{
+m=random_matrix(ZZ,10,density=.5)
+a=DiGraph(m) 
+
+@interact
+def show_subgraph(to_delete=selector(range(10),buttons=True)):
+    vertices=set(range(10))
+    subgraph_vertices=vertices.difference([to_delete])
+    html.table([["Original", "New"],
+               [plot(a,save_pos=True), plot(a.subgraph(subgraph_vertices))]],
+               header=True)
+}}}
+
+{{attachment:subgraph-interact.png}}
