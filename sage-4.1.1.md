@@ -4,16 +4,67 @@
 == Algebra ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6510|#6510]]
+ * Adds method {{{__nonzero__()}}} to abelian groups (Taylor Sutton) [[http://trac.sagemath.org/sage_trac/ticket/6510|#6510]] --- New method {{{__nonzero__()}}} for the class {{{AbelianGroup_class}}} in {{{sage/groups/abelian_gps/abelian_group.py}}}. This method returns {{{True}}} if the abelian group in question is non-trivial:
+ {{{#!python numbers=off
+sage: E = EllipticCurve([0, 82])
+sage: T = E.torsion_subgroup()
+sage: bool(T)
+False
+sage: T.__nonzero__()
+False
+ }}}
 
 
 == Basic Arithmetic ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6159|#6159]]
+ * Implement {{{real_part()}}} and {{{imag_part()}}} for {{{CDF}}} and {{{CC}}} (Alex Ghitza) [[http://trac.sagemath.org/sage_trac/ticket/6159|#6159]] --- The name {{{real_part}}} is now an alias to the method {{{real()}}}; similarly, {{{imag_part}}} is now an alias to the method {{{imag()}}}.
+ {{{#!python numbers=off
+sage: a = CDF(3, -2)
+sage: a.real()
+3.0
+sage: a.real_part()
+3.0
+sage: a.imag()
+-2.0
+sage: a.imag_part()
+-2.0
+sage: i = ComplexField(100).0
+sage: z = 2 + 3*i
+sage: z.real()
+2.0000000000000000000000000000
+sage: z.real_part()
+2.0000000000000000000000000000
+sage: z.imag()
+3.0000000000000000000000000000
+sage: z.imag_part()
+3.0000000000000000000000000000
+ }}}
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/2737|#2737]]
+ * Efficient summing using balanced sum (Jason Grout, Mike Hansen) [[http://trac.sagemath.org/sage_trac/ticket/2737|#2737]] --- New function {{{balanced_sum()}}} in the module {{{sage/misc/misc_c.pyx}}} for summing the elements in a list. In some cases, {{{balanced_sum()}}} is more efficient than the built-in Python {{{sum()}}} function, where the efficiency can range from 26x up to 1410x faster than {{{sum()}}}. The following timing statistics were obtained using the machine sage.math:
+ {{{#!python numbers=off
+sage: R.<x,y> = QQ["x,y"]
+sage: L = [x^i for i in xrange(1000)]
+sage: %time sum(L);
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.01 s
+sage: %time balanced_sum(L);
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
+sage: %timeit sum(L);
+100 loops, best of 3: 8.66 ms per loop
+sage: %timeit balanced_sum(L);
+1000 loops, best of 3: 324 µs per loop
+sage: 
+sage: L = [[i] for i in xrange(10e4)]
+sage: %time sum(L, []);
+CPU times: user 84.61 s, sys: 0.00 s, total: 84.61 s
+Wall time: 84.61 s
+sage: %time balanced_sum(L, []);
+CPU times: user 0.06 s, sys: 0.00 s, total: 0.06 s
+Wall time: 0.06 s
+ }}}
 
 
 == Calculus ==
