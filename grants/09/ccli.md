@@ -138,6 +138,10 @@ A helpful thing: seven people that commit to using sage as we go along and are p
    * [[http://www.math.dartmouth.edu/news-resources/electronic/kpbogart/|Combinatorics Through Guided Discovery, Bogart]]
    * Maybe more at [[http://linear.ups.edu/curriculum.html|Open Math Curriculum]]
 
+ * Presentation at Sage Days 15
+   * [[http://wiki.sagemath.org/days15?action=AttachFile&do=get&target=beezer-authoring-SD15.pdf|Authoring Interactive Worksheets (Slides, PDF)]]
+   * [[http://wstein.org/sagedays15/M2U00404-beezer-interactive_sage_worksheets.MPG|Video of Presentation (MPEG)]]
+
  * Demonstration Project
    * Make a new account at [[http://sagenb.org|sagenb.org]]
    * Login and click on "Upload" in upper-left
@@ -147,15 +151,15 @@ A helpful thing: seven people that commit to using sage as we go along and are p
    * Search on the phrase "default=12" to find interactive Sage cell
    * Evaluate the cell, then vary group order to see all subgroups of a cyclic group
    * This tutorial was authored in LaTeX, then converted with software tools to a Sage worksheet
-   * PDF version of worksheet, and more, at [[Abstract Algebra textbook site|http://abstract.ups.edu/sage-aata.html]]
-   * Most of the translation is via [[tex4ht|http://www.cse.ohio-state.edu/~gurari/TeX4ht/]], an NSF funded project
-   * Rendering in Sage is via [[jsMath|http://www.math.union.edu/~dpvc/jsMath/]]
+   * PDF version of worksheet, and more, at [[http://abstract.ups.edu/sage-aata.html|Abstract Algebra textbook site]]
+   * Most of the translation is via [[http://www.cse.ohio-state.edu/~gurari/TeX4ht/|tex4ht]], an NSF funded project
+   * Rendering in Sage is via [[http://www.math.union.edu/~dpvc/jsMath/|jsMath]]
 
 == MAA Resources ==
 
  * PREP Workshops for dissemination? Especially for community colleges?  Done virtually, there would be no travel expenses for participants.  http://www.maa.org/prep/
- * MAA wiki on WebWork.  Note NSF funding.  http://webwork.maa.org/wiki/Main_Page
- * National Problem Library for WebWork (12,000 problems)  http://webwork.maa.org/wiki/National_Problem_Library
+ * MAA wiki on !WebWork.  Note NSF funding.  http://webwork.maa.org/wiki/Main_Page
+ * National Problem Library for !WebWork (12,000 problems)  http://webwork.maa.org/wiki/National_Problem_Library
  * Michael Pearson, MAA Director of Programs and Services, http://www.maa.org/aboutmaa/pearsonbio.html
 
 == Wiki example of creating a subpage of this page ==
