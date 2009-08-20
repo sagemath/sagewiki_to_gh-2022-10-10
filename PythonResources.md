@@ -38,6 +38,7 @@
  * [[http://www.amk.ca/python/code/crypto.html | PyCrypto]] - Cryptographic algorithms and protocols - [[http://www.dlitz.net/software/pycrypto/ | current]].
  * [[http://pygments.org/ | Pygments]]  - Syntax highlighter - [[http://pygments.org/docs/ | docs]].
  * [[http://pynac.sagemath.org/ | Pynac]] - Symbolic manipulation - [[http://www.ginac.de/ | GiNaC]].
+ * [[http://www.pythonware.com/products/pil/ | Python Imaging Library / PIL]] - Image processing - [[http://www.pythonware.com/library/pil/handbook/index.htm | docs]].
  * [[http://rpy.sourceforge.net/ | RPy]] - Statistical computing - [[http://rpy.sourceforge.net/documentation.html | docs]].
  * [[http://www.scipy.org/ | SciPy]] - Numerical algorithms and routines - [[http://docs.scipy.org/doc/ | docs]].
  * [[http://sphinx.pocoo.org/ | Sphinx]] - Documentation generator - [[http://sphinx.pocoo.org/contents.html | docs]].
@@ -51,7 +52,6 @@
  * [[http://www.djangoproject.com/ | Django]] - Web framework - [[http://docs.djangoproject.com/en/dev/ | docs]].
  * [[http://code.google.com/appengine/ | Google App Engine]] - Web framework - [[http://code.google.com/appengine/docs/python/overview.html | docs]].
  * [[http://igraph.sourceforge.net/index.html | igraph]] - Graph theory and network analysis - [[http://igraph.sourceforge.net/documentation.html | docs]].
- * [[http://www.pythonware.com/products/pil/ | Python Imaging Library / PIL]] - Image processing - [[http://www.pythonware.com/library/pil/handbook/index.htm | docs]].
  * [[http://pyjs.org/ | Pyjamas]] - Web and desktop framework.
  * [[http://niftilib.sourceforge.net/pynifti/ | PyNIfTI]] - Medical imaging.
  * [[http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS | VIPS]] - Image processing - [[http://www.vips.ecs.soton.ac.uk/index.php?title=Documentation | docs]].
