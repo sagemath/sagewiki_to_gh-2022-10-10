@@ -70,7 +70,12 @@ Wall time: 0.06 s
 == Calculus ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/5996|#5996]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/5996|#5996]]
+
+Collection of functions for calculating Wigner 3j, 6j, 9j,
+Clebsch-Gordan, Racah as well as Gaunt coefficients exactly, all
+evaluating to a rational number times the square root of a rational
+number.
 
 
 == Combinatorics ==
