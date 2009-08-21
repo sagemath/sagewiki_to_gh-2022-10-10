@@ -105,13 +105,109 @@ sage: gaunt(1000,1000,1200,9,3,-12).n(64)
 == Combinatorics ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6519|#6519]]. Many BEFORE-AFTER examples are available a the bottom of [[http://wiki.sagemath.org/WordDesign|WordDesign]] page. Those could be copy and pasted here.
+ * Optimize the words library code (Vincent Delecroix, Sébastien Labbé, Franco Saliola) [[http://trac.sagemath.org/sage_trac/ticket/6519|#6519]] --- An enhancement of the words library code in `sage/combinat/words` to improve its efficiency and reorganize the code. The efficiency gain for creating small words can be up to 6x:
+ {{{#!python numbers=off
+# BEFORE
+
+sage: %timeit Word()
+10000 loops, best of 3: 46.6 µs per loop
+sage: %timeit Word("abbabaab")
+10000 loops, best of 3: 62 µs per loop
+sage: %timeit Word([0,1,1,0,1,0,0,1])
+10000 loops, best of 3: 59.4 µs per loop
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6621|#6621]]
+# AFTER
+
+sage: %timeit Word()
+100000 loops, best of 3: 6.85 µs per loop
+sage: %timeit Word("abbabaab")
+100000 loops, best of 3: 11.8 µs per loop
+sage: %timeit Word([0,1,1,0,1,0,0,1])
+100000 loops, best of 3: 10.6 µs per loop
+ }}}
+ For the creation of large words, the improvement can be from between 8000x up to 39000x:
+ {{{#!python numbers=off
+# BEFORE
+
+sage: t = words.ThueMorseWord()
+sage: w = list(t[:1000000])
+sage: %timeit Word(w)
+10 loops, best of 3: 792 ms per loop
+sage: u = "".join(map(str, list(t[:1000000])))
+sage: %timeit Word(u)
+10 loops, best of 3: 777 ms per loop
+sage: %timeit Words("01")(u)
+10 loops, best of 3: 748 ms per loop
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/5790|#5790]]
+# AFTER
+
+sage: t = words.ThueMorseWord()
+sage: w = list(t[:1000000])
+sage: %timeit Word(w)
+10000 loops, best of 3: 20.3 µs per loop
+sage: u = "".join(map(str, list(t[:1000000])))
+sage: %timeit Word(u)
+10000 loops, best of 3: 21.9 µs per loop
+sage: %timeit Words("01")(u)
+10000 loops, best of 3: 84.3 µs per loop
+ }}}
+ All of the above timing statistics were obtained using the machine sage.math. Further timing comparisons can be found at the Sage [[http://wiki.sagemath.org/WordDesign|wiki page]].
+
+
+ * Improve the speed of `Permutation.inverse()` (Anders Claesson) [[http://trac.sagemath.org/sage_trac/ticket/6621|#6621]] --- In some cases, the speed gain is up to 11x. The following timing statistics were obtained using the machine sage.math:
+ {{{#!python numbers=off
+# BEFORE
+
+sage: p = Permutation([6, 7, 8, 9, 4, 2, 3, 1, 5])
+sage: %timeit p.inverse()
+10000 loops, best of 3: 67.1 µs per loop
+sage: p = Permutation([19, 5, 13, 8, 7, 15, 9, 10, 16, 3, 12, 6, 2, 20, 18, 11, 14, 4, 17, 1])
+sage: %timeit p.inverse()                                                       
+1000 loops, best of 3: 240 µs per loop
+sage: p = Permutation([14, 17, 1, 24, 16, 34, 19, 9, 20, 18, 36, 5, 22, 2, 27, 40, 37, 15, 3, 35, 10, 25, 21, 8, 13, 26, 12, 32, 23, 38, 11, 4, 6, 39, 31, 28, 29, 7, 30, 33])
+sage: %timeit p.inverse()                                                       
+1000 loops, best of 3: 857 µs per loop
+
+
+# AFTER
+
+sage: p = Permutation([6, 7, 8, 9, 4, 2, 3, 1, 5])
+sage: %timeit p.inverse()
+10000 loops, best of 3: 24.6 µs per loop
+sage: p = Permutation([19, 5, 13, 8, 7, 15, 9, 10, 16, 3, 12, 6, 2, 20, 18, 11, 14, 4, 17, 1])
+sage: %timeit p.inverse()
+10000 loops, best of 3: 41.4 µs per loop
+sage: p = Permutation([14, 17, 1, 24, 16, 34, 19, 9, 20, 18, 36, 5, 22, 2, 27, 40, 37, 15, 3, 35, 10, 25, 21, 8, 13, 26, 12, 32, 23, 38, 11, 4, 6, 39, 31, 28, 29, 7, 30, 33])
+sage: %timeit p.inverse()
+10000 loops, best of 3: 72.4 µs per loop
+ }}}
+
+
+ * Updating some quirks in `sage/combinat/partition.py` (Andrew Mathas) [[http://trac.sagemath.org/sage_trac/ticket/5790|#5790]] --- The functions `r_core()`, `r_quotient()`, `k_core()`, and `partition_sign()` are now deprecated. These are replaced with `core()`, `quotient()`, and `sign()` respectively. The rewrite of the function `Partition()` deprecated the argument `core_and_quotient`. The core and the quotient can be passed as keywords of `Partition()`.
+ {{{#!python numbers=off
+sage: Partition(core_and_quotient=([2,1], [[2,1],[3],[1,1,1]]))
+/home/mvngu/.sage/temp/sage.math.washington.edu/9221/_home_mvngu__sage_init_sage_0.py:1: DeprecationWarning: "core_and_quotient=(*)" is deprecated. Use "core=[*], quotient=[*]" instead.
+  # -*- coding: utf-8 -*-
+[11, 5, 5, 3, 2, 2, 2]
+sage: Partition(core=[2,1], quotient=[[2,1],[3],[1,1,1]])
+[11, 5, 5, 3, 2, 2, 2]
+
+sage: Partition([6,3,2,2]).r_quotient(3)
+/home/mvngu/.sage/temp/sage.math.washington.edu/9221/_home_mvngu__sage_init_sage_0.py:1: DeprecationWarning: r_quotient is deprecated. Please use quotient instead.
+  # -*- coding: utf-8 -*-
+[[], [], [2, 1]]
+sage: Partition([6,3,2,2]).quotient(3)
+[[], [], [2, 1]]
+
+sage: partition_sign([5,1,1,1,1,1])
+/home/mvngu/.sage/temp/sage.math.washington.edu/9221/_home_mvngu__sage_init_sage_0.py:1: DeprecationWarning: "partition_sign deprecated. Use Partition(pi).sign() instead
+  # -*- coding: utf-8 -*-
+1
+sage: Partition([5,1,1,1,1,1]).sign()
+1
+ }}}
 
 
 == Cryptography ==
