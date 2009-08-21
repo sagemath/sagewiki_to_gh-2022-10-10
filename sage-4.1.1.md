@@ -70,12 +70,36 @@ Wall time: 0.06 s
 == Calculus ==
 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/5996|#5996]]
-
-Collection of functions for calculating Wigner 3j, 6j, 9j,
-Clebsch-Gordan, Racah as well as Gaunt coefficients exactly, all
-evaluating to a rational number times the square root of a rational
-number.
+ * Wigner `3j`, `6j`, `9j`, Clebsch-Gordan, Racah and Gaunt coefficients (Jens Rasch) [[http://trac.sagemath.org/sage_trac/ticket/5996|#5996]] --- A collection of functions for exactly calculating Wigner [[http://en.wikipedia.org/wiki/3-jm_symbol|`3j`]], [[http://en.wikipedia.org/wiki/6-j_symbol|`6j`]], [[http://en.wikipedia.org/wiki/9-j_symbol|`9j`]], [[http://en.wikipedia.org/wiki/Clebsch-Gordan_coefficients|Clebsch-Gordan]], [[http://en.wikipedia.org/wiki/Racah_W-coefficient|Racah]] as well as Gaunt coefficients. All these functions evaluate to a rational number times the square root of a rational number. These new functions are defined in the module `sage/functions/wigner.py`. Here are some examples on calculating the Wigner `3j`, `6j`, `9j` symbols:
+ {{{#!python numbers=off
+sage: wigner_3j(2, 6, 4, 0, 0, 0)
+sqrt(5/143)
+sage: wigner_3j(0.5, 0.5, 1, 0.5, -0.5, 0)
+sqrt(1/6)
+sage: wigner_6j(3,3,3,3,3,3)
+-1/14
+sage: wigner_6j(8,8,8,8,8,8)
+-12219/965770
+sage: wigner_9j(1,1,1, 1,1,1, 1,1,0 ,prec=64) # ==1/18
+0.0555555555555555555
+sage: wigner_9j(15,15,15, 15,3,15, 15,18,10, prec=1000)*1.0
+-0.0000778324615309539
+ }}}
+ The Clebsch-Gordan, Racah and Gaunt coefficients can be computed as follows:
+ {{{#!python numbers=off
+sage: simplify(clebsch_gordan(3/2,1/2,2, 3/2,1/2,2))
+1
+sage: clebsch_gordan(1.5,0.5,1, 1.5,-0.5,1)
+1/2*sqrt(3)
+sage: racah(3,3,3,3,3,3)
+-1/14
+sage: gaunt(1,0,1,1,0,-1)
+-1/2/sqrt(pi)
+sage: gaunt(12,15,5,2,3,-5)
+91/124062*sqrt(36890)/sqrt(pi)
+sage: gaunt(1000,1000,1200,9,3,-12).n(64)
+0.00689500421922113448
+ }}}
 
 
 == Combinatorics ==
