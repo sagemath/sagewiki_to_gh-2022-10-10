@@ -297,45 +297,134 @@ Wall time: 0.41 s
 == Graph Theory ==
 
 
- * Inclusion of Cliquer as a standard package (Trac[[http://trac.sagemath.org/sage_trac/ticket/6355|#6355]])
-   [[http://users.tkk.fi/pat/cliquer.html|Cliquer]] is a set of C routines for finding cliques in an arbitrary weighted graph. It uses an exact branch-and-bound algorithm recently developed by Patric Ostergard and mainly written by Sampo Niskanen. It is published under the GPL license.
+ * Cliquer as a standard package (Nathann Cohen) [[http://trac.sagemath.org/sage_trac/ticket/6355|#6355]] --- [[http://users.tkk.fi/pat/cliquer.html|Cliquer]] is a set of C routines for finding cliques in an arbitrary weighted graph. It uses an exact branch-and-bound algorithm recently developed by Patric Ostergard and mainly written by Sampo Niskanen. It is published under the GPL license. Here are some examples for working with the new cliquer spkg:
+ {{{
+sage: max_clique(graphs.PetersenGraph())
+[7, 9]
+sage: all_max_clique(graphs.PetersenGraph())
+
+[[2, 7],
+ [7, 9],
+ [6, 8],
+ [6, 9],
+ [0, 4],
+ [4, 9],
+ [5, 7],
+ [0, 5],
+ [5, 8],
+ [3, 4],
+ [2, 3],
+ [3, 8],
+ [1, 6],
+ [0, 1],
+ [1, 2]]
+sage: clique_number(Graph("DJ{"))
+4
+sage: clique_number(Graph({0:[1,2,3], 1:[2], 3:[0,1]}))
+3
+sage: list_composition([1,3,'a'], {'a':'b', 1:2, 2:3, 3:4})
+[2, 4, 'b']
+ }}}
+ 
+
+ * Faster algorithm to compute maximum cliques (Nathann Cohen) [[http://trac.sagemath.org/sage_trac/ticket/5793|#5793]] --- With the inclusion of cliquer as a standard spkg, the following functions can now use the cliquer algorithm:
+  * `Graph.max_clique()` --- Returns the vertex set of a maximum complete subgraph.
+  * `Graph.cliques_maximum()` --- Returns the list of all maximum cliques, with each clique represented by a list of vertices. A clique is an induced complete subgraph and a maximal clique is one of maximal order.
+  * `Graph.clique_number()` --- Returns the size of the largest clique of the graph.
+  * `Graph.cliques_vertex_clique_number()` --- Returns a list of sizes of the largest maximal cliques containing each vertex. This returns a single value if there is only one input vertex.
+  * `Graph.independent_set()` --- Returns a maximal independent set, which is a set of vertices which induces an empty subgraph.
+  
+ These functions already exist in Sage. Cliquer does not bring to Sage any new feature, but a huge efficiency improvement in computing clique numbers. The NetworkX 0.36 algorithm is very slow in its computation of these functions, even though it remains faster than cliquer for the computation of `Graph.cliques_vertex_clique_number()`. The algorithms in the cliquer spkg scale very well as the number of vertices in a graph increases. Here is a comparison between the implementation of NetworkX 0.36 and cliquer on computing the clique number of a graph. Timing statistics were obtained using the machine sage.math:
+ {{{
+sage: g = graphs.RandomGNP(100, 0.4)
+sage: %time g.clique_number(algorithm="networkx");
+CPU times: user 0.64 s, sys: 0.01 s, total: 0.65 s
+Wall time: 0.65 s
+sage: %time g.clique_number(algorithm="cliquer");
+CPU times: user 0.02 s, sys: 0.00 s, total: 0.02 s
+Wall time: 0.02 s
+
+sage: g = graphs.RandomGNP(200, 0.4)
+sage: %time g.clique_number(algorithm="networkx");
+CPU times: user 9.68 s, sys: 0.01 s, total: 9.69 s
+Wall time: 9.68 s
+sage: %time g.clique_number(algorithm="cliquer");
+CPU times: user 0.09 s, sys: 0.00 s, total: 0.09 s
+Wall time: 0.09 s
+
+sage: g = graphs.RandomGNP(300, 0.4)
+sage: %time g.clique_number(algorithm="networkx");
+CPU times: user 69.98 s, sys: 0.10 s, total: 70.08 s
+Wall time: 70.09 s
+sage: %time g.clique_number(algorithm="cliquer");
+CPU times: user 0.23 s, sys: 0.00 s, total: 0.23 s
+Wall time: 0.23 s
+
+sage: g = graphs.RandomGNP(400, 0.4)
+sage: %time g.clique_number(algorithm="networkx");
+CPU times: user 299.32 s, sys: 0.29 s, total: 299.61 s
+Wall time: 299.64 s
+sage: %time g.clique_number(algorithm="cliquer");
+CPU times: user 0.54 s, sys: 0.00 s, total: 0.54 s
+Wall time: 0.53 s
+
+sage: g = graphs.RandomGNP(500, 0.4)
+sage: %time g.clique_number(algorithm="networkx");
+CPU times: user 1178.85 s, sys: 1.30 s, total: 1180.15 s
+Wall time: 1180.16 s
+sage: %time g.clique_number(algorithm="cliquer");
+CPU times: user 1.09 s, sys: 0.00 s, total: 1.09 s
+Wall time: 1.09 s
+ }}}
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6540|#6540]]
+ * Support the syntax `g.add_edge((u,v), label=l)` for C graphs (Robert Miller) [[http://trac.sagemath.org/sage_trac/ticket/6540|#6540]] --- The following syntax is supported. However, note that the `label` keyword must be used:
+ {{{
+sage: G = Graph()
+sage: G.add_edge((1,2), label="my label")
+sage: G.edges()
+[(1, 2, 'my label')]
+sage: G = Graph()
+sage: G.add_edge((1,2), "label")
+sage: G.edges()
+[((1, 2), 'label', None)]
+ }}}
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6552|#6552]]
+ * Fast subgraphs by building the graph instead of deleting things (Jason Grout) [[http://trac.sagemath.org/sage_trac/ticket/6578|#6578]] --- Subgraphs can now be constructed by building a new graph from a number of vertices and edges. This is in contrast to the previous default algorithm where subgraphs were contructed by deleting edges and vertices. In some cases, the efficiency gain of the new subgraph construction implementation can be up to 17x. The following timing statistics were obtained using the machine sage.math:
+ {{{
+# BEFORE
+
+sage: g = graphs.PathGraph(Integer(10e4))
+sage: %time g.subgraph(range(20));
+CPU times: user 1.89 s, sys: 0.03 s, total: 1.92 s
+Wall time: 1.92 s
+sage: g = graphs.PathGraph(Integer(10e4) * 5)
+sage: %time g.subgraph(range(20));
+CPU times: user 14.92 s, sys: 0.05 s, total: 14.97 s
+Wall time: 14.97 s
+sage: g = graphs.PathGraph(Integer(10e5))
+sage: %time g.subgraph(range(20));
+CPU times: user 47.77 s, sys: 0.29 s, total: 48.06 s
+Wall time: 48.06 s
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6578|#6578]]
+# AFTER
 
+sage: g = graphs.PathGraph(Integer(10e4))
+sage: %time g.subgraph(range(20));
+CPU times: user 0.27 s, sys: 0.01 s, total: 0.28 s
+Wall time: 0.28 s
+sage: g = graphs.PathGraph(Integer(10e4) * 5)
+sage: %time g.subgraph(range(20));
+CPU times: user 1.34 s, sys: 0.03 s, total: 1.37 s
+Wall time: 1.37 s
+sage: g = graphs.PathGraph(Integer(10e5))
+sage: %time g.subgraph(range(20));
+CPU times: user 2.66 s, sys: 0.04 s, total: 2.70 s
+Wall time: 2.70 s
+ }}}
 
- * New algorithm for all Graph functions related to the computation of maximum Cliques (Trac [[http://trac.sagemath.org/sage_trac/ticket/5793|#5793]])
-   With the inclusion of  Cliquer as a standard SPKG, the following functions can now use the cliquer Algorithm :
-       * Graph.max_clique()
-         Returns the vertex set of a maximum complete subgraph
-       * Graph.cliques_maximum()
-         Returns the list of all maximum cliques, with each clique represented by a list of vertices. A clique is an induced complete subgraph, and a maximal clique is one of maximal order. 
-       * Graph.clique_number()
-         Returns the size of the largest clique of the graph
-       * Graph.cliques_vertex_clique_number()
-         Returns a list of sizes of the largest maximal cliques containing each vertex. (Returns a single value if only one input vertex).
-       * Graph.independent_set()
-         Returns a maximal independent set, which is a set of vertices which induces an empty subgraph.
-   These functions already existed in Sage : Cliquer does not bring to SAGE any new feature, but a huge improvement of its efficiency in the computation of clique number. The previous NetworkX algorithm was very slow in its computations of these functions, even though it remains faster than Cliquer for the computation of Graph.cliques_vertex_clique_number(). 
-
-   Here is what happens when comparing Cliquer to NetworkX
-   {{{
-sage: g=graphs.RandomGNP(200,.4)
-sage: time g.clique_number(algorithm="networkx")
-CPU times: user 14.63 s, sys: 0.04 s, total: 14.68 s
-Wall time: 14.68 s
-9
-sage: time g.clique_number(algorithm="cliquer")
-CPU times: user 0.11 s, sys: 0.00 s, total: 0.11 s
-Wall time: 0.11 s
-9
-   }}}
 
 == Interfaces ==
 
