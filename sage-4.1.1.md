@@ -298,7 +298,7 @@ Wall time: 0.41 s
 
 
  * Cliquer as a standard package (Nathann Cohen) [[http://trac.sagemath.org/sage_trac/ticket/6355|#6355]] --- [[http://users.tkk.fi/pat/cliquer.html|Cliquer]] is a set of C routines for finding cliques in an arbitrary weighted graph. It uses an exact branch-and-bound algorithm recently developed by Patric Ostergard and mainly written by Sampo Niskanen. It is published under the GPL license. Here are some examples for working with the new cliquer spkg:
- {{{
+ {{{#!python numbers=off
 sage: max_clique(graphs.PetersenGraph())
 [7, 9]
 sage: all_max_clique(graphs.PetersenGraph())
@@ -335,7 +335,7 @@ sage: list_composition([1,3,'a'], {'a':'b', 1:2, 2:3, 3:4})
   * `Graph.independent_set()` --- Returns a maximal independent set, which is a set of vertices which induces an empty subgraph.
   
  These functions already exist in Sage. Cliquer does not bring to Sage any new feature, but a huge efficiency improvement in computing clique numbers. The NetworkX 0.36 algorithm is very slow in its computation of these functions, even though it remains faster than cliquer for the computation of `Graph.cliques_vertex_clique_number()`. The algorithms in the cliquer spkg scale very well as the number of vertices in a graph increases. Here is a comparison between the implementation of NetworkX 0.36 and cliquer on computing the clique number of a graph. Timing statistics were obtained using the machine sage.math:
- {{{
+ {{{#!python numbers=off
 sage: g = graphs.RandomGNP(100, 0.4)
 sage: %time g.clique_number(algorithm="networkx");
 CPU times: user 0.64 s, sys: 0.01 s, total: 0.65 s
@@ -379,7 +379,7 @@ Wall time: 1.09 s
 
 
  * Support the syntax `g.add_edge((u,v), label=l)` for C graphs (Robert Miller) [[http://trac.sagemath.org/sage_trac/ticket/6540|#6540]] --- The following syntax is supported. However, note that the `label` keyword must be used:
- {{{
+ {{{#!python numbers=off
 sage: G = Graph()
 sage: G.add_edge((1,2), label="my label")
 sage: G.edges()
@@ -392,7 +392,7 @@ sage: G.edges()
 
 
  * Fast subgraphs by building the graph instead of deleting things (Jason Grout) [[http://trac.sagemath.org/sage_trac/ticket/6578|#6578]] --- Subgraphs can now be constructed by building a new graph from a number of vertices and edges. This is in contrast to the previous default algorithm where subgraphs were contructed by deleting edges and vertices. In some cases, the efficiency gain of the new subgraph construction implementation can be up to 17x. The following timing statistics were obtained using the machine sage.math:
- {{{
+ {{{#!python numbers=off
 # BEFORE
 
 sage: g = graphs.PathGraph(Integer(10e4))
