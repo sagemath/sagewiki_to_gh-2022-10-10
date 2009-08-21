@@ -324,7 +324,7 @@ sage: arrow((-2, 2), (7,1)).show(frame=True)
 sage: bar_chart([-2,8,-7,3], rgbcolor=(1,0,0), axes=False)
 sage: bar_chart([-2,8,-7,3], rgbcolor=(1,0,0)).show(axes=False)
  }}}
- {{attachment:bar-chart.png}}
+ {{attachment:bar-char.png}}
  {{{
 sage: bezier_path([[(0,1),(.5,0),(1,1)]], fontsize=20)
 sage: bezier_path([[(0,1),(.5,0),(1,1)]]).show(fontsize=20)
@@ -472,10 +472,22 @@ Wall time: 2.70 s
 == Interfaces ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6395|#6395]]
+ * Magma interface: make `magma_colon_equals()` mode work in both command line and notebook (William Stein) [[http://trac.sagemath.org/sage_trac/ticket/6395|#6395]] --- Exposes the `magma_colon_equals()` option in the notebook. For example, one can now do the following in the notebook:
+ {{{
+sage: magma._preparse_colon_equals = False 
+sage: magma._preparse('a = 5') 
+'a = 5' 
+sage: magma._preparse_colon_equals = True 
+sage: magma._preparse('a = 5') 
+'a := 5' 
+sage: magma._preparse('a = 5; b := 7; c =a+b;') 
+'a := 5; b := 7; c :=a+b;'
+ }}}
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6591|#6591]]
+ * Viewing a Sage object with `view(object, viewer='pdf')` (Nicolas M. Thiéry) [[http://trac.sagemath.org/sage_trac/ticket/6591|#6591]] --- Typical uses include:
+  * you prefer your PDF browser to your DVI browser 
+  * you want to view LaTeX snippets which are not displayed well in DVI viewers or jsMath, e.g. images produced by tikzpicture.
 
 
 == Linear Algebra ==
