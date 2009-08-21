@@ -238,20 +238,48 @@ Wall time: 1.01 s
  }}}
 
 
-== Documentation ==
-
-
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/4460|#4460]]
-
-
 == Elliptic Curves ==
 
 
- *  [[http://trac.sagemath.org/sage_trac/ticket/6381|#6381]] (bug in integral_points when rank is large):
+ * Allow the method `integral_points()` to handle elliptic curves with large ranks (John Cremona) [[http://trac.sagemath.org/sage_trac/ticket/6381|#6381]] --- A rewrite of the method `integral_x_coords_in_interval()` in the class `EllipticCurve_rational_field` belonging to the module `sage/schemes/elliptic_curves/ell_rational_field.py`. The rewrite allows the method `integral_points()` to compute the integral points of elliptic curves with large ranks. For example, previously the following code would result in an `OverflowError`:
+ {{{#!python numbers=off
+sage: D = 6611719866
+sage: E = EllipticCurve([0, 0, 0, -D^2, 0])
+sage: E.integral_points();
+ }}}
 
-The function integral_x_coords_in_interval() for finding all integral points on an elliptic curve defined over the rationals whose x-coordinate lies in an interval is now more efficient when the interval is large.
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6407|#6407]]
+ * Multiplication-by-n method on elliptic curve formal groups uses the double-and-add algorithm (Hamish Ivey-Law, Tom Boothby) [[http://trac.sagemath.org/sage_trac/ticket/6407|#6407]] --- Previously, the method `EllipticCurveFormalGroup.mult_by_n()`  was implemented by applying the group law to itself `n` times. However, when working over a field of characteristic zero, a faster algorithm would be used instead. The linear algorithm is now replaced with the logarithmic double-and-add algorithm, i.e. the additive version of the standard square-and-multiply algorithm. In some cases, the efficiency gain can range from 3% up to 29%. The following timing statistics were obtained using the machine sage.math:
+ {{{#!python numbers=off
+# BEFORE
+
+sage: F = EllipticCurve(GF(101), [1, 1]).formal_group()
+sage: %time F.mult_by_n(100, 20);
+CPU times: user 0.98 s, sys: 0.00 s, total: 0.98 s
+Wall time: 0.98 s
+sage: F = EllipticCurve("37a").formal_group()
+sage: %time F.mult_by_n(1000000, 20);
+CPU times: user 0.38 s, sys: 0.00 s, total: 0.38 s
+Wall time: 0.38 s
+sage: %time F.mult_by_n(100000000, 20);
+CPU times: user 0.55 s, sys: 0.03 s, total: 0.58 s
+Wall time: 0.58 s
+
+
+# AFTER
+
+sage: F = EllipticCurve(GF(101), [1, 1]).formal_group()
+sage: %time F.mult_by_n(100, 20);
+CPU times: user 0.96 s, sys: 0.00 s, total: 0.96 s
+Wall time: 0.95 s
+sage: F = EllipticCurve("37a").formal_group()
+sage: %time F.mult_by_n(1000000, 20);
+CPU times: user 0.44 s, sys: 0.01 s, total: 0.45 s
+Wall time: 0.45 s
+sage: %time F.mult_by_n(100000000, 20);
+CPU times: user 0.40 s, sys: 0.01 s, total: 0.41 s
+Wall time: 0.41 s
+ }}}
 
 
 == Graphics ==
