@@ -285,13 +285,56 @@ Wall time: 0.41 s
 == Graphics ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6098|#6098]]
+ * Plotting 3-D Bezier paths (Emily Kirkman) [[http://trac.sagemath.org/sage_trac/ticket/6098|#6098]] --- New function `bezier3d()` for plotting a 3-dimensional Bezier path. Here are some examples for working with this function:
+ {{{
+sage: bezier3d([[(0,0,0), (1,0,0), (0,1,0), (0,1,1)]]).show(zoom=1.2)
+ }}}
+ {{attachment:bezier3d-1.png}}
+ {{{
+sage: path = [[(0,0,0),(.5,.1,.2),(.75,3,-1),(1,1,0)],[(.5,1,.2),(1,.5,0)],[(.7,.2,.5)]]
+sage: bezier3d(path, color='green').show(zoom=1.2)
+ }}}
+ {{attachment:bezier3d-2.png}}
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/5649|#5649]]
-
-
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/5651|#5651]]
+ * Passing extra options to `show()` (Bill Cauchois) [[http://trac.sagemath.org/sage_trac/ticket/5651|#5651]] --- Extra optional arguments to plotting functions can now be passed on to the function `show()`. This passing of optional arguments is implemented for the following plotting modules:
+ * `sage/plot/arrow.py`
+ * `sage/plot/bar_chart.py`
+ * `sage/plot/bezier_path.py`
+ * `sage/plot/circle.py`
+ * `sage/plot/complex_plot.pyx`
+ * `sage/plot/contour_plot.py`
+ * `sage/plot/density_plot.py`
+ * `sage/plot/disk.py`
+ * `sage/plot/line.py`
+ * `sage/plot/matrix_plot.py`
+ * `sage/plot/plot.py`
+ * `sage/plot/plot_field.py`
+ * `sage/plot/point.py`
+ * `sage/plot/polygon.py`
+ * `sage/plot/scatter_plot.py`
+ * `sage/plot/text.py`
+ Each of the following examples demonstrates equivalent code to obtain a plot:
+ {{{
+sage: arrow((-2, 2), (7,1), frame=True)
+sage: arrow((-2, 2), (7,1)).show(frame=True)
+ }}}
+ {{attachment:arrow.png}}
+ {{{
+sage: bar_chart([-2,8,-7,3], rgbcolor=(1,0,0), axes=False)
+sage: bar_chart([-2,8,-7,3], rgbcolor=(1,0,0)).show(axes=False)
+ }}}
+ {{attachment:bar-chart.png}}
+ {{{
+sage: bezier_path([[(0,1),(.5,0),(1,1)]], fontsize=20)
+sage: bezier_path([[(0,1),(.5,0),(1,1)]]).show(fontsize=20)
+ }}}
+ {{attachment:bezier-path.png}}
+ {{{
+sage: complex_plot(lambda z: z, (-3, 3), (-3, 3), figsize=[5,5])
+sage: complex_plot(lambda z: z, (-3, 3), (-3, 3)).show(figsize=[5,5])
+ }}}
+ {{attachment:complex-plot.png}}
 
 
 == Graph Theory ==
