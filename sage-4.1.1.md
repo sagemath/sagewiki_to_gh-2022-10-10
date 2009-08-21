@@ -213,7 +213,29 @@ sage: Partition([5,1,1,1,1,1]).sign()
 == Cryptography ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6454|#6454]]
+ * Improve S-box linear and differences matrices computation (Yann Laigle-Chapuy) [[http://trac.sagemath.org/sage_trac/ticket/6454|#6454]] --- Speed up the functions `difference_distribution_matrix()` and `linear_approximation_matrix()` of the class `SBox` in the module `sage/crypto/mq/sbox.py`. The function `linear_approximation_matrix()` now uses the Walsh transform. The efficiency of `difference_distribution_matrix()` can be up to 277x, while that for `linear_approximation_matrix()` can be up to 132x. The following timing statistics were obtained using the machine sage.math:
+ {{{#!python numbers=off
+# BEFORE
+
+sage: S = mq.SR(1,4,4,8).sbox()
+sage: %time S.difference_distribution_matrix();
+CPU times: user 77.73 s, sys: 0.00 s, total: 77.73 s
+Wall time: 77.73 s
+sage: %time S.linear_approximation_matrix();
+CPU times: user 132.96 s, sys: 0.00 s, total: 132.96 s
+Wall time: 132.96 s
+
+
+# AFTER
+
+sage: S = mq.SR(1,4,4,8).sbox()
+sage: %time S.difference_distribution_matrix();
+CPU times: user 0.28 s, sys: 0.01 s, total: 0.29 s
+Wall time: 0.28 s
+sage: %time S.linear_approximation_matrix();
+CPU times: user 1.01 s, sys: 0.00 s, total: 1.01 s
+Wall time: 1.01 s
+ }}}
 
 
 == Documentation ==
