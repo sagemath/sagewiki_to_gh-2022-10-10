@@ -991,12 +991,3 @@ a_7_5,
 b_2_0*b_6_3,
 b_6_3^2+b_4_2^3
   }}}
-
-
-== Symbolics ==
-
-
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6195|#6195]]
-
-
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6243|#6243]]
