@@ -799,58 +799,58 @@ array([ 1.  ,  0.5 ,  0.75])
 == Packages ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6558|#6558]]
+ * Update the [[http://math-atlas.sourceforge.net|ATLAS]] spkg to version 3.8.3.p7 (David Kirkby, Minh Van Nguyen) [[http://trac.sagemath.org/sage_trac/ticket/6558|#6558]] [[http://trac.sagemath.org/sage_trac/ticket/6738|#6738]] --- This adds support for building ATLAS under Solaris on a Sun SPARC processor.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6380|#6380]]
+ * Update the [[http://www.shoup.net/ntl|NTL]] spkg to version 5.4.2.p9 (David Kirkby) [[http://trac.sagemath.org/sage_trac/ticket/6380|#6380]] --- This adds support for building NTL under Solaris on a Sun SPARC processor.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6443|#6443]]
+ * Update the [[http://cims.nyu.edu/~harvey/zn_poly|zn_poly]] spkg to version 0.9.p1 (David Kirkby) [[http://trac.sagemath.org/sage_trac/ticket/6443|#6443]] --- This adds support for building zn_poly under Solaris on a Sun SPARC processor.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6445|#6445]]
+ * Update the [[http://pari.math.u-bordeaux.fr|Pari/GP]] spkg to version 2.3.3.p1 (David Kirkby) [[http://trac.sagemath.org/sage_trac/ticket/6445|#6445]] --- This adds support for building Pari under Solaris on a Sun SPARC processor.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6451|#6451]]
+ * Update the [[http://www.flintlib.org|FLINT]] spkg to version 1.3.0.p2 (David Kirkby) [[http://trac.sagemath.org/sage_trac/ticket/6451|#6451]] --- This fixes a Solaris specific bug in FLINT.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6453|#6453]]
+ * Update the [[http://www.mpfr.org|MPFR]] spkg to version 2.4.1.p0 (Paul Zimmermann, David Kirkby) [[http://trac.sagemath.org/sage_trac/ticket/6453|#6453]] --- This fixes a number of test failures under Solaris on a Sun SPARC processor.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6528|#6528]]
+ * Update the [[http://polybori.sourceforge.net|PolyBoRi]] spkg to version 0.5rc.p9 (David Kirkby) [[http://trac.sagemath.org/sage_trac/ticket/6528|#6528]] --- This fixes a Solaris specific bug in compiling PolyBoRi with the Sun compiler.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6143|#6143]]
+ * Upgrade [[http://tinymce.moxiecode.com|tinyMCE]] to version 3.2.4.1 upstream release (Jason Grout) [[http://trac.sagemath.org/sage_trac/ticket/6143|#6143]] --- This version of tinyMCE has many fixes for Safari and a greatly improved paste-from-word functionality.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6438|#6438]]
+ * Upgrade [[http://www.cython.org|Cython]] to version 0.11.2.1 latest upstream release (Robert Bradshaw) [[http://trac.sagemath.org/sage_trac/ticket/6438|#6438]].
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6493|#6493]]
+ * Update the [[http://numpy.scipy.org|NumPy]] spkg to version 1.3.0.p1 (William Stein) [[http://trac.sagemath.org/sage_trac/ticket/6493|#6493]] --- This fixes a bug in compiling NumPy under 64-bit OS X.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6563|#6563]]
+ * Upgrade [[http://www.singular.uni-kl.de|Singular]] to version singular-3-1-0-2-20090620.p0 (David Kirkby) [[http://trac.sagemath.org/sage_trac/ticket/6563|#6563]] --- This fixes a Solaris specific bug when compiling Singular under Solaris on a Sun SPARC processor.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6602|#6602]]
+ * New optional spkg [[http://www.gnu.org/software/glpk|GLPK]] version 4.38 (Nathann Cohen) [[http://trac.sagemath.org/sage_trac/ticket/6602|#6602]] --- GLPK is a linear program solver that can also solve mixed integer programs.
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6302|#6302]]
+ * New optional spkg [[http://www.openopt.org|OpenOpt]] version 0.24 (William Stein) [[http://trac.sagemath.org/sage_trac/ticket/6302|#6302]] --- OpenOpt is a numerical optimization with various solvers.
 
 
- * new optional package [[http://sage.math.washington.edu/home/SimonKing/Cohomology/|p_group_cohomology]] (Simon A. King, David J. Green)
+ * New optional package [[http://sage.math.washington.edu/home/SimonKing/Cohomology/|p_group_cohomology]] version 1.0.2 (Simon A. King, David J. Green) [[http://trac.sagemath.org/sage_trac/ticket/6491|#6491]] --- The package p_group_cohomology can compute the cohomology ring of a group with coefficients in a finite field of order p. Its features include:
 
-   * Compute the cohomology ring with coefficients in GF(p) for any finite p-group, in terms of a minimal generating set and a minimal set of algebraic relations. We use Benson's criterion to prove the completeness of the ring structure.
-   * Compute depth, dimension, Poincare series and a-invariants of the cohomology rings. 
-   * Compute the nil radical
-   * Construct induced homomorphisms.
-   * The package includes a list of cohomology rings for all groups of order 64.
-   * With the package, the cohomology for all groups of order 128 and for the Sylow 2-subgroup of the third Conway group (order 1024) was computed for the first time. The result of these and many other computations (e.g., all but 6 groups of order 243) is accessible in a repository on sage.math.
+  * Compute the cohomology ring with coefficients in GF(p) for any finite p-group, in terms of a minimal generating set and a minimal set of algebraic relations. We use Benson's criterion to prove the completeness of the ring structure.
+  * Compute depth, dimension, Poincare series and a-invariants of the cohomology rings. 
+  * Compute the nil radical
+  * Construct induced homomorphisms.
+  * The package includes a list of cohomology rings for all groups of order 64.
+  * With the package, the cohomology for all groups of order 128 and for the Sylow 2-subgroup of the third Conway group (order 1024) was computed for the first time. The result of these and many other computations (e.g., all but 6 groups of order 243) is accessible in a repository on sage.math.
 
- __Examples__:
+ Here some examples:
 
-   * Data that are included with the package:
-   {{{
+  * Data that are included with the package:
+  {{{
 sage: from pGroupCohomology import CohomologyRing
 sage: H = CohomologyRing(64,132) # this is included in the package, hence, the ring structure is already there
 sage: print H
@@ -882,9 +882,9 @@ sage: H.nil_radical()
 a_1_0,
 a_1_1,
 a_2_4
-   }}}
-   * Data from the repository on sage.math:
-   {{{
+  }}}
+  * Data from the repository on sage.math:
+  {{{
 sage: H = CohomologyRing(128,562) # if there is internet connection, the ring data are downloaded behind the scenes
 sage: len(H.gens())
 35
@@ -896,9 +896,9 @@ sage: H.a_invariants()
 [-Infinity, -4, -3, -3]
 sage: H.poincare_series()
 (t^14 - 2*t^13 + 2*t^12 - t^11 - t^10 + t^9 - 2*t^8 + 2*t^7 - 2*t^6 + 2*t^5 - 2*t^4 + t^3 - t^2 - 1)/(t^17 - 3*t^16 + 4*t^15 - 4*t^14 + 4*t^13 - 4*t^12 + 4*t^11 - 4*t^10 + 4*t^9 - 4*t^8 + 4*t^7 - 4*t^6 + 4*t^5 - 4*t^4 + 4*t^3 - 4*t^2 + 3*t - 1)
-   }}}
-   * Some computation from scratch, involving different ring presentations and induced maps:
-   {{{
+  }}}
+  * Some computation from scratch, involving different ring presentations and induced maps:
+  {{{
 sage: tmp_root = tmp_filename()
 sage: CohomologyRing.set_user_db(tmp_root)
 sage: H0 = CohomologyRing.user_db(8,3,websource=False)
@@ -947,9 +947,9 @@ sage: [X==phi_star_inv(phi_star(X)) for X in H0.gens()]
 [True, True, True, True]
 sage: [X==phi_star(phi_star_inv(X)) for X in H1.gens()]
 [True, True, True, True]
-   }}}
-   * An example with an odd prime:
-   {{{
+  }}}
+  * An example with an odd prime:
+  {{{
 sage: H = CohomologyRing(81,8) # this needs to be computed from scratch
 sage: H.make()
 sage: H.gens()
@@ -990,7 +990,7 @@ b_2_0*b_4_2,
 a_7_5,
 b_2_0*b_6_3,
 b_6_3^2+b_4_2^3
-   }}}
+  }}}
 
 
 == Symbolics ==
