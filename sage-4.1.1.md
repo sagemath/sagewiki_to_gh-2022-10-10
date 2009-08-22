@@ -1,6 +1,14 @@
 = Sage 4.1.1 Release Tour =
 
 
+Sage 4.1.1 was released on August 14th, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-4.1.1.txt|sage-4.1.1.txt]]. A nicely formatted version of this release tour can be found here. The following points are some of the foci of this release: 
+
+ * Improved data conversion between NumPy and Sage
+ * Solaris support, Solaris specific bug fixes for NTL, zn_poly, Pari/GP, FLINT, MPFR, PolyBoRI, ATLAS
+ * Upgrade/updates for about 8 standard packages
+ * Three new optional packages: openopt, GLPK, p_group_cohomology
+
+
 == Algebra ==
 
 
