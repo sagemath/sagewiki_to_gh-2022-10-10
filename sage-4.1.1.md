@@ -623,7 +623,14 @@ Full MatrixSpace of 2 by 2 dense matrices over Finite Field of size 3
 == Notebook ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/5653|#5653]]
+ * Display docstrings in the notebook using HTML and jsMath (Tom Boothby, Evan Fosmark, John Palmieri, Mitesh Patel) [[http://trac.sagemath.org/sage_trac/ticket/5653|#5653]] --- When viewing docstrings using the notebook, these are presented using HTML and jsMath. For example, if one does any of the following
+ {{{
+identity_matrix([TAB]
+identity_matrix?[SHIFT-RETURN]
+identity_matrix?[TAB]
+ }}}
+ then the docstring for the function `identity_matrix()` would be presented as in this figure:
+ {{attachment:notebook-docstring.png}}
 
 
 == Number Theory ==
