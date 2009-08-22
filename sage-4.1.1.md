@@ -324,7 +324,7 @@ sage: arrow((-2, 2), (7,1)).show(frame=True)
 sage: bar_chart([-2,8,-7,3], rgbcolor=(1,0,0), axes=False)
 sage: bar_chart([-2,8,-7,3], rgbcolor=(1,0,0)).show(axes=False)
  }}}
- {{attachment:bar-char.png}}
+ {{attachment:bar-chart.png}}
  {{{
 sage: bezier_path([[(0,1),(.5,0),(1,1)]], fontsize=20)
 sage: bezier_path([[(0,1),(.5,0),(1,1)]]).show(fontsize=20)
@@ -473,7 +473,7 @@ Wall time: 2.70 s
 
 
  * Magma interface: make `magma_colon_equals()` mode work in both command line and notebook (William Stein) [[http://trac.sagemath.org/sage_trac/ticket/6395|#6395]] --- Exposes the `magma_colon_equals()` option in the notebook. For example, one can now do the following in the notebook:
- {{{
+ {{{#!python numbers=off
 sage: magma._preparse_colon_equals = False 
 sage: magma._preparse('a = 5') 
 'a = 5' 
@@ -493,29 +493,119 @@ sage: magma._preparse('a = 5; b := 7; c =a+b;')
 == Linear Algebra ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/5081|#5081]]
+ * Make NumPy play nice with Sage types (Robert Bradshaw) [[http://trac.sagemath.org/sage_trac/ticket/5081|#5081]] --- This improves data conversion between NumPy and Sage. For example, one can now do this:
+ {{{#!python numbers=off
+sage: from scipy import stats
+sage: stats.uniform(0,15).ppf([0.5,0.7])
+array([  7.5,  10.5])
+ }}}
+ And this:
+ {{{#!python numbers=off
+sage: from scipy import *
+sage: from pylab import *
+sage: sample_rate = 1000.0
+sage: t = r_[0:0.6:1/sample_rate]
+sage: N = len(t)
+sage: s = [sin(2*pi*50*elem) + sin(2*pi*70*elem + (pi/4)) for elem in t]
+sage: S = fft(s)
+sage: f = sample_rate*r_[0:(N/2)] / N
+sage: n = len(f)
+sage: line(zip(f, abs(S[0:n]) / N))
+ }}}
+ {{attachment:fft.png}}
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6553|#6553]]
+ * Fast slicing of sparse matrices (Jason Grout) [[http://trac.sagemath.org/sage_trac/ticket/6553|#6553]] --- The efficiency gain for slicing sparse matrices can range from 10x up to 147x. The following timing statistics were obtained using the machine sage.math:
+ {{{#!python numbers=off
+# BEFORE
+
+sage: A = random_matrix(ZZ, 100000, density=0.00005, sparse=True)
+sage: %time A[50000:,:50000];
+CPU times: user 298.84 s, sys: 0.05 s, total: 298.89 s
+Wall time: 298.95 s
+sage: A = random_matrix(ZZ, 10000, density=0.00005, sparse=True)
+sage: %time A[5000:,:5000];
+CPU times: user 2.50 s, sys: 0.00 s, total: 2.50 s
+Wall time: 2.50 s
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6554|#6554]]
+# AFTER
+
+sage: A = random_matrix(ZZ, 100000, density=0.00005, sparse=True)
+sage: %time A[50000:,:50000];
+CPU times: user 1.91 s, sys: 0.09 s, total: 2.00 s
+Wall time: 2.02 s
+sage: A = random_matrix(ZZ, 10000, density=0.00005, sparse=True)
+sage: %time A[5000:,:5000];
+CPU times: user 0.23 s, sys: 0.00 s, total: 0.23 s
+Wall time: 0.24 s
+ }}}
 
 
- * Elementwise (Hadamard) product of matrices (Rob Beezer)  (Trac [[http://trac.sagemath.org/sage_trac/ticket/6301|#6301]])
+ * Plotting sparse matrices efficiently (Jason Grout) [[http://trac.sagemath.org/sage_trac/ticket/6554|#6554]] --- Previously, plotting a sparse matrix would convert the matrix to a dense matrix, resulting in the whole process taking increasingly longer time as the dimensions of the matrix increase. Where a matrix is sparse, the matrix plotting function now uses SciPy's sparse matrix functionalities, which can handle large matrices. In some cases, the performance improvement can range from 380x up to 98000x. The following timing statistics were obtained using the machine mod.math:
+ {{{#!python numbers=off
+# BEFORE
 
-   Given matrices A and B of the same size, {{{C = A.elementwise_product(B)}}} creates the new matrix C, of the same size, with entries given by C[i,j]=A[i,j]*B[i,j].  The multiplication occurs in a ring defined by Sage's coercion model, as appropriate for the base rings of A and B (or an error is raised if there is no sensible common ring).  In particular, if A and B are defined over a noncommutative ring, then the operation is also noncommutative.  The implementation is different for dense matrices versus sparse matrices, but there are probably further optimizations available for specific rings.  This operation is often call the Hadamard product.
+sage: A = random_matrix(ZZ, 5000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 60.25 s, sys: 0.69 s, total: 60.94 s
+Wall time: 60.94 s
+sage: A = random_matrix(ZZ, 10000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 241.31 s, sys: 3.03 s, total: 244.34 s
+Wall time: 244.35 s
+sage: A = random_matrix(ZZ, 15000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 544.02 s, sys: 6.85 s, total: 550.87 s
+Wall time: 550.86 s
+sage: A = random_matrix(ZZ, 20000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 972.85 s, sys: 13.36 s, total: 986.21 s
+Wall time: 986.21 s
 
-   {{{
-sage: G = matrix(GF(3),2,[0,1,2,2]) 
-sage: H = matrix(ZZ,2,[1,2,3,4]) 
-sage: J = G.elementwise_product(H) 
-sage: J 
-[0 2] 
-[0 2] 
-sage: J.parent() 
-Full MatrixSpace of 2 by 2 dense matrices over Finite Field of size 
-   }}}
+
+# AFTER
+
+sage: A = random_matrix(ZZ, 5000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 0.05 s, sys: 0.04 s, total: 0.09 s
+Wall time: 0.16 s
+sage: A = random_matrix(ZZ, 10000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.01 s
+sage: A = random_matrix(ZZ, 15000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.01 s
+sage: A = random_matrix(ZZ, 20000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.01 s
+ }}}
+ In Sage 4.1, the following would quickly consume gigabytes of RAM on a system and may result in a `MemoryError`:
+ {{{
+sage: A = random_matrix(ZZ, 100000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 0.63 s, sys: 0.01 s, total: 0.64 s
+Wall time: 0.63 s
+sage: A = random_matrix(ZZ, 1000000, density=0.00001, sparse=True)
+sage: %time matrix_plot(A, marker=',');
+CPU times: user 1933.41 s, sys: 2.97 s, total: 1936.38 s
+Wall time: 1937.31 s
+ }}}
+
+
+ * Elementwise (Hadamard) product of matrices (Rob Beezer) [[http://trac.sagemath.org/sage_trac/ticket/6301|#6301]] --- Given matrices `A` and `B` of the same size, `C = A.elementwise_product(B)` creates the new matrix C, of the same size, with entries given by `C[i,j] = A[i,j] * B[i,j]`. The multiplication occurs in a ring defined by Sage's coercion model, as appropriate for the base rings of `A` and `B` (or an error is raised if there is no sensible common ring).  In particular, if `A` and `B` are defined over a noncommutative ring, the operation is also noncommutative. The implementation is different for dense matrices versus sparse matrices, but there are probably further optimizations available for specific rings. This operation is often called the Hadamard product. Here is an example on using elementwise matrix product:
+ {{{#!python numbers=off
+sage: G = matrix(GF(3), 2, [0,1,2,2])
+sage: H = matrix(ZZ, 2, [1,2,3,4])
+sage: J = G.elementwise_product(H); J
+[0 2]
+[0 2]
+sage: J.parent()
+Full MatrixSpace of 2 by 2 dense matrices over Finite Field of size 3
+ }}}
 
 
 == Modular Forms ==
