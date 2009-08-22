@@ -434,7 +434,7 @@ sage: G.edges()
  }}}
 
 
- * Fast subgraphs by building the graph instead of deleting things (Jason Grout) [[http://trac.sagemath.org/sage_trac/ticket/6578|#6578]] --- Subgraphs can now be constructed by building a new graph from a number of vertices and edges. This is in contrast to the previous default algorithm where subgraphs were contructed by deleting edges and vertices. In some cases, the efficiency gain of the new subgraph construction implementation can be up to 17x. The following timing statistics were obtained using the machine sage.math:
+ * Fast subgraphs by building the graph instead of deleting things (Jason Grout) [[http://trac.sagemath.org/sage_trac/ticket/6578|#6578]] --- Subgraphs can now be constructed by building a new graph from a number of vertices and edges. This is in contrast to the previous default algorithm where subgraphs were constructed by deleting edges and vertices. In some cases, the efficiency gain of the new subgraph construction implementation can be up to 17x. The following timing statistics were obtained using the machine sage.math:
  {{{#!python numbers=off
 # BEFORE
 
@@ -850,7 +850,7 @@ array([ 1.  ,  0.5 ,  0.75])
  Here some examples:
 
   * Data that are included with the package:
-  {{{
+  {{{#!python numbers=off
 sage: from pGroupCohomology import CohomologyRing
 sage: H = CohomologyRing(64,132) # this is included in the package, hence, the ring structure is already there
 sage: print H
@@ -884,7 +884,7 @@ a_1_1,
 a_2_4
   }}}
   * Data from the repository on sage.math:
-  {{{
+  {{{#!python numbers=off
 sage: H = CohomologyRing(128,562) # if there is internet connection, the ring data are downloaded behind the scenes
 sage: len(H.gens())
 35
@@ -898,7 +898,7 @@ sage: H.poincare_series()
 (t^14 - 2*t^13 + 2*t^12 - t^11 - t^10 + t^9 - 2*t^8 + 2*t^7 - 2*t^6 + 2*t^5 - 2*t^4 + t^3 - t^2 - 1)/(t^17 - 3*t^16 + 4*t^15 - 4*t^14 + 4*t^13 - 4*t^12 + 4*t^11 - 4*t^10 + 4*t^9 - 4*t^8 + 4*t^7 - 4*t^6 + 4*t^5 - 4*t^4 + 4*t^3 - 4*t^2 + 3*t - 1)
   }}}
   * Some computation from scratch, involving different ring presentations and induced maps:
-  {{{
+  {{{#!python numbers=off
 sage: tmp_root = tmp_filename()
 sage: CohomologyRing.set_user_db(tmp_root)
 sage: H0 = CohomologyRing.user_db(8,3,websource=False)
@@ -949,7 +949,7 @@ sage: [X==phi_star(phi_star_inv(X)) for X in H1.gens()]
 [True, True, True, True]
   }}}
   * An example with an odd prime:
-  {{{
+  {{{#!python numbers=off
 sage: H = CohomologyRing(81,8) # this needs to be computed from scratch
 sage: H.make()
 sage: H.gens()
