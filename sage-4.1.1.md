@@ -768,10 +768,32 @@ True
 == Numerical ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6506|#6506]]
-
-
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/4571|#4571]]
+ * Further NumPy type conversions (Robert Bradshaw, Jason Grout) [[http://trac.sagemath.org/sage_trac/ticket/6506|#6506]] --- Support improved handling of `ZZ`, `QQ`, and `CC` between NumPy and Sage. Here are some examples:
+ {{{#!python numbers=off
+sage: import numpy
+sage: numpy.array([1.0, 2.5j])
+array([ 1.+0.j ,  0.+2.5j])
+sage: numpy.array([1.0, 2.5j]).dtype
+dtype('complex128')
+sage: numpy.array([1.000000000000000000000000000000000000j]).dtype
+dtype('object')
+sage: numpy.array([1, 2, 3])
+array([1, 2, 3])
+sage: numpy.array([1, 2, 3]).dtype
+dtype('int64')
+sage: numpy.array(2**40).dtype
+dtype('int64')
+sage: numpy.array(2**400).dtype
+dtype('object')
+sage: numpy.array([1,2,3,0.1]).dtype
+dtype('float64')
+sage: numpy.array(QQ(2**40)).dtype
+dtype('int64')
+sage: numpy.array(QQ(2**400)).dtype
+dtype('object')
+sage: numpy.array([1, 1/2, 3/4])
+array([ 1.  ,  0.5 ,  0.75])
+ }}}
 
 
 == Packages ==
