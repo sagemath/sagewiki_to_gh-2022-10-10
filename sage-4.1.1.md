@@ -611,14 +611,14 @@ Full MatrixSpace of 2 by 2 dense matrices over Finite Field of size 3
 == Modular Forms ==
 
 
- * FIXME: Efficient implementation of index for `Gamma(N)` (Simon Morris) [[http://trac.sagemath.org/sage_trac/ticket/6606|#6606]] --- The new implementation 
+ * Efficient implementation of index for `Gamma(N)` (Simon Morris) [[http://trac.sagemath.org/sage_trac/ticket/6606|#6606]] --- The new implementation provides massive speed-up for the function `Gamma(N)`. The following statistics were obtained using the machine mod.math:
  {{{#!python numbers=off
 # BEFORE
 
 sage: %time [Gamma(n).index() for n in [1..19]];
 CPU times: user 14369.53 s, sys: 75.18 s, total: 14444.71 s
 Wall time: 14445.22 s
-
+sage: %time Gamma(32041).index();  # hangs for hours
 
 # AFTER
 
