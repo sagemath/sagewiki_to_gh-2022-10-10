@@ -584,7 +584,7 @@ CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
 Wall time: 0.01 s
  }}}
  In Sage 4.1, the following would quickly consume gigabytes of RAM on a system and may result in a `MemoryError`:
- {{{
+ {{{#!python numbers=off
 sage: A = random_matrix(ZZ, 100000, density=0.00001, sparse=True)
 sage: %time matrix_plot(A, marker=',');
 CPU times: user 0.63 s, sys: 0.01 s, total: 0.64 s
@@ -611,13 +611,64 @@ Full MatrixSpace of 2 by 2 dense matrices over Finite Field of size 3
 == Modular Forms ==
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6606|#6606]]
+ * FIXME: Efficient implementation of index for `Gamma(N)` (Simon Morris) [[http://trac.sagemath.org/sage_trac/ticket/6606|#6606]] --- The new implementation 
+ {{{#!python numbers=off
+# BEFORE
+
+sage: %time [Gamma(n).index() for n in [1..19]];
+CPU times: user 14369.53 s, sys: 75.18 s, total: 14444.71 s
+Wall time: 14445.22 s
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6071|#6071]]
+# AFTER
+
+sage: %time [Gamma(n).index() for n in [1..19]];
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+Wall time: 0.00 s
+sage: timeit("[Gamma(n).index() for n in [1..19]]")
+125 loops, best of 3: 2.27 ms per loop
+sage: %time Gamma(32041).index();
+CPU times: user 0.00 s, sys: 0.00 s, total: 0.00 s
+sage: %timeit Gamma(32041).index()
+10000 loops, best of 3: 110 µs per loop
+ }}} 
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6534|#6534]]
+ * Weight 1 Eisenstein series (David Loeffler) [[http://trac.sagemath.org/sage_trac/ticket/6071|#6071]] --- Add support for computing weight 1 Eisenstein series. Here's an example:
+ {{{#!python numbers=off
+sage: M = ModularForms(DirichletGroup(13).0, 1)
+sage: M.eisenstein_series()
+[
+-1/13*zeta12^3 + 6/13*zeta12^2 + 4/13*zeta12 + 2/13 + q + (zeta12 + 1)*q^2 + zeta12^2*q^3 + (zeta12^2 + zeta12 + 1)*q^4 + (-zeta12^3 + 1)*q^5 + O(q^6)
+]
+ }}}
+
+
+ * Efficient calculation of Jacobi sums (David Loeffler) [[http://trac.sagemath.org/sage_trac/ticket/6534|#6534]] --- For small primes, calculating Jacobi sums using the definition directly can result in an efficiency improvement of up to 624x. The following timing statistics were obtained using the machine mod.math:
+ {{{#!python numbers=off
+# BEFORE
+
+sage: chi = DirichletGroup(67).0
+sage: psi = chi**3
+sage: time chi.jacobi_sum(psi);
+CPU times: user 6.24 s, sys: 0.00 s, total: 6.24 s
+Wall time: 6.24 s
+
+
+# AFTER
+
+sage: chi = DirichletGroup(67).0
+sage: psi = chi**3
+sage: time chi.jacobi_sum(psi);
+CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
+Wall time: 0.01 s
+ }}}
+ There is also support for computing a Jacobi sum with values in a finite field:
+ {{{#!python numbers=off
+sage: g = DirichletGroup(17, GF(9,'a')).0
+sage: g.jacobi_sum(g**2)
+2*a
+ }}}
 
 
 == Notebook ==
@@ -630,23 +681,88 @@ identity_matrix?[SHIFT-RETURN]
 identity_matrix?[TAB]
  }}}
  then the docstring for the function `identity_matrix()` would be presented as in this figure:
+ 
  {{attachment:notebook-docstring.png}}
 
 
 == Number Theory ==
 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/6457|#6457]] (Intersection of ideals in a number field)
+ * Intersection of ideals in a number field (David Loeffler) [[http://trac.sagemath.org/sage_trac/ticket/6457|#6457]] --- New function `intersection()` of the class `NumberFieldIdeal` in the module `sage/rings/number_field/number_field_ideal.py` for computing the ideals in a number field. Here are some examples on using `intersection()`: 
+ {{{#!python numbers=off
+sage: K.<a> = QuadraticField(-11)
+sage: p = K.ideal((a + 1)/2); q = K.ideal((a + 3)/2)
+sage: p.intersection(q) == q.intersection(p) == K.ideal(a-2)
+True
+sage: # An example with non-principal ideals
+sage: L.<a> = NumberField(x^3 - 7)
+sage: p = L.ideal(a^2 + a + 1, 2)
+sage: q = L.ideal(a+1)
+sage: p.intersection(q) == L.ideal(8, 2*a + 2)
+True
+sage: # A relative example
+sage: L.<a,b> = NumberField([x^2 + 11, x^2 - 5])
+sage: A = L.ideal([15, (-3/2*b + 7/2)*a - 8])
+sage: B = L.ideal([6, (-1/2*b + 1)*a - b - 5/2])
+sage: A.intersection(B) == L.ideal(-1/2*a - 3/2*b - 1)
+True
+ }}}
 
-Intersection of ideals in number fields is now implemented.
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6045|#6045]]
+ * Computing Heegner points (Robert Bradshaw) [[http://trac.sagemath.org/sage_trac/ticket/6045|#6045]] --- Adds a Heegner point method to elliptic curves over `QQ`. The new method is `heegner_point()` which can be found in the class `EllipticCurve_rational_field` of the module `sage/schemes/elliptic_curves/ell_rational_field.py`. Here are some examples on using `heegner_point()`:
+ {{{#!python numbers=off
+sage: E = EllipticCurve('37a')
+sage: E.heegner_discriminants_list(10)
+[-7, -11, -40, -47, -67, -71, -83, -84, -95, -104]
+sage: E.heegner_point(-7)
+(0 : 0 : 1)
+sage: P = E.heegner_point(-40); P
+(a : -a + 1 : 1)
+sage: P = E.heegner_point(-47); P
+(a : -a^4 - a : 1)
+sage: P[0].parent()
+Number Field in a with defining polynomial x^5 - x^4 + x^3 + x^2 - 2*x + 1
+
+sage: # Working out the details manually
+sage: P = E.heegner_point(-47, prec=200)
+sage: f = algdep(P[0], 5); f
+x^5 - x^4 + x^3 + x^2 - 2*x + 1
+sage: f.discriminant().factor()
+47^2
+ }}}
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6396|#6396]]
+ * Support `primes_of_degree_one()` for relative extensions (David Loeffler) [[http://trac.sagemath.org/sage_trac/ticket/6396|#6396]] --- For example, one can now do this:
+ {{{#!python numbers=off
+sage: N.<a,b> = NumberField([x^2 + 1, x^2 - 5])
+sage: ids = N.primes_of_degree_one_list(10); ids
+[Fractional ideal (2*a + 1/2*b - 1/2),
+ Fractional ideal ((-1/2*b - 1/2)*a - b),
+ Fractional ideal (b*a + 1/2*b + 3/2),
+ Fractional ideal ((-1/2*b - 3/2)*a + b - 1),
+ Fractional ideal ((-b + 1)*a + b),
+ Fractional ideal (3*a + 1/2*b - 1/2),
+ Fractional ideal ((1/2*b - 1/2)*a + 3/2*b - 1/2),
+ Fractional ideal ((-1/2*b - 5/2)*a - b + 1),
+ Fractional ideal (2*a - 3/2*b - 1/2),
+ Fractional ideal (3*a + 1/2*b + 5/2)]
+sage: [x.absolute_norm() for x in ids]
+[29, 41, 61, 89, 101, 109, 149, 181, 229, 241]
+sage: ids[9] == N.ideal(3*a + 1/2*b + 5/2)
+True
+ }}}
 
 
- * FIXME: summarize [[http://trac.sagemath.org/sage_trac/ticket/6458|#6458]]
+ * Inverse modulo an ideal in a relative number field (David Loeffler) [[http://trac.sagemath.org/sage_trac/ticket/6458|#6458]] --- Support for computing the inverse modulo an ideal in the ring of integers of a relative field. Here's an example:
+ {{{#!python numbers=off
+sage: K.<a,b> = NumberField([x^2 + 1, x^2 - 3])
+sage: I = K.ideal(17*b - 3*a)
+sage: x = I.integral_basis(); x
+[438, -b*a + 309, 219*a - 219*b, 156*a - 154*b]
+sage: V, _, phi = K.absolute_vector_space()
+sage: V.span([phi(u) for u in x], ZZ) == I.free_module()
+True
+ }}}
 
 
 == Numerical ==
