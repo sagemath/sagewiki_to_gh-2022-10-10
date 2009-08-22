@@ -17,7 +17,7 @@ Participant List:
  * Robert Bradshaw
  * Salman Butt
  * Robert Miller
- * Mike Hansen
+ * Rishikesh
  * Tom Boothby
  * Tim Dokchitser
  * Jared Weinstein
@@ -39,7 +39,7 @@ Accomodations: We've rented one large house, one condo, and all three rooms at t
  * [[http://www.lopezlodge.com/|Lopez Lodge]]
    * Studio: Soroosh Yazdani, Jared Weinstein
    * Double: Robert Miller, Tom Boothby
-   * Single: Mike Hansen
+   * Single: Rishikesh
 
  * [[http://www.lopezvillageproperties.com/property_view.cfm?id=46|Condo]]
    * Robert Bradshaw & family
