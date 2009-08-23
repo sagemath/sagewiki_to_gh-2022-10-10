@@ -1,12 +1,16 @@
 #acl was:read,write jason:read,write rbeezer:read,write KiranSKedlaya:read,write KiranKedlaya:read,write
 #acl acl_hierarchic:true
 
+
+Mailing list: http://groups.google.com/group/sage-grants
+
 = CCLI 2009 Proposal =
 
 
 This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, Kiran Kedlaya, and William Stein, are putting together (through AIM) to get support for the Sage project. 
 
 NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
+
 
 == Past CCLI Awards ==
 
