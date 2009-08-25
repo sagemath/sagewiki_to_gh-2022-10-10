@@ -43,9 +43,9 @@ What people would do if we get the grant:
       * local responsive 2d/3d graphics interacts using matplotlib/chaco/mayavi -- Kiran speaks to how useful it would be to have fast 3d interacts in teaching. 
     * notebook input widgets (like Rado's graph editor, a matrix input widget, etc.) that work in the input cells
 
-* David Farmer -- do not use the word polish -- use the phrase "classroom ready"!!
+  David Farmer -- do not use the word polish -- use the phrase "classroom ready"!!
 
-* William Stein:
+  William Stein:
     * geogebra embedding (only 2d)
     * david farmer: what we need is library of useful stuff that user
       can use to get going during teacher.
