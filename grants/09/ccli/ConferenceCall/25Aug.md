@@ -7,7 +7,8 @@ CCLI, deadline January 13, 2010
 == NOTES: August 25, 2009 ==
 
 Names of 10 experts -- not too closely involved in sage but *want it*:
-     * Nate Dean
+    * Nate Dean
+    * Michael Gage/Michael Pearson (webwork)?
 
 Ideas: 
      * Textbooks using Sage
@@ -33,17 +34,16 @@ What people would do if we get the grant:
     * "moodle integration"
 
  Jason Grout --
-    * "polish Sage functionality to make it"
-    * polish up, polish up.   
-    * the last 10% to be really consistent and unified for undergrads
-    * linear algebra, graphing, graph theory (pretty polished + robert miller's fast graphs)
-    * wide range of things to polish and document better
-    * tutorials
+    * Make Sage "classroom-ready" (i.e., polish up, polish up)
+      * the last 10% to be really consistent and unified for undergrads
+      * linear algebra, graphing, graph theory (pretty polished + robert miller's fast graphs)
+      * wide range of things to polish and document better
+      * tutorials
     * standalone version local GUI that would interact with notebooks that
-      use enthought's stuff: mayavi
-    * 3d interacts
-    * local fast 3d interacts -- Kiran speaks to how useful it would be to 
-      have this in teaching. 
+      use enthought's stuff: mayavi, chaco, etc.
+      * local fast 3d interacts using mayavi -- Kiran speaks to how useful it would be to 
+        have this in teaching. 
+    * notebook input widgets (like Rado's graph editor, a matrix input widget, etc.) that work in the input cells
 
 * David Farmer -- do not use the word polish -- use the phrase "classroom ready"!!
 
@@ -51,7 +51,11 @@ What people would do if we get the grant:
     * geogebra embedding (only 2d)
     * david farmer: what we need is library of useful stuff that user
       can use to get going during teacher.
-    * evaluation capabilities built into sage
+    * evaluation capabilities built into sage -- system for gather information about how Sage is being used and other feedback.
+
+* Campus wide server, easier, authentication built-in to that, make it trivial to setup.
+
+* Library of interacts included in Sage
 
 -----
 
@@ -59,13 +63,17 @@ Technical things, beyond year one.
 
    * David Farmer -- how will people make their books available online?
 
-Recruit people to put books online in year two.
+Year 2:
+
+  * Recruit people to put books online in year two.
+
+  * Recruit people to make other classroom material (e.g., interacts) and contribute them in year 2.
 
 Rob Beezer: People would need some *guidance*.
 
 Some discussion about the breadth of CCLI type 2...
 
-Tom Judson -- so we will collect ideas, implement accross several
+Tom Judson -- so we will collect ideas, implement across several
 universities, sell and tie under one umbrella.
 
 It's all about computer use in the classroom, but integrated with
@@ -74,10 +82,9 @@ implement this.
 
 David Farmer: We are beyond "pilot". 
 
-Rob Beezer: Campus wide server, easier, authentication builtin to
-that, make it trivial to setup.
+Jason Grout: Having a windows port will make a huge difference, if it is possible and fits well within this grant.  
 
-Jason Grout: Having a windows port will make a huge difference.
+William: The Cygwin port might be done soon and would fill the need of a windows port for most students.
 
 -------
 
