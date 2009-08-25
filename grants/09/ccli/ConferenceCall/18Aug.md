@@ -1,3 +1,6 @@
+#acl was:read,write,admin jason:read,write,admin rbeezer:read,write,admin KiranSKedlaya:read,write,admin KiranKedlaya:read,write,admin ThomasJudson:read,write,admin DavidFarmer:read,write,admin
+#acl acl_hierarchic:true
+
 = 18 Aug Conference Call =
 
 This is fleshed out from William's email notes.
@@ -52,4 +55,3 @@ This is fleshed out from William's email notes.
   * circulate a list of delivarables + what it would take to do them
 
   * what we would like to do behind the scenes.
-
