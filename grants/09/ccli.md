@@ -6,7 +6,7 @@ Mailing list: http://groups.google.com/group/sage-grants
 
 This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, Kiran Kedlaya, and William Stein, are putting together (through AIM) to get support for the Sage project. 
 
-NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
+[[CCLI Solicitation|http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html]]
 
 = Next Conference call: Wed, 2 Sept 2009, 10AM Pacific Time =
 
