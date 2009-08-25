@@ -14,6 +14,69 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
 
 [[/ConferenceCall/25Aug|25 Aug Conference Call]]
 
+= Project Ideas =
+ * Textbooks
+   * Finish Rob Beezer's system for easily creating worksheets from textbook source files
+   * Make several textbooks
+     * Beezer's linear algebra textbook
+     * Judson's algebra textbook
+   * Translate other textbooks' MMA/Matlab/Maple code/appendices to Sage
+   * Get a community of people writing textbooks or course notes using Sage and converting them to folders of worksheets.
+     * Sponsor a workshop on this (via AIM?)
+     * Sponsor Joint Meetings workshop/Mathfest workshop on this
+     * Mini-grants for people to convert textbooks and course notes to Sage
+     * Mini-grants for people to write course materials for Sage (e.g., interacts)
+ * Webwork integration
+   * Make it possible to use Sage to help answer webwork problems
+   * Make it possible to use sage interacts, for example, to experiment with an idea while answering a webwork problem
+   * Make it possible to use Sage to help write webwork questions (e.g., Find the integral of \sage{diff(x^2,x)}, where Sage takes the answer and makes a question)
+ * Moodle integration
+ * Make it extremely easy to set up a campus-wide sage server
+   * GUI interface (VMWare appliance-like?) to:
+     * Create a new notebook server for a new class or instructor
+     * Start/stop notebook servers; see the resources consumed by a notebook server
+     * Add users, or use LDAP or something else for authentication
+     * Upgrade Sage
+   * Clear and easy documentation about setting up a campus-wide server
+   * Get sage to be used on several new campuses (this helps fulfill the "project is institutionalized" goal of type II proposals)
+   * New mailing list for server administration issues
+   * make a list of suggested hardware requirements
+   * See what support webwork and moodle offer for setting up campus servers---they probably have good ideas
+ * Make Sage "Classroom-ready" (i.e., polishing that needs to be done)
+   * Go through linear algebra; make interfaces consistent and implement anything else an undergrad course in linear algebra would need
+   * Finish Robert Miller's fast C graph backends
+   * Polish graphics
+     * Make 2d graphics have transformations (i.e., rotate, translate, etc.)
+     * Expose matplotlib better, so we don't have to just duplicate everything that matplotlib has.
+   * Polish any issues in calculus (e.g., see recent sage-devel posts about differentation)
+ * Documentation
+   * Mini-grants for people to write subject-specific tutorials, aimed at undergrad education
+   * Library of interacts distributed with Sage, with organization (see MMA Demonstrations website)
+ * Windows port
+   * Finish whatever is left to make the Cygwin port run
+ * Notebook enhancements
+   * Input widgets in the notebook cell-- I think this requires the cells to be content-editable divs, so it would probably be a summer project
+     * Javascript equation editor (maybe fund Davide Cervone to finish his excellent start of one?)
+     * Integrate Rado's graph editor
+     * Matrix widget
+     * Geogebra widget
+   * @interact improvements
+     * Be able to specify the layout of controls and output
+     * 2d locator (pick a point in a plot)
+     * interacts within interacts
+     * interacts that run on published pages
+   * Interactive 2d plots
+     * Javascript 2d plots (flot?)
+     * html5 matplotlib backend (some initial work already done by matplotlib people)
+   * Tags for worksheets
+   * Be able to zipped collections of worksheets with accounts=True
+   * Be able to publish worksheets to a subgroup of people (e.g., a class)
+   * Embed 2d geogebra
+   * Get Codenode up to the level of the Sage notebook, and possibly switch?
+ * Standalone version using Enthought's Envisage framework, with 3d graphics by Mayavi and 2d graphics by Chaco.  This would lead to MMA-like response times for @interacts with an industry-standard 3d OpenGL graphics toolkit (VTK).  The standalone version would interact with Sage servers, letting a user push and pull worksheets, etc.
+
+
+
 = Past CCLI Awards =
 
 
