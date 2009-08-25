@@ -33,6 +33,10 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
     * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0206571| The Web-based ARTIST Project ]]
     * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0231083| MathDL Books Online ]]
 
+== Next Conference call: Tuesday, 25 Aug 2009, 10AM Pacific Time ==
+
+[[/ConferenceCall/18Aug|18 Aug Conference Call]]
+
 == 18 Aug Conference Call ==
 
 This is fleshed out from William's email:
@@ -89,51 +93,8 @@ This is fleshed out from William's email:
   * what we would like to do behind the scenes.
 
 
-== Next Conference call: Tuesday, 25 Aug 2009, 10AM Pacific Time ==
 
 
-[[/nathan_carter_advice|Advice from Nathan Carter about writing a CCLI grant]]
-
-== Brain dump from Nathan Carter ==
-
-Nathan Carter has a Type I grant for writing a piece of software.  He's also been on a review panel for CCLI once and also has been a panel leader once.  These are "brain dump" notes from him during our long conversation at Mathfest about how to write a CCLI proposal.  I'll go through and clean these up soon.
-
-* good writing and organization is key.  What do they want to read first; what questions will they have from that, then answer those right THEN.  Lead the reader through a path of question answer question answer
-
-Criteria:
-
-Intellectual merit: is this a good idea?  Pitch your summary to your colleagues and see what they think.
-
-Broader impact: NSF funds things that have benefit to lots of different types of people, etc.
-
-(two other things that are *critical* to spend lots of time thinking and planning about.  Most people don't, and it makes a huge impact on whether this gets funded)
-
-Dissemination:
-
-In relationship to broader impact, include a plan (3 pages or so) about your dissemination plan.  Specifically, where are you going to go, what are you talking about, why they'll accept you, so:
-
-* put website into math dl
-* PREP proposals
-* workshop proposals that may be included in the budget.
-
-Evaluation:  For exploratory proposals, it doesn't have to be a formal study of effectiveness.  But it still can't be just "we'll hand students surveys".  You have to be serious about getting impact information
-
-formative evaluation: halfway through, how am I doing and what should I do better.
-
-summative evaluations: at the end, did I succeed.
-
-It needs to be obvious that you care as much about the dissemination and evaluation as the NSF does.
-
-Supplementary letters: get letters from like 10 experts saying that they wish this should be funded.  Why it is valuable, why you should be leading it, etc.  You can shift some of your broader impact, etc. to these letters.
-
-For Sage windows: you have double impact, since you are bringing students in to develop WHILE you are doing the project, instead of waiting until the end.
-
-Pay attention to what happens when you explain the idea to others.  If there is something they are missing, make sure you explain it.  This is the precursor to asking people for comments on your proposal.
-
-
-
-
-A helpful thing: seven people that commit to using sage as we go along and are paid honorariums to write tutorials telling how to integrate Sage into their courses.
 
 
 == Open Textbooks in Mathematics ==
@@ -168,6 +129,6 @@ A helpful thing: seven people that commit to using sage as we go along and are p
  * National Problem Library for !WebWork (12,000 problems)  http://webwork.maa.org/wiki/National_Problem_Library
  * Michael Pearson, MAA Director of Programs and Services, http://www.maa.org/aboutmaa/pearsonbio.html
 
-== Wiki example of creating a subpage of this page ==
 
-A [[/subpage|subpage]].
+== Random advice ==
+[[/nathan_carter_advice|Advice from Nathan Carter about writing a CCLI grant]]
