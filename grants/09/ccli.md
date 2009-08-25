@@ -92,6 +92,8 @@ This is fleshed out from William's email:
 == Next Conference call: Tuesday, 25 Aug 2009, 10AM Pacific Time ==
 
 
+[[/nathan_carter_advice|Advice from Nathan Carter about writing a CCLI grant]]
+
 == Brain dump from Nathan Carter ==
 
 Nathan Carter has a Type I grant for writing a piece of software.  He's also been on a review panel for CCLI once and also has been a panel leader once.  These are "brain dump" notes from him during our long conversation at Mathfest about how to write a CCLI proposal.  I'll go through and clean these up soon.
