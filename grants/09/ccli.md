@@ -80,6 +80,7 @@ no dollar figures, just *what you want*, e.g., summer salary, quarter buyout.
  * Jason Grout (let me know if I'm being too ambitious here, since I have zero experience with writing NSF grant proposals)
    * Summer salary for the duration of the grant
    * support for several (2-3?) students for summer or year-round projects
+   * travel for me and possibly students involved to conferences to talk about all of this (e.g., Mathfest, Joint Meetings, etc.)
  * Mini-grants for faculty to write curriculum materials (textbooks/course notes/tutorials/interacts) using Sage.  Maybe a few thousand dollars each?  A summer salary, or a one-course buyout for a semester?
  * Workshops for each summer years 2, 3, ..., for faculty to write curriculum materials using Sage (Sage EduDays :)
 
