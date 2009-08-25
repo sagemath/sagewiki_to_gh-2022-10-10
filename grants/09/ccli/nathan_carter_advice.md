@@ -1,3 +1,6 @@
+#acl acl_hierarchic: True
+#acl was:read,write,admin jason:read,write,admin rbeezer:read,write,admin KiranSKedlaya:read,write,admin KiranKedlaya:read,write,admin ThomasJudson:read,write,admin DavidFarmer:read,write,admin
+
 = Brain dump from Nathan Carter about writing CCLI grants =
 
 Nathan Carter has a Type I (exploratory) [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0736644|grant]] for writing Lurch, a piece of software .  He's also been on a review panel for CCLI once and a panel leader once.  These are "brain dump" notes from him during our long conversation at Mathfest about how to write a CCLI proposal.  
