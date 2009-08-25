@@ -61,7 +61,7 @@ This is fleshed out from William's email:
 
   * Ken Bogart, Dartmouth College -- NSF funded guided discovery in combinatorics (see below)
 
-  * we're the guinnea pigs; now it's time to get lots of other people up
+  * we're the guinea pigs; now it's time to get lots of other people up
   and running
 
   * high minority --
