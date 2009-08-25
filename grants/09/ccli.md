@@ -11,9 +11,11 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
 
-== Next Conference call: Tuesday, 25 Aug 2009, 10AM Pacific Time ==
+== Next Conference call: Wed, 2 Sept 2009, 10AM Pacific Time ==
 
 [[/ConferenceCall/18Aug|18 Aug Conference Call]]
+
+[[/ConferenceCall/25Aug|25 Aug Conference Call]]
 
 
 
