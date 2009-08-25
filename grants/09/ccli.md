@@ -18,7 +18,7 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
 
 [[/ConferenceCall/25Aug|25 Aug Conference Call]]
 
-[[/test|test]]
+[[/test2|test2]]
 
 
 == Past CCLI Awards ==
