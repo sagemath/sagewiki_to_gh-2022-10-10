@@ -1,3 +1,6 @@
+#acl was:read,write,admin jason:read,write,admin rbeezer:read,write,admin KiranSKedlaya:read,write,admin KiranKedlaya:read,write,admin ThomasJudson:read,write,admin DavidFarmer:read,write,admin
+#acl acl_hierarchic:true
+
 CCLI, deadline January 13, 2010
 
 
