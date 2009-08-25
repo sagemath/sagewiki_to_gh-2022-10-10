@@ -9,10 +9,11 @@ CCLI, deadline January 13, 2010
 Names of 10 experts -- not too closely involved in sage but *want it*:
     * Nate Dean
     * Michael Gage/Michael Pearson (webwork)?
+    * Chris Godsil, U of Waterloo (heavy user of graph theory, linear algebra)
 
 Ideas: 
      * Textbooks using Sage
-     * Tie in with moodle
+     * Tie in with moodle, !WebWork
 
 Tom Judson, names:
     * [[http://www.ed.psu.edu/education/default.asp?which=119|Kathleen Hide]] at Penn State did a lot of early work with mathematica
