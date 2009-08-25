@@ -1,19 +1,14 @@
 #acl acl_hierarchic: True
 #acl was:read,write,admin jason:read,write,admin rbeezer:read,write,admin KiranSKedlaya:read,write,admin KiranKedlaya:read,write,admin ThomasJudson:read,write,admin DavidFarmer:read,write,admin
 
-[[TableOfContents(2)]]
-
-
+<<TableOfContents(2)>>
 Mailing list: http://groups.google.com/group/sage-grants
-
-= CCLI 2009 Proposal =
-
 
 This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, Kiran Kedlaya, and William Stein, are putting together (through AIM) to get support for the Sage project. 
 
 NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
 
-== Next Conference call: Wed, 2 Sept 2009, 10AM Pacific Time ==
+= Next Conference call: Wed, 2 Sept 2009, 10AM Pacific Time =
 
 [[/ConferenceCall/18Aug|18 Aug Conference Call]]
 
@@ -21,7 +16,7 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
 
 [[/test3|test]]
 
-== Past CCLI Awards ==
+= Past CCLI Awards =
 
 
   * [[http://www.nsf.gov/awardsearch/afSearch.do?ProgEleCode=7494&page=4&QueryText=&SearchType=afSearch&PIFirstName=&PILastName=&COPILastName=&COPIFirstName=&IncludeCOPI=&PIInstitution=&PIState=&PIZip=&PICountry=&ProgOrganization=&ProgOfficer=&ProgProgram&ProgRefCode=&ProgFoaCode=&CongDistCode=&AwardNumberOperator=&AwardNumberFrom=&AwardNumberTo=&StartDateOperator=&ExpDateOperator=&StartDateFrom=&StartDateTo=&ExpDateFrom=&ExpDateTo=&AwardAmount=&AwardInstrument=&Search=Search#results|Past CCLI Phase I Awards]]
@@ -42,7 +37,7 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
     * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0206571| The Web-based ARTIST Project ]]
     * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0231083| MathDL Books Online ]]
 
-== Studies about Technology and Teaching ==
+= Studies about Technology and Teaching =
   * http://cm.math.uiuc.edu/studies -- Calculus and Mathematica is a book/course using Mathematica to teach calculus.  This is a page talking about studies related to this course.
 
   * http://media.wolfram.com/documents/fowler/  -- Wolfram has put some time into compiling research that supports using technology and math software in teaching.
@@ -51,7 +46,7 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
 
 
 
-== Open Textbooks in Mathematics ==
+= Open Textbooks in Mathematics =
 
  * Candidates for conversion to Sage notebooks - open licenses, TeX source
    * [[http://linear.pugetsound.edu/|A First Course in Linear Algebra, Beezer]]
@@ -77,19 +72,19 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
    * Rendering in Sage is via [[http://www.math.union.edu/~dpvc/jsMath/|jsMath]]
 
 
-== !WebWork ==
+= WebWork =
  * MAA wiki on !WebWork.  Note NSF funding.  http://webwork.maa.org/wiki/Main_Page
  * National Problem Library for !WebWork (12,000 problems)  http://webwork.maa.org/wiki/National_Problem_Library
 
-== Moodle ==
+= Moodle =
 
  * [[http://moodle.org/stats/|Statistics about Moodle]]--Seems like Moodle has a huge number of users.
 
-== MAA Resources ==
+= MAA Resources =
 
  * PREP Workshops for dissemination? Especially for community colleges?  Done virtually, there would be no travel expenses for participants.  http://www.maa.org/prep/
  * Michael Pearson, MAA Director of Programs and Services, http://www.maa.org/aboutmaa/pearsonbio.html
 
 
-== Random advice ==
+= Random advice =
 [[/nathan_carter_advice|Advice from Nathan Carter about writing a CCLI grant]]
