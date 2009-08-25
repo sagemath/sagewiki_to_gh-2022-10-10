@@ -15,8 +15,8 @@ Ideas:
      * Tie in with moodle
 
 Tom Judson, names:
-    * Kathleen Hide at Penn State did a lot of early work with mathematica
-    * Janette Palmittor at Oregon state who did a lot
+    * [[http://www.ed.psu.edu/education/default.asp?which=119|Kathleen Hide]] at Penn State did a lot of early work with mathematica
+    * [[http://www.mth.pdx.edu/~palmiter/|Jeanette Palmiter]] at Oregon state who did a lot
 
 ------
 
