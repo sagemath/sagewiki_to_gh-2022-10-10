@@ -37,13 +37,13 @@ What people would do if we get the grant:
     * Make Sage "classroom-ready" (i.e., polish up, polish up)
       * the last 10% to be really consistent and unified for undergrads
       * linear algebra, graphing, graph theory (pretty polished + robert miller's fast graphs)
+      * David Farmer: do not use the word polish -- use the phrase "classroom ready"
       * wide range of things to polish and document better
       * tutorials
     * standalone version local GUI that would interact with notebooks that use enthought's stuff: mayavi, chaco, etc.
       * local responsive 2d/3d graphics interacts using matplotlib/chaco/mayavi -- Kiran speaks to how useful it would be to have fast 3d interacts in teaching. 
     * notebook input widgets (like Rado's graph editor, a matrix input widget, etc.) that work in the input cells
 
- David Farmer -- do not use the word polish -- use the phrase "classroom ready"!!
 
  William Stein:
     * geogebra embedding (only 2d)
@@ -51,9 +51,8 @@ What people would do if we get the grant:
       can use to get going during teacher.
     * evaluation capabilities built into sage -- system for gather information about how Sage is being used and other feedback.
 
-* Campus wide server, easier, authentication built-in to that, make it trivial to setup.
-
-* Library of interacts included in Sage
+ * Campus wide server, easier, authentication built-in to that, make it trivial to setup.
+ * Library of interacts included in Sage
 
 -----
 
@@ -84,9 +83,11 @@ Jason Grout: Having a windows port will make a huge difference, if it is possibl
 
 William: The Cygwin port might be done soon and would fill the need of a windows port for most students.
 
--------
+== For next week ==
 
-Budget: no dollar figures, just *what you want*, e.g., summer salary,
-quarter buyout.
+Rough out a budget: no dollar figures, just *what you want*, e.g., summer salary, quarter buyout.
+
+Tom Judson: find out more about math ed research that needs to be done to evaluate the effectiveness of grant work
+
 
 Next week: 10am next Wednesday
