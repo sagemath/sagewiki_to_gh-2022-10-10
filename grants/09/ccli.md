@@ -82,7 +82,9 @@ no dollar figures, just *what you want*, e.g., summer salary, quarter buyout.
    * support for several (2-3?) students for summer or year-round projects
    * travel for me and possibly students involved to conferences to talk about all of this (e.g., Mathfest, Joint Meetings, etc.)
  * Mini-grants for faculty to write curriculum materials (textbooks/course notes/tutorials/interacts) using Sage.  Maybe a few thousand dollars each?  A summer salary, or a one-course buyout for a semester?
- * Summer workshops for each year after the first for faculty to write curriculum materials using Sage--Sage !EduDays :)
+ * Summer workshops for each year after the first for faculty to write curriculum materials using Sage, i.e., Sage !EduDays :)
+    * Regional workshops--there are a lot of smaller schools in Iowa, for example.  It might be viable to invite people from smaller schools in the area.  Also, there are lots of faculty in universities in the Southeast U.S. from schools with large minority populations that were exposed to Sage at AIM; maybe a regional conference there would be a big hit.
+    * National workshops (via AIM, if appropriate?)--invite people from all over
 
 = Past CCLI Awards =
 
