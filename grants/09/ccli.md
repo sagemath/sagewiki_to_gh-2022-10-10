@@ -41,6 +41,12 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
     * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0206571| The Web-based ARTIST Project ]]
     * [[http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0231083| MathDL Books Online ]]
 
+== Studies about Technology and Teaching ==
+  * http://cm.math.uiuc.edu/studies -- Calculus and Mathematica is a book/course using Mathematica to teach calculus.  This is a page talking about studies related to this course.
+
+  * http://media.wolfram.com/documents/fowler/  -- Wolfram has put some time into compiling research that supports using technology and math software in teaching.
+
+  * http://www.maa.org/columns/launchings/launchings_04_09.html  -- References some studies about the effectiveness of webwork.
 
 
 
