@@ -75,7 +75,13 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
    * Get Codenode up to the level of the Sage notebook, and possibly switch?
  * Standalone version using Enthought's Envisage framework, with 3d graphics by Mayavi and 2d graphics by Chaco.  This would lead to MMA-like response times for @interacts with an industry-standard 3d OpenGL graphics toolkit (VTK).  The standalone version would interact with Sage servers, letting a user push and pull worksheets, etc.
 
-
+= Budget =
+no dollar figures, just *what you want*, e.g., summer salary, quarter buyout. 
+ * Jason Grout (let me know if I'm being too ambitious here, since I have zero experience with writing NSF grant proposals)
+   * Summer salary for the duration of the grant
+   * support for several (2-3?) students for summer or year-round projects
+ * Mini-grants for faculty to write curriculum materials (textbooks/course notes/tutorials/interacts) using Sage.  Maybe a few thousand dollars each?  A summer salary, or a one-course buyout for a semester?
+ * Workshops for each summer years 2, 3, ..., for faculty to write curriculum materials using Sage (Sage EduDays :)
 
 = Past CCLI Awards =
 
