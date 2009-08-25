@@ -55,6 +55,7 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
  * Windows port
    * Finish whatever is left to make the Cygwin port run
  * Notebook enhancements
+   * System for getting information from the Sage notebook on how it is being used, feedback, etc.
    * Input widgets in the notebook cell-- I think this requires the cells to be content-editable divs, so it would probably be a summer project
      * Javascript equation editor (maybe fund Davide Cervone to finish his excellent start of one?)
      * Integrate Rado's graph editor
