@@ -67,11 +67,18 @@ NSF guidelines: http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html
    * Most of the translation is via [[http://www.cse.ohio-state.edu/~gurari/TeX4ht/|tex4ht]], an NSF funded project
    * Rendering in Sage is via [[http://www.math.union.edu/~dpvc/jsMath/|jsMath]]
 
+
+== !WebWork ==
+ * MAA wiki on !WebWork.  Note NSF funding.  http://webwork.maa.org/wiki/Main_Page
+ * National Problem Library for !WebWork (12,000 problems)  http://webwork.maa.org/wiki/National_Problem_Library
+
+== Moodle ==
+
+ * [[http://moodle.org/stats/|Statistics about Moodle]]--Seems like Moodle has a huge number of users.
+
 == MAA Resources ==
 
  * PREP Workshops for dissemination? Especially for community colleges?  Done virtually, there would be no travel expenses for participants.  http://www.maa.org/prep/
- * MAA wiki on !WebWork.  Note NSF funding.  http://webwork.maa.org/wiki/Main_Page
- * National Problem Library for !WebWork (12,000 problems)  http://webwork.maa.org/wiki/National_Problem_Library
  * Michael Pearson, MAA Director of Programs and Services, http://www.maa.org/aboutmaa/pearsonbio.html
 
 
