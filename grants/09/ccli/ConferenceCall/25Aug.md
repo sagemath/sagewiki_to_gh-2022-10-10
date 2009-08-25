@@ -14,6 +14,7 @@ Names of 10 experts -- not too closely involved in sage but *want it*:
 Ideas: 
      * Textbooks using Sage
      * Tie in with moodle, !WebWork
+     * Simplified and more powerful campus-Sae-server administration
 
 Tom Judson, names:
     * [[http://www.ed.psu.edu/education/default.asp?which=119|Kathleen Hide]] at Penn State did a lot of early work with mathematica
