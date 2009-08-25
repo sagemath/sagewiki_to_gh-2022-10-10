@@ -1,4 +1,4 @@
-#acl was:read,write jason:read,write rbeezer:read,write KiranSKedlaya:read,write KiranKedlaya:read,write
+#acl was:read,write jason:read,write,admin rbeezer:read,write KiranSKedlaya:read,write KiranKedlaya:read,write ThomasJudson:read,write
 #acl acl_hierarchic:true
 
 
