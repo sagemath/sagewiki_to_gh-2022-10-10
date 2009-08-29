@@ -225,6 +225,19 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
 }}}
 {{attachment:num_int2.png}}
 
+== Some polar parametric curves ==
+by Marshall Hampton.
+This is not very general, but could be modified to show other families of polar curves.
+{{{
+@interact
+def para(n1 = slider(1,5,1,default = 2), n2 = slider(1,5,1,default = 3), a1 = slider(1,10,1/10,6/5), a2 = slider(1,10,1/10,6), b = slider(0,2,1/50,0)):
+    var('t')
+    html('$r=' + latex(b+sin(a1*t)^n1 + cos(a2*t)^n2)+'$')
+    p = parametric_plot((cos(t)*(b+sin(a1*t)^n1 + cos(a2*t)^n2), sin(t)*(b+sin(a1*t)^n1 + cos(a2*t)^n2)), (t,0, 20*pi), plot_points = 1024, rgbcolor = (0,0,0))
+    show(p, figsize = [5,5], xmin = -2-b, xmax = 2+b, ymin = -2-b, ymax = 2+b, axes = False)
+}}}
+{{attachment:polarcurves1.png}}
+
 == Function tool ==
 Enter symbolic functions $f$, $g$, and $a$, a range, then click the appropriate button to compute and plot some combination of $f$, $g$, and $a$ along with $f$ and $g$. This is inspired by the Matlab funtool GUI.
 
