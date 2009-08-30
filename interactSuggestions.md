@@ -7,7 +7,7 @@ This is a informal page for coordinating suggestions on improving the interact c
     3. Controls changing state of other controls - currently this is not possible.
     4. Image input - for example, being able to click and drag a point in a displayed image.  Probably hard to implement.
     5. Show current value next to slider control, perhaps also min/max: e.g. {{{[min] |----------------[V]----| value [max]}}}
-    6. Add a 'point' control. One way to do it is to display two text boxes with the x and y coordinates for the point (measured in [0,1] coordinates) and a big colored dot. Whenever the dot is dragged onto an image, the x and y coordinates are updated to the ratio of the click coordinates to the image size.
+    6. Add a 'point' control. One way to do it is to display two text boxes with the x and y coordinates for the point (measured in [0,1] coordinates) and a big colored dot. Whenever the dot is dragged onto an image, the x and y coordinates are updated to the ratio of the click coordinates to the image size. Less general than 4, but maybe simpler to implement.
 
 == Links ==
  * [[http://code.google.com/p/playwith/wiki/Screenshots|R package playwith]] - similar idea, inside a gtk2 window
