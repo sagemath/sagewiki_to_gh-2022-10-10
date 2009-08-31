@@ -52,7 +52,8 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
    * Polish any issues in calculus (e.g., see recent sage-devel posts about differentation)
  * Documentation
    * Mini-grants for people to write subject-specific tutorials, aimed at undergrad education
-   * Library of interacts distributed with Sage, with organization (see MMA Demonstrations website)
+ * Library of interacts distributed with Sage, with organization (see MMA Demonstrations website)
+   * A more organized and polished version of the [[http://wiki.sagemath.org/interact|Sage interacts]]
  * Windows port
    * Finish whatever is left to make the Cygwin port run
  * Notebook enhancements
@@ -83,6 +84,12 @@ no dollar figures, just *what you want*, e.g., summer salary, quarter buyout.
    * Summer salary for the duration of the grant
    * support for several (2-3?) students for summer or year-round projects
    * travel for me and possibly students involved to conferences to talk about all of this (e.g., Mathfest, Joint Meetings, etc.)
+ * Rob Beezer
+   * Already have release unit for Spring 2010, will likely produce Sage primer for rings, fields, Galois Theory in undergraduate abstract algebra course.
+   * Have a semester sabbatical for Fall 2010 (or could be Spring 2011).  Another semester's leave would extend this to a full academic year for Sage-related activities.
+   * Very possible the second semester could be funded through a competitive program at my university.  I will also be applying for travel funds.  Applications are due early October, should know result before this grant proposal is due.
+   * So, a semester's buyout (if not awarded internally) would be the first priority, otherwise summer support to complement the academic year leave, and in future summers during the grant.
+   * Travel support for MAA meetings and Sage Days.
  * Mini-grants for faculty to write curriculum materials (textbooks/course notes/tutorials/interacts) using Sage.  Maybe a few thousand dollars each?  A summer salary, or a one-course buyout for a semester?
  * Summer workshops for each year after the first for faculty to write curriculum materials using Sage, i.e., Sage !EduDays :)
     * Regional workshops--there are a lot of smaller schools in Iowa, for example.  It might be viable to invite people from smaller schools in the area.  Also, there are lots of faculty in universities in the Southeast U.S. from schools with large minority populations that were exposed to Sage at AIM; maybe a regional conference there would be a big hit.
