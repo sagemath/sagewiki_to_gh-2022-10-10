@@ -20,6 +20,7 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
    * Make several textbooks
      * Beezer's linear algebra textbook
      * Judson's algebra textbook
+     * Bogart's problem book in combinatorics
    * Translate other textbooks' MMA/Matlab/Maple code/appendices to Sage
    * Get a community of people writing textbooks or course notes using Sage and converting them to folders of worksheets.
      * Sponsor a workshop on this (via AIM?)
@@ -110,6 +111,7 @@ no dollar figures, just *what you want*, e.g., summer salary, quarter buyout.
 
 = Studies about Technology and Teaching =
   * http://cm.math.uiuc.edu/studies -- Calculus and Mathematica is a book/course using Mathematica to teach calculus.  This is a page talking about studies related to this course.
+    * Beezer taught a course with these materials in 1992, if that experience is relevant.
 
   * http://media.wolfram.com/documents/fowler/  -- Wolfram has put some time into compiling research that supports using technology and math software in teaching.
 
