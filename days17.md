@@ -1,5 +1,7 @@
 = Sage Days 17: Lopez Island =
 
+Projects: [[/projects|projects]]
+
 Theme: Computing with Modular forms and L-functions
 
 Dates: September 14-20, 2009
