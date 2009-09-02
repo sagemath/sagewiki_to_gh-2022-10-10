@@ -15,6 +15,8 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 [[/ConferenceCall/25Aug|25 Aug Conference Call]]
 
 = Project Ideas =
+ * A list of ideas coming from a discussion on sage-devel: [[attachment:stein-ideas.pdf]]
+
  * Textbooks
    * Finish Rob Beezer's system for easily creating worksheets from textbook source files
    * Make several textbooks
