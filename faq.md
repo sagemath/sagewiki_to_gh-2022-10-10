@@ -172,6 +172,14 @@ Sage has two very active email lists: http://groups.google.com/group/sage-devel 
 
 == Other questions ==
 ----------
+ * QUESTION: I downloaded a Sage binary and it crashes on startup with {{{Illegal instruction}}}. What can I do?
+ * ANSWER: Short answer: Build Sage entirely from source or fix your install by rebuilding mpir and atlas by typing the following in the root of your Sage install directory and wait about 15-20 minutes:
+{{{
+rm spkg/installed/mpir* spkg/installed/atlas*
+make
+}}}
+More explanation. The binaries have been built for a newer architecture than you have.  Nobody has yet figured out how to build Sage in such a way that MPIR and ATLAS work on all hardware.  This will eventually get fixed. 
+----------
  * QUESTION: I created the file {{{SAGE_ROOT/devel/sage/sage/calculus/stokes.py}}}, and have changed my mind and want to completely delete it from Sage, but it keeps coming back (i.e. it is still importable) when I type {{{sage -br}}}.  What do I do?
  * ANSWER: Delete both {{{SAGE_ROOT/devel/sage/build/sage/calculus/stokes.py}}} '''and''' {{{SAGE_ROOT/devel/sage/build/lib.*/sage/calculus/stokes.py}}}.
 ----------
@@ -236,15 +244,6 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
 ----------
  * QUESTION: How do I run sage in daemon mode, i.e. as a service?
  * ANSWER: We currently do not have a ready-to-go solution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://www.sagetrac.org/sage_trac/ticket/381 - so stay tuned.
-----------
- * QUESTION: I downloaded a Sage binary and it crashes on startup with {{{Illegal instruction}}}. What can I do?
- * ANSWER: Short answer: Build Sage entirely from source or fix your install by rebuilding mpir and atlas by typing the following in the root of your Sage install directory and wait about 15-20 minutes:
-{{{
-rm spkg/installed/mpir* spkg/installed/atlas*
-make
-}}}
-More explanation. The binaries have been built for a newer architecture than you have.  Nobody has yet figured out how to build Sage in such a way that MPIR and ATLAS work on all hardware.  This will eventually get fixed. 
-
 ----------
  * QUESTION: I just downloaded version 2.8.15 for Mac OSX and tried to run notebook() and dyld is unable to load libintl.3.dylib.  I don't have a libintl.3.dylib in {{{usr/local/lib}}} and I didn't find it in {{{$SAGE_ROOT/local/lib}}}. Is there a workaround?
  * ANSWER:  Yes, put the libintl3.dylib from http://sagemath.org/SAGEbin/apple_osx/intel/10.4-extra_files/ {{{in SAGE_ROOT/local/lib/}}}. Sage 2.8.15 and later contain a copy of the library, so please let us know if you experience the problem with any later release.
