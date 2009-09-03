@@ -172,13 +172,14 @@ Sage has two very active email lists: http://groups.google.com/group/sage-devel 
 
 == Other questions ==
 ----------
- * QUESTION: I downloaded a Sage binary and it crashes on startup with {{{Illegal instruction}}}. What can I do?
- * ANSWER: Short answer: Build Sage entirely from source or fix your install by rebuilding mpir and atlas by typing the following in the root of your Sage install directory and wait about 15-20 minutes:
+ * QUESTION: I downloaded a Sage binary and it crashes on startup with `Illegal instruction`. What can I do?
+ 
+ * ANSWER: Short answer: One way to fix this is to build Sage entirely from source. Another option is to fix your Sage installation by rebuilding MPIR and ATLAS by typing the following in the root of your Sage installation directory and wait about 15-20 minutes:
 {{{
 rm spkg/installed/mpir* spkg/installed/atlas*
 make
 }}}
-More explanation. The binaries have been built for a newer architecture than you have.  Nobody has yet figured out how to build Sage in such a way that MPIR and ATLAS work on all hardware.  This will eventually get fixed. 
+More explanation: The binaries have been built for a newer architecture than what you have.  Nobody has yet figured out how to build Sage in such a way that MPIR and ATLAS work on all hardware.  This will eventually get fixed. 
 ----------
  * QUESTION: I created the file {{{SAGE_ROOT/devel/sage/sage/calculus/stokes.py}}}, and have changed my mind and want to completely delete it from Sage, but it keeps coming back (i.e. it is still importable) when I type {{{sage -br}}}.  What do I do?
  * ANSWER: Delete both {{{SAGE_ROOT/devel/sage/build/sage/calculus/stokes.py}}} '''and''' {{{SAGE_ROOT/devel/sage/build/lib.*/sage/calculus/stokes.py}}}.
