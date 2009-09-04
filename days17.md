@@ -30,7 +30,7 @@ The project page is here: [[/projects|projects]]
  * Amod Agashe (Sep. 16)
  * Randy Heaton
 
-== Accomodations ==
+== Accommodations ==
 
 We've rented one large house, one condo, and all three rooms at the Lopez Lodge for the week of the conference. Here are links to info about the various places we'll be staying, along with who's staying in each room:
 
@@ -52,6 +52,12 @@ We've rented one large house, one condo, and all three rooms at the Lopez Lodge 
    * Craig Citro & family
 
 If you have any questions about housing, talk to Craig.
+
+For any nights you're staying in Seattle, there are several good choices in the U District:
+
+ * College Inn: There are shared bathrooms, but I hear the breakfast more than makes up for it.
+ * University Inn
+ * Travelodge (on 25th St., across from U Village)
 
 == Travel Info ==
 
