@@ -21,7 +21,7 @@ The project page is here: [[/projects|projects]]
  * Robert Bradshaw
  * Salman Butt
  * Robert Miller
- * Rishikesh
+ * Rishikesh (Sep. 14 - 18)
  * Tom Boothby
  * Tim Dokchitser
  * Jared Weinstein
