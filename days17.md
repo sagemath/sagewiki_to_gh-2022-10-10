@@ -1,7 +1,5 @@
 = Sage Days 17: Lopez Island =
 
-Projects: [[/projects|projects]]
-
 Theme: Computing with Modular forms and L-functions
 
 Dates: September 14-20, 2009
@@ -12,7 +10,11 @@ Location: Several houses we rented on [[http://www.lopezisland.net/photogallery.
 
 Funding: Fully funded by the National Science Foundation under Grant DMS-0757627.
 
-Participant List:
+== Projects ==
+
+The project page is here: [[/projects|projects]]
+
+== Participants ==
 
  * Craig Citro 
  * William Stein
@@ -28,7 +30,9 @@ Participant List:
  * Amod Agashe (Sep. 16)
  * Randy Heaton
 
-Accomodations: We've rented one large house, one condo, and all three rooms at the Lopez Lodge for the week of the conference. Here are links to info about the various places we'll be staying, along with who's staying in each room:
+== Accomodations ==
+
+We've rented one large house, one condo, and all three rooms at the Lopez Lodge for the week of the conference. Here are links to info about the various places we'll be staying, along with who's staying in each room:
 
  * [[http://www.lopezvillageproperties.com/property_view.cfm?id=41|Lopez Village Manor]]
    * William Stein (king bed)
@@ -47,4 +51,12 @@ Accomodations: We've rented one large house, one condo, and all three rooms at t
    * Robert Bradshaw & family
    * Craig Citro & family
 
-Travel info: The ferry schedule from Anacortes to Lopez is linked [[http://www.wsdot.wa.gov/Ferries/Schedule/ScheduleDetail.aspx?tripdate=20090914&departingterm=1&arrivingterm=13&roundtrip=true|here]].
+If you have any questions about housing, talk to Craig.
+
+== Travel Info ==
+
+The ferry schedule from Anacortes to Lopez is linked [[http://www.wsdot.wa.gov/Ferries/Schedule/ScheduleDetail.aspx?tripdate=20090914&departingterm=1&arrivingterm=13&roundtrip=true|here]]. The ferries tend to fill up fast -- make sure to be at Anacortes '''at least''' an hour to an hour and a half early. The WSDOT recommends an hour and a half. On Lopez, it's more like 30 to 60 minutes.
+
+== Local Info ==
+
+[[/localinfo|Here]] is some info about staying and eating on Lopez.
