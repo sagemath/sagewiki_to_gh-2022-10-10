@@ -46,3 +46,5 @@ Accomodations: We've rented one large house, one condo, and all three rooms at t
  * [[http://www.lopezvillageproperties.com/property_view.cfm?id=46|Condo]]
    * Robert Bradshaw & family
    * Craig Citro & family
+
+Travel info: The ferry schedule from Anacortes to Lopez is linked [[http://www.wsdot.wa.gov/Ferries/Schedule/ScheduleDetail.aspx?tripdate=20090914&departingterm=1&arrivingterm=13&roundtrip=true|here]].
