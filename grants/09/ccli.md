@@ -14,6 +14,9 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 [[/ConferenceCall/25Aug|25 Aug Conference Call]]
 
+[[/ConferenceCall/02Sep|02 Sep Conference Call]]
+
+
 = Project Ideas =
  * A list of ideas (with cost estimates) coming from a discussion on sage-devel: [[attachment:stein-ideas.pdf]]
 
