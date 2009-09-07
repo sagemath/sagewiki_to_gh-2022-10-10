@@ -7,32 +7,28 @@ William:
            * student support
 
 
-* tex4ht -- author died a few month ago.
+ * tex4ht -- author died a few month ago.
 
-* paper by Kathlene Heide and Michael Todd: good paper about computer algebra in education.
+ * paper by Kathlene Heide and Michael Todd: good paper about computer algebra in education.
 
-* $600K NSF MSP grant to "Tom Judson's group" for training to middle
+ * $600K NSF MSP grant to "Tom Judson's group" for training to middle
   and high school, etc., teachers; training them to be "teacher leaders".
   pedagogy.   High needs school districts in East Texas.
 
-* David summarizes what we want to do very nicely in words.
+ * David summarizes what we want to do very nicely in words.
 
-* Jason adds lots of user friendly documentation.  Subject specific
+ * Jason adds lots of user friendly documentation.  Subject specific
  tutorials.  "Here are the commands you need to know in order to do
  multivariate calculus."
 
-* Food for thought from Tom Judson: K-12?  A lot of people at
-*college* are also teaching some advanced high school classes.  E.g.,
-high school AP would benefit from what we would do.  Dual credit.
+ * Food for thought from Tom Judson: K-12?  A lot of people at *college* are also teaching some advanced high school classes.  E.g., high school AP would benefit from what we would do.  Dual credit.
 
-* Resources for someone -- takes a long time to create an example on
-  your own.
+ * Resources for someone -- takes a long time to create an example on your own.
 
 
-* 3 years.
+ * 3 years.
 
-* Jason Grout: one other idea that may be nixed.  Standalone notebook aspect.
-Or at least something with browser.
+ * Jason Grout: one other idea that may be nixed.  Standalone notebook aspect. Or at least something with browser.
 
  * salary estimate:
 
