@@ -37,12 +37,12 @@ William:
    * grout:   6 months summer salary
    * judson:  4 months summer salary ?
 
- total: $200,000 + benefits + indirect = $320K.
+ total: \$200,000 + benefits + indirect = \$320K.
 
  * Sage development: $110K
 
- * Evaluation: $20K overall. 
-   Hire outside consulting firms -- $2,500/year
+ * Evaluation: \$20K overall. 
+   Hire outside consulting firms -- \$2,500/year
    Two places:
         * EDC in Newton, MA
         * Horizons Research in North Carolina
@@ -52,12 +52,12 @@ William:
     * A full workshop with say 30 people all writing course materials
    
 
- * Booth at AMS: $1,400/year.
+ * Booth at AMS: \$1,400/year.
 
  * Sage at the AIM booth.
 
- * Travel: $3,000/year per person  (2 trips per year)
-   total: $72,000K
+ * Travel: \$3,000/year per person  (2 trips per year)
+   total: \$72,000K
 
  * Jason remark that we didn't emphasize two other projects:
      * webworks/moodle/sage integration
