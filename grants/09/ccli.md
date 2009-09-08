@@ -20,7 +20,9 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 = Project Ideas =
  * A list of ideas (with cost estimates) coming from a discussion on sage-devel: [[attachment:stein-ideas.pdf]]
 
- * Rough draft of Beezer's internal sabbatical proposal: [[attachment:beezer-lantz-1.pdf]]
+ * Rough draft of Beezer's internal sabbatical proposal
+   * Draft 1 (2009/09/02) [[attachment:beezer-lantz-1.pdf]]
+   * Draft 2 (2009/09/07) [[attachment:beezer-lantz-2.pdf]]
 
  * Textbooks
    * Finish Rob Beezer's system for easily creating worksheets from textbook source files
