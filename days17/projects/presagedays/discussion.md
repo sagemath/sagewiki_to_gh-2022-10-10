@@ -62,7 +62,7 @@ Computation of discriminants of various Hecke algebras.
 Amazingly, it seems that there is "discriminants of Hecke algebras" implementation in Sage!
 Here is a straightforward algorithm:
  1. The input is the level $N$.
- 2. Chose a random vector $v$ in the space $M$ of modular symbols of level $N$.
+ 2. Chose a random vector $v$ in the space $M$ of cuspidal modular symbols of level $N$.
  3. Compute the sturm bound $B$.
  4. Compute the products $T_1(v), ..., T_B(v)$, and find a basis $b_i$ for the ZZ-module they span.
  5. Find Hecke operators $S_1, ..., S_n$ such that $S_i(v) = b_i$.  (This is linear algebra -- inverting a matrix and a matrix multiply.)
