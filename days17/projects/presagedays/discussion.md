@@ -66,7 +66,7 @@ Here is a straightforward algorithm:
  3. Compute the sturm bound $B$.
  4. Compute the products $T_1(v), ..., T_B(v)$, and find a basis $b_i$ for the ZZ-module they span.
  5. Find Hecke operators $S_1, ..., S_n$ such that $S_i(v) = b_i$.  (This is linear algebra -- inverting a matrix and a matrix multiply.)
- 6. Compute the determinant $det (S_i * S_j)$.  That is the discriminant.  This also gives a basis for the Hecke algebra, which is very useful for lots of things. 
+ 6. Compute the determinant $det ( Trace(S_i * S_j) )$.  That is the discriminant.  This also gives a basis for the Hecke algebra, which is very useful for lots of things. 
 
 Note: See http://trac.sagemath.org/sage_trac/ticket/6768 for very slow code for computing a basis for the Hecke algebra. 
 
