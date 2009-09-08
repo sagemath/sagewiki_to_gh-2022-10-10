@@ -26,4 +26,4 @@ def f(N):
     return 2^(S.nullity()-d)
 }}}
 
-Future extension: one could replace Gamma1(N) by GammaH(N,...).
+Future extension: one could replace Gamma1(N) by GammaH(N,...).  One could also do the new subspace.
