@@ -137,10 +137,12 @@ no dollar figures, just *what you want*, e.g., summer salary, quarter buyout.
 
 = Open Textbooks in Mathematics =
 
- * Candidates for conversion to Sage notebooks - open licenses, TeX source
+ * Candidates for conversion to Sage notebooks or supplements- open licenses, TeX source
    * [[http://linear.pugetsound.edu/|A First Course in Linear Algebra, Beezer]]
    * [[http://abstract.ups.edu/|Abstract Algebra, Theory and Applications, Judson]]
    * [[http://www.math.dartmouth.edu/news-resources/electronic/kpbogart/|Combinatorics Through Guided Discovery, Bogart]]
+   * [[http://www.mecmath.net/|Vector Calculus, Michael Corral]]  Supplement with multivariate calc interacts
+   * [[http://mecmath.net/trig/|Trigonometry, Michael Corral]] Student project - supplement with interacts
    * Maybe more at [[http://linear.ups.edu/curriculum.html|Open Math Curriculum]]
 
  * Presentation at Sage Days 15
