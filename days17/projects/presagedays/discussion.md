@@ -56,8 +56,10 @@ def cuspidal_subgroup_J0(N):
 
 Computation of discriminants of various Hecke algebras.
 
- URL: 
+ URLs: 
+
    * http://wstein.org/Tables/dischecke.html
+   * http://trac.sagemath.org/sage_trac/ticket/6635
 
 Amazingly, it seems that there is "discriminants of Hecke algebras" implementation in Sage!
 Here is a straightforward algorithm:
