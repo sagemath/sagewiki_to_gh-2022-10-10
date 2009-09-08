@@ -28,6 +28,15 @@ def f(N):
 
 Future extension: one could replace Gamma1(N) by GammaH(N,...).  One could also do the new subspace.
 
+And note Frank's conjecture:
+
+Conjecture (Frank Calegari):
+{{{ 
+Let m = #odd prime factors of N + *(1, if N = 0 mod 8
+                                   {0, otherwise.
+Then the component group is isomorphic to (Z/2Z)^f, where f = 2^m - 1.
+}}}
+
 == Cuspidal Subgroup ==
 
 Computing the structure of the cuspidal subgroup of J0(N) and J1(N) (say). 
