@@ -32,7 +32,7 @@ Future extension: one could replace Gamma1(N) by GammaH(N,...).  One could also 
 
 Computing the structure of the cuspidal subgroup of J0(N) and J1(N) (say). 
 
- * URL: http://wstein.org/Tables/cuspgroup/
+ * URL: http://wstein.org/Tables/cuspgroup/  (the displayed formula is backwards at the top)
 
  * New Sage code:
 
