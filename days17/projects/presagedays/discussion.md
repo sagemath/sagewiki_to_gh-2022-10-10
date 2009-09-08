@@ -28,7 +28,7 @@ def f(N):
 
 Future extension: one could replace Gamma1(N) by GammaH(N,...).  One could also do the new subspace.
 
-== Cuspidal Subgroup == 
+== Cuspidal Subgroup ==
 
 Computing the structure of the cuspidal subgroup of J0(N) and J1(N) (say). 
 
