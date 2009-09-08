@@ -4,7 +4,7 @@
 
   0. Read through all tables at http://wstein.org/Tables/
 
-  0. Decide for every table:
+  0. Decide for every table [[/discussion]]:
       
        - easy to recompute and extend and check
 
