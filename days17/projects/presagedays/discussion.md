@@ -4,7 +4,7 @@
 
 == Component Groups of J0(N)(R) and J1(N)(R) ==
 
- * URL: http://wstein.org/Tables/real_tamagawa/
+ * URL: http://wstein.org/Tables/real_tamagawa/ and http://wstein.org/Tables/compgrp/.    The second page has much more extensive data and a conjecture. 
 
  * New Code:
 
@@ -51,3 +51,34 @@ def cuspidal_subgroup_J0(N):
     # maybe pickle J
     return I
 }}}
+
+== Discriminants of Hecke Algebra ==
+
+Computation of discriminants of various Hecke algebras.
+
+ URL: 
+   * http://wstein.org/Tables/dischecke.html
+
+Amazingly, it seems that there is "discriminants of Hecke algebras" implementation in Sage!
+Here is a straightforward algorithm:
+ 1. The input is the level $N$.
+ 2. Chose a random vector $v$ in the space $M$ of modular symbols of level $N$.
+ 3. Compute the sturm bound $B$.
+ 4. Compute the products $T_1(v), ..., T_B(v)$, and find a basis $b_i$ for the ZZ-module they span.
+ 5. Find Hecke operators $S_1, ..., S_n$ such that $S_i(v) = b_i$.  (This is linear algebra -- inverting a matrix and a matrix multiply.)
+ 6. Compute the determinant $det (S_i * S_j)$.  That is the discriminant.  This also gives a basis for the Hecke algebra, which is very useful for lots of things. 
+
+Note: See http://trac.sagemath.org/sage_trac/ticket/6768 for very slow code for computing a basis for the Hecke algebra. 
+
+Here is a more complicated algorithm, but it might suck because of hidden denseness!
+
+ 1. The input is the level $N$.
+ 2. If $N$ is divisible by a prime $p^3$ and $X_0(N/p^3)$ has positive genus, then the discriminant is $0$, as one can see by taking images of forms of level $N/p^3$.
+ 3. I think the above is an if and only if condition for when the discriminant is $0$.  See I think Coleman-Voloch.
+ 4. The actual algorithm now.  
+     1. Find a random Hecke operator $t$ such that the charpoly of $t$ has nonzero discriminant.
+     2. Choose a random vector $v$ in the space of cuspidal modular symbols.
+     3. Let $B$ be the Sturm bound.
+     4. Compute the images $T_n(v)$ for $n$ up to the Sturm Bound. 
+     
+ 
