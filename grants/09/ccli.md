@@ -18,6 +18,9 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 
 = Project Ideas =
+ * applied math FEMHUB: http://nb.femhub.org/home/solin/5 http://nb.femhub.org/home/solin/6 http://nb.femhub.org/home/solin/7 http://nb.femhub.org/home/solin/8
+
+
  * A list of ideas (with cost estimates) coming from a discussion on sage-devel: [[attachment:stein-ideas.pdf]]
 
  * Rough draft of Beezer's internal sabbatical proposal
