@@ -46,6 +46,8 @@ Let m = #odd prime factors of N -  {1, if N != 0 mod 8
 Then the component group is isomorphic to (Z/2Z)^f, where f = 2^m - 1, unless N=1,2,4, in which case the component is
 }}}
 
+Soroosh -- the prime level case is known.  See Calegari <insert link> which *just* cites Agashe and Merel (http://wstein.org/home/wstein/days/17/Merel_Laccouplement_de_Weil_entre_le_sous-group.pdf -- page 12).
+
 
 == Cuspidal Subgroup ==
 
