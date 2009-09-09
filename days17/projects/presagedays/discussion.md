@@ -32,10 +32,20 @@ And note Frank's conjecture:
 
 Conjecture (Frank Calegari):
 {{{ 
-Let m = #odd prime factors of N + *(1, if N = 0 mod 8
+Let m = #odd prime factors of N +  {1, if N = 0 mod 8
                                    {0, otherwise.
 Then the component group is isomorphic to (Z/2Z)^f, where f = 2^m - 1.
 }}}
+
+the above conjecture is wrong, but the following matches our data (up to level N<=2723):
+{{{
+Conjecture (Boothby-Stein):
+Let m = #odd prime factors of N -  {1, if N != 0 mod 8
+                                   {0, otherwise.
+
+Then the component group is isomorphic to (Z/2Z)^f, where f = 2^m - 1, unless N=1,2,4, in which case the component is
+}}
+
 
 == Cuspidal Subgroup ==
 
