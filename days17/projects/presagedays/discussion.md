@@ -60,18 +60,29 @@ Computing the structure of the cuspidal subgroup of J0(N) and J1(N) (say).
 {{{
 def cuspidal_subgroup_J0(N):
     J = J0(N)
-    I = C.cuspidal_subgroup().invariants()
+    I = J.cuspidal_subgroup().invariants()
     # maybe pickle J
     return I
 }}}
 
 {{{
-def cuspidal_subgroup_J0(N):
+def cuspidal_subgroup_J1(N):
     J = J1(N)
-    I = C.cuspidal_subgroup().invariants()
+    I = J.cuspidal_subgroup().invariants()
     # maybe pickle J
     return I
 }}}
+
+BUT WAIT -- isn't there an ''a priori'' formula for this structure/order?   I don't know. 
+
+Anyway, I'm computing a few of these here, as a test of the modular symbols code, etc., since this is easy:
+
+http://sage.math.washington.edu/home/was/db/days17/cuspidal_subgroup_J0N/
+
+
+http://sage.math.washington.edu/home/was/db/days17/cuspidal_subgroup_J1N/
+
+
 
 == Discriminants of Hecke Algebra ==
 
