@@ -4,4 +4,4 @@
 
 = Pre-Sage Days Stuff =
 
- See [[/presagedays]]
+ See [[/presagedays|projects]].
