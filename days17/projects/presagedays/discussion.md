@@ -73,7 +73,7 @@ def cuspidal_subgroup_J1(N):
     return I
 }}}
 
-BUT WAIT -- isn't there an ''a priori'' formula for this structure/order?   I don't know. 
+BUT WAIT -- isn't there an ''a priori'' formula for this structure/order?   Yes -- Ligozat, but not really -- that gives only rational cuspidal subgroup, and might be just as hard.
 
 Anyway, I'm computing a few of these here, as a test of the modular symbols code, etc., since this is easy:
 
