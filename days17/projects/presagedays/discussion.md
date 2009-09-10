@@ -144,3 +144,21 @@ Time: CPU 8.86 s, Wall: 9.79 s
 == Compute the exact torsion subgroup of J0(N) for as many N as possible ==
 
 See http://nt.sagenb.org/home/pub/21/ for some work in this direction by Stein and Yazdani.
+
+== Characteristic polynomial of T2 on level 1 modular forms ==
+
+See this table: http://modular.fas.harvard.edu/Tables/charpoly_level1/t2/
+
+I have a straightforward algorithm to recompute these, which I'm running here:
+
+http://sage.math.washington.edu/home/wstein/db/days17/level1/
+
+== Characteristic polys of many Tp on level 1 ==
+
+Next, see this table, which gives "Characteristic polynomials of T2, T3, ..., T997 for k<=128"
+
+http://modular.fas.harvard.edu/Tables/charpoly_level1/upto997/
+
+That exact range can likely be easily done using modular symbols.
+
+There is another algorithm, that uses the matrix of $T_2$ (which I'm computing and caching above!), which can compute the charpolys of many other $T_p".  It's described here: http://sage.math.washington.edu/home/wstein/days/17/highweight/, along with a magma implementation (need to port to Sage).    Thus it might be nice to implement this and run it, and get say all $T_{p,k}$ for $p,k \leq 1000$.
