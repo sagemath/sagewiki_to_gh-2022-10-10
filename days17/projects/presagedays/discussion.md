@@ -2,6 +2,13 @@
 
 <<TableOfContents>>
 
+The misc tables are listed here:
+
+http://modular.fas.harvard.edu/Tables/
+
+The Harvard URL is the best, since the http://wstein.org/Tables has none of the cgi-bin script dynamic data.
+
+
 == Component Groups of J0(N)(R) and J1(N)(R) ==
 
  * URL: http://wstein.org/Tables/real_tamagawa/ and http://wstein.org/Tables/compgrp/.    The second page has much more extensive data and a conjecture. 
