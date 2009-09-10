@@ -56,7 +56,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * Check the  [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]]
  * Post bug reports, suggestions, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
 
- * Cite Sage-Combinat when you use it for research publications (TODO: provide a standard citation here).
+ * [[http:/combinat/CiteSageCombinat|Cite Sage-Combinat]] when you use it for research publications.
 
 === Code ===
 
