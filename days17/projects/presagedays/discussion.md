@@ -118,4 +118,16 @@ Here is a more complicated algorithm, but it might suck because of hidden densen
  
 == Compute a table of semisimplications of reducible representations of elliptic curves ==
 
- Ralph Greenberg asked for a specific example of an elliptic curve with certain representation, and Soroosh and William found it.  In order to do this, we developed a (mostly) efficient algorithm for computing the two characters eps and psi that define the semisimplication of an elliptic curve's Galois representation.  This project is to fully implement the algorithm, then run it on curves in the Cremona database and all primes for which the Galois representation is reducible.   There is relevant code here: http://nt.sagenb.org/home/pub/19/ and http://nt.sagenb.org/home/pub/20/
+Ralph Greenberg asked for a specific example of an elliptic curve with certain representation, and Soroosh and William found it.  In order to do this, we developed a (mostly) efficient algorithm for computing the two characters eps and psi that define the semisimplication of an elliptic curve's Galois representation.  This project is to fully implement the algorithm, then run it on curves in the Cremona database and all primes for which the Galois representation is reducible.   There is relevant code here: http://nt.sagenb.org/home/pub/19/ and http://nt.sagenb.org/home/pub/20/
+
+== Dimensions of modular forms spaces ==
+
+Currently http://wstein.org/Tables/dimensions/ has a couple of table with a kludgy and completely broken.   These tables are nicer:
+http://wstein.org/Tables/dimensions-all.html.  I think a static table that can do Gamma0, Gamma1, and character for all levels up to 100000 and weight 2 would be good to have.   But its value would only be in having it easily usable, since there is no value in asking for an individual space.   Anyway, compute the data.  It would in fact by a good idea.  Also, for each character, we should compute the dimensions of the modular, eisenstein spaces and the new cuspidal, and p-new cuspidal subspaces for each p dividing the level.  The following session illustrates that in fact that would be quite valuable to have pre-computed in a table:
+{{{
+sage: G = DirichletGroup(21000)
+sage: time C = G.galois_orbits()
+Time: CPU 2.21 s, Wall: 2.52 s
+sage: time z = [(e[0], dimension_cusp_forms(e[0], 2)) for e in C]
+Time: CPU 8.86 s, Wall: 9.79 s
+}}}
