@@ -7,7 +7,7 @@ Robert Bradshaw planned a simple abstract base class.  I implemented a simple de
 
 Demo of using it:
 {{{
-sage: attach "/Users/wstein/days17/lmfdb.py"
+sage: attach "lmfdb.py"
 sage: db = CuspidalSubgroupJ0N()
 sage: db
 Structure of cuspidal subgroup of J0(N)
