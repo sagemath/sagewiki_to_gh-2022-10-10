@@ -120,6 +120,8 @@ Here is a more complicated algorithm, but it might suck because of hidden densen
 
 Ralph Greenberg asked for a specific example of an elliptic curve with certain representation, and Soroosh and William found it.  In order to do this, we developed a (mostly) efficient algorithm for computing the two characters eps and psi that define the semisimplication of an elliptic curve's Galois representation.  This project is to fully implement the algorithm, then run it on curves in the Cremona database and all primes for which the Galois representation is reducible.   There is relevant code here: http://nt.sagenb.org/home/pub/19/ and http://nt.sagenb.org/home/pub/20/
 
+In fact, one can use the algorithm mentioned above to compute the semisimplication for any modular abelian variety!  It would be good to do this for say every J0 modabvar of level up to say 3200 (since we have an ap table up that far): http://sage.math.washington.edu/home/wstein/db/modsym/
+
 == Dimensions of modular forms spaces ==
 
 Currently http://wstein.org/Tables/dimensions/ has a couple of table with a kludgy and completely broken.   These tables are nicer:
