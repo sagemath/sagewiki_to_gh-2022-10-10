@@ -133,3 +133,7 @@ Time: CPU 2.21 s, Wall: 2.52 s
 sage: time z = [(e[0], dimension_cusp_forms(e[0], 2)) for e in C]
 Time: CPU 8.86 s, Wall: 9.79 s
 }}}
+
+== Compute the exact torsion subgroup of J0(N) for as many N as possible ==
+
+See http://nt.sagenb.org/home/pub/21/ for some work in this direction by Stein and Yazdani.
