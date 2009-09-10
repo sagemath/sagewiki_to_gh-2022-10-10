@@ -1,10 +1,13 @@
 = Pre Sage Days Projects =
 
+[[/discussion|List of actual Tables/Projects]]):
+
+== Overall Plan ==
   0. Compress ZFS on disk.math + rubinstein
 
   0. Read through all tables at http://wstein.org/Tables/
 
-  0. Decide for every table:  (see [[/discussion|this page for lots of data about the tables]]):
+  0. Decide for every table: 
       
        - easy to recompute and extend and check
 
