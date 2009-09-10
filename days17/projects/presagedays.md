@@ -1,6 +1,6 @@
 = Pre Sage Days Projects =
 
-[[/discussion|List of actual Tables/Projects]]):
+[[/discussion|List of actual Tables/Projects]]:
 
 == Overall Plan ==
   0. Compress ZFS on disk.math + rubinstein
