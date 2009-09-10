@@ -116,3 +116,6 @@ Here is a more complicated algorithm, but it might suck because of hidden densen
      4. Compute the images $T_n(v)$ for $n$ up to the Sturm Bound. 
      
  
+== Compute a table of semisimplications of reducible representations of elliptic curves ==
+
+ Ralph Greenberg asked for a specific example of an elliptic curve with certain representation, and Soroosh and William found it.  In order to do this, we developed a (mostly) efficient algorithm for computing the two characters eps and psi that define the semisimplication of an elliptic curve's Galois representation.  This project is to fully implement the algorithm, then run it on curves in the Cremona database and all primes for which the Galois representation is reducible.   There is relevant code here: http://nt.sagenb.org/home/pub/19/ and http://nt.sagenb.org/home/pub/20/
