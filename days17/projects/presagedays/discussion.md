@@ -283,6 +283,10 @@ This has a bunch of data about abelian varieties $A_f$.  Some is easy and some i
 
 The following data should go in the same table: http://modular.fas.harvard.edu/Tables/odd_analytic_sha_lower_bound.html
 
+This is another similar table: http://modular.fas.harvard.edu/Tables/MotiveDecomp_N1-125_k2
+
+And of course this entire table is similar: http://modular.fas.harvard.edu:8080/mfd (broken usually!)  data available...; it's in a ZODB.
+
 == The odd part of the intersection matrix of J0(N) ==
 
 http://modular.fas.harvard.edu/Tables/odd_intersection_matrix_gamma0.html
