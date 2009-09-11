@@ -57,7 +57,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * Post bug reports, suggestions, patches on the [[http://sagetrac.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
 
  * [[http:/combinat/CiteSageCombinat|Cite Sage-Combinat]] when you use it for research publications.
- * [[http://www.projet-plume.org/fr/relier/sage-combinat]]
+ * [[http://www.projet-plume.org/en/relier/sage-combinat-0] and [[http://www.projet-plume.org/fr/relier/sage-combinat]]
 
 === Code ===
 
