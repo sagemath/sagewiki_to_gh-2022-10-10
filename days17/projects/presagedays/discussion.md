@@ -326,7 +326,7 @@ http://modular.fas.harvard.edu/Tables/lratios_level1.html
 
 This would likely be easy to recompute and extend, but it requires implementing an L-ratio method of on modular symbols spaces A (for speed), which for some reason I still haven't done.   This involves:
   
-   1. Compute the modular symbols $e_i=X^iY^(k-2-i)\{0,\infty\}$ as an element of the ambient space, for each $i=0,1,\ldots,k-2$.
+   1. Compute the modular symbols $e_i=X^iY^{k-2-i}\{0,\infty\}$ as an element of the ambient space, for each $i=0,1,\ldots,k-2$.
    2. Define a function that computes the sparse action of $T_n$ on a sparse vector, and apply it to $e$, which will be very sparse.  This function will be built on the function {{{_hecke_image_of_ith_basis_element}}}.
    3. Use to compute $T_n(e)$ for $n\leq B$, where $B$ is the Sturm bound.
    4. Compute the image of the $T_n(e)$ under the {{{rational_period_mapping()}}} associated to our modular symbols factor $A$ (this is the first time $A$ actually appears).
