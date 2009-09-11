@@ -248,7 +248,7 @@ The table as is here is silly: http://wstein.org/Tables/cmj.html
 
 However, a generalization of it to give CM j-invariants over various number fields would be nice.  It would probably easy to collate such data if one could find it.  I think David Kohel might have such data on his site (?). 
 
-== Pari table of Optimal elliptic curves == 
+== Pari table of Optimal elliptic curves ==
 
 Pointless -- get rid of -- was only useful when I used PARI a lot. 
 
@@ -274,6 +274,4 @@ def order_of_zero_inf(E):
 }}}
 note that this algorithm is far better than the one I ran to make the above table (
 http://wstein.org/Tables/non_zeroinf_tor.txt), which I think was a modular symbols algorithm.  
-
-
 
