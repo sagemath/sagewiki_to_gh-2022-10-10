@@ -164,4 +164,34 @@ http://modular.fas.harvard.edu/Tables/charpoly_level1/upto997/
 
 That exact range can likely be easily done using modular symbols.
 
+
+---- /!\ '''Edit conflict - other version:''' ----
 There is another algorithm, that uses the matrix of $T_2$ (which I'm computing and caching above!), which can compute the charpolys of many other $T_p$.  It's described here: http://sage.math.washington.edu/home/wstein/days/17/highweight/, along with a magma implementation (need to port to Sage).    Thus it might be nice to implement this and run it, and get say all $T_{p,k}$ for $p,k \leq 1000$.
+
+---- /!\ '''Edit conflict - your version:''' ----
+There is another algorithm, that uses the matrix of $T_2$ (which I'm computing and caching above!), which can compute the charpolys of many other $T_p".  It's described here: http://sage.math.washington.edu/home/wstein/days/17/highweight/, along with a magma implementation (need to port to Sage).    Thus it might be nice to implement this and run it, and get say all $T_{p,k}$ for $p,k \leq 1000$.
+
+
+== Arithmetic data about every weight 2 newform on Gamma0(N) for all N<5135 (and many more up to 7248) ==
+
+http://modular.fas.harvard.edu/Tables/arith_of_factors/
+
+This table is challenging to replicate/extend, but easy to move over.  It would likely be better to continue our aplist computations, etc. up to 10000 (they only went to 3200 so far), and also take our saved decompositions and compute other data.   Anyway, this table is more of a challenge. 
+
+== Systems of Hecke Eigenvalues: q-expansions of Newforms ==
+
+http://modular.fas.harvard.edu/Tables/aplist/
+
+This is the point of these tables from last summer, which are much more comprehensive.
+
+  http://sage.math.washington.edu/home/wstein/db/modsym/
+
+Also, Tom Boothby has made some tables of traces of these. 
+
+== Eigenforms on the Supersingular Basis ==
+
+http://modular.fas.harvard.edu/Tables/supersingular.html
+ 
+A close analogue of the above table could likely be easily extended/recomputed using the SupersingularModule code.
+
+---- /!\ '''End of edit conflict''' ----
