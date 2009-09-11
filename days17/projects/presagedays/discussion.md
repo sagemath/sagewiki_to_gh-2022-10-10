@@ -186,6 +186,18 @@ Also, Tom Boothby has made some tables of traces of these.
 
 == Eigenforms on the Supersingular Basis ==
 
+I made 
+
 http://modular.fas.harvard.edu/Tables/supersingular.html
+
+I think for a paper with Merel. 
  
-A close analogue of the above table could likely be easily extended/recomputed using the SupersingularModule code.
+A close analogue of the above table could likely be extended/recomputed using the SupersingularModule code.  However, the first problem is:
+{{{
+sage: X = SupersingularModule(97)
+sage: X.decomposition()
+Traceback (most recent call last):
+...
+NotImplementedError
+}}}
+So some love and care would be needed to compute these decompositions.  But this should be done.  And then would be pretty similar data to that table.  It would be straightfoward (I think) to get the same data is in http://modular.fas.harvard.edu/Tables/supersingular.html once the decompositions are computed.    
