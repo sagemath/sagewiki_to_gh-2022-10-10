@@ -320,11 +320,13 @@ http://modular.fas.harvard.edu/Tables/weierstrass_point_plus and http://modular.
 
 The data could be just copied over, but it would be good to compute it.  I think the algorithm just involves computing a basis of $q$ expansions and looking at it. 
 
-== Rationals part of the special values of the L-functions of level 1 ==
+== Rationals part of the special values of the L-functions ==
 
-http://modular.fas.harvard.edu/Tables/lratios_level1.html
+Level 1: http://modular.fas.harvard.edu/Tables/lratios_level1.html
 
-This would likely be easy to recompute and extend, but it requires implementing an L-ratio method of on modular symbols spaces A (for speed), which for some reason I still haven't done.   This involves:
+Higher level: http://modular.fas.harvard.edu/Tables/bsd.html
+
+This would likely be very good to recompute and extend, but it requires implementing an L-ratio method of on modular symbols spaces A (for speed), which for some reason I still haven't done.   This involves:
   
    1. Compute the modular symbols $e_i=X^iY^{k-2-i}\{0,\infty\}$ as an element of the ambient space, for each $i=0,1,\ldots,k-2$.
    2. Define a function that computes the sparse action of $T_n$ on a sparse vector, and apply it to $e$, which will be very sparse.  This function will be built on the function {{{_hecke_image_of_ith_basis_element}}}.
