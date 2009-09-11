@@ -308,4 +308,8 @@ def f(N,k=2):
 It would be nice to run the above for $N\leq 1000$ and $k=2$.  It would also be nice to gather some
 data for higher weight. 
 
-== 
+== Weierstrass point data ==
+
+http://modular.fas.harvard.edu/Tables/weierstrass_point_plus and http://modular.fas.harvard.edu/Tables/weierstrass_point_bound.html
+
+The data could be just copied over, but it would be good to compute it.  I think the algorithm just involves computing a basis of $q$ expansions and looking at it. 
