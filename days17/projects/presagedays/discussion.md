@@ -141,6 +141,9 @@ sage: time z = [(e[0], dimension_cusp_forms(e[0], 2)) for e in C]
 Time: CPU 8.86 s, Wall: 9.79 s
 }}}
 
+I (=William) started a small calculation going of dimensions of spaces with character for weights <= 16 and for each space computing the dimension of the cuspidal, eisenstein, new, and p-new for each p parts.  It's here: http://sage.math.washington.edu/home/wstein/db/days17/dimension_character/
+
+
 == Compute the exact torsion subgroup of J0(N) for as many N as possible ==
 
 See http://nt.sagenb.org/home/pub/21/ for some work in this direction by Stein and Yazdani.
