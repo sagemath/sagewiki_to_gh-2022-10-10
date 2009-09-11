@@ -10,6 +10,12 @@ Location: Several houses we rented on [[http://www.lopezisland.net/photogallery.
 
 Funding: Fully funded by the National Science Foundation under Grant DMS-0757627.
 
+Campus Wifi (if you find yourself at UW): 
+{{{
+UW NetID:        event0897
+Password:       oudj/oevq/uebr
+}}}
+
 == Projects ==
 
 The project page is here: [[/projects|projects]]
