@@ -846,7 +846,7 @@ array([ 1.  ,  0.5 ,  0.75])
  * New optional spkg [[http://www.openopt.org|OpenOpt]] version 0.24 (William Stein) [[http://trac.sagemath.org/sage_trac/ticket/6302|#6302]] --- OpenOpt is a numerical optimization with various solvers.
 
 
- * New optional package [[http://sage.math.washington.edu/home/SimonKing/Cohomology/|p_group_cohomology]] version 1.0.2 (Simon A. King, David J. Green) [[http://trac.sagemath.org/sage_trac/ticket/6491|#6491]] --- The package p_group_cohomology can compute the cohomology ring of a group with coefficients in a finite field of order p. Its features include:
+ * New optional package [[http://sage.math.washington.edu/home/SimonKing/Cohomology/|p_group_cohomology]] version 1.0.2 (Simon A. King, David J. Green) [[http://trac.sagemath.org/sage_trac/ticket/6491|#6491]] --- The package p_group_cohomology can compute the cohomology ring of a finite p-group with coefficients in a finite field of order p. Its features include:
 
   * Compute the cohomology ring with coefficients in GF(p) for any finite p-group, in terms of a minimal generating set and a minimal set of algebraic relations. We use Benson's criterion to prove the completeness of the ring structure.
   * Compute depth, dimension, Poincare series and a-invariants of the cohomology rings. 
