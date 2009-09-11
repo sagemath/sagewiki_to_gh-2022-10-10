@@ -1,9 +1,7 @@
 = Pre Sage Days Projects =
 
 
-== Links ==
-
- * [[/discussion|List of actual Tables/Projects]]
+ * [[/discussion|Long list of projects corresponding to existing databases]]
 
  * [[/database|Database Code]]
 
