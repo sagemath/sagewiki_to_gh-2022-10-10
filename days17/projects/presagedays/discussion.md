@@ -275,3 +275,37 @@ def order_of_zero_inf(E):
 note that this algorithm is far better than the one I ran to make the above table (
 http://wstein.org/Tables/non_zeroinf_tor.txt), which I think was a modular symbols algorithm.  
 
+== Data About Abelian Varieties Af Attached to Modular Forms ==
+
+http://modular.fas.harvard.edu/Tables/newform_weight2.html
+
+This has a bunch of data about abelian varieties $A_f$.  Some is easy and some is hard to compute.  This table took a long time to compute, I think.   It will be important to recompute this data and much more. 
+
+The following data should go in the same table: http://modular.fas.harvard.edu/Tables/odd_analytic_sha_lower_bound.html
+
+== The odd part of the intersection matrix of J0(N) ==
+
+http://modular.fas.harvard.edu/Tables/odd_intersection_matrix_gamma0.html
+
+The above data would be very good to have to high levels.  It gives the combinatorial "graph structure" of $J_0(N)$.  (Sourav San Gupta's final project in my course was related.)
+
+Here is code to compute the (odd part of) the intersection matrix:
+
+{{{
+def f(N,k=2):
+    S = ModularSymbols(N,k,sign=1).cuspidal_subspace().new_subspace()
+    D = S.decomposition()
+    n = len(D)
+    A = matrix(ZZ,n)
+    for i in range(n): 
+        for j in range(i,n):
+            A[i,j] = odd_part(ZZ(D[i].intersection_number(D[j]).numerator()))
+            A[j,i] = A[i,j]
+    return A
+}}}
+
+(To get the exact value, not just the odd part, get rid of sign=1, and odd_part above, at the least.)
+It would be nice to run the above for $N\leq 1000$ and $k=2$.  It would also be nice to gather some
+data for higher weight. 
+
+== 
