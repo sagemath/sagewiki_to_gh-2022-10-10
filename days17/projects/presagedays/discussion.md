@@ -201,3 +201,43 @@ Traceback (most recent call last):
 NotImplementedError
 }}}
 So some love and care would be needed to compute these decompositions.  But this should be done.  And then would be pretty similar data to that table.  It would be straightfoward (I think) to get the same data is in http://modular.fas.harvard.edu/Tables/supersingular.html once the decompositions are computed.    
+
+== Elliptic curve tables ==
+I think the following can be safely ignored since they are already easily available from Cremona now-a-days:
+{{{
+# [NEW] PARI Tables of Cremona Elliptic Curves
+# [NEW] Isogeny class matrices for elliptic curves of conductor <= 40000
+# [NEW] Lratios L(E,1)/Omega_E for elliptic curves of conductor <= 40000 
+}}}
+
+This can be ignored:
+{{{
+# Armand Brumer and Oisin McGuinness's table of elliptic curves of prime conductor less than 108 (or try the local mirror)
+}}}
+
+This should be made officially part of our database in some way, possibly including better wrapping in Sage:
+{{{
+# The Stein-Watkins database of elliptic curves of conductor up to 108 and of prime conductor up to 1010. 
+}}}
+
+
+The following table was "fun", but I don't think anybody ever used it, so maybe forget it: http://wstein.org/Tables/e_over_k/
+
+== Congruence modulus and modular degree for elliptic curves ==
+
+It would be very valuable and possibly challenging to recompute and extend to level 1000 the data here: http://wstein.org/Tables/degphi_table/
+
+There's an interesting conjecture there as well, which could possibly be refined. 
+
+Here's how to do the computation:
+{{{
+sage: E = EllipticCurve('54a')
+sage: E.modular_degree()         # trivial
+6
+sage: E.congruence_number()      # hard in general
+6
+}}}
+
+I actually started a computation of the same data that goes a bit further than the old table here: http://sage.math.washington.edu/home/wstein/db/congnum/
+
+However quite a few levels up to 1000 remain: [558, 592, 594, 624, 650, 657, 672, 702, 704, 720, 738, 744, 756, 758, 759, 760, 762, 763, 765, 766, 768, 770, 774, 775, 776, 777, 780, 781, 782, 784, 786, 790, 791, 792, 793, 794, 795, 797, 798, 799, 800, 801, 802, 804, 805, 806, 807, 808, 810, 811, 812, 813, 814, 815, 816, 817, 819, 822, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 836, 840, 842, 843, 845, 846, 847, 848, 849, 850, 851, 854, 855, 856, 858, 861, 862, 864, 866, 867, 869, 870, 871, 872, 873, 874, 876, 880, 882, 885, 886, 888, 890, 891, 892, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 909, 910, 912, 913, 914, 915, 916, 918, 920, 921, 922, 923, 924, 925, 926, 927, 928, 930, 931, 933, 934, 935, 936, 938, 939, 940, 942, 943, 944, 946, 948, 950, 954, 955, 956, 957, 960, 962, 964, 965, 966, 968, 969, 970, 972, 973, 974, 975, 976, 978, 979, 980, 981, 982, 984, 985, 986, 987, 988, 989, 990, 994, 995, 996, 997, 999]
