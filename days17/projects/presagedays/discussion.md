@@ -111,6 +111,8 @@ Here is a straightforward algorithm:
 
 Note: See http://trac.sagemath.org/sage_trac/ticket/6768 for very slow code for computing a basis for the Hecke algebra. 
 
+Faster code up at http://trac.sagemath.org/sage_trac/ticket/6911
+
 Here is a more complicated algorithm, but it might suck because of hidden denseness!
 
  1. The input is the level $N$.
