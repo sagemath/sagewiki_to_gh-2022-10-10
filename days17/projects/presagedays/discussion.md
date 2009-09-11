@@ -275,6 +275,10 @@ def order_of_zero_inf(E):
 note that this algorithm is far better than the one I ran to make the above table (
 http://wstein.org/Tables/non_zeroinf_tor.txt), which I think was a modular symbols algorithm.  
 
+I'm running the above for Cremona's tables here:
+
+http://sage.math.washington.edu/home/wstein/db/days17/elliptic_zero_inf/
+
 == Data About Abelian Varieties Af Attached to Modular Forms ==
 
 http://modular.fas.harvard.edu/Tables/newform_weight2.html
