@@ -165,10 +165,6 @@ http://modular.fas.harvard.edu/Tables/charpoly_level1/upto997/
 That exact range can likely be easily done using modular symbols.
 
 
----- /!\ '''Edit conflict - other version:''' ----
-There is another algorithm, that uses the matrix of $T_2$ (which I'm computing and caching above!), which can compute the charpolys of many other $T_p$.  It's described here: http://sage.math.washington.edu/home/wstein/days/17/highweight/, along with a magma implementation (need to port to Sage).    Thus it might be nice to implement this and run it, and get say all $T_{p,k}$ for $p,k \leq 1000$.
-
----- /!\ '''Edit conflict - your version:''' ----
 There is another algorithm, that uses the matrix of $T_2$ (which I'm computing and caching above!), which can compute the charpolys of many other $T_p".  It's described here: http://sage.math.washington.edu/home/wstein/days/17/highweight/, along with a magma implementation (need to port to Sage).    Thus it might be nice to implement this and run it, and get say all $T_{p,k}$ for $p,k \leq 1000$.
 
 
@@ -193,5 +189,3 @@ Also, Tom Boothby has made some tables of traces of these.
 http://modular.fas.harvard.edu/Tables/supersingular.html
  
 A close analogue of the above table could likely be easily extended/recomputed using the SupersingularModule code.
-
----- /!\ '''End of edit conflict''' ----
