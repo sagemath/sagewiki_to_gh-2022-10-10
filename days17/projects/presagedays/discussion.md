@@ -227,7 +227,7 @@ The following table was "fun", but I don't think anybody ever used it, so maybe 
 
 == Congruence modulus and modular degree for elliptic curves ==
 
-It would be very valuable and possibly challenging to recompute and extend to level 1000 the data here: http://wstein.org/Tables/degphi_table/
+It would be very valuable and possibly challenging to recompute and extend to level 1000 the data here: http://wstein.org/Tables/degphi_table/. 
 
 There's an interesting conjecture there as well, which could possibly be refined. 
 
@@ -243,6 +243,8 @@ sage: E.congruence_number()      # hard in general
 I actually started a computation of the same data that goes a bit further than the old table here: http://sage.math.washington.edu/home/wstein/db/congnum/
 
 However quite a few levels up to 1000 remain: [558, 592, 594, 624, 650, 657, 672, 702, 704, 720, 738, 744, 756, 758, 759, 760, 762, 763, 765, 766, 768, 770, 774, 775, 776, 777, 780, 781, 782, 784, 786, 790, 791, 792, 793, 794, 795, 797, 798, 799, 800, 801, 802, 804, 805, 806, 807, 808, 810, 811, 812, 813, 814, 815, 816, 817, 819, 822, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 836, 840, 842, 843, 845, 846, 847, 848, 849, 850, 851, 854, 855, 856, 858, 861, 862, 864, 866, 867, 869, 870, 871, 872, 873, 874, 876, 880, 882, 885, 886, 888, 890, 891, 892, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 909, 910, 912, 913, 914, 915, 916, 918, 920, 921, 922, 923, 924, 925, 926, 927, 928, 930, 931, 933, 934, 935, 936, 938, 939, 940, 942, 943, 944, 946, 948, 950, 954, 955, 956, 957, 960, 962, 964, 965, 966, 968, 969, 970, 972, 973, 974, 975, 976, 978, 979, 980, 981, 982, 984, 985, 986, 987, 988, 989, 990, 994, 995, 996, 997, 999]
+
+It would also be very valuable if we compute the congruence modulus and modular degree modulus (I don't know what the good term for this is) for elliptic curves. This data might provide some insight on the discrepency between the two invariants.
 
 == j-invariants of CM elliptic curves ==
 
