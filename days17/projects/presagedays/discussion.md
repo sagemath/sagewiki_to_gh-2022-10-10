@@ -55,6 +55,8 @@ Then the component group is isomorphic to (Z/2Z)^f, where f = 2^m - 1, unless N=
 
 Soroosh -- the prime level case is known.  See Calegari and Emerton (http://www.math.northwestern.edu/~fcale/papers/moddeg2.pdf) which *just* cites Agashe and Merel (http://wstein.org/home/wstein/days/17/Merel_Laccouplement_de_Weil_entre_le_sous-group.pdf -- page 12).
 
+ [[attachment:days17____atkin_lehner_on_real_component_group.sws]]
+
 
 == Cuspidal Subgroup ==
 
