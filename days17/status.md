@@ -2,11 +2,10 @@
 
 == Tue September 15, 2009 ==
 
- * Robert Miller: keeping his mother entertained
+ * Amod Agashe: Getting here
 
- * Victor Miller:
 
- * William Stein:
+ * Robert Bradshaw:
 
  * Sal Butt: 
 
@@ -14,12 +13,15 @@
 
  * Ryan Heaton:
 
- * Amod Agashe: Getting here
+ * Robert Miller: keeping his mother entertained
+
+ * Victor Miller:
+
+ * William Stein:
 
  * Kevin Steuve:
 
- * Robert Bradshaw:
 
- * Soroosh Yazdani
+ * Soroosh Yazdani:
 
- * Jared Weinstein
+ * Jared Weinstein:
