@@ -23,7 +23,7 @@ Password:       oudj/oevq/uebr
 
 == Projects ==
 
-The project page is here: [[/projects|projects]]
+[[/projects|The project page is here.]]
 
 == Participants ==
 
