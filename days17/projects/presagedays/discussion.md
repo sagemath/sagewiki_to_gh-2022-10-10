@@ -13,6 +13,8 @@ The Harvard URL is the best, since the http://wstein.org/Tables has none of the 
 
  * URL: http://wstein.org/Tables/real_tamagawa/ and http://wstein.org/Tables/compgrp/.    The second page has much more extensive data and a conjecture. 
 
+ * [[http://sage.math.washington.edu/home/wstein/days/17/c_oo.pdf|Page explaining the algorithm]]
+
  * New Code:
 
 This function computes the $J_0(N)$ real component groups. 
@@ -54,6 +56,8 @@ Then the component group is isomorphic to (Z/2Z)^f, where f = 2^m - 1, unless N=
 }}}
 
 Soroosh -- the prime level case is known.  See Calegari and Emerton (http://www.math.northwestern.edu/~fcale/papers/moddeg2.pdf) which *just* cites Agashe and Merel (http://wstein.org/home/wstein/days/17/Merel_Laccouplement_de_Weil_entre_le_sous-group.pdf -- page 12).
+
+The following worksheet has code for computing the action of Atkin-Lehner on the component group:
 
  [[attachment:days17____atkin_lehner_on_real_component_group.sws]]
 
