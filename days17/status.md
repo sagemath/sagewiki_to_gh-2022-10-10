@@ -22,7 +22,7 @@
 
  * Rishi: Polishing lcalc wrapper (see John Cremona's review); association from modular forms to L-functions (needs assistance). 
 
- * William Stein:  Galois action on cuspidal subgroup 
+ * William Stein:  Galois action on cuspidal subgroup [[http://trac.sagemath.org/sage_trac/ticket/5969|trac #5969]]
 
  * Kevin Steuve: compressing the function f(x) = Li(x)-pi(x)
 
