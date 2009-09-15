@@ -59,7 +59,7 @@ Soroosh -- the prime level case is known.  See Calegari and Emerton (http://www.
 
 The following worksheet has code for computing the action of Atkin-Lehner on the component group:
 
- [[attachment:days17____atkin_lehner_on_real_component_group.sws]]
+ [[attachment:days17____atkin_lehner_on_real_component_group.sws]] (see also http://nt.sagenb.org/home/pub/22/)
 
 
 == Cuspidal Subgroup ==
