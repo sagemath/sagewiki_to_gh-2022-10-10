@@ -16,6 +16,11 @@ UW NetID:        event0897
 Password:       oudj/oevq/uebr
 }}}
 
+== Status Reports ==
+
+The status report page is here: [[/status|status]]
+
+
 == Projects ==
 
 The project page is here: [[/projects|projects]]
