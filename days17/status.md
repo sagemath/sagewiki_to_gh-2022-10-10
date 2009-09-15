@@ -16,10 +16,11 @@
 
  * Victor Miller:
 
- * William Stein:
+ * Rishi: 
+
+ * William Stein:  Galois action on cuspidal subgroup 
 
  * Kevin Steuve:
-
 
  * Soroosh Yazdani:
 
