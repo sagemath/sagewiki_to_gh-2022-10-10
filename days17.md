@@ -18,7 +18,7 @@ Password:       oudj/oevq/uebr
 
 == Status Reports ==
 
-The status report page is here: [[/status|status]]
+[[/status|The status report page is here.]]
 
 
 == Projects ==
