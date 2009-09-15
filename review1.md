@@ -16,3 +16,4 @@ The goal is take care of every ticket that has [[http://trac.sagemath.org/sage_t
 = Participants (with area they would like to work on) =
 
  1. Jason Grout (graphics, graph theory, linear algebra, notebook)
+ 1. Minh Van Nguyen --- mvngu: porting packages, basic cryptography, documentation
