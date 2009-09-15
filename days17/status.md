@@ -4,24 +4,28 @@
 
  * Amod Agashe: Getting here; will arrive at ferry terminal at 3:20pm and needs a ride!  
 
- * Robert Bradshaw:
+ * Tom Boothby: implement an "argument fixer" class. 
 
- * Sal Butt: 
+ * Robert Bradshaw: L-functions precision issues with his implementation of Tim's algorithm
 
- * Craig Citro:
+ * Sal Butt: Cleaned up database and make sure all online; reading Kedlaya-Sutherland.
+ 
+ * Craig Citro: pick a database and go!
 
- * Ryan Heaton:
+ * Tim Dokchitser:  L-functions precision issues with his algorithm
+
+ * Randy Heaton: Petersson inner product -- nobody remembers the formula...
 
  * Robert Miller: keeping his mother entertained
 
- * Victor Miller:
+ * Victor Miller: picking up Amod; working through paper of Yang "Defining Equations of modular curves"
 
- * Rishi: 
+ * Rishi: Polishing lcalc wrapper (see John Cremona's review); association from modular forms to L-functions (needs assistance). 
 
  * William Stein:  Galois action on cuspidal subgroup 
 
- * Kevin Steuve:
+ * Kevin Steuve: compressing the function f(x) = Li(x)-pi(x)
 
- * Soroosh Yazdani:
+ * Soroosh Yazdani: real component groups
 
- * Jared Weinstein:
+ * Jared Weinstein: Heegner points mod ell.
