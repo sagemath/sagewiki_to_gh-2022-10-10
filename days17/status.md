@@ -4,7 +4,7 @@
 
  * Amod Agashe: Getting here; will arrive at ferry terminal at 3:20pm and needs a ride!  
 
- * Tom Boothby: implement an "argument fixer" class. 
+ * Tom Boothby: implement an "argument fixer" class (fix for review); also working on disk caching
 
  * Robert Bradshaw: L-functions precision issues with his implementation of Tim's algorithm
 
