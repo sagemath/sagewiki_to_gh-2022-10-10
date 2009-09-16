@@ -12,13 +12,14 @@ We have that there are three (related) tasks to perform:
 
 Basically everything else on this wiki is currently part of (1). Here's a list of tasks for (3):
 
- * create some appropriate storage on a ZFS drive to test
- * set up Robert Bradshaw's CherryPy code from Benasque
- * start adding data from existing tables
+ * create some appropriate storage on a ZFS drive to test (William)
+ * set up Robert Bradshaw's CherryPy code from Benasque (Robert Bradshaw)
+ * start adding data from existing tables 
  * add functionality to the database manager to provide canonical URLs for data and an associated wiki
  * think about authentication issues for uploading new data
- * create a table of contents for the data
  * make certain fields (such as author or title) immutable
+ * create a table of contents for the data, which probably makes the most sense as a completely separate webserver 
+ * write something that does sanity checks and tests: for instance, keep a list of sample queries, and run them regularly (say, daily) to make sure that they still work
 
 Other closely related tasks:
 
