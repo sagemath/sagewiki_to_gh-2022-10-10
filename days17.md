@@ -40,6 +40,7 @@ Password:       oudj/oevq/uebr
  * Victor Miller (Sep. 14 - 17)
  * Amod Agashe (Sep. 16)
  * Randy Heaton
+ * Kevin Steuve
 
 == Accommodations ==
 
