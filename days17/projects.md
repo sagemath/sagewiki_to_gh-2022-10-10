@@ -17,11 +17,16 @@ Basically everything else on this wiki is currently part of (1). Here's a list o
  * start adding data from existing tables
  * add functionality to the database manager to provide canonical URLs for data and an associated wiki
  * think about authentication issues for uploading new data
- * create a nice front page 
+ * create a table of contents for the data
+ * make certain fields (such as author or title) immutable
 
 Other closely related tasks:
 
  * create a database type for plaintext databases
+
+Feature requests:
+
+ * user queries for new additions
 
 == Rational Cuspidal Subgroups ==
 
