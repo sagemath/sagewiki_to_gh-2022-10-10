@@ -61,6 +61,8 @@ The following worksheet has code for computing the action of Atkin-Lehner on the
 
  [[attachment:days17____atkin_lehner_on_real_component_group.sws]] (see also http://nt.sagenb.org/home/pub/22/)
 
+''IDEA!'' Page 174 of Ling-Oesterle has a corollary 1 with a 'very similar formula'!  It's about the number of rational 2-torsion points on J0(N) in the Shimura subgroup and analyzes this using Atkin-Lehner operators.  Since the real component group has to do with real torsion this formula actually gives maybe a lower bound too.  Here's the paper: http://sage.math.washington.edu/home/wstein/days/17/Ling-Oesterle-The_Shimura_Subgroup_of_J0N.pdf
+
 
 == Cuspidal Subgroup ==
 
@@ -95,6 +97,11 @@ http://sage.math.washington.edu/home/was/db/days17/cuspidal_subgroup_J0N/
 
 http://sage.math.washington.edu/home/was/db/days17/cuspidal_subgroup_J1N/
 
+
+Soroosh and I also thought about cuspidal torsion and had some ideas which we recorded
+here:   http://sage.math.washington.edu/home/wstein/days/17/cusptor-ideas.pdf
+
+They reference this not-finished-paper: http://sage.math.washington.edu/home/wstein/days/17/calegari-stein-tor.pdf
 
 
 == Discriminants of Hecke Algebra ==
