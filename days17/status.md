@@ -29,3 +29,66 @@
  * Soroosh Yazdani: real component groups
 
  * Jared Weinstein: Heegner points mod ell.
+
+
+== Wed September 16, 2009 ==
+
+ * Amod Agashe: 
+
+ * Tom Boothby: 
+
+ * Robert Bradshaw: 
+
+ * Sal Butt: 
+ 
+ * Craig Citro:
+
+ * Tim Dokchitser:
+
+ * Randy Heaton: 
+
+ * Robert Miller:
+
+ * Victor Miller:
+
+ * Rishi: 
+
+ * William Stein: 
+
+ * Kevin Steuve:
+
+ * Soroosh Yazdani: 
+
+ * Jared Weinstein:
+
+
+
+== Thu September 18, 2009 ==
+
+ * Amod Agashe: 
+
+ * Tom Boothby: 
+
+ * Robert Bradshaw: 
+
+ * Sal Butt: 
+ 
+ * Craig Citro:
+
+ * Tim Dokchitser:
+
+ * Randy Heaton: 
+
+ * Robert Miller:
+
+ * Victor Miller:
+
+ * Rishi: 
+
+ * William Stein: 
+
+ * Kevin Steuve:
+
+ * Soroosh Yazdani: 
+
+ * Jared Weinstein:
