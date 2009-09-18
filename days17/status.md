@@ -68,12 +68,12 @@ Meeting about making online tables at 2:30 clock to discuss modular forms databa
 Somebody: Implement Shimura subgroup
 
 
-== Thu September 18, 2009 ==
+== Friday September 18, 2009 ==
 
 
  * Jared Weinstein:
 
- * Amod Agashe: 
+ * Amod Agashe: Checked my hunch that if an odd prime p divides a Tamagawa number, but does not divide the order of the torsion subgroup, then one can lower level by p for level up to 1010; discussed my strategy for computing congruences with you and Randy; discussed torsion and cuspidal subgroups with William and Soroosh. The goal for Thursday was to get back safely, which was achieved!
 
  * Tom Boothby: 
 
