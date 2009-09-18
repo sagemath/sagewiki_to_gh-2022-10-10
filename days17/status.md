@@ -71,30 +71,30 @@ Somebody: Implement Shimura subgroup
 == Friday September 18, 2009 ==
 
 
- * Jared Weinstein:
+ * Jared Weinstein: William and I proved if "so and so" then Heegner class vanishes.  Today: Actually write up proof. 
 
  * Amod Agashe: Checked my hunch that if an odd prime p divides a Tamagawa number, but does not divide the order of the torsion subgroup, then one can lower level by p for level up to 1010; discussed my strategy for computing congruences with you and Randy; discussed torsion and cuspidal subgroups with William and Soroosh. The goal for Thursday was to get back safely, which was achieved!
 
- * Tom Boothby: 
+ * Tom Boothby: Robert Bradshaw and I played with power series yesterday.  Found great DiffEQ with easy solution.  Unfortunately, we left off a 1 in summing something, so we are now back to square one.  But we know exactly what $G_2$.  Today: More of the same, but much more careful.
 
- * Robert Bradshaw: 
+ * Robert Bradshaw: See Tom's status report.  Got the database server running.  Today: Compute $G_2$.  Textfile DB class. 
 
- * Sal Butt: 
+ * Sal Butt: I computed those integrals I was interested in, then migrated C++ code to Sage; computing statistics on ap's;  something is going wrong.  Today: Figure out what. 
  
- * Craig Citro:
+ * Craig Citro: Playing with lambda internally.  Eavesdropping on Bradshaw and Boothby's conversation... and planned a hike.  Computed adjoint L-function one way, and doing another for consistency.   Today: Working through equations in a paper of Shimura to get constants for functional equations.  Finish create filter from lambda. 
 
- * Tim Dokchitser:
+ * Tim Dokchitser: General L-functions support; helped Amod figure out answer to question about optimality for Amod.  Massive help in quest for $G_2$.  Today: Is there a curve over Q(mu_7)^+ with everywhere good reduction (or maybe bad at 7).  
 
- * Randy Heaton: 
+ * Randy Heaton:  (1) Automated more things I often do, e.g., index_in, eigendecomposition_of method.   (2) Combine hints from Craig, Victor, Hida, Shimura, Diamond-Shurman to get a nice formula for Petersson for case of square-free level.  Generalizing to non-square-free level will be easy, but there is another tricky-to-remove condition.  Today: Learn trac.  Go back to hotel, then Florida safely. 
 
- * Robert Miller:
+ * Robert Miller: Woke up early and drove Amod to ferry.  Helping Kevin S. with @parallel.  Finished 2-descent. Needs review!!  Today: Randy trac, read about Heegner points, start refereeing William's patch. 
 
- * Victor Miller:
+ * Victor Miller: Flew home. 
 
- * Rishi: 
+ * Rishi: Writing program for L-functions associated to cusp forms.   Today: look at compact_system_of_eigenvalues. 
 
- * William Stein: 
+ * William Stein: Jared and I may have proved an interesting theorem using "reciprocity"; Worked on Heegner points patch; conjectures with Amod and Soroosh;  PLAN: attack real component group problem, finish Heegner points patch, put the rest of my databases into the new database, and work on making an interface
 
- * Kevin Steuve:
+ * Kevin Steuve: working on prime_pi and nth-prime. improved my code style. all functionality in a single python class.  Benchmarking prime_pi, and comparing using sieving to calling is_prime on interval; found under some conditions it if faster to use primality tests.  Comparing is_prime versus is_pseudoprime.    Today: prime_pi is fast and nth prime; Going to optimize nth prime and make a sparse cache. 
 
- * Soroosh Yazdani: 
+ * Soroosh Yazdani: Looking at Amod's conjectures... true or no hope?  Paper of Tang -- reading this; nice proof.  Modular symbols mod 2.  TODAY: Play around with component group more today.
