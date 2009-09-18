@@ -2,6 +2,12 @@
 
 <<TableOfContents>>
 
+== Long list of databases ==
+
+See [[/presagedays/discussion|Long list of projects corresponding to existing databases]]
+
+
+
 == Updating wstein.org/Tables ==
 
 We have that there are three (related) tasks to perform:
