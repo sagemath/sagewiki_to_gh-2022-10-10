@@ -98,3 +98,9 @@ Somebody: Implement Shimura subgroup
  * Kevin Steuve: working on prime_pi and nth-prime. improved my code style. all functionality in a single python class.  Benchmarking prime_pi, and comparing using sieving to calling is_prime on interval; found under some conditions it if faster to use primality tests.  Comparing is_prime versus is_pseudoprime.    Today: prime_pi is fast and nth prime; Going to optimize nth prime and make a sparse cache. 
 
  * Soroosh Yazdani: Looking at Amod's conjectures... true or no hope?  Paper of Tang -- reading this; nice proof.  Modular symbols mod 2.  TODAY: Play around with component group more today.
+
+
+
+== Saturday September 19, 2009 ==
+
+ * William Stein: made a list of questions about real component groups, and realized that the conjecture is hard. 
