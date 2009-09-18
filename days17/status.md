@@ -75,7 +75,7 @@ Somebody: Implement Shimura subgroup
 
  * Amod Agashe: Checked my hunch that if an odd prime p divides a Tamagawa number, but does not divide the order of the torsion subgroup, then one can lower level by p for level up to 1010; discussed my strategy for computing congruences with you and Randy; discussed torsion and cuspidal subgroups with William and Soroosh. The goal for Thursday was to get back safely, which was achieved!
 
- * Tom Boothby: Robert Bradshaw and I played with power series yesterday.  Found great DiffEQ with easy solution.  Unfortunately, we left off a 1 in summing something, so we are now back to square one.  But we know exactly what $G_2$.  Today: More of the same, but much more careful.
+ * Tom Boothby: Robert Bradshaw and I played with power series yesterday.  Found great DiffEQ with easy solution.  Unfortunately, we left off a 1 in summing something, so we are now back to square one.  But we know exactly what $G_2$.  Today: More of the same, but much more careful.  Planning to implement a timeout-ed @parallel for more robust computation (useful for databases whose data is sporadically impossible to compute).
 
  * Robert Bradshaw: See Tom's status report.  Got the database server running.  Today: Compute $G_2$.  Textfile DB class. 
 
