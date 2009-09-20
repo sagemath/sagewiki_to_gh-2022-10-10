@@ -18,3 +18,4 @@ The goal is take care of every ticket that has [[http://trac.sagemath.org/sage_t
  1. Jason Grout (graphics, graph theory, linear algebra, notebook)
  1. Minh Van Nguyen --- mvngu: porting packages, basic cryptography, documentation
  1. William Stein: anything
+ 1. Marshall Hampton: polytopes, followed by the notebook.  I will be time-limited on Tuesday but I'll try to do at least a few.
