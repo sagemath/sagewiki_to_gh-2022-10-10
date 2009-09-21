@@ -4,6 +4,8 @@
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage 
 is perceived in the outside world.
 
+  * [[http://www.itwire.com/content/view/27887/1090/1/0/|How one Melburnian spent Software Freedom Day]]
+
   * [[http://eduard-gamonal.net/?p=85|Sage Rocks!]]
 
   * [[http://www.sun.com/customers/servers/univ_washington.xml|University Adds Power and Speed to Mathematics Software with Sun Server Technology ]]
