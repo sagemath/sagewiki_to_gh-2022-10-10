@@ -53,7 +53,9 @@
  * [[http://code.google.com/appengine/ | Google App Engine]] - Web framework - [[http://code.google.com/appengine/docs/python/overview.html | docs]].
  * [[http://igraph.sourceforge.net/index.html | igraph]] - Graph theory and network analysis - [[http://igraph.sourceforge.net/documentation.html | docs]].
  * [[http://orbited.org/ | Orbited]] - [[http://en.wikipedia.org/wiki/Comet_%28programming%29 | Comet]] web framework - [[http://orbited.org/wiki/Documentation | docs]].
+ * [[http://www.pydy.org/ | PyDy]] - Newtonian mechanics.
  * [[http://pyjs.org/ | Pyjamas]] - Web and desktop framework.
  * [[http://niftilib.sourceforge.net/pynifti/ | PyNIfTI]] - Medical imaging.
  * [[http://www.tornadoweb.org/ | Tornado]] - Web server and framework - [[http://www.tornadoweb.org/documentation | docs]].
  * [[http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS | VIPS]] - Image processing - [[http://www.vips.ecs.soton.ac.uk/index.php?title=Documentation | docs]].
+ * [[http://vpython.org/ | VPython]] - Real-time 3D graphics and animation - [[http://vpython.org/contents/docs/visual/index.html | Visual docs]].
