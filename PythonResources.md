@@ -53,6 +53,7 @@
  * [[http://code.google.com/appengine/ | Google App Engine]] - Web framework - [[http://code.google.com/appengine/docs/python/overview.html | docs]].
  * [[http://igraph.sourceforge.net/index.html | igraph]] - Graph theory and network analysis - [[http://igraph.sourceforge.net/documentation.html | docs]].
  * [[http://orbited.org/ | Orbited]] - [[http://en.wikipedia.org/wiki/Comet_%28programming%29 | Comet]] web framework - [[http://orbited.org/wiki/Documentation | docs]].
+ * [[http://www.cam.cornell.edu/~rclewley/cgi-bin/moin.cgi/ | PyDSTool]] - Dynamical systems.
  * [[http://www.pydy.org/ | PyDy]] - Newtonian mechanics.
  * [[http://pyjs.org/ | Pyjamas]] - Web and desktop framework.
  * [[http://niftilib.sourceforge.net/pynifti/ | PyNIfTI]] - Medical imaging.
