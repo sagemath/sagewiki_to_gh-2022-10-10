@@ -153,7 +153,7 @@ def svd_vis(a11=slider(-1,1,.05,1),a12=slider(-1,1,.05,1),a21=slider(-1,1,.05,0)
     for i in (0,1):
         if s[i] != 0: uvects += arrow([offset,0],vector([offset,0])+matrix(s*u).column(i),rgbcolor = colors[i+2])
     html('<h3>Singular value decomposition: image of the unit circle and the singular vectors</h3>')
-    print jsmath("A = %s  = %s %s %s"%(latex(my_mat), latex(matrix(rf_low,u.tolist())), latex(matrix(rf_low,2,2,[s[0],0,0,s[1]])), latex(matrix(rf_low,vh.tolist())))) 
+    print jsmath("$A = %s  = %s %s %s$"%(latex(my_mat), latex(matrix(rf_low,u.tolist())), latex(matrix(rf_low,2,2,[s[0],0,0,s[1]])), latex(matrix(rf_low,vh.tolist())))) 
     image_ell = parametric_plot(rotell(s,u,t, offset),0,2*pi)
     graph_stuff=circle((0,0),1)+image_ell+vvects+uvects
     graph_stuff.set_aspect_ratio(1)
