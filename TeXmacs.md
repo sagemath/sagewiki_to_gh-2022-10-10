@@ -10,4 +10,4 @@ To install, follow the following steps:
  1. Extract the tarball into ~/.TeXmacs/plugins/
 When TeXmacs starts, the plugin should be detected automatically.  To add a SAGE session to the current TeXmacs buffer, do Insert -> Session -> SAGE.
 
-NOTE!!: Check if the plugin works already before following the above instructions (eg, try Insert/Session/SAGE). Most probably, the work has already been done for you.
+NOTE!!: Check if the plugin works already before following the above instructions. Most probably, the work has already been done for you.
