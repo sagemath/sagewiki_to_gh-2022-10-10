@@ -1,6 +1,6 @@
 = Community =
 
-The [[http://www.sagemath.org | Sage]] mathematics project attracts users and [[http://www.sagemath.org/development-map.html  | developers]] of widely varying backgrounds from around the world.  Moreover, whether you're a beginner or expert, student or educator, researcher or enthusiast, someone in between or altogether different, we welcome your contributions to the Sage community.
+The [[http://www.sagemath.org | Sage]] mathematics project attracts users and [[http://www.sagemath.org/development-map.html  | developers]] of widely varying backgrounds from around the world.  Moreover, whether you're a beginner or expert, student or educator, researcher or enthusiast, somewhere in between or someone altogether different, we welcome your contributions to the Sage community.
 
 The following is an incomplete list of Sage users and developers who have set up personal pages at this site. 
 
