@@ -2,7 +2,7 @@
 
 TODO:
 
-Add more people
+Add more people.
 
 The [[http://www.sagemath.org | Sage]] mathematics project attracts users and developers of widely varying backgrounds from [[http://www.sagemath.org/development-map.html  | around the world]].  Moreover, whether you're a beginner or expert, student or educator, researcher or enthusiast, somewhere in between or someone altogether different, we welcome your contributions to the Sage community.
 
