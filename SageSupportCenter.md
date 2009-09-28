@@ -1,4 +1,10 @@
-= Sage User Center =
+= Sage Support Center =
+
+Welcome to the Sage Support Center!
+
+TODO:
+
+Organize, sage-support.
 
  * [[faq | Sage FAQ - Frequently Asked Questions]]
  * [[Tips]]
