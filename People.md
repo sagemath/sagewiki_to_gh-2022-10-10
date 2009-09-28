@@ -1,10 +1,28 @@
-= People =
+= Community =
 
+The [[http://www.sagemath.org | Sage]] mathematics project attracts users and [[http://www.sagemath.org/development-map.html  | developers]] of widely varying backgrounds from around the world.  Moreover, whether you're a beginner or expert, student or educator, researcher or enthusiast, we consider every Sage user a potential Sage developer.
 
-[[http://www.sagemath.org/development-map.html|overview of all registered Sage developers on a world map]]
+The following is an incomplete list of Sage user-developers who have set up personal pages at this site. 
 
-The following list is very incomplete and only contains those developers who added themselves to this wiki.
+ * [[WilliamStein | William Stein]]
+ * [[MichaelAbshoff | Michael Abshoff]]
+ * [[MartinAlbrecht | Martin Albrecht]]
+ * [[TomBoothby | Tom Boothby]]
+ * [[IftikharBurhanuddin | Iftikhar Burhanuddin]]
+ * [[OndrejCertik | Ondřej Čertík]]
+ * [[CraigCitro | Craig Citro]]
+ * [[AlexClemesha | Alex Clemesha]]
+ * [[DidierDeshommes | Didier Deshommes]]
+ * [[DavidHarvey | David Harvey]]
+ * [[MarshallHampton | Marshall Hampton]]
+ * [[David_Joyner | David Joyner]]
+ * [[RobertMiller | Robert Miller]]
+ * [[JacobMitchell | Jacob Mitchell]]
+ * [[YiQiang | Yi Qiang]]
+ * [[jaapspies | Jaap Spies]]
+ * [[GlennTarbox | Glenn Tarbox]]
+ * [[NicolasThiéry | Nicolas M. Thiéry]]
 
-[[WilliamStein|William Stein]],  [[David_Joyner]], [[MichaelAbshoff|Michael Abshoff]], [[MartinAlbrecht|Martin Albrecht]], [[TomBoothby|Tom Boothby]], [[IftikharBurhanuddin|Iftikhar Burhanuddin]], [[AlexClemesha|Alex Clemesha]], [[DidierDeshommes|Didier Deshommes]], [[DavidHarvey|David Harvey]], [[YiQiang|Yi Qiang]], [[RobertMiller|Robert Miller]], [[OndrejCertik|Ondřej Čertík]], [[jaapspies|Jaap Spies]], [[MarshallHampton|Marshall Hampton]], [[JacobMitchell|Jacob Mitchell]], [[CraigCitro|Craig Citro]], [[GlennTarbox|Glenn Tarbox]], [[NicolasThiéry| Nicolas M. Thiéry]]
+Here are some related pages:
 
-Here is a [[http://wiki.wstein.org/2008/summer/employ|list of students employed to work fulltime on Sage during Summer 2008]]
+ * [[http://wiki.wstein.org/2008/summer/employ | Students working full-time on Sage during Summer 2008]].
