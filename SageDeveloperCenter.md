@@ -2,6 +2,10 @@
 
 Welcome to the Sage developer center!
 
+TODO:
+
+Organize, sage-devel.
+
  * [[faq | Sage FAQ - Frequently Asked Questions]]
  * [[Tips]]
  * [[data | Put (links to) interesting data you compute using Sage here]]
