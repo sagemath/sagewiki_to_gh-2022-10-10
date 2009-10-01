@@ -16,6 +16,10 @@ UW NetID:        event0897
 Password:       oudj/oevq/uebr
 }}}
 
+== Photos ==
+
+   http://wstein.org/pics/new/200909-sagedays17/
+
 == Status Reports ==
 
 [[/status|The status report page is here.]]
