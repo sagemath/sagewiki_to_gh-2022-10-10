@@ -12,4 +12,5 @@ Organizing Committee:
  * Barry Mazur
  * William Stein (chair)
 
-The meeting will be open, but funding from CMI will most likely be limited to invited participants. We may have a bit of additional funding for other participants; contact KiranSKedlaya.
+The meeting will be open, but funding from CMI will most likely be limited to invited participants. We may have a bit of additional funding for other participants; contact [[KiranSKedlaya|Kiran Kedlaya]].
+ 
