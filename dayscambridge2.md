@@ -1,6 +1,6 @@
 = Sage Days 18: Cambridge, MA =
 
-Dates: TBA (November or December 2009)
+Dates: December 1-5, 2009
 
 Location: Clay Mathematics Institute (Cambridge, MA)
 
@@ -12,4 +12,4 @@ Organizing Committee:
  * Barry Mazur
  * William Stein (chair)
 
-We will be posting more information in a few days. In the meantime, contact KiranSKedlaya.
+The meeting will be open, but funding from CMI will most likely be limited to invited participants. We may have a bit of additional funding for other participants; contact KiranSKedlaya.
