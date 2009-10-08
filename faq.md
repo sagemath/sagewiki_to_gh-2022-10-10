@@ -74,6 +74,22 @@ sage: import Tkinter
 }}}
 does not raise an ImportError then it worked.
 
+=== How do I import Sage into a Python script? ===
+
+Yes you can import Sage as a library in a Python script. One caveat is that you need to run that Python script using the version of Python that is bundled with Sage; currently Python 2.6.x. To import Sage, put the following in your Python script:
+
+from sage.all import *
+
+Then when you want to run your script, you need to invoke Sage with the option "-python" which would run your script using the Python that comes with Sage. For example, if Sage is in your PATH variable then you can do this:
+
+sage -python /path/to/my/script.py
+
+Another way is to write a Sage script and run that script using Sage itself. A Sage script has the file extension ".sage" and is more or less a Python script but uses Sage-specific functions and commands. You can then run that Sage script like so:
+
+sage /path/to/my/script.sage
+
+This will take care of loading the necessary environment variables and default imports for you.
+
 === I'm seeing an error about 'Permission denied' on a file called sage-flags.txt ===
 
 When sage is built from source, it keeps track of what special instructions your CPU 
