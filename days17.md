@@ -18,7 +18,8 @@ Password:       oudj/oevq/uebr
 
 == Photos ==
 
-   http://wstein.org/pics/new/200909-sagedays17/
+ * [[http://wstein.org/pics/new/200909-sagedays17/|William Stein's Photos]]
+ * [[http://picasaweb.google.co.uk/timdok/SageDays17?authkey=Gv1sRgCJ3gp5Ol2uGh8QE#|Tim Dokchitser's Photos]]
 
 == Status Reports ==
 
