@@ -1,9 +1,7 @@
 {{{
 \section{Introduction}
 
-Intellectual Merit
-
-Broader Impact
+Mention intellectual Merit and broader Impact
 
 
 
