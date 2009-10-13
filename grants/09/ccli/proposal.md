@@ -1,1 +1,3 @@
-[[/introduction|Introduction]
+[[/introduction|Introduction]]
+
+[[/projects/notebook|Notebook Project]]
