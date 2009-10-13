@@ -19,7 +19,7 @@ more.  Sage combines various software packages and seamlessly
 integrates their functionality into a common experience. It is well
 suited for education, studying and research.  The interface to Sage is
 a notebook in a web-browser or the command-line. 
-Inside the Sage notebook (see Figure~\ref{fig:sagenb}), you can create
+Inside the Sage notebook, you can create
 embedded graphics, beautifully typeset mathematical expressions, add
 and delete input, and share your work across the network.
 
