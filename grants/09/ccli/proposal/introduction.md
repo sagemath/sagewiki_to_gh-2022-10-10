@@ -5,19 +5,13 @@
 The goal of the Sage project is to create viable easy-to-use free open source mathematical software to support both research and  education and in mathematics, engineering and the sciences. 
 
 
-Sage is a cohesive distribution of several dozen pieces of open source
-mathematics software, with almost no external dependencies,
-which can easily be built completely from source
-with one command on OS~X, Linux, 
-and Windows.  Creating this distribution has required the combined
-work of numerous specialists in the arcane build processes
-of different operating systems, and requires regular
-maintenance (which would be funded by this proposal)
-to remain up to date.  The PI has often been
-told by mathematicians that various open source
-programs, e.g., PARI and Singular, can
-easily be built as part of Sage, but are ``impossibly difficult''
-for them to build without Sage.  
+\subsection{What is Sage?}
+Sage is a cohesive distribution of nearly 100 pieces of open source
+mathematics software.  Creating this distribution has required the combined
+work of over 200 developers, and demands regular
+maintenance (which would be partly funded by this proposal)
+to remain up to date.  Various open source
+programs can easily be obtained as part of Sage:
 \begin{quote}
 ``I would like to thank everyone who responded to my question 
 about installing PARI on an iMAC.
@@ -32,6 +26,16 @@ N. J. A. Sloane
 (It is such a shock when things actually work!!)''
 \end{quote}
 
+The bottomline is that there are many excellent free and open-source 
+mathematics software packages out there.  However, these don’t interact well.
+Some suffer from ``not invented here'' syndrome and reinvent the wheel 
+over and over again. Many, many specialized packages are leaders in their 
+field but are not embedded in some greater framework.  This is the problem that the
+Sage project attempts  to solve: 
+\begin{quote}
+{\bf Create a unified free, open-source mathematics 
+package and  liberate the mathematical sciences}.
+\end{quote}
 
 
 \subsection{Prior Support}
