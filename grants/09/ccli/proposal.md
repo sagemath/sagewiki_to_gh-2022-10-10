@@ -2,7 +2,10 @@
 
  * [[/introduction|Introduction]]
 
- * [[/projects/notebook|Notebook Project]]
-
+ * [[/projects/notebook|The Sage Notebook]]
+ * [[/projects/subject|Subject Specific Tutorials]]
+ * [[/projects/moodle|WebWork and Moodle Integration]]
+ * [[/projects/text|Sage Enhanced Interactive Textbooks]]
+ * [[/projects/classroom|Making Sage Classroom Ready]]
 
  * [[/references|References]]
