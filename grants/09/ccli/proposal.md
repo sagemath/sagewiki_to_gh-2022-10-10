@@ -1,8 +1,7 @@
 [[http://sage.math.washington.edu:8123/|Build the PDF]]
 
-[[/introduction|Introduction]]
+ * [[/introduction|Introduction]]
 
-[[/projects/notebook|Notebook Project]]
+ * [[/projects/notebook|Notebook Project]]
 
-
-[[/references|References]]
+ * [[/references|References]]
