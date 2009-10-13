@@ -1,22 +1,70 @@
 {{{
 \section{Introduction}
 
+Stein embarked
+on a new and risky research path at Harvard in 2005, when he started
+the Sage mathematical software project, which has greatly grown since
+then.  There are now over 200 Sage
+developers, around 2,000 downloads of Sage per month, and an average
+of over 1,500 unique visitors to the \url{http://sagemath.org} website
+each day.  The \url{http://sagenb.org} online Sage website has about 15,000
+user accounts. 
 
-The goal of the Sage project is to create viable easy-to-use free open source mathematical software to support both research and  education and in mathematics, engineering and the sciences.    Success would have a
-genuinely transformational impact on the mathematical sciences, broadly impacting people 
-involved with mathematics at all levels.  It would have the potential to have a profound impact
+Sage can be used to study general and advanced, pure and applied
+mathematics. This includes a huge range of mathematics, including
+algebra, calculus, elementary to very advanced number theory,
+cryptography, numerical computation, commutative algebra, group
+theory, combinatorics, graph theory, exact linear algebra and much
+more.  Sage combines various software packages and seamlessly
+integrates their functionality into a common experience. It is well
+suited for education, studying and research.  The interface to Sage is
+a notebook in a web-browser or the command-line. 
+Inside the Sage notebook (see Figure~\ref{fig:sagenb}), you can create
+embedded graphics, beautifully typeset mathematical expressions, add
+and delete input, and share your work across the network.
+
+
+Instead of students and researchers having to pay to buy expensive
+commercial mathematical software, they now have the option to use Sage
+for free.  At many institutions, purchasing computer
+software---especially mathematical software---is a significant burden,
+and Sage has helped address this problem.  Moreover, because Sage is
+free, it is available to many more undergraduates, high school
+students, and non-mathematicians.
+
+A central technical advantage of Sage over existing mathematical
+software is that Sage uses the mainstream Python programming language.
+Because Sage is built on Python, modern exception handling and name
+spaces are inherent. Sage can be easily extended with new user-defined
+data types, and since Python is such a widely used programming
+language, there already exists a huge variety of extension modules.
+In addition, Sage uses the Cython compiler for writing extremely fast
+code. In contrast, any other major mathematics software invented its
+own language, often a slow interpreted language, so that any extension
+requires a new implementation.  And one must not forget that computer
+based research also involves non-mathematical programming, e.g.,
+create a web server to distribute the results of computations, or
+connect to an online database or web page and parse the results. By
+using Python, all this is easily done in Sage.
+
+Thus the goal of the Sage project is to create viable easy-to-use free open source mathematical software to support both research and  education and in mathematics, engineering and the sciences.    Success would have a
+genuinely transformational impact on the mathematical sciences, broadly 
+impacting people 
+involved with mathematics at all levels.  It would have the potential 
+to have a profound impact
 on how mathematics is taught and done for decades to come. 
 
-We propose five specific groups of projects in order to make major progress toward this goal:
+We propose five specific groups of projects in order to make 
+major progress toward this goal:
 
 \begin{itemize}
 \item The Sage Notebook -- improve the world's most sophisticated mathematical web application
 \item Subject Specific Tutorials -- create class-room ready targeted Sage tutorials for linear 
 algebra, calculus, differential equations, graph theory, etc., 
-\item WebWork and Moodle Integration -- 
-\item Sage Enhanced Interactive Textbooks --
-\item Making Sage Classroom Ready -- 
-
+\item WebWork and Moodle Integration -- sophisticated Sage-assisted automated homework assignments and course management
+\item Sage Enhanced Interactive Textbooks -- for abstract algebra, linear algebra, combinatorics, and calculus
+\item Making Sage Classroom Ready -- fill in every gap in functionality that instructors
+need
 \end{itemize}
 
 \subsection{What is Sage?}
