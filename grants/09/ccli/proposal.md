@@ -4,4 +4,7 @@
 
  * [[/projects/notebook|Notebook Project]]
 
+ * [[/projects/notebook|Notebook Project]]
+
+
  * [[/references|References]]
