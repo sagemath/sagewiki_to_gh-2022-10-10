@@ -2,8 +2,22 @@
 \section{Introduction}
 
 
-The goal of the Sage project is to create viable easy-to-use free open source mathematical software to support both research and  education and in mathematics, engineering and the sciences. 
+The goal of the Sage project is to create viable easy-to-use free open source mathematical software to support both research and  education and in mathematics, engineering and the sciences.    Success would have a
+genuinely transformational impact on the mathematical sciences, broadly impacting people 
+involved with mathematics at all levels.  It would have the potential to have a profound impact
+on how mathematics is taught and done for decades to come. 
 
+We propose five specific groups of projects in order to make major progress toward this goal:
+
+\begin{itemize}
+\item The Sage Notebook -- improve the world's most sophisticated mathematical web application
+\item Subject Specific Tutorials -- create class-room ready targeted Sage tutorials for linear 
+algebra, calculus, differential equations, graph theory, etc., 
+\item WebWork and Moodle Integration -- 
+\item Sage Enhanced Interactive Textbooks --
+\item Making Sage Classroom Ready -- 
+
+\end{itemize}
 
 \subsection{What is Sage?}
 Sage is a cohesive distribution of nearly 100 pieces of open source
@@ -47,7 +61,6 @@ students, and research visitors. Add more...
 
 {\bf Other Grant Applications:} xxx has also applied this year to
 the NSF COMPMATH program to fund ...
-
 
 
 
