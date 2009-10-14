@@ -4,11 +4,10 @@
 Stein embarked
 on a new and risky research path at Harvard in 2005, when he started
 the Sage mathematical software project, which has greatly grown since
-then.  There are now over 200 Sage
-developers, around 2,000 downloads of Sage per month, and an average
-of over 1,500 unique visitors to the \url{http://sagemath.org} website
-each day.  The \url{http://sagenb.org} online Sage website has about 15,000
-user accounts. 
+then.  There are now over 200 Sage developers, and last month there were
+well over 5,000 downloads of Sage, and over 75,000 visits (sessions of consecutive page views) to the \url{http://sagemath.org} website.  
+The free \url{http://sagenb.org} online Sage website has about
+15,000 user accounts. 
 
 Sage can be used to study general and advanced, pure and applied
 mathematics. This includes a huge range of mathematics, including
