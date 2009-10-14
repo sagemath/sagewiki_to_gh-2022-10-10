@@ -20,7 +20,7 @@ Robert Miller's fast C graph backends.
 
 \subsection{2d and 3d Plotting}
 
-Make 2d graphics have transformations (i.e., rotate, translate, etc.)}
+Make 2d graphics have transformations (i.e., rotate, translate, etc.)
 
 Expose matplotlib better, so we don't have to just duplicate everything that matplotlib has. 
 
