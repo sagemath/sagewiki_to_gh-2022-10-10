@@ -3,7 +3,13 @@
 {{{
 \section{Subject Specific Tutorials}
 
-We propose to create a systematic and organized collection of subject specific tutorials and interacts to include with Sage.   
+We propose to create subject specific tutorials to answer questions such as:
+
+\begin{quote}
+``What are the Sage commands you need to know in order to do multivariate calculus?''
+\end{quote}
+
+We propose to create a systematic and organized collection of subject specific tutorials and interacts to include with Sage.  
 
 [[Mention the "sage primers" education-oriented project at the Georgia Sage Days]]
 
