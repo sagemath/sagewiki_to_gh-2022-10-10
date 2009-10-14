@@ -9,14 +9,29 @@ make the Sage library of functionality fully ready for classroom use
 for undergraduate courses in linear algebra, abstract algebra,
 calculus, differential equations, number theory, and combinatorics. 
 
-\begin{verbatim}
-# Go through linear algebra; make interfaces consistent and implement anything else an undergrad course in linear algebra would need
-# Finish Robert Miller's fast C graph backends
-# Polish graphics
+\subsection{Linear Algebra}
+Go through linear algebra; make interfaces consistent and implement anything else an undergrad course in linear algebra would need
 
-    * Make 2d graphics have transformations (i.e., rotate, translate, etc.)
-    * Expose matplotlib better, so we don't have to just duplicate everything that matplotlib has. 
+\subsection{Abstract Algebra}
 
-# Polish any issues in calculus (e.g., see recent sage-devel posts about differentation) 
-\end{verbatim}
+\subsection{Graph Theory and Combinatorics}
+
+Robert Miller's fast C graph backends.
+
+\subsection{2d and 3d Plotting}
+
+Make 2d graphics have transformations (i.e., rotate, translate, etc.)}
+
+Expose matplotlib better, so we don't have to just duplicate everything that matplotlib has. 
+
+\subsection{Calculus}
+Polish any issues in calculus (e.g., see recent sage-devel posts about differentation)
+
+\subsection{Number Theory}
+
+
+\subsection{Differential Equations}
+
+
+ 
 }}}
