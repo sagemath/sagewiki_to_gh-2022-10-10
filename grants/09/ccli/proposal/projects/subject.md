@@ -3,6 +3,15 @@
 {{{
 \section{Subject Specific Tutorials}
 
-Here we describe subject specific tutorials and interacts to include with Sage. 
+We propose to create a systematic and organized collection of subject specific tutorials and interacts to include with Sage.   
+
+[[Mention the "sage primers" education-oriented project at the Georgia Sage Days]]
+
+\subsection{Included Browsable Catalog of Interacts}
+
+\subsection{Mini-grants for people to write subject-specific tutorials}
+
+[[Mini-grants for faculty to write curriculum materials (textbooks/course notes/tutorials/interacts) using Sage. Maybe a few thousand dollars each? A summer salary, or a one-course buyout for a semester?]]
+
 
 }}}
