@@ -5,7 +5,8 @@
 {{{
 \section{Dissemination Plan}
 
-[[3 pages!]]
+
+[[3 pages!
 
 The is *critical* to spend lots of time thinking and planning about. Most people don't, and it makes a huge impact on whether their grant gets funded.
 
@@ -21,5 +22,7 @@ why they'll accept you, so:
 
     * Get seven people that commit to using sage as we go along and are paid 
 honorariums to write tutorials telling how to integrate Sage into their courses. 
+]]
+
 
 }}}
