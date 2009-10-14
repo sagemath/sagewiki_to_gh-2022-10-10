@@ -13,4 +13,6 @@ Organizing Committee:
  * William Stein (chair)
 
 The meeting will be open, but funding from CMI will most likely be limited to invited participants. We may have a bit of additional funding for other participants; contact [[KiranSKedlaya|Kiran Kedlaya]].
+
+On December 5, we also plan to hold a Sage Education Day, coordinated by Karl-Dieter Crisman.
  
