@@ -9,6 +9,11 @@ make the Sage library of functionality fully ready for classroom use
 for undergraduate courses in linear algebra, abstract algebra,
 calculus, differential equations, number theory, and combinatorics. 
 
+Also, we emphasize that undergraduates will contribute directly to 
+these projects, and this has a double impact, since we are bringing 
+as many students in as possible to do development {\em while} we 
+are carrying out our project, instead of waiting until the end.
+
 \subsection{Linear Algebra}
 Go through linear algebra; make interfaces consistent and implement anything else an undergrad course in linear algebra would need
 
