@@ -15,7 +15,8 @@ as many students in as possible to do development {\em while} we
 are carrying out our project, instead of waiting until the end.
 
 \subsection{Linear Algebra}
-Go through linear algebra; make interfaces consistent and implement anything else an undergrad course in linear algebra would need
+Go through linear algebra; make interfaces consistent and implement 
+anything else an undergrad course in linear algebra would need
 
 \subsection{Abstract Algebra}
 
