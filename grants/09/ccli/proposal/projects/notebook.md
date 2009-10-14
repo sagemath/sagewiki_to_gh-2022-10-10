@@ -90,5 +90,6 @@ investment by NSF.
 
 [[See what support webwork and moodle offer for setting up campus servers---they probably have good ideas.]]
 
+[[Make it easy to register an official public (or private) sage notebook server: http://moodle.org/sites/]]
 
 }}}
