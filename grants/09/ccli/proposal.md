@@ -8,5 +8,6 @@
  * [[/projects/text|Sage Enhanced Interactive Textbooks]]
  * [[/projects/classroom|Making Sage Classroom Ready]]
  * [[/dissemination|Dissemination Plan]]
+ * [[/evaluation|Evaluation Plan]]
 
  * [[/references|References]]
