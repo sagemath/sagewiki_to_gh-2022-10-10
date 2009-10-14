@@ -66,6 +66,15 @@ algebra, calculus, differential equations, graph theory, etc.,
 need
 \end{itemize}
 
+Specific deliverables:
+\begin{itemize}
+ \item Classroom ready Sage Appliance Virtual machine
+ \item Translated versions of various appendices of books that contain code for the 4Ms to Sage; talk with author about including these in the textbooks
+ \item Online textbooks with interactive computations
+ \item A system for easily producing interactive textbooks
+ \item Webwork and Moodle integration
+\end{itemize}
+
 \subsection{What is Sage?}
 Sage is a cohesive distribution of nearly 100 pieces of open source
 mathematics software.  Creating this distribution has required the combined
