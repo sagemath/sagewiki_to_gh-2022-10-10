@@ -7,5 +7,6 @@
  * [[/projects/moodle|WebWork and Moodle Integration]]
  * [[/projects/text|Sage Enhanced Interactive Textbooks]]
  * [[/projects/classroom|Making Sage Classroom Ready]]
+ * [[/dissemination|Dissemination Plan]]
 
  * [[/references|References]]
