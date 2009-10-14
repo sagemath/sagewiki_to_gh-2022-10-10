@@ -31,6 +31,8 @@ and Sage has helped address this problem.  Moreover, because Sage is
 free, it is available to many more undergraduates, high school
 students, and non-mathematicians.
 
+Because of Sage's free and open nature, it provides a base for collaborative development of teaching resources that *all* can use.   This is particular advantageous for faculty at institutions that cannot afford commercial software packages.  In addition to being free, access to source code lets students not only experiment, but also peek under the covers at the algorithms used and contribute improvements, providing rich opportunities to develop beyond the classroom in a vibrant community of mathematicians.
+
 A central technical advantage of Sage over existing mathematical
 software is that Sage uses the mainstream Python programming language.
 Because Sage is built on Python, modern exception handling and name
@@ -46,7 +48,7 @@ create a web server to distribute the results of computations, or
 connect to an online database or web page and parse the results. By
 using Python, all this is easily done in Sage.
 
-Thus the goal of the Sage project is to create viable easy-to-use free open source mathematical software to support both research and  education and in mathematics, engineering and the sciences.    Success would have a
+Thus the goal of the Sage project is to create viable easy-to-use free open source mathematical software to support both education and research in mathematics, engineering and the sciences.    Success would have a
 genuinely transformational impact on the mathematical sciences, broadly 
 impacting people 
 involved with mathematics at all levels.  It would have the potential 
