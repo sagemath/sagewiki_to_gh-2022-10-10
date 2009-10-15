@@ -2,4 +2,6 @@
 
  * [[/introduction|Introduction]]
 
+ * [[/projects|Projects]]
+
  * [[/references|References]]
