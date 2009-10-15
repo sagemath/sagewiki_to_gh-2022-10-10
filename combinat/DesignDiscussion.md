@@ -7,3 +7,4 @@ This page is dedicated to overall design discussions. Please add new topic as yo
   * LanguagesDesign
   * CategoryFrameworkAndCleanup  
   * HeckeAlgebras
+  * MathsAuLycee
