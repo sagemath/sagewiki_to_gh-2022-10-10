@@ -204,4 +204,129 @@ mkdir -p $SAGE_ROOT/tarbox/vtk/vtkbuild; cd vtkbuild; ccmake ../VTK
 
 If ccmake doesn't exist, you probably didn't have ncurses installed.
 
-Now the fun part.  Hit 'c' to 
+Now the fun part.  Hit 'c' to get it to figure out whats going on.  It works pretty hard for a while, so it must be doing something important...
+
+The first options you want to set are in the short list presented
+ * Shared Libraries
+ * CMAKE_INSTALL_PREFIX to be $SAGE_LOCAL... but I don't know how to use environment variables in ccmake so I type the full path in
+ * use Qt
+ * wrap python
+
+Then hit 'c' again and it won't be very happy about something or other. Can't recall why, but hit 'e' and adjust
+ * use Qt version 4... it has a 0... and its not 4.5 or 4.6, its just 4
+ * turn off VTK_USE_TK (mostly because you probably don't have TK installed and probably don't want it)
+ * use system provided zlib, png, and freetype.  basically, search for zlib and the others are close... turn em on.
+
+Hit 'c' again... it'll think a bit. and "appear" happy, but its really not.  For some wacko reason, the only thing it doesn't find are the freetype headers.  Sage has em in $SAGE_LOCAL/lib/freetype2.  Again, I simply adjust manually
+
+Hit 'c' one last time and you ''hopefully'' will have the option to hit 'g' and build the makefile
+
+then its make; make install if the moon is in phase etc.
+
+== Download Mayavi2 ==
+
+{{{
+# bash script
+mkdir -p $SAGE_ROOT/tarbox/ets
+cd $SAGE_ROOT/tarbox/ets
+
+TARDIR='/home/tarbox/share2/development/sage/tarfiles'
+
+tar xf $TARDIR/configobj*.tar.*
+mv configobj* configobj
+cd configobj
+python setup.py install
+
+cd $SAGE_ROOT/tarbox/ets
+
+svn co https://svn.enthought.com/svn/enthought/ETSProjectTools/trunk ETSProjectTools
+cd ETSProjectTools
+python setup.py install
+
+cd $SAGE_ROOT/tarbox/ets
+ets co ets
+}}}
+
+the configobj thing I'm not sure about.  I think it may be already in Ubuntu or Sage... but originally I had trouble.  Quite possibly, this step can be skipped.
+
+Then, you're just grabbing the Enthought special tools and using that tool to suck everything Mayavi2 needs... which is some subset of whatever ''ets'' is defined as which, I think, is everything (I usually default to getting everything... probably compensation for other failures in life)
+
+== Build Mayavi2 ==
+
+So, I was confused about cmake.  I have no idea whatsoever whats going on with Enthoughts build stuff.  I looked around and punted even though I think its supposed to all work.  And they're pretty smart guys... but whatever.  If you can figure out how to use ''ets'' to build things, let me know... here's what I do
+
+{{{
+# bash script
+TARBOX_ETS=$SAGE_ROOT/tarbox/ets/ETS_*
+
+echo "$TARBOX_ETS/Traits_*"
+cd $TARBOX_ETS/Traits_*
+echo building Traits
+python setup.py clean
+python setup.py install
+
+echo "$TARBOX_ETS/EnthougtBase_*"
+cd $TARBOX_ETS/EnthoughtBase_*
+echo building EnthoughtBase
+python setup.py clean
+python setup.py install
+
+cd $TARBOX_ETS/TraitsGUI_*
+echo building TraitsGUI
+python setup.py clean
+python setup.py install
+
+cd $TARBOX_ETS/TraitsBackendQt_*
+echo building TraitsBackendQt
+python setup.py clean
+python setup.py install
+
+cd $TARBOX_ETS/AppTools_*
+echo building AppTools
+python setup.py clean
+python setup.py install
+
+cd $TARBOX_ETS/EnvisageCore_*
+echo building EnvisageCore
+python setup.py clean
+python setup.py install
+
+cd $TARBOX_ETS/EnvisagePlugins_*
+echo building EnvisagePlugins
+python setup.py clean
+python setup.py install
+
+cd $TARBOX_ETS/Mayavi_*
+echo building Mayavi
+python setup.py clean
+python setup.py install
+}}}
+
+I have the clean statements in there because I can rebuild easily.  They just waste cycles the first time you build.  Obviously, the dependencies are somewhere inside the magical ''ets'' which you can try and make work I guess.
+
+== Test Everything ==
+
+My standard test to see if things worked is:
+
+{{{
+ipython -pylab -q4thread
+}}}
+
+and I paste the demo from the Mayavi2 documentation into ipython
+
+{{{
+from numpy import pi, sin, cos, mgrid
+dphi, dtheta = pi/250.0, pi/250.0
+[phi,theta] = mgrid[0:pi+dphi*1.5:dphi,0:2*pi+dtheta*1.5:dtheta]
+m0 = 4; m1 = 3; m2 = 2; m3 = 3; m4 = 6; m5 = 2; m6 = 6; m7 = 4;
+r = sin(m0*phi)**m1 + cos(m2*phi)**m3 + sin(m4*theta)**m5 + cos(m6*theta)**m7
+x = r*sin(phi)*cos(theta)
+y = r*cos(phi)
+z = r*sin(phi)*sin(theta)
+
+# View it.
+from enthought.mayavi import mlab
+s = mlab.mesh(x, y, z)
+}}}
+
+You'll know real quick like if things are working.
