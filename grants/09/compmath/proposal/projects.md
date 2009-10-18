@@ -649,6 +649,32 @@ functions to Sage)
 \subsubsection{People} [[List of names]]
 
 
+\subsection{Sage Days: Linear Algebra}
+
+\subsubsection{Background}
+Many problems in mathematics can be expressed with the language of vectors and linear transformations (matrices).  Thus many areas of Sage rely on high-performace routines for solving equations, creating canonical bases, inverting matrices, in addition to computing determinants and eigenvalues.  Areas relevant to other proposed workshops include coding theory, optimization, numerical computation.  There are efficient routines for many of these computations, over a variety of rings and fields.  Despite the maturity of Sage's support for linear algebra, there is more work to do:  new routines to add, specialized versions of existing routines to implement (over different rings), speed improvements to existing routines and organizing commands to improve ease-of-use.  Improvements in the linear algebra routines will strengthen Sage throughout.
+
+\subsubsection{The Workshop}
+At a Sage Days workshop on linear algebra, we would attack the following problems:
+\begin{enumerate}
+\item \emph{Add and improve matrix decompositions} such as LU, Cholesky, Jordan.  Some of these could be improved, others could be expanded to more rings or fields, and others would be new.
+
+\item \emp{Create specialized routines} for existing commands over specific fields or rings. Some linear algebra routines have generic implementations, which could be made much faster in some situations if they exploit knowlege or libraries for specific rings or fields (such as the rationals or integers).
+
+\item Where \emph{specialized libraries} can provide the fastest possible routines, provide an interface from within Sage.
+
+\item Where \emph{Cython code} can provide faster routines, remove dependence on specialized libraries.
+
+\item \emph{Widen support for left- and right- variants} of various commands.  In other words, better support the two views of a matrix:  a collection of row vectors, or a collection of column vectors.  Currently Sage has a bias towards rows (vectors on left of a matrix) which some users find unnatural.
+
+\item \emp{Improve support for numpy data types}.  numpy is a popular Python package for computations with mult-dimensional arrays.  Currently it is awkward to move between numpy's data representations and Sage's.
+
+\item There are about 90 open linear algebra tickets to mine for more ideas\dots
+
+\end{enumerate}
+
+\subsubsection{People}  Rob Beezer, Jason Grout (?), [[other people]]
+
 \subsection{Sage Bug Days}
 
 \subsubsection{Background}
