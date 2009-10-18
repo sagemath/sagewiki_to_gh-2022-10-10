@@ -626,7 +626,7 @@ following problems:
 \subsubsection{The Workshop}
 
 \begin{enumerate}
-\item a fast minimum_distance for an arbitrary non-binary code (minimum distance of
+\item a fast minimum\_distance for an arbitrary non-binary code (minimum distance of
 linear binary codes can be computed very quickly thanks to code by
 Robert Miller)
 
