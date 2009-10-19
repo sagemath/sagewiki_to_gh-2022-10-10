@@ -15,19 +15,26 @@ Each of the textbooks below is licensed with a GNU Free Documentation Licenses (
 
 \begin{enumerate}
 
-\item {\sl A First Course in Linear Algebra}, Robert Beezer, \url{http://linear.pugetsound.edu/}.  Second-year university level text, concentrating on understanding how to understand and formulate proofs.  Used at thirteen schools since Fall~2007.  Contains some Sage commands.
+\item {\sl A First Course in Linear Algebra}, Robert Beezer, \url{http://linear.pugetsound.edu/}.\\
+Second-year university level text, concentrating on understanding how to understand and formulate proofs.  Used at thirteen schools since Fall~2007.  Contains some Sage commands.
 
-\item {\sl Abstract Algebra: Theory and Applications}, Tom Judson, \url{http://abstract.ups.edu/}.  Standard upper-division treatment of groups, rings, domains, fields, Galois Theory.  Published commercially in 1992, released as open source in 2007.  Used by seven schools in its first year available.  Supplement describes group theory in Sage.
+\item {\sl Abstract Algebra: Theory and Applications}, Tom Judson, \url{http://abstract.ups.edu/}.\\
+Standard upper-division treatment of groups, rings, domains, fields, Galois Theory.  Published commercially in 1992, released as open source in 2007.  Used by seven schools in its first year available.  Supplement describes group theory in Sage.
 
-\item {\sl Combinatorics Through Guided Discovery}, Kenneth Bogart, \url{http://www.math.dartmouth.edu/news-resources/electronic/kpbogart/}.  Problem book in combinatorics with roughly 400 problems designed to teach the subject.  NSF funded, released as open source.
+\item {\sl Combinatorics Through Guided Discovery}, Kenneth Bogart, \url{http://www.math.dartmouth.edu/news-resources/electronic/kpbogart/}.\\
+Problem book in combinatorics with roughly 400 problems designed to teach the subject.  NSF funded, released as open source.
 
-\item {\sl Elementary Number Theory: Primes, Congruences, and Secrets}, William Stein, \url{http://wstein.org/ent/}.  Published by Springer-Verlag, will be available with open license in [[Month~Year????]].  [[Add capsule summary]]  [[Add extent of Sage usage (massive?)]]  [[Open license consistent with paragraph above?]]
+\item {\sl Elementary Number Theory: Primes, Congruences, and Secrets}, William Stein, \url{http://wstein.org/ent/}.\\
+Published by Springer-Verlag, will be available with open license in [[Month~Year????]].  [[Add capsule summary]]  [[Add extent of Sage usage (massive?)]]  [[Open license consistent with paragraph above?]]
 
-\item {\sl Vector Calculus}, Michael Corral, \url{http://www.mecmath.net/}.  Standard treatment of multivariate calculus: vector calculus, partial derivatives, multiple integrals, theorems of Green and Stokes.  Impressive graphics.
+\item {\sl Vector Calculus}, Michael Corral, \url{http://www.mecmath.net/}.\\
+Standard treatment of multivariate calculus: vector calculus, partial derivatives, multiple integrals, theorems of Green and Stokes.  Impressive graphics.
 
-{\sl Trigonometry}, Michael Corral, \url{http://mecmath.net/trig/}.  An in-depth, comprehensive and unified treatment of the typical high-school topics.  Impressive graphics.
+\item {\sl Trigonometry}, Michael Corral, \url{http://mecmath.net/trig/}.\\
+An in-depth, comprehensive and unified treatment of the typical high-school topics.  Impressive graphics.
 
-{\sl Cryptography}, David Kohel, \url{http://echidna.maths.usyd.edu.au/~kohel/tch/Crypto/crypto.pdf}.  Classical ciphers and their cryptanalysis, modern stream ciphers and public-key cryptography.  Significant appendices on Sage.
+\item {\sl Cryptography}, David Kohel, \url{http://echidna.maths.usyd.edu.au/~kohel/tch/Crypto/crypto.pdf}.\\
+Classical ciphers and their cryptanalysis, modern stream ciphers and public-key cryptography.  Significant appendices on Sage.
 
 \end{enumerate}    
 
