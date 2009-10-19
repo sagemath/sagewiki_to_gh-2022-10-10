@@ -449,21 +449,21 @@ Implement native {\em statistics} functionality in Sage,
 Most Engineers use Matlab and they don't know remember what a Ring and
 a Field are.  They would not find the normal Sage Tutorial attractive
 because of the use those terms. However, Sage contains powerful
-packages that Engineers, Physicist, and Scientist would find very
-attractive if they where aware that Sage contains:
+packages that Engineers, Physicist, and Scientists would find very
+attractive if they were aware that Sage contains:
 
 \begin{itemize}
 \item  Most numerical packages they want (Numpy, Scipy, FFT ect).
-\item Already contains 2D and 3D plotting packages some with the same interface as Matlab
+\item 2D and 3D plotting packages some with the same interface as Matlab
 \item Symbolic Algebra for both Calculus and Linear Algebra
-\item Contains the Python as basis
-\item Contains Cython, a built in C compiler, which gives them "C" speeds for numerical calculations
+\item Python as basis
+\item Cython, a built in C compiler, which gives them "C" speeds for numerical calculations
 \item  Image processing
 \item Python access to html information (the financial package is an example).
 \item Access to TCP/IP through Python, which could also be used to interact with experimental systems
 \item Statistic and random variable functions for most distributions used in Engineering.
 \item numerical differential equations solvers
-\item latex for displaying Mathematics expressions
+\item Latex for displaying Mathematics expressions
 \item signal processing packages
 \item Sage is free
 \end{itemize}
@@ -473,15 +473,15 @@ user.  One of the objectives of Sage is to be an alternative to
 Matlab, so we need a tutorial, and literature attractive to them.  In
 recent years many Physics and Engineering departments now use Python
 for class programming.  MIT moved from using Scheme to Python three or
-four years ago, as but one example. Also, in the past year, many
-Silicon Valley Companies are now using Python.  Sage seems like it is
+four years ago, as one example. Also, in the past year, many
+Silicon Valley companies are now using Python.  Sage seems like it is
 the next logical step for them since it comes prepackaged with all the
 items listed above.
  
 \subsubsection{The Workshop}
 One of the objectives of the Sage days would be to produce a series of
-videos, work sheets, and a tutorials aimed at being user friendly to
-Engineers, Physicists, and Scientist. This would give a quick
+videos, worksheets, and tutorials aimed at being user friendly to
+Engineers, Physicists, and Scientists. This would give a quick
 introduction to the tools they use and leave out all the wonderful
 mathematics they normally don't use.
  
