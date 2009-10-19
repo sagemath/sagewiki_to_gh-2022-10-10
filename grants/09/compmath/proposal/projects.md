@@ -605,20 +605,110 @@ following problems:
 
 \subsubsection{People} [[List of names]]
 
+\subsection{Sage Days: Symbolic Computation}
 
-\subsection{Sage Days: Symbolic Calculus}
+{\em Symbolic computation} is the collection of exact methods used to
+perform basic tasks in engineering, physics, etc., which includes
+applications such as symbolic integration and solving differential and
+difference equations.  We divide the relevant topics into three areas:
+\begin{itemize}
+\item {\em Differential / difference algebra:} for indefinite
+  integration/summation and differential/difference solvers
+\item {\em Transforms and definite integration:} Mostly table lookup and
+  pattern matching based approaches to evaluating transforming
+  integrals/special functions
+\item {\em Fundamental algorithms:} Basic computer algebra methods
+  required to implement the algorithms above efficiently.  These
+  include multivariate polynomial factorization, sparse multivariate
+  polynomial interpolation (Erich Kaltofen, Wen Shin Lee), and exact
+  linear algebra over multivariate polynomial rings.
+\end{itemize}
 
-\subsubsection{The Workshop}
-At a Sage Days workshop on symbolic calculus, we would attack the
-following problems:
 
+\subsubsection{A Workshop on Difference/Differential Algebra}
+[[Here are William Sit's comments about computational differential
+algebra/Sage/Axiom from sage-devel:
+
+\url{http://www.mail-archive.com/sage-support@googlegroups.com/msg13097.html}
+
+Bronstein's \verb|Sum^it| library provides implementations of some of the
+fundamental algorithms we should try to get in Sage:
+
+\url{http://www-sop.inria.fr/cafe/Manuel.Bronstein/sumit/sumit.html}
+]]
+
+[[We can contact Michel Singer and
+ask for help adding mathematical content below. 
+AFAIK, other names I wrote below, van Hoeij and Abramov work with Maple.]]
+
+Burcin Erocal has implemented special classes of difference fields,
+called Pi-Sigma fields (by Michael Karr), as a part of his summation
+code. He's planning to implement generic difference/differential
+rings/fields and operators in the near future.
+
+A theoretical framework for investigating solutions of
+differential/difference equations is provided by
+differential/difference algebra.  At the moment, Sage doesn't have any
+facilities for working with differential/difference
+fields/rings/ideals, etc.  An implementation of the basic structures
+required here would pave the way to a proper implementation of the
+Risch and Karr algorithms for indefinite integration and summation
+respectively, as well as providing a basis for research in Galois
+theory of differential and difference equations, which forms the
+foundation for algorithms to deal with higher order equations.
+
+ The goals of a workshop in this area would be:
 \begin{enumerate}
+\item Provide support for working with differential/difference
+  rings/fields and their operator domains. Singular let's us do this
+  for polynomial rings.  In order to handle denominators in the user
+  interface, one could use Pynac, and pass the harder problems, such as
+  computing normal forms w.r.t. an ideal to Singular after clearing
+  denominators.
 
-\item
+\item Implement the Risch-Norman (parallel integration) algorithm \cite{[B2007]}
 
+ \item Implement recent algorithms by Abramov, van Hoeij, Hendriks-Singer to find
+  Liouvillian solutions of difference/differential equations
+\cite{[B2007]} \url{http://dx.doi.org/10.1016/j.jsc.2007.04.003}
 \end{enumerate}
-\subsubsection{People} [[List of names]]
 
+\subsubsection{People} 
+Michael Singer, Mark van Hoeij, Sergei Abramov, Burcin Erocal
+
+
+\subsubsection{A Workshop on Integral Transforms and Definite Integration}
+
+Important cases of definite integration in computer algebra systems are
+handled through applying some integral transforms (such as the Mellin
+transform) to convert the integral to a contour integral which can
+also be expressed as a well known special function (hypergeometric, or
+Meijer-G), then using properties of this special function to arrive at
+an evaluation.  While these methods have been implemented, and used in
+practice by closed source systems such as Mathematica and Maple,
+literature on how to correctly apply these methods to get practical
+results is still scarce.  Sage has an efficient framework based on the
+symbolic computation library GiNaC to represent these functions, and
+perform pattern matching operations. This provides the basic building
+block to implement the required transforms (both integral and
+hypergeometric).
+
+Goals for a workshop:
+\begin{enumerate}
+ \item Implement a construct for hypergeometric functions
+\item Recognition of hypergeometric functions, and conversion to
+  a standard representation (pFq)
+\item Build lookup tables for well known transforms, including hypergeometric.
+and integral (Mellin, Hilbert, Laplace, etc.). 
+\end{enumerate}
+
+References: See \url{http://wiki.sagemath.org/symbolics}, 
+\url{http://www.mat.univie.ac.at/~kratt/hyp_hypq/hyp.html},
+\url{http://www-igm.univ-mlv.fr/~gauthier/HYPERG.html}.
+
+\subsubsection{People} 
+Burcin Erocal, 
+Peter Paule, Victor Moll, Victor Adamchik (see \url{http://www-2.cs.cmu.edu/~adamchik/}).
 
 \subsection{Sage Days: Coding Theory}
 \subsubsection{Background}
