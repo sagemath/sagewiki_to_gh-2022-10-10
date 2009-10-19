@@ -2,12 +2,15 @@
 {{{
 \section{Sage-Enhanced Interactive Textbooks}
 
+\subsection{Creating Sage Notebooks from \LaTeX\ or Sphinx sources}
 
-\subsection{Creating worksheet collections from Latex or Sphinx source files}
+Many mathematicians and scientists use the \LaTeX\ language to create technical articles and books.  As a result, there is an impressive array of extensions to \LaTeX.  Sage also includes  extensive support for \LaTeX, through every mathematical object having a \LaTeX\ representation, and the use of jsMath to render mathematics beautifully in a Sage worksheet (within a standard web browser).  Furthermore, the Sage notebook interface allows a user to add new text, including \LaTeX\ code for mathematics.
 
-Describe plane to finish Rob Beezer's system for easily creating worksheets from textbook source files.
-Also, plan for bundling a collection of worksheets into a more high-level document (basically a packaged
-version of the Sphinx documentation). 
+This project proposes to convert open-source textbooks into folders of interactive Sage worksheets, or to create Sage-enhanced supplements for existing open-source textbooks.  A Sage worksheet is a combination of input and output cells, optionally with text (HTML) inbetween.  The tex4ht translator (an NSF funded project) can convert extremely complex \LaTeX\ into jsMath, which can be converted to the Sage worsheet format with extremely minimal modifications.  It is possible to insert Sage code into a \LaTeX\ source file, and have it migrate to the eventual Sage worksheet as an input cell.  A pilot project, a fourteen page primer on group theory designed to accompany Judson's abstract algebra text, clearly shows the feasibility of this process and clearly identifies the technical changes needed to make the process routine for an author.
+
+The end result is a folder of Sage worksheets, each a mixture of text, high-quality typeset mathematics, Sage input cells and Sage interactive demonstrations.  Imagine a calculus lesson on Taylor polynomials as a Sage worksheet in a folder that comprises a calculus textbook.  Sage input cells would instruct the reader on the relevant Sage syntax, and provide the reader the opportunity to edit the input to experiment with different functions and different degree polynomials.  An included interactive Sage demonstration could use a slider to control the degree of the polynomial, and an input box would allow the student to specify an input where the function and the poynomial could be compared numerically.  On each change to the two inputs the demonstration would automatically respond with a new plot of the function and the polynomial, indicating visually the location of the input value on the two curves, along with the two numerical values at the input, plus the numerical difference between the values.  By opening up the mini-word-processor built into Sage, a student can annotate a copy of their text alongside the demonstration, recording their observations or questions, using \LaTeX\ code to create the mathematical expressions accurately in their notes.
+
+[[Also, the plan for bundling a collection of worksheets into a more high-level document (basically a packaged version of the Sphinx documentation).]]
 
 \subsection{Candidate Open-Source Textbooks for Conversion or Supplements}
 
@@ -36,30 +39,34 @@ An in-depth, comprehensive and unified treatment of the typical high-school topi
 \item {\sl Cryptography}, David Kohel, \url{http://echidna.maths.usyd.edu.au/~kohel/tch/Crypto/crypto.pdf}.\\
 Classical ciphers and their cryptanalysis, modern stream ciphers and public-key cryptography.  Significant appendices on Sage.
 
-\end{enumerate}    
+\end{enumerate}
 
 \subsection{Translation to Sage of Mathematica, Matlab, and Maple code for existing books}
 
+[[RAB: This will be "by hand"?  Don't imagine it can be automated?]]
 
 \subsection{Building a Textbook Community}
 
-We propose getting a community of people writing textbooks or course notes using 
-Sage and converting them to folders of worksheets.
+Several successful conversions or supplements will demonstrate the range of possibilities and allow the necessary experience to design an automated conversion and production system.  This will allow other authors to easily parlay just a working knowledge of \LaTeX\ to the ability to create folders of interactive Sage enhanced worksheets.  Workshops and grants can help and encourage other authors to learn the technical skills, and the possibilities afforded by this new approach, while creating or converting their own textbooks or supplements.
 
-    * Sponsor a workshop on this (via AIM?)
-
-    * Sponsor Joint Meetings workshop/Mathfest workshop on this
-
-    * Mini-grants for people to convert textbooks and course notes to Sage
-
-    * Mini-grants for people to write course materials for Sage (e.g., interacts) 
+This could be accomplished through
+\begin{itemize}
+\item A workshop sponsored by AIM.
+\item A SageDays devoted to textbook conversion and supplement creation.
+\item A mini-course at the Joint Meetings or MathFest.
+\item Mini-grants for people to convert textbooks and course notes to Sage
+\item Mini-grants for people to write course materials for Sage, such as interactive demonstrations (``interacts'').
+\end{itemize}
 
 \subsection{Summer Workshops}
+
+[[RAB: could this be merged with the above list?]]
 
 Summer workshops for each year after the first for faculty to write curriculum materials using Sage, i.e., Sage EduDays :)
 
     * Regional workshops--there are a lot of smaller schools in Iowa, for example. It might be viable to invite people from smaller schools in the area. Also, there are lots of faculty in universities in the Southeast U.S. from schools with large minority populations that were exposed to Sage at AIM; maybe a regional conference there would be a big hit.
 
-    *      National workshops (via AIM, if appropriate?)--invite people from all over 
+    *      National workshops (via AIM, if appropriate?)--invite people from all over
+
 
 }}}
