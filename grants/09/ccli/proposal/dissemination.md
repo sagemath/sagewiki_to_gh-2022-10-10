@@ -17,6 +17,8 @@ why they'll accept you, so:
     * put website into math dl
 
     * PREP proposals
+   
+    * workshops to help authors retrofit open source textbooks with Sage, or help open textbook authors initiate new books, with the goal being similar interactive Sage-enhanced textbooks
 
     * workshop proposals that may be included in the budget.
 
