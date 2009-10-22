@@ -24,6 +24,61 @@
 
  * Division of work for now:
     * The Sage Notebook: william (code), jason (code);  rob (test), kiran (test)
-    * Subject specific tutorials: rob (writing), jason (reviewer)
-    * Webwork and Moodle Integration: jason -- we shouldn't do this yet.  huge area. 
-    * 
+    * Subject specific curriculum materials: rob (writing), jason (reviewer)
+    * Webwork and Moodle Integration: jason -- we shouldn't do this yet.  huge area.; future direction
+    * Sage Enhanced Interactive Textbooks: rob (code/write), william (code/write), tom (writing), kiran (writing); jason (code/review)
+    * Making Sage Classroom Ready: jason (code), william (code), tom (support)
+    * Dissemenation Plan: tom (ideas), jason
+    * Evaluation Plan: tom (ideas), jason
+
+   David's job: make sure this is exciting!
+
+ * Subgroups -- use the sage-grants mailing list. 
+
+ * Deliverable: 
+    * Timeline with 3-4 things we should do each year: "work on my book, work on my book, work on my book"
+
+ * David Farmer:
+
+    * A bunch of anecdotes from different perspectives.  Nice stories
+      and how to use them.  This is PERFECT for helping people understand and be convinced of the proposal. 
+
+    * This was a good example: Rob's example: "Imagine a calculus
+      lesson on Taylor polynomials as a Sage worksheet in a folder
+      that comprises a calculus textbook. Sage input cells would
+      instruct the reader on the relevant Sage syntax, and provide the
+      reader the opportunity to edit the input to experiment with
+      different functions and different degree polynomials. An
+      included interactive Sage demonstration could use a slider to
+      control the degree of the polynomial, and an input box would
+      allow the student to specify an input where the function and the
+      poynomial could be compared numerically. On each change to the
+      two inputs the demonstration would automatically respond with a
+      new plot of the function and the polynomial, indicating visually
+      the location of the input value on the two curves, along with
+      the two numerical values at the input, plus the numerical
+      difference between the values. By opening up the
+      mini-word-processor built into Sage, a student can annotate a
+      copy of their text alongside the demonstration, recording their
+      observations or questions, using LATEX code to create the
+      mathematical expressions accurately in their notes."
+      Rob: write more!!
+
+    * Textbook adopter, textbook author, student, etc., etc., make
+      sure we represent every single perspective.
+
+  * Reluctance to use Sage because of lack of startup time.  Creating
+    materials that make the adoption hurdle 0.  Picture senior person 
+    who if they can turn on the projector and be off working on this 
+    with no trouble.
+
+  * Textbooks, worksheets, "things in the can that are really obvious
+    and make sense". Subject specific tutorials -- as broad or narrow
+    as appropriate.   
+
+  * Rob: discussion on material 
+  
+  * William/Jason: Interface to browse thousands of finely tuned easy
+    to user interactive classroom demonstrations.
+
+  * Reco letter writers...
