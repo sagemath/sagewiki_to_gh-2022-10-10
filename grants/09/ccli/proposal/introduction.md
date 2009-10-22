@@ -63,7 +63,7 @@ major progress toward this goal:
 \item Subject Specific Tutorials -- create class-room ready targeted Sage tutorials for linear 
 algebra, calculus, differential equations, graph theory, etc., 
 \item WebWork and Moodle Integration -- sophisticated Sage-assisted automated homework assignments and course management
-\item Sage Enhanced Interactive Textbooks -- for abstract algebra, linear algebra, combinatorics, and calculus
+\item Sage Enhanced Interactive Textbooks -- for abstract algebra, linear algebra, abstract algebra, combinatorics, and calculus
 \item Making Sage Classroom Ready -- fill in every gap in functionality that instructors
 need
 \end{itemize}
@@ -116,6 +116,8 @@ The PI's have used his startup money at UC San Diego and University of Washingto
 his NSF grants (DMS-0555776, [[add more]]), and the UW's NSF VIGRE grant to
 support xxx Sage workshops, xxx undergraduate employees, four graduate 
 students, and research visitors. Add more...
+
+[[RAB: Do we want to mention NSF-funded projects that Sage uses, or are part of this proposal?  For example - the tex4ht Latex->jsMath translator is an NSF project.  Is it important that we are building upon, extending the usefullness, etc of other supported initiatives?]]
 
 {\bf Other Grant Applications:} xxx has also applied this year to
 the NSF COMPMATH program to fund ...
