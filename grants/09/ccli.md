@@ -16,7 +16,7 @@ Literate programming example - [[http://orion.math.iastate.edu/grout/_media/conf
 
 [[/proposal|The Proposal]]
 
-= Next Conference call: Thu 22 Oct 2009, 10:30AM Pacific Time =
+= Next Conference call: Thu 29 Oct 2009, 10:30AM Pacific Time =
 Dial:  866 589 0901, passcode:  8227893#
 
 [[/ConferenceCall/18Aug|18 Aug Conference Call]]
