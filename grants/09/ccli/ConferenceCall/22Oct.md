@@ -11,6 +11,8 @@
 
  * William describes the wiki.
 
+ * Jason: the section-editing patch might make it easier to edit smaller sections of text: [[http://moinmo.in/ExtensionProposals/SectionEditing]]
+
  * Make sure to explain super clearly why this is a CCLI *type 2*.
 
  * Dan Maki -- Rob and Jason will contact him.   Program officer with MSP. 
