@@ -4,7 +4,7 @@
 
  * Make sure to explain super clearly why this is a CCLI *type 2*.
 
- * Dan Maki -- Jason will contact him.   Program officer with MSP. 
+ * Dan Maki -- Rob and Jason will contact him.   Program officer with MSP. 
 
  * Get it into schools. Evaluate effectiveness. 
    
@@ -36,12 +36,12 @@
  * Subgroups -- use the sage-grants mailing list. 
 
  * Deliverable: 
-    * Timeline with 3-4 things we should do each year: "work on my book, work on my book, work on my book"
+    * Timeline with 3-4 things we should do each year: could be "work on my book, work on my book, work on my book"
 
  * David Farmer:
 
-    * A bunch of anecdotes from different perspectives.  Nice stories
-      and how to use them.  This is PERFECT for helping people understand and be convinced of the proposal. 
+    * A bunch of vivid anecdotes from different perspectives.  Nice stories
+      and how to use them.  This is PERFECT for helping people understand and be convinced of the proposal.
 
     * This was a good example: Rob's example: "Imagine a calculus
       lesson on Taylor polynomials as a Sage worksheet in a folder
@@ -78,7 +78,6 @@
 
   * Rob: discussion on material 
   
-  * William/Jason: Interface to browse thousands of finely tuned easy
-    to user interactive classroom demonstrations.
+  * William/Jason: Interface to browse thousands of finely-tuned easy-to-use interactive classroom demonstrations.
 
-  * Reco letter writers...
+  * Recommendation letter writers...
