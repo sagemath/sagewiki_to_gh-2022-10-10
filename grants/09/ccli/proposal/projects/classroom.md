@@ -29,7 +29,7 @@ Finally fix echelon/hermite form over ZZ/QQ
   \item all subgroups, all normal subgroups (normal may be implemented already)
   \item groups defined by presentations (wrap GAP support?)
   \item perhaps new things are possible with libGAP?
-  \item [[RAB: I'll teach rings, fields, etc with Sage in the spring for the first time.  I'm assuming irreducible polynomials over QQ and field extensions (towers) are well-implemented?  Galois groups too?  I'll try to look this over.]]
+  \item[\ ] [[RAB: I'll teach rings, fields, etc with Sage in the spring for the first time.  I'm assuming irreducible polynomials over QQ and field extensions (towers) are well-implemented?  Galois groups too?  I'll try to look this over.]]
   \end{itemize}
 
 \subsection{Graph Theory and Combinatorics}
