@@ -9,7 +9,7 @@ William Stein et al., Sage Mathematics Software (Version 3.4),
  . where you should change the version number and the year to reflect the version of Sage that you used for the publication. To reference Sage using Bibtex, use:
 {{{
 @manual{sage,
-       Key = {SAGE},
+       Key = {Sage},
        Author = {W.\thinspace{}A. Stein and others},
        Organization = {The Sage~Development Team},
        Title = {{S}age {M}athematics {S}oftware ({V}ersion 3.3)},
