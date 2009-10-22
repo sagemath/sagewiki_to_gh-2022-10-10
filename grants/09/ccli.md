@@ -8,6 +8,10 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 [[http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html|CCLI Solicitation]]
 
+= Conference Call =
+
+Literate programming example - [[http://orion.math.iastate.edu/grout/_media/conferences/msri-2002/perfect-sequences.pdf?id=conferences&cache=cache]]
+
 = The Actual Proposal =
 
 [[/proposal|The Proposal]]
