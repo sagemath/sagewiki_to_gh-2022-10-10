@@ -1,5 +1,14 @@
 = October 22 =
 
+== Assignments ==
+ * Discuss in groups (using the sage-grants mailing list) a plan for specific sub-projects, and come up with a timeline of several things to do each year.
+
+ * Come up stories of how to use Sage (vivid illustrations) from various perspectives (e.g., book-writer, teacher, student, etc.)
+ 
+ * Think of people to write recommendation letters
+
+== Conversation Notes ==
+
  * William describes the wiki.
 
  * Make sure to explain super clearly why this is a CCLI *type 2*.
