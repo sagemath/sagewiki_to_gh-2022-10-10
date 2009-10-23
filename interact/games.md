@@ -74,12 +74,15 @@ def move_nim(heap_sizes):
     return (heap,amount)
 }}}
 {{{
-nim=[1,3,5,7]
+nim=[1,3,5,6]
 @interact
-def _(heap=input_box(default=1), amount=input_box(default=0), auto_update=False ):
+def _(heap=selector(range(len(nim)), buttons=True),
+      amount=selector(range(max(nim)+1), buttons=True),
+      auto_update=False):
     global nim
     if max(nim)==0:
         print 'You have lost'
+        return
     else:
         print 'Try to take the last item'
     if heap>=0 and 0<amount<=nim[heap]:
@@ -89,17 +92,25 @@ def _(heap=input_box(default=1), amount=input_box(default=0), auto_update=False 
         nim[heap]-=amount
         print 'Your move:'
         print game_repr(nim)
+        if max(nim)==0:
+            print 'You win'
+            return
         
         print 'My move:'
         try:
             myheap,myamount=move_nim(nim)
         except:
             #cannot win, choose arbitrarily
-            myheap=min(heap_number for heap_number, heap_size in enumerate(heap_size) if heap_size>0)
+            myheap=min(heap_number for heap_number, heap_size in enumerate(nim) if heap_size>0)
+            myamount=1
         nim[myheap]-=myamount
         print game_repr(nim)
+        if max(nim)==0:
+            print 'I win'
+        else:
+            print 'Please move again'
     else:
-        print 'Please choose a heap and the amount to substract from that heap'
+        print 'Choose a heap and the amount to substract from that heap'
         print game_repr(nim)
 }}}
 {{attachment:nim.png}}
