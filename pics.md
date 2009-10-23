@@ -2,6 +2,9 @@
 
 These pictures and images were drawn by [[http://www.sagemath.org|Sage]].
 
+<<TableOfContents>>
+
+=== Everywhere continuous, nowhere differentiable function ===
  * Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway):
 {{{#!python numbers=none
 p = Graphics()
@@ -530,7 +533,7 @@ animation.show(delay=animation_delay)
 #     animation = animate(frames)
 }}}
 
-== The witch of Maria Agnesi ==
+=== The witch of Maria Agnesi ===
 by Marshall Hampton
 
 {{{#!python numbers=none
@@ -569,7 +572,7 @@ a2.show()
 
 {{attachment:witch.gif}}
 
-== p-adic Seasons Greetings ==
+=== p-adic Seasons Greetings ===
 
  * I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings:
 
@@ -713,6 +716,8 @@ for i in range(N):
 matrix_plot(m)
 
 }}}
+
+=== Sierpinski triangle ===
 
  * This was a black+white Sierpinski triangle coded by Marshall Hampton, with some slight tweeking by David Joyner to add colors:
 
