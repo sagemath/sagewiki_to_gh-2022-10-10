@@ -644,7 +644,7 @@ def butterfly3d():
 
 {{http://sage.math.washington.edu/home/wdj/art/butterfly3d.png}}
 
-=== "three famous plots of chaos" by Pablo Angulo ===
+=== Three famous plots of chaos ===
 {{{#!python numbers=off
 # Author: Pablo Angulo
 
@@ -716,6 +716,9 @@ for i in range(N):
 matrix_plot(m)
 
 }}}
+{{attachment:feigenbaum.png}}
+{{attachment:mandelbrot1.png}}
+
 
 === Sierpinski triangle ===
 
