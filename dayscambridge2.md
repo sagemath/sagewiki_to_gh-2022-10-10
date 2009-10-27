@@ -10,6 +10,10 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 
  Location: Clay Mathematics Institute (Cambridge, MA)
 
+== Mailing List ==
+
+ http://groups.google.com/group/sageday18
+
 
 == Organizing Committee ==
  * Craig Citro
