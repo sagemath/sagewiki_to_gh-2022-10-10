@@ -1,12 +1,16 @@
 = Sage Days 18: Cambridge, MA =
 
-Dates: December 1-5, 2009
+''Computations related to the Birch-Swinnerton-Dyer Conjecture''
 
-Location: Clay Mathematics Institute (Cambridge, MA)
 
-Topic: Computations related to the Birch-Swinnerton-Dyer Conjecture
+== Coordinates ==
+  
+ Date: December 1-5, 2009
 
-Organizing Committee:
+ Location: Clay Mathematics Institute (Cambridge, MA)
+
+
+== Organizing Committee ==
  * Craig Citro
  * Kiran Kedlaya
  * Barry Mazur
@@ -16,3 +20,33 @@ The meeting will be open, but funding from CMI will most likely be limited to in
 
 On December 5, we also plan to hold a Sage Education Day, coordinated by Karl-Dieter Crisman.
  
+== Registered Participants ==
+
+  *Kiran Kedlaya
+  *William Stein
+  *Karl Rubin
+  *Ken Ribet
+  *Matt Greenberg
+  *David Harvey
+  *Jared Weinstein
+  *Mirela Ciperiani
+  *Salman Baig
+  *Robert Bradshaw
+  *Robert Miller
+  *Dimitar Jetchev
+  *Victor Miller
+  *Cameron Franc
+  *John Tate
+  *Robert Pollack
+  *Noam Elkies
+  *Bjorn Poonen
+  *Glenn Stevens
+  *Richard Taylor
+  *Dick Gross
+  *Avner Ash
+  *Jonathan Pottharst
+  *Joël Bellaïche
+  *Andrew Sutherland
+  *Thomas Barnet-Lamb
+  *Jen Balakrishnan
+  *David Roe
