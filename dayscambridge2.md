@@ -1,6 +1,4 @@
-= Sage Days 18: Cambridge, MA =
-
-''Computations related to the Birch-Swinnerton-Dyer Conjecture''
+= Sage Days 18: Computations related to the Birch-Swinnerton-Dyer Conjecture =
 
 There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics Institute Page]] for this workshop among their [[http://claymath.org/programs/cmiworkshops/|list of workshops]].
 
