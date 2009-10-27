@@ -2,6 +2,7 @@
 
 ''Computations related to the Birch-Swinnerton-Dyer Conjecture''
 
+There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics Institute Page]] for this workshop.
 
 == Coordinates ==
   
