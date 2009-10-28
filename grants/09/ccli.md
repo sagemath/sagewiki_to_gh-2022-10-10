@@ -38,6 +38,8 @@ Dial:  866 589 0901, passcode:  8227893#
    * Draft 1 (2009/09/02) [[attachment:beezer-lantz-1.pdf]]
    * Draft 2 (2009/09/07) [[attachment:beezer-lantz-2.pdf]]
 
+ * Beezer's group theory exercises in Sage [[attachment:m433-sage-exercises.pdf]]
+
  * Textbooks
    * Finish Rob Beezer's system for easily creating worksheets from textbook source files
    * Make several textbooks
