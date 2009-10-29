@@ -23,11 +23,11 @@
      We aren't doing a calc book, but Sage could be used in calculus. 
      Books: 
 
-          - linear algebra
-          - combinatorics
-          - number theory
-          - maybe multivariate calculus
-          - ?
+          * linear algebra
+          * combinatorics
+          * number theory
+          * maybe multivariate calculus
+          * ?
 
      There are a lot of candidates...
      
@@ -97,16 +97,16 @@
    * Next Thursday at 11am.
 
    * DAVID: 
-       - need to redo the budget
-       - need to reword proposal so it is exciting to non-sage people.  
-       - everything about sage and its technical stuff comes at the END!
-       - anecdotes.  what is the ''education research'' you are doing?
+       * need to redo the budget
+       * need to reword proposal so it is exciting to non-sage people.  
+       * everything about sage and its technical stuff comes at the END!
+       * anecdotes.  what is the ''education research'' you are doing?
 
    * William: 
-       - try to make a budget for activities
-       - a page where people can put the dollar amount they need
-       - pay programmers
-       - own salary
-       - travel
-       - get some things *right* instead of having it all messed up later 
+       * try to make a budget for activities
+       * a page where people can put the dollar amount they need
+       * pay programmers
+       * own salary
+       * travel
+       * get some things *right* instead of having it all messed up later 
            
