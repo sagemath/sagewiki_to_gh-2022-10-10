@@ -106,7 +106,7 @@ Here is a rough timeline, split up into years, and then categories.
   * Publish articles; in each of these, mention the workshops coming up in Summer 3
     *Publish an article in LOCI (http://mathdl.maa.org/mathDL/23/; they've wanted us to write an article for a while; this would probably be a second article).
 
-    * Publish an AMS editorial (or something) on open-source technology-enhanced textbooks, like William, et. al., published a few years ago on open-source software.
+    * Publish an AMS editorial (or something) on open-source technology-enhanced textbooks, like William, et al., published a few years ago on open-source software.
 
   * Minicourse on Sage at Joint meetings and/or mathfest
 
