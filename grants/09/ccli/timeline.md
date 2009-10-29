@@ -1,17 +1,20 @@
 #acl acl_hierarchic: True
 #acl was:read,write,admin jason:read,write,admin rbeezer:read,write,admin KiranSKedlaya:read,write,admin KiranKedlaya:read,write,admin ThomasJudson:read,write,admin DavidFarmer:read,write,admin
-
 Here is a rough timeline, split up into years, and then categories.
 
 = Year 1 =
 
 == Textbooks ==
- * [Rob] Rob's Linear algebra textbook.  Do this first because (a) already has some Sage, (b) already has been designed to include "computational notes," (c) linear algebra in Sage is fairly mature, (d) I'm most familiar with the source for this one.
 
  * [Jason and William] Iron out the infrastructure issues with Rob's book, and whatever writing we do on our own subject-specific tutorials. 
 
+ * [William] William's number theory book.
+
+ * [Rob] Rob's Linear algebra textbook.  Do this first because (a) already has some Sage, (b) already has been designed to include "computational notes," (c) linear algebra in Sage is fairly mature, (d) I'm most familiar with the source for this one.
+
+
 == Making Sage Classroom Ready ==
- * Target subject areas: linear algebra, undergraduate abstract algebra, combinatorics, graphics, and calculus (then, as time permits, ODE, statistics?)
+ * Target subject areas: linear algebra, undergraduate abstract algebra, discrete math, graphics, and calculus (then, as time permits, ODE, statistics?)
 
    * Full-scale use of nthiery's TestSuite system to make sure that things are consistent across object types with the same parent.  (See, for example, http://trac.sagemath.org/sage_trac/ticket/6936)
 
@@ -23,7 +26,9 @@ Here is a rough timeline, split up into years, and then categories.
 
     * Ways for students and professors to organize their work (like tags on the the worksheets)
 
-    * Ways for students and professors to interact with each other (e.g., submitting and grading assignments, collaborating, etc.)
+    * Ways for students and professors to interact with each other (e.g., submitting and grading assignments, collaborating, make comments on a worksheet, etc.)
+
+      * A grading and annotating system for grading student worksheets.
 
     * interactive javascript input widgets (hopefully we can do something with mathjax!)
     
@@ -40,6 +45,13 @@ Here is a rough timeline, split up into years, and then categories.
 
   * Advertise for the Sage Days and workshops in Summer 2 
 
+  * Minicourse on Sage at Joint meetings and/or mathfest
+
+== Formative evaluation ==
+
+  * Survey people about barriers to classroom use
+
+  * Sign up a few people to use Sage in the classroom.  List a few names, and have a mechanism to advertise for more people.  Give people a stipend to write a report of using Sage in a class for a semester.  We will offer them technical support.
 
 = Year 2 =
 
@@ -79,10 +91,9 @@ Here is a rough timeline, split up into years, and then categories.
   * Publish articles; in each of these, mention the workshops coming up in Summer 3
     *Publish an article in LOCI (http://mathdl.maa.org/mathDL/23/; they've wanted us to write an article for a while; this would probably be a second article).
 
-    * Publish an article in JOMA (http://mathdl.maa.org/mathDL/4/?pa=content&sa=viewDocument&nodeId=399); I talked to an editor a year or two ago, and they were also interested in an article.
-
     * Publish an AMS editorial (or something) on open-source technology-enhanced textbooks, like William, et. al., published a few years ago on open-source software.
 
+  * Minicourse on Sage at Joint meetings and/or mathfest
 
 = Year 3 =
 
@@ -107,3 +118,5 @@ Here is a rough timeline, split up into years, and then categories.
   * Set up a booth at the Joint meetings
 
   * (try to get a) PREP workshop or workshop at Mathfest/Joint Meetings on writing technology-enhanced curricula materials. 
+
+  * Minicourse on Sage at Joint meetings and/or mathfest
