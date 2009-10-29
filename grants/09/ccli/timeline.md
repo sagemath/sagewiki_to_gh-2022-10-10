@@ -7,6 +7,21 @@ Here is a rough timeline, split up into years, and then categories.
 == Textbooks ==
 
  * [Jason and William] Iron out the infrastructure issues with Rob's book, and whatever writing we do on our own subject-specific tutorials. 
+  * Adapt notebook to collections of worksheets
+      * Grouping worksheets (folders?)
+      * Format for posting/moving (ie zipped, tar'ed)
+  * Cross-worksheet links
+      * Must be portable, ie stable/functional after a move
+      * Then needs support in tex4ht
+  * Define new Latex environments for...
+      * Inline sage code
+      * Live Sage code blocks (w/, w/out corresponding output)
+      * Interacts
+      * Coordinate this with Dan Drake's SageTeX
+  * Create a tex4ht mode to support above
+      * Goal: run tex4ht on Latex souce, output is zipped-up worksheets
+      * tex4ht now has a project page, Karl Berry is a TeX expert
+      * http://gna.org/projects/tex4ht/
 
  * [William] William's number theory book.
 
