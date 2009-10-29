@@ -25,6 +25,8 @@ Dial:  866 589 0901, passcode:  8227893#
 
 [[/ConferenceCall/22Oct| 22 Oct Conference Call]]
 
+[[/ConferenceCall/29Oct| 29 Oct Conference Call]]
+
 
 = Project Ideas =
  * applied math FEMHUB: http://nb.femhub.org/home/pub/5 http://nb.femhub.org/home/pub/6 http://nb.femhub.org/home/pub/7 http://nb.femhub.org/home/pub/8
