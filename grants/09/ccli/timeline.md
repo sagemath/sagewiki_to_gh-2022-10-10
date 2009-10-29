@@ -60,6 +60,8 @@ Here is a rough timeline, split up into years, and then categories.
       * Make the virtualbox image very polished, including graphical buttons to create and start/stop multiple servers (with full security options), backup notebook servers and restore notebook servers, upgrade Sage (maybe on only selected servers?), etc.
 
       * Carefully document any things that people need to understand about setting up the network for common scenarios.
+      
+      * Explore the option of a cloud instance (like an Amazon EC2 instance) that instructors could trivially start.  See [[http://groups.google.com/group/sage-notebook/browse_frm/thread/620f9a40e5e9e488]].
 
     * Build the infrastructure for a library of curricula materials.  This includes a library of interacts that you can browse/search, etc.
 
