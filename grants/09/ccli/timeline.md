@@ -26,6 +26,8 @@ Here is a rough timeline, split up into years, and then categories.
     * Ways for students and professors to interact with each other (e.g., submitting and grading assignments, collaborating, etc.)
 
     * interactive javascript input widgets (hopefully we can do something with mathjax!)
+    
+    * flexible layout of interact controls and output
 
  * Have a Sage Days for working on all of this sometime during the summer. 
 
