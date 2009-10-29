@@ -32,7 +32,9 @@ Here is a rough timeline, split up into years, and then categories.
 == Dissemination ==
   * Talk up the work that we're doing at Mathfest, Joint Meetings, and regional MAA meetings.
 
-  * Set up a booth at the Joint meetings (yeah!  This is how we can pay for a booth, and maybe even pay a couple of students to be at the booth too!)
+  * Set up a booth at the Joint meetings
+
+  * Have a special session at Joint meetings
 
   * Advertise for the Sage Days and workshops in Summer 2 
 
