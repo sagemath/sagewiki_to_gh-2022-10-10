@@ -25,31 +25,31 @@ On December 5, we also plan to hold a Sage Education Day, coordinated by Karl-Di
  
 == Registered Participants ==
 
-  *Kiran Kedlaya
-  *William Stein
-  *Karl Rubin
-  *Ken Ribet
-  *Matt Greenberg
-  *David Harvey
-  *Jared Weinstein
-  *Mirela Ciperiani
-  *Salman Baig
-  *Robert Bradshaw
-  *Robert Miller
-  *Dimitar Jetchev
-  *Victor Miller
-  *Cameron Franc
-  *John Tate
-  *Robert Pollack
-  *Noam Elkies
-  *Bjorn Poonen
-  *Glenn Stevens
-  *Richard Taylor
-  *Dick Gross
-  *Avner Ash
-  *Jonathan Pottharst
-  *Joël Bellaïche
-  *Andrew Sutherland
-  *Thomas Barnet-Lamb
-  *Jen Balakrishnan
-  *David Roe
+ * Avner Ash 
+ * Salman Baig 
+ * Jen Balakrishnan 
+ * Thomas Barnet-Lamb 
+ * Joël Bellaïche 
+ * Robert Bradshaw 
+ * Mirela Ciperiani 
+ * Noam Elkies 
+ * Cameron Franc 
+ * Matt Greenberg 
+ * Dick Gross 
+ * David Harvey 
+ * Dimitar Jetchev 
+ * Kiran Kedlaya 
+ * Robert Miller 
+ * Victor Miller 
+ * Robert Pollack 
+ * Bjorn Poonen 
+ * Jonathan Pottharst 
+ * Ken Ribet 
+ * David Roe 
+ * Karl Rubin 
+ * William Stein 
+ * Glenn Stevens 
+ * Andrew Sutherland 
+ * John Tate 
+ * Richard Taylor 
+ * Jared Weinstein 
