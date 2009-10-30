@@ -22,6 +22,7 @@ Here is a rough timeline, split up into years, and then categories.
       * Goal: run tex4ht on Latex souce, output is zipped-up worksheets
       * tex4ht now has a project page, Karl Berry is a TeX expert
       * http://gna.org/projects/tex4ht/
+  * Make a tex4ht spkg for others to use easily
 
  * [William] William's number theory book.
 
