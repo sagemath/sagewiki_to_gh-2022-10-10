@@ -42,4 +42,4 @@ Below, talk to your secretaries and find out exactly how much what you want will
 
  * AIM Dissemination
     * See http://groups.google.com/group/sage-grants/browse_thread/thread/581889719a14be28/
-    * David Farmer "$10K in seed money"
+    * David Farmer "$10K/year in seed money"
