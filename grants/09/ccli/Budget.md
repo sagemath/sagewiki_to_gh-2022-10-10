@@ -19,3 +19,19 @@
     * National workshops (via AIM, if appropriate?)--invite people from all over
 
 == Detailed Budget: Exact Dollar Amounts ==
+
+Below, talk to your secretaries and find out exactly how much what you want will really cost. 
+
+ * William Stein: 
+    * 4 Months Summer Salary: $
+    * 4 parttime undergraduate employees: $12K/year
+    
+
+ * Jason Grout:
+
+ * Rob Beezer:
+
+ * Tom Judson: 
+
+ * Two Sage Edu Days:
+    * $12K/each
