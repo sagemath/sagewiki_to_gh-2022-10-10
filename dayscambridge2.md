@@ -32,7 +32,7 @@ On December 5, we also plan to hold a Sage Education Day, coordinated by Karl-Di
  * Joël Bellaïche 
  * Robert Bradshaw 
  * Mirela Ciperiani 
- * Noam Elkies 
+ * Noam Elkies (unable to come)
  * Cameron Franc 
  * Matt Greenberg 
  * Dick Gross 
