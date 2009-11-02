@@ -105,7 +105,7 @@ Dial:  866 589 0901, passcode:  8227893#  ???
 
 = Budget =
 
- [[/Budget]]
+ [[/Budget|Budget Details]]
 
 = Past CCLI Awards =
 
