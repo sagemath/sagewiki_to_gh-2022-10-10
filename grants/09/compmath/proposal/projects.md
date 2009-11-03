@@ -6,49 +6,38 @@
 
 In the following sections we describe $N$ [[update when done]]
 proposed Sage Days workshops.  The general format is about 5 days of
-intensive work by about 20 highly-motivated participants, which will
-likely lead to additional work and research on Sage as a result of the
+intensive work by about 20 highly-motivated participants, which often
+leads to substantial additional work and research as a result of the
 workshop.  We describe below how each project fits into the thrust of
 Sage development and builds on existing work.
 
 \subsection{Sage Days: The Notebook Interface} 
 
 \subsubsection{Background}
-The Sage notebook is an ``AJAX application'', like Gmail or Google
-Maps, which combines Javascript in a web browser with a web server
-application running on powerful hardware.  Imagine something that is
-somewhere between a Maple or Mathematica notebook and the online
-Google Documents web application, with its extensive collaborative
-features.  The Sage notebook provides an interactive web-based
-worksheet in which one can enter arbitrary Sage commands, see
-beautifully typeset output, create 2D and 3D graphics, publish
-worksheets, and collaborate with other users.
-
-[[remember to include some screen shots in the supplementary material
-section]]
+\begin{wrapfigure}{r}{0.5\textwidth}
+\shadowbox{\includegraphics[width=0.5\textwidth]{sagenb.png}}\\
+\end{wrapfigure}
+Imagine an interactive web-based worksheet in which one can enter
+arbitrary Sage commands, see beautifully typeset output, create 2D and
+3D graphics, publish worksheets, and collaborate with other users.
+The Sage notebook is the only math software that offers this
+capability; it is somewhere between a Maple or Mathematica notebook
+and the online Google Documents web application, with its extensive
+collaborative features. 
 
 The PI and several UW undergraduates together developed the basic
 implementation of the current version of the Sage notebook during an
-extremely intense three-week coding session in Summer 2007.  The Sage
-notebook is a much beloved ``killer application'' of Sage:
-\begin{quote}
-  In my opinion, SAGE's notebook is the real killer feature, which I
-  don't recall to have seen in any other (commercial or not)
-  software. I mean, this is the only scientific program that I've
-  found, allowing such an easy collaborative job within local
-  networks.
+extremely intense three-week coding session in Summer 2007.  
 
-  -- Maurizio, the Sage mailing list.
-\end{quote}
-
-Mathematicians in both pure and applied mathematics at dozens of
-universities around the world are getting excited about how they can
-leverage the Sage notebook in their own research and teaching.  There
-is much excitement about this being a new collaboration tool that
-really enhances their work.  For example, the FEMHUB project
+Many mathematicians in both pure and applied mathematics at dozens of
+universities around the world are excited about how they can leverage
+the Sage notebook in their own research and teaching.  There is much
+excitement about this being a new collaboration tool that enhances
+their teaching and research.  For example, the FEMHUB project
 \url{http://femhub.org/} at University of Nevada has adopted and
 rebranded the Sage notebook for teaching courses and doing research on
-finite element methods.
+finite element methods.  See \url{http://wiki.sagemath.org/sagenb} for
+a list of deployed notebook servers.
 
 \subsubsection{The Workshop}
 At a Sage Days workshop on the Sage notebook, we would attack the
@@ -87,9 +76,19 @@ following problems:
   Google Code, Sourceforge, and many of the other popular open source
   project hosting sites.
 
+\item  Implement {\em additional 3d plotting functionality}.  There are
+  many functions and options for 3d plots that have not yet been
+  implemented, and this could be done.  Also improve Sage's ability to
+  render using HTML5's canvas, including animation output, as
+  something that can be embedded in a webpage, or viewed separately.
+  This is an open-ended project, but 1 month fulltime would provide
+  enough time to improve implicit plotting, options for parametric and
+  function plotting, and for adding text rendering and axes to canvas
+  rendering.
+
 \end{enumerate}
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} [[List of names]]
 
 \subsection{Sage Days: Software Engineering}
 
@@ -107,6 +106,10 @@ automated way from source on over 20 supported platforms (many flavors
 of Linux, OS X, and Solaris 10), using a cross-platform build system
 that we created using standard tools (autoconf, scons, make, bash).
 
+\begin{wrapfigure}{r}{0.4\textwidth}
+\shadowbox{\includegraphics[width=0.4\textwidth]{tickets.png}}\\
+\mbox{}\,\,\,\,\,Over 1200 Open Tickets...
+\end{wrapfigure}
 The core Sage library, which we have written over the last few years
 is, well over 400,000 lines of Python, Cython, C/C++ code, and
 documentation. We regularly run a test suite that involves evaluating
@@ -172,28 +175,8 @@ following problems:
 
 \end{enumerate}
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} [[List of names]]
 
-\subsection{Sage Days: 2D and 3D Visualization}
-
-\subsubsection{Background}
-[[background about visualization aspects of the Sage project]]
-
-
-\subsubsection{The Workshop}
-At a Sage Days workshop on 2D and 3D visualization, we would attack the
-following problems:
-\begin{enumerate}
-\item  Implement {\em additional 3d plotting functionality}.  There are
-  many functions and options for 3d plots that have not yet been
-  implemented, and this could be done.  Also improve Sage's ability to
-  render using HTML5's canvas, including animation output, as
-  something that can be embedded in a webpage, or viewed separately.
-  This is an open-ended project, but 1 month fulltime would provide
-  enough time to improve implicit plotting, options for parametric and
-  function plotting, and for adding text rendering and axes to canvas
-  rendering.
-\end{enumerate}
 
 \subsection{Sage Days: Commutative and Noncommutative Algebra}
 
@@ -228,13 +211,33 @@ would attack the following problems:
 \end{enumerate}
 
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} [[List of names]]
 
 \subsection{Sage Days: Algebraic Curves}
 
 \subsubsection{Background}
+\begin{wrapfigure}{r}{0.3\textwidth}
+\shadowbox{\includegraphics[width=0.3\textwidth]{algcurve.png}}\\
+\mbox{}\,\,\,\,\,\,An Algebraic Curve
+\end{wrapfigure}
 [[background about algebraic curves capabilities and development in
-sage]]
+sage
+
+background about algebraic curves capabilities and development in
+sage
+background about algebraic curves capabilities and development in
+sage
+background about algebraic curves capabilities and development in
+sage
+
+background about algebraic curves capabilities and development in
+sage
+background about algebraic curves capabilities and development in
+sage
+
+background about algebraic curves capabilities and development in
+sage
+]]
 
 
 \subsubsection{The Workshop}
@@ -289,7 +292,7 @@ would attack the following problems:
   of genus $\geq 1$.
 \end{enumerate}
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} [[List of names]]
 
 \subsection{Sage Days: Number Fields}
 \subsubsection{Background}
@@ -332,6 +335,9 @@ would attack the following problems:
 \subsection{Sage Days: Modular Forms}
 
 \subsubsection{Background}
+\begin{wrapfigure}{r}{0.3\textwidth}
+\shadowbox{\includegraphics[width=0.3\textwidth]{modform.png}}\\
+\end{wrapfigure}
 [[background about modular forms capabilities and development in
 sage]]
 
@@ -357,16 +363,18 @@ would attack the following problems:
   and Robert Pollack have published Magma code for doing this. 
 \end{enumerate}
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} [[List of names]]
 
 \subsection{Sage Days: Group Theory}
 
 \subsubsection{Background}
 [[background about group theory capabilities and development in sage]]
 
+[[insert a picture of a Cayley graph]]
+
 \subsubsection{The Workshop}
 At a Sage Days workshop on group theory, we would attack the following
-problems:
+problems: 
 
 \begin{enumerate}
 
@@ -394,54 +402,89 @@ problems:
   several GAP developers would attend.
 \end{enumerate}
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} [[List of names]]
 
-\subsection{Sage Days: Algebraic Topology}
+\subsection{Sage Days: Algebraic Topology and Homological Algebra}
 
 \subsubsection{Background}
-[[background about algebraic topology capabilities and development in sage]]
 
-At a Sage Days workshop on algebraic topology, we would attack the
-following problems:
+We can do Steenrod algebra calculations (at both $p=2$ and odd
+primes), and we can do simplicial homology.  We can do group
+cohomology (via the optional spkg by Simon King and David Green).  We
+have free modules over commutative rings. 
 
-[[grab some ideas from sage days 15]]
+At a Sage Days workshop on algebraic topology and homological algebra,
+we would attack the following problems:
+
 
 \begin{enumerate}
 
-\item
+\item We will improve simplicial homology: we should be able to
+  compute the ring structure for cohomology, and we should be able to
+  keep track of the generators.  We should add an interface to CHomP,
+  which computes cubical homology.  We should add some capabilities to
+  compute with formal group laws (homotopy theorists only care about
+  1-dimensional formal group laws, but we don't need to limit
+  ourselves), and the related computations with the spectrum BP.  We
+  should implement differential graded algebras.
+
+\item (There are a lot of other ideas on the Sage wiki page for
+  algebraic topology (http://wiki.sagemath.org/topology), and we could
+  throw some of them in.  Some of them get pretty far from my own
+  research, so I don't know much about them.  We would really want
+  someone who is interested in adding these things, so that we have
+  motivation for doing so.)
+
+\item For graded connected algebras, we should implement Bob Bruner's
+algorithm, or develop an interface between his C programs and Sage.
+Christian Nassau has done some related work, but it is focused on the
+Steenrod algebra, not on general graded connected algebras.
+
+\item For group algebras, we should see if parts of the group cohomology
+spkg should be made standard, and possibly extended to other algebras.
+
+\item In general, we should implement free modules, projective
+  modules, and injective modules over arbitrary rings, and we should
+  implement resolutions and derived functors.  Where possible, we
+  should implement methods of computing resolutions (as in the case of
+  graded connected algebra and group algebra).  We should implement
+  some interesting noncommutative rings over which we can compute
+  examples.  (Singular might help here.)  There is a package (for
+  maxima, I think) called "affine" that does some related things, and
+  we should get a copy and see if we can incorporate it.
+
 
 \end{enumerate}
 
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} John Palmieri, Bruner and Nassau.  King and
+Green.  Some other group theorists?
 
-\subsection{Sage Days: Symbolic and Algebraic Statistics}
+%\subsection{Sage Days: Symbolic and Algebraic Statistics}
+%[[background about how much Sage has for statistics already]]
 
-[[background about how much Sage has for statistics already]]
-
-[[algebraic statistics is a major hot topic... computational?  by symbolic, I mean capabilities
-like  in Mathematics as opposed to R or matlab -- see the mathematica webpage]]
-
-\subsubsection{The Workshop}
-At a Sage Days workshop on statics, we would attack the
-following problems:
+%[[algebraic statistics is a major hot topic... computational?  by symbolic, I mean capabilities
+%like  in Mathematics as opposed to R or matlab -- see the mathematica webpage]]
+% \subsubsection{The Workshop}
+% At a Sage Days workshop on statics, we would attack the
+% following problems:
 
 
-At a Sage Days workshop on algebraic topology, we would attack the
-following problems:
+% At a Sage Days workshop on algebraic topology, we would attack the
+% following problems:
 
-[[grab some ideas from sage days 15]]
+% [[grab some ideas from sage days 15]]
 
-\begin{enumerate}
+% \begin{enumerate}
 
-\item
-Implement native {\em statistics} functionality in Sage,
-  beginning with a class for holding data with descriptions, methods
-  for subselection, transformation and assignments, and then more
-  classes with data/object interactions that wrap or use {\tt
-    scipy.stats} and {\tt rpy}.
-\end{enumerate}
-\subsubsection{People} [[List of names]]
+% \item
+% Implement native {\em statistics} functionality in Sage,
+%   beginning with a class for holding data with descriptions, methods
+%   for subselection, transformation and assignments, and then more
+%   classes with data/object interactions that wrap or use {\tt
+%     scipy.stats} and {\tt rpy}.
+% \end{enumerate}
+% \subsubsection{Key People} [[List of names]]
 
 \subsection{Sage Days: Sage for Engineers, Physicists, and Scientists}
  
@@ -504,7 +547,7 @@ numbers with a engineering bent for problems) is:
 This list would not be that much different from previous Sage days, it
 would just be targeted at a different audience.
 
-\subsubsection{People} Josh Kantor, Michael Madison, all Enthought employees,
+\subsubsection{Key People} Josh Kantor, Michael Madison, all Enthought employees,
 Fernando Perez, Jarod Milliman, Prabhu Ramakrishnan
 
 \subsection{Sage Days: Numerical Computation}
@@ -560,12 +603,72 @@ following problems:
 
 \end{enumerate}
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} [[List of names]]
 
-
-\subsection{Sage Days: Optimization}
+\subsection{Sage Days: Numerical Solution to Partial Differential Equations}
 \subsubsection{Background}
-[[background about how much we have done with optimization in sage already]]
+The general idea is that it would be a gathering of people interested
+in the finite element method and related things, like a symbolic
+derivation of that using sympy/sage, making sure the mesh, solution,
+etc., works nice both on the desktop and in the notebook, interfacing
+lots of opensource FEM software like libmesh, sfepy, as well as
+graphics output like mayavi, VTK, etc.
+
+\subsubsection{The Workshop}
+
+\begin{enumerate}
+
+\item Write PDE and boundary conditions in the notebook, and create
+  weak formulations automatically using sympy/sage. For more
+  complicated PDE systems or for PDE in other than Cartesian
+  coordinates, this would take a huge burden off the user.
+
+\item Design a suitable model/protocol for passing the weak
+  formulations to all codes in FEMhub.
+
+\item Define geometries interactively via Java applets and send them
+  to mesh generators. Visualise and edit the resulting meshes in the
+  notebook.
+
+\item We can plot the solutions and meshes from python already (using
+  either mayavi or mpl), but this needs improvements, e.g. to be able
+  to plot streamlines, change plotting parameters easily, etc. We have
+  elaborated visualization in opengl and glut in C++, but
+  unfortunately this is not usable in the notebook, and also it is not
+  reliable across platforms.
+
+\item Interface lots of open source FEM software like dune, fipy,
+  hermes, phaml, libmesh, sfepy, etc. Currently, of those only fipy,
+  hermes, and sfepy are in FEMhub. To design a unified interface and
+  allow for interoperability is one of our major tasks.
+ 
+\item Improve graphics output in the notebook (mayavi, VTK, ...) Both
+  Mayavi and VTK are in FEMhub, but unfortunately they do not build on
+  Mac nor Windows. The problems have been kind of sorted out on Mac
+  already, now some manpower is needed to switch preferably both Sage
+  and FEMhub to a python framework build and then fix the
+  configuration of VTK. We have no idea yet what has to be done on
+  Windows to make it compile.
+
+\item The web notebook should be made login free as soon as
+  possible. We have attempted to do this recently, but we found the
+  core of the notebook quite complicated and we were not efficient at
+  all, so we stopped this effort.  Unfortunately we do not have the
+  manpower and expertise to fix the core of the notebook, but we think
+  that it should be revised. We are going to invest a substantial
+  amount of work into the notebook in the future. It might be useful
+  to coordinate our efforts eventually.
+
+\end{enumerate}
+
+\subsubsection{Key People} Pavel Solin (Univ. of Nevada), Ondrej Certik
+(Univ. of Nevada)
+
+\subsection{Sage Days: Combinatorics and Optimization}
+\subsubsection{Background} 
+
+[[background about how much we have done with optimization and
+combinatorics in sage already]]
 
 \subsubsection{The Workshop}
 At a Sage Days workshop on optimization, we would attack the
@@ -579,19 +682,6 @@ following problems:
   of this project.)     Though MiniSat is small,
   Stein wrote a proof-of-concept wrapper, and it is clear it will take
   substantial work to really do this right.
-\end{enumerate}
-
-\subsubsection{People} [[List of names]]
-
-\subsection{Sage Days: Combinatorics}
-
-\subsubsection{Background}
-[[background about how much we have done with combinatorics in sage already]]
-
-At a Sage Days workshop on combinatorics, we would attack the
-following problems:
-
-\begin{enumerate}
 
 \item Implement {\em finite planes and incidence geometry}.  Sage's
   capabilities are still pretty primitive. Dan Gordon remarks that
@@ -603,7 +693,7 @@ following problems:
   particularly difference sets.''
 \end{enumerate}
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} [[List of names]]
 
 \subsection{Sage Days: Symbolic Computation}
 
@@ -673,7 +763,7 @@ foundation for algorithms to deal with higher order equations.
 \cite{[B2007]} \url{http://dx.doi.org/10.1016/j.jsc.2007.04.003}
 \end{enumerate}
 
-\subsubsection{People} 
+\subsubsection{Key People} 
 Michael Singer, Mark van Hoeij, Sergei Abramov, Burcin Erocal
 
 
@@ -706,7 +796,7 @@ References: See \url{http://wiki.sagemath.org/symbolics},
 \url{http://www.mat.univie.ac.at/~kratt/hyp_hypq/hyp.html},
 \url{http://www-igm.univ-mlv.fr/~gauthier/HYPERG.html}.
 
-\subsubsection{People} 
+\subsubsection{Key People} 
 Burcin Erocal, 
 Peter Paule, Victor Moll, Victor Adamchik (see \url{http://www-2.cs.cmu.edu/~adamchik/}).
 
@@ -736,7 +826,7 @@ functions to Sage)
 
 \end{enumerate}
 
-\subsubsection{People} [[List of names]]
+\subsubsection{Key People} [[List of names]]
 
 
 \subsection{Sage Days: Linear Algebra}
@@ -763,28 +853,24 @@ At a Sage Days workshop on linear algebra, we would attack the following problem
 
 \end{enumerate}
 
-\subsubsection{People}  Rob Beezer, Jason Grout (?), [[other people]]
+\subsubsection{Key People}  Rob Beezer, Jason Grout (?), [[other people]]
 
-\subsection{Sage Bug Days}
+%\subsection{Sage Bug Days}
+%\subsubsection{Background}
+%[[Describe how the first bug days went.  Explain that the second bug days is
+%planned for late January, funded by a COMPMATH NSF grant.]]
+%\subsubsection{The Workshop}
+%At a Sage Bug Days, we would do the following.
+%\begin{enumerate}
+%\item We had one ``Bug Days'' workshop in San Diego, during
+%  which the participants fixed over 200 venerable bugs in Sage (over
+%  1/3 of all known bugs), and did a triage of all bugs.  Another {\em Bug
+%  Days workshop} would be a great way to substantially improve the
+%  quality of Sage, and fix many longstanding issues.
+%\end{enumerate}
 
-\subsubsection{Background}
-[[Describe how the first bug days went.  Explain that the second bug days is
-planned for late January, funded by a COMPMATH NSF grant.]]
+% \subsubsection{Key People} [[List of names]]
 
-\subsubsection{The Workshop}
-At a Sage Bug Days, we would do the following.
-
-\begin{enumerate}
-
-\item We had one ``Bug Days'' workshop in San Diego, during
-  which the participants fixed over 200 venerable bugs in Sage (over
-  1/3 of all known bugs), and did a triage of all bugs.  Another {\em Bug
-  Days workshop} would be a great way to substantially improve the
-  quality of Sage, and fix many longstanding issues.
-
-\end{enumerate}
-
- \subsubsection{People} [[List of names]]
 
 
 }}}
