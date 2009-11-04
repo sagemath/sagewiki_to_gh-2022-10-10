@@ -1,3 +1,7 @@
+   * page de développement: HighSchoolDesign
+   * page en français: MathsAuLycee
+   * page en anglais: HighSchoolMath
+
 == Calendrier (mi2010) ==
 
    * contacter des enseignants pour la conception de l'interface lycée.
