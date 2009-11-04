@@ -1,6 +1,6 @@
    * page de développement: HighSchoolDesign
    * page en français: MathsAuLycee
-   * page en anglais: HighSchoolMath
+   * page en anglais: SageForHighSchool
 
 == Calendrier (mi2010) ==
 
