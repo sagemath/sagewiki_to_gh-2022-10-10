@@ -34,6 +34,7 @@ Below, talk to your secretaries and find out exactly how much what you want will
     * Travel support - MAA meetings, Sage Days, etc. = $6,000
 
  * Tom Judson: 
+    * 3 months Summer Salary: $21,000
 
  * Two Sage Edu Days:
     * $12K/each
