@@ -1,4 +1,3 @@
-{{{
 = Conference Call On November 5, 2009 =
 
   * Rob Beezer -- 3-minute elevator speech -- giving an overview of
@@ -91,5 +90,3 @@ Revisit next Wednesday.
    * Timeline should be in narrative form in the actual proposal. 
  
    * Picture the timeline in your head by the end, or disaster.  No diagram.
-
-}}}
