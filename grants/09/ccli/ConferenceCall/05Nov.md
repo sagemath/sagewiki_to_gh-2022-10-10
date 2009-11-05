@@ -52,8 +52,7 @@ provide.
 
     Question about impact of CAS has already been asked and answered.
 
-Brian Conrey: Do not give away to NSF that we don't know what we're
-doing as far as evaluation goes...
+Brian Conrey: Do not give away to NSF what we don't know as far as evaluation goes...
 
 Tom had a very positive experience working with her. 
 
