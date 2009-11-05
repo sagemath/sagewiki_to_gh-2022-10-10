@@ -9,8 +9,7 @@
    * travel for me and possibly students involved to conferences to talk about all of this (e.g., Mathfest, Joint Meetings, etc.)
  * Rob Beezer
    * Already have release unit for Spring 2010, will likely produce Sage primer for rings, fields, Galois Theory in undergraduate abstract algebra course.
-   * Have a semester sabbatical for Fall 2010 (or could be Spring 2011).  Another semester's leave would extend this to a full academic year for Sage-related 
-activities.
+   * Have a semester sabbatical for Fall 2010 (or could be Spring 2011).  Another semester's leave would extend this to a full academic year for Sage-related activities.
    * Very possible the second semester could be funded through a competitive program at my university.  I will also be applying for travel funds.  Applications are due early October, should know result before this grant proposal is due.
    * So, a semester's buyout (if not awarded internally) would be the first priority, otherwise summer support to complement the academic year leave, and in future summers during the grant.
    * Travel support for MAA meetings and Sage Days.
@@ -27,7 +26,6 @@ Below, talk to your secretaries and find out exactly how much what you want will
     * 4 Months Summer Salary: $
     * 4 parttime undergraduate employees: $12K/year
     
-
  * Jason Grout:
 
  * Rob Beezer:
@@ -43,3 +41,14 @@ Below, talk to your secretaries and find out exactly how much what you want will
  * AIM Dissemination
     * See http://groups.google.com/group/sage-grants/browse_thread/thread/581889719a14be28/
     * David Farmer "$10K/year in seed money"
+
+ * Test Drivers
+    * Faculty (N=?) who use Sage, and materials we create, in a course
+    * Stipend for a useful final report - $1000 (??)
+ 
+ * Subject-Specific Guides
+    * \$5,000?  One month summer salary?  One course buyout (runs \$12,000 at UPS.)
+    * Number of these (per year)?
+
+ * Support for Evaluation, Education Research
+    * Tom once said $30,000? 
