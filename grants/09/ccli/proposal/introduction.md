@@ -1,4 +1,6 @@
-{{{
+= Introduction =
+
+{{{  
 \section{Introduction}
 
 Stein embarked
@@ -7,7 +9,7 @@ the Sage mathematical software project, which has greatly grown since
 then.  There are now over 200 Sage developers, and last month there were
 well over 5,000 downloads of Sage, and over 75,000 visits (sessions of consecutive page views) to the \url{http://sagemath.org} website.  
 The free \url{http://sagenb.org} online Sage website has about
-18,000 user accounts (increasing at about 150--200 accounts per day).
+15,000 user accounts. 
 
 Sage can be used to study general and advanced, pure and applied
 mathematics. This includes a huge range of mathematics, including
@@ -121,10 +123,6 @@ students, and research visitors. Add more...
 
 {\bf Other Grant Applications:} xxx has also applied this year to
 the NSF COMPMATH program to fund ...
-
-
-
-
 
 
 }}}
