@@ -47,8 +47,12 @@ Below, talk to your secretaries and find out exactly how much what you want will
     * Stipend for a useful final report - $1000 (??)
  
  * Subject-Specific Guides
-    * \$5,000?  One month summer salary?  One course buyout (runs \$12,000 at UPS.)
+    * Rob, Jason:  \$5,000?  One month summer salary?  One course buyout (runs \$12,000 at UPS.)
+    * William:  2 weeks work, $2000
     * Number of these (per year)?
 
  * Support for Evaluation, Education Research
     * Tom once said $30,000? 
+
+ * Improve Sage Infrastructure, emphasizing improving the educational experience
+    * William has about $68,000 of good ideas (exclusive of subject guides) [[attachment:stein-ideas.pdf]]
