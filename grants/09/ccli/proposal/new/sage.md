@@ -1,4 +1,7 @@
+= Sage =
+
 {{{
+\section{Sage}
 \subsection{A \emph{short} history}
 
 
