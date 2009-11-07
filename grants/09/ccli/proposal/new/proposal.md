@@ -1,7 +1,11 @@
 = Proposal =
 
+
 {{{
-\section{Proposal}
+
+\section{Grant Proposal}
+
+
 \subsection{Measurable outcomes}
 
 
@@ -47,5 +51,4 @@ research side, which is why we need this grant.
 
 
 \subsubsection{AIM open source textbook initiative}
-
 }}}
