@@ -1,11 +1,11 @@
 [[http://sage.math.washington.edu:8124/|Build the PDF]]
 
 
- * [[/new/introduction|(new) Introduction]]
+ * [[/new/newintroduction|Introduction]]
  * [[/new/sage|Sage]]
  * [[/new/vision|The vision]]
  * [[/new/proposal|Proposal]]
- * [[/new/evaluation|(new) Evaluation]]
+ * [[/new/newevaluation|Evaluation]]
  * [[/OldOutline|Old Outline]]
  * [[/introduction|Introduction]]
  * [[/projects/notebook|The Sage Notebook]]
