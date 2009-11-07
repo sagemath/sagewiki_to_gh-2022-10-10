@@ -1,5 +1,6 @@
+= Vision =
 {{{
-
+\section{Vision}
 
 \subsection{Vignette - Taylor Series}
 
