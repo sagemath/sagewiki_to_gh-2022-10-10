@@ -1,6 +1,8 @@
 = Vision =
+
 {{{
-\section{Vision}
+\section{The Vision}
+
 
 \subsection{Vignette - Taylor Series}
 
@@ -27,6 +29,5 @@ Sage and Magma have.
 
 \subsection{Vignette - Teacher converting notes or modifying the textbook (maybe
 at a small liberal arts school)}
-
 
 }}}
