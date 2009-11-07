@@ -1,3 +1,4 @@
+{{{
 \subsection{Textbooks and curricula in the computer age}
 
 
@@ -25,3 +26,4 @@ every class in the computer lab---not every college campus can transition
 every class to a computer lab. 
 \item Radical departure in course style---too radical for widespread adoption?
 \end{itemize}
+}}}
