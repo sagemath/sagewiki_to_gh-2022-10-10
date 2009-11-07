@@ -1,4 +1,7 @@
+= Proposal =
+
 {{{
+\section{Proposal}
 \subsection{Measurable outcomes}
 
 
