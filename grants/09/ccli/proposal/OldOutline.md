@@ -1,6 +1,6 @@
-= Old Proposal =
+= Old Outline =
 
 {{{
-\part{Old Proposal}
-This is the start of the old proposal.
+\part{Old Outline}
+
 }}}
