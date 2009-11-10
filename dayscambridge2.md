@@ -21,7 +21,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 
 The meeting will be open, but funding from CMI will most likely be limited to invited participants. We may have a bit of additional funding through MIT for other participants; contact [[KiranSKedlaya|Kiran Kedlaya]].
 
-On December 5, we also plan to hold a Sage Education Day, coordinated by Karl-Dieter Crisman.
+On December 5, we also plan to hold the first [[education1|Sage Education Day]], coordinated by Karl-Dieter Crisman.
  
 == Registered Participants ==
 
