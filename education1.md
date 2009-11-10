@@ -37,3 +37,4 @@
  * Jason Grout (Drake)
  * Rob Beezer (Puget Sound)
  * William Stein (University of Washington)
+ * Kiran Kedlaya (MIT)
