@@ -36,3 +36,4 @@
  * Nathan Carter (Bentley)
  * Jason Grout (Drake)
  * Rob Beezer (Puget Sound)
+ * William Stein (University of Washington)
