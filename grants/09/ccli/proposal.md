@@ -1,5 +1,12 @@
 [[http://sage.math.washington.edu:8124/|Build the PDF]]
 
+= STOP! =
+
+For the time being, we are editing this grant at:
+
+http://good.math.iastate.edu/grout/dokuwiki/doku.php?id=ccli:ccli
+
+If you need a username/password, please let Jason Grout know.
 
  * [[/new/newintroduction|Introduction]]
  * [[/new/sage|Sage]]
