@@ -16,9 +16,9 @@
 
 == Coordinates ==
   
- * Date and Location: December 5, 2009 at the Clay Mathematics Institute (Cambridge, MA)
+ * Date and Location: December 5, 2009 at the Clay Mathematics Institute (Cambridge, MA), probably from 9 AM to 2 PM with a lunch break 12-1.
 
- * Driving Directions can be found at the [[http://www.claymath.org/visitors/|Official Clay Mathematics Institute Visitors Page]].
+ * Driving Directions can be found at the [[http://www.claymath.org/visitors/|Official Clay Mathematics Institute Visitors Page]]. Parking meters run on Saturday, and most in Harvard Square are for 2 hours. For off-street parking, see [[http://www.harvardsquare.com/maps.aspx|this map]]. (Bring receipts to Kiran for reimbursement.)
 
 == Mailing List ==
 
@@ -37,4 +37,4 @@
  * Jason Grout (Drake)
  * Rob Beezer (Puget Sound)
  * William Stein (University of Washington)
- * Kiran Kedlaya (MIT)
+ * [[http://math.mit.edu/~kedlaya/|Kiran Kedlaya]] (MIT)
