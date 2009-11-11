@@ -38,3 +38,4 @@
  * Rob Beezer (Puget Sound)
  * William Stein (University of Washington)
  * [[http://math.mit.edu/~kedlaya/|Kiran Kedlaya]] (MIT)
+ * [[http://oz.plymouth.edu/~dcernst|Dana Ernst]] (Plymouth State University)
