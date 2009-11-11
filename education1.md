@@ -25,7 +25,7 @@
  http://groups.google.com/group/sageday18
 
 == Organizers ==
- * Nathan Carter (Bentley)
+ * Nathan Carter ([[http://www.bentley.edu/|Bentley]])
  * Karl-Dieter Crisman ([[http://www.gordon.edu/|Gordon]])
 
 == Confirmed Participants ==
@@ -33,7 +33,7 @@
  If you want to add yourself because you are coming, feel free!
 
  * Karl-Dieter Crisman (Gordon)
- * Nathan Carter (Bentley)
+ * [[http://web.bentley.edu/empl/c/ncarter|Nathan Carter]] (Bentley)
  * Jason Grout (Drake)
  * Rob Beezer (Puget Sound)
  * William Stein (University of Washington)
