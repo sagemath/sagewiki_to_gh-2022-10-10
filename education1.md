@@ -32,7 +32,7 @@
 
  If you want to add yourself because you are coming, feel free!
 
- * Karl-Dieter Crisman (Gordon)
+ * [[http://www.math-cs.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon)
  * [[http://web.bentley.edu/empl/c/ncarter|Nathan Carter]] (Bentley)
  * Jason Grout (Drake)
  * Rob Beezer (Puget Sound)
