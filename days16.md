@@ -25,7 +25,7 @@ Sage Days 16 will take place on June 22--27, 2009, the week after [[http://www.i
 
 == Schedule ==
 
-All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by re-encoding HD video to "iPhone" video using Handbrake.  Each video file is at most 200mb, and will play fine with [[http://www.videolan.org/vlc/|VLC]] (and on the iPhone, of course).   See also [http://sageworldmath.blip.tv/posts?view=archive&nsfw=dc | Sage on Blip TV for all these videos in an easy to view format].
+All video is [[http://wstein.org/edu/2009/sd16/|here]].   I made this video by re-encoding HD video to "iPhone" video using Handbrake.  Each video file is at most 200mb, and will play fine with [[http://www.videolan.org/vlc/|VLC]] (and on the iPhone, of course).   See also [[http://sageworldmath.blip.tv/posts?view=archive&nsfw=dc | Sage on Blip TV for all these videos in an easy to view format]].
 
 ||||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Sunday, June 21||
 || 19:00 ||<-2> '''Meet informally in the lobby of the Resedentia''' ||
