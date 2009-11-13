@@ -21,3 +21,5 @@ This was a conference call between Rob, Jason, and Dan Maki of the NSF (a progra
 * AMS just did a study on a number of schools using electronic homework systems; the data should be coming out soon---it was surprising how many places have switched to online homework.
 
 * You are welcome to ask me (Dan) questions via email or phone.  I can't edit your grant, though. (Jason thinks he said he could give us feedback on a draft, though).
+
+* We definitely want to encourage these types of proposals.  I'm interested in it, though I can't guarantee that all the reviewers will share my interest.  I'll probably look at Sage online now that we've talked, but then I'll probably get too busy to follow up on it.
