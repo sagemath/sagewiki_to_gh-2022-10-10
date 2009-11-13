@@ -29,6 +29,7 @@ Dial:  866 589 0901, passcode:  8227893#
 
 [[/ConferenceCall/12Nov| 12 Nov Conference Call]]
 
+[[/ConferenceCall/13NovNSF| 13 Nov Conference Call WITH NSF (Dan Maki)]]
 
 = Project Ideas =
  * applied math FEMHUB: http://nb.femhub.org/home/pub/5 http://nb.femhub.org/home/pub/6 http://nb.femhub.org/home/pub/7 http://nb.femhub.org/home/pub/8
