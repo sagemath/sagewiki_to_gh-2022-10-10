@@ -126,6 +126,20 @@ You can browse the complete source code to everything in Sage at http://hg.sagem
 
 == Working in Sage ==
 
+=== What exactly does SAGE do when I type 0.6**2? ===
+
+ * QUESTION: When I type 0.6**2 in python, it returns 0.35999999999999999.  When I do the same in Sage it returns 0.360000000000000.  Why?
+ * ANSWER: See [[http://docs.python.org/tutorial/floatingpoint.html|the Python tutorial]] to understand why Python does what it does.    What Sage does is "preparse" the input and transforms it like this:
+{{{
+sage: preparse('0.6**2')
+"RealNumber('0.6')**Integer(2)"
+}}}
+So what is *actually* run is:
+{{{
+RealNumber('0.6')**Integer(2)
+}}}
+Note that {{{RealNumber}}} and {{{Integer}}} are Sage specific, so you wouldn't be able to just type the above into python and expect it to work without first doing {{{from sage.all import RealNumber, Integer, prepearse}}}. 
+
 === Why is Sage's command history different than Magma's ===
 
  * QUESTION: Using Sage, I am missing a feature of Magma command line interface. In Magma, if I enter a line found in history using up arrow key, and then
