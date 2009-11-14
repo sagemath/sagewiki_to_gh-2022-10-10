@@ -1,21 +1,27 @@
 {{{
+
 \section{Introduction}
+
+
 
 \subsection{Textbooks and curricula in the computer age}
 
 
-\subsection{Previous approaches}
 
-Cited previous research should back up the advantages and disadvantages
-below.
+\subsubsection{Previous approaches}
+
+Mathematica and calculus, Banchoff (Brown), etc.  Successful approaches exist, but they have not been widely adopted
 
 
 \subsubsection{Advantages}
-\begin{itemize}
-\item inquiry-based learning 
-\item can do examples too large to do by hand, concentrating on the concepts
-rather than arithmetic 
-\item Demonstrated higher grades for lots of different kinds of students 
+
+higher test scores, etc.
+
+
+\subsubsection{Disadvantages}
+
+costs, driven by technology, radical departure from traditional teaching\ldots{}
+
 \end{itemize}
 
 \subsubsection{Disadvantages}
