@@ -7,7 +7,7 @@ required the combined work of over 200 developers, including faculty,
 graduate, undergraduate, and high school students, and industry
 professionals.
 
-William Stein started the Sage project at Harvard in 2005.  Now there are over 200 Sage developers.  In late 2009, there were well over 5,000 downloads of Sage and over 75,000 visits to the \href{http://sagemath.org}{http://sagemath.org} website.  The free \href{http://sagenb.org}{http://sagenb.org} online Sage server has about 18,000 accounts from faculty, students, the general public all over the world.
+William Stein started the Sage project at Harvard in 2005.  Now there are over 200 Sage developers.  In late 2009, there were well over 5,000 downloads of Sage and over 75,000 visits to the \url{http://sagemath.org} website.  The free \url{http://sagenb.org} online Sage server has about 18,000 accounts from faculty, students, the general public all over the world.
 
 The goal of the Sage project is to create viable easy-to-use free open
 source mathematical software to support both education and research in
@@ -43,9 +43,9 @@ across the network.
 
 \begin{itemize}
 \item  Mathematical deficiences  Sage has a solid foundation of mathematical objects based on category theory.  For example, when asking for the nullspace of a matrix, you actually get back a vector space object.  You can then do things like intersect that vector space with another vector space, ask if a vector is in the vector space, look at the homomorphisms from the vector space into other objects, etc.
-\item  Costs  Sage is freely available, and people are encouraged to make copies and share Sage with other people.  There are multiple public Sage servers, on which anyone can register an account and use Sage, including \href{http://sagenb.org}{http://sagenb.org}, run by William Stein, and supported by the NSF.  
+\item  Costs  Sage is freely available, and people are encouraged to make copies and share Sage with other people.  There are multiple public Sage servers, on which anyone can register an account and use Sage, including \url{http://sagenb.org}, run by William Stein, and supported by the NSF.  
 \item  In addition to not costing any money, the Sage source code is freely available and people are encouraged to look at it and improve it, if they wish.
-\item  Sage uses a mainstream python programming language.  This language is one of the most popular programming languages, and has been used in industry in key applications (e.g., Google, Star Wars, the hubble telescope, etc.).  Many universities are shifting beginning programming courses to using python.  Python is lauded for being a very easy-to-learn, powerful language.  Many students have exposure to python before using Sage (meaning that the learning barrier is drastically reduced), and the python skills that are developed in learning Sage are then applicable in areas far beyond mathematics or their course work.  Since python is an industry standard, there is a huge amount of existing code readily available to students for non-mathematical tasks that come up when analyzing data and exploring mathematical ideas.  For example, \includegraphics[height=1em]{texitjAlVGc.png}
+\item  Sage uses a mainstream python programming language.  This language is one of the most popular programming languages, and has been used in industry in key applications (e.g., Google, Star Wars, the hubble telescope, etc.).  Many universities are shifting beginning programming courses to using python.  Python is lauded for being a very easy-to-learn, powerful language.  Many students have exposure to python before using Sage (meaning that the learning barrier is drastically reduced), and the python skills that are developed in learning Sage are then applicable in areas far beyond mathematics or their course work.  Since python is an industry standard, there is a huge amount of existing code readily available to students for non-mathematical tasks that come up when analyzing data and exploring mathematical ideas.  For example,  \ldots.
 \end{itemize}
 
 
