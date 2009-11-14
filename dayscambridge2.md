@@ -14,7 +14,6 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 
 == Schedule ==
 
-Note that the swapping of Drew Sutherland and Matt Greenberg in the schedule below is not yet confirmed. 
 
 {{{
 Tuesday Dec 1:   Research Day
