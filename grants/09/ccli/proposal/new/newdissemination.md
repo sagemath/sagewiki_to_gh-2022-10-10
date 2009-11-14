@@ -100,14 +100,14 @@ arbitrary Sage commands, see beautifully typeset output, create 2-D
 and 3-D graphics, publish worksheets, and collaborate with other
 users.
 
-\includegraphics[height=1em]{texitjAlVGc.png} screenshot
+screenshot
 
 "Professors at dozens of universities around the world are getting
 excited about how they can leverage the Sage notebook in their
 teaching.
 
 "With some colleagues in our University (Lyon, France) we have built a
-project around Sage for undergraduate students\ldots{} \dokuitalic{And the University has
+project around Sage for undergraduate students\ldots{} \em{And the University has
 decided to support this project.} Good news.
 
 "Now we will be facing the problem to build a Sage configuration which
@@ -121,7 +121,7 @@ Washington on vastly improving the robustness and scalability of the notebook.
 This works is coming at the right time, because use of the Sage notebook
 is growing rapidly.  Using hardware purchased using an NSF SCREMS
 grant (DMS-\ldots{}), Stein created a free public Sage notebook server at
-\url{\href{http://sagenb.org}{http://sagenb.org}}.
+\url{http://sagenb.org}.
 
 (check this) Typically, in Fall 2009, we have seen several hundred new accounts created on the public Sage server every day.
 
