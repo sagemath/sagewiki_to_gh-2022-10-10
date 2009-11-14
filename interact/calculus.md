@@ -1086,7 +1086,7 @@ by John Palmieri
 This displays the nth order Taylor approximation, for n from 1 to 10, of the function sin(x^2^ + y^2^) cos(y) exp(-(x^2^+y^2^)/2).
 {{{
 var('x y')
-var('xx yy', ns=1)
+var('xx yy')
 G = sin(xx^2 + yy^2) * cos(yy) * exp(-0.5*(xx^2+yy^2))
 def F(x,y):
     return G.subs(xx=x).subs(yy=y)
