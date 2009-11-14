@@ -9,10 +9,10 @@ http://good.math.iastate.edu/grout/dokuwiki/doku.php?id=ccli:ccli
 If you need a username/password, please let Jason Grout know.
 
  * [[/new/newintroduction|Introduction]]
- * [[/new/sage|Sage]]
+ * [[/new/sage_adoption|How sage allows for wide adoption while maintaining the benefits of previous approaches]]
  * [[/new/vision|The vision]]
- * [[/new/proposal|Proposal]]
  * [[/new/newevaluation|Evaluation]]
+ * [[/new/newdissemination|Dissemination]]
  * [[/OldOutline|Old Outline]]
  * [[/introduction|Introduction]]
  * [[/projects/notebook|The Sage Notebook]]
