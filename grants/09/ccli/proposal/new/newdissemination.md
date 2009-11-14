@@ -107,7 +107,7 @@ excited about how they can leverage the Sage notebook in their
 teaching.
 
 "With some colleagues in our University (Lyon, France) we have built a
-project around Sage for undergraduate students\ldots{} \em{And the University has
+project around Sage for undergraduate students\ldots{} {\em And the University has
 decided to support this project.} Good news.
 
 "Now we will be facing the problem to build a Sage configuration which
