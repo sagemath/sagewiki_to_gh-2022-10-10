@@ -8,7 +8,9 @@
 
 \subsection{Archive of refereed modules(?)}
 
-We propose to create subject specific tutorials to answer questions such as "What are the Sage commands you need to know in order to do multivariate calculus?"  We propose to create a systematic and organized collection of subject specific tutorials and interacts to include with Sage.  Some work has been put forth in this (library of interacts, Georgia Sage Days Primers).  But there needs to be a lot more work and infrastructure in place to distribute these with Sage.  Maybe reference the Demonstrations project?
+(I'm not sure if this paragraph should go above or here.  for now, it's in two places.)
+
+We propose to create subject specific tutorials to answer questions such as ``What are the Sage commands you need to know in order to do multivariate calculus?''  We propose to create a systematic and organized collection of subject specific tutorials and interacts to include with Sage.  Some work has been put forth in this (library of interacts, Georgia Sage Days Primers).  But there needs to be a lot more work and infrastructure in place to distribute these with Sage.  Maybe reference the Demonstrations project?
 
 
 
@@ -90,7 +92,7 @@ Finally fix echelon/hermite form over ZZ/QQ
 \subsubsection{Differential Equations}
 
 
-\subsection{Notebook development, allowing easy grading and organizing, etc. ("Student-focused work", even being done by students!)}
+\subsection{Notebook development, allowing easy grading and organizing, etc. (``Student-focused work'', even being done by students!)}
 
 
 
@@ -102,18 +104,18 @@ users.
 
 screenshot
 
-"Professors at dozens of universities around the world are getting
+``Professors at dozens of universities around the world are getting
 excited about how they can leverage the Sage notebook in their
 teaching.
 
-"With some colleagues in our University (Lyon, France) we have built a
+``With some colleagues in our University (Lyon, France) we have built a
 project around Sage for undergraduate students\ldots{} {\em And the University has
 decided to support this project.} Good news.
 
-"Now we will be facing the problem to build a Sage configuration which
+``Now we will be facing the problem to build a Sage configuration which
 will work for say 200 students at the same time (students will use the
 notebook), and prepare professors for Sage teaching. There are `some'
-technical problems to solve\ldots{}" (T. Dumont, the Sage mailing list.)
+technical problems to solve\ldots{}'' (T. Dumont, the Sage mailing list.)
 
 
 Stein has been working fulltime during Fall 2009 funded by University of
@@ -142,7 +144,7 @@ Several specific goals for notebook development include:
 \subsection{Making Sage servers easy to set up and administer}
 
 
-Create a nice Virtual Box "Sage notebook server appliance" with a
+Create a nice Virtual Box Sage notebook server appliance with a
 graphical interface, two virtual machines that provides a rock solid
 secure Sage notebook server setup.  Users will be able to very easily
 install this appliance on Windows, Linux, OS X, and Solaris (x86)
@@ -154,7 +156,7 @@ authentication frameworks (such as LDAP), and upgrading Sage with
 minimal user downtime.
 
 We intend to provide support to get Sage to be used on several new
-campuses (this helps fulfill the "project is institutionalized" goal
+campuses (this helps fulfill the ``project is institutionalized'' goal
 of type II proposals).  We will create a new mailing list for server
 administration issues, and in addition to the help we provide would
 like to hire a knowledgeable employee for a certain number of hours
@@ -169,7 +171,7 @@ excellent investment by NSF.
 
 
 
-\subsection{Growing (an already started!) community ("sustainability")}
+\subsection{Growing (an already started!) community (``sustainability'')}
 
 
 
