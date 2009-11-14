@@ -1,5 +1,3 @@
-= Vision =
-
 {{{
 \section{The Vision}
 
@@ -10,6 +8,19 @@ Vigenttes from the point of view of students (in class and out of class),
 instructor (wanting to add something small to a course or wanting to go big time,
 or teaching a more advanced course, oradapting existing material, or\ldots{}.?
 
+Ideas:
+\begin{itemize}
+\item Taylor polynomials -- (But we aren't converting a calculus textbook! Should we use an example
+from a textbook we are actually converting? -- Imagine a calculus lesson on Taylor polynomials as a Sage worksheet in a folder that comprises a calculus textbook.  Sage input cells would instruct the reader on the relevant Sage syntax, and provide the reader the opportunity to edit the input to experiment with different functions and different degree polynomials.  An included interactive Sage demonstration could use a slider to control the degree of the polynomial, and an input box would allow the student to specify an input where the function and the poynomial could be compared numerically.  On each change to the two inputs the demonstration would automatically respond with a new plot of the function and the polynomial, indicating visually the location of the input value on the two curves, along with the two numerical values at the input, plus the numerical difference between the values.  By opening up the mini-word-processor built into Sage, a student can annotate a copy of their text alongside the demonstration, recording their observations or questions, using \LaTeX{} code to create the mathematical expressions accurately in their notes.
+\item High school teacher accessing an interact from within Sage for their classroom -- Some sort of vignette talking about high school is important because
+CCLI emphasizes preparing K-12 teachers. If we show we are empowering
+K-12 teachers, that is a great thing we should point out. Make sure
+to say because we are free, high schools have an extra incentive to
+use it.
+\item Students collaborating, working from home and school together, maybe in an advanced undergraduate course -- Maybe on an algebra project that requires stuff in Sage that only
+Sage and Magma have.
+\item Teacher converting notes or modifying the textbook (maybe at a small liberal arts school)
+\end{itemize}
 
 \subsection{Implementation of proven methods}
 
@@ -19,6 +30,19 @@ or teaching a more advanced course, oradapting existing material, or\ldots{}.?
 list of specific, measurable outcomes
 
 
+
+
+\begin{itemize}
+\item  A system for easily producing online textbooks with live Sage examples from standard Latex source files
+\item  Online textbooks with live Sage examples covering a variety of undergraduate subjects, including linear algebra, abstract algebra, and number theory
+\item  A number of smaller tutorials and course notes for specific topics, such as calculus, discrete math, differential equations, etc.
+\item  Classroom-ready Sage Appliance Virtual machine, so instructors can easily set up a class or campus Sage server
+\item  Translated versions of various appendices of books that contain code for commercial math software systems.
+\item  Improvement of Sage for undergraduate classroom instruction
+\end{itemize}
+
+
+
 \subsection{Textbooks and other curricula material (Before the classroom)}
 
 
@@ -26,15 +50,39 @@ list of specific, measurable outcomes
 
 Describe the system for converting textbooks to Sage; everyone will be able to do it!
 
+Many mathematicians and scientists use the \LaTeX{} language to create technical articles and books.  As a result, there is an impressive array of extensions to \LaTeX{}.  Sage also includes  extensive support for \LaTeX{}, through every mathematical object having a \LaTeX{} representation, and the use of jsMath to render mathematics beautifully in a Sage worksheet (within a standard web browser).  Furthermore, the Sage notebook interface allows a user to add new text, including \LaTeX{} code for mathematics.
+
+This project proposes to convert open-source textbooks into folders of interactive Sage worksheets, or to create Sage-enhanced supplements for existing open-source textbooks.  A Sage worksheet is a combination of input and output cells, optionally with text (HTML) inbetween.  The tex4ht translator (an NSF funded project) can convert extremely complex \LaTeX{} into jsMath, which can be converted to the Sage worsheet format with extremely minimal modifications.  It is possible to insert Sage code into a \LaTeX{} source file, and have it migrate to the eventual Sage worksheet as an input cell.  A pilot project, a fourteen page primer on group theory designed to accompany Judson's abstract algebra text, clearly shows the feasibility of this process and clearly identifies the technical changes needed to make the process routine for an author.
+
+The end result is a folder of Sage worksheets, each a mixture of text, high-quality typeset mathematics, Sage input cells and Sage interactive demonstrations.  
+
+Also, the plan for bundling a collection of worksheets into a more high-level document (basically a packaged version of the Sphinx documentation).
 
 \subsubsection{Converting specific textbooks}
 
 A list of specific textbooks we will do.
 
+Each of the textbooks below is licensed with a GNU Free Documentation Licenses (GFDL) or a Creative Commons License that allows anyone to distribute modified versions, typically only requiring attribution of the original author's work and the use of the same license.
+
+
+
+\begin{itemize}
+\item  \dokuitalic{A First Course in Linear Algebra}, Robert Beezer, \href{http://linear.pugetsound.edu/}{http://linear.pugetsound.edu/}. Second-year university level text, concentrating on understanding how to understand and formulate proofs.  Used at thirteen schools since Fall~2007.  Contains some Sage commands.
+\item  \dokuitalic{Abstract Algebra: Theory and Applications}, Tom Judson, \href{http://abstract.ups.edu/}{http://abstract.ups.edu/}. Standard upper-division treatment of groups, rings, domains, fields, Galois Theory.  Published commercially in 1992, released as open source in 2007.  Used by seven schools in its first year available.  Supplement describes group theory in Sage.
+\item  \dokuitalic{Combinatorics Through Guided Discovery}, Kenneth Bogart, \href{http://www.math.dartmouth.edu/news-resources/electronic/kpbogart/}{http://www.math.dartmouth.edu/news-resources/electronic/kpbogart/}. Problem book in combinatorics with roughly 400 problems designed to teach the subject.  NSF funded, released as open source.
+\item  \dokuitalic{Elementary Number Theory: Primes, Congruences, and Secrets}, William Stein, \href{http://wstein.org/ent/}{http://wstein.org/ent/}. Published by Springer-Verlag, will be available with open license in \includegraphics[height=1em]{texitjAlVGc.png} Month~Year????.  \includegraphics[height=1em]{texitjAlVGc.png} Add capsule summary, Add extent of Sage usage (massive?)Open license consistent with paragraph above?
+\item  \dokuitalic{Vector Calculus}, Michael Corral, \href{http://www.mecmath.net/}{http://www.mecmath.net/}. Standard treatment of multivariate calculus: vector calculus, partial derivatives, multiple integrals, theorems of Green and Stokes.  Impressive graphics.
+\item  \dokuitalic{Trigonometry}, Michael Corral, \href{http://mecmath.net/trig/}{http://mecmath.net/trig/}. An in-depth, comprehensive and unified treatment of the typical high-school topics.  Impressive graphics.
+\item  \dokuitalic{Cryptography}, David Kohel, \href{http://echidna.maths.usyd.edu.au/~kohel/tch/Crypto/crypto.pdf}{http://echidna.maths.usyd.edu.au/~kohel/tch/Crypto/crypto.pdf}. Classical ciphers and their cryptanalysis, modern stream ciphers and public-key cryptography.  Significant appendices on Sage.
+\end{itemize}
+
 
 \subsubsection{Other curricula material}
 
 Other curricula material that we will convert; subject-specific tutorials, course notes, etc.
+
+We propose to create subject specific tutorials to answer questions such as "What are the Sage commands you need to know in order to do multivariate calculus?"  We propose to create a systematic and organized collection of subject specific tutorials and interacts to include with Sage.  Some work has been put forth in this (library of interacts, Georgia Sage Days Primers).  But there needs to be a lot more work and infrastructure in place to distribute these with Sage.  Maybe reference the Demonstrations project?
+
 
 
 \subsubsection{Faculty workshops for converting and developing new "learning materials and strategies"}
@@ -44,6 +92,21 @@ We will get lots of people to convert stuff and teach with Sage.
 
 \subsection{Using Sage in the classroom - "Developing faculty expertise"}
 
+Mini-grants for faculty to write curriculum materials (textbooks/course notes/tutorials/interacts) using Sage. Maybe a few thousand dollars each? A summer salary, or a one-course buyout for a semester?
+
+Several successful conversions or supplements will demonstrate the range of possibilities and allow the necessary experience to design an automated conversion and production system.  This will allow other authors to easily parlay just a working knowledge of \LaTeX{} to the ability to create folders of interactive Sage enhanced worksheets.  Workshops and grants can help and encourage other authors to learn the technical skills, and the possibilities afforded by this new approach, while creating or converting their own textbooks or supplements.
+
+This could be accomplished through
+
+
+
+\begin{itemize}
+\item  A workshop sponsored by AIM.
+\item  A SageDays devoted to textbook conversion and supplement creation.
+\item  A mini-course at the Joint Meetings or MathFest.
+\item  Mini-grants for people to convert textbooks and course notes to Sage
+\item  Mini-grants for people to write course materials for Sage, such as interactive demonstrations ("interacts").
+\end{itemize}
 
 \subsubsection{Classroom trial program (formative evaluation) (feedback from faculty //and// students)}
 
