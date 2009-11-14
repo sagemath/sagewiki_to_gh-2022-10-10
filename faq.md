@@ -138,7 +138,8 @@ So what is *actually* run is:
 {{{
 RealNumber('0.6')**Integer(2)
 }}}
-Note that {{{RealNumber}}} and {{{Integer}}} are Sage specific, so you wouldn't be able to just type the above into python and expect it to work without first doing {{{from sage.all import RealNumber, Integer, prepearse}}}. 
+The Sage developers (in fact, Carl Witty) decided that Sage floating point numbers should by default print only the known correct decimal digits, when possible, thus skirting the problem that Python has.  This decision has its pros and cons.  Note that {{{RealNumber}}} and {{{Integer}}} are Sage specific, so you wouldn't be able to just type the above into python and expect it to work without first doing {{{from sage.all import RealNumber, Integer, prepearse}}}. 
+
 
 === Why is Sage's command history different than Magma's ===
 
