@@ -13,6 +13,9 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
  http://groups.google.com/group/sageday18
 
 == Schedule ==
+
+Note that the swapping of Drew Sutherland and Matt Greenberg in the schedule below is not yet confirmed. 
+
 {{{
 Tuesday Dec 1:   Research Day
  9:00am -  9:30am:  Registration
@@ -20,7 +23,7 @@ Tuesday Dec 1:   Research Day
 12:30pm -  2:00pm:  Lunch
  2:00pm -  3:00pm:  William Stein:  The Kolyvagin-Gross-Zagier Approach to the Birch and Swinnerton-Dyer Conjecture
  3:10pm -  4:10pm:  Robert Miller:  Computationally verifying BSD for individual curves
- 4:20pm -  5:20pm:  Matthew Greenberg:  Fundamental domains for Shimura curves and computation of Stark-Heegner points
+ 4:20pm -  5:20pm:  Drew Sutherland:  Images of Galois representations associated to elliptic curves
  5:30pm -  6:00pm:  Project organization
 
 Wednesday Dec 2: Research Day
@@ -44,7 +47,7 @@ Friday Dec 4:    Research Day
 12:30pm -  2:00pm:  Lunch
  2:00pm -  3:00pm:  Dimitar Jetchev:  Equidistribution of Heegner points and ternary quadratic forms
  3:10pm -  4:10pm:  Mirela Ciperiani:  Solvable points and Kolyvagin's Euler system
- 4:20pm -  5:20pm:  Drew Sutherland:  Images of Galois representations associated to elliptic curves
+ 4:20pm -  5:20pm:  Matthew Greenberg:  Fundamental domains for Shimura curves and computation of Stark-Heegner points
  5:30pm -  6:00pm:  Project status reports (final wrap up)
 
 Saturday Dec 5:  Education Day
