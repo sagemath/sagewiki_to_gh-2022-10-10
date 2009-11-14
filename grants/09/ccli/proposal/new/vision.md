@@ -81,16 +81,16 @@ Each of the textbooks below is licensed with a GNU Free Documentation Licenses (
 
 Other curricula material that we will convert; subject-specific tutorials, course notes, etc.
 
-We propose to create subject specific tutorials to answer questions such as "What are the Sage commands you need to know in order to do multivariate calculus?"  We propose to create a systematic and organized collection of subject specific tutorials and interacts to include with Sage.  Some work has been put forth in this (library of interacts, Georgia Sage Days Primers).  But there needs to be a lot more work and infrastructure in place to distribute these with Sage.  Maybe reference the Demonstrations project?
+We propose to create subject specific tutorials to answer questions such as ``What are the Sage commands you need to know in order to do multivariate calculus?''  We propose to create a systematic and organized collection of subject specific tutorials and interacts to include with Sage.  Some work has been put forth in this (library of interacts, Georgia Sage Days Primers).  But there needs to be a lot more work and infrastructure in place to distribute these with Sage.  Maybe reference the Demonstrations project?
 
 
 
-\subsubsection{Faculty workshops for converting and developing new "learning materials and strategies"}
+\subsubsection{Faculty workshops for converting and developing new ``learning materials and strategies''}
 
 We will get lots of people to convert stuff and teach with Sage.
 
 
-\subsection{Using Sage in the classroom - "Developing faculty expertise"}
+\subsection{Using Sage in the classroom - ``Developing faculty expertise''}
 
 Mini-grants for faculty to write curriculum materials (textbooks/course notes/tutorials/interacts) using Sage. Maybe a few thousand dollars each? A summer salary, or a one-course buyout for a semester?
 
@@ -105,7 +105,7 @@ This could be accomplished through
 \item  A SageDays devoted to textbook conversion and supplement creation.
 \item  A mini-course at the Joint Meetings or MathFest.
 \item  Mini-grants for people to convert textbooks and course notes to Sage
-\item  Mini-grants for people to write course materials for Sage, such as interactive demonstrations ("interacts").
+\item  Mini-grants for people to write course materials for Sage, such as interactive demonstrations (``interacts'').
 \end{itemize}
 
 \subsubsection{Classroom trial program (formative evaluation) (feedback from faculty //and// students)}
