@@ -6,6 +6,9 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
 Location: Somewhere in Seattle.
 
+== Mailing list ==
+ * http://groups.google.com/group/sagedays19
+
 == Participants ==
 
  * Craig Citro
