@@ -206,7 +206,7 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
             return 0
         return RealField(20)(x)
     sum_html = "%s \cdot \\left[ %s \\right]" % (dx, ' + '.join([ "f(%s)" % cap(i) for i in xs ]))
-    num_html = "%s \cdot \\left[ %s \\right]" % (dx, ' + '.join([ str(cap(i)) for i in xs ]))
+    num_html = "%s \cdot \\left[ %s \\right]" % (dx, ' + '.join([ str(cap(i)) for i in ys ]))
     
     numerical_answer = integral_numerical(func,a,b,max_points = 200)[0]
     estimated_answer = dx * sum([ ys[q] for q in range(number_of_subdivisions)])
