@@ -8,6 +8,8 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
  * The Shuey House Mansion: http://www.shueyhouse.com/
 
+ [[attachment:shuey.png|{{attachment:shuey.png}}]]
+
 == Mailing list ==
  * http://groups.google.com/group/sagedays19
 
