@@ -19,7 +19,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 == Mailing list ==
  * http://groups.google.com/group/sagedays19
 
-== Participants ==
+== Confirmed Participants ==
 
  * Craig Citro
  * Robert Bradshaw
@@ -31,4 +31,4 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Willem Jan Palenstijn
  * Jason Grout 
  * Burcin Erocal
- * (more to come ...)
+ * (many more to come ...)
