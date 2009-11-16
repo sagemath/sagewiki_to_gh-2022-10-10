@@ -6,6 +6,7 @@
 
    * contacter des enseignants pour la conception de l'interface lycée.
    * contacter des enseignants pour la conception d'ateliers pratiques tests
+   * groupe IREM Marseille "logique et algorithmique" (réunion le 9 Décembre à Marseille)
    * régler le problème des machines pour les ateliers pratiques
    * prévoir le spam général (depuis les listes du rectorat) pour les alentours du 10 Décembre
 
