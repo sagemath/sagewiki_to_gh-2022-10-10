@@ -3,16 +3,18 @@
  The first [[http://www.sagemath.org|Sage]] Education Day is being held with the generous cooperation of the organizers of [[dayscambridge2|Sage Days 18]].
 
 == Topics ==
-  
+
  * Intro to using Sage for math in the classroom
 
- * Using Sage with calculus (tentative topic)
-
- * Sage implementation in the classroom - logistics and more
+ * Using Sage in specific courses (multivariable calculus and group theory - tentative)
 
  * Intro to the [[http://lurch.sourceforge.net/|Lurch]] math proof software project
 
+ * Sage implementation in the classroom - logistics and more
+
  * Roundtable discussions on general math software, and on math and word processing - for both, what works and what doesn't
+
+See [[#schedule|below]] for the official schedule.
 
 == Logistics ==
   
@@ -39,7 +41,7 @@
 <<Anchor(registration)>>
 == Registration ==
 
- There are several ways to register.  
+There are several ways to register.  
 
  * Send an email to one of the organizers (addresses available on their home pages below),
  * Put your name on the list below of confirmed participants, or
@@ -54,3 +56,19 @@
  * William Stein (University of Washington)
  * [[http://math.mit.edu/~kedlaya/|Kiran Kedlaya]] (MIT)
  * [[http://oz.plymouth.edu/~dcernst|Dana Ernst]] (Plymouth State University)
+
+<<Anchor(schedule)>>
+== Official Clay Math Schedule ==
+
+We will mostly follow this schedule, but it has some built-in flexibility to accommodate workshop participant interest.
+
+ * 9:00am -  9:30am:  Registration
+ * 9:30am -  9:45am:  Introductions and announcements
+ * 9:45am - 10:30am:  Using Sage in the classroom; an introduction (Karl-Dieter Crisman)
+ * 10:30am - 11:00am:  Roundtable discussion - math software capabilities: what is in Sage, what should be in Sage
+ * 11:00am - 11:10am:  Break
+ * 11:10am - 11:30am:  Introduction to Lurch (Lite) (Nathan Carter)
+ * 11:30am - 11:50am:  Roundtable discussion - math and word processing: what works, what doesn't, and the state of Lurch and Sage
+ * 11:50am - 12:20am:  Sage for newbies: logistics, browsers, portability, documentation, etc.
+ * 12:20pm -  1:30pm:  Lunch
+ * 1:30pm -  2:30pm:  Undergraduate teaching with Sage in specific courses (tentatively multivariable calculus and group theory)
