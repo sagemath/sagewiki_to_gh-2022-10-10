@@ -4,6 +4,9 @@ Dates: January 16-20, 2010  (arrive Jan 15, checkout Jan 20)
 
 Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
+
+ [[attachment:bug.png|{{attachment:bug.png}}]]
+
 == Location ==
 
  * Participants will stay and work at the [[http://www.shueyhouse.com/ Shuey House Mansion]] for the workshop:
