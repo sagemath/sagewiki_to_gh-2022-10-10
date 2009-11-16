@@ -12,7 +12,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Participants will stay and work at the [[http://www.shueyhouse.com/ Shuey House Mansion]] for the workshop:
    5218 16th ave NE, Seattle, WA 98105
 
- [[attachment:shuey.png|{{attachment:shuey.png}}]]
+ [[attachment:shuey.png|{{attachment:shuey.png}}]]  [[attachment:outside.png|{{attachment:outside.png}}]]
 
 == Mailing list ==
  * http://groups.google.com/group/sagedays19
