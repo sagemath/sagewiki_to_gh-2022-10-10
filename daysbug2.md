@@ -14,7 +14,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
  [[attachment:shuey.png|{{attachment:shuey.png}}]]  [[attachment:outside.png|{{attachment:outside.png}}]]
 
- * People sleeping at Shuey (up to 10): Willem Jan Palenstijn, Nick Alexander, Jason Grout
+ * People sleeping at Shuey (6 rooms; 10 beds): Willem Jan Palenstijn, Nick Alexander, Jason Grout
 
 == Mailing list ==
  * http://groups.google.com/group/sagedays19
