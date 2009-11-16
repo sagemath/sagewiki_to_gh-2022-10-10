@@ -31,9 +31,9 @@ At least twice a day, a mirror should check if there are updates on the master. 
 [[http://linux.die.net/man/1/crontab|crontab]] is a nice system daemon, that does periodic task scheduling in linux. As a regular user, run '''crontab -e''' in a terminal to start the crontab editor. A line like
 
 {{{
-0 * * * * "/home/<username>/rsync_sagemath" 2> /home/<username>/rsync_sagemath.errors > /dev/null
+*/10 * * * * "/home/<username>/rsync_sagemath" 2> /home/<username>/rsync_sagemath.errors > /dev/null
 }}}
-calls the rsync_sagemath script every time the minutes in the computer clock are "00". Something like "{{{0 */2 * * * }}}" does it every second hour when the minutes are "00", "{{{0 1,9,19 * * * }}}" at full hours 1am, 9am and 7pm, ... Read the [[http://linux.die.net/man/1/crontab|man page]] for more information. The part after that just says that errors should be written into a specific file and everything else should be written nowhere. 
+calls the rsync_sagemath script every time the minutes in the computer clock are "00" or a multiple of "10" (modulo 10). Something like "{{{0 */2 * * * }}}" does it every second hour when the minutes are "00", "{{{0 1,9,19 * * * }}}" at full hours 1am, 9am and 7pm, ... Read the [[http://linux.die.net/man/1/crontab|man crontab]] page for more information. The part after that just says that errors should be written into a specific file and everything else should be written nowhere. 
 
 Beware, there *has* to be a <newline> at the end of the file, not just the crontab line.
 
