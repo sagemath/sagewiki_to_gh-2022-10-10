@@ -82,6 +82,7 @@ On December 5, we also plan to hold the first [[education1|Sage Education Day]],
  * Joël Bellaïche 
  * Robert Bradshaw 
  * Mirela Ciperiani 
+ * Victoria Dequehen 
  * Noam Elkies (unable to come)
  * Cameron Franc 
  * Matt Greenberg 
