@@ -6,7 +6,8 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
 == Location ==
 
- * The Shuey House Mansion: http://www.shueyhouse.com/
+ * Participants will stay and work at the [[http://www.shueyhouse.com/ Shuey House Mansion]] for the workshop:
+   5218 16th ave NE, Seattle, WA 98105
 
  [[attachment:shuey.png|{{attachment:shuey.png}}]]
 
