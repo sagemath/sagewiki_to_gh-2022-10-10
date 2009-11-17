@@ -14,7 +14,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
  [[attachment:shuey.png|{{attachment:shuey.png}}]]  [[attachment:outside.png|{{attachment:outside.png}}]]
 
- * People sleeping at Shuey (6 rooms; ~10 beds): Willem Jan Palenstijn, Nick Alexander, Jason Grout, Burcin Erocal, Mike Hansen (+1, so own room)
+ * People sleeping at Shuey (6 rooms; ~10 beds): Willem Jan Palenstijn, Nick Alexander, Jason Grout, Burcin Erocal, Mike Hansen (+1, so own room), Sebastian Pancratz
 
 == Mailing list ==
  * http://groups.google.com/group/sagedays19
@@ -31,4 +31,5 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Willem Jan Palenstijn
  * Jason Grout 
  * Burcin Erocal
+ * Sebastian Pancratz
  * (many more to come ...)
