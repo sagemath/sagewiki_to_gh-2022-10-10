@@ -34,7 +34,11 @@ Below, talk to your secretaries and find out exactly how much what you want will
     * Travel support - MAA meetings, Sage Days, etc. = $6,000
 
  * Tom Judson: 
-    * 3 months Summer Salary: $21,000
+    * Summer 2010: Prepare the abstract algebra textbook for integration with Sage, work with Sandra Laursen  and Marja-Liisa Hassi to prepare detailed evaluation plan, work on the educational research component. (1 month at @ $6675 = $6675)
+    * Summer 2011: Work on the abstract algebra book with Rob, continue to work on the evaluation and educational research components (2 months @ $6675 = $13,350)
+    * Summer 2012: Finish the evaluation and educational research components (0.5 months at @ $6675 = $3337.50)
+    * Total Budget Request:  $23362.50
+
 
  * Two Sage Edu Days:
     * $12K/each
