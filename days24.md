@@ -48,7 +48,7 @@ There will be a registration fee of 40 Euros.
 <<Anchor(organizers)>>
 === Organizers ===
  * Burcin Erocal - burcin@erocal.org
- * Ralf Hemmecke
+ * Ralf Hemmecke - http://www.risc.jku.at/people/hemmecke
  * Temur Kutsia
 
 
