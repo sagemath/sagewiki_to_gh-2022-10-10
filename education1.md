@@ -65,10 +65,10 @@ We will mostly follow [[http://www.claymath.org/workshops/sage/|the official sch
  * 9:00am -  9:30am:  Registration
  * 9:30am -  9:45am:  Introductions and announcements
  * 9:45am - 10:30am:  Using Sage in the classroom; an introduction (Karl-Dieter Crisman)
- * 10:30am - 11:00am:  Roundtable discussion - math software capabilities: what is in Sage, what should be in Sage
+ * 10:30am - 11:00am:  Roundtable discussion - math software capabilities: what is in Sage, what should be in Sage (William Stein, Karl-Dieter Crisman, everyone!)
  * 11:00am - 11:10am:  Break
- * 11:10am - 11:30am:  Introduction to Lurch (Lite) (Nathan Carter)
- * 11:30am - 11:50am:  Roundtable discussion - math and word processing: what works, what doesn't, and the state of Lurch and Sage
- * 11:50am - 12:20am:  Sage for newbies: logistics, browsers, portability, documentation, etc.
+ * 11:10am - 11:30am:  Introduction to Lurch and Lurch Lite (Nathan Carter)
+ * 11:30am - 11:50am:  Roundtable discussion - math and word processing: what works, what doesn't, and the state of Lurch and Sage (Jason Grout, Nathan Carter, everyone!)
+ * 11:50am - 12:20am:  Sage for newbies: logistics, browsers, portability, documentation, etc. (TBD)
  * 12:20pm -  1:30pm:  Lunch
- * 1:30pm -  2:30pm:  Undergraduate teaching with Sage in specific courses (tentatively multivariable calculus and group theory)
+ * 1:30pm -  2:30pm:  Undergraduate teaching with Sage in specific courses: tentatively multivariable calculus (Jason Grout) and group theory (Rob Beezer)
