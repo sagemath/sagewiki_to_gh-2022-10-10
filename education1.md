@@ -58,9 +58,9 @@ There are several ways to register.
  * [[http://oz.plymouth.edu/~dcernst|Dana Ernst]] (Plymouth State University)
 
 <<Anchor(schedule)>>
-== Official Clay Math Schedule ==
+== Official Schedule ==
 
-We will mostly follow this schedule, but it has some built-in flexibility to accommodate workshop participant interest.
+We will mostly follow [[http://www.claymath.org/workshops/sage/|the official schedule]], but it has some built-in flexibility to accommodate workshop participant interest.  Here we include a little extra detail on the sessions, beyond what is available on the official website.
 
  * 9:00am -  9:30am:  Registration
  * 9:30am -  9:45am:  Introductions and announcements
