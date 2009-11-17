@@ -56,6 +56,7 @@ There are several ways to register.
  * William Stein (University of Washington)
  * [[http://math.mit.edu/~kedlaya/|Kiran Kedlaya]] (MIT)
  * [[http://oz.plymouth.edu/~dcernst|Dana Ernst]] (Plymouth State University)
+ * Robert Bradshaw (University of Washington)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
