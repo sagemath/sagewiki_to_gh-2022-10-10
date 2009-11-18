@@ -57,6 +57,7 @@ There are several ways to register.
  * [[http://math.mit.edu/~kedlaya/|Kiran Kedlaya]] (MIT)
  * [[http://oz.plymouth.edu/~dcernst|Dana Ernst]] (Plymouth State University)
  * Robert Bradshaw (University of Washington)
+ * Ken Levasseur (UMass Lowell)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
