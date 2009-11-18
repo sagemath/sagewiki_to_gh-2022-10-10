@@ -58,6 +58,7 @@ There are several ways to register.
  * [[http://oz.plymouth.edu/~dcernst|Dana Ernst]] (Plymouth State University)
  * Robert Bradshaw (University of Washington)
  * Ken Levasseur (UMass Lowell)
+ * Peter Ash
 
 <<Anchor(schedule)>>
 == Official Schedule ==
