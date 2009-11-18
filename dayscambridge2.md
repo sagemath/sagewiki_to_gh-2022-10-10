@@ -44,7 +44,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 || 9:00am - 12:30pm|| Morning working sessions||
 ||12:30pm -  2:00pm|| Lunch||
 || 2:00pm -  3:00pm|| Dimitar Jetchev:  Equidistribution of Heegner points and ternary quadratic forms||
-|| 3:10pm -  4:10pm|| Mirela Ciperiani:  Solvable points and Kolyvagin's Euler system||
+|| 3:10pm -  4:10pm|| Mirela Ciperiani:  Solvable points and Kolyvagin's Euler system (see the [[http://www.ma.utexas.edu/users/mirela/solvable.pdf|research apper]])||
 || 4:20pm -  5:20pm|| Matthew Greenberg:  Fundamental domains for Shimura curves and computation of Stark-Heegner points||
 || 5:30pm -  6:00pm|| Project status reports (final wrap up)||
  
