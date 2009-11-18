@@ -24,12 +24,12 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Craig Citro
  * Robert Bradshaw
  * William Stein
- * Mike Hansen
+ * Mike Hansen (World)
  * Robert Miller
  * Tom Boothby
- * Nick Alexander 
- * Willem Jan Palenstijn
- * Jason Grout 
- * Burcin Erocal
- * Sebastian Pancratz
- * (many more to come ...)
+ * Nick Alexander (UC Irvine, California)
+ * Willem Jan Palenstijn  (Holland) 
+ * Jason Grout   (Iowa)
+ * Burcin Erocal  (Austria)
+ * Sebastian Pancratz  (Cambridge, England)
+ * (many more to come ...?)
