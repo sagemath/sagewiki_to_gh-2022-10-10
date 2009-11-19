@@ -49,7 +49,13 @@ Below, talk to your secretaries and find out exactly how much what you want will
 
  * Sage Days
    * [$24,000] Sage EduDays (summers 2 and 3; invite faculty to teach about writing subject-specific curricula and using Sage in the classroom).  The first Sage EduDays will probably be smaller than the second.
-   * Sage Days 
+   * Sage Days (at least 3, one for each summer)
+   * Sage Days with webwork/moodle people (summer 3)
+
+ * Conferences
+   * Joint Meetings booth (3 years)
+
+ * Advertising? (mailers/paper/etc?)
 
  * [$10,000] AIM Dissemination
     * See http://groups.google.com/group/sage-grants/browse_thread/thread/581889719a14be28/
