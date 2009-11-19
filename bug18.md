@@ -20,3 +20,4 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  1. Burcin Erocal (symbolics)
  1. Minh Van Nguyen (documentation)
  1. Martin Albrecht (undecided yet)
+ 1. Robert Bradshaw (undecided, won't be around in the morning but will try to drop in later)
