@@ -28,12 +28,12 @@ Below, talk to your secretaries and find out exactly how much what you want will
  * Jason Grout:
     * funding through university
     * [$32,400 + overhead + yearly increases?] 6 months summer (2 mos x 3 summers): 5400x6
-    * [$6,000] Travel support - MAA meetings, Sage Days, etc.--2000/year: $6000
+    * [$6,000] Travel support - MAA meetings, Sage Days, etc.--2000/year: 6000
 
  * Rob Beezer:
-    * [$67,100] 6 months summer (2 mos x 3 summers): 21856 + 22293 + 22961 = $67,110
+    * [$67,100] 6 months summer (2 mos x 3 summers): 21856 + 22293 + 22961 = 67,110
     * This is actual salary, until I understand indirect costs, etc.
-    * [$6,000] Travel support - MAA meetings, Sage Days, etc. = $6,000
+    * [$6,000] Travel support - MAA meetings, Sage Days, etc. = 6,000
 
  * [$23,362.50] Tom Judson: 
     * Summer 2010: Prepare the abstract algebra textbook for integration with Sage, work with Sandra Laursen  and Marja-Liisa Hassi to prepare detailed evaluation plan, work on the educational research component. (1 month at @ $6675 = $6675)
@@ -42,7 +42,7 @@ Below, talk to your secretaries and find out exactly how much what you want will
     * Total Budget Request:  $23362.50
 
  * Undergraduate Students
-    * [$36,000] William -- 4 parttime undergraduate employees: $12K/year
+    * [$36,000] William -- 4 parttime undergraduate employees: 12K/year
     * Jason -- 2 summer students, paid through AIM (at whatever the usual rate and hours worked is): (3 years)(2 months)(2 students) = 12 student-months
     * Jason -- 1 part-time student during the academic year, paid through AIM at the normal rate/hours worked: (3 years)(1 student) = 3 student-years (academic years)
     * Travel money for students to go to meetings about Sage: ???
