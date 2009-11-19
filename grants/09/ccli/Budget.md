@@ -24,7 +24,7 @@ Below, talk to your secretaries and find out exactly how much what you want will
 
  * William Stein: 
 {{{
-   * One possibility is 4 months total summer sallary for me: 
+   * One possibility is 4 months total summer salary for me: 
 
           $12,732.28/month  (= 10,301 + 2,431 = salary + UW benefits)
           $19,862 through UW with overhead
@@ -62,7 +62,7 @@ Below, talk to your secretaries and find out exactly how much what you want will
     * Summer 2012: Finish the evaluation and educational research components (0.5 months at @ $6675 = $3337.50)
     * Total Budget Request:  $23362.50
 
- * Undergraduate Students
+ * Undergraduate Students -- all paid through AIM
     * [$36,000] William -- 4 parttime undergraduate employees: 12K/year
     * Jason -- 2 summer students, paid through AIM (at whatever the usual rate and hours worked is): (3 years)(2 months)(2 students) = 12 student-months
     * Jason -- 1 part-time student during the academic year, paid through AIM at the normal rate/hours worked: (3 years)(1 student) = 3 student-years (academic years)
@@ -120,3 +120,58 @@ equivalent to a 1-quarter student project.  However, in some cases,
 they can be most efficiently done by an expert somewhere in the world,
 who we may hire via contract (and who might not be a student).
 }}}
+
+    1. Notebook
+        1. LDAP integration
+        1. Ways for students and professors to organize their work (like tags on the the worksheets) 
+        1. Ways for students and professors to interact with each other (e.g., submitting and grading assignments, collaborating, make comments on a worksheet, read-only sharing, etc.)
+        1. A grading and annotating system for grading student worksheets. 
+        1. Make notebook cells content-editable HTML divs
+        1. Interactive javascript input widgets (much better if have content-editable div cells)
+            1. MathJax
+            1. Matrix input widget
+            1. Geogebra widget
+            1. Graph editor
+        1. Get zipped collections of worksheets with accounts=True
+    1. Curricula areas
+        1. Graph Theory
+            1. Complete transition to Robert’s Cython code (need iterators, etc.)
+            1. Evaluate the new networkx and upgrade to it (possibly change our interface)
+            1. Fill out with commands for a typical discrete math class
+        1. Calculus
+            1. Finish the test suite of integrals
+            1. Maxima library interface
+            1. symbolic functions from R^n to R^m (for multivariable calculus)
+        1. Linear algebra
+            1. Make interfaces consistent; implement things undergrad courses need (QR decomposition, etc.)
+    1. Plotting
+        1. Make interface consistent (lots of options are inconsistent among commands, etc.)
+        1. 2d plot transformations
+        1. Make color component that aids users in selecting color schemes for disabilities; make sure default color schemes are friendly to color-blind, etc.
+        1. Interactive 2d plots (matplotlib html5 canvas, or flot, or something)
+        1. Interactive 3d plots (javascript interface to jmol)
+        1. Native browser 3d plots (using technologies that are currently developing---this is probably a project for year 3, maybe)
+    1. Testing
+        1. Make full-scale use of the TestSuite stuff to test commands are consistent across subtypes.  Fix errors
+    1. User interface testing
+        1. Evaluate the intuitiveness and discoverability of interfaces (this is open-ended...)
+        1. Write framework to automatically record user interaction for tests
+    1. Interact
+        1. flexible layout of interact controls and output
+        1. New controls (2d locator,...)
+        1. Nested interacts
+        1. Make interacts work on published worksheets
+        1. Make it easy to include interacts on normal webpages that then talk with the server.
+    1. Symbolics
+    1. Virtual appliance
+        1. GUI to create and start/stop multiple servers (with full security options), manage accounts, backup notebook servers and restore notebook servers, upgrade Sage (maybe on only selected servers?), etc.
+        1. Explore cloud options (an EC2 instance for example)
+        1. Clear and easy documentation about setting up a campus-wide server (including hardware requirements)
+    1. Library of curricula materials
+        1. Interacts included in Sage, grouped by topic, searchable, with screenshots and one-click buttons
+        1. Web interface to do the same on sagemath.org (see the Wolfram Demonstrations project, for example)
+    1. Documentation
+        1. Plots/Graphics in user manuals
+        1. Form a docstring convention; fix docstrings to do this
+        1. Set up system like numpy for everyone to contribute/edit docstrings
+    1. Cygwin port of Sage
