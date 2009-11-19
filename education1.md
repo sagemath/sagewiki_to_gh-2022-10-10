@@ -47,6 +47,8 @@ There are several ways to register.
  * Put your name on the list below of confirmed participants, or
  * Just show up!
 
+CMI would also like all participants to register with them, but this can be done when you arrive.
+
 == Confirmed Participants ==
 
  * [[http://www.math-cs.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon)
