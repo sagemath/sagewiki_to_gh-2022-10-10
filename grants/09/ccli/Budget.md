@@ -123,7 +123,8 @@ Please annotate the list below with how much time you think it would take an und
             1. Maxima library interface
             1. symbolic functions from R^n to R^m (for multivariable calculus)
         1. Linear algebra
-            1. [4 weeks] Make interfaces consistent; implement things undergrad courses need (QR decomposition, etc.)
+            1. [3 weeks] Make interfaces consistent
+            1. [4 weeks] Implement things an undergrad course needs (QR decomposition, LU decomposition, SVD, etc.)
         1. Group theory
             1. [5,000] libgap
             1. [3,000] improve misc group theory wrapping
