@@ -61,6 +61,7 @@ CMI would also like all participants to register with them, but this can be done
  * Robert Bradshaw (University of Washington)
  * Ken Levasseur (UMass Lowell)
  * Peter Ash
+ * Desmond Sheeran
 
 <<Anchor(schedule)>>
 == Official Schedule ==
