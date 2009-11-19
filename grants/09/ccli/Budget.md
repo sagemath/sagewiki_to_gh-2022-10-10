@@ -97,29 +97,9 @@ Below, talk to your secretaries and find out exactly how much what you want will
  * Improve Sage Infrastructure, emphasizing improving the educational experience
     * William has about $68,000 of good ideas (exclusive of subject guides) [[attachment:stein-ideas.pdf]]
 
- * Misc project estimates:
-{{{
-  * COSTS:
-     * libgap -- this is hard -- $5K
-     * improve misc group theory wrapping -- $3K
+== Specific Projects ==
 
-     * graph theory improvements -- $4.5K  (good full summer project)
-
-     * plotting: 2d transformations -- $1K
-     * html5 canvas for matplotlib -- no clue  jason?
-
-     * interactive 3d -- no clue
-
-     * "clean up symbolics" -- burcin is already actively working on
-       this, and will remain so for a while, funded by europe...
-
-     * maxima embedded -- not sure; ask nils (emails sent)
-
-I wonder if it would be better to just say that each of these is
-equivalent to a 1-quarter student project.  However, in some cases,
-they can be most efficiently done by an expert somewhere in the world,
-who we may hire via contract (and who might not be a student).
-}}}
+Please annotate the list below with how much time you think it would take to do it.
 
     1. Notebook
         1. LDAP integration
@@ -144,6 +124,9 @@ who we may hire via contract (and who might not be a student).
             1. symbolic functions from R^n to R^m (for multivariable calculus)
         1. Linear algebra
             1. Make interfaces consistent; implement things undergrad courses need (QR decomposition, etc.)
+        1. Group theory
+            1. [5,000] libgap
+            1. [3,000] improve misc group theory wrapping
     1. Plotting
         1. Make interface consistent (lots of options are inconsistent among commands, etc.)
         1. 2d plot transformations
