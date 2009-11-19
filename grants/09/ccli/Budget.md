@@ -41,7 +41,7 @@ Below, talk to your secretaries and find out exactly how much what you want will
     * Summer 2012: Finish the evaluation and educational research components (0.5 months at @ $6675 = $3337.50)
     * Total Budget Request:  $23362.50
 
- * Students
+ * Undergraduate Students
     * William -- 4 parttime undergraduate employees: $12K/year
     * Jason -- 2 summer students, paid through AIM (at whatever the usual rate and hours worked is): (3 years)(2 months)(2 students) = 12 student-months
     * Jason -- 1 part-time student during the academic year, paid through AIM at the normal rate/hours worked: (3 years)(1 student) = 3 student-years (academic years)
