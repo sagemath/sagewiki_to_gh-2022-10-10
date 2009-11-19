@@ -6,7 +6,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
   
  Date: December 1-5, 2009
 
- Location: Clay Mathematics Institute (Cambridge, MA)
+ Location: Clay Mathematics Institute (Cambridge, MA) ([[http://www.claymath.org/visitors/|directions]])
 
 == Mailing List ==
 
@@ -67,9 +67,9 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
  * Barry Mazur
  * William Stein (chair)
 
-The meeting will be open, but funding from CMI will most likely be limited to invited participants. We may have a bit of additional funding through MIT for other participants; contact [[KiranSKedlaya|Kiran Kedlaya]].
+All sessions are open to the public. Funding is mostly limited to invited participants; however, if you just found out about this meeting and want to participate, contact [[KiranSKedlaya|Kiran Kedlaya]] and we'll see what we can do.
 
-On December 5, we also plan to hold the first [[education1|Sage Education Day]], coordinated by Karl-Dieter Crisman.
+On December 5, we also plan to hold the first [[education1|Sage Education Day]], coordinated by Karl-Dieter Crisman and Nathan Carter.
  
 == Registered Participants ==
 
