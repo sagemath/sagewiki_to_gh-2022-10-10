@@ -18,10 +18,10 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
  1. William Stein: 
       * (done) [[http://trac.sagemath.org/sage_trac/ticket/5338|5338]] -- major symbolic minpoly issues from nearly a year ago.
-      * [[http://trac.sagemath.org/sage_trac/ticket/386|386]] -- already done long ago
-      * [[http://trac.sagemath.org/sage_trac/ticket/436|436]] -- close as invalid
-      * [[http://trac.sagemath.org/sage_trac/ticket/3464|3464]] -- already fixed.
-      * [[http://trac.sagemath.org/sage_trac/ticket/3619|3619]] -- log logins to a file.
+      * (done) [[http://trac.sagemath.org/sage_trac/ticket/386|386]] -- already done long ago
+      * (done) [[http://trac.sagemath.org/sage_trac/ticket/436|436]] -- close as invalid
+      * (done) [[http://trac.sagemath.org/sage_trac/ticket/3464|3464]] -- already fixed.
+      * (done) [[http://trac.sagemath.org/sage_trac/ticket/3619|3619]] -- log logins to a file.
  1. Burcin Erocal (symbolics)
  1. Minh Van Nguyen (documentation)
  1. Martin Albrecht (undecided yet)
