@@ -27,6 +27,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Mike Hansen (World)
  * Robert Miller
  * Tom Boothby
+ * Kevin Stueve
  * Nick Alexander (UC Irvine, California)
  * Willem Jan Palenstijn  (Holland) 
  * Jason Grout   (Iowa)
