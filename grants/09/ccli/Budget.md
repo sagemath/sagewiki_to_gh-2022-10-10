@@ -23,7 +23,28 @@
 Below, talk to your secretaries and find out exactly how much what you want will really cost. 
 
  * William Stein: 
-    * 4 Months Summer Salary: $
+{{{
+   * One possibility is 4 months total summer sallary for me: 
+
+          $12,732.28/month  (= 10,301 + 2,431 = salary + UW benefits)
+          $19,862 through UW with overhead
+
+   * Actually, I would much prefer 2 months teaching buyout during
+     the academic year, using 100% matching funds from UW, which would cost
+  
+          $19,862 through UW, with overhead.
+ 
+     I.e., teaching buyout at UW is a good deal, since the department
+     matches.  They don't match summer salary.
+
+     Also, I prefer to focus on number theory research in the summer,
+     instead of Sage, which would be at odds with me being supported
+     by this grant.
+
+     I also find working with students on sage-related stuff much
+     easier during the academic year, since I travel in the summer.
+
+}}}
     
  * Jason Grout:
     * funding through university
@@ -75,3 +96,27 @@ Below, talk to your secretaries and find out exactly how much what you want will
 
  * Improve Sage Infrastructure, emphasizing improving the educational experience
     * William has about $68,000 of good ideas (exclusive of subject guides) [[attachment:stein-ideas.pdf]]
+
+ * Misc project estimates:
+{{{
+  * COSTS:
+     * libgap -- this is hard -- $5K
+     * improve misc group theory wrapping -- $3K
+
+     * graph theory improvements -- $4.5K  (good full summer project)
+
+     * plotting: 2d transformations -- $1K
+     * html5 canvas for matplotlib -- no clue  jason?
+
+     * interactive 3d -- no clue
+
+     * "clean up symbolics" -- burcin is already actively working on
+       this, and will remain so for a while, funded by europe...
+
+     * maxima embedded -- not sure; ask nils (emails sent)
+
+I wonder if it would be better to just say that each of these is
+equivalent to a 1-quarter student project.  However, in some cases,
+they can be most efficiently done by an expert somewhere in the world,
+who we may hire via contract (and who might not be a student).
+}}}
