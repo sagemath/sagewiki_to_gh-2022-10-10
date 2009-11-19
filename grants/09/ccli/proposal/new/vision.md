@@ -74,6 +74,7 @@ Each of the textbooks below is licensed with a GNU Free Documentation Licenses (
 \item  \em{Vector Calculus}, Michael Corral, \url{http://www.mecmath.net/}. Standard treatment of multivariate calculus: vector calculus, partial derivatives, multiple integrals, theorems of Green and Stokes.  Impressive graphics.
 \item  \em{Trigonometry}, Michael Corral, \url{http://mecmath.net/trig/}. An in-depth, comprehensive and unified treatment of the typical high-school topics.  Impressive graphics.
 \item  \em{Cryptography}, David Kohel, \url{http://echidna.maths.usyd.edu.au/~kohel/tch/Crypto/crypto.pdf}. Classical ciphers and their cryptanalysis, modern stream ciphers and public-key cryptography.  Significant appendices on Sage.
+\item Could we add my Riemann Hypothesis book with Barry Mazur?   http://wstein.org/rh/  It's aimed at undergrads, but isn't a traditional textbook by any stretch.
 \end{itemize}
 
 
