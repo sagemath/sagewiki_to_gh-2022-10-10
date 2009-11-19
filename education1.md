@@ -62,6 +62,7 @@ CMI would also like all participants to register with them, but this can be done
  * Ken Levasseur (UMass Lowell)
  * Peter Ash
  * Desmond Sheeran
+ * Eric Pite
 
 <<Anchor(schedule)>>
 == Official Schedule ==
