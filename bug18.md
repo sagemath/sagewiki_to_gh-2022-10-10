@@ -16,7 +16,8 @@ From Linux you can chat via a text console by installing "irssi", running it, an
 
 = Participants (with area they would like to work on) =
 
- 1. William Stein (notebook)
+ 1. William Stein: 
+      * [[http://trac.sagemath.org/sage_trac/ticket/5338|5338]] -- major symbolic minpoly issues from nearly a year ago.
  1. Burcin Erocal (symbolics)
  1. Minh Van Nguyen (documentation)
  1. Martin Albrecht (undecided yet)
