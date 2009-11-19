@@ -5,5 +5,5 @@
  * [[/new/vision|The vision]]
  * [[/new/newevaluation|Evaluation]]
  * [[/new/newdissemination|Dissemination]]
-
+ * [[/new/enhancing|Enhancing Sage for Specific Courses]]
  * [[/references|References]]
