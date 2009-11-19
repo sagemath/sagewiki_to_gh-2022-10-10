@@ -27,6 +27,11 @@ Below, talk to your secretaries and find out exactly how much what you want will
     * 4 parttime undergraduate employees: $12K/year
     
  * Jason Grout:
+    * funding through university
+    * 6 months summer (2 mos x 3 summers): 10800x3 = $32400 + overhead (30%?) + whatever yearly increases are needed
+    * Travel support - MAA meetings, Sage Days, etc.--$2000/year: $6000
+    * 2 summer students, paid through AIM (at whatever the usual rate and hours worked is): 
+    * 1 part-time during the year student, paid through AIM at the normal rate/hours worked: 
 
  * Rob Beezer:
     * 6 months summer (2 mos x 3 summers): 21856 + 22293 + 22961 = $67,110
