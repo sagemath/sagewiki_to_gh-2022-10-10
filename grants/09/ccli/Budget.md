@@ -27,30 +27,31 @@ Below, talk to your secretaries and find out exactly how much what you want will
     
  * Jason Grout:
     * funding through university
-    * 6 months summer (2 mos x 3 summers): 5400x6 = $32400 + overhead (30%?) + whatever yearly increases are needed
-    * Travel support - MAA meetings, Sage Days, etc.--2000/year: $6000
+    * [$32,400 + overhead + yearly increases?] 6 months summer (2 mos x 3 summers): 5400x6
+    * [$6,000] Travel support - MAA meetings, Sage Days, etc.--2000/year: $6000
 
  * Rob Beezer:
-    * 6 months summer (2 mos x 3 summers): 21856 + 22293 + 22961 = $67,110
+    * [$67,100] 6 months summer (2 mos x 3 summers): 21856 + 22293 + 22961 = $67,110
     * This is actual salary, until I understand indirect costs, etc.
-    * Travel support - MAA meetings, Sage Days, etc. = $6,000
+    * [$6,000] Travel support - MAA meetings, Sage Days, etc. = $6,000
 
- * Tom Judson: 
+ * [$23,362.50] Tom Judson: 
     * Summer 2010: Prepare the abstract algebra textbook for integration with Sage, work with Sandra Laursen  and Marja-Liisa Hassi to prepare detailed evaluation plan, work on the educational research component. (1 month at @ $6675 = $6675)
     * Summer 2011: Work on the abstract algebra book with Rob, continue to work on the evaluation and educational research components (2 months @ $6675 = $13,350)
     * Summer 2012: Finish the evaluation and educational research components (0.5 months at @ $6675 = $3337.50)
     * Total Budget Request:  $23362.50
 
  * Undergraduate Students
-    * William -- 4 parttime undergraduate employees: $12K/year
+    * [$36,000] William -- 4 parttime undergraduate employees: $12K/year
     * Jason -- 2 summer students, paid through AIM (at whatever the usual rate and hours worked is): (3 years)(2 months)(2 students) = 12 student-months
     * Jason -- 1 part-time student during the academic year, paid through AIM at the normal rate/hours worked: (3 years)(1 student) = 3 student-years (academic years)
     * Travel money for students to go to meetings about Sage: ???
 
- * Two Sage Edu Days:
-    * $12K/each
+ * Sage Days
+   * [$24,000] Sage EduDays (summers 2 and 3; invite faculty to teach about writing subject-specific curricula and using Sage in the classroom).  The first Sage EduDays will probably be smaller than the second.
+   * Sage Days 
 
- * AIM Dissemination
+ * [$10,000] AIM Dissemination
     * See http://groups.google.com/group/sage-grants/browse_thread/thread/581889719a14be28/
     * David Farmer "$10K/year in seed money"
 
