@@ -24,14 +24,11 @@ Below, talk to your secretaries and find out exactly how much what you want will
 
  * William Stein: 
     * 4 Months Summer Salary: $
-    * 4 parttime undergraduate employees: $12K/year
     
  * Jason Grout:
     * funding through university
-    * 6 months summer (2 mos x 3 summers): 10800x3 = $32400 + overhead (30%?) + whatever yearly increases are needed
-    * Travel support - MAA meetings, Sage Days, etc.--$2000/year: $6000
-    * 2 summer students, paid through AIM (at whatever the usual rate and hours worked is): 
-    * 1 part-time during the year student, paid through AIM at the normal rate/hours worked: 
+    * 6 months summer (2 mos x 3 summers): 5400x6 = $32400 + overhead (30%?) + whatever yearly increases are needed
+    * Travel support - MAA meetings, Sage Days, etc.--2000/year: $6000
 
  * Rob Beezer:
     * 6 months summer (2 mos x 3 summers): 21856 + 22293 + 22961 = $67,110
@@ -44,6 +41,11 @@ Below, talk to your secretaries and find out exactly how much what you want will
     * Summer 2012: Finish the evaluation and educational research components (0.5 months at @ $6675 = $3337.50)
     * Total Budget Request:  $23362.50
 
+ * Students
+    * William -- 4 parttime undergraduate employees: $12K/year
+    * Jason -- 2 summer students, paid through AIM (at whatever the usual rate and hours worked is): (3 years)(2 months)(2 students) = 12 student-months
+    * Jason -- 1 part-time student during the academic year, paid through AIM at the normal rate/hours worked: (3 years)(1 student) = 3 student-years (academic years)
+    * Travel money for students to go to meetings about Sage: ???
 
  * Two Sage Edu Days:
     * $12K/each
