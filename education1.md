@@ -64,6 +64,7 @@ CMI would also like all participants to register with them, but this can be done
  * Desmond Sheeran
  * Eric Pite
  * Steve Benson (Lesley University)
+ * David Dorman (Middlebury College)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
