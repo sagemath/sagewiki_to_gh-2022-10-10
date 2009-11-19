@@ -134,6 +134,9 @@ Please annotate the list below with how much time you think it would take an und
         1. [4 weeks] Interactive 2d plots (matplotlib html5 canvas, or flot, or something)
         1. [4 weeks] Interactive 3d plots (javascript interface to jmol)
         1. [8 weeks] Native browser 3d plots (using technologies that are currently developing---this is probably a project for year 3, maybe)
+        1. [2 weeks] Vector streamline plots
+        1. [4 weeks] Arbitrary mesh functions for 2d or 3d plots
+        1. [4 weeks] Arbitrary region clipping for 2d/3d plots
     1. Testing
         1. [4 weeks] Make full-scale use of the TestSuite stuff to test commands are consistent across subtypes.  Fix errors
     1. User interface testing
