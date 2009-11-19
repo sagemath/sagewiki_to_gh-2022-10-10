@@ -63,6 +63,7 @@ CMI would also like all participants to register with them, but this can be done
  * Peter Ash
  * Desmond Sheeran
  * Eric Pite
+ * Steve Benson (Lesley University)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
