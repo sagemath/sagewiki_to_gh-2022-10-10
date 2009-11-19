@@ -99,62 +99,62 @@ Below, talk to your secretaries and find out exactly how much what you want will
 
 == Specific Projects ==
 
-Please annotate the list below with how much time you think it would take to do it.
+Please annotate the list below with how much time you think it would take an undergraduate student to do it working full-time.
 
     1. Notebook
         1. LDAP integration
         1. Ways for students and professors to organize their work (like tags on the the worksheets) 
         1. Ways for students and professors to interact with each other (e.g., submitting and grading assignments, collaborating, make comments on a worksheet, read-only sharing, etc.)
         1. A grading and annotating system for grading student worksheets. 
-        1. Make notebook cells content-editable HTML divs
-        1. Interactive javascript input widgets (much better if have content-editable div cells)
+        1. [6 weeks] Make notebook cells content-editable HTML divs
+        1. [4 weeks] Interactive javascript input widget framework (on top of content-editable divs)
             1. MathJax
-            1. Matrix input widget
-            1. Geogebra widget
-            1. Graph editor
+            1. [1 week] Matrix input widget
+            1. [1 week] Geogebra widget
+            1. [1 week] Graph editor
         1. Get zipped collections of worksheets with accounts=True
     1. Curricula areas
         1. Graph Theory
             1. Complete transition to Robert’s Cython code (need iterators, etc.)
-            1. Evaluate the new networkx and upgrade to it (possibly change our interface)
+            1. [3 weeks] Evaluate the new networkx and upgrade to it (possibly change our interface)
             1. Fill out with commands for a typical discrete math class
         1. Calculus
-            1. Finish the test suite of integrals
+            1. [1 week] Finish the test suite of integrals
             1. Maxima library interface
             1. symbolic functions from R^n to R^m (for multivariable calculus)
         1. Linear algebra
-            1. Make interfaces consistent; implement things undergrad courses need (QR decomposition, etc.)
+            1. [4 weeks] Make interfaces consistent; implement things undergrad courses need (QR decomposition, etc.)
         1. Group theory
             1. [5,000] libgap
             1. [3,000] improve misc group theory wrapping
     1. Plotting
-        1. Make interface consistent (lots of options are inconsistent among commands, etc.)
-        1. 2d plot transformations
-        1. Make color component that aids users in selecting color schemes for disabilities; make sure default color schemes are friendly to color-blind, etc.
-        1. Interactive 2d plots (matplotlib html5 canvas, or flot, or something)
-        1. Interactive 3d plots (javascript interface to jmol)
-        1. Native browser 3d plots (using technologies that are currently developing---this is probably a project for year 3, maybe)
+        1. [3 weeks] Make interface consistent (lots of options are inconsistent among commands, etc.)
+        1. [1 week] 2d plot transformations
+        1. [1 week] Make color component that aids users in selecting color schemes for disabilities; make sure default color schemes are friendly to color-blind, etc.
+        1. [4 weeks] Interactive 2d plots (matplotlib html5 canvas, or flot, or something)
+        1. [4 weeks] Interactive 3d plots (javascript interface to jmol)
+        1. [8 weeks] Native browser 3d plots (using technologies that are currently developing---this is probably a project for year 3, maybe)
     1. Testing
-        1. Make full-scale use of the TestSuite stuff to test commands are consistent across subtypes.  Fix errors
+        1. [4 weeks] Make full-scale use of the TestSuite stuff to test commands are consistent across subtypes.  Fix errors
     1. User interface testing
         1. Evaluate the intuitiveness and discoverability of interfaces (this is open-ended...)
         1. Write framework to automatically record user interaction for tests
     1. Interact
-        1. flexible layout of interact controls and output
-        1. New controls (2d locator,...)
+        1. [2 weeks] flexible layout of interact controls and output
+        1. [2 weeks] New controls (2d locator,...)
         1. Nested interacts
         1. Make interacts work on published worksheets
         1. Make it easy to include interacts on normal webpages that then talk with the server.
     1. Symbolics
     1. Virtual appliance
-        1. GUI to create and start/stop multiple servers (with full security options), manage accounts, backup notebook servers and restore notebook servers, upgrade Sage (maybe on only selected servers?), etc.
+        1. [3 weeks] GUI to create and start/stop multiple servers (with full security options), manage accounts, backup notebook servers and restore notebook servers, upgrade Sage (maybe on only selected servers?), etc.
         1. Explore cloud options (an EC2 instance for example)
-        1. Clear and easy documentation about setting up a campus-wide server (including hardware requirements)
+        1. [2 weeks] Clear and easy documentation about setting up a campus-wide server (including hardware requirements)
     1. Library of curricula materials
-        1. Interacts included in Sage, grouped by topic, searchable, with screenshots and one-click buttons
+        1. [6 weeks] Interacts included in Sage, grouped by topic, searchable, with screenshots and one-click buttons
         1. Web interface to do the same on sagemath.org (see the Wolfram Demonstrations project, for example)
     1. Documentation
-        1. Plots/Graphics in user manuals
-        1. Form a docstring convention; fix docstrings to do this
+        1. [2 weeks] Plots/Graphics in user manuals
+        1. [8 weeks] Form a docstring convention; fix docstrings to do this
         1. Set up system like numpy for everyone to contribute/edit docstrings
     1. Cygwin port of Sage
