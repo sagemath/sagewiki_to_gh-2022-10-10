@@ -24,7 +24,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
       * (done) [[http://trac.sagemath.org/sage_trac/ticket/3619|3619]] -- log logins to a file.
       * (done) [[http://trac.sagemath.org/sage_trac/ticket/3733|3733]] -- log logins to a file.
       * (done) [[http://trac.sagemath.org/sage_trac/ticket/3849|3849]] -- worksheet upload issues
-      * [[http://trac.sagemath.org/sage_trac/ticket/7495|7495]] -- data upload issues (critical vulnerability?)
+      * (done) [[http://trac.sagemath.org/sage_trac/ticket/7495|7495]] -- data upload issues (critical vulnerability?)
 
  1. Burcin Erocal (symbolics)
  1. Minh Van Nguyen (documentation)
