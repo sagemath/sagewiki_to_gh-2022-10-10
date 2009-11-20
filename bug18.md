@@ -30,6 +30,15 @@ From Linux you can chat via a text console by installing "irssi", running it, an
  1. Minh Van Nguyen (documentation)
  1. Martin Albrecht (undecided yet)
  1. Robert Bradshaw (undecided, won't be around in the morning but will try to drop in later)
+     * Referee:
+       * [[http://trac.sagemath.org/sage_trac/ticket/7351|7351]] (optimize import of singular.py)
+       * [[http://trac.sagemath.org/sage_trac/ticket/5338|5338]] (speed regression in minpoly)
+       * [[http://trac.sagemath.org/sage_trac/ticket/6496|6496]] (functions numerator() and denominator() for multivariate polynomials)
+       * [[http://trac.sagemath.org/sage_trac/ticket/6669|6669]] (Homomorphisms from matrix groups don't have to have matrix groups as codomain)
+       * [[http://trac.sagemath.org/sage_trac/ticket/7356|7356]] (fixed latex representation for floats)
+       * [[http://trac.sagemath.org/sage_trac/ticket/7116|7116]] (Potential bug in elliptic curve pairing code.)
+
+
  1. Tim Dumol (notebook):
       * [[http://trac.sagemath.org/sage_trac/ticket/693|693]] 
  1. Jason Grout
