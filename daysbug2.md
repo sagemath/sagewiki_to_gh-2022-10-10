@@ -33,4 +33,5 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Jason Grout   (Iowa)
  * Burcin Erocal  (Austria)
  * Sebastian Pancratz  (Cambridge, England)
+ * Rob Beezer (day trip, Mon Jan 18, Tacoma, WA)
  * (many more to come ...?)
