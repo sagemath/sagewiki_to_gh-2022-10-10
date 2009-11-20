@@ -38,6 +38,7 @@ From Linux you can chat via a text console by installing "irssi", running it, an
        * [[http://trac.sagemath.org/sage_trac/ticket/7356|7356]] (fixed latex representation for floats)
        * [[http://trac.sagemath.org/sage_trac/ticket/7116|7116]] (Potential bug in elliptic curve pairing code.)
      * (done) [[http://trac.sagemath.org/sage_trac/ticket/7498|7498]] -- don't import matplotlib on sage startup
+     * (done) [[http://trac.sagemath.org/sage_trac/ticket/7502|7502]] -- lazy import utility (for reducing startup time)
 
  1. Tim Dumol (notebook):
       * [[http://trac.sagemath.org/sage_trac/ticket/693|693]] 
