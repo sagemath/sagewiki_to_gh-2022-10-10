@@ -20,7 +20,9 @@ See [[#schedule|below]] for the official schedule.
   
  * Date and Location: December 5, 2009 at the Clay Mathematics Institute (Cambridge, MA), from 9:30 AM to 2:30 PM, with a lunch break from 12:30-1:30. 
 
- * Driving Directions can be found at the [[http://www.claymath.org/visitors/|Official Clay Mathematics Institute Visitors Page]]. Parking meters run on Saturday, and most in Harvard Square are for 2 hours. For off-street parking, see [[http://www.harvardsquare.com/maps.aspx|this map]]. (Bring receipts to Kiran for parking reimbursement.)
+ * Driving directions can be found at the [[http://www.claymath.org/visitors/|Official Clay Mathematics Institute Visitors Page]]. Parking meters (of both the coin-operated and "pay and display" varieties) run 8 AM-6 PM on Saturday, and most in Harvard Square are limited to 2 hours. For off-street parking, see [[http://www.harvardsquare.com/maps.aspx|this map]]; bring receipts to Kiran for parking reimbursement.
+
+ * Public transit is an excellent alternative to driving; CMI is a 5-minute walk from the Harvard Square T station. For complete directions, see the [[http://www.claymath.org/visitors/|CMI Visitors Page]]. (Harvard is on the Red Line; a nearby station with plenty of parking is Alewife.)
 
  * We strongly encourage you to bring your laptop to try things out!  Wifi will be available.
 
