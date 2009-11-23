@@ -69,6 +69,7 @@ CMI would also like all participants to register with them. This can be done whe
  * David Dorman (Middlebury College)
  * Doug Kuhlmann (Phillips Academy)
  * Shawn Robinson (U. Maine, Presque Isle)
+ * Brandy Benedict (Merrimack)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
