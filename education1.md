@@ -68,6 +68,7 @@ CMI would also like all participants to register with them. This can be done whe
  * Steve Benson (Lesley University)
  * David Dorman (Middlebury College)
  * Doug Kuhlmann (Phillips Academy)
+ * Shawn Robinson (U. Maine, Presque Isle)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
