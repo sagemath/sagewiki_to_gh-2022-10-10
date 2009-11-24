@@ -38,3 +38,5 @@ mathématiques, qu'ils soient utilisateurs ou contributeurs.
 Nicolas: le premier paragraphe devrait etre plus dense, profond et percutant
 
 Nicolas: Le deuxieme paragraphe est un peu approximatif (par ex. Maxima est libre depuis quelques temps déjà)
+
+Nicolas: tel que, c'est un peu trop centré sur le calcul formel. Est-ce que scilab est généraliste ou pas? traiter le calcul numérique de niche est un peu rude ...
