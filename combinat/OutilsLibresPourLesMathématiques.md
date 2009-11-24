@@ -21,8 +21,8 @@ dans le monde entier, sans discrimination financière ou politique.
 
 Mais, le libre est-il viable en pratique? Pendant longtemps, les
 logiciels mathématiques libres se sont cantonnés à des niches (par
-ex. groupes: GAP, statistiques: R, calcul numérique: Scilab), les
-systèmes généralistes étant eux principalement commerciaux ou
+ex. groupes: GAP, statistiques: R, calcul numérique: Scilab). Les
+systèmes généralistes, eux, étaient principalement commerciaux ou
 semi-commerciaux (par ex. Matlab, Maple, Mathématica, MuPAD). Un
 phénomène plus récent est l'émergence d'alternatives libres ou
 nouvellement libres telles que Axiom, Maxima ou Sage.
@@ -34,3 +34,7 @@ développement coopératif libre, à des chercheurs et enseignants en
 mathématiques, qu'ils soient utilisateurs ou contributeurs.
 
 == Commentaires ==
+
+Nicolas: le premier paragraphe devrait etre plus dense, profond et percutant
+
+Nicolas: Le deuxieme paragraphe est un peu approximatif (par ex. Maxima est libre depuis quelques temps déjà)
