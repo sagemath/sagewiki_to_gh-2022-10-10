@@ -19,11 +19,11 @@ démarche scientifique, garante de la reproductibilité des résultats
 expérimentaux, de l'accumulation du savoir et de sa diffusion à tous,
 dans le monde entier, sans discrimination financière ou politique.
 
-Mais, le libre est-il viable en pratique? Pendant longtemps, les
+Mais le libre est-il viable en pratique? Pendant longtemps, les
 logiciels mathématiques libres se sont cantonnés à des niches (par
 ex. groupes: GAP, statistiques: R, calcul numérique: Scilab). Les
 systèmes généralistes, eux, étaient principalement commerciaux ou
-semi-commerciaux (par ex. Matlab, Maple, Mathématica, MuPAD). Un
+semi-commerciaux (par ex. Matlab, Maple, Mathematica, MuPAD). Un
 phénomène plus récent est l'émergence d'alternatives libres ou
 nouvellement libres telles que Axiom, Maxima ou Sage.
 
