@@ -4558,6 +4558,7 @@ cheappoolproducts\.com
 superiorpapers\.com
 bestessays\.ca
 mightystudents\.com
+term-paper-research\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
