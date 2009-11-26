@@ -21,7 +21,7 @@ dans le monde entier, sans discrimination financière ou géopolitique.
 
 Mais le libre est-il viable en pratique? Pendant longtemps, les
 logiciels mathématiques libres se sont cantonnés par domaines (par
-ex. groupes: GAP, statistiques: R, calcul numérique: Scilab). Les
+ex. groupes: GAP, géométrie algébrique: Singular, statistiques: R, calcul numérique: Scilab). Les
 systèmes à vocation généraliste, eux, étaient principalement
 commerciaux ou semi-commerciaux (par ex. Matlab, Maple, Mathematica,
 MuPAD). Un phénomène plus récent est l'émergence d'alternatives libres
