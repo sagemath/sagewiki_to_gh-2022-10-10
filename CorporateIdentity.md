@@ -8,6 +8,11 @@ Design material for a Sage CI. ([[http://en.wikipedia.org/wiki/Corporate_identit
 
 == Colors ==
 
+[[http://sage.math.washington.edu/home/schilly/newColorScheme.html|new color scheme for next generation web site]]
+
+== Program/Desktop Icons ==
+
+[[http://sage.math.washington.edu/home/schilly/icon/]]
 
 == Business Cards ==
 
