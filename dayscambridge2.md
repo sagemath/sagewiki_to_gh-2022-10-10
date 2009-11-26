@@ -14,6 +14,8 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 
 == Schedule ==
 
+ [[http://wstein.org/misc/sagedays18_papers.zip|sagedays18_papers.zip -- a zip archive of 23 research papers that are highly relevant to these talks]]
+
 === Tuesday Dec 1:   Research Day ===
 ||9:00am -  9:30am||Registration||
 ||9:30am - 12:30pm||Morning working sessions||
