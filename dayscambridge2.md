@@ -20,7 +20,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 ||9:00am -  9:30am||Registration||
 ||9:30am - 12:30pm||Morning working sessions||
 ||12:30pm -  2:00pm||Lunch||
-||2:00pm -  3:00pm||William Stein:  The Kolyvagin-Gross-Zagier Approach to the Birch and Swinnerton-Dyer Conjecture||
+||2:00pm -  3:00pm||William Stein:  The Kolyvagin-Gross-Zagier Approach to the Birch and Swinnerton-Dyer Conjecture  [[attachment:stein-talk-the_bsd_conjecture.pdf]]||
 ||3:10pm -  4:10pm||Robert Miller:  Computationally verifying BSD for individual curves||
 ||4:20pm -  5:20pm||Drew Sutherland:  Images of Galois representations associated to elliptic curves||
 ||5:30pm -  6:00pm||Project organization||
@@ -29,7 +29,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 === Wednesday Dec 2: Research Day ===
 || 9:00am - 12:30pm||Morning working sessions||
 ||12:30pm -  2:00pm||Lunch||
-|| 2:00pm -  3:00pm||William Stein:  Computing Kolyvagin classes||
+|| 2:00pm -  3:00pm||William Stein:  Computing Kolyvagin classes [[attachment:stein-talk-computing_kolyvagin_classes.pdf]]||
 || 3:10pm -  4:10pm||Robert Bradshaw:  Computing motivic L-functions||
 || 4:20pm -  5:20pm||Salman Baig:  Elliptic curves over function fields||
 || 5:30pm -  6:00pm||Project status reports||
