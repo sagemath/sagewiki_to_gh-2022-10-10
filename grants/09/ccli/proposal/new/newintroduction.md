@@ -41,7 +41,13 @@ So the question this project asks is: can an open-source program for mathematics
 
 \subsubsection{Previous approaches}
 
-Mathematica and calculus, Banchoff (Brown), etc.  Successful approaches exist, but they have not been widely adopted
+(Mathematica and calculus)
+As the name implies, Calculus and Mathematica is a project from the early 1990's to teach calculus with the Mathematica program, using Mathematica notebooks as the primary text.  While this approach sounds similar to our proposal for textbooks, the difference is that Calculus and Mathematica was designed for students to work exclusively on exercises while sitting in a computer lab.  It was radically different for a traditional course, and the curriculm wwas driven by what Mathematica was capable of doing.  Today, this seems to be a worthwhile approach for distance learning, especially in small communities where a high school cannot provide calculus courses.
+
+Our approach is to instead integrate Sage into traditional texts, and create curricular materials to {\em support and enhance} the undergraduate mathematics curriculum appropriately, without letting the existence of the technology {\em dictate} the topics that are taught.
+
+
+Banchoff (Brown), etc.  Successful approaches exist, but they have not been widely adopted
 
 Cited previous research should back up the advantages and disadvantages below.
 
