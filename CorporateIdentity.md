@@ -14,6 +14,8 @@ Design material for a Sage CI. ([[http://en.wikipedia.org/wiki/Corporate_identit
 
 [[http://sage.math.washington.edu/home/schilly/icon/]]
 
+Attached svg to this wiki page: [[attachment:sagemath-icon.svg]]
+
 == Business Cards ==
 
 
