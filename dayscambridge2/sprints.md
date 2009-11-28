@@ -72,3 +72,9 @@ Drew
 == Compute a Heegner point on the Jacobian of a genus 2 curve ==
 
  People: ?
+
+== Visibility of Kolyvagin Classes ==
+
+ People: ''Jared Weinstein'', William Stein
+
+This might be idle blather, but I've been thinking about Kolyvagin classes and I'm curious about the following.  On the one hand, one of Kolyvagin's suite of conjectures is that the classes he constructs out of Heegner points ought to generate the entirety of Sha(E/K).  On the other hand each element of Sha(E/K) is "visible" in some other abelian variety, in the sense of Mazur (see for instance http://www.williamstein.org/home/was/www/home/wstein/www/papers/visibility_of_sha/).  I wonder if the Kolyvagin classes d(n) contributing to Sha become visible in abelian varieties in some *systematic* way;  ie, in a modular Jacobian of possibly higher level.  There are already some examples out there of computation with visibility and computation with Kolyvagin classes, so maybe we can gather some data.
