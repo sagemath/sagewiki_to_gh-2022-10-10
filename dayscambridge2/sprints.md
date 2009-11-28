@@ -30,6 +30,8 @@
 
  People: ''Drew Sutherland'', William Stein
 
+ [[/images|more details]]
+
 == Fully implement and optimize variant of Watkins's algorithm for fast computation of Heegner points ==
 
  People: ''William Stein'', Robert Bradshaw
@@ -56,7 +58,7 @@
 
 == Implement something toward the Pollack et al. overconvergent modular symbols algorithm ==
 
- People: ''Robert Pollack''
+ People: ''Robert Pollack'', Avner Ash
 
 == Compute a Heegner point on the Jacobian of a genus 2 curve ==
 
