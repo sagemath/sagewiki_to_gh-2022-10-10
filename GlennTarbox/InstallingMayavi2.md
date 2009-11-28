@@ -253,56 +253,20 @@ Then, you're just grabbing the Enthought special tools and using that tool to su
 
 == Build Mayavi2 ==
 
-So, I was confused about cmake.  I have no idea whatsoever whats going on with Enthoughts build stuff.  I looked around and punted even though I think its supposed to all work.  And they're pretty smart guys... but whatever.  If you can figure out how to use ''ets'' to build things, let me know... here's what I do
+The last thing you need is Swig.  Trivial install... grab from http://www.swig.org/ unwind the tarball and
 
 {{{
-# bash script
-TARBOX_ETS=$SAGE_ROOT/tarbox/ets/ETS_*
-
-echo "$TARBOX_ETS/Traits_*"
-cd $TARBOX_ETS/Traits_*
-echo building Traits
-python setup.py clean
-python setup.py install
-
-echo "$TARBOX_ETS/EnthougtBase_*"
-cd $TARBOX_ETS/EnthoughtBase_*
-echo building EnthoughtBase
-python setup.py clean
-python setup.py install
-
-cd $TARBOX_ETS/TraitsGUI_*
-echo building TraitsGUI
-python setup.py clean
-python setup.py install
-
-cd $TARBOX_ETS/TraitsBackendQt_*
-echo building TraitsBackendQt
-python setup.py clean
-python setup.py install
-
-cd $TARBOX_ETS/AppTools_*
-echo building AppTools
-python setup.py clean
-python setup.py install
-
-cd $TARBOX_ETS/EnvisageCore_*
-echo building EnvisageCore
-python setup.py clean
-python setup.py install
-
-cd $TARBOX_ETS/EnvisagePlugins_*
-echo building EnvisagePlugins
-python setup.py clean
-python setup.py install
-
-cd $TARBOX_ETS/Mayavi_*
-echo building Mayavi
-python setup.py clean
-python setup.py install
+./configure --prefix=$SAGE_LOCAL
+make
+make install
 }}}
 
-I have the clean statements in there because I can rebuild easily.  They just waste cycles the first time you build.  Obviously, the dependencies are somewhere inside the magical ''ets'' which you can try and make work I guess.
+Then you can use the ets tools.  I don't completely understand this stuff but cd into the enthought directory created by the ets checkout as per the above then:
+
+{{{
+ets develop
+ets install
+}}}
 
 == Test Everything ==
 
