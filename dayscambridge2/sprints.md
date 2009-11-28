@@ -1,29 +1,31 @@
 = Sage Days 18 Coding Sprint Projects =
  
- * Compute regulators of elliptic curves over function fields
+<<TableOfContents>>
 
- * Is there an algorithm to enumerate all elliptic curves over a function field of a given conductor?
+== Compute regulators of elliptic curves over function fields ==
 
- * Implement Tate's algorithm for elliptic curves over the function field $\mathbf{F}_p(t)$.
+== Is there an algorithm to enumerate all elliptic curves over a function field of a given conductor? ==
 
- * Implement computation of the 3-Selmer rank of an elliptic curve over $\mathbf{Q}$.
+== Implement Tate's algorithm for elliptic curves over the function field $\mathbf{F}_p(t)$. ==
 
- * Compute statistics about distribution of Heegner divisors and Kolyvagin divisors modulo primes $p$.
+== Implement computation of the 3-Selmer rank of an elliptic curve over $\mathbf{Q}$. ==
 
- * Create a table of images of Galois representations, for elliptic curves and/or Jacobians, in some range.
+== Compute statistics about distribution of Heegner divisors and Kolyvagin divisors modulo primes $p$. ==
 
- * Fully implement and optimize variant of Watkins's algorithm for fast computation of Heegner points.
+== Create a table of images of Galois representations, for elliptic curves and/or Jacobians, in some range. ==
 
- * Implement code to compute the asymptotic distribution of Kolyvagin classes (from Jared Weinstein's talk); this should be pretty easy, though generalizing to higher rank may be challenging.
+== Fully implement and optimize variant of Watkins's algorithm for fast computation of Heegner points. ==
 
- * Verify Kolyvagin's conjecture for a specific rank 3 curve.
+== Implement code to compute the asymptotic distribution of Kolyvagin classes (from Jared Weinstein's talk); this should be pretty easy, though generalizing to higher rank may be challenging. ==
 
- * Implement an algorithm in Sage to compute Stark-Heegner points.
+== Verify Kolyvagin's conjecture for a specific rank 3 curve. ==
 
- * Compute the higher Heegner point $y_5$ on the curve 389a '''provably correctly'''. 
+== Implement an algorithm in Sage to compute Stark-Heegner points. ==
 
- * Compute special values of the Gross-Zagier $L$-function $L(f,\chi,s)$. 
+== Compute the higher Heegner point $y_5$ on the curve 389a '''provably correctly'''.  ==
 
- * Implement something toward the Pollack et al. overconvergent modular symbols algorithm.
+== Compute special values of the Gross-Zagier $L$-function $L(f,\chi,s)$.  ==
 
- * Compute a Heegner point on the Jacobian of a genus 2 curve
+== Implement something toward the Pollack et al. overconvergent modular symbols algorithm. ==
+
+== Compute a Heegner point on the Jacobian of a genus 2 curve ==
