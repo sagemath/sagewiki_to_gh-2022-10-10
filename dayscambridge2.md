@@ -12,6 +12,11 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 
  http://groups.google.com/group/sageday18
 
+== Projects ==
+
+ * [[/sprints|Coding sprint projects]]
+ * [[/edu|Education projects]]
+
 == Schedule ==
 
  [[http://wstein.org/misc/sagedays18_papers.zip|sagedays18_papers.zip -- a zip archive of 23 research papers that are highly relevant to these talks]]
