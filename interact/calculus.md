@@ -1116,3 +1116,20 @@ def _(x0=(0.5,1.5), y0=(0.5, 1.5),
     show(plot)
 }}}
 {{attachment:taylor-3d.png}}
+
+== Parametric surface example ==
+by Marshall Hampton
+{{{
+var('u,v')
+npi = RDF(pi)
+@interact
+def viewer(mesh = checkbox(default = False, label = 'Show u,v meshlines'), uc = slider(-2,2,1/10,0, label = '<span style="color:red">Constant u value</span>'), vc = slider(-2,2,1/10,0, label = '<span style="color:green">Constant v value</span>'), functions = input_box([u,v^2,u^2+v])):
+    f1(u,v) = functions[0]
+    f2(u,v) = functions[1]
+    f3(u,v) = functions[2]
+    surface_plot = parametric_plot3d([f1,f2,f3], (u,-2,2), (v,-2,2), mesh = mesh, opacity = .8)
+    constant_u = line3d([[f1(uc,q), f2(uc,q), f3(uc,q)] for q in srange(-2,2,.01)], rgbcolor = (1,0,0), thickness = 3)
+    constant_v = line3d([[f1(q,vc), f2(q,vc), f3(q,vc)] for q in srange(-2,2,.01)], rgbcolor = (0,1,0), thickness = 3)
+    show(surface_plot + constant_u + constant_v, frame = False)
+}}}
+{{attachment:parametric_surface.png}}
