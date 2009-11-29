@@ -61,6 +61,7 @@ Drew
 
  People: ''Robert Bradshaw'', William Stein
 
+
 == Compute special values of the Gross-Zagier L-function L(f,chi,s)  ==
  
  People: ''Robert Bradshaw''
@@ -71,7 +72,7 @@ Drew
 
 == Compute a Heegner point on the Jacobian of a genus 2 curve ==
 
- People: ?
+ People: Noam Elkies, virtually via his [[http://groups.google.com/group/sageday18/browse_thread/thread/6904bf31c59bb444|comments in this thread]].
 
 == Visibility of Kolyvagin Classes ==
 
