@@ -55,10 +55,10 @@ def render3d(a_gf, color_fan = True, verbose = False, highlights = 'all'):
         #using fixed color scheme
         color_list = []
         our_vars = list(a_gf.ring().gens())
-        degs = [[max([q.degree(avar) for q in b]) for avar in our_vars] for b in a_gf.reduced_groebner_bases()]
-        maxdegs = [max([float(q[i]) for q in degs]) for i in range(len(our_vars))]
+        degs = [[max(q.degree(avar) for q in b) for avar in our_vars] for b in a_gf.reduced_groebner_bases()]
+        maxdegs = [max(float(q[i]) for q in degs) for i in range(len(our_vars))]
         color_list = [[b[0]/maxdegs[0],b[1]/maxdegs[1],(b[2]+b[3])/(maxdegs[2]+maxdegs[3])] for b in degs]
-        color_list = [tuple([c[i]/max(c) for i in range(3)]) for c in color_list] 
+        color_list = [tuple(c[i]/max(c) for i in range(3)) for c in color_list] 
         faces = []     
     if highlights == 'all':
         highlights = range(len(cone_info))
