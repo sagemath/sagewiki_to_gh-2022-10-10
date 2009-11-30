@@ -51,6 +51,7 @@ There are several ways to register.
 
 CMI would also like all participants to register with them. This can be done when you arrive, but it will save a bit of time to email Amanda Battese (battese@claymath.org) with your name, email address, and institutional affilation.
 
+<<Anchor(participants)>>
 == Confirmed Participants ==
 
  * [[http://www.math-cs.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon)
