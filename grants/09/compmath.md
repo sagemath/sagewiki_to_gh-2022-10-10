@@ -5,4 +5,4 @@
 == The Actual Proposal ==
 
   
-[[/proposal|The Proposal]]
+[[/proposal|http://wstein.org/grants/compmath09/]]
