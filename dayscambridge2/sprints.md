@@ -15,7 +15,7 @@ This project will include the following topics:
  * Verify BSD for elliptic curves over function fields of analytic rank 3 or higher
 
 
-People: ''Sal Baig'', William Stein, David Roe, Ken Ribet, Kiran Kedlaya, Robert Bradshaw, Victor Miller (S-unit equations)
+People: ''Sal Baig'', William Stein, David Roe, Ken Ribet, Kiran Kedlaya, Robert Bradshaw, Victor Miller (S-unit equations), Thomas Barnet-Lamb
 
 
 == Implement computation of the 3-Selmer rank of an elliptic curve over QQ ==
@@ -90,7 +90,7 @@ There is a new algorithm due to Darmon and Pollack for computing Stark Heegner p
   * Implementing computation of overconvergent modular symbols.
   * Using an implementation of overconvergent modular symbols to implement the Stark-Heegner point algorithm. 
  
-People: ''Matthew Greenberg'', Cameron Frank, Kiran Kedlaya, Robert Pollack, Avner Ash, David Roe, Jay Pottharst
+People: ''Matthew Greenberg'', Cameron Frank, Kiran Kedlaya, Robert Pollack, Avner Ash, David Roe, Jay Pottharst, Thomas Barnet-Lamb
 
 == Compute the higher Heegner point y_5 on the curve 389a provably correctly  ==
 
