@@ -28,14 +28,14 @@ Some projects:
 
  * Compute the 3-Selmer ranks of all curves of conductor up to 1000
 
- People: ''Robert Miller'', William Stein, Victor Miller, Jeechul Woo (Noam's student; around only Thu, Fri)
+People: ''Robert Miller'', William Stein, Victor Miller, Jeechul Woo (Noam's student; around only Thu, Fri)
 
 
 == Compute statistics about distribution of Heegner divisors and Kolyvagin divisors modulo primes p ==
 
  * Compute the reduction of $x_1$ using ternary quadratic forms, then use distribution relations and hit by Hecke operators to get reduction of all $x_n$.    There is a theorem of Jetchev-Kane about the asymptotic distribution of $x_n$; compare our new data with that. 
 
- People: ''William Stein'', Dimitar Jetchev, Drew Sutherland, Mirela Ciperiani, Ken Ribet, Victor Miller
+People: ''William Stein'', Dimitar Jetchev, Drew Sutherland, Mirela Ciperiani, Ken Ribet, Victor Miller
 
 
 == Create a table of images of Galois representations, for elliptic curves ==
@@ -55,21 +55,21 @@ The goals of this project are:
   * Think about statistics resulting from the above computation. 
 
 
- People: ''Drew Sutherland'', Ken Ribet, William Stein, Kiran Kedlaya, David Roe
+People: ''Drew Sutherland'', Ken Ribet, William Stein, Kiran Kedlaya, David Roe
 
 
 == Fast computation of Heegner points ==
 
  Implement the algorithm of Delauny/Watkins's algorithm for fast computation of Heegner points $y_K \in E(K)$.  
 
- People: ''William Stein'', Robert Bradshaw, Jen Balakrishnan
+People: ''William Stein'', Robert Bradshaw, Jen Balakrishnan
 
 
 == Implement code to compute the asymptotic distribution of Kolyvagin classes ==
 
 This will be based on Jared Weinstein's talk.  
 
- People: ''Jared Weinstein'', Mirela Ciperiani, William Stein
+People: ''Jared Weinstein'', Mirela Ciperiani, William Stein
 
 == Verify Kolyvagin's conjecture for a specific rank 3 curve ==
 
@@ -81,7 +81,7 @@ This is done for examples of rank 2 curves.   Nobody has ever checked that Kolyv
 
   * Possibly verify the conjecture for the first (known) rank 4 curve, which has conductor 234446.  This would be '''computationally hard''', but not impossible!
 
- People: ''William Stein'', Dimitar Jetchev, Victor Miller (sparse linear algebra), Jen Balakrishnan
+People: ''William Stein'', Dimitar Jetchev, Victor Miller (sparse linear algebra), Jen Balakrishnan
 
 == Implement an algorithm in Sage to compute Stark-Heegner points ==
 
@@ -90,7 +90,7 @@ There is a new algorithm due to Darmon and Pollack for computing Stark Heegner p
   * Implementing computation of overconvergent modular symbols.
   * Using an implementation of overconvergent modular symbols to implement the Stark-Heegner point algorithm. 
  
- People: ''Matthew Greenberg'', Cameron Frank, Kiran Kedlaya, Robert Pollack, Avner Ash, David Roe, Jay Pottharst
+People: ''Matthew Greenberg'', Cameron Frank, Kiran Kedlaya, Robert Pollack, Avner Ash, David Roe, Jay Pottharst
 
 == Compute the higher Heegner point y_5 on the curve 389a provably correctly  ==
 
