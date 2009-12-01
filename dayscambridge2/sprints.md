@@ -15,7 +15,7 @@
 
  People: ''Sal Baig'', David Roe (?)
 
-== Verify BSD for rank 3 or higher ==
+== Verify BSD for elliptic curves over function fields of analytic rank 3 or higher ==
 
  People: ''Sal Baig''
 
