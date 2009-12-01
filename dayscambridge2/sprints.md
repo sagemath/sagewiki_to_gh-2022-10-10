@@ -15,6 +15,10 @@
 
  People: ''Sal Baig'', David Roe (?)
 
+== Verify BSD for rank 3 or higher ==
+
+ People: ''Sal Baig''
+
 
 == Implement computation of the 3-Selmer rank of an elliptic curve over QQ ==
 
