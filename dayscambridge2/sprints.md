@@ -2,7 +2,7 @@
  
 <<TableOfContents>>
 
-== Elliptic curves over function fields == 
+== Elliptic curves over function fields ==
 
 This project will include the following topics:
 
@@ -44,6 +44,8 @@ The goals of this project are:
 
   * Extend the above to all $p$ by using the explicit bound coded in Sage. 
 
+  * Extend the above to all $p^k$.
+
   * Compute the exact image for all curves of conductor up to $10^8$ from the Stein-Watkins database.  Add this data with some nice key to that database (i.e., change all the files to include a new field).
 
   * Think about images in $GL(Z/mZ)$. 
@@ -53,16 +55,6 @@ The goals of this project are:
 
  People: ''Drew Sutherland'', Ken Ribet, William Stein
 
-Drew Sutherland remarks: 
-{{{
-Hi William,
-
-I would definitely be motivated to work on the table of Galois images project that you suggested in your list. I am currently rerunning my previous computations on the Stein-Watkins database using an improved version of the algorithm (just for the mod ell case at the moment, I still want to tweak the mod ell^k code some more). It would be great to get all this data organized and accessible in a useful form, especially while everything is fresh in my mind.
-
-Drew
-}}}
-
-
 
 == Fast computation of Heegner points ==
 
@@ -71,30 +63,44 @@ Drew
  People: ''William Stein'', Robert Bradshaw, Jen Balakrishnan
 
 
-== Implement code to compute the asymptotic distribution of Kolyvagin classes (from Jared Weinstein's talk); this should be pretty easy, though generalizing to higher rank may be challenging ==
+== Implement code to compute the asymptotic distribution of Kolyvagin classes ==
 
- People: ''Jared Weinstein''
+This will be based on Jared Weinstein's talk.  
+
+ People: ''Jared Weinstein'', Mirela Ciperiani, William Stein
 
 == Verify Kolyvagin's conjecture for a specific rank 3 curve ==
 
- People: ''William Stein''
+This is done for examples of rank 2 curves.   Nobody has ever checked that Kolyvagin's conjecture holds for a rank 3 curve. 
+
+  * Figure out exactly what needs to be computed and what might be an optimal curve and quadratic imaginary field to work with. 
+
+  * Verify that one Kolyvagin class for that curve is nonzero. 
+
+  * Possibly verify the conjecture for the first (known) rank 4 curve, which has conductor 234446.  This would be '''computationally hard''', but not impossible!
+
+ People: ''William Stein'', Dimitar Jetchev, Victor Miller (sparse linear algebra), Jen Balakrishnan
 
 == Implement an algorithm in Sage to compute Stark-Heegner points ==
+
+There is a new algorithm due to Darmon and Pollack for computing Stark Heegner point using overconvergent modular symbols.  So this project would involve:
+
+  * Implementing computation of overconvergent modular symbols.
+  * Using an implementation of overconvergent modular symbols to implement the Stark-Heegner point algorithm. 
  
- People: ''Mathew Greenberg''
+ People: ''Mathew Greenberg'', Cameron Frank, Kiran Kedlay, Robert Pollack, Avner Ash
+
 
 == Compute the higher Heegner point y_5 on the curve 389a provably correctly  ==
 
- People: ''Robert Bradshaw'', William Stein
+  * Implement an algorithm to compute the Gross-Zagier Rankin-Selberg convolution L-functions $L(f,\chi,s)$, and use Zhang's formula to deduce heights of Heegner points.
+  * Apply in the particular curves 389a for n=5.
+  * Come up with an algorithm that is definitely right for provably computing Heegner points given the height.
+  * Implement algorithm and run for 389a and n=5.
+  * Make a table of heights of higher Heegner points.   (Search to find any of height 0!)
+  * Make a table of heights of derived Kolyvagin points. 
 
-
-== Compute special values of the Gross-Zagier L-function L(f,chi,s)  ==
- 
- People: ''Robert Bradshaw''
-
-== Implement something toward the Pollack et al. overconvergent modular symbols algorithm ==
-
- People: ''Robert Pollack'', Avner Ash
+ People: ''Robert Bradshaw'', William Stein, Jen Balakrishnan
 
 == Compute a Heegner point on the Jacobian of a genus 2 curve ==
 
@@ -102,6 +108,18 @@ Drew
 
 == Visibility of Kolyvagin Classes ==
 
- People: ''Jared Weinstein'', William Stein
+On the one hand, one of Kolyvagin's suite of conjectures is that the classes he constructs out of Heegner points ought to generate the entirety of Sha(E/K).  On the other hand each element of Sha(E/K) is "visible" in some other abelian variety, in the sense of Mazur (see for instance http://www.williamstein.org/home/was/www/home/wstein/www/papers/visibility_of_sha/).  I wonder if the Kolyvagin classes d(n) contributing to Sha become visible in abelian varieties in some *systematic* way;  ie, in a modular Jacobian of possibly higher level.  There are already some examples out there of computation with visibility and computation with Kolyvagin classes, so maybe we can gather some data.
 
-This might be idle blather, but I've been thinking about Kolyvagin classes and I'm curious about the following.  On the one hand, one of Kolyvagin's suite of conjectures is that the classes he constructs out of Heegner points ought to generate the entirety of Sha(E/K).  On the other hand each element of Sha(E/K) is "visible" in some other abelian variety, in the sense of Mazur (see for instance http://www.williamstein.org/home/was/www/home/wstein/www/papers/visibility_of_sha/).  I wonder if the Kolyvagin classes d(n) contributing to Sha become visible in abelian varieties in some *systematic* way;  ie, in a modular Jacobian of possibly higher level.  There are already some examples out there of computation with visibility and computation with Kolyvagin classes, so maybe we can gather some data.
+
+ People: ''Jared Weinstein'', Mirela Ciperiani, William Stein, Dimitar Jetchev, Ken Ribet
+
+
+== Sage Tutorials ==
+
+We would like to have a sequence of carefully prepared Sage tutorials on the following topics:
+
+   * Introduction to Python (Kiran Kedlaya, 10am on Wednesday)
+   * Tate's algorithm over number fields (David Roe, 10am on Thursday?)
+   * 2-descent in Sage (Robert Miller, 11am on Thursday)
+   * Computing images of Galois representations (Drew Sutherland, William Stein, 11am on Friday)
+   * Linear algebra modulo p (Robert Bradshaw, 11am on Wednesday)
