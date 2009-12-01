@@ -72,8 +72,8 @@ CMI would also like all participants to register with them. This can be done whe
  * Shawn Robinson (U. Maine, Presque Isle)
  * Brandy Benedict (Merrimack)
  * Juliana Belding (Harvard)
- * Lynne C DeSantis (Hesser College)
- * Andrew McHugh (Mitchell College)
+ * Lynne C !DeSantis (Hesser College)
+ * Andrew !McHugh (Mitchell College)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
