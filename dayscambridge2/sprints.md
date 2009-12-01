@@ -14,7 +14,9 @@ This project will include the following topics:
 
  * Verify BSD for elliptic curves over function fields of analytic rank 3 or higher
 
- People: ''Sal Baig'', William Stein, David Roe, Ken Ribet
+
+People: ''Sal Baig'', William Stein, David Roe, Ken Ribet, Kiran Kedlaya, Robert Bradshaw, Victor Miller (S-unit equations)
+
 
 == Implement computation of the 3-Selmer rank of an elliptic curve over QQ ==
 
@@ -22,11 +24,11 @@ Some projects:
   
  * Implement the algorithm from Schaefer-Stoll which does the general case
 
- * Implement the algorithm in the reducible case due to Jeechul Woo, if we can find out what it is.
+ * Implement the algorithm in the reducible case due to Jeechul Woo.
 
  * Compute the 3-Selmer ranks of all curves of conductor up to 1000
 
- People: ''Robert Miller'', William Stein, Victor Miller, Jeechul Woo (Noam's student) ??
+ People: ''Robert Miller'', William Stein, Victor Miller, Jeechul Woo (Noam's student; around only Thu, Fri)
 
 
 == Compute statistics about distribution of Heegner divisors and Kolyvagin divisors modulo primes p ==
@@ -53,7 +55,7 @@ The goals of this project are:
   * Think about statistics resulting from the above computation. 
 
 
- People: ''Drew Sutherland'', Ken Ribet, William Stein
+ People: ''Drew Sutherland'', Ken Ribet, William Stein, Kiran Kedlaya, David Roe
 
 
 == Fast computation of Heegner points ==
@@ -88,8 +90,7 @@ There is a new algorithm due to Darmon and Pollack for computing Stark Heegner p
   * Implementing computation of overconvergent modular symbols.
   * Using an implementation of overconvergent modular symbols to implement the Stark-Heegner point algorithm. 
  
- People: ''Mathew Greenberg'', Cameron Frank, Kiran Kedlay, Robert Pollack, Avner Ash
-
+ People: ''Matthew Greenberg'', Cameron Frank, Kiran Kedlaya, Robert Pollack, Avner Ash, David Roe, Jay Pottharst
 
 == Compute the higher Heegner point y_5 on the curve 389a provably correctly  ==
 
@@ -100,26 +101,42 @@ There is a new algorithm due to Darmon and Pollack for computing Stark Heegner p
   * Make a table of heights of higher Heegner points.   (Search to find any of height 0!)
   * Make a table of heights of derived Kolyvagin points. 
 
- People: ''Robert Bradshaw'', William Stein, Jen Balakrishnan
+People: ''Robert Bradshaw'', William Stein, Jen Balakrishnan
 
 == Compute a Heegner point on the Jacobian of a genus 2 curve ==
 
- People: Noam Elkies, virtually via his [[http://groups.google.com/group/sageday18/browse_thread/thread/6904bf31c59bb444|comments in this thread]].
+People: Noam Elkies, virtually via his [[http://groups.google.com/group/sageday18/browse_thread/thread/6904bf31c59bb444|comments in this thread]].
 
 == Visibility of Kolyvagin Classes ==
 
 On the one hand, one of Kolyvagin's suite of conjectures is that the classes he constructs out of Heegner points ought to generate the entirety of Sha(E/K).  On the other hand each element of Sha(E/K) is "visible" in some other abelian variety, in the sense of Mazur (see for instance http://www.williamstein.org/home/was/www/home/wstein/www/papers/visibility_of_sha/).  I wonder if the Kolyvagin classes d(n) contributing to Sha become visible in abelian varieties in some *systematic* way;  ie, in a modular Jacobian of possibly higher level.  There are already some examples out there of computation with visibility and computation with Kolyvagin classes, so maybe we can gather some data.
 
 
- People: ''Jared Weinstein'', Mirela Ciperiani, William Stein, Dimitar Jetchev, Ken Ribet
+People: ''Jared Weinstein'', Mirela Ciperiani, William Stein, Dimitar Jetchev, Ken Ribet, Barry Mazur
+
+== Find an algorithm to decide if y_{p^n} is divisible by (g-1) and run it for a curve of rank >= 2 ==
+
+Consider the Heegner $y_{p^n}$ over the anticyclotomic tower for a rank >= 2 curve, Sha trivial, etc. 
+
+People: Mirela Ciperiani, William Stein, Barry Mazur, Jay Pottharst
+
+== Compute Frobenius eigenvalues for a bunch of curves to illustrate Katz-Sarnak ==
+
+ * curves that vary in various ways, e.g., coverings of one curve...
+
+ * might use David Harvey's super fast Kedlaya zeta function implementation in Sage (his C++ code)
+
+ * could lead to questions of an "anabelian sort"... e.g., take elliptic curve over finite field, take n-torsion points, extract roots, get coverings, etc.  Compute Frobenius eigenvalues of all these covers.
+
+People: Barry Mazur, Kiran Kedlaya, Thomas Barnet-Lamb, David Harvey, Mirela Ciperiani, Sal Baig (lots of possibly relevant data over function fields)
 
 
 == Sage Tutorials ==
 
-We would like to have a sequence of carefully prepared Sage tutorials on the following topics:
+We would like to have a sequence of informal Sage tutorials on the following topics:
 
-   * Introduction to Python (Kiran Kedlaya, 10am on Wednesday)
-   * Tate's algorithm over number fields (David Roe, 10am on Thursday?)
-   * 2-descent in Sage (Robert Miller, 11am on Thursday)
-   * Computing images of Galois representations (Drew Sutherland, William Stein, 11am on Friday)
+   * Introduction to Python/Sage (Kiran Kedlaya, 10am on Wednesday)
    * Linear algebra modulo p (Robert Bradshaw, 11am on Wednesday)
+   * Tate's algorithm over number fields (David Roe, 10am on Thursday)
+   * 2-descent in Sage (Robert Miller, 11am on Thursday)
+   * Computing images of Galois representations (Drew Sutherland and William Stein, 11am on Friday)
