@@ -29,7 +29,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 ||12:30pm -  2:00pm||Lunch||
 ||2:00pm -  3:00pm||William Stein:  The Kolyvagin-Gross-Zagier Approach to the Birch and Swinnerton-Dyer Conjecture  [[attachment:stein-talk-the_bsd_conjecture.pdf]]||
 ||3:10pm -  4:10pm||Robert Miller:  Computationally verifying BSD for individual curves||
-||4:20pm -  5:20pm||Drew Sutherland:  Images of Galois representations associated to elliptic curves[[http://math.mit.edu/~drew/ImageOfGalois.pdf]]||
+||4:20pm -  5:20pm||Andrew Sutherland:  Images of Galois representations associated to elliptic curves[[http://math.mit.edu/~drew/ImageOfGalois.pdf]]||
 ||5:30pm -  6:00pm||Project organization||
 
 
