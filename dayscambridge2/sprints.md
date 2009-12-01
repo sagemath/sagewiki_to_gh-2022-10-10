@@ -2,37 +2,56 @@
  
 <<TableOfContents>>
 
-== Compute regulators of elliptic curves over function fields ==
+== Elliptic curves over function fields == 
 
- People: ''Sal Baig''
+This project will include the following topics:
 
-== Is there an algorithm to enumerate all elliptic curves over a function field of a given conductor? ==
+ * Compute regulators of elliptic curves over function fields
 
- People: ''Sal Baig'', William Stein
+ * Is there an algorithm to enumerate all elliptic curves over a function field of a given conductor?
 
+ * Implement Tate's algorithm for elliptic curves over the function field F_p(t)
 
-== Implement Tate's algorithm for elliptic curves over the function field F_p(t) ==
+ * Verify BSD for elliptic curves over function fields of analytic rank 3 or higher
 
- People: ''Sal Baig'', David Roe (?)
-
-== Verify BSD for elliptic curves over function fields of analytic rank 3 or higher ==
-
- People: ''Sal Baig''
-
+ People: ''Sal Baig'', William Stein, David Roe, Ken Ribet
 
 == Implement computation of the 3-Selmer rank of an elliptic curve over QQ ==
 
- People: ''Robert Miller'', William Stein
+Some projects:
+  
+ * Implement the algorithm from Schaefer-Stoll which does the general case
+
+ * Implement the algorithm in the reducible case due to Jeechul Woo, if we can find out what it is.
+
+ * Compute the 3-Selmer ranks of all curves of conductor up to 1000
+
+ People: ''Robert Miller'', William Stein, Victor Miller, Jeechul Woo (Noam's student) ??
 
 
 == Compute statistics about distribution of Heegner divisors and Kolyvagin divisors modulo primes p ==
 
- People: ''William Stein'', Dimitar Jetchev
+ * Compute the reduction of $x_1$ using ternary quadratic forms, then use distribution relations and hit by Hecke operators to get reduction of all $x_n$.    There is a theorem of Jetchev-Kane about the asymptotic distribution of $x_n$; compare our new data with that. 
+
+ People: ''William Stein'', Dimitar Jetchev, Drew Sutherland, Mirela Ciperiani, Ken Ribet, Victor Miller
 
 
-== Create a table of images of Galois representations, for elliptic curves and/or Jacobians, in some range ==
+== Create a table of images of Galois representations, for elliptic curves ==
 
- People: ''Drew Sutherland'', William Stein
+The goals of this project are:
+
+  * Compute and record in a nice table the exact image of Galois in $GL_2(F_p)$ for all $p<60$ and all curves in Cremona's tables, using Drew's new code/algorithm. 
+
+  * Extend the above to all $p$ by using the explicit bound coded in Sage. 
+
+  * Compute the exact image for all curves of conductor up to $10^8$ from the Stein-Watkins database.  Add this data with some nice key to that database (i.e., change all the files to include a new field).
+
+  * Think about images in $GL(Z/mZ)$. 
+
+  * Think about statistics resulting from the above computation. 
+
+
+ People: ''Drew Sutherland'', Ken Ribet, William Stein
 
 Drew Sutherland remarks: 
 {{{
@@ -45,9 +64,12 @@ Drew
 
 
 
-== Fully implement and optimize variant of Watkins's algorithm for fast computation of Heegner points ==
+== Fast computation of Heegner points ==
 
- People: ''William Stein'', Robert Bradshaw
+ Implement the algorithm of Delauny/Watkins's algorithm for fast computation of Heegner points $y_K \in E(K)$.  
+
+ People: ''William Stein'', Robert Bradshaw, Jen Balakrishnan
+
 
 == Implement code to compute the asymptotic distribution of Kolyvagin classes (from Jared Weinstein's talk); this should be pretty easy, though generalizing to higher rank may be challenging ==
 
