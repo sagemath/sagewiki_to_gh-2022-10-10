@@ -24,7 +24,7 @@ Some projects:
   
  * Implement the algorithm from Schaefer-Stoll which does the general case
 
- * Implement the algorithm in the reducible case due to Jeechul Woo.
+ * Implement the algorithm in the reducible case due to Jeechul Woo: [[attachment:ThreeDescent.gp|Jeechul Woo's GP script]]
 
  * Compute the 3-Selmer ranks of all curves of conductor up to 1000
 
