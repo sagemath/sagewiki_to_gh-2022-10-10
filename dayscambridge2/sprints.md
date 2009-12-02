@@ -69,7 +69,7 @@ People: ''William Stein'', Robert Bradshaw, Jen Balakrishnan
 
 == Implement code to compute the asymptotic distribution of Kolyvagin classes ==
 
-This will be based on Jared Weinstein's talk.  
+This will be based on Jared Weinstein's talk.   See http://wstein.org/misc/sagedays18_papers/weinstein-kolyvagin_classes_for_higher_rank_elliptic_curves.pdf
 
 People: ''Jared Weinstein'', Mirela Ciperiani, William Stein
 
@@ -77,7 +77,7 @@ People: ''Jared Weinstein'', Mirela Ciperiani, William Stein
 
 This is done for examples of rank 2 curves.   Nobody has ever checked that Kolyvagin's conjecture holds for a rank 3 curve. 
 
-  * Figure out exactly what needs to be computed and what might be an optimal curve and quadratic imaginary field to work with. 
+  * Figure out exactly what needs to be computed and what might be an optimal curve and quadratic imaginary field to work with:  [[/5077aestimates|Some details for 5077a]]
 
   * Verify that one Kolyvagin class for that curve is nonzero. 
 
