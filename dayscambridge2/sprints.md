@@ -35,6 +35,8 @@ People: ''Robert Miller'', William Stein, Victor Miller, Jeechul Woo (Noam's stu
 
  * Compute the reduction of $x_1$ using ternary quadratic forms, then use distribution relations and hit by Hecke operators to get reduction of all $x_n$.    There is a theorem of Jetchev-Kane about the asymptotic distribution of $x_n$; compare our new data with that. 
 
+ * Stein: I posted a bundle based against Sage-4.2.1 here (called heegner-4.2.1.hg), which has highly relevant code: http://trac.sagemath.org/sage_trac/ticket/6616
+
 People: ''William Stein'', Dimitar Jetchev, Drew Sutherland, Mirela Ciperiani, Ken Ribet, Victor Miller
 
 
