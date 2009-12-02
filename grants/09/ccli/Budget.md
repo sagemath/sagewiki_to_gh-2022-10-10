@@ -48,7 +48,7 @@ Below, talk to your secretaries and find out exactly how much what you want will
     
  * Jason Grout:
     * funding through university
-    * [$32,400 + overhead + yearly increases?] 6 months summer (2 mos x 3 summers): 5400x6
+    * [$76447, which includes Drake overhead, by my own calculations] 6 months summer (2 mos x 3 summers): 6000x6 + overhead
     * [$6,000] Travel support - MAA meetings, Sage Days, etc.--2000/year: 6000
 
  * Rob Beezer:
