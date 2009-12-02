@@ -38,5 +38,22 @@ The formative aspects of the evaluation will collect information on key aspects 
 
 \subsection{Summative Evaluation}
 
+The summative evaluation will be guided by the following questions: 
+\begin{enumerate}
+
+\item
+What is the impact of CAS integrated materials on teachers content knowledge, pedagogical content knowledge and classroom instructional practice?
+
+\item
+What is the impact of CAS integrated materials on in their own classrooms, campuses/districts on their students’ mathematics learning and participation in advanced-level mathematics courses?
+
+\item
+What is the ease of implementing CAS integrated materials on a wide scale basis?
+
+
+\end{enumerate}
+
+To measure these changes 
+
 
 }}}
