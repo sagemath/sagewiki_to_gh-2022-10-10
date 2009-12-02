@@ -115,13 +115,13 @@ People: Noam Elkies, virtually via his [[http://groups.google.com/group/sageday1
 
   * I wrote a short paper with Dimitar Jetchev in 2005 (which I forgot about until just now, and never published), which I think was motivated by this question: [[attachment::jetchev-stein-congruences_and_unramified_cohomology.pdf]]
  
-
-
 People: ''Jared Weinstein'', Mirela Ciperiani, William Stein, Dimitar Jetchev, Ken Ribet, Barry Mazur
 
 == Find an algorithm to decide if y_{p^n} is divisible by (g-1) and run it for a curve of rank >= 2 ==
 
-Consider the Heegner $y_{p^n}$ over the anticyclotomic tower for a rank >= 2 curve, Sha trivial, etc. 
+   * Consider the Heegner $y_{p^n}$ over the anticyclotomic tower for a rank >= 2 curve, Sha trivial, etc. 
+
+   * Barry Mazur remarks that this may be connected to his notion (with Rubin) of "Shadow lines" in Mordell-Weil. 
 
 People: Mirela Ciperiani, William Stein, Barry Mazur, Jay Pottharst
 
@@ -129,7 +129,7 @@ People: Mirela Ciperiani, William Stein, Barry Mazur, Jay Pottharst
 
  * curves that vary in various ways, e.g., coverings of one curve...
 
- * might use David Harvey's super fast Kedlaya zeta function implementation in Sage (his C++ code)
+ * might use David Harvey's super fast Kedlaya zeta function implementation in Sage (his C++ code), but unfortunately the curves that typically arise aren't hyperelliptic, and Harvey's code only applies to hyperelliptic curves.
 
  * could lead to questions of an "anabelian sort"... e.g., take elliptic curve over finite field, take n-torsion points, extract roots, get coverings, etc.  Compute Frobenius eigenvalues of all these covers.
 
