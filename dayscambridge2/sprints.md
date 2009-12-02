@@ -85,7 +85,7 @@ This is done for examples of rank 2 curves.   Nobody has ever checked that Kolyv
 
   * Possibly verify the conjecture for the first (known) rank 4 curve, which has conductor 234446.  This would be '''computationally hard''', but not impossible!
 
-People: ''William Stein'', Dimitar Jetchev, Victor Miller (sparse linear algebra), Jen Balakrishnan
+People: ''William Stein'', Dimitar Jetchev, Victor Miller (sparse linear algebra), Jen Balakrishnan, Robert Bradshaw
 
 == Implement an algorithm in Sage to compute Stark-Heegner points ==
 
