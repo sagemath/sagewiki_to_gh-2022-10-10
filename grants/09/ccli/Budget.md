@@ -46,10 +46,11 @@ Below, talk to your secretaries and find out exactly how much what you want will
 
 }}}
     
- * Jason Grout:
-    * funding through university
-    * [$76447, which includes Drake overhead, by my own calculations] 6 months summer (2 mos x 3 summers): 6000x6 + overhead
-    * [$6,000] Travel support - MAA meetings, Sage Days, etc.--2000/year: 6000
+ * [$62,163] Jason Grout:
+    * funding through university (Drake: 30% indirect cost, 8.7% fringe benefit rate)
+    * 6 months summer (2 mos x 3 summers), including Drake overhead
+    * Travel support - MAA meetings, Sage Days, etc.--2000/year: 6000
+    * Computer in year 2: 1,500
 
  * Rob Beezer:
     * [$67,100] 6 months summer (2 mos x 3 summers): 21856 + 22293 + 22961 = 67,110
