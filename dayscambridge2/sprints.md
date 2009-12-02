@@ -111,7 +111,10 @@ People: Noam Elkies, virtually via his [[http://groups.google.com/group/sageday1
 
 == Visibility of Kolyvagin Classes ==
 
-On the one hand, one of Kolyvagin's suite of conjectures is that the classes he constructs out of Heegner points ought to generate the entirety of Sha(E/K).  On the other hand each element of Sha(E/K) is "visible" in some other abelian variety, in the sense of Mazur (see for instance http://www.williamstein.org/home/was/www/home/wstein/www/papers/visibility_of_sha/).  I wonder if the Kolyvagin classes d(n) contributing to Sha become visible in abelian varieties in some *systematic* way;  ie, in a modular Jacobian of possibly higher level.  There are already some examples out there of computation with visibility and computation with Kolyvagin classes, so maybe we can gather some data.
+  * Jared describes the problem thus:  On the one hand, one of Kolyvagin's suite of conjectures is that the classes he constructs out of Heegner points ought to generate the entirety of Sha(E/K).  On the other hand each element of Sha(E/K) is "visible" in some other abelian variety, in the sense of Mazur (see for instance http://www.williamstein.org/home/was/www/home/wstein/www/papers/visibility_of_sha/).  I wonder if the Kolyvagin classes d(n) contributing to Sha become visible in abelian varieties in some *systematic* way;  ie, in a modular Jacobian of possibly higher level.  There are already some examples out there of computation with visibility and computation with Kolyvagin classes, so maybe we can gather some data.
+
+  * I wrote a short paper with Dimitar Jetchev in 2005 (which I forgot about until just now, and never published), which I think was motivated by this question: [[attachment::jetchev-stein-congruences_and_unramified_cohomology.pdf]]
+ 
 
 
 People: ''Jared Weinstein'', Mirela Ciperiani, William Stein, Dimitar Jetchev, Ken Ribet, Barry Mazur
