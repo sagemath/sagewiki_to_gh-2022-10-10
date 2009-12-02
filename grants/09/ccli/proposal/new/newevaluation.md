@@ -53,7 +53,11 @@ What is the ease of implementing CAS integrated materials on a wide scale basis?
 
 \end{enumerate}
 
-To measure these changes 
+To measure these changes Dr.\ Judson will collaborate with the project director and other members of the project  and will consult with Marja-Liisa Hassi and Sandra Laursen of Ethnography \& Evaluation Research (E\&ER) at the  Center to Advance Research and Teaching in the Social Sciences (CARTSS) at the University of Colorado in the selection of appropriate instruments to  identify measures of for specific areas of the project.  Drs.\ Hassi and Laursen have extensive experience evaluating other large mathematics and science education projects (NSF Awards \# 0920126, \# 0723600 \# 0450088). [Note:  I am not sure that these are the appropriate projects that we should mention, but I am assuming that Marja-Liisa will rewrite this part of the proposal.] To insure alignment to project goals, measures for the classroom will not be selected until the Sage-enhanced materials have been developed. The measures will be administered to participants at appropriate intervals throughout the project period.
+
+Drs.\  Hassi and Judson and the project PIs will conduct site visits to partner institutions to observe and document the use of Sage-enhanced materials as the project progresses. Additional data will be collected through periodic surveys of all participants, and interviews of a sample. All surveys and interviews will be prepared and conducted by Drs.\  Hassi and Judson. 
+
+Drs.\  Hassi and Judson will collaborate with the appropriate institutions to collect demographic data on schools, teachers, and students within participating schools. They will analyze all data using appropriate statistical measures and will prepare one annual report per year documenting all evaluation activities and results and will provide formative evaluation feedback to the project PIs in presentations and correspondence timed to inform design decisions and mid-course corrections. 
 
 
 }}}
