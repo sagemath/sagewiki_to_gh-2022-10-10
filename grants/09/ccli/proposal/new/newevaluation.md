@@ -33,6 +33,9 @@ To what extent are the Sage integrated materials  transportable/scalable to othe
 
 \end{enumerate}
 
+The formative aspects of the evaluation will collect information on key aspects of the project to assess and provide feedback on the extent to which the project is designed and implemented to address important needs effectively. The key aspects of the project on which the evaluation will focus are: the  need for, and resources to support,  Sage enhanced materials in the classroom; and creation of materials that can be used more broadly in high school and university mathematics classrooms.
+
+
 \subsection{Summative Evaluation}
 
 
