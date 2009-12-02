@@ -35,7 +35,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 
 === Wednesday Dec 2: Research Day ===
 || 9:00am - 12:30pm||Morning working sessions||
-||11:00am - 12:00am||Intro to Sage (linear algebra) [[attachment:Days 18 Linalg Demo.sws]]||
+||11:00am - 12:00am||Intro to Sage (linear algebra) http://sagenb.org/home/pub/1196/ [[attachment:Days 18 Linalg Demo.sws]]||
 ||12:30pm -  2:00pm||Lunch||
 || 2:00pm -  3:00pm||William Stein:  Computing Kolyvagin classes [[attachment:stein-talk-computing_kolyvagin_classes.pdf]] and [[attachment:389a-demo.pdf]]||
 || 3:10pm -  4:10pm||Robert Bradshaw:  Computing motivic L-functions||
