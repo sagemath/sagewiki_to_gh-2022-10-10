@@ -4,12 +4,12 @@
 
 == Confirmed Speakers ==
 
-   * John Cremona
-   * Tim Dokchitser
-   * Matthew Greenberg
-   * William Stein
-   * Jared Weinstein
-   * Christian Wuthrich
+   * John Cremona: Tables of elliptic curves
+   * Tim Dokchitser: Complex L-functions and the Birch and Swinnerton-Dyer conjecture
+   * Matthew Greenberg: Elliptic curves over number fields
+   * William Stein: Heegner points and the Gross-Zagier formula
+   * Jared Weinstein: Kolyvagin's Euler system
+   * Christian Wuthrich: p-adic L-series and Iwasawa theory
 
 == Links ==
    There will be another workshop at MSRI at the same time on elliptic curves for undergrads: http://www.msri.org/up/2010
