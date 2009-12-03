@@ -44,6 +44,8 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 
 === Thursday Dec 3:  Research Day ===
 || 9:00am - 12:30pm||  Morning working sessions||
+||10:00am || David Roe: Tate's algorithm over number fields (informal tutorial)||
+||11:00am || Robert Miller: 2-descent in Sage (informal tutorial) ||
 ||12:30pm -  2:00pm||Lunch||
 || 2:00pm -  3:00pm|| Karl Rubin:  Kolyvagin systems and refined class number formulas.  Reading list: [[http://arxiv.org/abs/0909.3916|this new paper]].||
 || 3:10pm -  4:10pm||Jared Weinstein:  Distribution of Kolyvagin classes||
@@ -52,6 +54,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 
 === Friday Dec 4:    Research Day ===
 || 9:00am - 12:30pm|| Morning working sessions||
+|| 11am || Computing images of Galois representations (informal tutorial, Drew Sutherland and William Stein) ||
 ||12:30pm -  2:00pm|| Lunch||
 || 2:00pm -  3:00pm|| Dimitar Jetchev:  Equidistribution of Heegner points and ternary quadratic forms||
 || 3:10pm -  4:10pm|| Mirela Ciperiani:  Solvable points and Kolyvagin's Euler system. Reading list: [[http://www.ma.utexas.edu/users/mirela/solvable.pdf|research apper]]||
