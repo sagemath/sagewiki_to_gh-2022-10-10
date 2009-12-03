@@ -4,6 +4,8 @@
 
 == Confirmed Speakers ==
 
+   * John Cremona
+   * Tim Dokchitser
    * Matthew Greenberg
    * William Stein
    * Jared Weinstein
