@@ -14,6 +14,10 @@ This is a rough sketch of ideas on guidelines for managing the Sage user and dev
  1. [[http://blogs.gnome.org/bolsh/2009/07/22/barriers-to-community-growth/|Barriers to community growth]] by Dave Neary.
  
  1. [[http://video.google.com/videoplay?docid=-4216011961522818645#|How Open Source Projects Survive Poisonous People (And You Can Too)]] --- in the Google Tech Talks series.
+ 
+ 1. [[http://www.cyrius.com/publications/michlmayr-community_management.pdf|Community Management in Open Source Projects]] by Martin Michlmayr.
+ 
+ 1. [[http://www.cyrius.com/publications/|Managing Volunteer Activity in Free Software Projects]] by Martin Michlmayr.
 
 
 == Meritocracy ==
