@@ -6,18 +6,21 @@
 
 This project will include the following topics:
 
- * Compute regulators of elliptic curves over function fields
+ * Compute regulators of elliptic curves over function fields: 
+    * This worksheet does it using Tate's suggestion (i.e., use the definition): http://sagenb.org/home/pub/1198/
 
- * Is there an algorithm to enumerate all elliptic curves over a function field of a given conductor?
+ * Is there an algorithm to enumerate all elliptic curves over a function field of a given conductor?   
+    * Victor Miller reports that there are some papers that give efficient algorithms for solving "S-unit equations" over function fields, which seems relevant. 
 
  * Implement Tate's algorithm for elliptic curves over the function field F_p(t)
 
  * Verify BSD for elliptic curves over function fields of analytic rank 3 or higher
 
+ * Robert Bradshaw implemented faster arithmetic for $F_p(t)$: [[http://trac.sagemath.org/sage_trac/ticket/7585|#7585]]
+
+ 
 
 People: ''Sal Baig'', William Stein, David Roe, Ken Ribet, Kiran Kedlaya, Robert Bradshaw, Victor Miller (S-unit equations), Thomas Barnet-Lamb
-
-Faster arithmetic for $F_p(t)$ [[http://trac.sagemath.org/sage_trac/ticket/7585|#7585]]
 
 
 == Implement computation of the 3-Selmer rank of an elliptic curve over QQ ==
