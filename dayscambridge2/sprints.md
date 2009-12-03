@@ -133,7 +133,7 @@ People: Mirela Ciperiani, William Stein, Barry Mazur, Jay Pottharst
 
  * might use David Harvey's super fast Kedlaya zeta function implementation in Sage (his C++ code), but unfortunately the curves that typically arise aren't hyperelliptic, and Harvey's code only applies to hyperelliptic curves.
 
- * could lead to questions of an "anabelian sort"... e.g., take elliptic curve over finite field, take n-torsion points, extract roots, get coverings, etc.  Compute Frobenius eigenvalues of all these covers. [[attachment:Mazur.pdf|Remarks from Mazur]]
+ * could lead to questions of an "anabelian sort"... e.g., take elliptic curve over finite field, take n-torsion points, extract roots, get coverings, etc.  Compute Frobenius eigenvalues of all these covers. 
 
 People: Barry Mazur, Kiran Kedlaya, Thomas Barnet-Lamb, David Harvey, Mirela Ciperiani, Sal Baig (lots of possibly relevant data over function fields)
 
