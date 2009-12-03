@@ -25,7 +25,11 @@ This project will include the following topics:
 
  * Robert Bradshaw implemented faster arithmetic for $F_p(t)$: [[http://trac.sagemath.org/sage_trac/ticket/7585|#7585]]
 
- 
+ * Let $K=\mathbb{F}_5(t)$ and $E/K: y^2 = x(x+t)(x+t^2)$ be the Legendre curve and consider its twist by $f=1+t$, $E_f$. $E_f$ has Weierstrass equation $y^2 = x^3 + \left(3 t^{6} + 3 t^{5} + 3 t^{3} + 3 t^{2}\right)x +\left(4 t^{9} + t^{8} + 3 t^{7} + 2 t^{6} + 3 t^{5} + t^{4} + 4 t^{3}\right)$. The L-funtion of E_f is:
+
+$$ L(E_f/K,T) = 1-5T-25T^2+125T^3.$$
+
+The analytic rank is 2 with $L^{(2)}(E_f/K,1/5) = 100$. The points $[3*t^3 + t^2 + 4*t: t^3 + 3*t^2:1], [3*t^3 + 2*t^2 + 3*t: t^3:1]$ are independent on $E_F(K)$, so its algebraic rank is 2. Thus the refined BSD conjecture is true.
 
 People: ''Sal Baig'', William Stein, David Roe, Ken Ribet, Kiran Kedlaya, Robert Bradshaw, Victor Miller (S-unit equations), Thomas Barnet-Lamb
 
