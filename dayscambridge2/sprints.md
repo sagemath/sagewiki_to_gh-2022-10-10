@@ -160,6 +160,8 @@ might be a very difficult computational problem though..."
 
  * There is a better paper maybe about this super-elliptic algorithm, with a Magma implementation here: http://www.math.tu-berlin.de/~minzlaff/.  And here is a Sage worksheet that *wraps* that Magma code, so if you have Magma you can compute quickly the zeta function of $y^\ell = f(x)$ for f of odd degree.   And indeed Minzlaff's code seems to work fine.  
 
+ * Kiran has a short Sage program to compute the zeta function of y^4 = (cubic), to be published soon.
+
 People: Barry Mazur, Kiran Kedlaya, Thomas Barnet-Lamb, David Harvey, Mirela Ciperiani, Sal Baig (lots of possibly relevant data over function fields)
 
 
