@@ -138,7 +138,18 @@ People: Mirela Ciperiani, William Stein, Barry Mazur, Jay Pottharst
 
  * could lead to questions of an "anabelian sort"... e.g., take elliptic curve over finite field, take n-torsion points, extract roots, get coverings, etc.  Compute Frobenius eigenvalues of all these covers. 
 
- * To do a useful computation, one needs to compute Frobenius, say for the curve $y^{\ell} = f_N(x)$, where $f_N(x)$ is the $N$-th division polynomial on an elliptic curve.  This following paper is about how to count points on superelliptic curves: [[attachment:gaudry-gurel-an_extension_of_Kedlayas_point-counting_algorithm_to_superelliptic_curves.pdf|Gaudry-Gurel]]
+ * To do a useful computation, one needs to compute Frobenius, say for the curve $y^{\ell} = f_N(x)$, where $f_N(x)$ is the $N$-th division polynomial on an elliptic curve.  This following paper is about how to count points on superelliptic curves: [[attachment:gaudry-gurel-an_extension_of_Kedlayas_point-counting_algorithm_to_superelliptic_curves.pdf|Gaudry-Gurel]]   More from Barry: "  I 've thought about my off-the-cuff suggestion for computing
+Frobenius eigenvalues, and my worry is that one won't really see
+anything terribly interesting if one works only with N=2; but maybe
+when one works with N=3. For example, take an elliptic curve E over
+F_q and let f_3 be (``3-division")  function on E: meaning that it
+vanishes to order one at all nontrivial 3-torsion points and has the
+appropriate order pole at the origin (and no other poles or zeroes).
+Then (for small n) extract n-th powers of that f_3 to get curves C_n
+mapping to E (of unfortunately high genus). But it could be that the
+collection of their Frobenius eigenvalues tells us more than just the
+isogeny class of E?  From what I learn by talking with William, this
+might be a very difficult computational problem though..."
 
  * There is a better paper maybe about this super-elliptic algorithm, with a Magma implementation here: http://www.math.tu-berlin.de/~minzlaff/.  And here is a Sage worksheet that *wraps* that Magma code, so if you have Magma you can compute quickly the zeta function of $y^\ell = f(x)$ for f of odd degree.   And indeed Minzlaff's code seems to work fine.  
 
