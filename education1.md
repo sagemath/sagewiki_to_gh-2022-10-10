@@ -57,7 +57,7 @@ CMI would also like all participants to register with them. This can be done whe
  * [[http://www.math-cs.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon)
  * [[http://web.bentley.edu/empl/c/ncarter|Nathan Carter]] (Bentley)
  * Jason Grout (Drake)
- * Rob Beezer (Puget Sound)
+ * [[http://buzzard.ups.edu|Rob Beezer]] (Puget Sound)
  * William Stein (University of Washington)
  * [[http://math.mit.edu/~kedlaya/|Kiran Kedlaya]] (MIT)
  * [[http://oz.plymouth.edu/~dcernst|Dana Ernst]] (Plymouth State University)
@@ -89,4 +89,4 @@ We will mostly follow [[http://www.claymath.org/workshops/sage/|the official sch
  * 11:30am - 11:50am:  Roundtable discussion - math and word processing: what works, what doesn't, and the state of Lurch and Sage (Jason Grout, Nathan Carter, everyone!)
  * 11:50am - 12:20pm:  Sage for newbies: logistics, browsers, portability, documentation, etc. (TBD)
  * 12:20pm -  1:30pm:  Lunch
- * 1:30pm -  2:30pm:  Undergraduate teaching with Sage in specific courses: tentatively multivariable calculus (Jason Grout) and group theory (Rob Beezer)
+ * 1:30pm -  2:30pm:  Undergraduate teaching with Sage in specific courses: tentatively multivariable calculus (Jason Grout) and group theory (Rob Beezer [[attachment:beezer-2009-sageedu1-group-theory.pdf|PDF]])
