@@ -2,6 +2,8 @@
 
  The official MSRI page: http://www.msri.org/calendar/sgw/WorkshopInfo/556/show_sgw
 
+ June 21, 2010 to July 02, 2010
+
 == Confirmed Speakers ==
 
    * John Cremona: Tables of elliptic curves
