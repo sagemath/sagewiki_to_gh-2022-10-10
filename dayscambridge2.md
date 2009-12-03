@@ -68,7 +68,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 ||11:30am - 11:50am|| Math and word processing: what works, what doesn't, and the state of Lurch and Sage||
 ||11:50am - 12:20am|| Sage for newbies: logistics, browsers, portability, where documentation really is, etc.||
 ||12:20pm -  1:30pm|| Lunch||
-|| 1:30pm -  2:30pm|| Session on undergraduate teaching with Sage||
+|| 1:30pm -  2:30pm|| Session on undergraduate teaching with Sage [[attachment:beezer-2009-sageedu1-group-theory.pdf|Beezer, Group Theory]]||
 
 
 == Organizing Committee ==
