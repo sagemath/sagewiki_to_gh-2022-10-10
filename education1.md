@@ -74,6 +74,7 @@ CMI would also like all participants to register with them. This can be done whe
  * Juliana Belding (Harvard)
  * Lynne C !DeSantis (Hesser College)
  * Andrew !McHugh (Mitchell College)
+ * Semra Kılıç-Bahi (Colby-Sawyer College)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
