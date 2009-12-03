@@ -135,6 +135,8 @@ People: Mirela Ciperiani, William Stein, Barry Mazur, Jay Pottharst
 
  * could lead to questions of an "anabelian sort"... e.g., take elliptic curve over finite field, take n-torsion points, extract roots, get coverings, etc.  Compute Frobenius eigenvalues of all these covers. 
 
+ * To do a useful computation, one needs to compute Frobenius, say for the curve $y^{\ell} = f_N(x)$, where $f_N(x)$ is the $N$-th division polynomial on an elliptic curve.  This following paper is about how to count points on superelliptic curves: [[attachment:gaudry-gurel-an_extension_of_Kedlayas_point-counting_algorithm_to_superelliptic_curves.pdf|Gaudry-Gurel]]
+
 People: Barry Mazur, Kiran Kedlaya, Thomas Barnet-Lamb, David Harvey, Mirela Ciperiani, Sal Baig (lots of possibly relevant data over function fields)
 
 
