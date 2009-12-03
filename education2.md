@@ -14,7 +14,7 @@ See [[#schedule|below]] for the official schedule.
 
 == Logistics ==
   
- * Date and Location: February 24, 2010 at [[CIRM|http://www.cirm.univ-mrs.fr/] (Marseille, France), from 10:00 AM to 18:30 PM, with a lunch break from 12:30-1:30. 
+ * Date and Location: February 24, 2010 at [[CIRM|http://www.cirm.univ-mrs.fr/]] (Marseille, France), from 10:00 AM to 18:30 PM, with a lunch break from 12:30-1:30. 
 
  * We strongly encourage you to bring your laptop to try things out!  Wifi will be available.
 
@@ -26,7 +26,7 @@ See [[#schedule|below]] for the official schedule.
  * You may also find the general Sage [[http://groups.google.com/group/sage-support|support list]] helpful.
 
 == Organizers ==
- * [[http://iml.univ-mrs.fr/~crumiere|Anne Crumière]] (IUFM, [[http://iml.univ-mrs.fr[IML]])
+ * [[http://iml.univ-mrs.fr/~crumiere|Anne Crumière]] (IUFM, [[http://iml.univ-mrs.fr|IML]])
  * [[http://iml.univ-mrs.fr/~delecroi|Vincent Delecroix]] ([[http://iml.univ-mrs.fr|IML]])
 
 
