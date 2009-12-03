@@ -140,7 +140,7 @@ People: Mirela Ciperiani, William Stein, Barry Mazur, Jay Pottharst
 
  * To do a useful computation, one needs to compute Frobenius, say for the curve $y^{\ell} = f_N(x)$, where $f_N(x)$ is the $N$-th division polynomial on an elliptic curve.  This following paper is about how to count points on superelliptic curves: [[attachment:gaudry-gurel-an_extension_of_Kedlayas_point-counting_algorithm_to_superelliptic_curves.pdf|Gaudry-Gurel]]
 
- * There is a better paper maybe about this super-elliptic algorithm, with a Magma implementation here: http://www.math.tu-berlin.de/~minzlaff/
+ * There is a better paper maybe about this super-elliptic algorithm, with a Magma implementation here: http://www.math.tu-berlin.de/~minzlaff/.  And here is a Sage worksheet that *wraps* that Magma code, so if you have Magma you can compute quickly the zeta function of $y^\ell = f(x)$ for f of odd degree.   And indeed Minzlaff's code seems to work fine.  
 
 People: Barry Mazur, Kiran Kedlaya, Thomas Barnet-Lamb, David Harvey, Mirela Ciperiani, Sal Baig (lots of possibly relevant data over function fields)
 
