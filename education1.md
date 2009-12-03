@@ -75,6 +75,7 @@ CMI would also like all participants to register with them. This can be done whe
  * Lynne C !DeSantis (Hesser College)
  * Andrew !McHugh (Mitchell College)
  * Semra Kılıç-Bahi (Colby-Sawyer College)
+ * Andrew Cahoon (Colby-Sawyer College)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
