@@ -1,0 +1,238 @@
+# HG changeset patch
+# User Robert L. Miller <rlm@rlmiller.org>
+# Date 1259959420 18000
+# Node ID 78cb8fa60207972fc9faccbe0a83af0cd30bac14
+# Parent  51902c8b223bc37104c31683d0456b03c13dc06d
+Implement S-class groups and S-units for polynomial rings over a number field.
+
+diff -r 51902c8b223b -r 78cb8fa60207 sage/rings/number_field/number_field_ideal.py
+--- a/sage/rings/number_field/number_field_ideal.py	Thu Dec 03 14:02:18 2009 -0500
++++ b/sage/rings/number_field/number_field_ideal.py	Fri Dec 04 15:43:40 2009 -0500
+@@ -88,6 +88,60 @@
+     """
+     return field.pari_nf().getattr('zk') * hnf
+ 
++def convert_from_idealprimedec_form(field, ideal):
++    """
++    INPUT:
++    
++    -  ``field`` - a number field
++    
++    -  ``ideal`` - a pari ideal, as output by the idealprimedec function
++    
++    EXAMPLE::
++    
++        sage: from sage.rings.number_field.number_field_ideal import convert_from_idealprimedec_form
++        sage: K.<a> = NumberField(x^2 + 3)
++        sage: K_bnf = gp(K.pari_bnf())
++        sage: ideal = K_bnf.idealprimedec(3)[1]
++        sage: convert_from_idealprimedec_form(K, ideal)
++        Fractional ideal (1/2*a - 3/2)
++        sage: K.factor(3)
++        (Fractional ideal (1/2*a - 3/2))^2
++
++    """
++    p = ZZ(ideal[1])
++    alpha = field( field.pari_nf().getattr('zk') * ideal[2] )
++    return field.ideal(p, alpha)
++
++def convert_to_idealprimedec_form(field, ideal):
++    """
++    INPUT:
++    
++    -  ``field`` - a number field
++    
++    -  ``ideal`` - a prime ideal
++
++    NOTE:
++    
++    The algorithm implemented right now is *immensely* stupid, but works. It
++    should eventually be replaced with something better.
++
++    EXAMPLE::
++    
++        sage: from sage.rings.number_field.number_field_ideal import convert_to_idealprimedec_form
++        sage: K.<a> = NumberField(x^2 + 3)
++        sage: P = K.ideal(a/2-3/2)
++        sage: convert_to_idealprimedec_form(K, P)
++        [3, [1, 2]~, 2, 1, [1, -1]~]
++
++    """
++    p = ideal.residue_field().characteristic()
++    from sage.interfaces.gp import gp
++    K_bnf = gp(field.pari_bnf())
++    for primedecform in K_bnf.idealprimedec(p):
++        if convert_from_idealprimedec_form(field, primedecform) == ideal:
++            return primedecform
++    raise RuntimeError
++    
+ class NumberFieldIdeal(Ideal_generic):
+     """
+     An ideal of a number field.
+diff -r 51902c8b223b -r 78cb8fa60207 sage/rings/polynomial/polynomial_quotient_ring.py
+--- a/sage/rings/polynomial/polynomial_quotient_ring.py	Thu Dec 03 14:02:18 2009 -0500
++++ b/sage/rings/polynomial/polynomial_quotient_ring.py	Fri Dec 04 15:43:40 2009 -0500
+@@ -570,6 +570,163 @@
+         return self(self.polynomial_ring().random_element(degree=self.degree()-1))
+         
+ 
++    def S_class_group(self, S, proof=True):
++        """
++        If this quotient ring is over a number field K, by a polynomial with
++        nonzero discriminant, and S is a set of primes of K, this function
++        returns the S-class group.
++        """
++        return self._S_class_group_and_units(S, proof=proof)[1]
++    
++    def class_group(self, proof=True):
++        """
++        If this quotient ring is over a number field K, by a polynomial of
++        nonzero discriminant, returns the class group.
++        """
++        return self._S_class_group_and_units([], proof=proof)[1]
++
++    def S_units(self, S, proof=True):
++        """
++        If this quotient ring is over a number field K, by a polynomial with
++        nonzero discriminant, and S is a set of primes of K, this function
++        returns the S-units.
++        """
++        return self._S_class_group_and_units(S, proof=proof)[0]
++    
++    def units(self, proof=True):
++        """
++        If this quotient ring is over a number field K, by a polynomial of
++        nonzero discriminant, returns the units.
++        """
++        return self._S_class_group_and_units([], proof=proof)[0]
++
++    def _S_class_group_and_units(self, S, proof=True):
++        from sage.rings.number_field.all import is_NumberField
++        K = self.base_ring()
++        if not is_NumberField(K) or not self.__polynomial.is_squarefree():
++            raise NotImplementedError
++        
++        from sage.rings.ideal import is_Ideal
++        for p in S:
++#            try:
++            assert is_Ideal(p)
++            assert p.ring() is K or p.ring() is K.ring_of_integers() # second check due to inconsistency over QQ - see # 7596
++            assert p.is_prime()
++#            except AssertionError:
++#                raise TypeError("S must be a list of prime ideals of the base field.")
++        
++        from sage.rings.number_field.number_field import NumberField
++        from sage.rings.number_field.number_field_ideal import \
++            convert_to_idealprimedec_form, convert_from_idealprimedec_form
++        from sage.interfaces.gp import gp
++
++        F = self.__polynomial.factor()
++        rel_fields = []
++        abs_fields = []
++        isos = []
++        iso_classes = []
++        i = 0
++        for f, _ in F:
++            D = K.extension(f, 'x'+str(i))
++            rel_fields.append(D)
++            D_abs = D.absolute_field('y'+str(i))
++            abs_fields.append(D_abs)
++            i += 1
++            
++            seen_before = False
++            j = 0
++            for D_iso,_ in iso_classes:
++                if D_abs.is_isomorphic(D_iso):
++                    seen_before = True; break
++                j += 1
++            if seen_before:
++                isos.append((D_iso.embeddings(D_abs)[0], j))
++            else:
++                S_abs = []
++                for p in S:
++                    abs_gens = []
++                    for g in D.ideal([a for a in p.gens()]).gens(): # this line looks a bit silly, due to inconsistency over QQ - see # 7596
++                        abs_gens.append(D_abs.structure()[1](g))
++                    S_abs += [pp for pp,_ in D_abs.ideal(abs_gens).factor()]
++                iso_classes.append((D_abs,S_abs))
++                isos.append((D_abs.embeddings(D_abs)[0], j))
++
++        from sage.rings.all import QQ, ZZ
++        component_S_units = []
++        component_S_class_groups = []
++        component_S_class_str = []
++        for D_iso, S_iso in iso_classes:
++            deg = D_iso.degree()
++            D_gp = gp(D_iso.pari_bnf())
++            if proof:
++                assert D_gp.bnfcertify() == 1
++                # if the result is not provable, may output an
++                # error message, or loop indefinitely
++            
++            S_gp = [convert_to_idealprimedec_form(D_iso, p) for p in S_iso]
++            units = []
++            
++            result = D_gp.bnfsunit(S_gp)
++            x = D_iso.gen()
++            for unit in result[1]:
++                sage_unit = 0
++                for i in xrange(unit.poldegree()+1):
++                    sage_unit += QQ(unit.polcoeff(i))*x**i
++                units.append(sage_unit)
++            units += D_iso.unit_group().gens()
++            component_S_units.append(units)
++            
++            IB = []
++            for f_gp in D_gp[7][7]:
++                f = 0
++                for i in xrange(f_gp.length()):
++                    f += QQ(f_gp.polcoeff(i))*x**i
++                IB.append(f)
++            clgp_gens = []
++            for M in result[5][3]:
++                ideal_gens = []
++                for i in xrange(1, deg+1):
++                    col = []
++                    for j in xrange(1, deg+1):
++                        col.append(ZZ(M[j,i]))
++                    ideal_gens.append(sum([IB[j]*col[j] for j in xrange(deg)]))
++                clgp_gens.append(D_iso.ideal(ideal_gens))
++            component_S_class_groups.append(clgp_gens)
++        
++        from sage.rings.arith import crt
++        units = []
++        clgp_gens = []
++        moduli = [D.relative_polynomial() for D in rel_fields]
++        for i in xrange(len(rel_fields)):
++            phi = isos[i][0]
++            back_to_rel = phi.codomain().structure()[0]
++            for unit in component_S_units[isos[i][1]]:
++                rel_unit = back_to_rel(phi(unit))
++                prod_unit = []
++                for j in xrange(i):
++                    prod_unit.append(rel_fields[j](1))
++                prod_unit.append(back_to_rel(phi(unit)))
++                for j in xrange(len(rel_fields) - i - 1):
++                    prod_unit.append(rel_fields[j](1))
++                poly_unit = crt([u_i.polynomial() for u_i in prod_unit], moduli, None, None)
++                units.append(self(poly_unit))
++            for clgp_gen in component_S_class_groups[isos[i][1]]:
++                poly_ideal_gens = []
++                for ideal_gen in clgp_gen.gens():
++                    rel_ideal_gen = back_to_rel(phi(ideal_gen))
++                    prod_ideal_gen = []
++                    for j in xrange(i):
++                        prod_ideal_gen.append(rel_fields[j](1))
++                    prod_ideal_gen.append(back_to_rel(phi(ideal_gen)))
++                    for j in xrange(len(rel_fields) - i - 1):
++                        prod_ideal_gen.append(rel_fields[j](1))
++                    poly_ideal_gen = crt([u_i.polynomial() for u_i in prod_ideal_gen], moduli, None, None)
++                    poly_ideal_gens.append(poly_ideal_gen)
++                clgp_gens.append(self.ideal(poly_ideal_gens))
++                
++        
++        return units, clgp_gens
++
+ class PolynomialQuotientRing_domain(PolynomialQuotientRing_generic, sage.rings.integral_domain.IntegralDomain):
+     """
+     EXAMPLES::
