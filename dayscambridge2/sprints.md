@@ -49,6 +49,8 @@ Some projects:
   
  * Implement the algorithm from Schaefer-Stoll which does the general case
 
+   * Progress: Computation of S-class groups and S-units is now available for etale algebras: [[attachment:S_units_for_etale_algebras.patch]]
+
  * Implement the algorithm in the reducible case due to Jeechul Woo: [[attachment:ThreeDescent.gp|Jeechul Woo's GP script]]  Here is a sage worksheet with the code attached and usable with Sage: http://sagenb.org/home/pub/1200/ and a [[attachment:three_descent.sage|sage port]].
 
  * Compute the 3-Selmer ranks of all curves of conductor up to 1000
