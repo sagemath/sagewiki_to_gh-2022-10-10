@@ -80,6 +80,9 @@ The goals of this project are:
 
   * Think about statistics resulting from the above computation. 
 
+  * Status report on Thursday from Drew: "I now have a standalone version mostly working that is driven entirely by precomputed tables. It's about 6-7 times faster and can crank through the entire Stein-Watkins database in under 2 hours. Still needs a bit of debugging, which I will continue working on tonight."
+
+  
 
 People: ''Drew Sutherland'', Ken Ribet, William Stein, Kiran Kedlaya, David Roe
 
