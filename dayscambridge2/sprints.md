@@ -114,7 +114,7 @@ This is done for examples of rank 2 curves.   Nobody has ever checked that Kolyv
 
   * Jen and William (Thursday night):
      * computed $\tau_n$ for the rank 3 curve and ''many'' $n$ using the algorithm from Jared Weinstein's talk
-     * implemented code to compute the Kolyvagin sigma operator on $c$ that are a squarefree product of primes (and not just on primes).
+     * implemented code to compute the Kolyvagin sigma operator on $c$ that are a squarefree product of primes (and not just on primes).  [[the first 2 versions/algorithms were *wrong*, but we found something in the end and implemented it]]   We ran it and verified that a Kolyvagin class is nonzero for the rank 3 curve 5077a.   We also tried this with some different $n$ and got consistent results.   So Koly's conjecture appars to hold for a rank 3 curve!
 
 People: ''William Stein'', Dimitar Jetchev, Victor Miller (sparse linear algebra), Jen Balakrishnan, Robert Bradshaw
 
