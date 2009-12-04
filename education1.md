@@ -76,6 +76,7 @@ CMI would also like all participants to register with them. This can be done whe
  * Andrew !McHugh (Mitchell College)
  * Semra Kılıç-Bahi (Colby-Sawyer College)
  * Andrew Cahoon (Colby-Sawyer College)
+ * Laura Hall-Seelig (Merrimack)
 
 <<Anchor(schedule)>>
 == Official Schedule ==
