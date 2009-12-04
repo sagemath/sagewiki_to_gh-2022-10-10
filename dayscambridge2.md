@@ -54,7 +54,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 
 === Friday Dec 4:    Research Day ===
 || 9:00am - 12:30pm|| Morning working sessions||
-|| 11am || Computing images of Galois representations (informal tutorial, Drew Sutherland and William Stein) ||
+|| 11am || Computing images of Galois representations (informal tutorial, Drew Sutherland and William Stein); See http://sagenb.org/home/pub/1205/||
 ||12:30pm -  2:00pm|| Lunch||
 || 2:00pm -  3:00pm|| Dimitar Jetchev:  Equidistribution of Heegner points and ternary quadratic forms||
 || 3:10pm -  4:10pm|| Mirela Ciperiani:  Solvable points and Kolyvagin's Euler system. Reading list: [[http://www.ma.utexas.edu/users/mirela/solvable.pdf|research apper]]||
