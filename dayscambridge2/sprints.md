@@ -112,6 +112,10 @@ This is done for examples of rank 2 curves.   Nobody has ever checked that Kolyv
 
   * Using the algorithm from Jared's talk we computed and found that the first tau we can easily try should work for verifying Kolyvagin's conjecture.  Code here: http://sagenb.org/home/pub/1203
 
+  * Jen and William (Thursday night):
+     * computed $\tau_n$ for the rank 3 curve and ''many'' $n$ using the algorithm from Jared Weinstein's talk
+     * implemented code to compute the Kolyvagin sigma operator on $c$ that are a squarefree product of primes (and not just on primes).
+
 People: ''William Stein'', Dimitar Jetchev, Victor Miller (sparse linear algebra), Jen Balakrishnan, Robert Bradshaw
 
 == Implement an algorithm in Sage to compute Stark-Heegner points ==
