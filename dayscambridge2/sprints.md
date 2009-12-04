@@ -10,7 +10,7 @@ This project will include the following topics:
     * This worksheet does it using Tate's suggestion (i.e., use the definition): http://sagenb.org/home/pub/1198/
 
  * Is there an algorithm to enumerate all elliptic curves over a function field of a given conductor?   
-    * Victor Miller reports that there are some papers that give efficient algorithms for solving "S-unit equations" over function fields, which seems relevant.  It's well known that finding all Elliptic Curves with good reduction outside a finite set, $S$ of places is equivalent to solving S-unit equations. There are a series of four papers by Gaal and Pohst that give efficient algorithms for this when dealing with function fields over finite fields, especially $\mathbb{F}_q(t)$.
+    * Victor Miller reports that there are some papers that give efficient algorithms for solving "S-unit equations" over function fields, which seems relevant.  It's well known that finding all Elliptic Curves with good reduction outside a finite set, $S$ of places is equivalent to solving S-unit equations (this is not true when the curve is iso-trivial, though that's not much of a problem here). There are a series of four papers by Gaal and Pohst that give efficient algorithms for this when dealing with function fields over finite fields, especially $\mathbb{F}_q(t)$.
       [[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6WKD-4HVF15H-2&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=ec0b143bb1c45f3bdcd4bea8841e8735|Diophantine Equations over Global Function Fields I: The Thue Equation]]
 
       [[http://akpeters.metapress.com/content/458402lu66634164/|Diophantine Equations over Global Function Fields II: R-Integral Solutions of Thue Equations]]
@@ -18,6 +18,7 @@ This project will include the following topics:
       [[http://projecteuclid.org/DPubS?verb=Display&version=1.0&service=UI&handle=euclid.facm/1229696556&page=record|Diophantine equations over global function fields III: An application to resultant form equations]]
 
       [[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6WKD-4TP7HDM-3&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=c50fd011b673de5511d49b10b3fe9935|Diophantine equations over global function fields IV: S-unit equations in several variables with an application to norm form equations]]
+      The paper [[http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.em/1204928531|Finding All Elliptic Curves with Good Reduction Outside a Given Set of Primes]] by Cremona and Lingham has a lot of details and references to the analogous problem over number fields (which should be harder).
 
  * Implement Tate's algorithm for elliptic curves over the function field $\mathbb{F}_p(t)$.
 
