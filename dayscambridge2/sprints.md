@@ -40,6 +40,12 @@ $$ \frac{100}{2} = \frac{L^{(r)}(E_f/K,1/q)}{r!} = \frac{|Sha|R\tau}{|E(K)_{tors
 
 Note that there is probably a factor of 2 going unaccounted for in the computation of the regulator. From this, we see that $|Sha|\geq \frac{25}{4}$ (again, this may be off by a power of 2).
 
+ * Other curves of analytic rank 2:
+
+  * The Legendre curve $y^2 = x(x+t)(x+t^2)/\mathbb{F}_{11}(t)$ twisted by $t+7$.
+
+  * The Legendre curve $y^2 = x(x+t)(x+t^2)/\mathbb{F}_{5}(t)$ twisted by $t^3+1$
+
 People: ''Sal Baig'', William Stein, David Roe, Ken Ribet, Kiran Kedlaya, Robert Bradshaw, Victor Miller (S-unit equations), Thomas Barnet-Lamb
 
 
