@@ -64,7 +64,7 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 === Saturday Dec 5:  Education Day ===
 || 9:00am -  9:30am|| Registration||
 || 9:30am -  9:45am|| Introduction and announcements||
-|| 9:45am - 10:30am|| Karl Kcrisman: Using Sage in the classroom    http://sagenb.org/home/pub/1212  ||
+|| 9:45am - 10:30am|| Karl Crisman: Using Sage in the classroom    http://sagenb.org/home/pub/1212  ||
 ||10:30am - 11:00am|| Math software capabilities: what is and isn't in Sage||
 ||11:00am - 11:10am|| Break||
 ||11:10am - 11:30am|| Introduction to Lurch (Lite)||
