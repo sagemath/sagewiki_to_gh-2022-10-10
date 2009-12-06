@@ -8,6 +8,8 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 [[http://www.nsf.gov/pubs/2009/nsf09529/nsf09529.html|CCLI Solicitation]]
 
+[[http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf101|2010 Grant Proposal Guide]]
+
 = The Actual Proposal =
 
 [[/proposal|The Proposal]]
