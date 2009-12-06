@@ -61,7 +61,8 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
 || 4:20pm -  5:20pm|| Matthew Greenberg:  Fundamental domains for Shimura curves and computation of Stark-Heegner points [[attachment::slides -- greenberg.pdf]]||
 || 5:30pm -  6:00pm|| Project status reports (final wrap up)||
  
-=== Saturday Dec 5:  Education Day ===
+=== Saturday Dec 5:  Sage Education Day ===
+(See [[education1|Education Day]] wiki page for more stuff.)
 || 9:00am -  9:30am|| Registration||
 || 9:30am -  9:45am|| Introduction and announcements||
 || 9:45am - 10:30am|| Karl Crisman: Using Sage in the classroom    http://sagenb.org/home/pub/1212  ||
