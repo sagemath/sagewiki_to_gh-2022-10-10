@@ -1,4 +1,6 @@
-= Sage Days 22: Elliptic Curves at MSRI =
+= Sage Days 22: Computing with Elliptic Curves =
+
+Location: MSRI at Berkeley, California
 
  The official MSRI page: http://www.msri.org/calendar/sgw/WorkshopInfo/556/show_sgw
 
