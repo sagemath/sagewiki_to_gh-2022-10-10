@@ -14,7 +14,7 @@
 
  * Roundtable discussions on general math software, and on math and word processing - for both, what works and what doesn't
 
-See [[#schedule|below]] for the official schedule.
+See [[#schedule|below]] for the official schedule and links to resources related to the talks (slides, worksheets, etc.).
 
 == Logistics ==
   
@@ -81,11 +81,11 @@ CMI would also like all participants to register with them. This can be done whe
 <<Anchor(schedule)>>
 == Official Schedule ==
 
-We will mostly follow [[http://www.claymath.org/workshops/sage/|the official schedule]], but it has some built-in flexibility to accommodate workshop participant interest.  Here we include a little extra detail on the sessions, beyond what is available on the official website.
+We will mostly follow [[http://www.claymath.org/workshops/sage/|the official schedule]], but it has some built-in flexibility to accommodate workshop participant interest.  Here we include a little extra detail on the sessions, beyond what is available on the official website.  The links here are variously to Sage worksheets, talk files, or other useful items.
 
  * 9:00am -  9:30am:  Registration
  * 9:30am -  9:45am:  Introductions and announcements
- * 9:45am - 10:30am:  Using Sage in the classroom; an introduction (Karl-Dieter Crisman)
+ * 9:45am - 10:30am:  [[http://sagenb.org/home/pub/1212|Using Sage in the classroom]]; an introduction (Karl-Dieter Crisman)
  * 10:30am - 11:00am:  Roundtable discussion - math software capabilities: what is in Sage, what should be in Sage (William Stein, Karl-Dieter Crisman, everyone!)
  * 11:00am - 11:10am:  Break
  * 11:10am - 11:30am:  Introduction to Lurch and Lurch Lite (Nathan Carter)
