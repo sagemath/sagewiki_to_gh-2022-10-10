@@ -81,7 +81,7 @@ Below, talk to your secretaries and find out exactly how much what you want will
 
  * [$10,000] AIM Dissemination
     * See http://groups.google.com/group/sage-grants/browse_thread/thread/581889719a14be28/
-    * David Farmer "$10K/year in seed money"
+    * David Farmer "$10K/year in seed money" (Note added Dec 7:  I'd like to make that $20k/year and also get someone to act as a editor of the books.  But only if the budget cap allows it. --David).
 
  * Test Drivers
     * Faculty (N=?) who use Sage, and materials we create, in a course
