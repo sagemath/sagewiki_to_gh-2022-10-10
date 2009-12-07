@@ -2,6 +2,7 @@
 
 <<TableOfContents>>
 
+'''Todo:''' Polish up these primers and put them in the [[http://www.sagemath.org/doc/constructions/|Sage Constructions]] document.
 
 == Done / In Progress ==
 
