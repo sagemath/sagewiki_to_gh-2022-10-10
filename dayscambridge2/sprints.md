@@ -44,11 +44,11 @@ Note that there is probably a factor of 2 going unaccounted for in the computati
 
   * The Legendre curve $y^2 = x(x+t)(x+t^2)/\mathbb{F}_{11}(t)$ twisted by $t+7$ with $L$-function:
 
-   $$1+ 3T -15T^2 -125T^3 -625T^4 -1875T^5 +9375T^6 +78125T^7$$
+    $$1 -11T -121T^2+ 1331T^3$$
 
   * The Legendre curve $y^2 = x(x+t)(x+t^2)/\mathbb{F}_{5}(t)$ twisted by $t^3+1$ with $L$-function:
 
-   $$1 -11T -121T^2+ 1331T^3$$
+    $$1+ 3T -15T^2 -125T^3 -625T^4 -1875T^5 +9375T^6 +78125T^7$$
 
 People: ''Sal Baig'', William Stein, David Roe, Ken Ribet, Kiran Kedlaya, Robert Bradshaw, Victor Miller (S-unit equations), Thomas Barnet-Lamb
 
