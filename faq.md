@@ -108,6 +108,12 @@ this problem should go away. This would also be easy to fix by having sage run o
 the install process; see [[http://trac.sagemath.org/sage_trac/ticket/6375|trac #6375]] for 
 this fix.
 
+
+=== I used Debian/Ubuntu to install Sage 3.0.5 and that version is giving lots of errors. What can I do? ===
+
+The version of Sage, i.e. Sage version 3.0.5, that's available through apt-get in Debian and Ubuntu is very old. No-one has yet found time to update the Debian/Ubuntu version of Sage. Help wanted! You should download the latest version of Sage from the [[http://www.sagemath.org/download.html|download page]]. If you would like to help with updating the Debian/Ubuntu version of Sage, please email the [[http://groups.google.com/group/sage-devel|sage-devel]] mailing list.
+
+
 == Developing in Sage ==
 === What tools do I need to develop in Sage? ===
 You need the prerequisite tools listed in the README.txt file in the root directory of Sage.
