@@ -17,6 +17,10 @@ There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics 
  * [[/sprints|Coding sprint projects]]
  * [[/edu|Education projects]]
 
+== Video ==
+
+ * The raw super-high-res HD video is here, and can be played with VLC: http://wstein.org/sagedays18/
+
 == Schedule ==
 
  [[http://wstein.org/misc/sagedays18_papers.zip|sagedays18_papers.zip -- a zip archive of 23 research papers that are highly relevant to these talks]]
