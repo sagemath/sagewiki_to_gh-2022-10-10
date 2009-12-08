@@ -766,11 +766,7 @@ A tamer wants to escape within a circle without being eaten by a lion who lives 
 
 {{attachment:tamer.gif}}
 
-To create the above picture download the following file
-
-[[attachment:tamer.sage]]
-
-and type the following in the command line:
+To create the above animation, download [[attachment:tamer.sage]] and type
 
 {{{#!python numbers=none
 sage: load tamer.sage
