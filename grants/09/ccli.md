@@ -16,7 +16,7 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 [[/timeline|Timeline]]
 
-= Next Conference call: Thu 19 Nov 2009, 11AM Pacific Time =
+= Next Conference call: Tue 8 Dec 2009, 8AM Pacific Time =
 Dial:  866 589 0901, passcode:  8227893# 
 
 [[/ConferenceCall/18Aug|18 Aug Conference Call]]
