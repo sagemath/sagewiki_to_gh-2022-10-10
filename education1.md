@@ -88,7 +88,7 @@ We will mostly follow [[http://www.claymath.org/workshops/sage/|the official sch
  * 9:45am - 10:30am:  [[http://sagenb.org/home/pub/1212|Using Sage in the classroom]]; an introduction (Karl-Dieter Crisman)
  * 10:30am - 11:00am:  Roundtable discussion - math software capabilities: what is in Sage, what should be in Sage (William Stein, Karl-Dieter Crisman, everyone!)
  * 11:00am - 11:10am:  Break
- * 11:10am - 11:30am:  Introduction to Lurch and Lurch Lite (Nathan Carter)
+ * 11:10am - 11:30am:  Introduction to Lurch and Lurch Lite (Nathan Carter) (see [[http://lurch.sourceforge.net/sage09/|the page for this talk on the Lurch site]])
  * 11:30am - 11:50am:  Roundtable discussion - math and word processing: what works, what doesn't, and the state of Lurch and Sage (Jason Grout, Nathan Carter, everyone!)
  * 11:50am - 12:20pm:  Sage for newbies: logistics, browsers, portability, documentation, etc. (TBD)
  * 12:20pm -  1:30pm:  Lunch
