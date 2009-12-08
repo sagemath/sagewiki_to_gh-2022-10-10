@@ -141,6 +141,9 @@ Dial:  866 589 0901, passcode:  8227893#
 
   * http://www.maa.org/columns/launchings/launchings_04_09.html  -- References some studies about the effectiveness of webwork.
 
+  * [[http://books.google.com/books?id=HDjOijkHXSwC&pg=PA103&lpg=PA103&dq=K.+Heid+math+education&source=bl&ots=lLpq8w2NXF&sig=hzrzGj7aECGKWZWCFQLHCQSo4d0&hl=en&ei=hr0eS7m9NI7UnAeb4qTWDQ&sa=X&oi=book_result&ct=result&resnum=1&ved=0CAgQ6AEwAA#v=onepage&q=K.%20Heid%20math%20education&f=false]]
+
+  * 
 
 
 = Open Textbooks in Mathematics =
