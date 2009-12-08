@@ -760,9 +760,9 @@ http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage.pdf,
 and in A4 size:
 http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage-a4.pdf.
 
-== The Tamer and the Lion ==
+=== The Tamer and the Lion ===
 
-A tamer wants to escape within a circle without being eaten by a lion who lives on the circle. The speed of the lion is 4 times that of the tamer. How can the tamer escape? There is a good solution in 2d, but does the simple solution where the tamer always moves opposite to the lion position works? In 2009, Sage and a small script written by Xavier Provençal and Sébastien Labbé answers the question.
+A tamer wants to escape within a circle without being eaten by a lion who lives on the circle. The speed of the lion is 4 times that of the tamer. How can the tamer escape? There is a good solution in 2d, but does the simple solution where the tamer always moves opposite to the lion position works? In November 2009, Sage and a small script written by Xavier Provençal and Sébastien Labbé in Montpellier answers the question.
 
 {{attachment:tamer.gif}}
 
