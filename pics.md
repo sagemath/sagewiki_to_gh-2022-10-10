@@ -759,3 +759,11 @@ Also (thanks to Rob Beezer) available in poster form in pdf format:
 http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage.pdf,
 and in A4 size:
 http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage-a4.pdf.
+
+== The Dompteur and the Lion ==
+
+Explain the problem here.
+
+Post the animation here.
+
+Post the code here.
