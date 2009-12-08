@@ -762,10 +762,18 @@ http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage-a4.pdf.
 
 == The Tamer and the Lion ==
 
-Explain the problem here.
+A tamer wants to escape within a circle without being eaten by a lion who lives on the circle. The speed of the lion is 4 times that of the tamer. How can the tamer escape? There is a good solution in 2d, but does the simple solution where the tamer always moves opposite to the lion position works? In 2009, Sage and a small script written by Xavier Provençal and Sébastien Labbé answers the question.
 
 {{attachment:tamer.gif}}
 
-{{attachment:tamer.sage}}
+To create the above picture download the following file
 
-Post the code here.
+[[attachment:tamer.sage]]
+
+and type the following in the command line:
+
+{{{#!python numbers=none
+sage: load tamer.sage
+sage: a = anime(1000,10)
+sage: show(a)
+}}}
