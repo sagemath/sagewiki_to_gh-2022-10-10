@@ -1,11 +1,21 @@
 {{{
-
-
 %Some useful commands:
 \renewcommand{\thefootnote}{\roman{footnote}}
-\newcommand{\note}[1]{\footnote{#1}\marginpar[\flushright \fbox{\textbf{\thefootnote}}]{\fbox{\textbf{\thefootnote}} }}
+\newcommand{\note}[1]{\footnote{#1}\marginpar[\flushright \fbox{\textbf{\thefootnote}}]{\fbox{\textbf{\thefootnote}}}}
 % To make all notes ignored, uncomment the following command.
 %\renewcommand{\note}[1]{}
+
+% \newcommand{\marginnote}[1]{\marginpar[\flushright #1]{#1}}
+
+% \usepackage[12hr]{datetime}
+% \newdateformat{draftdate}{%
+% \shortdayofweekname{\THEDAY}{\THEMONTH}{\THEYEAR}, %
+% \THEDAY\ \shortmonthname[\THEMONTH] \THEYEAR}
+% \draftdate
+% \usepackage{eso-pic}
+% \AddToShipoutPicture{\put(10,15){\small Draft: \today\ at \currenttime }}%--- version: \MakeUppercase{\svnInfoRevision}}}
+
+
 
 \section{Project Description}
 
@@ -364,32 +374,46 @@ We propose to create subject specific tutorials to answer questions such as ``Wh
 
 \subsection{Sage in the Classroom}
 
-The heart of Project Sage is getting Sage-enhanced materials in the hands of teachers and students to assist them in the teaching and learning of mathematics.  We will work with selected faculty at test sites to provide support for using Sage in their classroom,  for the Sage-enhanced materials that we have created, and teach them how to write their own materials.  We will recruit two cohorts for our test sites with the first cohort beginning Summer 2011 and the second beginning the following summer.  The teachers at our test sites will receive the following support.
+The heart of Project Sage is getting Sage-enhanced materials in the
+hands of teachers and students to assist them in the teaching and
+learning of mathematics.  We will work with selected faculty at test
+sites to provide support for using Sage in their classroom, for the
+Sage-enhanced materials that we have created, and teach them how to
+write their own materials.  We will recruit two cohorts for our test
+sites with the first cohort beginning Summer 2011 and the second
+beginning the following summer.  Several institutions have already
+expressed interest.  [Note: We need to list some of these places or
+even attach letters of support expressing interest.] The teachers at
+our test sites will receive the following support.
 \begin{itemize}
 
-\item
-Teachers must commit to using Sage-enhanced materials in their classrooms for two years.
+\item Teachers must commit to using Sage-enhanced materials in their
+  classrooms for two years.
 
-\item
-Teachers must write and test a Sage-enhanced model for the class that their are teaching.
+\item Teachers must write and test a Sage-enhanced model for the class
+  that their are teaching.
 
-\item
-Teachers must write and file a report at the end of each year of their two-year commitment.
+\item Teachers must write and file a report at the end of each year of
+  their two-year commitment.
 
-\item
-After the first year, teachers must train at least one other teacher how to use Sage-enhanced materials in the classroom.
+\item After the first year, teachers must train and conduct
+  departmental workshops on Sage and how to use Sage-enhanced
+  materials in the classroom.  Teachers in the first cohort will also
+  mentor teachers in the second cohort.
 
 \end{itemize}
-In return, Project Sage will offer the following support for our teacher-participants.
+In return, Project Sage will offer the following support for our
+teacher-participants.
 \begin{itemize}
 
-\item 
-Teachers will receive a \$5000 per year stipend for participating in Project Sage.
+\item Teachers will receive a \$5000 per year stipend for
+  participating in Project Sage.
 
-\item
-Teachers will receive Sage support as well as support for Sage-enhanced materials and access to a Sage server.
+\item Teachers will receive Sage support as well as support for Sage-
+  enhanced materials and access to a Sage server.
 
 \end{itemize}
+
 
 
 
@@ -704,5 +728,7 @@ End of where we are at.
 
 %
 %\section{Rest of old introduction}
+
+
 
 }}}
