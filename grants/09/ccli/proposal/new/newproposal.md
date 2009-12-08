@@ -1,4 +1,22 @@
 {{{
+
+
+%Some useful commands:
+\renewcommand{\thefootnote}{\roman{footnote}}
+\newcommand{\note}[1]{\footnote{#1}\marginpar[\flushright \fbox{\textbf{\thefootnote}}]{\fbox{\textbf{\thefootnote}}}}
+% To make all notes ignored, uncomment the following command.
+%\renewcommand{\note}[1]{}
+
+\newcommand{\marginnote}[1]{\marginpar[\flushright #1]{#1}}
+
+\usepackage[12hr]{datetime}
+\newdateformat{draftdate}{%
+\shortdayofweekname{\THEDAY}{\THEMONTH}{\THEYEAR}, %
+\THEDAY\ \shortmonthname[\THEMONTH] \THEYEAR}
+\draftdate
+\usepackage{eso-pic}
+\AddToShipoutPicture{\put(10,15){\small Draft: \today\ at \currenttime }}%--- version: \MakeUppercase{\svnInfoRevision}}}
+
 \section{Project Description}
 
 Our project will create, implement, and evaluate a sustainable model
