@@ -1,7 +1,8 @@
 {{{
+
 %Some useful commands:
 \renewcommand{\thefootnote}{\roman{footnote}}
-\newcommand{\note}[1]{\footnote{#1}\marginpar[\flushright \fbox{\textbf{\thefootnote}}]{\fbox{\textbf{\thefootnote}}}}
+\newcommand{\note}[1]{\footnote{#1}\marginpar[\flushright \fbox{\textbf{\thefootnote}}]{\fbox{\textbf{\thefootnote}} }}
 % To make all notes ignored, uncomment the following command.
 %\renewcommand{\note}[1]{}
 
@@ -13,7 +14,7 @@
 % \THEDAY\ \shortmonthname[\THEMONTH] \THEYEAR}
 % \draftdate
 % \usepackage{eso-pic}
-% \AddToShipoutPicture{\put(10,15){\small Draft: \today\ at \currenttime }}%--- version: \MakeUppercase{\svnInfoRevision}}}
+% \AddToShipoutPicture{\put(10,15){\small Draft: \today\ at \currenttime }}
 
 
 
