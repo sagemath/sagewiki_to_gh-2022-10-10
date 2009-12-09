@@ -26,6 +26,8 @@ This project will include the following topics:
 
  * Robert Bradshaw implemented faster arithmetic for $F_p(t)$: [[http://trac.sagemath.org/sage_trac/ticket/7585|#7585]]
 
+ * Robert Bradshaw has implemented fast point search: http://sagenb.org/home/pub/1228/
+
  * Let $K=\mathbb{F}_5(t)$ and $E/K: y^2 = x(x+t)(x+t^2)$ be the Legendre curve and consider its twist by $f=1+t$, $E_f$. $E_f$ has Weierstrass equation 
 
 $$ y^2 = x^3 + \left(3 t^{6} + 3 t^{5} + 3 t^{3} + 3 t^{2}\right)x +\left(4 t^{9} + t^{8} + 3 t^{7} + 2 t^{6} + 3 t^{5} + t^{4} + 4 t^{3}\right). $$
