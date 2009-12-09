@@ -21,17 +21,17 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
 == Confirmed Participants ==
 
- * Craig Citro
- * Robert Bradshaw
- * William Stein
- * Mike Hansen (World)
- * Robert Miller
- * Tom Boothby
- * Kevin Stueve
  * Nick Alexander (UC Irvine, California)
- * Willem Jan Palenstijn  (Holland) 
- * Jason Grout   (Iowa)
- * Burcin Erocal  (Austria)
- * Sebastian Pancratz  (Cambridge, England)
  * Rob Beezer (day trip, Mon Jan 18, Tacoma, WA)
- * (many more to come ...?)
+ * Tom Boothby (UW)
+ * Robert Bradshaw (UW)
+ * Craig Citro (UW)
+ * Burcin Erocal  (Austria)
+ * Jason Grout   (Iowa)
+ * Mike Hansen (World)
+ * Robert Miller (UW)
+ * Willem Jan Palenstijn  (Holland) 
+ * Sebastian Pancratz  (Cambridge, England)
+ * Vijay Patankar (Microsoft India)
+ * William Stein (UW)
+ * Kevin Stueve (UW)
