@@ -770,12 +770,8 @@ To create the above animation, download [[attachment:tamer.sage]] and type
 
 {{{#!python numbers=none
 sage: load tamer.sage
-sage: a1 = anime(0,10,1)
-sage: a2 = anime(10,50,3)
-sage: a3 = anime(50,600,20)
-sage: a4 = anime(600,3000,100)
-sage: a = a1*a2*a3*a4
+sage: a = anime(0,1200,10)
 sage: a
-Animation with 76 frames
+Animation with 120 frames
 sage: show(a)
 }}}
