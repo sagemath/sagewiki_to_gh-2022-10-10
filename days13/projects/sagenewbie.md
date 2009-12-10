@@ -16,7 +16,7 @@
 
           * 1.3. Basic 2D plotting with Sage [[attachment:Ploting_with_Sage_v1.0.1.sws]] by Jose Guzman
 
-          * 1.4. Solving basic equations with sage [[attachment:Ball_motion.sws]] by Jose Guzman
+          * 1.4. Solving basic equations with Sage [[attachment:Ball_motion.sws]] by Jose Guzman
 
           * 1.5. Sage Devel Basics [Erik, Aly] [[attachment:dev_for_newbies.html]]-this needs to be restified., [[attachment: development_for_newbies.sws]]
 
