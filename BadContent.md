@@ -4559,6 +4559,7 @@ superiorpapers\.com
 bestessays\.ca
 mightystudents\.com
 term-paper-research\.com
+college-paper\.org
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
