@@ -52,6 +52,16 @@ Note that there is probably a factor of 2 going unaccounted for in the computati
 
     $$1+ 3T -15T^2 -125T^3 -625T^4 -1875T^5 +9375T^6 +78125T^7$$
 
+ * Some analytic rank 3 curves:
+
+  * The Legendre curve $y^2 = x(x+t)(x+t^2)/\mathbb{F}_{5}(t)$ twisted by $t^5+t^2+t+1$ with $L$-function:
+
+    $$1 +T -25T^2 -121T^3 -190T^4 -150T^5 +750T^6 +23750T^7+ 378125T^8+ 1953125T^9 -1953125T^10 -48828125T^11$$
+
+  * The Legendre curve $y^2 = x(x+t)(x+t^2)/\mathbb{F}_{7}(t)$ twisted by $t^3+t^2+t+1$ with $L$-function:
+
+    $$ 1 -9T+ 29T^2 -805T^3+ 5635T^4 -9947T^5+ 151263T^6 -823543T^7 $$
+
 People: ''Sal Baig'', William Stein, David Roe, Ken Ribet, Kiran Kedlaya, Robert Bradshaw, Victor Miller (S-unit equations), Thomas Barnet-Lamb
 
 
