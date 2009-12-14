@@ -194,6 +194,8 @@ Département d'informatique, Université de Rouen, France
 
 Institut Gaspard Monge, Université de Marne-la-Vallée, France
 
+Laboratoire Bordelais de Recherche en Informatique, Université Bordeaux 1, France
+
 
 5.4 / Description of activites, including levels, timetable, and milestones
 
@@ -583,8 +585,11 @@ Pierre Loic Meliot*
 Université de Marne-la-Vallée, graduate student, 2007-current
 École Normale Supérieure 2004-2008
 
+Université Bordeaux 1:
+
 Valentin Feray
-Université de Marne-la-Vallée, graduate student, 2007-current
+Université Bordeaux 1, chargé de recherche CNRS, 2009-current
+Université de Marne-la-Vallée, PhD, 2006-2009
 École Normale Supérieure 2003-2007
 
 
