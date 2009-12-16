@@ -2,6 +2,64 @@
 #acl was:read,write,admin jason:read,write,admin rbeezer:read,write,admin KiranSKedlaya:read,write,admin KiranKedlaya:read,write,admin ThomasJudson:read,write,admin DavidFarmer:read,write,admin
 Here is a rough timeline, split up into years, and then categories.
 
+More specific timeline (old yearly timeline is below)
+
+== Summer 2010 ==
+  * Rob: Linear algebra text, Sage code for linear
+  * Tom: abstract algebra text this summer?
+  * Rob, Jason, William: Textbook conversion system
+
+== Fall 2010 ==
+  * Rob: continues work on linear algebra (sabbatical support)
+  * Tom and Rob: work on abstract algebra text (Tom has light load, Rob on sabbatical)
+  * Rob: Sage code for linear and abstract algebra
+
+== Spring 2011 ==
+  * Group 1 test site roster is completed
+  * All:  each investigator pairs with a Group 1 test site
+  * Tom and Rob: abstract algebra text (Tom has light load, Rob on sabbatical)
+  * Rob: Sage code for abstract algebra
+
+== Summer 2011 ==
+  * Five test sites prepare for next year's use
+  * Workshop:
+    * this summer, or Summer 2013?
+    * preparation for Group 1 test sites
+    * open to other interested parties
+  * William: prepare number theory text (now, or earlier? move to suit)
+  * Rob: possibly combinatorics text, associated Sage code, or finish algebras
+
+== Fall 2011 ==
+  * Test sites:  Group 1 (linear, abstract, number theory available)
+
+== Spring 2012 ==
+  * Test sites:  Group 1
+  * Group 2 test site roster selected
+  * All:  each investigator pairs with a Group 2 test site
+
+== Summer 2012 ==
+  * Workshop:
+    * definitely, both test site groups are now active
+  * Rob: more textbook work, Sage coding, subject are to be determined by available books
+
+== Fall 2012 ==
+  * Test sites:  Group 1 (first year)
+  * Test sites:  Group 2 (second year)
+
+== Spring 2013 ==
+  * Test sites:  Group 1 (first year)
+  * Test sites:  Group 2 (second year)
+
+== Summer 2013 ==
+  * Tom: evaluation work (final wrapup)
+  * Workshop:
+    * this summer, or Summer 2011
+    * one to wrap up everything?
+    * plan future directions?
+    * invite WeBWork, Moodle, representatives, etc?
+
+(old, yearly timeline follows)
+
 = Year 1 =
 
 == Textbooks ==
