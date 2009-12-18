@@ -20,7 +20,7 @@ Switzerland.
 Accommodation for participants receiving financial support will be in shared double rooms at the Hotel Sommerhaus in Hagenberg, within walking distance to [[http://www.risc.jku.at|RISC]] where the workshop will take place.
 
 
-'''Watch this space for more information on how to apply for financial support!'''
+'''Watch this space or subscribe to the [[#contact|mailing list]] for more information on how to apply for financial support!'''
 
 === Registration ===
 
@@ -28,7 +28,7 @@ A web interface will be available for registration through the [[http://www.risc
 
 There will be a registration fee of 40 Euros.
 
-Feel free to email the [[#organizers|organizers]] beforehand, if you intend to participate in the workshop.
+Feel free to email the [[#organizers|organizers]] beforehand if you intend to participate in the workshop. We will also post a notice to the [[http://groups.google.com/group/sagedays24|mailing list]] once the registration is open.
 
 === Close events ===
 
@@ -57,7 +57,9 @@ Feel free to email the [[#organizers|organizers]] beforehand, if you intend to p
  * Ralf Hemmecke - http://www.risc.jku.at/people/hemmecke
  * Temur Kutsia
 
-
-=== Contact ===
+<<Anchor(contact)>>
+=== Contact & Mailing List ===
 
 Feel free to email the [[#organizers|organizers]] with questions, comments and suggestions.
+
+Please subscribe to the [[http://groups.google.com/group/sagedays24|sagedays24 mailing list]] to receive announcements, program updates, meeting arrangements, etc. related to the workshop.
