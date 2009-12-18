@@ -4560,6 +4560,8 @@ bestessays\.ca
 mightystudents\.com
 term-paper-research\.com
 college-paper\.org
+kamin\.kilu\.de
+kaminscout24\.de
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
