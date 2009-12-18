@@ -2,6 +2,8 @@
 == Symbolic Computation in Differential Algebra and Special Functions ==
 == July 17 - 22, 2010 ==
 
+The aim of this workshop is to bring differential algebra, special functions and symbolic computation communities together,
+and generate some interest to improve the facilities provided by Sage to support research in these fields.
 
 === Financial Support ===
 
@@ -22,7 +24,11 @@ Accommodation for participants receiving financial support will be in shared dou
 
 === Registration ===
 
+A web interface will be available for registration through the [[http://www.risc.uni-linz.ac.at/about/conferences/summer2010/|RISC Summer 2010 pages]] at the beginning of April 2010. You will also be able to book hotel rooms in Hagenberg during registration.
+
 There will be a registration fee of 40 Euros.
+
+Feel free to email the [[#organizers|organizers]] beforehand, if you intend to participate in the workshop.
 
 === Close events ===
 
@@ -42,7 +48,7 @@ There will be a registration fee of 40 Euros.
 === Sponsors ===
 
  * [[http://www.risc.jku.at/|Research Institute for Symbolic Computation (RISC)]]
- * [[http://www.risc.uni-linz.ac.at/projects/science/access/|SCIEnce Transnational Access program]]
+ * [[http://www.risc.uni-linz.ac.at/projects/science/access/|SCIEnce Transnational Access Program]]
  * [[http://www.dk-compmath.jku.at/|Doctoral Program Computational Mathematics]]
 
 <<Anchor(organizers)>>
