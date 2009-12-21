@@ -40,7 +40,7 @@ The analytic rank is 2 with $L^{(2)}(E_f/K,1/5) = 4$. The points $P=[3t^3 + t^2 
 
 $$ \frac{4}{2} = \frac{L^{(r)}(E_f/K,1/q)}{r!} = \frac{|Sha|R\tau}{|E(K)_{tors}|^2}\leq\frac{|Sha|\cdot 5\cdot 2^7\cdot 5^{-1}}{2^4}.$$
 
-Note that there is probably a factor of 2 going unaccounted for in the computation of the regulator. From this, we see that $|Sha|\geq \frac{1}{4}$ (again, this may be off by a power of 2).
+Note that there is probably a factor of 2 going unaccounted for in the computation of the regulator (as well as a $\log q$ factor possibly). From this, we see that $|Sha|\geq \frac{1}{4}$ (again, this is probably off by a power of 2, suggesting the bound should really be 1).
 
  * Other curves of analytic rank 2:
 
