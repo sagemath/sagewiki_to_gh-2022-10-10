@@ -36,11 +36,11 @@ The L-funtion of $E_f$ is:
 
 $$ L(E_f/K,T) = 1-5T-25T^2+125T^3.$$
 
-The analytic rank is 2 with $L^{(2)}(E_f/K,1/5) = 100$. The points $P=[3t^3 + t^2 + 4t: t^3 + 3t^2:1]$, $Q=[3t^3 + 2t^2 + 3t: t^3:1]$ are independent on $E_F(K)$, so its algebraic rank is 2. Thus the refined BSD conjecture is true. We do not if $P,Q$ generate $E_f(K)$ mod torsion, so the determinant of their height matrix (=5) gives an upper bound on the regulator of $E_f/K$. The Tamagawa number was computed by hand to be $2^7/5$. The torsion subgroup has size 4 (all 2-torsion). Thus
+The analytic rank is 2 with $L^{(2)}(E_f/K,1/5) = 4$. The points $P=[3t^3 + t^2 + 4t: t^3 + 3t^2:1]$, $Q=[3t^3 + 2t^2 + 3t: t^3:1]$ are independent on $E_F(K)$, so its algebraic rank is 2. Thus the refined BSD conjecture is true. We do not if $P,Q$ generate $E_f(K)$ mod torsion, so the determinant of their height matrix (=5) gives an upper bound on the regulator of $E_f/K$. The Tamagawa number was computed by hand to be $2^7/5$. The torsion subgroup has size 4 (all 2-torsion). Thus
 
-$$ \frac{100}{2} = \frac{L^{(r)}(E_f/K,1/q)}{r!} = \frac{|Sha|R\tau}{|E(K)_{tors}|^2}\leq\frac{|Sha|\cdot 5\cdot 2^7\cdot 5^{-1}}{2^4}.$$
+$$ \frac{4}{2} = \frac{L^{(r)}(E_f/K,1/q)}{r!} = \frac{|Sha|R\tau}{|E(K)_{tors}|^2}\leq\frac{|Sha|\cdot 5\cdot 2^7\cdot 5^{-1}}{2^4}.$$
 
-Note that there is probably a factor of 2 going unaccounted for in the computation of the regulator. From this, we see that $|Sha|\geq \frac{25}{4}$ (again, this may be off by a power of 2).
+Note that there is probably a factor of 2 going unaccounted for in the computation of the regulator. From this, we see that $|Sha|\geq \frac{1}{4}$ (again, this may be off by a power of 2).
 
  * Other curves of analytic rank 2:
 
