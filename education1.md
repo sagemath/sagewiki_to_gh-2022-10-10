@@ -81,7 +81,7 @@ CMI would also like all participants to register with them. This can be done whe
 <<Anchor(schedule)>>
 == Official Schedule ==
 
-We will mostly follow [[http://www.claymath.org/workshops/sage/|the official schedule]], but it has some built-in flexibility to accommodate workshop participant interest.  Here we include a little extra detail on the sessions, beyond what is available on the official website.  The links here are variously to Sage worksheets, talk files, or other useful items.
+We will mostly follow [[http://www.claymath.org/workshops/sage/|the official schedule]], but it has some built-in flexibility to accommodate workshop participant interest.  Here we include a little extra detail on the sessions, beyond what is available on the official website.  The links here are variously to Sage worksheets, talk files, or other useful items.  In addition, videos (raw footage, not encoded) of most of the talks are available [[http://wstein.org/sagedays18/day5/|here]].
 
  * 9:00am -  9:30am:  Registration
  * 9:30am -  9:45am:  Introductions and announcements
