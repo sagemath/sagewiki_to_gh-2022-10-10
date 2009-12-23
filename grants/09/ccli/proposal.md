@@ -1,4 +1,4 @@
-This page is '''OUT OF DATE'''.  See [[/grants/09/ccli]].
+This page is '''OUT OF DATE'''.  See [[grants/09/ccli]].
 
 
 [[http://sage.math.washington.edu:8124/|Build the PDF]]
