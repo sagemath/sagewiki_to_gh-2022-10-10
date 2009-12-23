@@ -12,7 +12,7 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 = The Actual Proposal =
 
-[[attachment:ccli-12.pdf|Latest PDF (ccli-12, 2009/12/22, 2:00 PM PST)]]
+[[attachment:ccli-13.pdf|Latest PDF (ccli-13, 2009/12/22, 7:00 PM PST)]]
 
 [[/proposal|The Proposal]]
 
