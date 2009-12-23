@@ -86,7 +86,7 @@ People: ''Robert Miller'', William Stein, Victor Miller, Jeechul Woo (Noam's stu
 
  * Stein: I posted a bundle based against Sage-4.2.1 here (called heegner-4.2.1.hg), which has highly relevant code: http://trac.sagemath.org/sage_trac/ticket/6616
 
- * Jetchev and Stein: wrote code and ran relevant calculations (this depends on 6616): attachment:jetchev-stein.sws
+ * Jetchev and Stein: wrote code and ran relevant calculations (this depends on 6616): [[attachment:jetchev-stein.sws|jetchev-stein.sws]]
 
 People: ''William Stein'', Dimitar Jetchev, Drew Sutherland, Mirela Ciperiani, Ken Ribet, Victor Miller
 
