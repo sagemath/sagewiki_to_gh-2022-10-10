@@ -2,14 +2,6 @@
    * page en français: MathsAuLycee
    * page en anglais: SageForHighSchool
 
-== Calendrier (mi2010) ==
-
-   * contacter des enseignants pour la conception de l'interface lycée.
-   * contacter des enseignants pour la conception d'ateliers pratiques tests
-   * groupe IREM Marseille "logique et algorithmique" (réunion le 9 Décembre à Marseille)
-   * régler le problème des machines pour les ateliers pratiques
-   * prévoir le spam général (depuis les listes du rectorat) pour les alentours du 10 Décembre
-
 == Programme (provisoire) (mi2010) ==
 
 10h Présentation du logiciel Sage (qui ? )
@@ -23,9 +15,15 @@ utilisation client serveur
 le partage des feuilles
 et un exemple de feuille de travail
 
+11h l'expérience lyonnaise
+
+
 11H30 Exposé de recherche en s'appuyant sur Sage (Arnoux sur le fractal de Rauzy ?)
 
-14h Ateliers pratiques (propositions de TP à différents niveaux (terminale S et prépa)
+14h François Maltey
+
+15h Ateliers pratiques
+ (propositions de TP à différents niveaux (terminale S et prépa)
 proposer l'installation
 des TPs modèles
 ouvrir un appel à demande de TP pour les profs de lycées (Anne C.)
