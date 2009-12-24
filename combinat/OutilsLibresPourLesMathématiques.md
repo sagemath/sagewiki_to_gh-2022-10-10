@@ -19,14 +19,15 @@ démarche scientifique, garante de la reproductibilité des résultats
 expérimentaux, de l'accumulation du savoir et de sa diffusion à tous,
 dans le monde entier, sans discrimination financière ou géopolitique.
 
-Mais le libre est-il viable en pratique? Pendant longtemps, les
-logiciels mathématiques libres se sont cantonnés par domaines (par
-ex. groupes: GAP, géométrie algébrique: Singular, statistiques: R, calcul numérique: Scilab). Les
-systèmes à vocation généraliste, eux, étaient principalement
-commerciaux ou semi-commerciaux (par ex. Matlab, Maple, Mathematica,
-MuPAD). Un phénomène plus récent est l'émergence d'alternatives libres
-ou nouvellement libres telles que Axiom, Maxima ou Sage/Python
-scientifique.
+Mais le libre est-il viable en pratique? Pendant longtemps, et en
+dehors de belles réussites en calcul numérique comme Scilab ou Octave,
+les logiciels mathématiques libres se sont cantonnés par domaines (par
+ex. calcul symbolique: Maxima, géométrie algébrique: Cocoa, Singular, Macaulay, 
+groupes: GAP, statistiques: R, arithmétique: Pari).
+Les systèmes à vocation généraliste, eux, étaient principalement commerciaux ou
+semi-commerciaux (par ex. Maple, Mathematica, MuPAD). Un phénomène
+plus récent est l'émergence d'alternatives libres ou nouvellement
+libres telles que Axiom ou Sage/Python scientifique.
 
 En nous basant sur notre expérience avec le projet libre *-Combinat et
 sa récente incarnation Sage-Combinat, nous tenterons de décrire ce que
@@ -48,12 +49,4 @@ faudrait-il réduire la portée de ce paragraphe, en excluant le calcul
 numérique:
 
 """
-Mais le libre est-il viable en pratique? Pendant longtemps, et en
-dehors de belles réussites en calcul numérique comme Scilab ou Octave,
-les logiciels mathématiques libres se sont cantonnés par domaines (par
-ex. groupes: GAP, statistiques: R, arithmétique: Pari). Les systèmes à
-vocation généraliste, eux, étaient principalement commerciaux ou
-semi-commerciaux (par ex. Maple, Mathematica, MuPAD). Un phénomène
-plus récent est l'émergence d'alternatives libres ou nouvellement
-libres telles que Axiom, Maxima ou Sage/Python scientifique.
 """
