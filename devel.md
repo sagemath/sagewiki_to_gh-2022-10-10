@@ -4,11 +4,7 @@ Welcome to the Sage developer center!
 
 This wiki page helps in organizing the development of Sage. Information and links to Sage development should be organized under "devel/". For answers to commonly asked questions, see the [[faq | FAQ]].
 
-Note: [[http://trac.sagemath.org/sage_trac/ |See the trac server]] for patches awaiting review.
-
-## * [:DevelopersRoom:The Developers' Room] this is totally outdated
-
- * [[TracGuidelines | Trac guidelines]] by Michael Abshoff. See also the [[http://www.sagemath.org/doc/developer/trac.html | Developers' Guide]] for further information on using the trac patch server.
+Note: The [[http://trac.sagemath.org/sage_trac/ |trac server]] contains patches awaiting review. Michael Abshoff wrote a set of [[devel/TracGuidelines | general guidelines]] for using the trac server. See also the [[http://www.sagemath.org/doc/developer/trac.html | Developers' Guide]] for further information on using the trac patch server.
 
  * [[SageClusterGuidelines | Sage cluster guidelines]] --- guidelines for using machines on the Sage cluster
 
