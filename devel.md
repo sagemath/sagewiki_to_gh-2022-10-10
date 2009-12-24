@@ -2,7 +2,7 @@
 
 Welcome to the Sage developer center!
 
-This wiki page helps in organizing the development of Sage. Information and links to Sage development should be organized under "devel/".
+This wiki page helps in organizing the development of Sage. Information and links to Sage development should be organized under "devel/". For answers to commonly asked questions, see the [[faq | FAQ]].
 
 Note: [[http://trac.sagemath.org/sage_trac/ |See the trac server]] for patches awaiting review.
 
