@@ -13,9 +13,12 @@ Note: The [[http://trac.sagemath.org/sage_trac/ |trac server]] contains patches 
 
 Each release cycle of Sage is managed by at least one release manager. For example, a release manager produces the various alpha and rc releases for the `sage-x.y.z` release cycle. Release management is a complex task. The [[devel/ReleaseManagement | release management]] page contains a rough set of guidelines for Sage release management. If you want to help out with release management, please subscribe to the [[http://groups.google.com/group/sage-release | sage-release]] mailing list.
 
- * [[SageClusterGuidelines | Sage cluster guidelines]] --- guidelines for using machines on the Sage cluster
 
- * [[UpdateCopyright | Update the copyright notice]]
+= Sage development =
+
+Much of the Sage library is written in Python. Some performance critical parts of the Sage library is written in Cython. Information is available to help [[devel/BeginSageDevelopment | beginners on developing]] the Sage library. Also consult the list of [[devel/PythonCythonResources | Python and Cython resources]] for beginner to advanced information on the Python and Cython languages. You should avoid as much as possible using non-ASCII characters in a source file. See this page for information on [[devel/nonASCII | avoiding non-ASCII characters]] in source files. However, there are also cases in which you need put such characters in a source file. That page also has tips on specifying the character encoding of a source file. The page on [[combinat/HelpOnTheDoc | docstring documentation]] contains information on the format (ReSTructured text) used in the docstrings of functions, classes, methods and modules. The page also includes special Sage doctest conventions. Before updating the copyright notices in the Sage library, read the page on [[devel/UpdateCopyright | copyright notices]] for a list of files to update as well.
+
+If you have an account on the Sage cluster, ensure that you read the [[devel/SageClusterGuidelines | Sage cluster guidelines]] on using computer resources on the Sage cluster.
 
  * [[Software | Ideas for software to integrate with Sage]]
 
@@ -27,17 +30,9 @@ Each release cycle of Sage is managed by at least one release manager. For examp
 
  * [[DebianSAGE | Sage in Debian]]
 
- * [[HowToBeginSageDevelopment | How to begin Sage development]]
-
- * [[devel/nonASCII | non-ASCII characters]] in source files
-
  * [[firefox-trac | Cool tricks]] for better Firefox/trac integration
 
- * [[combinat/HelpOnTheDoc | Docstring documentation]] for help on the format (ReSTructured text) used in the docstrings, including special Sage doctest conventions
-
  * [[JavascriptResources | JavaScript and related resources]]
-
- * [[PythonResources | Python and Cython resources]]
 
  * [[SageUsability | Sage usability improvements list]]
 
