@@ -7,10 +7,6 @@ Le 4 février 2010, le groupe Plume du CNRS organise une journée "Outils Libres
 	Logiciels libres pour les mathématiques?
 	Retour d'expérience
 
-Variante:
-
-        Les logiciels libres pour les mathématiques sont-ils viables?
-
 == Résumé ==
 
 L'intérêt philosophique du libre pour l'enseignement et la recherche
@@ -39,14 +35,4 @@ qu'ils soient utilisateurs ou contributeurs.
 
 Nicolas: le premier paragraphe devrait etre plus dense, profond et percutant
 
-Nicolas: Le deuxieme paragraphe est un peu approximatif. Maxima est
-libre depuis quelques temps déjà. Scilab n'est ni plus ni moins
-généraliste que Matlab. Maxima est-il plus généraliste que Scilab?
-Comment rester court et simple sans être outrageusement faux? D'autre
-part, le phénomène d'agrégation actuel est surtout en maths
-fondamentales. En calcul numérique, c'est moins vrai. Peut-être
-faudrait-il réduire la portée de ce paragraphe, en excluant le calcul
-numérique:
-
-"""
-"""
+Nicolas: Le deuxieme paragraphe est un peu approximatif.
