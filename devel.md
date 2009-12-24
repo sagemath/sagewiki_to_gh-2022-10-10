@@ -9,7 +9,7 @@ Note: The [[http://trac.sagemath.org/sage_trac/ |trac server]] contains patches 
 
 = Release management =
 
-Each release cycle of Sage is managed by at least one release manager. For example, a release manager produces the various alpha and rc releases for the `sage-x.y.z` release cycle. Release management is a complex task. The [[release | release management]] page contains a rough set of guidelines for Sage release management. If you want to help out with release management, please subscribe to the [[http://groups.google.com/group/sage-release | sage-release]] mailing list.
+Each release cycle of Sage is managed by at least one release manager. For example, a release manager produces the various alpha and rc releases for the `sage-x.y.z` release cycle. Release management is a complex task. The [[devel/ReleaseManagement | release management]] page contains a rough set of guidelines for Sage release management. If you want to help out with release management, please subscribe to the [[http://groups.google.com/group/sage-release | sage-release]] mailing list.
 
  * [[SageClusterGuidelines | Sage cluster guidelines]] --- guidelines for using machines on the Sage cluster
 
