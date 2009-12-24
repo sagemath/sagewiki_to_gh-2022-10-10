@@ -26,6 +26,8 @@ Note: [[http://trac.sagemath.org/sage_trac/ |See the trac server]] for patches a
 
  * [[HowToBeginSageDevelopment | How to begin Sage development]]
 
+ * [[dev/nonASCII | non-ASCII characters]] in source files
+
  * [[firefox-trac | Cool tricks]] for better Firefox/trac integration
 
  * [[combinat/HelpOnTheDoc | Docstring documentation]] for help on the format (ReSTructured text) used in the docstrings, including special Sage doctest conventions
