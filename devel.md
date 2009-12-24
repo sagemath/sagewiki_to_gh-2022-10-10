@@ -4,20 +4,20 @@ This wiki page helps in organizing the development of Sage. Information and link
 
 ## * [:DevelopersRoom:The Developers' Room] this is totally outdated
 
- * [[dev/TracGuidelines|Trac guidelines]] by Michael Abshoff
-## * [[SageClusterGuidelines|Sage cluster guidelines]] --- guidelines for using machines on the Sage cluster
-## * [[UpdateCopyright|Update the copyright notice]]
-## * [[Software|Ideas for Software to Integrate With Sage]]
-## * [[Software_that_may_be_useful]]
-## * [[release|Release Management]]
-## * [[SEP|Sage Enhancement Proposals]]
-## * [[Software_surveys]]
-## * [[DebianSAGE|Sage in Debian]]
-## * [[HowToBeginSageDevelopment|How to begin Sage development]]
-## * [[firefox-trac|Cool tricks]] for better Firefox/trac integration
-## * [[combinat/HelpOnTheDoc|Docstring Documentation]] for help on the format (ReSTructured text) used in the docstrings, including special Sage doctest conventions
-## * [[JavascriptResources | JavaScript and related resources]]
-## * [[PythonResources | Python and Cython resources]]
-## * [[SageUsability | Sage Usability Improvements List]]
-## * [[SageTasks | Sage Usability Task List]]
-## * [[SageNotebook | Technical Overview of the Sage Notebook]]
+ * [[TracGuidelines | Trac guidelines]] by Michael Abshoff
+ * [[SageClusterGuidelines | Sage cluster guidelines]] --- guidelines for using machines on the Sage cluster
+ * [[UpdateCopyright | Update the copyright notice]]
+ * [[Software | Ideas for software to integrate with Sage]]
+ * [[Software_that_may_be_useful | Software that may be useful]]
+ * [[release | Release management]]
+ * [[SEP | Sage Enhancement Proposals]]
+ * [[Software_surveys | Software surveys]]
+ * [[DebianSAGE | Sage in Debian]]
+ * [[HowToBeginSageDevelopment | How to begin Sage development]]
+ * [[firefox-trac | Cool tricks]] for better Firefox/trac integration
+ * [[combinat/HelpOnTheDoc | Docstring documentation]] for help on the format (ReSTructured text) used in the docstrings, including special Sage doctest conventions
+ * [[JavascriptResources | JavaScript and related resources]]
+ * [[PythonResources | Python and Cython resources]]
+ * [[SageUsability | Sage usability improvements list]]
+ * [[SageTasks | Sage usability task list]]
+ * [[SageNotebook | Technical overview of the Sage notebook]]
