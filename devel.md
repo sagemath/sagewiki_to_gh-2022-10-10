@@ -1,6 +1,6 @@
 = Sage Development =
 
-This wiki page helps in organizing the development of Sage. Information and links to Sage development should be organized under "dev/".
+This wiki page helps in organizing the development of Sage. Information and links to Sage development should be organized under "devel/".
 
 Note: [[http://trac.sagemath.org/sage_trac/ |See the trac server]] for patches awaiting review.
 
@@ -26,7 +26,7 @@ Note: [[http://trac.sagemath.org/sage_trac/ |See the trac server]] for patches a
 
  * [[HowToBeginSageDevelopment | How to begin Sage development]]
 
- * [[dev/nonASCII | non-ASCII characters]] in source files
+ * [[devel/nonASCII | non-ASCII characters]] in source files
 
  * [[firefox-trac | Cool tricks]] for better Firefox/trac integration
 
