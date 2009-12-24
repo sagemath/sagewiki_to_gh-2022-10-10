@@ -2,6 +2,8 @@
 
 This wiki page helps in organizing the development of Sage. Information and links to Sage development should be organized under "dev/".
 
+Note: [[http://trac.sagemath.org/sage_trac/ |See the trac server]]
+
 ## * [:DevelopersRoom:The Developers' Room] this is totally outdated
 
  * [[TracGuidelines | Trac guidelines]] by Michael Abshoff. See also the [[http://www.sagemath.org/doc/developer/trac.html | Developers' Guide]] for further information on using the trac patch server.
