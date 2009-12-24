@@ -20,4 +20,6 @@ Time: TBD
 
  * William Stein
 
+ * Doug Ulmer: "May is pretty open for me, the best dates being roughly 5/10-21.  Earlier is possible.  It gets much more complicated after that and impossible after Memorial Day."
+
  * Felipe Voloch: "I'm currently free May-June and August-December 2010."
