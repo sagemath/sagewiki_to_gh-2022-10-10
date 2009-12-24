@@ -1,5 +1,7 @@
 = Sage Days 21: Function Fields =
 
+Organizers: William Stein, Chris Hall, Craig Citro, Salman Baig
+
 Location: Seattle, WA
 
 Time: TBD
