@@ -1,5 +1,6 @@
+## page was renamed from sage-2.10.3
 = Sage 2.10.3 Release Tour =
-Sage 2.10.3 was released on 11 Mar 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release.For the latest changes see[[http://sagemath.org/announce/sage-2.10.3.txt|sage-2.10.3.txt]]. Among many other things that were done, we have the following cool new features. Of course, this list is incomplete; see the release notes for more details.
+Sage 2.10.3 was released on 11 Mar 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release.For the latest changes see[[http://www.sagemath.org/mirror/src/announce/sage-2.10.3.txt | sage-2.10.3.txt]]. Among many other things that were done, we have the following cool new features. Of course, this list is incomplete; see the release notes for more details.
 
 Michael Abshoff was the release managers for this Sage release.
 
