@@ -1,5 +1,6 @@
+## page was renamed from sage-2.11
 = Sage 2.11 Release Tour =
-Sage 2.11 was released on March 30, 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release. For the latest changes see [[http://sagemath.org/announce/sage-2.11.txt|sage-2.11.txt]].
+Sage 2.11 was released on March 30, 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release. For the latest changes see [[http://www.sagemath.org/mirror/src/announce/sage-2.11.txt | sage-2.11.txt]].
 
 ==  ATLAS ==
 Michael Abshoff and Burcin Erocal upgraded ATLAS to the 3.8.1 release. In addition tuning info for 32 bit Prescott CPUs as well as  Powerbook G4s under Linux was added.
