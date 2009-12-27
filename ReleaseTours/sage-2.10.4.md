@@ -1,5 +1,6 @@
+## page was renamed from sage-2.10.4
 = Sage 2.10.4 Release Tour =
-Sage 2.10.4 was released on March 17, 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release. For the latest changes see[[http://sagemath.org/announce/sage-2.10.4.txt|sage-2.10.4.txt]]. 
+Sage 2.10.4 was released on March 17, 2008. For the official, comprehensive release notes, see the HISTORY.txt file that comes with the release. For the latest changes see[[http://www.sagemath.org/mirror/src/announce/sage-2.10.4.txt | sage-2.10.4.txt]]. 
 
 Robert Miller and Michael Abshoff were the release managers for this Sage release.
 
