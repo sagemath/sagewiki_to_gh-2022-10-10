@@ -41,3 +41,5 @@ The Sage notebook provides a graphical user interface to Sage. To help out with 
  * [[firefox-trac | Cool tricks]] for better Firefox/trac integration
 
  * [[devel/SageTasks | Sage usability task list]]
+
+ * [[devel/BuildFarm | Build farm]]
