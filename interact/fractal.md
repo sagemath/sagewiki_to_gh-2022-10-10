@@ -190,7 +190,7 @@ def mandel_plot(expo = slider(-10,10,0.1,2), \
      
     complex_plot(func, zoom_x,zoom_y, plot_points=200, dpi=150).show(frame=True, aspect_ratio=1)
 }}}
-
+{{attachment:mandel-interact-02.png}}
 === Julia ===
 by Harald Schilly
 
@@ -217,7 +217,7 @@ def julia_plot(expo = slider(-10,10,0.1,2), \
     
     complex_plot(julia, zoom_x,zoom_y, plot_points=200, dpi=150).show(frame=True, aspect_ratio=1)
 }}}
-
+{{attachment:julia-interact-01.png}}
 {{{
 julia_plot(-7,30,0.5,0.5,(-1.5,1.5), (-1.5,1.5))
 }}}
