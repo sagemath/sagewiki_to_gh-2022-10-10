@@ -27,7 +27,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Robert Bradshaw (UW)
  * Craig Citro (UW)
  * Burcin Erocal  (Austria)
- * Jason Grout   (Iowa)
+ * Jason Grout   (Drake U.)---Coming in Sat, 16 Jan, 9:51PM; leaving Thu, 21 Jan, 6AM.
  * Mike Hansen (World)
  * Robert Miller (UW)
  * Willem Jan Palenstijn  (Holland) 
