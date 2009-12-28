@@ -149,7 +149,10 @@ def showme_mandelbrot(x0=-2, y0=-1.5, side=3.0,N=(100*i for i in range(1,11)), L
 }}}
 {{attachment:mandelbrot_cython.png}}
 
+
 == Mandelbrot & Julia Interact with variable exponent ==
+
+published notebook: [[http://sagenb.org/pub/1299/]]
 
 === Mandelbrot ===
 by Harald Schilly
