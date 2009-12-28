@@ -12,10 +12,10 @@
    * '''10h45 expérience lyonnaise (T.Dumont)'''
    Depuis le début de l'année scolaire 2008-2009, le départemnt de mathématiques a installé Sage sur des machines et l'utilise pour ses enseignements.
 
-   * '''De la suite de Fibonacci au fractal de Rauzy (P. Arnoux)'''
+   * '''11h30 De la suite de Fibonacci au fractal de Rauzy (P. Arnoux)'''
    Exposé de recherche en s'appuyant sur Sage (Arnoux sur le fractal de Rauzy ?)
 
-   * '''14hSage pour accompagner l'enseignement (F. Maltey)'''
+   * '''14h Sage pour accompagner l'enseignement (F. Maltey)'''
    Que peuvent faire les élèves avec ?
    dans leur travail personnel,
    pour vérifier leur compréhension des méthodes de calcul,
