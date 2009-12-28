@@ -221,3 +221,4 @@ def julia_plot(expo = slider(-10,10,0.1,2), \
 {{{
 julia_plot(-7,30,0.5,0.5,(-1.5,1.5), (-1.5,1.5))
 }}}
+{{attachment:julia-fractal-exponent--7.png}}
