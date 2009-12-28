@@ -4,7 +4,7 @@
 
 == Programme (provisoire) (mi2010) ==
 
-   * '''10h Présentation du logiciel Sage (N. Thierry (?) + V. Delecroix (?))'''
+===10h Présentation du logiciel Sage (N. Thierry (?) + V. Delecroix (?))===
       * Histoire et actualités du logiciel (D'où est parti le projet ? Qu'est-ce qu'un logiciel libre ? Le modèle de développement de Sage)
 
       * Premiers pas avec Sage et une "interface lycée" (les feuilles de travail, langage de programmation (~python), utilisation client serveurn, le partage des feuilles, des exemples)
