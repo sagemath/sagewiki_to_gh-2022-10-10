@@ -1,6 +1,6 @@
 = Sage Education Day 1 =
 
- The first [[http://www.sagemath.org|Sage]] Education Day is being held with the generous cooperation of the organizers of [[dayscambridge2|Sage Days 18]].
+ The first [[http://www.sagemath.org|Sage]] Education Day was held on December 5, 2009, with the generous cooperation of the organizers of [[dayscambridge2|Sage Days 18]].
 
 == Topics ==
 
