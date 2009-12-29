@@ -15,6 +15,6 @@ A SEP is a '''S'''age '''E'''nhancement '''P'''roposal.
 
  * [[AlgebraicGeometrySEP|Algebraic Geometry]] - ongoing
 
- * [[Python2.6SEP|Python 2.6]] - not started yet
+ * [[Python2.6SEP|Python 2.6]] - (Has been merged into Sage 4.2)
 
  * [[Unit of Measurement]] - early discussion phase
