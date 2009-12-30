@@ -176,7 +176,7 @@ Dial:  866 589 0901, passcode:  8227893#
    * PDF version of worksheet, and more, at [[http://abstract.ups.edu/sage-aata.html|Abstract Algebra textbook site]]
    * Most of the translation is via [[http://www.cse.ohio-state.edu/~gurari/TeX4ht/|tex4ht]], an NSF funded project
    * Rendering in Sage is via [[http://www.math.union.edu/~dpvc/jsMath/|jsMath]]
-
+ * http://learn.creativecommons.org/
 
 = WebWork =
  * MAA wiki on !WebWork.  Note NSF funding.  http://webwork.maa.org/wiki/Main_Page
