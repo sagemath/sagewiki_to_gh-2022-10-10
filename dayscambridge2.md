@@ -2,6 +2,8 @@
 
 There is an [[http://www.claymath.org/workshops/sage/|Official Clay Mathematics Institute Page]] for this workshop among their [[http://claymath.org/programs/cmiworkshops/|list of workshops]].
 
+Read the [[attachment:report.pdf|final report (pdf)]]
+
 == Coordinates ==
   
  Date: December 1-5, 2009
