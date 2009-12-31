@@ -29,12 +29,12 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Robert Bradshaw (UW)
  * Craig Citro (UW)
  * Burcin Erocal  (Austria)
- * Arthur Gaer (Harvard)
- * Jason Grout   (Drake U.)---Coming in Sat, 16 Jan, 9:51PM; leaving Thu, 21 Jan, 6AM.
+ * Arthur Gaer (Harvard) -- Coming in Fri, 15 Jan 9pm Jet Blue flt 497; leaving Wed 20 Jan, 11pm flt 498. 
+ * Jason Grout   (Drake U.) -- Coming in Sat, 16 Jan, 9:51PM; leaving Thu, 21 Jan, 6AM.
  * Mike Hansen (World)
  * Robert Miller (UW)
  * Willem Jan Palenstijn  (Holland) 
  * Sebastian Pancratz  (Cambridge, England)
  * Vijay Patankar (Microsoft India)
- * William Stein (UW)
+ * William Stein (UW) -- Coming in Fri, 15 Jan 10pm Alaska flt 221.
  * Kevin Stueve (UW)
