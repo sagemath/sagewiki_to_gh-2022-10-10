@@ -1,6 +1,8 @@
 = Sage Days 19: Bug Smash 2 =
 
-Dates: January 16-20, 2010  (arrive Jan 15, checkout Jan 20)
+Dates: January 16-20, 2010  (arrive Jan 15, checkout Jan 20).  
+
+Note that Monday, Jan 18 is a Washington State holiday (Martin Luther King Day).
 
 Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
