@@ -33,7 +33,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Jason Grout   (Drake U.) -- Coming in Sat, 16 Jan, 9:51PM; leaving Thu, 21 Jan, 6AM.
  * Mike Hansen (World)
  * Robert Miller (UW)
- * Willem Jan Palenstijn  (Holland) 
+ * Willem Jan Palenstijn  (Holland) -- Coming in Fri, 15 Jan, 8PM (from Chicago); leaving Sat, 23 Jan, 8:14AM
  * Sebastian Pancratz  (Cambridge, England)
  * Vijay Patankar (Microsoft India)
  * William Stein (UW) -- Coming in Fri, 15 Jan 10pm Alaska flt 221.
