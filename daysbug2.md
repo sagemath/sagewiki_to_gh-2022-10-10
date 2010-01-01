@@ -28,7 +28,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Tom Boothby (UW)
  * Robert Bradshaw (UW)
  * Craig Citro (UW)
- * Burcin Erocal  (Austria)
+ * Burcin Erocal  (Austria) -- Coming in Thu, 14 Jan 11:55 AM; leaving Thu, 21 Jan, 12:45 PM.
  * Arthur Gaer (Harvard) -- Coming in Fri, 15 Jan 9pm Jet Blue flt 497; leaving Wed 20 Jan, 11pm flt 498. 
  * Jason Grout   (Drake U.) -- Coming in Sat, 16 Jan, 9:51PM; leaving Thu, 21 Jan, 6AM.
  * Mike Hansen (World)
