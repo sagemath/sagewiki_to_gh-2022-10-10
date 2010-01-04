@@ -16,7 +16,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
  [[attachment:shuey.png|{{attachment:shuey.png}}]]  [[attachment:outside.png|{{attachment:outside.png}}]]
 
- * People sleeping at Shuey (6 rooms; ~10 beds): Arthur Gaer (own room), Willem Jan Palenstijn, Jason Grout, Burcin Erocal, Mike Hansen (+1, so own room), Sebastian Pancratz, Tim Dumol (not confirmed)
+ * People sleeping at Shuey (6 rooms; ~10 beds): Arthur Gaer (own room), Willem Jan Palenstijn, Jason Grout, Burcin Erocal, Mike Hansen (+1, so own room), Sebastian Pancratz, Tim Dumol 
 
 == Mailing list ==
  * http://groups.google.com/group/sagedays19
@@ -29,6 +29,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Robert Bradshaw (UW)
  * Nils Bruin (SFU) -- "I am considering joining you for the Saturday and Sunday (16, 17 January). I'll leave Sunday early evening."
  * Craig Citro (UW)
+ * Tim Dumol (Philipines)
  * Burcin Erocal  (Austria) -- Coming in Thu, 14 Jan 11:55 AM; leaving Thu, 21 Jan, 12:45 PM.
  * Arthur Gaer (Harvard) -- Coming in Fri, 15 Jan 9pm Jet Blue flt 497; leaving Wed 20 Jan, 11pm flt 498. 
  * Jason Grout   (Drake U.) -- Coming in Sat, 16 Jan, 9:51PM; leaving Thu, 21 Jan, 6AM.
