@@ -23,7 +23,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
 
 == Confirmed Participants ==
 
- * Nick Alexander (UC Irvine, California)
+ * '''Cancelled''': Nick Alexander (UC Irvine, California)
  * Rob Beezer (day trip, Mon Jan 18, Tacoma, WA)
  * Tom Boothby (UW)
  * Robert Bradshaw (UW)
