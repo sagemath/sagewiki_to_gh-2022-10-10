@@ -27,6 +27,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Rob Beezer (day trip, Mon Jan 18, Tacoma, WA)
  * Tom Boothby (UW)
  * Robert Bradshaw (UW)
+ * Nils Bruin (SFU) -- "I am considering joining you for the Saturday and Sunday (16, 17 January). I'll leave Sunday early evening."
  * Craig Citro (UW)
  * Burcin Erocal  (Austria) -- Coming in Thu, 14 Jan 11:55 AM; leaving Thu, 21 Jan, 12:45 PM.
  * Arthur Gaer (Harvard) -- Coming in Fri, 15 Jan 9pm Jet Blue flt 497; leaving Wed 20 Jan, 11pm flt 498. 
