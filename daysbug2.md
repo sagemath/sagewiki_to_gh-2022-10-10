@@ -29,7 +29,7 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Robert Bradshaw (UW)
  * Nils Bruin (SFU) -- "I am considering joining you for the Saturday and Sunday (16, 17 January). I'll leave Sunday early evening."
  * Craig Citro (UW)
- * Tim Dumol (Philipines)
+ * Tim Dumol (Philipines) -- Coming in Fri, 15 Jan, 7 AM; leaving Thu, 21 Jan 12:50 PM.
  * Burcin Erocal  (Austria) -- Coming in Thu, 14 Jan 11:55 AM; leaving Thu, 21 Jan, 12:45 PM.
  * Arthur Gaer (Harvard) -- Coming in Fri, 15 Jan 9pm Jet Blue flt 497; leaving Wed 20 Jan, 11pm flt 498. 
  * Jason Grout   (Drake U.) -- Coming in Sat, 16 Jan, 9:51PM; leaving Thu, 21 Jan, 6AM.
