@@ -40,3 +40,4 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Vijay Patankar (Microsoft India)
  * William Stein (UW) -- Coming in Fri, 15 Jan 10pm Alaska flt 221.
  * Kevin Stueve (UW)
+ * Bill Cauchois (UW) -- I'll be there for Saturday and Sunday
