@@ -207,6 +207,54 @@ These two interacts involve some Cython code or other scipy imports, so I've pos
   * https://sage.math.washington.edu/home/pub/42
   * https://sage.math.washington.edu/home/pub/43
 
+== Picard iteration example ==
+by Marshall Hampton and David Joyner
+{{{
+def picard_iteration(f, a, c, iterations):
+    '''
+    Computes the N-th Picard iterate for the IVP  
+
+        x' = f(t,x), x(a) = c.
+
+    EXAMPLES:
+        sage: var('x t s')
+        (x, t, s)
+        sage: a = 0; c = 2
+        sage: f = lambda t,x: 1-x
+        sage: picard_iteration(f, a, c, 0)
+        2
+         sage: picard_iteration(f, a, c, 1)
+        2 - t
+        sage: picard_iteration(f, a, c, 2)
+        t^2/2 - t + 2
+        sage: picard_iteration(f, a, c, 3)
+        -t^3/6 + t^2/2 - t + 2
+
+    '''
+    if iterations == 0:
+        return c
+    if iterations == 1:
+        x0 = lambda t: c + integral(f(t=s,x=c), s, a, t)
+        return expand(x0(t))
+    for i in range(iterations):
+        x_old = lambda s: picard_iteration(f, a, c, iterations-1).subs(t=s)
+        x0 = lambda t: c + integral(f(t=s,x=x_old(s)), s, a, t)
+    return expand(x0(t))
+
+@interact
+def picarder(n_iterations = slider(0,20,1,default = 2)):
+    var('x,t,s')
+    f = lambda t,x:x
+    html("Exact solution to $x' = x$, $x(0) = 1$ is $x = \exp(t)$<br>")
+    pic = picard_iteration(f,0,1,n_iterations)
+    html('The Picard iteration approximatio after ' + str(n_iterations) + ' iterations is:<br>')
+    html('$'+latex(pic)+'$')
+    exact = plot(exp(t),(t,0,2))
+    pic_plot = plot(pic,(t,0,2), rgbcolor = (1,0,0))
+    show(exact + pic_plot)
+}}}
+{{attachment:picard.png}}
+
 == Autonomous equations and stable/unstable fixed points ==
 by Marshall Hampton
 This needs the Cython functon defined in a seperate cell.  Note that it is not a particularly good example of Cython use.
