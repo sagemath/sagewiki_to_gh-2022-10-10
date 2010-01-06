@@ -37,7 +37,6 @@ Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
  * Robert Miller (UW)
  * Willem Jan Palenstijn  (Holland) -- Coming in Fri, 15 Jan, 8PM (from Chicago); leaving Sat, 23 Jan, 8:14AM
  * Sebastian Pancratz  (Cambridge, England)
- * Vijay Patankar (Microsoft India)
  * William Stein (UW) -- Coming in Fri, 15 Jan 10pm Alaska flt 221.
  * Kevin Stueve (UW)
  * Bill Cauchois (UW) -- I'll be there for Saturday and Sunday
