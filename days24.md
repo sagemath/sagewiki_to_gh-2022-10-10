@@ -5,6 +5,14 @@
 The aim of this workshop is to bring differential algebra, special functions and symbolic computation communities together,
 and generate some interest to improve the facilities provided by Sage to support research in these fields.
 
+=== Invited Speakers ===
+
+ * [[http://www.risc.uni-linz.ac.at/home/ppaule|Peter Paule]]
+ * [[http://www-sop.inria.fr/members/Alban.Quadrat/|Alban Quadrat]]
+ * [[http://wstein.org/|William Stein]]
+ * [[http://homepages.cwi.nl/~nicot/|Nico Temme]]
+ * [[http://perso.univ-rennes1.fr/felix.ulmer/|Felix Ulmer]]
+
 === Financial Support ===
 
 We have some funding to offer support for accommodation and in
@@ -19,8 +27,8 @@ Switzerland.
 
 Accommodation for participants receiving financial support will be in shared double rooms at the Hotel Sommerhaus in Hagenberg, within walking distance to [[http://www.risc.jku.at|RISC]] where the workshop will take place.
 
+Follow [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|this link]] for the [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|financial support application form]]. Deadline for applications is March 13th, 2010.
 
-'''Watch this space or subscribe to the [[#contact|mailing list]] for more information on how to apply for financial support!'''
 
 === Registration ===
 
