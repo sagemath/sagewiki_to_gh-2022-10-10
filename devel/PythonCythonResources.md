@@ -1,3 +1,4 @@
+## page was renamed from PythonResources
 = Python / Cython resources =
 
 == General ==
@@ -6,7 +7,7 @@
 
  * Library tools - [[http://docs.python.org/library/errno.html | errno]], [[http://docs.python.org/library/functools.html | functools]], [[http://docs.python.org/library/gettext.html | gettext]], [[http://docs.python.org/library/glob.html | glob]], [[http://docs.python.org/library/inspect.html | inspect]], [[http://docs.python.org/library/itertools.html | itertools]], [[http://docs.python.org/library/locale.html | locale]], [[http://docs.python.org/library/logging.html | logging]], [[http://docs.python.org/library/multiprocessing.html | multiprocessing]], [[http://docs.python.org/library/optparse.html | optparse]], [[http://docs.python.org/library/os.html | os]], [[http://docs.python.org/library/os.path.html | os.path]], [[http://docs.python.org/library/pdb.html | pdb]], [[http://docs.python.org/library/pickle.html | pickle]], [[http://docs.python.org/library/re.html | re]], [[http://docs.python.org/library/shutil.html | shutil]], [[http://docs.python.org/library/string.html | string]], [[http://docs.python.org/library/subprocess.html | subprocess]], [[http://docs.python.org/library/sys.html | sys]], [[http://docs.python.org/library/tabnanny.html | tabnanny]], [[http://docs.python.org/library/threading.html | threading]], [[http://docs.python.org/library/time.html | time]], [[http://docs.python.org/library/timeit.html | timeit]], [[http://docs.python.org/library/trace.html | trace]], [[http://docs.python.org/library/traceback.html | traceback]], [[http://docs.python.org/library/urllib2.html | urllib2]].
 
- * Other tools - [[http://www.tarind.com/depgraph.html | py2depgraph]], [[http://pycallgraph.slowchop.com/ | pycallgraph]], [[http://pychecker.sourceforge.net/ | PyChecker]], [[http://divmod.org/trac/wiki/DivmodPyflakes | PyFlakes]], [[http://www.logilab.org/project/pylint | Pylint]], [[http://furius.ca/snakefood/ | Snakefood]], [[http://code.google.com/p/jrfonseca/wiki/XDot | XDot]].
+ * Other tools - [[http://pypi.python.org/pypi/pep8/ | pep8]], [[http://www.tarind.com/depgraph.html | py2depgraph]], [[http://pycallgraph.slowchop.com/ | pycallgraph]], [[http://pychecker.sourceforge.net/ | PyChecker]], [[http://divmod.org/trac/wiki/DivmodPyflakes | PyFlakes]], [[http://www.logilab.org/project/pylint | Pylint]], [[http://furius.ca/snakefood/ | Snakefood]], [[http://code.google.com/p/jrfonseca/wiki/XDot | XDot]].
 
  * [[http://www.cython.org/ | Cython]] - [[http://docs.cython.org/ | docs]], [[http://wiki.cython.org/FAQ |FAQ]], [[http://wiki.cython.org/ | wiki]], [[http://dir.gmane.org/gmane.comp.python.cython.devel | cython-dev]], [[http://hg.cython.org/ | repo]], [[http://trac.cython.org/cython_trac/ | tracker]].
 
@@ -19,6 +20,7 @@
 == Articles, HOWTOs, etc. ==
  * [[http://pypi.python.org/pypi/decorator/3.0.1 | decorator]] by M. Simionato.
  * [[http://docs.python.org/howto/functional.html | Functional Programming HOWTO]] by A. M. Kuchling.
+ * [[http://wiki.sagemath.org/devel/FunctionalProgramming | Python Functional Programming for Mathematicians]] by M. Nguyen.
  * [[http://docs.python.org/howto/regex.html | Regular Expression HOWTO]] by A. M. Kuchling.
  * [[http://docutils.sourceforge.net/rst.html | reStructuredText / reST]].
  * [[http://www.doughellmann.com/articles/CompletelyDifferent-2008-03-linters/index.html | Static Code Analyzers]] by D. Hellmann.
