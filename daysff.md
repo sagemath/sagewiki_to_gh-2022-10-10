@@ -12,7 +12,11 @@ Time: TBD
 
  * Gebhard Boeckle: "For me some time between May 17 to June 5 would be good. [I give a lecture series in Barcelona form June 14-June 25, so June 5 is the very latest, the activity in Seattle would need to end.]"
 
+ * M. L. Brown: "I would very happy to participate in the seminar whenever it may be and am very pleased to be asked."
+
  * Ralf Butenuth: "For me, anything between May 8 and June 13 is perfect."
+
+ * Brian Conrey: "I am potentially interested in the workshop; summer is pretty busy for me, but in any event I would be pretty far removed from the core group, so my schedule is irrelevant."
 
  * Craig Citro
 
