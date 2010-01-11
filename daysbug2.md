@@ -4,7 +4,7 @@ Dates: January 16-20, 2010  (arrive Jan 15, checkout Jan 20).
 
 Note that Monday, Jan 18 is a Washington State holiday (Martin Luther King Day).
 
-Organizers: Craig Citro, William Stein, Robert Bradshaw, Mike Hansen
+Organizers: Craig Citro, William Stein (206-419-0925 cell phone number), Robert Bradshaw, Mike Hansen
 
 
  [[attachment:bug.png|{{attachment:bug.png}}]]
