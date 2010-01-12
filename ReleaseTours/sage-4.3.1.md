@@ -91,7 +91,39 @@ sage: E.isogenies_prime_degree(3)
 
  {{attachment:graph-editor.png}}
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7724 | #7724]] (Nathann Cohen, Yann Laigle-Chapuy)
+
+ * Breadth/depth first searches and basic connectivity for c_graphs [[http://trac.sagemath.org/sage_trac/ticket/7724 | #7724]] (Nathann Cohen, Yann Laigle-Chapuy) --- Implementation of the following methods for the class `CGraphBackend` in the module `sage/graphs/base/c_graph.pyx`:
+  * `depth_first_search()`
+  * `breadth_first_search()`
+  * `is_connected()`
+  * `is_strongly_connected()`
+ In some cases, the c_graphs implementation of these methods provides a 2x speed improvement:
+ {{{
+sage: g = graphs.RandomGNP(1000, 0.01)
+sage: h = g.copy(implementation="c_graph")
+sage: %timeit list(g.depth_first_search(0));
+100 loops, best of 3: 8.17 ms per loop
+sage: %timeit list(h.depth_first_search(0));
+100 loops, best of 3: 3.29 ms per loop
+sage: 
+sage: %timeit list(g.breadth_first_search(0));
+100 loops, best of 3: 6.48 ms per loop
+sage: %timeit list(h.breadth_first_search(0));
+10 loops, best of 3: 34 ms per loop
+sage: 
+sage: %timeit g.is_connected();
+100 loops, best of 3: 8.47 ms per loop
+sage: %timeit h.is_connected();
+100 loops, best of 3: 3.41 ms per loop
+sage:
+sage: g = g.to_directed()
+sage: h = g.copy(implementation="c_graph")
+sage: %timeit g.is_strongly_connected();
+10 loops, best of 3: 23.5 ms per loop
+sage: %timeit h.is_strongly_connected();
+10 loops, best of 3: 25 ms per loop
+ }}}
+ 
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7770 | #7770]] (Rob Beezer)
 
