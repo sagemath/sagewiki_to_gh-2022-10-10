@@ -12,9 +12,7 @@ This is the wiki page for the CCLI 2009 proposal that Jason Grout, Rob Beezer, K
 
 = The Actual Proposal =
 
-[[attachment:fastlane-07.pdf|Full Proposal with All Forms (fastlane-07, 2010/01/08, 7:00 PM PST)]] -- This does not contain the final draft of the proposal right now.  See below.
-
-[[attachment:proposal-final-draft-1.pdf|Final Draft of Proposal (proposal-final-draft-1.pdf, 2010/01/09, 4PM PST)]]
+[[attachment:fastlane-rc2.pdf|Full Proposal with All Forms (fastlane-rc2, 2010/01/12, 9AM PST)]] -- This is Release Candidate 2 of the proposal.
 
 [[/proposal|The Proposal]]
 
