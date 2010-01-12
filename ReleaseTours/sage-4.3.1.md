@@ -125,8 +125,15 @@ sage: %timeit h.is_strongly_connected();
  }}}
  
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7770 | #7770]] (Rob Beezer)
+ * Tower of Hanoi graph [[http://trac.sagemath.org/sage_trac/ticket/7770 | #7770]] (Rob Beezer) --- The Tower of Hanoi puzzle can be described by a graph whose vertices are possible states of the disks on the pegs, with edges representing legitimate moves of a single disk. The new method `HanoiTowerGraph()` of the class `GraphGenerators` in the module `sage/graphs/graph_generators.py` returns the graph whose vertices are the states of the Tower of Hanoi puzzle, with edges representing legal moves between states. See the documentation of this method for details on interpreting the the possible states of this puzzle. The following screenshot shows all the possible states of an instance of the puzzle with 3 pegs and 3 disks, produced using the following code:
+ {{{
+H = graphs.HanoiTowerGraph(3, 3, positions=False)
+show(H, figsize=[8,8])
+ }}}
 
+ 
+ {{attachment:tower-hanoi-graph.png}}
+ 
 
 == Linear algebra ==
 
