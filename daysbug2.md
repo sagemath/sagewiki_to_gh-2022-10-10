@@ -13,7 +13,7 @@ Organizers: Craig Citro, William Stein (206-419-0925 cell phone number), Robert 
 
  * Participants will stay and work at the [[http://www.shueyhouse.com/|Shuey House Mansion]] for the workshop:
    5218 16th ave NE, Seattle, WA 98105  
-   [[http://maps.google.com/maps?oe=utf-8&client=firefox-a&ie=UTF8&cid=0,0,8834837676951190706&fb=1&hnear=5218+16th+ave+NE,+Seattle,+WA+98105&gl=us&daddr=5218+16th+ave+NE,+Seattle,+WA+98105&geocode=1879113126593815553,47.667055,-122.310448&ei=pspMS6ymHo6eswPgrsiLAQ&ved=0CAoQngIwAA&ll=47.665647,-122.306929&spn=0.01341,0.038581&z=15 Google Map]]
+   [[http://maps.google.com/maps?oe=utf-8&client=firefox-a&ie=UTF8&cid=0,0,8834837676951190706&fb=1&hnear=5218+16th+ave+NE,+Seattle,+WA+98105&gl=us&daddr=5218+16th+ave+NE,+Seattle,+WA+98105&geocode=1879113126593815553,47.667055,-122.310448&ei=pspMS6ymHo6eswPgrsiLAQ&ved=0CAoQngIwAA&ll=47.665647,-122.306929&spn=0.01341,0.038581&z=15|Google Map]]
 
  [[attachment:shuey.png|{{attachment:shuey.png}}]]  [[attachment:outside.png|{{attachment:outside.png}}]]
 
