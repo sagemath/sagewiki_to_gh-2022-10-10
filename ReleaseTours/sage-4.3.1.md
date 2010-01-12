@@ -61,7 +61,28 @@ Results:
  }}}
 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/6887 | #6887]] (John Cremona, Jenny Cooley)
+ * More functions for elliptic curve isogenies [[http://trac.sagemath.org/sage_trac/ticket/6887 | #6887]] (John Cremona, Jenny Cooley) --- Code for constructing elliptic curve isogenies already existed in Sage 4.1.1. The enhancements here include:
+  * For `l=2,3,5,7,13` over any field, find all `l`-isogenies of a given elliptic curve. (These are the `l` for which `X_0(l)` has genus 0). 
+  * Similarly for the remaining `l` for which `l`-isogenies exist over `QQ`.
+  * Given an elliptic curve over `QQ`, find the whole isogeny class in a robust manner.
+  * Testing if two curves are isogenous at least over `QQ`.
+ The relevant use interface method is `isogenies_prime_degree()` in the class `EllipticCurve_field` of the module `sage/schemes/elliptic_curves/ell_field.py`.  Here are some examples showing `isogenies_prime_degree()` in action. Examples over finite fields:
+ {{{
+sage: E = EllipticCurve(GF(next_prime(1000000)), [7,8])
+sage: E.isogenies_prime_degree()
+[Isogeny of degree 2 from Elliptic Curve defined by y^2 = x^3 + 7*x + 8 over Finite Field of size 1000003 to Elliptic Curve defined by y^2 = x^3 + 970389*x + 794257 over Finite Field of size 1000003, Isogeny of degree 2 from Elliptic Curve defined by y^2 = x^3 + 7*x + 8 over Finite Field of size 1000003 to Elliptic Curve defined by y^2 = x^3 + 29783*x + 206196 over Finite Field of size 1000003, Isogeny of degree 2 from Elliptic Curve defined by y^2 = x^3 + 7*x + 8 over Finite Field of size 1000003 to Elliptic Curve defined by y^2 = x^3 + 999960*x + 78 over Finite Field of size 1000003, Isogeny of degree 13 from Elliptic Curve defined by y^2 = x^3 + 7*x + 8 over Finite Field of size 1000003 to Elliptic Curve defined by y^2 = x^3 + 878063*x + 845666 over Finite Field of size 1000003, Isogeny of degree 13 from Elliptic Curve defined by y^2 = x^3 + 7*x + 8 over Finite Field of size 1000003 to Elliptic Curve defined by y^2 = x^3 + 375648*x + 342776 over Finite Field of size 1000003]
+sage: E.isogenies_prime_degree(13)
+[Isogeny of degree 13 from Elliptic Curve defined by y^2 = x^3 + 7*x + 8 over Finite Field of size 1000003 to Elliptic Curve defined by y^2 = x^3 + 878063*x + 845666 over Finite Field of size 1000003, Isogeny of degree 13 from Elliptic Curve defined by y^2 = x^3 + 7*x + 8 over Finite Field of size 1000003 to Elliptic Curve defined by y^2 = x^3 + 375648*x + 342776 over Finite Field of size 1000003]
+ }}}
+ Examples over number fields (other than `QQ`):
+ {{{
+sage: QQroot2.<e> = NumberField(x^2 - 2)
+sage: E = EllipticCurve(QQroot2, [1,0,1,4,-6])
+sage: E.isogenies_prime_degree(2)
+[Isogeny of degree 2 from Elliptic Curve defined by y^2 + x*y + y = x^3 + 4*x + (-6) over Number Field in e with defining polynomial x^2 - 2 to Elliptic Curve defined by y^2 + x*y + y = x^3 + (-36)*x + (-70) over Number Field in e with defining polynomial x^2 - 2]
+sage: E.isogenies_prime_degree(3)
+[Isogeny of degree 3 from Elliptic Curve defined by y^2 + x*y + y = x^3 + 4*x + (-6) over Number Field in e with defining polynomial x^2 - 2 to Elliptic Curve defined by y^2 + x*y + y = x^3 + (-171)*x + (-874) over Number Field in e with defining polynomial x^2 - 2, Isogeny of degree 3 from Elliptic Curve defined by y^2 + x*y + y = x^3 + 4*x + (-6) over Number Field in e with defining polynomial x^2 - 2 to Elliptic Curve defined by y^2 + x*y + y = x^3 + (-128/3)*x + 5662/27 over Number Field in e with defining polynomial x^2 - 2]
+ }}}
 
 
 == Graph theory ==
