@@ -2,14 +2,22 @@
 
 == Major features ==
 
- * Substantial work towards a complete SPARC Solaris 10 port. This is due to the hard work of David Kirkby, in collaboration with Martin Albrecht, Peter Jeremy, Minh Van Nguyen, Jaap Spies and William Stein. The relevant tickets include [[http://trac.sagemath.org/sage_trac/ticket/6595 | #6595]], [[http://trac.sagemath.org/sage_trac/ticket/7138 | #7138]], [[http://trac.sagemath.org/sage_trac/ticket/7162 | #7162]], [[http://trac.sagemath.org/sage_trac/ticket/7505 | #7505]], [[http://trac.sagemath.org/sage_trac/ticket/7817 | #7817]].
+ * Substantial work towards a complete SPARC Solaris 10 port. This is due to the hard work of David Kirkby. The relevant tickets include [[http://trac.sagemath.org/sage_trac/ticket/6595 | #6595]], [[http://trac.sagemath.org/sage_trac/ticket/7138 | #7138]], [[http://trac.sagemath.org/sage_trac/ticket/7162 | #7162]], [[http://trac.sagemath.org/sage_trac/ticket/7505 | #7505]], [[http://trac.sagemath.org/sage_trac/ticket/7817 | #7817]].
  
  * We're moving closer towards a FreeBSD port, thanks to the work of Peter Jeremy at ticket [[http://trac.sagemath.org/sage_trac/ticket/7825 | #7825]].
 
 
 == Basic arithmetics ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7834 | #7834]] (Dag Sverre Seljebotn)
+ * Implement `conjugate()` for `RealDoubleElement` [[http://trac.sagemath.org/sage_trac/ticket/7834 | #7834]] (Dag Sverre Seljebotn) --- New method `conjugate()` in the class `RealDoubleElement` of the module `sage/rings/real_double.pyx` for returning the complex conjugate of a real number. This is consistent with `conjugate()` methods in `ZZ` and `RR`. For example,
+ {{{
+sage: ZZ(5).conjugate()
+5
+sage: RR(5).conjugate()
+5.00000000000000
+sage: RDF(5).conjugate()
+5.0
+ }}}
 
 
 == Combinatorics ==
