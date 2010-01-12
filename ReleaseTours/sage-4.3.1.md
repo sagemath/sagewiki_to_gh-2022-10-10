@@ -87,7 +87,9 @@ sage: E.isogenies_prime_degree(3)
 
 == Graph theory ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/1321 | #1321]] (Radoslav Kirov, Mitesh Patel)
+ * An interactive graph editor [[http://trac.sagemath.org/sage_trac/ticket/1321 | #1321]] (Radoslav Kirov, Mitesh Patel) --- Embed an interactive graph editor into the notebook. The following screenshot shows a graph editor for playing around with the complete graph on 5 vertices:
+
+ {{attachment:graph-editor.png}}
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7724 | #7724]] (Nathann Cohen, Yann Laigle-Chapuy)
 
