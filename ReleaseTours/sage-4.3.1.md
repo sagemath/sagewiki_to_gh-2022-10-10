@@ -169,7 +169,35 @@ show(H, figsize=[8,8])
 
 == Linear algebra ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/5174 | #5174]] (John Palmieri)
+ * Viewing entries of large matrices [[http://trac.sagemath.org/sage_trac/ticket/5174 | #5174]] (John Palmieri) --- For a small matrix such as `2 x 2`, the default is to print the entries of the matrix. This default behaviour is unsuitable for large matrices such as `100 x 100`. The string representation of such large matrices now indicate how to view all their entries. Here are some examples illustrating the new way to view the string representation of matrices. If the matrix is too big, all the elements are not displayed by default:
+ {{{
+sage: A = random_matrix(ZZ, 5)
+sage: A
+[ 1 -4 -4  1 -1]
+[-1  1 13 -1 -1]
+[-1  0  0 -1 -1]
+[-8  1 -1  1 -4]
+[ 1 -5 -1  1  2]
+sage: A = random_matrix(ZZ, 100)
+sage: A
+100 x 100 dense matrix over Integer Ring (type 'print A.str()' to see all of the entries)
+ }}}
+ If a matrix has several names, refer to the matrix as "obj":
+ {{{
+sage: A = random_matrix(ZZ, 200)
+sage: B = A
+sage: B
+200 x 200 dense matrix over Integer Ring (type 'print obj.str()' to see all of the entries)
+ }}}
+ If a matrix doesn't have a name, don't print any name referring to the matrix in its string representation:
+ {{{
+sage: A = random_matrix(ZZ, 150)
+sage: A.transpose()
+150 x 150 dense matrix over Integer Ring
+sage: T = A.transpose(); T
+150 x 150 dense matrix over Integer Ring (type 'print T.str()' to see all of the entries)
+ }}}
+ 
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7728 | #7728]] (Dag Sverre Seljebotn)
 
