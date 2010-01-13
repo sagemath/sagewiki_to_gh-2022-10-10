@@ -9,6 +9,10 @@ Organizers: Craig Citro, William Stein (206-419-0925 cell phone number), Robert 
 
  [[attachment:bug.png|{{attachment:bug.png}}]]
 
+== Hit List ==
+
+ [[http://trac.sagemath.org/sage_trac/wiki/sd19-bugs|Find it here!]]
+
 == Location ==
 
  * Participants will stay and work at the [[http://www.shueyhouse.com/|Shuey House Mansion]] for the workshop:
