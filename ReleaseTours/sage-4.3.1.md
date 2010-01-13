@@ -204,7 +204,18 @@ sage: T = A.transpose(); T
 
 == Miscellaneous ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/6820 | #6820]] (John Palmieri, Mitesh Patel)
+ * Command line access to HTML documentation and docstrings [[http://trac.sagemath.org/sage_trac/ticket/6820 | #6820]] (John Palmieri, Mitesh Patel) --- Browse the Sage standard documentation from the command line or within the notebook interface. Use the following commands to browse documents in the standard documentation:
+  * `browse_sage_doc.tutorial()` or its alias `tutorial()`
+  * `browse_sage_doc.reference()`, or its aliases `reference()` and `manual()`
+  * `browse_sage_doc.developer()` or its alias `developer()`
+  * `browse_sage_doc.constructions()` or its alias `constructions()`
+ The following screenshot illustrates viewing the Sage tutorial from the command line interface, activated using the command:
+ {{{
+sage: tutorial()
+ }}}
+ This command invoked a terminal-based web browser such as Links to view the tutorial.
+ {{attachment:browse-doc-cmd.png}}
+
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7482 | #7482]] (William Stein)
 
