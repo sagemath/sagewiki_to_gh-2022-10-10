@@ -22,7 +22,39 @@ sage: RDF(5).conjugate()
 
 == Combinatorics ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7754 | #7754]] (Nicolas M. Thiéry)
+ * Weyl group optimizations [[http://trac.sagemath.org/sage_trac/ticket/7754 | #7754]] (Nicolas M. Thiéry) --- Three major improvements that indirectly also improve efficiency of most Weyl group routines:
+  * Faster hash method calling the hash of the underlying matrix (which is set as immutable for that purpose).
+  * New `__eq__()` method.
+  * Action on the weight lattice realization: optimization of the matrix multiplication.
+ Some operations are now up to 34% faster than previously:
+ {{{
+BEFORE
+
+sage: W = WeylGroup(["F", 4])
+sage: W.cardinality()
+1152
+sage: %time list(W);
+CPU times: user 10.51 s, sys: 0.05 s, total: 10.56 s
+Wall time: 10.56 s
+sage: W = WeylGroup(["E", 8])
+sage: %time W.long_element();
+CPU times: user 1.47 s, sys: 0.00 s, total: 1.47 s
+Wall time: 1.47 s
+
+
+AFTER
+
+sage: W = WeylGroup(["F", 4])
+sage: W.cardinality()
+1152
+sage: %time list(W);
+CPU times: user 6.89 s, sys: 0.04 s, total: 6.93 s
+Wall time: 6.93 s
+sage: W = WeylGroup(["E", 8])
+sage: %time W.long_element();
+CPU times: user 1.21 s, sys: 0.00 s, total: 1.21 s
+Wall time: 1.21 s
+ }}}
 
 
 == Elliptic curves ==
