@@ -217,7 +217,9 @@ sage: tutorial()
  {{attachment:browse-doc-cmd.png}}
 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7482 | #7482]] (William Stein)
+ * A mode for automatic names [[http://trac.sagemath.org/sage_trac/ticket/7482 | #7482]] (William Stein) --- Provide a mode so that undeclared variables magically spring into existence and object oriented notation is not necessary. The target audience is people wanting to simplify use of Sage for calculus for undergraduate students. This new mode currently only works within the notebook. The following screenshot illustates how to use the mode for automatic names.
+ {{attachment:automatic-names.png}}
+ 
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7514 | #7514]] (William Stein)
 
