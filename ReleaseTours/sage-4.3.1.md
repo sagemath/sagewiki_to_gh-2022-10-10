@@ -226,16 +226,14 @@ sage: tutorial()
 
 == Packages ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7271 | #7271]] (Martin Albrecht)
+ * Upgrade [[http://polybori.sourceforge.net | PolyBoRi]] to latest upstream release version 0.6.3.r1647-20091028[[http://trac.sagemath.org/sage_trac/ticket/7271 | #7271]] (Martin Albrecht).
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7388 | #7388]] (Robert Miller)
+ * Upgrade [[http://www.mathe2.uni-bayreuth.de/stoll/programs |ratpoints]] to latest upstream release version 2.1.3 [[http://trac.sagemath.org/sage_trac/ticket/7388 | #7388]] (Robert Miller).
  
- * [[http://trac.sagemath.org/sage_trac/ticket/7483 | #7483]] (William Stein)
-
  * [[http://trac.sagemath.org/sage_trac/ticket/7692 | #7692]], [[http://trac.sagemath.org/sage_trac/ticket/7749 | #7749]] (Steven Sivek)
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7745 | #7745]] (Karl-Dieter Crisman)
+ * Upgrade [[http://maxima.sourceforge.net | Maxima]] to latest upstream release version 5.20.1 [[http://trac.sagemath.org/sage_trac/ticket/7745 | #7745]] (Karl-Dieter Crisman).
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7825 | #7825]] (Peter Jeremy)
+ * Upgrade [[http://nb.sagemath.org | Sage Notebook]] to latest upstream release version 0.4.9 [[http://trac.sagemath.org/sage_trac/ticket/7840 | #7840]] (William Stein).
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7840 | #7840]] (William Stein)
+ * Update [[http://pari.math.u-bordeaux.fr | Pari/GP]] to version 2.3.3.p6 [[http://trac.sagemath.org/sage_trac/ticket/7825 | #7825]] (Peter Jeremy).
