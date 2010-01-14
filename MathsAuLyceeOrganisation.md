@@ -53,3 +53,12 @@ chercheurs + développeurs + enseignants secondaires
 ==== 17h30 Fin ====
 
 Un apéritif est offert à tous les participants de la journée.
+
+Liste des participants:
+
+Laurent Beddou
+Jean-Marie Filia
+Yves Lafont
+Thierry Ravoire
+Anne-Marie Scooti
+Laurent Tichit
