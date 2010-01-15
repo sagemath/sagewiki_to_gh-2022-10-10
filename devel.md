@@ -44,3 +44,5 @@ The Sage notebook provides a graphical user interface to Sage. To help out with 
  * [[devel/SageTasks | Sage usability task list]]
 
  * [[devel/BuildFarm | Build farm]]
+ 
+ * [[http://www.research-service.com/custom-research-paper.html | research papers]]
