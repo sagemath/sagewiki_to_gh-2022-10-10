@@ -38,7 +38,7 @@ Organizers: Craig Citro, William Stein (206-419-0925 cell phone number), Robert 
  * Burcin Erocal  (Austria) -- Coming in Thu, 14 Jan 11:55 AM; leaving Thu, 21 Jan, 12:45 PM.
  * Arthur Gaer (Harvard) -- Coming in Fri, 15 Jan 9pm Jet Blue flt 497; leaving Wed 20 Jan, 11pm flt 498. 
  * Jason Grout   (Drake U.) -- Coming in Sat, 16 Jan, 9:51PM; leaving Thu, 21 Jan, 6AM.
- * Mike Hansen (World)
+ * Mike Hansen (World) -- Coming Friday, 15 Jan 8:54PM; leaving ...
  * Robert Miller (UW)
  * Willem Jan Palenstijn  (Holland) -- Coming in Fri, 15 Jan, 8PM (from Chicago); leaving Sat, 23 Jan, 8:14AM
  * Sebastian Pancratz  (Cambridge, England)
