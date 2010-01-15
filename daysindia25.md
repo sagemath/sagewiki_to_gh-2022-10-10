@@ -1,4 +1,4 @@
-= Sage Days 25 in Mumbi, India =
+= Sage Days 25 in Mumbai, India =
 
 Dates: August 9-12, 2010
 
