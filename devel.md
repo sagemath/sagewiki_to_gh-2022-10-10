@@ -20,7 +20,7 @@ Much of the Sage library is written in Python. Some performance critical parts o
 
 If you have an account on the Sage cluster, ensure that you read the [[devel/SageClusterGuidelines | Sage cluster guidelines]] on using computer resources on the Sage cluster.
 
- * [[devel/IntegrateSpkg | How to integrate a replacement spkg when reviewing a ticket?]]
+ * [[devel/DevelFAQ | Frequently asked questions regarding Sage development]]
 
 = Sage notebook =
 
