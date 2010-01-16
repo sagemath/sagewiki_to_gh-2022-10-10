@@ -15,7 +15,7 @@ Organizers: Craig Citro, William Stein (206-419-0925 cell phone number), Robert 
 
 == Base version of Sage ==
 
- sage-4.3.1.rc0, coming very soon!
+ [[http://boxen.math.washington.edu/home/rlmill/sage-4.3.1.rc0.tar|sage-4.3.1.rc0]]
 
 == Location ==
 
