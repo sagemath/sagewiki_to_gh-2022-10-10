@@ -13,6 +13,10 @@ Organizers: Craig Citro, William Stein (206-419-0925 cell phone number), Robert 
 
  [[http://trac.sagemath.org/sage_trac/wiki/sd19-bugs|Find it here!]]
 
+== Base version of Sage ==
+
+ sage-4.3.1.rc0, coming very soon!
+
 == Location ==
 
  * Participants will stay and work at the [[http://www.shueyhouse.com/|Shuey House Mansion]] for the workshop:
