@@ -43,7 +43,7 @@ Organizers: Craig Citro, William Stein (206-419-0925 cell phone number), Robert 
  * Arthur Gaer (Harvard) -- Coming in Fri, 15 Jan 9pm Jet Blue flt 497; leaving Wed 20 Jan, 11pm flt 498. 
  * Jason Grout   (Drake U.) -- Coming in Sat, 16 Jan, 9:51PM; leaving Thu, 21 Jan, 6AM.
  * Mike Hansen (World) -- Coming Friday, 15 Jan 8:54PM; leaving ...
- * Robert Miller (UW)
+ * Robert Miller (UW) -- moving this weekend, but will be around otherwise
  * Willem Jan Palenstijn  (Holland) -- Coming in Fri, 15 Jan, 8PM (from Chicago); leaving Sat, 23 Jan, 8:14AM
  * Sebastian Pancratz  (Cambridge, England)
  * William Stein (UW) -- Coming in Fri, 15 Jan 10pm Alaska flt 221.
