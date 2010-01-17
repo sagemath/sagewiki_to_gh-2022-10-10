@@ -496,7 +496,7 @@ elements = (
 # animated gif from the frames provided as its first argument.
 # Though avid python programmers will find the syntax clear, an
 # explanation is provided for novices.
-animation = animate([reduce(operator.add, (f(t) for f in elements))
+animation = animate([sum(f(t) for f in elements)
                      for t in tvals],
                     xmin=-x_max, xmax=x_max,
                     ymin=-y_max, ymax=y_max,
@@ -521,8 +521,7 @@ animation.show(delay=animation_delay)
 #
 #   or
 #
-#     add = lambda a, b: a + b
-#     join_plots = lambda plots: reduce(add, plots)
+#     join_plots = sum
 #
 #   Create an array of plots, one for each provided t value:
 #
