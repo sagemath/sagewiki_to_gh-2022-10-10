@@ -59,7 +59,11 @@ Liste des participants:
 
 Laurent Beddou
 
+Claude Droguet
+
 Jean-Marie Filia
+
+Christophe Gillette
 
 Yves Lafont
 
