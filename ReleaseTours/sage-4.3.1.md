@@ -2,9 +2,14 @@
 
 == Major features ==
 
- * Substantial work towards a complete SPARC Solaris 10 port. This is due to the hard work of David Kirkby. The relevant tickets include [[http://trac.sagemath.org/sage_trac/ticket/6595 | #6595]], [[http://trac.sagemath.org/sage_trac/ticket/7138 | #7138]], [[http://trac.sagemath.org/sage_trac/ticket/7162 | #7162]], [[http://trac.sagemath.org/sage_trac/ticket/7505 | #7505]], [[http://trac.sagemath.org/sage_trac/ticket/7817 | #7817]].
+ * Substantial work towards a complete SPARC Solaris 10 port. This is due to the hard work of David Kirkby. The relevant tickets include [[http://trac.sagemath.org/sage_trac/ticket/6595 | #6595]], [[http://trac.sagemath.org/sage_trac/ticket/7067 | #7067]], [[http://trac.sagemath.org/sage_trac/ticket/7138 | #7138]], [[http://trac.sagemath.org/sage_trac/ticket/7162 | #7162]], [[http://trac.sagemath.org/sage_trac/ticket/7387 | #7387]], [[http://trac.sagemath.org/sage_trac/ticket/7505 | #7505]], [[http://trac.sagemath.org/sage_trac/ticket/7817 | #7817]].
  
  * We're moving closer towards a FreeBSD port, thanks to the work of Peter Jeremy at ticket [[http://trac.sagemath.org/sage_trac/ticket/7825 | #7825]].
+
+
+== Algebra ==
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7595 | #7595]]
 
 
 == Basic arithmetics ==
@@ -18,6 +23,9 @@ sage: RR(5).conjugate()
 sage: RDF(5).conjugate()
 5.0
  }}}
+
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7739 | #7739]]
 
 
 == Combinatorics ==
@@ -55,6 +63,13 @@ sage: %time W.long_element();
 CPU times: user 1.21 s, sys: 0.00 s, total: 1.21 s
 Wall time: 1.21 s
  }}}
+ 
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7301 | #7301]]
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7729 | #7729]]
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7753 | #7753]]
 
 
 == Elliptic curves ==
@@ -167,6 +182,13 @@ show(H, figsize=[8,8])
  {{attachment:tower-hanoi-graph.png}}
  
 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7292 | #7292]]
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7590 | #7590]]
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7634 | #7634]]
+
+
 == Linear algebra ==
 
  * Viewing entries of large matrices [[http://trac.sagemath.org/sage_trac/ticket/5174 | #5174]] (John Palmieri) --- For a small matrix such as `2 x 2`, the default is to print the entries of the matrix. This default behaviour is unsuitable for large matrices such as `100 x 100`. The string representation of such large matrices now indicate how to view all their entries. Here are some examples illustrating the new way to view the string representation of matrices. If the matrix is too big, all the elements are not displayed by default:
@@ -223,6 +245,8 @@ sage: tutorial()
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7514 | #7514]] (William Stein)
 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7740 | #7740]]
+
 
 == Packages ==
 
@@ -237,3 +261,15 @@ sage: tutorial()
  * Upgrade [[http://nb.sagemath.org | Sage Notebook]] to latest upstream release version 0.5 [[http://trac.sagemath.org/sage_trac/ticket/7785 | #7785]] (William Stein).
 
  * Update [[http://pari.math.u-bordeaux.fr | Pari/GP]] to version 2.3.3.p6 [[http://trac.sagemath.org/sage_trac/ticket/7825 | #7825]] (Peter Jeremy).
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7856 | #7856]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7067 | #7067]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7239 | #7239]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7387 | #7387]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7761 | #7761]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7814 | #7814]]
