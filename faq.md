@@ -3,50 +3,79 @@
 <<TableOfContents>>
 
 == Introduction ==
+
+
 === What is Sage? ===
+
 Sage is a comprehensive open-source mathematics software suite that has the mission statement "Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab."  See http://www.sagemath.org/ for more details.
 
+
 == Getting Sage ==
+
+
 === Can I try out Sage without downloading anything? ===
+
 Yes!  Go to http://www.sagenb.org/ and set up a free account.  If you log in, you will be working on a free Sage notebook server that will work identically to the one you get with Sage.
 
+
 === How do I get a Sage program I can run immediately? ===
+
 Go to http://www.sagemath.org/download.html and click on the link for the binary for your operating system.
 
+
 === How do I get the Sage source code? ===
+
 Go to http://www.sagemath.org/src/ to download the tar archive for any release of Sage.
+
 
 === How do I get a previous release of Sage? ===
+
 Go to http://www.sagemath.org/src/ to download the tar archive for any release of Sage.
 
+
 == Installing and running Sage ==
+
+
 === Wouldn't it be way better if Sage did not ship as a gigantic bundle? ===
 
 This has been discussed over and over again and it [[/bigsagerant|plainly doesn't work]].
 
 
 === How do I compile the source to Sage? ===
+
 Download the source tar archive, extract the archive, change your directory to be inside of it, and read the README.txt file there.  Basically, after making sure you have the proper prerequisite tools installed, you type {{{make}}}.
 
+
 === How do I run Sage on a platform other than VMWare or Windows? ===
+
 Change your directory to the sage directory and run {{{./sage}}}
 
 To start an online notebook server, start Sage and type {{{notebook()}}} at the sage command prompt.
 
+
 === How do I run Sage with VMWare? ===
+
 You must install the VMWare software (the free VMWare Player should work).  Simply start the virtual machine using the VMWare software, wait for the virtual machine to boot up, then type {{{notebook}}} at the prompt.
 
+
 === How do I run Sage in Windows? ===
+
 Windows is currently supported via the VMWare image, so see the instructions for running Sage under VMWare.
 See [[windows]] for information on efforts to make a native port of Sage to Windows.
 
+
 === How do I run a parallel build? ===
+
 {{{export MAKE="make -j8"}}} will enable 8 threads for parts of the build that support parallelism.
 
+
 === How do I run Sage in a browser that is not the system default ===
+
 Issue this command "env SAGE_BROWSER=opera /usr/bin/sage -notebook" either from the command prompt or as a menu command for Sage. Assumes a Linux operating system, Opera as the browser, and I happen to use KDE as my desktop.
 
+
 === How to get Sage's Python to recognize my system's Tcl/Tk install? ===
+
 It may be that you have Tcl/Tk installed and that your system's Python recognizes it but Sage's Python does not. To fix that, install the tcl/tk development library. On Ubuntu, this is the command
 
 {{{
@@ -65,6 +94,7 @@ sage: import Tkinter
 }}}
 does not raise an ImportError then it worked.
 
+
 === How do I import Sage into a Python script? ===
 
 Yes you can import Sage as a library in a Python script. One caveat is that you need to run that Python script using the version of Python that is bundled with Sage; currently Python 2.6.x. To import Sage, put the following in your Python script:
@@ -80,6 +110,7 @@ Another way is to write a Sage script and run that script using Sage itself. A S
 sage /path/to/my/script.sage
 
 This will take care of loading the necessary environment variables and default imports for you.
+
 
 === I'm seeing an error about 'Permission denied' on a file called sage-flags.txt ===
 
@@ -115,11 +146,17 @@ The version of Sage, i.e. Sage version 3.0.5, that's available through apt-get i
 
 
 == Developing in Sage ==
+
+
 === What tools do I need to develop in Sage? ===
+
 You need the prerequisite tools listed in the README.txt file in the root directory of Sage.
 
+
 === Where is the source code to Sage? ===
+
 You can browse the complete source code to everything in Sage at http://hg.sagemath.org/.  This is a web interface to the Mercurial repository.  The main source files are at http://hg.sagemath.org/sage-main?cmd=manifest;manifest=-1;path=/sage/.  The other directories include docs directories, the package system, etc.
+
 
 == Working in Sage ==
 
@@ -179,12 +216,14 @@ array([  7.5,  10.5])
 
 Disabling the preprocessor is also achievable in code by {{{preparse(False)}}}. One may start IPython alone from the command line ("sage -ipython") which does not pre-load anything Sage-specific; or switching the Notebook language to "python".
 
+
 === How do I save an object so I don't have to compute it each time I open a worksheet? ===
+
 The {{{save}}} and {{{load}}} commands will save and load an object, respectively.  In the notebook, the {{{DATA}}} variable is the location of the data storage area of the worksheet.  To save the object {{{my_stuff}}} in a worksheet, you could do {{{save(my_stuff, DATA+"my_stuff")}}} and to reload it, you would just do {{{my_stuff = load(DATA+"my_stuff")}}}
 
 
-
 === I get an error from jsMath or the math symbols don't look right when displaying in the notebook ===
+
 If you see the error "It looks like jsMath failed to set up properly (error code -7).  I
 will try to keep going, but it could get ugly.", you haven't installed the TeX fonts which help jsMath render beautiful mathematics.  To get the nice TeX 
 display with jsMath, please download a set of fonts from here:
@@ -194,11 +233,17 @@ display with jsMath, please download a set of fonts from here:
 If you are on Linux/Unix, ignore the instructions on the page and just unzip 
 the fonts into your ~/.fonts directory. You can also install the "jsmath-fonts" package.
 
+
 == Getting help ==
+
+
 === How do I get help? ===
+
 Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://www.sagemath.org/help.html for a listing of these resources.
 
+
 == Other questions ==
+
 ----------
  * QUESTION: I downloaded a Sage binary and it crashes on startup with `Illegal instruction`. What can I do?
  
@@ -361,7 +406,9 @@ limit maxproc 512 2048
  * QUESTION: With objects {{{a}}} and {{{b}}} and a function {{{f}}}, I accidentally typed {{{f(a) = b}}} instead of {{{f(a) == b}}}.  This returned a {{{TypeError}}} (as expected), but also deleted the object {{{a}}}.  Why?
  * ANSWER: It's because of how functions are  defined in Sage using the {{{f(x) = expr}}} notation using the preparser.  Also notice that if you make this mistake inside of an {{{if}}} statement, you will get a {{{SyntaxError}}} before anything else goes wrong, so in this case, there is no problem.
 
+
 = ToDo =
+
  * QUESTION: Sage fails to compile on OSX 10.4
  * ANSWER: Most likely resource issue.
  * QUESTION: Notebook doesn't work
