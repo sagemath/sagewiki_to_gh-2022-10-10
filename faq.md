@@ -25,12 +25,12 @@ Go to http://www.sagemath.org/download.html and click on the link for the binary
 
 === How do I get the Sage source code? ===
 
-Go to http://www.sagemath.org/src/ to download the tar archive for any release of Sage.
+Go to http://www.sagemath.org/download-source.html to download the tar archive for any release of Sage.
 
 
 === How do I get a previous release of Sage? ===
 
-Go to http://www.sagemath.org/src/ to download the tar archive for any release of Sage.
+Go to http://www.sagemath.org/src-old to download the tar archive for any release of Sage.
 
 
 == Installing and running Sage ==
@@ -46,27 +46,30 @@ This has been discussed over and over again and it [[/bigsagerant|plainly doesn'
 Download the source tar archive, extract the archive, change your directory to be inside of it, and read the README.txt file there.  Basically, after making sure you have the proper prerequisite tools installed, you type {{{make}}}.
 
 
-=== How do I run Sage on a platform other than VMWare or Windows? ===
+=== How do I run Sage on a platform other than VirtualBox or Windows? ===
 
 Change your directory to the sage directory and run {{{./sage}}}
 
 To start an online notebook server, start Sage and type {{{notebook()}}} at the sage command prompt.
 
 
-=== How do I run Sage with VMWare? ===
+=== How do I run Sage with VirtualBox? ===
 
-You must install the VMWare software (the free VMWare Player should work).  Simply start the virtual machine using the VMWare software, wait for the virtual machine to boot up, then type {{{notebook}}} at the prompt.
+You must install the VirtualBox software available at http://www.virtualbox.org/wiki/Downloads. Then run the downloaded VirtualBox Distribution of Sage and follow additional instructions at http://sagemath.org/mirror/win/README.txt. Simply start the virtual machine using the VirtualBox software, wait for the virtual machine to boot up, then type {{{notebook}}} at the prompt.
 
 
 === How do I run Sage in Windows? ===
 
-Windows is currently supported via the VMWare image, so see the instructions for running Sage under VMWare.
-See [[windows]] for information on efforts to make a native port of Sage to Windows.
+Windows is currently supported via the VirtualBox image, so see the instructions for running Sage under VirtualBox. See [[windows]] for information on efforts to make a native port of Sage to Windows.
 
 
 === How do I run a parallel build? ===
 
-{{{export MAKE="make -j8"}}} will enable 8 threads for parts of the build that support parallelism.
+The command
+{{{
+export MAKE="make -j8"
+}}} 
+will enable 8 threads for parts of the build that support parallelism. Change the number 8 as appropriate to suit the number of cores on your system.
 
 
 === How do I run Sage in a browser that is not the system default ===
@@ -98,17 +101,17 @@ does not raise an ImportError then it worked.
 === How do I import Sage into a Python script? ===
 
 Yes you can import Sage as a library in a Python script. One caveat is that you need to run that Python script using the version of Python that is bundled with Sage; currently Python 2.6.x. To import Sage, put the following in your Python script:
-
+{{{
 from sage.all import *
-
+}}}
 Then when you want to run your script, you need to invoke Sage with the option "-python" which would run your script using the Python that comes with Sage. For example, if Sage is in your PATH variable then you can do this:
-
+{{{
 sage -python /path/to/my/script.py
-
+}}}
 Another way is to write a Sage script and run that script using Sage itself. A Sage script has the file extension ".sage" and is more or less a Python script but uses Sage-specific functions and commands. You can then run that Sage script like so:
-
+{{{
 sage /path/to/my/script.sage
-
+}}}
 This will take care of loading the necessary environment variables and default imports for you.
 
 
@@ -160,9 +163,9 @@ You can browse the complete source code to everything in Sage at http://hg.sagem
 
 == Working in Sage ==
 
-=== What exactly does SAGE do when I type 0.6**2? ===
+=== What exactly does Sage do when I type 0.6**2? ===
 
- * QUESTION: When I type 0.6**2 in python, it returns 0.35999999999999999.  When I do the same in Sage it returns 0.360000000000000.  Why?
+ * QUESTION: When I type 0.6**2 in Python, it returns 0.35999999999999999.  When I do the same in Sage it returns 0.360000000000000.  Why?
  * ANSWER: See [[http://docs.python.org/tutorial/floatingpoint.html|the Python tutorial]] to understand why Python does what it does.    What Sage does is "preparse" the input and transforms it like this:
 {{{
 sage: preparse('0.6**2')
@@ -177,8 +180,7 @@ The Sage developers (in fact, Carl Witty) decided that Sage floating point numbe
 
 === Why is Sage's command history different than Magma's ===
 
- * QUESTION: Using Sage, I am missing a feature of Magma command line interface. In Magma, if I enter a line found in history using up arrow key, and then
-press down arrow key, then the next line in history is fetched. This feature allows me to fetch as many successive lines in history as like. Does Sage(or readline) have a similar feature?
+ * QUESTION: Using Sage, I am missing a feature of Magma command line interface. In Magma, if I enter a line found in history using up arrow key, and then press down arrow key, then the next line in history is fetched. This feature allows me to fetch as many successive lines in history as like. Does Sage(or readline) have a similar feature?
  * ANSWER: No, Sage does not have a similar feature.  The IPython command prompt uses the readline library (via pyreadline), which evidently doesn't support this feature.  Magma has its own custom "readline-like" library, which does support this feature.   (Since so many people have requested this feature, if anybody can figure out how to implement it, then such an implementation would certainly be welcome!)
 
 
@@ -364,32 +366,32 @@ assert x*(1/x) == K.one_element()
 }}}
  To find out more, type {{{sage.rings.finite_field_givaro.FiniteField_givaro.}}} at the Sage prompt and hit tab, then use ?? to get more information on each function. For example: {{{sage.rings.finite_field_givaro.FiniteField_givaro.one_element??}}} tells you more about the multiplicative unit element in the finite field.
 ----------
- * QUESTION: How do I make the VMware appliance for Windows automatically login as "sage"?
- * ANSWER: Follow http://ubuntu-utah.ubuntuforums.org/showthread.php?t=303319.  Short version: put in the file {{{/usr/bin/autologin}}} the text
- {{{
+# * QUESTION: How do I make the VMware appliance for Windows automatically login as "sage"?
+# * ANSWER: Follow http://ubuntu-utah.ubuntuforums.org/showthread.php?t=303319.  Short version: put in the file {{{/usr/bin/autologin}}} the text
+# {{{
 #! /bin/sh
-/bin/login -f sage
-}}}
- and make this file executable; then edit {{{/etc/event.d/tty1}}}, comment out
- {{{
-respawn /sbin/getty 38400 tty1
-}}}
- and add
- {{{
-respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
-}}}
- Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
-
-If you do need to escape to a shell, you can run the following from inside sage (untested):
-{{{#!python numbers=none
-import os
-os.execp('sh')
-}}}
-then use "sudo -s" to get a root shell.
-----------
- * QUESTION: When running Sage under VMware, if you log in under manage you are not given the permissions to create a file!
- * ANSWER: Type "sudo su" before creating files.
-----------
+#/bin/login -f sage
+#}}}
+# and make this file executable; then edit {{{/etc/event.d/tty1}}}, comment out
+# {{{
+#respawn /sbin/getty 38400 tty1
+#}}}
+# and add
+# {{{
+#respawn /sbin/getty -n -1 /usr/bin/autologin 38400 tty1
+#}}}
+# Now every time the appliance reboots, it will automatically load directly to the sage: prompt.  Warning: This will make it nearly impossible to get a terminal prompt!  So only do this if you don't plan on any further management.
+#
+#If you do need to escape to a shell, you can run the following from inside sage (untested):
+#{{{#!python numbers=none
+#import os
+#os.execp('sh')
+#}}}
+#then use "sudo -s" to get a root shell.
+#----------
+# * QUESTION: When running Sage under VMware, if you log in under manage you are not given the permissions to create a file!
+# * ANSWER: Type "sudo su" before creating files.
+#----------
  * QUESTION: I'm getting weird build failures on OSX. How do I fix this?
  * ANSWER: Search the build log (install.log) to see if you're getting "fork: Resource temporarily unavailable.". If so, try the following. Create (or edit) /etc/launchd.conf and include the following:
  {{{
