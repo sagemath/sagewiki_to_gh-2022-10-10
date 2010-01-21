@@ -29,6 +29,15 @@ sage: RDF(5).conjugate()
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7739 | #7739]]
 
+ * [[http://trac.sagemath.org/sage_trac/ticket/383 | #383]] There is now a decorator {{{coerce_binop}}} which can be applied to methods to ensure the arguments have the same parent. For example
+
+    {{{
+    @coerce_binop
+    def quo_rem(self, other):
+        ...
+}}}
+
+    will guarantee that self and other have the same parent before this method is called. 
 
 == Combinatorics ==
 
