@@ -92,6 +92,18 @@ sage: gale_ryser_theorem(p1, p2)
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7729 | #7729]]
 
+Iwahori Hecke algebras are deformations of the group algebras of
+Coxeter groups, such as Weyl groups (finite or affine). 
+See: http://wiki.sagemath.org/HeckeAlgebras.
+
+{{{
+sage: R.<q>=PolynomialRing(QQ)
+sage: H = IwahoriHeckeAlgebra("A3",q)
+sage: [T1,T2,T3]=H.algebra_generators()
+sage: T1*(T2+T3)*T1
+T1*T2*T1 + (q-1)*T3*T1 + q*T3
+}}}
+
  * [[http://trac.sagemath.org/sage_trac/ticket/7753 | #7753]]
 
 
