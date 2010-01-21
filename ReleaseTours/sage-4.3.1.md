@@ -106,6 +106,7 @@ T1*T2*T1 + (q-1)*T3*T1 + q*T3
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7753 | #7753]]
 
+The Bruhat order for Coxeter groups is now fully implemented.
 
 == Elliptic curves ==
 
