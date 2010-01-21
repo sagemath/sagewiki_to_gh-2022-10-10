@@ -285,7 +285,7 @@ This rewrite involves replacing the old implementation, which used multiprocessi
 
  * Upgrade [[http://maxima.sourceforge.net | Maxima]] to latest upstream release version 5.20.1 [[http://trac.sagemath.org/sage_trac/ticket/7745 | #7745]] (Karl-Dieter Crisman).
 
- * Upgrade [[http://nb.sagemath.org | Sage Notebook]] to latest upstream release version 0.5 [[http://trac.sagemath.org/sage_trac/ticket/7785 | #7785]] (William Stein).
+ * Upgrade [[http://nb.sagemath.org | Sage Notebook]] to latest upstream release version 0.6 [[http://trac.sagemath.org/sage_trac/ticket/7785 | #7785]] (Tim Dumol and William Stein).
 
  * Update [[http://pari.math.u-bordeaux.fr | Pari/GP]] to version 2.3.3.p6 [[http://trac.sagemath.org/sage_trac/ticket/7825 | #7825]] (Peter Jeremy).
 
