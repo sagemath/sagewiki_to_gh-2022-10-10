@@ -9,7 +9,7 @@
 
 == Algebra ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7595 | #7595]]
+ * Implement Chinese Remainder Theorem for polynomials, which is needed for general descents on curves: [[http://trac.sagemath.org/sage_trac/ticket/7595 | #7595]]
 
 
 == Basic arithmetics ==
