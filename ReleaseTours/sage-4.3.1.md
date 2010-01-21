@@ -243,7 +243,32 @@ sage: tutorial()
  {{attachment:automatic-names.png}}
  
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7514 | #7514]] (William Stein)
+ * Complete rewrite of the load and attach commands: [[http://trac.sagemath.org/sage_trac/ticket/7514 | #7514]] (William Stein) --- Now the code is uniform between the command line and notebook.  It is also much more flexible and sensible.  E.g., you can use load and attach as normal functions now, e.g. load('filename.sage'), attach('filename.sage').  Type {{{load?}}} and {{{attach?}}} for more help. 
+
+ * Rewrite the @parallel decorate to be vastly more robust, flexible, and usable. [[http://trac.sagemath.org/sage_trac/ticket/6967 | #6967]]  (William Stein) --- Now @parallel uses the exact state of the running Sage session, which allows you to do much more robust parallel computations on a multiprocessor computers.  In particular, this works:
+{{{
+# File p.sage
+def h(s):
+    sleep(1)
+    return s*s
+
+def f(n1, n2, cores=24):
+    @parallel(cores)
+    def g(n):
+        return h(n)*h(n)
+    return [a for _, a in g([n1..n2])]
+
+#------
+
+sage: load p.sage
+sage: time f(1,24)
+CPU times: user 0.03 s, sys: 0.22 s, total: 0.25 s
+Wall time: 2.28 s
+[1, 16, 81, 256, 625, 1296, 2401, 4096, 6561, 10000, 14641, 28561, 20736, 
+ 38416, 50625, 65536, 83521, 104976, 130321, 160000, 194481, 234256, 279841, 331776]
+}}}
+This rewrite involves replacing the old implementation, which used multiprocessing (or Dsage), by a new one which uses the fork system call (it's about 2 pages of code written using only basic Python). 
+
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7740 | #7740]]
 
