@@ -71,7 +71,7 @@ Wall time: 1.21 s
 
   *  The Gale Ryser theorem asserts that if `p_1,p_2` are two partitions of `n` of respective lengths `k_1,k_2`, then there is a binary `k_1\times k_2` matrix `M` such that `p_1` is the vector of row sums and `p_2` is the vector of column sums of `M`, if and only if `p_2` dominates `p_1`. 
 
-This was implemented by Nathann Cohen and David Joyner. Here is an example.
+This was implemented by Nathann Cohen and David Joyner. T.S. Michael helped a great deal with the refereeing process. Here is an example.
 
 {{{
 sage: from sage.combinat.integer_vector import gale_ryser_theorem 
