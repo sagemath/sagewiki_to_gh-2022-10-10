@@ -1,6 +1,6 @@
 = Sage Days 21: Function Fields =
 
-Organizers: William Stein, Chris Hall, Craig Citro, Salman Baig
+Organizers:  William Stein, Chris Hall, Craig Citro, Salman Baig
 
 Location: The [[http://www.shueyhouse.com/|Shuey House]], Seattle, WA
 
