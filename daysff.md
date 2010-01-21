@@ -8,24 +8,27 @@ Dates: May 17 - 21, 2010 (check in on May 16th, check out on May 22nd)
 
 == Tentative Participants ==
 
- * Salman Baig
+ * Salman Baig (Washington)
+ * Gebhard Boeckle (Universitat Duisburg-Essen)
+ * M. L. Brown (Institut Fourier)
+ * Ralf Butenuth (Universitat Duisburg-Essen)
+ * Craig Citro (Washington)
+ * Ernst-Ulrich Gekeler (Universitat des Saarlandes)
+ * Chris Hall (Wyoming)
+ * Steven J Miller (Williams)
+ * William Stein (Washington)
+ * Doug Ulmer (Georgia Tech)
+ * Felipe Voloch (Texas)
 
- * Gebhard Boeckle
+== Tentative Project List ==
 
- * M. L. Brown
+ * Elliptic curves over function fields and their L-functions
+ * Drinfeld modular forms
+ * The Birch and Swinnerton-Dyer Conjecture over function fields
+ * "Cremona's Tables" for function fields
+ * Computing Mordell-Weil groups
+ * Statistics over function fields
 
- * Ralf Butenuth
+== Tentative Talks ==
 
- * Craig Citro
-
- * Ernst-Ulrich Gekeler
-
- * Chris Hall
-
- * Steven J Miller
-
- * William Stein
-
- * Doug Ulmer
-
- * Felipe Voloch
+ TBD
