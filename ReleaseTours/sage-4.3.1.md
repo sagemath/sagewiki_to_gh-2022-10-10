@@ -1,6 +1,6 @@
 = Sage 4.3.1 Release Tour =
 
-<<<TableOfContents>>>
+<<TableOfContents>>
 
 == Major features ==
 
