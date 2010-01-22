@@ -25,9 +25,8 @@ This is the code and a mockup animation of the interact command. It defines a sl
 var('x')
 x0  = 0
 f   = sin(x)*e^(-x)
-y0  = f(x0)
 p   = plot(f,-1,5, thickness=2)
-dot = point((x0,y0),pointsize=80,rgbcolor=(1,0,0))
+dot = point((x0,f(x=x0)),pointsize=80,rgbcolor=(1,0,0))
 @interact
 def _(order=(1..12)):
   ft = f.taylor(x,x0,order)
