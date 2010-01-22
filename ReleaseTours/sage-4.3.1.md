@@ -323,7 +323,7 @@ This rewrite involves replacing the old implementation, which used multiprocessi
  
  * [[http://trac.sagemath.org/sage_trac/ticket/7776 | #7776]]
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7781 | #7781]]
+ * Update the pre-requisites check script to version 0.6 [[http://trac.sagemath.org/sage_trac/ticket/7781 | #7781]] (David Kirkby).
 
 
 == Packages ==
@@ -352,20 +352,20 @@ This rewrite involves replacing the old implementation, which used multiprocessi
  
  * [[http://trac.sagemath.org/sage_trac/ticket/7814 | #7814]]
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7032 | #7032]]
+ * Update [[http://www.algorithm.uni-bayreuth.de/en/research/SYMMETRICA | Symmetrica]] to version 2.0.p5 [[http://trac.sagemath.org/sage_trac/ticket/7032 | #7032]] (David Kirkby).
  
- * [[http://trac.sagemath.org/sage_trac/ticket/7815 | #7815]]
+ * Update [[http://www.flintlib.org | Flint]] to version 1.5.0.p3 [[http://trac.sagemath.org/sage_trac/ticket/7815 | #7815]] (David Kirkby).
  
- * [[http://trac.sagemath.org/sage_trac/ticket/7838 | #7838]]
+ * Update [[http://math-atlas.sourceforge.net | ATLAS]] to version 3.8.3.p10 [[http://trac.sagemath.org/sage_trac/ticket/7838 | #7838]] (David Kirkby).
  
- * [[http://trac.sagemath.org/sage_trac/ticket/7849 | #7849]]
+ * Update [[http://www.mpir.org | MPIR]] to version 1.2.2.p0 [[http://trac.sagemath.org/sage_trac/ticket/7849 | #7849]] (Bill Hart, David Kirkby).
  
- * [[http://trac.sagemath.org/sage_trac/ticket/7873 | #7873]]
+ * Update [[http://www.gap-system.org | GAP]] to version 4.4.10.p13 [[http://trac.sagemath.org/sage_trac/ticket/7873 | #7873]] (David Kirkby).
  
- * [[http://trac.sagemath.org/sage_trac/ticket/7898 | #7898]]
+ * Update [[http://www.singular.uni-kl.de | Singular]] to version 3-1-0-4-20090818.p3 [[http://trac.sagemath.org/sage_trac/ticket/7898 | #7898]] (David Kirkby).
  
- * [[http://trac.sagemath.org/sage_trac/ticket/7899 | #7899]]
+ * Update [[http://www.shoup.net/ntl | NTL]] to version 5.4.2.p10 [[http://trac.sagemath.org/sage_trac/ticket/7899 | #7899]] (David Kirkby).
  
- * [[http://trac.sagemath.org/sage_trac/ticket/7900 | #7900]]
+ * Update [[http://mercurial.selenic.com | Mercurial]] to version 1.3.1.p1 [[http://trac.sagemath.org/sage_trac/ticket/7900 | #7900]] (David Kirkby).
  
- * [[http://trac.sagemath.org/sage_trac/ticket/7901 | #7901]]
+ * Update [[http://pari.math.u-bordeaux.fr | Pari/GP]] to version 2.3.3.p7 [[http://trac.sagemath.org/sage_trac/ticket/7901 | #7901]] (David Kirkby).
