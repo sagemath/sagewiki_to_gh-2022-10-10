@@ -5,7 +5,7 @@
 == Major features ==
 
  * Substantial work towards a complete SPARC Solaris 10 port. This is due to the hard work of David Kirkby. The relevant tickets include [[http://trac.sagemath.org/sage_trac/ticket/6595 | #6595]], [[http://trac.sagemath.org/sage_trac/ticket/7067 | #7067]], [[http://trac.sagemath.org/sage_trac/ticket/7138 | #7138]], [[http://trac.sagemath.org/sage_trac/ticket/7162 | #7162]], [[http://trac.sagemath.org/sage_trac/ticket/7387 | #7387]], [[http://trac.sagemath.org/sage_trac/ticket/7505 | #7505]], [[http://trac.sagemath.org/sage_trac/ticket/7781 | #7781]], [[http://trac.sagemath.org/sage_trac/ticket/7815 | #7815]], [[http://trac.sagemath.org/sage_trac/ticket/7817 | #7817]], [[http://trac.sagemath.org/sage_trac/ticket/7849 | #7849]]
- 
+
  * We're moving closer towards a FreeBSD port, thanks to the work of Peter Jeremy at ticket [[http://trac.sagemath.org/sage_trac/ticket/7825 | #7825]].
 
 
@@ -59,8 +59,8 @@ sage: RDF(5).conjugate()
 
  * Improvements to complex arithmetic-geometric mean [[http://trac.sagemath.org/sage_trac/ticket/7739 | #7739]] (Robert Bradshaw) --- Adds an `algorithm` option to the method `agm()` for complex numbers. The values of `algorithm` be can:
   * "pari" --- Call the agm function from the Pari library.
-  * "optimal" --- Use the AGM sequence such that at each stage `(a,b)` is replaced by `(a_1,b_1) = ((a+b)/2,\pm\sqrt{ab})` where the sign is chosen so that `|a_1-b_1| \le |a_1+b_1|`, or equivalently `\Re(b_1/a_1)\ge0`. The resulting limit is maximal among all possible values. 
-  * "principal" --- Use the AGM sequence such that at each stage `(a,b)` is replaced by `(a_1,b_1) = ((a+b)/2,\pm\sqrt{ab})` where the sign is chosen so that `\Re(b_1/a_1)\ge0` (the so-called principal branch of the square root). 
+  * "optimal" --- Use the AGM sequence such that at each stage `(a,b)` is replaced by `(a_1,b_1) = ((a+b)/2,\pm\sqrt{ab})` where the sign is chosen so that `|a_1-b_1| \le |a_1+b_1|`, or equivalently `\Re(b_1/a_1)\ge0`. The resulting limit is maximal among all possible values.
+  * "principal" --- Use the AGM sequence such that at each stage `(a,b)` is replaced by `(a_1,b_1) = ((a+b)/2,\pm\sqrt{ab})` where the sign is chosen so that `\Re(b_1/a_1)\ge0` (the so-called principal branch of the square root).
  The following examples illustrate that the returned value depends on the algorithm parameter:
  {{{
 sage: a = CDF(-0.95, -0.65)
@@ -72,7 +72,7 @@ sage: a.agm(b, algorithm="principal")
 sage: a.agm(b, algorithm="pari")
 0.080689185076 + 0.239036532686*I
  }}}
- 
+
 
  * New decorator `coerce_binop` [[http://trac.sagemath.org/sage_trac/ticket/383 | #383]] (Robert Bradshaw) --- The new decroator `coerce_binop`  can be applied to methods to ensure the arguments have the same parent. For example
  {{{
@@ -118,52 +118,139 @@ sage: %time W.long_element();
 CPU times: user 1.21 s, sys: 0.00 s, total: 1.21 s
 Wall time: 1.21 s
  }}}
- 
- 
- * [[http://trac.sagemath.org/sage_trac/ticket/7301 | #7301]]
 
-  *  The Gale Ryser theorem asserts that if `p_1,p_2` are two partitions of `n` of respective lengths `k_1,k_2`, then there is a binary `k_1\times k_2` matrix `M` such that `p_1` is the vector of row sums and `p_2` is the vector of column sums of `M`, if and only if `p_2` dominates `p_1`. 
 
-This was implemented by Nathann Cohen and David Joyner. T.S. Michael helped a great deal with the refereeing process. Here is an example.
+ * Implement the Gale Ryser theorem [[http://trac.sagemath.org/sage_trac/ticket/7301 | #7301]] (Nathann Cohen, David Joyner) --- The Gale Ryser theorem asserts that if `p_1, p_2` are two partitions of `n` of respective lengths `k_1, k_2`, then there is a binary `k_1 \times k_2` matrix `M` such that `p_1` is the vector of row sums and `p_2` is the vector of column sums of `M`, if and only if `p_2` dominates `p_1`. T.S. Michael helped a great deal with the refereeing process. Here are some examples:
+ {{{
+sage: from sage.combinat.integer_vector import gale_ryser_theorem
+sage: p1 = [4, 2, 2]
+sage: p2 = [3, 3, 1, 1]
+sage: gale_ryser_theorem(p1, p2)
+[1 1 1 1]
+[1 1 0 0]
+[1 1 0 0]
+sage: p1 = [4, 2, 2, 0]
+sage: p2 = [3, 3, 1, 1, 0, 0]
+sage: gale_ryser_theorem(p1, p2)
+[1 1 1 1 0 0]
+[1 1 0 0 0 0]
+[1 1 0 0 0 0]
+[0 0 0 0 0 0]
+ }}}
 
-{{{
-sage: from sage.combinat.integer_vector import gale_ryser_theorem 
-sage: p1 = [4,2,2] 
-sage: p2 = [3,3,1,1] 
-sage: gale_ryser_theorem(p1, p2) 
- [1 1 1 1] 
- [1 1 0 0] 
- [1 1 0 0]         
-sage: p1 = [4,2,2,0] 
-sage: p2 = [3,3,1,1,0,0] 
-sage: gale_ryser_theorem(p1, p2) 
- [1 1 1 1 0 0] 
- [1 1 0 0 0 0] 
- [1 1 0 0 0 0] 
- [0 0 0 0 0 0] 
-}}}
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7729 | #7729]]
-
-Iwahori Hecke algebras are deformations of the group algebras of
-Coxeter groups, such as Weyl groups (finite or affine). 
-See: http://wiki.sagemath.org/HeckeAlgebras.
-
-{{{
-sage: R.<q>=PolynomialRing(QQ)
-sage: H = IwahoriHeckeAlgebra("A3",q)
-sage: [T1,T2,T3]=H.algebra_generators()
-sage: T1*(T2+T3)*T1
+ * Iwahori Hecke algebras on the T basis [[http://trac.sagemath.org/sage_trac/ticket/7729 | #7729]] (Daniel Bump, Nicolas M. Thiéry) --- Iwahori [[http://wiki.sagemath.org/HeckeAlgebras | Hecke algebras]] are deformations of the group algebras of Coxeter groups, such as Weyl groups (finite or affine). Here are some examples:
+ {{{
+sage: R.<q> = PolynomialRing(QQ)
+sage: H = IwahoriHeckeAlgebra("A3", q)
+sage: [T1, T2, T3] = H.algebra_generators()
+sage: T1 * (T2 + T3) * T1
 T1*T2*T1 + (q-1)*T3*T1 + q*T3
-}}}
+ }}}
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7753 | #7753]]
 
-The Bruhat order for Coxeter groups is now fully implemented.
+ * Coxeter groups: more Bruhat and weak order features [[http://trac.sagemath.org/sage_trac/ticket/7753 | #7753]] (Nicolas M. Thiéry, Daniel Bump) --- Four new methods implementing the Bruhat order for Coxeter groups. The method `bruhat_le()` for Bruhat comparison:
+ {{{
+sage: W = WeylGroup(["A", 3])
+sage: u = W.from_reduced_word([1, 2, 1])
+sage: v = W.from_reduced_word([1, 2, 3, 2, 1])
+sage: u.bruhat_le(u)
+True
+sage: u.bruhat_le(v)
+True
+sage: v.bruhat_le(u)
+False
+sage: v.bruhat_le(v)
+True
+sage: s = W.simple_reflections()
+sage: s[1].bruhat_le(W.one())
+False
+ }}}
+ The method `weak_le()` for comparison in weak order:
+ {{{
+sage: W = WeylGroup(["A", 3])
+sage: u = W.from_reduced_word([1, 2])
+sage: v = W.from_reduced_word([1, 2, 3, 2])
+sage: u.weak_le(u)
+True
+sage: u.weak_le(v)
+True
+sage: v.weak_le(u)
+False
+sage: v.weak_le(v)
+True
+ }}}
+ The method `bruhat_poset()` returns the Bruhat poset of a Weyl group:
+ {{{
+sage: W = WeylGroup(["A", 3])
+sage: P = W.bruhat_poset()
+sage: u = W.from_reduced_word([3, 1])
+sage: v = W.from_reduced_word([3, 2, 1, 2, 3])
+sage: P(u) <= P(v)
+True
+sage: len(P.interval(P(u), P(v)))
+10
+sage: P.is_join_semilattice()
+False
+ }}}
+ The method `weak_poset()` returns the left (resp. right) poset for weak order:
+ {{{
+sage: W = WeylGroup(["A", 2])
+sage: P = W.weak_poset(); P
+Finite poset containing 6 elements
+sage: W = WeylGroup(["B", 3])
+sage: P = W.weak_poset(side="left")
+sage: P.is_join_semilattice(), P.is_meet_semilattice()
+(True, True)
+ }}}
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7145 | #7145]]
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7543 | #7543]]
+ * Interval exchange transformations [[http://trac.sagemath.org/sage_trac/ticket/7145 | #7145]] (Vincent Delecroix) --- New module for manipulating interval exchange transformations and linear involutions. Here, we create an interval exchange transformation:
+
+ {{{
+sage: T = iet.IntervalExchangeTransformation(('a b','b a'),(sqrt(2),1))
+sage: print T
+Interval exchange transformation of [0, sqrt(2) + 1[ with permutation
+a b
+b a
+ }}}
+ It can also be initialized using permutation (group theoretic ones):
+ {{{
+sage: p = Permutation([3,2,1])
+sage: T = iet.IntervalExchangeTransformation(p, [1/3,2/3,1])
+sage: print T
+Interval exchange transformation of [0, 2[ with permutation
+1 2 3
+3 2 1
+ }}}
+ For the manipulation of permutations of IET, there are special types provided by this module. All of them can be constructed using the constructor `iet.Permutation`. For the creation of labelled permutations of interval exchange +transformation:
+ {{{
+sage: p1 =  iet.Permutation('a b c', 'c b a')
+sage: print p1
+a b c
+c b a
+ }}}
+
+
+ * Add S-adic to the word generator [[http://trac.sagemath.org/sage_trac/ticket/7543 | #7543]] (Sebastien Labbe) --- New method `s_adic()` returns the s-adic infinite word obtained from a sequence of morphisms applied on a letter. Here we define three morphisms and compute the first nested succesive prefixes of the s-adic word:
+ {{{
+sage: m1 = WordMorphism('e->gh,f->hg')
+sage: m2 = WordMorphism('c->ef,d->e')
+sage: m3 = WordMorphism('a->cd,b->dc')
+sage: words.s_adic([m1],'e')
+word: gh
+sage: words.s_adic([m1,m2],'ec')
+word: ghhg
+sage: words.s_adic([m1,m2,m3],'eca')
+word: ghhggh
+ }}}
+ When the given sequence of morphism is finite, one may simply give the last letter, i.e. "a", instead of giving all of them, i.e. "eca":
+ {{{
+sage: words.s_adic([m1,m2,m3],'a')
+word: ghhggh
+sage: words.s_adic([m1,m2,m3],'b')
+word: ghghhg
+ }}}
 
 
 == Elliptic curves ==
@@ -203,7 +290,7 @@ Results:
 
 
  * More functions for elliptic curve isogenies [[http://trac.sagemath.org/sage_trac/ticket/6887 | #6887]] (John Cremona, Jenny Cooley) --- Code for constructing elliptic curve isogenies already existed in Sage 4.1.1. The enhancements here include:
-  * For `l=2,3,5,7,13` over any field, find all `l`-isogenies of a given elliptic curve. (These are the `l` for which `X_0(l)` has genus 0). 
+  * For `l=2,3,5,7,13` over any field, find all `l`-isogenies of a given elliptic curve. (These are the `l` for which `X_0(l)` has genus 0).
   * Similarly for the remaining `l` for which `l`-isogenies exist over `QQ`.
   * Given an elliptic curve over `QQ`, find the whole isogeny class in a robust manner.
   * Testing if two curves are isogenous at least over `QQ`.
@@ -246,12 +333,12 @@ sage: %timeit list(g.depth_first_search(0));
 100 loops, best of 3: 8.17 ms per loop
 sage: %timeit list(h.depth_first_search(0));
 100 loops, best of 3: 3.29 ms per loop
-sage: 
+sage:
 sage: %timeit list(g.breadth_first_search(0));
 100 loops, best of 3: 6.48 ms per loop
 sage: %timeit list(h.breadth_first_search(0));
 10 loops, best of 3: 34 ms per loop
-sage: 
+sage:
 sage: %timeit g.is_connected();
 100 loops, best of 3: 8.47 ms per loop
 sage: %timeit h.is_connected();
@@ -264,7 +351,7 @@ sage: %timeit g.is_strongly_connected();
 sage: %timeit h.is_strongly_connected();
 10 loops, best of 3: 25 ms per loop
  }}}
- 
+
 
  * Tower of Hanoi graph [[http://trac.sagemath.org/sage_trac/ticket/7770 | #7770]] (Rob Beezer) --- The Tower of Hanoi puzzle can be described by a graph whose vertices are possible states of the disks on the pegs, with edges representing legitimate moves of a single disk. The new method `HanoiTowerGraph()` of the class `GraphGenerators` in the module `sage/graphs/graph_generators.py` returns the graph whose vertices are the states of the Tower of Hanoi puzzle, with edges representing legal moves between states. See the documentation of this method for details on interpreting the the possible states of this puzzle. The following screenshot shows all the possible states of an instance of the puzzle with 3 pegs and 3 disks, produced using the following code:
  {{{
@@ -272,9 +359,9 @@ H = graphs.HanoiTowerGraph(3, 3, positions=False)
 show(H, figsize=[8,8])
  }}}
 
- 
+
  {{attachment:tower-hanoi-graph.png}}
- 
+
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7292 | #7292]]
 
@@ -313,7 +400,7 @@ sage: A.transpose()
 sage: T = A.transpose(); T
 150 x 150 dense matrix over Integer Ring (type 'print T.str()' to see all of the entries)
  }}}
- 
+
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7728 | #7728]] (Dag Sverre Seljebotn)
 
@@ -335,9 +422,9 @@ sage: tutorial()
 
  * A mode for automatic names [[http://trac.sagemath.org/sage_trac/ticket/7482 | #7482]] (William Stein) --- Provide a mode so that undeclared variables magically spring into existence and object oriented notation is not necessary. The target audience is people wanting to simplify use of Sage for calculus for undergraduate students. This new mode currently only works within the notebook. The following screenshot illustates how to use the mode for automatic names.
  {{attachment:automatic-names.png}}
- 
 
- * Complete rewrite of the load and attach commands: [[http://trac.sagemath.org/sage_trac/ticket/7514 | #7514]] (William Stein) --- Now the code is uniform between the command line and notebook.  It is also much more flexible and sensible.  E.g., you can use load and attach as normal functions now, e.g. load('filename.sage'), attach('filename.sage').  Type {{{load?}}} and {{{attach?}}} for more help. 
+
+ * Complete rewrite of the load and attach commands: [[http://trac.sagemath.org/sage_trac/ticket/7514 | #7514]] (William Stein) --- Now the code is uniform between the command line and notebook.  It is also much more flexible and sensible.  E.g., you can use load and attach as normal functions now, e.g. load('filename.sage'), attach('filename.sage').  Type {{{load?}}} and {{{attach?}}} for more help.
 
  * Rewrite the @parallel decorate to be vastly more robust, flexible, and usable. [[http://trac.sagemath.org/sage_trac/ticket/6967 | #6967]]  (William Stein) --- Now @parallel uses the exact state of the running Sage session, which allows you to do much more robust parallel computations on a multiprocessor computers.  In particular, this works:
 {{{
@@ -358,14 +445,14 @@ sage: load p.sage
 sage: time f(1,24)
 CPU times: user 0.03 s, sys: 0.22 s, total: 0.25 s
 Wall time: 2.28 s
-[1, 16, 81, 256, 625, 1296, 2401, 4096, 6561, 10000, 14641, 28561, 20736, 
+[1, 16, 81, 256, 625, 1296, 2401, 4096, 6561, 10000, 14641, 28561, 20736,
  38416, 50625, 65536, 83521, 104976, 130321, 160000, 194481, 234256, 279841, 331776]
 }}}
-This rewrite involves replacing the old implementation, which used multiprocessing (or Dsage), by a new one which uses the fork system call (it's about 2 pages of code written using only basic Python). 
+This rewrite involves replacing the old implementation, which used multiprocessing (or Dsage), by a new one which uses the fork system call (it's about 2 pages of code written using only basic Python).
 
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7740 | #7740]]
- 
+
  * [[http://trac.sagemath.org/sage_trac/ticket/7776 | #7776]]
 
  * Update the pre-requisites check script to version 0.6 [[http://trac.sagemath.org/sage_trac/ticket/7781 | #7781]] (David Kirkby).
@@ -383,7 +470,7 @@ This rewrite involves replacing the old implementation, which used multiprocessi
  * Upgrade [[http://polybori.sourceforge.net | PolyBoRi]] to latest upstream release version 0.6.3.r1647-20091028[[http://trac.sagemath.org/sage_trac/ticket/7271 | #7271]] (Martin Albrecht).
 
  * Upgrade [[http://www.mathe2.uni-bayreuth.de/stoll/programs |ratpoints]] to latest upstream release version 2.1.3 [[http://trac.sagemath.org/sage_trac/ticket/7388 | #7388]] (Robert Miller).
- 
+
  * [[http://trac.sagemath.org/sage_trac/ticket/7692 | #7692]], [[http://trac.sagemath.org/sage_trac/ticket/7749 | #7749]] (Steven Sivek)
 
  * Upgrade [[http://maxima.sourceforge.net | Maxima]] to latest upstream release version 5.20.1 [[http://trac.sagemath.org/sage_trac/ticket/7745 | #7745]] (Karl-Dieter Crisman).
@@ -395,33 +482,33 @@ This rewrite involves replacing the old implementation, which used multiprocessi
  * Update [[http://pari.math.u-bordeaux.fr | Pari/GP]] to version 2.3.3.p6 [[http://trac.sagemath.org/sage_trac/ticket/7825 | #7825]] (Peter Jeremy).
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7856 | #7856]]
- 
+
  * [[http://trac.sagemath.org/sage_trac/ticket/7067 | #7067]]
- 
+
  * [[http://trac.sagemath.org/sage_trac/ticket/7239 | #7239]]
- 
+
  * [[http://trac.sagemath.org/sage_trac/ticket/7387 | #7387]]
- 
+
  * [[http://trac.sagemath.org/sage_trac/ticket/7761 | #7761]]
- 
+
  * [[http://trac.sagemath.org/sage_trac/ticket/7814 | #7814]]
 
  * Update [[http://www.algorithm.uni-bayreuth.de/en/research/SYMMETRICA | Symmetrica]] to version 2.0.p5 [[http://trac.sagemath.org/sage_trac/ticket/7032 | #7032]] (David Kirkby).
- 
+
  * Update [[http://www.flintlib.org | Flint]] to version 1.5.0.p3 [[http://trac.sagemath.org/sage_trac/ticket/7815 | #7815]] (David Kirkby).
- 
+
  * Update [[http://math-atlas.sourceforge.net | ATLAS]] to version 3.8.3.p10 [[http://trac.sagemath.org/sage_trac/ticket/7838 | #7838]] (David Kirkby).
- 
+
  * Update [[http://www.mpir.org | MPIR]] to version 1.2.2.p0 [[http://trac.sagemath.org/sage_trac/ticket/7849 | #7849]] (Bill Hart, David Kirkby).
- 
+
  * Update [[http://www.gap-system.org | GAP]] to version 4.4.10.p13 [[http://trac.sagemath.org/sage_trac/ticket/7873 | #7873]] (David Kirkby).
- 
+
  * Update [[http://www.singular.uni-kl.de | Singular]] to version 3-1-0-4-20090818.p3 [[http://trac.sagemath.org/sage_trac/ticket/7898 | #7898]] (David Kirkby).
- 
+
  * Update [[http://www.shoup.net/ntl | NTL]] to version 5.4.2.p10 [[http://trac.sagemath.org/sage_trac/ticket/7899 | #7899]] (David Kirkby).
- 
+
  * Update [[http://mercurial.selenic.com | Mercurial]] to version 1.3.1.p1 [[http://trac.sagemath.org/sage_trac/ticket/7900 | #7900]] (David Kirkby).
- 
+
  * Update [[http://pari.math.u-bordeaux.fr | Pari/GP]] to version 2.3.3.p7 [[http://trac.sagemath.org/sage_trac/ticket/7901 | #7901]] (David Kirkby).
 
  * Update Fortran spkg to version 20100118 [[http://trac.sagemath.org/sage_trac/ticket/7485 | #7485]] (William Stein) --- With this update, Fortran is now a pre-requisite for building Sage on any platform, except for Mac OS X. This spkg update still ships Fortran binaries for Mac OS X.
