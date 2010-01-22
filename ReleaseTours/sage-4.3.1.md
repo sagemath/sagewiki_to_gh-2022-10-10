@@ -120,6 +120,8 @@ The Bruhat order for Coxeter groups is now fully implemented.
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7145 | #7145]]
 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7543 | #7543]]
+
 
 == Elliptic curves ==
 
@@ -325,6 +327,13 @@ This rewrite involves replacing the old implementation, which used multiprocessi
 
  * Update the pre-requisites check script to version 0.6 [[http://trac.sagemath.org/sage_trac/ticket/7781 | #7781]] (David Kirkby).
 
+ * Complete the port to Mac OS X 10.6 [[http://trac.sagemath.org/sage_trac/ticket/7095 | #7095]] (Craig Citro, John Palmieri, Francis Clarke, William Stein) --- This ticket finishes off the job of porting Sage to Mac OS X 10.6. Previous versions of Sage also built on this platform, but had numerous doctest failures. At least on the machine `bsd.math`, which runs Mac OS X 10.6.2, all doctests pass.
+
+
+== Number theory ==
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7703 | #7703]]
+
 
 == Packages ==
 
@@ -335,6 +344,8 @@ This rewrite involves replacing the old implementation, which used multiprocessi
  * [[http://trac.sagemath.org/sage_trac/ticket/7692 | #7692]], [[http://trac.sagemath.org/sage_trac/ticket/7749 | #7749]] (Steven Sivek)
 
  * Upgrade [[http://maxima.sourceforge.net | Maxima]] to latest upstream release version 5.20.1 [[http://trac.sagemath.org/sage_trac/ticket/7745 | #7745]] (Karl-Dieter Crisman).
+
+ * Upgrade [[http://www.valgrind.org | Valgrind]] to upstream release 3.5.0 [[http://trac.sagemath.org/sage_trac/ticket/7440 | #7440]] (Tim Dumol).
 
  * Upgrade [[http://nb.sagemath.org | Sage Notebook]] to latest upstream release version 0.6 [[http://trac.sagemath.org/sage_trac/ticket/7785 | #7785]] (Tim Dumol and William Stein).
 
@@ -369,3 +380,7 @@ This rewrite involves replacing the old implementation, which used multiprocessi
  * Update [[http://mercurial.selenic.com | Mercurial]] to version 1.3.1.p1 [[http://trac.sagemath.org/sage_trac/ticket/7900 | #7900]] (David Kirkby).
  
  * Update [[http://pari.math.u-bordeaux.fr | Pari/GP]] to version 2.3.3.p7 [[http://trac.sagemath.org/sage_trac/ticket/7901 | #7901]] (David Kirkby).
+
+ * Update Fortran spkg to version 20100118 [[http://trac.sagemath.org/sage_trac/ticket/7485 | #7485]] (William Stein) --- With this update, Fortran is now a pre-requisite for building Sage on any platform, except for Mac OS X. This spkg update still ships Fortran binaries for Mac OS X.
+
+ * Remove dsage from the standard packages repository [[http://trac.sagemath.org/sage_trac/ticket/7975 | #7975]] (William Stein).
