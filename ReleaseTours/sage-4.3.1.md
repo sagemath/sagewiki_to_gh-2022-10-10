@@ -11,7 +11,37 @@
 
 == Algebra ==
 
- * Implement Chinese Remainder Theorem for polynomials, which is needed for general descents on curves: [[http://trac.sagemath.org/sage_trac/ticket/7595 | #7595]]
+ * Chinese Remainder Theorem for polynomials [[http://trac.sagemath.org/sage_trac/ticket/7595 | #7595]] (Robert Miller) -- An implementation of the Chinese Remainder Theorem is needed for general descents on elliptic curves. Here are some examples for polynomial rings:
+ {{{
+sage: K.<a> = NumberField(x^3 - 7)
+sage: R.<y> = K[]
+sage: f = y^2 + 3
+sage: g = y^3 - 5
+sage: CRT(1,3,f,g)
+-3/26*y^4 + 5/26*y^3 + 15/26*y + 53/26
+sage: CRT(1,a,f,g)
+(-3/52*a + 3/52)*y^4 + (5/52*a - 5/52)*y^3 + (15/52*a - 15/52)*y + 27/52*a + 25/52
+ }}}
+ This also works for any number of moduli:
+ {{{
+sage: K.<a> = NumberField(x^3 - 7)
+sage: R.<x> = K[]
+sage: CRT([], [])
+0
+sage: CRT([a], [x])
+a
+sage: f = x^2 + 3
+sage: g = x^3 - 5
+sage: h = x^5 + x^2 - 9
+sage: k = CRT([1, a, 3], [f, g, h]); k
+(127/26988*a - 5807/386828)*x^9 + (45/8996*a - 33677/1160484)*x^8 + (2/173*a - 6/173)*x^7 + (133/6747*a - 5373/96707)*x^6 + (-6/2249*a + 18584/290121)*x^5 + (-277/8996*a + 38847/386828)*x^4 + (-135/4498*a + 42673/193414)*x^3 + (-1005/8996*a + 470245/1160484)*x^2 + (-1215/8996*a + 141165/386828)*x + 621/8996*a + 836445/386828
+sage: k.mod(f)
+1
+sage: k.mod(g)
+a
+sage: k.mod(h)
+3
+ }}}
 
 
 == Basic arithmetics ==
