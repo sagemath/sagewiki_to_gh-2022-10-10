@@ -4,7 +4,7 @@
 
 == Major features ==
 
- * Substantial work towards a complete SPARC Solaris 10 port. This is due to the hard work of David Kirkby. The relevant tickets include [[http://trac.sagemath.org/sage_trac/ticket/6595 | #6595]], [[http://trac.sagemath.org/sage_trac/ticket/7067 | #7067]], [[http://trac.sagemath.org/sage_trac/ticket/7138 | #7138]], [[http://trac.sagemath.org/sage_trac/ticket/7162 | #7162]], [[http://trac.sagemath.org/sage_trac/ticket/7387 | #7387]], [[http://trac.sagemath.org/sage_trac/ticket/7505 | #7505]], [[http://trac.sagemath.org/sage_trac/ticket/7817 | #7817]].
+ * Substantial work towards a complete SPARC Solaris 10 port. This is due to the hard work of David Kirkby. The relevant tickets include [[http://trac.sagemath.org/sage_trac/ticket/6595 | #6595]], [[http://trac.sagemath.org/sage_trac/ticket/7067 | #7067]], [[http://trac.sagemath.org/sage_trac/ticket/7138 | #7138]], [[http://trac.sagemath.org/sage_trac/ticket/7162 | #7162]], [[http://trac.sagemath.org/sage_trac/ticket/7387 | #7387]], [[http://trac.sagemath.org/sage_trac/ticket/7505 | #7505]], [[http://trac.sagemath.org/sage_trac/ticket/7781 | #7781]], [[http://trac.sagemath.org/sage_trac/ticket/7815 | #7815]], [[http://trac.sagemath.org/sage_trac/ticket/7817 | #7817]], [[http://trac.sagemath.org/sage_trac/ticket/7849 | #7849]]
  
  * We're moving closer towards a FreeBSD port, thanks to the work of Peter Jeremy at ticket [[http://trac.sagemath.org/sage_trac/ticket/7825 | #7825]].
 
@@ -38,6 +38,7 @@ sage: RDF(5).conjugate()
 }}}
 
     will guarantee that self and other have the same parent before this method is called. 
+
 
 == Combinatorics ==
 
@@ -116,6 +117,9 @@ T1*T2*T1 + (q-1)*T3*T1 + q*T3
  * [[http://trac.sagemath.org/sage_trac/ticket/7753 | #7753]]
 
 The Bruhat order for Coxeter groups is now fully implemented.
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7145 | #7145]]
+
 
 == Elliptic curves ==
 
@@ -316,6 +320,10 @@ This rewrite involves replacing the old implementation, which used multiprocessi
 
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7740 | #7740]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7776 | #7776]]
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7781 | #7781]]
 
 
 == Packages ==
@@ -343,3 +351,21 @@ This rewrite involves replacing the old implementation, which used multiprocessi
  * [[http://trac.sagemath.org/sage_trac/ticket/7761 | #7761]]
  
  * [[http://trac.sagemath.org/sage_trac/ticket/7814 | #7814]]
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/7032 | #7032]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7815 | #7815]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7838 | #7838]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7849 | #7849]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7873 | #7873]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7898 | #7898]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7899 | #7899]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7900 | #7900]]
+ 
+ * [[http://trac.sagemath.org/sage_trac/ticket/7901 | #7901]]
