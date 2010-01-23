@@ -21,6 +21,8 @@ This is a rough sketch of ideas on guidelines for managing the Sage user and dev
 
  1. [[http://aseigo.blogspot.com/2009/01/building-community-around-your-foss.html | Building a community around your F/OSS project]] by Aaron J. Seigo
 
+ 1. [[http://www.ubuntu.com/community/participate | Get Involved]] from Ubuntu
+ 
 
 == Meritocracy ==
 
