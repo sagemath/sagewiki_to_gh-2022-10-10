@@ -215,3 +215,24 @@ def interactive_2d_plotter(expression=input_box('sin(x)', 'Expression', str), x_
             return
 }}}
 {{attachment:interactive_2d_plotting.png}}
+
+== Interact with matplotlib ==
+{{{
+# Simple example demonstrating how to interact with matplotlib directly.
+# Comment plt.clf() to get the plots overlay in each update.
+# Gokhan Sever & Harald Schilly (2010-01-24)
+
+from scipy import stats
+import numpy as np
+import matplotlib.pyplot as plt
+
+@interact
+def plot_norm(loc=(0,(0,10)), scale=(1,(1,10))):
+    rv = stats.norm(loc, scale)
+    x = np.linspace(-10,10,1000)
+    plt.plot(x,rv.pdf(x))
+    plt.grid(True)
+    plt.savefig('plt.png')
+    plt.clf()
+}}}
+{{attachment:matplotlib_interact.png}}
