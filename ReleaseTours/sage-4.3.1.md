@@ -57,7 +57,7 @@ sage: RDF(5).conjugate()
  }}}
 
 
- * Improvements to complex arithmetic-geometric mean [[http://trac.sagemath.org/sage_trac/ticket/7739 | #7739]] (Robert Bradshaw) --- Adds an `algorithm` option to the method `agm()` for complex numbers. The values of `algorithm` be can:
+ * Improvements to complex arithmetic-geometric mean for real and complex double fields  [[http://trac.sagemath.org/sage_trac/ticket/7739 | #7739]] (Robert Bradshaw, John Cremona) --- Adds an `algorithm` option to the method `agm()` for complex numbers. The values of `algorithm` be can:
   * "pari" --- Call the agm function from the Pari library.
   * "optimal" --- Use the AGM sequence such that at each stage `(a,b)` is replaced by `(a_1,b_1) = ((a+b)/2,\pm\sqrt{ab})` where the sign is chosen so that `|a_1-b_1| \le |a_1+b_1|`, or equivalently `\Re(b_1/a_1)\ge0`. The resulting limit is maximal among all possible values.
   * "principal" --- Use the AGM sequence such that at each stage `(a,b)` is replaced by `(a_1,b_1) = ((a+b)/2,\pm\sqrt{ab})` where the sign is chosen so that `\Re(b_1/a_1)\ge0` (the so-called principal branch of the square root).
@@ -72,7 +72,7 @@ sage: a.agm(b, algorithm="principal")
 sage: a.agm(b, algorithm="pari")
 0.080689185076 + 0.239036532686*I
  }}}
-
+The same thing for multiprecision real and complex numbers has also been implemented [[http://trac.sagemath.org/sage_trac/ticket/7719 | #7719]] and will be in the next release.
 
  * New decorator `coerce_binop` [[http://trac.sagemath.org/sage_trac/ticket/383 | #383]] (Robert Bradshaw) --- The new decroator `coerce_binop`  can be applied to methods to ensure the arguments have the same parent. For example
  {{{
