@@ -44,7 +44,7 @@ sage: k.mod(h)
  }}}
 
 
-== Basic arithmetics ==
+== Basic arithmetic ==
 
  * Implement `conjugate()` for `RealDoubleElement` [[http://trac.sagemath.org/sage_trac/ticket/7834 | #7834]] (Dag Sverre Seljebotn) --- New method `conjugate()` in the class `RealDoubleElement` of the module `sage/rings/real_double.pyx` for returning the complex conjugate of a real number. This is consistent with `conjugate()` methods in `ZZ` and `RR`. For example,
  {{{
