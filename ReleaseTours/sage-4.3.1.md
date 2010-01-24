@@ -311,6 +311,22 @@ sage: E.isogenies_prime_degree(2)
 sage: E.isogenies_prime_degree(3)
 [Isogeny of degree 3 from Elliptic Curve defined by y^2 + x*y + y = x^3 + 4*x + (-6) over Number Field in e with defining polynomial x^2 - 2 to Elliptic Curve defined by y^2 + x*y + y = x^3 + (-171)*x + (-874) over Number Field in e with defining polynomial x^2 - 2, Isogeny of degree 3 from Elliptic Curve defined by y^2 + x*y + y = x^3 + 4*x + (-6) over Number Field in e with defining polynomial x^2 - 2 to Elliptic Curve defined by y^2 + x*y + y = x^3 + (-128/3)*x + 5662/27 over Number Field in e with defining polynomial x^2 - 2]
  }}}
+For elliptic curves over `QQ` we can find the complete isogeny class (previously this functionality was provided by the eclib library, but now it is native in Sage, which avoids the precision problems of the library version).  The list of isogenous curves is returned, as well as a matrix of the degrees of the isogenies between them:
+{{{
+sage: EllipticCurve('14a1').isogeny_class()
+([Elliptic Curve defined by y^2 + x*y + y = x^3 + 4*x - 6 over Rational Field, Elliptic Curve defined by y^2 + x*y + y = x^3 - 36*x - 70 over Rational Field, Elliptic Curve defined by y^2 + x*y + y = x^3 - x over Rational Field, Elliptic Curve defined by y^2 + x*y + y = x^3 - 171*x - 874 over Rational Field, Elliptic Curve defined by y^2 + x*y + y = x^3 - 11*x + 12 over Rational Field, Elliptic Curve defined by y^2 + x*y + y = x^3 - 2731*x - 55146 over Rational Field], [ 1  2  3  3  6  6]
+[ 2  1  6  6  3  3]
+[ 3  6  1  9  2 18]
+[ 3  6  9  1 18  2]
+[ 6  3  2 18  1  9]
+[ 6  3 18  2  9  1])
+}}}
+
+{{{
+sage: EllipticCurve(j=-640320^3).isogeny_class()
+([Elliptic Curve defined by y^2 + y = x^3 - 2174420*x + 1234136692 over Rational Field, Elliptic Curve defined by y^2 + y = x^3 - 57772164980*x - 5344733777551611 over Rational Field], [  1 163]
+[163   1])
+}}}
 
 
 == Graph theory ==
