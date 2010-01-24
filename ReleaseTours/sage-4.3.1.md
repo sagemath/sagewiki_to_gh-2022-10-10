@@ -462,7 +462,7 @@ This rewrite involves replacing the old implementation, which used multiprocessi
 
 == Number theory ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7703 | #7703]]
+ * S-units, S-class groups, and selmer groups of etale algebras (and number fields) [[http://trac.sagemath.org/sage_trac/ticket/7703 | #7703]] (Robert Miller)
 
 
 == Packages ==
@@ -491,7 +491,7 @@ This rewrite involves replacing the old implementation, which used multiprocessi
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7761 | #7761]]
 
- * Small change to elcib build script (eclib ignores SAGE64 if OS is not Darwin) [[http://trac.sagemath.org/sage_trac/ticket/7814 | #7814]]
+ * Small change to eclib build script (eclib ignores SAGE64 if OS is not Darwin) [[http://trac.sagemath.org/sage_trac/ticket/7814 | #7814]]
 
  * Update [[http://www.algorithm.uni-bayreuth.de/en/research/SYMMETRICA | Symmetrica]] to version 2.0.p5 [[http://trac.sagemath.org/sage_trac/ticket/7032 | #7032]] (David Kirkby).
 
