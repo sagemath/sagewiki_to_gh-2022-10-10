@@ -467,7 +467,7 @@ Wall time: 2.28 s
 This rewrite involves replacing the old implementation, which used multiprocessing (or Dsage), by a new one which uses the fork system call (it's about 2 pages of code written using only basic Python).
 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7740 | #7740]]
+ * Speed up MixedIntegerLinearProgram [[http://trac.sagemath.org/sage_trac/ticket/7740 | #7740]] (Nathann Cohen) --- this patch replaces the use of ``InfinitePolynomialRing`` and ``var`` in ``MixedIntegerLinearProgram`` by a new symbolic class dedicated to linear functions. This only takes several lines of code and greatly improves the speed. To this is added a new way to define linear constraints using comparators : ``<, <=, ==, >=, >``.
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7776 | #7776]]
 
