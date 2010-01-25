@@ -379,7 +379,7 @@ show(H, figsize=[8,8])
  {{attachment:tower-hanoi-graph.png}}
 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7292 | #7292]]
+ * Max Vertex/Edge disjoint st-paths [[http://trac.sagemath.org/sage_trac/ticket/7292 | #7292]] (Nathann Cohen) --- Given a graph and two vertices `u` and `v`, the maximum flow between `u` and `v` is equal to the maximum number of edge-disjoint paths between the two vertices (there is also an equivalent vertex version of this result). This patch adds functions ``Graph.edge_disjoint_paths`` and ``Graph.vertex_disjoint_paths`` that returns paths, which appear wuite often in graph algorithms.
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7590 | #7590]]
 
