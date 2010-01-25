@@ -381,7 +381,7 @@ show(H, figsize=[8,8])
 
  * Max Vertex/Edge disjoint st-paths [[http://trac.sagemath.org/sage_trac/ticket/7292 | #7292]] (Nathann Cohen) --- Given a graph and two vertices `u` and `v`, the maximum flow between `u` and `v` is equal to the maximum number of edge-disjoint paths between the two vertices (there is also an equivalent vertex version of this result). This patch adds functions ``Graph.edge_disjoint_paths`` and ``Graph.vertex_disjoint_paths`` that returns paths, which appear wuite often in graph algorithms.
 
- * [[http://trac.sagemath.org/sage_trac/ticket/7590 | #7590]]
+ * Create Bipartite Graph according to 2 degree sequences [[http://trac.sagemath.org/sage_trac/ticket/7590 | #7590]] (Nathann Cohen) --- Thanks to the new implementation of the Gale Ryser theorem [[http://trac.sagemath.org/sage_trac/ticket/7301 | #7301]], Sage can now create, given 2 degree sequences, a bipartite graph such that the degree sequences of the two sets are the ones given in argument, or answer that there exists no such graph.
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7634 | #7634]]
 
