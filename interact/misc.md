@@ -32,9 +32,7 @@ def sinsound(freq_ratio =  slider(0,1,1/144,1/12)):
     s2 = [sin(hz1*x*mypi*2)+sin(hz2*x*mypi*2) for x in srange(0,4,1/44100.0)]
     s2m = max(s2)
     s2f = [16384*x/s2m for x in s2]
-    s2str = ''
-    for x in s2f:
-        s2str += wave.struct.pack('h',x)
+    s2str = ''.join(wave.struct.pack('h',x) for x in s2f)
     lab="%1.2f"%float(freq_ratio)
     f = SoundFile(s2str,lab=lab)
     f.write()
@@ -59,10 +57,10 @@ def g(s): return set(str(s).replace(',',' ').split())
 def _(X='1,2,3,a', Y='2,a,3,4,apple', Z='a,b,10,apple'):
     S = [g(X), g(Y), g(Z)]
     X,Y,Z = S
-    XY = X.intersection(Y)
-    XZ = X.intersection(Z)
-    YZ = Y.intersection(Z)
-    XYZ = XY.intersection(Z)
+    XY = X & Y
+    XZ = X & Z
+    YZ = Y & Z
+    XYZ = XY & Z
     html('<center>')
     html("$X \cap Y$ = %s"%f(XY))
     html("$X \cap Z$ = %s"%f(XZ))
@@ -89,7 +87,7 @@ def _(X='1,2,3,a', Y='2,a,3,4,apple', Z='a,b,10,apple'):
 
     # Plot pairs of intersections
     for i in range(len(S)):
-        Z = set(S[i]).intersection(S[(i+1)%3]).difference(set(XYZ))
+        Z = (set(S[i]) & S[(i+1)%3]) - set(XYZ)
         C = (1.3*cos(i*2*pi/3 + pi/3), 1.3*sin(i*2*pi/3 + pi/3))
         G += text(f(Z,braces=False), C, rgbcolor='black')
 
@@ -225,22 +223,22 @@ def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), y
     edge_lines = Graphics()
     verts = p12poly.vertices()
     for an_edge in p12poly.vertex_adjacencies():
-        edge_lines = edge_lines + line([verts[an_edge[0]], verts[an_edge[1][0]]])
-        edge_lines = edge_lines + line([verts[an_edge[0]], verts[an_edge[1][1]]])
+        edge_lines += line([verts[an_edge[0]], verts[an_edge[1][0]]])
+        edge_lines += line([verts[an_edge[0]], verts[an_edge[1][1]]])
     triangle_sum = Graphics()
     for vert in kite_list:
         temp_list = []
         for q in t_list:
             temp_list.append([q[i] + vert[i] for i in range(len(t_list[0]))])
-        triangle_sum = triangle_sum + polygon(temp_list, alpha = .5, rgbcolor = (1,0,0))
+        triangle_sum += polygon(temp_list, alpha = .5, rgbcolor = (1,0,0))
     kite_sum = Graphics()
     for vert in t_list:
         temp_list = []
         for q in kite_list:
             temp_list.append([q[i] + vert[i] for i in range(len(t_list[0]))])
-        kite_sum = kite_sum + polygon(temp_list, alpha = .3,rgbcolor = (0,0,1))
+        kite_sum += polygon(temp_list, alpha = .3,rgbcolor = (0,0,1))
     labels = text('+', (-4.3,.5), rgbcolor = (0,0,0))
-    labels = labels + text('=', (-.2,.5), rgbcolor = (0,0,0))
+    labels += text('=', (-.2,.5), rgbcolor = (0,0,0))
     show(labels + t_vert + b_vert+ triangle + kite + triangle_sum + kite_sum + edge_lines, axes=False, figsize = [11.0*.7, 4*.7], xmin = -6, ymin = 0, ymax = 4)
 }}}
 {{attachment:minksum.png}}
@@ -270,7 +268,7 @@ def cellular(rule, int N):
 }}}
 {{{
 def num2rule(number):
-    if not (0 <= number <= 255):
+    if not 0 <= number <= 255:
         raise Exception('Invalid rule number')
     binary_digits = number.digits(base=2)
     return binary_digits + [0]*(8-len(binary_digits))
