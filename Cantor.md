@@ -16,22 +16,15 @@ Cantor is a front-end for many mathematical software applications like Sage, Max
  * Plugin based assistant dialogs for common tasks (like integrating a function or entering a matrix)
 
 = Install Cantor =
-Cantor depends upon kdelibs, so in order to build Cantor, you must have kdelibs devel files.
+''' ''Cantor depends upon kdelibs, so in order to build Cantor, you must have kdelibs development files.'' '''
 
  * First obtain the sources
-{{{#!highlight python
+{{{
 svn co svn://anonsvn.kde.org/home/kde/trunk/KDE/kdeedu/cantor
 }}}
 
-
-{{{
-
-sadasd
-asdasd
-}}}
-
  * Replace the the content of ''cantor/CMakeLists.txt'' with this
-{{{#!highlight python
+{{{
 project(cantor)
 
 # search packages used by KDE
@@ -73,7 +66,7 @@ add_subdirectory( tests )
 }}}
 
  * Type this 4 commands:
-{{{#!highlight python
+{{{
 cd cantor
 mkdir build
 cd build
@@ -82,12 +75,12 @@ cmake ../
 
 You can choose where to install with this param DCMAKE_INSTALL_PREFIX For example: 
 
-{{{#!highlight python
+{{{
 cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../
 }}}
 
  * Type this command
-{{{#!highlight python
+{{{
 make install
 }}}
 
