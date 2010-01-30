@@ -27,7 +27,7 @@ If you have a Linux box, then you can install the kdelibs-devel package from you
 svn co svn://anonsvn.kde.org/home/kde/trunk/KDE/kdeedu/cantor
 }}}
 
- 1. Replace the the content of ''cantor/CMakeLists.txt'' with this
+ 2. Replace the the content of ''cantor/CMakeLists.txt'' with this
 {{{
 project(cantor)
 
@@ -69,7 +69,7 @@ add_subdirectory( icons )
 add_subdirectory( tests )
 }}}
 
- 1. Type this 4 commands:
+ 3. Type this 4 commands:
 {{{
 cd cantor
 mkdir build
@@ -83,7 +83,7 @@ You can choose where to install with this param DCMAKE_INSTALL_PREFIX For exampl
 cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../
 }}}
 
- 1. Type this command
+ 4. Type this command
 {{{
 make install
 }}}
