@@ -1,4 +1,4 @@
-goto [[tips|main page]]
+goto [[tips]]
 
 <<TableOfContents>>
 
