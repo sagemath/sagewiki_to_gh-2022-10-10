@@ -15,6 +15,18 @@ Cantor is a front-end for many mathematical software applications like Sage, Max
  * Backend aware syntax highlighting
  * Plugin based assistant dialogs for common tasks (like integrating a function or entering a matrix)
 
+= Install Cantor at Ubuntu Karmic =
+
+For ubuntu karmic you just 3 commands in a terminal:
+
+sudo add-apt-repository ppa:kubuntu-ppa/beta
+sudo apt-get update
+sudo apt-get install cantor
+
+It will update all the KDE-packages to version 4.4, but this is useful for having no troubles with cantor.
+
+
+
 = Build and Install Cantor =
 ''Cantor depends upon kdelibs, so in order to build Cantor, you must have kdelibs development files.''
 
