@@ -1,5 +1,11 @@
 = Cantor =
-Cantor is an application that lets you use your favorite mathematical applications from within a nice KDE-integrated Worksheet Interface. It offers assistant dialogs for common tasks and allows you to share your worksheets with others. Cantor is a front-end for many mathematical software applications like Sage, Maxima, R and KAlgebra.
+
+goto [[interact|interact main page]]
+
+<<TableOfContents>>
+
+= Cantor, a Sage Front-end=
+Cantor is a front-end for many mathematical software applications like Sage, Maxima, R and KAlgebra. Cantor lets you use your favorite mathematical applications from within a nice KDE-integrated Worksheet Interface. It offers assistant dialogs for common tasks and allows you to share your worksheets with others.
 
 Cantor's main features are:
  * Nice Worksheet view for evaluating expressions
