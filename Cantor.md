@@ -65,25 +65,22 @@ add_subdirectory( tests )
 
  * Type this 4 commands:
 {{{#!highlight python
-def hello():
-''cd cantor''
-''mkdir build''
-''cd build''
-''cmake ../''
+cd cantor
+mkdir build
+cd build
+cmake ../
 }}}
 
 You can choose where to install with this param DCMAKE_INSTALL_PREFIX For example: 
 
 {{{#!highlight python
-''cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../''
+cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../
 }}}
 
  * Type this command
-
-
-<code>
+{{{#!highlight python
 make install
-</code>
+}}}
 
 = Using Sage with Cantor =
  * Worksheet managment ...
