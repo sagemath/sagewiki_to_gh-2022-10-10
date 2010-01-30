@@ -93,7 +93,7 @@ make install
 }}}
 
 = Using Sage with Cantor =
- * Worksheet managment ...
+ * Worksheet management ...
 
 = Links =
  * Official Site - http://edu.kde.org/cantor/ 
