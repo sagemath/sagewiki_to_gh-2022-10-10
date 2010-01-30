@@ -15,8 +15,8 @@ Cantor is a front-end for many mathematical software applications like Sage, Max
  * Backend aware syntax highlighting
  * Plugin based assistant dialogs for common tasks (like integrating a function or entering a matrix)
 
-= Install Cantor =
-Cantor depends upon kdelibs, so in order to build Cantor, you must have kdelibs development files.
+= Build and Install Cantor =
+''Cantor depends upon kdelibs, so in order to build Cantor, you must have kdelibs development files.''
 
 If you have a Linux box, then you can install the kdelibs-devel package from your distribution. If you have windows, then you can use [[http://windows.kde.org/|The KDE on Windows Project]], please note that there is already a Cantor.exe ported to windows, so is not necesary build the application. Otherwise, you can [[http://techbase.kde.org/Getting_Started/Build/KDE4#kdelibs|build and install kdelibs from sources]].
 
