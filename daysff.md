@@ -4,7 +4,7 @@ Organizers:  William Stein, Chris Hall, Craig Citro, Salman Baig
 
 Location: The [[http://www.shueyhouse.com/|Shuey House]], Seattle, WA
 
-Dates: May 17 - 21, 2010 (check in on May 16th, check out on May 22nd)
+Dates: May 24 - 28, 2010 (check in on May 16th, check out on May 22nd)
 
 == Tentative Participants ==
 
