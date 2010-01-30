@@ -31,18 +31,14 @@ czzxc zxcz
 http://pastebin.com/m28be29f
 
  * Type this 4 commands:
+cd cantor
+mkdir build
+cd build
+cmake ../
 
- cd cantor
+You can choose where to install with this param DCMAKE_INSTALL_PREFIX For example: 
 
- mkdir build
-
- cd build
-
- cmake ../
-
- You can choose where to install with this param DCMAKE_INSTALL_PREFIX For example: 
-
- cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../
+cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../
 
  * Type this command
 
