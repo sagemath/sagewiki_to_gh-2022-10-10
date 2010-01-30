@@ -25,7 +25,6 @@ svn co svn://anonsvn.kde.org/home/kde/trunk/KDE/kdeedu/cantor
 {{{#!highlight python
 project(cantor)
 
-
 # search packages used by KDE
 find_package(KDE4 4.3.80 REQUIRED)
 if(WIN32)
@@ -43,8 +42,6 @@ endif(WIN32)
 
 include(KDE4Defaults)
 include(MacroLibrary)
-
-
 
 if(NOT WIN32)
   macro_optional_find_package(LibSpectre)
@@ -66,20 +63,23 @@ add_subdirectory( icons )
 add_subdirectory( tests )
 }}}
 
-
-http://pastebin.com/m28be29f
-
  * Type this 4 commands:
+{{{#!highlight python
+def hello():
 ''cd cantor''
 ''mkdir build''
 ''cd build''
 ''cmake ../''
+}}}
 
 You can choose where to install with this param DCMAKE_INSTALL_PREFIX For example: 
 
-cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../
+{{{#!highlight python
+''cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../''
+}}}
 
  * Type this command
+
 
 <code>
 make install
