@@ -63,6 +63,12 @@ A basic install might include the following Emacs Lisp in your .emacs:
 ;; 'sage-view-disable-inline-output 'sage-view-disable-inline-plots)
 ;; to have some combination of features.  In future, the customize interface
 ;; will make this simpler... hint, hint!
+
+(add-hook 'sage-mode-hook
+      '(lambda () ; taken from http://www.cs.caltech.edu/courses/cs11/material/python/misc/python_style_guide.html#TABS
+	 (set-variable 'py-indent-offset 4)
+	 (set-variable 'py-smart-indentation nil)
+	 (set-variable 'indent-tabs-mode nil) ))
 }}}
 
 == Changelog ==
