@@ -22,7 +22,7 @@ Here a way to build only cantor ;)
 svn co svn://anonsvn.kde.org/home/kde/trunk/KDE/kdeedu/cantor
 
  * Replace the the content of cantor/CMakeLists.txt with this
-{{{#!highlight c++
+{{{#!highlight python
 project(cantor)
 
 
