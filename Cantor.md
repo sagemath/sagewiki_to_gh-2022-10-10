@@ -2,6 +2,11 @@ goto [[Tips]]
 
 <<TableOfContents>>
 
+ 1. item 1
+   1. item 1.1
+   1. item 1.2
+ 1. item 2
+
 = Cantor =
 
 Cantor is a front-end for many mathematical software applications like Sage, Maxima, R and KAlgebra. Cantor belongs to [[http://edu.kde.org/|The KDE Education Project]] and lets you use your favorite mathematical applications from within a nice KDE-integrated Worksheet Interface. It offers assistant dialogs for common tasks and allows you to share your worksheets with others.
