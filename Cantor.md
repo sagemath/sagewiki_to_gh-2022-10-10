@@ -22,12 +22,12 @@ If you have a Linux box, then you can install the kdelibs-devel package from you
 
 ''' ''The following steps can be used to build Cantor for a Linux distribution.'' '''
 
-1. First obtain the sources
+ 1. First obtain the sources
 {{{
 svn co svn://anonsvn.kde.org/home/kde/trunk/KDE/kdeedu/cantor
 }}}
 
-1. Replace the the content of ''cantor/CMakeLists.txt'' with this
+ 1. Replace the the content of ''cantor/CMakeLists.txt'' with this
 {{{
 project(cantor)
 
@@ -69,7 +69,7 @@ add_subdirectory( icons )
 add_subdirectory( tests )
 }}}
 
- * Type this 4 commands:
+ 1. Type this 4 commands:
 {{{
 cd cantor
 mkdir build
