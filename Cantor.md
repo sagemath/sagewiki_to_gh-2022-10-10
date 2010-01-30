@@ -20,12 +20,14 @@ Cantor depends upon kdelibs, so in order to build Cantor, you must have kdelibs 
 
 If you have a Linux box, then you can install the kdelibs-devel package from your distribution. If you have windows, then you can use [[http://windows.kde.org/|The KDE on Windows Project]], please note that there is already a Cantor.exe ported to windows, so is not necesary build the application. Otherwise, you can [[http://techbase.kde.org/Getting_Started/Build/KDE4#kdelibs|build and install kdelibs from sources]].
 
- * First obtain the sources
+''' ''The following steps can be used to build Cantor for a Linux distribution.'' '''
+
+1. First obtain the sources
 {{{
 svn co svn://anonsvn.kde.org/home/kde/trunk/KDE/kdeedu/cantor
 }}}
 
- * Replace the the content of ''cantor/CMakeLists.txt'' with this
+1. Replace the the content of ''cantor/CMakeLists.txt'' with this
 {{{
 project(cantor)
 
@@ -81,7 +83,7 @@ You can choose where to install with this param DCMAKE_INSTALL_PREFIX For exampl
 cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../
 }}}
 
- * Type this command
+1. Type this command
 {{{
 make install
 }}}
