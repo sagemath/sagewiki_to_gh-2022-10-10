@@ -16,36 +16,37 @@ Cantor is a front-end for many mathematical software applications like Sage, Max
  * Plugin based assistant dialogs for common tasks (like integrating a function or entering a matrix)
 
 = Install Cantor =
- * [[daysmarseille|Sage Days 20]] -- Marseille, France (February 22-26, 2010); theme: Combinatorics
- * [[http://www.fields.utoronto.ca/programs/scientific/09-10/sage/index.html|Sage Days 20.5]] -- Toronto, Canada (May 3-7, 2010); theme: Algebraic Combinatorics, 
-
 Here a way to build only cantor ;)
 
-1- First obtain the sources
-... See More
+ * First obtain the sources
 svn co svn://anonsvn.kde.org/home/kde/trunk/KDE/kdeedu/cantor
 
-2- Replace the the content of cantor/CMakeLists.txt with this
+ * Replace the the content of cantor/CMakeLists.txt with this
+
+<pre>
+czzxc zxcz
+</pre>
+
 
 http://pastebin.com/m28be29f
 
-3- Type this 4 commands
-
+ * Type this 4 commands
+<code>
 cd cantor
 mkdir build
 cd build
 cmake ../
+</code>
 
 You can choose where to install with this param DCMAKE_INSTALL_PREFIX
 For example:
 cmake -DCMAKE_INSTALL_PREFIX=/usr/ ../
 
-4- Type this command
+ * Type this command
 
+<code>
 make install
-
-
-
+</code>
 
 = Using Sage with Cantor =
  * Worksheet managment ...
