@@ -45,3 +45,13 @@ sage: notebook(directory="/tmp/test.sagenb")
   * Open worksheet 0, execute a cell or two, find link to worksheet 1.
   * Follow link to worksheet 1, execute some cells here too.
   * [[attachment:link-worksheets.tar.gz | Archive (described above)]] [[attachment:link-worksheets.py | Python generation script]]
+
+ * Textbook Section Experiment (2010/01/30)<<BR>>
+ This is a straight conversion of a math-heavy section from Beezer's linear algebra text.
+  * The original tex4ht output is at [[http://linear.ups.edu/jsmath/0220/fcla-jsmath-2.20li35.html#x36-143000 | FCLA Section FS in jsMath]]
+  which seems to render just fine for me.
+  * Worksheet below is a straight conversion as in the Group Theory demo above, but has at least three problems:
+    1. Graphic is not being picked up (easy to fix in parsing script).
+    2. Some formatting (like matrix brackets) not rendering right.
+    3. Links in theorems use {{{\text{@(a href="#definition.LNS")Definition LNS@(/a)}}}} construct which is broken in notebook, and is a mystery to me at the moment.
+  * 
