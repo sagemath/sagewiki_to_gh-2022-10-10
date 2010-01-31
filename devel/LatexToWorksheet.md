@@ -15,5 +15,5 @@ Then open your notebook, click the "Upload" link near the upper-left and then pa
 
  * Group Theory Primer (2010/01/30)<<BR>>
    Lots of simple Sage code, some simple mathematics, one interact (search for "@interact")<<BR>>
-   Best working demo<<BR>>
+   Best working demo (though it lacks a title)<<BR>>
    [[attachment:sage-group-theory-primer.sws | Worksheet]] [[attachment:sage-group-theory-primer.sws | Source]]
