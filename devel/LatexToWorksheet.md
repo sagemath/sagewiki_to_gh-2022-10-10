@@ -60,6 +60,13 @@ sage: notebook(directory="/tmp/test.sagenb")
     3. Links in theorems use {{{\text{@(a href="#definition.LNS")Definition LNS@(/a)}}}} construct which is broken in notebook, and is a mystery to me at the moment.
   * [[attachment:math-stress-test.sws | Worksheet]]
 
+== tex4ht ==
+
+This is a list of known configurations of tex4ht that seem to work:
+ * "tex4ht is part of the standard mactex distribution" (Dana Ernst, 2010/01/29)
+ * "TeXLive 2009  (separate from Ubuntu package manager) includes its own little package manager ('tlmgr') and I used that to install tex4ht" (Dan Drake, 2010/01/30)
+ * Ubuntu/Kubuntu/Debian:  Untested,  (K)Ubuntu Karmic 2009/05/21, Debian stable 2008/07/01, Debian testing 2009/06/11
+
 == The 20% Defying Categorization ==
 
  * tikz graphics generation with tex4ht?<<BR>>
