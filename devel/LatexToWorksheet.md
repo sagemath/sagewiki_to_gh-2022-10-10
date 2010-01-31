@@ -8,7 +8,11 @@ Rob Beezer, beezer@ups.edu, rbeezer on #sage-devel IRC
 == Links ==
 
  * [[http://trac.sagemath.org/sage_trac/ticket/8105 | Trac Ticket 8105]]  Contains project snapshots, links to other tickets
- * Bitbucket repo coming
+ * [[http://bitbucket.org/rbeezer/tex2sws/ | Mercurial Repository @BitBucket ]]<<BR>>
+ Clone using:  
+ {{{
+ hg clone https://rbeezer@bitbucket.org/rbeezer/tex2sws/
+ }}}
 
 == Examples ==
 
