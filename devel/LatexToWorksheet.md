@@ -16,32 +16,32 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
 
  * Group Theory Primer (2010/01/28)<<BR>>
-   Lots of simple Sage code, some simple mathematics, one interact (search for "@interact")<<BR>>
-   Best working demo (though it lacks a title)<<BR>>
-   [[attachment:sage-group-theory-primer.sws | Worksheet]] [[attachment:sage-group-theory-primer.sws | Source]]
+ Lots of simple Sage code, some simple mathematics, one interact (search for "@interact")<<BR>>
+ Best working demo (though it lacks a title)<<BR>>
+ [[attachment:sage-group-theory-primer.sws | Worksheet]] [[attachment:sage-group-theory-primer.sws | Source]]
 
  * Linked Worksheets (2010/01/30)<<BR>>
-   A simple manufactured example of cross-worksheet linking.<<BR>
-   * Fire up Sage, then create a new, temporary notebook with the user "link"
-   {{{
+ A simple manufactured example of cross-worksheet linking.
+  * Fire up Sage, then create a new, temporary notebook with the user "link"
+  {{{
 sage: from sagenb.notebook.notebook import Notebook
 sage: nb = Notebook('/tmp/test.sagenb')
 sage: nb.add_user('link', 'link', '', force=True)
 sage: nb.save()
 sage: exit
-   }}}
-   * At system command-line extract archive (below) to create the worksheets with numbers 0 and 1 in link's space.
-   {{{
+  }}}
+  * At system command-line extract archive (below) to create the worksheets with numbers 0 and 1 in link's space.
+  {{{
 $ cd /tmp/test.sagenb/home
 $ tar -xvf <path-to>/link-worksheets.tar.gz
-   }}}
-   * Fire up Sage to start a notebook session in the temporary notebook:
-   {{{
+  }}}
+  * Fire up Sage to start a notebook session in the temporary notebook:
+  {{{
 sage: notebook(directory="/tmp/test.sagenb")
-   }}}
-   * You may need to create an admin password (do it).
-   You may see the worksheets, but be logged in as admin.<<BR>>
-   If needed, be certain to login as "link" with password "link."<<BR>>
-   * Open worksheet 0, execute a cell or two, find link to worksheet 1.
-   * Follow link to worksheet 1, execute some cells here too.
-   * [[attachment:link-worksheets.tar.gz | Archive (described above)]] [[attachment:link-worksheets.py | Python generation script]]
+  }}}
+  * You may need to create an admin password (do it).
+  You may see the worksheets, but be logged in as admin.<<BR>>
+  If needed, be certain to login as "link" with password "link."<<BR>>
+  * Open worksheet 0, execute a cell or two, find link to worksheet 1.
+  * Follow link to worksheet 1, execute some cells here too.
+  * [[attachment:link-worksheets.tar.gz | Archive (described above)]] [[attachment:link-worksheets.py | Python generation script]]
