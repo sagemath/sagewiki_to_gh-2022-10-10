@@ -10,6 +10,9 @@ Latex documents can be translated to jsMath, the tool used to render mathematics
 
 == Examples ==
 
+To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.<<BR>>
+Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
+
  * Group Theory Primer (2010/01/30)<<BR>>
    Lots of simple Sage code, some simple mathematics, one interact (search for "@interact")<<BR>>
    Best working demo<<BR>>
