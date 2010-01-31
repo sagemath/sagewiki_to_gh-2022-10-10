@@ -59,3 +59,9 @@ sage: notebook(directory="/tmp/test.sagenb")
     2. Some formatting (like matrix brackets) not rendering right.
     3. Links in theorems use {{{\text{@(a href="#definition.LNS")Definition LNS@(/a)}}}} construct which is broken in notebook, and is a mystery to me at the moment.
   * [[attachment:math-stress-test.sws | Worksheet]]
+
+== The 20% Defying Categorization ==
+
+ * tikz graphics generation with tex4ht?<<BR>>
+   [[http://old.nabble.com/Using-pgfsys-tex4ht.def-to-make-svg-output-td16685147.html | Mailing list discussion]]<<BR>>
+   [[http://en.wikipedia.org/wiki/File:Circle_graph.svg | Resultant Example]]
