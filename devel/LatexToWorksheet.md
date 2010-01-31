@@ -54,4 +54,4 @@ sage: notebook(directory="/tmp/test.sagenb")
     1. Graphic is not being picked up (easy to fix in parsing script).
     2. Some formatting (like matrix brackets) not rendering right.
     3. Links in theorems use {{{\text{@(a href="#definition.LNS")Definition LNS@(/a)}}}} construct which is broken in notebook, and is a mystery to me at the moment.
-  * 
+  * [[attachment:math-stress-test.sws | Worksheet]]
