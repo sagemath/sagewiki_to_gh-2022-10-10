@@ -7,7 +7,8 @@ Rob Beezer, beezer@ups.edu, rbeezer on #sage-devel IRC
 
 == Links ==
 
-[[http://trac.sagemath.org/sage_trac/ticket/8105 | Trac Ticket 8105]]  Contains project snapshots, links to other tickets
+ * [[http://trac.sagemath.org/sage_trac/ticket/8105 | Trac Ticket 8105]]  Contains project snapshots, links to other tickets
+ * Bitbucket repo coming
 
 == Examples ==
 
@@ -43,3 +44,4 @@ sage: notebook(directory="/tmp/test.sagenb")
    If needed, be certain to login as "link" with password "link."<<BR>>
    * Open worksheet 0, execute a cell or two, find link to worksheet 1.
    * Follow link to worksheet 1, execute some cells here too.
+   * [[attachment:link-worksheets.tar.gz | Archive (described above)]] [[attachment:link-worksheets.py | Python generation script]]
