@@ -12,7 +12,8 @@ If you are using another debian (Knoppix...) and you have a debian sagemath vers
 
 
 == After starting the ubuntu live system ==
-
+ 
+ 1. Connect to the internet, top right is a button near the speaker symbol (for problems ask your local ubuntu community) 
  1. Open a terminal:
    * press '''Alt+F2'''
    * type: '''gnome-terminal'''
@@ -37,4 +38,3 @@ If you are using another debian (Knoppix...) and you have a debian sagemath vers
    * type: '''/usr/local/sage-X.Y.Z/sage --notebook''' Tip: You can use the TAB key here as well
    * type an admin password if you want
    * the firefox with the sagemath should open now
-
