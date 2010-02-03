@@ -30,7 +30,7 @@ If you are using another debian (Knoppix...) and you have a debian sagemath vers
    * now you know the path to the image file
    * go back to the terminal
    * our path is '''/media/8cki5t''' for example:  '''cd /me''' press TAB-key '''8ck''' TAB-key again until there is written '''cd /media/8cki5t'''
- 1. mount the image file
+ 1. mount the image file (more information [[UsingSquashFS]])
    * type: '''makedir /usr/local/sage-X.Y.Z''' where X.Y.Z ist the version number written in the sagemath image file name
    * type: '''mount -o loop -t squashfs sage-X.Y.Z.sqfs /usr/local/sage-X.Y.Z''' Tip: You can use the TAB key while typing the mount command as well
  1. start sagemath
