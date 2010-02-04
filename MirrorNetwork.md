@@ -11,7 +11,7 @@ This is a collection of notes on how the [[http://www.sagemath.org/mirrors.html|
 
 To synchronize with Sage's master, you can use this command:
 {{{
-rsync -av --delete-after sage.math.washington.edu::sage $TARGET
+rsync -av --delete-after boxen.math.washington.edu::sage $TARGET
 }}}
 where {{{$TARGET}}} should be replaced by your local target directory.
 
