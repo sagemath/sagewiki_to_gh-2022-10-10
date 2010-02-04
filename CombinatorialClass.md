@@ -2,6 +2,21 @@
 
 There are a lot of design issues which concern combinatorial classes. I'd like to discuss them here. The following are mostly notes from discussion with Nicolas. Once fixed, this material should end up in the doc of CombinatorialClass (I volunteer for this -Florent). Please add comments anywhere.
 
+= IMPORTANT NOTE : most of this content is outdated see here =
+
+The decision was the following:
+
+Rename combinatorial class enumerated set and to make them parents as any sage sets. As any sage parent they must belongs to a category. Here is the current status: 
+
+Any set of combinatorial objects should be a parent in either category {{{FiniteEnumeratedSets()}}} or {{{InfiniteEnumeratedSets()}}} or even {{{EnumeratedSet()}}} if the cardinality is unknown. The code for these categories seems to be stable and moreover, there are examples showing how to write such a parent (please see {{{FiniteEnumeratedSets().example()}}} and {{{InfiniteEnumeratedSets().example()}}} from sage) or the respective files in {{{sage/categories/examples}}}. You also may want to have a look at the category {{{Sets()}}} associated to the files {{{sets_cat.py}}} for the problem of constructing elements in a parent.
+
+On the other hand, concerning the infrastructure a final step is currently done by allowing categories to work with Cython/extension types (see trac #7921). So there shouldn't be any infrastructure problem.
+
+I'm (Florent) currently working on adapting the combinatorial code to this design. But this is still in progress. The plan is to have trees and binary trees in sage as soon as possible and then to rework permutations, partitions ...
+
+
+== Kept for reference ==
+
 <<TableOfContents(2)>>
 
 == Foreword (Teminology) ==
