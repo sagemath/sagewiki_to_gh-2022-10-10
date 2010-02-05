@@ -434,10 +434,7 @@ def power_residue_symbol(alpha, p, m):
 def cubic_is_primary(n):
     g = n.gens_reduced()[0]
     a,b = g.polynomial().coefficients()
-    if Mod(a,3)!=0 and Mod(b,3)==0:
-        return True
-    else:
-        return False
+    return Mod(a,3)!=0 and Mod(b,3)==0
 
 
 from numpy import array as narray
