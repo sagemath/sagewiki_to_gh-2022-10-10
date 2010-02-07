@@ -16,8 +16,7 @@ Rob Beezer, beezer@ups.edu, rbeezer on #sage-devel IRC
 
 == Examples ==
 
-To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.<<BR>>
-Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
+To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.  Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
 
 Note: To best view the two examples below from Beezer's linear algebra text, it is necessary to slightly tweak the jsMath configuration in Sage.  It is a one-character edit.  You can still view the sections, but "reasons" given in math displays (generally in proofs) won't render right and you will see lots of "@a()" stuff.  This will be fixed once [[http://trac.sagemath.org/sage_trac/ticket/8202 | Trac 8202]] is merged, which is slated for Sage 4.3.2.  So check the ticket and check your version of Sage ({{{sage --version}}}) and maybe you don't need to do this.
 
@@ -43,7 +42,7 @@ Also, these examples have a bit of a formatting problem for larger matrices (mor
   linking work properly, it is necessary to create a pristine user
   and insert the worksheets properly into the notebook storage
   area.  In the following, you must use the new user "linear",
-  password and notebook location can be adjusted.  But the notebook
+  but password and notebook location can be adjusted.  But the notebook
   location needs to end with ".sagenb".
   {{{
 $ sage
