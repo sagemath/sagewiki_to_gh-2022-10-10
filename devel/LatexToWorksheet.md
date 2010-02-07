@@ -33,6 +33,35 @@ jsMath.safeHBoxes=1 --> jsMath.safeHBoxes=0
 
 Also, these examples have a bit of a formatting problem for larger matrices (more than two rows) on my setup, but I'm uncertain if that is my problem or more general.  A report, either way, would be appreciated if you look at these.
 
+ * A Whole-Book Experiment (2010/02/07)
+ This is all of Beezer's [[http://linear.ups.edu|First Course in Linear Algebra]] as
+ a linked collection of Sage worksheets.  It runs about 900 pages when printed, but
+ as a tar archive is around 700K.
+  * See note above about jsMath configuration and matrix formatting.
+  * No Sage content yet - see other experiments for demonstrations.
+  * Installation: To rig worksheet numbers, and thus have cross-worksheet
+  linking work properly, it is necessary to create a pristine user
+  and insert the worksheets properly into the notebook storage
+  area.  In the following, you must use the new user "linear",
+  password and notebook location can be adjusted.  But the notebook
+  location needs to end with ".sagenb".
+  {{{
+$ sage
+sage: from sagenb.notebook.notebook import Notebook
+sage: nb=Notebook("/tmp/fcla.sagenb")
+sage: nb.add_user('linear', 'algebra', '', account_type='user', force=True)
+sage: exit
+$ cd /tmp/fcla.sagenb/home
+$ tar -xvf /path/to/fcla-worksheets.tar.bz2
+$ sage
+sage: notebook(directory="/tmp/fcla.sagenb")
+  }}}
+  * You will possibly be asked to create an admin password, just do it.
+  * Even if you see the right worksheets, sign-out right away.
+  * Sign-in as the user "linear" with password "algebra".
+  * Now you should be able to view the worksheets.
+
+
  * tikz graphics migration (2010/02/03)<<BR>>
    * tikz graphics in latex source passing through to the worksheet
    * combinatorial graphs in Sage creating tikz source, also included
