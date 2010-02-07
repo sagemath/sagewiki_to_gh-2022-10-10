@@ -50,11 +50,12 @@ Also, these examples have a bit of a formatting problem for larger matrices (mor
 
  * Textbook Section Experiment (2010/01/30, updated 2010/02/07)<<BR>>
  This is a straight conversion of a math-heavy section from Beezer's linear algebra text.
-  * See note above about jsMath and amtrix formatting.
+  * See note above about jsMath and matrix formatting.
   * The original tex4ht output is at [[http://linear.ups.edu/jsmath/0220/fcla-jsmath-2.20li35.html#x36-143000 | FCLA Section FS in jsMath]]
   which seems to render just fine for me.
   * There is no embedded Sage code here yet, but that will be easy to add.
-  * [[attachment:math-stress-test.sws | Worksheet]] 
+  * Links go nowhere unless they are internal to this section.
+  * [[attachment:math-test.sws | Worksheet]] 
 
  * Linked Worksheets (2010/01/30)<<BR>>
  A simple manufactured example of cross-worksheet linking.
