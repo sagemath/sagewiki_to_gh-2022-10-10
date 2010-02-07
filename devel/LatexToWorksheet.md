@@ -60,6 +60,7 @@ sage: notebook(directory="/tmp/fcla.sagenb")
   * Even if you see the right worksheets, sign-out right away.
   * Sign-in as the user "linear" with password "algebra".
   * Now you should be able to view the worksheets.
+  * [[attachment:fcla-worksheets.tar.bz2 | Tar Archive of FCLA Worksheets]]
 
 
  * tikz graphics migration (2010/02/03)<<BR>>
