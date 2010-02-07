@@ -19,6 +19,20 @@ Rob Beezer, beezer@ups.edu, rbeezer on #sage-devel IRC
 To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.<<BR>>
 Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
 
+Note: To best view the two examples below from Beezer's linear algebra text, it is necessary to slightly tweak the jsMath configuration in Sage.  It is a one-character edit.  You can still view the sections, but "reasons" given in math displays (generally in proofs) won't render right and you will see lots of "@a()" stuff.  This will be fixed once [[http://trac.sagemath.org/sage_trac/ticket/8202 | Trac 8202]] is merged, which is slated for Sage 4.3.2.  So check the ticket and check your version of Sage ({{{sage --version}}}) and maybe you don't need to do this.
+
+The file to edit is
+{{{
+SAGE_ROOT/local/lib/python/site-packages/sagenb-0.6-py2.6.egg/sagenb/data/sage/js/jsMath.js
+}}}
+
+where you might have to adjust the numbering on the {{{sagenb}}} package.  Then at line 97 (or thereabouts) make the following change
+{{{
+jsMath.safeHBoxes=1 --> jsMath.safeHBoxes=0
+}}}
+
+Also, these examples have a bit of a formatting problem for larger matrices (more than two rows) on my setup, but I'm uncertain if that is my problem or more general.  A report, either way, would be appreciated if you look at these.
+
  * tikz graphics migration (2010/02/03)<<BR>>
    * tikz graphics in latex source passing through to the worksheet
    * combinatorial graphs in Sage creating tikz source, also included
@@ -33,6 +47,14 @@ Then open your notebook, click the "Upload" link near the upper-left and then pa
  Lots of simple Sage code, some simple mathematics, one interact (search for "@interact")<<BR>>
  Best working demo (though it lacks a title)<<BR>>
  [[attachment:sage-group-theory-primer.sws | Worksheet]] [[attachment:sage-group-theory-primer.sws | Source]]
+
+ * Textbook Section Experiment (2010/01/30, updated 2010/02/07)<<BR>>
+ This is a straight conversion of a math-heavy section from Beezer's linear algebra text.
+  * See note above about jsMath and amtrix formatting.
+  * The original tex4ht output is at [[http://linear.ups.edu/jsmath/0220/fcla-jsmath-2.20li35.html#x36-143000 | FCLA Section FS in jsMath]]
+  which seems to render just fine for me.
+  * There is no embedded Sage code here yet, but that will be easy to add.
+  * [[attachment:math-stress-test.sws | Worksheet]] 
 
  * Linked Worksheets (2010/01/30)<<BR>>
  A simple manufactured example of cross-worksheet linking.
@@ -59,16 +81,6 @@ sage: notebook(directory="/tmp/test.sagenb")
   * Open worksheet 0, execute a cell or two, find link to worksheet 1.
   * Follow link to worksheet 1, execute some cells here too.
   * [[attachment:link-worksheets.tar.gz | Archive (described above)]] [[attachment:link-worksheets.py | Python generation script]]
-
- * Textbook Section Experiment (2010/01/30)<<BR>>
- This is a straight conversion of a math-heavy section from Beezer's linear algebra text.
-  * The original tex4ht output is at [[http://linear.ups.edu/jsmath/0220/fcla-jsmath-2.20li35.html#x36-143000 | FCLA Section FS in jsMath]]
-  which seems to render just fine for me.
-  * Worksheet below is a straight conversion as in the Group Theory demo above, but has at least three problems:
-    1. Graphic is not being picked up (easy to fix in parsing script).
-    2. Some formatting (like matrix brackets) not rendering right.
-    3. Links in theorems use {{{\text{@(a href="#definition.LNS")Definition LNS@(/a)}}}} construct which is broken in notebook, and is a mystery to me at the moment.
-  * [[attachment:math-stress-test.sws | Worksheet]]
 
 == tex4ht ==
 
