@@ -107,7 +107,22 @@ make install
 }}}
 
 = Using Sage with Cantor =
- * Worksheet management ...
+After starting Cantor you will be prompted with all the supported backends. 
+If sage is not on the list, you may have to check the settings, and correctly set the path to the sage executable.
+If you check the "make this the default backend" box, this backend will be preselected in the future.
+
+The Cantor worksheet is quite similar to the one offered by Sage notebook. You can run any Sage commands by entering it in the cell
+and pressing Shift+Enter.
+
+If you evaluate "? command" the help for the specific command will show up in the help panel on the right, 
+pressing <Tab> will show you possible completions for the current command.
+
+Cantor offers some comfort features, like typesetting your results using LaTex, or offering dialogs for
+commonly used functions.
+
+Once you've finished working on your worksheet, you can easily share it with others, by publishing it on kde-files.org.
+You just select the "Publish Worksheet" entry in File menu, and follow the assistant. Once completed, your new worksheet
+will show up in the "Download Example" dialog.
 
 = Links =
  * Official Site - http://edu.kde.org/cantor/ 
