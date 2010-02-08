@@ -4,22 +4,26 @@ Organizers:  William Stein, Chris Hall, Craig Citro, Salman Baig
 
 Location: The [[http://www.shueyhouse.com/|Shuey House]], Seattle, WA
 
-Dates: May 24 - 28, 2010 (check in on May 23rd, check out on May 29th)
+Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29th by 10:30am)
 
 == Tentative Participants ==
 
  * Salman Baig (Washington)
+ * 
  * Gebhard Boeckle (Universitat Duisburg-Essen)
  * Tom Boothby (Washington)
+ * Robert Bradshaw (Washington)
  * M. L. Brown (Institut Fourier)
  * Ralf Butenuth (Universitat Duisburg-Essen)
  * Craig Citro (Washington)
  * Alyson Deines (Washington)
  * Ernst-Ulrich Gekeler (Universitat des Saarlandes)
  * Chris Hall (Wyoming)
+ * Florian Hess (Technische Universitat Berlin)
  * Jacob Lewis (Washington)
  * Robert Miller (Washington)
  * Steven J Miller (Williams)
+ * Dan Shumow (Washington)
  * William Stein (Washington)
  * Doug Ulmer (Georgia Tech)
  * Felipe Voloch (Texas)
