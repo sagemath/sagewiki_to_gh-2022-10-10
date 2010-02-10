@@ -15,6 +15,7 @@ Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29
  * M. L. Brown (Institut Fourier)
  * Ralf Butenuth (Universitat Duisburg-Essen)
  * Craig Citro (Washington)
+ * Brian Conrety (AIM)
  * Alyson Deines (Washington)
  * Ernst-Ulrich Gekeler (Universitat des Saarlandes)
  * Chris Hall (Wyoming)
