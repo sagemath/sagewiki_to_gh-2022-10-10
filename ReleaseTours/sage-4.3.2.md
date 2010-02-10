@@ -21,3 +21,7 @@ ValueError: Could not detect ring.
 sage: toric_ideal(A,"du",ring=P) # so we try again
 [x*z - y]
 }}}
+
+== Geometry ==
+
+ * a major refactoring of the Polyhedron class fixed many bugs, added new functionality, and created a cleaner structure that should make future improvements much easier.
