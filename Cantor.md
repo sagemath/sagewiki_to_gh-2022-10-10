@@ -30,6 +30,11 @@ It will update all the KDE-packages to version 4.4, but this is useful for havin
 
 
 = Build and Install Cantor =
+As Cantor is part of KDE Edu since version 4.4, most Linux distributions will already have a package for it.
+Either combined with other apps in one kdeedu package or split into a separate cantor package.
+
+If you are using an older distribution, you can build cantor from source:
+
 ''Cantor depends upon kdelibs, so in order to build Cantor, you must have kdelibs development files.''
 
 If you have a Linux box, then you can install the kdelibs-devel package from your distribution. If you have windows, then you can use [[http://windows.kde.org/|The KDE on Windows Project]], please note that there is already a Cantor.exe ported to windows, so is not necesary build the application. Otherwise, you can [[http://techbase.kde.org/Getting_Started/Build/KDE4#kdelibs|build and install kdelibs from sources]].
