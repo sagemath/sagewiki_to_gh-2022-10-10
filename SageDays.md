@@ -22,7 +22,6 @@
    Linear Algebra, Elliptic Curves and Groebner Basis
  * [[days11| Sage Days 11]], Austin, TX, US
 
-== Upcoming Sage Days ==
 
  * [[days12|Sage Days 12]] -- San Diego, Wed-Sat, Jan 21--24, 2009.
  * [[days13|Sage Days 13]] -- Quadratic Forms and Lattices --- Athens, Georgia, Feb 28 -- March 2, 2009.
@@ -30,5 +29,5 @@
  * [[days15|Sage Days 15]] -- Seattle, WA (just got funded; dates TBA).
  * [[days16|Sage Days 16]] -- [[http://www.crm.cat/Conferences/IndexConferencesEng.htm|CRM-UPC]], Barcelona, June 22--27, 2009.
  * [[dayscambridge2|Sage Days ??]] -- Cambridge, MA (dates TBA, but sometime in fall 2009).
-
- * [[HowToHostASageDays|Hosting]] --- Advice to future hosts
+  
+== Upcoming Sage Days ==
