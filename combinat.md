@@ -7,6 +7,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 ----
 
 '''[[http://wiki.sagemath.org/combinat/Installation|Installation instructions]]'''
+
 ----
 
 == NEWS ==
@@ -85,5 +86,4 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * Browse the [[http://combinat.sagemath.org/doc/|Sage documentation with the Sage-combinat patches applied]]
 
  * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]]
-   
-   [[http://wiki.sagemath.org/combinat/MiscServer|Usage instructions]]
+   ([[http://wiki.sagemath.org/combinat/MiscServer|Usage instructions]])
