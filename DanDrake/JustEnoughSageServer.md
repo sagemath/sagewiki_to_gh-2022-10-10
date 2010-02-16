@@ -64,3 +64,121 @@ to come
 == Other things I find convenient ==
 
 to come
+
+= Other Instructions =
+
+I recently set up a Sage server, and here are very rough notes of the commands that I used.  I started with a fresh copy of Ubuntu 9.10 and Sage installed.
+
+Install apache2 and enable the proxy modules
+{{{
+sudo apt-get install apache2
+
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+}}}
+
+Create an apache virtual server for the Sage server.  I created a file {{{/etc/apache2/sites-available/sagenotebook}}} with the following contents, replacing YOUR_SERVER_NAME with your server name (e.g. sagenb.example.com).  Also replace YOUR_SERVER_ADMIN_EMAIL_ADDRESS with your admin email address.
+{{{
+<VirtualHost *:80>   ServerName YOUR_SERVER_NAME
+
+ProxyRequests Off
+
+<Proxy *>
+Order deny,allow
+Allow from all
+</Proxy>
+
+ProxyPass / http://localhost:8000/
+ProxyPassReverse / http://localhost:8000/
+
+ DocumentRoot /
+ <Location />   DefaultType text/html
+ </Location>
+
+   ErrorLog /var/log/apache2/error.log
+
+   # Possible values include: debug, info, notice, warn, error, crit,
+   # alert, emerg.
+   LogLevel warn
+
+   CustomLog /var/log/apache2/access.log combined
+   ServerAdmin YOUR_SERVER_ADMIN_EMAIL_ADDRESS
+ </VirtualHost>
+}}}
+
+
+Enable the site in apache and restart apache
+{{{
+sudo a2dissite default
+sudo a2ensite sagenotebook
+sudo /etc/init.d/apache2 restart
+}}}
+
+
+Now add a server and 10 user accounts.  The Sage notebook will invoke one of these 10 accounts to do the worksheet processing.
+{{{
+sudo addgroup sageuser
+sudo adduser --disabled-password sageserver
+sudo adduser --disabled-password --ingroup sageuser sageuser0
+sudo adduser --disabled-password --ingroup sageuser sageuser1
+sudo adduser --disabled-password --ingroup sageuser sageuser2
+sudo adduser --disabled-password --ingroup sageuser sageuser3
+sudo adduser --disabled-password --ingroup sageuser sageuser4
+sudo adduser --disabled-password --ingroup sageuser sageuser5
+sudo adduser --disabled-password --ingroup sageuser sageuser6
+sudo adduser --disabled-password --ingroup sageuser sageuser7
+sudo adduser --disabled-password --ingroup sageuser sageuser8
+sudo adduser --disabled-password --ingroup sageuser sageuser9
+}}}
+
+I wanted to restrict logins for the sage server and sage users.  I want to prevent logins as sageserver, and restrict sageuser* logins to only come from localhost.  I'll use sudo to run commands as the sage server.  Under {{{/etc/pam.d/sshd}}}, uncomment this line, and add "nodefgroup":
+
+{{{
+account  required     pam_access.so nodefgroup
+}}}
+
+Then in {{{/etc/security access.conf}}}, add these lines:
+
+{{{
+-:(sageuser):ALL EXCEPT localhost
+-:sageserver:ALL
+}}}
+
+
+Now set up passwordless ssh keys
+{{{
+sudo -u sageserver -i "ssh-keygen -t dsa"
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser0 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser1 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser2 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser3 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser4 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser5 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser6 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser7 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser8 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser9 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+}}}
+
+Test logins (do at least one to generate the known_hosts file)
+{{{
+sudo -u sageserver -i "ssh sageuser0@localhost echo Done"
+}}}
+
+
+I store the following command in a file {{{/home/sageserver/startnotebook}}} to start the notebook
+{{{
+#!/bin/sh
+echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, server_pool=['sageuser%d@localhost'%i for i in range(10)], ulimit='-v 300000 -u 100', open_viewer=False)" | ~/sage/sage
+}}}
+
+Now copy the current version of Sage into the sageserver home directory.  I set up things so that /home/sageserver/sage/ is a symbolic link to whatever the current version is (like /home/sageserver/sage-4.3.2/)
+
+To start the sage server, do the following.  Note that since I am using sudo to run commands as sageserver, instead of logging in as sageserver, I have to do the {{{script /dev/null}}} trick to get screen to work.
+
+{{{
+sudo su -l sageserver
+script /dev/null
+screen
+./startnotebook
+}}}
