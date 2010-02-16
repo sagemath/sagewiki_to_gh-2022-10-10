@@ -67,7 +67,7 @@ to come
 
 = Other Instructions =
 
-I recently set up a Sage server, and here are very rough notes of the commands that I used.  I started with a fresh copy of Ubuntu 9.10 and Sage installed.
+I recently set up a Sage server, and here are very rough notes of the commands that I used.  I started with a fresh copy of Ubuntu 9.10, with a working Sage compiled from source (which means I had to install some extra packages so that Sage compiles and runs; see the Sage README).
 
 Install apache2 and enable the proxy modules
 {{{
