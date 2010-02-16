@@ -10,14 +10,14 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 ----
 
 == NEWS ==
- * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]]
+ * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
  * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days]]
    The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille will include a Sage days session. FlorentHivert, NicolasThiéry, and FrancoSaliola will be among the organizers, there will be a serious combinatorics slant.
 
  * July 25-29, 2009: [[combinat/FPSAC09|*-Combinat 2009]]
 
-   We will hold an International Sage Workshop on [[combinat/FPSAC09|Free and Practical Software for Algebraic Combinatorics]] at RISC, Linz, Austria, right after [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
+   We held an International Sage Workshop on [[combinat/FPSAC09|Free and Practical Software for Algebraic Combinatorics]] at RISC, Linz, Austria, right after [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
 
  * May 25th, 2009: The Sage-words library demonstrated at the 2nd Canadian Discrete and Algorithmic Mathematics Conference [[http://www.crm.umontreal.ca/CanaDAM2009/index_e.shtml|CanaDAM'09]]
  [[attachment:2009-05-25-CanaDAM.sws|Sage worksheet]], [[attachment:2009-05-25-CanaDAM.pdf|PDF]].
@@ -31,7 +31,10 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
     Sage-combinat was born as a partial port of [[http://mupad-combinat.sf.net|MuPAD-Combinat]]. After months of discussions and experiments, an enthusiastic consensus emerged in the MuPAD-Combinat community to join Sage. Sage-combinat henceforth became the natural successor of {{{MuPAD-Combinat}}}.
 
-   The transition is a massive investment: seven years of hard work to port over! However a lot of experience was gained since 2000, and most of the design is now pretty clear. By sharing the work the transition will hopefuly be relatively quick.
+   The transition was a massive investment (and is not yet completely
+   over): seven years of hard work to port over! However a lot of
+   experience was gained since 2000, and most of the design was pretty
+   clear, and we could *share* the work.
 
 ----
 
