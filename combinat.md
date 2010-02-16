@@ -64,7 +64,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 === Code ===
 
- * The collection of patches is managed using a [[http://combinat.sagemath.org/patches/|patch server]]  (mercurial queues). Use it to try out the latest experimental features, or contribute your own patches! (You may still need to access to the  [[http://sage.math.washington.edu:2144/|old patch server]])
+ * The collection of patches is managed using a [[http://combinat.sagemath.org/patches/|patch server]]  (mercurial queues). Use it to try out the latest experimental features, or contribute your own patches!
 
  * Browse the [[http://combinat.sagemath.org/code/file/tip/sage/|Sage sources with the Sage-combinat patches applied]]
 
@@ -74,9 +74,6 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * For hg/mercurial lovers: [[http://hgbook.red-bean.com/read/|Mercurial: The Definite Guide]] an e-book by Bryan O'Sullivan
 
- * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]]
-   To check them out, use {{{hg clone http://combinat.sagemath.org/misc/ Sage-Combinat-misc-file}}}. This will create a subdirectory {{{Sage-Combinat-misc-file}}} in the current directory; you can use any other name for this subdirectory.
-
 === Design ===
 
  * Have a look and participate to [[http:/combinat/DesignDiscussion|design discussions]].
@@ -85,4 +82,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 === Documentation ===
 
- *  Browse the [[http://combinat.sagemath.org/doc/|Sage documentation with the Sage-combinat patches applied]]
+ * Browse the [[http://combinat.sagemath.org/doc/|Sage documentation with the Sage-combinat patches applied]]
+
+ * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]]
+   
+   [[http://wiki.sagemath.org/combinat/MiscServer|Usage instructions]]
