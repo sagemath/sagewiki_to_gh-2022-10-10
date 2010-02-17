@@ -236,3 +236,82 @@ def plot_norm(loc=(0,(0,10)), scale=(1,(1,10))):
     plt.clf()
 }}}
 {{attachment:matplotlib_interact.png}}
+
+== Spirograph ==
+{{{
+#---------------------------#
+# Javier Pérez Lázaro       #
+# Logroño (Spain)           #
+# javier.perezl@unirioja.es #
+#---------------------------#
+
+#introduction
+
+html('<h1><center>Spirograph</center></h1>')
+text1='Spirograph is a tool for drawing hypotrochoids and epitrochoids.'
+text2='Assume that a A is a point attached to a circle. A can be attached to the boundary of the circle or to any exterior or interior place. If the circle rolls around the outside of a fixed circle, the curve traced by the point A is called an epitrochoid. In case the circle rolls around the inside of a fixed circle, the curve is an hypotrochoid.'
+text3='If the quotient between the radii of the circles is a rational number, then the curves are periodic.'
+
+#the code
+
+@interact
+def fun(
+tex1=text_control(text1), tex2=text_control(text2), tex3=text_control(text3),
+h=('Select:',list(['epitrochoid','hypotrochoid'])),
+tex4=text_control('Radius of the circle. Should be a rational number with shape p/q.'),
+b=input_box(default=7/30,label='radius'),
+tex5=text_control("Rate between the distance of the point to the circle's center and the radius."),
+rate=input_box(default=1),
+u=selector(['Plot the curve. Slider of % below enabled.',
+'Build an animation of the plot with the number of frames specified below.'],label='Choose:'),
+per=slider(0,100,1,default=100,label='graph %'),
+frames=100,
+cir_bool=checkbox(True, "Show circles?"),
+auto_update=false):
+    draw=True
+    if h=='hypotrochoid' and (b>=1 or b<=0):
+        print "In a hypotrochoid, radius must be between 0 and 1."
+        draw=False
+    if h=='epitrochoid' and b<=0:
+        print "In a epitrochoid, radius must be positive"
+        draw=False
+    if draw==True:
+        if h=='hypotrochoid': b=-b 
+        var('t')
+        cx=(1+b)*cos(t*b/(1+b))
+        cy=(1+b)*sin(t*b/(1+b))
+        px=cx-b*rate*cos(t)
+        py=cy-b*rate*sin(t)
+        axeM=1+max([0,b+abs(b)*rate])
+        if u=='Plot the curve. Slider of % below enabled.':
+            tMax=pi*denominator(b/(b+1))*per/50
+            L=parametric_plot((px,py),(t,0,max([0.001,tMax])),plot_points=10*rate*tMax)
+            if cir_bool: 
+                p=point((px(t=tMax),py(t=tMax)),pointsize=30,color='blue')
+                c=point((cx(t=tMax),cy(t=tMax)),pointsize=30,color='red')
+                cir=circle((cx(t=tMax),cy(t=tMax)),b,color='red')
+                lin=line([(cx(t=tMax),cy(t=tMax)),(px(t=tMax),py(t=tMax))])
+                L+=circle((0,0),1)+cir+lin+p+c    
+            show(L,aspect_ratio=1,xmin=-axeM,xmax=axeM,ymin=-axeM,ymax=axeM)
+        if u=='Build an animation of the plot with the number of frames specified below.':
+            tMax=2*pi*denominator(b/(b+1))
+            step=tMax/(frames-1)
+            curva=Graphics()
+            v=[]
+            for a in srange(step,tMax,step):
+                curva+=parametric_plot((px,py),(t,a-step,a))
+                L=curva
+                if cir_bool:
+                    cx_a=cx(t=a)
+                    cy_a=cy(t=a)
+                    px_a=cx_a-b*rate*cos(a)
+                    py_a=cy_a-b*rate*sin(a)
+                    p=point((px_a,py_a),pointsize=30,color='blue')
+                    c=point((cx_a,cy_a),pointsize=30,color='red')
+                    cir=circle((cx_a,cy_a),b,color='red')
+                    lin=line([(cx_a,cy_a),(px_a,py_a)])
+                    L+=circle((0,0),1)+cir+lin+c+p         
+                v.append(L)
+            animate(v,xmin=-axeM,xmax=axeM,ymin=-axeM,ymax=axeM,aspect_ratio=1).show()
+}}}
+{{attachment:interactive_animate_spirograph.png}}
