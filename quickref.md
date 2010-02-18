@@ -18,4 +18,4 @@
 
 == Spanish ==
 
- * '''Una visita a Sage''' - [[attachment:VisitaSage.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=VisitaSage.pdf|download]] (and the source [[attachment:VisitaSage.tex]])
+ * '''Una visita a Sage''' - [[attachment:VisitaSAGE.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=VisitaSAGE.pdf|download]] (and the source [[attachment:VisitaSAGE.tex]])
