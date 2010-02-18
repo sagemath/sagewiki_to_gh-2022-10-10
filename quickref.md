@@ -15,3 +15,7 @@
 == French ==
 
  * '''Math. de base''' (Traduction francaise de '''Basic Math''') - [[attachment:sage-quickref_fr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref_fr.pdf|download]] (and the source [[attachment:sage-quickref_fr.tex]])
+
+== Spanish ==
+
+ * '''Una visita a Sage''' - [[attachment:VisitaSage.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=VisitaSage.pdf|download]] (and the source [[attachment:VisitaSage.tex]])
