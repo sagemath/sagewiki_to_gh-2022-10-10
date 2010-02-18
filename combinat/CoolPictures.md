@@ -1,7 +1,7 @@
 = Cool pictures produced with Sage-Combinat =
 
  * [[attachment:SageCategoryGraph.pdf|Graph of categories in Sage]]
-   {{attachment:SageCategoryGraph.pdf|Graph of categories in Sage|width=200}}
+   /* {{attachment:SageCategoryGraph.pdf|Graph of categories in Sage|width=200}} */
    Obtained with:
 {{{
     sage: g = sage.categories.category.category_graph()
@@ -9,6 +9,6 @@
     sage: view(g, pdflatex=True, tightpage = True)
 }}}
 
- * Graphs representing the Cartan matrix of the monoid of upper unitriangular boolean nxn matrices. For the second one, I can't resist quoting Tom Denton: ``First they tell us we will never need more than 640k of RAM, then they tell us our documents should always be less than the length of a limousine...''
+ * Graphs representing the Cartan matrix of the monoid of upper unitriangular boolean nxn matrices. For the second one, I can't resist quoting Tom Denton: "First they tell us we will never need more than 640k of RAM, then they tell us our documents should always be less than the length of a limousine..."
     * [[attachment:UpperTriangularBooleanMatrixMonoid4-cartan-graph.pdf|n=4]]
     * [[attachment:UpperTriangularBooleanMatrixMonoid5-cartan-graph.pdf|n=5]]
