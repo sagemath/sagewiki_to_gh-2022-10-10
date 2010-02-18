@@ -175,7 +175,7 @@ sudo -u sageserver -i "ssh sageuser0@localhost echo Done"
 I store the following command in a file {{{/home/sageserver/startnotebook}}} to start the notebook
 {{{
 #!/bin/sh
-echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, server_pool=['sageuser%d@localhost'%i for i in range(10)], ulimit='-v 300000 -u 100', open_viewer=False)" | ~/sage/sage
+echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, server_pool=['sageuser%d@localhost'%i for i in range(10)], ulimit='-u 100 -t 3600 -v 500000', open_viewer=False)" | ~/sage/sage
 }}}
 
 Now copy the current version of Sage into the sageserver home directory.  I set up things so that /home/sageserver/sage/ is a symbolic link to whatever the current version is (like /home/sageserver/sage-4.3.2/)
