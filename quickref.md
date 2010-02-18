@@ -18,4 +18,4 @@
 
 == Spanish ==
 
- * '''Una visita a Sage''' - [[attachment:VisitaSAGE.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=VisitaSAGE.pdf|download]] (and the source [[attachment:VisitaSAGE.tex]])
+ * '''Una visita a Sage''' by Juan Luis Varona (January 2010) - [[attachment:VisitaSAGE.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=VisitaSAGE.pdf|download]] (and the source [[attachment:VisitaSAGE.tex]])
