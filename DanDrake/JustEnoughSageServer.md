@@ -86,6 +86,7 @@ Create an apache virtual server for the Sage server.  I created a file {{{/etc/a
 <VirtualHost *:80>   ServerName YOUR_SERVER_NAME
 
 ProxyRequests Off
+ProxyPreserveHost On
 
 <Proxy *>
 Order deny,allow
