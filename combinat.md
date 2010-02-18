@@ -39,11 +39,13 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 ----
 
-== Who are we? ==
+== Who are we? What is Sage-Combinat used for? ==
 
  * [[http:/combinat/Contributors|Contributors]]
 
  * [[http:/combinat/Institutions|Institutions and sponsors]]
+
+ * [[http://www.sagemath.org/library-publications-combinat.html|Publications citing Sage-Combinat]]
 
 ----
 
