@@ -83,7 +83,8 @@ sudo a2enmod proxy_http
 
 Create an apache virtual server for the Sage server.  I created a file {{{/etc/apache2/sites-available/sagenotebook}}} with the following contents, replacing YOUR_SERVER_NAME with your server name (e.g. sagenb.example.com).  Also replace YOUR_SERVER_ADMIN_EMAIL_ADDRESS with your admin email address.
 {{{
-<VirtualHost *:80>   ServerName YOUR_SERVER_NAME
+<VirtualHost *:80>   
+ServerName YOUR_SERVER_NAME
 
 ProxyRequests Off
 ProxyPreserveHost On
