@@ -9,6 +9,7 @@ Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29
 == Tentative Participants ==
 
  * Salman Baig (Washington)
+ * Jen Balakrishnan (MIT)
  * Gebhard Boeckle (Universitat Duisburg-Essen)
  * Tom Boothby (Washington)
  * Robert Bradshaw (Washington)
