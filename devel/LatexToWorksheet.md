@@ -25,7 +25,7 @@ Note: If your version of Sage is prior to 4.3.3.alpha0 then examples from Beezer
  This is all of Beezer's [[http://linear.ups.edu|First Course in Linear Algebra]] as
  a linked collection of Sage worksheets.  It runs about 900 pages when printed, but
  as a tar archive is around 700K.
-  * See note above about jsMath configuration and matrix formatting.
+  * See note below about jsMath configuration and matrix formatting.
   * No Sage content yet - see other experiments for demonstrations.
   * Installation: To rig worksheet numbers, and thus have cross-worksheet
   linking work properly, it is necessary to create a pristine user
