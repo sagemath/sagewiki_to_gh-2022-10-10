@@ -18,19 +18,8 @@ Rob Beezer, beezer@ups.edu, rbeezer on #sage-devel IRC
 
 To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.  Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
 
-Note: To best view the two examples below from Beezer's linear algebra text, it is necessary to slightly tweak the jsMath configuration in Sage.  It is a one-character edit.  You can still view the sections, but "reasons" given in math displays (generally in proofs) won't render right and you will see lots of "@a()" stuff.  This will be fixed once [[http://trac.sagemath.org/sage_trac/ticket/8202 | Trac 8202]] is merged, which is slated for Sage 4.3.2.  So check the ticket and check your version of Sage ({{{sage --version}}}) and maybe you don't need to do this.
+Note: If your version of Sage is prior to 4.3.3.alpha0 then examples from Beezer's Linear Algebra text will not render quite right.  See way below for how to edit older configurations.
 
-The file to edit is
-{{{
-SAGE_ROOT/local/lib/python/site-packages/sagenb-0.6-py2.6.egg/sagenb/data/sage/js/jsMath.js
-}}}
-
-where you might have to adjust the numbering on the {{{sagenb}}} package.  Then at line 97 (or thereabouts) make the following change
-{{{
-jsMath.safeHBoxes=1 --> jsMath.safeHBoxes=0
-}}}
-
-Also, these examples have a bit of a formatting problem for larger matrices (more than two rows) on my setup, but I'm uncertain if that is my problem or more general.  A report, either way, would be appreciated if you look at these.
 
  * A Whole-Book Experiment (2010/02/07)
  This is all of Beezer's [[http://linear.ups.edu|First Course in Linear Algebra]] as
@@ -122,5 +111,21 @@ This is a list of known configurations of tex4ht that seem to work:
 == Related Project ==
  [[http://bitbucket.org/whuss/sws2tex/ | sws2tex]], [[http://user.mendelu.cz/marik/sage/skolka.pdf | Example]]<<BR>>
  Anybody want to try for the round-trip, Latex -> SWS -> Latex?
+
+== jsMath Safe Boxes Edit ==
+
+For Sage versions prior to 4.3.3.alpha0 (sagenb prior to 0.7.5) it is necessary to slightly tweak the jsMath configuration in Sage.  It is a one-character edit.  You can still view the sections, but "reasons" given in math displays (generally in proofs) won't render right and you will see lots of "@a()" stuff.  This will be fixed once [[http://trac.sagemath.org/sage_trac/ticket/8202 | Trac 8202]] is merged, which is slated for Sage 4.3.2.  So check the ticket and check your version of Sage ({{{sage --version}}}) and maybe you don't need to do this.
+
+The file to edit is
+{{{
+SAGE_ROOT/local/lib/python/site-packages/sagenb-0.6-py2.6.egg/sagenb/data/sage/js/jsMath.js
+}}}
+
+where you might have to adjust the numbering on the {{{sagenb}}} package.  Then at line 97 (or thereabouts) make the following change
+{{{
+jsMath.safeHBoxes=1 --> jsMath.safeHBoxes=0
+}}}
+
+Also, these examples have a bit of a formatting problem for larger matrices (more than two rows) on my setup, but I'm uncertain if that is my problem or more general.  A report, either way, would be appreciated if you look at these.
 
 == The 20% Defying Categorization ==
