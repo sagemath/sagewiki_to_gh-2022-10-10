@@ -20,6 +20,22 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is prior to 4.3.3.alpha0 then examples from Beezer's Linear Algebra text will not render quite right.  See way below for how to edit older configurations.
 
+ * SageTeX integration (Robert Marik, 2010/02/20)
+   * Slightly modified version of the {{{example.tex}}} file from the [[http://bitbucket.org/ddrake/sagetex/ | SageTeX]] distribution
+   * All but three graphics coming through, understandably
+   * Missing 3D tachyon graphic is just a path problem and is fixable
+   * Might be able to do something better with the {{{sagesilent}}} environment
+   such as inserting a {{{%hide}}} at the start of the block
+   * To re-create this, run the following sequence of commands:
+   {{{
+pdflatex example.tex
+sage example.sage
+htlatex example.tex "/path/to/tex4ht-sage.cfg" " -cunihtf -utf8"
+tex2sws
+   }}}
+   * [[attachment:example.tex | Latex source]]
+   * [[attachment:example.pdf | PDF]]
+   * [[attachment:example.sws | Worksheet]]
 
  * A Whole-Book Experiment (2010/02/07)
  This is all of Beezer's [[http://linear.ups.edu|First Course in Linear Algebra]] as
@@ -109,8 +125,8 @@ This is a list of known configurations of tex4ht that seem to work:
  * Ubuntu/Kubuntu/Debian:  Untested,  (K)Ubuntu Karmic 2009/05/21, Debian stable 2008/07/01, Debian testing 2009/06/11
 
 == Related Project ==
- [[http://bitbucket.org/whuss/sws2tex/ | sws2tex]], [[http://user.mendelu.cz/marik/sage/skolka.pdf | Example]]<<BR>>
- Anybody want to try for the round-trip, Latex -> SWS -> Latex?
+[[http://bitbucket.org/whuss/sws2tex/ | sws2tex]], [[http://user.mendelu.cz/marik/sage/skolka.pdf | Example]]<<BR>>
+Anybody want to try for the round-trip, Latex -> SWS -> Latex?
 
 == jsMath Safe Boxes Edit ==
 
