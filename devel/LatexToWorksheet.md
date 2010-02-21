@@ -20,6 +20,14 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is prior to 4.3.3.alpha0 then examples from Beezer's Linear Algebra text will not render quite right.  See way below for how to edit older configurations.
 
+ * Approximating Polynomial Worksheet (2010/02/20)
+   * A classroom worksheet, with interacts
+   * Nice mix of mathematics and live demonstrations
+   * PDF could do something better with interacts (hide code, show screenshot?)
+   * [[attachment:approxpoly.tex | Latex source]]
+   * [[attachment:approxpoly.pdf | PDF]]
+   * [[attachment:approxpoly.sws | Worksheet]]
+
  * SageTeX integration (Robert Marik, 2010/02/20)
    * Slightly modified version of the {{{example.tex}}} file from the [[http://bitbucket.org/ddrake/sagetex/ | SageTeX]] distribution
    * All but three graphics coming through, understandably
