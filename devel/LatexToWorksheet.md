@@ -51,7 +51,7 @@ sage: notebook(directory="/tmp/fcla.sagenb")
   * [[attachment:fcla-worksheets.tar.bz2 | Tar Archive of FCLA Worksheets]]
 
 
- * tikz graphics migration (2010/02/03)<<BR>>
+ * tikz graphics migration (2010/02/03, Updated: 2010/02/20)<<BR>>
    * tikz graphics in latex source passing through to the worksheet
    * combinatorial graphs in Sage creating tikz source, also included
    * worksheet has graphics as SVG, live cells, graph editor
