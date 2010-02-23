@@ -44,6 +44,7 @@ tex2sws
    * [[attachment:example.tex | Latex source]]
    * [[attachment:example.pdf | PDF]]
    * [[attachment:example.sws | Worksheet]]
+   * For fixed tex4ht-sage.cfg, tex2sws.py which allows to insert 3D graphics and vertex labels see [[http://user.mendelu.cz/marik/sage/tex2sws | this link]].
 
  * A Whole-Book Experiment (2010/02/07)
  This is all of Beezer's [[http://linear.ups.edu|First Course in Linear Algebra]] as
