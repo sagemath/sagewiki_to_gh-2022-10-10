@@ -180,6 +180,13 @@ echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, se
 
 Now copy the current version of Sage into the sageserver home directory.  I set up things so that /home/sageserver/sage/ is a symbolic link to whatever the current version is (like /home/sageserver/sage-4.3.2/)
 
+
+Install any optional spkgs that you want.  I install the jsmath-image-fonts spkg
+
+{{{
+sudo -u sageserver -i "~/sage/sage -i jsmath-image-fonts-1.4.p3"
+}}}
+
 To start the sage server, do the following.  Note that since I am using sudo to run commands as sageserver, instead of logging in as sageserver, I have to do the {{{script /dev/null}}} trick to get screen to work.
 
 {{{
