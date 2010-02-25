@@ -131,7 +131,11 @@ sage: notebook(directory="/tmp/test.sagenb")
 This is a list of known configurations of tex4ht that seem to work:
  * "tex4ht is part of the standard mactex distribution" (Dana Ernst, 2010/01/29)
  * "TeXLive 2009  (separate from Ubuntu package manager) includes its own little package manager ('tlmgr') and I used that to install tex4ht" (Dan Drake, 2010/01/30)
- * Ubuntu/Kubuntu/Debian:  Untested,  (K)Ubuntu Karmic 2009/05/21, Debian stable 2008/07/01, Debian testing 2009/06/11
+ * Ubuntu/Kubuntu/Debian: (K)Ubuntu Karmic 2009/05/21, Debian stable 2008/07/01, Debian testing 2009/06/11<<BR>>
+ From Jason B. Hill (2010/02/24)
+   * "texlive-full" depends on tex4ht (and hence will install tex4ht) in Ubuntu/Xubuntu/Kubuntu 9.10.
+   * "tex4ht" may also be installed directly from the standard Ubuntu repositories via apt/aptitude on top of the smaller "texlive-base/texlive-base-bin". This is also true for Debian stable.
+   * In either case, tex4ht/htlatex/etc commands must be added manually at this point to Kile, or can be called directly from the terminal.
 
 == Related Project ==
 [[http://bitbucket.org/whuss/sws2tex/ | sws2tex]], [[http://user.mendelu.cz/marik/sage/skolka.pdf | Example]]<<BR>>
