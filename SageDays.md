@@ -34,5 +34,5 @@ Periodic conferences about Sage and Sage development.
  * [[days14|Sage Days 14]] -- MSRI (Berkeley, CA), March 9--12, 2009, [[http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_workshop|Official MSRI Page]].
  * [[days15|Sage Days 15]] -- Seattle, WA (just got funded; dates TBA).
  * [[days16|Sage Days 16]] -- [[http://www.crm.cat/Conferences/IndexConferencesEng.htm|CRM-UPC]], Barcelona, June 22--27, 2009.
- * [[http://www.lirmm.fr/arith/wiki/MathInfo2010/SageDays|Sage Days 20]]
+ * [[http://www.lirmm.fr/arith/wiki/MathInfo2010/SageDays|Sage Days 20]] -- CIRM (Luminy, France), February 22--26, 2010.
  * [[dayscambridge2|Sage Days ??]] -- Cambridge, MA (dates TBA, but sometime in fall 2009).
