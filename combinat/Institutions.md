@@ -21,3 +21,7 @@ The list below is very very preliminary. Please edit!
    Partially supported by grant ANR-BLAN-06-0380.
 
  * CNRS, FRANCE
+
+ * Sage Days 20: Universités Aix-Marseille I, II, III, CIRM, FRUMAM,
+   LIF, Conseil Général des Bouches-du-Rhône, Ville de Marseille,
+   Programme Accès, Formation permanente du CNRS
