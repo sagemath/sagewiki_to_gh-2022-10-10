@@ -3,6 +3,9 @@ These animations were drawn by [[http://www.sagemath.org|Sage]].
 <<TableOfContents>>
 
 == The witch of Maria Agnesi ==
+
+{{attachment:witch.gif}}
+
 by Marshall Hampton
 
 {{{#!python numbers=none
@@ -38,8 +41,6 @@ a2 = animate([witchy(i) for i in srange(.1,npi-.1,npi/60)]+[witchy(i) for i in s
 
 a2.show()
 }}}
-
-{{attachment:witch.gif}}
 
 == A simpler hypotrochoid ==
 
