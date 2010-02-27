@@ -1,10 +1,8 @@
-== Animations drawn by Sage ==
-
 These animations were drawn by [[http://www.sagemath.org|Sage]].
 
 <<TableOfContents>>
 
-=== The witch of Maria Agnesi ===
+== The witch of Maria Agnesi ==
 by Marshall Hampton
 
 {{{#!python numbers=none
@@ -43,7 +41,7 @@ a2.show()
 
 {{attachment:witch.gif}}
 
-=== A simpler hypotrochoid ===
+== A simpler hypotrochoid ==
 
 The following animates a hypotrochoid much to the same effect as the previous script, but much more concisely.
 
@@ -150,7 +148,7 @@ animation.show(delay=animation_delay)
 }}}
 
 
-=== The Tamer and the Lion by Provencal and Labbe ===
+== The Tamer and the Lion by Provencal and Labbe ==
 
 A tamer wants to escape within a circle without being eaten by a lion who lives on the circle. The speed of the lion is 4 times that of the tamer. How can the tamer escape? There is a nice and clever solution in 2d, but does the naive solution where the tamer always moves oppositely to the lion works? In November 2009, Sage and a small script written by Xavier Provençal and Sébastien Labbé in Montpellier answers the question.
 
