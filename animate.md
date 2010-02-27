@@ -42,6 +42,24 @@ a2 = animate([witchy(i) for i in srange(.1,npi-.1,npi/60)]+[witchy(i) for i in s
 a2.show()
 }}}
 
+=== The Tamer and the Lion by Provencal and Labbe ===
+
+A tamer wants to escape within a circle without being eaten by a lion who lives on the circle. The speed of the lion is 4 times that of the tamer. How can the tamer escape? There is a nice and clever solution in 2d, but does the naive solution where the tamer always moves oppositely to the lion works? In November 2009, Sage and a small script written by Xavier Provençal and Sébastien Labbé in Montpellier answers the question.
+
+{{attachment:tamer.gif}}
+
+To create the above animation, download [[attachment:tamer.sage]] and type
+
+{{{#!python numbers=none
+sage: load tamer.sage
+sage: l = range(0,1200,10)
+sage: a = anime(l)
+sage: a
+Animation with 120 frames
+sage: show(a)
+}}}
+
+
 === A hypotrochoid animation by Dean Moore ===
 Hypotrochoid. Written by Dean Moore, February 2008                            
 
@@ -457,22 +475,4 @@ animation.show(delay=animation_delay)
 #   Finally, animate the frames:
 #
 #     animation = animate(frames)
-}}}
-
-
-=== The Tamer and the Lion by Provencal and Labbe ===
-
-A tamer wants to escape within a circle without being eaten by a lion who lives on the circle. The speed of the lion is 4 times that of the tamer. How can the tamer escape? There is a nice and clever solution in 2d, but does the naive solution where the tamer always moves oppositely to the lion works? In November 2009, Sage and a small script written by Xavier Provençal and Sébastien Labbé in Montpellier answers the question.
-
-{{attachment:tamer.gif}}
-
-To create the above animation, download [[attachment:tamer.sage]] and type
-
-{{{#!python numbers=none
-sage: load tamer.sage
-sage: l = range(0,1200,10)
-sage: a = anime(l)
-sage: a
-Animation with 120 frames
-sage: show(a)
 }}}
