@@ -1,10 +1,9 @@
-This page contains animations drawn using [[http://www.sagemath.org|Sage]]. One can create an animation (.gif) in Sage from a list of graphics objects using the {{{animate}}} command. See the documentation for more information:
+This page contains animations drawn using [[http://www.sagemath.org|Sage]]. One can create an animation (.gif) in Sage from a list of graphics objects using the {{{animate}}} command. Currently, to export an animation in .gif format, you might need to install the [[http://www.imagemagick.org|ImageMagick]] command line tools package (the ``convert`` command). See the documentation for more information:
 
-{{{#!python numbers=none
+{{{
 sage: animate?
 }}}
 
-Currently, to export an animation in .gif format, you might need to install the ImageMagick command line tools package (the ``convert`` command).
 
 <<TableOfContents>>
 
