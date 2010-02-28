@@ -11,7 +11,7 @@ Piecewise fcns, polynomials, exponential, logs, trig and hyperboic trig function
 
 SAGE can compute $\lim_{x\rightarrow 0}\frac{\sin(x)}{x}$:
 
-{{{
+{{{#!python numbers=none
 sage: limit(sin(x)/x,x=0)
 1
 }}}
@@ -24,7 +24,7 @@ sage: limit(sin(x)/x,x=0)
 
 SAGE can differentiate $x^2\log(x+a)$ and $\tan^{-1}(x)=\arctan(x)$:
 
-{{{
+{{{#!python numbers=none
 sage: diff(x^2 * log(x+a), x)
 2*x*log(x + a) + x^2/(x + a)
 sage: derivative(atan(x), x)
@@ -51,7 +51,7 @@ sage: latex(f.diff(x))
 
 SAGE can verify the product rule
 
-{{{
+{{{#!python numbers=none
 sage: function('f, g')
 (f, g)
 sage: diff(f(t)*g(t),t)
@@ -59,14 +59,14 @@ f(t)*diff(g(t), t, 1) + g(t)*diff(f(t), t, 1)
 }}}
 the quotient rule
 
-{{{
+{{{#!python numbers=none
 sage: diff(f(t)/g(t), t)
 diff(f(t), t, 1)/g(t) - (f(t)*diff(g(t), t, 1)/g(t)^2)
 }}}
 
 and linearity:
 
-{{{
+{{{#!python numbers=none
 sage: diff(f(t) + g(t), t)
 diff(g(t), t, 1) + diff(f(t), t, 1)
 sage: diff(c*f(t), t)
@@ -91,7 +91,7 @@ c*diff(f(t), t, 1)
 === Maximum and minimum values ===
 
 You can find critical points of a piecewise defined function:
-{{{
+{{{#!python numbers=none
 sage: x = PolynomialRing(RationalField(), 'x').gen()
 sage: f1 = x^0
 sage: f2 = 1-x
