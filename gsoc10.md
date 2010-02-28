@@ -55,6 +55,13 @@ Make it easier to call Sage from other applications.
  * automated doctesting for tickets marked "needs review"
  * ...
 
+=== Porting ===
+
+ * Cygwin
+ * FreeBSD?
+ * Solaris?
+ * Improvements to the build system?
+
 === Others ===
 
 Here are some other task lists:
