@@ -53,6 +53,7 @@ Make it easier to call Sage from other applications.
 === Development Process ===
 
  * automated doctesting for tickets marked "needs review"
+ * setting up a buildbot with trac integration for tickets with patches (list failing doctests, ...)
  * ...
 
 === Porting ===
