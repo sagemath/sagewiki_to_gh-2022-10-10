@@ -99,9 +99,38 @@ Sage relies on a fairly complete C99 libm.  In particular, it expects the "long 
 
 One possible option would be to use glibc and only compile the libm bits.  (Thought glibc is a bit dodgy on the precision side in some areas).
 
-=== pynac ===
- 
- * optimization / better data structures (heaps?)
+=== pynac (optimizing data structures) ===
+
+As the symbolics backend, [[http://pynac.sagemath.org|Pynac]] is a fundamental component of Sage.
+With some work and optimization, it could also be used for arithmetic
+with other mathematical structures like generic polynomial rings. It's
+based on a solid library [[http://www.ginac.de|GiNaC]], which has [[http://www.ginac.de/tutorial/|great documentation]]
+and very readable code.
+
+'''Skills:''' C++, (the necessary Cython and Python can be picked up easily)
+
+This project would have two steps, the first would be a major optimization for Pynac also a good introduction to the library, coding conventions, type hierarchy, etc. The second would involve replacing the basic datatypes (vectors with heaps), lot's of timings and experiments to improve performance.
+
+ * allow different printing orders
+
+   GiNaC uses the Maple approach to printing symbolic expressions.
+   Variable orders depend on their creation order at runtime. This is
+   not acceptable for Sage, so we (=Burcin) added some code to do an approximation
+   to a graded lexicographic order. This is the wrong design, and it slowed things
+   down considerably.
+
+   Doing it the right way, and allowing different orders would also let
+   us use Pynac for other structures in Sage.
+
+ * consider heaps instead of vectors for storage of add and mul objects
+
+   Data structures for polynomials is a well studied topic. Geobuckets (used by [[http://www.singular.uni-kl.de/|Singular]], or hash tables have been used successfully until now. Recently heaps, based on work by Stephen Johnson in the 70s, were shown to perform much better than the alternatives.
+
+   Pynac uses vectors to keep `add` and `mul` objects. Here is a [[http://www.ginac.de/tutorial/Internal-representation-of-products-and-sums.html|detailed explanation]] of the data structure. Using heaps could lead to a much more efficient data structure allowing us to handle much larger expressions. This would mean a major restructuring of the basic data types in Pynac.
+   
+   * (Geobuckets) http://dx.doi.org/10.1006/jsco.1997.0176
+   * (Johnson's paper) http://doi.acm.org/10.1145/1086837.1086847
+   * http://www.cecm.sfu.ca/~mmonagan/papers/sdmp19.pdf
 
 === Development Process ===
 
