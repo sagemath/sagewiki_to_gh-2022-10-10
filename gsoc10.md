@@ -1,15 +1,21 @@
 = Google Summer of Code 2010 =
 
+This is the main organization page for the [[http://socghop.appspot.com/|Google Summer of Code]] efforts of the [[http://www.sagemath.org|Sage]] project.
+
+'''If you're a student''' interested in working on any of the [[#projects|projects]] described below, or if you want to suggest any other projects, please write a short message to [[http://groups.google.com/group/sage-devel|sage-devel@googlegroups.com]] introducing yourself (background, skills) and your interests.
+
+'''If you're a Sage developer''', please take some time to organize the list below and add more ideas. The [[gsoc10#notes|notes section]] contains some guidelines from the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs|GSOC FAQ]].
+
 == Important Dates ==
 Here is the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/timeline|original timeline]]. Some highlights:
- * *March 8 - 12:* application window
- * *March 18:* accepted mentoring organizations announced
- * *March 29 - April 9:* student application window
+ * '''March 8 - 12:''' application window
+ * '''March 18:''' accepted mentoring organizations announced
+ * '''March 29 - April 9:''' student application window
  * ...
 
 == GSoC Sage Projects ==
-
-All #numbers below refer to [[http://trac.sagemath.org|trac tickets]]. Make sure to read the [[gsoc10#notes|notes section]] before you edit the list of projects below.
+<<Anchor(projects)>>
+All #numbers below refer to [[http://trac.sagemath.org|trac tickets]]. 
 
 
 === Notebook ===
@@ -33,7 +39,7 @@ and general AJAX techniques is needed.
  * read/write permission management for groups with roles (teacher is able to read notebooks, but students are not able to read each others)
  * ...
 
-=== Internationalization of the notebook ===
+==== Internationalization of the notebook ====
 
 This project would involve changing the Sage notebook so that the user
 interface language can be translated and changed on the fly. This
@@ -86,6 +92,7 @@ Make it easier to call Sage from other applications.
  * Sage as a C library
  * libGAP
 
+
 === Portable C99 libm ===
 
 Sage relies on a fairly complete C99 libm.  In particular, it expects the "long double" and "complex" variants of most functions to be present.  Not all these functions are present on Cygwin, FreeBSD or older Solaris, causing porting problems on those platforms.  The objective of this task would be to either locate and port or write a libm that is sufficient to meet Sage's requirements.
@@ -118,10 +125,10 @@ Here are some other task lists:
  * PolyhedraWishList
 
 == Potential Mentors ==
+ * DanDrake
  * Burcin Erocal
  * Peter Jeremy (FreeBSD port, possibly libm task)
  * William Stein
- * DanDrake
 
 == Notes: ==
 <<Anchor(notes)>>
