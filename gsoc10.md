@@ -86,6 +86,12 @@ Make it easier to call Sage from other applications.
  * Sage as a C library
  * libGAP
 
+=== Portable C99 libm ===
+
+Sage relies on a fairly complete C99 libm.  In particular, it expects the "long double" and "complex" variants of most functions to be present.  Not all these functions are present on Cygwin, FreeBSD or older Solaris, causing porting problems on those platforms.  The objective of this task would be to either locate and port or write a libm that is sufficient to meet Sage's requirements.
+
+One possible option would be to use glibc and only compile the libm bits.  (Thought glibc is a bit dodgy on the precision side in some areas).
+
 === pynac ===
  
  * optimization / better data structures (heaps?)
@@ -99,7 +105,7 @@ Make it easier to call Sage from other applications.
 === Porting ===
 
  * Cygwin
- * FreeBSD?
+ * FreeBSD
  * Solaris?
  * Improvements to the build system?
 
@@ -113,6 +119,7 @@ Here are some other task lists:
 
 == Potential Mentors ==
  * Burcin Erocal
+ * Peter Jeremy (FreeBSD port, possibly libm task)
  * William Stein
  * DanDrake
 
