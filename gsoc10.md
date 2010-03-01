@@ -28,7 +28,7 @@ main ''killer features'' of Sage.  This project is about improving the notebook.
 No special mathematical knowledge is required.  Knowledge of Javascript, jQuery, Python,
 and general AJAX techniques is needed. 
 
- * Authentication backend (ldap, kerberos?)
+ * Authentication backend (ldap, kerberos? [[http://trac.sagemath.org/sage_trac/ticket/4309|#4309]])
  * Improvements to interact
  * Add support for making presentations
  * Enhance export capabilities create methods for well designed PDF, LaTeX (with or without SageTeX) or ODF output.
@@ -87,10 +87,10 @@ This project will not involve any actual translation, just making it
 
 === Interfaces to Sage ===
 
-Make it easier to call Sage from other applications. 
-
  * Sage as a C library
- * libGAP
+  Make it easier to call Sage from other applications. 
+
+ * libGAP [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
 
 
 === Portable C99 libm ===
@@ -134,7 +134,6 @@ This project would have two steps, the first would be a major optimization for P
 
 === Development Process ===
 
- * automated doctesting for tickets marked "needs review"
  * setting up a buildbot with trac integration for tickets with patches (list failing doctests, ...)
  * ...
 
@@ -144,7 +143,7 @@ This project would have two steps, the first would be a major optimization for P
  * FreeBSD
  * Solaris 10 64-bit (the 32-bit version is basically complete). 
  * Open Solaris on x64 hardware. 
- * Improvements to the build system?
+ * Improvements to the build system (can we use the same system on different platforms, including Windows)?
 
 === Others ===
 
