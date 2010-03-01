@@ -33,6 +33,46 @@ and general AJAX techniques is needed.
  * read/write permission management for groups with roles (teacher is able to read notebooks, but students are not able to read each others)
  * ...
 
+=== Internationalization of the notebook ===
+
+This project would involve changing the Sage notebook so that the user
+interface language can be translated and changed on the fly. This
+project will require knowledge of Python, Mercurial, and basic web
+coding; knowing the [[http://www.gnu.org/software/gettext/manual/gettext.html|GNU gettext]] utilities, Javascript, and the Jinja
+web templating system will be helpful. No knowledge of (human!)
+languages other than English is necessary.
+
+Currently, the user interface for the Sage notebook is all in English.
+Several one-off translations have been done
+([[http://math1.skku.ac.kr/|Korean]];
+[[http://groups.google.com/group/sage-devel/browse_thread/thread/3c583014d2132cc4/|Russian]])
+involved going through source code and translating each string
+individually. The goal of the Sage project is to produce a viable
+alternative to Maple, Mathematica, Magma, and Matlab; having the user
+interface available in non-English languages would have a tremendous
+impact on that goal and vastly increase the number of people who can
+benefit from Sage.
+
+Proper internationalization ([[http://en.wikipedia.org/wiki/Internationalization_and_localization|i18n]]) involves wrapping
+each string in a function that looks up the correct translation,
+depending on the current language selected. 
+
+Deliverables for this project would include:
+
+    * wrapping strings in the Python, Javascript, and templating code of the Sage notebook with appropriate translation calls;
+
+    * updating the Sage notebook so that the language can be set to a default language (so that, say, a French site could have everything default to French) and can be changed on a per-user basis (so each user can choose a preferred language);
+
+    * developing a workflow for adding new translations and updating existing translations when strings change.
+
+It would also be nice to work on support for more significant
+localization, perhaps using the [[http://babel.edgewall.org/|Python Babel tools]]; this would include more thorough localization
+abilities, such as proper pluralization, thousands/decimal separators, ordinals,
+date and time display, and so on.
+
+This project will not involve any actual translation, just making it
+''possible'' for the Sage notebook UI to be localized. This is probably a medium-difficulty project, and will not require any specialized knowledge of mathematics or mathematical programming. 
+
 === Community Tools ===
  * Enhance publishing of Notebook documents (i.e. like on [[http://www.sagenb.org/pub]]).
    * Wiki-like platform for editing notebooks for publishing mathematical, physical, statistical and other content. 
@@ -74,6 +114,7 @@ Here are some other task lists:
 == Potential Mentors ==
  * Burcin Erocal
  * William Stein
+ * DanDrake
 
 == Notes: ==
 <<Anchor(notes)>>
@@ -87,6 +128,6 @@ Here is what the FAQ says for "Ideas" lists:
  Keep in mind that your Ideas list should be a starting point for student applications; we've heard from past mentoring organization participants that some of their best student projects are those that greatly expanded on a proposed idea or were blue-sky proposals not mentioned on the Ideas list at all. 
 
 
-And this is from the [[http://groups.google.com/group/google-summer-of-code-announce/web/notes-on-organization-selection-criteria|notes on organization selection criteria]]:
+And this is from the [[http://socghop.appspot.com/document/show/program/google/gsoc2009/orgcriteria|notes on organization selection criteria]]:
 
  2) Do the projects on your ideas list look feasible for student developers?  Is your ideas list thorough and well-organized?  Your ideas list is the first place that student participants are going to look to get information on participating in GSoC, so putting a lot of effort into this list is a good thing(tm).  One thing we noticed and really appreciate is how some organizations classified their ideas by easy, medium and difficult, and specifically listed the skills and background required to complete a given task.  It might also be cool to expand on each idea with some places to get started research-wise (pointers to documentation or specific bugs), as well as the impact finishing a given idea will have for the organization.
