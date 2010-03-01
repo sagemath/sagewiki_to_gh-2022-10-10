@@ -113,7 +113,8 @@ One possible option would be to use glibc and only compile the libm bits.  (Thou
 
  * Cygwin
  * FreeBSD
- * Solaris?
+ * Solaris 10 64-bit (the 32-bit version is basically complete). 
+ * Open Solaris on x64 hardware. 
  * Improvements to the build system?
 
 === Others ===
