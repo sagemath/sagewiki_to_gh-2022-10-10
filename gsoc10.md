@@ -29,7 +29,7 @@ No special mathematical knowledge is required.  Knowledge of Javascript, jQuery,
 and general AJAX techniques is needed. 
 
  * Improvements to interact
- * master-notebook, collection of other notebooks for a script or book.
+ * master-worksheet, collection of other worksheets for a script or book.
  * Permanent hyperlinks between worksheets, independent of worksheet numbering, to support multi-worksheet documents (ie books)
  * enhance history and snapshot capabilities.
  * concurrent editing of one single document: only altered cells are updated and "collision" warnings issued if more than one change happens with appropriate methods to solve it
