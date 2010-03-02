@@ -156,7 +156,7 @@ Dial:  866 589 0901, passcode:  8227893#
    * [[http://www.math.dartmouth.edu/news-resources/electronic/kpbogart/|Combinatorics Through Guided Discovery, Bogart]]
    * [[http://www.mecmath.net/|Vector Calculus, Michael Corral]]  Supplement with multivariate calc interacts
    * [[http://mecmath.net/trig/|Trigonometry, Michael Corral]] Student project - supplement with interacts
-   * Maybe more at [[http://linear.ups.edu/curriculum.html|Open Math Curriculum]]
+   * Maybe more at [[http://linear.ups.edu/curriculum.html|Open Math Curriculum]] or [[http://mathbooks.110mb.com/mylist.php]]
 
  * Presentation at Sage Days 15
    * [[http://wiki.sagemath.org/days15?action=AttachFile&do=get&target=beezer-authoring-SD15.pdf|Authoring Interactive Worksheets (Slides, PDF)]]
