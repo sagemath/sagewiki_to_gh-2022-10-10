@@ -34,6 +34,7 @@ and general AJAX techniques is needed.
  * enhance history and snapshot capabilities.
  * concurrent editing of one single document: only altered cells are updated and "collision" warnings issued if more than one change happens with appropriate methods to solve it
  * read/write permission management for groups with roles (teacher is able to read notebooks, but students are not able to read each others)
+ * basic datasheets (simple Google Docs-like spreadsheets) that can be shared with worksheets in read-only or read-write mode, could be editor to SQLite tables.
  * ...
 
 ==== Authentication backend ====
