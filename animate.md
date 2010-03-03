@@ -488,7 +488,7 @@ animation.show(delay=animation_delay)
 
 by Pablo Angulo
 
-{{{
+{{{#!python numbers=off
 def plot_towers(towers):
     '''Returns a plot of the towers of Hanoi
     
@@ -537,4 +537,19 @@ towers = (range(4,0,-1),[],[])
 initial = plot_towers(towers)
 frame_list=[initial]+list(animate_towers(towers))
 animate(frame_list, axes=False).show(delay=80)
+}}}
+
+=== Fibonacci Tiles ===
+
+{{attachment:fibotile.gif}}
+
+by Sébastien Labbé
+
+{{{#!python numbers=off
+path_op = dict(rgbcolor='red', thickness=1)
+fill_op = dict(rgbcolor='blue', alpha=0.3)
+options = dict(pathoptions=path_op, filloptions=fill_op, endarrow=False, startpoint=False)
+G = [words.fibonacci_tile(i).plot(**options) for i in range(7)]
+a = animate(G)
+a.show(delay=150)
 }}}
