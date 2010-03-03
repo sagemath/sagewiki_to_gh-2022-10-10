@@ -546,10 +546,10 @@ animate(frame_list, axes=False).show(delay=80)
 by Sébastien Labbé
 
 {{{#!python numbers=off
-path_op = dict(rgbcolor='red', thickness=1)
-fill_op = dict(rgbcolor='blue', alpha=0.3)
-options = dict(pathoptions=path_op, filloptions=fill_op, endarrow=False, startpoint=False)
-G = [words.fibonacci_tile(i).plot(**options) for i in range(7)]
-a = animate(G)
-a.show(delay=150)
+sage: path_op = dict(rgbcolor='red', thickness=1)
+sage: fill_op = dict(rgbcolor='blue', alpha=0.3)
+sage: options = dict(pathoptions=path_op, filloptions=fill_op, endarrow=False, startpoint=False)
+sage: G = [words.fibonacci_tile(i).plot(**options) for i in range(7)]
+sage: a = animate(G)
+sage: a.show(delay=150)
 }}}
