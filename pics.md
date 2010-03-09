@@ -252,7 +252,7 @@ point3d(puntos)
 --------------------------------------------
 
 #Mandelbrot set: the final plot is a subset of the complex plane;
-#the color at point c is porportional to the number of iterations that
+#the color at point c is proportional to the number of iterations that
 #the discrete dynamical system z->z^2+c takes to leave a circle around
 #the origin when z0=0
 
@@ -267,7 +267,7 @@ for i in range(N):
        c=complex(x0+i*(x1-x0)/N, y0+k*(y1-y0)/N)
        z=0
        h=0
-       while (h<L) and (abs(z)<R):
+       while h<L and abs(z)<R:
            z=z*z+c
            h+=1
        m[i,k]=h
@@ -294,13 +294,13 @@ def sierpinski_seasons_greetings():
     depth = 7
     nsq = RR(3^(1/2))/2.0
     tlist_old = [[[-1/2.0,0.0],[1/2.0,0.0],[0.0,nsq]]]
-    tlist_new = [x for x in tlist_old]
+    tlist_new = tlist_old[:]
     for ind in range(depth):
        for tri in tlist_old:
            for p in tri:
                new_tri = [[(p[0]+x[0])/2.0, (p[1]+x[1])/2.0] for x in tri]
                tlist_new.append(new_tri)
-       tlist_old = [x for x in tlist_new]
+       tlist_old = tlist_new[:]
     T = tlist_old
     N  = 4^depth
     N1 = N - 3^depth
