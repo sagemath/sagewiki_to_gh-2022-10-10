@@ -30,12 +30,16 @@ No special mathematical knowledge is required.  Knowledge of Javascript, jQuery,
 and general AJAX techniques is needed. 
 
  * Improvements to [[interact|@interact]]
+   * a 2d locator widget (there is already a separate bounty for this, around $100 USD or so, I think)
+   * flexible layout of controls, and interacts within interacts
  * master-worksheet, collection of other worksheets for a script or book.
  * Permanent hyperlinks between worksheets, independent of worksheet numbering, to support multi-worksheet documents (ie books)
  * enhance history and snapshot capabilities.
  * concurrent editing of one single document: only altered cells are updated and "collision" warnings issued if more than one change happens with appropriate methods to solve it
  * read/write permission management for groups with roles (teacher is able to read notebooks, but students are not able to read each others)
  * basic datasheets (simple Google Docs-like spreadsheets) that can be shared with worksheets in read-only or read-write mode, could be editor to SQLite tables.
+ * content-editable divs for the code cells, so we can support javascript widgets for inputting code (for example, we could have a slider right in the code cell, representing a numeric value, or a javascript graph editor representing a graph, or a wysiwyg formula editor, or color syntax highlighting)
+ * support various types of text cells, so that, at the user's option, we could have a ReST text cell, an HTML (TinyMCE) text cell, a plain text cell, a latex text cell, etc.
  * ...
 
 ==== Authentication backend ====
@@ -57,6 +61,7 @@ Related to enhanced publishing and export abilities, we would like the Sage note
  * Wiki-like platform for editing notebooks for publishing mathematical, physical, statistical and other content. 
  * tagging support, listings by tags
  * efficiently exchange usage examples, tips and ideas.
+ * a repository of useful examples, interacts, etc., distributed with Sage and hosted on a website, that users can query and easily use/adapt.
 
 ==== Internationalization of the notebook ====
 
@@ -115,6 +120,8 @@ Sage relies on a fairly complete C99 libm.  In particular, it expects the "long 
 
 One possible option would be to use glibc and only compile the libm bits.  (Thought glibc is a bit dodgy on the precision side in some areas).
 
+Another possible thing to look at is [[http://lipforge.ens-lyon.fr/www/crlibm/index.html]].
+
 === pynac (optimizing data structures) ===
 
 As the symbolics backend, [[http://pynac.sagemath.org|Pynac]] is a fundamental component of Sage.
@@ -153,6 +160,7 @@ This project would have two steps, the first would be a major optimization for P
 The Sage development process ([[http://www.sagemath.org/doc/developer/index.html|detailed here) involves posting patches on our [[http://sagetrac.org|trac server]], getting them reviewed, and then merged into our source code. Then the code is compiled and tested. Right now, many of these steps are done manually and could be automated and improved. Possible ideas for projects in this area would involve:
 
  * setting up a buildbot with trac integration for tickets with patches (list failing doctests, ...)
+ * set up a code review system like [[http://code.google.com/p/rietveld/|Rietveld]].
  * ...
 
 === Porting ===
