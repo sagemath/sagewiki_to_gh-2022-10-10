@@ -60,7 +60,7 @@ Currently, the user interface for the Sage notebook is all in English.
 Several one-off translations have been done
 ([[http://math1.skku.ac.kr/|Korean]];
 [[http://groups.google.com/group/sage-devel/browse_thread/thread/3c583014d2132cc4/|Russian]])
-involved going through source code and translating each string
+these translations involved going through source code and translating each string
 individually. The goal of the Sage project is to produce a viable
 alternative to Maple, Mathematica, Magma, and Matlab; having the user
 interface available in non-English languages would have a tremendous
@@ -87,7 +87,9 @@ date and time display, and so on.
 This project will not involve any actual translation, just making it
 ''possible'' for the Sage notebook UI to be localized. This is probably a medium-difficulty project, and will not require any specialized knowledge of mathematics or mathematical programming. 
 
-=== Community Tools ===
+Potential mentor: DanDrake
+
+==== Community Tools ====
  * Enhance publishing of Notebook documents (i.e. like on [[http://www.sagenb.org/pub]]).
    * Wiki-like platform for editing notebooks for publishing mathematical, physical, statistical and other content. 
    * tagging support, listings by tags
@@ -147,11 +149,14 @@ This project would have two steps, the first would be a major optimization for P
 
 === Porting ===
 
+Sage is mostly "native" to Linux and OS X. A port to 32-bit Solaris SPARC is mostly complete, and a Cygwin port is underway (it may be working by this summer). But porting to other systems is very useful, both to increase our potential user base, and to help eliminate bugs (see the section "Computational Technique; the Pentium Flaw" in [[http://www.trnicely.net/twins/twins.html|this paper]]). This project would involve assisting our ports to the following platforms:
+
  * Cygwin
  * FreeBSD
  * Solaris 10 64-bit (the 32-bit version is basically complete). 
  * Open Solaris on x64 hardware. 
- * Improvements to the build system (can we use the same system on different platforms, including Windows)?
+
+It could also involve improvements to the build system --  can we use the same system on different platforms, including Windows? Skills required: knowledge of porting software to new compilers and platforms.
 
 === Others ===
 
