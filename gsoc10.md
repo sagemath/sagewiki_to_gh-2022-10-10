@@ -113,6 +113,9 @@ Potential mentor: DanDrake
 
  * libGAP [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
 
+ * Interface with Sage as a Google Wave robot. 
+    Support for sessions across multiple input lines, graphics, images, 3d graphics, collaborative work, authentication via a login, etc. On Sage's side there needs to be an implementation of the federation protocol to communicate with the wave server - or routed through app-engine. A similar approach is [[http://code.google.com/p/wavealpha/|wolfram alpha in google wave]].
+
 
 === Portable C99 libm ===
 
