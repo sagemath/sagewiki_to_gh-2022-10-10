@@ -23,12 +23,13 @@ All #numbers below refer to [[http://trac.sagemath.org|trac tickets]].
 The Sage notebook is an AJAX application similar to Google Documents that provides
 functionality for all mathematical software somewhat like Mathematica notebooks. 
 It was written from scratch (in Javascript and Python) by the Sage development team,
-and has been used daily by thousands of people over the last year.  It's one of the
-main ''killer features'' of Sage.  This project is about improving the notebook.
+and has been used daily by thousands of people over the last year. A number of universities use Sage notebook servers for significant student use. It's one of the main ''killer features'' of Sage.
+
+This project is about improving the notebook.
 No special mathematical knowledge is required.  Knowledge of Javascript, jQuery, Python,
 and general AJAX techniques is needed. 
 
- * Improvements to interact
+ * Improvements to [[interact|@interact]]
  * master-worksheet, collection of other worksheets for a script or book.
  * Permanent hyperlinks between worksheets, independent of worksheet numbering, to support multi-worksheet documents (ie books)
  * enhance history and snapshot capabilities.
@@ -41,11 +42,21 @@ and general AJAX techniques is needed.
 (ldap, kerberos? [[http://trac.sagemath.org/sage_trac/ticket/4309|#4309]])
 
 ==== Slideshow mode ====
-[[http://trac.sagemath.org/sage_trac/ticket/6342|#6342]]
+
+This project would involve improving the slideshow mode for Sage worksheets, which does not work very well right now: [[http://trac.sagemath.org/sage_trac/ticket/6342|#6342]]. Since Sage worksheets run in any modern web browser and already support nice jsmath typesetting, TinyMCE text editing, and of course computation, an attractive and usable slideshow mode would be extremely useful for anyone giving a presentation that involves some kind of computing.
 
 ==== Export to something printable ====
-Enhance export capabilities create methods for well designed PDF, LaTeX (with or without SageTeX) or ODF output.
 
+Enhance export capabilities of Sage worksheets: create methods for well designed PDF, LaTeX (with or without SageTeX) or ODF output. This would be an inverse of sorts of Rob Beezer's [[http://bitbucket.org/rbeezer/tex2sws/|tex2sws]] work, which takes TeX files and converts them into Sage worksheets.
+
+==== Community Tools ====
+
+Related to enhanced publishing and export abilities, we would like the Sage notebook to have better community/social tools. Projects for this could involve:
+
+ * Enhance publishing of Notebook documents (i.e. like on [[http://www.sagenb.org/pub]]).
+ * Wiki-like platform for editing notebooks for publishing mathematical, physical, statistical and other content. 
+ * tagging support, listings by tags
+ * efficiently exchange usage examples, tips and ideas.
 
 ==== Internationalization of the notebook ====
 
@@ -89,11 +100,6 @@ This project will not involve any actual translation, just making it
 
 Potential mentor: DanDrake
 
-==== Community Tools ====
- * Enhance publishing of Notebook documents (i.e. like on [[http://www.sagenb.org/pub]]).
-   * Wiki-like platform for editing notebooks for publishing mathematical, physical, statistical and other content. 
-   * tagging support, listings by tags
-   * efficiently exchange usage examples, tips and ideas.
 
 === Interfaces to Sage ===
 
@@ -144,6 +150,8 @@ This project would have two steps, the first would be a major optimization for P
 
 === Development Process ===
 
+The Sage development process ([[http://www.sagemath.org/doc/developer/index.html|detailed here) involves posting patches on our [[http://sagetrac.org|trac server]], getting them reviewed, and then merged into our source code. Then the code is compiled and tested. Right now, many of these steps are done manually and could be automated and improved. Possible ideas for projects in this area would involve:
+
  * setting up a buildbot with trac integration for tickets with patches (list failing doctests, ...)
  * ...
 
@@ -157,6 +165,8 @@ Sage is mostly "native" to Linux and OS X. A port to 32-bit Solaris SPARC is mos
  * Open Solaris on x64 hardware. 
 
 It could also involve improvements to the build system --  can we use the same system on different platforms, including Windows? Skills required: knowledge of porting software to new compilers and platforms.
+
+Another idea in this vein would be setting up a [[https://help.launchpad.net/Packaging/PPA|Launchpad PPA]] for Sage. The Ubuntu packages for Sage are hopelessly out of date, and because of the large and heterogeneous nature of Sage, packaging for various Linux distributions is quite difficult. Having Ubuntu packages available would be very useful and possibly help us get Sage packaged for other distributions.
 
 === Others ===
 
