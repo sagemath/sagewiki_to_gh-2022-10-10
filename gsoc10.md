@@ -2,6 +2,10 @@
 
 This is the main organization page for the [[http://socghop.appspot.com/|Google Summer of Code]] efforts of the [[http://www.sagemath.org|Sage]] project.
 
+<<TableOfContents(4)>>
+
+== Introduction ==
+
 Sage is an open-source mathematical software system which combines [[http://www.sagemath.org/links-components.html|numerous packages]] under one umbrella with the goal to provide an alternative to major proprietary mathematical software systems (aka the Ma*'s). The software included in Sage use many different languages such as C, C++, Fortran. However, [[http://hg.sagemath.org/sage-main/|the Sage library]] which provides a unified interface to these components besides implementions of novel mathematical algoritms is written in [[http://python.org/|Python]] and [[http://cython.org/|Cython]]. Sage also includes a [[http://nb.sagemath.org/|web-based user interface]] where worksheets are stored for each user. 
 
 With it's friendly development community and diverse challenges including 
@@ -26,34 +30,20 @@ Here is the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2
  * '''March 29 - April 9:''' student application window
  * ...
 
-== GSoC Sage Projects ==
+== Projects Ideas ==
 <<Anchor(projects)>>
 All #numbers below refer to [[http://trac.sagemath.org|trac tickets]]. 
 
-
 === Notebook ===
 
-The Sage notebook is an AJAX application similar to Google Documents that provides
-functionality for all mathematical software somewhat like Mathematica notebooks. 
-It was written from scratch (in Javascript and Python) by the Sage development team,
-and has been used daily by thousands of people over the last year. A number of universities use Sage notebook servers for significant student use. It's one of the main ''killer features'' of Sage.
+[[http://nb.sagemath.org|The Sage notebook]] is an AJAX application similar to Google Documents that provides
+a user interface to mathematical software (not just Sage, also including [[http://www.singular.uni-kl.de|Singular]], [[http://www.gap-system.org/|GAP]], [[http://pari.math.u-bordeaux.fr/|Pari]], [[http://maxima.sourceforge.net/|Maxima]], [[http://www.r-project.org/|R]], [[http://www.math.tu-berlin.de/~kant/kash.html|KASH]] etc.) somewhat like Mathematica notebooks. 
+It was written from scratch (in Javascript and Python) by the Sage development team, and has been used daily by thousands of people over the last year. A number of universities have deployed Sage notebook servers for significant student use. See [[sagenb|here]] for a [[sagenb|list of Sage notebook servers]]. The notebook is one of the ''killer features'' of Sage.
 
 This project is about improving the notebook.
 No special mathematical knowledge is required.  Knowledge of Javascript, jQuery, Python,
 and general AJAX techniques is needed. 
 
- * Improvements to [[interact|@interact]]
-   * a 2d locator widget (there is already a separate bounty for this, around $100 USD or so, I think)
-   * flexible layout of controls, and interacts within interacts
- * master-worksheet, collection of other worksheets for a script or book.
- * Permanent hyperlinks between worksheets, independent of worksheet numbering, to support multi-worksheet documents (ie books)
- * enhance history and snapshot capabilities.
- * concurrent editing of one single document: only altered cells are updated and "collision" warnings issued if more than one change happens with appropriate methods to solve it
- * read/write permission management for groups with roles (teacher is able to read notebooks, but students are not able to read each others)
- * basic datasheets (simple Google Docs-like spreadsheets) that can be shared with worksheets in read-only or read-write mode, could be editor to SQLite tables.
- * content-editable divs for the code cells, so we can support javascript widgets for inputting code (for example, we could have a slider right in the code cell, representing a numeric value, or a javascript graph editor representing a graph, or a wysiwyg formula editor, or color syntax highlighting)
- * support various types of text cells, so that, at the user's option, we could have a ReST text cell, an HTML (TinyMCE) text cell, a plain text cell, a latex text cell, etc.
- * ...
 
 ==== Authentication backend ====
 (ldap, kerberos? [[http://trac.sagemath.org/sage_trac/ticket/4309|#4309]])
@@ -66,7 +56,7 @@ This project would involve improving the slideshow mode for Sage worksheets, whi
 
 Enhance export capabilities of Sage worksheets: create methods for well designed PDF, LaTeX (with or without SageTeX) or ODF output. This would be an inverse of sorts of Rob Beezer's [[http://bitbucket.org/rbeezer/tex2sws/|tex2sws]] work, which takes TeX files and converts them into Sage worksheets.
 
-==== Community Tools ====
+==== Community tools ====
 
 Related to enhanced publishing and export abilities, we would like the Sage notebook to have better community/social tools. Projects for this could involve:
 
@@ -117,6 +107,25 @@ This project will not involve any actual translation, just making it
 ''possible'' for the Sage notebook UI to be localized. This is probably a medium-difficulty project, and will not require any specialized knowledge of mathematics or mathematical programming. 
 
 Potential mentor: DanDrake
+
+
+==== Other ideas for the notebook ====
+
+Here is a list of other possible improvements to the Sage notebook. Feel free to explore these ideas and make them into a proper project. The [[devel/SageTasks|Sage tasks list]] also contains many other similar items. You can email the [[http://groups.google.com/group/sage-notebook|Sage notebook discussion group]] if you are interested in working on these.
+
+ * Improvements to [[interact|@interact]]
+   * a 2d locator widget (there is already a separate bounty for this, around $100 USD or so, I think)
+   * flexible layout of controls, and interacts within interacts
+ * master-worksheet, collection of other worksheets for a script or book.
+ * Permanent hyperlinks between worksheets, independent of worksheet numbering, to support multi-worksheet documents (ie books)
+ * enhance history and snapshot capabilities.
+ * concurrent editing of one single document: only altered cells are updated and "collision" warnings issued if more than one change happens with appropriate methods to solve it
+ * read/write permission management for groups with roles (teacher is able to read notebooks, but students are not able to read each others)
+ * basic datasheets (simple Google Docs-like spreadsheets) that can be shared with worksheets in read-only or read-write mode, could be editor to SQLite tables.
+ * content-editable divs for the code cells, so we can support javascript widgets for inputting code (for example, we could have a slider right in the code cell, representing a numeric value, or a javascript graph editor representing a graph, or a wysiwyg formula editor, or color syntax highlighting)
+ * support various types of text cells, so that, at the user's option, we could have a ReST text cell, an HTML (TinyMCE) text cell, a plain text cell, a latex text cell, etc.
+ * ...
+
 
 
 === Interfaces to Sage ===
