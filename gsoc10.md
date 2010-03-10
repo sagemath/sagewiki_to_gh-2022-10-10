@@ -51,7 +51,11 @@ The Sage notebook is used in [[sagenb|many universities]]. Using the already exi
 
 ==== Slideshow mode ====
 
-This project would involve improving the slideshow mode for Sage worksheets, which does not work very well right now: [[http://trac.sagemath.org/sage_trac/ticket/6342|#6342]]. Since Sage worksheets run in any modern web browser and already support nice jsmath typesetting, TinyMCE text editing, and of course computation, an attractive and usable slideshow mode would be extremely useful for anyone giving a presentation that involves some kind of computing.
+This project would involve adding a slideshow mode to the Sage notebook. Since Sage worksheets run in any modern web browser and already support nice jsmath typesetting, TinyMCE text editing, and of course computation, an attractive and usable slideshow mode would be extremely useful for anyone giving a presentation that involves some kind of computing.
+
+See [[http://trac.sagemath.org/sage_trac/ticket/6342|#6342]] for a previous attempt to implement this before the notebook became a separate component. 
+
+Potential mentor: William Stein
 
 ==== Export to something printable ====
 
@@ -129,14 +133,17 @@ Here is a list of other possible improvements to the Sage notebook. Feel free to
 
 
 
-=== Interfaces to Sage ===
+=== Interfaces to/from Sage ===
 
- * Sage as a C library
+==== Sage as a C library ====
   Make it easier to call Sage from other applications. 
 
- * libGAP [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
+==== libGAP ====
 
- * Interface with Sage as a Google Wave robot. 
+ [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
+
+==== Google Wave robot ====
+
     Support for sessions across multiple input lines, graphics, images, 3d graphics, collaborative work, authentication via a login, etc. On Sage's side there needs to be an implementation of the federation protocol to communicate with the wave server - or routed through app-engine. A similar approach is [[http://code.google.com/p/wavealpha/|wolfram alpha in google wave]].
 
 
@@ -148,7 +155,7 @@ One possible option would be to use glibc and only compile the libm bits.  (Thou
 
 Another possible thing to look at is [[http://lipforge.ens-lyon.fr/www/crlibm/index.html]].
 
-=== pynac (optimizing data structures) ===
+=== pynac  ===
 
 As the symbolics backend, [[http://pynac.sagemath.org|Pynac]] is a fundamental component of Sage.
 With some work and optimization, it could also be used for arithmetic
@@ -157,6 +164,10 @@ based on a solid library [[http://www.ginac.de|GiNaC]], which has [[http://www.g
 and very readable code.
 
 '''Skills:''' C++, (the necessary Cython and Python can be picked up easily)
+
+Potential mentor: Burcin Erocal
+
+==== Optimization / better data structures ====
 
 This project would have two steps, the first would be a major optimization for Pynac also a good introduction to the library, coding conventions, type hierarchy, etc. The second would involve replacing the basic datatypes (vectors with heaps), lot's of timings and experiments to improve performance.
 
@@ -180,6 +191,8 @@ This project would have two steps, the first would be a major optimization for P
    * (Geobuckets) http://dx.doi.org/10.1006/jsco.1997.0176
    * (Johnson's paper) http://doi.acm.org/10.1145/1086837.1086847
    * http://www.cecm.sfu.ca/~mmonagan/papers/sdmp19.pdf
+
+==== Pretty printing ====
 
 === Development Process ===
 
