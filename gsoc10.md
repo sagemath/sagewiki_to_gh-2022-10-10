@@ -141,7 +141,9 @@ Sage provides a unified interface to lots of different specialized mathematics s
 
 Besides being a distribution of the best open source mathematical software, Sage is also a library for implementing mathematical structures and experimenting with new algorithms. At the moment, this library is only usable from Python. Since Python can be embedded in C/C++, it is possible to call any Sage function from other (mathematics) libraries/software. This is especially interesting since the capabilities of Sage is increasing very rapidly and it includes very efficient (if not the fastest) implementations of many basic algorithms (for example [[http://tiny.cc/Cq49c|Hermite normal form]]). 
 
-Make it easier to call Sage from other applications. 
+Make it easier to call Sage from other applications. Example code here:
+
+ http://sage.math.washington.edu/home/burcin/sage_link/
 
 Potential mentor: Burcin Erocal
 
