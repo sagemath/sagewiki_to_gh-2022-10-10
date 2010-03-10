@@ -11,9 +11,13 @@ With it's friendly development community and diverse challenges including
  * providing a web-based user interface for easy experimentation and collaboration in mathematics
 Sage provides projects that might appeal to contributors with different interests and skill levels.
 
-'''If you're a student''' interested in working on any of the [[#projects|projects]] described below, or if you want to suggest any other projects, please write a short message to [[http://groups.google.com/group/sage-devel|sage-devel@googlegroups.com]] introducing yourself (background, skills) and your interests.
+'''If you're a student''' interested in working on any of the [[#projects|projects]] described below, note that these are mostly rough ideas. Feel free to ask questions or suggest other projects by writing to [[http://groups.google.com/group/sage-devel|sage-devel@googlegroups.com]].
 
-'''If you're a Sage developer''', please take some time to organize the list below and add more ideas. The [[gsoc10#notes|notes section]] contains some guidelines from the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs|GSOC FAQ]].
+'''If you're a Sage developer''', please take some time to organize the list below and add more ideas. The [[gsoc10#notes|notes section]] contains some guidelines from the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs|GSOC FAQ]]. These projects should be doable with less than 3 months of full time work. Projects should generally have (copied from the [[http://community.kde.org/GSoC/2010/Ideas|KDE list]]):
+	* a brief explanation
+	* the expected results
+	* pre-requisites for working on the project 
+	* names of possible mentors, information on how to contact them
 
 == Important Dates ==
 Here is the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/timeline|original timeline]]. Some highlights:
