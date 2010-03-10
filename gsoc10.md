@@ -46,7 +46,8 @@ and general AJAX techniques is needed.
 
 
 ==== Authentication backend ====
-(ldap, kerberos? [[http://trac.sagemath.org/sage_trac/ticket/4309|#4309]])
+
+The Sage notebook is used in [[sagenb|many universities]]. Using the already existing user database and authentication facilities of the university for signing in to the Sage notebook is an often requested feature. There have been attempts to integrate ~-LDAP-~ and ~-KERBEROS-~ ([[http://trac.sagemath.org/sage_trac/ticket/4309|#4309]]) authentication before. 
 
 ==== Slideshow mode ====
 
