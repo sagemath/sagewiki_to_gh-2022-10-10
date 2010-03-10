@@ -135,12 +135,21 @@ Here is a list of other possible improvements to the Sage notebook. Feel free to
 
 === Interfaces to/from Sage ===
 
+Sage provides a unified interface to lots of different specialized mathematics software. This is all due to the various interfaces written by Sage developers. The sophistication level of these varies greatly, from passing messages on a text terminal and parsing results (see [[http://sagemath.org/doc/reference/interfaces.html|interpreter interfaces]] in the reference manual) to dynamically importing functions defined in an interpreted language from Singular and converting Sage types to Singular data structures on the fly (see libraries section of [[ReleaseTours/sage-4.3.2|Sage-4.3.2 release tour]]).
+
 ==== Sage as a C library ====
-  Make it easier to call Sage from other applications. 
+
+Besides being a distribution of the best open source mathematical software, Sage is also a library for implementing mathematical structures and experimenting with new algorithms. At the moment, this library is only usable from Python. Since Python can be embedded in C/C++, it is possible to call any Sage function from other (mathematics) libraries/software. This is especially interesting since the capabilities of Sage is increasing very rapidly and it includes very efficient (if not the fastest) implementations of many basic algorithms (for example [[http://tiny.cc/Cq49c|Hermite normal form]]). 
+
+Make it easier to call Sage from other applications. 
+
+Potential mentor: Burcin Erocal
 
 ==== libGAP ====
 
  [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
+
+Potential mentor: William Stein
 
 ==== Google Wave robot ====
 
