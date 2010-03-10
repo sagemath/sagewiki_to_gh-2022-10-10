@@ -2,6 +2,15 @@
 
 This is the main organization page for the [[http://socghop.appspot.com/|Google Summer of Code]] efforts of the [[http://www.sagemath.org|Sage]] project.
 
+Sage is an open-source mathematical software system which combines [[http://www.sagemath.org/links-components.html|numerous packages]] under one umbrella with the goal to provide an alternative to major proprietary mathematical software systems (aka the Ma*'s). The software included in Sage use many different languages such as C, C++, Fortran. However, [[http://hg.sagemath.org/sage-main/|the Sage library]] which provides a unified interface to these components besides implementions of novel mathematical algoritms is written in [[http://python.org/|Python]] and [[http://cython.org/|Cython]]. Sage also includes a [[http://nb.sagemath.org/|web-based user interface]] where worksheets are stored for each user. 
+
+With it's friendly development community and diverse challenges including 
+ * linking together software systems intended to be used through a command line interface,
+ * efficient implementation of novel mathematical ideas, 
+ * making sure all the components build without problems on a wide range of platforms, and
+ * providing a web-based user interface for easy experimentation and collaboration in mathematics
+Sage provides projects that might appeal to contributors with different interests and skill levels.
+
 '''If you're a student''' interested in working on any of the [[#projects|projects]] described below, or if you want to suggest any other projects, please write a short message to [[http://groups.google.com/group/sage-devel|sage-devel@googlegroups.com]] introducing yourself (background, skills) and your interests.
 
 '''If you're a Sage developer''', please take some time to organize the list below and add more ideas. The [[gsoc10#notes|notes section]] contains some guidelines from the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs|GSOC FAQ]].
