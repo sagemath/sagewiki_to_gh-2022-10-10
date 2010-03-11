@@ -195,3 +195,12 @@ script /dev/null
 screen
 ./startnotebook
 }}}
+
+I also added this to ~/sage/sage to control process limits:
+
+{{{
+if [[ `whoami` = sageuser* ]]; then
+   echo "User " `whoami`
+   ulimit -v 1500000 -u 300 -n 128 -t 1800
+fi
+}}}
