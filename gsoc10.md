@@ -15,7 +15,7 @@ With it's friendly development community and diverse challenges including
  * providing a web-based user interface for easy experimentation and collaboration in mathematics
 Sage provides projects that might appeal to contributors with different interests and skill levels.
 
-'''If you're a student''' interested in working on any of the [[#projects|projects]] described below, note that these are mostly rough ideas. Feel free to ask questions or suggest other projects by writing to [[http://groups.google.com/group/sage-devel|sage-devel@googlegroups.com]].
+'''If you're a student''' interested in working on any of the [[#projects|projects]] described below, note that these are mostly rough ideas. Feel free to ask questions or suggest other projects by writing to [[http://groups.google.com/group/sage-devel|sage-devel@googlegroups.com]]. Here is the [[gsoc/proposal_template|student application template]] we recommend students to use for their application.
 
 '''If you're a Sage developer''', please take some time to organize the list below and add more ideas. The [[gsoc10#notes|notes section]] contains some guidelines from the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs|GSOC FAQ]]. These projects should be doable with less than 3 months of full time work. Projects should generally have (copied from the [[http://community.kde.org/GSoC/2010/Ideas|KDE list]]):
 	* a brief explanation
@@ -166,6 +166,8 @@ One possible option would be to use glibc and only compile the libm bits.  (Thou
 
 Another possible thing to look at is [[http://lipforge.ens-lyon.fr/www/crlibm/index.html]].
 
+Potential mentor: Peter Jeremy
+
 === pynac  ===
 
 As the symbolics backend, [[http://pynac.sagemath.org|Pynac]] is a fundamental component of Sage.
@@ -225,6 +227,8 @@ Sage is mostly "native" to Linux and OS X. A port to 32-bit Solaris SPARC is mos
 It could also involve improvements to the build system --  can we use the same system on different platforms, including Windows? Skills required: knowledge of porting software to new compilers and platforms.
 
 Another idea in this vein would be setting up a [[https://help.launchpad.net/Packaging/PPA|Launchpad PPA]] for Sage. The Ubuntu packages for Sage are hopelessly out of date, and because of the large and heterogeneous nature of Sage, packaging for various Linux distributions is quite difficult. Having Ubuntu packages available would be very useful and possibly help us get Sage packaged for other distributions.
+
+Potential mentor: Peter Jeremy, William Stein
 
 === Others ===
 
