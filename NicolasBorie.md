@@ -2,9 +2,9 @@
 #format wiki
 == NicolasBorie ==
 
-Email: <<MailTo(nicolas.borie42 AT SPAMFREE laposte DOT net)>>
+Email: <<MailTo(nicolas.borie AT SPAMFREE math DOT u-psud DOT fr)>>
 
-I am a French student. I a new developer of SAGE-combinat.  
+I am a French PhD student under the direction of Nicolas M. Thiéry. I am developer of SAGE-combinat. My thesis is about the invariant ring of a permutation group.
 
 ----
 CategoryHomepage
