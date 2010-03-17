@@ -1,0 +1,606 @@
+% !TEX encoding = IsoLatin
+% !TEX TS-program = pdflatex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                               %
+% DOCUMENTO: VisitaSAGE.tex                     %
+%                                               %
+% UNA VISITA R\'APIDA A SAGE                    %
+%                                               %
+% Juan Luis Varona,                             %
+% Dpto. de Matem\'aticas y Computaci\'on,       %
+% Universidad de La Rioja,                      %
+% 26004 Logro\~no, SPAIN                        %
+%                                               %
+% http://www.unirioja.es/cu/jvarona/            %
+% jvarona@unirioja.es                           %
+%                                               %
+% Comienzo de escritura: 1-junio-2009           %
+% \'Ultima versi\'on: 8-febrero-2010            %
+%                                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2010 J. L. Varona                                       %
+% GNU Free Documentation License                                        %
+%                                                                       %
+% Esta documentaci\'on es libre y puede redistribuirse bajo             %
+% las condiciones de la Free Documentation License de GNU.              %
+%                                                                       %
+% Copyright (C) 2010 Juan Luis Varona                                   %
+% Permission is granted to copy, distribute and/or modify this document %
+% under the terms of the GNU Free Documentation License, Version 1.3    %
+% or any later version published by the Free Software Foundation.       %
+% http://www.gnu.org/copyleft/fdl.html                                  %
+%                                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% NOTA:                                                      %
+%%%%%%% Todo esto funciona, al menos, con Sage 4.3.1               %
+%%%%%%% Es posible que, con otras versiones, haya problemas.       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,twocolumn,8pt]{amsart}
+
+
+\usepackage{geometry}
+\geometry{pdftex,
+  twoside,
+  a4paper,
+  paperheight = 21.0cm, 
+  paperwidth = 29.7cm, % Ya no hay que poner "landscape"
+  columnsep = 1.0cm, % Ya no hay que poner "landscape"
+  marginparwidth = 0cm,
+  top = 1.2cm,
+  bottom = 1.2cm,
+  left = 1.1cm,
+  right = 1.1cm,
+  centering
+}
+
+%% OPCIÓN ORIGINAL 8pt EN amsart.cls:
+%\DeclareOption{8pt}{\def\@mainsize{8}\def\@ptsize{8}%
+%  \def\@typesizes{%
+%    \or{5}{6}\or{5}{6}\or{5}{6}\or{6}{7}\or{7}{8}%
+%    \or{8}{10}% normalsize
+%    \or{9}{11}\or{10}{12}\or{\@xipt}{13}%
+%    \or{\@xiipt}{14}\or{\@xivpt}{17}}%
+%  \normalsize \linespacing=\baselineskip
+%}
+%% REDEFINO 8pt PARA QUE SEA AUN MÁS PEQUEÑO:
+\makeatletter
+\def\@mainsize{7}\def\@ptsize{7}%
+  \def\@typesizes{%
+    \or{5}{6}\or{5}{6}\or{5}{6}\or{5}{6}\or{6}{7}%
+    \or{7}{9}% normalsize
+    \or{8}{10}\or{9}{11}\or{10}{12}%
+    \or{\@xipt}{13}\or{\@xivpt}{17}}%
+  \normalsize \linespacing=\baselineskip
+\makeatother
+
+\nofiles % .aux is not necessary
+
+\sloppy
+\pagestyle{empty}
+
+\usepackage[latin1]{inputenc}  %%%% latin1 en un PC; applemac en un Mac
+\usepackage[spanish]{babel}
+
+%%% LAS COMILLAS "DE CÓDIGO" SE IDENTIFICAN MUCHO MEJOR COMO COMILLAS:
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% NO LO USO (pues "a mano" ahorro espacio):
+\title{UNA VISITA R\'APIDA A SAGE}
+\author{Juan Luis Varona}
+\date{8 de febrero de 2010}
+
+\begin{document}
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace*{-4mm}
+%\maketitle
+%\thispagestyle{empty}
+%\vspace*{-3mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\Large\bfseries UNA VISITA R\'APIDA A SAGE\\[1mm]
+\large\normalfont Juan Luis Varona (8 - febrero - 2010)\\
+\normalfont
+Sage Version 4.3.1\\ 
+\texttt{http://wiki.sagemath.org/quickref}\\ 
+GNU Free Document License
+\medskip
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Sage (\texttt{http://www.sagemath.org}) 
+es un entorno de cálculos matemáticos de código abierto que,
+gracias a los diversos programas que incorpora, permite 
+llevar a cabo cálculos algebraicos, simbólicos y numéricos.
+El objetivo de Sage es crear una alternativa libre y viable a
+Magma, Maple, Mathematica y Matlab, todos ellos potentes
+(y muy caros) programas comerciales.
+
+Sage sirve como calculadora simbólica de precisión arbitraria, pero
+también puede efectuar cálculos y resolver problemas
+usando métodos numéricos (es decir, de manera aproximada).
+Para todo ello emplea algoritmos que tiene implementados él mismo
+o que toma prestados de alguno de los programas que incorpora,
+como Maxima, NTL, GAP, Pari/gp, R y Singular.
+Y~para llevar a cabo algunas tareas puede utilizar paquetes
+especializados opcionales.
+Incluye un lenguaje de programación propio, que es una extensión 
+de Python (Sage mismo está escrito en Python); es muy recomendable
+conocer Python para hacer un uso avanzado de Sage.
+
+Sage no sólo consta del programa en sí mismo, que efectúa 
+los cálculos, y con el que podemos comunicarnos a través de
+terminal, sino que incorpora un interfaz gráfico de usuario 
+a través de cualquier navegador web;
+para representar las fórmulas y expresiones matemáticas utiliza jsMath, 
+una implementación de \LaTeX\ por medio de JavaScript.
+Sin necesidad de descargarlo e instalarlo en nuestro ordenador,
+podemos utilizar Sage en \texttt{http://www.sagenb.org}.
+Pero no nos preocupemos de ello; simplemente,
+¡echemos un vistazo a su sintaxis y su funcionamiento!
+
+\begin{enumerate}
+% Por defecto en amsart: \itemsep=0.0pt
+
+\item Uso como calculadora:
+\begin{verbatim}
+5+4/3
+\end{verbatim}
+
+\item Sage utiliza paréntesis \verb|( )| para agrupar:
+\begin{verbatim}
+(5+4)/3
+\end{verbatim}
+
+\item Y también los usa como argumentos de funciones:
+\begin{verbatim}
+cos(0)
+\end{verbatim}
+
+\item Corchetes \verb|[ ]| para formar listas (con sus elementos
+separados por comas):
+\begin{verbatim}
+v = [3,4,-6]      # Alternativa:  v = vector([3,4,-6])  
+\end{verbatim}
+
+\item También corchetes para acceder a elementos de listas (enumera contando desde~$0$, como en C y en Python):
+\begin{verbatim}
+v[2]
+\end{verbatim}
+
+\item Como calculadora, Sage proporciona resultados exactos:
+\begin{verbatim}
+3^100             # Se usa ** o ^ para elevar a una potencia
+factorial(1000)
+\end{verbatim}
+
+\item Sin embargo, no ocurre así si alguno de los números involucrados
+en el cálculo tiene decimales (la parte que sigue al \verb|#| es un comentario):
+\begin{verbatim}
+3.0^100      # 3.0 es un número real, no un entero. 
+\end{verbatim}
+
+\item También efectúa cálculos exactos cuando aparecen funciones:
+\begin{verbatim}
+arctan(1)
+\end{verbatim}
+
+\item Con los comandos \verb|n| o \verb|N| conseguimos aproximaciones numéricas
+(ambos comandos son alias de \verb|numerical_approx|).
+El símbolo \verb|_| alude al último resultado obtenido:
+\begin{verbatim}
+N(_)
+\end{verbatim}
+
+\item Estas aproximaciones pueden tener la precisión que deseemos.
+Por ejemplo, evaluemos $\sqrt{10}$ con $50$ cifras exactas:
+\begin{verbatim}
+N(sqrt(10), digits=50)
+sqrt(10).n(digits=50)
+N(sqrt(10), 170)      # Significa bits de precisión, no dígitos
+\end{verbatim}
+
+%\pagebreak[3]
+
+\item Definición y uso de variables simbólicas (se puede usar \verb|"| o~\verb|'|, y poner comas o no ponerlas):
+\begin{verbatim}
+var("alpha, x, y, z")              # Definimos alpha, x, y, z 
+z = sqrt(7*x + y^5 - sin(alpha))   # (z no hacía falta)
+show(z)     # (o jsmath(z))   ¡LaTeX se encarga de dar formato!
+latex(z)    # Proporciona el código LaTeX
+\end{verbatim}
+
+%% NO: NO SE HACERLO
+%\item Añadiendo \verb|;| los cálculos se efectúan, pero el resultado
+%no se muestra en la pantalla:
+%\begin{verbatim}
+%w = (20*6 + 1962)^1000;
+%\end{verbatim}
+
+\item Sage permite operar con números complejos (\verb|i| o \verb|I| es la
+unidad imaginaria):
+\begin{verbatim}
+(3+4*I)^10
+e^(i*pi)      # Da iguar usar e o E
+\end{verbatim}
+
+\item Podemos definir expresiones simbólicas y manipularlas
+(aquí, \verb|;| sirve para separar órdenes):
+\begin{verbatim}
+var('x'); p = (x+1)*(x-1)^2     # El * es importante
+q = expand(p); q
+\end{verbatim}
+
+\item En este ejemplo, el camino inverso lo recorreríamos con
+\begin{verbatim}
+factor(q)
+\end{verbatim}
+
+\item Ahora, hallemos (numéricamente) una raíz de
+\verb|q| que esté entre~\verb|0| y~\verb|3|:
+\begin{verbatim}
+find_root(q, 0, 3)
+\end{verbatim}
+
+\item Otro ejemplo de lo mismo:
+\begin{verbatim}
+var("theta")
+find_root(cos(theta) == sin(theta)+1/5, 0, pi/2)
+\end{verbatim}
+
+%%% ESTO ES DE MATEMATICA. EN SAGE NO HAY NADA SIMILAR
+%\item Al asignar, hay que distinguir entre \verb|=| (la expresión toma valor
+%al dar su de\-fi\-ni\-ción) y \verb|:=| (la expresión toma valor cuando se usa).
+%Véase la diferencia (aquí, \verb|;| sirve para separar órdenes):
+%\begin{verbatim}
+%a=3; b=7; x=a; y:=b; {x,y}
+%a=2; b=4; {x,y}
+%\end{verbatim}
+
+\item Para conocer el tiempo empleado por Sage en efectuar un cálculo:
+\begin{verbatim}
+time is_prime(2^127-1)
+time factor(2^128-1)
+\end{verbatim}
+
+\item Podemos librarnos de una asignación o definición previa mediante
+\begin{verbatim}
+reset("a")
+reset()     # Reinicia todo Sage
+\end{verbatim}
+
+\item Así se define la función $f(x) = \frac{1}{1+x^2}$:
+\begin{verbatim}
+f(x) = 1/(1+x^2)
+\end{verbatim}
+
+\item Y así se usa:
+\begin{verbatim}
+var("r"); [f(x), f(x+1), f(3), f(r)]
+\end{verbatim}
+
+%%% ESTO LO DEJA IGUAL:
+%\item Usando \verb|simplify|, Sage simplifica
+%expresiones mediante reglas algebraicas y trigonométricas:
+%\begin{verbatim}
+%simplify(1-f(x))
+%\end{verbatim}
+
+\item La orden \verb|diff| permite obtener la derivada (o derivadas parciales) de una función:
+\begin{verbatim}
+var("x,y")
+diff(f(x))               # f la función definida antes
+diff(sin(x^2), x, 4)     # Derivada cuarta
+diff(x^2 + 17*y^2, y)    # También se puede usar derivative
+\end{verbatim}
+
+\item Así calcularíamos una primitiva de $f$:
+\begin{verbatim}
+integrate(f(x),x)        # Da igual usar integral o integrate
+\end{verbatim}
+
+\item La integral definida $\int_0^1 f(x)\,dx$ podemos evaluarla
+exactamente (mediante la regla de Barrow, por ejemplo) o numéricamente
+(mediante una fórmula de cuadratura):
+\begin{verbatim}
+var("x")
+integral(x*sin(x^2), x)
+show(integrate(x/(1-x^3))) 
+integral(x/(x^2+1), x, 0, 1)
+\end{verbatim}
+
+\item También existe integración numérica, pero su sintaxis es diferente.
+En la respuesta que se obtiene, el primer elemento es el resultado,
+y el segundo una cota del error:
+\begin{verbatim} 
+integral(x*tan(x), x)
+integral(x*tan(x), x,0,1)    # Lo devuelve sin hacer 
+numerical_integral(x*tan(x), 0,1)
+\end{verbatim}
+
+%	\item Otros ejemplos interesantes respecto al comportamiento con integrales:
+%	\begin{verbatim}
+%	Integrate[E^(-x^2), x]
+%	Integrate[E^(-x^2), {x, -Infinity, Infinity}]
+%	N[Integrate[1/x^2, {x, -2, 1}]]
+%	NIntegrate[1/x^2, {x, -2, 1}]
+%	NIntegrate[Sin[x]/x, {x, 1, Infinity}]
+%	NIntegrate[Sin[x]/x, {x, 1, Infinity}, Method -> Oscillatory]
+%	Integrate[1/x, {x, -1, 1}, PrincipalValue -> True]
+%	\end{verbatim}
+
+%	\item A veces es un buen truco utilizar esto:
+%	\begin{verbatim}
+%	NIntegrate[Sin[x]/x, {x, -2, 2}]
+%	h[x_] := Sin[x]/x; h[0.] = 1; NIntegrate[h[x], {x, -2, 2}]
+%	\end{verbatim}
+
+%\pagebreak[3]
+
+\item Cálculo de límites:
+\begin{verbatim}
+limit(sin(x)/abs(x), x=0)    # Se da cuenta de que no existe
+limit(sin(x)/abs(x), x=0, dir="minus")
+limit(sin(x)/abs(x), x=0, dir="plus")
+\end{verbatim}
+
+\item Conoce la equivalencia de Stirling:
+\begin{verbatim}
+lim(factorial(x)*exp(x)/x^(x+1/2), x=oo)     # oo es lo mismo que infinity
+\end{verbatim}
+
+\item Las funciones se pueden definir a trozos:
+\begin{verbatim}
+g = Piecewise([[(-5,1),(1-x)/2], [(1,8),sqrt(x-1)]],x)
+\end{verbatim}
+
+%\pagebreak[4]
+
+\item Para representar funciones disponemos del comando \verb|plot|:
+\begin{verbatim}
+plot(g)    #  o g.plot()
+plot(cos(x^2), -5, 5, thickness=5, rgbcolor=(0.5,1,0.5), fill = 'axis')
+plot(bessel_J(2,x,"maxima"), 0, 20)    # Funciona pero es muuuuuy lento
+\end{verbatim}
+
+%	sage: plot.options 
+%	{'fillalpha': 0.5, 'detect_poles': False, 'plot_points': 200, 
+%	'thickness': 1, 'adaptive_tolerance': 0.01, 'fillcolor': 'automatic', 
+%	'alpha': 1, 'adaptive_recursion': 5, 'rgbcolor': (0, 0, 1), 'fill': 
+%	None} 
+%	sage: plot.options['rgbcolor'] = (0,0,0) 
+%	sage: plot(sin) 
+%	[outputs a black plot of sin] 
+
+%\pagebreak[4]
+
+\item Así se guarda un gráfico en el disco duro:
+% En mi mac, "/Users/jvarona/dibujo.pdf"
+\begin{verbatim}
+save(plot(sin(x)/x, -5, 5), "ruta/dibujo.pdf")   # o plot(...).save("...")
+\end{verbatim}
+
+\item También podemos representar funciones en paramétricas,
+gráficos en tres dimensiones, curvas de nivel\dots
+\begin{verbatim}
+automatic_names(true)    # Ya no necesitamos predefinir las variables (v. 4.3.1)
+parametric_plot((cos(t),sin(t)), 0,2*pi).show(aspect_ratio=1, frame=true)
+plot3d(4*x*exp(-x^2-y^2), (x,-2,2), (y,-2,2))
+contour_plot(sin(x*y), (x,-3,3), (y,-3,3), contours=5, plot_points=80)
+\end{verbatim}
+
+\item Incluso funciones en implícitas en dos y tres dimensiones:
+\begin{verbatim}
+implicit_plot(sin(x*y) + sin(x)*sin(y) == 1, (x,-5,5), (y,-5,5))
+implicit_plot3d(x^4 + y^4 + z^4 == 16, 
+  (x, -2, 2), (y, -2, 2), (z, -2, 2), viewer='tachyon')
+\end{verbatim}
+
+\item Con \verb|+| se superponen gráficos:
+\begin{verbatim} 
+plot(2*t^2/3+t, 0, 6) + plot(3*t+20, 0, 6, rgbcolor='red') 
+  + line([(0, 10), (6, 10)], rgbcolor='green')
+\end{verbatim}
+
+%	\item Cargando paquetes especializados (Mathematica incluye muchísimos)
+%	aumentamos sus posibilidades gráficas:
+%	\begin{verbatim}
+%	<< Graphics`InequalityGraphics`
+%	InequalityPlot[1 <= (x+2y)^2 + 4y^2 <= 4, {x, -3, 3}, {y, -3, 3}]
+%	\end{verbatim}
+
+\item Podemos hacer animaciones:
+\begin{verbatim}
+onda = animate([sin(x+k) for k in srange(0,10,0.5)], xmin=0, xmax=8*pi)
+onda.show(delay=30, iterations=1)
+\end{verbatim}
+
+\item Y gráficos interactivos:
+\begin{verbatim}
+f = sin(x)*e^(-x)
+dibujof = plot(f,-1,5, thickness=2)
+punto = point((0,f(x=0)), pointsize=80, rgbcolor=(1,0,0))
+@interact
+def _(orden=(1..12)):          # La variable de control 
+  ft = f.taylor(x,0,orden)
+  dibujotaylor = plot(ft,-1, 5, color="green", thickness=2)
+  show(punto + dibujof + dibujotaylor, ymin = -.5, ymax = 1)
+\end{verbatim}
+
+\item Para buscar ayuda sobre un comando (especialmente, su sintaxis y ejemplos de uso),
+basta poner \verb|?| tras el nombre del comando;
+con \verb|??| se obtiene información más técnica (sobre el código fuente):
+\begin{verbatim}
+plot? 
+numerical_integral??
+\end{verbatim}
+
+%	NO FUNCIONA:
+%	\item El símbolo \verb|*| actúa como comodín:
+%	\begin{verbatim}
+%	complex*?
+%	*trig*?
+%	\end{verbatim}
+
+\item También podemos buscar en la documentación:
+\begin{verbatim}
+search_doc("rgbcolor")
+\end{verbatim}
+
+\item La orden \verb|solve| sirve para resolver ecuaciones
+(obsérvese que se emplea \verb|==|) o sistemas:
+% Proporciona soluciones exactas (o, prácticamente, lo devuelve sin hacer).
+% Lo de "automatic_names" lo implementaron en la versión 4.3.1 de Sage
+\begin{verbatim}
+solve(x^2-2 == 0, x)
+f = x^4 + 2*x^3 - 4*x^2 - 2*x + 3
+solve(f == 0, x, multiplicities=true)
+soluciones = solve([9*x - y == 2, x^2 + 2*x*y + y == 7], x, y)
+soluciones[0][0].rhs()   # Componente x de la primera solución
+\end{verbatim}
+
+%\pagebreak[3]
+
+\item En la versión 4.3.1, Sage aún no sabe sumar series, pero se lo podemos pedir a Maxima:
+\begin{verbatim}
+sum(1/n^2 for n in (1..20))    # No sabe si en vez de 20 ponemos oo
+maxima("sum(1/n^2,n,1,inf), simpsum")
+\end{verbatim}
+
+\item Las matrices y vectores se crean así:
+\begin{verbatim}
+A = matrix([[-4,1,0],[3,5,-2],[6,8,3]]);
+B = identity_matrix(3)
+v = vector([3,-2,8]); w = vector([-1,1,1])
+H = matrix([[1/(i+j+1) for i in [0..2]] for j in [0..2]])
+\end{verbatim}
+
+\item Y con ellos se opera como sigue:
+\begin{verbatim}
+T = A^2*transpose(A) - 5*B - (1/20)*det(A)*exp(B)
+v.dot_product(w)    # Producto escalar
+H.inverse()         # También se puede usar ~H o H^(-1)
+\end{verbatim}
+
+\item El sistema de ecuaciones lineales $A x = w$ se resuelve con
+(si se hace simbólico con parámetros, no estudia casos)
+\begin{verbatim}
+x = A\w
+\end{verbatim}
+
+\item Sage nos permite resolver ecuaciones diferenciales:
+\begin{verbatim}
+x = var("x"); y = function("y",x) 
+desolve(diff(y,x,2)-2*diff(y,x)-3*y == exp(x)*sin(x),y)
+desolve(diff(y,x) + 2*y - 8 == 0, y, ics=[3,5])  # Condición inicial y(3) = 5
+desolvers?   # Más órdenes para resolver ecuaciones diferenciales (o sistemas)
+\end{verbatim} % También: ode_solvers?
+% Respuesta: k1*e^(3*x) + k2*e^(-x) - 1/5*e^x*sin(x)
+
+%%% NO ENCUENTRO NINGÚN EJEMPLO NUMÉRICO FÁCIL USANDO scipy. 
+%\item Resolución numérica de ecuaciones diferenciales mediante un método de Runge-Kutta:
+\item También podemos resolverlas mediante métodos numéricos (p.e., con un Runge-Kutta):
+\begin{verbatim}
+y = function('y',x)
+sol = desolve_rk4(diff(y,x)+y*(y-2) == x-3, y, ics=[1,2], step=0.1, end_points=8)
+list_plot(sol, plotjoined=True, color="purple")
+\end{verbatim}
+
+\item Usando \verb|simplify|, Sage simplifica expresiones
+(suele ser muy cuidadoso):
+\begin{verbatim}
+var("x"); sqrt(x^2)
+sqrt(x^4)
+simplify(_)    # Sigue sin hacer nada
+assume(x>0); simplify(sqrt(x^2))   # Ya simplifica
+\end{verbatim}
+% sqrt(4, all=True)   # da 2 y -2
+% sqrt(16, extend=True)    # da 4
+
+\item También con expresiones trigonométricas:
+\begin{verbatim}
+sin(asin(y))  # Devuelve y
+asin(sin(x))  # Lo devuelve "sin hacer"
+simplify(_)   # Sigue sin hacer nada
+assume(-pi/2 <= x <= pi/2); simplify(asin(sin(x)))
+var('k t'); assume(k, 'integer'); simplify(sin(t+2*k*pi))
+\end{verbatim}
+
+\item Pero Sage a veces hace chapuzas:
+\begin{verbatim}
+find_root(x*exp(-x), 2, 100)
+\end{verbatim}
+
+\item Obsérvese también esto:
+\begin{verbatim}
+t=-40.0;    # Número real 
+sum([t^n/factorial(n) for n in [0..300]])
+t = -40     # Número entero 
+N(sum([t^n/factorial(n) for n in [0..300]]))
+\end{verbatim}
+% Por defecto, no parece haber sumas numéricas
+
+\item Un ejemplo que muestra un programita hecho en Python
+(con \verb|"""..."""| ponemos la información que aparecerá al usar \verb|letraDelDNI?|):
+\begin{verbatim}
+def letraDelDNI(n):
+    """
+    Esta funcion calcula la letra de un DNI espanol
+    """
+    letras = "TRWAGMYFPDXBNJZSQVHLCKE"
+    return letras[n%23]
+letraDelDNI(12345678)
+\end{verbatim}
+
+\item Así se define una función de manera recursiva:
+\begin{verbatim}
+def f(n):
+    if n <= 1: return 1
+    elif n%2 == 0: return 2*f(n/2)
+    else: return 3*f((n-1)/2)
+f(12345678)
+\end{verbatim}
+
+%\item Así definiríamos el factorial de manera recursiva:
+%\begin{verbatim}
+%def fac(n):
+%  if n==1:
+%      return 1
+%  else:
+%      return n*fac(n-1)
+% 
+%for n in range(1,10):
+%  print n,":",fac(n)
+%  # print n,":",factorial(n)  # El predefinido en Sage
+%\end{verbatim}
+
+\item Concluyamos con otro programita, el test de Lucas-Lehmer 
+(como $s$ está definido módulo $2^p-1$, las operaciones con $s$ también son modulares):
+\begin{verbatim}
+def is_prime_lucas_lehmer(p):
+    s = Mod(4,2^p-1)           # ¡Definimos s como un entero modular!
+    for i in range(0, p-2): 
+        s = s^2 - 2 
+    return s==0
+is_prime_lucas_lehmer(127)         # Nos dice si 2^127-1 es primo (Lucas, 1876)
+time is_prime_lucas_lehmer(19937)  # El mayor primo conocido en 1971
+\end{verbatim}
+% time is_prime_lucas_lehmer(19937)    # Mayor primo conocido en 1971
+% Responde "True" en "Time: CPU 7.04 s, Wall: 7.05 s" en mi MacBook Pro 2.4 GHz Inter Core 2 Duo
+
+\end{enumerate}
+
+% \enlargethispage{0.5cm} %%% TRUCO
+
+\end{document}
+ 
