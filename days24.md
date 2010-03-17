@@ -28,7 +28,7 @@ Switzerland.
 
 Accommodation for participants receiving financial support will be in shared double rooms at the Hotel Sommerhaus in Hagenberg, within walking distance to [[http://www.risc.jku.at|RISC]] where the workshop will take place.
 
-Follow [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|this link]] for the [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|financial support application form]]. Deadline for applications is March 13th, 2010.
+Follow [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|this link]] for the [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|financial support application form]]. Deadline for applications is April 12th, 2010.
 
 
 === Registration ===
@@ -39,6 +39,7 @@ There will be a registration fee of 40 Euros.
 
 Feel free to email the [[#organizers|organizers]] beforehand if you intend to participate in the workshop. We will also post a notice to the [[http://groups.google.com/group/sagedays24|mailing list]] once the registration is open.
 
+Follow [[days24/participants|this link]] for the [[days24/participants|list of participants]].
 === Close events ===
 
  * [[http://www.issac-conference.org/2010/|ISSAC 2010]] July 25 - 28, 2010, Munich, Germany
