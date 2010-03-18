@@ -125,16 +125,9 @@ Now add a server and 10 user accounts.  The Sage notebook will invoke one of the
 {{{
 sudo addgroup sageuser
 sudo adduser --disabled-password sageserver
-sudo adduser --disabled-password --ingroup sageuser sageuser0
-sudo adduser --disabled-password --ingroup sageuser sageuser1
-sudo adduser --disabled-password --ingroup sageuser sageuser2
-sudo adduser --disabled-password --ingroup sageuser sageuser3
-sudo adduser --disabled-password --ingroup sageuser sageuser4
-sudo adduser --disabled-password --ingroup sageuser sageuser5
-sudo adduser --disabled-password --ingroup sageuser sageuser6
-sudo adduser --disabled-password --ingroup sageuser sageuser7
-sudo adduser --disabled-password --ingroup sageuser sageuser8
-sudo adduser --disabled-password --ingroup sageuser sageuser9
+for i in $(seq 1 10); do
+ sudo adduser --disabled-password --ingroup sageuser sageuser$i
+done
 }}}
 
 I wanted to restrict logins for the sage server and sage users.  I want to prevent logins as sageserver, and restrict sageuser* logins to only come from localhost.  I'll use sudo to run commands as the sage server.  Under {{{/etc/pam.d/sshd}}}, uncomment this line, and add "nodefgroup":
@@ -154,16 +147,9 @@ Then in {{{/etc/security access.conf}}}, add these lines:
 Now set up passwordless ssh keys
 {{{
 sudo -u sageserver -i "ssh-keygen -t dsa"
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser0 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser1 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser2 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser3 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser4 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser5 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser6 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser7 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser8 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
-sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser9 -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+for i in $(seq 1 10); do
+ sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser$i -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+done
 }}}
 
 Test logins (do at least one to generate the known_hosts file)
