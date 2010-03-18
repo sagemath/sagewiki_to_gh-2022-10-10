@@ -136,7 +136,7 @@ I wanted to restrict logins for the sage server and sage users.  I want to preve
 account  required     pam_access.so nodefgroup
 }}}
 
-Then in {{{/etc/security access.conf}}}, add these lines:
+Then in {{{/etc/security/access.conf}}}, add these lines:
 
 {{{
 -:(sageuser):ALL EXCEPT localhost
