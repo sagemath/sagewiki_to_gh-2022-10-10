@@ -19,3 +19,7 @@
 == Spanish ==
 
  * '''Una visita rápida a Sage''' by Juan Luis Varona (January 2010) - [[attachment:VisitaSAGE.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=VisitaSAGE.pdf|download]] (and the source [[attachment:VisitaSAGE.tex]])
+
+== Catalan ==
+
+ * '''Sage: Guia de Referència Ràpida''' by Mauro Oliver and Joaquim Puig (March 2010) - [[attachment:quickref-cat.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-cat.pdf|download]] (and the source [[attachment:quickref-cat.tex]])
