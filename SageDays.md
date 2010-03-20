@@ -1,5 +1,7 @@
 = SageDays =
 
+ * Please see [[Workshops]]
+
 Periodic conferences about Sage and Sage development.
 
  * [[HowToHostASageDays|Hosting]] --- Advice to future hosts
@@ -35,4 +37,5 @@ Periodic conferences about Sage and Sage development.
  * [[days15|Sage Days 15]] -- Seattle, WA (just got funded; dates TBA).
  * [[days16|Sage Days 16]] -- [[http://www.crm.cat/Conferences/IndexConferencesEng.htm|CRM-UPC]], Barcelona, June 22--27, 2009.
  * [[http://www.lirmm.fr/arith/wiki/MathInfo2010/SageDays|Sage Days 20]] -- CIRM (Luminy, France), February 22--26, 2010.
+ * [[daysff|Sage Days 21]] -- Seattle, WA; Dates: May 24 - 28, 2010
  * [[dayscambridge2|Sage Days ??]] -- Cambridge, MA (dates TBA, but sometime in fall 2009).
