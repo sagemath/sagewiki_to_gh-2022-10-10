@@ -2,6 +2,8 @@
 
 This is the main organization page for the [[http://socghop.appspot.com/|Google Summer of Code]] efforts of the [[http://www.sagemath.org|Sage]] project.
 
+'''Our proposal as a mentor organization was not accepted.'''
+
 <<TableOfContents(4)>>
 
 == Introduction ==
