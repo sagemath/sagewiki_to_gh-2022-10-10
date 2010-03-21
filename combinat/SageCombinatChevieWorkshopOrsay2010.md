@@ -27,12 +27,6 @@ the cooking ourselves (bring your favorite recipes and dishes!). Altogether this
 
    BEWARE: there are no busses between 7:35am and noon!
 
-/*
-   * We will do some car shuttles from Saint Rémi. Please contact us in advance to synchronize. NicolasThiery' phone: 06 77 90 32 79
-   * Monday morning 10am on the parking of Saint-Rémi de Chevreuse (Nicolas Borie: 06 89 29 78 44)
-   * ...--!>
-*/
-
  * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
 
 == Tentative lists of participants ==
@@ -47,3 +41,9 @@ the cooking ourselves (bring your favorite recipes and dishes!). Altogether this
 Potential participants: http://doodle.com/ktma7rmvx4f3psbr
 
 Please preregister there if you are interested in attending.
+
+/*
+   * We will do some car shuttles from Saint Rémi. Please contact us in advance to synchronize. NicolasThiery' phone: 06 77 90 32 79
+   * Monday morning 10am on the parking of Saint-Rémi de Chevreuse (Nicolas Borie: 06 89 29 78 44)
+   * ...
+*/
