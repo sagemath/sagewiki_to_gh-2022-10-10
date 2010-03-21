@@ -11,7 +11,10 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 ----
 
 == NEWS ==
+
  * [[http:/combinat/SageCombinatRoadMap|Road map and current status]]
+
+ * June 14-18, 2010: [[http:/combinat/SageCombinatChevieWorkshopOrsay2010|Sage-Combinat and Chevie Workshop in Orsay]]
 
  * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days 20]]
    The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille includes a Sage days week. FlorentHivert, NicolasThiéry, and FrancoSaliola are among the organizers and there will be a serious combinatorics slant.
@@ -88,4 +91,4 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * Browse the [[http://combinat.sagemath.org/doc/|Sage documentation with the Sage-combinat patches applied]]
 
- * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]] ([[http://wiki.sagemath.org/combinat/MiscServer|Usage instructions]])
+ * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]] ([[http:/combinat/MiscServer|Usage instructions]])
