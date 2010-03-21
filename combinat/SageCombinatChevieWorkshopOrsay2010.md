@@ -9,7 +9,7 @@ Sponsored by: {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}}
 
 == Accommodation ==
 
-Like for the previous Sage-Combinat days of January 2009, I (Nicolas) have rented a 8-person house in Cernay-la-Ville
+Like for the previous [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat days of January 2009]], I (Nicolas) have rented a 8-person house in Cernay-la-Ville
 ([[http://www.cernayvacances.com/CFrans.html|la tour]]). We will do
 the cooking ourselves (bring your favorite recipes and dishes!). Altogether this will make for a tight budget.
 
