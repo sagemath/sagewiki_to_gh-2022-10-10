@@ -14,9 +14,10 @@ Sage is fully supported on the following platforms:
 The following platforms are feasible in the short term and depend mostly on somebody who is willing to do the job. If you intend to work on a specific port, please let the Sage people know.
 ard)
 
- * Solaris 10 on Sparc 64 bit (work will start on this once the 32 bit port works)
- * Solaris 10 on x86 32 bit,
- * Open Solaris 64-bit (we no intension of making a 32-bit port).
+ 
+ * Open Solaris 64-bit (Almost complete. David Kirkby and Jaap Spies working on this.)
+ * Solaris 10 on Sparc 64 bit. 
+ * Solaris 10 on x86 32 bit. 
  * BSD support on x86, x86-64: most likely FreeBSD
  * Windows/MSVC 32 & 64 bit: monumental undertaking, estimate: 1-2 man years, but we are receiving funding to do the port
  * Windows/Cygwin: this port was dropped due to numerous problems after the 2.5.0 release, but will be resurrected as a stepping stone in the MSVC port
