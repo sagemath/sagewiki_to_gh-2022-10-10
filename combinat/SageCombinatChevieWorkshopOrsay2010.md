@@ -5,7 +5,7 @@ June 14-18 of 2010
 Purpose: strengthen the collaboration between Sage and Chevie, in
 particular around Coxeter groups and Hecke algebras
 
-Sponsored by: {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}}
+Sponsored by the Laboratoire de Mathématiques d'Orsay, Université Paris Sud {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}}
 
 == Accommodation ==
 
@@ -34,7 +34,8 @@ the cooking ourselves (bring your favorite recipes and dishes!). Altogether this
  * NicolasBorie, graduate student, Orsay
  * TomDenton, graduate student, UC Davis
  * FlorentHivert, Prof, LITIS, Université de Rouen
- * Andrew Mathas
+ * Andrew Mathas, Associate Prof, University of Sydney
+ * Jean Michel, Directeur de recherches, CNRS, Université Paris 7
  * NicolasThiéry, MdC, Orsay
  * ...
 
