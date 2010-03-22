@@ -2,10 +2,14 @@
 == Symbolic Computation in Differential Algebra and Special Functions ==
 == July 17 - 22, 2010 ==
 
-The aim of this workshop is to bring differential algebra, special functions and symbolic computation communities together, and generate some interest to improve the facilities provided by Sage to support research in these fields.
+The aim of this workshop is to
+ * provide a gentle introduction to Sage (installation, features, tutorials on basic usage and development), and
+ * bring differential algebra, special functions and symbolic computation communities together, to improve the facilities provided by Sage to support research in these fields.
+
 
 Besides mathematical talks and coding sprints, there will also be introductory tutorials on Sage, Python and related topics, including development in Sage. The workshop will be accessible to researchers at all levels. Especially those looking for an opportunity to start learning / using Sage are welcome.
 
+This event is a part of [[http://www.risc.uni-linz.ac.at/about/conferences/summer2010/|RISC Summer 2010]].
 === Invited Speakers ===
 
  * [[http://www.risc.uni-linz.ac.at/home/ppaule|Peter Paule]]
