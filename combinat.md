@@ -12,7 +12,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 == NEWS ==
 
- * [[http:/combinat/SageCombinatRoadMap|Road map and current status]]
+ * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
  * June 14-18, 2010: [[http:/combinat/SageCombinatChevieWorkshopOrsay2010|Sage-Combinat and Chevie Workshop in Orsay]]
 
