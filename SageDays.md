@@ -1,6 +1,6 @@
 = SageDays =
 
- * Please see [[Workshops]]
+ * '''Please see [[Workshops]]'''
 
 Periodic conferences about Sage and Sage development.
 
