@@ -24,7 +24,22 @@ This is a rough sketch of ideas on guidelines for managing the Sage user and dev
  1. [[http://aseigo.blogspot.com/2009/01/building-community-around-your-foss.html | Building a community around your F/OSS project]] by Aaron J. Seigo
 
  1. [[http://www.ubuntu.com/community/participate | Get Involved]] from Ubuntu
- 
+
+
+== Jono Bacon's articles ==
+
+ 1. [[http://www.oreillynet.com/onlamp/blog/2006/04/the_increasing_importance_of_c.html | The Increasing Importance of Community]]
+
+ 1. [[http://www.oreillynet.com/onlamp/blog/2006/01/building_up_the_advocacy_commu.html | Building up the Advocacy Community]]
+
+ 1. [[http://www.oreillynet.com/onlamp/blog/2006/01/the_reality_of_advocacy.html | The Reality of Advocacy]]
+
+ 1. [[http://www.oreillynet.com/onlamp/blog/2005/09/hindsight_is_always_2020.html | Hindsight is Always 20/20]]
+
+ 1. [[http://www.oreillynet.com/onlamp/blog/2004/05/the_system_man.html | The system, man]]
+
+ 1. [[http://www.oreillynet.com/onlamp/blog/2004/04/advocating_honesty.html | Advocating honesty]]
+
 
 == Meritocracy ==
 
