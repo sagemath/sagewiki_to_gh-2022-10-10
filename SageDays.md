@@ -8,6 +8,7 @@ Periodic conferences about Sage and Sage development.
 
 == Upcoming Sage Days ==
 
+ * [[http://www.fields.utoronto.ca/programs/scientific/09-10/sage/|Sage Days 20.5 at the Fields Institute]] -- Toronto, Canada -- algebraic combinatorics and representation theory of algebras -- May 3-7, 2010
  * [[days24| Sage Days 24]] -- Sage Days 24 at RISC -- Linz, Austria -- Symbolic Computation in Differential Algebra and Special Functions -- July 17 - 22, 2010
 
 == Previously organized Sage Days, together with dates, location, sponsors and theme ==
