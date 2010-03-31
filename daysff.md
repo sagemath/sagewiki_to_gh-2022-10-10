@@ -4,7 +4,7 @@
 
 Organizers:  William Stein, Chris Hall, Craig Citro, Salman Baig
 
-Location: The [[http://www.shueyhouse.com/|Shuey House]], Seattle, WA
+Location: The [[http://www.shueyhouse.com/|Shuey House]], 5218 16th ave NE, Seattle, WA 98105
 
 Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29th by 10:30am)
 
@@ -12,7 +12,7 @@ Mailing list: Group [[http://groups.google.com/group/sagedays21|page]].
 
 === Housing ===
 
-A handful of visitors will be staying at the Shuey House, while the remaining visitors have rooms on hold for them at [[http://www.hoteldeca.com|Hotel Deca]]. The tentative housing arrangement is as follows:
+A handful of visitors will be staying at the Shuey House, while the remaining visitors have rooms on hold for them at [[http://www.hoteldeca.com|Hotel Deca]] (4507 Brooklyn Avenue NE, Seattle, WA 98105). The tentative housing arrangement is as follows:
 
 ==== The Shuey House ====
 
