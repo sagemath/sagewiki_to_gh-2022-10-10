@@ -19,15 +19,16 @@ A handful of visitors will be staying at the Shuey House, while the remaining vi
  * Second floor ([[http://www.shueyhouse.com/second%20floor.jpg|layout]])
   * Master suite bedroom: C. Hall and S. Miller
   * Bedroom 2: J. Balakrishnan
-  * Bedroom 3: G. Boeckle
+  * Bedroom 3: C. Hall
   * Bedroom 4: F. Hess
 
  * Third Floor ([[http://www.shueyhouse.com/thirdfloor.jpg|layout]])
-  * Bedroom 1: S. Yazdani, R. Butenuth
+  * Bedroom 1: G. Moehlmann, R. Butenuth
   * Bedroom 2: T. Occhipinti, H. Brown
 
 ==== Hotel Deca ====
 
+ * G. Boeckle
  * B. Conrey
  * D. Ulmer
  * F. Voloch
@@ -69,6 +70,7 @@ Here's a Google [[http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=103028
  * Jacob Lewis (Washington)
  * Robert Miller (Washington)
  * Steven J Miller (Williams)
+ * Gerriet Moehlmann (Technische Universitat Berlin)
  * Thomas Occhipinti (Arizona)
  * Dan Shumow (Washington)
  * William Stein (Washington)
