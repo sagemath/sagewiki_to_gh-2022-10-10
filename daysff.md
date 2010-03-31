@@ -24,12 +24,13 @@ Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29
  * Jacob Lewis (Washington)
  * Robert Miller (Washington)
  * Steven J Miller (Williams)
+ * Thomas Occhipinti (Arizona)
  * Dan Shumow (Washington)
  * William Stein (Washington)
  * Doug Ulmer (Georgia Tech)
  * Felipe Voloch (Texas)
  * Wenhan Wang (Washington)
- * Soroosh Yazdani (McMaster)
+ * Soroosh Yazdani (Mc-Master)
 
 == Tentative Project List ==
 
@@ -43,3 +44,25 @@ Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29
 == Tentative Talks ==
 
  TBD
+
+== Housing ==
+
+A handful of visitors will be staying at the Shuey House, while the remaining visitors have rooms on hold for them at [[http://www.hoteldeca.com|Hotel Deca]]. The tentative housing arrangement is as follows:
+
+=== The Shuey House ===
+
+ * Second floor ([[http://www.shueyhouse.com/second%20floor.jpg]|layout]])
+  * Master suite bedroom: C. Hall and S. Miller
+  * Bedroom 2: J. Balakrishnan
+  * Bedroom 3: G. Boeckle
+  * Bedroom 4: F. Hess
+
+ * Third Floor ([[http://www.shueyhouse.com/thirdfloor.jpg|layout]])
+  * Bedroom 1: S. Yazdani, R. Butenuth
+  * Bedroom 2: T. Occhipinti, H. Brown
+
+=== Hotel Deca ===
+
+ * B. Conrey
+ * D. Ulmer
+ * F. Voloch
