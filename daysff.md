@@ -38,7 +38,7 @@ Here are some options to get to the Shuey House or Hotel Deca from the airport:
 
  * [[http://www.yelp.com/biz/a-abc-transportation-seattle#hrid:keLb-JbNNBPNxcvoGUwIOQ/src:search/query:car%20service|A-ABC Transportation]] offers a flat rate ($30 typically, before tip) for door-to-door car service. I (Salman) have used them multiple times, and they are my preferred transportation to/from the airport if I'm traveling by myself. They are a private car service (though they don't have the nicest fleet of cars) and are less expensive than a cab. Call 206-242-0102 for a reservation.
  * Taxis from the airport cost about $40 (before tip) and can be found by following the signs in the airport.
- * [[http://shuttleexpress.com/seatac-airport/default.aspx|Shuttle Express]] picks up passengers at inner drive curb on the third floor of the Airport Garage Call 425-981-7000 to make a reservation.
+ * [[http://shuttleexpress.com/seatac-airport/default.aspx|Shuttle Express]] picks up passengers at the inner curb on the third floor of the Airport Garage. Call 425-981-7000 to make a reservation.
  * There is a new light-rail service from the airport to downtown Seattle, but you will then need to take a taxi to the house/hotel (about 5 miles north of downtown). This is not a good option unless you want to spend time in downtown Seattle.
 
 === Getting Around ===
