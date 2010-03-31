@@ -4,7 +4,7 @@
 
 Organizers:  William Stein, Chris Hall, Craig Citro, Salman Baig
 
-Location: The [[http://www.shueyhouse.com/|Shuey House]], 5218 16th ave NE, Seattle, WA 98105
+Location: The [[http://www.shueyhouse.com/|Shuey House]], 5218 16th Ave NE, Seattle, WA 98105
 
 Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29th by 10:30am)
 
