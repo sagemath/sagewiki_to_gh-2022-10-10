@@ -6,6 +6,8 @@ Location: The [[http://www.shueyhouse.com/|Shuey House]], Seattle, WA
 
 Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29th by 10:30am)
 
+Mailing list: Group [[http://groups.google.com/group/sagedays21|page]].
+
 == Tentative Participants ==
 
  * Salman Baig (Washington)
@@ -34,16 +36,41 @@ Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29
 
 == Tentative Project List ==
 
- * Elliptic curves over function fields and their L-functions
+ * Elliptic curves over function fields and their $L$-functions
  * Drinfeld modular forms
  * The Birch and Swinnerton-Dyer Conjecture over function fields
  * "Cremona's Tables" for function fields
  * Computing Mordell-Weil groups
  * Statistics over function fields
 
-== Tentative Talks ==
+== (Tentative) Schedule ==
 
- TBD
+We will have one full day of organized talks, followed by working sessions and status reports the rest of the week. Informal talks are also welcome and will be left to individuals and working groups to organize.
+
+=== Monday, May 24 ===
+|| 9:15am - 9:30am || Welcome || ||
+|| 9:30am - 10:30am || Function Fields and Number Fields || ||
+|| 10:30am - 11:30am || Introduction to Sage || C. Citro ||
+|| 11:30am - 1:30pm || Lunch || ||
+|| 1:30pm - 2:30pm || Drinfeld Modular Forms || ||
+|| 2:30pm - 3:30pm || Computing Drinfeld Modular Forms || ||
+|| 3:30pm - 4:00pm || Tea || ||
+|| 4:30pm - 5:30pm || Open slot (BSD? Computing $E(K)$?) || ||
+|| 5:30pm - 6:00pm || Organizational meeting || ||
+
+=== Tuesday, May 25 ===
+
+Free day to work or organize talks.
+
+=== Wednesday, May 26 ===
+|| 11:00am - 12:00pm || Status reports || Shuey House ||
+
+=== Thursday, May 27 ===
+
+Free day to work or organize talks.
+
+=== Friday, May 28 ===
+|| 11:00am - 12:00pm || Final status reports || Shuey House ||
 
 == Housing ==
 
