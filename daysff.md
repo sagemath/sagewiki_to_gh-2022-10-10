@@ -19,7 +19,6 @@ Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29
  * Craig Citro (Washington)
  * Brian Conrey (AIM)
  * Alyson Deines (Washington)
- * Ernst-Ulrich Gekeler (Universitat des Saarlandes)
  * Chris Hall (Wyoming)
  * Florian Hess (Technische Universitat Berlin)
  * Jacob Lewis (Washington)
