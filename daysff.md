@@ -43,9 +43,9 @@ Here are some options to get to the Shuey House or Hotel Deca from the airport:
 
 === Getting Around ===
 
-Both the Shuey House and Hotel Deca are close to the UW campus as well as plenty of restaurants, coffee shops, etc. You will find that you can walk to nearly anything you like from the house of hotel, so a car is probably unnecessary. If you do plan on renting a car, please let me (Salman) know, and I will provide you information on parking, getting to/from the hotel, etc.
+Both the Shuey House and Hotel Deca are close to the UW campus as well as plenty of restaurants, coffee shops, etc. You will find that you can walk to nearly anything you like from the house or hotel, so a car is probably unnecessary. If you do plan on renting a car, please let me (Salman) know, and I will provide you information on parking, getting to/from the hotel, etc.
 
-Seattle also has a well-connected [[http://metro.kingcounty.gov/|bus]] system, which can be used if you want to get out of the University District and explore the rest of the city.
+Seattle also has a well-connected [[http://metro.kingcounty.gov/|bus]] system, which can be used if you want to get out of the University District and explore the rest of the city. Talk to Craig or Salman if you have any questions about riding the buses.
 
 === Map ===
 
