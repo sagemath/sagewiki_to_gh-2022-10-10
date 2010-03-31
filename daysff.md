@@ -16,7 +16,7 @@ A handful of visitors will be staying at the Shuey House, while the remaining vi
 
 ==== The Shuey House ====
 
- * Second floor ([[http://www.shueyhouse.com/second%20floor.jpg]|layout]])
+ * Second floor ([[http://www.shueyhouse.com/second%20floor.jpg|layout]])
   * Master suite bedroom: C. Hall and S. Miller
   * Bedroom 2: J. Balakrishnan
   * Bedroom 3: G. Boeckle
