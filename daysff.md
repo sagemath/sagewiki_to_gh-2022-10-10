@@ -66,3 +66,8 @@ A handful of visitors will be staying at the Shuey House, while the remaining vi
  * B. Conrey
  * D. Ulmer
  * F. Voloch
+
+
+== Map ==
+
+Here's a Google [[http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=103028083620229012626.00048318482c1f79ef823&ll=47.662107,-122.307487&spn=0.008946,0.015814&z=16|map]] with the major locations marked.
