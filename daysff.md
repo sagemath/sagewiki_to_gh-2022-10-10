@@ -87,6 +87,7 @@ Here's a Google [[http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=103028
  * The Birch and Swinnerton-Dyer Conjecture over function fields
  * "Cremona's Tables" for function fields
  * Computing Mordell-Weil groups
+  * Descent over function fields
  * Statistics over function fields
 
 == (Tentative) Schedule ==
