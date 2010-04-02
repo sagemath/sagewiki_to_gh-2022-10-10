@@ -60,7 +60,9 @@ def rwalk3d(n=(50,1000), frame=True):
 == Hidden Markov Model: The Occasionally Dishonest Casino ==
 
 by Marshall Hampton
-based on the classic example in "Biological Sequence Analysis" by Durbin et al.
+
+Based on the classic example in "Biological Sequence Analysis" by Durbin et al.
+
 To get the dice picture you need to download this [[http://wiki.sagemath.org/interact/stats?action=AttachFile&do=get&target=dishonest_casino.sws|dishonest_casino.sws]]
 
 {{{
