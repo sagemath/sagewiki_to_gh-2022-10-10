@@ -61,7 +61,7 @@ def rwalk3d(n=(50,1000), frame=True):
 
 by Marshall Hampton
 based on the classic example in "Biological Sequence Analysis" by Durbin et al.
-To get the dice picture you need to download this [[http://wiki.sagemath.org/interact/stats?action=AttachFile&do=get&target=dishonest_casino.sws]]
+To get the dice picture you need to download this [[http://wiki.sagemath.org/interact/stats?action=AttachFile&do=get&target=dishonest_casino.sws|dishonest_casino.sws]]
 
 {{{
 m = hmm.DiscreteHiddenMarkovModel([[0.8,0.2],[0.1,0.9]], [[1/10,1/10,1/10,1/10,1/10,1/2],[1/6,1/6,1/6,1/6,1/6,1/6]], [.2,.8],emission_symbols=[1,2,3,4,5,6])
