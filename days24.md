@@ -30,6 +30,8 @@ Slovenia, Spain, Sweden, United Kingdom, Bulgaria, Croatia,
 Romania, Turkey, Iceland, Israel, Liechtenstein, Norway or
 Switzerland.
 
+We also have very limited non-EU funding. Even if you don't fit the criteria above, feel free to contact the organizers via email to ask about possibilities. 
+
 Accommodation for participants receiving financial support will be in shared double rooms at the Hotel Sommerhaus in Hagenberg, within walking distance to [[http://www.risc.jku.at|RISC]] where the workshop will take place.
 
 Follow [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|this link]] for the [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|financial support application form]]. Deadline for applications is April 12th, 2010.
