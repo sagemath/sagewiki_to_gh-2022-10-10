@@ -9,3 +9,7 @@ Organizers:
    * Prabhu Ramachandran (IITB)
    * William Stein (University of Washington)
    
+Mailing lists:
+
+   * http://groups.google.com/group/sagedays25 (for participants)
+   * http://groups.google.com/group/sagedays25-org (for organizers only)
