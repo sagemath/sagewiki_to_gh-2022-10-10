@@ -12,7 +12,7 @@ This is a collection of pages demonstrating the use of [[http://sagemath.org/doc
  * [[interact/number_theory|Number Theory]]
  * [[interact/web|Web Applications]]
  * [[interact/bio|Bioinformatics]]
- * [[interact/bio|Statistics/Probability]]
+ * [[interact/stats|Statistics/Probability]]
  * [[interact/geometry|Geometry]]
  * [[interact/graphics|Drawing Graphics]]
  * [[interact/games|Games and Diversions]]
