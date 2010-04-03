@@ -52,6 +52,8 @@ Seattle also has a well-connected [[http://metro.kingcounty.gov/|bus]] system, w
 
 Here's a Google [[http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=103028083620229012626.00048318482c1f79ef823&ll=47.662107,-122.307487&spn=0.008946,0.015814&z=16|map]] with the major locations marked.
 
+This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] that shows the location of Padelford (the Math department) and Savery and Thomson Halls (where talks on Monday will be).
+
 == Tentative Participants ==
 
  * Salman Baig (Washington)
@@ -95,15 +97,15 @@ Here's a Google [[http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=103028
 We will have one full day of organized talks, followed by working sessions and status reports the rest of the week. Informal talks are also welcome and will be left to individuals and working groups to organize.
 
 === Monday, May 24 ===
-|| 9:15am - 9:30am || Welcome || ||
-|| 9:30am - 10:30am || Function Fields and Number Fields || ||
-|| 10:30am - 11:30am || Introduction to Sage || C. Citro ||
-|| 11:30am - 1:30pm || Lunch || ||
-|| 1:30pm - 2:30pm || Drinfeld Modular Forms || ||
-|| 2:30pm - 3:30pm || Computing Drinfeld Modular Forms || ||
-|| 3:30pm - 4:00pm || Tea || ||
-|| 4:30pm - 5:30pm || Open slot (BSD? Computing $E(K)$?) || ||
-|| 5:30pm - 6:00pm || Organizational meeting || ||
+|| 9:30am - 9:45am || Welcome || Savery Hall 155 || ||
+|| 9:45am - 10:45am || Function Fields and Number Fields || Savery Hall 155 || ||
+|| 10:45am - 11:20am || Introduction to Sage || Savery Hall 155 || C. Citro ||
+|| 11:30am - 1:30pm || Lunch || || ||
+|| 1:30pm - 2:30pm || Drinfeld Modular Forms || Thomson Hall 231 || ||
+|| 2:30pm - 3:30pm || Computing Drinfeld Modular Forms || Thomson Hall 231 || ||
+|| 3:30pm - 4:00pm || Tea || || ||
+|| 4:30pm - 5:30pm || Open slot (BSD? Computing $E(K)$?) || Savery Hall 139 || ||
+|| 5:30pm - 6:30pm || Organizational meeting || Savery Hall 139 || ||
 
 === Tuesday, May 25 ===
 
