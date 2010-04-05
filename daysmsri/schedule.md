@@ -10,7 +10,7 @@
 
 == Thursday, June 24 ==
 
-== Friday, June 25: Special Day on Open Scientific Computing and Python ==
+== Friday, June 25: Open Research Computation Day ==
 
 
 
