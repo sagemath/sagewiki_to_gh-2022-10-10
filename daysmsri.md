@@ -2,7 +2,7 @@
 
 Location: MSRI at Berkeley, California
 
- The official MSRI page: http://www.msri.org/calendar/sgw/WorkshopInfo/556/show_sgw
+ The [[http://www.msri.org/calendar/sgw/WorkshopInfo/556/show_sgw|official MSRI page for this workshop]].
 
  June 21, 2010 to July 02, 2010
 
