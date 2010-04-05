@@ -28,7 +28,7 @@ Dates: June 21, 2010 to July 02, 2010
 === Colloquium ===
    * Ken Ribet (Berkeley): TBA
 
-=== June 25: Open Scientific Computation Day ===
+=== June 25: Open Research Computation Day ===
    * Peter Norvig (Google): TBA
    * Fernando Perez (Berkeley): TBA
    * Prabhu Ramachandran (Bombay, India): TBA
