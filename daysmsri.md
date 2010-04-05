@@ -1,10 +1,13 @@
 = Sage Days 22: Computing with Elliptic Curves =
 
+The [[http://www.msri.org/calendar/sgw/WorkshopInfo/556/show_sgw|official MSRI page for this workshop]].
+
 Location: MSRI at Berkeley, California
+Dates: June 21, 2010 to July 02, 2010
 
- The [[http://www.msri.org/calendar/sgw/WorkshopInfo/556/show_sgw|official MSRI page for this workshop]].
+== Schedule ==
 
- June 21, 2010 to July 02, 2010
+   * [[/schedule|Schedule]]
 
 == Speakers ==
 
