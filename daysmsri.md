@@ -9,7 +9,7 @@ Dates: June 21, 2010 to July 02, 2010
 
    * [[/schedule|Schedule]]
 
-== Mailing Lists == 
+== Mailing Lists ==
 
    * [[http://groups.google.com/group/sagedays22|Participant mailing list]]
 
