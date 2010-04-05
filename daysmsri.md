@@ -9,6 +9,12 @@ Dates: June 21, 2010 to July 02, 2010
 
    * [[/schedule|Schedule]]
 
+== Mailing Lists == 
+
+   * [[http://groups.google.com/group/sagedays22|Participant mailing list]]
+
+   * [[http://groups.google.com/group/sagedays22org|Closed organization mailing list]]
+
 == Speakers ==
 
 === Project Speakers ===
