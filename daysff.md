@@ -120,3 +120,7 @@ Free day to work or organize talks.
 
 === Friday, May 28 ===
 || 11:00am - 12:00pm || Final status reports || Shuey House ||
+
+== Reading List ==
+
+A reading list can be found [[readinglist||here]] where participants can add items as well.
