@@ -54,17 +54,17 @@ Here's a Google [[http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=103028
 
 This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] that shows the location of Padelford (the Math department) and Savery and Thomson Halls (where talks on Monday will be).
 
-== Tentative Participants ==
+== Participants ==
 
  * Salman Baig (Washington)
  * Jen Balakrishnan (MIT)
  * Rob Beezer (Univ of Puget Sound)
- * Gebhard Boeckle (Universitat Duisburg-Essen)
+ * Gebhard Boeckle (Universitat Duisburg-Essen) [5/22-5/29]
  * Tom Boothby (Washington)
  * Robert Bradshaw (Washington)
  * Harrison Brown (Georgia Tech)
  * Martin Brown (Institut Fourier)
- * Ralf Butenuth (Universitat Duisburg-Essen)
+ * Ralf Butenuth (Universitat Duisburg-Essen) [5/21-5/30]
  * Craig Citro (Washington)
  * Brian Conrey (AIM)
  * Alyson Deines (Washington)
@@ -72,13 +72,13 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Florian Hess (Technische Universitat Berlin)
  * Jacob Lewis (Washington)
  * Robert Miller (Washington)
- * Steven J Miller (Williams)
+ * Steven J Miller (Williams) [5/23-5/27]
  * Gerriet Moehlmann (Technische Universitat Berlin)
  * Thomas Occhipinti (Arizona)
  * Dan Shumow (Washington)
  * William Stein (Washington)
- * Doug Ulmer (Georgia Tech)
- * Felipe Voloch (Texas)
+ * Doug Ulmer (Georgia Tech) [5/23-5/26]
+ * Felipe Voloch (Texas) [5/23-5/29]
  * Wenhan Wang (Washington)
  * Soroosh Yazdani (Mc-Master)
 
