@@ -123,4 +123,4 @@ Free day to work or organize talks.
 
 == Reading List ==
 
-A reading list can be found [[readinglist|here]] where participants can add items as well.
+A reading list can be found [[/readinglist|here]] where participants can add items as well.
