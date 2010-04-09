@@ -40,6 +40,7 @@ Elliptic Surfaces:
 Modular Symbols:
 
  * Armana, [[attachment:armana-these.pdf|Torsion rationnelle des modules de Drinfeld]]. (French) PhD. thesis.
+ * Darmon, Pollack, [[attachment:darmon-pollack.pdf|The efficient calculation of Stark-Heegner points via overconvergent modular symbols]]. Israel J. Math. 153 (2006), 319--354.
  * Gekeler, [[attachment:gekeler-documenta-mathematica-1997.pdf|On the cuspidal divisor class group of a Drinfeld modular curve]]. Doc. Math. 2 (1997), 351--374 (electronic).
  * Merel, [[attachment:merel-universal-fourier.pdf|Universal fourier expansions of modular forms]]. On Artin's conjecture for odd $2$-dimensional representations, 59--94, Lecture Notes in Math., 1585, Springer.
  * Reversat, [[attachment:reversat-schottky-covers.pdf|Sur les revetements de Schottky des courbes modulaires de Drinfeld]]. Arch. Math. (Basel) 66 (1996), no. 5, 378--387.
