@@ -10,6 +10,7 @@ To add to this list, follow these directions:
  4. Next, go to actual the reading list wiki page -- you may want to do this is a separate window or tab since it's helpful to keep the attachments page open.
  5. Edit the wiki and add descriptive text for your file, such as that found below.
  6. As you may see below while editing the wiki, a link to the attached file is made by doing a '[[attachment:your-file.pdf' (without quotes) followed by a '|' (again, without quotes), a text string that will contain the link, and a final double right bracket. This step is best seen when you choose to edit the wiki since you can see the syntax directly. 
+ 7. Once you are done editing (and have answered the bot question and perhaps added a comment to your edit) and are happy with the changes (hit "Preview" to see them), hit "Save Changes" and you're done.
 
 == Reading List ==
 
