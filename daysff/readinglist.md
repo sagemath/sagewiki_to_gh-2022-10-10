@@ -6,7 +6,7 @@ To add to this list, follow these directions:
  
  1. Login to your account (or set up an account by hitting "Login" above).
  2. Hit "Attachments" above and upload your file (rename/overwrite as you see fit, but don't forget to answer the question that verifies you are not a bot).
- 3. Once the file is uploaded, it will appear on the list of files at the bottom of the "Attachments" page. These files are those attached to the *only* the reading list page.
+ 3. Wait for the file to upload. Once the file is uploaded, it will appear on the list of files at the bottom of the "Attachments" page. These files are those attached to *only* the reading list page.
  4. Next, go to actual the reading list wiki page -- you may want to do this is a separate window or tab since it's helpful to keep the attachments page open.
  5. Edit the wiki and add descriptive text for your file, such as that found below.
  6. As you may see below while editing the wiki, a link to the attached file is made by doing a '[[attachment:your-file.pdf' (without quotes) followed by a '|' (again, without quotes), a text string that will contain the link, and a final double right bracket. This step is best seen when you choose to edit the wiki since you can see the syntax directly. 
