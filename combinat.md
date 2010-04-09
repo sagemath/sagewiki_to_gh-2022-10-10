@@ -14,7 +14,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
- * June 14-18, 2010: [[http:/combinat/SageCombinatChevieWorkshopOrsay2010|Sage-Combinat and Chevie Workshop in Orsay]]
+ * June 14-18, 2010: [[http:/combinat/SageCombinatChevieWorkshopOrsay2010|Joint Sage-Combinat and Chevie Workshop in Orsay]]
 
  * May 3-7, 2010: [[http://www.fields.utoronto.ca/programs/scientific/09-10/sage/|Sage Days 20.5 in Toronto]]
    Organized by Nantel Bergeron, FrancoSaliola and Mike Zabrocki,
