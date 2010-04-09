@@ -69,12 +69,12 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Brian Conrey (AIM)
  * Alyson Deines (Washington)
  * Chris Hall (Wyoming)
- * Florian Hess (Technische Universitat Berlin)
+ * Florian Hess (Technische Universitat Berlin) [5/23-5/28]
  * Jacob Lewis (Washington)
  * Robert Miller (Washington)
  * Steven J Miller (Williams) [5/23-5/27]
  * Gerriet Moehlmann (Technische Universitat Berlin)
- * Thomas Occhipinti (Arizona)
+ * Thomas Occhipinti (Arizona) [5/23-5/29]
  * Dan Shumow (Washington)
  * William Stein (Washington)
  * Doug Ulmer (Georgia Tech) [5/23-5/26]
