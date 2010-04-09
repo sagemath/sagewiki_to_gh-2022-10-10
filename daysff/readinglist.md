@@ -16,6 +16,7 @@ To add to this list, follow these directions:
 
  * Gekeler and Nonnengardt, [[attachment:gekeler-nonnengardt.pdf|Fundamental domains of some arithmetic groups over function fields]]. Internat. J. Math. 6 (1995), no. 5, 689--708.
  * Gekeler and Reversat,  [[attachment:gekeler-reversat.pdf|Jacobians of Drinfeld modular curves]]. J. Reine Angew. Math. 476 (1996), 27--93.
+ * Hall,  [[attachment:hall-drinfeld-fd.pdf|Fundamental domains of some Drinfeld modular curves]]. unpublished manuscript.
  * Papikian, [[attachment:papikian-aws-2000.pdf|Computation of Heegner Points for Function Fields]]. Notes from the 2000 Arizona Winter School (A note from the author: "Please keep in mind that I wrote those notes when I was just learning the subject, so they might contain some mistakes.")
  * Roberts, [[attachment:roberts-descent-function-fields.pdf|Explicit Descent On Elliptic Curves Over Function Fields]]. PhD Thesis, University of Nottingham, 2007.
  * Ulmer, [[attachment:ulmer-ff-rank.pdf|Elliptic curves with large rank over function fields]]. Ann. of Math. (2) 155 (2002), no. 1, 295--315.
