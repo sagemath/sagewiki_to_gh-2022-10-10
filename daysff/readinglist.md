@@ -14,8 +14,9 @@ To add to this list, follow these directions:
 
 == Reading List ==
 
-Drinfeld Modules and Modular Varieties:
 --------------------------------------
+
+Drinfeld Modules and Modular Varieties:
 
  * Boeckle  [[attachment:boeckle-arithmetic-over-function-fields.pdf|Arithmetic over function fields (a cohomological approach)]]. Number fields and function fields---two parallel worlds, 1--38, Progr. Math., 239.
  * Buthenuth, [[attachment:butenuth.pdf|Some writeups on computing quaternion quotient graphs]]. unpublished notes.
@@ -25,16 +26,18 @@ Drinfeld Modules and Modular Varieties:
  * Papikian, [[attachment:papikian-aws-2000.pdf|Computation of Heegner Points for Function Fields]]. Notes from the 2000 Arizona Winter School (A note from the author: "Please keep in mind that I wrote those notes when I was just learning the subject, so they might contain some mistakes.")
  * Vleduts and Manin, [[attachment:vleduts-manin.pdf|Linear codes and modular curves]]. (English translation of) Current problems in mathematics, Vol. 25, 209--257
 
-Elliptic Surfaces:
 -----------------
+
+Elliptic Surfaces:
 
  * Roberts, [[attachment:roberts-descent-function-fields.pdf|Explicit Descent On Elliptic Curves Over Function Fields]]. PhD Thesis, University of Nottingham, 2007.
  * Ulmer, [[attachment:ulmer-ff-rank.pdf|Elliptic curves with large rank over function fields]]. Ann. of Math. (2) 155 (2002), no. 1, 295--315.
  * Ulmer, [[attachment:ulmer-nf-ff.pdf|Elliptic curves and analogies between number fields and function fields]]. Heegner points and Rankin $L$-series, 285--315, Math. Sci. Res. Inst. Publ., 49, Cambridge Univ. Press, Cambridge, 2004.
  * Ulmer, [[attachment:ulmer-invent-math-2007.pdf|$L$-functions with large analytic rank and abelian varieties with large algebraic rank over function fields]]. Invent. Math. 167 (2007), no. 2, 379--408.
 
-Modular Symbols:
 ---------------
+
+Modular Symbols:
 
  * Armana, [[attachment:armana-these.pdf|Torsion rationnelle des modules de Drinfeld]]. (French) PhD. thesis.
  * Gekeler, [[attachment:gekeler-documenta-mathematica-1997.pdf|On the cuspidal divisor class group of a Drinfeld modular curve]]. Doc. Math. 2 (1997), 351--374 (electronic).
