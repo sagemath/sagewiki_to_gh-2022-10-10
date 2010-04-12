@@ -10,7 +10,8 @@ Sponsored by the Laboratoire de Mathématiques d'Orsay, Université Paris Sud {{
 == Accommodation ==
 
 Like for the previous [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat days of January 2009]], I (Nicolas) have rented a 8-person house in Cernay-la-Ville
-([[http://www.cernayvacances.com/CFrans.html|la tour]]). We will do
+([[http://www.cernayvacances.com/CFrans.html|la tour]]). In case of overflow, we can setup tents in the adjacent garden.
+We will do
 the cooking ourselves (bring your favorite recipes and dishes!). Altogether this will make for a tight budget.
 
 == Coming from downtown Paris ==
