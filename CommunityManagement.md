@@ -68,3 +68,5 @@ Some notes on open source development and the importance of having mentors:
 Strategies for promoting an open source project:
 
  1. [[http://www.socmedia101.com/2009/11/promoting-open-source-through-social-media | Promoting Open Source Through Social Media]] by Joe "Zonker" Brockmeier.
+
+ 1. [[attachment:e8story-press-release-maths.pdf|The E_8 News Story]], by David W. Farmer and Sally Koutsoliotas
