@@ -255,6 +255,38 @@ def picarder(n_iterations = slider(0,20,1,default = 2)):
 }}}
 {{attachment:picard.png}}
 
+== Euler-Maruyama method and geometric Brownian motion (a common simple model of the stock market) ==
+
+{{{
+def EulerMaruyama(xstart, ystart, xfinish, nsteps, f1, f2): 
+    sol = [ystart] 
+    xvals = [xstart] 
+    h = N((xfinish-xstart)/nsteps) 
+    for step in range(nsteps): 
+        sol.append(sol[-1] + h*f1(sol[-1]) + h^(.5)*f2(sol[-1])*normalvariate(0,1)) 
+        xvals.append(xvals[-1] + h) 
+    return zip(xvals,sol)
+    
+out = Graphics()
+save(out,DATA+'temp')
+@interact
+def EulerMaruyamaExample(mu = slider(srange(0,10,.1),default=2.0),sigma = slider(srange(0,10,.1),default=0.5),plots_at_a_time = slider(range(1,100),default=10), number_of_steps = slider(range(1,1000),default=100), clear_plot = checkbox(True), update=selector(['Update'],buttons =True, label='')):
+    html('<center>Example of the Euler-Maruyama method applied to<br>the stochastic differential equation for geometric Brownian motion</center>')
+    html('<center>$S = S_0 + \int_0^t \mu S dt + \int_0^t \sigma S dW$</center>')
+    emplot = list_plot(EulerMaruyama(0,1,1,number_of_steps,lambda x: mu*x,lambda x:sigma*x),plotjoined=True)
+    for i in range(1,plots_at_a_time):
+        emplot = emplot + list_plot(EulerMaruyama(0,1,1,100,lambda x: mu*x,lambda x:sigma*x),plotjoined=True)
+    if clear_plot:
+        out = emplot
+        save(out,DATA+'temp')
+    else:
+        out = load(DATA+'temp')
+        out = out + emplot
+        save(out,DATA+'temp')
+    show(out, figsize = [8,5])
+}}}
+{{attachment:eulermaruyama.png}}
+
 == Autonomous equations and stable/unstable fixed points ==
 by Marshall Hampton
 This needs the Cython functon defined in a seperate cell.  Note that it is not a particularly good example of Cython use.
