@@ -256,7 +256,7 @@ def picarder(n_iterations = slider(0,20,1,default = 2)):
 {{attachment:picard.png}}
 
 == Euler-Maruyama method and geometric Brownian motion (a common simple model of the stock market) ==
-
+by Marshall Hampton
 {{{
 def EulerMaruyama(xstart, ystart, xfinish, nsteps, f1, f2): 
     sol = [ystart] 
