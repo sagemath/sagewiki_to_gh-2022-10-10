@@ -10,7 +10,7 @@
 
  * Root numbers and how to compute them
 
- * Parity predictions, Gldfeld's [spelling error on purpose due to antispam filter] conjecture and ranks of elliptic curves over number fields
+ * Parity predictions, Goldfeld's conjecture and ranks of elliptic curves over number fields
 
 == Prerequisites ==
 
