@@ -5,8 +5,6 @@
 是
 大
 ipod
-gold
-Gold
 celebrities
 Youtube
 marketing
