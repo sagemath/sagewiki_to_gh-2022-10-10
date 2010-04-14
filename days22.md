@@ -33,14 +33,6 @@ Dates: June 21, 2010 to July 02, 2010
    * Prabhu Ramachandran (Bombay, India): TBA
    * William Stein (University of Washington): Sage
 
-== Project Groups ==
-
- 1. [[/group1|Tables of elliptic curves]]
- 1. [[/group2|The Birch and Swinnerton-Dyer conjecture]]
- 1. [[/group3|Elliptic curves over number fields]]
- 1. [[/group4|Heegner points and Euler system]]
- 1. [[/group5|p-adic L-series and Iwasawa theory]]
-
 
 == Links ==
    There will be another workshop at MSRI at the same time on elliptic curves for undergrads: http://www.msri.org/up/2010
