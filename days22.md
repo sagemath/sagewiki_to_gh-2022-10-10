@@ -17,7 +17,7 @@ Dates: June 21, 2010 to July 02, 2010
 
 == Speakers ==
 
-=== Project Speakers ===
+=== Project Groups ===
    * John Cremona (Warwick University): ''Tables of elliptic curves''
    * Tim Dokchitser (Cambridge University): ''Complex L-functions and the Birch and Swinnerton-Dyer conjecture''
    * Matthew Greenberg (University of Calgary): ''Elliptic curves over number fields''
