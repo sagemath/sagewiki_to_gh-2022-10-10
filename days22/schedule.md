@@ -1,8 +1,9 @@
 = Sage Days 22: Schedule =
 
- This is a ``very tentative`` schedule.  It is subject to massive changes.
+ This is a ``very tentative`` schedule.  It is subject to change.
 
 {{{
+
 Monday, June 21:
   * Director, then Stein: Introduction and orientation
   * Cremona: TBA
@@ -51,8 +52,8 @@ Monday, June 28:
   * Stein: Project status reports
   * Weinstein: TBA
   * Greenberg: TBA
-  * Dokchitser: TBA
   * Working sessions
+  * Cremona's students: presentations
 
 Tuesday, June 29: 
   * Stein: Project status reports
@@ -81,5 +82,6 @@ Friday, July 2:
   * Greenberg's students: presentations
   * Stein/Weinstein's students: presentations
   * Wuthrich's students: presentations
-  * Cremona's students: presentations
+  * Cremona students: project update
+
 }}}
