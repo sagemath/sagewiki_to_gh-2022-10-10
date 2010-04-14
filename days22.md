@@ -32,6 +32,7 @@ Dates: June 21, 2010 to July 02, 2010
    * Peter Norvig (Google): TBA
    * Fernando Perez (Berkeley): TBA
    * Prabhu Ramachandran (Bombay, India): TBA
+   * William Stein (University of Washington): Sage
 
 == Project Groups ==
 
