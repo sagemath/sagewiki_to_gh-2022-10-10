@@ -2,15 +2,15 @@
 
 == Structure of the course ==
 
- - Quick review of Elliptic curves over Q and the Mordell-Weil theorem
+ * Quick review of Elliptic curves over Q and the Mordell-Weil theorem
 
- - Elliptic curves over finite fields, heuristics for their distribution and the naive version of BSD
+ * Elliptic curves over finite fields, heuristics for their distribution and the naive version of BSD
 
- - L-functions of elliptic curves and the BSD-conjecture
+ * L-functions of elliptic curves and the BSD-conjecture
 
- - Root numbers and how to compute them
+ * Root numbers and how to compute them
 
- - Parity predictions, Gldfeld's [spelling error on purpose due to antispam filter] conjecture and ranks of elliptic curves over number fields
+ * Parity predictions, Gldfeld's [spelling error on purpose due to antispam filter] conjecture and ranks of elliptic curves over number fields
 
 == Prerequisites ==
 
