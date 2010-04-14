@@ -21,8 +21,7 @@ Dates: June 21, 2010 to July 02, 2010
    * John Cremona (Warwick University): ''Tables of elliptic curves''
    * Tim Dokchitser (Cambridge University): ''Complex L-functions and the Birch and Swinnerton-Dyer conjecture''
    * Matthew Greenberg (University of Calgary): ''Elliptic curves over number fields''
-   * William Stein (University of Washington): ''Heegner points and the Gross-Zagier formula''
-   * Jared Weinstein (UCLA): ''Kolyvagin's Euler system''
+   * Jared Weinstein (UCLA): ''Heegner Points and Kolyvagin's Euler system''
    * Christian Wuthrich (Nottingham): ''p-adic L-series and Iwasawa theory''
 
 === Colloquium ===
