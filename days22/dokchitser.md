@@ -1,7 +1,5 @@
 = Tim Dokchitser (Cambridge University): Complex L-functions and the Birch and Swinnerton-Dyer conjecture =
 
-= Tim Dokchitser (Cambridge University): Complex L-functions and the Birch and Swinnerton-Dyer conjecture =
-
 == Structure of the course ==
 
  - Quick review of Elliptic curves over Q and the Mordell-Weil theorem
