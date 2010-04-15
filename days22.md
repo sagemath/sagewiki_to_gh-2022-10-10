@@ -20,7 +20,7 @@ Dates: June 21, 2010 to July 02, 2010
 === Project Groups ===
    * [[/cremona|John Cremona (Warwick University): ''Tables of elliptic curves'']]
    * [[/dokchitser|Tim Dokchitser (Cambridge University): ''Complex L-functions and the Birch and Swinnerton-Dyer conjecture'']]
-   * [[/greenberg|Matthew Greenberg (University of Calgary): ''Elliptic curves over number fields'']]
+   * [[/greenberg|Matthew Greenberg (University of Calgary): ''Mod p representations associated to elliptic curves'']]
    * [[/weinstein|Jared Weinstein (UCLA) and William Stein (Univ. of Washington): ''Heegner Points and Kolyvagin's Euler system'']]
    * [[/wuthrich|Christian Wuthrich (Nottingham): ''p-adic L-series and Iwasawa theory'']]
 
