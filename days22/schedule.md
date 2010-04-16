@@ -8,13 +8,13 @@ Monday, June 21:
   * Director, then Stein: Introduction and orientation
   * Cremona: TBA
   * Weinstein: TBA
-  * Greenberg: TBA
+  * Elkies: TBA
   * Working sessions
 
 Tuesday, June 22:
   * Stein: Project status reports
   * Cremona: TBA
-  * Dokchitser: TBA
+  * Greenberg: TBA
   * Wuthrich: TBA
   * Working sessions
 
@@ -51,7 +51,7 @@ Fun Field Trips:
 Monday, June 28: 
   * Stein: Project status reports
   * Weinstein: TBA
-  * Greenberg: TBA
+  * Elkies: TBA
   * Working sessions
   * Cremona's students: presentations
 
@@ -59,7 +59,7 @@ Tuesday, June 29:
   * Stein: Project status reports
   * Wuthrich: TBA
   * Weinstein: TBA
-  * Greenberg: TBA
+  * Dokchitser: TBA
   * Working sessions
   
 
