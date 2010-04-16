@@ -17,6 +17,10 @@ Dates: June 21, 2010 to July 02, 2010
 
 == Speakers ==
 
+Number Theory: John Cremona (Warwick), Tim Dokchitser (Cambridge), Noam Elkies (Harvard), Matt Greenberg (Calgary), Ken Ribet (Berkeley), William Stein (University of Washington), Jared Weinstein (UCLA), Christian Wuthrich (Nottingham)
+
+Open Source: Fernando Perez (Berkeley), Peter Norvig (Director of Research at Google),  Prabhu Ramachandran (Bombay)
+
 === Project Groups ===
    1. [[/cremona|John Cremona (Warwick University): ''Tables of elliptic curves'']]
    2. [[/dokchitser|Tim Dokchitser (Cambridge University): ''Complex L-functions and the Birch and Swinnerton-Dyer conjecture'']]
