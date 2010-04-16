@@ -24,7 +24,7 @@ Open Source: Fernando Perez (Berkeley), Peter Norvig (Director of Research at Go
 === Project Groups ===
    1. [[/cremona|John Cremona (Warwick University): ''Tables of elliptic curves'']]
    2. [[/dokchitser|Tim Dokchitser (Cambridge University): ''Complex L-functions and the Birch and Swinnerton-Dyer conjecture'']]
-   3. [[/greenberg|Matthew Greenberg (University of Calgary): ''Mod p representations associated to elliptic curves'']]
+   3. [[/greenberg|Noam Elkies (Harvard) and Matthew Greenberg (University of Calgary): ''Mod p representations associated to elliptic curves'']]
    4. [[/weinstein|Jared Weinstein (UCLA) and William Stein (Univ. of Washington): ''Heegner Points and Kolyvagin's Euler system'']]
    5. [[/wuthrich|Christian Wuthrich (Nottingham): ''p-adic L-series and Iwasawa theory'']]
 
