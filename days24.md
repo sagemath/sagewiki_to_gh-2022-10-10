@@ -36,18 +36,16 @@ We also have very limited non-EU funding. Even if you don't fit the criteria abo
 
 Accommodation for participants receiving financial support will be in shared double rooms at the Hotel Sommerhaus in Hagenberg, within walking distance to [[http://www.risc.jku.at|RISC]] where the workshop will take place.
 
-Follow [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|this link]] for the [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|financial support application form]]. Deadline for applications is April 12th, 2010.
+Follow [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|this link]] for the [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|financial support application form]]. Deadline for applications was April 12th, 2010.
 
 
 === Registration ===
 
-A web interface will be available for registration through the [[http://www.risc.uni-linz.ac.at/about/conferences/summer2010/|RISC Summer 2010 pages]] at the beginning of April 2010. You will also be able to book hotel rooms in Hagenberg during registration.
+Registration is now open. Follow [[http://www.risc.uni-linz.ac.at/about/conferences/summer2010/registration/|this link]] to access the [[http://www.risc.uni-linz.ac.at/about/conferences/summer2010/registration/|registration system]]. You can also book hotel rooms in Hagenberg during registration.
 
-There will be a registration fee of 40 Euros.
+The registration fee is 40 Euros.
 
-Feel free to email the [[#organizers|organizers]] beforehand if you intend to participate in the workshop. We will also post a notice to the [[http://groups.google.com/group/sagedays24|mailing list]] once the registration is open.
-
-Follow [[days24/participants|this link]] for the [[days24/participants|list of participants]].
+Feel free to email the [[#organizers|organizers]] beforehand if you intend to participate in the workshop. You can also subscribe to the [[#contact|mailing list]] to keep up to date and add your name to the [[days24/participants|list of participants]].
 === Close events ===
 
  * [[http://www.issac-conference.org/2010/|ISSAC 2010]] July 25 - 28, 2010, Munich, Germany
