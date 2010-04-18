@@ -127,6 +127,49 @@ def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=inpu
 }}}
 {{attachment:ode_runga_kutta.png}}
 
+== Linear two-dimensional ODEs ==
+by Marshall Hampton
+{{{
+%cython
+cpdef c_euler_m(double t0, double x10, double x20, double tend, int steps, double a11, double a12, double a21, double a22, double cutoff = 10):
+    cdef double h = (tend-t0)/steps
+    traj = [[x10,x20]]
+    cdef double x1current = x10
+    cdef double x2current = x20
+    cdef int i
+    cdef double newx1
+    cdef double newx2
+    for i in range(0,steps):
+        newx1 = x1current + h*a11*x1current + h*a12*x2current
+        newx2 = x2current + h*a21*x1current + h*a22*x2current
+        if newx1 > cutoff or newx2 > cutoff or newx1 < -cutoff or newx2 < -cutoff:
+            break
+        traj.append([newx1,newx2])
+        x1current = newx1
+        x2current = newx2
+    return traj
+}}}
+{{{
+@interact
+def planarsystem(a11 = slider(srange(-10,10,1/10),default = -1), a12 = slider(srange(-10,10,1/10),default = -1), a21 = slider(srange(-10,10,1/10),default = 1), a22 = slider(srange(-10,10,1/10),default = -1), time_tracked = slider(srange(1,100,1.0),default=10)):
+    A = matrix(RDF,[[a11,a12],[a21,a22]])
+    eigs = A.eigenvalues()
+    html('<center>$x\' = Ax$ dynamics<BR>$A = '+latex(A)+'$, eigenvalues: $%2.2f + %2.2fI, %2.2f + %2.2fI$</center>'%(eigs[0].real(),eigs[0].imag(),eigs[1].real(),eigs[1].imag()))
+    trajs = Graphics()
+    for q in srange(0,2*pi,.15):
+        astart = randint(1,10)
+        ntraj = c_euler_m(0,cos(q),sin(q),time_tracked,300,a11,a12,a21,a22)
+        for i in range(astart,len(ntraj)-1,10):
+            trajs = trajs + arrow(ntraj[i],ntraj[i+1],width=1, arrowsize=2)
+        trajs = trajs + line(ntraj)
+        ntraj = c_euler_m(0,cos(q),sin(q),-time_tracked,300,a11,a12,a21,a22)
+        trajs = trajs + line(ntraj)
+        for i in range(astart,len(ntraj)-1,10):
+            trajs = trajs + arrow(ntraj[i+1],ntraj[i],width=1, arrowsize=2)
+    show(trajs, figsize = [6,6], xmin = -1, xmax = 1, ymin = -1, ymax = 1)
+}}}
+{{attachment:linear2x2.png}}
+
 == Euler's Method, Improved Euler, and 4th order Runge-Kutta in one variable ==
 by Marshall Hampton.  This is a more baroque version of the Euler's method demo above.
 {{{
