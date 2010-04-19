@@ -8,6 +8,7 @@ Organizers:
    * Jarrod Millman (UC Berkeley)
    * Prabhu Ramachandran (IITB)
    * William Stein (University of Washington)
+   * Sourav San Gupta (India)
    
 Mailing lists:
 
