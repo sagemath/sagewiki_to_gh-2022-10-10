@@ -57,7 +57,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
 == Participants ==
 
  * Salman Baig (Washington)
- * Jen Balakrishnan (MIT)
+ * Jen Balakrishnan (MIT) [5/22-5/28]
  * Rob Beezer (Univ of Puget Sound)
  * Gebhard Boeckle (Universitat Duisburg-Essen) [5/22-5/29]
  * Tom Boothby (Washington)
