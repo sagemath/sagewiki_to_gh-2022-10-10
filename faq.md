@@ -184,40 +184,25 @@ The Sage developers (in fact, Carl Witty) decided that Sage floating point numbe
  * ANSWER: No, Sage does not have a similar feature.  The IPython command prompt uses the readline library (via pyreadline), which evidently doesn't support this feature.  Magma has its own custom "readline-like" library, which does support this feature.   (Since so many people have requested this feature, if anybody can figure out how to implement it, then such an implementation would certainly be welcome!)
 
 
-=== Type issues using scipy, cvxopt or numpy from Sage ===
+=== How do I work with noncommutative variables ===
 
- * QUESTION: I'm using scipy or cvxopt or numpy from Sage and get type errors, e.g., "TypeError: function not supported for these types, and can't coerce safely to supported types."
- * ANSWER: When you type in numbers into Sage, the pre-processor converts them to a base ring, which you can see by doing: 
- {{{#!python numbers=none
-sage: preparse('stats.uniform(0,15).ppf([0.5,0.7])')
-"stats.uniform(Integer(0),Integer(15)).ppf([RealNumber('0.5'),RealNumber('0.7')])"
+ * QUESTION: I'd like to do some mathematics with variables that do not commute with each other.  How do I do that?
+ * ANSWER: Use the FreeAlgebra object:
+{{{
+sage: R.<a,b> = FreeAlgebra(QQ, 2)
+sage: a*b + b*a
+a*b + b*a
+sage: s = matrix(R)
+sage: s = matrix(R, [[a,b],[b,a]]); s
+[a b]
+[b a]
+sage: s*s
+[a^2 + b^2 a*b + b*a]
+[a*b + b*a a^2 + b^2]
+sage: b*s*s
+[  b*a^2 + b^3 b*a*b + b^2*a]
+[b*a*b + b^2*a   b*a^2 + b^3]
 }}}
-Unfortunately, Numpy support of these advanced Sage types like Integer or RealNumber is not yet at 100%. 
-
-As a solution, redefine RealNumber and/or Integer to change the behavior of the Sage preparser, so decimal literals are floats instead of Sage arbitrary precision real numbers, and integer literals are Python ints.  For example:
-{{{#!python numbers=none
-sage: RealNumber=float; Integer=int
-sage: from scipy import stats
-sage: stats.ttest_ind(list([1,2,3,4,5]),list([2,3,4,5,.6]))
-(array(0.076752955645333687), 0.940704902474)
-sage: stats.uniform(0,15).ppf([0.5,0.7])
-array([  7.5,  10.5])
-}}}
-
-Alternatively, be explicit about data types, e.g.
-{{{#!python numbers=none
-sage: stats.uniform(int(0),int(15)).ppf([float(0.5),float(0.7)])
-array([  7.5,  10.5])
-}}}
-
-As a third alternative, use the raw suffix:
-{{{#!python numbers=none
-sage: stats.uniform(0r,15r).ppf([0.5r,0.7r])
-array([  7.5,  10.5])
-}}}
-
-Disabling the preprocessor is also achievable in code by {{{preparse(False)}}}. One may start IPython alone from the command line ("sage -ipython") which does not pre-load anything Sage-specific; or switching the Notebook language to "python".
-
 
 === How do I save an object so I don't have to compute it each time I open a worksheet? ===
 
