@@ -90,7 +90,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Drinfeld modular forms
   * Baig, Boeckle, Butenuth, Hall, Ulmer
  * Statistics over function fields
-  * Baig, Miller, Hall, Conrey
+  * Baig, Conrey, Hall, Miller
  * "Cremona's Tables" for function fields
 
 == (Tentative) Schedule ==
