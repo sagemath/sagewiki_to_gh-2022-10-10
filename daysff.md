@@ -17,7 +17,7 @@ A handful of visitors will be staying at the Shuey House, while the remaining vi
 ==== The Shuey House ====
 
  * Second floor ([[http://www.shueyhouse.com/second%20floor.jpg|layout]])
-  * Master suite bedroom: S. Yazdani and S. Miller
+  * Master suite bedroom: TBD and S. Miller
   * Bedroom 2: J. Balakrishnan
   * Bedroom 3: C. Hall
   * Bedroom 4: F. Hess
@@ -80,17 +80,18 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Doug Ulmer (Georgia Tech) [5/23-5/26]
  * Felipe Voloch (Texas) [5/23-5/29]
  * Wenhan Wang (Washington)
- * Soroosh Yazdani (Mc-Master)
 
-== Tentative Project List ==
+== Tentative Projects ==
 
- * Elliptic curves over function fields and their $L$-functions
+ * $L$-functions and the Birch and Swinnerton-Dyer Conjecture over function fields
+  * Baig, Hall, Occhipinti, Ulmer, Voloch
+ * The Mordell-Weil group (descent, computing the algebraic rank, finding generators, torsion)
+  * Baig, Balakrishnan, Bradshaw, Hall, Hess, Moehlmann, Ulmer, Voloch
  * Drinfeld modular forms
- * The Birch and Swinnerton-Dyer Conjecture over function fields
- * "Cremona's Tables" for function fields
- * Computing Mordell-Weil groups
-  * Descent over function fields
+  * Baig, Boeckle, Butenuth, Hall, Ulmer
  * Statistics over function fields
+  * Baig, Miller, Hall, Conrey
+ * "Cremona's Tables" for function fields
 
 == (Tentative) Schedule ==
 
