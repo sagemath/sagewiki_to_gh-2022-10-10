@@ -1,10 +1,10 @@
 = Sage Days 20.5: Fields Institute, Toronto, Canada =
 
-Offical website: http://www.fields.utoronto.ca/programs/scientific/09-10/sage/
+    Offical website: http://www.fields.utoronto.ca/programs/scientific/09-10/sage/
 
-Dates: May 3-7, 2010
+    Dates: May 3-7, 2010
 
-Organizers: Nantel Bergeron, Franco Saliola, Mike Zabrocki
+    Organizers: Nantel Bergeron, Franco Saliola, Mike Zabrocki
 
 == General Schedule ==
 
@@ -20,19 +20,11 @@ Organizers: Nantel Bergeron, Franco Saliola, Mike Zabrocki
 
 === Obtaining and Installing Sage ===
 
-We will standardize on '''Sage Version 4.4''', so please have that version
-installed on you computer (this is a very new release, and it might be a
-day or two until the binaries for version 4.4 are available).
+    We will standardize on '''Sage Version 4.4''', so please have that version installed on you computer (this is a very new release, and it might be a day or two until the binaries for version 4.4 are available).
 
-To install, please visit the [[http://www.sagemath.org|Sage website]] and
-click download. You can either choose to download and install a binary for
-your system, or you can compile from source. Be aware that compiling from
-source takes a long time.
+    To install Sage, please visit the [[http://www.sagemath.org|Sage website]], click download and follow the instructions. You can either download and install a binary for your system, or you can compile from source. Be aware that compiling from source takes a long time.
 
 === Guides ===
-
-Here is a list of several guides that might prove useful for the
-conference.
 
     '''Sage'''
         * [[http://www.sagemath.org/doc/tutorial/|Sage tutorial]]
@@ -52,4 +44,4 @@ conference.
 
 === Coding Sprints ===
 
-There are several proposed topics for coding sprints on the [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Sage-Combinat Road Map]]. Others can/will be posted here.
+    There are several proposed topics for coding sprints on the [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Sage-Combinat Road Map]]. Others can/will be posted here.
