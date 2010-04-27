@@ -84,7 +84,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
 == Tentative Projects ==
 
  * $L$-functions and the Birch and Swinnerton-Dyer Conjecture over function fields
-  * Baig, Hall, Occhipinti, Ulmer, Voloch
+  * Baig, Balakrishnan, Hall, Occhipinti, Ulmer, Voloch
  * The Mordell-Weil group (descent, computing the algebraic rank, finding generators, torsion)
   * Baig, Balakrishnan, Bradshaw, Hall, Hess, Moehlmann, Ulmer, Voloch
  * Drinfeld modular forms
