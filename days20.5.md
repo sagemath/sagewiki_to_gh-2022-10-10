@@ -1,10 +1,10 @@
 = Sage Days 20.5: Fields Institute, Toronto, Canada =
 
-    Offical website: http://www.fields.utoronto.ca/programs/scientific/09-10/sage/
+    * Offical website: http://www.fields.utoronto.ca/programs/scientific/09-10/sage/
 
-    Dates: May 3-7, 2010
+    * Dates: May 3-7, 2010
 
-    Organizers: Nantel Bergeron, Franco Saliola, Mike Zabrocki
+    * Organizers: Nantel Bergeron, Franco Saliola, Mike Zabrocki
 
 == General Schedule ==
 
