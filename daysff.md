@@ -63,7 +63,6 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Tom Boothby (Washington)
  * Robert Bradshaw (Washington)
  * Harrison Brown (Georgia Tech)
- * Martin Brown (Institut Fourier)
  * Ralf Butenuth (Universitat Duisburg-Essen) [5/21-5/30]
  * Craig Citro (Washington)
  * Brian Conrey (AIM)
