@@ -6,15 +6,19 @@
 
     * Organizers: Nantel Bergeron, Franco Saliola, Mike Zabrocki
 
-== General Schedule ==
+== Schedule ==
 
-    * 10h00--10h30 - coffee and introductions
-    * 10h30--11h30 - talk/tutorial
-    * 11h30--12h30 - talk/tutorial
-    * 12h30--14h00 - lunch
-    * 14h00--15h00 - talk/tutorial/coding sprints
-    * 15h00--15h30 - coffee
-    * 15h30 onwards:  tutorial/coding sprints/specialized talks/....
+    [[/schedule|Schedule]]
+
+    '''General format'''
+
+        * 10h00--10h30 - coffee and introductions
+        * 10h30--11h30 - talk/tutorial
+        * 11h30--12h30 - talk/tutorial
+        * 12h30--14h00 - lunch
+        * 14h00--15h00 - talk/tutorial/coding sprints
+        * 15h00--15h30 - coffee
+        * 15h30 onwards:  tutorial/coding sprints/specialized talks/....
 
 == Resources ==
 
