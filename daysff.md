@@ -17,7 +17,7 @@ A handful of visitors will be staying at the Shuey House, while the remaining vi
 ==== The Shuey House ====
 
  * Second floor ([[http://www.shueyhouse.com/second%20floor.jpg|layout]])
-  * Master suite bedroom: TBD and S. Miller
+  * Master suite bedroom: K. Wilson and S. Miller
   * Bedroom 2: J. Balakrishnan
   * Bedroom 3: C. Hall
   * Bedroom 4: F. Hess
@@ -79,6 +79,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Doug Ulmer (Georgia Tech) [5/23-5/26]
  * Felipe Voloch (Texas) [5/23-5/29]
  * Wenhan Wang (Washington)
+ * Kevin Wilson (Princeton)
 
 == Tentative Projects ==
 
