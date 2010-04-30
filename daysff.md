@@ -67,6 +67,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Craig Citro (Washington)
  * Brian Conrey (AIM)
  * Alyson Deines (Washington)
+ * Mike Hansen
  * Chris Hall (Wyoming)
  * Florian Hess (Technische Universitat Berlin) [5/23-5/28]
  * Jacob Lewis (Washington)
