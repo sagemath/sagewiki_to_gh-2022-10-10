@@ -28,7 +28,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 || Abstract:  This talk will demonstrate how to quickly and painlessly implement new algebraic structures (modules, algebras, hopf algebras, etc.) in Sage.  Included in the discussion will be how to use the coercion framework to connect your {{{NewAlgebraicObject}}} to existing structures within Sage. ||
 ||     11:30-12:30  ||'''Anne Schilling: Affine Stanley Symmetric Functions'''||
 ||     12:30-2:00   ||'''Lunch'''||
-||     2:00-3:00    ||'''Sage Tutorial V: Implementing a {{{NewAlgebraicObject}}}''' (lead by Nicolas Thiery)||
+||     2:00-3:00    ||'''Sage Tutorial V: Implementing a new algebraic structure''' (lead by Nicolas Thiery)||
 ||     3:00-3:30    ||'''Coffee'''||
 ||     3:30 onwards ||'''Coding Sprints'''||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday 6 May 2010||
