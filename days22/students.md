@@ -38,9 +38,9 @@ Group 4 (Stein, Weinstein):
    Garcia, D.
    Liu, Yu-Han
    Lunhao, Ao
-   Yhee, Donggeon
    Walker, Justin
    Whitehead, Ian
+   Yhee, Donggeon
 
 
 Group 5 (Wuthrich):
