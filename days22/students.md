@@ -1,12 +1,13 @@
 {{{
 
->Group 1 (Cremona):
+Group 1 (Cremona):
    Anderson, Jackie
    Beyerstedt, Erin
    Deines, Alyson
    Haensch, Anna
    Kao, Pin-Hung
    Stankew, Jim
+   Walker, Justin
 
 Group 2 (Dokchitser):
    Gamage, Thilina
