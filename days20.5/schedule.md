@@ -10,6 +10,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 || Worksheets: [[attachment:SageDays20.5-Tutorial.sws]] [[attachment:SageDays20.5-Exercises.sws]] ||
 ||     12:30-2:00   ||'''Lunch'''||
 ||     2:00-3:00    ||'''Sage Tutorial II: lists and dictionaries''' (lead by Jason Bandlow)||
+||                  || Worksheet: [[attachment:SageDays20.5-BasicDataTypes.sws]] ||
 ||     3:00-3:30    ||'''Coffee'''||
 ||     3:30-4:30    ||'''Sage Tutorial III: loops and functions''' (lead by Mike Hansen)||
 ||     4:30-onwards ||'''Coding Sprints'''||
