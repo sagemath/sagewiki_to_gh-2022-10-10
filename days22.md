@@ -28,6 +28,8 @@ Open Source: Fernando Perez (Berkeley), Peter Norvig (Director of Research at Go
    4. [[/weinstein|Jared Weinstein (UCLA) and William Stein (Univ. of Washington): ''Heegner Points and Kolyvagin's Euler system'']]
    5. [[/wuthrich|Christian Wuthrich (Nottingham): ''p-adic L-series and Iwasawa theory'']]
 
+ [[/students|Preliminary student to group assignments]]
+
 === Colloquium ===
    * Ken Ribet (Berkeley): TBA
 
