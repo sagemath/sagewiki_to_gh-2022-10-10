@@ -1,5 +1,6 @@
 {{{
-Group 1 (Cremona):
+
+>Group 1 (Cremona):
    Anderson, Jackie
    Beyerstedt, Erin
    Deines, Alyson
@@ -23,7 +24,7 @@ Group 3 (Elkies, Greenberg):
    Daub, Michael
    Keaton, Rodney
    Levin, Brandon
-   Lichtensein, Benjamin
+   Lichtensein, Sam
    Lipnowksi, Michael
    Peskin, Laura
    Phaovibul, M.
@@ -47,6 +48,7 @@ Group 5 (Wuthrich):
    Kim, Chan-Ho
    Maguire, Megan
    Militzer, Erin
-   MW, Jeremy
-   Rusnell, Vincent
+   West, Jeremy
+   Rusnell, Vincent   
+
 }}}
