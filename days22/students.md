@@ -7,7 +7,6 @@ Group 1 (Cremona):
    Haensch, Anna
    Kao, Pin-Hung
    Stankew, Jim
-   Walker, Justin
 
 Group 2 (Dokchitser):
    Gamage, Thilina
@@ -40,6 +39,7 @@ Group 4 (Stein, Weinstein):
    Liu, Yu-Han
    Lunhao, Ao
    Bi, Shuchao
+   Walker, Justin
    Whitehead, Ian
 
 
