@@ -1,0 +1,52 @@
+{{{
+Group 1 (Cremona):
+   Anderson, Jackie
+   Beyerstedt, Erin
+   Deines, Alyson
+   Haensch, Anna
+   Kao, Pin-Hung
+   Stankew, Jim
+
+Group 2 (Dokchitser):
+   Gamage, Thilina
+   Sahinoglu, Hatice
+   Sehanobish, Arijit
+   Sorkin, Adam
+   Straub, Armin
+   Thompson, Lola
+   Venkatesh, Anil
+
+Group 3 (Elkies, Greenberg):
+   Ai, David
+   Cass, Jon
+   Chen, Feng
+   Daub, Michael
+   Keaton, Rodney
+   Levin, Brandon
+   Lichtensein, Benjamin
+   Lipnowksi, Michael
+   Peskin, Laura
+   Phaovibul, M.
+
+
+Group 4 (Stein, Weinstein):
+   Balakrishnan, Jennifer
+   Bellovin, Rebecca
+   Disegni, Daniel
+   Donggeon
+   Garcia, D.
+   Liu, Yu-Han
+   Lunhao, Ao
+   Bi, Shuchao
+   Whitehead, Ian
+
+
+Group 5 (Wuthrich):
+   Banwait, Barinder
+   Bergdall, John
+   Kim, Chan-Ho
+   Maguire, Megan
+   Militzer, Erin
+   MW, Jeremy
+   Rusnell, Vincent
+}}}
