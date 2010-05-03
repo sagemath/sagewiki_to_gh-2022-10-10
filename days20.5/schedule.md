@@ -4,8 +4,10 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday 3 May 2010||
 ||     10:00-10:30  ||'''Coffee and Introductions'''||
-||     10:30-11:30  ||'''Introduction To Sage'''||
-||     11:30-12:30  ||'''Sage Tutorial I: launching Sage and navigating the help system''' (lead by Franco Saliola)||
+||<|2> 10:30-11:30  ||'''Introduction To Sage'''||
+|| Slides: [[attachment:SageDays20.5-Talk.pdf]]; Worksheet: [[attachment:SageDays20.5-Demo.sws]] ||
+||<|2> 11:30-12:30  ||'''Sage Tutorial I: launching Sage and navigating the help system''' (lead by Franco Saliola)||
+|| Worksheets: [[attachment:SageDays20.5-Tutorial.sws]] [[attachment:SageDays20.5-Exercises.sws]] ||
 ||     12:30-2:00   ||'''Lunch'''||
 ||     2:00-3:00    ||'''Sage Tutorial II: lists and dictionaries''' (lead by Jason Bandlow)||
 ||     3:00-3:30    ||'''Coffee'''||
