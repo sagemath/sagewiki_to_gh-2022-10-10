@@ -13,7 +13,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 ||                  || Worksheet: [[attachment:SageDays20.5-BasicDataTypes.sws]] ||
 ||     3:00-3:30    ||'''Coffee'''||
 ||     3:30-4:30    ||'''Sage Tutorial III: loops and functions''' (lead by Mike Hansen)||
-||                  ||     Worksheet: [[attachment:SageDays20.5-LoopsAndFunctions.sws]] ||
+||                  ||     Worksheet: [[attachment:SageDays20.5-LoopsAndFunctions.sws]] [[http://www.fields.utoronto.ca/~fsaliola/sage/SienaLectures/worksheets/sws/Worksheet_5___3n_1_Conjecture.sws]] ||
 ||     4:30-onwards ||'''Coding Sprints'''||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday 4 May 2010||
 ||     10:00-10:30  ||'''Coffee'''||
