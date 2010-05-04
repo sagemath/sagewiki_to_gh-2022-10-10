@@ -22,7 +22,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 ||<|2> 11:30-12:30  ||'''Ed Green: Noncommutative Groebner basis theory for path algebras'''||
 || Abstract:  In this talk I will give an overview of the theory of noncommutative Groebner bases for path algebras.||
 ||     12:30-2:00   ||'''Lunch'''||
-||     2:00-3:00    ||'''Sage Tutorial IV: Introduction to classes and inheritance''' (lead by Florent Hivert)||
+||     2:00-3:00    ||'''Sage Tutorial IV: Introduction to classes and inheritance''' (lead by Florent Hivert) Worksheet: [[attachment:object_class_talk.sws]]||
 ||     3:00-3:30    ||'''Coffee'''||
 ||     3:30-4:30    ||'''Mike Hansen: How to Contribute to Sage'''||
 ||     4:30-onwards ||'''Coding Sprints'''||
