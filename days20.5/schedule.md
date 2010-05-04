@@ -25,7 +25,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 ||     2:00-3:00    ||'''Sage Tutorial IV: Introduction to classes and inheritance''' (lead by Florent Hivert) Worksheet: [[attachment:object_class_talk.sws]]||
 ||     3:00-3:30    ||'''Coffee'''||
 ||     3:30-4:30    ||'''Mike Hansen: How to Contribute to Sage'''||
-||                  || Worksheet: [[attachment:sd20.5.pdf]] ||
+||                  || Slides: [[attachment:sd20.5.pdf]] ||
 ||     4:30-onwards ||'''Coding Sprints'''||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday 5 May 2010||
 ||     10:00-10:30  ||'''Coffee'''||
