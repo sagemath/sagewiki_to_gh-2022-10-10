@@ -6,7 +6,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 ----
 
-'''[[http:/combinat/Installation|Installation instructions]]'''
+'''[[http://wiki.sagemath.org/combinat/Installation|Installation instructions]]'''
 
 ----
 
