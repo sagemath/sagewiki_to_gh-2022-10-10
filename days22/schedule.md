@@ -32,11 +32,11 @@ Thursday, June 24:
   * Working sessions
 
 Friday, June 25:
-  * William Stein: Sage
-  * Peter Norvig: TBA
-  * Fernando Perez: TBA
-  * Prabhu Ramachandran: TBA
-  * ... more TBA
+  * William Stein (Univ. of Washington): Sage
+  * Peter Norvig (Google): TBA
+  * Fernando Perez (Berkeley): TBA
+  * Prabhu Ramachandran (IITS, India): TBA
+  * Robert Bradshaw (Google): The Cython Compiler
 
 ----------------------------------------------------
 
