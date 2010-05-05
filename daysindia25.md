@@ -15,7 +15,7 @@
    * Jarrod Millman (UC Berkeley)
    * Prabhu Ramachandran (IITB)
    * William Stein (University of Washington)
-   * Sourav San Gupta (India)
+   * Sourav Sen Gupta (ISI Kolkata)
    
 == Mailing lists ==
 
