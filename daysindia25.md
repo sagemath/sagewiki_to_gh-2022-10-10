@@ -4,6 +4,11 @@
 
    * August 9-12, 2010
 
+
+== Tenative Schedule ==
+
+   The [[/schedule|tentative schedule]].
+
 == Organizers ==
 
    * Kiran Kedlaya (MIT)
@@ -16,7 +21,3 @@
 
    * http://groups.google.com/group/sagedays25 (for participants)
    * http://groups.google.com/group/sagedays25-org (for organizers only)
-
-== Tenative Schedule ==
-
-   A [[/schedule|very tentative schedule]].
