@@ -1,4 +1,3 @@
-
 = Sage Days 25 in Mumbai, India =
 
 == Dates ==
@@ -20,4 +19,4 @@
 
 == Tenative Schedule ==
 
-   A [[:/schedule:very tentative schedule]].
+   A [[/schedule|very tentative schedule]].
