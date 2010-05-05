@@ -32,7 +32,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 ||<|2> 10:30-11:30  ||'''Jason Bandlow: An introduction to categories and coercions in Sage'''||
 || Abstract:  This talk will demonstrate how to quickly and painlessly implement new algebraic structures (modules, algebras, hopf algebras, etc.) in Sage.  Included in the discussion will be how to use the coercion framework to connect your {{{NewAlgebraicObject}}} to existing structures within Sage. Worksheet: [[attachment:AnIntroductionToAlgebraicObjects.sws]] ||
 ||<|2> 11:30-12:30  ||'''Anne Schilling: Affine Stanley Symmetric Functions'''||
-|| Abstract: We will first review the definition of Stanley symmetric functions and then use the methods in sage that Jason introduced to make them live in the correct quotient space. [[attachment:TorontoAffineStanley.sws]] [attachment:sagedays10.pdf]]||
+|| Abstract: We will first review the definition of Stanley symmetric functions and then use the methods in sage that Jason introduced to make them live in the correct quotient space. [[attachment:TorontoAffineStanley.sws]] [[attachment:sagedays10.pdf]]||
 ||     12:30-2:00   ||'''Lunch'''||
 ||     2:00-3:00    ||'''Sage Tutorial V: Implementing a new algebraic structure''' (lead by Nicolas Thiery)||
 ||     3:00-3:30    ||'''Coffee'''||
