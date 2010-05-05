@@ -1,8 +1,10 @@
 = Sage Days 25 in Mumbai, India =
 
-Dates: August 9-12, 2010
+== Dates ==
 
-Organizers: 
+   * August 9-12, 2010
+
+== Organizers ==
 
    * Kiran Kedlaya (MIT)
    * Jarrod Millman (UC Berkeley)
@@ -10,7 +12,11 @@ Organizers:
    * William Stein (University of Washington)
    * Sourav San Gupta (India)
    
-Mailing lists:
+== Mailing lists ==
 
    * http://groups.google.com/group/sagedays25 (for participants)
    * http://groups.google.com/group/sagedays25-org (for organizers only)
+
+== Tenative Schedule ==
+
+   A [[/schedule|very tentative schedule]].
