@@ -1,6 +1,7 @@
 {{{
 
-Group 1 (Cremona):
+Group 1:
+   Cremona, John (senior person)
    Anderson, Jackie
    Beyerstedt, Erin
    Deines, Alyson
@@ -8,7 +9,8 @@ Group 1 (Cremona):
    Kao, Pin-Hung
    Stankew, Jim
 
-Group 2 (Dokchitser):
+Group 2:
+   Dokchitser, Tim (senior person)
    Gamage, Thilina
    Sahinoglu, Hatice
    Sehanobish, Arijit
@@ -18,7 +20,9 @@ Group 2 (Dokchitser):
    Turner, Charlie
    Venkatesh, Anil
 
-Group 3 (Elkies, Greenberg):
+Group 3:
+   Elkies, Noam (senior person)
+   Greenberg, Matt (senior person)
    Ai, David
    Cass, Jon
    Chen, Feng
@@ -32,7 +36,9 @@ Group 3 (Elkies, Greenberg):
    Phaovibul, M.
 
 
-Group 4 (Stein, Weinstein):
+Group 4:
+   Stein, William (senior person)
+   Weinstein, Jared (senior person)
    Balakrishnan, Jennifer
    Bellovin, Rebecca
    Bi, Shuchao
@@ -45,7 +51,8 @@ Group 4 (Stein, Weinstein):
    Yhee, Donggeon
 
 
-Group 5 (Wuthrich):
+Group 5:
+   Wuthrich, Christian (senior person)
    Banwait, Barinder
    Bergdall, John
    Kim, Chan-Ho
