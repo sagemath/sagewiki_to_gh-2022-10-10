@@ -49,7 +49,8 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 ||     3:30 onwards ||'''Coding Sprints'''||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday 7 May 2010||
 ||     10:00-10:30  ||'''Coffee'''||
-||     10:30-11:30  ||'''Coding Sprints'''||
+||<|2> 10:30-11:30  ||'''Sage Tutorial VI: How to create and submit a patch'''||
+||'''YOU''' will go through the complete process of finding a bug in Sage, creating a trac ticket to report the bug, creating a patch to fix the bug, and submitting the patch.||
 ||     11:30-12:30  ||'''Coding Sprints'''||
 ||     12:30-2:00   ||'''Lunch'''||
 ||     2:00-3:00    ||'''Coding Sprints'''||
