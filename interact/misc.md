@@ -43,6 +43,64 @@ def sinsound(freq_ratio =  slider(0,1,1/144,1/12)):
 }}}
 {{attachment:sinsound.png}}
 
+== Karplus-Strong algorithm for plucked and percussive sound generation ==
+by Marshall Hampton
+
+{{{
+import wave
+
+class SoundFile:
+   def  __init__(self, signal,lab=''):
+       self.file = wave.open('./test' + lab + '.wav', 'wb')
+       self.signal = signal
+       self.sr = 44100
+
+   def write(self):
+       self.file.setparams((1, 2, self.sr, 44100*4, 'NONE', 'noncompressed'))
+       self.file.writeframes(self.signal)
+       self.file.close()
+
+mypi = float(pi)
+from math import sin
+
+def ks(delay,length,blend = 0,filler=None,stretch=0):
+    if filler == None:
+        filler = [randint(-16383,16383) for q in range(delay+1)]
+    outsig = filler[:]
+    index = len(filler)
+    while len(outsig) < length:
+        s = random()
+        if s > stretch:
+            b = random()
+            if b < 1-blend:
+                newvalue = (outsig[index-delay]+outsig[index-delay-1])*.5
+            else:
+                newvalue = -(outsig[index-delay]+outsig[index-delay-1])*.5
+        else:
+            newvalue = outsig[index-delay]
+        outsig.append(newvalue)
+        index += 1
+    return [int(round(x)) for x in outsig]
+
+@interact
+def sinsound(delay = slider([int(2^i) for i in range(2,10)], default=100, label="initial delay"), blend=slider(srange(0,1,.01,include_endpoint=True),default=0,label="blend factor"), stretch=slider(srange(0,1,.01,include_endpoint=True),default=0,label="stretch factor")):
+    s2f = ks(delay,int(44100*(1/2)),blend=blend,stretch=stretch)
+    for i in range(12):
+        s2f = s2f + ks(int(2^((12+i)/12.0)*delay),int(44100*(1/2)),blend=blend, stretch=stretch)
+    html("Karplus-Strong algorithm with blending and delay stretching")
+    html("<br>K. Karplus and A. Strong, <em>Digital synthesis of plucked string and drum timbres</em>, \nComputer Music Journal 7 (2) (1983), 43–55.<br>")
+    html("Initial waveform:")
+    show(list_plot(s2f[0:2000],plotjoined=True), figsize = [6,4])
+    html("Waveform after stabilization:")
+    show(list_plot(s2f[20000:22000],plotjoined=True), figsize = [6,4])
+    s2str = ''.join(wave.struct.pack('h',x) for x in s2f)
+    lab=""
+    f = SoundFile(s2str,lab=lab)
+    f.write()
+    html('<embed src="https:./test'+ lab +'.wav" width="200" height="100"></embed>')
+}}}
+
+{{attachment:KarplusStrong.png}}
 
 == An Interactive Venn Diagram ==
 
