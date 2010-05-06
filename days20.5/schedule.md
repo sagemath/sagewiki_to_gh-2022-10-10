@@ -43,7 +43,8 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 || Abstract:  I will present a method for constructing projective resolutions of modules over quotients of path algebras.  This method uses Groebner basis techniques for both ideals and modules.  A reference for this talk can be found in Green, Edward L.; Solberg, Øyvind; An algorithmic approach to resolutions.  J. Symbolic Comput.  42  (2007),  no. 11-12, 1012--1033.||
 ||     11:30-12:30  ||'''Florent Hivert : Computing the quiver of a finite dimensional algebra'''||
 ||     12:30-2:00   ||'''Lunch'''||
-||     2:00-3:00    ||'''Nicolas Thiery: Status and Roadmap for representation theory of finite dimensional algebras and finite semigroups'''||
+||<|2> 2:00-3:00    ||'''Nicolas Thiery: Status and Roadmap for representation theory of finite dimensional algebras and finite semigroups'''||
+|| Slides: [[attachment:Roadmap.pdf]]; Worksheet: [[attachment:Roadmap.sws]]||
 ||     3:00-3:30    ||'''Coffee'''||
 ||     3:30 onwards ||'''Coding Sprints'''||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday 7 May 2010||
