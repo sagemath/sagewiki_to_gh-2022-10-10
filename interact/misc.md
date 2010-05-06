@@ -90,9 +90,9 @@ def sinsound(delay = slider([int(2^i) for i in range(2,10)], default=100, label=
     html("Karplus-Strong algorithm with blending and delay stretching")
     html("<br>K. Karplus and A. Strong, <em>Digital synthesis of plucked string and drum timbres</em>, \nComputer Music Journal 7 (2) (1983), 43–55.<br>")
     html("Initial waveform:")
-    show(list_plot(s2f[0:2000],plotjoined=True), figsize = [6,4])
+    show(list_plot(s2f[0:2000],plotjoined=True), figsize = [7,3.5])
     html("Waveform after stabilization:")
-    show(list_plot(s2f[20000:22000],plotjoined=True), figsize = [6,4])
+    show(list_plot(s2f[20000:22000],plotjoined=True), figsize = [7,3.5])
     s2str = ''.join(wave.struct.pack('h',x) for x in s2f)
     lab=""
     f = SoundFile(s2str,lab=lab)
