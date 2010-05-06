@@ -19,16 +19,19 @@ Dates: June 21, 2010 to July 02, 2010
 
 Number Theory: John Cremona (Warwick), Tim Dokchitser (Cambridge), Noam Elkies (Harvard), Matt Greenberg (Calgary), Ken Ribet (Berkeley), William Stein (University of Washington), Jared Weinstein (UCLA), Christian Wuthrich (Nottingham)
 
-Open Source: Fernando Perez (Berkeley), Peter Norvig (Director of Research at Google),  Prabhu Ramachandran (Bombay)
+Open Source: Robert Bradshaw (Google), Fernando Perez (Berkeley), Peter Norvig (Director of Research at Google),  Prabhu Ramachandran (Bombay)
 
 === Project Groups ===
+
+[[/students|Preliminary student to group assignments]]
+
+
    1. [[/cremona|John Cremona (Warwick University): ''Tables of elliptic curves'']]
    2. [[/dokchitser|Tim Dokchitser (Cambridge University): ''Complex L-functions and the Birch and Swinnerton-Dyer conjecture'']]
    3. [[/greenberg|Noam Elkies (Harvard) and Matthew Greenberg (University of Calgary): ''Mod p representations associated to elliptic curves'']]
    4. [[/weinstein|Jared Weinstein (UCLA) and William Stein (Univ. of Washington): ''Heegner Points and Kolyvagin's Euler system'']]
    5. [[/wuthrich|Christian Wuthrich (Nottingham): ''p-adic L-series and Iwasawa theory'']]
 
- [[/students|Preliminary student to group assignments]]
 
 === Colloquium ===
    * Ken Ribet (Berkeley): TBA
