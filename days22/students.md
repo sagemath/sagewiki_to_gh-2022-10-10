@@ -15,6 +15,7 @@ Group 2 (Dokchitser):
    Sorkin, Adam
    Straub, Armin
    Thompson, Lola
+   Turner, Charlie
    Venkatesh, Anil
 
 Group 3 (Elkies, Greenberg):
