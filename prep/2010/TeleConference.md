@@ -39,6 +39,6 @@
 
 == Miscellaneous ==
 
-  * If the window is too busy for you, conider going to the menu: View > Layouts, and trying things like "Flat Minimal Layout" or "Narrow Minimal Layout"
+  * If the window is too busy for you, consider going to the menu: View > Layouts, and trying things like "Flat Minimal Layout" or "Narrow Minimal Layout"
 
   * We should have recordings of each session available afterwards through the Elluminate system, so you can go back and replay portions at your leisure, or re-live the whole course all over again.
