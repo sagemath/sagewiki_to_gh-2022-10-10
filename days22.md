@@ -23,8 +23,11 @@ Open Source: Robert Bradshaw (Google), Fernando Perez (Berkeley), Peter Norvig (
 
 === Project Groups ===
 
-[[/students|Preliminary student to group assignments]]
+ * [[/students|Student group assignments]]
+ * [[/background|General Sage related background reading]]
 
+
+Projects:
 
    1. [[/cremona|John Cremona (Warwick University): ''Tables of elliptic curves'']]
    2. [[/dokchitser|Tim Dokchitser (Cambridge University): ''Complex L-functions and the Birch and Swinnerton-Dyer conjecture'']]
