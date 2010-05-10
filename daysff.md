@@ -99,11 +99,11 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
 We will have one full day of organized talks, followed by working sessions and status reports the rest of the week. Informal talks are also welcome and will be left to individuals and working groups to organize.
 
 === Monday, May 24 ===
-|| 9:30am - 9:45am || Welcome || Savery Hall 155 || G. Boeckle ||
+|| 9:30am - 9:45am || Welcome || Savery Hall 155 || ||
 || 9:45am - 10:45am || Function Fields and Number Fields || Savery Hall 155 || D. Ulmer ||
 || 10:45am - 11:20am || Introduction to Sage || Savery Hall 155 || C. Citro ||
 || 11:30am - 1:30pm || Lunch || || ||
-|| 1:30pm - 2:30pm || Drinfeld Modular Forms || Thomson Hall 231 || ||
+|| 1:30pm - 2:30pm || Drinfeld Modular Forms || Thomson Hall 231 || G. Boeckle ||
 || 2:30pm - 3:30pm || Computing Drinfeld Modular Forms || Thomson Hall 231 || R. Butenuth ||
 || 3:30pm - 4:00pm || Tea || || ||
 || 4:30pm - 5:30pm || TBD || Savery Hall 139 || C. Hall ||
