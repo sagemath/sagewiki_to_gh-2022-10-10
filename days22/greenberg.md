@@ -10,4 +10,4 @@ Diamond and Shurman, "A first course in modular forms, Chapter 9
 
 Neukirch, "Algebraic number theory", Chapter 2, Section 10 and Chapter 5, Section 6
 
-Ribet and Stein, "Lectures on Serre's conjecture", Chapter 1
+Ribet and Stein, "Lectures on Serre's conjecture", Chapter 1, see http://wstein.org/papers/serre/
