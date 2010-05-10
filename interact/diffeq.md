@@ -398,7 +398,7 @@ f   = x*exp(-x^2)
 p   = plot(f,0,2*pi, thickness=2)
 c   = 1/pi
 orden=10
-alpha=[(n,c*numerical_integral(f(x)*sin(x*n/2),0,2*pi)[0] ) for n in range(1,orden)]
+alpha=[(n,c*numerical_integral(f*sin(x*n/2),0,2*pi)[0] ) for n in range(1,orden)]
 
 @interact
 def _(tiempo = (0.1*j for j in (0..10)) ):
@@ -408,7 +408,7 @@ def _(tiempo = (0.1*j for j in (0..10)) ):
 }}}
 {{attachment:heat_fourier.png}}
 
-== Heat equation using finite diferences in cython (very fast!) ==
+== Heat equation using finite diferences in cython ==
 by Pablo Angulo
 
 {{{
@@ -432,10 +432,10 @@ def calor_cython(u0,float dx, float k,float t_f,int tsteps):
 var('x')
 
 @interact
-def _(f=input_box(default=x*exp(-x^2)), longitud=input_box(default=2*pi),
+def _(f=input_box(default=x*exp(-x^2),label='f(x)'), longitud=input_box(default=2*pi),
       tiempo=input_box(default=0.1), M=input_box(default=100),
       k=input_box(default=1), tsteps=input_box(default=2000) ):
-    efe=f._fast_float_()
+    efe=f._fast_float_(x)
     dx=float(longitud/M)
     xs=[n*dx for n in range(M+1)]
     u0=[efe(a) for a in xs]
