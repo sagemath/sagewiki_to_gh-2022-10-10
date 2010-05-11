@@ -29,7 +29,6 @@ A handful of visitors will be staying at the Shuey House, while the remaining vi
 ==== Hotel Deca ====
 
  * G. Boeckle
- * B. Conrey
  * D. Ulmer
  * F. Voloch
 
@@ -65,7 +64,6 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Harrison Brown (Georgia Tech)
  * Ralf Butenuth (Universitat Duisburg-Essen) [5/21-5/30]
  * Craig Citro (Washington)
- * Brian Conrey (AIM)
  * Alyson Deines (Washington)
  * Mike Hansen
  * Chris Hall (Wyoming)
