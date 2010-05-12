@@ -19,24 +19,24 @@ A big and difficult theorem by Kato shows half of this conjecture and Skinner an
 
 The $p$-adic L-function of $E$ can be computed using modular symbols. And sage contains already code to do so. But this code could be improved in several direction.
 
-* Allow to twist the function by Dirichlet characters. In particular with the Teichmüllers.
+  * Allow to twist the function by Dirichlet characters. In particular with the Teichmüllers.
 
-* Implement a function that extracts the $\lambda$ and $\mu$ invariant and which decides it the growth of the Selmer group is due to the growth of the Tat-Shafarevich group or due to the increase of the rank.
-  Statistics on the values of these fundamental Iwasawa theoretic invariants. A question I was often asked by Iwasawa theorists is: Are the $\mu$-invariants over $\mathbb{Q}(\zeta_p)$ zero, too.
+  * Implement a function that extracts the $\lambda$ and $\mu$ invariant and which decides it the growth of the Selmer group is due to the growth of the Tat-Shafarevich group or due to the increase of the rank.
+    Statistics on the values of these fundamental Iwasawa theoretic invariants. A question I was often asked by Iwasawa theorists is: Are the $\mu$-invariants over $\mathbb{Q}(\zeta_p)$ zero, too.
 
-* Can we compute the modular symbols using complex integration ?
+  * Can we compute the modular symbols using complex integration ?
 
-* Look at overconvergent modular symbols
+  * Look at overconvergent modular symbols
 
-* What happens for primes of additive reduction ?
+  * What happens for primes of additive reduction ?
 
 
 == References ==
 
-* Mazur, Tate, Teitelbaum,  On $p$-adic analogues of the conjectures of Birch and Swinnerton-Dyer.
-  Invent. Math. 84 (1986), no. 1, 1--48. At [[http://www.ams.org/mathscinet-getitem?mr=830037| mathscinet]] or [[http://gdz.sub.uni-goettingen.de/dms/load/img/?IDDOC=175497|gdz]].
+  * Mazur, Tate, Teitelbaum,  On $p$-adic analogues of the conjectures of Birch and Swinnerton-Dyer.
+    Invent. Math. 84 (1986), no. 1, 1--48. At [[http://www.ams.org/mathscinet-getitem?mr=830037| mathscinet]] or [[http://gdz.sub.uni-goettingen.de/dms/load/img/?IDDOC=175497|gdz]].
 
-* Greenberg Ralph, Introduction to Iwasawa Theory for Elliptic Curves, [[http://www.math.washington.edu/~greenber/Park.ps|(paper)]] on [[http://www.math.washington.edu/~greenber/research.html|his web page]] full of Iwasawa theory. 
-  Also there is the more advanced Iwasawa Theory for Elliptic Curves [[http://www.math.washington.edu/~greenber/CIME.ps|(paper)]].
+  * Greenberg Ralph, Introduction to Iwasawa Theory for Elliptic Curves, [[http://www.math.washington.edu/~greenber/Park.ps|(paper)]] on [[http://www.math.washington.edu/~greenber/research.html|his web page]] full of Iwasawa theory. 
+    Also there is the more advanced Iwasawa Theory for Elliptic Curves [[http://www.math.washington.edu/~greenber/CIME.ps|(paper)]].
 
-* Stein and Wuthrich, Computations About Tate-Shafarevich Groups Using Iwasawa Theory, [[http://wstein.org/papers/shark/|preprint]]  .
+  * Stein and Wuthrich, Computations About Tate-Shafarevich Groups Using Iwasawa Theory, [[http://wstein.org/papers/shark/|preprint]]  .
