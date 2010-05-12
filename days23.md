@@ -10,4 +10,4 @@ http://www.lorentzcenter.nl/lc/web/2010/415/info.php3?wsid=415
 == Poster ==
  
   * [[attachment:poster.png|{{attachment:poster.png}}]]
-  * attachment:poster.pdf
+  * [[attachment:sd23-poster.pdf]]
