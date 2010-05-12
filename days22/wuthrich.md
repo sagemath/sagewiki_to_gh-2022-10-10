@@ -36,4 +36,6 @@ The $p$-adic L-function of $E$ can be computed using modular symbols. And sage c
 
   * Greenberg Ralph, Introduction to Iwasawa Theory for Elliptic Curves, [[http://www.math.washington.edu/~greenber/Park.ps|(paper)]] on [[http://www.math.washington.edu/~greenber/research.html|his web page]] full of Iwasawa theory. Also there is the more advanced Iwasawa Theory for Elliptic Curves [[http://www.math.washington.edu/~greenber/CIME.ps|(paper)]].
 
-  * Stein and Wuthrich, Computations About Tate-Shafarevich Groups Using Iwasawa Theory, [[http://wstein.org/papers/shark/|preprint]]  .
+  * Stein and Wuthrich, Computations About Tate-Shafarevich Groups Using Iwasawa Theory, [[http://wstein.org/papers/shark/|preprint]].
+
+  * Sage Reference Manual on p-adic L-functions of elliptic curves: [[http://sagemath.org/doc/reference/sage/schemes/elliptic_curves/padic_lseries.html]].  See also nearby sections.
