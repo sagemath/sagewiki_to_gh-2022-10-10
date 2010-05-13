@@ -6,7 +6,7 @@
 
   * Please plan to arrive a few minutes early to each session so you can get all your equipment up and running properly.
 
-  * In your web browser connect to <link will go here>.
+  * In your web browser connect to the link that was distributed via the group email list.
 
   * Accept running the download - it is a Java application.
 
@@ -21,9 +21,17 @@
 
   * Setup problems?  Try asking for help through the chat window, it should work no matter what.
 
+== Test Sessions ==
+
+These will be opportunities to test out your gear and learn the system.  Proper etiquette (as described below) will not be a feature of these sessions.  Please use whichever computer and internet connection you plan to use during the sessions.
+
+  * Monday, May 17
+    * 9:30-10:30 AM (PDT), 12:30-1:30 PM (EDT)
+    * 6:30-7:30 PM  (PDT), 9:30-10:30 PM (EDT)
+
 == Etiquette ==
 
-  * We will typically have one person presenting, while another watches the chat window, the participant list, etc.
+  * We will typically have one person presenting, while another organizer watches the chat window, the participant list, etc.
 
   * Use the chat window if you have a question that can wait a bit, or if you want to post a URL, or want to have a side conversation with another participant, but realize that moderators see all posts here.
 
