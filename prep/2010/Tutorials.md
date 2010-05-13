@@ -6,7 +6,7 @@ This page will be the home of tutorials from the summer 2010 MAA PREP workshop "
 
   * The first tutorial was about the absolute basics of evaluating mathematics, defining functions, finding help, and annotating Sage worksheets.
 
-  * The second tutorial demonstrated the basics of using symbolic expressions and plotting in Sage.
+  * The [[attachment:PREP Tutorial, Symbolics and Basic Plotting.sws|second tutorial]] demonstrated the basics of using symbolic expressions and plotting in Sage.
 
   * The third tutorial will introduce the most common uses of Sage within the (extended) calculus sequence.
 
