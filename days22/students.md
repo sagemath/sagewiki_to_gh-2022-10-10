@@ -6,6 +6,7 @@ Group 1:
    Beyerstedt, Erin
    Deines, Alyson
    Haensch, Anna
+   Hajij, Mustafa
    Kao, Pin-Hung
    Stankew, Jim
 
