@@ -24,7 +24,7 @@ A handful of visitors will be staying at the Shuey House, while the remaining vi
 
  * Third Floor ([[http://www.shueyhouse.com/thirdfloor.jpg|layout]])
   * Bedroom 1: G. Moehlmann, R. Butenuth
-  * Bedroom 2: T. Occhipinti, H. Brown
+  * Bedroom 2: T. Occhipinti
 
 ==== Hotel Deca ====
 
@@ -61,7 +61,6 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Gebhard Boeckle (Universitat Duisburg-Essen) [5/22-5/29]
  * Tom Boothby (Washington)
  * Robert Bradshaw (Washington)
- * Harrison Brown (Georgia Tech)
  * Ralf Butenuth (Universitat Duisburg-Essen) [5/21-5/30]
  * Craig Citro (Washington)
  * Alyson Deines (Washington)
