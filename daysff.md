@@ -99,13 +99,25 @@ We will have one full day of organized talks, followed by working sessions and s
 === Monday, May 24 ===
 || 9:30am - 9:45am || Welcome || Savery Hall 155 || ||
 || 9:45am - 10:45am || Function Fields and Number Fields || Savery Hall 155 || D. Ulmer ||
-|| 10:45am - 11:20am || Introduction to Sage || Savery Hall 155 || C. Citro ||
+|| 10:45am - 11:20am || An Introduction to Sage for Number Theorists || Savery Hall 155 || C. Citro ||
 || 11:30am - 1:30pm || Lunch || || ||
-|| 1:30pm - 2:30pm || Drinfeld Modular Forms || Thomson Hall 231 || G. Boeckle ||
+|| 1:30pm - 2:30pm || Drinfeld Modular Forms and Harmonic Cocycles || Thomson Hall 231 || G. Boeckle ||
 || 2:30pm - 3:30pm || Computing Drinfeld Modular Forms || Thomson Hall 231 || R. Butenuth ||
 || 3:30pm - 4:00pm || Tea || || ||
 || 4:30pm - 5:30pm || TBD || Savery Hall 139 || C. Hall ||
 || 5:30pm - 6:30pm || Organizational meeting || Savery Hall 139 || ||
+
+==== Talk Abstracts ====
+
+Function Fields and Number Fields (Ulmer): I will try to explain some of the analogies between arithmetic in these two domains and also why we can often do more in the function field setting.
+
+An Introduction to Sage for Number Theorists (Citro): I will give a short introduction to Sage, highlighting aspects that are particularly relevant for number theory. You are welcome to come armed with questions, especially of the "can Sage do <insert your
+favorite thing here>" variety.
+
+Drinfeld Modular Forms and Harmonic Cocycles (Boeckle): In this talk I shall introduce the main concepts needed to understand
+Drinfeld cusp forms and the combinatorics that allows their computation: The Bruhat-Tits tree, Drinfeld's symmetric space, the cusp forms and harmonic cocycles. I shall state many of the basic theorems including some of Teitelbaum's work relating Drinfeld cusp forms and harmonic cocycles. I will also present a (very incomplete and subjective) list of open questions.
+
+Computing Drinfeld Modular Forms (Butenuth): Drinfeld modular forms can be related to harmonic cochains, which are functions on the edges of the Bruhat-Tits tree fulfilling certain properties. In my talk I will try to explain how to relate Drinfeld modular forms to these objects and how to explicitly compute Hecke operators on them.
 
 === Tuesday, May 25 ===
 
