@@ -104,7 +104,7 @@ We will have one full day of organized talks, followed by working sessions and s
 || 11:30am - 1:30pm || Lunch || || ||
 || 1:30pm - 2:30pm || Drinfeld Modular Forms and Harmonic Cocycles || Thomson Hall 231 || G. Boeckle ||
 || 2:30pm - 3:30pm || Computing Drinfeld Modular Forms || Thomson Hall 231 || R. Butenuth ||
-|| 3:30pm - 4:00pm || Tea || || ||
+|| 3:30pm - 4:30pm || Tea || || ||
 || 4:30pm - 5:30pm || TBD || Savery Hall 139 || C. Hall ||
 || 5:30pm - 6:30pm || Organizational meeting || Savery Hall 139 || ||
 
