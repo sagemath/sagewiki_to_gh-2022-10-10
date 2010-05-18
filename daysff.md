@@ -79,7 +79,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Wenhan Wang (Washington)
  * Kevin Wilson (Princeton)
 
-== Tentative Projects ==
+== Projects ==
 
  * $L$-functions and the Birch and Swinnerton-Dyer Conjecture over function fields
   * Baig, Balakrishnan, Hall, Occhipinti, Ulmer, Voloch
@@ -92,7 +92,8 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * "Cremona's Tables" for function fields
  * Small Characteristic (2 - 7)
   * Boothby
-== (Tentative) Schedule ==
+
+== Schedule ==
 
 We will have one full day of organized talks, followed by working sessions and status reports the rest of the week. Informal talks are also welcome and will be left to individuals and working groups to organize.
 
