@@ -7,12 +7,12 @@ Group 1:
    Deines, Alyson
    Haensch, Anna
    Hajij, Mustafa
-   Kao, Pin-Hung
    Stankew, Jim
 
 Group 2:
    Dokchitser, Tim (senior person)
    Gamage, Thilina
+   Kao, Pin-Hung
    Sahinoglu, Hatice
    Sehanobish, Arijit
    Sorkin, Adam
