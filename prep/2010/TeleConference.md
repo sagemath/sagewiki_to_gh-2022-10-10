@@ -48,10 +48,10 @@ These will be opportunities to test out your gear and learn the system.  Proper 
 
   * Presenters may distribute themselves as video part of the time, but we will generally not require, or ask, participants to send video so you don't need a camera.
 
-  * Generally, only presenters will share applications (the Sage notebook).
+  * Generally, only presenters will share applications (the Sage notebook), though we could have participants share out their worksheets if they are having difficulty, especially during office hours.
 
 == Miscellaneous ==
 
-  * If the window is too busy for you, consider going to the menu: View > Layouts, and trying things like "Flat Minimal Layout" or "Narrow Minimal Layout"
+  * If the window is too busy for you or takes up too much screen real estate, consider going to the menu: View > Layouts, and trying things like "Flat Minimal Layout" or "Narrow Minimal Layout"
 
-  * We should have recordings of each session available afterwards through the Elluminate system, so you can go back and replay portions at your leisure, or re-live the whole course all over again.
+  * We will have recordings of each session available afterwards through the Elluminate system, so you can go back and replay portions at your leisure, or re-live the whole course all over again.  Links to these will posted to the mailing list.
