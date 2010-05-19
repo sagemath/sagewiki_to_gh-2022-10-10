@@ -38,7 +38,7 @@ the cooking ourselves (bring your favorite recipes and dishes!). Altogether this
  * Andrew Mathas, Associate Prof, University of Sydney
  * Jean Michel, Directeur de recherches, CNRS, Université Paris 7
  * NicolasThiéry, MdC, Orsay
- * ...
+ * Adrien Boussicault, LIGM, Université Paris-Est
 
 Potential participants: http://doodle.com/ktma7rmvx4f3psbr
 
