@@ -1,6 +1,6 @@
 = Session Schedule: MAA PREP Workshop =
 
-Each day is a total of four hours online, broken into two 2-hour sessions.  Please get setup in Elluminate a few minutes before the start time.  We will post links to recordings of each session to the course email list shortly after the conclusion of the session.
+Each day is a total of four hours online, broken into two 2-hour sessions.  Please get set up in Elluminate a few minutes before the start time, paying special attention to the [[prep/2010/TeleConference|guidelines]] (especially about your session name and headphones).  We will post links to recordings of each session to the course email list shortly after the conclusion of the session.
 
   * Session I:  8-10 Pacific, 11-1 Eastern
   * Session II:  Noon-2 Pacific, 3-5 Eastern
@@ -8,17 +8,21 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 == Saturday, May 22 ==
 
-Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on the basic use and the various ways to get help and learn more.  Questions are encouraged!
+Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on basic use and the various ways to get help and learn more.  
+
+Questions are encouraged!  With that in mind, note that we have ample time for addressing questions that come up during the presentations.  You should feel free to message in Elluminate anything that comes to mind, and we'll be sure to address as many as possible during the actual session.
 
 === Session I - Getting Started ===
     * Introductions: Organizers and Participants (Rob, 30 min)
-    * Review "PREP Intro Tutorial" worksheet (Karl, 45 min)
+    * Review and Expand on "PREP Intro Tutorial" worksheet (Karl, 45 min)
       * Evaluating commands
       * Symbolic functions
-      * Very basic plotting
-      * Documentation through the notebook
-    * Questions (Rob, 15 min)
-    * Demonstration of Interacts (Jason, 30 min)
+      * Finding Help and Documentation through the notebook
+      * Annotating your Worksheets
+    * Questions (Rob, 25 min)
+    * Looking to the Outcomes (Jason, 20 min)
+      * Making Your Own Worksheets
+      * Demonstration of Interacts
 
 
 === Session II - Sage Community ===
