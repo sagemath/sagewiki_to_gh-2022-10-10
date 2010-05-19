@@ -14,7 +14,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
 
 === Session I - Getting Started ===
     * Introductions: Organizers and Participants (Rob, 30 min)
-    * Review and Expand on "PREP Intro Tutorial" worksheet (Karl, 45 min)
+    * Review (and expand on) "PREP Intro Tutorial" worksheet (Karl, 45 min)
       * Evaluating commands
       * Symbolic functions
       * Finding Help and Documentation through the notebook
@@ -26,6 +26,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
 
 
 === Session II - Sage Community ===
+    * Welcome Back (5 minutes, Rob)
     * Resources (45 minutes, Jason)
       * Google Groups
         * sage-support
@@ -33,12 +34,17 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
         * sage-devel
       * MAA list (versus Google Groups)
       * Sage wiki (Interacts, Quickrefs)
-      * sagemath.org
+      * www.sagemath.org
+      * www.sagenb.org published worksheets
       * Reference manual (stand-alone PDF, HTML)
-      * IRC Demo (??), with irssi or similar simple universal client
+      * IRC Demo, with irssi or similar simple universal client
       * Questions
-    * Review "Sage Tutorial for Symbolics and Plotting" (Karl, 30 min)
-    * Questions (Rob, 30 min)
+    * Questions (Rob, 10 min)
+    * Review (and expand on) "Sage Tutorial for Symbolics and Plotting" (Karl, 30 min)
+      * Symbolic Expressions
+      * Basics of Two-Dimensional Plotting 
+      * Basics of Three-Dimensional Plotting 
+    * Questions (Rob, 15 min)
     * Homework: Preparation for next sessions (Rob, 10 min)
     * Announcements:  Office Hours, June Sessions (Rob, 5 min)
 
