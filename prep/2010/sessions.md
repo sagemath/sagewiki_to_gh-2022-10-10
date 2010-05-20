@@ -37,7 +37,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * www.sagemath.org
       * www.sagenb.org published worksheets
       * Reference manual (stand-alone PDF, HTML)
-      * IRC Demo, with irssi or similar simple universal client
+      * IRC Demo, with the web chat client
       * Questions
     * Questions (Rob, 10 min)
     * Review (and expand on) "Sage Tutorial for Symbolics and Plotting" (Karl, 30 min)
