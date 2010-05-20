@@ -50,6 +50,20 @@ These will be opportunities to test out your gear and learn the system.  Proper 
 
   * Generally, only presenters will share applications (the Sage notebook), though we could have participants share out their worksheets if they are having difficulty, especially during office hours.
 
+== Sharing Your Worksheet ==
+
+During office hours, and perhaps during the sessions, there may be occasions where you will want to share a worksheet with the group.  Here are the steps in Elluminate.
+
+  * Open your worksheet in your web browser.
+
+  * From the menu select  Tools > Application Sharing > Host Applications, or find an icon that looks like a monitor with a big green right arrow.
+
+  * You'll get a list of applications to share - choose the web browser running the worksheet.
+
+  * Now, everybody in the session should see your worksheet.  Try to keep other windows (Elluminate, or otherwise) from obscuring it, they just show up as grey blobs on everybody else's screen.  Also, keep scrolling and window-resizing to a minimum, it can take a few seconds to refresh the window for everybody else.
+
+  * Moderators:  right-click on the name of the person hosting the application and you can "Request Control of Shared Applications."  The participant will get a dialog box asking them to OK this, and once they confirm, you will see pink trim on the application window and will have control of the mouse and keyboard.  You will be able to edit cells in their worksheeet to correct problems or demo a new approach.
+
 == Miscellaneous ==
 
   * If the window is too busy for you or takes up too much screen real estate, consider going to the menu: View > Layouts, and trying things like "Flat Minimal Layout" or "Narrow Minimal Layout"
