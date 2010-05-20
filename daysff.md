@@ -92,7 +92,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * "Cremona's Tables" for function fields
  * Small Characteristic (2 - 7)
   * Boothby
- * Computation of Riemann-Roch spaces: correct wrapping of the "Brill Noether" algorithm from Singular. This is just a matter of reading documentation carefully.  See [http://trac.sagemath.org/sage_trac/ticket/8997 trac #8997].
+ * Computation of Riemann-Roch spaces: correct wrapping of the "Brill Noether" algorithm from Singular. This is just a matter of reading documentation carefully.  See [[http://trac.sagemath.org/sage_trac/ticket/8997|trac #8997]].
   * William Stein, Mike Hansen
 
 == Schedule ==
