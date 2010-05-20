@@ -93,7 +93,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Small Characteristic (2 - 7)
   * Boothby
  * Computation of Riemann-Roch spaces: correct wrapping of the "Brill Noether" algorithm from Singular. This is just a matter of reading documentation carefully.  See [[http://trac.sagemath.org/sage_trac/ticket/8997|trac #8997]].
-  * William Stein, Mike Hansen
+  * William Stein, Mike Hansen, Florian Hess
 
 == Schedule ==
 
