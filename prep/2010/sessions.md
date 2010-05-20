@@ -48,6 +48,12 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
     * Homework: Preparation for next sessions (Rob, 10 min)
     * Announcements:  Office Hours, June Sessions (Rob, 5 min)
 
+== Office Hours ==
+
+Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
+
+||Date||Time (PDT)||Time (EDT)||Organizer||
+|| || || || ||
 
 == Tuesday, June 8 ==
 
