@@ -7,7 +7,7 @@ Group 1:
    Deines, Alyson
    Haensch, Anna
    Hajij, Mustafa
-   Stankew, Jim
+   Stankewicz, Jim
 
 Group 2:
    Dokchitser, Tim (senior person)
