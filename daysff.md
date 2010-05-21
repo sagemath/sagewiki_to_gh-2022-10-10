@@ -109,6 +109,9 @@ We will have one full day of organized talks, followed by working sessions and s
 || 3:30pm - 4:30pm || Tea || || ||
 || 4:30pm - 5:30pm || Calculating L-functions over F_q(t)  || Savery Hall 139 || C. Hall ||
 || 5:30pm - 6:30pm || Organizational meeting || Savery Hall 139 || ||
+|| 7:30pm - 9pm'ish || Dinner || Piatti (U-Village) || ||
+
+Please let me know as soon as possible if you will be able to attend the dinner on Monday night for the group.
 
 ==== Talk Abstracts ====
 
