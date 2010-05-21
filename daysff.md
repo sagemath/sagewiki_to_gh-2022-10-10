@@ -107,7 +107,7 @@ We will have one full day of organized talks, followed by working sessions and s
 || 1:30pm - 2:30pm || Drinfeld Modular Forms and Harmonic Cocycles || Thomson Hall 231 || G. Boeckle ||
 || 2:30pm - 3:30pm || Computing Drinfeld Modular Forms || Thomson Hall 231 || R. Butenuth ||
 || 3:30pm - 4:30pm || Tea || || ||
-|| 4:30pm - 5:30pm || TBD || Savery Hall 139 || C. Hall ||
+|| 4:30pm - 5:30pm || Calculating L-functions over F_q(t)  || Savery Hall 139 || C. Hall ||
 || 5:30pm - 6:30pm || Organizational meeting || Savery Hall 139 || ||
 
 ==== Talk Abstracts ====
@@ -121,6 +121,8 @@ Drinfeld Modular Forms and Harmonic Cocycles (Boeckle): In this talk I shall int
 Drinfeld cusp forms and the combinatorics that allows their computation: The Bruhat-Tits tree, Drinfeld's symmetric space, the cusp forms and harmonic cocycles. I shall state many of the basic theorems including some of Teitelbaum's work relating Drinfeld cusp forms and harmonic cocycles. I will also present a (very incomplete and subjective) list of open questions.
 
 Computing Drinfeld Modular Forms (Butenuth): Drinfeld modular forms can be related to harmonic cochains, which are functions on the edges of the Bruhat-Tits tree fulfilling certain properties. In my talk I will try to explain how to relate Drinfeld modular forms to these objects and how to explicitly compute Hecke operators on them.
+
+Calculating L-functions over F_q(t) (Hall): We discuss solutions to the problem of computing the L-function of a non-constant elliptic curve E/F_q(t).  Concretely it is a polynomial with coefficients in Z and can be computed in O(q^m) operations for some integer m=m(E) depending on E.  The naive approach via point counting works but at the expense of a 'large' m(E).  However, given enough information about one E/F_q(t), the relative cost of computing a 'related' elliptic curve's L-function is smaller.  One can consider a quadratic twist or, more generally, a 'pullback' and the 'primitive' part of its L-function.  We'll elaborate on these themes in the talk and introduce a library we are developing for calculating L-functions.
 
 === Tuesday, May 25 ===
 
