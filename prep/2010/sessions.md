@@ -48,7 +48,9 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
     * Homework (Rob, 10 min) 
       * Preparation for next sessions 
       * Pre-Workshop Survey for MAA
-    * Announcements:  Office Hours, June Sessions (Rob, 5 min)
+    * Announcements (Rob, 5 min)
+      * Office Hours 
+      * June Sessions
 
 == Office Hours ==
 
