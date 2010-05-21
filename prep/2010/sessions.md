@@ -45,7 +45,9 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Basics of Two-Dimensional Plotting 
       * Basics of Three-Dimensional Plotting 
     * Questions (Rob, 15 min)
-    * Homework: Preparation for next sessions (Rob, 10 min)
+    * Homework (Rob, 10 min) 
+      * Preparation for next sessions 
+      * Pre-Workshop Survey for MAA
     * Announcements:  Office Hours, June Sessions (Rob, 5 min)
 
 == Office Hours ==
