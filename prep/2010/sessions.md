@@ -60,6 +60,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://www.sagemath.org/doc/tutorial/|Sage Tutorial (standalone)]]
   * [[http://wiki.sagemath.org/quickref|Sage Quick Reference (Wiki)]]
   * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
+  * [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html?sagenb.notebook.interact.interact#sagenb.notebook.interact.interact|Interact Construction Documentation]]
   * [[http://www.math.usm.edu/perry/|John Perry's Mathematical Computing Course]]
   * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links"]]
   * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
