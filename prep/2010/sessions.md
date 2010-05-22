@@ -67,6 +67,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * Beezer's Sage Exercises  [[http://buzzard.ups.edu/courses/2009fall/m433-sage-exercises.pdf|Groups]] [[http://buzzard.ups.edu/courses/2010spring/m434-sage-exercises.pdf|Rings & Fields]]
   * [[http://ma4140.wikidot.com/|Dana Ernst's Algebraic Structures Course]]
   * [[http://www.cython.org/|Sage's Python to C translator]]
+  * [[http://www.sagemath.org/download-livecd.html|A Sage Live CD (there are others?)]]
 
 == Office Hours ==
 
