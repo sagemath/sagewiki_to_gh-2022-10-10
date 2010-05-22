@@ -63,6 +63,7 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
 
 == Tuesday, June 8 ==
 
+  * Sage History (Dana Ernst request)
 
 == Wednesday, June 9 ==
 
