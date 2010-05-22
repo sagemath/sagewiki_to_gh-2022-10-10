@@ -63,6 +63,8 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://www.math.usm.edu/perry/|John Perry's Mathematical Computing Course]]
   * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links"]]
   * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
+  * Beezer's Sage Exercises  [[http://buzzard.ups.edu/courses/2009fall/m433-sage-exercises.pdf|Groups]] [[http://buzzard.ups.edu/courses/2010spring/m434-sage-exercises.pdf|Rings & Fields]]
+  * [[http://ma4140.wikidot.com/|Dana Ernst's Algebraic Structures Course]]
 
 == Office Hours ==
 
