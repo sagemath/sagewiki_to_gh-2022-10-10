@@ -6,7 +6,35 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
   * Session II:  Noon-2 Pacific, 3-5 Eastern
 
 
-== Saturday, May 22 ==
+== Current Homework ==
+
+  * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
+
+
+== Office Hours ==
+
+Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
+
+||Date||Time (PDT)||Time (EDT)||Organizer||
+|| || || || ||
+
+== Tuesday, June 8 ==
+
+  * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
+
+  * Sage History (Dana Ernst request)
+
+  * Basic Programming with Sage
+  
+  * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
+
+== Wednesday, June 9 ==
+
+
+== Monday, August 9 ==
+
+
+== Archived: Saturday, May 22 ==
 
 Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on basic use and the various ways to get help and learn more.  
 
@@ -54,7 +82,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Office Hours 
       * June Sessions
 
-=== Links ===
+=== Session Links ===
 
   * [[http://www.sagemath.org/doc/reference/|Sage Reference (standalone)]]
   * [[http://www.sagemath.org/doc/tutorial/|Sage Tutorial (standalone)]]
@@ -68,30 +96,3 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://ma4140.wikidot.com/|Dana Ernst's Algebraic Structures Course]]
   * [[http://www.cython.org/|Sage's Python to C translator]]
   * [[http://www.sagemath.org/download-livecd.html|A Sage Live CD (there are others?)]]
-
-== Office Hours ==
-
-Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
-
-||Date||Time (PDT)||Time (EDT)||Organizer||
-|| || || || ||
-
-== Homework ==
-
-  * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
-
-
-== Tuesday, June 8 ==
-
-  * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
-
-  * Sage History (Dana Ernst request)
-
-  * Basic Programming with Sage
-  
-  * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
-
-== Wednesday, June 9 ==
-
-
-== Monday, August 9 ==
