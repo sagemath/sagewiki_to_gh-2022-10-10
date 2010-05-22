@@ -54,6 +54,16 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Office Hours 
       * June Sessions
 
+=== Links ===
+
+  * John Perry's Sage Pages
+  * Beezer's TeX Resources
+  * Stein's Sage History
+  * Sage Reference (standalone)
+  * Sage Tutorial (standalone)
+  * Sage Quick Reference
+  * Sage Interacts (Wiki)
+
 == Office Hours ==
 
 Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
