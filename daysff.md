@@ -10,6 +10,12 @@ Dates: May 24 - 28, 2010 (check in on May 23rd after 4:00pm, check out on May 29
 
 Mailing list: Group [[http://groups.google.com/group/sagedays21|page]].
 
+=== Wireless Account ===
+
+UW NetID: event0210
+
+Password: 77Uw-52Kf-54Ga
+
 === Housing ===
 
 A handful of visitors will be staying at the Shuey House, while the remaining visitors have rooms on hold for them at [[http://www.hoteldeca.com|Hotel Deca]] (4507 Brooklyn Avenue NE, Seattle, WA 98105). The tentative housing arrangement is as follows:
