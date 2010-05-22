@@ -86,6 +86,8 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
   * Sage History (Dana Ernst request)
 
   * Basic Programming with Sage
+  
+  * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
 
 == Wednesday, June 9 ==
 
