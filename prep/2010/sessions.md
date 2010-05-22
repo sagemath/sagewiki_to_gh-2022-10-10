@@ -66,6 +66,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
   * Beezer's Sage Exercises  [[http://buzzard.ups.edu/courses/2009fall/m433-sage-exercises.pdf|Groups]] [[http://buzzard.ups.edu/courses/2010spring/m434-sage-exercises.pdf|Rings & Fields]]
   * [[http://ma4140.wikidot.com/|Dana Ernst's Algebraic Structures Course]]
+  * [[http://www.cython.org/|Sage's Python to C translator]]
 
 == Office Hours ==
 
