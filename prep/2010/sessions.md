@@ -56,13 +56,13 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
 
 === Links ===
 
-  * John Perry's Sage Pages
-  * Beezer's TeX Resources
-  * Stein's Sage History
-  * Sage Reference (standalone)
-  * Sage Tutorial (standalone)
-  * Sage Quick Reference
-  * Sage Interacts (Wiki)
+  * [[http://www.sagemath.org/doc/reference/|Sage Reference (standalone)]]
+  * [[http://www.sagemath.org/doc/tutorial/|Sage Tutorial (standalone)]]
+  * [[http://wiki.sagemath.org/quickref|Sage Quick Reference (Wiki)]]
+  * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
+  * [[http://www.math.usm.edu/perry/|John Perry's Mathematical Computing Course]]
+  * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links"]]
+  * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
 
 == Office Hours ==
 
@@ -72,6 +72,8 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
 || || || || ||
 
 == Tuesday, June 8 ==
+
+  * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
 
   * Sage History (Dana Ernst request)
 
