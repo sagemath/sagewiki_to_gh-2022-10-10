@@ -19,6 +19,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Symbolic functions
       * Finding Help and Documentation through the notebook
       * Annotating your Worksheets
+    * Short Break
     * Questions (Rob, 25 min)
     * Looking to the Outcomes (Jason, 20 min)
       * Making Your Own Worksheets
@@ -40,6 +41,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * IRC Demo, with the web chat client
       * Questions
     * Questions (Rob, 10 min)
+    * Short Break
     * Review (and expand on) "Sage Tutorial for Symbolics and Plotting" (Karl, 30 min)
       * Symbolic Expressions
       * Basics of Two-Dimensional Plotting 
