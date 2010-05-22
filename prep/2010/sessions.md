@@ -73,11 +73,18 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || || || || ||
 
+== Homework ==
+
+  * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
+
+
 == Tuesday, June 8 ==
 
   * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
 
   * Sage History (Dana Ernst request)
+
+  * Basic Programming with Sage
 
 == Wednesday, June 9 ==
 
