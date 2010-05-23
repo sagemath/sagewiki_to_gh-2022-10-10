@@ -59,6 +59,7 @@ Group 5:
    Kim, Chan-Ho
    Maguire, Megan
    Militzer, Erin
+   Sekhon, Gagan
    West, Jeremy
    Rusnell, Vincent   
 
