@@ -18,8 +18,9 @@
 
 == Participants ==
 
-  * William Stein
+  * Martin Albrecht (tentative)
   * Wolfram Decker
   * Burcin Erocal
-  * Martin Albrecht (tentative)
-  * ?
+  * Andrew Ewart
+  * Robert Miller
+  * William Stein
