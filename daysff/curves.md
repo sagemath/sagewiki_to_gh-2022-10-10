@@ -1,4 +1,4 @@
-= Algebraic Curves in Sage =
+= Algebraic Curves (mainly over finite fields) in Sage =
 
 == People ==
 
