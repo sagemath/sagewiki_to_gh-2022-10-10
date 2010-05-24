@@ -19,13 +19,21 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
 || Tue, 25 May || 8:30A-10:30A|| 11:30A-1:30P || Jason Grout ||
 || Tue, 1 Jun  || 9:30A-11:30A|| 12:30P-2:30P || Rob Beezer  ||
 
+And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
+
 == Tuesday, June 8 ==
+
+Likely topics for these two days:
 
   * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
 
-  * Sage History (Dana Ernst request)
+  * Other specific mathematical topics
+
+  * Sage History
 
   * Basic Programming with Sage
+  
+  * Making Interacts/Advanced Programming with Sage
   
   * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
 
