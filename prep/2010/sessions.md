@@ -17,6 +17,7 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
 
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || Tue, 25 May || 8:30A-10:30A|| 11:30A-1:30P || Jason Grout ||
+|| Tue, 1 Jun  || 9:30A-11:30A|| 12:30P-2:30P || Rob Beezer  ||
 
 == Tuesday, June 8 ==
 
