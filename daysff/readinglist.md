@@ -18,6 +18,7 @@ To add to this list, follow these directions:
 
 Drinfeld Modules and Modular Varieties:
 
+ * Armana http://people.math.jussieu.fr/~armana/armana-coefficientsdmfhecke.pdf
  * Boeckle  [[attachment:boeckle-arithmetic-over-function-fields.pdf|Arithmetic over function fields (a cohomological approach)]]. Number fields and function fields---two parallel worlds, 1--38, Progr. Math., 239.
  * Buthenuth, [[attachment:butenuth.pdf|Some writeups on computing quaternion quotient graphs]]. unpublished notes.
  * Gekeler and Nonnengardt, [[attachment:gekeler-nonnengardt.pdf|Fundamental domains of some arithmetic groups over function fields]]. Internat. J. Math. 6 (1995), no. 5, 689--708.
