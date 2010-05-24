@@ -16,7 +16,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
 
 ||Date||Time (PDT)||Time (EDT)||Organizer||
-|| || || || ||
+|| Tue, 25 May || 8:30A-10:30A|| 11:30A-1:30P || Jason Grout ||
 
 == Tuesday, June 8 ==
 
