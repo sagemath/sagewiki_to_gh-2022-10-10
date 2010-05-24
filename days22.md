@@ -45,7 +45,7 @@ Projects:
    * Jarrod Millman (Berkeley) -- The Foundation for Mathematical and Scientific Computing 
    * Peter Norvig (Google) -- TBA
    * Fernando Perez (Berkeley) -- Python: an ecosystem for scientific computing
-   * Prabhu Ramachandran (Bombay, India) -- 
+   * Prabhu Ramachandran (Bombay, India) -- Python in Science and Engineering Education in India
    * William Stein (University of Washington) -- Sage: creating a viable open source alternative to Magma, Maple, Mathematica, and Matlab
 
 
