@@ -40,6 +40,7 @@ Projects:
    * Ken Ribet (Berkeley): TBA
 
 === June 25: Open Research Computation Day ===
+   * Robert Bradshaw (Google): Cython
    * Peter Norvig (Google): TBA
    * Fernando Perez (Berkeley): TBA
    * Prabhu Ramachandran (Bombay, India): TBA
