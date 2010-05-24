@@ -40,11 +40,13 @@ Projects:
    * Ken Ribet (Berkeley): TBA
 
 === June 25: Open Research Computation Day ===
-   * Robert Bradshaw (Google): Cython
-   * Peter Norvig (Google): TBA
-   * Fernando Perez (Berkeley): TBA
-   * Prabhu Ramachandran (Bombay, India): TBA
-   * William Stein (University of Washington): Sage
+
+   * Robert Bradshaw (Google) -- Cython: the best of both worlds
+   * Jarrod Millman (Berkeley) -- The Foundation for Mathematical and Scientific Computing 
+   * Peter Norvig (Google) -- TBA
+   * Fernando Perez (Berkeley) -- Python: an ecosystem for scientific computing
+   * Prabhu Ramachandran (Bombay, India) -- 
+   * William Stein (University of Washington) -- Sage: creating a viable open source alternative to Magma, Maple, Mathematica, and Matlab
 
 
 == Links ==
