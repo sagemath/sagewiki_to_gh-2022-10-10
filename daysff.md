@@ -42,9 +42,9 @@ A handful of visitors will be staying at the Shuey House, while the remaining vi
 
 Here are some options to get to the Shuey House or Hotel Deca from the airport:
 
- * [[http://www.yelp.com/biz/a-abc-transportation-seattle#hrid:keLb-JbNNBPNxcvoGUwIOQ/src:search/query:car%20service|A-ABC Transportation]] offers a flat rate ($30 typically, before tip) for door-to-door car service. I (Salman) have used them multiple times, and they are my preferred transportation to/from the airport if I'm traveling by myself. They are a private car service (though they don't have the nicest fleet of cars) and are less expensive than a cab. Call 206-242-0102 for a reservation.
+ * [[http://www.yelp.com/biz/a-abc-transportation-seattle#hrid:keLb-JbNNBPNxcvoGUwIOQ/src:search/query:car%20service|A-ABC Transportation]] offers a flat rate ($30 typically, before tip) for door-to-door car service. I (Salman) have used them multiple times, and they are my preferred transportation to/from the airport if I'm traveling by myself. They are a private car service (though they don't have the nicest fleet of cars) and are less expensive than a cab. Call  for a reservation.
  * Taxis from the airport cost about $40 (before tip) and can be found by following the signs in the airport.
- * [[http://shuttleexpress.com/seatac-airport/default.aspx|Shuttle Express]] picks up passengers at the inner curb on the third floor of the Airport Garage. Call 425-981-7000 to make a reservation.
+ * [[http://shuttleexpress.com/seatac-airport/default.aspx|Shuttle Express]] picks up passengers at the inner curb on the third floor of the Airport Garage. Call  to make a reservation.
  * There is a new light-rail service from the airport to downtown Seattle, but you will then need to take a taxi to the house/hotel (about 5 miles north of downtown). This is not a good option unless you want to spend time in downtown Seattle.
 
 === Getting Around ===
@@ -62,26 +62,26 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
 == Participants ==
 
  * Salman Baig (Washington)
- * Jen Balakrishnan (MIT) [5/22-5/28]
+ * Jen Balakrishnan (MIT) []
  * Rob Beezer (Univ of Puget Sound)
- * Gebhard Boeckle (Universitat Duisburg-Essen) [5/22-5/29]
+ * Gebhard Boeckle (Universitat Duisburg-Essen) []
  * Tom Boothby (Washington)
  * Robert Bradshaw (Washington)
- * Ralf Butenuth (Universitat Duisburg-Essen) [5/21-5/30]
+ * Ralf Butenuth (Universitat Duisburg-Essen) []
  * Craig Citro (Washington)
  * Alyson Deines (Washington)
  * Mike Hansen
  * Chris Hall (Wyoming)
- * Florian Hess (Technische Universitat Berlin) [5/23-5/28]
+ * Florian Hess (Technische Universitat Berlin) []
  * Jacob Lewis (Washington)
  * Robert Miller (Washington)
- * Steven J Miller (Williams) [5/23-5/27]
+ * Steven J Miller (Williams) []
  * Gerriet Moehlmann (Technische Universitat Berlin)
- * Thomas Occhipinti (Arizona) [5/23-5/29]
+ * Thomas Occhipinti (Arizona) []
  * Dan Shumow (Washington)
  * William Stein (Washington)
- * Doug Ulmer (Georgia Tech) [5/23-5/26]
- * Felipe Voloch (Texas) [5/23-5/29]
+ * Doug Ulmer (Georgia Tech) []
+ * Felipe Voloch (Texas) []
  * Wenhan Wang (Washington)
  * Kevin Wilson (Princeton)
 
@@ -98,7 +98,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * "Cremona's Tables" for function fields
  * Small Characteristic (2 - 7)
   * Boothby
- * [[/curves|Curves over Function Fields in Sage]] 
+ * [[/curves|Curves over Finite Fields in Sage]] 
   * William Stein, Mike Hansen, Florian Hess, Michael Stoll (remote)
 
 == Schedule ==
