@@ -39,7 +39,7 @@ Projects:
 === Colloquium ===
    * Ken Ribet (Berkeley): TBA
 
-=== June 25: Open Research Computation Day ===
+=== Special Day -- June 25: Open Research Computation in Python ===
 
    * Robert Bradshaw (Google) -- Cython: the best of both worlds
    * Jarrod Millman (Berkeley) -- The Foundation for Mathematical and Scientific Computing 
