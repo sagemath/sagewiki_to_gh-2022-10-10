@@ -106,7 +106,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
 We will have one full day of organized talks, followed by working sessions and status reports the rest of the week. Informal talks are also welcome and will be left to individuals and working groups to organize.
 
 === Monday, May 24 ===
-|| 9:30am - 9:45am || Welcome || Savery Hall 155 || ||
+|| 9:30am - 9:45am || Welcome and Breakfast || Savery Hall 155 || ||
 || 9:45am - 10:45am || Function Fields and Number Fields || Savery Hall 155 || D. Ulmer ||
 || 10:45am - 11:20am || An Introduction to Sage for Number Theorists || Savery Hall 155 || C. Citro ||
 || 11:30am - 1:30pm || Lunch || || ||
