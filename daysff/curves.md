@@ -4,6 +4,11 @@
 
  * William Stein, Mike Hansen, Florian Hess, Michael Stoll (remote)
 
+== Relevant Papers ==
+
+ * [[attachment:hess-talks-arithmetic_on_general_curves_and_applications.pdf]]
+ * [[attachment:hess-computing_riemann_roch_spaces_in_algebraic_function_fields_and_related_topics.pdf]]
+
 == Some motivating remarks ==
 
 Michael Stoll and I recently did some computations to classify torsion orders for elliptic curves over quartic fields.  We did part in Sage, but ran into serious trouble, which forced us to switch to Magma.  Here's Michael's assessment of what would need to be in Sage to make this computation possible:
