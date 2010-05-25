@@ -35,6 +35,8 @@ Group 3:
    Lipnowksi, Michael
    Peskin, Laura
    Phaovibul, M.
+   Sekhon, Gagan
+
 
 
 Group 4:
@@ -59,7 +61,6 @@ Group 5:
    Kim, Chan-Ho
    Maguire, Megan
    Militzer, Erin
-   Sekhon, Gagan
    West, Jeremy
    Rusnell, Vincent   
 
