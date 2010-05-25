@@ -138,6 +138,15 @@ We will have one full day of organized talks, followed by working sessions and s
 
 Please let me know as soon as possible if you will be able to attend the dinner on Monday night for the group.
 
+=== William's Sage Class ===
+
+William will talk about "how to do Sage development" in his [[http://wiki.wstein.org/10/480b|undergraduate Sage class]] on Wednesday and Friday:
+
+  * Wednesday at 1:30pm in Mueller Hall 153: http://www.washington.edu/maps/?l=MU
+  * Friday at 1:30pm in Mueller Hall 153: http://www.washington.edu/maps/?l=MU
+
+
+
 ==== Talk Abstracts ====
 
 Function Fields and Number Fields (Ulmer): I will try to explain some of the analogies between arithmetic in these two domains and also why we can often do more in the function field setting.
