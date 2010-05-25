@@ -87,30 +87,30 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
 
 == Projects ==
 
- * $L$-functions and the Birch and Swinnerton-Dyer Conjecture over function fields
+ * [[/lfcn-bsd|$L$-functions and the Birch and Swinnerton-Dyer Conjecture over function fields]]
   * ELLFF (Baig, Hall)
   * BSD (Baig, Balakrishnan, Stein, Occhipinti, Wilson, Ulmer)
    * $\#Sha$
    * Mordell-Weil
    * heights
- * Sage's view of elliptic curves and function fields (Baig, Hall, Stein, Citro, Bradshaw)
- * The Mordell-Weil group (descent, computing the algebraic rank, finding generators, torsion)
+ * [[/ell-ff-class|Sage's view of elliptic curves and function fields]] (Baig, Hall, Stein, Citro, Bradshaw)
+ * [[/mw|The Mordell-Weil group]] (descent, computing the algebraic rank, finding generators, torsion)
   * Generalizing (global function fields, ...) D. Robert's work on 2-descent over $\mathbb{F}_q(t)$
    * porting from Magma to Sage (Moehlmann, Balakrishnan, Deines, R. Miller)
   * $p$-descent in characteristic $p$ (Ulmer, Moehlmann, Voloch, Hall)
- * Drinfeld modular forms
+ * [[/dmf|Drinfeld modular forms]]
   * Porting Butenuth's code to Sage (Butenuth, Stein, some Sage devs)
   * Comparing Hall's code to Butenuth's (Boeckle, Hall, Butenuth)
   * Gekeler's $\theta$ functions
- * Statistics over function fields (Baig, Bradshaw, Hall, Hansen, S. Miller)
+ * [[/statistics|Statistics over function fields]] (Baig, Bradshaw, Hall, Hansen, S. Miller)
   * excess rank, repulsion near central point, random matrix models
   * families of quadratic twists, one parameter families
   * making data available
- * "Cremona's Tables" for function fields (Bradshaw, Stein, S. Miller, Occhipinti, Hall, Voloch)
+ * [[/cremona-tables|"Cremona's Tables" for function fields]] (Bradshaw, Stein, S. Miller, Occhipinti, Hall, Voloch)
   * enumerating isogeny classes
- * Small Characteristic (2 - 7)
+ * [[/small-char|Small Characteristic (2 - 7)]]
   * Boothby
- * Global function field class (Stein, Hall, Voloch) -- connected to [[/curve|Curves over Finite Fields]] project
+ * [[/ff-class|Global function field class]] (Stein, Hall, Voloch) -- connected to [[/curves|Curves over Finite Fields]] project
  * [[/curves|Curves over Finite Fields in Sage]] 
   * William Stein, Mike Hansen, Florian Hess, Michael Stoll (remote)
 
