@@ -1,5 +1,7 @@
 = Sage Days 21: Function Fields =
 
+Pictures: [[/pictures|photos from Sage Days]]
+
 == Logistics ==
 
 Organizers:  William Stein, Chris Hall, Craig Citro, Salman Baig
