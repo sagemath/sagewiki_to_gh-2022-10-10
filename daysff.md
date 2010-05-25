@@ -87,7 +87,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
 
 == Projects ==
 
- * [[/lfcn-bsd|$L$-functions and the Birch and Swinnerton-Dyer Conjecture over function fields]]
+ * [[/lfcn-bsd|L-functions and the Birch and Swinnerton-Dyer Conjecture over function fields]]
   * ELLFF (Baig, Hall)
   * BSD (Baig, Balakrishnan, Stein, Occhipinti, Wilson, Ulmer)
    * $\#Sha$
