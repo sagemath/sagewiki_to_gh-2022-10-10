@@ -50,4 +50,8 @@ computations of a similar nature as 29, but less involved.)
 
 == Project: Computation of Riemann-Roch spaces ==
 
-  Correct wrapping of the "Brill Noether" algorithm from Singular. This may be just a matter of reading documentation carefully.  See [[http://trac.sagemath.org/sage_trac/ticket/8997|trac #8997]].
+Correct wrapping of the "Brill Noether" algorithm from Singular. This may be just a matter of reading documentation carefully.  See [[http://trac.sagemath.org/sage_trac/ticket/8997|trac #8997]].   
+
+From William Stein: After talking with Florian Hess for a while, I'm now convinced that using Singular Brill-Noether implementation is not a good idea anyways, since Florian's algorithm is simply much nicer.   The current plan is simply to implement Florian's algorithm from scratch in Sage.  
+
+  
