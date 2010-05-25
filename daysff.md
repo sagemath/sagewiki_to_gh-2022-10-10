@@ -127,7 +127,7 @@ We will have one full day of organized talks, followed by working sessions and s
 || 9:45am - 10:45am || Function Fields and Number Fields || Savery Hall 155 || D. Ulmer || ||
 || 10:45am - 11:20am || An Introduction to Sage for Number Theorists || Savery Hall 155 || C. Citro || ||
 || 11:30am - 1:30pm || Lunch || || || ||
-|| 1:30pm - 2:30pm || Drinfeld Modular Forms and Harmonic Cocycles || Thomson Hall 231 || G. Boeckle || ||
+|| 1:30pm - 2:30pm || Drinfeld Modular Forms and Harmonic Cocycles || Thomson Hall 231 || G. Boeckle || [[attachment:Boeckle-SageDays21-2010.pdf | Slides]]  ||
 || 2:30pm - 3:30pm || Computing Drinfeld Modular Forms || Thomson Hall 231 || R. Butenuth || [[attachment:Slides_Ralf.pdf | Slides]] ||
 || 3:30pm - 4:30pm || Tea || [[http://art.washington.edu/66_Parnassus|Parnassus]] || || ||
 || 4:30pm - 5:30pm || Calculating L-functions over F_q(t)  || Savery Hall 139 || C. Hall || ||
