@@ -1,1 +1,1 @@
-Tuesday:
+Tuesday:  [[attachment:tkz-graph-tuesday.png]]
