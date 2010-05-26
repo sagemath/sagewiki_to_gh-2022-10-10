@@ -24,4 +24,4 @@ Sage Reference Manual on elliptic curves: [[http://sagemath.org/doc/reference/pl
 
 == Computational projects ==
 
-There will be many small problems and larger assignments to play with, illustrating all the concepts and conjectures from the course
+There will be many small problems and larger assignments to play with, illustrating all the concepts and conjectures from the course.
