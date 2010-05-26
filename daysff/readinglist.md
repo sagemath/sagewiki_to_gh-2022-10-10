@@ -46,3 +46,9 @@ Modular Symbols:
  * Merel, [[attachment:merel-universal-fourier.pdf|Universal fourier expansions of modular forms]]. On Artin's conjecture for odd $2$-dimensional representations, 59--94, Lecture Notes in Math., 1585, Springer.
  * Reversat, [[attachment:reversat-schottky-covers.pdf|Sur les revetements de Schottky des courbes modulaires de Drinfeld]]. Arch. Math. (Basel) 66 (1996), no. 5, 378--387.
  * Teitelbaum, [[attachment:teitelbaum-modular-symbols.pdf|Modular symbols for $\mathbb{F}_q[t]$]]. Duke Math. J. 68 (1992), no. 2, 271--295.
+
+---------------
+
+Descent:
+
+  * Broumas, [[attachment:Broumas_p-descent_paper.pdf|Effective $p$-descent]]. Compositio Math 107 (1997), 125--141.
