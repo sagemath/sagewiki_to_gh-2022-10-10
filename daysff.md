@@ -113,10 +113,8 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * [[/small-char|Small Characteristic (2 - 7)]]
   * Boothby
  * [[/ff-class|Global function field class]] (Stein, Hall, Voloch) -- connected to [[/curves|Curves over Finite Fields]] project
- * [[/curves|Curves over Finite Fields in Sage]] 
+ * [[/curves|Curves over Finite Fields in Sage]]
   * William Stein, Mike Hansen, Florian Hess, Michael Stoll (remote)
- * [[/tkz-graphs|Combinatorial Graphs in Latex]]
-  * Rob Beezer
 
 == Informal Talks ==
 
