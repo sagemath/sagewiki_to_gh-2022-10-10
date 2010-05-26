@@ -74,7 +74,7 @@ This is a [[http://www.washington.edu/home/maps/northcentral.html|campus map]] t
  * Alyson Deines (Washington)
  * Mike Hansen
  * Chris Hall (Wyoming)
- * Florian Hess (Technische Universitat Berlin) []
+ * Florian Hess (Otto-von-Guericke-Universität Magdeburg) []
  * Jacob Lewis (Washington)
  * Robert Miller (Washington)
  * Steven J Miller (Williams) []
