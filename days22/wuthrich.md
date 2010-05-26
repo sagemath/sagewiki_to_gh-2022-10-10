@@ -39,3 +39,11 @@ The $p$-adic L-function of $E$ can be computed using modular symbols. And sage c
   * Stein and Wuthrich, Computations About Tate-Shafarevich Groups Using Iwasawa Theory, [[http://wstein.org/papers/shark/|preprint]].
 
   * Sage Reference Manual on p-adic L-functions of elliptic curves: [[http://sagemath.org/doc/reference/sage/schemes/elliptic_curves/padic_lseries.html]].  See also nearby sections.
+
+== Backgrond reading ==
+  
+  * As for other lectures, Silverman's book "The arithmetic of elliptic curves" contains a good background for elliptic curve, especially chapter III.
+    We will use some further results on elliptic curves over global fields, mainly in chapter VII and X, but by far not everything there is needed.
+
+  * A more concise introduction to the subject, including the discussion of how elliptic cures over $\mathbb{Q}$ are linked to modular forms is in the first
+    two chapters of Darmon's book  "Rational Point on Modular Elliptic Curves".
