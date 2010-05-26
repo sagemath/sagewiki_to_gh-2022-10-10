@@ -1,5 +1,12 @@
 = Sage Days 23.5: Singular and Sage =
 
+== Organizers ==
+
+  * Wolfram Decker
+  * Gert-Martin Greuel
+  * William Stein
+
+
 == Location ==
 
   * Kaiserslautern, Germany 
@@ -19,8 +26,24 @@
 == Participants ==
 
   * Martin Albrecht (tentative)
+  * Mohamed Barakat
+  * Michael Brickenstein (tentative)
   * Wolfram Decker
+  * Alexander Dreyer
   * Burcin Erocal
   * Andrew Ewart
+  * Anne Fruebis-Krueger
+  * Kai Krueger (tentative)
+  * Roberto La Scala
+  * Martin Lee
+  * Viktor Levandovskyy
   * Robert Miller
+  * Oleksandr Motsak
+  * Hans Schoenemann
+  * Frank Seelisch
+  * Andreas Steenpass
+  * Stefan Steidel
   * William Stein
+  * Gert-Martin Greuel
+
+I will keep you updated on this.
