@@ -42,8 +42,6 @@ The $p$-adic L-function of $E$ can be computed using modular symbols. And sage c
 
 == Backgrond reading ==
   
-  * As for other lectures, Silverman's book "The arithmetic of elliptic curves" contains a good background for elliptic curve, especially chapter III.
-    We will use some further results on elliptic curves over global fields, mainly in chapter VII and X, but by far not everything there is needed.
+  * As for other lectures, Silverman's book "The arithmetic of elliptic curves" contains a good background for elliptic curve, especially chapter III. We will use some further results on elliptic curves over global fields, mainly in chapter VII and X, but by far not everything there is needed.
 
-  * A more concise introduction to the subject, including the discussion of how elliptic cures over $\mathbb{Q}$ are linked to modular forms is in the first
-    two chapters of Darmon's book  "Rational Point on Modular Elliptic Curves".
+  * A more concise introduction to the subject, including the discussion of how elliptic cures over $\mathbb{Q}$ are linked to modular forms is in the first two chapters of Darmon's book  "Rational Point on Modular Elliptic Curves".
