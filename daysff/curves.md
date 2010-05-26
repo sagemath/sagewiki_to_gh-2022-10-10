@@ -9,6 +9,35 @@
  * [[attachment:hess-talks-arithmetic_on_general_curves_and_applications.pdf]]
  * [[attachment:hess-computing_riemann_roch_spaces_in_algebraic_function_fields_and_related_topics.pdf]]
 
+== Relevant Source Code ==
+
+ * May 1998 code from Florian Hess: http://www.math.tu-berlin.de/~hess/gff
+
+== Tasks ==
+
+=== Stage 1: Computing Some Riemann-Roch Spaces ===
+
+ * (William Stein) Implement arithmetic in orders in a function field: sum, product, intersection
+ * (Chris Hall) Implement the reduction algorithm (easy port from above code)
+ * Conversion from divisor to ideal
+ * Implement writing down basis for Riemann-Roch spaces
+ * A suite of basic test examples, starting with example 15 from Florian's paper above. 
+
+=== Stage 2: Fleshing it out ===
+
+ * Round 2: p-maximizing an order
+ * Factoring ideals in maximal order
+ * Computation of the genus
+ * Reduction of a divisor
+ * Algebraic closure of base field in function field
+ * More interesting examples, testing speed, etc.
+
+=== Stage 3: Speed ===
+
+ * Make it all faster than Magma.
+ 
+
+
 == Some motivating remarks ==
 
 Michael Stoll and I recently did some computations to classify torsion orders for elliptic curves over quartic fields.  We did part in Sage, but ran into serious trouble, which forced us to switch to Magma.  Here's Michael's assessment of what would need to be in Sage to make this computation possible:
