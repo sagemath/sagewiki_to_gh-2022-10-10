@@ -6,8 +6,12 @@
 
 == Relevant Papers ==
 
- * [[attachment:hess-talks-arithmetic_on_general_curves_and_applications.pdf]]
  * [[attachment:hess-computing_riemann_roch_spaces_in_algebraic_function_fields_and_related_topics.pdf]]
+
+== Slides from Talks ==
+
+ * [[attachment:hess-talks-arithmetic_on_general_curves_and_applications.pdf]]
+ * [[attachment:hess-talks-computation_of_riemann_roch_spaces_and_some_applications.pdf]]
 
 == Relevant Source Code ==
 
