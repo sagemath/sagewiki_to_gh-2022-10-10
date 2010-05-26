@@ -45,5 +45,3 @@
   * Stefan Steidel
   * William Stein
   * Gert-Martin Greuel
-
-I will keep you updated on this.
