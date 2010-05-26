@@ -21,6 +21,7 @@
 
 === Stage 1: Computing Some Riemann-Roch Spaces ===
 
+ * (William Stein) Create all the basic classes for basic arithmetic with function fields, orders, and ideals, mirroring what is available for number fields.  Without this, it isn't possible to do anything else.   This is now the following ticket: http://trac.sagemath.org/sage_trac/ticket/9054
  * (William Stein) Implement arithmetic in orders in a function field: sum, product, intersection
      * Relevant bug: http://trac.sagemath.org/sage_trac/ticket/9053
  * (Chris Hall) Implement the reduction algorithm (easy port from above code)
