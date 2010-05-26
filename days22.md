@@ -17,9 +17,7 @@ Dates: June 21, 2010 to July 02, 2010
 
 == Senior People ==
 
-Number Theory: John Cremona (Warwick), Tim Dokchitser (Cambridge), Noam Elkies (Harvard), Matt Greenberg (Calgary), Ken Ribet (Berkeley), William Stein (University of Washington), Jared Weinstein (UCLA), Christian Wuthrich (Nottingham)
-
-TA: Robert Miller (University of Washington)
+Number Theory: John Cremona (Warwick), Tim Dokchitser (Cambridge), Noam Elkies (Harvard), Matt Greenberg (Calgary), Ken Ribet (Berkeley), William Stein (University of Washington), Jared Weinstein (UCLA), Christian Wuthrich (Nottingham), TA Robert Miller (University of Washington)
 
 Open Source: Robert Bradshaw (Google), Fernando Perez (Berkeley), Peter Norvig (Director of Research at Google),  Prabhu Ramachandran (Bombay)
 
