@@ -28,6 +28,7 @@
  * Conversion from divisor to ideal
  * Implement writing down basis for Riemann-Roch spaces
  * A suite of basic test examples, starting with example 15 from Florian's paper above. 
+ * (Kevin Wilson) Residue class fields
 
 === Stage 2: Fleshing it out ===
 
