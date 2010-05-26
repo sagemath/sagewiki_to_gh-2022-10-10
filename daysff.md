@@ -126,7 +126,7 @@ We will have one full day of organized talks, followed by working sessions and s
 
 === Monday, May 24 ===
 || 9:30am - 9:45am || Welcome and Breakfast || Savery Hall 155 || || ||
-|| 9:45am - 10:45am || Function Fields and Number Fields || Savery Hall 155 || D. Ulmer || ||
+|| 9:45am - 10:45am || Function Fields and Number Fields || Savery Hall 155 || D. Ulmer || [[attachment:Ulmer-SageDays21-2010.pdf | Slides (careful ... very broadbrush]] ||
 || 10:45am - 11:20am || An Introduction to Sage for Number Theorists || Savery Hall 155 || C. Citro || ||
 || 11:30am - 1:30pm || Lunch || || || ||
 || 1:30pm - 2:30pm || Drinfeld Modular Forms and Harmonic Cocycles || Thomson Hall 231 || G. Boeckle || [[attachment:Boeckle-SageDays21-2010.pdf | Slides]]  ||
