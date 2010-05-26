@@ -18,6 +18,7 @@
 === Stage 1: Computing Some Riemann-Roch Spaces ===
 
  * (William Stein) Implement arithmetic in orders in a function field: sum, product, intersection
+     * Relevant bug: http://trac.sagemath.org/sage_trac/ticket/9053
  * (Chris Hall) Implement the reduction algorithm (easy port from above code)
  * Conversion from divisor to ideal
  * Implement writing down basis for Riemann-Roch spaces
