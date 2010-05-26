@@ -16,6 +16,12 @@
 
 Some familiarity with basic algebraic number theory (number fields, primes), and having seen elliptic curves
 
+== Background reading ==
+
+J. H. Silverman, "The arithmetic of elliptic curves", Chapters 3, 7 and 8.
+
+Sage Reference Manual on elliptic curves: [[http://sagemath.org/doc/reference/plane_curves.html]], up to `Isogenies'.
+
 == Computational projects ==
 
 There will be many small problems and larger assignments to play with, illustrating all the concepts and conjectures from the course
