@@ -41,6 +41,8 @@ Mailing list: Group [[http://groups.google.com/group/sagedays21|page]].
  * [[/ff-class|Global function field class]] (Stein, Hall, Voloch) -- connected to [[/curves|Curves over Finite Fields]] project
  * [[/curves|Curves over Finite Fields in Sage]]
   * William Stein, Mike Hansen, Florian Hess, Michael Stoll (remote)
+ * [[/tkz-graphs|Combinatorial Graphs in Latex]]
+  * Rob Beezer
 
 
 === Wireless Account ===
