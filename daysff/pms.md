@@ -14,25 +14,25 @@
 
 Goal--get the examples from the Thesis to work
 
-Pointsearch--height zero or one, easy, since we just need a point, we can possibly just do this ourselves
-           --eventually need the whole thing, since points might have larger hight
-           --in the examples they are all hight zero or one
+Pointsearch *height zero or one, easy, since we just need a point, we can possibly just do this ourselves
+            *eventually need the whole thing, since points might have larger hight
+            *in the examples they are all hight zero or one
 
-ConcisFF(Kevin)--square roots in residue fields and lifts, also conic solving over QQ (auxiliary,i.e. useful in general)
+ConcisFF(Kevin) *square roots in residue fields and lifts, also conic solving over QQ (auxiliary,i.e. useful in general)
 
-DescentFF(all-ish)--in the process of being decomposed and doctested/tested
-                  --need to find intersections of curves (points) -restrict to hight zero or one?
-                  --find all the singular points? make this case work?
+DescentFF(all-ish) *in the process of being decomposed and doctested/tested
+                   *need to find intersections of curves (points) -restrict to hight zero or one?
+                   *find all the singular points? make this case work?
 
-LocSol(Aly)--needs testing and debugging
+LocSol(Aly) *needs testing and debugging
 
-Independant--needs is_linear_independent method on elliptic curves (mwrank from number field to function field--ask Cremona?)
-           --this is dependent on heights
+Independant *needs is_linear_independent method on elliptic curves (mwrank from number field to function field--ask Cremona?)
+            *this is dependent on heights
 
-PointSearchFF--immediate goal is height zero and one cases
+PointSearchFF *immediate goal is height zero and one cases
 
-QuartMin(Gerriet)--finished but not tested
+QuartMin(Gerriet) *finished but not tested
 
-Other--decide classes, i.e. where these go and how to get them into trac
+Other *decide classes, i.e. where these go and how to get them into trac
 
-Typos in Examples--compile and fix these
+Typos in Examples *compile and fix these
