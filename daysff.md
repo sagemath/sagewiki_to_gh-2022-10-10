@@ -23,7 +23,7 @@ Mailing list: Group [[http://groups.google.com/group/sagedays21|page]].
   * [[/curves|Global function field class / Curves over Finite Fields]] (Bradshaw, Hall, Hansen, Hess, Stein, Voloch, Michael Stoll (remote))
  * [[/mw|The Mordell-Weil group]] (descent, computing the algebraic rank, finding generators, torsion)
   * Generalizing (global function fields, ...) D. Robert's work on 2-descent over $\mathbb{F}_q(t)$
-   * porting from Magma to Sage (Moehlmann, Balakrishnan, Deines, R. Miller)
+   * [[/pms|Porting]]porting from Magma to Sage (Moehlmann, Balakrishnan, Deines, R. Miller)
   * $p$-descent in characteristic $p$ (Ulmer, Moehlmann, Voloch, Hall)
  * [[/dmf|Drinfeld modular forms]]
   * Porting Butenuth's code to Sage (Butenuth, Stein, some Sage devs)
