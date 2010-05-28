@@ -17,11 +17,10 @@ Mailing list: Group [[http://groups.google.com/group/sagedays21|page]].
 
  * [[/lfcn-bsd|L-functions and the Birch and Swinnerton-Dyer Conjecture over function fields]]
   * ELLFF (Baig, Hall)
-  * BSD (Baig, Balakrishnan, Stein, Occhipinti, Wilson, Ulmer)
-   * $\#Sha$
-   * Mordell-Weil
-   * heights
- * [[/ell-ff-class|Sage's view of elliptic curves and function fields]] (Baig, Hall, Stein, Citro, Bradshaw)
+  * Heights (Occhipinti)
+ * Sage classes for function fields
+  * [[/ell-ff-class|Elliptic curve over function field class]] (Bradshaw, Occhipinti)
+  * [[/curves|Global function field class / Curves over Finite Fields]] (Bradshaw, Hall, Hansen, Hess, Stein, Voloch, Michael Stoll (remote))
  * [[/mw|The Mordell-Weil group]] (descent, computing the algebraic rank, finding generators, torsion)
   * Generalizing (global function fields, ...) D. Robert's work on 2-descent over $\mathbb{F}_q(t)$
    * porting from Magma to Sage (Moehlmann, Balakrishnan, Deines, R. Miller)
@@ -38,15 +37,13 @@ Mailing list: Group [[http://groups.google.com/group/sagedays21|page]].
   * enumerating isogeny classes
  * [[/small-char|Small Characteristic (2 - 7)]]
   * Boothby
- * [[/ff-class|Global function field class]] (Stein, Hall, Voloch) -- connected to [[/curves|Curves over Finite Fields]] project
- * [[/curves|Curves over Finite Fields in Sage]]
-  * William Stein, Mike Hansen, Florian Hess, Michael Stoll (remote)
  * [[/tkz-graphs|Combinatorial Graphs in Latex]]
   * Rob Beezer
  * [[/kantcython|Some experiments with Kant and Cython]]
   * Florian Hess
  * [[http://trac.sagemath.org/sage_trac/ticket/9052|Hasse invariant for elliptic curves]]
   * Felipe Voloch
+
 === Wireless Account ===
 
 UW NetID: event0210
