@@ -11,3 +11,7 @@
   * Loading and unloading tables
   * Local reduction for function fields
   * Tweak Makefile
+
+== Heights ==
+
+Tommy implemented heights over function fields using the intersection pairing on the associated elliptic surface. See [[attachment:occhipinti-heights-ff.sage|code]]
