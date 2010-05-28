@@ -43,7 +43,8 @@ Mailing list: Group [[http://groups.google.com/group/sagedays21|page]].
   * William Stein, Mike Hansen, Florian Hess, Michael Stoll (remote)
  * [[/tkz-graphs|Combinatorial Graphs in Latex]]
   * Rob Beezer
-
+ * [[/kantcython|Some experiments with Kant and Cython]]
+  * Florian Hess
 
 === Wireless Account ===
 
