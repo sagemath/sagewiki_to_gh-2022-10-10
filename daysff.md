@@ -45,7 +45,8 @@ Mailing list: Group [[http://groups.google.com/group/sagedays21|page]].
   * Rob Beezer
  * [[/kantcython|Some experiments with Kant and Cython]]
   * Florian Hess
-
+ * [[http://trac.sagemath.org/sage_trac/ticket/9052|Hasse invariant for elliptic curves]]
+  * Felipe Voloch
 === Wireless Account ===
 
 UW NetID: event0210
