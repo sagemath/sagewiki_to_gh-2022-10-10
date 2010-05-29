@@ -12,17 +12,17 @@
 #format wiki
 #language en
 
-Goal--get the examples from the Thesis to work
+Goal--get the examples from the thesis to work
 
 Pointsearch 
             *height zero or one, easy, since we just need a point, we can possibly just do this ourselves
-            *eventually need the whole thing, since points might have larger hight
-            *in the examples they are all hight zero or one
+            *eventually need the whole thing, since points might have larger height
+            *in the examples they are all height zero or one
 
 ConcisFF(Kevin) 
             *square roots in residue fields and lifts, also conic solving over QQ (auxiliary,i.e. useful in general)
 
-DescentFF(all-ish) 
+DescentFF(Kevin and Jen) 
             *in the process of being decomposed and doctested/tested
             *need to find intersections of curves (points) -restrict to hight zero or one?
             *find all the singular points? make this case work?
@@ -30,7 +30,7 @@ DescentFF(all-ish)
 LocSol(Aly) 
             *needs testing and debugging
 
-Independant 
+Independent(Jen)
             *needs is_linear_independent method on elliptic curves (mwrank from number field to function field--ask Cremona?)
             *this is dependent on heights
 
@@ -45,3 +45,7 @@ Other
 
 Typos in Examples 
             *compile and fix these
+            * p. 34: (3.15) T+36 should be T+56
+            * p. 35: should be (d_1, d_2) = ((T+17)(T+25),1) (not (T+17)(T+35))
+            * p. 35: should be (1) (T+17)(T+25)Z,,1,,^2^ - Z,,2,,^2^ + ...
+            * p. 35: should be (2) (T+17)(T+25)Z,,1,,^2^ - (T+17)(T+25)Z,,3,,^2^ +  ...
