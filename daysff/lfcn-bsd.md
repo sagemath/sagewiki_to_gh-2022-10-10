@@ -14,4 +14,4 @@
 
 == Heights ==
 
-Tommy implemented heights over function fields using the intersection pairing on the associated elliptic surface. See [[attachment:occhipinti-heights-ff.sage|code]]
+Tommy implemented heights over function fields using the intersection pairing on the associated elliptic surface. See [[attachment:occhipinti-heights-ff.sage|code]] and [[http://trac.sagemath.org/sage_trac/ticket/9095|patch]]
