@@ -32,3 +32,7 @@ There are a few Sage projects in the works that might be interesting in the cont
  * [[http://osdir.com/ml/sage-devel/2010-02/msg00294.html|GR calculations]]: adding support for GR calculations to Sage.
  * [[http://wiki.sagemath.org/topology|Topology]]: Sage support for topology.
  * [[http://groups.google.be/group/sage-support/browse_thread/thread/3c41a9da1f124763/db705e0620e1af12|Graded Algebras]]
+
+Other discussions:
+
+ * [[http://www.slideshare.net/seenet/d-vulcanov-symbolic-computation-methods-in-cosmology-and-general-relativity-1||Symbolic computation methods in cosmology and general relativity]]
