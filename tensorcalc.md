@@ -11,14 +11,17 @@ As tensor calculus is a vast subject, at some stage we will want to have a roadm
 
 === Forms/Tensor packages ===
 
- * Maxima seems to have a [[http://www.math.utexas.edu/pipermail/maxima/2006/003179.html|differential forms package]].
  * [[http://grtensor.phy.queensu.ca/|GRTensor]] is a package for Maple (with a port to Mathematica) for geometry computations in general relativity.  From the web page: ''GRTensor II is a computer algebra package for performing calculations in the general area of differential geometry. Its purpose is the calculation of tensor components on curved spacetimes specified in terms of a metric or set of basis vectors.''
+ * The [[http://www.math.washington.edu/~lee/Ricci/|Ricci]] package in Mathematica looks terrific, but I don't have Mathematica so I can't experiment with it.
+ * [[http://cadabra.phi-sci.com/index.html|Cadabra]] is a tensor package designed for computations in field theory (HEP, GR).  It looks very powerful and versatile, but the syntax is very terse.
+ * Maxima seems to have a [[http://www.math.utexas.edu/pipermail/maxima/2006/003179.html|differential forms package]].
  * FriCAS has support for a [[http://axiom-wiki.newsynthesis.org/uploads/chapter-9.13-26.xhtml#sec-9.14|De Rham complex]], which (among others) apparently allows you to represent differential forms.
  * [[http://groups.csail.mit.edu/mac/users/gjs/6946/|Scmutils]] has lots of code to deal with forms, Riemannian geometry, etc. plus lots of cool applications.
 
 
 === Related code ===
 
+ * [[http://sympy.blogspot.com/2007/04/relativitypy-is-working.html|sympy]] has a small relativity example.  See also [[http://www.mail-archive.com/axiom-mail@nongnu.org/msg00314.html|this announcement]].
  * [[http://axiom-wiki.newsynthesis.org/JetBundles|JET]]: Axiom code to deal with jet bundles, geometric ODEs/PDEs, Cartan-Kuranishi prolongations, etc.  See the abstract [[http://iaks-www.ira.uka.de/iaks-calmet/werner/Abstracts/IMACS95.ps.gz|here]]. 
  * [[http://glucat.sourceforge.net/|GluCat]]: ''GluCat is a library of template classes which model the universal Clifford algebras over the field of real numbers, with arbitrary dimension and arbitrary signature. GluCat implements a model of each Clifford algebra corresponding to each non-degenerate quadratic form up to a maximum number of dimensions.''
  
@@ -26,5 +29,6 @@ As tensor calculus is a vast subject, at some stage we will want to have a roadm
 
 There are a few Sage projects in the works that might be interesting in the context of differential forms and tensor calculus.  A quick search brings up the following.
 
+ * [[http://osdir.com/ml/sage-devel/2010-02/msg00294.html|GR calculations]]: adding support for GR calculations to Sage.
  * [[http://wiki.sagemath.org/topology|Topology]]: Sage support for topology.
  * [[http://groups.google.be/group/sage-support/browse_thread/thread/3c41a9da1f124763/db705e0620e1af12|Graded Algebras]]
