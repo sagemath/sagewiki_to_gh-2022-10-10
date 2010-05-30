@@ -4,7 +4,7 @@ This page arose out of [[http://groups.google.be/group/sage-devel/browse_thread/
 
 This list is by no means complete, so please feel free to edit.
 
-As tensor calculus is a vast subject, at some stage we will want to have a roadmap of which tasks to handle first, benchmarks, and useful applications.  
+As tensor calculus is a vast subject, at some stage we will want to have a roadmap of which tasks to handle first, benchmarks, and useful applications. See [[http://math.arizona.edu/~atp-mena/conference/proceedings/SalahHaggag-paper.pdf|this paper]] for some real-world applications. 
 
 
 == Packages ==
