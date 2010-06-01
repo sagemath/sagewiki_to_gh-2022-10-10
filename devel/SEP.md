@@ -18,3 +18,7 @@ A SEP is a '''S'''age '''E'''nhancement '''P'''roposal.
  * [[Python2.6SEP|Python 2.6]] - (Has been merged into Sage 4.2)
 
  * [[Unit of Measurement]] - early discussion phase
+
+ * [[AutoToolsSEP|Using AutoTools]] - early discussion phase
+
+ * [[UnifiedCommandLineSEP|Unified Command Line Interface]] - early discussion phase
