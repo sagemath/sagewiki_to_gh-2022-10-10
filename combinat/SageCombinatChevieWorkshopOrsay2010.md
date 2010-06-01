@@ -35,6 +35,7 @@ the cooking ourselves (bring your favorite recipes and dishes!). Altogether this
  * NicolasBorie, graduate student, Orsay
  * TomDenton, graduate student, UC Davis
  * FlorentHivert, Prof, LITIS, Université de Rouen
+ * Franck Luebeck, Aachen
  * Andrew Mathas, Associate Prof, University of Sydney
  * Jean Michel, Directeur de recherches, CNRS, Université Paris 7
  * NicolasThiéry, MdC, Orsay
