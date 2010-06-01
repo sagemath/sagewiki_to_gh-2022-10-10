@@ -4,6 +4,9 @@
 
    * August 9-12, 2010
 
+== Venue ==
+
+   * IIT Bombay, Mumbai, India.
 
 == Tenative Schedule ==
 
