@@ -31,6 +31,9 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
  * Newton's Method (Jason)
  * Approximation Polynomials (Rob)
  * Introductory Programming
+   * Set Notation, List Comprehension
+   * Loops
+   * Copies vs Reference
 
 === Session II ===
 
@@ -42,6 +45,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 === Session I -  ===
 
  * Advanced Programming
+   * Pre-parser
+   * Integers
 
 === Session II -  ===
 
