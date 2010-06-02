@@ -76,8 +76,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
    * Control types
    * Layout
  * Break (10 min)
-
-
+ * Participant choice (multivariable calculus?)
  * Advanced Programming (Rob and Jason, 30 min)
    * Coset maker, subgroup maker
    * Pre-parser
