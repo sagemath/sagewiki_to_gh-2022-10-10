@@ -27,9 +27,14 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session I ===
 
+* Single-Variable Calculus Worksheet
+* Newton's Method (Jason)
 * Introductory Programming
 
 === Session II ===
+
+* Interacts (Control Types)
+
 
 
 Likely topics for these two days:
