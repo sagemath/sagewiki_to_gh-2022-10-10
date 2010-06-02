@@ -27,23 +27,14 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session I ===
 
-* Single-Variable Calculus Worksheet
+* [[http://prep.sagenb.org/home/pub/8/|Single-Variable Calculus Worksheet, Calculus Tutorial]]
 * Newton's Method (Jason)
 * Introductory Programming
 
 === Session II ===
 
 * Interacts (Control Types)
-
-
-
-Likely topics for these two days:
-
-  * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
-
-  * Other specific mathematical topics
-
-  * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
+* Other specific mathematical topics
 
 == Wednesday, June 9 ==
 
@@ -60,7 +51,10 @@ Likely topics for these two days:
 
 === Session I -  ===
 
-* Sage History
+* Sage History (William Stein)
+* [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
+
+
 
 === Session II -  ===
 
