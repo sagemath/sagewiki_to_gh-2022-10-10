@@ -30,23 +30,31 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
  * [[http://prep.sagenb.org/home/pub/8/|Single-Variable Calculus Worksheet, Calculus Tutorial]]
  * Other specific mathematical topics
  * Introductory Programming
+   * Motivated by a calc topic 
+     * newton's method
+     * discern patterns
+     * limits experiment numerically
    * Set Notation, List Comprehension
    * "dot" method notation
    * Regular "def" functions
    * Loops
    * Copies vs Reference
-   * N, e, I
+   * N, e, I, lambda_
 
 === Session II - Classroom Demos ===
 
- * Newton's Method (Jason)
+ * Calc I topics (Karl)
  * Approximation Polynomials (Rob)
+ * Linear Algebra, Interactive  (Jason)
+ * Numerical Analysis (Jason)
+ * Multivariate Demos (Jason, Rob)
 
 == Wednesday, June 9 ==
 
 === Session I -  ===
 
  * Advanced Programming
+   * Coset maker, subgroup maker (Rob)
    * Pre-parser
    * Integers
    * lambda function
