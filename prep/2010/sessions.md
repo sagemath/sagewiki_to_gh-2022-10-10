@@ -57,14 +57,16 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session I - Quickstarts ===
 
- * Topical Lightning Round (Questions between each topic)
-  * Linear Algebra (Jason, 10 min)
-  * Graph Theory / Discrete (Rob, 10 min)
-  * Number Theory / Crypto (Karl-Dieter, 10 min)
-  * Abstract Algebra (Rob, 10 min)
-  * Differential Equations (Karl-Dieter, 10 min)
-  * Numerical Analysis (Jason, 10 min)
-  * Statistics / distributions (Karl-Dieter, 10 min)
+ * Topical Lightning Round (Questions between each topic, each topic < 10 min)
+  * Linear Algebra (Jason)
+  * Graph Theory / Discrete (Rob)
+  * Number Theory / Crypto (Karl-Dieter)
+  * Abstract Algebra (Rob)
+  * Break
+  * Differential Equations (Karl-Dieter)
+  * Numerical Analysis (Jason)
+  * Statistics / distributions (Karl-Dieter)
+  * Multivariable calculus (Rob)
 
 
 === Session II -  ===
