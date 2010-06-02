@@ -28,17 +28,19 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 === Session I ===
 
  * [[http://prep.sagenb.org/home/pub/8/|Single-Variable Calculus Worksheet, Calculus Tutorial]]
- * Newton's Method (Jason)
- * Approximation Polynomials (Rob)
+ * Other specific mathematical topics
  * Introductory Programming
    * Set Notation, List Comprehension
+   * "dot" method notation
+   * Regular "def" functions
    * Loops
    * Copies vs Reference
+   * N, e, I
 
-=== Session II ===
+=== Session II - Classroom Demos ===
 
- * Interacts (Control Types)
- * Other specific mathematical topics
+ * Newton's Method (Jason)
+ * Approximation Polynomials (Rob)
 
 == Wednesday, June 9 ==
 
@@ -47,9 +49,11 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
  * Advanced Programming
    * Pre-parser
    * Integers
+   * lambda function
 
 === Session II -  ===
 
+ * Interacts (Control Types)
 
 
 
