@@ -26,9 +26,12 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session I ===
 
- * [[http://prep.sagenb.org/home/pub/8/|Single-Variable Calculus Worksheet, Calculus Tutorial]]
- * Other specific mathematical topics
- * Introductory Programming
+ * Welcome back (Rob, 10 min)
+ * [[http://prep.sagenb.org/home/pub/8/|Single-Variable Calculus Worksheet, Calculus Tutorial]] (Karl-Dieter, 30 min)
+ * Break (10 min)
+ * Advanced plotting (Jason, 30 min)
+ * Break (10 min)
+ * Introductory Programming (Rob, 30 min)
    * Motivated by a calc topic 
      * newton's method
      * discern patterns
@@ -42,22 +45,26 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session II - Classroom Demos ===
 
- * Calc I topics (Karl)
- * Approximation Polynomials (Rob)
- * Linear Algebra, Interactive  (Jason)
- * Numerical Analysis (Jason)
- * Multivariate Demos (Jason, Rob)
+ * Chaos and Calculus (Karl-Dieter, 10 min)
+ * Approximation Polynomials (Rob, 10 min)
+ * Linear Algebra (Jason, 20 min)
+ * Break (10 min)
+ * Numerical Analysis (Jason, 10 min)
+ * Multivariate Demos (Rob, Jason, 30 min)
+ * Discussion of classroom use
 
 == Wednesday, June 9 ==
 
-=== Session I -  ===
+=== Session I - Quickstarts ===
 
  * Topical Lightning Round
-  * Linear Algebra
-  * Graph Theory
-  * Number Theory
-  * DiffEq
-  
+  * Linear Algebra (Jason, 10 min)
+  * Numerical Analysis (Jason, 10 min)
+  * Graph Theory / Discrete (Rob, 10 min)
+  * Abstract Algebra (Rob, 10 min)
+  * Number Theory / Crypto (Karl-Dieter, 10 min)
+  * Differential Equations (Karl-Dieter, 10 min)
+  * Statistics / distributions (Karl-Dieter, 10 min)
 
  * Advanced Programming
    * Coset maker, subgroup maker (Rob)
