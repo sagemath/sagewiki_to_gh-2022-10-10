@@ -25,6 +25,13 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 == Tuesday, June 8 ==
 
+=== Session I ===
+
+* Introductory Programming
+
+=== Session II ===
+
+
 Likely topics for these two days:
 
   * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
@@ -40,6 +47,12 @@ Likely topics for these two days:
   * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
 
 == Wednesday, June 9 ==
+
+=== Session I -  ===
+
+* Advanced Programming
+
+=== Session II -  ===
 
 
 == Monday, August 9 ==
