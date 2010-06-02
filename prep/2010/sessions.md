@@ -43,12 +43,6 @@ Likely topics for these two days:
 
   * Other specific mathematical topics
 
-  * Sage History
-
-  * Basic Programming with Sage
-  
-  * Making Interacts/Advanced Programming with Sage
-  
   * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
 
 == Wednesday, June 9 ==
@@ -60,7 +54,16 @@ Likely topics for these two days:
 === Session II -  ===
 
 
+
+
 == Monday, August 9 ==
+
+=== Session I -  ===
+
+* Sage History
+
+=== Session II -  ===
+
 
 
 == Archived: Saturday, May 22 ==
