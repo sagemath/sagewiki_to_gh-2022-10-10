@@ -57,27 +57,34 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session I - Quickstarts ===
 
- * Topical Lightning Round
+ * Topical Lightning Round (Questions between each topic)
   * Linear Algebra (Jason, 10 min)
-  * Numerical Analysis (Jason, 10 min)
   * Graph Theory / Discrete (Rob, 10 min)
-  * Abstract Algebra (Rob, 10 min)
   * Number Theory / Crypto (Karl-Dieter, 10 min)
+  * Abstract Algebra (Rob, 10 min)
   * Differential Equations (Karl-Dieter, 10 min)
+  * Numerical Analysis (Jason, 10 min)
   * Statistics / distributions (Karl-Dieter, 10 min)
 
- * Advanced Programming
-   * Coset maker, subgroup maker (Rob)
-   * Pre-parser
-   * Integers
-   * lambda function
-   * fast_callable
-   * Cython
 
 === Session II -  ===
 
- * Group discussion on classroom design
- * Interacts (Control Types)
+ * Group discussion on classroom design (Karl-Dieter, 30 min)
+ * Interacts (Jason, 20 min)
+   * How to make
+   * Helpful resources
+   * Control types
+   * Layout
+ * Break (10 min)
+
+
+ * Advanced Programming (Rob and Jason, 30 min)
+   * Coset maker, subgroup maker
+   * Pre-parser
+   * Integers 
+   * lambda function
+   * fast_callable
+   * Cython
 
 
 
