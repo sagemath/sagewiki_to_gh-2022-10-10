@@ -10,7 +10,6 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
   * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
 
-
 == Office Hours ==
 
 Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
@@ -53,14 +52,24 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session I -  ===
 
+ * Topical Lightning Round
+  * Linear Algebra
+  * Graph Theory
+  * Number Theory
+  * DiffEq
+  
+
  * Advanced Programming
    * Coset maker, subgroup maker (Rob)
    * Pre-parser
    * Integers
    * lambda function
+   * fast_callable
+   * Cython
 
 === Session II -  ===
 
+ * Group discussion on classroom design
  * Interacts (Control Types)
 
 
@@ -72,10 +81,9 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
  * Sage History (William Stein)
  * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
 
-
-
 === Session II -  ===
 
+ * Participant Demos (Voluntary)
 
 
 == Archived: Saturday, May 22 ==
