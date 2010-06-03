@@ -45,3 +45,4 @@
   * Stefan Steidel
   * William Stein
   * Gert-Martin Greuel
+  * GabrielPannwitz (tentative)
