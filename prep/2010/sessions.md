@@ -45,7 +45,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session II - Classroom Demos ===
 
- * Chaos and Calculus (Karl-Dieter, 10 min)
+ * [[http://www.sagenb.org/pub/1317/|Chaos and Calculus]] (Karl-Dieter, 10 min)
  * Approximation Polynomials (Rob, 10 min)
  * Linear Algebra (Jason, 20 min)
  * Break (10 min)
