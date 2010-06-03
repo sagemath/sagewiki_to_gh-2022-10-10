@@ -39,7 +39,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
    * Set Notation, List Comprehension
    * "dot" method notation
    * Regular "def" functions
-   * Loops
+   * Loops and behavior/use of "range"
    * Copies vs Reference
    * N, e, I, lambda_
 
@@ -82,6 +82,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
  * Advanced Programming (Rob and Jason, 30 min)
    * Coset maker, subgroup maker
    * Pre-parser
+   * More ranges, [1:3] notation, etc.
    * Integers 
    * lambda function
    * fast_callable
