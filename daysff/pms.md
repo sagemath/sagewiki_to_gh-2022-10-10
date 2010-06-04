@@ -37,7 +37,7 @@ Independent(Jen)
 PointSearchFF 
             *immediate goal is height zero and one cases
 
-QuartMin(Gerriet) 
+QuartMin(Gerriet) ([[attachment:quartmin_ff.sage|current implementation]]
             *finished but not tested
 
 Other 
