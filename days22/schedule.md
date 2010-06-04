@@ -40,13 +40,7 @@ Friday, June 25:
 
 ----------------------------------------------------
 
-Optional weekend coding sprints and working sessions...
-
-Fun Field Trips:   
-   * Alcatrez?
-   * Exploratorium?
-  
-... or just code and learn math until you drop.
+ ** HAVE FUN DURING THE WEEKEND **
    
 ----------------------------------------------------
 
