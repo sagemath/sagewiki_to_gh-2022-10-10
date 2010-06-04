@@ -24,6 +24,10 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 == Tuesday, June 8 ==
 
+For these next two days you should notice more discussion about how you might employ Sage as part of your teaching. We will also continue to describe how to use Sage itself, including discussions about programming and building interacts.
+
+Notice the "participant choice" session for Wednesday afternoon, so start thinking about that.
+
 === Session I ===
 
  * Welcome back (Rob, 10 min)
@@ -52,6 +56,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
  * Numerical Analysis (Jason, 10 min)
  * Multivariate Demos (Rob, Jason, 30 min)
  * Discussion of classroom use
+ * Wrap-up, "participant choice" decision for Wednesday.
 
 == Wednesday, June 9 ==
 
@@ -71,7 +76,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session II -  ===
 
- * Group discussion on classroom design (Karl-Dieter, 30 min)
+ * Group discussion on designing classroom use (Karl-Dieter, 30 min)
  * Interacts (Jason, 20 min)
    * How to make
    * Helpful resources
