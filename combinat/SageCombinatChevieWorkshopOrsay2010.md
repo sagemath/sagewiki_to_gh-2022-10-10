@@ -19,10 +19,10 @@ The first day of the conference (Monday 14th) will take place in
 Orsay, bâtiment 425, and is open to anybody wanting to learn about
 [[http:www.sagemath.org/|Sage]].
 
- - 10am-11am, petit amphi: An introduction to Sage (Nicolas M. Thiéry)
- - 11am-1pm, (Salle Info Grand Amphi(20)), tutorials
- - 1pm-2pm, lunch
- - 2pm-5pm, tutorial
+ * 10am-11am, petit amphi: An introduction to Sage (Nicolas M. Thiéry)
+ * 11am-1pm, (Salle Info Grand Amphi(20)), tutorials
+ * 1pm-2pm, lunch
+ * 2pm-5pm, tutorial
 
 After that, the workshop participants will move together to Cernay by
 RER + bus, and stay there until Friday evening or Saturday morning.
