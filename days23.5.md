@@ -45,4 +45,5 @@
   * Stefan Steidel
   * William Stein
   * Gert-Martin Greuel
-  * GabrielPannwitz (tentative)
+  * Gabriel Pannwitz (tentative)
+  * Simon King (tentative)
