@@ -11,43 +11,56 @@ Sponsored by the Laboratoire de Mathématiques d'Orsay, Université Paris Sud {{
 
 Like for the previous [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat days of January 2009]], I (Nicolas) have rented a 8-person house in Cernay-la-Ville
 ([[http://www.cernayvacances.com/CFrans.html|la tour]]). In case of overflow, we can setup tents in the adjacent garden.
-We will do
-the cooking ourselves (bring your favorite recipes and dishes!). Altogether this will make for a tight budget.
+We will do the cooking ourselves (bring your favorite recipes and dishes!). Altogether this will make for a tight budget.
 
-== Coming from downtown Paris ==
+== Program ==
+
+The first day of the conference (Monday 14th) will take place in
+Orsay, bâtiment 425, and is open to anybody wanting to learn about
+[[http:www.sagemath.org/|Sage]].
+
+ - 10am-11am, petit amphi: An introduction to Sage (Nicolas M. Thiéry)
+ - 11am-1pm, (Salle Info Grand Amphi(20)), tutorials
+ - 1pm-2pm, lunch
+ - 2pm-5pm, tutorial
+
+After that, the workshop participants will move together to Cernay by
+RER + bus, and stay there until Friday evening or Saturday morning.
+
+== Coming from downtown Paris to Orsay ==
+
+[[http://www.math.u-psud.fr/acces.php]]
+
+== Coming from downtown Paris to Cernay ==
 
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
  * From Chatelet-les-Halles: 45 minutes RER B to Saint-Remy les Chevreuses + 15 minutes bus to Cernay-la-Ville
 
  * Time tables Saint-Remy <-> Cernay <-> Rambouillet:
-   [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_103_2009.pdf|39.103]]
-   [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_03_2009.pdf|39.003]]
-   [[http://www.savac.fr/fr/transports/pdf/horaires_2008/horaire_039_039_303_2009.pdf|39.303 express]]
+   [[http://www.savac.fr/fr/transports/horaires_content/horaire/25136_B_SAVAC_39_03_COMPLET.pdf|39.03]]
 
-   There are two bus stops at Cernay, the closest is Grand'Place, near the gite.
+   There are two bus stops at Cernay. The closest to the gite is Grand'Place. The other one is currently closed for constructions.
 
-   BEWARE: there are no busses between 7:35am and noon!
+   BEWARE: there are no bus to Cernay between 7:32am and 12:25am!
 
  * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
+
+
+We will do some car shuttles from Saint Rémi. Please contact us in
+advance to synchronize. NicolasThiery' phone: 06 77 90 32 79,
+NicolasBorie's phone: 06 89 29 78 44
 
 == Tentative lists of participants ==
 
  * NicolasBorie, graduate student, Orsay
  * TomDenton, graduate student, UC Davis
  * FlorentHivert, Prof, LITIS, Université de Rouen
+ * Cedric Lecouvey, Prof, Université de Tours
  * Franck Luebeck, Aachen
  * Andrew Mathas, Associate Prof, University of Sydney
- * Jean Michel, Directeur de recherches, CNRS, Université Paris 7
+ * Jean Michel, DR, CNRS, Université Paris 7
  * NicolasThiéry, MdC, Orsay
- * Adrien Boussicault, LIGM, Université Paris-Est
- * Viviane Pons, LIGM, Université Paris-Est
+ * Adrien Boussicault, ATER, LIGM, Université Paris-Est
+ * Viviane Pons, graduate student, LIGM, Université Paris-Est
 
-Potential participants: http://doodle.com/ktma7rmvx4f3psbr
-
-Please preregister there if you are interested in attending.
-
-/*
-   * We will do some car shuttles from Saint Rémi. Please contact us in advance to synchronize. NicolasThiery' phone: 06 77 90 32 79
-   * Monday morning 10am on the parking of Saint-Rémi de Chevreuse (Nicolas Borie: 06 89 29 78 44)
-   * ...
-*/
+See also: http://doodle.com/ktma7rmvx4f3psbr
