@@ -37,8 +37,9 @@ Independent(Jen)
 PointSearchFF 
             *immediate goal is height zero and one cases
 
-QuartMin(Gerriet) ([[attachment:quartmin_ff.sage|current implementation]]
+QuartMin(Gerriet) ([[attachment:quartmin_ff.sage|current implementation]])
             *finished but not tested
+            *UPDATE (6/4): When Kevin and Jen were trying to put everything together, they noticed that this file actually isn't used in DAR's original code. Turns out, if you read his thesis closely, it should in fact *never* be used. So nothing's wrong with his algorithm, we just have an extra file. Kevin and Jen are now discontinuing work on this file.
 
 Other 
             *Need to put the following functions into ell_function_field:
