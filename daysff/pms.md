@@ -41,7 +41,11 @@ QuartMin(Gerriet)
             *finished but not tested
 
 Other 
-            *decide classes, i.e. where these go and how to get them into trac
+            *Need to put the following functions into ell_function_field:
+            ** gens()
+            ** rank()
+            ** torsion_subgroup() (need Mazur's theorem!!!!)
+            
 
 Typos in Examples 
             *compile and fix these
