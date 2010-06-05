@@ -44,3 +44,5 @@ _sage_tab() {
 # are returned, complete with directory names
 complete -F _sage_tab -o filenames -o dirnames sage
 }}}
+
+See [[Tips]] for other handy hints for using Sage.
