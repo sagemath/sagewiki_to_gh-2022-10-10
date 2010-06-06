@@ -23,3 +23,13 @@ Finding all elliptic curves with good reduction outside a finite set S of primes
 === Suggested preliminary reading ===
 
     1. J. E. Cremona and M. P. Lingham, "Finding all elliptic curves with good reduction outside a given set of primes",  Experimental Mathematics 16 (2007) No.3, pages 303-312.  Preprint at http://www.warwick.ac.uk/staff/J.E.Cremona/papers/egros.pdf .   See also the references there.
+
+== Project 3 ==
+
+Make a table of $p$-adic regulators for elliptic curves over $\mathbb{Q}$ and
+$p\leq 100$ (say), for all of Cremona's tables.  These should be
+added to his tables.  Precision should just be some arbitrary
+choice that makes the computation doable.
+
+Sage can efficiently compute these $p$-adic regulators, due to work of
+David Harvey.
