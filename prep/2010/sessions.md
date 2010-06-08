@@ -35,7 +35,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * Break (10 min)
  * Advanced plotting (Jason, 30 min) ([[http://prep.sagenb.org/home/pub/11/|Part 1]], [[http://prep.sagenb.org/home/pub/12/|Part 2]])
  * Break (10 min)
- * Introductory Programming (Karl-Dieter, 30 min)
+ * [[http://prep.sagenb.org/home/pub/16|Introductory Programming]] (Karl-Dieter, 30 min)
    * Motivated by linear algebra 
    * "dot" method notation
    * Loops and behavior/use of "range"
@@ -68,7 +68,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
   * Linear Algebra (Rob)
   * Numerical Analysis (Jason)
   * Statistics / distributions (Karl-Dieter)
-  * Multivariable calculus (Rob)
+  * Multivariable Calculus (Rob)
 
 
 === Session II -  ===
