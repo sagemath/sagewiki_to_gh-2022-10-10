@@ -37,7 +37,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * Welcome back (Rob, 10 min)
  * [[http://prep.sagenb.org/home/pub/8/|Single-Variable Calculus Worksheet, Calculus Tutorial]] (Karl-Dieter, 30 min)
  * Break (10 min)
- * Advanced plotting (Jason, 30 min) ([[http://prep.sagenb.org/home/pub/11/|Part 1]], [[http://prep.sagenb.org/home/pub/12/|Part 2]])
+ * Advanced plotting (Jason, 30 min) ([[http://prep.sagenb.org/home/pub/11/|Part 1]])
  * Break (10 min)
  * [[http://prep.sagenb.org/home/pub/16|Introductory Programming]] (Karl-Dieter, 30 min)
    * Motivated by linear algebra 
@@ -55,11 +55,11 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * [[http://prep.sagenb.org/home/pub/23|Linear Algebra]] (Jason, 10 min)
  * Break (10 min)
  * Numerical Analysis (Jason, 20 min) ([[http://prep.sagenb.org/home/pub/18|Polynomials]],[[http://prep.sagenb.org/home/pub/20|Splines]],[[http://prep.sagenb.org/home/pub/21|Iterative]],[[http://prep.sagenb.org/home/pub/19|Roots]],[[http://prep.sagenb.org/home/pub/26|Lab]])
- * Multivariate Demos (Rob, Jason, 30 min) ([[http://prep.sagenb.org/home/rob/15/|Part 1]])
+ * Multivariate Demos (Rob, Jason, 30 min) ([[http://prep.sagenb.org/home/rob/15/|Part 1]],[[http://prep.sagenb.org/home/pub/27|Functions]],[[http://prep.sagenb.org/home/pub/28|Optimization]],[[http://prep.sagenb.org/home/pub/29|More Functions]],[[http://prep.sagenb.org/home/pub/30|Line Integrals]])
  * Dropped: Discussion of classoom use
  * Office Hours?
  * Participant choice" decision for Wednesday.
- * Bonus: Advanced Plotting, Part 2
+ * Bonus: Advanced Plotting, [[http://prep.sagenb.org/home/pub/12/|Part 2]]
 
 == Wednesday, June 9 ==
 
