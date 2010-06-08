@@ -36,14 +36,11 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * Advanced plotting (Jason, 30 min) ([[http://prep.sagenb.org/home/pub/11/|Part 1]], [[http://prep.sagenb.org/home/pub/12/|Part 2]])
  * Break (10 min)
  * Introductory Programming (Rob, 30 min)
-   * Motivated by a calc topic 
-     * newton's method
-     * discern patterns
-     * limits experiment numerically
-   * Set Notation, List Comprehension
+   * Motivated by linear algebra 
    * "dot" method notation
-   * Regular "def" functions
    * Loops and behavior/use of "range"
+   * Set Notation, List Comprehension
+   * Regular "def" functions
    * Copies vs Reference
    * N, e, I, lambda_
 
