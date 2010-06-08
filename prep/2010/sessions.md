@@ -48,7 +48,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
 
  * [[http://www.sagenb.org/pub/1317/|Chaos and Calculus]] (Karl-Dieter, 10 min)
  * [[http://prep.sagenb.org/home/pub/13|Approximating Polynomials]] (Rob, 10 min)
- * Linear Algebra (Jason, 20 min)
+ * Linear Algebra (Jason, 10 min)
  * Break (10 min)
  * Numerical Analysis (Jason, 10 min)
  * Multivariate Demos (Rob, Jason, 30 min)
