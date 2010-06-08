@@ -35,7 +35,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * Break (10 min)
  * Advanced plotting (Jason, 30 min) ([[http://prep.sagenb.org/home/pub/11/|Part 1]], [[http://prep.sagenb.org/home/pub/12/|Part 2]])
  * Break (10 min)
- * Introductory Programming (Rob, 30 min)
+ * Introductory Programming (Karl-Dieter, 30 min)
    * Motivated by linear algebra 
    * "dot" method notation
    * Loops and behavior/use of "range"
@@ -60,12 +60,12 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
 === Session I - Quickstarts ===
 
  * Topical Lightning Round (Questions between each topic, each topic < 10 min)
-  * Linear Algebra (Jason)
+  * Differential Equations (Karl-Dieter)
   * [[http://prep.sagenb.org/home/pub/15|Graph Theory / Discrete]] (Rob)
   * Number Theory / Crypto (Karl-Dieter)
   * [[http://prep.sagenb.org/home/pub/14|Abstract Algebra]] (Rob)
   * Break
-  * Differential Equations (Karl-Dieter)
+  * Linear Algebra (Rob)
   * Numerical Analysis (Jason)
   * Statistics / distributions (Karl-Dieter)
   * Multivariable calculus (Rob)
