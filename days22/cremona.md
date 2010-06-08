@@ -19,6 +19,8 @@ Tabulating modular elliptic curves over '''Q''' (based on  Chapter II of my book
 
 Finding all elliptic curves with good reduction outside a finite set S of primes, over number fields.  The theory, is based on my paper on the subject (see below) which reduces the problem to finding all ''S''-integral points on elliptic curves over number fields, together with some algebraic number theory.   The project would be to implement this in Sage, over number fields.  Over '''Q''', I have already done this, using the ''S''-integral points functions implemented two summers ago.  I also have a partial implementation over number fields in Magma.  Over number fields there will be other challenges, and this is likely to spill over into more general computation of Mordell-Weil groups of elliptic curves over number fields. 
 
+As a rather specific special case, we could try to find as many examples as possible of elliptic curves with everywhere good reduction (EGR), over quadratic (and higher degree) number fields.  There is some relevant theory here, but in most cases the theory says nothing useful.  As a very explicit example,  my colleague Lassina Dembele would be very happy if we could find for him an elliptic curve with EGR over $\mathbb{Q}(\sqrt{929})$!  I have been trying my hand at that without success.  (We managed 853 and 997.)
+
 
 === Suggested preliminary reading ===
 
