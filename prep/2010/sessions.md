@@ -56,8 +56,10 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * Break (10 min)
  * Numerical Analysis (Jason, 20 min)
  * Multivariate Demos ([[http://prep.sagenb.org/home/rob/15/|Part 1]])(Rob, Jason, 30 min)
- * Discussion of classoom use
- * Wrap-up, "participant choice" decision for Wednesday.
+ * Dropped: Discussion of classoom use
+ * Office Hours?
+ * Participant choice" decision for Wednesday.
+ * Bonus: Advanced Plotting, Part 2
 
 == Wednesday, June 9 ==
 
