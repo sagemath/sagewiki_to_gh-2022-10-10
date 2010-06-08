@@ -54,7 +54,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * [[http://prep.sagenb.org/home/pub/13|Approximating Polynomials]] (Rob, 10 min)
  * [[http://prep.sagenb.org/home/pub/23|Linear Algebra]] (Jason, 10 min)
  * Break (10 min)
- * Numerical Analysis (Jason, 20 min)
+ * Numerical Analysis (Jason, 20 min) ([[http://prep.sagenb.org/home/pub/18|Polynomials]],[[http://prep.sagenb.org/home/pub/20|Splines]],[[http://prep.sagenb.org/home/pub/21|Iterative]],[[http://prep.sagenb.org/home/pub/19|Roots]],[[http://prep.sagenb.org/home/pub/26|Lab]])
  * Multivariate Demos (Rob, Jason, 30 min) ([[http://prep.sagenb.org/home/rob/15/|Part 1]])
  * Dropped: Discussion of classoom use
  * Office Hours?
