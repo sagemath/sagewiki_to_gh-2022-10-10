@@ -61,7 +61,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
 
  * Topical Lightning Round (Questions between each topic, each topic < 10 min)
   * Linear Algebra (Jason)
-  * Graph Theory / Discrete (Rob)
+  * [[http://prep.sagenb.org/home/pub/15|Graph Theory / Discrete]] (Rob)
   * Number Theory / Crypto (Karl-Dieter)
   * [[http://prep.sagenb.org/home/pub/14|Abstract Algebra]] (Rob)
   * Break
