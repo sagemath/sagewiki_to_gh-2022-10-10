@@ -51,8 +51,8 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * Linear Algebra (Jason, 10 min)
  * Break (10 min)
  * Numerical Analysis (Jason, 20 min)
- * Multivariate Demos (Rob, Jason, 30 min)
- * Discussion of classroom use
+ * Multivariate Demos ([[http://prep.sagenb.org/home/rob/15/|Part 1]])(Rob, Jason, 30 min)
+ * Discussion of classoom use
  * Wrap-up, "participant choice" decision for Wednesday.
 
 == Wednesday, June 9 ==
