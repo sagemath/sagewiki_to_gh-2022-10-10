@@ -50,7 +50,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * [[http://prep.sagenb.org/home/pub/13|Approximating Polynomials]] (Rob, 10 min)
  * Linear Algebra (Jason, 10 min)
  * Break (10 min)
- * Numerical Analysis (Jason, 10 min)
+ * Numerical Analysis (Jason, 20 min)
  * Multivariate Demos (Rob, Jason, 30 min)
  * Discussion of classroom use
  * Wrap-up, "participant choice" decision for Wednesday.
