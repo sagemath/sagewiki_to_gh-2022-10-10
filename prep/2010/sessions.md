@@ -7,8 +7,12 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 
 == Current Homework ==
+  
+  * For Wednesday, June 8
 
-  * [[http://prep.sagenb.org/home/pub/8/|Homework, Calculus Tutorial]]
+  * Think meaningfully about about how you might use Sage in your clasees.
+
+  * Review Wednesday's lightning talks in your areas of interest.
 
 == Office Hours ==
 
