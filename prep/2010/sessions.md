@@ -33,7 +33,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * Welcome back (Rob, 10 min)
  * [[http://prep.sagenb.org/home/pub/8/|Single-Variable Calculus Worksheet, Calculus Tutorial]] (Karl-Dieter, 30 min)
  * Break (10 min)
- * Advanced plotting (Jason, 30 min)
+ * Advanced plotting (Jason, 30 min) ([[http://prep.sagenb.org/home/pub/11/|Part 1]], [[http://prep.sagenb.org/home/pub/12/|Part 2]])
  * Break (10 min)
  * Introductory Programming (Rob, 30 min)
    * Motivated by a calc topic 
