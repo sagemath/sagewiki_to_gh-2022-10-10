@@ -63,7 +63,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
   * Linear Algebra (Jason)
   * Graph Theory / Discrete (Rob)
   * Number Theory / Crypto (Karl-Dieter)
-  * Abstract Algebra (Rob)
+  * [[http://prep.sagenb.org/home/pub/14|Abstract Algebra]] (Rob)
   * Break
   * Differential Equations (Karl-Dieter)
   * Numerical Analysis (Jason)
