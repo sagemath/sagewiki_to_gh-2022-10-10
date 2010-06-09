@@ -125,12 +125,12 @@ Now add a server and 10 user accounts.  The Sage notebook will invoke one of the
 {{{
 sudo addgroup sageuser
 sudo adduser --disabled-password sageserver
-for i in $(seq 1 10); do
- sudo adduser --disabled-password --ingroup sageuser sageuser$i
+for i in $(seq 0 9); do
+ sudo adduser --disabled-password --ingroup sageuser sage$i
 done
 }}}
 
-I wanted to restrict logins for the sage server and sage users.  I want to prevent logins as sageserver, and restrict sageuser* logins to only come from localhost.  I'll use sudo to run commands as the sage server.  Under {{{/etc/pam.d/sshd}}}, uncomment this line, and add "nodefgroup":
+I wanted to restrict logins for the sage server and sage users.  I want to prevent logins as sageserver, and restrict sage* logins to only come from localhost.  I'll use sudo to run commands as the sage server.  Under {{{/etc/pam.d/sshd}}}, uncomment this line, and add "nodefgroup":
 
 {{{
 account  required     pam_access.so nodefgroup
@@ -147,21 +147,21 @@ Then in {{{/etc/security/access.conf}}}, add these lines:
 Now set up passwordless ssh keys
 {{{
 sudo -u sageserver -i "ssh-keygen -t dsa"
-for i in $(seq 1 10); do
- sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sageuser$i -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+for i in $(seq 0 9); do
+ sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sage$i -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
 done
 }}}
 
 Test logins (do at least one to generate the known_hosts file)
 {{{
-sudo -u sageserver -i "ssh sageuser0@localhost echo Done"
+sudo -u sageserver -i "ssh sage0@localhost echo Done"
 }}}
 
 
 I store the following command in a file {{{/home/sageserver/startnotebook}}} to start the notebook
 {{{
 #!/bin/sh
-echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, server_pool=['sageuser%d@localhost'%i for i in range(10)], ulimit='-u 100 -t 3600 -v 500000', open_viewer=False)" | ~/sage/sage
+echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, server_pool=['sage%d@localhost'%i for i in range(10)], ulimit='-u 100 -t 3600 -v 500000', open_viewer=False)" | ~/sage/sage
 }}}
 
 Now copy the current version of Sage into the sageserver home directory.  I set up things so that /home/sageserver/sage/ is a symbolic link to whatever the current version is (like /home/sageserver/sage-4.3.2/)
@@ -185,7 +185,7 @@ screen
 I also added this to ~/sage/sage to control process limits:
 
 {{{
-if [[ `whoami` = sageuser* ]]; then
+if [[ `whoami` = sage* ]]; then
    echo "User " `whoami`
    ulimit -v 1500000 -u 300 -n 128 -t 1800
 fi
