@@ -55,6 +55,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
  * Participant choice
    * [[http://prep.sagenb.org/home/pub/39|Experimental Mathematics]]
    * Fourier Analysis (search "fft") [[http://sagenb.org/home/pub/1193/|Sagenb.org published]]
+   * WeBWork discussion
+   * GeoGebra discussion (Mike May?)
  * Advanced Programming (Rob and Jason, 30 min)
    * Coset maker, subgroup maker
    * Pre-parser
