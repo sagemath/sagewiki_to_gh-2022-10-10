@@ -11,6 +11,8 @@
 
   * Kaiserslautern, Germany 
 
+  * In order to ease the booking of hotels, refunding and so on, please visit http://www.singular.uni-kl.de/index.php/events/sage-days-235.html and also register there. Please make use of the room sharing option, if possible.
+
 == Dates ==
  
   * July 14-16, 2010
