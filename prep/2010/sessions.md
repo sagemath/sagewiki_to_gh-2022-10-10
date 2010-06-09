@@ -26,40 +26,6 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
 
 And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
 
-== Tuesday, June 8 ==
-
-For these next two days you should notice more discussion about how you might employ Sage as part of your teaching. We will also continue to describe how to use Sage itself, including discussions about programming and building interacts.
-
-Notice the "participant choice" session for Wednesday afternoon, so start thinking about that.
-
-=== Session I ===
-
- * Welcome back (Rob, 10 min)
- * [[http://prep.sagenb.org/home/pub/8/|Single-Variable Calculus Worksheet, Calculus Tutorial]] (Karl-Dieter, 30 min)
- * Break (10 min)
- * Advanced plotting (Jason, 30 min) ([[http://prep.sagenb.org/home/pub/11/|Part 1]])
- * Break (10 min)
- * [[http://prep.sagenb.org/home/pub/16|Introductory Programming]] (Karl-Dieter, 30 min)
-   * Motivated by linear algebra 
-   * "dot" method notation
-   * Loops and behavior/use of "range"
-   * Set Notation, List Comprehension
-   * Regular "def" functions
-   * Copies vs Reference
-   * N, e, I, lambda_
-
-=== Session II - Classroom Demos ===
-
- * [[http://prep.sagenb.org/home/pub/25|Chaos and Calculus]] (Karl-Dieter, 10 min)
- * [[http://prep.sagenb.org/home/pub/13|Approximating Polynomials]] (Rob, 10 min)
- * [[http://prep.sagenb.org/home/pub/23|Linear Algebra]] (Jason, 10 min)
- * Break (10 min)
- * Numerical Analysis (Jason, 20 min) ([[http://prep.sagenb.org/home/pub/19|Roots]],[[http://prep.sagenb.org/home/pub/26|Lab]],[[http://prep.sagenb.org/home/pub/20|Splines]],[[http://prep.sagenb.org/home/pub/18|Polynomials]],[[http://prep.sagenb.org/home/pub/21|Iterative]],[[http://prep.sagenb.org/home/pub/22|LAPACK]])
- * Multivariate Demos (Rob, Jason, 30 min) ([[http://prep.sagenb.org/home/rob/15/|Rob's Class Demos]],[[http://prep.sagenb.org/home/pub/28|Optimization]],[[http://prep.sagenb.org/home/pub/27|Functions]],[[http://prep.sagenb.org/home/pub/29|More Functions]],[[http://prep.sagenb.org/home/pub/30|Line Integrals]])
- * Dropped: Discussion of classoom use
- * Office Hours?
- * Participant choice" decision for Wednesday.
- * Bonus: Advanced Plotting, [[http://prep.sagenb.org/home/pub/12/|Part 2]]
 
 == Wednesday, June 9 ==
 
@@ -172,3 +138,37 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://ma4140.wikidot.com/|Dana Ernst's Algebraic Structures Course]]
   * [[http://www.cython.org/|Sage's Python to C translator]]
   * [[http://www.sagemath.org/download-livecd.html|A Sage Live CD (there are others?)]]
+
+== Archived: Tuesday, June 8 ==
+
+For these next two days you should notice more discussion about how you might employ Sage as part of your teaching. We will also continue to describe how to use Sage itself, including discussions about programming and building interacts.
+
+Notice the "participant choice" session for Wednesday afternoon, so start thinking about that.
+
+=== Session I ===
+
+ * Welcome back (Rob, 10 min)
+ * [[http://prep.sagenb.org/home/pub/8/|Single-Variable Calculus Worksheet, Calculus Tutorial]] (Karl-Dieter, 30 min)
+ * Break (10 min)
+ * Advanced plotting (Jason, 30 min) ([[http://prep.sagenb.org/home/pub/11/|Part 1]])
+ * Break (10 min)
+ * [[http://prep.sagenb.org/home/pub/16|Introductory Programming]] (Karl-Dieter, 30 min)
+   * Motivated by linear algebra 
+   * "dot" method notation
+   * Loops and behavior/use of "range"
+   * Set Notation, List Comprehension
+   * Regular "def" functions
+   * Copies vs Reference
+   * N, e, I, lambda_
+
+=== Session II - Classroom Demos ===
+
+ * [[http://prep.sagenb.org/home/pub/25|Chaos and Calculus]] (Karl-Dieter, 10 min)
+ * [[http://prep.sagenb.org/home/pub/13|Approximating Polynomials]] (Rob, 10 min)
+ * [[http://prep.sagenb.org/home/pub/23|Linear Algebra]] (Jason, 10 min)
+ * Break (10 min)
+ * Numerical Analysis (Jason, 20 min) ([[http://prep.sagenb.org/home/pub/19|Roots]],[[http://prep.sagenb.org/home/pub/26|Lab]],[[http://prep.sagenb.org/home/pub/20|Splines]],[[http://prep.sagenb.org/home/pub/18|Polynomials]],[[http://prep.sagenb.org/home/pub/21|Iterative]],[[http://prep.sagenb.org/home/pub/22|LAPACK]])
+ * Multivariate Demos (Rob, Jason, 30 min) ([[http://prep.sagenb.org/home/rob/15/|Rob's Class Demos]],[[http://prep.sagenb.org/home/pub/28|Optimization]],[[http://prep.sagenb.org/home/pub/27|Functions]],[[http://prep.sagenb.org/home/pub/29|More Functions]],[[http://prep.sagenb.org/home/pub/30|Line Integrals]])
+ * Office Hours?
+ * "Participant choice" decision for Wednesday.
+ * Bonus: Advanced Plotting, [[http://prep.sagenb.org/home/pub/12/|Part 2]]
