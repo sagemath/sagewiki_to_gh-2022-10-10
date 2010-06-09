@@ -14,7 +14,9 @@ One clearly identifiable goal which could be achieved by extending the tables at
 
     2. William Stein, "Modular Forms, a Computational Approach", (2007), AMS.The least relevant chapters for us are 2, 4, 5 since we are concerned with forms of weight 2 and trivial character.  Available free online here: http://modular.math.washington.edu/books/modform/ .
 
-    3. J. E. Cremona, "The elliptic Curve Database for conductors up to 130,000", in "Algorithmic Number theory (ANTS-VII, Berlin 2006), pages 11-29.  A light read to set the scene and explain some of the background to this project.  Also available as a preprint at http://www.warwick.ac.uk/staff/J.E.Cremona/papers/ecdb_ants.pdf
+    3. J. E. Cremona, "The elliptic Curve Database for conductors up to 130,000", in ANTS-VII Proceedings (Berlin 2006), Springer LNCS 4076 (Hess, Pauli and Pohst, eds.), pages 11-29.  A light read to set the scene and explain some of the background to this project.  Also available as a preprint at http://www.warwick.ac.uk/staff/J.E.Cremona/papers/ecdb_ants.pdf
+
+    4. William A. Stein and Mark Watkins, "A database of elliptic curves -- first report", ANTS V Proceedings (Sydney 2002) Springer LNCS 2369 (Fieker and Kohel, eds.), pages 267 - 275.
 
 == Project 2 ==
 
@@ -52,6 +54,6 @@ David Harvey.
 
 Implement the method of Elkies and Watkins (reference below) to find elliptic curves with large numbers of integral points, with a view to finding curves with relatively large rank and small conductor, hoping to break some of the existing records.   This project is likely to suit someone with excellent computing skills (efficiency is the key), and requires less background knowledge than some of the others.   Reference 1 explains the method very clearly, and it should be possible to (re)implement it.    The work described in reference 2 was based on Mestre's "Methode des graphes" which is a way of finding all elliptic curves of given prime conductor.
 
-   1. N.D.Elkies and M.Watkins, "Elliptic curves of large rank and small conductor", ANTS VI Proceedings, Springer LNCS 3076 (2004), D. Buell (ed.), pages 42-56. 
+   1. N.D.Elkies and M.Watkins, "Elliptic curves of large rank and small conductor", ANTS VI Proceedings (Burlington 2004), Springer LNCS 3076, (Buell, ed.), pages 42-56. 
 
    2.  William Stein, Andrei Jorza, Jennifer Balakrishnan, "The Smallest Conductor for an Elliptic Curve of Rank Four is Composite", 2003: http://modular.fas.harvard.edu/papers/rank4/ .
