@@ -45,23 +45,23 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session II -  ===
 
- * Group discussion on designing classroom use (Karl-Dieter, 30 min)
+ * Group discussion on designing classroom use (Karl-Dieter, 30 min) (went longer, which is good)
    * John Travis
    * Jason Schlieper
    * Dana Ernst
+ * Break (10 min)
  * [[http://prep.sagenb.org/home/jason.grout/56/|Quickstart, Interacts]] (Jason, 20 min)
    * How to make
    * Helpful resources
    * Control types
    * Layout
- * Break (10 min)
- * Participant choice
+ * Participant choice of various topics
    * [[http://prep.sagenb.org/home/pub/39|Experimental Mathematics]]
    * Fourier Analysis (search "fft") [[http://sagenb.org/home/pub/1193/|Sagenb.org published]]
    * Combo box, per system
    * WeBWork discussion
    * `GeoGebra` discussion (Mike May?)
- * Advanced Programming (Rob and Jason, 30 min)
+ * Advanced Programming (Rob and Jason, postponed)
    * [[http://prep.sagenb.org/home/pub/42|Experimental Mathematics]]
    * [[http://prep.sagenb.org/home/pub/43|Less Introductory Programming]]
 
