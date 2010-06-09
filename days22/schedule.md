@@ -32,8 +32,9 @@ Thursday, June 24:
   * Working sessions
 
 Friday, June 25:
-  * William Stein (Univ. of Washington): Sage
-  * Peter Norvig (Google): TBA
+  * William Stein (Univ. of Washington): Sage -- Unifying Free Mathematical Software to Create a Viable Alternative to Magma, Maple, Mathematica and MATLAB
+  * Peter Norvig (Google): What to demand from a Scientific Computing Language -- Even if you
+don't care about computing or languages
   * Fernando Perez (Berkeley): TBA
   * Prabhu Ramachandran (IITS, India): TBA
   * Robert Bradshaw (Google): The Cython Compiler
