@@ -40,7 +40,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
   * [[http://prep.sagenb.org/home/pub/36|Linear Algebra]] (Rob)
   * Numerical Analysis (Jason)
   * [[http://prep.sagenb.org/home/pub/34|Statistics / distributions]] (Karl-Dieter)
-  * Multivariable Calculus (Rob)
+  * [[http://prep.sagenb.org/home/pub/37|Multivariable Calculus]] (Rob)
 
 
 === Session II -  ===
