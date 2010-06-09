@@ -44,7 +44,8 @@
         * [[http://www.ibm.com/developerworks/views/opensource/libraryview.jsp?search_by=Discover+Python+Part|Discover Python]] is a series of articles published in [[http://www.ibm.com/developerworks/|IBM's developerWorks]] technical resource center.
 
     '''Mercurial'''
-        * [[http://hginit.com|Hg Init: a Mercurial Tutorial]]. In this user-friendly, six-part tutorial, Joel Spolsky teaches you the key concepts of Mercurial. 
+        * [[http://hginit.com|Hg Init: a Mercurial Tutorial]]. In this user-friendly, six-part tutorial, Joel Spolsky teaches you the key concepts of Mercurial.
+        * [[http://mercurial.selenic.com/wiki/MqTutorial|Mq Tutorial]]. A tutorial on Mercurial queues.
 
 === Coding Sprints ===
 
