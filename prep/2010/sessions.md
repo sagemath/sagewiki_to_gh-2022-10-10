@@ -172,3 +172,13 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * Office Hours?
  * "Participant choice" decision for Wednesday.
  * Bonus: Advanced Plotting, [[http://prep.sagenb.org/home/pub/12/|Part 2]]
+
+=== Session Links ===
+
+  * [[http://docs.python.org/library/functions.html|Python Functions (Documentation)]]
+  * [[http://wiki.sagemath.org/devel/LatexToWorksheet|tex2sws Project ]]
+  * [[http://bitbucket.org/shabbychef/numas_text/|Numerical Analysis, Text, Stephen Pav]]
+  * [[http://www.mathworks.com/moler/index.html|Numerical Analysis, Text, Cleve Moler]]
+  * [[http://www.math.usm.edu/perry/mat305fa09/|Numerical Analysis, Course, John Perry ]]
+  * [[http://wiki.wstein.org/2008/480a|Numerical Analysis, Course, William stein]]
+  * [[http://homepages.nyu.edu/~jmg336/html/mathematics.html|Numerical Analysis]]
