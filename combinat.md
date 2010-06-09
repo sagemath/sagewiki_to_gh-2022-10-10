@@ -98,3 +98,5 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * Browse the [[http://combinat.sagemath.org/doc/|Sage documentation with the Sage-combinat patches applied]]
 
  * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]] ([[http:/combinat/MiscServer|Usage instructions]])
+
+ * [[http:/combinat/HelpOnTheDoc|Some tips and tricks about the documentation system]]
