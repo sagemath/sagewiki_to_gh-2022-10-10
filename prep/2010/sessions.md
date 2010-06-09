@@ -49,7 +49,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
    * John Travis
    * Jason Schlieper
    * Dana Ernst
- * Interacts (Jason, 20 min)
+ * [[http://prep.sagenb.org/home/jason.grout/56/|Quickstart, Interacts]] (Jason, 20 min)
    * How to make
    * Helpful resources
    * Control types
@@ -62,13 +62,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
    * WeBWork discussion
    * `GeoGebra` discussion (Mike May?)
  * Advanced Programming (Rob and Jason, 30 min)
-   * [[http://prep.sagenb.org/home/pub/40|Coset maker, subgroup maker]]
-   * Pre-parser
-   * More ranges, [1:3] notation, etc.
-   * Integers 
-   * lambda function
-   * fast_callable
-   * Cython
+   * [[http://prep.sagenb.org/home/pub/42|Experimental Mathematics]]
+   * [[http://prep.sagenb.org/home/pub/43|Less Introductory Programming]]
 
 
 
