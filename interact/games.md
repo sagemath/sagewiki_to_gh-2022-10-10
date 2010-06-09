@@ -3,6 +3,65 @@ goto [[interact|interact main page]]
 
 
 <<TableOfContents>>
+
+== Zeros ==
+
+Have you ever wished you could count the number of zero digits in a long number like Rainman?
+
+by William Stein and Sequoia Lefthand
+
+{{attachment:zeros.png}}
+
+{{{
+import random
+
+def init():
+    global B,Br,n,round,tm,t,v
+    B = 40
+    Br = 15
+    n = 1
+    round = 0
+    tm = 0
+    t = walltime()
+    
+    
+init()    
+
+print "<html><h1 align=center>Zeros</h1></html>"
+print "<html><h2 align=center><font color='blue'>How many zeros?</font></h2></html>"
+    
+@interact
+def zeros(a=("",selector(buttons=True, nrows=1, values=['Reset'] + [1..B], default=1))):
+    if a == 'Reset': 
+        init()
+    print "<html><center>"    
+    global B,Br,n,round,tm,t,v
+    if a == n:
+        if round > 0:
+           print "<font size=+3 color='red'>RIGHT</font>"
+        r = walltime() - t
+        tm += r
+        round += 1
+        t = walltime()
+        while True:
+           n2 = random.randrange(1,Br)
+           if n2 != n:
+               n = n2
+               break
+        if Br < B:
+            Br += 2
+    elif round > 0:
+        print "<font size=+2 color='blue'>Wrong. Try again...</font>"
+    print "</center>"
+    print "<font size=+%s color='#333'>"%random.randrange(-2,5)
+    print  ' '*random.randrange(20) + '0'*n
+    print "</font>"
+    if round > 0:
+        print "<br><br><center>Score: %s rounds, Average time: %.1f seconds</center>"%(
+                 round, float(tm)/round)
+    print "</html>"
+}}}
+
 == Queens on board ==
 An interaction to play with the problem of placing eight queens on a board so that they do not threaten each other. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3.
 by Pablo Angulo
