@@ -37,7 +37,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
   * [[http://prep.sagenb.org/home/pub/35|Number Theory / Crypto]] (Karl-Dieter)
   * [[http://prep.sagenb.org/home/pub/14|Abstract Algebra]] (Rob)
   * Break
-  * Linear Algebra (Rob)
+  * [[http://prep.sagenb.org/home/pub/36|Linear Algebra]] (Rob)
   * Numerical Analysis (Jason)
   * [[http://prep.sagenb.org/home/pub/34|Statistics / distributions]] (Karl-Dieter)
   * Multivariable Calculus (Rob)
