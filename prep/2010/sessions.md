@@ -38,7 +38,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
   * [[http://prep.sagenb.org/home/pub/14|Abstract Algebra]] (Rob)
   * Break
   * [[http://prep.sagenb.org/home/pub/36|Linear Algebra]] (Rob)
-  * [[http://prep.sagenb.org/home/pub/38|Numerical Analysis]] (Jason)
+  * Numerical Analysis (Jason)
   * [[http://prep.sagenb.org/home/pub/34|Statistics / distributions]] (Karl-Dieter)
   * [[http://prep.sagenb.org/home/pub/37|Multivariable Calculus]] (Rob)
 
@@ -53,6 +53,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
    * Layout
  * Break (10 min)
  * Participant choice
+   * [[http://prep.sagenb.org/home/pub/39|Experimental Mathematics]]
+   * Fourier Analysis (search "fft") [[http://sagenb.org/home/pub/1193/|Sagenb.org published]]
  * Advanced Programming (Rob and Jason, 30 min)
    * Coset maker, subgroup maker
    * Pre-parser
