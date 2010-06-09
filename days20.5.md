@@ -45,6 +45,7 @@
 
     '''Mercurial'''
         * [[http://hginit.com|Hg Init: a Mercurial Tutorial]]. In this user-friendly, six-part tutorial, Joel Spolsky teaches you the key concepts of Mercurial.
+        * [[http://mercurial.selenic.com/guide|Learning Mercurial in Workflows]]. This page illustrates the use of Mercurial in various workflows.
         * [[http://mercurial.selenic.com/wiki/MqTutorial|Mq Tutorial]]. A tutorial on Mercurial queues.
 
 === Coding Sprints ===
