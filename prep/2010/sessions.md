@@ -34,7 +34,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
  * Topical Lightning Round (Questions between each topic, each topic < 10 min)
   * Differential Equations (Karl-Dieter)
   * [[http://prep.sagenb.org/home/pub/15|Graph Theory / Discrete]] (Rob)
-  * Number Theory / Crypto (Karl-Dieter)
+  * [[http://prep.sagenb.org/home/pub/35|Number Theory / Crypto]] (Karl-Dieter)
   * [[http://prep.sagenb.org/home/pub/14|Abstract Algebra]] (Rob)
   * Break
   * Linear Algebra (Rob)
