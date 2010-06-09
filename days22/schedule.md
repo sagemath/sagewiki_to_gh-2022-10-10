@@ -21,7 +21,6 @@ Tuesday, June 22:
 Wednesday, June 23:
   * Stein: Project status reports
   * Cremona: TBA
-  * Ribet: Colloquium (TBA)
   * Stein: Computing Heegner points in Sage
   * Working sessions
 
@@ -64,7 +63,7 @@ Wednesday, June 30:
   * Stein: Project status reports
   * Wuthrich: TBA
   * Dokchitser: TBA
-  * Greenberg: TBA
+  * Ribet: Colloquium (TBA)
   * Working sessions
 
 Thursday, July 1:
