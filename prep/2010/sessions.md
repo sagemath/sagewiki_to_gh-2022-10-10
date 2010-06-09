@@ -57,7 +57,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
    * Fourier Analysis (search "fft") [[http://sagenb.org/home/pub/1193/|Sagenb.org published]]
    * Combo box, per system
    * WeBWork discussion
-   * GeoGebra discussion (Mike May?)
+   * `GeoGebra` discussion (Mike May?)
  * Advanced Programming (Rob and Jason, 30 min)
    * [[http://prep.sagenb.org/home/pub/40|Coset maker, subgroup maker]]
    * Pre-parser
