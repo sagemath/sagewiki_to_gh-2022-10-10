@@ -39,7 +39,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
   * Break
   * Linear Algebra (Rob)
   * Numerical Analysis (Jason)
-  * Statistics / distributions (Karl-Dieter)
+  * [[http://prep.sagenb.org/home/pub/34|Statistics / distributions]] (Karl-Dieter)
   * Multivariable Calculus (Rob)
 
 
