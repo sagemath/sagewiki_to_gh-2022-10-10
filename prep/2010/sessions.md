@@ -46,6 +46,9 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 === Session II -  ===
 
  * Group discussion on designing classroom use (Karl-Dieter, 30 min)
+   * John Travis
+   * Jason Schlieper
+   * Dana Ernst
  * Interacts (Jason, 20 min)
    * How to make
    * Helpful resources
