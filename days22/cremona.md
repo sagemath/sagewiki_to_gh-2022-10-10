@@ -4,7 +4,9 @@
 
 == Project 1 ==
 
-Tabulating modular elliptic curves over '''Q''' (based on  Chapter II of my book (see below).  The project would be to extend the existing tables from the current conductor limit of 130,000 to something larger, using my C++ code (distributed with Sage) and Sage itself, and some combination of the two.
+Tabulating modular elliptic curves over '''Q''' (based on  Chapter II of my book (see below).  The project would be to extend the existing tables from the current conductor limit of $130000$ to something larger, using my C++ code (distributed with Sage) and Sage itself, and some combination of the two.  
+
+One clearly identifiable goal which could be achieved by extending the tables at least as far as $N=234446$ is to verify that the smallest conductor of any curve of rank $4$ is $N=234446$ (which is the smallest known), or find such a curve with smaller conductor in the range $130000<N<234446$.  It is known that there are no such curves of prime conductor (see reference below under Project 4, which pursues this line).  Note that my C++ program has been run with no problem for $N=234446$ itself, and presumably would also work fine for any individual $N$ in this range, but as there are over $100000$ such $N$ this will take a long time, and also require a significant data-prcessing effort to keep track of the computations.
 
 === Suggested preliminary reading ===
 
@@ -44,3 +46,12 @@ choice that makes the computation doable.
 
 Sage can efficiently compute these $p$-adic regulators, due to work of
 David Harvey.
+
+
+== Project 4 ==
+
+Implement the method of Elkies and Watkins (reference below) to find elliptic curves with large numbers of integral points, with a view to finding curves with relatively large rank and small conductor, hoping to break some of the existing records.   This project is likely to suit someone with excellent computing skills (efficiency is the key), and requires less background knowledge than some of the others.   Reference 1 explains the method very clearly, and it should be possible to (re)implement it.    The work described in reference 2 was based on Mestre's "Methode des graphes" which is a way of finding all elliptic curves of given prime conductor.
+
+   1. N.D.Elkies and M.Watkins, "Elliptic curves of large rank and small conductor", ANTS VI Proceedings, Springer LNCS 3076 (2004), D. Buell (ed.), pages 42-56. 
+
+   2.  William Stein, Andrei Jorza, Jennifer Balakrishnan, "The Smallest Conductor for an Elliptic Curve of Rank Four is Composite", 2003: http://modular.fas.harvard.edu/papers/rank4/ .
