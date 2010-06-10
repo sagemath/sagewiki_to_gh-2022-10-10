@@ -49,4 +49,4 @@
   * William Stein
   * Gert-Martin Greuel
   * Gabriel Pannwitz
-  * Simon King (tentative)
+  * Simon King
