@@ -12,6 +12,7 @@ Feel free to add your name to the list if you plan to come. You can add a questi
  * Burcin Erocal (RISC)
  * Ralf Hemmecke (RISC)
  * Fredrik Johansson
+ * Simon King (NUI Galway)
  * Karen Kohl (Tulane)
  * Robert Miller (UW)
  * Ionela Moale (JKU)
