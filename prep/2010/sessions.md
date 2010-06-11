@@ -197,7 +197,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
   * [[http://www.imathas.com|IMathAS (like WebAssign?)]]
   * [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html#sagenb.notebook.interact.interact|Interact documentation]]
   * [[http://www.turningtechnologies.com/|TurningPoint (clickers?)]]
-  * [[http://mlearning.edublogs.org/2009/04/22/coming-back/|Votapedia (cell phones as clickers)]]
+  * [[http://www.urvoting.com/|Votapedia (cell phones as clickers)]], [[http://mlearning.edublogs.org/2009/04/22/coming-back/|Blog post]]
   * [[http://orion.math.iastate.edu/grout/_media/conferences/mathfest-2005/graph-database-questions.pdf?id=conferences&cache=cache|Jason Grout's Graph Database]]
   * [[http://www.octave.org|Octave (open source Matlab)]]
   * [[http://www.geogebra.org/cms/|Geogebra]]
