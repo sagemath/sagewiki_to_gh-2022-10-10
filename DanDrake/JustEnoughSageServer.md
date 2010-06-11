@@ -190,3 +190,7 @@ if [[ `whoami` = sage* ]]; then
    ulimit -v 1500000 -u 300 -n 128 -t 1800
 fi
 }}}
+
+== Additional Notes ==
+
+ * Enable acl permissions by editing fstab and adding the "acl" option behind the ext4 option (make sure your filesystem allows acls, of course).  Then you can better protect files from being seen by sage worksheet processes.
