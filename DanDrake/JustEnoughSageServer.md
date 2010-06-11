@@ -194,3 +194,4 @@ fi
 == Additional Notes ==
 
  * Enable acl permissions by editing fstab and adding the "acl" option behind the ext4 option (make sure your filesystem allows acls, of course).  Then you can better protect files from being seen by sage worksheet processes.
+ * [[https://help.ubuntu.com/10.04/serverguide/C/automatic-updates.html]] also has some helpful tips.
