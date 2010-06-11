@@ -8,11 +8,9 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 == Current Homework ==
   
-  * For Wednesday, June 8
+  * For Monday, August 9
 
-  * Think meaningfully about about how you might use Sage in your clasees.
-
-  * Review Wednesday's lightning talks in your areas of interest.
+  * TBA
 
 == Office Hours ==
 
@@ -25,43 +23,6 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
 || Thu, 3 Jun || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
 
 And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
-
-
-== Wednesday, June 9 ==
-
-=== Session I - Quickstarts ===
-
- * Topical Lightning Round (Questions between each topic, each topic < 10 min)
-  * [[http://prep.sagenb.org/home/pub/41|Differential Equations]] (Karl-Dieter)
-  * [[http://prep.sagenb.org/home/pub/15|Graph Theory / Discrete]] (Rob)
-  * [[http://prep.sagenb.org/home/pub/35|Number Theory / Crypto]] (Karl-Dieter)
-  * [[http://prep.sagenb.org/home/pub/14|Abstract Algebra]] (Rob)
-  * Break
-  * [[http://prep.sagenb.org/home/pub/36|Linear Algebra]] (Rob)
-  * [[http://prep.sagenb.org/home/pub/38|Numerical Analysis]] (Jason)
-  * [[http://prep.sagenb.org/home/pub/34|Statistics / distributions]] (Karl-Dieter)
-  * [[http://prep.sagenb.org/home/pub/37|Multivariable Calculus]] (Rob)
-
-
-=== Session II -  ===
-
- * Group discussion on designing classroom use (Karl-Dieter, 30 min) (went longer, which is good)
-   * [[prep/2010/Classroom|Topics and Notes on the Discussion]]
- * Break (10 min)
- * [[http://prep.sagenb.org/home/jason.grout/56/|Quickstart, Interacts]] (Jason, 20 min)
-   * How to make
-   * Helpful resources
-   * Control types
-   * Layout
- * Participant choice of various topics
-   * [[http://prep.sagenb.org/home/pub/39|Experimental Mathematics]]
-   * Fourier Analysis (search "fft") [[http://sagenb.org/home/pub/1193/|Sagenb.org published]]
-   * Combo box, per system
-   * WeBWork discussion
-   * `GeoGebra` discussion (Mike May?)
- * Advanced Programming (Rob and Jason, postponed)
-   * [[http://prep.sagenb.org/home/pub/42|Experimental Mathematics]]
-   * [[http://prep.sagenb.org/home/pub/43|Less Introductory Programming]]
 
 
 
@@ -183,3 +144,39 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
   * [[http://www.math.usm.edu/perry/mat305fa09/|Numerical Analysis, Course, John Perry ]]
   * [[http://wiki.wstein.org/2008/480a|Numerical Analysis, Course, William stein]]
   * [[http://homepages.nyu.edu/~jmg336/html/mathematics.html|Numerical Analysis]]
+
+== Archived: Wednesday, June 9 ==
+
+=== Session I - Quickstarts ===
+
+ * Topical Lightning Round (Questions between each topic, each topic < 10 min)
+  * [[http://prep.sagenb.org/home/pub/41|Differential Equations]] (Karl-Dieter)
+  * [[http://prep.sagenb.org/home/pub/15|Graph Theory / Discrete]] (Rob)
+  * [[http://prep.sagenb.org/home/pub/35|Number Theory / Crypto]] (Karl-Dieter)
+  * [[http://prep.sagenb.org/home/pub/14|Abstract Algebra]] (Rob)
+  * Break
+  * [[http://prep.sagenb.org/home/pub/36|Linear Algebra]] (Rob)
+  * [[http://prep.sagenb.org/home/pub/38|Numerical Analysis]] (Jason)
+  * [[http://prep.sagenb.org/home/pub/34|Statistics / distributions]] (Karl-Dieter)
+  * [[http://prep.sagenb.org/home/pub/37|Multivariable Calculus]] (Rob)
+
+
+=== Session II -  ===
+
+ * Group discussion on designing classroom use (Karl-Dieter, 30 min) (went longer, which is good)
+   * [[prep/2010/Classroom|Topics and Notes on the Discussion]]
+ * Break (10 min)
+ * [[http://prep.sagenb.org/home/jason.grout/56/|Quickstart, Interacts]] (Jason, 20 min)
+   * How to make
+   * Helpful resources
+   * Control types
+   * Layout
+ * Participant choice of various topics
+   * [[http://prep.sagenb.org/home/pub/39|Experimental Mathematics]]
+   * Fourier Analysis (search "fft") [[http://sagenb.org/home/pub/1193/|Sagenb.org published]]
+   * Combo box, per system
+   * WeBWork discussion
+   * `GeoGebra` discussion (Mike May?)
+ * Advanced Programming (Rob and Jason, POSTPONED)
+   * [[http://prep.sagenb.org/home/pub/42|Experimental Mathematics]]
+   * [[http://prep.sagenb.org/home/pub/43|Less Introductory Programming]]
