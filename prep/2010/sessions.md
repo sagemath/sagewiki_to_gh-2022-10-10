@@ -180,3 +180,25 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
  * Advanced Programming (Rob and Jason, POSTPONED)
    * [[http://prep.sagenb.org/home/pub/42|Experimental Mathematics]]
    * [[http://prep.sagenb.org/home/pub/43|Less Introductory Programming]]
+
+=== Session Links ===
+
+  * [[http://docs.scipy.org/doc/scipy/reference/tutorial/integrate.html|SciPy integration]]
+  * [[http://www.sagenb.org/home/pub/1298/|Predator-Prey on sagenb.org]]
+  * [[http://sagemath.org/doc/reference/sage/graphs/graph_generators.html|Graph Generators documentation]]
+  * [[http://wiki.sagemath.org/quickref?action=AttachFile&do=view&target=quickref-linalg.pdf|Linear Algebra QuickRef]]
+  * [[http://ma4140.wikidot.com/sage:sage-lab-4|Dana Ernst's Sage Lab]]
+    * [[http://www.sagenb.org/home/pub/2130/|Student Work on Dana's Lab 1 (?)]]
+    * [[http://www.sagenb.org/home/pub/1847/|Student Work on Dana's Lab 2 (?)]]
+    * [[http://www.sagenb.org/home/pub/2131/|Student Work on Dana's Calculus (?)]]
+  * [[http://buzzard.ups.edu/courses/2009fall/m433-sage-exercises.pdf|Rob Beezer's Group Theory Exercises]]
+  * [[http://groups.google.com/group/sage-edu|Sage EDU Google group]]
+  * [[http://www.webassign.net/|WebAssign]]
+  * [[http://www.imathas.com|IMathAS (like WebAssign?)]]
+  * [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html#sagenb.notebook.interact.interact|Interact documentation]]
+  * [[http://www.turningtechnologies.com/|TurningPoint (clickers?)]]
+  * [[http://mlearning.edublogs.org/2009/04/22/coming-back/|Votapedia (cell phones as clickers)]]
+  * [[http://orion.math.iastate.edu/grout/_media/conferences/mathfest-2005/graph-database-questions.pdf?id=conferences&cache=cache|Jason Grout's Graph Database]]
+  * [[http://www.octave.org|Octave (open source Matlab)]]
+  * [[http://www.geogebra.org/cms/|Geogebra]]
+  * [[http://wwrk.maa.org/wiki/Main_Page|WebWork]]
