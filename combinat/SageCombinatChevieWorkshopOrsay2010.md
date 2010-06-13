@@ -25,7 +25,7 @@ Orsay, bâtiment 425, and is open to anybody wanting to learn about
  * 2pm-5pm, tutorial
 
 Here are the different slides and worksheet:
- * [[attachment:2010-04-14-Orsay.pdf]]
+ * [[attachment:2010-06-14-Orsay.pdf]]
  * [[attachment:SageChevieDays-Tutorial.sws]]
  * [[attachment:SageChevieDays-Exercises.sws]]
  * [[attachment:SageChevieDays-BasicDataTypes.sws]]
