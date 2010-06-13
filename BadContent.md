@@ -4566,6 +4566,7 @@ kaminscout24\.de
 poker-rooms-review\.org
 all-auto\.ro
 517dv\.com
+casino.?spielen\.biz
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
 ## MoinMoin 1.6 has TextCHAs for spam prevention and they are currently very effective (no
