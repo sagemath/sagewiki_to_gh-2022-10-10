@@ -24,6 +24,14 @@ Orsay, bâtiment 425, and is open to anybody wanting to learn about
  * 1pm-2pm, lunch
  * 2pm-5pm, tutorial
 
+Here are the different slides and worksheet:
+ * [[attachment:2010-04-14-Orsay.pdf]]
+ * [[attachment:SageChevieDays-Tutorial.sws]]
+ * [[attachment:SageChevieDays-Exercises.sws]]
+ * [[attachment:SageChevieDays-BasicDataTypes.sws]]
+ * [[attachment:SageChevieDays-LoopsAndFunctions.sws]]
+ * [[attachment:SageChevieDays-AlgebraicObjects.sws]]
+
 After that, the workshop participants will move together to Cernay by
 RER + bus, and stay there until Friday evening or Saturday morning.
 
