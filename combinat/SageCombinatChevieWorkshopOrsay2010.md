@@ -58,7 +58,7 @@ We will do some car shuttles from Saint Rémi. Please contact us in
 advance to synchronize. NicolasThiery' phone: 06 77 90 32 79,
 NicolasBorie's phone: 06 89 29 78 44
 
-== Tentative lists of participants ==
+== List of participants ==
 
  * NicolasBorie, graduate student, Orsay
  * TomDenton, graduate student, UC Davis
