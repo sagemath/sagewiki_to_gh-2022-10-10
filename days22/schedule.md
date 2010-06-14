@@ -64,6 +64,7 @@ Wednesday, June 30:
   * Wuthrich: TBA
   * Dokchitser: TBA
   * Ribet: Colloquium (TBA)
+  * Lloyd Killford (2pm)
   * Working sessions
 
 Thursday, July 1:
