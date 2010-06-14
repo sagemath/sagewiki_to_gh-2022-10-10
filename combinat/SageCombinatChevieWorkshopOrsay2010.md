@@ -30,6 +30,7 @@ Here are the different slides and worksheet:
  * [[attachment:SageChevieDays-Exercises.sws]]
  * [[attachment:SageChevieDays-BasicDataTypes.sws]]
  * [[attachment:SageChevieDays-LoopsAndFunctions.sws]]
+ * [[attachment:SageChevieDays-ObjectsAndClasses.sws]]
  * [[attachment:SageChevieDays-AlgebraicObjects.sws]]
 
 After that, the workshop participants will move together to Cernay by
