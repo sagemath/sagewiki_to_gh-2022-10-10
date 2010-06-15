@@ -29,6 +29,3 @@ If you are working on '''any''' doctests please open a trac ticket and link it h
  * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9223 | 9223]]: databases/cremona.py
 
 == Bugs with new tickets found as a result of writing doctests ==
- * http://trac.sagemath.org/sage_trac/ticket/5754: inject_vars and docstrings
- * http://trac.sagemath.org/sage_trac/ticket/5758: "hello" bug
- * http://trac.sagemath.org/sage_trac/ticket/5759: "divides" bug
