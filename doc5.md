@@ -29,3 +29,5 @@ If you are working on '''any''' doctests please open a trac ticket and link it h
  * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9223 | 9223]]: databases/cremona.py
 
 == Bugs with new tickets found as a result of writing doctests ==
+
+ * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8807 | 8807]]: Applying functors to morphisms.
