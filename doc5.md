@@ -15,8 +15,8 @@ See also Minh's page listing the modules in most need of attention: http://sage.
 If you are working on '''any''' doctests please open a trac ticket and link it here so that we avoid duplicated work.
 
  * interfaces/mwrank.py (John Cremona)
- * [[http://trac.sagemath.org/sage_trac/ticket/9242 | 9242]]: rings/ideal_monoid.py
 
+ * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9242 | 9242]]: rings/ideal_monoid.py
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8800 | 8800]]: categories/...
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9231 | 9231]]: interfaces/tachyon.py
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9234 | 9234]]: plot/plot3d/texture.py
