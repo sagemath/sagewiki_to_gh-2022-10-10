@@ -17,7 +17,7 @@ If you are working on '''any''' doctests please open a trac ticket and link it h
  * interfaces/mwrank.py (John Cremona)
 
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9242 | 9242]]: rings/ideal_monoid.py
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8800 | 8800]]: categories/...
+ * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8800 | 8800]]: categories/functor and categories/pushout, plus several bug fixes.
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9231 | 9231]]: interfaces/tachyon.py
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9234 | 9234]]: plot/plot3d/texture.py
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9235 | 9235]]: categories/homset.py
@@ -31,3 +31,5 @@ If you are working on '''any''' doctests please open a trac ticket and link it h
 == Bugs with new tickets found as a result of writing doctests ==
 
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8807 | 8807]]: Applying functors to morphisms.
+ * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8992 | 8992]]: Coercion of univariate quotient rings.
+ * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8993 | 8993]]: Univariate quotient rings in the Singular interface.
