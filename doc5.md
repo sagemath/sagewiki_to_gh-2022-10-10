@@ -30,6 +30,6 @@ If you are working on '''any''' doctests please open a trac ticket and link it h
 
 == Bugs with new tickets found as a result of writing doctests ==
 
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8807 | 8807]]: Applying functors to morphisms.
+ * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8807 | 8807]]: Applying functors to morphisms. This is a dependency for [[http://trac.sagemath.org/sage_trac/ticket/8800 | 8800]]
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8992 | 8992]]: Coercion of univariate quotient rings.
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8993 | 8993]]: Univariate quotient rings in the Singular interface.
