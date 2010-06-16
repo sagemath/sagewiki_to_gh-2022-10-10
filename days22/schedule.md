@@ -8,13 +8,13 @@ Monday, June 21:
   * Director, then Stein: Introduction and orientation
   * Cremona: TBA
   * Weinstein: TBA
-  * Greenberg: TBA
+  * Greenberg: Galois representations from elliptic curves and modular forms
   * Working sessions
 
 Tuesday, June 22:
   * Stein: Project status reports
   * Cremona: TBA
-  * Greenberg: TBA
+  * Greenberg: Arithmetic of p-adic and mod p representations
   * Wuthrich: TBA
   * Working sessions
 
