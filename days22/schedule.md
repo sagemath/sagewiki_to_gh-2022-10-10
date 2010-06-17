@@ -13,7 +13,7 @@ Monday, June 21:
 
 Tuesday, June 22:
   * Stein: Project status reports
-  * Cremona: TBA
+  * Cremona: Tables of Elliptic Curves
   * Greenberg: Arithmetic of p-adic and mod p representations
   * Wuthrich: TBA
   * Working sessions
