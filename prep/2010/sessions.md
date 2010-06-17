@@ -7,22 +7,33 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 
 == Current Homework ==
-  
-  * For Monday, August 9
 
-  * TBA
+These are still tentative, but will be settled within the next few days.  
+
+  * For Monday, July 26th
+    * Have one trial worksheet ready
+    * Ask an organizer to look at it with you (via Share on the server, or via Elluminate screensharing)
+
+  * For Monday, August 9
+    * Have two trial worksheets for the fall semester ready
+    * Share this with the rest of the workshop participants (voluntary)
 
 == Office Hours ==
 
 Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
 
+And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
+
+ * Between intensive sessions and final session
+||Date||Time (PDT)||Time (EDT)||Organizer||
+|| TBA || TBA || TBA || TBA ||
+
+ * Between introductory session and intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || Tue, 25 May || 8:30A-10:30A|| 11:30A-1:30P || Jason Grout ||
 || Thu, 27 May || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
 || Tue, 1 Jun  || 9:30A-11:30A|| 12:30P-2:30P || Rob Beezer  ||
 || Thu, 3 Jun || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
-
-And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
 
 
 
