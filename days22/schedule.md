@@ -6,7 +6,7 @@
 
 Monday, June 21:
   * Director, then Stein: Introduction and orientation
-  * Cremona: TBA
+  * Dokchitser: TBA
   * Weinstein: TBA
   * Greenberg: Galois representations from elliptic curves and modular forms
   * Working sessions
@@ -27,7 +27,7 @@ Wednesday, June 23:
 Thursday, June 24:
   * Stein: Project status reports
   * Cremona: TBA
-  * Dokchitser: TBA
+  * Cremona: TBA
   * Working sessions
 
 Friday, June 25:
