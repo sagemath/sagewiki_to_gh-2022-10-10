@@ -6,7 +6,6 @@ Group 1:
    Beyerstedt, Erin
    Deines, Alyson
    Haensch, Anna
-   Hajij, Mustafa
    Stankewicz, Jim
 
 Group 2:
@@ -28,6 +27,7 @@ Group 3:
    Cass, Jon
    Chen, Feng
    Daub, Michael
+   Hajij, Mustafa
    Keaton, Rodney
    Levin, Brandon
    Lichtensein, Sam
