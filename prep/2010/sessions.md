@@ -12,7 +12,7 @@ These are still tentative, but will be settled within the next few days.
 
   * For Monday, July 26th
     * Have one trial worksheet ready
-    * Ask an organizer to look at it with you (via Share on the server, or via Elluminate screensharing)
+    * Share it with a specified organizer on the server (you will be contacted)
 
   * For Monday, August 9
     * Have two trial worksheets for the fall semester ready
@@ -26,6 +26,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
  * Between intensive sessions and final session
 ||Date||Time (PDT)||Time (EDT)||Organizer||
+|| Wed, 23 Jun || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
+|| Wed, 30 Jun || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
 || TBA || TBA || TBA || TBA ||
 
  * Between introductory session and intensive sessions
