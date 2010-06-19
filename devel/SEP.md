@@ -22,3 +22,5 @@ A SEP is a '''S'''age '''E'''nhancement '''P'''roposal.
  * [[AutoToolsSEP|Using AutoTools]] - early discussion phase
 
  * [[UnifiedCommandLineSEP|Unified Command Line Interface]] - early discussion phase
+
+ * [[DesignTheorySEP|Design Theory]] - early discussion phase
