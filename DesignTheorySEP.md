@@ -1,14 +1,14 @@
 = Design Theory =
 A proposal for enhancing combinatorial configurations in sage.
-
-[[Original report propsal for MTU:masterspropsal.pdf]] 
+Original report propsal for MTU:
+[[attachment:masterspropsal.pdf]] 
+(Be warned! there are things in that proposal that I think are pointless (like the logic syntax))
 
 I would like to use this page to collect all the functionality that sage(actually, any CAS) is missing from the bowels of Design Theory that most researchers in the area have as old C code from the 90's.
 
-== Missing Classes/Attributes ==
+== Desirable Classes/Attributes ==
 
 Hypergraphs:
-
     *    Dual
     * Simple
     * Uniform
@@ -32,16 +32,12 @@ Hypergraphs:
     * coloured edge property
     * conformal
     * representative graph/line graph
-
 Frames(the IRGDD kind of Frames):
-
     * type
     * sub-frames
     *SOLS
- *SOLSOM
-
+    *SOLSOM
 GDDs:
-
     * resolvable
     * resolution classes
     * partial resolution classes (Frames)
@@ -50,6 +46,7 @@ GDDs:
     * sub-GDDs
     * incomplete
     * Weighting
+    * Functions finding blocks containing certain group profiles 
 
 Transversal Designs:
 
@@ -121,15 +118,14 @@ Block Designs:
     * Residual and Derived
     * Bruck-Ryser-Chowla
     * Triple Systems
-    *
 
 Tournaments:
 
 One Factorizations:
 
     * Starters
- *GA(2n)(general as well)
-* GK(2n)
+    * GA(2n)(general as well)
+    * GK(2n)
 
 Room Squares:
 
@@ -140,11 +136,9 @@ Room Squares:
 
 
 
+Biblo (for the above list):
 
-
-Biblo:
-
-Beth,Jungnickel, lenz - Design theory (v1 and 2, second ed)
+Beth, Jungnickel, Lenz - Design theory (v1;v2, 2nd ed)
 
 Wallis - Introduction to combinatorial designs
 
@@ -157,3 +151,5 @@ Tonchev - Combinatorial Configurations (English Version)
 Furino, Miao, Yin - Frames and Resolvable Designs
 
 Berge - Hypergraphs
+
+Colbourn, Dinitz - Handbook of Combinatorial Designs (2nd ed)
