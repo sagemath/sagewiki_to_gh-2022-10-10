@@ -22,7 +22,7 @@ Wednesday, June 23:
   * Stein: Project status reports
   * Cremona: Verifying optimality and Manin's conjecture
   * Stein: Computing Heegner points in Sage
-  * Working sessions
+  * 11:30am: Workshop Barbecue at Willows Picnic Site (right side of http://www.ebparks.org/files/Tilden_map_south.pdf)
 
 Thursday, June 24:
   * Stein: Project status reports
