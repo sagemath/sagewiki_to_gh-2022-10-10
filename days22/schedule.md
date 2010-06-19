@@ -20,22 +20,22 @@ Tuesday, June 22:
 
 Wednesday, June 23:
   * Stein: Project status reports
-  * Cremona: TBA
+  * Cremona: Verifying optimality and Manin's conjecture
   * Stein: Computing Heegner points in Sage
   * Working sessions
 
 Thursday, June 24:
   * Stein: Project status reports
-  * Cremona: TBA
-  * Cremona: TBA
+  * Cremona: Computing Isogenies
+  * Cremona: Finding all elliptic curves with good reduction outside a given set of primes
   * Working sessions
 
 Friday, June 25:
   * William Stein (Univ. of Washington): Sage -- Unifying Free Mathematical Software to Create a Viable Alternative to Magma, Maple, Mathematica and MATLAB
   * Peter Norvig (Google): What to demand from a Scientific Computing Language -- Even if you
 don't care about computing or languages
-  * Fernando Perez (Berkeley): TBA
-  * Prabhu Ramachandran (IITS, India): TBA
+  * Fernando Perez (Berkeley): Python: an ecosystem for scientific computing
+  * Prabhu Ramachandran (IITS, India): Python in Science and Engineering Education in India
   * Robert Bradshaw (Google): The Cython Compiler
 
 ----------------------------------------------------
