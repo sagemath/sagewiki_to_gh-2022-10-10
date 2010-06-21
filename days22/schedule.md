@@ -1,84 +1,130 @@
 = Sage Days 22: Schedule =
 
- This is a ``very tentative`` schedule.  It is subject to change.
+ This is the schedule.  It is unlikely to change.
 
-{{{
-
-Monday, June 21:
-  * Director, then Stein: Introduction and orientation
-  * Dokchitser: TBA
-  * Weinstein: TBA
-  * Greenberg: Galois representations from elliptic curves and modular forms
-  * Working sessions
-
-Tuesday, June 22:
-  * Stein: Project status reports
-  * Cremona: Tables of Elliptic Curves
-  * Greenberg: Arithmetic of p-adic and mod p representations
-  * Wuthrich: TBA
-  * Working sessions
-
-Wednesday, June 23:
-  * Stein: Project status reports
-  * Cremona: Verifying optimality and Manin's conjecture
-  * Stein: Computing Heegner points in Sage
-  * 11:30am: Workshop Barbecue at Willows Picnic Site (right side of http://www.ebparks.org/files/Tilden_map_south.pdf)
-
-Thursday, June 24:
-  * Stein: Project status reports
-  * Cremona: Computing Isogenies
-  * Cremona: Finding all elliptic curves with good reduction outside a given set of primes
-  * Working sessions
-
-Friday, June 25:
-  * William Stein (Univ. of Washington): Sage -- Unifying Free Mathematical Software to Create a Viable Alternative to Magma, Maple, Mathematica and MATLAB
-  * Peter Norvig (Google): What to demand from a Scientific Computing Language -- Even if you
-don't care about computing or languages
-  * Fernando Perez (Berkeley): Python: an ecosystem for scientific computing
-  * Prabhu Ramachandran (IITS, India): Python in Science and Engineering Education in India
-  * Robert Bradshaw (Google): The Cython Compiler
-
-----------------------------------------------------
-
- ** HAVE FUN DURING THE WEEKEND **
-   
-----------------------------------------------------
-
-Monday, June 28: 
-  * Stein: Project status reports
-  * Weinstein: TBA
-  * Greenberg: TBA
-  * Working sessions
-  * Cremona's students: presentations
-
-Tuesday, June 29: 
-  * Stein: Project status reports
-  * Wuthrich: TBA
-  * Weinstein: TBA
-  * Dokchitser: TBA
-  * Working sessions
-  
-
-Wednesday, June 30: 
-  * Stein: Project status reports
-  * Wuthrich: TBA
-  * Dokchitser: TBA
-  * Ribet: Colloquium (TBA)
-  * Lloyd Kilford (2pm)
-  * Working sessions
-
-Thursday, July 1:
-  * Stein: Project status reports
-  * Dokchitser: TBA
-  * Wuthrich: TBA
-  * Weinstein: TBA
-  * Working sessions
-
-Friday, July 2:
-  * Dokchitser's students: presentations
-  * Greenberg's students: presentations
-  * Stein/Weinstein's students: presentations
-  * Wuthrich's students: presentations
-  * Cremona students: project update
-
-}}}
+== Monday, June 21 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
+|| 9:00am -- 9:30am|| Arrive at MSRI and sign in||
+|| 9:30am -- 9:45am||  MSRI director: introduction and orientation||
+|| 9:45am -- 10:00am|| Stein: Introduction and orientation about this workshop||
+|| 10:00am -- 10:55am|| Dokchitser: talk 1||
+|| 11:00am -- 11:55am|| Weinstein: talk 1||
+|| 12:00pm -- 2:00pm|| Lunch||
+|| 2:00pm -- 2:50pm|| Greenberg: talk 1||
+|| 3:00pm -- 3:30pm|| Participant introductions||
+|| 3:30pm -- 4:00pm|| Tea||
+|| 4:00pm -- 6:10pm|| Working Sessions||
+|| 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
+|| 7:30pm -- 11:30pm|| Working session at the dorm and/or coffee shops||
+== Tuesday, June 22 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
+|| 9:00am -- 9:30am|| Stein: Project status reports||
+|| 9:30am -- 10:20am|| Cremona: talk 1 - Tables of Elliptic Curves||
+|| 10:30am -- 11:20am|| Greenberg: talk 2 - Arithmetic of p-adic and mod p representations||
+|| 11:30am -- 12:20pm|| Wuthrich: talk 1||
+|| 12:20pm -- 2:00pm|| Lunch at MSRI||
+|| 2:00pm -- 6:10pm|| Working sessions||
+|| 3:30pm -- 4:00pm|| Tea||
+|| 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
+|| 7:30pm -- 11:30pm|| Working session at the dorm and/or coffee shops||
+== Wednesday, June 23 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
+|| 9:30am -- 10:00am|| Stein: Project status reports||
+|| 10:00am -- 10:50am|| Cremona: talk 2 - Verifying optimality and Manin's conjecture||
+|| 11:00am -- 11:50am|| Stein: talk 1 - Computing Heegner points in Sage||
+|| 11:30am -- || Workshop Barbecue at Willows Picnic Site||
+|| 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
+|| 7:30pm -- 11:30pm|| Working session at the dorm and/or coffee shops||
+== Thursday, June 24 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
+|| 9:30am -- 10:00am|| Stein: Project status reports||
+|| 10:00am -- 10:50am|| Cremona: talk 3 - Computing Isogenies||
+|| 11:00am -- 11:50am|| Cremona: talk 4 - Finding all elliptic curves with good reduction outside a given set of primes||
+|| 12:00pm -- 2:00pm|| Lunch at MSRI||
+|| 2:00pm -- 6:10pm|| Working sessions||
+|| 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
+|| 7:30pm -- 11:30pm|| Working session at the dorm and/or coffee shops||
+== Friday, June 25 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
+|| 09:00am -- 09:10am|| Millman and Stein: Welcome||
+|| 09:10am -- 10:10am|| Norvig (Google): What to demand from a Scientific Computing Language||
+|| 10:10am -- 11:00am|| Perez (Berkeley) Python: an ecosystem for scientific computing||
+|| 11:00am -- 11:50am|| Bradshaw (Google): Cython: the best of both worlds||
+|| 12:00pm -- 2:00pm||  Lunch||
+|| 1:00pm -- 2:50pm|| Ramachandran (IIT Bombay): Python in science and engineering education in India||
+|| 2:50pm -- 3:40pm|| Stein (Univ of Washington):  Sage: creating an open source alternative to Ma*||
+|| 3:40pm -- 4:10pm||  Tea||
+|| 4:10pm -- 5:00pm||  Millman (Berkeley): The Foundation for mathematical and scientific computing||
+|| 5:00pm -- 6:10pm||  Discussion||
+|| 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
+|| 7:30pm -- 11:30pm|| Working session at the dorm and/or coffee shops||
+== Monday, June 28 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
+|| 9:30am -- 10:00am|| Stein: Project status reports||
+|| 10:00am -- 10:50am|| Weinstein: talk 2||
+|| 11:00am -- 11:50am|| Greenberg: talk 3||
+|| 12:00pm -- 2:00pm|| Lunch at MSRI||
+|| 2:00pm -- 4:00pm|| Working sessions||
+|| 4:00pm -- 5:00pm|| Cremona's students: presentations||
+|| 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
+|| 7:30pm -- 11:30pm|| Working session at the dorm and/or coffee shops||
+== Tuesday, June 29 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
+|| 9:00am -- 9:30am|| Stein: Project status reports||
+|| 9:30am -- 10:20am|| Wuthrich: talk 2||
+|| 10:30am -- 11:20am|| Weinstein: talk 3||
+|| 11:30am -- 12:20pm|| Dokchitser: talk 2||
+|| 12:20pm -- 2:00pm|| Lunch||
+|| 2:00pm -- 6:10pm|| Working sessions||
+|| 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
+|| 7:30pm -- 11:30pm|| Working session at the dorm and/or coffee shops||
+== Wednesday, June 30 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
+|| 9:00am -- 9:30am|| Stein: Project status reports||
+|| 9:30am -- 10:20am|| Wuthrich: talk 3||
+|| 10:30am -- 11:20am|| Dokchitser: talk 3||
+|| 11:30am -- 12:20pm|| Ribet: Colloquium on Galois Representations||
+|| 12:20pm -- 2:00pm|| Lunch at MSRI||
+|| 2:00pm -- 3:00pm|| Kilford: A Gentle Introduction to Overconvergent Modular Forms||
+|| 3:00pm -- 6:10pm|| Working sessions||
+|| 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
+|| 7:30pm -- 11:30pm|| Working session at the dorm and/or coffee shops||
+== Thursday, July 1 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
+|| 9:00am -- 9:30am|| Stein: Project status reports||
+|| 9:30am -- 10:20am|| Dokchitser: talk 4||
+|| 10:30am -- 11:20am|| Wuthrich: talk 4||
+|| 11:30am -- 12:20pm|| Weinstein: talk 4||
+|| 12:20pm -- 2:00pm|| Lunch at MSRI||
+|| 2:00pm -- 6:10pm|| Working sessions||
+|| 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
+|| 7:30pm -- 11:30pm|| Working session at the dorm and/or coffee shops||
+== Friday, July 2 ==
+|| 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
+|| 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
+|| 9:30am -- 10:20am|| Dokchitser's student presentations||
+|| 10:30am -- 11:50pm|| Greenberg's student presentations||
+|| 12:00pm -- 2:00pm|| Lunch at MSRI||
+|| 2:00pm -- 2:50pm|| Stein/Weinstein's student presentations||
+|| 3:00pm -- 3:50pm|| Wuthrich's student presentations||
+|| 4:00pm -- 4:30pm|| Cremona students (part 2)||
+|| 4:55pm, 5:25pm, 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
+|| 5:30pm -- 7:00pm|| Dinner at Foothill dining facility||
