@@ -4,7 +4,7 @@ This is the schedule.  It is unlikely to change.
 
 == Printable PDF Format ==
 
-   * attachment:schedule.pdf
+   * [[attachment:schedule.pdf]]
 
 == Monday, June 21 ==
 || 7:00am -- 8:00am|| Breakfast at Foothill dining facility||
