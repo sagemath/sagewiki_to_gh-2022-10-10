@@ -42,3 +42,8 @@ W. Stein,  Heegner Points on Rank Two Elliptic Curves.
 http://wstein.org/papers/kolyconj2/.
 
 W. Stein, Toward a generalization of Gross-Zagier.  http://wstein.org/papers/stein-ggz/
+
+== Projects ==
+A. Compute Kolyvagin classes mod p
+    People:
+B. 
