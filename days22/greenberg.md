@@ -2,6 +2,8 @@
 
 [[attachment:project.pdf|Project description (pdf)]]
 
+[[attachment:activitysheet.pdf|Activity sheet (pdf)]]
+
 Background reading:
 
 Silverman, "The arithmetic of elliptic curves", Chapters 3 and 7
