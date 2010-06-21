@@ -2,10 +2,10 @@
 
 == Description ==
 
-Artin and Tate have shown a large part of the conjecture of Birch and Swinnerton-Dyer in the function field case in the 60s.
+Artin and Tate proved a large part of the conjecture of Birch and Swinnerton-Dyer in the function field case in the 60s.
 Iwasawa theory for elliptic curves as initiated by Mazur tries to use similar tools to approach the $p$-adic version of the Birch and Swinnerton-Dyer conjecture.
 
-Let $E/\mathbb{Q}$ be an elliptic curve. The traditional conjecture by Birch and Swinnerton-Dyer states that there is a link between the arithmetic invariance, like the Mordell-Weil group $E(\mathbb{Q})$, and the analytically defined complex L-function.
+Let $E/\mathbb{Q}$ be an elliptic curve. The traditional conjecture by Birch and Swinnerton-Dyer states that there is a link between the arithmetic invariants of $E$, like the Mordell-Weil group $E(\mathbb{Q})$, and the analytically defined complex L-function.
 In the $p$-adic BSD, we work with an analytic function $L_p(E,s)$ taking values in the $p$-adic numbers.
 It is built on the values of the complex L-function and can be described explicitly using modular symbols.
 The $p$-adic conjecture says again that the order of vanishing of $L_p(E,s)$ at $s=1$ is equal to the rank of the Mordell-Weil group $E(\mathbb{Q})$. (Except in one special case, namely when the curve has split multiplicative reduction at $p$.)
