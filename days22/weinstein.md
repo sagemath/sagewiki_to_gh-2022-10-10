@@ -45,5 +45,6 @@ W. Stein, Toward a generalization of Gross-Zagier.  http://wstein.org/papers/ste
 
 == Projects ==
 A. Compute Kolyvagin classes mod p
-    People:
-B. 
+    People: Jen Balakrishnan, Justin Walker, Robert Miller, Rebecca Bellovin, Daniel Disegni, Ian Whitehead, Donggeon Yhee, Khoa, Robert Bradshaw, Dario
+B. Using A to compute Kolyvagin classes en masse (theoretical)
+    People = A + Chen
