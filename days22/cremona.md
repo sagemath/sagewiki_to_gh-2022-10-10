@@ -16,7 +16,7 @@ One clearly identifiable goal which could be achieved by extending the tables at
 
     3. J. E. Cremona, "The elliptic Curve Database for conductors up to 130,000", in ANTS-VII Proceedings (Berlin 2006), Springer LNCS 4076 (Hess, Pauli and Pohst, eds.), pages 11-29.  A light read to set the scene and explain some of the background to this project.  Also available as a preprint at http://www.warwick.ac.uk/staff/J.E.Cremona/papers/ecdb_ants.pdf
 
-    4. William A. Stein and Mark Watkins, "A database of elliptic curves -- first report", ANTS V Proceedings (Sydney 2002) Springer LNCS 2369 (Fieker and Kohel, eds.), pages 267 - 275.
+    4. William A. Stein and Mark Watkins, "A database of elliptic curves -- first report", ANTS V Proceedings (Sydney 2002) Springer LNCS 2369 (Fieker and Kohel, eds.), pages 267 - 275.  http://wstein.org/papers/stein-watkins/
 
 == Project 2 ==
 
