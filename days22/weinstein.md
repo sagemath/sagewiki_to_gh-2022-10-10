@@ -41,5 +41,4 @@ Progr. Math., vol. 87, Birkhauser Boston, Boston, MA, 1990, pp.
 W. Stein,  Heegner Points on Rank Two Elliptic Curves.
 http://wstein.org/papers/kolyconj2/.
 
-
-Stein: Heegner points on rank 2 curves.  http://wstein.org/papers/kolyconj2/
+W. Stein, Toward a generalization of Gross-Zagier.  http://wstein.org/papers/stein-ggz/
