@@ -18,6 +18,8 @@ One clearly identifiable goal which could be achieved by extending the tables at
 
     4. William A. Stein and Mark Watkins, "A database of elliptic curves -- first report", ANTS V Proceedings (Sydney 2002) Springer LNCS 2369 (Fieker and Kohel, eds.), pages 267 - 275.  http://wstein.org/papers/stein-watkins/
 
+People: Jeremy West, Robert Bradshaw, Robert Miller, Jamie Weingadt
+
 == Project 2 ==
 
 
@@ -41,6 +43,8 @@ One special case of this should be much easier, since I already have an implemen
 
     1. J. E. Cremona and M. P. Lingham, "Finding all elliptic curves with good reduction outside a given set of primes",  Experimental Mathematics 16 (2007) No.3, pages 303-312.  Preprint at http://www.warwick.ac.uk/staff/J.E.Cremona/papers/egros.pdf .   See also the references there.
 
+People: Aly Deines, Jackie Anderson, Jim S., Lunhao, Erin B., Anna H.
+
 == Project 3 ==
 
 (Project suggested by William Stein)
@@ -53,6 +57,7 @@ choice that makes the computation doable.
 Sage can efficiently compute these $p$-adic regulators, due to work of
 David Harvey.
 
+People: Robert Miller
 
 == Project 4 ==
 
@@ -61,3 +66,5 @@ Implement the method of Elkies and Watkins (reference below) to find elliptic cu
    1. N.D.Elkies and M.Watkins, "Elliptic curves of large rank and small conductor", ANTS VI Proceedings (Burlington 2004), Springer LNCS 3076, (Buell, ed.), pages 42-56. 
 
    2.  William Stein, Andrei Jorza, Jennifer Balakrishnan, "The Smallest Conductor for an Elliptic Curve of Rank Four is Composite", 2003: http://modular.fas.harvard.edu/papers/rank4/ .
+
+People: Elkies, Rado, Robert Bradshaw, Jeremy West, Jamie Weingadt
