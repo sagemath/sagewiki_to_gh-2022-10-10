@@ -25,3 +25,10 @@ Sage Reference Manual on elliptic curves: [[http://sagemath.org/doc/reference/pl
 == Computational projects ==
 
 There will be many small problems and larger assignments to play with, illustrating all the concepts and conjectures from the course.
+
+ * A. Root Numbers over K for elliptic curves (implement) 
+      People: Armin, Charlie, Hatice, Christ, Lola, Robert Miller, Thilina, M. Tip, Robert Bradshaw
+ * B. $#III(E/K)_{an}$ function (L-functions, connection to Wuthrich)
+      People: Berinder, M. Tip, Adam, Robert Miller, Robert Bradshaw, Chris Wuthrich
+ * C. Parity Predictions
+      People: Arijit, Anil, Adam
