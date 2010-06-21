@@ -43,6 +43,8 @@ One special case of this should be much easier, since I already have an implemen
 
 == Project 3 ==
 
+(Project suggested by William Stein)
+
 Make a table of $p$-adic regulators for elliptic curves over $\mathbb{Q}$ and
 $p\leq 100$ (say), for all of Cremona's tables.  These should be
 added to his tables.  Precision should just be some arbitrary
