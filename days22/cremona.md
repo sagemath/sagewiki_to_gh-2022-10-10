@@ -63,7 +63,7 @@ People: Robert Miller
 
 Implement the method of Elkies and Watkins (reference below) to find elliptic curves with large numbers of integral points, with a view to finding curves with relatively large rank and small conductor, hoping to break some of the existing records.   This project is likely to suit someone with excellent computing skills (efficiency is the key), and requires less background knowledge than some of the others.   Reference 1 explains the method very clearly, and it should be possible to (re)implement it.    The work described in reference 2 was based on Mestre's "Methode des graphes" which is a way of finding all elliptic curves of given prime conductor.
 
-   1. N.D.Elkies and M.Watkins, "Elliptic curves of large rank and small conductor", ANTS VI Proceedings (Burlington 2004), Springer LNCS 3076, (Buell, ed.), pages 42-56. 
+   1. N.D.Elkies and M.Watkins, "Elliptic curves of large rank and small conductor", ANTS VI Proceedings (Burlington 2004), Springer LNCS 3076, (Buell, ed.), pages 42-56. http://arxiv.org/abs/math/0403374
 
    2.  William Stein, Andrei Jorza, Jennifer Balakrishnan, "The Smallest Conductor for an Elliptic Curve of Rank Four is Composite", 2003: http://modular.fas.harvard.edu/papers/rank4/ .
 
