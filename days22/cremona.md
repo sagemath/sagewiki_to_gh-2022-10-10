@@ -43,7 +43,7 @@ One special case of this should be much easier, since I already have an implemen
 
     1. J. E. Cremona and M. P. Lingham, "Finding all elliptic curves with good reduction outside a given set of primes",  Experimental Mathematics 16 (2007) No.3, pages 303-312.  Preprint at http://www.warwick.ac.uk/staff/J.E.Cremona/papers/egros.pdf .   See also the references there.
 
-People: Aly Deines, Jackie Anderson, Jim S., Lunhao, Erin B., Anna H.
+People: Aly Deines, Jackie Anderson, Jim S., Lunhao, Erin B., Anna H., Xiao, Ding
 
 == Project 3 ==
 
