@@ -8,7 +8,7 @@ See [[http://drupal.mscomp.org/orcp2010|this page]] for more about the special F
 
 == Suggested Cafes ==
 
-  * [[http://www.peoplesjoint.com/|People's Coffee and Tea]] which is [[http://maps.google.com/mapsq=2015+Shattuck+Ave&ie=UTF8&hq=&hnear=2015+Shattuck+Ave,+Berkeley,+Alameda,+California+94704&gl=us&ei=3f0gTOmOH8K88ga7pbiSAQ&ved=0CBkQ8gEwAA&z=16|here]] and opened until '''midnight'''.  (Untested!)
+  * [[http://www.peoplesjoint.com/|People's Coffee and Tea]] which is [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=People's+Coffee+and+Tea,+berkeley&sll=37.871788,-122.259142&sspn=0.008639,0.016565&gl=us&ie=UTF8&hq=People's+Coffee+and+Tea,&hnear=Berkeley,+Alameda,+California&ll=37.87277,-122.267253&spn=0.008638,0.016565&z=16&iwloc=A|here]] and opened until '''midnight'''.  (Untested!)
 
   * [[http://www.yelp.com/biz/cafe-milano-berkeley/|Cafe Milano]] which is [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=cafe+milano,+2522+bancroft&sll=37.869128,-122.257673&sspn=0.004328,0.006405&gl=us&ie=UTF8&hq=cafe+milano,&hnear=2522+Bancroft+Way,+Berkeley,+Alameda,+California+94704&ll=37.871788,-122.259142&spn=0.008656,0.020986&z=16|here]] but is only opened until 10pm.   (Wifi tested by William Stein, and works.)
 
