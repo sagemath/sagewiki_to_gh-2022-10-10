@@ -49,6 +49,17 @@ The $p$-adic L-function of $E$ can be computed using modular symbols. And sage c
 
   * Sage Reference Manual on p-adic L-functions of elliptic curves: [[http://sagemath.org/doc/reference/sage/schemes/elliptic_curves/padic_lseries.html]].  See also nearby sections.
 
+== Lecture Notes ==
+
+=== Modular symbols and $p$-adic L-functions ===
+
+  * [[attachment:modular_symbols_and_padic_lfunctions.1.pdf]]
+  * [[attachment:modular_symbols_and_padic_lfunctions.2.pdf]]
+  * [[attachment:modular_symbols_and_padic_lfunctions.3.pdf]] 
+  * [[attachment:modular_symbols_and_padic_lfunctions.4.pdf]]
+  * [[attachment:modular_symbols_and_padic_lfunctions.5.pdf]]
+  * [[attachment:modular_symbols_and_padic_lfunctions.6.pdf]] 
+
 == Background reading ==
   
   * As for other lectures, Silverman's book "The arithmetic of elliptic curves" contains a good background for elliptic curve, especially chapter III. We will use some further results on elliptic curves over global fields, mainly in chapter VII and X, but by far not everything there is needed.
