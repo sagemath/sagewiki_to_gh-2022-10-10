@@ -49,7 +49,7 @@ W. Stein, Toward a generalization of Gross-Zagier.  http://wstein.org/papers/ste
 
 === Compute Kolyvagin classes mod p ===
 
- * Subproject: fix trac #9032: http://trac.sagemath.org/sage_trac/ticket/9302
+ * Subproject: fix trac #9302: http://trac.sagemath.org/sage_trac/ticket/9302
 
 === Using A to compute Kolyvagin classes en masse (theoretical) ===
 
