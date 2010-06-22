@@ -61,11 +61,21 @@ Root number classification
 w = $\prod_p w_p \prod_{v\div \infty} (-1)$
 
 Additive reduction
-$w_p for p$ not dividing $2,3$ has been done by Rohrlich (somewhat hard to read) see Theorems 2 and 3 which are self-contained
+$w_p for p$ not dividing $2,3$ has been done by Rohrlich [1] (somewhat hard to read) see Theorems 2 and 3 which are self-contained
 
-for $p \mid 3$ this has been done Kobayashi
+for $p \mid 3$ this has been done Kobayashi [2]
 
-for $p \mid 2$ T & V Dokchitser the formulae are really hard - ignore this (!!)
+for $p \mid 2$ T & V Dokchitser [3] the formulae are really hard - ignore this (!!)
 
-Would perhaps be better to do for any p, or even determine w globally (T & V Dokshitser: page 1) 
+Would perhaps be better to do for any p, or even determine w globally (T & V Dokchitser: [4] in the introduction) 
 There is a decision to be made as to which methods to use.
+
+[1] D. Rohrlich, Galois Theory, elliptic curves, and root numbers,
+Compos. Math. 100 (1996), 311--349.
+
+[2] S. Kobayashi, The local root number of elliptic curves with wild
+ramification, Math. Ann. 323 (2002), 609--623; available online
+
+[3] http://arxiv.org/abs/math/0612054
+
+[4] http://arxiv.org/abs/0906.1815
