@@ -21,14 +21,23 @@ The $p$-adic L-function of $E$ can be computed using modular symbols. And sage c
 
   * Allow to twist the function by Dirichlet characters. In particular with the Teichmüllers.
 
+    . People: John B, Chan-Ho, Jamie W, Barinder, Mike D, M. Tip, Vincent
+
   * Implement a function that extracts the $\lambda$ and $\mu$ invariant and which decides it the growth of the Selmer group is due to the growth of the Tat-Shafarevich group or due to the increase of the rank. Statistics on the values of these fundamental Iwasawa theoretic invariants. A question I was often asked by Iwasawa theorists is: Are the $\mu$-invariants over $\mathbb{Q}(\zeta_p)$ zero, too.
 
-  * Can we compute the modular symbols using complex integration ?
+    . People: same as above, plus Jeremy West, Jen Balakrishnan
+
+  * Can we compute the modular symbols (for large conductors) using complex integration ?
+
+    . People: Megan Maguire, Erin Militzer, Jamie W, John C, Robert Bradshaw, Matt G, Chan-Ho, Thilina, Gagan, Robert Miller, Tim Dokchitser, William Stein
 
   * Look at overconvergent modular symbols
 
+    . People: John B, Matt Greenberg, Chan-Ho, Robert Bradshaw
+
   * What happens for primes of additive reduction ?
 
+    . People: Robert Miller, Megan Maguire, Erin Militzer, Barinder, Mike D, Matt Greenberg
 
 == References ==
 
