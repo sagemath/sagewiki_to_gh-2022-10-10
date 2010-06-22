@@ -7,6 +7,9 @@ See [[http://drupal.mscomp.org/orcp2010|this page]] for more about the special F
    * [[attachment:schedule.pdf]]
 
 == Monday, June 21 ==
+
+Pictures: http://picasaweb.google.com/wstein/20100621Sagedays22Day1
+
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 || 9:00am - 9:30am|| Arrive at MSRI and sign in||
@@ -23,11 +26,13 @@ See [[http://drupal.mscomp.org/orcp2010|this page]] for more about the special F
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
 == Tuesday, June 22 ==
+
+http://picasaweb.google.com/wstein/20100622Sagedays22Day2
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 9:00am - 9:30am'''||'''Stein''': Project status reports||
 ||''' 9:30am - 10:20am'''||'''Cremona''': talk 1 - Tables of Elliptic Curves||
-||''' 10:30am - 11:20am'''||'''Greenberg''': talk 2 - Arithmetic of p-adic and mod p representations||
+||''' 10:30am - 11:20am'''||'''Greenberg''': talk 2 - Arithmetic of mod p representations||
 ||''' 11:30am - 12:20pm'''||'''Wuthrich''': talk 1||
 || 12:20pm - 2:00pm|| Lunch at MSRI||
 || 2:00pm - 6:10pm|| Working sessions||
@@ -35,6 +40,8 @@ See [[http://drupal.mscomp.org/orcp2010|this page]] for more about the special F
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
+
+
 == Wednesday, June 23 ==
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
