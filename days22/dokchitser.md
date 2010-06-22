@@ -42,7 +42,7 @@ Elliptic Curves over Q
 
 root number $w = \prod_p w_p$ * $w_\infty$
 
-p is a prime of good reduction iff $p \nmid$ discriminant.
+p is a prime of good reduction iff $p$ does not divide the discriminant.
 If E has good reduction at p then $w_p = +1$. 
 
 $p \mid \mid N$ means p is a prime of multiplicative reduction
@@ -50,7 +50,7 @@ If E has split multiplicative reduction then $w_p = -1$
 If E has non-split multiplicative reduction then $w_p = +1$
 
 
-Step 1: implement w for $E/\Q$ with N square-free (already done in GP)
+Step 1: implement w for $E/Q$ with N square-free (already done in GP)
 
 If $p^2\mid N$ then p is a prime of additive reduction for E and $w_p$ is more complicated. There are formulae to compute them, they rely on Tate's algorithm.
 
@@ -61,7 +61,7 @@ Root number classification
 w = $\prod_p w_p \prod_{v\div \infty} (-1)$
 
 Additive reduction
-$w_p for p \nmid 2,3$ has been done by Rohrlich (somewhat hard to read) see Theorems 2 and 3 which are self-contained
+$w_p for p$ not dividing $2,3$ has been done by Rohrlich (somewhat hard to read) see Theorems 2 and 3 which are self-contained
 
 for $p \mid 3$ this has been done Kobayashi
 
