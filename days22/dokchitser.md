@@ -35,8 +35,8 @@ C. Parity Predictions
 
 == Computing root numbers project: notes ==
 
-References:
-1. Silverman I Chapter VII (does not mention root numbers but gives background information to compute them) - reduction types of elliptic curves etc; plus Section of Silverman I Appendix C on Tate's algorithm. 
+Main background reference:
+Silverman I Chapter VII (does not mention root numbers but gives background information to compute them) - reduction types of elliptic curves etc; plus Section of Silverman I Appendix C on Tate's algorithm. 
 
 Elliptic Curves over Q
 
@@ -61,7 +61,7 @@ Root number classification
 w = $\prod_p w_p \prod_{v\div \infty} (-1)$
 
 Additive reduction
-$w_p for p$ not dividing $2,3$ has been done by Rohrlich [1] (somewhat hard to read) see Theorems 2 and 3 which are self-contained
+$w_p for p$ not dividing $2,3$ has been done by Rohrlich (somewhat difficult) see [1] Theorem 2 which is self-contained 
 
 for $p \mid 3$ this has been done Kobayashi [2]
 
