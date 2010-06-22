@@ -44,7 +44,13 @@ http://wstein.org/papers/kolyconj2/.
 W. Stein, Toward a generalization of Gross-Zagier.  http://wstein.org/papers/stein-ggz/
 
 == Projects ==
-A. Compute Kolyvagin classes mod p
-    People: Jen Balakrishnan, Justin Walker, Robert Miller, Rebecca Bellovin, Daniel Disegni, Ian Whitehead, Donggeon Yhee, Khoa, Robert Bradshaw, Dario
-B. Using A to compute Kolyvagin classes en masse (theoretical)
-    People = A + Chen
+
+    People: Jen Balakrishnan, Justin Walker, Robert Miller, Rebecca Bellovin, Daniel Disegni, Ian Whitehead, Donggeon Yhee, Khoa, Robert Bradshaw, Dario, Chen
+
+=== Compute Kolyvagin classes mod p ===
+
+ * Subproject: fix trac #9032: http://trac.sagemath.org/sage_trac/ticket/9302
+
+=== Using A to compute Kolyvagin classes en masse (theoretical) ===
+
+    
