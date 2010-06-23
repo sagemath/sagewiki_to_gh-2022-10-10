@@ -27,7 +27,7 @@ Finding all elliptic curves with good reduction outside a finite set S of primes
 
 ==== Subproject 1 ====
 
-As a rather specific special case, we could try to find as many examples as possible of elliptic curves with everywhere good reduction (EGR), over quadratic (and higher degree) number fields.  There is some relevant theory here, but in most cases the theory says nothing useful.  As a very explicit example,  my colleague Lassina Dembele would be very happy if we could find for him an elliptic curve with EGR over $\mathbb{Q}(\sqrt{929})$!  I have been trying my hand at that without success.  (We managed 853 and 997.)
+As a rather specific special case, we could try to find as many examples as possible of elliptic curves with everywhere good reduction (EGR), over quadratic (and higher degree) number fields.  There is some relevant theory here, but in most cases the theory says nothing useful.  As a very explicit example,  my colleague Lassina Dembele would be very happy if we could find for him an elliptic curve with EGR over $\mathbb{Q}(\sqrt{929})$!  I have been trying my hand at that without success.  (We managed 853 and 997.)  '''update 2010-06-21''': Noam Elkies solved the 929 problem!  The curve  $[w, 1 - w, 1 + 20*w, -1738 - 82*w, -11808 - 201*w]$ where $w=(1+\sqrt{929})/2$ has everywhere good reduction.
 
 ==== Subproject 2 ====
 
