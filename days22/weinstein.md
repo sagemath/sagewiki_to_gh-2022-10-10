@@ -53,4 +53,9 @@ W. Stein, Toward a generalization of Gross-Zagier.  http://wstein.org/papers/ste
 
 === Using A to compute Kolyvagin classes en masse (theoretical) ===
 
+
+=== Misc. ===
+
+ * Finding 1/2 * P:    http://nt.sagenb.org/home/pub/9/
+
     
