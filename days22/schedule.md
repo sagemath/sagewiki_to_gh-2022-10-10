@@ -107,9 +107,9 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 9:00am - 9:30am'''||'''Stein''': Project status reports||
-||''' 9:30am - 10:20am'''||'''Wuthrich''': talk 2||
+||''' 9:30am - 10:20am'''||'''Dokchitser''': talk 2||
 ||''' 10:30am - 11:20am'''||'''Weinstein''': talk 3||
-||''' 11:30am - 12:20pm'''||'''Dokchitser''': talk 2||
+||''' 11:30am - 12:20pm'''||'''Wuthrich''': talk 2||
 || 12:20pm - 2:00pm|| Lunch||
 || 2:00pm - 6:10pm|| Working sessions||
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
