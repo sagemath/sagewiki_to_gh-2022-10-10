@@ -54,7 +54,7 @@ http://picasaweb.google.com/wstein/20100622Sagedays22Day2
 ||''' 9:30am - 10:00am'''||'''Stein''': Project status reports||
 ||''' 10:00am - 10:50am'''||'''Cremona''': talk 2 - Verifying optimality and Manin's conjecture||
 ||''' 10:50am - 11:30am'''||'''Stein''': talk 1 - Computing Heegner points in Sage||
-||''' 11:30am - '''||Workshop Barbecue at Willows Picnic Site||
+||''' 11:30am - '''||Workshop Barbecue at [[http://www.ebparks.org/files/Tilden_map_south.pdf Willows Picnic Site]]||
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
