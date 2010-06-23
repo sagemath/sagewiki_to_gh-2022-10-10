@@ -12,6 +12,9 @@ See [[http://drupal.mscomp.org/orcp2010|this page]] for more about the special F
 
   * [[http://www.yelp.com/biz/cafe-milano-berkeley/|Cafe Milano]] which is [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=cafe+milano,+2522+bancroft&sll=37.869128,-122.257673&sspn=0.004328,0.006405&gl=us&ie=UTF8&hq=cafe+milano,&hnear=2522+Bancroft+Way,+Berkeley,+Alameda,+California+94704&ll=37.871788,-122.259142&spn=0.008656,0.020986&z=16|here]] but is only opened until 10pm.   (Wifi tested by William Stein, and works.)
 
+  * [[http://www.yelp.com/biz/au-coquelet-cafe-restaurant-berkeley/|Au Coquelet]] which is [[http://maps.google.com/maps?oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&q=au+coquelet+cafe+berkeley&fb=1&gl=us&hq=au+coquelet+cafe&hnear=Berkeley,+CA&cid=0,0,2403486147471596166&ei=KksiTPmkFoOjnQfamZ3ADw&sa=X&oi=local_result&ct=image&resnum=4&ved=0CCMQnwIwAw|here]].  Open until 1:30 am and has food and wifi.  Unfortunately not many outlets.  
+
+
 == Monday, June 21 ==
 
 Pictures: http://picasaweb.google.com/wstein/20100621Sagedays22Day1
