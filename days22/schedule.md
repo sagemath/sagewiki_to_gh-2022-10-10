@@ -25,7 +25,7 @@ Pictures: http://picasaweb.google.com/wstein/20100621Sagedays22Day1
 ||''' 11:00am - 11:55am'''||'''Weinstein''': talk 1||
 || 12:00pm - 2:00pm|| Lunch||
 ||''' 2:00pm - 2:50pm'''||'''Greenberg''': talk 1||
-|| 3:00pm - 3:30pm|| Participant introductions||
+|| 3:00pm - 3:30pm|| [[http://www.msri.org/communications/vmath/VMathVideos/VideoInfo/4705/show_video|Participant introductions]] ||
 || 3:30pm - 4:00pm|| Tea||
 || 4:00pm - 6:10pm|| Working Sessions||
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
