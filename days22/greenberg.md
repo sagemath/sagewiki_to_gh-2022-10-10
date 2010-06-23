@@ -28,6 +28,9 @@ C. Mod-7 galreps from abvars of prime level not arising from elliptic curves
 
 People: Laura Peskin, M. Tip, Arijit, Rebecca, Mike D, Noam
 
+Level 29 gives an example.    Using the Hasse bound we see that
+a2  is -2,-1,0,1,2, so a2  mod 7  is 0,1,2,5,6.    Thus one of the level 29 forms doesn't come from an elliptic curve.
+
 D. Prime powers for small primes
 
 People: Ben Linowitz, Sam Lichtenstein, Gagan, Chris Wuthrich, Barinder, Hatice
