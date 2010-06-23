@@ -21,9 +21,9 @@ If you are working on '''any''' doctests please open a trac ticket and link it h
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9234 | 9234]]: plot/plot3d/texture.py
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9235 | 9235]]: categories/homset.py
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9236 | 9236]]: misc/sage_timeit.py
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9278 | 9278]]: databases/kohel.py  (patch just removes the file)
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9279 | 9279]]: databases/tables.py (patch just removes the file)
 
+ * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9278 | 9278]]: databases/kohel.py  (patch just removes the file)
+ * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9279 | 9279]]: databases/tables.py (patch just removes the file)
  * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9215 | 9215]]: plot/animate.py
  * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9216 | 9216]]: groups/group.pyx
  * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9222 | 9222]]: databases/conway.py
