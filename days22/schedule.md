@@ -58,7 +58,7 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
 ||''' 9:30am - 10:00am'''||'''Stein''': Project status reports||
-||''' 10:00am - 10:50am'''||'''Cremona''': talk 2 - Verifying optimality and Manin's conjecture||
+||''' 10:00am - 10:50am'''||'''Cremona''': [[attachment:cremona2.pdf|talk 2 - Verifying optimality and Manin's conjecture]]||
 ||''' 10:50am - 11:30am'''||'''Stein''': [[http://sagenb.org/home/pub/2171/|talk 1 - Computing Heegner points in Sage]]||
 ||''' 11:30am - '''||Workshop Barbecue at [[http://www.ebparks.org/files/Tilden_map_south.pdf|Willows Picnic Site]]||
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
@@ -68,8 +68,8 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
 ||''' 9:30am - 10:00am'''||'''Stein''': Project status reports||
-||''' 10:00am - 10:50am'''||'''Cremona''': talk 3 - Computing Isogenies||
-||''' 11:00am - 11:50am'''||'''Cremona''': talk 4 - Finding all elliptic curves with good reduction outside a given set of primes||
+||''' 10:00am - 10:50am'''||'''Cremona''': [[attachment:cremona1.pdf|talk 3 - Computing Isogenie]]s||
+||''' 11:00am - 11:50am'''||'''Cremona''': [[attachment:cremona1.pdf|talk 4 - Finding all elliptic curves with good reduction outside a given set of primes]]||
 || 12:00pm - 2:00pm|| Lunch at MSRI||
 || 2:00pm - 6:10pm|| Working sessions||
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
