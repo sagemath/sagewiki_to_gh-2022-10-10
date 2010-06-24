@@ -26,6 +26,7 @@ Attached are some text files giving some data about the minimal conductor < 10,0
 realizing a mod 2, 3, or 5 representation attached to a newform of level < 150. -Sam
 
 [[attachment:norm2cond10000]]
+[[attachment:norm3cond10000]]
 [[attachment:norm5cond10000]]
 
 
