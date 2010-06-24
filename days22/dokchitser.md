@@ -80,14 +80,14 @@ ramification, Math. Ann. 323 (2002), 609--623; available online
 
 [4] http://arxiv.org/abs/0906.1815
 
-== working groups ==
+== Working groups ==
 
 Implementation:
-   (Local) Armin, Charlie, Chris
-   (Global) Lola, Chris, Hatice, Charlie (supervisor)
+   * (Local) Armin, Charlie, Chris
+   * (Global) Lola, Chris, Hatice, Charlie 
 
 Reading (Kobayashi)
-    Lola, AJ, Thilina, MTip
+   * Lola, AJ, Thilina, MTip
 
-L-functions of elliptic curves over number fields: 
-    Adam
+L-functions of elliptic curves over number fields
+   * Adam
