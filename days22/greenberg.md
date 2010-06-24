@@ -83,4 +83,4 @@ People: Ben Linowitz, Sam Lichtenstein, Gagan, Chris Wuthrich, Barinder, Hatice
 
 Gagan reports that the Galois representations associated to 121A and 121C are surjective mod 2 but not mod 4.
 
-There is only one conjugacy class of subgroups of GL(2,Z/9) which surjects onto (Z/9Z)* under the determinant map and reduces onto GL(2,Z/3).  It is of size 144=3*#GL(2,Z/3).  So Elkies' analysis is complete in the sense that the Galois images is pinned down.  
+There is only one conjugacy class of subgroups of GL(2,Z/9) which surjects onto (Z/9Z)* under the determinant map and reduces onto GL(2,Z/3).  It is of size 144=3*#GL(2,Z/3).  So Elkies' analysis of "3 not 9" pins down the image of Galois completely.  
