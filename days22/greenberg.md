@@ -22,45 +22,9 @@ People: William Stein, Mike Lipnowski, Sam Lichtenstein, Ben Linowitz, Laura Pes
 
 === (24.06.2010 update) ===
 
-Here are a couple of examples of mod 5 representations for which the elliptic curve (which must exist of course!)
-is rather large. ("up to primes below 10000" refers to how high I'm comparing the coefficients, rather
-than worrying about the sturm bound.) If anyone has the optional conductors up to 130000 database installed
-and wants to try running my code to find the curves, let me know and I'll send you my program.
+Attached are some text files giving some data about the minimal conductor < 10,000 for an elliptic curve
+realizing a mod 2, 3, or 5 representation attached to a newform of level < 150. -Sam
 
-Testing curves of conductor < 10000 with a_p's for primes up to 10000
-Testing a newform of level 31 with coefficient field Number Field in a with defining polynomial x^2 - x - 1 with prime Fractional ideal (-2*a + 1) of norm 5
-Attempting to reduce coefficients
-Reduced the coeffs mod Fractional ideal (-2*a + 1)
-No elliptic curve matched the form!
-
-Testing a newform of level 41 with coefficient field Number Field in a with defining polynomial x^3 + x^2 - 5*x - 1 with prime Fractional ideal (1/2*a^2 + a - 5/2) of norm 5
-Attempting to reduce coefficients
-Reduced the coeffs mod Fractional ideal (1/2*a^2 + a - 5/2)
-No elliptic curve matched the form!
-
-Here is some more interesting data: for newforms of levels [29..100] with non-rational hecke field with a prime of norm 2, the following are
-(I think) the only examples where the level seems to be nonoptimal (i.e. serre conductor is strictly smaller than the level,
-i.e. I found a curve of conductor not divisible by the level). 
-
-Testing a newform of level 63 with coefficient field Number Field in a with defining polynomial x^2 - 3 with prime Fractional ideal (a - 1) of norm 2
-Attempting to reduce coefficients
-Reduced the coeffs mod Fractional ideal (a - 1)
-Curve 14a1 of conductor 2 * 7 succeeded!
-
-Testing a newform of level 88 with coefficient field Number Field in a with defining polynomial x^2 - x - 4 with prime Fractional ideal (a + 1) of norm 2
-Attempting to reduce coefficients
-Reduced the coeffs mod Fractional ideal (a + 1)
-Curve 11a1 of conductor 11 succeeded!
-
-Testing a newform of level 93 with coefficient field Number Field in a with defining polynomial x^3 - 4*x + 1 with prime Fractional ideal (a^2 - 3) of norm 2
-Attempting to reduce coefficients
-Reduced the coeffs mod Fractional ideal (a^2 - 3)
-Curve 2325b1 of conductor 3 * 5^2 * 31 succeeded!
-
-Testing a newform of level 98 with coefficient field Number Field in a with defining polynomial x^2 - 2*x - 7 with prime Fractional ideal (1/2*a - 1/2) of norm 2
-Attempting to reduce coefficients
-Reduced the coeffs mod Fractional ideal (1/2*a - 1/2)
-Curve 49a1 of conductor 7^2 succeeded!
 
 B. $S_4$-extensions: find the curves
 
