@@ -24,7 +24,7 @@ Pictures: http://picasaweb.google.com/wstein/20100621Sagedays22Day1
 || 9:00am - 9:30am|| Arrive at MSRI and sign in||
 ||''' 9:30am - 9:45am'''||'''MSRI director''': introduction and orientation||
 ||''' 9:45am - 10:00am'''||'''Stein''': Introduction and orientation about this workshop||
-||''' 10:00am - 10:55am'''||'''Dokchitser''': talk 1||
+||''' 10:00am - 10:55am'''||'''Dokchitser''': Elliptic curves and their L-functions||
 ||''' 11:00am - 11:55am'''||'''Weinstein''': talk 1||
 || 12:00pm - 2:00pm|| Lunch||
 ||''' 2:00pm - 2:50pm'''||'''Greenberg''': talk 1||
@@ -107,7 +107,7 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 9:00am - 9:30am'''||'''Stein''': Project status reports||
-||''' 9:30am - 10:20am'''||'''Dokchitser''': talk 2||
+||''' 9:30am - 10:20am'''||'''Dokchitser''': The Birch-Swinnerton-Dyer formula||
 ||''' 10:30am - 11:20am'''||'''Weinstein''': talk 3||
 ||''' 11:30am - 12:20pm'''||'''Wuthrich''': talk 2||
 || 12:20pm - 2:00pm|| Lunch||
@@ -120,7 +120,7 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 9:00am - 9:30am'''||'''Stein''': Project status reports||
 ||''' 9:30am - 10:20am'''||'''Wuthrich''': talk 3||
-||''' 10:30am - 11:20am'''||'''Dokchitser''': talk 3||
+||''' 10:30am - 11:20am'''||'''Dokchitser''': Parity predictions||
 ||''' 11:30am - 12:20pm'''||'''Ribet''': Colloquium on Galois Representations||
 || 12:20pm - 2:00pm|| Lunch at MSRI||
 ||''' 2:00pm - 3:00pm'''||'''Kilford''': A Gentle Introduction to Overconvergent Modular Forms||
@@ -132,7 +132,7 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 9:00am - 9:30am'''||'''Stein''': Project status reports||
-||''' 9:30am - 10:20am'''||'''Dokchitser''': talk 4||
+||''' 9:30am - 10:20am'''||'''Dokchitser''': Root numbers||
 ||''' 10:30am - 11:20am'''||'''Wuthrich''': talk 4||
 ||''' 11:30am - 12:20pm'''||'''Weinstein''': talk 4||
 || 12:20pm - 2:00pm|| Lunch at MSRI||
