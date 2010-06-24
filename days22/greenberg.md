@@ -20,6 +20,48 @@ A. Find the elliptic curve that modular mod-$p$ representations come from, for $
 
 People: William Stein, Mike Lipnowski, Sam Lichtenstein, Ben Linowitz, Laura Peskin, David Ai, Rodney Keaton, M. Tip, Brandon Levin
 
+= (24.06.2010 update) =
+
+Here are a couple of examples of mod 5 representations for which the elliptic curve (which must exist of course!)
+is rather large. ("up to primes below 10000" refers to how high I'm comparing the coefficients, rather
+than worrying about the sturm bound.) If anyone has the optional conductors up to 130000 database installed
+and wants to try running my code to find the curves, let me know and I'll send you my program.
+
+Testing curves of conductor < 10000 up to primes below 10000
+Testing a newform of level 31 with coefficient field Number Field in a with defining polynomial x^2 - x - 1 with prime Fractional ideal (-2*a + 1) of norm 5
+Attempting to reduce coefficients
+Reduced the coeffs mod Fractional ideal (-2*a + 1)
+No elliptic curve matched the form!
+
+Testing a newform of level 41 with coefficient field Number Field in a with defining polynomial x^3 + x^2 - 5*x - 1 with prime Fractional ideal (1/2*a^2 + a - 5/2) of norm 5
+Attempting to reduce coefficients
+Reduced the coeffs mod Fractional ideal (1/2*a^2 + a - 5/2)
+No elliptic curve matched the form!
+
+Here is some more interesting data: for newforms of levels [29..100] with non-rational hecke field with a prime of norm 2, the following are
+(I think) the only examples where the level seems to be nonoptimal (i.e. serre conductor is strictly smaller than the level,
+i.e. I found a curve of conductor not divisible by the level). 
+
+Testing a newform of level 63 with coefficient field Number Field in a with defining polynomial x^2 - 3 with prime Fractional ideal (a - 1) of norm 2
+Attempting to reduce coefficients
+Reduced the coeffs mod Fractional ideal (a - 1)
+Curve 14a1 of conductor 2 * 7 succeeded!
+
+Testing a newform of level 88 with coefficient field Number Field in a with defining polynomial x^2 - x - 4 with prime Fractional ideal (a + 1) of norm 2
+Attempting to reduce coefficients
+Reduced the coeffs mod Fractional ideal (a + 1)
+Curve 11a1 of conductor 11 succeeded!
+
+Testing a newform of level 93 with coefficient field Number Field in a with defining polynomial x^3 - 4*x + 1 with prime Fractional ideal (a^2 - 3) of norm 2
+Attempting to reduce coefficients
+Reduced the coeffs mod Fractional ideal (a^2 - 3)
+Curve 2325b1 of conductor 3 * 5^2 * 31 succeeded!
+
+Testing a newform of level 98 with coefficient field Number Field in a with defining polynomial x^2 - 2*x - 7 with prime Fractional ideal (1/2*a - 1/2) of norm 2
+Attempting to reduce coefficients
+Reduced the coeffs mod Fractional ideal (1/2*a - 1/2)
+Curve 49a1 of conductor 7^2 succeeded!
+
 B. $S_4$-extensions: find the curves
 
 People: Brandon Levin, Mike Lipnowski, Gagan Sekhon, Noam Elkies, Jon Cass, David Ai
@@ -28,9 +70,17 @@ C. Mod-7 galreps from abvars of prime level not arising from elliptic curves
 
 People: Laura Peskin, M. Tip, Arijit, Rebecca, Mike D, Noam
 
+= (24.06.2010 update) =
+
 Level 29 gives an example.    Using the Hasse bound we see that
 a2  is -2,-1,0,1,2, so a2  mod 7  is 0,1,2,5,6.    Thus one of the level 29 forms doesn't come from an elliptic curve.
 
 D. Prime powers for small primes
 
 People: Ben Linowitz, Sam Lichtenstein, Gagan, Chris Wuthrich, Barinder, Hatice
+
+= (24.06.2010 update) =
+
+Gagan reports that the Galois representations associated to 121A and 121C are surjective mod 2 but not mod 4.
+
+There is only one conjugacy class of subgroups of GL(2,Z/9) which surjects onto (Z/9Z)* under the determinant map and reduces onto GL(2,Z/3).  It is of size 144=3*#GL(2,Z/3).  So Elkies' analysis is complete in the sense that the Galois images is pinned down.  
