@@ -18,7 +18,7 @@ One clearly identifiable goal which could be achieved by extending the tables at
 
     4. William A. Stein and Mark Watkins, "A database of elliptic curves -- first report", ANTS V Proceedings (Sydney 2002) Springer LNCS 2369 (Fieker and Kohel, eds.), pages 267 - 275.  http://wstein.org/papers/stein-watkins/
 
-People: Jeremy West, Robert Bradshaw, Robert Miller, Jamie Weingadt
+People: Jeremy West, Robert Bradshaw, Robert Miller, Jamie Weigandt
 
 == Project 2 ==
 
@@ -67,4 +67,4 @@ Implement the method of Elkies and Watkins (reference below) to find elliptic cu
 
    2.  William Stein, Andrei Jorza, Jennifer Balakrishnan, "The Smallest Conductor for an Elliptic Curve of Rank Four is Composite", 2003: http://modular.fas.harvard.edu/papers/rank4/ .
 
-People: Elkies, Rado, Robert Bradshaw, Jeremy West, Jamie Weingadt
+People: Elkies, Rado, Robert Bradshaw, Jeremy West, Jamie Weigandt
