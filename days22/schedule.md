@@ -83,7 +83,7 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 ||''' 10:10am - 11:00am'''||'''Bradshaw (Google)''': Cython: the best of both worlds||
 ||''' 11:00am - 11:50am'''||'''Perez (Berkeley) Python''': an ecosystem for scientific computing||
 || 12:00pm - 2:00pm||  Lunch||
-||''' 1:00pm - 2:50pm'''||'''Ramachandran (IIT Bombay)''': Python in science and engineering education in India||
+||''' 2:00pm - 2:50pm'''||'''Ramachandran (IIT Bombay)''': Python in science and engineering education in India||
 ||''' 2:50pm - 3:40pm'''||'''Stein (Univ of Washington)''': Sage: creating an open source alternative to Ma*||
 || 3:40pm - 4:10pm||  Tea||
 ||''' 4:10pm - 5:00pm'''||'''Millman (Berkeley)''': The Foundation for mathematical and scientific computing||
