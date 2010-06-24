@@ -27,7 +27,7 @@ is rather large. ("up to primes below 10000" refers to how high I'm comparing th
 than worrying about the sturm bound.) If anyone has the optional conductors up to 130000 database installed
 and wants to try running my code to find the curves, let me know and I'll send you my program.
 
-Testing curves of conductor < 10000 up to primes below 10000
+Testing curves of conductor < 10000 with a_p's for primes up to 10000
 Testing a newform of level 31 with coefficient field Number Field in a with defining polynomial x^2 - x - 1 with prime Fractional ideal (-2*a + 1) of norm 5
 Attempting to reduce coefficients
 Reduced the coeffs mod Fractional ideal (-2*a + 1)
