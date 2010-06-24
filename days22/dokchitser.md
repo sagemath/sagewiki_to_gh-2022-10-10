@@ -79,3 +79,15 @@ ramification, Math. Ann. 323 (2002), 609--623; available online
 [3] http://arxiv.org/abs/math/0612054
 
 [4] http://arxiv.org/abs/0906.1815
+
+== working groups ==
+
+Implementation:
+   (Local) Armin, Charlie, Chris
+   (Global) Lola, Chris, Hatice, Charlie (supervisor)
+
+Reading (Kobayashi)
+    Lola, AJ, Thilina, MTip
+
+L-functions of elliptic curves over number fields: 
+    Adam
