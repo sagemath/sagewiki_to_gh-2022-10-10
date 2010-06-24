@@ -25,6 +25,9 @@ People: William Stein, Mike Lipnowski, Sam Lichtenstein, Ben Linowitz, Laura Pes
 Attached are some text files giving some data about the minimal conductor < 10,000 for an elliptic curve
 realizing a mod 2, 3, or 5 representation attached to a newform of level < 150. -Sam
 
+[[attachment:norm2cond10000]]
+[[attachment:norm5cond10000]]
+
 
 B. $S_4$-extensions: find the curves
 
