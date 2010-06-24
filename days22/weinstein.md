@@ -58,4 +58,5 @@ W. Stein, Toward a generalization of Gross-Zagier.  http://wstein.org/papers/ste
 
  * Finding 1/2 * P:    http://nt.sagenb.org/home/pub/9/
 
+ * Noam's algorithm for computing the trace: [[/noamtrace]]
     
