@@ -80,8 +80,8 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 09:00am - 09:10am'''||'''Millman and Stein''': Welcome||
 ||''' 09:10am - 10:10am'''||'''Norvig (Google)''': What to demand from a Scientific Computing Language||
-||''' 10:10am - 11:00am'''||'''Perez (Berkeley) Python''': an ecosystem for scientific computing||
-||''' 11:00am - 11:50am'''||'''Bradshaw (Google)''': Cython: the best of both worlds||
+||''' 10:10am - 11:00am'''||'''Bradshaw (Google)''': Cython: the best of both worlds||
+||''' 11:00am - 11:50am'''||'''Perez (Berkeley) Python''': an ecosystem for scientific computing||
 || 12:00pm - 2:00pm||  Lunch||
 ||''' 1:00pm - 2:50pm'''||'''Ramachandran (IIT Bombay)''': Python in science and engineering education in India||
 ||''' 2:50pm - 3:40pm'''||'''Stein (Univ of Washington)''': Sage: creating an open source alternative to Ma*||
