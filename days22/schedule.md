@@ -105,6 +105,7 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 ||''' 10:00am - 10:50am'''||'''Weinstein''': talk 2||
 ||''' 11:00am - 11:50am'''||'''Greenberg''': talk 3||
 || 12:00pm - 2:00pm|| Lunch at MSRI||
+|| 2:00pm - 2:30pm|| '''Miller''': Tutorial on Mercurial Queues||
 || 2:00pm - 4:00pm|| Working sessions||
 ||''' 4:00pm - 5:00pm'''||'''Cremona's students''': presentations||
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
