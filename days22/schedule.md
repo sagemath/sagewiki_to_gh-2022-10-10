@@ -67,6 +67,8 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 
 
 == Thursday, June 24 ==
+Pictures: http://picasaweb.google.com/wstein/20100624Sagedays22Day4
+
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
 ||''' 9:30am - 10:00am'''||'''Stein''': Project status reports||
