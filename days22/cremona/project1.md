@@ -7,3 +7,7 @@ John and Jeremy and Noam discussed ways of speeding up the (sparse, mod $p$) lin
 1. Jeremy will try to replace the basic modular arithmetic steps with inline assembly calls.
 
 2. Noam suggested using Wiedemann's method for finding eigenvalues and eigenspaces.  This looks very promising and John will do some experiments.
+
+==== Friday 25th June ====
+
+1. Jamie W asked yesterday for all elliptic curves of conductor N=154687.  The optimal curves are here: [[attachment:curves.154587.txt]]
