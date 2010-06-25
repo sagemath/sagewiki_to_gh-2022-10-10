@@ -11,7 +11,10 @@ Thursday 24 June:
 
 1. The patch by Aly and Rado to implement functions including is_S_integral (trac #9317) has been positively reviewed by Anna and Erin!
 
-2.
+2. Jim has finished implementing $S$-class groups, extending earlier work by Robert M.  He is now working on computing $K(S,4)$ and $K(S,4)_2$.  (We wrongly thought that RLM's code already computed $K(S,4)$.
+
+3. Xiao Xiao is working on the algorithm which, given a single $j$ and set $S$, computes the set of elliptic curves with that $j$-invariant and good reduction outside $S$ (if any).
+
 ==== Subproject 3 ====
 
 
