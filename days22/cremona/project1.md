@@ -1,1 +1,9 @@
-===Daily progress on Project 1===
+=== Daily progress on Project 1 ===
+
+==== Thursday 24th June ====
+
+John and Jeremy and Noam discussed ways of speeding up the (sparse, mod $p$) linear algebra stage of the rational newform-finding part of the modular elliptic curve computation, which is currently the main bottleneck (in time and memory).
+
+1. Jeremy will try to replace the basic modular arithmetic steps with inline assembly calls.
+
+2. Noam suggested using Wiedemann's method for finding eigenvalues and eigenspaces.  This looks very promising and John will do some experiments.
