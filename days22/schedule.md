@@ -64,6 +64,8 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
+
+
 == Thursday, June 24 ==
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
@@ -75,7 +77,12 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
+
+
 == Friday, June 25 ==
+
+ * Here is [[http://drupal.mscomp.org/orcp2010|another version of the schedule with abstracts]].
+
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 09:00am - 09:10am'''||'''Millman and Stein''': Welcome||
