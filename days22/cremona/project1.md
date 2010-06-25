@@ -1,5 +1,7 @@
 === Daily progress on Project 1 ===
 
+The database has so far reached: $N=130055$
+
 ==== Thursday 24th June ====
 
 John and Jeremy and Noam discussed ways of speeding up the (sparse, mod $p$) linear algebra stage of the rational newform-finding part of the modular elliptic curve computation, which is currently the main bottleneck (in time and memory).
