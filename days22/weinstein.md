@@ -41,7 +41,7 @@ $\tau_\ell$ lives in a line inside of $E(\mathbf{Q})\otimes\mathbf{Z}/p\mathbf{Z
 
 (c) Compare the $\tau_\ell$ from (b) (known only up to torsion) with those produced by William's function "kolyvagin_point_on_curve".
 
-UPDATE:  (a)-(b) has been done for the elliptic curve 389a, for discriminants up to and excluding -67, and for $\ell$ up to $3000$.  Part (c) has been partially checked.
+UPDATE:  (a)-(b) has been done for the elliptic curve 389a, for discriminants up to and excluding -67, and for $\ell$ up to $3000$. Here is the Sage code: http://standalone.sagenb.org/home/pub/9/.  Part (c) has been partially checked.
 
 == Project 2 ==
 
