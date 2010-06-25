@@ -17,13 +17,4 @@ Thursday 24 June:
 
 ==== Subproject 3 ====
 
-Thursday 24 June:    
-
-Robert Miller made some progress in setting this up to run, and is about to start running it.  (But he is also release manager for Sage 4.5!)
-
-
-==== Subproject 4 ====
-
-Thursday 24 June:    
-
-Rado and Jeremy found a paper by Petho giving an algorithm for listing number field elements by height and implemented it.  It does not seem very efficient (the vast majority of the elements it lists have height greater than the bound!)  So they are continuing to implement the other strategy we started on earlier in the week.  They have already implemented an iterator over ideals of bounded norm.  The next stage involves units.  We found that the fundamental units (as computed by pari) are LLL-reduced, which will help.  
+Several people have been studying the papers showing how to find all integral points, and $S$-integral points.
