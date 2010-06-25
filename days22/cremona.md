@@ -8,6 +8,8 @@ Tabulating modular elliptic curves over '''Q''' (based on  Chapter II of my book
 
 One clearly identifiable goal which could be achieved by extending the tables at least as far as $N=234446$ is to verify that the smallest conductor of any curve of rank $4$ is $N=234446$ (which is the smallest known), or find such a curve with smaller conductor in the range $130000<N<234446$.  It is known that there are no such curves of prime conductor (see reference below under Project 4, which pursues this line).  Note that my C++ program has been run with no problem for $N=234446$ itself, and presumably would also work fine for any individual $N$ in this range, but as there are over $100000$ such $N$ this will take a long time, and also require a significant data-processing effort to keep track of the computations.
 
+[[/project1|Progress Report]]
+
 === Suggested preliminary reading ===
 
     1. J. E. Cremona,  "Algorithms for Modular Elliptic Curves" (2nd edition, 1997), CUP, Chapters I, II and the Appendix to Chapter II.  The online version is freely available (and has fewer typos):  http://www.warwick.ac.uk/staff/J.E.Cremona/book/fulltext/index.html
@@ -24,6 +26,8 @@ People: Jeremy West, Robert Bradshaw, Robert Miller, Jamie Weigandt
 
 
 Finding all elliptic curves with good reduction outside a finite set S of primes, over number fields.  The theory, is based on my paper on the subject (see below) which reduces the problem to finding all ''S''-integral points on elliptic curves over number fields, together with some algebraic number theory.   The project would be to implement this in Sage, over number fields.  Over '''Q''', I have already done this, using the ''S''-integral points functions implemented two summers ago.  I also have a partial implementation over number fields in Magma.  Over number fields there will be other challenges, and this is likely to spill over into more general computation of Mordell-Weil groups of elliptic curves over number fields. 
+
+[[/project2|Progress Report]]
 
 ==== Subproject 1 ====
 
@@ -59,9 +63,13 @@ David Harvey.
 
 People: Robert Miller
 
+[[/project3|Progress Report]]
+
 == Project 4 ==
 
 Implement the method of Elkies and Watkins (reference below) to find elliptic curves with large numbers of integral points, with a view to finding curves with relatively large rank and small conductor, hoping to break some of the existing records.   This project is likely to suit someone with excellent computing skills (efficiency is the key), and requires less background knowledge than some of the others.   Reference 1 explains the method very clearly, and it should be possible to (re)implement it.    The work described in reference 2 was based on Mestre's "Methode des graphes" which is a way of finding all elliptic curves of given prime conductor.
+
+[[/project4|Progress Report]]
 
    1. N.D.Elkies and M.Watkins, "Elliptic curves of large rank and small conductor", ANTS VI Proceedings (Burlington 2004), Springer LNCS 3076, (Buell, ed.), pages 42-56. http://arxiv.org/abs/math/0403374
 
