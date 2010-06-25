@@ -48,6 +48,7 @@ UPDATE:  (a)-(b) has been done for the elliptic curve 389a, for discriminants up
 Suppose the Heegner point $y_1\in E(K[1])$ has been computed, so that its coordinates are known as algebraic numbers.  Compute the trace $y_K$ of $y_1$.  
 
  * Noam's algorithm for computing the trace: [[/noamtrace]]
+ * Sage code for Noam's algorithm: http://www.sagenb.org/home/pub/2179/
     
 == Project 3 ==
 
@@ -85,4 +86,3 @@ W. Stein, Toward a generalization of Gross-Zagier.  http://wstein.org/papers/ste
 === Compute Kolyvagin classes mod p ===
 
  * Subproject: fix trac #9302: http://trac.sagemath.org/sage_trac/ticket/9302
-
