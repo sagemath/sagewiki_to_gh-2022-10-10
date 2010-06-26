@@ -13,10 +13,7 @@ The front should definitely include the title of the workshop. Additional sugges
     * [[http://math.purdue.edu/~jweigand/PimpMySage.pdf|Pimp My Sage]] -- This idea did not go over well. Perhaps this is too much of an inside joke to the people who like it. Feel free to create these shirts at cafepress if you really want to.
     * Stein's Heegner Point Pictures for 389a
     * The elliptic curve over QQ(sqrt(929)) with everywhere good reduction found by Elkies.
-    * Other Suggestions?
-
-== Back ==
-
     * Cohomology Diagrams (See Cremona's Slides)
     * Elliptic Curves which were born at Sage Days
-    * Other Suggestions?
+    * We've sucessfully computed the root number... up to sign.
+    * Yoda says, "Use the SAGE"
