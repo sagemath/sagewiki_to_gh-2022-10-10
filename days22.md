@@ -48,6 +48,9 @@ Projects:
    * Prabhu Ramachandran (Bombay, India) -- Python in Science and Engineering Education in India
    * William Stein (University of Washington) -- Sage: creating a viable open source alternative to Magma, Maple, Mathematica, and Matlab
 
+== T-Shirts ==
+
+Information about conference T-shirts can be found [[/shirts|here]].
 
 == Links ==
    There will be another workshop at MSRI at the same time on elliptic curves for undergrads: http://www.msri.org/up/2010
