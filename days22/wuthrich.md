@@ -17,25 +17,60 @@ A big and difficult theorem by Kato shows half of this conjecture and Skinner an
 
 == Projects ==
 
+=== Project 1 ===
+
+'''Use twists by Dirichlet characters on modular symbols and $p$-adic L-function.'''
+
+    . People: John B, Chan-Ho, Jamie W, Barinder, Mike D, M. Tip, Vincent, Jeremy West, Jen Balakrishnan
+
 The $p$-adic L-function of $E$ can be computed using modular symbols. And sage contains already code to do so. But this code could be improved in several direction.
+There are several subprojects
 
-  * Allow to twist the function by Dirichlet characters. In particular with the Teichmüllers.
+  * ''Compute the conjectural order of Sha over abelian fields.'' The aim is to use the sum of twisted modular symbols to compute the order of the Tate-Shafarevich group over cubic, quintic and septic fields of small conductors for elliptic curves of small conductors.
 
-    . People: John B, Chan-Ho, Jamie W, Barinder, Mike D, M. Tip, Vincent
+    The run on John's file [[attachment: sha_fast.sage]] on cubic and quintic fields gave so far the following two tables for [[http://www.maths.nottingham.ac.uk/personal/cw/download/sha_data_3_1000_11_1000.txt|cubic fields]] and [[http://www.maths.nottingham.ac.uk/personal/cw/download/sha_data_5_1000_11_1000.txt|quintic fields]]. We need to improve the error bounds and make sure that the errors are correctly caught. 
 
-  * Implement a function that extracts the $\lambda$ and $\mu$ invariant and which decides it the growth of the Selmer group is due to the growth of the Tat-Shafarevich group or due to the increase of the rank. Statistics on the values of these fundamental Iwasawa theoretic invariants. A question I was often asked by Iwasawa theorists is: Are the $\mu$-invariants over $\mathbb{Q}(\zeta_p)$ zero, too.
+    We will eventually extract statistical data from it, like "How likely it is that Sha is divisibile by a given prime?" or "How often is Sha trivial?" etc.
 
-    . People: same as above, plus Jeremy West, Jen Balakrishnan
+  * ''Implement in sage twists of'' $p$''-adic L-functions.'' The file padic_lseries.py should be modified to allow an additional optional argument to series to compute the twist by Dirichlet characters.
 
-  * Can we compute the modular symbols (for large conductors) using complex integration ?
+  * ''Implement'' $\lambda$ ''and'' $\mu$ ''invariants for'' $p$''-adic power series.''
+
+  * Use the previous point to ''produce tables of Iwasawa invariants'' a bit like [[http://math.bu.edu/people/rpollack/Data/data.html|Pollack's tables]].
+ 
+  * ''Implement better Dirichlet characters.'' Add a function to a Dirichlet character that give the field fixed by the kernel. Add a function to Abelian fields that gives back the conductor and the group od Dirichlet characters. Also the current implementation of Dirichlet characters could be improved a lot: make it into a group, make it faster.
+ 
+=== Project 2 ===
+
+'''Compute the modular symbols using complex integration'''
 
     . People: Megan Maguire, Erin Militzer, Jamie W, John C, Robert Bradshaw, Matt G, Chan-Ho, Thilina, Gagan, Robert Miller, Tim Dokchitser, William Stein
 
+The original definition of the modular symbols $[r]^{+}$ and $[r]^{-}$ is given as an integral in the upper half plane. Sage currently computes the modular symbols attached to an elliptic curve (natively or in eclib) by finding the correct eigenspace in the space of all modular symbols of level $N$. For large $N$ this is very time consuming or even impossible. When we wish to compute only a few modular symbols, it could be much faster to compute the values of $[r]^{+}$ by the numerical approximation of the complex integrals.
+
+The project proceeds in several steps
+
+  *  Implement a sage function that computes the integral from a given point $\tau$ in the upper half plane to $i\infty$ with a given maximal error. The bounds must be rigorous.
+
+  *  For a semi-stable curve we can split up the integration path from $r$ to $i\infty$ at a point $\tau$ and move the difficult part close to the real line using an Atkin Lehner involution to a nicer place
+
+  *  Find the best place to cut the line.
+
+  *  Compare the algorithms and implemented it in sage.
+
+
+
+=== Other projects ===
+
   * Look at overconvergent modular symbols
+
+  (not considered yet. Matt could give a talk about this later)
 
     . People: John B, Matt Greenberg, Chan-Ho, Robert Bradshaw
 
   * What happens for primes of additive reduction ?
+
+  (not considered yet. Two papers by Delbourgo will be useful here. Or Colmez' new construction)
 
     . People: Robert Miller, Megan Maguire, Erin Militzer, Barinder, Mike D, Matt Greenberg
 
