@@ -16,6 +16,8 @@ Ribet and Stein, "Lectures on Serre's conjecture", Chapter 1, see http://wstein.
 
 == Projects ==
 
+== Status report 28.06.2010 link: http://wiki.sagemath.org/days22/greenberg/june282010 ==
+
 A. Find the elliptic curve that modular mod-$p$ representations come from, for $p < 7$
 
 People: William Stein, Mike Lipnowski, Sam Lichtenstein, Ben Linowitz, Laura Peskin, David Ai, Rodney Keaton, M. Tip, Brandon Levin
@@ -28,7 +30,6 @@ realizing a mod 2, 3, or 5 representation attached to a newform of level < 150. 
 [[attachment:norm2cond10000]]
 [[attachment:norm3cond10000]]
 [[attachment:norm5cond10000]]
-
 
 B. $S_4$-extensions: find the curves
 
