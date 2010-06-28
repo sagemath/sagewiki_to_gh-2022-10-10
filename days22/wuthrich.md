@@ -58,7 +58,7 @@ The project proceeds in several steps
 
   *  Compare the algorithms and implemented it in sage.
 
-
+  *  Think about the non semi-stable case.
 
 === Other projects ===
 
