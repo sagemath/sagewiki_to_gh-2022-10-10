@@ -78,3 +78,5 @@ Implement the method of Elkies and Watkins (reference below) to find elliptic cu
 People: Elkies, Rado, Robert Bradshaw, Jeremy West, Jamie Weigandt
 
 [[/progress1|Preliminary Progress Report (Monday 28 June)]]
+
+[[/to-do-list|To d- list]]
