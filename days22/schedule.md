@@ -109,6 +109,8 @@ Pictures: http://picasaweb.google.com/wstein/20100624Sagedays22Day4
 
   * [[http://picasaweb.google.com/John.Cremona/GoldenGate27June2010?authkey=Gv1sRgCJegupnUs_upqAE|John Cremona's pictures]]
 
+  * [[http://picasaweb.google.co.uk/timdok/SageDays22?authkey=Gv1sRgCLD0suuYiovKwgE#|Tim Dokchitser's pictures (all of Week 1)]]
+
 == Monday, June 28 ==
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
