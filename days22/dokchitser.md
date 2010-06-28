@@ -29,7 +29,7 @@ There will be many small problems and larger assignments to play with, illustrat
 A. Root Numbers over K for elliptic curves (implement) 
       People: Armin, Charlie, Hatice, Christ, Lola, Robert Miller, Thilina, M. Tip, Robert Bradshaw
 B. $#III(E/K)_{an}$ function (L-functions, connection to Wuthrich)
-      People: Berinder, M. Tip, Adam, Robert Miller, Robert Bradshaw, Chris Wuthrich
+      People: Barinder, M. Tip, Adam, Robert Miller, Robert Bradshaw, Chris Wuthrich
 C. Parity Predictions
       People: Arijit, Anil, Adam
 
