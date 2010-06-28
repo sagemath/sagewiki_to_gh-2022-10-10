@@ -76,3 +76,5 @@ Implement the method of Elkies and Watkins (reference below) to find elliptic cu
    2.  William Stein, Andrei Jorza, Jennifer Balakrishnan, "The Smallest Conductor for an Elliptic Curve of Rank Four is Composite", 2003: http://modular.fas.harvard.edu/papers/rank4/ .
 
 People: Elkies, Rado, Robert Bradshaw, Jeremy West, Jamie Weigandt
+
+[[/progress1|Preliminary Progress Report (Monday 28 June)]]
