@@ -59,7 +59,8 @@ The Mordell-Weil group mod $p$ is a subgroup of the mod $p$ Selmer group.  The K
 
 == Misc ==
 
-Finding the n-th roots of a point P on an elliptic curve even when they are not defined over the ground field. This should probably be implemented in Sage as an option in P.division_points(n, options),
+Finding the n-th roots of a point P on an elliptic curve even when they are not defined over the ground field -- this should be used in Project 3.
+This should probably be implemented in Sage as an option in P.division_points(n, options). 
 
 * Sage code: http://standalone.sagenb.org/home/pub/12/
 
