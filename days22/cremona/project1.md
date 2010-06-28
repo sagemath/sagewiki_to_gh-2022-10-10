@@ -1,6 +1,6 @@
 === Daily progress on Project 1 ===
 
-The database has so far reached: $N=130055$
+The database has so far reached: $N=130057$
 
 ==== Thursday 24th June ====
 
