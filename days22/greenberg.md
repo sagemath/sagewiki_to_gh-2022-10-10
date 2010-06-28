@@ -17,6 +17,7 @@ Ribet and Stein, "Lectures on Serre's conjecture", Chapter 1, see http://wstein.
 == Projects ==
 
 == Status report 28.06.2010 == 
+
 See http://wiki.sagemath.org/days22/greenberg/june282010
 
 A. Find the elliptic curve that modular mod-$p$ representations come from, for $p < 7$
