@@ -101,11 +101,19 @@ Pictures: http://picasaweb.google.com/wstein/20100624Sagedays22Day4
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
+
+
+== Weekend Fun! ==
+
+  * [[http://picasaweb.google.com/wstein/20100627San_franciscoTourism_with_cremona_and_millman|William Stein's pictures]]
+
+  * [[http://picasaweb.google.com/John.Cremona/GoldenGate27June2010?authkey=Gv1sRgCJegupnUs_upqAE|John Cremona's pictures]]
+
 == Monday, June 28 ==
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
 ||''' 9:30am - 10:00am'''||'''Stein''': Project status reports||
-||''' 10:00am - 10:50am'''||'''Weinstein''': talk 2||
+||''' 10:00am - 10:50am'''||'''Weinstein''': Invitation to ||
 ||''' 11:00am - 11:50am'''||'''Greenberg''': talk 3||
 || 12:00pm - 2:00pm|| Lunch at MSRI||
 || 2:00pm - 2:30pm|| '''Miller''': Tutorial on Mercurial Queues||
@@ -114,6 +122,7 @@ Pictures: http://picasaweb.google.com/wstein/20100624Sagedays22Day4
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
+
 == Tuesday, June 29 ==
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
@@ -126,6 +135,7 @@ Pictures: http://picasaweb.google.com/wstein/20100624Sagedays22Day4
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
+
 == Wednesday, June 30 ==
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
