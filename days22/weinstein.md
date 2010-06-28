@@ -55,7 +55,13 @@ Suppose the Heegner point $y_1\in E(K[1])$ has been computed, so that its coordi
 
 The Mordell-Weil group mod $p$ is a subgroup of the mod $p$ Selmer group.  The Kolyvagin classes lie in modified Selmer groups $H^1_{\mathcal{F}(\ell)}(K,E[p])$.  For small values of $p$ (i.e. $p=2$!), directly compute these Selmer groups.  Use the existing Selmer group functionality in SAGE (for number fields).
 
+Go along the lines of the paper of Shaefer and Stoll:  http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.165.1056
+
+When $\rho_{E,p}$ is surjective, there is an injective map $H^1_{\mathcal{F}(\ell)}(K,E[p])\to A^\times/(A^\times)^p$, where $A/K$ is the degree $p^2-1$ extension obtained by adjoining one $p$-division point of $E$ to $K$.  Use Shaefor and Stoll's method to characterize the image of this injection.  
+
+
  * Sage code (a start) for $p=3$: http://standalone.sagenb.org/home/pub/10/
+
 
 == Misc ==
 
