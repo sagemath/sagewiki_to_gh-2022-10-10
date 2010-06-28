@@ -2,10 +2,9 @@
 
 5 minutes - Recent progress on tables* (Jeremy? Robert Bradshaw?)
 
-10 minutes - Elkies-Watkins* (Jeremy? Rado?)
+10 minutes - Jeremy and/or Rado: Elkies-Watkins over number fields (enumerating number field elements by height)
 
+15 minutes - Jim Stankowicz on S-class groups 
 
-20 minutes - Jim Stankowicz on S-class groups 
-
-20 minutes - Rado and Jackie:  finding S-integral points
+15 minutes - Rado and Jackie:  finding S-integral points
 on Elliptic Curves over Number Fields
