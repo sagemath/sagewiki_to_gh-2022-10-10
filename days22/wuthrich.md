@@ -44,7 +44,7 @@ There are several subprojects
 
 '''Compute the modular symbols using complex integration'''
 
-    . People: Megan Maguire, Erin Militzer, Jamie W, John C, Robert Bradshaw, Matt G, Chan-Ho, Thilina, Gagan, Robert Miller, Tim Dokchitser, William Stein
+    . People: Megan Maguire, Erin Militzer, Jamie W, John C, Robert Bradshaw, Matt G, Vincent, Chan-Ho, Thilina, Gagan, Robert Miller, Tim Dokchitser, William Stein
 
 The original definition of the modular symbols $[r]^{+}$ and $[r]^{-}$ is given as an integral in the upper half plane. Sage currently computes the modular symbols attached to an elliptic curve (natively or in eclib) by finding the correct eigenspace in the space of all modular symbols of level $N$. For large $N$ this is very time consuming or even impossible. When we wish to compute only a few modular symbols, it could be much faster to compute the values of $[r]^{+}$ by the numerical approximation of the complex integrals.
 
