@@ -50,10 +50,12 @@ Suppose the Heegner point $y_1\in E(K[1])$ has been computed, so that its coordi
  * Noam's algorithm for computing the trace: [[/noamtrace]]
  * Sage code for Noam's algorithm: http://www.sagenb.org/home/pub/2179/
     
+
 == Project 3 ==
 
 The Mordell-Weil group mod $p$ is a subgroup of the mod $p$ Selmer group.  The Kolyvagin classes lie in modified Selmer groups $H^1_{\mathcal{F}(\ell)}(K,E[p])$.  For small values of $p$ (i.e. $p=2$!), directly compute these Selmer groups.  Use the existing Selmer group functionality in SAGE (for number fields).
 
+ * Sage code towards this program for $p=3$: http://standalone.sagenb.org/home/pub/11/
 
 == Misc ==
 
