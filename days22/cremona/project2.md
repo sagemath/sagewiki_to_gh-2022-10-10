@@ -15,6 +15,14 @@ Thursday 24 June:
 
 3. Xiao Xiao is working on the algorithm which, given a single $j$ and set $S$, computes the set of elliptic curves with that $j$-invariant and good reduction outside $S$ (if any).
 
+Saturday 26 June:
+
+Jim and John worked on S-class group code, realising that as it is a quotient of the class group and Sage cannot deal with quotients groups properly, something more basic will have to do temporarily.
+
+Sunday 27 June:
+
+Jim has finished implementing $K(S,2)_4$ and is testing.
+
 ==== Subproject 3 ====
 
 Several people have been studying the papers showing how to find all integral points, and $S$-integral points.
