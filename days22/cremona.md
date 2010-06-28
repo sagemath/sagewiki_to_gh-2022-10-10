@@ -79,4 +79,4 @@ People: Elkies, Rado, Robert Bradshaw, Jeremy West, Jamie Weigandt
 
 [[/progress1|Preliminary Progress Report (Monday 28 June)]]
 
-[[/to-do-list|To d- list]]
+[[/to-do-list|To do list]]
