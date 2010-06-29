@@ -30,3 +30,5 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
    13.  Elkies-Watkins over number fields -- post what function you have by the end of the week.
 
    14.  Implement a $2$-torsion rank function over number fields. 
+
+   15.  Given an elliptic curves defined over $K$, determine whether it is isomorphic over $K$ to a curves defined over $\QQ$.
