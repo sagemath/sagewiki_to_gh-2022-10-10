@@ -3,7 +3,7 @@
 This is a list of things (small or large) which came up during SD22 at MSRI as deserving to be fixed or implemented in Sage.
 
 
-   1.  Regulators over number fields.   NB over $\mathbf{Q}$ there are two functions, regulator() and regulator_of_points(), and it is the second of these which can be trivially implemented.  Just copy the code from ell_rational_field.py into ell_number_field.py; also copy height_pairing_matrix().  In each case I mean "move" rather than "copy".  Then in each case add doctests with a couple of examples over number fields.  The other function (regulator) is something which depends on having an actual MW basis, so is not for now.
+   1.  Regulators over number fields.   NB over $\mathbf{Q}$ there are two functions, regulator() and regulator_of_points(), and it is the second of these which can be trivially implemented.  Just copy the code from ell_rational_field.py into ell_number_field.py; also copy height_pairing_matrix().  In each case I mean "move" rather than "copy".  Then in each case add doctests with a couple of examples over number fields.  The other function (regulator) is something which depends on having an actual MW basis, so is not for now.  See ticket #9372: JEC is now working on this.
 
    2.  Linear dependencies of points over number fields (and over Q), modulo torsion.  The  attached file [[attachment:mwnf.m]] has Magma code for this (written by me) which may be useful, though you will have to find the Sage equivalent of LLLgram().  That  function takes a gram matrix (of not-necessarily full rank) and returns a reduced gram matrix and a matrix in GL(n,Z) and the rank r.
 
