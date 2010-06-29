@@ -13,15 +13,15 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
 
    5.  Integral points over number fields
 
-   6.  S-integral points over number fields
+   6.  $S$-integral points over number fields
 
-   7.  S-class groups 
+   7.  $S$-class groups 
 
    8.  K-Selmer groups esp.  $K(S,4)$ and $K(S,2)_4$
 
    9.  All curves with e.g.r.
 
-   10.  All curves with e.g.r. outside S (using most of the above)
+   10.  All curves with e.g.r. outside $S$ (using most of the above)
 
    11.  Iterating through number field elements by height;   special case for integers;   simpler version not by height.
 
@@ -29,4 +29,4 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
 
    13.  Elkies-Watkins over number fields -- post what function you have by the end of the week.
 
-   14.  Implement a 2-torsion rank function over number fields. 
+   14.  Implement a $2$-torsion rank function over number fields. 
