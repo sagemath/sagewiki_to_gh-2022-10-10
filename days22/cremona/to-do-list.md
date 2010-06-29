@@ -22,3 +22,11 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
    9.  All curves with e.g.r.
 
    10.  All curves with e.g.r. outside S (using most of the above)
+
+   11.  Iterating through number field elements by height;   special case for integers;   simpler version not by height.
+
+   12.  Heights on projective space over number fields (Jackie's code)
+
+   13.  Elkies-Watkins over number fields -- post what function you have by the end of the week.
+
+ 
