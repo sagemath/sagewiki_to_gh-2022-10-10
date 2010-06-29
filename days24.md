@@ -1,6 +1,7 @@
 = Sage Days 24 at RISC =
 == Symbolic Computation in Differential Algebra and Special Functions ==
 == July 17 - 22, 2010 ==
+=== ask not what Sage can do for you - ask what you can do for Sage ===
 
 The aim of this workshop is to
  * provide a gentle introduction to Sage (installation, features, tutorials on basic usage and development), and
@@ -23,6 +24,10 @@ This event is a part of [[http://www.risc.uni-linz.ac.at/about/conferences/summe
  * [[http://homepages.cwi.nl/~nicot/|Nico Temme]]
  * [[http://perso.univ-rennes1.fr/felix.ulmer/|Felix Ulmer]]
 
+=== Projects ===
+
+The [[/projects|coding sprints project ideas]] are [[/projects|here]]. 
+
 === Financial Support ===
 
 We have some funding to offer support for accommodation and in
@@ -38,9 +43,6 @@ Switzerland.
 We also have very limited non-EU funding. Even if you don't fit the criteria above, feel free to contact the organizers via email to ask about possibilities. 
 
 Accommodation for participants receiving financial support will be in shared double rooms at the Hotel Sommerhaus in Hagenberg, within walking distance to [[http://www.risc.jku.at|RISC]] where the workshop will take place.
-
-Follow [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|this link]] for the [[https://portal.risc.jku.at/conferences/sage-days-24/support-form|financial support application form]]. Deadline for applications was April 12th, 2010.
-
 
 === Registration ===
 
