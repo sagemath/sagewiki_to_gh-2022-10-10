@@ -62,6 +62,8 @@ The project proceeds in several steps
 
   *  Think about the non semi-stable case.
 
+This script computes the $\gamma$ transforming a cusp, if possible, to one where the denominator is a divisor of $N$: [[attachment: find_gamma.sage]]
+
 === Other projects ===
 
   * Look at overconvergent modular symbols
@@ -102,73 +104,3 @@ The project proceeds in several steps
   * As for other lectures, Silverman's book "The arithmetic of elliptic curves" contains a good background for elliptic curve, especially chapter III. We will use some further results on elliptic curves over global fields, mainly in chapter VII and X, but by far not everything there is needed.
 
   * A more concise introduction to the subject, including the discussion of how elliptic cures over $\mathbb{Q}$ are linked to modular forms is in the first two chapters of Darmon's book  "Rational Point on Modular Elliptic Curves".
-
-{{{
-def Gamma(E,r):
-   alpha = r.numerator()
-   beta = r.denominator()
-   N = E.conductor()
-   newcusp=0
-   epsilon=var('epsilon')
-   if gcd(beta,N) == 1:
-       [c,d] = xgcd(N*alpha,beta)[1:3]
-       c=-c
-       d=-d
-       Gamma = matrix(ZZ,[[-beta,alpha],[c*N,d]])
-       #Gamma = Gamma0(N)([-beta,alpha,c*N,d])
-       A = 0
-       B = 1
-       [C,D] = xgcd(-B,A)[1:3]
-       M = matrix(ZZ,[[A,B],[C,D]])
-       #M = SL2Z([A,C,B,D])
-       M = M.transpose()
-
-
-
-       Q = N/B
-
-       #[x,y] = xgcd(Q^2,N)[1:3]
-
-       #x = -x/A
-       #y=-y
-
-       #wQ = matrix(ZZ,[[Q*x,y],[N,-A*Q]])
-
-       print solve(epsilon == 1/Q * imag(SL2Z(M.inverse()).acton(SL2Z(Gamma).acton(r+i*epsilon)) ), epsilon)
-
-   else:
-       [c,d] = xgcd(N*alpha,beta)[1:3]
-       [a,b] = xgcd(d,-c*N)[1:3]
-       newcusp = (a*alpha + b*beta)/(c*N*alpha + d*beta)
-       Gamma = matrix(ZZ,[[a,b],[c*N,d]])
-       #Gamma = Gamma0(N)([-beta,alpha,c*N,d])
-       A = newcusp.numerator()
-       B = newcusp.denominator()
-       [C,D] = xgcd(-B,A)[1:3]
-       M = matrix(ZZ,[[A,B],[C,D]])
-       #M = SL2Z([A,C,B,D])
-       M = M.transpose()
-
-       Q = N/B
-
-       #[x,y] = xgcd(Q^2,N)[1:3]
-
-       #x = -x/A
-       #y=-y
-
-       #wQ = matrix(ZZ,[[Q*x,y],[N,-A*Q]])
-
-       print solve(epsilon == 1/Q * imag(SL2Z(M.inverse()).acton(SL2Z(Gamma).acton(r+i*epsilon)) ), epsilon)
-
-
-
-   return [Gamma,newcusp]
-
-
-
----------------
-
-
-
-
-}}}
