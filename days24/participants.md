@@ -7,26 +7,31 @@ Feel free to add your name to the list if you plan to come. You can add a questi
  * Martin Albrecht (RHUL)
  * Thomas Baechler (Aachen)
  * Stefan Boettner (Tulane)
+ * Mohamed S. Boudellioua
+ * Frédéric Chyzak (INRIA Rocquencourt)
  * Diego Dominici (New Paltz)
  * Alexander Dreyer (Kaiserslautern)
  * Burcin Erocal (RISC)
  * Ralf Hemmecke (RISC)
  * Fredrik Johansson
+ * Manuel Kauers (RISC)
  * Simon King (NUI Galway)
  * Karen Kohl (Tulane)
+ * Anja Korporal (RISC)
+ * Richard Kreckel
  * Robert Miller (UW)
  * Ionela Moale (JKU)
  * Oleksandr Motsak (Kaiserslautern)
  * Ciaran Mullan (RHUL)
  * Sebastian Pancratz (Oxford)
  * Peter Paule (RISC)
+ * Veronika Pillwein (RISC)
  * Alban Quadrat (INRIA Sophia Antipolis)
  * Georg Regensburger (RICAM)
  * Harald Schilly
- * Flaiva Stan (RISC)
+ * David Sevilla (RICAM)
+ * Flavia Stan (RISC)
  * Wiliam Stein (UW)
  * Nico Temme (CWI)
  * Felix Ulmer (IRMAR)
  * Zafeirakis Zafeirakopoulos (RISC)
-
- 
