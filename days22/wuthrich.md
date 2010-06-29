@@ -56,14 +56,6 @@ The project proceeds in several steps
 
      Here is the script which does that : [[attachment: approximation_of_integral.sage]]
 
-
----- /!\ '''Edit conflict - other version:''' ----
-     Here is the script which does that : [[attachment: approximation_of_integral.sage]]
-
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
   *  For a semi-stable curve we can split up the integration path from $r$ to $i\infty$ at a point $\tau$ and move the difficult part close to the real line using an Atkin Lehner involution to a nicer place
 
   *  Find the best place to cut the line.
