@@ -94,12 +94,10 @@ This script computes the $\gamma$ transforming a cusp, if possible, to one where
 
 === Modular symbols and $p$-adic L-functions ===
 
-  * [[attachment:modular_symbols_and_padic_lfunctions.1.pdf]]
-  * [[attachment:modular_symbols_and_padic_lfunctions.2.pdf]]
-  * [[attachment:modular_symbols_and_padic_lfunctions.3.pdf]] 
-  * [[attachment:modular_symbols_and_padic_lfunctions.4.pdf]]
-  * [[attachment:modular_symbols_and_padic_lfunctions.5.pdf]]
-  * [[attachment:modular_symbols_and_padic_lfunctions.6.pdf]] 
+
+  * [[attachment:modular_symbols_and_padic_lfunctions.pdf| First lecture]] on modular symbols and the $p$-adic L-function.
+
+  * [[attachment:padic_bsd.pdf| Second lecture]] on the $p$-adic version of the conjecture of Birch and Swinnerton Dyer. '''Warning''': The pages are in the reversed order.
 
 == Background reading ==
   
