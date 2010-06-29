@@ -9,7 +9,7 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
 
    3.  Finish ticket #8829 on saturation over number fields.  [This depends on item 1.]   Probably a job for JEC since he reviewed robertwb's patch and suggested changes, which he will now implement.
 
-   4.  Kilford's rank function patch #9342:  completed needs review. (Aly and Jeremy)
+   4.  Kilford's rank function patch #9342:  completed needs review. (Aly and Jeremy)(Done, has a positive review)
 
    5.  Integral points over number fields: ongoing project work re-implementing Nook's Magma code.
 
