@@ -17,7 +17,7 @@ See [[http://drupal.mscomp.org/orcp2010|this page]] for more about the special F
 
 == Monday, June 21 ==
 
-Pictures: http://picasaweb.google.com/wstein/20100621Sagedays22Day1
+ * Pictures: http://picasaweb.google.com/wstein/20100621Sagedays22Day1
 
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
@@ -36,7 +36,8 @@ Pictures: http://picasaweb.google.com/wstein/20100621Sagedays22Day1
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
 == Tuesday, June 22 ==
 
-http://picasaweb.google.com/wstein/20100622Sagedays22Day2
+ * Pictures: http://picasaweb.google.com/wstein/20100622Sagedays22Day2
+
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 9:00am - 9:30am'''||'''Stein''': Project status reports||
@@ -53,7 +54,7 @@ http://picasaweb.google.com/wstein/20100622Sagedays22Day2
 
 == Wednesday, June 23 ==
 
-http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
+ * Pictures: http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
@@ -67,7 +68,7 @@ http://picasaweb.google.com/wstein/20100623Sagedays22Bbq
 
 
 == Thursday, June 24 ==
-Pictures: http://picasaweb.google.com/wstein/20100624Sagedays22Day4
+ * Pictures: http://picasaweb.google.com/wstein/20100624Sagedays22Day4
 
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
@@ -112,6 +113,9 @@ Pictures: http://picasaweb.google.com/wstein/20100624Sagedays22Day4
   * [[http://picasaweb.google.co.uk/timdok/SageDays22?authkey=Gv1sRgCLD0suuYiovKwgE#|Tim Dokchitser's pictures (all of Week 1)]]
 
 == Monday, June 28 ==
+
+Pictures: http://picasaweb.google.com/wstein/20100628Sagedays22Day6#
+
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
 ||''' 9:30am - 10:00am'''||'''Stein''': Project status reports||
