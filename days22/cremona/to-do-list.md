@@ -7,7 +7,7 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
 
    2.  Linear dependencies of points over number fields (and over Q), modulo torsion.  The  attached file [[attachment:mwnf.m]] has Magma code for this (written by me) which may be useful, though you will have to find the Sage equivalent of LLLgram().  That  function takes a gram matrix (of not-necessarily full rank) and returns a reduced gram matrix and a matrix in GL(n,Z) and the rank r.
 
-   3.  Finish ticket #8829 on saturation over number fields.
+   3.  Finish ticket #8829 on saturation over number fields.  [This depends on item 1.]   Probably a job for JEC since he reviewed robertwb's patch and suggested changes, which he will now implement.
 
    4.  Kilford's rank function patch #9342:  completed needs review. (Aly and Jeremy)
 
