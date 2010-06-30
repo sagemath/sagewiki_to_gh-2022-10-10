@@ -77,6 +77,7 @@ Feel free to email the [[#organizers|organizers]] beforehand if you intend to pa
  * Burcin Erocal - burcin@erocal.org
  * Ralf Hemmecke - http://www.risc.jku.at/people/hemmecke
  * Temur Kutsia
+ * Flavia Stan - http://www.risc.jku.at/home/fstan
 
 <<Anchor(contact)>>
 === Contact & Mailing List ===
