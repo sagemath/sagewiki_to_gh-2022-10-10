@@ -7,6 +7,8 @@ See [[http://drupal.mscomp.org/orcp2010|this page]] for more about the special F
    * [[attachment:schedule.pdf]]
 
 == Suggested Cafes ==
+ 
+  * [[http://www.yelp.com/biz/caffe-strada-berkeley|Cafe Strada]]
 
   * [[http://www.peoplesjoint.com/|People's Coffee and Tea]] which is [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=People's+Coffee+and+Tea,+berkeley&sll=37.871788,-122.259142&sspn=0.008639,0.016565&gl=us&ie=UTF8&hq=People's+Coffee+and+Tea,&hnear=Berkeley,+Alameda,+California&ll=37.87277,-122.267253&spn=0.008638,0.016565&z=16&iwloc=A|here]] and opened until '''midnight'''.  
 
@@ -146,18 +148,21 @@ Pictures: http://picasaweb.google.com/wstein/20100628Sagedays22Day6#
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
 
 == Wednesday, June 30 ==
+
+
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 9:00am - 9:30am'''||'''Stein''': Project status reports||
 ||''' 9:30am - 10:20am'''||'''Wuthrich''': talk 3||
 ||''' 10:30am - 11:20am'''||'''Dokchitser''': Parity predictions||
-||''' 11:30am - 12:20pm'''||'''Ribet''': Colloquium on Galois Representations||
+||''' 11:30am - 12:20pm'''||'''Ribet''': [[attachment:ribet.pdf|Colloquium on Galois Representations]]||
 || 12:20pm - 2:00pm|| Lunch at MSRI||
 ||''' 2:00pm - 3:00pm'''||'''Kilford''': A Gentle Introduction to Overconvergent Modular Forms||
 || 3:00pm - 6:10pm|| Working sessions||
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
+
 == Thursday, July 1 ==
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
