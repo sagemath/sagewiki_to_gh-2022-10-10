@@ -30,6 +30,8 @@ There are several subprojects
 
     The run on John's file [[attachment: sha_fast.sage]] on cubic and quintic fields gave so far the following two tables for [[http://www.maths.nottingham.ac.uk/personal/cw/download/sha_data_3_1000_11_1000.txt|cubic fields]] and [[http://www.maths.nottingham.ac.uk/personal/cw/download/sha_data_5_1000_11_1000.txt|quintic fields]]. We need to improve the error bounds and make sure that the errors are correctly caught. 
 
+    Updated (6-29-10): precise error bounds were computed and are implemented in the file [[attachment: sha_v2.sage]]. We will run on cubic and quintic fields to gather more readable data.
+
     We will eventually extract statistical data from it, like "How likely it is that Sha is divisibile by a given prime?" or "How often is Sha trivial?" etc.
 
   * ''Implement in sage twists of'' $p$''-adic L-functions.'' The file padic_lseries.py should be modified to allow an additional optional argument to series to compute the twist by Dirichlet characters.
