@@ -7,6 +7,7 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
 
    2.  Linear dependencies of points over number fields (and over Q), modulo torsion.  The  attached file [[attachment:mwnf.m]] has Magma code for this (written by me) which may be useful, though you will have to find the Sage equivalent of LLLgram().  That  function takes a gram matrix (of not-necessarily full rank) and returns a reduced gram matrix and a matrix in GL(n,Z) and the rank r. (Aly, Jeremy, Jim)
 
+
    - Note: the Sage equivalent of LLLgram() is LLL_gram() which is a method for integer matrices. 
 
 
