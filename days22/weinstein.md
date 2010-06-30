@@ -61,7 +61,7 @@ When $\rho_{E,p}$ is surjective, there is an injective map $H^1_{\mathcal{F}(\el
 
 
  * Sage code (a start) for $p=3$: http://standalone.sagenb.org/home/pub/10/
-* Sage code (more than a start) for $p=3$: http://standalone.sagenb.org/home/daniel.disegni/16/publish/
+* Sage code (more than a start) for $p=3$: http://standalone.sagenb.org/home/pub/13/
 
 
 == Misc ==
