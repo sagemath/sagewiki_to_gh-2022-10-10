@@ -36,6 +36,8 @@ There are several subprojects
 
   * ''Implement in sage twists of'' $p$''-adic L-functions.'' The file padic_lseries.py should be modified to allow an additional optional argument to series to compute the twist by Dirichlet characters.
 
+    Updated (6-29-10): An example for the twist by (the power of) the Teichmuller character is given : http://www.sagenb.org/home/pub/2206/ The next aims are to develop this as a function and to implement the twist by characters of another different prime conductor.
+
   * ''Implement'' $\lambda$ ''and'' $\mu$ ''invariants for'' $p$''-adic power series.''
 
     The following two version of Robert Pollack's implementations in Magma might be useful especially the function ''iwasawa_invariants_ord''. [[attachment:pLseries.m]] and [[attachment:lseries.m]]
