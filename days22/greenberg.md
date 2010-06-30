@@ -56,7 +56,8 @@ People: Ben Linowitz, Sam Lichtenstein, Gagan, Chris Wuthrich, Barinder, Hatice
 
 Gagan reports that the Galois representations associated to 121A and 121C are surjective mod 2 but not mod 4.
 
-List of Elliptic curves which for which $\rho_E,2$ is surjective mod 2 but not mod 4.
+List of Elliptic curves which for which $\rho_E,2$ is surjective mod 2 but not mod 4.[[attachment:li4.sobj|li4.sobj]]
+
 
  
 List of Elliptic curves which for which $\rho_E,2$ is surjective mod 4 but not mod 8.
