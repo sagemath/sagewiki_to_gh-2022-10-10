@@ -54,13 +54,11 @@ People: Ben Linowitz, Sam Lichtenstein, Gagan, Chris Wuthrich, Barinder, Hatice
 
 === (24.06.2010 update) ===
 
-Gagan reports that the Galois representations associated to 121A and 121C are surjective mod 2 but not mod 4. [[attachment:2not4or4not8v3.sage|2not4or4not8v3.sage]]
+Gagan reports that the Galois representations associated to 121A and 121C are surjective mod 2 but not mod 4. 
 
-List of Elliptic curves which for which $\rho_E,2$ is surjective mod 2 but not mod 4.[[attachment:li4.sobj|li4.sobj]]
+==Status report, Monday 30.06.2010==
 
-
- 
-List of Elliptic curves which for which $\rho_E,2$ is surjective mod 4 but not mod 8. [[attachment:li8.sobj|li8.sobj]]
+See hhttp://wiki.sagemath.org/GaganSekhon
 
 
 There is only one conjugacy class of subgroups of GL(2,Z/9) which surjects onto (Z/9Z)* under the determinant map and reduces onto GL(2,Z/3).  It is of size 144=3*#GL(2,Z/3).  So Elkies' analysis of "3 not 9" pins down the image of Galois completely.  
