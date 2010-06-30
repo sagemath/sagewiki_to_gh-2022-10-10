@@ -40,6 +40,8 @@ There are several subprojects
 
     The following two version of Robert Pollack's implementations in Magma might be useful especially the function ''iwasawa_invariants_ord''. [[attachment:pLseries.m]] and [[attachment:lseries.m]]
 
+    The two invariants are implemented in the file [[attachment:lseries_invariants.sage]]. They will be used soon to find tables not unlike Pollack's tables.
+
   * Use the previous point to ''produce tables of Iwasawa invariants'' a bit like [[http://math.bu.edu/people/rpollack/Data/data.html|Pollack's tables]].
  
   * ''Implement better Dirichlet characters.'' Add a function to a Dirichlet character that give the field fixed by the kernel. Add a function to Abelian fields that gives back the conductor and the group od Dirichlet characters. Also the current implementation of Dirichlet characters could be improved a lot: make it into a group, make it faster.
