@@ -62,7 +62,8 @@ When $\rho_{E,p}$ is surjective, there is an injective map $H^1_{\mathcal{F}(\el
 
  * Sage code (a start) for $p=3$: http://standalone.sagenb.org/home/pub/10/
 * Sage code (more than a start) for $p=3$: http://standalone.sagenb.org/home/pub/13/
-* A Sage function that decides whether an element of A is unramified or transverse: http://sagenb.org/home/pub/2213
+
+ * A Sage function that decides whether an element of A is unramified or transverse: http://sagenb.org/home/pub/2213
 
 
 == Misc ==
