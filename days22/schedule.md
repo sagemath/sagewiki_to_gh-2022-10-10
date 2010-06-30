@@ -149,6 +149,7 @@ Pictures: http://picasaweb.google.com/wstein/20100628Sagedays22Day6#
 
 == Wednesday, June 30 ==
 
+  * Pictures: http://picasaweb.google.com/wstein/20100630Sagedays22Day8
 
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
