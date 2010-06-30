@@ -40,7 +40,7 @@ There are several subprojects
 
     The following two version of Robert Pollack's implementations in Magma might be useful especially the function ''iwasawa_invariants_ord''. [[attachment:pLseries.m]] and [[attachment:lseries.m]]
 
-    The two invariants are implemented in the file [[attachment:lseries_invariants.sage]]. They will be used soon to find tables not unlike Pollack's tables.
+    Update (6-29-10): The two invariants are implemented in the file [[attachment:lseries_invariants.sage]]. They will be used soon to find tables not unlike Pollack's tables.
 
   * Use the previous point to ''produce tables of Iwasawa invariants'' a bit like [[http://math.bu.edu/people/rpollack/Data/data.html|Pollack's tables]].
  
