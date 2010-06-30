@@ -47,6 +47,13 @@ Each of the original sections of NSF's message has a list of questions, which is
   * HBCU = "Historically Black Colleges and Universities"?  But what is a MSI?
   * Do we need to reiterate CalSate Dominguez Hills' enrollment profile?
   I'm sure Pong could dig up more info for us.
+  * Estelle Basor (AIM) was telling me in San Franciso about a 
+  minority-mathematician-educator group interested in Sage.  
+  Might be a good place to look for more test sites.  Can't find my exact notes at the moment.
+  * Letters of interest:  I have emails from David Joyner (Westpoint), Dana Ernst (Maine), 
+  Dan Drake (Korea), all with various Sage involvement already.  Also emails from Edgar 
+  Jasso (Seattle-area Community College), Erin Martin (Westminster C, Missouri), 
+  Jared Schlieper (Armstrong Atlantic, Georgia). 
 
 = Project details and management =
 
@@ -246,3 +253,7 @@ Each of the original sections of NSF's message has a list of questions, which is
 == Responses ==
  * RAB (6/30)  I can start on Human Subjects, but wonder if we will see
  results and what paperwork is needed?
+
+ * RAB (6/30)  One idea for budget savings.  Drop back to 4 schools per
+ year.  Less ambitious.  Saves $10,000.  Rob, Tom, Jason could each 
+ serve as a contact to two schools and William and Kiran could do one each.
