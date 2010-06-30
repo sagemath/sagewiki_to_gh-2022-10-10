@@ -31,4 +31,4 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
 
    14.  Implement a $2$-torsion rank function over number fields.  Jamie is working on this: #9371.
 
-   15.  Given an elliptic curves defined over $K$, determine whether it is isomorphic over $K$ to a curves defined over $\mathbb{Q}$.  [Get the j_invariant, decide if it is rational, if so construct a curve over Q with that j-invariant, base change itback to K, and test for the quadratic twist.  All these steps are implemented already.  See attached example [[attachment:eg.sage]] ]  (Erin)
+   15.  Given an elliptic curves defined over $K$, determine whether it is isomorphic over $K$ to a curves defined over $\mathbb{Q}$.  [Get the j_invariant, decide if it is rational, if so construct a curve over Q with that j-invariant, base change itback to K, and test for the quadratic twist.  All these steps are implemented already.  See attached example [[attachment:eg.sage]] ]  (Erin - patch posted #9384)
