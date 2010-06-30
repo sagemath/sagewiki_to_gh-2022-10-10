@@ -12,7 +12,11 @@ Each of the original sections of NSF's message has a list of questions, which is
   shared technology, etc) with these efforts?
 
 == Responses ==
- * Start here.
+  * (RAB, 6/30) David and Rob have already been speaking with Connexions
+  as part of a related project and have a good rapport with (two names here).
+
+  * (RAB, 6/30) Jason - do you have an article prepared for Math DL with Karl-Dieter?
+  Anything you can add here?
 
 = Engagement w/other institutions =
 
@@ -35,7 +39,14 @@ Each of the original sections of NSF's message has a list of questions, which is
   participate.
 
 == Responses ==
- * Start here.
+ * (RAB, 6/30)  Clearly this was a big one to have not gotten right.
+  * Maki led Jason and I to think a few firm examples would be superlative.
+  * I think it is wise to invite schools in two waves, as we said.
+  So we could stick to that?
+  * Tom has suggested we might round out the first group with firm commitments.
+  * HBCU = "Historically Black Colleges and Universities"?  But what is a MSI?
+  * Do we need to reiterate CalSate Dominguez Hills' enrollment profile?
+  I'm sure Pong could dig up more info for us.
 
 = Project details and management =
 
@@ -65,7 +76,12 @@ Each of the original sections of NSF's message has a list of questions, which is
   agreed to serve, and how will you recruit others?
 
 == Responses ==
- * Start here.
+ * (RAB, 6/30)
+   * Looks we need to be more specific about the "library of interacts", etc.
+   The new infrastructure in Sage for this might help reinforce the
+   dissemination, availability, ease of use.
+   * We need a timeline!
+   * "Editorial Board" - this is one for AIM it appears.
 
 = Evaluation =
 
@@ -101,7 +117,13 @@ Each of the original sections of NSF's message has a list of questions, which is
   interact with the faculty and/or their peers?
 
 == Responses ==
- * Start here.
+ * (RAB, 6/30)
+   * The social graph question looks like it came from NSF.  If modifications
+   are contributed back to open-souce textbooks they can be tracked with Mercurial.
+   Tom and I are using this now with his book.
+   * We've talked about "observing" student use (misuse) in a Sage worksheet as
+   a way for an instructor to learn more about student behavior.  Way out of
+   scope, but maybe worth responding positively about its potential.
 
 = Technology issues =
 
@@ -125,7 +147,17 @@ Each of the original sections of NSF's message has a list of questions, which is
   follow regarding broader impact and affordability.)
 
 == Responses ==
- * Start here.
+ * (RAB, 6/30)
+   * I think we want to say that sagenb.org cannot alone, in its current state,
+   serve as THE global Sage server.  Conversely, a single machine could certainly
+   service a department at a large school, or an entire small campus.  Maybe
+   this isn't accurate?  (Jason, William?).  But in any event, I think this
+   is what we want to discover.  If we plop down dedicated hardware, with
+   "tech support," can a school/department use Sage reliably?  Where is
+   the line on number of accounts serviced?  How much support is required?
+   How can the notebook be improved?  What should documentation say for
+   those who want to roll-their-own installation (perhaps outside of
+   official channels)?
 
 = Dissemination/Impact =
 
@@ -183,7 +215,9 @@ Each of the original sections of NSF's message has a list of questions, which is
   Please respond.
 
 == Responses ==
- * Start here.
+ * (RAB, 6/30)
+   * Reiterate stipends for summer preparation.  Could we allow them to be
+   used to finance a release unit if possible?
 
 = Additional Notes =
 
@@ -210,4 +244,5 @@ Each of the original sections of NSF's message has a list of questions, which is
   group. Again, it is your call here.
 
 == Responses ==
- * Start here.
+ * RAB (6/30)  I can start on Human Subjects, but wonder if we will see
+ results and what paperwork is needed?
