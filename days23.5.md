@@ -30,7 +30,7 @@
 
   * Martin Albrecht (tentative)
   * Mohamed Barakat
-  * Michael Brickenstein (tentative)
+  * Michael Brickenstein
   * Wolfram Decker
   * Alexander Dreyer
   * Burcin Erocal
