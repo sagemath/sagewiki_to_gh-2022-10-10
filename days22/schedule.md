@@ -165,6 +165,9 @@ Pictures: http://picasaweb.google.com/wstein/20100628Sagedays22Day6#
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
 
 == Thursday, July 1 ==
+
+ Pictures: http://picasaweb.google.com/wstein/20100701Sagedays22Day9
+
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 9:00am - 9:30am'''||'''Stein''': Project status reports||
