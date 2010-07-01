@@ -62,7 +62,7 @@ The project proceeds in several steps
 
   *  Implement a sage function that computes the integral from a given point $\tau$ in the upper half plane to $i\infty$ with a given maximal error. The bounds must be rigorous.
 
-     Here is the script which does that : [[attachment: approximation_of_integral.sage]]
+     Here is a first script which does that : [[attachment: approximation_of_integral.sage]] and a new version [[attachment:computing_modular_symbols_via_complex_integration.sage]]
 
   *  For a semi-stable curve we can split up the integration path from $r$ to $i\infty$ at a point $\tau$ and move the difficult part close to the real line using an Atkin Lehner involution to a nicer place
 
