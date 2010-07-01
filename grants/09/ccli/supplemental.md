@@ -18,6 +18,8 @@ Each of the original sections of NSF's message has a list of questions, which is
   * (RAB, 6/30) Jason - do you have an article prepared for Math DL with Karl-Dieter?
   Anything you can add here?
 
+  * (JG, 6/30) Karl-Dieter, Byungchul, and I have an outline for an article for LOCI that is somewhat fleshed out.  We put it aside to deal with PREP, but now Karl-Dieter has brought up the article again.  It's very unlikely to get done in the next two weeks, but the editor is looking forward to the article, so there is communication and working together.
+
 = Engagement w/other institutions =
 
   * A number of reviewers wanted to see more information about
@@ -54,6 +56,9 @@ Each of the original sections of NSF's message has a list of questions, which is
   Dan Drake (Korea), all with various Sage involvement already.  Also emails from Edgar 
   Jasso (Seattle-area Community College), Erin Martin (Westminster C, Missouri), 
   Jared Schlieper (Armstrong Atlantic, Georgia). 
+
+ * (JG, 6/30) [[http://www.math.txstate.edu/people/faculty/dean.html|Nate Dean]] (president of [[http://www.nam-math.org/|NAM]]) has been introduced to Sage and was excited about it.  He might be a great resource for finding HBCU schools.
+
 
 = Project details and management =
 
@@ -166,6 +171,8 @@ Each of the original sections of NSF's message has a list of questions, which is
    those who want to roll-their-own installation (perhaps outside of
    official channels)?
 
+  * (JG, 6/30) - I think Rob is correct that a single machine should be able to serve an entire small campus, at least initially.  I hope to have up to 100 simultaneous users on the Drake sage server with 16G of RAM and two quad-core processors (it seemed to serve several small classes with just 4G of RAM).  Certainly a single machine like that could serve an instructor's classes for the purposes of the grant.
+
 = Dissemination/Impact =
 
   * How will the system to allow textbooks to be converted to this on-line
@@ -257,3 +264,5 @@ Each of the original sections of NSF's message has a list of questions, which is
  * RAB (6/30)  One idea for budget savings.  Drop back to 4 schools per
  year.  Less ambitious.  Saves $10,000.  Rob, Tom, Jason could each 
  serve as a contact to two schools and William and Kiran could do one each.
+
+ * JG (6/30) I agree that cutting back to 4 schools per year is a good idea.  Maybe even 3 the first year and 5 the second year to give us some more time at the beginning to ramp things up?  That would solve the "didn't get more letters from schools" issue too.
