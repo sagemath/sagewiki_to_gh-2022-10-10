@@ -168,7 +168,7 @@ Pictures: http://picasaweb.google.com/wstein/20100628Sagedays22Day6#
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 9:00am - 9:30am'''||'''Stein''': Project status reports||
-||''' 9:30am - 10:20am'''||'''Dokchitser''': Root numbers||
+||''' 9:30am - 10:20am'''||'''Dokchitser''': L-functions and root numbers (background)||
 ||''' 10:30am - 11:20am'''||'''Wuthrich''': talk 4||
 ||''' 11:30am - 12:20pm'''||'''Weinstein''': talk 4||
 || 12:20pm - 2:00pm|| Lunch at MSRI||
