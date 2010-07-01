@@ -28,7 +28,7 @@ There are several subprojects
 
   * ''Compute the conjectural order of Sha over abelian fields.'' The aim is to use the sum of twisted modular symbols to compute the order of the Tate-Shafarevich group over cubic, quintic and septic fields of small conductors for elliptic curves of small conductors.
 
-    Updated (6-30-10): The most recent script to generate data is [[attachment:sha_v2.sage]]. It has generated tables for three curves: [[attachment:sha_data_3_11a_10000.txt|11a1 over cubic fields of conductor < 10k]], [[attachment:sha_data_3_11a3_1000.txt|11a3 over cubic fields of conductor < 1k]], and [[attachment:sha_data_3_42a1_10000.txt|42a1 over cubic fields of conductor < 10k]].
+    Updated (6-30-10): The most recent script to generate data is [[attachment:sha_v2.sage]]. It has generated tables for three curves: [[attachment:sha_data_3_11a1_10000.txt|11a1 over cubic fields of conductor < 10k]], [[attachment:sha_data_3_11a3_1000.txt|11a3 over cubic fields of conductor < 1k]], and [[attachment:sha_data_3_42a1_10000.txt|42a1 over cubic fields of conductor < 10k]].
 
     Updated (6-29-10): precise error bounds were computed and are implemented in the file [[attachment: sha_v2.sage]]. We will run on cubic and quintic fields to gather more readable data. Here ([[attachment:11a1.txt]]) is the data for the curve '11a1' and all primes conductors up to 10k and cubic fields inside there.
 
