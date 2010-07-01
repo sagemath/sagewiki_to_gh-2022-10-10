@@ -21,7 +21,11 @@ Jim and John worked on S-class group code, realising that as it is a quotient of
 
 Sunday 27 June:
 
-Jim has finished implementing $K(S,2)_4$ and is testing.
+Jim has finished implementing $K(S,2)_4$ and is testing.:
+
+Thursday 1 July:
+
+Jim implemented some code (using that written by Jackie and Rado ) that implements finding curves over number fields with everywhere good reduction (modulo using the correct version of Jackie and Rado's code and the wrapper of Simon two descent being worked out).
 
 ==== Subproject 3 ====
 
