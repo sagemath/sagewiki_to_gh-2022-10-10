@@ -2,7 +2,7 @@
 
 This is a list of things (small or large) which came up during SD22 at MSRI as deserving to be fixed or implemented in Sage.
 
-   -- Note: Items 1,2, and 4 are all *broken* until we resolve the bug with simon_two_descent. That is my project now since computing ranks (and descending to \mathbb{Q}: thanks Erin!) will be important in the Elkies-Watkins search over $\mathbb{Q}[i]$. (Jeremy)
+   -- Note: Items 1,2, and 4 are all *broken* until we resolve the bug with simon_two_descent. That is my project now since computing ranks (and descending to $\mathbb{Q}$: thanks Erin!) will be important in the Elkies-Watkins search over $\mathbb{Q}[i]$. (Jeremy)
 
 
    1.  Regulators over number fields.   NB over $\mathbf{Q}$ there are two functions, regulator() and regulator_of_points(), and it is the second of these which can be trivially implemented.  Just copy the code from ell_rational_field.py into ell_number_field.py; also copy height_pairing_matrix().  In each case I mean "move" rather than "copy".  Then in each case add doctests with a couple of examples over number fields.  The other function (regulator) is something which depends on having an actual MW basis, so is not for now.  See ticket #9372: JEC has uploaded a patch which is ready for review. (Aly and Jeremy -- reviewed, assuming just the doctest needed changed, positive review)
