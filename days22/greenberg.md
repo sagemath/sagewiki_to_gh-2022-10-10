@@ -14,13 +14,12 @@ Neukirch, "Algebraic number theory", Chapter 2, Section 10 and Chapter 5, Sectio
 
 Ribet and Stein, "Lectures on Serre's conjecture", Chapter 1, see http://wstein.org/papers/serre/
 
+
 == Final presentation, Friday 02.07.2010 ==
+
 
 See http://wiki.sagemath.org/days22/greenberg/presentation
 
-== Projects ==
-
----- /!\ '''End of edit conflict''' ----
 
 == Status report, Monday 28.06.2010 ==
 
