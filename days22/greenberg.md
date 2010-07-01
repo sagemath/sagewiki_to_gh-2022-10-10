@@ -14,8 +14,9 @@ Neukirch, "Algebraic number theory", Chapter 2, Section 10 and Chapter 5, Sectio
 
 Ribet and Stein, "Lectures on Serre's conjecture", Chapter 1, see http://wstein.org/papers/serre/
 
-== Projects ==
+== http://wiki.sagemath.org/days22/greenberg/presentation ==
 
+== Projects ==
 
 == Status report, Monday 28.06.2010 ==
 
