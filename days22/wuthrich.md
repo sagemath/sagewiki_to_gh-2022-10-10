@@ -47,6 +47,8 @@ There are several subprojects
   * Use the previous point to ''produce tables of Iwasawa invariants'' a bit like [[http://math.bu.edu/people/rpollack/Data/data.html|Pollack's tables]].
  
   * ''Implement better Dirichlet characters.'' Add a function to a Dirichlet character that give the field fixed by the kernel. Add a function to Abelian fields that gives back the conductor and the group od Dirichlet characters. Also the current implementation of Dirichlet characters could be improved a lot: make it into a group, make it faster.
+
+    Here is a script that compute the conductor of an abelian field [[attachment:abelian_field_dirichlet_group.sage]]
  
 === Project 2 ===
 
