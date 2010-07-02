@@ -14,7 +14,7 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
 
    4.  Kilford's rank function patch #9342:  completed needs review. (Aly and Jeremy)(Done, has a positive review)
 
-   5.  Integral points over number fields: ongoing project work re-implementing Nook's Magma code. - This code is done, and output matches the Magma code (and, over Q, it matches what is already implemented in sage). (Jackie and Rado)
+   5.  Integral points over number fields: ongoing project work re-implementing Nook's Magma code. - This code is done, and output matches the Magma code (and, over Q, it matches what is already implemented in sage). (Jackie and Rado)[[attachment:intpts.sage]]
 
    6.  $S$-integral points over number fields: ongoing project work, based on Smart-Stephens and taking as a model the code over $\mathbb{Q}$ for $S$-integral points.
 
