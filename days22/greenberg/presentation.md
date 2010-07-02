@@ -20,4 +20,4 @@
 
 [[attachment:BenPresentation.sws|BenPresentation.sws]]
 
-http://wiki.sagemath.org/GaganSekhon
+http://wiki.sagemath.org/GaganSekhon.
