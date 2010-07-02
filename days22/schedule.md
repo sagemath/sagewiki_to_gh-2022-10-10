@@ -1,6 +1,6 @@
 = Sage Days 22: Schedule =
 
-See [[http://drupal.mscomp.org/orcp2010|this page]] for more about the special Friday event.
+
 
 == Printable PDF Format ==
 
@@ -181,6 +181,8 @@ Pictures: http://picasaweb.google.com/wstein/20100628Sagedays22Day6#
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
 
 == Friday, July 2 ==
+
+ * Pictures: http://picasaweb.google.com/wstein/20100702Sagedays22Day10
 
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
