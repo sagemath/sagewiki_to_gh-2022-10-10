@@ -1,0 +1,121 @@
+
+Ellptic Curve : 11a1
+prime : 5 
+the power of Teichmuller : 0 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+5 + O(5^2) + O(5)*T + O(5)*T^2 + O(T^3)
+ 
+Ellptic Curve : 11a1
+prime : 5 
+the power of Teichmuller : 1 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+O(T^3)
+ 
+Ellptic Curve : 11a1
+prime : 5 
+the power of Teichmuller : 2 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+O(T^3)
+ 
+Ellptic Curve : 11a1
+prime : 5 
+the power of Teichmuller : 3 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+1 + 3*5 + 4*5^2 + O(5^3) + (1 + O(5))*T + O(5)*T^2 + O(T^3)
+ 
+Ellptic Curve : 11a1
+prime : 5 
+the power of Teichmuller : 4 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+5 + O(5^2) + O(5)*T + O(5)*T^2 + O(T^3)
+ 
+Ellptic Curve : 17a1
+prime : 5 
+the power of Teichmuller : 0 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+4 + 3*5 + 4*5^2 + O(5^3) + (3 + 3*5 + O(5^2))*T + (2 + 3*5 + O(5^2))*T^2 + O(T^3)
+ 
+Ellptic Curve : 17a1
+prime : 5 
+the power of Teichmuller : 1 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+O(T^3)
+ 
+Ellptic Curve : 17a1
+prime : 5 
+the power of Teichmuller : 2 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+O(T^3)
+ 
+Ellptic Curve : 17a1
+prime : 5 
+the power of Teichmuller : 3 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+1 + 2*5^2 + O(5^3) + (4 + 5 + O(5^2))*T + (2 + 3*5 + O(5^2))*T^2 + O(T^3)
+ 
+Ellptic Curve : 17a1
+prime : 5 
+the power of Teichmuller : 4 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+4 + 3*5 + 4*5^2 + O(5^3) + (3 + 3*5 + O(5^2))*T + (2 + 3*5 + O(5^2))*T^2 + O(T^3)
+ 
+Ellptic Curve : 39a1
+prime : 5 
+the power of Teichmuller : 0 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+1 + 4*5 + 5^2 + O(5^3) + (4 + 4*5 + O(5^2))*T + (2 + O(5^2))*T^2 + O(T^3)
+ 
+Ellptic Curve : 39a1
+prime : 5 
+the power of Teichmuller : 1 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+O(T^3)
+ 
+Ellptic Curve : 39a1
+prime : 5 
+the power of Teichmuller : 2 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+O(T^3)
+ 
+Ellptic Curve : 39a1
+prime : 5 
+the power of Teichmuller : 3 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+1 + 4*5 + O(5^3) + (4 + 2*5 + O(5^2))*T + (3 + 2*5 + O(5^2))*T^2 + O(T^3)
+ 
+Ellptic Curve : 39a1
+prime : 5 
+the power of Teichmuller : 4 
+n : 3
+precision : 3
+The p-adic L-function of a given elliptic curve twisted by the given power of the Teichmuller character is
+1 + 4*5 + 5^2 + O(5^3) + (4 + 4*5 + O(5^2))*T + (2 + O(5^2))*T^2 + O(T^3)
+ 
