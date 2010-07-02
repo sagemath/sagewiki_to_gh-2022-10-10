@@ -33,7 +33,7 @@ This is a list of things (small or large) which came up during SD22 at MSRI as d
    13.  Elkies-Watkins over number fields -- post what code you have by the end of the week.
         -- This works very well now. I am working to get access to sage.math to run it on that server (rather than on my computer at home). I need to find a good place, if there is one, to add this into the sage library. Maybe in a miscellaneous file somewhere. (Jeremy)
 
-   14.  Implement a $2$-torsion rank function over number fields.  Jamie is working on this: #9371.
+   14.  Implement a $2$-torsion rank function over number fields.  Jamie is working on this: #9371. Patch is up, needs review.
 
    15.  Given an elliptic curves defined over $K$, determine whether it is isomorphic over $K$ to a curves defined over $\mathbb{Q}$.  [Get the j_invariant, decide if it is rational, if so construct a curve over Q with that j-invariant, base change itback to K, and test for the quadratic twist.  All these steps are implemented already.  See attached example [[attachment:eg.sage]] ]  (Erin - patch posted #9384)
           *I've fixed this function, descend_to. It now returns the correct twist for the general case and works when j=0,1728.
