@@ -91,13 +91,13 @@ Reading (Kobayashi)
 
 L-functions of elliptic curves over number fields
    * Adam
-        1.Extended the .dokchitser attribute from rationals to general number fields.
+        1. Extended the .dokchitser attribute from rationals to general number fields.
             -The main component was producing a method to obtain the coefficients of
              of the Dirichlet expansion of the L-series.
             -Patch has been submitted: trac #9402
 
 
-        2.Discovered a bug in .count_points() attribute for elliptic curves
+        2. Discovered a bug in .count_points() attribute for elliptic curves
             -During the course of (1) this was discovered. Apparently, .count_points()
              caches its answer, and running a loop over different residue fields and 
              elliptic curves results in failure.
