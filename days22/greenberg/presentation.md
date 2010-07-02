@@ -12,7 +12,7 @@
 
 5. Elliptic curves whose Galois representations are surjective mod 4 (resp. 8) but not mod 2 (resp. 4)
 
-[[attachment:S_4 field _ Elliptic Curve comparison]]
+[[attachment:s4fieldellipticcurve.csv]]
 
 [[attachment:compileddata.csv]]
 
