@@ -185,7 +185,7 @@ Pictures: http://picasaweb.google.com/wstein/20100628Sagedays22Day6#
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am, 9:10am|| Ride bus to MSRI||
 ||''' 9:30am - 10:20am'''||Dokchitser's student presentations||
-||''' 10:30am - 11:50pm'''||Greenberg's student presentations||
+||''' 10:30am - 11:50am'''||Greenberg's student presentations||
 || 12:00pm - 2:00pm|| Lunch at MSRI||
 ||''' 2:00pm - 2:50pm'''||Stein/Weinstein's student presentations||
 ||''' 3:00pm - 3:50pm'''||Wuthrich's student presentations||
