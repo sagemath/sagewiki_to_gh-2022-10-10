@@ -14,10 +14,14 @@
 
 [[attachment:S_4 field _ Elliptic Curve comparison]]
 
-[[attachment:newfndata.csv|newnfdata.csv]]
+[[attachment:compileddata.csv]]
 
-[[attachment:exceptionalfields.csv|exceptionalfields.csv]]
+[[attachment:freakshow.csv]]
 
-[[attachment:BenPresentation.sws|BenPresentation.sws]]
+[[attachment:newfndata.csv]]
+
+[[attachment:exceptionalfields.csv]]
+
+[[attachment:BenPresentation.sws]]
 
 http://wiki.sagemath.org/GaganSekhon.
