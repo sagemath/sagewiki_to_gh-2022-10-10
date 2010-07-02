@@ -115,3 +115,11 @@ W. Stein, Toward a generalization of Gross-Zagier.  http://wstein.org/papers/ste
 === Compute Kolyvagin classes mod p ===
 
  * Subproject: fix trac #9302: http://trac.sagemath.org/sage_trac/ticket/9302
+
+=== Presentation ===
+ * Introduction (Daniel)
+ * 2-descent (Ian): http://sagenb.org/home/pub/2227
+ * 389a (Justin): http://standalone.sagenb.org/home/pub/16/
+ * 5077a (Rebecca): http://demo.sagenb.org/home/pub/32/
+ * trace of Heegner (Jen): http://demo.sagenb.org/home/pub/33/
+ * n-divisible points (Daniel): demo
