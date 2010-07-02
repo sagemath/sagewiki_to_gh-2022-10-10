@@ -60,7 +60,7 @@ People: Ben Linowitz, Sam Lichtenstein, Gagan, Chris Wuthrich, Barinder, Hatice
 
 Gagan reports that the Galois representations associated to 121A and 121C are surjective mod 2 but not mod 4. 
 
-==Status report, Monday 30.06.2010==
+== Status report, Monday 30.06.2010 ==
 
 See http://wiki.sagemath.org/GaganSekhon
 
@@ -72,3 +72,7 @@ There is only one conjugacy class of subgroups of GL(2,Z/9) which surjects onto 
   * A program for finding certain integral modular symbols that Matt G. wanted: http://nt.sagenb.org/home/pub/13/
 
   * All of the code Ben Linowitz produced during the conference: [[attachment:Ben_Linowitz_SD22.sws|Sage worksheet (sws)]]
+
+  * All the code and data that William Stein computed when making a big table of newforms: http://sage.math.washington.edu/home/wstein/db/modsym-2010
+
+  * William's improvements to reduction mod primes code in sage: http://trac.sagemath.org/sage_trac/ticket/9400
