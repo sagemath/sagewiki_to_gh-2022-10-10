@@ -22,6 +22,8 @@
 
 [[attachment:exceptionalfields.csv]]
 
+[[attachment:serre.pdf]]
+
 [[attachment:BenPresentation.sws]]
 
 http://wiki.sagemath.org/GaganSekhon.
