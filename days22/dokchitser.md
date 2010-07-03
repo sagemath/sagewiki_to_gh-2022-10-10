@@ -112,7 +112,7 @@ note that the implementation needs the patches #9334 (Hilbert symbol) as well as
 [[attachment:dirty_model.patch]] to be applied (the latter needs to be improved
 and will be posted to trac soon).
 
-Finally, to work correctly the tickets #9389 and #9410 need to be addressed.
+Finally, to work correctly the tickets #9389, #9410, and #9417 need to be addressed.
 
 For testing against Magma, one can use [[attachment:magma.sage]].
 
