@@ -102,3 +102,19 @@ L-functions of elliptic curves over number fields
              caches its answer, and running a loop over different residue fields and 
              elliptic curves results in failure.
             -No patch yet; but notified devel team: trac #9409
+
+== Implementation of root numbers ==
+
+A very preliminary implementation of root numbers over number fields is attached
+as [[attachment:root_number.sage]].  The case of primes dividing 2 certainly has
+bugs at the moment.  An updated version will be uploaded to ticket #9320.  Also
+note that the implementation needs the patches #9334 (Hilbert symbol) as well as
+[[attachment:dirty_model.patch]] to be applied (the latter needs to be improved
+and will be posted to trac soon).
+
+Finally, to work correctly the tickets #9389 and #9410 need to be addressed.
+
+For testing against Magma, one can use [[attachment:magma.sage]].
+
+Fridays presentations are available as [[attachment:goodcop.sws]] and
+[[attachment:badcop.sws]]. The first of these also needs [[attachment:demo.sage]].
