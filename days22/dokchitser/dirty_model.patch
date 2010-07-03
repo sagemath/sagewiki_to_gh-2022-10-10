@@ -1,0 +1,65 @@
+# HG changeset patch
+# User Armin Straub <math@arminstraub.com>
+# Date 1277826449 18000
+# Node ID 651e1568354b8fd2661308c7e6c6be92d0b887dd
+# Parent  8dec8b43ccca5f104b1e280cb33c8f4c2c1b8f85
+Adding a flag to minimal_model() to return the EC as returned by Tate's algorithm (that is before "tidying" it)
+
+diff -r 8dec8b43ccca -r 651e1568354b sage/schemes/elliptic_curves/ell_local_data.py
+--- a/sage/schemes/elliptic_curves/ell_local_data.py	Wed Jun 23 20:40:43 2010 -0700
++++ b/sage/schemes/elliptic_curves/ell_local_data.py	Tue Jun 29 10:47:29 2010 -0500
+@@ -294,12 +294,17 @@
+         red_type = "good"
+         if not self._reduction_type is None:
+             red_type = ["bad non-split multiplicative","bad additive","bad split multiplicative"][1+self._reduction_type]
+-        return "Local data at %s:\nReduction type: %s\nLocal minimal model: %s\nMinimal discriminant valuation: %s\nConductor exponent: %s\nKodaira Symbol: %s\nTamagawa Number: %s"%(self._prime,red_type,self._Emin,self._val_disc,self._fp,self._KS,self._cp)
++        return "Local data at %s:\nReduction type: %s\nLocal minimal model: %s\nMinimal discriminant valuation: %s\nConductor exponent: %s\nKodaira Symbol: %s\nTamagawa Number: %s"%(self._prime,red_type,self.minimal_model(),self._val_disc,self._fp,self._KS,self._cp)
+ 
+-    def minimal_model(self):
++    def minimal_model(self, tidy=True):
+         """
+         Return the (local) minimal model from this local reduction data.
+ 
++        INPUT:
++
++        - ``tidy`` -- (default: True) if set to True the EC returned by Tate's algorithm will be 
++          "tidied" as specified in _tidy_model() for curves over number fields.
++
+         EXAMPLES::
+ 
+             sage: from sage.schemes.elliptic_curves.ell_local_data import EllipticCurveLocalData
+@@ -310,8 +315,25 @@
+             Elliptic Curve defined by y^2 = x^3 + 1 over Rational Field
+             sage: data.minimal_model() == E.local_minimal_model(2)
+             True
++
++        To demonstrate the behaviour when ``tidy`` is set to False::
++
++            sage: K.<a> = NumberField(x^3+x+1)
++            sage: E = EllipticCurve(K, [0, 0, a, 0, 1])
++            sage: E.local_data(K.ideal(a-1)).minimal_model()
++            Elliptic Curve defined by y^2 + a*y = x^3 + 1 over Number Field in a with defining polynomial x^3 + x + 1
++            sage: E.local_data(K.ideal(a-1)).minimal_model(tidy=False)
++            Elliptic Curve defined by y^2 + (a+2)*y = x^3 + 3*x^2 + 3*x + (-a+1) over Number Field in a with defining polynomial x^3 + x + 1
+         """
+-        return self._Emin
++        if tidy:
++            try:
++                return self._Emin_tidy
++            except AttributeError:
++                pass
++            self._Emin_tidy = self._Emin._tidy_model()
++            return self._Emin_tidy
++        else:
++            return self._Emin
+ 
+     def prime(self):
+         """
+@@ -938,7 +960,6 @@
+                 pie *= pi # now pie=pi^6
+                 a6 /= pie
+                 verbose("Non-minimal equation, dividing out...\nNew model is %s"%([a1, a2, a3, a4, a6]), t, 1)
+-        C = C._tidy_model()
+         return (C, p, val_disc, fp, KS, cp, split)
+     
+     
