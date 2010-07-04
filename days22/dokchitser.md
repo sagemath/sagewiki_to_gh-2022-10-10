@@ -118,3 +118,6 @@ For testing against Magma, one can use [[attachment:magma.sage]].
 
 Fridays presentations are available as [[attachment:goodcop.sws]] and
 [[attachment:badcop.sws]]. The first of these also needs [[attachment:demo.sage]].
+
+== Parity Predictions ==
+A brief summary of the project is available as [[attachment:project.pdf]]
