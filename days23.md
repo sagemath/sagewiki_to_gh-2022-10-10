@@ -8,7 +8,7 @@
 
   http://www.lorentzcenter.nl/lc/web/2010/415/info.php3?wsid=415
 
-[[CodingProjects]]
+[[days23/CodingProjects|Coding Projects]]
 
 == Schedule ==
 
