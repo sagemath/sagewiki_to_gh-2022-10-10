@@ -1,3 +1,4 @@
+## page was renamed from CodingProjects
 == sage-4.5 ==
 
 
@@ -17,7 +18,7 @@
 
 
  * genus 1 --> Weierstrass
- * People: Dan Bernstein, Tanja Lange, (Nils, Tanja's student, remotely), Johannes van der Horst, Michiel Kosters, Marco Streng, Vince Bush, Julio Brau, Michael Mourao
+ * People: Dan Bernstein, Tanja Lange, Niels Duif, Johannes van der Horst, Michiel Kosters, Marco Streng, Vince Bush, Julio Brau, Michael Mourao
 
 
 == Riemann-Roch Space (Normalization) ==
