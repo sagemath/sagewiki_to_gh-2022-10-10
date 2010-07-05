@@ -16,7 +16,7 @@
 === Monday, July 5 ===
 ||10:30am-10:50am||Introduction and Orientation||
 ||11:00am-11:50am||Frank Lubeck: TBA||
-||2:00pm-2:45pm||William Stein: Introduction to the Sage Project||
+||2:00pm-2:45pm|| [[http://sagenb.org/home/pub/2233/|William Stein: Introduction to the Sage Project]]||
 ||2:50pm-3:05pm||Introductions||
 ||3:10pm-4:00pm||Project organization session||
 ||4:00pm-5:00pm||Working Sessions||
