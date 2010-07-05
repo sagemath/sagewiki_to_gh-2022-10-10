@@ -93,7 +93,7 @@ Each of the original sections of NSF's message has a list of questions, which is
    The new infrastructure in Sage for this might help reinforce the
    dissemination, availability, ease of use.
    * We need a timeline!
-   * "Editorial Board" - this is one for AIM it appears.
+   * "Editorial Board" - this is one for AIM it appears.  (David F brought this to the attention of Kent Morrison)
 
 = Evaluation =
 
