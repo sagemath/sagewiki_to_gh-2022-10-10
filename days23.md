@@ -1,7 +1,7 @@
 = Sage Days 23: Leiden -- Number Theory and Algebra =
 
  * ''Dates'': July 5-9, 2010
- * ''Organizers'': William Stein, Bart de Smit, Wieb Bosma
+ * ''Organizers'':  Wieb Bosma, Bart de Smit, William Stein, 
  * ''Mailing list'': http://groups.google.com/group/sagedays23
 
 == Offical website ==
