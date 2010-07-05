@@ -18,7 +18,7 @@
 ||2:50pm-3:05pm||Introductions||
 ||3:10pm-4:00pm||Project organization session||
 ||4:00pm-5:00pm||Working Sessions||
-||5:00pm-6:30pm|Wine and Cheese Welcome Party||
+||5:00pm-6:30pm||Wine and Cheese Welcome Party||
 
 
 == Poster ==
