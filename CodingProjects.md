@@ -57,15 +57,9 @@
 
 == MPIR projects ==
 
-
+ * fmpz in Sage
+ * a very concrete C project
  * People: Frederik Johansson, Bill Hart
-
-
-== fmpz in Sage, or in MPIR ==
-
-
- * 
-
 
 == Ticket #4260 - Sage + Linbox ==
 
