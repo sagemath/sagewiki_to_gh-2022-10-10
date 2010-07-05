@@ -13,7 +13,7 @@ Each of the original sections of NSF's message has a list of questions, which is
 
 == Responses ==
   * (RAB, 6/30) David and Rob have already been speaking with Connexions
-  as part of a related project and have a good rapport with (two names here).
+  as part of a related project and have a good rapport with (two names here) Kathi Fletcher and Joel Thierstein.
 
   * (RAB, 6/30) Jason - do you have an article prepared for Math DL with Karl-Dieter?
   Anything you can add here?
