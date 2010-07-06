@@ -1,4 +1,7 @@
 ## page was renamed from CodingProjects
+
+<<TableOfContents>>
+
 == sage-4.5 ==
 
 
