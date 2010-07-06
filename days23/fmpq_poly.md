@@ -46,3 +46,9 @@ It seems that more often than not the indentation is set to 4 spaces.  If I enco
 There are quite a few ways that one might want to support aliasing for fmpz_vec methods.  Today already you mentioned that you'd want to support fmpz_vec operations in case where the resulting vector is exactly aligned with the input vector or vectors, but that other ways of overlapping input and output vectors should not be supported.  When fmpz_vec methods take an additional fmpz argument (e.g. for scalar multiplication and division), should it be supported that the additional fmpz is an entry in one of the vectors (input or output)?
 
 I guess it'd be a good idea to briefly think about what should be supported and to document that behaviour and then simply declare the behaviour "undefined" in the remaining cases?
+
+[Sebastian, Monday night, 3am]
+
+6)  Conversion between fmpz and mpz types
+
+At the moment I can't seem to find the methods "fmpz_to_mpz" and "mpz_to_fmpz".
