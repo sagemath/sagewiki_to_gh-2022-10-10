@@ -8,7 +8,9 @@
 
   http://www.lorentzcenter.nl/lc/web/2010/415/info.php3?wsid=415
 
-[[days23/CodingProjects|Coding Projects]]
+== Working Sessions ==
+
+  * [[/CodingProjects|Coding Sprint Projects]]
 
 == Schedule ==
 
@@ -26,10 +28,20 @@
 === Tuesday, July 6 ===
 ||9:30am-10:00am||Coding sprint status reports||
 ||10:10am-11:00am||Bill Hart: TBA||
+||11:10am-12:10pm||Robert Miller: Sage Newbies Tutorial||
+||12:10pm-2:00pm||Lunch||
+||2:00pm-late||Working Sessions||
 
 === Wednesday, July 7 ===
 ||9:30am-10:00am||Coding sprint status reports||
 ||10:10am-11:00am||William Stein: Torsion points over quartic fields||
+||11:10am-12:10pm||5-minute Lightening talks||
+||12:10pm-2:00pm||Lunch||
+||2:00pm-4:30pm||Working Sessions||
+||4:45pm-5:00pm||Departure to boat by bus||
+||5:00pm-9:00pm||Boat trip, including dinner||
+||9:00pm-||Departure by bus to hotel Het Haagsche Schouw, Lorentz Center, and Leiden Central Station||
+
 
 === Thursday, July 8 ===
 ||9:30am-10:00am||Coding sprint status reports||
