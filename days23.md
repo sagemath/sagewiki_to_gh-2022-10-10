@@ -28,6 +28,9 @@
 ||5:00pm-6:30pm||Wine and Cheese Welcome Party||
 
 === Tuesday, July 6 ===
+
+ * Pictures: http://picasaweb.google.com/wstein/20100706Sagedays23Day2
+
 ||9:30am-10:00am||Coding sprint status reports||
 ||10:10am-11:00am||Bill Hart: Fourier Transform||
 ||11:10am-12:00pm||Robert Miller: Sage Newbies Tutorial||
