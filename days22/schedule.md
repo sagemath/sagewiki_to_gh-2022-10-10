@@ -102,7 +102,7 @@
 ||''' 2:50pm - 3:40pm'''||'''Stein (Univ of Washington)''': [[http://demo.sagenb.org/home/pub/31/|Sage: creating an open source alternative to Ma*]]||
 || 3:40pm - 4:10pm||  Tea||
 ||''' 4:10pm - 5:00pm'''||'''Millman (Berkeley)''': The Foundation for mathematical and scientific computing||
-|| 5:00pm - 6:10pm||  Discussion||
+|| 5:00pm - 6:10pm||  [[/discussion|Discussion]]||
 || 5:55pm, 6:25pm, 7:15pm|| Bus down hill||
 || 5:30pm - 7:00pm|| Dinner at Foothill dining facility||
 || 7:30pm - 11:30pm|| Working session at the dorm and/or coffee shops||
