@@ -121,9 +121,9 @@ Created tickets:
 
 
 
- * a Conic class using Denis Simon's pari code, possibly mwrank, finding points over number fields, other fields?
- * see sage trac #727 (and also #6881)
  * People: Marco Streng, Mak Trifkovic, Peter Bruin, John Cremona
+ * Write a Conic class using Denis Simon's pari code, possibly mwrank, finding points over number fields, other fields?
+ * http://wiki.sagemath.org/days23/conics
 
 
 == Sums of Squares ==
