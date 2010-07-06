@@ -22,6 +22,7 @@
 
  * genus 1 --> Weierstrass
  * People: Dan Bernstein, Tanja Lange, Niels Duif, Johannes van der Horst, Michiel Kosters, Marco Streng, Vince Bush, Julio Brau, Michael Mourao, John Cremona
+ * Tom Fisher's Magma code for invariants and covariants of plane cubics [[attachment:covariants.m]]
 
 
 == Function Fields ==
