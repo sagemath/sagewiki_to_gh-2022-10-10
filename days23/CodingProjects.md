@@ -107,8 +107,7 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
  * mpfq is LGPL!
  * special support for $p^n \pm 1$.
  * People: Hendrik Lenstra, Dan Bernstein, Tanja Lange, Christiane Peters, Peng Tian, Julio Brau, Mak Trifkovic
-
-
+ * [[http://ttic.uchicago.edu/~kalai/papers/old_papers/factorcryptology.pdf|Kalai's paper]]
 == Solving Conics ==
 
 
