@@ -56,7 +56,7 @@
 == ZZ[x] factoring in FLINT, plus LLL ==
 
 
- * People: Andy Novocin, Wieb Bosma, Johannes van der Horst, Bill Hart
+ * People: Andy Novocin, Wieb Bosma, Johannes van der Horst, Bill Hart, Max Flander
 
 
 == MPIR projects ==
