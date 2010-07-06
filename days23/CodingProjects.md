@@ -44,6 +44,9 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
  * fundamental domains (port H. Verrill program and implement R. Kulkarni method)
  * People: Vincent Delecroix, Maite Arianes, Thijs van Dijk
 
+{{http://iml.univ-mrs.fr/~delecroi/hyp-pic1.png|cool hyperbolic picture 1}}
+{{http://iml.univ-mrs.fr/~delecroi/hyp-pic2.png|cool hyperbolic picture 2}}
+
 Related tickets
  * Trac 3313: [[http://trac.sagemath.org/sage_trac/ticket/3313|Old ticket for lifting of SL_m(Z/nZ) to SL_m(Z)]]
  * Trac 7424: [[http://trac.sagemath.org/sage_trac/ticket/7424|Inconsistency of SL and PSL]]
