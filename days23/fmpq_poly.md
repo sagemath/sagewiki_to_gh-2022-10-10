@@ -58,3 +58,11 @@ At the moment I can't seem to find the methods "fmpz_to_mpz" and "mpz_to_fmpz".
 fmpq_poly:  set_si, set_ui, set_fmpz, neg, inv, swap
 
 I still need to find the method "mpz_to_fmpz" in order to write the methods "set_mpz" and "set_mpq".
+
+[Sebastian, Tuesday morning, 11am]
+
+8)  Polynomial parameters
+
+I couldn't find the method "degree" for fmpz_poly.  I added the methods
+
+fmpq_poly:  degree, length
