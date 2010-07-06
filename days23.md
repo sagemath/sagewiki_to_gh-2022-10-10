@@ -34,6 +34,10 @@
 ||11:10am-12:00pm||Robert Miller: Sage Newbies Tutorial||
 ||12:10pm-2:00pm||Lunch||
 ||2:00pm-late||Working Sessions||
+||2:00pm||ABC in 201; Function fields and models for curves in 335||
+||3:00pm||Sage Notebook in 201; Conics in 335||
+||4:00pm||Factoring in 201; Sums of Squares in 335||
+||5:00pm||ECHIDNA in 201||
 
 === Wednesday, July 7 ===
 ||9:30am-10:00am||Coding sprint status reports||
