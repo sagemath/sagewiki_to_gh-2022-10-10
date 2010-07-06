@@ -16,11 +16,7 @@ So far I've written the following..
 
 fmpq_poly:  init, init2, realloc, fit_length, set_length, clear, normalise, canonicalise, set, is_zero, equal.  (No test code yet.)
 
-fmpz_vec:  content
-
-Apart from the code in fmpq_poly, I still need to write..
-
-fmpz_vec:  scalar division
+fmpz_vec:  content, scalar_divexact, scalar_fdiv_q, scalar_fdiv_q_2exp
 
 3)  static inline
 
@@ -38,3 +34,15 @@ void _fmpz_poly_set_length(fmpz_poly_t poly, const ulong length)
 
     poly->length = length;
 }
+
+[Sebastian, Monday night, 2am]
+
+4)  White space
+
+It seems that more often than not the indentation is set to 4 spaces.  If I encounter something different in a part of a file that I'm working on, I might change it to 4 spaces.  I hope that's OK.
+
+5)  fmpz_vec:  aliasing
+
+There are quite a few ways that one might want to support aliasing for fmpz_vec methods.  Today already you mentioned that you'd want to support fmpz_vec operations in case where the resulting vector is exactly aligned with the input vector or vectors, but that other ways of overlapping input and output vectors should not be supported.  When fmpz_vec methods take an additional fmpz argument (e.g. for scalar multiplication and division), should it be supported that the additional fmpz is an entry in one of the vectors (input or output)?
+
+I guess it'd be a good idea to briefly think about what should be supported and to document that behaviour and then simply declare the behaviour "undefined" in the remaining cases?
