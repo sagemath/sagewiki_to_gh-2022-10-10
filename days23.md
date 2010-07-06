@@ -36,7 +36,7 @@
 ||2:00pm||ABC in 201; Function fields and models for curves in 335||
 ||3:00pm||Sage Notebook in 201; Conics in 335||
 ||4:00pm||Factoring in 201; Sums of Squares in 335||
-||5:00pm||ECHIDNA in 201||
+||5:00pm||ECHIDNA in 201; Function fields in 335||
 
 === Wednesday, July 7 ===
 ||9:30am-10:00am||Coding sprint status reports||
