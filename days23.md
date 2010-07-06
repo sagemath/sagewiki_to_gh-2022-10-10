@@ -44,7 +44,7 @@
 === Wednesday, July 7 ===
 ||9:30am-10:00am||Coding sprint status reports||
 ||10:10am-11:00am||William Stein: Torsion points over quartic fields||
-||11:10am-12:10pm||5-minute Lightning talks: Pernet, j.p.van.der.hors, ...||
+||11:10am-12:10pm||5-minute Lightning talks: Pernet, Johannes van der Horst, ...||
 ||12:10pm-2:00pm||Lunch||
 ||2:00pm-4:30pm||Working Sessions||
 ||4:45pm-5:00pm||Departure to boat by bus||
