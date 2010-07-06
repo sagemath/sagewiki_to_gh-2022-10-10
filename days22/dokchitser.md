@@ -120,5 +120,6 @@ Fridays presentations are available as [[attachment:goodcop.sws]] and
 [[attachment:badcop.sws]]. The first of these also needs [[attachment:demo.sage]].
 
 == Parity Predictions ==
-A brief summary of the project is available as [[attachment:project.pdf]]
+A brief summary of the project is available as [[attachment:project.pdf]].
+
 The worksheet I used for my presentation is located at http://www.sagenb.org/home/pub/2234
