@@ -70,3 +70,17 @@ fmpq_poly:  degree, length
 [Sebastian, Tuesday before lunch, 2pm]
 
 I'm done - apart from testing! - with all the basic non-arithmetic functions now.  After lunch I'll work on addition and multiplication.
+
+[Sebastian, Tuesday night, 0:30am]
+
+9) Testing
+
+Lots of things done.  Testing for all the non-arithmetic function implemented so far.
+
+10) Arithmetic functionality
+
+Addition is almost done, still needs testing.  (Implement an "obviously" correct naive method, then compare the answers.)
+
+11) TODO in fmpz_vec
+
+Implement is_zero
