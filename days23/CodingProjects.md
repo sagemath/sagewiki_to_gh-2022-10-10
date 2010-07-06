@@ -39,12 +39,18 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
 
 == Hyperbolic geometry ==
 
-
  * plotting (arc of circle, filling domain bounded with arc of circles, ...)
  * actions (using the coercion model to act on Hyperbolic Plane element by matrices)
  * fundamental domains (port H. Verrill program and implement R. Kulkarni method)
  * People: Vincent Delecroix, Maite Arianes, Thijs van Dijk
 
+Related tickets
+ * Trac 3313: [[http://trac.sagemath.org/sage_trac/ticket/3313|Old ticket for lifting of SL_m(Z/nZ) to SL_m(Z)]]
+ * Trac 7424: [[http://trac.sagemath.org/sage_trac/ticket/7424|Inconsistency of SL and PSL]]
+ * Trac 9076: [[http://trac.sagemath.org/sage_trac/ticket/9076|plot arc of circle]]
+
+Created tickets:
+ * Trac 9437: [[http://trac.sagemath.org/sage_trac/ticket/9076|detected bug for special linear group over finite rings]]
 
 == Ticket #4000 on rational polynomials... QQ[x] via FLINT ==
 
