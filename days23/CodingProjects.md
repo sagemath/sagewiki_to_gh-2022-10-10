@@ -50,7 +50,7 @@ Related tickets
  * Trac 9076: [[http://trac.sagemath.org/sage_trac/ticket/9076|plot arc of circle]]
 
 Created tickets:
- * Trac 9437: [[http://trac.sagemath.org/sage_trac/ticket/9076|detected bug for special linear group over finite rings]]
+ * Trac 9437: [[http://trac.sagemath.org/sage_trac/ticket/9437|detected bug for special linear group over finite rings]]
 
 == Ticket #4000 on rational polynomials... QQ[x] via FLINT ==
 
