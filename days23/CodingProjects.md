@@ -23,6 +23,7 @@
  * genus 1 --> Weierstrass
  * People: Dan Bernstein, Tanja Lange, Niels Duif, Johannes van der Horst, Michiel Kosters, Marco Streng, Vince Bush, Julio Brau, Michael Mourao, John Cremona
  * Tom Fisher's Magma code for invariants and covariants of plane cubics [[attachment:covariants.m]], and for minimization and reduction of genus one models [[attachment:g1minimisation-2008.m]] [[attachment:g1reduction-2008.m]] [[attachment:minred-demo1.m]] [[attachment:minred-demo2.m]]
+ * Ian Connell's lecture notes contain all the formulas needed to convert plane cubics and hyperelliptic quartics:  see http://www.math.mcgill.ca/connell/public/ECH1/ (first several pages of Chapter 1 (c1.ps)).
 
 
 == Function Fields ==
