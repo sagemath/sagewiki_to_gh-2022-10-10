@@ -17,6 +17,9 @@
 (Under construction)
 
 === Monday, July 5 ===
+
+ * Pictures: http://picasaweb.google.com/wstein/20100705Sagedays23
+
 ||10:30am-10:50am||Introduction and Orientation||
 ||11:00am-11:50am||Frank Lubeck: TBA||
 ||2:00pm-2:45pm|| [[http://sagenb.org/home/pub/2233/|William Stein: Introduction to the Sage Project]]||
