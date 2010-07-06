@@ -97,3 +97,8 @@
 
 
  * People: Japp Spies, Dung Duong
+
+== Porting ECHIDNA code from MAGMA ==
+
+
+ * People: Lloyd Kilford
