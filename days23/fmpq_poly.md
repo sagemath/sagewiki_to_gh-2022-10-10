@@ -66,3 +66,7 @@ I still need to find the method "mpz_to_fmpz" in order to write the methods "set
 I couldn't find the method "degree" for fmpz_poly.  I added the methods
 
 fmpq_poly:  degree, length
+
+[Sebastian, Tuesday before lunch, 2pm]
+
+I'm done - apart from testing! - with all the basic non-arithmetic functions now.  After lunch I'll work on addition and multiplication.
