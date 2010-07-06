@@ -85,17 +85,20 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
 
 === Specific Projects ===
 
-  * Improve the Sage Website
-    * how to setup a server
-       * standalone server
-       * with sage
-    * how to develop the sage notebook: give a complete example of how to change something
-    * make site prettier
+  * Greatly improve [[http://nb.sagemath.org/|the Sage Notebook website]]
+    * Improved information on the site:
+       * how to setup a server
+          * standalone server
+          * with sage
+       * how to develop the sage notebook: give a complete example of how to change something
+    * Make site much prettier -- I think it is ugly.
+
   * Database
-    * users and basic configuration -- get the startup time of sagenb.org down from 20 minutes to 1 second
-    * worksheets (?)
+    * Users and basic configuration -- get the startup time of sagenb.org down from 20 minutes to 1 second by replacing users.pickle by a sqlite database, and rewriting the notebook server to use this database instead of making a list of *all* users (and other data about them) in memory.
+    * worksheets -- see [[http://trac.sagemath.org/sage_trac/ticket/8757|trac 8757]];  This might also totally deal with the above "users and basic configuration" info. 
+
   * Worksheet labels
-    * linking between worksheets
+    * linking between worksheets: [[http://trac.sagemath.org/sage_trac/ticket/5042|trac 5042]] is relevant
     * support library worksheets, so you can type, e.g., {{{load "library.sws"}}}
    
 
