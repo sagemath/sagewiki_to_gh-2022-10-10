@@ -40,9 +40,9 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
 == Hyperbolic geometry ==
 
 
- * plotting, actions, fundamental domains
- * Java
- * port Verrill's fund.dom. program
+ * plotting (arc of circle, filling domain bounded with arc of circles, ...)
+ * actions (using the coercion model to act on Hyperbolic Plane element by matrices)
+ * fundamental domains (port H. Verrill program and implement R. Kulkarni method)
  * People: Vincent Delecroix, Maite Arianes, Thijs van Dijk
 
 
