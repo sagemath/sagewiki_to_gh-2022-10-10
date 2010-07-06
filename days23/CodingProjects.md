@@ -55,6 +55,10 @@ Related tickets
 Created tickets:
  * Trac 9437: [[http://trac.sagemath.org/sage_trac/ticket/9437|detected bug for special linear group over finite rings]]
 
+Todo:
+  * create a class for fundamental domains and make pairings appear on the boundary
+  * work on general subgroup of the modular group
+
 == Ticket #4000 on rational polynomials... QQ[x] via FLINT ==
 
 
