@@ -14,7 +14,6 @@
 
 == Schedule ==
 
-(Under construction)
 
 === Monday, July 5 ===
 
