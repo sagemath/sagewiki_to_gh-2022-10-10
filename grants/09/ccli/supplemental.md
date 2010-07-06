@@ -1,3 +1,17 @@
+= Timeline =
+
+||Personnel||Summer 10||AY 10-11||Summer 11||AY 11-12||Summer 12||AY 12-13||Summer 13||
+||All|| ||Site Selection|| || ||Sage Days|| ||Sage Days||
+||AIM||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
+||Beezer||Textbook Conversion||Sabbatical, Textbook Content, Sage Code||Textbook Conversion|| ||Conversion, Content|| || ||
+||Grout||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
+||Hassi||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
+||Judson||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
+||Kelaya||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
+||Stein||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
+
+
+
 Each of the original sections of NSF's message has a list of questions, which is followed by a subsection where we can list ideas about responses.  Please precede your response by a name and date.
 
 = Engagement with related projects =
