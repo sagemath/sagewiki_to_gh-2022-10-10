@@ -134,7 +134,7 @@ Todo:
 == Sums of Squares ==
 
 
- * People: Japp Spies, Dung Duong
+ * People: Japp Spies, Dung Duong, Peter Bruin, Michiel Kosters
 
 == Porting ECHIDNA code from MAGMA ==
 
