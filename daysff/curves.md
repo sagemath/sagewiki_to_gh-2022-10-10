@@ -16,6 +16,12 @@
 == Relevant Source Code ==
 
  * May 1998 code from Florian Hess: http://www.math.tu-berlin.de/~hess/gff
+ * New code written at this Sage Days: 
+     * Trac 9054: [[http://trac.sagemath.org/sage_trac/ticket/9054|Create a class for basic function_field arithmetic for Sage]]
+     * Trac 9094: [[http://trac.sagemath.org/sage_trac/ticket/9094|is_square and sqrt for polynomials and fraction fields]]
+     * Trac 9095: [[http://trac.sagemath.org/sage_trac/ticket/9095|Heights of points on elliptic curves over function fields]]
+
+
 
 == Tasks ==
 
