@@ -28,6 +28,9 @@ More specific timeline (old yearly timeline is below)
     * open to other interested parties
   * William: prepare number theory text (now, or earlier? move to suit)
   * Rob: possibly combinatorics text, associated Sage code, or finish algebras
+  * Jason: Notebook support for textbooks and classroom use; supervise and coordinate student programmers
+  * Jason: polish target subject areas: calculus, graphics, linear algebra, discrete math
+
 
 == Fall 2011 ==
   * Test sites:  Group 1 (linear, abstract, number theory available)
@@ -41,6 +44,7 @@ More specific timeline (old yearly timeline is below)
   * Workshop:
     * definitely, both test site groups are now active
   * Rob: more textbook work, Sage coding, subject are to be determined by available books
+  * Jason: continue work on notebook, target subject areas, and supervise student programmers doing the same.  Also work on administration side (setting up EC2 images, etc.)
 
 == Fall 2012 ==
   * Test sites:  Group 1 (first year)
@@ -57,6 +61,38 @@ More specific timeline (old yearly timeline is below)
     * one to wrap up everything?
     * plan future directions?
     * invite WeBWork, Moodle, representatives, etc?
+  * Jason: continue work on notebook, target subject areas, and supervise student programmers doing the same.  Also work on administration side (setting up EC2 images, etc.).  Also explore WeBWork integration
+  
+
+== Notebook work during summers == 
+    * cross-worksheet links
+    * interact library
+      * search interface
+      * example contributions in various subject areas
+      * more flexible interact capabilities (better layout, etc.)
+    * tags/folders
+    * usage tracking and statistics
+    * updating evolving notebook technologies
+      * html5 canvas matplotlib graphics
+      * webgl
+      * replacing jsmath with mathjax
+      * websockets (if not done by then)
+      * LDAP and other authentication backends
+    * standalone interacts?
+    * other issues Rob needs solved in the notebook
+    * Ways for students and professors to interact with each other (e.g., submitting and grading assignments, collaborating, make comments on a worksheet, etc.)
+    * (explicit objective) improve the notebook so that it will robustly handle up to 250 simultaneous users viewing worksheets and doing typical computations for an undergraduate course when running on a single high-end server, as demonstrated by a robust automated test suite
+    * (explicit objective) implement management tools so administrators can manage the notebook load and better balance resources
+    * (explicit objective) create tools for educators to get automatic feedback on their students’ use of Sage
+
+== Math content work ==
+    * Full-scale use of nthiery's TestSuite system to make sure that things are consistent across object types with the same parent.  (See, for example, http://trac.sagemath.org/sage_trac/ticket/6936)
+
+    * Gauge the intuitiveness and discoverability of the interfaces.  Make sure the documentation in these areas is friendly to an undergraduate.
+
+    * Go through a book in each of these areas and make sure that you can do exercises throughout the course with the available commands in an easy and intuitive fashion.
+
+
 
 (old, yearly timeline follows)
 
