@@ -22,7 +22,7 @@
 
  * genus 1 --> Weierstrass
  * People: Dan Bernstein, Tanja Lange, Niels Duif, Johannes van der Horst, Michiel Kosters, Marco Streng, Vince Bush, Julio Brau, Michael Mourao, John Cremona
- * Tom Fisher's Magma code for invariants and covariants of plane cubics [[attachment:covariants.m]]
+ * Tom Fisher's Magma code for invariants and covariants of plane cubics [[attachment:covariants.m]], and for minimization and reduction of genus one models [[attachment:g1minimisation-2008.m]] [[attachment:g1reduction-2008.m]] [[attachment:minred-demo1.m]] [[attachment:minred-demo2.m]]
 
 
 == Function Fields ==
