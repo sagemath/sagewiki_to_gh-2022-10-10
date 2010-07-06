@@ -93,7 +93,9 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
 == Solving Conics ==
 
 
- * mwrank...
+
+ * a Conic class using Denis Simon's pari code, possibly mwrank, finding points over number fields, other fields?
+ * see sage trac #727 (and also #6881)
  * People: Marco Streng, Mak Trifkovic, Peter Bruin, John Cremona
 
 
