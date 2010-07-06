@@ -52,3 +52,9 @@ I guess it'd be a good idea to briefly think about what should be supported and 
 6)  Conversion between fmpz and mpz types
 
 At the moment I can't seem to find the methods "fmpz_to_mpz" and "mpz_to_fmpz".
+
+7)  More methods written
+
+fmpq_poly:  set_si, set_ui, set_fmpz, neg, inv, swap
+
+I still need to find the method "mpz_to_fmpz" in order to write the methods "set_mpz" and "set_mpq".
