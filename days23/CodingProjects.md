@@ -83,6 +83,21 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
 
  * People: Bart de Smit, William Stein, Eric van der Velden, Willem Jan Palenstijn, Alyssa Milburn
 
+=== Specific Projects ===
+
+  * Improve the Sage Website
+    * how to setup a server
+       * standalone server
+       * with sage
+    * how to develop the sage notebook: give a complete example of how to change something
+    * make site prettier
+  * Database
+    * users and basic configuration -- get the startup time of sagenb.org down from 20 minutes to 1 second
+    * worksheets (?)
+  * Worksheet labels
+    * linking between worksheets
+    * support library worksheets, so you can type, e.g., {{{load "library.sws"}}}
+   
 
 == General framework for the factor(n) command ==
 
