@@ -82,10 +82,10 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
  * People: Bart de Smit, William Stein, Eric van der Velden, Willem Jan Palenstijn, Alyssa Milburn
 
 
-== code used to get new ECM speed records ==
-
+== General framework for the factor(n) command ==
 
  * mpfq is LGPL!
+ * special support for $p^n \pm 1$.
  * People: Hendrik Lenstra, Dan Bernstein, Tanja Lange, Christiane Peters, Peng Tian, Julio Brau, Mak Trifkovic
 
 
