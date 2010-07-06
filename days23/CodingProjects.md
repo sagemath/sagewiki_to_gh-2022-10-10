@@ -93,7 +93,7 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
 
 
  * mwrank...
- * People: Marco Streng, Mak Trifkovic, Peter Bruin
+ * People: Marco Streng, Mak Trifkovic, Peter Bruin, John Cremona
 
 
 == Sums of Squares ==
