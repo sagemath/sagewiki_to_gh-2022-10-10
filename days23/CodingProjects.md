@@ -54,6 +54,7 @@ Related tickets
 
 Created tickets:
  * Trac 9437: [[http://trac.sagemath.org/sage_trac/ticket/9437|detected bug for special linear group over finite rings]]
+ * Trac 9439: [[http://trac.sagemath.org/sage_trac/ticket/9439|hyperbolic geometry]]
 
 Todo:
   * create a class for fundamental domains and make pairings appear on the boundary
