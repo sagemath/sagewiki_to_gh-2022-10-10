@@ -24,11 +24,13 @@
  * People: Dan Bernstein, Tanja Lange, Niels Duif, Johannes van der Horst, Michiel Kosters, Marco Streng, Vince Bush, Julio Brau, Michael Mourao
 
 
-== Riemann-Roch Space (Normalization) ==
+== Function Fields ==
 
+The main goal of this project is to get the basic infrastructure for function fields into Sage.   If time permits, we will also implement Hess's algorithms. 
 
- * There are function fields over an arbitrary base field
- * basic infrastructure
+ * Trac 9054: [[http://trac.sagemath.org/sage_trac/ticket/9054|Create a class for basic function_field arithmetic for Sage]]
+ * Trac 9094: [[http://trac.sagemath.org/sage_trac/ticket/9094|is_square and sqrt for polynomials and fraction fields]]
+ * Trac 9095: [[http://trac.sagemath.org/sage_trac/ticket/9095|Heights of points on elliptic curves over function fields]]
  * People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, Tanja Lange, Michiel Kosters, Christiane Peters, Marco Streng
 
 
