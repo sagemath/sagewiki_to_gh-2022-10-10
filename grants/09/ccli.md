@@ -1,5 +1,5 @@
 #acl acl_hierarchic: True
-#acl was:read,write,admin jason:read,write,admin rbeezer:read,write,admin KiranSKedlaya:read,write,admin KiranKedlaya:read,write,admin ThomasJudson:read,write,admin DavidFarmer:read,write,admin conrey:read,write,admin MarjaLiisa:read,write,admin
+#acl was:read,write,admin jason:read,write,admin rbeezer:read,write,admin KiranSKedlaya:read,write,admin KiranKedlaya:read,write,admin ThomasJudson:read,write,admin DavidFarmer:read,write,admin bconrey:read,write,admin MarjaLiisa:read,write,admin
 
 <<TableOfContents(2)>>
 Mailing list: http://groups.google.com/group/sage-grants
