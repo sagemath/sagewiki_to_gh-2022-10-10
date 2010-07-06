@@ -31,7 +31,7 @@
 === Tuesday, July 6 ===
 ||9:30am-10:00am||Coding sprint status reports||
 ||10:10am-11:00am||Bill Hart: TBA||
-||11:10am-12:10pm||Robert Miller: Sage Newbies Tutorial||
+||11:10am-12:00pm||Robert Miller: Sage Newbies Tutorial||
 ||12:10pm-2:00pm||Lunch||
 ||2:00pm-late||Working Sessions||
 
@@ -49,13 +49,14 @@
 === Thursday, July 8 ===
 ||9:30am-10:00am||Coding sprint status reports||
 ||10:10am-11:00am||John Cremona: The complex AGM and periods of elliptic curves over CC||
-||11:10am-12:00pm||Fredrik Johansson||
-
+||11:10am-12:00pm||Fredrik Johansson: Evaluation of special functions||
+||12:10pm-2:00pm||Lunch||
+||2:00pm-late||Working Sessions||
 
 === Friday, July 9 ===
-||9:30am-10:00am||Coding sprint status reports||
+||9:30am-10:00am||Coding sprint final status reports||
 ||10:10am-11:00am||Hendrik Lenstra: TBA||
-
+||11:10am-12:00pm||TBA||
 
 == Poster ==
  
