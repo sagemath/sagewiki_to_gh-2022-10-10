@@ -12,12 +12,12 @@ Drafts:  [[attachment:supplement-20010-07-06.pdf|Tuesday, July 6]]
 ||Personnel||Summer 10||AY 10-11||Summer 11||AY 11-12||Summer 12||AY 12-13||Summer 13||
 ||All|| ||Site Selection|| || ||Sage Days|| ||Sage Days||
 ||AIM||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
-||Beezer||Textbook Conversion||Sabbatical, Textbook Content, Sage Code||Textbook Conversion||Classroom textbook testing(?)||Conversion, Content||Classroom textbook testing(?)|| ||
-||Grout||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
-||Hassi||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
+||Beezer||Textbook Conversion||Sabbatical, Textbook Content, Sage Code||Textbook Conversion||Liaison, Reed College; classroom textbook testing (?)||Conversion, Content||Liason, classroom textbook testing(?)|| ||
+||Grout||S 10||10-11||S 11||11-12||S 12||Liaison||S 13||
+||Hassi|| ||Survey design, pre-workshop interview/ data collection||Sage Days observation, post-workshop inteview/data collection||Site visits, survey design, analysis||Sage Days observation, post-workshop inteview/data collection, first year reporting||Site visits, interview/data collection||Second year reporting, final report||
 ||Judson||Abstract Algebra textbook preparation||Abstract Algebra textbook preparation||Abstract Algebra textbook conversion||Liason SFASU||Evaluation||Liason and evaluation||Evaluation||
 ||Kedlaya||S 10||10-11||S 11||Liaison, CSUDH||S 12||12-13||S 13||
-||Stein||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
+||Stein||S 10||10-11||S 11||11-12||S 12||Liaison, NSCC||S 13||
 
 
 
