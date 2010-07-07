@@ -137,7 +137,7 @@ Todo:
  * mpfq is LGPL!
  * special support for $p^n \pm 1$.
  * add functionality to factor() and to class Factorization
- * implement addprimes() à la Pari (already works for gp(n).factor(), but not for pari(n).factor())
+ * implement addprimes() in the PARI interface (already works for GP interface)
  * People: Hendrik Lenstra, Dan Bernstein, Jeroen Demeyer, Tanja Lange, Christiane Peters, Peng Tian, Julio Brau, Mak Trifkovic
  * [[http://ttic.uchicago.edu/~kalai/papers/old_papers/factorcryptology.pdf|Kalai's paper]]
 
