@@ -50,7 +50,7 @@ People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, T
  * plotting (arc of circle, filling domain bounded with arc of circles, ...)
  * actions (using the coercion model to act on Hyperbolic Plane element by matrices)
  * fundamental domains (port H. Verrill program and implement R. Kulkarni method)
- * People: Vincent Delecroix, Maite Arianes, Thijs van Dijk
+ * People: Vincent Delecroix, Maite Aranes, Thijs van Dijk
 
 {{http://iml.univ-mrs.fr/~delecroi/hyp-pic1.png|cool hyperbolic picture 1}}
 {{http://iml.univ-mrs.fr/~delecroi/hyp-pic2.png|cool hyperbolic picture 2}}
