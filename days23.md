@@ -62,7 +62,7 @@
 === Friday, July 9 ===
 ||9:30am-10:00am||Coding sprint final status reports||
 ||10:10am-11:00am||Hendrik Lenstra: Defining finite fields||
-||11:10am-12:00pm||TBA||
+||11:10am-11:50am||Bart de Smit: More on defining finite fields||
 
 == Poster ==
  
