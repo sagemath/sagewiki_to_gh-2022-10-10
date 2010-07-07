@@ -12,11 +12,11 @@ Drafts:  [[attachment:supplement-20010-07-06.pdf|Tuesday, July 6]]
 ||Personnel||Summer 10||AY 10-11||Summer 11||AY 11-12||Summer 12||AY 12-13||Summer 13||
 ||All|| ||Site Selection|| || ||Sage Days|| ||Sage Days||
 ||AIM||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
-||Beezer||Textbook Conversion||Sabbatical, Textbook Content, Sage Code||Textbook Conversion|| ||Conversion, Content|| || ||
+||Beezer||Textbook Conversion||Sabbatical, Textbook Content, Sage Code||Textbook Conversion||Classroom textbook testing(?)||Conversion, Content||Classroom textbook testing(?)|| ||
 ||Grout||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
 ||Hassi||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
-||Judson||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
-||Kelaya||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
+||Judson||Abstract Algebra textbook preparation||Abstract Algebra textbook preparation||Abstract Algebra textbook conversion||Liason SFASU||Evaluation||Liason and evaluation||Evaluation||
+||Kedlaya||S 10||10-11||S 11||Liaison, CSUDH||S 12||12-13||S 13||
 ||Stein||S 10||10-11||S 11||11-12||S 12||12-13||S 13||
 
 
