@@ -136,6 +136,7 @@ Todo:
 
  * mpfq is LGPL!
  * special support for $p^n \pm 1$.
+ * add functionality to factor() and to class Factorization
  * People: Hendrik Lenstra, Dan Bernstein, Jeroen Demeyer, Tanja Lange, Christiane Peters, Peng Tian, Julio Brau, Mak Trifkovic
  * [[http://ttic.uchicago.edu/~kalai/papers/old_papers/factorcryptology.pdf|Kalai's paper]]
 
