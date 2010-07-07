@@ -30,7 +30,7 @@ Deal with David Roe's latest patch bomb.
  * review code
  * model runtime
 
- * People: Bart de Smit, Willem Jan Palenstijn, Demeyer, Mak Trifkovic, Thijs van Dijk, Alyssa Milburn, Dan Bernstein, Sebastian Pancratz
+ * People: Bart de Smit, Willem Jan Palenstijn, Jeroen Demeyer, Mak Trifkovic, Thijs van Dijk, Alyssa Milburn, Dan Bernstein, Sebastian Pancratz
 
 
 == Models for elliptic curves ==
@@ -136,8 +136,9 @@ Todo:
 
  * mpfq is LGPL!
  * special support for $p^n \pm 1$.
- * People: Hendrik Lenstra, Dan Bernstein, Tanja Lange, Christiane Peters, Peng Tian, Julio Brau, Mak Trifkovic
+ * People: Hendrik Lenstra, Dan Bernstein, Jeroen Demeyer, Tanja Lange, Christiane Peters, Peng Tian, Julio Brau, Mak Trifkovic
  * [[http://ttic.uchicago.edu/~kalai/papers/old_papers/factorcryptology.pdf|Kalai's paper]]
+
 == Solving Conics ==
 
 
