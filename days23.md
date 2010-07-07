@@ -42,6 +42,9 @@
 ||5:00pm||ECHIDNA in 201; Function fields in 335||
 
 === Wednesday, July 7 ===
+
+ * Pictures: http://picasaweb.google.com/wstein/20100707Sagedays23Day3
+
 ||9:30am-10:00am||Coding sprint status reports||
 ||10:10am-11:00am||William Stein: [[http://nt.sagenb.org/home/pub/15/|Torsion points over quartic fields]] (local copy: [[attachment:stein.sws|stein.sws]])||
 ||11:10am-12:10pm||5-minute Lightning talks: Clement Pernet, Johannes van der Horst, Maite Aranes, Lloyd Kilford, Jeroen Demeyer, Mak Trifkovic||
