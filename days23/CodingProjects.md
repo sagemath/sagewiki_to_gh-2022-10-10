@@ -15,7 +15,7 @@ Deal with David Roe's latest patch bomb.
 
  * People: John Cremona
 
- * Tickets: #8333, #8334,#8335
+ * Tickets: #7883, #8333, #8334, #8335
 
 
 == sage-4.5 ==
