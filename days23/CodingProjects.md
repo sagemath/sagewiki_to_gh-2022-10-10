@@ -2,6 +2,14 @@
 
 <<TableOfContents>>
 
+== Finite Fields ==
+
+Deal with David Roe's latest patch bomb.
+
+ * People: John Cremona
+
+
+
 == sage-4.5 ==
 
 
