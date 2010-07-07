@@ -94,9 +94,9 @@ Todo:
 
 == Ticket #4260 - Sage + Linbox ==
 
-
- * unify for matrices over GF(p)
- * C++ wizardry, etc
+ * Polish linbox-sage interface (in LinBox), and release 1.1.7rc1
+ * Update Sage interface
+ * Rewrite of sage-matrix-modn-dense: continued the work initiated at SD16 with Burcin
  * People: Andy Novocin, Clement Pernet, (Burcin Erocal, remotely)
 
 
