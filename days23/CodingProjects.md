@@ -2,6 +2,13 @@
 
 <<TableOfContents>>
 
+== Descent on Cyclic Covers of the Projective Line ==
+
+ Port 200 lines of Magma code to Sage.
+
+ * People: Michael Mourao
+
+
 == Finite Fields ==
 
 Deal with David Roe's latest patch bomb.
