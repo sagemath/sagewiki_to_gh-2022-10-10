@@ -44,7 +44,9 @@ Deal with David Roe's latest patch bomb.
 
 == Function Fields ==
 
-The main goal of this project is to get the basic infrastructure for function fields into Sage.   If time permits, we will also implement Hess's algorithms.
+The main goal of this project is to get the basic infrastructure for function fields into Sage.   If time permits, we will also implement Hess's algorithms.  See [[daysff/curves|Hess's papers and talks]].
+
+
 
 People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, Tanja Lange, Michiel Kosters, Christiane Peters, Marco Streng 
 
