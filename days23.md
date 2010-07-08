@@ -20,7 +20,7 @@
  * Pictures: http://picasaweb.google.com/wstein/20100705Sagedays23
 
 ||10:30am-10:50am||Introduction and Orientation||
-||11:00am-11:50am||[[http://www.math.rwth-aachen.de/~Frank.Luebeck/talks/SageDays23Leiden2010.pdf|Frank Lubeck: Finite Fields]||
+||11:00am-11:50am||[[http://www.math.rwth-aachen.de/~Frank.Luebeck/talks/SageDays23Leiden2010.pdf|Frank Lubeck: Finite Fields]]||
 ||2:00pm-2:45pm|| [[http://sagenb.org/home/pub/2233/|William Stein: Introduction to the Sage Project]]||
 ||2:50pm-3:05pm||Introductions||
 ||3:10pm-4:00pm||Project organization session||
