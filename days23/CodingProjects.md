@@ -118,6 +118,7 @@ sage: time f(b)
  * Polish linbox-sage interface (in LinBox), and release 1.1.7rc1
  * Update Sage interface
  * Rewrite of sage-matrix-modn-dense: continued the work initiated at SD16 with Burcin
+ * Mod 2 reduction bug (fixed!): [[http://trac.sagemath.org/sage_trac/ticket/6904|trac 9604]].
  * People: Andy Novocin, Clement Pernet, (Burcin Erocal, remotely)
 
 
