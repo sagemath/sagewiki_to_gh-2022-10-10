@@ -32,7 +32,7 @@
  * Pictures: http://picasaweb.google.com/wstein/20100706Sagedays23Day2
 
 ||9:30am-10:00am||Coding sprint status reports||
-||10:10am-11:00am||Bill Hart: Fourier Transform||
+||10:10am-11:00am||[[attachment:hart.pdf|Bill Hart: Fourier Transform]]||
 ||11:10am-12:00pm||Robert Miller: Sage Newbies Tutorial||
 ||12:10pm-2:00pm||Lunch||
 ||2:00pm-late||Working Sessions||
