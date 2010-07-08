@@ -154,6 +154,8 @@ sage: time f(b)
  * People: Hendrik Lenstra, Dan Bernstein, Jeroen Demeyer, Tanja Lange, Christiane Peters, Peng Tian, Julio Brau, Mak Trifkovic
  * [[http://ttic.uchicago.edu/~kalai/papers/old_papers/factorcryptology.pdf|Kalai's paper]]
 
+ * Something actually done: Trac #9450  -- factoring elements of number fields
+
 == Solving Conics ==
 
 
