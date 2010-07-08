@@ -173,5 +173,6 @@ sage: time f(b)
 
 == Porting ECHIDNA code from MAGMA ==
 
+ * People: Lloyd Kilford, William Stein
 
- * People: Lloyd Kilford
+ * Code: http://sage.math.washington.edu/home/ljpk/atkin_lehner_decomposition_dimensions.sage
