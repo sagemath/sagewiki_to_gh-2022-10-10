@@ -51,7 +51,7 @@
 ||12:10pm-2:00pm||Lunch||
 ||2:00pm-4:30pm||Working Sessions||
 ||4:45pm-5:00pm||Departure to boat by bus  [[http://maps.google.com/maps?f=d&source=s_d&saddr=Lorentz+Center,+Leiden,+Nederland&daddr=Haven+18,+2312+MH+Leiden,+Nederland+(Haven)&hl=en&geocode=FcwEHAMd9wJEACHr86J9KA-fcylftBYiGcfFRzFBW6k0LUlJSw%3BFdPrGwMdcq9EACHDYC1HbEYU9Slr6Iz3kMbFRzGMryI2SodWDA&mra=ls&sll=52.164509,4.479246&sspn=0.031852,0.055189&ie=UTF8&ll=52.172774,4.490147&spn=0.063692,0.175781&z=13|Google Maps]]||
-||5:00pm-9:00pm||Boat trip, including dinner||
+||5:00pm-9:00pm||Boat trip, including dinner.  Here is [[http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=109500648471642954404.00048add9c46cf306662a&ll=52.191193,4.582672&spn=0.064613,0.220757&z=12|the path we took]] (it ends slightly early due to Jaap Spies's batteries running out)||
 ||9:00pm-||Departure by bus to hotel Het Haagsche Schouw, Lorentz Center, and Leiden Central Station||
 
 
