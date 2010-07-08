@@ -56,6 +56,9 @@
 
 
 === Thursday, July 8 ===
+
+  * Pictures: http://picasaweb.google.com/wstein/20100709Sagedays23Day4
+
 ||9:30am-10:00am||Coding sprint status reports||
 ||10:10am-11:00am||John Cremona: The complex AGM and periods of elliptic curves over $\mathbb{C}$[[attachment:cagm.pdf]]||
 ||11:10am-12:00pm||Fredrik Johansson: Evaluation of special functions||
