@@ -98,6 +98,14 @@ Todo:
 
  * People: Andy Novocin, Wieb Bosma, Johannes van der Horst, Bill Hart, Max Flander
 
+ * Some code:
+{{{
+sage: a = sqrt(2)+sqrt(3)+sqrt(5)+sqrt(7)+sqrt(11)
+sage: f = algebraic_dependency(a.numerical_approx(10000),32)
+sage: b = a.numerical_approx(100000)
+sage: time f(b)
+}}}
+
 
 == MPIR projects ==
 
