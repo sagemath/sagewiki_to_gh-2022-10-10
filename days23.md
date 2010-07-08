@@ -57,7 +57,7 @@
 
 === Thursday, July 8 ===
 ||9:30am-10:00am||Coding sprint status reports||
-||10:10am-11:00am||John Cremona: The complex AGM and periods of elliptic curves over \mathbb{C}[[attachment:cagm.pdf]]||
+||10:10am-11:00am||John Cremona: The complex AGM and periods of elliptic curves over $\mathbb{C}$[[attachment:cagm.pdf]]||
 ||11:10am-12:00pm||Fredrik Johansson: Evaluation of special functions||
 ||12:10pm-2:00pm||Lunch||
 ||2:00pm-late||Working Sessions||
