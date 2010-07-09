@@ -6,9 +6,9 @@ This wiki page provides some reference material for the
 
 = Sage slides and worksheets =
 
- * [[attachment:Sage-Talk.pdf]]; Worksheet: [[attachment:Sage-Demo.sws]]
+ * [[attachment:2010-07-07-Toronto.pdf|Slides]] and [[attachment:2010-07-07-Toronto.sws|worksheet]] of the Sage talk
 
- * [[attachment:tutorial-notebook-and-help.sws]] [[attachment:SageDays20.5-Exercises.sws]]
+ * [[attachment:tutorial-notebook-and-help.sws]] [[attachment:tutorial-first-exercises.sws]]
 
  * [[attachment:tutorial-using-free-modules.sws]] [[attachment:tutorial-implementing-algebraic-structures.sws]]
 
