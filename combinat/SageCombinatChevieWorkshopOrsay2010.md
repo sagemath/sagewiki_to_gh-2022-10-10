@@ -56,8 +56,7 @@ RER + bus, and stay there until Friday evening or Saturday morning.
 
 
 We will do some car shuttles from Saint Rémi. Please contact us in
-advance to synchronize. NicolasThiery' phone: 06 77 90 32 79,
-NicolasBorie's phone: 06 89 29 78 44
+advance to synchronize. 
 
 == List of participants ==
 
