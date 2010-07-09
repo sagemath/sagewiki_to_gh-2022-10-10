@@ -6,7 +6,7 @@
 
  Port 200 lines of Magma code to Sage.
 
- * People: Michael Mourao
+ * People: Michael Mourao, Maite Aranes
 
 
 == Finite Fields ==
