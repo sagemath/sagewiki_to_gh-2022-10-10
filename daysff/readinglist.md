@@ -52,3 +52,9 @@ Modular Symbols:
 Descent:
 
   * Broumas, [[attachment:Broumas_p-descent_paper.pdf|Effective $p$-descent]]. Compositio Math 107 (1997), 125--141.
+
+---------------
+
+Problems / Open Questions:
+
+  * Gekeler, [[attachment:gekeler-questions.pdf|Problems for Sage Days]]. Private correspondence
