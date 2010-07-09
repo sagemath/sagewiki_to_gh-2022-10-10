@@ -6,7 +6,7 @@ This wiki page provides some reference material for the
 
 = Sage slides and worksheets =
 
- * [[attachment:2010-07-07-Toronto.pdf|Slides]] and [[attachment:2010-07-07-Toronto.sws|worksheet]] of the Sage talk
+ * [[attachment:2010-07-07-Toronto.pdf|Slides]] and [[attachment:2010-07-07-Toronto.sws|worksheet]] of Nicolas's Sage talk
 
  * [[attachment:tutorial-notebook-and-help.sws]] [[attachment:tutorial-first-exercises.sws]]
 
