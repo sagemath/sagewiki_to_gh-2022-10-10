@@ -14,7 +14,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
- * July 10, 2010: First release of [[http:/combinat/AffineSchubertCalculusWorkshop|Calcul Mathématique avec Sage]]
+ * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
    A 250 pages free introductory book on Sage, in French, including 35 pages on combinatorics
 
  * July 7-15, 2010: [[http:/combinat/AffineSchubertCalculusWorkshop|Affine Schubert Calculus workshop and summer school in Toronto]]
