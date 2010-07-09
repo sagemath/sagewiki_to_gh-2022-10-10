@@ -67,7 +67,7 @@
 
 === Friday, July 9 ===
 ||9:30am-10:00am||Coding sprint final status reports||
-||10:30am-11:30am||Hendrik Lenstra: Defining finite fields [[http://www.math.leidenuniv.nl/~desmit/standard_models.pdf|standard_models.pdf]]||
+||10:30am-11:30am||Hendrik Lenstra: Defining finite fields [[http://www.math.leidenuniv.nl/~desmit/papers/standard_models.pdf|standard_models.pdf]]||
 ||11:40am-12:20pm||Bart de Smit: Standard roots of unity in finite fields||
 
 == Poster ==
