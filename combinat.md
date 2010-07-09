@@ -14,13 +14,16 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
+ * July 7-15, 2010: [[http:/combinat/AffineSchubertCalculusWorkshop|Affine Schubert Calculus workshop and summer school in Toronto]]
+   It includes several Sage and Sage-Combinat sessions
+
+== Past news ==
+
  * June 14-18, 2010: [[http:/combinat/SageCombinatChevieWorkshopOrsay2010|Joint Sage-Combinat and Chevie Workshop in Orsay]]
 
  * May 3-7, 2010: [[http://www.fields.utoronto.ca/programs/scientific/09-10/sage/|Sage Days 20.5 in Toronto]]
    Organized by Nantel Bergeron, FrancoSaliola and Mike Zabrocki,
    again with a serious algebraic combinatorics slant
-
-== Past news ==
 
  * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days 20]]
    The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille included a Sage days week. FlorentHivert, NicolasThiéry, and FrancoSaliola were among the organizers and there was a serious combinatorics slant.
