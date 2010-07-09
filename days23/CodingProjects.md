@@ -176,3 +176,5 @@ sage: time f(b)
  * People: Lloyd Kilford, William Stein
 
  * Code: http://sage.math.washington.edu/home/ljpk/atkin_lehner_decomposition_dimensions.sage
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/9455|trac ticket number 9455]]
