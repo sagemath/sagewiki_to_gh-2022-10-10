@@ -2,7 +2,7 @@
 
 This is a list of projects suitable for [[days24|Sage Days 24]]. Feel free to add your favourite ideas/wishes, and to put your name down for something you're interested in (you'll need to get an account on the wiki to do this).
 
-## <<TableOfContents>>
+<<TableOfContents>>
 
 == Kovacic's Algorithm ==
 
