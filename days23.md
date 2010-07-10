@@ -17,7 +17,7 @@
 
 === Monday, July 5 ===
 
- * Pictures: http://picasaweb.google.com/wstein/20100705Sagedays23
+ * Pictures: http://picasaweb.google.com/wstein/20100705Sagedays23Day1
 
 ||10:30am-10:50am||Introduction and Orientation||
 ||11:00am-11:50am||[[http://www.math.rwth-aachen.de/~Frank.Luebeck/talks/SageDays23Leiden2010.pdf|Frank Lubeck: Finite Fields]]||
