@@ -24,3 +24,16 @@ This is just a random example I made up, but it's the sort of massive performanc
 
 
 Obviously, differentiating short functions that use a restricted set of functions in sage would make sense.
+
+From Brad: 
+{{{
+Have I sent you a link to the following web page which seems to be along the lines of what you are looking into:
+       http://www.seanet.com/~bradbell/pycppad/runge_kutta_4_cpp.py.xml
+
+Note that check at the bottom of the example:
+
+       # check that C++ is always more than 20 times faster
+       assert( 20. * cpp_sec <= python_sec )
+
+The actual amout faster is often 100 or more.
+}}}
