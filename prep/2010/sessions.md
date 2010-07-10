@@ -8,8 +8,6 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 == Current Homework ==
 
-These are still tentative, but will be settled within the next few days.  
-
   * For Monday, July 26th
     * Have one trial worksheet ready
     * Share it with a specified organizer on the server (you will be contacted)
