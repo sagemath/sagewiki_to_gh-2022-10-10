@@ -6,6 +6,8 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
 
 {{attachment:shirt-small.png}}
 
+[[http://www.vistaprint.com/about-sizing.aspx|Size information]]
+
 === Sign up here: ===
 
  * Burcin Erocal: L
