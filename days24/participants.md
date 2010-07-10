@@ -36,3 +36,4 @@ Feel free to add your name to the list if you plan to come. You can add a questi
  * Nico Temme (CWI)
  * Felix Ulmer (IRMAR)
  * Zafeirakis Zafeirakopoulos (RISC)
+ * Burkhard Zimmermann (RISC)
