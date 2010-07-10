@@ -11,11 +11,14 @@ The aim of this workshop is to
 Besides mathematical talks and coding sprints, there will also be introductory tutorials on Sage, Python and related topics, including development in Sage. The workshop will be accessible to researchers at all levels. Especially those looking for an opportunity to start learning / using Sage are welcome.
 
 
-The [[https://portal.risc.jku.at/conferences/sage-days-24/schedule|schedule is here]].
-
 The [[days24/announcement|announcement message]] is also available [[days24/announcement|here]].
 
 This event is a part of [[http://www.risc.uni-linz.ac.at/about/conferences/summer2010/|RISC Summer 2010]].
+
+=== Schedule ===
+
+The [[days24/schedule|schedule is here]].
+
 === Invited Speakers ===
 
  * [[http://www.risc.uni-linz.ac.at/home/ppaule|Peter Paule]]
