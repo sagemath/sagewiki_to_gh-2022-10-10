@@ -14,3 +14,4 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
  * Flavia Stan: S
  * Martin Albrecht: S
  * Fredrik Johansson: M
+ * Harald Schilly: S
