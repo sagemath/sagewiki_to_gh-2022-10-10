@@ -13,3 +13,4 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
  * Burcin Erocal: L
  * Flavia Stan: S
  * Martin Albrecht: S
+ * Fredrik Johansson: M
