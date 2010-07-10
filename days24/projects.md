@@ -40,3 +40,9 @@ Integrate Stefan Boettner's parallel integration code in Sage. There are several
 '''People:''' William Stein
 
 I never thought much of this topic, but there is [[http://www.euroscipy.org/talk/2045|a talk at Euroscipy]] suggesting it could be useful.    [[/ad|More details here.]]
+
+== Upgrade Pari to version 2.4.3 ==
+
+'''People:''' William Stein
+
+See [[http://trac.sagemath.org/sage_trac/ticket/9343|trac 9343]].  This has little to do with symbolic computation though...
