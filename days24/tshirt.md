@@ -4,6 +4,8 @@ Sign-up for your SD24 t-shirt here. You'll need to get an account on the wiki to
 
 {{attachment:shirt-small.png}}
 
+'''Designed by: Martin Albrecht'''
+
 === Sign up here: ===
 
  * Burcin Erocal: L
