@@ -28,7 +28,7 @@
 
 == Participants ==
 
-  * Martin Albrecht (tentative)
+  * Martin Albrecht
   * Mohamed Barakat
   * Michael Brickenstein
   * Wolfram Decker
