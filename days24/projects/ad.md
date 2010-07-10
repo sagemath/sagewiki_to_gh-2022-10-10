@@ -25,7 +25,7 @@ This is just a random example I made up, but it's the sort of massive performanc
 
 Obviously, differentiating short functions that use a restricted set of functions in sage would make sense.
 
-From Brad: 
+From Brad Bell: 
 {{{
 Have I sent you a link to the following web page which seems to be along the lines of what you are looking into:
        http://www.seanet.com/~bradbell/pycppad/runge_kutta_4_cpp.py.xml
