@@ -2,7 +2,10 @@
 
 These include the NSF questions unformatted.  Look for "response" in each section to see new text.
 
-Drafts:  [[attachment:supplement-2010-07-08.pdf|Thursday, July 8]]
+Drafts:  [[attachment:supplement-2010-07-09-todo.pdf|Friday, July 9, To-Do's only]]
+[[attachment:supplement-2010-07-09-notes.pdf|Friday, July 9, with Questions]]
+
+[[attachment:supplement-2010-07-08.pdf|Thursday, July 8]]
 [[attachment:supplement-2010-07-07.pdf|Wednesday, July 7]]
 [[attachment:supplement-20010-07-06.pdf|Tuesday, July 6]]
 
