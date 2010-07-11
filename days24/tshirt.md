@@ -18,3 +18,4 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
  * Alexander Dreyer: XXL
  * Richard Kreckel: L
  * William Stein: XL, L, S, S
+ * Zafeirakis Zafeirakopoulos: L
