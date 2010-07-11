@@ -94,7 +94,7 @@
 || 7:00am - 8:00am|| Breakfast at Foothill dining facility||
 || 7:40am, 8:10am, 8:40am|| Ride bus to MSRI||
 ||''' 09:00am - 09:10am'''||'''Millman and Stein''': Welcome||
-||''' 09:10am - 10:10am'''||'''Norvig (Google)''': [[norvig.pdf|What to demand from a Scientific Computing Language]]||
+||''' 09:10am - 10:10am'''||'''Norvig (Google)''': [[attachment:norvig.pdf|What to demand from a Scientific Computing Language]]||
 ||''' 10:10am - 11:00am'''||'''Bradshaw (Google)''': Cython: the best of both worlds||
 ||''' 11:00am - 11:50am'''||'''Perez (Berkeley) Python''': an ecosystem for scientific computing||
 || 12:00pm - 2:00pm||  Lunch||
