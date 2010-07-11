@@ -2,6 +2,22 @@ This page contains the abstracts for the talks given at [[days24|Sage days 24]].
 
 <<TableOfContents>>
 
+<<Anchor(Boudellioua)>>
+==== Mohamed S. Boudellioua --- On the simplification of systems of linear multidimensional equations ====
+
+Linear multidimensional equations arise in the treatment of
+systems of partial differential equations, delay- differential
+equations, multidimensional discrete recursive equations, etc. The
+purpose of this talk is to present a constructive result on the
+simplification of a linear multidimensional system  to an
+equivalent system which contains fewer equations and unknowns. In
+particular the case when the reduced system consists of only one
+equation is considered. It is shown that the transformation of
+zero-coprime equivalence forms the basis of such simplification.
+This transformation has been studied by a number of authors and has
+been shown to play an important role in the theory of multidimensional
+linear systems.
+
 <<Anchor(Boettner)>>
 ==== Stefan Böttner --- Mixed Transcendental and Algebraic Extensions for the Risch-Norman Algorithm ====
 
@@ -82,3 +98,21 @@ approach that primarily caught my interest in CAD and in this talk I
 want to briefly introduce CAD, the Gerhold/Kauers-method and to present
 a non-trival application of their method to show the positivity of a sum
 over certain Gegenbauer polynomials.
+
+<<Anchor(Temme)>>
+==== Nico Temme --- Special Functions and Computer Algebra ====
+
+The following points will be discussed.
+
+An overview of basic numerical methods to compute special functions,
+such as series expansions, recurrence relations, continued fractions, 
+and numerical quadrature.
+
+Examples of certain certain asymptotic forms of
+special functions, which forms are missing and/or would be welcomed.
+
+Examples where Maple and Mathematica produce wrong or
+too difficult answers in special functions evaluations.
+
+A few other topics in connection with special functions and
+computer algebra, such as methods based on Zeilberger's summation  method.
