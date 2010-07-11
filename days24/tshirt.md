@@ -10,12 +10,13 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
 
 === Sign up here: ===
 
- * Burcin Erocal: L
- * Flavia Stan: S
  * Martin Albrecht: S
- * Fredrik Johansson: M
- * Harald Schilly: S
  * Alexander Dreyer: XXL
+ * Burcin Erocal: L
+ * Fredrik Johansson: M
  * Richard Kreckel: L
+ * Robert Miller: M
+ * Harald Schilly: S
+ * Flavia Stan: S
  * William Stein: XL, L, S, S
  * Zafeirakis Zafeirakopoulos: L
