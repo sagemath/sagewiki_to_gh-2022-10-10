@@ -15,3 +15,5 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
  * Martin Albrecht: S
  * Fredrik Johansson: M
  * Harald Schilly: S
+ * Alexander Dreyer: XXL
+ * Richard Kreckel: L
