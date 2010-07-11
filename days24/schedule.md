@@ -30,7 +30,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 || ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday, July 19, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
-||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Nico Temme: Special Functions and Computer Algebra '''||
+||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Nico Temme: [[days24/abstracts#Temme|Special Functions and Computer Algebra]] '''||
 ||<style="background-color: #EEFFEE;"> ||
 || 11.30-12.00 || '''Flavia Stan: ?''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
@@ -46,7 +46,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 || 11.30-12.00 || '''Clemens Raab: ?''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
 || 14.00-14.30 || '''Stefan Böttner: [[days24/abstracts#Boettner|Mixed Transcendental and Algebraic Extensions for the Risch-Norman Algorithm]]''' ||
-|| 14.30-15.00 || '''Mohamed Boudellioua: ?''' ||
+|| 14.30-15.00 || '''Mohamed Boudellioua: [[days24/abstracts#Boudellioua|On the simplification of systems of linear multidimensional equations]]''' ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:00-15:30  ||'''Coffee'''||
 || 15.30-16.00 || '''? : ?''' ||
 || 16.00-16.30 || '''? : ?''' ||
