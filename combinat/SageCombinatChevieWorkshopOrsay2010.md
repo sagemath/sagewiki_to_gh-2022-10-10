@@ -72,3 +72,11 @@ advance to synchronize.
  * Viviane Pons, graduate student, LIGM, Université Paris-Est
 
 See also: http://doodle.com/ktma7rmvx4f3psbr
+
+== Pictures ==
+
+{{attachment:sage-chevie-1.JPG|Photo 1|width=400}}
+{{attachment:sage-chevie-2.JPG|Photo 2|width=400}}
+{{attachment:sage-chevie-4.JPG|Photo 4|width=400}}
+{{attachment:sage-chevie-5.JPG|Photo 5|width=400}}
+{{attachment:sage-chevie-3.JPG|Photo 3|width=800}}
