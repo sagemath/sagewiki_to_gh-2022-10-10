@@ -10,6 +10,7 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
 
 === Sign up here: ===
 
+ * Sedat Akleylek: L
  * Martin Albrecht: S
  * Alexander Dreyer: XXL
  * Burcin Erocal: L
