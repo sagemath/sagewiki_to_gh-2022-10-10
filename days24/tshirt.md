@@ -17,6 +17,8 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
  * Fredrik Johansson: M
  * Richard Kreckel: L
  * Robert Miller: M
+ * Alban Quadrat: L
+ * Stefan Reiterer: M
  * Harald Schilly: S
  * Flavia Stan: S
  * William Stein: XL, L, S, S
