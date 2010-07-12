@@ -1,9 +1,19 @@
-= Sage Days 26: Kaiserslautern, Germany (August 27-31, 2010) =
+= Sage Days 26: Women in Sage =
 
-Sage Days 26 has been moved and rescheduled in mid-July. It will now be [[days23.5|Sage Days 23.5]].
+   *  Location: Seattle, Washington
 
-See [[days23.5]]
+   *  Dates: December 7, 2010 to December 11, 2010
 
+   *  Organizers: Alyson Deines, Jennifer S. Balakrishnan and Gagan Sekhon
 
-== Attending ==
-GabrielPannwitz
+   *  Funding: Microsoft 
+
+== Schedule ==
+
+   * coming soon
+
+== Mailing Lists ==
+
+   * [[http://groups.google.com/group/sagedays26|Participant mailing list]]
+
+   * [[http://groups.google.com/group/sagedays26org|Closed organization mailing list]]
