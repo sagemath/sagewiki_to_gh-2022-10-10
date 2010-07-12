@@ -106,6 +106,47 @@ sage: b = a.numerical_approx(100000)
 sage: time f(b)
 }}}
 
+ * Code by Jeroen Demeyer to compute Swinnterton-Dyer polynomials very quickly using p-adics:
+{{{
+# Lift a padic `x` to ZZ, but centered around zero:
+def centerlift(x):
+    modulus = x.parent().prime_pow(x.precision_absolute())
+    z = ZZ(x);
+    if (2*z > modulus):
+        z -= modulus
+    return z
+
+# L = list of numbers you want to take the square root of
+# bound = bound on the absolute value of the coefficients of
+# the resulting polynomial
+def swinnerton_dyer(L, bound):
+    for p in Primes():
+        if all([gcd(p,s) == 1 and is_square(Mod(s,p)) for s in L]):
+            break
+    prec = ceil(log(bound)/log(p))
+    print "Using p =", p
+    print "Precision:", p, "^", prec
+    K = Qp(p, prec, print_mode="terse", print_pos=False)
+    
+    sqrts = [sqrt(K(s),extend=False) for s in L]
+    
+    n = len(L)
+    padic_roots = []
+    for k in range(0, 2^n):
+        binary = ZZ(k).digits(base=2,padto=n)
+        root = sum([sqrts[i]*(binary[i]*2-1) for i in range(0,n)])
+        padic_roots.append(root)
+    t = polygen(K)
+    pol_padic = prod([t - r for r in padic_roots])
+    coeffs_ZZ = [centerlift(c) for c in pol_padic.list()]
+    max_coeff = max([abs(c) for c in coeffs_ZZ])
+    print "Largest coefficient:", p, "^", ceil(log(max_coeff)/log(p))
+    return PolynomialRing(ZZ, names='t')(coeffs_ZZ)
+
+# Example:
+time swinnerton_dyer([2,3,5,7,11,13,17,19,23,29], 2^4000)   # bound is heuristic
+}}}
+
 
 == MPIR projects ==
 
