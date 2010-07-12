@@ -106,9 +106,9 @@ sage: b = a.numerical_approx(100000)
 sage: time f(b)
 }}}
 
- * Code by Jeroen Demeyer to compute Swinnterton-Dyer polynomials very quickly using p-adics:
+ * Code by Jeroen Demeyer to compute Swinnerton-Dyer polynomials very quickly using p-adics:
 {{{
-# Lift a padic `x` to ZZ, but centered around zero:
+# Lift a padic `x` to ZZ, but centered around zero.
 def centerlift(x):
     modulus = x.parent().prime_pow(x.precision_absolute())
     z = ZZ(x);
@@ -116,9 +116,9 @@ def centerlift(x):
         z -= modulus
     return z
 
-# L = list of numbers you want to take the square root of
+# L = list of numbers you want to take the square root of.
 # bound = bound on the absolute value of the coefficients of
-# the resulting polynomial
+# the resulting polynomial.
 def swinnerton_dyer(L, bound):
     for p in Primes():
         if all([gcd(p,s) == 1 and is_square(Mod(s,p)) for s in L]):
