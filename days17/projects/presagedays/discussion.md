@@ -39,7 +39,7 @@ Future extension: one could replace Gamma1(N) by GammaH(N,...).  One could also 
 
 And note Frank's conjecture:
 
-Conjecture (Frank Calegari):
+Conjecture:
 {{{ 
 Let m = #odd prime factors of N +  {1, if N = 0 mod 8
                                    {0, otherwise.
