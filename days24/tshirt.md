@@ -12,6 +12,7 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
 
  * Sedat Akleylek: L
  * Martin Albrecht: S
+ * Stefan Böttner: L
  * Alexander Dreyer: XXL
  * Burcin Erocal: L
  * Fredrik Johansson: M
