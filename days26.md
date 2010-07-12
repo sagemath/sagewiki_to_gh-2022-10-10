@@ -4,7 +4,7 @@
 
    *  Dates: December 7, 2010 to December 11, 2010
 
-   *  Organizers: Alyson Deines, Jennifer S. Balakrishnan and Gagan Sekhon
+   *  Organizers: Alyson Deines (UW), Jennifer S. Balakrishnan (MIT) and Gagan Sekhon (UConn)
 
    *  Funding: Microsoft 
 
