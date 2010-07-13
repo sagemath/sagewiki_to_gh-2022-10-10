@@ -28,6 +28,7 @@ Feel free to add your name to the list if you plan to come. You can add a questi
  * Veronika Pillwein (RISC)
  * Alban Quadrat (INRIA Sophia Antipolis)
  * Clemens Raab (RISC)
+ * Hamid Rahkooy (JKU)
  * Georg Regensburger (RICAM)
  * Harald Schilly
  * David Sevilla (RICAM)
