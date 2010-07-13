@@ -2,6 +2,8 @@
 
 ATTENTION : This is a tentative schedule, and is subject to change.
 
+The workshop takes place on Saturday and Sunday at the [[http://www.google.com/maps?f=q&source=s_q&hl=en&q=RISC,+hagenberg&sll=48.367704,14.513669&sspn=0.001187,0.001781&ie=UTF8&split=1&filter=0&rq=1&ev=zi&t=h&radius=0.05&hq=RISC,+hagenberg&hnear=&ll=48.367958,14.513398&spn=0.001187,0.001781&z=19|FH building (lecture hall 4) in Hagenberg]] and for the rest of the days in the [[http://www.google.com/maps?f=q&source=s_q&hl=en&q=RISC,+hagenberg&sll=48.365771,14.514366&sspn=0.001187,0.001781&ie=UTF8&split=1&filter=0&rq=1&ev=p&t=h&radius=0.05&hq=RISC,+hagenberg&hnear=&ll=48.366168,14.514133&spn=0.001187,0.001781&z=19|Gemeindesaal Hagenberg]].
+
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Saturday, July 17, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">     10:00-11:00  ||'''Registration & Coffee'''||
 ||<|2 rowstyle="background-color: #EEFFEE;"> 11:00-12:00  ||'''William Stein: [[days24/abstracts#Stein|Sage - Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab]]'''||
