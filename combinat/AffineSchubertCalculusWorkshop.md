@@ -14,6 +14,8 @@ This wiki page provides some reference material for the
 
  * [[attachment:tutorial-symmetric-functions.sws]]
 
+ * [[http://wiki.sagemath.org/combinat/SageCombinatChevieWorkshopOrsay2010|A possible solution to Shimozono's homework exercises]]
+
 = Sage servers =
 
 [[https://garsia.math.yorku.ca:5040|Sage Server A-G]]
