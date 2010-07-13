@@ -14,7 +14,7 @@ This wiki page provides some reference material for the
 
  * [[attachment:tutorial-symmetric-functions.sws]]
 
- * [[http://wiki.sagemath.org/combinat/SageCombinatChevieWorkshopOrsay2010|A possible solution to Shimozono's homework exercises]]
+ * [[http://combinat.sagemath.org/hgwebdir.cgi/misc/raw-file/tip/notebooks/2010-07-10-AffineSchubertCalculusHomework.sage|A possible solution to Shimozono's homework exercises]]
 
 = Sage servers =
 
