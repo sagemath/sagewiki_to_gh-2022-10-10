@@ -9,7 +9,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<|2 rowstyle="background-color: #EEFFEE;"> 11:00-12:00  ||'''William Stein: [[days24/abstracts#Stein|Sage - Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab]]'''||
 ||<style="background-color: #EEFFEE;"> Worksheet: ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-13:30   ||'''Lunch'''||
-||<|2> 13:30-14:30  ||'''Extended Demo: How to use Sage/What areas are covered''' (lead by ?)||
+||<|2> 13:30-14:30  ||'''Extended Demo: How to use Sage/What areas are covered''' (Harald Schilly)||
 ||  ||
 ||<|2>     14:30-15:30    ||'''Tutorial: Implementation of Polynomials and Python Tutorial---Part 1''' (lead by ?)||
 ||  ||
@@ -23,9 +23,9 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<style="background-color: #EEFFEE;"> ||
 || 11.30-12.00 || '''Georg Regensburger & Anja Korporal: ?''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-13:30   ||'''Lunch'''||
-||<|2>     13:30-14:30    || '''Tutorial: Cython ''' (lead by ?)||
+||<|2>     13:30-14:30    || '''Tutorial: Cython ''' (William Stein)||
 ||  ||
-||<|2>     14:30-15:30    || '''Tutorial: Contribute to Sage''' (lead by ?)||
+||<|2>     14:30-15:30    || '''Tutorial: Contribute to Sage''' (Robert Miller)||
 ||  ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:30-16:00  ||'''Coffee'''||
 ||<|2>     16:00-17:00 || '''Burcin Erocal: Symbolics in Sage & Pynac''' ||
