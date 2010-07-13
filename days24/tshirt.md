@@ -10,6 +10,7 @@ T-shirts will be '''ash grey''' with the following design by '''Martin Albrecht'
 
 === Sign up here: ===
 
+ * Sever Achimescu: XXL
  * Sedat Akleylek: L
  * Martin Albrecht: S
  * Stefan Böttner: L
