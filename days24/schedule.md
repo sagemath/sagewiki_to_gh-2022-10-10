@@ -4,7 +4,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Saturday, July 17, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">     10:00-11:00  ||'''Registration & Coffee'''||
-||<|2 rowstyle="background-color: #EEFFEE;"> 11:00-12:00  ||'''William Stein: ?'''||
+||<|2 rowstyle="background-color: #EEFFEE;"> 11:00-12:00  ||'''William Stein: [[days24/abstracts#Stein|Sage - Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab]]'''||
 ||<style="background-color: #EEFFEE;"> Worksheet: ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-13:30   ||'''Lunch'''||
 ||<|2> 13:30-14:30  ||'''Extended Demo: How to use Sage/What areas are covered''' (lead by ?)||
@@ -43,7 +43,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
 ||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Felix Ulmer: ? '''||
 ||<style="background-color: #EEFFEE;"> ||
-|| 11.30-12.00 || '''Clemens Raab: ?''' ||
+|| 11.30-12.00 || '''Clemens Raab: [[days24/abstracts#Raab|Symbolic computations for parameter integrals]]''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
 || 14.00-14.30 || '''Stefan Böttner: [[days24/abstracts#Boettner|Mixed Transcendental and Algebraic Extensions for the Risch-Norman Algorithm]]''' ||
 || 14.30-15.00 || '''Mohamed Boudellioua: [[days24/abstracts#Boudellioua|On the simplification of systems of linear multidimensional equations]]''' ||
@@ -56,7 +56,7 @@ ATTENTION : This is a tentative schedule, and is subject to change.
 ||<style="background-color: #EEFFEE;"> ||
 || 11.30-12.00 || '''Burcin Erocal: ?''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
-|| 14.00-14.30 || '''Manuel Kauers: ?''' ||
+|| 14.00-14.30 || '''Manuel Kauers: [[days24/abstracts#Kauers|Is it really a power series?]]''' ||
 || 14.30-15.00 || '''Veronika Pillwein: [[days24/abstracts#Pillwein|CAD and Special Functions Inequalities]]''' ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:00-15:30  ||'''Coffee'''||
 || 15.30-16.00 || '''? : ?''' ||
