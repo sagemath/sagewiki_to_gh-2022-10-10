@@ -98,6 +98,10 @@ Todo:
 
  * People: Andy Novocin, Wieb Bosma, Johannes van der Horst, Bill Hart, Max Flander
 
+===Swinnerton-Dyer Polynomials===
+
+See [[http://trac.sagemath.org/sage_trac/ticket/9492|trac 9492]].
+
  * Some code:
 {{{
 sage: a = sqrt(2)+sqrt(3)+sqrt(5)+sqrt(7)+sqrt(11)
