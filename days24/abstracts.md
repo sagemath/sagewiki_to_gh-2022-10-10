@@ -68,6 +68,15 @@ and displayed.  (DynaMoW is joint work in progress with Alexis
 Darrasse; DDMF is joint work in progress with Alexandre Benoit, Alexis
 Darrasse, Stefan Gerhold, Marc Mezzarobba, and Bruno Salvy.)
 
+<<Anchor(Kauers)>>
+==== Manuel Kauers --- Is it really a power series? ====
+
+We will talk about a recent result in lattice path enumeration
+whose proof required heavy computer algebra calculation. The focus of
+the talk will be on a particularly expensive computational step in the
+proof, where we needed to show that something that looks like a power
+series really is a power series. Joint work with Alin Bostan, Inria.
+
 <<Anchor(King)>>
 ==== Simon King --- Completeness criteria for modular group cohomology ====
 
@@ -98,6 +107,18 @@ approach that primarily caught my interest in CAD and in this talk I
 want to briefly introduce CAD, the Gerhold/Kauers-method and to present
 a non-trival application of their method to show the positivity of a sum
 over certain Gegenbauer polynomials.
+
+<<Anchor(Raab)>>
+==== Clemens Raab --- Symbolic computations for parameter integrals ====
+
+We give an introduction to two paradigms for finding antiderivatives of given functions that are used in symbolic integration. Risch-type algorithms deal with (suitable representations of) functions directly whereas Zeilberger-type algorithms use operator calculus. There are parametric versions of both of them, which are useful in the evaluation of definite parameter integrals. These algorithms address the case when no antiderivative of the integrand is found as well as the issue of verifiability of the result. We will discuss the principles behind and give examples.
+
+<<Anchor(Stein)>>
+==== William Stein --- Sage: Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab ====
+
+I will describe in more detail some of our short and
+long term strategies for making Sage into a viable open source
+alternative to expensive proprietary commercial mathematics software.
 
 <<Anchor(Temme)>>
 ==== Nico Temme --- Special Functions and Computer Algebra ====
