@@ -4,6 +4,10 @@
 
   * [[/schedule|The schedule]]
 
+== Projects ==
+
+  * [[/projects|Sprint projects]]
+
 == Mailing List ==
 
   * http://groups.google.com/group/sagedays23_5
