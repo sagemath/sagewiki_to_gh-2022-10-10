@@ -46,7 +46,9 @@ Provide an interface to use Singular monomials with big exponents (64-bit instea
 
 Revive [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]] to provide a basic interface to Plural. This will involve writing new parent and element classes for plural at least.
 
- 
+== Multivariate GCD, factorization, etc. benchmarks ==
+
+Take a look at the new code in GIAC, [[http://www-fourier.ujf-grenoble.fr/~parisse/giac/benchmarks/benchmarks.html|benchmarks posted here]]. Compare to improvements in Singular-Factory. [[MultivariateGCDBenchmarks|See here]] for more gcd benchmarks and scripts.
 
 = other stuff =
 == @fork decorator ==
