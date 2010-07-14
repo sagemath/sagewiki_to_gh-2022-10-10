@@ -1,5 +1,9 @@
 = Sage Days 23.5: Singular and Sage =
 
+== Schedule ==
+
+  * [[/schedule|The schedule]]
+
 == Organizers ==
 
   * Wolfram Decker
