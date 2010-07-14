@@ -5,6 +5,7 @@
   * William Stein: (a) regular pizza: tomato sauce, gouda ("NORMAL SIZE") and (b) SMALL SALAD MIX
   * Burcin Erocal: Pizza Quattro Stagioni, normal
   * Markus Lange-Hegermann: Pizza Salami, large
+  * Simon King: Pizza Diabolo (Groß)
 
 3) ...
 
