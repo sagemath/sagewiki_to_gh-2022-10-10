@@ -107,6 +107,8 @@ Take a look at the new code in GIAC, [[http://www-fourier.ujf-grenoble.fr/~paris
 
  People: Robert Miller, William Stein
 
+ Ticket: See [[http://trac.sagemath.org/sage_trac/ticket/9501|trac 9501]].
+
 Simon King mentioned that sometimes his code crashes/leaks/etc.  So make it so one can do:
 {{{
 @fork
