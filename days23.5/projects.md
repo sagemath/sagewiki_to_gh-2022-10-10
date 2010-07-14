@@ -90,11 +90,13 @@ Take a look at the new code in GIAC, [[http://www-fourier.ujf-grenoble.fr/~paris
 
   * Some reduction over the integers goes wrong
 
-== Error handling in Libsingular ==
+== (Done) Error handling in Libsingular ==
 
  People: Martin Albrecht, Hans S.
 
   Goal: If you have a singular library function and it goes wrong, then afterwards you can still use singular library functions. 
+
+  Patch up at Sage ticket: #9499
 
 = other stuff =
 == @fork, @parallel decorator ==
