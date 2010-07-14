@@ -1,5 +1,7 @@
 = Sage Days 23.5 Coding Sprint Projects =
 
+<<TableOfContents>>
+
 == Singular Parallel Build ==
 
  * [[http://trac.sagemath.org/sage_trac/ticket/9497|Trac #9497]]: Fix the Singular spkg so it can take advantage of building in parallel
@@ -8,7 +10,7 @@
 
 The file {{{SAGE_ROOT/devel/sage/sage/algebras/free_algebra_quotient.py}}} has no doctests. Get it to 100% coverage.   The point of this is that it is related to wrapping something like letterplace. 
 
-== Letterplace == 
+== Letterplace ==
 
 Do a very basic wrapping of letterplace for Sage.  Use this to replace some of the lame old code in the {{{SAGE_ROOT/devel/sage/sage/algebras/}}} directory. 
 
