@@ -97,7 +97,7 @@ Take a look at the new code in GIAC, [[http://www-fourier.ujf-grenoble.fr/~paris
 
   Goal: If you have a singular library function and it goes wrong, then afterwards you can still use singular library functions. 
 
-  Patch up at Sage ticket: #9499
+  Patch up at Sage ticket: [[http://trac.sagemath.org/sage_trac/ticket/9499|#9499]]
 
 = other stuff =
 == @fork, @parallel decorator ==
