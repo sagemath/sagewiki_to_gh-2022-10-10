@@ -4,7 +4,7 @@
 
 == Singular Parallel Build ==
 
- * [[http://trac.sagemath.org/sage_trac/ticket/9497|Trac #9497]]: Fix the Singular spkg so it can take advantage of building in parallel
+ * [[http://trac.sagemath.org/sage_trac/ticket/9497|Trac #9497]]: Fix the Singular spkg so it can take advantage of building in parallel. But fix Singular SPKG first (3-1-1-3)!
 
 == Doctest the Free Algebra Quotient code ==
 
@@ -25,6 +25,8 @@ Do a very basic wrapping of letterplace for Sage.  Use this to replace some of t
 == Gröbner bases in Sage: Optional parameters ==
 
 
+---- /!\ '''Edit conflict - other version:''' ----
+
  In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular, and also introduce a decorator that can be used for methods that use the Singular expect interface: Save the current options and set a certain value when entering the function, and reset the options when leaving. In other words: Fix [[http://trac.sagemath.org/sage_trac/ticket/1396|#1396]]!!
 
 
@@ -33,9 +35,19 @@ Do a very basic wrapping of letterplace for Sage.  Use this to replace some of t
  This is [[http://trac.sagemath.org/sage_trac/ticket/9498|trac 9498]].  There is a stupid function that William Stein wrote during bug days, which may as well be removed.
 
 
-= Stuff that isn't clearly Singular related =
+---- /!\ '''End of edit conflict''' ----
 
-== Make an @fork decorator ==
+---- /!\ '''Edit conflict - your version:''' ----
+ In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular, and also introduce a decorator that can be used for methods that use the Singular expect interface: Save the current options and set a certain value when entering the function, and reset the options when leaving. In other words: Fix [[http://trac.sagemath.org/sage_trac/ticket/1396|#1396]]!!
+
+== extend polynomial rings mod 2^n to n > 30 ==
+
+Rings mod 2^n are limited to n <= 30, but we'd like to have n<=62 by using longs. This would be relevant for some crypto applications
+
+== big exponents ==
+
+Provide an interface to use Singular monomials with big exponents (64-bit instead of 16-bit)
+
  
 Simon King mentioned that sometimes his code crashes/leaks/etc.  So make it so one can do:
 {{{
