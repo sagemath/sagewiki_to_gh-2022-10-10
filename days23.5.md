@@ -4,11 +4,13 @@
 
   * [[/schedule|The schedule]]
 
+== Mailing List ==
+
+  * http://groups.google.com/group/sagedays23_5
+
 == Organizers ==
 
-  * Wolfram Decker
-  * Gert-Martin Greuel
-  * William Stein
+  * Wolfram Decker, Gert-Martin Greuel, and William Stein
 
 
 == Location ==
