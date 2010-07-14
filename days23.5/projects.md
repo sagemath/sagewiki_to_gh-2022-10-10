@@ -16,7 +16,7 @@ The file {{{SAGE_ROOT/devel/sage/sage/algebras/free_algebra_quotient.py}}} has n
 
 == Letterplace ==
 
-Do a very basic wrapping of letterplace for Sage.  Use this to replace some of the lame old code in the {{{SAGE_ROOT/devel/sage/sage/algebras/}}} directory. 
+Do a very basic wrapping of letterplace for Sage.  Use this to replace some of the lame old code in the {{{SAGE_ROOT/devel/sage/sage/algebras/}}} directory. See here: [[http://trac.sagemath.org/sage_trac/ticket/7797|#7797]]
 
 == error: out of memory ==
 
