@@ -20,7 +20,7 @@ Goals:
 
 == Doctest the Free Algebra Quotient code ==
 
-People: William Stein.
+People: Gabriel Pannwitz
 
 The file {{{SAGE_ROOT/devel/sage/sage/algebras/free_algebra_quotient.py}}} has no doctests. Get it to 100% coverage.   The point of this is that it is related to wrapping something like letterplace. 
 
