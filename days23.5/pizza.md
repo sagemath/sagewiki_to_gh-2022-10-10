@@ -10,6 +10,7 @@
   * Martin Lee: Pizza Italia (normal)
   * Martin Albrecht: Pizza Hot Dog (Groß)
   * Moritz Minzlaff: Pizza Americano (normal)
+  * Hans Schönemann: Pizza Quadre Statione (normal)
 3) ...
 
 4) Profit.
