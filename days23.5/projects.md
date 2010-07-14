@@ -24,7 +24,19 @@ Do a very basic wrapping of letterplace for Sage.  Use this to replace some of t
 
 == Gröbner bases in Sage: Optional parameters ==
 
+
+---- /!\ '''Edit conflict - other version:''' ----
  In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular, and also introduce a decorator that can be used for methods that use the Singular expect interface: Save the current options and set a certain value when entering the function, and reset the options when leaving. In other words: Fix [[http://trac.sagemath.org/sage_trac/ticket/1396|#1396]]!!
+
+---- /!\ '''Edit conflict - your version:''' ----
+ In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular, and also introduce a decorator that can be used for methods that use the Singular expect interface: Save the current options and set a certain value when entering the function, and reset the options when leaving.
+
+== Delete a function related to multivariate polynomial factorization from Sage ==
+
+ This is [[http://trac.sagemath.org/sage_trac/ticket/9498|trac 9498]].  There is a stupid function that William Stein wrote during bug days, which may as well be removed.
+
+
+---- /!\ '''End of edit conflict''' ----
 
 = Stuff that isn't clearly Singular related =
 
