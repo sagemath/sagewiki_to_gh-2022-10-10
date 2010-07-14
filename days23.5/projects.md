@@ -43,6 +43,9 @@ Rings mod 2^n are limited to n <= 30, but we'd like to have n<=62 by using longs
 Provide an interface to use Singular monomials with big exponents (64-bit instead of 16-bit)
 
  
+
+= other stuff =
+== @fork decorator ==
 Simon King mentioned that sometimes his code crashes/leaks/etc.  So make it so one can do:
 {{{
 @fork
