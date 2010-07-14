@@ -1,8 +1,11 @@
 = Sage Days 23.5: Singular and Sage =
 
+ [[/pizza|Pizza!]]
+
 == Schedule ==
 
   * [[/schedule|The schedule]]
+  
 
 == Projects ==
 
