@@ -8,7 +8,7 @@ See also [[http://www.singular.uni-kl.de/index.php/events/sage-days-235.html|the
 ||10:10-10:40||[[attachment:stein.pdf|William Stein -- Sage and Singular]]||
 ||10:40-11:30||Robert Miller -- The Sage Development Process||
 ||12:00-12:10||Discussion||
-||12:10-12:40||Simon King -- Computational Group Cohomology using SINGULAR||
+||12:10-12:40||[[attachment:GroupCohomology.pdf|Simon King -- Computational Group Cohomology using SINGULAR in Sage]]||
 ||2:45-2:55||Hans S. -- Singular Error Handling||
 ||3:00-3:20||Alexander Dreyer -- Interfacing with Python from Singular||
 ||3:30-3:50||Victor -- Noncommutative||
