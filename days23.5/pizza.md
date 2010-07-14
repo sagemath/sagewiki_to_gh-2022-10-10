@@ -6,6 +6,7 @@
   * Burcin Erocal: Pizza Quattro Stagioni, normal
   * Markus Lange-Hegermann: Pizza Salami, large
   * Simon King: Pizza Diabolo (Groß)
+  * Martin Lee: Pizza Italia (normal)
 
 3) ...
 
