@@ -38,10 +38,10 @@ People: William Stein, Hans S.
 
 == Relative number field arithmetic ==
 
-People: Mohamed, Andrew
+People: Mohamed, Andrew, William Stein
 
 Goal: 
-  1. Explain how to compute inverses.
+  1. (done) Explain how to compute inverses.  
   2. Open a trac ticket about this.
   3. Post a little experimental code that indicates how fast this could. 
 
