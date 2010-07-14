@@ -88,6 +88,12 @@ Revive [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]] to provide a bas
 
 Take a look at the new code in GIAC, [[http://www-fourier.ujf-grenoble.fr/~parisse/giac/benchmarks/benchmarks.html|benchmarks posted here]]. Compare to improvements in Singular-Factory. [[MultivariateGCDBenchmarks|See here]] for more gcd benchmarks and scripts.
 
+== Implement multivariate factorization over finite fields ==
+
+ People: Burcin, William Stein, Martin Albrecht
+
+ See [[/factor|this page]].
+
 == Fix bug(s) in Singular needed for updating the spkg ==
 
  People: Frank
