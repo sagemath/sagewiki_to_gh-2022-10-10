@@ -68,6 +68,11 @@ and displayed.  (DynaMoW is joint work in progress with Alexis
 Darrasse; DDMF is joint work in progress with Alexandre Benoit, Alexis
 Darrasse, Stefan Gerhold, Marc Mezzarobba, and Bruno Salvy.)
 
+<<Anchor(Johansson)>>
+==== Fredrik Johansson --- Arbitrary-precision special functions in mpmath ====
+
+The mpmath library, part of Sage, implements arbitrary-precision real and complex arithmetic along with tools for numerical evaluation of infinite series, integrals, derivatives, limits, and so on. It also provides a comprehensive set of special functions. We discuss how mpmath evaluates general and special functions, with emphasis on generalized hypergeometric functions (including Bessel functions, the Meijer G function and so on) for complex parameters and argument.
+
 <<Anchor(Kauers)>>
 ==== Manuel Kauers --- Is it really a power series? ====
 
