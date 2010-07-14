@@ -42,7 +42,7 @@ People: Mohamed, Andrew, William Stein
 
 Goal: 
   1. (done) Explain how to compute inverses.  
-  2. Open a trac ticket about this.
+  2. Open a trac ticket about this: [[http://trac.sagemath.org/sage_trac/ticket/9500|trac 9500]]
   3. Post a little experimental code that indicates how fast this could. 
 
  Arithmetic in relative numbers fields is sometimes very slow.  This could be done using multivariate polynomial ring quotients via libsingular, which would be extremely fast in some cases.  There is some cleverness that I do *not* know how to do for inverting elements -- hence it would be good to do this here with singular people around.
