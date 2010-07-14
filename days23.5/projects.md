@@ -2,6 +2,10 @@
 
 <<TableOfContents>>
 
+== Python <--> Singular Linking Discussion ==
+
+Have a technical discussion of linking Python and Singular and Sage.
+
 == Singular Parallel Build ==
 
  * [[http://trac.sagemath.org/sage_trac/ticket/9497|Trac #9497]]: Fix the Singular spkg so it can take advantage of building in parallel. But fix Singular SPKG first (3-1-1-3)!
