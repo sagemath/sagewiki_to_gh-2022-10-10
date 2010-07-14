@@ -42,6 +42,10 @@ Rings mod 2^n are limited to n <= 30, but we'd like to have n<=62 by using longs
 
 Provide an interface to use Singular monomials with big exponents (64-bit instead of 16-bit)
 
+== Plural interface ==
+
+Revive [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]] to provide a basic interface to Plural. This will involve writing new parent and element classes for plural at least.
+
  
 
 = other stuff =
@@ -53,10 +57,6 @@ def f(x,y,z,...):
     ...
 }}}
 and then f gets computed in a blocking forked process, and the result is returned via pickling. This is 100% to thwart mem leaks, segfaults, and guaranteed timeout possibility.   This could be basically just a light wrapper around @parallel(1).  Also, make a global flag to turn this off, so @fork does nothing. 
-
-== Plural interface ==
-
-Revive [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]] to provide a basic interface to Plural. This will involve writing new parent and element classes for plural at least.
 
 == Sage Nagbot could Doctest some tickets ==
 
