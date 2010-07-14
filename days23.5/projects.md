@@ -22,6 +22,9 @@ Do a very basic wrapping of letterplace for Sage.  Use this to replace some of t
 
  Arithmetic in relative numbers fields is sometimes very slow.  This could be done using multivariate polynomial ring quotients via libsingular, which would be extremely fast in some cases.  There is some cleverness that I do *not* know how to do for inverting elements -- hence it would be good to do this here with singular people around.
 
+== Gröbner bases in Sage: Optional parameters ==
+
+ In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular, and also introduce a decorator that can be used for methods that use the Singular expect interface: Set the options to certain value when entering the function, and reset the default when leaving.
 
 = Stuff that isn't clearly Singular related =
 
