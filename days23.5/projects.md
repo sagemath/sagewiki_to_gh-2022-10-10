@@ -80,7 +80,7 @@ Revive [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]] to provide a bas
 
 == Multivariate GCD, factorization, etc. benchmarks ==
 
- People: Martin Lee, Burcin, Marcus, Michael Brickenstein
+ People: Martin Lee, Burcin, Markus, Michael Brickenstein
 
 Take a look at the new code in GIAC, [[http://www-fourier.ujf-grenoble.fr/~parisse/giac/benchmarks/benchmarks.html|benchmarks posted here]]. Compare to improvements in Singular-Factory. [[MultivariateGCDBenchmarks|See here]] for more gcd benchmarks and scripts.
 
