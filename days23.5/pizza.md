@@ -2,7 +2,7 @@
 
 2) Add your choice + your name to this wiki page:
 
-  * William Stein: tomato sauce, gouda, "NORMAL SIZE"
+  * William Stein: (a) regular pizza: tomato sauce, gouda ("NORMAL SIZE") and (b) SMALL SALAD MIX
 
 3) ...
 
