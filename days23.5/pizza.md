@@ -8,6 +8,8 @@
   * Simon King: Pizza Diabolo (Groß)
   * Oleksandr Motsak: Pizza Tonno-Wonno (Groß)
   * Martin Lee: Pizza Italia (normal)
+  * Moritz Minzlaff: Pizza Americano (normal)
+
 3) ...
 
 4) Profit.
