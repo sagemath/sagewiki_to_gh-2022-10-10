@@ -67,11 +67,14 @@ In Singular, one can use various options (redTail, e.g.) and also a degree bound
 Rings mod 2^n are limited to n <= 30, but we'd like to have n<=62 by using longs. This would be relevant for some crypto applications.
 
 
-== big exponents ==
+== (Done) big exponents ==
 
  People: Martin Albrecht, Hans S. 
 
 Provide an interface to use Singular monomials with big exponents (64-bit instead of 16-bit)
+
+
+Sage Trac ticket: #7795
 
 == Plural interface ==
 
