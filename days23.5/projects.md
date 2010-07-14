@@ -51,6 +51,10 @@ def f(x,y,z,...):
 }}}
 and then f gets computed in a blocking forked process, and the result is returned via pickling. This is 100% to thwart mem leaks, segfaults, and guaranteed timeout possibility.   This could be basically just a light wrapper around @parallel(1).  Also, make a global flag to turn this off, so @fork does nothing. 
 
+== Plural interface ==
+
+Revive [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]] to provide a basic interface to Plural. This will involve writing new parent and element classes for plural at least.
+
 == Sage Nagbot could Doctest some tickets ==
 
 The Sage Nagbot could be made able to run doctests for a ticket, say in the one obvious case where there is precisely one patch attached to the ticket, and it is set to "needs review".   [[http://sage.math.washington.edu/home/wstein/nagbot/|The nagbot code is here.]]
