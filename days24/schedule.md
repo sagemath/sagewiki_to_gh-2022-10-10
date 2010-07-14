@@ -37,7 +37,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 || 11.30-12.00 || '''Flavia Stan: ?''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
 || 14.00-14.30 || '''Frédéric Chyzak: [[days24/abstracts#Chyzak|DDMF (Dynamic Dictionary of Mathematical Functions) and its DynaMoW]]''' ||
-|| 14.30-15.00 || '''Fredrik Johansson: ?''' ||
+|| 14.30-15.00 || '''Fredrik Johansson: [[days24/abstracts#Johansson|Arbitrary-precision special functions in mpmath]]''' ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:00-15:30  ||'''Coffee'''||
 || 15.30-16.00 || '''Richard Kreckel: ?''' ||
 || 16.00-16.30 || '''? : ?''' ||
