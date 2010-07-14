@@ -24,7 +24,7 @@ Do a very basic wrapping of letterplace for Sage.  Use this to replace some of t
 
 == Gröbner bases in Sage: Optional parameters ==
 
- In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular, and also introduce a decorator that can be used for methods that use the Singular expect interface: Set the options to certain value when entering the function, and reset the default when leaving.
+ In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular, and also introduce a decorator that can be used for methods that use the Singular expect interface: Save the current options and set a certain value when entering the function, and reset the options when leaving.
 
 = Stuff that isn't clearly Singular related =
 
