@@ -34,7 +34,7 @@ Do a very basic wrapping of letterplace for Sage.  Use this to replace some of t
 
 People: William Stein, Hans S. 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/5313|Trac #5313]].  Patch singular so that when it runs out of memory the error message says "singular" in it.   Moreover, replace the exit(1) or whatever by something that can be trapped via _sig_on/_sig_off.  
+ * (done, in that patches are up for everything) [[http://trac.sagemath.org/sage_trac/ticket/5313|Trac #5313]].  Patch singular so that when it runs out of memory the error message says "singular" in it.   Moreover, replace the exit(1) or whatever by something that can be trapped via _sig_on/_sig_off.  
 
 == Relative number field arithmetic ==
 
@@ -52,7 +52,7 @@ Goal:
 
 People: William Stein
 
- This is [[http://trac.sagemath.org/sage_trac/ticket/9498|trac 9498]].  There is a stupid function that William Stein wrote during bug days, which may as well be removed.
+ (done -- patch up) This is [[http://trac.sagemath.org/sage_trac/ticket/9498|trac 9498]].  There is a stupid function that William Stein wrote during bug days, which may as well be removed.
 
 == Gröbner bases in Sage: Optional parameters ==
 
