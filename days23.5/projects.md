@@ -60,9 +60,9 @@ People: William Stein
 
 == Gröbner bases in Sage: Optional parameters ==
 
- People: Simon King, with a little bit of help from Martin (minutes)
+ People: Simon King, with a help from Martin and Hannes (more than minutes...)
 
-In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular, and also introduce a decorator that can be used for methods that use the Singular expect interface: Save the current options and set a certain value when entering the function, and reset the options when leaving. In other words: Fix [[http://trac.sagemath.org/sage_trac/ticket/1396|#1396]]!!
+ (done -- patch will be posted to [[http://trac.sagemath.org/sage_trac/ticket/1396|#1396]] as soon as {{{sage -testall}}} passed) In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular.
 
 == extend polynomial rings mod 2^n to n > 30, and over ZZ ==
 
