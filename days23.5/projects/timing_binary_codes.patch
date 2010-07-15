@@ -1,0 +1,267 @@
+# HG changeset patch
+# User Robert L. Miller <rlm@rlmiller.org>
+# Date 1279197902 -7200
+# Node ID 258f51eaf502fe5b4d243de4aa33c1574af52f9e
+# Parent  fb13c796966fb0514a9708de9b5431a054b8534a
+[mq]: timing_binary_codes.patch
+
+diff -r fb13c796966f -r 258f51eaf502 sage/coding/binary_code.pxd
+--- a/sage/coding/binary_code.pxd	Tue Jul 13 12:52:04 2010 +0200
++++ b/sage/coding/binary_code.pxd	Thu Jul 15 14:45:02 2010 +0200
+@@ -5,6 +5,10 @@
+ 
+ ctypedef unsigned int codeword
+ 
++cdef extern from "time.h":
++    ctypedef unsigned long clock_t
++    cdef clock_t clock()
++
+ cdef struct WordPermutation:
+     # A word permutation is a permutation of the bits in a codeword.
+     int chunk_num
+@@ -55,6 +59,10 @@
+     cdef int merge_perm(self, int *, int *) 
+ 
+ cdef class PartitionStack:
++    cdef clock_t wd_deg_clock_ticks
++    cdef clock_t cl_deg_clock_ticks
++    cdef unsigned long wd_deg_calls
++    cdef unsigned long cl_deg_calls
+     cdef int *wd_ents
+     cdef int *wd_lvls
+     cdef int *col_ents
+diff -r fb13c796966f -r 258f51eaf502 sage/coding/binary_code.pyx
+--- a/sage/coding/binary_code.pyx	Tue Jul 13 12:52:04 2010 +0200
++++ b/sage/coding/binary_code.pyx	Thu Jul 15 14:45:02 2010 +0200
+@@ -2644,6 +2644,8 @@
+         return result
+ 
+     cdef int refine(self, int k, int *alpha, int alpha_length, BinaryCode CG, int *ham_wts):
++        cdef clock_t start, end, wd_deg_ticks = <clock_t> 0, cl_deg_ticks = <clock_t> 0
++        cdef unsigned long wd_deg_calls = 0, cl_deg_calls = 0
+         cdef int q, r, s, t, flag = self.flag, self_ncols = self.ncols
+         cdef int t_w, self_nwords = self.nwords, invariant = 0, i, j, m = 0
+         cdef int *self_wd_degs = self.wd_degs, *self_wd_lvls = self.wd_lvls, *self_wd_ents = self.wd_ents
+@@ -2664,7 +2666,11 @@
+                     while 1:
+ #                        print 'col_i', self_col_ents[i]
+ #                        print 'alpha[m]^flag', alpha[m]^flag
++                        start = clock()
+                         self_col_degs[i-j] = self.col_degree(CG, self_col_ents[i], alpha[m]^flag, k)
++                        end = clock()
++                        cl_deg_ticks += (end - start)
++                        cl_deg_calls += 1
+ #                        print 'deg', self_col_degs[i-j]
+                         if s == 0 and self_col_degs[i-j] != self_col_degs[0]: s = 1
+                         i += 1
+@@ -2688,7 +2694,11 @@
+                                     alpha_length += 1
+                             r += 1
+                             if r >= i: break
++                        start = clock()
+                         invariant += self.col_degree(CG, self_col_ents[i-1], alpha[m]^flag, k)
++                        end = clock()
++                        cl_deg_ticks += (end - start)
++                        cl_deg_calls += 1
+                         invariant += (i-j)
+                     j = i
+             else:
+@@ -2700,7 +2710,11 @@
+                     invariant += 64
+                     while 1:
+ #                        print 'i', i
++                        start = clock()
+                         self_wd_degs[i-j] = self.wd_degree(CG, self_wd_ents[i], alpha[m], k, ham_wts)
++                        end = clock()
++                        wd_deg_ticks += (end - start)
++                        wd_deg_calls += 1
+ #                        print 'deg', self_wd_degs[i-j]
+                         if s == 0 and self_wd_degs[i-j] != self_wd_degs[0]: s = 1
+                         i += 1
+@@ -2725,10 +2739,18 @@
+                                     alpha_length += 1
+                             r += 1
+                             if r >= i: break
++                        start = clock()
+                         invariant += self.wd_degree(CG, self_wd_ents[i-1], alpha[m], k, ham_wts)
++                        end = clock()
++                        wd_deg_ticks += (end - start)
++                        wd_deg_calls += 1
+                         invariant += (i-j)
+                     j = i
+             m += 1
++        self.cl_deg_clock_ticks += cl_deg_ticks
++        self.wd_deg_clock_ticks += wd_deg_ticks
++        self.cl_deg_calls += cl_deg_calls
++        self.wd_deg_calls += wd_deg_calls
+         return invariant
+ 
+     def _clear(self, k):
+@@ -3214,7 +3236,6 @@
+         return py_aut_gp_gens, py_labeling, aut_gp_size, base
+ 
+     cdef void aut_gp_and_can_label(self, BinaryCode C, int verbosity):
+-
+         # declare variables:
+         cdef int i, j, ii, jj, iii, jjj, iiii # local variables
+ 
+@@ -3292,12 +3313,15 @@
+         W     = self.W
+         e     = self.e
+         nu =    PartitionStack(nrows, ncols)
++        nu.cl_deg_clock_ticks = <clock_t> 0
++        nu.wd_deg_clock_ticks = <clock_t> 0
++        nu.cl_deg_calls = 0
++        nu.wd_deg_calls = 0
+         Theta = OrbitPartition(nrows, ncols)
+ 
+         # trivial case
+         if ncols == 0 or nrows == 0:
+             raise NotImplementedError("Must supply a nontrivial code.")
+-
+         state = 1
+         while state != -1:
+             if False:
+@@ -3806,6 +3830,12 @@
+             self.labeling[rho.col_ents[i]] = i
+         for i from 0 <= i < 2*nrows:
+             self.labeling[i+ncols] = rho.basis_locations[i]
++        print 'wd deg tot clock ticks', nu.wd_deg_clock_ticks
++        print '    ', nu.wd_deg_calls, 'calls'
++        print '    ', (<double>nu.wd_deg_clock_ticks) / (<double>nu.wd_deg_calls), 'per call'
++        print 'cl deg tot clock ticks', nu.cl_deg_clock_ticks
++        print '    ', nu.cl_deg_calls, 'calls'
++        print '    ', (<double>nu.cl_deg_clock_ticks) / (<double>nu.cl_deg_calls), 'per call'
+ 
+     def put_in_canonical_form(self, BinaryCode B):
+         """
+diff -r fb13c796966f -r 258f51eaf502 sage/groups/perm_gps/partn_ref/automorphism_group_canonical_label.pyx
+--- a/sage/groups/perm_gps/partn_ref/automorphism_group_canonical_label.pyx	Tue Jul 13 12:52:04 2010 +0200
++++ b/sage/groups/perm_gps/partn_ref/automorphism_group_canonical_label.pyx	Thu Jul 15 14:45:02 2010 +0200
+@@ -471,7 +471,6 @@
+         compared_current_and_label_indicators = 0
+         label_ps = PS_copy(current_ps)
+     current_ps.depth -= 1
+-    
+     # Main loop:
+     while current_ps.depth != -1:
+         
+@@ -688,7 +687,7 @@
+             current_ps.depth = j
+             if bitset_check(vertices_have_been_reduced, current_ps.depth):
+                 bitset_and(vertices_to_split[current_ps.depth], vertices_to_split[current_ps.depth], minimal_cell_reps_of_generators[index_in_fp_and_mcr])
+-
++    
+     # End of main loop.
+ 
+     mpz_init_set(output.order, subgroup_size)
+diff -r fb13c796966f -r 258f51eaf502 sage/groups/perm_gps/partn_ref/refinement_binary.pxd
+--- a/sage/groups/perm_gps/partn_ref/refinement_binary.pxd	Tue Jul 13 12:52:04 2010 +0200
++++ b/sage/groups/perm_gps/partn_ref/refinement_binary.pxd	Thu Jul 15 14:45:02 2010 +0200
+@@ -14,7 +14,15 @@
+ from sage.groups.perm_gps.partn_ref.automorphism_group_canonical_label cimport get_aut_gp_and_can_lab, aut_gp_and_can_lab_return
+ from double_coset cimport double_coset
+ 
++cdef extern from "time.h":
++    ctypedef unsigned long clock_t
++    cdef clock_t clock()
++
+ cdef class BinaryCodeStruct:
++    cdef clock_t wd_deg_clock_ticks
++    cdef clock_t cl_deg_clock_ticks
++    cdef unsigned long wd_deg_calls
++    cdef unsigned long cl_deg_calls
+     cdef bitset_s *alpha_is_wd # single bitset of length nwords + degree
+     cdef int degree
+     cdef int nwords
+diff -r fb13c796966f -r 258f51eaf502 sage/groups/perm_gps/partn_ref/refinement_binary.pyx
+--- a/sage/groups/perm_gps/partn_ref/refinement_binary.pyx	Tue Jul 13 12:52:04 2010 +0200
++++ b/sage/groups/perm_gps/partn_ref/refinement_binary.pyx	Thu Jul 15 14:45:02 2010 +0200
+@@ -240,9 +240,17 @@
+             part[i][len(partition[i])] = -1
+         part[len(partition)] = NULL
+         self.first_time = 1
+-        
++        self.wd_deg_clock_ticks = <clock_t> 0
++        self.cl_deg_clock_ticks = <clock_t> 0
++        self.wd_deg_calls = 0
++        self.cl_deg_calls = 0
+         self.output = get_aut_gp_and_can_lab(self, part, self.degree, &all_children_are_equivalent, &refine_by_bip_degree, &compare_linear_codes, 1, 1, 1)
+-        
++        print 'wd deg tot clock ticks', self.wd_deg_clock_ticks
++        print '    ', self.wd_deg_calls, 'calls'
++        print '    ', (<double>self.wd_deg_clock_ticks) / (<double>self.wd_deg_calls), 'per call'
++        print 'cl deg tot clock ticks', self.cl_deg_clock_ticks
++        print '    ', self.cl_deg_calls, 'calls'
++        print '    ', (<double>self.cl_deg_clock_ticks) / (<double>self.cl_deg_calls), 'per call'
+         for i from 0 <= i < len(partition):
+             sage_free(part[i])
+         sage_free(part)
+@@ -667,6 +675,8 @@
+     $$ I(G, PS, cells_to_refine_by) = I( \gamma(G), \gamma(PS), \gamma(cells_to_refine_by) ) .$$
+     
+     """
++    cdef clock_t start, end, wd_deg_ticks = <clock_t> 0, cl_deg_ticks = <clock_t> 0
++    cdef unsigned long wd_deg_calls = 0, cl_deg_calls = 0
+     cdef BinaryCodeStruct BCS = <BinaryCodeStruct> S
+     cdef int current_cell_against = 0
+     cdef int current_cell, i, r, j
+@@ -702,7 +712,11 @@
+                 i = current_cell
+                 necessary_to_split_cell = 0
+                 while 1:
++                    start = clock()
+                     col_degrees[i-current_cell] = col_degree(col_ps, BCS, i, ctrb[current_cell_against], word_ps)
++                    end = clock()
++                    cl_deg_ticks += (end - start)
++                    cl_deg_calls += 1
+                     if col_degrees[i-current_cell] != col_degrees[0]:
+                         necessary_to_split_cell = 1
+                     i += 1
+@@ -712,7 +726,11 @@
+                 if necessary_to_split_cell:
+                     invariant += 8
+                     first_largest_subcell = sort_by_function(col_ps, current_cell, col_degrees, col_counts, col_output, BCS.nwords+1)
++                    start = clock()
+                     invariant += col_degree(col_ps, BCS, i-1, ctrb[current_cell_against], word_ps)
++                    end = clock()
++                    cl_deg_ticks += (end - start)
++                    cl_deg_calls += 1
+                     invariant += first_largest_subcell
+                     against_index = current_cell_against
+                     while against_index < ctrb_len:
+@@ -737,7 +755,11 @@
+                 i = current_cell
+                 necessary_to_split_cell = 0
+                 while 1:
++                    start = clock()
+                     word_degrees[i-current_cell] = word_degree(word_ps, BCS, i, ctrb[current_cell_against], col_ps)
++                    end = clock()
++                    wd_deg_ticks += (end - start)
++                    wd_deg_calls += 1
+                     if word_degrees[i-current_cell] != word_degrees[0]:
+                         necessary_to_split_cell = 1
+                     i += 1
+@@ -747,7 +769,11 @@
+                 if necessary_to_split_cell:
+                     invariant += 64
+                     first_largest_subcell = sort_by_function(word_ps, current_cell, word_degrees, word_counts, word_output, BCS.degree+1)
++                    start = clock()
+                     invariant += word_degree(word_ps, BCS, i-1, ctrb[current_cell_against], col_ps)
++                    end = clock()
++                    wd_deg_ticks += (end - start)
++                    wd_deg_calls += 1
+                     invariant += first_largest_subcell
+                     against_index = current_cell_against
+                     while against_index < ctrb_len:
+@@ -768,6 +794,10 @@
+                     invariant += (i - current_cell)
+                 current_cell = i
+         current_cell_against += 1
++    BCS.cl_deg_clock_ticks += cl_deg_ticks
++    BCS.wd_deg_clock_ticks += wd_deg_ticks
++    BCS.cl_deg_calls += cl_deg_calls
++    BCS.wd_deg_calls += wd_deg_calls
+     return invariant
+ 
+ cdef int compare_linear_codes(int *gamma_1, int *gamma_2, object S1, object S2):
