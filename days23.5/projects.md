@@ -2,6 +2,10 @@
 
 <<TableOfContents>>
 
+== Fix Sage's wrapping of Singular's Brill-Noether ==
+
+  * See [[/brillnoether|this page]] for more details. 
+
 == Python <--> Singular Linking Discussion ==
 
 How: Dinner and beer.
