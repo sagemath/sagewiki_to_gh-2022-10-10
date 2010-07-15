@@ -64,7 +64,7 @@ People: Simon King, with a help from Martin and Hannes (more than minutes...)
 
  (patch will be posted to [[http://trac.sagemath.org/sage_trac/ticket/1396|#1396]] as soon as {{{sage -testall}}} passed) In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular. 
 
- Here are examples in Singular and libSingular:
+ As a courtesy, one can name the options both in Python style (deg_bound) and Singular style (degBound). A decorator ensures that all relevant methods work under default options unless explicitly requested by the user. Here are examples in Singular and libSingular:
  {{{
 sage: R.<x,y> = QQ[]
 sage: I = R*[x^3+y^2,x^2*y+1]
