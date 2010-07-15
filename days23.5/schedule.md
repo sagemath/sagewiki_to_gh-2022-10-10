@@ -11,7 +11,7 @@ See also [[http://www.singular.uni-kl.de/index.php/events/sage-days-235.html|the
 ||12:10-12:40||[[attachment:GroupCohomology.pdf|Simon King -- Computational Group Cohomology using SINGULAR in Sage]]||
 ||2:45-2:55||Hans S. -- Singular Error Handling||
 ||3:00-3:20||Alexander Dreyer -- Interfacing with Python from Singular||
-||3:30-3:50||Victor -- Noncommutative||
+||3:30-3:50||[[attachment:noncommutative.pdf|Victor -- Noncommutative]]||
 
 == Thursday, July 15 ==
 ||10:30-11:00||Status reports||
