@@ -180,7 +180,7 @@ Polynomials in Q[x,y,z]:
  16. ((x+y+z)^10^ - 4^10^)^5^-3^5^
  17. ((x+y+z)^5^ - 2^5^)^8^-3^8^
 
-Bechmarks (someone check these, its late...), and the polynomials look ugly in the wiki.
+Bechmarks (someone check these, its late...).
 
 GIAC and Singular on AMD opeteron 2800MHZ,  Magma on AMD opeteron 2300MHZ (due to licence)
 
