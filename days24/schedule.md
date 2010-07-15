@@ -19,7 +19,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 || 17:00-18:00 ||  Coding sprint organization ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Sunday, July 18, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
-||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Alban Quadrat: ? '''||
+||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||'''Alban Quadrat: [[days24/abstracts#Quadrat|A Short Introduction to Constructive Algebraic Analysis]]'''||
 ||<style="background-color: #EEFFEE;"> ||
 || 11.30-12.00 || '''Georg Regensburger & Anja Korporal: ?''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-13:30   ||'''Lunch'''||
