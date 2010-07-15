@@ -6,8 +6,10 @@ Feel free to add your name to the list if you plan to come. You can add a questi
  * Sedat Akleylek (IAM-METU)
  * Martin Albrecht (RHUL)
  * Thomas Baechler (Aachen)
+ * Philipp Birklbauer (JKU)
  * Stefan Boettner (Tulane)
  * Mohamed S. Boudellioua
+ * Stephen Buckley (Oxford)
  * Frédéric Chyzak (INRIA Rocquencourt)
  * Diego Dominici (New Paltz)
  * Alexander Dreyer (Kaiserslautern)
@@ -19,6 +21,7 @@ Feel free to add your name to the list if you plan to come. You can add a questi
  * Karen Kohl (Tulane)
  * Anja Korporal (RISC)
  * Richard Kreckel
+ * Johanness Middeke (RISC)
  * Robert Miller (UW)
  * Ionela Moale (JKU)
  * Oleksandr Motsak (Kaiserslautern)
@@ -38,4 +41,3 @@ Feel free to add your name to the list if you plan to come. You can add a questi
  * Felix Ulmer (IRMAR)
  * Zafeirakis Zafeirakopoulos (RISC)
  * Burkhard Zimmermann (RISC)
- * Stephen Buckley (Oxford)
