@@ -171,3 +171,29 @@ and then f gets computed in a blocking forked process, and the result is returne
  People: Robert Miller
 
  An example of using C library function `clock()` to count clock ticks...
+
+ [[attachment:timing_binary_codes.patch]]
+
+{{{
+sage: gc = sage.coding.code_constructions.BinaryGolayCode()
+sage: M = gc.extended_code().gen_mat()
+sage: from sage.groups.perm_gps.partn_ref.refinement_binary import LinearBinaryCodeStruct
+sage: from sage.coding.binary_code import BinaryCodeClassifier, BinaryCode
+sage: BC = BinaryCodeClassifier()
+sage: B = BinaryCode(M)
+sage: BN = LinearBinaryCodeStruct(M)
+sage: BN.run()
+wd deg tot clock ticks 683242
+     563425 calls
+     1.21265829525 per call
+cl deg tot clock ticks 281302
+     144294 calls
+     1.94950586996 per call
+sage: x = BC._aut_gp_and_can_label(B)
+wd deg tot clock ticks 659583
+     746525 calls
+     0.883537724792 per call
+cl deg tot clock ticks 183800
+     193324 calls
+     0.950735552751 per call
+}}}
