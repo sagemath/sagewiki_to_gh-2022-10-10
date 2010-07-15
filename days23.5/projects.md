@@ -165,3 +165,9 @@ def f(x,y,z,...):
     ...
 }}}
 and then f gets computed in a blocking forked process, and the result is returned via pickling. This is 100% to thwart mem leaks, segfaults, and guaranteed timeout possibility.   This could be basically just a light wrapper around @parallel(1).  Also, make a global flag to turn this off, so @fork does nothing. 
+
+== Profiling Cython code ==
+
+ People: Robert Miller
+
+ An example of using C library function `clock()` to count clock ticks...
