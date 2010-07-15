@@ -16,7 +16,7 @@ See also [[http://www.singular.uni-kl.de/index.php/events/sage-days-235.html|the
 == Thursday, July 15 ==
 ||10:30-11:00||Status reports||
 ||11:00-11:30||Wolfram D. -- Singular projects||
-||11:40-12:10||ans S. -- Singular development process||
+||11:40-12:10||Hans S. -- Singular development process||
 ||12:15-12:25||Further scheduling discussion||
 
 == Friday, July 16 ==
