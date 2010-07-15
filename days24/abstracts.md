@@ -113,6 +113,28 @@ want to briefly introduce CAD, the Gerhold/Kauers-method and to present
 a non-trival application of their method to show the positivity of a sum
 over certain Gegenbauer polynomials.
 
+<<Anchor(Quadrat)>>
+==== Alban Quadrat --- A Short Introduction to Constructive Algebraic Analysis ====
+
+In this talk, we shall introduce a few basic ideas on algebraic
+analysis (e.g., algebraic D-modules), show how they can be
+studied within a constructive view point using, for instance,
+Gröbner basis techniques, and show how they can be used to answer
+interesting questions coming from mathematical systems theory and
+mathematical physics such as the existence of
+a (potential-like/Monge/injective) parametrization of
+underdetermined linear functional systems (e.g., systems of
+partial differential equations, of differential time-delay
+systems). Finally, we shall shortly explain how the ideas and
+techniques introduced in this talk can be generalized to obtain
+an equivalent block-triangular form for any linear system of
+partial differential equations based on the concept of the purity
+filtration of a differential module. This new form is extremely
+useful for the computation of closed form solutions. In
+particular, large classes of linear systems of partial
+differential equations, which cannot be directly integrated by
+Maple, can be integrated when rewritten under this new form.
+
 <<Anchor(Raab)>>
 ==== Clemens Raab --- Symbolic computations for parameter integrals ====
 
