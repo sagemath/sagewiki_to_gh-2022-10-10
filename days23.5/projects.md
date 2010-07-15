@@ -78,9 +78,48 @@ Sage Trac ticket: #7795
 
 == Plural interface ==
 
- People: Burcin, Ola..., Michael Brickenstein, Simon King
+ People: Burcin, Oleksandr Motsak, Michael Brickenstein, Simon King
 
 Revive [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]] to provide a basic interface to Plural. This will involve writing new parent and element classes for plural at least.
+
+This works using the libsingular interface, without inheriting from the commutative polynomial classes now:
+{{{
+sage: A.<x,y,z>=FreeAlgebra(QQ,3)
+sage: H=A.g_algebra({y*x:x*y-z, z*x:x*z+2*x, z*y:y*z-2*y})
+sage: H.inject_variables()
+Defining x, y, z
+sage: z*x
+x*z + 2*x
+sage: z*y
+y*z - 2*y
+sage: I = H.ideal([y^2, x^2, z^2-H.one_element()],coerce=False)
+sage: I._groebner_basis_libsingular()
+[z^2 - 1, y*z - y, x*z + x, y^2, 2*x*y - z - 1, x^2]
+}}}
+This meant adding a lot of instances of this in the interface:
+{{{
+            if PY_TYPE_CHECK(a, MPolynomialIdeal) or \
+                    PY_TYPE_CHECK(a, NCPolynomialIdeal):
+                ring2 = a.ring()
+            elif PY_TYPE_CHECK(a, MPolynomial_libsingular) or \
+                    PY_TYPE_CHECK(a, NCPolynomial_plural):
+                ring2 = a.parent()
+            elif PY_TYPE_CHECK(a, MPolynomialRing_libsingular) or \
+                    PY_TYPE_CHECK(a, NCPolynomialRing_plural):
+                ring2 = a
+}}}
+Michael volunteered to fix the rest of these. We also need coercion to work:
+{{{
+sage: z^2-1
+---------------------------------------------------------------------------
+NotImplementedError                       Traceback (most recent call last)
+...
+NotImplementedError: 
+Also, please make sure you have implemented has_coerce_map_from_impl or has_coerce_map_from_c_impl (or better _an_element_c_impl or _an_element_impl if possible) for Noncommutative Multivariate Polynomial Ring in x, y, z over Rational Field
+
+sage: z^2-H.one_element()
+z^2 - 1
+}}}
 
 == Multivariate GCD, factorization, etc. benchmarks ==
 
