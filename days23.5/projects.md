@@ -147,9 +147,11 @@ Take a look at the new code in GIAC, [[http://www-fourier.ujf-grenoble.fr/~paris
 
   Patch up at Sage ticket: [[http://trac.sagemath.org/sage_trac/ticket/9499|#9499]] (positive review)
 
-== Catch Singular error messages ==
+== (Done) Catch Singular error messages ==
 
 People: Martin Albrecht
+
+[[http://trac.sagemath.org/sage_trac/ticket/9506|#9506]]
 
 = other stuff =
 == @fork, @parallel decorator ==
