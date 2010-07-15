@@ -18,5 +18,9 @@ See also [[http://www.singular.uni-kl.de/index.php/events/sage-days-235.html|the
 ||11:00-11:30||Wolfram D. -- Singular projects||
 ||11:40-12:10||Hans S. -- Singular development process||
 ||12:15-12:25||Further scheduling discussion||
+||12:05-12:30||Homalg talk||
+||2:30-2:50|| Parallel Singular demonstration ||
+||3:00-3:15|| Cython Profiling||
 
 == Friday, July 16 ==
+||10:00-10:40||Final Status Reports||
