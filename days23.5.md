@@ -1,6 +1,9 @@
 = Sage Days 23.5: Singular and Sage =
 
- [[/pizza|Pizza!]]
+== Photos ==
+
+  * Day 1: http://picasaweb.google.com/wstein/20100714Sagedays235Day1
+  * Day 2: http://picasaweb.google.com/wstein/20100715Sagedays235Days2
 
 == Schedule ==
 
