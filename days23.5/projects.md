@@ -58,11 +58,40 @@ People: William Stein
 
  (done -- patch up) This is [[http://trac.sagemath.org/sage_trac/ticket/9498|trac 9498]].  There is a stupid function that William Stein wrote during bug days, which may as well be removed.
 
-== Gröbner bases in Sage: Optional parameters ==
+== (Done) Gröbner bases in Sage: Optional parameters ==
 
- People: Simon King, with a help from Martin and Hannes (more than minutes...)
+People: Simon King, with a help from Martin and Hannes (more than minutes...)
 
- (done -- patch will be posted to [[http://trac.sagemath.org/sage_trac/ticket/1396|#1396]] as soon as {{{sage -testall}}} passed) In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular.
+ (patch will be posted to [[http://trac.sagemath.org/sage_trac/ticket/1396|#1396]] as soon as {{{sage -testall}}} passed) In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular. 
+
+ Here are examples in Singular and libSingular:
+ {{{
+sage: R.<x,y> = QQ[]
+sage: I = R*[x^3+y^2,x^2*y+1]
+sage: I.groebner_basis(prot=True, deg_bound=2)
+std in (0),(x,y),(dp(2),C)
+[4294967295:2]3ss
+(S:1)-
+product criterion:0 chain criterion:0
+[x^3 + y^2, x^2*y + 1]
+sage: I.groebner_basis()
+[x^3 + y^2, x^2*y + 1, y^3 - x]
+sage: Rlocal.<x,y,z> = PolynomialRing(QQ, order='ds')
+sage: J = [x^7+y^7+z^6,x^6+y^8+z^7,x^7+y^5+z^8, x^2*y^3+y^2*z^3+x^3*z^2,x^3*y^2+y^3*z^2+x^2*z^3]*Rlocal
+sage: J.groebner_basis(mult_bound=100)
+[x^3*y^2 + y^3*z^2 + x^2*z^3, x^2*y^3 + x^3*z^2 + y^2*z^3, y^5, x^6 + x*y^4*z^5, x^4*z^2 - y^4*z^2 - x^2*y*z^3 + x*y^2*z^3, z^6 - x*y^4*z^4 - x^3*y*z^5]
+sage: J.groebner_basis(algorithm='singular',mult_bound=100)
+[x^3*y^2 + y^3*z^2 + x^2*z^3, x^2*y^3 + x^3*z^2 + y^2*z^3, y^5, x^6 + x*y^4*z^5, x^4*z^2 - y^4*z^2 - x^2*y*z^3 + x*y^2*z^3, z^6 - x*y^4*z^4 - x^3*y*z^5]
+sage: J.groebner_basis(prot=True)
+std in basering
+[1048575:2]5(4)s(3)s6s7s8s(4)s(5)sH(13)9(3)sH(12)8(4)s(5).s.s9....sH(11)8.10
+(S:10)-----------
+product criterion:9 chain criterion:30
+[x^3*y^2 + y^3*z^2 + x^2*z^3, x^2*y^3 + x^3*z^2 + y^2*z^3, y^5, x^6, x^4*z^2 - y^4*z^2 - x^2*y*z^3 + x*y^2*z^3, z^6, y^4*z^3 - y^3*z^4 - x^2*z^5, x^3*y*z^4 - x^2*y^2*z^4 + x*y^3*z^4, x^3*z^5, x^2*y*z^5 + y^3*z^5, x*y^3*z^5]
+sage: J.groebner_basis(algorithm='singular')
+[x^3*y^2 + y^3*z^2 + x^2*z^3, x^2*y^3 + x^3*z^2 + y^2*z^3, y^5, x^6, x^4*z^2 - y^4*z^2 - x^2*y*z^3 + x*y^2*z^3, z^6, y^4*z^3 - y^3*z^4 - x^2*z^5, x^3*y*z^4 - x^2*y^2*z^4 + x*y^3*z^4, x^3*z^5, x^2*y*z^5 + y^3*z^5, x*y^3*z^5]
+ }}}
+
 
 == extend polynomial rings mod 2^n to n > 30, and over ZZ ==
 
