@@ -74,7 +74,7 @@ Rings mod 2^n are limited to n <= 30, but we'd like to have n<=62 by using longs
 Provide an interface to use Singular monomials with big exponents (64-bit instead of 16-bit)
 
 
-Sage Trac ticket: #7795
+Sage Trac ticket: [[http://trac.sagemath.org/sage_trac/ticket/7795|Trac #7795]]
 
 == Plural interface ==
 
@@ -145,7 +145,11 @@ Take a look at the new code in GIAC, [[http://www-fourier.ujf-grenoble.fr/~paris
 
   Goal: If you have a singular library function and it goes wrong, then afterwards you can still use singular library functions. 
 
-  Patch up at Sage ticket: [[http://trac.sagemath.org/sage_trac/ticket/9499|#9499]]
+  Patch up at Sage ticket: [[http://trac.sagemath.org/sage_trac/ticket/9499|#9499]] (positive review)
+
+== Catch Singular error messages ==
+
+People: Martin Albrecht
 
 = other stuff =
 == @fork, @parallel decorator ==
