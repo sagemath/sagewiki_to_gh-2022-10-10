@@ -181,9 +181,10 @@ x^800-1
  16. ((x+y+z)^5-2^5)^8-3^8
 
 Bechmarks (someone check these, its late...)
-GIAC and Singular on AMD opeteron 2800MHZ
-Magma on AMD opeteron 2300MHZ (due to licence)
-time in s
+
+GIAC and Singular on AMD opeteron 2800MHZ,  Magma on AMD opeteron 2300MHZ (due to licence)
+
+time in s (using timer in singular, which is probably not very excact)
 
 ||Polynomial||GIAC 9.0.2||Singular 3.1.1.3||Magma||
 || 1 || 1 || 15 || 9 ||
