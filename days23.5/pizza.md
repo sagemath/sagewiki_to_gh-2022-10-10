@@ -2,7 +2,8 @@
 
 2) Add your choice + your name to this wiki page:
 
-  * William Stein: (a) regular pizza: tomato sauce, gouda ("NORMAL SIZE")
+  * William Stein: PIZZA QUATTRO FORMAGGI 33CM.
+
 3) ...
 
 4) Profit.
