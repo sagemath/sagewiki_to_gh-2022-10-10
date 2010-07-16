@@ -28,6 +28,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 || Wed, 30 Jun || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
 || Wed,  7 Jul || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
 || Wed, 14 Jul || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
+|| Wed, 21 Jul || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
 || TBA || TBA || TBA || TBA ||
 
  * Between introductory session and intensive sessions
