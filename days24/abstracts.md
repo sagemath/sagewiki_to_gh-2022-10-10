@@ -100,6 +100,18 @@ computation for all groups of order 128 and for various interesting
 non-prime-power groups, including the Higman-Sims group and the third
 Conway group.
 
+<<Anchor(Paule)>>
+==== Peter Paule --- Symbolic Computation in Special Functions: Recent Applications in Physics and Other Selected Topics ====
+
+In this talk I present recent developments achieved in my working group at RISC.
+Primary focus is put on applications of symbolic computation methods in the area of Special
+Functions. A major part of the talk is devoted to the application of holonomic tools to problems
+related to Coulomb integrals in quantum physics (joint work with S. Suslov). If time remains I will
+report on some other applications, for instance, about new computer algebra methods in connection
+with special function inequalities (joint work with V. Pillwein) and modular forms (joint work with
+S. Radu). Papers related to my talk can be found at http://www.risc.jku.at/research/combinat/publications.
+
+
 <<Anchor(Pillwein)>>
 ==== Veronika Pillwein --- CAD and Special Functions Inequalities ====
 
