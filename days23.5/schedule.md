@@ -19,7 +19,7 @@ See also [[http://www.singular.uni-kl.de/index.php/events/sage-days-235.html|the
 ||11:40-12:10||[[attachment:singular_devel.pdf|Hans S. -- Singular development process]]||
 ||12:15-12:25||Further scheduling discussion||
 ||12:05-12:30||Homalg talk||
-||2:30-2:50|| Parallel Singular demonstration ||
+||2:30-2:50|| [[attachment:talk_parallelize_singular.pdf|Stefan Steidel -- How to Parallelize Singular-Code for Multiple Core Machines]] ||
 ||3:00-3:15|| Cython Profiling||
 
 == Friday, July 16 ==
