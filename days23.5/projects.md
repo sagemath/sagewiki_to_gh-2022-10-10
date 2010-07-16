@@ -12,6 +12,7 @@ How: Dinner and beer.
 
 Have a technical discussion of linking Python and Singular and Sage.
 
+We tried to use the PSICO-approach to import sage into Singular. It failed (inifinite loop at integer.pyx), despite inidividual Cython modules can be loaded. Further investigations will follow. 
 
 == Singular Parallel Build ==
 
