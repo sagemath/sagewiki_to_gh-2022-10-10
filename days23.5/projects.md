@@ -22,6 +22,8 @@ Goals:
 
  * [[http://trac.sagemath.org/sage_trac/ticket/9497|Trac #9497]]: Fix the Singular spkg so it can take advantage of building in parallel. But fix Singular SPKG first (3-1-1-3)!
 
+We fixed this upstream (added dependencies to build system), Hans made anew release. The spkg was fixed by malb last night.
+
 == Doctest the Free Algebra Quotient code ==
 
 People: Gabriel Pannwitz
