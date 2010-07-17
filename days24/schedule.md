@@ -43,7 +43,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 || 16.00-16.30 || '''? : ?''' ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, July 20, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
-||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Felix Ulmer: ? '''||
+||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Felix Ulmer: [[days24/abstracts#Ulmer|Liouvillian Solutions of Second and Third Order Linear Differential Equations]] '''||
 ||<style="background-color: #EEFFEE;"> ||
 || 11.30-12.00 || '''Clemens Raab: [[days24/abstracts#Raab|Symbolic computations for parameter integrals]]''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
