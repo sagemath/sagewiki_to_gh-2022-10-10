@@ -6,17 +6,17 @@ This is a list of projects suitable for [[days24|Sage Days 24]]. Feel free to ad
 
 == Kovacic's Algorithm ==
 
-'''People:''' Burcin Erocal
+'''People:''' Burcin Erocal, Felix
 
 Implement Kovacic's algorithm in Sage.
 
 == Hypergeometric Functions ==
 
-'''People:''' Flavia Stan, Karen Kohl, Fredrik Johansson
+'''People:''' Flavia Stan, Karen Kohl, Fredrik Johansson, Zaf
 
 == Plural support ==
 
-'''People:''' Burcin Erocal
+'''People:''' Burcin Erocal, Simon King, Alex, Alex D., Burkhard
 
 Add support for Singular's noncommutative component Plural, finish [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]].
 
@@ -28,7 +28,7 @@ There is experimental support for computing Groebner bases over certain localiza
 
 == Parallel Integration ==
 
-'''People:''' Burcin Erocal
+'''People:''' Stefan Boethner, Ralf, Burkhard, Burcin Erocal
 
 Integrate Stefan Boettner's parallel integration code in Sage. There are several prerequisites for this, such as
  * algebraic function fields (transcendence degree > 1)
@@ -51,9 +51,7 @@ See [[http://trac.sagemath.org/sage_trac/ticket/9343|trac 9343]].  This has litt
 
 The goal of this project is to get the basic infrastructure for function fields into Sage.   See [[daysff/curves|Hess's papers and talks]].
 
-
-
-People: William Stein, Maarten Derickx, Peter Bruin, Jan Tuitman, Max Flander, Tanja Lange, Michiel Kosters, Christiane Peters, Marco Streng 
+People: William Stein, Sebastian P.
 
  * Trac 9054: [[http://trac.sagemath.org/sage_trac/ticket/9054|Create a class for basic function_field arithmetic for Sage]]
  * Trac 9069: [[http://trac.sagemath.org/sage_trac/ticket/9069|Weak Popov Form (reduction algorithm)]]
@@ -64,7 +62,7 @@ Make sure to see [[daysff/curves|this page for more links]].
 
 == Fast linear algebra over small extensions of GF(2) ==
 
-People: Martin Albrecht, Ciaran Mullan
+People: Martin Albrecht, Ciaran Mullan, Robert Miller, Sebastian P., Thomas
 
 Here is how long Sage currently takes to compute the reduced row echelon form over GF(2^4) on a Macbook Pro (2nd generation):
 
@@ -146,3 +144,7 @@ gf(2^8), 1000 x 1000: wall time: 0.865
 gf(2^8), 2000 x 2000: wall time: 4.306
 gf(2^8), 3000 x 3000: wall time: 14.029
 }}}
+
+== Generating Stuff ==
+
+'''People:''' Robert Miller
