@@ -11,10 +11,10 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-13:30   ||'''Lunch'''||
 ||<|2> 13:30-14:30  ||'''Extended Demo: How to use Sage/What areas are covered''' (Harald Schilly)||
 ||  ||
-||<|2>     14:30-15:30    ||'''Tutorial: Implementation of Polynomials and Python Tutorial---Part 1''' (lead by ?)||
+||<|2>     14:30-15:30    ||'''Tutorial: Implementation of Polynomials and Python Tutorial---Part 1''' (Burcin Erocal)||
 ||  ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:30-16:00  ||'''Coffee'''||
-||<|2>     16:00-17:00    ||'''Tutorial: Implementation of Polynomials and Python Tutorial---Part 2''' (lead by ?)||
+||<|2>     16:00-17:00    ||'''Tutorial: Implementation of Polynomials and Python Tutorial---Part 2''' (Burcin Erocal)||
 ||  ||
 || 17:00-18:00 ||  Coding sprint organization ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Sunday, July 18, 2010||
