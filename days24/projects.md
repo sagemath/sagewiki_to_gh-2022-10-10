@@ -84,7 +84,7 @@ gf(2^8), 3000 x 3000: wall time: 14.029
 
 '''People:''' Robert Miller (self-determination!)
 
-=== Fix sage.functions ===
+== Fix sage.functions ==
 
 '''People:''' '''Frederik''', William Stein, Harald
 
