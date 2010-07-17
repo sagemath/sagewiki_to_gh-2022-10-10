@@ -176,3 +176,19 @@ too difficult answers in special functions evaluations.
 
 A few other topics in connection with special functions and
 computer algebra, such as methods based on Zeilberger's summation  method.
+
+<<Anchor(Ulmer)>>
+==== Felix Ulmer --- Liouvillian Solutions of Second and Third Order Linear Differential Equations ====
+
+the computation of liouvillian solutions (in particular for third order equations). Along the lines of 
+
+  * Liouvillian solutions of third order differential equations 
+     Journal of Symbolic Computation, 36, 855-889 (2003)
+
+  * Linear Differential Equations and Products of Linear Forms (with M.F. Singer) 
+     Journal of Pure and Applied Algebra, 117-118,  549-563 (1997)
+
+  * Liouvillian and Algebraic Solutions of Second and Third Order Linear Differential Equations (with M.F. Singer)
+     Journal of Symbolic Computation, 16, 37-74 (1993)
+
+I would suppose known the computation of the exponents and series solutions at a singular point, and of rational and exponential solutions
