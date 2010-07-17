@@ -22,14 +22,7 @@ Add a hypergeometric function class + simplifications
 
 == Plural support ==
 
-
----- /!\ '''Edit conflict - other version:''' ----
-'''People:''' Burcin Erocal, Simon King, Oleksandr, Alex D., Burkhard
-
----- /!\ '''Edit conflict - your version:''' ----
-'''People:''' Burcin Erocal, Simon King, Alex, Alex D., Burkhard (total anarchy!)
-
----- /!\ '''End of edit conflict''' ----
+'''People:''' Burcin Erocal, Simon King, Oleksandr, Alex D., Burkhard (total anarchy!)
 
 Add support for Singular's noncommutative component Plural, finish [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]].
 
