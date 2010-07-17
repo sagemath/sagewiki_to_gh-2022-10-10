@@ -66,10 +66,10 @@ Make sure to see [[daysff/curves|this page for more links]].
 
 Here is how long Sage currently takes to compute the reduced row echelon form over GF(2^4) on a Macbook Pro (2nd generation):
 
-|=n    |=Sage    |=NTL    |=Magma    |=M4RIE    |
-| 1000 |         
-| 2000 |
-| 3000 | 
+||=n    ||=Sage    |"=NTL    |"=Magma    |"=M4RIE    |"
+|| 1000 ||
+|| 2000 ||
+|| 3000 ||
 
 {{{
 ----------------------------------------------------------------------
