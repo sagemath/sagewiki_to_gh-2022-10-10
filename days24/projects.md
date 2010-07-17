@@ -16,7 +16,7 @@ Implement Kovacic's algorithm in Sage.
 
 == Plural support ==
 
-'''People:''' Burcin Erocal, Simon King, Alex, Alex D., Burkhard
+'''People:''' Burcin Erocal, Simon King, Oleksandr, Alex D., Burkhard
 
 Add support for Singular's noncommutative component Plural, finish [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]].
 
