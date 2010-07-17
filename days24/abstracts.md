@@ -100,6 +100,20 @@ computation for all groups of order 128 and for various interesting
 non-prime-power groups, including the Higman-Sims group and the third
 Conway group.
 
+<<Anchor(Korporal)>>
+==== Anja Korporal and Georg Regensburger --- Implementing Integro-differential Operators via Normal Forms ====
+
+Integro-differential operators provide an algebraic structure for
+representing linear boundary problems for ordinary differential equations
+as well as their solution operators. We discuss a possible implementation
+of integro-differential operators in computer algebra systems. The
+operators are represented in normal forms, which are given as a sum of a
+differential, an integral, and a boundary operator. We show an
+implementation in Maple with applications to boundary problems. It allows
+to compute solution operators (Green's operators) and to multiply and
+factor boundary problems.
+
+
 <<Anchor(Paule)>>
 ==== Peter Paule --- Symbolic Computation in Special Functions: Recent Applications in Physics and Other Selected Topics ====
 
@@ -180,7 +194,7 @@ computer algebra, such as methods based on Zeilberger's summation  method.
 <<Anchor(Ulmer)>>
 ==== Felix Ulmer --- Liouvillian Solutions of Second and Third Order Linear Differential Equations ====
 
-the computation of liouvillian solutions (in particular for third order equations). Along the lines of 
+The computation of Liouvillian solutions (in particular for third order equations). Along the lines of 
 
   * Liouvillian solutions of third order differential equations 
      Journal of Symbolic Computation, 36, 855-889 (2003)
