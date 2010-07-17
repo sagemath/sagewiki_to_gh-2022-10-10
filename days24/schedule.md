@@ -6,7 +6,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Saturday, July 17, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">     10:00-11:00  ||'''Registration & Coffee'''||
-||<|2 rowstyle="background-color: #EEFFEE;"> 11:00-12:00  ||'''William Stein: [[days24/abstracts#Stein|Sage - Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab]]'''  [[http://wstein.org/talks/stein-sd24/stein-sd24.pdf|stein-sd24.pdf]]||
+||<|2 rowstyle="background-color: #EEFFEE;"> 11:00-12:00  ||'''William Stein: [[days24/abstracts#Stein|Sage - Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab]]'''  [[http://wstein.org/talks/stein-sd24/stein-sd24.pdf|stein-sd24.pdf]]   [[http://sagenb.org/home/pub/2253|Sage worksheet]]||
 ||<style="background-color: #EEFFEE;"> Worksheet: ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-13:30   ||'''Lunch'''||
 ||<|2> 13:30-14:30  ||'''Extended Demo: How to use Sage/What areas are covered''' (Harald Schilly)||
