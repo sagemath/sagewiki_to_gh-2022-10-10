@@ -21,7 +21,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
 ||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||'''Alban Quadrat: [[days24/abstracts#Quadrat|A Short Introduction to Constructive Algebraic Analysis]]'''||
 ||<style="background-color: #EEFFEE;"> ||
-|| 11.30-12.00 || '''Georg Regensburger & Anja Korporal: ?''' ||
+|| 11.30-12.00 || '''Anja Korporal & Georg Regensburger: [[days24/abstracts#Korporal|Implementing Integro-differential Operators via Normal Forms']]'' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-13:30   ||'''Lunch'''||
 ||<|2>     13:30-14:30    || '''Tutorial: Cython ''' (William Stein)||
 ||  ||
