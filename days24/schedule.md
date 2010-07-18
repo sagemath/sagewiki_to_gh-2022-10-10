@@ -23,7 +23,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<style="background-color: #EEFFEE;"> ||
 || 11.30-12.00 || '''Anja Korporal & Georg Regensburger: [[days24/abstracts#Korporal|Implementing Integro-differential Operators via Normal Forms]]''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-13:30   ||'''Lunch'''||
-||<|2>     13:30-14:30    || '''Tutorial: Cython ''' (William Stein)  attachment:stein-cython.png  attachment:stein-worksheet.sws||
+||<|2>     13:30-14:30    || '''Tutorial: Cython ''' (William Stein)  [[attachment:stein-cython.png]]  [[attachment:stein-worksheet.sws]]||
 ||  ||
 ||<|2>     14:30-15:30    || '''Tutorial: Contribute to Sage''' (Robert Miller)||
 ||  ||
