@@ -92,7 +92,7 @@ gf(2^8), 3000 x 3000: wall time: 14.029
 
 '''People:''' '''Burcin''', Thomas, Stefan, Frederik
 
-== Matrix group actions on polynomials ==
+== (done) Matrix group actions on polynomials ==
 
 '''People:''' Simon
 
