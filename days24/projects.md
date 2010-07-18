@@ -22,7 +22,7 @@ Add a hypergeometric function class + simplifications
 
 == Dynamic attributes for classes derived from Function ==
 
-'''People:''' '''Simon King''', Burcin
+'''People:''' Simon, Burcin
 
 Let {{{f}}} be an instance of a subclass of {{{BuiltinFunction}}}, and let {{{t}}} be obtained by calling {{{f(a,b,c)}}}. According to Burcin, for implementing hypergeometric functions it would be useful to be able to access the methods (say, 'foo') of {{{f}}} that are not methods of {{{BuiltinFunction}}}, so that calling {{{t.foo()}}} is the same as {{{f.foo(a,b,c)}}}. 
 
