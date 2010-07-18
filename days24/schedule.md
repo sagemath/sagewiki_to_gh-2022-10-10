@@ -26,7 +26,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<|2>     13:30-14:30    || '''Tutorial: Cython ''' (William Stein)  [[attachment:stein-cython.pdf]]  [[attachment:stein-worksheet.sws]] or http://sagenb.org/home/pub/2256/||
 ||  ||
 ||<|2>     14:30-15:30    || '''Tutorial: Contribute to Sage''' (Robert Miller)||
-||  ||
+|| [[http://www.sagemath.org/doc/developer/|README]] ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:30-16:00  ||'''Coffee'''||
 ||<|2>     16:00-17:00 || '''Burcin Erocal: Symbolics in Sage & Pynac''' ||
 || ||
