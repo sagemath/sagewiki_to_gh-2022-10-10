@@ -91,3 +91,52 @@ gf(2^8), 3000 x 3000: wall time: 14.029
 == Easy ripping apart of symbolic expression trees ==
 
 '''People:''' '''Burcin''', Thomas, Stefan, Frederik
+
+== Matrix group actions on polynomials ==
+
+'''People:''' Simon
+
+(review needed for [[http://trac.sagemath.org/sage_trac/ticket/4513|4513]])
+So far, a matrix group could act on, e.g., vectors. If it tried to act on something else, it always tried to do a matrix multiplication - which is not what we want for an action on polynomials! The patch in trac allows to do:
+{{{
+sage: M = Matrix(GF(3),[[1,2],[1,1]])
+sage: N = Matrix(GF(3),[[2,2],[2,1]])
+sage: G = MatrixGroup([M,N])
+sage: m = G.0
+sage: n = G.1
+sage: R.<x,y> = GF(3)[]
+# left action on polynomial
+sage: m*x
+x + y
+# right action on polynomial
+sage: x*m
+x - y
+# it really is left/right action!
+sage: (n*m)*x == n*(m*x)
+True
+sage: x*(n*m) == (x*n)*m
+True
+
+# Action on vectors and matrices still works as it used to do
+sage: x = vector([1,1])
+sage: x*m
+(2, 0)
+sage: m*x
+(0, 2)
+# again, verify left/right action
+sage: (n*m)*x == n*(m*x)
+True
+sage: x*(n*m) == (x*n)*m
+True
+sage: x = matrix([[1,2],[1,1]])
+sage: x*m
+[0 1]
+[2 0]
+sage: m*x
+[0 1]
+[2 0]
+sage: (n*m)*x == n*(m*x)
+True
+sage: x*(n*m) == (x*n)*m
+True
+}}}
