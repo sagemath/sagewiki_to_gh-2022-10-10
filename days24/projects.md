@@ -84,6 +84,10 @@ gf(2^8), 3000 x 3000: wall time: 14.029
 
 '''People:''' Robert Miller (self-determination!)
 
+For a somewhat recent snapshot of what I'm doing (as recent as the last time I updated it...), look:
+
+[[http://sage.math.washington.edu/home/rlmill/graph_gens.patch|PATCH]]
+
 == Fix sage.functions ==
 
 '''People:''' '''Frederik''', William Stein, Harald
