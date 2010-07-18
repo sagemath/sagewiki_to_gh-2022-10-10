@@ -20,6 +20,38 @@ Implement Kovacic's algorithm in Sage.
 
 Add a hypergeometric function class + simplifications
 
+== Dynamic attributes for classes derived from Function ==
+
+'''People:''' '''Simon King''', Burcin
+
+Let {{{f}}} be an instance of a subclass of {{{BuiltinFunction}}}, and let {{{t}}} be obtained by calling {{{f(a,b,c)}}}. According to Burcin, for implementing hypergeometric functions it would be useful to be able to access the methods (say, 'foo') of {{{f}}} that are not methods of {{{BuiltinFunction}}}, so that calling {{{t.foo()}}} is the same as {{{f.foo(a,b,c)}}}. 
+
+Of course, it would be nice to have 'foo' show up in tab completion and in {{{dir(t)}}}. The code we wrote seems to solve it, and should be posted to trac after adding some doctests. Here is an example.
+Let {{{ExampleBuiltin(BuiltinFunction)}}} be a class that defines a method
+{{{
+    def some_function_name(self, *args):
+        print self
+        print args
+        return len(args)
+}}}
+Then, one can do
+{{{
+sage: ex_func = ExampleBuiltin()
+sage: t = ex_func(x,x+1, x+2)
+# introspection:
+sage: 'some_function_name' in dir(t)
+True
+# tab completion
+sage: import sagenb.misc.support as s
+sage: s.completions('t.some', globals(), system='python')
+['t.some_function_name']
+# intended usage
+sage: t.some_function_name()
+ex_func
+(x, x + 1, x + 2)
+3
+}}}
+
 == Plural support ==
 
 '''People:''' Burcin Erocal, Simon King, Oleksandr, Alex D., Burkhard (total anarchy!)
