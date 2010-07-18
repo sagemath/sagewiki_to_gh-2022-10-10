@@ -19,7 +19,7 @@ This event is a part of [[http://www.risc.uni-linz.ac.at/about/conferences/summe
 
 The [[days24/schedule|schedule is here]].
 
-== Pictures == 
+== Pictures ==
 
   * Day 1: http://picasaweb.google.com/wstein/20100717Sageydays24Day1
 
