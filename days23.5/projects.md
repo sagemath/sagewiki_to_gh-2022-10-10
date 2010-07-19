@@ -5,6 +5,7 @@
 == Fix Sage's wrapping of Singular's Brill-Noether ==
 
   * See [[/brillnoether|this page]] for more details. 
+  * (done, sort of) It seems there is still a problem with Singular. The Sage ticket is updated correspondingly, [[http://trac.sagemath.org/sage_trac/ticket/8997|Trac #8997]].
 
 == Python <--> Singular Linking Discussion ==
 
