@@ -52,7 +52,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 || 14.30-15.00 || '''Mohamed Boudellioua: [[days24/abstracts#Boudellioua|On the simplification of systems of linear multidimensional equations]]''' ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:00-15:30  ||'''Coffee'''||
 ||<|2 rowstyle="background-color: #EEFFEE;">     15:30-16:30    ||'''Tutorial: Coercion II - Construction Functors''' (Simon King)||
-||<style="background-color: #EEFFEE;"> [[https://gonzales.risc.jku.at:8000/home/pub/10]] ||
+||<style="background-color: #EEFFEE;"> [[https://gonzales.risc.jku.at:8000/home/pub/10|Worksheet]] ||
 
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday, July 21, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
