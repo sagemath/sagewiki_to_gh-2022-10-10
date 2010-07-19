@@ -37,7 +37,7 @@ For now the main structure is as follows
   * square tiled surfaces/origamis (covering of the torus) (almost in Sage)
   * hyperelliptic curves (specifying a double cover of the sphere)
  * Unfoldings of rational billiards
- 
+
 === Needed generic methods ===
  * switch between representations (the one to which everybody can be converted is triangulated flat surface)
  * computing fundamental group and homology
@@ -47,6 +47,7 @@ For now the main structure is as follows
  * Lyapunov exponents
 
 === Hyperbolic geometry ===
+This part is roughly implemented in [[http://trac.sagemath.org/sage_trac/ticket/9439|trac #9439]]
  * the three 2D models: hyperbolic plane, hyperbolic disc and the hyperboloïd
  * points, geodesics and polygonal domains
  * tesselations (covering of HH by finite area convex polygonal domains)
