@@ -7,17 +7,23 @@ For general mathematic references see the [[https://lma.homelinux.org/wiki/FlatS
  * as a flat metric with no holonomy on a surface,
  * as a Riemann surface and a non zero Abelian (or quadratic) differential.
 
-This page is aimed to be a roadmap for the implementations of various algorithm related to flat surfaces and more generally geometry of surfaces.
+This page is aimed to be a roadmap for the implementations of various algorithm related to flat surfaces and more generally geometry of surfaces. For the moment we share the [[http://wiki.sagemath.org/combinat|sage-combinat repository]] with mercurial for the development.
 
 == General architecture ==
 
 For now the main structure is as follows
 
- * sage.combinat.flat_surfaces
+ * sage.combinat.flat_surfaces (which contains various generic objects)
  * sage.combinat.flat_surfaces.iet (for interval exchange transformations stuff)
  * sage.combinat.flat_surfaces.origamis (for origamis/square tiled surfaces stuff)
 
 == Roadmap ==
+
+=== Port of other programs ===
+ * Joshua Bowman program on iso-Delaunay tessellations (written in Java)
+ * Finish Anton Zorich port of Interval Exchange Transformations and Linear Involutions (written in Mathematica)
+ * Anton Zorich program for computing approximation of various Lyapunov exponents (written in C and Mathematica)
+ * Alex Eskin program for analyzing saddle connections direction in a surface (written in C++)
 
 === Different representations/implementations for flat surfaces ===
  * (convex) polygonal surface
@@ -33,7 +39,7 @@ For now the main structure is as follows
  * Unfoldings of rational billiards
  
 === Needed generic methods ===
- * switch between representations (the one where everybody can be converted is triangulated flat surface)
+ * switch between representations (the one to which everybody can be converted is triangulated flat surface)
  * computing fundamental group and homology
  * maps between flat surfaces
  * action of SL(2,R) and isomorphisms
