@@ -21,7 +21,9 @@ The [[days24/schedule|schedule is here]].
 
 == Pictures ==
 
-  * Day 1: http://picasaweb.google.com/wstein/20100717Sageydays24Day1
+  * Day 1: http://picasaweb.google.com/wstein/20100717Sagedays24Day1
+  * Day 2: http://picasaweb.google.com/wstein/20100718Sagedays24Day2
+  * Day 3: http://picasaweb.google.com/wstein/20100719Sagedays24Day3
 
 === Invited Speakers ===
 
