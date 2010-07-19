@@ -33,7 +33,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 || Thur, 29 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
 
-|| Thur, 5 Aug || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
+|| Tue, 3 Aug || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
 
 
  * Between introductory session and intensive sessions
