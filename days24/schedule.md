@@ -20,20 +20,20 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Sunday, July 18, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
 ||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||'''Alban Quadrat: [[days24/abstracts#Quadrat|A Short Introduction to Constructive Algebraic Analysis]]'''||
-||<style="background-color: #EEFFEE;"> ||
+||<style="background-color: #EEFFEE;">  [[attachment:Quadrat-SD24-Linz.pdf|slides]]||
 || 11.30-12.00 || '''Anja Korporal & Georg Regensburger: [[days24/abstracts#Korporal|Implementing Integro-differential Operators via Normal Forms]]''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-13:30   ||'''Lunch'''||
-||<|2>     13:30-14:30    || '''Tutorial: Cython ''' (William Stein)  [[attachment:stein-cython.pdf]]  [[attachment:stein-worksheet.sws]] or http://sagenb.org/home/pub/2256/||
-||  ||
+||<|2>     13:30-14:30    || '''Tutorial: Cython ''' (William Stein) ||
+||  [[attachment:stein-cython.pdf]]  [[attachment:stein-worksheet.sws]] or http://sagenb.org/home/pub/2256/ ||
 ||<|2>     14:30-15:30    || '''Tutorial: Contribute to Sage''' (Robert Miller)||
 || [[http://www.sagemath.org/doc/developer/|README]] ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:30-16:00  ||'''Coffee'''||
 ||<|2>     16:00-17:00 || '''Burcin Erocal: Symbolics in Sage & Pynac''' ||
-|| ||
+|| [[attachment:Symbolics_Pynac.sws|worksheet with talk outline]]||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday, July 19, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
-||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Nico Temme: [[days24/abstracts#Temme|Special Functions and Computer Algebra]] '''||
-||<style="background-color: #EEFFEE;"> ||
+||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Nico Temme: [[days24/abstracts#Temme|Special Functions and Computer Algebra]]'''||
+||<style="background-color: #EEFFEE;">  [[attachment:Temme-SD24.pdf|slides]]||
 || 11.30-12.00 || '''Flavia Stan: ?''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
 || 14.00-14.30 || '''Frédéric Chyzak: [[days24/abstracts#Chyzak|DDMF (Dynamic Dictionary of Mathematical Functions) and its DynaMoW]]''' ||
@@ -56,7 +56,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
 ||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Peter Paule: [[days24/abstracts#Paule|Symbolic Computation in Special Functions: Recent Applications in Physics and Other Selected Topics]] '''||
 ||<style="background-color: #EEFFEE;"> ||
-|| 11.30-12.00 || '''Burcin Erocal: ?''' ||
+|| 11.30-12.00 || '''Burcin Erocal: Difference fields & summation in Sage''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
 || 14.00-14.30 || '''Manuel Kauers: [[days24/abstracts#Kauers|Is it really a power series?]]''' ||
 || 14.30-15.00 || '''Veronika Pillwein: [[days24/abstracts#Pillwein|CAD and Special Functions Inequalities]]''' ||
