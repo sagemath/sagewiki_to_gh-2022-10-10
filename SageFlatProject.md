@@ -1,6 +1,6 @@
-== Flat surfaces in Sage ==
+= Flat surfaces in Sage =
 
-=== Introduction ===
+== Introduction ==
 
 For general mathematic references see the [[https://lma.homelinux.org/wiki/FlatSurfaces/FlatSurfaces|Flat surfaces wiki]]. A flat surfaces can be seen either
  * as a union of polygons glued along pairs of parallel sides,
@@ -8,6 +8,16 @@ For general mathematic references see the [[https://lma.homelinux.org/wiki/FlatS
  * as a Riemann surface and a non zero Abelian (or quadratic) differential.
 
 This page is aimed to be a roadmap for the implementations of various algorithm related to flat surfaces and more generally geometry of surfaces.
+
+== General architecture ==
+
+For now the main structure is as follows
+
+ * sage.combinat.flat_surfaces
+ * sage.combinat.flat_surfaces.iet (for interval exchange transformations stuff)
+ * sage.combinat.flat_surfaces.origamis (for origamis/square tiled surfaces stuff)
+
+== Roadmap ==
 
 === Different representations/implementations for flat surfaces ===
  * (convex) polygonal surface
