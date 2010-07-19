@@ -68,6 +68,13 @@ and displayed.  (DynaMoW is joint work in progress with Alexis
 Darrasse; DDMF is joint work in progress with Alexandre Benoit, Alexis
 Darrasse, Stefan Gerhold, Marc Mezzarobba, and Bruno Salvy.)
 
+<<Anchor(Erocal)>>
+==== Burcin Erocal --- Difference fields & summation in Sage ====
+
+I will present an implementation of Karr's summation machinery based on towers of difference fields in Sage. Karr's algorithms provide tools to simplify indefinite nested sums and products. They can also be used to find Zeilberger type creative telescoping relation to either prove identities involving definite sums, or when coupled with a recurrence equation solver, to find closed forms for given definite sums.
+
+After briefly presenting some relevant theory, I will give several examples to demonstrate the capabilities of my implementation.
+
 <<Anchor(Johansson)>>
 ==== Fredrik Johansson --- Arbitrary-precision special functions in mpmath ====
 
