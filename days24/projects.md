@@ -211,7 +211,7 @@ For n = 2011*201100000382049576589326756327967 (which is too large for an unsign
 
 For the example from the tutorial, it takes about 45µs, which is significantly slower than the 'unsigned long' example, but still a lot faster than sage.rings.arith.trial_division.
 
-== Patching Python: Sage-wide deactivation of setup-py's treamtment of user-defined installation prefixes ==
+== (needs review) Patching Python: Sage-wide deactivation of setup-py's treamtment of user-defined installation prefixes ==
 
 '''People:''' Alexander Dreyer
 The python install programs ({{{setup.py}}} using {{{distutils}}}) suffer from the problem, that it picks the prefix from the ~/.pydistutils.cfg, which may point toi the user's python-path instead those of Sage. Therefore, we need a way for Sage-wide deactiving this feature.
