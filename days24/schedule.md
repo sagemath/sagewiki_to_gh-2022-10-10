@@ -56,7 +56,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
 ||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Peter Paule: [[days24/abstracts#Paule|Symbolic Computation in Special Functions: Recent Applications in Physics and Other Selected Topics]] '''||
 ||<style="background-color: #EEFFEE;"> ||
-|| 11.30-12.00 || '''Burcin Erocal: Difference fields & summation in Sage''' ||
+|| 11.30-12.00 || '''Burcin Erocal: [[days24/abstracts#Erocal|Difference fields & summation in Sage]]''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
 || 14.00-14.30 || '''Manuel Kauers: [[days24/abstracts#Kauers|Is it really a power series?]]''' ||
 || 14.30-15.00 || '''Veronika Pillwein: [[days24/abstracts#Pillwein|CAD and Special Functions Inequalities]]''' ||
