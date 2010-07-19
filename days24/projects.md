@@ -210,3 +210,15 @@ def trial_division_cython5(n):
 For n = 2011*201100000382049576589326756327967 (which is too large for an unsigned long), this code achieves about 50 µs compared to 2ms with the sage.rings.arith.trial_division function.
 
 For the example from the tutorial, it takes about 45µs, which is significantly slower than the 'unsigned long' example, but still a lot faster than sage.rings.arith.trial_division.
+
+== Patching Python: Sage-wide deactivation of setup-py's treamtment of user-defined installation prefixes ==
+
+'''People:''' Alexander Dreyer
+The python install programs ({{{setup.py}}}), whihc use {{{distutils}} suffer from the problem, that it picks the prefix from the ~/.pydistutils.cfg, which may point toi the user's python-path instead those of Sage. Therefore, we need a way for Sage-wide deactiving this feature.
+
+See: http://trac.sagemath.org/sage_trac/ticket/9536
+I backported the handling of setup.py --no-user-cfg from Python 2.7 to Python 2.6.4 and also added the handling of the environment variable DISTUTILS_NO_USER_CFG to python's distutils.
+
+The new spkg can be found here:  http://sage.math.washington.edu/home/dreyer/suse101/python-2.6.4.p10.spkg
+
+The last patch adds this variable to sage-env. 
