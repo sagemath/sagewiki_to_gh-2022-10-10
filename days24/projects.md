@@ -54,7 +54,7 @@ ex_func
 
 == Plural support ==
 
-'''People:''' Burcin Erocal, Simon King, Oleksandr, Alex D., Burkhard (total anarchy!)
+'''People:''' '''Oleksandr Motsak''', Burcin Erocal, Alexander Dreyer, Simon King, Burkhard
 
 Add support for Singular's noncommutative component Plural, finish [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]].
 
