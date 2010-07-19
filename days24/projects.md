@@ -157,3 +157,56 @@ True
 sage: x*(n*m) == (x*n)*m
 True
 }}}
+
+== (done) Port the trial division example from William's cython talk from 'unsigned long' to 'mpz_t' ==
+
+'''People:''' Thomas
+
+This was a nice short exercise that I did during/after the cython tutorial to get a bit into cython. This is not a real coding sprint project, but code that I still want to share.
+
+{{{
+%cython
+from sage.libs.gmp.mpz cimport mpz_t, mpz_init_set, mpz_init, mpz_cmp_ui, mpz_fdiv_ui, mpz_mul, mpz_cmp, mpz_mod, mpz_clear, mpz_add_ui, mpz_init_set_ui
+from sage.rings.integer cimport Integer
+
+include "../ext/stdsage.pxi"
+
+def trial_division_cython5(n):
+    cdef Integer nn = <Integer>n
+    cdef mpz_t nm
+    mpz_init_set(nm, nn.get_value())
+    cdef Integer r = PY_NEW(Integer)
+    
+    if not mpz_cmp_ui(nm, 1): return 1
+    cdef unsigned long p
+    if mpz_fdiv_ui(nm, 2) == 0: return 2
+    if mpz_fdiv_ui(nm, 3) == 0: return 3
+    if mpz_fdiv_ui(nm, 5) == 0: return 5
+    # Algorithm: only trial divide by numbers that
+    # are congruent to 1,7,11,13,17,29,23,29 mod 30=2*3*5.
+    cdef unsigned long dif[8]
+    dif[0]=6;dif[1]=4;dif[2]=2;dif[3]=4;dif[4]=2;dif[5]=4;dif[6]=6;dif[7]=2
+    cdef unsigned long int i = 1
+    
+    cdef mpz_t m, m2
+    mpz_init_set_ui(m, 7)
+    mpz_init(m2)
+    mpz_mul (m2, m, m)
+    while mpz_cmp(m2, nm) <= 0:
+        mpz_mod(m2, nm, m)
+        if mpz_cmp_ui(m2, 0) == 0:
+            r.set_from_mpz(m)
+            mpz_clear(m)
+            mpz_clear(m2)
+            return r
+        mpz_add_ui(m, m, dif[i])
+        i = (i+1) % 8
+        mpz_mul (m2, m, m)
+    mpz_clear(m)
+    mpz_clear(m2)
+    return n
+}}}
+
+For n = 2011*201100000382049576589326756327967 (which is too large for an unsigned long), this code achieves about 50 µs compared to 2ms with the sage.rings.arith.trial_division function.
+
+For the example from the tutorial, it takes about 45µs, which is significantly slower than the 'unsigned long' example, but still a lot faster than sage.rings.arith.trial_division.
