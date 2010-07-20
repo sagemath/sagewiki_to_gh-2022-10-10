@@ -11,6 +11,8 @@ Here is the current multiplication performance compared with Magma:
 
 {{attachment:multiplication_r13.png}}
 
+Blue means faster than Magma by a factor of e^blue. Red means slower than Magma by a factor of e^red.
+
 === People ===
 
  * Martin Albrecht
