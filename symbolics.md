@@ -35,6 +35,7 @@ These pages are aimed at developers of symbolics functionality in Sage. If you'r
 
  * Orthogonal polynomials
   * The orthogonal polynomials defined by sage in the module `sage.functions.orthogonal_polys` are wrappers to maxima, we should provide native implementations of these, preferably with an argument to specify the parent of the resulting polynomial
+   * Stefan Reiterer (stefan.reiterer@uni-graz.at) is working on this
 
 Some of the functionality listed above is provided by Maxima wrappers at the moment.
 
