@@ -237,4 +237,13 @@ Timings of the proof-of-concept implementation for the multiplication of two den
  * sage.rings.polynomials.MPolynomial_libsingular: 91s
  * sage.rings.polynomials.MPolynomial_factory: 22s
 
-Preliminary conclusion: Investigating this further is definitely worthwhile. However, due to the various technical problems with Singular/factory, it would be good to find an actively-developped and fast library with a well-designed API.
+Multiplying ((x+y+z+1)^50)*((x+y+z+1)^50+1):
+ * Maple: 1232s
+ * sage.rings.polynomials.MPolynomial_libsingular: 603s
+ * sage.rings.polynomials.MPolynomial_factory: 234s
+ * Mathematica (different machine, a bit faster): 5s (!)
+ * Magma (yet another different machine, also a bit faster): 143s
+
+By the way, exponentiation is _very_ slow in MPolynomial_factory, much slower than in MPolynomial_libsingular. Factory's CanonicalForm uses square-and-multiply, while Singular uses binomial coefficients to generate (head+tail)^n. I doubt this can be easily improved in factory.
+
+Preliminary conclusion: Investigating this further is definitely worthwhile. However, due to the various technical problems with Singular/factory, it would be good to find an actively-developped and fast library with a well-designed API - maybe it is best to wait until FLINT2 has viable multivariate multiplication code (which is on the roadmap for the release).
