@@ -1,9 +1,15 @@
 Linear algebra over small extensions of GF(2).
 
+Here are some preliminary benchmarks for GF(2^8) from before Sage Days 24:
+
+|| n    || Sage    || NTL *2  || Magma || M4RIE ||
+|| 1000 ||   49.49 ||   18.84 || 0.090 || 0.097 ||
+|| 2000 ||  429.05 ||  149.11 || 0.510 || 0.529 ||
+|| 3000 || 1494.33 ||  526.57 || 1.640 || 2.315 ||
+
 === People ===
 
- * '''Martin Albrecht'''
- * Ciaran Mullan
+ * Martin Albrecht
 
 == Library ==
 
@@ -11,9 +17,13 @@ The library is here: http://bitbucket.org/malb/m4rie
 
 Get in contact with Martin Albrecht to get commit rights.
 
-== Sage Patch ==
+The library needs an updated M4RI which exports more internals for us to use.
 
-A patch for Sage is here: https://bitbucket.org/malb/m4rie/downloads/m4rie_for_sage.patch
+== Literature ==
+
+ * M4RI Elimination http://arxiv.org/abs/1006.1744
+ * M4RI Multiplication http://arxiv.org/abs/0811.1714
+ * Bitslice M4RM Multiplication http://arxiv.org/abs/0901.1413
 
 == Todo ==
 
@@ -29,13 +39,9 @@ Examples: stacking, augmenting, printing
 
 === Write documentation for Sage class ===
 
-=== Improve performance of Travolta-Gaussian elimination ===
-
- * use more than one table
-
 === Improve performance of Travolta multiplication ===
 
- * get inspiration from M4RM
+We should try the babsystep giantstep approach from the M4RI library. It will likely be much slower over bigger fields but might be beneficial on smaller fields.
 
 === Implement Strassen multiplication ===
 
