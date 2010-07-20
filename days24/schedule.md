@@ -48,7 +48,8 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<style="background-color: #EEFFEE;"> ||
 || 11.30-12.00 || '''Clemens Raab: [[days24/abstracts#Raab|Symbolic computations for parameter integrals]]''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
-|| 14.00-14.30 || '''Stefan Böttner: [[days24/abstracts#Boettner|Mixed Transcendental and Algebraic Extensions for the Risch-Norman Algorithm]]''' ||
+||<|2> 14.00-14.30 || '''Stefan Böttner: [[days24/abstracts#Boettner|Mixed Transcendental and Algebraic Extensions for the Risch-Norman Algorithm]]''' ||
+|| [[attachment:Boettner-SD24.pdf| slides (pdf)]] ||
 || 14.30-15.00 || '''Mohamed Boudellioua: [[days24/abstracts#Boudellioua|On the simplification of systems of linear multidimensional equations]]''' ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:00-15:30  ||'''Coffee'''||
 ||<|2 rowstyle="background-color: #EEFFEE;">     15:30-16:30    ||'''Tutorial: Coercion II - Construction Functors''' (Simon King)||
