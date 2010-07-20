@@ -26,6 +26,8 @@ Add a hypergeometric function class + simplifications
 
 '''People:''' Simon, Burcin
 
+See [[http://trac.sagemath.org/sage_trac/ticket/9556|Trac #9556]] for this as well as an additional implementation using dynamic classes.
+
 Let {{{f}}} be an instance of a subclass of {{{BuiltinFunction}}}, and let {{{t}}} be obtained by calling {{{f(a,b,c)}}}. According to Burcin, for implementing hypergeometric functions it would be useful to be able to access the methods (say, 'foo') of {{{f}}} that are not methods of {{{BuiltinFunction}}}, so that calling {{{t.foo()}}} is the same as {{{f.foo(a,b,c)}}}. 
 
 Of course, it would be nice to have 'foo' show up in tab completion and in {{{dir(t)}}}. The code we wrote seems to solve it, and should be posted to trac after adding some doctests. Here is an example.
