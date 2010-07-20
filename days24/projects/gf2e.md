@@ -40,6 +40,14 @@ cd ..
 
 2. Install this library
 
+First download [[attachment:libm4rie-19780101.0.spkg]]
+
+{{{
+#!bash
+sage -i libm4rie-19780101.0.spkg
+}}}
+ 
+
 3. Install the Sage patch
 
 == Literature ==
