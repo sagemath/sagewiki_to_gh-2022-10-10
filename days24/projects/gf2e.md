@@ -14,7 +14,14 @@ Here are some preliminary benchmarks for row echelon forms of dense random n x n
 
 {{attachment:multiplication_r16.png}}
 
-Blue means faster than Magma by a factor of e^blue^. Red means slower than Magma by a factor of e^red^.
+Blue means faster than Magma by a factor of e^blue^. Red means slower than Magma by a factor of e^-red^.
+
+==== Multiplication ====
+
+{{attachment:elimination_r16.png}}
+
+Blue means faster than Magma by a factor of e^blue^. Red means slower than Magma by a factor of e^-red^.
+
 
 === People ===
 
