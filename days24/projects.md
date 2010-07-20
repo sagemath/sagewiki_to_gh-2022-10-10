@@ -82,14 +82,9 @@ Make sure to see [[daysff/curves|this page for more links]].
 
 == Fast linear algebra over small extensions of GF(2) ==
 
-'''People''': '''Martin Albrecht''', Ciaran Mullan, Robert Miller, Sebastian P., Thomas
+'''People''': Martin Albrecht
 
-Implement fast-ish linear algebra over GF(2^n) for n small. Here are some preliminary benchmarks.
-
-|| n    || Sage    || NTL *2  || Magma || M4RIE ||
-|| 1000 ||   49.49 ||   18.84 || 0.090 || 0.097 ||
-|| 2000 ||  429.05 ||  149.11 || 0.510 || 0.529 ||
-|| 3000 || 1494.33 ||  526.57 || 1.640 || 2.315 ||
+Implement fast-ish linear algebra over GF(2^n) for n small.
 
 [[days24/projects/gf2e|project page]]
 
