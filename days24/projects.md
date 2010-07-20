@@ -6,7 +6,9 @@ This is a list of projects suitable for [[days24|Sage Days 24]]. Feel free to ad
 
 == GIAC Factoring ==
 
-'''People:''' Thomas, Burcin, Richard, William Stein (total anarchy, no leader!)
+'''People:''' Thomas, Burcin, Richard, '''William Stein'''
+
+See [[http://groups.google.com/group/sage-devel/browse_thread/thread/81de8a7cdd694077|this sage-devel discussion]].
 
 == Kovacic's Algorithm ==
 
