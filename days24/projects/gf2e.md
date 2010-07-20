@@ -1,13 +1,16 @@
-Linear algebra over small extensions of GF(2).
+== Linear algebra over small extensions of GF(2) ==
 
-Here are some preliminary benchmarks for GF(2^8) from before Sage Days 24:
+=== Motivation ===
 
-|| n    || Sage    || NTL *2  || Magma || M4RIE ||
-|| 1000 ||   49.49 ||   18.84 || 0.090 || 0.097 ||
-|| 2000 ||  429.05 ||  149.11 || 0.510 || 0.529 ||
-|| 3000 || 1494.33 ||  526.57 || 1.640 || 2.315 ||
+==== Echelon Forms ====
+Here are some preliminary benchmarks for row echelon forms of dense random n x n matrices over GF(2^4)
 
-Here is the current multiplication performance compared with Magma:
+|| n    || Sage 4.5 || NTL/2   || Magma 2.15-10 || M4RIE (SD 23.75) || M4RIE (current) ||
+|| 1000 ||   49.49s ||  18.84s || 0.090s        || 0.097s           || 0.05s           ||
+|| 2000 ||  429.05s || 149.11s || 0.510s        || 0.529s           || 0.28s           ||
+|| 3000 || 1494.33s || 526.57s || 1.640s        || 2.315s           || 1.00s           ||
+
+==== Multiplication ====
 
 {{attachment:multiplication_r13.png}}
 
@@ -19,11 +22,25 @@ Blue means faster than Magma by a factor of e^blue^. Red means slower than Magma
 
 == Library ==
 
-The library is here: http://bitbucket.org/malb/m4rie 
+1. Install an updated M4RI library
 
-Get in contact with Martin Albrecht to get commit rights.
+{{{
+#!sh
+wget http://sage.math.washington.edu/home/malb/spkgs/libm4ri-20100701.p1.spkg
+tar xvfj libm4ri-20100701.p1.spkg
+cd libm4ri-20100701.p1/
+rm -rf src
+hg clone http://bitbucket.org/malb/m4ri
+ln -s m4ri src
+cd src
+autoreconf --install
+cd ..
+./spkg-install
+}}}
 
-The library needs an updated M4RI which exports more internals for us to use.
+2. Install this library
+
+3. Install the Sage patch
 
 == Literature ==
 
