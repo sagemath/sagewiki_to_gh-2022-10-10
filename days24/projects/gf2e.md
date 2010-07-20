@@ -9,7 +9,7 @@ Here are some preliminary benchmarks for GF(2^8) from before Sage Days 24:
 
 Here is the current multiplication performance compared with Magma:
 
-[[attachment:multiplication_r13.png]]
+{{attachment:multiplication_r13.png}}
 
 === People ===
 
