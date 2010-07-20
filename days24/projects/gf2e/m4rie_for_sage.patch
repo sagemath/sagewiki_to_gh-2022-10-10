@@ -1,0 +1,1183 @@
+# HG changeset patch
+# User Martin Albrecht <martinralbrecht@googlemail.com>
+# Date 1279639189 -3600
+# Node ID cc88353e2acb2bdbe05178a09647ccb8d524f340
+# Parent  96e2020790df6a5f4d413e65b111f0ec6e73fc2a
+Matrices over GF(2^n)
+
+diff -r 96e2020790df -r cc88353e2acb module_list.py
+--- a/module_list.py	Mon Jun 28 23:27:14 2010 +0100
++++ b/module_list.py	Tue Jul 20 16:19:49 2010 +0100
+@@ -785,6 +785,12 @@
+               libraries = ['gmp','m4ri', 'gd', 'png12', 'z'],
+               depends = [SAGE_ROOT + "/local/include/png.h", SAGE_ROOT + "/local/include/m4ri/m4ri.h"]),
+ 
++    Extension('sage.matrix.matrix_mod2e_dense',
++              sources = ['sage/matrix/matrix_mod2e_dense.pyx'],
++              libraries = ['m4rie', 'm4ri', 'givaro', 'ntl', 'gmpxx', 'gmp', 'm', 'stdc++'],
++              depends = [SAGE_ROOT + "/local/include/m4rie/m4rie.h"],
++              language="c++"),
++
+     Extension('sage.matrix.matrix_modn_dense',
+               sources = ['sage/matrix/matrix_modn_dense.pyx'],
+               libraries = ['gmp']),
+diff -r 96e2020790df -r cc88353e2acb sage/libs/m4rie.pxd
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/sage/libs/m4rie.pxd	Tue Jul 20 16:19:49 2010 +0100
+@@ -0,0 +1,110 @@
++##############################################################################
++#       Copyright (C) 2010 Martin Albrecht <martinralbrecht@googlemail.com>
++#  Distributed under the terms of the GNU General Public License (GPL)
++#  The full text of the GPL is available at:
++#                  http://www.gnu.org/licenses/
++##############################################################################
++
++from sage.libs.m4ri cimport mzd_t, m4ri_word
++
++
++
++cdef extern from "m4rie/m4rie.h":
++    ctypedef struct gf2e:
++        m4ri_word **mul
++        m4ri_word *inv
++        size_t degree
++
++    void gf2e_free(gf2e *ff)
++
++#cdef extern from "m4rie/gf2e_matrix.h":
++    ctypedef struct mzed_t:
++        mzd_t *x
++        gf2e *finite_field
++        int nrows
++        int ncols
++        int w
++
++    ctypedef int const_int "const int"
++    ctypedef size_t const_size_t "const size_t"
++    ctypedef mzed_t const_mzed_t "const mzed_t"
++
++    mzed_t *mzed_init(gf2e *, size_t m, size_t n)
++
++    void mzed_free(mzed_t *)
++
++    int mzed_read_elem(const_mzed_t *M, const_size_t row, const_size_t col)
++
++    void mzed_write_elem(mzed_t *, const_size_t row, const_size_t col, const_int elem)
++
++    mzed_t *mzed_copy(mzed_t *o, const_mzed_t *i)
++
++    int mzed_cmp(mzed_t *l, mzed_t *r)
++
++    mzed_t *mzed_randomize(mzed_t *)
++
++    mzed_t *mzed_add(mzed_t *, mzed_t *, mzed_t *)
++
++    size_t mzed_echelonize_naive(mzed_t *, size_t)
++
++    void mzed_add_elem(mzed_t *a, const_size_t row, const_size_t col, const_int elem)
++
++    void mzed_add_multiple_of_row(mzed_t *A, size_t ar, mzed_t *B, size_t br, m4ri_word *X, size_t start_col)
++
++    void mzed_rescale_row(mzed_t *A, size_t r, size_t c, m4ri_word *X)
++
++    void mzed_row_swap(mzed_t *M, const_size_t rowa, const_size_t rowb)
++
++    void mzed_copy_row(mzed_t* B, size_t i, const_mzed_t* A, size_t j)
++
++    void mzed_col_swap(mzed_t *M, const_size_t cola, const_size_t colb)
++
++    void mzed_row_add(mzed_t *M, const_size_t sourcerow, const_size_t destrow)
++
++    size_t mzed_first_zero_row(mzed_t *A)
++
++    int mzed_is_zero(mzed_t *A)
++
++    void mzed_row_clear_offset(mzed_t *M, const_size_t row, const_size_t coloffset)
++
++    mzed_t *mzed_concat(mzed_t *C, const_mzed_t *A, const_mzed_t *B)
++
++    mzed_t *mzed_stack(mzed_t *C, const_mzed_t *A, const_mzed_t *B)
++
++    mzed_t *mzed_submatrix(mzed_t *S, const_mzed_t *M, size_t lowr, size_t lowc, size_t highr, size_t highc)
++
++    mzed_t *mzed_mul_naive(mzed_t *C, const_mzed_t *A, const_mzed_t *B, const_int clear)
++
++    # TODO: not implemented yet in m4rie
++    mzed_t *mzed_transpose(mzed_t *DST, const_mzed_t *A )
++
++    void mzed_print(const_mzed_t *M)
++ 
++    mzed_t *mzed_invert_travolta(mzed_t *A, mzed_t *B)
++
++    # TODO: not implemented yet in m4rie
++    double mzed_density(mzed_t *A, int res)
++
++    # TODO: not implemented yet in m4rie
++    double _mzed_density(mzed_t *A, int res, size_t r, size_t c)
++
++
++#cdef extern from "m4rie/travolta.h":
++    size_t mzed_echelonize_travolta(mzed_t *, size_t)
++
++    mzed_t *mzed_mul_travolta(mzed_t *, mzed_t *, mzed_t *)
++
++#cdef extern from "m4rie/echelonform.h":
++    size_t mzed_echelonize(mzed_t *, size_t)
++
++cdef extern from "m4rie/finite_field_givaro.h":
++    ctypedef struct M4RIE__FiniteField "M4RIE::FiniteField":
++        int (* pol2log)(int r)
++        int (* log2pol)(int r)
++        
++    gf2e *gf2e_init_givgfq(M4RIE__FiniteField *givgfq)
++
++    int mzed_read_elem_log(const_mzed_t *a, const_size_t row, const_size_t col, M4RIE__FiniteField *ff)
++    void mzed_write_elem_log(mzed_t *a, const_size_t row, const_size_t col, const_int elem, M4RIE__FiniteField *ff)
++    void mzed_add_elem_log(mzed_t *a, const_size_t row, const_size_t col, const_int elem, M4RIE__FiniteField *ff)
++        
+diff -r 96e2020790df -r cc88353e2acb sage/libs/ntl/ntl_mat_GF2E.pyx
+--- a/sage/libs/ntl/ntl_mat_GF2E.pyx	Mon Jun 28 23:27:14 2010 +0100
++++ b/sage/libs/ntl/ntl_mat_GF2E.pyx	Tue Jul 20 16:19:49 2010 +0100
+@@ -619,3 +619,11 @@
+         mat_GF2E_kernel(X.x, self.x)
+         _sig_off
+         return X
++
++    def randomize(self):
++        cdef long i,j
++        cdef GF2E_c tmp
++        for i in xrange(self.x.NumRows()):
++            for j in xrange(self.x.NumCols()):
++                tmp = GF2E_random()
++                mat_GF2E_setitem(&self.x, i, j, &tmp)
+diff -r 96e2020790df -r cc88353e2acb sage/matrix/matrix_mod2_dense.pyx
+--- a/sage/matrix/matrix_mod2_dense.pyx	Mon Jun 28 23:27:14 2010 +0100
++++ b/sage/matrix/matrix_mod2_dense.pyx	Tue Jul 20 16:19:49 2010 +0100
+@@ -1127,7 +1127,7 @@
+             self._echelon_in_place_classical()
+         else:
+             raise ValueError, "no algorithm '%s'"%algorithm
+-
++ 
+     def _pivots(self):
+         r"""
+         Returns the pivot columns of \code{self} if \code{self} is in
+diff -r 96e2020790df -r cc88353e2acb sage/matrix/matrix_mod2e_dense.pxd
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/sage/matrix/matrix_mod2e_dense.pxd	Tue Jul 20 16:19:49 2010 +0100
+@@ -0,0 +1,15 @@
++# choose: dense or sparse
++
++from sage.rings.finite_rings.element_givaro cimport GivaroGfq, Cache_givaro
++
++from sage.libs.m4rie cimport mzed_t
++
++cimport matrix_dense 
++
++cdef class Matrix_mod2e_dense(matrix_dense.Matrix_dense):
++    cdef mzed_t *_entries
++    cdef Cache_givaro cc
++    cdef object _one
++    cdef object _zero
++
++
+diff -r 96e2020790df -r cc88353e2acb sage/matrix/matrix_mod2e_dense.pyx
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/sage/matrix/matrix_mod2e_dense.pyx	Tue Jul 20 16:19:49 2010 +0100
+@@ -0,0 +1,951 @@
++"""
++Dense matrices over GF(2^e) for 2 <= e <= 10 using the M4RIe library.
++
++m x n matrices over GF(2^e) are internally represented as m x (en)
++matrices over GF(2) which allows to reuse much of the existing
++machinery of M4RI.
++
++EXAMPLE::
++
++    sage: K.<a> = GF(2^8)
++    sage: A = random_matrix(K, 3,4)
++    sage: A
++    [                  a^3 + a^2 + 1         a^7 + a^5 + a^4 + a + 1                       a^7 + a^3                   a^6 + a^4 + a]
++    [      a^5 + a^4 + a^3 + a^2 + 1 a^7 + a^6 + a^5 + a^4 + a^3 + a             a^5 + a^4 + a^3 + a             a^6 + a^4 + a^2 + 1]
++    [  a^6 + a^5 + a^4 + a^2 + a + 1   a^7 + a^5 + a^3 + a^2 + a + 1       a^7 + a^6 + a^3 + a^2 + a             a^7 + a^5 + a^3 + a]
++
++    sage: A.echelon_form()
++    [                        1                         0                         0       a^7 + a^6 + a^2 + a]
++    [                        0                         1                         0     a^6 + a^4 + a^3 + a^2]
++    [                        0                         0                         1 a^6 + a^4 + a^3 + a^2 + a]
++
++AUTHOR: 
++ * Martin Albrecht <martinralbrecht@googlemail.com>
++
++TESTS::
++
++    sage: sage: TestSuite(sage.matrix.matrix_mod2e_dense.Matrix_mod2e_dense).run(verbose=True)
++    running ._test_pickling() . . . pass
++"""
++
++include "../ext/interrupt.pxi"
++include "../ext/cdefs.pxi"
++include '../ext/stdsage.pxi'
++include '../ext/random.pxi'
++
++cimport matrix_dense
++from sage.structure.element cimport Matrix, Vector
++from sage.structure.element cimport ModuleElement, Element
++
++#from sage.misc.functional import log
++#from sage.misc.misc import verbose, get_verbose, cputime
++
++from sage.rings.all import FiniteField as GF
++from sage.rings.finite_rings.element_givaro cimport FiniteField_givaroElement, GivRandom, GivRandomSeeded
++from sage.misc.randstate cimport randstate, current_randstate
++
++from sage.matrix.matrix_mod2_dense cimport Matrix_mod2_dense
++
++from sage.libs.m4ri cimport m4ri_word, mzd_copy
++from sage.libs.m4rie cimport *
++from sage.libs.m4rie cimport mzed_t, M4RIE__FiniteField
++
++
++
++# we must keep a copy of the internal finite field representation
++# around to avoid re-creating it over and over again. Furthermore,
++# M4RIE assumes pointer equivalence of identical fields.
++
++_givaro_cache = {}
++
++cdef class M4RIE_finite_field:
++    """
++    A thin wrapper around the M4RIE finite field class such that we
++    can put it in a hash table. This class isn't meant for public
++    consumption.
++    """
++    cdef gf2e *ff
++
++    def __cinit__(self):
++        """
++        EXAMPLE::
++
++            sage: from sage.matrix.matrix_mod2e_dense import M4RIE_finite_field
++            sage: K = M4RIE_finite_field(); K
++            <sage.matrix.matrix_mod2e_dense.M4RIE_finite_field object at 0x...>
++        """
++        pass
++
++    def __dealloc__(self):
++        """
++        EXAMPLE::
++
++            sage: from sage.matrix.matrix_mod2e_dense import M4RIE_finite_field
++            sage: K = M4RIE_finite_field()
++            sage: del K
++        """
++        if self.ff:
++            gf2e_free(self.ff)
++
++cdef class Matrix_mod2e_dense(matrix_dense.Matrix_dense):   # dense or sparse
++    ########################################################################
++    # LEVEL 1 functionality
++    ########################################################################
++    def __cinit__(self, parent, entries, copy, coerce, alloc=True):
++        """
++        Create new matrix over `GF(2^k)` for 2<=k<=10.
++
++        EXAMPLES::
++
++            sage: K.<a> = GF(2^4)
++            sage: A = Matrix(K, 3, 4); A
++            [0 0 0 0]
++            [0 0 0 0]
++            [0 0 0 0]
++
++            sage: A.randomize(); A 
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1         a + 1]
++            [        a + 1         a + 1       a^3 + a     a^3 + a^2]
++            [a^3 + a^2 + a             a             1   a^3 + a + 1]
++
++            sage: K.<a> = GF(2^3)
++            sage: A = Matrix(K,3,4); A
++            [0 0 0 0]
++            [0 0 0 0]
++            [0 0 0 0]
++
++            sage: A.randomize(); A
++            [a^2 + 1       0   a + 1       0]
++            [      a       a   a + 1       a]
++            [      1     a^2 a^2 + a       0]
++        """
++        matrix_dense.Matrix_dense.__init__(self, parent)
++
++        cdef M4RIE_finite_field FF
++
++        R = parent.base_ring()
++
++        self.cc = <Cache_givaro>R._cache
++        
++        if alloc and self._nrows and self._ncols:
++            if self.cc in _givaro_cache:
++                self._entries = mzed_init((<M4RIE_finite_field>_givaro_cache[self.cc]).ff, self._nrows, self._ncols)
++            else:
++                FF = PY_NEW(M4RIE_finite_field)
++                FF.ff = gf2e_init_givgfq(<M4RIE__FiniteField*>self.cc.objectptr)
++                self._entries = mzed_init(FF.ff, self._nrows, self._ncols)
++                _givaro_cache[self.cc] = FF
++
++        # cache elements
++        self._zero = self._base_ring(0)
++        self._one = self._base_ring(1)
++
++    def __dealloc__(self):
++        """
++        TESTS::
++        
++            sage: K.<a> = GF(2^4)
++            sage: A = Matrix(K, 1000, 1000)
++            sage: del A
++            sage: A = Matrix(K, 1000, 1000)
++            sage: del A
++        """
++        if self._entries:
++            mzed_free(self._entries)
++            self._entries = NULL
++
++    def __init__(self, parent, entries, copy, coerce):
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: l = [K.random_element() for _ in range(3*4)]; l
++            [a^2 + 1, a^3 + 1, 0, 0, a, a^3 + a + 1, a + 1, a + 1, a^2, a^3 + a + 1, a^3 + a, a^3 + a]
++
++            sage: A = Matrix(K, 3, 4, l); A
++            [    a^2 + 1     a^3 + 1           0           0]
++            [          a a^3 + a + 1       a + 1       a + 1]
++            [        a^2 a^3 + a + 1     a^3 + a     a^3 + a]
++
++            sage: A.list()
++            [a^2 + 1, a^3 + 1, 0, 0, a, a^3 + a + 1, a + 1, a + 1, a^2, a^3 + a + 1, a^3 + a, a^3 + a]
++
++            sage: l[0], A[0,0]
++            (a^2 + 1, a^2 + 1)
++
++            sage: A = Matrix(K, 3, 3, a); A
++            [a 0 0]
++            [0 a 0]
++            [0 0 a]
++        """
++        cdef int i,j
++        cdef FiniteField_givaroElement e
++
++        if entries is None:
++            return
++
++        R = self.base_ring()
++        
++        # scalar ?  
++        if not isinstance(entries, list):
++            if entries != 0:
++                if self.nrows() != self.ncols():
++                    raise TypeError("self must be a  square matrices for scalar assignment")
++                for i in range(self.nrows()):
++                    self.set_unsafe(i,i, R(entries))
++            return 
++
++        # all entries are given as a long list
++        if len(entries) != self._nrows * self._ncols:
++            raise IndexError("The vector of entries has the wrong length.")
++        
++        k = 0
++
++        for i from 0 <= i < self._nrows:
++            if PyErr_CheckSignals(): raise KeyboardInterrupt
++            for j from 0 <= j < self._ncols:
++                e = R(entries[k])
++                
++                mzed_write_elem_log(self._entries,i,j, e.element, <M4RIE__FiniteField*>self.cc.objectptr)
++                k = k + 1
++            
++    cdef set_unsafe(self, Py_ssize_t i, Py_ssize_t j, value):
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: A = Matrix(K,3,4,[K.random_element() for _ in range(3*4)]); A
++            [    a^2 + 1     a^3 + 1           0           0]
++            [          a a^3 + a + 1       a + 1       a + 1]
++            [        a^2 a^3 + a + 1     a^3 + a     a^3 + a]
++
++            sage: A[0,0] = a
++            sage: A
++            [          a     a^3 + 1           0           0]
++            [          a a^3 + a + 1       a + 1       a + 1]
++            [        a^2 a^3 + a + 1     a^3 + a     a^3 + a]
++        """
++        mzed_write_elem_log(self._entries, i, j, (<FiniteField_givaroElement>value).element, <M4RIE__FiniteField*>self.cc.objectptr)
++
++    cdef get_unsafe(self, Py_ssize_t i, Py_ssize_t j):
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: A = random_matrix(K,3,4)
++            sage: A[2,3]
++            a^3 + a + 1
++            sage: K.<a> = GF(2^3)
++            sage: m,n  = 3, 4
++            sage: A = random_matrix(K,3,4); A
++            [a^2 + 1       0   a + 1       0]
++            [      a       a   a + 1       a]
++            [      1     a^2 a^2 + a       0]
++        """
++        cdef int r = mzed_read_elem_log(self._entries, i, j, <M4RIE__FiniteField*>self.cc.objectptr)
++        return self.cc._new_c(r)
++
++
++    cpdef ModuleElement _add_(self, ModuleElement right):
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: A = random_matrix(K,3,4); A
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1         a + 1]
++            [        a + 1         a + 1       a^3 + a     a^3 + a^2]
++            [a^3 + a^2 + a             a             1   a^3 + a + 1]
++            
++            sage: B = random_matrix(K,3,4); B
++            [          a^3 + 1                 0               a^3                 0]
++            [          a^3 + a                 a     a^3 + a^2 + a           a^3 + a]
++            [      a^3 + a + 1               a^2 a^3 + a^2 + a + 1           a^2 + 1]
++
++            sage: C = A + B; C # indirect doctest
++            [    a^3 + a^2 a^3 + a^2 + a         a + 1         a + 1]
++            [      a^3 + 1             1           a^2       a^2 + a]
++            [      a^2 + 1       a^2 + a a^3 + a^2 + a a^3 + a^2 + a]
++        """
++        cdef Matrix_mod2e_dense A
++        A = Matrix_mod2e_dense.__new__(Matrix_mod2e_dense, self._parent, 0, 0, 0, alloc=False)
++        if self._nrows == 0 or self._ncols == 0:
++            return A
++        A._entries = mzed_add(NULL, self._entries, (<Matrix_mod2e_dense>right)._entries)
++
++        return A
++
++    cpdef ModuleElement _sub_(self, ModuleElement right):
++        """
++        EXAMPLE::
++        
++            sage: from sage.matrix.matrix_mod2e_dense import Matrix_mod2e_dense
++            sage: K.<a> = GF(2^4)
++            sage: m,n  = 3, 4
++            sage: MS = MatrixSpace(K,m,n)
++            sage: A = random_matrix(K,3,4); A
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1         a + 1]
++            [        a + 1         a + 1       a^3 + a     a^3 + a^2]
++            [a^3 + a^2 + a             a             1   a^3 + a + 1]
++
++            sage: B = random_matrix(K,3,4); B
++            [          a^3 + 1                 0               a^3                 0]
++            [          a^3 + a                 a     a^3 + a^2 + a           a^3 + a]
++            [      a^3 + a + 1               a^2 a^3 + a^2 + a + 1           a^2 + 1]
++
++            sage: C = A - B; C  # indirect doctest
++            [    a^3 + a^2 a^3 + a^2 + a         a + 1         a + 1]
++            [      a^3 + 1             1           a^2       a^2 + a]
++            [      a^2 + 1       a^2 + a a^3 + a^2 + a a^3 + a^2 + a]
++        """
++        return self._add_(right)
++
++    cdef Matrix _matrix_times_matrix_(self, Matrix right):
++        """
++        Matrix multiplication.
++
++        EXAMPLES::
++
++            sage: K.<a> = GF(2^2)
++            sage: A = random_matrix(K, 50, 50)
++            sage: B = random_matrix(K, 50, 50)
++            sage: A*B == A._multiply_classical(B)
++            True
++
++            sage: K.<a> = GF(2^4)
++            sage: A = random_matrix(K, 50, 50)
++            sage: B = random_matrix(K, 50, 50)
++            sage: A*B == A._multiply_classical(B)
++            True
++
++            sage: K.<a> = GF(2^8)
++            sage: A = random_matrix(K, 50, 50)
++            sage: B = random_matrix(K, 50, 50)
++            sage: A*B == A._multiply_classical(B)
++            True
++
++            sage: K.<a> = GF(2^10)
++            sage: A = random_matrix(K, 50, 50)
++            sage: B = random_matrix(K, 50, 50)
++            sage: A*B == A._multiply_classical(B)
++            True
++        """
++        if self._ncols != right._nrows:
++            raise ArithmeticError("left ncols must match right nrows")
++
++        cdef Matrix_mod2e_dense ans
++        
++        ans = self.new_matrix(nrows = self.nrows(), ncols = right.ncols())
++        if self._nrows == 0 or self._ncols == 0 or right._ncols == 0:
++            return ans
++        ans._entries = mzed_mul_travolta(ans._entries, self._entries, (<Matrix_mod2e_dense>right)._entries)
++        return ans
++
++    def __neg__(self):
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: A = random_matrix(K, 3, 4); A
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1         a + 1]
++            [        a + 1         a + 1       a^3 + a     a^3 + a^2]
++            [a^3 + a^2 + a             a             1   a^3 + a + 1]
++
++            sage: -A
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1         a + 1]
++            [        a + 1         a + 1       a^3 + a     a^3 + a^2]
++            [a^3 + a^2 + a             a             1   a^3 + a + 1]
++        """
++        return self.__copy__()
++
++    def __richcmp__(Matrix self, right, int op):  # always need for mysterious reasons.
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: A = random_matrix(K,3,4)
++            sage: B = copy(A)
++            sage: A == B
++            True
++            sage: A[0,0] = a
++            sage: A == B
++            False
++        """
++        return self._richcmp(right, op)
++
++    cdef int _cmp_c_impl(self, Element right) except -2:
++        if self._nrows == 0 or self._ncols == 0:
++            return 0
++        return mzed_cmp(self._entries, (<Matrix_mod2e_dense>right)._entries)
++
++    def __copy__(self):
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: m,n  = 3, 4
++            sage: A = random_matrix(K,3,4); A
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1         a + 1]
++            [        a + 1         a + 1       a^3 + a     a^3 + a^2]
++            [a^3 + a^2 + a             a             1   a^3 + a + 1]
++
++            sage: A2 = copy(A); A2
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1         a + 1]
++            [        a + 1         a + 1       a^3 + a     a^3 + a^2]
++            [a^3 + a^2 + a             a             1   a^3 + a + 1]
++
++            sage: A[0,0] = 1
++            sage: A2[0,0]
++            a^2 + 1
++        """
++        cdef Matrix_mod2e_dense A
++        A = Matrix_mod2e_dense.__new__(Matrix_mod2e_dense, self._parent, 0, 0, 0)
++        
++        if self._nrows and self._ncols:
++            mzed_copy(A._entries, <const_mzed_t *>self._entries)
++
++        return A
++        
++    def _list(self):
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: m,n  = 3, 4
++            sage: A = random_matrix(K,3,4); A
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1         a + 1]
++            [        a + 1         a + 1       a^3 + a     a^3 + a^2]
++            [a^3 + a^2 + a             a             1   a^3 + a + 1]
++
++            sage: A.list() # indirect doctest
++            [a^2 + 1, a^3 + a^2 + a, a^3 + a + 1, a + 1, a + 1, a + 1, a^3 + a, a^3 + a^2, a^3 + a^2 + a, a, 1, a^3 + a + 1]
++        """
++        cdef int i,j
++        l = []
++        for i from 0 <= i < self._nrows:
++            for j from 0 <= j < self._ncols:
++                l.append(self.get_unsafe(i,j))
++        return l
++
++    def randomize(self, density=1, nonzero=False):
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: A = Matrix(K,3,3)
++
++            sage: A.randomize(); A
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1]
++            [        a + 1         a + 1         a + 1]
++            [      a^3 + a     a^3 + a^2 a^3 + a^2 + a]
++        """
++        cdef Py_ssize_t i,j
++        cdef int seed = current_randstate().c_random()
++        cdef GivRandom generator = GivRandomSeeded(seed)
++        cdef int res
++                
++        if self._ncols == 0 or self._nrows == 0:
++            return
++
++        if density !=1:
++            raise NotImplementedError
++        for i in range(self._nrows):
++            for j in range(self._ncols):
++                res = self.cc.objectptr.random(generator,res)
++                mzed_write_elem_log(self._entries, i, j, res, <M4RIE__FiniteField*>self.cc.objectptr)
++        
++
++    def echelonize(self, algorithm='heuristic', reduced=True, **kwds):
++        """
++        EXAMPLE::
++        
++            sage: K.<a> = GF(2^4)
++            sage: m,n  = 3, 5
++            sage: A = random_matrix(K, 3, 5); A
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1         a + 1         a + 1]
++            [        a + 1       a^3 + a     a^3 + a^2 a^3 + a^2 + a             a]
++            [            1   a^3 + a + 1     a^3 + a^2 a^3 + a^2 + 1           a^2]
++
++            sage: A.echelonize(); A
++            [            1             0             0             a             a]
++            [            0             1             0   a^2 + a + 1             a]
++            [            0             0             1             a a^3 + a^2 + 1]
++
++            sage: K.<a> = GF(2^3)
++            sage: m,n  = 3, 5
++            sage: MS = MatrixSpace(K,m,n)
++            sage: A = random_matrix(K, 3, 5)
++
++            sage: copy(A).echelon_form('travolta')
++            [          1           0           0         a^2     a^2 + 1]
++            [          0           1           0         a^2           1]
++            [          0           0           1 a^2 + a + 1       a + 1]
++            
++            sage: copy(A).echelon_form('naive');
++            [          1           0           0         a^2     a^2 + 1]
++            [          0           1           0         a^2           1]
++            [          0           0           1 a^2 + a + 1       a + 1]
++
++            sage: copy(A).echelon_form('builtin');
++            [          1           0           0         a^2     a^2 + 1]
++            [          0           1           0         a^2           1]
++            [          0           0           1 a^2 + a + 1       a + 1]
++        """
++        if self._nrows == 0 or self._ncols == 0:
++            self.cache('in_echelon_form',True)
++            self.cache('rank', 0)
++            self.cache('pivots', [])
++            return self
++        cdef int k, n, full
++
++        full = int(reduced)
++
++        x = self.fetch('in_echelon_form')
++        if not x is None: return  # already known to be in echelon form
++
++        if algorithm == 'naive':
++            self.check_mutability()
++            self.clear_cache()        
++
++            _sig_on
++            r =  mzed_echelonize_naive(self._entries, full)
++            _sig_off
++            
++            self.cache('in_echelon_form',True)
++            self.cache('rank', r)
++            self.cache('pivots', self._pivots())
++
++        elif algorithm == 'travolta':
++            self.check_mutability()
++            self.clear_cache()        
++
++            _sig_on
++            r =  mzed_echelonize_travolta(self._entries, full)
++            _sig_off
++            
++            self.cache('in_echelon_form',True)
++            self.cache('rank', r)
++            self.cache('pivots', self._pivots())
++
++        elif algorithm == 'heuristic':
++            self.check_mutability()
++            self.clear_cache()        
++
++            _sig_on
++            r =  mzed_echelonize(self._entries, full)
++            _sig_off
++            
++            self.cache('in_echelon_form',True)
++            self.cache('rank', r)
++            self.cache('pivots', self._pivots())
++
++        elif algorithm == 'builtin':
++            self._echelon_in_place_classical()
++        else:
++            raise ValueError, "no algorithm '%s'"%algorithm
++
++    def _pivots(self):
++        """
++        EXAMPLE::
++
++            sage: K.<a> = GF(2^8)
++            sage: A = random_matrix(K, 15, 15)
++            sage: A.pivots() # indirect doctest
++             [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
++        """
++        if not self.fetch('in_echelon_form'):
++            raise ValueError("self must be in reduced row echelon form first.")
++        pivots = []
++        cdef Py_ssize_t i, j, nc
++        nc = self._ncols
++        i = 0
++        while i < self._nrows: 
++            for j from i <= j < nc:
++                if self.get_unsafe(i,j):
++                    pivots.append(j)
++                    i += 1
++                    break
++            if j == nc:
++                break
++        return pivots
++
++    def __invert__(self):
++        """
++        EXAMPLE::
++
++            sage: K.<a> = GF(2^3)
++            sage: A = random_matrix(K,3,3); A
++            [      0   a + 1       1]
++            [a^2 + a a^2 + a a^2 + a]
++            [      a a^2 + 1   a + 1]
++
++            sage: B = ~A; B
++            [        a^2           0     a^2 + 1]
++            [a^2 + a + 1         a^2 a^2 + a + 1]
++            [      a + 1 a^2 + a + 1           a]
++            
++            sage: A*B
++            [1 0 0]
++            [0 1 0]
++            [0 0 1]
++        """
++        cdef Matrix_mod2e_dense A
++        A = Matrix_mod2e_dense.__new__(Matrix_mod2e_dense, self._parent, 0, 0, 0)
++        
++        if self._nrows and self._nrows == self._ncols:
++            mzed_invert_travolta(A._entries, self._entries)
++
++        return A
++        
++    cdef rescale_row_c(self, Py_ssize_t row, multiple, Py_ssize_t start_col):
++        """
++        EXAMPLE::
++
++            sage: K.<a> = GF(2^3)
++            sage: A = random_matrix(K,3,3); A
++            [      0   a + 1       1]
++            [a^2 + a a^2 + a a^2 + a]
++            [      a a^2 + 1   a + 1]
++
++            sage: A.rescale_row(0, a , 0); A
++            [      0 a^2 + a       a]
++            [a^2 + a a^2 + a a^2 + a]
++            [      a a^2 + 1   a + 1]
++
++            sage: A.rescale_row(0,0,0); A
++            [      0       0       0]
++            [a^2 + a a^2 + a a^2 + a]
++            [      a a^2 + 1   a + 1]
++        """        
++        cdef m4ri_word x = <m4ri_word>(<M4RIE__FiniteField*>self.cc.objectptr).log2pol((<FiniteField_givaroElement>multiple).element)
++        cdef m4ri_word *X = self._entries.finite_field.mul[x]
++        mzed_rescale_row(self._entries, row, start_col, X) 
++
++
++    cdef add_multiple_of_row_c(self,  Py_ssize_t row_to, Py_ssize_t row_from, multiple, Py_ssize_t start_col):
++        """
++        EXAMPLE::
++
++            sage: K.<a> = GF(2^3)
++            sage: A = random_matrix(K,3,3); A
++            [      0   a + 1       1]
++            [a^2 + a a^2 + a a^2 + a]
++            [      a a^2 + 1   a + 1]
++
++            sage: A.add_multiple_of_row(0,1,a,0); A
++            [a^2 + a + 1         a^2     a^2 + a]
++            [    a^2 + a     a^2 + a     a^2 + a]
++            [          a     a^2 + 1       a + 1]
++        """
++        
++        cdef m4ri_word x = <m4ri_word>(<M4RIE__FiniteField*>self.cc.objectptr).log2pol((<FiniteField_givaroElement>multiple).element)
++        cdef m4ri_word *X = self._entries.finite_field.mul[x]
++        mzed_add_multiple_of_row(self._entries, row_to, self._entries, row_from, X, start_col)
++
++
++    cdef swap_rows_c(self, Py_ssize_t row1, Py_ssize_t row2):
++        """
++        EXAMPLE::
++
++            sage: K.<a> = GF(2^3)
++            sage: A = random_matrix(K,3,3)
++            sage: A
++            [      0   a + 1       1]
++            [a^2 + a a^2 + a a^2 + a]
++            [      a a^2 + 1   a + 1]
++
++            sage: A.swap_rows(0,1); A
++            [a^2 + a a^2 + a a^2 + a]
++            [      0   a + 1       1]
++            [      a a^2 + 1   a + 1]
++
++        """
++        mzed_row_swap(self._entries, row1, row2)
++
++    cdef swap_columns_c(self, Py_ssize_t col1, Py_ssize_t col2):
++        """
++        EXAMPLE::
++
++            sage: K.<a> = GF(2^3)
++            sage: A = random_matrix(K,3,3)
++            sage: A
++            [      0   a + 1       1]
++            [a^2 + a a^2 + a a^2 + a]
++            [      a a^2 + 1   a + 1]
++
++            sage: A.swap_columns(0,1); A
++            [  a + 1       0       1]
++            [a^2 + a a^2 + a a^2 + a]
++            [a^2 + 1       a   a + 1]
++
++            sage: A = random_matrix(K,4,16)
++
++            sage: B = copy(A)
++            sage: B.swap_columns(0,1)
++            sage: B.swap_columns(0,1)
++            sage: A == B
++            True
++
++            sage: A.swap_columns(0,15)
++            sage: A.column(0) == B.column(15)
++            True
++            sage: A.swap_columns(14,15)
++            sage: A.column(14) == B.column(0)
++            True
++        """
++        mzed_col_swap(self._entries, col1, col2)
++
++    def augment(self, Matrix_mod2e_dense right):
++        """
++        Augments ``self`` with ``right``.
++
++        EXAMPLE::
++
++            sage: K.<a> = GF(2^4)
++            sage: MS = MatrixSpace(K,3,3)
++            sage: A = random_matrix(K,3,3)
++            sage: B = A.augment(MS(1)); B
++            [      a^2 + 1 a^3 + a^2 + a   a^3 + a + 1             1             0             0]
++            [        a + 1         a + 1         a + 1             0             1             0]
++            [      a^3 + a     a^3 + a^2 a^3 + a^2 + a             0             0             1]
++
++            sage: B.echelonize(); B
++            [            1             0             0 a^3 + a^2 + 1 a^3 + a^2 + 1       a^2 + a]
++            [            0             1             0       a^3 + 1       a^2 + 1       a^2 + 1]
++            [            0             0             1           a^2       a^2 + a         a + 1]
++
++            sage: C = B.matrix_from_columns([3,4,5]); C
++            [a^3 + a^2 + 1 a^3 + a^2 + 1       a^2 + a]
++            [      a^3 + 1       a^2 + 1       a^2 + 1]
++            [          a^2       a^2 + a         a + 1]
++
++            sage: C == ~A
++            True
++
++            sage: C*A == MS(1)
++            True
++
++        TESTS::
++
++            sage: K.<a> = GF(2^4)
++            sage: A = random_matrix(K,2,3)
++            sage: B = random_matrix(K,2,0)
++            sage: A.augment(B)
++            [a^3 + 1       0     a^3]
++            [      0 a^3 + a       a]
++
++            sage: B.augment(A)
++            [a^3 + 1       0     a^3]
++            [      0 a^3 + a       a]
++
++            sage: M = Matrix(K, 0, 0, 0)
++            sage: N = Matrix(K, 0, 19, 0)
++            sage: W = M.augment(N)
++            sage: W.ncols()
++            19
++
++            sage: M = Matrix(K, 0, 1, 0)
++            sage: N = Matrix(K, 0, 1, 0)
++            sage: M.augment(N)
++            []
++        """
++        cdef Matrix_mod2e_dense A
++
++        if self._nrows != right._nrows:
++            raise TypeError, "Both numbers of rows must match."
++
++        if self._ncols == 0:
++            return right.__copy__()
++        if right._ncols == 0:
++            return self.__copy__()
++
++        A = self.new_matrix(ncols = self._ncols + right._ncols)
++        if self._nrows == 0:
++            return A
++        A._entries = mzed_concat(A._entries, self._entries, right._entries)
++        return A
++
++    def stack(self, Matrix_mod2e_dense other):
++        """
++        Stack ``self`` on top of ``other``.
++
++        EXAMPLE::
++
++            sage: K.<a> = GF(2^4)
++            sage: A = random_matrix(K,2,2); A
++            [      a^2 + 1 a^3 + a^2 + a]
++            [  a^3 + a + 1         a + 1]
++            
++            sage: B = random_matrix(K,2,2); B
++            [a^3 + 1       0]
++            [    a^3       0]
++
++            sage: A.stack(B)
++            [      a^2 + 1 a^3 + a^2 + a]
++            [  a^3 + a + 1         a + 1]
++            [      a^3 + 1             0]
++            [          a^3             0]
++
++            sage: B.stack(A)
++            [      a^3 + 1             0]
++            [          a^3             0]
++            [      a^2 + 1 a^3 + a^2 + a]
++            [  a^3 + a + 1         a + 1]
++
++        TESTS::
++
++            sage: A = random_matrix(K,0,3)
++            sage: B = random_matrix(K,3,3)
++            sage: A.stack(B)
++            [            0 a^3 + a^2 + a       a^2 + 1]
++            [    a^3 + a^2       a^2 + 1           a^2]
++            [    a^3 + a^2             a a^3 + a^2 + 1]
++
++            sage: B.stack(A)
++            [            0 a^3 + a^2 + a       a^2 + 1]
++            [    a^3 + a^2       a^2 + 1           a^2]
++            [    a^3 + a^2             a a^3 + a^2 + 1]
++
++            sage: M = Matrix(K, 0, 0, 0)
++            sage: N = Matrix(K, 19, 0, 0)
++            sage: W = M.stack(N)
++            sage: W.nrows()
++            19
++            sage: M = Matrix(K, 1, 0, 0)
++            sage: N = Matrix(K, 1, 0, 0)
++            sage: M.stack(N)
++            []
++        """
++        if self._ncols != other._ncols:
++            raise TypeError, "Both numbers of columns must match."
++
++        if self._nrows == 0:
++            return other.__copy__()
++        if other._nrows == 0:
++            return self.__copy__()
++
++        cdef Matrix_mod2e_dense A
++        A = self.new_matrix(nrows = self._nrows + other._nrows)
++        if self._ncols == 0:
++            return A
++        A._entries = mzed_stack(A._entries, self._entries, other._entries)
++        return A
++
++    def submatrix(self, lowr, lowc, nrows , ncols):
++        """
++        Return submatrix from the index lowr,lowc (inclusive) with
++        dimension nrows x ncols.
++
++        INPUT:
++ 
++        - ``lowr`` -- index of start row
++        - ``lowc`` -- index of start column
++        - ``nrows`` -- number of rows of submatrix
++        - ``ncols`` -- number of columns of submatrix
++        
++        EXAMPLES::
++
++             sage: K.<a> = GF(2^10)
++             sage: A = random_matrix(K,200,200)
++             sage: A[0:2,0:2] == A.submatrix(0,0,2,2)
++             True
++             sage: A[0:100,0:100] == A.submatrix(0,0,100,100)
++             True
++             sage: A == A.submatrix(0,0,200,200)
++             True
++
++             sage: A[1:3,1:3] == A.submatrix(1,1,2,2)
++             True
++             sage: A[1:100,1:100] == A.submatrix(1,1,99,99)
++             True
++             sage: A[1:200,1:200] == A.submatrix(1,1,199,199)
++             True
++        """
++        cdef int highr = lowr + nrows
++        cdef int highc = lowc + ncols
++
++        if nrows <= 0 or ncols <= 0:
++            raise TypeError("Expected nrows, ncols to be > 0, but got %d,%d instead."%(nrows, ncols))
++  
++        if highc > self._entries.ncols:
++            raise TypeError("Expected highc <= self.ncols(), but got %d > %d instead."%(highc, self._entries.ncols))
++
++        if highr > self._entries.nrows:
++            raise TypeError("Expected highr <= self.nrows(), but got %d > %d instead."%(highr, self._entries.nrows))
++
++        if lowr < 0:
++            raise TypeError("Expected lowr >= 0, but got %d instead."%lowr)
++
++        if lowc < 0:
++            raise TypeError("Expected lowc >= 0, but got %d instead."%lowc)
++
++        cdef Matrix_mod2e_dense A = self.new_matrix(nrows = nrows, ncols = ncols)
++        if self._ncols == 0 or self._nrows == 0:
++            return A
++        A._entries = mzed_submatrix(A._entries, self._entries, lowr, lowc, highr, highc)
++        return A
++
++    def rank(self):
++        """
++        Return the rank of this matrix.
++
++        EXAMPLE::
++
++            sage: K.<a> = GF(2^4)
++            sage: A = random_matrix(K, 1000, 1000)
++            sage: A.rank()
++            1000
++
++            sage: A = matrix(K, 10, 0)
++            sage: A.rank()
++            0
++        """
++        x = self.fetch('rank')
++        if not x is None: 
++            return x
++        if self._nrows == 0 or self._ncols == 0:
++            return 0
++        cdef mzed_t *A = mzed_copy(NULL, self._entries)
++
++        cdef size_t r = mzed_echelonize(A, 0)
++        mzed_free(A)
++        self.cache('rank', r)
++        return r
++
++    def __reduce__(self):
++        """
++        EXAMPLE::
++            sage: K.<a> = GF(2^8)
++            sage: A = random_matrix(K,70,70)
++            sage: f, s= A.__reduce__()
++            sage: from sage.matrix.matrix_mod2e_dense import unpickle_matrix_mod2e_dense_v0
++            sage: f == unpickle_matrix_mod2e_dense_v0
++            True
++            sage: f(*s) == A
++            True
++        """
++        from sage.matrix.matrix_space import MatrixSpace
++
++        cdef Matrix_mod2_dense A
++        MS = MatrixSpace(GF(2), self._entries.x.nrows, self._entries.x.ncols)
++        A = Matrix_mod2_dense.__new__(Matrix_mod2_dense, MS, 0, 0, 0, alloc = False)
++        A._entries = mzd_copy( NULL, self._entries.x)
++        return unpickle_matrix_mod2e_dense_v0, (A, self.base_ring(), self.nrows(), self.ncols())
++
++def unpickle_matrix_mod2e_dense_v0(Matrix_mod2_dense a, base_ring, nrows, ncols):
++    """
++    EXAMPLE::
++        sage: K.<a> = GF(2^2)
++        sage: A = random_matrix(K,10,10)
++        sage: f, s= A.__reduce__()
++        sage: from sage.matrix.matrix_mod2e_dense import unpickle_matrix_mod2e_dense_v0
++        sage: f == unpickle_matrix_mod2e_dense_v0
++        True
++        sage: f(*s) == A
++        True
++    """
++    from sage.matrix.matrix_space import MatrixSpace
++
++    MS = MatrixSpace(base_ring, nrows, ncols)
++    cdef Matrix_mod2e_dense A  = Matrix_mod2e_dense.__new__(Matrix_mod2e_dense, MS, 0, 0, 0)
++    mzd_copy(A._entries.x, a._entries)
++    return A
+diff -r 96e2020790df -r cc88353e2acb sage/matrix/matrix_space.py
+--- a/sage/matrix/matrix_space.py	Mon Jun 28 23:27:14 2010 +0100
++++ b/sage/matrix/matrix_space.py	Tue Jul 20 16:19:49 2010 +0100
+@@ -38,7 +38,7 @@
+ import matrix_modn_sparse
+ 
+ import matrix_mod2_dense
+-#import matrix_mod2_sparse
++import matrix_mod2e_dense
+ 
+ import matrix_integer_dense
+ import matrix_integer_sparse
+@@ -851,6 +851,8 @@
+                 if R.order() == 2:
+                     return matrix_mod2_dense.Matrix_mod2_dense
+                 return matrix_modn_dense.Matrix_modn_dense
++            elif sage.rings.finite_rings.all.is_FiniteField(R) and R.characteristic() == 2 and R.order() <= 1024:
++                return matrix_mod2e_dense.Matrix_mod2e_dense
+             elif sage.rings.polynomial.multi_polynomial_ring_generic.is_MPolynomialRing(R) and R.base_ring().is_field():
+                 return matrix_mpolynomial_dense.Matrix_mpolynomial_dense
+             #elif isinstance(R, sage.rings.padics.padic_ring_capped_relative.pAdicRingCappedRelative):
+diff -r 96e2020790df -r cc88353e2acb sage/rings/finite_rings/element_givaro.pxd
+--- a/sage/rings/finite_rings/element_givaro.pxd	Mon Jun 28 23:27:14 2010 +0100
++++ b/sage/rings/finite_rings/element_givaro.pxd	Tue Jul 20 16:19:49 2010 +0100
+@@ -78,6 +78,7 @@
+     cpdef int characteristic(self)
+     cpdef FiniteField_givaroElement gen(self)
+     cpdef FiniteField_givaroElement element_from_data(self, e)
++    cdef FiniteField_givaroElement _new_c(self, int value)
+ 
+ cdef class FiniteField_givaro_iterator:
+     cdef int iterator
+diff -r 96e2020790df -r cc88353e2acb sage/rings/finite_rings/element_givaro.pyx
+--- a/sage/rings/finite_rings/element_givaro.pyx	Mon Jun 28 23:27:14 2010 +0100
++++ b/sage/rings/finite_rings/element_givaro.pyx	Tue Jul 20 16:19:49 2010 +0100
+@@ -771,6 +771,9 @@
+             rep = 'int'
+         return unpickle_Cache_givaro, (self.parent, p, k, self.parent.polynomial(), rep, self._has_array)
+ 
++    cdef FiniteField_givaroElement _new_c(self, int value):
++        return make_FiniteField_givaroElement(self, value)
++
+ 
+ def unpickle_Cache_givaro(parent, p, k, modulus, rep, cache):
+     """
