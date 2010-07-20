@@ -18,7 +18,7 @@ See also [[http://www.singular.uni-kl.de/index.php/events/sage-days-235.html|the
 ||11:00-11:30||[[attachment:lect.sage-days-23.5.pdf|Wolfram D. -- Singular projects]]||
 ||11:40-12:10||[[attachment:singular_devel.pdf|Hans S. -- Singular development process]]||
 ||12:15-12:25||Further scheduling discussion||
-||12:05-12:30||Homalg talk||
+||12:05-12:30||[[attachment:homalgtalk.pdf |Mohamed Barakat & Markus Lange-Hegermann -- The Ideas behind the Homalg Project]]||
 ||2:30-2:50|| [[attachment:talk_parallelize_singular.pdf|Stefan Steidel -- How to Parallelize Singular-Code for Multiple Core Machines]] ||
 ||3:00-3:15|| Cython Profiling||
 
