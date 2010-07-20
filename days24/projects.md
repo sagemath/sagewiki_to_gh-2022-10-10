@@ -233,7 +233,7 @@ The CanonicalForm class in Sigular's factory implements such a representation. A
 
 Factory is very developer-unfriendly, thus a lot of technical hacks had to be applied, and a modified Singular package had to be used - this is not really in a state that makes it fit for being applied to SAGE's Singular spkg. (The kinds of problems that occur are very technical and partially specific to the GNU/Linux dynamic linker, I'll post details later).
 
-Timings of the proof-of-concept implementation for the multiplication of two dense random polynomials in four variables of total degree 25:
+Timings of the proof-of-concept implementation for the multiplication of two dense random polynomials in four variables of total degree 25 (each about 23.000 terms):
  * Maple: 678s (11m, 18s)
  * sage.rings.polynomials.MPolynomial_libsingular: 91s
  * sage.rings.polynomials.MPolynomial_factory: 22s
