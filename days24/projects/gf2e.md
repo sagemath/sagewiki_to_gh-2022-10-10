@@ -7,6 +7,10 @@ Here are some preliminary benchmarks for GF(2^8) from before Sage Days 24:
 || 2000 ||  429.05 ||  149.11 || 0.510 || 0.529 ||
 || 3000 || 1494.33 ||  526.57 || 1.640 || 2.315 ||
 
+Here is the current multiplication performance compared with Magma:
+
+[[attachment:multiplication_r13.png]]
+
 === People ===
 
  * Martin Albrecht
