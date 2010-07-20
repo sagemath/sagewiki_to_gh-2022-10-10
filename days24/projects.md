@@ -222,3 +222,20 @@ I backported the handling of setup.py --no-user-cfg from Python 2.7 to Python 2.
 The new spkg can be found here:  http://sage.math.washington.edu/home/dreyer/suse101/python-2.6.4.p10.spkg
 
 The last patch adds this variable to sage-env. 
+
+== Recursive polynomials for SAGE ==
+
+'''People:''' Thomas Bächler
+
+The Singular-based polynomial ring in SAGE uses a distributive polynomial representation, which is not optimal for multiplication. A goal is to implement a recursively represented polynomial ring into SAGE.
+
+The CanonicalForm class in Sigular's factory implements such a representation. A proof-of-concept implementation that supports addition, substraction, negation, multiplaction and exponentiation, as well as coerction from ZZ has been finished.
+
+Factory is very developer-unfriendly, thus a lot of technical hacks had to be applied, and a modified Singular package had to be used - this is not really in a state that makes it fit for being applied to SAGE's Singular spkg. (The kinds of problems that occur are very technical and partially specific to the GNU/Linux dynamic linker, I'll post details later).
+
+Timings of the proof-of-concept implementation for the multiplication of two dense random polynomials in four variables of total degree 25:
+ * Maple: 678s (11m, 18s)
+ * sage.rings.polynomials.MPolynomial_libsingular: 91s
+ * sage.rings.polynomials.MPolynomial_factory: 22s
+
+Preliminary conclusion: Investigating this further is definitely worthwhile. However, due to the various technical problems with Singular/factory, it would be good to find an actively-developped and fast library with a well-designed API.
