@@ -56,25 +56,13 @@ sage -i libm4rie-19780101.0.spkg
 
 == Todo ==
 
-=== Implement simple functions in m4rie ===
-
-Examples: stacking, augmenting, printing
-
-=== Write C test code ===
-
-=== Write C documentation ===
-
-=== Implement methods of Sage class ===
-
-=== Write documentation for Sage class ===
-
 === Improve performance of Travolta multiplication ===
 
 We should try the babsystep giantstep approach from the M4RI library. It will likely be much slower over bigger fields but might be beneficial on smaller fields.
 
 === Implement Strassen multiplication ===
 
-== Preliminary Bench***market***ing ==
+== History ==
 
 === r1 ===
 ==== 1000 x 1000 ====
