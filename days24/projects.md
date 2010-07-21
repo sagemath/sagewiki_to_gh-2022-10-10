@@ -102,9 +102,9 @@ Implement fast-ish linear algebra over GF(2^n) for n small.
 
 '''People:''' Robert Miller (self-determination!)
 
-For a somewhat recent snapshot of what I'm doing (as recent as the last time I updated it...), look:
+Now there is a trac ticket:
 
-[[http://sage.math.washington.edu/home/rlmill/graph_gens.patch|PATCH]]
+[[http://trac.sagemath.org/sage_trac/ticket/9559|trac ticket #9559]]
 
 == Fix sage.functions ==
 
