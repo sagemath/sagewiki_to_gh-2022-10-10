@@ -62,7 +62,8 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 || 11.30-12.00 || '''Burcin Erocal: [[days24/abstracts#Erocal|Difference fields & summation in Sage]]''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
 || 14.00-14.30 || '''Manuel Kauers: [[days24/abstracts#Kauers|Is it really a power series?]]''' ||
-|| 14.30-15.00 || '''Veronika Pillwein: [[days24/abstracts#Pillwein|CAD and Special Functions Inequalities]]''' ||
+||<|2> 14.30-15.00 || '''Veronika Pillwein: [[days24/abstracts#Pillwein|CAD and Special Functions Inequalities]]''' ||
+|| [[attachment:Pillwein-SD24.pdf|slides]] [[attachment:Pillwein-experimentalCAD.sws|worksheet]] ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:00-15:30  ||'''Coffee'''||
 || 15.30-16.30 || Sage Patch Reviewing Session ||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, July 22, 2010||
