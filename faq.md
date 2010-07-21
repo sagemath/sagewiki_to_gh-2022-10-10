@@ -160,6 +160,11 @@ You need the prerequisite tools listed in the README.txt file in the root direct
 
 You can browse the complete source code to everything in Sage at http://hg.sagemath.org/.  This is a web interface to the Mercurial repository.  The main source files are at http://hg.sagemath.org/sage-main?cmd=manifest;manifest=-1;path=/sage/.  The other directories include docs directories, the package system, etc.
 
+=== How can I rebuild the Sage library in parallel? ===
+
+When you run {{{sage -b}}}, the Sage library gets rebuilt. If you've changed a large number of files (for example, by using Mercurial to jump over many revisions), rebuilding the library will take a long time. If you are using a multicore machine, you can speed this up very easily: set the {{{MAKE}}} environment variable. If you run, say, {{{env MAKE='make -j5' ./sage -b}}} then the Sage library will get rebuilt using five threads. The other library-rebuilding commands also work: {{{-br}}}, {{{-ba}}}, and {{{-ba-force}}} all respect {{{MAKE}}}. In the bash shell, you can also simply do {{{export MAKE='make -j5'}}} and thereafter any rebuilds you do will automatically use five threads.
+
+Note that there is an apparent bug in GNU make, so that you cannot leave a space between the {{{-j}}} and the number of threads (jobs, as Make calls them). So {{{make -j 5}}} and so on will ''not'' work.
 
 == Working in Sage ==
 
