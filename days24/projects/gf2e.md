@@ -63,11 +63,7 @@ sage -i libm4rie-19780101.0.spkg
 
 == Todo ==
 
-=== Improve performance of Travolta multiplication ===
-
-We should try the babsystep giantstep approach from the M4RI library. It will likely be much slower over bigger fields but might be beneficial on smaller fields.
-
-=== Implement Strassen multiplication ===
+see http://bitbucket.org/malb/m4rie/issues?status=new&status=open
 
 == History ==
 
