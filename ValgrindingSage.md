@@ -1,5 +1,5 @@
 = Quick and Dirty Intro =
-To use Valgrind (last verified in Sage 4.1):
+To use Valgrind (last verified in Sage 4.1), you should untar a fresh copy of Sage, set an environment variable, and build:
 {{{
 $ tar xf sage-4.1.tar
 ...
