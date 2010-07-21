@@ -71,6 +71,12 @@ Integrate Stefan Boettner's parallel integration code in Sage. There are several
  * differential rings/fields
  * proper to_polynomial(), to_rational() functions for symbolic expressions
 
+== Number Fields ==
+
+ '''People:''' '''William Stein''', Sebastian Pancratz
+
+Rewrite/refactor number fields so they can use FLINT and Singular, etc. for arithmetic, which will lead to cleaner code and massive, massive speedups.   See [[http://trac.sagemath.org/sage_trac/ticket/9541|trac 9541]].
+
 == Function Fields ==
 
 The goal of this project is to get the basic infrastructure for function fields into Sage.   See [[daysff/curves|Hess's papers and talks]].
