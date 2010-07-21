@@ -253,3 +253,10 @@ Multiplying ((x+y+z+1)^50)*((x+y+z+1)^50+1):
 By the way, exponentiation is _very_ slow in MPolynomial_factory, much slower than in MPolynomial_libsingular. Factory's CanonicalForm uses square-and-multiply, while Singular uses binomial coefficients to generate (head+tail)^n. I doubt this can be easily improved in factory.
 
 Preliminary conclusion: Investigating this further is definitely worthwhile. However, due to the various technical problems with Singular/factory, it would be good to find an actively-developped and fast library with a well-designed API - maybe it is best to wait until FLINT2 has viable multivariate multiplication code (which is on the roadmap for the release).
+
+
+== Lecture Scheduler ==
+
+'''People:''' Harald Schilly
+
+One of my pet projects is a MILP model to schedule lectures at a university. Since we ship a MILP solver, we should  enable Sage to be able to do this, too. See [[http://sagenb.org/home/pub/2275/|here]] for an example session or get the [[http://boxen.math.washington.edu/home/schilly/sage/lecturescheduler.patch|current patch]].
