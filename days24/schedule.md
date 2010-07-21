@@ -69,7 +69,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, July 22, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
 ||<|2> 10:30-11:00  ||''' Simon King: [[days24/abstracts#King|Completeness criteria for modular group cohomology]] '''||
-|| ||
+||[[attachment:GroupCohomology.pdf|Slides]] ||
 || 11.00-11.30 || '''? : ?''' ||
 || 11.30-12.00 || '''? : ?''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
