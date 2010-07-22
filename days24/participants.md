@@ -1,4 +1,4 @@
-== (Tentative) List of Participants of Sage Days 24 ==
+== List of Participants of Sage Days 24 ==
 
 Feel free to add your name to the list if you plan to come. You can add a question mark after your name to indicate that your plans are not final.
 
@@ -18,7 +18,6 @@ Feel free to add your name to the list if you plan to come. You can add a questi
  * Fredrik Johansson
  * Manuel Kauers (RISC)
  * Simon King (NUI Galway)
- * Karen Kohl (Tulane)
  * Anja Korporal (RISC)
  * Richard Kreckel
  * Johanness Middeke (RISC)
@@ -34,7 +33,6 @@ Feel free to add your name to the list if you plan to come. You can add a questi
  * Hamid Rahkooy (JKU)
  * Georg Regensburger (RICAM)
  * Harald Schilly
- * David Sevilla (RICAM)
  * Flavia Stan (RISC)
  * Wiliam Stein (UW)
  * Nico Temme (CWI)
