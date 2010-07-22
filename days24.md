@@ -26,6 +26,7 @@ The [[days24/schedule|schedule is here]].
   * Day 3: http://picasaweb.google.com/wstein/20100719Sagedays24Day3
   * Day 4: http://picasaweb.google.com/wstein/20100720Sagedays24Day4
   * Day 5: http://picasaweb.google.com/wstein/20100721Sagedays24Day5
+  * More random pictures (not sorted by days): http://wwwb.math.rwth-aachen.de/~thomas/sage_days_24/
 
 === Invited Speakers ===
 
