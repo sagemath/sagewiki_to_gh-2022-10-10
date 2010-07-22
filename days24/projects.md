@@ -20,7 +20,7 @@ We have code to determine the coefficients of the $m$-th symmetric power of an o
 
 == Hypergeometric Functions ==
 
-'''People:''' Flavia Stan, Karen Kohl, '''Fredrik Johansson''', Zaf
+'''People:''' Flavia Stan, '''Fredrik Johansson''', Zaf
 
 Add a hypergeometric function class + simplifications
 
@@ -66,7 +66,7 @@ Add support for Singular's noncommutative component Plural, finish [[http://trac
 
 == Parallel Integration ==
 
-'''People:''' '''Stefan Boethner''', Ralf, Burkhard, Burcin Erocal
+'''People:''' '''Stefan Boettner''', Ralf, Burkhard, Burcin Erocal
 
 Integrate Stefan Boettner's parallel integration code in Sage. There are several prerequisites for this, such as
  * algebraic function fields (transcendence degree > 1)
@@ -112,9 +112,30 @@ Now there is a trac ticket:
 
 '''People:''' '''Frederik''', William Stein, Harald
 
+Move the remaining special functions in {{{sage.functions}}} to the new symbolics framework based on Pynac. This will make them work with symbolic input and be included in symbolic expressions.
+
+This task provides several small tasks to get acquainted with the symbolics framework. Some examples:
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
+ * [[http://trac.sagemath.org/sage_trac/ticket/3401|#3401]] extend li to work with complex arguments
+ * [[http://trac.sagemath.org/sage_trac/ticket/7357|#7357]] add non offset logarithmi
+ * [[http://trac.sagemath.org/sage_trac/ticket/8383|#8383]] make symbolic versions of moebius, sigma and euler_phi
+ * erf:
+   * [[http://trac.sagemath.org/sage_trac/ticket/8983]] erf(0) should return 0
+   * [[http://trac.sagemath.org/sage_trac/ticket/1173]] implement numerical evaluation of erf at complex arguments
+   * [[http://trac.sagemath.org/sage_trac/ticket/8568]] cannot simplify derivative of erf
+ * bessel:
+   * [[http://trac.sagemath.org/sage_trac/ticket/3426]] bessel_K function is broken
+   * [[http://trac.sagemath.org/sage_trac/ticket/4320]] implement arbitrary precision Bessel Y
+ * [[http://trac.sagemath.org/sage_trac/ticket/4498]] symbolic arg function
+
 == Easy ripping apart of symbolic expression trees ==
 
 '''People:''' '''Burcin''', Thomas, Stefan, Frederik
+
+We plan to use {{{__getitem__}}} to access operands of symbolic expressions, and {{{.index[i:dim]}}} for indexed expressions. Tuple arguments to {{{__getitem__}}} will be equivalent to recursive calls, i.e., {{{t[1,1,2] = t[1][1][2]}}}.
+
+There is a preliminary implementation of {{{__getitem__}}} (which is commented out) already in {{{sage.symbolic.expression.Expression}}}. Uncommenting this leads to a few doctest errors, since symbolic expressions are now interpreted as iterable objects.
 
 == (done) Matrix group actions on polynomials ==
 
