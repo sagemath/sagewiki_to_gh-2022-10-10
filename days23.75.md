@@ -8,14 +8,12 @@
  1. Mannheim Hbhf - Frankfurt Hbhf
  1. Frankfurt Hbhf - Linz Hbhf
 
-=== Projects ===
-
 === Participants ===
 
  * Martin Albrecht
  * Alexander Dreyer
  * Burcin Eröcal
  * Simon King -- I wrote most of [[attachment:GroupCohomology.pdf|this talk]] on the train.
- * Robert Miller
+ * Robert Miller -- I wrote some of this mother***in [[http://trac.sagemath.org/sage_trac/ticket/9559|code]] on that mother***in train
  * Oleksandr Motsak
  * William Stein -- I wrote [[http://wstein.org/talks/stein-sd24/stein-sd24.pdf|this talk]] entirely on the train, and some of [[http://sagenb.org/home/pub/2256/|this talk]].
