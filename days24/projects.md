@@ -12,9 +12,11 @@ See [[http://groups.google.com/group/sage-devel/browse_thread/thread/81de8a7cdd6
 
 == Kovacic's Algorithm ==
 
-'''People:''' '''Burcin''', Erocal, Felix
+'''People:''' '''Burcin''', Felix, Frédéric
 
 Implement Kovacic's algorithm in Sage.
+
+We have code to determine the coefficients of the $m$-th symmetric power of an operator $L$ and a clear description of how to find rational solutions of a differential equation with rational coefficients using only polynomial operations. Burcin will implement this method ''soon''.
 
 == Hypergeometric Functions ==
 
