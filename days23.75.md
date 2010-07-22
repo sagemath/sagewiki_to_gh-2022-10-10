@@ -15,7 +15,7 @@
  * Martin Albrecht
  * Alexander Dreyer
  * Burcin Eröcal
- * Simon King -- I wrote most of [[[[attachment:GroupCohomology.pdf|this talk]] on the train.
+ * Simon King -- I wrote most of [[attachment:GroupCohomology.pdf|this talk]] on the train.
  * Robert Miller
  * Oleksandr Motsak
  * William Stein -- I wrote [[http://wstein.org/talks/stein-sd24/stein-sd24.pdf|this talk]] entirely on the train, and some of [[http://sagenb.org/home/pub/2256/|this talk]].
