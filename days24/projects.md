@@ -58,11 +58,17 @@ ex_func
 3
 }}}
 
-== Plural support ==
+==  (done/needs review) Plural support ==
 
-'''People:''' '''Oleksandr Motsak''', Burcin Erocal, Alexander Dreyer, Simon King, Burkhard
+'''People:''' '''Oleksandr Motsak, Alexander Dreyer''', Burcin Erocal, Simon King, Burkhard
 
-Add support for Singular's noncommutative component Plural, finish [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]].
+Goal: add support for noncommutative Singular algebras: [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]].
+
+Our [[http://trac.sagemath.org/sage_trac/attachment/ticket/4539/plural-wrapper-2010-07-22.patch|final folded patch]] needs review.
+
+'''Please review!'''
+
+Note that it assumes the latest Singular (due to [[http://trac.sagemath.org/sage_trac/ticket/8059|#8059]]).
 
 == Parallel Integration ==
 
