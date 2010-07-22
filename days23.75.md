@@ -18,4 +18,4 @@
  * Simon King
  * Robert Miller
  * Oleksandr Motsak
- * William Stein
+ * William Stein -- I wrote [[http://wstein.org/talks/stein-sd24/stein-sd24.pdf|this talk]] entirely on the train, and some of [[http://sagenb.org/home/pub/2256/|this talk]].
