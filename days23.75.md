@@ -10,7 +10,7 @@
 
 === Participants ===
 
- * Martin Albrecht
+ * Martin Albrecht - I wrote the first version of the mother***in [[http://bitbucket.org/malb/m4rie-old|M4RIE]] on the mother***in train.
  * Alexander Dreyer
  * Burcin Eröcal
  * Simon King -- I wrote most of [[attachment:GroupCohomology.pdf|this talk]] on the train.
