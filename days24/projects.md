@@ -288,4 +288,7 @@ Preliminary conclusion: Investigating this further is definitely worthwhile. How
 
 '''People:''' Harald Schilly
 
-One of my pet projects is a MILP model to schedule lectures at a university. Since we ship a MILP solver, we should  enable Sage to be able to do this, too. See [[http://sagenb.org/home/pub/2275/|here]] for an example session or get the [[http://boxen.math.washington.edu/home/schilly/sage/lecturescheduler.patch|current patch]].
+One of my pet projects is a MILP model to schedule lectures at a university. Since we ship a MILP solver, we should  enable Sage to be able to do this, too. See [[http://sagenb.org/home/pub/2275/|here]] for an example session. An additional idea is to build something similar for scheduling talks at conferences.
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/9586|Lecture Scheduler ticket]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/9587|Conference Scheduler ticket]]
