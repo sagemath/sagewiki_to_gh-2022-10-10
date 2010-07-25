@@ -4,7 +4,7 @@
 
     * Introduction to Sage, History, goals, developers - William Stein (1hr)
     * Using the Sage notebook effectively(Basic Algebra, Basic Calculus, Basic Plotting) - Prabhu Ramachandran (1hr)
-    * Advanced Sage notebook tutorial (arbitrary precision numerics, Dialogs, Widgets, Advanced Algebra, Advanced Plotting, Advanced Notebooks Calculus, interaction) - William Stein (1hr)
+    * Advanced Sage notebook tutorial (arbitrary precision numerics, Dialogs, Widgets, Advanced Algebra, Advanced Plotting, Calculus, interaction) - William Stein (1hr)
     * Contributing to Sage Mercurial - Madhusudan,FOSSEE (15mins)
     * Contributing to Sage ReST - Puneeth, FOSSEE (15mins)
     * Contributing to Sage - Advanced/Sage specific (Patches, etc.) - William Stein (30mins)
