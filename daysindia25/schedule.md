@@ -1,5 +1,39 @@
 = Sage Days 25 Schedule =
 
+== Day 1 ==
+
+    * Introduction to Sage, History, goals, developers - William Stein (1hr)
+    * Using the Sage notebook effectively(Basic Algebra, Basic Calculus, Basic Plotting) - Prabhu Ramachandran (1hr)
+    * Tutorial on arbitrary precision numerics, (Dialogs, Widgets, Advanced Algebra, Advanced Plotting, Advanced Notebooks Calculus, interaction) - William Stein (1hr)
+    * Contributing to Sage Mercurial - Madhusudan,FOSSEE (15mins)
+    * Contributing to Sage ReST - Puneeth, FOSSEE (15mins)
+    * Contributing to Sage - Advanced/Sage specific (Patches, etc.) - William Stein (30mins)
+
+== Day 2 ==
+
+    * Numerics - William Stein (1hr)
+    * SAGE(PARI) for Number Theory - Vanchinathan (1hr)
+    * SAGE(GAP) for Groups & Representation - Vanchinathan (1hr)
+    * Exploratory research with Sage on Graphs and Matrices - S Sivaramakrishnan (30mins)
+    * Elaboration on Graphs and Matrices - William Stein (30mins)
+
+== Day 3 ==
+
+    * Combinatorics and Graph Theory - William Stein (1hr)
+    * ????(topic yet to be decided) - S Sivaramakrishnan (30mins)
+    * ????(more about the above topic) - William Stein (30mins)
+    * Number Theory & it's Application in cryptography - Vanchinathan (1hr)
+    * Cryptography in Sage - Sourav Sen Gupta (1hr)
+
+== Day 4 ==
+
+    * Running Sage notebook server - William Stein (1hr)
+    * Cython - Prabhu Ramachandran (1hr)
+    * ???(About how he used Sage for his work) - Venkateshwara Pai (15mins)
+    * Sage as a replacement for Commercial Tools - Prabhu Ramachandran (30mins)
+
+
+= Previous Schedule =
 
 == Day 1 - Monday 9th August, 2010: Introduction and Overview ==
   * 09:30 - 10:00  Refreshments
