@@ -29,7 +29,7 @@
 
     * Running Sage notebook server - William Stein (1hr)
     * Cython - Prabhu Ramachandran (1hr)
-    * ???(About how he used Sage for his work) - Venkateshwara Pai (15mins)
+    * Arbitrary precision & plotting used in Indian Astronomy - Venketeswara Pai R.(15mins)
     * Sage as a replacement for Commercial Tools - Prabhu Ramachandran (30mins)
 
 ------------------------------------------------------------------------------------------------------
