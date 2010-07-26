@@ -24,6 +24,8 @@ We have code to determine the coefficients of the $m$-th symmetric power of an o
 
 Add a hypergeometric function class + simplifications
 
+A patch (needs further work) is available here: [[http://trac.sagemath.org/sage_trac/ticket/2516]]
+
 == Dynamic attributes for classes derived from Function ==
 
 '''People:''' Simon, Burcin
