@@ -8,7 +8,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 == Current Homework ==
 
-  * For Monday, July 26th
+  * For Wednesday, July 28th
     * Have one trial worksheet ready
     * Share it with a specified organizer on the server (you will be contacted)
 
@@ -30,7 +30,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 || Wed, 14 Jul || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
 || Wed, 21 Jul || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
 || Thur, 22 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
-
+|| Wed, 28 Jul || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
 || Thur, 29 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
 
 || Tue, 3 Aug || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
