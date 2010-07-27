@@ -49,7 +49,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
 === Session I -  ===
 
- * Sage History (William Stein)
+ * Sage History 
+ * Followup to Server Discussion
  * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
 
 === Session II -  ===
