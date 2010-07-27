@@ -11,7 +11,7 @@
 === Participants ===
 
  * Martin Albrecht - I wrote the first version of the mother***in [[http://bitbucket.org/malb/m4rie-old|M4RIE]] on the mother***in train.
- * Alexander Dreyer
+ * Alexander Dreyer - I tried to teach [[http://polybori.sf.net|PolyBoRi]] the reachability problem for digital systems win unknown inputs.
  * Burcin Eröcal
  * Simon King -- I wrote most of [[attachment:GroupCohomology.pdf|this talk]] on the train.
  * Robert Miller -- I wrote some of this mother***in [[http://trac.sagemath.org/sage_trac/ticket/9559|code]] on that mother***in train
