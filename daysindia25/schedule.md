@@ -10,19 +10,19 @@
     * Contributing to Sage - Advanced/Sage specific (Patches, etc.) - William Stein (30mins)
 
 == Day 2 ==
-
-    * Combinatorics and Graph Theory - William Stein (1hr)
+    
     * Talk - Kiran Kedlaya (1hr) 
     * Number Theory & it's Application in cryptography - Vanchinathan (1hr)
     * Cryptography in Sage - Sourav Sen Gupta (1hr)
+    * Exploratory research with Sage on Graphs and Matrices - S Sivaramakrishnan (30mins)
+    * Elaboration on Graphs and Matrices - William Stein (30mins)
 
 == Day 3 ==
 
     * Numerics - William Stein (1hr)
     * SAGE(PARI) for Number Theory - Vanchinathan (1hr)
     * SAGE(GAP) for Groups & Representation - Vanchinathan (1hr)
-    * Exploratory research with Sage on Graphs and Matrices - S Sivaramakrishnan (30mins)
-    * Elaboration on Graphs and Matrices - William Stein (30mins)
+    * Combinatorics and Graph Theory - William Stein (1hr)
 
 == Day 4 ==
 
