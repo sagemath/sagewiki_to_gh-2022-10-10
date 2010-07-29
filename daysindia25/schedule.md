@@ -11,7 +11,7 @@
 
 == Day 2 ==
     
-    * Talk - Kiran Kedlaya (1hr) 
+    * Encounters with Sage: Examples from my Research - Kiran Kedlaya (1hr) 
     * Number Theory & it's Application in cryptography - Vanchinathan (1hr)
     * Cryptography in Sage - Sourav Sen Gupta (1hr)
     * Exploratory research with Sage on Graphs and Matrices - S Sivaramakrishnan (30mins)
