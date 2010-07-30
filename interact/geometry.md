@@ -79,3 +79,103 @@ def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)),
 
     show(grafica,aspect_ratio=1,xmin=-2,xmax=2,ymin=-2,ymax=2)}}}
 {{attachment:evoluta3.png}}
+
+
+== Geodesics on a parametric surface ==
+by Antonio Valdés and Pablo Angulo. A first interact allows the user to introduce a parametric surface, and draws it. Then a second interact draws a geodesic within the surface. The separation is so that after the first interact, the geodesic equations are "compiled", and then the second interact is faster.
+{{{
+u, v, t = var('u v t')
+@interact
+def _(x = input_box(3*sin(u)*cos(v), 'x'),
+      y = input_box(sin(u)*sin(v), 'y'),
+      z = input_box(2*cos(u), 'z'),
+      _int_u = input_grid(1, 2, default = [[0,pi]], label = 'u -interval'), 
+      _int_v = input_grid(1, 2, default = [[-pi,pi]], label = 'v -interval')):
+    
+    global F, Fu, Fv, func, S_plot, int_u, int_v
+    int_u = _int_u[0]
+    int_v = _int_v[0] 
+   
+    def F(uu, vv): 
+        X = vector([x, y, z]) 
+        return X.subs({u : uu, v : vv})
+
+    S_plot = parametric_plot3d( F(u, v), 
+                                (u, int_u[0], int_u[1]), 
+                                (v, int_v[0], int_v[1]))
+    show(S_plot, aspect_ratio = [1, 1, 1])
+    
+    dFu = F(u, v).diff(u)
+    dFv = F(u, v).diff(v)
+    
+    Fu = fast_float(dFu, u, v)
+    Fv = fast_float(dFv, u, v)
+    
+    ufunc = function('ufunc', t)
+    vfunc = function('vfunc', t)
+    
+    dFtt = F(ufunc, vfunc).diff(t, t)
+    
+    ec1 = dFtt.dot_product(dFu(u=ufunc, v=vfunc))
+    ec2 = dFtt.dot_product(dFv(u=ufunc, v=vfunc))
+    
+    dv, ddv, du, ddu = var('dv, ddv, du, ddu')
+    
+    diffec1 = ec1.subs_expr(diff(ufunc, t) == du, 
+                            diff(ufunc, t, t) == ddu,     
+                            diff(vfunc, t) == dv, 
+                            diff(vfunc, t, t) == ddv, 
+                            ufunc == u, vfunc == v)
+    diffec2 = ec2.subs_expr(diff(ufunc, t) == du, 
+                            diff(ufunc, t, t) == ddu,     
+                            diff(vfunc, t) == dv, 
+                            diff(vfunc, t, t) == ddv, 
+                            ufunc == u, vfunc == v)
+    sols = solve([diffec1 == 0 , diffec2 == 0], ddu, ddv)
+    
+    ddu_rhs = (sols[0][0]).rhs().full_simplify()
+    ddv_rhs = (sols[0][1]).rhs().full_simplify()
+    
+    ddu_ff = fast_float(ddu_rhs, du, dv, u, v)
+    ddv_ff = fast_float(ddv_rhs, du, dv, u, v)
+    
+    def func(y,t):
+        v = list(y)
+        return [ddu_ff(*v), ddv_ff(*v), v[0], v[1]]
+}}}
+{{attachment:geodesics1.png}}
+{{{
+from scipy.integrate import odeint
+
+@interact
+def _(u_0 = slider(int_u[0], int_u[1], default = (int_u[0] + int_u[1])/2, label = 'u_0'),
+      v_0 = slider(int_v[0], int_v[1], default = (int_v[0] + int_v[1])/2, label = 'v_0'),
+      V_u = slider(-10, 10, default = 1, label = 'V_u'),
+      V_v = slider(-10, 10, default = 0, label = 'V_v'), 
+      int_s = range_slider(-10, 10, 0.1, 
+                           default = (0, (int_u[1] - int_u[0])/2), 
+                           label = 'geodesic interval') ):
+        
+        du, dv, u, v = var('du dv u v')
+        Point = [u_0, v_0]
+        velocity = [V_u, V_v]
+        Point = map(float, Point)
+        velocity = map(float, velocity)
+        
+        geo2D_aux = odeint(func,
+                       y0 = [velocity[0], velocity[1], Point[0], Point[1]],
+                       t = srange(int_s[0], int_s[1], 0.01))
+        
+        geo3D = [F(l,r) for [j, k, l, r] in geo2D_aux]
+        
+        g_plot = line3d(geo3D, rgbcolor = (1, 0, 0), thickness = 4)
+        
+        P = F(Point[0], Point[1])
+        P_plot = point3d((P[0], P[1], P[2]), rgbcolor = (0, 0, 0))
+        V = velocity[0] * Fu(u = Point[0], v = Point[1]) + \
+            velocity[1] * Fv(u= Point[0], v = Point[1])
+        V_plot = arrow3d(P, P + V)
+        
+        show(g_plot + S_plot + V_plot + P_plot,aspect_ratio = [1, 1, 1])
+}}}
+{{attachment:geodesics2.png}}
