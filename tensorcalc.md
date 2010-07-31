@@ -17,6 +17,7 @@ As tensor calculus is a vast subject, at some stage we will want to have a roadm
  * Maxima seems to have a [[http://www.math.utexas.edu/pipermail/maxima/2006/003179.html|differential forms package]].
  * FriCAS has support for a [[http://axiom-wiki.newsynthesis.org/uploads/chapter-9.13-26.xhtml#sec-9.14|De Rham complex]], which (among others) apparently allows you to represent differential forms.
  * [[http://groups.csail.mit.edu/mac/users/gjs/6946/|Scmutils]] has lots of code to deal with forms, Riemannian geometry, etc. plus lots of cool applications.
+ * Mathematica also has two more packages for doing differential forms: [[http://library.wolfram.com/infocenter/MathSource/683]] and [[http://library.wolfram.com/infocenter/MathSource/482/]] (the last one has a nice Integral command, for example).
 
 
 === Related code ===
