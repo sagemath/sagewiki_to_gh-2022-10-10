@@ -21,7 +21,7 @@
    * Kiran Kedlaya (MIT)
    * Jarrod Millman (UC Berkeley)
    * Prabhu Ramachandran (IITB)
-   * William Stein (University of Washington)
+   * William Stein (University of Washington) -- won't be attending
    * Sourav Sen Gupta (ISI Kolkata)
    
 == Mailing lists ==
