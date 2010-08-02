@@ -95,18 +95,16 @@ def _(x = input_box(3*sin(u)*cos(v), 'x'),
     global F, Fu, Fv, func, S_plot, int_u, int_v
     int_u = _int_u[0]
     int_v = _int_v[0] 
-   
-    def F(uu, vv): 
-        X = vector([x, y, z]) 
-        return X.subs({u : uu, v : vv})
+    
+    F = vector([x, y, z])
 
-    S_plot = parametric_plot3d( F(u, v), 
+    S_plot = parametric_plot3d( F, 
                                 (u, int_u[0], int_u[1]), 
                                 (v, int_v[0], int_v[1]))
-    show(S_plot, aspect_ratio = [1, 1, 1])
+    S_plot.show(aspect_ratio = [1, 1, 1])
     
-    dFu = F(u, v).diff(u)
-    dFv = F(u, v).diff(v)
+    dFu = F.diff(u)
+    dFv = F.diff(v)
     
     Fu = fast_float(dFu, u, v)
     Fv = fast_float(dFv, u, v)
@@ -114,7 +112,7 @@ def _(x = input_box(3*sin(u)*cos(v), 'x'),
     ufunc = function('ufunc', t)
     vfunc = function('vfunc', t)
     
-    dFtt = F(ufunc, vfunc).diff(t, t)
+    dFtt = F(u=ufunc, v=vfunc).diff(t, t)
     
     ec1 = dFtt.dot_product(dFu(u=ufunc, v=vfunc))
     ec2 = dFtt.dot_product(dFv(u=ufunc, v=vfunc))
@@ -135,13 +133,14 @@ def _(x = input_box(3*sin(u)*cos(v), 'x'),
     
     ddu_rhs = (sols[0][0]).rhs().full_simplify()
     ddv_rhs = (sols[0][1]).rhs().full_simplify()
-    
+        
     ddu_ff = fast_float(ddu_rhs, du, dv, u, v)
     ddv_ff = fast_float(ddv_rhs, du, dv, u, v)
     
     def func(y,t):
         v = list(y)
         return [ddu_ff(*v), ddv_ff(*v), v[0], v[1]]
+                
 }}}
 {{attachment:geodesics1.png}}
 {{{
@@ -178,19 +177,16 @@ def _(u_0 = slider(int_u[0], int_u[1], (int_u[1] - int_u[0])/100,
         
         geo2D_aux = odeint(func,
                            y0 = [velocity[0], velocity[1], Point[0], Point[1]],
-                           t = srange(0, int_s, 0.01) )
+                           t = srange(0, int_s, 0.01))
     
-        geo3D = [F(l,r) for [j, k, l, r] in geo2D_aux]
+        geo3D = [F(u=l,v=r) for [j, k, l, r] in geo2D_aux]
         
         if sliding_color:
-            g_plot = fading_line3d(geo3D, 
-                                   rgbcolor1 = (1, 0, 0), 
-                                   rgbcolor2 = (0, 1, 0),
-                                   thickness=4)
+            g_plot = fading_line3d(geo3D, rgbcolor1 = (1, 0, 0), rgbcolor2 = (0, 1, 0), thickness=4)
         else:
             g_plot = line3d(geo3D, rgbcolor=(0, 1, 0), thickness=4)
         
-        P = F(Point[0], Point[1])
+        P = F(u=Point[0], v=Point[1])
         P_plot = point3d((P[0], P[1], P[2]), rgbcolor = (0, 0, 0), pointsize = 30)
         V = velocity[0] * Fu(u = Point[0], v = Point[1]) + \
             velocity[1] * Fv(u= Point[0], v = Point[1])
