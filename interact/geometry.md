@@ -147,14 +147,28 @@ def _(x = input_box(3*sin(u)*cos(v), 'x'),
 {{{
 from scipy.integrate import odeint
 
+def fading_line3d(points, rgbcolor1, rgbcolor2, *args, **kwds):
+    L = len(points)
+    vcolor1 = vector(RDF, rgbcolor1)
+    vcolor2 = vector(RDF, rgbcolor2)
+    return sum(line3d(points[j:j+2], 
+                      rgbcolor = tuple( ((L-j)/L)*vcolor1 + (j/L)*vcolor2 ), 
+                      *args, **kwds) 
+               for j in srange(L-1))
+
+steps = 100
+
 @interact
-def _(u_0 = slider(int_u[0], int_u[1], default = (int_u[0] + int_u[1])/2, label = 'u_0'),
-      v_0 = slider(int_v[0], int_v[1], default = (int_v[0] + int_v[1])/2, label = 'v_0'),
-      V_u = slider(-10, 10, default = 1, label = 'V_u'),
-      V_v = slider(-10, 10, default = 0, label = 'V_v'), 
-      int_s = range_slider(-10, 10, 0.1, 
-                           default = (0, (int_u[1] - int_u[0])/2), 
-                           label = 'geodesic interval') ):
+def _(u_0 = slider(int_u[0], int_u[1], (int_u[1] - int_u[0])/100, 
+                   default = (int_u[0] + int_u[1])/2, label = 'u_0'),
+      v_0 = slider(int_v[0], int_v[1], (int_v[1] - int_v[0])/100, 
+                   default = (int_v[0] + int_v[1])/2, label = 'v_0'),
+      V_u = slider(-10, 10, 1/10, default = 1, label = 'V_u'),
+      V_v = slider(-10, 10, 1/10, default = 0, label = 'V_v'), 
+      int_s = slider(0, 10, 1/10, 
+                           default = (int_u[1] - int_u[0])/2, 
+                           label = 'geodesic interval'),
+      sliding_color = checkbox(True,'change color along the geodesic')):
         
         du, dv, u, v = var('du dv u v')
         Point = [u_0, v_0]
@@ -163,18 +177,24 @@ def _(u_0 = slider(int_u[0], int_u[1], default = (int_u[0] + int_u[1])/2, label 
         velocity = map(float, velocity)
         
         geo2D_aux = odeint(func,
-                       y0 = [velocity[0], velocity[1], Point[0], Point[1]],
-                       t = srange(int_s[0], int_s[1], 0.01))
-        
+                           y0 = [velocity[0], velocity[1], Point[0], Point[1]],
+                           t = srange(0, int_s, 0.01) )
+    
         geo3D = [F(l,r) for [j, k, l, r] in geo2D_aux]
         
-        g_plot = line3d(geo3D, rgbcolor = (1, 0, 0), thickness = 4)
+        if sliding_color:
+            g_plot = fading_line3d(geo3D, 
+                                   rgbcolor1 = (1, 0, 0), 
+                                   rgbcolor2 = (0, 1, 0),
+                                   thickness=4)
+        else:
+            g_plot = line3d(geo3D, rgbcolor=(0, 1, 0), thickness=4)
         
         P = F(Point[0], Point[1])
-        P_plot = point3d((P[0], P[1], P[2]), rgbcolor = (0, 0, 0))
+        P_plot = point3d((P[0], P[1], P[2]), rgbcolor = (0, 0, 0), pointsize = 30)
         V = velocity[0] * Fu(u = Point[0], v = Point[1]) + \
             velocity[1] * Fv(u= Point[0], v = Point[1])
-        V_plot = arrow3d(P, P + V)
+        V_plot = arrow3d(P, P + V, color = 'black')
         
         show(g_plot + S_plot + V_plot + P_plot,aspect_ratio = [1, 1, 1])
 }}}
