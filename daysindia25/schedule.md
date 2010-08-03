@@ -1,77 +1,47 @@
 = Sage Days 25 Schedule =
 
-== Day 1 ==
-
-    * Introduction to Sage, History, goals, developers - William Stein (1hr)
-    * Using the Sage notebook effectively(Basic Algebra, Basic Calculus, Basic Plotting) - Prabhu Ramachandran (1hr)
-    * Advanced Sage notebook tutorial (arbitrary precision numerics, Dialogs, Widgets, Advanced Algebra, Advanced Plotting, Calculus, interaction) - William Stein (1hr)
-    * Contributing to Sage Mercurial - Madhusudan,FOSSEE (15mins)
-    * Contributing to Sage ReST - Puneeth, FOSSEE (15mins)
-    * Contributing to Sage - Advanced/Sage specific (Patches, etc.) - William Stein (30mins)
-
-== Day 2 ==
-    
-    * Encounters with Sage: Examples from my Research - Kiran Kedlaya (1hr) 
-    * Number Theory & it's Application in cryptography - Vanchinathan (1hr)
-    * Cryptography in Sage - Sourav Sen Gupta (1hr)
-    * Exploratory research with Sage on Graphs and Matrices - S Sivaramakrishnan (30mins)
-    * Elaboration on Graphs and Matrices - William Stein (30mins)
-
-== Day 3 ==
-
-    * Numerics - William Stein (1hr)
-    * SAGE(PARI) for Number Theory - Vanchinathan (1hr)
-    * SAGE(GAP) for Groups & Representation - Vanchinathan (1hr)
-    * Combinatorics and Graph Theory - William Stein (1hr)
-
-== Day 4 ==
-
-    * Running Sage notebook server - William Stein (1hr)
-    * Cython - Prabhu Ramachandran (1hr)
-    * Arbitrary precision & plotting used in Indian Astronomy - Venketeswara Pai R.(15mins)
-    * Sage as a replacement for Commercial Tools - Prabhu Ramachandran (30mins)
-
-------------------------------------------------------------------------------------------------------
-
-= Previous Schedule =
-
 == Day 1 - Monday 9th August, 2010: Introduction and Overview ==
-  * 09:30 - 10:00  Refreshments
-  * 10:00 - 11:00  Introduction to Sage and the Sage Notebook (talk by William Stein)
-  * 11:00 - 12:00  Basic Algebra, Calculus, Numerics, Arbitrary Precision Numerics (talk by TBA)
-  * 12:00 - 14:00  Lunch + Rest time
-  * 14:00 - 15:00  Basic Plotting, Number Theory, Polynomials  (talk by TBA)
-  * 15:00 - 16:00  Sage as a replacement for Matlab for numerics  (talk by TBA)
-  * 16:00 - 16:20  Tea Break
-  * 16:20 - 19:00  Sprints
+    * 8:30 - 9:00 Registration + providing laptops
+    * 9:00 - 9:30 How to connect to local Sage server, creating account etc.
+    * 9:30 - 10:00 Refreshments
+    * 10:00 - 11:00 Introduction to Sage, History, goals, developers -  Prabhu Ramachandran
+    * 11:00 - 12:00 Using the Sage notebook effectively(Basic Algebra, Basic Calculus, Basic Plotting) - Prabhu Ramachandran
+    * 12:00 - 14:00 Lunch + Rest time
+    * 14:00 - 15:00 Calculus with Sage - Amit, FOSSEE
+    * 15:00 - 16:00 Linear algebra with Sage - Puneet, FOSSEE
+    * 16:00 - 16:30 Tea Break
+    * 16:30 - 20:00 Sprints
 
 == Day 2 - Tuesday 10th August, 2010: Cryptography ==
-  * 09:30 - 10:00   Refreshments
-  * 10:00 - 11:00   Cryptography in Sage (talk by TBA)
-  * 11:00 - 12:00   Cryptography, continued (talk by TBA)
-  * 12:00 - 14:00   Lunch + Rest time
-  * 14:00 - 15:00   Cryptography (tutorial)
-  * 15:00 - 16:00   Cryptography continued (tutorial)
-  * 16:00 - 16:20   Tea Break
-  * 16:20 - 19:00   Sprints
+    * 9:30 - 10:00 Refreshments
+    * 10:00 - 11:00 Encounters with Sage: Examples from my research - Kiran Kedlaya
+    * 11:00 - 12:00 Number Theory & it's applications in cryptography - P. Vanchinathan
+    * 12:00 - 14:00 Lunch + Rest time 
+    * 14:00 - 15:00 Cryptography in Sage - Sourav Sen Gupta
+    * 15:00 - 16:00 Exploratory research with Sage in Graphs and Matrices - S. Sivaramakrishnan
+    * 16:00 - 16:30 Tea Break
+    * 16:30 - 20:00 Sprints
 
 == Day 3 - Wednesday 11th August, 2010: Miscellaneous ==
-  * 09:30 - 10:00   Refreshments
-  * 10:00 - 11:00   Running a Sage notebook server (talk by William Stein)
-  * 11:00 - 12:00   Writing fast compiled code using Cython (tutorial)
-  * 12:00 - 14:00   Lunch + Rest time
-  * 14:00 - 15:00   Combinatorics and Graph Theory (tutorial: Symmetric functions and other topics of interest)
-  * 15:00 - 16:00   Graphics and visualization (tutorial)
-  * 16:00 - 16:20   Tea Break
-  * 16:20 - 19:00   Sprints
+    * 9:30 - 10:00 Refreshments
+    * 10:00 - 11:00 Basic Python programming - Madhusudan, FOSSEE
+    * 11:00 - 12:00 More Python programming (Functions, modules, objects) - Madhusudan, FOSSEE
+    * 12:00 - 14:00 Lunch + Rest time 
+    * 14:00 - 15:00 Numpy & Scipy - Nishanth. A, FOSSEE
+    * 15:00 - 15:30 Contributing to Sage(ReST) - Puneeth, FOSSEE
+    * 15:30 - 16:00 Contributing to Sage(Mercurial) - Madhusudan, FOSSEE 
+    * 16:00 - 16:30 Tea Break
+    * 16:30 - 17:00 Contributing to Sage(advaced/sage specific) - Recorded talk by William Stein
+    * 17:00 - 20:00 Sprints
 
-
-== Day 4 - Thursday 12th August, 2010: TBA ==
-  * 09:30 - 10:00   Refreshments
-  * 10:00 - 11:00   Contributing to Sage (talk)
-  * 11:00 - 12:00   Sage as a replacement for MATLAB for numerics, part 2 (talk)
-  * 12:00 - 14:00   Lunch + Rest time
-  * 14:00 - 15:00   Numerical computation in Sage (tutorial)
-  * 15:00 - 16:00   Numerical computation in Sage (tutorial)
-  * 16:00 - 16:20   Tea Break
-  * 16:20 - 19:00   Sprints
+== Day 4 - Thursday 12th August, 2010: Miscellaneous ==
+    * 9:30 - 10:00 Refreshments
+    * 10:00 - 11:00 Numpy/Scipy - Nishanth. A, FOSSEE
+    * 11:00 - 12:00 SAGE(PARI) for Number Theory - P. Vanchinathan
+    * 12:00 - 14:00 Lunch + Rest time 
+    * 14:00 - 15:00 SAGE(GAP) for Groups & Representation - P. Vanchinathan
+    * 15:00 - 15:15 Arbitary precision & plotting used in Indian Astronomy - Venketeswara Pai R.
+    * 15:15 - 15:50 Combinatorics and Graph Theory - Recorded talk by William Stein
+    * 15:50 - 16:00 Sage as a replacement for commercial tools - Prabhu Ramachandran
+    * 16:00 - 16:30 Tea Break
+    * 16:30 - 20:00 Sprints
