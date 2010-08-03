@@ -32,7 +32,6 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 || Thur, 22 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
 || Wed, 28 Jul || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
 || Thur, 29 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
-
 || Tue, 3 Aug || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
 
 
@@ -56,6 +55,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 === Session II -  ===
 
  * Participant Demos (Voluntary)
+ ||Name||Time Estimate||Topic||Worksheet Links||
+ ||   ||   ||  ||  ||
 
 
 == Archived: Saturday, May 22 ==
