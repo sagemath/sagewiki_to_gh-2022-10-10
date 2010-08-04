@@ -4,7 +4,7 @@
     * 8:30 - 9:00 Registration + providing laptops
     * 9:00 - 9:30 How to connect to local Sage server, creating account etc.
     * 9:30 - 10:00 Refreshments
-    * 10:00 - 11:00 Introduction to Sage, History, goals, developers -  Prabhu Ramachandran
+    * 10:00 - 11:00 Introduction to Sage, History, goals, developers -  William Stein
     * 11:00 - 12:00 Using the Sage notebook effectively(Basic Algebra, Basic Calculus, Basic Plotting) - Prabhu Ramachandran
     * 12:00 - 14:00 Lunch + Rest time
     * 14:00 - 15:00 Calculus with Sage - Amit, FOSSEE
