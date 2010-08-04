@@ -81,8 +81,13 @@ Feel free to email the [[#organizers|organizers]] beforehand if you intend to pa
 === Sponsors ===
 
  * [[http://www.risc.jku.at/|Research Institute for Symbolic Computation (RISC)]]
+ * [[http://www.jku.at|Johannes Kepler Universität Linz]]
  * [[http://www.risc.uni-linz.ac.at/projects/science/access/|SCIEnce Transnational Access Program]]
  * [[http://www.dk-compmath.jku.at/|Doctoral Program Computational Mathematics]]
+ * [[http://www.bmwf.gv.at/|Bundesministerium für Wissenschaft und Forschung]]
+ * [[http://www.land-oberoesterreich.gv.at/cps/rde/xchg/SID-7E548661-2E010566/ooe/hs.xsl/33112_DEU_HTML.htm|Linzer Hochschulfond]]
+ * [[http://www.linzag.at/|Linz AG]]
+
 
 <<Anchor(organizers)>>
 === Organizers ===
