@@ -32,8 +32,11 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 === Session II - Participant Demos! ===
 
  * Participant Demos (Voluntary)
- ||Name||Time Estimate||Topic||Worksheet Links||
+ ||Name||Topic||~Time||Worksheet Links||
+ ||Barbara Margolius   || Embedding Flash in Sage Notebook   || 10 min ||  ||
+ ||John Travis   || CLT, Diff Eq, Bayes Thm  || 15 min || [[http://prep.sagenb.org/home/pub/62/|1]] [[http://prep.sagenb.org/home/pub/47/|2]] [[http://prep.sagenb.org/home/pub/57/|3]]  ||
  ||   ||   ||  ||  ||
+
  * Final Reminders and Goodbye 
    * Evaluation email coming from external evaluator
    * Confirm use of PREP notebook server
