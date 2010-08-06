@@ -6,7 +6,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
   * Session II:  Noon-2 Pacific, 3-5 Eastern
 
 
-== Current Homework ==
+== Homework ==
 
   * For Wednesday, July 28th
     * Have one trial worksheet ready
@@ -16,48 +16,28 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
     * Have two trial worksheets for the fall semester ready
     * Share this with the rest of the workshop participants (voluntary)
 
-== Office Hours ==
 
-Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
+== Monday, August 9 (tentative) ==
 
-And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
+=== Session I - Followup and More ===
 
- * Between intensive sessions and final session
-||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Wed, 23 Jun || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
-|| Wed, 30 Jun || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
-|| Wed,  7 Jul || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
-|| Wed, 14 Jul || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
-|| Wed, 21 Jul || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
-|| Thur, 22 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
-|| Wed, 28 Jul || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
-|| Thur, 29 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
-|| Tue, 3 Aug || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
+ * Welcome back (Rob, 10 min)
+ * Discussion of Worksheet Creation Experience (Karl-Dieter, 30 min)
+ * Followup to Server Discussion (Jason, 30 min)
+   * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
+ * SageTeX demo (Rob, 15 min)
+ * Sage History (William Stein, 20 min)
+ * Housekeeping Time (Rob, 5 min)
 
-
- * Between introductory session and intensive sessions
-||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Tue, 25 May || 8:30A-10:30A|| 11:30A-1:30P || Jason Grout ||
-|| Thu, 27 May || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
-|| Tue, 1 Jun  || 9:30A-11:30A|| 12:30P-2:30P || Rob Beezer  ||
-|| Thu, 3 Jun || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
-
-
-
-== Monday, August 9 ==
-
-=== Session I -  ===
-
- * Sage History 
- * Followup to Server Discussion
- * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
-
-=== Session II -  ===
+=== Session II - Participant Demos! ===
 
  * Participant Demos (Voluntary)
  ||Name||Time Estimate||Topic||Worksheet Links||
  ||   ||   ||  ||  ||
-
+ * Final Reminders and Goodbye 
+   * Evaluation email coming from external evaluator
+   * Confirm use of PREP notebook server
+   * Reminder of lists, followup
 
 == Archived: Saturday, May 22 ==
 
@@ -223,3 +203,29 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
   * [[http://www.octave.org|Octave (open source Matlab)]]
   * [[http://www.geogebra.org/cms/|Geogebra]]
   * [[http://wwrk.maa.org/wiki/Main_Page|WebWork]]
+
+== Archived: Office Hours ==
+
+Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
+
+And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
+
+ * Between intensive sessions and final session
+||Date||Time (PDT)||Time (EDT)||Organizer||
+|| Wed, 23 Jun || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
+|| Wed, 30 Jun || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
+|| Wed,  7 Jul || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
+|| Wed, 14 Jul || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
+|| Wed, 21 Jul || 8:00A-9:00A || 11:00A-12:00N || Rob Beezer ||
+|| Thur, 22 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
+|| Wed, 28 Jul || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
+|| Thur, 29 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
+|| Tue, 3 Aug || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
+
+
+ * Between introductory session and intensive sessions
+||Date||Time (PDT)||Time (EDT)||Organizer||
+|| Tue, 25 May || 8:30A-10:30A|| 11:30A-1:30P || Jason Grout ||
+|| Thu, 27 May || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
+|| Tue, 1 Jun  || 9:30A-11:30A|| 12:30P-2:30P || Rob Beezer  ||
+|| Thu, 3 Jun || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
