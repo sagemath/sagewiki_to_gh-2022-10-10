@@ -1,8 +1,7 @@
 = Sage Days 25.5: Introduction to Sage and Combinatorics =
 
-== Date ==
- 
-  * September 1st, 2010
+== One Day : Wednesday, September 1st, 2010 ==
+
 
 == Context ==
 
@@ -15,7 +14,6 @@ Held between LaCIM 2010 and GASCOM.
 
 == Schedule ==
 
-|| Wednesday September 1st, 2010 ||
 ||10:00||Opening||
 ||10:10-10:40||TODO ||
 ||10:40-11:30||TODO ||
