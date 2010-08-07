@@ -1,0 +1,127 @@
+= Setting up a Sage server =
+by Jason Grout
+
+I recently set up a Sage server, and here are very rough notes of the commands that I used.  I started with a fresh copy of Ubuntu 9.10, with a working Sage compiled from source (which means I had to install some extra packages so that Sage compiles and runs; see the Sage README).
+
+Install apache2 and enable the proxy modules
+{{{
+sudo apt-get install apache2
+
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+}}}
+
+Create an apache virtual server for the Sage server.  I created a file {{{/etc/apache2/sites-available/sagenotebook}}} with the following contents, replacing YOUR_SERVER_NAME with your server name (e.g. sagenb.example.com).  Also replace YOUR_SERVER_ADMIN_EMAIL_ADDRESS with your admin email address.
+{{{
+<VirtualHost *:80>   
+ServerName YOUR_SERVER_NAME
+
+ProxyRequests Off
+ProxyPreserveHost On
+
+<Proxy *>
+Order deny,allow
+Allow from all
+</Proxy>
+
+ProxyPass / http://localhost:8000/
+ProxyPassReverse / http://localhost:8000/
+
+ DocumentRoot /
+ <Location />   DefaultType text/html
+ </Location>
+
+   ErrorLog /var/log/apache2/error.log
+
+   # Possible values include: debug, info, notice, warn, error, crit,
+   # alert, emerg.
+   LogLevel warn
+
+   CustomLog /var/log/apache2/access.log combined
+   ServerAdmin YOUR_SERVER_ADMIN_EMAIL_ADDRESS
+ </VirtualHost>
+}}}
+
+
+Enable the site in apache and restart apache
+{{{
+sudo a2dissite default
+sudo a2ensite sagenotebook
+sudo /etc/init.d/apache2 restart
+}}}
+
+
+Now add a server and 10 user accounts.  The Sage notebook will invoke one of these 10 accounts to do the worksheet processing.
+{{{
+sudo addgroup sageuser
+sudo adduser --disabled-password sageserver
+for i in $(seq 0 9); do
+ sudo adduser --disabled-password --ingroup sageuser sage$i
+done
+}}}
+
+I wanted to restrict logins for the sage server and sage users.  I want to prevent logins as sageserver, and restrict sage* logins to only come from localhost.  I'll use sudo to run commands as the sage server.  Under {{{/etc/pam.d/sshd}}}, uncomment this line, and add "nodefgroup":
+
+{{{
+account  required     pam_access.so nodefgroup
+}}}
+
+Then in {{{/etc/security/access.conf}}}, add these lines:
+
+{{{
+-:(sageuser):ALL EXCEPT localhost
+-:sageserver:ALL
+}}}
+
+
+Now set up passwordless ssh keys
+{{{
+sudo -u sageserver -i "ssh-keygen -t dsa"
+for i in $(seq 0 9); do
+ sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sage$i -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
+done
+}}}
+
+Test logins (do at least one to generate the known_hosts file)
+{{{
+sudo -u sageserver -i "ssh sage0@localhost echo Done"
+}}}
+
+
+I store the following command in a file {{{/home/sageserver/startnotebook}}} to start the notebook
+{{{
+#!/bin/sh
+echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, server_pool=['sage%d@localhost'%i for i in range(10)], ulimit='-u 100 -t 3600 -v 500000', open_viewer=False)" | ~/sage/sage
+}}}
+
+Now copy the current version of Sage into the sageserver home directory.  I set up things so that /home/sageserver/sage/ is a symbolic link to whatever the current version is (like /home/sageserver/sage-4.3.2/)
+
+
+Install any optional spkgs that you want.  I install the jsmath-image-fonts spkg
+
+{{{
+sudo -u sageserver -i "~/sage/sage -i jsmath_image_fonts-1.4.p3"
+}}}
+
+To start the sage server, do the following.  Note that since I am using sudo to run commands as sageserver, instead of logging in as sageserver, I have to do the {{{script /dev/null}}} trick to get screen to work.
+
+{{{
+sudo su -l sageserver
+script /dev/null
+screen
+./startnotebook
+}}}
+
+I also added this to ~/sage/sage to control process limits:
+
+{{{
+if [[ `whoami` = sage* ]]; then
+   echo "User " `whoami`
+   ulimit -v 1500000 -u 300 -n 128 -t 1800
+fi
+}}}
+
+== Additional Notes ==
+
+ * Enable acl permissions by editing fstab and adding the "acl" option behind the ext4 option (make sure your filesystem allows acls, of course).  Then you can better protect files from being seen by sage worksheet processes.
+ * [[https://help.ubuntu.com/10.04/serverguide/C/automatic-updates.html]] also has some helpful tips.
