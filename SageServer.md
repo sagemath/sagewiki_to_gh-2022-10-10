@@ -3,7 +3,7 @@ by Jason Grout
 
 I recently set up a Sage server, and here are very rough notes of the commands that I used.  I started with a fresh copy of Ubuntu 9.10, with a working Sage compiled from source (which means I had to install some extra packages so that Sage compiles and runs; see the Sage README).
 
-Install apache2 and enable the proxy modules
+  1) Install apache2 and enable the proxy modules
 {{{
 sudo apt-get install apache2
 
@@ -11,7 +11,7 @@ sudo a2enmod proxy
 sudo a2enmod proxy_http
 }}}
 
-Create an apache virtual server for the Sage server.  I created a file {{{/etc/apache2/sites-available/sagenotebook}}} with the following contents, replacing YOUR_SERVER_NAME with your server name (e.g. sagenb.example.com).  Also replace YOUR_SERVER_ADMIN_EMAIL_ADDRESS with your admin email address.
+  2) Create an apache virtual server for the Sage server.  I created a file {{{/etc/apache2/sites-available/sagenotebook}}} with the following contents, replacing YOUR_SERVER_NAME with your server name (e.g. sagenb.example.com).  Also replace YOUR_SERVER_ADMIN_EMAIL_ADDRESS with your admin email address.
 {{{
 <VirtualHost *:80>   
 ServerName YOUR_SERVER_NAME
@@ -43,7 +43,7 @@ ProxyPassReverse / http://localhost:8000/
 }}}
 
 
-Enable the site in apache and restart apache
+  3) Enable the site in apache and restart apache
 {{{
 sudo a2dissite default
 sudo a2ensite sagenotebook
@@ -51,7 +51,7 @@ sudo /etc/init.d/apache2 restart
 }}}
 
 
-Now add a server and 10 user accounts.  The Sage notebook will invoke one of these 10 accounts to do the worksheet processing.
+  4) Now add a server and 10 user accounts.  The Sage notebook will invoke one of these 10 accounts to do the worksheet processing.
 {{{
 sudo addgroup sageuser
 sudo adduser --disabled-password sageserver
@@ -60,13 +60,13 @@ for i in $(seq 0 9); do
 done
 }}}
 
-I wanted to restrict logins for the sage server and sage users.  I want to prevent logins as sageserver, and restrict sage* logins to only come from localhost.  I'll use sudo to run commands as the sage server.  Under {{{/etc/pam.d/sshd}}}, uncomment this line, and add "nodefgroup":
+  5) I wanted to restrict logins for the sage server and sage users.  I want to prevent logins as sageserver, and restrict sage* logins to only come from localhost.  I'll use sudo to run commands as the sage server.  Under {{{/etc/pam.d/sshd}}}, uncomment this line, and add "nodefgroup":
 
 {{{
 account  required     pam_access.so nodefgroup
 }}}
 
-Then in {{{/etc/security/access.conf}}}, add these lines:
+  Then in {{{/etc/security/access.conf}}}, add these lines:
 
 {{{
 -:(sageuser):ALL EXCEPT localhost
@@ -74,7 +74,7 @@ Then in {{{/etc/security/access.conf}}}, add these lines:
 }}}
 
 
-Now set up passwordless ssh keys
+  6) Now set up passwordless ssh keys
 {{{
 sudo -u sageserver -i "ssh-keygen -t dsa"
 for i in $(seq 0 9); do
@@ -82,22 +82,22 @@ for i in $(seq 0 9); do
 done
 }}}
 
-Test logins (do at least one to generate the known_hosts file)
+  7) Test logins (do at least one to generate the known_hosts file)
 {{{
 sudo -u sageserver -i "ssh sage0@localhost echo Done"
 }}}
 
 
-I store the following command in a file {{{/home/sageserver/startnotebook}}} to start the notebook
+  8) I store the following command in a file {{{/home/sageserver/startnotebook}}} to start the notebook
 {{{
 #!/bin/sh
 echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, server_pool=['sage%d@localhost'%i for i in range(10)], ulimit='-u 100 -t 3600 -v 500000', open_viewer=False)" | ~/sage/sage
 }}}
 
-Now copy the current version of Sage into the sageserver home directory.  I set up things so that /home/sageserver/sage/ is a symbolic link to whatever the current version is (like /home/sageserver/sage-4.3.2/)
+  9) Now copy the current version of Sage into the sageserver home directory.  I set up things so that /home/sageserver/sage/ is a symbolic link to whatever the current version is (like /home/sageserver/sage-4.3.2/)
 
 
-Install any optional spkgs that you want.  I install the jsmath-image-fonts spkg
+  10) Install any optional spkgs that you want.  I install the jsmath-image-fonts spkg
 
 {{{
 sudo -u sageserver -i "~/sage/sage -i jsmath_image_fonts-1.4.p3"
