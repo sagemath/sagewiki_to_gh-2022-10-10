@@ -26,14 +26,15 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 
 The organisation is in process. If you have any suggestions (a talk to give, a discussion topic, a special demand) feel free to contact us.
 
+WARNING : The schedule below is subject to change.
+
 ||10:00||Opening||
-||10:10-10:40||TODO ||
-||10:40-11:30||TODO ||
-||12:00-12:10||Discussion||
-||12:10-12:40||TODO ||
-||2:45-2:55||TODO ||
-||3:00-3:20||TODO ||
-||3:30-3:50||TODO ||
+||10:10-11:00||Introduction to Sage ||
+||11:00-12:00||Tutorials ||
+||12:00-2:00||Lunch ||
+||2:00-3:00||Combinatorics in Sage, Florent Hivert ||
+||3:00-4:00||Installation Party ||
+||4:00-5:00||Discussions ||
 
 == Projects ==
 
