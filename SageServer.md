@@ -1,7 +1,33 @@
 = Setting up a Sage server =
 by Jason Grout
 
-I recently set up a Sage server, and here are very rough notes of the commands that I used.  I started with a fresh copy of Ubuntu 9.10, with a working Sage compiled from source (which means I had to install some extra packages so that Sage compiles and runs; see the Sage README).
+
+I recently set up a Sage server, and here are very rough notes of what I did.
+
+
+== Hardware Requirements ==
+
+=== RAM ===
+
+The biggest bottleneck seems to be RAM; that will determine how many simultaneous users you can have.  From some informal tests, it seems that the Sage notebook uses about 150MB of RAM for the server and about 50MB for a worksheet instance.  If the OS uses between 512 and 1G of RAM, then I conservatively calculate that the following amounts of RAM will support the corresponding numbers of users (if the users are doing just basic calculations and not using a lot of RAM):
+
+||'''RAM (GB)'''||'''Simultaneous worksheets'''||
+|| 1 ||  5 ||
+|| 2 ||  20 ||
+|| 3 ||  40 ||
+|| 4 ||  60 ||
+|| 8 ||  140 ||
+|| 12 ||  200 ||
+
+These numbers have not been tested.  If anyone has real-world numbers, please correct the table above.
+
+Note that the numbers above are for //simultaneous// worksheets.  There can be many, many more accounts on the server.
+
+== Install the server ==
+
+I started with a fresh copy of Ubuntu 9.10, with a working Sage compiled from source (which means I had to install some extra packages so that Sage compiles and runs; see the Sage README).
+
+
 
   1) Install apache2 and enable the proxy modules
 {{{
