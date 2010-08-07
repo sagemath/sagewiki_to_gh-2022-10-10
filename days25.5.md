@@ -4,7 +4,7 @@
 
 == Location : LaCIM, UQAM, Montréal, Canada ==
 
-  * [[http://lacim.uqam.ca/|Laboratoire de combinatoire et d'informatique mathématique]]
+  * [[http://lacim.uqam.ca/|LaCIM - Laboratoire de combinatoire et d'informatique mathématique]]
 
 == Context ==
 
