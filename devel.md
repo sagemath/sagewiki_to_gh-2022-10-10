@@ -2,9 +2,9 @@
 
 Welcome to the '''Sage developer center'''!
 
-This wiki page helps in organizing the development of Sage. Information and links to Sage development should be organized under "devel/". For answers to commonly asked questions, see the [[faq | FAQ]].
+This wiki page helps in organizing the development of Sage. Information and links to Sage development should be organized under "devel/". For answers to commonly asked questions, see the [[http://www.sagemath.org/doc/faq/ | FAQ]].
 
-Note: The [[http://trac.sagemath.org/sage_trac/ |trac server]] contains patches awaiting review. Michael Abshoff wrote a set of [[devel/TracGuidelines | general guidelines]] for using the trac server. See also the [[http://www.sagemath.org/doc/developer/trac.html | Developers' Guide]] for further information on using the trac patch server.
+Note: The [[http://trac.sagemath.org/sage_trac/ |trac server]] contains patches awaiting review. Michael Abshoff wrote a set of [[http://www.sagemath.org/doc/developer/trac.html | general guidelines]] for using the trac server. See also the [[http://www.sagemath.org/doc/developer/trac.html | Developers' Guide]] for further information on using the trac patch server.
 
 <<TableOfContents>>
 
@@ -20,7 +20,7 @@ Much of the Sage library is written in Python. Some performance critical parts o
 
 If you have an account on the Sage cluster, ensure that you read the [[devel/SageClusterGuidelines | Sage cluster guidelines]] on using computer resources on the Sage cluster.
 
- * [[devel/DevelFAQ | Frequently asked questions regarding Sage development]]
+ * [[http://www.sagemath.org/doc/faq/faq-contribute.html | Frequently asked questions regarding Sage development]]
 
 = Sage notebook =
 
