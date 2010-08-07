@@ -11,6 +11,11 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 
   * Montréal, Canada
 
+== Invited Speakers ==
+
+  * Florent Hivert (Sage-Combinat)
+  * ...
+
 == Schedule ==
 
 ||10:00||Opening||
@@ -37,6 +42,7 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 == Goals ==
 
   * Give introductory talk on Sage for those who don't know Sage
+  * Give talks on Sage for topics related to LaCIM 2010 and GASCom conferences (e.g. théorie des espèces)
   * Give the opportunity for Sage developpers to meet and discuss
 
 == Participants ==
