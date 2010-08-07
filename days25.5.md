@@ -16,6 +16,10 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
   * Florent Hivert (Sage-Combinat)
   * ...
 
+== Organizers ==
+
+  * Alexandre Blondin Massé, Sébastien Labbé
+
 == Schedule ==
 
 ||10:00||Opening||
@@ -34,10 +38,6 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 == Mailing List ==
 
   * TODO
-
-== Organizers ==
-
-  * Alexandre Blondin Massé, Sébastien Labbé
 
 == Goals ==
 
