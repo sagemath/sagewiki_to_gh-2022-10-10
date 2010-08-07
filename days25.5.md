@@ -5,8 +5,7 @@
 
 == Context ==
 
-Held between LaCIM 2010 and GASCOM.
-
+Held between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[http://gascom2010.lacim.uqam.ca/|GASCom]] conferences, this day is an opportunity for their participants to learn more about Sage. Introductory talks will be given as well as talks related to the audience of LaCIM 2010 and GASCOM. Students starting their Autumn semester will be invited as well.
 
 == Location ==
 
@@ -37,7 +36,8 @@ Held between LaCIM 2010 and GASCOM.
 
 == Goals ==
 
-  * The goal of this workshop is to have an intense coding sprint, and a few informal talks about how the Sage and Singular projects can most effectively work together to produce high quality free open source software. 
+  * Give introductory talk on Sage for those who don't know Sage
+  * Give the opportunity for Sage developpers to meet and discuss
 
 == Participants ==
 
