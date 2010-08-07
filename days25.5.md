@@ -2,14 +2,13 @@
 
 == One Day : Wednesday, September 1st, 2010 ==
 
+== Location : Laboratoire de combinatoire et d'informatique mathématique, UQAM, Montréal, Canada ==
 
 == Context ==
 
 Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[http://gascom2010.lacim.uqam.ca/|GASCom]] conferences, this day is an opportunity for their participants to learn more about Sage. Introductory talks will be given and possibly talks adapted to the audience of LaCIM 2010 (algebraic combinatorics, theoretical computer science, bioinformatic, physics and number theory) and GASCom (generation of combinatorial objects and bijective combinatorics). Students starting their Autumn semester will be invited as well.
 
-== Location ==
 
-  * Montréal, Canada
 
 == Invited Speakers ==
 
