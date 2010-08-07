@@ -25,7 +25,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
  * Discussion of Worksheet Creation Experience (Karl-Dieter, 30 min)
  * Followup to Server Discussion (Jason, 30 min)
    * [[http://wiki.sagemath.org/DanDrake/JustEnoughSageServer#OtherInstructions|Setting Up a Server]]
- * SageTeX demo (Rob, 15 min)
+ * SageTeX demo (Jason, 15 min)
  * Sage History (William Stein, 20 min)
  * Housekeeping Time (Rob, 5 min)
 
