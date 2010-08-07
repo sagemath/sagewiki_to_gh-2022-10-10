@@ -24,7 +24,7 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 
 == Schedule ==
 
-The organisation is in process. If you have any suggestions (a talk to give, a discussion topic) feel free to contact us or edit this page.
+The organisation is in process. If you have any suggestions (a talk to give, a discussion topic, a special demand) feel free to contact us.
 
 ||10:00||Opening||
 ||10:10-10:40||TODO ||
