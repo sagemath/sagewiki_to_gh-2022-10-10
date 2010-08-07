@@ -32,7 +32,7 @@
 || 12:00 - 14:00 ||||<style="text-align: left; background: #FFFFCC"> Lunch + Rest time ||
 || 14:00 - 15:00 || Numpy & Scipy || Nishanth. A, FOSSEE ||
 || 15:00 - 15:30 || Contributing to Sage (ReST) || Puneeth, FOSSEE ||
-|| 15:30 - 16:00 || Contributing to Sage(Mercurial) || Madhusudan, FOSSEE ||
+|| 15:30 - 16:00 || Contributing to Sage (Mercurial) || Madhusudan, FOSSEE ||
 || 16:00 - 16:30 ||||<style="text-align: left; background: #FFFFCC"> Tea Break ||
 || 16:30 - 17:00 || Contributing to Sage (Advanced/Sage specific topics) || William Stein, UW (recorded talk) ||
 || 17:00 - 20:00 ||||<style="text-align: left; background: #FFCCCC"> Sprints ||
