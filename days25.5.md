@@ -6,8 +6,11 @@
 
 == Context ==
 
-Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[http://gascom2010.lacim.uqam.ca/|GASCom]] conferences, this day is an opportunity for their participants to learn more about Sage. Introductory talks will be given and possibly talks adapted to the audience of LaCIM 2010 (algebraic combinatorics, theoretical computer science, bioinformatic, physics and number theory) and GASCom (generation of combinatorial objects and bijective combinatorics). Students starting their Autumn semester will be invited as well.
+Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[http://gascom2010.lacim.uqam.ca/|GASCom]] conferences, this day is an opportunity for their participants to learn more about Sage. Introductory talks will be given and possibly talks adapted to the audience of LaCIM 2010 (algebraic combinatorics, theoretical computer science, bioinformatic, physics and number theory) and GASCom (generation of combinatorial objects and bijective combinatorics). Students starting their Autumn semester will be invited as well. The goals are :
 
+  * Give introductory talk on Sage for those who don't know Sage
+  * Give talks on Sage for topics related to LaCIM 2010 and GASCom conferences (e.g. théorie des espèces)
+  * Give the opportunity for Sage developpers to meet and discuss
 
 
 == Invited Speakers ==
@@ -21,6 +24,8 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 
 == Schedule ==
 
+The organisation is in process. If you have any suggestions (a talk to give, a discussion topic) feel free to contact us or edit this page.
+
 ||10:00||Opening||
 ||10:10-10:40||TODO ||
 ||10:40-11:30||TODO ||
@@ -32,17 +37,13 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 
 == Projects ==
 
+Add projects or coding sprints you propose here :
+
   * [[/projects|Sprint projects]]
 
 == Mailing List ==
 
   * TODO
-
-== Goals ==
-
-  * Give introductory talk on Sage for those who don't know Sage
-  * Give talks on Sage for topics related to LaCIM 2010 and GASCom conferences (e.g. théorie des espèces)
-  * Give the opportunity for Sage developpers to meet and discuss
 
 == Participants ==
 
