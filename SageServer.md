@@ -151,3 +151,13 @@ fi
 
  * Enable acl permissions by editing fstab and adding the "acl" option behind the ext4 option (make sure your filesystem allows acls, of course).  Then you can better protect files from being seen by sage worksheet processes.
  * [[https://help.ubuntu.com/10.04/serverguide/C/automatic-updates.html]] also has some helpful tips.
+
+
+= Why set up a server? =
+
+I used [[http://www.sagenb.org]] for a semester.  I have four main reasons for setting up a campus server (in no particular order):
+
+  1. At various times, we would experience slowdowns in [[sagenb.org]] (it always seemed to happen during a class presentation!).  We attributed this to our internet connection, the server being overloaded, or both.
+  2. Privacy -- I am not comfortable with asking students to publish worksheets on the public server.  There are some people that would not be comfortable with having the students even do any work on an external server.
+  3. While the [[sagenb.org]] administrators do a fantastic job, there are no guarantees about service, uptime, backups, etc.  Having a campus server allows us to control these things (especially backups!)  
+  4. We had no control over when upgrades were performed.  It was possible that a feature of Sage that we were using would change in a next release.  If so, having a campus server allows me to fix a version for the semester and stick with it (or just do upgrades if it won't negatively affect the students' experience), so that the experience is consistent for the semester.  On the other hand, there were several features that I contributed to Sage to help the students, and I could apply those immediately on a campus server, instead of having to wait until the next version of Sage.
