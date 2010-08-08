@@ -1,3 +1,5 @@
+<<TableOfContents(2)>>
+
 = Setting up a Sage server =
 by Jason Grout
 
