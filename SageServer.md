@@ -21,7 +21,7 @@ The biggest bottleneck seems to be RAM; that will determine how many simultaneou
 
 These numbers have not been tested.  If anyone has real-world numbers, please correct the table above.
 
-Note that the numbers above are for //simultaneous// worksheets.  There can be many, many more accounts on the server.
+Note that the numbers above are for simultaneously running worksheets.  There can be many, many more accounts on the server.
 
 == Install the server ==
 
