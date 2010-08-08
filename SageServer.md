@@ -2,7 +2,7 @@
 by Jason Grout
 
 
-I recently set up a Sage server, and here are very rough notes of what I did.
+I recently set up a Sage server, and here are very rough notes of what I did.  Please email the [[http://groups.google.com/group/sage-support|sage-support]] email list if you have any questions.  Please feel free to make these notes better.
 
 
 == Hardware Requirements ==
