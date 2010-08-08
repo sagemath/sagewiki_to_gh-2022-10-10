@@ -120,10 +120,15 @@ sudo -u sageserver -i "ssh sage0@localhost echo Done"
 echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, server_pool=['sage%d@localhost'%i for i in range(10)], ulimit='-u 100 -t 3600 -v 500000', open_viewer=False)" | ~/sage/sage
 }}}
 
-  9) Now copy the current version of Sage into the sageserver home directory.  I set up things so that /home/sageserver/sage/ is a symbolic link to whatever the current version is (like /home/sageserver/sage-4.3.2/)
+  9) Now copy the current version of Sage into the sageserver home directory.  I set up things so that {{{/home/sageserver/sage/}}} is a symbolic link to whatever the current version is (like {{{/home/sageserver/sage-4.3.2/}}}):
+
+{{{
+   cd ~sageserver
+   ln -s sage-4.3.2 sage
+}}}
 
 
-  10) Install any optional spkgs that you want.  I install the jsmath-image-fonts spkg
+  10) Install any optional spkgs that you want.  I install the jsmath-image-fonts spkg:
 
 {{{
 sudo -u sageserver -i "~/sage/sage -i jsmath_image_fonts-1.4.p3"
