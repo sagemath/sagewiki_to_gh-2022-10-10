@@ -1,4 +1,4 @@
-= Sage Days 25.5: Introduction to Sage and Combinatorics =
+= Sage Day 25.5: Introduction to Sage and Combinatorics =
 
 == One Day : Wednesday, September 1st, 2010 ==
 
