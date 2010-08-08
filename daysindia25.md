@@ -12,9 +12,9 @@
 
    * http://www.fossee.in/sage_days 
 
-== Tenative Schedule ==
+== Schedule ==
 
-   The [[/schedule|tentative schedule]].
+   The [[/schedule|schedule]].
 
 == Organizers ==
 
