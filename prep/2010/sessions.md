@@ -39,7 +39,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
    * [[SageServer|Setting Up a Server]]
  * Participant Demos (Voluntary)
  ||Name||Topic||~Time||Worksheet Links||
- || Barbara Margolius || Embedding Flash in Sage Notebook   || 10 min ||  ||
+ || Barbara Margolius || Embedding Flash in Sage Notebook   || 10 min ||  [[http://prep.sagenb.org/home/pub/66/|Worksheet]]||
  || John Travis || CLT, Diff Eq, Bayes Thm  || 15 min || [[http://prep.sagenb.org/home/pub/62/|1]] [[http://prep.sagenb.org/home/pub/47/|2]] [[http://prep.sagenb.org/home/pub/57/|3]]  ||
  || Dana Ernst || Introduction to Sage (Calculus) || 5--10 min || [[http://prep.sagenb.org/home/pub/64/ | published worksheet]] ||
  || Maura Murray || Abstract Algebra || 5 min || ||
