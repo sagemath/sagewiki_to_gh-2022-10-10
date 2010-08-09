@@ -22,10 +22,9 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 === Session I - Followup and More ===
 
  * Welcome back (Rob, 10 min)
- * Discussion of Worksheet Creation Experience (Karl-Dieter, 30 min)
- * Followup to Server Discussion (Jason, 30 min)
-   * [[SageServer|Setting Up a Server]]
+ * Discussion of Worksheet Creation Experience (Karl-Dieter, 25 min)
  * SageTeX demo (Jason, 15 min)
+ * Break (5 min)
  * Sage History (William Stein, 60 min)
    * Sage History and Goals Screencast (first 38 minutes only)
      * [[http://vimeo.com/13986940|Vimeo Website, needs Flash 10]]
@@ -36,6 +35,8 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 === Session II - Participant Demos! ===
 
+ * Followup to Server Discussion (Jason, 30 min)
+   * [[SageServer|Setting Up a Server]]
  * Participant Demos (Voluntary)
  ||Name||Topic||~Time||Worksheet Links||
  || Barbara Margolius || Embedding Flash in Sage Notebook   || 10 min ||  ||
