@@ -17,16 +17,16 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 
 == Invited Speakers ==
 
-  * Florent Hivert (Sage-Combinat)
-  * ...
-
+  * Florent Hivert
+ 
 == Organizers ==
 
-  * Alexandre Blondin Massé, Sébastien Labbé
+  * Alexandre Blondin Massé
+  * Sébastien Labbé
 
 == Schedule ==
 
-The organisation is in process. If you have any suggestions (a talk to give, a discussion topic, a special demand) feel free to contact us.
+The organization is in process. If you have any suggestions (a talk to give, a discussion topic, a special demand) feel free to contact us.
 
 WARNING : The schedule below is subject to change.
 
@@ -50,17 +50,14 @@ Add projects or coding sprints you propose here :
 
 == Participants ==
 
+  * Alexandre Blondin Massé
+  * Ariane Garon
+  * Carine Pivoteau
+  * Christian Stump
   * Florent Hivert
   * Franco Saliola
-  * Ariane Garon
-  * Alexandre Blondin Massé
   * Jean-Philippe Labbé
   * Sébastien Labbé
   * Srecko Brlek
-  * Carine Pivoteau
-  * Christian Stump
   * Thierry Monteil 
-  * ...
-  * ...
-  * ...
   
