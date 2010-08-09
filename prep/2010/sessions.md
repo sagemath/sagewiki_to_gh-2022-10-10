@@ -6,18 +6,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
   * Session II:  Noon-2 Pacific, 3-5 Eastern
 
 
-== Homework ==
-
-  * For Wednesday, July 28th
-    * Have one trial worksheet ready
-    * Share it with a specified organizer on the server (you will be contacted)
-
-  * For Monday, August 9
-    * Have two trial worksheets for the fall semester ready
-    * Share this with the rest of the workshop participants (voluntary)
-
-
-== Monday, August 9 (tentative) ==
+== Monday, August 9 ==
 
 === Session I - Followup and More ===
 
@@ -255,3 +244,13 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 || Thu, 27 May || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
 || Tue, 1 Jun  || 9:30A-11:30A|| 12:30P-2:30P || Rob Beezer  ||
 || Thu, 3 Jun || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
+
+== Archived: Homework ==
+
+  * For Wednesday, July 28th
+    * Have one trial worksheet ready
+    * Share it with a specified organizer on the server (you will be contacted)
+
+  * For Monday, August 9
+    * Have two trial worksheets for the fall semester ready
+    * Share this with the rest of the workshop participants (voluntary)
