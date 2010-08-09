@@ -51,6 +51,16 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
    * Confirm use of PREP notebook server
    * Reminder of lists, followup
 
+=== Session Links ===
+  *  [[http://prep.sagenb.org/home/pub/45/|Mike May's "Just Enough Sage" Worksheet]]
+  *  [[http://www.facebook.com/pages/Sage-Math/26593144945|Facebook Discussion on online demos]]
+  *  Sage Packages
+     [[http://sagemath.org/download-packages.html|Download]]
+     [[http://sagemath.org/packages/standard/|Standard]]
+  *  [[http://wiki.sagemath.org/daysindia25/schedule|Sage Days 25, India]]  Two new screencasts coming this week
+  *  [[http://www.maa.org/meetings/miniguide.html|MAA Minicourse Guide]]
+  *  [[http://wiki.sagemath.org/interact|Wiki of Interacts]]
+
 == Archived: Saturday, May 22 ==
 
 Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on basic use and the various ways to get help and learn more.  
