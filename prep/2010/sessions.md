@@ -47,6 +47,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
  || Maura Murray || Abstract Algebra || 5 min || [[http://prep.sagenb.org/home/pub/68/|Worksheet]] ||
  || Ron Buckmire ||  ||  || [[http://prep.sagenb.org/home/pub/65/|Worksheet]] ||
  || Brandy Benedict ||  ||  || [[http://prep.sagenb.org/home/pub/70/|Worksheet]] ||
+ || Dorothy Zeiser ||  ||  || [[http://prep.sagenb.org/home/pub/69/|Worksheet]] ||
 
  * Final Reminders and Goodbye 
    * Evaluation email coming from external evaluator
