@@ -45,6 +45,8 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
  || John Travis || CLT, Diff Eq, Bayes Thm  || 15 min || [[http://prep.sagenb.org/home/pub/62/|1]] [[http://prep.sagenb.org/home/pub/47/|2]] [[http://prep.sagenb.org/home/pub/57/|3]]  ||
  || Dana Ernst || Introduction to Sage (Calculus) || cancelled (sorry, sick) || [[http://prep.sagenb.org/home/pub/64/ | published worksheet]] ||
  || Maura Murray || Abstract Algebra || 5 min || [[http://prep.sagenb.org/home/pub/68/|Worksheet]] ||
+ || Ron Buckmire ||  ||  || [[http://prep.sagenb.org/home/pub/65/|Worksheet]] ||
+ || Brandy Benedict ||  ||  || [[http://prep.sagenb.org/home/pub/70/|Worksheet]] ||
 
  * Final Reminders and Goodbye 
    * Evaluation email coming from external evaluator
