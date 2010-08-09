@@ -24,6 +24,16 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
   * Alexandre Blondin Massé
   * Sébastien Labbé
 
+== About Sage ==
+
+A recent video screencast of Sage given by William Stein, the initiator of Sage, at Sage Days 25 in India :
+
+  * [[http://vimeo.com/13986940|Introduction to Sage: History, Goals, Demo]], 49 min.
+
+An electronic book in french about mathematics and Sage, under the Creative Commons CC-by-sa license, was published recently : 
+
+  * http://sagebook.gforge.inria.fr/ 
+
 == Schedule ==
 
 The organization is in process. If you have any suggestions (a talk to give, a discussion topic, a special demand) feel free to contact us.
