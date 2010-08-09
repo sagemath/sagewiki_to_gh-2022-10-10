@@ -71,4 +71,5 @@ Add projects or coding sprints you propose here :
   * Sébastien Labbé
   * Srecko Brlek
   * Thierry Monteil 
+  * Marco Robado
   
