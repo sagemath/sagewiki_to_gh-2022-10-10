@@ -23,7 +23,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
  * Welcome back (Rob, 10 min)
  * Discussion of Worksheet Creation Experience (Karl-Dieter, 25 min)
- * SageTeX demo (Jason, 15 min)
+ * [[http://www.ctan.org/tex-archive/help/Catalogue/entries/sagetex.html|SageTeX]] demo (Jason, 15 min) ([[http://sage.math.washington.edu/home/jason/sage-tex.zip|slides]]; see also the [[http://www.ctan.org/tex-archive/macros/latex/contrib/sagetex/sagetexpackage.pdf|SageTeX Documentation]]).
  * Break (5 min)
  * Sage History (William Stein, 60 min)
    * Sage History and Goals Screencast (first 38 minutes only)
