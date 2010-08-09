@@ -225,6 +225,13 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
 
 And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
 
+ * Between introductory session and intensive sessions
+||Date||Time (PDT)||Time (EDT)||Organizer||
+|| Tue, 25 May || 8:30A-10:30A|| 11:30A-1:30P || Jason Grout ||
+|| Thu, 27 May || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
+|| Tue, 1 Jun  || 9:30A-11:30A|| 12:30P-2:30P || Rob Beezer  ||
+|| Thu, 3 Jun || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
+
  * Between intensive sessions and final session
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || Wed, 23 Jun || 8:00A-9:00A || 11:00A-12:00N || Karl-Dieter Crisman ||
@@ -237,13 +244,6 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 || Thur, 29 Jul || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
 || Tue, 3 Aug || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
 
-
- * Between introductory session and intensive sessions
-||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Tue, 25 May || 8:30A-10:30A|| 11:30A-1:30P || Jason Grout ||
-|| Thu, 27 May || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
-|| Tue, 1 Jun  || 9:30A-11:30A|| 12:30P-2:30P || Rob Beezer  ||
-|| Thu, 3 Jun || 7:00P-8:00P|| 10:00P-11:00P || Karl-Dieter Crisman ||
 
 == Archived: Homework ==
 
