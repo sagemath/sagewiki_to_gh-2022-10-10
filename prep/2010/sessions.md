@@ -48,6 +48,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
  || Ron Buckmire ||  ||  || [[http://prep.sagenb.org/home/pub/65/|Worksheet]] ||
  || Brandy Benedict ||  ||  || [[http://prep.sagenb.org/home/pub/70/|Worksheet]] ||
  || Dorothy Zeiser ||  ||  || [[http://prep.sagenb.org/home/pub/69/|Worksheet]] ||
+ || Mike May ||  ||  || [[http://prep.sagenb.org/home/pub/45/|1]] [[http://prep.sagenb.org/home/pub/46/|2]] [[http://prep.sagenb.org/home/pub/48/|3]] [[http://prep.sagenb.org/home/pub/49/|4]] ||
 
  * Final Reminders and Goodbye 
    * Evaluation email coming from external evaluator
