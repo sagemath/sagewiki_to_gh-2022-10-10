@@ -29,7 +29,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
    * Sage History and Goals Screencast (first 38 minutes only)
      * [[http://vimeo.com/13986940|Vimeo Website, needs Flash 10]]
      * [[http://sage.math.washington.edu/home/wstein/video/sagedays25/sage_intro_stein.m4v|Download m4v version, 200 MB]]
-     * [[Published worksheet of demo part (the last 10 minutes which we won't do)|http://prep.sagenb.org/home/pub/67/]]
+     * [[http://prep.sagenb.org/home/pub/67/|Published worksheet of demo part (the last 10 minutes which we won't do)]]
      * [[attachment:stein-intro.pdf|Slides from the talk]]
      * We will also stream this out via Elluminate, which works well for most of the screencast
    * Question and Answer with William Stein
