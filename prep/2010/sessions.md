@@ -44,7 +44,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
  || Barbara Margolius || Embedding Flash in Sage Notebook   || 10 min ||  [[http://prep.sagenb.org/home/pub/66/|Worksheet]]||
  || John Travis || CLT, Diff Eq, Bayes Thm  || 15 min || [[http://prep.sagenb.org/home/pub/62/|1]] [[http://prep.sagenb.org/home/pub/47/|2]] [[http://prep.sagenb.org/home/pub/57/|3]]  ||
  || Dana Ernst || Introduction to Sage (Calculus) || cancelled (sorry, sick) || [[http://prep.sagenb.org/home/pub/64/ | published worksheet]] ||
- || Maura Murray || Abstract Algebra || 5 min || ||
+ || Maura Murray || Abstract Algebra || 5 min || [[http://prep.sagenb.org/home/pub/68/|Worksheet]] ||
 
  * Final Reminders and Goodbye 
    * Evaluation email coming from external evaluator
