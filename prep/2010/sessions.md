@@ -1,60 +1,15 @@
 = Session Schedule: MAA PREP Workshop =
 
+Archived:  Summer 2010
+
 Each day is a total of four hours online, broken into two 2-hour sessions.  Please get set up in Elluminate a few minutes before the start time, paying special attention to the [[prep/2010/TeleConference|guidelines]] (especially about your session name and headphones).  We will post links to recordings of each session to the course email list shortly after the conclusion of the session.
 
   * Session I:  8-10 Pacific, 11-1 Eastern
   * Session II:  Noon-2 Pacific, 3-5 Eastern
 
 
-== Monday, August 9 ==
 
-=== Session I - Followup and More ===
-
- * Welcome back (Rob, 10 min)
- * Discussion of Worksheet Creation Experience (Karl-Dieter, 25 min)
- * [[http://www.ctan.org/tex-archive/help/Catalogue/entries/sagetex.html|SageTeX]] demo (Jason, 15 min) ([[http://sage.math.washington.edu/home/jason/sage-tex.zip|slides]]; see also the [[http://www.ctan.org/tex-archive/macros/latex/contrib/sagetex/sagetexpackage.pdf|SageTeX Documentation]]).
- * Break (5 min)
- * Sage History (William Stein, 60 min)
-   * Sage History and Goals Screencast (first 38 minutes only)
-     * [[http://vimeo.com/13986940|Vimeo Website, needs Flash 10]]
-     * [[http://sage.math.washington.edu/home/wstein/video/sagedays25/sage_intro_stein.m4v|Download m4v version, 200 MB]]
-     * [[http://prep.sagenb.org/home/pub/67/|Published worksheet of demo part (the last 10 minutes which we won't do)]]
-     * [[attachment:stein-intro.pdf|Slides from the talk]]
-     * We will also stream this out via Elluminate, which works well for most of the screencast
-   * Question and Answer with William Stein
- * Housekeeping Time (Rob, 5 min)
-
-=== Session II - Participant Demos! ===
-
- * Followup to Server Discussion (Jason, 30 min)
-   * [[SageServer|Setting Up a Server]]
- * Participant Demos (Voluntary)
- ||Name||Topic||~Time||Worksheet Links||
- || Barbara Margolius || Embedding Flash in Sage Notebook   || 10 min ||  [[http://prep.sagenb.org/home/pub/66/|Worksheet]]||
- || John Travis || CLT, Diff Eq, Bayes Thm  || 15 min || [[http://prep.sagenb.org/home/pub/62/|1]] [[http://prep.sagenb.org/home/pub/47/|2]] [[http://prep.sagenb.org/home/pub/57/|3]] ||
- || Maura Murray || Abstract Algebra || 5 min || [[http://prep.sagenb.org/home/pub/68/|Worksheet]] ||
- || Dorothy Zeiser || Group Theory ||  || [[http://prep.sagenb.org/home/pub/69/|Worksheet]] ||
- || Brandy Benedict ||  ||  || [[http://prep.sagenb.org/home/pub/70/|Worksheet]] ||
- || Mike May ||  ||  || [[http://prep.sagenb.org/home/pub/45/|1]] [[http://prep.sagenb.org/home/pub/46/|2]] [[http://prep.sagenb.org/home/pub/48/|3]][[http://prep.sagenb.org/home/pub/49/|4]] ||
- || Ron Buckmire ||  Bifurcations in Linear 2D Systems of ODEs|| cancelled (no mic) || [[http://prep.sagenb.org/home/pub/65/|Worksheet]] ||
- || Dana Ernst || Introduction to Sage (Calculus) || cancelled (sorry, sick) || [[http://prep.sagenb.org/home/pub/64/ | published worksheet]] ||
-
- * Final Reminders and Goodbye 
-   * Evaluation email coming from external evaluator
-   * Confirm use of PREP notebook server
-   * Reminder of lists, followup
-
-=== Session Links ===
-  *  [[http://prep.sagenb.org/home/pub/45/|Mike May's "Just Enough Sage" Worksheet]]
-  *  [[http://www.facebook.com/pages/Sage-Math/26593144945|Facebook Discussion on online demos]]
-  *  Sage Packages
-     [[http://sagemath.org/download-packages.html|Download]]
-     [[http://sagemath.org/packages/standard/|Standard]]
-  *  [[http://wiki.sagemath.org/daysindia25/schedule|Sage Days 25, India]]  Two new screencasts coming this week
-  *  [[http://www.maa.org/meetings/miniguide.html|MAA Minicourse Guide]]
-  *  [[http://wiki.sagemath.org/interact|Wiki of Interacts]]
-
-== Archived: Saturday, May 22 ==
+== Saturday, May 22 ==
 
 Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on basic use and the various ways to get help and learn more.  
 
@@ -117,7 +72,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://www.cython.org/|Sage's Python to C translator]]
   * [[http://www.sagemath.org/download-livecd.html|A Sage Live CD (there are others?)]]
 
-== Archived: Tuesday, June 8 ==
+== Tuesday, June 8 ==
 
 For these next two days you should notice more discussion about how you might employ Sage as part of your teaching. We will also continue to describe how to use Sage itself, including discussions about programming and building interacts.
 
@@ -161,7 +116,7 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
   * [[http://wiki.wstein.org/2008/480a|Numerical Analysis, Course, William stein]]
   * [[http://homepages.nyu.edu/~jmg336/html/mathematics.html|Numerical Analysis]]
 
-== Archived: Wednesday, June 9 ==
+== Wednesday, June 9 ==
 
 === Session I - Quickstarts ===
 
@@ -219,7 +174,56 @@ Notice the "participant choice" session for Wednesday afternoon, so start thinki
   * [[http://www.geogebra.org/cms/|Geogebra]]
   * [[http://wwrk.maa.org/wiki/Main_Page|WebWork]]
 
-== Archived: Office Hours ==
+== Monday, August 9 ==
+
+=== Session I - Followup and More ===
+
+ * Welcome back (Rob, 10 min)
+ * Discussion of Worksheet Creation Experience (Karl-Dieter, 25 min)
+ * [[http://www.ctan.org/tex-archive/help/Catalogue/entries/sagetex.html|SageTeX]] demo (Jason, 15 min) ([[http://sage.math.washington.edu/home/jason/sage-tex.zip|slides]]; see also the [[http://www.ctan.org/tex-archive/macros/latex/contrib/sagetex/sagetexpackage.pdf|SageTeX Documentation]]).
+ * Break (5 min)
+ * Sage History (William Stein, 60 min)
+   * Sage History and Goals Screencast (first 38 minutes only)
+     * [[http://vimeo.com/13986940|Vimeo Website, needs Flash 10]]
+     * [[http://sage.math.washington.edu/home/wstein/video/sagedays25/sage_intro_stein.m4v|Download m4v version, 200 MB]]
+     * [[http://prep.sagenb.org/home/pub/67/|Published worksheet of demo part (the last 10 minutes which we won't do)]]
+     * [[attachment:stein-intro.pdf|Slides from the talk]]
+     * We will also stream this out via Elluminate, which works well for most of the screencast
+   * Question and Answer with William Stein
+ * Housekeeping Time (Rob, 5 min)
+
+=== Session II - Participant Demos! ===
+
+ * Followup to Server Discussion (Jason, 30 min)
+   * [[SageServer|Setting Up a Server]]
+ * Participant Demos (Voluntary)
+ ||Name||Topic||~Time||Worksheet Links||
+ || Barbara Margolius || Embedding Flash in Sage Notebook   || 10 min ||  [[http://prep.sagenb.org/home/pub/66/|Worksheet]]||
+ || John Travis || CLT, Diff Eq, Bayes Thm  || 15 min || [[http://prep.sagenb.org/home/pub/62/|1]] [[http://prep.sagenb.org/home/pub/47/|2]] [[http://prep.sagenb.org/home/pub/57/|3]] ||
+ || Maura Murray || Abstract Algebra || 5 min || [[http://prep.sagenb.org/home/pub/68/|Worksheet]] ||
+ || Dorothy Zeiser || Group Theory ||  || [[http://prep.sagenb.org/home/pub/69/|Worksheet]] ||
+ || Brandy Benedict ||  ||  || [[http://prep.sagenb.org/home/pub/70/|Worksheet]] ||
+ || Mike May ||  ||  || [[http://prep.sagenb.org/home/pub/45/|1]] [[http://prep.sagenb.org/home/pub/46/|2]] [[http://prep.sagenb.org/home/pub/48/|3]][[http://prep.sagenb.org/home/pub/49/|4]] ||
+ || Ron Buckmire ||  Bifurcations in Linear 2D Systems of ODEs|| cancelled (no mic) || [[http://prep.sagenb.org/home/pub/65/|Worksheet]] ||
+ || Dana Ernst || Introduction to Sage (Calculus) || cancelled (sorry, sick) || [[http://prep.sagenb.org/home/pub/64/ | published worksheet]] ||
+
+ * Final Reminders and Goodbye 
+   * Evaluation email coming from external evaluator
+   * Confirm use of PREP notebook server
+   * Reminder of lists, followup
+
+=== Session Links ===
+  *  [[http://prep.sagenb.org/home/pub/45/|Mike May's "Just Enough Sage" Worksheet]]
+  *  [[http://www.facebook.com/pages/Sage-Math/26593144945|Facebook Discussion on online demos]]
+  *  Sage Packages
+     [[http://sagemath.org/download-packages.html|Download]]
+     [[http://sagemath.org/packages/standard/|Standard]]
+  *  [[http://wiki.sagemath.org/daysindia25/schedule|Sage Days 25, India]]  Two new screencasts coming this week
+  *  [[http://www.maa.org/meetings/miniguide.html|MAA Minicourse Guide]]
+  *  [[http://wiki.sagemath.org/interact|Wiki of Interacts]]
+  *  [[http://wiki.sagemath.org/devel/LatexToWorksheet| tex2sws Project]]
+
+== Office Hours ==
 
 Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2010/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
 
@@ -245,7 +249,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 || Tue, 3 Aug || 8:00A-9:00A || 11:00A-12:00N || Jason Grout ||
 
 
-== Archived: Homework ==
+== Homework ==
 
   * For Wednesday, July 28th
     * Have one trial worksheet ready
