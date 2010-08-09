@@ -42,14 +42,13 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
  * Participant Demos (Voluntary)
  ||Name||Topic||~Time||Worksheet Links||
  || Barbara Margolius || Embedding Flash in Sage Notebook   || 10 min ||  [[http://prep.sagenb.org/home/pub/66/|Worksheet]]||
- || John Travis || CLT, Diff Eq, Bayes Thm  || 15 min || [[http://prep.sagenb.org/home/pub/62/|1]] [[http://prep.sagenb.org/home/pub/47/|2]] [[http://prep.sagenb.org/home/pub/57/|3]]  ||
+ || John Travis || CLT, Diff Eq, Bayes Thm  || 15 min || [[http://prep.sagenb.org/home/pub/62/|1]] [[http://prep.sagenb.org/home/pub/47/|2]] [[http://prep.sagenb.org/home/pub/57/|3]] ||
  || Maura Murray || Abstract Algebra || 5 min || [[http://prep.sagenb.org/home/pub/68/|Worksheet]] ||
  || Dorothy Zeiser || Group Theory ||  || [[http://prep.sagenb.org/home/pub/69/|Worksheet]] ||
  || Brandy Benedict ||  ||  || [[http://prep.sagenb.org/home/pub/70/|Worksheet]] ||
- || Mike May ||  ||  || [[http://prep.sagenb.org/home/pub/45/|1]] [[http://prep.sagenb.org/home/pub/46/|2]] [[http://prep.sagenb.org/home/pub/48/|3]] 
+ || Mike May ||  ||  || [[http://prep.sagenb.org/home/pub/45/|1]] [[http://prep.sagenb.org/home/pub/46/|2]] [[http://prep.sagenb.org/home/pub/48/|3]][[http://prep.sagenb.org/home/pub/49/|4]] ||
  || Ron Buckmire ||  Bifurcations in Linear 2D Systems of ODEs|| cancelled (no mic) || [[http://prep.sagenb.org/home/pub/65/|Worksheet]] ||
  || Dana Ernst || Introduction to Sage (Calculus) || cancelled (sorry, sick) || [[http://prep.sagenb.org/home/pub/64/ | published worksheet]] ||
-[[http://prep.sagenb.org/home/pub/49/|4]] ||
 
  * Final Reminders and Goodbye 
    * Evaluation email coming from external evaluator
