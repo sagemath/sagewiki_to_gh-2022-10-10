@@ -26,7 +26,12 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
  * Followup to Server Discussion (Jason, 30 min)
    * [[SageServer|Setting Up a Server]]
  * SageTeX demo (Jason, 15 min)
- * Sage History (William Stein, 20 min)
+ * Sage History (William Stein, 60 min)
+   * Sage History and Goals Screencast (first 38 minutes only)
+     * [[http://vimeo.com/13986940|Vimeo Website, needs Flash 10]]
+     * [[http://sage.math.washington.edu/home/wstein/video/sagedays25/sage_intro_stein.m4v|Download m4v version, 200 MB]]
+     * We will also stream this out via Elluminate, which works well for most of the screencast
+   * Question and Answer with William Stein
  * Housekeeping Time (Rob, 5 min)
 
 === Session II - Participant Demos! ===
