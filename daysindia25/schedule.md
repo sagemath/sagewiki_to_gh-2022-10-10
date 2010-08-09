@@ -5,7 +5,7 @@
 ||<tablestyle="width: 90%;"> 08:30 - 09:00 ||||<style="text-align: left; background: #DDFFCC"> Registration + providing laptops ||
 ||<style="width: 100px;"> 09:00 - 09:30 ||||<style="text-align: left; background: #DDFFCC"> How to connect to local Sage server, creating account etc.||
 || 09:30 - 10:00 ||||<style="text-align: left; background: #FFFFCC"> Refreshments ||
-|| 10:00 - 11:00 ||<style="width: 55%;"> [[attachment:stein-intro.pdf|Introduction to Sage, History, Goals, and a Demo]] ( [[attachment:stein-intro-worksheet.sws|Sage Worksheet of demo]]) || William Stein, Univ of Washington (remotely) ||
+|| 10:00 - 11:00 ||<style="width: 55%;"> [[attachment:stein-intro.pdf|Introduction to Sage, History, Goals, and a Demo]] ( [[attachment:stein-intro-worksheet.sws|Sage Worksheet of demo]] and [[http://vimeo.com/13986940|streaming video]]) || William Stein, Univ of Washington (remotely) ||
 || 11:00 - 12:00 || Using the Sage notebook effectively (Basic Algebra, Basic Calculus, Basic Plotting) || Prabhu Ramachandran, IITB ||
 || 12:00 - 14:00 ||||<style="text-align: left; background: #FFFFCC"> Lunch + Rest time ||
 || 14:00 - 15:00 || Calculus with Sage || Amit, FOSSEE ||
