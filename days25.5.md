@@ -23,6 +23,7 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 == Organizers ==
 
   * Alexandre Blondin Massé
+  * Franco Saliola
   * Sébastien Labbé
 
 == About Sage ==
