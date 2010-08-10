@@ -41,13 +41,13 @@ The organization is in process. If you have any suggestions (a talk to give, a d
 
 WARNING : The schedule below is subject to change.
 
-||10:00||Opening||
-||10:10-11:00||Introduction to Sage ||
-||11:00-12:00||Tutorials ||
-||12:00-2:00||Lunch ||
-||2:00-3:00||Combinatorics in Sage, Florent Hivert ||
-||3:00-4:00||Installation Party ||
-||4:00-5:00||Discussions ||
+||09:00-10:00||Install café||
+||10:00-11:30||Introduction to Sage and combinatorics in Sage, by Florent Hivert||
+||11:30-12:30||Basics tutorial||
+||12:30-14:30||Lunch||
+||14:30-16:00||Combinatorial tutorials||
+||16:00-17:00||Working session||
+||17:00-19:00||Happy hour to Benelux||
 
 == Projects ==
 
@@ -68,8 +68,9 @@ Add projects or coding sprints you propose here :
   * Florent Hivert
   * Franco Saliola
   * Jean-Philippe Labbé
+  * Marco Robado
   * Sébastien Labbé
   * Srecko Brlek
   * Thierry Monteil 
-  * Marco Robado
+
   
