@@ -46,8 +46,8 @@ WARNING : The schedule below is subject to change.
 ||09:30-10:30||Introduction to Sage and Sage-Combinat, by Florent Hivert||
 ||10:30-11:00||Overview of combinatorics in Sage||
 ||11:00-12:00||Basic tutorial||
-||12:30-14:30||Lunch||
-||14:30-16:00||More tutorials||
+||12:00-14:00||Lunch||
+||14:00-16:00||More tutorials||
 ||16:00-17:00||Working session, free discussions, coding sprints||
 ||17:00-19:00||Happy hour to Benelux||
 
