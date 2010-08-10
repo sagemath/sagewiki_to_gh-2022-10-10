@@ -34,7 +34,7 @@
 || 15:00 - 15:30 || Contributing to Sage (ReST) || Puneeth, FOSSEE ||
 || 15:30 - 16:00 || Contributing to Sage (Mercurial) || Madhusudan, FOSSEE ||
 || 16:00 - 16:30 ||||<style="text-align: left; background: #FFFFCC"> Tea Break ||
-|| 16:30 - 17:00 || Contributing to Sage (Advanced/Sage specific topics) || William Stein, UW (recorded talk) ||
+|| 16:30 - 17:00 || [[attachment:stein-contrib.pdf|Contributing to Sage (Advanced/Sage specific topics)]] || William Stein, UW (recorded talk) ||
 || 17:00 - 20:00 ||||<style="text-align: left; background: #FFCCCC"> Sprints ||
 
 === Day 4 - Thursday 12th August, 2010: Miscellaneous ===
@@ -45,7 +45,7 @@
 || 12:00 - 14:00 ||||<style="text-align: left; background: #FFFFCC"> Lunch + Rest time ||
 || 14:00 - 15:00 || Sage (GAP) for Groups & Representation || P. Vanchinathan, CMI ||
 || 15:00 - 15:15 || Arbitary precision & plotting used in Indian Astronomy || Venketeswara Pai R. ||
-|| 15:15 - 15:50 || Combinatorics and Graph Theory || William Stein, UW (recorded talk) ||
+|| 15:15 - 15:50 || [[http://sagenb.org/home/pub/2351/|Combinatorics and Graph Theory]] || William Stein, UW (recorded talk) ||
 || 15:50 - 16:00 || Sage as a replacement for commercial tools || Prabhu Ramachandran, IITB ||
 || 16:00 - 16:30 ||||<style="text-align: left; background: #FFFFCC"> Tea Break ||
 || 16:30 - 20:00 ||||<style="text-align: left; background: #FFCCCC"> Sprints ||
