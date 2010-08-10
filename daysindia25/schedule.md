@@ -45,7 +45,7 @@
 || 12:00 - 14:00 ||||<style="text-align: left; background: #FFFFCC"> Lunch + Rest time ||
 || 14:00 - 15:00 || Sage (GAP) for Groups & Representation || P. Vanchinathan, CMI ||
 || 15:00 - 15:15 || Arbitary precision & plotting used in Indian Astronomy || Venketeswara Pai R. ||
-|| 15:15 - 15:50 || [[http://sagenb.org/home/pub/2351/|Combinatorics and Graph Theory]] || William Stein, UW (recorded talk) ||
+|| 15:15 - 15:50 || [[http://sagenb.org/home/pub/2352/|Combinatorics and Graph Theory]] || William Stein, UW (recorded talk) ||
 || 15:50 - 16:00 || Sage as a replacement for commercial tools || Prabhu Ramachandran, IITB ||
 || 16:00 - 16:30 ||||<style="text-align: left; background: #FFFFCC"> Tea Break ||
 || 16:30 - 20:00 ||||<style="text-align: left; background: #FFCCCC"> Sprints ||
