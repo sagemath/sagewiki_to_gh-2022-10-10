@@ -42,10 +42,10 @@ The organization is in process. If you have any suggestions (a talk to give, a d
 
 WARNING : The schedule below is subject to change.
 
-||09:00-10:00||Install café||
-||10:00-11:00||Introduction to Sage and Sage-Combinat, by Florent Hivert||
-||11:00-11:30||Overview of combinatorics in Sage||
-||11:30-12:30||Basic tutorial||
+||08:30-09:30||Install café||
+||09:30-10:30||Introduction to Sage and Sage-Combinat, by Florent Hivert||
+||10:30-11:00||Overview of combinatorics in Sage||
+||11:00-12:00||Basic tutorial||
 ||12:30-14:30||Lunch||
 ||14:30-16:00||More tutorials||
 ||16:00-17:00||Working session, free discussions, coding sprints||
