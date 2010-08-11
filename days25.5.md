@@ -28,7 +28,7 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[ht
 
 == About Sage ==
 
-A recent video screencast of Sage given by William Stein, the initiator of Sage, at Sage Days 25 in India :
+A recent video screencast given by William Stein, the initiator of Sage, at Sage Days 25 in India :
 
   * [[http://vimeo.com/13986940|Introduction to Sage: History, Goals, Demo]], 49 min.
 
