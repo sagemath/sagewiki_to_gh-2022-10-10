@@ -36,11 +36,11 @@ An electronic book in french about mathematics and Sage, under the Creative Comm
 
   * http://sagebook.gforge.inria.fr/ 
 
-== Inscription ==
+== Inscription form ==
 
-If you want to participate, please fullfil the following form. Five simple questions to help us organize this event.
+If you want to participate, you need fullfil the Inscription form. Five simple questions to help us organize this event.
 
-  * [[https://spreadsheets.google.com/viewform?formkey=dE1mc0N2M3lJQlpyN244MTdHOTdRUXc6MQ|Inscription for Sage Days 25.5]]
+  * [[https://spreadsheets.google.com/viewform?formkey=dE1mc0N2M3lJQlpyN244MTdHOTdRUXc6MQ|Inscription form for Sage Days 25.5]]
 
 == Schedule ==
 
