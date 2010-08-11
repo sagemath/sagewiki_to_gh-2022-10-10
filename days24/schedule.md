@@ -12,6 +12,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:30-16:00  ||'''Coffee'''||
 ||<style="text-align: center;"> 16:00-17:00    ||'''Tutorial: Implementation of Polynomials and Python Tutorial---Part 2''' (Burcin Erocal)||
 ||<style="text-align: center;"> 17:00-18:00 ||  Coding sprint organization ||
+||<style="text-align: center;"> 18.00- ... || Coding sprints ||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Sunday, July 18, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
@@ -26,17 +27,19 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:30-16:00  ||'''Coffee'''||
 ||<|2>     16:00-17:00 || '''Burcin Erocal: Symbolics in Sage & Pynac''' ||
 || [[attachment:Symbolics_Pynac.sws|worksheet with talk outline]]||
+||<style="text-align: center;"> 17.00- ... || Coding sprints ||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday, July 19, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
 ||<|2 rowstyle="background-color: #EEFFEE;"> 10:30-11:30  ||''' Nico Temme: [[days24/abstracts#Temme|Special Functions and Computer Algebra]]'''||
 ||<style="background-color: #EEFFEE;">  [[attachment:Temme-SD24.pdf|slides]]||
-||<style="text-align: center;"> 11.30-12.00 || '''Flavia Stan: ?''' ||
+||<style="text-align: center;"> 11.30-12.00 || '''Flavia Stan: Algorithmic Strategies for Hypergeometric Functions''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">     12:00-14:00   ||'''Lunch'''||
 ||<style="text-align: center;"> 14.00-14.30 || '''Frédéric Chyzak: [[days24/abstracts#Chyzak|DDMF (Dynamic Dictionary of Mathematical Functions) and its DynaMoW]]''' ||
 ||<style="text-align: center;"> 14.30-15.00 || '''Fredrik Johansson: [[days24/abstracts#Johansson|Arbitrary-precision special functions in mpmath]]''' ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:00-15:30  ||'''Coffee'''||
 ||<style="text-align: center;"> 15.30-17.00 || '''Parallel Integration Meetup: in the seminar room''' ||
+||<style="text-align: center;"> 15.30- ... || Coding sprints ||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, July 20, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
@@ -50,6 +53,7 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:00-15:30  ||'''Coffee'''||
 ||<|2 rowstyle="background-color: #EEFFEE;">     15:30-16:30    ||'''Tutorial: Coercion II - Construction Functors''' (Simon King)||
 ||<style="background-color: #EEFFEE;"> [[https://gonzales.risc.jku.at:8000/home/pub/10|Worksheet]] ||
+||<style="text-align: center;"> 16.30- ... || Coding sprints ||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday, July 21, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
@@ -63,12 +67,13 @@ The workshop takes place on Saturday and Sunday at the [[http://www.google.com/m
 || [[attachment:Pillwein-SD24.pdf|slides]] [[attachment:Pillwein-experimentalCAD.sws|worksheet]] ||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  15:00-15:30  ||'''Coffee'''||
 ||<style="text-align: center;"> 15.30-16.30 || Sage Patch Reviewing Session ||
+||<style="text-align: center;"> 16.30- ... || Coding sprints ||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, July 22, 2010||
 ||<rowstyle="background-color: #FFFFDD; text-align: center;">  10:00-10:30  || Status reports ||
 ||<|2> 10:30-11:00  ||''' Simon King: [[days24/abstracts#King|Completeness criteria for modular group cohomology]] '''||
 ||[[attachment:GroupCohomology.pdf|Slides]] ||
-||<style="text-align: center;"> 11.00- || Coding Sprint ||
+||<style="text-align: center;"> 11.00- ... || Coding sprints ||
 
 === Sponsors ===
 
