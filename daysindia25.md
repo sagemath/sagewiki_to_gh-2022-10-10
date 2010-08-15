@@ -1,30 +1,32 @@
 = Sage Days 25 in Mumbai, India =
 
-== Dates ==
+=== Dates / Venue ===
 
    * August 9-12, 2010
+   * Institute Auditorium, IIT Bombay, Mumbai, India.
 
-== Venue ==
+=== Official Website ===
 
-   * IIT Bombay, Mumbai, India.
+   * http://www.fossee.in/sage_days
 
-== Registration ==
+=== Schedule ===
 
-   * http://www.fossee.in/sage_days 
+   * The [[/schedule|schedule]], as on this Wiki.
+   * The schedule as on the official website: http://www.fossee.in/sage_days/schedule
 
-== Schedule ==
+=== Photos ===
 
-   The [[/schedule|schedule]].
+   * http://picasaweb.google.com/SG.Sourav/SageDays25
 
-== Organizers ==
+=== Organizers ===
 
    * Kiran Kedlaya (MIT)
    * Jarrod Millman (UC Berkeley)
    * Prabhu Ramachandran (IITB)
-   * William Stein (University of Washington) -- won't be attending
+   * William Stein (University of Washington) -- could not attend
    * Sourav Sen Gupta (ISI Kolkata)
    
-== Mailing lists ==
+=== Mailing lists ===
 
    * http://groups.google.com/group/sagedays25 (for participants)
    * http://groups.google.com/group/sagedays25-org (for organizers only)
