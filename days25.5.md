@@ -1,4 +1,4 @@
-<<TableOfContents>>
+<<TableOfContents(1)>>
 
 = Sage Day 25.5: Introduction to Sage and Combinatorics =
 
