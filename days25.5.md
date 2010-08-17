@@ -1,6 +1,6 @@
 <<TableOfContents(1)>>
 
-= Sage Day 25.5: Introduction to Sage and Combinatorics (English)=
+= Sage Day 25.5: Introduction to Sage and Combinatorics (English) =
 
 == One Day : Wednesday, September 1st, 2010 ==
 
