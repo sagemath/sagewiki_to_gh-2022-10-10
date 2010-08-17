@@ -8,7 +8,7 @@
 
 == Context ==
 
-Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010]] and [[http://gascom2010.lacim.uqam.ca/|GASCom]] conferences, this day is an opportunity for their participants to learn more about [[http://sagemath.org/|Sage]]. Introductory talks will be given and possibly talks or discussions on Sage adapted to the audience of LaCIM 2010 (algebraic combinatorics, theoretical computer science, bioinformatic, physics and number theory) and GASCom (generation of combinatorial objects and bijective combinatorics). Students starting their Autumn semester will be invited as well. The goals are :
+Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010 - 20th aniversary]] and [[http://gascom2010.lacim.uqam.ca/|GASCom]] conferences, this day is an opportunity for their participants to learn more about [[http://sagemath.org/|Sage]]. Introductory talks will be given and possibly talks or discussions on Sage adapted to the audience of LaCIM 2010 (algebraic combinatorics, theoretical computer science, bioinformatic, physics and number theory) and GASCom (generation of combinatorial objects and bijective combinatorics). Students starting their Autumn semester will be invited as well. The goals are :
 
   * Give introductory talk on Sage for those who don't know Sage
   * Help people installing Sage on their computer
