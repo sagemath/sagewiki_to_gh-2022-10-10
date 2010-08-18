@@ -6,6 +6,7 @@
 
 == Lieu : SH-3420, LaCIM, UQAM, Montréal, Canada ==
 
+  * Le local SH-3420 se trouve dans le [[http://www.uqam.ca/campus/pavillons/sh.htm|Pavillon Sherbrooke]]
   * [[http://lacim.uqam.ca/|LaCIM - Laboratoire de combinatoire et d'informatique mathématique]]
 
 == Contexte ==
