@@ -57,7 +57,7 @@ AVERTISSEMENT : L'horaire suivant est sujet à changement.
 ||12:00-14:00||Dîner||
 ||14:00-16:00||Tutoriel II||
 ||16:00-17:00||Travail libre, discussions et "coding sprints"||
-||17:00-19:00||5 à 7 au Benelux (Pub belge)||
+||17:00-19:00||5 à 7 au [[http://www.brasseriebenelux.com/|Benelux]] (Pub belge)||
 
 == Participants ==
 
