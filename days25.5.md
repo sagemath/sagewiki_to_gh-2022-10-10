@@ -60,16 +60,6 @@ WARNING : The schedule below is subject to change.
 ||16:00-17:00||Working session, free discussions, coding sprints||
 ||17:00-19:00||Happy hour at [[http://www.brasseriebenelux.com/|Benelux]] (Belgium pub)||
 
-== Projects ==
-
-Add projects or coding sprints you propose here :
-
-  * [[/projects|Sprint projects]]
-
-== Mailing List ==
-
-  * TODO
-
 == Participants ==
 
   * Alexandre Blondin Massé
