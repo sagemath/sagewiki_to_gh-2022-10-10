@@ -59,12 +59,6 @@ AVERTISSEMENT : L'horaire suivant est sujet à changement.
 ||16:00-17:00||Working session, free discussions, coding sprints||
 ||17:00-19:00||Happy hour at Benelux (Belgium pub)||
 
-== Projets ==
-
-Ajoutez les projets que vous proposez ici:
-
-  * [[/projects|Sprint projects]]
-
 == Participants ==
 
   * Alexandre Blondin Massé
