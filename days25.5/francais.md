@@ -37,7 +37,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 == Inscription ==
 
-Si vous voulez participer, veuillez remplir le formulaire suivant. Cinq questions pour nous aider à organiser cet événement.
+Si vous désirez participer, veuillez remplir le formulaire suivant. Cinq questions pour nous aider à organiser cet événement.
 
   * [[https://spreadsheets.google.com/viewform?formkey=dE1mc0N2M3lJQlpyN244MTdHOTdRUXc6MQ|S'inscrire au jour Sage 25.5]]
 
