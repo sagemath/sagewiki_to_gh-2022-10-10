@@ -68,8 +68,13 @@ WARNING : The schedule below is subject to change.
   * Christian Stump
   * Florent Hivert
   * Franco Saliola
+  * Jean Berstel
   * Jean-Philippe Labbé
+  * Johan Oudinet
   * Marco Robado
+  * Michèle Soria
+  * Pierre Bouchard
   * Sébastien Labbé
   * Srecko Brlek
-  * Thierry Monteil 
+  * Thierry Monteil
+  * Timothy Walsh
