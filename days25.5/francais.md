@@ -67,8 +67,13 @@ AVERTISSEMENT : L'horaire suivant est sujet à changement.
   * Christian Stump
   * Florent Hivert
   * Franco Saliola
+  * Jean Berstel
   * Jean-Philippe Labbé
+  * Johan Oudinet
   * Marco Robado
+  * Michèle Soria
+  * Pierre Bouchard
   * Sébastien Labbé
   * Srecko Brlek
-  * Thierry Monteil 
+  * Thierry Monteil
+  * Timothy Walsh
