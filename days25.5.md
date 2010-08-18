@@ -58,7 +58,7 @@ WARNING : The schedule below is subject to change.
 ||12:00-14:00||Lunch||
 ||14:00-16:00||More tutorials||
 ||16:00-17:00||Working session, free discussions, coding sprints||
-||17:00-19:00||Happy hour at Benelux (Belgium pub)||
+||17:00-19:00||Happy hour at [[http://www.brasseriebenelux.com/|Benelux]] (Belgium pub)||
 
 == Projects ==
 
