@@ -4,7 +4,7 @@
 
 == One Day : Wednesday, September 1st, 2010 ==
 
-== Location : LaCIM, UQAM, Montréal, Canada ==
+== Location : SH-3420, LaCIM, UQAM, Montréal, Canada ==
 
   * [[http://lacim.uqam.ca/|LaCIM - Laboratoire de combinatoire et d'informatique mathématique]]
 
