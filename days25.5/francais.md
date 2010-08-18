@@ -4,7 +4,7 @@
 
 == Une journée : Mercredi, le 1er septembre 2010 ==
 
-== Lieu : LaCIM, UQAM, Montréal, Canada ==
+== Lieu : SH-3420, LaCIM, UQAM, Montréal, Canada ==
 
   * [[http://lacim.uqam.ca/|LaCIM - Laboratoire de combinatoire et d'informatique mathématique]]
 
