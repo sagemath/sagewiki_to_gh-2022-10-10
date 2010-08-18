@@ -1,5 +1,7 @@
 = Jour Sage 25.5: Introduction à Sage et à la Combinatoire dans Sage (Français) =
 
+[[http://wiki.sagemath.org/days25.5|English Version here]]
+
 == Une journée : Mercredi, le 1er septembre 2010 ==
 
 == Lieu : LaCIM, UQAM, Montréal, Canada ==
