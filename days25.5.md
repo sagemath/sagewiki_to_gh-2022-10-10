@@ -2,7 +2,7 @@
 
 = Sage Day 25.5: Introduction to Sage and Combinatorics =
 
-La page de Sage Day 25.5 [[/days25.5francais|en français ici]].
+[[/francais|Version française ici]]
 
 == One Day : Wednesday, September 1st, 2010 ==
 
