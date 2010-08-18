@@ -1,4 +1,4 @@
-= Jour Sage 25.5: Introduction à Sage et à la Combinatoire dans Sage (Français) =
+= Jour Sage 25.5: Introduction à Sage et à la Combinatoire dans Sage =
 
 [[http://wiki.sagemath.org/days25.5|English Version here]]
 
