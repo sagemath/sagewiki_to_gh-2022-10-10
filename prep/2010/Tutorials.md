@@ -8,7 +8,7 @@ This page will be the home of tutorials from the summer 2010 MAA PREP workshop "
 
   * The [[attachment:PREP Tutorial, Symbolics and Basic Plotting.sws|second tutorial]] demonstrates the basics of using symbolic expressions and plotting in Sage.
 
-  * The third tutorial introduces the most common uses of Sage within the (extended) [[attachment:PREP Tutorial, Calculus|calculus]] sequence.
+  * The third tutorial introduces the most common uses of Sage within the (extended) [[attachment:PREP Tutorial, Symbolics and Basic Plotting.sws|calculus]] sequence.
 
 == Advanced Tutorials ==
 
