@@ -6,6 +6,8 @@ Original report propsal for MTU:
 
 I would like to use this page to collect all the functionality that sage(actually, any CAS) is missing from the bowels of Design Theory that most researchers in the area have as old C code from the 90's.
 
+Please also see the work describing the database of designs that has already been worked on at DesignTheory.org
+
 == Desirable Classes/Attributes ==
 
 Hypergraphs:
