@@ -22,11 +22,11 @@ This page will be the home of tutorials from the summer 2010 MAA PREP workshop "
 
 We also have additional mini-tutorials for specific subfields of undergraduate mathematics as implemented in Sage and its components.
 
-  * Differential Equations
-  * Graph Theory / Discrete
-  * Number Theory / Crypto
-  * Abstract Algebra
-  * Linear Algebra
-  * Numerical Analysis
-  * Statistics / distributions
-  * Multivariable Calculus
+  * [[attachment:PREP Quickstart, Differential Equations.sws|Differential Equations]]
+  * [[attachment:PREP Quickstart, Graph Theory and Discrete Math.sws|Graph Theory / Discrete]]
+  * [[attachment:PREP Quickstart, Number Theory and Cryptography.sws|Number Theory / Crypto]]
+  * [[attachment:PREP Quickstart, Abstract Algebra.sws|Abstract Algebra]]
+  * [[attachment:PREP Quickstart, Linear Algebra.sws|Linear Algebra]]
+  * [[attachment:PREP Quickstart, NumAnalysis.sws|Numerical Analysis]]
+  * [[attachment:PREP Quickstart, Statistics and Distributions.sws|Statistics / distributions]]
+  * [[attachment:PREP Quickstart, Multivariable Calculus.sws|Multivariable Calculus]]
