@@ -12,11 +12,11 @@ This page is the home of tutorials from the summer 2010 MAA PREP workshop "Sage:
 
 == Advanced Tutorials ==
 
-  * There is an introduction to more advanced plotting techniques, in two parts.
+  * There is an introduction to more advanced plotting techniques, in [[attachment:PREP Tutorial, Advanced Plotting, Part 1.sws|two]] [[attachment:PREP Tutorial, Advanced Plotting, Part 2.sws|parts]].
 
   * We also provide an introduction to the most basic [[attachment:PREP Tutorial, Introductory Programming.sws|programming]] skills needed for advanced use of Sage.
 
-  * The interactive capabilities of Sage for classroom demonstration or lab use are relatively easy to use; this worksheet has little dialogue, but shows how one can go from a simple command to a complex "Sagelet" in a slow, step-by-step manner.
+  * The interactive capabilities of Sage for classroom demonstration or lab use are relatively easy to use; [[attachment:PREP Quickstart Interact.sws|this worksheet]] has little dialogue, but shows how one can go from a simple command to a complex "Sagelet" in a slow, step-by-step manner.
 
 == Topical Quickstarts ==
 
