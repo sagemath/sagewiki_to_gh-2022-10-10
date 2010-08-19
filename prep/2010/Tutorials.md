@@ -14,7 +14,7 @@ This page will be the home of tutorials from the summer 2010 MAA PREP workshop "
 
   * There is an introduction to more advanced plotting techniques, in two parts.
 
-  * We also provide an introduction to the most basic programming skills needed for advanced use of Sage.
+  * We also provide an introduction to the most basic [[attachment:PREP Tutorial, Introductory Programming.sws|programming]] skills needed for advanced use of Sage.
 
   * The interactive capabilities of Sage for classroom demonstration or lab use are relatively easy to use, with this introduction. 
 
