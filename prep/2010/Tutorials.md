@@ -1,6 +1,6 @@
 = Tutorials for Sage 2010 PREP workshop =
 
-This page will be the home of tutorials from the summer 2010 MAA PREP workshop "Sage: Using Open-Source Mathematics Software with Undergraduates" (funding provided by NSF DUE 0817071).
+This page is the home of tutorials from the summer 2010 MAA PREP workshop "Sage: Using Open-Source Mathematics Software with Undergraduates" (funding provided by NSF DUE 0817071).
 
 == Basic Tutorials ==
 
