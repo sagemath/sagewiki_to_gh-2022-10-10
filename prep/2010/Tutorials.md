@@ -16,7 +16,7 @@ This page will be the home of tutorials from the summer 2010 MAA PREP workshop "
 
   * We also provide an introduction to the most basic [[attachment:PREP Tutorial, Introductory Programming.sws|programming]] skills needed for advanced use of Sage.
 
-  * The interactive capabilities of Sage for classroom demonstration or lab use are relatively easy to use, with this introduction. 
+  * The interactive capabilities of Sage for classroom demonstration or lab use are relatively easy to use; this worksheet has little dialogue, but shows how one can go from a simple command to a complex "Sagelet" in a slow, step-by-step manner.
 
 == Topical Quickstarts ==
 
