@@ -71,10 +71,15 @@ WARNING : The schedule below is subject to change.
   * Jean Berstel
   * Jean-Philippe Labbé
   * Johan Oudinet
+  * John McKay
   * Marco Robado
+  * Mathilde Bouvel
   * Michèle Soria
+  * Olivier Picard
   * Pierre Bouchard
+  * Samuel Boucher
   * Sébastien Labbé
   * Srecko Brlek
+  * Sylvie Hamel
   * Thierry Monteil
   * Timothy Walsh
