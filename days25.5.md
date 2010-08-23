@@ -71,7 +71,7 @@ WARNING : The schedule below is subject to change.
   * Jean Berstel
   * Jean-Philippe Labbé
   * Johan Oudinet
-  * John McKay
+  * John Mc Kay
   * Marco Robado
   * Mathilde Bouvel
   * Michèle Soria
