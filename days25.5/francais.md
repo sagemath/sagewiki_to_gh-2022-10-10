@@ -38,6 +38,13 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * http://sagebook.gforge.inria.fr/ 
 
+Tutorials given at Sage Days 20 in Marseille. These are Sage Worksheets (.sws) and can be open by the Sage Notebook from their url :
+
+Des tutoriels donnés lors de Sage Days 20 à Marseille. Ce sont des feuilles de travail Sage (.sws) et on peut les ouvrir dans le Sage Notebook avec leur adresse url :
+
+  * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_1_francais.sws|CIRM Tutoriel 1.sws]]
+  * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
+
 == Inscription ==
 
 Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a aucun frais, mais vos réponses à ces cinq questions nous aideront à mieux organiser cet événement.
