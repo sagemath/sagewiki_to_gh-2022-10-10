@@ -39,7 +39,7 @@ An electronic book in french about mathematics and Sage, under the Creative Comm
 
   * http://sagebook.gforge.inria.fr/ 
 
-Tutorials given at Sage Days 20 in Marseille. These are Sage WorkSheets (.sws) and can be open by the Sage Notebook from their url :
+Tutorials given at Sage Days 20 in Marseille. These are Sage Worksheets (.sws) and can be open by the Sage Notebook from their url :
 
   * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%201.sws|CIRM Tutorial 1.sws]]
   * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]]
