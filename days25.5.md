@@ -41,7 +41,7 @@ An electronic book in french about mathematics and Sage, under the Creative Comm
 
 == Registration ==
 
-If you want to participate, fullfil the following form. There is no fee to attend the even, but your answers to those five simple questions will help us to better organize this event.
+If you want to participate, fullfil the following form. There is no fee to attend the event, but your answers to those five simple questions will help us to improve its organization.
 
   * [[https://spreadsheets.google.com/viewform?formkey=dE1mc0N2M3lJQlpyN244MTdHOTdRUXc6MQ|Register for Sage Days 25.5]]
 
