@@ -70,10 +70,15 @@ AVERTISSEMENT : L'horaire suivant est sujet à changement.
   * Jean Berstel
   * Jean-Philippe Labbé
   * Johan Oudinet
+  * John Mc Kay
   * Marco Robado
+  * Mathilde Bouvel
   * Michèle Soria
+  * Olivier Picard
   * Pierre Bouchard
+  * Samuel Boucher
   * Sébastien Labbé
   * Srecko Brlek
+  * Sylvie Hamel
   * Thierry Monteil
   * Timothy Walsh
