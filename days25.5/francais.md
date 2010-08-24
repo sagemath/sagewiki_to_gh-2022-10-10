@@ -11,14 +11,14 @@
 
 == Contexte ==
 
-Organisée en sandwich entre les conférences [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010 - 20e anniversaire]] et [[http://gascom2010.lacim.uqam.ca/|GASCom]], cette journée est une occasion pour leurs participants à en savoir plus sur [[http://sagemath.org/|Sage]]. Des exposés d'introduction seront donnés ainsi que des des discussions sur Sage adaptés à l'auditoire de LaCIM 2010 (Combinatoire algébrique, informatique théorique, bioinformatique, la physique et la théorie des nombres) et GASCom (génération d'objets combinatoires et combinatoire bijective). Les étudiants qui commencent leur trimestre d'automne seront également invités. Les objectifs sont les suivants:
+Organisée en sandwich entre les conférences [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010 - 20e anniversaire]] et [[http://gascom2010.lacim.uqam.ca/|GASCom]], cette journée est une occasion pour leurs participants d'en apprendre plus sur [[http://sagemath.org/|Sage]]. Des exposés d'introduction seront donnés ainsi que des des discussions sur Sage adaptés à l'auditoire de LaCIM 2010 (Combinatoire algébrique, informatique théorique, bioinformatique, la physique et la théorie des nombres) et GASCom (génération d'objets combinatoires et combinatoire bijective). Les étudiants qui commencent leur trimestre d'automne seront également invités. Les objectifs sont les suivants:
 
  * Donner des exposés d'introduction à Sage
- * Aider les participants à installer Sage sur leur ordinateur
- * Donner des conférences sur Sage sur des sujets liés aux conférences LaCIM 2010 et GASCom
- * Donner la possibilité pour les développeurs de Sage se rencontrer et discuter 
+ * Assister les participants dans l'installation de Sage sur leur ordinateur
+ * Présenter des sujets liés aux conférences LaCIM 2010 et GASCom 2010 et en quoi Sage peut leur être utile
+ * Donner la possibilité pour les développeurs de se rencontrer et de discuter 
 
-== Orateurs invités ==
+== Orateur invité ==
 
   * Florent Hivert
  
@@ -38,7 +38,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * http://sagebook.gforge.inria.fr/ 
 
-Des tutoriels donnés lors de Sage Days 20 à Marseille. Ce sont des feuilles de travail Sage (.sws) et on peut les ouvrir dans le Sage Notebook avec leur adresse url :
+Des tutoriels donnés lors de Sage Days 20 à Marseille. Ce sont des feuilles de travail Sage (.sws) et on peut les ouvrir dans le Sage Notebook à partir de leur adresse url :
 
   * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_1_francais.sws|CIRM Tutoriel 1.sws]]
   * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
@@ -51,7 +51,7 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 
 == Horaire ==
 
-L'organisation est en cours. Si vous avez des suggestions (une conférence à donner, un sujet de discussion, une demande spéciale), n'hésitez pas à nous contacter.
+Si vous avez des suggestions (une conférence à donner, un sujet de discussion, une demande spéciale), n'hésitez pas à nous contacter.
 
 AVERTISSEMENT : L'horaire suivant est sujet à changement.
 
