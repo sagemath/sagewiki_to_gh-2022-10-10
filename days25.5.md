@@ -13,13 +13,13 @@
 
 Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010 - 20th aniversary]] and [[http://gascom2010.lacim.uqam.ca/|GASCom]] conferences, this day is an opportunity for their participants to learn more about [[http://sagemath.org/|Sage]]. Introductory talks will be given and possibly talks or discussions on Sage adapted to the audience of LaCIM 2010 (algebraic combinatorics, theoretical computer science, bioinformatic, physics and number theory) and GASCom (generation of combinatorial objects and bijective combinatorics). Students starting their Autumn semester will be invited as well. The goals are :
 
-  * Give introductory talk on Sage for those who don't know Sage
+  * Introduce the audience to Sage and in particular its combinatorial features
   * Help people installing Sage on their computer
-  * Give talks on Sage for topics related to LaCIM 2010 and GASCom conferences (e.g. théorie des espèces)
+  * Present topics related to LaCIM 2010 and GASCom conferences (e.g. species theory) and how Sage can be helpful
   * Give the opportunity for Sage developpers to meet and discuss
 
 
-== Invited Speakers ==
+== Invited Speaker ==
 
   * Florent Hivert
  
@@ -39,7 +39,7 @@ An electronic book in french about mathematics and Sage, under the Creative Comm
 
   * http://sagebook.gforge.inria.fr/ 
 
-Tutorials given at Sage Days 20 in Marseille. These are Sage Worksheets (.sws) and can be open by the Sage Notebook from their url :
+Tutorials given at Sage Days 20 in Marseille. These are Sage Worksheets (.sws) and can be opened by the Sage Notebook from their url :
 
   * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%201.sws|CIRM Tutorial 1.sws]]
   * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]]
@@ -53,7 +53,7 @@ If you want to participate, fullfil the following form. There is no fee to atten
 
 == Schedule ==
 
-The organization is in process. If you have any suggestions (a talk to give, a discussion topic, a special demand) feel free to contact us.
+If you have any suggestions (a talk to give, a discussion topic, a special demand) feel free to contact us.
 
 WARNING : The schedule below is subject to change.
 
