@@ -16,6 +16,7 @@
 
 === Photos ===
 
+   * http://www.fossee.in/gallery
    * http://picasaweb.google.com/SG.Sourav/SageDays25
 
 === Organizers ===
