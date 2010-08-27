@@ -71,21 +71,27 @@ WARNING : The schedule below is subject to change.
   * Alexandre Blondin Massé
   * Ariane Garon
   * Carine Pivoteau
+  * Charles Fortin
   * Christian Stump
   * Florent Hivert
   * Franco Saliola
+  * Hugo Tremblay
   * Jean Berstel
   * Jean-Philippe Labbé
   * Johan Oudinet
   * John Mc Kay
   * Marco Robado
   * Mathilde Bouvel
+  * Mélanie Beck
   * Michèle Soria
+  * Olivier Dubois
   * Olivier Picard
   * Pierre Bouchard
+  * Rodrigo Matias
   * Samuel Boucher
   * Sébastien Labbé
   * Srecko Brlek
   * Sylvie Hamel
   * Thierry Monteil
   * Timothy Walsh
+  * Vivien Ripoll
