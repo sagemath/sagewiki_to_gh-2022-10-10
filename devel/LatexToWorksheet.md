@@ -20,6 +20,14 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is prior to 4.3.3.alpha0 then examples from Beezer's Linear Algebra text will not render quite right.  See way below for how to edit older configurations.
 
+ * An Entire Mathematics Textbook (2010/08/27)
+   * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra: Theory and Applications]]
+   * Zip file has about 30 worksheets, simply upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping.
+   * No cross-worksheet links working (in particular the "Table of Contents" is dysfunctional)
+   * No additional compute cells.  Yet.
+   * Sage compute cell available at the end of each chapter for experiments or for notes (via TinyMCE editor)
+   * [[attachment:aata-sage-20100827.zip | Zip File]]
+
  * Approximating Polynomial Worksheet (2010/02/20)
    * A classroom worksheet, with interacts
    * Nice mix of mathematics and live demonstrations
