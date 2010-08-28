@@ -4,7 +4,7 @@ Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]].
 
 
 == Postup ==
- * Nainstalujte spkg [[odsud | http://trac.sagemath.org/sage_trac/ticket/9428]]
+ * Nainstalujte spkg [[http://trac.sagemath.org/sage_trac/ticket/9428 | odsud]]
  * Vedle adresáře pt_BR vytvořte cs_CZ/LC_MESSAGES/
  * Nakopírujte soubor sagenb.po do cs_CZ/LC_MESSAGES/sagenb.po
  * Spustte tento příkaz: msgfmt sagenb.po -o sagenb.mo
