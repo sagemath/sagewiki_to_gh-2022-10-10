@@ -23,7 +23,7 @@ Note: If your version of Sage is prior to 4.3.3.alpha0 then examples from Beezer
  * An Entire Mathematics Textbook (2010/08/27)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra: Theory and Applications]]
    * Zip file has about 30 worksheets, simply upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping.
-   * No cross-worksheet links working (in particular the "Table of Contents" is dysfunctional)
+   * No cross-worksheet links working (in particular the "Table of Contents" is dysfunctional).  So just click on a chapter in your notebook's list of chapters.
    * No additional compute cells.  Yet.
    * Sage compute cell available at the end of each chapter for experiments or for notes (via TinyMCE editor)
    * [[attachment:aata-sage-20100827.zip | Zip File]]
