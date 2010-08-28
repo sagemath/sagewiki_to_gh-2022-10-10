@@ -1,6 +1,6 @@
-== Překlad hlášení programu ==
+== Překlad ==
 
-Překlad [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]]. 
+Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]]. 
 
 
 == Postup ==
