@@ -40,15 +40,23 @@ For now the main structure is as follows
 
 === Needed generic methods ===
  * switch between representations (the one to which everybody can be converted is triangulated flat surface)
- * computing fundamental group and homology
- * maps between flat surfaces
- * action of SL(2,R) and isomorphisms
+ * computing fundamental group and relative homology and homology (as well as functors between them)
+ * maps between flat surfaces (and functors to fundamental group and homologies)
+ * action of SL(2,R) and isomorphisms (and functors)
  * Siegel Veech constants
  * Lyapunov exponents
+
+=== Surface Group ===
+
+They are needed from two point of vue: the group of the surface itself and its stabilizer under SL(2,R) or PSL(2,R) action. There must be some software for dealing with surface group. We need to look at
+
+ * [[http://www.warwick.ac.uk/~mareg/download/kbmag2/|kbmag]]: Knuth-Bendix in Monoids and Automatic Groups implemented by Derek Holt
 
 === Hyperbolic geometry ===
 This part is roughly implemented in [[http://trac.sagemath.org/sage_trac/ticket/9439|trac #9439]]
  * the three 2D models: hyperbolic plane, hyperbolic disc and the hyperboloïd
  * points, geodesics and polygonal domains
- * tesselations (covering of HH by finite area convex polygonal domains)
- * Fuchsian groups, their fundamental domains and their associated tesselations
+ * tessellations (covering of HH by finite area convex polygonal domains)
+ * Fuchsian groups, their fundamental domains and their associated tessellations
+
+The [[http://egl.math.umd.edu/|Experimental Geometry Lab]] (university of Maryland) published a lot of Mathematica package/worksheets to deal with Kleinian adn Fuchsian groups, hyperbolic tessellations, etc...
