@@ -5,7 +5,8 @@
 For general mathematic references see the [[https://lma.homelinux.org/wiki/FlatSurfaces/FlatSurfaces|Flat surfaces wiki]]. A flat surface can be seen either
  * as a union of polygons glued along pairs of parallel sides,
  * as a flat metric with no holonomy on a compact surface,
- * as a Riemann surface together with a non zero Abelian (or quadratic) differential.
+ * as a Riemann surface together with a non zero Abelian (or quadratic) differential, 
+ * ...
 
 This page is aimed to be a roadmap for the implementations of various algorithm related to flat surfaces and more generally geometry/combinatoric/dynamic of surfaces (Mapping class group, train track, pseudo-Anosov dynamic, ...). For the moment we share the [[http://wiki.sagemath.org/combinat|sage-combinat repository]] with mercurial for the development.
 
@@ -16,6 +17,13 @@ For now the main structure is as follows
  * sage.combinat.flat_surfaces (which contains various generic objects)
  * sage.combinat.flat_surfaces.iet (for interval exchange transformations stuff)
  * sage.combinat.flat_surfaces.origamis (for origamis/square tiled surfaces stuff)
+ * sage.geometry.hyperbolic_geometry (hyperbolic spaces)
+ * sage.groups.surface_gps (abstract surface groups)
+
+Where do we put
+
+ * representation of surface group into PSL(2,R)
+ * fundamental domains of such groups / Poincare polygons / Dirichlet fundamental domains
 
 == Roadmap ==
 
