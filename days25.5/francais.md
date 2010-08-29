@@ -77,6 +77,7 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * Jean-Philippe Labbé
   * Johan Oudinet
   * John Mc Kay
+  * Malcolm Harper
   * Marco Robado
   * Mathilde Bouvel
   * Mélanie Beck
@@ -92,3 +93,4 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * Thierry Monteil
   * Timothy Walsh
   * Vivien Ripoll
+  * Yannic Vargas
