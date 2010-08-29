@@ -38,11 +38,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * http://sagebook.gforge.inria.fr/ 
 
-Feuilles de travail Sage (.sws) que l'on peut ouvrir dans le Notebook de Sage à partir de leur adresse url :
-
-  * [[http://www.thales.math.uqam.ca/~labbes/Sage/JourSage25.5-Tutoriel_1.sws|Jour Sage 25.5 Tutoriel 1.sws]]
-
-Un autre tutoriel donné lors de Sage Days 20 à Marseille sur les objets de base en Python.
+Un tutoriel donné lors de Sage Days 20 à Marseille sur les objets de base en Python.
 
   * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
 
@@ -61,11 +57,13 @@ AVERTISSEMENT : L'horaire suivant est sujet à changement.
 ||08:30-09:30||Installation de Sage & Pause-café||
 ||09:30-10:30||Introduction à Sage et Sage-Combinat, par Florent Hivert||
 ||10:30-11:00||Survol de la librairie de combinatoire de Sage||
-||11:00-12:00||Tutoriel I||
+||11:00-12:00||Tutoriel I [[http://www.thales.math.uqam.ca/~labbes/Sage/JourSage25.5-Tutoriel_1.sws|Jour Sage 25.5 Tutoriel 1.sws]]||
 ||12:00-14:00||Dîner||
 ||14:00-16:00||Tutoriel II||
 ||16:00-17:00||Travail libre, discussions et "coding sprints"||
 ||17:00-19:00||5 à 7 au [[http://www.brasseriebenelux.com/|Benelux]] (Pub belge) au 245 rue Sherbrooke Ouest||
+
+Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sage à partir de leur adresse url.
 
 == Participants ==
 
