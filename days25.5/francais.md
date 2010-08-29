@@ -50,9 +50,7 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 
 == Horaire ==
 
-Si vous avez des suggestions (une conférence à donner, un sujet de discussion, une demande spéciale), n'hésitez pas à nous contacter.
-
-AVERTISSEMENT : L'horaire suivant est sujet à changement.
+Les liens vers les documents utilisés pendant les présentations seront ajoutés directement dans l'horaire.
 
 ||08:30-09:30||Installation de Sage & Pause-café||
 ||09:30-10:30||Introduction à Sage et Sage-Combinat, par Florent Hivert||
