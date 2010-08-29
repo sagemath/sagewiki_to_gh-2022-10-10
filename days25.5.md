@@ -80,6 +80,7 @@ WARNING : The schedule below is subject to change.
   * Jean-Philippe Labbé
   * Johan Oudinet
   * John Mc Kay
+  * Malcolm Harper
   * Marco Robado
   * Mathilde Bouvel
   * Mélanie Beck
@@ -95,3 +96,4 @@ WARNING : The schedule below is subject to change.
   * Thierry Monteil
   * Timothy Walsh
   * Vivien Ripoll
+  * Yannic Vargas
