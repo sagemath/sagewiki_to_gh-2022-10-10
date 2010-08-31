@@ -38,10 +38,6 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * http://sagebook.gforge.inria.fr/ 
 
-Un tutoriel donné lors de Sage Days 20 à Marseille sur les objets de base en Python.
-
-  * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
-
 == Inscription ==
 
 Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a aucun frais, mais vos réponses à ces cinq questions nous aideront à mieux organiser cet événement.
@@ -55,13 +51,18 @@ Les liens vers les documents utilisés pendant les présentations seront ajouté
 ||08:30-09:30||Installation de Sage & Pause-café||
 ||09:30-10:30||Introduction à Sage et Sage-Combinat, par Florent Hivert||
 ||10:30-11:00||Survol de la librairie de combinatoire de Sage||
-||11:00-12:00||Tutoriel I [[http://www.thales.math.uqam.ca/~labbes/Sage/JourSage25.5-Tutoriel_1.sws|Jour Sage 25.5 Tutoriel 1.sws]]||
+||11:00-12:00||Tutoriel I||
 ||12:00-14:00||Dîner||
 ||14:00-16:00||Tutoriel II||
 ||16:00-17:00||Travail libre, discussions et "coding sprints"||
 ||17:00-19:00||5 à 7 au [[http://www.brasseriebenelux.com/|Benelux]] (Pub belge) au 245 rue Sherbrooke Ouest||
 
 Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sage à partir de leur adresse url.
+
+== Feuilles de travail Sage pour Jour Sage 25.5 ==
+
+  * Se familiariser avec le Notebook de Sage : [[http://www.thales.math.uqam.ca/~labbes/Sage/JourSage25.5-Tutoriel_1.sws|Jour Sage 25.5 Tutoriel 1.sws]]
+  * Objets de base en Python : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
 
 == Participants ==
 
