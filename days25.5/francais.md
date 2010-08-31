@@ -57,9 +57,9 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 ||15:30-17:00||Travail libre, discussions et "coding sprints"||
 ||17:00-19:00||5 à 7 au [[http://www.brasseriebenelux.com/|Benelux]] (Pub belge) au 245 rue Sherbrooke Ouest||
 
-Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sage à partir de leur adresse url.
-
 == Feuilles de travail utilisées pendant la journée ==
+
+Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sage à partir de leur adresse url.
 
   * Se familiariser avec le Notebook de Sage : [[http://www.thales.math.uqam.ca/~labbes/Sage/JourSage25.5-Tutoriel_1.sws|Jour Sage 25.5 Tutoriel 1.sws]]
   * Objets de base en Python : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
