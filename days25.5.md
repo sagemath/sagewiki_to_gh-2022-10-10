@@ -59,7 +59,7 @@ WARNING : The schedule below is subject to change.
 
 
 ||08:30-09:00||Coffee||
-||08:00-09:30||Installation of Sage||
+||09:00-09:30||Installation of Sage||
 ||09:30-10:30||Introduction to Sage and Sage-Combinat, by Florent Hivert||
 ||10:30-11:00||Overview of Sage Combinatorics Library||
 ||11:00-11:30||Finish the Installation of Sage||
