@@ -62,8 +62,8 @@ WARNING : The schedule below is subject to change.
 ||09:00-09:30||Installation of Sage||
 ||09:30-10:30||Introduction to Sage and Sage-Combinat, by Florent Hivert||
 ||10:30-11:00||Overview of Sage Combinatorics Library||
-||11:00-11:30||Finish the Installation of Sage||
-||11:00-12:00||Basic tutorial [[attachment:SageDays25.5-Tutorial1.sws]]||
+||11:00-12:00||Finish the Installation of Sage
+Basic tutorial [[attachment:SageDays25.5-Tutorial1.sws]]||
 ||12:00-14:00||Lunch||
 ||14:00-16:00||More tutorials||
 ||16:00-17:00||Working session, free discussions, coding sprints||
