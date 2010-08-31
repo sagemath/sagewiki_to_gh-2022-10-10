@@ -71,7 +71,7 @@ WARNING : The schedule below is subject to change.
 
 == Tutorials for Sage Days 25.5 ==
 
-  * How to use the Sage Notebook and exercises [[attachment:SageDays25.5-Tutorial1.sws]]
+  * How to use the Sage Notebook [[attachment:SageDays25.5-Tutorial1.sws]]
 
 == Participants ==
 
