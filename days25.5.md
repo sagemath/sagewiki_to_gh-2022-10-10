@@ -57,9 +57,12 @@ If you have any suggestions (a talk to give, a discussion topic, a special deman
 
 WARNING : The schedule below is subject to change.
 
-||08:30-09:30||Installation of Sage & Coffee||
+
+||08:30-09:00||Coffee||
+||08:00-09:30||Installation of Sage||
 ||09:30-10:30||Introduction to Sage and Sage-Combinat, by Florent Hivert||
 ||10:30-11:00||Overview of Sage Combinatorics Library||
+||11:00-11:30||Finish the Installation of Sage||
 ||11:00-12:00||Basic tutorial [[attachment:SageDays25.5-Tutorial1.sws]]||
 ||12:00-14:00||Lunch||
 ||14:00-16:00||More tutorials||
