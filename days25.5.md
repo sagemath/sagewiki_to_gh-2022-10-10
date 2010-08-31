@@ -39,12 +39,6 @@ An electronic book in french about mathematics and Sage, under the Creative Comm
 
   * http://sagebook.gforge.inria.fr/ 
 
-Tutorials given at Sage Days 20 in Marseille. These are Sage Worksheets (.sws) and can be opened by the Sage Notebook from their url :
-
-  * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%201.sws|CIRM Tutorial 1.sws]]
-  * [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]]
-  * [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]] by Nicolas Thierry
-
 == Registration ==
 
 If you want to participate, fullfil the following form. There is no fee to attend the event, but your answers to those five simple questions will help us to improve its organization.
@@ -71,7 +65,9 @@ WARNING : The schedule below is subject to change.
 
 == Tutorials for Sage Days 25.5 ==
 
-  * How to use the Sage Notebook [[attachment:SageDays25.5-Tutorial1.sws]]
+  * How to use the Sage Notebook : [[attachment:SageDays25.5-Tutorial1.sws]]
+  * Basic Python objects : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]]
+  * Tutorial on Combinatorics given at Sage Days 20 in Marseille by Nicolas Thierry : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]] 
 
 == Participants ==
 
