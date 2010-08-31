@@ -59,7 +59,7 @@ Les liens vers les documents utilisés pendant les présentations seront ajouté
 
 Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sage à partir de leur adresse url.
 
-== Feuilles de travail Sage pour Jour Sage 25.5 ==
+== Feuilles de travail utilisées pendant la journée ==
 
   * Se familiariser avec le Notebook de Sage : [[http://www.thales.math.uqam.ca/~labbes/Sage/JourSage25.5-Tutoriel_1.sws|Jour Sage 25.5 Tutoriel 1.sws]]
   * Objets de base en Python : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
