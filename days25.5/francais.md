@@ -30,6 +30,10 @@ Organisée en sandwich entre les conférences [[http://lacim2010.lacim.uqam.ca/|
 
 == À propos de Sage ==
 
+Sage est un logiciel libre et gratuit de mathématiques. Sa mission est d'offrir une alternative viable aux logiciels commerciaux comme Maple ou Mathematica, et sa communauté est en pleine croissance dans le monde entier. Vous trouverez plus d'informations sur Sage sur le site:
+
+  * http://www.sagemath.org
+
 Un récent vidéo fait par William Stein, l'initiateur de Sage, à l'occasion de Sage Days  25 en Inde (en anglais) :
 
   * [[http://vimeo.com/13986940|Introduction to Sage: History, Goals, Demo]], 49 min.
