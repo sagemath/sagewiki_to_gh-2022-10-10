@@ -62,11 +62,16 @@ WARNING : The schedule below is subject to change.
 ||09:00-09:30||Installation of Sage||
 ||09:30-10:30||Introduction to Sage and Sage-Combinat, by Florent Hivert||
 ||10:30-11:00||Overview of Sage Combinatorics Library||
-||11:00-12:00||Finish the Installation of Sage & Basic tutorial [[attachment:SageDays25.5-Tutorial1.sws]]||
+||11:00-12:00||Finish the Installation of Sage & Basic tutorial||
 ||12:00-14:00||Lunch||
-||14:00-16:00||More tutorials||
-||16:00-17:00||Working session, free discussions, coding sprints||
+||14:00-15:00||More tutorials||
+||15:00-15:30||Coffee Break||
+||15:30-17:00||Working session, tutorials free discussions, coding sprints||
 ||17:00-19:00||Happy hour at [[http://www.brasseriebenelux.com/|Benelux]] (Belgium pub) at 245, Sherbrooke West Street||
+
+== Tutorials for Sage Days 25.5 ==
+
+  * How to use the Sage Notebook and exercises [[attachment:SageDays25.5-Tutorial1.sws]]
 
 == Participants ==
 
