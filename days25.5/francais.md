@@ -70,6 +70,8 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * Objets de base en Python : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
   * Survol de la combinatoire dans Sage : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]] 
   * Graphs demo : [[attachment:../SageDays25.5-Graphs.sws]]
+  * Sage + Latex : [[attachment:devoir.tex]] + sagetex = [[attachment:devoir.pdf]]
+  * Quelques [[/../animate|animations]] faites avec Sage
 
 == Enseigner avec Sage (ressources majoritairement en anglais) ==
 
