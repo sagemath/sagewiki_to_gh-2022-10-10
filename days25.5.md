@@ -76,6 +76,7 @@ WARNING : The schedule below is subject to change.
   * Graphs mini-demo : [[attachment:SageDays25.5-Graphs.sws]]
   * Sage + Latex demo : [[attachment:devoir.tex]] + sagetex = [[attachment:devoir.pdf]]
   * Some [[/../animate|animations]] done with Sage
+  * Documentation for Words Library : http://www.sagemath.org/doc/reference/combinat/words.html
 
 == Teaching with Sage ==
 
