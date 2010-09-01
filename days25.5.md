@@ -43,6 +43,12 @@ An electronic book in french about mathematics and Sage, under the Creative Comm
 
   * Calcul mathématique avec Sage, livre gratuit, juillet 2010 : http://sagebook.gforge.inria.fr/ 
 
+Teaching with Sage :
+
+  * http://wiki.sagemath.org/Teaching_with_SAGE
+  * http://wiki.sagemath.org/Teaching_using_SAGE
+  * http://groups.google.com/group/sage-edu
+
 == Registration ==
 
 If you want to participate, fullfil the following form. There is no fee to attend the event, but your answers to those five simple questions will help us to improve its organization.
