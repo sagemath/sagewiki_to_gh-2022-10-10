@@ -40,7 +40,7 @@ Un récent vidéo fait par William Stein, l'initiateur de Sage, à l'occasion de
 
 Un livre en français sur les mathématiques et sur Sage, sous la licence Creative Commons, a été publié récemment:
 
-  * http://sagebook.gforge.inria.fr/ 
+  * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
 == Inscription ==
 
