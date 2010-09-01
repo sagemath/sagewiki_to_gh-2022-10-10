@@ -72,6 +72,7 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * Graphs demo : [[attachment:../SageDays25.5-Graphs.sws]]
   * Sage + Latex : [[attachment:devoir.tex]] + sagetex = [[attachment:devoir.pdf]]
   * Quelques [[/../animate|animations]] faites avec Sage
+  * Documentation sur la librairie sur les mots : http://www.sagemath.org/doc/reference/combinat/words.html
 
 == Enseigner avec Sage (ressources majoritairement en anglais) ==
 
