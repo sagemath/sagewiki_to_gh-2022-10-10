@@ -43,12 +43,6 @@ An electronic book in french about mathematics and Sage, under the Creative Comm
 
   * Calcul mathématique avec Sage, livre gratuit, juillet 2010 : http://sagebook.gforge.inria.fr/ 
 
-== Teaching with Sage ==
-
-  * [[http://wiki.sagemath.org/Teaching_with_SAGE|Materials and links]] to recent math courses given with Sage
-  * [[http://wiki.sagemath.org/Teaching_using_SAGE|Some more materials]]
-  * The [[http://groups.google.com/group/sage-edu|sage-edu mailing list]] which is for helping those who have teaching or education-related ideas or questions relating to Sage.
-
 == Registration ==
 
 If you want to participate, fullfil the following form. There is no fee to attend the event, but your answers to those five simple questions will help us to improve its organization.
@@ -80,6 +74,12 @@ WARNING : The schedule below is subject to change.
   * Basic Python objects : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]]
   * Tutorial on Combinatorics given at Sage Days 20 in Marseille by Nicolas Thierry : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]]
   * Graphs mini-demo : [[attachment:SageDays25.5-Graphs.sws]]
+
+== Teaching with Sage ==
+
+  * [[http://wiki.sagemath.org/Teaching_with_SAGE|Materials and links]] to recent math courses given with Sage
+  * [[http://wiki.sagemath.org/Teaching_using_SAGE|Some more materials]]
+  * The [[http://groups.google.com/group/sage-edu|sage-edu mailing list]] which is for helping those who have teaching or education-related ideas or questions relating to Sage.
 
 == Participants ==
 
