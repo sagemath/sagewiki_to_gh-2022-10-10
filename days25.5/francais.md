@@ -51,7 +51,7 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 == Horaire ==
 
 ||08:30-09:00||Pause-café||
-||09:00-09:30||Installation de Sage||
+||09:00-09:30||Installation de Sage ([[/win_install|Windows instructions]])||
 ||09:30-10:30||Introduction à Sage et Sage-Combinat, par Florent Hivert||
 ||10:30-11:00||Survol de la librairie de combinatoire de Sage||
 ||11:00-12:00||Terminer les installations de Sage & Tutoriel I||
