@@ -53,12 +53,13 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 ||08:30-09:00||Pause-café||
 ||09:00-09:30||Installation de Sage ([[../win_install|Windows instructions]])||
 ||09:30-10:30||Introduction à Sage et Sage-Combinat, par Florent Hivert||
-||10:30-11:00||Survol de la librairie de combinatoire de Sage||
+||10:30-11:00||Présentation des participants (nom, occupation, objectifs) & Pause-café ||
 ||11:00-12:00||Terminer les installations de Sage & Tutoriel I||
 ||12:00-14:00||Dîner||
-||14:00-15:00||Tutoriel II||
-||15:00-15:30||Pause-café||
-||15:30-17:00||Travail libre, discussions et "coding sprints"||
+||14:00-14:30||Survol de la librairie de combinatoire de Sage||
+||14:30-15:30||Tutoriel II||
+||15:30-16:00||Pause-café||
+||16:00-17:00||Travail libre, discussions et "coding sprints"||
 ||17:00-19:00||5 à 7 au [[http://www.brasseriebenelux.com/|Benelux]] (Pub belge) au 245 rue Sherbrooke Ouest||
 
 == Feuilles de travail utilisées pendant la journée ==
