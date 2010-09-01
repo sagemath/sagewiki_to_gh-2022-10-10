@@ -31,6 +31,10 @@ Held in sandwich between [[http://lacim2010.lacim.uqam.ca/|LaCIM 2010 - 20th ani
 
 == About Sage ==
 
+Sage is a free open-source  mathematics software system licensed under the GPL. It combines the power of many existing open-source packages into a common Python-based interface. Its mission is to create a viable free open source alternative to Magma, Maple, Mathematica and Matlab.
+
+  * http://sagemath.org/
+
 A recent video screencast given by William Stein, the initiator of Sage, at Sage Days 25 in India :
 
   * [[http://vimeo.com/13986940|Introduction to Sage: History, Goals, Demo]], 49 min.
