@@ -68,7 +68,10 @@ WARNING : The schedule below is subject to change.
   * How to use the Sage Notebook : [[attachment:SageDays25.5-Tutorial1.sws]]
   * Basic Python objects : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]]
   * Tutorial on Combinatorics given at Sage Days 20 in Marseille by Nicolas Thierry : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]]
-  * Graphs demo : [[attachment:SageDays25.5-Graphs.sws]]
+
+== Mini Demos ==
+
+  * Graphs mini-demo : [[attachment:SageDays25.5-Graphs.sws]]
 
 == Participants ==
 
