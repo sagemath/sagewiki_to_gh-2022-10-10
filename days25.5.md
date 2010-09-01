@@ -74,7 +74,7 @@ WARNING : The schedule below is subject to change.
   * Basic Python objects : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]]
   * Tutorial on Combinatorics given at Sage Days 20 in Marseille by Nicolas Thierry : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]]
   * Graphs mini-demo : [[attachment:SageDays25.5-Graphs.sws]]
-  * Sage + Latex demo : [[attachment:devoir.tex]] -> [[attachment:devoir.pdf]]
+  * Sage + Latex demo : [[attachment:devoir.tex]] + sagetex = [[attachment:devoir.pdf]]
   * Some [[/../animate|animations]] done with Sage
 
 == Teaching with Sage ==
