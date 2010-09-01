@@ -71,6 +71,12 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * Survol de la combinatoire dans Sage : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]] 
   * Graphs demo : [[attachment:../SageDays25.5-Graphs.sws]]
 
+== Enseigner avec Sage (ressources majoritairement en anglais) ==
+
+  * [[http://wiki.sagemath.org/Teaching_with_SAGE|Du matériel et des liens]] vers des cours de math donnés récemment avec Sage
+  * [[http://wiki.sagemath.org/Teaching_using_SAGE|Plus de matériels]]
+  * La [[http://groups.google.com/group/sage-edu|liste d'envoi sage-edu]] dont l'objectif est d'aider ceux qui ont des idées ou des questions reliés à l'enseignement et à Sage.
+
 == Participants ==
 
   * Alexandre Blondin Massé
