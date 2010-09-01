@@ -41,7 +41,7 @@ A recent video screencast given by William Stein, the initiator of Sage, at Sage
 
 An electronic book in french about mathematics and Sage, under the Creative Commons CC-by-sa license, was published recently : 
 
-  * http://sagebook.gforge.inria.fr/ 
+  * Calcul mathématique avec Sage, livre gratuit, juillet 2010 : http://sagebook.gforge.inria.fr/ 
 
 == Registration ==
 
