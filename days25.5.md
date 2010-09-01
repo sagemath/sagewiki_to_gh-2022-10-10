@@ -63,14 +63,11 @@ WARNING : The schedule below is subject to change.
 ||15:30-17:00||Working session, tutorials free discussions, coding sprints||
 ||17:00-19:00||Happy hour at [[http://www.brasseriebenelux.com/|Benelux]] (Belgium pub) at 245, Sherbrooke West Street||
 
-== Tutorials for Sage Days 25.5 ==
+== Tutorials for Sage Days 25.5 and Mini Demos ==
 
   * How to use the Sage Notebook : [[attachment:SageDays25.5-Tutorial1.sws]]
   * Basic Python objects : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]]
   * Tutorial on Combinatorics given at Sage Days 20 in Marseille by Nicolas Thierry : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]]
-
-== Mini Demos ==
-
   * Graphs mini-demo : [[attachment:SageDays25.5-Graphs.sws]]
 
 == Participants ==
