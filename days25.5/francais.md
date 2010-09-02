@@ -52,7 +52,7 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 
 ||08:30-09:00||Pause-café||
 ||09:00-09:30||Installation de Sage ([[../win_install|Windows instructions]])||
-||09:30-10:30||Introduction à Sage et Sage-Combinat, par Florent Hivert||
+||09:30-10:30||Introduction à Sage et Sage-Combinat, par Florent Hivert [[attachment:SageIntroductionHivert.pdf]]||
 ||10:30-11:00||Présentation des participants (nom, occupation, objectifs) & Pause-café ||
 ||11:00-12:00||Terminer les installations de Sage & Tutoriel I||
 ||12:00-14:00||Dîner||
@@ -72,6 +72,7 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * Se familiariser avec le Notebook de Sage : [[http://www.thales.math.uqam.ca/~labbes/Sage/JourSage25.5-Tutoriel_1.sws|Jour Sage 25.5 Tutoriel 1.sws]]
   * Objets de base en Python : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
   * Survol de la combinatoire dans Sage : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]] 
+  * Feuille de travail de Florent sur la combinatoire : [[attachment:SageDemoHivert.sws]]
   * Graphs demo : [[attachment:../SageDays25.5-Graphs.sws]]
   * Sage + Latex : [[attachment:devoir.tex]] + sagetex = [[attachment:devoir.pdf]]
   * Quelques [[/../../animate|animations]] faites avec Sage. Vous pouvez aussi consulter la documentation de "animate?" directement dans Sage qui contient plusieurs exemples.
