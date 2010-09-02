@@ -56,8 +56,10 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 ||10:30-11:00||Présentation des participants (nom, occupation, objectifs) & Pause-café ||
 ||11:00-12:00||Terminer les installations de Sage & Tutoriel I||
 ||12:00-14:00||Dîner||
-||14:00-14:30||Survol de la librairie de combinatoire de Sage||
-||14:30-15:30||Tutoriel II||
+||14:00-14:30||Terminer le Tutoriel I||
+||14:25-14:30||Enseigner avec Sage - Les ressources disponibles sur internet||
+||<2>14:30-15:30||Théorie des graphes, par Franco Saliola||
+||Combinatoire des mots, par Alexandre Blondin Massé||
 ||15:30-16:00||Pause-café||
 ||16:00-17:00||Travail libre, discussions et "coding sprints"||
 ||17:00-19:00||5 à 7 au [[http://www.brasseriebenelux.com/|Benelux]] (Pub belge) au 245 rue Sherbrooke Ouest||
