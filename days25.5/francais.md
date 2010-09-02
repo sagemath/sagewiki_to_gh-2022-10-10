@@ -57,14 +57,15 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 ||11:00-12:00||Terminer les installations de Sage & Tutoriel I||
 ||12:00-14:00||Dîner||
 ||14:00-14:30||Terminer le Tutoriel I||
-||14:25-14:30||Enseigner avec Sage - Les ressources disponibles sur internet||
-||<|2>14:30-15:30||Théorie des graphes, par Franco Saliola||
+||<|3>14:30-15:30||Enseigner avec Sage - Les ressources disponibles sur internet, par Sébastien Labbé||
+||Théorie des graphes, par Franco Saliola||
 ||Combinatoire des mots, par Alexandre Blondin Massé||
 ||15:30-16:00||Pause-café||
-||16:00-17:00||Travail libre, discussions et "coding sprints"||
+||<|2>16:00-17:00||Théorie des espèces et combinatoire, par Florent Hivert||
+||Les commandes animate et interact, utilisation de Sage avec LaTeX, par Sébastien Labbé ||
 ||17:00-19:00||5 à 7 au [[http://www.brasseriebenelux.com/|Benelux]] (Pub belge) au 245 rue Sherbrooke Ouest||
 
-== Feuilles de travail utilisées pendant la journée ==
+== Feuilles de travail utilisées et ressources mentionnées pendant la journée ==
 
 Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sage à partir de leur adresse url.
 
