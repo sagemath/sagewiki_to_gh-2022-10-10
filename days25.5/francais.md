@@ -72,9 +72,9 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * Se familiariser avec le Notebook de Sage : [[http://www.thales.math.uqam.ca/~labbes/Sage/JourSage25.5-Tutoriel_1.sws|Jour Sage 25.5 Tutoriel 1.sws]]
   * Objets de base en Python : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM_Tutoriel_3_francais.sws|CIRM Tutoriel 3.sws]]
   * Survol de la combinatoire dans Sage : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]] 
-  * Feuille de travail de Florent sur la combinatoire : [[attachment:SageDemoHivert.sws]]
+  * Feuille de travail de Florent sur la combinatoire : [[attachment:../SageDemoHivert.sws]]
   * Graphs demo : [[attachment:../SageDays25.5-Graphs.sws]]
-  * Sage + Latex : [[attachment:devoir.tex]] + sagetex = [[attachment:devoir.pdf]]
+  * Sage + Latex : [[attachment:../devoir.tex]] + sagetex = [[attachment:../devoir.pdf]]
   * Quelques [[/../../animate|animations]] faites avec Sage. Vous pouvez aussi consulter la documentation de "animate?" directement dans Sage qui contient plusieurs exemples.
   * [[/../../interact|Plusieurs exemples de interact]] sont disponibles sur le Sage Wiki. Vous pouvez aussi consulter la documentation de "interact?" directement dans Sage qui contient plusieurs exemples.
   * Documentation sur la librairie sur les mots : http://www.sagemath.org/doc/reference/combinat/words.html
