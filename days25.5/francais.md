@@ -58,7 +58,7 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 ||12:00-14:00||Dîner||
 ||14:00-14:30||Terminer le Tutoriel I||
 ||14:25-14:30||Enseigner avec Sage - Les ressources disponibles sur internet||
-||<2|>14:30-15:30||Théorie des graphes, par Franco Saliola||
+||<|2>14:30-15:30||Théorie des graphes, par Franco Saliola||
 ||Combinatoire des mots, par Alexandre Blondin Massé||
 ||15:30-16:00||Pause-café||
 ||16:00-17:00||Travail libre, discussions et "coding sprints"||
