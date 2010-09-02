@@ -78,6 +78,7 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * Quelques [[/../../animate|animations]] faites avec Sage. Vous pouvez aussi consulter la documentation de "animate?" directement dans Sage qui contient plusieurs exemples.
   * [[/../../interact|Plusieurs exemples de interact]] sont disponibles sur le Sage Wiki. Vous pouvez aussi consulter la documentation de "interact?" directement dans Sage qui contient plusieurs exemples.
   * Documentation sur la librairie sur les mots : http://www.sagemath.org/doc/reference/combinat/words.html
+  * [[attachment:../The Fibonacci Word.sws]]
 
 == Enseigner avec Sage (ressources majoritairement en anglais) ==
 
