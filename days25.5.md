@@ -82,6 +82,7 @@ WARNING : The schedule below is subject to change.
   * Some [[/../animate|animations]] done with Sage
   * [[/../interact|Many examples of interact]] are available on the Sage Wiki. You can also consult "interact?" directly in sage which contains lot of examples.
   * Documentation for Words Library : http://www.sagemath.org/doc/reference/combinat/words.html
+  * [[attachment:The Fibonacci Word.sws]]
 
 == Teaching with Sage ==
 
