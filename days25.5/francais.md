@@ -83,7 +83,7 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * [[http://wiki.sagemath.org/Teaching_with_SAGE|Cours de math donnés récemment avec Sage]]
   * [[http://wiki.sagemath.org/Teaching_using_SAGE|Plus de matériels]]
   * La [[http://groups.google.com/group/sage-edu|liste d'envoi sage-edu]] dont l'objectif est d'aider ceux qui ont des idées ou des questions reliés à l'enseignement et à Sage.
-  * [[http://mail.irem.univ-mrs.fr/mailman/listinfo/sagemath-edu|sagemath-edu]] -- liste de discussion SAGE-education francophone
+  * [[http://mail.irem.univ-mrs.fr/mailman/listinfo/sagemath-edu|sagemath-edu]] -- liste de discussion Sage-education francophone
 
 == Participants ==
 
