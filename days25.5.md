@@ -62,16 +62,19 @@ WARNING : The schedule below is subject to change.
 ||10:30-11:00||Presentation of participants (name, occupation, objectives) ||
 ||11:00-12:00||Finish the Installation of Sage & Basic tutorial||
 ||12:00-14:00||Lunch||
-||14:00-14:30||Overview of Sage Combinatorics Library||
-||14:30-15:30||More tutorials||
-||15:30-16:00||Coffee Break||
-||16:00-17:00||Working session, tutorials free discussions, coding sprints||
+||14:00-14:30||Finish the Tutorial I||
+||<|3>14:30-15:30||Teaching with Sage - Ressources available on the web, by Sébastien Labbé||
+||Graph Theory, by Franco Saliola||
+||Combinatorics on words, by Alexandre Blondin Massé||
+||15:30-16:00||Coffee||
+||<|2>16:00-17:00||Species theory and Sage Combinatorics Library, by Florent Hivert||
+||animate and interact commands, using Sage from LaTeX, by Sébastien Labbé ||
 ||17:00-19:00||Happy hour at [[http://www.brasseriebenelux.com/|Benelux]] (Belgium pub) at 245, Sherbrooke West Street||
 
 == Tutorials for Sage Days 25.5 and Mini Demos ==
 
-  * How to use the Sage Notebook : [[attachment:SageDays25.5-Tutorial1.sws]]
-  * Basic Python objects : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]]
+  * How to use the Sage Notebook : [[attachment:SageDays25.5-Tutorial1.sws]] (traduit en français, voir [[/francais]])
+  * Basic Python objects : [[http://sage.math.washington.edu/home/slabbe/days20/CIRM%20Tutorial%203.sws|CIRM Tutorial 3.sws]] (traduit en français, voir [[/francais]])
   * Tutorial on Combinatorics given at Sage Days 20 in Marseille by Nicolas Thierry : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]]
   * Graphs mini-demo : [[attachment:SageDays25.5-Graphs.sws]]
   * Sage + Latex demo : [[attachment:devoir.tex]] + sagetex = [[attachment:devoir.pdf]]
