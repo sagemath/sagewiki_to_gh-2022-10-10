@@ -71,8 +71,8 @@ Les feuilles de travail Sage (.sws) peuvent être ouverte dans le Notebook de Sa
   * Survol de la combinatoire dans Sage : [[http://sage.math.washington.edu/home/slabbe/days20/NicolasThierry%20-%20sage-combinat%20demonstration.sws|Sage-Combinat demonstration.sws]] 
   * Graphs demo : [[attachment:../SageDays25.5-Graphs.sws]]
   * Sage + Latex : [[attachment:devoir.tex]] + sagetex = [[attachment:devoir.pdf]]
-  * Quelques [[/../animate|animations]] faites avec Sage
-  * [[/../interact|Plusieurs exemples de interact]] sont disponibles sur le Sage Wiki. Vous pouvez aussi consulter la documentation de "interact?" directement dans Sage qui contient plusieurs exemples.
+  * Quelques [[/../../animate|animations]] faites avec Sage
+  * [[/../../interact|Plusieurs exemples de interact]] sont disponibles sur le Sage Wiki. Vous pouvez aussi consulter la documentation de "interact?" directement dans Sage qui contient plusieurs exemples.
   * Documentation sur la librairie sur les mots : http://www.sagemath.org/doc/reference/combinat/words.html
 
 == Enseigner avec Sage (ressources majoritairement en anglais) ==
