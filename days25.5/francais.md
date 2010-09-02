@@ -52,7 +52,7 @@ Si vous désirez participer, veuillez remplir le formulaire suivant. Il n'y a au
 
 ||08:30-09:00||Pause-café||
 ||09:00-09:30||Installation de Sage ([[../win_install|Windows instructions]])||
-||09:30-10:30||Introduction à Sage et Sage-Combinat, par Florent Hivert [[attachment:SageIntroductionHivert.pdf]]||
+||09:30-10:30||Introduction à Sage et Sage-Combinat, par Florent Hivert [[attachment:../SageIntroductionHivert.pdf]]||
 ||10:30-11:00||Présentation des participants (nom, occupation, objectifs) & Pause-café ||
 ||11:00-12:00||Terminer les installations de Sage & Tutoriel I||
 ||12:00-14:00||Dîner||
