@@ -182,4 +182,4 @@ is perceived in the outside world.
   *    AMS Notices article by David Vogan The Character Table for E,,8,, : http://www.ams.org/notices/200709/tx070901122p.pdf
 
   *  Georg Muntingh's review of Sage
-    http://www.sagemath.org/why/muntingh-sage-review/muntingh-sage-review/index.html
+    http://georgm.blogspot.com/2007/03/sage-computer-algebra-system.html
