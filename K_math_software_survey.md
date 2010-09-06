@@ -41,6 +41,7 @@ As of Feburary 23, 2007, I am studying [[Investigations_in_Number,_Data,_and_Spa
  * [[http://www.riverdeep.net/portal/page?_pageid=353,138374,353_138375&_dad=portal&_schema=PORTAL|Destination Math]] - fancy game covering counting up to one hundred, comparing naturals, patterns, triangles, rectangles, sums within twenty, differences within twenty, and basic measurement ([[http://www.riverdeep.net/portal/page?_pageid=353,138374,353_138384&_dad=portal&_schema=PORTAL|DEMO]])
  * [[http://www.meridiancg.com/products/prod_emath/emath_scope.htm#kinder|Elementary math]] - small neighborhood environment with three to five activities per building covering searching, natural numbers up to twenty, measurement, addition, subtraction, counting, time, and money (NO DEMO)
  * [[http://www.fundamentallymath.com/reviews.html|FUNdamentallyMATH]] - teaches mathematical concepts using programming language [[http://en.wikipedia.org/wiki/Logo_programming_language|Logo]] ([[http://www.fundamentallymath.com/demo.html|DEMO]])
+ * [[http://www.elementarymathgames.net/first-grade-math-games.html|First Grade Math Games]] - group of educational games that add fun to learning (NO DEMO)
  * [[http://www.learningbox.com/s_index.htm|Manipulative Math Series (3D Space, BaseTen Blocks, Logic Blocks, and Peg Board)]] - activity based old style graphical environment covering shapes, patterns, and positioning, addition, subtraction, numeral place value, primary geometry and problem solving (NO DEMO)
  * [[http://www.essentialskills.net/product_info.php/cPath/39_250/products_id/131|Mastering Numeration]] - teaches counting, addition, subtraction, and number recognition (NO DEMO)
  * [[http://www.infomath.com/html/online-tutor.asp|Math Tutor 1]] - online tutor program with many practice problems covering addition, subtraction, time, money, and basic geometry concepts ([[http://www.infomath.com/oltutor/math1/demo/mt1_demo.asp|DEMO]])
@@ -54,3 +55,7 @@ As of Feburary 23, 2007, I am studying [[Investigations_in_Number,_Data,_and_Spa
 ==== Worksheet generators ====
 
  * [[http://www.mathgen.com/|MathGen]] - features include selecting types of problems, two ranges of possible numbers for top and bottom, and select number of problems per page 
+
+==== Worksheets ====
+
+ * [[http://www.kindergartenworksheets.net/kindergarten-math-worksheets.html|Kindergarten Math Worksheets]] - has numerous math worksheets for teachers and students
