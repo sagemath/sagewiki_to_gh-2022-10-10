@@ -209,6 +209,8 @@ sage: b*s*s
 [b*a*b + b^2*a   b*a^2 + b^3]
 }}}
 
+For matrices in particular, see [[http://groups.google.com/group/sage-devel/browse_thread/thread/cafb486c79a2eb3c/d0bb78d09a4fb52a]]
+
 === How do I save an object so I don't have to compute it each time I open a worksheet? ===
 
 The {{{save}}} and {{{load}}} commands will save and load an object, respectively.  In the notebook, the {{{DATA}}} variable is the location of the data storage area of the worksheet.  To save the object {{{my_stuff}}} in a worksheet, you could do {{{save(my_stuff, DATA+"my_stuff")}}} and to reload it, you would just do {{{my_stuff = load(DATA+"my_stuff")}}}
