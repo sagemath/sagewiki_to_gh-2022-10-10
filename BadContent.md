@@ -4567,6 +4567,7 @@ poker-rooms-review\.org
 all-auto\.ro
 517dv\.com
 casino.?spielen\.biz
+ktmboard\.com
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
 ## MoinMoin >=1.6 has TextCHAs for spam prevention and they are currently very effective (no
