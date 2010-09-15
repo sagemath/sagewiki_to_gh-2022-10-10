@@ -5,6 +5,8 @@ This is a rough sketch of ideas on guidelines for managing the Sage user and dev
 
 == Cultivating an open source community ==
 
+ 1. [[http://www.ubuntu.com/community/conduct | Ubuntu Code of Conduct]]
+
  1. [[http://www.artofcommunityonline.org | Art Of Community]] by Jono Bacon.
  
  1. [[http://www.theopensourceway.org/book/ | The Open Source Way: Creating and nurturing communities of contributors]]
