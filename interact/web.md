@@ -156,6 +156,46 @@ def mauna_loa_co2(start_date = slider(1958,2010,1,1958), end_date = slider(1958,
 }}}
 {{attachment:co2c.png}}
 
+== Arctic sea ice extent data plot, fetched from NSIDC ==
+by Marshall Hampton
+
+{{{
+import urllib2, csv
+months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+longmonths = ['January','February','March','April','May','June','July','August','September','October','November','December']
+@interact
+def iceplotter(month = selector(zip(range(1,13),longmonths),default = (4, 'April'),label="Month")):
+    month_str = months[month-1] + '/N_%02d_area.txt'%(month)
+    dialect=csv.excel
+    dialect.skipinitialspace = True
+    icedata_f = urllib2.urlopen('ftp://sidads.colorado.edu/DATASETS/NOAA/G02135/%s'%month_str)
+    cr = csv.reader(icedata_f,delimiter=' ', dialect=dialect)
+    icedata = list(cr)
+    icedata = [x for x in icedata[1:] if len(x)==6 and N(x[5])>0]
+    
+    lp = list_plot([[N(x[0]),N(x[4])] for x in icedata])
+    
+    def lin_regress(xdata, ydata):
+        xmean = N(mean(xdata))
+        ymean = N(mean(ydata))
+        xm = vector(RDF,[q-xmean for q in xdata])
+        ym = vector(RDF,[q-ymean for q in ydata])
+        xy = xm.inner_product(ym)
+        xx = xm.inner_product(xm)
+        slope = xy/xx
+        intercept = ymean - slope*xmean
+        return slope, intercept
+    
+    years = [N(x[0]) for x in icedata]
+    ice = [N(x[4]) for x in icedata]
+    slope, inter = lin_regress(years,ice)
+    reg = plot(lambda x:slope*x+inter,(min(years),max(years)))
+    html('<h3>Extent of Arctic sea ice coverage in %s, %d - %d</h3>'%(longmonths[month-1],min(years),max(years)))
+    html('Data from the <a href="http://nsidc.org/">National Snow and Ice Data Center</a>')
+    show(lp+reg, figsize = [7,4])
+}}}
+{{attachment:seaice.png}}
+
 == Pie Chart from the Google Chart API ==
 by Harald Schilly
 
