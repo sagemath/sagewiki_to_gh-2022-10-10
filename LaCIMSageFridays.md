@@ -1,4 +1,4 @@
-= Les vendredis Sage au LaCIM - ''LaCIM Sage Fridays'' =
+= Les vendredis Sage au LaCIM - LaCIM Sage Fridays =
 
 Tous les vendredis après-midi à 13h à compter du 17 septembre 2010.
 
