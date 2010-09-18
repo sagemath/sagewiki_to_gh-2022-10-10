@@ -1,1 +1,43 @@
-Rédiger « LaCIMSageFridays » ici.
+= Les vendredis Sage au LaCIM - LaCIM Sage Fridays =
+
+== Tous les vendredis après-midi à 13h à compter du 17 septembre 2010 ==
+== Every Fridays Afternoon 1 pm from September 17th 2010 ==
+
+== Lieu : PK-4205 ou PK-4323 ou PK-4214 , LaCIM, UQAM, Montréal, Canada ==
+
+  * [[http://lacim.uqam.ca/|LaCIM - Laboratoire de combinatoire et d'informatique mathématique]]
+
+== Contexte ==
+
+Les étudiants, postdoctorants et plus récemment des professeurs au LaCIM ont utilisé et contribué au développement de Sage depuis 2008. Cette année plusieurs développeurs sont rassemblés au LaCIM et nous profiterons de l'occasion pour terminer chaque semaine en résolvant des bugs de Sage, en y apportant des améliorations et bien sûr en étant là pour répondre aux questions des utilisateurs.
+
+Students, postdocs and more recently professors at LaCIM have been using and developing Sage since 2008. This year many developers are gathered at LaCIM and we intend to finish each week by solving bugs, improving code and of course introducing Sage to anyone interested. Quick presentations will possibly be given each week to start the afternoon (ex : sagetex package, using hg, using trace, using sage-combinat server).
+ 
+== Organisateur ==
+
+  * Sébastien Labbé
+
+== À propos de Sage ==
+
+Sage est un logiciel libre et gratuit de mathématiques. Sa mission est d'offrir une alternative viable aux logiciels commerciaux comme Maple ou Mathematica, et sa communauté est en pleine croissance dans le monde entier. Vous trouverez plus d'informations sur Sage sur le site:
+
+  * http://www.sagemath.org
+
+Un récent vidéo fait par William Stein, l'initiateur de Sage, à l'occasion de Sage Days  25 en Inde (en anglais) :
+
+  * [[http://vimeo.com/13986940|Introduction to Sage: History, Goals, Demo]], 49 min.
+
+Un livre en français sur les mathématiques et sur Sage, sous la licence Creative Commons, a été publié récemment:
+
+  * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
+
+== Horaire ==
+
+
+||<|3>17 septembre 2010||Enseigner avec Sage - Les ressources disponibles sur internet, par Sébastien Labbé||
+||Théorie des graphes, par Franco Saliola||
+||Combinatoire des mots, par Alexandre Blondin Massé||
+||15:30-16:00||Pause-café||
+||<|2>24 septembre 2010||Théorie des espèces et combinatoire, par Florent Hivert||
+||Les commandes animate et interact, utilisation de Sage avec LaTeX, par Sébastien Labbé ||
+||17:00-19:00||5 à 7 au [[http://www.brasseriebenelux.com/|Benelux]] (Pub belge) au 245 rue Sherbrooke Ouest||
