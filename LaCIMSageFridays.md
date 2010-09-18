@@ -41,3 +41,12 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 ||<|2>24 septembre 2010||Théorie des espèces et combinatoire, par Florent Hivert||
 ||Les commandes animate et interact, utilisation de Sage avec LaTeX, par Sébastien Labbé ||
 ||17:00-19:00||5 à 7 au [[http://www.brasseriebenelux.com/|Benelux]] (Pub belge) au 245 rue Sherbrooke Ouest||
+
+=== 24 septembre 2010 ===
+
+  * Sébastien Labbé : Terminer [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]]
+
+=== 17 septembre 2010 ===
+
+  * Sébastien Labbé : Démo de l'outil sagetex. Démo de l'utilisation du serveur sage-combinat à Christian Stump.
+  * Franco Saliola : Résolution du problème d'utilisation de Gap au PK-4205 : [[http://trac.sagemath.org/sage_trac/ticket/9938|#9938]]
