@@ -1,8 +1,8 @@
-= Les vendredis Sage au LaCIM - LaCIM Sage Fridays =
+= Les vendredis Sage au LaCIM - ''LaCIM Sage Fridays'' =
 
 Tous les vendredis après-midi à 13h à compter du 17 septembre 2010.
 
-Every Fridays Afternoon 1 pm from September 17th 2010
+''Every Fridays Afternoon 1 pm from September 17th 2010.''
 
 == Lieu : PK-4205 ou PK-4323 ou PK-4214 , LaCIM, UQAM, Montréal, Canada ==
 
@@ -12,7 +12,7 @@ Every Fridays Afternoon 1 pm from September 17th 2010
 
 Les étudiants, postdoctorants et plus récemment des professeurs au LaCIM ont utilisé et contribué au développement de Sage depuis 2008. Cette année plusieurs développeurs sont rassemblés au LaCIM et nous profiterons de l'occasion pour terminer chaque semaine en résolvant des bugs de Sage, en y apportant des améliorations et bien sûr en étant là pour répondre aux questions des utilisateurs.
 
-Students, postdocs and more recently professors at LaCIM have been using and developing Sage since 2008. This year many developers are gathered at LaCIM and we intend to finish each week by solving bugs, improving code and of course introducing Sage to anyone interested. Quick presentations will possibly be given each week to start the afternoon (ex : sagetex package, using hg, using trace, using sage-combinat server).
+''Students, postdocs and more recently professors at LaCIM have been using and developing Sage since 2008. This year many developers are gathered at LaCIM and we intend to finish each week by solving bugs, improving code and of course introducing Sage to anyone interested. Quick presentations will possibly be given each week to start the afternoon (ex : sagetex package, using hg, using trace, using sage-combinat server).''
  
 == Organisateur ==
 
