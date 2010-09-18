@@ -42,6 +42,6 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Sébastien Labbé : 
       * Démo de la librairie sage/combinat/words à Alessandro.
-      * Démo de l'outil sagetex. 
+      * Démo de l'outil sagetex à Nicolas et Louis-François.
       * Démo de l'utilisation du serveur sage-combinat à Christian Stump.      
   * Franco Saliola : Résolution du problème d'utilisation de Gap sur les ordinateurs du PK-4205 : [[http://trac.sagemath.org/sage_trac/ticket/9938|#9938]]
