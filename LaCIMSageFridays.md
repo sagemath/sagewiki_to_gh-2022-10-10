@@ -1,7 +1,7 @@
 = Les vendredis Sage au LaCIM - LaCIM Sage Fridays =
 
-== Tous les vendredis après-midi à 13h à compter du 17 septembre 2010 ==
-== Every Fridays Afternoon 1 pm from September 17th 2010 ==
+Tous les vendredis après-midi à 13h à compter du 17 septembre 2010
+Every Fridays Afternoon 1 pm from September 17th 2010
 
 == Lieu : PK-4205 ou PK-4323 ou PK-4214 , LaCIM, UQAM, Montréal, Canada ==
 
