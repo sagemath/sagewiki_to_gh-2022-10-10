@@ -11,7 +11,6 @@
 
 === Webpages: ===
 
- * [[http://www-irma.u-strasbg.fr/~saliola|IRMA U-Strasbourg]]
- * [[http://www.google.com/profiles/saliola|Google Profile]]
+ * [[http://www.lacim.uqam.ca/~saliola|Webpage at LaCIM]]
 
 ----
