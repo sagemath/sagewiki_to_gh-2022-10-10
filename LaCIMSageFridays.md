@@ -17,7 +17,7 @@ Les étudiants, postdoctorants et plus récemment des professeurs au LaCIM ont u
 == Organisateur ==
 
   * Alexandre Blondin Massé
-  * Sébastien Labbé
+  * SébastienLabbé
   * FrancoSaliola
 
 == À propos de Sage ==
