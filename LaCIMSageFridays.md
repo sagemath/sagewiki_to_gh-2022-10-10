@@ -36,7 +36,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 == Vendredi Prochain : 24 septembre 2010 ==
 
-  * Sébastien Labbé : Terminer [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]]
+  * Sébastien Labbé : Terminer [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]], [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]]. Improve Sage doctest coverage.
 
 == Vendredi précédents ==
 
