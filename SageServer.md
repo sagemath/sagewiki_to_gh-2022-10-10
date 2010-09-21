@@ -8,7 +8,7 @@ I recently set up a Sage server, and here are very rough notes of what I did.  P
 
 
 
-= Why set up a server? =
+== Why set up a server? ==
 
 I used [[http://www.sagenb.org]] for a semester.  I then set up a campus server and used that for a semester.  Here are the advantages to having a campus server that I found (in no particular order): 
 
