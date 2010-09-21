@@ -8,6 +8,40 @@
 
    *  Funding: Microsoft 
 
+== Invited Speakers ==
+
+   *  Sara Billey
+
+   *  Katherine Stange  
+
+== Participants == 
+
+   *  Sarah Chisholm
+
+   *  Bianca Viray
+
+   *  Lola Thompson
+
+   *  Canakci Ilke
+
+   *  Erin Beyerstedt
+
+   *  Charlie Turner
+
+   *  Jennifer Johnson-Leung
+
+   *  Kim Hopkins
+
+   *  Flavia Stan
+
+   *  Karen Kohl
+
+   *  Jennifer Balakrishna
+
+   *  Gagan Sekhon
+
+   *  Alyson Deines
+
 == Schedule ==
 
    * coming soon
