@@ -14,7 +14,7 @@ Les étudiants, postdoctorants et plus récemment des professeurs au LaCIM ont u
 
 ''Students, postdocs and more recently professors at LaCIM have been using and developing Sage since 2008. This year many developers are gathered at LaCIM and we intend to finish each week by solving bugs, improving code and of course introducing Sage to anyone interested. Quick presentations will possibly be given each week to start the afternoon (ex : sagetex package, using hg, using hg to share repositories, using trace, using sage-combinat server).''
  
-== Organisateur ==
+== Organisateurs ==
 
   * Alexandre Blondin Massé
   * SébastienLabbé
