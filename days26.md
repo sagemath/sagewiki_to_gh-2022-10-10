@@ -12,9 +12,9 @@
 
    *  Sara Billey
 
-   *  Katherine Stange  
-
-== Participants == 
+   *  Katherine Stange 
+ 
+== Participants ==
 
    *  Sarah Chisholm
 
