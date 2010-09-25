@@ -14,19 +14,19 @@ Sage is fully supported on the following platforms:
 The following platforms are feasible in the short term and depend mostly on somebody who is willing to do the job. If you intend to work on a specific port, please let the Sage people know.
 ard)
 
- 
- * Open Solaris 64-bit (Almost complete. David Kirkby and Jaap Spies working on this.)
- * Solaris 10 on Sparc 64 bit. 
- * Solaris 10 on x86 32 bit. 
+ * Solaris 10 on x86 32 bit. (Works 100%, and should be upgraded to fully supported soon).
+ * Solaris 10 on SPARC 64 bit. 
+ * OpenSolaris on x86 32 bit. (Works 100%, and should be upgraded to fully supported soon).
+ * OpenSolaris on x86 64-bit 
  * BSD support on x86, x86-64: most likely FreeBSD
- * Windows/MSVC 32 & 64 bit: monumental undertaking, estimate: 1-2 man years, but we are receiving funding to do the port
- * Windows/Cygwin: this port was dropped due to numerous problems after the 2.5.0 release, but will be resurrected as a stepping stone in the MSVC port
+ * Windows/Cygwin: this port is very active. 
+ * HP-UX
+ * AIX
 
 The status of various ports can be followed in the following places:
- * the Solaris port can be followed at [[solaris|The Solaris port page]].
- * the Windows ports can be followed at [[windows|The Windows port page]].
- * the FreeBSD port can be followed at [[freebsd|The FreeBSD port page]].
- * the AIX 64 bit port is in the early stages - it can be followed at [[AIX64|The AIX 64 bit port page]]
- * the Linux ppc64 port can be followed at [[linuxPPC64|The Linux PPC64 port page]]
- * the Linux Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
- * the 64 bit MacIntel port is ongoing, but needs some more work
+ * The Solaris port can be followed at [[solaris|The Solaris port page]].
+ * The Windows ports can be followed at [[windows|The Windows port page]].
+ * The FreeBSD port can be followed at [[freebsd|The FreeBSD port page]].
+ * The AIX port can be followed at [[AIX_port|The AIX port page]]
+ * The Linux ppc64 port can be followed at [[linuxPPC64|The Linux PPC64 port page]]
+ * The Linux Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
