@@ -20,13 +20,17 @@ ard)
  * OpenSolaris on x86 64-bit 
  * BSD support on x86, x86-64: most likely FreeBSD
  * Windows/Cygwin: this port is very active. 
- * HP-UX
+
+The following two platforms are feasible, but not in the short term, as the work involved will be significant. 
+
  * AIX
+ * HP-UX
 
 The status of various ports can be followed in the following places:
- * The Solaris port can be followed at [[solaris|The Solaris port page]].
- * The Windows ports can be followed at [[windows|The Windows port page]].
- * The FreeBSD port can be followed at [[freebsd|The FreeBSD port page]].
  * The AIX port can be followed at [[AIX_port|The AIX port page]]
+ * The FreeBSD port can be followed at [[freebsd|The FreeBSD port page]].
+ * The HP-UX port can be followed at [[HP-UX|The HP-UX port page]].
  * The Linux ppc64 port can be followed at [[linuxPPC64|The Linux PPC64 port page]]
  * The Linux Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
+ * The Solaris port can be followed at [[solaris|The Solaris port page]].
+ * The Windows ports can be followed at [[windows|The Windows port page]].
