@@ -40,7 +40,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 == Vendredi précédents ==
 
-== 24 septembre 2010 ==
+=== 24 septembre 2010 ===
 
   * Sébastien Labbé :
       * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]].
