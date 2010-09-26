@@ -42,6 +42,8 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 === 24 septembre 2010 ===
 
+  Discussions sur vim, en particulier à propos des plugins `autoclose` et `surround`.
+
   * Sébastien Labbé :
       * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]].
   * Alexandre Blondin Massé et Marco Robado :
