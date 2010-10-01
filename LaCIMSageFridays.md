@@ -34,11 +34,16 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
-== Vendredi Prochain : 1er octobre 2010 ==
+== Vendredi Prochain : 8 octobre 2010 ==
 
-  * Qui y sera et que fait-on ?
+  * ...
 
 == Vendredi précédents ==
+
+=== 1er octobre 2010 ===
+
+  * Alexandre Blondin Massé
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]] et [[http://trac.sagemath.org/sage_trac/ticket/9877|#9877]]
 
 === 24 septembre 2010 ===
 
