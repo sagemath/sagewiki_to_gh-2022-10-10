@@ -4,13 +4,15 @@
 
    *  Dates: December 7, 2010 to December 11, 2010
 
-   *  Organizers: Alyson Deines (UW), Jennifer S. Balakrishnan (MIT), Gagan Sekhon (UConn), William Stein (UW)
+   *  Organizers: Alyson Deines (UW), Jennifer Balakrishnan (MIT), Gagan Sekhon (UConn), William Stein (UW)
 
    *  Funding: Microsoft Research (donation from Kristin Lauter's cryptography group), Justin Walker (private donation)
 
 == Invited Speakers ==
 
    *  Sara Billey
+   
+   *  Rachel Pries
 
    *  Katherine Stange 
  
@@ -36,7 +38,7 @@
 
    *  Karen Kohl
 
-   *  Jennifer Balakrishna
+   *  Jennifer Balakrishnan
 
    *  Gagan Sekhon
 
