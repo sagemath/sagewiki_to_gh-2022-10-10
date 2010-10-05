@@ -39,6 +39,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
   * Sébastien Labbé :
       * Je serai absent. I will not be in Montreal.
       * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/10063|#10063]].
+      * Travailler sur [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
 
 == Vendredi précédents ==
 
