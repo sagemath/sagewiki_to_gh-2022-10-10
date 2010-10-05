@@ -36,7 +36,9 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 == Vendredi Prochain : 8 octobre 2010 ==
 
-  * ...
+  * Sébastien Labbé :
+      * Je serai absent. I will not be in Montreal.
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/10063|#10063]].
 
 == Vendredi précédents ==
 
@@ -44,11 +46,13 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Alexandre Blondin Massé
       * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]] et [[http://trac.sagemath.org/sage_trac/ticket/9877|#9877]]
+  * Sébastien Labbé :
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]].
 
 === 24 septembre 2010 ===
 
-  Discussions sur vim, en particulier à propos des plugins `autoclose` et `surround`.
-
+  * Marco Robado :
+      * Discussions sur vim, en particulier à propos des plugins `autoclose` et `surround`.
   * Sébastien Labbé :
       * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]].
   * Alexandre Blondin Massé et Marco Robado :
@@ -60,4 +64,5 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
       * Démo de la librairie sage/combinat/words à Alessandro.
       * Démo de l'outil sagetex à Nicolas et Louis-François.
       * Démo de l'utilisation du serveur sage-combinat à Christian Stump.      
-  * Franco Saliola : Résolution du problème d'utilisation de Gap sur les ordinateurs du PK-4205 : [[http://trac.sagemath.org/sage_trac/ticket/9938|#9938]]
+  * Franco Saliola : 
+      * Résolution du problème d'utilisation de Gap sur les ordinateurs du PK-4205 : [[http://trac.sagemath.org/sage_trac/ticket/9938|#9938]]
