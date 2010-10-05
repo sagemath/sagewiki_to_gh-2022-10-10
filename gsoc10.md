@@ -219,12 +219,15 @@ The Sage development process ([[http://www.sagemath.org/doc/developer/index.html
 
 === Porting ===
 
-Sage is mostly "native" to Linux and OS X. A port to 32-bit Solaris SPARC is mostly complete, and a Cygwin port is underway (it may be working by this summer). But porting to other systems is very useful, both to increase our potential user base, and to help eliminate bugs (see the section "Computational Technique; the Pentium Flaw" in [[http://www.trnicely.net/twins/twins.html|this paper]]). This project would involve assisting our ports to the following platforms:
+Sage is mostly "native" to Linux, OS X & Solaris. A Cygwin port is underway (it may be working by this summer). But porting to other systems is very useful, both to increase our potential user base, and to help eliminate bugs (see the section "Computational Technique; the Pentium Flaw" in [[http://www.trnicely.net/twins/twins.html|this paper]]). This project would involve assisting our ports to the following platforms:
 
+ * AIX
  * Cygwin
  * FreeBSD
- * Solaris 10 64-bit (the 32-bit version is basically complete). 
+ * HP-UX
+ * Solaris 10 64-bit (the 32-bit version is complete). 
  * Open Solaris on x64 hardware. 
+ * Solaris 10 on x86
 
 It could also involve improvements to the build system --  can we use the same system on different platforms, including Windows? Skills required: knowledge of porting software to new compilers and platforms.
 
