@@ -73,7 +73,7 @@ will enable 8 threads for parts of the build that support parallelism. Change th
 
 The command
 {{{
-SAGE_PARALLEL_SPKG_BUILD="yes"
+export SAGE_PARALLEL_SPKG_BUILD="yes"
 }}}
 will enable building the spkgs in parallel.
 
