@@ -71,6 +71,12 @@ export MAKE="make -j8"
 }}} 
 will enable 8 threads for parts of the build that support parallelism. Change the number 8 as appropriate to suit the number of cores on your system.
 
+The command
+{{{
+SAGE_PARALLEL_SPKG_BUILD="yes"
+}}}
+will enable building the spkgs in parallel.
+
 
 === How do I run Sage in a browser that is not the system default ===
 
