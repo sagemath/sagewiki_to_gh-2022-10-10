@@ -10,6 +10,8 @@ For general mathematic references see the [[https://lma.homelinux.org/wiki/FlatS
 
 This page is aimed to be a roadmap for the implementations of various algorithm related to flat surfaces and more generally geometry/combinatoric/dynamic of surfaces (Mapping class group, train track, pseudo-Anosov dynamic, ...). For the moment we share the [[http://wiki.sagemath.org/combinat|sage-combinat repository]] with mercurial for the development.
 
+This project take part in the wider [[SageDynamicsProject]]
+
 == General architecture ==
 
 For now the main structure is as follows
