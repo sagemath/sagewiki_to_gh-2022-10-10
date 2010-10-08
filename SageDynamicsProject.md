@@ -12,7 +12,7 @@ This page is aimed to be a roadmap for the implementations of various algorithm 
 
 == Organization ==
 
-We dedicate a repository dynamics which would contain the following tree of repositories
+We will create a repository **dynamics** in the root of Sage which would contain the following tree of repositories
 
   * cellular_automata (?)
   * complex_dynamics (?)
