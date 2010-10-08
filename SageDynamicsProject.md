@@ -2,13 +2,13 @@
 
 == Introduction ==
 
-Different aspect of dynamics has to deal with computer
+Different aspects of dynamical systems have to deal with computer
 
-  * simulation
-  * prospection of combinatorial structure associated to dynamical systems (coding as infinite words, ...)
+  * simulation and experimentation
+  * prospection of combinatorial structure associated to dynamical systems (coded as infinite words, ...)
   * shifts, cellular automata
 
-This page is aimed to be a roadmap for the implementations of various algorithm related to dynamics.
+This page is an organization wiki for the implementation in Sage of various algorithm relative to dynamics.
 
 == Organization ==
 
