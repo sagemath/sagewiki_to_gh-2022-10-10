@@ -7,6 +7,8 @@ particular around Coxeter groups and Hecke algebras
 
 Sponsored by the Laboratoire de Mathématiques d'Orsay, Université Paris Sud {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}}
 
+[[http://trac.sagemath.org/sage_trac/wiki/SageCombinatChevieStatusReport|Status report]]
+
 == Accommodation ==
 
 Like for the previous [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat days of January 2009]], I (Nicolas) have rented a 8-person house in Cernay-la-Ville
