@@ -6,7 +6,7 @@ Different aspects of dynamical systems have to deal with computer
 
   * simulation and experimentation
   * prospection of combinatorial structure associated to dynamical systems (coded as infinite words, ...)
-  * shifts, cellular automata
+  * intrinsically discrete dynamics: shifts, cellular automata, ...
 
 This page is an organization wiki for the implementation in Sage of various algorithm relative to dynamics. All the code produced is on the "combinat" public server and is accessible to anyone interested ([[combinat/Installation|installation instructions]]). For more information about development inside the combinat branch see [[combinat|following page]].
 
@@ -30,6 +30,8 @@ We will create a repository *dynamics* in the root of Sage which would contain t
       * linear suspensions of iet
     * train_tracks
     * hyperbolic_dynamics
+      * geodesic flow
+      * Fuchsian groups
     * hamiltonian flows
       * logarithmic suspensions of iet
   * picewise
