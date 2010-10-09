@@ -8,11 +8,11 @@ Different aspects of dynamical systems have to deal with computer
   * prospection of combinatorial structure associated to dynamical systems (coded as infinite words, ...)
   * shifts, cellular automata
 
-This page is an organization wiki for the implementation in Sage of various algorithm relative to dynamics.
+This page is an organization wiki for the implementation in Sage of various algorithm relative to dynamics. All the code produced is on the "combinat" public server and is accessible to anyone interested ([[combinat/Installation|installation instructions]]). For more information about development inside the combinat branch see [[combinat|following page]].
 
 == Organization ==
 
-We will create a repository **dynamics** in the root of Sage which would contain the following tree of repositories
+We will create a repository *dynamics* in the root of Sage which would contain the following tree of repositories
 
   * cellular_automata (?)
   * complex_dynamics (?)
