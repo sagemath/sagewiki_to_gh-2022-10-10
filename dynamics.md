@@ -40,4 +40,4 @@ We will create a repository *dynamics* in the root of Sage which would contain t
 
 == Subprojects ==
 
-  * a project for flat surfaces [[SageFlatProject]]
+  * a project for flat surfaces [[dynamics/FlatSurfaces]]
