@@ -27,7 +27,8 @@ True
 Build an interval exchange map associated to this path
 {{{
 sage: l,v,m=path.matrix().eigenvectors_right()[3] # l is the eigenvalue, v the vector and m the multiplicity
-sage m == 1
+sage: m == 1
+True
 sage: t= iet.IntervalExchangeTransformation(p,v[0])
 sage: print t
 Interval exchange transformation of [0, 4.390256884515514?[ with permutation
