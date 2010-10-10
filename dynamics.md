@@ -7,8 +7,16 @@ Different aspects of dynamical systems involve computers
   * simulation and experimentation
   * prospection of combinatorial structures associated to dynamical systems (coded as infinite words, ...)
   * intrinsically discrete dynamics: shifts, cellular automata, ...
+  * numerical algorithm seen as dynamical systems
+  * ...
 
-This page is an organization wiki for the implementation in Sage of various algorithms relative to dynamics. All the code produced is on the "combinat" public server and is accessible to anyone interested ([[combinat/Installation|installation instructions]]). For more information about development inside the combinat branch see [[combinat|this page]].
+This page is an organization wiki for the implementation in Sage of various algorithms relative to dynamics. All the code produced is on the "combinat" public server and is accessible to anyone interested.
+
+== Quick links ==
+
+  * [[combinat/Installation|installation instructions]]: how to install sage-combinat on your computer and be able to use all dynamics code
+  * [[combinat|combinat wiki]]: the wiki page of the combinat community
+  * [[dynamics/examples]]: examples that are produced with the code of sage-dynamics
 
 == Organization ==
 
