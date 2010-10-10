@@ -1,4 +1,4 @@
-= Falt surfaces examples =
+= Flat surfaces examples =
 
 === Installation ===
 
@@ -8,11 +8,11 @@ You need to install [[http://wiki.sagemath.org/combinat|sage-combinat]] which is
 $ sage -combinat install
 }}}
 
-The latter installs a modified version of Sage. For more on what this command does or how to reverse it, you can read this [[http://wiki.sagemath.org/combinat/MercurialStepByStep|step by step tutorial]].
+This installs a modified version of Sage. For more on what this command does or how to reverse it, you can read this [[http://wiki.sagemath.org/combinat/MercurialStepByStep|step by step tutorial]].
 
-=== Link to documentations and tutorials ===
+=== Link to documentation and tutorials ===
 
-To get introduced to Sage, look at the documentation on [[http://sagemath.org]]
+For an introduction to Sage, check the documentation at [[http://sagemath.org/]].
 
 === Using interval exchange transformations ===
 
@@ -24,7 +24,7 @@ sage: p.connected_component()
 H_hyp(2)
 }}}
 
-=== Square tiled surfaces ===
+=== Square-tiled surfaces ===
 
 Let us build the genus 2 origami with three squares
 
@@ -35,16 +35,16 @@ sage: print o
 (1, 3)
 }}}
 
-And now, we build its Teichmueller curve and compute some of its invariant (rk: it is not yet clear which property should be attached to the teichmueller curve and which one should be attached to the Veech group)
+And now, we build its Teichmueller curve and compute some of its invariants (rk: it is not clear yet which properties should be attached to the Teichmueller curve and which should be attached to the Veech group)
 
 {{{
 sage: t = o.teichmueller_curve()
 sage: G = t.veech_group()
 sage: G.index()
 3
-sage: G.nu2()  #elliptic points of order 2
+sage: G.nu2()  # elliptic points of order 2
 1
-sage: G.nu3()  #elliptic points of order3
+sage: G.nu3()  # elliptic points of order3
 1
 sage: G.ncusps()  # number of cusps
 2
