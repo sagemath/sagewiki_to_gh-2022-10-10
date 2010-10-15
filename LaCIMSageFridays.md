@@ -37,6 +37,8 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 == Vendredi Prochain : 22 octobre 2010 ==
 
   * Sébastien wants Franco to review [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
+  * Alexandre Blondin Massé
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]].
 
 == Vendredi précédents ==
 
@@ -46,8 +48,6 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
       * Terminer les corrections de [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
   * Franco Saliola and Christian Stump:
       * Innefficient work on Poset code [[http://trac.sagemath.org/sage_trac/ticket/6641|#6641]].
-  * Alexandre Blondin Massé
-      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]].
 
 === 8 octobre 2010 ===
 
