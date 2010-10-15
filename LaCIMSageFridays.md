@@ -45,7 +45,8 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 === 15 octobre 2010 ===
 
   * Sébastien Labbé :
-      * Terminer les corrections de [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
+      * Terminer les corrections de [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]] : Needs Review again.
+      * Création de [[http://trac.sagemath.org/sage_trac/ticket/10134|#10134]] : Needs Review.
       * Implémentation de is_pisot and is_unimodular for word morphisms.
   * Franco Saliola and Christian Stump:
       * Innefficient work on Poset code [[http://trac.sagemath.org/sage_trac/ticket/6641|#6641]].
