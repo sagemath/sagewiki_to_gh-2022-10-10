@@ -34,14 +34,26 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
-== Vendredi Prochain : 8 octobre 2010 ==
+== Vendredi Prochain : 22 octobre 2010 ==
 
-  * Sébastien Labbé :
-      * Je serai absent. I will not be in Montreal.
-      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/10063|#10063]].
-      * Travailler sur [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
+  * Sébastien wants Franco to review [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
 
 == Vendredi précédents ==
+
+=== 15 octobre 2010 ===
+
+  * Sébastien Labbé :
+      * Terminer les corrections de [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
+  * Franco Saliola and Christian Stump:
+      * Innefficient work on Poset code [[http://trac.sagemath.org/sage_trac/ticket/6641|#6641]].
+  * Alexandre Blondin Massé
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]].
+
+=== 8 octobre 2010 ===
+
+  * Sébastien Labbé :
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/10063|#10063]].
+      * Travailler sur [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
 
 === 1er octobre 2010 ===
 
