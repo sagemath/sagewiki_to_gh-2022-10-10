@@ -46,6 +46,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Sébastien Labbé :
       * Terminer les corrections de [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
+      * Implémentation de is_pisot and is_unimodular for word morphisms.
   * Franco Saliola and Christian Stump:
       * Innefficient work on Poset code [[http://trac.sagemath.org/sage_trac/ticket/6641|#6641]].
 
