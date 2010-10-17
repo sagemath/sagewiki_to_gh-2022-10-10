@@ -7,10 +7,9 @@ Put your name in the list here below if you're interested in translating Sage do
  * CristianConsonni AKA CristianCantoro
  * MatteoCasati AKA Cassa
  * AlessandroPezzoni
- * ...
+ * RobertoPanai
 === TODO list ===
  * Translate the SAGE tutorial .rst files. - you can find the original files [[[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/|| here]]]
- * Complete revision of the [[[http://wiki.sagemath.org/SAGE-intro-Italian|| sage-intro italian]]] page
  * ...
 === Questions? Ideas? Proposals? ===
 If you have any question or idea about this project, or about the way we should make the translation, please put a message in the '''"Questions and Discussion"''' section at the bottom of this page. You can write either in english or italian. Please, put long discussions on dedicated subpages.
@@ -48,9 +47,6 @@ Here there is a list of the .rst to be tanslated:
 ||appendix.rst || || ||
 ||afterword.rst || || ||
 
-
-==== intro page ====
- * find the original version of the page and translate it.
 == Some conventions (it) ==
 LISTA DI CONVENZIONI E BREVE GLOSSARIO PER LA TRADUZIONE ITALIANA DEL TUTORIAL DI SAGE. Conventions list and short glossary for Sage tutorial italian translation.
 
