@@ -27,7 +27,7 @@
 === Day 3 - Wednesday 11th August, 2010: Miscellaneous ===
 
 ||<tablestyle="width: 90%;"> 09:30 - 10:00 ||||<style="text-align: left; background: #FFFFCC"> Refreshments ||
-||<style="width: 100px;"> 10:00 - 11:00 || Basic Python programming || Madhusudan, FOSSEE ||
+||<style="width: 100px;"> 10:00 - 11:00 || Basic Python programming || Anoop Jacob Thomas, FOSSEE ||
 || 11:00 - 12:00 ||<style="width: 55%;"> More Python programming (Functions, modules, objects) || Madhusudan, FOSSEE ||
 || 12:00 - 14:00 ||||<style="text-align: left; background: #FFFFCC"> Lunch + Rest time ||
 || 14:00 - 15:00 || Numpy & Scipy || Nishanth. A, FOSSEE ||
