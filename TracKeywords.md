@@ -24,7 +24,7 @@ When originally posting the bug, these keywords are usually guesses.  But that's
 ||'''keyword'''||'''meaning'''||
 ||atlas, ..., zodb3||An spkg name if you think the problem is in the spkg or should be fixed in the spkg||
 ||upstream||Problem exists upstream||
-||gcc||A bug in gcc||
+||gcc||A bug in gcc (the fact that gcc simply fails does not indicate a bug with gcc.  A good sign for a bug in gcc is if the compilation works with {{{-O0}}} but not with {{{-O3}}})||
 
 == Kind of system ==
 
