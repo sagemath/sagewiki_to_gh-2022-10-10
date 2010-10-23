@@ -46,6 +46,9 @@ When originally posting the bug, these keywords are usually guesses.  But that's
 ||OpenSolaris||OpenSolaris||
 ||Cygwin||Microsoft Windows using Cygwin||
 ||MSCV||Native build using Microsoft or similar compiler||
+||AIX||IBM's AIX||
+||HP-UX||HP's HP-UX||
+||FreeBSD||FreeBSD||
 ||Unknown||I'm not sure what operating system is being used||
 
 == Kind of patch ==
