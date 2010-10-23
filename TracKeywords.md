@@ -9,7 +9,7 @@ This page documents some standard keywords, but feel free to use other keywords 
 ||'''keyword'''||'''meaning'''||
 ||build||Sage does not build||
 ||doctest||A failure in a doctest||
-||segfault||"Unhandled SIGSEGV: A segmentation fault occurred in Sage" or similar like SIGBUS||
+||segfault||{{{Unhandled SIGSEGV: A segmentation fault occurred in Sage}}} or similar like {{{Unhandled SIGBUS}}}||
 ||doesnotstart||Sage does not start up||
 ||exception||Some command yields an exception where it is not expected||
 ||wrongresult||Sage computes something, but the answer is wrong||
@@ -53,4 +53,4 @@ Since most patches simply patch the Sage library, we do not have a keyword for t
 ||extcode||ticket has a patch to extcode||
 ||examples||ticket has a patch to examples||
 ||c_lib||ticket has some patch changing files in c_lib||
-||sageroot||some file not in the sage library, not in any spkg||
+||sageroot||some file not in the sage library, not in any spkg (e.g. {{{Makefile}}})||
