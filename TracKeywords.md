@@ -47,7 +47,7 @@ Only use this if you suspect that your bug is related to your particular system.
 Since most patches simply patch the Sage library, we do not have a keyword for that.
 
 ||'''keyword'''||'''meaning'''||
-||spkg||ticket contains a patch for a spkg||
+||spkg||ticket contains a patch for a spkg (also put the actual spkg name (e.g. "atlas") as keyword)||
 ||newspkg||ticket adds a new spkg which did not exist before||
 ||scripts||ticket has a patch to sage_scripts||
 ||extcode||ticket has a patch to extcode||
