@@ -53,4 +53,4 @@ Since most patches simply patch the Sage library, we do not have a keyword for t
 ||extcode||ticket has a patch to extcode||
 ||examples||ticket has a patch to examples||
 ||c_lib||ticket has some patch changing files in c_lib||
-||sageroot||some file not in the sage library, not in any spkg (e.g. {{{Makefile}}})||
+||sageroot||some file not in the sage library, not in any of the above (e.g. {{{Makefile}}})||
