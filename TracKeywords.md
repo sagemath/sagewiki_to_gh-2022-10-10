@@ -2,6 +2,7 @@
 
 You may specify any number of keywords on a given ticket, zero, one or more from any category.
 Also note that these keywords are mostly for defects rather than enhancements.
+This page documents some standard keywords, but feel free to use other keywords if you think they are relevant.
 
 == Kind of bug ==
 
