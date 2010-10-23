@@ -34,9 +34,13 @@ Only use this if you suspect that your bug is related to your particular system.
 ||linux||Linux||
 ||fedora, debian, redhat||Any particular distribution||
 ||macosx||Mac OS X||
-||macosx10.4, macosx10.5, ...||Particular version||
 ||solaris||Solaris||
 ||windows||Microsoft Windows||
+||i386||Intel 32-bit Pentium or similar processors||
+||x86_64||Intel 64-bit Pentium or similar processors||
+||ia64||Intel Itanium||
+||ppc||PowerPC processors||
+||32bit, 64bit||32-bit or 64-bit systems||
 
 == Kind of patch ==
 
