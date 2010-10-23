@@ -26,21 +26,27 @@ When originally posting the bug, these keywords are usually guesses.  But that's
 ||upstream||Problem exists upstream||
 ||gcc||A bug in gcc (the fact that gcc simply fails does not indicate a bug with gcc.  A good sign for a bug in gcc is if the compilation works with {{{-O0}}} but not with {{{-O3}}})||
 
-== Kind of system ==
-
-Only use this if you suspect that your bug is related to your particular system.
+== CPU ==
 
 ||'''keyword'''||'''meaning'''||
-||linux||Linux||
-||fedora, debian, redhat||Any particular distribution||
-||macosx||Mac OS X||
-||solaris||Solaris||
-||windows||Microsoft Windows||
-||i386||Intel 32-bit Pentium or similar processors||
-||x86_64||Intel 64-bit Pentium or similar processors||
+||SPARC|| Sun SPARC processor||
+||i386||Intel 32-bit Pentium, or similar processors||
+||x86_64||Intel 64-bit Pentium, Core2, Xeon, Opteron or similar processors||
 ||ia64||Intel Itanium||
-||ppc||PowerPC processors||
-||32bit, 64bit||32-bit or 64-bit systems||
+||PPC||PowerPC processors||
+||PA-RISC||PA-RISC||
+||unknown||I'm not sure what CPU I have||
+
+== Operating system ==
+
+||'''keyword'''||'''meaning'''||
+||fedora, debian, redhat, other_linux||Any particular distribution||
+||OSX||Mac OS X||
+||Solaris||Solaris||
+||OpenSolaris||OpenSolaris||
+||Cygwin||Microsoft Windows using Cygwin||
+||MSCV||Native build using Microsoft or similar compiler||
+||Unknown||I'm not sure what operating system is being used||
 
 == Kind of patch ==
 
