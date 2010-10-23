@@ -143,7 +143,7 @@ for a_line in co2data:
         datalines.append(temp)
 trdf = RealField(16)
 @interact
-def mauna_loa_co2(start_date = slider(1958,2010,1,1958), end_date = slider(1958, 2010,1,2009)):
+def mauna_loa_co2(start_date = slider(1958,2011,1,1958), end_date = slider(1958, 2010,1,2009)):
     htmls1 = '<h3>CO2 monthly averages at Mauna Loa (interpolated), from NOAA/ESRL data</h3>'
     htmls2 = '<h4>'+cdate+'</h4>'
     sel_data = [[q[2],q[4]] for q in datalines if start_date < q[2] < end_date]
