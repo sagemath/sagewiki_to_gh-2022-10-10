@@ -13,9 +13,11 @@ This page documents some standard keywords, but feel free to use other keywords 
 ||doesnotstart||Sage does not start up||
 ||exception||Some command yields an exception where it is not expected||
 ||wrongresult||Sage computes something, but the answer is wrong||
+||longresult||Sage computes something but the answer is excessively long, and should be simplified, such as sin^2^(x) +cos^2^(x) instead of 1||
 ||memleak||A memory leak||
 ||slow||Something is very slow because of a clear bug (don't use this to mean that a whole new algoritm should be implemented to speed things up)||
 ||interrupt||Some computation cannot be interrupted or strange stuff happens if it is interrupted||
+
 
 == Where is the bug ==
 
