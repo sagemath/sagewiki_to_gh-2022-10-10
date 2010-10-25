@@ -24,7 +24,7 @@
 
    *  Lola Thompson
 
-   *  Canakci Ilke
+   *  Ilke Canakci 
 
    *  Erin Beyerstedt
 
