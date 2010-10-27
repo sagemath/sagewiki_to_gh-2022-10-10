@@ -51,7 +51,7 @@ There are five requirements for Sage to work successfully on these fully support
 
 ====== Solaris ======
  * Solaris 10 update 1 on SPARC processors (32-bit only) Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]] or [[http://build.sagemath.org/sage/buildslaves/mark2-1|mark2]]
- * Solaris 10 update 5 on x86 processors (32-bit only) Tested on [[http://build.sagemath.org/sage/buildslaves/fulvia-1|fulvia]]
+ * Solaris 10 update 5 on x86 processors (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/fulvia-1|fulvia]]
 
 === Expected to work -  Sage will probably work, but it is not always tested. ===
 In addition to the above systems where Sage will work, Sage will probably work on the following operating systems, though we can't guarantee that, as it is impractical to test each Sage release on all these systems. Failure to build on these systems will be considered a bug, but we may not have the resources to solve any problems. 
@@ -105,6 +105,10 @@ More information about the status of the FreeBSD port can be found at [[freebsd|
  * Some work has been done on HP-UX on the Itanium processor.
 More information on the HP-UX port can be found on the [[HP-UX]] page. 
 
+===== Microsoft Windows =====
+ * Microsoft Windows using Cygwin (Substantial work has been done on this. A port can be expected in 2010). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows sage-windows]] mailing list.
+ * Microsoft Windows using Microsoft's compiler. This will be a full native port. There are some efforts at this. 
+
 ===== OpenSolaris =====
  * !OpenSolaris 06/2009 on x86 in 64-bit mode.  (Substantial work has been done on this. A port can be expected in 2010). 
 
@@ -112,8 +116,4 @@ More information on the HP-UX port can be found on the [[HP-UX]] page.
  * Solaris 10 on x86 processors in 64-bit mode. (Substantial work has been done on this. A port can be expected in 2010).
  * Solaris 10 on SPARC processors in 64-bit mode. (Substantial work has been done on this. A port can be expected in 2010).
 
-More information about the status of the Solaris ports can be found on the [[solaris|Solaris]] page of the Sage Wiki. There's also some notes about installing [[solaris-binaries|Solaris binaries]] and 
-
-===== Microsoft Windows =====
- * Microsoft Windows using Cygwin (Substantial work has been done on this. A port can be expected in 2010). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows sage-windows]] mailing list.
- * Microsoft Windows using Microsoft's compiler. This will be a full native port. There are some efforts at this. 
+More information about the status of the Solaris ports can be found on the [[solaris|Solaris]] page of the Sage Wiki. There's also some notes about installing [[solaris-binaries|Solaris binaries]]
