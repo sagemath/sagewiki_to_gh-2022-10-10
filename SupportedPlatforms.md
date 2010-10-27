@@ -94,6 +94,7 @@ If anyone has the time to help on these ports, it would be greatly appreciated.
 More information about the status of the FreeBSD port can be found at [[freebsd|Sage port to FreeBSD]].
 
 ===== Linux =====
+ * openSUSE 11.2 and 11.3 are known not to work, though these issues will hopefully be fixed. 
  * Mips64 The Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
  * PPC64 The 64-bit PowerPC port can be followed at [[linuxPPC64|the linux PPC64 port page]]
 
