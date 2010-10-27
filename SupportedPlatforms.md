@@ -48,7 +48,8 @@ There are five requirements for Sage to work successfully on these fully support
 
 ====== Solaris ======
  * Solaris 10 update 1 on SPARC processors (32-bit only. No 64-bit) Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]] or [[http://build.sagemath.org/sage/buildslaves/mark2-1|mark2]]
- * Solaris 10 update 6 on x86 processors (32-bit only. No 64-bit yet)
+ * Solaris 10 update 5 on x86 processors (32-bit only. No 64-bit yet) Tested on [[http://build.sagemath.org/sage/buildslaves/fulvia-1|fulvia]]
+
 
 ====== Microsoft Windows ======
  * Using a VMWare image (TODO  - update with further information) 
