@@ -45,9 +45,6 @@ There are five requirements for Sage to work successfully on these fully support
 ====== Mac OS X ======
  * OS X 10.6 Tested on  [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
-====== Microsoft Windows ======
- * Using a VMWare image (TODO  - update with further information) 
-
 ====== OpenSolaris ======
  * 06/2009 updated to build 134 on x86 (32-bit only) Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
 
@@ -79,6 +76,8 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
 ====== Mac OS X ======
  * OS X 10.4, 10.5. OS X 10.6 is fully supported. 
 
+====== Microsoft Windows ======
+ * VMware images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage. 
 
 === Probably will not work - Porting work may be ongoing ===
 None of these systems have a complete fully reliable port. In some cases completed ports are highly likely. In other cases, the porting effort is not very significant, and there may be insufficient effort to actually complete a port. 
