@@ -55,7 +55,7 @@ There are five requirements for Sage to work successfully on these fully support
  * Solaris 10 update 1 on SPARC processors (32-bit only) Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]] or [[http://build.sagemath.org/sage/buildslaves/mark2-1|mark2]]
  * Solaris 10 update 5 on x86 processors (32-bit only) Tested on [[http://build.sagemath.org/sage/buildslaves/fulvia-1|fulvia]]
 
-=== Expected to work -  Sage is  ===
+=== Expected to work -  Sage will probably work, but it is not always tested. ===
 In addition to the above systems where Sage will work, Sage will probably work on the following operating systems, though we can't guarantee that, as it is impractical to test each Sage release on all these systems. Failure to build on these systems will be considered a bug, but we may not have the resources to solve any problems. 
 
 If anyone is able to test on these systems, we would particularly appreciate reports of failures, since Sage really should work on these systems. We expect to set up an automated system where people can mail successful build reports, and to generate a web page showing successful builds. But currently neither are in place. 
