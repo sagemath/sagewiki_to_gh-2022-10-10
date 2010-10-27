@@ -1,7 +1,6 @@
 <<TableOfContents>>
 
 ----
-
 == Supported Platforms ==
 
 If you try to build Sage on most Linux or OS X systems, you should have few if any problems and if there are problems, plenty of people will be able to help you. Just ask on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] But some distributions are better supported than others - see below for details. 
@@ -19,7 +18,7 @@ Below are listed the supported platforms, along with the level of support given.
 Specific hardware and software for these 3 levels of support are given below.
 
 === Fully supported - Sage is ALWAYS check on ALL these platforms BEFORE a release is made ===
-Sage is fully supported on the following platforms. This means '''every''' single release of Sage is '''always''' tested on these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/sage/buildslaves ) Failure to build on one of these platforms will stop a release of Sage being made. Usually all Sage's self-tests (doc-tests) will pass, though one or two failures on one or two platforms may occur, and will be documented in an [[errata|errata page]]. Any failures to either build or pass tests are considered very serious bugs. 
+Sage is fully supported on the following platforms. This means '''every''' single release of Sage is '''always''' tested on '''all'' these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/sage/buildslaves) Failure to build on one of these platforms will stop a release of Sage being made. Usually all Sage's self-tests (doc-tests) will pass, though one or two failures on one or two platforms may occur, and will be documented in an [[errata|errata page]]. Any failures to either build or pass tests are considered very serious bugs. 
 
 Also, we will always make binaries available for these platforms. 
 
@@ -54,7 +53,7 @@ There are five requirements for Sage to work successfully on these fully support
  * Solaris 10 update 5 on x86 processors (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/fulvia-1|fulvia]]
 
 === Expected to work -  Sage will probably work, but it is not always tested. ===
-In addition to the above systems where Sage will work, Sage will probably work on the following operating systems, though we can't guarantee that, as it is impractical to test each Sage release on all these systems. Failure to build on these systems will be considered a bug, but we may not have the resources to solve any problems. 
+In addition to the above systems where Sage will work, Sage will probably work on the following operating systems, though we can't guarantee that, as it is impractical to test each Sage release on all these systems. Failure to build on these systems will be considered a bug, but we may not have the resources to solve any problems. Sage developers should be able to offer assistance to anyone who can't get Sage to work properly on one of these platforms, but since they might not necessarily have access to the platform, that may be difficult.
 
 If anyone is able to test on these systems, we would particularly appreciate reports of failures, since Sage really should work on these systems. We expect to set up an automated system where people can mail successful build reports, and to generate a web page showing successful builds. But currently neither are in place. 
 
@@ -88,7 +87,7 @@ None of these systems have a complete fully reliable port. In some cases complet
 If anyone has the time to help on these ports, it would be greatly appreciated. 
 
 ===== AIX =====
- * A little work has been done on an AIX port. This can be followed at the [[AIX_port| AIX port page]]. It is not currently clear if this will ever be completed, as there is not a significant effort taking place. If you wish to help, that would be appreciated. If you do not have access to AIX hardware, [[http://www.metamodul.com/|Metamodul]] will provide free public access for open-source development. A couple of Sage developers have used this. The AIX port can be followed at [[AIX_port|The AIX port page]] Trac ticket #9999
+ * A little work has been done on an AIX port. This can be followed at the [[AIX_port| AIX port page]]. It is not currently clear if this will ever be completed, as there is not a significant effort taking place. If you wish to help, that would be appreciated. If you do not have access to AIX hardware, [[http://www.metamodul.com/|Metamodul]] will provide free public access for open-source development. A couple of Sage developers have used this. The AIX port can be followed at [[AIX_port|The AIX port page]] Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/9999|9999]] has the latest list of known issues.
 
 ====== FreeBSD ======
  * FreeBSD 8.1 (Substantial work has been done on this, and a port during 2010 is highly likely)
