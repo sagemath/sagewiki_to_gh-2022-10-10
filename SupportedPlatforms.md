@@ -44,10 +44,10 @@ There are five requirements for Sage to work successfully on these fully support
  * OS X 10.6 Tested on  [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
 ====== OpenSolaris ======
- * 06/2009 updated to build 134 on x86 (32-bit only. No 64-bit)
+ * 06/2009 updated to build 134 on x86 (32-bit only. No 64-bit) Tested on  [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
 
 ====== Solaris ======
- * Solaris 10 update 1 on SPARC processors (32-bit only. No 64-bit) Tested on [[
+ * Solaris 10 update 1 on SPARC processors (32-bit only. No 64-bit) Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]] or [[http://build.sagemath.org/sage/buildslaves/mark2-1|mark2]]
  * Solaris 10 update 6 on x86 processors (32-bit only. No 64-bit yet)
 
 ====== Microsoft Windows ======
