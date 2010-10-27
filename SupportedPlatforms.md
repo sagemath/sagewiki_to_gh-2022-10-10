@@ -44,10 +44,10 @@ There are five requirements for Sage to work successfully on these fully support
  * Ubuntu 10.04.1 LTS on x86 (64-bit) Tested on  [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
 
 ====== Mac OS X ======
- * OS X 10.6 Tested on  [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
+ * OS X 10.6 (Snow Leopard) 64-bit. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
 ====== OpenSolaris ======
- * 06/2009 updated to build 134 on x86 (32-bit only) Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
+ * 06/2009 updated to build 134 on x86 (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
 
 ====== Solaris ======
  * Solaris 10 update 1 on SPARC processors (32-bit only) Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]] or [[http://build.sagemath.org/sage/buildslaves/mark2-1|mark2]]
@@ -75,7 +75,7 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
  * Solaris 10 03/2005 or any later Solaris 10 release on x86 processors in 32-bit mode. (Note Solaris 10 update 5 is fully supported)
 
 ====== Mac OS X ======
- * OS X 10.4, 10.5. OS X 10.6 is fully supported. 
+ * OS X 10.4 (Tiger) and 10.5 (Leopard). Note that OS X 10.6 (Snow Leopard) is fully supported. 
 
 ====== Microsoft Windows ======
  * VMware images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage. 
