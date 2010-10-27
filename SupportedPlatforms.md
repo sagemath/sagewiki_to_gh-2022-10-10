@@ -23,6 +23,8 @@ Sage is fully supported on the following platforms. This means '''every''' singl
 
 If you wish to set up a server primarily or exclusively for using Sage, you would be advised to install one of these operating systems, rather than one on which Sage is not regularly tested. 
 
+To aid Sage developers, the hosts on which Sage is fully supported are listed, with a link to the Buildbot page. 
+
 There are five requirements for Sage to work successfully on these fully supported platforms.
 
  * A full development system must be installed - a minimal install will probably not work if you wish to build from source.
@@ -33,13 +35,13 @@ There are five requirements for Sage to work successfully on these fully support
 
 ====== Linux ======
  * Fedora 13 on x86 (64-bit). Tested on one or more of [[http://build.sagemath.org/sage/buildslaves/cicero-1|cicero]],  [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/lena-1|lena]], [[http://build.sagemath.org/sage/buildslaves/sextus-1|sextus]] or  [[http://build.sagemath.org/sage/buildslaves/taurus-1|taurus]]
- * openSUSE 11.1 on x86 (64-bit) 
- * Redhat 5.3 on Intel Itanium (64-bit) 
- * Ubuntu 8.04.4 LTS  on x86 (64-bit)
- * Ubuntu 10.04.1 LTS on x86 (64-bit) 
+ * openSUSE 11.1 on x86 (64-bit)  Tested on [[http://build.sagemath.org/sage/buildslaves/iras-1|iras]]
+ * Redhat 5.3 on Intel Itanium (64-bit)  Tested on [[http://build.sagemath.org/sage/buildslaves/cleo-1|cleo]]
+ * Ubuntu 8.04.4 LTS  on x86 (64-bit) Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
+ * Ubuntu 10.04.1 LTS on x86 (64-bit) Tested on  [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
 
 ====== Mac OS X ======
- * OS X 10.6 
+ * OS X 10.6 Tested on  [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
 ====== OpenSolaris ======
  * 06/2009 updated to build 134 on x86 (32-bit only. No 64-bit)
