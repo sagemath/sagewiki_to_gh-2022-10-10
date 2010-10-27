@@ -36,12 +36,12 @@ There are five requirements for Sage to work successfully on these fully support
  * All instructions must be followed.
 
 ====== Linux ======
- * Fedor 13 on x86 (32-bit) Tested on [[http://build.sagemath.org/sage/buildslaves/cicero-1|cicero]]. 
+
  * Fedora 13 on x86 (64-bit). Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/lena-1|lena]], [[http://build.sagemath.org/sage/buildslaves/sextus-1|sextus]] or  [[http://build.sagemath.org/sage/buildslaves/taurus-1|taurus]]
  * openSUSE 11.1 on x86 (64-bit)  Tested on [[http://build.sagemath.org/sage/buildslaves/iras-1|iras]]
- * Redhat 5.3 on Intel Itanium (64-bit)  Tested on [[http://build.sagemath.org/sage/buildslaves/cleo-1|cleo]]
- * Ubuntu 8.04.4 LTS  on x86 (64-bit) Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
- * Ubuntu 10.04.1 LTS on x86 (64-bit) Tested on  [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
+ * Redhat 5.3 on Intel Itanium (64-bit).  Tested on [[http://build.sagemath.org/sage/buildslaves/cleo-1|cleo]]
+ * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
+ * Ubuntu 10.04.1 LTS on x86 (64-bit). Tested on  [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
 
 ====== Mac OS X ======
  * OS X 10.6 (Snow Leopard) 64-bit. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
@@ -62,7 +62,7 @@ If anyone is able to test on these systems, we would particularly appreciate rep
  * Arch on x86 (Both 32-bit and 64-bit) 
  * CentOS  on x86 (Both 32-bit and 64-bit) 
  * Debian 5.0 on x86 (Both 32-bit and 64-bit)
- * Fedora 11 or 12 (Both 32-bit and 64-bit). Note Fedora 13 is fully supported. 
+ * Fedora 11, 12 or (Both 32-bit and 64-bit). 
  * Gentoo. Gentoo binaries are regularly available at ???
  * Red Hat Enterprise Linux Server 5.3 or later. 
  * SUSE Linux Enterprise Server 10 or later on Intel Itanium processors 
@@ -97,6 +97,7 @@ More information about the status of the FreeBSD port can be found at [[freebsd|
  * openSUSE 11.2 and 11.3 are known not to work, though these issues will hopefully be fixed. 
  * Mips64 The Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
  * PPC64 The 64-bit PowerPC port can be followed at [[linuxPPC64|the linux PPC64 port page]]
+ * Fedora 13 (32-bit). A buildbot for this [[http://build.sagemath.org/sage/buildslaves/cicero-1|cicero]] has never had a successful build. We hope to resolve this. 
 
 ===== HP-UX =====
  * Some work has been done on an HP-UX port to the PA-RISC processor. At least three Sage developers have tested their code on HP-UX.
