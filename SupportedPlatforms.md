@@ -37,7 +37,6 @@ There are five requirements for Sage to work successfully on these fully support
 ====== Linux ======
 
  * Fedora 13 on x86 (64-bit). Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/lena-1|lena]], [[http://build.sagemath.org/sage/buildslaves/sextus-1|sextus]] or  [[http://build.sagemath.org/sage/buildslaves/taurus-1|taurus]]
- * Gentoo. The Sage on Gentoo project (http://github.com/cschwan/sage-on-gentoo) aimed at properly integrating Sage to the Gentoo system, so is quite different to how Sage builds on all other platforms. This is designed for end users, not developers. However, the a recent Sage should build from the source on Gentoo, but that would not be the normal way to use Sage on Gentoo. 
  * openSUSE 11.1 on x86 (64-bit)  Tested on [[http://build.sagemath.org/sage/buildslaves/iras-1|iras]]
  * openSUSE 11.1 on Itanium (64-bit)  Tested on [[http://build.sagemath.org/sage/buildslaves/menas-1|menas]]
  * Redhat 5.3 on Intel Itanium (64-bit).  Tested on [[http://build.sagemath.org/sage/buildslaves/cleo-1|cleo]]
@@ -65,7 +64,7 @@ If anyone is able to test on these systems, we would particularly appreciate rep
  * CentOS  on x86 (Both 32-bit and 64-bit) 
  * Debian 5.0 on x86 (Both 32-bit and 64-bit)
  * Fedora 11, 12 or (Both 32-bit and 64-bit). 
- * Gentoo. Gentoo binaries are regularly available at ???
+ * Gentoo. The Sage on Gentoo project (http://github.com/cschwan/sage-on-gentoo) is aimed at properly integrating Sage to the Gentoo system, so is quite different to how Sage builds on all other platforms. This is designed for end users, not developers. However, a recent Sage should build from the source on Gentoo, but that would not be the normal way to use Sage on Gentoo. 
  * openSUSE 11.2 and 11.3 are known not to work currently, though these issues should be fixed for Sage 4.6. 
  * Red Hat Enterprise Linux Server 5.3 or later. 
  * SUSE Linux Enterprise Server 10 or later on Intel Itanium processors 
