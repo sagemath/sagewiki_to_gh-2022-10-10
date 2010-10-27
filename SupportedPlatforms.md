@@ -18,7 +18,7 @@ Below are listed the supported platforms, along with the level of support given.
 
 Specific hardware and software for these 3 levels of support are given below.
 
-=== Fully supported ===
+=== Fully supported - Sage is ALWAYS check on all these platforms BEFORE a release is made ===
 Sage is fully supported on the following platforms. This means '''every''' single release of Sage is '''always''' tested on these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/sage/buildslaves ) Failure to build on one of these platforms will stop a release of Sage being made. Usually all Sage's self-tests (doc-tests) will pass, though one or two failures on one or two platforms may occur, and will be documented in an [[errata|errata page]]. Any failures to either build or pass tests are considered very serious bugs. 
 
 If you wish to set up a server primarily or exclusively for using Sage, you would be advised to install one of these operating systems, rather than one on which Sage is not regularly tested. 
@@ -32,7 +32,7 @@ There are five requirements for Sage to work successfully on these fully support
  * All instructions must be followed.
 
 ====== Linux ======
- * Fedora 13 on x86 (64-bit). 
+ * Fedora 13 on x86 (64-bit). Tested on one or more of [[http://build.sagemath.org/sage/buildslaves/cicero-1|cicero]],  [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/lena-1|lena]], [[http://build.sagemath.org/sage/buildslaves/sextus-1|sextus]] or  [[http://build.sagemath.org/sage/buildslaves/taurus-1|taurus]]
  * openSUSE 11.1 on x86 (64-bit) 
  * Redhat 5.3 on Intel Itanium (64-bit) 
  * Ubuntu 8.04.4 LTS  on x86 (64-bit)
@@ -45,13 +45,13 @@ There are five requirements for Sage to work successfully on these fully support
  * 06/2009 updated to build 134 on x86 (32-bit only. No 64-bit)
 
 ====== Solaris ======
- * Solaris 10 update 4 on SPARC processors (32-bit only. No 64-bit)
+ * Solaris 10 update 1 on SPARC processors (32-bit only. No 64-bit) Tested on [[
  * Solaris 10 update 6 on x86 processors (32-bit only. No 64-bit yet)
 
 ====== Microsoft Windows ======
  * Using a VMWare image (TODO  - update with further information) 
 
-=== Expected to work, but not every release of Sage is tested on these systems.  ===
+=== Expected to work. Not every release of Sage is tested on these systems.  ===
 In addition to the above systems where Sage will work, Sage will probably work on the following operating systems, though we can't guarantee that, as it is impractical to test each Sage release on all these systems. Failure to build on these systems will be considered a bug, but we may not have the resources to solve any problems. 
 
 If anyone is able to test on these systems, we would particularly appreciate reports of failures, since Sage really should work on these systems. We expect to set up an automated system where people can mail successful build reports, and to generate a web page showing successful builds. But currently neither are in place. 
@@ -81,17 +81,21 @@ None of these systems have a complete fully reliable port. In some cases complet
 If anyone has the time to help on these ports, it would be greatly appreciated.
 
 ===== AIX =====
- * A little work has been done on an [[AIX64| AIX port of Sage]], though it is not currently clear if this will ever be completed, as there is not a significant effort taking place. If you wish to help, that would be appreciated. If you do not have access to AIX hardware, [[http://www.metamodul.com/|Metamodul]] will provide free public access for open-source development. A couple of Sage developers have used this. 
+ * A little work has been done on an AIX port. This can be followed at the [[AIX_port| AIX port page]]. It is not currently clear if this will ever be completed, as there is not a significant effort taking place. If you wish to help, that would be appreciated. If you do not have access to AIX hardware, [[http://www.metamodul.com/|Metamodul]] will provide free public access for open-source development. A couple of Sage developers have used this. The AIX port can be followed at [[AIX_port|The AIX port page]] Trac ticket #9999
 
 ====== FreeBSD ======
  * FreeBSD 8.1 (Substantial work has been done on this, and a port during 2010 is highly likely)
 
 More information about the status of the FreeBSD port can be found at [[freebsd|Sage port to FreeBSD]].
 
+===== Linux =====
+ * Mips64 The Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
+ * PPC64 The 64-bit PowerPC port can be followed at [[linuxPPC64|the linux PPC64 port page]]
+
 ===== HP-UX =====
  * Some work has been done on an HP-UX port to the PA-RISC processor. At least three Sage developers have tested their code on HP-UX.
  * Some work has been done on HP-UX on the Itanium processor.
-More information on the HP-UX port can be found on the [[HP-UX]] page
+More information on the HP-UX port can be found on the [[HP-UX]] page. 
 
 ===== OpenSolaris =====
  * !OpenSolaris 06/2009 on x86 in 64-bit mode.  (Substantial work has been done on this. A port can be expected in 2010). 
@@ -103,22 +107,10 @@ More information on the HP-UX port can be found on the [[HP-UX]] page
 More information about the status of the Solaris ports can be found on the [[solaris|Solaris]] page of the Sage Wiki. There's also some notes about installing [[solaris-binaries|Solaris binaries]] and 
 
 ===== Microsoft Windows =====
- * Microsoft Windows using Cygwin (Substantial work has been done on this. A port can be expected in 2010).
-
-More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows sage-windows]] mailing list.
-
+ * Microsoft Windows using Cygwin (Substantial work has been done on this. A port can be expected in 2010). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows sage-windows]] mailing list.
+ * Microsoft Windows using Microsoft's compiler. This will be a full native port. This may never be a reality.
 
 
-
-The following two platforms are feasible, but not in the short term, as the work involved will be significant. 
-
- * AIX
- * HP-UX
-
-The status of various ports can be followed in the following places:
- * The AIX port can be followed at [[AIX_port|The AIX port page]]
- * The FreeBSD port can be followed at [[freebsd|The FreeBSD port page]].
- * The HP-UX port can be followed at [[HP-UX|The HP-UX port page]].
  * The Linux ppc64 port can be followed at [[linuxPPC64|The Linux PPC64 port page]]
  * The Linux Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
  * The Solaris port can be followed at [[solaris|The Solaris port page]].
