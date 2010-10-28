@@ -6,6 +6,8 @@ DATES: January 7 - 13, though some people will show up Jan 9 or 10, due to the A
 
 LOCATION: TBA (likely Seattle)
 
+FUNDING: If you're interested in attending, there may be funding for you.   Email wstein@gmail.com.
+
 LIKELY PARTICIPANTS:
 
   * William Stein (UW)
