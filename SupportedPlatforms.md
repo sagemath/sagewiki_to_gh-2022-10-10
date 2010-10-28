@@ -89,7 +89,7 @@ None of these systems have a complete fully reliable port. In some cases complet
 If anyone has the time to help on these ports, it would be greatly appreciated. 
 
 ===== AIX =====
- * A little work has been done on an AIX port. This can be followed at the [[AIX_port| AIX port page]]. It is not currently clear if this will ever be completed, as there is not a significant effort taking place. If you wish to help, that would be appreciated. If you do not have access to AIX hardware, [[http://www.metamodul.com/|Metamodul]] will provide free public access for open-source development. A couple of Sage developers have used this. The AIX port can be followed at [[AIX_port|The AIX port page]] Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/9999|9999]] has the latest list of known issues.
+ * A little work has been done on an AIX port. This can be followed at the [[AIX| AIX port page]]. It is not currently clear if this will ever be completed, as there is not a significant effort taking place. If you wish to help, that would be appreciated. If you do not have access to AIX hardware, [[http://www.metamodul.com/|Metamodul]] will provide free public access for open-source development. A couple of Sage developers have used this. Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/9999|9999]] has the latest list of known issues.
 
 ====== FreeBSD ======
  * FreeBSD 8.1 (Substantial work has been done on this, and a port during 2010 is highly likely)
