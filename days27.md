@@ -16,7 +16,7 @@ LIKELY PARTICIPANTS:
   * Tom Boothby (SFU, Vancouver)
   * Johan Sebastian Rosenkilde Nielsen (Denmark)
   * Willem Jan Palenstijn (Holland and Belgium)
-  * Jeroen Demeyer (Belgium)
+  * Jeroen Demeyer (Ghent, Belgium)
   * Volker Braun (Germany?)
   * Marshall Hampton (Minnesota) 
   * Robert Miller
