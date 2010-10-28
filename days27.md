@@ -12,7 +12,7 @@ LIKELY PARTICIPANTS:
 
   * William Stein (UW)
   * Alex Leone  (UW)
-  * Dan Drake (Korea)
+  * Dan Drake (KAIST, Korea)
   * Tom Boothby (SFU, Vancouver)
   * Johan Sebastian Rosenkilde Nielsen (Denmark)
   * Willem Jan Palenstijn (Holland and Belgium)
