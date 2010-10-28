@@ -1,0 +1,21 @@
+= Sage Days 27: Bug Days =
+
+This Sage days will be a bug fix Sage Days, devoted to fixing large numbers of bugs in Sage. 
+
+DATES: January 7 - 13, though some people will show up Jan 9 or 10, due to the AMS/MAA meeting. 
+
+LOCATION: TBA (likely Seattle)
+
+LIKELY PARTICIPANTS:
+
+  * William Stein (UW)
+  * Alex Leone  (UW)
+  * Dan Drake (Korea)
+  * Tom Boothby (SFU, Vancouver)
+  * Johan Sebastian Rosenkilde Nielsen (Denmark)
+  * Willem Jan Palenstijn (Holland and Belgium)
+  * Jeroen Demeyer (Belgium)
+  * Volker Braun (Germany?)
+  * Marshall Hampton (Minnesota) 
+  * Robert Miller
+  * Robert Bradshaw
