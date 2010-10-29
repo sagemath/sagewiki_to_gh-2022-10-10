@@ -168,7 +168,6 @@ def show_mandelbrot(option = selector(options, nrows = 2, width=8),
                     plot_size = slider(2,10,1,6),
                     auto_update = False):
     global x0, y0, side
-    print option
     if option == 'Lower Right':
         x0 += side/2
         y0 += side/2
@@ -192,7 +191,7 @@ def show_mandelbrot(option = selector(options, nrows = 2, width=8),
 #    time show(p, figsize = (plot_size, plot_size))
     pylab.clf()
     pylab.imshow(m, cmap = pylab.cm.gray)
-    time pylab.savefig('caca.png')
+    time pylab.savefig('mandelbrot.png')
 }}}
 {{attachment:mandelbrot_cython.png}}
 
