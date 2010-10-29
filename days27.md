@@ -23,3 +23,4 @@ LIKELY PARTICIPANTS:
   * Robert Bradshaw
   * Rob Beezer (U Puget Sound, Tacoma), after AMS/MAA Meetings
   * John Palmieri (UW)
+  * Mike Hansen
