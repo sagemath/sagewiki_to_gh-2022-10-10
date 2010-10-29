@@ -75,7 +75,7 @@
   * Givaro
   * IML
 
- * benchmarketing (robertwb, Willem)
+ * benchmarking (robertwb, Willem)
   * doctest benchmarking interface
 
 
@@ -146,5 +146,3 @@
  * (weinmann) related to malb's point directly above: merge smatlib code into SAGE.
 
  * (weinmann) extend MPolynomialSystemGenerator such that equation systems for (stream and block) ciphers can be generated in a generic way.
-
-[[http://www.securedatarecovery.com/data-recovery-san-diego.html|Data Recovery San Diego]]
