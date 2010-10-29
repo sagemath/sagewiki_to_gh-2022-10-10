@@ -199,5 +199,3 @@ Same as Sunday.
 11-12 am: Panel discussion on future joint work options.
 
 Afternoon: anyone left around can continue to code!
-
-[[http://www.securedatarecovery.com/data-recovery-san-diego.html|Data Recovery San Diego]]
