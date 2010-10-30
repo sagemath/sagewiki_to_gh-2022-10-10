@@ -34,18 +34,16 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
-== Vendredi Prochain : 29 octobre 2010 ==
-
-  * 13h30 : Franco nous montrera comment utiliser le python debugger (activé en écrivant %pdb dans Sage). 
-
-== Vendredi Prochain : 22 octobre 2010 ==
-
-  * 13h30 : Marco Robado nous expliquera comment utiliser le protocole RSA pour les connexion SSH.
-  * Sébastien wants Franco to review [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]].
-  * Alexandre Blondin Massé
-      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8431|#8431]].
-
 == Vendredi précédents ==
+
+=== 29 octobre 2010 ===
+
+  * Alexandre Blondin Massé, Sébastien Labbé et Franco Saliola ont travaillé sur l'implémentation d'un arbre suffixe en Cython.
+
+=== 22 octobre 2010 ===
+
+  * Marco Robado a expliqué comment utiliser le protocole RSA pour les connexion SSH.
+  * Sébastien Labbé et Franco Saliola ont travaillé sur les permutations codées par des chemins.
 
 === 15 octobre 2010 ===
 
