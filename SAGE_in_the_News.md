@@ -4,6 +4,9 @@
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and Blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage 
 is perceived in the outside world.
 
+
+  * [[http://www.infoworld.com/d/developer-world/7-programming-languages-the-rise-620|7 programming languages on the rise]], 2010-10-25
+
   * [[http://www.limited-entropy.com/discrete-log|Crypto Series: Discrete Logarithm, 2010-02-10]]
 
   * [[http://www.itworld.com//development/89304/python-miscellany-serious-mathematics-more-comprehensions-and-novelties|"Python miscellany: serious mathematics, more comprehensions, and novelties" by Cameron Laird, itworld.com, 2009-12-15]]
