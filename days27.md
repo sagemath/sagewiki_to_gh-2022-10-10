@@ -10,17 +10,18 @@ FUNDING: If you're interested in attending, there may be funding for you.   Emai
 
 LIKELY PARTICIPANTS:
 
-  * William Stein (UW)
-  * Alex Leone  (UW)
-  * Dan Drake (KAIST, Korea)
+  * Rob Beezer (U Puget Sound, Tacoma), after AMS/MAA Meetings
   * Tom Boothby (SFU, Vancouver)
+  * Robert Bradshaw (Google Seattle)
+  * Volker Braun (Germany?)
+  * Jeroen Demeyer (Ghent, Belgium)
+  * Dan Drake (KAIST, Korea)
+  * Marshall Hampton (Minnesota) 
+  * Mike Hansen (Berkeley?)
+  * Alex Leone  (UW)
+  * Robert Miller (Warwick/MSRI)
   * Johan Sebastian Rosenkilde Nielsen (Denmark)
   * Willem Jan Palenstijn (Holland and Belgium)
-  * Jeroen Demeyer (Ghent, Belgium)
-  * Volker Braun (Germany?)
-  * Marshall Hampton (Minnesota) 
-  * Robert Miller (Warwick/MSRI)
-  * Robert Bradshaw
-  * Rob Beezer (U Puget Sound, Tacoma), after AMS/MAA Meetings
+  * William Stein (UW)
   * John Palmieri (UW)
-  * Mike Hansen
+  * Sebastian Pancratz (Oxford)
