@@ -19,7 +19,7 @@ LIKELY PARTICIPANTS:
   * Jeroen Demeyer (Ghent, Belgium)
   * Volker Braun (Germany?)
   * Marshall Hampton (Minnesota) 
-  * Robert Miller
+  * Robert Miller (Warwick/MSRI)
   * Robert Bradshaw
   * Rob Beezer (U Puget Sound, Tacoma), after AMS/MAA Meetings
   * John Palmieri (UW)
