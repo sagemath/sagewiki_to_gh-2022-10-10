@@ -134,8 +134,8 @@ def mandelbrot_cython(float x0,float  x1,float  y0,float  y1,
     cdef double complex c, z, I
     cdef float deltax, deltay, R2 = R*R
     cdef int h, j, k
-    cdef np.ndarray[int, ndim=2] m
-    m = np.zeros((N,N), dtype=int)
+    cdef np.ndarray[np.uint16_t, ndim=2] m
+    m = np.zeros((N,N), dtype=np.uint16)
     I = complex(0,1)
     deltax = (x1-x0)/N
     deltay = (y1-y0)/N
