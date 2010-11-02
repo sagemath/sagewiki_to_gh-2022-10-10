@@ -25,3 +25,4 @@ LIKELY PARTICIPANTS:
   * William Stein (UW)
   * John Palmieri (UW)
   * Sebastian Pancratz (Oxford)
+  * Geoffrey Ehrman (UNH)
