@@ -26,3 +26,4 @@ LIKELY PARTICIPANTS:
   * William Stein (UW)
   * John Palmieri (UW)
   * Sebastian Pancratz (Oxford)
+  * Dmitrii Pasechnik (Singapore), from Jan 9 or 10
