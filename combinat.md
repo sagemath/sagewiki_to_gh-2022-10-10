@@ -13,7 +13,6 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 == NEWS ==
 
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
- * [[http:/combinat/Grants|Grant applications]]
 
  * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
    A 315 pages free french introductory book on computational mathematics, illustrated in Sage, and, including 35 pages on combinatorics
@@ -60,6 +59,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * [[http:/combinat/Contributors|Contributors]]
 
  * [[http:/combinat/Institutions|Institutions and sponsors]]
+
+ * [[http:/combinat/Grants|Grant applications]]
 
  * [[http://www.sagemath.org/library-publications-combinat.html|Publications citing Sage-Combinat]]
 
