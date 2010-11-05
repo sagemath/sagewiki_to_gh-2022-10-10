@@ -36,6 +36,10 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 == Vendredi précédents ==
 
+=== 5 novembre 2010 ===
+
+  * Franco Saliola a expliqué comment utiliser le Python Debugger. Il a fait une page HTML avec du code ReST. Il faudrait ajouter le lien ici.
+
 === 29 octobre 2010 ===
 
   * Alexandre Blondin Massé, Sébastien Labbé et Franco Saliola ont travaillé sur l'implémentation d'un arbre suffixe en Cython.
