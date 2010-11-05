@@ -2,7 +2,7 @@
 Sage-Combinat grants
 ====================
 
-This page list some past and ongoing grant applications around Sage-Combinat
+This page lists some past and ongoing grant applications involving Sage-Combinat
 
 Fall 2012: CIMPA Summer school in Bobo-Dioulasso, Burkina Faso
 --------------------------------------------------------------
