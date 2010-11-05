@@ -11,6 +11,7 @@ FUNDING: If you're interested in attending, there may be funding for you.   Emai
 LIKELY PARTICIPANTS:
 
   * Rob Beezer (U Puget Sound, Tacoma), after AMS/MAA Meetings
+  * Vladimir Bondarenko ([[http://cybertester.com/|Cybertests.com]], Ukrain)
   * Tom Boothby (SFU, Vancouver)
   * Robert Bradshaw (Google Seattle)
   * Volker Braun (Germany?)
