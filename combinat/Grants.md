@@ -1,6 +1,6 @@
 {{{#!rst
 Sage-Combinat grants
---------------------
+====================
 
 This page list some past and ongoing grant applications around Sage-Combinat
 
