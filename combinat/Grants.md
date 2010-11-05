@@ -22,7 +22,7 @@ Fall 2012: CIMPA Summer school in Bobo-Dioulasso, Burkina Faso
 Note: everything below tentative
 
 :Institutions: UC Davis, Pen, *Standford*, ...
-:PI's: J. Bandlow, D. Bump, G. Musiker, A. Schilling (N. M. Thiéry?)
+:PI's: Jason Bandlow, Dan Bump, Greg Musiker, Anne Schilling (Nicolas M. Thiéry)
 :Duration: ???
 :Funds for:
  - Sage-Combinat days in UC Davis, Standford, ...
@@ -59,7 +59,7 @@ Note: everything below tentative
 
 :Status: failed
 :Institutions: *Orsay*, *UC Davis*, Rouen, Minessota, UW Seattle, Marne-la-vallée, ...
-:PI's: A. Schilling, N.M. Thiéry
+:PI's: Anne Schilling, Nicolas M. Thiéry
 :Duration: 3 years
 :Funds for:
  - Sage-Combinat server in the Sage farm in Seattle
@@ -72,13 +72,13 @@ Note: everything below tentative
 
 :Status: failed
 :Institutions: *Orsay*, *UC Davis*, ...
-:PI's: A. Schilling, N.M. Thiéry
+:PI's: Anne Schilling, Nicolas M. Thiéry
 
 2007-2010: `NSF Focused Research Group ``Affine Schubert Calculus'' <http://garsia.math.yorku.ca/dokuwiki/doku.php>`_
 ---------------------------------------------------------------------------------------------------------------------
 
 :Institutions: Fields Institute, UC Davis, Virginia Tech, ...
-:PI's: J. Morse, A. Schilling, M. Shimozono, M. Zabrocki, ...
+:PI's: Jennifer Morse, Anne Schilling, Mark Shimozono, Mike Zabrocki, ...
 :Topics:
  - Symmetric functions (including K-Schur, ...)
  - (Affine) root systems, Weyl groups, ...
