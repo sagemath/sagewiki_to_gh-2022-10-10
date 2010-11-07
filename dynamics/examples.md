@@ -101,7 +101,22 @@ sage: o = Origami('(1,2)(3,4)','(1,3)')
 sage: o.stratum()
 H(1, 1)
 sage: t = o.teichmueller_curve()
-sage: for c in t.cusp_representative():
+sage: for c,width in t.cusp_representative():
 ...     print c
-...     print c.cylinder_diagram().dual_graph()
+...     print "width: %d" %width
+...     print c.cylinder_diagram().dual_graph(), "\n"
+(1,2)(3,4)
+(1)(2,3)(4)
+width: 2
+Looped multi-graph on 1 vertex
+
+(1,2)(3)(4)
+(1,3)(2,4)
+width: 2
+Looped multi-graph on 2 vertices
+
+(1,2,3,4)
+(1)(2,4)(3)
+width: 2
+Looped multi-graph on 1 vertex
 }}}
