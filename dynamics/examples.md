@@ -30,7 +30,7 @@ sage: p.rauzy_diagram(left_induction=True)
 Rauzy diagram with 84 permutations
 }}}
 
-Build a path in the Rauzy diagram
+Build a path in the Rauzy diagram (the letter 't' means top induction and the letter 'b' means bottom induction)
 {{{
 sage: path = r.path(p,'t','t','b','t','b','b','t','b')
 sage: path.is_full()   # all intervals are seen as winner during Rauzy induction
