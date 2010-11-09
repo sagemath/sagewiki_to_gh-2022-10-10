@@ -5,6 +5,8 @@ Broadly construed, this will describe how Sage (the software or the machine sage
 is perceived in the outside world.
 
 
+  * [[http://www.scidev.net/en/opinions/africa-analysis-the-benefits-of-open-source-software.html|Africa Analysis: The benefits of open source software]], 2010-11-05
+
   * [[http://www.infoworld.com/d/developer-world/7-programming-languages-the-rise-620|7 programming languages on the rise]], 2010-10-25
 
   * [[http://www.limited-entropy.com/discrete-log|Crypto Series: Discrete Logarithm, 2010-02-10]]
