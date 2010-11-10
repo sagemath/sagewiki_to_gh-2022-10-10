@@ -11,13 +11,13 @@ If you try to build Sage on something more exotic, you may find a Sage developer
 
 Below are listed the supported platforms, along with the level of support given. There are 3 levels of support.
 
- * 1) Fully supported - Sage is ALWAYS check on ALL these platforms BEFORE a release is made
+ * 1) Fully supported - Sage is ALWAYS checked on ALL these platforms BEFORE a release is made
  * 2) Expected to work -  Sage will probably work, but it is not always tested.
  * 3) Probably will not work - Porting work may be ongoing. 
 
 Specific hardware and software for these 3 levels of support are given below.
 
-=== Fully supported - Sage is ALWAYS check on ALL these platforms BEFORE a release is made ===
+=== Fully supported - Sage is ALWAYS checked on ALL these platforms BEFORE a release is made ===
 Sage is fully supported on the following platforms. This means '''every''' single release of Sage is '''always''' tested on '''all''' these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/sage/buildslaves) Failure to build on one of these platforms will stop a release of Sage being made. Usually all Sage's self-tests (doc-tests) will pass, though one or two failures on one or two platforms may occur, and will be documented in an [[errata|errata page]]. Any failures to either build or pass tests are considered very serious bugs. 
 
 Also, we will always make binaries available for these platforms. 
