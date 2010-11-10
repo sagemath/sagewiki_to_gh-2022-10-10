@@ -16,7 +16,7 @@ LIKELY PARTICIPANTS:
   * Robert Bradshaw (Google Seattle)
   * Volker Braun (Germany?)
   * Jeroen Demeyer (Ghent, Belgium)
-  * Dan Drake (KAIST, Korea)
+  * Dan Drake (KAIST, Korea), after Joint Meetings
   * Geoffrey Ehrman (UNH)
   * Marshall Hampton (Minnesota) 
   * Mike Hansen (Berkeley)
