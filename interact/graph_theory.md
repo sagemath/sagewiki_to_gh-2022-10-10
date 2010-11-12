@@ -93,7 +93,9 @@ def show_subgraph(to_delete=selector(range(10),buttons=True)):
 
 == Animations of Graph Minors ==
 by Pablo Angulo
-Note: you should "Upload" or "Create a new file" called wagner.sage with the following [[interact/graph_theory/wagner.sage| content of wagner.sage]], and then you can use the code below:
+
+Note: you should use "Upload" or "Create a new file" to attach to the worksheet a file called wagner.sage with the following [[interact/graph_theory/wagner.sage| content]], and then you can use the code below:
+
 {{{
 attach(DATA + 'wagner.sage')
 graph_list = {'CompleteGraph4':graphs.CompleteGraph(4),
