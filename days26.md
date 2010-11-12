@@ -2,7 +2,7 @@
 
    *  Location: Seattle, Washington
 
-   *  Dates: December 7, 2010 to December 11, 2010
+   *  Dates: December 7, 2010 to December 10, 2010
 
    *  Organizers: Alyson Deines (UW), Jennifer Balakrishnan (MIT), Gagan Sekhon (UConn), William Stein (UW)
 
