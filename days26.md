@@ -14,35 +14,44 @@
    
    *  Rachel Pries
 
+   *  Anne Schilling
+
    *  Katherine Stange 
  
 == Participants ==
 
-   *  Sarah Chisholm
+   *  Jennifer Balakrishnan
 
-   *  Bianca Viray
-
-   *  Lola Thompson
-
-   *  Ilke Canakci 
+   *  Anja Becker
 
    *  Erin Beyerstedt
 
-   *  Charlie Turner
+   *  Ilke Canakci 
 
-   *  Jennifer Johnson-Leung
+   *  Sarah Chisholm
+
+   *  Alyson Deines
+
+   *  Julie Eaton
+
+   *  Marina Gresham
 
    *  Kim Hopkins
 
-   *  Flavia Stan
+   *  Jennifer Johnson-Leung
 
    *  Karen Kohl
 
-   *  Jennifer Balakrishnan
+   *  Jennifer Park
 
    *  Gagan Sekhon
 
-   *  Alyson Deines
+   *  Flavia Stan
+
+   *  Lola Thompson
+
+   *  Bianca Viray
+
 
 == Schedule ==
 
