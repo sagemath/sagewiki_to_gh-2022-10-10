@@ -55,7 +55,7 @@
 
 == Schedule ==
 
-   * coming soon
+   The tentative [[days26/schedule|schedule is here]].
 
 == Mailing Lists ==
 
