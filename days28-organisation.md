@@ -5,8 +5,8 @@ Exemples d'organisations anterieures :
   * http://wiki.sagemath.org/days25.5/francais
 
 
-=== Site web officiel : 
-  * http://wiki.sagemath.org/days28 ===
+=== Site web officiel ===
+  * http://wiki.sagemath.org/days28
   * mettre les worksheets sur le wiki (cf http://wiki.sagemath.org/days25.5/francais)
 
 
