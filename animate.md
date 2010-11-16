@@ -553,3 +553,33 @@ sage: G = [words.fibonacci_tile(i).plot(**options) for i in range(7)]
 sage: a = animate(G)
 sage: a.show(delay=150)
 }}}
+
+=== Pencil of conics ===
+by Pablo Angulo
+{{attachment:pencil.gif}}
+
+{{{
+puntos = [(0,0),(0,1),(1,3),(2,1)]
+K = len(puntos)
+
+var('x y')
+coefs = matrix(QQ, K, 6)
+for j in range(K):
+    x0, y0 = puntos[j]
+    coefs[j,:] = vector([x0^2, y0^2, x0*y0, x0, y0, 1])
+    
+K = coefs.right_kernel()
+v1 = K.basis()[0]
+v2 = K.basis()[1]
+
+graficas = []
+for t in srange(0,2*pi,0.3):
+    c1, c2 = sin(t), cos(t)
+    a,b,c,d,e,f = c1*v1 + c2*v2
+    curva = a*x^2 + b*y^2 + c*x*y + d*x + e*y + f
+    graficas.append( point2d(puntos,color=(1,0,0),pointsize=30) + 
+                     implicit_plot(curva,(x,-1,4),(y,-1,4)) )
+a = animate(graficas)
+
+a.show(delay=10)
+}}}
