@@ -1,6 +1,6 @@
 == Page d'organisation des sage-days a Orsay ==
 
-Exemples d'organisations anterieures : 
+Exemples d'organisations anterieures :
   * http://wiki.sagemath.org/days20.5/schedule  (La fiche "Exercices", a reecrire en rest : Vincent avec le script de NicolasT)
   * http://wiki.sagemath.org/days25.5/francais
 
@@ -16,6 +16,17 @@ Exemples d'organisations anterieures :
 
 === Formulaire ===
   * s'inspirer de https://spreadsheets.google.com/viewform?formkey=dE1mc0N2M3lJQlpyN244MTdHOTdRUXc6MQ
+    * langue: français / anglais / les deux
+    * je pense venir: lundi / mardi
+      * arrivée: date, heure
+      * départ: date, heure
+    * j'apporte mon ordinateur portable?
+      * os: linux / mac / win / autre?
+      * équipé wifi?
+    * familiarité linux / mac / win
+    * connaissance de Sage: jamais entendu parler / ... / contributeur
+    * prénom + nom
+    * commentaires
   * ajouter (ce qui est en MAJUSCULE est un texte libre, le reste essentiellement checkbox):
     * VOTRE ADRESSE MAIL
     * D'ou venez-vous? Avez-vous besoin d'aide pour vous loger?
@@ -43,7 +54,7 @@ Exemples d'organisations anterieures :
       * Échanges d'intervalles
       * AUTRE : PROPOSEZ
     * Comptez-vous participer aux sage-days? (checkbox lundi // mardi // je compte rester les jours suivants pour programmer)
-    * os : 
+    * os :
       * sous linux : QUELLE DISTRIBUTION ET VERSION
       * sous windows : QUELLE VERSION
       * sous mac : QUELLE VERSION
@@ -51,7 +62,7 @@ Exemples d'organisations anterieures :
 
 
 === Pub ===
-  * envoi d'un mail avec lien vers 
+  * envoi d'un mail avec lien vers
     * la page http://wiki.sagemath.org/days28
     * le formulaire d'inscription
   * destinataires : sage-devel, sage-combinat-devel, labos parisiens, lri, math-orsay, gdr-im, ...
