@@ -36,6 +36,19 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 == Vendredi précédents ==
 
+=== 12 novembre 2010 ===
+
+  * Alexandre Blondin Massé et Sébastien Labbé ont travaillé sur 
+      * L'implémentation d'un arbre suffixe en Cython.
+      *  #8739: Addition of Kolakoski word
+      *  #8431: Substitutions over unit cube faces (Rauzy fractals)
+      *  #10266: Add sum of digits of a sequence to the word constructor
+      *  #10267: Add a method that returns the balance level of a finite word
+      *  #10265: Add palindrome defect word to the word constructor
+      *  #8674: Comparison of combinatorial class of words with word paths is broken
+      *  #10134: Provide the enumeration of word morphisms from a range of integers
+      *  #10261: Improve documentation for word (over str vs over integer)
+
 === 5 novembre 2010 ===
 
   * Franco Saliola a expliqué comment utiliser le Python Debugger. Il a fait une page HTML avec du code ReST. Il faudrait ajouter le lien ici.
