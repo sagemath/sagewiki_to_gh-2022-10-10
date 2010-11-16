@@ -1,4 +1,4 @@
-= Page d'organisation des sage-days a Orsay=
+== Page d'organisation des sage-days a Orsay ==
 
 Exemples d'organisations anterieures : 
   * http://wiki.sagemath.org/days20.5/schedule  (La fiche "Exercices", a reecrire en rest : Vincent avec le script de NicolasT)
