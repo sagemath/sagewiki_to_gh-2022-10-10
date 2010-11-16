@@ -15,7 +15,7 @@ Exemples d'organisations anterieures :
 
 
 === Formulaire ===
-  * s'inspirer de https://spreadsheets.google.com/viewform?formkey=dE1mc0N2M3lJQlpyN244MTdHOTdRUXc6M
+  * s'inspirer de https://spreadsheets.google.com/viewform?formkey=dE1mc0N2M3lJQlpyN244MTdHOTdRUXc6MQ
   * ajouter (ce qui est en MAJUSCULE est un texte libre, le reste essentiellement checkbox):
     * VOTRE ADRESSE MAIL
     * D'ou venez-vous? Avez-vous besoin d'aide pour vous loger?
