@@ -14,7 +14,10 @@ Exemples d'organisations anterieures :
   * liste sage-combinat-days existante
 
 
-=== Formulaire ===
+=== Formulaire d'inscription ===
+
+Brouillon sur https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ
+
   * s'inspirer de https://spreadsheets.google.com/viewform?formkey=dE1mc0N2M3lJQlpyN244MTdHOTdRUXc6MQ
     * langue: français / anglais / les deux
     * je pense venir: lundi / mardi
@@ -58,7 +61,6 @@ Exemples d'organisations anterieures :
       * sous windows : QUELLE VERSION
       * sous mac : QUELLE VERSION
     * je suis volontaire pour aider à l'organisation
-
 
 === Pub ===
   * envoi d'un mail avec lien vers
