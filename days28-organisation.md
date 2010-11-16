@@ -40,17 +40,16 @@ Exemples d'organisations anterieures :
       * AUTRE
     * Quelles thématiques souhaitez-vous voir abordées plus en détail?
       * Lancer sage et naviguer dans le système d'aide
-      * Tour d'horizon
+      * Tour d'horizon (maths de première année avec Sage)
       * Introduction à Python (structures de données et de contrôle, itérateurs, classes)
-      * Introduction à la combinatoire (Permutations, tableaux, Ensembles énumérés, espèces, ...)
-      * Maths de première année avec Sage
+      * Introduction à la combinatoire (permutations, tableaux, ensembles énumérés, espèces, ...)
       * Combinatoire des mots
       * Surfaces à petit carreaux
       * Fonctions symmétriques & co
       * Utiliser les structures algébriques (polynômes, espaces vectoriels, ...)
       * Implanter des structures algébriques
       * Contribuer à Sage
-      * Contribuer à Sage-Combinat
+      * Contribuer à Sage-combinat
       * Échanges d'intervalles
       * AUTRE : PROPOSEZ
     * Comptez-vous participer aux sage-days? (checkbox lundi // mardi // je compte rester les jours suivants pour programmer)
