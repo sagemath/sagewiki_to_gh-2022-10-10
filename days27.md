@@ -8,6 +8,8 @@ LOCATION: Seattle
 
 FUNDING: If you're interested in attending, there may be funding for you.   Email wstein@gmail.com.
 
+TICKETS FAQ: [[/faq|Look here.]]
+
 LIKELY PARTICIPANTS:
 
   * Rob Beezer (U Puget Sound, Tacoma), after AMS/MAA Meetings
