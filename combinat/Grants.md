@@ -10,12 +10,6 @@ Fall 2012: CIMPA Summer school in Bobo-Dioulasso, Burkina Faso
 :Status: application sent
 :PI: Julien Cassaigne
 
-2011/01/15: NSF SCREMS
-----------------------
-
-:Institution: UC Davis
-:Funds for: Local Sage+Combinat notebook server for teaching, workshops, ...
-
 2010/12/15: NSF Computational Mathematics
 -----------------------------------------
 
