@@ -34,7 +34,17 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
+== Vendredi suivant : 26 novembre 2010 ==
+
+Sébastien Labbé
+13h30 : Utilisation de Sphinx (ReST) pour générer des démos.
+
 == Vendredi précédents ==
+
+=== 19 novembre 2010 ===
+
+  * Sébastien Labbé:
+      * Terminer les corrections de [[http://trac.sagemath.org/sage_trac/ticket/10266|#10266]] : Needs Review again.
 
 === 12 novembre 2010 ===
 
