@@ -46,3 +46,5 @@ The Sage notebook provides a graphical user interface to Sage. To help out with 
  * [[devel/BuildFarm | Build farm]]
 
  * [[devel/LatexToWorksheet | Latex document conversion to Sage worksheets]] 
+
+ * [[SharingYourBranch | Sharing your branch of Sage development]]
