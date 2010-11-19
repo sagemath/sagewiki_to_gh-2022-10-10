@@ -235,3 +235,4 @@ def _(M=input_grid(D,D, default = example,
     print 'We check it actually is the inverse'
     html('$$M^{-1}*M=%s*%s=%s$$'%(latex(M),latex(N),latex(M*N)))
 }}}
+{{attachment:gauss-jordan.png}}
