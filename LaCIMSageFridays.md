@@ -45,6 +45,7 @@ Sébastien Labbé
 
   * Sébastien Labbé:
       * Terminer les corrections de [[http://trac.sagemath.org/sage_trac/ticket/10266|#10266]] : Needs Review again.
+      * Wrote [[SharingYourBranch]] page.
 
 === 12 novembre 2010 ===
 
