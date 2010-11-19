@@ -236,3 +236,5 @@ def _(M=input_grid(D,D, default = example,
     html('$$M^{-1}*M=%s*%s=%s$$'%(latex(M),latex(N),latex(M*N)))
 }}}
 {{attachment:gauss-jordan.png}}
+
+...(goes all the way to invert the matrix)
