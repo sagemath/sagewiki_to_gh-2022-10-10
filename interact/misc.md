@@ -262,7 +262,7 @@ def cellular(rule, N):
     rule:     determines how a cell's value is updated, depending on its neighbors
     N:        number of iterations
     '''
-    M=zeros( (N,2*N+1), dtype=int)
+    M=zeros( (N,2*N+2), dtype=int)
     M[0,N]=1  
     
     for j in range(1,N):
