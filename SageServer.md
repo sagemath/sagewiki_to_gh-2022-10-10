@@ -42,6 +42,11 @@ Note that the numbers above are for simultaneously running worksheets.  There ca
 
 I started with a fresh copy of Ubuntu 9.10, with a working Sage compiled from source (which means I had to install some extra packages so that Sage compiles and runs; see the Sage README).
 
+  0) I install libssl-dev so that Sage can load https urls
+{{{
+sudo apt-get install libssl-dev
+}}}
+
 
 
   1) Install apache2 and enable the proxy modules
@@ -141,7 +146,6 @@ echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, se
    cd ~sageserver
    ln -s sage-4.3.2 sage
 }}}
-
 
   10) Install any optional spkgs that you want.  I install the jsmath-image-fonts spkg:
 
