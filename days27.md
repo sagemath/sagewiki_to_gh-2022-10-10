@@ -33,4 +33,4 @@ LIKELY PARTICIPANTS:
 
 Projects:
 
-  [[Notebook scalability]]
+  * [[Notebook scalability]]
