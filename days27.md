@@ -30,3 +30,7 @@ LIKELY PARTICIPANTS:
   * John Palmieri (UW)
   * Sebastian Pancratz (Oxford)
   * Dmitrii Pasechnik (Singapore), from Jan 9 or 10
+
+Projects:
+
+  [[Notebook scalability]]
