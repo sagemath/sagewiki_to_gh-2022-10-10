@@ -270,8 +270,7 @@ def cellular(rule, N):
             l = 4*M[j-1,k-1] + 2*M[j-1,k] + M[j-1,k+1]
             M[j,k]=rule[ l ]
     return M[:,:-1]
-}}}
-{{{
+
 def num2rule(number):
     if not 0 <= number <= 255:
         raise Exception('Invalid rule number')
