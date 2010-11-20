@@ -251,27 +251,25 @@ def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), y
 {{attachment:minksum.png}}
 
 == Cellular Automata ==
-by Pablo Angulo
+by Pablo Angulo, Eviatar Bach
 
 {{{
-%cython
 from numpy import zeros
 
-def cellular(rule, int N):
+def cellular(rule, N):
     '''Yields a matrix showing the evolution of a Wolfram's cellular automaton
     
     rule:     determines how a cell's value is updated, depending on its neighbors
     N:        number of iterations
     '''
-    cdef int j,k,l
     M=zeros( (N,2*N+1), dtype=int)
     M[0,N]=1  
     
     for j in range(1,N):
-        for k in range(N-j,N+j+1):
+        for k in range(0,2*N):
             l = 4*M[j-1,k-1] + 2*M[j-1,k] + M[j-1,k+1]
             M[j,k]=rule[ l ]
-    return M
+    return M[:,:-1]
 }}}
 {{{
 def num2rule(number):
@@ -286,7 +284,7 @@ def _( N=input_box(label='Number of iterations',default=100),
        size = slider(1, 11, step_size=1, default=6 ) ):
     rule = num2rule(rule_number)
     M = cellular(rule, N)
-    plot_M = matrix_plot(M)
+    plot_M = matrix_plot(M, cmap='binary')
     plot_M.show( figsize=[size,size])
 }}}
 {{attachment:cellular.png}}
