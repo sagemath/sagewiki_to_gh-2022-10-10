@@ -287,4 +287,4 @@ def _( N=input_box(label='Number of iterations',default=100),
     plot_M = matrix_plot(M, cmap='binary')
     plot_M.show( figsize=[size,size])
 }}}
-{{attachment:cellular.png}}
+{{attachment:cellular2.png}}
