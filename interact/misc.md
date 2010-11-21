@@ -255,22 +255,27 @@ by Pablo Angulo, Eviatar Bach
 
 {{{
 from numpy import zeros
+from random import randint
 
-def cellular(rule, N):
+def cellular(rule, N, initial='Single-cell'):
     '''Yields a matrix showing the evolution of a Wolfram's cellular automaton
     
     rule:     determines how a cell's value is updated, depending on its neighbors
     N:        number of iterations
+    initial:  starting condition; can be either single-cell or a random binary row
     '''
     M=zeros( (N,2*N+2), dtype=int)
-    M[0,N]=1  
+    if initial=='Single-cell':
+        M[0,N]=1
+    else:
+        M[0]=[randint(0,1) for a in range(0,2*N+2)]
     
     for j in range(1,N):
         for k in range(0,2*N):
             l = 4*M[j-1,k-1] + 2*M[j-1,k] + M[j-1,k+1]
             M[j,k]=rule[ l ]
     return M[:,:-1]
-
+    
 def num2rule(number):
     if not 0 <= number <= 255:
         raise Exception('Invalid rule number')
@@ -278,11 +283,11 @@ def num2rule(number):
     return binary_digits + [0]*(8-len(binary_digits))
 
 @interact
-def _( N=input_box(label='Number of iterations',default=100),
+def _( initial=selector(['Single-cell', 'Random'], label='Starting condition'), N=input_box(label='Number of iterations',default=100),
        rule_number=input_box(label='Rule number',default=110),
-       size = slider(1, 11, step_size=1, default=6 ) ):
+       size = slider(1, 11, label= 'Size', step_size=1, default=6 ), auto_update=False):
     rule = num2rule(rule_number)
-    M = cellular(rule, N)
+    M = cellular(rule, N, initial)
     plot_M = matrix_plot(M, cmap='binary')
     plot_M.show( figsize=[size,size])
 }}}
