@@ -254,6 +254,8 @@ def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), y
 by Pablo Angulo, Eviatar Bach
 
 {{{
+%python
+
 from numpy import zeros
 from random import randint
 
@@ -281,7 +283,8 @@ def num2rule(number):
         raise Exception('Invalid rule number')
     binary_digits = number.digits(base=2)
     return binary_digits + [0]*(8-len(binary_digits))
-
+}}}
+{{{
 @interact
 def _( initial=selector(['Single-cell', 'Random'], label='Starting condition'), N=input_box(label='Number of iterations',default=100),
        rule_number=input_box(label='Rule number',default=110),
