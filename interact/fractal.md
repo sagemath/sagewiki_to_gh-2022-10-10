@@ -269,7 +269,7 @@ julia_plot(-7,30,0.5,0.5,(-1.5,1.5), (-1.5,1.5))
 }}}
 {{attachment:julia-fractal-exponent--7.png}}
 
-== Sierpinski's Triangle ==
+== Sierpiński Triangle ==
 by Eviatar Bach
 
 {{{
@@ -278,7 +278,7 @@ by Eviatar Bach
 from numpy import zeros
 
 def sierpinski(N):
-    '''Generates the Sierpinski's Triangle fractal to N iterations using the Rule 90 elementary cellular automaton. N is in powers of 2 because these produce "whole" triangles.'''
+    '''Generates the Sierpiński Triangle fractal to N iterations using the Rule 90 elementary cellular automaton. N is in powers of 2 because these produce "whole" triangles.'''
     M=zeros( (N,2*N+1), dtype=int)
     M[0,N]=1
     rule=[0, 1, 0, 1, 1, 0, 1, 0]
