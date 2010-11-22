@@ -278,7 +278,7 @@ by Eviatar Bach
 from numpy import zeros
 
 def sierpinski(N):
-    '''Generates Sierpinski's Triangle to N iterations using the Rule 90 Elementary Cellular Automaton'''
+    '''Generates the Sierpinski's Triangle fractal to N iterations using the Rule 90 elementary cellular automaton. N is in powers of 2 because these produce "whole" triangles.'''
     M=zeros( (N,2*N+1), dtype=int)
     M[0,N]=1
     rule=[0, 1, 0, 1, 1, 0, 1, 0]
