@@ -269,10 +269,11 @@ julia_plot(-7,30,0.5,0.5,(-1.5,1.5), (-1.5,1.5))
 }}}
 {{attachment:julia-fractal-exponent--7.png}}
 
-=== Sierpinski's Triangle ===
+== Sierpinski's Triangle ==
 by Eviatar Bach
 
-{{{%python
+{{{
+%python
 
 from numpy import zeros
 
@@ -292,5 +293,6 @@ def sierpinski(N):
 def _(N=slider([2**a for a in range(0, 12)], label='Number of iterations',default=128), size = slider(1, 20, label= 'Size', step_size=1, default=9 )):
     M = sierpinski(N)
     plot_M = matrix_plot(M, cmap='binary')
-    plot_M.show( figsize=[size,size])}}}
+    plot_M.show( figsize=[size,size])
+}}}
 {{attachment:sierpinski.png}}
