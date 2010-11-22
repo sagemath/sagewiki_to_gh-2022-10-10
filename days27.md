@@ -19,6 +19,7 @@ LIKELY PARTICIPANTS:
   * Volker Braun (Germany?)
   * Jeroen Demeyer (Ghent, Belgium)
   * Dan Drake (KAIST, Korea), after Joint Meetings
+  * Ryan Grout (USA)
   * Geoffrey Ehrman (UNH)
   * Marshall Hampton (Minnesota) 
   * Mike Hansen (Berkeley)
