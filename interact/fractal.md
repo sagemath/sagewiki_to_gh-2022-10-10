@@ -88,7 +88,7 @@ def f(A = matrix([[1,1],[-1,1]]), D = '[[0,0],[1,0]]', k=(3..17)):
 }}}
 {{attachment:2.png}}
 
-== Now in 3d ==
+== Now in 3D ==
     
 {{{
  
@@ -268,3 +268,29 @@ def julia_plot(expo = slider(-10,10,0.1,2), \
 julia_plot(-7,30,0.5,0.5,(-1.5,1.5), (-1.5,1.5))
 }}}
 {{attachment:julia-fractal-exponent--7.png}}
+
+=== Sierpinski's Triangle ===
+by Eviatar Bach
+
+{{{%python
+
+from numpy import zeros
+
+def sierpinski(N):
+    '''Generates Sierpinski's Triangle to N iterations using the Rule 90 Elementary Cellular Automaton'''
+    M=zeros( (N,2*N+1), dtype=int)
+    M[0,N]=1
+    rule=[0, 1, 0, 1, 1, 0, 1, 0]
+    
+    for j in range(1,N):
+        for k in range(N-j,N+j+1):
+            l = 4*M[j-1,k-1] + 2*M[j-1,k] + M[j-1,k+1]
+            M[j,k]=rule[ l ]
+    return M
+    
+@interact
+def _(N=slider([2**a for a in range(0, 12)], label='Number of iterations',default=128), size = slider(1, 20, label= 'Size', step_size=1, default=9 )):
+    M = sierpinski(N)
+    plot_M = matrix_plot(M, cmap='binary')
+    plot_M.show( figsize=[size,size])}}}
+{{attachment:sierpinski.png}}
