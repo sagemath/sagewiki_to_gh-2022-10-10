@@ -284,6 +284,7 @@ def num2rule(number):
     binary_digits = number.digits(base=2)
     return binary_digits + [0]*(8-len(binary_digits))
 }}}
+Put in separate cell:
 {{{
 @interact
 def _( initial=selector(['Single-cell', 'Random'], label='Starting condition'), N=input_box(label='Number of iterations',default=100),
