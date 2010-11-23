@@ -10,7 +10,7 @@ by Eviatar Bach
 {{{
 import re, urllib, decimal
 def molarmass(compound):
-    '''Parses formulas and calculates molar mass using atomic weights at http://www.chem.qmul.ac.uk/iupac/AtWt/. It also shows the calculation used.'''
+    '''Parses formulas and calculates molar mass using atomic weights at http://www.chem.qmul.ac.uk/iupac/AtWt/'''
     elementfinder=re.compile('([()]?)([A-Z]?[a-z]*)([()]?)(\d*)([()]?)'*len(compound))
     element=re.search(elementfinder, compound)
     elementlist=[]
@@ -76,7 +76,7 @@ def molarmass(compound):
 
     for index, atom in enumerate(elementlist):
         try:
-            massfinder=re.compile('%s</td><td>\w+\s*</td><td>\[?(\d*\.?\d*)\]?\(?' %atom)
+            massfinder=re.compile('%s</td><td>\w+\s*</td><td>\[?(\d*\.?\d*)[](]+' %atom)
             found=re.search(massfinder, elementpage)
             elementlist[index]='decimal.Decimal("%s")' %found.group(int(1))
         except: pass
