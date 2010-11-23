@@ -76,7 +76,7 @@ def molarmass(compound):
 
     for index, atom in enumerate(elementlist):
         try:
-            massfinder=re.compile('%s</td><td>\w+\s*</td><td>\[?(\d*\.?\d*)[](]+' %atom)
+            massfinder=re.compile('%s</td><td>\w+\s*</td><td>\[?(\d*\.?\d*)[](]' %atom)
             found=re.search(massfinder, elementpage)
             elementlist[index]='decimal.Decimal("%s")' %found.group(int(1))
         except: pass
