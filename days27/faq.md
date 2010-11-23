@@ -7,7 +7,7 @@ Also, obviously, you should buy an economy ticket (at least, we can't reimburse 
 
 QUESTION:  I would also want to stop somewhere and visit family; I'm of course happy to pay the fare difference to a direct flight out of my own pocket but I would be rather unhappy to foot the entire bill...
 
-ANSWER: You can pay the fare difference out of pocket, and we'll pay the rest.  Make sure to obtain documentation at the time you purchase your ticket about what the fair is both with and without the stop, so we know exactly what the fair difference is. 
+ANSWER: You can pay the fare difference out of pocket, and we'll pay the rest.  Make sure to obtain documentation at the time you purchase your ticket about what the fare is both with and without the stop, so we know exactly what the fare difference is. 
 
 QUESTION: Do I have to buy the ticket? 
 
