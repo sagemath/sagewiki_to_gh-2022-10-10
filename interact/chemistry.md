@@ -10,7 +10,7 @@ by Eviatar Bach
 {{{
 import re, urllib, decimal
 def molarmass(compound):
-    '''Parses formulas and calculates molar mass using atomic weights at http://www.chem.qmul.ac.uk/iupac/AtWt/'''
+    '''Parses formulas and calculates molar mass using atomic weights at http://www.chem.qmul.ac.uk/iupac/AtWt/. It also shows the calculation used.'''
     elementfinder=re.compile('([()]?)([A-Z]?[a-z]*)([()]?)(\d*)([()]?)'*len(compound))
     element=re.search(elementfinder, compound)
     elementlist=[]
@@ -95,3 +95,5 @@ def molarmass(compound):
 def _(compound=input_box(label='Compound', default='H2O', type=str)):
     molarmass(compound)
 }}}
+
+{{attachment:molarmass.png}}
