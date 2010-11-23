@@ -2,21 +2,22 @@
 
 This is a collection of pages demonstrating the use of [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html#sagenb.notebook.interact.interact|the interact command]] in Sage. It should be easy to just scroll through and copy/paste examples into sage notebooks. If you have suggestions on how to improve interact, add them [[interactSuggestions|here]] or email sage-support@googlegroups.com . Of course, your own examples are also welcome!
 
- * [[interact/graph_theory|Graph Theory]]
- * [[interact/fractal|Fractals]]
- * [[interact/calculus|Calculus]]
- * [[interact/diffeq|Differential Equations]]
- * [[interact/dynsys|Dynamical Systems]]
- * [[interact/linear_algebra|Linear Algebra]]
  * [[interact/algebra|Algebra]]
- * [[interact/number_theory|Number Theory]]
- * [[interact/web|Web Applications]]
  * [[interact/bio|Bioinformatics]]
- * [[interact/stats|Statistics/Probability]]
- * [[interact/geometry|Geometry]]
+ * [[interact/calculus|Calculus]]
+ * [[interact/chemistry|Chemistry]]
+ * [[interact/diffeq|Differential Equations]]
  * [[interact/graphics|Drawing Graphics]]
+ * [[interact/dynsys|Dynamical Systems]]
+ * [[interact/fractal|Fractals]]
  * [[interact/games|Games and Diversions]]
+ * [[interact/geometry|Geometry]]
+ * [[interact/graph_theory|Graph Theory]]
+ * [[interact/linear_algebra|Linear Algebra]]
  * [[interact/misc|Miscellaneous]]
+ * [[interact/number_theory|Number Theory]]
+ * [[interact/stats|Statistics/Probability]]
+ * [[interact/web|Web Applications]]
 
 == Explanatory example: Taylor Series ==
 
