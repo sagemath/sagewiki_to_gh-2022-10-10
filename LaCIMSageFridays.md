@@ -34,12 +34,23 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
-== Vendredi suivant : 26 novembre 2010 ==
+== Vendredi suivant : 3 décembre 2010 ==
 
 Sébastien Labbé
 13h30 : Utilisation de Sphinx (ReST) pour générer des démos.
 
 == Vendredi précédents ==
+
+=== 26 novembre 2010 ===
+
+  * Alexandre Blondin Massé:
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/10266|#10266]] et de [[http://trac.sagemath.org/sage_trac/ticket/10265|#10265]].
+      * Arbre suffixe
+
+  * Sébastien Labbé:
+      * Terminer les corrections de [[http://trac.sagemath.org/sage_trac/ticket/10266|#10266]] : Needs Review again.
+      * Travail sur layout_graphviz
+      * Préparation de la présentation sur Sage à Montréal Python (avec Franco)
 
 === 19 novembre 2010 ===
 
