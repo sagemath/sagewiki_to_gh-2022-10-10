@@ -196,7 +196,7 @@ def _(M=input_grid(D,D, default = example,
       precision = slider(5,100,5,20),
       auto_update=False):
     if det(M)==0:
-        print 'Failure: determinant must be not zero'
+        print 'Failure: Matrix is not invertible'
         return
     if M.base_ring() == RR:
         M = M.apply_map(RealField(precision))
