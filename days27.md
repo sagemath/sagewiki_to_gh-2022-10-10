@@ -2,7 +2,7 @@
 
 This Sage days will be a bug fix Sage Days, devoted to fixing large numbers of bugs in Sage. 
 
-DATES: January 7 - 13, 2011.   Some people will show up Jan 9 or 10, due to the AMS/MAA meeting. 
+DATES: January 7 - 13, 2011.  (We will start working on Jan 7, so if you are buying tickets, feel free to arrive Jan 6.  Of course, Bug Days are flexible.)   Some people will show up Jan 9 or 10, due to the AMS/MAA meeting. 
 
 LOCATION: Seattle
 
