@@ -77,6 +77,8 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
 ====== Solaris ======
  * Solaris 10 03/2005 or any later Solaris 10 release on SPARC processors in 32-bit mode. (Note Solaris 10 update 1 is fully supported)
  * Solaris 10 03/2005 or any later Solaris 10 release on x86 processors in 32-bit mode. (Note Solaris 10 update 5 is fully supported)
+ * Solaris 11 Express on x86 (32-bit has been tested).
+ * Solaris 11 Express on SPARC (Never tested, but should work, as the Sage 32-bit Solaris 10 SPARC port is very stable and Solaris has excellent backward compatibility). 
 
 ====== Mac OS X ======
  * OS X 10.4 (Tiger) and 10.5 (Leopard). Note that OS X 10.6 (Snow Leopard) is fully supported. 
