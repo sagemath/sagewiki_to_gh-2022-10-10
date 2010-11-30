@@ -10,13 +10,13 @@
 
 == Invited Speakers ==
 
-   *  Sara Billey
+   *  Sara Billey - [[days26/Billey Project|talk title]]
    
-   *  Rachel Pries
+   *  Rachel Pries - [[days26/Pries Project|talk title]]
 
-   *  Anne Schilling
+   *  Anne Schilling - [[days26/Schilling Project|talk title]]
 
-   *  Katherine Stange 
+   *  Katherine Stange - [[days26/Stange Project|talk title]]
  
 == Participants ==
 
