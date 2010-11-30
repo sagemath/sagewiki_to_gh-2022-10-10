@@ -12,11 +12,11 @@
 
    *  Sara Billey - [[days26/Billey Project|talk title]]
    
-   *  Rachel Pries - [[days26/Pries Project|talk title]]
+   *  Rachel Pries - [[days26/Pries Project|Computation of p-torsion of Jacobians of hyperelliptic curves]]
 
-   *  Anne Schilling - [[days26/Schilling Project|talk title]]
+   *  Anne Schilling - [[days26/Schilling Project|How to play with crystals and symmetric functions in Sage]]
 
-   *  Katherine Stange - [[days26/Stange Project|talk title]]
+   *  Katherine Stange - [[days26/Stange Project|Amicable pairs and aliquot cycles for elliptic curves]]
  
 == Participants ==
 
