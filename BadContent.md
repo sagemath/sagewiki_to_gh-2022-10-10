@@ -4572,6 +4572,7 @@ seospec\.net
 sexocuritiba\.com\.br
 webdesign63\.de
 websearchplanet\.info
+blog\.bitcomet\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
