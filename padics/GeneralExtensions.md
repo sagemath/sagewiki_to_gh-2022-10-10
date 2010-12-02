@@ -3,12 +3,16 @@
  * ''Priority'' -- High
  * ''Difficulty'' -- Hard
  * ''Prerequisites'' -- None
- * ''Background'' -- Mathematical familiarity with extensions of Zp and Qp, `sage.rings.polynomial.polynomial_template`
+ * ''Background'' -- Mathematical familiarity with extensions of Zp and Qp, `sage.rings.polynomial.polynomial_template`, `sage.libs.flint.zmod_poly_linkage`, `sage.rings.polynomial.polynomial_zmod_flint`
  * ''Contributors'' -- David Roe
  * ''Progress'' - some progress on templates for finite rings using `zmod_poly_t`
  * ''Related Tickets'' -- 
 
 == Discussion ==
+
+=== Templates ===
+
+Currently, a few polynomial classes in Sage are implemented using templates.  I think that more should be, because we can write additional front ends to take advantage of the same linkage files.  
 
 == Tasks ==
 
