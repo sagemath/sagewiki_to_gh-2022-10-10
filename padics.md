@@ -56,7 +56,7 @@ Each project page should eventually contain the following information, though ma
  1. [[/UnivariatePowerSeriesExact | Univariate power series over exact rings]]
   * ''Goal'' -- revamp univariate power series rings to hew more closely to the syntax of p-adics (relative and absolute precision; capped-rel, capped-abs and fixed-mod rings types; no more elements of infinite precision (except 0 in a capped-relative ring)
   * ''Priority'' -- Low
-  * ''Difficulty'' -- Medium
+  * ''Difficulty'' -- Easy
  1. [[/UnivariatePowerSeriesPadic | Univariate power series over p-adics]]
   * ''Goal'' -- Separate precision from approximation for power series.  Include precision types that give information about the valuations for ALL coefficients (not just the first n).  Write functions for solving p-adic differential equations.
   * ''Priority'' -- Medium-Low
