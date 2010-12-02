@@ -15,7 +15,7 @@ Each project page should eventually contain the following information, though ma
  * '''Discussion''' -- A section for design discussion
  * '''Tasks''' -- A breakdown of this project into more manageable pieces.  Ideally, these pieces should be appropriate for an individual patch.  Once implementation has been started on a project, it should be broken down into one or more tickets, and each task should be assigned to a ticket.
 
-Break
+----
 
  1. [[/GeneralExtensions | General extension rings]]
   * ''Goal'' -- the ability to create arbitrary absolute extensions of Qp and Zp, given a monic unramified polynomial f over Zp and an Eisenstein polynomial with coefficients in the extension of Zp defined by f.
