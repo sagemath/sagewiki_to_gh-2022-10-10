@@ -38,7 +38,7 @@ Each project page should eventually contain the following information, though ma
   * ''Priority'' -- High
   * ''Difficulty'' -- Hard
  1. [[/Completions | Completions of number fields]]
-  * ''Goal'' -- Make the command "K.completion(p, absprec=30)" work when K is a number field and p is a prime of K (actually, this project will only make this command work when the defining polynomial of K is either unramified or Eisenstein with respect to p.  But the extension will be easy after general p-adic field extensions are working)
+  * ''Goal'' -- Make the command "K.completion(p, absprec=30)" work when K is a number field and p is a prime of K
   * ''Priority'' -- Medium-High
   * ''Difficulty'' -- Medium-Easy
  1. [[/UbiquitousTemplates | More templates]]
