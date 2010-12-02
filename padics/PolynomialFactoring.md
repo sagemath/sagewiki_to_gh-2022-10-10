@@ -2,7 +2,7 @@
  * ''Type'' -- basic features
  * ''Priority'' -- High
  * ''Difficulty'' -- High
- * ''Prerequisites'' -- [[../PolynomialPrecision | p-Adic polynomial precision] and [[../HenselLifting | Hensel lifting]].  In addition, the second half of the project depends on [[../GeneralExtensions | General extension rings]]
+ * ''Prerequisites'' -- [[../PolynomialPrecision | p-Adic polynomial precision]] and [[../HenselLifting | Hensel lifting]].  In addition, the second half of the project depends on [[../GeneralExtensions | General extension rings]]
  * ''Background'' -- Hensel lifting, newton polygons, p-adic factoring algorithms.
  * ''Contributors'' -- David Roe
  * ''Progress'' - 
