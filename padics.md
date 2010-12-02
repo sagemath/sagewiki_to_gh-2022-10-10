@@ -63,7 +63,7 @@ Each project page should eventually contain the following information, though ma
   * ''Difficulty'' -- Medium-Hard
  1. [[/MultivariatePowerSeries | Multivariate power series]]
   * ''Goal'' -- Continue to improve multivariate power series, building on the work in #1956.  Create the ability to work with different precision types for multivariate power series and laurent series.
-  * ''Priority'' -- Medium
+  * ''Priority'' -- Medium-Low
   * ''Difficulty'' -- Medium-Hard
  1. [[/MatricesModN | New matrix class for Zmod(n)]] 
   * ''Goal'' -- Write a specialized class for matrices over Zmod(n) for n > 46341
