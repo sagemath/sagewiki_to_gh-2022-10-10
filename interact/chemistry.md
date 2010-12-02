@@ -92,7 +92,7 @@ def molarmass(compound):
     print '\n\n', 'Molar mass:', eval(elementlist), 'g/mol'
 
 @interact
-def _(compound=input_box(label='Compound', default='H2O', type=str)):
+def calc(compound=input_box(label='Compound', default='H2O', type=str)):
     molarmass(compound)
 }}}
 
