@@ -25,6 +25,26 @@ This will be useful in the following cases:
 || 223-1289 || 1 || 3 ||
 || 1291-46337 || 1 || 2 ||
 
+To get an idea of the speed improvements available:
+
+{{{
+sage: R19 = Zmod(3^19)
+sage: type((R19)(1))
+<type 'sage.rings.finite_rings.integer_mod.IntegerMod_int64'>
+sage: R20 = Zmod(3^20)
+sage: type((R20)(1))
+<type 'sage.rings.finite_rings.integer_mod.IntegerMod_gmp'>
+sage: a19 = R19.random_element(); b19 = R19.random_element(); a20 = R20.random_element(); b20 = R20.random_element()
+sage: timeit("c19 = a19*b19")
+625 loops, best of 3: 197 ns per loop
+sage: timeit("c20 = a20*b20")
+625 loops, best of 3: 454 ns per loop
+sage: timeit("c19 = a19 + b19")
+625 loops, best of 3: 178 ns per loop
+sage: timeit("c20 = a20+b20")
+625 loops, best of 3: 389 ns per loop
+}}}
+
 == Tasks ==
 
  1. Using `sage/rings/finite_rings/integer_mod.pyx` and `sage/rings/padics/padic_(capped_relative_element.pyx AND capped_absolute_element.pyx AND fixed_modulus_element.pyx)` as a model, implement Zp and Qp using machine arithmetic. 
