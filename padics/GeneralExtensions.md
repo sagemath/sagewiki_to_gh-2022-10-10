@@ -10,6 +10,8 @@
 
 == Discussion ==
 
+See also [[../QuoDVRs | quotients of discrete valuation rings]].
+
 === Templates ===
 
 Currently, a few polynomial classes in Sage are implemented using templates.  I think that more should be, because we can write additional front ends to take advantage of the same linkage files.  
