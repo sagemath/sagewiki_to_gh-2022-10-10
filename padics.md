@@ -29,6 +29,10 @@ Each project page should eventually contain the following information, though ma
   * ''Goal'' -- Define Hensel lifting for roots and factorizations of polynomials over Henselian rings.
   * ''Priority'' -- High
   * ''Difficulty'' -- Medium-Easy
+ 1. [[/QuoDVRs | Linear algebra over quotients of discrete valuation rings]]
+  * ''Goal'' -- Implement specialized algorithms to work with matrices, vectors and modules over quotients of discrete valuation rings.
+  * ''Priority'' -- High
+  * ''Difficulty'' -- Medium-High
  1. [[/MatrixPrecision | Precision for matrices and vectors over local rings]]
   * ''Goal'' -- Separate the precision for matrices and vectors from the approximation of their entries.
   * ''Priority'' -- High
