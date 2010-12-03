@@ -12,6 +12,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 == NEWS ==
 
+ * [[http://wiki.sagemath.org/days28|Sage days 28]] : dynamics, geometry and analytic combinatorics in Orsay
+
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
  * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
