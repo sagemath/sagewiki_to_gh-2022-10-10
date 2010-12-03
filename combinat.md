@@ -14,7 +14,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
- * January 17-19, 2010: [[http://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
+ * January 17-19, 2011: [[http://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
 
  * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
    A 315 pages free french introductory book on computational mathematics, illustrated in Sage, and, including 35 pages on combinatorics
