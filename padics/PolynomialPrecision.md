@@ -12,4 +12,4 @@
 
 == Tasks ==
 
- 1. Rescue the code from #6084 and get it in a state where it can be reviewed.
+ 1. Rescue the code from [[http://trac.sagemath.org/sage_trac/ticket/6084 | #6084]] and get it in a state where it can be reviewed.
