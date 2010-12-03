@@ -4,7 +4,7 @@
  * ''Difficulty'' -- High
  * ''Prerequisites'' -- varies depending on how much functionality is desired.  For anything nontrivial, we have a lot of foundational work to do still.
  * ''Background'' -- 
- * ''Contributors'' -- 
+ * ''Contributors'' -- David Roe
  * ''Progress'' - not started
  * ''Related Tickets'' -- 
 
