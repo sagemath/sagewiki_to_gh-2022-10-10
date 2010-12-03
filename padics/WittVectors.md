@@ -1,11 +1,11 @@
- * ''Goal'' -- 
- * ''Type'' -- 
- * ''Priority'' -- 
- * ''Difficulty'' -- 
- * ''Prerequisites'' -- 
- * ''Background'' -- 
+ * ''Goal'' -- Implement Witt vectors over a general ring 
+ * ''Type'' -- basic features
+ * ''Priority'' -- Low
+ * ''Difficulty'' -- Easy
+ * ''Prerequisites'' -- None
+ * ''Background'' -- know about Witt vectors
  * ''Contributors'' -- 
- * ''Progress'' - 
+ * ''Progress'' - not started
  * ''Related Tickets'' -- 
 
 == Discussion ==
