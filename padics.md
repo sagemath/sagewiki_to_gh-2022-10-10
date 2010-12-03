@@ -102,6 +102,10 @@ These are smaller projects that are hopefully more accessible to someone new to 
   * ''Goal'' -- implement functions such as Artin-Hasse exponential and p-adic gamma function that exist in Magma.
   * ''Priority'' -- Low
   * ''Difficulty'' -- Medium
+ 1. [[/KrasnersLemma | Krasner's Lemma]]
+  * ''Goal'' -- implement a function to test if totally ramified extensions are isomorphic, and to determine whether a polynomial has enough precision to specify an extension uniquely up to isomorphism
+  * ''Priority'' -- Medium
+  * ''Difficulty'' -- Medium
 
 = External Projects =
 
