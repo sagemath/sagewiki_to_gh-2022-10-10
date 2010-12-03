@@ -14,7 +14,7 @@ This is easy once the implementation of polynomials stabilizes...
 
 == Tasks ==
 
- 1. Write a category `HenslianRings` (or maybe `HenselianRingsWithUniformizer`) as a place to write C2-C5.  Also a category for polynomials over such rings...
+ 1. Write a category `HenslianRings` (or maybe `HenselianRingsWithUniformizer`) as a place to write 2-5.  Also a category for polynomials over such rings...
 
  1. Write a function that lifts a root of a polynomial (defined to sufficient precision) up one precision.
 
@@ -26,4 +26,4 @@ This is easy once the implementation of polynomials stabilizes...
 
  1. Write functions that determine precisions of the resulting objects given the precision of the original polynomial.
 
- 1. Write optimized versions of C1-C4 for polynomials over Zp and Qp.
+ 1. Write optimized versions of 2-5 for polynomials over Zp and Qp.
