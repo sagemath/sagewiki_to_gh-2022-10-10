@@ -195,3 +195,46 @@ def _(u_0 = slider(int_u[0], int_u[1], (int_u[1] - int_u[0])/100,
         show(g_plot + S_plot + V_plot + P_plot,aspect_ratio = [1, 1, 1])
 }}}
 {{attachment:geodesics2.png}}
+
+== Dimensional Explorer ==
+Renders 2D images (perspective or spring-layout) and 3D models of 0-10 dimensional hypercubes. It also displays number of edges and vertices.
+{{{
+@interact
+def render(Display=selector(['2D Perspective', '2D Spring-layout', '3D']), Dimension=slider(0,10,default=4, step_size=1), Size=slider(0,10,default=5,step_size=1), Vertices=False, Calculations=False):
+    
+    if Display=='2D Perspective':
+        
+        if Dimension==0:
+            g=graphs.GridGraph([1])
+            print 'Vertices:', len(g.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(g.edges()), ('(%s*(%s/2))' %(len(g.vertices()), Dimension) if Calculations else '')
+            g.show(figsize=[Size,Size], vertex_size=30, vertex_labels=False, transparent=True, vertex_colors='black')
+            
+        else:
+            g=graphs.CubeGraph(Dimension)
+            print 'Vertices:', len(g.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(g.edges()), ('(%s*(%s/2))' %(len(g.vertices()), Dimension) if Calculations else '')
+            g.show(figsize=[Size,Size], vertex_size=(20 if Vertices else 0), vertex_labels=False, transparent=True, vertex_colors='black')
+            
+    if Display=='2D Spring-layout':
+        
+        if Dimension==0:
+            s=graphs.GridGraph([1])
+            print 'Vertices:', len(s.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(s.edges()), ('(%s*(%s/2))' %(len(s.vertices()), Dimension) if Calculations else '')
+            s.show(figsize=[Size,Size], vertex_size=30, vertex_labels=False, transparent=True, vertex_colors='black')
+            
+        else:
+            s=graphs.GridGraph([2]*Dimension)
+            print 'Vertices:', len(s.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(s.edges()), ('(%s*(%s/2))' %(len(s.vertices()), Dimension) if Calculations else '')
+            s.show(figsize=[Size,Size], vertex_size=(20 if Vertices else 0), vertex_labels=False, transparent=True, vertex_colors='black')
+            
+    if Display=='3D':
+        if Dimension==0:
+            d=graphs.GridGraph([1])
+            print 'Vertices:', len(d.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(d.edges()), ('(%s*(%s/2))' %(len(d.vertices()), Dimension) if Calculations else '')
+            d.show3d(figsize=[Size/2,Size/2], vertex_size=0.001)
+
+        else:
+            d=graphs.CubeGraph(Dimension)
+            print 'Vertices:', len(d.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(d.edges()), ('(%s*(%s/2))' %(len(d.vertices()), Dimension) if Calculations else '')
+            d.show3d(figsize=[Size,Size], vertex_size=(0.03 if Vertices else 0.001))
+}}}
+{{attachment:dimensions.png}}
