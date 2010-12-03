@@ -76,7 +76,7 @@ Each project page should eventually contain the following information, though ma
  1. [[/WittVectors | Witt vectors over a general ring]]
   * ''Goal'' -- Implement Witt vectors over a general ring
   * ''Priority'' -- Low
-  * ''Difficulty'' -- Low
+  * ''Difficulty'' -- Easy
 
 = Smaller Projects =
 
