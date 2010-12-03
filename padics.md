@@ -77,6 +77,18 @@ Each project page should eventually contain the following information, though ma
   * ''Goal'' -- Implement Witt vectors over a general ring
   * ''Priority'' -- Low
   * ''Difficulty'' -- Easy
+ 1. [[/GaloisGroups | Galois groups of p-adic extensions]]
+  * ''Goal'' -- Translate the infrastructure for Galois groups of number field to Galois groups of p-adic fields and implement some native algorithms to compute them. 
+  * ''Priority'' -- Low (because it's long term and many of the capabilities already exist in Pari)
+  * ''Difficulty'' -- High
+ 1. [[/SubfieldsAndCompositums | Intersections, subfields and compositums of p-adic extensions]]
+  * ''Goal'' -- Create extensions from other extensions using operations such as intersection, compositum and listing subfields.  They should be provided with appropriate coercion maps.
+  * ''Priority'' -- High
+  * ''Difficulty'' -- High
+ 1. [[/InfiniteTowers | Infinite towers of extensions]]
+  * ''Goal'' -- Create new parent classes for infinite towers (or more generally just infinite extensions) over Qp and Zp, e.g. maximal unramified extension, `p^n` roots of 1 or of p...
+  * ''Priority'' -- Low
+  * ''Difficulty'' -- High
 
 = Smaller Projects =
 
