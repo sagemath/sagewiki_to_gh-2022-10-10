@@ -197,6 +197,8 @@ def _(u_0 = slider(int_u[0], int_u[1], (int_u[1] - int_u[0])/100,
 {{attachment:geodesics2.png}}
 
 == Dimensional Explorer ==
+By Eviatar Bach
+
 Renders 2D images (perspective or spring-layout) and 3D models of 0-10 dimensional hypercubes. It also displays number of edges and vertices.
 {{{
 @interact
