@@ -1,11 +1,11 @@
- * ''Goal'' -- 
- * ''Type'' -- 
- * ''Priority'' -- 
- * ''Difficulty'' -- 
+ * ''Goal'' -- implement functions such as Artin-Hasse exponential and p-adic gamma function that exist in Magma. 
+ * ''Type'' -- basic features
+ * ''Priority'' -- Low
+ * ''Difficulty'' -- Medium
  * ''Prerequisites'' -- 
  * ''Background'' -- 
  * ''Contributors'' -- 
- * ''Progress'' - 
+ * ''Progress'' - not started
  * ''Related Tickets'' -- 
 
 == Discussion ==
