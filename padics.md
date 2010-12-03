@@ -69,6 +69,10 @@ Each project page should eventually contain the following information, though ma
   * ''Goal'' -- Write a specialized class for matrices over Zmod(n) for n > 46341
   * ''Priority'' -- High
   * ''Difficulty'' -- Medium
+ 1. [[/RelativeExtensions | Relative extensions of p-adic fields]]
+  * ''Goal'' -- Implement relative extensions of p-adic fields
+  * ''Priority'' -- High
+  * ''Difficulty'' -- Medium
  1. [[/FieldsDatabase | Add the database of p-adic fields to Sage]]
   * ''Goal'' -- Add [[http://math.asu.edu/~jj/localfields/ | this database]] of p-adic fields to Sage
   * ''Priority'' -- Medium
