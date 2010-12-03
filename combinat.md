@@ -1,6 +1,6 @@
 = Sage-Combinat =
 
-Sage-Combinat is a software project whose mission statement is: '''to improve the open source mathematical system [[http://www.sagemath.org/|Sage]] as an extensible toolbox for computer exploration in algebraic combinatorics, and foster code sharing between researchers in this area'''.
+Sage-Combinat is a software project whose mission statement is: '''to improve the open source mathematical system [[http://www.sagemath.org/|Sage]] as an extensible toolbox for computer exploration in (algebraic) combinatorics, and foster code sharing between researchers in this area'''.
 
 In practice, Sage-combinat is a collection of experimental patches (i.e. extensions) on top of [[http://www.sagemath.org/|Sage]], developed by a community of researchers. The intent is that most of those patches get eventually integrated into Sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
 
@@ -12,9 +12,9 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 == NEWS ==
 
- * [[http://wiki.sagemath.org/days28|Sage days 28]] : dynamics, geometry and analytic combinatorics in Orsay
-
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
+
+ * January 17-19, 2010: [[http://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
 
  * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
    A 315 pages free french introductory book on computational mathematics, illustrated in Sage, and, including 35 pages on combinatorics
