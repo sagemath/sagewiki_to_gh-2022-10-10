@@ -33,4 +33,4 @@ BAG = Bagley Hall , http://www.washington.edu/home/maps/?BAG
 
 CDH =Condon Hall , http://www.washington.edu/home/maps/?CDH
 
-PCAR= 
+PCAR= Paccar Hall, http://www.washington.edu/maps/?l=PCAR
