@@ -8,6 +8,11 @@
 
    *  Funding: Microsoft Research (donation from Kristin Lauter's cryptography group), Justin Walker (private donation)
 
+
+== Schedule ==
+
+   The [[days26/schedule|schedule is here]].
+
 == Invited Speakers ==
 
    *  Sara Billey - [[days26/Billey Project|talk title]]
@@ -53,9 +58,6 @@
    *  Bianca Viray
 
 
-== Schedule ==
-
-   The tentative [[days26/schedule|schedule is here]].
 
 === Getting to the Collegiana/Hotel Deca from Seattle-Tacoma ===
 
