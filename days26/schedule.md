@@ -25,7 +25,7 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">  2:00-        ||'''Coding Sprint'''||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, December 10, 2010||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:00- 12:00  ||'''Status Reports, where do we go from here'''||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:00- 12:00  ||'''Status Reports, where do we go from here''' (in RM: PAR 391)||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-        ||'''Lunch/coding sprints until everyone is gone'''||
 
 
