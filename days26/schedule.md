@@ -30,5 +30,7 @@
 
 
 BAG = Bagley Hall , http://www.washington.edu/home/maps/?BAG
+
 CDH =Condon Hall , http://www.washington.edu/home/maps/?CDH
+
 PAR= Parrington Hall , http://www.washington.edu/home/maps/?PAR
