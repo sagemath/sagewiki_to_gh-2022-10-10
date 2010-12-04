@@ -12,9 +12,9 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:00 -       ||'''Working, meet with groups, tutorials as needed'''||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday, December 8, 2010||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:00- 11:00  ||'''Anne Schilling - How to play with crystals and symmetric functions in Sage''' Room: BAG 331A*||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:00- 11:00  ||'''Anne Schilling - How to play with crystals and symmetric functions in Sage''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:00- 11:30  ||'''Coffee/Tea break'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:30- 12:00  ||'''Status Reports''' Room: BAG 331A*||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:30- 12:00  ||'''Status Reports'''||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-  2:00  ||'''Lunch'''||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">  2:00-        ||'''Coding Sprint'''||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, December 9, 2010||
