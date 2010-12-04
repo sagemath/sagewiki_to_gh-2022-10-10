@@ -27,3 +27,8 @@
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, December 10, 2010||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:00- 12:00  ||'''Status Reports, where do we go from here'''||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-        ||'''Lunch/coding sprints until everyone is gone'''||
+
+
+BAG = Bagley Hall , http://www.washington.edu/home/maps/?BAG
+CDH =Condon Hall , http://www.washington.edu/home/maps/?CDH
+PAR= Parrington Hall , http://www.washington.edu/home/maps/?PAR
