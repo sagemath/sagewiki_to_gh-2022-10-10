@@ -92,8 +92,3 @@ Please add yourself here if you plan to be around.
     * modular/modsym/p1list.pyx: 100%  (27 of 27) [was 15% (4 of 26)] (patch ready for review)
     * modular/manin_symbols.py:  100% (59 of 59)  [was 2% (2 of 68)] (patch ready for review)
  1. Robert Bradshaw
-
-Resources:
-
- [[http://www.manuallinkbuilding.co.uk/manual-directory-submissions.php|Directory Submissions]]
- [[http://www.tottini.com/Furniture/Cribs/?matchesperpage=55&sort=price&order=DESC|Stokke crib]]
