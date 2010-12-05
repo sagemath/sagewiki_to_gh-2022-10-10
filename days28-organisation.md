@@ -9,6 +9,10 @@ Exemples d'organisations anterieures :
   * http://wiki.sagemath.org/days28
   * mettre les worksheets sur le wiki (cf http://wiki.sagemath.org/days25.5/francais)
 
+=== Evenements connexes (en temps et themes) ===
+
+  * [[http://www.math.ens.fr/metric2011/jan_workshop.html|Metric embeddings, algorithms  and hardness of approximation (IHP), January 17-21]]
+  * journées d'informatique mathématiques du GDR IM 20 et 21 Janvier (Jussieu) http://www.gdr-im.fr/
 
 === Mailing-list d'organisation ===
   * liste sage-combinat-days existante
