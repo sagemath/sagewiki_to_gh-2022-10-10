@@ -26,7 +26,7 @@ LIKELY PARTICIPANTS:
   * Alex Leone  (UW)
   * Robert Miller (Warwick/MSRI) Jan 8 - 13; need lodging, prefer single
   * Johan Sebastian Rosenkilde Nielsen (Denmark)
-  * Willem Jan Palenstijn (Holland and Belgium): arriving 6 Jan, leaving 14 Jan. Shared okay.
+  * Willem Jan Palenstijn (Holland and Belgium): arriving 6 Jan 12:25pm, leaving 14 Jan 12:45pm. Shared okay.
   * William Stein (UW):  Jan 7-13, no lodging needed
   * John Palmieri (UW)
   * Sebastian Pancratz (Oxford)
