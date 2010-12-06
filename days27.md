@@ -27,7 +27,7 @@ LIKELY PARTICIPANTS:
   * Robert Miller (Warwick/MSRI)
   * Johan Sebastian Rosenkilde Nielsen (Denmark)
   * Willem Jan Palenstijn (Holland and Belgium)
-  * William Stein (UW)
+  * William Stein (UW):  Jan 7-13, no lodging needed
   * John Palmieri (UW)
   * Sebastian Pancratz (Oxford)
   * Dmitrii Pasechnik (Singapore), from Jan 9 or 10
