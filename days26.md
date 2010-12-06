@@ -15,8 +15,7 @@
 
 == Invited Speakers ==
 
-   *  Sara Billey - [[days26/Billey Project|Computer proof for k-Schur functions (and other things I would like
-to do with SAGE)]]
+   *  Sara Billey - [[days26/Billey Project|Computer proof for k-Schur functions]]
    
    *  Rachel Pries - [[days26/Pries Project|Computation of p-torsion of Jacobians of hyperelliptic curves]]
 
