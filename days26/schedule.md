@@ -18,9 +18,9 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-  2:00  ||'''Lunch'''||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">  2:00-        ||'''Coding Sprint'''||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, December 9, 2010||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:00- 11:00  ||'''Rachel Pries - Computation of p-torsion of Jacobians of hyperelliptic curves'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:00- 11:30  ||'''Coffee/Tea break'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:30- 12:00  ||'''Status Reports'''||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 9:30- 10:30  ||'''Rachel Pries - Computation of p-torsion of Jacobians of hyperelliptic curves'''( in Rm: GLD 435) ||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:30- 10:50  ||'''Coffee/Tea break'''||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:50- 11:20  ||'''Status Reports'''(in Rm CDH 101) ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-  2:00  ||'''Lunch'''||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">  2:00-        ||'''Coding Sprint'''||
 ||||
@@ -33,6 +33,8 @@ Microsoft bus Schedule = http://www.soundtransit.org/Riding-Sound-Transit/Schedu
 
 WARNING: The last bus in the morning leaves at 10:06 and the next 542 is at 2. So if you happen to miss the 542 in the morning, you will need to take 540 and then transfer to 545. So please try to not miss the bus in the morning. 
 BAG = Bagley Hall , http://www.washington.edu/home/maps/?BAG
+
+GLD =Gould Hall , http://www.washington.edu/home/maps/?GLD
 
 CDH =Condon Hall , http://www.washington.edu/home/maps/?CDH
 
