@@ -22,7 +22,7 @@ LIKELY PARTICIPANTS:
   * Jason Grout ([[http://www.drake.edu|Drake]]), Jan 8-13, need lodging, shared okay
   * Ryan Grout (USA)
   * Geoffrey Ehrman (UNH)
-  * Marshall Hampton (Minnesota) 
+  * Marshall Hampton (Minnesota).  Arrive Jan 10, leave Jan 14th.  Need lodging, single strongly preferred.
   * Mike Hansen(+1) (Berkeley)  Jan 7 - 13; need lodging, prefer single, but shared okay
   * Alex Leone  (UW)
   * Robert Miller (Warwick/MSRI) Jan 8 - 13; need lodging, prefer single
