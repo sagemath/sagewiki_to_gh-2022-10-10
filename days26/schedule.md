@@ -29,7 +29,9 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-        ||'''Lunch/coding sprints until everyone is gone'''||
 
 Microsoft bus Schedule = http://www.soundtransit.org/Riding-Sound-Transit/Schedules-and-Facilities/ST-Express-Bus/542-Weekday.xml
+(cost of this Bus ticket will be Reimbursed)
 
+WARNING: The last bus in the morning leaves at 10:06 and the next 542 is at 2. So if you happen to miss the 542 in the morning, you will need to take 540 and then transfer to 545. So please try to not miss the bus in the morning. 
 BAG = Bagley Hall , http://www.washington.edu/home/maps/?BAG
 
 CDH =Condon Hall , http://www.washington.edu/home/maps/?CDH
