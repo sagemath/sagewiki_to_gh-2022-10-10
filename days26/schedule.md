@@ -35,3 +35,7 @@ BAG = Bagley Hall , http://www.washington.edu/home/maps/?BAG
 CDH =Condon Hall , http://www.washington.edu/home/maps/?CDH
 
 PCAR= Paccar Hall, http://www.washington.edu/maps/?l=PCAR
+
+-----
+
+NOTE: From 12:30-1:30 on Wednesday and Friday there will be final project presentations in [[http://wiki.wstein.org/edu/2010/581d|the Sage graduate course]] in Savery Hall 167.  If you're interested, feel free to come. 
