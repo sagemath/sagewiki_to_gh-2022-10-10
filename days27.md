@@ -13,7 +13,7 @@ TICKETS FAQ: [[/faq|Look here.]]
 LIKELY PARTICIPANTS:
 
   * Rob Beezer (U Puget Sound, Tacoma), after AMS/MAA Meetings
-  * Vladimir Bondarenko ([[http://cybertester.com/|CyberTester.com]], Ukraine)
+  * Vladimir Bondarenko ([[http://cybertester.com/|CyberTester.com]], Ukraine): arrive Jan 6, leave Jan 14. Single room.
   * Tom Boothby (SFU, Vancouver)
   * Robert Bradshaw (Google Seattle)
   * Volker Braun (Germany?)
