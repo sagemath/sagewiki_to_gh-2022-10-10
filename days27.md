@@ -19,6 +19,7 @@ LIKELY PARTICIPANTS:
   * Volker Braun (Germany?)
   * Jeroen Demeyer (Ghent, Belgium)
   * Dan Drake (KAIST, Korea), arriving 9 Jan, leaving 14 Jan; need lodging, shared okay
+  * Jason Grout ([[http://www.drake.edu|Drake]]), arriving 8 Jan, leaving 13 Jan; need lodging, shared okay
   * Ryan Grout (USA)
   * Geoffrey Ehrman (UNH)
   * Marshall Hampton (Minnesota) 
