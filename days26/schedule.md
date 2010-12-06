@@ -28,6 +28,7 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:00- 12:00  ||'''Status Reports, where do we go from here''' (in Rm: PCAR 391)||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-        ||'''Lunch/coding sprints until everyone is gone'''||
 
+Microsoft bus Schedule = http://www.soundtransit.org/Riding-Sound-Transit/Schedules-and-Facilities/ST-Express-Bus/542-Weekday.xml
 
 BAG = Bagley Hall , http://www.washington.edu/home/maps/?BAG
 
