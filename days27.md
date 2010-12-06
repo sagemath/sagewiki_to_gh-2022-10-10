@@ -24,7 +24,7 @@ LIKELY PARTICIPANTS:
   * Marshall Hampton (Minnesota) 
   * Mike Hansen(+1) (Berkeley)  Jan 7 - 13; need lodging, prefer single, but shared okay
   * Alex Leone  (UW)
-  * Robert Miller (Warwick/MSRI)
+  * Robert Miller (Warwick/MSRI) Jan 8 - 13; need lodging, prefer single
   * Johan Sebastian Rosenkilde Nielsen (Denmark)
   * Willem Jan Palenstijn (Holland and Belgium): arriving 6 Jan, leaving 14 Jan. Shared okay.
   * William Stein (UW):  Jan 7-13, no lodging needed
