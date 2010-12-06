@@ -16,7 +16,7 @@ LIKELY PARTICIPANTS:
   * Vladimir Bondarenko ([[http://cybertester.com/|CyberTester.com]], Ukraine): arrive Jan 6, leave Jan 14. Single room.
   * Tom Boothby (SFU, Vancouver)
   * Robert Bradshaw (Google Seattle)
-  * Volker Braun (Germany?)
+  * Volker Braun (Ireland): arrive Jan 6, leave Jan 13. shared ok.
   * Jeroen Demeyer (Ghent, Belgium)
   * Dan Drake (KAIST, Korea), arriving 9 Jan, leaving 14 Jan; need lodging, shared okay
   * Jason Grout ([[http://www.drake.edu|Drake]]), Jan 8-13, need lodging, shared okay
