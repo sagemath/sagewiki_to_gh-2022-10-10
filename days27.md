@@ -22,7 +22,7 @@ LIKELY PARTICIPANTS:
   * Ryan Grout (USA)
   * Geoffrey Ehrman (UNH)
   * Marshall Hampton (Minnesota) 
-  * Mike Hansen (Berkeley)
+  * Mike Hansen(+1) (Berkeley)  Jan 7 - 13; need lodging, prefer single, but shared okay
   * Alex Leone  (UW)
   * Robert Miller (Warwick/MSRI)
   * Johan Sebastian Rosenkilde Nielsen (Denmark)
