@@ -1,14 +1,14 @@
 = Sage Days 26 Schedule =
 
 
-||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, December 7, 2010||
-||<rowstyle="background-color: #FFFFDD; text-align: center;"> 10:00-10:30  ||'''Intro to Sage via Number Theory''' (Aly Deines) (at Microsoft, Building 99, Lecture Room B – Room # 1927)||
-||<rowstyle="background-color: #EEFFDD; text-align: center;"> 10:30-11:00  ||'''Intro to Sage via Combinatorics''' (Anne Schilling) (at Microsoft)||
+||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, December 7, 2010 - at Microsoft, Building 99, Lecture Room B – Room # 1927||
+||<rowstyle="background-color: #FFFFDD; text-align: center;"> 10:00-10:30  ||'''Intro to Sage via Number Theory''' (Aly Deines) ||
+||<rowstyle="background-color: #EEFFDD; text-align: center;"> 10:30-11:00  ||'''Intro to Sage via Combinatorics''' (Anne Schilling) ||
 ||<rowstyle="background-color: #EEFFDD; text-align: center;"> 11:00-11:30  ||'''Coffee/Tea break''' ||
 ||<rowstyle="background-color: #EEFFDD; text-align: center;"> 11:30-12:30  ||'''Kate Stange - Amicable pairs and aliquot cycles for elliptic curves''' (at Microsoft)||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:30- 2:00  ||'''Lunch'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 2:00 - 3:00  ||'''William Stein's talk''' (at Microsoft) ||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 3:00 - 4:00  ||'''Project Organization (Number Theory)''' (at Microsoft)||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 2:00 - 3:00  ||'''William Stein's talk'''  ||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 3:00 - 4:00  ||'''Project Organization (Number Theory)''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:00 -       ||'''Working, meet with groups, tutorials as needed''' (at Microsoft or Back at the Inn) ||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday, December 8, 2010||
