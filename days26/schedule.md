@@ -2,7 +2,7 @@
 
 
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, December 7, 2010||
-||<rowstyle="background-color: #FFFFDD; text-align: center;"> 10:00-10:30  ||'''Intro to Sage via Number Theory''' (Aly Deines) (at Microsoft)||
+||<rowstyle="background-color: #FFFFDD; text-align: center;"> 10:00-10:30  ||'''Intro to Sage via Number Theory''' (Aly Deines) (at Microsoft, Building 99, Lecture Room B – Room # 1927)||
 ||<rowstyle="background-color: #EEFFDD; text-align: center;"> 10:30-11:00  ||'''Intro to Sage via Combinatorics''' (Anne Schilling) (at Microsoft)||
 ||<rowstyle="background-color: #EEFFDD; text-align: center;"> 11:00-11:30  ||'''Coffee/Tea break''' ||
 ||<rowstyle="background-color: #EEFFDD; text-align: center;"> 11:30-12:30  ||'''Kate Stange - Amicable pairs and aliquot cycles for elliptic curves''' (at Microsoft)||
