@@ -70,7 +70,7 @@ Password:
 
 == Projects ==
 
- The [[sage26/projects|Projects Page is here]].
+ The [[days26/projects|Projects Page is here]].
 
 
 
