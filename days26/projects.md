@@ -2,7 +2,7 @@
 
 == Computing the Cartier operator acting on 1-forms ==
 
-PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina
+PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina, Kate
 
   * sage worksheet that is slow and just implements algorithm (correctly!)
 
