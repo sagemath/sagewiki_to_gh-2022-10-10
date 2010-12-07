@@ -12,8 +12,11 @@ Suppose $C/\mathbb{F}_q$ is a curve of genus g.  The easiest type of curve to lo
 To compute some of these: 
 set up $y^2 = f(x)$, raise $f(x)^{(p-1)}{2} = \sum c_i x^i$.  
 Create the $(g\times g)$ matrix $M = (c_{p*i-j})$ (the ijth entry is the coefficient of x^{pi-j}).  
-Look at the g by g matrix, $M^{(p^i)} = (c_{p*i-j}^{p^i})$ (take the $p^i$th power of each coefficient 
-and create $N = M M^{(p)} M^{(p^2)} ... M^{(p^{g-1})}$.
+Look at the g by g matrix, 
+
+$M^{(p^i)} = (c_{p*i-j}^{p^i})$ 
+
+(take the $p^i$th power of each coefficient and create $N = M M^{(p)} M^{(p^2)} ... M^{(p^{g-1})}$.
 
 The matrix M is the matrix for the Cartier operator on the 1-forms.
 The p-rank is the rank of N.
