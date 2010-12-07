@@ -13,6 +13,17 @@
 
    The [[days26/schedule|schedule is here]].
 
+== UW Wireless info ==
+
+UW NetID:
+
+event0519
+
+Password:
+
+97ff/95ag/55tj
+
+
 == Invited Speakers ==
 
    *  Sara Billey - [[days26/Billey Project|Computer proof for k-Schur functions]]
