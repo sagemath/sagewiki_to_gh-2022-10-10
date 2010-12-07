@@ -7,7 +7,7 @@
 ||<rowstyle="background-color: #EEFFDD; text-align: center;"> 11:00-11:30  ||'''Coffee/Tea break''' ||
 ||<rowstyle="background-color: #EEFFDD; text-align: center;"> 11:30-12:30  ||'''Kate Stange - Amicable pairs and aliquot cycles for elliptic curves''' (at Microsoft)||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:30- 2:00  ||'''Lunch'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 2:00 - 3:00  ||'''William Stein's talk'''  ||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 2:00 - 3:00  ||[[http://demo.sagenb.org/home/pub/63/|'''William Stein's talk''']]  ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 3:00 - 4:00  ||'''Project Organization (Number Theory)''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:00 -       ||'''Working, meet with groups, tutorials as needed''' (at Microsoft or Back at the Inn) ||
 ||||
