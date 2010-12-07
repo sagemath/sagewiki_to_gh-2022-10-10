@@ -104,7 +104,7 @@ def _(queen=input_box(default=(0,0)), opcion=selector(opciones, buttons=True), a
 {{attachment:queens.png}}
 
 == Nim ==
-Play nim against a perfect oponent. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3.
+Play nim against a perfect opponent. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3.
 by Pablo Angulo
 {{{
 #El juego del nim
