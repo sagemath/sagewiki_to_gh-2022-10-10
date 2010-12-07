@@ -11,3 +11,5 @@ present some open problems and computational challenges arising from
 this work.  This is joint work with Joseph H. Silverman.
 
 == Project ==
+
+[[attachment:Stange-SageDays-2010.pdf]]
