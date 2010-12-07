@@ -68,6 +68,10 @@ Password:
 
    *  Bianca Viray
 
+== Projects ==
+
+[[projects|Projects Page]].
+
 
 
 === Getting to the Collegiana/Hotel Deca from Seattle-Tacoma ===
