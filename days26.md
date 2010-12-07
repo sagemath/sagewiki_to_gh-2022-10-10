@@ -70,11 +70,11 @@ Password:
 
 == Projects ==
 
-[[projects|Projects Page]].
+ The [[projects|Projects Page is here]].
 
 
 
-=== Getting to the Collegiana/Hotel Deca from Seattle-Tacoma ===
+== Getting to the Collegiana/Hotel Deca from Seattle-Tacoma ==
 
 Here are some options to get to the hotels from the airport:
 
