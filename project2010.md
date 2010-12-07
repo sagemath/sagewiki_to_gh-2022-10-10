@@ -3,7 +3,7 @@
 #language en
 == AB ==
 
-Email: <<project2010@gmail.com>>
+Email: project2010@gmail.com
 
 ...
 
