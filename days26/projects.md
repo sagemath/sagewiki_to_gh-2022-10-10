@@ -1,5 +1,7 @@
 = PROJECT GROUPS =
 
+<<TableOfContents>>
+
 == Computing the Cartier operator acting on 1-forms ==
 
 PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina, Kate
