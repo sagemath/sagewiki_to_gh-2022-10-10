@@ -10,6 +10,7 @@ PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina, Kate
 
   * sage worksheet that is slow and just implements algorithm (correctly!)
     - this appears to be done here: [[attachment:Computing N for Hyperelliptic curve.sws]]
+    - need data to check that this is correct.
 
   * make it really, really fast. 
 
