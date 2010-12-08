@@ -12,10 +12,10 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:00 -       ||'''Working, meet with groups, tutorials as needed''' (at Microsoft or Back at the Inn) ||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday, December 8, 2010||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 9:30- 10:30  ||'''Anne Schilling - How to play with crystals and symmetric functions in Sage''' (in Rm: BAG 331A) ||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 9:30- 10:30  ||'''Anne Schilling - How to play with crystals and symmetric functions in Sage''' (in Rm: [[http://www.washington.edu/home/maps/northcentral.html?85,77,630,640|BAG 331A]]) ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:30- 10:40  ||'''Coffee/Tea break'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:40 - 11:40  ||'''Sara Billey's talk''' (in Rm: BAG 331A)||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:40- 12:00  ||'''Status Reports''' (in Rm: BAG 331A)||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:40 - 11:40  ||'''Sara Billey's talk''' (in Rm: [[http://www.washington.edu/home/maps/northcentral.html?85,77,630,640|BAG 331A]])||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:40- 12:00  ||'''Status Reports''' (in Rm: [[http://www.washington.edu/home/maps/northcentral.html?85,77,630,640|BAG 331A]])||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-  2:00  ||'''Lunch'''||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 2:00 - 3:00  ||'''Project Organization (Combinatorics)''' ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">  3:00-        ||'''Coding Sprint'''||
@@ -31,9 +31,8 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-        ||'''Lunch/coding sprints until everyone is gone'''||
 
 Microsoft bus Schedule = http://www.soundtransit.org/Riding-Sound-Transit/Schedules-and-Facilities/ST-Express-Bus/542-Weekday.xml
-(cost of this Bus ticket will be Reimbursed)
+(cost of this Bus ticket will be Reimbursed)  WARNING: The last bus in the morning leaves at 10:06 and the next 542 is at 2. So if you happen to miss the 542 in the morning, you will need to take 540 and then transfer to 545. So please try to not miss the bus in the morning. 
 
-WARNING: The last bus in the morning leaves at 10:06 and the next 542 is at 2. So if you happen to miss the 542 in the morning, you will need to take 540 and then transfer to 545. So please try to not miss the bus in the morning. 
 BAG = Bagley Hall , http://www.washington.edu/home/maps/?BAG
 
 GLD =Gould Hall , http://www.washington.edu/home/maps/?GLD
