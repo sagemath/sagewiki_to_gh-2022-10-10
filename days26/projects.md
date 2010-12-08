@@ -68,8 +68,21 @@ PEOPLE:  Needs people!
    
   * sbcl in Sage
     
-  * Quasisymmetric function bases
+  * Quasisymmetric function bases (Jason Bandlow has preliminary implementations on sage-combinat)
   
   * hyperplane arrangements
   
   * wikipedia and Sage pages linked to each other
+
+
+== Some combinatorics projects from Anne's talk ==
+
+  * LaTeX support for tableaux, compatible with jsmath/mathjax for visualization in the notebook, see trac#4355
+
+  * Implementation of cyclage graph
+
+  * Implementation of the Schuetzenberger involution Omega_2 on tableaux and words
+
+  * Faster implementation of crystal graph isomorphisms (would have implications for the energy function and R-matrix)
+
+  * make the k-Schur function and their duals live in the right subspace/quotient of the ring of symmetric functions
