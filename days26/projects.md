@@ -40,7 +40,7 @@ PEOPLE: Jennifer B., Jennifer P., Jennifer J.
 
   * Plug L-series into Dokchitser and get numbers.
 
-  * Make a table.  Starting with "van Wamelen"'s table.  See also Kohel.
+  * Make a table.  Starting with [[https://www.math.lsu.edu/~wamelen/CMcurves.txt|"van Wamelen"'s table]].  See also [[http://echidna.maths.usyd.edu.au/kohel/dbs/index.html|Kohel's tables]].
 
 
 == Computing in the class group of non-maximal orders of quadratic imaginary fields ==
