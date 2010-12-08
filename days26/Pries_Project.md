@@ -37,6 +37,9 @@ References: Yui, Voloch,
 
 Initial code by Alyson [[attachment:Pries Aly code.sws|Initial code by Alyson (sws)]]
 Version 2: Anja, Gagan [[attachment:Pries project1 code.sws|version 2 (sws)]]
+Computing M and a-rank [[attachment:compute Hasse Vitt M.sws|Computing Hasse Vitt M]]
+
 Computing N [[attachment:Computing N for Hyperelliptic curve.sws|Computing N]]
+
 
 See [[http://demo.sagenb.org/home/pub/64/|this published version]].
