@@ -61,11 +61,12 @@ PEOPLE: Jennifer B., Jennifer P., Jennifer J.
 
 PEOPLE: William S., Bianca, 
 
-  * Make a list of what you want to be able to do
+  * Make a list of what you want to be able to do:
+      - Such computations come up for Stein in http://wstein.org/papers/kolyconj2/
 
   * List why Magma/PARI aren't good enough (bugs, issues, speed, etc.)
 
   * Write really really fast code to implement some of this. 
 
-
+  
      
