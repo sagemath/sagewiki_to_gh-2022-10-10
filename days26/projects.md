@@ -24,25 +24,11 @@ PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina, Kate
 
 PEOPLE: Kate, William S., Lola, Aly, Erin, Bianca
 
-  * smalljac
+See the [[days26/Stange Project|Project Page]].  Subprojects are:
 
-      * make smalljac code usable from Python  (involves Cython); see [[http://code.google.com/p/purplesage/issues/detail?id=13|this psage issue]].
-
-      * use code:
- 
-          - replicate and extend data in Kate's talk
- 
-          - maybe try genus 2 analogue?
+  * make smalljac code usable from Python (involves Cython)
 
   * cubic and sextic residue symbol
-
-      * there's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/8485/trac_8485.patch|ticket]] that has only partial implementation (cubic residue of rational prime and element of Q(sqrt(-3))) -- not at all a general implementation
-
-      * there are artin symbols etc. -- big machinery
-
-      * we think a fast independent implementation of the cubic (and sextic) residue symbol is worthwhile
-
-      * what does SAGE do to compute quadratic residue symbols?
 
   * explicit calculation of Grossencharacters (aka Hecke characters). 
 
