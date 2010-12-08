@@ -53,7 +53,7 @@ PEOPLE: Jennifer B., Jennifer P., Jennifer J., Bianca
 
   * Decide if curve is attached to a modular form, and if so find it, then use that to compute L-series.
 
-  * Need the analogue of Tate's algorithm to get from the Namikawa-Ueno classification to the Euler factor at the bad priems
+  * Need the analogue of Tate's algorithm to get from the Namikawa-Ueno classification to the Euler factor at the bad primes
 
   * Plug L-series into Dokchitser and get numbers.
 
