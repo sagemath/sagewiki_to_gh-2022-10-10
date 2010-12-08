@@ -10,6 +10,33 @@ for the CM case (including the especially intricate j=0 case).  We
 present some open problems and computational challenges arising from
 this work.  This is joint work with Joseph H. Silverman.
 
+[[attachment:Stange-SageDays-2010.pdf]]
+
 == Project ==
 
-[[attachment:Stange-SageDays-2010.pdf]]
+
+  * smalljac
+
+      * make smalljac code usable from Python  (involves Cython); see [[http://code.google.com/p/purplesage/issues/detail?id=13|this psage issue]].
+
+      * use code:
+ 
+          - replicate and extend data in Kate's talk
+ 
+          - maybe try genus 2 analogue?
+
+  * cubic and sextic residue symbol
+
+      * there's a [[http://trac.sagemath.org/sage_trac/attachment/ticket/8485/trac_8485.patch|ticket]] that has only partial implementation (cubic residue of rational prime and element of Q(sqrt(-3))) -- not at all a general implementation
+
+      * there are artin symbols etc. -- big machinery
+
+      * we think a fast independent implementation of the cubic (and sextic) residue symbol is worthwhile
+
+      * what does SAGE do to compute quadratic residue symbols?
+
+  * explicit calculation of Grossencharacters (aka Hecke characters). 
+
+== Resources ==
+
+[[http://www.math.uiuc.edu/~pppollac/recilandscape.pdf|slides on cubic residues]]
