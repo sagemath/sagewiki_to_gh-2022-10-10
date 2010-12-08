@@ -79,10 +79,16 @@ PEOPLE:  Needs people!
 
   * LaTeX support for tableaux, compatible with jsmath/mathjax for visualization in the notebook, see trac#4355
 
-  * Implementation of cyclage graph
+  * Implementation of cyclage graph. PEOPLE: Anne S. 
 
-  * Implementation of the Schuetzenberger involution Omega_2 on tableaux and words
+  * Implementation of the Schuetzenberger involution Omega_2 on tableaux and words:
 
-  * Faster implementation of crystal graph isomorphisms (would have implications for the energy function and R-matrix)
+     - tableuax --> word --> something --> tableaux:  result is a sage worksheet, then function included in sage?!  easy.   PEOPLE: Erin, Ilke
+
+  * Faster implementation of crystal graph isomorphisms (would have implications for the energy function and R-matrix).  PEOPLE: Anne S., William S.
+
+     - view crystal graph and check if it is isomorphic to another graph (would build on Robert Miller's "NICE" package, which will check if any two graphs are isomorphic, which is fully available in Sage).   Hopefully this makes this project easy?
 
   * make the k-Schur function and their duals live in the right subspace/quotient of the ring of symmetric functions
+
+     - in Sage, but live in the wrong space.  Should live in a subspace.  Have sample code in worksheet that "does the job" (see this link in Sage Days in Toronto in May).  Want to put this code into Sage.  PEOPLE: Erin.
