@@ -12,7 +12,7 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:00 -       ||'''Working, meet with groups, tutorials as needed''' (at Microsoft or Back at the Inn) ||
 ||||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday, December 8, 2010||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 9:30- 10:30  ||'''Anne Schilling - How to play with crystals and symmetric functions in Sage''' (in Rm: [[http://www.washington.edu/home/maps/northcentral.html?85,77,630,640|BAG 331A]]) ||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 9:30- 10:30  ||'''Anne Schilling - How to play with crystals and symmetric functions in Sage'''[[attachment:SageDays26.sws]] (in Rm: [[http://www.washington.edu/home/maps/northcentral.html?85,77,630,640|BAG 331A]]) ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:30- 10:40  ||'''Coffee/Tea break'''||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:40 - 11:40  ||'''Sara Billey's talk''' (in Rm: [[http://www.washington.edu/home/maps/northcentral.html?85,77,630,640|BAG 331A]])||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:40- 12:00  ||'''Status Reports''' (in Rm: [[http://www.washington.edu/home/maps/northcentral.html?85,77,630,640|BAG 331A]])||
