@@ -30,7 +30,7 @@ LIKELY PARTICIPANTS:
   * Willem Jan Palenstijn (Holland and Belgium): arriving 6 Jan 12:25pm, leaving 14 Jan 12:45pm. Need lodging; shared okay.
   * William Stein (UW):  Jan 7-13, no lodging needed
   * John Palmieri (UW)
-  * Sebastian Pancratz (Oxford)
+  * Sebastian Pancratz (Oxford): Jan 6 - Jan 14.
   * Dmitrii Pasechnik (Singapore), from Jan 9 or 10
   * Alyson Deines(UW)
   * Gagan Sekhon
