@@ -33,3 +33,6 @@ Some questions: for genus 4 (or higher), and given prime - is there a curve of p
 I will describe more motivation and questions on Thursday.
 
 References: Yui, Voloch, 
+
+
+Initial code by Alyson 
