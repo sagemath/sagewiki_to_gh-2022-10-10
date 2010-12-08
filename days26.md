@@ -8,10 +8,13 @@
 
    *  Funding: Microsoft Research (donation from Kristin Lauter's cryptography group), Justin Walker (private donation)
 
+== Projects ==
+
+   The [[/projects|list of projects]].
 
 == Schedule ==
 
-   The [[days26/schedule|schedule is here]].
+   The [[/schedule|schedule is here]].
 
 == UW Wireless info ==
 
