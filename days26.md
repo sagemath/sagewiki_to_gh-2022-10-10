@@ -16,6 +16,10 @@
 
    The [[/schedule|schedule is here]].
 
+== Photos and Video ==
+
+   * [[http://picasaweb.google.com/wstein/20101207SageDays26Women_in_sageDay1|Some snapshots from day 1]]
+
 == UW Wireless info ==
 
 UW NetID:
