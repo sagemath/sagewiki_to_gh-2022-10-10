@@ -51,7 +51,7 @@ PEOPLE: Kate, William S., Lola, Aly, Erin, Bianca
 
 PEOPLE: Jennifer B., Jennifer P., Jennifer J., Bianca
 
-  * Decide if curve is attached to a modular form, and if so find it, then use that to compute L-series.
+  * Decide if curve is attached to a modular form, and if so find it, then use that to compute L-series (use Sturm bound -- see paper of Ribet with appendix by Agashe/Stein)
 
   * Need the analogue of Tate's algorithm to get from the Namikawa-Ueno classification to the Euler factor at the bad primes
 
