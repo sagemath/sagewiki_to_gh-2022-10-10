@@ -69,4 +69,14 @@ PEOPLE: William S., Bianca,
   * Write really really fast code to implement some of this. 
 
   
-     
+== Sara's (mostly Combinatorics) wishlist ==
+
+  * Better index of software
+   
+  * sbcl in Sage
+    
+  * Quasisymmetric function bases
+  
+  * hyperplane arrangements
+  
+  * wikipedia and Sage pages linked to each other
