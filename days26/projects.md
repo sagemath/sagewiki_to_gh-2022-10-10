@@ -71,6 +71,8 @@ PEOPLE: William S., Bianca,
   
 == Sara's (mostly Combinatorics) wishlist ==
 
+PEOPLE:  Needs people!
+
   * Better index of software
    
   * sbcl in Sage
