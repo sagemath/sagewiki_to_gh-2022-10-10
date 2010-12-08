@@ -17,9 +17,9 @@ PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina, Kate
 
 == Making Drew Sutherland's smalljac code usable in Sage and extending Kate's data ==
 
-PEOPLE: Kate, William S., Lola, Aly, Erin, Bianca, 
+PEOPLE: Kate, William S., Lola, Aly, Erin, Bianca
 
-  * make code usable from Python  (involves Cython)
+  * make code usable from Python  (involves Cython); see [[http://code.google.com/p/purplesage/issues/detail?id=13|this psage issue]].
 
   * use code:
  
