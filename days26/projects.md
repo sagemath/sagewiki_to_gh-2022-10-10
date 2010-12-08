@@ -9,6 +9,7 @@ PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina, Kate
   * See [[days26/Pries Project|this page]].
 
   * sage worksheet that is slow and just implements algorithm (correctly!)
+    - this appears to be done here: [[days26/Pries Project|this page]]
 
   * make it really, really fast. 
 
