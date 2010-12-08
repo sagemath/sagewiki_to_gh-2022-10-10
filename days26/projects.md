@@ -9,11 +9,11 @@ PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina, Kate
   * See [[days26/Pries Project|this page]].
 
   * sage worksheet that is slow and just implements algorithm (correctly!)
-    - this appears to be done here: [[attachment:Computing N for Hyperelliptic curve.sws]]
+    * this appears to be done here: [[attachment:Computing N for Hyperelliptic curve.sws]]
+    * need data to check that this is correct.
+    * for what range of primes is this code reasonable?
 
-    - need data to check that this is correct.
-
-  * make it really, really fast. 
+  * make it really, really fast (cython). 
 
   * get included in sage itself
 
