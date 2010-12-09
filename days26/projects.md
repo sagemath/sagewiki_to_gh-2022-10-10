@@ -104,3 +104,5 @@ PEOPLE:  Flavia, Karen
   * add derivatives to floor, ceiling functions [[http://trac.sagemath.org/sage_trac/ticket/9874|#9874]]
 
   * doctest desolve  [[http://trac.sagemath.org/sage_trac/ticket/8931|#8931]]
+
+  * add Stefan Boettner's parallel integration code
