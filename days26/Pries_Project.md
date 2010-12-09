@@ -37,11 +37,10 @@ References: [[attachment:yui-on_the_jacobian_of_hyperelliptic_curves_over_fields
 Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints/07g3smallphyper907.pdf
 
 
-Initial code by Alyson [[attachment:Pries Aly code.sws|Initial code by Alyson (sws)]]
-Version 2: Anja, Gagan [[attachment:Pries project1 code.sws|version 2 (sws)]]
+
 Computing M and a-rank [[attachment:compute Hasse Vitt M.sws|Computing Hasse Vitt M]]
 
-Computing N [[attachment:Computing N for Hyperelliptic curve.sws|Computing N]]
+
 
 Corrected, Edited version: [[attachment:Computing N MG Edit(3).sws|Computing N Edit (sws)]] (After fixing indexing problem)
 
