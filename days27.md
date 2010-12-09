@@ -14,7 +14,7 @@ LIKELY PARTICIPANTS:
 
   * Rob Beezer (U Puget Sound, Tacoma), after AMS/MAA Meetings, shared room nights of Jan 10,11,12
   * Vladimir Bondarenko ([[http://cybertester.com/|CyberTester.com]], Ukraine): arrive Jan 6, leave Jan 14. Single room.
-  * Tom Boothby (SFU, Vancouver)
+  * Tom Boothby (SFU, Vancouver): arrive Jan 7, leave Jan 13; accompanied by spouse, prefer single room
   * Robert Bradshaw (Google Seattle)
   * Volker Braun (Ireland): arrive Jan 6, leave Jan 13. shared ok.
   * Jeroen Demeyer (Ghent, Belgium)
