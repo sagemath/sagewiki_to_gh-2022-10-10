@@ -31,7 +31,7 @@ this work.  This is joint work with Joseph H. Silverman.
 
       * there are artin symbols etc. -- big machinery
 
-      * m-th residue symbol implemented: [[attachment:test]]
+      * m-th residue symbol implemented: [[attachment:code]]
 
       * SAGE computes Kronecker symbol using GMP
 
