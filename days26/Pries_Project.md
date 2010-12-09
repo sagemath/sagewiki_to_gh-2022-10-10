@@ -46,4 +46,6 @@ Corrected, Edited version: [[attachment:Computing N MG Edit(3).sws|Computing N E
 
 Separate Commands for N and M: [[attachment:Separate N and M.sws|Separate N and M (sws)]]
 
+Slightly Cleaner Code for N, with some time tests: [[attachment:Computing N - Time Tests for Large p.sws|Newest N Code (sws)]]
+
 See [[http://demo.sagenb.org/home/pub/64/|this published version]].
