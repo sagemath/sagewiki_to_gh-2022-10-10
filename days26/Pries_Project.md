@@ -34,6 +34,7 @@ I will describe more motivation and questions on Thursday.
 
 References: Yui, Voloch, 
 
+Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints/07g3smallphyper907.pdf
 
 Initial code by Alyson [[attachment:Pries Aly code.sws|Initial code by Alyson (sws)]]
 Version 2: Anja, Gagan [[attachment:Pries project1 code.sws|version 2 (sws)]]
