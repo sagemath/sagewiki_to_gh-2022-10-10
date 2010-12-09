@@ -50,4 +50,6 @@ Slightly Cleaner Code for N, with some time tests: [[attachment:Computing N - Ti
 
 First way to speed up the exponentiation. Buggy!!! [[attachment:fast exponentiation of f.sws]]
 
+Removed p < 2g-1 test, insert zeros instead [[attachment:Fixed Indexing.sws|Fixed Indexing (sws)]]
+
 See [[http://demo.sagenb.org/home/pub/64/|this published version]].
