@@ -95,10 +95,12 @@ PEOPLE:  Needs people!
 
 == Symbolic projects ==
 
-  * reviewing patches for hypergeometric functions [[http://trac.sagemath.org/sage_trac/ticket/2516|#2516]] and orthogonal polynomials [[]]
+PEOPLE:  Flavia, Karen
+
+  * reviewing patches for hypergeometric functions [[http://trac.sagemath.org/sage_trac/ticket/2516|#2516]] and orthogonal polynomials [[http://trac.sagemath.org/sage_trac/ticket/9706|#9706]]
 
   * make beta symbolic [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] and make log_gamma symbolic [[http://trac.sagemath.org/sage_trac/ticket/10075|#10075]]
 
-  * add derivatives to floor, ceiling functions [[]]
+  * add derivatives to floor, ceiling functions [[http://trac.sagemath.org/sage_trac/ticket/9874|#9874]]
 
   * doctest desolve  [[http://trac.sagemath.org/sage_trac/ticket/8931|#8931]]
