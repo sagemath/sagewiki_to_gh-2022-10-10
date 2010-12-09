@@ -48,4 +48,6 @@ Separate Commands for N and M: [[attachment:Separate N and M.sws|Separate N and 
 
 Slightly Cleaner Code for N, with some time tests: [[attachment:Computing N - Time Tests for Large p.sws|Newest N Code (sws)]]
 
+First way to speed up the exponentiation. Buggy!!! [[attachment:fast exponentiation of f.sws]]
+
 See [[http://demo.sagenb.org/home/pub/64/|this published version]].
