@@ -44,5 +44,6 @@ Computing M and a-rank [[attachment:compute Hasse Vitt M.sws|Computing Hasse Vit
 
 Corrected, Edited version: [[attachment:Computing N MG Edit(3).sws|Computing N Edit (sws)]] (After fixing indexing problem)
 
+Separate Commands for N and M: [[attachment:Separate N and M.sws|Separate N and M (sws)]]
 
 See [[http://demo.sagenb.org/home/pub/64/|this published version]].
