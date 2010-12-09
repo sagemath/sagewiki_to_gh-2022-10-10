@@ -24,6 +24,8 @@ this work.  This is joint work with Joseph H. Silverman.
           - replicate and extend data in Kate's talk
  
           - maybe try genus 2 analogue?
+ 
+      * See [[http://groups.google.com/group/sagedays26/browse_thread/thread/9a4a0375e8ba8b15|this announcement]]
 
   * cubic and sextic residue symbol
 
