@@ -83,7 +83,7 @@ PEOPLE:  Needs people!
 
   * Implementation of the Schuetzenberger involution Omega_2 on tableaux and words:
 
-     - tableuax --> word --> something --> tableaux:  result is a sage worksheet, then function included in sage?!  easy.   PEOPLE: Erin, Ilke
+     - tableaux --> word --> something --> tableaux:  result is a sage worksheet, then function included in sage?!  easy.   PEOPLE: Erin, Ilke
 
   * Faster implementation of crystal graph isomorphisms (would have implications for the energy function and R-matrix).  PEOPLE: Anne S., William S.
 
@@ -91,4 +91,4 @@ PEOPLE:  Needs people!
 
   * make the k-Schur function and their duals live in the right subspace/quotient of the ring of symmetric functions
 
-     - in Sage, but live in the wrong space.  Should live in a subspace.  Have sample code in worksheet that "does the job" (see this link in Sage Days in Toronto in May).  Want to put this code into Sage.  PEOPLE: Erin.
+     - in Sage, but live in the wrong space.  Should live in a subspace.  Have sample code in worksheet that "does the job" (see this link in Sage Days 20.5 in Toronto in May).  Want to put this code into Sage.  PEOPLE: Erin.
