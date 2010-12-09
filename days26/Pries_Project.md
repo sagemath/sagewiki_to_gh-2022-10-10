@@ -41,7 +41,7 @@ Computing M and a-rank [[attachment:compute Hasse Vitt M.sws|Computing Hasse Vit
 
 Computing N [[attachment:Computing N for Hyperelliptic curve.sws|Computing N]]
 
-Slightly edited version: [[attachment:Computing N MG Edit.sws|Computing N Edit (sws)]]
+Corrected, Edited version: [[attachment:Computing N Corrected MG Edit.sws|Computing N Edit (sws)]] (After fixing indexing problem)
 
 
 See [[http://demo.sagenb.org/home/pub/64/|this published version]].
