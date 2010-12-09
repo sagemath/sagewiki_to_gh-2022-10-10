@@ -92,3 +92,13 @@ PEOPLE:  Needs people!
   * make the k-Schur function and their duals live in the right subspace/quotient of the ring of symmetric functions
 
      - in Sage, but live in the wrong space.  Should live in a subspace.  Have sample code in worksheet that "does the job" (see this link in Sage Days 20.5 in Toronto in May).  Want to put this code into Sage.  PEOPLE: Erin.
+
+== Symbolic projects ==
+
+  * reviewing patches for hypergeometric functions [[http://trac.sagemath.org/sage_trac/ticket/2516|#2516]] and orthogonal polynomials [[]]
+
+  * make beta symbolic [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] and make log_gamma symbolic [[http://trac.sagemath.org/sage_trac/ticket/10075|#10075]]
+
+  * add derivatives to floor, ceiling functions [[]]
+
+  * doctest desolve  [[http://trac.sagemath.org/sage_trac/ticket/8931|#8931]]
