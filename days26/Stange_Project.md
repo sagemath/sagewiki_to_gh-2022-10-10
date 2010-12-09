@@ -31,9 +31,9 @@ this work.  This is joint work with Joseph H. Silverman.
 
       * there are artin symbols etc. -- big machinery
 
-      * we think a fast independent implementation of the cubic (and sextic) residue symbol is worthwhile
+      * m-th residue symbol implemented: 
 
-      * what does SAGE do to compute quadratic residue symbols?
+      * SAGE computes Kronecker symbol using GMP
 
   * explicit calculation of Grossencharacters (aka Hecke characters). 
 
