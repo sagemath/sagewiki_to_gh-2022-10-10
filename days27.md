@@ -31,7 +31,7 @@ LIKELY PARTICIPANTS:
   * William Stein (UW):  Jan 7-13, no lodging needed
   * John Palmieri (UW)
   * Sebastian Pancratz (Oxford): Jan 6 - Jan 14.
-  * Dmitrii Pasechnik (Singapore), from Jan 9 or 10
+  * Dmitrii Pasechnik (NTU, Singapore), Jan 10 arrival, Jan 13 departure, prefer single room
   * Alyson Deines(UW)
   * Gagan Sekhon
 
