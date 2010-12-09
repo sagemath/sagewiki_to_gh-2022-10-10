@@ -83,7 +83,7 @@ PEOPLE:  Needs people!
 
   * Implementation of the Schuetzenberger involution Omega_2 on tableaux and words:
 
-     - tableaux --> word --> something --> tableaux:  result is a sage worksheet, then function included in sage?!  easy.   PEOPLE: Erin, Ilke
+     - tableaux --> word --> something --> tableaux:  result is a sage worksheet, then function included in sage?!  done! see trac ticket http://trac.sagemath.org/sage_trac/ticket/10446#comment:1   PEOPLE: Erin, Ilke
 
   * Faster implementation of crystal graph isomorphisms (would have implications for the energy function and R-matrix).  PEOPLE: Anne S., William S.
 
