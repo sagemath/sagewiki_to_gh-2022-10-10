@@ -32,9 +32,10 @@ Some questions: for genus 4 (or higher), and given prime - is there a curve of p
 
 I will describe more motivation and questions on Thursday.
 
-References: Yui, Voloch, 
+References: [[attachment:yui-on_the_jacobian_of_hyperelliptic_curves_over_fields_of_characteristic_p_gt_2.pdf|Yui]], Voloch, 
 
 Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints/07g3smallphyper907.pdf
+
 
 Initial code by Alyson [[attachment:Pries Aly code.sws|Initial code by Alyson (sws)]]
 Version 2: Anja, Gagan [[attachment:Pries project1 code.sws|version 2 (sws)]]
