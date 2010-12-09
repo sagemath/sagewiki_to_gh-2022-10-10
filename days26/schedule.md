@@ -20,7 +20,7 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 2:00 - 3:00  ||'''Project Organization (Combinatorics)''' RM LOW 118 ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">  3:00-        ||'''Coding Sprint'''||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, December 9, 2010||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 9:30- 10:30  ||'''Rachel Pries - Computation of p-torsion of Jacobians of hyperelliptic curves'''( in Rm: [[http://www.washington.edu/home/maps/northwest.html?77,73,429,529|GLD 435]]) ||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 9:30- 10:30  ||'''Rachel Pries - Computation of p-torsion of Jacobians of hyperelliptic curves'''( in Rm: [[http://www.washington.edu/home/maps/northwest.html?77,73,429,529|GLD 435]])[[attachment:sage10final.pdf|lecture notes]] ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:30- 10:50  ||'''Coffee/Tea break'''||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 10:50- 11:20  ||'''Status Reports'''(in Rm CDH 101) ||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-  2:00  ||'''Lunch'''||
