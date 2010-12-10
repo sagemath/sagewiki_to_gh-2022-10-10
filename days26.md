@@ -1,4 +1,3 @@
-
 = Sage Days 26: Women in Sage =
 
    *  Location: Seattle, Washington
@@ -95,6 +94,11 @@ Here are some options to get to the hotels from the airport:
  * Taxis from the airport cost about $40 (before tip) and can be found by following the signs in the airport.
  * [[http://shuttleexpress.com/seatac-airport/default.aspx|Shuttle Express]] picks up passengers at the inner curb on the third floor of the Airport Garage. Call  to make a reservation.
  * There is a new light-rail service from the airport to downtown Seattle, but you will then need to take a taxi to the house/hotel (about 5 miles north of downtown). This is not a good option unless you want to spend time in downtown Seattle.
+
+
+==Departure times==
+
+http://wiki.sagemath.org/days26/departures
 
 == Mailing Lists ==
 
