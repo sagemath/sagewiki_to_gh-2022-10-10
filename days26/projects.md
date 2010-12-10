@@ -15,7 +15,7 @@ PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina, Kate
 
   * make it really, really fast (cython). 
 
-  * get included in sage itself
+  * get included in sage itself [[http://trac.sagemath.org/sage_trac/ticket/10457|Trac ticket #10457]]
 
   * make a big table or something?   Rachel: "I would love to find a curve with p-rank 0 and a-number 1.   I did genus 4 and p=3." [[attachment:Examplesg4p0a1.sws|Some examples]]
 
