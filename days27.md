@@ -33,7 +33,7 @@ LIKELY PARTICIPANTS:
   * Sebastian Pancratz (Oxford): Jan 6 - Jan 14.
   * Dmitrii Pasechnik (NTU, Singapore), Jan 10 arrival, Jan 13 departure, prefer single room
   * Alyson Deines(UW)
-  * Gagan Sekhon
+  * Gagan Sekhon Jan 6-14
 
 Projects:
 
