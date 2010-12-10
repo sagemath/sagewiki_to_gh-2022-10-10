@@ -14,6 +14,7 @@ Saturday:
 
 9:45 AM Erin
 
-11 AM Anja
 
+Anja and Jen B. share a taxi at 11:15 am to Tacoma Airport
+11 AM Anja
 1 PM Jen B.
