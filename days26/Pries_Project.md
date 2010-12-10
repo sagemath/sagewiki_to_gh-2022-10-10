@@ -37,16 +37,8 @@ References: [[attachment:yui-on_the_jacobian_of_hyperelliptic_curves_over_fields
 Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints/07g3smallphyper907.pdf
 
 
+Separate Commands for N and M: [[attachment:SeparateNandMfast.sws.sws | More new and improved functionality! Both M and N or either.]]
 
-Computing M and a-rank [[attachment:compute Hasse Vitt M.sws|Computing Hasse Vitt M]]
-
-
-
-Corrected, Edited version: [[attachment:Computing N MG Edit(3).sws|Computing N Edit (sws)]] (After fixing indexing problem)
-
-Separate Commands for N and M: [[attachment:Separate N and M.sws|Separate N and M (sws)]]
-
-Slightly Cleaner Code for N, with some time tests: [[attachment:Computing N - Time Tests for Large p.sws|Newest N Code (sws)]]
 
 First way to speed up the exponentiation.[[attachment:fast exponentiation of f-1.sws]]
 
