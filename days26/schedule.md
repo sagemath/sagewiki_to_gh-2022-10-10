@@ -29,8 +29,8 @@
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, December 10, 2010||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 11:00- 12:00  ||'''Status Reports, where do we go from here''' (in Rm: PCAR 391)||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;"> 12:00-        ||'''Lunch/coding sprints until everyone is gone'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 2:30-3:30        ||'''[[http://wiki.wstein.org/seminar/sage/2010-stan|Flavia Stan's Sage Seminar talk in Savery 157 on Symbolic Summation]]'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 3:30-4:30        ||'''[[http://wiki.wstein.org/seminar/nt/20101210|UW Number Theory Seminar in Padelford C401 by Jeff Achter]]'''||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 2:30-3:30        ||'''[[http://wiki.wstein.org/seminar/sage/2010-stan|Flavia Stan's Sage Seminar talk in Savery 157 on Symbolic Summation]]''' (not officially part of sage days)||
+||<rowstyle="background-color: #FFFFEE; text-align: center;"> 3:30-4:30        ||'''[[http://wiki.wstein.org/seminar/nt/20101210|UW Number Theory Seminar in Padelford C401 by Jeff Achter]]''' (not officially part of sage days)||
 
 
 Microsoft bus Schedule = http://www.soundtransit.org/Riding-Sound-Transit/Schedules-and-Facilities/ST-Express-Bus/542-Weekday.xml
