@@ -21,7 +21,7 @@ LIKELY PARTICIPANTS:
   * Dan Drake (KAIST, Korea), arriving 9 Jan, leaving 14 Jan; need lodging, shared okay
   * Jason Grout ([[http://www.drake.edu|Drake]]), Jan 8-13, need lodging, shared okay
   * Ryan Grout (USA), Jan 7 - 11, need lodging, sharing okay
-  * Geoffrey Ehrman (UNH)
+  * Geoffrey Ehrman (UNH), Jan 6-13, need lodging, sharing okay
   * Marshall Hampton (Minnesota).  Arrive Jan 10, leave Jan 14th.  Need lodging, single strongly preferred.
   * Mike Hansen(+1) (Berkeley)  Jan 7 - 13; need lodging, prefer single, but shared okay
   * Alex Leone  (UW)
