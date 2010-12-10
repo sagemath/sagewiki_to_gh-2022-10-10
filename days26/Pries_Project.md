@@ -34,7 +34,7 @@ I will describe more motivation and questions on Thursday.
 
 References: [[attachment:yui-on_the_jacobian_of_hyperelliptic_curves_over_fields_of_characteristic_p_gt_2.pdf|Yui]], Voloch, 
 
-Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints/07g3smallphyper907.pdf
+Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints/08groupschemeconm1007.pdf
 
 
 Separate Commands for N and M: [[attachment:SeparateNandMfast.sws.sws | More new and improved functionality! Both M and N or either.]]
