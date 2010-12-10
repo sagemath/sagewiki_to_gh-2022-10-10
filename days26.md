@@ -8,6 +8,8 @@
 
    *  Funding: Microsoft Research (donation from Kristin Lauter's cryptography group), Justin Walker (private donation)
 
+[[attachment:sd26b.jpg|{{attachment:sd26b.jpg}}]]
+
 == Projects ==
 
    The [[/projects|list of projects]].
