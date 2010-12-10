@@ -37,14 +37,9 @@ References: [[attachment:yui-on_the_jacobian_of_hyperelliptic_curves_over_fields
 Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints/08groupschemeconm1007.pdf
 
 
-Separate Commands for N and M: [[attachment:SeparateNandMfast.sws.sws | More new and improved functionality! Both M and N or either.]]
+Cartier matrix and Hasse-Witt Matrix: [[attachment:final final M and N.sws|Best and most up to date!]]
 
 
 Alternative exponentiation f^((p-1)/2). So far not faster. [[attachment:alternative exponentiation of f.sws]]
-
-
-Removed p < 2g-1 test, insert zeros instead [[attachment:Final Sage Code for N.sws|Final Sage Code for N - MG (sws)]]
-
-Latest Version of Cartier_matrix and Hasse_Witt (w/o using pre-computed M): [[attachment:Final Python Code for N and M.sws|Python Code]]
 
 See [[http://demo.sagenb.org/home/pub/64/|this published version]].
