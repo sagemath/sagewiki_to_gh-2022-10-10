@@ -1,3 +1,5 @@
+[[attachment:sd26b.jpg|{{attachment:sd26b.jpg}}]]
+
 = Sage Days 26: Women in Sage =
 
    *  Location: Seattle, Washington
@@ -8,7 +10,6 @@
 
    *  Funding: Microsoft Research (donation from Kristin Lauter's cryptography group), Justin Walker (private donation)
 
-[[attachment:sd26b.jpg|{{attachment:sd26b.jpg}}]]
 
 == Projects ==
 
