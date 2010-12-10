@@ -1,0 +1,90 @@
+sage -t --long -force_lib "devel/sage/sage/misc/sagedoc.py" 
+**********************************************************************
+File "/usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/sage/misc/sagedoc.py", line 891:
+    sage: len(search_doc('tree', interact=False).splitlines()) > 2000
+Expected:
+    True
+Got:
+    Warning, the following Sage documentation hasn't been built,
+    so documentation search results may be incomplete:
+    <BLANKLINE>
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/numerical_sage
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/bordeaux_2008
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/a_tour_of_sage
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/faq
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/constructions
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/installation
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/developer
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/website
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/thematic_tutorials
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/fr/a_tour_of_sage
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/fr/tutorial
+    <BLANKLINE>
+    You can build these with 'sage -docbuild DOCUMENT html',
+    where DOCUMENT is one of 'numerical_sage', 'bordeaux_2008', 'a_tour_of_sage', 'faq', 'constructions', 'installation', 'developer', 'website', 'thematic_tutorials', 'fr/a_tour_of_sage', 'fr/tutorial', 
+    or you can use 'sage -docbuild all html' to build all of the missing documentation.
+    True
+**********************************************************************
+File "/usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/sage/misc/sagedoc.py", line 893:
+    sage: len(search_doc('tree', whole_word=True, interact=False).splitlines()) < 200
+Expected:
+    True
+Got:
+    Warning, the following Sage documentation hasn't been built,
+    so documentation search results may be incomplete:
+    <BLANKLINE>
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/numerical_sage
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/bordeaux_2008
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/a_tour_of_sage
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/faq
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/constructions
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/installation
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/developer
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/website
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/thematic_tutorials
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/fr/a_tour_of_sage
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/fr/tutorial
+    <BLANKLINE>
+    You can build these with 'sage -docbuild DOCUMENT html',
+    where DOCUMENT is one of 'numerical_sage', 'bordeaux_2008', 'a_tour_of_sage', 'faq', 'constructions', 'installation', 'developer', 'website', 'thematic_tutorials', 'fr/a_tour_of_sage', 'fr/tutorial', 
+    or you can use 'sage -docbuild all html' to build all of the missing documentation.
+    True
+**********************************************************************
+File "/usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/sage/misc/sagedoc.py", line 496:
+    sage: 'abvar/homology' in _search_src_or_doc('doc', 'homology', 'variety', interact=False)
+Expected:
+    True
+Got:
+    Warning, the following Sage documentation hasn't been built,
+    so documentation search results may be incomplete:
+    <BLANKLINE>
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/numerical_sage
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/bordeaux_2008
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/a_tour_of_sage
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/faq
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/constructions
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/installation
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/developer
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/website
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/en/thematic_tutorials
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/fr/a_tour_of_sage
+    /usr/local/lib/sage-4.1.1-linux-Ubuntu_9.04-i686-Linux/devel/sage/doc/output/html/fr/tutorial
+    <BLANKLINE>
+    You can build these with 'sage -docbuild DOCUMENT html',
+    where DOCUMENT is one of 'numerical_sage', 'bordeaux_2008', 'a_tour_of_sage', 'faq', 'constructions', 'installation', 'developer', 'website', 'thematic_tutorials', 'fr/a_tour_of_sage', 'fr/tutorial', 
+    or you can use 'sage -docbuild all html' to build all of the missing documentation.
+    True
+**********************************************************************
+2 items had failures:
+   2 of   5 in __main__.example_14
+   1 of   7 in __main__.example_8
+***Test Failed*** 3 failures.
+For whitespace errors, see the file /home/dinahmoehum/.sage//tmp/.doctest_sagedoc.py
+	 [76.2 s]
+ 
+----------------------------------------------------------------------
+The following tests failed:
+
+
+	sage -t --long -force_lib "devel/sage/sage/misc/sagedoc.py"
+Total time for all tests: 76.2 seconds
