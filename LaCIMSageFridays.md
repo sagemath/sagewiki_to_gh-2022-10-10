@@ -42,6 +42,8 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 === 10 décembre 2010 ===
 
+Documentation (coverage) de Sage
+
   * Alexandre Blondin Massé:
       * [[http://trac.sagemath.org/sage_trac/ticket/10461|#10461]]
   * Sébastien Labbé et Marco Robado:
@@ -49,6 +51,8 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
       * [[http://trac.sagemath.org/sage_trac/ticket/10463|#10463]]
   * Franco:
       * [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]] 
+  * Samuel:
+      * Remplacement de Fedora par Ubuntu!
 
 === 3 décembre 2010 ===
 
