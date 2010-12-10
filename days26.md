@@ -21,7 +21,7 @@
 
 == Photos and Video ==
 
-   * [[http://picasaweb.google.com/wstein/20101207SageDays26Women_in_sageDay1|Some snapshots from day 1]], [[ http://picasaweb.google.com/wstein/20101208Sagedays26Day2|day 2]]
+   * [[http://picasaweb.google.com/wstein/20101207SageDays26Women_in_sageDay1|Some snapshots from day 1]], [[ http://picasaweb.google.com/wstein/20101208Sagedays26Day2|day 2]], [[http://picasaweb.google.com/wstein/20101209Sagedays26Day3|day 3]]
    * Sara Billey's Lecture (this link will be up soon, depending on Wi-Fi connection).
 
 == UW Wireless info ==
