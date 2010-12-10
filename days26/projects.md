@@ -17,7 +17,7 @@ PEOPLE: Rachel P., Aly, Gagan, Anja, Sarah, Marina, Kate
 
   * get included in sage itself
 
-  * make a big table or something?   Rachel: "I would love to find a curve with p-rank 0 and a-number 1.   I did genus 4 and p=3."
+  * make a big table or something?   Rachel: "I would love to find a curve with p-rank 0 and a-number 1.   I did genus 4 and p=3." [[attachment:Examplesg4p0a1.sws|Some examples]]
 
 
 == Making Drew Sutherland's smalljac code usable in Sage and extending Kate's data ==
