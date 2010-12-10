@@ -26,7 +26,7 @@ LIKELY PARTICIPANTS:
   * Mike Hansen(+1) (Berkeley)  Jan 7 - 13; need lodging, prefer single, but shared okay
   * Alex Leone  (UW)
   * Robert Miller (Warwick/MSRI) Jan 8 - 13; need lodging, prefer single
-  * Johan Sebastian Rosenkilde Nielsen (Denmark)
+  * Johan Sebastian Rosenkilde Nielsen (Denmark): arriving 6. Jan, leaving 10. Jan afternoon. Need lodging; shared okay.
   * Willem Jan Palenstijn (Holland and Belgium): arriving 6 Jan 12:25pm, leaving 14 Jan 12:45pm. Need lodging; shared okay.
   * William Stein (UW):  Jan 7-13, no lodging needed
   * John Palmieri (UW)
