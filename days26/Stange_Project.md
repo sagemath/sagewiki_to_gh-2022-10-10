@@ -34,7 +34,6 @@ this work.  This is joint work with Joseph H. Silverman.
       * there are artin symbols etc. -- big machinery
 
       * m-th residue symbol implemented: [[attachment:number_field_ideal.py]], [[attachment:number_field_element.pyx]] (old: [[attachment:code.sws]])
-            * doctest error:  [[attachment:test_failed.txt]] (sage -t --long -force_lib "devel/sage/sage/misc/sagedoc.py")
 
       * SAGE computes Kronecker symbol using GMP
 
