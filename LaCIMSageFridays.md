@@ -34,12 +34,36 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
-== Vendredi suivant : 3 décembre 2010 ==
+== Vendredi suivant : 17 décembre 2010 ==
 
-Sébastien Labbé
-13h30 : Utilisation de Sphinx (ReST) pour générer des démos.
+?
 
 == Vendredi précédents ==
+
+=== 10 décembre 2010 ===
+
+  * Alexandre Blondin Massé:
+      * [[http://trac.sagemath.org/sage_trac/ticket/10461|#10461]]
+  * Sébastien Labbé et Marco Robado:
+      * [[http://trac.sagemath.org/sage_trac/ticket/10462|#10462]] et
+      * [[http://trac.sagemath.org/sage_trac/ticket/10463|#10463]]
+  * Franco:
+      * [[http://trac.sagemath.org/sage_trac/ticket/8670|#8670]] 
+
+=== 3 décembre 2010 ===
+
+Quelques présentations :
+
+  * Alexandre Blondin Massé:
+      * Syntaxe cython pour vim
+  * Sébastien Labbé:
+      * Utilisation de Sphinx (ReST) pour générer des démos.
+      * sage -rst2html
+      * sage -rst2sws
+  * Franco:
+      * Syntaxe sage + ReST pour vim
+
+Il faudrait ajouter des liens vers ce qu'on a fait.
 
 === 26 novembre 2010 ===
 
