@@ -17,7 +17,7 @@ LIKELY PARTICIPANTS:
   * Tom Boothby (SFU, Vancouver): arrive Jan 7, leave Jan 13; accompanied by spouse, prefer single room
   * Robert Bradshaw (Google Seattle)
   * Volker Braun (Ireland): arrive Jan 6, leave Jan 13. shared ok.
-  * Jeroen Demeyer (Ghent, Belgium)
+  * Jeroen Demeyer (Ghent, Belgium): arriving 6 January, leaving 16 January, shared okay
   * Dan Drake (KAIST, Korea), arriving 9 Jan, leaving 14 Jan; need lodging, shared okay
   * Jason Grout ([[http://www.drake.edu|Drake]]), Jan 8-13, need lodging, shared okay
   * Ryan Grout (USA), Jan 7 - 11, need lodging, sharing okay
