@@ -40,7 +40,7 @@ Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints
 Separate Commands for N and M: [[attachment:SeparateNandMfast.sws.sws | More new and improved functionality! Both M and N or either.]]
 
 
-First way to speed up the exponentiation.[[attachment:fast exponentiation of f-1.sws]]
+First try to speed up the exponentiation. Not faster. [[attachment:not so fast exponentiation of f.sws]]
 
 Removed p < 2g-1 test, insert zeros instead [[attachment:Final Sage Code for N.sws|Final Sage Code for N - MG (sws)]]
 
