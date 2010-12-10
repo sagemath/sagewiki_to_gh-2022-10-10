@@ -34,6 +34,7 @@ LIKELY PARTICIPANTS:
   * Dmitrii Pasechnik (NTU, Singapore), Jan 10 arrival, Jan 13 departure, prefer single room
   * Alyson Deines(UW)
   * Gagan Sekhon Jan 6-14
+  * Radoslav Kirov (NTU Singapore): arriving Jan 6 9:24 AM, departing January 13, 12:55 PM. Need lodging.
 
 Projects:
 
