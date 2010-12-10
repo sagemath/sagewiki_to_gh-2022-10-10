@@ -44,4 +44,6 @@ First try to speed up the exponentiation. Not faster. [[attachment:not so fast e
 
 Removed p < 2g-1 test, insert zeros instead [[attachment:Final Sage Code for N.sws|Final Sage Code for N - MG (sws)]]
 
+Latest Version of Cartier_matrix and Hasse_Witt (w/o using pre-computed M): [[attachment:Final Python Code for N and M.sws|Python Code]]
+
 See [[http://demo.sagenb.org/home/pub/64/|this published version]].
