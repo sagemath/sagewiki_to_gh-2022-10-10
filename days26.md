@@ -1,4 +1,3 @@
-[[attachment:sd26b.jpg|{{attachment:sd26b.jpg}}]]
 
 = Sage Days 26: Women in Sage =
 
@@ -46,6 +45,9 @@ Password:
    *  Katherine Stange - [[days26/Stange Project|Amicable pairs and aliquot cycles for elliptic curves]]
  
 == Participants ==
+
+[[attachment:sd26b.jpg|{{attachment:sd26b.jpg}}]]
+
 
    *  Jennifer Balakrishnan
 
