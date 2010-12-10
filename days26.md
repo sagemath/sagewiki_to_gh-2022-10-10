@@ -96,7 +96,7 @@ Here are some options to get to the hotels from the airport:
  * There is a new light-rail service from the airport to downtown Seattle, but you will then need to take a taxi to the house/hotel (about 5 miles north of downtown). This is not a good option unless you want to spend time in downtown Seattle.
 
 
-==Departure times==
+== Departure times ==
 
 http://wiki.sagemath.org/days26/departures
 
