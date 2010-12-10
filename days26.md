@@ -20,7 +20,7 @@
 == Photos and Video ==
 
    * Stein's snapshots: [[http://picasaweb.google.com/wstein/20101207SageDays26Women_in_sageDay1|day 1]], [[ http://picasaweb.google.com/wstein/20101208Sagedays26Day2|day 2]], [[http://picasaweb.google.com/wstein/20101209Sagedays26Day3|day 3]]
-   * Sara Billey's Lecture (this link will be up soon, depending on Wi-Fi connection).
+   * Sara Billey's Lecture http://vimeo.com/17680795.
 
 == UW Wireless info ==
 
