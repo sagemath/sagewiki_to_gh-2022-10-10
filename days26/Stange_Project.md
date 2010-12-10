@@ -33,7 +33,8 @@ this work.  This is joint work with Joseph H. Silverman.
 
       * there are artin symbols etc. -- big machinery
 
-      * m-th residue symbol implemented: [[attachment:code.sws]]
+      * m-th residue symbol implemented: [[attachment:number_field_ideal.py]], [[attachment:number_field_element.pyx]] (old: [[attachment:code.sws]])
+            * doctest error:  [[attachment:test_failed.txt]]
 
       * SAGE computes Kronecker symbol using GMP
 
