@@ -39,6 +39,8 @@ Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints
 
 Cartier matrix and Hasse-Witt Matrix: [[attachment:final final M and N.sws|Best and most up to date!]]
 
+Code for Documentation Reference: [[attachement:Code for Documentation Reference.sws|Doc Ref]]
+
 
 Alternative exponentiation f^((p-1)/2). So far not faster. [[attachment:alternative exponentiation of f.sws]]
 Intermediate worksheet [[attachment:intermediate worksheet for exponentiation.sws]]
