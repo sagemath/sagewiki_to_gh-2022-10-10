@@ -36,7 +36,10 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 == Vendredi suivant : 17 décembre 2010 ==
 
-?
+Suggestions :
+
+  * Alexandre Blondin Massé :
+      * Résoudre des équations sur les mots impliquant des morphismes et des antimorphismes
 
 == Vendredi précédents ==
 
