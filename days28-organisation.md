@@ -70,8 +70,12 @@ Brouillon sur https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUW
   * envoi d'un mail avec lien vers
     * la page http://wiki.sagemath.org/days28
     * le formulaire d'inscription
-  * destinataires : sage-devel, sage-combinat-devel, labos parisiens, lri, math-orsay, gdr-im, ...
-
+  * envoyé à:
+    * sage-devel, sage-combinat-devel
+    * labo-math-orsay
+    * demandé à Jean Mairesse et Valérie Berthé de faire circuler au LIAFA et sur GDR-IM
+    * demandé à Matheus de faire circuler au LAGA (Villetaneuse)
+  * reste à faire: lri, Cergy, Lip6, Jussieu, communauté
 
 
 === Programme ===
