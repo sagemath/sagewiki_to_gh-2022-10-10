@@ -13,6 +13,10 @@ RELATED EVENTS:
 
  * 20-21 January 2011: Journées du GDR Informatique et mathématiques, Jussieu, Paris, France.
 
+REGISTRATION:
+
+ [[https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ|registration form]]
+
 LIKELY PARTICIPANTS:
 
   * Nicolas Borie (Orsay)
