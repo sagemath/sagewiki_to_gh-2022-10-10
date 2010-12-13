@@ -73,8 +73,9 @@ Brouillon sur https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUW
   * envoyé à:
     * sage-devel, sage-combinat-devel
     * labo-math-orsay
-    * demandé à Jean Mairesse et Valérie Berthé de faire circuler au LIAFA et sur GDR-IM
-    * demandé à Matheus de faire circuler au LAGA (Villetaneuse)
+    * GDR-IM (via Jean-Mairesse)
+    * demandé à Jean Mairesse et Valérie Berthé de faire circuler au LIAFA
+    * demandé à Matheus de faire circuler au LAGA (Villetaneuse) + collège de France
   * reste à faire: lri, Cergy, Lip6, Jussieu, communauté
 
 
