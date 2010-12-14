@@ -18,7 +18,7 @@ Rob Beezer, beezer@ups.edu, rbeezer on #sage-devel IRC
 
 To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.  Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
 
-Note: If your version of Sage is prior to 4.3.3.alpha0 then examples from Beezer's Linear Algebra text will not render quite right.  See way below for how to edit older configurations.
+Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
  * An Entire Mathematics Textbook (2010/08/27)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra: Theory and Applications]]
@@ -151,7 +151,7 @@ Anybody want to try for the round-trip, Latex -> SWS -> Latex?
 
 == jsMath Safe Boxes Edit ==
 
-For Sage versions prior to 4.3.3.alpha0 (sagenb prior to 0.7.5) it is necessary to slightly tweak the jsMath configuration in Sage.  It is a one-character edit.  You can still view the sections, but "reasons" given in math displays (generally in proofs) won't render right and you will see lots of "@a()" stuff.  This will be fixed once [[http://trac.sagemath.org/sage_trac/ticket/8202 | Trac 8202]] is merged, which is slated for Sage 4.3.2.  So check the ticket and check your version of Sage ({{{sage --version}}}) and maybe you don't need to do this.
+For Sage versions prior to 4.3.3.alpha0 (sagenb prior to 0.7.5) it is necessary to slightly tweak the jsMath configuration in Sage.  It is a one-character edit.  You can still view the sections, but "reasons" given in math displays (generally in proofs) won't render right and you will see lots of "@a()" stuff.  This was fixed in [[http://trac.sagemath.org/sage_trac/ticket/8202 | Trac 8202]] for Sage 4.3.3.  Check your version of Sage with {{{sage --version}}}.
 
 The file to edit is
 {{{
