@@ -20,6 +20,16 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
+ * Sage-Enhancing a Linear Algebra Textbook (2010/12/14)
+   * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
+   * Live Sage code for first chapter (SLE), in final 4 sections (RREF, TSS, HSE, NM)
+   * "Read-Only" - some content is temporarily missing, Sage commands use new unofficial patches for linear algebra, some formatting needs improvements
+   * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
+   * In the notebook, skip front matter sections, click on actual sections to bring up content
+   * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] is used to render faithful PDF from the same source
+   * [[attachment:fcla-sage-experimental.zip | Worksheet Zip File]]
+   * [[attachment:fcla-sage-experimental.pdf | PDF Version]]
+
  * An Entire Mathematics Textbook (2010/08/27)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra: Theory and Applications]]
    * Zip file has about 30 worksheets, simply upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping.
