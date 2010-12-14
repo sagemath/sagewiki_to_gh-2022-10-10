@@ -14,6 +14,30 @@ Rob Beezer, beezer@ups.edu, rbeezer on #sage-devel IRC
  hg clone https://rbeezer@bitbucket.org/rbeezer/tex2sws/
  }}}
 
+== Linear Algebra Patches ==
+
+This table tracks patches meant to support the teaching of introductory linear algebra and the enhancement of Beezer's "A First Course in Linear Algebra."
+
+|| Ticket ||  Description || Status || Acknowledgements ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/8071 | 8071]] || trivial matrix kernels over non-fields || 4.4.alpha0 || Martin Albrecht ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10189|10189]] || additions to all-ones matrix constructor || positive review || Karl-Dieter Crisman, Robert Miller||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10362|10362]] || vector constructor documentation || 4.6.1.alpha3 || Andrey Novoseltsev ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10364|10364]] || zero_vector constructor, vector constructor error-checking || positive review || Andrey Novoseltsev ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10422|10422]] || documentation fix on new_matrix constructor || 4.6.1.alpha3 || Benjamin Jones ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10424|10424]] || matrix augment accepts a vector || positive review || Joris Vankerschaver, Robert Bradshaw ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10425|10425]] || subdivisions when augmenting || obsolete, in 10424 || ||
+|| || || || ||
+|| || || || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/8046 | 8046]] || add double dense matrix file to documentation || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10439|10439]] || degree and dictionary to vector constructor || new, no patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10454|10454]] || add .is_singular() || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 10472 || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || new, bug, no patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10471|10471]] || conjugate-transpose of a matrix || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10472|10472]] || properties for matrices || new, Jason Grout? || ||
+
+
 == Examples ==
 
 To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.  Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
