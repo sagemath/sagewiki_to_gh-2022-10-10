@@ -37,7 +37,7 @@ References: [[attachment:yui-on_the_jacobian_of_hyperelliptic_curves_over_fields
 Possible reference http://www.math.colostate.edu/~pries/Preprints/00DecPreprints/08groupschemeconm1007.pdf
 
 
-Cartier matrix and Hasse-Witt Matrix: [[attachment:final final M and N.sws|Best and most up to date!]]
+Cartier matrix and Hasse-Witt Matrix(this version uses caching): [[attachment:Cartier cached version.sws|Best and most up to date (12/14)]]
 
 Code for Documentation Reference: [[attachment:Code For Documentation Reference.sws|Doc Ref]]
 
