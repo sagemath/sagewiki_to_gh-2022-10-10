@@ -64,9 +64,10 @@ Quelques présentations :
   * Alexandre Blondin Massé:
       * Syntaxe cython pour vim
   * Sébastien Labbé:
-      * Utilisation de Sphinx (ReST) pour générer des démos.
+      * Utilisation de docutils et ReStructuredText pour générer des démos.
       * sage -rst2html
       * sage -rst2sws
+      * Exemple de présentation faites avec rst2s5 http://groups.google.com/group/cython-users/browse_thread/thread/ef615c8d2fc0ff78
   * Franco:
       * Syntaxe sage + ReST pour vim
 
