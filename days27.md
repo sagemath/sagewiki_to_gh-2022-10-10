@@ -6,7 +6,7 @@ DATES: January 7 - 13, 2011.  (We will start working on Jan 7, so if you are buy
 
 LOCATION: Seattle
 
-LODGING: Everybody will be staying at the "UWMC Collegiana Hospitality House", where I have reserved 12 big rooms. 
+LODGING: Everybody will be staying at the "UWMC Collegiana Hospitality House" ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved 12 big rooms. 
 
 FUNDING: If you're interested in attending, there may be funding for you.   Email wstein@gmail.com.
 
