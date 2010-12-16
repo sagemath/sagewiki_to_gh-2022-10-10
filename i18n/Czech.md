@@ -4,8 +4,8 @@ Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]].
 
 == Screenshoty ==
 
-* [[attachment:Obrazovka.png]]
-* [[attachment:Obrazovka-1.png]]
+ * [[attachment:Obrazovka.png]]
+ * [[attachment:Obrazovka-1.png]]
 
 == Postup ==
  * Nainstalujte spkg [[http://trac.sagemath.org/sage_trac/ticket/9428 | odsud]]
