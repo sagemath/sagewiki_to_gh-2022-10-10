@@ -2,7 +2,7 @@
 
 Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]]. 
 
-== Screenshoty ==
+== Screenshoty zápisníku lokalizovaného do češtiny ==
 
  * [[attachment:Obrazovka.png]]
  * [[attachment:Obrazovka-1.png]]
