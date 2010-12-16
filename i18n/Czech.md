@@ -2,6 +2,9 @@
 
 Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]]. 
 
+== Screenshoty ==
+
+
 
 == Postup ==
  * Nainstalujte spkg [[http://trac.sagemath.org/sage_trac/ticket/9428 | odsud]]
