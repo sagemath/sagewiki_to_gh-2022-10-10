@@ -34,12 +34,19 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
-== Vendredi suivant : 17 décembre 2010 ==
+== Vendredi suivant : 7 janvier 2011 ==
 
 Suggestions :
 
   * Alexandre Blondin Massé :
       * Résoudre des équations sur les mots impliquant des morphismes et des antimorphismes
+
+== Vendredi précédents ==
+
+=== 17 décembre 2010 ===
+
+  * Sébastien Labbé, Marco Robado, Samuel :
+      * Correction du ticket : [[http://trac.sagemath.org/sage_trac/ticket/10463|#10463]]
 
   * Utiliser un pager par défaut pour les sorties Mercurial
 {{{
@@ -51,8 +58,6 @@ pager = LESS='FSRX' less
 attend = log, help, version, status, qseries, diff
 }}}
 
-
-== Vendredi précédents ==
 
 === 10 décembre 2010 ===
 
