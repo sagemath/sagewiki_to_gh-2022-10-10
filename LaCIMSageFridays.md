@@ -45,10 +45,15 @@ Suggestions :
 
 === 17 décembre 2010 ===
 
+  * Marco Robado:
+      * L'outil rsync pour synchroniser des répertoires.
+
   * Sébastien Labbé, Marco Robado, Samuel :
       * Correction du ticket : [[http://trac.sagemath.org/sage_trac/ticket/10463|#10463]]
 
-  * Utiliser un pager par défaut pour les sorties Mercurial
+  * Marco Robado: 
+      * Pour utiliser un pager par défaut pour les sorties Mercurial:
+
 {{{
 [extensions]
 pager =
