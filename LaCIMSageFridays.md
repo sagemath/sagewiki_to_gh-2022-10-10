@@ -41,6 +41,17 @@ Suggestions :
   * Alexandre Blondin Massé :
       * Résoudre des équations sur les mots impliquant des morphismes et des antimorphismes
 
+  * Utiliser un pager par défaut pour les sorties Mercurial
+{{{
+[extensions]
+pager =
+
+[pager]
+pager = LESS='FSRX' less
+attend = log, help, version, status, qseries, diff
+}}}
+
+
 == Vendredi précédents ==
 
 === 10 décembre 2010 ===
