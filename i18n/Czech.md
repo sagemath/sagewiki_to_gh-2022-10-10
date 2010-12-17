@@ -15,6 +15,8 @@ Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]].
 
 == Zdroje informací ==
 
-[[http://www.math.muni.cz/~plch/diplomky/Sage.pdf|Diplomová práce Martina Haupta o  Sage]]
+ * Ukázky programu Sage - [[attachment:sage-marik.zip]] (celý zip soubor můžete do prostředí Sage notebook naimportovat najednou)
 
-[[http://user.mendelu.cz/marik/sage/|Návody a ukázky použití v praxi]]
+ * [[http://www.math.muni.cz/~plch/diplomky/Sage.pdf|Diplomová práce Martina Haupta o  Sage]]
+
+ * [[http://user.mendelu.cz/marik/sage/|Návody a ukázky použití v praxi]]
