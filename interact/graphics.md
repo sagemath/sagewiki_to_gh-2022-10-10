@@ -184,7 +184,7 @@ def color_experimenter(expression=input_box('', 'Expression', str), color=Color(
 }}}
 {{attachment:color_of_plot_changer.png}} 
 
-== Interactive 2d Plotting ==
+== Interactive 2D Plotting ==
 by Timothy Clemans
 {{{
 def error_msg(msg):
