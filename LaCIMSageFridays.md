@@ -50,6 +50,10 @@ Suggestions :
 
   * Sébastien Labbé, Marco Robado, Samuel :
       * Correction du ticket : [[http://trac.sagemath.org/sage_trac/ticket/10463|#10463]]
+      * Comment corriger un bug, soumettre un patch
+
+  * Samuel
+      * Création d'un compte sur le sage trac
 
   * Marco Robado: 
       * Pour utiliser un pager par défaut pour les sorties Mercurial:
