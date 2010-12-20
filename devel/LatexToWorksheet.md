@@ -26,16 +26,17 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10422|10422]] || documentation fix on new_matrix constructor || 4.6.1.alpha3 || Benjamin Jones ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10424|10424]] || matrix augment accepts a vector || positive review || Joris Vankerschaver, Robert Bradshaw ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10425|10425]] || subdivisions when augmenting || obsolete, in 10424 || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10454|10454]] || add .is_singular() || positive review || Robert Bradshaw ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10471|10471]] || conjugate-transpose of a matrix || positive review || Robert Bradshaw ||
 || || || || ||
 || || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8046 | 8046]] || add double dense matrix file to documentation || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10439|10439]] || degree and dictionary to vector constructor || new, no patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10454|10454]] || add .is_singular() || with patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 10472 || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 8094 || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || new, bug, no patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10471|10471]] || conjugate-transpose of a matrix || with patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10472|10472]] || properties for matrices || new, Jason Grout? || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || needs work || ||
 
 
 == Examples ==
