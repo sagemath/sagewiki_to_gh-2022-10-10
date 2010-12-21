@@ -33,10 +33,12 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/8046 | 8046]] || add double dense matrix file to documentation || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || with patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10439|10439]] || degree and dictionary to vector constructor || new, no patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 8094 || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || new, bug, no patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || needs work || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10439|10439]] || degree and dictionary to vector constructor || new || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 8094, 10501 || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || new || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10500|10500]] || documentation: matrix row/column linear combinations || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || with patch || ||
 
 
 == Examples ==
