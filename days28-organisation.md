@@ -7,8 +7,10 @@ Exemples d'organisations anterieures :
 
 == Site web et organisation ==
   * http://wiki.sagemath.org/days28
-  * mettre les worksheets sur le wiki (cf http://wiki.sagemath.org/days25.5/francais)
   * formulaire https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ
+  * [[attachment:inscriptions_au_21_decembre.pdf]]
+  * mettre les worksheets sur le wiki (cf http://wiki.sagemath.org/days25.5/francais)
+
   * mailing list : sage-combinat-days existante
 
 === Evenements connexes (en temps et themes) ===
