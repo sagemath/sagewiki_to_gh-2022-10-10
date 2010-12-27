@@ -154,7 +154,7 @@ is perceived in the outside world.
   * [[http://www.ddj.com/linux-open-source/204702621|Sage in Doctor Dobbs Journal]]
 
   *  WIRED: Sage vs Mathematica is the topic of the Wired magazine blog:
-    Math Geek Software Smackdown: Sage v. Mathematica http://blog.wired.com/monkeybites/2007/12/math-geek-softw.html
+    Math Geek Software Smackdown: Sage v. Mathematica http://www.webmonkey.com/2007/12/math_geek_software_smackdown_sage_vdot_mathematica/
 
 
   *  Sage is the topic of the UWeek article
