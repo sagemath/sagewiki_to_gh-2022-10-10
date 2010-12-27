@@ -15,9 +15,9 @@ Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]].
 
 == Zdroje informací ==
 
- * Ukázky programu Sage obecně a pro začátečníky - [[attachment:sage-marik.zip]] (celý zip soubor můžete do prostředí Sage notebook naimportovat najednou)
+ * Ukázky programu Sage obecně a pro začátečníky - [[attachment:sage-marik.zip]] (celý zip soubor můžete do prostředí Sage notebook naimportovat najednou), podporováno grantem FRVŠ 131/2010
 
- * Ukázky programu Sage v diferenciální geometrii - [[attachment:sage-viskotova.zip]] (celý zip soubor můžete do prostředí Sage notebook naimportovat najednou)
+ * Ukázky programu Sage v diferenciální geometrii - [[attachment:sage-viskotova.zip]] (celý zip soubor můžete do prostředí Sage notebook naimportovat najednou), podporováno grantem FRVŠ 131/2010
 
  * [[http://www.math.muni.cz/~plch/diplomky/Sage.pdf|Diplomová práce Martina Haupta o  Sage]]
 
