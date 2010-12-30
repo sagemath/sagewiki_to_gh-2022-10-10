@@ -47,9 +47,9 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
- * Sage-Enhancing a Linear Algebra Textbook (2010/12/14)
+ * Sage-Enhancing a Linear Algebra Textbook (Updated: 2010/12/29)
    * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
-   * Live Sage code for first chapter (SLE), in final 4 sections (RREF, TSS, HSE, NM)
+   * Live Sage code for two chapters (SLE, V), in Sections (RREF, TSS, HSE, NM, VO, LC, SS, LI, LDS)
    * "Read-Only" - some content is temporarily missing, Sage commands use new unofficial patches for linear algebra, some formatting needs improvements
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip front matter sections, click on actual sections to bring up content
