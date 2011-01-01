@@ -8,7 +8,7 @@ SCHEDULE: [[/schedule|The Schedule]]
 
 LOCATION: Seattle
 
-LODGING: Everybody will be staying at the "UWMC Collegiana Hospitality House" ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved 12 big rooms.  See [[attachment:collegiana_directions.pdf]] for more information about getting to the Collegiana.
+LODGING: Everybody will be staying at the "UWMC Collegiana Hospitality House" ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved 12 big rooms.  See [[attachment:collegiana_directions.pdf]] for more information about getting to the Collegiana.  This place is [[http://www.walkscore.com/score/4311-12th-Ave-NE-Seattle-Washington-98105-|a walker's paradise]].
 
 FUNDING: If you're interested in attending, there may be funding for you.   Email wstein@gmail.com.
 
