@@ -38,6 +38,7 @@ LIKELY PARTICIPANTS:
   * Alyson Deines(UW)
   * Gagan Sekhon Jan 6-14
   * Radoslav Kirov (NTU Singapore): arriving Jan 6 9:24 AM, departing January 13, 12:55 PM. Need lodging.
+  * John Thurber (EOU):  Jan 7-13, no lodging needed.
 
 Projects:
 
