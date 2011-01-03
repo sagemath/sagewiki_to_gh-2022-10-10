@@ -1,17 +1,79 @@
 = Page d'organisation des sage-days a Orsay =
 
+=== Programme ===
+
+Y'a t-il des orateurs invités ?
+
 Exemples d'organisations anterieures :
   * http://wiki.sagemath.org/days20.5/schedule  (La fiche "Exercices", a reecrire en rest : Vincent avec le script de NicolasT)
   * http://wiki.sagemath.org/days25.5/francais
 
+'''Lundi 17''' (ni le programme, ni les horaires, ni les orateurs ne sont définitivement fixés)
+  * ''09:30-10:30'' café + install party
+  * ''10:30-11:00'' introduction à Sage avec exemples (Nicolas T.)
+  * ''11:00-11:20'' premier tutoriel de prise en main (Vincent D.)
+  * pause café
+  * ''11:40-13:00'' tout ce que vous voulez savoir faire lorsque vous êtes en premier cycle universitaire (Nicolas T.)
+  * ''13:00-13:15'' présentation des participants
+  * pause repas
+  * ''14:30-15:30'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (Vincent D.)
+  * ''15:45-17:45'' séances de démo avec tutoriels disponibles (voir liste ci-dessous) (Nicolas T.)
+
+feuille à préparer dans /doc/en/reference/demos/ pour le matin
+
+  * launching Sage (Vincent D.)
+
+mini tutoriaux à faire au format Rest et à placer dans /doc/en/reference/demos/ qui fait quoi ?
+
+ * combinatoire des mots
+ * combinatoire usuelle
+ * fonctions symétriques
+ * représentation du groupe symétrique (à restifier depuis http://wiki.sagemath.org/combinat/AffineSchubertCalculusWorkshop) (Vincent D.)
+ * échanges d'intervalles (Vincent D.)
 
 == Site web et organisation ==
-  * http://wiki.sagemath.org/days28
+
+Il reste à faire
+
+  * approbation du programme du lundi
+  * programme du mardi (orienté programmation ?)
+  * relance par mail avec le programme sous réserve de changement
+  * se renseigner pour avoir des tables réservées à la cantine d'Orsay
+  * possibilité de subventions ?
+
+A notre disposition
   * formulaire https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ
   * [[attachment:inscriptions_au_21_decembre.pdf]]
   * mettre les worksheets sur le wiki (cf http://wiki.sagemath.org/days25.5/francais)
 
   * mailing list : sage-combinat-days existante
+
+Pour info il y a 25 inscrits dont 24 parisiens dont les attentes sont dans l'ordre
+
+  * apprendre à utiliser Sage 15
+  * contribuer 11
+  * découvrir Sage-combinat 9
+  * rencontrer d'autres contributeurs 1
+  * développer mes connaissances 1
+  * Découvrir d'autres parties du logiciel 1
+  * Comprendre comment l'installer sur Mac. 1
+
+et les thèmes souhaitant être approfondis 
+
+  * Utiliser les structures algébriques 16
+  * Implanter des structures algébriques 16
+  * Introduction à la combinatoire 10
+  * Introduction à Python 9
+  * Contribuer à Sage-combinat 9
+  * Contribuer à Sage 8
+  * Combinatoire des mots 8
+  * Combinatoire analytique 8
+  * Tour d'horizon (maths de première année avec Sage)  7
+  * Fonctions symétriques & co 7
+  * Lancer Sage et naviguer dans le système d'aide 6
+  * Génération aléatoire/exhaustive 6
+  * Échanges d'intervalles 5
+  * Surfaces à petit carreaux 4
 
 === Evenements connexes (en temps et themes) ===
 
@@ -30,10 +92,6 @@ Exemples d'organisations anterieures :
     * demandé à Matheus de faire circuler au LAGA (Villetaneuse) + collège de France
   * reste à faire: lri, Cergy, Lip6, Jussieu, communauté
 
-=== Programme ===
-  * orateurs invites???
-  * voir les attentes via formulaire
-  * install party : la commencer lors du cafe de bienvenue pour etaler les arrivees et eviter les bouchons?
 
 == Technique ==
 
