@@ -1,4 +1,4 @@
-= SAGE for Matlab Users =
+= Sage for Matlab Users =
 
 For starters, please see http://www.scipy.org/NumPy_for_Matlab_Users which discusses Numpy/Scipy for Matlab users.  Note that both Numpy and Scipy are included in SAGE. This resource will answer many of your questions, but probably not all.
 
@@ -22,4 +22,4 @@ We're going to reinstall two packages automatically in sage. At any stage in the
 
 Now, if you start "sage -ipython -pylab" and try {{{x=randn(1000); hist(x)}}}, a beautiful Tk plot should pop up. You have your standard zoom and pan. You can run {{{xlabel('signal (mV)')}}} and the window will automatically update.
 
-Some notes comparing matplotlib to Matlab graphics. In many aspects, matplotlib is far more advanced that Matlab, thanks to open source. However, matplotlib's 3d visualization significantly lags Matlab. All is not lost: Sage ships with numerous 3d (and 2d) plotting tools which you may find a good complement to matplotlib. See  http://www.sagemath.org/doc/reference/plot3d.html for more details.
+Some notes comparing matplotlib to Matlab graphics. In many aspects, matplotlib is far more advanced that Matlab, thanks to open source. However, matplotlib's 3D visualization significantly lags behind Matlab. All is not lost, however: Sage ships with numerous 3D (and 2D) plotting tools which you may find a good complement to matplotlib. See  http://www.sagemath.org/doc/reference/plot3d.html for more details.
