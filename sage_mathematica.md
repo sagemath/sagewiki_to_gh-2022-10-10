@@ -17,7 +17,7 @@ This is not a proper introduction to Python, but a list of examples that Mathema
 
 == Basic functionality ==
 === Declaring variables ===
-Mathematica assumes that all otherwise unknown symbols are algebraic quantities.  Python and Sage don't, they are declared as follows:
+Mathematica assumes that all otherwise unknown symbols are algebraic quantities.  Python and Sage don't; they are declared as follows:
 
 {{{
 sage: var('x,y,a,b,c')
