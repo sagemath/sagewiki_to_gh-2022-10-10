@@ -27,3 +27,6 @@
 == German ==
 
  * '''Sage Referenzkarte''' by Michael Mardaus (August 2010) - [[attachment:quickref_de.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref_de.pdf|download]] (and the source [[attachment:quickref_de.tex]])
+
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
