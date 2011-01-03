@@ -38,3 +38,6 @@ If you are using another debian (Knoppix...) and you have a debian sagemath vers
    * type: '''/usr/local/sage-X.Y.Z/sage --notebook''' Tip: You can use the TAB key here as well
    * type an admin password if you want
    * the firefox with the sagemath should open now
+
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
