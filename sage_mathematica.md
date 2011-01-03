@@ -1,4 +1,4 @@
-= SAGE for Mathematica Users =
+= Sage for Mathematica Users =
 This page is modeled on the http://www.scipy.org/NumPy_for_Matlab_Users
 
 == Introduction ==
@@ -26,11 +26,32 @@ sage: y == a*x^2 + b*x + c
 y == a*x^2 + b*x + c
 }}}
 
-=== Space as multiplication ===
+It is also possible to declare with spaces between variables:
+
 {{{
+sage: var('x y a b c')
+(x, y, a, b, c)
+sage: y == a*x^2 + b*x + c
+y == a*x^2 + b*x + c
+}}}
+
+=== Implicit multiplication ===
+{{{
+sage: var('x,y,a,b,c')
+(x, y, a, b, c)
 sage: implicit_multiplication(True)
 sage: y == a x^2 + b x + c
 y == a*x^2 + b*x + c
+}}}
+
+Note that a space need not be used when there is a numerical coefficient for a variable:
+
+{{{
+sage: var('x,y')
+(x, y)
+sage: implicit_multiplication(True)
+sage: y == 3x
+y == 3*x
 }}}
 
 == Procedural programming ==
