@@ -32,3 +32,5 @@ In any case, we see from this table that there are a lot of  open source compute
 
  * [[Maxima_as_an_OSCAS]]
  * [[Axiom_as_an_OSCAS]]
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
