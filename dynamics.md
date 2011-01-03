@@ -51,3 +51,6 @@ We plan to create a *dynamics* repository at the root of Sage subdivided accordi
 == Subprojects ==
 
   * a project for flat surfaces [[dynamics/FlatSurfaces]]
+
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
