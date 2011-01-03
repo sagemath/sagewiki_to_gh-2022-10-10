@@ -4,7 +4,6 @@ This page compares the functionality in SAGE 2.8.10 (November 2007) with that of
 == Sage functions ==
 This table lists the functions available in SAGE and the equivalent Combinatorica functions.  It also has some notes about the implementation and suggestions on how to make SAGE better.
 
-Note that this is outdated, and many of the features listed here are already implemented.
 ||'''SAGE Class   ''' ||'''      SAGE function    ''' ||'''      Combinatorica   ''' ||'''      Combinatorica Notes     ''' ||'''      SAGE notes      ''' ||
 ||      !GenericGraph || || || || ||
 || ||      add_vertex ||      !AddVertex ||      Can specify coordinates for new vertices || ||
@@ -256,6 +255,8 @@ Note that this is outdated, and many of the features listed here are already imp
 
 == Combinatorica functions not in SAGE ==
 These functions are implemented in Combinatorica, but not in SAGE.  Feel free to implement them!
+
+Note that this is outdated, and many of the features listed here are already implemented.
 
  * [[http://reference.wolfram.com/mathematica/Combinatorica/ref/AlternatingPaths.html|AlternatingPaths]][g, start, ME] returns the alternating paths in graph g with respect to the matching ME, starting at the vertices in the list start. The paths are returned in the form of a forest containing trees rooted at vertices in start.
  * [[http://reference.wolfram.com/mathematica/Combinatorica/ref/AnimateGraph.html|AnimateGraph]][g, l] displays graph g with each element in the list l successively highlighted. Here l is a list containing vertices and edges of g. An optional flag, which takes on the values All and One, can be used to inform the function about whether objects highlighted earlier will continue to be highlighted or not. The default value of flag is All. All the options allowed by the function Highlight are permitted by [[http://reference.wolfram.com/mathematica/Combinatorica/ref/AnimateGraph.html|AnimateGraph]], as well. See the usage message of Highlight for more details.
