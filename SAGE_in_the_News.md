@@ -188,3 +188,6 @@ is perceived in the outside world.
 
   *  Georg Muntingh's review of Sage
     http://georgm.blogspot.com/2007/03/sage-computer-algebra-system.html
+
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
