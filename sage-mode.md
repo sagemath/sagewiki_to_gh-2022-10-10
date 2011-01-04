@@ -47,7 +47,7 @@ Boston, MA 02110-1301, USA.
 
 Use {{{sage -f sage-mode-0.6.spkg}}}.  The following installation instructions are suggested:
 
-A basic install might include the following Emacs Lisp in your .emacs:
+A basic install might include the following Emacs Lisp in your .emacs (please note that you have to change `$SAGE_DATA` and `$SAGE_ROOT` for the real paths):
 
 {{{
 (add-to-list 'load-path (expand-file-name "$SAGE_DATA/emacs"))
