@@ -35,10 +35,11 @@ LIKELY PARTICIPANTS:
   * John Palmieri (UW)
   * Sebastian Pancratz (Oxford): Jan 6 - Jan 14.
   * Dmitrii Pasechnik (NTU, Singapore), Jan 10, 11:55am arrival, Jan 13, 5:30pm departure, prefer single room
-  * Alyson Deines(UW)
+  * Alyson Deines (UW)
   * Gagan Sekhon Jan 6-14
   * Radoslav Kirov (NTU Singapore): arriving Jan 6 9:24 AM, departing January 13, 12:55 PM. Need lodging.
   * John Thurber (EOU):  Jan 7-13, no lodging needed.
+  * Simon Spicer (UW): Jan 7-13 intermittently. Local yokel; no lodging needed.
 
 Projects:
 
