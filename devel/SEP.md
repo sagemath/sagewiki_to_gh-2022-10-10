@@ -24,3 +24,9 @@ A SEP is a '''S'''age '''E'''nhancement '''P'''roposal.
  * [[UnifiedCommandLineSEP|Unified Command Line Interface]] - early discussion phase
 
  * [[DesignTheorySEP|Design Theory]] - early discussion phase
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
+ * [[http://fxnewstrading.net|FX News Trading]]
+ * [[http://fxnewstrading.net|Forex News Trading]] 
+ * [[http://1500cashadvance.org|1500 cash advance]]
+ * [[http://1000loanpayday.org|1000 loan payday]]
