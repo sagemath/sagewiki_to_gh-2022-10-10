@@ -193,3 +193,5 @@ is perceived in the outside world.
  * [[http://carrentalbirmingham.org|car rental birmingham]]
  * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
  * [[http://carrentalbirmingham.org|car rental birmingham]]
+ * [[http://1500cashadvance.org|1500 cash advance]]
+ * [[http://1000loanpayday.org|1000 loan payday]]
