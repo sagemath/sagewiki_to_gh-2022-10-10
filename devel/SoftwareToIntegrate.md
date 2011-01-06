@@ -1,3 +1,4 @@
+## page was renamed from Software
 == Ideas for Software to Integrate with Sage ==
 This is a list of programs and packages for mathematics that might possibly be included with or at least have an interface with Sage someday.
 
@@ -16,3 +17,9 @@ This is a list of programs and packages for mathematics that might possibly be i
   * They build everything around [[http://www.texmacs.org/|texmacs]], which is a "beautiful" yet aggravating program.
   * They use C++ *very* very heavily.
   * They write their own new custom interpreter language for mathematics (though they describe it as general purpose, and strongly emphasize it shouldn't be for just math).
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
+ * [[http://fxnewstrading.net|FX News Trading]]
+ * [[http://fxnewstrading.net|Forex News Trading]] 
+ * [[http://1500cashadvance.org|1500 cash advance]]
+ * [[http://1000loanpayday.org|1000 loan payday]]
