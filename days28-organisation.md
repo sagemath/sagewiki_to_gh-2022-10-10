@@ -15,7 +15,8 @@ Exemples d'organisations anterieures :
   * ''11:30-13:00'' Repas au restaurant du personnel d'Orsay (CESFO), présentation des participants
 
   * ''13:00-13:20'' tutoriel: prise en main de Sage (Vincent D.)
-  * ''13:30-15:00'' tutoriel: tout ce que vous voulez savoir faire lorsque vous êtes en premier cycle universitaire (Nicolas T.)
+  * ''13:20-14:45'' tutoriel: tout ce que vous voulez savoir faire lorsque vous êtes en premier cycle universitaire (Nicolas T.)
+  * ''14:45-15:00'' pause café
   * ''15:00-16:00'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (Vincent D.)
   * ''16:15-18:00'' démos et tutoriels (voir liste ci-dessous) (Nicolas T., ...)
 
