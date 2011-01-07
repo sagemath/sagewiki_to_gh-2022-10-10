@@ -49,3 +49,8 @@ REGISTERED PARTICIPANTS (as of 21/12/2010):
   * Yann Ponty (Polytechnique/CNRS)
   * Laurent Siebenmann (Equipe Geo-TopoDyn)
   * Nadia El Mrabet (LIASD - Université Paris 8)
+  * Georg Regensburger (INRIA Saclay)
+  * Sébastien Labbé (LaCIM (Montréal) et LIAFA)
+  * Dominique Poulalhon (CNRS / LIX)
+  * Johan Oudinet (KIT (Karlsruhe))
+  * Cyril Nicaud (Université Paris-Est)
