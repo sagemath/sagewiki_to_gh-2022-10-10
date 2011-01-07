@@ -2,6 +2,12 @@
 
 This Sage days will be a bug fix Sage Days, devoted to fixing large numbers of bugs in Sage. 
 
+CAMPUS WIFI:
+{{{
+UW NetID: 	event0077
+Password: 	d3g2/g5h5/p5w3
+}}}
+
 DATES: January 7 - 13, 2011.  (We will start working on Jan 7, so if you are buying tickets, feel free to arrive Jan 6.  Of course, Bug Days are flexible.)   
 
 SCHEDULE: [[/schedule|The Schedule]] 
