@@ -78,7 +78,8 @@ et les thèmes souhaitant être approfondis
 === Evenements connexes (en temps et themes) ===
 
   * [[http://www.math.ens.fr/metric2011/jan_workshop.html|Metric embeddings, algorithms  and hardness of approximation (IHP), January 17-21]]
-  * journées d'informatique mathématiques du GDR IM 20 et 21 Janvier (Jussieu) http://www.gdr-im.fr/
+  * Journées d'informatique mathématiques du GDR IM les  jeudi 20 et vendredi 21 janvier 2011 (Jussieu)
+  [[http://www.gdr-im.fr/|gdr-im]] | [[http://www.gdr-im.fr/?q=node/92|journées]] | [[http://www.gdr-im.fr/?q=system/files/ProgrammeJournees2011.pdf|programme (pdf)]]
 
 === Pub ===
   * envoi d'un mail avec lien vers
