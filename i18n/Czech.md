@@ -8,10 +8,7 @@ Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]].
  * [[attachment:Obrazovka-1.png]]
 
 == Postup ==
- * Nainstalujte spkg [[http://user.mendelu.cz/marik/sage/sagenb-0.8.2-dev-i18n.spkg | odsud]] nebo [[http://trac.sagemath.org/sage_trac/ticket/9428 | odsud]]
- * Vedle adresáře pt_BR vytvořte cs_CZ/LC_MESSAGES/
- * Nakopírujte soubor sagenb.po do cs_CZ/LC_MESSAGES/sagenb.po
- * Spustte tento příkaz: msgfmt sagenb.po -o sagenb.mo
+ * Nainstalujte spkg [[http://user.mendelu.cz/marik/sage/sagenb-0.8.2-dev-i18n.spkg | odsud]]
 
 == Zdroje informací ==
 
