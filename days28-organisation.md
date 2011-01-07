@@ -10,14 +10,14 @@ Exemples d'organisations anterieures :
 
 '''Lundi 17''' (ni le programme, ni les horaires, ni les orateurs ne sont définitivement fixés)
   * ''09:30-10:30'' café + install party
-  * ''10:30-11:00'' introduction à Sage avec exemples (Nicolas T.)
-  * ''11:00-11:20'' premier tutoriel de prise en main (Vincent D.)
-  * pause café
-  * ''11:40-13:00'' tout ce que vous voulez savoir faire lorsque vous êtes en premier cycle universitaire (Nicolas T.)
-  * ''13:00-13:15'' présentation des participants
-  * pause repas
-  * ''14:30-15:30'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (Vincent D.)
-  * ''15:45-17:45'' séances de démo avec tutoriels disponibles (voir liste ci-dessous) (Nicolas T.)
+  * ''10:30-11:20'' introduction à Sage avec exemples (Nicolas T.)
+
+  * ''11:30-13:00'' Repas au restaurant du personnel d'Orsay (CESFO), présentation des participants
+
+  * ''13:00-13:20'' tutoriel: prise en main de Sage (Vincent D.)
+  * ''13:30-15:00'' tutoriel: tout ce que vous voulez savoir faire lorsque vous êtes en premier cycle universitaire (Nicolas T.)
+  * ''15:00-16:00'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (Vincent D.)
+  * ''16:15-18:00'' démos et tutoriels (voir liste ci-dessous) (Nicolas T., ...)
 
 feuille à préparer dans /doc/en/reference/demos/ pour le matin
 
