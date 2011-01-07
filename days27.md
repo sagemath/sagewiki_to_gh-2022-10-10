@@ -50,3 +50,4 @@ LIKELY PARTICIPANTS:
 Projects:
 
   * [[Notebook scalability]]
+  * [[/bugs|High priority bugs]]
