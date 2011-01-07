@@ -32,6 +32,11 @@ mini tutoriaux à faire au format Rest et à placer dans /doc/en/reference/demos
  * représentation du groupe symétrique (à restifier depuis http://wiki.sagemath.org/combinat/AffineSchubertCalculusWorkshop) (Vincent D.)
  * échanges d'intervalles (Vincent D.)
 
+'''Mardi 18'''
+  * ''9h30-10h30'' tutoriel: programmation Python/Sage
+  * ''10h30-11h30'' tutoriel: contribuer à Sage
+  * ''11:30-13:00'' Repas au restaurant du personnel d'Orsay (CESFO)
+
 == Site web et organisation ==
 
 Il reste à faire
