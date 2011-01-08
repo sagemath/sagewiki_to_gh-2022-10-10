@@ -42,7 +42,7 @@ Le programme de cette journée sera fixé le lundi, avec les participants. Thèm
 
   * tutoriel: contribuer à Sage-Combinat
   * discussions: combinatoire analytique, génération aléatoire/exhaustive
-  * démo: [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]]: complexes simpliciaux en GAP?
+  * discussion et démo:  intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)
 
 RELATED EVENTS:
 
