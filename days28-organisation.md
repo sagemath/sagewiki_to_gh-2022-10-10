@@ -33,9 +33,17 @@ mini tutoriaux à faire au format Rest et à placer dans /doc/en/reference/demos
  * échanges d'intervalles (Vincent D.)
 
 '''Mardi 18'''
-  * ''9h30-10h30'' tutoriel: programmation Python/Sage
+  * ''9h30-10h30''  tutoriel: programmation Python/Sage
   * ''10h30-11h30'' tutoriel: contribuer à Sage
-  * ''11:30-13:00'' Repas au restaurant du personnel d'Orsay (CESFO)
+  * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
+  * ''13:00-14:00'' tutoriel: utiliser des structures algébriques (espaces vectoriels, ...)
+  * ''14:00-15:00'' tutoriel: implanter ses propres structures algébriques
+  * ''15:00-16:00'' tutoriel: échange d'intervalles
+  * ''16:00-17:00'' tutoriel: surfaces à petit carreaux
+
+'''Mercredi 19'''
+  * tutoriel: contribuer à Sage-Combinat
+  * discussions: génération aléatoire/exhaustive
 
 == Site web et organisation ==
 
