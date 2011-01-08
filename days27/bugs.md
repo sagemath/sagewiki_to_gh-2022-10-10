@@ -2,6 +2,10 @@
 
 For [[days27|Sage Days 27]].
 
+ * [[http://trac.sagemath.org/sage_trac/ticket/10494|#10494]]
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/9523|#9523]] Upgrade the Readline spkg to 6.1
+
  * [[http://trac.sagemath.org/sage_trac/ticket/9363|#9363]] load bug when last line of file begins with #
 
  * [[http://trac.sagemath.org/sage_trac/ticket/9379|#9379]] ia64-Linux binary fails "devel/sage/sage/plot/plot3d/tachyon.py"
