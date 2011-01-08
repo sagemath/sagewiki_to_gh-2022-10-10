@@ -8,23 +8,21 @@ Exemples d'organisations anterieures :
   * http://wiki.sagemath.org/days20.5/schedule  (La fiche "Exercices", a reecrire en rest : Vincent avec le script de NicolasT)
   * http://wiki.sagemath.org/days25.5/francais
 
-'''Lundi 17''' (ni le programme, ni les horaires, ni les orateurs ne sont définitivement fixés)
-  * ''09:30-10:30'' café + install party
-  * ''10:30-11:20'' introduction à Sage avec démo (Nicolas T.)
+== Site web et organisation ==
 
-  * ''11:30-13:00'' Repas au restaurant du personnel d'Orsay (CESFO), présentation des participants
+Il reste à faire:
 
-  * ''13:00-13:20'' tutoriel: prise en main de Sage (Vincent D.)
-  * ''13:20-14:45'' tutoriel: mathématiques de premier cycle avec Sage (Nicolas T.)
-  * ''14:45-15:00'' pause café
-  * ''15:00-16:00'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (Vincent D.)
-  * ''16:15-18:00'' démos et tutoriels (voir liste ci-dessous) (Nicolas T., ...)
+  * relance par mail avec le programme sous réserve de changement
+  * se renseigner pour avoir des tables réservées à la cantine d'Orsay
+  * possibilité de subventions ?
 
-feuille à préparer dans /doc/en/reference/demos/ pour le matin
+Tutoriaux pour le lundi:
 
-  * launching Sage (Vincent D.)
+Feuilles à préparer / convertir au format ReST et placer dans /doc/en/reference/demos/
 
-mini tutoriaux à faire au format Rest et à placer dans /doc/en/reference/demos/ qui fait quoi ?
+ * launching Sage (Vincent D.)
+
+Qui fait quoi ?
 
  * combinatoire des mots
  * combinatoire usuelle
@@ -32,33 +30,6 @@ mini tutoriaux à faire au format Rest et à placer dans /doc/en/reference/demos
  * représentation du groupe symétrique (à restifier depuis http://wiki.sagemath.org/combinat/AffineSchubertCalculusWorkshop) (Vincent D.)
  * échanges d'intervalles (Vincent D.)
 
-'''Mardi 18'''
-  * ''9h30-10h30''  tutoriel: programmation Python/Sage
-  * ''10h30-10h50'' tutoriel: signaler un bogue, suggérer une amélioration
-  * ''10h50-11h30'' tutoriel: contribuer à Sage
-  * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
-  * ''13:00-14:00'' tutoriel: utiliser des structures algébriques (espaces vectoriels, ...)
-  * ''14:00-15:00'' tutoriel: implanter ses propres structures algébriques
-  * ''15:00-16:00'' tutoriel: échange d'intervalles
-  * ''16:00-17:00'' tutoriel: surfaces à petit carreaux
-
-'''Mercredi 19'''
-
-Le programme de cette journée sera fixé le lundi, avec les participants. Thèmes:
-
-  * tutoriel: contribuer à Sage-Combinat
-  * discussions: génération aléatoire/exhaustive
-  * ...
-
-== Site web et organisation ==
-
-Il reste à faire
-
-  * approbation du programme du lundi
-  * programme du mardi (orienté programmation ?)
-  * relance par mail avec le programme sous réserve de changement
-  * se renseigner pour avoir des tables réservées à la cantine d'Orsay
-  * possibilité de subventions ?
 
 A notre disposition
   * formulaire https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ
