@@ -11,7 +11,8 @@ LOCATION: Orsay, France
 
 RELATED EVENTS:
 
- * 20-21 January 2011: Journées du GDR Informatique et mathématiques, Jussieu, Paris, France.
+ * 18 January 2011, 16h, Orsay: [[http://www.math.u-psud.fr/~geo/sem/archives.php| Séminaire d'Éric Vasserot: Representations des algebres de Hecke affines de type classique et categorification]]
+ * 20-21 January 2011, Jussieu, Paris: [[http://www.gdr-im.fr/?q=node/92|Journées du GDR Informatique et mathématiques]]
 
 REGISTRATION:
 
