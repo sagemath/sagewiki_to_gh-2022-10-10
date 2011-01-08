@@ -36,6 +36,7 @@ REGISTERED PARTICIPANTS (as of 21/12/2010):
   * Alain Giorgetti (Université de Franche-Comté)
   * Samuele Giraudo (Université de Marne-la-Vallée Paris-Est)
   * Olivier Guichard (Paris-Sud)
+  * Florent Hivert (Université de Rouen)
   * Sébastien Labbé (LaCIM (Montréal) et LIAFA)
   * Samuel Lelièvre (Orsay)
   * Julien Leroy (Université de Picardie Jules Verne)
