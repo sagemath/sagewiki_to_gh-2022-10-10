@@ -17,7 +17,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * January 17-19, 2011: [[http://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
 
  * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
-   A 315 pages free french introductory book on computational mathematics, illustrated in Sage, and, including 35 pages on combinatorics
+   A 315 pages free french introductory book on computational mathematics, illustrated in Sage, and including a 35 pages chapter on combinatorics (and soon one on graph theory).
 
  * July 7-15, 2010: [[http:/combinat/AffineSchubertCalculusWorkshop|Affine Schubert Calculus workshop and summer school in Toronto]]
    It includes several Sage and Sage-Combinat sessions
