@@ -9,7 +9,9 @@ DATES: 17-19 January 2011. Some people will stay for the whole week (Jan 17 - 21
 
 LOCATION: Orsay, France
 
-PRELIMINARY PROGRAM
+LANGUAGE: French or English depending on the participants
+
+PRELIMINARY PROGRAM:
 
 '''Lundi 17'''
 
@@ -41,7 +43,6 @@ Le programme de cette journée sera fixé le lundi, avec les participants. Thèm
   * tutoriel: contribuer à Sage-Combinat
   * discussions: génération aléatoire/exhaustive
   * ...
-
 
 RELATED EVENTS:
 
@@ -88,5 +89,5 @@ REGISTERED PARTICIPANTS (as of 21/12/2010):
   * Jonathan Spreer (University of Stuttgart)
   * Wolfgang Steiner (LIAFA, CNRS)
   * Jean-Yves Thibon (Université Paris-Est)
-  * Nicolas Thiéry (Orsay)
+  * Nicolas M. Thiéry (Orsay)
   * Sophie Toulouse (LIPN - Université Paris 13)
