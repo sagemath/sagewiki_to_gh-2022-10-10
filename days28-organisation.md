@@ -43,8 +43,12 @@ mini tutoriaux à faire au format Rest et à placer dans /doc/en/reference/demos
   * ''16:00-17:00'' tutoriel: surfaces à petit carreaux
 
 '''Mercredi 19'''
+
+Le programme de cette journée sera fixé le lundi, avec les participants. Thèmes:
+
   * tutoriel: contribuer à Sage-Combinat
   * discussions: génération aléatoire/exhaustive
+  * ...
 
 == Site web et organisation ==
 
