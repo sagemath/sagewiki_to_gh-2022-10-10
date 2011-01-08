@@ -2,6 +2,13 @@
 
 This Sage days will be a bug fix Sage Days, devoted to fixing large numbers of bugs in Sage. 
 
+PROJECTS:
+
+  * [[Notebook scalability]]
+  * [[/bugs|High priority bugs]]
+  * Interrupt handling -- see e.g. [[http://trac.sagemath.org/sage_trac/ticket/9678|trac 9678]].
+
+
 CAMPUS WIFI:
 {{{
 UW NetID: 	event0077
@@ -46,8 +53,3 @@ LIKELY PARTICIPANTS:
   * Radoslav Kirov (NTU Singapore): arriving Jan 6 9:24 AM, departing January 13, 12:55 PM. Need lodging.
   * John Thurber (EOU):  Jan 7-13, no lodging needed.
   * Simon Spicer (UW): Jan 7-13 intermittently. Local yokel; no lodging needed.
-
-Projects:
-
-  * [[Notebook scalability]]
-  * [[/bugs|High priority bugs]]
