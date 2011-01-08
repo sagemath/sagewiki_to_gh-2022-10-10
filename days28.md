@@ -9,7 +9,7 @@ DATES: 17-19 January 2011. Some people will stay for the whole week (Jan 17 - 21
 
 LOCATION: Orsay, France
 
-PROGRAMME PRÉLIMINAIRE
+PRELIMINARY PROGRAM
 
 '''Lundi 17'''
 
