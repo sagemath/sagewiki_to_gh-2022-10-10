@@ -15,19 +15,22 @@ PRELIMINARY PROGRAM:
   * ''09:30-10:30'' café + install party
   * ''10:30-11:20'' introduction à Sage avec démo (Nicolas T.)
 
-  * ''11:30-13:00'' Repas au restaurant du personnel d'Orsay (CESFO), présentation des participants
+  * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO), présentation des participants
 
   * ''13:00-13:20'' tutoriel: prise en main de Sage (Vincent D.)
   * ''13:20-14:45'' tutoriel: mathématiques de premier cycle avec Sage (Nicolas T.)
   * ''14:45-15:00'' pause café
   * ''15:00-16:00'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (Vincent D.)
-  * ''16:15-18:00'' démos et tutoriels (voir liste ci-dessous) (Nicolas T., ...)
+  * ''16:00-18:00'' démos et tutoriels autour de la combinatoire
 
 '''Mardi 18'''
+
   * ''9h30-10h30''  tutoriel: programmation Python/Sage
   * ''10h30-10h50'' tutoriel: signaler un bogue, suggérer une amélioration
   * ''10h50-11h30'' tutoriel: contribuer à Sage
+
   * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
+
   * ''13:00-14:00'' tutoriel: utiliser des structures algébriques (espaces vectoriels, ...)
   * ''14:00-15:00'' tutoriel: implanter ses propres structures algébriques
   * ''15:00-16:00'' tutoriel: échange d'intervalles
@@ -38,8 +41,8 @@ PRELIMINARY PROGRAM:
 Le programme de cette journée sera fixé le lundi, avec les participants. Thèmes:
 
   * tutoriel: contribuer à Sage-Combinat
-  * discussions: génération aléatoire/exhaustive
-  * ...
+  * discussions: combinatoire analytique, génération aléatoire/exhaustive
+  * démo: [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]]: complexes simpliciaux en GAP?
 
 RELATED EVENTS:
 
