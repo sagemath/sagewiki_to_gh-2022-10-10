@@ -2,7 +2,7 @@
 
 For [[days27|Sage Days 27]].
 
- * (new -- needs review) [[http://trac.sagemath.org/sage_trac/ticket/10573|10573]] 1-line notebook patch
+ * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10573|10573]] 1-line notebook patch
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/8251|#8251]] Jones database pickle thingy
 
