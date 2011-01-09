@@ -8,7 +8,7 @@ For [[days27|Sage Days 27]].
 
  * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/9363|#9363]] load bug when last line of file begins with #
 
- * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/9379|#9379]] ia64-Linux binary fails "devel/sage/sage/plot/plot3d/tachyon.py"
+ * (needs_info) [[http://trac.sagemath.org/sage_trac/ticket/9379|#9379]] ia64-Linux binary fails "devel/sage/sage/plot/plot3d/tachyon.py"
 
  * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/9382|#9382]] atlas not respecting SAGE_FAT_BINARY on i686 systems
 
