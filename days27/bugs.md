@@ -33,4 +33,4 @@ For [[days27|Sage Days 27]].
 == Not really a bug ==
 
 
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/5945|#5945]] flint for factoring
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/5945|#5945]] flint for faster factoring
