@@ -12,7 +12,7 @@ For [[days27|Sage Days 27]].
 
  * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/9382|#9382]] atlas not respecting SAGE_FAT_BINARY on i686 systems
 
- * (closed) [[http://trac.sagemath.org/sage_trac/ticket/9842|#9842]] groebner basis bug
+ * (closed as worksforme) [[http://trac.sagemath.org/sage_trac/ticket/9842|#9842]] groebner basis bug
 
  * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10173|#10173]] asking if polynomial element in list gives error
 
