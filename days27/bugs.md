@@ -18,6 +18,6 @@ For [[days27|Sage Days 27]].
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/10550|#10550]] integration not working
 
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/10557|#10557]] local/bin/gphelp has hardcoded path that is not reset when sage is moved
+ * (needs_review to close as invalid) [[http://trac.sagemath.org/sage_trac/ticket/10557|#10557]] local/bin/gphelp has hardcoded path that is not reset when sage is moved
 
- * (needs_info) [[http://trac.sagemath.org/sage_trac/ticket/10559|#10559]] path to perl hardcoded in gphelp (GP/PARI)
+ * (needs_work) [[http://trac.sagemath.org/sage_trac/ticket/10559|#10559]] path to perl hardcoded in gphelp (GP/PARI)
