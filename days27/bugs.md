@@ -14,7 +14,7 @@ For [[days27|Sage Days 27]].
 
  * (closed) [[http://trac.sagemath.org/sage_trac/ticket/9842|#9842]] groebner basis bug
 
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/10173|#10173]] asking if polynomial element in list gives error
+ * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10173|#10173]] asking if polynomial element in list gives error
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/10550|#10550]] integration not working
 
