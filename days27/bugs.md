@@ -16,6 +16,10 @@ For [[days27|Sage Days 27]].
 
  * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10173|#10173]] asking if polynomial element in list gives error
 
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/10575|#10575]] conversion of x*x.
+
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/10576|#10576]] polybori conversions
+
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/10550|#10550]] integration not working
 
  * (needs_review to close as invalid) [[http://trac.sagemath.org/sage_trac/ticket/10557|#10557]] local/bin/gphelp has hardcoded path that is not reset when sage is moved
