@@ -30,6 +30,8 @@ For [[days27|Sage Days 27]].
 
  * (needs_work) [[http://trac.sagemath.org/sage_trac/ticket/10559|#10559]] path to perl hardcoded in gphelp (GP/PARI)
 
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/9678|#9678]] massive improvements to bugs caused by signal handling issues.
+
 == Not really a bug ==
 
 
