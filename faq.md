@@ -415,7 +415,3 @@ limit maxproc 512 2048
  * ANSWER: networking issues, firewall blocking, proxy setting screwed up
  * Individual FAQ entries should be referable by a URL, possibly http://wiki.sagemath.org/faq?someid=something
  * You can do that with page anchors: http://wiki.sagemath.org/faq?#something. Moin``Moin [[http://moinmo.in/HelpOnLinking|can insert page anchors]] but it doesn't seem like that facility is turned on for this installation. If we could get that enabled, we could insert anchors for all the questions on this page.
-
- * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
- * [[http://carrentalbirmingham.org|car rental birmingham]]
- * [[http://tonnsofteens.com]]
