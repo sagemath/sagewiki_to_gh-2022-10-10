@@ -33,7 +33,7 @@ Qui fait quoi ?
 
 A notre disposition
   * formulaire https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ
-  * [[attachment:inscriptions_au_21_decembre.pdf]]
+  * [[attachment:inscriptions_2011_01_07.csv|les inscriptions au 7 Janvier]]
   * mettre les worksheets sur le wiki (cf http://wiki.sagemath.org/days25.5/francais)
 
   * mailing list : sage-combinat-days existante
