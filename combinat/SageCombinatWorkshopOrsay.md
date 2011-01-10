@@ -4,7 +4,7 @@ January 26-30 of 2009
 
 Purpose: work on the foundations and get former MuPAD-Combinat developers on board. See below for details.
 
-Sponsored by: {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}}
+Sponsored by the Laboratoire de Mathématiques d'Orsay: {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}}
 
 == Accomodation ==
 
