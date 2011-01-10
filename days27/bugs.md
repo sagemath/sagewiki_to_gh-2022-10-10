@@ -8,11 +8,11 @@ For [[days27|Sage Days 27]].
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/10572|#10572]] GCC binutils wrapper
 
- * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10494|#10494]] Upgrading 4.6->4.6.1 does not upgrade sagenb
+ * (closed) [[http://trac.sagemath.org/sage_trac/ticket/10494|#10494]] Upgrading 4.6->4.6.1 does not upgrade sagenb
 
- * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10580|#10580]] Bump maximum number of occurances of the word "tree" in sage/misc/sagedoc.py
+ * (closed) [[http://trac.sagemath.org/sage_trac/ticket/10580|#10580]] Bump maximum number of occurances of the word "tree" in sage/misc/sagedoc.py
 
- * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/9523|#9523]] Upgrade the Readline spkg to 6.1
+ * (closed) [[http://trac.sagemath.org/sage_trac/ticket/9523|#9523]] Upgrade the Readline spkg to 6.1
 
  * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/9363|#9363]] load bug when last line of file begins with #
 
@@ -37,6 +37,5 @@ For [[days27|Sage Days 27]].
  * (needs_work) [[http://trac.sagemath.org/sage_trac/ticket/9678|#9678]] Rewrite interrupt handling
 
 == Not really a bug ==
-
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/5945|#5945]] flint for faster factoring
