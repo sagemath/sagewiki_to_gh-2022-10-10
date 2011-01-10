@@ -30,10 +30,10 @@ PRELIMINARY PROGRAM:
   * ''14:45-15:00'' pause café
   * ''15:00-16:00'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (Vincent D.)
   * ''16:00-18:00'' démos et tutoriels autour de la combinatoire:
-     - combinatoire usuelle (FlorentHivert, NicolasThiéry)
-     - combinatoire des mots (Sébastien Labbé)
-     - fonctions symétriques (FlorentHivert? NicolasThiéry? ...?)
-     - représentation du groupe symétrique: (Vincent Delecroix)
+    * combinatoire usuelle (FlorentHivert, NicolasThiéry)
+    * combinatoire des mots (Sébastien Labbé)
+    * fonctions symétriques (FlorentHivert? NicolasThiéry? ...?)
+    * représentation du groupe symétrique: (Vincent Delecroix)
 
 '''Mardi 18'''
 
