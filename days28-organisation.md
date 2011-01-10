@@ -38,33 +38,6 @@ A notre disposition
 
   * mailing list : sage-combinat-days existante
 
-Pour info il y a 25 inscrits dont 24 parisiens dont les attentes sont dans l'ordre
-
-  * apprendre à utiliser Sage 15
-  * contribuer 11
-  * découvrir Sage-combinat 9
-  * rencontrer d'autres contributeurs 1
-  * développer mes connaissances 1
-  * Découvrir d'autres parties du logiciel 1
-  * Comprendre comment l'installer sur Mac. 1
-
-et les thèmes souhaitant être approfondis 
-
-  * Utiliser les structures algébriques 16
-  * Implanter des structures algébriques 16
-  * Introduction à la combinatoire 10
-  * Introduction à Python 9
-  * Contribuer à Sage-combinat 9
-  * Contribuer à Sage 8
-  * Combinatoire des mots 8
-  * Combinatoire analytique 8
-  * Tour d'horizon (maths de première année avec Sage)  7
-  * Fonctions symétriques & co 7
-  * Lancer Sage et naviguer dans le système d'aide 6
-  * Génération aléatoire/exhaustive 6
-  * Échanges d'intervalles 5
-  * Surfaces à petit carreaux 4
-
 === Evenements connexes (en temps et themes) ===
 
   * [[http://www.math.ens.fr/metric2011/jan_workshop.html|Metric embeddings, algorithms  and hardness of approximation (IHP), January 17-21]]
