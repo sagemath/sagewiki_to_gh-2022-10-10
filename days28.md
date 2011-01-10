@@ -91,7 +91,7 @@ REGISTERED PARTICIPANTS (as of 21/12/2010):
   * Samuel Lelièvre (Orsay)
   * Julien Leroy (Université de Picardie Jules Verne)
   * Paul Mercat (Orsay)
-  * Thierry Monteil (LIRMM, Montpellier)
+  * ThierryMonteil (LIRMM, Montpellier)
   * Cyril Nicaud (Université Paris-Est)
   * Johan Oudinet (KIT (Karlsruhe))
   * Viviane Pons (LIGM)
