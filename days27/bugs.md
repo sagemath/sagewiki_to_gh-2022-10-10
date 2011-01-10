@@ -8,7 +8,7 @@ For [[days27|Sage Days 27]].
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/10572|#10572]] GCC binutils wrapper
 
- * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10494|#10494]] Upgrading 4.6->4.6.1 does not upgrade sagenb
+ * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10494|#10494]] Upgrading 4.6->4.6.1 does not upgrade sagenb
 
  * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10580|#10580]] Bump maximum number of occurances of the word "tree" in sage/misc/sagedoc.py
 
