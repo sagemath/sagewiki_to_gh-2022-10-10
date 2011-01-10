@@ -2,13 +2,15 @@
 
 For [[days27|Sage Days 27]].
 
- * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10573|10573]] 1-line notebook patch
+ * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10573|#10573]] 1-line notebook patch
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/8251|#8251]] Jones database pickle thingy
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/10572|#10572]] GCC binutils wrapper
 
  * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10494|#10494]] Upgrading 4.6->4.6.1 does not upgrade sagenb
+
+ * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10580|#10580]] Bump maximum number of occurances of the word "tree" in sage/misc/sagedoc.py
 
  * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/9523|#9523]] Upgrade the Readline spkg to 6.1
 
@@ -28,11 +30,11 @@ For [[days27|Sage Days 27]].
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/10550|#10550]] integration not working
 
- * (DONE) [[http://trac.sagemath.org/sage_trac/ticket/10557|#10557]] local/bin/gphelp has hardcoded path that is not reset when sage is moved
+ * (closed as invalid) [[http://trac.sagemath.org/sage_trac/ticket/10557|#10557]] local/bin/gphelp has hardcoded path that is not reset when sage is moved
 
  * (needs_work) [[http://trac.sagemath.org/sage_trac/ticket/10559|#10559]] path to perl hardcoded in gphelp (GP/PARI)
 
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/9678|#9678]] massive improvements to bugs caused by signal handling issues.
+ * (needs_work) [[http://trac.sagemath.org/sage_trac/ticket/9678|#9678]] Rewrite interrupt handling
 
 == Not really a bug ==
 
