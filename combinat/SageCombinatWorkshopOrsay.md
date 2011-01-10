@@ -8,7 +8,7 @@ Sponsored by: {{attachment:logo_UFR.png|Faculté d'Orsay|width=100}}
 
 == Accomodation ==
 
-Like for the previous MuPAD-Combinat days of June 2006, I (Nicolas) have rented a 8-person house in Cernay-la-Ville
+Like for the previous MuPAD-Combinat days of June 2006, I (NicolasThiéry) have rented a 8-person house in Cernay-la-Ville
 ([[http://www.cernayvacances.com/CFrans.html|la tour]]). We did the cooking ourselves (bring your favorite recipes!).
 Altogether this made for a tight budget (around 1200 euros total for 5 days and 8 persons).
 
@@ -29,7 +29,7 @@ Altogether this made for a tight budget (around 1200 euros total for 5 days and 
 
    BEWARE: there are no busses between 7:35am and noon!
 
- * We will do some car shuttles from Saint Rémi. Please contact us in advance to synchronize. NicolasThiery' phone: 06 77 90 32 79
+ * We will do some car shuttles from Saint Rémi. Please contact us in advance to synchronize. NicolasThiéry' phone: 06 77 90 32 79
     * Monday morning 10am on the parking of Saint-Rémi de Chevreuse
     * ...
 
@@ -71,7 +71,7 @@ Altogether, the meeting was really successful, with lots of code written (90 com
  * the posets code in Sage needs to be re-designed to integrate properly with the rest of sage-combinat.
  * design discussions for abstract larger/lazy/infinite posets
 
-'''Categories''' (NicolasThiery)
+'''Categories''' (NicolasThiéry)
  * Design and naming convention discussions
  * Put it to intensive use: the NCSF and representation theory projects will be perfect for this
 
