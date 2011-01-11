@@ -21,32 +21,32 @@ PRELIMINARY PROGRAM:
 '''Lundi 17'''
 
   * ''09:30-10:30'' café + aide à l'installation de Sage
-  * ''10:30-11:20'' introduction à Sage avec démonstration (Nicolas T.)
+  * ''10:30-11:20'' introduction à Sage avec démonstration (NicolasThiéry)
 
   * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO), présentation des participants
 
-  * ''13:00-13:20'' tutoriel: prise en main de Sage (Vincent D.)
-  * ''13:20-14:45'' tutoriel: mathématiques de premier cycle avec Sage (Nicolas T.?)
+  * ''13:00-13:20'' tutoriel: prise en main de Sage (VincentDelecroix)
+  * ''13:20-14:45'' tutoriel: mathématiques de premier cycle avec Sage (NicolasThiéry?)
   * ''14:45-15:00'' pause café
-  * ''15:00-16:00'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (Vincent D.)
+  * ''15:00-16:00'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (VincentDelecroix)
   * ''16:00-18:00'' démos et tutoriels autour de la combinatoire:
     * combinatoire usuelle (FlorentHivert, NicolasThiéry)
-    * combinatoire des mots (Sébastien Labbé)
+    * combinatoire des mots (SébastienLabbé)
     * fonctions symétriques (FlorentHivert? NicolasThiéry? ...?)
-    * représentation du groupe symétrique: (Vincent Delecroix)
+    * représentation du groupe symétrique: (VincentDelecroix)
 
 '''Mardi 18'''
 
   * ''9h30-10h30''  tutoriel: programmation Python/Sage (FlorentHivert?)
-  * ''10h30-10h50'' tutoriel: signaler un bogue, suggérer une amélioration (Thierry Monteil?)
-  * ''10h50-11h30'' tutoriel: contribuer à Sage (Sébastien Labbé)
+  * ''10h30-10h50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
+  * ''10h50-11h30'' tutoriel: contribuer à Sage (SébastienLabbé)
 
   * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
 
   * ''13:00-14:00'' tutoriel: utiliser des structures algébriques: espaces vectoriels, ... (FlorentHivert, NicolasThiéry)
   * ''14:00-15:00'' tutoriel: implanter ses propres structures algébriques (FlorentHivert, NicolasThiéry)
-  * ''15:00-16:00'' tutoriel: échange d'intervalles (Vincent Delecroix)
-  * ''16:00-17:00'' tutoriel: surfaces à petit carreaux (Vincent Delecroix)
+  * ''15:00-16:00'' tutoriel: échange d'intervalles (VincentDelecroix)
+  * ''16:00-17:00'' tutoriel: surfaces à petit carreaux (VincentDelecroix)
   * graphes: Nathann Cohen
 
 
@@ -54,9 +54,9 @@ PRELIMINARY PROGRAM:
 
 Le programme de cette journée sera fixé le lundi, avec les participants. Thèmes:
 
-  * tutoriel: contribuer à Sage-Combinat (NicolasThiéry?)
+  * tutoriel: contribuer à Sage-Combinat (ThierryMonteil)
   * discussions: combinatoire analytique, génération aléatoire/exhaustive
-  * discussion et démo:  intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)
+  * discussion et démo: intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)
 
 RELATED EVENTS:
 
@@ -77,7 +77,7 @@ REGISTERED PARTICIPANTS (as of 21/12/2010):
   * Charles Bouillaguet (Ecole Normale Supérieure, Paris)
   * Maria Christofi (Gemalto/ Université de Versailles)
   * Nathann Cohen (projet MASCOTTE)
-  * Vincent Delecroix (IML, Marseille)
+  * VincentDelecroix (IML, Marseille)
   * Matthieu Deneufchâtel (LIPN, Université Paris 13)
   * Sette Diop (CNRS)
   * Nadia El Mrabet (LIASD - Université Paris 8)
@@ -87,7 +87,7 @@ REGISTERED PARTICIPANTS (as of 21/12/2010):
   * Samuele Giraudo (Université de Marne-la-Vallée Paris-Est)
   * Olivier Guichard (Paris-Sud)
   * FlorentHivert (Université de Rouen)
-  * Sébastien Labbé (LaCIM (Montréal) et LIAFA)
+  * SébastienLabbé (LaCIM (Montréal) et LIAFA)
   * Samuel Lelièvre (Orsay)
   * Julien Leroy (Université de Picardie Jules Verne)
   * Paul Mercat (Orsay)
