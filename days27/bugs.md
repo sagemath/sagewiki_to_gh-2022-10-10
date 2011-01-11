@@ -6,7 +6,7 @@ For [[days27|Sage Days 27]].
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/8251|#8251]] Jones database pickle thingy
 
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/10572|#10572]] GCC binutils wrapper
+ * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10572|#10572]] GCC binutils wrapper
 
  * (closed) [[http://trac.sagemath.org/sage_trac/ticket/10494|#10494]] Upgrading 4.6->4.6.1 does not upgrade sagenb
 
@@ -21,7 +21,10 @@ For [[days27|Sage Days 27]].
     * (superseded) [[http://trac.sagemath.org/sage_trac/ticket/9379|#9379]] ia64-Linux binary fails "devel/sage/sage/plot/plot3d/tachyon.py"
     * (superseded) [[http://trac.sagemath.org/sage_trac/ticket/9997|#9997]] Tachyon does not even try to build on AIX
 
- * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/9382|#9382]] atlas not respecting SAGE_FAT_BINARY on i686 systems
+ * ATLAS rewrite
+   * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10226|#10226]] Rewrite ATLAS spkg-install
+   * (superseded) [[http://trac.sagemath.org/sage_trac/ticket/9382|#9382]] atlas not respecting SAGE_FAT_BINARY on i686 systems
+   * (future work) [[http://trac.sagemath.org/sage_trac/ticket/10508|#10508]] Update ATLAS to version 3.9.32 (not ready yet, crashes in linbox)
 
  * (closed as worksforme) [[http://trac.sagemath.org/sage_trac/ticket/9842|#9842]] groebner basis bug
 
