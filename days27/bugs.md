@@ -36,6 +36,8 @@ For [[days27|Sage Days 27]].
 
  * (needs_work) [[http://trac.sagemath.org/sage_trac/ticket/9678|#9678]] Rewrite interrupt handling
 
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/2429|#2429]] and (needs work) [[http://trac.sagemath.org/sage_trac/ticket/4492|#4429]] block_matrix() consistency and rewrite
+
 == Not really a bug ==
 
  * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/5945|#5945]] flint for faster factoring
