@@ -2,6 +2,8 @@
 
 For [[days27|Sage Days 27]].
 
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/10578|#10578]] Coercion problem for vectors from polynomial rings over GF(2)
+
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/7085|#7085]] laurent series coercion bug (Marshall defeated)
 
  * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/10573|#10573]] 1-line notebook patch
