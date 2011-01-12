@@ -4,7 +4,7 @@ These Sage days will offer an introduction to Sage, with an emphasis on dynamics
 
 DATES: 17-19 January 2011. Some people will stay for the whole week (Jan 17 - 21 to develop).
 
-LOCATION: Orsay, France
+LOCATION: Laboratoire de Mathématiques d'Orsay, France
 
 LANGUAGE: French or English depending on the participants
 
@@ -45,10 +45,9 @@ PRELIMINARY PROGRAM:
 
   * ''13:00-14:00'' tutoriel: utiliser des structures algébriques: espaces vectoriels, ... (FlorentHivert, NicolasThiéry)
   * ''14:00-15:00'' tutoriel: implanter ses propres structures algébriques (FlorentHivert, NicolasThiéry)
-  * ''15:00-16:00'' tutoriel: échange d'intervalles (VincentDelecroix)
-  * ''16:00-17:00'' tutoriel: surfaces à petit carreaux (VincentDelecroix)
-  * graphes: Nathann Cohen
-
+  * ''15:00-15:30'' tutoriel: graphes (Nathann Cohen)
+  * ''15:30-16:30'' tutoriel: échange d'intervalles (VincentDelecroix)
+  * ''16:30-17:30'' tutoriel: surfaces à petit carreaux (VincentDelecroix)
 
 '''Mercredi 19'''
 
