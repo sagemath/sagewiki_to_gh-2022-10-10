@@ -1,5 +1,6 @@
 = Sage Days 28: Dynamics, geometry, ... =
 
+
 These Sage days will offer an introduction to Sage, with an emphasis on dynamics and geometry.
 
 DATES: 17-19 January 2011. Some people will stay for the whole week (Jan 17 - 21 to develop).
@@ -37,7 +38,7 @@ PRELIMINARY PROGRAM:
 
 '''Mardi 18'''
 
-  * ''9h30-10h30''  tutoriel: programmation Python/Sage (FlorentHivert) Voir {{attachment:TPProg.pdf}}
+  * ''9h30-10h30''  tutoriel: programmation Python/Sage (FlorentHivert) Voir [[attachment:TPProg.pdf]]
 
   * ''10h30-10h50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
   * ''10h50-11h30'' tutoriel: contribuer à Sage (SébastienLabbé)
