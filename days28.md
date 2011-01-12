@@ -3,13 +3,20 @@
 
 These Sage days will offer an introduction to Sage, with an emphasis on dynamics and geometry.
 
-DATES: 17-19 January 2011. Some people will stay for the whole week (Jan 17 - 21 to develop).
+They will be held from 17 to 19 January 2011. Some people will stay for the whole week (Jan 17 - 21) to develop.
 
-LOCATION: Laboratoire de Mathématiques d'Orsay, France
+These venue is Laboratoire de Mathématiques d'Orsay (Université Paris-Sud 11), Orsay, France.
 
-LANGUAGE: French or English depending on the participants
+All talks and tutorials will be in building 430. The main lecture room will be salle Lederer (ground floor).
+There will be another room available in case we need to hold parallel sessions.
 
-PREREQUISITE:
+Tea/coffee will be served in the tea room in the first floor of the same building.
+
+[[http://www.math.u-psud.fr/acces.php|How to get to Orsay]]
+
+Talks will be in French or English depending on the participants.
+
+== Bring your laptop ==
 
 Please bring your laptop for the tutorial sessions (we will have a few
 spare laptops if you really do not have one). Also, if you do not have
@@ -17,7 +24,7 @@ the latest version of Sage (4.6) installed on your laptop, please make
 sure to come at 9:30 on Monday so that we can guide you through the
 process.
 
-PRELIMINARY PROGRAM:
+== Preliminary program ==
 
 '''Lundi 17'''
 
@@ -59,26 +66,26 @@ Le programme de cette journée sera fixé le lundi, avec les participants. Thèm
   * discussions: combinatoire analytique, génération aléatoire/exhaustive
   * discussion et démo: intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)
 
-RELATED EVENTS:
+== Related events ==
 
  * 18 January 2011, 16h, Orsay: [[http://www.math.u-psud.fr/~geo/sem/archives.php| Séminaire d'Éric Vasserot: Representations des algebres de Hecke affines de type classique et categorification]]
  * 20-21 January 2011, Jussieu, Paris: [[http://www.gdr-im.fr/?q=node/92|Journées du GDR Informatique et mathématiques]]
 
-REGISTRATION:
+== Registration ==
 
  [[https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ|registration form]]
 
 
-REGISTERED PARTICIPANTS (as of 21/12/2010):
+== Registered participants (as of 21/12/2010) ==
 
   * Pablo Angulo (Universidad Autónoma de Madrid)
   * Pierre Arnoux (Universtié d'Aix-Marseille 2)
   * Guillaume Batog (INRIA Nancy Grand-Est)
-  * NicolasBorie (Orsay)
+  * [[NicolasBorie|Nicolas Borie]] (Orsay)
   * Charles Bouillaguet (Ecole Normale Supérieure, Paris)
   * Maria Christofi (Gemalto/ Université de Versailles)
   * Nathann Cohen (projet MASCOTTE)
-  * VincentDelecroix (IML, Marseille)
+  * [[VincentDelecroix|Vincent Delecroix]] (IML, Marseille)
   * Matthieu Deneufchâtel (LIPN, Université Paris 13)
   * Sette Diop (CNRS)
   * Nadia El Mrabet (LIASD - Université Paris 8)
@@ -87,8 +94,8 @@ REGISTERED PARTICIPANTS (as of 21/12/2010):
   * Alain Giorgetti (Université de Franche-Comté)
   * Samuele Giraudo (Université de Marne-la-Vallée Paris-Est)
   * Olivier Guichard (Paris-Sud)
-  * FlorentHivert (Université de Rouen)
-  * SébastienLabbé (LaCIM (Montréal) et LIAFA)
+  * [[FlorentHivert|Florent Hivert]] (Université de Rouen)
+  * [[SébastienLabbé|Sébastien Labbé]] (LaCIM (Montréal) et LIAFA)
   * Samuel Lelièvre (Orsay)
   * Julien Leroy (Université de Picardie Jules Verne)
   * Paul Mercat (Orsay)
@@ -104,5 +111,5 @@ REGISTERED PARTICIPANTS (as of 21/12/2010):
   * Jonathan Spreer (University of Stuttgart)
   * Wolfgang Steiner (LIAFA, CNRS)
   * Jean-Yves Thibon (Université Paris-Est)
-  * NicolasThiéry (Orsay)
+  * [[NicolasThiéry|Nicolas Thiéry]] (Orsay)
   * Sophie Toulouse (LIPN - Université Paris 13)
