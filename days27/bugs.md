@@ -44,7 +44,7 @@ For [[days27|Sage Days 27]].
 
  * (closed as invalid) [[http://trac.sagemath.org/sage_trac/ticket/10557|#10557]] local/bin/gphelp has hardcoded path that is not reset when sage is moved
 
- * (needs_work) [[http://trac.sagemath.org/sage_trac/ticket/10559|#10559]] path to perl hardcoded in gphelp (GP/PARI)
+ * (closes as duplicate of [[http://trac.sagemath.org/sage_trac/ticket/10430|#10430]]) [[http://trac.sagemath.org/sage_trac/ticket/10559|#10559]] path to perl hardcoded in gphelp (GP/PARI)
 
  * (needs_work) [[http://trac.sagemath.org/sage_trac/ticket/9678|#9678]] Rewrite interrupt handling
 
