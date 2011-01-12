@@ -37,7 +37,8 @@ PRELIMINARY PROGRAM:
 
 '''Mardi 18'''
 
-  * ''9h30-10h30''  tutoriel: programmation Python/Sage (FlorentHivert)
+  * ''9h30-10h30''  tutoriel: programmation Python/Sage (FlorentHivert) Voir {{attachment:TPProg.pdf}}
+
   * ''10h30-10h50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
   * ''10h50-11h30'' tutoriel: contribuer à Sage (SébastienLabbé)
 
