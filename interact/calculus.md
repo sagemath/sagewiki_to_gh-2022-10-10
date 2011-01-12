@@ -607,7 +607,7 @@ html("<h1>The midpoint rule for a function of two variables</h1>")
 def midpoint2d(func = input_box('y*sin(x)/x+sin(y)',type=str,label='function of x and y'), nx = slider(2,20,1,3,label='x subdivisions'), ny = slider(2,20,1,3,label='y subdivisions'), x_start = slider(-10,10,.1,0), x_end = slider(-10,10,.1,3*npi), y_start= slider(-10,10,.1,0), y_end= slider(-10,10,.1,3*npi)):
     f = sage_eval('lambda x,y: ' + func)
     delx = (x_end - x_start)/nx
-    dely = (y_end - y_start)/nx
+    dely = (y_end - y_start)/ny
     xvals = [RDF(x_start + (i+1.0/2)*delx) for i in range(nx)]
     yvals = [RDF(y_start + (i+1.0/2)*dely) for i in range(ny)]
     num_approx = 0
