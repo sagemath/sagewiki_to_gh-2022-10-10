@@ -31,7 +31,7 @@ For [[days27|Sage Days 27]].
     * (superseded) [[http://trac.sagemath.org/sage_trac/ticket/9379|#9379]] ia64-Linux binary fails "devel/sage/sage/plot/plot3d/tachyon.py"
     * (superseded) [[http://trac.sagemath.org/sage_trac/ticket/9997|#9997]] Tachyon does not even try to build on AIX
     * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10609|#10609]] tachyon fails with .ac in hostname (!!)
-    * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10610|#10610]] tachyon block=False doesn't work
+    * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10610|#10610]] tachyon block=False doesn't work
 
  * ATLAS rewrite
    * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10226|#10226]] Rewrite ATLAS spkg-install
