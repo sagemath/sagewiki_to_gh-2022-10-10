@@ -21,7 +21,7 @@ hg clone https://rbeezer@bitbucket.org/rbeezer/tex2sws/
 
 This table tracks patches meant to support the teaching of introductory linear algebra and the enhancement of Beezer's "A First Course in Linear Algebra."
 
-||<rowstyle="width: 80%" style="background-color: #E0E0FF;"> Ticket ||  Description || Status || Acknowledgements ||
+||<rowstyle="background-color: #E0E0FF;"> Ticket ||  Description || Status || Acknowledgements ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8071 | 8071]] || trivial matrix kernels over non-fields || 4.4.alpha0 || Martin Albrecht ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10189|10189]] || additions to all-ones matrix constructor || 4.6.2.alpha0 || Karl-Dieter Crisman, Robert Miller||
 || [[http://trac.sagemath.org/sage_trac/ticket/10362|10362]] || vector constructor documentation || 4.6.1.alpha3 || Andrey Novoseltsev ||
@@ -40,6 +40,7 @@ This table tracks patches meant to support the teaching of introductory linear a
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8046 | 8046]] || add double dense matrix file to documentation || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/9796 | 9796]] || diagonal elements of a matrix || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 8094, 10501 || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || with patch || ||
@@ -49,7 +50,7 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10543]] || echelon form over QQ is mutable || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10545]] || outer product of vectors || with patch, dep. 10541 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || new ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || with patch ||  ||
 
 
 == Examples ==
