@@ -75,6 +75,10 @@ Le programme de cette journée sera fixé le lundi, avec les participants. Thèm
 
  [[https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ|registration form]]
 
+== Contact ==
+
+For any additional queries, contact Samuel Lelièvre <samuel.lelievre+days28@gmail.com>.
+If needed, call 0661749080.
 
 == Registered participants (as of 21/12/2010) ==
 
