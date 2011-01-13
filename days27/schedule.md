@@ -1,5 +1,6 @@
 = Sage Days 27 Schedule =
 
+[[days27|Sage Days 27]]
 
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, January 7, 2011||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">10:00am-11:30am  ||'''Organizational Session''' [[http://www.washington.edu/maps/?l=BNS|Benson Hall, Room 203]]||
