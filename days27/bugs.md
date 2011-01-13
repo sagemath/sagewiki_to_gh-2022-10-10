@@ -60,3 +60,4 @@ For [[days27|Sage Days 27]].
  * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/5945|#5945]] flint for faster factoring
  * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10608|#10608]] polynomial rings over matrices
  * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10596|#10596]] clean-up and small bug fixes in integer.pyx
+ * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10617|#10617]] massive speed-up for polynomial composition and evaluation over ZZ
