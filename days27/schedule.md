@@ -29,4 +29,4 @@
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">8:00pm-10:00pm  ||'''Final Wrap Up''' TBA||
 ||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, January 13, 2011||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">10:30am-11:30am||'''Coding Sprint organizationfor those left...''' [[http://www.washington.edu/home/maps/northcentral.html?PDL|Padelford C-36]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">12:30pm-1:50pm||'''Stein: talk on Sage for undergrads''' in [[http://www.washington.edu/home/maps/northcentral.html?MEB|MEB 103]]||
+||<rowstyle="background-color: #FFFFEE; text-align: center;">12:30pm-1:50pm||'''[[http://wstein.org/talks/2011-01-13-ACMS-intro_to_sage/|Stein: talk on Sage for undergrads]]''' in [[http://www.washington.edu/home/maps/northcentral.html?MEB|MEB 103]]||
