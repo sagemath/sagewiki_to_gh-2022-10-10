@@ -50,10 +50,9 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10543]] || echelon form over QQ is mutable || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10545]] || outer product of vectors || with patch, dep. 10541 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || needs work ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || with patch, dep. 10537, 10626 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10625|10625]] || generic Smith form fails on integer matrices || new ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10665|10626]] || route sparse integer matrices to specialized Smith form   || new ||  ||
-
+|| [[http://trac.sagemath.org/sage_trac/ticket/10665|10626]] || route sparse integer matrices to specialized Smith form || with patch ||  ||
 == Examples ==
 
 To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.  Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
