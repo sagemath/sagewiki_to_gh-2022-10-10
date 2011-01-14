@@ -1,6 +1,6 @@
 Temporary wiki for organizing the informal reading groups at the Arithmetic Statistics program at MSRI.
 
-== Cohen-Lenstra ==
+== Cohen-Lenstra heuristics ==
 
  * chair: Bjorn Poonen
  * times: Tuesdays 11-12
@@ -10,6 +10,7 @@ Temporary wiki for organizing the informal reading groups at the Arithmetic Stat
  * chair: Kanieenika Sinha
  * times: Wednesdays 11-12
  * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, in press.
+ * there is also a study guide and reading list by Steven Miller, at Williams
 
 == Bhargava-Shankar ==
 
@@ -22,6 +23,8 @@ Temporary wiki for organizing the informal reading groups at the Arithmetic Stat
  * chair: Jamie Weigandt
  * times: Fridays 11-12
  * H.P.F. Swinnerton-Dyer. The eﬀect of twisting on the 2-Selmer group. Math. Proc. Cambridge Philos. Soc. 145 (2008) 513-526.
+   * prereq(?): Heath-Brown paper
+   * Dan Kane... (?)
 
 == General question group ==
 
