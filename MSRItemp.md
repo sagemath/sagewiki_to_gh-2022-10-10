@@ -37,7 +37,7 @@ Bjorn Poonen
 
 == Iwaniec-Luo-Sarnak ==
 
- * chair: Kanieenika Sinha
+ * chair: Kaneenika Sinha
  * times: Wednesdays 11-12
  * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, 2000.
  * there is also a study guide and reading list by Steven Miller, at Williams: http://www.williams.edu/go/math/sjmiller/public_html/ntandrmt/
