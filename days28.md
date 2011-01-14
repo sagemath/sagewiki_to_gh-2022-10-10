@@ -46,7 +46,6 @@ process.
   * ''16:00-18:00'' démos et tutoriels autour de la combinatoire:
     * combinatoire usuelle (FlorentHivert, NicolasThiéry)
     * combinatoire des mots (SébastienLabbé)
-    * fonctions symétriques (FlorentHivert? NicolasThiéry? ...?)
     * représentation du groupe symétrique: (VincentDelecroix)
 
 '''Mardi 18'''
