@@ -1,6 +1,6 @@
 = Sage Days 28: Dynamics, geometry, ... =
 
-These Sage days will offer a gentle introduction to Sage, with an
+This workshop will offer a gentle introduction to the open source mathematical software [[www.sagemath.org|Sage]], with an
 emphasis on dynamics and geometry.
 
 Talks will be in French or English depending on the participants.
