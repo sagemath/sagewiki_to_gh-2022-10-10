@@ -28,6 +28,7 @@
  * [[http://sage.math.washington.edu/home/malb/graphics/banner/sagelogo.png|logo]]
  * [[http://www.sagemath.org/old/days2/sage-car.png|Sage car]]
  * [[http://sage.math.washington.edu/home/malb/graphics/sage-car.pdf|Sage car PDF]]
+ * [[http://www.worldhiphopbeats.com|Sage car 2 PDF]] 
  * [[http://sagemath.org/old/art/|old sage art page, some good graffiti!]]
  * [[attachment:BadMugDesign.jpg|Mug design, too dark though]]
  * [[attachment:gfan_example.png|A Groebner fan; not sure if its art]]
