@@ -9,8 +9,8 @@ Temporary wiki for organizing the informal reading groups at the Arithmetic Stat
 
  * chair: Kanieenika Sinha
  * times: Wednesdays 11-12
- * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, in press.
- * there is also a study guide and reading list by Steven Miller, at Williams
+ * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, 2000.
+ * there is also a study guide and reading list by Steven Miller, at Williams: http://www.williams.edu/go/math/sjmiller/public_html/ntandrmt/
 
 == Bhargava-Shankar ==
 
