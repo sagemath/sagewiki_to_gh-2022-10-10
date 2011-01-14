@@ -1,20 +1,26 @@
 = Sage Days 28: Dynamics, geometry, ... =
 
+These Sage days will offer a gentle introduction to Sage, with an
+emphasis on dynamics and geometry.
 
-These Sage days will offer an introduction to Sage, with an emphasis on dynamics and geometry.
+Talks will be in French or English depending on the participants.
 
-They will be held from 17 to 19 January 2011. Some people will stay for the whole week (Jan 17 - 21) to develop.
+== Dates ==
 
-These venue is Laboratoire de Mathématiques d'Orsay (Université Paris-Sud 11), Orsay, France.
+17 to 19 January 2011
 
-All talks and tutorials will be in building 430. The main lecture room will be salle Lederer (ground floor).
-There will be another room available in case we need to hold parallel sessions.
+Some people will stay for the whole week (Jan 17 - 21) to develop.
+
+== Location ==
+
+Laboratoire de Mathématiques d'Orsay (Université Paris-Sud 11), Orsay, France.
+
+All talks and tutorials will be held in building 430. The main lecture room will be salle Lederer (ground floor).
+There will be another room available for parallel sessions.
 
 Tea/coffee will be served in the tea room in the first floor of the same building.
 
 [[http://www.math.u-psud.fr/acces.php|How to get to Orsay]]
-
-Talks will be in French or English depending on the participants.
 
 == Bring your laptop ==
 
@@ -79,6 +85,18 @@ Le programme de cette journée sera fixé le lundi, avec les participants. Thèm
 
 For any additional queries, contact Samuel Lelièvre <samuel.lelievre+days28@gmail.com>.
 If needed, call 0661749080.
+
+== Projects and topics of discussions ==
+
+ * Clones and fast iterations
+
+   FlorentHivert, MikeHansen, VincentDelecroix, NicolasThiéry, ...
+
+ * Structuration of tutorials in the reference manual, cross links, ...
+
+   FlorentHivert, MikeHansen, VincentDelecroix, NicolasThiéry, ...
+
+ * ...
 
 == Registered participants (as of 21/12/2010) ==
 
