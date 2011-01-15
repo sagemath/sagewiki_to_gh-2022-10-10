@@ -27,7 +27,9 @@ FUNDING: If you're interested in attending, there may be funding for you.   Emai
 
 TICKETS FAQ: [[/faq|Look here.]]
 
-LIKELY PARTICIPANTS:
+PARTICIPANTS:
+
+  * Video Introductions: http://sage.math.washington.edu/home/wstein/sagedays/27/video_intros.html
 
   1. Rob Beezer (U Puget Sound, Tacoma), after AMS/MAA Meetings, shared room nights of Jan 10,11,12
   * Vladimir Bondarenko ([[http://cybertester.com/|CyberTester.com]], Ukraine): arrive Jan 6, leave Jan 14. Single room.
