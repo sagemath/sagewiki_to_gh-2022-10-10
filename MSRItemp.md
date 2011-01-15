@@ -5,7 +5,7 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
 == Cohen-Lenstra heuristics ==
 
  * chair: Bjorn Poonen
- * The first meeting of the reading group will be Tuesday, January 18, 11-12. It will be in the 2nd floor seminar room if that room is available.
+ * The first meeting of the reading group will be Tuesday, January 25, 11-12. (Bjorn will be away the preceding week.) It will be in the 2nd floor seminar room if that room is available.
  * Informal reading group on the Cohen-Lenstra heuristics
  * Reading list (in increasing order of sophistication):
 
