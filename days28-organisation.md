@@ -1,6 +1,6 @@
 = Page d'organisation des sage-days a Orsay =
 
-[[days28-referenced_bugs]]
+[[days28-unreferenced_bugs]]
 
 === Programme ===
 
