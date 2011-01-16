@@ -8,7 +8,7 @@ This page aims to have a list some unreferenced bugs that people will have to re
 == whish list ==
 
   * graphs : construction of the [[http://en.wikipedia.org/wiki/Petersen_family|Petersen family]]
-  * crypto : add the enigma cryptosystem.
+  * crypto : add the [[http://en.wikipedia.org/wiki/Enigma_machine|enigma cryptosystem]].
 
 
 == other bugs ==
