@@ -3,16 +3,16 @@ This page aims to have a list some unreferenced bugs that people will have to re
 
 == documentation bugs ==
   * english error:  ':' should not be preceded by a space.
-    * combinat/words/paths.py
-    * combinat/words/word.py
-    * combinat/skew_partition.py
-    * crypto/mq/mpolynomialsystem.py
-    * crypto/mq/sr.py
-    * 
-    * 
-    * 
-    * 
-    * 
+    * by file
+      * combinat/words/paths.py
+      * combinat/words/word.py
+      * combinat/skew_partition.py
+      * crypto/mq/mpolynomialsystem.py
+      * crypto/mq/sr.py
+    * by method
+      * method is_interval() for graphs (AUTHOR)
+
+
 
 == whish list ==
 
