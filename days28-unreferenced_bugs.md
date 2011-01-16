@@ -21,7 +21,7 @@ This page aims to have a list some unreferenced bugs that people will have to re
       *  w = Word('12112') and w.complete_return_words?
       *  w = Word('12112') and w.return_words_derivate?
     * delta_derivate, delta_derivate_left, delta_derivate_right : the W input is not explained.
-    * graphs generators without output:
+    * graphs generators without intput:
       * sage: graphs.CircularLadderGraph?
       * sage: graphs.CycleGraph?
       * sage: graphs.ToroidalGrid2dGraph?
