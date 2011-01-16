@@ -14,12 +14,36 @@ This page aims to have a list some unreferenced bugs that people will have to re
       * KazhdanLusztigPolynomial class (EXAMPLES)
       * IwahoriHeckeAlgebraT class (EXAMPLES)
   * INPUT or OUTPUT non-provided
-    *  w = Word('12112') and w.conjugate? ("pos can be any integer")
-    *  w = Word('12112') and w.is_cadence? 
-    *  w = Word('12112') and w.return_words?
-    *  w = Word('12112') and w.complete_return_words?
-    *  w = Word('12112') and w.return_words_derivate?
+    *  w = Word('12112') and 
+      * w.conjugate? ("pos can be any integer")
+      *  w = Word('12112') and w.is_cadence? 
+      *  w = Word('12112') and w.return_words?
+      *  w = Word('12112') and w.complete_return_words?
+      *  w = Word('12112') and w.return_words_derivate?
     * delta_derivate, delta_derivate_left, delta_derivate_right : the W input is not explained.
+    * graphs generators without output:
+      * sage: graphs.CircularLadderGraph?
+      * sage: graphs.CycleGraph?
+      * sage: graphs.ToroidalGrid2dGraph?
+      * sage: graphs.Grid2dGraph?
+      * sage: graphs.LadderGraph?
+      * sage: graphs.LollipopGraph?
+      * sage: graphs.PathGraph?
+      * sage: graphs.StarGraph?
+      * sage: graphs.WheelGraph?
+      * sage: graphs.KneserGraph?
+      * sage: graphs.OddGraph?
+      * sage: graphs.MycielskiStep?
+      * sage: graphs.CompleteGraph?
+      * sage: graphs.CompleteBipartiteGraph?
+      * sage: graphs.CubeGraph? [this could also be nice to replace 'n' by 'dimension']
+      * sage: graphs.FuzzyBallGraph?
+      * sage: graphs.DorogovtsevGoltsevMendesGraph?
+      * sage: graphs.RandomGNP?
+
+
+
+
 
 
 
