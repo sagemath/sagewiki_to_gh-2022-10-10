@@ -2,7 +2,7 @@ This page aims to have a list some unreferenced bugs that people will have to re
 
 
 == documentation bugs ==
-   * algebras/quatalg/quaternion_algebra.py : more examples
+   * algebras/quatalg/quaternion_algebra.py : more examples in the ramified_primes method
 
 
 == whish list ==
