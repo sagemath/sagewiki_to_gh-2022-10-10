@@ -1,5 +1,7 @@
 = Page d'organisation des sage-days a Orsay =
 
+[[days28-bugs-referenced]]
+
 === Programme ===
 
 Y'a t-il des orateurs invités ?
