@@ -130,8 +130,11 @@ by Marshall Hampton
 
 While support for R is rapidly improving, scipy.stats has a lot of useful stuff too.  This only scratches the surface.
 {{{
+from scipy.optimize import leastsq
 import urllib2 as U
 import scipy.stats as Stat
+import time
+current_year = time.localtime().tm_year
 co2data = U.urlopen('ftp://ftp.cmdl.noaa.gov/ccg/co2/trends/co2_mm_mlo.txt').readlines()
 datalines = []
 for a_line in co2data:
@@ -141,18 +144,40 @@ for a_line in co2data:
         temp = a_line.replace('\n','').split(' ')
         temp = [float(q) for q in temp if q != '']
         datalines.append(temp)
-trdf = RealField(16)
-@interact
-def mauna_loa_co2(start_date = slider(1958,2011,1,1958), end_date = slider(1958, 2010,1,2009)):
+npi = RDF(pi)
+@interact(layout=[['start_date'],['end_date'],['show_linear_fit','show_nonlinear_fit']])
+def mauna_loa_co2(start_date = slider(1958,current_year,1,1958), end_date = slider(1958, current_year,1,current_year-1), show_linear_fit = checkbox(default=True), show_nonlinear_fit = checkbox(default=False)):
     htmls1 = '<h3>CO2 monthly averages at Mauna Loa (interpolated), from NOAA/ESRL data</h3>'
     htmls2 = '<h4>'+cdate+'</h4>'
+    html(htmls1+htmls2)
     sel_data = [[q[2],q[4]] for q in datalines if start_date < q[2] < end_date]
+    outplot = list_plot(sel_data, plotjoined=True, rgbcolor=(1,0,0))
+    if show_nonlinear_fit:
+        def powerlaw(t,a):
+            return sel_data[0][1] + a[0]*(t-sel_data[0][0])^(a[1])
+        def res_fun(a):
+            return [q[1]-powerlaw(q[0],a) for q in sel_data]
+        def fitcos(t,a):
+            return a[0]*cos(t*2*npi+a[1])+a[2]*cos(t*4*npi+a[3])
+        def res_fun2(a):
+            return [q[1]-fitcos(q[0],a) for q in resids]
+        a1 = leastsq(res_fun,[1/2.4,1.3])[0]
+        resids = [[q[0],q[1] - powerlaw(q[0],a1)] for q in sel_data]
+        a2 = leastsq(res_fun2, [3,0,1,0])[0]
+        r2_plot = list_plot([[q[0],powerlaw(q[0],a1)+fitcos(q[0],a2)] for q in resids], rgbcolor='green',plotjoined=True)
+        outplot = outplot + r2_plot
+        var('t')
+        formula1 =  '%.2f+%.2f(t - %d)^%.2f'%(sel_data[0][1],a1[0],sel_data[0][0],a1[1])
+        formula2 = '%.2fcos(2 pi t + %.2f)+%.2f cos(4 pi t + %.2f)'%(a2[0],a2[1],a2[2],a2[3])
+        html('Nonlinear fit: <br>%s<br>'%(formula1+'+'+formula2))
+    if show_linear_fit:
+        slope, intercept, r, ttprob, stderr = Stat.linregress(sel_data)
+        outplot = outplot + plot(slope*x+intercept,start_date,end_date)
+        html('Linear regression slope: %.2f ppm/year; correlation coefficient: %.2f'%(slope,r))
+    var('x,y')
     c_max = max([q[1] for q in sel_data])
     c_min = min([q[1] for q in sel_data])
-    slope, intercept, r, ttprob, stderr = Stat.linregress(sel_data)
-    html(htmls1+htmls2+'<h4>Linear regression slope: ' + str(trdf(slope)) + ' ppm/year; correlation coefficient: ' + str(trdf(r)) + '</h4>')
-    var('x,y')
-    show(list_plot(sel_data, plotjoined=True, rgbcolor=(1,0,0)) + plot(slope*x+intercept,start_date,end_date), xmin = start_date, ymin = c_min-2, axes = True, xmax = end_date, ymax = c_max+3, frame = False)
+    show(outplot, xmin = start_date, ymin = c_min-2, axes = True, xmax = end_date, ymax = c_max+3, frame = False)
 }}}
 {{attachment:co2c.png}}
 
