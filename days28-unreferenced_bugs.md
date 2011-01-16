@@ -9,10 +9,10 @@ This page aims to have a list some unreferenced bugs that people will have to re
       * combinat/skew_partition.py
       * crypto/mq/mpolynomialsystem.py
       * crypto/mq/sr.py
-    * by method
+    * by method or class
       * method is_interval() for graphs (AUTHOR)
-
-
+      * KazhdanLusztigPolynomial class (EXAMPLES)
+      * IwahoriHeckeAlgebraT class (EXAMPLES)
 
 == whish list ==
 
