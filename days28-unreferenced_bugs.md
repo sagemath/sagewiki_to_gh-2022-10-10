@@ -13,3 +13,8 @@ This page aims to have a list some unreferenced bugs that people will have to re
 
 
 == other bugs ==
+  * fix indentation in the 
+    * combinat/sf/schur.py
+    * combinat/sf/macdonald.py
+    * combinat/sf/powersum.py
+    * combinat/sf/elementary.py
