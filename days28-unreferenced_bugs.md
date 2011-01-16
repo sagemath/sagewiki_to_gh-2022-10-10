@@ -13,6 +13,8 @@ This page aims to have a list some unreferenced bugs that people will have to re
       * method is_interval() for graphs (AUTHOR)
       * KazhdanLusztigPolynomial class (EXAMPLES)
       * IwahoriHeckeAlgebraT class (EXAMPLES)
+  * INPUT or OUTPUT non-provided
+    *  w = Word('12112') and w.conjugate? ("pos can be any integer")
 
 
 == whish list ==
