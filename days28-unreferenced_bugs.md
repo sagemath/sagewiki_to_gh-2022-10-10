@@ -14,6 +14,7 @@ This page aims to have a list some unreferenced bugs that people will have to re
       * KazhdanLusztigPolynomial class (EXAMPLES)
       * IwahoriHeckeAlgebraT class (EXAMPLES)
 
+
 == whish list ==
 
   * graphs : implement the [[http://en.wikipedia.org/wiki/Y-%CE%94_transform#Graph_theory|delta-y transformation]].
