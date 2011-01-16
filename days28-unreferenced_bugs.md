@@ -2,7 +2,17 @@ This page aims to have a list some unreferenced bugs that people will have to re
 
 
 == documentation bugs ==
-   * combinat/words/paths.py has a lot of sentences whose ':' is preceded by a space.
+  * english error:  ':' should not be preceded by a space.
+    * combinat/words/paths.py
+    * combinat/words/word.py
+    * combinat/skew_partition.py
+    * crypto/mq/mpolynomialsystem.py
+    * crypto/mq/sr.py
+    * 
+    * 
+    * 
+    * 
+    * 
 
 == whish list ==
 
