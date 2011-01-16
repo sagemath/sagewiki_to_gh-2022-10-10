@@ -101,18 +101,22 @@ If needed, call 0661749080.
 
  * ...
 
-== Registered participants (as of 21/12/2010) ==
+== Registered participants ==
 
   * Pablo Angulo (Universidad Autónoma de Madrid)
-  * Pierre Arnoux (Universtié d'Aix-Marseille 2)
-  * Guillaume Batog (INRIA Nancy Grand-Est)
+  * Pierre Arnoux (Université d'Aix-Marseille 2)
+  * Cyril Banderier (LIPN, Paris 13)
   * [[NicolasBorie|Nicolas Borie]] (Orsay)
   * Charles Bouillaguet (Ecole Normale Supérieure, Paris)
+  * Binh-Minh Bui-Xuan (LIP6, Paris)
+  * Jean-Paul Bultel (Marne-la-Vallée)
   * Maria Christofi (Gemalto/ Université de Versailles)
   * Nathann Cohen (projet MASCOTTE)
+  * Sven De Felice (Marne-la-Vallée)
   * [[VincentDelecroix|Vincent Delecroix]] (IML, Marseille)
   * Matthieu Deneufchâtel (LIPN, Université Paris 13)
   * Sette Diop (CNRS)
+  * Felix Effenberger (Stuttgart)
   * Nadia El Mrabet (LIASD - Université Paris 8)
   * Jean-Pierre Flori (ENST/Telecom ParisTech)
   * Antoine Genitrini (UPMC)
@@ -121,18 +125,24 @@ If needed, call 0661749080.
   * Olivier Guichard (Paris-Sud)
   * [[FlorentHivert|Florent Hivert]] (Université de Rouen)
   * [[SébastienLabbé|Sébastien Labbé]] (LaCIM (Montréal) et LIAFA)
+  * Robin Langer
   * Samuel Lelièvre (Orsay)
   * Julien Leroy (Université de Picardie Jules Verne)
+  * David Madore (ENST)
   * Paul Mercat (Orsay)
-  * ThierryMonteil (LIRMM, Montpellier)
+  * Nevena Milojkovic
+  * Yves Misiti (Orsay)
+  * [[ThierryMonteil|Thierry Monteil]] (LIRMM, Montpellier)
   * Cyril Nicaud (Université Paris-Est)
   * Johan Oudinet (KIT (Karlsruhe))
+  * Ekin Ozman (IHES)
   * Viviane Pons (LIGM)
   * Yann Ponty (Polytechnique/CNRS)
   * Dominique Poulalhon (CNRS / LIX)
   * Alban Quadrat (INRIA Saclay - Ile-de-France)
   * Georg Regensburger (INRIA Saclay)
-  * Laurent Siebenmann (Equipe Geo-TopoDyn)
+  * Laurent Siebenmann (Orsay)
+  * Michele Soria (LIP6, Paris)
   * Jonathan Spreer (University of Stuttgart)
   * Wolfgang Steiner (LIAFA, CNRS)
   * Jean-Yves Thibon (Université Paris-Est)
