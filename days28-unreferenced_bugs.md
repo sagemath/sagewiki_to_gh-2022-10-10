@@ -42,6 +42,9 @@ This page aims to have a list some unreferenced bugs that people will have to re
       * sage: graphs.RandomGNP?
     * words generator without input:
       * sage: words.CodingOfRotationWord?
+  * Developer guide: Conventions for Coding in Sage - Documentation strings, the Note at the end of Docstring markup with ReST and Sphinx has a lot of misprinted characters (SAGE_ROOT appears with subscript R)
+
+
 
 
 
