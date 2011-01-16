@@ -2,7 +2,6 @@ This page aims to have a list some unreferenced bugs that people will have to re
 
 
 == documentation bugs ==
-   * algebras/quatalg/quaternion_algebra.py : more examples in the ramified_primes method
 
 
 == whish list ==
@@ -25,3 +24,4 @@ This page aims to have a list some unreferenced bugs that people will have to re
    * combinat/dyck_word.py: see http://en.wikipedia.org/wiki/Catalan_number
    * combinat/yamanouchi.py: unintelligible definition (see Wikipedia http://en.wikipedia.org/wiki/Yamanouchi_word or Fulton, William (1997), Young tableaux, London Mathematical Society Student Texts, 35, Cambridge University Press, MR1464693, or M. Lothaire, Algebraic combinatorics on words, Encyclopedia of Mathematics 
    * combinat/lyndon_word.py: no definition of Lyndon word, no reference... see Lothaire, Algebraic combinatorics on words, p. 5, and http://en.wikipedia.org/wiki/Lyndon_word
+   * algebras/quatalg/quaternion_algebra.py : more examples in the ramified_primes method
