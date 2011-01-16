@@ -1,0 +1,1 @@
+This page aims to have a list some unreferenced bugs that people will have to report on the trac server during the "how to report a bug" session. We need to find about 20 bugs, to be found among the sage documentation.
