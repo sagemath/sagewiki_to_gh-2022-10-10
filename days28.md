@@ -71,6 +71,10 @@ Le programme de cette journée sera fixé le lundi, avec les participants. Thèm
   * discussions: combinatoire analytique, génération aléatoire/exhaustive
   * discussion et démo: intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)
 
+== Material for the talks, demos, and tutorials ==
+
+[[http://combinat.sagemath.org/doc/reference/demos/2011-01-17-SageDays28.html|Static version]]
+
 == Related events ==
 
  * 18 January 2011, 16h, Orsay: [[http://www.math.u-psud.fr/~geo/sem/archives.php| Séminaire d'Éric Vasserot: Representations des algebres de Hecke affines de type classique et categorification]]
