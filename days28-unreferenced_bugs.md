@@ -18,3 +18,10 @@ This page aims to have a list some unreferenced bugs that people will have to re
     * combinat/sf/macdonald.py
     * combinat/sf/powersum.py
     * combinat/sf/elementary.py
+
+ * add definitions, references and examples
+   * combinat/composition.py: in particular Composition_class.conjugate see http://en.wikipedia.org/wiki/Composition_(number_theory)
+   * combinat/composition_signed.py
+   * combinat/dyck_word.py: see http://en.wikipedia.org/wiki/Catalan_number
+   * combinat/yamanouchi.py: unintelligible definition (see Wikipedia http://en.wikipedia.org/wiki/Yamanouchi_word or Fulton, William (1997), Young tableaux, London Mathematical Society Student Texts, 35, Cambridge University Press, MR1464693, or M. Lothaire, Algebraic combinatorics on words, Encyclopedia of Mathematics 
+   * combinat/lyndon_word.py: no definition of Lyndon word, no reference... see Lothaire, Algebraic combinatorics on words, p. 5, and http://en.wikipedia.org/wiki/Lyndon_word
