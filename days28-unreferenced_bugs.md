@@ -2,7 +2,7 @@ This page aims to have a list some unreferenced bugs that people will have to re
 
 
 == documentation bugs ==
-
+   * combinat/words/paths.py has a lot of sentences whose ':' is preceded by a space.
 
 == whish list ==
 
