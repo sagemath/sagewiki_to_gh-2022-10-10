@@ -40,6 +40,8 @@ This page aims to have a list some unreferenced bugs that people will have to re
       * sage: graphs.FuzzyBallGraph?
       * sage: graphs.DorogovtsevGoltsevMendesGraph?
       * sage: graphs.RandomGNP?
+    * words generator without input:
+      * sage: words.CodingOfRotationWord?
 
 
 
