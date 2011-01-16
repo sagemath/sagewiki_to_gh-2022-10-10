@@ -15,6 +15,12 @@ This page aims to have a list some unreferenced bugs that people will have to re
       * IwahoriHeckeAlgebraT class (EXAMPLES)
   * INPUT or OUTPUT non-provided
     *  w = Word('12112') and w.conjugate? ("pos can be any integer")
+    *  w = Word('12112') and w.is_cadence? 
+    *  w = Word('12112') and w.return_words?
+    *  w = Word('12112') and w.complete_return_words?
+    *  w = Word('12112') and w.return_words_derivate?
+
+
 
 
 == whish list ==
