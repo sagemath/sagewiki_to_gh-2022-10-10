@@ -54,7 +54,7 @@ This page aims to have a list some unreferenced bugs that people will have to re
 
 
 
-== whish list ==
+== wish list ==
 
   * graphs : implement the [[http://en.wikipedia.org/wiki/Y-%CE%94_transform#Graph_theory|delta-y transformation]].
   * graphs : construction of the [[http://en.wikipedia.org/wiki/Petersen_family|Petersen family]].
@@ -76,3 +76,24 @@ This page aims to have a list some unreferenced bugs that people will have to re
    * combinat/yamanouchi.py: unintelligible definition (see Wikipedia http://en.wikipedia.org/wiki/Yamanouchi_word or Fulton, William (1997), Young tableaux, London Mathematical Society Student Texts, 35, Cambridge University Press, MR1464693, or M. Lothaire, Algebraic combinatorics on words, Encyclopedia of Mathematics 
    * combinat/lyndon_word.py: no definition of Lyndon word, no reference... see Lothaire, Algebraic combinatorics on words, p. 5, and http://en.wikipedia.org/wiki/Lyndon_word
    * algebras/quatalg/quaternion_algebra.py : more examples in the ramified_primes method
+
+== bugs listed during the talks and tutorials on Monday ==
+
+ * problèmes lors de l'effacement d'espaces initiaux d'une cellule unique dans une worksheet du notebook
+  * situation: nouvelle worksheet, la worksheet contient une seule cellule, on tape un ou plusieurs espaces dans la cellule
+  * action: on appuie sur la touche backspace
+  * effet (on attendrait l'effacement des espaces un par un):
+   * utilisateur 1: backspace ne produit aucun effet
+   * utilisateur 2: backspace efface la cellule
+ * KleinFourGroup first example bad rest syntax
+ * fonctionnement du notebook pas assez intuitif pour nouvel utilisateur
+ * petite croix pour fermer la doc dans le notebook (à côté de pop-out)
+ * appuyer 2 fois ou plus sur tab dans le notebook avec une chaîne du type "Graph("
+ * matrix(NN,[[..],..,[..]]) n'aime probablement que les anneaux mais ne le dit pas clairement
+ * docbuild: les cellules vides ne sont pas construites
+ * Partition: pp() -> pretty_print()
+  * note: similar functionality is offered by ferrers_diagram()
+ * Permutations(4).random_element? réécrire la doc
+ * ticket CartesianProduct().random_element
+ * la doc de IntegerVector devrait renvoyer à la doc de IntegerListsLex pour la liste des options
+ * a worksheet saved as a .txt can't be uploaded using an url from the notebook main page
