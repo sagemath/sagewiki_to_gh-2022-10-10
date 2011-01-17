@@ -22,7 +22,7 @@ Voici une liste numerotee de bugs que vous allez devoir reporter (puis eventuell
   1. apres "Here are two corner cases:", l'exemple n'est pas interprete : [[http://localhost:8000/doc/live/reference/sage/misc/functional.html]] 
   1. dans sage.misc.preparser.reset_load_attach_path, un "SAGE_LOAD_ATTACH_PATH" is compris comme du latex : [[http://localhost:8000/doc/live/reference/sage/misc/preparser.html]]
   1. cherchez l'enorme erreur ! : [[http://localhost:8000/doc/live/reference/sage/combinat/combinat.html]] 
-  1. : [[]]
+  1. dans les methodes FibonacciTree et HoffmanSingletonGraph, les exemples ne sont pas interpretes : [[http://localhost:8000/doc/live/reference/sage/graphs/graph_generators.html]]
   1. : [[]] 
   1. : [[]] 
   1. : [[]] 
