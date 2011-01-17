@@ -13,6 +13,9 @@ This page aims to have a list some unreferenced bugs that people will have to re
       * method is_interval() for graphs (AUTHOR)
       * KazhdanLusztigPolynomial class (EXAMPLES)
       * IwahoriHeckeAlgebraT class (EXAMPLES)
+  * Reference manual
+    * in the index some of the titles have an ending point some not...
+    * MISSING TITLE for Combinatorial Functions (first item in combinatorics)
   * INPUT or OUTPUT non-provided
     *  w = Word('12112') and 
       * w.conjugate? ("pos can be any integer")
