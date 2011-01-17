@@ -36,6 +36,8 @@ process.
 
   * ''09:30-10:30'' café + aide à l'installation de Sage
   * ''10:30-11:20'' introduction à Sage avec démonstration (NicolasThiéry)
+    [[http://combinat.sagemath.org/doc/reference/demos/2011-01-17-SageDays28.html|demo]]
+    [[attachment:2011-01-17-SageDays28.pdf|support]]
 
   * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO), présentation des participants
 
