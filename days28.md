@@ -50,6 +50,7 @@ process.
     * combinatoire usuelle (FlorentHivert)
       [[attachment:tutorial-basic-combinatorics.sws|Basic Combinatorics]]
     * combinatoire des mots (SébastienLabbé)
+      [[attachment:demo-words.txt]]
     * représentation du groupe symétrique: (VincentDelecroix)
 
 '''Mardi 18'''
