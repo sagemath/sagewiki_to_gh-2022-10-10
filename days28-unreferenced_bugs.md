@@ -1,6 +1,8 @@
 This page aims to have a list some unreferenced bugs that people will have to report on the trac server during the "how to report a bug" session. We need to find about 20 bugs, to be found among the sage documentation. You should mention which version of sage (4.6 or 4.6.1) is used.
 
 
+
+
 == documentation bugs ==
   * english error:  ':' should not be preceded by a space.
     * by file
