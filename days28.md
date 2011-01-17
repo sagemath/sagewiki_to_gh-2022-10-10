@@ -47,7 +47,8 @@ process.
   * ''14:45-15:00'' pause café
   * ''15:00-16:00'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (VincentDelecroix)
   * ''16:00-18:00'' démos et tutoriels autour de la combinatoire:
-    * combinatoire usuelle (FlorentHivert, NicolasThiéry)
+    * combinatoire usuelle (FlorentHivert)
+      [[attachment:tutorial-basic-combinatorics.sws|Basic Combinatorics]]
     * combinatoire des mots (SébastienLabbé)
     * représentation du groupe symétrique: (VincentDelecroix)
 
