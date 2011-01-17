@@ -1,13 +1,9 @@
 = Sage Days 28: Dynamics, geometry, ... =
 
 This workshop will offer a gentle introduction to the open source mathematical software [[www.sagemath.org|Sage]], with an
-emphasis on dynamics and geometry.
+emphasis on dynamics and geometry. Talks will be in French or English depending on the participants.
 
-Talks will be in French or English depending on the participants.
-
-== Dates ==
-
-17 to 19 January 2011
+== Dates: 17 to 19 January 2011 ==
 
 Some people will stay for the whole week (Jan 17 - 21) to develop.
 
@@ -26,11 +22,11 @@ Tea/coffee will be served in the tea room in the first floor of the same buildin
 
 Please bring your laptop for the tutorial sessions (we will have a few
 spare laptops if you really do not have one). Also, if you do not have
-the latest version of Sage (4.6) installed on your laptop, please make
+the latest version of Sage (4.6.1) installed on your laptop, please make
 sure to come at 9:30 on Monday so that we can guide you through the
 process.
 
-== Preliminary program ==
+== Programme ==
 
 '''Lundi 17'''
 
@@ -55,10 +51,10 @@ process.
 
 '''Mardi 18'''
 
-  * ''9h30-10h30''  tutoriel: programmation Python/Sage (FlorentHivert) Voir [[attachment:TPProg.pdf]]
+  * ''09:30-10:30'' tutoriel: programmation Python/Sage (FlorentHivert) Voir [[attachment:TPProg.pdf]]
 
-  * ''10h30-10h50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
-  * ''10h50-11h30'' tutoriel: contribuer à Sage (SébastienLabbé)
+  * ''10:30-10:50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
+  * ''10:50-11:30'' tutoriel: contribuer à Sage (SébastienLabbé)
 
   * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
 
@@ -70,11 +66,13 @@ process.
 
 '''Mercredi 19'''
 
-Le programme de cette journée sera fixé le lundi, avec les participants. Thèmes:
+  * ''10:00-11:30'' tutoriel: contribuer à Sage-combinat (ThierryMonteil)
 
-  * tutoriel: contribuer à Sage-Combinat (ThierryMonteil)
-  * discussions: combinatoire analytique, génération aléatoire/exhaustive
-  * discussion et démo: intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)
+  * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
+
+  * ''13:00-14:00'' discussion et démo: intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)  (Felix Effenberger, Jonathan Spreer)
+  * ''14:00-16:00'' tutoriel: combinatoire analytique, génération aléatoire/exhaustive
+  * ''16:00-17:00'' itération, classes...
 
 == Material for the talks, demos, and tutorials ==
 
@@ -87,12 +85,11 @@ Le programme de cette journée sera fixé le lundi, avec les participants. Thèm
 
 == Registration ==
 
- [[https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ|registration form]]
+Registration is encouraged using this [[https://spreadsheets.google.com/viewform?formkey=dDJxN09tUkRJY0dUWDBHSDhMcUI4Y0E6MQ|registration form]] (this will help plan appropriate amounts of drinks and snacks), but you can still attend if you haven't registered in advance.
 
 == Contact ==
 
-For any additional queries, contact Samuel Lelièvre <samuel.lelievre+days28@gmail.com>.
-If needed, call 0661749080.
+For any additional queries, contact Samuel Lelièvre <samuel.lelievre+days28@gmail.com>. If needed, call 0661749080.
 
 == Projects and topics of discussions ==
 
