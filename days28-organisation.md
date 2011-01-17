@@ -2,6 +2,9 @@
 
 [[days28-unreferenced_bugs]]
 
+
+[[days28-bugs_to_report]]
+
 === Programme ===
 
 Y'a t-il des orateurs invités ?
