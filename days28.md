@@ -42,6 +42,7 @@ process.
   * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO), présentation des participants
 
   * ''13:00-13:20'' tutoriel: prise en main de Sage (VincentDelecroix)
+    [[attachement:tutorial-notebook-and-help-long.rst|Notebook and Help]]
   * ''13:20-14:45'' tutoriel: mathématiques de premier cycle avec Sage (NicolasThiéry?)
   * ''14:45-15:00'' pause café
   * ''15:00-16:00'' les surfaces à petits carreaux : "combinatoire de permutations et connexité d'espaces de revêtements" (VincentDelecroix)
