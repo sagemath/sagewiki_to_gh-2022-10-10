@@ -59,6 +59,7 @@ This page aims to have a list some unreferenced bugs that people will have to re
   * graphs : implement the [[http://en.wikipedia.org/wiki/Y-%CE%94_transform#Graph_theory|delta-y transformation]].
   * graphs : construction of the [[http://en.wikipedia.org/wiki/Petersen_family|Petersen family]].
   * crypto : implement the [[http://en.wikipedia.org/wiki/Enigma_machine|enigma cryptosystem]].
+  * Subsets : implement subsets of an infinite set. 
 
 
 == other bugs ==
