@@ -47,7 +47,6 @@ process.
       [[attachment:tutorial-basic-combinatorics.sws|Basic Combinatorics]]
     * combinatoire des mots (SébastienLabbé)
       [[attachment:demo-words.txt]]
-    * représentation du groupe symétrique: (VincentDelecroix)
 
 '''Mardi 18'''
 
@@ -63,7 +62,7 @@ process.
   * ''15:00-15:30'' tutoriel: graphes (Nathann Cohen)
   * ''15:30-16:30'' tutoriel: échange d'intervalles (VincentDelecroix)
   * ''16:30-17:30'' tutoriel: surfaces à petit carreaux (VincentDelecroix)
-
+  
 '''Mercredi 19'''
 
   * ''10:00-11:30'' tutoriel: contribuer à Sage-combinat (ThierryMonteil)
