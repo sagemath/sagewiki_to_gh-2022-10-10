@@ -21,7 +21,7 @@ habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery
 
 Voici une liste numerotee de bugs que vous allez devoir reporter. Notez que ce bug sera fixe par votre voisin-e dans l'expose suivant, donc essayez de lui faire comprendre le probleme !
 
-Quoi remplir?
+Aide: quoi remplir?
   * Type: defect
   * Keywords: beginner, days28, ... (le mot clef beginner est la pour permettre aux nouveaux codeurs de se faire les dents, ces tickets sont listes separement dans le "View tickets")
   * Priority: minor
@@ -33,6 +33,7 @@ Quoi remplir?
 Remarque: tous ces champs peuvent etre modifies a tout moment, et a chaque changement, les personnes mises en cc recevront un mail.
 
 
+Liste des bugs a reporter:
   1. un point dans le titre en trop en haut : [[http://localhost:8000/doc/live/reference/sage/calculus/calculus.html]]
   1. un bloc d'exemple n'est pas interactif : [[http://localhost:8000/doc/live/reference/sage/combinat/cartesian_product.html]] 
   1. dans la methode fatter, mettre les O(size(n)) en expression math : [[http://localhost:8000/doc/live/reference/sage/combinat/composition.html]]
