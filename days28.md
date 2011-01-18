@@ -79,7 +79,8 @@ All the demos and tutorials (in format .rst and .txt) are in the following archi
 '''Mercredi 19'''
 
  * ''10:00-11:30'' tutoriel: contribuer à Sage-combinat (ThierryMonteil)
-
+  * [[combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png]]
+  * [[combinat/MercurialStepByStep]]
  * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
 
  * ''13:00-14:00'' discussion et démo: intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)  (Felix Effenberger, Jonathan Spreer)
