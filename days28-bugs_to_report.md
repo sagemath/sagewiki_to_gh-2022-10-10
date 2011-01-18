@@ -1,3 +1,5 @@
+<<TableOfContents()>>
+
 shoutbox = bouton feu rouge pieton ?
 
 == Creer un compte sur le serveur trac ==
@@ -8,8 +10,10 @@ habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery
 
 == Reporter un bug ==
   * Cliquer sur le lien "New ticket"
-  * Remplir les champs
+  * Remplir les champs (voir plus bas)
   * Sauvegarder
+
+Remarque: un ticket ne doit pas representer une tache insurmontable (ex: "Please could you implement species")
 
 
 == Exemple de workflow ==
@@ -17,11 +21,11 @@ habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery
 
 
 == Exercice sans filet ==
-[Pour pouvoir lire les liens suivants, **lancez votre notebook**]
+Indication: pour pouvoir lire les liens suivants, **lancez votre notebook**
 
 Voici une liste numerotee de bugs que vous allez devoir reporter. Notez que ce bug sera fixe par votre voisin-e dans l'expose suivant, donc essayez de lui faire comprendre le probleme !
 
-Aide: quoi remplir?
+=== Aide: quels champs remplir pour ce type de bugs ===
   * Type: defect
   * Keywords: beginner, days28, ... (le mot clef beginner est la pour permettre aux nouveaux codeurs de se faire les dents, ces tickets sont listes separement dans le "View tickets")
   * Priority: minor
@@ -32,8 +36,10 @@ Aide: quoi remplir?
 
 Remarque: tous ces champs peuvent etre modifies a tout moment, et a chaque changement, les personnes mises en cc recevront un mail.
 
+Remarque: les champs restants (author, reviewer,...) se rempliront au fil du temps.
 
-Liste des bugs a reporter:
+
+=== Liste des bugs a reporter ===
   1. un point dans le titre en trop en haut : [[http://localhost:8000/doc/live/reference/sage/calculus/calculus.html]]
   1. un bloc d'exemple n'est pas interactif : [[http://localhost:8000/doc/live/reference/sage/combinat/cartesian_product.html]] 
   1. dans la methode fatter, mettre les O(size(n)) en expression math : [[http://localhost:8000/doc/live/reference/sage/combinat/composition.html]]
@@ -56,9 +62,10 @@ Liste des bugs a reporter:
   1. pas de point dans le titre : [[http://localhost:8000/doc/live/reference/sage/calculus/functional.html]]
 
 
-Si ca vous suffit pas, faites-vous les dents sur [[days28-unreferenced_bugs]] et sur ce qui est inscrit au tableau. Vous pouvez aussi rajouter des demandes de nouvelles fonctionalitesn, dans ce cas, remplacez "defect" par "enhancement".
+=== Du rab ===
+Si ca vous suffit pas, faites-vous les dents sur [[days28-unreferenced_bugs]] et sur ce qui est inscrit au tableau. Vous pouvez aussi rajouter des demandes de nouvelles fonctionalites, dans ce cas, remplacez "defect" par "enhancement".
 
 
-== Pour gagner du temps pour le prochain expose ==
+
+== Avant le café, gagner du temps pour le prochain expose ==
 # sage -clone brouillon
- 
