@@ -1,3 +1,5 @@
+shoutbox = bouton feu rouge pieton ?
+
 == Creer un compte sur le serveur trac ==
 [[http://trac.sagemath.org/sage_trac/]] (lien Register en haut a droite).
 
@@ -14,7 +16,7 @@ habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery
 [[http://trac.sagemath.org/sage_trac/ticket/10063]]
 
 
-=== Exo ===
+== Exercice sans filet ==
 [Pour pouvoir lire les liens suivants, **lancez votre notebook**]
 
 Voici une liste numerotee de bugs que vous allez devoir reporter. Notez que ce bug sera fixe par votre voisin-e dans l'expose suivant, donc essayez de lui faire comprendre le probleme !
