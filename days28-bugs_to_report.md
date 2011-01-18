@@ -55,9 +55,9 @@ Remarques:
 === Liste des bugs a reporter ===
   1. un point dans le titre en trop en haut : [[http://localhost:8000/doc/live/reference/sage/calculus/calculus.html]]
   1. un bloc d'exemple n'est pas interactif : [[http://localhost:8000/doc/live/reference/sage/combinat/cartesian_product.html]] 
-  1. dans la methode fatter, mettre les O(size(n)) en expression math : [[http://localhost:8000/doc/live/reference/sage/combinat/composition.html]]
+  1. #10643. dans la methode fatter, mettre les O(size(n)) en expression math : [[http://localhost:8000/doc/live/reference/sage/combinat/composition.html]]
   1. dans la methode keys(), l'exemple n'est pas compris comme tel : [[http://localhost:8000/doc/live/reference/sage/combinat/finite_class.html]]
-  1. #10643. dans la description de la classe sage.combinat.integer_vector.IntegerVectors_nnondescents les formules c[1]+...+c[k] ne sont pas en mode math: [[http://localhost:8000/doc/live/reference/sage/combinat/integer_vector.html]]
+  1. dans la description de la classe sage.combinat.integer_vector.IntegerVectors_nnondescents les formules c[1]+...+c[k] ne sont pas en mode math: [[http://localhost:8000/doc/live/reference/sage/combinat/integer_vector.html]]
   1. dans la classe sage.misc.abstract_method.AbstractMethod, ..topic: Discussion et ..topic: Implementation details (il faudra changer topic par rubric) : [[http://localhost:8000/doc/live/reference/sage/misc/abstract_method.html]]
   1. dans Dynamic classes, ..topic: non-interprete : [[http://localhost:8000/doc/live/reference/sage/structure/dynamic_class.html]] 
   1. dans sage.misc.package.install_all_optional_packages, les arguments et True et False doivent etre mis en mode verbatim, et les examples doivent etre interpretes comme tels : [[http://localhost:8000/doc/live/reference/sage/misc/package.html]]
