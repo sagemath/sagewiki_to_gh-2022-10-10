@@ -66,7 +66,10 @@ All the demos and tutorials (in format .rst and .txt) are in the following archi
   * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
 
   * ''13:00-14:00'' tutoriel: utiliser des structures algébriques: espaces vectoriels, ... (FlorentHivert, NicolasThiéry)
+      [[attachment:tutorial-using-free-modules.txt]]
+
   * ''14:00-15:00'' tutoriel: implanter ses propres structures algébriques (FlorentHivert, NicolasThiéry)
+      [[attachment:tutorial-implementing-algebraic-structures.txt]]
   * ''15:00-15:30'' tutoriel: graphes (Nathann Cohen)
   * ''15:30-16:30'' tutoriel: échange d'intervalles (VincentDelecroix)
   * ''16:30-17:30'' tutoriel: surfaces à petit carreaux (VincentDelecroix)
