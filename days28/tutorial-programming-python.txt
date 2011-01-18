@@ -1,0 +1,1541 @@
+<span id="tutorial-programming-python"></span><h1>Tutorial: Programming in Python and Sage</h1>
+
+
+</pre><p>This tutorial is an introduction to basic programming in Python/Sage. The
+reader is supposed to know the elementary notions of programming but is not
+supposed to be familiar with the Python language. The memo given here are far
+from being exhaustive. In case you need a more complete tutorial, you can have
+a look at the <a class="reference external" href="http://docs.python.org/release/2.6.4/tutorial/index.html">Python Tutorial</a>. Also Python's
+<a class="reference external" href="http://docs.python.org/release/2.6.4/">documentation</a> and in particular the
+<a class="reference external" href="http://docs.python.org/release/2.6.4/library">standard library</a> can be
+useful.</p>
+<p>A <a href="#id1"><span class="problematic" id="id2">:ref:`more advanced tutorial &lt;tutorial-objects-and-classes&gt;`</span></a>
+presents the notions of objects and classes in Python.</p>
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-programming-python.rst</tt>, line 20); <em><a href="#id2">backlink</a></em></p>
+Unknown interpreted text role &quot;ref&quot;.
+<p>Here is a further list of resources for people wanting to learn Python:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.korokithakis.net/tutorials/python">Learn Python in 10 minutes</a> ou en français
+<a class="reference external" href="http://mat.oxyg3n.org/index.php?post/2009/07/26/Python-en-10-minutes">Python en 10 minutes</a></li>
+<li><a class="reference external" href="http://diveintopython.org/">Dive into Python</a>
+is a Python book for experienced programmers. Also available in French,
+<a class="reference external" href="http://diveintopython.adrahon.org/">Plongez au coeur de Python</a>, and
+<a class="reference external" href="http://diveintopython.org/#languages">other languages</a>.</li>
+<li><a class="reference external" href="http://www.ibm.com/developerworks/views/opensource/libraryview.jsp?search_by=Discover+Python+Part|">Discover Python</a>
+is a series of articles published in IBM's <a class="reference external" href="http://www.ibm.com/developerworks/">developerWorks</a> technical resource center.</li>
+</ul>
+
+<h2>Data structures</h2>
+<p>In Python, <em>typing is dynamic</em>; there is no such thing as declaring
+variables. The function <tt class="docutils literal"><span class="pre">type</span></tt> returns the type of an object <tt class="docutils literal"><span class="pre">obj</span></tt>. To
+convert an object to a type <tt class="docutils literal"><span class="pre">typ</span></tt> just write <tt class="docutils literal"><span class="pre">typ(obj)</span></tt> as in
+<tt class="docutils literal"><span class="pre">int(&quot;123&quot;)</span></tt>. The command <tt class="docutils literal"><span class="pre">isinstance(ex,</span> <span class="pre">typ)</span></tt> returns whether the
+expression <tt class="docutils literal"><span class="pre">ex</span></tt> is of type <tt class="docutils literal"><span class="pre">typ</span></tt>. Specifically, any value is <em>an instance
+of a class</em> and there is no difference between classes and types.</p>
+<p>The symbol <tt class="docutils literal"><span class="pre">=</span></tt> denotes the affectation to a variable; it should not
+be confused with <tt class="docutils literal"><span class="pre">==</span></tt> which denotes mathematical
+equality. Inequality is <tt class="docutils literal"><span class="pre">!=</span></tt>.</p>
+<p>The <em>standard types</em> are <tt class="docutils literal"><span class="pre">bool</span></tt>, <tt class="docutils literal"><span class="pre">int</span></tt>, <tt class="docutils literal"><span class="pre">list</span></tt>, <tt class="docutils literal"><span class="pre">tuple</span></tt>, <tt class="docutils literal"><span class="pre">set</span></tt>,
+<tt class="docutils literal"><span class="pre">dict</span></tt>, <tt class="docutils literal"><span class="pre">str</span></tt>.</p>
+<ul>
+<li><p class="first">The type <tt class="docutils literal"><span class="pre">bool</span></tt> (<em>Booleans</em>) takes two values: <tt class="docutils literal"><span class="pre">True</span></tt> and <tt class="docutils literal"><span class="pre">False</span></tt>. The
+boolean operator are denoted by their names <tt class="docutils literal"><span class="pre">or</span></tt>, <tt class="docutils literal"><span class="pre">and</span></tt>, <tt class="docutils literal"><span class="pre">not</span></tt>.</p>
+</li>
+<li><p class="first">Sage uses <em>exact arithmetic</em> on the integers. For performance reason, it
+uses its own type named <tt class="docutils literal"><span class="pre">Integer</span></tt> (whereas python uses the types <tt class="docutils literal"><span class="pre">int</span></tt>
+and <tt class="docutils literal"><span class="pre">long</span></tt>).</p>
+</li>
+<li><p class="first">A <em>list</em> is a data structure which groups values. It is constructed using
+brackets as in <tt class="docutils literal"><span class="pre">[1,</span> <span class="pre">3,</span> <span class="pre">4]</span></tt>. The <tt class="docutils literal"><span class="pre">range</span></tt> function creates integer
+lists. One can also create lists using <em>list comprehension</em>:</p>
+<pre class="literal-block">
+[ &lt;expr&gt; for &lt;name&gt; in &lt;iterable&gt; (if &lt;condition&gt;) ]
+
+</pre><p>For example:</p>
+
+{{{id=0|
+[ i^2 for i in range(10) if i % 2 == 0 ]
+///
+[0, 4, 16, 36, 64]
+}}}
+
+</li>
+<li><p class="first">A <em>tuple</em> is very similar to a list; it is constructed using
+parentheses. The empty tuple is obtained by <tt class="docutils literal"><span class="pre">()</span></tt> or by the
+constructor <tt class="docutils literal"><span class="pre">tuple()</span></tt>. If there is only one element, one has to
+write <tt class="docutils literal"><span class="pre">(a,)</span></tt>. A tuple is <em>immutable</em> (one cannot change it) but it
+is <em>hashable</em> (see below). One can also create tuples using
+comprehensions:</p>
+
+{{{id=1|
+tuple(i^2 for i in range(10) if i % 2 == 0)
+///
+(0, 4, 16, 36, 64)
+}}}
+
+</li>
+<li><p class="first">A <em>set</em> is a data structure which contains values without
+multiplicities or order. One creates it from a list (or any
+iterable) with the constructor <tt class="docutils literal"><span class="pre">set()</span></tt>. The elements of a set must
+be hashable:</p>
+
+{{{id=2|
+set([2,2,1,4,5])
+///
+set([1, 2, 4, 5])
+}}}
+
+</li>
+<li><p class="first">A <em>dictionary</em> is an association table, which associate values to
+keys. Keys must be hashable. One creates dictionaries using the
+constructor <tt class="docutils literal"><span class="pre">dict</span></tt>, or using the syntax:</p>
+<pre class="literal-block">
+{&nbsp;key1 : value1, key2 : value2 ...}&nbsp;
+
+</pre><p>For example:</p>
+
+{{{id=3|
+age = {'toto' : 8, 'mom' : 27}; age
+///
+{'toto': 8, 'mom': 27}
+}}}
+
+</li>
+<li><p class="first">Quotes (simple <tt class="docutils literal"><span class="pre">'</span> <span class="pre">'</span></tt> or double <tt class="docutils literal"><span class="pre">&quot;</span> <span class="pre">&quot;</span></tt>) encloses <em>character
+strings</em>. One can concatenate them using <tt class="docutils literal"><span class="pre">+</span></tt>.</p>
+</li>
+<li><p class="first">For lists, tuples, strings, and dictionaries, the <em>indexing
+operator</em> is written <tt class="docutils literal"><span class="pre">l[i]</span></tt>. For lists, tuples, and strings one
+can also uses <em>slices</em> as <tt class="docutils literal"><span class="pre">l[:]</span></tt>, <tt class="docutils literal"><span class="pre">l[:b]</span></tt>, <tt class="docutils literal"><span class="pre">l[a:]</span></tt>, or
+<tt class="docutils literal"><span class="pre">l[a:b]</span></tt>. Negative indices start from the end.</p>
+</li>
+<li><p class="first">The <tt class="docutils literal"><span class="pre">len</span></tt> function returns the number of elements of a list, a
+tuple, a set, a string, or a dictionary. One writes <tt class="docutils literal"><span class="pre">x</span> <span class="pre">in</span> <span class="pre">C</span></tt> to
+tests whether <tt class="docutils literal"><span class="pre">x</span></tt> is in <tt class="docutils literal"><span class="pre">C</span></tt>.</p>
+</li>
+<li><p class="first">Finally there is a special value called <tt class="docutils literal"><span class="pre">None</span></tt> to denote the
+absence of a value.</p>
+</li>
+</ul>
+
+
+<h2>Control structures</h2>
+<p>In Python, there is no keyword for the beginning and the end of an
+instructions block. Blocks are delimited thanks to indentation. Most
+of the time a new block is introduced by <tt class="docutils literal"><span class="pre">:</span></tt>. Python has the
+following control structures:</p>
+<ul>
+<li><p class="first">Conditional instruction:</p>
+<pre class="literal-block">
+if &lt;condition&gt;:
+    &lt;instruction sequence&gt;
+[elif &lt;condition&gt;:
+    &lt;instruction sequence&gt;]*
+[else:
+    &lt;instruction sequence&gt;]
+
+</pre></li>
+<li><p class="first">Inside expression exclusively, one can write:</p>
+<pre class="literal-block">
+&lt;value&gt; if &lt;condition&gt; else &lt;value&gt;
+
+</pre></li>
+<li><p class="first">Iterative instructions:</p>
+<pre class="literal-block">
+for &lt;name&gt; in &lt;iterable&gt;:
+    &lt;instruction sequence&gt;
+[else:
+    &lt;instruction sequence&gt;]
+
+</pre><pre class="literal-block">
+while &lt;condition&gt;:
+    &lt;instruction sequence&gt;
+[else:
+    &lt;instruction sequence&gt;]
+
+</pre><p>The <tt class="docutils literal"><span class="pre">else</span></tt> bloc is executed at the end of the loop if the loop is
+ended normally, that is neither by a <tt class="docutils literal"><span class="pre">break</span></tt> nor an exception.</p>
+</li>
+<li><p class="first">In a loop, <tt class="docutils literal"><span class="pre">continue</span></tt> jumps to the next iteration.</p>
+</li>
+<li><p class="first">An iterable is an object which can be iterated through. Iterable
+types include lists, tuples, dictionaries, and strings.</p>
+</li>
+<li><p class="first">An error (also called exception) is raised by:</p>
+<pre class="literal-block">
+raise &lt;ErrorType&gt; [, error message]
+
+</pre><p>Usual errors includes <tt class="docutils literal"><span class="pre">ValueError</span></tt> and <tt class="docutils literal"><span class="pre">TypeError</span></tt>.</p>
+</li>
+</ul>
+
+
+<h2>Functions</h2>
+
+<p class="first admonition-title">Note</p>
+<p>Python functions vs. mathematical functions</p>
+<p class="last">In what follows, we deal with <em>functions</em> is the sense of
+<em>programming languages</em>. Mathematical functions are handled by
+sage in a different way. In particular it doesn't make sense to do
+mathematical manipulation such as additions or derivations on
+Python functions.</p>
+
+<p>One defines a function using the keyword <tt class="docutils literal"><span class="pre">def</span></tt> as</p>
+<pre class="literal-block">
+def &lt;name&gt;(&lt;argument list&gt;):
+     &lt;instruction sequence&gt;
+
+</pre><p>The result of the function is given by the instruction
+<tt class="docutils literal"><span class="pre">return</span></tt>. Very short functions can be created anonymously using
+<tt class="docutils literal"><span class="pre">lambda</span></tt> (remark that there is no return here):</p>
+<pre class="literal-block">
+lambda &lt;arguments&gt;: &lt;expression&gt;
+
+</pre><p class="first admonition-title">Note</p>
+<p>(functional programming)</p>
+<p class="last">Functions are objects as any other objects. One can assign them to
+variables or return them.</p>
+
+
+
+
+<h1>Exercises</h1>
+
+<h2>Lists</h2>
+
+<h3>Creating Lists I: [Square brackets]</h3>
+<p><strong>Example:</strong></p>
+
+{{{id=4|
+L = [3, Permutation([5,1,4,2,3]), 17, 17, 3, 51]
+L
+///
+[3, [5, 1, 4, 2, 3], 17, 17, 3, 51]
+}}}
+
+<p><strong>Exercise:</strong> Create the list $[63, 12, -10, 'a', 12]$, assign it to
+the variable <tt class="docutils literal"><span class="pre">L</span></tt>, and print the list.</p>
+
+{{{id=5|
+
+///
+}}}
+
+<p><strong>Exercise:</strong> Create the empty list (you will often need to do this).</p>
+
+{{{id=6|
+
+///
+}}}
+
+<h3>Creating Lists II: range</h3>
+<p>The <em>range</em> function provides an easy way to construct a list of
+integers. Here is the documentation of the <em>range</em> function:</p>
+<pre class="literal-block">
+range([start,] stop[, step]) -&gt; list of integers
+
+Return a list containing an arithmetic progression of integers.
+range(i, j) returns [i, i+1, i+2, ..., j-1]; start (!) defaults to 0.
+When step is given, it specifies the increment (or decrement). For
+example, range(4) returns [0, 1, 2, 3].  The end point is omitted!
+These are exactly the valid indices for a list of 4 elements.
+
+</pre><p><strong>Exercise:</strong> Use <em>range</em> to construct the list $[1,2,ldots,50]$.</p>
+
+{{{id=7|
+
+///
+}}}
+
+<p><strong>Exercise:</strong> Use <em>range</em> to construct the list of <em>even</em> numbers
+between 1 and 100 (including 100).</p>
+
+{{{id=8|
+
+///
+}}}
+
+<p><strong>Exercise:</strong> The <em>step</em> argument for the <em>range</em> command can be negative. Use
+<em>range</em> to construct the list $[10, 7, 4, 1, -2]$.</p>
+
+{{{id=9|
+
+///
+}}}
+
+<h3>Creating Lists III: list comprehensions</h3>
+<p><em>List comprehensions</em> provide a concise way to create lists from other lists
+(or other data types).</p>
+<p><strong>Example</strong> We already know how to create the list $[1, 2, dots, 16]$:</p>
+
+{{{id=10|
+range(1,17)
+///
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+}}}
+
+<p>Using a <em>list comprehension</em>, we can now create the list
+$[1^2, 2^2, 3^2, dots, 16^2]$ as follows:</p>
+
+{{{id=11|
+[i^2 for i in range(1,17)]
+///
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256]
+}}}
+
+
+{{{id=12|
+sum([i^2 for i in range(1,17)])
+///
+1496
+}}}
+
+<p><strong>Exercice:</strong></p>
+<p>The sum of the squares of the first ten natural numbers is</p>
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-programming-python.rst</tt>, line 301)</p>
+<p>Unknown directive type &quot;math&quot;.</p>
+<pre class="literal-block">
+.. math:: (1^2 + 2^2 + ... + 10^2) = 385
+
+
+</pre><p>The square of the sum of the first ten natural numbers is</p>
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-programming-python.rst</tt>, line 305)</p>
+<p>Unknown directive type &quot;math&quot;.</p>
+<pre class="literal-block">
+.. math:: (1 + 2 + ... + 10)^2 = 55^2 = 3025
+
+
+</pre><p>Hence the difference between the sum of the squares of the first ten natural
+numbers and the square of the sum is</p>
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-programming-python.rst</tt>, line 310)</p>
+<p>Unknown directive type &quot;math&quot;.</p>
+<pre class="literal-block">
+.. math:: 3025 - 385 = 2640
+
+
+</pre><p>Find the difference between the sum of the squares of the first one hundred
+natural numbers and the square of the sum.</p>
+
+{{{id=13|
+
+///
+}}}
+
+
+{{{id=14|
+
+///
+}}}
+
+
+{{{id=15|
+
+///
+}}}
+
+<h4>Filtering lists with a list comprehension</h4>
+<p>A list can be <em>filtered</em> using a list comprehension.</p>
+<p><strong>Example:</strong> To create a list of the squares of the prime numbers between 1
+and 100, we use a list comprehension as follows.</p>
+
+{{{id=16|
+[p^2 for p in [1,2,..,100] if is_prime(p)]
+///
+[4, 9, 25, 49, 121, 169, 289, 361, 529, 841, 961, 1369, 1681, 1849, 2209, 2809, 3481, 3721, 4489, 5041, 5329, 6241, 6889, 7921, 9409]
+}}}
+
+<p><strong>Exercise:</strong> Use a <em>list comprehension</em> to list all the natural numbers below
+20 that are multiples of 3 or 5. Hint:</p>
+<ul class="simple">
+<li>To get the remainder of 7 divided by 3 use <em>7%3</em>.</li>
+<li>To test for equality use two equal signs (<em>==</em>); for example, <em>3 == 7</em>.</li>
+</ul>
+
+{{{id=17|
+
+///
+}}}
+
+<h4>Nested list comprehensions</h4>
+<p>List comprehensions can be nested!</p>
+<p><strong>Examples:</strong></p>
+
+{{{id=18|
+[(x,y) for x in range(5) for y in range(3)]
+///
+[(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2), (3, 0), (3, 1), (3, 2), (4, 0), (4, 1), (4, 2)]
+}}}
+
+
+{{{id=19|
+[[i^j for j in range(1,4)] for i in range(6)]
+///
+[[0, 0, 0], [1, 1, 1], [2, 4, 8], [3, 9, 27], [4, 16, 64], [5, 25, 125]]
+}}}
+
+
+{{{id=20|
+matrix([[i^j for j in range(1,4)] for i in range(6)])
+///
+[  0   0   0][  1   1   1][  2   4   8][  3   9  27][  4  16  64][  5  25 125]
+}}}
+
+<p><strong>Exercise:</strong></p>
+<p>A <em>Pythagorean triple</em> is a triple $(x,y,z)$ of <em>positive</em> integers satisfying
+$x^2+y^2=z^2$. The Pythagorean triples whose components are at most $10$ are:</p>
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-programming-python.rst</tt>, line 398)</p>
+<p>Unknown directive type &quot;math&quot;.</p>
+<pre class="literal-block">
+.. math:: [(3, 4, 5), (4, 3, 5), (6, 8, 10), (8, 6, 10)]\,.
+
+
+</pre><p>Using a filtered list comprehension, construct the list of Pythagorean triples
+whose components are at most $50$.</p>
+
+{{{id=21|
+
+///
+}}}
+
+
+{{{id=22|
+
+///
+}}}
+
+<h3>Accessing individual elements of lists</h3>
+<p>To access an element of the list, use the syntax <tt class="docutils literal"><span class="pre">L[i]</span></tt>, where $i$ is the
+index of the item.</p>
+<p><strong>Exercise:</strong></p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">Construct the list <tt class="docutils literal"><span class="pre">L</span> <span class="pre">=</span> <span class="pre">[1,2,3,4,3,5,6]</span></tt>. What is <tt class="docutils literal"><span class="pre">L[3]</span></tt>?</p>
+
+{{{id=23|
+
+///
+}}}
+
+</li>
+<li><p class="first">What is <tt class="docutils literal"><span class="pre">L[1]</span></tt>?</p>
+
+{{{id=24|
+
+///
+}}}
+
+</li>
+<li><p class="first">What is the index of the first element of <tt class="docutils literal"><span class="pre">L</span></tt>?</p>
+
+{{{id=25|
+
+///
+}}}
+
+</li>
+<li><p class="first">What is <tt class="docutils literal"><span class="pre">L[-1]</span></tt>? What is <tt class="docutils literal"><span class="pre">L[-2]</span></tt>?</p>
+
+{{{id=26|
+
+///
+}}}
+
+</li>
+<li><p class="first">What is <tt class="docutils literal"><span class="pre">L.index(2)</span></tt>? What is <tt class="docutils literal"><span class="pre">L.index(3)</span></tt>?</p>
+
+{{{id=27|
+
+///
+}}}
+
+</li>
+</ol>
+</blockquote>
+
+
+<h3>Modifying lists: changing an element in a list</h3>
+<p>To change the item in position <tt class="docutils literal"><span class="pre">i</span></tt> of a list <tt class="docutils literal"><span class="pre">L</span></tt>:</p>
+
+{{{id=28|
+L = [&quot;a&quot;, 4, 1, 8]
+L
+///
+['a', 4, 1, 8]
+}}}
+
+<!-- link -->
+
+{{{id=29|
+L[2] = 0
+L
+///
+['a', 4, 0, 8]
+}}}
+
+<h3>Modifying lists: append and extend</h3>
+<p>To <em>append</em> an object to a list:</p>
+
+{{{id=30|
+L = [&quot;a&quot;, 4, 1, 8]
+L
+///
+['a', 4, 1, 8]
+}}}
+
+<!-- link -->
+
+{{{id=31|
+L.append(17)
+L
+///
+['a', 4, 1, 8, 17]
+}}}
+
+<p>To <em>extend</em> a list by another list:</p>
+
+{{{id=32|
+L1 = [1,2,3]
+L2 = [7,8,9,0]
+print L1
+///
+[1, 2, 3]
+}}}
+
+{{{id=33|
+print L2
+///
+[7, 8, 9, 0]
+}}}
+
+<!-- link -->
+
+{{{id=34|
+L1.extend(L2)
+L1
+///
+[1, 2, 3, 7, 8, 9, 0]
+}}}
+
+<h3>Modifying lists: reverse, sort, ...</h3>
+
+{{{id=35|
+L = [4,2,5,1,3]
+L
+///
+[4, 2, 5, 1, 3]
+}}}
+
+<!-- link -->
+
+{{{id=36|
+L.reverse()
+L
+///
+[3, 1, 5, 2, 4]
+}}}
+
+<!-- link -->
+
+{{{id=37|
+L.sort()
+L
+///
+[1, 2, 3, 4, 5]
+}}}
+
+
+{{{id=38|
+L = [3,1,6,4]
+sorted(L)
+///
+[1, 3, 4, 6]
+}}}
+
+<!-- link -->
+
+{{{id=39|
+L
+///
+[3, 1, 6, 4]
+}}}
+
+<h3>Concatenating Lists</h3>
+<p>To concatenate two lists, add them with the operator <tt class="docutils literal"><span class="pre">+</span></tt>. This is not a commutative operation....</p>
+
+{{{id=40|
+L1 = [1,2,3]
+L2 = [7,8,9,0]
+L1 + L2
+///
+[1, 2, 3, 7, 8, 9, 0]
+}}}
+
+<h3>Slicing Lists</h3>
+<p>You can slice a list using the syntax <tt class="docutils literal"><span class="pre">L[start</span> <span class="pre">:</span> <span class="pre">stop</span> <span class="pre">:</span> <span class="pre">step]</span></tt>. This will
+return a sublist of <tt class="docutils literal"><span class="pre">L</span></tt>.</p>
+<p><strong>Exercise:</strong> Below are some examples of slicing lists. Try to guess what the output will be before evaluating the cell.</p>
+
+{{{id=41|
+L = range(20)
+L
+///
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+}}}
+
+<!-- link -->
+
+{{{id=42|
+L[3:15]
+///
+[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+}}}
+
+<!-- link -->
+
+{{{id=43|
+L[3:15:2]
+///
+[3, 5, 7, 9, 11, 13]
+}}}
+
+<!-- link -->
+
+{{{id=44|
+L[15:3:-1]
+///
+[15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+}}}
+
+<!-- link -->
+
+{{{id=45|
+L[:4]
+///
+[0, 1, 2, 3]
+}}}
+
+<!-- link -->
+
+{{{id=46|
+L[:]
+///
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+}}}
+
+<!-- link -->
+
+{{{id=47|
+L[::-1]
+///
+[19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+}}}
+
+<p><strong>Advanced exercise:</strong> The following function combines a loop with the some of
+the list operations above. What does the function do?</p>
+
+{{{id=48|
+def f(number_of_iterations):
+       L = [1]
+       for n in range(2, number_of_iterations):
+           L = [sum(L[:i]) for i in range(n-1, -1, -1)]
+       return numerical_approx(2*L[0]*len(L)/sum(L), digits=50)
+///
+}}}
+
+<!-- link -->
+
+{{{id=49|
+f(10)
+///
+3.1413810483870967741935483870967741935483870967742
+}}}
+
+<h2>Tuples</h2>
+<p>A <em>tuple</em> is an <em>immutable</em> list. That is, it cannot be changed once it is
+created. The syntax for creating a tuple is to the use parentheses.</p>
+
+{{{id=50|
+t = (3, 5, [3,1], (17,[2,3],17), 4)
+t
+///
+(3, 5, [3, 1], (17, [2, 3], 17), 4)
+}}}
+
+<p>We can create a tuple from a list, or vice-versa.</p>
+<!-- link -->
+
+{{{id=51|
+tuple(range(5))
+///
+(0, 1, 2, 3, 4)
+}}}
+
+<!-- link -->
+
+{{{id=52|
+list(t)
+///
+[3, 5, [3, 1], (17, [2, 3], 17), 4]
+}}}
+
+<p>Tuples behave like lists in many respects:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%">
+<col width="35%">
+<col width="35%">
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Operation</th>
+<th class="head">Syntax for lists</th>
+<th class="head">Syntax for tuples</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>Accessing a letter</td>
+<td><tt class="docutils literal"><span class="pre">list[3]</span></tt></td>
+<td><tt class="docutils literal"><span class="pre">tuple[3]</span></tt></td>
+</tr>
+<tr><td>Concatenation</td>
+<td><tt class="docutils literal"><span class="pre">list1</span> <span class="pre">+</span> <span class="pre">list2</span></tt></td>
+<td><tt class="docutils literal"><span class="pre">tuple1</span> <span class="pre">+</span> <span class="pre">tuple2</span></tt></td>
+</tr>
+<tr><td>Slicing</td>
+<td><tt class="docutils literal"><span class="pre">list[3:17:2]</span></tt></td>
+<td><tt class="docutils literal"><span class="pre">tuple[3:17:2]</span></tt></td>
+</tr>
+<tr><td>A reversed copy</td>
+<td><tt class="docutils literal"><span class="pre">list[::-1]</span></tt></td>
+<td><tt class="docutils literal"><span class="pre">tuple[::-1]</span></tt></td>
+</tr>
+<tr><td>Length</td>
+<td><tt class="docutils literal"><span class="pre">len(list)</span></tt></td>
+<td><tt class="docutils literal"><span class="pre">len(tuple)</span></tt></td>
+</tr>
+</tbody>
+</table>
+<p>Trying to modify a tuple will fail.</p>
+
+{{{id=53|
+t = (5, 'a', 6/5)
+t
+///
+(5, 'a', 6/5)
+}}}
+
+<!-- link -->
+
+{{{id=54|
+t[1] = 'b'
+///
+Traceback (most recent call last):
+TypeError: 'tuple' object does not support item assignment
+}}}
+
+<h2>Generators</h2>
+<p>&quot;Tuple-comprehension&quot; does not exist.  The syntax produces something called a
+generator.  A generator allows you to process a sequence of items one at a
+time.  Each item is created when it is needed, and then forgotten.  This can
+be very efficient if we only need to use each item once.</p>
+
+{{{id=55|
+(i^2 for i in range(5))
+///
+<generator object <genexpr> at 0x...>
+}}}
+
+
+{{{id=56|
+g = (i^2 for i in range(5))
+g[0]
+///
+Traceback (most recent call last):
+TypeError: 'generator' object is unsubscriptable
+}}}
+
+<!-- link -->
+
+{{{id=57|
+[x for x in g]
+///
+[0, 1, 4, 9, 16]
+}}}
+
+<p><tt class="docutils literal"><span class="pre">g</span></tt> is now empty.</p>
+<!-- link -->
+
+{{{id=58|
+[x for x in g]
+///
+[]
+}}}
+
+<p>A nice 'pythonic' trick is to use generators as the argument to functions.  We
+do <em>not</em> need double parentheses for this.</p>
+
+{{{id=59|
+sum( i^2 for i in srange(100001) )
+///
+333338333350000
+}}}
+
+<h2>Dictionaries</h2>
+<p>A <em>dictionary</em> is another built-in data type. Unlike lists, which are indexed by a range of numbers, dictionaries are &quot;indexed&quot; by <em>keys</em>, which can be any immutable object. Strings and numbers can always be keys (because they are immutable). Dictionaries are sometimes called &quot;associative arrays&quot; in other programming languages.</p>
+<p>There are several ways to define dictionaries. One method is to use braces, {}, with comma-separated entries given in the form <em>key:value</em>.</p>
+
+{{{id=60|
+d = {3:17, &quot;key&quot;:[4,1,5,2,3], (3,1,2):&quot;goo&quot;, 3/2 : 17}
+d
+///
+{3/2: 17, 3: 17, (3, 1, 2): 'goo', 'key': [4, 1, 5, 2, 3]}
+}}}
+
+<p>Dictionaries behave as lists and tuples for several important operations.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%">
+<col width="32%">
+<col width="40%">
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Operation</th>
+<th class="head">Syntax for lists</th>
+<th class="head">Syntax for dictionaries</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>Accessing elements</td>
+<td><tt class="docutils literal"><span class="pre">list[3]</span></tt></td>
+<td><tt class="docutils literal"><span class="pre">D[&quot;key&quot;]</span></tt></td>
+</tr>
+<tr><td>Length</td>
+<td><tt class="docutils literal"><span class="pre">len(list)</span></tt></td>
+<td><tt class="docutils literal"><span class="pre">len(D)</span></tt></td>
+</tr>
+<tr><td>Modifying</td>
+<td><tt class="docutils literal"><span class="pre">L[3]</span> <span class="pre">=</span> <span class="pre">17</span></tt></td>
+<td><tt class="docutils literal"><span class="pre">D[&quot;key&quot;]</span> <span class="pre">=</span> <span class="pre">17</span></tt></td>
+</tr>
+<tr><td>Deleting items</td>
+<td><tt class="docutils literal"><span class="pre">del</span> <span class="pre">L[3]</span></tt></td>
+<td><tt class="docutils literal"><span class="pre">del</span> <span class="pre">D[&quot;key&quot;]</span></tt></td>
+</tr>
+</tbody>
+</table>
+<!-- link -->
+
+{{{id=61|
+d[10]='a'
+d
+///
+{3/2: 17, 10: 'a', 3: 17, (3, 1, 2): 'goo', 'key': [4, 1, 5, 2, 3]}
+}}}
+
+<p>A dictionary can have the same value multiple times, but each key can only
+appear once and must be immutable.</p>
+
+{{{id=62|
+d = {3: 14, 4: 14}
+d
+///
+{3: 14, 4: 14}
+}}}
+
+
+{{{id=63|
+d = {3: 13, 3: 14}
+d
+///
+{3: 14}
+}}}
+
+
+{{{id=64|
+d = {[1,2,3] : 12}
+///
+Traceback (most recent call last):
+TypeError: unhashable type: 'list'
+}}}
+
+<p>Another way to add items to a dictionary is with the <tt class="docutils literal"><span class="pre">update()</span></tt> method:</p>
+
+{{{id=65|
+d = {}
+d
+///
+{}
+}}}
+
+<!-- link -->
+
+{{{id=66|
+d.update( {10 : 'newvalue', 20: 'newervalue', 3: 14, 'a':[1,2,3]} )
+d
+///
+{'a': [1, 2, 3], 10: 'newvalue', 3: 14, 20: 'newervalue'}
+}}}
+
+<p>We can iterate through the <em>keys</em>, or <em>values</em>, or both, of a dictionary.</p>
+
+{{{id=67|
+d = {10 : 'newvalue', 20: 'newervalue', 3: 14, 'a':[1,2,3]}
+///
+}}}
+
+<!-- link -->
+
+{{{id=68|
+[key for key in d]
+///
+['a', 10, 3, 20]
+}}}
+
+<!-- link -->
+
+{{{id=69|
+[key for key in d.iterkeys()]
+///
+['a', 10, 3, 20]
+}}}
+
+<!-- link -->
+
+{{{id=70|
+[value for value in d.itervalues()]
+///
+[[1, 2, 3], 'newvalue', 14, 'newervalue']
+}}}
+
+<!-- link -->
+
+{{{id=71|
+[(key, value) for key, value in d.iteritems()]
+///
+[('a', [1, 2, 3]), (10, 'newvalue'), (3, 14), (20, 'newervalue')]
+}}}
+
+<p><strong>Exercise:</strong> Consider the following directed graph.</p>
+<img alt="media/graph0.png" src="media/graph0.png">
+<p>Create a dictionary whose keys are the vertices of the above directed graph,
+and whose values are the lists of the vertices that it points to. For
+instance, the vertex 1 points to the vertices 2 and 3, so the dictionary will
+look like:</p>
+<pre class="literal-block">
+d = {&nbsp; ..., 1:[2,3], ... }&nbsp;
+
+</pre>
+{{{id=72|
+
+///
+}}}
+
+<p>Then try</p>
+<!-- skip -->
+
+{{{id=73|
+g = DiGraph(d)
+g.plot()
+///
+}}}
+
+<h2>Using Sage types: The srange command</h2>
+<p><strong>Example:</strong> Construct a $3 times 3$ matrix whose $(i,j)$ entry is the
+rational number $frac{i}{j}$. The integer generated by <tt class="docutils literal"><span class="pre">range</span></tt> are
+python <tt class="docutils literal"><span class="pre">int</span></tt>. As a consequence, dividing them does euclidian division.</p>
+
+{{{id=74|
+matrix([[ i/j for j in range(1,4)] for i in range(1,4)])
+///
+[1 0 0][2 1 0][3 1 1]
+}}}
+
+<p>Whereas Dividing sage <tt class="docutils literal"><span class="pre">Integer</span></tt> gives a fraction</p>
+
+{{{id=75|
+matrix([[ i/j for j in srange(1,4)] for i in srange(1,4)])
+///
+[  1 1/2 1/3][  2   1 2/3][  3 3/2   1]
+}}}
+
+<h2>Modifying lists has consequences!</h2>
+<p>Try to predict the results of the following commands.</p>
+
+{{{id=76|
+a = [1, 2, 3]
+L = [a, a, a]
+L
+///
+[[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+}}}
+
+<!-- link -->
+
+{{{id=77|
+a.append(4)
+L
+///
+[[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]]
+}}}
+
+<p>Now try these:</p>
+
+{{{id=78|
+a = [1, 2, 3]
+L = [a, a, a]
+L
+///
+[[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+}}}
+
+<!-- link -->
+
+{{{id=79|
+a = [1, 2, 3, 4]
+L
+///
+[[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+}}}
+
+<!-- link -->
+
+{{{id=80|
+L[0].append(4)
+L
+///
+[[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]]
+}}}
+
+<p>You can use the command <em>deepcopy</em> to avoid these issues.</p>
+
+{{{id=81|
+a = [1,2,3]
+L = [deepcopy(a), deepcopy(a)]
+L
+///
+[[1, 2, 3], [1, 2, 3]]
+}}}
+
+<!-- link -->
+
+{{{id=82|
+a.append(4)
+L
+///
+[[1, 2, 3], [1, 2, 3]]
+}}}
+
+<p>The same issues occur with dictionaries.</p>
+
+{{{id=83|
+d = {1:'a', 2:'b', 3:'c'}
+dd = d
+d.update( { 4:'d' } )
+dd
+///
+{1: 'a', 2: 'b', 3: 'c', 4: 'd'}
+}}}
+
+<h1>Loops and Functions</h1>
+<p>For more verbose explanation of what's going on here, a good place to look is
+at the following section of the Python tutorial:
+<a class="reference external" href="http://docs.python.org/tutorial/controlflow.html">http://docs.python.org/tutorial/controlflow.html</a></p>
+
+<h2>While Loops</h2>
+<p>While loops tend not to be used nearly as much as for loops in Python code.</p>
+
+{{{id=84|
+i = 0
+while i &lt; 10:
+       print i
+       i += 1
+///
+0123456789
+}}}
+
+
+{{{id=85|
+i = 0
+while i &lt; 10:
+       if i % 2 == 1:
+           i += 1
+           continue
+       print i
+       i += 1
+///
+02468
+}}}
+
+<p>Note that the truth value expression in the <em>while</em> loop is evaluated using
+bool().</p>
+
+{{{id=86|
+bool(True)
+///
+True
+}}}
+
+
+{{{id=87|
+bool('a')
+///
+True
+}}}
+
+
+{{{id=88|
+bool(1)
+///
+True
+}}}
+
+
+{{{id=89|
+bool(0)
+///
+False
+}}}
+
+<!-- skip -->
+
+{{{id=90|
+i = 4
+while i:
+       print i
+       i -= 1
+///
+4321
+}}}
+
+<h2>For Loops</h2>
+<p>Here is a basic for loop iterating over all of the elements in the list <tt class="docutils literal"><span class="pre">l</span></tt>:</p>
+
+{{{id=91|
+l = ['a', 'b', 'c']
+for letter in l:
+       print letter
+///
+abc
+}}}
+
+<p>The <em>range</em> function is very useful when you want to generate arithmetic
+progressions to loop over. Note that the end point is never included:</p>
+<!-- skip -->
+
+{{{id=92|
+range?
+///
+}}}
+
+
+{{{id=93|
+range(4)
+///
+[0, 1, 2, 3]
+}}}
+
+
+{{{id=94|
+range(1, 5)
+///
+[1, 2, 3, 4]
+}}}
+
+
+{{{id=95|
+range(1, 11, 2)
+///
+[1, 3, 5, 7, 9]
+}}}
+
+
+{{{id=96|
+range(10, 0, -1)
+///
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+}}}
+
+
+{{{id=97|
+for i in range(4):
+       print i, i*i
+///
+0 01 12 43 9
+}}}
+
+<p>You can use the <em>continue</em> keyword to immediately go to the next item in the
+loop:</p>
+
+{{{id=98|
+for i in range(10):
+       if i % 2 == 0:
+           continue
+       print i
+///
+13579
+}}}
+
+<p>If you want to break out of the loop, use the <em>break</em> keyword:</p>
+
+{{{id=99|
+for i in range(10):
+       if i % 2 == 0:
+           continue
+       if i == 7:
+           break
+       print i
+///
+135
+}}}
+
+<p>If you need to keep track of both the position in the list and its value, one (not so elegant) way would be to do the following:</p>
+
+{{{id=100|
+l = ['a', 'b', 'c']
+   for i in range(len(l)):
+       print i, l[i]
+///
+}}}
+
+<p>It's cleaner to use <em>enumerate</em> which provides the index as well as the value:</p>
+
+{{{id=101|
+l = ['a', 'b', 'c']
+   for i, letter in enumerate(l):
+       print i, letter
+///
+}}}
+
+<p>You could make something similary to the <em>enumerate</em> function by using <em>zip</em>
+to zip two lists together:</p>
+
+{{{id=102|
+l = ['a', 'b', 'c']
+   for i, letter in zip(range(len(l)), l):
+       print i, letter
+///
+}}}
+
+<p>For loops work using Python's iterator protocol.&nbsp; This allows all sorts of different objects to be looped over.&nbsp; For example,</p>
+
+{{{id=103|
+for i in GF(5):
+       print i, i*i
+///
+0 01 12 43 44 1
+}}}
+
+<p>How does it work?</p>
+
+{{{id=104|
+it = iter(GF(5)); it
+///
+<generator object __iter__ at 0x...>
+}}}
+
+{{{id=105|
+it.next()
+///
+0
+}}}
+
+{{{id=106|
+it.next()
+///
+1
+}}}
+
+{{{id=107|
+it.next()
+///
+2
+}}}
+
+{{{id=108|
+it.next()
+///
+3
+}}}
+
+{{{id=109|
+it.next()
+///
+4
+}}}
+
+{{{id=110|
+it.next()
+///
+Traceback (most recent call last):
+StopIteration
+}}}
+
+<p>..skip</p>
+
+{{{id=111|
+R = GF(5)
+   R.__iter__??
+///
+}}}
+
+<p><em>yield</em> provides a very convient way to produce iterators.&nbsp; We'll see more
+about it in a bit.</p>
+
+<h3>Exercices</h3>
+<p>For each of the following sets, compute the list of its elements and their
+sum. Use two different ways, if possible: with a loop and using lists
+comprehension:</p>
+<blockquote>
+<ol class="arabic simple">
+<li><tt class="docutils literal"><span class="pre">n</span></tt> premiers termes de la série harmonique</li>
+</ol>
+
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">tutorial-programming-python.rst</tt>, line 1268)</p>
+Enumerated list ends without a blank line; unexpected unindent.
+<blockquote>
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-programming-python.rst</tt>, line 1268)</p>
+<p>Unknown directive type &quot;math&quot;.</p>
+<pre class="literal-block">
+.. math:: \sum_{&nbsp;i=1}&nbsp;^n \frac{&nbsp;1}&nbsp;{&nbsp;i}&nbsp;
+
+
+</pre></blockquote>
+<ol class="arabic simple">
+<li>les entiers impair entre <tt class="docutils literal"><span class="pre">1</span></tt> et <tt class="docutils literal"><span class="pre">n</span></tt>;</li>
+<li>les <tt class="docutils literal"><span class="pre">n</span></tt> premiers entiers impairs;</li>
+<li>les entiers entre <tt class="docutils literal"><span class="pre">1</span></tt> et <tt class="docutils literal"><span class="pre">n</span></tt> et qui ne sont divisibles ni par <tt class="docutils literal"><span class="pre">2</span></tt>
+ni par <tt class="docutils literal"><span class="pre">3</span></tt> ni par <tt class="docutils literal"><span class="pre">5</span></tt>;</li>
+<li>les <tt class="docutils literal"><span class="pre">n</span></tt> premiers entiers qui ne sont
+divisibles ni par <tt class="docutils literal"><span class="pre">2</span></tt> ni par <tt class="docutils literal"><span class="pre">3</span></tt> ni par <tt class="docutils literal"><span class="pre">5</span></tt>.</li>
+</ol>
+</blockquote>
+
+
+
+<h2>Functions</h2>
+<p>Functions are defined using the <em>def</em> statement, and values are returned using
+the <em>return</em> keyword:</p>
+
+{{{id=112|
+def f(x):
+       return x*x
+///
+}}}
+
+<!-- link -->
+
+{{{id=113|
+f(2)
+///
+4
+}}}
+
+<!-- link -->
+
+{{{id=114|
+def fib(n):
+       if n &lt;= 1:
+           return 1
+       else:
+           return fib(n-1) + fib(n-2)
+///
+}}}
+
+<!-- link -->
+
+{{{id=115|
+[fib(i) for i in range(10)]
+///
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+}}}
+
+<p>Functions are first class objects like any other.&nbsp; For example, they can be
+passed in as arguments to other functions:</p>
+<pre class="literal-block">
+.. link
+
+</pre>
+{{{id=116|
+f
+///
+<function f at 0x...>
+}}}
+
+<!-- link -->
+
+{{{id=117|
+def compose(f, x, n):
+       for i in range(n):
+           x = f(x)
+       return x
+///
+}}}
+
+<!-- link -->
+
+{{{id=118|
+compose(f, 2, 3)
+///
+256
+}}}
+
+<!-- link -->
+
+{{{id=119|
+def add_one(x):
+       return x + 1
+///
+}}}
+
+<!-- link -->
+
+{{{id=120|
+compose(add_one, 2, 3)
+///
+5
+}}}
+
+<p>You can give default values for arguments in functions:</p>
+
+{{{id=121|
+def add_n(x, n=1):
+       return x + n
+///
+}}}
+
+<!-- link -->
+
+{{{id=122|
+add_n(4)
+///
+5
+}}}
+
+<!-- link -->
+
+{{{id=123|
+add_n(4, n=100)
+///
+104
+}}}
+
+<!-- link -->
+
+{{{id=124|
+add_n(4, 1000)
+///
+1004
+}}}
+
+<p>You can return multiple things from a function:</p>
+
+{{{id=125|
+def g(x):
+       return x, x*x
+///
+}}}
+
+<!-- link -->
+
+{{{id=126|
+g(2)
+///
+(2, 4)
+}}}
+
+<!-- link -->
+
+{{{id=127|
+type(g)
+///
+<type 'function'>
+}}}
+
+<!-- link -->
+
+{{{id=128|
+a,b = g(100)
+///
+}}}
+
+<!-- link -->
+
+{{{id=129|
+a
+///
+100
+}}}
+
+<!-- link -->
+
+{{{id=130|
+b
+///
+10000
+}}}
+
+<p>You can also take variable number of arguments and keyword arguments in a
+function:</p>
+
+{{{id=131|
+def h(*args, **kwds):
+       print type(args), args
+       print type(kwds), kwds
+///
+}}}
+
+<!-- link -->
+
+{{{id=132|
+h(1,2,3,n=4)
+///
+<type 'tuple'> (1, 2, 3)<type 'dict'> {'n': 4}
+}}}
+
+<p>Let's use the <em>yield</em> instruction to make an generator for the Fibonacci
+numbers up to n:</p>
+
+{{{id=133|
+def fib_gen(n):
+       if n &lt; 1:
+           return
+       a = b = 1
+       yield b
+       while b &lt; n:
+           yield b
+           a, b = b, b+a
+///
+}}}
+
+<!-- link -->
+
+{{{id=134|
+for i in fib_gen(50):
+       print i
+///
+112358132134
+}}}
+
+<h3>Exercices</h3>
+<blockquote>
+<ol class="arabic simple">
+<li>Write a function <tt class="docutils literal"><span class="pre">is_even</span></tt> returning <tt class="docutils literal"><span class="pre">True</span></tt> if <tt class="docutils literal"><span class="pre">n</span></tt> is even
+and <tt class="docutils literal"><span class="pre">False</span></tt> otherwise.</li>
+<li>Write a function <tt class="docutils literal"><span class="pre">every_other</span></tt> which takes a list <tt class="docutils literal"><span class="pre">l</span></tt> and returns a
+list containing every other element of <tt class="docutils literal"><span class="pre">l</span></tt></li>
+<li>Write a function computing the n-th Fibonacci number. Try to improve
+performance.</li>
+</ol>
+</blockquote>
+
+
+
+
+
+
+
