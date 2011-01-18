@@ -53,7 +53,8 @@ process.
 All the demos and tutorials (in format .rst and .txt) are in the following archive. Txt files can be uploaded in the notebook. Note à NT: les fichiers correspondent à la version des demos de sage-combinat en date de hier à midi. Ils ne contiennent pas les modifications faites depuis hier midi.
 [[attachment:demos-and-tutorials-version-17-janvier.zip]]
 
-  * ''09:30-10:30'' tutoriel: programmation Python/Sage (FlorentHivert) Voir [[attachment:TPProg.pdf]]
+  * ''09:30-10:30'' tutoriel: programmation Python/Sage (FlorentHivert) Voir [[attachment:tutorial-programming-python.sws]] [[attachment:tutorial-programming-python.txt]]
+[[attachment:tutorial-objects-and-classes.rst]] [[attachment:tutorial-objects-and-classes.rst]]
 
   * ''10:30-10:50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
   * ''10:50-11:30'' tutoriel: contribuer à Sage (SébastienLabbé)
