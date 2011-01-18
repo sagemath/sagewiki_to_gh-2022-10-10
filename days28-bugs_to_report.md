@@ -80,5 +80,5 @@ Si ca vous suffit pas, faites-vous les dents sur [[days28-unreferenced_bugs]] et
 
 
 
-== Avant le café, gagner du temps pour le prochain expose ==
+== Avant le café, gagnez du temps pour le prochain expose ==
 # sage -clone brouillon
