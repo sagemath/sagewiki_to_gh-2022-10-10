@@ -9,7 +9,7 @@
 [[http://trac.sagemath.org/sage_trac/]] (lien Register en haut a droite).
 
 Remarque:
-  * le login que vous voulez, habituellement, login = premiere lettre du prenom + nom (exemple nborie, slabbe, nthiery, vdelecroix, hivert, ncohen, tmonteil (cherchez l'erreur))
+  * l'username que vous voulez, habituellement, username = premiere lettre du prenom + nom (exemple nborie, slabbe, nthiery, vdelecroix, hivert, ncohen, tmonteil (cherchez l'erreur))
 
 
 == Reporter un bug ==
