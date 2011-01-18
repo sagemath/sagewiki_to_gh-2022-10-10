@@ -44,3 +44,8 @@ Quoi remplir?
 
 
 Si ca vous suffit pas, faites-vous les dents sur [[days28-unreferenced_bugs]] et sur ce qui est inscrit au tableau. Vous pouvez aussi rajouter des demandes de nouvelles fonctionalitesn, dans ce cas, remplacez "defect" par "enhancement".
+
+
+== Pour gagner du temps pour le prochain expose ==
+# sage -clone brouillon
+ 
