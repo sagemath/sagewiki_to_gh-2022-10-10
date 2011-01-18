@@ -26,7 +26,9 @@ Quoi remplir?
   * Summary: fix documentation in ... <- boulot
   * Component: documentation 
   * Description: ..... <- boulot
-  * cc: sage-combinat, tmonteil
+  * cc: sage-combinat, tmonteil, moi-meme (et en general les personnes dont on espere qu'elles feront quelque chose (fix ou rewiew)).
+
+Remarque: tous ces champs peuvent etre modifies a tout moment, et a chaque changement, les personnes mises en cc recevront un mail.
 
 
   1. un point dans le titre en trop en haut : [[http://localhost:8000/doc/live/reference/sage/calculus/calculus.html]]
