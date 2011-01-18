@@ -59,6 +59,7 @@ All the demos and tutorials (in format .rst and .txt) are in the following archi
     * [[attachment:tutorial-objects-and-classes.sws]] [[attachment:tutorial-objects-and-classes.txt]]
 
   * ''10:30-10:50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
+    * Voir [[days28-bugs_to_report]]
   * ''10:50-11:30'' tutoriel: contribuer à Sage (SébastienLabbé)
       [[http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/|How to contribute to Sage in sixteen easy steps!]]
 
