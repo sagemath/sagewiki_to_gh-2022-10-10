@@ -53,38 +53,38 @@ process.
 All the demos and tutorials (in format .rst and .txt) are in the following archive. Txt files can be uploaded in the notebook. Note à NT: les fichiers correspondent à la version des demos de sage-combinat en date de hier à midi. Ils ne contiennent pas les modifications faites depuis hier midi.
 [[attachment:demos-and-tutorials-version-17-janvier.zip]]
 
-  * ''09:30-10:30'' tutoriel: programmation Python/Sage (FlorentHivert) Voir 
+ * ''09:30-10:30'' tutoriel: programmation Python/Sage (FlorentHivert) Voir 
 
-    * [[attachment:tutorial-programming-python.sws]] [[attachment:tutorial-programming-python.txt]]
-    * [[attachment:tutorial-objects-and-classes.sws]] [[attachment:tutorial-objects-and-classes.txt]]
+  * [[attachment:tutorial-programming-python.sws]] [[attachment:tutorial-programming-python.txt]]
+  * [[attachment:tutorial-objects-and-classes.sws]] [[attachment:tutorial-objects-and-classes.txt]]
 
-  * ''10:30-10:50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
-    * Voir [[days28-bugs_to_report]]
-  * ''10:50-11:30'' tutoriel: contribuer à Sage (SébastienLabbé)
-      [[http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/|How to contribute to Sage in sixteen easy steps!]]
+ * ''10:30-10:50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
+  * Voir [[days28-bugs_to_report]]
+ * ''10:50-11:30'' tutoriel: contribuer à Sage (SébastienLabbé)
+  [[http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/|How to contribute to Sage in sixteen easy steps!]]
 
-  * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
+ * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
 
-  * ''13:00-14:00'' tutoriel: utiliser des structures algébriques: espaces vectoriels, ... (FlorentHivert, NicolasThiéry)
-      [[attachment:tutorial-using-free-modules.txt]]
+ * ''13:00-14:00'' tutoriel: utiliser des structures algébriques: espaces vectoriels, ... (FlorentHivert, NicolasThiéry)
+  [[attachment:tutorial-using-free-modules.txt]]
 
-  * ''14:00-15:00'' tutoriel: implanter ses propres structures algébriques (FlorentHivert, NicolasThiéry)
-      [[attachment:tutorial-implementing-algebraic-structures.txt]]
-  * ''15:00-15:30'' tutoriel: graphes (Nathann Cohen)
-    * [[attachment:download_worksheets.zip|tutoriels]]
-  * ''15:30-16:30'' tutoriel: échange d'intervalles (VincentDelecroix)
-    * [[attachment:Interval exchanges.sws|tutoriel]]
-  * ''16:30-17:30'' tutoriel: surfaces à petit carreaux (VincentDelecroix)
+ * ''14:00-15:00'' tutoriel: implanter ses propres structures algébriques (FlorentHivert, NicolasThiéry)
+  [[attachment:tutorial-implementing-algebraic-structures.txt]]
+ * ''15:00-15:30'' tutoriel: graphes (Nathann Cohen)
+  * [[attachment:download_worksheets.zip|tutoriels graphes]]
+ * ''15:30-16:30'' tutoriel: échange d'intervalles (VincentDelecroix)
+  * [[attachment:Interval exchanges.sws|tutoriel échanges d'intervalles]]
+
   
 '''Mercredi 19'''
 
-  * ''10:00-11:30'' tutoriel: contribuer à Sage-combinat (ThierryMonteil)
+ * ''10:00-11:30'' tutoriel: contribuer à Sage-combinat (ThierryMonteil)
 
-  * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
+ * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
 
-  * ''13:00-14:00'' discussion et démo: intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)  (Felix Effenberger, Jonathan Spreer)
-  * ''14:00-16:00'' tutoriel: combinatoire analytique, génération aléatoire/exhaustive
-  * ''16:00-17:00'' itération, classes...
+ * ''13:00-14:00'' discussion et démo: intégration de [[http://www.gap-system.org/Packages/simpcomp.html|sympcomp]] (complexes simpliciaux en GAP)  (Felix Effenberger, Jonathan Spreer)
+ * ''14:00-16:00'' tutoriel: combinatoire analytique, génération aléatoire/exhaustive
+ * ''16:00-17:00'' itération, classes...
 
 == Material for the talks, demos, and tutorials ==
 
