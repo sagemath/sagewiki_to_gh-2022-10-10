@@ -75,8 +75,9 @@ Remarques:
   1. pas de point dans le titre : [[http://localhost:8000/doc/live/reference/sage/calculus/functional.html]]
 
 
-=== Du rab ===
-Si ca vous suffit pas, faites-vous les dents sur [[days28-unreferenced_bugs]] et sur ce qui est inscrit au tableau. Vous pouvez aussi rajouter des demandes de nouvelles fonctionalites, dans ce cas, remplacez "defect" par "enhancement".
+=== Du rab s'il vous reste du temps ===
+  * Si ca vous suffit pas, faites-vous les dents sur [[days28-unreferenced_bugs]] et sur ce qui est inscrit au tableau. Vous pouvez aussi rajouter des demandes de nouvelles fonctionalites, dans ce cas, remplacez "defect" par "enhancement".
+  * Vous pouvez editer [[http://trac.sagemath.org/sage_trac/|la page d'accueil du trac]] et vous rajouter dans la liste des contibuteurs.
 
 
 
