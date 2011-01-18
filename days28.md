@@ -54,6 +54,7 @@ process.
 
   * ''10:30-10:50'' tutoriel: signaler un bogue, suggérer une amélioration (ThierryMonteil)
   * ''10:50-11:30'' tutoriel: contribuer à Sage (SébastienLabbé)
+      [[http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/|How to contribute to Sage in sixteen easy steps!]]
 
   * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
 
