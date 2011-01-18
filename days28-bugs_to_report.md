@@ -8,7 +8,8 @@
 == Creer un compte sur le serveur trac ==
 [[http://trac.sagemath.org/sage_trac/]] (lien Register en haut a droite).
 
-habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery, vdelecroix, hivert, ncohen, tmonteil (cherchez l'erreur))
+Remarque:
+  * habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery, vdelecroix, hivert, ncohen, tmonteil (cherchez l'erreur))
 
 
 == Reporter un bug ==
@@ -16,7 +17,15 @@ habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery
   * Remplir les champs (voir plus bas)
   * Sauvegarder
 
-Remarque: un ticket ne doit pas representer une tache insurmontable (ex: "Please could you implement species")
+
+Remarques:
+  * Chaqun-e est libre de fixer les bugs qu'il/elle veut, donc si vous voulez qu'une personne prenne en charge votre ticket, pensez a elle.
+  * Soyez precis et lisible.
+  * Essayez d'eviter les doublons.
+  * Un ticket ne doit pas representer une tache insurmontable (ex: "Please could you implement species").
+  * Il n'y a pas d'editeur pour attribuer les relectures, la relecture des patches est libre.
+  * Relisez de les patchs des autres.
+
 
 
 == Exemple de workflow ==
@@ -28,18 +37,19 @@ Indication: pour pouvoir lire les liens suivants, **lancez votre notebook**
 
 Voici une liste numerotee de bugs que vous allez devoir reporter. Notez que ce bug sera fixe par votre voisin-e dans l'expose suivant, donc essayez de lui faire comprendre le probleme !
 
+
 === Aide: quels champs remplir pour ce type de bugs ===
   * Type: defect
-  * Keywords: beginner, days28, ... (le mot clef beginner est la pour permettre aux nouveaux codeurs de se faire les dents, ces tickets sont listes separement dans le "View tickets")
+  * Keywords: beginner, days28, ... (le mot clef beginner est la pour permettre aux nouveaux codeurs de s'entrainer, ces tickets sont listes separement dans le "View tickets")
   * Priority: minor
   * Summary: fix documentation in ... <- boulot
   * Component: documentation 
   * Description: ..... <- boulot
-  * cc: sage-combinat, tmonteil, moi-meme (et en general les personnes dont on espere qu'elles feront quelque chose (fix ou rewiew)).
+  * cc: sage-combinat, tmonteil, toi-meme (et en general les personnes dont on espere qu'elles feront quelque chose (fix ou rewiew)).
 
-Remarque: tous ces champs peuvent etre modifies a tout moment, et a chaque changement, les personnes mises en cc recevront un mail.
-
-Remarque: les champs restants (author, reviewer,...) se rempliront au fil du temps.
+Remarques:
+  * tous ces champs peuvent etre modifies a tout moment, et a chaque changement, les personnes mises en cc recevront un mail.
+  * les champs restants (author, reviewer,...) se rempliront au fil du temps.
 
 
 === Liste des bugs a reporter ===
