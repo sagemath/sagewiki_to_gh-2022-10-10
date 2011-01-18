@@ -2,7 +2,7 @@
 
 == Baratin ==
   * [[support/ReportingBugs]]
-  * shoutbox ou e-mail = bouton feu rouge pieton ?
+  * shoutbox ou e-mail = bouton feu rouge pietons ?
 
 
 == Creer un compte sur le serveur trac ==
@@ -82,4 +82,6 @@ Remarques:
 
 
 == Avant le café, gagnez du temps pour le prochain expose ==
+{{{
 # sage -clone brouillon
+}}}
