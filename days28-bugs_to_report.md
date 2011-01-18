@@ -15,7 +15,7 @@ habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery
 
 
 === Exo ===
-[Pour pouvoir lire les liens suivants, lancez votre notebook]
+[Pour pouvoir lire les liens suivants, **lancez votre notebook**]
 
 Voici une liste numerotee de bugs que vous allez devoir reporter. Notez que ce bug sera fixe par votre voisin-e dans l'expose suivant, donc essayez de lui faire comprendre le probleme !
 
