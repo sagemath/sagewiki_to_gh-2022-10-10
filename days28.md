@@ -79,7 +79,7 @@ All the demos and tutorials (in format .rst and .txt) are in the following archi
 '''Mercredi 19'''
 
  * ''10:00-11:30'' tutoriel: contribuer à Sage-combinat (ThierryMonteil)
-  * [[combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png]]
+  * [[http://wiki.sagemath.org/combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png]]
   * [[combinat/MercurialStepByStep]]
  * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
 
