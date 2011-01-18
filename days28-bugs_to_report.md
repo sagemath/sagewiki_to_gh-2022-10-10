@@ -12,7 +12,7 @@ habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery
   * Sauvegarder
 
 
-== exemple de workflow ==
+== Exemple de workflow ==
 [[http://trac.sagemath.org/sage_trac/ticket/10063]]
 
 
