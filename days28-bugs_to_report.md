@@ -1,6 +1,9 @@
 <<TableOfContents()>>
 
-shoutbox = bouton feu rouge pieton ?
+== Baratin ==
+  * [[support/ReportingBugs]]
+  * shoutbox ou e-mail = bouton feu rouge pieton ?
+
 
 == Creer un compte sur le serveur trac ==
 [[http://trac.sagemath.org/sage_trac/]] (lien Register en haut a droite).
