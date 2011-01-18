@@ -1,0 +1,659 @@
+Tutorial: Objects and Classes in Python and Sage
+
+<span id="tutorial-objects-and-classes"></span>
+
+
+</pre><p>This tutorial is an introduction to object oriented programming in Python and
+Sage. It requires basic knowledges on imperative/procedural programming (the
+most common programming style) that is conditional instructions, loops,
+functions (see <a href="#id1"><span class="problematic" id="id2">:ref:`tutorial-programming-python`</span></a>), but now further knowledge
+about objects and classes is assumed. It is designed as an alternating
+sequence of formal introduction and exercises. <a href="#id3"><span class="problematic" id="id4">:ref:`solutions`</span></a> are given at
+the end.</p>
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-objects-and-classes.rst</tt>, line 9); <em><a href="#id2">backlink</a></em></p>
+Unknown interpreted text role &quot;ref&quot;.
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-objects-and-classes.rst</tt>, line 9); <em><a href="#id4">backlink</a></em></p>
+Unknown interpreted text role &quot;ref&quot;.
+
+<h1>Object oriented programming paradigm</h1>
+<p>The object oriented programming paradigm relies on the two following
+fundamental rules:</p>
+<ol class="arabic simple">
+<li>Any thing of the real (or mathematical) world which needs to be manipulated
+by the computer is modeled by an <strong>object</strong>.</li>
+<li>Each object is an <strong>instance</strong> of some <strong>class</strong>.</li>
+</ol>
+<p>At this point, those two rules are a little meaningless, so let's give some
+more or less precise definition of the terms:</p>
+<hr class="docutils">
+<dl class="docutils">
+<dt><strong>object</strong></dt>
+<dd>a <strong>portion of memory</strong> which contains the information needed to model
+the real world thing.</dd>
+<dt><strong>class</strong></dt>
+<dd>defines the <strong>data structure</strong> used to store the objects which are instance
+of the class together with their <strong>behavior</strong>.</dd>
+</dl>
+<hr class="docutils">
+<p>Let's start with some examples: We consider the vector space over $QQ$ whose
+basis is indexed by permutations, and a particular element in it:</p>
+
+{{{id=0|
+F = CombinatorialFreeModule(QQ, Permutations())
+el = 3*F([1,3,2])+ F([1,2,3])
+el
+///
+B[[1, 2, 3]] + 3*B[[1, 3, 2]]
+}}}
+
+<p>In python, everything is an object so there isn't any difference between types
+and classes. On can get the class of the object <tt class="docutils literal"><span class="pre">el</span></tt> by:</p>
+<!-- link -->
+
+{{{id=1|
+type(el)
+///
+<class 'sage.combinat.free_module.CombinatorialFreeModule_with_category.element_class'>
+}}}
+
+<p>As such, this is not very informative. We'll go back to it later. The data
+associated to objects are stored in so called <strong>attributes</strong>. They are
+accessed through the syntax <tt class="docutils literal"><span class="pre">obj.attributes_name</span></tt>:</p>
+<!-- link -->
+
+{{{id=2|
+el._monomial_coefficients
+///
+{[1, 2, 3]: 1, [1, 3, 2]: 3}
+}}}
+
+<p>Modifying the attribute modifies the objects:</p>
+<!-- link -->
+
+{{{id=3|
+el._monomial_coefficients[Permutation([3,2,1])] = 1/2
+el
+///
+B[[1, 2, 3]] + 3*B[[1, 3, 2]] + 1/2*B[[3, 2, 1]]
+}}}
+
+<p class="first admonition-title">Warning</p>
+<p>as a user, you are <em>not</em> supposed to do that by yourself (see
+note on <a href="#id5"><span class="problematic" id="id6">:ref:`private attributes &lt;private_attributes&gt;`</span></a> below).</p>
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-objects-and-classes.rst</tt>, line 84); <em><a href="#id6">backlink</a></em></p>
+Unknown interpreted text role &quot;ref&quot;.
+
+<p>As an element of a vector space <tt class="docutils literal"><span class="pre">el</span></tt> has a particular behavior:</p>
+<!-- link -->
+
+{{{id=4|
+2*el
+///
+2*B[[1, 2, 3]] + 6*B[[1, 3, 2]] + B[[3, 2, 1]]
+}}}
+
+{{{id=5|
+el.support()
+///
+[[1, 2, 3], [1, 3, 2], [3, 2, 1]]
+}}}
+
+{{{id=6|
+el.coefficient([1, 2, 3])
+///
+1
+}}}
+
+<p>The behavior is defined through <strong>methods</strong> (<tt class="docutils literal"><span class="pre">support,</span> <span class="pre">coefficient</span></tt>). Note
+that this is true, even for equality, printing or mathematical operations. For
+example the call <tt class="docutils literal"><span class="pre">a</span> <span class="pre">==</span> <span class="pre">b</span></tt> actually is translated to the method call
+<tt class="docutils literal"><span class="pre">a.__eq__(b)</span></tt>. The names of those special methods which are usually called
+through operators are fixed by the Python language and are of the form
+<tt class="docutils literal"><span class="pre">__name__</span></tt>. Example include <tt class="docutils literal"><span class="pre">__eq__</span></tt>, <tt class="docutils literal"><span class="pre">__le__</span></tt> for operators <tt class="docutils literal"><span class="pre">==</span></tt> and
+<tt class="docutils literal"><span class="pre">&lt;=</span></tt>, <tt class="docutils literal"><span class="pre">__repr__</span></tt> (see <a href="#id7"><span class="problematic" id="id8">:ref:`sage_specifics`</span></a>) for printing, <tt class="docutils literal"><span class="pre">__add__</span></tt> and
+<tt class="docutils literal"><span class="pre">__mult__</span></tt> for operators <tt class="docutils literal"><span class="pre">+</span></tt> and <tt class="docutils literal"><span class="pre">*</span></tt> (see
+<a class="reference external" href="http://docs.python.org/library/">http://docs.python.org/library/</a>) for a complete list:</p>
+
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">tutorial-objects-and-classes.rst</tt>, line 100); <em><a href="#id8">backlink</a></em></p>
+Unknown interpreted text role &quot;ref&quot;.
+<!-- link -->
+
+{{{id=7|
+el.__eq__(F([1,3,2]))
+///
+False
+}}}
+
+{{{id=8|
+el.__repr__()
+///
+'B[[1, 2, 3]] + 3*B[[1, 3, 2]] + 1/2*B[[3, 2, 1]]'
+}}}
+
+{{{id=9|
+el.__mul__(2)
+///
+2*B[[1, 2, 3]] + 6*B[[1, 3, 2]] + B[[3, 2, 1]]
+}}}
+
+<p>Some particular actions allows to modify the data structure of <tt class="docutils literal"><span class="pre">el</span></tt>:</p>
+<!-- link -->
+
+{{{id=10|
+el.rename(&quot;bla&quot;)
+el
+///
+bla
+}}}
+
+<p class="first admonition-title">Note</p>
+<p>The class is stored in a particular attribute called <tt class="docutils literal"><span class="pre">__class__</span></tt> the
+normal attribute are stored in a dictionary called <tt class="docutils literal"><span class="pre">__dict__</span></tt>:</p>
+<!-- link -->
+
+{{{id=11|
+F = CombinatorialFreeModule(QQ, Permutations())
+el = 3*F([1,3,2])+ F([1,2,3])
+el.rename(&quot;foo&quot;)
+el.__class__
+///
+ <class 'sage.combinat.free_module.CombinatorialFreeModule_with_category.element_class'>
+}}}
+
+{{{id=12|
+el.__dict__
+///
+{'_monomial_coefficients': {[1, 2, 3]: 1, [1, 3, 2]: 3}, '__custom_name': 'foo'}
+}}}
+
+<p>Lots of sage objects are not Python objects but compiled Cython
+objects. Python sees them as builtin objects and you don't have access to
+the data structure. Examples include integers and permutation group
+elements:</p>
+<!-- link -->
+<pre class="last literal-block">
+sage: e = Integer(9)
+sage: type(e)
+&lt;type 'sage.rings.integer.Integer'&gt;
+sage: e.__dict__
+&lt;dictproxy object at 0x...&gt;
+sage: e.__dict__.keys()
+['__module__', '_reduction', '__doc__', '_sage_src_lines_']
+
+sage: id4 = SymmetricGroup(4).one()
+sage: type(id4)
+&lt;type 'sage.groups.perm_gps.permgroup_element.PermutationGroupElement'&gt;
+sage: id4.__dict__
+&lt;dictproxy object at 0x...&gt;
+</pre>
+
+
+<p class="first admonition-title">Note</p>
+<p>Each objects corresponds to a portion of memory called its <strong>identity</strong> in
+python. You can get the identity using <tt class="docutils literal"><span class="pre">id</span></tt>:</p>
+<!-- link -->
+
+{{{id=13|
+el = Integer(9)
+id(el)  # random
+///
+139813642977744
+}}}
+
+{{{id=14|
+el1 = el; id(el1) == id(el)
+///
+True
+}}}
+
+{{{id=15|
+el1 is el
+///
+True
+}}}
+
+<p>This is different from mathematical identity:</p>
+<!-- link -->
+<pre class="last literal-block">
+sage: el2 = Integer(9)
+sage: el2 == el1
+True
+sage: el2 is el1
+False
+sage: id(el2) == id(el)
+False
+</pre>
+
+
+<h2>Summary</h2>
+<p>To define some object, you first have to write a <strong>class</strong>. The class will
+defines the methods and the attributes of the object.</p>
+<dl class="docutils">
+<dt><strong>method</strong></dt>
+<dd>particular kind of function associated with an object used to get
+information about the object or to manipulate it.</dd>
+<dt><strong>attribute</strong></dt>
+<dd>variables where the info about the object are stored;</dd>
+</dl>
+
+
+<h2>An example: glass of beverage in a restaurant</h2>
+<p>Let's write a small class about glasses in a restaurant:</p>
+
+{{{id=16|
+class Glass(object):
+       def __init__(self, size):
+           assert size &gt; 0
+           self._size = float(size)
+           self._content = float(0.0)
+       def __repr__(self):
+           if self._content == 0.0:
+               return &quot;An empty glass of size %s&quot;%(self._size)
+           else:
+               return &quot;A glass of size %s cl containing %s cl of water&quot;%(
+                       self._size, self._content)
+       def fill(self):
+           self._content = self._size
+       def empty(self):
+           self._content = float(0.0)
+///
+}}}
+
+<p>Let's create a small glass:</p>
+<!-- link -->
+
+{{{id=17|
+myGlass = Glass(10); myGlass
+///
+An empty glass of size 10.0
+}}}
+
+{{{id=18|
+myGlass.fill(); myGlass
+///
+A glass of size 10.0 cl containing 10.0 cl of water
+}}}
+
+{{{id=19|
+myGlass.empty(); myGlass
+///
+An empty glass of size 10.0
+}}}
+
+<p>Some comments:</p>
+<ol class="arabic simple">
+<li>The method <tt class="docutils literal"><span class="pre">__init__</span></tt> is used to initialize the object, it is used by the
+so called <strong>constructor</strong> of the class that is executed when calling <tt class="docutils literal"><span class="pre">Glass(10)</span></tt>.</li>
+<li>The method <tt class="docutils literal"><span class="pre">__repr__</span></tt> is supposed to return a string which is used to
+print the object.</li>
+</ol>
+
+<p class="first admonition-title">Note</p>
+<p><strong>Private Attributes</strong></p>
+<ul class="last simple" id="private-attributes">
+<li>most of the time, the user should not change directly the
+attribute of an object. Those attributes are called <strong>private</strong>. Since
+there is no mechanism to ensure privacy in python, the usage is to prefix
+the name by an underscore.</li>
+<li>as a consequence attribute access is only made through methods.</li>
+<li>methods which are only for internal use are also prefixed with an
+underscore.</li>
+</ul>
+
+
+
+<h2>Exercises</h2>
+<ol class="arabic simple">
+<li>add a method <tt class="docutils literal"><span class="pre">is_empty</span></tt> which returns true if a glass is empty.</li>
+<li>define a method <tt class="docutils literal"><span class="pre">drink</span></tt> with a parameter <tt class="docutils literal"><span class="pre">amount</span></tt> which allows to
+partially drink the water in the glass. Raise an error if one asks to
+drink more water than there is in the glass or a negative amount of
+water.</li>
+<li>Allows the glass to be filled with wine, beer or other beverage. The method
+<tt class="docutils literal"><span class="pre">fill</span></tt> should accept a parameter <tt class="docutils literal"><span class="pre">beverage</span></tt>. The beverage is stored in
+an attribute <tt class="docutils literal"><span class="pre">_beverage</span></tt>. Update the method <tt class="docutils literal"><span class="pre">__repr__</span></tt> accordingly.</li>
+<li>Add an attribute <tt class="docutils literal"><span class="pre">_clean</span></tt> and methods <tt class="docutils literal"><span class="pre">is_clean</span></tt> and <tt class="docutils literal"><span class="pre">wash</span></tt>. At the
+creation a glass is clean, as soon as it's filled it becomes dirty, and must
+be washed to become clean again.</li>
+<li>Test everything.</li>
+<li>Make sure that everything is tested.</li>
+<li>Test everything again.</li>
+</ol>
+
+
+
+<h1>Inheritance</h1>
+<p>The problem: object of <strong>different</strong> classes may share a <strong>common behavior</strong>.</p>
+<p>For example, if one wants to deal now with different dishes (forks, spoons
+...) then there is common behavior (becoming dirty and being washed). So the
+different classes associated to the different kinds of dishes should have the
+same <tt class="docutils literal"><span class="pre">clean</span></tt>, <tt class="docutils literal"><span class="pre">is_clean</span></tt> and <tt class="docutils literal"><span class="pre">wash</span></tt> methods. But copying and pasting
+code is bad and evil ! This is done by having a base class which factorizes
+the common behavior:</p>
+
+{{{id=20|
+class AbstractDish(object):
+       def __init__(self):
+           self._clean = True
+       def is_clean(self):
+           return self._clean
+       def state(self):
+           return &quot;clean&quot; if self.is_clean() else &quot;dirty&quot;
+       def __repr__(self):
+           return &quot;An unspecified %s dish&quot;%self.state()
+       def _make_dirty(self):
+           self._clean = False
+       def wash(self):
+           self._clean = True
+///
+}}}
+
+<p>Now one can reuse this behavior within a class <tt class="docutils literal"><span class="pre">Spoon</span></tt>:</p>
+<!-- link -->
+
+{{{id=21|
+class Spoon(AbstractDish):
+       def __repr__(self):
+           return &quot;A %s spoon&quot;%self.state()
+       def eat_with(self):
+           self._make_dirty()
+///
+}}}
+
+<p>Let's tests it:</p>
+<!-- link -->
+
+{{{id=22|
+s = Spoon(); s
+///
+A clean spoon
+}}}
+
+{{{id=23|
+s.is_clean()
+///
+True
+}}}
+
+{{{id=24|
+s.eat_with(); s
+///
+A dirty spoon
+}}}
+
+{{{id=25|
+s.is_clean()
+///
+False
+}}}
+
+{{{id=26|
+s.wash(); s
+///
+A clean spoon
+}}}
+
+<h2>Summary</h2>
+<ol class="arabic">
+<li><p class="first">Any class can reuse the behavior of another class. One says that the
+subclass <strong>inherits</strong> from the superclass or that it <strong>derives</strong> from it.</p>
+</li>
+<li><p class="first">Any instance of the subclass is also an instance its superclass:</p>
+<!-- link -->
+
+{{{id=27|
+type(s)
+///
+<class '__main__.Spoon'>
+}}}
+
+{{{id=28|
+isinstance(s, Spoon)
+///
+True
+}}}
+
+{{{id=29|
+isinstance(s, AbstractDish)
+///
+True
+}}}
+
+</li>
+<li><p class="first">If a subclass redefines a method, then it replaces the former one. One says
+that the subclass <strong>overloads</strong> the method. One can nevertheless explicitly
+call the hidden superclass method.</p>
+<!-- link -->
+
+{{{id=30|
+s.__repr__()
+///
+'A clean spoon'
+}}}
+
+{{{id=31|
+Spoon.__repr__(s)
+///
+'A clean spoon'
+}}}
+
+{{{id=32|
+AbstractDish.__repr__(s)
+///
+'An unspecified clean dish'
+}}}
+
+</li>
+</ol>
+
+<p class="first admonition-title">Note</p>
+<p><strong>Advanced superclass method call</strong></p>
+<p>Sometimes one wants to call an overloaded method without knowing in which
+class it is defined. On use the <tt class="docutils literal"><span class="pre">super</span></tt> operator</p>
+<!-- link -->
+
+{{{id=33|
+super(Spoon, s).__repr__()
+///
+'An unspecified clean dish'
+}}}
+
+<p>A very common usage of this construct is to call the __init__ method of the
+super classes:</p>
+<!-- link -->
+<pre class="last literal-block">
+sage: class Spoon(AbstractDish):
+...       def __init__(self):
+...           print &quot;Building a spoon&quot;
+...           super(Spoon, self).__init__()
+...       def __repr__(self):
+...           return &quot;A %s spoon&quot;%self.state()
+...       def eat_with(self):
+...           self.make_dirty()
+sage: s = Spoon()
+Building a spoon
+sage: s
+A clean spoon
+</pre>
+
+
+
+<h2>Exercises</h2>
+<ol class="arabic simple">
+<li>Modify the class <tt class="docutils literal"><span class="pre">Glasses</span></tt> so that it inherits from <tt class="docutils literal"><span class="pre">Dish</span></tt>.</li>
+<li>Write a class <tt class="docutils literal"><span class="pre">Plate</span></tt> whose instance can contain any meals together with
+a class <tt class="docutils literal"><span class="pre">Fork</span></tt>. Avoid at much as possible code duplication (hint:
+you can write a factorized class <tt class="docutils literal"><span class="pre">ContainerDish</span></tt>).</li>
+<li>Test everything.</li>
+</ol>
+
+
+
+<span id="sage-specifics"></span><h1>Sage specifics about classes</h1>
+<p>Compared to Python, Sage has its particular way to handles objects:</p>
+<ul class="simple">
+<li>Any classes for mathematical objects in Sage should inherits from
+<tt class="docutils literal"><span class="pre">SageObject</span></tt> rather than from <tt class="docutils literal"><span class="pre">object</span></tt>.</li>
+<li>Printing should be done through <tt class="docutils literal"><span class="pre">_repr_</span></tt> instead of <tt class="docutils literal"><span class="pre">__repr__</span></tt> to allows
+for renaming.</li>
+<li>More generally, Sage specific special methods are usually named <tt class="docutils literal"><span class="pre">_meth_</span></tt>
+rather than <tt class="docutils literal"><span class="pre">__meth__</span></tt>. For example, lots of classes implement <tt class="docutils literal"><span class="pre">_hash_</span></tt>
+which is used and cached by <tt class="docutils literal"><span class="pre">__hash__</span></tt>.</li>
+</ul>
+
+
+<span id="solutions"></span><h1>Solutions to the exercises</h1>
+<ol class="arabic">
+<li><p class="first">Here is a solution to the first exercise:</p>
+
+{{{id=34|
+class Glass(object):
+       def __init__(self, size):
+           assert size &gt; 0
+           self._size = float(size)
+           self.wash()
+       def __repr__(self):
+           if self._content == 0.0:
+               return &quot;An empty glass of size %s&quot;%(self._size)
+           else:
+               return &quot;A glass of size %s cl containing %s cl of %s&quot;%(
+                       self._size, self._content, self._beverage)
+       def content(self):
+           return self._content
+       def beverage(self):
+           return self._beverage
+       def fill(self, beverage = &quot;water&quot;):
+           if not self.is_clean():
+               raise ValueError, &quot;Don't want to fill a dirty glass&quot;
+           self._clean = False
+           self._content = self._size
+           self._beverage = beverage
+       def empty(self):
+           self._content = float(0.0)
+       def is_empty(self):
+           return self._content == 0.0
+       def drink(self, amount):
+           if amount &lt;= 0.0:
+               raise ValueError, &quot;amount must be positive&quot;
+           elif amount &gt; self._content:
+               raise ValueError, &quot;not enough beverage in the glass&quot;
+           else:
+               self._content -= float(amount)
+       def is_clean(self):
+           return self._clean
+       def wash(self):
+           self._content = float(0.0)
+           self._beverage = None
+           self._clean = True
+///
+}}}
+
+</li>
+<li><p class="first">Let's check that everything is working as expected:</p>
+<!-- link -->
+
+{{{id=35|
+G = Glass(10.0)
+G
+///
+An empty glass of size 10.0
+}}}
+
+{{{id=36|
+G.is_empty()
+///
+True
+}}}
+
+{{{id=37|
+G.drink(2)
+///
+Traceback (most recent call last):
+ValueError: not enough beverage in the glass
+}}}
+
+{{{id=38|
+G.fill(&quot;beer&quot;)
+G
+///
+A glass of size 10.0 cl containing 10.0 cl of beer
+}}}
+
+{{{id=39|
+G.is_empty()
+///
+False
+}}}
+
+{{{id=40|
+G.is_clean()
+///
+False
+}}}
+
+{{{id=41|
+G.drink(5.0)
+G
+///
+A glass of size 10.0 cl containing 5.0 cl of beer
+}}}
+
+{{{id=42|
+G.is_empty()
+///
+False
+}}}
+
+{{{id=43|
+G.is_clean()
+///
+False
+}}}
+
+{{{id=44|
+G.drink(5)
+G
+///
+An empty glass of size 10.0
+}}}
+
+{{{id=45|
+G.is_clean()
+///
+False
+}}}
+
+{{{id=46|
+G.fill(&quot;orange juice&quot;)
+///
+Traceback (most recent call last):
+ValueError: Don't want to fill a dirty glass
+}}}
+
+{{{id=47|
+G.wash()
+G
+///
+An empty glass of size 10.0
+}}}
+
+{{{id=48|
+G.fill(&quot;orange juice&quot;)
+G
+///
+A glass of size 10.0 cl containing 10.0 cl of orange juice
+}}}
+
+</li>
+</ol>
+<p>Here is the solution to the second exercice:</p>
+<p>TODO !!!!</p>
+<p>That all folks !</p>
+
+
+
+
+
