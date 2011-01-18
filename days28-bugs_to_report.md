@@ -7,6 +7,7 @@
   * Remplir les champs
   * Sauvegarder
 
+== demo du workflow ==
 
 === Exo ===
 [Pour pouvoir lire les liens suivants, lancez votre notebook]
