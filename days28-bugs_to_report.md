@@ -1,13 +1,18 @@
 == Creer un compte sur le serveur trac ==
 [[http://trac.sagemath.org/sage_trac/]] (lien Register en haut a droite).
 
+habituellement, login = premiere lettre du prenom + nom (exemple slabbe, nthiery, vdelecroix, hivert, ncohen, tmonteil (cherchez l'erreur))
+
 
 == Reporter un bug ==
   * Cliquer sur le lien "New ticket"
   * Remplir les champs
   * Sauvegarder
 
-== demo du workflow ==
+
+== exemple de workflow ==
+[[http://trac.sagemath.org/sage_trac/ticket/10063]]
+
 
 === Exo ===
 [Pour pouvoir lire les liens suivants, lancez votre notebook]
@@ -21,6 +26,8 @@ Quoi remplir?
   * Summary: fix documentation in ... <- boulot
   * Component: documentation 
   * Description: ..... <- boulot
+  * cc: sage-combinat, tmonteil
+
 
   1. un point dans le titre en trop en haut : [[http://localhost:8000/doc/live/reference/sage/calculus/calculus.html]]
   1. un bloc d'exemple n'est pas interactif : [[http://localhost:8000/doc/live/reference/sage/combinat/cartesian_product.html]] 
