@@ -1,14 +1,24 @@
-Creez un compte sur [[http://trac.sagemath.org/sage_trac/]] (Register en haut a droite).
+== Creer un compte sur le serveur trac ==
+[[http://trac.sagemath.org/sage_trac/]] (lien Register en haut a droite).
+
+
+== Reporter un bug ==
+  * Cliquer sur le lien "New ticket"
+  * Remplir les champs
+  * Sauvegarder
+
+
+=== Exo ===
+
+Voici une liste numerotee de bugs que vous allez devoir reporter. Notez que ce bug sera fixe par votre voisin-e dans l'expose suivant, donc essayez de lui faire comprendre le probleme !
 
 Quoi remplir?
   * Type: defect
-  * Keywords: beginner, days28
+  * Keywords: beginner, days28, ... (le mot clef beginner est la pour permettre aux nouveaux codeurs de se faire les dents, ces tickets sont listes separement dans le "View tickets")
   * Priority: minor
-  * Summary: fix documentation in ...
-  * Component: documentation
-
-
-Voici une liste numerotee de bugs que vous allez devoir reporter (puis eventuellement fixer).
+  * Summary: fix documentation in ... <- boulot
+  * Component: documentation 
+  * Description: ..... <- boulot
 
   1. un point dans le titre en trop en haut : [[http://localhost:8000/doc/live/reference/sage/calculus/calculus.html]]
   1. un bloc d'exemple n'est pas interactif : [[http://localhost:8000/doc/live/reference/sage/combinat/cartesian_product.html]] 
@@ -31,4 +41,5 @@ Voici une liste numerotee de bugs que vous allez devoir reporter (puis eventuell
   1. pas de point dans le titre : [[http://localhost:8000/doc/live/reference/sage/structure/category_object.html]] 
   1. pas de point dans le titre : [[http://localhost:8000/doc/live/reference/sage/calculus/functional.html]]
 
-Si ca vous suffit pas, faites-vous les dents sur [[days28-unreferenced_bugs]] et sur ce qui est inscrit au tableau
+
+Si ca vous suffit pas, faites-vous les dents sur [[days28-unreferenced_bugs]] et sur ce qui est inscrit au tableau. Vous pouvez aussi rajouter des demandes de nouvelles fonctionalitesn, dans ce cas, remplacez "defect" par "enhancement".
