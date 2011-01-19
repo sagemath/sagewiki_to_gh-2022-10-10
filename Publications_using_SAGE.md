@@ -35,10 +35,3 @@ Also, be sure to find out what components of Sage, e.g., !NumPy, PARI, GAP, that
 == Books and Articles mentioning Sage ==
 
 Please see http://www.sagemath.org/library-publications.html
- * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
- * [[http://carrentalbirmingham.org|car rental birmingham]]
- * [[http://fxnewstrading.net|FX News Trading]]
- * [[http://fxnewstrading.net|Forex News Trading]] 
- * [[http://1500cashadvance.org|1500 cash advance]]
- * [[http://1000loanpayday.org|1000 loan payday]]
- * [[http://tonnsofteens.com]]
