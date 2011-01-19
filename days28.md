@@ -123,7 +123,9 @@ For any additional queries, contact Samuel Lelièvre <samuel.lelievre+days28@gma
 
    [[http://trac.sagemath.org/sage_trac/ticket/10652| #10652]]: Add support for uploading static html doc page as a worksheet in the notebook
 
-   [[http://combinat.sagemath.org/hgwebdir.cgi/misc/file/e3f98d810a12/notebook2rst|notebook2rst]] script repository on sage combinat server]]
+   [[http://combinat.sagemath.org/hgwebdir.cgi/misc/file/e3f98d810a12/notebook2rst|notebook2rst]] script repository]] on sage combinat server
+
+   Script sws -> rst of Pablo Angulo using Beautiful Soup
 
  * Analytic combinatorics
 
