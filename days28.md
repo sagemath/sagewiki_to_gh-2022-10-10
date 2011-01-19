@@ -121,6 +121,10 @@ For any additional queries, contact Samuel Lelièvre <samuel.lelievre+days28@gma
 
    FlorentHivert, VincentDelecroix, NicolasThiéry, SébastienLabbé, PabloAngulo
 
+   [[http://trac.sagemath.org/sage_trac/ticket/10652| #10652]]: Add support for uploading static html doc page as a worksheet in the notebook
+
+   [[http://combinat.sagemath.org/hgwebdir.cgi/misc/file/e3f98d810a12/notebook2rst|notebook2rst]] script repository on sage combinat server]]
+
  * Analytic combinatorics
 
    Many people, leaded by NicolasThiéry.
