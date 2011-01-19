@@ -110,7 +110,7 @@ All the demos and tutorials (in format .rst and .txt) are in the following archi
 
 == Bugs found during Sage Days 28 ==
 
-  * List of unreported bugs found [[days28-bugs_to_report]]
+  * List of unreported bugs found [[days28-bugs_to_report]]. Practice yourself to create a ticket.
 
   * [[http://trac.sagemath.org/sage_trac/query?status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&order=id&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~days28|Tickets created during Sage Days 28]]
 
