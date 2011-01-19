@@ -276,3 +276,10 @@ http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage-a4.pdf.
 === The Tamer and the Lion by Provencal and Labbe ===
 
 This animation was moved to the section on the animate command : [[http://wiki.sagemath.org/animate#TheTamerandtheLionbyProvencalandLabbe]]
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
+ * [[http://fxnewstrading.net|FX News Trading]]
+ * [[http://fxnewstrading.net|Forex News Trading]] 
+ * [[http://1500cashadvance.org|1500 cash advance]]
+ * [[http://1000loanpayday.org|1000 loan payday]]
+ * [[http://tonnsofteens.com]]
