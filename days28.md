@@ -78,7 +78,9 @@ All the demos and tutorials (in format .rst and .txt) are in the following archi
   
 '''Mercredi 19'''
 
- * ''10:00-11:30'' tutoriel: contribuer à Sage-combinat (ThierryMonteil)
+ * ''10:00-11:00'' tutoriel: rewiewer un patch (SébastienLabbé)
+  * [[http://trac.sagemath.org/sage_trac/query?status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&order=id&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~days28|lien vers la page du trac qui va bien]] N'oubliez-pas de passer votre patch en needs_rewiew lorsque vous avez uploadé un patch qui vous semble convenir.
+ * ''11:00-11:30'' tutoriel: contribuer à Sage-combinat (ThierryMonteil)
   * [[http://wiki.sagemath.org/combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png]]
   * [[combinat/MercurialStepByStep]]
  * ''11:30-13:00'' repas au restaurant du personnel d'Orsay (CESFO)
