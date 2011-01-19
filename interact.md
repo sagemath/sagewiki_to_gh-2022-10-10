@@ -38,3 +38,10 @@ def _(order=(1..12)):
   show(dot + p + pt, ymin = -.5, ymax = 1)
 }}}
 {{attachment:taylor_series_animated.gif}}
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
+ * [[http://fxnewstrading.net|FX News Trading]]
+ * [[http://fxnewstrading.net|Forex News Trading]] 
+ * [[http://1500cashadvance.org|1500 cash advance]]
+ * [[http://1000loanpayday.org|1000 loan payday]]
+ * [[http://tonnsofteens.com]]
