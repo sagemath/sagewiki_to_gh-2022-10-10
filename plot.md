@@ -20,3 +20,10 @@ very extensive plotting library with a user interface that is very similiar to M
 The interface that Sage provides to matplotlib is very Mathematica like.
 
 There are also several links to plotting/graphics/data visualization programs at the scipy [[http://www.scipy.org/Topical_Software#head-b98ffdb309ccce4e4504a25ea75b5c806e4897b6|wiki]].
+ * [[http://paydayloansinmaryland.com|Payday Loans in Maryland]]
+ * [[http://carrentalbirmingham.org|car rental birmingham]]
+ * [[http://fxnewstrading.net|FX News Trading]]
+ * [[http://fxnewstrading.net|Forex News Trading]] 
+ * [[http://1500cashadvance.org|1500 cash advance]]
+ * [[http://1000loanpayday.org|1000 loan payday]]
+ * [[http://tonnsofteens.com]]
