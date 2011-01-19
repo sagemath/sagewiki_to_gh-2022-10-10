@@ -117,7 +117,17 @@ For any additional queries, contact Samuel Lelièvre <samuel.lelievre+days28@gma
 
    FlorentHivert, MikeHansen, VincentDelecroix, NicolasThiéry, ...
 
- * ...
+ * rst2notebook, rst2sws, sws2rst
+
+   FlorentHivert, VincentDelecroix, NicolasThiéry, SébastienLabbé, PabloAngulo
+
+ * Analytic combinatorics
+
+   Many people, leaded by NicolasThiéry.
+
+   [[http://trac.sagemath.org/sage_trac/ticket/10519|ticket #10519: analytic combinatorics: new code for computing asymptotics for multivariate generating functions]]
+
+   See the [[http://trac.sagemath.org/sage_trac/ticket/10519#comment:4|comment #4]] written by SébastienLabbé about how to translate a bunch of functions into oriented-object structure.
 
 == Registered participants ==
 
