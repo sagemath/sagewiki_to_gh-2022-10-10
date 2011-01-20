@@ -34,6 +34,7 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
  * chair: Barry Mazur
  * times: Thursdays 11-12
  * pp. 2-9 (i.e., the Introduction) of Binary quadratic forms having bounded invariants, and the boundedness of average ranks of elliptic curves
+ * Manjul's collected works: http://wstein.org/home/wstein/travel/2011/msri/bhargava/
 
 == Quadratic twists of elliptic curves: 2-Selmer ranks ==
 
