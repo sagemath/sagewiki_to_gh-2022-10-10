@@ -29,6 +29,7 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10364|10364]] || zero_vector constructor, vector constructor error-checking || 4.6.2.alpha0 || Andrey Novoseltsev ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10424|10424]] || matrix augment accepts a vector || 4.6.2.alpha0 || Joris Vankerschaver, Robert Bradshaw ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4492 | 4492]] || block matrix constructor || positive review || Author: Willem Jan Palenstijn ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/8948 | 8948]] || latex printing for vectors || positive review || Author: Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10454|10454]] || add .is_singular() || positive review || Robert Bradshaw ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10471|10471]] || conjugate-transpose of a matrix || positive review || Robert Bradshaw ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10500|10500]] || documentation: matrix row/column linear combinations || positive review|| Alyson Deines ||
@@ -36,6 +37,8 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10537|10537]] || dictionary input to vector constructor || positive review, dep. 10364 || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10541|10541]] || row and column matrix from vector, deprecate transpose || positive review || Volker Braun ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with only empty list || positive review, dep. 10537 || Dima Pasechnik ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || positive review, dep. 10537, 10626 || Dan Drake ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10625|10625]] || generic Smith form fails on integer matrices || positive review || Author: David Loeffler ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10665|10626]] || route sparse integer matrices to specialized Smith form || positive review || David Loeffler ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
@@ -51,8 +54,8 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10543]] || echelon form over QQ is mutable || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10545]] || outer product of vectors || with patch, dep. 10541 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || with patch, dep. 10537, 10626 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10625|10625]] || generic Smith form fails on integer matrices || new ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || with patches, dep. 10536, 10541 ||  ||
+
 
 == Examples ==
 
