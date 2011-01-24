@@ -5,7 +5,7 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
 == Cohen-Lenstra heuristics ==
 
  * chair: Bjorn Poonen
- * The first meeting of the reading group will be Tuesday, January 25, 11-12. (Bjorn will be away the preceding week.) It will be in the 2nd floor seminar room if that room is available.
+ * The first meeting of the reading group will be Tuesday, January 25, 11-12. It will be in the 2nd floor seminar room if that room is available.
  * Informal reading group on the Cohen-Lenstra heuristics
  * Reading list (in increasing order of sophistication):
 
@@ -15,7 +15,9 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
 
    * MR1837670 (2003a:11065) Delaunay, Christophe.  Heuristics on Tate-Shafarevitch groups of elliptic curves defined over Q. Experiment. Math. 10 (2001), no. 2, 191--196.
 
-   * PDFs of these three papers have been placed in my public directory at MSRI, which I think can be accessed by typing `cd ~bpoonen/Public` at a terminal prompt.
+   * Delaunay, Christophe.  Formes modulaire et invariants de courbes elliptiques d&eacute;finies sur Q.  Th&egrave;se, Universit&eacute; Bordeaux I, 2002.
+
+ * PDFs of these have been placed in Poonen's public directory at MSRI.  Type `cd ~bpoonen/Public` at a terminal prompt.
 
 == Iwaniec-Luo-Sarnak ==
 
