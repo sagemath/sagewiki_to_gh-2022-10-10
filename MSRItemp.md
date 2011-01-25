@@ -15,6 +15,19 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
  * [[/FRG|FRG on L-functions and modular forms data]]
  . "default" meeting time: Fridays 1:30
 
+== UC Berkeley Math Department ==
+
+ * Wednesdays 3:40-5pm - 740 Evans - Number Theory Seminar
+   * Jan. 26 - Xinyi Yuan (Columbia University) - the Gross--Zagier formula and its generalizations
+ * Thursdays 4:10pm - 60 Evans - Colloquium
+   * Jan. 27 - Vladimir Rokhlin (Yale University) - DiPerna Memorial Lecture: "A Randomized Approximate Nearest Neighbors Algorithm"
+   . http://math.berkeley.edu/index.php?module=announce&ANN_user_op=view&ANN_id=187
+   . Alexandre Chorin will be organizing a dinner for the speaker after the lecture.
+   * Feb. 3 - Bjorn Poonen - $x^2 + y^3 = z^7$
+   . http://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=39632
+   . Ken Ribet will be organizing a dinner after the talk.
+ * Faculty Club wine dinner, Feb. 25
+
 == General question group ==
 
  * (e.g., average ap ’s, Sato-Tate (the statement), etc.) Not yet scheduled.
@@ -29,7 +42,6 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
  || Thu. 27 ||<rowspan=2> all day       ||<rowspan=2> see link ||<rowspan=2> [[http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm538|Connections for Women]] ||
  || Fri. 28 ||
  || Fri. 28 || 11am-12pm || ? || 2-Selmer rank informal study group? ||
-
 
 == Upcoming events ==
 
