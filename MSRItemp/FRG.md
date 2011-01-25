@@ -2,6 +2,8 @@
 
  * Chair: David Farmer
 
+ * Mailing list: http://groups.google.com/group/lmdb
+
 
 == William Stein's Current Projects ==
 
