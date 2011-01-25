@@ -2,7 +2,7 @@ Temporary wiki for organizing the informal reading groups at the Arithmetic Stat
 
 This is [[/subpage|an example of how to make a separate subpage correctly]].
 
-== Informal Reading Groups ==
+== Weekly Meeting Groups ==
 
  * [[/CohenLenstra|Cohen-Lenstra heuristics]]
  . "default" meeting time: Tuesdays 11-12
@@ -12,6 +12,8 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
  . "default" meeting time: Thursdays 11-12
  * [[/QuadraticTwists|Quadratic twists of elliptic curves: 2-Selmer rank]]
  . "default" meeting time: Fridays 11-12
+ * FRG on L-functions and modular forms data
+ . "default" meeting time: Fridays 1:30
 
 == General question group ==
 
