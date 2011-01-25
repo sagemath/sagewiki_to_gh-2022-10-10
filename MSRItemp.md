@@ -5,9 +5,13 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
 == Informal Reading Groups ==
 
  * [[/CohenLenstra|Cohen-Lenstra heuristics]]
+ . "default" meeting time: Tuesdays 11-12
  * [[/ILS|Iwaniec-Luo-Sarnak]]
+ . "default" meeting time: Wednesdays 11-12
  * [[/BhargavaShankar|Bhargava-Shankar]]
+ . "default" meeting time: Thursdays 11-12
  * [[/QuadraticTwists|Quadratic twists of elliptic curves: 2-Selmer rank]]
+ . "default" meeting time: Fridays 11-12
 
 == General question group ==
 
