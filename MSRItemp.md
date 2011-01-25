@@ -1,4 +1,4 @@
-Temporary wiki for organizing the informal reading groups at the Arithmetic Statistics program at MSRI.
+Temporary wiki for organizing things at the Arithmetic Statistics program at MSRI.
 
 This is [[/subpage|an example of how to make a separate subpage correctly]].
 
