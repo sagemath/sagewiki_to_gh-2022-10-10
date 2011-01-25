@@ -6,6 +6,7 @@
 
  * Mailing list: http://groups.google.com/group/lmdb
 
+ * main wiki: http://wiki.l-functions.org/
 
 == William Stein's Current Projects ==
 
