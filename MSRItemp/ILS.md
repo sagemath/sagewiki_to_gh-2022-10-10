@@ -6,7 +6,7 @@
     
    Abstract: The content of the paper "Low lying zeros of families of L-functions" by Iwaniec, Luo and Sarnak will be described in general terms.
 
- * wed. 26 Jan in Baker boardroom: Henryk iwaniec, "The paper of Iwaniec, Luo and Sarnak"
+ * Wed. 26 Jan in Baker boardroom: Henryk iwaniec, "The paper of Iwaniec, Luo and Sarnak"
 
    Abstract: we will continue to describe the contents of the above mentioned paper.
 
