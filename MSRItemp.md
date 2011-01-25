@@ -41,8 +41,6 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
  || Wed. 26 || 9:30am-4:30pm || Simons Auditorium || 5-minute presentations / introductions      ||
  || Thu. 27 ||<rowspan=2> all day       ||<rowspan=2> see link ||<rowspan=2> [[http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm538|Connections for Women]] ||
  || Fri. 28 ||
- || Fri. 28 || 11am-12pm || ? || 2-Selmer rank informal study group? ||
-
 == Upcoming events ==
 
  * Kumar Murty, 3 March?, 1pm? 2pm?
