@@ -8,7 +8,7 @@
 
  * Wed. 26 Jan in Baker boardroom: Henryk Iwaniec, "The paper of Iwaniec, Luo and Sarnak"
 
-   Abstract: we will continue to describe the contents of the above mentioned paper.
+   Abstract: We will continue to describe the contents of the above mentioned paper.
 
  * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, 2000.
     [[attachment:Iwaniec-Luo-Sarnak.pdf]]
