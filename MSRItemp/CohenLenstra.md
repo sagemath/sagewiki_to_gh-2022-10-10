@@ -1,8 +1,10 @@
 == Cohen-Lenstra heuristics ==
 
- * chair: Bjorn Poonen
- * The first meeting of the reading group will be Tuesday, January 25, 11-12. It will be in the 2nd floor seminar room if that room is available.
  * Informal reading group on the Cohen-Lenstra heuristics
+ * chair: Bjorn Poonen
+ * The first meeting of the reading group was Tuesday, January 25, 11-12. 
+ * The second meeting will be Tuesday, February 8, 11-12 in the 2nd floor seminar room if that room is available.  It will focus on heuristics for Shafarevich-Tate groups.
+
  * Reading list (in increasing order of sophistication):
 
    * MR0750661 Cohen, H. ; Lenstra, H. W., Jr.  Heuristics on class groups. Number theory (New York, 1982), 26--36, Lecture Notes in Math., 1052, Springer, Berlin, 1984.
