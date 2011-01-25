@@ -30,6 +30,7 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
  || Fri. 28 ||
  || Fri. 28 || 11am-12pm || ? || 2-Selmer rank informal study group? ||
 
+
 == Upcoming events ==
 
  * Kumar Murty, 3 March?, 1pm? 2pm?
