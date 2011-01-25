@@ -2,6 +2,8 @@
 
  * Chair: David Farmer
 
+ * "default" meeting time: Fridays 1:30
+
  * Mailing list: http://groups.google.com/group/lmdb
 
 
