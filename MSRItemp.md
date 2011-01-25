@@ -2,6 +2,13 @@ Temporary wiki for organizing the informal reading groups at the Arithmetic Stat
 
 This is [[/subpage|an example of how to make a separate subpage correctly]].
 
+== Informal Reading Groups ==
+
+ * [[/CohenLenstra|Cohen-Lenstra heuristics]]
+ * [[/ILS|Iwaniec-Luo-Sarnak]]
+ * [[/BhargavaShankar|Bhargava-Shankar]]
+ * [[/QuadraticTwists|Quadratic twists of elliptic curves: 2-Selmer rank]]
+
 == Cohen-Lenstra heuristics ==
 
  * chair: Bjorn Poonen
