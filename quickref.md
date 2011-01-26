@@ -27,3 +27,6 @@
 == German ==
 
  * '''Sage Referenzkarte''' by Michael Mardaus (August 2010) - [[attachment:quickref_de.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref_de.pdf|download]] (and the source [[attachment:quickref_de.tex]])
+
+== Italian ==
+ * '''Sage: guida rapida''' (traduzione italiana di Sage Quick Reference, January 2011) - [[attachment:quickref_it.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref_it.pdf|download]] (e il sorgente [[attachment:quickref_it.tex]])
