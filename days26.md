@@ -22,8 +22,9 @@
    * Stein's snapshots: [[http://picasaweb.google.com/wstein/20101207SageDays26Women_in_sageDay1|day 1]], [[ http://picasaweb.google.com/wstein/20101208Sagedays26Day2|day 2]], [[http://picasaweb.google.com/wstein/20101209Sagedays26Day3|day 3]]
    * Sara Billey's Lecture http://vimeo.com/17680795.
    * [[http://sage.math.washington.edu/home/wstein/video/sagedays26/|Flavia Stan's Lecture]] (not streaming -- just download the whole thing and watch)
+   * Kate Stange's Lecture at Microsoft http://research.microsoft.com/apps/video/default.aspx?id=142675&l=i
+   * William Stein's Lecture at Microsoft http://research.microsoft.com/apps/video/default.aspx?id=142905
 
-   * Kate Stange's Lecture http://research.microsoft.com/apps/video/default.aspx?id=142675&l=i
 == UW Wireless info ==
 
 UW NetID:
