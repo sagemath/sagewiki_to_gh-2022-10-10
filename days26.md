@@ -23,6 +23,7 @@
    * Sara Billey's Lecture http://vimeo.com/17680795.
    * [[http://sage.math.washington.edu/home/wstein/video/sagedays26/|Flavia Stan's Lecture]] (not streaming -- just download the whole thing and watch)
 
+   * Kate Stange's Lecture http://research.microsoft.com/apps/video/default.aspx?id=142675&l=i
 == UW Wireless info ==
 
 UW NetID:
