@@ -29,33 +29,35 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10364|10364]] || zero_vector constructor, vector constructor error-checking || 4.6.2.alpha0 || Andrey Novoseltsev ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10424|10424]] || matrix augment accepts a vector || 4.6.2.alpha0 || Joris Vankerschaver, Robert Bradshaw ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10625|10625]] || generic Smith form fails on integer matrices || 4.6.2.alpha2 || Author: David Loeffler ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/4492 | 4492]] || block matrix constructor || 4.6.2.alpha3 || Author: Willem Jan Palenstijn ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8948 | 8948]] || latex printing for vectors || 4.6.2.alpha3 || Author: Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10454|10454]] || add .is_singular() || 4.6.2.alpha3 || Robert Bradshaw ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10471|10471]] || conjugate-transpose of a matrix || 4.6.2.alpha3 || Robert Bradshaw ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10500|10500]] || documentation: matrix row/column linear combinations || 4.6.2.alpha3 || Alyson Deines ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10535|10535]] || column-oriented matrix constructor || 4.6.2.alpha3 || Dan Drake ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10537|10537]] || dictionary input to vector constructor || 4.6.2.alpha3 || Dima Pasechnik ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10626|10626]] || route sparse integer matrices to specialized Smith form || 4.6.2.alpha3 || David Loeffler ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10627|10627]] || matrix pretty-printing || 4.6.2.alpha3 || Author: Ivan Andrus ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/4492 | 4492]] || block matrix constructor || positive review || Author: Willem Jan Palenstijn ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10541|10541]] || row and column matrix from vector, deprecate transpose || positive review || Volker Braun ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || positive review, dep. 10537, 10626 || Dan Drake ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10626|10626]] || route sparse integer matrices to specialized Smith form || positive review || David Loeffler ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8046 | 8046]] || add double dense matrix file to documentation || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/9796 | 9796]] || diagonal elements of a matrix || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || with patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 8094, 10501 || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || with patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10536|10536]] || vector conjugation || with patch, dep. 10537 ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10541|10541]] || row and column matrix from vector, deprecate transpose || with patches || Volker Braun ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10543]] || echelon form over QQ is mutable || with patch ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10543|10544]] || LLL reduced bases for right kernels || new ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10543|10545]] || outer product of vectors || with patch, dep. 10541 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with only empty list || needs work, dep. 10537 ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || with patch, dep. 10541 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || with patches, dep. 10536, 10541 ||  ||
+||<rowstyle="background-color: #E0E0FF;"> || || || ||
+||<rowstyle="background-color: #E0E0FF;"> || || || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 8094, 10501 || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10543|10544]] || LLL reduced bases for right kernels || new ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with only empty list || needs work, dep. 10537 ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || needs work, dep. 10537, 10626 || Dan Drake ||
 
 
 == Examples ==
