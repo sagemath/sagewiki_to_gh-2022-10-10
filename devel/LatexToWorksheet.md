@@ -40,6 +40,10 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10627|10627]] || matrix pretty-printing || 4.6.2.alpha3 || Author: Ivan Andrus ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10028|10028]] || improved error messages for non-invertible matrices || positive review || Author: Andre Apitzsch ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || positive review || Joint with: Dan Drake ||
+||<rowstyle="background-color: #E0E0FF;"> || || || ||
+||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8046 | 8046]] || add double dense matrix file to documentation || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/9796 | 9796]] || diagonal elements of a matrix || with patch || ||
@@ -57,7 +61,6 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with only empty list || needs work, dep. 10537 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || needs work, dep. 10537, 10626 || Dan Drake ||
 
 
 == Examples ==
