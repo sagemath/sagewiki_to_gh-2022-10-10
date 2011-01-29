@@ -6,6 +6,7 @@ Welcome to Sage, the open-source alternative to Magma, Maple, Mathematica, and M
 
 If you have come here to learn about the Sage program, these links will give you a good overview:
 
+ * [[http://www.sagemath.org/|Sage]]
  * [[http://www.sagemath.org/tour.html|Sage Tour]]
  * [[http://en.wikipedia.org/wiki/Sage_(mathematics_software)|Sage (Wikipedia)]]
  * [[http://www.sagemath.org/library-stories.html|Sage Testimonials]]
