@@ -41,6 +41,7 @@ This table tracks patches meant to support the teaching of introductory linear a
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10028|10028]] || improved error messages for non-invertible matrices || positive review || Author: Andre Apitzsch ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10541|10541]] || row and column matrix from vector, deprecate transpose || positive review || Volker Braun, Marco Streng ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || positive review || Joint with: Dan Drake ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
@@ -51,17 +52,16 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10536|10536]] || vector conjugation || with patch, dep. 10537 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10541|10541]] || row and column matrix from vector, deprecate transpose || with patches || Volker Braun ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10543]] || echelon form over QQ is mutable || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || with patch, dep. 10541 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || with patches, dep. 10536, 10541 ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10714|10714]] || rows of a sparse zero-row matrix || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 8094, 10501 || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with only empty list || needs work, dep. 10537 ||  ||
-
 
 == Examples ==
 
