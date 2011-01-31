@@ -48,6 +48,10 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Fri. 28 ||
  ||||||||<tablestyle="width: 80%">'''Week 4: 31 January - 4 February'''||
  |||| all week || see link || [[http://www.msri.org/web/msri/scientific/show/-/event/Wm539|Introductory Workshop]] ||
+ ||||||||<tablestyle="width: 80%">'''Week 5: 7-11 February'''||
+ || Mon. 7 || 4:10pm || 60 Evans Hall-UC Berkeley || Dr. Henryk Iwaniec - “Counting Integers” ||
+ 
+ 
 
 == Upcoming events ==
 
