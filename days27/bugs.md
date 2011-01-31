@@ -34,7 +34,7 @@ For [[days27|Sage Days 27]].
     * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10610|#10610]] tachyon block=False doesn't work
 
  * ATLAS rewrite
-   * (needs_review) [[http://trac.sagemath.org/sage_trac/ticket/10226|#10226]] Rewrite ATLAS spkg-install
+   * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10226|#10226]] Rewrite ATLAS spkg-install
    * (superseded) [[http://trac.sagemath.org/sage_trac/ticket/9382|#9382]] atlas not respecting SAGE_FAT_BINARY on i686 systems
    * (future work) [[http://trac.sagemath.org/sage_trac/ticket/10508|#10508]] Update ATLAS to version 3.9.32 (not ready yet, crashes in linbox)
 
@@ -52,7 +52,7 @@ For [[days27|Sage Days 27]].
 
  * (closes as duplicate of [[http://trac.sagemath.org/sage_trac/ticket/10430|#10430]]) [[http://trac.sagemath.org/sage_trac/ticket/10559|#10559]] path to perl hardcoded in gphelp (GP/PARI)
 
- * (needs_work) [[http://trac.sagemath.org/sage_trac/ticket/9678|#9678]] Rewrite interrupt handling
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/9678|#9678]] Rewrite interrupt handling
 
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/4492|#4429]] block_matrix() consistency and rewrite
  (also fixes (new) [[http://trac.sagemath.org/sage_trac/ticket/2429|#2429]])
