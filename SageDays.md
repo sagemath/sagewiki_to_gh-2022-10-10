@@ -8,8 +8,7 @@ Periodic conferences about Sage and Sage development.
 
 == Upcoming Sage Days ==
 
- * [[http://www.fields.utoronto.ca/programs/scientific/09-10/sage/|Sage Days 20.5 at the Fields Institute]] -- Toronto, Canada -- algebraic combinatorics and representation theory of algebras -- May 3-7, 2010
- * [[days24| Sage Days 24]] -- Sage Days 24 at RISC -- Linz, Austria -- Symbolic Computation in Differential Algebra and Special Functions -- July 17 - 22, 2010
+ * ?
 
 == Previously organized Sage Days, together with dates, location, sponsors and theme ==
 
@@ -31,12 +30,16 @@ Periodic conferences about Sage and Sage development.
    Sage and Graphics
  * [[days10| Sage Days 10]], October 10 - 15, 2008 (Loria, Nancy, France)
    Linear Algebra, Elliptic Curves and Groebner Basis
- * [[days11| Sage Days 11]], Austin, TX, US
+ * [[days11|Sage Days 11]], Austin, TX, US
  * [[days12|Sage Days 12]] -- San Diego, Wed-Sat, Jan 21--24, 2009.
  * [[days13|Sage Days 13]] -- Quadratic Forms and Lattices --- Athens, Georgia, Feb 28 -- March 2, 2009.
  * [[days14|Sage Days 14]] -- MSRI (Berkeley, CA), March 9--12, 2009, [[http://www.msri.org/calendar/workshops/WorkshopInfo/502/show_workshop|Official MSRI Page]].
  * [[days15|Sage Days 15]] -- Seattle, WA (just got funded; dates TBA).
  * [[days16|Sage Days 16]] -- [[http://www.crm.cat/Conferences/IndexConferencesEng.htm|CRM-UPC]], Barcelona, June 22--27, 2009.
+ * [[dayscambridge2|Sage Days 18]] -- Cambridge, MA (dates TBA, but sometime in fall 2009).
  * [[http://www.lirmm.fr/arith/wiki/MathInfo2010/SageDays|Sage Days 20]] -- CIRM (Luminy, France), February 22--26, 2010.
+ * [[http://www.fields.utoronto.ca/programs/scientific/09-10/sage/|Sage Days 20.5 at the Fields Institute]] -- Toronto, Canada -- algebraic combinatorics and representation theory of algebras -- May 3-7, 2010
  * [[daysff|Sage Days 21]] -- Seattle, WA; Dates: May 24 - 28, 2010
- * [[dayscambridge2|Sage Days ??]] -- Cambridge, MA (dates TBA, but sometime in fall 2009).
+ * [[days24|Sage Days 24]] -- Sage Days 24 at RISC -- Linz, Austria -- Symbolic Computation in Differential Algebra and Special Functions -- July 17 - 22, 2010
+ * [[days27|Sage Days 27]]
+ * [[days28|Sage Days 28]]
