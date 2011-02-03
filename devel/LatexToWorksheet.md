@@ -55,12 +55,13 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10543|10543]] || echelon form over QQ is mutable || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || with patch, dep. 10541 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || with patches, dep. 10536, 10541 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10714|10714]] || rows of a sparse zero-row matrix || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10714|10714]] || rows/columns of sparse matrices with zero rows/columns || with patches ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 8094, 10501 || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10543|10544]] || LLL reduced bases for right kernels || new ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10544|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with only empty list || needs work, dep. 10537 ||  ||
 
 == Examples ==
