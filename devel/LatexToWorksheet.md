@@ -21,6 +21,8 @@ hg clone https://rbeezer@bitbucket.org/rbeezer/tex2sws/
 
 This table tracks patches meant to support the teaching of introductory linear algebra and the enhancement of Beezer's "A First Course in Linear Algebra."
 
+Some tickets below that are available for review can be seen building and passing tests at the [[http://sage.math.washington.edu:21100/ticket/?author=rbeezer|Sage PatchBot]].  Failures can be due to improper listing of necessary prerequisites, or builds not caught up with latest alpha version, so do not necessarily mean a ticket is not ready for review.
+
 ||<rowstyle="background-color: #E0E0FF;"> Ticket ||  Description || Status || Acknowledgements ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8071 | 8071]] || trivial matrix kernels over non-fields || 4.4.alpha0 || Martin Albrecht ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10362|10362]] || vector constructor documentation || 4.6.1.alpha3 || Andrey Novoseltsev ||
@@ -59,7 +61,7 @@ This table tracks patches meant to support the teaching of introductory linear a
 || [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information only, dep. 10471, 8094, 10501 || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information, dep. 10471, 8094, 10501 || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10544|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with only empty list || needs work, dep. 10537 ||  ||
