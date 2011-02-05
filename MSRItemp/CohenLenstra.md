@@ -16,3 +16,4 @@
    * Delaunay, Christophe.  Formes modulaire et invariants de courbes elliptiques d&eacute;finies sur Q.  Th&egrave;se, Universit&eacute; Bordeaux I, 2002.
 
  * PDFs of these have been placed in Poonen's public directory at MSRI.  Type `cd ~bpoonen/Public` at a terminal prompt.
+ * Melanie Wood points out that the paper [Friedman, Eduardo; Washington, Lawrence C. On the distribution of divisor class groups of curves over a finite field. Theorie des nombres (Quebec, PQ, 1987), 227-239, de Gruyter, Berlin, 1989] does one of the projects suggested at the Jan. 25 meeting, to show that the distribution on the cokernel of a random matrix in M_n(Z_p) tends as n-->infinity to the distribution of the p-part of a random abelian group according to the Cohen-Lenstra measure.  She also mentions http://www.math.ucla.edu/~maples/maples-cokernel.pdf, which shows that the same distribution is obtained for nearly every coefficient distribution. 
