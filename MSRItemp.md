@@ -12,7 +12,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
 
  * [[/CohenLenstra|Cohen-Lenstra heuristics]]
  . "default" meeting time: Tuesdays 11-12
- * [[/ILS|Iwaniec-Luo-Sarnak]]
+ * [[/ILS|Low-lying zeros seminar]]
  . "default" meeting time: Wednesdays 11-12
  * [[/BhargavaShankar|Bhargava-Shankar]]
  . "default" meeting time: Thursdays 11-12
