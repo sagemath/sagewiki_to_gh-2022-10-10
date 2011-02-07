@@ -6,7 +6,7 @@
 
    *  Organizers: Alyson Deines (UW), Jennifer Balakrishnan (MIT), Gagan Sekhon (UConn), William Stein (UW)
 
-   *  Funding: Microsoft Research (donation from Kristin Lauter's cryptography group), Justin Walker (private donation)
+   *  Funding: Microsoft Research (donation from Kristin Lauter's cryptography group) and The Beatrice Yormark Fund for Women in Mathematics
 
 
 == Projects ==
