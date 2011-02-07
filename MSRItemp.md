@@ -4,6 +4,10 @@ This is [[/subpage|an example of how to make a separate subpage correctly]].
 
 The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~alina/5min.html|here]].
 
+== Seminars ==
+ * [[/PostdocSeminar|Postdoc Seminar]]
+ . "default" meeting time: Mondays 10 - 10:50
+
 == Weekly Meeting Groups ==
 
  * [[/CohenLenstra|Cohen-Lenstra heuristics]]
