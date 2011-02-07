@@ -56,6 +56,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  ||<rowspan=2> Mon. 7 || 10-10:50am || Simons Auditorium || Andrew Yang - “Low-lying zeros of Dedekind zeta functions” ||
  || 4:10pm || 60 Evans Hall-UC Berkeley || Dr. Henryk Iwaniec - “Counting Integers” ||
  || Tue. 8 || 11-12 || Baker Boardroom || Informal reading group on the Cohen-Lenstra heuristics ||
+ || Wed. 9 || 11-12 || Baker Boardroom || Low lying zeros reading group ||
  || Thu. 10 || 10-12 || Baker Boardroom || Carl Pomerance - "Order and Chaos" ||
 
 == Upcoming events ==
