@@ -58,7 +58,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || 4:10pm || 60 Evans Hall-UC Berkeley || Dr. Henryk Iwaniec - “Counting Integers” ||
  || Tue. 8 || 11-12 || Baker Boardroom || Informal reading group on the Cohen-Lenstra heuristics ||
  || Wed. 9 || 11-12 || Baker Boardroom || Low lying zeros reading group ||
- || Thu. 10 || 10-12 || Simons Auditorium || Carl Pomerance - "Order and Chaos" ||
+ || Thu. 10 || 11-12 || Simons Auditorium || Carl Pomerance - "Order and Chaos" ||
  || Fri. 11 || 11-12 || Baker Boardroom || Informal reading group on Quadratic Twists ||
 
 == Upcoming events ==
