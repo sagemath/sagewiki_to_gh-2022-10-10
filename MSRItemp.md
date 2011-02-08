@@ -10,12 +10,10 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
 
 == Weekly Meeting Groups ==
 
- * [[/CohenLenstra|Cohen-Lenstra heuristics]]
+ * [[/BhargavaShankar|Bhargava-Shankar]]
  . "default" meeting time: Tuesdays 11-12
  * [[/ILS|Low-lying zeros seminar]]
  . "default" meeting time: Wednesdays 11-12
- * [[/BhargavaShankar|Bhargava-Shankar]]
- . "default" meeting time: Thursdays 11-12
  * [[/QuadraticTwists|Quadratic twists of elliptic curves: 2-Selmer rank]]
  . "default" meeting time: Fridays 11-12
  * [[/FRG|FRG on L-functions and modular forms data]]
