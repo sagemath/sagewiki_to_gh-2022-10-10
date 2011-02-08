@@ -137,10 +137,13 @@ This is a proposal to gather researchers with distinct perspectives on the topic
 
   * Quaternary
 
+ * Uniqueness of Ternary Theta series (over rationals)
+
  * Compactification of Moduli Spaces:
 
   * Alexeev Paper
 
   * Namikawa 
+
 
  
