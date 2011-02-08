@@ -45,19 +45,19 @@ This is a proposal to gather researchers with distinct perspectives on the topic
 
  * J. Hanke -- Quadratic Forms and Theta series
 
- * A. Schurmann -- Voronoi Reduction
+ * A. Schurmann -- Voronoi Reduction?
 
- * M. Dutour -- 
+ * M. Dutour -- Enumerating Perfect Forms?
 
- * P. Gunnells -- Automorphic Forms and Cohomology of Algebraic Groups
+ * P. Gunnells -- Automorphic Forms and Cohomology of Algebraic Groups?
 
- * D. Yasaki -- Reduction domains
+ * D. Yasaki -- Reduction domains?
 
- * H. Gangl -- Connections with K-Theory
+ * H. Gangl -- Connections with K-Theory?
 
- * M. Weissman -- 
+ * M. Weissman -- Something Cool?
 
- * R. Miller -- Graph Isomorphism code in SAGE
+ * R. Miller -- Graph Isomorphism code in SAGE?
 
 ==== Lunch ====
 
