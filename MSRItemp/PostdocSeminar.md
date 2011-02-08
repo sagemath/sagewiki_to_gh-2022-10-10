@@ -7,7 +7,7 @@ The current tentative schedule is below.
 
 || Date || Speaker || Title ||
 || February 7th     || Andrew Yang           || Low-Lying zeros of Dedekind zeta functions ||
-|| February 14th    || Jonathan Bober        || ||
+|| February 14th    || Gonzalo Tornaria      || ||
 || February 21st    || NO MEETING            || Washington's Birthday||
 || February 28th    || Sonal Jain            || ||
 || March 7th        || Fredrik Stroemberg    || ||
