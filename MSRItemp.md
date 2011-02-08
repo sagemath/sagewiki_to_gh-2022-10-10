@@ -60,7 +60,9 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Tue. 8 || 11-12 || Baker Boardroom || Informal reading group on the Cohen-Lenstra heuristics ||
  || Wed. 9 || 11-12 || Baker Boardroom || Low lying zeros reading group ||
  || Thu. 10 || 11-12 || Simons Auditorium || Carl Pomerance - "Order and Chaos" ||
- || Fri. 11 || 11-12 || needs a space- Baker room is set aside for frg work on Fridays. Also better to avoid Friday conflict. || Informal reading group on Quadratic Twists ||
+ || Fri. 11 || 11-12 || Baker room || Informal reading group on Quadratic Twists ||
+ || Fri. 11 || 1:30-later || Baker room || frg working group ||
+
 
 == Upcoming events ==
 
