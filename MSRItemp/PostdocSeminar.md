@@ -14,7 +14,7 @@ The current tentative schedule is below.
 || March 14th       || Robert Miller         || The fake Selmer set ||
 || March 21st       || Rob Rhoades || ||
 || March 28th       ||Karl Mahlburg || ||
-|| April 4th        || Brooke Faigon || ||
+|| April 4th        || Brooke Feigon || ||
 || April 11th       || NO MEETING || Workshop ||
 || April 18th       ||  || ||
 || April 25th       || Kaneenika Sinha || ||
