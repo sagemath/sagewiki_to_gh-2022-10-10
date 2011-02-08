@@ -10,6 +10,8 @@ This is a proposal to gather researchers with distinct perspectives on the topic
 
  3. Set concrete goals for future collaborations and software development.
 
+
+(See the [[attachment:AIM Squares Proposal]] for more information.)
 -------
 
 
@@ -30,6 +32,8 @@ This is a proposal to gather researchers with distinct perspectives on the topic
  * Dan Yasaki (Univ. of North Carolina, Greensboro, USA)
 
  * Herbert Gangl (Durham Univ, UK)
+
+(See the [[attachment:AIM Squares Proposal]] for a short bio of each researcher.)
 
 -------
 
@@ -111,8 +115,10 @@ This is a proposal to gather researchers with distinct perspectives on the topic
 
  * Linear relations among theta series? (Presently done by only by linear programming techniques.) -- Hanke
 
- * Enumeration of class groups and other objects via Bhargava orbit parametrizations? -- Bhargava 
+ * Enumeration of class groups and other objects via Bhargava orbit parametrizations? -- Hanke
 
  * Computing K-groups -- Gangl 
 
  * Compactifications of moduli spaces of abelian varieties -- Alexeev
+
+(See the [[attachment:AIM Squares Proposal]] for more topics/questions.)
