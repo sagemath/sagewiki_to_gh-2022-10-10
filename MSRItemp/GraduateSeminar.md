@@ -26,9 +26,4 @@ The current tentative schedule is below.
 
  * Februay 14th, Daniel Kane: "A problem related to the ABC conjecture "
  .
- . Abstract: The ABC conjecture says roughly that the equation A+B=C has
-no solutions among highly divisible relatively prime positive integers
-A,B,C.  If we weaken what is meant by "highly divisible", there are
-solutions and we instead find conjectures on the asymptotic number of
-such solutions.  In this talk we discuss techniques for extending the
-range in which these conjectures are known to be true.
+ . Abstract: The ABC conjecture says roughly that the equation A+B=C has no solutions among highly divisible relatively prime positive integers A,B,C.  If we weaken what is meant by "highly divisible", there are solutions and we instead find conjectures on the asymptotic number of such solutions.  In this talk we discuss techniques for extending the range in which these conjectures are known to be true.
