@@ -12,13 +12,13 @@ The current tentative schedule is below.
 || February 28th    || Sonal Jain            || ||
 || March 7th        || Fredrik Stroemberg    || ||
 || March 14th       || Robert Miller         || The fake Selmer set ||
-|| March 21st       || || ||
-|| March 28th       || || ||
+|| March 21st       || Rob Rhoades || ||
+|| March 28th       ||Karl Mahlburg || ||
 || April 4th        || Brooke Faigon || ||
 || April 11th       || NO MEETING || Workshop ||
-|| April 18th       || Melanie Wood || ||
+|| April 18th       ||  || ||
 || April 25th       || Kaneenika Sinha || ||
-|| May 2nd          || || ||
+|| May 2nd          || Alina Bucur|| ||
 || May 9th          || || ||
 || May 16th         || || ||
 
