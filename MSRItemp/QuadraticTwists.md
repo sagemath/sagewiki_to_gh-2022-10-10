@@ -7,3 +7,4 @@
    * MR2464773 (2010d:11059) Swinnerton-Dyer, Peter. The effect of twisting on the 2-Selmer group. Math. Proc. Cambridge Philos. Soc. 145 (2008), no. 3, 513–526.
    * Kane, Daniel. On the Ranks of the 2-Selmer Groups of Twists of a Given Elliptic Curve. Preprint. http://arxiv.org/pdf/1009.1365v1
    * PDFs of these papers have been placed in my public directory at MSRI, which can be accessed by typing `cd ~weigandt/Public` at a terminal prompt.
+ * The second meeting will be Friday, Feb. 11. Daniel Kane will discuss his work related to the subject.
