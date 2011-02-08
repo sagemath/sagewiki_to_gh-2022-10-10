@@ -23,6 +23,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
 
 == UC Berkeley Math Department ==
 
+ * Mondays 4:10-5pm - 60 Evans - MSRI/Evans Lectures
  * Wednesdays 3:40-5pm - 740 Evans - Number Theory Seminar
    * Jan. 26 - Xinyi Yuan (Columbia University) - the Gross--Zagier formula and its generalizations
  * Thursdays 4:10pm - 60 Evans - Colloquium
