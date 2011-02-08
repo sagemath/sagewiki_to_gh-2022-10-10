@@ -7,8 +7,10 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
 == Seminars ==
  * [[/PostdocSeminar|Postdoc Seminar]]
  . "default" meeting time: Mondays 10 - 10:50
- * [[/MembersSeinar|Members Seminar]]
+ * [[/MembersSeminar|Members Seminar]]
  . "default" meeting time: Thursdays 10:30 - 11:30 or 11 - 12
+ * [[/GraduateSeminar| Graduate Seminar]] 
+ . "default" meeting time: Monday 2-2:50
 
 == Weekly Meeting Groups ==
 
