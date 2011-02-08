@@ -122,3 +122,25 @@ This is a proposal to gather researchers with distinct perspectives on the topic
  * Compactifications of moduli spaces of abelian varieties -- Alexeev
 
 (See the [[attachment:AIM Squares Proposal]] for more topics/questions.)
+
+-------
+
+== Relevant Reading ==
+
+ * Reduction Theory of Quadratic Forms:
+
+  * Achill's Thesis
+
+ * Tables of Quadratic Forms:
+
+  * Ternary
+
+  * Quaternary
+
+ * Compactification of Moduli Spaces:
+
+  * Alexeev Paper
+
+  * Namikawa 
+
+ 
