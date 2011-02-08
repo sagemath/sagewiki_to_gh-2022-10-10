@@ -24,6 +24,8 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  . "default" meeting time: Fridays 11-12
  * [[/FRG|FRG on L-functions and modular forms data]]
  . "default" meeting time: Fridays 1:30
+ * [[/CohenLenstra|Cohen-Lenstra heuristics]]
+ . No longer meeting, merged with Bhargava-Shankar
 
 == UC Berkeley Math Department ==
 
