@@ -37,7 +37,7 @@ There are hundreds of Sage developers [[http://sagemath.org/development-map.html
 
  * Rework sage build scripts, so that everything is built "in place", maybe using setuptools, and thus achieve significant size reduction of sage build.  Some ideas are discussed in [[http://groups.google.com/group/sage-devel/browse_thread/thread/7d911e59a649eaf6/b90132bf3aefcd1f|this thread]].
 
- * There are a number of startup options for building, testing, etc.  These have evolved in a somewhat disorganized manner over time, and need to be better unified, organized, and documented.
+ * There are a number of startup options for building, testing, etc.  These have evolved in a somewhat disorganized manner over time, and need to be better unified, organized, and documented.  Some specific ideas are mentioned in comments to this [[http://trac.sagemath.org/sage_trac/ticket/10326#comment:9|related ticket]]
 
 
 == Further information ==
