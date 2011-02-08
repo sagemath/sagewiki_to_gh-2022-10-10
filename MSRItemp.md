@@ -56,7 +56,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Fri. 28 ||
  ||||||||<tablestyle="width: 80%">'''Week 4: 31 January - 4 February'''||
  |||| all week || see link || [[http://www.msri.org/web/msri/scientific/show/-/event/Wm539|Introductory Workshop]] ||
- ||||||||<tablestyle="width: 80%">'''Week 5: 7-11 February'''||
+ ||||||||<tablestyle="width: 80%">'''Week 5: 7-11 February''' [[http://wiki.l-functions.org/IntroductoryWorkshopLectureNotes|Lecture notes]]||
  ||<rowspan=2> Mon. 7 || 10-10:50am || Simons Auditorium || Andrew Yang - “Low-lying zeros of Dedekind zeta functions” ||
  || 4:10pm || 60 Evans Hall-UC Berkeley || Dr. Henryk Iwaniec - “Counting Integers” ||
  || Tue. 8 || 11-12 || Baker Boardroom || Informal reading group on the Cohen-Lenstra heuristics ||
