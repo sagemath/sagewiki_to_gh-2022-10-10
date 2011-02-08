@@ -26,6 +26,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  * Mondays 4:10-5pm - 60 Evans - MSRI/Evans Lectures
  * Wednesdays 3:40-5pm - 740 Evans - Number Theory Seminar
    * Jan. 26 - Xinyi Yuan (Columbia University) - the Gross--Zagier formula and its generalizations
+   * Feb. 9 - Robert Miller (MSRI) - Proving the Birch and Swinnerton-Dyer conjecture
  * Thursdays 4:10pm - 60 Evans - Colloquium
    * Jan. 27 - Vladimir Rokhlin (Yale University) - DiPerna Memorial Lecture: "A Randomized Approximate Nearest Neighbors Algorithm"
    . http://math.berkeley.edu/index.php?module=announce&ANN_user_op=view&ANN_id=187
