@@ -131,6 +131,8 @@ This is a proposal to gather researchers with distinct perspectives on the topic
 
   * Achill's Thesis
 
+  * Enumeration of perfect forms
+
  * Tables of Quadratic Forms:
 
   * Ternary
