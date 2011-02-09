@@ -94,7 +94,7 @@ This is a proposal to gather researchers with distinct perspectives on the topic
  
  * What is the state of the current (open-source) software projects?
 
- * Can we make it easier to use and package it is Sage?
+ * Can we make it easier to use and package it in Sage?
 
 
 === Research Applications and Questions ===
