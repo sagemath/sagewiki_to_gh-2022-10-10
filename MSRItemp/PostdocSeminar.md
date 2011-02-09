@@ -2,7 +2,23 @@ The Arithmetics Statistic postdoc seminar, organized by Jonathan Bober and Kanee
 from 10 to 10:50 a.m. The Free Boundary Problems postdoc seminar meets immediately afterwards, and then
 MSRI will have pizza for us at 12.
 
-The current tentative schedule is below.
+== Note to speakers/attendees ==
+
+MSRI expects that all postdocs, in both programs, should attend both
+postdoc seminars, and so speakers may wish to keep in mind the fact that
+a significant portion of the audience may not be number theorists. On
+the other hand, it is likely that most of the audience will be in the
+Arithmetic Statistics program, and perhaps the primary purpose of this
+seminar should for participants in the Arithmetic Statistics program to
+tell other participants in the Arithmetic Statistics program something
+about what they are interested in and why they are interested in it.
+
+Also, we take the name "Postdoc Seminar" to mean that the speakers are
+postdocs, not that the audience members must be composed of postdocs, and
+everyone is welcome to attend.
+
+
+== Current anticipated schedule ==
 
 
 || Date || Speaker || Title ||
