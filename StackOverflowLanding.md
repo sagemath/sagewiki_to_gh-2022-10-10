@@ -39,6 +39,10 @@ There are hundreds of Sage developers [[http://sagemath.org/development-map.html
 
  * There are a number of startup options for building, testing, etc.  These have evolved in a somewhat disorganized manner over time, and need to be better unified, organized, and documented.  Some specific ideas are mentioned in comments to this [[http://trac.sagemath.org/sage_trac/ticket/10326#comment:9|related ticket]]
 
+=== Cygwin Port ===
+
+Currently Sage runs on Windows only as a virtual machine, through the VMware Player.  This is viewed by many as a major barrier to new users, and work is ongoing to produce a [[http://www.cygwin.com/|Cygwin]] port.  Here is a list of the [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort|remaining tickets]] for this issue.  Some of these require a lot of work, but some are simple, and several are simple for someone with a Windows programming background.
+
 
 == Further information ==
 
