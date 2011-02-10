@@ -30,9 +30,4 @@ The current tentative schedule is below.
 
  * March 28th, Gagan Sekhon: "Galois properties of points of finite order of an elliptic curve"
  .
- .Abstract: I will be presenting a paper by Serre, which proves that the
-Galois group associated to points of finite order of an elliptic curve
-are "as big as possible". More concretely, given an elliptic curve E/K
-without complex multiplication, where K is a number field, the Galois
-representation associated to the action on p-torsion points of E is
-surjective for almost all but finitely many primes p.
+ . Abstract: I will be presenting a paper by Serre, which proves that the Galois group associated to points of finite order of an elliptic curve are "as big as possible". More concretely, given an elliptic curve E/K without complex multiplication, where K is a number field, the Galois representation associated to the action on p-torsion points of E is surjective for almost all but finitely many primes p.
