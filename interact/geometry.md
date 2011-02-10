@@ -240,3 +240,121 @@ def render(Display=selector(['2D Perspective', '2D Spring-layout', '3D']), Dimen
             d.show3d(figsize=[Size,Size], vertex_size=(0.03 if Vertices else 0.001))
 }}}
 {{attachment:dimensions.png}}
+
+== Crofton's formula ==
+by Pablo Angulo. Illustrates [[http://en.wikipedia.org/wiki/Crofton%27s_formula| Crofton's formula]] by throwing some random lines and computing the intersection number with a given curve. May use either solve for exact computation of the intersections, or may also approximate the curve by straight segments (this is the default).
+
+{{{
+from collections import defaultdict
+
+var('t x y')
+pin = pi.n()
+
+def longitud(curva, t0, t1):
+    dxdt = derivative(curva[0], t)
+    dydt = derivative(curva[1], t)
+    integrando(t) = sqrt(dxdt^2 + dydt^2)
+    i,_ = numerical_integral(integrando, t0, t1)
+    return  i
+
+def random_line(cota):
+    theta = random()*pin
+    k = 2*cota*random() - cota
+    return sin(theta)*x + cos(theta)*y + k
+
+def crofton_exact(curva, t0, t1, L, M):
+    forget()
+    assume(t>t0)
+    assume(t<t1)
+    pp = parametric_plot(curva, (t, t0, t1), color='red')
+    cortesd = defaultdict(int)
+    for k in range(L):
+        rl = random_line(M)
+        ss = solve(rl(x=curva[0], y=curva[1]), t)
+        cortes = 0
+        for s in ss:
+            tt = s.rhs()
+            x0,y0 = curva[0](t=tt), curva[1](t=tt)
+            if x0 in RR and y0 in RR:
+                pp += point2d((x0,y0), pointsize = 30)
+                cortes += 1
+        if cortes:
+            pp += implicit_plot(rl, (x,-M,M), (y,-M,M), color='green')
+        else:
+            pp += implicit_plot(rl, (x,-M,M), (y,-M,M), color='blue')
+        cortesd[cortes] += 1
+    return cortesd, pp
+    
+def random_line_n(cota):
+    theta = random()*pin
+    k = 2*cota*random() - cota
+    return sin(theta), cos(theta), k
+
+def interseccion_sr(punto1, punto2, recta):
+    'Devuelve el punto de interseccion de una recta y un segmento, o None si no se cortan'
+    x1, y1 = punto1
+    x2, y2 = punto2
+    a, b, c   = recta
+    num = (-c - a*x1 - b*y1)
+    den = (a*(x2 - x1) + b*(y2 - y1))
+    if (0 < num < den) or (den < num < 0):
+        t_i = num/den
+        return ((1-t_i)*x1 + t_i*x2, (1-t_i)*y1 + t_i*y2)
+    else:
+        return None
+
+def interseccion_cr(curva, t0, t1, recta, partes=50):
+    '''Devuelve el numero de puntos de interseccion de una curva y una recta'''
+    x,y = curva
+    paso = (t1 - t0)/partes
+    puntos = [(x(t=tr), y(t=tr)) for tr in srange(t0, t1 + paso, paso)]
+    intersecciones = (interseccion_sr(puntos[j], puntos[j+1], recta)
+                      for j in xrange(partes-1))
+    return [p for p in intersecciones if p ]
+    
+def crofton_aprox(curva, t0, t1, L, M):
+    cortesd = defaultdict(int)
+    pp = parametric_plot(curva, (t, t0, t1), color='red')
+    for k in range(L):
+        a,b,c = random_line_n(M)
+        rl = a*x + b*y + c
+        cortes = interseccion_cr(curva, t0, t1, (a,b,c))
+        if cortes:
+            pp += sum(point2d(p, pointsize = 30) for p in cortes)
+            pp += implicit_plot(rl, (x,-M,M), (y,-M,M), color='green')
+        else:
+            pp += implicit_plot(rl, (x,-M,M), (y,-M,M), color='blue')
+        cortesd[len(cortes)] += 1
+    return cortesd, pp
+
+def print_stats(d):
+    print 'Number of lines with k intersection points:'
+    print ', '.join('%d:%d'%(k,v) for k,v in d.iteritems())
+    
+}}}
+{{{
+@interact
+def crofton_interact(u1 = text_control('x and y coordinates of curve'),
+                     curvax = input_box(t^2, label='x(t)' ),
+                     curvay = input_box(2*t-1, label='y(t)' ),
+                     u2 = text_control('Interval of definition'),
+                     t0 = 0, t1 = 1,
+                     u3 = text_control('Draw L lines randomly cos(t)x + sin(t)y + K, |K|&lt;M, 0 <= t < 2pi'),
+                     M  = 2,
+                     L  = 5,
+                     u4    = text_control('Use function "solve" from maxima for exact computations?'),
+                     exact = checkbox(False),
+                     u5    = text_control('Otherwise, a curve is approximated by how many segments?'),
+                     steps = slider(4, 40, 4, 8)):
+
+    if exact:
+        cortesd, p = crofton_exact((curvax, curvay), t0, t1, L, M)
+    else:
+        cortesd, p = crofton_aprox((curvax, curvay), t0, t1, L, M)
+    p.show(aspect_ratio=1, xmin=-2, xmax=2, ymin=-2,ymax=2)
+    print 'A curve of lenght %f'%longitud((curvax, curvay), t0, t1)
+    print_stats(cortesd)
+    cortes_tot = sum(k*v for k,v in cortesd.iteritems())
+    print 'Aprox lenght using Crofton\'s formula: %f'%((cortes_tot/L)*(pi*M))
+}}}
+{{attachment:crofton4.png}}
