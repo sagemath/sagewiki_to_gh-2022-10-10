@@ -61,6 +61,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || with patches, dep. 10536, 10541 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || with patch, dep. 10543 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches, dep. 10714 ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || with patches, needs info ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information, dep. 10471, 8094, 10501 || ||
