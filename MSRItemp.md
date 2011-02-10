@@ -68,7 +68,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Thu. 10 || 11-12 || Simons Auditorium || Carl Pomerance - "Order and Chaos" ||
  || Fri. 11 || 11-12 || Baker room || Informal reading group on Quadratic Twists ||
  || Fri. 11 || 1:30-later || Baker room || frg working group ||
-
+ || Tue. 15 || 11-12 || Baker room || Bhargava-Shankar "Q & A" with Manjul Bhargava ||
 
 == Upcoming events ==
 
