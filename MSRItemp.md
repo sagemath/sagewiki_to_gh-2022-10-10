@@ -22,7 +22,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  . "default" meeting time: Thursdays 1:30-2:30
  * [[/QuadraticTwists|Quadratic twists of elliptic curves: 2-Selmer rank]]
  . "default" meeting time: Fridays 11-12
- * [[/FRG|FRG on L-functions and modular forms data]]
+ * [[http://wiki.l-functions.org/MSRI_FRG|FRG on L-functions and modular forms data]]
  . "default" meeting time: Fridays 1:30
  * [[/CohenLenstra|Cohen-Lenstra heuristics]]
  . No longer meeting, merged with Bhargava-Shankar
