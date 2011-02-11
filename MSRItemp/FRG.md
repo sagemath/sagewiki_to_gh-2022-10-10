@@ -8,6 +8,13 @@
 
  * main wiki: http://wiki.l-functions.org/
 
+== Google code page ==
+
+ * main page: http://code.google.com/p/lmfdb
+
+ * instructions: http://code.google.com/p/lmfdb/wiki/GettingGoing
+ 
+
 == William Stein's Current Projects ==
 
 This all involves adding data to http://db.modform.org. 
