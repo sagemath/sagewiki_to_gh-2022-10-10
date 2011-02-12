@@ -1,15 +1,23 @@
 SD:WiN2
-{{{
-.rcpagelink {width: 33%; }
-.rctime,
-.rceditor {font-size: 0.88em; white-space: nowrap; }
 
 
-/* admonition start */
-div.caution, 
-div.important, 
-div.note, 
-div.tip, 
-div.warning {background-color: #2654BB; border: 1pt solid #E5E5E5; color: black; 
-    margin: 10pt 30pt; min-height: 64px; padding-right: 64px; }
-}}}
+/* <syntaxhighlight lang="css"> */
+ 
+/* For patrolled newpages */
+li.not-patrolled {
+  background-color: #ffffaa;
+ }
+ 
+table.toc {
+  background-color: #fff;
+}
+ 
+/* Blue instead of yellow padlock for secure links. */
+#bodyContent a.external[href ^="https://"],
+.link-https {
+  background: url("http://upload.wikimedia.org/wikipedia/en/0/00/Lock_icon_blue.gif") center right no-repeat;
+  padding-right: 16px;
+}
+ 
+ 
+/* </syntaxhighlight> */
