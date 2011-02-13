@@ -48,7 +48,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
 
 == Calendar of program events ==
 
- || Date         || Time  || Location          || What       ||
+ || Date         || Time  || Location          || Event       ||
  ||||||||<tablestyle="width: 80%">'''Week 3: 24-28 January'''||
  ||<rowspan=2> Tue. 25 || 11am-12pm || Baker boardroom if available || reading group on the Cohen-Lenstra heuristics ||
  || 2-3pm || Simons Auditorium || Melanie Wood, Bhargava-Shankar informal study group ||
