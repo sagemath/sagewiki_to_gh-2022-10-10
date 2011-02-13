@@ -46,7 +46,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
 
  * (e.g., average ap ’s, Sato-Tate (the statement), etc.) Not yet scheduled.
 
-== Calendar of (informal(?)) program events ==
+== Calendar of program events ==
 
  || Date         || Time  || Location          || What       ||
  ||||||||<tablestyle="width: 80%">'''Week 3: 24-28 January'''||
