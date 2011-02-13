@@ -69,9 +69,13 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Fri. 11 || 11-12 || Baker room || Informal reading group on Quadratic Twists ||
  || Fri. 11 || 1:30-later || Baker room || frg working group ||
  ||||||||<tablestyle="width: 80%">'''Week 6: 14-18 February''' ||
- || Mon. 14 || 4:10-5 || Evans (room?) || Jon Hanke - The Arithmetic of Quadratic Forms ||
+ || Mon 14 -- Wed. 16 || || || [[http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm549|Workshop on math journals]] ||
+ || Mon. 14 || 10-10:50 || Baker room || Gonzalo Tornaria - "The Brandt module of ternary quadratic forms" ||
+ || Mon. 14 || 2-3 || Baker room || Dan Kane - "A problem related to the ABC conjecture" ||
+ || Mon. 14 || 4:10-5 || 60 Evans hall, UCB || Jon Hanke - The Arithmetic of Quadratic Forms ||
  || Tue. 15 || 1-2 || Baker room || Bhargava-Shankar "Q & A" with Manjul Bhargava ||
  || Tue. 15 || 2-3 || Baker room (if avail.) || Ranks of Twists with Daniel Kane II ||
+ || Fri. 18 || 9-5 || Baker room || FRG Friday ||
 
 == Upcoming events ==
 
