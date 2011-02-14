@@ -11,3 +11,7 @@
 == Dates ==
 
  March 21-25, 2011
+
+== Funding ==
+ 
+ Write to William Stein wstein@gmail.com
