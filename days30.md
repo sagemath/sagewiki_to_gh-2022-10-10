@@ -15,15 +15,15 @@
 
 == Invited Speakers ==
 
- * Florent Hivert
- * Franco Saliola
- * Anne Schilling
- * Nicolas Thiéry
+ * [[http://igm.univ-mlv.fr/~hivert/index.html|Florent Hivert]]
+ * [[http://thales.math.uqam.ca/~saliola/index.html|Franco Saliola]]
+ * [[http://www.math.ucdavis.ed/~anne|Anne Schilling]]
+ * [[http://www.nicolas.thiery.name|Nicolas Thiéry]]
 
 == Organizers ==
 
- * Eva Curry, <eva.curry@acadiau.ca>
- * Hugh Thomas, <hthomas@unb.ca>
+ * [[http://math.acadiau.ca/curry/|Eva Curry]], <eva.curry@acadiau.ca>
+ * [[http://www.math.unb.ca/~hugh|Hugh Thomas]], <hthomas@unb.ca>
 
 == Funding ==
 
