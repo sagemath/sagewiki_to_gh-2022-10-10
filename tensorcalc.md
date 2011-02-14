@@ -26,6 +26,15 @@ As tensor calculus is a vast subject, at some stage we will want to have a roadm
  * [[http://axiom-wiki.newsynthesis.org/JetBundles|JET]]: Axiom code to deal with jet bundles, geometric ODEs/PDEs, Cartan-Kuranishi prolongations, etc.  See the abstract [[http://iaks-www.ira.uka.de/iaks-calmet/werner/Abstracts/IMACS95.ps.gz|here]]. 
  * [[http://glucat.sourceforge.net/|GluCat]]: ''GluCat is a library of template classes which model the universal Clifford algebras over the field of real numbers, with arbitrary dimension and arbitrary signature. GluCat implements a model of each Clifford algebra corresponding to each non-degenerate quadratic form up to a maximum number of dimensions.''
  
+
+=== Sage code ===
+
+ * [[http://doxdrum.wordpress.com/2011/02/10/sage-tip-creating-a-class-for-non-abelian-forms/]]
+ * [[http://doxdrum.wordpress.com/2011/02/07/sage-tip-grmodule-day-04/]]
+ * [[http://doxdrum.wordpress.com/2011/02/06/sage-tip-gr-module-day-03/]]
+ * [[http://doxdrum.wordpress.com/2011/02/06/sage-tip-gr-module-day-02/]]
+ * [[http://doxdrum.wordpress.com/2011/02/05/sage-tip-gr-module-day-01/]]
+
 == Related Sage discussions ==
 
 There are a few Sage projects in the works that might be interesting in the context of differential forms and tensor calculus.  A quick search brings up the following.
