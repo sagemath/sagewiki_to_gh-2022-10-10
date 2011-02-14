@@ -51,7 +51,7 @@ This is a proposal to gather researchers with distinct perspectives on the topic
 
  * P. Gunnells -- Automorphic Forms and Cohomology of Algebraic Groups?
 
- * D. Yasaki -- Reduction domains?
+ * D. Yasaki -- Perfect forms over number fields
 
  * H. Gangl -- Connections with K-Theory?
 
