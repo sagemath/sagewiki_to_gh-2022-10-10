@@ -20,6 +20,10 @@
  * [[http://www.math.ucdavis.ed/~anne|Anne Schilling]]
  * [[http://www.nicolas.thiery.name|Nicolas Thiéry]]
 
+== Registration ==
+
+To register, please contact Eva Curry <eva.curry@acadiau.ca>
+
 == Organizers ==
 
  * [[http://math.acadiau.ca/curry/|Eva Curry]], <eva.curry@acadiau.ca>
