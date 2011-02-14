@@ -22,5 +22,9 @@
 
 == Organizers ==
 
- * Eva Curry
- * Hugh Thomas
+ * Eva Curry, <eva.curry@acadiau.ca>
+ * Hugh Thomas, <hthomas@unb.ca>
+
+== Funding ==
+
+Funding has been provided by AARMS, Acadia University, and the University of New Brunswick.
