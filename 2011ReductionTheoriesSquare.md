@@ -121,6 +121,30 @@ This is a proposal to gather researchers with distinct perspectives on the topic
 
  * Compactifications of moduli spaces of abelian varieties -- Alexeev
 
+ * Computing cohomology of arithmetic groups using polyhedral decompositions
+
+  * GL(n) over number fields
+
+  * Rank 1 orthogonal groups
+
+  * The exceptional cone (???)
+
+ * Explicit reduction theory for the symplectic group
+
+  * Sp(6) ... is it feasible?
+
+  * Sharbly complex for the symplectic group
+
+  * Work of Mellit 
+
+ * Hecke operators on cuspidal cohomology
+
+  * GL(5) and higher
+
+  * GL(4) over imaginary quadratics and higher
+
+  * Sp(4)
+
 (See the [[attachment:AIM Squares Proposal]] for more topics/questions.)
 
 -------
@@ -146,6 +170,22 @@ This is a proposal to gather researchers with distinct perspectives on the topic
   * Alexeev Paper
 
   * Namikawa 
+
+ * Computing cohomology of arithmetic groups and Hecke operators
+
+  * Ash, Gunnells, McConnell, papers I-IV (especially I, which discusses our techniques very explicitly, and IV, which talks about torsion classes)
+  
+  * Gunnells, "Computing Hecke eigenvalues below the cohomological dimension"
+
+  * Gunnells, Yasaki, "Hecke operators and Hilbert modular forms"
+
+  * Gunnells, Hajir, Yasaki, "Modular forms and elliptic curves over the field of fifth roots of unity"
+
+ 
+
+
+
+
 
 
  
