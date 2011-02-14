@@ -1,8 +1,9 @@
 = Sage Days 30 =
 
-== Possible Topics ==
+== Topics ==
 
- * Fixing bugs, elliptic curves, the notebook, numerical computation, ipython, etc.  It will mainly depends on who is available.
+ * Combinatorics (Schubert calculus, cluster algebras)
+ * Number theory (integer vectors, multidimensional digit representations)
 
 == Location ==
 
@@ -10,4 +11,16 @@
 
 == Dates ==
 
- May 9-13
+ May 9-13, 2011
+
+== Invited Speakers ==
+
+ * Florent Hivert
+ * Franco Saliola
+ * Anne Schilling
+ * Nicolas Thiéry
+
+== Organizers ==
+
+ * Eva Curry
+ * Hugh Thomas
