@@ -10,7 +10,7 @@ The current tentative schedule is below.
 || February 21st    || NO MEETING            || Washington's Birthday||
 || February 28th    ||             || ||
 || March 7th        ||     || ||
-|| March 14th       || Kevin Wilson         ||  ||
+|| March 14th       || Kevin Wilson         || Elliptic curves of arbitrarily large rank( Over Function Fields) ||
 || March 21st       ||  || ||
 || March 28th       ||Gagan Sekhon ||Galois properties of points of finite order of an elliptic curve ||
 || April 4th        ||  || ||
@@ -27,6 +27,12 @@ The current tentative schedule is below.
  * Februay 14th, Daniel Kane: "A problem related to the ABC conjecture "
  .
  . Abstract: The ABC conjecture says roughly that the equation A+B=C has no solutions among highly divisible relatively prime positive integers A,B,C.  If we weaken what is meant by "highly divisible", there are solutions and we instead find conjectures on the asymptotic number of such solutions.  In this talk we discuss techniques for extending the range in which these conjectures are known to be true.
+
+ * March 14th, Kevin Wilson: "Elliptic curves of arbitrarily large rank"
+  
+ . Subtitle: Over Function Fields
+
+ . Abstract: Ulrich constructed a family of elliptic curves over function fields which (provably!) attain arbitrarily large rank. I'll go over his construction and the facts about function fields which make proving such statements "easier".
 
  * March 28th, Gagan Sekhon: "Galois properties of points of finite order of an elliptic curve"
  .
