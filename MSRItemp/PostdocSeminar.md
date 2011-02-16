@@ -32,7 +32,7 @@ everyone is welcome to attend.
 || March 28th       ||Karl Mahlburg || ||
 || April 4th        || Brooke Feigon || ||
 || April 11th       || NO MEETING || Workshop ||
-|| April 18th       ||  || ||
+|| April 18th       || Jonathan Bober || ||
 || April 25th       || Kaneenika Sinha || ||
 || May 2nd          || Alina Bucur|| ||
 || May 9th          || || ||
