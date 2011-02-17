@@ -47,7 +47,7 @@ A nice addition would be to write the output of the rsync task to a temporary fi
 
 [[http://linux.die.net/man/1/flock|flock]] is a utility that ensures, that a certain command is only called once. 
 This is very useful, because the mirror task from above maybe lasts longer than the time interval of the scheduler.
-The way I use it is:
+The way I use it is the following:
 {{{
 flock -xn ./mirror_sagemath.lock rsync ....
 }}}
