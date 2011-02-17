@@ -15,7 +15,9 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
 == Weekly Meeting Groups ==
 
  * [[/BhargavaShankar|Bhargava-Shankar]]
- . "default" meeting time: Tuesdays 11-12 or 1-2 (se schedule)
+ . "default" meeting time: Tuesdays 11-12 or 1-2 (see schedule)
+ * [[/ILS|Explicit formula working group]]
+ . "default" meeting time: Tuesdays 1:30-2:30
  * [[/ILS|Low-lying zeros seminar]]
  . "default" meeting time: Wednesdays 11-12
  * [[/ParamodularForms|Paramodular Forms]]
@@ -78,4 +80,3 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Wed. 16 || 1:30-2:30 || Baker room || David Farmer- What you need to know about RMT ||
  || Fri. 18 || 9-5 || Baker room || FRG Friday ||
  || Th. Mar 3 || 11-12 || Simons || Seminar speaker: Kumar Murty ||
-
