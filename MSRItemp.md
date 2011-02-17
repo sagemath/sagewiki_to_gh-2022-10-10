@@ -19,7 +19,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  * [[/ExplicitFormula|Explicit formula working group]]
  . "default" meeting time: Tuesdays 1:30-2:30
  * [[/ILS|Low-lying zeros seminar]]
- . "default" meeting time: Wednesdays 11-12
+ . "default" meeting time: Wednesdays 1.30 - 2.30
  * [[/ParamodularForms|Paramodular Forms]]
  . "default" meeting time: Thursdays 1:30-2:30
  * [[/QuadraticTwists|Quadratic twists of elliptic curves: 2-Selmer rank]]
