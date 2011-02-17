@@ -4579,6 +4579,21 @@ bookwormlab\.com
 hollandandbarrett\.com
 bestcheapautoinsurance\.com
 profischnell\.com
+getcreditrepairtips4u\.com
+maketodaypayday\.co\.uk
+usfirepits\.com
+cheapautoinsurancekentucky\.com
+automobile-insurance\.com
+carinsuranceonline-\d\d\.com
+4autoinsurancequote\.org
+essay-writer\.org
+essaywritingservices\.org
+iresearchpapers\.com
+domainname\.com\.au
+lifeinsurancequotes\.com\.au
+myfuneralinsurance\.com\.au
+giftbasketsplus\.com
+lifeinsurance\.net\.au
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
