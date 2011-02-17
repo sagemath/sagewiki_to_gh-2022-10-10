@@ -32,7 +32,7 @@ At least twice a day, a mirror should check if there are updates on the master. 
 
 === crontab ===
 
-[[http://linux.die.net/man/1/crontab|crontab]] is a nice system daemon, that does periodic task scheduling in linux. As a regular user, run '''crontab -e''' in a terminal to start the crontab editor. A line like
+[[http://linux.die.net/man/1/crontab|cron]] is a nice system daemon, that does periodic task scheduling in linux. As a regular user, run '''crontab -e''' in a terminal to start the crontab editor. A line like
 
 {{{
 */10 * * * * "/home/<username>/rsync_sagemath" 2> /home/<username>/rsync_sagemath.errors > /dev/null
@@ -45,7 +45,9 @@ A nice addition would be to write the output of the rsync task to a temporary fi
 
 === flock ===
 
-[[http://linux.die.net/man/1/flock|flock]] is a utility that ensures, that a certain command is only called once. The way I use it is:
+[[http://linux.die.net/man/1/flock|flock]] is a utility that ensures, that a certain command is only called once. 
+This is very useful, because the mirror task from above maybe lasts longer than the time interval of the scheduler.
+The way I use it is:
 {{{
 flock -xn ./mirror_sagemath.lock rsync ....
 }}}
