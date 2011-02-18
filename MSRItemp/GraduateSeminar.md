@@ -8,7 +8,7 @@ The current tentative schedule is below.
 || February 7th     ||            ||   ||
 || February 14th    || Daniel Kane        ||A problem related to the ABC conjecture ||
 || February 21st    || NO MEETING            || Washington's Birthday||
-|| February 28th    ||             || ||
+|| February 28th    || Jamie Weigandt || Emperical Evidence for an Arithmetic Analog of Nevanlinna's Five Value Theorem ||
 || March 7th        ||     || ||
 || March 14th       || Kevin Wilson         || Elliptic curves of arbitrarily large rank( Over Function Fields) ||
 || March 21st       ||  || ||
@@ -24,9 +24,13 @@ The current tentative schedule is below.
 
 == Abstracts ==
 
- * Februay 14th, Daniel Kane: "A problem related to the ABC conjecture "
+ * February 14th, Daniel Kane: "A problem related to the ABC conjecture "
  .
  . Abstract: The ABC conjecture says roughly that the equation A+B=C has no solutions among highly divisible relatively prime positive integers A,B,C.  If we weaken what is meant by "highly divisible", there are solutions and we instead find conjectures on the asymptotic number of such solutions.  In this talk we discuss techniques for extending the range in which these conjectures are known to be true.
+ 
+ * February 28th, Jamie Weigandt: "Empirical Evidence for an Arithmetic Analogue of Nevanlinna's Five Value Theorem"
+ .
+ . Abstract: Nevanlinna's five value theorem says that two meromorphic functions which take on five values at the same places must be identical. We discuss the Erdos-Woods conjecture, an arithmetic analogue of this theorem which arose from questions about divisibility asked by P. Erdos and questions about definability asked by J. Robinson. We discuss Langevin's proof that this conjecture would follow from the ABC conjecture and its connections with the arithmetic of elliptic curves. Using the arithmetic data gathered by the ABC@Home project, we give effective versions of Langevin's results and extend the related sequence  A087914 on the OEIS.
 
  * March 14th, Kevin Wilson: "Elliptic curves of arbitrarily large rank"
   
