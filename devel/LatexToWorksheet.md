@@ -89,10 +89,10 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
    * [[attachment:fcla-sage-experimental.zip | Worksheet Zip File]]
    * [[attachment:fcla-sage-experimental.pdf | PDF Version]]
 
- * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/02/08)
+ * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/02/18)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
-   * Live Sage code for first six chapters
-   * "Read-Only" - some content is temporarily missing, Chapter 6 Sage commands use new unofficial patches
+   * Live Sage code for first chapters: 1, 2, 3, 4, 5, 6, 9
+   * "Read-Only" - some content is temporarily missing, Chapter 6 Sage commands require Sage 4.6.2.alpha4 or newer
    * This is a collection of worksheets to add to the end of each chapter once some conflicts are resolved, entire book is just below as Sage worksheets
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip table-of-contents section, click on actual sections to bring up content
