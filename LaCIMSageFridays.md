@@ -34,11 +34,36 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
+
+---- /!\ '''Edit conflict - other version:''' ----
 == Vendredi suivant : 25 février 2011 ==
 
   * Suggestions ?
 
+---- /!\ '''Edit conflict - your version:''' ----
+== Vendredi suivant : 25 février 2011 ==
+
+  * Suggestions ?
+
+---- /!\ '''End of edit conflict''' ----
+
 == Vendredi précédents ==
+
+=== 18 février 2011 ===
+
+  * Discussion
+      * Utilitaire `screen`
+      * Résolution d'équations sur les mots
+
+  * Franco Saliola
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/10354|#10354]]
+
+  * Sébastien Labbé
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/10517|#10517]]
+
+  * Alexandre Blondin Massé
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8673|#8673]]
+
 
 === 18 février 2011 ===
 
@@ -56,9 +81,6 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
       * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8673|#8673]]
 
 
-=== 17 décembre 2010 ===
-
-  * Marco Robado:
       * L'outil rsync pour synchroniser des répertoires.
 
   * Sébastien Labbé, Marco Robado, Samuel :
