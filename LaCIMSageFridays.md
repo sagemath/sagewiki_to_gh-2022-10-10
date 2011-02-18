@@ -35,17 +35,10 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
 
----- /!\ '''Edit conflict - other version:''' ----
 == Vendredi suivant : 25 février 2011 ==
 
   * Suggestions ?
 
----- /!\ '''Edit conflict - your version:''' ----
-== Vendredi suivant : 25 février 2011 ==
-
-  * Suggestions ?
-
----- /!\ '''End of edit conflict''' ----
 
 == Vendredi précédents ==
 
