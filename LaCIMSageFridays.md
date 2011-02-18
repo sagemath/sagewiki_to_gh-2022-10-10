@@ -34,14 +34,27 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
-== Vendredi suivant : 7 janvier 2011 ==
+== Vendredi suivant : 25 février 2011 ==
 
-Suggestions :
-
-  * Alexandre Blondin Massé :
-      * Résoudre des équations sur les mots impliquant des morphismes et des antimorphismes
+  * Suggestions ?
 
 == Vendredi précédents ==
+
+=== 18 février 2011 ===
+
+  * Discussion
+      * Utilitaire `screen`
+      * Résolution d'équations sur les mots
+
+  * Franco Saliola
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/10354|#10354]]
+
+  * Sébastien Labbé
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/10517|#10517]]
+
+  * Sébastien Labbé
+      * Arbitrage de [[http://trac.sagemath.org/sage_trac/ticket/8673|#8673]]
+
 
 === 17 décembre 2010 ===
 
