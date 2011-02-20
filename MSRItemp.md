@@ -1,5 +1,8 @@
 Wiki for organizing things at the Arithmetic Statistics program at MSRI.
 
+PLEASE HELP TO WRITE OUR ARTICLE FOR THE EMISSARY DESCRIBING OUR PROGRAM:
+[[/EmissaryArticle| Emissary Article]
+
 This is [[/subpage|an example of how to make a separate subpage correctly]].
 
 The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~alina/5min.html|here]].
