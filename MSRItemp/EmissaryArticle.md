@@ -27,10 +27,10 @@ statistical questions in number theory.
 In recent years, progress has been made concerning the
 problem of obtaining the asymptotic number, $N_{K,n}(X)$, of extensions
 of a fixed number field $K$
-of given degree $n$ and discriminant $leq X$. The case of $K=\Q$ and $n=3$
+of given degree $n$ and discriminant $leq X$. The case of $K={\mathbb Q$} and $n=3$
 is a classical result of Heilbronn and Davenport.
 Bhargava has made significant
-progress on this problem, obtaining the asympotics, for $\Q$ and
+progress on this problem, obtaining the asympotics, for $\mathbb Q$ and
 $n=4,5$, and Melanie Wood for $n=6$. This work makes use of the theory
 of the classification prehomogenous vector spaces.
 
