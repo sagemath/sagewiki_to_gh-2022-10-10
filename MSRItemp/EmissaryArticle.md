@@ -24,15 +24,15 @@ theory from the point of view of understanding their limiting behaviour.
 Several factors make this an appropriate time for a program devoted to
 statistical questions in number theory.
 
-In recent years, progress has been made concerning the
+In recent years, progress has been made on the
 problem of obtaining the asymptotic number, $N_{K,n}(X)$, of extensions
 of a fixed number field $K$
 of given degree $n$ and discriminant $\leq X$. The case of $K={\mathbb Q}$ and $n=3$
 is a classical result of Heilbronn and Davenport.
 Bhargava has made significant
 progress on this problem, obtaining the asympotics, for $\mathbb Q$ and
-$n=4,5$, and Melanie Wood for $n=6$. This work makes use of the theory
-of the classification prehomogenous vector spaces.
+$n=4,5$.  This work makes use of the theory
+of the classification of prehomogenous vector spaces.
 
 Very recently, Bhargava and Shankar have managed to apply the methods used
 for number fields to study the asymptotic distribution of ranks of elliptic
