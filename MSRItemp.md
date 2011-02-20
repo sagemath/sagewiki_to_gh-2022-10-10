@@ -82,4 +82,5 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Tue. 15 || 2-3 || Baker room (if avail.) || Ranks of Twists with Daniel Kane II ||
  || Wed. 16 || 1:30-2:30 || Baker room || David Farmer- What you need to know about RMT ||
  || Fri. 18 || 1:30-5 || Baker room || FRG Friday ||
+ || Feb 21-25 || all day || Baker room || FRG push ||
  || Th. Mar 3 || 11-12 || Simons || Seminar speaker: Kumar Murty ||
