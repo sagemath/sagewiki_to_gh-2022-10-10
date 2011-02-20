@@ -1,7 +1,7 @@
 Wiki for organizing things at the Arithmetic Statistics program at MSRI.
 
 PLEASE HELP TO WRITE OUR ARTICLE FOR THE EMISSARY DESCRIBING OUR PROGRAM:
-[[/EmissaryArticle| Emissary Article]
+[[/EmissaryArticle| Emissary Article]]
 
 This is [[/subpage|an example of how to make a separate subpage correctly]].
 
