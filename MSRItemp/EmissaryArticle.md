@@ -27,7 +27,7 @@ statistical questions in number theory.
 In recent years, progress has been made concerning the
 problem of obtaining the asymptotic number, $N_{K,n}(X)$, of extensions
 of a fixed number field $K$
-of given degree $n$ and discriminant $leq X$. The case of $K={\mathbb Q$} and $n=3$
+of given degree $n$ and discriminant $leq X$. The case of $K={\mathbb Q}$ and $n=3$
 is a classical result of Heilbronn and Davenport.
 Bhargava has made significant
 progress on this problem, obtaining the asympotics, for $\mathbb Q$ and
