@@ -14,7 +14,7 @@
 
 == People ==
 
- * Maarten Derickx (Leiden, Holland) -- March 14-??, 2011. 
+ * Maarten Derickx (Leiden, Holland) -- March 14-26, 2011. 
 
 == Funding ==
  
