@@ -12,6 +12,10 @@
 
  March 21-25, 2011
 
+== People ==
+
+ * Maarten Derickx (Leiden, Holland) -- March 14-??, 2011. 
+
 == Funding ==
  
  Write to William Stein wstein@gmail.com.   Plan tickets [[http://www.tvlon.com/resources/FlyAct.html|must be on US flag carriers]].  Regarding price, we reimburse up to USD 500 domestic or USD 1000 international (contact us in case of unusual circumstances).
