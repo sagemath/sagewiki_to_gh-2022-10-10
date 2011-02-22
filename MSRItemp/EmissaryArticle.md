@@ -68,6 +68,6 @@ testing in the case of higher degree, and limited testing in the case of
 degrees 1 and 2. For example, the models for the moments of $L$-functions have not yet been
 applied or tested for degree three or higher $L$-functions.
 
-{\bf Profile: Melanie Wood}
+{\bf Profile: Melanie Wood and Manjul Bhargava}
 
 THIS NEEDS TO BE WRITTEN
