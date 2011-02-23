@@ -38,6 +38,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  * Wednesdays 3:40-5pm - 740 Evans - Number Theory Seminar
    * Jan. 26 - Xinyi Yuan (Columbia University) - the Gross--Zagier formula and its generalizations
    * Feb. 9 - Robert Miller (MSRI) - Proving the Birch and Swinnerton-Dyer conjecture
+   * Feb. 23 - Sonal Jain (MSRI) - On the minimum canonical height for an elliptic curve over C(t)
  * Thursdays 4:10pm - 60 Evans - Colloquium
    * Jan. 27 - Vladimir Rokhlin (Yale University) - DiPerna Memorial Lecture: "A Randomized Approximate Nearest Neighbors Algorithm"
    . http://math.berkeley.edu/index.php?module=announce&ANN_user_op=view&ANN_id=187
@@ -45,7 +46,10 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
    * Feb. 3 - Bjorn Poonen - $x^2 + y^3 = z^7$
    . http://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=39632
    . Ken Ribet will be organizing a dinner after the talk.
+   * Mar. 3 - Keith Conrad - Why do we care about the Riemann Hypothesis?
+   . http://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=40497
  * Faculty Club wine dinner, Feb. 25
+ * [[http://people.ucsc.edu/~sdasgup2/BAANTAG2.html|Bay Area Algebraic Number Theory and Arithmetic Geometry Day]], April 2
 
 == General question group ==
 
@@ -84,3 +88,8 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Fri. 18 || 1:30-5 || Baker room || FRG Friday ||
  || Feb 21-25 || all day || Baker room || FRG push ||
  || Th. Mar 3 || 11-12 || Simons || Seminar speaker: Kumar Murty ||
+ ||||||||<tablestyle="width: 80%">'''Week 7: 22-25 February''' ||
+ || all week || || Baker room || FRG workshop ||
+ || Wed. 23 || 1:30-2:30 || Simons Auditorium || Andrew Knightly - Petersson's formula and related topics (low lying zeros group) ||
+ ||||||||<tablestyle="width: 80%">'''Week 8: 28 February-4 March''' ||
+ || Wed. 2 || 1:30-2:30 || Baker room || Duc Khiem Huynh - Lower order terms for the one-level density of elliptic curve L-functions: (low lying zeros group) ||
