@@ -35,6 +35,8 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
 == UC Berkeley Math Department ==
 
  * Mondays 4:10-5pm - 60 Evans - MSRI/Evans Lectures
+   * Mar. 14 - Barry Mazur
+   * Apr. 18 - Melanie Wood
  * Wednesdays 3:40-5pm - 740 Evans - Number Theory Seminar
    * Jan. 26 - Xinyi Yuan (Columbia University) - the Gross--Zagier formula and its generalizations
    * Feb. 9 - Robert Miller (MSRI) - Proving the Birch and Swinnerton-Dyer conjecture
@@ -86,10 +88,9 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Tue. 15 || 2-3 || Baker room (if avail.) || Ranks of Twists with Daniel Kane II ||
  || Wed. 16 || 1:30-2:30 || Baker room || David Farmer- What you need to know about RMT ||
  || Fri. 18 || 1:30-5 || Baker room || FRG Friday ||
- || Feb 21-25 || all day || Baker room || FRG push ||
- || Th. Mar 3 || 11-12 || Simons || Seminar speaker: Kumar Murty ||
  ||||||||<tablestyle="width: 80%">'''Week 7: 22-25 February''' ||
  || all week || || Baker room || FRG workshop ||
  || Wed. 23 || 1:30-2:30 || Simons Auditorium || Andrew Knightly - Petersson's formula and related topics (low lying zeros group) ||
  ||||||||<tablestyle="width: 80%">'''Week 8: 28 February-4 March''' ||
  || Wed. 2 || 1:30-2:30 || Baker room || Duc Khiem Huynh - Lower order terms for the one-level density of elliptic curve L-functions: (low lying zeros group) ||
+ || Thu. 3 || 11-12 || Simons || Kumar Murty - TBA (members seminar) ||
