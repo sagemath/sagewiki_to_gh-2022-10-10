@@ -5,6 +5,6 @@ Mathematica notebook that implements the explicit formula:  http://www.aimath.or
 
 PDF of Mathematica notebook:  http://www.aimath.org/~farmer/print/explicit_formula_demo1b.pdf
 
-Sage file that implements the explicit formula (maybe not working) [[attachment:nathan.sage]]
+Sage worksheet that implements the explicit formula [[attachment:explicit_formula_demo.sws]].  Much more user friendly and actually correct!
 
 Another sage file that has some explicit formula stuff, specific for elliptic curves [[attachment:explicit_formula.sage]]
