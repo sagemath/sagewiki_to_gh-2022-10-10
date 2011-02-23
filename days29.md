@@ -10,7 +10,7 @@
 
 == Dates ==
 
- March 21-25, 2011
+ * Monday March 21 to Friday March 25, 2011
 
 == People ==
 
