@@ -15,6 +15,8 @@
 == People ==
 
  * Maarten Derickx (Leiden, Holland) -- March 14-26, 2011. 
+ * William Stein (Seattle)
+ * (and dozens of others)
 
 == Funding ==
  
