@@ -68,6 +68,16 @@ testing in the case of higher degree, and limited testing in the case of
 degrees 1 and 2. For example, the models for the moments of $L$-functions have not yet been
 applied or tested for degree three or higher $L$-functions.
 
+Higher degree $L$-functions arise in many natural ways.  Sometimes they arise from operations performed on lower degree $L$-functions (e.g., symmetric squares) and sometimes they arise from objects that are, in a sense, more complicated.  For example Siegel modular and paramodular forms have natural degree 4 and degree 5 $L$-functions.  In order to study these $L$-functions numerically, one needs to be able to compute their Dirichlet series coefficients; in order to compute their Dirichlet series coefficients, one needs to be able to compute data about the underlying modular form.  A group of us will be developing and implementing algorithms to compute these modular forms and their associated $L$-functions.  The computation of Siegel modular forms, for example, is much hard that computing modular forms on ${\rm SL}(2,\mathbb{Z})$ and is much more {\it ad hoc}.
+
+One might want to evaluate a higher degree $L$-function in order to, for example, compute the first few zeros on the critical line or central values of quadratic twists of $L$-functions.  Doing such an evaluation is typically limited by the number of Dirichlet series coefficients, a number which, for Siegel modular forms, at least, is usually pretty small.  So, another group of us is going to be investigating methods to evaluate $L$-functions optimally. 
+
+Central values of twists of $L$-functions is a question that has been well studied for degree 2 $L$-functions and is mostly untouched for higher degree $L$-functions.  A project being carried out by our group is to compute a great number of twists of degree 4 $L$-functions to verify interesting conjectures that arise from Random Matrix Theory and others that arise as generalizations of results for the modular forms associated to lower degree $L$-functions.
+
+
+
+
+
 {\bf Profile: Melanie Wood and Manjul Bhargava}
 
 THIS NEEDS TO BE WRITTEN
