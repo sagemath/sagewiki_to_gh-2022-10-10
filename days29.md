@@ -27,22 +27,22 @@ Those with listed dates are confirmed; those without dates are in some cases sti
  * Alyson Deines (number theory)
  * Maarten Derickx (number theory, from Leiden, Holland) -- March 14-26, 2011. 
  * Burcin Erocal (computer algebra, Germany)
- * Brian Granger (ipython developer)
+ * Brian Granger (Ipython developer)
  * Chuck Harris  (numpy developer)
  * Radoslav Kirov (number theory, Singapore)
- * Thomas Kluyver (ipython developer)
+ * Thomas Kluyver (Ipython developer)
  * Alex Leone (notebook)
  * Robert Miller (number theory)
  * Jarrod Millman (neuroimaging)
- * Moritz Minzlaff -- March 20-27, 2011.
+ * Moritz Minzlaff (Germany) -- March 20-25, 2011
  * Travis Oliphant (numpy developer)
  * Min Ragan-Kelley (ipython developer)
  * Robert Kern  (numpy developer)
- * Fernando Perez (ipython developer, neuroimaging)
- * Martin Raum -- confirmed
+ * Fernando Perez (Ipython developer, neuroimaging) -- March 22-25, 2011
+ * Martin Raum (number theory, Bonn, Germany) -- March 20-27, 2011
  * David Roe (number theory)
  * Gagan Sekhon -- confirmed
- * William Stein (Seattle) -- confirmed
+ * William Stein (number theory, Sage notebook, Univ of Washington) -- confirmed
  * John Voight (number theory)
  * Justin Walker (number theory)
  * Mark Wiebe
