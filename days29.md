@@ -1,5 +1,7 @@
 = Sage Days 29 =
 
+  attachment:flyer.pdf
+
 == Topics ==
 
  * Number theory (elliptic curves, modular forms, etc.)
