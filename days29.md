@@ -43,6 +43,7 @@ Those with listed dates are confirmed; those without dates are in some cases sti
  * David Roe (number theory)
  * Gagan Sekhon -- confirmed
  * William Stein (number theory, Sage notebook, Univ of Washington) -- confirmed
+ * Chris Swierczewski (theta functions/applied math, Univ of Washington) -- confirmed for "some days"
  * John Voight (number theory)
  * Justin Walker (number theory)
  * Mark Wiebe
