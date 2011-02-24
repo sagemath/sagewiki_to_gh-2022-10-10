@@ -1,5 +1,70 @@
 PLEASE CONTRIBUTE, i.e. EDIT OR ADD TO:
 
+MAZUR WROTE SOMETHING VERY NICE (below), so please add your paragraphs about what you are working on in relation
+to the program to the bottom of the itemize):
+
+
+\centerline{\bf What is Arithmetic Statistics?}
+ \vskip20pt
+
+Number Theory has its share of conjecture and heuristics that thrive on---if not depend on---the accumulation of aggregates of  instances, aggregates of numerical data.  
+
+\vskip20pt
+To see that {\it numerical data related to numbers themselves} is also at the very heart of the pleasure of number theory, and is a major reason for the very {\it theory} itself, consider this letter of Gauss to one of his students  (the {\it italics} are ours):
+ \vskip20pt
+\begin{quote} Even before I had begun my more detailed
+investigations into higher arithmetic, one of my first projects was to turn my attention
+to the decreasing frequency of primes, to which end {\it I counted the primes in
+several chiliads} and recorded the results on the attached white pages. I soon recognized
+that behind all of its fluctuations, this frequency is on the average inversely
+proportional to the logarithm, so that the number of primes below a given bound $n$ is approximately equal to
+$$\int dn/
+\log(n),$$ 
+where the logarithm is understood to be hyperbolic. Later on, when I became acquainted
+with the list in Vega?s tables (1796) going up to $400031$, I extended my
+computation further, confirming that estimate. {\it In 1811, the appearance of Chernau?s
+cribrum gave me much pleasure and I have frequently (since I lack the patience
+for a continuous count) spent an idle quarter of an hour to count another chiliad
+here and there$\dots$}\end{quote} \vskip20pt
+
+ %One aspect of number theory (and probably any branch of mathematics) is the way that {\it computation} (i.e., close observation of a significant mass of the phenomena under study) weaves in and out with {\it theory}.
+  \vskip20pt
+ Often, in modern number theory, to actually sample a sufficient quantity of data that might allow you to guess even approximate qualitative behavior of the issue you are studying, you may have to go out to very high numbers. For example, there are basic questions about elliptic curves (e.g., what is the frequency of those possessing two independent rational points of infinite order) where if you only look at curves of conductor $< 10^8$, you might be tempted to make guesses that are not only wrong, but qualitatively wrong.
+ 
+   \vskip20pt
+Our program {\it Arithmetic Statistics} then stands for those aspects of number theory---be it theory or computation---that connect closely with concrete (important) {\it numerical data related to numbers themselves}. 
+\vskip15pt
+Many people in our program are engaged  in the theoretical side of our subject, and many in the computational side.   Much ``theoretical" modern number theory bears on, and sometimes has vital need of  large scale computing projects and  large data-bases. And both the computational and theoretical facets connect to some of the  famous heuristics in our subject:  {\it Cohen-Lenstra} heuristics  (average expected size of various finite abelian groups that appear in our subject; and {\it Random matrix} heuristics.
+
+
+% Fundamental  issues include the statistics regarding zeroes of $L$-functions; arithmetic questions about elliptic curves---average size of Mordell-Weil ranks, and Selmer ranks; upper bounds on trigonometric sums; etc. And we have people in our program who are at the center of this activity.
+
+
+\vskip10pt
+The computational and theoretical facets of our subject form one interlocking unity. %Our program bridges these facets: people working in each of them will have ample opportunity to interact with people working in the other mode. 
+
+\vskip10pt
+  Here are a few examples of recent work that have been themes of our program: 
+ \vskip10pt 
+  \begin{itemize} \item  Manjul Bhargava together with his students and co-authors have been developing extremely precise methods for counting appropriate orbits of certain arithmetic groups acting on integral points on certain lattices. This approach follows  and significantly refines the classical Methods in the Geometry of Numbers (as had pursued by Gauss, Minkowski, Siegel, and others).  A major application of this work of Bhargava and co-authors is to establish counts of important ingredients of the arithmetic of elliptic curves. Among their applications is the result of Bhargava-Shankar that the average rank of the Mordell-Weil group of elliptic curves over ${\bf Q}$---when they are ordered in any of the standard ways---is $<1.5$. 
+  
+  This result is related to their study of the average {\it size} of the  $2$-Selmer rank of elliptic curves (again over ${\bf Q}$ ---and when they are ordered in any of the standard ways). They show that the average size  is {\it three}{\footnote{Of course no $2$-Selmer group can have such a size: these $2$-Selmer groups are then all either above  or below  average.}}  For any prime number $p$ the {\it reduced $p$-Selmer rank  of an elliptic curve over a number field}{\footnote{ This is the dimension of the so-called $p$-Selmer group minus the rank of rational $p$-torsion of the elliptic curve over the number field.}} has this important property: it is  finite (!), computable (!) (at least in principle), and  is an upper bound for the rank of the  Mordell-Weil group of the elliptic curve over the number field.  If the Shafarevich-Tate conjecture holds, then for all but finitely many primes $p$, the  reduced $p$-Selmer rank would be equal to that Mordell-Weil rank.  So it is natural, as in the results of Bhargava and co-authors alluded to above, to expect that the statistics of $p$-Selmer ranks  (e.g., even when restricted to $p=2$) contribute to our understanding of Mordell-Weil ranks.  In the course of our program we have been learning the most recent advances in this direction  ($3$-Selmer, $5$-Selmer). 
+  
+  Also $\dots$
+  \vskip10pt  
+  \item The heuristics predicting ``average sizes" of quite a few important arithmetic objects have also been the focus of our program. We are fortunate to have both Henri Cohen and Hendrik Lenstra among us. They are  the co-originators of the {\it Cohen-Lenstra heuristics}  that guides conjectures regarding average sizes of ideal class groups and other important invariants in number theory. The latest development in the formidable toolbox of heuristics is due to Bjorn Poonen and Eric Rains and has a somewhat different slant; it gives one precise guesses for the probabilities of reduced $p$-Selmer ranks for  elliptic curves  over a given number field  (when these curves are  ordered in the usual way).  This too has been one of the focusses of our program.  A few years ago, Peter Swinnerton-Dyer, extending earlier results of Heath-Brown, studied the probabilities of reduced $2$-Selmer ranks of families of elliptic curves that are quadratic twists of some very specific types of elliptic curves over ${\bf Q}$. One grand (and enticing) feature of Swinnerton-Dyer's study is that the probabilities arise  as if they were the product of a specific Markov process; another curious feature---a drawback, perhaps---is that the statistics are dependent upon ordering the elliptic curves in the twist family  {\it not in the standard way} but in terms of the number of primes dividing the discriminant.  All the issues that are brought up by this work are focusses of current research in our program. Specifically, Dan Kane's work in the program is towards relating such Swinnerton-Dyer statistics dependent upon different orderings of the collection of elliptic curves being sampled, while Karl Rubin, Zev Klagsbrun, and Barry Mazur are developing an approach (which has a ``Markov Process feel") to unconditionally prove the expected statistics for reduced $2$-Selmer ranks over an arbitrary number field for all quadratic twists families of many elliptic curves  (the elliptic curves in any of these families are ordered in a certain not entirely unnatural, but again non-standard, way). \vskip10pt
+    \item PARAGRAPH ON COMPUTATION
+    \item PARAGRAPH ON ANALYTIC SIDE (MOMENTS, ZEROS, etc)
+    \item $\dots$\vskip10pt
+    \item $\dots$
+
+\end{itemize}
+
+
+
+==================================================================================
+OLDER MATERIAL. PERHAPS MERGE SOME OF IT WITH THE ABOVE.
+
 $L$-functions  (attached to modular forms and/or to algebraic varieties and
 algebraic number fields) are prominent in quite a wide range of number
 theoretic issues, and our recent growth of understanding of the analytic
