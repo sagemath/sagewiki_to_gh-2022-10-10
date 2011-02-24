@@ -16,9 +16,38 @@
 
 == People ==
 
- * Maarten Derickx (Leiden, Holland) -- March 14-26, 2011. 
- * William Stein (Seattle)
- * (and dozens of others)
+Those with listed dates are confirmed; those without dates are in some cases still tentative (though very likely). 
+
+ * Ivan Andrus -- confirmed
+ * Jennifer Balakrishnan (number theory)
+ * Rob Beezer (undergraduate teaching, combinatorics) -- confirmed
+ * Robert Bradshaw (number theory, Cython developer)
+ * Volker Braun (geometry, software engineering)
+ * John Cremona (number theory) -- March 20-26, 2011
+ * Alyson Deines (number theory)
+ * Maarten Derickx (number theory, from Leiden, Holland) -- March 14-26, 2011. 
+ * Burcin Erocal (computer algebra, Germany)
+ * Brian Granger (ipython developer)
+ * Chuck Harris  (numpy developer)
+ * Radoslav Kirov (number theory, Singapore)
+ * Thomas Kluyver (ipython developer)
+ * Alex Leone (notebook)
+ * Robert Miller (number theory)
+ * Jarrod Millman (neuroimaging)
+ * Moritz Minzlaff -- March 20-27, 2011.
+ * Travis Oliphant (numpy developer)
+ * Min Ragan-Kelley (ipython developer)
+ * Robert Kern  (numpy developer)
+ * Fernando Perez (ipython developer, neuroimaging)
+ * Martin Raum -- confirmed
+ * David Roe (number theory)
+ * Gagan Sekhon -- confirmed
+ * William Stein (Seattle) -- confirmed
+ * John Voight (number theory)
+ * Justin Walker (number theory)
+ * Mark Wiebe
+ * Jamie Wiegandt (number theory)
+
 
 == Funding ==
  
