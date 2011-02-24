@@ -5,8 +5,7 @@
  * Number theory (elliptic curves, modular forms, etc.)
  * Fixing bugs in Sage or any of its components
  * Sage Notebook rewrite
- * Ipython development
- * Numpy/Scipy development
+ * Applied mathematics: Numpy/Scipy development, Neuroimaging
 
 == Dates ==
 
