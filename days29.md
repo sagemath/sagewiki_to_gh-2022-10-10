@@ -51,6 +51,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Rob Beezer (undergraduate teaching, combinatorics) -- confirmed
  * Robert Bradshaw (number theory, Cython developer)
  * Volker Braun (geometry, software engineering)
+ * Craig Citro (telling stories) -- one or two mornings, hopefully
  * John Cremona (number theory) -- March 20-26, 2011
  * Alyson Deines (number theory)
  * Maarten Derickx (number theory, from Leiden, Holland) -- March 14-26, 2011. 
