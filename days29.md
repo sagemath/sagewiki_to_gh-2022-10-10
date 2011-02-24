@@ -28,7 +28,7 @@
 ||Monday March 21, 9am-10am||Colloquium Talk: John Cremona (number theory)||
 ||Monday March 21, 10am-12pm||Participant introductions and coding sprint organization||
 ||Monday March 21, 1pm-9pm||Coding Sprints||
-||Tuesday March 22, 9am-10am||Colloquium Talk: TBA||
+||Tuesday March 22, 9am-10am||Colloquium Talk: Robert Bradshaw (Cython)||
 ||Tuesday March 22, 10am-11:30am||Status reports||
 ||Tuesday March 22, 11am-12pm||Talk||
 ||Tuesday March 22, 1pm-9pm||Coding Sprints||
