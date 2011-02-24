@@ -1,22 +1,45 @@
 = Sage Days 29 =
 
-== Possible Topics ==
+== Topics ==
 
- * Fixing bugs, elliptic curves, the notebook, numerical computation, ipython, etc.  It will mainly depends on who is available.
-
-== Location ==
-
- * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
-
- * Building: [[http://www.css.washington.edu/room/PCAR+293|PACCAR HALL 293]].
+ * Number theory (elliptic curves, modular forms, etc.)
+ * Fixing bugs in Sage or any of its components
+ * Sage Notebook rewrite
+ * Ipython development
+ * Numpy/Scipy development
 
 == Dates ==
 
  * Monday March 21 to Friday March 25, 2011
 
+== Location ==
+
+ * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
+
+ * We have [[http://www.css.washington.edu/room/PCAR+293|PACCAR HALL 293]] reserved 7am - 9pm every day March 21 - 25.  This room is in this [[http://www.foster.washington.edu/about/Pages/paccarhall.aspx|beautiful building]].
+
+== Schedule ==
+
+||Monday March 21, 9am-10am||Colloquium Talk: John Cremona||
+||Monday March 21, 10am-12pm||Participant introductions and coding sprint organization||
+||Monday March 21, 1pm-9pm||Coding Sprints||
+||Tuesday March 22, 9am-10am||Colloquium Talk: TBA||
+||Tuesday March 22, 10am-11:30am||Status reports||
+||Tuesday March 22, 11am-12pm||Talk||
+||Tuesday March 22, 1pm-9pm||Coding Sprints||
+||Wednesday March 23, 9am-10am||Colloquium Talk: TBA||
+||Wednesday March 23, 10am-11:30am||Status reports||
+||Wednesday March 23, 1pm-9pm||Coding Sprints||
+||Thursday March 24, 9am-10am||Colloquium Talk: TBA||
+||Thursday March 24, 10am-11:30am||Status reports||
+||Thursday March 24, 1pm-9pm||Coding Sprints||
+||Friday March 25, 10am-12:30pm||Status reports and demos||
+||Friday March 25, 2pm-9pm||Coding Sprints||
+
+
 == People ==
 
-Those with listed dates are confirmed; those without dates are in some cases still tentative (though very likely). 
+The participants are an exciting mix of pure and applied mathematicians and scientists.  Those with listed dates are confirmed; those without dates are in some cases still tentative (though very likely). 
 
  * Ivan Andrus -- confirmed
  * Jennifer Balakrishnan (number theory)
@@ -52,4 +75,4 @@ Those with listed dates are confirmed; those without dates are in some cases sti
 
 == Funding ==
  
- Write to William Stein wstein@gmail.com.   Plan tickets [[http://www.tvlon.com/resources/FlyAct.html|must be on US flag carriers]].  Regarding price, we reimburse up to USD 500 domestic or USD 1000 international (contact us in case of unusual circumstances).
+ Write to William Stein wstein@gmail.com.   Plan tickets [[http://www.tvlon.com/resources/FlyAct.html|must be on US flag carriers]].  Regarding price, we reimburse up to USD 500 domestic or USD 1000 international (contact us in case of unusual circumstances).  Accommodations and local travel costs will also be reimbursed.
