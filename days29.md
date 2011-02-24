@@ -1,6 +1,6 @@
 = Sage Days 29 =
 
-  attachment:flyer.pdf
+  [[attachment:flyer.pdf]]
 
 == Topics ==
 
