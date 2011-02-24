@@ -66,6 +66,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7392 | 7392]] || rank for matrices over CDF || new ||  ||
