@@ -7,6 +7,10 @@
  * Sage Notebook rewrite
  * Applied mathematics: Numpy/Scipy development, Neuroimaging
 
+== Mailing List ==
+
+ * http://groups.google.com/group/sagedays29
+
 == Dates ==
 
  * Monday March 21 to Friday March 25, 2011
