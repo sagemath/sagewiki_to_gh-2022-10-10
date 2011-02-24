@@ -46,7 +46,7 @@ Those with listed dates are confirmed; those without dates are in some cases sti
  * Chris Swierczewski (theta functions/applied math, Univ of Washington) -- confirmed for "some days"
  * John Voight (number theory)
  * Justin Walker (number theory)
- * Mark Wiebe
+ * Mark Wiebe (Vancouver) -- March 20-26, 2011.
  * Jamie Wiegandt (number theory)
 
 
