@@ -71,6 +71,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Martin Raum (number theory, Bonn, Germany) -- March 20-27, 2011
  * David Roe (number theory)
  * Gagan Sekhon -- confirmed
+ * Simon Spicer (number theory, University of Washington)
  * William Stein (number theory, Sage notebook, Univ of Washington) -- confirmed
  * Chris Swierczewski (theta functions/applied math, Univ of Washington) -- confirmed for "some days"
  * John Voight (number theory)
