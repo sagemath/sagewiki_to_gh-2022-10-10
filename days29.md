@@ -6,7 +6,9 @@
 
 == Location ==
 
- PACCAR HALL 293: http://www.css.washington.edu/room/PCAR+293
+ * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
+
+ * Building: [[http://www.css.washington.edu/room/PCAR+293|PACCAR HALL 293]].
 
 == Dates ==
 
