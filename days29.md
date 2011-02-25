@@ -49,7 +49,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Ivan Andrus -- confirmed
  * Jennifer Balakrishnan (number theory)
  * Rob Beezer (undergraduate teaching, combinatorics) -- confirmed
- * Robert Bradshaw (number theory, Cython developer)
+ * Robert Bradshaw (number theory, Cython developer) -- local
  * Volker Braun (geometry, software engineering)
  * Craig Citro (telling stories) -- one or two mornings, hopefully
  * John Cremona (number theory) -- March 20-26, 2011
