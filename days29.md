@@ -55,7 +55,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * John Cremona (number theory) -- March 20-26, 2011
  * Alyson Deines (number theory)
  * Maarten Derickx (number theory, from Leiden, Holland) -- March 14-26, 2011. 
- * [[http://droettboom.com/|Michael Droettboom] (scientific computing) -- confirmed
+ * [[http://droettboom.com/|Michael Droettboom]] (scientific computing) -- confirmed
  * Brian Granger (Ipython developer)
  * Chuck Harris  (numpy developer)
  * Radoslav Kirov (number theory, Singapore)
