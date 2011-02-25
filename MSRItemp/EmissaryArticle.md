@@ -72,6 +72,30 @@ on the 1/2-line, not only of Dirichlet L-functions, but of other families as wel
 
 \end{itemize}
 
+The first workshop to take place as part of the Arithmetic Statistics
+program was the 2-day Connections for Women event.  This targeted female
+mathematicians in fields related to the program, but we were pleased to see
+that all aspects of the workshop were well-attended by the program's
+participants, which lead to a very even mix of male and female researchers.
+The Connections for Women workshop was a very agreeable mixture of excellent
+talks, a buzz of mathematical discussion and a chance to meet new people;
+every math workshop should be like this! The audience enjoyed 6 superb talks
+by leading women in the area, ranging from the number theory involved in
+cryptography to several of the questions of counting (ranks, points on
+curves, number fields) that are themes of the rest of the program.
+
+The discussion session on pursuing a career in mathematics saw senior
+mathematicians giving advice on how to apply for first jobs and postdoctoral
+positions, some anecdotes about how dual-career couples have found posts in
+the same institution, and strategies for departments keen to 
+increase the number of women in their faculty.   With participants covering 
+the spectrum from undergraduates to those with a long career behind them,
+the discussion was lively and productive.
+
+These two days then lead into the main Introductory workshop for the
+Arithmetic Statistics program, which most of the Connections participants
+stayed on to enjoy. 
+
 
 
 ==================================================================================
