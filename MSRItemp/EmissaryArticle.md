@@ -1,9 +1,5 @@
 PLEASE CONTRIBUTE, i.e. EDIT OR ADD TO:
 
-MAZUR WROTE SOMETHING VERY NICE (below), so please add your paragraphs about what you are working on in relation
-to the program to the bottom of the itemize):
-
-
 \centerline{\bf What is Arithmetic Statistics?}
  \vskip20pt
 
@@ -69,6 +65,8 @@ on the 1/2-line, not only of Dirichlet L-functions, but of other families as wel
  and the lower terms are given explicitly in terms of complicated arithemetic and geometric factors. The  theorem {\bf exactly} matches the predictions arising from Random Matrix Theory.  This is the best confirmation to date of the RMT models for L-functions. 
     \item Another interesting problem is that of computing statistics for curves over finite fields. The zeros of the zeta function are the inverses of the eigenvalues of the Frobenius endomorphism. The work of Katz and Sarnak indicates that when $g$ is fixed and $q$ tends to infinity, the normalized zeros are distributed like the eigenvalues of matrices in a group of random matrices determined by the monodromy group of the moduli space of $C$. But the related question of studying statistics as $q$ remains fixed and the genus $g$ grows to infinity is still largely unknown, though recent progress has been made in computing the distribution of the trace of the Frobenius endomorphism for various families by Kurberg-Rudnick, Bucur-David-Feigon-Lal\'in and Bucur-Kedlaya.
 The broader question of computing the global distribution of the zeros in the $g$ limit remains. This is a non-trivial modeling job, since the global obstruction imposes an infinite, but discrete, set of conditions that the matrix model should satisfy. Such a model needs to exhibit both discrete and continuous features in order to capture the global phenomenon. Bucur and Feigon, together with their collaborators, David and Lal\'in will be working in this direction while at MSRI.
+    \item Computation and experimentation have been playing a large role in our program. For example, postdocs Jonathan Bober and Ghaith Hiary have been implementing Hiary's world's fastest algorithms for the Riemann zeta function, computing zeros of $\zeta(s)$ with $\Im{s} near $10^{36}$. Andrew Booker and Michael Rubinstein are carrying out computations of zeros of more general $L$-functions, gathering extensive numerical evidence in favour of the Riemann Hypothesis. William Stein has been tabulating elliptic curves over $Q\(sqrt(5))$, and verifying the Birch and Swinnerton-Dyer conjecture. Nathan Ryan, Nils Skoruppa, Fredrik Str\"omberg, and Gonzalo Tornaria have been studying methods for computing with Siegel modular and paramodular forms which have degree 4 and 5 $L$-functions associated to them. Duc Khiem Huynh is attempting to develop probabilistic models for these $L$-functions with the goal of testing the predictions
+of these models. David Farmer, Stefan Lemurell, and SAlly Koutsoliotas are developing methods for finding Maass forms for higher rank groups and testing conjectures regarding their Fourier coefficients and associated $L$-functions.
     \item $\dots$\vskip10pt
     \item $\dots$
 
