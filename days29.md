@@ -47,7 +47,7 @@
 The participants are an exciting mix of pure and applied mathematicians and scientists.  Those with listed dates are confirmed; those without dates are in some cases still tentative (though very likely). 
 
  * Ivan Andrus -- confirmed
- * Jennifer Balakrishnan (number theory)
+ * Jennifer Balakrishnan (number theory) -- March 20-24, 2011
  * Rob Beezer (undergraduate teaching, combinatorics) -- confirmed
  * Robert Bradshaw (number theory, Cython developer) -- local
  * Volker Braun (geometry, software engineering)
