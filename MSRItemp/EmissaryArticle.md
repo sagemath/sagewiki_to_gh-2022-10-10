@@ -242,7 +242,7 @@ complement the computations of William Stein on elliptic curves over $Q(\sqrt
 Learning seminars, whereby our participants meet weekly to teach each other and
 discuss material relevant to our research, forms an important part of our
 program. The Bhargava-Shankar group has been meeting to learn material related
-to the work of Bhargava and Shanlar on ranks of elliptic curves. The explicit
+to the work of Bhargava and Shankar on ranks of elliptic curves. The explicit
 formula group is studying the problem of ranks from an analytic perspective.
 The low lying zeros seminar has been looking at papers related to the
 distribution of zeros in families of $L$-functions. Quadratic twists of
