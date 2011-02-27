@@ -116,8 +116,8 @@ discriminant.  All the issues that are brought up by this work are focusses of
 current research in our program. Specifically, Dan Kane's work in the program
 is towards relating such Swinnerton-Dyer statistics dependent upon different
 orderings of the collection of elliptic curves being sampled, while Karl Rubin,
-Zev Klagsbrun, and Barry Mazur are developing an approach (which has a ``Markov
-Process feel") to unconditionally prove the expected statistics for reduced
+Zev Klagsbrun, and Barry Mazur are developing an approach (which has a `Markov
+Process feel') to unconditionally prove the expected statistics for reduced
 $2$-Selmer ranks over an arbitrary number field for all quadratic twists
 families of many elliptic curves  (the elliptic curves in any of these families
 are ordered in a certain not entirely unnatural, but again non-standard, way).
@@ -141,8 +141,8 @@ in the rectangle of complex numbers with real parts between 0 and 1 and
 imaginary parts between 0 and $\log Q$. CIS can prove that at least 55\% of the
 zeros in this rectangle have real parts equal to 1/2.
 
-The technique used by CIS is something they call the ``asymptotic large
-sieve.'' This is a technique  which can be used to give an asymptotic formula
+The technique used by CIS is something they call the `asymptotic large
+sieve.' This is a technique  which can be used to give an asymptotic formula
 for a quantity that would have previously been estimated by the {\it large
 sieve inequality.} The latter  has been a staple of number theorists for more
 than 4 decades now. One spectacular application of the large sieve inequality
