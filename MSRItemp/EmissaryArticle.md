@@ -1,3 +1,10 @@
+THANKS TO BARRY MAZUR FOR WRITING THE WONDERFUL OPENING PARAGRAPHS TO GIVE OUR ARTICLE
+SOME STRUCTURE.
+
+(formats okay when placed in a
+latex article, so ignore the fact that it doesn't look good on the screen)
+
+
 \centerline{\bf What is Arithmetic Statistics?}
  \vskip20pt
 
