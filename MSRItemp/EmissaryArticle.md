@@ -172,7 +172,7 @@ matches the predictions arising from Random Matrix Theory, and provides
 excellent confirmation of the RMT models for $L$-functions. 
 
     Besides the three researchers just discussed, we are very fortunate to have
-as participants some of the pioneers who have developed probabilistic models for 
+as participants some of the pioneers who are developing probabilistic models for 
 $L$-functions, including Roger Heath-Brown, David Farmer, Jon Keating, 
 Francesco Mezzadri, Michael Rubinstein, Peter Sarnak, and Nina Snaith.
 
@@ -199,9 +199,9 @@ this direction while at MSRI.
     \item Computation and experimentation have been playing a large role in our
 program. For example, postdocs Jonathan Bober and Ghaith Hiary have been
 implementing Hiary's world's fastest algorithms for the Riemann zeta function,
-computing zeros of $\zeta(s)$ with $\Im{s}$ near $10^{36}$. Andrew Booker and
-Michael Rubinstein are carrying out computations of zeros of more general
-$L$-functions, gathering extensive numerical evidence in favour of the Riemann
+computing zeros of $\zeta(s)$ with $\Im{s}$ near $10^{36}$.
+Michael Rubinstein is developing general purpose algorithms for computing $L$-functions
+and is also gathering extensive numerical evidence in favour of the Generalized Riemann
 Hypothesis. William Stein has been tabulating elliptic curves over
 $Q(\sqrt(5))$, and verifying the Birch and Swinnerton-Dyer conjecture. Nathan
 Ryan, Nils Skoruppa, Fredrik Str\"omberg, and Gonzalo Tornaria (NNFG) have been
