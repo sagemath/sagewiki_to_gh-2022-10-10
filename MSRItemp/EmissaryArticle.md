@@ -121,6 +121,10 @@ Process feel') to unconditionally prove the expected statistics for reduced
 $2$-Selmer ranks over an arbitrary number field for all quadratic twists
 families of many elliptic curves  (the elliptic curves in any of these families
 are ordered in a certain not entirely unnatural, but again non-standard, way).
+In separate work, Jonathan Hanke is collaborating with Bhargava and Shankar to
+obtain the asymptotics for the 2-part of the class group of n-monogenic orders 
+in cubic fields.
+
 \vskip10pt \item Dirichlet L-functions are the simplest generalizations of the
 Riemann zeta-function. They were invented by Dirichlet  and have been used to
 prove an asymptotic formula for the number of primes up to a quantity $X$ in a
@@ -217,7 +221,12 @@ high dimensional) spaces as is required by the currently known algorithms.
 David Farmer, Stefan Lemurell, and Sally Koutsoliotas are
 developing methods for finding Maass forms for higher rank groups and testing
 conjectures regarding their Fourier coefficients and associated $L$-functions.
-Cremona....  Hanke...
+Jonathan Hanke is working with Gonzalo Tornaria, and also collaborator Will Jagy, 
+on classifying regular and spinor regular ternary quadratic forms,
+improving the the modular symbols code in SAGE to make it more suitable for computations 
+proving finiteness theorems, and making tables of quadratic forms in 3 and 4 variables 
+(over Q and some small number fields) together with Robert Miller.
+Cremona....
 
     In the study of elliptic curves over totally real number fields like
 $Q(\sqrt 5)$ (recent work of William Stein) one is naturally led to Hilbert
