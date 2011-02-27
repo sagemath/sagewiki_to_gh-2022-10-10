@@ -164,6 +164,11 @@ complicated arithemetic and geometric factors. The  theorem {\bf exactly}
 matches the predictions arising from Random Matrix Theory, and provides
 excellent confirmation of the RMT models for $L$-functions. 
 
+    Besides the three researchers just discussed, we are very fortunate to have
+as participants some of the pioneers who have developed probabilistic models for 
+$L$-functions, including Roger Heath-Brown, David Farmer, Jon Keating, 
+Francesco Mezzadri, Michael Rubinstein, Peter Sarnak, and Nina Snaith.
+
     \item Several of our rsearchers are examining statistics for
 curves over finite fields. The zeros of the zeta function are the inverses of
 the eigenvalues of the Frobenius endomorphism. The work of Katz and Sarnak
@@ -285,9 +290,6 @@ The last workshop for our program will be held April 11-15 on the theme
 of `Arithmetic Statistics' and it will highlight some of the work being carried out
 at the MSRI during our program. In order to give participants more opportunity to interact
 and collaborate fewer talks are being planned.
-
-
-
 
 
 
