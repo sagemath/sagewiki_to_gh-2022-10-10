@@ -78,7 +78,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Justin Walker (number theory)
  * Mark Wiebe (Vancouver) -- March 20-26, 2011.
  * Jamie Wiegandt (number theory)
- * James Pfeiffer (optimization, University of Washington) -- confirmed for Tue-Fri
+ * James Pfeiffer (University of Washington) -- confirmed for Tue-Fri
 
 == Funding ==
  
