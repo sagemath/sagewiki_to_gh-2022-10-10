@@ -1,8 +1,9 @@
 == Prospective ==
 
 === Si on avait de la thune que voudrait-on en faire ? ===
-  * Organisation de rencontres (code, formation,...)
-    * en particulier une semaine de formation pour doctorants en automne a la montagne
+  * Organisation de rencontres 
+    * code
+    * formation, en particulier une semaine de formation pour doctorants en automne a la montagne.
   * Machine(s) ? Pour quel usage ?
   * Invitations ?
 
@@ -41,6 +42,12 @@
 
 == le peps proprement dit ==
 
+=== trouver un petit nom, acronyme, le truc con des demandes de projet ===
+  * SAGE
+  * EnvoieLeBle
+  * ...
+
+
 === Qui serait interesse par etre dans le peps ? ===
   * Nathann Cohen (Laboratoire d'Informatique, Signaux et Systèmes de Sophia-Antipolis - I3S - UMR 6070 - doctorant - théorie des graphes)
   * Vincent Delecroix (Institut de Mathématiques de Luminy - IML - UMR 6206 - doctorant - échanges d'intervalles)
@@ -56,6 +63,5 @@ Qui d'autre ? Est-ce qu'on ouvre aux personnes plus "calcul" (Paul Zimmermann, L
 
 
 === Quel argumentaire ? (redaction du baratin) ===
-Discours général: notre recherche à tous nécessite des développements spécifiques et une plateforme libre pour être assez souple. Or la pratique montre que, même si nous sommes dans des domaines assez différent, une grosse partie des besoins sont communs (mais absents des systèmes existants). Il est donc très profitable de mutualiser nos efforts.
 
-Effet de bord: les résultats de nos développements sont aussi utiles pour d'autres chercheurs d'autres domaines et pour l'enseignement.
+(copie d'un mail de Nicolas) Discours général: notre recherche à tous nécessite des développements spécifiques et une plateforme libre pour être assez souple. Or la pratique montre que, même si nous sommes dans des domaines assez différent, une grosse partie des besoins sont communs (mais absents des systèmes existants). Il est donc très profitable de mutualiser nos efforts. Effet de bord: les résultats de nos développements sont aussi utiles pour d'autres chercheurs d'autres domaines et pour l'enseignement.
