@@ -92,5 +92,6 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || all week || || Baker room || FRG workshop ||
  || Wed. 23 || 1:30-2:30 || Simons Auditorium || Andrew Knightly - Petersson's formula and related topics (low lying zeros group) ||
  ||||||||<tablestyle="width: 80%">'''Week 8: 28 February-4 March''' ||
+ || Mon. 28 || 2-3 || Baker room || Jamie Weigandt - "Empirical evidence for an arithmetic analogue of Nevanlinna's five value theorem" ||
  || Wed. 2 || 1:30-2:30 || Baker room || Duc Khiem Huynh - Lower order terms for the one-level density of elliptic curve L-functions: (low lying zeros group) ||
  || Thu. 3 || 11-12 || Simons || Kumar Murty - Title: The field of Fourier coefficients of a modular form. (members' seminar) ||
