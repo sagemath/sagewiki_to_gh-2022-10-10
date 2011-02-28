@@ -207,12 +207,12 @@ computing zeros of $\zeta(s)$ with $\Im{s}$ near $10^{36}$.
 Michael Rubinstein is developing general purpose algorithms for computing $L$-functions
 and is also gathering extensive numerical evidence in favour of the Generalized Riemann
 Hypothesis. William Stein has been tabulating elliptic curves over
-$Q(\sqrt(5))$, and verifying the Birch and Swinnerton-Dyer conjecture. Nathan
-Ryan, Nils Skoruppa, Fredrik Str\"omberg, and Gonzalo Tornaria (NNFG) have been
-studying methods for computing with Siegel modular and paramodular forms which
-have degree 4 and 5 $L$-functions associated to them. Duc Khiem Huynh is
-attempting to develop probabilistic models for these $L$-functions with the
-goal of testing the predictions using data provided by (NNFG).
+$Q(\sqrt(5))$, and verifying the Birch and Swinnerton-Dyer conjecture.
+Nathan Ryan, Nils Skoruppa, and Gonzalo Tornaria, in collaboration
+with Martin Raum (RRST), have been studying methods for computing with Siegel
+modular forms which have degree 4 $L$-functions associated to them.
+Duc Khiem Huynh is attempting to develop probabilistic models for these $L$-functions
+with the goal of testing the predictions using data provided by (RRST).
 Nils Skoruppa works on a new algorithm for computing modular forms of half
 integral weight directly from the periods of the associated modular forms of
 integral weight. This will make it possible to tabulate half integral modular
