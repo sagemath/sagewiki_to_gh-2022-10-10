@@ -245,6 +245,26 @@ sufficiently many examples of Jacobi forms over $Q(\sqrt 5)$ which should
 complement the computations of William Stein on elliptic curves over $Q(\sqrt
 5)$.
 
+In the case of Siegel modular forms a conjecture of
+Böcherer---originaly stated in the case of the forms for the full
+symplectic group---relates sums of Fourier coefficients of a form to
+the central values of its twisted spinor L-series, generalizing the
+formulas for the coefficients of Jacobi forms (over Q) mentioned
+above. Similar formulas for the case of paramodular forms are being
+investigated by Nathan Ryan and Gonzalo Tornaría. This case is of
+particular interest due to the so-called Paramodular Conjecture which
+proposes a bridge to geometry by relating spinor L-series attached to
+paramodular forms with Hasse-Weil L-functions attached to rational
+abelian surfaces (analogue to the Modularity Theorem of Wiles et al).
+Ryan and Tornaría are trying to find algorithms to compute Fourier
+coefficients of these paramodular forms in a large scale. This would
+not only provide more evidence for both the Paramodular Conjecture and
+the paramodular extension of Böcherer Conjecture, but would also allow
+a large scale computation of central values of twists for degree 4
+L-series, useful for testing and refining Random Matrix heuristics for
+degree 4 L-series.
+
+
     \item $\dots$
 \end{itemize}
 
