@@ -17,6 +17,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * Jason Grout (Drake University)
  * Marja-Liisa Hassi (University of Colorado)
  * Tom Judson (Stephen F. Austin State University)
+ * Jane Long (Stephen F. Austin State University)
  * David Perkinson (Reed College)
  * Rao Potluri (Reed College)
  * William Stein (University of Washington)
