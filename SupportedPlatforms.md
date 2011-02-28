@@ -48,10 +48,10 @@ There are five requirements for Sage to work successfully on these fully support
 ====== Mac OS X ======
  * OS X 10.6 (Snow Leopard) 64-bit. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
-====== OpenSolaris ======
+====== OpenSolaris x86 32-bit ======
  * 06/2009 updated to build 134 on x86 (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
 
-====== Solaris ======
+====== Solaris 10 SPARC 32-bit ======
  * Solaris 10 update 1 on SPARC processors (32-bit only) Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]] or [[http://build.sagemath.org/sage/buildslaves/mark2-1|mark2]]
  * Solaris 10 update 5 on x86 processors (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/fulvia-1|fulvia]]
 
@@ -99,7 +99,7 @@ If anyone has the time to help on these ports, it would be greatly appreciated.
 
 More information about the status of the FreeBSD port can be found at [[freebsd|Sage port to FreeBSD]].
 
-===== Linux =====
+===== Linux (ARM, Mips64 and PPC64 processors) =====
  * Mips64 The Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
  * PPC64 The 64-bit PowerPC port can be followed at [[linuxPPC64|the linux PPC64 port page]]
 
@@ -112,10 +112,10 @@ More information on the HP-UX port can be found on the [[HP-UX]] page.
  * Microsoft Windows using Cygwin (Substantial work has been done on this. A port can be expected in 2011). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows sage-windows]] mailing list.
  * Microsoft Windows using Microsoft's compiler. This will be a full native port. There are some efforts at this. 
 
-===== OpenSolaris =====
+===== OpenSolaris 64-bit =====
  * !OpenSolaris 06/2009 on x86 in 64-bit mode.  (Substantial work has been done on this. A port can be expected in 2011). 
 
-===== Solaris =====
+===== Solaris 10 64-bit =====
  * Solaris 10 on x86 processors in 64-bit mode. (Substantial work has been done on this. A port can be expected in 2011).
  * Solaris 10 on SPARC processors in 64-bit mode. (Substantial work has been done on this. A port can be expected in 2010).
 
