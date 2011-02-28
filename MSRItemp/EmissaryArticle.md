@@ -1,3 +1,6 @@
+%
+% Please add \usepackage[utf8x]{inputenc} to latex preamble so that accents show ok
+%
 THANKS TO BARRY MAZUR FOR WRITING THE WONDERFUL OPENING PARAGRAPHS TO GIVE OUR ARTICLE
 SOME STRUCTURE.
 
@@ -208,7 +211,7 @@ Michael Rubinstein is developing general purpose algorithms for computing $L$-fu
 and is also gathering extensive numerical evidence in favour of the Generalized Riemann
 Hypothesis. William Stein has been tabulating elliptic curves over
 $Q(\sqrt(5))$, and verifying the Birch and Swinnerton-Dyer conjecture.
-Nathan Ryan, Nils Skoruppa, and Gonzalo Tornaria, in collaboration
+Nathan Ryan, Nils Skoruppa, and Gonzalo Tornaría, in collaboration
 with Martin Raum (RRST), have been studying methods for computing with Siegel
 modular forms which have degree 4 $L$-functions associated to them.
 Duc Khiem Huynh is attempting to develop probabilistic models for these $L$-functions
@@ -221,7 +224,7 @@ high dimensional) spaces as is required by the currently known algorithms.
 David Farmer, Stefan Lemurell, and Sally Koutsoliotas are
 developing methods for finding Maass forms for higher rank groups and testing
 conjectures regarding their Fourier coefficients and associated $L$-functions.
-Jonathan Hanke is working with Gonzalo Tornaria, and also collaborator Will Jagy, 
+Jonathan Hanke is working with Gonzalo Tornaría, and also collaborator Will Jagy, 
 on classifying regular and spinor regular ternary quadratic forms,
 improving the the modular symbols code in SAGE to make it more suitable for computations 
 proving finiteness theorems, and making tables of quadratic forms in 3 and 4 variables 
