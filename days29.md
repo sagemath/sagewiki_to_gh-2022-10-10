@@ -48,7 +48,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
 
  * Ivan Andrus -- confirmed
  * Jennifer Balakrishnan (number theory) -- March 20-24, 2011
- * Rob Beezer (undergraduate teaching, combinatorics) -- confirmed
+ * [[http://buzzard.ups.edu/|Rob Beezer]] (undergraduate teaching, linear algebra, combinatorics) -- March 20-25, 2011
  * Robert Bradshaw (number theory, Cython developer) -- local
  * Volker Braun (geometry, software engineering)
  * Craig Citro (telling stories) -- one or two mornings, hopefully
@@ -82,4 +82,4 @@ The participants are an exciting mix of pure and applied mathematicians and scie
 
 == Funding ==
  
- Write to William Stein wstein@gmail.com.   Plan tickets [[http://www.tvlon.com/resources/FlyAct.html|must be on US flag carriers]].  Regarding price, we reimburse up to USD 500 domestic or USD 1000 international (contact us in case of unusual circumstances).  Accommodations and local travel costs will also be reimbursed.
+ Write to William Stein wstein@gmail.com.   Plane tickets [[http://www.tvlon.com/resources/FlyAct.html|must be on US flag carriers]].  Regarding price, we reimburse up to USD 500 domestic or USD 1000 international (contact us in case of unusual circumstances).  Accommodations and local travel costs will also be reimbursed.
