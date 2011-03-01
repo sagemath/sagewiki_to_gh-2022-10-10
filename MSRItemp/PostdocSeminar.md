@@ -34,8 +34,8 @@ everyone is welcome to attend.
 || April 11th       || NO MEETING || Workshop ||
 || April 18th       || Jonathan Bober || ||
 || April 25th       || Kaneenika Sinha || ||
-|| May 2nd          || Alina Bucur|| ||
-|| May 9th          || || ||
+|| May 2nd          || Alina Bucur || ||
+|| May 9th          || Ghaith Hiary || ||
 || May 16th         || || ||
 
 
