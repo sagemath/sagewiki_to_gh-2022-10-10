@@ -98,15 +98,15 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
- * Sage-Enhancing a Linear Algebra Textbook (Updated: 2010/12/29)
+ * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/02/28)
    * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
-   * Live Sage code for two chapters (SLE, V), in Sections (RREF, TSS, HSE, NM, VO, LC, SS, LI, LDS)
+   * Live Sage code for three chapters (SLE, V, M), with some orthogonality results to add to M
    * "Read-Only" - some content is temporarily missing, Sage commands use new unofficial patches for linear algebra, some formatting needs improvements
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip front matter sections, click on actual sections to bring up content
    * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] is used to render faithful PDF from the same source
    * [[attachment:fcla-sage-experimental.zip | Worksheet Zip File]]
-   * [[attachment:fcla-sage-experimental.pdf | PDF Version]]
+   * [[attachment:fcla-sage-experimental.pdf | PDF Version (old)]]
 
  * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/02/18)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
