@@ -50,6 +50,7 @@ Some tickets below that are available for review can be seen building and passin
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || positive review || Alain Filbois ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10568|10568]] || speed-up scalar multiples of sparse matrices || positive review || Author: Maarten Derickx ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10763|10763]] || matrix multiplication speedup || positive review || Author: Simon King ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
@@ -63,12 +64,13 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches, dep. 10714 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || with patches, needs info ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10794|10794]] || QR matrix decomposition over exact rings || with patch, dep. 10536, 10683 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patch, dep. 10536, 10683, 10794 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10848|10863]] || is_unitary() for matrices || with patch, dep. 10536 ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4932 | 4932]] || remove solve-left-LU || needs work ||  ||
