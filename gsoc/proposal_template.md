@@ -7,7 +7,7 @@ This is a suggestion for the kind of information we'll find useful from students
  * '''Background''': something about yourself: technical skills, experience, etc. Who are you? What makes you the best person to work on this project?
  * '''Project title'''
  * '''Synopsis''': a short description.
- * '''Deliverables''' quantifiable results, for example 'Port Sage to Cygwin', 'make symbolics as fast as ginac'
+ * '''Deliverables''' quantifiable results, for example 'running a certain load test will not stall the server'
  * '''Project details''': a more detailed description.
  * '''Project schedule''': how long will the project take? Give a brief, clear work breakdown structure with milestones and deadlines. Make sure to label deliverables as optional or required. When can you begin work? 
  * '''Other summer plans''': are you getting married? Do you have a long vacation planned? Are you expecting to start a job? '''Be aware''' that if you are accepted for the summer, then Google will be paying you as though you were working full time for them. We (in Sage) will therefore expect you to be working 35-40 hours per week on your project. It is very unlikely that you will be able to combine a successful SoC with another summer job job working for somebody else.
@@ -20,7 +20,7 @@ Your proposal should be around 1500-4000 words in plain text and should clearly 
 
 It is better if your project is under-scoped and sure to complete; as opposed to a largeish project which may not get done.
 
-See the [[gsoc10|ideas list]] for project ideas.
+See the [[gsoc11|ideas list]] for project ideas.
 
 
 ~- This page is based on application templates for [[http://wiki.debian.org/SummerOfCode/StudentApplicationTemplate|Debian]] and [[http://wiki.x.org/wiki/GSoCApplication|X.Org]]. -~
