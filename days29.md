@@ -53,7 +53,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Volker Braun (geometry, software engineering)
  * Craig Citro (telling stories) -- one or two mornings, hopefully (lodging: his house)
  * John Cremona (number theory) -- March 20-26, 2011 (lodging: Warwick Hotel with his wife)
- * Alyson Deines (number theory)
+ * Alyson Deines (number theory) -- (lodging: her house)
  * Maarten Derickx (number theory, from Leiden, Holland) -- March 14-26, 2011. 
  * [[http://droettboom.com/|Michael Droettboom]] (scientific computing) -- confirmed
  * Brian Granger (Ipython developer)
