@@ -49,10 +49,10 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Ivan Andrus -- confirmed
  * Jennifer Balakrishnan (number theory) -- March 20-24, 2011
  * [[http://buzzard.ups.edu/|Rob Beezer]] (undergraduate teaching, linear algebra, combinatorics) -- March 20-25, 2011
- * Robert Bradshaw (number theory, Cython developer) -- local
+ * Robert Bradshaw (number theory, Cython developer) -- local (lodging: his house)
  * Volker Braun (geometry, software engineering)
- * Craig Citro (telling stories) -- one or two mornings, hopefully
- * John Cremona (number theory) -- March 20-26, 2011
+ * Craig Citro (telling stories) -- one or two mornings, hopefully (lodging: his house)
+ * John Cremona (number theory) -- March 20-26, 2011 (lodging: Warwick Hotel with his wife)
  * Alyson Deines (number theory)
  * Maarten Derickx (number theory, from Leiden, Holland) -- March 14-26, 2011. 
  * [[http://droettboom.com/|Michael Droettboom]] (scientific computing) -- confirmed
@@ -60,7 +60,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Chuck Harris  (numpy developer)
  * Radoslav Kirov (number theory, Singapore)
  * Thomas Kluyver (Ipython developer)
- * Alex Leone (notebook)
+ * Alex Leone (notebook) -- (lodging: his house)
  * Robert Miller (number theory)
  * Jarrod Millman (neuroimaging)
  * Moritz Minzlaff (Germany) -- March 20-25, 2011
@@ -71,8 +71,8 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Martin Raum (number theory, Bonn, Germany) -- March 20-27, 2011
  * David Roe (number theory)
  * Gagan Sekhon -- confirmed
- * Simon Spicer (number theory, University of Washington)
- * William Stein (number theory, Sage notebook, Univ of Washington) -- confirmed
+ * Simon Spicer (number theory, University of Washington) -- (lodging: his house)
+ * William Stein (number theory, Sage notebook, Univ of Washington) -- confirmed (lodging: my house)
  * Chris Swierczewski (theta functions/applied math, Univ of Washington) -- confirmed for "some days"
  * John Voight (number theory)
  * Justin Walker (number theory)
