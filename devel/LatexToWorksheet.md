@@ -100,7 +100,7 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
 
  * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/02/28)
    * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
-   * Live Sage code for three chapters (SLE, V, M), with some orthogonality results to add to M
+   * Live Sage code for first half of the book (Chapters SLE, V, M)
    * "Read-Only" - some content is temporarily missing, Sage commands use new unofficial patches for linear algebra, some formatting needs improvements
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip front matter sections, click on actual sections to bring up content
