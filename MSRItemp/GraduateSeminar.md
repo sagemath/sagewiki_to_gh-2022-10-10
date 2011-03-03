@@ -12,7 +12,7 @@ The current tentative schedule is below.
 || March 7th    || Jamie Weigandt || Emperical Evidence for an Arithmetic Analog of Nevanlinna's Five Value Theorem ||
 || March 14th       || Kevin Wilson         || Elliptic curves of arbitrarily large rank( Over Function Fields) ||
 || March 21st       ||  || ||
-|| March 28th       ||Gagan Sekhon ||Galois properties of points of finite order of an elliptic curve ||
+|| March 28th       || || ||
 || April 4th        ||  || ||
 || April 11th       || NO MEETING || Workshop ||
 || April 18th       ||  || ||
@@ -38,6 +38,4 @@ The current tentative schedule is below.
 
  . Abstract: Ulrich constructed a family of elliptic curves over function fields which (provably!) attain arbitrarily large rank. I'll go over his construction and the facts about function fields which make proving such statements "easier".
 
- * March 28th, Gagan Sekhon: "Galois properties of points of finite order of an elliptic curve"
- .
- . Abstract: I will be presenting a paper by Serre, which proves that the Galois group associated to points of finite order of an elliptic curve are "as big as possible". More concretely, given an elliptic curve E/K without complex multiplication, where K is a number field, the Galois representation associated to the action on p-torsion points of E is surjective for almost all but finitely many primes p.
+ 
