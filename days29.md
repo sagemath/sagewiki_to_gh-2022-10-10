@@ -77,7 +77,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * John Voight (number theory)
  * Justin Walker (number theory)
  * Mark Wiebe (Vancouver) -- March 20-26, 2011.
- * Jamie Wiegandt (number theory)
+ * Jamie Weigandt (number theory) -- March 20-26, 2011
  * James Pfeiffer (University of Washington) -- confirmed for Tue-Fri
 
 == Lodging ==
