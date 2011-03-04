@@ -4595,13 +4595,24 @@ myfuneralinsurance\.com\.au
 giftbasketsplus\.com
 lifeinsurance\.net\.au
 online-poker-spielen\.biz
-lowinterestcreditcards\.com
+lowinterestcreditcards\.com(\.au)?
 balancetransfercreditcards\.org
 cloudfront\.net
 dartsimaging\.com
-searchengineoptimizingworld\.com
+searchengineoptimi[zs](ing|ation)(world|australia)\.com(\.au)?
 webair\.com
 aext\.net
+njoyz\.com
+pokerenfrancais\.eu
+momswhothink\.com
+fortunebaby\.com
+blackpenguin\.net
+novatedleasedeals\.com\.au
+labradoodle-puppies-for-sale\.net
+allstartradingpins\.com
+lease-a-seo\.com
+offsidebet\.com
+
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
 ## MoinMoin >=1.6 has TextCHAs for spam prevention and they are currently very effective (no
