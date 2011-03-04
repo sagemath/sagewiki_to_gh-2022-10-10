@@ -2,21 +2,35 @@
 Sage-Combinat grants
 ====================
 
-This page lists some past and ongoing grant applications involving Sage-Combinat
+This page lists some past and ongoing grant applications involving Sage-Combinat.
+
+2010/03/03: CNRS/INS2I: PEPS
+----------------------------
+
+:Title: Sage-Combinat: fédérer et mutualiser le développement logiciel pour la recherche en combinatoire
+:Status: Submitted
+:Form: attachment__ (`sources <http://combinat.sagemath.org/hgwebdir.cgi/misc/file/tip/grants/2011-03-03-PEPS-Sage-Combinat/>`_)
+:Institutions: Marne-la-vallée, Montpellier, Marseille, Polytechnique, *Orsay*, Sophia Antipolis
+:PI: Nicolas M. Thiéry
+:Duration: 2 years
+:Funds for: 20k euros for Sage-Combinat days, developer meetings, travel money + a bit of hardware
+
+__ attachment:PEPS_Thiery_Nicolas.pdf
 
 Fall 2012: CIMPA Summer school in Bobo-Dioulasso, Burkina Faso
 --------------------------------------------------------------
 
-:Status: application sent
-:PI: Julien Cassaigne
+:Status: accepted
+:PI's: Julien Cassaigne, Idrissa Kaborei
 
 2010/12/15: NSF Computational Mathematics
 -----------------------------------------
 
 Note: everything below tentative
 
+:Status: postponed due to administrative glitch
 :Institutions: UC Davis, Pen, *Standford*, ...
-:PI's: Jason Bandlow, Dan Bump, Greg Musiker, Anne Schilling (Nicolas M. Thiéry)
+:PI's: Jason Bandlow, Dan Bump, Greg Musiker, Anne Schilling, ... (Nicolas M. Thiéry)
 :Duration: ???
 :Funds for:
  - Sage-Combinat days in UC Davis, Standford, ...
