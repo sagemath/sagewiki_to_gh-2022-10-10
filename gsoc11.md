@@ -1,8 +1,6 @@
-= Google Summer of Code 2010 =
+= Google Summer of Code 2011 =
 
 This is the main organization page for the [[http://socghop.appspot.com/|Google Summer of Code]] efforts of the [[http://www.sagemath.org|Sage]] project.
-
-'''Our proposal as a mentor organization was not accepted.'''
 
 <<TableOfContents(4)>>
 
@@ -19,7 +17,7 @@ Sage provides projects that might appeal to contributors with different interest
 
 '''If you're a student''' interested in working on any of the [[#projects|projects]] described below, note that these are mostly rough ideas. Feel free to ask questions or suggest other projects by writing to [[http://groups.google.com/group/sage-devel|sage-devel@googlegroups.com]]. Here is the [[gsoc/proposal_template|student application template]] we recommend students to use for their application.
 
-'''If you're a Sage developer''', please take some time to organize the list below and add more ideas. The [[gsoc10#notes|notes section]] contains some guidelines from the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs|GSOC FAQ]]. These projects should be doable with less than 3 months of full time work. Projects should generally have (copied from the [[http://community.kde.org/GSoC/2010/Ideas|KDE list]]):
+'''If you're a Sage developer''', please take some time to organize the list below and add more ideas. The [[gsoc10#notes|notes section]] contains some guidelines from the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2011/faqs|GSOC FAQ]]. These projects should be doable with less than 3 months of full time work. Projects should generally have (copied from the [[http://community.kde.org/GSoC/2010/Ideas|KDE list]]):
 	* a brief explanation
 	* the expected results
 	* pre-requisites for working on the project 
@@ -29,8 +27,7 @@ Sage provides projects that might appeal to contributors with different interest
 Here is the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2011/timeline|original timeline]]. Some highlights:
  * '''March 11:''' application deadline
  * '''March 18:''' accepted mentoring organizations announced
- * '''March 29 - April 9:''' student application window
- * ...
+ * '''April 8:''' student application deadline
 
 == Projects Ideas ==
 <<Anchor(projects)>>
