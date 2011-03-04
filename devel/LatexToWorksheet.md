@@ -71,6 +71,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10863]] || is_unitary() for matrices || with patch, dep. 10536 ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4932 | 4932]] || remove solve-left-LU || needs work ||  ||
