@@ -14,10 +14,11 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
- * January 17-19, 2011: [[http://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
-
+ * May 9-13, 2011: [[http://wiki.sagemath.org/days30| Sage Days 30]]: Combinatorics (Schubert calculus, cluster algebras) and Number theory (integer vectors, multidimensional digit representations) in Acadia University, Wolfville, Nova Scotia, Canada 
 
 == Past news ==
+
+ * January 17-19, 2011: [[http://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
 
  * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
    A 315 pages free french introductory book on computational mathematics, illustrated in Sage, and including a 35 pages chapter on combinatorics (and soon one on graph theory).
