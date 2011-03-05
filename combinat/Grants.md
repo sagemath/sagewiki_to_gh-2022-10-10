@@ -4,6 +4,15 @@ Sage-Combinat grants
 
 This page lists some past and ongoing grant applications involving Sage-Combinat.
 
+2010/03/05: CNRS/INS2I: PEPS
+----------------------------
+
+:Title: Catalan Combinatorics in Root Systems, Reflection Groups, and Cluster Algebras
+:Status: In preparation
+:PI: Christian Stump
+:Duration: 5 years
+:Funds for: research project in Algebraic and Geometric Combinatorics, including Sage implementations, joint projects, and visits
+
 2010/03/03: CNRS/INS2I: PEPS
 ----------------------------
 
