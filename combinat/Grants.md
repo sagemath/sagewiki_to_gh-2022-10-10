@@ -5,7 +5,7 @@ Sage-Combinat grants
 This page lists some past and ongoing grant applications involving Sage-Combinat.
 
 2010/03/05: Emmy Noether program, Deutsche Forschungsgemeinschaft
-----------------------------
+----------------------------------------------------------------------------------------------
 
 :Title: Catalan Combinatorics in Root Systems, Reflection Groups, and Cluster Algebras
 :Status: In preparation
