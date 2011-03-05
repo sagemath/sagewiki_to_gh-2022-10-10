@@ -6,7 +6,7 @@ For more information on how to actually install Sage, please refer to the [[http
 
 == Operating System ==
 
-The first thing you have to know is your [[http://en.wikipedia.org/wiki/Operating_System|operating system]]. Is it Windows, Linux, Mac OS X, Solaris, FreeBDS, etc. The second most important thing, if applicable, is your type of [[http://en.wikipedia.org/wiki/CPU|CPU]]: is it a 32-bit CPU, a 64-bit CPU, or something else like "atom" for some netbooks? On Linux, you can use the command
+The first thing you have to know is your [[http://en.wikipedia.org/wiki/Operating_System|operating system]]. Is it Windows, Linux, Mac OS X, Solaris, FreeBSD, etc. The second most important thing, if applicable, is your type of [[http://en.wikipedia.org/wiki/CPU|CPU]]: is it a 32-bit CPU, a 64-bit CPU, or something else like "atom" for some netbooks? On Linux, you can use the command
 {{{
 uname -a
 }}}
@@ -39,7 +39,7 @@ http://www.stata.com/support/faqs/win/64bit.html
 
  1. [[http://en.wikipedia.org/wiki/Linux|Linux]] -- There are several Linux distributions and each binary we provide has been especially built for that distribution. Before each release, Sage is tested on the following Linux distributions: [[http://www.centos.org|CentOS]], [[http://www.debian.org|Debian]], [[http://www.fedoraproject.org|Fedora]], [[http://www.opensuse.org|openSUSE]], and [[http://www.ubuntu.com|Ubuntu]]. Binaries are available for 32-bit and 64-bit versions of Linux, so it might be helpful to know if your CPU is a 32-bit CPU or a 64-bit CPU. For Linux systems, you can use one of the provided binaries. You can also download a source distribution of Sage and compile Sage using that distribution.
 
- 1. [[http://en.wikipedia.org/wiki/Mac_os_x|Mac OS X]] -- Sage is often tested on OS X 10.5.x. It is possible to run Sage on OS X 10.4.x without problems. For Mac OS X, you need to know your processor type (whether it is Intel or PowerPC) and if your CPU is 32-bit or 64-bit. If you want to compile a source distribution of Sage, you should first make sure that your system has the relevant software development tools, including Xcode.
+ 1. [[http://en.wikipedia.org/wiki/Mac_os_x|Mac OS X]] -- Sage is largely developed on OS X 10.6.x, and often tested on OS X 10.5.x. It is possible to run Sage on OS X 10.4.x without problems. For Mac OS X, you need to know your processor type (whether it is Intel or PowerPC) and if your CPU is 32-bit or 64-bit. If you want to compile a source distribution of Sage, you should first make sure that your system has the relevant software development tools, including Xcode.
 
 == Selection ==
 
