@@ -17,7 +17,7 @@
 
  * [[http://igm.univ-mlv.fr/~hivert/index.html|Florent Hivert]]
  * [[http://thales.math.uqam.ca/~saliola/index.html|Franco Saliola]]
- * [[http://www.math.ucdavis.ed/~anne|Anne Schilling]]
+ * [[http://www.math.ucdavis.edu/~anne|Anne Schilling]]
  * [[http://www.nicolas.thiery.name|Nicolas Thiéry]]
 
 == Registration ==
