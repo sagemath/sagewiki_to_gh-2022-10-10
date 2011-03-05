@@ -4612,6 +4612,7 @@ labradoodle-puppies-for-sale\.net
 allstartradingpins\.com
 lease-a-seo\.com
 offsidebet\.com
+ukppiclaims\.org
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
