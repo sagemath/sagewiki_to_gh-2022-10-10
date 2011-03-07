@@ -16,6 +16,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
  * Jason Grout (Drake University)
  * Marja-Liisa Hassi (University of Colorado)
+ * [[http://math.jasonbhill.com|Jason B. Hill]] (University of Colorado)
  * Tom Judson (Stephen F. Austin State University)
  * Jane Long (Stephen F. Austin State University)
  * David Perkinson (Reed College)
