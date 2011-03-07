@@ -59,7 +59,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Brian Granger (Ipython developer)
  * Chuck Harris  (numpy developer)
  * Radoslav Kirov (number theory, Singapore)
- * Thomas Kluyver (Ipython developer)
+ * Thomas Kluyver (Ipython developer) -- March 19-26
  * Alex Leone (notebook) -- (lodging: his house)
  * Robert Miller (number theory)
  * Jarrod Millman (neuroimaging)
