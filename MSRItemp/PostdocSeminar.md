@@ -25,9 +25,9 @@ everyone is welcome to attend.
 || February 7th     || Andrew Yang           || Low-Lying zeros of Dedekind zeta functions ||
 || February 14th    || Gonzalo Tornaría      || The Brandt module of ternary quadratic forms ||
 || February 21st    || NO MEETING            || Washington's Birthday||
-|| February 28th    || Sonal Jain            || ||
-|| March 7th        || Fredrik Stroemberg    || ||
-|| March 14th       || Robert Miller         || The fake Selmer set ||
+|| February 28th    || Sonal Jain            || Heuristics for $\lambda$ invariants||
+|| March 7th        || Fredrik Stroemberg    || Newforms and multiplicities on $\Gamma_0(N)$||
+|| March 14th       || Robert Miller         || Enumerating Data in the presence of symmetry ||
 || March 21st       || Rob Rhoades || ||
 || March 28th       ||Karl Mahlburg || ||
 || April 4th        || Brooke Feigon || ||
