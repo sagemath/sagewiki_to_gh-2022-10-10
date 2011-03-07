@@ -43,7 +43,7 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 
  * June 16, 17 and 18 are expected to be full days.  So plan to travel on June 15 and June 19.
 
- * Lodging will likely be arranged at the Collegiana Inn neat the UW campus.  Details later.
+ * Lodging will likely be arranged at the Collegiana Inn near the UW campus.  Details later.
 
 <<Anchor(schedule)>>
 == Schedule ==
