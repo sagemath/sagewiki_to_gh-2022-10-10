@@ -41,6 +41,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
    * Jan. 26 - Xinyi Yuan (Columbia University) - the Gross--Zagier formula and its generalizations
    * Feb. 9 - Robert Miller (MSRI) - Proving the Birch and Swinnerton-Dyer conjecture
    * Feb. 23 - Sonal Jain (MSRI) - On the minimum canonical height for an elliptic curve over C(t)
+   * March. 9 - George Schaeffer, UC Berkeley - The Hecke stability method and isogeny graphs 
  * Thursdays 4:10pm - 60 Evans - Colloquium
    * Jan. 27 - Vladimir Rokhlin (Yale University) - DiPerna Memorial Lecture: "A Randomized Approximate Nearest Neighbors Algorithm"
    . http://math.berkeley.edu/index.php?module=announce&ANN_user_op=view&ANN_id=187
