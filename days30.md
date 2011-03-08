@@ -24,6 +24,18 @@
 
 To register, please contact Eva Curry <eva.curry@acadiau.ca>
 
+== Travel Information ==
+
+The nearest airport is [[http://http://www.hiaa.ca/|Halifax Stanfield International Airport]], which is approximately an hour's drive from the town of Wolfville and Acadia University.  Please contact Eva Curry <eva.curry@acadiau.ca> to coordinate ride sharing between the airport and Wolfville.
+
+[[http://math.acadiau.ca/cnta-xi/travel2.html|Additional travel information]] (courtesy of last summer's CNTA XI conference), including bus, taxi, rail, and driving directions.
+
+== Lodging in Wolfville ==
+
+Within walking distance of Acadia University, there are a number of bed and breakfasts.  There are some hotel options within a short driving distance, as well.  Here are some listings from [[http://www.staynovascotia.ca/wolfville_54.php|Stay Nova Scotia]] and [[http://www.tripadvisor.com/Hotels-g154969-Wolfville_Nova_Scotia-Hotels.html|tripadvisor.com]].  Note: Acadia's Convocation is Sunday and Monday, May 15 and 16, thus most nearby rooms will be booked beginning the evening of Saturday, May 14.
+
+Lodging in dorm rooms at Acadia University will also be available.  Please check back later for more information.
+
 == Organizers ==
 
  * [[http://math.acadiau.ca/curry/|Eva Curry]], <eva.curry@acadiau.ca>
