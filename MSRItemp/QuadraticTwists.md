@@ -1,7 +1,7 @@
 == Quadratic twists of elliptic curves: 2-Selmer ranks ==
 
  * chair: Jamie Weigandt
- * times: Fridays 11-12
+ * times: Tuesdays 2-3
  * Reading list:
    * MR1292115 (95h:11064) Heath-Brown, D. R. The size of Selmer groups for the congruent number problem. II. With an appendix by P. Monsky. Invent. Math. 118 (1994), no. 2, 331–370.
    * MR2464773 (2010d:11059) Swinnerton-Dyer, Peter. The effect of twisting on the 2-Selmer group. Math. Proc. Cambridge Philos. Soc. 145 (2008), no. 3, 513–526.
