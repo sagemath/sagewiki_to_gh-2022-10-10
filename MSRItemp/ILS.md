@@ -39,7 +39,7 @@ of ratios of products of shifted L-functions. We present an application by deriv
 
  * 9th March: Kaneenika Sinha in Baker boardroom, Title: Analytic rank of $J_0(q)$ 
 
-   Abstract: We will survey different methods of finding explicit upper bounds for the analytic rank of the Jacobian of the modular curve $X_0(N),$ based on the independent papers of Brumer, Murty, Iwaniec-Luo-Sarnak and Michel-Kowalski.
+   Abstract: We will survey different methods of finding explicit upper bounds for the analytic rank of the Jacobian of the modular curve $X_0(N).$  The papers of Brumer, Murty, Iwaniec-Luo-Sarnak and Michel-Kowalski address this important question.  To begin with, we will focus on the papers of Brumer and Murty which assume the Riemann hypothesis for L-functions of newforms. 
 
  * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, 2000.
     [[attachment:Iwaniec-Luo-Sarnak.pdf]]
