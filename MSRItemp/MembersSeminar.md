@@ -9,7 +9,7 @@ The current tentative schedule is below.
 || February 17th    ||         ||  ||
 || February 24th    ||            || ||
 || March 3rd        ||     || ||
-|| March 10th       ||           ||  ||
+|| March 10th       ||  Henri Cohen         || "Fun talk on high-precision computation of number theoretical constants" ||
 || March 17th       ||  || ||
 || March 24th       ||  ||  ||
 || March 31st       ||  ||  ||
