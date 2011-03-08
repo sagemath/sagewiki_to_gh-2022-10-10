@@ -32,6 +32,15 @@
 
     If there is time, I will describe work in progress with Charles Li in which we use the simple supercuspidal representations discovered recently by Gross and Reeder to spectrally isolate newforms (holomorphic or Maass) of level N^3, where N is square-free.  One consequence is a simple Petersson formula for such newforms.
 
+ * 2nd March: Duc Khiem Huynh in Simons Auditorium, Title: Lower order terms for the one-level density of elliptic curve L-functions
+
+   Abstract: The L-function ratios conjectures - motivated by analogous random matrix theorems - give precise predictions for averages over families
+of ratios of products of shifted L-functions. We present an application by deriving lower order terms for the one-level density of elliptic curve L-functions. We discuss how these terms together with other arithmetical information can model elliptic curve L-functions in terms of random matrices.
+
+ * 9th March: Kaneenika Sinha in Baker boardroom, Title: Analytic rank of $J_0(q)$ 
+
+   Abstract: We will survey different methods of finding explicit upper bounds for the analytic rank of the Jacobian of the modular curve, based on the independent papers of Brumer, Murty, Iwaniec-Luo-Sarnak and Michel-Kowalski.
+
  * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, 2000.
     [[attachment:Iwaniec-Luo-Sarnak.pdf]]
  * there is also a study guide and reading list by Steven Miller, at Williams: http://www.williams.edu/go/math/sjmiller/public_html/ntandrmt/
