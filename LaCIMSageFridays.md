@@ -35,12 +35,25 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
 
-== Vendredi suivant : 25 février 2011 ==
+== Vendredi suivant : 11 mars 2011 ==
 
-  * Suggestions ?
-
+à venir
 
 == Vendredi précédents ==
+
+=== 25 février 2011 ===
+
+  * Samuel
+      * tmux
+ 
+  * Franco
+      * screen
+      * scroogle
+      * surfraw
+      * vmail
+
+  * Alexandre Blondin Massé
+      * wordpress
 
 === 18 février 2011 ===
 
