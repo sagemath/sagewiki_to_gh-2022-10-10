@@ -46,10 +46,12 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10604|10604]] || diagonal matrix constructor rewrite || 4.6.2.alpha4 || Joint with: Dan Drake ||
 || [[http://trac.sagemath.org/sage_trac/ticket/9796 | 9796]] || diagonal elements of a matrix ||  4.6.2.rc0 || Tom Coates ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10714|10714]] || rows/columns of sparse matrices with zero rows/columns || 4.6.2.rc0 || Jason Grout ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10568|10568]] || speed-up scalar multiples of sparse matrices || 4.7.alpha1 || Author: Maarten Derickx ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || positive review || Alain Filbois ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10568|10568]] || speed-up scalar multiples of sparse matrices || positive review || Author: Maarten Derickx ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10536|10536]] || vector conjugation || positive review || Felix Lawrence ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10763|10763]] || matrix multiplication speedup || positive review || Author: Simon King ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
@@ -57,11 +59,9 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || with patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10536|10536]] || vector conjugation || with patch, dep. 10537 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || with patch, dep. 10541 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || with patches, dep. 10536, 10541 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || with patch, dep. 10543 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches, dep. 10714 ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || with patches, dep. 10536 ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || with patches, needs info ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10794|10794]] || QR matrix decomposition over exact rings || with patch, dep. 10536, 10683 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patch, dep. 10536, 10683, 10794 ||  ||
@@ -89,10 +89,11 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/7555 | 7555]] || Cayley tables, operation tables || 4.4.alpha0 || Nicolas M. Thiery, Jason Grout  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10685|10685]] || all subgroups of a permutation group || 4.6.2.alpha4 || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10722|10722]] || all cosets of a permutation group || 4.6.2.alpha4 || Dima Pasechnik ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10871|10871]] || intersections of permutation groups || positive review || Dima Pasechnik ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/9773 | 9773]] || finitely-generated abelian groups || needs work ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10871|10871]] || intersections of permutation groups || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10911|10911]] || inverse of permutation group elements || with patch ||  ||
 
 == Examples ==
 
