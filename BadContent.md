@@ -4613,6 +4613,9 @@ allstartradingpins\.com
 lease-a-seo\.com
 offsidebet\.com
 ukppiclaims\.org
+learners\.in\.th
+orbitfm\.com
+thekoeniggroup\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
