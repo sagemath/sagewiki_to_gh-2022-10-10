@@ -10,7 +10,7 @@ The current tentative schedule is below.
 || February 24th    ||            || ||
 || March 3rd        ||     || ||
 || March 10th       ||  Henri Cohen         || "Fun talk on high-precision computation of number theoretical constants" ||
-|| March 17th       ||  || ||
+|| March 17th       || Haluk Sengun ||Cohomology of Bianchi groups and arithmetic ||
 || March 24th       ||  ||  ||
 || March 31st       ||  ||  ||
 || April 7th        ||  || ||
