@@ -95,4 +95,5 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  ||||||||<tablestyle="width: 80%">'''Week 8: 28 February-4 March''' ||
  || Wed. 2 || 1:30-2:30 || Baker room || Duc Khiem Huynh - Lower order terms for the one-level density of elliptic curve L-functions: (low lying zeros group) ||
  || Thu. 3 || 11-12 || Simons || Kumar Murty - Title: The field of Fourier coefficients of a modular form. (members' seminar) ||
+ || Thu. 10 || 11-12 || Simons || Henri Cohen - Fun talk on high precision computation of number theoretical constants [[attachment:cohen_high_precision.pdf]] ||
  || Thu. 17 || 11-12 || Simons || Haluk Sengun - Cohomology of Bianchi Groups and Arithmetic ||
