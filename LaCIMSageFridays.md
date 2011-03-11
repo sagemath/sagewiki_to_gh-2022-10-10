@@ -35,11 +35,27 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
 
-== Vendredi suivant : 11 mars 2011 ==
+== Vendredi suivant : 18 mars 2011 ==
 
 à venir
 
 == Vendredi précédents ==
+
+=== 11 mars 2011 ===
+
+  * Samuel
+      * Mailx
+      * MUTT
+      * CRON
+ 
+  * Jérôme
+      * Sélection en rectangle sur Mac OS X avec la touche ALT
+      * Aquamacs et Sage Mode
+      * Tikz externalize
+
+  * Sébastien
+      * Review tickets
+
 
 === 25 février 2011 ===
 
