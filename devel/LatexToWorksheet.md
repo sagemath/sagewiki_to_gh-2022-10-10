@@ -94,8 +94,9 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10911|10911]] || inverse of permutation group elements || positive review || Robert Bradshaw ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/9773 | 9773]] || finitely-generated abelian groups || needs work ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10920|10920]] || conjugates of permutation groups || needs review ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10921|10921]] || commutator subgroup for permutation groups || needs review ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/9773 | 9773]] || finitely-generated abelian groups || needs work ||  ||
 
 == Examples ==
 
