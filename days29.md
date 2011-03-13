@@ -58,7 +58,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * [[http://droettboom.com/|Michael Droettboom]] (scientific computing) -- confirmed
  * Brian Granger (Ipython developer)
  * Chuck Harris  (numpy developer)
- * Radoslav Kirov (number theory, Singapore)
+ * Radoslav Kirov (number theory, notebook) -- March 18-26 (need lodging for 21-26)
  * Thomas Kluyver (Ipython developer) -- March 19-26
  * Alex Leone (notebook) -- (lodging: his house)
  * Robert Miller (number theory)
