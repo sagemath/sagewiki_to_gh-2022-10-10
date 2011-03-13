@@ -75,7 +75,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * William Stein (number theory, Sage notebook, Univ of Washington) -- confirmed (lodging: my house)
  * Chris Swierczewski (theta functions/applied math, Univ of Washington) -- confirmed for "some days"
  * John Voight (number theory)
- * Justin Walker (number theory)
+ * Justin Walker (number theory) -- March 20-26, 2011
  * Mark Wiebe (Vancouver) -- March 20-26, 2011.
  * Jamie Weigandt (number theory) -- March 20-26, 2011
  * James Pfeiffer (University of Washington) -- confirmed for Tue-Fri
