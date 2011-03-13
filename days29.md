@@ -68,7 +68,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Min Ragan-Kelley (ipython developer)
  * Robert Kern  (numpy developer)
  * Fernando Perez (Ipython developer, neuroimaging) -- March 22-25, 2011
- * Martin Raum (number theory, Bonn, Germany) -- March 20-27, 2011
+ * [[http://people.mpim-bonn.mpg.de/mraum/en/|Martin Raum]] (number theory, Bonn, Germany) -- March 20-27, 2011
  * David Roe (number theory) -- cancelled 
  * Gagan Sekhon -- confirmed
  * Simon Spicer (number theory, University of Washington) -- (lodging: his house)
