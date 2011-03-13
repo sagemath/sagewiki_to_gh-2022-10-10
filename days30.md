@@ -11,7 +11,7 @@
 
 == Dates ==
 
- May 9-13, 2011
+ --(May 9-13, 2011)-- Probably May 2-6, 2011.  Watch this space for further updates!
 
 == Invited Speakers ==
 
