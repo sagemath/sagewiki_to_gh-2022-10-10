@@ -2,7 +2,7 @@
 ## For more information, please see MoinMoin:MoinDev/Translation.
 ##master-page:Unknown-Page
 ##master-date:Unknown-Date
-#acl All:read
+#acl All:read,write
 #format plain
 #language en
 ([\w\-_.]+\.)?(l(so|os)tr)\.[a-z]{2,}
@@ -4616,6 +4616,8 @@ ukppiclaims\.org
 learners\.in\.th
 orbitfm\.com
 thekoeniggroup\.com
+forexinsider\.co\.uk
+
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
