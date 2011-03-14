@@ -1,5 +1,7 @@
 = Participants of Sage Days 29 With Dates and Lodging =
 
+This is about loding for [[days29|Sage Days 29]].
+
 ||Ivan Andrus||Collegiana 212||March 20-27||
 ||Jennifer Balakrishnan||Collegiana 310||March 20-24||
 ||Rob Beezer||Collegiana 202||March 20-25||
