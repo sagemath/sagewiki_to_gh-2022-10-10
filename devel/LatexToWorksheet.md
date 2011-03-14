@@ -92,12 +92,11 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10722|10722]] || all cosets of a permutation group || 4.6.2.alpha4 || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10871|10871]] || intersections of permutation groups || positive review || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10911|10911]] || inverse of permutation group elements || positive review || Robert Bradshaw ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10920|10920]] || conjugates of permutation groups || positive review, dep. 10871 || Dima Pasechnik ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10920|10920]] || conjugates of permutation groups || needs review, dep. 10871 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10921|10921]] || commutator subgroup for permutation groups || needs review ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/9773 | 9773]] || finitely-generated abelian groups || needs work ||  ||
-
 == Examples ==
 
 To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.  Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
