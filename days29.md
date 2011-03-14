@@ -23,7 +23,7 @@
 
  * We have [[http://www.css.washington.edu/room/PCAR+293|PACCAR HALL 293]] reserved 7am - 9pm every day March 21 - 25.  This room is in this [[http://www.foster.washington.edu/about/Pages/paccarhall.aspx|beautiful building]].
 
- * LODGING: Many participants will be staying at the "UWMC Collegiana Hospitality House" ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved 12 big rooms.  See [[attachment:collegiana_directions.pdf]] for more information about getting to the Collegiana.
+ * LODGING: Many participants will be staying at the "UWMC Collegiana Hospitality House" (4311 12th Ave. N.E., Seattle)  ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved 12 big rooms.  See [[attachment:collegiana_directions.pdf]] for more information about getting to the Collegiana.
 
 == Schedule ==
 
