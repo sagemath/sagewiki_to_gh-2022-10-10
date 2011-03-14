@@ -23,6 +23,8 @@
 
  * LODGING: Many participants will be staying at the "UWMC Collegiana Hospitality House" (4311 12th Ave. N.E., Seattle)  ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved several rooms.  See [[attachment:collegiana_directions.pdf]] for more information about getting to the Collegiana.
 
+ * [[/lodging|Lodging Details]]
+
 
 == Schedule ==
 
