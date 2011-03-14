@@ -61,6 +61,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Samuel
       * tmux
+      * Dynamic window manager on Mac OS X : http://harry.vangberg.name/post/470505660/dwm-on-mac-os-x
  
   * Franco
       * screen
