@@ -64,7 +64,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Alex Leone (notebook) -- (lodging: his house)
  * Robert Miller (number theory)
  * Jarrod Millman (neuroimaging)
- * Moritz Minzlaff (Germany) -- March 20-25, 2011
+ * Moritz Minzlaff (number theory, TU Berlin) -- March 20-25, 2011
  * Travis Oliphant (numpy developer)
  * Min Ragan-Kelley (ipython developer)
  * Robert Kern  (numpy developer)
