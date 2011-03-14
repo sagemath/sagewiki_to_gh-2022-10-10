@@ -49,6 +49,8 @@
 
 The participants are an exciting mix of pure and applied mathematicians and scientists.  Those with listed dates are confirmed; those without dates are in some cases still tentative (though very likely). 
 
+[[/lodging|This page]] has more precise details about exactly who and when people will '''really''' be here.
+
  1. Ivan Andrus (Mac App, group theory, Central European Univ.) -- March 20-27
  * Jennifer Balakrishnan (number theory) -- March 20-24, 2011
  * [[http://buzzard.ups.edu/|Rob Beezer]] (undergraduate teaching, linear algebra, combinatorics) -- March 20-25, 2011
