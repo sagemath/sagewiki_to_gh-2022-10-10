@@ -30,6 +30,6 @@ This is about lodging for [[days29|Sage Days 29]].
 ||Simon Spicer||local||-||
 ||William Stein||local||-||
 ||Chris Swierczewski||local||-||
-||Justin Walker||Hotel (?)||March 20-26||
+||Justin Walker||Hotel (University Inn)||March 20-26||
 ||Mark Wiebe||Hotel||March 20-26||
 ||Jamie Weigandt||Collegiana 311||March 20-26||
