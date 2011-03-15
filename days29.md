@@ -28,17 +28,17 @@
 
 == Schedule ==
 
-||Monday March 21, 9am-10am||Colloquium Talk: John Cremona (number theory)||
+||Monday March 21, 9am-10am||Colloquium Talk: John Cremona (Number Theory Software)||
 ||Monday March 21, 10am-12pm||Participant introductions and coding sprint organization||
 ||Monday March 21, 1pm-9pm||Coding Sprints||
 ||Tuesday March 22, 9am-10am||Colloquium Talk: Robert Bradshaw (Cython)||
 ||Tuesday March 22, 10am-11:30am||Status reports||
 ||Tuesday March 22, 11am-12pm||Talk||
 ||Tuesday March 22, 1pm-9pm||Coding Sprints||
-||Wednesday March 23, 9am-10am||Colloquium Talk: TBA||
+||Wednesday March 23, 9am-10am||Colloquium Talk: Rado Kirov (The Sage Notebook)||
 ||Wednesday March 23, 10am-11:30am||Status reports||
 ||Wednesday March 23, 1pm-9pm||Coding Sprints||
-||Thursday March 24, 9am-10am||Colloquium Talk: Fernando Perez (scientific computing)||
+||Thursday March 24, 9am-10am||Colloquium Talk: Fernando Perez (Scientific Computing using Python)||
 ||Thursday March 24, 10am-11:30am||Status reports||
 ||Thursday March 24, 1pm-9pm||Coding Sprints||
 ||Friday March 25, 10am-12:30pm||Status reports and demos||
