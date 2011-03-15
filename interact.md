@@ -17,6 +17,7 @@ This is a collection of pages demonstrating the use of [[http://sagemath.org/doc
  * [[interact/misc|Miscellaneous]]
  * [[interact/number_theory|Number Theory]]
  * [[interact/stats|Statistics/Probability]]
+ * [[interact/topology|Topology]]
  * [[interact/web|Web Applications]]
 
 == Explanatory example: Taylor Series ==
