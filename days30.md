@@ -11,10 +11,12 @@
 
 == Dates ==
 
- --(May 9-13, 2011)-- Probably May 2-6, 2011.  Watch this space for further updates!
+ May 2-6, 2011.  '''''NOTE THE NEW DATES!'''''
 
 == Invited Speakers ==
 
+ * [[http://www.math.upenn.edu/~jbandlow/|Jason Bandlow]]
+ * [[http:www.math.rutgers.edu/~asbuch/|Anders Buch]] ''(to be confirmed)''
  * [[http://igm.univ-mlv.fr/~hivert/index.html|Florent Hivert]]
  * [[http://thales.math.uqam.ca/~saliola/index.html|Franco Saliola]]
  * [[http://www.math.ucdavis.edu/~anne|Anne Schilling]]
