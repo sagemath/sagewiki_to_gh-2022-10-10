@@ -4,7 +4,7 @@ goto [[interact|interact main page]]
 <<TableOfContents>>
 
 == Winding number of a plane curve ==
-by Pablo Angulo. Computes winding number as an integral, and also as a intersection number with a half line through the origin.
+by Pablo Angulo. Computes winding number (with respect to the origin!) as an integral, and also as a intersection number with a half line through the origin.
 
 {{{
 var('t')
@@ -70,7 +70,8 @@ def _(x = cos(4*pi*t), y = 1 + sin(2*pi*t) + sin(4*pi*t),
     print 'Winding number = (# of red points) - (# of green points): ', wn
 
     p = (parametric_plot((x,y),(t,0,1)) +
-         arrow((x(0),y(0)), (x(0) + xp1(0), y(0) + yp1(0))) )
+         arrow((x(0),y(0)), (x(0) + xp1(0), y(0) + yp1(0))) +
+         point2d([(0,0)], color = 'black', pointsize = 70))
     if left2right:
         p += point2d(left2right , color = 'green', pointsize = 50)
     if right2left:
