@@ -33,4 +33,4 @@ Here is the [[http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2
 <<Anchor(projects)>>
 All #numbers below refer to [[http://trac.sagemath.org|trac tickets]]. 
 
-=== Notebook ===
+[[http://docs.google.com/document/pub?id=1v91UmkDvgEInzPFT_g0osid5g69oKKmyx0NclwcyqI4]]
