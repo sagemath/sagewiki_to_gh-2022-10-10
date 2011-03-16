@@ -50,6 +50,7 @@ Some tickets below that are available for review can be seen building and passin
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || positive review || Alain Filbois ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10536|10536]] || vector conjugation || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10763|10763]] || matrix multiplication speedup || positive review || Author: Simon King ||
@@ -58,7 +59,6 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || with patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || with patches, dep. 10536 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches ||  ||
@@ -72,6 +72,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10863]] || is_unitary() for matrices || with patch, dep. 10536 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4932 | 4932]] || remove solve-left-LU || needs work ||  ||
@@ -87,16 +88,18 @@ Some tickets below that are available for review can be seen building and passin
 
 ||<rowstyle="background-color: #E0E0FF;"> Ticket ||  Description || Status || Acknowledgements ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7244 | 7244]] || dicyclic groups || 4.2.1.alpha0 || David Joyner  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/7305 | 7305]] || Higman-Sims graph || 4.2.1.rc0 || Nathann Cohen  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7555 | 7555]] || Cayley tables, operation tables || 4.4.alpha0 || Nicolas M. Thiery, Jason Grout  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10685|10685]] || all subgroups of a permutation group || 4.6.2.alpha4 || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10722|10722]] || all cosets of a permutation group || 4.6.2.alpha4 || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10871|10871]] || intersections of permutation groups || positive review || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10911|10911]] || inverse of permutation group elements || positive review || Robert Bradshaw ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10920|10920]] || conjugates of permutation groups || positive review, dep. 10871 || Dima Pasechnik ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10921|10921]] || commutator subgroup for permutation groups || positive review || Dima Pasechnik, David Joyner ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10921|10921]] || commutator subgroup for permutation groups || needs review ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/9773 | 9773]] || finitely-generated abelian groups || needs work ||  ||
+
 == Examples ==
 
 To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.  Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
