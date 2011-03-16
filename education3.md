@@ -20,6 +20,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * Tom Judson (Stephen F. Austin State University)
  * Jane Long (Stephen F. Austin State University)
  * David Perkinson (Reed College)
+ * Wai Yan Pong (California State University, Dominguez Hills)
  * Rao Potluri (Reed College)
  * William Stein (University of Washington)
 
