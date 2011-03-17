@@ -36,7 +36,7 @@ everyone is welcome to attend.
 || April 25th       || Kaneenika Sinha || ||
 || May 2nd          || Alina Bucur || ||
 || May 9th          || Ghaith Hiary || ||
-|| May 16th         || || ||
+|| May 16th         || Rishikesh || ||
 
 
 == Abstracts ==
