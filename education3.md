@@ -23,6 +23,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * Wai Yan Pong (California State University, Dominguez Hills)
  * Rao Potluri (Reed College)
  * William Stein (University of Washington)
+ * DanDrake (KAIST; tentative)
 
 == Mailing Lists ==
 
