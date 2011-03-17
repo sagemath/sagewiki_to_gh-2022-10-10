@@ -12,9 +12,9 @@ This is about lodging for [[days29|Sage Days 29]].
 ||Alyson Deines||local||-||
 ||Maarten Derickx||Collegiana 304||March 14-26||
 ||Michael Droettboom||Hotel (?)||March 20-24||
-||Jason Grout||Hotel (?)||March 23-26||
+||Jason Grout||Collegiana XXX||March 23-26||
 ||Chuck Harris||Hotel (?)|| ?||
-||Ira Hanson||Hotel (?)||March 23-26||
+||Ira Hanson||Collegiana XXX||March 23-26||
 ||Paul Ivanov||Collegiana 212||March 20-26||
 ||Keshav Kini||Collegiana 311||March 20-26||
 ||Radoslav Kirov||Collegiana 202||March 21-26||
