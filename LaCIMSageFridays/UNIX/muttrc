@@ -1,0 +1,13 @@
+set folder=imaps://USER@imap.gmail.com
+set spoolfile=+INBOX
+mailboxes imaps://imap.gmail.com/INBOX 
+#set editor=emacsclient
+#set pager=emacsclient
+
+
+set smtp_url = "smtp://USER@smtp.gmail.com:587/"
+set smtp_pass = "XXXXXXXXXXXXX"
+set from = "USER@gmail.com"
+set realname = "xxxxxxxxxxxxxxxx xxxxxxxxxxxx"
+
+
