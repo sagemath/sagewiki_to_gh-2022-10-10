@@ -51,6 +51,8 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
    . Ken Ribet will be organizing a dinner after the talk.
    * Mar. 3 - Keith Conrad - Why do we care about the Riemann Hypothesis?
    . http://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=40497
+   * Mar. 17 - Vaughan Jones - Random matrices, von Neumann algebras and (2+1)-dimensional topological quantum field theories
+   . http://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=41811
  * Faculty Club wine dinner, Feb. 25
  * [[http://people.ucsc.edu/~sdasgup2/BAANTAG2.html|Bay Area Algebraic Number Theory and Arithmetic Geometry Day]], April 2
 
