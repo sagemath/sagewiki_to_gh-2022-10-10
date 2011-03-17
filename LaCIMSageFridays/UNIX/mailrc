@@ -1,0 +1,19 @@
+
+# Pour envoyer des messages via mail avec gmail-smtp
+#set nss-config-dir=$HOME/.mozilla/firefox/xxxxxxx.default
+set ssl-verify=ignore
+
+
+set smtp-use-starttls
+set smtp=smtp://smtp.gmail.com:587
+set smtp-auth=login
+set smtp-auth-user=USER@gmail.com
+set smtp-auth-password=PASSWORD
+set from="USER@gmail.com (PRENOM NOM)"
+
+
+    account gmail {
+       set folder=imaps://USER@imap.gmail.com
+       set record=+Sent MBOX=+mbox outfolder
+   }
+
