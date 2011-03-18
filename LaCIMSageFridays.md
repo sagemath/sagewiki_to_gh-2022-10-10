@@ -53,21 +53,11 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 {{{
 # This File is : ~/.inputrc
-# Copied from a section of the file .sage/ipython/ipythonrc
-# This solution doesn't work in vi mode
-#
-# Bindings for completing the current line in the history of previous
-# commands. This allows you to recall any previous command by typing its first
-# few letters and hitting Control-p, bypassing all intermediate commands which
-# may be in the history (much faster than hitting up-arrow 50 times!)
-"\C-p": history-search-backward
-"\C-n": history-search-forward
+set editing-mode vi
+set keymap vi-insert
 
-# I also like to have the same functionality on the plain arrow keys. If you'd
-# rather have the arrows use all the history (and not just match what you've
-# typed so far), comment out or delete the next two lines.
-"\e[A": history-search-backward
-"\e[B": history-search-forward
+"\e[A": history-search-backward  # up-arrow
+"\e[B": history-search-forward   # down-arrow
 }}}
 
 === 11 mars 2011 ===
