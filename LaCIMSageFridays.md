@@ -45,7 +45,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Franco
       * Another solution for tiling terminals : conque extension for vim : http://www.vim.org/scripts/script.php?script_id=2771
-      * pour faire en sorte que le terminal se comporte comme sage pour les flèches HAUT et BAS qui considère les commandes ayant comme préfixe le mot qui précède le curseur :
+      * pour faire en sorte que le terminal se comporte comme sage pour les flèches HAUT et BAS qui considère les commandes ayant comme préfixe le mot qui précède le curseur ET pour avoir le mode vi en Sage :
 
 {{{
 # This File is : ~/.inputrc
