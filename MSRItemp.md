@@ -99,3 +99,4 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Thu. 3 || 11-12 || Simons || Kumar Murty - Title: The field of Fourier coefficients of a modular form. (members' seminar) ||
  || Thu. 10 || 11-12 || Simons || Henri Cohen - Fun talk on high precision computation of number theoretical constants [[attachment:cohen_high_precision.pdf]] ||
  || Thu. 17 || 11-12 || Simons || Haluk Sengun - Cohomology of Bianchi Groups and Arithmetic ||
+ || Fri 18 || 10-5 || Library  || FRG Friday ||
