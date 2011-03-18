@@ -49,6 +49,23 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
   * Marco
       * pour faire des backup : rdiff-backup
       * éditer le ipythonrc pour que sage se comporte comme vi (set -o vi) de la façon suivante :
+      * pour faire en sorte que le terminal se comporte comme sage pour les flèches HAUT et BAS qui considère les commandes ayant comme préfixe le mot qui précède le curseur :
+
+{{{
+# This File is : ~/.inputrc
+# Bindings for completing the current line in the history of previous
+# commands. This allows you to recall any previous command by typing its first
+# few letters and hitting Control-p, bypassing all intermediate commands which
+# may be in the history (much faster than hitting up-arrow 50 times!)
+"\C-p": history-search-backward
+"\C-n": history-search-forward
+
+# I also like to have the same functionality on the plain arrow keys. If you'd
+# rather have the arrows use all the history (and not just match what you've
+# typed so far), comment out or delete the next two lines.
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+}}}
 
 === 11 mars 2011 ===
 
