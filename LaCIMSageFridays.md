@@ -35,7 +35,7 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
 
-== Vendredi suivant : 18 mars 2011 ==
+== Vendredi suivant : 25 mars 2011 ==
 
 à venir
 
