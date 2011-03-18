@@ -4,9 +4,10 @@
 
 There is a special wireless account for sage days 29. You should be able to get wireless anywhere on campus with these credentials. Please don't abuse the network.
 
+{{{
 UW NetID: event0959
-
 Password: xLYa+pHYe+cSAa
+}}}
 
 
 
@@ -103,19 +104,11 @@ The participants are an exciting mix of pure and applied mathematicians and scie
 
 == Lodging ==
 
-I have the following 8 rooms reserved at the University owned Collegiana Inn:
+ * [[/lodging|This page]] has more precise details about exactly who and when people will '''really''' be here.
 
- * #308 2 beds
- * #310 2 beds
- * #202 3 beds
- * #207 3 beds
- * #304 3 beds
- * #311 3 beds
- * #306 2 beds
- * #212 2 beds
-
-Since some people won't want to share rooms (which is fine), etc., I will also be booking hotel rooms as well.  
 
 == Funding ==
  
  Write to William Stein wstein@gmail.com.   Plane tickets [[http://www.tvlon.com/resources/FlyAct.html|must be on US flag carriers]].  Regarding price, we reimburse up to USD 500 domestic or USD 1000 international (contact us in case of unusual circumstances).  Accommodations and local travel costs will also be reimbursed.
+
+  * [[attachment:sd29reimbursement.pdf|Reimbursement form]]
