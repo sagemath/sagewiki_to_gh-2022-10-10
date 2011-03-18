@@ -16,6 +16,8 @@ Password: xLYa+pHYe+cSAa
  * Fixing bugs in Sage or any of its components
  * Sage Notebook rewrite
  * Applied mathematics: Numpy/Scipy development, Neuroimaging
+ 
+ For a precise list see [day29projects]
 
 == Mailing List ==
 
