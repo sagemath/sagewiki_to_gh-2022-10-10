@@ -45,10 +45,6 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Franco
       * Another solution for tiling terminals : conque extension for vim : http://www.vim.org/scripts/script.php?script_id=2771
-
-  * Marco
-      * pour faire des backup : rdiff-backup
-      * éditer le ipythonrc pour que sage se comporte comme vi (set -o vi) de la façon suivante :
       * pour faire en sorte que le terminal se comporte comme sage pour les flèches HAUT et BAS qui considère les commandes ayant comme préfixe le mot qui précède le curseur :
 
 {{{
@@ -59,6 +55,9 @@ set keymap vi-insert
 "\e[A": history-search-backward  # up-arrow
 "\e[B": history-search-forward   # down-arrow
 }}}
+
+  * Marco
+      * pour faire des backup : rdiff-backup
 
 === 11 mars 2011 ===
 
