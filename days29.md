@@ -11,13 +11,14 @@ Password: xLYa+pHYe+cSAa
 
 
 == Topics ==
-
+For a precise list see [[/projects | days29 projects]]
+168
  * Number theory (elliptic curves, modular forms, etc.)
  * Fixing bugs in Sage or any of its components
  * Sage Notebook rewrite
  * Applied mathematics: Numpy/Scipy development, Neuroimaging
  
- For a precise list see [[/projects | days29 projects]]
+ 
 
 == Mailing List ==
 
