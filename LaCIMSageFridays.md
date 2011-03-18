@@ -41,6 +41,15 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 == Vendredi précédents ==
 
+=== 18 mars 2011 ===
+
+  * Franco
+      * Another solution for tiling terminals : conque extension for vim : http://www.vim.org/scripts/script.php?script_id=2771
+
+  * Marco
+      * pour faire des backup : rdiff-backup
+      * éditer le ipythonrc pour que sage se comporte comme vi (set -o vi) de la façon suivante :
+
 === 11 mars 2011 ===
 
   * Samuel
