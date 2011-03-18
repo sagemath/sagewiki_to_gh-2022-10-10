@@ -9,7 +9,7 @@ Although this will not always be practical, if possible there should a few examp
 
  * Can be reproduced with [[http://www.wolframalpha.com/|WolframAlpha]]. We have [[http://groups.google.com/group/sage-devel/msg/4fbd060599faec58|permission]] from Wolfram Research to use Wolfram|Alpha to make non-automated comparisons with Sage. It would be useful if you could provide a link on the trac ticket in this case - e.g http://www.wolframalpha.com/input/?i=10! 
 
- * Can be reproduced with open or closed software that is not part of Sage. It would help, if practical, to document on the trac ticket 
+ * Can be reproduced with open or closed source software that is not part of Sage. It would help, if practical, to document on the trac ticket 
    * The name of the software.
    * The version.
    * The hardware used.
