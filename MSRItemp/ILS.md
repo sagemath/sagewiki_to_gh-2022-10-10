@@ -43,7 +43,9 @@ of ratios of products of shifted L-functions. We present an application by deriv
 
  * 16th March: Henryk Iwaniec, Title: Critical zeros of L-functions
 
- * 23rd March: Rob Rhoades
+ * 23rd March: Rob Rhoades, Title: Alternatives to Dirichlet Series Amplifiers
+
+   Abstract: I'll discuss an approach to subconvexity that uses a "geometric" mollifier.  I'll give some concrete examples to illustrate the idea. If time permits I'll try to discuss why mollification does not have a straightforward analog in this setting and an approach toward mollification that uses relative trace formula. The amplification ideas are due to Venkatesh and Venkatesh-Michel. 
 
  * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, 2000.
     [[attachment:Iwaniec-Luo-Sarnak.pdf]]
