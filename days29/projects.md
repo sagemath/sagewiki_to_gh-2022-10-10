@@ -1,4 +1,4 @@
-= Sage Days 29 Coding Spring Projects =
+= Sage Days 29 Coding Sprint Projects =
 
 <<TableOfContents>>
 
