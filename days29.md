@@ -64,6 +64,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Brian Granger (Ipython developer)
  * [[http://artsci.drake.edu/grout/doku.php|Jason Grout]] (notebook, combinatorics), Wed, March 23 (evening) - Sat, March 26
  * Chuck Harris  (numpy developer)
+ * Keshav Kini (misc?) -- March 20-26 -- confirmed
  * Radoslav Kirov (number theory, notebook) -- March 18-26 (need lodging for 21-26)
  * Thomas Kluyver (Ipython developer) -- March 19-26
  * Alex Leone (notebook) -- (lodging: his house)
