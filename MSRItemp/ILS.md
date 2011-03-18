@@ -43,6 +43,8 @@ of ratios of products of shifted L-functions. We present an application by deriv
 
  * 16th March: Henryk Iwaniec, Title: Critical zeros of L-functions
 
+ * 23rd March: Rob Rhoades
+
  * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, 2000.
     [[attachment:Iwaniec-Luo-Sarnak.pdf]]
  * there is also a study guide and reading list by Steven Miller, at Williams: http://www.williams.edu/go/math/sjmiller/public_html/ntandrmt/
