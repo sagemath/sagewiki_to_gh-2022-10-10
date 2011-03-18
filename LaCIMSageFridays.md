@@ -53,6 +53,8 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 {{{
 # This File is : ~/.inputrc
+# Copied from a section of the file .sage/ipython/ipythonrc
+#
 # Bindings for completing the current line in the history of previous
 # commands. This allows you to recall any previous command by typing its first
 # few letters and hitting Control-p, bypassing all intermediate commands which
