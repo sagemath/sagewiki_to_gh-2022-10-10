@@ -60,11 +60,24 @@ For a precise list see [[/projects | days29 projects]]
 ||Friday March 25, 2pm-9pm||Coding Sprints||
 
 
-== People ==
 
-The participants are an exciting mix of pure and applied mathematicians and scientists.  Those with listed dates are confirmed; those without dates are in some cases still tentative (though very likely). 
+== Lodging ==
 
-[[/lodging|This page]] has more precise details about exactly who and when people will '''really''' be here.
+ * [[/lodging|This page]] has more precise details about exactly who and when people will '''really''' be here.
+
+
+== Funding ==
+ 
+ Write to William Stein wstein@gmail.com.   Plane tickets [[http://www.tvlon.com/resources/FlyAct.html|must be on US flag carriers]].  Regarding price, we reimburse up to USD 500 domestic or USD 1000 international (contact us in case of unusual circumstances).  Accommodations and local travel costs will also be reimbursed.
+
+  * [[attachment:sd29reimbursement.pdf|Reimbursement form]]
+
+
+== Interested People ==
+
+The participants are an exciting mix of pure and applied mathematicians and scientists.  
+
+[[/lodging|This page has precise details about who is really going to be at the workshop and when.]]
 
  1. Ivan Andrus (Mac App, group theory, Central European Univ.) -- March 20-27
  * Jennifer Balakrishnan (number theory) -- March 20-24, 2011
@@ -101,14 +114,3 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Mark Wiebe (Vancouver) -- March 20-26, 2011.
  * Jamie Weigandt (number theory) -- March 20-26, 2011
  * James Pfeiffer (University of Washington) -- confirmed for Tue-Fri
-
-== Lodging ==
-
- * [[/lodging|This page]] has more precise details about exactly who and when people will '''really''' be here.
-
-
-== Funding ==
- 
- Write to William Stein wstein@gmail.com.   Plane tickets [[http://www.tvlon.com/resources/FlyAct.html|must be on US flag carriers]].  Regarding price, we reimburse up to USD 500 domestic or USD 1000 international (contact us in case of unusual circumstances).  Accommodations and local travel costs will also be reimbursed.
-
-  * [[attachment:sd29reimbursement.pdf|Reimbursement form]]
