@@ -25,4 +25,4 @@ In addition to the above, you are also encouraged to provide examples which can 
 
 If a result can be computed by other software, but Sage is significantly faster, it would benefit the Sage project to document this too. Again, it would be helpful to provide details of software. 
 
-If other software is able to compute the result significantly faster than Sage, then document this too. Perhaps the reviewers, or other Sage developers may know of a faster algorithm, which may be possible to implement at a later date. 
+If other software is able to compute the result significantly faster than Sage, then document this on the trac ticket. Perhaps the reviewers, or other Sage developers may know of a faster algorithm, which may be possible to implement at a later date. 
