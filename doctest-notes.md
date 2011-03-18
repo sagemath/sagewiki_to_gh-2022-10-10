@@ -6,12 +6,12 @@ Although this will not always be practical, if possible there should a few examp
 
  * Intrinsically verifying to an expert. e.g. illustrate constraints or consistencies implied by a well-known theorem/conjecture hold (ideally one unrelated to the implementation). 
  * Reproduced in a reputable book or journal.
- * Can be reproduced with Wolfram|Alpha http://www.wolframalpha.com/ (we have permission from Wolfram Research to use Wolfram|Alpha to make comparisons with Sage). It would be useful if you could provide a link on the trac ticket in this case.
- * Can be reproduced with open or closed software that is not part of Sage. (It would help, if practical, to document on the trac ticket the software, version, input and output.) 
+ * Can be reproduced with Wolfram|Alpha http://www.wolframalpha.com/ (we have permission from Wolfram Research to use Wolfram|Alpha to make comparisons with Sage). It would be useful if you could provide a link on the trac ticket in this case - e.g http://www.wolframalpha.com/input/?i=10! 
+ * Can be reproduced with open or closed software that is not part of Sage. (It would help, if practical, to document on the trac ticket the software, version, the input you provided and output produced by that software.) 
 
 If a reviewer or author believes it is reasonable, they can justify the tests on the trac ticket and/or provide a reference to a journal or book where the same result is given.
 
-In particular, the "expected value" from doctests would ideally not just be what you happen to get on your computer. This is especially important to consider with results that are purely numeric, as sometimes the algorithm may not be as stable as you might expect. It may give very different results on different hardware.
+In particular, the "expected value" from doctests would ideally not just be what you happen to get on your computer. This is especially important to consider with results that are purely numeric, as sometimes the algorithm may not be as stable as you might expect. It may give very different results on different hardware. Sometimes when components of Sage are updated, slightly different numerical results are given. 
 
 In addition to the above, you are also encouraged to provide examples which can only be computed with Sage. To promote Sage, you could add a comment to the documentation something like: "As of xx/yy/20zz there is no other open and/or closed source software able to do this.
 
