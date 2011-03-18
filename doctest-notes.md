@@ -20,9 +20,12 @@ If a reviewer or author believes it is reasonable, they can justify the tests on
 
 In particular, the "expected value" from doctests would ideally not just be what you happen to get on your computer. This is especially important to consider with results that are purely numeric, as sometimes the algorithm may not be as stable as you might expect. It may give very different results on different hardware. Sometimes when components of Sage are updated, slightly different numerical results are obtained. If an exact, or high-precisions answer is known, we are able to determine if the update is beneficial or not. 
 
-In addition to the above, you are also encouraged to provide examples which can only be computed with Sage. To promote Sage, you could add a comment to the documentation saying something like: ''As of xx/yy/20zz there is no other open and/or closed source software able to do this.'' Not only would this help promote Sage, but a reader of the documentation may suggest a way where the results could be verified.
+In addition to the above, you are also encouraged to provide examples in the documentation which can only be computed with Sage. To promote Sage, you could add a comment to the documentation saying something like: 
 
+''As of xx/yy/20zz there is no other open and/or closed source software able to do this.'' 
+
+Not only would this help promote Sage, but a reader of the documentation may suggest a way where the results could be verified.
 
 If a result can be computed by other software, but Sage is significantly faster, it would benefit the Sage project to document this too. Again, it would be helpful to provide details of software. 
 
-If other software is able to compute the result significantly faster than Sage, then document this on the trac ticket. Perhaps the reviewers, or other Sage developers may know of a faster algorithm, which may be possible to implement at a later date. 
+If other software is able to compute the result significantly faster than Sage, then document this on the trac ticket. Perhaps the reviewers, or other Sage developers may know of a faster algorithm, which may be possible to implement at a later date. You might consider asking on sage-devel if anyone is aware of a faster algorithm. 
