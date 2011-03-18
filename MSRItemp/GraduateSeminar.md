@@ -13,9 +13,9 @@ The current tentative schedule is below.
 || March 14th       || Kevin Wilson         || Elliptic curves of arbitrarily large rank( Over Function Fields) ||
 || March 21st       ||  || ||
 || March 28th       || || ||
-|| April 4th        ||  || ||
+|| April 4th        || Shuntaro Yamagishi || ||
 || April 11th       || NO MEETING || Workshop ||
-|| April 18th       ||  || ||
+|| April 18th       || Matthew Alderson || ||
 || April 25th       ||  || ||
 || May 2nd          || || ||
 || May 9th          || || ||
