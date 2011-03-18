@@ -47,19 +47,20 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/9796 | 9796]] || diagonal elements of a matrix ||  4.6.2.rc0 || Tom Coates ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10714|10714]] || rows/columns of sparse matrices with zero rows/columns || 4.6.2.rc0 || Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10568|10568]] || speed-up scalar multiples of sparse matrices || 4.7.alpha1 || Author: Maarten Derickx ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || 4.7.alpha2 || Alain Filbois ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10763|10763]] || matrix multiplication speedup || 4.7.alpha2 || Author: Simon King ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10426|10426]] || matrix row and column swapping, returns new matrix || positive review || Alain Filbois ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10536|10536]] || vector conjugation || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || positive review || Felix Lawrence ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10763|10763]] || matrix multiplication speedup || positive review || Author: Simon King ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || positive review || Karl-Dieter Crisman ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || positive review || Karl-Dieter Crisman ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || with patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || with patches, dep. 10536 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || with patches, needs info ||  ||
@@ -71,7 +72,6 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10863]] || is_unitary() for matrices || with patch, dep. 10536 ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
