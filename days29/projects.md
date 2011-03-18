@@ -12,6 +12,6 @@ Below a list of proposed projects.
 
 PEOPLE: Maarten Derickx
 
- * #10548	ModularSymbols_clear_cache() not clearing everything
- * #10510	ModularSymbols(Gamma1(29), 2).cuspidal_subspace().hecke_algebra().basis() doesn't terminate
+ * #10548	!ModularSymbols_clear_cache() not clearing everything
+ * #10510	!ModularSymbols(Gamma1(29), 2).cuspidal_subspace().hecke_algebra().basis() doesn't terminate
  * #10262	memory leak in scalar*vector multiplication
