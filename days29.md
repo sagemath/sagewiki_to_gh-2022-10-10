@@ -1,5 +1,14 @@
 = Sage Days 29 =
 
+== Wireless Access ==
+
+There is a special wireless account for sage days 29. You should be able to get wireless anywhere on campus with these credentials. Please don't abuse the network.
+
+UW NetID: event0959
+Password: xLYa+pHYe+cSAa
+
+
+
 == Topics ==
 
  * Number theory (elliptic curves, modular forms, etc.)
