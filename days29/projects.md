@@ -22,7 +22,7 @@ PEOPLE: Justin Walker
 
 == Number Theory/Elliptic Curves ==
 PEOPLE: Justin Walker
- *              Integer points for curves over number fields: Import Nook/Cremona/Kirov code into Sage
+ *              Integer points for curves over number fields: Import Nook/Cremona/Kirov/Anderson code into Sage
 
 == Exact and Double Dense (RDF/CDF) Linear Algebra ==
 
