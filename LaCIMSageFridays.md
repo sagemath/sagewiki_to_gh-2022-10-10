@@ -37,9 +37,21 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
 Des liens utiles pour développer Sage et travailler sous UNIX en général:
 
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+Des liens utiles pour développer Sage et travailler sous UNIX en général:
+
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
   * [[http://wiki.sagemath.org/LaCIMSageFridays/UNIX |Section UNIX]] -- En construction
 
 
+
+
+---- /!\ '''Edit conflict - other version:''' ----
 ---- /!\ '''Edit conflict - other version:''' ----
   * [[http://wiki.sagemath.org/LaCIMSageFridays/UNIX |Section UNIX]] -- En construction
 
@@ -48,6 +60,10 @@ Des liens utiles pour développer Sage et travailler sous UNIX en général:
 
 ---- /!\ '''End of edit conflict''' ----
 
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 == Vendredi suivant : 25 mars 2011 ==
 
 à venir
