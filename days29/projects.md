@@ -36,3 +36,9 @@ PEOPLE: Rob Beezer
   * Wrap `NumPy/SciPy` Schur factorization, linear system solving routines
 
 Many patches needing review at [[http://wiki.sagemath.org/devel/LatexToWorksheet]]
+
+== IPython activity ==
+
+PEOPLE: Fernando Perez, Min Ragan-Kelley, Thomas Kluyver
+
+ * SQLite based history ([[https://github.com/ipython/ipython/pull/282|Pull request]])
