@@ -34,8 +34,19 @@ Un livre en français sur les mathématiques et sur Sage, sous la licence Creati
 
   * Calcul mathématique avec Sage, livre libre et gratuit, juillet 2010, http://sagebook.gforge.inria.fr/ 
 
+
+Des liens utiles pour développer Sage et travailler sous UNIX en général:
+
   * [[http://wiki.sagemath.org/LaCIMSageFridays/UNIX |Section UNIX]] -- En construction
 
+
+---- /!\ '''Edit conflict - other version:''' ----
+  * [[http://wiki.sagemath.org/LaCIMSageFridays/UNIX |Section UNIX]] -- En construction
+
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 
 == Vendredi suivant : 25 mars 2011 ==
 
