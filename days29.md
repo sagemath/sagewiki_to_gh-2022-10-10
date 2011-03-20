@@ -19,7 +19,7 @@ For a precise list see [[/projects | days29 projects]]
  * Fixing bugs in Sage or any of its components
  * Sage Notebook rewrite
  * Applied mathematics: Numpy/Scipy development, Neuroimaging
- 
+ * SQLite based history
  
 
 == Mailing List ==
