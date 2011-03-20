@@ -100,6 +100,7 @@ The participants are an exciting mix of pure and applied mathematicians and scie
  * Jarrod Millman (neuroimaging)
  * Moritz Minzlaff (number theory, TU Berlin) -- March 20-25, 2011
  * Travis Oliphant (numpy developer)
+ * John Palmieri (University of Washington)
  * Min Ragan-Kelley (ipython developer)
  * Robert Kern  (numpy developer)
  * Fernando Perez (Ipython developer, neuroimaging) -- March 22-25, 2011
