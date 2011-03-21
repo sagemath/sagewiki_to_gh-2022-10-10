@@ -12,7 +12,7 @@ The current tentative schedule is below.
 || March 7th    || Jamie Weigandt || Emperical Evidence for an Arithmetic Analog of Nevanlinna's Five Value Theorem ||
 || March 14th       || Kevin Wilson         || Elliptic curves of arbitrarily large rank( Over Function Fields) ||
 || March 21st       ||  || ||
-|| March 28th       || || ||
+|| March 28th       || Rishikesh || L-functions in SAGE ||
 || April 4th        || Shuntaro Yamagishi || ||
 || April 11th       || NO MEETING || Workshop ||
 || April 18th       || Matthew Alderson || ||
