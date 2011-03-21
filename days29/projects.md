@@ -36,6 +36,9 @@ PEOPLE: Jamie Weigandt, Robert Miller, John Cremona, William Stein, Justin Walke
 == Convert GP scripts in data/extcode/pari to pari library interface ==
 
   *  Simon's scripts qfsolve.gp, ellQ.gp, ell.gp (2-descent on elliptic curves over Q and over number fields)
+     *  [[attachment:ellQ2.gp|revised script]]
+     *  [[attachment:ellQ2.gp.c|C version of the produced by gp2c]]
+
   *  Dokchitser's scrip computel.gp (L-functions)
 
 PEOPLE: John Cremona, William Stein, Jamie Weigandt
