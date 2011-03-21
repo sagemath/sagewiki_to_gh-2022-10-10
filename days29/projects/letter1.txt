@@ -1,0 +1,82 @@
+Cher Denis,
+
+A la demande de Cremona et Stein, comme il y a des Sage days la semaine qui
+vient, j'ai nettoye tes scripts qfsolve, ellQ, et ell. Il m'a fallu pas
+mal de temps pour que ca puisse passer dans gp2c, mais ca marche maintenant.
+Pour faciliter la vie de tout le monde, il serait bien que tu fasses les
+modifs toi-meme bien sur, puisque c'est evidemment toi le chef de tes
+scripts (et si tu pouvais le faire avant lundi ca serait genial, c'est
+assez court): voici de quoi il s'agit.
+
+1) Pour compiler avec gp2c, je dois presque obligatoirement avoir un
+seul fichier: j'ai donc concatene (dans cet ordre) qfsolve, ellQ, ell.
+2) Il m'a fallu faire un tres grand nombre de modifications, la plupart
+mineures, mais plusiers non. Tout d'abord les mineures (et les autres,
+mais je commenterai les grosses plus loin). J'ai essaye de TOUT prefacer
+par le mot clef MODI, qu'il te suffit de chercher.
+
+-- Il y a pas mal de variables inutilisees (je donne la liste precise).
+Enleve les.
+-- Il y a pas mal de variables non declarees (idem). Ajoute les.
+-- Il y a un certain nombre de noms de variables absolument exclus
+en C (mais pas en GP): s'il te plait renomme les. J'ai systematiquement
+ajoute le suffixe _s, mais fait comme tu veux. De memoire (mais il y en
+a peut etre d'autres, regarde les MODI):
+            det, struct, prec, nfsign, auto
+-- Dans qfsolve tu as plusieurs fois printp(): ca n'existe pas. tu veux
+dire quoi ? change.
+-- D'autres petits trucs que tu verras.
+
+3) Plus important:
+-- Une bug: dans qfsolve.gp tu as if( !length(V), next). Ce n'est pas 
+possible tu n'est pas dans une boucle. Quid ?
+-- Tu as deux fonctions nfsqrt: une dans ell.gp une dans ellQ.gp. Tu as
+beaucoup de fonctions communes bien sur, mais celle la n'est pas programmee
+tout a fait pareil. Les deux sont elles correctes ? (au passage, deja dit
+plus haut, n'utilise pas nfsign comme identificateur de fonction, ca
+existe dans pari (pas dans GP) et fait qqchose de semblable, j'ai
+renomme nfsign_s).
+-- La plus grosse bug: tu as deux fonctions nfpsquareodd, une dans ell.gp
+et une dans ellQ.gp qui ne prennent pas le meme type de troisieme argument:
+dans l'une c'est un ideal premier, dans l'autre un ideal premier "augmente".
+S'il te plait unifie, supprime l'une des deux.
+
+4) Modifications que je te demande de faire qui ne sont pas de ton fait
+mais on doit faire plaisir a gp2c:
+-- a un endroit tu as vecsort(v,,3). Ce n'est pas ta faute mais remplace par
+Vec(vecsort(v,,3)).
+-- gp2c comprend un certain nombre de fonctions "membre", mais pas toutes.
+En particulier: fonction .mod: soit remplace par component(,1), soit mieux
+inclut la fonction getmod(z)=component(z,1);
+-- idem pour .tufu et .futu: remplace par les fonctions gettufu et getfutu
+que j'ai ecrites.
+
+5) Pour pouvoir compiler, il me faut un seul fichier, j'ai donc commente
+dans ell.gp toutes les fonctions communes avec ellQ.gp (sauf
+nfpsquareodd, appellee differemment dans les 2 progs, a qui j'ai donc
+du donner 2 noms differents). Donc pour eviter a l'avenir de faire ca,
+plusieurs solutions: tu peux comme moi faire (en plus de qfsolve, ellQ,
+et ell) faire un fichier unique, soit tu fais un fichier du type ellcomp
+qui est simplement un complement a concatener avec ellQ, ou tout autre
+solution qui te plaira.
+
+6) J'oubliais un truc genant: j'ai modifie tous tes addhelp pour qu'ils
+soient sur une seule ligne, sinon ca ne compile pas. Donc meme si l'aide
+est longue, ne met pas de return entre les guillemets.
+
+Toutes ces modifs sont incluses dans le script ellQ2.gp qui compile
+parfaitement avec gp2c (temps divise par 2 quand il y a un point de
+2-torsion, sinon gain marginal 10%), mais sage souhaite vraiment des
+programmes C et pas des scripts.
+
+Autre chose, secondaire: gp2c n'aime pas du tout les variables globales,
+donc j'ai ajoute comme exemple ellrankdebug qui inclut comme deuxieme
+parametre DEBUGLEVEL_ell. On peut evidemment varier a l'infini. Il serait
+bon aussi de pouvoir passer en parametres la borne de recherche des points
+sur les quartiques (ca doit etre une autre de tes variables globales, je
+ne sais plus laquelle).
+
+Amities,
+
+Henri
+
