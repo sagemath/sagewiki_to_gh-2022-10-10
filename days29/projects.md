@@ -33,7 +33,7 @@ PEOPLE: Justin Walker, Gagan Sekhon, William Stein, Rado Kirov, John Cremona, Al
 
 PEOPLE: Jamie Weigandt, Robert Miller, John Cremona, William Stein, Justin Walker
          
-== Convert GP scripts in data/extcode/pari to pari library interface == 
+== Convert GP scripts in data/extcode/pari to pari library interface ==
 
 PEOPLE: John Cremona, William Stein, Jamie Weigandt
 
