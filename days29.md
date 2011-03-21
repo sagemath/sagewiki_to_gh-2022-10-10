@@ -1,5 +1,7 @@
 = Sage Days 29 =
 
+<<TableOfContents>>
+
 == Keep Track of bugs fixed during sage days 29 ==
 Important! Keep track of the bugs fixed during these sage days on: [[/bugs | Bugs Fixed]]
 
