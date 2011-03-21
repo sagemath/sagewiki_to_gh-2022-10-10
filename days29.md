@@ -57,7 +57,10 @@ For a precise list see [[/projects | days29 projects]]
 ||Wednesday March 23, 1:30pm-9pm||Coding Sprints||
 ||Thursday March 24, 10am-11am||Colloquium Talk: Fernando Perez (Scientific Computing using Python)||
 ||Thursday March 24, 11am-12:00pm||Status reports||
-||Thursday March 24, 1:30pm-9pm||Coding Sprints||
+||Thursday March 24, 1:30pm-2:20pm||Extra Talk: Michael Droettboom (Porting to Python 3)||
+||Thursday March 24, 2:30pm-3:20pm||Extra Talk: Robert Miller (Canonical Augmentation)||
+||Thursday March 24, 3:30pm-4:20pm||Extra Talk: Martin Raum (Modular Forms)||
+||Thursday March 24, 4:30pm-9pm||Coding Sprints||
 ||Friday March 25, 10am-12:30pm||Status reports and demos||
 ||Friday March 25, 2pm-9pm||Coding Sprints||
 
