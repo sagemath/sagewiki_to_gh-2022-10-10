@@ -38,9 +38,10 @@ PEOPLE: Jamie Weigandt, Robert Miller, John Cremona, William Stein, Justin Walke
   *  Simon's scripts qfsolve.gp, ellQ.gp, ell.gp (2-descent on elliptic curves over Q and over number fields)
      *  [[attachment:ellQ2.gp|revised script]]
      *  [[attachment:ellQ2.gp.c|C version of the produced by gp2c]]
-     *  [[attachment: letter1.txt|Letter from Cohen to Simon explaining what he did]]
+     *  [[attachment:letter1.txt|Letter from Cohen to Simon explaining what he did]]
 
   *  Dokchitser's scrip computel.gp (L-functions)
+     *  [[attachment:TOSEND.tar|tar file contain rsults of all Cohen's work so far and usage instructions]]
 
 PEOPLE: John Cremona, William Stein, Jamie Weigandt
 
