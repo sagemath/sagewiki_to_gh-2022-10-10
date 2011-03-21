@@ -12,21 +12,21 @@ Below a list of proposed projects.
 
 PEOPLE: Maarten Derickx
 
- * #10548	!ModularSymbols_clear_cache() not clearing everything
- * #10510	!ModularSymbols(Gamma1(29), 2).cuspidal_subspace().hecke_algebra().basis() doesn't terminate
- * #10262	memory leak in scalar*vector multiplication
+ * [[http://trac.sagemath.org/sage_trac/ticket/10548|10548]]	!ModularSymbols_clear_cache() not clearing everything
+ * [[http://trac.sagemath.org/sage_trac/ticket/10510|10510]]	!ModularSymbols(Gamma1(29), 2).cuspidal_subspace().hecke_algebra().basis() doesn't terminate
+ * [[http://trac.sagemath.org/sage_trac/ticket/10262|10262]]	memory leak in scalar*vector multiplication
 
 == Binary quadratic forms ==
 PEOPLE: Justin Walker
- * #4120        Make progress on getting this patch to pass muster
+ * [[http://trac.sagemath.org/sage_trac/ticket/4120|4120]]        Make progress on getting this patch to pass muster
 
 == Number Theory/Elliptic Curves ==
 PEOPLE: Justin Walker, Gagan Sekhon
  *              Integer points for curves over number fields: Import Nook/Cremona/Kirov/Anderson code into Sage
- *  Trac 10832 Bug in simon_two_descent()
- *  Trac 10745 Bug in Elliptic curves gens()
- *  Trac 10581 Change Large Cremona to mongodb format and extend it.
- *  Trac 10152 Bug in integral_points (for elliptic curves over Q)
+ *  [[http://trac.sagemath.org/sage_trac/ticket/10832|10832]] Bug in simon_two_descent()
+ *  [[http://trac.sagemath.org/sage_trac/ticket/10745|10745]] Bug in Elliptic curves gens()
+ *  [[http://trac.sagemath.org/sage_trac/ticket/10581|10581]] Change Large Cremona to mongodb format and extend it.
+ *  [[http://trac.sagemath.org/sage_trac/ticket/10152|10152]] Bug in integral_points (for elliptic curves over Q)
               
 == Exact and Double Dense (RDF/CDF) Linear Algebra ==
 
