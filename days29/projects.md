@@ -61,9 +61,9 @@ PEOPLE: John Cremona, William Stein, Jamie Weigandt
 
 PEOPLE: Rob Beezer
 
-  * [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]]  make pivots of matrices immutable
-  * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983]]  subdivision attibute is public
-  * [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]]  vector constructor and complex numbers
+  * [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]]  make pivots of matrices immutable (needs review)
+  * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983]]  subdivision attibute is public (needs review)
+  * [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]]  vector constructor and complex numbers (needs review)
   * [[http://trac.sagemath.org/sage_trac/ticket/7392|7392]]  rank of CDF/RDF matrices
   * Duplicate [[http://trac.sagemath.org/sage_trac/ticket/10424|10424]] for matrix stack() method
   * Wrap `NumPy/SciPy` Schur factorization, linear system solving routines
