@@ -39,7 +39,6 @@ PEOPLE: Justin Walker, Gagan Sekhon, William Stein, Rado Kirov, John Cremona, Al
  *  [[http://trac.sagemath.org/sage_trac/ticket/10745|10745]] Bug in Elliptic curves gens()
  *  [[http://trac.sagemath.org/sage_trac/ticket/10581|10581]] Change Large Cremona to mongodb format and extend it.
  *  [[http://trac.sagemath.org/sage_trac/ticket/10152|10152]] Bug in integral_points (for elliptic curves over Q)
- *  [[http://trac.sagemath.org/sage_trac/ticket/10973|10973]] integral_ points over Number fields
 
 == Descent ==
 
