@@ -21,9 +21,13 @@ PEOPLE: Justin Walker
  * #4120        Make progress on getting this patch to pass muster
 
 == Number Theory/Elliptic Curves ==
-PEOPLE: Justin Walker
+PEOPLE: Justin Walker, Gagan Sekhon
  *              Integer points for curves over number fields: Import Nook/Cremona/Kirov/Anderson code into Sage
-
+ *  Trac 10832 Bug in simon_two_descent()
+ *  Trac 10745 Bug in Elliptic curves gens()
+ *  Trac 10581 Change Large Cremona to mongodb format and extend it.
+ *  Trac 10152 Bug in integral_points (for elliptic curves over Q)
+              
 == Exact and Double Dense (RDF/CDF) Linear Algebra ==
 
 PEOPLE: Rob Beezer
