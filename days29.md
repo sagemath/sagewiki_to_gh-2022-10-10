@@ -39,7 +39,7 @@ For a precise list see [[/projects | days29 projects]]
 
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
 
- * We have [[http://www.css.washington.edu/room/PCAR+293|PACCAR HALL 293]] reserved 7am - 9pm every day March 21 - 25.  This room is in this [[http://www.foster.washington.edu/about/Pages/paccarhall.aspx|beautiful building]].
+ * We have [[http://www.css.washington.edu/room/PCAR+390|PACCAR HALL 390]] reserved 9am - 9pm every day March 21 - 25.  This room is in this [[http://www.foster.washington.edu/about/Pages/paccarhall.aspx|beautiful building]].  '''NOTE:''' You can't get in after I think 5pm without calling or emailing somebody who is already in the building (me? at 206-419-0925) to open the door. 
 
  * LODGING: Many participants will be staying at the "UWMC Collegiana Hospitality House" (4311 12th Ave. N.E., Seattle)  ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved several rooms.  See [[attachment:collegiana_directions.pdf]] for more information about getting to the Collegiana.
 
@@ -47,6 +47,8 @@ For a precise list see [[/projects | days29 projects]]
 
 
 == Schedule ==
+
+Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms nearest the elevator -- 310, 312 and 314 -- reserved for our use. 
 
 ||Monday March 21, 9am-10am||Colloquium Talk: John Cremona (Number Theory Software)||
 ||Monday March 21, 10am-12pm||[[http://tinyurl.com/4fazxk9|Participant introductions and coding sprint organization]]||
