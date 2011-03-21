@@ -38,4 +38,8 @@ The current tentative schedule is below.
 
  . Abstract: Ulrich constructed a family of elliptic curves over function fields which (provably!) attain arbitrarily large rank. I'll go over his construction and the facts about function fields which make proving such statements "easier".
 
+ * March 28, Rishikesh: "Computing L-functions in SAGE"
+ .
+ . Abstract: I will introduce a new L-Function class in SAGE, and give several examples on how to use it to compute L-functions.
+
  
