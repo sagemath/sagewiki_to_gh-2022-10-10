@@ -21,13 +21,17 @@ PEOPLE: Justin Walker
  * [[http://trac.sagemath.org/sage_trac/ticket/4120|4120]]        Make progress on getting this patch to pass muster
 
 == Number Theory/Elliptic Curves ==
-PEOPLE: Justin Walker, Gagan Sekhon, William Stein, Rado Kirov, John Cremona, Aly Deines, Jen Balakrishnan, Jamie Weigant
+PEOPLE: Justin Walker, Gagan Sekhon, William Stein, Rado Kirov, John Cremona, Aly Deines, Jen Balakrishnan, Jamie Weigandt
  *              Integer points for curves over number fields: Import Nook/Cremona/Kirov/Anderson code into Sage
  *  [[http://trac.sagemath.org/sage_trac/ticket/10832|10832]] Bug in simon_two_descent()
  *  [[http://trac.sagemath.org/sage_trac/ticket/10745|10745]] Bug in Elliptic curves gens()
  *  [[http://trac.sagemath.org/sage_trac/ticket/10581|10581]] Change Large Cremona to mongodb format and extend it.
  *  [[http://trac.sagemath.org/sage_trac/ticket/10152|10152]] Bug in integral_points (for elliptic curves over Q)
-              
+
+== Descent ==
+
+PEOPLE: Jamie Weigandt, Robert Miller, John Cremona, William Stein, Justin Walker
+         
 == Exact and Double Dense (RDF/CDF) Linear Algebra ==
 
 PEOPLE: Rob Beezer
