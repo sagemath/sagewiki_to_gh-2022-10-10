@@ -1,5 +1,7 @@
 = Sage Days 26: Women in Sage =
 
+<<TableOfContents>>
+
    *  Location: Seattle, Washington
 
    *  Dates: December 7, 2010 to December 10, 2010
