@@ -1,5 +1,8 @@
 = Sage Days 29 =
 
+== Keep Track of bugs fixed during sage days 29 ==
+Important! Keep track of the bugs fixed during these sage days on: [[/bugs | Bugs Fixed]]
+
 == Wireless Access ==
 
 There is a special wireless account for sage days 29. You should be able to get wireless anywhere on campus with these credentials. Please don't abuse the network.
