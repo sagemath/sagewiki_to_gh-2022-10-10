@@ -46,3 +46,10 @@ Many patches needing review at [[http://wiki.sagemath.org/devel/LatexToWorksheet
 PEOPLE: Fernando Perez, Min Ragan-Kelley, Thomas Kluyver
 
  * SQLite based history ([[https://github.com/ipython/ipython/pull/282|Pull request]])
+
+== matplotlib activity ==
+
+PEOPLE: Michael Droettboom
+
+ * Fix memory leaks in Nose so that matplotlib's unit tests can be run on modest hardware with Python 3.x
+ * See status of matplotlib on Python 3.x here [[https://github.com/matplotlib/matplotlib-py3/wiki]]
