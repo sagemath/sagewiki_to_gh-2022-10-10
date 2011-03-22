@@ -81,3 +81,4 @@ PEOPLE: Michael Droettboom
 
  * Fix memory leaks in Nose so that matplotlib's unit tests can be run on modest hardware with Python 3.x
  * See status of matplotlib on Python 3.x here [[https://github.com/matplotlib/matplotlib-py3/wiki]]
+ * Win pub quiz competition [completed]
