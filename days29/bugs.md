@@ -28,3 +28,5 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/10601|10601 -- Fixed the QuaternionAlgebra constructor to accept Python ints, longs and floats as input.]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/9306|9306 -- Alters the round() command to defer to an element's .round() method if no precision is specified.]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/2512|2512 -- Implements a condition number method for matrices whose entries are coercible to CDF.]] (needs review)
+  * Gagan Sekhon
+    *[[http://trac.sagemath.org/sage_trac/ticket/10832|10832--simon 2-descent (all the work was done by Cremona, I just fixed some doctest]](postive review, Jamie)
