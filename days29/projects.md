@@ -25,7 +25,7 @@ PEOPLE: Maarten Derickx, William Stein
  * [[http://trac.sagemath.org/sage_trac/ticket/10548|10548]]	!ModularSymbols_clear_cache() not clearing everything
  * [[http://trac.sagemath.org/sage_trac/ticket/10510|10510]]	!ModularSymbols(Gamma1(29), 2).cuspidal_subspace().hecke_algebra().basis() doesn't terminate
  * [[http://trac.sagemath.org/sage_trac/ticket/10262|10262]]	memory leak in scalar*vector multiplication
- * [[http://trac.sagemath.org/sage_trac/ticket/8998|8998]] galois_action on cusps has a bug
+ * [[http://trac.sagemath.org/sage_trac/ticket/8998|8998]] galois_action on cusps has a bug (positively reviewed -- JEC)
  * [[http://trac.sagemath.org/sage_trac/ticket/9526|9526]] Atkin-Lehner operators on modular abelian varieties
 
 == Binary quadratic forms ==
