@@ -3,7 +3,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
   * William Stein:
      * [[http://trac.sagemath.org/sage_trac/ticket/10937|10937 -- bug in Dokchitser L.init_coeffs]]  (positive review -- Robert Bradshaw)
      * [[http://trac.sagemath.org/sage_trac/ticket/10975|10975 -- creation of certain prime finite fields is double dog slow (compared to Magma)]] (needs review)
-     * [[http://trac.sagemath.org/sage_trac/ticket/9705|9705 -- trouble with long lines in notebook magma mode]] (needs review)
+     * [[http://trac.sagemath.org/sage_trac/ticket/9705|9705 -- trouble with long lines in notebook magma mode]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/8998|8998 -- galois_action on cusps has a bug]] (positive review)
   * Rob Beezer:
      * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974 -- Overhaul, fix matrix augment, stack]]  (positive review -- Keshav Kini)
@@ -22,7 +22,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/9053|9053 -- fixes computation of pivots]] (positive review -- Keshav Kini)
   * Maarten Derickx:
      * [[http://trac.sagemath.org/sage_trac/ticket/10570|10570 -- sage leaves a lot of stackframes alive at startup]] (needs review)
-     * [[http://trac.sagemath.org/sage_trac/ticket/10933|10933 -- time fails inside function]] (positive review, Martin Raum)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10933|10933 -- time fails inside function]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/9094|9094 -- is_square and sqrt for polynomials and fraction fields]] (positive review, robert bradshwa)
   * Simon Spicer:
      * [[http://trac.sagemath.org/sage_trac/ticket/10601|10601 -- Fixed the QuaternionAlgebra constructor to accept Python ints, longs and floats as input.]] (needs review)
