@@ -20,13 +20,16 @@ The sponsor of the bug-fixing days part of this workshop has the following high-
 
 == Fixing modular form/symbols related bugs and the linear algebra it uses ==
 
-PEOPLE: Maarten Derickx, William Stein
+PEOPLE: Maarten Derickx, William Stein, Martin Raum
 
  * [[http://trac.sagemath.org/sage_trac/ticket/10548|10548]]	!ModularSymbols_clear_cache() not clearing everything
  * [[http://trac.sagemath.org/sage_trac/ticket/10510|10510]]	!ModularSymbols(Gamma1(29), 2).cuspidal_subspace().hecke_algebra().basis() doesn't terminate
  * [[http://trac.sagemath.org/sage_trac/ticket/10262|10262]]	memory leak in scalar*vector multiplication
  * [[http://trac.sagemath.org/sage_trac/ticket/8998|8998]] galois_action on cusps has a bug (positively reviewed -- JEC)
  * [[http://trac.sagemath.org/sage_trac/ticket/9526|9526]] Atkin-Lehner operators on modular abelian varieties
+ * [[http://trac.sagemath.org/sage_trac/ticket/8614|8614 -- Optimize creation of modular symbols spaces by speeding up quotienting out by 2-term relations]] (needs review)
+ * [[http://trac.sagemath.org/sage_trac/ticket/4578|4578 -- Optimize modular symbols decomposition algorithm]] (needs review)
+ * [[http://trac.sagemath.org/sage_trac/ticket/10987|10987 -- Add optional arguement to decomposition_of_subspace making restrict not check the subspace]] (needs review)
 
 == Binary quadratic forms ==
 PEOPLE: Justin Walker
