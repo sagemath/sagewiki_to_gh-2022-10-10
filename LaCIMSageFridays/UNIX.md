@@ -1,6 +1,11 @@
 == Astuces sous UNIX ==
 Le but de la page est de garder les idées, les fichiers de configurations  des logiciels présenter qui ont rapport avec UNIX
 
+=== Vi ===
+
+Car Vi est sur tout système UNIX le connaitre de manière minimal est essentiel 
+
+http://www.eng.hawaii.edu/Tutor/vi.html
 === Vendredi le 11 ===
 
 Samuel a présenté la configuration minimal pour les logiciels suivant, Mutt,mailx-heirloom, cron ainsi que leur fonctionnement. 
