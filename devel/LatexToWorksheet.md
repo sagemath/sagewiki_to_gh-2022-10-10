@@ -51,6 +51,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10763|10763]] || matrix multiplication speedup || 4.7.alpha2 || Author: Simon King ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/4983 | 4983]] || fix subdivision attribute || positive review || Author: John Palmieri ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10536|10536]] || vector conjugation || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || positive review || Felix Lawrence ||
