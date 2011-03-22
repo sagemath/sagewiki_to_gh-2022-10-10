@@ -16,7 +16,7 @@ The sponsor of the bug-fixing days part of this workshop has the following high-
   * [[http://trac.sagemath.org/sage_trac/ticket/10801|10801 -- create a new option: "sage -strip" which deletes things that aren't needed for a binary distribution of sage, or for people that will never develop or upgrade]]
   * [[http://trac.sagemath.org/sage_trac/ticket/10912|10912 -- add order setters and Tate and ate pairings]]
   * [[http://trac.sagemath.org/sage_trac/ticket/10976|10976 -- computing order of a certain subgroup of a permutation group is double dog slow (compared to Magma)]]
-  * [[http://trac.sagemath.org/sage_trac/ticket/10933|10933 -- time of magma command fails inside function]] (patch up by derickx; needs review)
+  * [[http://trac.sagemath.org/sage_trac/ticket/10933|10933 -- time of magma command fails inside function]] (patch up by derickx; positive review, Martin Raum)
 
 == Fixing modular form/symbols related bugs and the linear algebra it uses ==
 
