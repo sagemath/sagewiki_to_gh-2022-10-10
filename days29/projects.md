@@ -86,3 +86,13 @@ PEOPLE: Michael Droettboom, Paul Ivanov
  * Win pub quiz competition [completed]
 [[http://pirsquared.org/seattle/03212011523.jpg|{{http://pirsquared.org/seattle/03212011523.jpg|alt Team Scrappies in all their glory!|width=400}}]]
 [[http://pirsquared.org/seattle/03212011522.jpg|{{http://pirsquared.org/seattle/03212011522.jpg|alt The winning sheet|width=400}}]]
+
+== Algebraic Curves / Function Fields ==
+
+PEOPLE: Moritz Minzlaff, Maarten Derickx, William Stein, Rado Kirov
+
+Picking up things where [http://wiki.sagemath.org/daysff/curves Sage Days 21] left them.
+
+ * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9053|9053]] fixes row echelon form over general PIDs
+ * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9094|9094]] is_square and sqrt for polynomials and fraction fields
+ * [[http://trac.sagemath.org/sage_trac/ticket/9054|9054]] create a class for basic function_field arithmetic for Sage
