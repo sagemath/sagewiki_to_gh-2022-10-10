@@ -78,8 +78,10 @@ PEOPLE: Fernando Perez, Min Ragan-Kelley, Thomas Kluyver
 
 == matplotlib activity ==
 
-PEOPLE: Michael Droettboom
+PEOPLE: Michael Droettboom, Paul Ivanov
 
  * Fix memory leaks in Nose so that matplotlib's unit tests can be run on modest hardware with Python 3.x
  * See status of matplotlib on Python 3.x here [[https://github.com/matplotlib/matplotlib-py3/wiki]]
  * Win pub quiz competition [completed]
+[[http://pirsquared.org/seattle/03212011523.jpg|{{http://pirsquared.org/seattle/03212011523.jpg|alt Team Scrappies in all their glory!|width=400}}]]
+[[http://pirsquared.org/seattle/03212011522.jpg|{{http://pirsquared.org/seattle/03212011522.jpg|alt The winning sheet|width=400}}]]
