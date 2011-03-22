@@ -20,3 +20,4 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/9053|9053 -- fixes computation of pivots]] (positive review -- Keshav Kini)
   * Maarten Derickx:
      * [[http://trac.sagemath.org/sage_trac/ticket/10570|10570 -- sage leaves a lot of stackframes alive at startup]] (needs review)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10933|10933 -- time fails inside function]] (needs review)
