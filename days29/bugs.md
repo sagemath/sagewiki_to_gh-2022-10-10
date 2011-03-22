@@ -13,7 +13,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
   * Rob Beezer and John Palmieri:
      * [[http://trac.sagemath.org/sage_trac/ticket/10595|10595 -- vector constructor fails on empty list]] (positive review -- Dmitrii Pasechnik, Rob Beezer, and John Palmieri)
   * Martin Raum:
-     * [[http://trac.sagemath.org/sage_trac/ticket/5731|5731 -- update to NTl 5.5.2]] (needs review)
+     * [[http://trac.sagemath.org/sage_trac/ticket/5731|5731 -- update to NTL 5.5.2]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/10553|10553 -- Review: Diamond bracket operators are terribly slow]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/8614|8614 -- Optimize creation of modular symbols spaces by speeding up quotienting out by 2-term relations]] (needs review)
   * Moritz Minzlaff:
