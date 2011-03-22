@@ -37,7 +37,7 @@ PEOPLE: Justin Walker, Gagan Sekhon, William Stein, Rado Kirov, John Cremona, Al
  *   [[http://trac.sagemath.org/sage_trac/ticket/10973|10973]]      Integer points for curves over number fields: Import Nook/Cremona/Kirov/Anderson code into Sage
  *  [[http://trac.sagemath.org/sage_trac/ticket/10832|10832]] Bug in simon_two_descent() -- patch exists, needs very little work
  *  [[http://trac.sagemath.org/sage_trac/ticket/10745|10745]] Bug in Elliptic curves gens()
- *  [[http://trac.sagemath.org/sage_trac/ticket/10581|10581]] Change Large Cremona to mongodb format and extend it.
+ *  [[http://trac.sagemath.org/sage_trac/ticket/10581|10581]] Change Large Cremona Database to mongodb format and extend it.
  *  [[http://trac.sagemath.org/sage_trac/ticket/10152|10152]] Bug in integral_points (for elliptic curves over Q)
 
 == Descent ==
