@@ -2,6 +2,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
 
   * William Stein: 
      * [[http://trac.sagemath.org/sage_trac/ticket/10937|10937 -- bug in Dokchitser L.init_coeffs]]  (positive review)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10975|10975 -- creation of certain prime finite fields is double dog slow (compared to Magma)]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/9705|9705 -- trouble with long lines in notebook magma mode]] (needs review)
   * Rob Beezer: 
      * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974 -- Overhaul, fix matrix augment, stack]]  (needs review)
