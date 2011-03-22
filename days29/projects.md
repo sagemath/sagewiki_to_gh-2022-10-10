@@ -71,7 +71,7 @@ Many patches needing review at [[http://wiki.sagemath.org/devel/LatexToWorksheet
 
 == Python 3 ==
  
- * Evaluating which python packages in Sage are ready for Python 3. ([[https://spreadsheets.google.com/ccc?key=0AqIElKUDQl8tdC1lR29XZFlxZUxOU1VlZ1JRQ3ZRanc&hl=en_GB#gid=0|Google Spreadsheet]])
+ * Evaluating which python packages in Sage are ready for Python 3. ([[https://spreadsheets.google.com/ccc?key=0AqIElKUDQl8tdC1lR29XZFlxZUxOU1VlZ1JRQ3ZRanc&hl=en_GB#gid=0|Google Spreadsheet]], [[http://sagemath.org/packages/standard/|Packages in Sage]])
 
 == IPython activity ==
 
