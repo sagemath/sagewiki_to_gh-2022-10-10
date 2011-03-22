@@ -61,13 +61,13 @@ PEOPLE: John Cremona, William Stein, Jamie Weigandt
 
 == Exact and Double Dense (RDF/CDF) Linear Algebra ==
 
-PEOPLE: Rob Beezer
+PEOPLE: Rob Beezer, John Palmieri
 
   * [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]]  make pivots of matrices immutable (needs review)
-  * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983]]  subdivision attibute is public (needs review)
-  * [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]]  vector constructor and complex numbers (needs review)
+  * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983]]  subdivision attibute is public (positive review)
+  * [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]]  vector constructor and complex numbers (positive review)
   * [[http://trac.sagemath.org/sage_trac/ticket/7392|7392]]  rank of CDF/RDF matrices
-  * Duplicate [[http://trac.sagemath.org/sage_trac/ticket/10424|10424]] for matrix stack() method
+  * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] matrix stack(), augment() methods
   * Wrap `NumPy/SciPy` Schur factorization, linear system solving routines
 
 Many patches needing review at [[http://wiki.sagemath.org/devel/LatexToWorksheet]]
