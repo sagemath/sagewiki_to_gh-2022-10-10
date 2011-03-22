@@ -94,5 +94,5 @@ PEOPLE: Moritz Minzlaff, Maarten Derickx, William Stein, Rado Kirov
 Picking up things where [[http://wiki.sagemath.org/daysff/curves|Sage Days 21]] left them.
 
  * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9053|9053]] fixes row echelon form over general PIDs
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9094|9094]] is_square and sqrt for polynomials and fraction fields
+ * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9094|9094]] is_square and sqrt for polynomials and fraction fields
  * [[http://trac.sagemath.org/sage_trac/ticket/9054|9054]] create a class for basic function_field arithmetic for Sage
