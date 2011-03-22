@@ -57,6 +57,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with empty list || positive review || Joint: J. Palmieri, Review: D. Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || positive review || Karl-Dieter Crisman ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || positive review || Karl-Dieter Crisman ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] || overhaul matrix stack, augment || positive review || Keshav Kini ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
@@ -74,7 +75,6 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10863]] || is_unitary() for matrices || with patch, dep. 10536 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || with patch ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] || overhaul matrix stack, augment || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10977|10977]] || document vector constructor || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
