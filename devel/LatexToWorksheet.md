@@ -54,6 +54,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10477|10477]] || random vector constructor || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10536|10536]] || vector conjugation || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || positive review || Felix Lawrence ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with empty list || positive review || Joint: J. Palmieri, Review: D. Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || positive review || Karl-Dieter Crisman ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || positive review || Karl-Dieter Crisman ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
@@ -73,6 +74,8 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10863]] || is_unitary() for matrices || with patch, dep. 10536 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] || overhaul matrix stack, augment || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10977|10977]] || document vector constructor || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4932 | 4932]] || remove solve-left-LU || needs work ||  ||
@@ -81,7 +84,6 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information, dep. 10471, 8094, 10501 || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10544|10544]] || LLL reduced bases for right kernels || new ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with only empty list || needs work, dep. 10537 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]] || make matrix pivots immutable || new ||  ||
 
 == Group Theory Patches ==
