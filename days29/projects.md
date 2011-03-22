@@ -75,6 +75,7 @@ PEOPLE: Fernando Perez, Min Ragan-Kelley, Thomas Kluyver
 
  * SQLite based history ([[https://github.com/ipython/ipython/pull/282|Pull request]])
  * Allow %time magic command to work within functions ([[http://trac.sagemath.org/sage_trac/ticket/10933|10933]])
+ * General bug sorting and squashing ([[https://github.com/ipython/ipython/issues|bug list]])
 
 == matplotlib activity ==
 
