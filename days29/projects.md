@@ -103,3 +103,11 @@ Picking up things where [[http://wiki.sagemath.org/daysff/curves|Sage Days 21]] 
  * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9053|9053]] fixes row echelon form over general PIDs
  * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9094|9094]] is_square and sqrt for polynomials and fraction fields
  * [[http://trac.sagemath.org/sage_trac/ticket/9054|9054]] create a class for basic function_field arithmetic for Sage
+
+== Sage Notebook (Server) ==
+
+PEOPLE: William Stein, Rado Kirov, Alex Leone, Rob Beezer
+
+ * [[http://code.google.com/r/rkirov-flask/|Flask notebook]] (Rado Kirov)
+ * `MathJax` 1.1: [[http://trac.sagemath.org/sage_trac/ticket/9774|#9774]] (Rob Beezer)
+ * Simple Compute Server (William Stein, Rado Kirov)
