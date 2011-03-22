@@ -50,7 +50,7 @@ For a precise list see [[/projects | days29 projects]]
 
 Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms nearest the elevator -- 310, 312 and 314 -- reserved for our use. 
 
-||Monday March 21, 9am-10am||Colloquium Talk: John Cremona (Number Theory Software)||
+||Monday March 21, 9am-10am||[[http://tinyurl.com/4bb4nvo|Colloquium Talk: John Cremona (Number Theory Software)]]||
 ||Monday March 21, 10am-12pm||[[http://tinyurl.com/4fazxk9|Participant introductions and coding sprint organization]]||
 ||Monday March 21, 1pm-9pm||Coding Sprints||
 ||Tuesday March 22, 10am-11am||Colloquium Talk: Robert Bradshaw (Cython)||
