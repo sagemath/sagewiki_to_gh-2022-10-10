@@ -123,8 +123,8 @@ PEOPLE: Volker Braun, (Dmitrii Pasechnik)
 
  * Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
  * Code cleanup
- * Use libtool to build shared library [Done]
+ * Use libtool to build shared library (Volker)
  * remove hardcoded input/output buffer sizes
- * trap GAP errors [Done]
- * Test on various platforms
+ * trap GAP errors (Dima, Volker)
+ * Test on various platforms, OSX needs work (Ivan Andrus)
  * Implement GAP List and rec
