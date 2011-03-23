@@ -136,6 +136,7 @@ PEOPLE: Chris Swierczewski, Simon Spicer
 
  * Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/6371|#6371]] (almost done by Chris Swierczewski)
  * Use non-GSL_BLAS for computing finite sum for Riemann theta. (Chris)
+ * For better performance, determine eccentricity of bounding ellipsoid and apply Siegel transformation.
  * Riemann Matrices: (prerequisites)
    * Resultants over polynomial rings [[http://trac.sagemath.org/sage_trac/ticket/10799|#10799]] (positive review)
    * Singularities of algebraic curves (elements of polynomial rings over two vars?)
