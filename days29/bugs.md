@@ -39,3 +39,5 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     *[[http://trac.sagemath.org/sage_trac/ticket/10832|10832 -- Simon 2-descent (all the work was done by Cremona, I just fixed some doctest)]] (positive review -- Jamie Weigandt)
   * John Cremona
     * [[http://trac.sagemath.org/sage_trac/ticket/10840|10840 -- bug in saturation for elliptic curves over Q]] (needs review)
+  * Michael Droettboom
+    * [[http://trac.sagemath.org/sage_trac/ticket/8125|8125 -- problem with "text" in matplotlib]] Fixed in matplotlib
