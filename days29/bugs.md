@@ -26,6 +26,8 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/10570|10570 -- sage leaves a lot of stackframes alive at startup]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/10933|10933 -- time fails inside function]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/9094|9094 -- is_square and sqrt for polynomials and fraction fields]] (positive review -- Robert Bradshaw)
+  * Robert Bradshaw
+     * [[http://trac.sagemath.org/sage_trac/ticket/10548|10548 -- The coercion model is keeping references to tracebacks which causes memory leaks.]] (positive review -- Maarten Derickx)
   * Simon Spicer:
      * [[http://trac.sagemath.org/sage_trac/ticket/9028| 9028 -- Review: Basic Stats - Standard Deviation]] (positive review -- Simon Spicer)
      * [[http://trac.sagemath.org/sage_trac/ticket/10799| 10799 -- Review: Solved the problem to compute resultants on certain variable orders]] (positive review -- Simon Spicer)
