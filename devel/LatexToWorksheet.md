@@ -57,6 +57,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || positive review || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with empty list || positive review || Joint: J. Palmieri, Review: D. Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || positive review || Karl-Dieter Crisman ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]] || make matrix pivots immutable || positive review || Author: John Palmieri ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || positive review || Karl-Dieter Crisman ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] || overhaul matrix stack, augment || positive review || Keshav Kini ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
@@ -66,7 +67,6 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || with patches, needs info ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10794|10794]] || QR matrix decomposition over exact rings || with patch, dep. 10536, 10683 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patch, dep. 10536, 10683, 10794 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || with patch ||  ||
@@ -85,7 +85,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10465|10465]] || adjoint meta-ticket || information, dep. 10471, 8094, 10501 || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10544|10544]] || LLL reduced bases for right kernels || new ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]] || make matrix pivots immutable || new ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || orphaned ||  ||
 
 == Group Theory Patches ==
 
