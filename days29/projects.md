@@ -119,7 +119,7 @@ PEOPLE: William Stein, Rado Kirov, Alex Leone, Rob Beezer
 
 == libGAP ==
 
-PEOPLE: Volker Braun, (Dmitrii Pasechnik)
+PEOPLE: Volker Braun, (Dmitrii Pasechnik), Ivan Andrus
 
  * Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
  * Code cleanup
