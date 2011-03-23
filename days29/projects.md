@@ -124,5 +124,6 @@ PEOPLE: Volker Braun, (Dmitrii Pasechnik)
  * Code cleanup
  * Use libtool to build shared library [Done]
  * remove hardcoded input/output buffer sizes
- * trap GAP errors
+ * trap GAP errors [Done]
  * Test on various platforms
+ * Implement GAP List and rec
