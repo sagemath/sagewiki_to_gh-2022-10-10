@@ -53,7 +53,7 @@ Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms ne
 ||Monday March 21, 9am-10am||[[http://tinyurl.com/4bb4nvo|Colloquium Talk: John Cremona (Number Theory Software)]]||
 ||Monday March 21, 10am-12pm||[[http://tinyurl.com/4fazxk9|Participant introductions and coding sprint organization]]||
 ||Monday March 21, 1pm-9pm||Coding Sprints||
-||Tuesday March 22, 10am-11am||[[attachment:cython-days29.pdf|Colloquium Talk: Robert Bradshaw (Cython)]]||
+||Tuesday March 22, 10am-11am||[[attachment:cython-days29.pdf|Colloquium Talk: Robert Bradshaw (Cython)]] and [[http://tinyurl.com/5t33vrq|Video of the talk]]||
 ||Tuesday March 22, 11am-12:00pm||Status reports||
 ||Tuesday March 22, 1:30pm-9pm||Coding Sprints||
 ||Wednesday March 23, 10am-11am||Colloquium Talk: Rado Kirov (The Sage Notebook)||
