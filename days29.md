@@ -58,7 +58,7 @@ Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms ne
 ||Tuesday March 22, 1:30pm-9pm||Coding Sprints||
 ||Wednesday March 23, 10am-11am||Colloquium Talk: Rado Kirov (The Sage Notebook)||
 ||Wednesday March 23, 11am-12:00pm||Status reports||
-||Wednesday, March 23, 1:30pm-2:20pm||Extra Talk: Michael Droettboom (Porting to Python 3)||
+||Wednesday, March 23, 1:30pm-2:20pm||Extra Talk: Michael Droettboom (PortingToPython3)||
 ||Wednesday March 23, 2:30pm-9pm||Coding Sprints||
 ||Thursday March 24, 10am-11am||Colloquium Talk: Fernando Perez (Scientific Computing using Python)||
 ||Thursday March 24, 11am-12:00pm||Status reports||
