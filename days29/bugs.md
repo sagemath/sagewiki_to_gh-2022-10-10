@@ -26,8 +26,9 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/10933|10933 -- time fails inside function]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/9094|9094 -- is_square and sqrt for polynomials and fraction fields]] (positive review -- Robert Bradshaw)
   * Simon Spicer:
+     * [[http://trac.sagemath.org/sage_trac/ticket/9028| 9028 -- Review: Basic Stats - Standard Deviation]] (positive review -- Simon Spicer)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10799| 10799 -- Review: Solved the problem to compute resultants on certain variable orders]] (positive review -- Simon Spicer)
      * [[http://trac.sagemath.org/sage_trac/ticket/10601|10601 -- Fixed the QuaternionAlgebra constructor to accept Python ints, longs and floats as input.]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/9306|9306 -- Alters the round() command to defer to an element's .round() method if no precision is specified.]] (positive review -- Keshav Kini)
-     * [[http://trac.sagemath.org/sage_trac/ticket/2512|2512 -- Implements a condition number method for matrices whose entries are coercible to CDF.]] (needs review)
   * Gagan Sekhon
     *[[http://trac.sagemath.org/sage_trac/ticket/10832|10832 -- Simon 2-descent (all the work was done by Cremona, I just fixed some doctest)]] (positive review -- Jamie Weigandt)
