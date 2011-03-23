@@ -4,6 +4,7 @@
  * [[http://sage.math.washington.edu/home/was/tmp/ams/sage_banner.png|Banner]]
  * [[http://sage.math.washington.edu/home/was/tmp/ams/sage_poster_conference_schilly.tar.gz|Banner files]]
  * [[http://sagemath.org/old/flier2/|files for a flyer]]
+   [[http://combinat.sagemath.org/hgwebdir.cgi/misc/file/tip/articles/Sage-flier/|same files, together with French translation]]
 ----
 = Sage Days =
 == Sage Days 4 ==
