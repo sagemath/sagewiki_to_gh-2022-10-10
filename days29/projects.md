@@ -55,6 +55,7 @@ PEOPLE: Jamie Weigandt, Robert Miller, John Cremona, William Stein, Justin Walke
      *  [[attachment:ellQ2.gp|revised script]]
      *  [[attachment:ellQ2.gp.c|C version of the produced by gp2c]]
      *  [[attachment:letter1.txt|Letter from Cohen to Simon explaining what he did]]
+     *  See [[http://trac.sagemath.org/sage_trac/ticket/11005|11005]]  for an spkg and two patches (extcode and library) needing review.
 
   *  Dokchitser's scrip computel.gp (L-functions)
      *  [[attachment:TOSEND.tar|tar file contain rsults of all Cohen's work so far and usage instructions]]
