@@ -111,3 +111,13 @@ PEOPLE: William Stein, Rado Kirov, Alex Leone, Rob Beezer
  * [[http://code.google.com/r/rkirov-flask/|Flask notebook]] (Rado Kirov)
  * `MathJax` 1.1: [[http://trac.sagemath.org/sage_trac/ticket/9774|#9774]] (Rob Beezer)
  * Simple Compute Server (William Stein, Rado Kirov)
+
+== libGAP ==
+
+PEOPLE: Volker Braun, (Dmitrii Pasechnik)
+
+ * Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
+ * Code cleanup
+ * Use libtool to build shared library
+ * trap GAP errors
+ * Test on various platforms
