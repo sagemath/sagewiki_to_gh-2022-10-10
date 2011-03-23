@@ -119,6 +119,7 @@ PEOPLE: Volker Braun, (Dmitrii Pasechnik)
 
  * Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
  * Code cleanup
- * Use libtool to build shared library
+ * Use libtool to build shared library [Done]
+ * remove hardcoded input/output buffer sizes
  * trap GAP errors
  * Test on various platforms
