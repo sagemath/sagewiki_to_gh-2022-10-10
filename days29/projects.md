@@ -128,3 +128,14 @@ PEOPLE: Volker Braun, (Dmitrii Pasechnik), Ivan Andrus
  * trap GAP errors (Dima, Volker)
  * Test on various platforms, OSX needs work (Ivan Andrus)
  * Implement GAP List and rec
+
+== Riemann Theta Functions and Algebraic Curves ==
+
+PEOPLE: Chris Swierczewski, Simon Spicer
+
+ * Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/6371|#6371]] (almost done by Chris Swierczewski)
+ * Use non-GSL_BLAS for computing finite sum for Riemann theta. (Chris)
+ * Riemann Matrices: (prerequisites)
+   * Resultants over polynomial rings [[http://trac.sagemath.org/sage_trac/ticket/10799|#10799]] (positive review)
+   * Singularities of algebraic curves (elements of polynomial rings over two vars?)
+   * Puiseux series. Dependent on Dirichlet series. (Simon)
