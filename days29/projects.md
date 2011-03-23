@@ -65,7 +65,7 @@ PEOPLE: John Cremona, William Stein, Jamie Weigandt
 
 PEOPLE: Rob Beezer, John Palmieri
 
-  * [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]]  make pivots of matrices immutable (needs review)
+  * [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]]  make pivots of matrices immutable (positive review)
   * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983]]  subdivision attibute is public (positive review)
   * [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]]  vector constructor and complex numbers (positive review)
   * [[http://trac.sagemath.org/sage_trac/ticket/7392|7392]]  rank of CDF/RDF matrices
