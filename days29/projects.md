@@ -109,13 +109,14 @@ Picking up things where [[http://wiki.sagemath.org/daysff/curves|Sage Days 21]] 
 
 == Sage Notebook (Server) ==
 
-PEOPLE: William Stein, Rado Kirov, Alex Leone, Rob Beezer
+PEOPLE: William Stein, Rado Kirov, Alex Leone, Rob Beezer, Jason Grout
 
  * [[http://code.google.com/r/rkirov-flask/|Flask notebook]] (Rado Kirov)
  * [[http://code.google.com/p/sage-aleph|Sage Aleph]] (William Stein and Rado Kirov)
  * [[http://aleph.sagemath.org/|http://aleph.sagemath.org]] Aleph - simple single cell testing server, being served by apache + mod_wsgi.  
  * `MathJax` 1.1: [[http://trac.sagemath.org/sage_trac/ticket/9774|#9774]] (Rob Beezer)
  * Simple Compute Server (William Stein, Rado Kirov)
+ * [[http://code.google.com/p/simple-python-db-compute/| Simple Python Compute Server]] (enhanced from January): 
 
 == libGAP ==
 
