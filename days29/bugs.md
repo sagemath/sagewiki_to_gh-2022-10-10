@@ -34,6 +34,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/10799| 10799 -- Review: Solved the problem to compute resultants on certain variable orders]] (positive review -- Simon Spicer)
      * [[http://trac.sagemath.org/sage_trac/ticket/10601|10601 -- Fixed the QuaternionAlgebra constructor to accept Python ints, longs and floats as input.]] (positive review -- Rob Beezer)
      * [[http://trac.sagemath.org/sage_trac/ticket/9306|9306 -- Alters the round() command to defer to an element's .round() method if no precision is specified.]] (positive review -- Keshav Kini)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10761|10761 -- Fixed numerical_approx() when called on complex-valued AlgebraicNumbers]] (needs review)
   * Gagan Sekhon
     *[[http://trac.sagemath.org/sage_trac/ticket/10832|10832 -- Simon 2-descent (all the work was done by Cremona, I just fixed some doctest)]] (positive review -- Jamie Weigandt)
   * John Cremona
