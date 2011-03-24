@@ -67,10 +67,11 @@ PEOPLE: John Cremona, William Stein, Jamie Weigandt
 PEOPLE: Rob Beezer, John Palmieri
 
   * [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]]  make pivots of matrices immutable (positive review)
-  * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983]]  subdivision attibute is public (positive review)
+  * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983]]  subdivision attribute is public (positive review)
   * [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]]  vector constructor and complex numbers (positive review)
   * [[http://trac.sagemath.org/sage_trac/ticket/7392|7392]]  rank of CDF/RDF matrices
-  * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] matrix stack(), augment() methods
+  * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] matrix stack(), augment() methods (positive review)
+  * [[http://trac.sagemath.org/sage_trac/ticket/11004|11004]] tensor product subdivisions, docstring (needs review)
   * Wrap `NumPy/SciPy` Schur factorization, linear system solving routines
 
 Many patches needing review at [[http://wiki.sagemath.org/devel/LatexToWorksheet]]
