@@ -47,3 +47,5 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * [[http://trac.sagemath.org/sage_trac/ticket/11000|11000 -- GAP interface doesn't handle input with multiple lines correctly]] (needs review)
     * [[http://trac.sagemath.org/sage_trac/ticket/10469|10469 -- Don't source sage-env more than once]] (needs review)
     * [[http://trac.sagemath.org/sage_trac/ticket/7766|7766 -- Update valgrind]] (needs review, especially suppressions)
+  * Paul Ivanov
+    * [[http://sourceforge.net/support/tracker.php?aid=3189536|mpl 3189536 -- radio_buttons example has only one (the last) button active]]  Fixed in matplotlib.
