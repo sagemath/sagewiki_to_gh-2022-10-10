@@ -50,4 +50,4 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
   * Paul Ivanov
     * [[http://sourceforge.net/support/tracker.php?aid=3189536|mpl 3189536 -- radio_buttons example has only one (the last) button active]]  Fixed in matplotlib.
   * Keshav Kini and Maarten Derickx
-    * [[http://trac.sagemath.org/sage_trac/ticket/11008|11008 -- spkg test suite successes are not correctly written to the appropriate file in spkg/installed]] (npositive review -- John Palmieri)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11008|11008 -- spkg test suite successes are not correctly written to the appropriate file in spkg/installed]] (positive review -- John Palmieri)
