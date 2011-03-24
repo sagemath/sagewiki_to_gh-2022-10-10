@@ -62,7 +62,7 @@ Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms ne
 ||Wednesday March 23, 3:00pm-9pm||Coding Sprints||
 ||Thursday March 24, 10am-11am||Colloquium Talk: Fernando Perez (Scientific Computing using Python)||
 ||Thursday March 24, 11am-12:00pm||Status reports||
-||Thursday March 24, 2:00pm-2:50pm||Extra Talk: Robert Miller (Canonical Augmentation)||
+||Thursday March 24, 2:00pm-2:50pm|| [[http://tinyurl.com/63ersex|Extra Talk: Robert Miller (Canonical Augmentation)]||
 ||Thursday March 24, 3:00pm-3:50pm||[[http://people.mpim-bonn.mpg.de/mraum/data/vortrag.pdf|Extra Talk: Martin Raum (Modular Forms)]]||
 ||Thursday March 24, 4:00pm-9pm||Coding Sprints||
 ||Friday March 25, 10am-12:30pm||Status reports and demos||
