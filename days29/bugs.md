@@ -55,7 +55,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * [[http://trac.sagemath.org/sage_trac/ticket/11008|11008 -- spkg test suite successes are not correctly written to the appropriate file in spkg/installed]] (positive review -- John Palmieri)
 
 
-  * IPython team (Fernando Perez, Min Ragan-Kelley, Thomas Kluyver) Issues Closed and Pull Requests merged (45) 
+  * IPython team (Fernando Perez, Min Ragan-Kelley, Thomas Kluyver) Issues Closed and Pull Requests merged (50) 
     * Closed: [[https://github.com/ipython/ipython/issues/3|3]] Implement PBS support in ipcluster
     * Closed: [[https://github.com/ipython/ipython/issues/15|15]] Implement SGE support in ipcluster
     * Closed: [[https://github.com/ipython/ipython/issues/18|18]] %cpaste freeze sync frontend
@@ -86,6 +86,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * Closed: [[https://github.com/ipython/ipython/issues/126|126]] Can't transfer command line argument to script
     * Closed: [[https://github.com/ipython/ipython/issues/127|127]] %edit does not work on filenames consisted of pure numbers
     * Closed: [[https://github.com/ipython/ipython/issues/130|130]] Deadlock when importing a module that creates an IPython client
+    * Closed: [[https://github.com/ipython/ipython/issues/132|132]] Ipython prevent south from working
     * Closed: [[https://github.com/ipython/ipython/issues/133|133]] whitespace after Source introspection
     * Closed: [[https://github.com/ipython/ipython/issues/134|134]] multline block scrolling
     * Closed: [[https://github.com/ipython/ipython/issues/143|143]] Ipython.gui.wx.ipython_view.IPShellWidget: ignores user*_ns arguments
@@ -98,6 +99,10 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * Merged: [[https://github.com/ipython/ipython/pull/204|204]] Emacs completion bugfix
     * Closed: [[https://github.com/ipython/ipython/issues/205|205]] In the Qt console, Tab should insert 4 spaces when not completing
     * Closed: [[https://github.com/ipython/ipython/issues/212|212]] IPython ignores exceptions in the first evaulation of class attrs
+    * Merged: [[https://github.com/ipython/ipython/pull/235|235]] Fix history magic command's bugs wrt to full history and add -O option to display full history
+    * Merged: [[https://github.com/ipython/ipython/pull/236|236]] History minus p flag
     * Closed: [[https://github.com/ipython/ipython/issues/240|240]] Incorrect method displayed in %psource
+    * Merged: [[https://github.com/ipython/ipython/pull/261|261]] Adapt magic commands to new history system.
+    * Merged: [[https://github.com/ipython/ipython/pull/282|282]] SQLite history
     * Closed: [[https://github.com/ipython/ipython/issues/285|285]] ipcluster local -n 4 fails
     * Merged: [[https://github.com/ipython/ipython/pull/293|293]] Issue 133
