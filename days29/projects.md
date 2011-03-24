@@ -93,55 +93,6 @@ Issues Identified
  * [[https://github.com/ipython/ipython/issues/296|296]] Automatic PDB via %pdb doesn't work
  * [[https://github.com/ipython/ipython/issues/297|297]] Shouldn't use pexpect for subprocesses in in-process terminal frontend
 
-Issues Closed and Pull Requests merged (45)
-
- * Closed: [[https://github.com/ipython/ipython/issues/3|3]] Implement PBS support in ipcluster
- * Closed: [[https://github.com/ipython/ipython/issues/15|15]] Implement SGE support in ipcluster
- * Closed: [[https://github.com/ipython/ipython/issues/18|18]] %cpaste freeze sync frontend
- * Closed: [[https://github.com/ipython/ipython/issues/24|24]] ipcluster does not start all the engines
- * Closed: [[https://github.com/ipython/ipython/issues/27|27]] generics.complete_object broken
- * Closed: [[https://github.com/ipython/ipython/issues/28|28]] Offer finer control for initialization of input streams
- * Closed: [[https://github.com/ipython/ipython/issues/31|31]] Issues in magic_whos code
- * Closed: [[https://github.com/ipython/ipython/issues/44|44]] Merge history from multiple sessions
- * Closed: [[https://github.com/ipython/ipython/issues/46|46]] Input to %timeit is not preparsed
- * Closed: [[https://github.com/ipython/ipython/issues/51|51]] Out not working with ipythonx
- * Closed: [[https://github.com/ipython/ipython/issues/52|52]] Document testing process better
- * Closed: [[https://github.com/ipython/ipython/issues/53|53]] Internal Python error in the inspect module
- * Closed: [[https://github.com/ipython/ipython/issues/58|58]] ipython change char '0xe9' to 4 spaces
- * Closed: [[https://github.com/ipython/ipython/issues/60|60]] Improve absolute import management for iptest.py
- * Closed: [[https://github.com/ipython/ipython/issues/68|68]] Problems with Control-C stopping ipcluster on Windows/Python2.6
- * Closed: [[https://github.com/ipython/ipython/issues/74|74]] Manager() [from multiprocessing module] hangs ipythonx but not ipython
- * Closed: [[https://github.com/ipython/ipython/issues/77|77]] ipython oops in cygwin
- * Closed: [[https://github.com/ipython/ipython/issues/86|86]] Make IPython work with multiprocessing
- * Closed: [[https://github.com/ipython/ipython/issues/88|88]] Error when inputting UTF8 CJK characters
- * Closed: [[https://github.com/ipython/ipython/issues/93|93]] when looping, cursor appears at leftmost point in newline
- * Closed: [[https://github.com/ipython/ipython/issues/100|100]] Overzealous introspection
- * Closed: [[https://github.com/ipython/ipython/issues/108|108]] ipython disables python logger
- * Closed: [[https://github.com/ipython/ipython/issues/109|109]] WinHPCLauncher is a hard dependency that causes errors in the test suite
- * Closed: [[https://github.com/ipython/ipython/issues/111|111]] Iterator version of TaskClient.map() that returns results as they become available
- * Closed: [[https://github.com/ipython/ipython/issues/115|115]] multiline specials not defined in 0.11 branch
- * Closed: [[https://github.com/ipython/ipython/issues/120|120]] inspect.getsource fails for functions defined on command line
- * Closed: [[https://github.com/ipython/ipython/issues/121|121]] If plot windows are closed via window controls, no more plotting is possible.
- * Closed: [[https://github.com/ipython/ipython/issues/126|126]] Can't transfer command line argument to script
- * Closed: [[https://github.com/ipython/ipython/issues/127|127]] %edit does not work on filenames consisted of pure numbers
- * Closed: [[https://github.com/ipython/ipython/issues/130|130]] Deadlock when importing a module that creates an IPython client
- * Closed: [[https://github.com/ipython/ipython/issues/133|133]] whitespace after Source introspection
- * Closed: [[https://github.com/ipython/ipython/issues/134|134]] multline block scrolling
- * Closed: [[https://github.com/ipython/ipython/issues/143|143]] Ipython.gui.wx.ipython_view.IPShellWidget: ignores user*_ns arguments
- * Closed: [[https://github.com/ipython/ipython/issues/145|145]] Bug on MSW sytems: idle can not be set as default IPython editor. Fix Suggested.
- * Closed: [[https://github.com/ipython/ipython/issues/182|182]] ipython q4thread in version 10.1 not starting properly
- * Merged: [[https://github.com/ipython/ipython/pull/191|191]] Unbundle external libraries
- * Merged: [[https://github.com/ipython/ipython/pull/199|199]] Magic arguments
- * Closed: [[https://github.com/ipython/ipython/issues/200|200]] Unicode error when starting ipython in a folder with non-ascii path
- * Closed: [[https://github.com/ipython/ipython/issues/201|201]] use session.send throughout zmq code
- * Merged: [[https://github.com/ipython/ipython/pull/204|204]] Emacs completion bugfix
- * Closed: [[https://github.com/ipython/ipython/issues/205|205]] In the Qt console, Tab should insert 4 spaces when not completing
- * Closed: [[https://github.com/ipython/ipython/issues/212|212]] IPython ignores exceptions in the first evaulation of class attrs
- * Closed: [[https://github.com/ipython/ipython/issues/240|240]] Incorrect method displayed in %psource
- * Closed: [[https://github.com/ipython/ipython/issues/285|285]] ipcluster local -n 4 fails
- * Merged: [[https://github.com/ipython/ipython/pull/293|293]] Issue 133
-
-
 
 == matplotlib activity ==
 
