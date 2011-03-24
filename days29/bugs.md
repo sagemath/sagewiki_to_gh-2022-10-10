@@ -42,6 +42,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
   * Michael Droettboom
     * [[http://trac.sagemath.org/sage_trac/ticket/8125|8125 -- problem with "text" in matplotlib]] Fixed in matplotlib
     * [[http://trac.sagemath.org/sage_trac/ticket/10717|10717 -- Prime typeset badly on plots]] Fixed in matplotlib
+    * [[http://trac.sagemath.org/sage_trac/ticket/10980|10980 -- Make sure symbolic gridline values are okay]] Fixed in matplotlib
   * Ivan Andrus
     * [[http://trac.sagemath.org/sage_trac/ticket/11000|11000 -- GAP interface doesn't handle input with multiple lines correctly]] (needs review)
     * [[http://trac.sagemath.org/sage_trac/ticket/10469|10469 -- Don't source sage-env more than once]] (needs review)
