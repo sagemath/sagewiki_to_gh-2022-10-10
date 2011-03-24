@@ -11,7 +11,12 @@
 
 == Dates ==
 
- May 2-6, 2011.  '''''NOTE THE NEW DATES!'''''
+ May 2-6, 2011.  '''''PLEASE NOTE THE NEW DATES!'''''
+
+ * May 2-3: Introduction to Sage
+ * May 4-6: Open Developers' Meeting
+
+Participants are encouraged to come for either or both segments of the workshop.  Those attending the Developers' Meeting are encouraged to have something in mind which they would like to implement in Sage; we will also have some projects available for students to work on.
 
 == Invited Speakers ==
 
