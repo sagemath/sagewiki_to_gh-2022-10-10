@@ -50,8 +50,8 @@ For a precise list see [[/projects | days29 projects]]
 
 Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms nearest the elevator -- 310, 312 and 314 -- reserved for our use. 
 
-||Monday March 21, 9am-10am||[[http://tinyurl.com/4bb4nvo|Colloquium Talk: John Cremona (Number Theory Software)]]||
-||Monday March 21, 10am-12pm||[[http://tinyurl.com/4fazxk9|Participant introductions and coding sprint organization]]||
+||Monday March 21, 9am-10am|| Colloquium Talk: John Cremona (Number Theory Software) [[http://tinyurl.com/4bb4nvo|VIDEO]]||
+||Monday March 21, 10am-12pm||[[http://tinyurl.com/4fazxk9|Participant introductions and coding sprint organization (VIDEO)]]||
 ||Monday March 21, 1pm-9pm||Coding Sprints||
 ||Tuesday March 22, 10am-11am||[[attachment:cython-days29.pdf|Colloquium Talk: Robert Bradshaw (Cython)]] and [[http://tinyurl.com/5t33vrq|VIDEO]]||
 ||Tuesday March 22, 11am-12:00pm||Status reports||
@@ -60,7 +60,7 @@ Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms ne
 ||Wednesday March 23, 11am-12:00pm||Status reports||
 ||Wednesday, March 23, 2:00pm-2:50pm||Extra Talk: Michael Droettboom (PortingToPython3)||
 ||Wednesday March 23, 3:00pm-9pm||Coding Sprints||
-||Thursday March 24, 10am-11am|| [[http://tinyurl.com/6a2kqk8|Colloquium Talk: Fernando Perez (Scientific Computing using Python)]]||
+||Thursday March 24, 10am-11am|| Colloquium Talk: Fernando Perez (Scientific Computing using Python) [[http://tinyurl.com/6a2kqk8|VIDEO]]||
 ||Thursday March 24, 11am-12:00pm||Status reports||
 ||Thursday March 24, 2:00pm-2:50pm|| Extra Talk: Robert Miller (Canonical Augmentation) [[http://tinyurl.com/63ersex|VIDEO]]||
 ||Thursday March 24, 3:00pm-3:50pm||[[http://people.mpim-bonn.mpg.de/mraum/data/vortrag.pdf|Extra Talk: Martin Raum (Modular Forms)]]  [[http://tinyurl.com/5ux2w8f|VIDEO]] ||
