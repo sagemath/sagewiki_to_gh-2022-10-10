@@ -44,6 +44,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/11033|11033 -- Fixes bugs in automorphism groups of linear codes.]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/10994|10994 -- Bug in permutation_automorphism_group for linear codes.]] (fixed by #11033)
      * [[http://trac.sagemath.org/sage_trac/ticket/11032|11032 -- automorphism_group_binary_code crashes Sage when it can't allocate enough memory.]] (fixed by #11033)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10976|10976 -- computing order of a certain subgroup of a permutation group is double dog slow (compared to Magma)]] worked on [[http://trac.sagemath.org/sage_trac/ticket/10804|10804]] which implements the first round of data structures designed to replace GAP in computations of this type
   * Simon Spicer:
      * [[http://trac.sagemath.org/sage_trac/ticket/9028| 9028 -- Review: Basic Stats - Standard Deviation]] (positive review -- Simon Spicer)
      * [[http://trac.sagemath.org/sage_trac/ticket/10799| 10799 -- Review: Solved the problem to compute resultants on certain variable orders]] (positive review -- Simon Spicer)
