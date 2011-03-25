@@ -8,6 +8,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
   * Rob Beezer:
      * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974 -- Overhaul, fix matrix augment, stack]]  (positive review -- Keshav Kini)
      * [[http://trac.sagemath.org/sage_trac/ticket/10470|10470 -- Don't list infinite vector spaces]] (positive review -- John Palmieri)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10545|10545 -- Add the outer product of two vectors]] (positive -- John Palmieri)
      * [[http://trac.sagemath.org/sage_trac/ticket/10737|10737 -- Extended echelon form]] (positive review -- John Palmieri)
      * [[http://trac.sagemath.org/sage_trac/ticket/10977|10977 -- Document vector constructor behavior]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/11004|11004 -- make subdivisions optional for tensor products of matrices]] (positive review -- John Palmieri)
