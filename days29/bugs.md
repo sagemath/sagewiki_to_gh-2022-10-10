@@ -47,6 +47,8 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/10601|10601 -- Fixed the QuaternionAlgebra constructor to accept Python ints, longs and floats as input.]] (positive review -- Rob Beezer)
      * [[http://trac.sagemath.org/sage_trac/ticket/9306|9306 -- Alters the round() command to defer to an element's .round() method if no precision is specified.]] (positive review -- Keshav Kini)
      * [[http://trac.sagemath.org/sage_trac/ticket/10761|10761 -- Fixed numerical_approx() when called on complex-valued AlgebraicNumbers]] (positive review -- Rob Beezer)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10794|10794 -- Review: QR decomposition for matrices over exact rings]] (positive review -- Simon Spicer)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10934|10934 -- Review: Implement is_maximal() for ideals of quotient rings of ZZ]] (positive review -- Simon Spicer)
   * Chris Swierczewski:
     *  [[http://trac.sagemath.org/sage_trac/ticket/6371|6371 -- Implement Riemann theta functions]] (needs review)
  
