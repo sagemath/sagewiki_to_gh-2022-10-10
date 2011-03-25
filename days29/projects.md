@@ -39,11 +39,11 @@ PEOPLE: Justin Walker
 == Number Theory/Elliptic Curves ==
 PEOPLE: Justin Walker, Gagan Sekhon, William Stein, Rado Kirov, John Cremona, Aly Deines, Jen Balakrishnan, Jamie Weigandt
  *   [[http://trac.sagemath.org/sage_trac/ticket/10973|10973]]      Integer points for curves over number fields: Import Nook/Cremona/Kirov/Anderson code into Sage
- *  [[http://trac.sagemath.org/sage_trac/ticket/10832|10832]] Bug in simon_two_descent() (positively reviewed -- Weigandt)
+ *  [[http://trac.sagemath.org/sage_trac/ticket/10832|10832]] Bug in simon_two_descent() (positive review)
  *  [[http://trac.sagemath.org/sage_trac/ticket/10745|10745]] Bug in Elliptic curves gens()
  *  [[http://trac.sagemath.org/sage_trac/ticket/10581|10581]] Change Large Cremona Database to mongodb format and extend it.
  *  [[http://trac.sagemath.org/sage_trac/ticket/10152|10152]] Bug in integral_points (for elliptic curves over Q)
- *  [[http://trac.sagemath.org/sage_trac/ticket/9371|9371]] 2-torsion rank over arbitrary fields
+ *  [[http://trac.sagemath.org/sage_trac/ticket/9371|9371]] 2-torsion rank over arbitrary fields (positive review)
  
 At Sage Days22, Rado Kirov and Jackie Anderson ported Magma code by John Cremona's student Nook (Thotsaphon Thongjunthug), to Sage.  The code adds support to Sage for finding integral points on elliptic curves over a number field.  This week, we moved this code into the Sage library, and made minor changes to support curves defined over the rationals as well. This code seems to fix #10152, and has been added to #10973 as a patch.  There are currently issues with performance, when compared with existing Magma code (when processing curves over Q).  We are looking at the performance issues (John, Gagan) and working on Nook's Magma code to add support for curves over Q (John, Justin).  Jen is working on her thesis.
 
