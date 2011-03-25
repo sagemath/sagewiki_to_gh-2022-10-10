@@ -75,7 +75,8 @@ PEOPLE: Rob Beezer, John Palmieri
   * [[http://trac.sagemath.org/sage_trac/ticket/7392|7392]]  rank of CDF/RDF matrices
   * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] matrix stack(), augment() methods (positive review)
   * [[http://trac.sagemath.org/sage_trac/ticket/11004|11004]] tensor product subdivisions, docstring (needs review)
-  * Wrap `NumPy/SciPy` Schur factorization, linear system solving routines
+  * [[http://trac.sagemath.org/sage_trac/ticket/11007|11007]] wrap `NumPy/SciPy` Schur factorization (needs review)
+  * linear system solving routines, RDF/CDF matrix decompositions
 
 Many patches needing review at [[http://wiki.sagemath.org/devel/LatexToWorksheet]]
 
