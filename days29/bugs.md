@@ -73,14 +73,18 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * [[http://trac.sagemath.org/sage_trac/ticket/11008|11008 -- spkg test suite successes are not correctly written to the appropriate file in spkg/installed]] (positive review -- John Palmieri)
 
 
-  * IPython team (Fernando Perez, Min Ragan-Kelley, Thomas Kluyver) Issues Closed and Pull Requests merged (50) 
+  * IPython team (Fernando Perez, Min Ragan-Kelley, Thomas Kluyver) Issues Closed and Pull Requests merged (62) 
     * Closed: [[https://github.com/ipython/ipython/issues/3|3]] Implement PBS support in ipcluster
+    * Closed: [[https://github.com/ipython/ipython/issues/6|6]] Update the Sphinx docs for the new ipcluster
+    * Closed: [[https://github.com/ipython/ipython/issues/9|9]] Getting "DeadReferenceError: Calling Stale Broker" after ipcontroller restart
     * Closed: [[https://github.com/ipython/ipython/issues/15|15]] Implement SGE support in ipcluster
     * Closed: [[https://github.com/ipython/ipython/issues/18|18]] %cpaste freeze sync frontend
     * Closed: [[https://github.com/ipython/ipython/issues/24|24]] ipcluster does not start all the engines
+    * Closed: [[https://github.com/ipython/ipython/issues/25|25]] unicode bug - encoding input
     * Closed: [[https://github.com/ipython/ipython/issues/27|27]] generics.complete_object broken
     * Closed: [[https://github.com/ipython/ipython/issues/28|28]] Offer finer control for initialization of input streams
     * Closed: [[https://github.com/ipython/ipython/issues/31|31]] Issues in magic_whos code
+    * Closed: [[https://github.com/ipython/ipython/issues/43|43]] Implement SSH support in ipcluster
     * Closed: [[https://github.com/ipython/ipython/issues/44|44]] Merge history from multiple sessions
     * Closed: [[https://github.com/ipython/ipython/issues/46|46]] Input to %timeit is not preparsed
     * Closed: [[https://github.com/ipython/ipython/issues/51|51]] Out not working with ipythonx
@@ -111,16 +115,24 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * Closed: [[https://github.com/ipython/ipython/issues/145|145]] Bug on MSW sytems: idle can not be set as default IPython editor. Fix Suggested.
     * Closed: [[https://github.com/ipython/ipython/issues/182|182]] ipython q4thread in version 10.1 not starting properly
     * Merged: [[https://github.com/ipython/ipython/pull/191|191]] Unbundle external libraries
+    * Closed: [[https://github.com/ipython/ipython/issues/196|196]] IPython can't deal with unicode file name.
     * Merged: [[https://github.com/ipython/ipython/pull/199|199]] Magic arguments
     * Closed: [[https://github.com/ipython/ipython/issues/200|200]] Unicode error when starting ipython in a folder with non-ascii path
     * Closed: [[https://github.com/ipython/ipython/issues/201|201]] use session.send throughout zmq code
+    * Closed: [[https://github.com/ipython/ipython/issues/202|202]] Matplotlib native 'MacOSX' backend broken in '-pylab' mode
     * Merged: [[https://github.com/ipython/ipython/pull/204|204]] Emacs completion bugfix
     * Closed: [[https://github.com/ipython/ipython/issues/205|205]] In the Qt console, Tab should insert 4 spaces when not completing
     * Closed: [[https://github.com/ipython/ipython/issues/212|212]] IPython ignores exceptions in the first evaulation of class attrs
     * Merged: [[https://github.com/ipython/ipython/pull/235|235]] Fix history magic command's bugs wrt to full history and add -O option to display full history
     * Merged: [[https://github.com/ipython/ipython/pull/236|236]] History minus p flag
     * Closed: [[https://github.com/ipython/ipython/issues/240|240]] Incorrect method displayed in %psource
+    * Merged: [[https://github.com/ipython/ipython/pull/252|252]] Unicode issues
     * Merged: [[https://github.com/ipython/ipython/pull/261|261]] Adapt magic commands to new history system.
     * Merged: [[https://github.com/ipython/ipython/pull/282|282]] SQLite history
     * Closed: [[https://github.com/ipython/ipython/issues/285|285]] ipcluster local -n 4 fails
+    * Closed: [[https://github.com/ipython/ipython/issues/290|290]] try/except/else clauses can't be typed, code input stops too early.
+    * Merged: [[https://github.com/ipython/ipython/pull/292|292]] Issue 31
     * Merged: [[https://github.com/ipython/ipython/pull/293|293]] Issue 133
+    * Merged: [[https://github.com/ipython/ipython/pull/294|294]] Issue 290
+    * Merged: [[https://github.com/ipython/ipython/pull/311|311]] Qtconsole exit
+    * Merged: [[https://github.com/ipython/ipython/pull/312|312]] History memory
