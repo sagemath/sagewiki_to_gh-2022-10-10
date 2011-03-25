@@ -134,14 +134,15 @@ PEOPLE: William Stein, Rado Kirov, Alex Leone, Rob Beezer, Jason Grout
 PEOPLE: Volker Braun, (Dmitrii Pasechnik), Ivan Andrus
 
  * Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/6391|#6391]]
- * Documentation: [[http://www.stp.dias.ie/~vbraun/Sage/html/en/reference/sage/libs/gap/gap.html]]
- * Code cleanup
+ * Documentation: [[http://www.stp.dias.ie/~vbraun/Sage/html/en/reference/sage/libs/gap/libgap.html]]
+ * Code cleanup (Volker, Ivan)
  * Interact with GASMAN (GAP memory manager) to keep alive Gap Objects as long as needed. (Volker)
  * Use libtool to build shared library (Volker)
  * remove hardcoded input/output buffer sizes
  * trap GAP errors (Dima, Volker)
- * Test on various platforms, OSX needs work (Ivan Andrus)
- * Implement GAP List and rec (Volker)
+ * Test on various platforms, Linux+OSX works (Volker, Ivan Andrus)
+ * Implemented special classes for GAP lists, records, and functions (Volker)
+ * Implemented conversion GAP->Sage for booleans, integers, rationals, cyclotomics, permutations (Volker)
 
 == Riemann Theta Functions and Algebraic Curves ==
 
