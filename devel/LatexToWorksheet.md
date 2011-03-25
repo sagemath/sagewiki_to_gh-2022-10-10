@@ -66,6 +66,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || positive review || Karl-Dieter Crisman ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] || overhaul matrix stack, augment || positive review || Keshav Kini ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10977|10977]] || document vector constructor || positive review || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11004|11004]] || make subdivisions optional on tensor product || positive review || John Palmieri ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
@@ -75,9 +76,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patch, dep. 10536, 10683, 10794 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || with patch ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || with patch ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11004|11004]] || make subdivisions optional on tensor product || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
@@ -88,7 +87,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10544|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || orphaned ||  ||
-
+|| [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || needs work ||  ||
 
 == Group Theory Patches ==
 
