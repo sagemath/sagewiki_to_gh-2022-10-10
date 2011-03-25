@@ -14,6 +14,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/11004|11004 -- make subdivisions optional for tensor products of matrices]] (positive review -- John Palmieri)
   * John Palmieri:
      * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983 -- replace subdivisions attribute for matrices with a function]] (positive review -- Rob Beezer)
+     * [[http://trac.sagemath.org/sage_trac/ticket/9960|9960 -- require SAGE_CHECK to be "yes"]] (positive review -- Leif Leonhardy, Ivan Andrus, David Kirkby).  This patch also fixes [[http://trac.sagemath.org/sage_trac/ticket/4029|4029 -- sage-env kills the shell when called from "wrong" directory]].
      * [[http://trac.sagemath.org/sage_trac/ticket/10752|10752 -- matrix pivots should be immutable]] (positive review -- Rob Beezer)
   * Rob Beezer and John Palmieri:
      * [[http://trac.sagemath.org/sage_trac/ticket/10595|10595 -- vector constructor fails on empty list]] (positive review -- Dmitrii Pasechnik, Rob Beezer, and John Palmieri)
