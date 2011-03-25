@@ -73,7 +73,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * [[http://trac.sagemath.org/sage_trac/ticket/11008|11008 -- spkg test suite successes are not correctly written to the appropriate file in spkg/installed]] (positive review -- John Palmieri)
 
 
-  * IPython team (Fernando Perez, Min Ragan-Kelley, Thomas Kluyver) Issues Closed and Pull Requests merged (62) 
+  * IPython team (Fernando Perez, Min Ragan-Kelley, Thomas Kluyver) Issues Closed and Pull Requests merged (63) 
     * Closed: [[https://github.com/ipython/ipython/issues/3|3]] Implement PBS support in ipcluster
     * Closed: [[https://github.com/ipython/ipython/issues/6|6]] Update the Sphinx docs for the new ipcluster
     * Closed: [[https://github.com/ipython/ipython/issues/9|9]] Getting "DeadReferenceError: Calling Stale Broker" after ipcontroller restart
@@ -136,3 +136,4 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * Merged: [[https://github.com/ipython/ipython/pull/294|294]] Issue 290
     * Merged: [[https://github.com/ipython/ipython/pull/311|311]] Qtconsole exit
     * Merged: [[https://github.com/ipython/ipython/pull/312|312]] History memory
+    * Closed: [[https://github.com/ipython/ipython/issues/314|314]] Multi-line, multi-block cells can't be executed.
