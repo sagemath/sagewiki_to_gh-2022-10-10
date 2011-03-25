@@ -61,6 +61,7 @@ PEOPLE: Jamie Weigandt, Robert Miller, John Cremona, William Stein, Justin Walke
 
   *  Dokchitser's scrip computel.gp (L-functions)
      *  [[attachment:TOSEND.tar|tar file contain rsults of all Cohen's work so far and usage instructions]]
+     *  You can find a trac ticket with spkg and a refactored wrapper at [[http://trac.sagemath.org/sage_trac/ticket/11024|11024]]
 
 PEOPLE: John Cremona, William Stein, Jamie Weigandt
 
