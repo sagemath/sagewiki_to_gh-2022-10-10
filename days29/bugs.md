@@ -44,6 +44,12 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
   * John Cremona
     * [[http://trac.sagemath.org/sage_trac/ticket/10840|10840 -- bug in saturation for elliptic curves over Q]] (positive review by Gagan Sekhon)
     * [[http://trac.sagemath.org/sage_trac/ticket/10999|10999 -- Elliptic curve generators from the database lie on the wrong curve]] (needs review)
+
+  * Justin Walker
+    * [[http://trac.sagemath.org/sage_trac/ticket/4120|4120 -- New code for binary quadratic forms]] (needs review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/10521|10521 -- bug in integral_points (for elliptic curves over Q)]] (May be fixed by 10973)
+    * [[http://trac.sagemath.org/sage_trac/ticket/10973|10973 -- Integral points on elliptic curves over number fields]] (Close, but needs work)
+
   * Michael Droettboom
     * [[http://trac.sagemath.org/sage_trac/ticket/8125|8125 -- problem with "text" in matplotlib]] Fixed in matplotlib
     * [[http://trac.sagemath.org/sage_trac/ticket/10717|10717 -- Prime typeset badly on plots]] Fixed in matplotlib
