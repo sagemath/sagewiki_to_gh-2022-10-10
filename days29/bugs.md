@@ -58,9 +58,11 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
  
   * Gagan Sekhon
     *[[http://trac.sagemath.org/sage_trac/ticket/10832|10832 -- Simon 2-descent (all the work was done by Cremona, I just fixed some doctest)]] (positive review -- Jamie Weigandt)
+
   * John Cremona
     * [[http://trac.sagemath.org/sage_trac/ticket/10840|10840 -- bug in saturation for elliptic curves over Q]] (positive review by Gagan Sekhon)
     * [[http://trac.sagemath.org/sage_trac/ticket/10999|10999 -- Elliptic curve generators from the database lie on the wrong curve]] (needs review)
+    * Enhancement: [[http://trac.sagemath.org/sage_trac/ticket/11005|11005 -- Update Simon's GP scripts and convert to use via gp2c]] (under review by Martin Raum)
 
   * Justin Walker
     * [[http://trac.sagemath.org/sage_trac/ticket/4120|4120 -- New code for binary quadratic forms]] (needs review)
