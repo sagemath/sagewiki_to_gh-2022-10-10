@@ -9,6 +9,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974 -- Overhaul, fix matrix augment, stack]]  (positive review -- Keshav Kini)
      * [[http://trac.sagemath.org/sage_trac/ticket/10470|10470 -- Don't list infinite vector spaces]] (positive review -- John Palmieri)
      * [[http://trac.sagemath.org/sage_trac/ticket/10737|10737 -- Extended echelon form]] (positive review -- John Palmieri)
+     * [[http://trac.sagemath.org/sage_trac/ticket/11004|11004 -- make subdivisions optional for tensor products of matrices]] (positive review -- John Palmieri)
   * John Palmieri:
      * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983 -- replace subdivisions attribute for matrices with a function]] (positive review -- Rob Beezer)
      * [[http://trac.sagemath.org/sage_trac/ticket/10752|10752 -- matrix pivots should be immutable]] (positive review -- Rob Beezer)
