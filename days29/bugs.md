@@ -21,8 +21,8 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/4578|4578 -- Optimize modular symbols decomposition algorithm]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/10987|10987 -- Add optional arguement to decomposition_of_subspace making restrict not check the subspace]] (positive review -- Rob Beezer)
      * [[http://trac.sagemath.org/sage_trac/ticket/6670|6670 -- Port group algebras to the current coercion system]] (needs review)
-     * [[http://trac.sagemath.org/sage_trac/ticket/11017|11017 -- GP blocks files when reallocating memory; Workaround]] (needs review)
-     * [[http://trac.sagemath.org/sage_trac/ticket/11024|11024 -- Update Dokchitser calculator to compiled version]] (needs review)
+     * [[http://trac.sagemath.org/sage_trac/ticket/11017|11017 -- GP blocks files when reallocating memory; Workaround]] (under review by John Cremona)
+     * [[http://trac.sagemath.org/sage_trac/ticket/11024|11024 -- Update Dokchitser calculator to compiled version]] (under review by John Cremona)
      * [[http://trac.sagemath.org/sage_trac/ticket/10863|10863 -- Review: Add check for orthogonal/unitary matrices]]  (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/10802|10802 -- Review: Singular values of matrices over CDF]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/10977|10977 -- Review: Document vector constructor behavior]]
