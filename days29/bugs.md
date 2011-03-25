@@ -151,3 +151,64 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * Merged: [[https://github.com/ipython/ipython/pull/312|312]] History memory
     * Merged: [[https://github.com/ipython/ipython/pull/313|313]] Readline shortcuts
     * Closed: [[https://github.com/ipython/ipython/issues/314|314]] Multi-line, multi-block cells can't be executed.
+  * NumPy (Chuck Harris, Mark Wiebe) From http://projects.scipy.org/numpy/timeline
+    * Bugs fixed:
+      * Ticket #1779 (array.tolist() speed enhancement) closed by mwiebe
+      * Ticket #1780 (nditer broadcasting test failure under python 2.4) closed by mwiebe
+      * Ticket #766 (fastCopyAndTranspose segfaults) closed by mwiebe
+      * Ticket #1675 (No support for `__format__` in scalars/arrays) closed by mwiebe
+    * Bugs closed from triage:
+      * Ticket #38 (strides accepted as an argument to records.array) closed by mwiebe
+      * Ticket #213 (SharedLibrary builder for numpy.distutils) closed by mwiebe
+      * Ticket #244 (Build fails with Intel Visual Fortran compiler) closed by mwiebe
+      * Ticket #260 (Add mechanism for registering objects to be deallocated and memory-to-be ...) closed by mwiebe
+      * Ticket #338 (Valgrind warning when calling scipy.interpolate.interp1d) closed by mwiebe
+      * Ticket #398 (Compatibility loader for old Numeric pickles) closed by mwiebe
+      * Ticket #400 (C API access to fft for C scipy extension ?) closed by mwiebe
+      * Ticket #402 (newaxis incompatible with array indexing) closed by mwiebe
+      * Ticket #416 (The docstrings of functions which take an out= parameter should mention ...) closed by mwiebe
+      * Ticket #417 (Numpy 1.0.1 compilation fails on IRIX 6.5) closed by mwiebe
+      * Ticket #468 (Use ellipses to auto complete indices for slice assignments) closed by mwiebe
+      * Ticket #619 (remove split_quoted in numpy.distutils.ccompiler) closed by mwiebe
+      * Ticket #695 (No test for r4836) closed by mwiebe
+      * Ticket #721 (0-dimensional boolean arrays should work as masks for array scalars) closed by mwiebe
+      * Ticket #722 (Write tests to confirm that methods preserve arrays/matrices) closed by mwiebe
+      * Ticket #741 (Extend numpy.dot() to accept more than 2 arrays.) closed by mwiebe
+      * Ticket #756 (String conversion should be supported for arithmetic operators.) closed by mwiebe
+      * Ticket #758 (g3 f2py clean up) closed by mwiebe
+      * Ticket #762 (Figure out why fixing #743 fixed #733 too.) closed by mwiebe
+      * Ticket #772 (Valgrind warning when running test for compress2d) closed by mwiebe
+      * Ticket #819 (.flat reorders data) closed by mwiebe
+      * Ticket #1608 (numpy.sort on x.flat modifies x) closed by mwiebe
+      * Ticket #867 (Array generation fail) closed by mwiebe
+      * Ticket #875 (numpy.lib.io.save fails with NameError) closed by mwiebe
+      * Ticket #909 (fromstring() / fromfile() Enhancements) closed by mwiebe
+      * Ticket #980 (NaN's are silenty converted to ints) closed by mwiebe
+      * Ticket #982 (Problem accessing data attribute of ndarray object created with certain ...) closed by mwiebe
+      * Ticket #987 (random.exponential() seems to use the reciprocal rate prarameter instead ...) closed by mwiebe
+      * Ticket #1012 (dtype attributes change after an arithmetic operation involving a scalar) closed by mwiebe
+      * Ticket #1024 (Untested changes to numpy.lib.io in r6345) closed by mwiebe
+      * Ticket #1032 (Crash on fastputmask on win32) closed by mwiebe
+      * Ticket #1035 (Fix up Nan handling for max/amax/argmax/fmac + min/sort equivalent) closed by mwiebe
+      * Ticket #1037 (Pickling/unpickling empty unicode types does not work) closed by mwiebe
+      * Ticket #1046 (+SKIP option to doctests is not supported by python 2.4) closed by mwiebe
+      * Ticket #1054 (Feature request: intent(transpose) option in f2py) closed by mwiebe
+      * Ticket #1056 (typedef npy_intp to Py_ssize_t (cf. PEP353)) closed by mwiebe
+      * Ticket #1097 (polydiv should be duck-typing safe) closed by charris
+      * Ticket #1081 (Strange behavior of array() in a corner case) closed by charris
+      * Ticket #1068 (numpy crashes on long double computation on windows for amd64) closed by charris
+      * Ticket #1082 (numpybook doesn't build) closed by mwiebe
+      * Ticket #1091 (crackfortran patch needed) closed by mwiebe
+      * Ticket #1094 (masked array autotest fails with bus error) closed by mwiebe
+      * Ticket #1136 (Multiplying Python float to numpy.array of objects works but fails with a ...) closed by mwiebe
+      * Ticket #1174 (FAIL: test_testUfuncRegression (test_old_ma.TestUfuncs)) closed by mwiebe
+      * Ticket #1180 (numpy.average: add an option to skip 'None' values from count) closed by mwiebe
+      * Ticket #1224 (discrepencies in found tests between numscons and distutils builds) closed by mwiebe
+      * Ticket #1225 (datetime64 and timedelta64 tests) closed by mwiebe
+      * Ticket #1265 (64bit System: take raises TypeError when using int64 indices) closed by charris
+      * Ticket #1258 (numpy.array does not upconvert from float to store complex types) closed by mwiebe
+      * Ticket #1277 (Constructing real arrays with complex numbers leads to funny errors) closed by mwiebe
+      * Ticket #1304 (Bug in handling '|S0' format string) closed by mwiebe
+      * Ticket #1321 (A dtype should be immutable) closed by mwiebe
+      * Ticket #1718 ("shape mismatch" error is not informative) closed by mwiebe
+      * Ticket #1640 (structured array incorrectly gives a broadcast error) closed by mwiebe
