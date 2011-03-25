@@ -82,6 +82,9 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * [[http://trac.sagemath.org/sage_trac/ticket/7766|7766 -- Update valgrind]] (needs review, especially suppressions)
   * Paul Ivanov
     * [[http://sourceforge.net/support/tracker.php?aid=3189536|mpl 3189536 -- radio_buttons example has only one (the last) button active]]  Fixed in matplotlib.
+    * (work in progress) mpl 3187864 matplotlib with QGIS memory error on Suse 11.3
+    * (work in progress) mpl 3205391  	gtkagg.so hanging plot creation
+
   * Keshav Kini and Maarten Derickx
     * [[http://trac.sagemath.org/sage_trac/ticket/11008|11008 -- spkg test suite successes are not correctly written to the appropriate file in spkg/installed]] (positive review -- John Palmieri)
 
