@@ -5,6 +5,9 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/10975|10975 -- creation of certain prime finite fields is double dog slow (compared to Magma)]] (positive review -- David Roe)
      * [[http://trac.sagemath.org/sage_trac/ticket/9705|9705 -- trouble with long lines in notebook magma mode]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/8998|8998 -- galois_action on cusps has a bug]] (positive review)
+     * [[http://trac.sagemath.org/sage_trac/ticket/11007|11007 -- heegner points -- a nonsquarefree case]] (not finished)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10836|10836 -- primitive root is broken]] (positive review)
+
   * Rob Beezer:
      * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974 -- Overhaul, fix matrix augment, stack]]  (positive review -- Keshav Kini)
      * [[http://trac.sagemath.org/sage_trac/ticket/10470|10470 -- Don't list infinite vector spaces]] (positive review -- John Palmieri)
