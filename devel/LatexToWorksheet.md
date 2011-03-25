@@ -66,7 +66,6 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10863|10863]] || is_unitary() for matrices || positive review || Martin Raum ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10794|10794]] || QR matrix decomposition over exact rings || with patch, dep. 10536, 10683 ||  ||
@@ -79,6 +78,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/11004|11004]] || make subdivisions optional on tensor product || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch; needs work ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch; needs work ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4932 | 4932]] || remove solve-left-LU || needs work ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7392 | 7392]] || rank for matrices over CDF || new ||  ||
