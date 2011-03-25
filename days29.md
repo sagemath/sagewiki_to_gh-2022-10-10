@@ -134,4 +134,6 @@ Here are some photos, add yours!
 
   * [[http://tinyurl.com/47pfysc|William's Snapshots on the Last Day]]
 
+  * [[http://pirsquared.org/seattle/|Paul Ivanov's Pictures]]
+
 {{http://pirsquared.org/seattle/03212011517.jpg|Day 1|}}
