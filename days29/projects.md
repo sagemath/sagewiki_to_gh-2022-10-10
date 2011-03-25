@@ -144,7 +144,7 @@ PEOPLE: Volker Braun, (Dmitrii Pasechnik), Ivan Andrus
 
 PEOPLE: Chris Swierczewski, Simon Spicer
 
- * Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/6371|#6371]] (almost done by Chris Swierczewski)
+ * Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/6371|#6371]] (Chris, needs review)
  * Use non-GSL_BLAS for computing finite sum for Riemann theta. (Chris)
  * For better performance, determine eccentricity of bounding ellipsoid and apply Siegel transformation.
  * Riemann Matrices: (prerequisites)
