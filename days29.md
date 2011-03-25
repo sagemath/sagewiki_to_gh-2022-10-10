@@ -53,7 +53,7 @@ Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms ne
 ||Monday March 21, 9am-10am||[[http://tinyurl.com/4bb4nvo|Colloquium Talk: John Cremona (Number Theory Software)]]||
 ||Monday March 21, 10am-12pm||[[http://tinyurl.com/4fazxk9|Participant introductions and coding sprint organization]]||
 ||Monday March 21, 1pm-9pm||Coding Sprints||
-||Tuesday March 22, 10am-11am||[[attachment:cython-days29.pdf|Colloquium Talk: Robert Bradshaw (Cython)]] and [[http://tinyurl.com/5t33vrq|Video of the talk]]||
+||Tuesday March 22, 10am-11am||[[attachment:cython-days29.pdf|Colloquium Talk: Robert Bradshaw (Cython)]] and [[http://tinyurl.com/5t33vrq|VIDEO]]||
 ||Tuesday March 22, 11am-12:00pm||Status reports||
 ||Tuesday March 22, 1:30pm-9pm||Coding Sprints||
 ||Wednesday March 23, 10am-11am||Colloquium Talk: Rado Kirov (The Sage Notebook)||
@@ -62,8 +62,8 @@ Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms ne
 ||Wednesday March 23, 3:00pm-9pm||Coding Sprints||
 ||Thursday March 24, 10am-11am|| [[http://tinyurl.com/6a2kqk8|Colloquium Talk: Fernando Perez (Scientific Computing using Python)]]||
 ||Thursday March 24, 11am-12:00pm||Status reports||
-||Thursday March 24, 2:00pm-2:50pm|| [[http://tinyurl.com/63ersex|Extra Talk: Robert Miller (Canonical Augmentation)]]||
-||Thursday March 24, 3:00pm-3:50pm||[[http://people.mpim-bonn.mpg.de/mraum/data/vortrag.pdf|Extra Talk: Martin Raum (Modular Forms)]]||
+||Thursday March 24, 2:00pm-2:50pm|| Extra Talk: Robert Miller (Canonical Augmentation) [[http://tinyurl.com/63ersex|VIDEO]]||
+||Thursday March 24, 3:00pm-3:50pm||[[http://people.mpim-bonn.mpg.de/mraum/data/vortrag.pdf|Extra Talk: Martin Raum (Modular Forms)]]  [[http://tinyurl.com/5ux2w8f|VIDEO]] ||
 ||Thursday March 24, 4:00pm-9pm||Coding Sprints||
 ||Friday March 25, 10am-12:30pm||Status reports and demos||
 ||Friday March 25, 2pm-9pm||Coding Sprints||
