@@ -17,8 +17,10 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/11004|11004 -- make subdivisions optional for tensor products of matrices]] (positive review -- John Palmieri)
   * John Palmieri:
      * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983 -- replace subdivisions attribute for matrices with a function]] (positive review -- Rob Beezer)
+     * [[http://trac.sagemath.org/sage_trac/ticket/7105|7105 -- open search results in new tabs]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/9960|9960 -- require SAGE_CHECK to be "yes"]] (positive review -- Leif Leonhardy, Ivan Andrus, David Kirkby).  This patch also fixes [[http://trac.sagemath.org/sage_trac/ticket/4029|4029 -- sage-env kills the shell when called from "wrong" directory]].
      * [[http://trac.sagemath.org/sage_trac/ticket/10752|10752 -- matrix pivots should be immutable]] (positive review -- Rob Beezer)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10822|10822 -- sage -sh doesn't set the path right if default shell is zsh on OSX]] (needs review)
   * Rob Beezer and John Palmieri:
      * [[http://trac.sagemath.org/sage_trac/ticket/10595|10595 -- vector constructor fails on empty list]] (positive review -- Dmitrii Pasechnik, Rob Beezer, and John Palmieri)
   * Martin Raum:
@@ -32,7 +34,13 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/11024|11024 -- Update Dokchitser calculator to compiled version]] (under review by John Cremona)
      * [[http://trac.sagemath.org/sage_trac/ticket/10863|10863 -- Review: Add check for orthogonal/unitary matrices]]  (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/10802|10802 -- Review: Singular values of matrices over CDF]] (positive review -- Martin Raum)
+
+---- /!\ '''Edit conflict - other version:''' ----
      * [[http://trac.sagemath.org/sage_trac/ticket/6670|6670 -- Port group algebras to the current coercion system]] (enhancement, work in progress)
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
   * Moritz Minzlaff:
      * [[http://trac.sagemath.org/sage_trac/ticket/9053|9053 -- fixes computation of pivots]] (positive review -- Keshav Kini)
   * Maarten Derickx:
