@@ -9,6 +9,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/10974|10974 -- Overhaul, fix matrix augment, stack]]  (positive review -- Keshav Kini)
      * [[http://trac.sagemath.org/sage_trac/ticket/10470|10470 -- Don't list infinite vector spaces]] (positive review -- John Palmieri)
      * [[http://trac.sagemath.org/sage_trac/ticket/10737|10737 -- Extended echelon form]] (positive review -- John Palmieri)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10977|10977 -- Document vector constructor behavior]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/11004|11004 -- make subdivisions optional for tensor products of matrices]] (positive review -- John Palmieri)
   * John Palmieri:
      * [[http://trac.sagemath.org/sage_trac/ticket/4983|4983 -- replace subdivisions attribute for matrices with a function]] (positive review -- Rob Beezer)
@@ -26,7 +27,6 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/11024|11024 -- Update Dokchitser calculator to compiled version]] (under review by John Cremona)
      * [[http://trac.sagemath.org/sage_trac/ticket/10863|10863 -- Review: Add check for orthogonal/unitary matrices]]  (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/10802|10802 -- Review: Singular values of matrices over CDF]] (positive review -- Martin Raum)
-     * [[http://trac.sagemath.org/sage_trac/ticket/10977|10977 -- Review: Document vector constructor behavior]]
   * Moritz Minzlaff:
      * [[http://trac.sagemath.org/sage_trac/ticket/9053|9053 -- fixes computation of pivots]] (positive review -- Keshav Kini)
   * Maarten Derickx:
