@@ -1,7 +1,7 @@
 Use this page to keep track of the bugs fixed during Sage Days 29.
 
   * William Stein:
-     * [[http://trac.sagemath.org/sage_trac/ticket/10937|10937 -- bug in Dokchitser L.init_coeffs]]  (positive review -- Robert Bradshaw)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10937|10937 -- bug in Dokchitser L.init_Johncoeffs]]  (positive review -- Robert Bradshaw)
      * [[http://trac.sagemath.org/sage_trac/ticket/10975|10975 -- creation of certain prime finite fields is double dog slow (compared to Magma)]] (positive review -- David Roe)
      * [[http://trac.sagemath.org/sage_trac/ticket/9705|9705 -- trouble with long lines in notebook magma mode]] (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/8998|8998 -- galois_action on cusps has a bug]] (positive review)
@@ -25,7 +25,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/4578|4578 -- Optimize modular symbols decomposition algorithm]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/10987|10987 -- Add optional arguement to decomposition_of_subspace making restrict not check the subspace]] (positive review -- Rob Beezer)
      * [[http://trac.sagemath.org/sage_trac/ticket/6670|6670 -- Port group algebras to the current coercion system]] (needs review)
-     * [[http://trac.sagemath.org/sage_trac/ticket/11017|11017 -- GP blocks files when reallocating memory; Workaround]] (under review by John Cremona)
+     * [[http://trac.sagemath.org/sage_trac/ticket/11017|11017 -- GP blocks files when reallocating memory; Workaround]] (positive review by John Cremona)
      * [[http://trac.sagemath.org/sage_trac/ticket/11024|11024 -- Update Dokchitser calculator to compiled version]] (under review by John Cremona)
      * [[http://trac.sagemath.org/sage_trac/ticket/10863|10863 -- Review: Add check for orthogonal/unitary matrices]]  (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/10802|10802 -- Review: Singular values of matrices over CDF]] (positive review -- Martin Raum)
