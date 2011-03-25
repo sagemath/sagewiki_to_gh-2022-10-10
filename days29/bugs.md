@@ -24,6 +24,7 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/11017|11017 -- GP blocks files when reallocating memory; Workaround]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/11024|11024 -- Update Dokchitser calculator to compiled version]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/10863|10863 -- Review: Add check for orthogonal/unitary matrices]]  (positive review -- Martin Raum)
+     * [[http://trac.sagemath.org/sage_trac/ticket/10802|10802 -- Review: Singular values of matrices over CDF]] (positive review -- Martin Raum)
   * Moritz Minzlaff:
      * [[http://trac.sagemath.org/sage_trac/ticket/9053|9053 -- fixes computation of pivots]] (positive review -- Keshav Kini)
   * Maarten Derickx:
