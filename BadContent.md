@@ -4618,6 +4618,8 @@ orbitfm\.com
 thekoeniggroup\.com
 forexinsider\.co\.uk
 indiangoldrates\.com
+iwanttosellmydiamond\.net
+pacquiaomosley\.co\.cc
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
