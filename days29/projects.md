@@ -11,7 +11,7 @@ Below a list of proposed projects.
 
 The sponsor of the bug-fixing days part of this workshop has the following high-priority challenges for us.  It would be great if we could resolve them all.
 
-  * Improve the startup time of Sage (ticket?)
+  * [[http://trac.sagemath.org/sage_trac/ticket/8254|8254 -- Improve the startup time of Sage]]
   * [[http://trac.sagemath.org/sage_trac/ticket/10975|10975 -- creation of certain prime finite fields is double dog slow (compared to Magma)]] (patch up by stein; positive review -- David Roe)
   * [[http://trac.sagemath.org/sage_trac/ticket/10801|10801 -- create a new option: "sage -strip" which deletes things that aren't needed for a binary distribution of sage, or for people that will never develop or upgrade]]
   * [[http://trac.sagemath.org/sage_trac/ticket/10912|10912 -- add order setters and Tate and ate pairings]]
