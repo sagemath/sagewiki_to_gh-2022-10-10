@@ -31,6 +31,10 @@ Participants are encouraged to come for either or both segments of the workshop.
 
 To register, please contact Eva Curry <eva.curry@acadiau.ca>
 
+== Concurrent Activities ==
+
+The seventh annual [[http://eccc2011.acadiau.ca|East Coast Combinatorics Conference]] is being held at Acadia May 4-6.  
+
 == Travel Information ==
 
 The nearest airport is [[http://http://www.hiaa.ca/|Halifax Stanfield International Airport]], which is approximately an hour's drive from the town of Wolfville and Acadia University.  Please contact Eva Curry <eva.curry@acadiau.ca> to coordinate ride sharing between the airport and Wolfville.
