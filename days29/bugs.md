@@ -106,7 +106,11 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
   * Keshav Kini and Maarten Derickx
     * [[http://trac.sagemath.org/sage_trac/ticket/11008|11008 -- spkg test suite successes are not correctly written to the appropriate file in spkg/installed]] (positive review -- John Palmieri)
 
+  * Volker Braun
+    * [[http://trac.sagemath.org/sage_trac/ticket/6391|6391 -- libGAP! -- create a Cython library interface to gap]] first working version, needs review.
+    * [[http://trac.sagemath.org/sage_trac/ticket/9232|9232 -- jmol on commandline broken]] (needs review)
 
+  
   * IPython team (Fernando Perez, Min Ragan-Kelley, Thomas Kluyver) Issues Closed and Pull Requests merged (66)
     * Closed: [[https://github.com/ipython/ipython/issues/3|3]] Implement PBS support in ipcluster
     * Closed: [[https://github.com/ipython/ipython/issues/6|6]] Update the Sphinx docs for the new ipcluster
