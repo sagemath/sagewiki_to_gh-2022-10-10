@@ -84,10 +84,22 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * [[http://trac.sagemath.org/sage_trac/ticket/11000|11000 -- GAP interface doesn't handle input with multiple lines correctly]] (positive review -- Keshav Kini)
     * [[http://trac.sagemath.org/sage_trac/ticket/10469|10469 -- Don't source sage-env more than once]] (positive review -- Ivan Andrus, Keshav Kini, John Palmieri)
     * [[http://trac.sagemath.org/sage_trac/ticket/7766|7766 -- Update valgrind]] (needs review)
+
   * Paul Ivanov
-    * [[http://sourceforge.net/support/tracker.php?aid=3189536|mpl 3189536 -- radio_buttons example has only one (the last) button active]]  Fixed in matplotlib.
-    * (work in progress) mpl 3187864 matplotlib with QGIS memory error on Suse 11.3
-    * (work in progress) mpl 3205391  	gtkagg.so hanging plot creation
+    * Matplotlib work
+      * Fixed large memory leak fixed in matplotlib test suite (trunk) [[https://github.com/matplotlib/matplotlib/pull/59| pull request 56]]
+      * Fixed memory leak in matplotlib-py3 caused be old version of CXX. [[https://github.com/matplotlib-py3/matplotlib/pull/23| pull request 23]]
+      * Include matplotlib testsuite behave consistently using matplotlib.test() and nosetests [[https://github.com/matplotlib/matplotlib/pull/58| pull request 58]]
+      * (enhancement) 'scrub' keyword for matplotlib clear figure command. [[https://github.com/matplotlib/matplotlib/pull/59| pull request 56]]
+      * [[http://sourceforge.net/support/tracker.php?aid=3189536|mpl 3189536 -- radio_buttons example has only one (the last) button active]]  Fixed in matplotlib.
+      * [[http://sourceforge.net/support/tracker.php?aid=3187521|mpl 3187521 -- Crash when enumerating fonts containing a dot in their name]] fixed in matplotlib [[https://github.com/matplotlib/matplotlib/pull/59| pull request 59]]. 
+      * (work in progress) mpl 3187864 matplotlib with QGIS memory error on Suse 11.3
+      * (work in progress) mpl 3205391 gtkagg.so hanging plot creation
+    * Ipython work [[https://github.com/ipython/ipython/pull/309|IPython pull request 309]]
+      * (work in progress) filed and added test for [[https://github.com/ipython/ipython/issues/306|GH-306]] - multiline strings at end of input cause noop
+      * (work in progress) filed and added test for [[https://github.com/ipython/ipython/issues/207|GH-307]] - lines ending with semicolon should not go to cache	
+      * (work in progress) added test for [[https://github.com/ipython/ipython/issues/284|GH-284]] - ensure In variable is works 	
+      * (work in progress) added test for [[https://github.com/ipython/ipython/issues/238|GH-238]] - %run's aggressive name cleaning 	
 
   * Keshav Kini and Maarten Derickx
     * [[http://trac.sagemath.org/sage_trac/ticket/11008|11008 -- spkg test suite successes are not correctly written to the appropriate file in spkg/installed]] (positive review -- John Palmieri)
