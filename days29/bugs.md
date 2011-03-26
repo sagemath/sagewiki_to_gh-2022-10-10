@@ -72,6 +72,8 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
     * [[http://trac.sagemath.org/sage_trac/ticket/4120|4120 -- New code for binary quadratic forms]] (under review by John Cremona)
     * [[http://trac.sagemath.org/sage_trac/ticket/10521|10521 -- bug in integral_points (for elliptic curves over Q)]] (May be fixed by 10973)
     * [[http://trac.sagemath.org/sage_trac/ticket/10973|10973 -- Integral points on elliptic curves over number fields]] (Close, but needs work)
+  * Jamie Weigandt
+    * Enhancement: [[http://trac.sagemath.org/sage_trac/ticket/9371|9371 -- Implemented 2-Torsion Rank over General Fields]]
 
   * Michael Droettboom
     * [[http://trac.sagemath.org/sage_trac/ticket/8125|8125 -- problem with "text" in matplotlib]] Fixed in matplotlib
