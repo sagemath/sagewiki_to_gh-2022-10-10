@@ -4620,6 +4620,10 @@ forexinsider\.co\.uk
 indiangoldrates\.com
 iwanttosellmydiamond\.net
 pacquiaomosley\.co\.cc
+hcg-injections\.org
+hcgdiet\.net
+communaute\.sstic\.org
+prlog\.org
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
