@@ -34,14 +34,8 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/11024|11024 -- Update Dokchitser calculator to compiled version]] (under review by John Cremona)
      * [[http://trac.sagemath.org/sage_trac/ticket/10863|10863 -- Review: Add check for orthogonal/unitary matrices]]  (positive review -- Martin Raum)
      * [[http://trac.sagemath.org/sage_trac/ticket/10802|10802 -- Review: Singular values of matrices over CDF]] (positive review -- Martin Raum)
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
      * [[http://trac.sagemath.org/sage_trac/ticket/10791|10791 -- Review: Fix and upgrade Gram-Schmidt]] ( in progress )
      * [[http://trac.sagemath.org/sage_trac/ticket/11027|11027 -- Review: Schur matrix decomposition over RDF/CDF]] ( enhancement, in progress )
-
----- /!\ '''End of edit conflict''' ----
   * Moritz Minzlaff:
      * [[http://trac.sagemath.org/sage_trac/ticket/9053|9053 -- fixes computation of pivots]] (positive review -- Keshav Kini)
   * Maarten Derickx:
