@@ -121,7 +121,7 @@ Picking up things where [[http://wiki.sagemath.org/daysff/curves|Sage Days 21]] 
 
 == Sage Notebook (Server) ==
 
-PEOPLE: William Stein, Rado Kirov, Alex Leone, Rob Beezer, Jason Grout
+PEOPLE: William Stein, Rado Kirov, Alex Leone, Rob Beezer, Jason Grout, Robert Bradshaw
 
  * [[http://code.google.com/r/rkirov-flask/|Flask notebook]] (Rado Kirov)
  * [[http://code.google.com/p/sage-aleph|Sage Aleph]] (William Stein and Rado Kirov)
