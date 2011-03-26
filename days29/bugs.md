@@ -44,6 +44,8 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/9094|9094 -- is_square and sqrt for polynomials and fraction fields]] (positive review -- Robert Bradshaw)
   * Robert Bradshaw
      * [[http://trac.sagemath.org/sage_trac/ticket/10548|10548 -- The coercion model is keeping references to tracebacks which causes memory leaks.]] (positive review -- Maarten Derickx)
+     * [[http://trac.sagemath.org/sage_trac/ticket/11040|11040 -- Sage startup time.]]
+     * [[http://trac.sagemath.org/sage_trac/ticket/11043|11043 -- Sage startup time (again).]]
   * Robert Miller
      * [[http://trac.sagemath.org/sage_trac/ticket/11033|11033 -- Fixes bugs in automorphism groups of linear codes.]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/10994|10994 -- Bug in permutation_automorphism_group for linear codes.]] (fixed by #11033)
