@@ -137,3 +137,5 @@ Here are some photos, add yours!
   * [[http://pirsquared.org/seattle/|Paul Ivanov's Pictures]]
 
 {{http://pirsquared.org/seattle/03212011517.jpg|Day 1|}}
+
+{{attachment:sd29-paccar-2011-03-23.jpg|Day 3}}
