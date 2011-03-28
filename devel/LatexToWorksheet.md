@@ -53,6 +53,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10536|10536]] || vector conjugation || 4.7.alpha3 || Felix Lawrence ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10545|10545]] || outer product of vectors || 4.7.alpha3 || Felix Lawrence, John Palmieri ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10595|10595]] || vector constructor fails with empty list || 4.7.alpha3 || Joint: J. Palmieri, Review: D.Pasechnik ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10977|10977]] || document vector constructor || 4.7.alpha3 || Martin Raum ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4983 | 4983]] || fix subdivision attribute || positive review || Author: John Palmieri ||
@@ -66,7 +67,6 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10863]] || is_unitary() for matrices || positive review || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || positive review || Karl-Dieter Crisman ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] || overhaul matrix stack, augment || positive review || Keshav Kini ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10977|10977]] || document vector constructor || positive review || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11004|11004]] || make subdivisions optional on tensor product || positive review || John Palmieri ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
@@ -98,10 +98,10 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/7555 | 7555]] || Cayley tables, operation tables || 4.4.alpha0 || Nicolas M. Thiery, Jason Grout  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10685|10685]] || all subgroups of a permutation group || 4.6.2.alpha4 || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10722|10722]] || all cosets of a permutation group || 4.6.2.alpha4 || Dima Pasechnik ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10871|10871]] || intersections of permutation groups || positive review || Dima Pasechnik ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10911|10911]] || inverse of permutation group elements || positive review || Robert Bradshaw ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10920|10920]] || conjugates of permutation groups || positive review, dep. 10871 || Dima Pasechnik ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10921|10921]] || commutator subgroup for permutation groups || positive review || Dima Pasechnik, David Joyner ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10871|10871]] || intersections of permutation groups || 4.7.alpha3 || Dima Pasechnik ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10911|10911]] || inverse of permutation group elements || 4.7.alpha3 || Robert Bradshaw ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10920|10920]] || conjugates of permutation groups || 4.7.alpha3 || Dima Pasechnik ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10921|10921]] || commutator subgroup for permutation groups || 4.7.alpha3 || Dima Pasechnik, David Joyner ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/9773 | 9773]] || finitely-generated abelian groups || needs work ||  ||
