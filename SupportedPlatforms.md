@@ -48,12 +48,14 @@ There are five requirements for Sage to work successfully on these fully support
 ====== Mac OS X ======
  * OS X 10.6 (Snow Leopard) 64-bit. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
+====== Solaris 10 SPARC 32-bit ======
+ * Solaris 10 on SPARC processors (32-bit only) Tested on one or more of [[http://build.sagemath.org/sage/buildslaves/t2-1|t2]], [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]] or [[http://build.sagemath.org/sage/buildslaves/mark2-1|mark2]]
+
+====== Solaris 10 x86 32-bit ======
+ * Solaris 10 update 5 on x86 processors (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/fulvia-1|fulvia]]
+
 ====== OpenSolaris x86 32-bit ======
  * 06/2009 updated to build 134 on x86 (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
-
-====== Solaris 10 SPARC 32-bit ======
- * Solaris 10 update 1 on SPARC processors (32-bit only) Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]] or [[http://build.sagemath.org/sage/buildslaves/mark2-1|mark2]]
- * Solaris 10 update 5 on x86 processors (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/fulvia-1|fulvia]]
 
 === Expected to work -  Sage will probably work, but it is not always tested. ===
 In addition to the above systems where Sage will work, Sage will probably work on the following operating systems, though we can't guarantee that, as it is impractical to test each Sage release on all these systems. Failure to build on these systems will be considered a bug, but we may not have the resources to solve any problems. Sage developers should be able to offer assistance to anyone who can't get Sage to work properly on one of these platforms, but since they might not necessarily have access to the platform, that may be difficult.
