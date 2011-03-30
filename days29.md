@@ -130,6 +130,8 @@ Here are some photos, add yours!
 
   * [[http://web.me.com/justin/Site/Sage_Days_29.html|Justin's Pictures from the Last Day]]
 
+  * [[http://blog.fperez.org/2011/03/ipython-and-scientific-python-go-to.html|Fernando Perez's Blog]]
+
 {{http://pirsquared.org/seattle/03212011517.jpg|Day 1|}}
 
 {{attachment:sd29-paccar-2011-03-23.jpg|Day 3}}
