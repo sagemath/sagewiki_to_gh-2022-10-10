@@ -132,6 +132,8 @@ Here are some photos, add yours!
 
   * [[http://blog.fperez.org/2011/03/ipython-and-scientific-python-go-to.html|Fernando Perez's Blog]]
 
+  * [[https://picasaweb.google.com/takowl/SageDays29Trip?authkey=Gv1sRgCJ2y1ZCK0tCDHg&feat=directlink|Thomas' pictures of the flight & sprint]]
+
 {{http://pirsquared.org/seattle/03212011517.jpg|Day 1|}}
 
 {{attachment:sd29-paccar-2011-03-23.jpg|Day 3}}
