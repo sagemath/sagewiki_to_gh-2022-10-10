@@ -28,9 +28,9 @@ everyone is welcome to attend.
 || February 28th    || Sonal Jain            || Heuristics for $\lambda$ invariants||
 || March 7th        || Fredrik Stroemberg    || Newforms and multiplicities on $\Gamma_0(N)$||
 || March 14th       || Robert Miller         || Enumerating Data in the presence of symmetry ||
-|| March 21st       || Rob Rhoades || ||
-|| March 28th       ||Karl Mahlburg || ||
-|| April 4th        || Brooke Feigon || ||
+|| March 21st       || Rob Rhoades || Curious $q$-series and Jacobi theta functions||
+|| March 28th       ||Karl Mahlburg || Asymptotics for the coefficients of Kac-Wakimoto characters||
+|| April 4th        || Brooke Feigon || Averages of central L-values||
 || April 11th       || NO MEETING || Workshop ||
 || April 18th       || Jonathan Bober || ||
 || April 25th       || Kaneenika Sinha || ||
