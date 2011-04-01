@@ -80,6 +80,47 @@ set keymap vi-insert
       * Sélection en rectangle sur Mac OS X avec la touche ALT
       * Aquamacs et Sage Mode
       * Tikz externalize
+      Ajoutez ces deux lignes au préambule de votre `document.tex` :
+{{{
+\usetikzlibrary{external} 
+\tikzexternalize[mode=list and make, verbose=false]
+}}}
+      pdflatex va créer un pdf pour chaque figure TikZ, l'inclure en image et générer `document.makefile`. Vous aurez peut-être à faire {{{pdflatex -shell-escape document.tex}}} pour compiler correctement et permettre à pdflatex d'accéder à des fichiers externes.<<BR>><<BR>>
+
+      Notez que les fichiers d'images ne sont pas mis à jour automatiquement lorsque vous modifiez votre document (ou si l'ordre des figures change!). Vous devez appeller make pour forcer la recompilation :
+{{{
+make -B -f document.makefile
+}}}
+
+      Voici le makefile que j'utilise pour recompiler toutes les images lorsque j'effectue une modification à mes illustrations :
+{{{
+TIKZ_TMP_FILES = *.spl *.dep *.dpth document-fig*.log document.figlist document.makefile document.spl
+LATEX_TMP_FILES = *.aux *.bbl *.blg *.log
+GENERATED_FILES = *.pdf
+
+NPROCS = 1
+OS = $(shell uname)
+
+ifeq ($(OS),Linux)
+  NPROCS := $(shell grep -c ^processor /proc/cpuinfo)
+else ifeq ($(OS),Darwin)
+  NPROCS := $(shell sysctl hw.ncpu | awk '{print $$2}')
+endif
+
+all :
+	pdflatex -shell-escape document.tex
+	bibtex document
+	make -j $(NPROCS) -B -f document.makefile
+	pdflatex document.tex
+	pdflatex document.tex
+	rm -f $(TIKZ_TMP_FILES)
+
+clean :
+	rm -f $(TIKZ_TMP_FILES)
+	rm -f $(LATEX_TMP_FILES)
+	rm -f $(GENERATED_FILES)
+}}}
+      Ainsi, je n'ai qu'à taper `make` et tout est recompilé automatiquement en utilisant tous les processeurs de mon ordinateur.
 
   * Sébastien
       * Review tickets
