@@ -40,11 +40,16 @@ Des liens utiles pour développer Sage et travailler sous UNIX en général:
   * [[http://wiki.sagemath.org/LaCIMSageFridays/UNIX |Section UNIX]] -- En construction
 
 
-== Vendredi suivant : 25 mars 2011 ==
+== Vendredi suivant : 1 avril 2011 ==
 
 à venir
 
 == Vendredi précédents ==
+
+=== 1 avril 2011 ===
+
+  * Sébastien
+      * script pour Tikz externalize qui utilise la vieille méthode beginpgfgraphicnamed ici : http://tex.stackexchange.com/questions/1460/script-to-automate-externalizing-tikz-graphics
 
 === 18 mars 2011 ===
 
