@@ -61,6 +61,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || positive review || Karl-Dieter Crisman ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || positive review || John Palmieri ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]] || make matrix pivots immutable || positive review || Author: John Palmieri ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patch, dep. 10683, 10794 || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10794|10794]] || QR matrix decomposition over exact rings || positive review, dep. 10683 || Simon Spicer ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || positive review || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || positive review || Simon Spicer ||
@@ -68,15 +69,17 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || positive review || Karl-Dieter Crisman ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] || overhaul matrix stack, augment || positive review || Keshav Kini ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11004|11004]] || make subdivisions optional on tensor product || positive review || John Palmieri ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || positive review || Martin Raum ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patch, dep. 10683, 10794 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11104|11104]] || is_normal() for matrices || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4932 | 4932]] || remove solve-left-LU || needs work ||  ||
@@ -86,8 +89,6 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10544|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || orphaned ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || needs work ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || needs work ||  ||
 
 
 == Group Theory Patches ==
