@@ -47,6 +47,10 @@ of ratios of products of shifted L-functions. We present an application by deriv
 
    Abstract: I'll discuss an approach to subconvexity that uses a "geometric" mollifier.  I'll give some concrete examples to illustrate the idea. If time permits I'll try to discuss why mollification does not have a straightforward analog in this setting and an approach toward mollification that uses relative trace formula. The amplification ideas are due to Venkatesh and Venkatesh-Michel. 
 
+ * 4th April (Monday 1 pm at Simons Auditorium): Brooke Feigon, Title: Averages of central L-values 
+
+   Abstract: I will discuss computing averages of central values of certain families of L-functions via the relative trace formula and explicit period formulas. The two examples I will focus on are central values of certain twisted quadratic base change L-functions averaged over Hilbert modular forms and triple product L-functions averaged over weight two newforms of fixed level. This is joint work with David Whitehouse. 
+
  * H. Iwaniec, W. Luo, and, P. Sarnak, Low lying zeros of families of L-functions, Publ. IHES, 2000.
     [[attachment:Iwaniec-Luo-Sarnak.pdf]]
  * there is also a study guide and reading list by Steven Miller, at Williams: http://www.williams.edu/go/math/sjmiller/public_html/ntandrmt/
