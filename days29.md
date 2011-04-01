@@ -48,7 +48,7 @@ Everything Tuesday-Friday is in PACCAR 390.   We also have the breakout rooms ne
 ||Tuesday March 22, 10am-11am||[[attachment:cython-days29.pdf|Colloquium Talk: Robert Bradshaw (Cython)]] and [[http://tinyurl.com/5t33vrq|VIDEO]]||
 ||Tuesday March 22, 11am-12:00pm||Status reports||
 ||Tuesday March 22, 1:30pm-9pm||Coding Sprints||
-||Wednesday March 23, 10am-11am||Colloquium Talk: Rado Kirov (The Sage Notebook)||
+||Wednesday March 23, 10am-11am||Colloquium Talk: Rado Kirov (The Sage Notebook) [[http://tinyurl.com/3f6w4u2|VIDEO]]||
 ||Wednesday March 23, 11am-12:00pm||Status reports||
 ||Wednesday, March 23, 2:00pm-2:50pm||Extra Talk: Michael Droettboom (PortingToPython3)||
 ||Wednesday March 23, 3:00pm-9pm||Coding Sprints||
