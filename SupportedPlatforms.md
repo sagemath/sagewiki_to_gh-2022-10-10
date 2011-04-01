@@ -83,7 +83,7 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
  * Solaris 11 Express on SPARC (Never tested, but should work, as the Sage 32-bit Solaris 10 SPARC port is very stable and Solaris has excellent backward compatibility). 
 
 ====== Mac OS X ======
- * OS X 10.4 (Tiger) and 10.5 (Leopard). Note that OS X 10.6 (Snow Leopard) is fully supported. 
+ * OS X 10.4 (Tiger) and 10.5 (Leopard), both PPC and Intel chips. Note that OS X 10.6 (Snow Leopard) is fully supported. 
 
 ====== Microsoft Windows ======
  * VMware images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage. 
