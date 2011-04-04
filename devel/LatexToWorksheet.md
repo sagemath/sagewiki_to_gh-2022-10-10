@@ -123,9 +123,9 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
    * [[attachment:fcla-sage-experimental.zip | Worksheet Zip File]]
    * [[attachment:fcla-sage-experimental.pdf | PDF Version (old)]]
 
- * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/03/28)
+ * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/04)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
-   * Live Sage code for Group Theory chapters: 1-6, 9-12, 15-17
+   * Live Sage code for Group Theory chapters: 1-6, 9-12, 15-18
    * "Read-Only" - some content is temporarily missing, Chapter 6 Sage commands require Sage 4.6.2.alpha4 or newer
    * This is a collection of worksheets to add to the end of each chapter once some conflicts are resolved, entire book is just below as Sage worksheets
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
