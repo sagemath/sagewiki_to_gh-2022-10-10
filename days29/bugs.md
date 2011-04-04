@@ -48,6 +48,9 @@ Use this page to keep track of the bugs fixed during Sage Days 29.
      * [[http://trac.sagemath.org/sage_trac/ticket/11027|11027 -- Review: Schur matrix decomposition over RDF/CDF]] ( enhancement, in progress )
   * Moritz Minzlaff:
      * [[http://trac.sagemath.org/sage_trac/ticket/9053|9053 -- fixes computation of pivots]] (positive review -- Keshav Kini)
+     * [[http://trac.sagemath.org/sage_trac/ticket/9054|9054 -- create a class for basic function_field arithmetic]] (in progress)
+  * Moritz Minzlaff and William Stein:
+     * [[http://trac.sagemath.org/sage_trac/ticket/11034|11034 -- bug in the way vectors are created for submodules of free modules]] (needs review)
   * Maarten Derickx:
      * [[http://trac.sagemath.org/sage_trac/ticket/10570|10570 -- sage leaves a lot of stackframes alive at startup]] (needs review)
      * [[http://trac.sagemath.org/sage_trac/ticket/10933|10933 -- time fails inside function]] (positive review -- Martin Raum)
