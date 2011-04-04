@@ -42,4 +42,8 @@ The current tentative schedule is below.
  .
  . Abstract: I will introduce a new L-Function class in SAGE, and give several examples on how to use it to compute L-functions.
 
+ * April 4, Shuntaro Yamagishi: "Moment Polynomials for the Riemann Zeta Function".
+ .
+ . Abstract:  I will explain how we calculated the coefficients of moment polynomials for the Riemann zeta function for k = 4,5.., 13 and numerically tested them against the moment polynomial conjecture.
+
  
