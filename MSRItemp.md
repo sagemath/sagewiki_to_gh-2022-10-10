@@ -101,3 +101,4 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  || Thu. 17 || 11-12 || Simons || Haluk Sengun - Cohomology of Bianchi Groups and Arithmetic ||
  || Fri 18 || 10-5 || Library  || FRG Friday ||
  || Mar 31 || 4:10 || 60 Evans || Hendrik Lenstra's "Modelling ﬁnite ﬁelds" ||
+ ||  Wed Apr 6 || 1:30 || Simons || Wenzhi Luo- Central values of the symmetric square L-functions ||
