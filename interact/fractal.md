@@ -179,9 +179,7 @@ def show_mandelbrot(option = selector(options, nrows = 2, width=8),
         side = side_default
         x0 = x0_default
         y0 = y0_default
-    elif option == 'Stay':
-        pass
-    else:
+    elif option != 'Stay':
         side = side/2
     
     time m=mandelbrot_cython(x0 ,x0 + side ,y0 ,y0 + side , N, L )
@@ -206,7 +204,7 @@ by Harald Schilly
 {{{
 @interact
 def mandel_plot(expo = slider(-10,10,0.1,2), \
-      formula = list(['mandel','ff']),\
+      formula = ['mandel','ff'],\
       iterations=slider(1,100,1,30), \
       zoom_x = range_slider(-2,2,0.01,(-2,1)), \
       zoom_y = range_slider(-2,2,0.01,(-1.5,1.5))):
