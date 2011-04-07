@@ -69,6 +69,28 @@ set keymap vi-insert
   * Marco
       * pour faire des backup : rdiff-backup
 
+  * Alexandre
+      * configuration de tmux (fichier {{{~/.tmux.conf}}}) :
+      * Pour "scroller" dans un panneau, il suffit de passer en mode "copie" en faisant C-b suivi de [. À partir de là, on peut faire défiler avec les flèches, sélectionner du texte en maintenant la touche espace et entrée pour copier (yank) le texte. Pour copier dans une autre fenêtre, on fait C-b suivi de ].
+
+{{{
+# This File is : ~/.tmux.conf
+
+# use "|" and "-" to do vertical/horizontal splits
+unbind %                                          
+bind | split-window -h                            
+bind - split-window -v                            
+                                                  
+# use the vim motion keys to move between panes   
+bind h select-pane -L                             
+bind j select-pane -D                             
+bind k select-pane -U                             
+bind l select-pane -R                             
+                                                  
+# use vim motion keys while in copy mode          
+setw -g mode-keys vi    
+}}}
+
 === 11 mars 2011 ===
 
   * Samuel
