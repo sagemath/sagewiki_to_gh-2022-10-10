@@ -150,7 +150,7 @@ def mauna_loa_co2(start_date = slider(1958,current_year,1,1958), end_date = slid
     htmls1 = '<h3>CO2 monthly averages at Mauna Loa (interpolated), from NOAA/ESRL data</h3>'
     htmls2 = '<h4>'+cdate+'</h4>'
     html(htmls1+htmls2)
-    sel_data = [[q[2],q[4]] for q in datalines if start_date < q[2] < end_date]
+    sel_data = [[q[2],q[4]] for q in datalines if start_date <= q[2] <= end_date]
     outplot = list_plot(sel_data, plotjoined=True, rgbcolor=(1,0,0))
     if show_nonlinear_fit:
         def powerlaw(t,a):
