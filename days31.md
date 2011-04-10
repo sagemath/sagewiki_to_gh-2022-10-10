@@ -9,6 +9,7 @@ June 13-17, 2011 at University of Washington, in conjunction with Sage Education
 == Participants ==
 
  * William Stein (University of Washington)
+ * Mike Hansen
 
 == Organizers ==
 
