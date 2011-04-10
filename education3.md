@@ -1,6 +1,6 @@
-= Sage Education Day 3 =
+= Sage Education Days 3 =
 
-The third [[http://www.sagemath.org|Sage]] Education Day will be held in conjunction with Sage Days 31, at the University of Washington, June 16-18, 2011.
+The third [[http://www.sagemath.org|Sage]] Education Days will be held in conjunction with Sage Days 31, at the University of Washington, June 16-18, 2011.
 
 Funded by the National Science Foundation Division of Undergraduate Education.
 
@@ -33,8 +33,8 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 
 == Organizers ==
 
- * Rob Beezer ([[http://buzzard.ups.edu]])
- * William Stein ([[http://wstein.org/]])
+ * Rob Beezer [[http://buzzard.ups.edu]]
+ * William Stein [[http://wstein.org/]]
 
 == Funding ==
 
@@ -48,9 +48,8 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 == Logistics ==
 
  * June 16, 17 and 18 are expected to be full days.  So plan to travel on June 15 and June 19.
-
- * Lodging will likely be arranged at the Collegiana Inn near the UW campus.  Details later.
-
+ * [[days31|Sage Days 31]] will happen the same week at the University of Washington.
+ * Lodging will likely be arranged for participants at the Collegiana Inn near the UW campus.  Details later.
  * See the [[uw-local-info|local information page]] for more specifics.
 
 <<Anchor(schedule)>>
