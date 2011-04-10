@@ -6,7 +6,19 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 == Topics ==
 
- * TBA
+ * Introduction to, and Getting Started with, Sage
+ * Using Sage to Teach Undergraduates
+   * Calculus, Single and Multi Variable
+   * Linear Algebra
+   * Abstract Algebra
+   * More ...
+ * Authoring Materials
+   * Textbooks
+   * Worksheets
+   * Interacts
+ * Notebook Improvements
+   * In consultation with onsite notebook developers
+ * And more ...
 
 See the [[#schedule|schedule]] below, which will include links to resources related to the talks (slides, worksheets, etc.).
 
@@ -51,6 +63,15 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
  * [[days31|Sage Days 31]] will happen the same week at the University of Washington with the Sage Notebook as its theme.
  * Lodging will likely be arranged for participants at the Collegiana Inn near the UW campus.  Details later.
  * See the [[uw-local-info|local information page]] for more specifics.
+
+== Projects ==
+
+Sage Days typically allow a great deal of unstructured time to work on projects, either in groups or with the assistance of experts that are available.  Please plan to have a project to work on.  Examples could be:
+
+ * Learning a new area of Sage in preparation for teaching a course.
+ * Preparing worksheets for a course.
+ * Learning how to create interacts for the Sage library.
+ * Learning how to contribute new code to Sage.
 
 <<Anchor(schedule)>>
 == Schedule ==
