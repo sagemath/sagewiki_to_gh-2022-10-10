@@ -30,6 +30,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * Marja-Liisa Hassi (University of Colorado)
  * [[http://math.jasonbhill.com|Jason B. Hill]] (University of Colorado)
  * Tom Judson (Stephen F. Austin State University)
+ * Kiran Kedlaya (University of California, San Diego)
  * Jane Long (Stephen F. Austin State University)
  * David Perkinson (Reed College)
  * Wai Yan Pong (California State University, Dominguez Hills)
