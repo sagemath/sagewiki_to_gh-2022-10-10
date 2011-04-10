@@ -48,7 +48,7 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 == Logistics ==
 
  * June 16, 17 and 18 are expected to be full days.  So plan to travel on June 15 and June 19.
- * [[days31|Sage Days 31]] will happen the same week at the University of Washington.
+ * [[days31|Sage Days 31]] will happen the same week at the University of Washington with the Sage Notebook as its theme.
  * Lodging will likely be arranged for participants at the Collegiana Inn near the UW campus.  Details later.
  * See the [[uw-local-info|local information page]] for more specifics.
 
