@@ -8,8 +8,11 @@ June 13-17, 2011 at University of Washington, in conjunction with Sage Education
 
 == Participants ==
 
- * William Stein (University of Washington)
+ * Davide Cervone (Union College, `MathJax`)
+ * Rado Kirov (Singapore)
+ * Jason Grout (Drake University)
  * Mike Hansen
+ * William Stein (University of Washington)
 
 == Organizers ==
 
