@@ -26,17 +26,18 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 == Participants ==
 
  * [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
+ * DanDrake (KAIST, South Korea)
+ * Michael Garcia (San Francisco State University)
  * [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  * Marja-Liisa Hassi (University of Colorado)
  * [[http://math.jasonbhill.com|Jason B. Hill]] (University of Colorado)
- * Tom Judson (Stephen F. Austin State University)
+ * [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F. Austin State University)
  * Kiran Kedlaya (University of California, San Diego)
- * Jane Long (Stephen F. Austin State University)
- * David Perkinson (Reed College)
- * Wai Yan Pong (California State University, Dominguez Hills)
+ * [[http://www2.sfasu.edu/math/people/faculty/longj.html|Jane Long]] (Stephen F. Austin State University)
+ * [[http://www.reed.edu/~davidp/|David Perkinson]] (Reed College)
+ * [[http://www.csudh.edu/math/wpong/|Wai Yan Pong]] (California State University, Dominguez Hills)
  * Rao Potluri (Reed College)
- * William Stein (University of Washington)
- * DanDrake (KAIST)
+ * [[http://wstein.org/|William Stein]] (University of Washington)
 
 == Mailing Lists ==
 
