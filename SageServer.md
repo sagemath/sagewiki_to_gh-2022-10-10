@@ -40,14 +40,26 @@ Note that the numbers above are for simultaneously running worksheets.  There ca
 
 == Install the server ==
 
-I started with a fresh copy of Ubuntu 9.10, with a working Sage compiled from source (which means I had to install some extra packages so that Sage compiles and runs; see the Sage README).
+I started with a fresh copy of Ubuntu 10.04, with a working Sage compiled from source (which means I had to install some extra packages so that Sage compiles and runs; see the Sage README.  In particular, I needed to install ).
 
   0) I install libssl-dev so that Sage can load https urls
 {{{
 sudo apt-get install libssl-dev
 }}}
 
+Also, I had to install the following so that Sage would build (see the README.txt file that comes with Sage):
 
+{{{
+sudo apt-get install build-essential
+sudo apt-get install gfortran
+}}}
+
+
+I installed this to help me manage the server better:
+
+{{{
+sudo apt-get install unattended-upgrades
+}}}
 
   1) Install apache2 and enable the proxy modules
 {{{
