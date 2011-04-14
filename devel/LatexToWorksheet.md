@@ -56,34 +56,36 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10977|10977]] || document vector constructor || 4.7.alpha3 || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4983 | 4983]] || fix subdivision attribute || 4.7.alpha4 || Author: John Palmieri ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10470|10470]] || listing infinite vector space just hangs || 4.7.alpha4 || John Palmieri ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || 4.7.alpha4 || Karl-Dieter Crisman ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10737|10737]] || extended echelon form || 4.7.alpha4 || John Palmieri ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10752|10752]] || make matrix pivots immutable || 4.7.alpha4 || Author: John Palmieri ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || 4.7.alpha4 || Simon Spicer ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10863]] || is_unitary() for matrices || 4.7.alpha4 || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10876|10876]] || constructor for elementary matrices || 4.7.alpha4 || Karl-Dieter Crisman ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10974|10974]] || overhaul matrix stack, augment || 4.7.alpha4 || Keshav Kini ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11004|11004]] || make subdivisions optional on tensor product || 4.7.alpha4 || John Palmieri ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || 4.7.alpha4 || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11112|11112]] || algebraic closure of CDF || 4.7.alpha4 || Mike Hansen ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10987|10987]] || subspace decomposition, check optional || 4.7.alpha5 || Author: Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10794|10794]] || QR matrix decomposition over exact rings || 4.7.alpha5 || Simon Spicer ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11114|11114]] || is_diagonalizable() for matrices || 4.7.1.alpha0 || Dan Drake ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10683|10683]] || Hermitian inner product, doctests || positive review || Karl-Dieter Crisman ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || positive review, dep. 10683, 10794 || Martin Raum ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10794|10794]] || QR matrix decomposition over exact rings || positive review, dep. 10683 || Simon Spicer ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11112|11112]] || algebraic closure of CDF || positive review || Mike Hansen ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || positive review || Martin Raum, John Palmieri ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patches, dep. 10683, 10794 || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || with patch|| Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11104|11104]] || is_normal() for matrices || with patch ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11114|11114]] || is_diagonalizable() for matrices || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11195|11195]] || LU decomposition for exact matrices || in-progress ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || needs work - numerical || Simon Spicer ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4932 | 4932]] || remove solve-left-LU || needs work ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7392 | 7392]] || rank for matrices over CDF || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8046 | 8046]] || add double dense matrix file to documentation || needs work || ||
@@ -91,7 +93,6 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10544|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || orphaned ||  ||
-
 
 == Group Theory Patches ==
 
