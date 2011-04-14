@@ -1,6 +1,6 @@
 = Sage Education Days 3 =
 
-The third [[http://www.sagemath.org|Sage]] Education Days will be held in conjunction with Sage Days 31, at the University of Washington, June 16-18, 2011.
+The third [[http://www.sagemath.org|Sage]] Education Days will be held in conjunction with [[days31|Sage Days 31]], at the University of Washington in Seattle, June 16-18, 2011.
 
 Funded by the National Science Foundation Division of Undergraduate Education.
 
