@@ -1,6 +1,6 @@
 = Sage Days 31: The Sage Notebook =
 
-June 13-17, 2011 at University of Washington, in conjunction with Sage Education Days 3.
+June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[education3|Sage Education Days 3]].
 
 == Topics ==
 
@@ -8,11 +8,11 @@ June 13-17, 2011 at University of Washington, in conjunction with Sage Education
 
 == Participants ==
 
- * Davide Cervone (Union College, `MathJax`)
- * Rado Kirov (Singapore)
- * Jason Grout (Drake University)
+ * [[http://www.math.union.edu/~dpvc/|Davide Cervone]] (Union College, `MathJax`)
+ * [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
+ * [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
  * Mike Hansen
- * William Stein (University of Washington)
+ * [[http://wstein.org/|William Stein]] (University of Washington)
 
 == Organizers ==
 
