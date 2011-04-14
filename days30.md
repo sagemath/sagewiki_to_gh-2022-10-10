@@ -8,6 +8,7 @@
 == Location ==
 
  Acadia University, Wolfville, Nova Scotia, Canada
+ Huggins Science Hall, Rooms 143 and 147 (entrance from the building lobby)
 
 == Dates ==
 
@@ -44,6 +45,13 @@ The nearest airport is [[http://http://www.hiaa.ca/|Halifax Stanfield Internatio
 == Lodging in Wolfville ==
 
 Within walking distance of Acadia University, there are a number of bed and breakfasts.  There are some hotel options within a short driving distance, as well.  Here are some listings from [[http://www.staynovascotia.ca/wolfville_54.php|Stay Nova Scotia]] and [[http://www.tripadvisor.com/Hotels-g154969-Wolfville_Nova_Scotia-Hotels.html|tripadvisor.com]].  You can also call Check-Ins Nova Scotia at 1-800-565-0000.
+
+The closest Bed & Breakfast options (all within a five minute walk) include:
+* Victoria's Historic Inn
+* Tattingstone Inn
+* Gingerbread House B&B
+* Harwood House B&B
+however, the price of a room generally increases with proximity to the university.
 
 Unfortunately, dorm rooms at Acadia University will not be available for the week of the workshop.
 
