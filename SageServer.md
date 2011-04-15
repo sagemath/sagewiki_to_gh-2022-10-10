@@ -68,6 +68,7 @@ I installed this to help me manage the server better:
 
 {{{
 sudo apt-get install unattended-upgrades
+sudo vim /etc/apt/apt.conf.d/50unattended-upgrades # edit unattended upgrades config; I just set my email address to be notified of upgrades
 sudo apt-get install mercurial
 }}}
 
