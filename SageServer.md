@@ -59,7 +59,7 @@ I installed these packages to provide extra capabilities in Sage:
 {{{
 sudo apt-get install graphics-magick # could also install imagemagick instead
 sudo apt-get install graphicsmagick-imagemagick-compat
-sudo apt-get install r-base # to pick up dependencies for R to enable png support
+sudo apt-get install xorg-dev libpng # to pick up dependencies for R to enable png support
 sudo apt-get install texlive-full # could probably install a subset of texlive instead
 }}}
 
