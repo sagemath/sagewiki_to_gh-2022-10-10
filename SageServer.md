@@ -54,6 +54,15 @@ sudo apt-get install build-essential
 sudo apt-get install gfortran
 }}}
 
+I installed these packages to provide extra capabilities in Sage:
+
+{{{
+sudo apt-get install graphics-magick # could also install imagemagick instead
+sudo apt-get install graphicsmagick-imagemagick-compat
+
+sudo apt-get install texlive-full # could probably install a subset of texlive instead
+}}}
+
 
 I installed this to help me manage the server better:
 
@@ -160,10 +169,12 @@ echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, se
    ln -s sage-4.3.2 sage
 }}}
 
-  10) Install any optional spkgs that you want.  I install the jsmath-image-fonts spkg:
+  10) Install any optional spkgs that you want.  I install these:
 
 {{{
-sudo -u sageserver -i "~/sage/sage -i jsmath_image_fonts-1.4.p3"
+for i in 'jsmath_image_fonts' 'biopython' 'cbc' 'glpk' 'graphviz' 'pyx' 'dot2tex' 'fricas' 'qepcad'; do
+    sudo -u sageserver -i "~/sage/sage -i $i";
+done;
 }}}
 
 To start the sage server, do the following.  Note that since I am using sudo to run commands as sageserver, instead of logging in as sageserver, I have to do the {{{script /dev/null}}} trick to get screen to work.
