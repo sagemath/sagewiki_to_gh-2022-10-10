@@ -43,7 +43,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * Rao Potluri (Reed College)
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * [[http://wstein.org/|William Stein]] (University of Washington)
- * [[http://www.maa.org/aboutmaa/pearsonbio.html/|Michael Pearson]] (MAA)
+ * [[http://www.maa.org/Aboutmaa/pearsonbio.html/|Michael Pearson]] (MAA)
 
 = Mailing Lists =
 
