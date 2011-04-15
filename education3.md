@@ -58,7 +58,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 
 = Funding =
 
-Participants from the test sites for the NSF UTMOST project will have first priority for funding, though we do expect to have some funds to support travel for those with a demonstrated interest in using Sage in educational settings.  We also expect to have a similar workshop in Summer 2012 which will have twice the available funding.  Please contact Rob Beezer at beezer@ups.edu to request funding.
+Participants from the test sites for the NSF UTMOST project will have first priority for funding, though we will support travel for a few participants with a demonstrated interest and experience in using Sage in educational settings.  We also expect to have a similar workshop in Summer 2012 which will have twice the available funding.
 
 <<Anchor(registration)>>
 = Registration =
@@ -69,7 +69,7 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 
  * June 16, 17 and 18 are expected to be full days.  So plan to travel on June 15 and June 19.
  * [[days31|Sage Days 31]] will happen the same week at the University of Washington with the Sage Notebook as its theme.
- * Lodging will likely be arranged for participants at the Collegiana Inn near the UW campus.  Details later.
+ * Lodging will be arranged for funded participants at the Collegiana Inn near the UW campus.  For other lodging options see the local information page.
  * See the [[uw-local-info|local information page]] for more specifics.
 
 = Projects =
