@@ -59,6 +59,7 @@ I installed this to help me manage the server better:
 
 {{{
 sudo apt-get install unattended-upgrades
+sudo apt-get install mercurial
 }}}
 
   1) Install apache2 and enable the proxy modules
