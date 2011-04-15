@@ -31,6 +31,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  * Marja-Liisa Hassi (University of Colorado)
  * [[http://math.jasonbhill.com|Jason B. Hill]] (University of Colorado)
+ * TJ Hitchman (University of Northern Iowa)
  * [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F. Austin State University)
  * Kiran Kedlaya (University of California, San Diego)
  * [[http://www2.sfasu.edu/math/people/faculty/longj.html|Jane Long]] (Stephen F. Austin State University)
