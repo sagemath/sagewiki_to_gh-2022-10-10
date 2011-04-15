@@ -172,7 +172,7 @@ echo "notebook(interface='localhost', port=8000, accounts=True, timeout=1200, se
   10) Install any optional spkgs that you want.  I install these:
 
 {{{
-for i in 'jsmath_image_fonts' 'biopython' 'cbc' 'glpk' 'graphviz' 'pyx' 'dot2tex' 'fricas' 'qepcad'; do
+for i in 'jsmath_image_fonts' 'biopython' 'cbc' 'glpk' 'graphviz' 'pyx' 'dot2tex' 'fricas'; do
     sudo -u sageserver -i "~/sage/sage -i $i";
 done;
 }}}
