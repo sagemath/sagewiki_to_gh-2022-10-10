@@ -14,6 +14,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * Mike Hansen
  * [[http://wstein.org/|William Stein]] (University of Washington)
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
+ * Ryan Grout
 
 == Organizers ==
 
