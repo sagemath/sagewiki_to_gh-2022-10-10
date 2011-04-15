@@ -15,8 +15,8 @@ The current tentative schedule is below.
 || March 31st       ||  || ||
 || April 7th        ||  || ||
 || April 14th       || NO MEETING || Workshop ||
-|| April 21st       || Rishikesh || ||
-|| April 28th       ||  || ||
+|| April 21st       ||  || ||
+|| April 28th       ||  Rishikesh || ||
 || May 5th          || || ||
 || May 12th          || || ||
 || May 19th         || || ||
