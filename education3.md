@@ -41,6 +41,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * [[http://www.reed.edu/~davidp/|David Perkinson]] (Reed College)
  * [[http://www.csudh.edu/math/wpong/|Wai Yan Pong]] (California State University, Dominguez Hills)
  * Rao Potluri (Reed College)
+ * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * [[http://wstein.org/|William Stein]] (University of Washington)
 
 = Mailing Lists =
