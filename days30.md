@@ -22,7 +22,7 @@ Participants are encouraged to come for either or both segments of the workshop.
 == Invited Speakers ==
 
  * [[http://www.math.upenn.edu/~jbandlow/|Jason Bandlow]]
- * [[http://www.math.rutgers.edu/~asbuch/|Anders Buch]] ''(to be confirmed)''
+ * [[http://www.math.rutgers.edu/~asbuch/|Anders Buch]]
  * [[http://igm.univ-mlv.fr/~hivert/index.html|Florent Hivert]]
  * [[http://thales.math.uqam.ca/~saliola/index.html|Franco Saliola]]
  * [[http://www.math.ucdavis.edu/~anne|Anne Schilling]]
