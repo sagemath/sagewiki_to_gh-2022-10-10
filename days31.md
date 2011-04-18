@@ -8,20 +8,19 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
 == Participants ==
 
- * [[http://www.math.union.edu/~dpvc/|Davide Cervone]] (Union College, `MathJax`)
- * [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
- * [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
- * Mike Hansen
- * [[http://wstein.org/|William Stein]] (University of Washington)
+ 1. [[http://www.math.union.edu/~dpvc/|Davide P. Cervone]] (Union College, New York) -- author of jsmath and MathJax
+ * Bruce Cohen (High school mathematics teacher in Northern California)
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
+ * Burcin Erocal (Singular Group, Kaiserslautern, Germany)
+ * [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
  * Ryan Grout
+ * Mike Hansen
+ * Keshav Kini (Singapore)
+ * [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
  * Sébastien Labbé (Montréal)
  * John Palmieri (University of Washington)
+ * [[http://wstein.org/|William Stein]] (University of Washington)
  * Ian Stokes-Rees (Harvard Medical School)
- * Keshav Kini (Singapore)
- * Bruce Cohen (High school mathematics teacher in Northern California)
- * Burcin Erocal (Singular Group, Kaiserslautern, Germany)
- * [[http://www.math.union.edu/~dpvc/|Davide P. Cervone]] (Union College, New York) -- author of jsmath and MathJax
 
 == Organizers ==
 
