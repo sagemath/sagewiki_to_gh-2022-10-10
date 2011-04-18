@@ -44,6 +44,8 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * [[http://wstein.org/|William Stein]] (University of Washington)
  * [[http://www.maa.org/Aboutmaa/pearsonbio.html|Michael Pearson]] (MAA)
+ * [[http://www.cgl.ucsf.edu/home/bic|Bruce Cohen]] (Lowell High School, San Francisco)
+
 
 = Mailing Lists =
 
