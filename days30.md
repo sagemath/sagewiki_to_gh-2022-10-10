@@ -66,4 +66,4 @@ Unfortunately, dorm rooms at Acadia University will not be available for the wee
 
 == Funding ==
 
-Funding has been provided by AARMS, Acadia University, and the University of New Brunswick.
+Funding has been provided by AARMS, the Fields Institute, Acadia University, and the University of New Brunswick.
