@@ -13,6 +13,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * Bruce Cohen (High school mathematics teacher in Northern California)
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * Burcin Erocal (Singular Group, Kaiserslautern, Germany)
+ * [[http://www.uwosh.edu/facstaff/gutow/|Jonathan H. Gutow]] (Chemistry Department, UWOSH, Wisconsin)
  * [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
  * Ryan Grout (BYU, Utah)
  * Mike Hansen (Berkeley)
