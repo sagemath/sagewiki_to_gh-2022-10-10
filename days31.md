@@ -13,8 +13,8 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * Burcin Erocal (Singular Group, Kaiserslautern, Germany)
  * [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
- * Ryan Grout
- * Mike Hansen
+ * Ryan Grout (BYU, Utah)
+ * Mike Hansen (Berkeley)
  * Keshav Kini (Singapore)
  * [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
  * Sébastien Labbé (Montréal)
