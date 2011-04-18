@@ -28,6 +28,10 @@ Participants are encouraged to come for either or both segments of the workshop.
  * [[http://www.math.ucdavis.edu/~anne|Anne Schilling]]
  * [[http://www.nicolas.thiery.name|Nicolas Thiéry]]
 
+== Attendees ==
+
+ * [[http://jordi.inversethought.com|Jordi Gutiérrez Hermoso]]
+
 == Registration ==
 
 To register, please contact Eva Curry <eva.curry@acadiau.ca>
