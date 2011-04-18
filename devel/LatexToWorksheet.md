@@ -130,7 +130,7 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
    * Live Sage code for Group Theory chapters: 1-6, 9-11, 14-23
    * Content is complete, except Chapter 13 (Structure of Finite Abelian Groups) to come later
-   * "Read-Only" - some content is temporarily missing, Chapter 6 Sage commands require Sage 4.6.2.alpha4 or newer
+   * Requires Sage 4.7.alpha3 or newer (or else some commands will not run properly)
    * This is a collection of worksheets to add to the end of each chapter once some conflicts are resolved, entire book is just below as Sage worksheets
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip table-of-contents section, click on actual sections to bring up content
