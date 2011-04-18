@@ -20,7 +20,7 @@ The schedule for the 5-minute talks on January 26 is [[http://math.ucsd.edu/~ali
  * [[/BhargavaShankar|Bhargava-Shankar]]
  . "default" meeting time: Tuesdays 11-12 or 1-2 (see schedule)
  * [[/ExplicitFormula|Explicit formula working group]]
- . "default" meeting time: Tuesdays 1:30-2:30
+ . "default" meeting time: Wednesday 11:00-12:00
  * [[/ILS|Low-lying zeros seminar]]
  . "default" meeting time: Wednesdays 1.30 - 2.30
  * [[/ParamodularForms|Paramodular Forms]]
