@@ -15,6 +15,12 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * [[http://wstein.org/|William Stein]] (University of Washington)
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * Ryan Grout
+ * Sébastien Labbé (Montréal)
+ * William Stein (University of Washington)
+ * John Palmieri (University of Washington)
+ * Ian Stokes-Rees (Harvard Medical School)
+ * Keshav Kini (Singapore)
+ * Bruce Cohen (High school mathematics teacher in Northern California)
 
 == Organizers ==
 
