@@ -30,7 +30,9 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
 == Funding ==
 
- If you're interested in attending, there may be funding for you.   Email wstein@gmail.com.
+ If you're interested in attending, there may be funding for you.   Email wstein@gmail.com. 
+
+ '''Be sure to buy your plane ticket on a US carrier.'''
 
 == Logistics ==
 
