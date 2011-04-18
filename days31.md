@@ -8,6 +8,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
 == Participants ==
 
+ 1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound) 
  1. [[http://www.math.union.edu/~dpvc/|Davide P. Cervone]] (Union College, New York) -- author of jsmath and MathJax
  * Bruce Cohen (High school mathematics teacher in Northern California)
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
