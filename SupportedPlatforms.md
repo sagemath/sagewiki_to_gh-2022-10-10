@@ -1,6 +1,9 @@
 <<TableOfContents>>
 
 ----
+== Supported compilers ==
+A miniumum of gcc 4.0.1 is needed to build Sage, though later releases are generally preferable. However. for the upcoming sage-4.7.0 release, gcc 4.6.0 will not work. We expect to fix the bugs that prevent Sage building with gcc 4.6.0 in Sage 4.7.1.
+
 == Supported Platforms ==
 
 If you try to build Sage on most Linux or OS X systems, you should have few if any problems and if there are problems, plenty of people will be able to help you. Just ask on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] But some distributions are better supported than others - see below for details. 
@@ -32,6 +35,7 @@ There are five requirements for Sage to work successfully on these fully support
  * The system must not have been mis-configured. Unfortunately, it is not unusual for Sage to fail to build on systems where someone has mis-configured the system. A fresh install of the operating system is not necessary, but any changes made since the installation must have been performed properly.
  * You need at least 2 GB of RAM (you may get away with less, but you can not be sure. Sage has been built on systems with less than 2 GB RAM)
  * You need at least 2.5 GB of free disk space.
+ * gcc >= 4.0.1 for Sage versions of 4.6.2 or earlier. gcc 4.6.0 will not build Sage 4.7.0
  * All instructions must be followed.
 
 ====== Linux ======
