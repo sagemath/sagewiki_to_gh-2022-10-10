@@ -122,6 +122,6 @@ More information on the HP-UX port can be found on the [[HP-UX]] page.
 
 ===== Solaris 10 64-bit =====
  * Solaris 10 on x86 processors in 64-bit mode. (Substantial work has been done on this. A port can be expected in 2011).
- * Solaris 10 on SPARC processors in 64-bit mode. (Substantial work has been done on this. A port can be expected in 2010).
+ * Solaris 10 on SPARC processors in 64-bit mode. (Substantial work has been done on this. A port can be expected in 2011).
 
 More information about the status of the Solaris ports can be found on the [[solaris|Solaris]] page of the Sage Wiki. There's also some notes about installing [[solaris-binaries|Solaris binaries]]
