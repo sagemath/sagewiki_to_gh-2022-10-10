@@ -126,16 +126,16 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
    * [[attachment:fcla-sage-experimental.zip | Worksheet Zip File]]
    * [[attachment:fcla-sage-experimental.pdf | PDF Version (old)]]
 
- * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/18)
+ * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/19)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
    * Live Sage code for Group Theory chapters: 1-6, 9-11, 14-23
    * Content is complete, except Chapter 13 (Structure of Finite Abelian Groups) to come later
    * Requires Sage 4.7.alpha3 or newer (or else some commands will not run properly)
-   * This is a collection of worksheets to add to the end of each chapter once some conflicts are resolved, entire book is just below as Sage worksheets
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip table-of-contents section, click on actual sections to bring up content
    * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] could be used to render faithful PDF from the same source
-   * [[attachment:aata-sage-experimental.zip | Worksheet Zip File]]
+   * Text + Sage, as worksheets, through Chapter 1 (alpha quality) [[attachment:aata-sage-alpha1.zip|Worksheet Zip File]]
+   * Sage Worksheets only (frozen 2011/04/19) [[attachment:aata-sage-experimental.zip | Worksheet Zip File]]
 
  * An Entire Mathematics Textbook (2010/08/27)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra: Theory and Applications]]
