@@ -21,6 +21,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * Keshav Kini (Singapore)
  * [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
  * Sébastien Labbé (Montréal)
+ * Andrey Novoseltsev (University of Alberta)
  * John Palmieri (University of Washington)
  * [[http://wstein.org/|William Stein]] (University of Washington)
  * Ian Stokes-Rees (Harvard Medical School)
