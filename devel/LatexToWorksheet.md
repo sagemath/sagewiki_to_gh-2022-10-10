@@ -134,7 +134,7 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip table-of-contents section, click on actual sections to bring up content
    * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] could be used to render faithful PDF from the same source
-   * Text + Sage, as worksheets, through Chapter 1 (alpha quality) [[attachment:aata-sage-alpha1.zip|Worksheet Zip File]]
+   * Text + Sage, as worksheets, through Chapter 2 (alpha quality) [[attachment:aata-sage-alpha1.zip|Worksheet Zip File]]
    * Sage Worksheets only (frozen 2011/04/19) [[attachment:aata-sage-experimental.zip | Worksheet Zip File]]
 
  * An Entire Mathematics Textbook (2010/08/27)
