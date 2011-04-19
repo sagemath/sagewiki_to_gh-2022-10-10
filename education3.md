@@ -28,7 +28,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 <<Anchor(participants)>>
 = Participants =
 
- * [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
+ 1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
  * DanDrake (KAIST, South Korea)
  * Michael Garcia (San Francisco State University)
  * [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
