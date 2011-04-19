@@ -31,6 +31,7 @@ Participants are encouraged to come for either or both segments of the workshop.
 == Attendees ==
 
  * [[http://jordi.inversethought.com|Jordi Gutiérrez Hermoso]]
+ * [[http://buzzard.ups.edu|Rob Beezer]]
 
 == Registration ==
 
