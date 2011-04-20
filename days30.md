@@ -30,8 +30,19 @@ Participants are encouraged to come for either or both segments of the workshop.
 
 == Attendees ==
 
- * [[http://jordi.inversethought.com|Jordi Gutiérrez Hermoso]]
  * [[http://buzzard.ups.edu|Rob Beezer]]
+ * Carolina Benedetti, York University
+ * Chris Berg, Fields Institute
+ * Andre Gagarin, Acadia University
+ * [[http://jordi.inversethought.com|Jordi Gutiérrez Hermoso]]
+ * Jeff Hooper, Acadia Univeristy
+ * John Irving, St. Mary's University
+ * Josh Koncovy, UNB
+ * Neil McKay, Dalhousie University
+ * Alejandro Morales, MIT
+ * Travis Scrimshaw, UC Davis
+ * Robert Smith
+ * Christian Stump, UQAM
 
 == Registration ==
 
