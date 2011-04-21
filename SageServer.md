@@ -58,10 +58,11 @@ I installed these packages to provide extra capabilities in Sage:
 
 {{{
 sudo apt-get install graphicsmagick-imagemagick-compat # could also install imagemagick instead
-sudo apt-get install xorg-dev libpng-dev r-base # to pick up dependencies for R to enable png support
+sudo apt-get install libpango1.0-dev libcairo-dev # to pick up dependencies for R to enable png support
 sudo apt-get install texlive-full # could probably install a subset of texlive instead
 }}}
 
+(I think the R png capabilities line is right.  If it's not, you may have to also install the xorg-dev, libpng-dev, and/or r-base packages)
 
 I installed this to help me manage the server better:
 
