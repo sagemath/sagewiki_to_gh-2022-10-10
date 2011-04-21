@@ -116,6 +116,15 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
+ * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/20)
+   * Tom Judson's free open-source [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
+   * Live Sage code for each chapter (except 7, 8, 12; 13 will be done later)
+   * Requires Sage 4.7.alpha3 or newer (or else some commands will not run properly)
+   * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
+   * In the notebook, skip table-of-contents section, click on actual sections to bring up content
+   * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] can be used to render faithful PDF from the same source
+   * Through Chapter 16 (alpha quality) [[attachment:aata-sage-alpha1.zip|Worksheet Zip File]]
+
  * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/02/28)
    * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
    * Live Sage code for first five chapters of eight (Chapters SLE, V, M, VS, D)
@@ -126,24 +135,15 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
    * [[attachment:fcla-sage-experimental.zip | Worksheet Zip File]]
    * [[attachment:fcla-sage-experimental.pdf | PDF Version (old)]]
 
- * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/19)
+ * Abstract Algebra Worksheets (2011/04/18)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
-   * Live Sage code for Group Theory chapters: 1-6, 9-11, 14-23
-   * Content is complete, except Chapter 13 (Structure of Finite Abelian Groups) to come later
-   * Requires Sage 4.7.alpha3 or newer (or else some commands will not run properly)
-   * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
-   * In the notebook, skip table-of-contents section, click on actual sections to bring up content
-   * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] could be used to render faithful PDF from the same source
-   * Text + Sage, as worksheets, through Chapter 2 (alpha quality) [[attachment:aata-sage-alpha1.zip|Worksheet Zip File]]
-   * Sage Worksheets only (frozen 2011/04/19) [[attachment:aata-sage-experimental.zip | Worksheet Zip File]]
+   * Outdated and replaced by the progress above, this is worksheets only
+   * [[attachment:aata-sage-experimental.zip|Worksheet Zip File]]
 
  * An Entire Mathematics Textbook (2010/08/27)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra: Theory and Applications]]
-   * Zip file has about 30 worksheets, simply upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping.
-   * No cross-worksheet links working (in particular the "Table of Contents" is dysfunctional).  So just click on a chapter in your notebook's list of chapters.
-   * No additional compute cells.  Yet.
-   * Sage compute cell available at the end of each chapter for experiments or for notes (via TinyMCE editor)
-   * [[attachment:aata-sage-20100827.zip | Zip File]]
+   * Outdated and replaced by the progress above, this is text only
+   * [[attachment:aata-sage-20100827.zip|Worksheet Zip File]]
 
  * Approximating Polynomial Worksheet (2010/02/20)
    * A classroom worksheet, with interacts
