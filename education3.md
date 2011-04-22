@@ -29,22 +29,23 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 = Participants =
 
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
+ * [[http://www.cgl.ucsf.edu/home/bic|Bruce Cohen]] (Lowell High School, San Francisco)
  * DanDrake (KAIST, South Korea)
  * Michael Garcia (San Francisco State University)
  * [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  * Marja-Liisa Hassi (University of Colorado)
  * [[http://math.jasonbhill.com|Jason B. Hill]] (University of Colorado)
- * TJ Hitchman (University of Northern Iowa)
+ * [[http://www.uni.edu/theron/|TJ Hitchman]] (University of Northern Iowa)
+ * [[http://facweb.northseattle.edu/ejasso/|Edgar Jasso]] (North Seattle Community College)
  * [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F. Austin State University)
- * Kiran Kedlaya (University of California, San Diego)
+ * [[http://math.ucsd.edu/~kkedlaya/|Kiran Kedlaya]] (University of California, San Diego)
  * [[http://www2.sfasu.edu/math/people/faculty/longj.html|Jane Long]] (Stephen F. Austin State University)
+ * [[http://www.maa.org/Aboutmaa/pearsonbio.html|Michael Pearson]] (MAA, Washington, DC)
  * [[http://www.reed.edu/~davidp/|David Perkinson]] (Reed College)
  * [[http://www.csudh.edu/math/wpong/|Wai Yan Pong]] (California State University, Dominguez Hills)
  * Rao Potluri (Reed College)
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * [[http://wstein.org/|William Stein]] (University of Washington)
- * [[http://www.maa.org/Aboutmaa/pearsonbio.html|Michael Pearson]] (MAA)
- * [[http://www.cgl.ucsf.edu/home/bic|Bruce Cohen]] (Lowell High School, San Francisco)
 
 
 = Mailing Lists =
