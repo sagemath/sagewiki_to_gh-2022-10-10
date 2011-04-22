@@ -120,6 +120,7 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
    * Tom Judson's free open-source [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
    * Live Sage code for each chapter (except 7, 8, 12; 13 will be done later)
    * Requires Sage 4.7.alpha3 or newer (or else some commands will not run properly)
+   * 259 Sage examples, input/output for each tested on Sage 4.7.alpha3
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip table-of-contents section, click on actual sections to bring up content
    * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] can be used to render faithful PDF from the same source
