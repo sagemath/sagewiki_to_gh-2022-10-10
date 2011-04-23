@@ -116,9 +116,9 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
- * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/21)
+ * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/22)
    * Tom Judson's free open-source [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
-   * Live Sage code for each chapter (except 7, 8, 12; 13 will be done later)
+   * Live Sage code for each chapter (except 7, 8, 12, 13 to be done later, especially 13)
    * Requires Sage 4.7.alpha3 or newer (or else some commands will not run properly)
    * 259 Sage examples, input/output for each tested on Sage 4.7.alpha3
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
