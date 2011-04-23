@@ -118,7 +118,7 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
 
  * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/22)
    * Tom Judson's free open-source [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
-   * Live Sage code for each chapter (except 7, 8, 12, 13 to be done later, especially 13)
+   * Live Sage code for each chapter (except 7, 8, 12, 13 will be done later - especially 13)
    * Requires Sage 4.7.alpha3 or newer (or else some commands will not run properly)
    * 259 Sage examples, input/output for each tested on Sage 4.7.alpha3
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
@@ -139,7 +139,8 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
  * Abstract Algebra Worksheets (2011/04/18)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
    * Outdated and replaced by the progress above, this is worksheets only
-   * [[attachment:aata-sage-experimental.zip|Worksheet Zip File]]
+   * [[attachment:aata-sage-experimental.zip|Worksheet Zip File]] - for Tom Judson's Spring 2011 course, includes new Sage code
+   * [[attachment:aata-sage-worksheets-only.zip|Worksheet Zip File]] - for Sage 4.7.alpha3, references to text are broken
 
  * An Entire Mathematics Textbook (2010/08/27)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra: Theory and Applications]]
