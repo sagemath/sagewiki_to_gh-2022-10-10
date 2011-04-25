@@ -30,7 +30,7 @@ Participants are encouraged to come for either or both segments of the workshop.
 
 == Attendees ==
 
- * [[http://buzzard.ups.edu|Rob Beezer]]
+ * [[http://buzzard.ups.edu|Rob Beezer]] (u of Puget Sound)
  * Carolina Benedetti, York University
  * Chris Berg, Fields Institute
  * Andre Gagarin, Acadia University
