@@ -8,6 +8,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
 == Participants ==
 
+ 1. [[http://www.math.missouri.edu/personnel/other/aubreyj.html|Jason Aubrey]] (university of Missouri) -- `WebWork`
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound) 
  1. [[https://profiles.google.com/vbraun.name/about|Volker Braun]] (Dublin, Ireland) -- computational physicist
  1. [[http://www.math.union.edu/~dpvc/|Davide P. Cervone]] (Union College, New York) -- author of jsmath and `MathJax`
