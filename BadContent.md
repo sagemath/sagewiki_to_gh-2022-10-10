@@ -4625,6 +4625,8 @@ hcgdiet\.net
 communaute\.sstic\.org
 prlog\.org
 unlockiphone4\.com
+patioheater[sz]?\.com
+card-approvals\.co\.uk
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
