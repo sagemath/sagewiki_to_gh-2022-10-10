@@ -25,6 +25,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * Sébastien Labbé (Montréal)
  * Andrey Novoseltsev (University of Alberta)
  * John Palmieri (University of Washington)
+ * Paul Sharaba (Undergraduate, Cleveland State University)
  * [[http://wstein.org/|William Stein]] (University of Washington)
  * Ian Stokes-Rees (Harvard Medical School)
 
