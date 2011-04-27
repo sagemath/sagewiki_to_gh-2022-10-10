@@ -82,6 +82,7 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11104|11104]] || is_normal() for matrices || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11259|11259]] || LU decomposition for exact matrices || with patch ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11195|11195]] || LU decomposition for exact matrices || in-progress ||  ||
