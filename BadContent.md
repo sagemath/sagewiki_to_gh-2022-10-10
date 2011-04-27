@@ -4627,6 +4627,7 @@ prlog\.org
 unlockiphone4\.com
 patioheater[sz]?\.com
 card-approvals\.co\.uk
+hamptonbayceilingfans\.net
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
