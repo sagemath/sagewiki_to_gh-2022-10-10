@@ -8,13 +8,13 @@ Monday
 
 * 9 am: Welcome, and Sage installation help
 * 10am-10:45 minutes Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
-* 10:45am-11am: Tour de table
-* 11am: Tutorial: starting Sage, using the notebook and help, general features (Florent/Jason)
+* 10:45am-11:15am: Tour de table (introduction)
+* 11:15am: Tutorial: starting Sage, using the notebook and help, general features (Florent/Jason)
 
 Lunch break
 
-* 2pm: Math talk: ?
-* 2:45pm: Coding Spring organization
+* 2pm: Math talk: Symmetric functions?
+* 2:45pm: Coding Sprint organization
 * 3pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas)
   Combinatorics, words, book, linear algebra, ...
   (TODO: add links here)
@@ -77,6 +77,8 @@ Potential material
 * Schubert calculus: challenges, solutions, projects
 
 * Tutorial: cluster algebras
+
+* Crystal bases (Anne)
 
 Discussions
 -----------
