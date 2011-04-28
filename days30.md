@@ -23,6 +23,25 @@ Participants are encouraged to come for either or both segments of the workshop.
 
  To be announced soon.  The workshop will run from 9am - 5:30pm each day.
 
+== Food in Wolfville ==
+
+ Listed by proximity to the workshop; all are in the direction of downtown Wolfville from Huggins Science Hall where the workshop will be held.  I've tried to not make too biased a list, but have omitted one or two restaurants that I don't recommend, and pointed out my favorite restaurants (highly subjective).  (-Eva)
+
+ * Acadia Student Union Building - open for lunch
+ * Merchant (downstairs) / Library Pub (upstairs) - corner of Main St. and Elm St.; coffee, hot chocolate, lunch, upscale pub food (*recommended)
+ * Ivy Deck - Elm Ave.; sandwiches, pasta, crepes, deserts, vegetarian options (*recommended for dinner)
+ * Subway - Main St. at corner with Elm Ave.; chain sandwich shop
+ * Paddy's Pub - Main St.; microbrew beer made on premises, pub food (*Monday night open mic usually has very good free live music, begins at 8pm)
+ * Just Us - Main St. at corner with Linden Ave.; coffee, samosas and pakoras (in front of Al Whittle Cinema, which shows movies on Sundays 4pm and 7pm and documentaries on Wednesdays 7pm)
+ * Rolled Oat - Main St.; breakfast, lunch, some baked goods, daily specials, vegetarian options (*highly recommended)
+ * Front St. Cafe - Front St.; diner food
+ * Tempest - Front St.; fine dining, usually Italian-inspired
+ * Acton's - Main St.; fine dining (*recommended; good deserts)
+ * various pizza restaurants - Main St.; good for cheap eats
+ * T.A.N. - corner of Main St. and Gaspereau Ave.; coffee, hot chocolate, some baked goods (*recommended)
+ * Tim Horton's - corner of Main St. and Gaspereau Ave.; chain coffee and donuts
+ * Blomidon Inn - Main St. past downtown; fine dining, traditional fare, dinner
+
 == Invited Speakers ==
 
  * [[http://www.math.upenn.edu/~jbandlow/|Jason Bandlow]]
