@@ -8,7 +8,7 @@
 == Location ==
 
  * Acadia University, Wolfville, Nova Scotia, Canada
- * Huggins Science Hall, Rooms 143 and 147 (entrance from the building lobby)
+ * Huggins Science Hall, 12 University Ave., Rooms 143 and 147 (entrance from the building lobby)
 
 == Dates ==
 
