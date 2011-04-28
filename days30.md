@@ -19,6 +19,10 @@
 
 Participants are encouraged to come for either or both segments of the workshop.  Those attending the Developers' Meeting are encouraged to have something in mind which they would like to implement in Sage; we will also have some projects available for students to work on.
 
+== Schedule ==
+
+ To be announced soon.  The workshop will run from 9am - 5:30pm each day.
+
 == Invited Speakers ==
 
  * [[http://www.math.upenn.edu/~jbandlow/|Jason Bandlow]]
