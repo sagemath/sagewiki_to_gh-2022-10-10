@@ -76,6 +76,8 @@ Potential material
 
 * Schubert calculus: challenges, solutions, projects
 
+* Tutorial: cluster algebras
+
 Discussions
 -----------
 
