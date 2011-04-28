@@ -4,7 +4,16 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
 == Topics ==
 
- * Notebook development
+ * Mainly the Sage Notebook
+
+== Location ==
+
+ * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
+
+ * We have [[http://www.css.washington.edu/room/PCAR+297|PACCAR HALL 297]].  This room is in this [[http://www.foster.washington.edu/about/Pages/paccarhall.aspx|beautiful building]].  
+
+ * LODGING: Many participants will be staying at the "UWMC Collegiana Hospitality House" (4311 12th Ave. N.E., Seattle)  ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved several rooms.  See [[attachment:collegiana_directions.pdf]] for more information about getting to the Collegiana.
+
 
 == Participants ==
 
