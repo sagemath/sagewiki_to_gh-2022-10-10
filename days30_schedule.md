@@ -13,8 +13,7 @@ Monday
 
 Lunch break
 
-* 2pm: Math talk: Symmetric functions?
-* 2:45pm: Coding Sprint organization
+* 2pm: Tutorial
 * 3pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas)
   Combinatorics, words, book, linear algebra, ...
   (TODO: add links here)
@@ -65,10 +64,10 @@ Lunch break
 Potential material
 ------------------
 
-* Tutorial: utiliser des structures algébriques: espaces vectoriels, ... (JasonBandlow, FlorentHivert, NicolasThiéry)
+* Tutorial: using algebraic structures: vector spaces, ... (JasonBandlow, FlorentHivert, NicolasThiéry)
   [[attachment:tutorial-using-free-modules.txt]]
 
-* Tutorial:: implanter ses propres structures algébriques (JasonBandlow, FlorentHivert, NicolasThiéry)
+* Tutorial:: implementing your own algebraic structures (JasonBandlow, FlorentHivert, NicolasThiéry)
   [[attachment:tutorial-implementing-algebraic-structures.txt]]
 
 * Lexicographic generation of lists of integers (FlorentHivert, NicolasThiéry)
@@ -76,9 +75,11 @@ Potential material
 
 * Schubert calculus: challenges, solutions, projects
 
-* Tutorial: cluster algebras
+* Tutorial: cluster algebras (Christian)
 
 * Crystal bases (Anne)
+
+* Posets (Franco)
 
 Discussions
 -----------
