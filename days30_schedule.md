@@ -8,7 +8,7 @@ Monday
 
 * 9 am: Welcome, and Sage installation help
 * 10am-10:45 minutes Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
-* 10:45am-11:15am: Tour de table (introduction)
+* 10:45am-11:15am: Go round (introductions)
 * 11:15am: Tutorial: starting Sage, using the notebook and help, general features (Florent/Jason)
 
 Lunch break
@@ -29,7 +29,7 @@ Tuesday
 Lunch break
 
 * 2pm: Anders: "Strategies for computing Schubert structure constants"
-* 3pm: Tutorial: kindly report a bug or suggest an improvement (20 minutes)
+* 3pm: Tutorial: how to kindly report a bug or suggest an improvement (20 minutes)
 * 3:20pm: Open tutorials / coding sprints
 * 5pm: Coding spring status report
 
