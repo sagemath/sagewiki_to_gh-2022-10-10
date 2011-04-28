@@ -13,7 +13,7 @@ Monday
 
 Lunch break
 
-* 2pm: Anders: "Strategies for computing Schubert structure constants"
+* 2pm: Math talk: ?
 * 2:45pm: Coding Spring organization
 * 3pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas)
   Combinatorics, words, book, linear algebra, ...
@@ -28,7 +28,7 @@ Tuesday
 
 Lunch break
 
-* 2pm: Math talk: ?
+* 2pm: Anders: "Strategies for computing Schubert structure constants"
 * 3pm: Tutorial: kindly report a bug or suggest an improvement (20 minutes)
 * 3:20pm: Open tutorials / coding sprints
 * 5pm: Coding spring status report
