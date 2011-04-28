@@ -13,14 +13,14 @@ Monday
 
 Lunch Break
 
-* 1pm: Tutorial: `Using the Sage notebook and navigating the help system <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Jason)
-* 2pm: Tutorial: TODO: choose
+* 1pm: Tutorial: `Using the Sage notebook and navigating the help system
+  <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Jason) 2pm: Tutorial: TODO: choose
 * 3pm: coffee break
 * 3:15pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas):
 
   * Tutorial: Linear algebra (TODO Franco: add link)
-  * Tutorial: `Combinatorics <http://combinat.sagemath.org/doc/reference/sage/combinat/tutorial_enumerated_sets.htm>`_ (Jason)
-  * Tutorial: `Words <http://combinat.sagemath.org/doc/reference/sage/combinat/words/demo.htm>`_
+  * Tutorial: `Combinatorics <http://combinat.sagemath.org/doc/reference/sage/combinat/tutorial_enumerated_sets.html>`_ (Jason)
+  * Tutorial: `Words <http://combinat.sagemath.org/doc/reference/sage/combinat/words/demo.html>`_
   * Other ressources:
 
     * `The Sage tutorial  <http://www.sagemath.org/doc/tutorial/>`_
@@ -32,7 +32,7 @@ Tuesday
 
 * 9am: Editing Sage's Sources (20 minutes)
   (TODO: make a notebook describing how to lookup and edit the source, sage -br, / hg_sage.revert() hg_sage.diff())
-* 9:20am-12pm: Tutorial: `Programming in Python and Sage <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.htm>`_ (Franco/Jason)
+* 9:20am-12pm: Tutorial: `Programming in Python and Sage <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html>`_ (Franco/Jason)
 * 10am: coffee break
 
 Lunch break
@@ -61,7 +61,7 @@ Thursday
 --------
 
 * 10am: coffee break
-* 10:15am-11:15am: Tutorial: `Contributing to Sage <http://combinat.sagemath.org/doc/thematic_tutorials/demo-how-to-contribute.htm>`_
+* 10:15am-11:15am: Tutorial: `Contributing to Sage <http://combinat.sagemath.org/doc/thematic_tutorials/demo-how-to-contribute.html>`_
 * 2pm: Coding sprint status report
 * 3pm: coffee break
 
@@ -83,7 +83,7 @@ Potential material
 
 * Tutorial: `Using algebraic structures: vector spaces, ... <http://combinat.sagemath.org/doc/reference/sage/modules/tutorial_free_modules.html>`_ (JasonBandlow, FlorentHivert, NicolasThiéry)
 
-* Tutorial:: `Implementing your own algebraic structures <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-implementing-algebraic-structures.htm>`_ (JasonBandlow, FlorentHivert, NicolasThiéry)
+* Tutorial:: `Implementing your own algebraic structures <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-implementing-algebraic-structures.html>`_ (JasonBandlow, FlorentHivert, NicolasThiéry)
   
 
 * Lexicographic generation of lists of integers (FlorentHivert, NicolasThiéry)
