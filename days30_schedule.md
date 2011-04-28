@@ -3,6 +3,7 @@
 Tentative Programme
 ===================
 
+
 Monday
 ------
 
@@ -70,8 +71,11 @@ Friday
 
 * 10am: coffee break
 * 10:15am-11:15am: Tutorial: Contributing to Sage-combinat `Mercurial step by step <http://wiki.sagemath.org/combinat/MercurialStepByStep>`_
-  `The Picture <http://wiki.sagemath.org/combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png>`_
 
+  Illustrated by `the outdated picture <http://wiki.sagemath.org/combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png>`_
+
+  .. image:: http://wiki.sagemath.org/combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png
+     :height: 250px
 
 Lunch break
 
