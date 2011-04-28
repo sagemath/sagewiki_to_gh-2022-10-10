@@ -72,5 +72,18 @@ Potential material
   [[attachment:tutorial-implementing-algebraic-structures.txt]]
 
 * Lexicographic generation of lists of integers (FlorentHivert, NicolasThiéry)
+  Algorithmic & design
+
+* Schubert calculus: challenges, solutions, projects
+
+Discussions
+-----------
+
+* Thematic tutorials setup
+* Categories
+* The Sage-Combinat roadmap
+* The Sage-Combinat workflow: writing the specs
+* Modeling set containment: "x in S"
+
 
 }}}
