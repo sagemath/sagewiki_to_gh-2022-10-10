@@ -7,12 +7,12 @@ Monday
 ------
 
 * 9 am: Welcome, and Sage installation help
-* 10am-10:45 minutes Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
-* 10:45am-11:15am: Go round (introductions)
-* 11:15am: Tutorial: starting Sage, using the notebook and help, general features (Florent/Jason)
+* 10am-10:45 Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
+* 10:45am-12pm: coffee break at University Club (next door), Introductions
 
-Lunch break
+Lunch Break
 
+* 1pm: Tutorial: starting Sage, using the notebook and help, general features (Florent/Jason)
 * 2pm: Tutorial
 * 3pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas)
   Combinatorics, words, book, linear algebra, ...
@@ -72,6 +72,8 @@ Potential material
 
 * Lexicographic generation of lists of integers (FlorentHivert, NicolasThiéry)
   Algorithmic & design
+
+* Canonical forms, normal forms, and computer representation (Robert Smith)
 
 * Schubert calculus: challenges, solutions, projects
 
