@@ -6,8 +6,7 @@ Tentative Programme
 Monday
 ------
 
-
-* 9 am Welcome, and Sage installation help
+* 9 am: Welcome, and Sage installation help
 * 10am: 45 minutes-1 hour Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
 * 10:45am: Tour de table (20 minutes)
 * 11am: Tutorial: starting Sage, using the notebook and help, general features (Florent/Jason)
@@ -39,7 +38,7 @@ Wednesday
 * Tutorial: programming iterators (Florent)
 
 
-* ''10:00-11:00'' Demo: rewiewing a patch (SébastienLabbé)
+* 2pm: Demo: rewiewing a patch (SébastienLabbé)
    [[http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/|How to contribute to Sage, steps 16 to 23 !!!]]
 
 Thursday
@@ -48,24 +47,15 @@ Thursday
 * 9am: Tutorial: Contributing to Sage
  [[http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/|How to contribute to Sage in 21 easy steps!]]
 
-* ''13:00-14:00'' tutoriel: utiliser des structures algébriques: espaces vectoriels, ... (FlorentHivert, NicolasThiéry)
- [[attachment:tutorial-using-free-modules.txt]]
+* Tutorial: utiliser des structures algébriques: espaces vectoriels, ... (FlorentHivert, NicolasThiéry)
+  [[attachment:tutorial-using-free-modules.txt]]
 
-* ''14:00-15:00'' tutoriel: implanter ses propres structures algébriques (FlorentHivert, NicolasThiéry)
- [[attachment:tutorial-implementing-algebraic-structures.txt]]
-
+* Tutorial:: implanter ses propres structures algébriques (FlorentHivert, NicolasThiéry)
+  [[attachment:tutorial-implementing-algebraic-structures.txt]]
 
 * ''11:00-11:30'' tutoriel: contribuer à Sage-combinat (ThierryMonteil)
  * [[http://wiki.sagemath.org/combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png]]
  * [[combinat/MercurialStepByStep]]
-
-
-
-
-
-
-
-
 
 
 }}}
