@@ -4628,6 +4628,8 @@ unlockiphone4\.com
 patioheater[sz]?\.com
 card-approvals\.co\.uk
 hamptonbayceilingfans\.net
+novolinespiele\.de
+novoline24\.eu
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
