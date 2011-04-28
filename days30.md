@@ -51,7 +51,7 @@ Participants are encouraged to come for either or both segments of the workshop.
  * [[http://www.math.ucdavis.edu/~anne|Anne Schilling]]
  * [[http://www.nicolas.thiery.name|Nicolas Thiéry]]
 
-== Attendees ==
+== Participants ==
 
  * [[http://buzzard.ups.edu|Rob Beezer]], U of Puget Sound
  * Carolina Benedetti, York University
