@@ -56,13 +56,17 @@ Participants are encouraged to come for either or both segments of the workshop.
  * [[http://buzzard.ups.edu|Rob Beezer]], U of Puget Sound
  * Carolina Benedetti, York University
  * Chris Berg, Fields Institute
+ * Jeremy Chabot, St. Mary's University
  * Andre Gagarin, Acadia University
  * [[http://jordi.inversethought.com|Jordi Gutiérrez Hermoso]]
+ * Holly Heglin, York University
  * Jeff Hooper, Acadia Univeristy
  * John Irving, St. Mary's University
  * Josh Koncovy, UNB
+ * Mitja Mastnak, St. Mary's University
  * Neil McKay, Dalhousie University
  * Alejandro Morales, MIT
+ * James Prudhoe, St. Mary's University
  * Travis Scrimshaw, UC Davis
  * Robert Smith
  * Christian Stump, UQAM
