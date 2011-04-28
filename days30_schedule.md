@@ -7,19 +7,22 @@ Monday
 ------
 
 * 9 am: Welcome, and Sage installation help
-* 10am-10:45 Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
-* 10:45am-12pm: coffee break at University Club (next door), Introductions
+* 10am-11am Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
+* 11am-12pm: coffee break at University Club (next door),
+  Introductions, more Sage installations
 
 Lunch Break
-Tutorial: using the notebook and navigating the help system (long version)
+
 * 1pm: Tutorial: `Using the Sage notebook and navigating the help system <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Jason)
-* 2pm: Tutorial:
+* 2pm: Tutorial: TODO: choose
 * 3pm: coffee break
-* 3:15pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas)
+* 3:15pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas):
+
   * Tutorial: Linear algebra (TODO Franco: add link)
   * Tutorial: `Combinatorics <http://combinat.sagemath.org/doc/reference/sage/combinat/tutorial_enumerated_sets.htm>`_ (Jason)
   * Tutorial: `Words <http://combinat.sagemath.org/doc/reference/sage/combinat/words/demo.htm>`_
   * Other ressources:
+
     * `The Sage tutorial  <http://www.sagemath.org/doc/tutorial/>`_
     * Introductory book (in French): `Introduction à Sage <http://sagebook.gforge.inria.fr/>`_
 
@@ -28,7 +31,7 @@ Tuesday
 
 * 9am: Editing Sage's Sources (20 minutes)
   (TODO: make a notebook describing how to use ?? / edit / hg_sage.revert() hg_sage.diff())
-* 9:20am-12pm: Tutorial: `Programming in Python and Sage <tutorial-programming-python.htm>`_ (Franco/Jason)
+* 9:20am-12pm: Tutorial: `Programming in Python and Sage <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.htm>`_ (Franco/Jason)
 * 10am: coffee break
 
 Lunch break
