@@ -12,7 +12,7 @@ Monday
 
 Lunch Break
 
-* 1pm: Tutorial: starting Sage, using the notebook and help, general features (Florent/Jason)
+* 1pm: Tutorial: `starting Sage, using the notebook and help, general features <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Florent/Jason)
 * 2pm: Tutorial
 * 3pm: coffee break
 * 3:15pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas)
