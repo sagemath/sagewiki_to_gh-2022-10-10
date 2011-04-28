@@ -14,7 +14,8 @@ Lunch Break
 
 * 1pm: Tutorial: starting Sage, using the notebook and help, general features (Florent/Jason)
 * 2pm: Tutorial
-* 3pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas)
+* 3pm: coffee break
+* 3:15pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas)
   Combinatorics, words, book, linear algebra, ...
   (TODO: add links here)
 
@@ -24,12 +25,14 @@ Tuesday
 * 9am: Editing Sage's Sources (20 minutes)
   (TODO: make a notebook describing how to use ?? / edit / hg_sage.revert() hg_sage.diff())
 * 9:20am-12pm: Tutorial: programming Python (Franco/Jason)
+* 10am: coffee break
 
 Lunch break
 
 * 2pm: Anders: "Strategies for computing Schubert structure constants"
-* 3pm: Tutorial: how to kindly report a bug or suggest an improvement (20 minutes)
-* 3:20pm: Open tutorials / coding sprints
+* 3pm: coffee break
+* 3:15pm: Tutorial: how to kindly report a bug or suggest an improvement (20 minutes)
+* 3:35pm: Open tutorials / coding sprints
 * 5pm: Coding spring status report
 
 
@@ -37,29 +40,35 @@ Wednesday
 ---------
 
 * 9am: Tutorial: Object oriented programming (FlorentHivert)
+* 10am: coffee break
 * 11am-11:20am: Tutorial: programming iterators (FlorentHivert)
 
 Lunch break
 
 * 2pm: Coding sprint status report
 * 2:20pm Demo: `Rewiewing a patch <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
+* 3pm: coffee break
 
 Thursday
 --------
 
-* 10am-11am: Tutorial: `Contributing to Sage <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
+* 10am: coffee break
+* 10:15am-11:15am: Tutorial: `Contributing to Sage <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
 * 2pm: Coding sprint status report
+* 3pm: coffee break
 
 Friday
 ------
 
-* 10am-11am: Tutorial: Contributing to Sage-combinat
+* 10am: coffee break
+* 10:15am-11:15am: Tutorial: Contributing to Sage-combinat
   [[http://wiki.sagemath.org/combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png]]
   [[combinat/MercurialStepByStep]]
 
 Lunch break
 
 * 2pm: Coding sprint status report
+* 3pm: coffee break
 
 Potential material
 ------------------
