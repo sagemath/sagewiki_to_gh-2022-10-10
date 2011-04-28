@@ -7,8 +7,8 @@ Monday
 ------
 
 * 9 am: Welcome, and Sage installation help
-* 10am: 45 minutes-1 hour Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
-* 10:45am: Tour de table (20 minutes)
+* 10am-10:45 minutes Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
+* 10:45am-11am: Tour de table
 * 11am: Tutorial: starting Sage, using the notebook and help, general features (Florent/Jason)
 
 Lunch break
@@ -55,8 +55,10 @@ Friday
 ------
 
 * 10am-11am: Tutorial: Contributing to Sage-combinat
- * [[http://wiki.sagemath.org/combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png]]
- * [[combinat/MercurialStepByStep]]
+  [[http://wiki.sagemath.org/combinat/Mercurial?action=AttachFile&do=get&target=patch-server.png]]
+  [[combinat/MercurialStepByStep]]
+
+Lunch break
 
 * 2pm: Coding sprint status report
 
