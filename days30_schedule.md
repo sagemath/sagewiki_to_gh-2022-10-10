@@ -24,13 +24,14 @@ Lunch Break
   * Other ressources:
 
     * `The Sage tutorial  <http://www.sagemath.org/doc/tutorial/>`_
-    * Introductory book (in French): `Introduction à Sage <http://sagebook.gforge.inria.fr/>`_
+    * `Sage thematic tutorials and demos <http://combinat.sagemath.org/doc/thematic_tutorials/>`_
+    * Introductory book in French: `Introduction à Sage <http://sagebook.gforge.inria.fr/>`_
 
 Tuesday
 -------
 
 * 9am: Editing Sage's Sources (20 minutes)
-  (TODO: make a notebook describing how to use ?? / edit / hg_sage.revert() hg_sage.diff())
+  (TODO: make a notebook describing how to lookup and edit the source, sage -br, / hg_sage.revert() hg_sage.diff())
 * 9:20am-12pm: Tutorial: `Programming in Python and Sage <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.htm>`_ (Franco/Jason)
 * 10am: coffee break
 
