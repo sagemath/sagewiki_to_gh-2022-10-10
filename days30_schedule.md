@@ -11,9 +11,9 @@ Monday
 * 10:45am-12pm: coffee break at University Club (next door), Introductions
 
 Lunch Break
-
-* 1pm: Tutorial: `starting Sage, using the notebook and help, general features <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Florent/Jason)
-* 2pm: Tutorial
+Tutorial: using the notebook and navigating the help system (long version)
+* 1pm: Tutorial: `Using the Sage notebook and navigating the help system <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Jason)
+* 2pm: Tutorial: 
 * 3pm: coffee break
 * 3:15pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas)
   Combinatorics, words, book, linear algebra, ...
