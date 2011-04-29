@@ -15,7 +15,8 @@ Monday
 Lunch Break
 
 * 1pm: Tutorial: `Using the Sage notebook and navigating the help system
-  <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Jason) 2pm: Tutorial: TODO: choose
+  <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Jason) 
+* 2pm: Tutorial: TODO: choose
 * 3pm: coffee break
 * 3:15pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas):
 
@@ -96,6 +97,8 @@ Potential material
 * Canonical forms, normal forms, and computer representation (Robert Smith)
 
 * Schubert calculus: challenges, solutions, projects
+
+* Various algebras in Sage (Hecke algebra, nilCoxeter, Temperley Lieb, local plactic) (Anne)
 
 * Tutorial: cluster algebras (Christian)
 
