@@ -58,12 +58,15 @@ Outside of Wolfville, there are a number of cheap eats/chain restaurants in New 
  * [[http://www.nicolas.thiery.name|Nicolas Thiéry]]
 
 == Participants ==
-
+ * Kara Allan, UNB
  * [[http://buzzard.ups.edu|Rob Beezer]], U of Puget Sound
  * Carolina Benedetti, York University
  * Chris Berg, Fields Institute
+ * Francis Bischoff, UNB
  * Jeremy Chabot, St. Mary's University
+ * Calin Fraser, UNB
  * Andre Gagarin, Acadia University
+ * Gaelan Hanlon, UNB
  * [[http://jordi.inversethought.com|Jordi Gutiérrez Hermoso]]
  * Holly Heglin, York University
  * Jeff Hooper, Acadia Univeristy
@@ -72,11 +75,14 @@ Outside of Wolfville, there are a number of cheap eats/chain restaurants in New 
  * Mitja Mastnak, St. Mary's University
  * Neil McKay, Dalhousie University
  * Alejandro Morales, MIT
+ * Aaron Moss, UNB
+ * Ryan Oulton, UNB
  * James Prudhoe, St. Mary's University
  * Travis Scrimshaw, UC Davis
+ * JP Simard, UNB
  * Robert Smith
  * Christian Stump, UQAM
-
+ * Eric Webster, UNB
 == Registration ==
 
 To register, please contact Eva Curry <eva.curry@acadiau.ca>
