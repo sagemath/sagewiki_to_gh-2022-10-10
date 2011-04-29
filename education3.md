@@ -9,19 +9,22 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 = Topics =
 
- * Introduction to, and Getting Started with, Sage
- * Using Sage to Teach Undergraduates
-   * Calculus, Single and Multi Variable
+ * Tutorials and Teaching Experiences
+   * Single Variable Calculus
+   * Multivariate Calculus
    * Linear Algebra
    * Abstract Algebra
-   * More ...
+   * Number Theory
+   * Numerical Analysis
  * Authoring Materials
+   * SageTeX
    * Textbooks
    * Worksheets
    * Interacts
  * Notebook Improvements
    * In consultation with onsite notebook developers
- * And more ...
+ * Personal Projects
+   * There will lots of time to work on your own projects
 
 See the [[#schedule|schedule]] below, which will include links to resources related to the talks (slides, worksheets, etc.).
 
