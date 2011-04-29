@@ -21,7 +21,7 @@ Participants are encouraged to come for either or both segments of the workshop.
 
 == Schedule ==
 
- To be announced soon.  The workshop will run from 9am - 5:30pm each day.
+ The workshop will run from 9am - 5:30pm each day.  The [[http://wiki.sagemath.org/days30_schedule|schedule]].
 
 == Food in Wolfville ==
 
@@ -41,6 +41,12 @@ Participants are encouraged to come for either or both segments of the workshop.
  * T.A.N. - corner of Main St. and Gaspereau Ave.; coffee, hot chocolate, some baked goods (*recommended)
  * Tim Horton's - corner of Main St. and Gaspereau Ave.; chain coffee and donuts
  * Blomidon Inn - Main St. past downtown; fine dining, traditional fare, dinner
+
+Outside of Wolfville, there are a number of cheap eats/chain restaurants in New Minas, and Port Williams has the following:
+
+ * The Pasta Guy - Rt. 358, Port Williams; freshly made pasta, pasta and sauces to go, open 11-2 and 4-7 daily (*highly recommended)
+ * The Tin Pan - Rt. 358, Port Williams; greasy spoon, huge milkshakes and burgers, breakfast and lunch (*recommended)
+ * Port Pub Bistro - Kars St., Port Williams (on the water); upscale pub food, microbrew beer made on premises
 
 == Invited Speakers ==
 
