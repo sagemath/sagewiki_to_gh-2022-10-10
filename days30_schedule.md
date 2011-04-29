@@ -14,6 +14,7 @@ Monday
 
 Lunch Break
 
+* [the afternoon sessions may start later to accommodate time for lunch - please stay tuned for updates]
 * 1pm: Tutorial: `Using the Sage notebook and navigating the help system
   <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Jason) 
 * 2pm: Tutorial: TODO: choose
@@ -86,12 +87,12 @@ Lunch break
 Potential material
 ------------------
 
-* Tutorial: `Using algebraic structures: vector spaces, ... <http://combinat.sagemath.org/doc/reference/sage/modules/tutorial_free_modules.html>`_ (JasonBandlow, FlorentHivert, NicolasThiéry)
+* Tutorial: `Using algebraic structures: vector spaces, ... <http://combinat.sagemath.org/doc/reference/sage/modules/tutorial_free_modules.html>`_ (Jason Bandlow, Florent Hivert, Nicolas Thiéry)
 
-* Tutorial:: `Implementing your own algebraic structures <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-implementing-algebraic-structures.html>`_ (JasonBandlow, FlorentHivert, NicolasThiéry)
+* Tutorial:: `Implementing your own algebraic structures <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-implementing-algebraic-structures.html>`_ (Jason Bandlow, Floren Hivert, Nicolas Thiéry)
   
 
-* Lexicographic generation of lists of integers (FlorentHivert, NicolasThiéry)
+* Lexicographic generation of lists of integers (Florent Hivert, Nicolas Thiéry)
   Algorithmic & design
 
 * Canonical forms, normal forms, and computer representation (Robert Smith)
