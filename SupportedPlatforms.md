@@ -49,7 +49,7 @@ There are five requirements for Sage to work successfully on these fully support
 
 
 ====== Mac OS X ======
- * OS X 10.6 (Snow Leopard) 64-bit. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
+ * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3.  Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
 ====== Solaris 10 SPARC 32-bit ======
  * Solaris 10 on SPARC processors (32-bit only) Tested on one or more of [[http://build.sagemath.org/sage/buildslaves/t2-1|t2]], [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]] or [[http://build.sagemath.org/sage/buildslaves/mark2-1|mark2]]
@@ -86,7 +86,7 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
  * Solaris 11 Express on SPARC (Never tested, but should work, as the Sage 32-bit Solaris 10 SPARC port is very stable and Solaris has excellent backward compatibility). 
 
 ====== Mac OS X ======
- * OS X 10.4 (Tiger) and 10.5 (Leopard), both PPC and Intel chips. Note that OS X 10.6 (Snow Leopard) is fully supported. 
+ * OS X 10.4 (Tiger) and 10.5 (Leopard), both PPC and Intel chips. Note that OS X 10.6 (Snow Leopard) is fully supported, with XCode 3.2.6. (XCode 4, more precisely, XCode 4.0.1, is known to produce an executable that does not work.)
 
 ====== Microsoft Windows ======
  * VMware images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage. 
@@ -125,3 +125,6 @@ More information on the HP-UX port can be found on the [[HP-UX]] page.
  * Solaris 10 on SPARC processors in 64-bit mode. (Substantial work has been done on this. A port can be expected in 2011).
 
 More information about the status of the Solaris ports can be found on the [[solaris|Solaris]] page of the Sage Wiki. There's also some notes about installing [[solaris-binaries|Solaris binaries]]
+
+====== Mac OS X (XCode 4) ======
+ * XCode 4.0.1 is known to produce a Sage executable that segfaults. This needs work. Even more work needs to be done if one wants to use Clang-based compilers that come with it: they cannot even build the whole of Sage.
