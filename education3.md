@@ -49,6 +49,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * Rao Potluri (Reed College)
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * [[http://wstein.org/|William Stein]] (University of Washington)
+ * [[http://www.math.usm.edu/perry/|John Perry]] (University of Southern Mississippi)
 
 
 = Mailing Lists =
