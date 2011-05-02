@@ -4,7 +4,6 @@
 
 
 '''For the main SD 30 wiki page go [[days30|here]]'''
-'''For the SD 30 schedule go [[days30_schedule|here]]'''
 
 
 Below a list of proposed projects.
