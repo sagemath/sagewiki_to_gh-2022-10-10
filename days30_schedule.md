@@ -21,7 +21,7 @@ Lunch Break
 * 3pm: coffee break
 * 3:15pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas):
 
-  * Tutorial: Linear algebra (TODO Franco: add link)
+  * Tutorial: `Linear algebra <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet06-LinearAlgebra.html>`_ (Franco)
   * Tutorial: `Combinatorics <http://combinat.sagemath.org/doc/reference/sage/combinat/tutorial_enumerated_sets.html>`_ (Jason)
   * Tutorial: `Words <http://combinat.sagemath.org/doc/reference/sage/combinat/words/demo.html>`_
   * Other ressources:
