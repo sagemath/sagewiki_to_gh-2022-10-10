@@ -2,7 +2,7 @@
 
 There are a lot of different usage of containment:
 
-Objectifs:
+Possible Usage:
 
  * Complete proven test
 
@@ -19,9 +19,9 @@ Notes:
  * very similar question can be raised about equality
 
 
-Needs: Let {{{P}}} be a parent and {{{x}}} a python data structure
+Possible Syntaxes: Let {{{P}}} be a parent and {{{x}}} a python data structure
 
  * {{{P(X)}}} build an element of {{{P}}}
  * coercion {{{P.coerce(X)}}}
- * we need a standardized way to write a function which is suppose to get an element of {{{P}}} but can take any coercible(convertible?) for syntactic sugar.
+ * we need a standardized way to write a function which is suppose to get an element of {{{P}}} but can take any coercible(convertible?) for syntactic sugar {{{x = P.ensure(X)}}} ?.
  * explicit conversion but without costly test. 
