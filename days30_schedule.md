@@ -127,7 +127,7 @@ Discussions
 * Categories
 * The Sage-Combinat roadmap
 * The Sage-Combinat workflow: writing the specs
-* Modeling set containment: "x in S" <http://wiki.sagemath.org/ContainmentDiscussion>`_
+* Modeling set containment: "x in S" see `Discussion about Containment in Sage <http://wiki.sagemath.org/ContainmentDiscussion>`_
 * Posets, ideals/upper set
 
 }}}
