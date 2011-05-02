@@ -130,4 +130,17 @@ Discussions
 * Modeling set containment: "x in S" see `Discussion about Containment in Sage <http://wiki.sagemath.org/ContainmentDiscussion>`_
 * Posets, ideals/upper set
 
+
+Development Projects
+----------------------------
+
+Combinatorics:
+
+Number Theory:
+
+* `Generate centered digit set for multidimensional radix representation <http://wiki.sagemath.org/days30_projects#nt1>`_
+* `Implement Scheicher & Thuswaldner neighbor-finding algorithm <http://wiki.sagemath.org/days30_projects#nt2>`_
+* `Visualizing attractors of iterated function systems and other fractal sets <http://wiki.sagemath.org/days30_projects#nt3>`_
+* `Update Integer Vectors internal representation in Sage <http://wiki.sagemath.org/days30_projects#nt4>`_
+
 }}}
