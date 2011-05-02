@@ -25,7 +25,7 @@ Lunch Break
 
   * Tutorial: `Linear algebra <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet06-LinearAlgebra.html>`_ (Franco) [`linear algebra sws file <attachment:Linear_algebra.sws>`_]
   * Tutorial: `Combinatorics <http://combinat.sagemath.org/doc/reference/sage/combinat/tutorial_enumerated_sets.html>`_ (Jason) [`combinatorics sws file <attachment:combinatorics.sws>`_]
-  * Tutorial: `Words <http://combinat.sagemath.org/doc/reference/sage/combinat/words/demo.html>`_ [`words sws file <attachment:combinatorics.sws>`_]
+  * Tutorial: `Words <http://combinat.sagemath.org/doc/reference/sage/combinat/words/demo.html>`_ [`words sws file <attachment:words.sws>`_]
   * Other resources:
 
     * `The Sage tutorial  <http://www.sagemath.org/doc/tutorial/>`_
@@ -37,7 +37,7 @@ Tuesday
 
 * 9am: Editing Sage's Sources (20 minutes)
   (TODO: make a notebook describing how to lookup and edit the source, sage -br, / hg_sage.revert() hg_sage.diff())
-* 9:20am-12pm: Tutorial: `Programming in Python and Sage <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html>`_ (Franco/Jason)
+* 9:20am-12pm: Tutorial: `Programming in Python and Sage <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html>`_ (Franco/Jason) [`programming tutorial sws file <attachment:programming_python_sage.sws>`_]
 
   * Worksheet: `The 3n+1 Conjecture <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet05-CollatzConjecture.html#siena-tutorials-worksheet05-collatzconjecture>`_
   * Worksheet: `Strings and the Burrows-Wheeler Transform <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet07-StringsAndTheBWT.html#siena-tutorials-worksheet07-stringsandthebwt>`_
