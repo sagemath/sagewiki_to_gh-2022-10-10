@@ -138,9 +138,9 @@ Combinatorics:
 
 Number Theory:
 
-* `Generate centered digit set for multidimensional radix representation </days30_projects#nt1>`_
-* `Implement Scheicher & Thuswaldner neighbor-finding algorithm </days30_projects#nt2>`_
-* `Visualizing attractors of iterated function systems and other fractal sets </days30_projects#nt3>`_
-* `Update Integer Vectors internal representation in Sage </days30_projects#nt4>`_
+* `Generate centered digit set for multidimensional radix representation <days30_projects#nt1>`_
+* `Implement Scheicher & Thuswaldner neighbor-finding algorithm <days30_projects#nt2>`_
+* `Visualizing attractors of iterated function systems and other fractal sets <days30_projects#nt3>`_
+* `Update Integer Vectors internal representation in Sage <days30_projects#nt4>`_
 
 }}}
