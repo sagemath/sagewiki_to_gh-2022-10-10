@@ -8,3 +8,4 @@ This page is dedicated to overall design discussions. Please add new topic as yo
   * CategoryFrameworkAndCleanup  
   * HeckeAlgebras
   * MathsAuLycee
+  * ContainmentDiscussion
