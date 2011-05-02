@@ -103,6 +103,8 @@ Potential material
 
 * Tutorial:: `Linear programming <http://www-sop.inria.fr/members/Nathann.Cohen/tut/LP/>`_
 
+* Tutorial/demo:: `Symmetric functions <http://combinat.sagemath.org/doc/thematic_tutorials/demo-symmetric-functions.html>`_
+
 * Tutorial: cluster algebras (Christian)
 
 * Tutorial: Crystal bases (Anne)
