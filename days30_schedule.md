@@ -71,7 +71,7 @@ Thursday
 --------
 
 * 10am: coffee break
-* 10:15am-11:15am: Tutorial: `Contributing to Sage <http://combinat.sagemath.org/doc/thematic_tutorials/demo-how-to-contribute.html>`_
+* 10:15am-11:15am: Tutorial: `Contributing to Sage <http://combinat.sagemath.org/doc/thematic_tutorials/demo-how-to-contribute.html>`_ [`contribute to sage sws file <attachment:contribute-to-sage.sws>`_]
 * 2pm: Coding sprint status report
 * 3pm: coffee break
 
