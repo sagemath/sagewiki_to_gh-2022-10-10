@@ -56,7 +56,8 @@ Lunch break
 Wednesday
 ---------
 
-* 9am: Tutorial: `Object oriented programming <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-objects-and-classes.html>`_ (FlorentHivert)
+* 9am: Tutorial: `Object oriented programming <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-objects-and-classes.html>`_ (FlorentHivert) [`tutorial-objects-and-classes sws file <attachment:tutorial-objects-classes.sws>`_]
+
 * 10am: coffee break
 * 11am-11:20am: Tutorial: programming iterators (FlorentHivert)
 
