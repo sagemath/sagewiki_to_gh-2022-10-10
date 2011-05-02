@@ -39,7 +39,7 @@ Tuesday
   (TODO: make a notebook describing how to lookup and edit the source, sage -br, / hg_sage.revert() hg_sage.diff())
 * 9:20am-12pm: Tutorial: `Programming in Python and Sage <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html>`_ (Franco/Jason) [`programming tutorial sws file <attachment:programming_python_sage.sws>`_]
 
-  * Worksheet: `The 3n+1 Conjecture <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet05-CollatzConjecture.html#siena-tutorials-worksheet05-collatzconjecture>`_
+  * Worksheet: `The 3n+1 Conjecture <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet05-CollatzConjecture.html#siena-tutorials-worksheet05-collatzconjecture>`_ [`Collatz conjecture sws file <attachment:collatz_conjecture.sws>`_]
   * Worksheet: `Strings and the Burrows-Wheeler Transform <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet07-StringsAndTheBWT.html#siena-tutorials-worksheet07-stringsandthebwt>`_
 
 * 10am: coffee break
