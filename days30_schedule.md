@@ -17,7 +17,8 @@ Lunch Break
 * [the afternoon sessions may start later to accommodate time for lunch - please stay tuned for updates]
 * 1pm: Tutorial: `Using the Sage notebook and navigating the help system
   <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html>`_ (Jason) 
-* 2pm: Tutorial: `Lists <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet02-Lists.html>`_ (Jason)
+* 2pm: Tutorial:  `Doing the first exercises from Project Euler <http://projecteuler.net>`_.
+    See the `List tutorial <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet02-Lists.html>`_ (Jason)
 * 3pm: coffee break
 * 3:15pm: Open tutorials (Anne, Jason, Florent, Franco, Nicolas):
 
