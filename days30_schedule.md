@@ -8,7 +8,7 @@ Monday
 ------
 
 * 9 am: Welcome, and Sage installation help
-* 10am-11am Sage overview (presentation, demo, Sage-Combinat) (Franco + Nicolas)
+* 10am-11am : `Sage overview (presentation, demo, Sage-Combinat) <attachment:2011-05-02-SageDays30.pdf>`_ (Franco + Nicolas)
 * 11am-12pm: coffee break at University Club (next door),
   Introductions, more Sage installations
 
