@@ -90,7 +90,19 @@ Potential material
 * Tutorial: `Using algebraic structures: vector spaces, ... <http://combinat.sagemath.org/doc/reference/sage/modules/tutorial_free_modules.html>`_ (Jason Bandlow, Florent Hivert, Nicolas Thiéry)
 
 * Tutorial:: `Implementing your own algebraic structures <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-implementing-algebraic-structures.html>`_ (Jason Bandlow, Floren Hivert, Nicolas Thiéry)
-  
+
+* Tutorial:: `Graph theory
+  <http://www-sop.inria.fr/members/Nathann.Cohen/tut/Graphs/>`_
+
+* Tutorial:: `Linear programming <http://www-sop.inria.fr/members/Nathann.Cohen/tut/LP/>`_
+
+* Tutorial: cluster algebras (Christian)
+
+* Tutorial: Crystal bases (Anne)
+
+* Tutorial: Posets (Franco)
+
+* Tutorial: Parents, Elements, Categories (Nicolas Thiéry)
 
 * Lexicographic generation of lists of integers (Florent Hivert, Nicolas Thiéry)
   Algorithmic & design
@@ -101,12 +113,6 @@ Potential material
 
 * Various algebras in Sage (Hecke algebra, nilCoxeter, Temperley Lieb, local plactic) (Anne)
 
-* Tutorial: cluster algebras (Christian)
-
-* Crystal bases (Anne)
-
-* Posets (Franco)
-
 Discussions
 -----------
 
@@ -115,6 +121,6 @@ Discussions
 * The Sage-Combinat roadmap
 * The Sage-Combinat workflow: writing the specs
 * Modeling set containment: "x in S"
-
+* Posets, ideals/upper set
 
 }}}
