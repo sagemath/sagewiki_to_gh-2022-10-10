@@ -10,6 +10,9 @@ Below a list of proposed projects.
 
 == Combinatorics ==
 
+* Implement the full collection of d-complete posets and slant product of d-complete posets, and jeu de taquin for them.
+
+* Implement jeu de taquin for increasing tableaux (for d-complete posets or something less general).
 
 == Number Theory ==
 
