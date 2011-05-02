@@ -25,7 +25,7 @@ Lunch Break
 
   * Tutorial: `Linear algebra <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet06-LinearAlgebra.html>`_ (Franco) [`linear algebra sws file <attachment:Linear_algebra.sws>`_]
   * Tutorial: `Combinatorics <http://combinat.sagemath.org/doc/reference/sage/combinat/tutorial_enumerated_sets.html>`_ (Jason) [`combinatorics sws file <attachment:combinatorics.sws>`_]
-  * Tutorial: `Words <http://combinat.sagemath.org/doc/reference/sage/combinat/words/demo.html>`_
+  * Tutorial: `Words <http://combinat.sagemath.org/doc/reference/sage/combinat/words/demo.html>`_ [`words sws file <attachment:combinatorics.sws>`_]
   * Other resources:
 
     * `The Sage tutorial  <http://www.sagemath.org/doc/tutorial/>`_
