@@ -50,7 +50,7 @@ Below a list of proposed projects.
 
 * Actions on combinatorial free modules
 
-  Hugh, Anne, Franco, Nicolas, Florent
+  Hugh, Anne, Franco, Nicolas, Florent, Chris
 
 * Implementation of bijection between crystal paths and rigged configurations
 
