@@ -28,6 +28,10 @@ Below a list of proposed projects.
 
   Rob, Nicolas
 
+* Get the reflection groups / Coxeter groups into a proper state
+
+  Christian, (Nicolas ?)
+
 == Number Theory ==
 
 
