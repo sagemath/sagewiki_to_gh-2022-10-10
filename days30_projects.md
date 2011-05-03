@@ -44,6 +44,10 @@ Below a list of proposed projects.
 
   Jason, Anne
 
+* Actions on combinatorial free modules
+
+  Hugh, Anne, Franco, Nicolas
+
 == Number Theory ==
 
 
