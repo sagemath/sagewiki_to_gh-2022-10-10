@@ -35,7 +35,9 @@ Lunch Break
 Tuesday
 -------
 
-* 9am-10:30pm: Tutorial: `Programming in Python and Sage <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html>`_ (Franco/Jason) [`programming tutorial sws file <attachment:programming_python_sage.sws>`_]
+* 9am-9:30am: Tutorial: `Programming in Python and Sage <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html>`_ (Franco/Jason) [`programming tutorial sws file <attachment:programming_python_sage.sws>`_]
+
+* 9:30am-noon: Anne's giving an introduction to implementations for crystal categories.
 
   * Worksheet: `The 3n+1 Conjecture <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet05-CollatzConjecture.html#siena-tutorials-worksheet05-collatzconjecture>`_ [`Collatz conjecture sws file <attachment:collatz_conjecture.sws>`_]
   * Worksheet: `Strings and the Burrows-Wheeler Transform <http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet07-StringsAndTheBWT.html#siena-tutorials-worksheet07-stringsandthebwt>`_ [`strings and Burrows-Wheeler sws file <attachment:strings-burrows-wheeler.sws>`_]
