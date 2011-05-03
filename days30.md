@@ -23,6 +23,8 @@ Participants are encouraged to come for either or both segments of the workshop.
 
  The workshop will run from 9am - 5:30pm each day.  The [[http://wiki.sagemath.org/days30_schedule|schedule]].
 
+ [[http://wiki.sagemath.org/days30_projects|Project list]]
+
 == Food in Wolfville ==
 
  Listed by proximity to the workshop; all are in the direction of downtown Wolfville from Huggins Science Hall where the workshop will be held.  I've tried to not make too biased a list, but have omitted one or two restaurants that I don't recommend, and pointed out my favorite restaurants (highly subjective).  (-Eva)
