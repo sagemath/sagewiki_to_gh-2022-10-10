@@ -76,7 +76,6 @@ Outside of Wolfville, there are a number of cheap eats/chain restaurants in New 
  * Josh Koncovy, UNB
  * Mitja Mastnak, St. Mary's University
  * Neil McKay, Dalhousie University
- * Alejandro Morales, MIT
  * Aaron Moss, UNB
  * Ryan Oulton, UNB
  * James Prudhoe, St. Mary's University
