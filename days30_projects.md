@@ -48,6 +48,10 @@ Below a list of proposed projects.
 
   Hugh, Anne, Franco, Nicolas
 
+* Implementation of bijection between crystal paths and rigged configurations
+
+   Travis, Anne
+
 == Number Theory ==
 
 
