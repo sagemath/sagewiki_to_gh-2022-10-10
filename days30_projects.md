@@ -24,6 +24,10 @@ Below a list of proposed projects.
 
   Jason, Florent, Travis, Nicolas
 
+* Finalize Mike's permutation group patches
+
+  Rob, Nicolas
+
 == Number Theory ==
 
 
