@@ -57,7 +57,7 @@ Below a list of proposed projects.
 
 * Update IntegerVectors internal representation in Sage, implement l^p^ norms.
 
-  Eva, Nicolas, Florent
+  Eva, Nicolas, Florent (Jordi wants to give this a try)
 
 * Student project: Generate centered digit set for multidimensional radix representation
 
