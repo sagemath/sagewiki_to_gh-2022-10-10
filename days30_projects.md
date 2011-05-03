@@ -12,9 +12,13 @@ Below a list of proposed projects.
 
 * Implement the full collection of d-complete posets and slant product of d-complete posets, and jeu de taquin for them.
 
-  ... (+ Florent)
+  (Hugh, students, Florent)
 
-* Implement jeu de taquin for increasing tableaux (for d-complete posets or something less general).
+* Implement jeu de taquin for increasing tableaux (for d-complete posets or something less general). (Hugh, Eric)
+
+* Student project: iterator over LR-tableaux of fixed shape, as in Anders's talk (Hugh)
+
+* Student project: implement double Schubert and double Grothendieck polynomials (Hugh)
 
 * Finalize posets
 
