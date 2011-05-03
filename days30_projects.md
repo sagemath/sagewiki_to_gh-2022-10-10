@@ -55,7 +55,7 @@ Below a list of proposed projects.
 == Number Theory ==
 
 
-* Update IntegerVectors internal representation in Sage, implement l^p^ norms.
+* Update IntegerVectors internal representation in Sage [l^p^ norms: norm(p='sage.rings.integer.Integer(2)')].
 
   Eva, Nicolas, Florent (Jordi wants to give this a try)
 
