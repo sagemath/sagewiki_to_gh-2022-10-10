@@ -69,8 +69,8 @@ Below a list of proposed projects.
 
 * Discussion thematic tutorials
 
-  Jason, Anne, Franco, Rob, Nicolas, Florent, 
+  Jason, Anne, Franco, Rob, Nicolas, Florent, Jeff
 
 * ``Introduction to Sage'' book
 
-  Hugh, Rob, Nicolas
+  Hugh, Rob, Nicolas, Jeff
