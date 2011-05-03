@@ -26,7 +26,7 @@ Below a list of proposed projects.
 
 * Set factories
 
-  Jason, Florent, Travis, Nicolas, Anne
+  Jason, Florent, Travis, Nicolas, Anne, Franco
 
 * Finalize Mike's permutation group patches
 
