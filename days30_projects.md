@@ -22,7 +22,7 @@ Below a list of proposed projects.
 
 * Set factories
 
-  Jason, Florent, Travis, Nicolas
+  Jason, Florent, Travis, Nicolas, Anne
 
 * Finalize Mike's permutation group patches
 
@@ -30,7 +30,15 @@ Below a list of proposed projects.
 
 * Get the reflection groups / Coxeter groups into a proper state
 
-  Christian, (Nicolas ?)
+  Christian, (Nicolas, Anne ?)
+
+* Implementation of energy function of crystals (suitable for an interested student!!!)
+
+  Anne
+
+* Implementation of cyclic tableaux
+
+  Anne
 
 == Number Theory ==
 
