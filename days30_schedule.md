@@ -57,9 +57,10 @@ Lunch break
 Wednesday
 ---------
 
-* 9am: Tutorial: `Object oriented programming <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-objects-and-classes.html>`_ (FlorentHivert) [`tutorial-objects-and-classes sws file <attachment:tutorial-objects-classes.sws>`_]
+* 9am: Sign up for projects, short meetings.
+* 9:15am: Tutorial: `Object oriented programming <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-objects-and-classes.html>`_ (FlorentHivert) [`tutorial-objects-and-classes sws file <attachment:tutorial-objects-classes.sws>`_]
 
-* 10am: coffee break
+* 10:30am: coffee break
 * 11am-11:20am: Tutorial: programming iterators (FlorentHivert)
 
 Lunch break
@@ -67,6 +68,7 @@ Lunch break
 * 2pm: Coding sprint status report
 * 2:20pm Demo: `Rewiewing a patch <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
 * 3pm: coffee break
+* 5pm or 5:30pm: ultimate frisbee (location TBA)
 
 Thursday
 --------
