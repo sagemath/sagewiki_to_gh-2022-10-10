@@ -12,11 +12,17 @@ Below a list of proposed projects.
 
 * Implement the full collection of d-complete posets and slant product of d-complete posets, and jeu de taquin for them.
 
+  ... (+ Florent)
+
 * Implement jeu de taquin for increasing tableaux (for d-complete posets or something less general).
 
 * Finalize posets
 
+  Christian, Franco, Nicolas
+
 * Set factories
+
+  Jason, Florent, Travis, Nicolas
 
 == Number Theory ==
 
@@ -25,7 +31,7 @@ Below a list of proposed projects.
 
   Currently IntegerVectors consist of vectors with only positive integer entries.  Need a more general object, and to implement various norms.
 
-  PEOPLE: Eva, Nicolas
+  PEOPLE: Eva, Nicolas, Florent
 
 * <<Anchor(nt1)>> Generate centered digit set for multidimensional radix representation
 
@@ -43,4 +49,8 @@ Below a list of proposed projects.
 
 * Discussion thematic tutorials
 
+  Jason, Anne, Franco, Rob, Nicolas, Florent, 
+
 * ``Introduction to Sage'' book
+
+  Hugh, Rob, Nicolas
