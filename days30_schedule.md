@@ -51,7 +51,7 @@ Lunch break
 * 2pm: Anders: "Strategies for computing Schubert structure constants"
 * 3:15pm: coffee break
 * 3:30pm: Tutorial: how to kindly report a bug or suggest an improvement (20 minutes)
-* 3:35pm: Coding spring organization
+* 3:35pm: Coding sprint organization
 * 4pm-: Coding sprints
 
 Wednesday
