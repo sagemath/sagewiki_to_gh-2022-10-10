@@ -40,6 +40,10 @@ Below a list of proposed projects.
 
   Anne
 
+* Quotient rings of rings of symmetric functions, examples of noncommutative Schur functions, etc.
+
+  Jason, Anne
+
 == Number Theory ==
 
 
