@@ -81,6 +81,8 @@ Thursday
 Friday
 ------
 
+- fill out travel reimbursement forms - TBA
+
 * 10am: coffee break
 * 10:15am-11:15am: Tutorial: Contributing to Sage-combinat `Mercurial step by step <http://wiki.sagemath.org/combinat/MercurialStepByStep>`_
 
