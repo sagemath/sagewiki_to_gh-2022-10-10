@@ -10,9 +10,10 @@ Below a list of proposed projects.
 
 == Combinatorics ==
 
-* Implement the full collection of d-complete posets and slant product of d-complete posets, and jeu de taquin for them.  Implement jeu de taquin for increasing tableaux (for d-complete posets or something less general). (Hugh, Eric)
+* Implement the full collection of d-complete posets and slant product of d-complete posets, and jeu de taquin for them.  Implement jeu de taquin for increasing tableaux (for d-complete posets or something less general).  For background, see 
+[[http://www.springerlink.com.proxy.hil.unb.ca/content/j48700v65753066w/|this paper]].
 
-  (Hugh, Eric, Ryan, JP, Florent)
+  (Hugh, Eric, Ryan, JP, Calin, Josh, Gaelan, Francis, Florent)
 
 * Student project: iterator over LR-tableaux of fixed shape, as in Anders's talk (Hugh)
 
