@@ -54,6 +54,18 @@ Below a list of proposed projects.
 
    Travis, Anne
 
+* Polyhedral representation of symmetries
+
+  Aaron
+
+* Partitions related to k-Schur functions
+
+  Carolina, Jason
+
+* (Something with poset partitions?)
+
+  Holly
+
 == Number Theory ==
 
 
@@ -64,6 +76,8 @@ Below a list of proposed projects.
 * Student project: Generate centered digit set for multidimensional radix representation
 
   Input: a dilation matrix A (nxn integer matrix, all of whose eigenvalues have modulus > 1).  Output: a centered digit set D = {d_1, ..., d_r}; here r = |det A|.  The centered digit set is a complete set of coset representatives of Z^n^/A(Z^n^), chosen to be the integer vectors contained in the set/polytope A((-1/2,1/2]^n^).
+
+  Josh
 
 * Student project: Generate minimum modulus digit set for multidimensional radix representation
 
