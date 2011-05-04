@@ -57,7 +57,7 @@ Lunch break
 Wednesday
 ---------
 
-* 9am-9:30: Sign up for projects and short meetings; presentations of work so far (students and others)
+* 9am-9:30: Sign up for `projects <days30_projects>`_ and short meetings; presentations of work so far (students and others)
 * 9:30-10:45am: Tutorial: `Object oriented programming <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-objects-and-classes.html>`_ (FlorentHivert) [`tutorial-objects-and-classes sws file <attachment:tutorial-objects-classes.sws>`_]
 * 9:30am: concurrent development projects: Scheicher and Thuswaldner algorithm, subspaces, posets
 * 10:45am: coffee break
