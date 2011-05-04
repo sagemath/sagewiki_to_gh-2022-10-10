@@ -10,11 +10,9 @@ Below a list of proposed projects.
 
 == Combinatorics ==
 
-* Implement the full collection of d-complete posets and slant product of d-complete posets, and jeu de taquin for them.
+* Implement the full collection of d-complete posets and slant product of d-complete posets, and jeu de taquin for them.  Implement jeu de taquin for increasing tableaux (for d-complete posets or something less general). (Hugh, Eric)
 
-  (Hugh, students, Florent)
-
-* Implement jeu de taquin for increasing tableaux (for d-complete posets or something less general). (Hugh, Eric)
+  (Hugh, Eric, Ryan, JP, Florent)
 
 * Student project: iterator over LR-tableaux of fixed shape, as in Anders's talk (Hugh)
 
@@ -22,7 +20,7 @@ Below a list of proposed projects.
 
 * Finalize posets
 
-  Christian, Franco, Nicolas
+  Christian, Franco, Nicolas, Neil, Carolina
 
 * Set factories
 
@@ -38,7 +36,7 @@ Below a list of proposed projects.
 
 * Implementation of energy function of crystals (suitable for an interested student!!!)
 
-  Anne
+  Anne, Travis
 
 * Implementation of cyclic tableaux
 
@@ -61,7 +59,7 @@ Below a list of proposed projects.
 
 * Update IntegerVectors internal representation in Sage [l^p^ norms: norm(p='sage.rings.integer.Integer(2)')].
 
-  Eva, Nicolas, Florent (Jordi wants to give this a try)
+  Eva, Nicolas, Florent, Jordi
 
 * Student project: Generate centered digit set for multidimensional radix representation
 
@@ -78,6 +76,8 @@ Below a list of proposed projects.
 * Student project: Visualizing attractors of iterated function systems and other fractal sets
 
   Review/search for graphics packages that are currently usable by Sage, as well as other open-source options for drawing fractals that are available.  Find the best one for visualizing fractals, specifically fractals arising from [[https://secure.wikimedia.org/wikipedia/en/wiki/Iterated_function_system|iterated function systems]], specifically iterated functions systems arising from multidimensional radix representations (sums of terms of the form A^n^ d_n, where A is an nxn integer matrix all of whose eigenvalues have modulus > 1, and the d_n are "digit" vectors drawn from a complete set of coset representatives of Z^n^/A(Z^n^); for each digit d, we can define a function f_d = A^-1^(x+d)).  Good qualities in a graphics package include: ability to generate images from batches of examples automatically generated in Sage, ability to focus on areas of interest in the image and zoom in, ability to display both 2D and 3D images, and ability to rotate 3D images for different views.
+
+  (Franco to advise)
 
 * Potentially suitable as student project?: Implement Scheicher & Thuswaldner neighbor-finding algorithm
 
