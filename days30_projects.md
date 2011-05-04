@@ -44,7 +44,7 @@ Below a list of proposed projects.
 
 * Quotient rings of rings of symmetric functions, examples of noncommutative Schur functions, etc.
 
-  Jason, Anne
+  Jason, Anne, Chris
 
 * Actions on combinatorial free modules
 
