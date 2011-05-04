@@ -57,18 +57,20 @@ Lunch break
 Wednesday
 ---------
 
-* 9am: Sign up for projects, short meetings.
-* 9:15am: Tutorial: `Object oriented programming <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-objects-and-classes.html>`_ (FlorentHivert) [`tutorial-objects-and-classes sws file <attachment:tutorial-objects-classes.sws>`_]
-
-* 10:30am: coffee break
+* 9am-9:30: Sign up for projects and short meetings; presentations of work so far (students and others)
+* 9:30-10:45am: Tutorial: `Object oriented programming <http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-objects-and-classes.html>`_ (FlorentHivert) [`tutorial-objects-and-classes sws file <attachment:tutorial-objects-classes.sws>`_]
+* 9:30am: concurrent development projects: Scheicher and Thuswaldner algorithm, subspaces, posets
+* 10:45am: coffee break
 * 11am-11:20am: Tutorial: programming iterators (FlorentHivert)
 
 Lunch break
 
-* 2pm: Coding sprint status report
+* 1:30pm: concurrent development projects: actions, bign...(I'm having trouble deciphering the handwriting on this one)
 * 2:20pm Demo: `Rewiewing a patch <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
 * 3pm: coffee break
-* 5pm or 5:30pm: ultimate frisbee (location TBA)
+* 3:30pm: concurrent development projects: IntegerVectors, crystals, d-complete posets
+* 5pm: Coding sprint status report
+* 5:30pm: ultimate frisbee (most likely on the NW dyke field - directions will be provided)
 
 Thursday
 --------
@@ -77,6 +79,7 @@ Thursday
 * 10:15am-11:15am: Tutorial: `Contributing to Sage <http://combinat.sagemath.org/doc/thematic_tutorials/demo-how-to-contribute.html>`_ [`contribute to sage sws file <attachment:contribute-to-sage.sws>`_]
 * 2pm: Coding sprint status report
 * 3pm: coffee break
+* 5:30pm: local weekly pick-up ultimate frisbee (location TBA)
 
 Friday
 ------
