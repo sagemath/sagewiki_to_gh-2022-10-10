@@ -65,7 +65,7 @@ Wednesday
 
 Lunch break
 
-* 1:30pm: concurrent development projects: actions, bign...(I'm having trouble deciphering the handwriting on this one)
+* 1:30pm: concurrent development projects: actions
 * 2:20pm Demo: `Rewiewing a patch <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
 * 3pm: coffee break
 * 3:30pm: concurrent development projects: IntegerVectors, crystals, d-complete posets
