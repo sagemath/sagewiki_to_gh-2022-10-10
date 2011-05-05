@@ -119,3 +119,9 @@ Unfortunately, dorm rooms at Acadia University will not be available for the wee
 == Funding ==
 
 Funding has been provided by AARMS, the Fields Institute, Acadia University, and the University of New Brunswick.
+
+== Pictures ==
+
+{{attachment:hivert-thiery-schilling-SD30.jpg}}
+
+Low Tide, Halls Harbour, Bay of Fundy:   Florent Hivert, Nicolas Thiery, Anne Schilling
