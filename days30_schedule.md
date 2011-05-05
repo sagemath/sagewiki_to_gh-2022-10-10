@@ -83,7 +83,7 @@ Thursday
 
       - Using and programming sage from the command line (Christian)
       - Creating a patch (Nicolas)
-      - Reviewing a patch (Anne)
+      - Reviewing a patch (Anne and Franco) `Short step-by-step checklist <https://www.evernote.com/shard/s16/sh/f30e5eb9-70a9-4882-818b-333c690942bf/d7a138e2705c25b8da6e2053950a89d5>`_
       - Sage combinat installation (Florent)
 
 * 2pm: Coding sprint status report
