@@ -76,7 +76,7 @@ Thursday
 
 * 10am: coffee break
 
-* 10:15am-12:15am: Series of Tutorial: `Contributing to Sage
+* 10:15am-12:15pm: Series of Tutorial: `Contributing to Sage
   <http://combinat.sagemath.org/doc/thematic_tutorials/demo-how-to-contribute.html>`_
   [`contribute to sage sws file <attachment:contribute-to-sage.sws>`_]
   `How to contribute <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
