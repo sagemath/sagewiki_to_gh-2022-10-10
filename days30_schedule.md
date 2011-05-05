@@ -87,7 +87,7 @@ Thursday
       - Sage combinat installation (Florent)
 
 * 2pm: Coding sprint status report
-* 2:30pm: Robert Smith 'Equivalence in Computer Algebra'
+* 2:30pm: Robert Smith `Equivalence in Computer Algebra <attachment:talkRobert-Smith.pdf>`_
 * 3pm: coffee break
 * 5:30pm: local weekly pick-up ultimate frisbee (location TBA)
 
