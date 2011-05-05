@@ -89,7 +89,7 @@ Thursday
 * 2pm: Coding sprint status report
 * 2:30pm: Robert Smith `Equivalence in Computer Algebra <attachment:talkRobert-Smith.pdf>`_
 * 3pm: coffee break
-* 5:30pm: local weekly pick-up ultimate frisbee (location TBA)
+* 5:30pm: local weekly pick-up ultimate frisbee, President's Field (on the campus map: between field 46 (Raymond Field, fenced-in fancy field), building 48 (Festival Theatre, a former arena, so looks like one), and behind white house 47 (Alumni Hall administrative offices, formerly the university president's house))
 
 Friday
 ------
