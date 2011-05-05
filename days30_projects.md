@@ -69,10 +69,32 @@ Below a list of proposed projects.
 
 == Number Theory ==
 
-
+  Eva, Nicolas, Florent, Jordi
 * Update IntegerVectors internal representation in Sage [l^p^ norms: norm(p='sage.rings.integer.Integer(2)')].
 
   Eva, Nicolas, Florent, Jordi
+
+  Goal: Want to be able to enumerate n-tuples with l^p^ norm less than a given value.  
+
+  INPUT: n = dimension, p = norm to use, s = max size of l^p^ norm for vectors.  
+
+  OUTPUT: enumeration of vectors in ZZ^n^ (or n-tuples) with l^p^ norm <= s.
+
+
+  > Related stuff already in sage:
+
+    - cartesian_product_iterator (in sage.misc.mrange) enumerates n-tuples with entries in given lists (given per entry), so can be used to enumerate vectors in ZZ^n^ with l^infinity^ norm <= s
+
+    - Composition (in sage.combinat.composition) enumerates all vectors of length between 1 and n with nonnegative integer entries with l^1^ norm <= s for a given value of s; relies on IntegerVectors?
+
+    - norm in class sage.modules.free_module_element returns the l^p^ norm of a vector in ZZ^n^ for given n and p >= 1, including p = infinity (p='sage.rings.integer.Integer(2)'), (p=2 is default)
+
+* Update routines for enumerating lattice points in a polytope to help me find digit sets:
+
+  -> One possible route: allow half-open polytopes, that include certain faces and exclude others
+
+  -> Another possible route: allow vertices to be non-lattice points, so that I can shrink my polytope (which is a nice parallelopiped) by epsilon on the faces that I want to exclude
+
 
 * Student project: Generate centered digit set for multidimensional radix representation
 
