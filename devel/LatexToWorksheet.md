@@ -107,6 +107,10 @@ Some tickets below that are available for review can be seen building and passin
 || [[http://trac.sagemath.org/sage_trac/ticket/10911|10911]] || inverse of permutation group elements || 4.7.alpha3 || Robert Bradshaw ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10920|10920]] || conjugates of permutation groups || 4.7.alpha3 || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10921|10921]] || commutator subgroup for permutation groups || 4.7.alpha3 || Dima Pasechnik, David Joyner ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10334|10334]] || permutation group cleanup || positive review || Author: Mike Hansen ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11289|11289]] || improve random poset generation (docs, error checks) || positive review || Franco Saliola ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11292|11292]] || inputs to lattice meet and join || positive review || Anne Schilling, Franco Saliola ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11293|11293]] || all relations of a poset || positive review || Franco Saliola ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/9773 | 9773]] || finitely-generated abelian groups || needs work ||  ||
