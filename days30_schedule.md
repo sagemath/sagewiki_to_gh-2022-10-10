@@ -66,7 +66,6 @@ Wednesday
 Lunch break
 
 * 1:30pm: concurrent development projects: actions
-* 2:20pm Demo: `Rewiewing a patch <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
 * 3pm: coffee break
 * 3:30pm: concurrent development projects: IntegerVectors, crystals, d-complete posets
 * 5pm: Coding sprint status report
@@ -77,6 +76,7 @@ Thursday
 
 * 10am: coffee break
 * 10:15am-11:15am: Tutorial: `Contributing to Sage <http://combinat.sagemath.org/doc/thematic_tutorials/demo-how-to-contribute.html>`_ [`contribute to sage sws file <attachment:contribute-to-sage.sws>`_]
+* 11:15am Demo: `Rewiewing a patch <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
 * 2pm: Coding sprint status report
 * 3pm: coffee break
 * 5:30pm: local weekly pick-up ultimate frisbee (location TBA)
