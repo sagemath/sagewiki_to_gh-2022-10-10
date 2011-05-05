@@ -75,8 +75,16 @@ Thursday
 --------
 
 * 10am: coffee break
-* 10:15am-11:15am: Tutorial: `Contributing to Sage <http://combinat.sagemath.org/doc/thematic_tutorials/demo-how-to-contribute.html>`_ [`contribute to sage sws file <attachment:contribute-to-sage.sws>`_]
-* 11:15am Demo: `Rewiewing a patch <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
+
+* 10:15am-12:15am:
+Series of Tutorial: `Contributing to Sage <http://combinat.sagemath.org/doc/thematic_tutorials/demo-how-to-contribute.html>`_ [`contribute to sage sws file <attachment:contribute-to-sage.sws>`_]
+
+   * Using and programming sage from the command line (Christian)
+   * Creating a patch (Nicolas)
+   * Reviewing a patch (Anne)
+   * Sage combinat installation (Florent)
+
+   * 11:15am Demo: `Rewiewing a patch <http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/>`_
 * 2pm: Coding sprint status report
 * 3pm: coffee break
 * 5:30pm: local weekly pick-up ultimate frisbee (location TBA)
