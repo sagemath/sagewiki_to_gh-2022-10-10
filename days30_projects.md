@@ -69,7 +69,6 @@ Below a list of proposed projects.
 
 == Number Theory ==
 
-  Eva, Nicolas, Florent, Jordi
 * Update IntegerVectors internal representation in Sage [l^p^ norms: norm(p='sage.rings.integer.Integer(2)')].
 
   Eva, Nicolas, Florent, Jordi
