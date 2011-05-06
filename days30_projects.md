@@ -1,4 +1,4 @@
-= Sage Days 30 Best First Contribution Prize ==
+= Sage Days 30 Best First Contribution Prize =
 
 To participate, please post here your code, or add a link to the trac ticket
 
