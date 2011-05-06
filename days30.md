@@ -122,6 +122,10 @@ Funding has been provided by AARMS, the Fields Institute, Acadia University, and
 
 == Pictures ==
 
+{{attachment:sage-days-30.jpg}}
+
+Thursday: Learning and Coding
+
 {{attachment:hivert-thiery-schilling-SD30.jpg}}
 
 Low Tide, Halls Harbour, Bay of Fundy:   Florent Hivert, Nicolas Thiery, Anne Schilling
