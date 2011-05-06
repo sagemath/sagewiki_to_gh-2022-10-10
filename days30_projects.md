@@ -2,8 +2,13 @@
 
 To participate, please post here your code, or add a link to the trac ticket
 
- - 
- -  
+* ...
+
+* ...
+
+* ...
+
+* ...
 
 = Sage Days 30 Coding Sprint Projects =
 
