@@ -32,8 +32,8 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 = Participants =
 
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
- * [[http://www.acadiau.ca/~ecurry|Eva Curry]] (Acadia University)
  * [[http://www.cgl.ucsf.edu/home/bic|Bruce Cohen]] (Lowell High School, San Francisco)
+ * [[http://www.acadiau.ca/~ecurry|Eva Curry]] (Acadia University)
  * DanDrake (KAIST, South Korea)
  * Michael Garcia (San Francisco State University)
  * [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
