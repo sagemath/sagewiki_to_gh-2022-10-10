@@ -1,16 +1,16 @@
+= Sage Days 30 Best First Contribution Prize ==
+
+To participate, please post here your code, or add a link to the trac ticket
+
+ - 
+ -  
+
 = Sage Days 30 Coding Sprint Projects =
 
 <<TableOfContents>>
 
 
 '''For the main SD 30 wiki page go [[days30|here]]'''
-
-== Sage Days 30 Best First Contribution Prize ==
-
-To participate, please post here your code, or add a link to the trac ticket
-
- - 
-
 
 Below a list of proposed projects.
 
