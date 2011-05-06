@@ -43,9 +43,9 @@ k-Schur functions in non-commutative variables
 
   http://trac.sagemath.org/sage_trac/ticket/11290
 
-* ...
+* Gaelan: [[attachment:Gaelans_Functions.py]]
 
-* ...
+* Eric: 
 
 = Sage Days 30 Coding Sprint Projects =
 
