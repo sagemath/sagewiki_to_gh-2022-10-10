@@ -2,14 +2,10 @@
 
 To participate, please post here your code, or add a link to the trac ticket
 
-Carolina Benedetti
-
-* http://www.math.yorku.ca/~carobene/quantum_grass.py
+* Carolina Benedetti http://www.math.yorku.ca/~carobene/quantum_grass.py
 
 * Chris Berg,
-k-Schur functions in non-commutative variables
-
-  http://trac.sagemath.org/sage_trac/ticket/11290
+  k-Schur functions in non-commutative variables http://trac.sagemath.org/sage_trac/ticket/11290
 
 * Gaelan: [[attachment:Gaelans_Functions.py]]
 
