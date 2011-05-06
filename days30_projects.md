@@ -6,7 +6,7 @@ Carolina Benedetti
 
 * http://www.math.yorku.ca/~carobene/quantum_grass.tex
 
-* Chris Berg
+* Chris Berg,
 k-Schur functions in non-commutative variables
 
   http://trac.sagemath.org/sage_trac/ticket/11290
