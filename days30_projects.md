@@ -142,5 +142,5 @@ Below a list of proposed projects.
 * ``Introduction to Sage'' book
 
 
----- /!\ '''End of edit conflict''' ----
+
   Hugh, Rob, Nicolas, Jeff
