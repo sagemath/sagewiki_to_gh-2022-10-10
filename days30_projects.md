@@ -1,7 +1,7 @@
 = Sage Days 30 Best First Contribution Prize =
 
 To participate, please post here your code, or add a link to the trac ticket
-
+Carolina Benedetti
 
 * def quantum_grassmannian_poset(p,m,k):
     p=Partition(p)
@@ -37,7 +37,8 @@ To participate, please post here your code, or add a link to the trac ticket
     return D
 
 
-* k-Schur functions in non-commutative variables
+* Chris Berg
+k-Schur functions in non-commutative variables
 
   http://trac.sagemath.org/sage_trac/ticket/11290
 
