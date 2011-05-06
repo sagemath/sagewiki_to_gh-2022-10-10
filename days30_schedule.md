@@ -106,6 +106,7 @@ Friday
 
 Lunch break
 
+* submit code for student contribution prize by 1pm
 * 2pm: Coding sprint status report
 * 3pm: coffee break
 
