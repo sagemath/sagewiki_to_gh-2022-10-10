@@ -15,6 +15,8 @@ k-Schur functions in non-commutative variables
 
 * Eric: [[attachment:dcomp-poset-eric.sage]]
 
+* Francis: [[attachment:jeu_taquin.py]]
+
 = Sage Days 30 Coding Sprint Projects =
 
 <<TableOfContents>>
