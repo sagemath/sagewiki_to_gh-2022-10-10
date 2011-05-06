@@ -2,8 +2,7 @@
 
 To participate, please post here your code, or add a link to the trac ticket
 
-* ...
-
+* <a href="http://trac.sagemath.org/sage_trac/ticket/11290">k-Schur functions in non-commutative variables</a>
 * ...
 
 * ...
