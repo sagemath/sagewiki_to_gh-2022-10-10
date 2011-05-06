@@ -21,11 +21,13 @@ Participants are encouraged to come for either or both segments of the workshop.
 
 == Schedule ==
 
- The workshop will run from 9am - 5:30pm each day.  The [[http://wiki.sagemath.org/days30_schedule|schedule]].
+ The workshop will run from 9am - 5:30pm each day.
 
- [[http://wiki.sagemath.org/days30_projects|Project list]]
+* [[http://wiki.sagemath.org/days30_schedule|schedule]].
 
- [[http://wiki.sagemath.org/days30_prize|Best First Contribution to Sage Prize]]
+* [[http://wiki.sagemath.org/days30_projects|Project list]]
+
+* [[http://wiki.sagemath.org/days30_prize|Best First Contribution to Sage Prize]]
 
 == Food in Wolfville ==
 
