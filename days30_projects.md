@@ -45,7 +45,7 @@ k-Schur functions in non-commutative variables
 
 * Gaelan: [[attachment:Gaelans_Functions.py]]
 
-* Eric: 
+* Eric: [[attachment:dcomp-poset-eric.sage]]
 
 = Sage Days 30 Coding Sprint Projects =
 
