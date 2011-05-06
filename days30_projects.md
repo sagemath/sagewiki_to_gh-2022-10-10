@@ -3,7 +3,7 @@
 To participate, please post here your code, or add a link to the trac ticket
 
 
-def quantum_grassmannian_poset(p,m,k):
+* def quantum_grassmannian_poset(p,m,k):
     p=Partition(p)
     D=DiGraph()
     D.add_vertex(p) 
