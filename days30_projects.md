@@ -4,7 +4,7 @@ To participate, please post here your code, or add a link to the trac ticket
 
 Carolina Benedetti
 
-* http://www.math.yorku.ca/~carobene/quantum_grass.tex
+* http://www.math.yorku.ca/~carobene/quantum_grass.py
 
 * Chris Berg,
 k-Schur functions in non-commutative variables
