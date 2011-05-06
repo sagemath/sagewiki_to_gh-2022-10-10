@@ -1,4 +1,8 @@
----- /!\ '''Edit conflict - other version:''' ----
+= Sage Days 30 Best First Contribution Prize =
+
+To participate, please post here your code, or add a link to the trac ticket
+
+
 def quantum_grassmannian_poset(p,m,k):
     p=Partition(p)
     D=DiGraph()
@@ -31,10 +35,7 @@ def quantum_grassmannian_poset(p,m,k):
                     seen[q]=seen[p]+1
                     queue.append(q)
     return D
----- /!\ '''Edit conflict - your version:''' ----
-= Sage Days 30 Best First Contribution Prize =
 
-To participate, please post here your code, or add a link to the trac ticket
 
 * k-Schur functions in non-commutative variables
 
