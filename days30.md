@@ -137,3 +137,7 @@ Thursday: Learning and Coding
 {{attachment:hivert-thiery-schilling-SD30.jpg}}
 
 Low Tide, Halls Harbour, Bay of Fundy:   Florent Hivert, Nicolas Thiery, Anne Schilling
+
+{{attachment:toutesSage.jpg||height=500}}
+
+Advertisement at the Montreal airport baggage claim.
