@@ -50,4 +50,4 @@ This list was generated from the trac report [[http://trac.sagemath.org/sage_tra
 
  * There was much work done on the thematic tutorials. Nicolas Thiery liberated the tutorials from the reference manual. Nicolas Thiery, Florent Hivert, Jason Bandlow and Franco Saliola edited, expanded and added new tutorials.
 
- * Carolina Benedetti implemented a function to construct the "quantum Grassmannian poset". Here is an [[http://wiki.sagemath.org/days30_statusreports?action=AttachFile&do=view&target=qgposet.pdf|image of one such poset]].
+ * Carolina Benedetti implemented a function to construct the "quantum Grassmannian poset". Here is an example: {{attachment:qgposet.pdf}}
