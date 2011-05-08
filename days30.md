@@ -1,5 +1,9 @@
 = Sage Days 30 =
 
+== Status Report ==
+
+A summary of the accomplishments of Sage Days 30 can be found in the [[http://wiki.sagemath.org/days30_report|status report]]
+
 == Topics ==
 
  * Combinatorics (Schubert calculus, cluster algebras)
