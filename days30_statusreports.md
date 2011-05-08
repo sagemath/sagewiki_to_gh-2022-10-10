@@ -33,7 +33,7 @@ Here is a list trac tickets that were created or worked on during Sage Days 30.
     * #11306 [needs_review] Upgrade unitary check for RDF/CDF matrices
     * #11308 typos in sage.structure.list_clone documentation
     * #11311 [needs_review] engine="pdflatex" in view is ignored
-    * #11314 Enhance method from_shape_and_word in tableau to allow English reading order
+    * #11314 [positive_review] Enhance method from_shape_and_word in tableau to allow English reading order
     * #11315 [needs_review] remove pstricks from default latex preamble
 
 This list was generated from the trac report [[http://trac.sagemath.org/sage_trac/query?status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&order=id&col=id&col=summary&col=status&col=reviewer&col=author&keywords=~days30|Sage Days 30 trac tickets]]
@@ -44,7 +44,7 @@ This list was generated from the trac report [[http://trac.sagemath.org/sage_tra
 
  * Chris Berg and Anne Schilling worked on an implementation of the nilCoxeter algebra and noncommutative k-Schur functions for affine type A. Jason Bandlow and Franco Saliola reviewed the patch [[http://trac.sagemath.org/sage_trac/ticket/11290|trac #11290]] and it received a positive review.
 
- * Travis Scrimshaw wrote code for the bijection between rigged configurations and crystal paths. In particular, he implemented the Kleber algorithm which provides an efficient way to create all highest weight rigged configuration for a given sequence of rectangles and given weight. His code was pushed to the sage-combinat server.
+ * Travis Scrimshaw wrote code for the bijection between rigged configurations and crystal paths and opened the corresponding ticket [[http://trac.sagemath.org/sage_trac/ticket/11305|trac #11305]]. In particular, he implemented the Kleber algorithm which provides an efficient way to create all highest weight rigged configuration for a given sequence of rectangles and given weight. His code was pushed to the sage-combinat server.
 
  * Much work was done by several participants (Hugh Thomas, Eric Webster, Ryan Oulton, JP Simard, Calin Fraser, Josh Koncovy, Gaelan Hanlon, Francis Bischoff, Florent Hivert, Christian Stump) on implementing the full collection of d-complete posets, the slant product of d-complete posets, and jeu de taquin for them. Some of this code can be found in the page for the [[http://wiki.sagemath.org/days30_prize|Sage Days 30 Best First Contribution Prize]].
 
