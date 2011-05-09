@@ -14,6 +14,8 @@ Here is a list trac tickets that were created or worked on during Sage Days 30.
     * #10333 [needs_review] Add an optional interface for lrcalc
     * #10334 [positive_review] miscellaneous cleanup in perm_gps preparing for domains
     * #11263 [positive_review] Markup ".. link" is wrong in the developer guide. Add ".. linkall" to systematically link.
+    * #9128 [needs_review] Sphinx should be aware of all.py to find its links
+    * #11251 [needs_review] Add todo extension to Sphinx
     * #11281 ".. math::" environment ignored in the live documentation
     * #11282 [positive_review] Add a link from the main live documentation help page to the thematic tutorials document
     * #11284 Document all options of Poset.show and Poset.plot
