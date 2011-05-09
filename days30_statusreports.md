@@ -41,7 +41,7 @@ This list was generated from the trac report [[http://trac.sagemath.org/sage_tra
 
 == Coding Sprints and Design Discussions ==
 
- * Anders Buch, Anne Schilling and Nicolas Thiery worked on the interface between sage and Anders' Littlewood-Richardson calculator written in C. We worked on finalizing Mike Hansen's patch and added additional functionalities to the patch such as the fusion coefficients. The final version is on [[http://trac.sagemath.org/sage_trac/ticket/10333|trac #10333]], has a positive mathematical review, and is awaiting a final technical review.
+ * Anders Buch, Anne Schilling and Nicolas Thiéry worked on the interface between sage and Anders' Littlewood-Richardson calculator written in C. We worked on finalizing Mike Hansen's patch and added additional functionalities to the patch such as the fusion coefficients. The final version is on [[http://trac.sagemath.org/sage_trac/ticket/10333|trac #10333]], has a positive mathematical review, and is awaiting a final technical review.
 
  * Chris Berg and Anne Schilling worked on an implementation of the nilCoxeter algebra and noncommutative k-Schur functions for affine type A. Jason Bandlow and Franco Saliola reviewed the patch [[http://trac.sagemath.org/sage_trac/ticket/11290|trac #11290]] and it received a positive review.
 
@@ -49,8 +49,12 @@ This list was generated from the trac report [[http://trac.sagemath.org/sage_tra
 
  * Much work was done by several participants (Hugh Thomas, Eric Webster, Ryan Oulton, JP Simard, Calin Fraser, Josh Koncovy, Gaelan Hanlon, Francis Bischoff, Florent Hivert, Christian Stump) on implementing the full collection of d-complete posets, the slant product of d-complete posets, and jeu de taquin for them. Some of this code can be found in the page for the [[http://wiki.sagemath.org/days30_prize|Sage Days 30 Best First Contribution Prize]].
 
- * There was much work done on the thematic tutorials. Nicolas Thiery liberated the tutorials from the reference manual. Nicolas Thiery, Florent Hivert, Jason Bandlow and Franco Saliola edited, expanded and added new tutorials.
+ * There was much work done on the thematic tutorials. Nicolas Thiéry liberated the tutorials from the reference manual. Nicolas Thiéry, Florent Hivert, Jason Bandlow and Franco Saliola edited, expanded and added new tutorials.
 
  * Carolina Benedetti implemented a function to construct the "quantum Grassmannian poset". Here is an example:
 
    {{attachment:qgposet.pdf||width=600 height=850}}
+
+ * Nicholas Thiéry, Florent Hivert, Jason Bandlow, Franco Saliola, Anne Schilling, Christian Stump and others discussed the design and naming conventions for implementing a set endowed with the action of another set.
+
+ * Jason Bandlow completed an initial implementation of k-Schur functions as a subring of the ring of symmetric functions. The code was pushed to the sage-combinat server.
