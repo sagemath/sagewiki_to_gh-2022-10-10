@@ -11,6 +11,7 @@ Here is a list trac tickets that were created or worked on during Sage Days 30.
     * #9123  implement Schur algebras and use them to determine irreducible characters for GL_n
     * #10065 [needs_review] removed bug and new methods in Poset
     * #10167 [closed enhancement: duplicate] three new methods in Poset
+    * #10333 [needs_review] Add an optional interface for lrcalc
     * #10334 [positive_review] miscellaneous cleanup in perm_gps preparing for domains
     * #11263 [positive_review] Markup ".. link" is wrong in the developer guide. Add ".. linkall" to systematically link.
     * #11281 ".. math::" environment ignored in the live documentation
