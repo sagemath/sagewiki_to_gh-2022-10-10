@@ -38,6 +38,7 @@ Here is a list trac tickets that were created or worked on during Sage Days 30.
     * #11311 [needs_review] engine="pdflatex" in view is ignored
     * #11314 [positive_review] Enhance method from_shape_and_word in tableau to allow English reading order
     * #11315 [needs_review] remove pstricks from default latex preamble
+    * #10194 Set factories
 
 This list was generated from the trac report [[http://trac.sagemath.org/sage_trac/query?status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&order=id&col=id&col=summary&col=status&col=reviewer&col=author&keywords=~days30|Sage Days 30 trac tickets]]
 
@@ -58,5 +59,7 @@ This list was generated from the trac report [[http://trac.sagemath.org/sage_tra
    {{attachment:qgposet.pdf||width=600 height=850}}
 
  * Nicholas Thiéry, Florent Hivert, Jason Bandlow, Franco Saliola, Anne Schilling, Christian Stump and others discussed the design and naming conventions for implementing a set endowed with the action of another set.
+
+ * Florent Hivert, Jason Bandlow, Travis Scrimshaw and Nicolas Nicholas Thiéry had a long design discussion about set factories. A patch implementing the design is currently tested on combinat queue and should be submitted shortly #10194.
 
  * Jason Bandlow completed an initial implementation of k-Schur functions as a subring of the ring of symmetric functions. The code was pushed to the sage-combinat server.
