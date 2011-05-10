@@ -4632,6 +4632,7 @@ hamptonbayceilingfans\.net
 novolinespiele\.de
 novoline24\.eu
 diamondlinks\.net
+lol\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
