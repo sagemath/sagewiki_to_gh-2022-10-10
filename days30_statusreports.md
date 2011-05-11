@@ -64,13 +64,13 @@ list was generated from the trac report
 
  * Florent Hivert, Jason Bandlow, Travis Scrimshaw, and Nicolas had a long design discussion about set factories. Florent Hivert wrote a patch implementing the design which is currently tested on combinat queue and should be submitted shortly [[http://trac.sagemath.org/sage_trac/ticket/10194|#10194]].
 
- * Christian Stump worked on the implementation of reflection worked, and had many discussions with Nicolas about the design. It turned out that the ``category with adjective'' idiom that Nicolas had implemented two weeks before in Montreal came just handy for this [[http://trac.sagemath.org/sage_trac/ticket/10963|#10963]].
+ * Christian Stump worked on the implementation of reflection worked, and had many discussions with Nicolas about the design. It turned out that the "category with adjective" idiom that Nicolas had implemented two weeks before in Montreal came just handy for this [[http://trac.sagemath.org/sage_trac/ticket/10963|#10963]].
 
  * Christian Stump and Florent Hivert worked on the optimization of the universal cyclotomic field
 
  * Jason Bandlow completed an initial implementation of k-Schur functions as a subring of the ring of symmetric functions after design discussions with Nicolas, Anne, .... The code was pushed to the sage-combinat server.
 
- * Rob Beezer and Nicolas worked on the conversion of the French ``Introduction to Sage'' book to worksheets using Rob's conversion scripts.
+ * Rob Beezer and Nicolas worked on the conversion of the French "Introduction to Sage" book to worksheets using Rob's conversion scripts.
 
  * Rob Beezer and Nicolas finalized [[http://trac.sagemath.org/sage_trac/ticket/10334|#10334: miscellaneous cleanup in perm_gps preparing for domains]]
 
@@ -79,5 +79,7 @@ list was generated from the trac report
  * Christian, Franco and Nicolas worked on the finalization of [[http://trac.sagemath.org/sage_trac/ticket/10998|#10998: Categories for posets]]
 
  * Eva Curry, Florent and Nicolas implemented the enumerated set of IntegerPointsInABall, and got cool 3D pictures out of them.
+
+ * Hugh got his code implementing Schur algebras and irreducible characters of GL_n (including the characteristic p case) into a shareable state, and, with help from Anne, got it into the sage-combinat queue.  
 
 And everybody (or so) played Frisbee!
