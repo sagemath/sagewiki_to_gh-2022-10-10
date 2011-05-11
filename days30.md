@@ -16,7 +16,7 @@ A summary of the accomplishments of Sage Days 30 can be found in the [[http://wi
 
 == Dates ==
 
- May 2-6, 2011.  '''''PLEASE NOTE THE NEW DATES!'''''
+ May 2-6, 2011.  
 
  * May 2-3: Introduction to Sage
  * May 4-6: Open Developers' Meeting
