@@ -39,6 +39,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * Paul Sharaba (Cleveland State University)
  * [[http://wstein.org/|William Stein]] (University of Washington)
  * Ian Stokes-Rees (Harvard Medical School)
+ * [[http://www.pps.k12.or.us/departments/data-analysis/|Shawn Helm]] (Portland Public Schools)
 
 == Organizers ==
 
