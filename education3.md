@@ -51,7 +51,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * [[http://wstein.org/|William Stein]] (University of Washington)
  * [[http://www.math.usm.edu/perry/|John Perry]] (University of Southern Mississippi)
-
+ * [[http://www.pps.k12.or.us/departments/data-analysis/|Shawn Helm]] (Portland Public Schools)
 
 = Mailing Lists =
 
