@@ -80,6 +80,6 @@ list was generated from the trac report
 
  * Eva Curry, Florent and Nicolas implemented the enumerated set of IntegerPointsInABall, and got cool 3D pictures out of them.
 
- * Hugh got his code implementing Schur algebras and irreducible characters of GL_n (including the characteristic p case) into a shareable state, and, with help from Anne, got it into the sage-combinat queue.  
+ * Hugh got his code implementing Schur algebras and irreducible characters of GL_n (including the characteristic p case) into a shareable state (with help from Anne, Jason, and Franco), and, with help and prodding from Anne, got it into the sage-combinat queue.  
 
-And everybody (or so) played Frisbee!
+And everybody (more or less) played Frisbee!
