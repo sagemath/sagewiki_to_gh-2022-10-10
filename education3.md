@@ -33,11 +33,13 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
  * [[http://www.cgl.ucsf.edu/home/bic|Bruce Cohen]] (Lowell High School, San Francisco)
+ * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
  * [[http://www.acadiau.ca/~ecurry|Eva Curry]] (Acadia University)
  * DanDrake (KAIST, South Korea)
  * Michael Garcia (San Francisco State University)
  * [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  * Marja-Liisa Hassi (University of Colorado)
+ * [[http://www.pps.k12.or.us/departments/data-analysis/|Shawn Helm]] (Portland Public Schools)
  * [[http://math.jasonbhill.com|Jason B. Hill]] (University of Colorado)
  * [[http://www.uni.edu/theron/|TJ Hitchman]] (University of Northern Iowa)
  * [[http://facweb.northseattle.edu/ejasso/|Edgar Jasso]] (North Seattle Community College)
@@ -48,10 +50,9 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * [[http://www.reed.edu/~davidp/|David Perkinson]] (Reed College)
  * [[http://www.csudh.edu/math/wpong/|Wai Yan Pong]] (California State University, Dominguez Hills)
  * Rao Potluri (Reed College)
- * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
- * [[http://wstein.org/|William Stein]] (University of Washington)
  * [[http://www.math.usm.edu/perry/|John Perry]] (University of Southern Mississippi)
- * [[http://www.pps.k12.or.us/departments/data-analysis/|Shawn Helm]] (Portland Public Schools)
+ * [[http://www.mc.edu/faculty/travis|John Travis]] (Mississippi College)
+ * [[http://wstein.org/|William Stein]] (University of Washington)
 
 = Mailing Lists =
 
