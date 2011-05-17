@@ -30,6 +30,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
  * Ryan Grout (BYU, Utah)
  * Mike Hansen (Berkeley)
+ * [[http://www.pps.k12.or.us/departments/data-analysis/|Shawn Helm]] (Portland Public Schools)
  * Keshav Kini (Singapore)
  * [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
  * Sébastien Labbé (Montréal)
@@ -39,7 +40,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * Paul Sharaba (Cleveland State University)
  * [[http://wstein.org/|William Stein]] (University of Washington)
  * Ian Stokes-Rees (Harvard Medical School)
- * [[http://www.pps.k12.or.us/departments/data-analysis/|Shawn Helm]] (Portland Public Schools)
+ * [[http://www.mc.edu/faculty/travis|John Travis]] (Mississippi College)
  * Zafeirakis Zafeirakopoulos (RISC - Research Institute for Symbolic Computation)
 
 == Organizers ==
