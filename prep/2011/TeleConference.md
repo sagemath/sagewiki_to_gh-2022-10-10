@@ -10,7 +10,7 @@
 
   * In your web browser connect to the link that was distributed via the group email list.
 
-  * Accept running the download - it is a Java application.
+  * Accept running the download - it is a Java application.  (If you see something about Blackboard Collaborate, this is fine - it is the same application.)
 
   * You should see the whole Elluminate application once it downloads.  If not, your Java could be to blame, especially if you are on Linux.
     * In the case of Linux, be sure you have Sun's Java installed - in Ubuntu (Debian, too) pre-10.04 installing  sun-java6-plugin  may do everything you need.
@@ -29,9 +29,9 @@
 These will be opportunities to test out your gear and learn the system.  Proper etiquette (as described below) will not be a feature of these sessions.  Please use whichever computer and internet connection you plan to use during the sessions.
 
   * Wednesday, May 18
-    * 6:30-8 AM (PDT), 9:30-11 AM (EDT)
+    * 6:30 AM - 8 AM (PDT), 9:30 AM - 11 AM (EDT)
   * Thursday, May 19
-    * 11 AM - 1 PM (PDT), 2-4 PM (EDT)
+    * 11 AM - 1 PM (PDT), 2 PM - 4 PM (EDT)
 
 == Etiquette ==
 
