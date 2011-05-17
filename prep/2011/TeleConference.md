@@ -4,7 +4,7 @@
 
   * You need headphones and a microphone to participate in the online sessions, no way around it.  If your computer or laptop has a mic built-in, then you can get away with just headphones.  A headset is nice, but any mic and headphone combination should work.  Rule Number One: do not play the audio out of your speakers, or when you want to talk it will feed through your mic and create a nasty echo for everybody.  NO SPEAKERS.  ;-)
 
-  * We have two cases of USB headsets, Linux OS and Elluminate resulting in really choppy audio.  Plugging into dedicated audio ports seems to work just fine in these instances.  If you have discovered a fix for this, please let us know.
+  * We have had cases of USB headsets, Linux OS and Elluminate resulting in really choppy audio.  Plugging into dedicated audio ports seems to work just fine in these instances.  If you have discovered a fix for this, please let us know.
 
   * Please plan to arrive a few minutes early to each session so you can get all your equipment up and running properly.
 
@@ -27,7 +27,7 @@
 
 These will be opportunities to test out your gear and learn the system.  Proper etiquette (as described below) will not be a feature of these sessions.  Please use whichever computer and internet connection you plan to use during the sessions.
 
-  * Wed, May 18
+  * Wednesday, May 18
     * 6:30-8 AM (PDT), 9:30-11 AM (EDT)
   * Thursday, May 19
     * 11 AM - 1 PM (PDT), 2-4 PM (EDT)
