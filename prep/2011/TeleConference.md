@@ -23,6 +23,7 @@
 
   * Setup problems?  Try asking for help through the chat window, it should work no matter what.
 
+<<Anchor(testsessions)>>
 == Test Sessions ==
 
 These will be opportunities to test out your gear and learn the system.  Proper etiquette (as described below) will not be a feature of these sessions.  Please use whichever computer and internet connection you plan to use during the sessions.
