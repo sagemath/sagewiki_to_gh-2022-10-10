@@ -14,14 +14,17 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://sagetrac.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
- * May 2-6, 2011: [[http://wiki.sagemath.org/days30| Sage Days 30]]: Combinatorics (Schubert calculus, cluster algebras) and Number theory (integer vectors, multidimensional digit representations) in Acadia University, Wolfville, Nova Scotia, Canada '''''NOTE NEW DATES'''''
+ * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]]
+   With a strong Sage and Sage-Combinat slant
+
+ * May 2-6, 2011: [[http://wiki.sagemath.org/days30| Sage Days 30]]: Combinatorics (Schubert calculus, cluster algebras) and Number theory (integer vectors, multidimensional digit representations) in Acadia University, Wolfville, Nova Scotia, Canada
 
 == Past news ==
 
  * January 17-19, 2011: [[http://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
 
  * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
-   A 315 pages free french introductory book on computational mathematics, illustrated in Sage, and including a 35 pages chapter on combinatorics (and soon one on graph theory).
+   A 315 pages open source french introductory book on computational mathematics, illustrated in Sage, and including a 35 pages chapter on combinatorics (and soon one on graph theory).
 
  * July 7-15, 2010: [[http:/combinat/AffineSchubertCalculusWorkshop|Affine Schubert Calculus workshop and summer school in Toronto]]
    It includes several Sage and Sage-Combinat sessions
