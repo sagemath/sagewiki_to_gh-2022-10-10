@@ -10,8 +10,8 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
 
- * We have SAV 156. 
-
+ * Sessions will be held in [[http://www.washington.edu/maps/?l=SAV|Savery Hall]] on the historic Quad, just northeast of Red Square.  Specifically, [[http://www.css.washington.edu/room/SAV+156|Savery 156]].
+ 
  * LODGING: Many participants will be staying at the "UWMC Collegiana Hospitality House" (4311 12th Ave. N.E., Seattle)  ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved several rooms.  See [[attachment:collegiana_directions.pdf]] for more information about getting to the Collegiana.
 
 
