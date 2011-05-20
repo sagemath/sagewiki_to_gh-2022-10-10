@@ -4,3 +4,4 @@ Please order by arrival time.  This will help ensure lodging arrangements are co
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Notes ||
 || Rob Beezer || Sunday PM/Monday AM || Car || Saturday, very late || Car ||  ||
+|| Ryan Grout || Monday AM || Plane || Friday evening || Plane || ||
