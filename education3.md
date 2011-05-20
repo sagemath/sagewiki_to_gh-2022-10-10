@@ -55,7 +55,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 
 = Mailing Lists =
 
- * Mailing list for [[http://groups.google.com/group/sagedays31|Sage Days 31]].  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
+ * Mailing list for [[http://groups.google.com/group/sagedays31|Sage Days 31]], which will be used for Education Days also.  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
 
  * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
 
