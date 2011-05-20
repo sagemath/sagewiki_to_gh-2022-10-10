@@ -7,3 +7,4 @@ Please order by arrival time.  This will help ensure lodging arrangements are co
 || Ryan Grout || Monday AM || Plane || Friday evening || Plane || ||
 || John Travis || Saturday 9PM || Plane || Sunday 6AM || Plane || ||
 || Jane Long || Wednesday 2:20PM || Plane || Sunday 12:55AM || Plane || no plans for rides to/from airport yet ||
+|| Tom Judson || Wednesday 8:30PM || Plane || Saturday 11:30PM || Plane || no plans for rides to/from airport yet ||
