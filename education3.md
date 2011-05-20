@@ -4,9 +4,6 @@ The third [[http://www.sagemath.org|Sage]] Education Days will be held in conjun
 
 Funded by the National Science Foundation Division of Undergraduate Education.
 
-LOCATION: SAV 131
-
-
 <<TableOfContents>>
 
 = Topics =
@@ -58,7 +55,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 
 = Mailing Lists =
 
- * Mailing list for [[http://groups.google.com/group/sagedays31|Sage Days 31]].
+ * Mailing list for [[http://groups.google.com/group/sagedays31|Sage Days 31]].  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
 
  * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
 
@@ -92,7 +89,7 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 ||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || ||
 ||  9:00 AM || Introductions             || || ||
 ||  9:30 AM || Calculus                  || John Perry, U of Southern Mississippi || ||
-|| 10:15 AM || Multivariable Calculus    || TBA || ||
+|| 10:15 AM || Multivariable Calculus    || John Travis, Mississippi College || ||
 || 11:00 AM || Textbook Conversion       || Rob Beezer, U of Puget Sound || ||
 ||  5:30 PM || Status Reports            ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
@@ -104,7 +101,7 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 ||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
 ||  9:00 AM || Linear Algebra            || Rob Beezer, U of Puget Sound || ||
 || 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || ||
-|| 11:00 AM || Interact Design           || TBA || ||
+|| 11:00 AM || Interact Design           || Open Mic, MC: Jason Grout, Drake U || ||
 ||       PM || UTMOST Staff Meeting      || || ||
 ||  5:30 PM || Status Reports, Wrap-Up   || || ||
 
