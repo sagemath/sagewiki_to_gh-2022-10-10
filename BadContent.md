@@ -4635,6 +4635,13 @@ diamondlinks\.net
 lol\.com
 mastersdissertation\.co\.uk
 mortgagecomparison\.com\.au
+i52\.photobucket\.com
+outdoorpropanefirepit\.net
+s3\.hubimg\.com
+antiquegasstoves\.info
+bohaute\.com
+ariplex\.com
+wroughtironpatiofurnituresale\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
