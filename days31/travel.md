@@ -5,6 +5,7 @@ Please order by arrival time.  This will help ensure lodging arrangements are co
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Notes ||
 || John Travis || Saturday 9PM || Plane || Sunday 6AM || Plane || no plans for rides to/from airport yet ||
 || Jonathan Gutow||Sunday 3PM || Plane || Friday 11 PM || Plane || was planning on train and bus to/from airport but will share ride||
+|| Mike Hansen || Sunday 4:30PM || Plane || Friday 3:30PM || Plane || light rail / bus ||
 || Karl-Dieter Crisman || Sunday 9:30PM || Plane || Friday 10:45PM || Plane || no plans for rides to/from airport yet ||
 || Rob Beezer || Sunday PM/Monday AM || Car || Saturday, very late || Car ||  ||
 || Ryan Grout || Monday AM || Plane || Friday evening || Plane || ||
