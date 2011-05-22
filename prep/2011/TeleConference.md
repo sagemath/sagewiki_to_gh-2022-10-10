@@ -32,6 +32,8 @@ These will be opportunities to test out your gear and learn the system.  Proper 
     * 6:30 AM - 8 AM (PDT), 9:30 AM - 11 AM (EDT)
   * Thursday, May 19
     * 11 AM - 1 PM (PDT), 2 PM - 4 PM (EDT)
+  * Monday, May 23
+    * 8 AM - 9 AM (PDT), 11 AM - 12 Noon (EDT)
 
 == Etiquette ==
 
