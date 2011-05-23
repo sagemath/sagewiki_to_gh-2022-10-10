@@ -15,6 +15,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Karl-Dieter Crisman|| Sun, 9:29 PM    || Sea-Tac, Alaska      || Fri, 10:45 PM       || Sea-Tac              || no plans for rides to/from airport yet ||
 || Rob Beezer         || Sun, PM         || Car                  || Sat, PM             || Car                  || ||
 || Ryan Grout         || Mon, 9:30 AM    || Sea-Tac, Delta       || Fri, 6:00  PM       || Sea-Tac, Delta       || ||
+|| Wai Yan Pong       || Wed, 9:51 AM    || Sea-Tac, Jet Blue    || Sun,  2:50 PM       || Sea-Tac, Jet Blue    || ||
 || Michael Pearson    || Wed, 12:55 PM   || Sea-Tac, Southwest   || Sun, 11:00 AM       || Sea-Tac, Southwest   || ||
 || Jane Long          || Wed, 2:20 PM    || Sea-Tac, Continental || Sun, 12:55 PM       || Sea-Tac, Continental || no plans for rides to/from airport yet ||
 || Dan Drake          || Wed  17:40      || Sea-Tac, United      || Sat, 11:30 PM       || Sea-Tac, Continental || ||
@@ -47,7 +48,7 @@ These are the '''nights''' folks require lodging.  Dates are placeholders and wi
 || John Perry         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Jane Long          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Michael Pearson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| Wai Yan Pong       ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Dates not confirmed ||
+|| Wai Yan Pong       ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || David Perkinson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Dates not confirmed ||
 || Rao Potluri        ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Dates not confirmed ||
 || Kiran Kedlaya      ||        ||        ||        ||        ||        || Thu 16 || Fri 17 ||        || ||
