@@ -45,6 +45,7 @@ These are the '''nights''' folks require lodging.  Dates are placeholders and wi
 || Rob Beezer         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Rado Kirov         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Extra week for REU ||
 || Zafeirakis Zafeirakopoulos         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18   || ||
+|| Jason B. Hill      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18   || ||
 || Burcin Erocal      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18   || ||
 || Ryan Grout         ||        ||        || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Tom Judson         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
