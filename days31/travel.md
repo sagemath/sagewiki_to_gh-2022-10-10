@@ -5,13 +5,13 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Notes||
-|| Mike Hansen        || Sat, 4:35 PM    || Sea-Tac, Virgin      || Fri, 3:30 PM        || Sea-Tac, Virgin      || light rail / bus ||
 || John Travis        || Sat, 9:05 PM    || Sea-Tac, Delta       || Sun, 6:00 AM        || Sea-Tac, Delta       || no plans for rides to/from airport yet||
 || Rado Kirov         || Sun, 9:37 AM    || Sea-Tac              ||                     || Sea-Tac              || ||
 || Michael Gage       || Sun, 11:35 (AM?)|| Sea-Tac, Delta       || Fri,  9:55 PM       || Sea-Tac, Delta       || ||
 || Zafeirakis Zafeirakopoulos       || Sun, 13:11 || Sea-Tac, UA 322       || Sun,11:30 AM      || Sea-Tac, UA 876       || ||
 || Burcin Erocal      || Sun, 20:58      || Sea-Tac, US74        || Sun, 11:15 AM       || Sea-Tac, US67        || ||
 || Jonathan Gutow     || Sun, 2:54 PM    || Sea-Tac, Alaska      || Fri, 11:19 PM       || Sea-Tac, Delta       || was planning on train and bus to/from airport but will share ride ||
+|| Mike Hansen        || Sun, 4:35 PM    || Sea-Tac, Virgin      || Fri, 3:30 PM        || Sea-Tac, Virgin      || light rail / bus ||
 || Andrey Novoseltsev || Sun, 5:33 PM    || Sea-Tac, United      || Sat, 9:45 AM        || Sea-Tac, Alaska      || ||
 || Volker Braun       || Sun, 21:47      || Sea-Tac              || Sat, 13:00          || Sea-Tac              || ||
 || Karl-Dieter Crisman|| Sun, 9:29 PM    || Sea-Tac, Alaska      || Fri, 10:45 PM       || Sea-Tac              || no plans for rides to/from airport yet ||
@@ -34,7 +34,7 @@ These are the '''nights''' folks require lodging.  Dates are placeholders and wi
 
 ||<rowstyle="background-color: #E0E0FF;">Name|| Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Notes ||
 || John Travis        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| Mike Hansen        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
+|| Mike Hansen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Davide Cervone     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || Not confirmed ||
 || Michael Gage       ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Jonathan Gutow     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
