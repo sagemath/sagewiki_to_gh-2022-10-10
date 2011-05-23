@@ -10,6 +10,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Rado Kirov         || Sun, 9:37 AM    || Sea-Tac              ||                     || Sea-Tac              || ||
 || Michael Gage       || Sun, 11:35 (AM?)|| Sea-Tac, Delta       || Fri,  9:55 PM       || Sea-Tac, Delta       || ||
 || Zafeirakis Zafeirakopoulos       || Sun, 13:11 || Sea-Tac, UA 322       || Sun,11:30 AM      || Sea-Tac, UA 876       || ||
+|| Burcin Erocal      || Sun, 20:58      || Sea-Tac, US74        || Sun, 11:15 AM       || Sea-Tac, US67        || ||
 || Jonathan Gutow     || Sun, 2:54 PM    || Sea-Tac, Alaska      || Fri, 11:19 PM       || Sea-Tac, Delta       || was planning on train and bus to/from airport but will share ride ||
 || Andrey Novoseltsev || Sun, 5:33 PM    || Sea-Tac, United      || Sat, 9:45 AM        || Sea-Tac, Alaska      || ||
 || Volker Braun       || Sun, 21:47      || Sea-Tac              || Sat, 13:00          || Sea-Tac              || ||
@@ -43,6 +44,7 @@ These are the '''nights''' folks require lodging.  Dates are placeholders and wi
 || Rob Beezer         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Rado Kirov         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Extra week for REU ||
 || Zafeirakis Zafeirakopoulos         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18   || ||
+|| Burcin Erocal      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18   || ||
 || Ryan Grout         ||        ||        || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Tom Judson         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Dan Drake          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
