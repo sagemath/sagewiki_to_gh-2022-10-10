@@ -9,13 +9,13 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Rado Kirov         || Sun, 9:37 AM    || Sea-Tac              ||                     || Sea-Tac              || ||
 || Michael Gage       || Sun, 11:35 (AM?)|| Sea-Tac, Delta       || Fri,  9:55 PM       || Sea-Tac, Delta       || ||
 || Zafeirakis Zafeirakopoulos       || Sun, 13:11 || Sea-Tac, UA 322       || Sun,11:30 AM      || Sea-Tac, UA 876       || ||
-|| Burcin Erocal      || Sun, 20:58      || Sea-Tac, US74        || Sun, 11:15 AM       || Sea-Tac, US67        || ||
 || Jonathan Gutow     || Sun, 2:54 PM    || Sea-Tac, Alaska      || Fri, 11:19 PM       || Sea-Tac, Delta       || was planning on train and bus to/from airport but will share ride ||
 || Mike Hansen        || Sun, 4:35 PM    || Sea-Tac, Virgin      || Fri, 3:30 PM        || Sea-Tac, Virgin      || light rail / bus ||
 || Andrey Novoseltsev || Sun, 5:33 PM    || Sea-Tac, United      || Sat, 9:45 AM        || Sea-Tac, Alaska      || ||
-|| Volker Braun       || Sun, 21:47      || Sea-Tac              || Sat, 13:00          || Sea-Tac              || ||
+|| Burcin Erocal      || Sun, 8:58 PM    || Sea-Tac, US74        || Sun, 11:15 AM       || Sea-Tac, US67        || ||
 || Karl-Dieter Crisman|| Sun, 9:29 PM    || Sea-Tac, Alaska      || Fri, 10:45 PM       || Sea-Tac              || no plans for rides to/from airport yet ||
-|| Jason B. Hill      || Sun, 22:58      || Sea-Tac, Frontier    || Sun, 18:59          || Sea-Tac, Frontier    || no plans as of yet ||
+|| Volker Braun       || Sun, 9:47 PM    || Sea-Tac              || Sat, 13:00          || Sea-Tac              || ||
+|| Jason B. Hill      || Sun, 10:58 PM   || Sea-Tac, Frontier    || Sun, 18:59          || Sea-Tac, Frontier    || no plans as of yet ||
 || Rob Beezer         || Sun, PM         || Car                  || Sat, PM             || Car                  || ||
 || Ryan Grout         || Mon, 9:30 AM    || Sea-Tac, Delta       || Fri, 6:00  PM       || Sea-Tac, Delta       || ||
 || Wai Yan Pong       || Wed, 9:51 AM    || Sea-Tac, Jet Blue    || Sun,  2:50 PM       || Sea-Tac, Jet Blue    || ||
