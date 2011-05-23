@@ -9,6 +9,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || John Travis        || Sat, 9:05 PM    || Sea-Tac, Delta       || Sun, 6:00 AM        || Sea-Tac, Delta       || no plans for rides to/from airport yet||
 || Rado Kirov         || Sun, 9:37 AM    || Sea-Tac              ||                     || Sea-Tac              || ||
 || Michael Gage       || Sun, 11:35 (AM?)|| Sea-Tac, Delta       || Fri,  9:55 PM       || Sea-Tac, Delta       || ||
+|| Zafeirakis Zafeirakopoulos       || Sun, 13:11 || Sea-Tac, UA 322       || Sun,  11:30 PM       || Sea-Tac, UA 876       || ||
 || Jonathan Gutow     || Sun, 2:54 PM    || Sea-Tac, Alaska      || Fri, 11:19 PM       || Sea-Tac, Delta       || was planning on train and bus to/from airport but will share ride ||
 || Andrey Novoseltsev || Sun, 5:33 PM    || Sea-Tac, United      || Sat, 9:45 AM        || Sea-Tac, Alaska      || ||
 || Volker Braun       || Sun, 21:47      || Sea-Tac              || Sat, 13:00          || Sea-Tac              || ||
