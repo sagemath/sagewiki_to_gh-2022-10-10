@@ -16,18 +16,23 @@ Our goal on the first day is to get everybody comfortable enough in the notebook
 Questions are encouraged!  With that in mind, note that we have ample time for addressing questions that come up during the presentations.  You should feel free to message in Elluminate anything that comes to mind, and we'll be sure to address as many as possible during the actual session.
 
 === Session I - Getting Started ===
-    * Introductions: Organizers and Participants (TBA, 30 min)
-    * Review (and expand on) "PREP Intro Tutorial" worksheet (TBA, 45 min)
+    * Introductions: Organizers and Participants (Karl-Dieter, 30 min)
+    * Review (and expand on) "PREP Intro Tutorial" worksheet (Karl-Dieter, 45 min)
       * Evaluating commands
       * Symbolic functions
       * Finding Help and Documentation through the notebook
       * Annotating your Worksheets
     * Short Break
-    * Questions (TBA, 25 min)
+    * Questions (Jason, 20 min)
+    * Technology in the Classroom roundtable (Jason, 20 min)
+      * Prompt 1
+      * Prompt 2
+
 
 === Session II - Sage Community ===
-    * Welcome Back (TBA, 5 min)
-    * Resources (TBA, 30 min)
+    * Welcome Back (Jason, 5 min)
+    * Resources (Jason, 25 min)
+      * [[http://ask.sagemath.org|ask.sagemath.org]]
       * Google Groups
         * sage-support
         * sage-edu
@@ -35,21 +40,23 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * MAA list (versus Google Groups)
       * Sage wiki (Interacts, Quickrefs)
       * www.sagemath.org
+        * Link 1
+        * Link 2
+        * Link 3
       * www.sagenb.org published worksheets
       * Reference manual (stand-alone PDF, HTML)
-      * IRC Demo, with the web chat client
       * Questions
-    * Questions (TBA, 10 min)
+    * Questions (Jason, 10 min)
     * Short Break
-    * Review "Sage Tutorial for Symbolics and Plotting" (TBA, 30 min)
+    * Review "Sage Tutorial for Symbolics and Plotting" (Karl-Dieter, 40 min)
       * Symbolic Expressions
       * Basics of Two-Dimensional Plotting 
       * Basics of Three-Dimensional Plotting 
-    * Questions (TBA, 15 min)
-    * Homework (TBA, 10 min) 
+    * Questions (Karl-Dieter, 15 min)
+    * Homework (Karl-Dieter, 10 min) 
       * Preparation for next sessions 
       * Pre-Workshop Survey for MAA?
-    * Announcements (TBA, 5 min)
+    * Announcements (Jason, 5 min)
       * Office Hours 
       * June Sessions
 
@@ -63,7 +70,7 @@ There will likely also be some group discussion/sharing time on effective ideas 
   * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
   * [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html?sagenb.notebook.interact.interact#sagenb.notebook.interact.interact|Interact Construction Documentation]]
   * [[http://www.math.usm.edu/perry/|John Perry's Mathematical Computing Course]]
-  * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links"]]
+  * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links")]]
   * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
   * [[http://www.cython.org/|Sage's Python to C translator]]
 
