@@ -20,7 +20,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Ryan Grout         || Mon, 9:30 AM    || Sea-Tac, Delta       || Fri, 6:00  PM       || Sea-Tac, Delta       || ||
 || Wai Yan Pong       || Wed, 9:51 AM    || Sea-Tac, Jet Blue    || Sun,  2:50 PM       || Sea-Tac, Jet Blue    || ||
 || Michael Pearson    || Wed, 12:55 PM   || Sea-Tac, Southwest   || Sun, 11:00 AM       || Sea-Tac, Southwest   || ||
-|| Jane Long          || Wed, 2:20 PM    || Sea-Tac, Continental || Sun, 12:55 PM       || Sea-Tac, Continental || no plans for rides to/from airport yet ||
+|| Jane Long          || Wed, 2:20 PM    || Sea-Tac, Continental || Sun, 12:55 AM       || Sea-Tac, Continental || no plans for rides to/from airport yet ||
 || Dan Drake          || Wed  17:40      || Sea-Tac, United      || Sat, 11:30 PM       || Sea-Tac, Continental || ||
 || Tom Judson         || Wed, 8:30 PM    || Sea-Tac, Delta       || Sat, 11:30 PM       || Sea-Tac, Delta       || ||
 || Theron Hitchman    || Wed, 9:15 PM    || Sea-Tac, Delta       || Sun, 12:34 PM       || Sea-Tac, Delta       || ||
@@ -52,7 +52,7 @@ These are the '''nights''' folks require lodging.  Dates are placeholders and wi
 || Dan Drake          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Theron Hitchman    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || John Perry         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| Jane Long          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
+|| Jane Long          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Michael Pearson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Wai Yan Pong       ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || David Perkinson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Dates not confirmed ||
