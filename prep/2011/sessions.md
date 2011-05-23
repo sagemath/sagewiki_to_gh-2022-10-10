@@ -34,16 +34,16 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
     * Resources (Jason, 25 min)
       * [[http://ask.sagemath.org|ask.sagemath.org]]
       * Google Groups
-        * sage-support
-        * sage-edu
-        * sage-devel
+        * [[http://groups.google.com/group/sage-support|sage-support]]
+        * [[http://groups.google.com/group/sage-edu|sage-edu]]
+        * [[http://groups.google.com/group/sage-devel|sage-edu]]
       * MAA list (versus Google Groups)
-      * Sage wiki (Interacts, Quickrefs)
-      * www.sagemath.org
+      * [[http://wiki.sagemath.org/|Sage wiki]] (Interacts, Quickrefs)
+      * [[http://www.sagemath.org|www.sagemath.org]]
         * Link 1
         * Link 2
         * Link 3
-      * www.sagenb.org published worksheets
+      * [[http://www.sagenb.org|www.sagenb.org]] ([[http://sagenb.org/pub/|published worksheets]])
       * Reference manual (stand-alone PDF, HTML)
       * Questions
     * Questions (Jason, 10 min)
