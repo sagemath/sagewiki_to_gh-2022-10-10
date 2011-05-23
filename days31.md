@@ -34,6 +34,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * [[http://www.pps.k12.or.us/departments/data-analysis/|Shawn Helm]] (Portland Public Schools)
  * Keshav Kini (Singapore)
  * [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
+ * Galen Knapp (University of Washington CS undergrad)
  * Sébastien Labbé (Montréal)
  * Benjamin LeVeque (Brown University) -- doesn't require lodging
  * Andrey Novoseltsev (University of Alberta)
