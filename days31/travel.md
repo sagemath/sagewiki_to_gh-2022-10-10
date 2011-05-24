@@ -7,7 +7,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Notes||
 || Jsaon Grout        || Sat, 10:20 PM   || Sea-Tac, American    || Mon, 11:00 AM       || Sea-Tac, Delta       || ||
 || John Travis        || Sat, 9:05 PM    || Sea-Tac, Delta       || Sun, 6:00 AM        || Sea-Tac, Delta       || no plans for rides to/from airport yet||
-|| Rado Kirov         || Sun, 9:37 AM    || Sea-Tac              ||                     || Sea-Tac              || ||
+|| Rado Kirov         || Sun, 9:37 AM    || Sea-Tac              || June 24             || Sea-Tac              || ||
 || Michael Gage       || Sun, 11:35 (AM?)|| Sea-Tac, Delta       || Fri,  9:55 PM       || Sea-Tac, Delta       || ||
 || Zafeirakis Zafeirakopoulos|| Sun, 13:11|| Sea-Tac, UA 322       || Sun,11:30 AM      || Sea-Tac, UA 876       || ||
 || Jonathan Gutow     || Sun, 2:54 PM    || Sea-Tac, Alaska      || Fri, 11:19 PM       || Sea-Tac, Delta       || was planning on train and bus to/from airport but will share ride ||
@@ -40,8 +40,8 @@ These are the '''nights''' folks require lodging.  Dates are placeholders and wi
 || Jonathan Gutow     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Davide Cervone     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || Not confirmed ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
-|| Rado Kirov         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Extra week for REU ||
-|| Jason Grout        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Sunday, too||
+|| Rado Kirov         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Depart June 24 ||
+|| Jason Grout        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || plus: Sun 19 ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || John Travis        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Jason B. Hill      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
