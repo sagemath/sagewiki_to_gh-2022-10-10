@@ -18,7 +18,7 @@ PEOPLE: Franco Saliola, CoryBrunson
 
 == Try out Nathann Cohen new interface to Mixed Integer Linear Programming software ==
 
-PEOPLE Nicolas Thiéry
+PEOPLE: Nicolas Thiéry
 
 == Bug squashing! ==
 
@@ -76,8 +76,8 @@ People: AlainLascoux
 
 == Module for generate integer list up to the action of a permutation group ==
 
- * Integrate a method in the gap interface to get an element in a gap record : [[http://trac.sagemath.org/sage_trac/ticket/6620]]
- * Add transversals, orbit and stabilizer methods for permutation groups : [[http://trac.sagemath.org/sage_trac/ticket/6647]]
+ * Integrate a method in the gap interface to get an element in a gap record : [[http://trac.sagemath.org/sage_trac/ticket/6620|#6620]]
+ * Add transversals, orbit and stabilizer methods for permutation groups : [[http://trac.sagemath.org/sage_trac/ticket/6647|#6647]]
  * Implement or port a StabilizerChain in Sage
  * Finalise the module of generation and submit it
 
@@ -93,11 +93,11 @@ People: Flavia Stan, Burcin Erocal
 
  - Standardize TransitiveIdeal TransitiveIdealGraded, SearchForest, ...
 
-   [[http://sagetrac.org/sage_trac/ticket/6637]]
+   [[http://trac.sagemath.org/sage_trac/ticket/6637|#6637]]
 
  - Choose and implement a syntax to import standard notations from a Parent (from SymmetricFunctions(QQ).shortcuts() import *) ==
 
-   [[http://trac.sagemath.org/sage_trac/ticket/6638]]
+   [[http://trac.sagemath.org/sage_trac/ticket/6638|#6638]]
 
  - Choose syntax and semantic conventions for permutations and discrete functions
 
