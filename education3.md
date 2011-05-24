@@ -95,13 +95,14 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
 ||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || ||
 || 10:00 AM || Number Theory             || Karl-Dieter Crisman, Gordon College || ||
-|| 11:00 AM || SageTeX                   || Dan Drake, KAIST, Korea || ||
+|| 10:45 AM || Lab Manual                || Ryan Grout, Brigham Young University|| ||
+|| 11:15 AM || SageTeX                   || Dan Drake, KAIST, Korea || ||
 ||       PM || UTMOST Test-Sites Meeting ||  || ||
 ||  5:30 PM || Status Reports            ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
 ||  9:00 AM || Linear Algebra            || Rob Beezer, U of Puget Sound || ||
 || 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || ||
-|| 11:00 AM || Interact Design           || Open Mic, MC: Jason Grout, Drake U || ||
+|| 11:00 AM || Interact Design           || Open Mic, MC Jason Grout || ||
 ||       PM || UTMOST Staff Meeting      || || ||
 ||  5:30 PM || Status Reports, Wrap-Up   || || ||
 
