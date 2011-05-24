@@ -1,6 +1,6 @@
 == Specifications for the abstract ring of multivariate polynomials, with several bases ==
 
-Ticket [[http://sagetrac.org/sage_trac/ticket/6629|6629]]
+Ticket [[http://trac.sagemath.org/sage_trac/ticket/6629|6629]]
 
 First micro draft
 {{{
