@@ -73,6 +73,7 @@ There will likely also be some group discussion/sharing time on effective ideas 
   * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links")]]
   * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
   * [[http://www.cython.org/|Sage's Python to C translator]]
+  * [[http://wiki.sagemath.org/SageServer|Setting up a Sage server]]
 
 
 == Office Hours ==
