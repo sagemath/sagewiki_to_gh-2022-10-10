@@ -74,6 +74,7 @@ There will likely also be some group discussion/sharing time on effective ideas 
   * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
   * [[http://www.cython.org/|Sage's Python to C translator]]
   * [[http://wiki.sagemath.org/SageServer|Setting up a Sage server]]
+  * [[http://www.rstudio.org/|R Studio]] (not Sage, but an R interface)
 
 
 == Office Hours ==
