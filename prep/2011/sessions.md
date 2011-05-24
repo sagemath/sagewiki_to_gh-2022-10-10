@@ -25,9 +25,12 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
     * Short Break
     * Questions (Jason, 20 min)
     * Technology in the Classroom roundtable (Jason, 20 min)
+[[prep/2011/sessions|separate page]]
        * How have you used math software in the classroom?
+       * What is your goal in using math software in class?
        * How much should students interact with the software? (Labs? In-class demonstrations?  Homework? Tests?)
        * How do you grade technology assignments?
+       * How do you adjust your teaching style when students are expected to use math software?
 
 === Session II - Sage Community ===
     * Welcome Back (Jason, 5 min)
