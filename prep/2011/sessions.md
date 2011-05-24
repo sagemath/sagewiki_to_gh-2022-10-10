@@ -75,6 +75,7 @@ There will likely also be some group discussion/sharing time on effective ideas 
   * [[http://www.cython.org/|Sage's Python to C translator]]
   * [[http://wiki.sagemath.org/SageServer|Setting up a Sage server]]
   * [[http://www.rstudio.org/|R Studio]] (not Sage, but an R interface)
+  * [[http://mirror.unl.edu/ctan/help/Catalogue/entries/sagetex.html|SageTeX]]
 
 
 == Office Hours ==
