@@ -80,6 +80,9 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://wiki.sagemath.org/sage-mode|Sage mode in Emacs]]
   * [[http://www.sagemath.org/download-windows.html|Sage on Windows]]
   * [[http://sage.maa.org/home/kcrisman/7|The worksheet shared with everybody]]
+  * Worksheet showing interact creation
+  * Worksheet describing plotting symbolic expressions and functions
+  * Other worksheets explaining questions
  
 == Office Hours ==
 
@@ -97,7 +100,7 @@ Office Hours are TBA, but the format will look like this.
 == Homework ==
 
   * For Tuesday, June 7th
-    * Try the calculus tutorial (link TBD).
+    * Try the [[http://sage.maa.org/home/pub/7|calculus tutorial]]!
     * Make a new worksheet where you explore some subject you care about.
       * This is a nice way to try the help facilities.
     * Email the MAA PREP list with at least one question.
