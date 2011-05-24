@@ -82,6 +82,7 @@ There will likely also be some group discussion/sharing time on effective ideas 
   * [[http://www.sagemath.org/doc/reference/sage/interfaces/magma.html|Magma and Sage interface]]
   * [[http://wiki.sagemath.org/sage-mode|Sage mode in Emacs]]
   * [[http://www.sagemath.org/download-windows.html|Sage on Windows]]
+  * [[http://sage.maa.org/home/kcrisman/7|The worksheet shared with everybody]]
  
 == Office Hours ==
 
