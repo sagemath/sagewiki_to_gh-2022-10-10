@@ -33,6 +33,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
     * Welcome Back (Jason, 5 min)
     * Resources (Jason, 25 min)
       * [[http://ask.sagemath.org|ask.sagemath.org]]
+      * Help in the notebook
       * Google Groups
         * [[http://groups.google.com/group/sage-support|sage-support]]
         * [[http://groups.google.com/group/sage-edu|sage-edu]]
@@ -42,11 +43,11 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
         * [[http://wiki.sagemath.org/quickref|Sage Quick Reference (Wiki)]]
         * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
       * [[http://www.sagemath.org|www.sagemath.org]]
+        * [[http://sagemath.org/help.html|Reference Material]]
         * [[http://www.sagemath.org/doc/reference/|Sage Reference (standalone)]]
         * [[http://www.sagemath.org/doc/tutorial/|Sage Tutorial (standalone)]]
         * [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html?sagenb.notebook.interact.interact#sagenb.notebook.interact.interact|Interact Construction Documentation]]
       * [[http://www.sagenb.org|www.sagenb.org]] ([[http://sagenb.org/pub/|published worksheets]])
-      * Reference manual (stand-alone PDF, HTML)
       * Questions
     * Questions (Jason, 10 min)
     * Short Break
