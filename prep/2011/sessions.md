@@ -55,8 +55,8 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Symbolic Expressions
       * Basics of Two-Dimensional Plotting 
       * Basics of Three-Dimensional Plotting 
-    * Questions (Karl-Dieter, 10 min)
-    * Interacts (Jason Grout, 10 min)
+    * Questions (Karl-Dieter, 15 min)
+    * Interacts (Jason Grout, 15 min)
     * Homework (Karl-Dieter, 10 min) 
       * Preparation for next sessions 
       * Pre-Workshop Survey for MAA?
