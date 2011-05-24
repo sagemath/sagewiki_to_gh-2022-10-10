@@ -97,4 +97,9 @@ Office Hours are TBA, but the format will look like this.
 == Homework ==
 
   * For Tuesday, June 7th
-    * TBA, probably including trying the calculus tutorial
+    * Try the calculus tutorial (link TBD).
+    * Make a new worksheet where you explore some subject you care about.
+      * This is a nice way to try the help facilities.
+    * Email the MAA PREP list with at least one question.
+      * This could include starting a discussion about pedagogy!
+    * If you would like, suggest topics for the next session.
