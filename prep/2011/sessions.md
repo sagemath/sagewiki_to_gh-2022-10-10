@@ -30,6 +30,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
        * How much should students interact with the software? (Labs? In-class demonstrations?  Homework? Tests?)
        * How do you grade technology assignments?
        * How do you adjust your teaching style when students are expected to use math software?
+       * [[attachment:FirstRoundTableNotes.rtf|Notes from the discussion]]
 
 === Session II - Sage Community ===
     * Welcome Back (Jason, 5 min)
