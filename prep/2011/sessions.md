@@ -39,10 +39,12 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
         * [[http://groups.google.com/group/sage-devel|sage-edu]]
       * MAA list (versus Google Groups)
       * [[http://wiki.sagemath.org/|Sage wiki]] (Interacts, Quickrefs)
+        * [[http://wiki.sagemath.org/quickref|Sage Quick Reference (Wiki)]]
+        * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
       * [[http://www.sagemath.org|www.sagemath.org]]
-        * Link 1
-        * Link 2
-        * Link 3
+        * [[http://www.sagemath.org/doc/reference/|Sage Reference (standalone)]]
+        * [[http://www.sagemath.org/doc/tutorial/|Sage Tutorial (standalone)]]
+        * [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html?sagenb.notebook.interact.interact#sagenb.notebook.interact.interact|Interact Construction Documentation]]
       * [[http://www.sagenb.org|www.sagenb.org]] ([[http://sagenb.org/pub/|published worksheets]])
       * Reference manual (stand-alone PDF, HTML)
       * Questions
@@ -64,11 +66,6 @@ There will likely also be some group discussion/sharing time on effective ideas 
 
 === Session Links ===
 
-  * [[http://www.sagemath.org/doc/reference/|Sage Reference (standalone)]]
-  * [[http://www.sagemath.org/doc/tutorial/|Sage Tutorial (standalone)]]
-  * [[http://wiki.sagemath.org/quickref|Sage Quick Reference (Wiki)]]
-  * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
-  * [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html?sagenb.notebook.interact.interact#sagenb.notebook.interact.interact|Interact Construction Documentation]]
   * [[http://www.math.usm.edu/perry/|John Perry's Mathematical Computing Course]]
   * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links")]]
   * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
