@@ -308,7 +308,7 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * ANSWER: The most likely cause is enabled power management. Disabling it should fix the problem. Depending on your flavor of distribution, this might either be possible with some nice GUI tool or not. On the command line do the following as {{{root}}} for each CPU you have: {{{/usr/bin/cpufreq-selector -g performance -c #number CPU}}}. On Ubuntu try disabling "Power Manager" via "System --> Preferences --> Sessions" under the "Startup Programs" or using {{{cpufreq-set}}} via command line.
 ----------
  * QUESTION: Sage fails with the error message {{{restore segment prot after reloc: Permission denied}}}. What is wrong?
- * ANSWER: The problem is related to SELinux: http://www.ittvis.com/services/techtip.asp?ttid=3092. We are currently tracking this issue at http://www.sagetrac.org/sage_trac/ticket/480.
+ * ANSWER: The problem is related to SELinux: http://www.ittvis.com/services/techtip.asp?ttid=3092. We are currently tracking this issue at http://trac.sagemath.org/sage_trac/ticket/480.
 ----------
  * QUESTION: When I start Sage, SELinux complains that '/path/to/libpari-gmp.so.2' requires text-relocation.  How can I fix it?
  * ANSWER: The problem can be fixed by running the following command "chcon -t textrel_shlib_t /path/to/libpari-gmp.so.2"
@@ -317,7 +317,7 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * ANSWER: Try doing {{{sage: hg_scripts.merge()}}} followed by {{{sage: hg_scripts.commit()}}}. As an alternative, you can simply try {{{hg_scripts.pull()}}}.
 ----------
  * QUESTION: How do I run sage in daemon mode, i.e. as a service?
- * ANSWER: We currently do not have a ready-to-go solution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://www.sagetrac.org/sage_trac/ticket/381 - so stay tuned.
+ * ANSWER: We currently do not have a ready-to-go solution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://trac.sagemath.org/sage_trac/ticket/381 - so stay tuned.
 ----------
  * QUESTION: I just downloaded version 2.8.15 for Mac OSX and tried to run notebook() and dyld is unable to load libintl.3.dylib.  I don't have a libintl.3.dylib in {{{usr/local/lib}}} and I didn't find it in {{{$SAGE_ROOT/local/lib}}}. Is there a workaround?
  * ANSWER:  Yes, put the libintl3.dylib from http://sagemath.org/SAGEbin/apple_osx/intel/10.4-extra_files/ {{{in SAGE_ROOT/local/lib/}}}. Sage 2.8.15 and later contain a copy of the library, so please let us know if you experience the problem with any later release.
