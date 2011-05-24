@@ -211,7 +211,7 @@ This project would have two steps, the first would be a major optimization for P
 
 === Development Process ===
 
-The Sage development process ([[http://www.sagemath.org/doc/developer/index.html|detailed here]]) involves posting patches on our [[http://sagetrac.org|trac server]], getting them reviewed, and then merged into our source code. Then the code is compiled and tested. Right now, many of these steps are done manually and could be automated and improved. Possible ideas for projects in this area would involve:
+The Sage development process ([[http://www.sagemath.org/doc/developer/index.html|detailed here]]) involves posting patches on our [[http://trac.sagemath.org|trac server]], getting them reviewed, and then merged into our source code. Then the code is compiled and tested. Right now, many of these steps are done manually and could be automated and improved. Possible ideas for projects in this area would involve:
 
  * setting up a buildbot with trac integration for tickets with patches (list failing doctests, ...)
  * set up a code review system like [[http://code.google.com/p/rietveld/|Rietveld]].
