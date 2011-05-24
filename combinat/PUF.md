@@ -429,11 +429,11 @@ All the code is shared via a public mercurial patch queue server
 (http://combinat.sagemath.org/patches), and is immediately available
 as open source. Stable patches are integrated into Sage after a formal
 review process, and can be monitored via the Sage trac server
-(http://sagetrac.org/sage_trac/).
+(http://trac.sagemath.org/).
 
 The overall development progress and the induced publications will be
 tracked on the Sage-Combinat Wiki
-(http://combinat.sagemath.org/).
+(http://wiki.sagemath.org/combinat).
 
 
 7 / ADDITIONAL INFORMATION (for joint research projects only)
