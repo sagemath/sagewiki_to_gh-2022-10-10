@@ -76,7 +76,8 @@ There will likely also be some group discussion/sharing time on effective ideas 
   * [[http://wiki.sagemath.org/SageServer|Setting up a Sage server]]
   * [[http://www.rstudio.org/|R Studio]] (not Sage, but an R interface)
   * [[http://mirror.unl.edu/ctan/help/Catalogue/entries/sagetex.html|SageTeX]]
-
+  * [[https://bitbucket.org/rbeezer/tex2sws/|tex2sws for making LaTeX become Sage Worksheets]]
+  * [[https://bitbucket.org/whuss/sws2tex/|sws2tex for making nicely typeset output from Sage Worksheets]]
 
 == Office Hours ==
 
