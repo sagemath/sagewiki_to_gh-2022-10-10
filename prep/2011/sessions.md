@@ -65,8 +65,6 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Office Hours 
       * June Sessions
 
-There will likely also be some group discussion/sharing time on effective ideas for use of computer software, especially via the Internet.
-
 === Session Links ===
 
   * [[http://www.math.usm.edu/perry/old_classes/mat305fa09/index.html|John Perry's Mathematical Computing Course]]
