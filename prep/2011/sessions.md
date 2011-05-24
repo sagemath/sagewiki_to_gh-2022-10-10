@@ -50,14 +50,13 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
         * [[http://wiki.sagemath.org/quickref|Sage Quick Reference (Wiki)]]
         * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
       * [[http://www.sagenb.org|www.sagenb.org]] ([[http://sagenb.org/pub/|published worksheets]])
-      * Questions
-    * Questions (Jason, 10 min)
     * Short Break
     * Review "Sage Tutorial for Symbolics and Plotting" (Karl-Dieter, 40 min)
       * Symbolic Expressions
       * Basics of Two-Dimensional Plotting 
       * Basics of Three-Dimensional Plotting 
-    * Questions (Karl-Dieter, 15 min)
+    * Questions (Karl-Dieter, 10 min)
+    * Interacts (Jason Grout, 10 min)
     * Homework (Karl-Dieter, 10 min) 
       * Preparation for next sessions 
       * Pre-Workshop Survey for MAA?
