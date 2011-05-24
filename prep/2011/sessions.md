@@ -37,7 +37,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
     * Resources (Jason, 25 min)
       * [[http://ask.sagemath.org|ask.sagemath.org]]
       * Help in the notebook
-      * Google Groups
+      * [[http://sagemath.org/development.html#mailingList|Google Groups]]
         * [[http://groups.google.com/group/sage-support|sage-support]]
         * [[http://groups.google.com/group/sage-edu|sage-edu]]
         * [[http://groups.google.com/group/sage-devel|sage-edu]]
