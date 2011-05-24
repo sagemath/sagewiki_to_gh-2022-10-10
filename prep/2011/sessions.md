@@ -80,6 +80,7 @@ There will likely also be some group discussion/sharing time on effective ideas 
   * [[https://bitbucket.org/whuss/sws2tex/|sws2tex for making nicely typeset output from Sage Worksheets]]
   * [[http://www.sagemath.org/doc/reference/sage/interfaces/magma.html|Magma and Sage interface]]
   * [[http://wiki.sagemath.org/sage-mode|Sage mode in Emacs]]
+  * [[http://www.sagemath.org/download-windows.html|Sage on Windows]]
  
 == Office Hours ==
 
