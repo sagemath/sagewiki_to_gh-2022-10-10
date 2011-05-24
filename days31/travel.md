@@ -27,7 +27,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Tom Judson         || Wed, 8:30 PM    || Sea-Tac, Delta       || Sat, 11:30 PM       || Sea-Tac, Delta       || no plans to/from airport ||
 || Theron Hitchman    || Wed, 9:15 PM    || Sea-Tac, Delta       || Sun, 12:34 PM       || Sea-Tac, Delta       || ||
 || John Perry         || Wed, 10:58 PM   || Sea-Tac              || Sun,  4:04 PM       || Sea-Tac              || ||
-|| Kiran Kedlaya      || Thu, 11:10 AM   || Sea-Tac              || Sat,  6:00 PM       || Sea-Tac              || ||
+|| Kiran Kedlaya      || Thu, 11:10 AM   || Sea-Tac, Alaska      || Sat,  6:00 PM       || Sea-Tac, Delta       || probably light rail/bus ||
 
 
 == Lodging ==
