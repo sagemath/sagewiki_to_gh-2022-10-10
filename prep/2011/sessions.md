@@ -66,7 +66,7 @@ There will likely also be some group discussion/sharing time on effective ideas 
 
 === Session Links ===
 
-  * [[http://www.math.usm.edu/perry/|John Perry's Mathematical Computing Course]]
+  * [[http://www.math.usm.edu/perry/old_classes/mat305fa09/index.html|John Perry's Mathematical Computing Course]]
   * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links")]]
   * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
   * [[http://www.cython.org/|Sage's Python to C translator]]
