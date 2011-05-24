@@ -5,10 +5,11 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Notes||
+|| Jsaon Grout        || Sat, 10:20 PM   || Sea-Tac, American    || Mon, 11:00 AM       || Sea-Tac, Delta       || ||
 || John Travis        || Sat, 9:05 PM    || Sea-Tac, Delta       || Sun, 6:00 AM        || Sea-Tac, Delta       || no plans for rides to/from airport yet||
 || Rado Kirov         || Sun, 9:37 AM    || Sea-Tac              ||                     || Sea-Tac              || ||
 || Michael Gage       || Sun, 11:35 (AM?)|| Sea-Tac, Delta       || Fri,  9:55 PM       || Sea-Tac, Delta       || ||
-|| Zafeirakis Zafeirakopoulos       || Sun, 13:11 || Sea-Tac, UA 322       || Sun,11:30 AM      || Sea-Tac, UA 876       || ||
+|| Zafeirakis Zafeirakopoulos|| Sun, 13:11|| Sea-Tac, UA 322       || Sun,11:30 AM      || Sea-Tac, UA 876       || ||
 || Jonathan Gutow     || Sun, 2:54 PM    || Sea-Tac, Alaska      || Fri, 11:19 PM       || Sea-Tac, Delta       || was planning on train and bus to/from airport but will share ride ||
 || Mike Hansen        || Sun, 4:35 PM    || Sea-Tac, Virgin      || Fri, 3:30 PM        || Sea-Tac, Virgin      || light rail / bus ||
 || Andrey Novoseltsev || Sun, 5:33 PM    || Sea-Tac, United      || Sat, 9:45 AM        || Sea-Tac, Alaska      || ||
@@ -32,29 +33,51 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 
 These are the '''nights''' folks require lodging.  Dates are placeholders and will be converted to rooms as soon as everybody sends their infomation.
 
+|||||||||||||||||||| Collegiana  ||
 ||<rowstyle="background-color: #E0E0FF;">Name|| Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Notes ||
-|| John Travis        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Mike Hansen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
-|| Davide Cervone     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || Not confirmed ||
-|| Michael Gage       ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Jonathan Gutow     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
+|| Davide Cervone     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || Not confirmed ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Rado Kirov         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Extra week for REU ||
+|| Jason Grout        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Sunday, too||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| John Travis        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
+|| Jason B. Hill      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Karl-Dieter Crisman||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Ryan Grout         ||        ||        || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
+|| Keshav Kini        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
+|| Bruce Cohen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || Not confirmed ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Volker Braun       ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Andrey Novoseltsev ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Keshav Kini        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
+|| Sebastien Labbe    ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || Dates unknown ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Zafeirakis Zafeirakopoulos|| || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
+|| Burcin Erocal      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
+
+
+|||||||||||||||||||| Hotel Deca  ||
+||<rowstyle="background-color: #E0E0FF;">Name|| Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Notes ||
+|| Michael Gage       ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
+|| Jason Aubrey       ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || Dates not confirmed ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Rob Beezer         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Rado Kirov         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Extra week for REU ||
-|| Zafeirakis Zafeirakopoulos         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18   || ||
-|| Jason B. Hill      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18   || ||
-|| Burcin Erocal      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18   || ||
-|| Ryan Grout         ||        ||        || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Tom Judson         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Rao Potluri        ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Dates not confirmed ||
 || Dan Drake          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Theron Hitchman    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || John Perry         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| Jane Long          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Michael Pearson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| Wai Yan Pong       ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| David Perkinson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Dates not confirmed ||
-|| Rao Potluri        ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Dates not confirmed ||
-|| Kiran Kedlaya      ||        ||        ||        ||        ||        || Thu 16 || Fri 17 ||        || ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| David Perkinson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Single, Dates not confirmed ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Jane Long          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || Single ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Michael Pearson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Single ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Wai Yan Pong       ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Single ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Kiran Kedlaya      ||        ||        ||        ||        ||        || Thu 16 || Fri 17 ||        || Single ||
