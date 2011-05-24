@@ -78,7 +78,9 @@ There will likely also be some group discussion/sharing time on effective ideas 
   * [[http://mirror.unl.edu/ctan/help/Catalogue/entries/sagetex.html|SageTeX]]
   * [[https://bitbucket.org/rbeezer/tex2sws/|tex2sws for making LaTeX become Sage Worksheets]]
   * [[https://bitbucket.org/whuss/sws2tex/|sws2tex for making nicely typeset output from Sage Worksheets]]
-
+  * [[http://www.sagemath.org/doc/reference/sage/interfaces/magma.html|Magma and Sage interface]]
+  * [[http://wiki.sagemath.org/sage-mode|Sage mode in Emacs]]
+ 
 == Office Hours ==
 
 Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2011/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
