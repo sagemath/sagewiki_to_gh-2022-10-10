@@ -59,7 +59,8 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
     * Interacts (Jason Grout, 15 min)
     * Homework (Karl-Dieter, 10 min) 
       * Preparation for next sessions 
-      * Pre-Workshop Survey for MAA?
+      * Next Tutorial(s)
+      * Pre-Workshop Survey for MAA
     * Announcements (Jason, 5 min)
       * Office Hours 
       * June Sessions
