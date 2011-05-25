@@ -2,7 +2,7 @@
 
 I keep thinking of good ideas for projects for the summer REU involving elliptic curves.  Thus I'll start listing them here.  -- William
 
-  * Create a SQLite version of Cremona's tables of elliptic curves.  Make indexes and have it be very easy to query.  Have it replace the current Cremona database in Sage.
+  * Create a SQLite version of [[http://www.warwick.ac.uk/~masgaj/ftp/data/|Cremona's tables of elliptic curves]].  Make indexes and have it be very easy to query.  Have it replace the current Cremona database in Sage.
 
   * Work out the details of the analogue of the *statement* of the Gross-Zagier formula for elliptic curves over Q(sqrt(5)).  Use this to give an algorithm to compute the height of Heegner points, hence their index $[E(K): Z y_K]$ in the full group of rational points.
 
