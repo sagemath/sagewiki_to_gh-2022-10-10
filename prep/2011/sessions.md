@@ -90,8 +90,6 @@ Please connect as usual in Elluminate, and give the organizer a minute or two to
 
 And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
 
-Office Hours are TBA, but the format will look like this.
-
  * Between introductory session and intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || Monday, 30 May || 8-10AM|| 11AM-1PM || Jason Grout ||
