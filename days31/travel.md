@@ -9,10 +9,10 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || John Travis        || Sat, 9:05 PM    || Sea-Tac, Delta       || Sun, 6:00 AM        || Sea-Tac, Delta       || no plans for rides to/from airport yet||
 || Rado Kirov         || Sun, 9:37 AM    || Sea-Tac              || June 24             || Sea-Tac              || ||
 || Michael Gage       || Sun, 11:35 (AM?)|| Sea-Tac, Delta       || Fri,  9:55 PM       || Sea-Tac, Delta       || ||
-|| Zafeirakis Zafeirakopoulos|| Sun, 13:11|| Sea-Tac, UA 322       || Sun,11:30 AM      || Sea-Tac, UA 876       || ||
+|| Zafeirakis Zafeirakopoulos|| Sun, 13:11|| Sea-Tac, UA 322       || Sun,11:30 AM      || Sea-Tac, UA 876      || ||
 || Jonathan Gutow     || Sun, 2:54 PM    || Sea-Tac, Alaska      || Fri, 11:19 PM       || Sea-Tac, Delta       || was planning on train and bus to/from airport but will share ride ||
 || Mike Hansen        || Sun, 4:35 PM    || Sea-Tac, Virgin      || Fri, 3:30 PM        || Sea-Tac, Virgin      || light rail / bus ||
-|| Bruce Cohen        || Sun, 4:35 PM    || Sea-Tac, Virgin      || Fri, ~3 PM          || Car      || Mike: I'm up for sharing a ride ||
+|| Bruce Cohen        || Sun, 4:35 PM    || Sea-Tac, Virgin      || Fri, ~3 PM          || Car                  || Mike: I'm up for sharing a ride ||
 || Andrey Novoseltsev || Sun, 5:33 PM    || Sea-Tac, United      || Sat, 9:45 AM        || Sea-Tac, Alaska      || ||
 || Jason Aubrey       || Sun, 7:33 PM    || Sea-Tac, US Air      || Sat, 7:14 AM        || Sea-Tac, United      || ||
 || Burcin Erocal      || Sun, 8:58 PM    || Sea-Tac, US74        || Sun, 11:15 AM       || Sea-Tac, US67        || ||
@@ -24,6 +24,8 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Wai Yan Pong       || Wed, 9:51 AM    || Sea-Tac, Jet Blue    || Sun,  2:50 PM       || Sea-Tac, Jet Blue    || ||
 || Michael Pearson    || Wed, 12:55 PM   || Sea-Tac, Southwest   || Sun, 11:00 AM       || Sea-Tac, Southwest   || ||
 || Jane Long          || Wed, 2:20 PM    || Sea-Tac, Continental || Sun, 12:55 AM       || Sea-Tac, Continental || no plans for rides to/from airport yet ||
+|| David Perkinson    || Wed, 3:45 PM    || Train                || Sun, 11:25 AM       || Train                || taxi from Amtrak station ||
+|| Rao Potluri        || Wed, 3:45 PM    || Train                || Sun, 11:25 AM       || Train                || taxi from Amtrak station ||
 || Dan Drake          || Wed  17:40      || Sea-Tac, United      || Sat, 11:30 PM       || Sea-Tac, Continental || ||
 || Tom Judson         || Wed, 8:30 PM    || Sea-Tac, Delta       || Sat, 11:30 PM       || Sea-Tac, Delta       || no plans to/from airport ||
 || Theron Hitchman    || Wed, 9:15 PM    || Sea-Tac, Delta       || Sun, 12:34 PM       || Sea-Tac, Delta       || ||
@@ -33,7 +35,9 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 
 == Lodging ==
 
-These are the '''nights''' folks require lodging.  Dates are placeholders and will be converted to rooms as soon as everybody sends their infomation.
+These are the '''nights''' folks require lodging.  Dates are placeholders and will be converted to rooms as soon as everybody sends their information.
+
+Please do not edit this section.
 
 |||||||||||||||||||| Collegiana  ||
 ||<rowstyle="background-color: #E0E0FF;">Name|| Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Notes ||
@@ -50,7 +54,7 @@ These are the '''nights''' folks require lodging.  Dates are placeholders and wi
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Ryan Grout         ||        ||        || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Keshav Kini        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Bruce Cohen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || Not confirmed ||
+|| Bruce Cohen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Volker Braun       ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Andrey Novoseltsev ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
@@ -68,13 +72,13 @@ These are the '''nights''' folks require lodging.  Dates are placeholders and wi
 || Rob Beezer         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Tom Judson         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
-|| Rao Potluri        ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Dates not confirmed ||
+|| Rao Potluri        ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Dan Drake          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Theron Hitchman    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || John Perry         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
-|| David Perkinson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Single, Dates not confirmed ||
+|| David Perkinson    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Single ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Jane Long          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || Single ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
