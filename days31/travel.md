@@ -5,7 +5,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Notes||
-|| Jsaon Grout        || Sat, 10:20 PM   || Sea-Tac, American    || Mon, 11:00 AM       || Sea-Tac, Delta       || ||
+|| Jason Grout        || Sat, 10:20 PM   || Sea-Tac, American    || Mon, 11:00 AM       || Sea-Tac, Delta       || ||
 || John Travis        || Sat, 9:05 PM    || Sea-Tac, Delta       || Sun, 6:00 AM        || Sea-Tac, Delta       || no plans for rides to/from airport yet||
 || Rado Kirov         || Sun, 9:37 AM    || Sea-Tac              || June 24             || Sea-Tac              || ||
 || Michael Gage       || Sun, 11:35 (AM?)|| Sea-Tac, Delta       || Fri,  9:55 PM       || Sea-Tac, Delta       || ||
