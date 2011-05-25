@@ -12,6 +12,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Zafeirakis Zafeirakopoulos|| Sun, 13:11|| Sea-Tac, UA 322       || Sun,11:30 AM      || Sea-Tac, UA 876       || ||
 || Jonathan Gutow     || Sun, 2:54 PM    || Sea-Tac, Alaska      || Fri, 11:19 PM       || Sea-Tac, Delta       || was planning on train and bus to/from airport but will share ride ||
 || Mike Hansen        || Sun, 4:35 PM    || Sea-Tac, Virgin      || Fri, 3:30 PM        || Sea-Tac, Virgin      || light rail / bus ||
+|| Bruce Cohen        || Sun, 4:35 PM    || Sea-Tac, Virgin      || Fri, ~3 PM          || Car      || Mike: I'm up for sharing a ride ||
 || Andrey Novoseltsev || Sun, 5:33 PM    || Sea-Tac, United      || Sat, 9:45 AM        || Sea-Tac, Alaska      || ||
 || Jason Aubrey       || Sun, 7:33 PM    || Sea-Tac, US Air      || Sat, 7:14 AM        || Sea-Tac, United      || ||
 || Burcin Erocal      || Sun, 8:58 PM    || Sea-Tac, US74        || Sun, 11:15 AM       || Sea-Tac, US67        || ||
