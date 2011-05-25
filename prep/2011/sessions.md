@@ -94,7 +94,8 @@ Office Hours are TBA, but the format will look like this.
 
  * Between introductory session and intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Sam, xx May || x:yzA-ab:cdA|| rs:tuA-q:pgP || Jason Grout or Karl-Dieter Crisman ||
+|| Monday, 30 May || 8-10AM|| 11AM-1PM || Jason Grout ||
+|| Thursday, 02 June || 12-2PM|| 3-5PM || Jason Grout ||
 
 
 == Homework ==
