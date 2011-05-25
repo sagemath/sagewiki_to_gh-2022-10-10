@@ -2,6 +2,8 @@
 
 June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[education3|Sage Education Days 3]].
 
+<<TableOfContents>>
+
 == Topics ==
 
  * Mainly the Sage Notebook
@@ -65,3 +67,24 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * [[education3|Sage Education Days 3]] will happen at the end of the week, June 16-18, 2011.
  * Lodging will likely be arranged for the participants at the Collegiana Inn near the UW campus.  Details later.
  * See the [[uw-local-info|local information page]] for more specifics.
+
+== Tentative Schedule (subject to change) ==
+
+||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> Monday          || June 13    || || ||
+|| 10:00 AM || Introductions                 ||                                         || ||
+||          || State of the Notebook Address || Rado Kirov, Nanyang Technological U     || ||
+||          || Single-Cell Notebook Server   || Jason Grout, Drake U                    || ||
+||          || Coding Sprint Organization    || William Stein, U of Washington          || ||
+||<rowstyle="background-color: #E0E0FF;"> Tuesday         || June 14    || || ||
+|| 10:00 AM || Jmol                          || Jonathan Gutow, U of Wisconsin, Oshkosh || ||
+||          || Math Jax                      || Davide Cervone, Union College           || ||
+||          || Status Reports                ||                                         || ||
+||<rowstyle="background-color: #E0E0FF;"> Wednesday       || June 15    || || ||
+|| 10:00 AM || `WebWork`                     || Michael Gage, U of Rochester            || ||
+||          ||                               || and Jason Aubrey, U of Missouri         || ||
+||          || Status Reports                ||                                         || ||
+||<rowstyle="background-color: #E0E0FF;"> Thursday/Friday || June 16/17 || || ||
+||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
+||          || Status Reports                ||  || ||
