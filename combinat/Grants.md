@@ -17,7 +17,7 @@ This page lists some past and ongoing grant applications involving Sage-Combinat
 ----------------------------
 
 :Title: Sage-Combinat: fédérer et mutualiser le développement logiciel pour la recherche en combinatoire
-:Status: Submitted
+:Status: Failed
 :Form: attachment__ (`sources <http://combinat.sagemath.org/hgwebdir.cgi/misc/file/tip/grants/2011-03-03-PEPS-Sage-Combinat/>`_)
 :Institutions: Marne-la-vallée, Montpellier, Marseille, Polytechnique, *Orsay*, Sophia Antipolis
 :PI: Nicolas M. Thiéry
