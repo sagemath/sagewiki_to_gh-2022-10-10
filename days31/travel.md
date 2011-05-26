@@ -24,6 +24,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Wai Yan Pong       || Wed, 9:51 AM    || Sea-Tac, Jet Blue    || Sun,  2:50 PM       || Sea-Tac, Jet Blue    || ||
 || Michael Pearson    || Wed, 12:55 PM   || Sea-Tac, Southwest   || Sun, 11:00 AM       || Sea-Tac, Southwest   || ||
 || Jane Long          || Wed, 2:20 PM    || Sea-Tac, Continental || Sun, 12:55 AM       || Sea-Tac, Continental || no plans for rides to/from airport yet ||
+|| Michael Garcia     || Wed             || Sea-Tac, Virgin 744  || Sun                 || Sea-Tac, Virgin 753  || ||
 || David Perkinson    || Wed, 3:45 PM    || Train                || Sun, 11:25 AM       || Train                || taxi from Amtrak station ||
 || Rao Potluri        || Wed, 3:45 PM    || Train                || Sun, 11:25 AM       || Train                || taxi from Amtrak station ||
 || Dan Drake          || Wed  17:40      || Sea-Tac, United      || Sat, 11:30 PM       || Sea-Tac, Continental || ||
