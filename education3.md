@@ -37,7 +37,6 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * DanDrake (KAIST, South Korea)
  * Michael Garcia (San Francisco State University)
  * [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
- * Marja-Liisa Hassi (University of Colorado)
  * [[http://www.pps.k12.or.us/departments/data-analysis/|Shawn Helm]] (Portland Public Schools)
  * [[http://math.jasonbhill.com|Jason B. Hill]] (University of Colorado)
  * [[http://www.uni.edu/theron/|TJ Hitchman]] (University of Northern Iowa)
