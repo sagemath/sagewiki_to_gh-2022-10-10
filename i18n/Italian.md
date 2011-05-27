@@ -69,7 +69,7 @@ Verranno marcati i collegamenti ipertestuali contenuti nel test con la seguente 
  * (es) - per collegamenti in lingua spagnola
  * ...
 === Convenzioni sui collegamenti ipertestuali e sulla sintassi dei file rst ===
-Nel tradurre i file rst bisgona porre la massima attenzione, soprattutto da parte dei revisori, al fatto che la formattazione originale dei file .rst venga mantenuta. In particolare bisogna fare attenzione a tutti gli elementi caratteristici della formattazione dei file rst (un brevissimo elenco [[http://en.wikipedia.org/wiki/ReStructuredText|qui]]), in particolare:
+Nel tradurre i file rst bisgona porre la massima attenzione, soprattutto da parte dei revisori, al fatto che la formattazione originale dei file .rst venga mantenuta. In particolare bisogna fare attenzione a tutti gli elementi caratteristici della formattazione dei file rst (un brevissimo elenco [[http://it.wikipedia.org/wiki/ReStructuredText|qui]]), in particolare:
 
  * intestazioni
  * uso particolare degli spazi
