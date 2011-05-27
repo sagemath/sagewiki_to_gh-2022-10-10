@@ -49,12 +49,11 @@ def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)),
         
     gamma=(gamma1,gamma2)
     gammap=(gamma[0].derivative(),gamma[1].derivative())
-    normal=(gammap[1]/norma(gammap), -gammap[0]/norma(gammap))
-    gammapp=(gammap[0].derivative(),gammap[1].derivative())
-    
     np=norma(gammap)
+    gammapp=(gammap[0].derivative(),gammap[1].derivative())
     npp=norma(gammapp)
-    pe=gammap[0]*gammapp[0]+gammap[1]*gammapp[1]
+
+    normal=(gammap[1]/np, -gammap[0]/np)    
     curvatura=(gammap[1]*gammapp[0]-gammap[0]*gammapp[1])/norma(gammap)^3
     radio=1/curvatura
         
@@ -77,7 +76,8 @@ def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)),
         circulo=circle( (centros[0](t=t0), centros[1](t=t0)), radio(t=t0) )  
         grafica+=punto+circulo
 
-    show(grafica,aspect_ratio=1,xmin=-2,xmax=2,ymin=-2,ymax=2)}}}
+    show(grafica,aspect_ratio=1,xmin=-2,xmax=2,ymin=-2,ymax=2)
+}}}
 {{attachment:evoluta3.png}}
 
 
