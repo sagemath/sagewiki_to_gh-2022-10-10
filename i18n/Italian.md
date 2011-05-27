@@ -8,7 +8,7 @@ Put your name in the list here below if you're interested in translating Sage do
  * MatteoCasati AKA Cassa
  * AlessandroPezzoni
  * RobertoPanai
- * [[http://wiki.ubuntu-it.org/MarcoRofei|MarcoRofei]]
+ * MarcoRofei
 === TODO list ===
  * Translate the SAGE tutorial .rst files. - you can find the original files [[[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/|| here]]]
  * ...
