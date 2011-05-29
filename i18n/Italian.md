@@ -21,7 +21,6 @@ Gli utenti barrati hanno partecipato all'iniziativa in passato ma non sono più 
 
 Vi invito a spedire una e-mail all'utente MarcoRofei per avere indicazioni sul come e dove iniziare.
 }}}
- /!\ ''''''
 
 = Traduzioni =
 == 
