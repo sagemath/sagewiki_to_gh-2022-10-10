@@ -19,7 +19,7 @@ Gli utenti barrati hanno partecipato all'iniziativa in passato ma non sono più 
 {{{#!wiki caution
 '''Per chi fosse interessato a partecipare.'''
 
-Vi invito a spedire una e-mail all'utente MarcoRofei per avere indicazioni sul come e dove iniziare.
+Siete invitati a spedire una e-mail all'utente MarcoRofei per avere indicazioni su come e da dove iniziare.
 }}}
 
 = Traduzioni / Translations =
