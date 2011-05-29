@@ -1,4 +1,4 @@
-<<TableOfContents(2)>>
+<<TableOfContents(1)>>
 = SAGE Italian Translation =
 This page is intended as a coordination page for the Italian translation of Sage documentation.
  
@@ -18,7 +18,7 @@ Gli utenti barrati hanno partecipato all'iniziativa in passato ma non sono più 
 
  /!\ '''Se siete interessati a contribuire inviate una e-mail a MarcoRofei e aggiungete il vostro nome alla lista.'''
 -----
-= To``D0 - Lista delle cose da fare =
+== ToDo - Lista delle cose da fare ==
 === Questions? Ideas? Proposals? ===
 If you have any question or idea about this project, or about the way we should make the translation, please put a message in the '''"Questions and Discussion"''' section at the bottom of this page. You can write either in english or italian. Please, put long discussions on dedicated subpages.
 
