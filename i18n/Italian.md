@@ -31,7 +31,7 @@ Qui verranno man mano aggiunte le traduzione portate a compimento. I file tradot
    ||||||||||<tablewidth="75%"style="text-align: center;">'''Lista dei files''' / '''Files list''' ||
    ||||||||||<style="text-align: center;"> (./) Tradotto / Translated  /!\ Da revisionare / to revise  {X} Non tradotto / Not yet translated||
    ||Stato||''Nome del File'' / ''File name'' ||Traduttore / Translator||Editore / Editor ||Traduzione / Translation||
-   || /!\ ||index.rst ||MarcoRofei||MarcoRofei ||[[attachment:ATOS_index_it.rst]]||
+   || /!\ ||index.rst ||MarcoRofei||MarcoRofei ||[[i18n/Italian/a_tour_of_sage/index]]||
 -----
 = Old =
 == ToDo - Lista delle cose da fare ==
