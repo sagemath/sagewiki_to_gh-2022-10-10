@@ -1,12 +1,12 @@
 <<TableOfContents(1)>>
 = SAGE Italian Translation =
-This page is intended as a coordination page for the Italian translation of Sage documentation.
+This page is intended as a coordination page for the Italian translation of Sage documentation.<<BR>> [IT] Questa pagina è volta al coordinamento per la traduzione della documentazione di '''Sagemath''' in Italiano.
  
 Following paragraphs are in Italian language only :)
 
 = Partecipanti =
 Di seguito viene costruita una lista degli utenti interessati a contribuire alla traduzione della documentazione di '''Sagemath''' in Italiano.
-Per poter aggiungere il proprio nome è necessario creare un account nel Wi``Ki di '''Sagemath'''
+Per poter aggiungere il proprio nome è necessario creare un account nel Wi``Ki di '''Sagemath'''.
 
  * MarcoRofei
  * --(CristianConsonni AKA CristianCantoro)--
