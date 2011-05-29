@@ -44,24 +44,24 @@ Please do not edit this section.
 
 |||||||||||||||||||| Collegiana  ||
 ||<rowstyle="background-color: #E0E0FF;">Name|| Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Notes ||
+|| John Travis        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
+|| Jason B. Hill      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
+|| Keshav Kini        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Mike Hansen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
+|| Karl-Dieter Crisman||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
+|| Ryan Grout         ||        ||        || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Bruce Cohen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Jonathan Gutow     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Davide Cervone     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 ||        ||        ||        || ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Rado Kirov         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Depart June 24 ||
 || Jason Grout        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || plus: Sun 19 ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
-|| John Travis        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| Jason B. Hill      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| Karl-Dieter Crisman||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
-||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
-|| Ryan Grout         ||        ||        || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
-|| Keshav Kini        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Bruce Cohen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
-||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Volker Braun       ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Andrey Novoseltsev ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Sebastien Labbe    ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || Dates unknown ||
+|| Sebastien Labbe    ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || Sat 11 a possibility||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Zafeirakis Zafeirakopoulos|| || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Burcin Erocal      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
