@@ -1,5 +1,6 @@
 == SAGE Italian Translation ==
-This page is intended as a coordination page for the Italian translation of Sage documentation. 
+This page is intended as a coordination page for the Italian translation of Sage documentation.
+ 
 Following paragraphs are in Italian language only :)
 
 === Interested members ===
