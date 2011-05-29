@@ -1,4 +1,4 @@
-<<TableOfContents(1)>>
+<<TableOfContents(2)>>
 = SAGE Italian Translation =
 This page is intended as a coordination page for the Italian translation of Sage documentation.<<BR>> [IT] Questa pagina è volta al coordinamento per la traduzione della documentazione di '''Sagemath''' in Italiano.
  
@@ -22,8 +22,11 @@ Gli utenti barrati hanno partecipato all'iniziativa in passato ma non sono più 
 Vi invito a spedire una e-mail all'utente MarcoRofei per avere indicazioni sul come e dove iniziare.
 }}}
 
-= Traduzioni =
-== 
+= Traduzioni / Translations =
+Qui verranno man mano aggiunte le traduzione portate a compimento. I file tradotti sono relativi all'archivio `sage-4.7.tar`.
+
+ [EN] Here we will paste all translated files included in '''Sagemath''' vers. `4.7`.
+== a_tour_of_sage ==
 -----
 = Old =
 == ToDo - Lista delle cose da fare ==
