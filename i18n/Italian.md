@@ -16,7 +16,12 @@ Per poter aggiungere il proprio nome è necessario creare un account nel Wi``Ki 
 
 Gli utenti barrati hanno partecipato all'iniziativa in passato ma non sono più coinvolti attivamente.
 
- /!\ '''Se siete interessati a contribuire inviate una e-mail a MarcoRofei e aggiungete il vostro nome alla lista.'''
+{{{#!wiki caution
+'''Per chi fosse interessato a partecipare.'''
+
+Vi invito a spedire una e-mail all'utente MarcoRofei per avere indicazioni sul come e dove iniziare.
+}}}
+ /!\ ''''''
 
 = Traduzioni =
 == 
