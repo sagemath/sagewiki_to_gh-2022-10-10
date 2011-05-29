@@ -1,3 +1,3 @@
-E' possibile visionare le mie informazioni persolali presso il Wi``Ki di Ubuntu.
+E' possibile visionare le mie informazioni personali presso il Wi``Ki di ubuntu-it.org.
 
  * [[http://wiki.ubuntu-it.org/MarcoRofei|MarcoRofei]]
