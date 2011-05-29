@@ -40,7 +40,7 @@ Effettuiamo l'integrazione indefinita di una semplice funzione.
     sage: integrate(sqrt(x)*sqrt(1+x), x)
     1/4*((x + 1)^(3/2)/x^(3/2) + sqrt(x + 1)/sqrt(x))/((x + 1)^2/x^2 - 2*(x + 1)/x + 1) + 1/8*log(sqrt(x + 1)/sqrt(x) - 1) - 1/8*log(sqrt(x + 1)/sqrt(x) + 1)
 
-Risolviamo una equazione di II grado. I simbolo ``==`` rappresenta l'eguaglianza.
+Risolviamo una equazione di II grado. I simbolo ``==`` rappresenta l'uguaglianza.
 
 ::
 
@@ -48,7 +48,7 @@ Risolviamo una equazione di II grado. I simbolo ``==`` rappresenta l'eguaglianza
     sage: S = solve(x^2 + x == a, x); S
     [x == -1/2*sqrt(4*a + 1) - 1/2, x == 1/2*sqrt(4*a + 1) - 1/2]
 
-L'output fornito da Sage sarà una lista di eguaglianze.
+L'output fornito da Sage sarà una lista di uguaglianze.
 
 .. link
 
