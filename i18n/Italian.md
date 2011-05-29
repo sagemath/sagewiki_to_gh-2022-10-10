@@ -17,7 +17,11 @@ Per poter aggiungere il proprio nome è necessario creare un account nel Wi``Ki 
 Gli utenti barrati hanno partecipato all'iniziativa in passato ma non sono più coinvolti attivamente.
 
  /!\ '''Se siete interessati a contribuire inviate una e-mail a MarcoRofei e aggiungete il vostro nome alla lista.'''
+
+= Traduzioni =
+== 
 -----
+= Old =
 == ToDo - Lista delle cose da fare ==
 === Questions? Ideas? Proposals? ===
 If you have any question or idea about this project, or about the way we should make the translation, please put a message in the '''"Questions and Discussion"''' section at the bottom of this page. You can write either in english or italian. Please, put long discussions on dedicated subpages.
