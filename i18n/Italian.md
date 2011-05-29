@@ -1,11 +1,12 @@
-<<TableOfContents>>
+<<TableOfContents(2)>>
 = SAGE Italian Translation =
 This page is intended as a coordination page for the Italian translation of Sage documentation.
  
 Following paragraphs are in Italian language only :)
 
-== Interested members ===
-Put your name in the list here below if you're interested in translating Sage documentation (tutorials, web pages, help pages, etc.) in italian. If you use a different nickname on the [[http://groups.google.com/group/sage-devel|sage-devel group]], please mention it!
+= Partecipanti =
+Di seguito viene costruita una lista degli utenti interessati a contribuire alla traduzione della documentazione di '''Sagemath''' in Italiano.
+Per poter aggiungere il proprio nome è necessario creare un account nel Wi``Ki di '''Sagemath'''
 
  * MarcoRofei
  * --(CristianConsonni AKA CristianCantoro)--
@@ -13,9 +14,11 @@ Put your name in the list here below if you're interested in translating Sage do
  * --(AlessandroPezzoni)--
  * --(RobertoPanai)--
 
-=== TODO list ===
- * Translate the SAGE tutorial .rst files. - you can find the original files [[[http://sage.math.washington.edu/home/mhansen/doc-sphinx/tutorial/|| here]]]
- * ...
+Gli utenti barrati hanno partecipato all'iniziativa in passato ma non sono più coinvolti attivamente.
+
+ /!\ '''Se siete interessati a contribuire inviate una e-mail a MarcoRofei e aggiungete il vostro nome alla lista.'''
+-----
+= To``D0 - Lista delle cose da fare =
 === Questions? Ideas? Proposals? ===
 If you have any question or idea about this project, or about the way we should make the translation, please put a message in the '''"Questions and Discussion"''' section at the bottom of this page. You can write either in english or italian. Please, put long discussions on dedicated subpages.
 
