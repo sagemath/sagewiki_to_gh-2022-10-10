@@ -21,7 +21,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Karl-Dieter Crisman|| Sun, 9:29 PM    || Sea-Tac, Alaska      || Fri, 10:45 PM       || Sea-Tac              || no plans for rides to/from airport yet ||
 || Volker Braun       || Sun, 9:47 PM    || Sea-Tac              || Sat, 13:00          || Sea-Tac              || ||
 || Jason B. Hill      || Sun, 10:58 PM   || Sea-Tac, Frontier    || Sun, 18:59          || Sea-Tac, Frontier    || no plans as of yet ||
-|| Ian Stokes-Rees    || Sun, 11:56 PM   || Sea-Tac, JetBlue     || Wed,  9:50 PM       || Sea-Tac, JetBlue     || ||
+|| Ian Stokes-Rees    || Sun, 11:56 PM   || Sea-Tac, Jet Blue    || Wed,  9:50 PM       || Sea-Tac, Jet Blue    || ||
 || Rob Beezer         || Sun, PM         || Car                  || Sat, PM             || Car                  || ||
 || Ryan Grout         || Mon, 9:30 AM    || Sea-Tac, Delta       || Fri, 6:00  PM       || Sea-Tac, Delta       || ||
 || Wai Yan Pong       || Wed, 9:51 AM    || Sea-Tac, Jet Blue    || Sun,  2:50 PM       || Sea-Tac, Jet Blue    || ||
