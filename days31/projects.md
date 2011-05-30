@@ -1,4 +1,30 @@
-== Sage Days 31 Project Ideas ==
+= Sage Days 31 Project Ideas =
 
- * HTML5 backend [[http://trac.sagemath.org/sage_trac/ticket/9471|#9471]]
- * `MathJax` [[http://trac.sagemath.org/sage_trac/ticket/9774|#9774]]
+<<TableOfContents>>
+
+== HTML 5 backend ==
+ * [[http://trac.sagemath.org/sage_trac/ticket/9471|#9471]]
+
+
+== MathJax ==
+ * [[http://trac.sagemath.org/sage_trac/ticket/9774|#9774]]
+
+
+=== Notebook Logging ===
+ * Make it so the log files get rotated and compressed.  Support or use some standard tool.
+ * Make it so log files contain something useful, and are configurable.
+
+=== Database: SQLite ===
+
+The following should *at a minimum* work with SQLite, since that is included with Sage and whatever we do needs to at least work standard with Sage with "zero configuration". 
+
+ * Store all worksheets in a database
+ * Store user configuration data in a table
+ * Etc.
+
+=== Create a Robust Notebook "System" ===
+ * A script that starts a separate notebook process
+ * It then starts monitoring the notebook to make sure it keeps running, and does a standard test (e.g., view published worksheet listing, login, create a worksheet, compute 2+2, delete worksheet, log out). 
+ * If it doesn't respond after a preset amount of time with any test, does a configurable action, e.g.,:
+     * kills and restarts the server
+     * sends emails to the admins
