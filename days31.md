@@ -6,7 +6,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
 == Topics ==
 
- * Mainly the Sage Notebook
+ * Mainly the Sage Notebook: [[/projects|Here is a list of specific project ideas]]
 
 == Location ==
 
