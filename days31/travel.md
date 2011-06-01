@@ -17,9 +17,9 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Bruce Cohen        || Sun, 4:35 PM    || Sea-Tac, Virgin      || Fri, ~3 PM          || Car                  || Mike: I'm up for sharing a ride ||
 || Andrey Novoseltsev || Sun, 5:33 PM    || Sea-Tac, United      || Sat, 9:45 AM        || Sea-Tac, Alaska      || ||
 || Jason Aubrey       || Sun, 7:33 PM    || Sea-Tac, US Air      || Sat, 7:14 AM        || Sea-Tac, United      || ||
-|| Burcin Erocal      || Sun, 8:58 PM    || Sea-Tac, US74        || Sun, 11:15 AM       || Sea-Tac, US67        || ||
-|| Karl-Dieter Crisman|| Sun, 9:29 PM    || Sea-Tac, Alaska      || Fri, 10:45 PM       || Sea-Tac              || no plans for rides to/from airport yet ||
-|| Volker Braun       || Sun, 9:47 PM    || Sea-Tac              || Sat, 13:00          || Sea-Tac              || ||
+|| Burcin Erocal      || Sun, 8:58 PM    || Sea-Tac, US74        || Sun, 11:15 AM       || Sea-Tac, US67        || probably sharing cab with Crisman and Braun ||
+|| Karl-Dieter Crisman|| Sun, 9:29 PM    || Sea-Tac, Alaska      || Fri, 10:45 PM       || Sea-Tac              || probably sharing cab with Erocal and Braun ||
+|| Volker Braun       || Sun, 9:47 PM    || Sea-Tac              || Sat, 13:00          || Sea-Tac              || probably sharing cab with Erocal and Crisman ||
 || Jason B. Hill      || Sun, 10:58 PM   || Sea-Tac, Frontier    || Sun, 18:59          || Sea-Tac, Frontier    || no plans as of yet ||
 || Ian Stokes-Rees    || Sun, 11:56 PM   || Sea-Tac, Jet Blue    || Wed,  9:50 PM       || Sea-Tac, Jet Blue    || ||
 || Rob Beezer         || Sun, PM         || Car                  || Sat, PM             || Car                  || ||
