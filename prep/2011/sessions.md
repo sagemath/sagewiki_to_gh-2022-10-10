@@ -85,7 +85,8 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * Worksheet describing plotting symbolic expressions and functions
   * Other worksheets explaining questions
  
-== Office Hours ==<<Anchor(officehours)>>
+<<Anchor(officehours)>>
+== Office Hours ==
 
 Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2011/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
 
@@ -97,7 +98,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 || Thursday, 02 June || 12-2PM|| 3-5PM || Jason Grout ||
 
 
-== Homework ==<<Anchor(homework)>>
+<<Anchor(homework)>>
+== Homework ==
 
   * For Tuesday, June 7th
     * Try the [[http://sage.maa.org/home/pub/7|calculus tutorial]]!
