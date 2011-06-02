@@ -16,22 +16,24 @@ If you are working on '''any''' doctests please open a trac ticket and link it h
 
  * interfaces/mwrank.py (John Cremona)
 
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8800 | 8800]]: categories/functor and categories/pushout, plus several bug fixes.
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9231 | 9231]]: interfaces/tachyon.py
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9234 | 9234]]: plot/plot3d/texture.py
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9235 | 9235]]: categories/homset.py
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/9236 | 9236]]: misc/sage_timeit.py
+ * needs work: [[http://trac.sagemath.org/sage_trac/ticket/9235 | 9235]]: categories/homset.py
 
- * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9278 | 9278]]: databases/kohel.py  (patch just removes the file)
- * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9279 | 9279]]: databases/tables.py (patch just removes the file)
- * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9215 | 9215]]: plot/animate.py
- * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9216 | 9216]]: groups/group.pyx
- * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9222 | 9222]]: databases/conway.py
- * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9223 | 9223]]: databases/cremona.py
- * positive review: [[http://trac.sagemath.org/sage_trac/ticket/9242 | 9242]]: rings/ideal_monoid.py
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/8800 | 8800]]: categories/functor and categories/pushout, plus several bug fixes.
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9215 | 9215]]: plot/animate.py
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9216 | 9216]]: groups/group.pyx
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9222 | 9222]]: databases/conway.py
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9223 | 9223]]: databases/cremona.py
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9231 | 9231]]: interfaces/tachyon.py
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9234 | 9234]]: plot/plot3d/texture.py
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9236 | 9236]]: misc/sage_timeit.py
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9242 | 9242]]: rings/ideal_monoid.py
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9278 | 9278]]: databases/kohel.py  (patch just removes the file)
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/9279 | 9279]]: databases/tables.py (patch just removes the file)
+
 
 == Bugs with new tickets found as a result of writing doctests ==
 
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8807 | 8807]]: Applying functors to morphisms. This is a dependency for [[http://trac.sagemath.org/sage_trac/ticket/8800 | 8800]]
  * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8992 | 8992]]: Coercion of univariate quotient rings.
- * needs review: [[http://trac.sagemath.org/sage_trac/ticket/8993 | 8993]]: Univariate quotient rings in the Singular interface.
+
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/8807 | 8807]]: Applying functors to morphisms. This is a dependency for [[http://trac.sagemath.org/sage_trac/ticket/8800 | 8800]]
+ * closed: [[http://trac.sagemath.org/sage_trac/ticket/8993 | 8993]]: Univariate quotient rings in the Singular interface.
