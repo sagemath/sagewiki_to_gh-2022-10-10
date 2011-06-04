@@ -25,10 +25,10 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
    A 315 pages open source french introductory book on computational mathematics, illustrated in Sage, and including a 35 pages chapter on combinatorics (and soon one on graph theory).
 
- * July 7-15, 2010: [[http:/combinat/AffineSchubertCalculusWorkshop|Affine Schubert Calculus workshop and summer school in Toronto]]
+ * July 7-15, 2010: [[combinat/AffineSchubertCalculusWorkshop|Affine Schubert Calculus workshop and summer school in Toronto]]
    It includes several Sage and Sage-Combinat sessions
 
- * June 14-18, 2010: [[http:/combinat/SageCombinatChevieWorkshopOrsay2010|Joint Sage-Combinat and Chevie Workshop in Orsay]]
+ * June 14-18, 2010: [[combinat/SageCombinatChevieWorkshopOrsay2010|Joint Sage-Combinat and Chevie Workshop in Orsay]]
 
  * May 3-7, 2010: [[http://www.fields.utoronto.ca/programs/scientific/09-10/sage/|Sage Days 20.5 in Toronto]]
    Organized by Nantel Bergeron, FrancoSaliola and Mike Zabrocki,
@@ -47,7 +47,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * April 15th, 2009: Software demonstration accepted for [[http://www.risc.uni-linz.ac.at/about/conferences/fpsac2009/|FPSAC'09]]
  [[attachment:2009-07-20-FPSAC.pdf|PDF]], [[attachment:.2009-07-20-FPSAC.tex|LaTeX Source]] [[attachment:2009-07-20-FPSAC.bbl|LaTeX bibliography]]
 
- * January 26-30, 2009: [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop in Orsay]]
+ * January 26-30, 2009: [[combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop in Orsay]]
 
  * 2008-06-19: MuPAD-Combinat join forces with Sage
 
@@ -62,11 +62,11 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 == Who are we? What is Sage-Combinat used for? ==
 
- * [[http:/combinat/Contributors|Contributors]]
+ * [[combinat/Contributors|Contributors]]
 
- * [[http:/combinat/Institutions|Institutions and sponsors]]
+ * [[combinat/Institutions|Institutions and sponsors]]
 
- * [[http:/combinat/Grants|Grant applications]]
+ * [[combinat/Grants|Grant applications]]
 
  * [[http://www.sagemath.org/library-publications-combinat.html|Publications citing Sage-Combinat]]
 
@@ -85,9 +85,9 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * Check the  [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]]
  * Post bug reports, suggestions, patches on the [[http://trac.sagemath.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
 
- * [[http:/combinat/CiteSageCombinat|Cite Sage-Combinat]] when you use it for research publications.
+ * [[combinat/CiteSageCombinat|Cite Sage-Combinat]] when you use it for research publications.
  * Plume's review pages on Sage-Combinat: [[http://www.projet-plume.org/en/relier/sage-combinat-0|English]] and [[http://www.projet-plume.org/fr/relier/sage-combinat|French]]
- * [[http:/combinat/CoolPictures|Cool pictures we produced with Sage-Combinat for our research]]
+ * [[combinat/CoolPictures|Cool pictures we produced with Sage-Combinat for our research]]
 
 === Code ===
 
@@ -95,17 +95,17 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * Browse the [[http://combinat.sagemath.org/code/file/tip/sage/|Sage sources with the Sage-combinat patches applied]]
 
- * Please read the [[http:/combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
+ * Please read the [[combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
 
- * For the curious: [[http:/combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
+ * For the curious: [[combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
 
  * For hg/mercurial lovers: [[http://hgbook.red-bean.com/read/|Mercurial: The Definite Guide]] an e-book by Bryan O'Sullivan
 
 === Design ===
 
- * Have a look and participate to [[http:/combinat/DesignDiscussion|design discussions]].
+ * Have a look and participate to [[combinat/DesignDiscussion|design discussions]].
 
- * Contribute to the list of [[http:/combinat/Weirdness|quirks and weirdness issues]] in the {{{*-Combinat}}} design.
+ * Contribute to the list of [[combinat/Weirdness|quirks and weirdness issues]] in the {{{*-Combinat}}} design.
 
 === Documentation ===
 
@@ -115,4 +115,4 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://combinat.sagemath.org/misc/file/|Mercurial server for miscelleanous files and documents]] ([[http:/combinat/MiscServer|Usage instructions]])
 
- * [[http:/combinat/HelpOnTheDoc|Some tips and tricks about the documentation system]]
+ * [[combinat/HelpOnTheDoc|Some tips and tricks about the documentation system]]
