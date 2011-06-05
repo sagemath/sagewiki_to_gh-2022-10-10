@@ -57,14 +57,14 @@ Room numbers will come soon.
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Bruce Cohen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
 || Jonathan Gutow     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
-|| Davide Cervone     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 ||        ||        ||        || ||
+|| Dan Drake          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Rado Kirov         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Depart June 24 ||
 || Jason Grout        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || plus: Sun 19 ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Volker Braun       ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
 || Andrey Novoseltsev ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Sebastien Labbe    ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || Sat 11 a possibility||
+|| Sebastien Labbe    ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Zafeirakis Zafeirakopoulos|| || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Burcin Erocal      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
@@ -81,7 +81,6 @@ For Hotel Deca, please pay for your room on departure and you will be reimbursed
 || Tom Judson         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || || 4AA8ZV ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || || ||
 || Rao Potluri        ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || || 4AA8ZP ||
-|| Dan Drake          ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || || 4AA8ZX ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || || ||
 || Theron Hitchman    ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || || 4AA8ZQ ||
 || John Perry         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || || 4AA8ZZ ||
@@ -95,3 +94,5 @@ For Hotel Deca, please pay for your room on departure and you will be reimbursed
 || Wai Yan Pong       ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || Single || 4AA8ZH ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
 || Kiran Kedlaya      ||        ||        ||        ||        ||        || Thu 16 || Fri 17 ||        || Single || 4AA8ZI ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || ||
+|| Davide Cervone     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 ||        ||        ||        || Single || ||
