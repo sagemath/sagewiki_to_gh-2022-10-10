@@ -137,9 +137,9 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
   * [[http://mosaic-web.org/|MOSAIC project (NSF funded, connecting computation, calc, and stats)]]
     * [[http://www.causeweb.org/wiki/mosaic/index.php/Mcast-schedule|Schedule of M-Casts]]
   * Python resources:
-    * Python tutorial
-    * Dive into Python
-    * Think like a computer scientist
+    * [[http://docs.python.org/tutorial/|Python tutorial]]
+    * [[http://diveintopython.org/|Dive into Python]]
+    * [[http://greenteapress.com/thinkpython/|Think like a computer scientist]]
 
 
 <<Anchor(officehours)>>
