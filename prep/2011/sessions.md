@@ -145,8 +145,10 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
  * Between introductory session and intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Monday, 30 May || 8-10AM|| 11AM-1PM || Jason Grout ||
-|| Thursday, 02 June || 12-2PM|| 3-5PM || Jason Grout ||
+|| Monday, 30 May || 8-10AM || 11AM-1PM || Jason Grout ||
+|| Thursday, 02 June || 12-2PM || 3-5PM || Jason Grout ||
+|| Thursday, 09 June || TBD || TBD || Karl-Dieter Crisman ||
+|| Friday, 10 June || TBD || TBD || Karl-Dieter Crisman ||
 
 
 <<Anchor(homework)>>
@@ -159,3 +161,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
     * Email the MAA PREP list with at least one question.
       * This could include starting a discussion about pedagogy!
     * If you would like, suggest topics for the next session.
+  * For Tuesday, June 14th
+    * Try out two of the "Quickstart" worksheets (to be posted)
+    * Continue any discussions you want on the list about technology.
+    * Continue to work on a couple worksheets demonstrating what you want to show.
