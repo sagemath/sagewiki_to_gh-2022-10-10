@@ -112,6 +112,12 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
 === Session II - Plotting, Demos, and Programming ===
     * Welcome Back (Karl-Dieter, 5 min)
     * Introductory Programming (Karl-Dieter, 25 min)
+       * Motivated by linear algebra
+       * "dot" method notation
+       * Loops and behavior/use of "range"
+       * Set Notation, List Comprehension
+       * Defining functions with "def"
+       * Renaming 'Gotchas'
     * Questions (Karl-Dieter, 5 min)
     * Classroom demo Linear Algebra (Jason, 15 min)
     * Short Break
