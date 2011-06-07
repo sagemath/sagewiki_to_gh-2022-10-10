@@ -156,7 +156,6 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
  * Between the various intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Thursday, 09 June || TBD || TBD || Karl-Dieter Crisman ||
 || Friday, 10 June || TBD || TBD || Karl-Dieter Crisman ||
 
 
