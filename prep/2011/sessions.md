@@ -100,7 +100,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
     * Review (and expand on) "PREP Calculus Tutorial" worksheet (Karl-Dieter, 30 min)
       * Calc I, II, III
       * Limits, Diff'l. Calc, Integral Calc., Multivariate
-    * Questions (Karl-Dieter, 20 min)
+    * Questions (Karl-Dieter, 10 min)
     * Short Break
     * Technology in the Classroom discussion (30 min)
        * As a tool, not a crutch - ideas?
