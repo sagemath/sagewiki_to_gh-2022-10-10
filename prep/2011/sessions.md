@@ -111,7 +111,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
 
 === Session II - Plotting, Demos, and Programming ===
     * Welcome Back (Karl-Dieter, 5 min)
-    * Introductory Programming (Karl-Dieter, 25 min)
+    * Introductory [[http://sage.maa.org/home/pub/16|Programming]] (Karl-Dieter, 25 min)
        * Motivated by linear algebra
        * "dot" method notation
        * Loops and behavior/use of "range"
@@ -119,11 +119,13 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
        * Defining functions with "def"
        * Renaming 'Gotchas'
     * Questions (Karl-Dieter, 5 min)
-    * Classroom demo Linear Algebra (Jason, 15 min)
-    * Classroom demos: Multivariable (Jason, 15 min)
+    * Classroom demos: [[http://sage.maa.org/home/pub/14|Linear Algebra]] (Jason, 15 min)
+    * Classroom demos: [[http://sage.maa.org/home/pub/12|Multivariable]] (Jason, 15 min)
     * Short Break
     * Participant demo worksheets! (25 min)
-    * Advanced 2D plotting (Jason, 30 min)
+      * Making [[http://sage.maa.org/home/pub/17|tables]]
+      * Percentage of [[http://sage.maa.org/home/pub/19|Area of a Square]]
+    * [[http://sage.maa.org/home/pub/15|Advanced 2D plotting]] (Jason, 30 min)
     * Announcements (Jason, 5 min)
       * Office Hours 
       * Next Session
@@ -134,6 +136,10 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
   * [[http://www.facebook.com/pages/Sage-Math/26593144945|Sage Facebook Page]]
   * [[http://mosaic-web.org/|MOSAIC project (NSF funded, connecting computation, calc, and stats)]]
     * [[http://www.causeweb.org/wiki/mosaic/index.php/Mcast-schedule|Schedule of M-Casts]]
+  * Python resources:
+    * Python tutorial
+    * Dive into Python
+    * Think like a computer scientist
 
 
 <<Anchor(officehours)>>
@@ -147,6 +153,9 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || Monday, 30 May || 8-10AM || 11AM-1PM || Jason Grout ||
 || Thursday, 02 June || 12-2PM || 3-5PM || Jason Grout ||
+
+ * Between the various intensive sessions
+||Date||Time (PDT)||Time (EDT)||Organizer||
 || Thursday, 09 June || TBD || TBD || Karl-Dieter Crisman ||
 || Friday, 10 June || TBD || TBD || Karl-Dieter Crisman ||
 
