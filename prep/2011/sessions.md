@@ -97,7 +97,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
 
 === Session I - Calculus ===
     * Welcome Back: Organizers and Participants (Karl-Dieter, 10 min)
-    * Review (and expand on) "PREP Calculus Tutorial" worksheet (Karl-Dieter, 30 min)
+    * Review (and expand on) "[[http://sage.maa.org/home/pub/7|PREP Calculus Tutorial]]" worksheet (Karl-Dieter, 30 min)
       * Calc I, II, III
       * Limits, Diff'l. Calc, Integral Calc., Multivariate
     * Questions (Karl-Dieter, 10 min)
@@ -131,8 +131,9 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
 
 === Session Links ===
 
-  * TBD
- 
+  * [[http://www.facebook.com/pages/Sage-Math/26593144945|Sage Facebook Page]]
+  * [[http://mosaic-web.org/|MOSAIC project (NSF funded, connecting computation, calc, and stats)]]
+    * [[http://www.causeweb.org/wiki/mosaic/index.php/Mcast-schedule|Schedule of M-Casts]]
 
 
 <<Anchor(officehours)>>
