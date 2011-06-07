@@ -113,11 +113,10 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
     * Welcome Back (Karl-Dieter, 5 min)
     * Introductory Programming (Karl-Dieter, 25 min)
     * Questions (Karl-Dieter, 5 min)
-    * Classroom demo 1 (TBD, 15 min)
-    * Classroom demo 2 (TBD, 15 min)
+    * Classroom demo Linear Algebra (Jason, 15 min)
     * Short Break
-    * Participant demo worksheets! (15 min)
-    * Advanced 2D plotting (Jason, 25 min)
+    * Participant demo worksheets! (25 min)
+    * Advanced 2D plotting (Jason, 30 min)
     * Announcements (Jason, 5 min)
       * Office Hours 
       * Next Session
