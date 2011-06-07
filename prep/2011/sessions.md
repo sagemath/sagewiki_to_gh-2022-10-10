@@ -105,9 +105,9 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
     * Technology in the Classroom discussion (30 min)
        * As a tool, not a crutch - ideas?
        * Models for dissemination
-    * Classroom-type demo: Chaos and Calculus (Karl-Dieter, 10 min)
-    * Classroom demos: Multivariable (Jason, 15 min)
-    * Questions and end (Jason, 5 min)
+       * [[attachment:SecondRoundTableNotes.rtf|Notes From the Discussion]]
+    * Classroom-type demo: [[http://sage.maa.org/home/pub/13|Chaos and Calculus]] (Karl-Dieter, 10 min)
+    * Questions and end (Jason, 15 min)
 
 === Session II - Plotting, Demos, and Programming ===
     * Welcome Back (Karl-Dieter, 5 min)
@@ -120,6 +120,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
        * Renaming 'Gotchas'
     * Questions (Karl-Dieter, 5 min)
     * Classroom demo Linear Algebra (Jason, 15 min)
+    * Classroom demos: Multivariable (Jason, 15 min)
     * Short Break
     * Participant demo worksheets! (25 min)
     * Advanced 2D plotting (Jason, 30 min)
