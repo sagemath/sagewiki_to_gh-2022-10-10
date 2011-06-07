@@ -9,7 +9,12 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 [[#homework|Homework]] and [[#officehours|Office Hours]] are listed after all the sessions.
 
+  * [[#day1|Tuesday, May 24]]
+  * [[#day2|Tuesday, June 7]]
+  * Tuesday, June 14
+  * Tuesday, June 21
 
+<<Anchor(day1)>>
 == Tuesday, May 24 ==
 
 Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on basic use and the various ways to get help and learn more.  
@@ -85,6 +90,45 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * Worksheet describing plotting symbolic expressions and functions
   * Other worksheets explaining questions
  
+<<Anchor(day2)>>
+== Tuesday, June 7 ==
+
+Our goal on the second day of sessions is to start deepening your knowledge of Sage, and to give opportunities to share ideas about technology and how to use worksheets which you have.
+
+=== Session I - Calculus ===
+    * Welcome Back: Organizers and Participants (Karl-Dieter, 10 min)
+    * Review (and expand on) "PREP Calculus Tutorial" worksheet (Karl-Dieter, 30 min)
+      * Calc I, II, III
+      * Limits, Diff'l. Calc, Integral Calc., Multivariate
+    * Questions (Karl-Dieter, 20 min)
+    * Short Break
+    * Technology in the Classroom discussion (30 min)
+       * As a tool, not a crutch - ideas?
+       * Models for dissemination
+    * Classroom-type demo: Chaos and Calculus (Karl-Dieter, 10 min)
+    * Classroom demos: Multivariable (Jason, 15 min)
+    * Questions and end (Jason, 5 min)
+
+=== Session II - Plotting, Demos, and Programming ===
+    * Welcome Back (Karl-Dieter, 5 min)
+    * Introductory Programming (Karl-Dieter, 25 min)
+    * Questions (Karl-Dieter, 5 min)
+    * Classroom demo 1 (TBD, 15 min)
+    * Classroom demo 2 (TBD, 15 min)
+    * Short Break
+    * Participant demo worksheets! (15 min)
+    * Advanced 2D plotting (Jason, 25 min)
+    * Announcements (Jason, 5 min)
+      * Office Hours 
+      * Next Session
+      * Homework
+
+=== Session Links ===
+
+  * TBD
+ 
+
+
 <<Anchor(officehours)>>
 == Office Hours ==
 
