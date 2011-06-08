@@ -23,7 +23,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
 
 === Session I - Getting Started ===
     * Introductions: Organizers and Participants (Karl-Dieter, 30 min)
-    * Review (and expand on) "PREP Intro Tutorial" worksheet (Karl-Dieter, 45 min)
+    * Review (and expand on) "[[http://sage.maa.org/home/pub/2|PREP Intro Tutorial]]" worksheet (Karl-Dieter, 45 min)
       * Evaluating commands
       * Symbolic functions
       * Finding Help and Documentation through the notebook
@@ -57,12 +57,14 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
         * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
       * [[http://www.sagenb.org|www.sagenb.org]] ([[http://sagenb.org/pub/|published worksheets]])
     * Short Break
-    * Review "Sage Tutorial for Symbolics and Plotting" (Karl-Dieter, 40 min)
+    * Review "[[http://sage.maa.org/home/pub/3|Sage Tutorial for Symbolics and Plotting]]" (Karl-Dieter, 40 min)
       * Symbolic Expressions
       * Basics of Two-Dimensional Plotting 
       * Basics of Three-Dimensional Plotting 
     * Questions (Karl-Dieter, 15 min)
     * Interacts (Jason Grout, 15 min)
+      * [[http://sage.maa.org/home/pub/6|Worksheet]] showing step-by-step interact creation
+      * [[http://sage.maa.org/home/pub/5|Worksheet]] showing many different interact ideas
     * Homework (Karl-Dieter, 10 min) 
       * Preparation for next sessions 
       * Next Tutorial(s)
@@ -86,9 +88,6 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://wiki.sagemath.org/sage-mode|Sage mode in Emacs]]
   * [[http://www.sagemath.org/download-windows.html|Sage on Windows]]
   * [[http://sage.maa.org/home/kcrisman/7|The worksheet shared with everybody]]
-  * Worksheet showing interact creation
-  * Worksheet describing plotting symbolic expressions and functions
-  * Other worksheets explaining questions
  
 <<Anchor(day2)>>
 == Tuesday, June 7 ==
@@ -156,7 +155,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 
  * Between the various intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Friday, 10 June || TBD || TBD || Karl-Dieter Crisman ||
+|| Thursday, 09 June || 12-1 PM || 3-4 PM || Karl-Dieter Crisman ||
+|| Friday, 10 June || 8-9 AM || 11-12 AM || Karl-Dieter Crisman ||
 
 
 <<Anchor(homework)>>
