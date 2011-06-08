@@ -45,6 +45,8 @@ sage: timeit("c20 = a20+b20")
 625 loops, best of 3: 389 ns per loop
 }}}
 
+This may be better done as an interface to p-adics in FLINT 2: see [[https://github.com/SPancratz/flint2/blob/trunk/padic.h]]
+
 == Tasks ==
 
  1. Using `sage/rings/finite_rings/integer_mod.pyx` and `sage/rings/padics/padic_(capped_relative_element.pyx AND capped_absolute_element.pyx AND fixed_modulus_element.pyx)` as a model, implement Zp and Qp using machine arithmetic. 
