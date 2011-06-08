@@ -2,7 +2,7 @@
 
 This page is the home of tutorials from the summer 2011 MAA PREP workshop "Sage: Using Open-Source Mathematics Software with Undergraduates" (funding provided by NSF DUE 0817071).  All these worksheets should be licensed under the Creative Commons Attribution-!ShareAlike 3.0 license ([[http://creativecommons.org/licenses/by-sa/3.0/|CC BY-SA]]).
 
-Warning: this page is currently being edited, so not all links might work.
+Warning: gray links are not yet uploaded and have not yet been used in the workshop.  These will be updated as we go along.
 
 == Basic Tutorials ==
 
@@ -14,11 +14,14 @@ Warning: this page is currently being edited, so not all links might work.
 
 == Advanced Tutorials ==
 
-  * There is an introduction to more advanced plotting techniques, in [[attachment:PREP Tutorial, Advanced Plotting, Part 1.sws|two]] [[attachment:PREP Tutorial, Advanced Plotting, Part 2.sws|parts]].
+  * There is a two-part introduction to more advanced plotting techniques. 
+
+    * [[attachment:PREP Tutorial- Advanced 2d plotting.sws|Advanced 2D Plotting]] 
+    * [[attachment:PREP Tutorial, Advanced Plotting, Part 2.sws|Advanced 3D Plotting]]
 
   * We also provide an introduction to the most basic [[attachment:PREP Tutorial, Introductory Programming.sws|programming]] skills needed for advanced use of Sage.
 
-  * The interactive capabilities of Sage for classroom demonstration or lab use are relatively easy to use; [[attachment:PREP Quickstart Interact.sws|this worksheet]] has little dialogue, but shows how one can go from a simple command to a complex "Sagelet" in a slow, step-by-step manner.
+  * The interactive capabilities of Sage for classroom demonstration or lab use are relatively easy to use.  There is little dialogue in [[attachment:PREP Quickstart Interact.sws|this worksheet]], but it nonetheless shows effectively how one can go from a simple command to a complex "Sagelet" in a slow, step-by-step manner.
 
 == Topical Quickstarts ==
 
