@@ -2,7 +2,7 @@
 
 ----
 == Supported compilers ==
-A miniumum of gcc 4.0.1 is needed to build Sage, though later releases are generally preferable. However, for the upcoming sage-4.7 release, gcc 4.6.0 will not work. We expect to fix the bugs that prevent Sage building with gcc 4.6.0 in Sage 4.7.1.
+A miniumum of gcc 4.0.1 is needed to build Sage, though later releases are generally preferable.
 
 == Supported Platforms ==
 
