@@ -97,6 +97,15 @@ Each project page should eventually contain the following information, though ma
   * ''Goal'' -- Create new parent classes for infinite towers (or more generally just infinite extensions) over Qp and Zp, e.g. maximal unramified extension, `p^n` roots of 1 or of p...
   * ''Priority'' -- Low
   * ''Difficulty'' -- High
+ 1. [[/Wittferentiation | implementing pderivations]]
+  * ''Goal'' -- Implement p-derivations http://en.wikipedia.org/wiki/P-derivation
+  * ''Priority'' -- Med
+  * ''Difficulty'' -- Med
+ 1. [[/RestrictedPowerSeries | implement restricted power series]]
+  * ''Goal'' -- Implement restricted power series and elements of restricted powerseries 
+  * ''Priority'' -- Low
+  * ''Difficulty'' -- Easy
+
 
 = Smaller Projects =
 
