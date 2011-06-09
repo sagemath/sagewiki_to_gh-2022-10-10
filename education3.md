@@ -93,7 +93,7 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 || 11:00 AM || Textbook Conversion       || Rob Beezer, U of Puget Sound || ||
 ||  5:30 PM || Status Reports            ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
-||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || [[http://faculty.sfasu.edu/judsontw/UTMOST/EduDays3.pdf|Presentation]]||
+||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || [[http://faculty.sfasu.edu/judsontw/UTMOST/EduDays3.pdf|Presentation]][[http://faculty.sfasu.edu/judsontw/UTMOST/Worksheets.zip|Worksheets]]||
 || 10:00 AM || Number Theory             || Karl-Dieter Crisman, Gordon College || ||
 || 10:45 AM || Linear Algebra Lab Manual || Ryan Grout, Brigham Young University|| ||
 || 11:15 AM || SageTeX                   || Dan Drake, KAIST, Korea || ||
