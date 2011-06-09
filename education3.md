@@ -89,7 +89,7 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 ||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || ||
 ||  9:00 AM || Introductions             || || ||
 ||  9:30 AM || Calculus                  || John Perry, U of Southern Mississippi || ||
-|| 10:15 AM || Multivariable Calculus    || John Travis, Mississippi College || [[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|Worksheets]]||
+|| 10:15 AM || Multivariable Calculus    || John Travis, Mississippi College || [[http://sagenb.mc.edu/home/pub/21|Presentation]][[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|Worksheets]]||
 || 11:00 AM || Textbook Conversion       || Rob Beezer, U of Puget Sound || ||
 ||  5:30 PM || Status Reports            ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
