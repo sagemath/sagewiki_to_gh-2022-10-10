@@ -34,4 +34,4 @@
 
 == Türkçe ==
 
- * '''Kısa Sage Kılavuzu: Doğrusal Cebir‎'''  Robert A. Beezer (Mayıs 2009) / Kürşat Aker (Mayıs 2011) - [[attachment:quickref-linalg-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-linalg-tr.pdf|download]] (kaynak: [[attachment:quickref-linalg-tr.tex]])
+ * '''Kısa Sage Kılavuzu: Doğrusal Cebir‎'''  Robert A. Beezer (Mayıs 2009) / Kürşat Aker (Mayıs 2011) - [[attachment:quickref-linalg-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-linalg-tr.pdf|indir]] (kaynak: [[attachment:quickref-linalg-tr.tex]])
