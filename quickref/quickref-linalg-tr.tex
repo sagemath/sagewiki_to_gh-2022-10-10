@@ -1,0 +1,599 @@
+% Sage Linear Algebra Quick Reference
+% (c) 2009 by Robert A. Beezer
+% Licensed with the GNU Free Documentation License (GFDL)
+%   http://www.gnu.org/copyleft/fdl.html
+%
+%  History
+%
+%    2009-05-10  Initial version based on Sage 3.4
+%    2009-05-13  Added right paren to vector u in "vector operations" section
+%
+%
+\documentclass{article}
+\usepackage{graphicx}  
+\usepackage[landscape]{geometry}
+\usepackage[pdftex]{color}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\newcommand{\ex}{\color{blue}}
+\newcommand{\warn}{\bf\color{red}}
+\pagestyle{empty}
+\advance\topmargin-.9in
+\advance\textheight2in
+\advance\textwidth3.0in
+\advance\oddsidemargin-1.45in
+\advance\evensidemargin-1.45in
+\parindent0pt
+\parskip2pt
+% Section break, dictates column widths?
+\newcommand{\hr}{\centerline{\rule{3.5in}{1pt}}}
+% Adjust gap to affect spacing, page count
+\newcommand{\sect}[1]{\hr\par\vspace*{2pt}\textbf{#1}\par}
+% Mandatory indentation on subsidiary lines
+\newcommand{\skipin}{\hspace*{12pt}}
+
+
+      \usepackage[utf8]{inputenc}
+
+      \usepackage[T1]{fontenc}
+      
+\begin{document}
+\begin{multicols*}{3}
+\begin{center}
+%\textbf{Sage Quick Reference: Linear Algebra}\\
+\textbf{Kısa Sage Kılavuzu: Doğrusal Cebir}\\
+Robert A. Beezer (Türkçeleştiren Kürşat Aker)\\
+%Sage Version 3.4
+Sage Sürüm 3.4\\
+\url{http://wiki.sagemath.org/quickref}\\
+%GNU Free Document License, extend for your own use\\
+GNU Özgür Belge Lisansı, Dileğinize göre geliştirin\\
+%Based on work by Peter Jipsen, William Stein 
+P. Jipsen ve W. Stein'ın çalışmalarını esas alarak
+\end{center}
+% backup over center environment gap
+\vspace{-4ex}
+%*********************************************
+%\sect{Vector Constructions}
+\sect{Vektörlerin Tanımlanması}
+%{\warn Caution}: First entry of a vector is numbered 0\\
+{\warn Uyarı}: Bir vektörün ilk indisi $0$'dır.\\
+%{\ex\verb!u = vector(QQ, [1, 3/2, -1])!} length 3 over rationals\\
+{\ex\verb!u = vector(QQ, [1, 3/2, -1])!} $= (1,\frac{3}{2},-1) \in \mathbb{Q}^3$ \\
+{\ex\verb!v = vector(QQ, {2:4, 95:4, 210:0})!}\\
+%\skipin 211 entries, nonzero in entry 4 and entry 95, sparse
+\skipin toplam 211 kutu, 2. ve 95. kutular = 4, seyrek 
+\par
+%*********************************************
+%\sect{Vector Operations}
+\sect{Vektör İşlemleri}
+{\ex\verb!u = vector(QQ, [1, 3/2, -1])!}\\
+{\ex\verb!v = vector(ZZ, [1, 8, -2])!}\\
+%{\ex\verb!2*u - 3*v!} linear combination\\
+{\ex\verb!2*u - 3*v!} doğrusal bileşim\\
+{\ex\verb!u.dot_product(v)!} \\
+{\ex\verb!u.dot_product(v)!} iç çarpım\\
+%{\ex\verb!u.cross_product(v)!}  order: \verb!u!$\times$\verb!v!\\
+{\ex\verb!u.cross_product(v)!}  sıralama: \verb!u!$\times$\verb!v!\\
+%{\ex\verb!u.inner_product(v)!}  inner product matrix from parent\\
+{\ex\verb!u.inner_product(v)!}  u'nun anasından gelen iç çarpım\\
+%{\ex\verb!u.pairwise_product(v)!} vector as a result\\
+{\ex\verb!u.pairwise_product(v)!} $=(u_0v_0, u_1v_1, u_2v_2, \ldots)$ \\
+%{\ex\verb!u.norm() == u.norm(2)!} Euclidean norm\\
+{\ex\verb!u.norm() == u.norm(2)!} Öklid normu\\
+%{\ex\verb!u.norm(1)!} sum of entries\\
+{\ex\verb!u.norm(1)!} kutu içeriklerinin toplamı\\
+%{\ex\verb!u.norm(Infinity)!} maximum entry\\
+{\ex\verb!u.norm(Infinity)!} en büyük kutu içeriği\\
+%{\ex\verb!A.gram_schmidt()!} converts the rows of matrix \verb!A!
+{\ex\verb!A.gram_schmidt()!} \verb!A! matrisinin satırlarını dönüştürür
+\par
+%*********************************************
+%\sect{Matrix Constructions}
+\sect{Matrislerin Tanımlanması}
+%{\warn Caution}: Row, column numbering begins at 0\\
+{\warn Uyarı}: Satır ve sütunların isimlendirilmesi 0'dan başlar\\
+{\ex\verb!A = matrix(ZZ, [[1,2],[3,4],[5,6]])!}\\
+%\skipin $3\times 2$ over the integers\\
+\skipin Tamsayılar üzerinde $3\times 2$-lik matris\\
+{\ex\verb!B = matrix(QQ, 2, [1,2,3,4,5,6])!}\\
+%\skipin 2 rows from a list, so $2\times 3$ over rationals\\
+\skipin Listeden 2-şer satır al, kesirlerde $2\times 3$-lük  matris yap\\
+{\ex\verb!C = matrix(CDF, 2, 2, [[5*I, 4*I], [I, 6]])!}\\
+%\skipin complex entries, 53-bit precision\\
+\skipin kutuları karmaşık sayılar, 53-bit hassasiyet\\
+%{\ex\verb!Z = matrix(QQ, 2, 2, 0)!} zero matrix\\
+{\ex\verb!Z = matrix(QQ, 2, 2, 0)!} sıfır matris\\
+{\ex\verb!D = matrix(QQ, 2, 2, 8)!}\\
+%\skipin diagonal entries all $8$, other entries zero\\
+\skipin köşegendeki terimler $8$, geri kalanlar $0$\\
+%{\ex\verb!I = identity_matrix(5)!} $5\times 5$ identity matrix\\
+{\ex\verb!I = identity_matrix(5)!} $5\times 5$-lik birim matris\\
+{\ex\verb!J = jordan_block(-2,3)!}\\
+%\skipin $3\times 3$ matrix, $-2$ on diagonal, $1$'s on super-diagonal
+\skipin $3\times 3$-lük matris, köşegende $-2$, köşegenüstünde $1$'ler
+{\ex\verb!var('x y z'); K = matrix(SR, [[x,y+z],[0,x^2*z]])!}\\
+%\skipin symbolic expressions live in the ring \verb!SR!\\
+\skipin Simgesel ifadeler, \verb!SR! halkasında yaşarlar\\
+{\ex\verb!L=matrix(ZZ, 20, 80, {(5,9):30, (15,77):-6})!}\\
+%\skipin $20\times 80$, two non-zero entries, sparse representation
+\skipin $20\times 80$-lik matris, iki tane $\neq 0$ kutu, seyrek temsil
+\par
+%*********************************************
+%\sect{Matrix Multiplication}
+\sect{Matris Çarpımı}
+{\ex\verb!u = vector(QQ, [1,2,3])!},\quad{\ex\verb!v = vector(QQ, [1,2])!}\\
+{\ex\verb!A = matrix(QQ, [[1,2,3],[4,5,6]])!}\\
+{\ex\verb!B = matrix(QQ, [[1,2],[3,4]])!}\\
+{\ex\verb!u*A!},\quad
+{\ex\verb!A*v!},\quad
+{\ex\verb!B*A!},\quad
+{\ex\verb!B^6!},\quad
+%{\ex\verb!B^(-3)!} all possible\\
+{\ex\verb!B^(-3)!}'nün tümü geçerlidir.\\
+%{\ex\verb!B.iterates(v, 6)!}   produces $vB^0, vB^1,\dots, vB^5$\\
+{\ex\verb!B.iterates(v, 6)!}   $vB^0, vB^1,\dots, vB^5$'u üretir\\
+\skipin\verb!rows = False! \verb!v! vektörünü matrislerin sağına koyar\\
+%{\ex\verb!f(x)=x^2+5*x+3!} then {\ex\verb!f(B)!} is possible\\
+{\ex\verb!f(x)=x^2+5*x+3!} tanımlıysa, {\ex\verb!f(B)!} geçerlidir\\
+%{\ex\verb!B.exp()!} matrix exponential, i.e.\ $\sum_{k=0}^{\infty}\frac{B^k}{k!}$
+{\ex\verb!B.exp()!} $= e^B = \sum_{k=0}^{\infty}\frac{B^k}{k!}$
+\par
+%*********************************************
+%\sect{Matrix Spaces}
+\sect{Matris Uzayları}
+{\ex\verb!M = MatrixSpace(QQ, 3, 4)!}\\
+%\skipin dimension 12 space of $3\times 4$ matrices\\
+\skipin $3\times 4$-lük matrislerin 12 boyutlu uzayı\\
+{\ex\verb!A = M([1,2,3,4,5,6,7,8,9,10,11,12])!}\\
+%\skipin is a $3\times 4$ matrix, an element of \verb!M!\\
+\skipin $3\times 4$-lük bir matris, \verb!M! uzayının bir üyesidir\\
+%{\ex\verb!M.basis()!} \\
+%{\ex\verb!M.dimension()!}\\
+%{\ex\verb!M.zero_matrix()!}
+{\ex\verb!M.basis()!} \verb!M!'nin tabanı \\
+{\ex\verb!M.dimension()!} \verb!M!'nin boyutu\\
+{\ex\verb!M.zero_matrix()!} \verb!M!'nin sıfır matrisi
+\par
+%*********************************************
+%\sect{Matrix Operations}
+\sect{Matris İşlemleri}
+%{\ex\verb!5*A+2*B!} linear combination\\
+{\ex\verb!5*A+2*B!} doğrusal bileşim\\
+%{\ex\verb!A.inverse()!}, also {\ex\verb!A^(-1)!}, {\ex\verb!~A!}\\
+{\ex\verb!A.inverse()!}, {\ex\verb!A^(-1)!}, {\ex\verb!~A!} = \verb!A!'nın tersi\\
+%\skipin\verb!ZeroDivisionError! if singular\\
+\skipin Eğer \verb!A! tersinir değilse, \verb!ZeroDivisionError! hatası gelir\\
+%{\ex\verb!A.transpose()!}\\
+{\ex\verb!A.transpose()!} $=\verb!A!^t=$ \verb!A!'nın devriği \\
+%{\ex\verb!A.antitranspose()!} transpose + reverse orderings\\
+{\ex\verb!A.antitranspose()!} $\verb!A!^t$'nin satır ve sütunları ters sıralı\\
+%{\ex\verb!A.adjoint()!}  matrix of cofactors\\
+{\ex\verb!A.adjoint()!}  Kofaktörler matrisi\\
+%{\ex\verb!A.conjugate()!} entry-by-entry complex conjugates\\
+{\ex\verb!A.conjugate()!} kutu kutu karmaşık eşlenikler\\
+%{\ex\verb!A.restrict(V)!} restriction on invariant subspace \verb!V!
+{\ex\verb!A.restrict(V)!} \verb!A!'nın korunan \verb!V! altuzayına kısıtlaması
+\par
+%*********************************************
+%\sect{Row Operations}
+\sect{Satır/Sütun İşlemleri}
+%Row Operations: (change matrix in place)\\
+Satır İşlemleri: (matrisi değiştirirler)\\
+%{\warn Caution}: first row is numbered 0\\
+{\warn Uyarı}: İlk satırın indisi 0'dır\\
+%{\ex\verb!A.rescale_row(i,a)!} \verb!a*!(row \verb!i!)\\
+{\ex\verb!A.rescale_row(i,a)!} \verb!a*!(\verb!i! satırı)\\
+%{\ex\verb!A.add_multiple_of_row(i,j,a)!} \verb!a*!(row \verb!j!) + row \verb!i!\\
+{\ex\verb!A.add_multiple_of_row(i,j,a)!} \verb!a*!(\verb!j! satırı) $+$ \verb!i! satırı\\
+%{\ex\verb!A.swap_rows(i,j)!} \\
+{\ex\verb!A.swap_rows(i,j)!}  \verb!i! satırıyla \verb!j! satırı yer değiştirir \\
+%Each has a column variant, \verb!row!$\rightarrow$\verb!col!\\
+Her satır işleminin sütun karşılığı vardır, \verb!row!$\rightarrow$\verb!col!\\
+%For a new matrix, use e.g.\ {\ex\verb!B = A.with_rescaled_row(i,a)!}
+Yeni bir matris için, örn. \ {\ex\verb!B = A.with_rescaled_row(i,a)!}
+\par
+%*********************************************
+%\sect{Echelon Form}
+\sect{Matrisleri Merdiven Haline Getirilmesi }
+{\ex\verb!A.echelon_form()!},
+{\ex\verb!A.echelonize()!},
+{\ex\verb!A.hermite_form()!}\\
+%{\warn Caution}: Base ring affects results\\
+{\warn Uyarı}: Sonuçlar, tanım halkasına bağlıdır \\
+{\ex\verb!A = matrix(ZZ,[[4,2,1],[6,3,2]])!}\\
+{\ex\verb!B = matrix(QQ,[[4,2,1],[6,3,2]])!}\\
+\begin{tabular}{ll}
+{\ex\verb!A.echelon_form()!} & {\ex\verb!B.echelon_form()!}\\
+$\left(\begin{array}{rrr}
+2 & 1 & 0 \\
+0 & 0 & 1
+\end{array}\right)$
+&
+$\left(\begin{array}{rrr}
+1 & \frac{1}{2} & 0 \\
+0 & 0 & 1
+\end{array}\right)$
+\end{tabular}\\
+%{\ex\verb!A.pivots()!} indices of columns spanning column space\\
+%{\ex\verb!A.pivot_rows()!} indices of rows spanning row space
+{\ex\verb!A.pivots()!} sütun uzayını geren sütunların indisleri\\
+{\ex\verb!A.pivot_rows()!} satır uzayını geren satırların indisleri
+\par
+%*********************************************
+%\sect{Pieces of Matrices}
+\sect{Matrislerin Parçaları}
+%{\warn Caution}: row, column numbering begins at 0\\
+{\warn Uyarı}: Satır ve sütunların isimlendirilmesi 0'dan başlar\\
+{\ex\verb!A.nrows()!}\\
+{\ex\verb!A.ncols()!}\\
+%{\ex\verb!A[i,j]!} entry in row \verb!i! and column \verb!j!\\
+{\ex\verb!A[i,j]!} \verb!i!-nci satır ve \verb!j!-nci sütundaki kutunun içeriği\\
+%\skipin{\warn Caution}: OK: \verb!A[2,3] = 8!, Error: \verb!A[2][3] = 8!\\
+\skipin{\warn Uyarı}: Doğru: \verb!A[2,3] = 8!, Yanlış: \verb!A[2][3] = 8!\\
+%{\ex\verb!A[i]!} row \verb!i! as immutable Python tuple\\
+{\ex\verb!A[i]!} \verb!i! satırı (değiştirilemez bir Python destesi olarak)\\
+%{\ex\verb!A.row(i)!} returns row \verb!i! as Sage vector\\
+{\ex\verb!A.row(i)!} \verb!i! satırı (Sage vektörü)\\
+%{\ex\verb!A.column(j)!} returns column \verb!j! as Sage vector\\
+{\ex\verb!A.column(j)!} \verb!j! sütunu (Sage vektörü)\\
+%{\ex\verb!A.list()!} returns single Python list, row-major order\\
+{\ex\verb!A.list()!} Matris, satır öncelikli dizilmiş (Python listesi)\\
+{\ex\verb!A.matrix_from_columns([8,2,8])!}\\
+%\skipin new matrix from columns in list, repeats OK\\
+\skipin seçilen sütunlardan matris yap (sütunlar yinelenebilir)\\
+{\ex\verb!A.matrix_from_rows([2,5,1])!}\\
+%\skipin new matrix from rows in list, out-of-order OK\\
+\skipin seçilen satırlardan matris yap (satırlar sırasız olabilir)\\
+{\ex\verb!A.matrix_from_rows_and_columns([2,4,2],[3,1])!}\\
+%\skipin common to the rows and the columns\\
+\skipin satır ve sütun numaralı kutulardan yeni matris yap\\
+%{\ex\verb!A.rows()!}  all rows as a list of tuples\\
+{\ex\verb!A.rows()!}  tüm satırlar (destelerden bir liste halinde)\\
+%{\ex\verb!A.columns()!}  all columns as a list of tuples\\
+{\ex\verb!A.columns()!}  tüm sütunlar (destelerden bir liste halinde)\\
+{\ex\verb!A.submatrix(i,j,nr,nc)!}\\
+%\skipin start at entry \verb!(i,j)!, use \verb!nr! rows, \verb!nc! cols\\
+\skipin sol üst köşesi \verb!(i,j)! kutusu olan \verb!nr! $\times$ \verb!nc! altmatris\\
+%{\ex\verb!A[2:4,1:7]!}, {\ex\verb!A[0:8:2,3::-1]!} Python-style list slicing
+{\ex\verb!A[2:4,1:7]!}, {\ex\verb!A[0:8:2,3::-1]!} Python tarzı liste kesiti
+\par
+%*********************************************
+%\sect{Combining Matrices}
+\sect{Matrisleri Birleştirme}
+%{\ex\verb!A.augment(B)!}  \verb!A! in first columns, \verb!B! to the right\\
+{\ex\verb!A.augment(B)!}  $=[\verb!A|B!]$, \verb!A! matrisi \verb!B!'nin soluna konur\\
+%{\ex\verb!A.stack(B)!}  \verb!A! in top rows, \verb!B! below\\
+{\ex\verb!A.stack(B)!}  \verb!A! matrisi \verb!B!'nin üzerine konur\\
+%{\ex\verb!A.block_sum(B)!}  Diagonal, \verb!A! upper left, \verb!B! lower right\\
+{\ex\verb!A.block_sum(B)!} \verb!A! solüstte, \verb!B! sağaltta blok köşegen mat.\\
+%{\ex\verb!A.tensor_product(B)!}  Multiples of \verb!B!, arranged as in \verb!A!
+{\ex\verb!A.tensor_product(B)!} \verb!B!'nin katları \verb!A!'ya uygun dizilmiş
+\par
+%*********************************************
+%\sect{Scalar Functions on Matrices}
+\sect{Matrislere Sayı Atayan Fonksiyonlar}
+{\ex\verb!A.rank()!}\\
+{\ex\verb!A.nullity() == A.left_nullity()!}\\
+{\ex\verb!A.right_nullity()!}\\
+{\ex\verb!A.determinant() == A.det()!}\\
+{\ex\verb!A.permanent()!}\\
+{\ex\verb!A.trace()!}\\
+%{\ex\verb!A.norm() == A.norm(2)!} Euclidean norm\\
+%{\ex\verb!A.norm(1)!} largest column sum\\
+%{\ex\verb!A.norm(Infinity)!} largest row sum\\
+%{\ex\verb!A.norm('frob')!} Frobenius norm
+{\ex\verb!A.norm() == A.norm(2)!} Öklid normu\\
+{\ex\verb!A.norm(1)!} en büyük sütun toplamı\\
+{\ex\verb!A.norm(Infinity)!} en büyük satır toplamı\\
+{\ex\verb!A.norm('frob')!} Frobenius normu
+\par
+%*********************************************
+%\sect{MatrixProperties}
+\sect{Matrislerin Özellikleri}
+%{\ex\verb!.is_zero()!} (totally?), 
+%{\ex\verb!.is_one()!} (identity matrix?),\\
+%{\ex\verb!.is_scalar()!} (multiple of identity?), 
+%{\ex\verb!.is_square()!},\\
+%{\ex\verb!.is_symmetric()!}, 
+%{\ex\verb!.is_invertible()!}, 
+%{\ex\verb!.is_nilpotent()!}
+{\ex\verb!.is_zero()!} (sıfır mı?), 
+{\ex\verb!.is_one()!} (birim matris mi?),\\
+{\ex\verb!.is_scalar()!} (birimin katı mı?), 
+{\ex\verb!.is_square()!},\\
+{\ex\verb!.is_symmetric()!}, 
+{\ex\verb!.is_invertible()!}, 
+{\ex\verb!.is_nilpotent()!}
+\par
+%*********************************************
+%\sect{Eigenvalues}
+\sect{Özdeğerler}
+%{\ex\verb!A.charpoly('t')!}  no variable specified defaults to \verb!x!\\
+{\ex\verb!A.charpoly('t')!} $=\det(\verb!t! - \verb!A!)$ (varsayılan değişken \verb!x!)\\
+{\ex\verb!  A.characteristic_polynomial() == A.charpoly()!}\\
+%{\ex\verb!A.fcp('t')!}  factored characteristic polynomial\\
+{\ex\verb!A.fcp('t')!} çarpanlarına ayrılmış karakteristik polinom\\
+%{\ex\verb!A.minpoly()!}  the minimum polynomial\\
+{\ex\verb!A.minpoly()!}  minimum polinom\\
+{\ex\verb!  A.minimal_polynomial() == A.minpoly()!}\\
+%{\ex\verb!A.eigenvalues()!} unsorted list, with mutiplicities\\
+{\ex\verb!A.eigenvalues()!} Özdeğerlerin listesi (sırasız, katlılık) \\
+%
+%{\ex\verb!A.eigenvectors_left()!} vectors on left, \verb!_right! too\\
+%\skipin Returns a list of triples, one per eigenvalue:\\
+%\skipin\skipin\verb!e!: the eigenvalue\\
+%\skipin\skipin\verb!V!: list of vectors, basis for eigenspace\\
+%\skipin\skipin\verb!n!: algebraic multiplicity\\
+%
+{\ex\verb!A.eigenvectors_left()!} vektörler solda (sağ $\to $\verb!_right!) \\
+\skipin Özdeğerlere karşılık üçlülerden $\verb!(e,V,n)!$ bir liste verir:\\
+\skipin\skipin\verb!e!: Özdeğer\\
+\skipin\skipin\verb!V!: Özuzayın bir tabanı\\
+\skipin\skipin\verb!n!: Cebirsel Katlılık\\
+%%
+%{\ex\verb!A.eigenmatrix_right()!} vectors on right, \verb!_left! too\\
+%\skipin Returns two matrices:\\
+%\skipin\skipin\verb!D!: diagonal matrix with eigenvalues\\
+%\skipin\skipin\verb!P!: eigenvectors as columns (rows for left version)\\
+%\skipin\skipin\skipin has zero columns if matrix not diagonalizable
+%
+{\ex\verb!A.eigenmatrix_right()!} vektörler sağda \verb!_left! too\\
+\skipin İki matris verir:\\
+\skipin\skipin\verb!D!: özdeğerlerden oluşan köşegen matris\\
+\skipin\skipin\verb!P!: sütunları \verb!A!'nın özvektörleri (\verb!_left! satırlar özvek.)\\
+\skipin\skipin\skipin eğer \verb!A! köşegenlenemezse, sıfır sütunları var
+\par                    
+%*********************************************
+\sect{Matris Ayrışmaları}
+%
+%{\warn Note}: availability depends on base ring of matrix\\
+{\warn Önemli}: Bu yöntemler, uygun halkalarda tanımlıdır.\\
+%{\ex\verb!A.jordan_form(transformation=True)!}\\
+%\skipin returns a pair of matrices:\\
+%\skipin\skipin\verb!J!: matrix of Jordan blocks for eigenvalues\\
+%\skipin\skipin\verb!P!: nonsingular matrix\\
+%\skipin\skipin so \verb!    A == P^(-1)*J*P!\\
+%%
+{\ex\verb!A.jordan_form(transformation=True)!}\\
+\skipin iki matris verir:\\
+\skipin\skipin\verb!J!: Jordan blokların oluşan bir matris\\
+\skipin\skipin\verb!P!: tersinir bir matris\\
+\skipin\skipin öyle ki, \verb!    A == P^(-1)*J*P!\\
+%
+%{\ex\verb!A.smith_form()!} returns a triple of matrices:\\
+%\skipin\verb!D!: elementary divisors on diagonal\\
+%\skipin\verb!U, V!: with unit determinant\\
+%\skipin so \verb!    D == U*A*V!\\
+%%
+{\ex\verb!A.smith_form()!} üç matris verir:\\
+\skipin\verb!D!: köşegen boyunca temel bölenler\\
+\skipin\verb!U, V!: determinantları tersinir\\
+\skipin öyle ki, \verb!    D == U*A*V!\\
+%
+%{\ex\verb!A.LU()!} returns a triple of matrices:\\
+%\skipin\verb!P!: a permutation matrix\\
+%\skipin\verb!L!: lower triangular matrix\\
+%\skipin\verb!U!: upper triangular matrix\\
+%\skipin so \verb!    P*A == L*U!\\
+%%
+{\ex\verb!A.LU()!} üç  matris verir:\\
+\skipin\verb!P!: bir permütasyon matrisi\\
+\skipin\verb!L!: alt-üçgen matris\\
+\skipin\verb!U!: üst-üçgen matris\\
+\skipin öyle ki, \verb!    P*A == L*U!\\
+%
+%{\ex\verb!A.QR()!} returns a pair of matrices:\\
+%\skipin\verb!Q!: an orthogonal matrix\\
+%\skipin\verb!R!: upper triangular matrix\\
+%\skipin so \verb!    A == Q*R!\\
+%%
+{\ex\verb!A.QR()!} iki matris verir:\\
+\skipin\verb!Q!: dik matris\\
+\skipin\verb!R!: üst-üçgen matris\\
+\skipin öyle ki, \verb!    A == Q*R!\\
+%
+%{\ex\verb!A.SVD()!} returns a triple of matrices:\\
+%\skipin\verb!U!: an orthogonal matrix\\
+%\skipin\verb!S!: zero off the diagonal, same dimensions as \verb!A!\\
+%\skipin\verb!V!: an orthogonal matrix\\
+%\skipin so \verb!  A == U*S*(V-conjugate-transpose)!\\
+%%
+{\ex\verb!A.SVD()!} üç matris verir:\\
+\skipin\verb!U!: dik matris\\
+\skipin\verb!S!: köşegen dışında sıfır, \verb!A! ile aynı boyutlarda\\
+\skipin\verb!V!: dik matris\\
+\skipin öyle ki, \verb!  A == U*S*(V'nin devrik eşleniği)!\\
+%
+{\ex\verb!A.symplectic_form()!}\\
+{\ex\verb!A.hessenberg_form()!}\\
+{\ex\verb!A.cholesky()!}\par
+%*********************************************
+%\sect{Solutions to Systems}
+%{\ex\verb!A.solve_right(B)!} \verb!_left! too\\
+%\skipin is solution to \verb!A*X = B!, where \verb!X! is a vector {\bf or} matrix\\
+%{\ex\verb!A = matrix(QQ, [[1,2],[3,4]])!}\\
+%{\ex\verb!b = vector(QQ, [3,4])!}\\
+%\skipin then {\ex\verb!A\b!} returns the solution {\ex\verb!(-2, 5/2)!}
+\sect{Doğrusal Denklem Takımlarının Çözümleri}
+{\ex\verb!A.solve_right(B)!}, {\ex\verb!A.solve_left(B)!} sırasıyla \verb!A*X = B! 
+\skipin ve \verb!X*A = B! denklemlerini çözer (\verb!X!  vektör veya matris)\\
+{\ex\verb!A = matrix(QQ, [[1,2],[3,4]])!}\\
+{\ex\verb!b = vector(QQ, [3,4])!}\\
+\skipin için  \verb!A*x = b!'nin çözümü {\ex\verb!A\b!}$=\verb!A!^{-1}\verb!b!=${\ex\verb!(-2, 5/2)!}'tir.
+\par
+%*********************************************
+%\sect{Vector Spaces}
+%{\ex\verb!U = VectorSpace(QQ, 4)!}  dimension 4, rationals as field\\
+%{\ex\verb!V = VectorSpace(RR, 4)!}  ``field'' is 53-bit precision reals\\
+%{\ex\verb!W = VectorSpace(RealField(200), 4)!}\\
+%\skipin ``field'' has 200 bit precision\\
+%{\ex\verb!X = CC^4!} 4-dimensional, 53-bit precision complexes\\
+%{\ex\verb!Y = VectorSpace(GF(7), 4)!}  finite\\
+%\skipin{\ex\verb!Y.finite()!} returns \verb!True!\\
+%\skipin{\ex\verb!len(Y.list())!} returns $7^4=2401$ elements
+\sect{Doğrusal Uzaylar}
+{\ex\verb!U = VectorSpace(QQ, 4)!} kesirler üstünde 4 boyutlu uzay\\
+{\ex\verb!V = VectorSpace(RR, 4)!}  ``cisim'' 53-bit hassas gerçeller\\
+{\ex\verb!W = VectorSpace(RealField(200), 4)!}\\
+\skipin ``cisim'' 200-bit hassaslıkta\\
+{\ex\verb!X = CC^4!} 4-boyutlu, 53-bit hassas karmaşıklar\\
+{\ex\verb!Y = VectorSpace(GF(7), 4)!}  sonlu doğrusal uzay\\
+\skipin{\ex\verb!Y.finite()!} sorusu Doğru (\verb!True!) yanıtı verir\\
+\skipin{\ex\verb!len(Y.list())!} $=7^4=2401=$  \verb!Y!'nin üye sayısı 
+\par
+%*********************************************
+%\sect{Vector Space Properties}
+\sect{Doğrusal Uzayların Özellikleri}
+%{\ex\verb!V.dimension()!}\\
+%{\ex\verb!V.basis()!}\\
+%{\ex\verb!V.echelonized_basis()!}\\
+%{\ex\verb!V.has_user_basis()!} with non-canonical basis?\\
+%{\ex\verb!V.is_subspace(W)!} \verb!True! if \verb!W! is a subspace of \verb!V!\\
+%{\ex\verb!V.is_full()!} rank equals degree (as module)?\\
+%{\ex\verb!Y = GF(7)^4!},\quad{\ex\verb!T = Y.subspaces(2)!}\\
+%\skipin\verb!T! is a generator object for 2-D subspaces of \verb!Y!\\
+%\skipin\verb![U for U in T]! is list of 2850 2-D subspaces of \verb!Y!
+{\ex\verb!V.dimension()!} \verb!V!'nin boyutu\\
+{\ex\verb!V.basis()!} \verb!V!'nin tabanı\\
+{\ex\verb!V.echelonized_basis()!}\\
+{\ex\verb!V.has_user_basis()!} kullanıcı  \verb!V! için bir taban vermiş mi?\\
+{\ex\verb!V.is_subspace(W)!} \verb!W!, \verb!V!'nin altuzayı mı?\\
+{\ex\verb!V.is_full()!} modül olarak, rank mertebeye eşit mi?\\
+{\ex\verb!Y = GF(7)^4!},\quad{\ex\verb!T = Y.subspaces(2)!}\\
+\skipin\verb!T!, \verb!Y!'nin 2 boyutlu altuzaylarını üreten nesne\\
+\skipin\verb![U for U in T]! \verb!Y!'nin 2 boyutlu altuzay listesi (=2850)
+\par
+%*********************************************
+%\sect{Constructing Subspaces}
+%{\ex\verb!span([v1,v2,v3], QQ)!} span of list of vectors over ring
+%\par\vspace*{4pt}
+%For a matrix \verb!A!, objects returned are\\
+%\skipin vector spaces when base ring is a field\\
+%\skipin modules when base ring is just a ring\\
+%{\ex\verb!A.left_kernel() == A.kernel()!} \verb!right_! too\\
+%{\ex\verb!A.row_space() == A.row_module()!}\\
+%{\ex\verb!A.column_space() == A.column_module()!}\\
+%{\ex\verb!A.eigenspaces_right()!} vectors on right, \verb!_left! too\\
+%\skipin Pairs, having eigenvalue with its right eigenspace
+%\par\vspace*{4pt}
+%If \verb!V! and \verb!W! are subspaces\\
+%{\ex\verb!V.quotient(W)!} quotient of \verb!V! by subspace \verb!W!\\
+%{\ex\verb!V.intersection(W)!} intersection of \verb!V! and \verb!W!\\
+%{\ex\verb!V.direct_sum(W)!} direct sum of \verb!V! and \verb!W!\\
+%{\ex\verb!V.subspace([v1,v2,v3])!} specify basis vectors in a list
+\sect{Altuzaylar}
+{\ex\verb!span([v1,v2,v3], QQ)!} \verb!v1,v2,v3!'ün  gerdiği altuzay$/$\verb!QQ!
+\par\vspace*{4pt}
+Bir \verb!A! matrisinden başlayarak, \\
+\skipin tanım halkası cisim ise, doğrusal uzaylar\\
+\skipin tanım halkası yalnızca halka ise, modüller üretilir\\
+{\ex\verb!A.left_kernel() == A.kernel()!} sağ yan için \verb!right_!\\
+{\ex\verb!A.row_space() == A.row_module()!}\\
+{\ex\verb!A.column_space() == A.column_module()!}\\
+{\ex\verb!A.eigenspaces_right()!} vektörler sağda, sol için \verb!_left!\\
+\skipin Pairs, having eigenvalue with its right eigenspace
+\par\vspace*{4pt}
+Eğer \verb!V! ve \verb!W! altuzaylarsa,\\
+{\ex\verb!V.quotient(W)!} $= \verb!V!/  \verb!W! =$ \verb!V!'nin \verb!W! altuzayı ile bölümü\\
+{\ex\verb!V.intersection(W)!} $= \verb!V! \cap \verb!W! =$ \verb!V!'nin \verb!W! ile kesişimi\\
+{\ex\verb!V.direct_sum(W)!} $= \verb!V! \oplus \verb!W! =$ \verb!V! ile \verb!W!'nın direkt toplamı\\
+{\ex\verb!V.subspace([v1,v2,v3])!} %% BURAYA
+\par
+%*********************************************
+%\sect{Dense versus Sparse}
+%{\warn Note:} Algorithms may depend on representation\\
+%Vectors and matrices have two representations\\
+%\skipin Dense: lists, and lists of lists\\
+%\skipin Sparse: Python dictionaries\\
+%{\ex\verb!.is_dense()!}, {\ex\verb!.is_sparse()!}  to check\\
+%{\ex\verb!A.sparse_matrix()!} returns sparse version of \verb!A!\\
+%{\ex\verb!A.dense_rows()!} returns dense row vectors of \verb!A!\\
+%Some commands have  boolean \verb!sparse! keyword
+\sect{Yoğun ya da Seyrek}
+{\warn Not:} Algoritmalar, nesnelerin temsil şekline göre değişir\\
+Vektörler ve matrislerin iki tür temsili vardır:\\
+\skipin Yoğun: listeler (vektör) ve listelerin listeleri (matris)\\
+\skipin Seyrek: Python sözlükleri\\
+{\ex\verb!.is_dense()!} yoğun mu?, {\ex\verb!.is_sparse()!} seyrek mi?\\
+{\ex\verb!A.sparse_matrix()!} \verb!A!'nın seyrek temsili\\
+{\ex\verb!A.dense_rows()!} (yoğun) satır vektörleri olarak \verb!A!\\
+Bazı komutlarda \verb!sparse! seçeneğini seçebilirsiniz 
+\par
+%*********************************************
+%\sect{Rings}
+%{\warn Note:} Many algorithms depend on the base ring\\
+%{\ex\verb!<object>.base_ring(R)!} for vectors, matrices,\dots\\
+%\skipin to determine the ring in use\\
+%{\ex\verb!<object>.change_ring(R)!} for vectors, matrices,\dots\\
+%\skipin to change to the ring (or field), \verb!R!,\\
+%{\ex\verb!R.is_ring()!},\quad{\ex\verb!R.is_field()!}\\
+%{\ex\verb!R.is_integral_domain()!},\quad{\ex\verb!R.is_exact()!}
+%\par\vspace*{4pt}
+%Some ring and fields\\
+%\skipin{\ex\verb!ZZ!}\quad integers, ring\\
+%\skipin{\ex\verb!QQ!}\quad rationals, field\\
+%\skipin{\ex\verb!QQbar!}\quad algebraic field, exact\\
+%\skipin{\ex\verb!RDF!}\quad real double field, inexact\\
+%\skipin{\ex\verb!RR!}\quad 53-bit reals, inexact\\
+%\skipin{\ex\verb!RealField(400)!}\quad 400-bit reals, inexact\\
+%\skipin{\ex\verb!CDF!,\quad\verb!CC!,\quad\verb!ComplexField(400)!}\quad complexes, too\\
+%\skipin{\ex\verb!RIF!}\quad real interval field\\
+%\skipin{\ex\verb!GF(2)!}\quad mod 2, field, specialized implementations\\
+%\skipin{\ex\verb!GF(p) == FiniteField(p)!}\quad \verb!p! prime, field\\
+%\skipin{\ex\verb!Integers(6)!}\quad integers mod 6, ring only \\
+%\skipin{\ex\verb!CyclotomicField(7)!}\quad rationals with 7$^{\rm th}$ root of unity\\
+%\skipin{\ex\verb!QuadraticField(-5, 'x')!}\quad rationals adjoin \verb!x=!$\sqrt{-5}$\\
+%\skipin{\ex\verb!SR!}\quad ring of symbolic expressions
+\sect{Halkalar}
+{\warn Not:} Farklı halkalar üzerinde farklı algoritmalar kullanılır\\
+{\ex\verb!<nesne>.base_ring(R)!} vektör, matris gibi bir \verb!nesne! \\ 
+\skipin için üzerinde tanımlandığı halkayı verir\\
+{\ex\verb!<nesne>.change_ring(R)!} vektör, matris gibi bir \verb!nesne! 
+\skipin için üzerinde tanımlandığı halkayı (cismi) değiştirir\\
+{\ex\verb!R.is_ring()!} halka mı? ,\quad{\ex\verb!R.is_field()!}  cisim mi?\\
+{\ex\verb!R.is_integral_domain()!},\quad{\ex\verb!R.is_exact()!}
+\par\vspace*{4pt}
+Bazı Halkalar ve Cisimler\\
+\skipin{\ex\verb!ZZ!}\quad tamsayılar, halka\\
+\skipin{\ex\verb!QQ!}\quad kesir sayılar, cisim\\
+\skipin{\ex\verb!QQbar!}\quad cebirsel cisim, kayıpsız\\
+\skipin{\ex\verb!RDF!}\quad real double field, kayıpsız\\
+\skipin{\ex\verb!RR!}\quad 53-bit hassas gerçeller, kayıplı\\
+\skipin{\ex\verb!RealField(400)!}\quad 400-bit hassas gerçeller, kayıpsız\\
+\skipin{\ex\verb!CDF!,\quad\verb!CC!,\quad\verb!ComplexField(400)!}\quad karmaşıklar\\
+\skipin{\ex\verb!RIF!}\quad gerçel aralık cismi\\
+\skipin{\ex\verb!GF(2)!}\quad mod 2, cisim, özel algoritmalar\\
+\skipin{\ex\verb!GF(p) == FiniteField(p)!}\quad \verb!p! asal, sonlu cisim\\
+\skipin{\ex\verb!Integers(6)!}\quad mod 6'da tamsayılar, yalnızca halka \\
+\skipin{\ex\verb!CyclotomicField(7)!}\quad 1'in 7. kökleri eklenmiş kesirler \\
+\skipin{\ex\verb!QuadraticField(-5, 'x')!}\, kesirlere \verb!x=!$\sqrt{-5}$ eklenmiş\\
+\skipin{\ex\verb!SR!}\quad simgesel ifadeler halkası
+\par
+%*********************************************
+%\sect{Vector Spaces versus Modules}
+%A module is ``like'' a vector space over a ring, not a field\\
+%Many commands above apply to modules\\
+%Some ``vectors'' are really module elements
+\sect{Doğrusal Uzaylarla Modüller}
+Bir halka üzerinde tanımlanan doğrusal uzaya modül denir \\
+Yukarıdaki pek çok komut modüller için de geçerlidir\\
+Bazı ``vektörler'' de aslında bir modülün elemanlarıdır
+\par
+%*********************************************
+%\sect{More Help}
+%``tab-completion'' on partial commands\\
+%``tab-completion'' on \verb!<object.>! for all relevant methods\\
+%\verb!<command>?! for summary and examples\\
+%\verb!<command>??! for complete source code
+\sect{Biraz Daha Yardım}
+Kısmen yazılmış bir komut ``tab''a basarak tamamlanır\\
+\verb!nesne.! 'den sonra ``tab'', ilgili tüm yöntemleri gösterir\\
+\verb!<komut>?! özet ve örnekler\\
+\verb!<komut>??! tüm kaynak kodu
+%
+\end{multicols*}
+
+\end{document}
