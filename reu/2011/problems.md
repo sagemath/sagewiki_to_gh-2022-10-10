@@ -13,3 +13,5 @@ I keep thinking of good ideas for projects for the summer REU involving elliptic
   * Create a *print* version of tables of all curves up to norm conductor 1000 over Q(sqrt(5)), which looks just like Cremona's tables. 
 
   * Give an algorithm to find minimal twists over Q(sqrt(5)) that is exactly analogous to the one described in Section 2.1 of [[http://wstein.org/papers/stein-watkins/ants.pdf|Stein-Watkins]].
+
+  * Give an analogue of Mazur's theorem over Q(sqrt(5)). This is the theorem that classifies the prime degrees of rational isogenies. (Update: This problem has been solved by Filip Najman -- personal email to wstein on June 1, 2011.)
