@@ -4,10 +4,14 @@
  * ''Difficulty'' -- Easy
  * ''Prerequisites'' -- None
  * ''Background'' -- know about Witt vectors
- * ''Contributors'' -- 
+ * ''Contributors'' -- Taylor Dupuy, David Roe
  * ''Progress'' - not started
- * ''Related Tickets'' -- 
+ * ''Related Tickets'' -- http://trac.sagemath.org/sage_trac/ticket/11457
 
 == Discussion ==
 
 == Tasks ==
+
+-p-typical
+-truncated witt vectors
+-teichmuller lifts
