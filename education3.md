@@ -48,9 +48,10 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * [[http://www.csudh.edu/math/wpong/|Wai Yan Pong]] (California State University, Dominguez Hills)
  * Rao Potluri (Reed College)
  * [[http://www.math.usm.edu/perry/|John Perry]] (University of Southern Mississippi)
+ * Philip Robinson (Western Washington University)
  * [[http://www.mc.edu/faculty/travis|John Travis]] (Mississippi College)
  * [[http://wstein.org/|William Stein]] (University of Washington)
- * Philip Robinson (Western Washington University)
+
 
 = Mailing Lists =
 
