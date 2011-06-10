@@ -32,17 +32,26 @@ The following should *at a minimum* work with SQLite, since that is included wit
 == i18n ==
  * port the internationalization patches ([[http://trac.sagemath.org/sage_trac/ticket/9428|#9428]]) to the new notebook
 
-== rst to notebook ==
+== Jmol Update ==
+ * [[http://trac.sagemath.org/sage_trac/ticket/9238|#9238]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/11078|#11078]]
 
+== notebook to and from other formats ==
+ * sws2tex - see [[https://bitbucket.org/whuss/sws2tex/|its bitbucket site]]
+ * sws2rst - see [[http://trac.sagemath.org/sage_trac/ticket/10637|#10637]]
+ * rst to notebook
 I would like to polish up and merge into Sage a script I wrote this
 winter to translate .rst files into notebook (txt) files. It is based
 on the file docHTMLProcessor.py which is part of the sage notebook.
 Although, since there are always rumors that the Sage Notebook is
 changing, I did not push it any further and was waiting for the new
 version of the Notebook before. The script (rst2notebook) is available
-in the misc directory of the sage-combinat hg server :
+in the misc directory of the [[http://combinat.sagemath.org/hgwebdir.cgi/misc/file/ef17ccb37589/notebook2rst/|sage-combinat hg server]].
 
-http://combinat.sagemath.org/hgwebdir.cgi/misc/file/ef17ccb37589/notebook2rst/
+== The mysterious moving/disappearing text bug ==
+ * Find a reproducible one
+ * Fix it
+
 
 I think that week would be perfect to polish it and finish it.
 
