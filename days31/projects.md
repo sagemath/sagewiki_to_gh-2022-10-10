@@ -46,3 +46,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
 == The mysterious moving/disappearing text bug ==
  * Find a reproducible one
  * Fix it
+
+== Geogebra integration ==
+ * Confirm proof of concept at [[http://trac.sagemath.org/sage_trac/ticket/7489|#7489]]
+ * Make some progress figuring out how to actually get it into Sage in new notebook
