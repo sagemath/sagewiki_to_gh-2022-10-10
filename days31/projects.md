@@ -51,8 +51,3 @@ in the misc directory of the [[http://combinat.sagemath.org/hgwebdir.cgi/misc/fi
 == The mysterious moving/disappearing text bug ==
  * Find a reproducible one
  * Fix it
-
-
-I think that week would be perfect to polish it and finish it.
-
-Sébastien Labbé
