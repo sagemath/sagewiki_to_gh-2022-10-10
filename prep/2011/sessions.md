@@ -178,6 +178,6 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
       * [[http://sage.maa.org/home/pub/25|Graph Theory and Combinatorics]]
       * [[http://sage.maa.org/home/pub/26|Multivariable calculus]]
       * Linear Algebra (to be posted soon)
-      * Numerical Analysis (to be posted soon)
+      * [[http://sage.maa.org/home/pub/27/|Numerical Analysis]]
     * Continue any discussions you want on the list about technology.
     * Continue to work on a couple worksheets demonstrating what you want to show.
