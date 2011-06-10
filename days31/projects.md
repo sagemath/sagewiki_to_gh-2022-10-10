@@ -45,3 +45,5 @@ in the misc directory of the sage-combinat hg server :
 http://combinat.sagemath.org/hgwebdir.cgi/misc/file/ef17ccb37589/notebook2rst/
 
 I think that week would be perfect to polish it and finish it.
+
+Sébastien Labbé
