@@ -21,6 +21,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Karl-Dieter Crisman|| Sun, 9:29 PM    || Sea-Tac, Alaska      || Fri, 10:45 PM       || Sea-Tac              || probably sharing cab with Erocal and Braun ||
 || Volker Braun       || Sun, 9:47 PM    || Sea-Tac              || Sat, 13:00          || Sea-Tac              || probably sharing cab with Erocal and Crisman ||
 || Jason B. Hill      || Sun, 10:58 PM   || Sea-Tac, Frontier    || Sun, 18:59          || Sea-Tac, Frontier    || no plans as of yet ||
+|| Ira Hanson         || Sun, 11:50 PM   || Sea-Tac              || Sat, 11:25 PM       || Sea-Tac              || ||
 || Ian Stokes-Rees    || Sun, 11:56 PM   || Sea-Tac, Jet Blue    || Wed,  9:50 PM       || Sea-Tac, Jet Blue    || ||
 || Rob Beezer         || Sun, PM         || Car                  || Sat, PM             || Car                  || ||
 || Ryan Grout         || Mon, 9:30 AM    || Sea-Tac, Delta       || Fri, 6:00  PM       || Sea-Tac, Delta       || ||
@@ -68,7 +69,7 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 || Burcin Erocal      ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || Paul Sharaba       ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 ||<rowstyle="background-color: #FFFDD0;">Room 309 || || || || || || || || || ||
-|| Davide Cervone     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 ||        ||        ||        || ||
+|| Ira Hanson         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
 
 For Hotel Deca, please pay for your room on departure and you will be reimbursed.  For shared rooms, just one person can pay the whole bill if that is more convenient than trying to split it.
 
@@ -80,6 +81,8 @@ For Hotel Deca, please pay for your room on departure and you will be reimbursed
 || Rob Beezer         ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || || 4AA8ZO ||
 || Ian Stokes-Rees    ||        || Sun 12 || Mon 13 || Tue 14 ||        ||        ||        ||        || ||        ||
 || Tom Judson         ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 ||        || || 4AA8ZV ||
+||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || || ||
+|| Davide Cervone     ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 ||        ||        ||        || || 4AA9T5 ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || || ||
 || Rao Potluri        ||        ||        ||        ||        || Wed 15 || Thu 16 || Fri 17 || Sat 18 || || 4AA8ZP ||
 ||<rowstyle="background-color: #FFFDD0;"> || || || || || || || || || || ||
