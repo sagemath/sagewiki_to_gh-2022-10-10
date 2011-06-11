@@ -33,6 +33,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
  * Ryan Grout (BYU, Utah)
  * Mike Hansen (Berkeley)
+ * Ira Hanson (Drake University)
  * Keshav Kini (Singapore)
  * [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
  * Galen Knapp (University of Washington CS undergrad)
