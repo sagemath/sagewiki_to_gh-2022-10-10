@@ -114,12 +114,15 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/10920|10920]] || conjugates of permutation groups || 4.7.alpha3 || Dima Pasechnik ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10921|10921]] || commutator subgroup for permutation groups || 4.7.alpha3 || Dima Pasechnik, David Joyner ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10334|10334]] || permutation group cleanup || 4.7.1.alpha1  || Author: Mike Hansen ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11289|11289]] || random poset generation (docs, error checks) || positive review || Franco Saliola ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11292|11292]] || inputs to lattice meet and join || positive review || Anne Schilling, Franco Saliola ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11293|11293]] || all relations of a poset || positive review || Franco Saliola ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11292|11292]] || inputs to lattice meet and join || 4.7.1.alpha1 || Anne Schilling, Franco Saliola ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11293|11293]] || all relations of a poset || 4.7.1.alpha1 || Franco Saliola ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11289|11289]] || random poset generation (docs, error checks) || 4.7.1.alpha3 || Franco Saliola ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10335|10335]] || add domains for permutation groups || positive review  || Author: Mike Hansen ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/9773 | 9773]] || finitely-generated abelian groups || needs work ||  ||
+
+
 == Examples ==
 
 To view a worksheet, click on the "worksheet" link, then in the resulting page find the big blue download box and use your browser's function to copy the link there.  Then open your notebook, click the "Upload" link near the upper-left and then paste in the link into the URL field (the second one).
