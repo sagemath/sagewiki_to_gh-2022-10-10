@@ -57,6 +57,10 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
  * Mailing list for [[http://groups.google.com/group/sagedays31|Sage Days 31]].  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
 
+== IRC ==
+
+ * There is an IRC channel for sage days: #sagemath-days on irc.freenode.net. Feel free to join to discuss whatever...   For those without IRC clients, http://webchat.freenode.net/?channels=sagemath,sagemath-days
+
 == Funding ==
 
  If you're interested in attending, there may be funding for you.   Email wstein@gmail.com. 
