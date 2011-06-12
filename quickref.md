@@ -37,7 +37,7 @@
 
  * '''Kısa Sage Kılavuzu'''  William Stein (Mart 2009) / Kürşat Aker (Mayıs 2011)- [[attachment:quickref-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-tr.pdf|download]] (kaynak: [[attachment:quickref-tr.zip]])
 
-* '''Kısa Sage Kılavuzu: Doğrusal Cebir‎'''  Robert A. Beezer (Mayıs 2009) / Kürşat Aker (Mayıs 2011) - [[attachment:quickref-linalg-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-linalg-tr.pdf|download]] (kaynak: [[attachment:quickref-linalg-tr.tex]])
+ * '''Kısa Sage Kılavuzu: Doğrusal Cebir‎'''  Robert A. Beezer (Mayıs 2009) / Kürşat Aker (Mayıs 2011) - [[attachment:quickref-linalg-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-linalg-tr.pdf|download]] (kaynak: [[attachment:quickref-linalg-tr.tex]])
 
  * '''Kısa Sage Kılavuzu: Temel Sayılar Kuramı''' William Stein (Nisan 2009) / Kürşat Aker (Mayıs 2011) - [[attachment:quickref-nt-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-nt-tr.pdf|download]] (kaynak: [[attachment:quickref-nt-tr.zip]])
 
