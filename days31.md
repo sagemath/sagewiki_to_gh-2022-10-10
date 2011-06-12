@@ -79,6 +79,21 @@ Password: 	kfeu:xsuo:kzoo
  * Lodging will likely be arranged for the participants at the Collegiana Inn near the UW campus.  Details later.
  * See the [[uw-local-info|local information page]] for more specifics.
 
+== Flask Notebook Development ==
+
+  * Rado's leading edge repo:  [[http://code.google.com/r/rkirov-flask/]]
+  * Find instructions at Rado's site for Linux, Mac OSX installation
+  * Main, official repo: [[http://code.google.com/p/sagenb/]]
+  * Development model:  Jason Grout, Rado Kirov, William Stein will pull from repos
+    * Host your repo on Goggle Code, OR
+    * Host your repo on sage.math, like this example
+    {{{
+hg repo in: /home/keshav/some_repo/
+need something like:  chmod a+w  on the directory
+pull and push with URL: ssh://sage.math.washington.edu//home/keshav/some_repo/
+(note double-slash)
+    }}}
+
 == Tentative Schedule (subject to change) ==
 
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
