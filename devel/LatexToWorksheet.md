@@ -69,20 +69,20 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/10987|10987]] || subspace decomposition, check optional || 4.7.alpha5 || Author: Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10794|10794]] || QR matrix decomposition over exact rings || 4.7.alpha5 || Simon Spicer ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11114|11114]] || is_diagonalizable() for matrices || 4.7.1.alpha0 || Dan Drake ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || 4.7.1.alpha2 || Christian Stump ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || 4.7.1.alpha2 || Dan Drake ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || positive review || Martin Raum, John Palmieri ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || positive review || Dan Drake ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || with patches ||  ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patches, dep. 10683, 10794 || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || with patch|| Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || with patch ||  ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || needs review || Martin Raum, John Palmieri ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11104|11104]] || is_normal() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11259|11259]] || LU decomposition for exact matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11306|11306]] || upgrade is_unitary() for RDF/CDF || with patch, dep. #11027, #10848, #11277 ||  ||
