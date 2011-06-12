@@ -53,6 +53,12 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * William Stein [[http://wstein.org/]]
  * Rob Beezer [[http://buzzard.ups.edu]]
 
+== UW Campus Wireless ==
+{{{
+UW NetID: 	event0896
+Password: 	kfeu:xsuo:kzoo
+}}}
+
 == Mailing List ==
 
  * Mailing list for [[http://groups.google.com/group/sagedays31|Sage Days 31]].  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
