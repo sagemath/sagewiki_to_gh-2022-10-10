@@ -52,6 +52,16 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * [[http://www.mc.edu/faculty/travis|John Travis]] (Mississippi College)
  * [[http://wstein.org/|William Stein]] (University of Washington)
 
+= Organizers =
+
+ * Rob Beezer [[http://buzzard.ups.edu]]
+ * William Stein [[http://wstein.org/]]
+
+= UW Campus Wireless =
+{{{
+UW NetID: 	event0896
+Password: 	kfeu:xsuo:kzoo
+}}}
 
 = Mailing Lists =
 
@@ -59,10 +69,9 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
 
  * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
 
-= Organizers =
+= IRC =
 
- * Rob Beezer [[http://buzzard.ups.edu]]
- * William Stein [[http://wstein.org/]]
+ * There is an IRC channel for sage days: #sagemath-days on irc.freenode.net. Feel free to join to discuss whatever...   For those without IRC clients, http://webchat.freenode.net/?channels=sagemath,sagemath-days
 
 = Funding =
 
@@ -71,7 +80,7 @@ Participants from the test sites for the NSF UTMOST project will have first prio
 <<Anchor(registration)>>
 = Registration =
 
-Sign up by adding your name to the "Participants" list above.  Email Rob Beezer  at beezer@ups.edu if you'd rather not figure out how to edit the wiki page and he'll add your name.  (Hint: there are 168 primes less than 1000.)
+Sign up by adding your name to the "Participants" list above.  Email Rob Beezer  at beezer@ups.edu if you'd rather not figure out how to edit the wiki page and he'll add your name.
 
 = Logistics =
 
