@@ -87,3 +87,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * People:
  * Create a general way to easily incorporate (Javascript) widgets, such as existing Tiny MCE editor and graph editor or rumored matrix editor, equation editor, function palette, etc
  * [[http://trac.sagemath.org/sage_trac/ticket/9585|#9585]] (Davide Cervone)
+
+== Notebook Code Site Issues ==
+ * People: William Stein (maintainer/owner)
+ * [[http://code.google.com/p/sagenb/issues/list]]
