@@ -8,6 +8,7 @@
 
 == MathJax ==
  * [[http://trac.sagemath.org/sage_trac/ticket/9774|#9774]]
+ * From Nicolas Thiery:  would Mathjax be able to support pgf/tikz pictures?
 
 
 == Notebook Logging ==
