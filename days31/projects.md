@@ -51,3 +51,23 @@ The following should *at a minimum* work with SQLite, since that is included wit
 == Geogebra integration ==
  * Confirm proof of concept at [[http://trac.sagemath.org/sage_trac/ticket/7489|#7489]]
  * Make some progress figuring out how to actually get it into Sage in new notebook
+
+== Folders, Tags, Hierarchies ==
+  * Provide organization to list of worksheets
+  * Give worksheets identifiers that allow cross-worksheet links
+  * [[http://groups.google.com/group/sage-notebook/browse_thread/thread/a973097dae8a8055|#7665]]
+  * [[http://trac.sagemath.org/sage_trac/ticket/1496|#1496]]
+  * R Beezer: I think there is at least one mre ticket out there, using a Javascript tree library to do this, but I cannot find it.
+
+== Sorting lists of worksheets ==
+  * Sort lists of worksheets based on creation time, modified time, tag, alphabetical
+
+== Various proposals for enhancements ==
+  * [[http://groups.google.com/group/sage-notebook/browse_thread/thread/a973097dae8a8055|sage-notebook Post]]
+
+== Configure cell "skip-ahead" behavior ==
+  * [[http://groups.google.com/group/sage-notebook/browse_thread/thread/3caa14df476d5a0e|sage-notebook Post]]
+
+== Widget Infrastructure ==
+  * Create a general way to easily incorporate (Javascript) widgets, such as existing Tiny MCE editor and graph editor or rumored matrix editor, equation editor, function palette, etc
+  * [[http://trac.sagemath.org/sage_trac/ticket/9585|#9585]] (Davide Cervone)
