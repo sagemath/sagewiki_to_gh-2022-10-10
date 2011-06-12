@@ -42,4 +42,3 @@
  * '''Kısa Sage Kılavuzu: Temel Sayılar Kuramı''' William Stein (Nisan 2009) / Kürşat Aker (Mayıs 2011) - [[attachment:quickref-nt-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-nt-tr.pdf|download]] (kaynak: [[attachment:quickref-nt-tr.zip]])
 
  * '''Kısa Sage Kılavuzu: Calculus''' William Stein (Nisan 2009) / Kürşat Aker (Mayıs 2011) - [[attachment:quickref-calc-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-calc-tr.pdf|download]] (kaynak: [[attachment:quickref-calc-tr.zip]])
-
