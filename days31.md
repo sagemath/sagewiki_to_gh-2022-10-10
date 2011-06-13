@@ -8,6 +8,28 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
  * Mainly the Sage Notebook: [[/projects|Here is a list of specific project ideas]]
 
+== Schedule ==
+
+||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> Monday          || June 13    || || ||
+|| 10:00 AM || Introductions                 ||                                         || ||
+||          || State of the Notebook Address || Rado Kirov, Nanyang Technological U     || ||
+||          || Single-Cell Notebook Server   || Jason Grout, Drake U                    || ||
+||          || Coding Sprint Organization    || William Stein, U of Washington          || ||
+||<rowstyle="background-color: #E0E0FF;"> Tuesday         || June 14    || || ||
+|| 10:00 AM || Jmol                          || Jonathan Gutow, U of Wisconsin, Oshkosh || ||
+||          || Math Jax                      || Davide Cervone, Union College           || ||
+||          || Status Reports                ||                                         || ||
+||<rowstyle="background-color: #E0E0FF;"> Wednesday       || June 15    || || ||
+|| 10:00 AM || `WebWork`                     || Michael Gage, U of Rochester            || ||
+||          ||                               || and Jason Aubrey, U of Missouri         || ||
+||          || Status Reports                ||                                         || ||
+||<rowstyle="background-color: #E0E0FF;"> Thursday/Friday || June 16/17 || || ||
+||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
+||          || Status Reports                ||  || ||
+
+
 == Location ==
 
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
@@ -93,24 +115,3 @@ need something like:  chmod a+w  on the directory
 pull and push with URL: ssh://sage.math.washington.edu//home/keshav/some_repo/
 (note double-slash)
     }}}
-
-== Tentative Schedule (subject to change) ==
-
-||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
-|| || || || ||
-||<rowstyle="background-color: #E0E0FF;"> Monday          || June 13    || || ||
-|| 10:00 AM || Introductions                 ||                                         || ||
-||          || State of the Notebook Address || Rado Kirov, Nanyang Technological U     || ||
-||          || Single-Cell Notebook Server   || Jason Grout, Drake U                    || ||
-||          || Coding Sprint Organization    || William Stein, U of Washington          || ||
-||<rowstyle="background-color: #E0E0FF;"> Tuesday         || June 14    || || ||
-|| 10:00 AM || Jmol                          || Jonathan Gutow, U of Wisconsin, Oshkosh || ||
-||          || Math Jax                      || Davide Cervone, Union College           || ||
-||          || Status Reports                ||                                         || ||
-||<rowstyle="background-color: #E0E0FF;"> Wednesday       || June 15    || || ||
-|| 10:00 AM || `WebWork`                     || Michael Gage, U of Rochester            || ||
-||          ||                               || and Jason Aubrey, U of Missouri         || ||
-||          || Status Reports                ||                                         || ||
-||<rowstyle="background-color: #E0E0FF;"> Thursday/Friday || June 16/17 || || ||
-||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
-||          || Status Reports                ||  || ||
