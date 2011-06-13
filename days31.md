@@ -25,11 +25,9 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
 ||          || Status Reports                ||  || ||
 
-
 == Topics ==
 
  * Mainly the Sage Notebook: [[/projects|Here is a list of specific project ideas]]
-
 
 == Location ==
 
@@ -39,37 +37,36 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  
  * LODGING: Many participants will be staying at the "UWMC Collegiana Hospitality House" (4311 12th Ave. N.E., Seattle)  ([[http://uwmedicine.washington.edu/Patient-Care/Locations/UWMC/Patient-Family-Resources/Pages/Patient-Family-Housing.aspx|mentioned here]]), where I have reserved several rooms.  See [[attachment:collegiana_directions.pdf]] for more information about getting to the Collegiana.
 
-
 == Participants ==
 
  1. [[http://www.math.missouri.edu/personnel/other/aubreyj.html|Jason Aubrey]] (university of Missouri) -- `WebWork`
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound) 
  1. [[https://profiles.google.com/vbraun.name/about|Volker Braun]] (Dublin, Ireland) -- computational physicist
  1. [[http://www.math.union.edu/~dpvc/|Davide P. Cervone]] (Union College, New York) -- author of jsmath and `MathJax`
- * [[http://www.cgl.ucsf.edu/home/bic|Bruce Cohen]] (Lowell High School, San Francisco)
- * [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
- * [[http://www.acadiau.ca/~ecurry|Eva Curry]] (Acadia University)
- * DanDrake (KAIST)
- * Burcin Erocal (Singular Group, Kaiserslautern, Germany)
- * [[http://webhost.math.rochester.edu/gage/bio|Michael Gage]] -- `WebWork` author
- * [[http://www.uwosh.edu/facstaff/gutow/|Jonathan H. Gutow]] (Chemistry Department, UWOSH, Wisconsin)  -- author of JMOL
- * [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
- * Ryan Grout (BYU, Utah)
- * Mike Hansen (Berkeley)
- * Ira Hanson (Drake University)
- * [[http://www.jasonbhill.com|Jason B. Hill]] (University of Colorado)
- * Keshav Kini (Singapore)
- * [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
- * Galen Knapp (University of Washington CS undergrad)
- * SébastienLabbé (Montréal)
- * Benjamin LeVeque (Brown University) -- doesn't require lodging
- * Andrey Novoseltsev (University of Alberta)
- * John Palmieri (University of Washington)
- * Paul Sharaba (Cleveland State University)
- * [[http://wstein.org/|William Stein]] (University of Washington)
- * Ian Stokes-Rees (Harvard Medical School)
- * [[http://www.mc.edu/faculty/travis|John Travis]] (Mississippi College)
- * Zafeirakis Zafeirakopoulos (RISC - Research Institute for Symbolic Computation)
+ 1. [[http://www.cgl.ucsf.edu/home/bic|Bruce Cohen]] (Lowell High School, San Francisco)
+ 1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College)
+ 1. [[http://www.acadiau.ca/~ecurry|Eva Curry]] (Acadia University)
+ 1. DanDrake (KAIST)
+ 1. Burcin Erocal (Singular Group, Kaiserslautern, Germany)
+ 1. [[http://webhost.math.rochester.edu/gage/bio|Michael Gage]] -- `WebWork` author
+ 1. [[http://www.uwosh.edu/facstaff/gutow/|Jonathan H. Gutow]] (Chemistry Department, UWOSH, Wisconsin)  -- author of JMOL
+ 1. [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
+ 1. Ryan Grout (BYU, Utah)
+ 1. Mike Hansen (Berkeley)
+ 1. Ira Hanson (Drake University)
+ 1. [[http://www.jasonbhill.com|Jason B. Hill]] (University of Colorado)
+ 1. Keshav Kini (Singapore)
+ 1. [[http://radokirov.com/|Rado Kirov]] (Nanyang Technological University, Singapore)
+ 1. Galen Knapp (University of Washington CS undergrad)
+ 1. SébastienLabbé (Montréal)
+ 1. Benjamin LeVeque (Brown University) -- doesn't require lodging
+ 1. Andrey Novoseltsev (University of Alberta)
+ 1. John Palmieri (University of Washington)
+ 1. Paul Sharaba (Cleveland State University)
+ 1. [[http://wstein.org/|William Stein]] (University of Washington)
+ 1. Ian Stokes-Rees (Harvard Medical School)
+ 1. [[http://www.mc.edu/faculty/travis|John Travis]] (Mississippi College)
+ 1. Zafeirakis Zafeirakopoulos (RISC - Research Institute for Symbolic Computation)
 
 == Organizers ==
 
@@ -88,7 +85,7 @@ Password: 	kfeu:xsuo:kzoo
 
 == IRC ==
 
- * There is an IRC channel for sage days: #sagemath-days on irc.freenode.net. Feel free to join to discuss whatever...   For those without IRC clients, http://webchat.freenode.net/?channels=sagemath,sagemath-days
+ * There is an IRC channel for sage days: #sagemath-days on irc.freenode.net. Feel free to join to discuss whatever...   For those without IRC clients, http://webchat.freenode.net/?channels=sagemath,sagemath-days , but using an IRC client is strongly recommended. [http://xchat.org/ Xchat] is a popular cross-platform choice.
 
 == Funding ==
 
@@ -107,12 +104,6 @@ Password: 	kfeu:xsuo:kzoo
   * Rado's leading edge repo:  [[http://code.google.com/r/rkirov-flask/]]
   * Find instructions at Rado's site for Linux, Mac OSX installation
   * Main, official repo: [[http://code.google.com/p/sagenb/]]
-  * Development model:  Jason Grout, Rado Kirov, William Stein will pull from repos
-    * Host your repo on Goggle Code, OR
-    * Host your repo on sage.math, like this example
-    {{{
-hg repo in: /home/keshav/some_repo/
-need something like:  chmod a+w  on the directory
-pull and push with URL: ssh://sage.math.washington.edu//home/keshav/some_repo/
-(note double-slash)
-    }}}
+  * Development model:  Jason Grout, Rado Kirov, William Stein will pull from repos; a couple of options on how to create and use your own repo:
+    1. Host your repo on Google Code by [[https://code.google.com/r/rkirov-flask/source/createClone|server-side cloning Rado's repo]] and then cloning your serverside clone ("yourname-sagenb" or something) to your computer (follow the directions on Google Code). Your repository can be pulled from in the standard way, but can only be pushed to by you (you can pull changes from other people and then push them, of course).
+    1. Host your repo on sage.math or somewhere else by cloning Rado's repo (do `hg clone https://rkirov-flask.googlecode.com/hg/` somewhere). If you set appropriate read/write permissions on your repo, then people can push to and pull from your repo using the `ssh://` URI scheme (for example `hg pull ssh://sage.math.washington.edu//home/keshav/some_repo/` -- note the double slash, to use an absolute path rather than a relative patch).
