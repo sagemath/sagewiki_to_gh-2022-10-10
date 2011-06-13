@@ -95,3 +95,22 @@ The following should *at a minimum* work with SQLite, since that is included wit
 == Comparison of number field elements ==
  * People: Robert Bradshaw, Mike Hanson, Burcin Erocal
  * Fix issues related to the (broken) ordering of number field elements: [[http://trac.sagemath.org/sage_trac/ticket/6132|#6132]], [[http://trac.sagemath.org/sage_trac/ticket/7160|#7160]], #10062, [[http://trac.sagemath.org/sage_trac/ticket/10064|#10064]], [[http://trac.sagemath.org/sage_trac/ticket/10849|#10849]], 
+
+== Symbolics ==
+ A bunch of issues related to symbolics, mostly based on user requests.
+
+=== Documentation ===
+ * People: 
+ Document the relation between pynac <-> Sage and how symbolic functions work. Can be divided into 3 parts:
+ * Generic design explanation in `sage.symbolic`
+ * pynac and using Python objects in `numeric` objects
+ * Symbolic functions
+
+=== add more symbolic functions ===
+ * People: 
+ Use the symbolics framework to implement special functions. This involves writing methods for symbolic evaluation (for example `sin(pi) -> 0`, differentiation, wrapper for numeric evaluation, etc.)
+
+=== Long standing symbolics issues ===
+ * People: Burcin
+ * segfaults caused by ordering issues in pynac [[http://trac.sagemath.org/sage_trac/ticket/9880|#9880]]
+ * Dynamic attributes for symbolic functions [[http://trac.sagemath.org/sage_trac/ticket/9556|#9556]]
