@@ -69,7 +69,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * Give worksheets identifiers that allow cross-worksheet links
  * [[http://groups.google.com/group/sage-notebook/browse_thread/thread/a973097dae8a8055|#7665]]
  * [[http://trac.sagemath.org/sage_trac/ticket/1496|#1496]]
- * R Beezer: I think there is at least one mre ticket out there, using a Javascript tree library to do this, but I cannot find it.
+ * R Beezer: I think there is at least one more ticket out there, using a Javascript tree library to do this, but I cannot find it.
 
 == Sorting lists of worksheets ==
  * People: Rob Beezer
@@ -80,7 +80,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * [[http://groups.google.com/group/sage-notebook/browse_thread/thread/a973097dae8a8055|sage-notebook Post]]
 
 == Configure cell "skip-ahead" behavior ==
- * People: rob Beezer
+ * People: Rob Beezer
  * [[http://groups.google.com/group/sage-notebook/browse_thread/thread/3caa14df476d5a0e|sage-notebook Post]]
 
 == Widget Infrastructure ==
