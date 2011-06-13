@@ -85,7 +85,7 @@ Password: 	kfeu:xsuo:kzoo
 
 == IRC ==
 
- * There is an IRC channel for sage days: #sagemath-days on irc.freenode.net. Feel free to join to discuss whatever...   For those without IRC clients, http://webchat.freenode.net/?channels=sagemath,sagemath-days , but using an IRC client is strongly recommended. [http://xchat.org/ Xchat] is a popular cross-platform choice.
+ * There is an IRC channel for sage days: #sagemath-days on irc.freenode.net. Feel free to join to discuss whatever...   For those without IRC clients, http://webchat.freenode.net/?channels=sagemath,sagemath-days , but using an IRC client is strongly recommended. [[http://xchat.org/|Xchat]] is a popular cross-platform choice.
 
 == Funding ==
 
