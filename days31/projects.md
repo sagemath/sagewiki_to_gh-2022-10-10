@@ -120,7 +120,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
 
 === add more symbolic functions ===
  * People: 
- Use the symbolics framework to implement special functions. This involves writing methods for symbolic evaluation (for example `sin(pi) -> 0`, differentiation, wrapper for numeric evaluation, etc.)
+ Use the symbolics framework to implement special functions. This involves writing methods for symbolic evaluation (for example `sin(pi) -> 0`, differentiation, wrapper for numeric evaluation, etc.). See [[http://trac.sagemath.org/sage_trac/wiki/symbolics/functions|the trac wiki page]].
 
 === Long standing symbolics issues ===
  * People: Burcin
