@@ -11,7 +11,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
   * [[#day1|Tuesday, May 24]]
   * [[#day2|Tuesday, June 7]]
-  * Tuesday, June 14
+  * [[#day3|Tuesday, June 14]]
   * Tuesday, June 21
 
 <<Anchor(day1)>>
@@ -130,6 +130,18 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
       * Next Session
       * Homework
 
+<<Anchor(day3)>>
+== Tuesday, June 14 ==
+
+Our goal on the third day of sessions is to give more depth to how to use Sage in various areas one might teach.  We also aim to continue giving more depth in areas like plotting and basic programming.
+
+=== Session I - TBA ===
+    * Welcome Back
+    * TBA
+
+=== Session II - TBA ===
+    * TBA
+
 === Session Links ===
 
   * [[http://www.facebook.com/pages/Sage-Math/26593144945|Sage Facebook Page]]
@@ -181,3 +193,9 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
       * [[http://sage.maa.org/home/pub/27/|Numerical Analysis]]
     * Continue any discussions you want on the list about technology.
     * Continue to work on a couple worksheets demonstrating what you want to show.
+  * For Tuesday, June 21st
+    * TBA
+  * For the future
+    * Use Sage in your classes!
+    * Joint Meetings get-together
+    * More
