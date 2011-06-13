@@ -107,7 +107,7 @@ Trac #6132, etc.
 
 ==   *.sagenb ==
 
-  * [[/sagenb|More Details Here!]
+  * [[/sagenb|More Details Here!]]
 
 upgrade, flask, sage 4.7, and ext4 filesystem
 
