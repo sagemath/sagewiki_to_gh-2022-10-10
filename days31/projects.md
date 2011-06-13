@@ -46,7 +46,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * [[http://trac.sagemath.org/sage_trac/ticket/11078|#11078]]
 
 == notebook to and from other formats ==
- * People: Rob Beezer
+ * People: Rob Beezer, Bruce Cohen
  * sws2tex - see [[https://bitbucket.org/whuss/sws2tex/|its bitbucket site]]
  * sws2rst - see [[http://trac.sagemath.org/sage_trac/ticket/10637|#10637]]
  * rst to notebook - see [[http://trac.sagemath.org/sage_trac/ticket/11459|#11459]]
@@ -59,7 +59,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * Fix it
 
 == Geogebra integration ==
- * People:
+ * People: Bruce Cohen
  * Confirm proof of concept at [[http://trac.sagemath.org/sage_trac/ticket/7489|#7489]]
  * Make some progress figuring out how to actually get it into Sage in new notebook
 
