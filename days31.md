@@ -4,10 +4,6 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
 <<TableOfContents>>
 
-== Topics ==
-
- * Mainly the Sage Notebook: [[/projects|Here is a list of specific project ideas]]
-
 == Schedule ==
 
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
@@ -28,6 +24,11 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||<rowstyle="background-color: #E0E0FF;"> Thursday/Friday || June 16/17 || || ||
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
 ||          || Status Reports                ||  || ||
+
+
+== Topics ==
+
+ * Mainly the Sage Notebook: [[/projects|Here is a list of specific project ideas]]
 
 
 == Location ==
