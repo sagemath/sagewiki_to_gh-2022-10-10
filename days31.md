@@ -15,7 +15,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||          || Coding Sprint Organization    || William Stein, U of Washington          || ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday         || June 14    || || ||
 || 10:00 AM || Jmol                          || Jonathan Gutow, U of Wisconsin, Oshkosh || ||
-||          || MathJax                      || Davide Cervone, Union College           || ||
+||          || `MathJax`                      || Davide Cervone, Union College           || ||
 ||          || Status Reports                ||                                         || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday       || June 15    || || ||
 || 10:00 AM || `WebWork`                     || Michael Gage, U of Rochester            || ||
