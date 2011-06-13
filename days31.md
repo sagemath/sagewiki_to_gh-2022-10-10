@@ -9,7 +9,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Monday          || June 13    || || ||
-|| 10:00 AM || Introductions                 ||                                         || ||
+|| 10:00 AM || Introductions                 || [[http://tinyurl.com/427tye5|Video]]  || ||
 ||          || State of the Notebook Address || Rado Kirov, Nanyang Technological U     || ||
 ||          || Single-Cell Notebook Server   || Jason Grout, Drake U                    || ||
 ||          || Coding Sprint Organization    || William Stein, U of Washington          || ||
