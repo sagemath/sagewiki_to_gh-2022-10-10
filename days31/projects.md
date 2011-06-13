@@ -111,6 +111,12 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * People: William Stein (maintainer/owner)
  * [[http://code.google.com/p/sagenb/issues/list]]
 
+== Create better documentation for files of notebook ==
+ * Create wiki page for draft of where to find templates, cell commands, login protocols, etc. 
+   * Idea is to have a one-stop shop telling to find any given thing in notebook
+ * Move to developer guide in basic ReST style
+
+
 == Comparison of number field elements ==
  * People: Robert Bradshaw, Mike Hanson, Burcin Erocal
  * Fix issues related to the (broken) ordering of number field elements: [[http://trac.sagemath.org/sage_trac/ticket/6132|#6132]], [[http://trac.sagemath.org/sage_trac/ticket/7160|#7160]], #10062, [[http://trac.sagemath.org/sage_trac/ticket/10064|#10064]], [[http://trac.sagemath.org/sage_trac/ticket/10849|#10849]], 
