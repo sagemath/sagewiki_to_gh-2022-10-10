@@ -42,6 +42,7 @@ See the [[#schedule|schedule]] below, which will include links to resources rela
  * [[http://facweb.northseattle.edu/ejasso/|Edgar Jasso]] (North Seattle Community College)
  * [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F. Austin State University)
  * [[http://math.ucsd.edu/~kkedlaya/|Kiran Kedlaya]] (University of California, San Diego)
+ * Benjamin LeVeque (Brown University, undergrad)
  * [[http://www2.sfasu.edu/math/people/faculty/longj.html|Jane Long]] (Stephen F. Austin State University)
  * [[http://www.maa.org/Aboutmaa/pearsonbio.html|Michael Pearson]] (MAA, Washington, DC)
  * [[http://www.reed.edu/~davidp/|David Perkinson]] (Reed College)
