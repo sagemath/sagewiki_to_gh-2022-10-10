@@ -106,6 +106,9 @@ Trac #6132, etc.
   * W. Stein
 
 ==   *.sagenb ==
+
+  * [[/sagenb|More Details Here!]
+
 upgrade, flask, sage 4.7, and ext4 filesystem
 
   * W. Stein
