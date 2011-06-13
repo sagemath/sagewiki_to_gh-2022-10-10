@@ -9,6 +9,11 @@
  * Here it is: http://wstein.org/edu/2011/480a/projects/juarez-sean_johnson-priya_chagaleti.zip
  * In case you're curious: [[http://wstein.org/edu/2011/480a/projects/|the other projects]]
 
+
+== Fix little issues with notebook so it works well standalone ==
+
+ * [[http://groups.google.com/group/sage-notebook/browse_thread/thread/163e2474db99d383|see this thread for ideas]]
+
 == HTML 5 backend ==
  * People: 
  * [[http://trac.sagemath.org/sage_trac/ticket/9471|#9471]]
