@@ -7,6 +7,7 @@
   * Jonathan Gutow
   * Jason Grout
   * S. Labbe (tester)
+  * J. Travis (tester)
 
 == Single Cell Server ==
 Fix bugs, Merge patches, show(), timing, interacts, jsxgraph in show
@@ -24,6 +25,7 @@ Fix bugs, Merge patches, show(), timing, interacts, jsxgraph in show
   * S. Labbe (listener)
   * B. Levegue (listener)
   * R. Beezer (tester)
+  * J. Auburn
   * R. Grout
 
 == Symbolics things ==
@@ -35,6 +37,7 @@ docs, more symbolic functions, longstanding issues
 
 == Notebook internationalization ==
   * M. Hansen (trac #9428)
+  * D. Drake
   * S. Labbe (French)
   * K. Kini
 
@@ -52,6 +55,7 @@ docs, more symbolic functions, longstanding issues
 == Integrating geogebra in Sage ==
 
   * Bruce Cohen
+  * M. Gage
 
 == RST -> .sws ==
 
@@ -82,6 +86,7 @@ docs, more symbolic functions, longstanding issues
   * B. Levegue
   * J. Auburn
   * Zaf
+  * R. Kirov
 
 == Worksheet Hierarchy ==
   * John Travis
