@@ -108,3 +108,21 @@ Password: 	kfeu:xsuo:kzoo
   * Development model:  Jason Grout, Rado Kirov, William Stein will pull from repos; a couple of options on how to create and use your own repo:
     1. Host your repo on Google Code by [[https://code.google.com/r/rkirov-flask/source/createClone|server-side cloning Rado's repo]] and then cloning your serverside clone ("yourname-sagenb" or something) to your computer (follow the directions on Google Code). Your repository can be pulled from in the standard way, but can only be pushed to by you (you can pull changes from other people and then push them, of course).
     1. Host your repo on sage.math or somewhere else by cloning Rado's repo (do `hg clone https://rkirov-flask.googlecode.com/hg/` somewhere). If you set appropriate read/write permissions on your repo, then people can push to and pull from your repo using the `ssh://` URI scheme (for example `hg pull ssh://sage.math.washington.edu//home/keshav/some_repo/` -- note the double slash, to use an absolute path rather than a relative patch).
+
+== Flask Notebook Code Directory Tree ==
+    * flask_version - new flask controller code
+          o authentication.py
+          o base.py
+          o ...
+    * sagenb/notebook - old python notebook objects
+          o user.py
+          o notebook.py
+          o ...
+    * sagenb/storage - serialization to filesystem code
+          o abstract_storage.py
+          o filesystem_storage.py
+    * sagenb/data - templates and js libraries
+          o sage/js - javascript and sage/html - templates
+          o jmol
+          o jsmath
+    * notebook folder with worksheets and settings is by default in ~/.sage/sage_notebook.sagenb/
