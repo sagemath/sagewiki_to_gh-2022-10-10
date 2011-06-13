@@ -75,7 +75,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * People: Rob Beezer
  * Sort lists of worksheets based on creation time, modified time, tag, alphabetical
 
-== Various proposals for enhancements ==
+== Various proposals for notebook enhancements ==
  * People:
  * [[http://groups.google.com/group/sage-notebook/browse_thread/thread/a973097dae8a8055|sage-notebook Post]]
 
@@ -91,3 +91,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
 == Notebook Code Site Issues ==
  * People: William Stein (maintainer/owner)
  * [[http://code.google.com/p/sagenb/issues/list]]
+
+== Comparison of number field elements ==
+ * People: Robert Bradshaw, Mike Hanson, Burcin Erocal
+ * Fix issues related to the (broken) ordering of number field elements: [[http://trac.sagemath.org/sage_trac/ticket/6132|#6132]], [[http://trac.sagemath.org/sage_trac/ticket/7160|#7160]], #10062, [[http://trac.sagemath.org/sage_trac/ticket/10064|#10064]], [[http://trac.sagemath.org/sage_trac/ticket/10849|#10849]], 
