@@ -25,7 +25,30 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * Personal Projects
    * There will be abundant time to work on your own projects
 
-See the [[#schedule|schedule]] below, which will include links to resources related to the talks (slides, worksheets, etc.).
+<<Anchor(schedule)>>
+= Schedule =
+
+||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || ||
+||  9:00 AM || Introductions             || || ||
+||  9:30 AM || Calculus                  || John Perry, U of Southern Mississippi || ||
+|| 10:15 AM || Multivariable Calculus    || John Travis, Mississippi College || [[http://sagenb.mc.edu/home/pub/21|Presentation]][[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|Worksheets]]||
+|| 11:00 AM || Textbook Conversion       || Rob Beezer, U of Puget Sound || ||
+||  5:30 PM || Status Reports            ||  || ||
+||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
+||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || [[http://faculty.sfasu.edu/judsontw/UTMOST/EduDays3.pdf|Presentation]][[http://faculty.sfasu.edu/judsontw/UTMOST/Worksheets.zip|Worksheets]]||
+|| 10:00 AM || Number Theory             || Karl-Dieter Crisman, Gordon College || ||
+|| 10:45 AM || Linear Algebra Lab Manual || Ryan Grout, Brigham Young University|| ||
+|| 11:15 AM || SageTeX                   || Dan Drake, KAIST, Korea || ||
+||       PM || UTMOST Test-Sites Meeting ||  || ||
+||  5:30 PM || Status Reports            ||  || ||
+||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
+||  9:00 AM || Linear Algebra            || Rob Beezer, U of Puget Sound || ||
+|| 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || ||
+|| 11:00 AM || Interact Design           || Open Mic, MC Jason Grout || ||
+||       PM || UTMOST Staff Meeting      || || ||
+||  5:30 PM || Status Reports, Wrap-Up   || || ||
 
 <<Anchor(participants)>>
 = Participants =
@@ -90,31 +113,6 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
  * Sessions will be held in [[http://www.washington.edu/maps/?l=SAV|Savery Hall]] on the historic Quad, just northeast of Red Square.  Specifically, [[http://www.css.washington.edu/room/SAV+131|Savery 131]].
  * Lodging will be arranged for funded participants at the Collegiana Inn near the UW campus.  For other lodging options see the local information page.
  * See the [[uw-local-info|local information page]] for more specifics.
-
-<<Anchor(schedule)>>
-= Schedule (tentative, subject to change) =
-
-||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
-|| || || || ||
-||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || ||
-||  9:00 AM || Introductions             || || ||
-||  9:30 AM || Calculus                  || John Perry, U of Southern Mississippi || ||
-|| 10:15 AM || Multivariable Calculus    || John Travis, Mississippi College || [[http://sagenb.mc.edu/home/pub/21|Presentation]][[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|Worksheets]]||
-|| 11:00 AM || Textbook Conversion       || Rob Beezer, U of Puget Sound || ||
-||  5:30 PM || Status Reports            ||  || ||
-||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
-||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || [[http://faculty.sfasu.edu/judsontw/UTMOST/EduDays3.pdf|Presentation]][[http://faculty.sfasu.edu/judsontw/UTMOST/Worksheets.zip|Worksheets]]||
-|| 10:00 AM || Number Theory             || Karl-Dieter Crisman, Gordon College || ||
-|| 10:45 AM || Linear Algebra Lab Manual || Ryan Grout, Brigham Young University|| ||
-|| 11:15 AM || SageTeX                   || Dan Drake, KAIST, Korea || ||
-||       PM || UTMOST Test-Sites Meeting ||  || ||
-||  5:30 PM || Status Reports            ||  || ||
-||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
-||  9:00 AM || Linear Algebra            || Rob Beezer, U of Puget Sound || ||
-|| 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || ||
-|| 11:00 AM || Interact Design           || Open Mic, MC Jason Grout || ||
-||       PM || UTMOST Staff Meeting      || || ||
-||  5:30 PM || Status Reports, Wrap-Up   || || ||
 
 = Projects =
 
