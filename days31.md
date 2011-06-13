@@ -14,23 +14,29 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||          || Single-Cell Notebook Server   || Jason Grout, Drake U                    || [[http://tinyurl.com/6f7sm97|Video]]||
 ||          || Coding Sprint Organization    || William Stein, U of Washington          || ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday         || June 14    || || ||
-|| 10:00 AM || Jmol                          || Jonathan Gutow, U of Wisconsin, Oshkosh || ||
+|| 10:00 AM || Status Reports                ||                                         || ||
+||  || Jmol                          || Jonathan Gutow, U of Wisconsin, Oshkosh || ||
 ||          || [[http://www.math.union.edu/locate/Cervone/talks/2011-06-14.sagedays/|An Introduction to MathJax for the Technically Inclined]] || Davide Cervone, Union College           || 45-50min ||
-||          || Status Reports                ||                                         || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday       || June 15    || || ||
-|| 10:00 AM || `WebWork`                     || Michael Gage, U of Rochester            || ||
+|| 10:00 AM || Status Reports                ||                                         || ||
+||          || `WebWork`                     || Michael Gage, U of Rochester            || ||
 ||          ||                               || and Jason Aubrey, U of Missouri         || ||
-||          || Status Reports                ||                                         || ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday/Friday || June 16/17 || || ||
+|| 10:00 AM || Status Reports                ||  || ||
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
-||          || Status Reports                ||  || ||
 
 == Topics ==
 
  * Mainly the Sage Notebook: [[/projects|Here is a list of specific project ideas]]
 
+
+---- /!\ '''Edit conflict - other version:''' ----
  * [[/workinggroups|Working Groups]]
 
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 == Location ==
 
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
