@@ -1,3 +1,5 @@
+<<TableOfContents>>
+
 == LDAP integration ==
   * Ian Stokes-Reese
   * M. Hansen
