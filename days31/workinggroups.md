@@ -72,6 +72,7 @@ docs, more symbolic functions, longstanding issues
   * Burcin (support)
 
 == Textbooks <-> Sagenb ==
+WED PM
 
   * R. Beezer
   * E. Curry (+ reviews)
