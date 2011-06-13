@@ -2,6 +2,13 @@
 
 <<TableOfContents>>
 
+== Integrating a coding view to replace the current textfield and tiny MCE views ==
+
+ * This was a student project in Math 480 last quarter.
+ * The project here is to try it out, and see if it is a good idea or if something based on it should be included in Sage.  Not clear, due to the "weight" of codemirror.
+ * Here it is: http://wstein.org/edu/2011/480a/projects/juarez-sean_johnson-priya_chagaleti.zip
+ * In case you're curious: [[http://wstein.org/edu/2011/480a/projects/|the other projects]]
+
 == HTML 5 backend ==
  * People: 
  * [[http://trac.sagemath.org/sage_trac/ticket/9471|#9471]]
