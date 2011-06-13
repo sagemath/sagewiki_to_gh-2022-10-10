@@ -37,7 +37,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
      * sends emails to the admins
 
 == i18n ==
- * People:
+ * People: Mike, Burcin
  * port the internationalization patches ([[http://trac.sagemath.org/sage_trac/ticket/9428|#9428]]) to the new notebook
 
 == Jmol Update ==
