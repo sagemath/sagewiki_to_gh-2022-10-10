@@ -29,6 +29,8 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
  * Mainly the Sage Notebook: [[/projects|Here is a list of specific project ideas]]
 
+ * [[/workinggroups|Working Groups]]
+
 == Location ==
 
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
