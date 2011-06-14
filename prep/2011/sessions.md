@@ -143,7 +143,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * Some demos
     * Differential Equations Quickstart (Karl-Dieter, 10 min)
     * Break
-    * Re-introduction to Creating Interacts (Jason, 20 min)
+    * Re-introduction to Creating Interacts (Jason, 15 min)
     * Discussion: Specific techniques for technology in classroom (30 min)
       * Introducing a new topic in class
       * In the Lab environment
@@ -207,6 +207,8 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || Thursday, 09 June || 12-1 PM || 3-4 PM || Karl-Dieter Crisman ||
 || Friday, 10 June || 8-9 AM || 11-12 AM || Karl-Dieter Crisman ||
+|| Wednesday, 15 June || 8:30-9:30 AM || 11:30-12:30 PM || Jason Grout ||
+|| Friday, 17 June || 1-2 PM || 4-5 PM || Karl-Dieter Crisman ||
 
 
 <<Anchor(homework)>>
@@ -227,15 +229,16 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
       * [[http://sage.maa.org/home/pub/24|Statistics and Distributions]]
       * [[http://sage.maa.org/home/pub/25|Graph Theory and Combinatorics]]
       * [[http://sage.maa.org/home/pub/26|Multivariable calculus]]
-      * [[http://sage.maa.org/home/pub/28/|Linear Algebra]]
-      * [[http://sage.maa.org/home/pub/27/|Numerical Analysis]]
+      * [[http://sage.maa.org/home/pub/28|Linear Algebra]]
+      * [[http://sage.maa.org/home/pub/27|Numerical Analysis]]
     * Continue any discussions you want on the list about technology.
     * Continue to work on a couple worksheets demonstrating what you want to show.
   * For Tuesday, June 21st
     * Let us know about additional topics for the last time
-    * TBA
+    * Pick at least one worksheet you might want to share for next time
+      * (Won't be required, but strongly encouraged)
   * For the future
-    * Meet up at MathFest!
+    * Meet up at !MathFest!
     * Use Sage in your classes
     * Joint Meetings get-together
     * More
