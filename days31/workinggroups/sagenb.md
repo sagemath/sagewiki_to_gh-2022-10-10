@@ -28,6 +28,7 @@ People: W. Stein, J. Grout, M. Hansen
   * http://prep.sagenb.org
   * http://flask.sagenb.org
   * http://uw.sagenb.org
+  * http://alpha.sagenb.org (though perhaps this should have an ALPHA on it)
 
 == Backup Strategy ==
 
