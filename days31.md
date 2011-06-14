@@ -22,7 +22,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||          || `WebWork`                     || Michael Gage, U of Rochester            || ||
 ||          ||                               || and Jason Aubrey, U of Missouri         || ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday/Friday || June 16/17 || || ||
-|| 10:00 AM || Status Reports                ||  || ||
+||  3:30 PM || Status Reports                ||  || ||
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
 
 == Topics ==
