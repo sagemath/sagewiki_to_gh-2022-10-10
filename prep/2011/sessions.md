@@ -161,6 +161,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * Break
     * [[http://sage.maa.org/home/pub/24|Statistics quickstart]] (Karl-Dieter, 10 min)
     * A brief [[attachment:stein-maa.pdf|history of Sage]] (William Stein, 15 min)
+      * Link to [[http://wstein.org/mathsoftbio/history.pdf|longer history from mathematical/software viewpoint]]
     * Participant worksheet sharing (20 min)
       * [[http://sage.maa.org/home/pub/34|Strange functions]]
       * [[http://sage.maa.org/home/pub/31|Graphing transformations in college algebra]]
