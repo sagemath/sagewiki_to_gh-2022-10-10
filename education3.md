@@ -35,19 +35,21 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||  9:30 AM || Calculus                  || John Perry, U of Southern Mississippi || ||
 || 10:15 AM || Multivariable Calculus    || John Travis, Mississippi College || [[http://sagenb.mc.edu/home/pub/21|Presentation]][[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|Worksheets]]||
 || 11:00 AM || Textbook Conversion       || Rob Beezer, U of Puget Sound || ||
+||  3:30 PM || SD31 Status Reports       ||  OPTIONAL || ||
 ||  5:30 PM || Status Reports            ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
 ||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || [[http://faculty.sfasu.edu/judsontw/UTMOST/EduDays3.pdf|Presentation]][[http://faculty.sfasu.edu/judsontw/UTMOST/Worksheets.zip|Worksheets]]||
 || 10:00 AM || Number Theory             || Karl-Dieter Crisman, Gordon College || ||
 || 10:45 AM || Linear Algebra Lab Manual || Ryan Grout, Brigham Young University|| ||
 || 11:15 AM || SageTeX                   || Dan Drake, KAIST, Korea || ||
-||       PM || UTMOST Test-Sites Meeting ||  || ||
+||  2:00 PM || UTMOST Test-Sites Meeting ||  || ||
+||  3:30 PM || SD31 Status Reports       ||  OPTIONAL || ||
 ||  5:30 PM || Status Reports            ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
 ||  9:00 AM || Linear Algebra            || Rob Beezer, U of Puget Sound || ||
 || 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || ||
 || 11:00 AM || Interact Design           || Open Mic, MC Jason Grout || ||
-||       PM || UTMOST Staff Meeting      || || ||
+||  2:00 PM || UTMOST Staff Meeting      || || ||
 ||  5:30 PM || Status Reports, Wrap-Up   || || ||
 
 <<Anchor(participants)>>
