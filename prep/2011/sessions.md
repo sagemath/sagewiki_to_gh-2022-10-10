@@ -147,6 +147,29 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
   * TBA
 
 
+<<Anchor(day4)>>
+== Tuesday, June 21 ==
+
+Our goal on the last day of sessions is to consolidate our gains, give lots of opportunity to share your work, and address some final issues like setting up a server.  We'll also have an opportunity for addressing things not already discussed.
+
+=== Session I - TBA ===
+    * Welcome Back
+    * Servers
+    * Integration with other things
+      * Geogebra
+      * WeBWorK
+    * TBA
+
+=== Session II - TBA ===
+    * TBA
+    * Lots of participant demos
+
+
+=== Session Links ===
+
+  * TBA
+
+
 <<Anchor(officehours)>>
 == Office Hours ==
 
@@ -188,8 +211,10 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
     * Continue any discussions you want on the list about technology.
     * Continue to work on a couple worksheets demonstrating what you want to show.
   * For Tuesday, June 21st
+    * Let us know about additional topics for the last time
     * TBA
   * For the future
-    * Use Sage in your classes!
+    * Meet up at MathFest!
+    * Use Sage in your classes
     * Joint Meetings get-together
     * More
