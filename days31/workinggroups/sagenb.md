@@ -6,6 +6,8 @@ People: W. Stein, J. Grout
 
   * If we stick with the filesystem: NEED a very fast filesystem that supports > 4 million inodes and > 32000 directories per directory, i.e., ext4.   This is difficult because boxen and sage.math are both Ubuntu 8.10.
   * Also, want to at a minimum have user and worksheet metadata stored in database so startup is faster. 
+  * Could run the server in a virtual machine, which would support ext4.  But are virtual machines fast enough these days?  They weren't last year.  This would be worth trying. 
+
 
 == Current Servers ==
 
