@@ -144,3 +144,4 @@ The following should *at a minimum* work with SQLite, since that is included wit
 
 = Sage Days 31 Tickets Needing Review =
  * Temporarily disable '@' symbol in username because it breaks TinyMCE [[http://trac.sagemath.org/sage_trac/ticket/11343|#11343]]
+ * Merges in Flask - Use SAGE_TEMPLATE_PATH for custom templates [[http://trac.sagemath.org/sage_trac/ticket/11106|#11106]]
