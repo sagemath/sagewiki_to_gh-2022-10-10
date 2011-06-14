@@ -153,6 +153,8 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * Welcome (Karl-Dieter, 5 min)
     * [[http://sage.maa.org/home/pub/25|Graph Theory Quickstart]] (Karl-Dieter, 10 min)
     * SageTeX (Jason, 20 min)
+      * [[attachment:sage-slides.pdf|Slides]]
+      * [[attachment:sage-tex.zip|Tex Source zip file]]
     * Number Theory (Karl-Dieter, 25 min)
       * [[http://sage.maa.org/home/pub/23|Quickstart]]
       * A couple demos
@@ -160,10 +162,10 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * [[http://sage.maa.org/home/pub/24|Statistics quickstart]] (Karl-Dieter, 10 min)
     * A brief [[attachment:stein-maa.pdf|history of Sage]] (William Stein, 15 min)
     * Participant worksheet sharing (20 min)
-      * 
-      * 
-      * 
-      * 
+      * [[http://sage.maa.org/home/pub/34|Strange functions]]
+      * [[http://sage.maa.org/home/pub/31|Graphing transformations in college algebra]]
+      * [[http://sage.maa.org/home/pong/16|Pitfalls in Calculus I]]
+      * [[http://sage.maa.org/home/Carolyn.Cuff/42|Poisson Distributions interact]]
     * Homework and wrap-up (Jason, 5 min)
 
 
