@@ -12,7 +12,7 @@ People: W. Stein, J. Grout, M. Hansen
 
 == Filesystem Thoughts ==
 
-  * (mhansen is doing this) Fix the __worksheet object to not load everything.  Scary stuff if you look at notebook.py.
+  * (mhansen is doing this) Fix the {{{__worksheet}}} object to not load everything.  Scary stuff if you look at notebook.py.
   * (mhansen) Write a script to prune the filesystem, e.g., deleting cell directories that are empty.
   * (mhansen?) Make it so user directories are stored in a hierarchical way.  E.g., home/_store/
 
