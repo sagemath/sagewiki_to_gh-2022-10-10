@@ -137,9 +137,9 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 
 === Session I - Getting In-Depth, Part 1 ===
     * Welcome Back (Jason, 5 min)
-    * Lagrange multipliers demo (Jason, 10 min)
+    * [[http://sage.maa.org/home/pub/12|Lagrange multipliers demo]] (Jason, 10 min)
     * Numerical Analysis (Jason, 25 min)
-      * Quickstart
+      * [[http://sage.maa.org/home/pub/27|Quickstart]]
       * Some demos
     * Differential Equations Quickstart (Karl-Dieter, 10 min)
     * Break
