@@ -135,7 +135,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
 
 Our goal on the third day of sessions is to give more depth to how to use Sage in various areas one might teach.  We also aim to continue giving more depth in areas like plotting and basic programming.
 
-=== Session I - TBA ===
+=== Session I - Getting In-Depth, Part 1 ===
     * Welcome Back (Jason, 5 min)
     * Lagrange multipliers demo (Jason, 10 min)
     * Numerical Analysis (Jason, 25 min)
@@ -149,7 +149,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * In the Lab environment
     * 3D advanced plotting (Jason, 10 min)
 
-=== Session II - TBA ===
+=== Session II - Getting In-Depth, Part 2 ===
     * Welcome (Karl-Dieter, 5 min)
     * Graph Theory Quickstart (Karl-Dieter, 10 min)
     * SageTeX (Jason, 20 min)
