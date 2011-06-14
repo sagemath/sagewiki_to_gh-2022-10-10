@@ -2,7 +2,7 @@
 ## For more information, please see MoinMoin:MoinDev/Translation.
 ##master-page:Unknown-Page
 ##master-date:Unknown-Date
-#acl All:read,write
+#acl -All:write Default
 #format plain
 #language en
 ([\w\-_.]+\.)?(l(so|os)tr)\.[a-z]{2,}
