@@ -34,3 +34,11 @@ People: W. Stein, J. Grout
 
   * Nagios -- investigate for monitoring
   * Or extend this script: http://wstein.org/home/wstein/bin/watch.sage
+
+== Virtual Machines ==
+
+  * I tried install virtualbox 4 on sage.math and failed, due to the Linux source and Linux kernel being out of sync somehow.  Probably just needs an upgrade and reboot.
+
+  * I am scared to upgrade virtualbox on boxen.math.
+
+  * The Virtualbox on boxen.math is somewhat unstable and very old. 
