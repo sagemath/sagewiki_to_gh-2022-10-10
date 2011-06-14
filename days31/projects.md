@@ -140,3 +140,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * People: Burcin
  * segfaults caused by ordering issues in pynac [[http://trac.sagemath.org/sage_trac/ticket/9880|#9880]]
  * Dynamic attributes for symbolic functions [[http://trac.sagemath.org/sage_trac/ticket/9556|#9556]]
+
+
+= Sage Days 31 Tickets Needing Review =
+ * Temporarily disable '@' symbol in username because it breaks TinyMCE [[http://trac.sagemath.org/sage_trac/ticket/11343|#11343]]
