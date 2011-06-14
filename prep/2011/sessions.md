@@ -158,7 +158,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * A couple demos
     * Break
     * Statistics quickstart (Karl-Dieter, 10 min)
-    * A brief history of Sage (William Stein, 15 min)
+    * A brief [[attachment:stein-maa.pdf|history of Sage]] (William Stein, 15 min)
     * Participant worksheet sharing (20 min)
     * Homework and wrap-up (Jason, 5 min)
 
