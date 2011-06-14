@@ -169,6 +169,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
   * [[http://mathdl.maa.org/mathDL/22/?pa=content&sa=viewDocument&nodeId=2926|Cool Monthly article on polynomial non-convergence]]
   * [[http://wiki.sagemath.org/pics|Pictures, including nice ones with Tachyon]]
   * [[http://osdir.com/ml/sage-support/2010-02/msg00406.html|An example of an animation with Tachyon]]
+  * [[http://webwork.maa.org/moodle/course/view.php?id=5|Documentation for how WeBWorK is most effective]]
 
 <<Anchor(day4)>>
 == Tuesday, June 21 ==
