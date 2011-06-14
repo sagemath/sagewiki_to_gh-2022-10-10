@@ -147,6 +147,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * Discussion: Specific techniques for technology in classroom (30 min)
       * Introducing a new topic in class
       * In the Lab environment
+      * [[[[attachment:ThirdRoundTableNotes.rtf|Notes from discussion]]
 
 === Session II - Getting In-Depth, Part 2 ===
     * Welcome (Karl-Dieter, 5 min)
