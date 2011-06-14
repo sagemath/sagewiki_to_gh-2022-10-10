@@ -10,7 +10,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Monday          || June 13    || [[https://picasaweb.google.com/wstein/20060613Sagedays31Day1|Pictures]] || ||
 || 10:00 AM || Introductions                 ||   ||  [[http://tinyurl.com/427tye5|Video]] ||
-||          || State of the Notebook Address || Rado Kirov, Nanyang Technological U     || [[http://tinyurl.com/44fgkkf|Video (part 1 of 2)]] [[http://tinyurl.com/3q2gkxr|Video (part 2 of 2)]] ||
+||          || State of the Notebook Address || Rado Kirov, Nanyang Technological U     || [[http://tinyurl.com/44fgkkf|Video (part 1 of 2)]] [[http://tinyurl.com/3q2gkxr|Video (part 2 of 2)]] [[http://flask.sagenb.org/home/pub/85/ | (worksheet)]]||
 ||          || Single-Cell Notebook Server   || Jason Grout, Drake U                    || [[http://tinyurl.com/6f7sm97|Video]]||
 ||          || Coding Sprint Organization    || William Stein, U of Washington          || ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday         || June 14    || || ||
