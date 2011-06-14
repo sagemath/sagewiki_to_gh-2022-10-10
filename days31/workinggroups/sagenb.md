@@ -1,12 +1,20 @@
 = Upgrade, flask, sage 4.7, and ext4 filesystem =
 
-People: W. Stein, J. Grout
+People: W. Stein, J. Grout, M. Hansen
 
 == Database ==
 
   * If we stick with the filesystem: NEED a very fast filesystem that supports > 4 million inodes and > 32000 directories per directory, i.e., ext4.   This is difficult because boxen and sage.math are both Ubuntu 8.10.
   * Also, want to at a minimum have user and worksheet metadata stored in database so startup is faster. 
   * Could run the server in a virtual machine, which would support ext4.  But are virtual machines fast enough these days?  They weren't last year.  This would be worth trying. 
+  * Or stick with the filesystem (see below).
+
+
+== Filesystem Thoughts ==
+
+  * (mhansen is doing this) Fix the __worksheet object to not load everything.  Scary stuff if you look at notebook.py.
+  * (mhansen) Write a script to prune the filesystem, e.g., deleting cell directories that are empty.
+  * (mhansen?) Make it so user directories are stored in a hierarchical way.  E.g., home/_store/
 
 
 == Current Servers ==
