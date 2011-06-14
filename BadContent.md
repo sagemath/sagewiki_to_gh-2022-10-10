@@ -2139,6 +2139,7 @@ payday-loan\.de\.com
 payday-loan-payday.com
 paydayloans-guide\.com
 paysites.info
+pbali\.com
 pc-choices.com
 pcdweb.com
 pcpages.com
