@@ -167,7 +167,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
   * [[http://diveintopython3.org/advanced-iterators.html|Advanced Python iterators]] 
   * [[http://trac.sagemath.org/sage_trac/ticket/11482|Sage Trac ticket for making it more obvious how to do power series solutions to DEs]]
   * [[http://mathdl.maa.org/mathDL/22/?pa=content&sa=viewDocument&nodeId=2926|Cool Monthly article on polynomial non-convergence]]
-
+  * [[http://wiki.sagemath.org/pics|Pictures, including nice ones with Tachyon]]
 
 
 <<Anchor(day4)>>
