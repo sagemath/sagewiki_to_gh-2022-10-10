@@ -144,13 +144,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 
 === Session Links ===
 
-  * [[http://www.facebook.com/pages/Sage-Math/26593144945|Sage Facebook Page]]
-  * [[http://mosaic-web.org/|MOSAIC project (NSF funded, connecting computation, calc, and stats)]]
-    * [[http://www.causeweb.org/wiki/mosaic/index.php/Mcast-schedule|Schedule of M-Casts]]
-  * Python resources:
-    * [[http://docs.python.org/tutorial/|Python tutorial]]
-    * [[http://diveintopython.org/|Dive into Python]]
-    * [[http://greenteapress.com/thinkpython/|Think like a computer scientist]]
+  * TBA
 
 
 <<Anchor(officehours)>>
