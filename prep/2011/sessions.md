@@ -12,7 +12,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
   * [[#day1|Tuesday, May 24]]
   * [[#day2|Tuesday, June 7]]
   * [[#day3|Tuesday, June 14]]
-  * Tuesday, June 21
+  * [[#day4|Tuesday, June 21]]
 
 <<Anchor(day1)>>
 == Tuesday, May 24 ==
@@ -136,11 +136,32 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
 Our goal on the third day of sessions is to give more depth to how to use Sage in various areas one might teach.  We also aim to continue giving more depth in areas like plotting and basic programming.
 
 === Session I - TBA ===
-    * Welcome Back
-    * TBA
+    * Welcome Back (Jason, 5 min)
+    * Lagrange multipliers demo (Jason, 10 min)
+    * Numerical Analysis (Jason, 25 min)
+      * Quickstart
+      * Some demos
+    * Differential Equations Quickstart (Karl-Dieter, 10 min)
+    * Break
+    * Re-introduction to Creating Interacts (Jason, 20 min)
+    * Discussion: Specific techniques for technology in classroom (30 min)
+      * Introducing a new topic in class
+      * In the Lab environment
+    * 3D advanced plotting (Jason, 10 min)
 
 === Session II - TBA ===
-    * TBA
+    * Welcome (Karl-Dieter, 5 min)
+    * Graph Theory Quickstart (Karl-Dieter, 10 min)
+    * SageTeX (Jason, 20 min)
+    * Number Theory (Karl-Dieter, 25 min)
+      * Quickstart
+      * A couple demos
+    * Break
+    * Statistics quickstart (Karl-Dieter, 10 min)
+    * A brief history of Sage (William Stein, 15 min)
+    * Participant worksheet sharing (20 min)
+    * Homework and wrap-up (Jason, 5 min)
+
 
 === Session Links ===
 
