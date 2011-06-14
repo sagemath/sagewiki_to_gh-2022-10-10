@@ -138,16 +138,15 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 === Session I - Getting In-Depth, Part 1 ===
     * Welcome Back (Jason, 5 min)
     * [[http://sage.maa.org/home/pub/12|Lagrange multipliers demo]] (Jason, 10 min)
-    * Numerical Analysis (Jason, 25 min)
+    * Numerical Analysis (Jason, 30 min)
       * [[http://sage.maa.org/home/pub/27|Quickstart]]
-      * Some demos
-    * Differential Equations Quickstart (Karl-Dieter, 10 min)
+      * [[http://sage.maa.org/home/pub/35|Some]] [[http://sage.maa.org/home/pub/36|more]] [[http://sage.maa.org/home/pub/37|demos]]
+    * Differential Equations [[http://sage.maa.org/home/pub/21|Quickstart]] (Karl-Dieter, 15 min)
     * Break
-    * Re-introduction to Creating Interacts (Jason, 15 min)
+    * Re-introduction to [[http://sage.maa.org/home/pub/38|Creating Interacts]] (Jason, 15 min)
     * Discussion: Specific techniques for technology in classroom (30 min)
       * Introducing a new topic in class
       * In the Lab environment
-    * 3D advanced plotting (Jason, 10 min)
 
 === Session II - Getting In-Depth, Part 2 ===
     * Welcome (Karl-Dieter, 5 min)
