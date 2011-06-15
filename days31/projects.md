@@ -62,13 +62,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * [[http://trac.sagemath.org/sage_trac/ticket/9238|#9238]]-new Jmol.spkg 6-14-11
     patches that work a bit better in flask can be pulled from [[https://gutow-flask.googlecode.com/hg/]]
  * [[http://trac.sagemath.org/sage_trac/ticket/11078|#11078]]
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
  * This can be tested on IanSR's LDAP-based Sage Notebook which is available [[http://sage.nebiogrid.org/|here]], but to use this you need to create an account on our system [[https://portal.nebiogrid.org/d/account/register|here]].  This is a single form, with email confirmation.  You should use institutional email addresses, not gmail, hotmail, etc. as those accounts will be purged from time to time.
-
----- /!\ '''End of edit conflict''' ----
 
 == Quantumino Puzzle Solver ==
 
