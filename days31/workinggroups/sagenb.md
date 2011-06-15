@@ -19,16 +19,19 @@ People: W. Stein, J. Grout, M. Hansen
 
 == Current Servers ==
 
+
   * http://sagenb.org
+  * http://prep.sagenb.org
+  * http://tutorial.sagenb.org
   * http://480.sagenb.org
-  * http://nt.sagenb.org
+  * http://alpha.sagenb.org
   * http://demo.sagenb.org
   * http://demo2.sagenb.org
-  * http://tutorial.sagenb.org
-  * http://prep.sagenb.org
-  * http://flask.sagenb.org
+  * http://nt.sagenb.org
+  * http://standalone.sagenb.org
+  * http://test.sagenb.org
   * http://uw.sagenb.org
-  * http://alpha.sagenb.org (though perhaps this should have an ALPHA on it)
+  * http://flask.sagenb.org    -- not upgraded
 
 == Backup Strategy ==
 
