@@ -82,7 +82,11 @@ Solve the the puzzle with Sage so that less people lose time to solve it by hand
 
 === rst2txt and rst2sws ===
  * see [[http://trac.sagemath.org/sage_trac/ticket/11459|#11459]]
- * Try on this example :
+ * You may test it on this file: [[http://www.thales.math.uqam.ca/~labbes/Sage/rst_and_sage/index.rst|ReST file]]
+
+I am able to make MathJax work on the html output of the docutils command {{{rst2html}}} run on the same ReST file:
+
+ * [[http://www.thales.math.uqam.ca/~labbes/Sage/rst_and_sage/index.html|html output]]
 
 == Notebook Administration Issues ==
  * People: William Stein
