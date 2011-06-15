@@ -63,6 +63,13 @@ The following should *at a minimum* work with SQLite, since that is included wit
     patches that work a bit better in flask can be pulled from [[https://gutow-flask.googlecode.com/hg/]]
  * [[http://trac.sagemath.org/sage_trac/ticket/11078|#11078]]
 
+== Quantumino Puzzle Solver ==
+
+Solve the the puzzle with Sage so that less people lose time to solve it by hand and make them work on the Notebook.
+
+ * The problem : [[http://familygamesamerica.com/mainsite/consumers/productview.php?pro_id=274&search=quantumino|Quantumino Puzzle]]
+ * The solution : [[http://trac.sagemath.org/sage_trac/ticket/11379|#11379]]
+
 == notebook to and from other formats ==
  * People: Rob Beezer, Bruce Cohen, Sébastien Labbé
  * sws2tex - see [[https://bitbucket.org/whuss/sws2tex/|its bitbucket site]]
