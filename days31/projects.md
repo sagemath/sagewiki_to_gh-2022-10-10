@@ -103,9 +103,9 @@ I am able to make mathjax work on the html output of the docutils command {{{rst
 == Geogebra integration ==
  * People: Bruce Cohen, Rob Beezer, Rado, Mike Gage, Keshav Kini
  * Confirm proof of concept at [[http://trac.sagemath.org/sage_trac/ticket/7489|#7489]]
- * Bruce: We looked at #7489, but I was not satisfied with the output.  Rado showed me how he used <iframe> for graph_editor.  Take a look at [[http://flask.sagenb.org/home/pub/86|iframe function]] for my current work. 
+ * Bruce: We looked at #7489, but I was not satisfied with the output.  Rado showed me how he used <iframe> for graph_editor.  
  * The webwork people (Mike and Jason) have taken the iframe() function and will use it in their work.  I should open a new ticket to put iframe() into Sage.  It is more general than #7489.
- * Opened [[http://trac.sagemath.org/sage_trac/ticket/#11489|#11489]] to include method html.iframe().  My thanks to Rob and Keshav for helping this newbie with the process.
+ * Opened [[http://trac.sagemath.org/sage_trac/ticket/#11489|#11489]] to include method html.iframe().  My thanks to Rob and Keshav for helping this newbie with the process.  Take a look at [[http://flask.sagenb.org/home/pub/87|html.iframe()]] for my current work. 
 
 
 == Folders, Tags, Hierarchies ==
