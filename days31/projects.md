@@ -67,6 +67,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
 
 Solve the the puzzle with Sage so that less people lose time to solve it by hand and make them work on the Notebook.
 
+ * People: Sébastien Labbé
  * The problem : [[http://familygamesamerica.com/mainsite/consumers/productview.php?pro_id=274&search=quantumino|Quantumino Puzzle]]
  * The solution : [[http://trac.sagemath.org/sage_trac/ticket/11379|#11379]]
 
