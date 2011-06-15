@@ -16,7 +16,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday         || June 14    || || ||
 || 10:00 AM || Status Reports                ||                                         || [[http://tinyurl.com/4y3vxnx|Video]] ||
 ||  || Jmol                          || Jonathan Gutow, U of Wisconsin, Oshkosh || [[http://tinyurl.com/3e9f2g3|Video]] ||
-||          || An Introduction to `MathJax` for the Technically Inclined || Davide Cervone, Union College  || [[http://www.math.union.edu/locate/Cervone/talks/2011-06-14.sagedays/|Presentation]], [[http://tinyurl.com/68gjhl7|Video (part 1 of 3)]], [[http://tinyurl.com/6c8rdhb|Video (part 2 of 3)]], [[http://tinyurl.com/6xy9txh|Video (part 3 of 3)]] ||
+||          || An Introduction to `MathJax` for the Technically Inclined || Davide Cervone, Union College  || [[http://www.math.union.edu/locate/Cervone/talks/2011-06-14.sagedays/|Presentation (Slides)]], [[http://tinyurl.com/68gjhl7|Video (part 1 of 3)]], [[http://tinyurl.com/6c8rdhb|Video (part 2 of 3)]], [[http://tinyurl.com/6xy9txh|Video (part 3 of 3)]] ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday       || June 15    || || ||
 || 10:00 AM || Status Reports                ||                                         || ||
 ||          || `WebWork`                     || Michael Gage, U of Rochester            || ||
