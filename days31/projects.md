@@ -2,6 +2,10 @@
 
 <<TableOfContents>>
 
+== LDAP-based authentication for Sage NB users ==
+ * Create an LDAPUserManager for the new flask-based Sage Notebook
+ * See [[Notebook LDAP]]
+
 == Integrating a coding view to replace the current textfield and tiny MCE views ==
 
  * This was a student project in Math 480 last quarter.
