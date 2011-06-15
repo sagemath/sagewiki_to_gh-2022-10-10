@@ -75,7 +75,7 @@ Solve the the puzzle with Sage so that less people lose time to solve it by hand
  * People: Rob Beezer, Bruce Cohen, Sébastien Labbé
  * sws2tex - see [[https://bitbucket.org/whuss/sws2tex/|its bitbucket site]]
  * sws2rst - see [[http://trac.sagemath.org/sage_trac/ticket/10637|#10637]]
- * rst2txtworksheet and rst2sws - see [[http://trac.sagemath.org/sage_trac/ticket/11459|#11459]]
+ * rst2txt and rst2sws - see [[http://trac.sagemath.org/sage_trac/ticket/11459|#11459]]
 
 == Notebook Administration Issues ==
  * People: William Stein
