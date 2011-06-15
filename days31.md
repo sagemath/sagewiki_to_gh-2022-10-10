@@ -32,7 +32,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
 == Topics ==
 
- * [[/projects|Here is a list of specific project ideas]]
+ * [[/projects|Here is the list of Projects and updates]]
  * [[/workinggroups|Working Groups]]
 
 
