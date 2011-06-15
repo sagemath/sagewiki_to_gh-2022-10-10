@@ -1,7 +1,8 @@
 <<TableOfContents>>
 
 == LDAP integration ==
-  * Ian Stokes-Reese
+  [[Notebook LDAP]]
+  * Ian Stokes-Rees
   * M. Hansen
   * Rado
 
