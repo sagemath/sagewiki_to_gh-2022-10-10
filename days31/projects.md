@@ -78,9 +78,11 @@ The following should *at a minimum* work with SQLite, since that is included wit
  * Fix it
 
 == Geogebra integration ==
- * People: Bruce Cohen
+ * People: Bruce Cohen, Rob Beezer, Rado, Mike Gage
  * Confirm proof of concept at [[http://trac.sagemath.org/sage_trac/ticket/7489|#7489]]
- * Make some progress figuring out how to actually get it into Sage in new notebook
+ * Bruce: We looked at #7489, but I was not satisfied with the output.  Rado showed me how he used <iframe> for graph_editor.  Take a look at [[http://flask.sagenb.org/home/pub/86|iframe function]] for my current work. 
+ * The webwork people (Mike and Jason) have taken the iframe() function and will use it in their work.  I should open a new ticket to put iframe() into Sage.  It is more general than #7489.
+
 
 == Folders, Tags, Hierarchies ==
  * People: Rob Beezer
