@@ -1,4 +1,4 @@
-= Sage Days 31 Project Ideas =
+= Sage Days 31 Projects =
 
 <<TableOfContents>>
 
