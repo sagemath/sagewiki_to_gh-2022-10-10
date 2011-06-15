@@ -4,7 +4,8 @@
 
 == LDAP-based authentication for Sage NB users ==
  * Create an LDAPUserManager for the new flask-based Sage Notebook
- * See [[Notebook LDAP]]
+ * See [[Notebook LDAP]] for more detailed notes
+ * See this [[http://productblog.37signals.com/products/2011/01/well-be-retiring-our-support-of-openid-on-may-1.html|warning about the problems with OpenID]]
 
 == Integrating a coding view to replace the current textfield and tiny MCE views ==
 
