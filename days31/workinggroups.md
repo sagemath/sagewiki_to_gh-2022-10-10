@@ -75,7 +75,7 @@ docs, more symbolic functions, longstanding issues
   * Burcin (support)
 
 == Textbooks <-> Sagenb ==
-WED PM
+WED 2:00PM
 
   * R. Beezer
   * E. Curry (+ reviews)
