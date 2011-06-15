@@ -73,9 +73,16 @@ Solve the the puzzle with Sage so that less people lose time to solve it by hand
 
 == notebook to and from other formats ==
  * People: Rob Beezer, Bruce Cohen, Sébastien Labbé
- * sws2tex - see [[https://bitbucket.org/whuss/sws2tex/|its bitbucket site]]
- * sws2rst - see [[http://trac.sagemath.org/sage_trac/ticket/10637|#10637]]
- * rst2txt and rst2sws - see [[http://trac.sagemath.org/sage_trac/ticket/11459|#11459]]
+
+=== sws2tex ===
+ * see [[https://bitbucket.org/whuss/sws2tex/|its bitbucket site]]
+
+=== sws2rst ===
+ * see [[http://trac.sagemath.org/sage_trac/ticket/10637|#10637]]
+
+=== rst2txt and rst2sws ===
+ * see [[http://trac.sagemath.org/sage_trac/ticket/11459|#11459]]
+ * Try on this example :
 
 == Notebook Administration Issues ==
  * People: William Stein
