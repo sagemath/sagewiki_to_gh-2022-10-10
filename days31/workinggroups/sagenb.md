@@ -5,6 +5,7 @@ People: W. Stein, J. Grout, M. Hansen
 == Published Interacts ==
 
   * See if it is possible to get Mitesh Patel's patch to work: http://trac.sagemath.org/sage_trac/ticket/7908
+  * Test server (might be up): http://sage.math.washington.edu:8976/pub/
 
 == Database ==
 
