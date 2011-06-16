@@ -6,6 +6,8 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 <<TableOfContents>>
 
+
+<<Anchor(schedule)>>
 = Schedule =
 
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
@@ -33,10 +35,6 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||  5:30 PM || Status Reports, Wrap-Up   || || ||
 
 
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
-
 = Topics =
 
  * Tutorials and Teaching Experiences
@@ -56,10 +54,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * Personal Projects
    * There will be abundant time to work on your own projects
 
-<<Anchor(schedule)>>
 
-
----- /!\ '''End of edit conflict''' ----
 <<Anchor(participants)>>
 = Participants =
 
@@ -86,10 +81,12 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * [[http://www.mc.edu/faculty/travis|John Travis]] (Mississippi College)
  * [[http://wstein.org/|William Stein]] (University of Washington)
 
+
 = Organizers =
 
  * Rob Beezer [[http://buzzard.ups.edu]]
  * William Stein [[http://wstein.org/]]
+
 
 = UW Campus Wireless =
 {{{
@@ -97,24 +94,29 @@ UW NetID: 	event0896
 Password: 	kfeu:xsuo:kzoo
 }}}
 
+
 = Mailing Lists =
 
  * Mailing list for [[http://groups.google.com/group/sagedays31|Sage Days 31]], which will be used for Education Days also.  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
 
  * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
 
+
 = IRC =
 
  * There is an IRC channel for sage days: #sagemath-days on irc.freenode.net. Feel free to join to discuss whatever...   For those without IRC clients, http://webchat.freenode.net/?channels=sagemath,sagemath-days
+
 
 = Funding =
 
 Participants from the test sites for the NSF UTMOST project will have first priority for funding, though we will support travel for a few participants with a demonstrated interest and experience in using Sage in educational settings.  We also expect to have a similar workshop in Summer 2012 which will have twice the available funding.
 
+
 <<Anchor(registration)>>
 = Registration =
 
 Sign up by adding your name to the "Participants" list above.  Email Rob Beezer  at beezer@ups.edu if you'd rather not figure out how to edit the wiki page and he'll add your name.
+
 
 = Logistics =
 
@@ -123,6 +125,7 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
  * Sessions will be held in [[http://www.washington.edu/maps/?l=SAV|Savery Hall]] on the historic Quad, just northeast of Red Square.  Specifically, [[http://www.css.washington.edu/room/SAV+156|Savery 156]]  (ROOM CHANGE as of Wed).
  * Lodging will be arranged for funded participants at the Collegiana Inn near the UW campus.  For other lodging options see the local information page.
  * See the [[uw-local-info|local information page]] for more specifics.
+
 
 = Projects =
 
@@ -145,8 +148,6 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
   * how students might respond (and why)
   * how they can respond to student comments
 
-
----- /!\ '''Edit conflict - other version:''' ----
  * Prepare your students (suggestions from Eva):
   * Explain that you are trying something new and/or different.
   * Explain why, discuss (potential) advantages and disadvantages.
@@ -155,10 +156,6 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
    * It allows you to address major student concerns early on before they become problems.
    * It reminds students of the goals of your course (that may differ from their assumptions or expectations for courses in general) at multiple times during the semester.
 
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
  * [[http://serendip.brynmawr.edu/sci_cult/scienceis/burns.html|"With Friends Like These..."]] Wm. David Burns, P.I. of [[http://www.sencer.net/|SENCER]] (Science Education for New Civic Engagements and Responsibilities)
 
 
