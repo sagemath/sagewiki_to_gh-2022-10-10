@@ -157,7 +157,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * [[attachment:sage-tex.zip|Tex Source zip file]]
     * Number Theory (Karl-Dieter, 25 min)
       * [[http://sage.maa.org/home/pub/23|Quickstart]]
-      * A couple demos
+      * A couple [[http://sage.maa.org/home/pub/39|demos]]
     * Break
     * [[http://sage.maa.org/home/pub/24|Statistics quickstart]] (Karl-Dieter, 10 min)
     * A brief [[attachment:stein-maa.pdf|history of Sage]] (William Stein, 15 min)
