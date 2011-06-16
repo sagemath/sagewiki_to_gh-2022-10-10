@@ -128,6 +128,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 
  * Documentation and stability of implementation for using Sage in Windows
    -> difficulty of transferring files between Windows and virtual machine?
+
    -> people: J. Perry, Jane, (Karl-Dieter), Jason, Rob, William
 
 = Previous Sage Education Days =
