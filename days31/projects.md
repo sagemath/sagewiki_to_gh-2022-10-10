@@ -118,6 +118,7 @@ By the way, if you are using vim like me, you might be interested by this trick 
 == The mysterious moving/disappearing text bug ==
  * People: Ryan Grout, Jason Grout, John Travis
  * Find a reproducible one (Found)
+   * See [[http://code.google.com/p/sagenb/issues/detail?id=23|Google code]] for the bug report.
  * Fix it (Possibly?)
    (The issue we found was with the TinyMCE autosave plugin.  We fixed it by just preventing the plugin from loading)
 
