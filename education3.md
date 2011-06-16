@@ -127,9 +127,18 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * (added by wstein): Work on my free open Sage book: http://wstein.org/books/sagebook/
 
  * Documentation and stability of implementation for using Sage in Windows
-   -> difficulty of transferring files between Windows and virtual machine?
+  * difficulty of transferring files between Windows and virtual machine?
+  * people: John Perry, Jane, (Karl-Dieter), Jason, Rob, William
 
-   -> people: J. Perry, Jane, (Karl-Dieter), Jason, Rob, William
+= Career Advice Related to Trying New Things =
+
+ * Prepare your dean/department head beforehand (thanks to ??, related by Jason):
+  * what you're trying (and why)
+  * how students might respond (and why)
+  * how they can respond to student comments
+
+ * [[http://serendip.brynmawr.edu/sci_cult/scienceis/burns.html|"With Friends Like These..."]] Wm. David Burns, P.I. of [[http://www.sencer.net/|SENCER]] (Science Education for New Civic Engagements and Responsibilities)
+
 
 = Previous Sage Education Days =
 
