@@ -12,7 +12,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
-||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || [[http://www.facebook.com/media/set/?set=a.10150214463828682.330939.504538681&l=8e2d184c1b|Pictures (Facebook)]]  [[https://picasaweb.google.com/wstein/20110616Sagedays31Day4|Pictures (Picassa)]] ||
+||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || [[http://www.facebook.com/media/set/?set=a.10150214463828682.330939.504538681&l=8e2d184c1b|Pictures (Facebook)]]  [[https://picasaweb.google.com/wstein/20110616Sagedays31Day4|Pictures (Picasa)]] ||
 ||  9:00 AM || Introductions             || || [[http://tinyurl.com/6cxt7ua|Video]] ||
 ||  9:30 AM || Calculus                  || John Perry, U of Southern Mississippi || [[http://www.math.usm.edu/sage/|Worksheets]], [[http://tinyurl.com/65kqers|Video]] ||
 || 10:15 AM || Multivariable Calculus    || John Travis, Mississippi College || [[http://sagenb.mc.edu/home/pub/21|Presentation]][[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|Worksheets]]   [[http://tinyurl.com/68byo93|Video (part 1 of 2)]]  [[http://tinyurl.com/5t7hp38|Video (part 2 of 2)]]||
