@@ -14,7 +14,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||          || Single-Cell Notebook Server   || Jason Grout, Drake U                    || [[http://tinyurl.com/6f7sm97|Video]]||
 ||          || Coding Sprint Organization    || William Stein, U of Washington          || ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday         || June 14    || || ||
-|| 10:00 AM || Status Reports                ||                                         || [[http://tinyurl.com/4y3vxnx|Video]] ||
+|| 10:00 AM || Status Reports                ||                                         || [[http://tinyurl.com/4y3vxnx|Video]], and [[http://tinyurl.com/4xc5pfy|more by S. Labbe]] ||
 ||  || Jmol                          || Jonathan Gutow, U of Wisconsin, Oshkosh || [[http://tinyurl.com/3e9f2g3|Video]],[[http://www.uwosh.edu/faculty_staff/gutow/Jmol_Web_Page_Maker/Examples/Jmol_Demo.html|Jmol Demo]], [[http://www.uwosh.edu/faculty_staff/gutow/Jmol_Web_Page_Maker/Export_to_web_tutorial.shtml|Export to Web Functionality]] ||
 ||          || An Introduction to `MathJax` for the Technically Inclined || Davide Cervone, Union College  || [[http://www.math.union.edu/locate/Cervone/talks/2011-06-14.sagedays/|Presentation (Slides)]], [[http://tinyurl.com/68gjhl7|Video (part 1 of 3)]], [[http://tinyurl.com/6c8rdhb|Video (part 2 of 3)]], [[http://tinyurl.com/6xy9txh|Video (part 3 of 3)]] ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday       || June 15    || || ||
