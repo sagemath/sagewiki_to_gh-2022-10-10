@@ -2,6 +2,10 @@
 
 People: W. Stein, J. Grout, M. Hansen
 
+== Published Interacts ==
+
+  * See if it is possible to get Mitesh Patel's patch to work: http://trac.sagemath.org/sage_trac/ticket/7908
+
 == Database ==
 
   * If we stick with the filesystem: NEED a very fast filesystem that supports > 4 million inodes and > 32000 directories per directory, i.e., ext4.   This is difficult because boxen and sage.math are both Ubuntu 8.10.
