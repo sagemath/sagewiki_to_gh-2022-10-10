@@ -53,6 +53,8 @@ Note that there is a more complicated Newton's method below.
 
 by William Stein
 
+http://sagenb.org/home/pub/2824/
+
 {{{
 def newton_method(f, c, eps, maxiter=100):
     x = f.variables()[0]
@@ -69,6 +71,8 @@ def newton_method(f, c, eps, maxiter=100):
        c = c - fc/gprime(c)
        iterates.append(c)
     return c, iterates
+    
+var('x')    
 html("<h1>Double Precision Root Finding Using Newton's Method</h1>")
 @interact
 def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
@@ -76,11 +80,11 @@ def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
      print "eps = %s"%float(eps)
      time z, iterates = newton_method(f, c, eps)
      print "root =", z
-     print "f(c) = %r"%f(z)
+     print "f(c) = %r"%f(x=z)
      n = len(iterates)
      print "iterations =", n
      html(iterates)
-     P = plot(f, z-interval, z+interval, rgbcolor='blue')
+     P = plot(f, (x,z-interval, z+interval), rgbcolor='blue')
      h = P.ymax(); j = P.ymin()
      L = sum(point((w,(n-1-float(i))/n*h), rgbcolor=(float(i)/n,0.2,0.3), pointsize=10) + \
              line([(w,h),(w,j)],rgbcolor='black',thickness=0.2) for i,w in enumerate(iterates))
