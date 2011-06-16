@@ -141,6 +141,8 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
   * difficulty of transferring files between Windows and virtual machine?
   * people: John Perry, Jane, (Karl-Dieter), Jason, Rob, William
 
+ * Sage branded 3-D glasses
+
 = Career Advice Related to Trying New Things Before Tenure =
 
  * Prepare your dean/department head beforehand (thanks to Arnold Lebow, related by Jason):
