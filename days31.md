@@ -23,7 +23,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||          ||                               || and Jason Aubrey, U of Missouri         ||[[attachment:2011_06_15_sage.pdf |Presentation (slides)]] ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || ||
 ||  3:30 PM || Status Reports                ||  || ||
-||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
+||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || [[http://tinyurl.com/3jsht4q|Video]] ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
 ||  3:30 PM || Status Reports                ||  || ||
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
