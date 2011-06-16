@@ -10,7 +10,7 @@
 
 
 === WeBWorK ===
-http://webwork.maa.org/wiki
+*[[http://webwork.maa.org/wiki|WeBWorK Wiki]]
 
 === Links ===
 *[[euclid.mc.edu|John Travis's Stuff]]
