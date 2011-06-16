@@ -12,6 +12,9 @@
 === WeBWorK ===
 http://webwork.maa.org/wiki
 
+=== Links ===
+*[[euclid.mc.edu|John Travis's Stuff]]
+
 Email: <<MailTo(aubreyja AT SPAMFREE gmail DOT com)>>
 
 ...
