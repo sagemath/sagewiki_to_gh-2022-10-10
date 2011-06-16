@@ -130,12 +130,20 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
   * difficulty of transferring files between Windows and virtual machine?
   * people: John Perry, Jane, (Karl-Dieter), Jason, Rob, William
 
-= Career Advice Related to Trying New Things =
+= Career Advice Related to Trying New Things Before Tenure =
 
- * Prepare your dean/department head beforehand (thanks to ??, related by Jason):
+ * Prepare your dean/department head beforehand (thanks to Arnold Lebow, related by Jason):
   * what you're trying (and why)
   * how students might respond (and why)
   * how they can respond to student comments
+
+ * Prepare your students (suggestions from Eva):
+  * Explain that you are trying something new and/or different.
+  * Explain why, discuss (potential) advantages and disadvantages.
+  * Obtain appropriate feedback from your students: standardized end-of-semester student evaluations don't always ask detailed enough questions or questions that are sufficiently relevant to evaluate the success of your new method, so have students complete an additional evaluation form that solicits feedback specific to your goals.
+  * Consider obtaining feedback from the students at multiple points during the semester, and build this into the course design.  This has two advantages:
+   * It allows you to address major student concerns early on before they become problems.
+   * It reminds students of the goals of your course (that may differ from their assumptions or expectations for courses in general) at multiple times during the semester.
 
  * [[http://serendip.brynmawr.edu/sci_cult/scienceis/burns.html|"With Friends Like These..."]] Wm. David Burns, P.I. of [[http://www.sencer.net/|SENCER]] (Science Education for New Civic Engagements and Responsibilities)
 
