@@ -13,7 +13,8 @@
 *[[http://webwork.maa.org/wiki|WeBWorK Wiki]]
 
 === Links ===
-*[[euclid.mc.edu|John Travis's Stuff]]
+*[[http://euclid.mc.edu|John Travis's Stuff]]
+*[[http://buzzard.ups.edu/|Rob Beezer's Homepage]]
 
 Email: <<MailTo(aubreyja AT SPAMFREE gmail DOT com)>>
 
