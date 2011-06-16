@@ -95,7 +95,9 @@ Solve the the puzzle with Sage so that less people lose time to solve it by hand
  * see [[http://trac.sagemath.org/sage_trac/ticket/11459|#11459]]
  * You may test it on this file: [[http://www.thales.math.uqam.ca/~labbes/Sage/rst2sws/calculus.rst|ReST file]]
 
-I am able to make mathjax work on the html output of the docutils command {{{rst2html}}} run on the same ReST file. See [[http://www.thales.math.uqam.ca/~labbes/Sage/rst2sws/|this page]] on my website for more info.
+You can now upload a ReST file in the Sage Notebook to get a worksheet. 
+
+Also, from the same ReST file, you can create an HTML file by using the docutils command {{{rst2html}}}. During the week, I was able to make MathJax work on this HTML output. See [[http://www.thales.math.uqam.ca/~labbes/Sage/rst2sws/|this page]] on my website for more info.
 
 == Notebook Administration Issues ==
  * People: William Stein
