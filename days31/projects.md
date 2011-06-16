@@ -72,7 +72,7 @@ The following should *at a minimum* work with SQLite, since that is included wit
           b. SPKG that moves Jmol out of the notebook 
 {{{./sage -f "http://www.uwosh.edu/faculty_staff/gutow/Jmol_for_SageNoteBook-1.1.7.spkg"}}}
 
-          c. Apply patches that effect Sage (but not the notebook).  See [[http://trac.sagemath.org/sage_trac/ticket/11496|#11496]] and [[http://trac.sagemath.org/sage_trac/ticket/11503|#11503]].
+          c. Apply patches that affect Sage (but not the notebook).  See [[http://trac.sagemath.org/sage_trac/ticket/11496|#11496]] and [[http://trac.sagemath.org/sage_trac/ticket/11503|#11503]].
 
 == Quantumino Puzzle Solver ==
 
