@@ -91,6 +91,8 @@ def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
 == A contour map and 3d plot of two inverse distance functions ==
 by William Stein
 
+http://sagenb.org/home/pub/2823/
+
 {{{
 @interact
 def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
@@ -98,7 +100,7 @@ def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
            'jet', 'pink', 'prism', 'spring', 'summer', 'winter']):
      x,y = var('x,y')
      f = q1/sqrt((x+1)^2 + y^2) + q2/sqrt((x-1)^2+(y+0.5)^2)
-     C = contour_plot(f, (-2,2), (-2,2), plot_points=30, contours=15, cmap=cmap)
+     C = contour_plot(f, (x,-2,2), (y,-2,2), plot_points=30, contours=15, cmap=cmap)
      show(C, figsize=3, aspect_ratio=1)
      show(plot3d(f, (x,-2,2), (y,-2,2)), figsize=5, viewer='tachyon')
 }}}
