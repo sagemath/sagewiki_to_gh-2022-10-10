@@ -100,6 +100,10 @@ You can now upload a ReST file in the Sage Notebook to get a worksheet.
 
 Also, from the same ReST file, you can create an HTML file by using the docutils command {{{rst2html}}}. During the week, I was able to make MathJax work on this HTML output. See [[http://www.thales.math.uqam.ca/~labbes/Sage/rst2sws/|this page]] on my website for more info.
 
+By the way, if you are using vim, you might be interested by this trick made by Franco Saliola:
+
+ * [[http://www.thales.math.uqam.ca/~labbes/Sage/vim/sage_docstring_highlighting.html|ReST syntax highlighting for Sage docstrings in VIM]]
+
 == Notebook Administration Issues ==
  * People: William Stein
  * Write an improved script for monitoring the health of a notebook server.
