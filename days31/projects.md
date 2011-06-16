@@ -100,7 +100,7 @@ I am able to make mathjax work on the html output of the docutils command {{{rst
  * People: Ryan Grout, Jason Grout, John Travis
  * Find a reproducible one (Found)
  * Fix it (Possibly?)
-   (The issue we found was with the TinyMCE autosave plugin)
+   (The issue we found was with the TinyMCE autosave plugin.  We fixed it by just preventing the plugin from loading)
 
 == Geogebra integration ==
  * People: Bruce Cohen, Rob Beezer, Rado, Mike Gage, Keshav Kini
