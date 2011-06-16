@@ -192,3 +192,4 @@ By the way, if you are using vim like me, you might be interested by this trick 
  * Merges in Flask - Use SAGE_TEMPLATE_PATH for custom templates [[http://trac.sagemath.org/sage_trac/ticket/11106|#11106]]
  * Upgrade Mercurial: [[http://trac.sagemath.org/sage_trac/ticket/10594|#10594]]; the new spkg file comes with fixes for [[http://trac.sagemath.org/sage_trac/ticket/11121|#11121]] and [[http://trac.sagemath.org/sage_trac/ticket/11120|#11120]] which also need review.
  * Easy documentation fix for top-level solve: [[http://trac.sagemath.org/sage_trac/ticket/10444|#10444]]
+ * Improve LaTeXing of strings: [[http://trac.sagemath.org/sage_trac/ticket/11498|#11498]]
