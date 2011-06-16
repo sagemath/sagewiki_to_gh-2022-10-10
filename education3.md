@@ -139,7 +139,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 
  * Documentation and stability of implementation for using Sage in Windows
   * difficulty of transferring files between Windows and virtual machine?
-  * people: John Perry, Jane, (Karl-Dieter), Jason, Rob, William
+  * people: John Perry, Jane, (Karl-Dieter), Jason G., Rob, William
 
  * Sage branded 3-D glasses
 
