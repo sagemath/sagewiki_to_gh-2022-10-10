@@ -54,3 +54,38 @@ People: W. Stein, J. Grout, M. Hansen
   * I am scared to upgrade virtualbox on boxen.math.
 
   * The Virtualbox on boxen.math is somewhat unstable and very old. 
+
+== William's TODO List ==
+{{{
+ [x] official sagenb list of optional packages, and install them all.
+ [x] make a "stop" script for servers that works.
+ [x] fix any remaining links issues, then archive the fixlinks script
+ [x] start servers and test
+ [x] re-enable automatic backups
+ [x] upgrade my sagenb install to include rado's fix for unicode issue, etc. 
+ [x] search is broken (mhansen is on it)
+ [x]  The _sage_ directory gets too big. (mhansen is on it)
+ [x] script that computes and summarizes stats about all notebook servers:
+      - number of users
+      - how many users who evaluated code during the last day, week, etc. -- implement by reading last mod time on all history.pickle files.
+      - what code was evaluated recently (read from history)
+      - size of each notebook server
+      - disk usage of each user
+      - how many worksheets each user has
+      
+    (use a nosqlite db?)
+    datetime server username last_datetime num_worksheets disk_usage
+
+ [ ] make it so all pickle db's get saved in a non-corruptable way (atomic)
+ [ ] push merged combined changes to wstein repo?
+ [ ] MATHJAX (or jsmath image fonts ?!)
+ [ ] twisted -- number of threads?
+
+
+
+ [ ] ban copying results over if too big.
+
+
+ [ ] somehow migrate flask.sagenb.org ???  or just wait.
+
+}}}
