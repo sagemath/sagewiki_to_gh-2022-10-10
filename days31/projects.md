@@ -92,6 +92,8 @@ Solve the the puzzle with Sage so that less people lose time to solve it by hand
  * see [[http://trac.sagemath.org/sage_trac/ticket/10637|#10637]]
 
 === rst2txt and rst2sws ===
+
+ * People: Sébastien Labbé
  * see [[http://trac.sagemath.org/sage_trac/ticket/11459|#11459]]
 
 You can now upload a ReST file in the Sage Notebook to get a worksheet. 
