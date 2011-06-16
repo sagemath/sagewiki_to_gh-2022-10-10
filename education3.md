@@ -124,6 +124,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Preparing worksheets for a course.
  * Learning how to create interacts for the Sage library.
  * Learning how to contribute new code to Sage.
+ * (added by wstein): Work on my free open Sage book: http://wstein.org/books/sagebook/
 
 = Previous Sage Education Days =
 
