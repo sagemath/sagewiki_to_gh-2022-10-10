@@ -6,26 +6,6 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 <<TableOfContents>>
 
-= Topics =
-
- * Tutorials and Teaching Experiences
-   * Single Variable Calculus
-   * Multivariate Calculus
-   * Linear Algebra
-   * Abstract Algebra
-   * Number Theory
-   * Numerical Analysis
- * Authoring Materials
-   * SageTeX
-   * Textbooks
-   * Worksheets
-   * Interacts
- * Notebook Improvements
-   * In consultation with onsite notebook developers
- * Personal Projects
-   * There will be abundant time to work on your own projects
-
-<<Anchor(schedule)>>
 = Schedule =
 
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
@@ -52,6 +32,34 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||  2:00 PM || UTMOST Staff Meeting      || || ||
 ||  5:30 PM || Status Reports, Wrap-Up   || || ||
 
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+= Topics =
+
+ * Tutorials and Teaching Experiences
+   * Single Variable Calculus
+   * Multivariate Calculus
+   * Linear Algebra
+   * Abstract Algebra
+   * Number Theory
+   * Numerical Analysis
+ * Authoring Materials
+   * SageTeX
+   * Textbooks
+   * Worksheets
+   * Interacts
+ * Notebook Improvements
+   * In consultation with onsite notebook developers
+ * Personal Projects
+   * There will be abundant time to work on your own projects
+
+<<Anchor(schedule)>>
+
+
+---- /!\ '''End of edit conflict''' ----
 <<Anchor(participants)>>
 = Participants =
 
@@ -137,6 +145,8 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
   * how students might respond (and why)
   * how they can respond to student comments
 
+
+---- /!\ '''Edit conflict - other version:''' ----
  * Prepare your students (suggestions from Eva):
   * Explain that you are trying something new and/or different.
   * Explain why, discuss (potential) advantages and disadvantages.
@@ -145,6 +155,10 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
    * It allows you to address major student concerns early on before they become problems.
    * It reminds students of the goals of your course (that may differ from their assumptions or expectations for courses in general) at multiple times during the semester.
 
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
  * [[http://serendip.brynmawr.edu/sci_cult/scienceis/burns.html|"With Friends Like These..."]] Wm. David Burns, P.I. of [[http://www.sencer.net/|SENCER]] (Science Education for New Civic Engagements and Responsibilities)
 
 
