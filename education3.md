@@ -112,7 +112,7 @@ Sign up by adding your name to the "Participants" list above.  Email Rob Beezer 
 
  * June 16, 17 and 18 are expected to be full days.  So plan to travel on June 15 and June 19.
  * [[days31|Sage Days 31]] will happen the same week at the University of Washington with the Sage Notebook as its theme.
- * Sessions will be held in [[http://www.washington.edu/maps/?l=SAV|Savery Hall]] on the historic Quad, just northeast of Red Square.  Specifically, [[http://www.css.washington.edu/room/SAV+131|Savery 131]].
+ * Sessions will be held in [[http://www.washington.edu/maps/?l=SAV|Savery Hall]] on the historic Quad, just northeast of Red Square.  Specifically, [[http://www.css.washington.edu/room/SAV+156|Savery 156]]  (ROOM CHANGE as of Wed).
  * Lodging will be arranged for funded participants at the Collegiana Inn near the UW campus.  For other lodging options see the local information page.
  * See the [[uw-local-info|local information page]] for more specifics.
 
