@@ -4,9 +4,9 @@
 == Jason Aubrey ==
 
 === My Sage Activities ===
-* [[prep/2011|PREP 2011]]
+*[[prep/2011|PREP 2011]]
  *[[prep/2011/Tutorials|PREP 2011 Tutorials]]
-* [[days31|Sage Days 31]]
+*[[days31|Sage Days 31]]
 
 
 === WeBWorK ===
