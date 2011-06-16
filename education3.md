@@ -32,7 +32,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || ||
 ||  9:00 AM || Introductions             || || [[http://tinyurl.com/6cxt7ua|Video]] ||
-||  9:30 AM || Calculus                  || John Perry, U of Southern Mississippi || [http://www.math.usm.edu/sage/|Worksheets] ||
+||  9:30 AM || Calculus                  || John Perry, U of Southern Mississippi || [[http://www.math.usm.edu/sage/|Worksheets]] ||
 || 10:15 AM || Multivariable Calculus    || John Travis, Mississippi College || [[http://sagenb.mc.edu/home/pub/21|Presentation]][[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|Worksheets]]||
 || 11:00 AM || Textbook Conversion       || Rob Beezer, U of Puget Sound || [[attachment:beezer-2011-seattle-sed3-textbooks.pdf|Presentation]]||
 ||  3:30 PM || SD31 Status Reports       ||  OPTIONAL || ||
