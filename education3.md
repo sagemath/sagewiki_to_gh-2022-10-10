@@ -143,6 +143,11 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 
  * Sage branded 3-D glasses
 
+ * Organization of Sage educational resources
+  * rating of worksheets?
+  * tagging, organization of available options
+  * suggestion from chemistry: set up committees to curate resources so that faculty get service credit
+
 = Career Advice Related to Trying New Things Before Tenure =
 
  * Prepare your dean/department head beforehand (thanks to Arnold Lebow, related by Jason):
