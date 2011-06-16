@@ -126,6 +126,10 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Learning how to contribute new code to Sage.
  * (added by wstein): Work on my free open Sage book: http://wstein.org/books/sagebook/
 
+ * Documentation and stability of implementation for using Sage in Windows
+   -> difficulty of transferring files between Windows and virtual machine?
+   -> people: J. Perry, Jane, (Karl-Dieter), Jason, Rob, William
+
 = Previous Sage Education Days =
 
  * [[education1|Sage Education Day 1 (December 5, 2009)]]
