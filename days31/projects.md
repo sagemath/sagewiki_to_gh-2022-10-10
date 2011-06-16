@@ -97,9 +97,10 @@ I am able to make mathjax work on the html output of the docutils command {{{rst
 
 
 == The mysterious moving/disappearing text bug ==
- * People: 
- * Find a reproducible one
- * Fix it
+ * People: Ryan Grout, Jason Grout, John Travis
+ * Find a reproducible one (Found)
+ * Fix it (Possibly?)
+   (The issue we found was with the TinyMCE autosave plugin)
 
 == Geogebra integration ==
  * People: Bruce Cohen, Rob Beezer, Rado, Mike Gage, Keshav Kini
