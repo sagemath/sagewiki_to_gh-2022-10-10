@@ -49,6 +49,9 @@ People: W. Stein, J. Grout, M. Hansen
 
 == Monitoring ==
 
+
+  * I spent a day writing this script to *manage* a collection of notebook servers: [[attachment:admin]]
+
   * Nagios -- investigate for monitoring
   * Or extend this script: http://wstein.org/home/wstein/bin/watch.sage
 
