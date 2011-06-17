@@ -36,7 +36,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 = Pictures =
 
-{{[[attachment:sd31-3d-glasses.jpg]]}}
+{{[[attachment:sed3-3d-glasses.jpg]]}}
 Viewing JMOL 3D images
 
 = Topics =
