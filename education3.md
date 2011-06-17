@@ -142,7 +142,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Preparing worksheets for a course.
  * Learning how to create interacts for the Sage library.
  * Learning how to contribute new code to Sage.
- * (added by wstein): Work on my free open Sage book: http://wstein.org/books/sagebook/
+ * (wstein): Work on my free open Sage book: http://code.google.com/p/sage-power-book/
 
  * Documentation and stability of implementation for using Sage in Windows
   * difficulty of transferring files between Windows and virtual machine?
