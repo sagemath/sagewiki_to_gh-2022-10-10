@@ -20,7 +20,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||  3:30 PM || SD31 Status Reports       ||  OPTIONAL || ||
 ||  5:30 PM || Status Reports            ||  || [[http://tinyurl.com/3nsttc2|Video (part 1 of 2)]]  [[ http://tinyurl.com/3q9yb39|Video (part 2 of 2)]]||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
-||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || [[http://faculty.sfasu.edu/judsontw/UTMOST/EduDays3.pdf|Presentation]][[http://faculty.sfasu.edu/judsontw/UTMOST/Worksheets.zip|Worksheets]]||
+||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || [[http://faculty.sfasu.edu/judsontw/UTMOST/EduDays3.pdf|Presentation]][[http://faculty.sfasu.edu/judsontw/UTMOST/Worksheets.zip|Worksheets]]  [[http://tinyurl.com/447yhfe|Video]] ||
 || 10:00 AM || Number Theory             || Karl-Dieter Crisman, Gordon College || ||
 || 10:45 AM || Linear Algebra Lab Manual || Ryan Grout, Brigham Young University|| ||
 || 11:15 AM || SageTeX                   || Dan Drake, KAIST, Korea || Jason Grout's [[http://artsci.drake.edu/grout/sage-slides.pdf|awesome example slides]] ([[http://artsci.drake.edu/grout/lib/exe/fetch.php/sage-tex.zip|latex source]]) ||
