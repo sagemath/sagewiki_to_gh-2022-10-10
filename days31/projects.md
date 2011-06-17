@@ -59,20 +59,13 @@ The following should *at a minimum* work with SQLite, since that is included wit
 
 == Jmol Update ==
  * People: Jonathan Gutow
+ * See [[http://code.google.com/p/sagenb/issues/detail?id=1|how to put in flask notebook]] for setup instructions.
+Related tickets:
  * [[http://trac.sagemath.org/sage_trac/ticket/11080|#11080]]
- * [[http://trac.sagemath.org/sage_trac/ticket/9238|#9238]]-new Jmol.spkg 6-14-11
+ * [[http://trac.sagemath.org/sage_trac/ticket/9238|#9238]]
  * [[http://trac.sagemath.org/sage_trac/ticket/11078|#11078]]
+One place to try:
  * This can be tested on IanSR's LDAP-based Sage Notebook which is available [[http://sage.nebiogrid.org/|here]], but to use this you need to create an account on our system [[https://portal.nebiogrid.org/d/account/register|here]].  This is a single form, with email confirmation.  You should use institutional email addresses, not gmail, hotmail, etc. as those accounts will be purged from time to time.
- * Instructions for getting flask with all updates running.
-   1. More painful option: try following things from ticket #11080 (link above).
-   2. Should be easier, but won't give all the latest from flask updates.
-      a. Pull the flask notebook from 
-{{{https://gutow-flask.googlecode.com/hg/}}}
-      
-          b. SPKG that moves Jmol out of the notebook 
-{{{./sage -f "http://www.uwosh.edu/faculty_staff/gutow/Jmol_for_SageNoteBook-1.1.7.spkg"}}}
-
-          c. Apply patches that affect Sage (but not the notebook).  See [[http://trac.sagemath.org/sage_trac/ticket/11496|#11496]] and [[http://trac.sagemath.org/sage_trac/ticket/11503|#11503]].
 
 == Quantumino Puzzle Solver ==
 
