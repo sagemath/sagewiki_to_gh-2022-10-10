@@ -34,6 +34,10 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||  2:00 PM || UTMOST Test-Sites Meeting      || || ||
 ||  5:30 PM || Status Reports, Wrap-Up   || || ||
 
+= Pictures =
+
+{{[[attachment:sd31-3d-glasses.jpg]]}}
+Viewing JMOL 3D images
 
 = Topics =
 
