@@ -39,6 +39,10 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 {{attachment:sed3-3d-glasses.jpg}}
 Viewing JMOL 3D images
 
+= Blog Roll =
+
+[[http://mathematicseducationissues.blogspot.com/|Tom Judson]]
+
 = Topics =
 
  * Tutorials and Teaching Experiences
