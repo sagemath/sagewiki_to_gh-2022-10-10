@@ -933,6 +933,8 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
 == Multivariate Limits by Definition ==
 by John Travis
 
+http://www.sagenb.org/home/pub/2828/
+
 {{{
 ##  An interactive way to demonstrate limits of multivariate functions of the form z = f(x,y)
 ##
@@ -941,6 +943,7 @@ by John Travis
 ##  
 ##  Spring 2011
 ##
+##  An updated version of this worksheet may be available at http://sagenb.mc.edu
 
 #  Starting point for radius values before collapsing in as R approaches 0.
 #  Functions ought to be "reasonable" within a circular domain of radius R surrounding 
@@ -1194,10 +1197,15 @@ def _(x0=(0.5,1.5), y0=(0.5, 1.5),
 
 by John Travis
 
+http://www.sagenb.org/home/pub/2829/
+
 {{{
 ##  Graphing surfaces over non-rectangular domains 
 ##  John Travis
 ##  Spring 2011
+##
+##
+##  An updated version of this worksheet may be available at http://sagenb.mc.edu
 ##
 ##  Interact allows the user to input up to two inequality constraints on the
 ##  domain when dealing with functional surfaces
@@ -1296,6 +1304,8 @@ def _(f=input_box(default=(1/3)*x^2 + (1/4)*y^2 + 5,label='$f(x)=$'),
 
 by John Travis
 
+http://www.sagenb.org/home/pub/2826/
+
 {{{
 ##  Display and compute the area of the lateral surface between two surfaces
 ##  corresponding to the (scalar) line integral
@@ -1372,6 +1382,8 @@ def viewer(mesh = checkbox(default = False, label = 'Show u,v meshlines'), uc = 
 
 by John Travis
 
+http://www.sagenb.org/home/pub/2827/
+
 {{{
 ##  This worksheet interactively computes and displays the line integral of a 3D vector field 
 ##  over a given smooth curve C
@@ -1379,6 +1391,8 @@ by John Travis
 ##  John Travis
 ##  Mississippi College
 ##  06/16/11
+##
+##  An updated version of this worksheet may be available at http://sagenb.mc.edu
 ##
 
 var('x,y,z,t,s')
