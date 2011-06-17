@@ -35,6 +35,9 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  * [[/projects|Here is the list of Projects and updates]]
  * [[/workinggroups|Working Groups]]
 
+== Pictures ==
+
+{{attachment:sd31-savery-2011-06-16.jpg}}
 
 == Location ==
 
