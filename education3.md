@@ -18,7 +18,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 || 10:15 AM || Multivariable Calculus    || John Travis, Mississippi College || [[http://sagenb.mc.edu/home/pub/21|Presentation]][[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|Worksheets]]   [[http://tinyurl.com/68byo93|Video (part 1 of 2)]]  [[http://tinyurl.com/5t7hp38|Video (part 2 of 2)]]||
 || 11:00 AM || Textbook Conversion       || Rob Beezer, U of Puget Sound || [[attachment:beezer-2011-seattle-sed3-textbooks.pdf|Presentation]] [[http://tinyurl.com/62wzl5a|Video (part 1 of 2)]] [[http://tinyurl.com/6xvy57c|Video (part 2 of 2)]]||
 ||  3:30 PM || SD31 Status Reports       ||  OPTIONAL || ||
-||  5:30 PM || Status Reports            ||  || ||
+||  5:30 PM || Status Reports            ||  || [[http://tinyurl.com/3nsttc2|Video (part 1 of 2)]]  [[ http://tinyurl.com/3q9yb39|Video (part 2 of 2)]]||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
 ||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || [[http://faculty.sfasu.edu/judsontw/UTMOST/EduDays3.pdf|Presentation]][[http://faculty.sfasu.edu/judsontw/UTMOST/Worksheets.zip|Worksheets]]||
 || 10:00 AM || Number Theory             || Karl-Dieter Crisman, Gordon College || ||
