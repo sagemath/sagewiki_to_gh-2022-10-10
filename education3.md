@@ -23,7 +23,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||  9:00 AM || Abstract Algebra          || Tom Judson, Stephen F. Austin U || [[http://faculty.sfasu.edu/judsontw/UTMOST/EduDays3.pdf|Presentation]][[http://faculty.sfasu.edu/judsontw/UTMOST/Worksheets.zip|Worksheets]]||
 || 10:00 AM || Number Theory             || Karl-Dieter Crisman, Gordon College || ||
 || 10:45 AM || Linear Algebra Lab Manual || Ryan Grout, Brigham Young University|| ||
-|| 11:15 AM || SageTeX                   || Dan Drake, KAIST, Korea || ||
+|| 11:15 AM || SageTeX                   || Dan Drake, KAIST, Korea || Jason Grout's [[awesome example slides|http://artsci.drake.edu/grout/sage-slides.pdf]] ||
 ||  2:00 PM || UTMOST Staff Meeting ||  || ||
 ||  3:30 PM || SD31 Status Reports       ||  OPTIONAL || ||
 ||  5:30 PM || Status Reports            ||  || ||
