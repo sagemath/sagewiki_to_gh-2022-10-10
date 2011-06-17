@@ -165,6 +165,9 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 
  * [[http://serendip.brynmawr.edu/sci_cult/scienceis/burns.html|"With Friends Like These..."]] Wm. David Burns, P.I. of [[http://www.sencer.net/|SENCER]] (Science Education for New Civic Engagements and Responsibilities)
 
+= Other materials related (perhaps tangentially) to education and Sage =
+
+* A bunch of Java applets made with Mathematica, obsoleted by factors out of my (DanDrake's) control: http://mathsci.kaist.ac.kr/~drake/tes.html
 
 = Previous Sage Education Days =
 
