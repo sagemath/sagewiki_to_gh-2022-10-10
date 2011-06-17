@@ -8,7 +8,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
-||<rowstyle="background-color: #E0E0FF;"> Monday          || June 13    || [[https://picasaweb.google.com/wstein/20060613Sagedays31Day1|Pictures]] || ||
+||<rowstyle="background-color: #E0E0FF;"> Monday          || June 13    ||  || [[https://picasaweb.google.com/wstein/20060613Sagedays31Day1|Pictures]] ||
 || 10:00 AM || Introductions                 ||   ||  [[http://tinyurl.com/427tye5|Video]] ||
 ||          || State of the Notebook Address || Rado Kirov, Nanyang Technological U     || [[http://tinyurl.com/44fgkkf|Video (part 1 of 2)]] [[http://tinyurl.com/3q2gkxr|Video (part 2 of 2)]] [[http://flask.sagenb.org/home/pub/85/ | (worksheet)]]||
 ||          || Single-Cell Notebook Server   || Jason Grout, Drake U                    || [[http://tinyurl.com/6f7sm97|Video]]||
@@ -21,10 +21,10 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 || 10:00 AM || Status Reports                ||                                         || [[http://tinyurl.com/3hubsen|Video]], and [[http://tinyurl.com/4xc5pfy|more by S. Labbe]] ||
 ||          || [[http://webwork.maa.org/|WebWork]]                     || Michael Gage, U of Rochester            || [[http://tinyurl.com/3od5c32|Video (part 1 of 2)]], [[http://tinyurl.com/43rlawt|Video (part 2 of 2)]]||
 ||          ||                               || and Jason Aubrey, U of Missouri         ||[[attachment:2011_06_15_sage.pdf |Presentation (slides)]] ||
-||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || ||
+||<rowstyle="background-color: #E0E0FF;"> Thursday || June 16 || || [[https://picasaweb.google.com/wstein/20110616Sagedays31Day4|Pictures]]  ||
 ||  3:30 PM || Status Reports                ||  ||  [[http://tinyurl.com/3jsht4q|Video]] ||
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
-||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || ||
+||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || [[https://picasaweb.google.com/wstein/20110617Sd31Day5|Pictures]] ||
 ||  3:30 PM || Status Reports                ||  || ||
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
