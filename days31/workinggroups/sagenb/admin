@@ -1,0 +1,228 @@
+#!/usr/bin/env python
+
+import optparse, os, sys, time, shutil, tempfile
+
+os.chdir(os.path.join(os.environ['HOME'], 'servers'))
+
+def server_name(dir):
+    i = dir.find('-')
+    assert i != -1
+    j = dir.rfind('.sagenb')
+    assert j != -1
+    return dir[i+1:j]
+
+def system(cmd, background=False):
+    if background:
+        cmd = 'nohup %s &'%cmd
+    print cmd
+    os.system(cmd)
+
+class Server(object):
+    def __init__(self, dir_name):
+        self.dir_name = dir_name
+        self.name = server_name(dir_name)
+        self.pid_path = os.path.join(dir_name, 'twistd.pid')
+        portfile = os.path.join(dir_name, 'port')
+        if not os.path.exists(portfile):
+            print "Create a file %s with the port for that server in it."%portfile
+            sys.exit(1)
+        self.port = int(open(portfile).read())
+
+    def run_command(self):
+        c = """
+from sagenb.notebook.notebook_object import notebook
+import os, sys, time
+server_pool=['sagenbflask@localhost']
+notebook('sage_notebook-%s', port=%s, accounts=True, address='',
+                    server_pool = server_pool, 
+                    open_viewer=False, timeout=10*60, secure=False, port_tries=0)
+        """%(self.name, self.port)
+        return c
+
+    def prune(self):
+        sagedir = '%s/home/_sage_/'%self.dir_name
+        if os.path.exists(sagedir):
+            for X in os.listdir(sagedir):
+                s = os.path.join(sagedir, X)
+                print "Deleting ", s
+                shutil.rmtree(s, ignore_errors=True)
+
+    def pid(self):
+        if os.path.exists(self.pid_path):
+            s = open(self.pid_path).read()
+            if os.path.exists('/proc/%s'%s):
+                return int(s)
+        return 0
+
+    def ps(self):
+        if self.pid():
+            cmd = "ps up %s"%self.pid()
+            s = os.popen(cmd).readlines()[-1]
+            return s[:s.find('python')]
+        else:
+            return "(stopped)"
+
+    def status(self):
+        return '%-15s %10s'%(self.name, '(stopped)' if self.pid() == 0 else self.pid())
+
+    def stop(self):
+        if self.pid():
+            signal = 15
+            i = 0
+            while True:
+                print "Stopping %s..."%self.name
+                if i == 3: signal = 9
+                i += 1
+                os.kill(self.pid(), signal)
+                time.sleep(8)
+                if not self.pid():
+                    print "Success!"
+                    return
+                else:
+                    print "Trying again..."
+
+    def start(self):
+        if self.pid():
+            print "%s already running (pid=%s)"%(self.name, self.pid())
+            return
+        print "Starting %s"%self.name
+        d = tempfile.mkdtemp()
+        file = os.path.join(d, 'a.py')
+        r = self.run_command()
+        r += "\nimport shutil; shutil.rmtree('%s')"%d
+        open(file, 'w').write(r)
+        cmd = 'sage "%s" 1>>logs/notebook-%s.out 2>>logs/notebook-%s.err'%(file, self.name, self.name)
+        system(cmd, background=True)
+
+    def restart(self):
+        self.stop()
+        self.start()
+
+    def __repr__(self):
+        return self.name
+
+    def log(self):
+        cmd = 'tail -n 20 -f logs/notebook-%s*'%self.name
+        system(cmd, background=False)
+
+    def info(self, verbose=True):
+        """
+        Return a list of 6-tuples:
+             datetime server username last_datetime num_worksheets disk_usage
+        for each user in this server.
+        """
+        import time
+        fmt = "%Y-%m-%d-%H:%M"
+        datetime = time.strftime(fmt)
+        server = self.name
+        v = []
+        home = os.path.join(self.dir_name, 'home')
+        for username in os.listdir(home):
+            if username == '__store__': continue
+            try:
+                # get modification time of the history.pickle file
+                userhome = os.path.join(home, username)
+                history  = os.path.join(userhome, 'history.pickle')
+                if os.path.exists(history):
+                    last_mod = os.path.getmtime(history)
+                    last_datetime = time.strftime(fmt,time.gmtime(last_mod))
+                else:
+                    last_datetime = '0'
+
+                num_worksheets = len(os.listdir(userhome))
+                cmd = "cd '%s' && du -s ."%userhome
+                r = os.popen(cmd).read()
+                disk_usage = int(r[:r.find('\t')])
+                t = (datetime, server, username, last_datetime, num_worksheets, disk_usage)
+                if verbose:
+                    print ' '.join([str(x) for x in t])
+                v.append(t)
+            except:
+                print "Error processing user %s"%username
+        return v
+
+S = [Server(X) for X in sorted(os.listdir('.')) if os.path.isdir(X) and X.endswith('.sagenb')]
+servers = dict([(X.name, X) for X in S])
+
+def status(option, opt, value, parser):
+    for X in servers.values(): print X.status()
+        
+def ps(option, opt, value, parser):
+    v = [str(x.pid()) for x in servers.values() if x.pid()]
+    cmd = 'ps --sort %%cpu up %s'%(' '.join(v))
+    s = '\n'.join([a[:a.find('/')] for a in os.popen(cmd).readlines()])
+    for x in servers.values():
+        if x.pid():
+            s = s.replace(str(x.pid()), '%12s %8s'%(x.name, x.pid()))
+    print s
+
+def start_all(option, opt, value, parser):
+    for X in servers.values():
+        X.start()
+
+def stop_all(option, opt, value, parser):
+    for X in servers.values():
+        X.stop()
+
+def restart_all(option, opt, value, parser):
+    for X in servers.values():
+        X.restart()
+
+def prune(option, opt, value, parser):
+    for X in servers.values():
+        X.prune()
+
+def stop(option, opt, value, parser):
+    if servers.has_key(value):
+        X = servers[value]
+        if X.pid():
+            X.stop()
+        else:
+            print "%s is not running"%value
+        return
+    else:
+        print "No server %s"%value
+
+def start(option, opt, value, parser):
+    if servers.has_key(value):
+        servers[value].start()
+    else:
+        print "No server %s"%value
+
+def restart(option, opt, value, parser):
+    if servers.has_key(value):
+        servers[value].restart()
+    else:
+        print "No server %s"%value
+
+def log(option, opt, value, parser):
+    if servers.has_key(value):
+        servers[value].log()
+        return
+    else:
+        print "No server %s"%value
+        
+def info(option, opt, value, parser):
+    if servers.has_key(value):
+        v = servers[value].info()
+    else:
+        print "No server %s"%value
+
+parser = optparse.OptionParser(description='Notebook server administration program.')
+
+parser.add_option('--status', help="Show status", action="callback", callback=status)
+parser.add_option('--ps', help="Show ps line", action="callback", callback=ps)
+parser.add_option('--start', help="Start a particular server", action="callback", callback=start, type=str)
+parser.add_option('--stop', help="Stop a particular server", action="callback", callback=stop, type=str)
+parser.add_option('--restart', help="Restart a particular server", action="callback", callback=restart, type=str)
+parser.add_option('--log', help="Log for a particular server", action="callback", callback=log, type=str)
+parser.add_option('--start_all', help="Start all servers", action="callback", callback=start_all)
+parser.add_option('--stop_all', help="Stop all servers", action="callback", callback=stop_all)
+parser.add_option('--restart_all', help="Restart a particular server", action="callback", callback=restart_all)
+parser.add_option('--prune', help="Delete not-needed files from all server directories", action="callback", callback=prune)
+parser.add_option('--info', help="Return information about all users", action="callback", callback=info, type=str)
+
+(options, args) = parser.parse_args()
+
+
+
