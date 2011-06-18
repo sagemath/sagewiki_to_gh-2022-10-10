@@ -31,7 +31,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 || 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || ||
 || 11:00 AM || Interact Design           || Open Mic, MC Jason Grout || ||
 ||  2:00 PM || UTMOST Test Sites Meeting || || ||
-||  4:00 PM || Status Reports, Wrap-Up   || || ||
+||  3:30 PM || Status Reports, Wrap-Up   || || ||
 
 = Pictures =
 
