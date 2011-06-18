@@ -29,7 +29,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
 ||  9:00 AM || Linear Algebra            || Rob Beezer, U of Puget Sound || ||
 || 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || ||
-|| 11:00 AM || Interact Design           || Open Mic, MC Jason Grout || ||
+|| 11:00 AM || Interact Design           || Open Mic, MC Jason Grout || [[http://wiki.sagemath.org/interact/|Sage Interact Library]] ||
 ||  2:00 PM || UTMOST Test Sites Meeting || || ||
 ||  3:30 PM || Status Reports, Wrap-Up   || || ||
 
