@@ -25,7 +25,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
 ||  3:30 PM || Status Reports                ||  ||  [[http://tinyurl.com/3jsht4q|Video]] ||
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 17 || || [[https://picasaweb.google.com/wstein/20110617Sd31Day5|Pictures]] ||
-||  3:30 PM || Status Reports                ||  || ||
+||  3:30 PM || Status Reports                ||  || [[http://tinyurl.com/3fbzd8q|Video (part 1 of 2)]]  [[http://tinyurl.com/3o7zahf|Video (part 2 of 2)]] ||
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
 ||          || [[http://wiki.sagemath.org/education3|Sage Education Days 3]] ||  || ||
