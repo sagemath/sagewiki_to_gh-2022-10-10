@@ -25,7 +25,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 || 10:45 AM || Linear Algebra Lab Manual || Ryan Grout, Brigham Young University|| [[http://tinyurl.com/3dkvq6r|Video]] ||
 || 11:15 AM || SageTeX                   || Dan Drake, KAIST, Korea || Jason Grout's [[http://artsci.drake.edu/grout/sage-slides.pdf|awesome example slides]] ([[http://artsci.drake.edu/grout/lib/exe/fetch.php/sage-tex.zip|latex source]])  [[http://tinyurl.com/3zwnfhz|Video]] ||
 ||  2:30 PM || UTMOST Staff Meeting ||  || ||
-||  3:30 PM || Status Reports            ||  || ||
+||  3:30 PM || Status Reports            ||  || [[http://tinyurl.com/3fbzd8q|Video (part 1 of 2)]]  [[http://tinyurl.com/3o7zahf|Video (part 2 of 2)]]  ||
 ||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
 ||  9:00 AM || Linear Algebra            || Rob Beezer, U of Puget Sound || ||
 || 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || ||
