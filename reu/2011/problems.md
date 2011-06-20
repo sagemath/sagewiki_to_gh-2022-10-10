@@ -5,7 +5,7 @@ Let a be a root of $x^2-x-1$.
 == Specific Concrete Little Questions ==
 
   * Find the isogeny class of the curve [1,a+1,a,a,0].
-
+  * Data up to norm conductor 124.
 
 == Major Projects ==
 I keep thinking of good ideas for projects for the summer REU involving elliptic curves.  Thus I'll start listing them here.  -- William
