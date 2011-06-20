@@ -184,18 +184,41 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 
 Our goal on the last day of sessions is to consolidate our gains, give lots of opportunity to share your work, and address some final issues like setting up a server.  We'll also have an opportunity for addressing things not already discussed.
 
-=== Session I - TBA ===
-    * Welcome Back
-    * Servers
-    * Integration with other things
-      * Geogebra
-      * WeBWorK
-    * TBA
+=== Session I - Useful Advanced Issues ===
+    * Welcome back (Jason, 5 min)
+    * Setting up a server (Jason, 20 min)
+      * End with Q&A
+    * More nuts and bolts of classroom use to remember (10 min)
+    * Abstract Algebra quickstart (Karl-Dieter, 20 min)
+    * Break
+    * Advanced 3d plotting (Jason, 15 min)
+    * More advanced moving between formats (Karl-Dieter, 15 min)
+      * Such as tex2sws, sws2tex, rst2sws... 
+    * Embedding other things into worksheets (Jason, 10 min)---geogebra; flash; applet
+    * Advanced programming (Jason, 20 min)
+      * lists vs. tuples
+      * slicing 
+      * slicing matrices
+      * generators
+      * list comprehensions
+      * any/all/exists/every
+      * dictionaries
+      * lambda functions
 
-=== Session II - TBA ===
-    * TBA
-    * Lots of participant demos
-
+=== Session II - Participants Participate ===
+    * Welcome back (Karl-Dieter, 5min)
+    * Webwork (Jason Aubrey)
+    * Brief break
+    * Participant demos (moderated by Karl-Dieter, 65 min)
+    * Brief break
+    * Preview of future Sage enhancements (Jason, 10 min)
+    * Wrap-up (Karl-Dieter, 10 min)
+      * Postsurvey
+      * Mathfest 
+      * Joint Math Meetings
+      * Video links from UTMOST conference
+      * Servers for fall use
+      * Follow up report about how used in classroom, 
 
 === Session Links ===
 
