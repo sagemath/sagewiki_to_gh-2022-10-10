@@ -1,5 +1,13 @@
 = Elliptic Curves: Specific Task List =
 
+Let a be a root of $x^2-x-1$.
+
+== Specific Concrete Little Questions ==
+
+  * Find the isogeny class of the curve [1,a+1,a,a,0].
+
+
+== Major Projects ==
 I keep thinking of good ideas for projects for the summer REU involving elliptic curves.  Thus I'll start listing them here.  -- William
 
   * Create a SQLite version of [[http://www.warwick.ac.uk/~masgaj/ftp/data/|Cremona's tables of elliptic curves]].  Make indexes and have it be very easy to query.  Have it replace the current Cremona database in Sage.
