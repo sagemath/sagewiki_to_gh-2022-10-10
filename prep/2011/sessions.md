@@ -208,7 +208,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * Applets
       * WeBWorK
     * [[http://webwork.maa.org|WeBWorK]] (Michael Gage, 15 min)
-      * Link to slides
+      * Link to [[attachment:2011_06_21_PREPsage.pdf|slides]]
 
 === Session II - Participants Participate ===
     * Welcome back (Jason, 5 min)
