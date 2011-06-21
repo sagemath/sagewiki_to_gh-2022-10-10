@@ -4,6 +4,8 @@
 
 == Monday, June 20 ==
 
+  * Introductions: http://tinyurl.com/3m6fs8f
+
   * Tutorial about how to compute things about elliptic curves:  http://nt.sagenb.org/home/pub/45/
 
   * Cremona's online tables: http://www.warwick.ac.uk/~masgaj/ftp/data/
