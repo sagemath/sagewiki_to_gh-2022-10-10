@@ -212,7 +212,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session II - Participants Participate ===
     * Welcome back (Jason, 5 min)
-    * Advanced programming (Jason, 20 min)
+    * [[http://sage.maa.org/home/pub/??|Advanced programming]] (Jason, 20 min)
       * lists vs. tuples
       * slicing 
       * slicing matrices
@@ -223,15 +223,34 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * lambda functions
     * Brief break
     * Participant demos (moderated by Karl-Dieter, 65 min)
+      * As many of these as we can get to!
+      * [[http://sage.maa.org/home/pub/52/|Mortgage calculation]]
+      * [[http://sage.maa.org/home/pub/55/|Exploring transformations in precalc]]
+      * [[http://sage.maa.org/home/pub/51/|Quadric Surfaces]]
+      * [[http://sage.maa.org/home/pub/49/|Continued Fractions]]
+      * [[http://sage.maa.org/home/pub/60/|"Our Big Theorem"]]
+      * [[http://sage.maa.org/home/pub/54/|Projective Coordinates on the Complex Plane]]
+      * [[http://sage.maa.org/home/pub/47/|Plane and Space Curves]]
+      * [[http://sage.maa.org/home/pub/50/|Expectation Worksheet]]
     * Brief break
     * Preview of future Sage enhancements (Jason, 10 min)
     * Wrap-up (Karl-Dieter, 10 min)
-      * Postsurvey
-      * Mathfest
+      * Post-Workshop Survey - watch your email
+      * Mathfest (joint with WeBWorK and MAA)
+        * Short Demo
+        * Should be a table
+        * Something at Web-SIGMAA meeting
       * Joint Math Meetings
-      * Video links from UTMOST conference
+        * Sage table, possibly with WW and/or MAA
+      * Video links from UTMOST Sage Days conference
+        * [[education3#Schedule|Most video and slides and worksheets are here]]
+          * Including ones from Jason, Karl-Dieter, Jason's little brother Ryan, and former PREP participant John Travis
+          * Dan Drake's [[http://tinyurl.com/3zwnfhz|SageTeX video]] is awesome
+        * [[days31#Schedule|The WeBWorK videos here (Wednesday) may be helpful]]
       * Servers for fall use
-      * Follow up report about how used in classroom, 
+      * Follow up reports about how used in classroom
+        * Keep track!
+        * Watch for emails!
 
 === Session Links ===
 
