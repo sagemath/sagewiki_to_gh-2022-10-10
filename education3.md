@@ -27,9 +27,9 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||  2:30 PM || UTMOST Staff Meeting ||  || ||
 ||  3:30 PM || Status Reports            ||  || [[http://tinyurl.com/3fbzd8q|Video (part 1 of 2)]]  [[http://tinyurl.com/3o7zahf|Video (part 2 of 2)]]  ||
 ||<rowstyle="background-color: #E0E0FF;"> Saturday || June 18 || || ||
-||  9:00 AM || Linear Algebra            || Rob Beezer, U of Puget Sound || ||
-|| 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || ||
-|| 11:00 AM || Interact Design           || Open Mic, MC Jason Grout || [[http://wiki.sagemath.org/interact/|Sage Interact Wiki]], [[http://sagenb.org/pub/?typ=pub&search=interact|Published Sage Worksheets with Interacts]] ||
+||  9:00 AM || Linear Algebra            || Rob Beezer, U of Puget Sound || [[http://tinyurl.com/44svcjv|Video]]||
+|| 10:00 AM || Numerical Analysis        || Jason Grout, Drake U || [[http://tinyurl.com/3co4mxx|Video]] ||
+|| 11:00 AM || Interact Design           || Open Mic, MC Jason Grout || [[http://wiki.sagemath.org/interact/|Sage Interact Wiki]], [[http://sagenb.org/pub/?typ=pub&search=interact|Published Sage Worksheets with Interacts]]   [[http://tinyurl.com/5rkpmo6|Video]]  ||
 ||  2:00 PM || UTMOST Test Sites Meeting || || ||
 ||  3:30 PM || Status Reports, Wrap-Up   || || ||
 
