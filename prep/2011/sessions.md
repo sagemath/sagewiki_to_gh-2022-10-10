@@ -186,15 +186,19 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session I - Useful Advanced Issues ===
     * Welcome back (Jason, 5 min)
+    * More nuts and bolts of classroom use to remember (10 min)
     * Setting up a server (Jason, 20 min)
       * End with Q&A
-    * More nuts and bolts of classroom use to remember (10 min)
     * Abstract Algebra quickstart (Karl-Dieter, 20 min)
     * Break
     * Advanced 3d plotting (Jason, 15 min)
     * More advanced moving between formats (Karl-Dieter, 15 min)
       * Such as tex2sws, sws2tex, rst2sws... 
     * Embedding other things into worksheets (Jason, 10 min)---geogebra; flash; applet
+    * Webwork (Michael Gage)
+
+=== Session II - Participants Participate ===
+    * Welcome back (Karl-Dieter, 5min)
     * Advanced programming (Jason, 20 min)
       * lists vs. tuples
       * slicing 
@@ -204,10 +208,6 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * any/all/exists/every
       * dictionaries
       * lambda functions
-
-=== Session II - Participants Participate ===
-    * Welcome back (Karl-Dieter, 5min)
-    * Webwork (Jason Aubrey)
     * Brief break
     * Participant demos (moderated by Karl-Dieter, 65 min)
     * Brief break
