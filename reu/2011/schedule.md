@@ -21,11 +21,11 @@
   * 10am-12pm: Introduction to Sage in Communications B27.
   * Presentation of assignments from June 20 (table up to norm conductor 124):
         * Rado Kirov: http://nt.sagenb.org/home/pub/47/
-        * Ben Leveque: 
+        * Ben Leveque: http://nt.sagenb.org/home/pub/50/
         * Andrew Ohana: 
         * Ashwath Rabindranath: 
         * Paul Sharaba: 
-        * William Stein:
+        * William Stein: http://nt.sagenb.org/home/pub/46/
   * Demos of things you've done using Sage (e.g., interacts, etc.)
   * Introduction to Sage (lecture by Stein)
   * Get started with the Wiki a little: http://wiki.sagemath.org/reu/2011
