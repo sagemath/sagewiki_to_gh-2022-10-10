@@ -193,6 +193,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
         * Presentation ideas
         * Books using Sage
         * More ideas?
+        * [[attachment:FinalClassroomIdeas.rtf|Notes from this]]
       * Setting up a server (Jason)
         * Where to find resources
         * Q&A
