@@ -1,6 +1,6 @@
 <<TableOfContents>>
 
-= Monday June 20 =
+= Monday, June 20 =
 
   * Tutorial about how to compute things about elliptic curves:  http://nt.sagenb.org/home/pub/45/
 
@@ -12,3 +12,22 @@
 
   * Results of assignment:
        * William: See http://nt.sagenb.org/home/pub/46/ and in particular the pdf link at the bottom.
+
+= Tuesday, June 21 =
+
+= Wednesday, June 22 =
+
+= Thursday, June 23 =
+
+= Friday, June 24 =
+
+= Monday, June 27 =
+
+= Tuesday, June 28 =
+
+= Wednesday, June 29 =
+
+
+= Thursday, June 30 =
+
+= Friday, July 1 =
