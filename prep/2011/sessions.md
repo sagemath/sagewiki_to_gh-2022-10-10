@@ -209,6 +209,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * WeBWorK
     * [[http://webwork.maa.org|WeBWorK]] (Michael Gage, 15 min)
       * Link to [[attachment:2011_06_21_PREPsage.pdf|slides]]
+      * [[http://tinyurl.com/3fbzd8q|Status report on Sage/WeBWorK integration]](8 minutes in and 25 minutes in)
 
 === Session II - Participants Participate ===
     * Welcome back (Jason, 5 min)
