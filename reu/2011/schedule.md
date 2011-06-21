@@ -31,6 +31,7 @@
   * Demos of things you've done using Sage (e.g., interacts, etc.):
         * Ben Leveque's Farey Graph: http://nt.sagenb.org/home/pub/52/
   * Get started with the Wiki a little: http://wiki.sagemath.org/reu/2011
+  * Mentioned: dumps, loads, save, load, and nosqlite: http://code.google.com/p/nosqlite/
 
 == Wednesday, June 22 ==
   * Aly Deines -- something about global minimal models at 3:10pm.
