@@ -54,7 +54,7 @@
 
 == Friday, July 8 ==
 
-= Week 4 =
+= Week 4 (William in Budapest this week) =
 
 == Monday, July 11 ==
 
