@@ -29,9 +29,10 @@
   * Demos of things you've done using Sage (e.g., interacts, etc.)
   * Introduction to Sage (lecture by Stein)
   * Get started with the Wiki a little: http://wiki.sagemath.org/reu/2011
-  * Get started with Mercurial a little: http://code.google.com/p/uw-nt-reu2011/
 
 == Wednesday, June 22 ==
+  * Aly Deines -- something about global minimal models at 3:10pm.
+  * Get started with Mercurial a little: http://code.google.com/p/uw-nt-reu2011/
  
 == Thursday, June 23 ==
 
