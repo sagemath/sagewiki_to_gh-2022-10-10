@@ -229,8 +229,9 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * [[http://sage.maa.org/home/pub/51/|Quadric Surfaces]]
       * [[http://sage.maa.org/home/pub/49/|Continued Fractions]]
       * [[http://sage.maa.org/home/pub/60/|"Our Big Theorem"]]
-      * [[http://sage.maa.org/home/pub/54/|Projective Coordinates on the Complex Plane]]
       * [[http://sage.maa.org/home/pub/47/|Plane and Space Curves]]
+      * [[http://sage.maa.org/home/pub/44/|Normal Distribution]]
+      * [[http://sage.maa.org/home/pub/54/|Projective Coordinates on the Complex Plane]]
       * [[http://sage.maa.org/home/pub/50/|Expectation Worksheet]]
     * Brief break
     * Preview of future Sage enhancements (Jason, 10 min)
