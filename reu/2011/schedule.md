@@ -27,7 +27,6 @@
         * Paul Sharaba: 
         * William Stein: http://nt.sagenb.org/home/pub/46/
   * Demos of things you've done using Sage (e.g., interacts, etc.)
-  * Introduction to Sage (lecture by Stein)
   * Get started with the Wiki a little: http://wiki.sagemath.org/reu/2011
 
 == Wednesday, June 22 ==
