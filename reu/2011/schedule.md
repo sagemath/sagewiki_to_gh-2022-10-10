@@ -34,7 +34,8 @@
   * Andrew Ohana and Aly Deines: canonical stuff [[attachment:ohana1.pdf]]
   * Mentioned: dumps, loads, save, load, and nosqlite: http://code.google.com/p/nosqlite/
   * Antwerp IV -- old tables of elliptic curves: http://modular.math.washington.edu/Tables/antwerp/
-  * Read [[http://www.ams.org/journals/bull/1995-32-04/S0273-0979-1995-00616-6/S0273-0979-1995-00616-6.pdf|Ribet's awesome paper 'Galois representations and modular forms']], in particular Sections 3 and 5. 
+  * Read [[http://www.ams.org/journals/bull/1995-32-04/S0273-0979-1995-00616-6/S0273-0979-1995-00616-6.pdf|Ribet's awesome paper 'Galois representations and modular forms']], in particular Sections 3 and 5.
+  * Extensive data over Q(sqrt(5)) so far is [[http://wstein.org/Tables/hmf/sqrt5/|here as plain text files]].  This can be used instead of http://db.modform.org, and is easier to parse.
 
 == Wednesday, June 22 ==
   * Aly Deines -- something about global minimal models at 3:10pm.
