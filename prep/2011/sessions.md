@@ -253,7 +253,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session Links ===
 
-  * TBA
+  * [[http://docs.python.org/library/functions.html#sorted|Documentation]] for Python sorted() function
 
 
 <<Anchor(officehours)>>
