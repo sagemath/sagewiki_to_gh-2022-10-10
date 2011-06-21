@@ -70,9 +70,11 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/10794|10794]] || QR matrix decomposition over exact rings || 4.7.alpha5 || Simon Spicer ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11114|11114]] || is_diagonalizable() for matrices || 4.7.1.alpha0 || Dan Drake ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10746|10746]] || refactor matrix kernels || 4.7.1.alpha2 || Christian Stump ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || 4.7.1.alpha2 || Dan Drake ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || 4.7.1.alpha3 || Martin Raum, John Palmieri, Jeroen Demeyer ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || 4.7.1.alpha4 || Dan Drake ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || positive review || Ryan Grout ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
@@ -80,14 +82,13 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patches, dep. 10683, 10794 || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || with patch|| Martin Raum ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || with patch ||  ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || with patch ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || needs review || Martin Raum, John Palmieri ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11104|11104]] || is_normal() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11259|11259]] || LU decomposition for exact matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11306|11306]] || upgrade is_unitary() for RDF/CDF || with patch, dep. #11027, #10848, #11277 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11356|11356]] || companion matrix constructor || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11364|11364]] || cyclic subspaces (aka Krylov subspaces) || with patch ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11480|11480]] || zigzag form and rational canonical form || with patch, dep #11356 ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || needs work - numerical || Simon Spicer ||
