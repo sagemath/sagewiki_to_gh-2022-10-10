@@ -22,7 +22,7 @@
   * Presentation of assignments from June 20 (table up to norm conductor 124):
         * Rado Kirov: http://nt.sagenb.org/home/pub/47/
         * Ben Leveque: http://nt.sagenb.org/home/pub/50/
-        * Andrew Ohana: 
+        * Andrew Ohana: http://nt.sagenb.org/home/pub/51/
         * Ashwath Rabindranath: 
         * Paul Sharaba: 
         * William Stein: http://nt.sagenb.org/home/pub/46/
