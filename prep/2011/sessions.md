@@ -185,7 +185,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 Our goal on the last day of sessions is to consolidate our gains, give lots of opportunity to share your work, and address some final issues like setting up a server.  We'll also have an opportunity for addressing things not already discussed.
 
 === Session I - Useful Advanced Issues ===
-    * Welcome back (Jason, 5 min)
+    * Welcome back (Karl-Dieter, 5 min)
     * Final classroom nuts and bolts (40 min)
       * Ideas discussion (moderated by Karl-Dieter)
         * Ideas for server or lab
@@ -201,12 +201,17 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
         * Q&A
     * Break
     * Abstract Algebra quickstart (Karl-Dieter, 15 min)
-    * Advanced 3d plotting (Jason, 15 min)
-    * Embedding other things into worksheets (Jason, 10 min)---geogebra; flash; applet
-    * Webwork (Michael Gage, 10-15 min)
+    * Advanced 3d plotting Parts [[http://sage.maa.org/home/pub/57|One]] and [[http://sage.maa.org/home/pub/56|Two]] (Jason, 15 min)
+    * [[http://sage.maa.org/home/pub/58|Embedding other things]] into worksheets (Jason, 10 min)
+      * Geogebra
+      * Flash
+      * Applets
+      * WeBWorK
+    * [[http://webwork.maa.org|WeBWorK]] (Michael Gage, 15 min)
+      * Link to slides
 
 === Session II - Participants Participate ===
-    * Welcome back (Karl-Dieter, 5 min)
+    * Welcome back (Jason, 5 min)
     * Advanced programming (Jason, 20 min)
       * lists vs. tuples
       * slicing 
