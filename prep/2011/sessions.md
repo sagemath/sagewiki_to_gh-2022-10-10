@@ -186,13 +186,16 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session I - Useful Advanced Issues ===
     * Welcome back (Jason, 5 min)
-    * Final classroom nuts and bolts (Karl-Dieter, 15 min)
-      * Ideas for server or lab
-      * Grading and/or sharing
-      * Books using Sage
-      * Questions?
-    * Setting up a server (Jason, 20 min)
-      * End with Q&A
+    * Final classroom nuts and bolts (40 min)
+      * Ideas discussion (moderated by Karl-Dieter)
+        * Ideas for server or lab
+        * Grading and/or sharing
+        * Presentation ideas
+        * Books using Sage
+        * More ideas?
+      * Setting up a server (Jason)
+        * Where to find resources
+        * Q&A
     * Break
     * Abstract Algebra quickstart (Karl-Dieter, 15 min)
     * Advanced 3d plotting (Jason, 15 min)
