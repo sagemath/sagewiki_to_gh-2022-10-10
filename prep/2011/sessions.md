@@ -212,13 +212,10 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session II - Participants Participate ===
     * Welcome back (Jason, 5 min)
-    * [[http://sage.maa.org/home/pub/??|Advanced programming]] (Jason, 20 min)
+    * [[http://sage.maa.org/home/pub/61|Advanced programming]] (Jason, 20 min)
       * lists vs. tuples
-      * slicing 
-      * slicing matrices
-      * generators
-      * list comprehensions
-      * any/all/exists/every
+      * list comprehensions and generators
+      * slicing lists and matrices
       * dictionaries
       * lambda functions
     * Brief break
