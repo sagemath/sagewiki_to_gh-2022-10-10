@@ -186,19 +186,23 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session I - Useful Advanced Issues ===
     * Welcome back (Jason, 5 min)
-    * More nuts and bolts of classroom use to remember (10 min)
+    * Final classroom nuts and bolts (Karl-Dieter, 15 min)
+      * Ideas for server or lab
+      * Grading and/or sharing
+      * Books using Sage
+      * Questions?
     * Setting up a server (Jason, 20 min)
       * End with Q&A
-    * Abstract Algebra quickstart (Karl-Dieter, 20 min)
     * Break
+    * Abstract Algebra quickstart (Karl-Dieter, 15 min)
     * Advanced 3d plotting (Jason, 15 min)
     * More advanced moving between formats (Karl-Dieter, 15 min)
       * Such as tex2sws, sws2tex, rst2sws... 
     * Embedding other things into worksheets (Jason, 10 min)---geogebra; flash; applet
-    * Webwork (Michael Gage)
+    * Webwork (Michael Gage, 10-15 min)
 
 === Session II - Participants Participate ===
-    * Welcome back (Karl-Dieter, 5min)
+    * Welcome back (Karl-Dieter, 5 min)
     * Advanced programming (Jason, 20 min)
       * lists vs. tuples
       * slicing 
@@ -214,7 +218,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
     * Preview of future Sage enhancements (Jason, 10 min)
     * Wrap-up (Karl-Dieter, 10 min)
       * Postsurvey
-      * Mathfest 
+      * Mathfest
       * Joint Math Meetings
       * Video links from UTMOST conference
       * Servers for fall use
