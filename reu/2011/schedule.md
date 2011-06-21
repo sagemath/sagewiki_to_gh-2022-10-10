@@ -18,6 +18,7 @@
 
 == Tuesday, June 21 ==
 
+  * 10am-12pm: Introduction to Sage in Communications B27.
   * Demos of things you've done using Sage (e.g., interacts, etc.)
   * Presentation of assignments from June 20 (table up to norm conductor 124).
   * Introduction to Sage (lecture by Stein)
