@@ -254,6 +254,10 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 === Session Links ===
 
   * [[http://docs.python.org/library/functions.html#sorted|Documentation]] for Python sorted() function
+  * [[http://docs.python.org/library/stdtypes.html#string-formatting|Python string formatting]] 
+  * [[http://docs.python.org/library/string.html#formatstrings|Another string formatting link]]
+  * [[http://docs.python.org/library/urllib2.html|Getting data from the Internet in Python]]
+
 
 
 <<Anchor(officehours)>>
