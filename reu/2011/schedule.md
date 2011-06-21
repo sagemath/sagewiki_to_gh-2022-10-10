@@ -15,8 +15,12 @@
 
 = Tuesday, June 21 =
 
-= Wednesday, June 22 =
+  * Demos of things you've done using Sage (e.g., interacts, etc.)
+  * Presentation of assignments from June 20 (table up to norm conductor 124).
+  * Introduction to Sage (lecture by Stein)
 
+= Wednesday, June 22 =
+ 
 = Thursday, June 23 =
 
 = Friday, June 24 =
@@ -27,7 +31,52 @@
 
 = Wednesday, June 29 =
 
-
 = Thursday, June 30 =
 
 = Friday, July 1 =
+
+= Monday, July 4 =
+
+= Tuesday, July 5 =
+
+= Wednesday, July 6 =
+
+= Thursday, July 7 =
+
+= Friday, July 8 =
+
+
+
+= Monday, July 11 =
+
+= Tuesday, July 12 =
+
+= Wednesday, July 13 =
+
+= Thursday, July 14 =
+
+= Friday, July 15 =
+
+
+
+
+= Monday, July 18 =
+
+= Tuesday, July 19 =
+
+= Wednesday, July 20 =
+
+= Thursday, July 21 =
+
+= Friday, July 22 =
+
+
+= Monday, July 25 =
+
+= Tuesday, July 26 =
+
+= Wednesday, July 27 =
+
+= Thursday, July 28 =
+
+= Friday, July 29 =
