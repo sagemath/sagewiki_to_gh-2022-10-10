@@ -1,6 +1,8 @@
 <<TableOfContents>>
 
-= Monday, June 20 =
+= Week 1 =
+
+== Monday, June 20 ==
 
   * Tutorial about how to compute things about elliptic curves:  http://nt.sagenb.org/home/pub/45/
 
@@ -13,70 +15,103 @@
   * Results of assignment:
        * William: See http://nt.sagenb.org/home/pub/46/ and in particular the pdf link at the bottom.
 
+
 = Tuesday, June 21 =
 
   * Demos of things you've done using Sage (e.g., interacts, etc.)
   * Presentation of assignments from June 20 (table up to norm conductor 124).
   * Introduction to Sage (lecture by Stein)
 
-= Wednesday, June 22 =
+== Wednesday, June 22 ==
  
-= Thursday, June 23 =
+== Thursday, June 23 ==
 
-= Friday, June 24 =
+== Friday, June 24 ==
 
-= Monday, June 27 =
+= Week 2 =
 
-= Tuesday, June 28 =
+== Monday, June 27 ==
 
-= Wednesday, June 29 =
+== Tuesday, June 28 ==
 
-= Thursday, June 30 =
+== Wednesday, June 29 ==
 
-= Friday, July 1 =
+== Thursday, June 30 ==
 
-= Monday, July 4 =
+== Friday, July 1 ==
 
-= Tuesday, July 5 =
+= Week 3 =
 
-= Wednesday, July 6 =
+== Monday, July 4 ==
 
-= Thursday, July 7 =
+== Tuesday, July 5 ==
 
-= Friday, July 8 =
+== Wednesday, July 6 ==
 
+== Thursday, July 7 ==
 
+== Friday, July 8 ==
 
-= Monday, July 11 =
+= Week 4 =
 
-= Tuesday, July 12 =
+== Monday, July 11 ==
 
-= Wednesday, July 13 =
+== Tuesday, July 12 ==
 
-= Thursday, July 14 =
+== Wednesday, July 13 ==
 
-= Friday, July 15 =
+== Thursday, July 14 ==
 
-
-
-
-= Monday, July 18 =
-
-= Tuesday, July 19 =
-
-= Wednesday, July 20 =
-
-= Thursday, July 21 =
-
-= Friday, July 22 =
+== Friday, July 15 ==
 
 
-= Monday, July 25 =
+= Week 5 =
 
-= Tuesday, July 26 =
+== Monday, July 18 ==
 
-= Wednesday, July 27 =
+== Tuesday, July 19 ==
 
-= Thursday, July 28 =
+== Wednesday, July 20 ==
 
-= Friday, July 29 =
+== Thursday, July 21 ==
+
+== Friday, July 22 ==
+
+= Week 6 =
+
+== Monday, July 25 ==
+
+== Tuesday, July 26 ==
+
+== Wednesday, July 27 ==
+
+== Thursday, July 28 ==
+
+== Friday, July 29 ==
+
+
+= Week 7 =
+
+== Monday, August 1 ==
+
+== Tuesday, August 2 ==
+
+== Wednesday, August 3 ==
+
+== Thursday, August 4 ==
+
+== Friday, August 5 ==
+
+
+= Week 8 =
+
+== Monday, August 8 ==
+
+== Tuesday, August 9 ==
+
+== Wednesday, August 10 ==
+
+== Thursday, August 11 ==
+
+== Friday, August 12 ==
+ 
