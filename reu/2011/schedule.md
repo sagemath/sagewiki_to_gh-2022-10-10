@@ -19,8 +19,9 @@
 == Tuesday, June 21 ==
 
   * 10am-12pm: Introduction to Sage in Communications B27.
+  * Presentation of assignments from June 20 (table up to norm conductor 124):
+        * http://nt.sagenb.org/home/pub/47/
   * Demos of things you've done using Sage (e.g., interacts, etc.)
-  * Presentation of assignments from June 20 (table up to norm conductor 124).
   * Introduction to Sage (lecture by Stein)
   * Get started with the Wiki a little: http://wiki.sagemath.org/reu/2011
   * Get started with Mercurial a little: http://code.google.com/p/uw-nt-reu2011/
