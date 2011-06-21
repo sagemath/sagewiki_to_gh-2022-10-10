@@ -33,6 +33,7 @@
   * Get started with the Wiki a little: http://wiki.sagemath.org/reu/2011
   * Andrew Ohana and Aly Deines: canonical stuff [[attachment:ohana1.pdf]]
   * Mentioned: dumps, loads, save, load, and nosqlite: http://code.google.com/p/nosqlite/
+  * Antwerp IV -- old tables of elliptic curves: http://modular.math.washington.edu/Tables/antwerp/
 
 == Wednesday, June 22 ==
   * Aly Deines -- something about global minimal models at 3:10pm.
