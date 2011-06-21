@@ -190,11 +190,13 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * Ideas discussion (moderated by Karl-Dieter)
         * Ideas for server or lab
         * Grading and/or sharing
+          * [[http://www.sagemath.org/download-livecd.html|LiveCD]]
         * Presentation ideas
-        * Books using Sage
+        * [[http://sagemath.org/library-publications.html#books|Books using Sage]]
+          * [[http://code.google.com/p/sage-power-book/|William Stein's book]]
         * More ideas?
         * [[attachment:FinalClassroomIdeas.rtf|Notes from this]]
-      * Setting up a server (Jason)
+      * [[http://wiki.sagemath.org/SageServer|Setting up a server]] (Jason)
         * Where to find resources
         * Q&A
     * Break
