@@ -258,8 +258,11 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
   * [[http://docs.python.org/library/string.html#formatstrings|Another string formatting link]]
   * [[http://docs.python.org/library/urllib2.html|Getting data from the Internet in Python]]
   * [[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|More multivariable interact ideas]]
-
-
+  * [[http://linear.ups.edu/|Beezer's linear algebra book]]
+  * [[http://wiki.sagemath.org/devel/LatexToWorksheet|Beezer's plan to move TeX to worksheets]]
+  * [[https://bitbucket.org/rbeezer/tex2sws/|tex2sws conversion software]]
+  * [[http://www.d.umn.edu/~mhampton/|Marshall Hampton's awesome 3D animations with Sage and Tachyon]]
+  * [[http://www.sagemath.org/doc/reference/sage/calculus/riemann.html|Riemann mapping in Sage]]
 
 <<Anchor(officehours)>>
 == Office Hours ==
