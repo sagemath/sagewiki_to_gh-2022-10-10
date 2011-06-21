@@ -263,6 +263,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
   * [[https://bitbucket.org/rbeezer/tex2sws/|tex2sws conversion software]]
   * [[http://www.d.umn.edu/~mhampton/|Marshall Hampton's awesome 3D animations with Sage and Tachyon]]
   * [[http://www.sagemath.org/doc/reference/sage/calculus/riemann.html|Riemann mapping in Sage]]
+  * [[http://groups.google.com/group/sage-announce|Sage announcement list]]
 
 <<Anchor(officehours)>>
 == Office Hours ==
