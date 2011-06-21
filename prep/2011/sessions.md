@@ -202,8 +202,6 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
     * Break
     * Abstract Algebra quickstart (Karl-Dieter, 15 min)
     * Advanced 3d plotting (Jason, 15 min)
-    * More advanced moving between formats (Karl-Dieter, 15 min)
-      * Such as tex2sws, sws2tex, rst2sws... 
     * Embedding other things into worksheets (Jason, 10 min)---geogebra; flash; applet
     * Webwork (Michael Gage, 10-15 min)
 
