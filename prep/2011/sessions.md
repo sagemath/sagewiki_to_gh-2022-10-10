@@ -200,7 +200,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
         * Where to find resources
         * Q&A
     * Break
-    * Abstract Algebra quickstart (Karl-Dieter, 15 min)
+    * Abstract Algebra [[http://sage.maa.org/home/pub/22|quickstart]] (Karl-Dieter, 15 min)
     * Advanced 3d plotting Parts [[http://sage.maa.org/home/pub/57|One]] and [[http://sage.maa.org/home/pub/56|Two]] (Jason, 15 min)
     * [[http://sage.maa.org/home/pub/58|Embedding other things]] into worksheets (Jason, 10 min)
       * Geogebra
