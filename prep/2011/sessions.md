@@ -257,6 +257,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
   * [[http://docs.python.org/library/stdtypes.html#string-formatting|Python string formatting]] 
   * [[http://docs.python.org/library/string.html#formatstrings|Another string formatting link]]
   * [[http://docs.python.org/library/urllib2.html|Getting data from the Internet in Python]]
+  * [[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|More multivariable interact ideas]]
 
 
 
