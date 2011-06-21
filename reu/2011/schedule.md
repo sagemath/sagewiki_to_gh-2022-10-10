@@ -20,7 +20,7 @@
 
 == Tuesday, June 21 ==
 
-  * 10am-12pm: Introduction to Sage in Communications B27.
+  * 10am-12pm: Introduction to Sage in Communications B27.   [[http://tinyurl.com/3j83k48|Video]]
   * Presentation of assignments from June 20 (table up to norm conductor 124):
         * Rado Kirov: http://nt.sagenb.org/home/pub/47/
         * Ben Leveque: http://nt.sagenb.org/home/pub/50/
