@@ -16,7 +16,7 @@
        * William: See http://nt.sagenb.org/home/pub/46/ and in particular the pdf link at the bottom.
 
 
-= Tuesday, June 21 =
+== Tuesday, June 21 ==
 
   * Demos of things you've done using Sage (e.g., interacts, etc.)
   * Presentation of assignments from June 20 (table up to norm conductor 124).
