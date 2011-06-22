@@ -33,7 +33,7 @@
   * Get started with the Wiki a little: http://wiki.sagemath.org/reu/2011
   * Andrew Ohana and Aly Deines: canonical stuff [[attachment:ohana1.pdf]]
   * Mentioned: dumps, loads, save, load
-  * nosqlite: http://code.google.com/p/nosqlite/ along with [[http://nt.sagenb.org/home/pub/54/|a worksheet that illustrates it]].
+  * nosqlite: http://code.google.com/p/nosqlite/ along with [[http://nt.sagenb.org/home/pub/55/|a worksheet that illustrates it]].
   * Antwerp IV -- old tables of elliptic curves: http://modular.math.washington.edu/Tables/antwerp/
   * Read [[http://www.ams.org/journals/bull/1995-32-04/S0273-0979-1995-00616-6/S0273-0979-1995-00616-6.pdf|Ribet's awesome paper 'Galois representations and modular forms']], in particular Sections 3 and 5.
   * Extensive data over Q(sqrt(5)) so far is [[http://wstein.org/Tables/hmf/sqrt5/|here as plain text files]].  This can be used instead of http://db.modform.org, and is easier to parse.
