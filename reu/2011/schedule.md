@@ -49,7 +49,7 @@
   * William's idea for determining whether there is a p-isogeny: http://nt.sagenb.org/home/pub/61/
   * Elkies tables that have isogeny examples: http://www.math.harvard.edu/~elkies/nature.html
   * William: Added [[http://code.google.com/p/uw-nt-reu2011/source/detail?r=c13b6e9fa71d1bdeadee1ceb2c738aa0cebf6456|initial template version of our goal paper]] to the repository. 
-  * Here is an initial table that adds |T|, signs, ord(disc), ord_(j), Tamagawa numbers, and Kodaira symbols: [[attachment:InitialCurveData.txt]]
+  * Here is an initial table that adds |T|, signs, ord(disc), ord_(j), Tamagawa numbers, and Kodaira symbols to the data at http://wstein.org/Tables/hmf/sqrt5/finding_weierstrass_equations/matched.txt : [[attachment:InitialCurveData.txt]]
  
 == Thursday, June 23 ==
 
