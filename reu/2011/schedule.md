@@ -39,7 +39,9 @@
   * Extensive data over Q(sqrt(5)) so far is [[http://wstein.org/Tables/hmf/sqrt5/|here as plain text files]].  This can be used instead of http://db.modform.org, and is easier to parse.
 
 == Wednesday, June 22 ==
-  * Rado's talk at 10am in Communications B27:   http://sagenb.org/javascript/graph_editor2/index.html
+  * Rado's talk at 10am in Communications B27:   
+           * http://sagenb.org/javascript/graph_editor2/index.html
+           * https://developer.mozilla.org/en/canvas_tutorial
   * 11:30am -- meet in the Sage lab
   * Aly Deines -- something about global minimal models at 3:10pm. (But we need to figure out where).
   * Get started with Mercurial a little: http://code.google.com/p/uw-nt-reu2011/
