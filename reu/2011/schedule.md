@@ -44,7 +44,7 @@
            * Best HTML5 canvas tutorial:  https://developer.mozilla.org/en/canvas_tutorial
            * Graph editor source code: https://bitbucket.org/radokirov/js-graph-editor
   * 11:30am -- meet in the Sage lab
-  * Aly Deines -- something about global minimal models at 3:10pm. (But we need to figure out where).
+  * Aly Deines -- Global minimal models at 3:10pm. http://nt.sagenb.org/home/pub/62/
   * Get started with Mercurial a little: http://code.google.com/p/uw-nt-reu2011/
   * William's idea for determining whether there is a p-isogeny: http://nt.sagenb.org/home/pub/61/
   * Elkies tables that have isogeny examples: http://www.math.harvard.edu/~elkies/nature.html
