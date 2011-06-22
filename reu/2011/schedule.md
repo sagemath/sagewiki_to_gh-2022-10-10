@@ -48,6 +48,7 @@
   * Get started with Mercurial a little: http://code.google.com/p/uw-nt-reu2011/
   * William's idea for determining whether there is a p-isogeny: http://nt.sagenb.org/home/pub/61/
   * Elkies tables that have isogeny examples: http://www.math.harvard.edu/~elkies/nature.html
+  * William: Added [[http://code.google.com/p/uw-nt-reu2011/source/detail?r=c13b6e9fa71d1bdeadee1ceb2c738aa0cebf6456|initial template version of our goal paper]] to the repository. 
  
 == Thursday, June 23 ==
 
