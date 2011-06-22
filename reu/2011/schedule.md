@@ -46,6 +46,7 @@
   * 11:30am -- meet in the Sage lab
   * Aly Deines -- something about global minimal models at 3:10pm. (But we need to figure out where).
   * Get started with Mercurial a little: http://code.google.com/p/uw-nt-reu2011/
+  * William's idea for determining whether there is a p-isogeny: http://nt.sagenb.org/home/pub/61/
  
 == Thursday, June 23 ==
 
