@@ -50,6 +50,7 @@
   * Elkies tables that have isogeny examples: http://www.math.harvard.edu/~elkies/nature.html
   * William: Added [[http://code.google.com/p/uw-nt-reu2011/source/detail?r=c13b6e9fa71d1bdeadee1ceb2c738aa0cebf6456|initial template version of our goal paper]] to the repository. 
   * Here [[attachment:InitialCurveData.txt]] is an initial table that adds |T|, signs, ord(disc), ord_(j), Tamagawa numbers, and Kodaira symbols to the data at http://wstein.org/Tables/hmf/sqrt5/finding_weierstrass_equations/matched.txt
+  * Here is the paper from the 2010 REU: [[attachment:Prime_Isogenies_Over_Number_Fields.pdf|On the Irreducibility of Galois Representations Associated to Elliptic Curves]]
  
 == Thursday, June 23 ==
 
