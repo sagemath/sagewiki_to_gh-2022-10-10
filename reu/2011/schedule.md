@@ -63,6 +63,7 @@
   * Work afterwards in Sage lab starting 2pm. 
 
 == Friday, June 24 ==
+  * 10am in the Sage lab for status reports and planning. 
 
 = Week 2 =
 
