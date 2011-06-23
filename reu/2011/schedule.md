@@ -54,7 +54,7 @@
   * Ashwath: Here is some very preliminary code that confirms William's idea to check if a certain curve has odd prime isogenies using the reducibility of the characteristic polynomial of Frobenius at primes of good reduction: http://nt.sagenb.org/home/pub/63
  
 == Thursday, June 23 ==
-  * Official start meeting at 12pm at [[http://goo.gl/msJue/|Pa$eo]] in Fremont. 4225 Fremont Ave N. 
+  * Official start meeting at 12pm at [[http://goo.gl/msJue|Pa$eo]] in Fremont. 4225 Fremont Ave N. 
   * Work afterwards in Sage lab starting 2pm. 
 
 == Friday, June 24 ==
