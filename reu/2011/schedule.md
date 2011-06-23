@@ -49,7 +49,7 @@
   * William's idea for determining whether there is a p-isogeny: http://nt.sagenb.org/home/pub/61/
   * Elkies tables that have isogeny examples: http://www.math.harvard.edu/~elkies/nature.html
   * William: Added [[http://code.google.com/p/uw-nt-reu2011/source/detail?r=c13b6e9fa71d1bdeadee1ceb2c738aa0cebf6456|initial template version of our goal paper]] to the repository. 
-  * Here [[attachment:InitialCurveData.txt]] is an initial table that adds |T|, signs, ord(disc), ord_(j), Tamagawa numbers, and Kodaira symbols to the data at http://wstein.org/Tables/hmf/sqrt5/finding_weierstrass_equations/matched.txt
+  * Here [[attachment:modifiedellipticcurvedatafile.txt]] is an initial table that adds |T|, signs, ord(disc), ord_(j), Tamagawa numbers, and Kodaira symbols to the data at http://wstein.org/Tables/hmf/sqrt5/finding_weierstrass_equations/matched.txt
   * Here is the paper from the 2010 REU: [[attachment:Prime_Isogenies_Over_Number_Fields.pdf|On the Irreducibility of Galois Representations Associated to Elliptic Curves]]
   * Ashwath: Here is some very preliminary code that confirms William's idea to check if a certain curve has odd prime isogenies using the reducibility of the characteristic polynomial of Frobenius at primes of good reduction: http://nt.sagenb.org/home/pub/63
   * The isogeny source code in Sage by Dan Shumow: http://nt.sagenb.org/src/schemes/elliptic_curves/ell_curve_isogeny.py
