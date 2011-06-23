@@ -55,6 +55,7 @@
   * The isogeny source code in Sage by Dan Shumow: http://nt.sagenb.org/src/schemes/elliptic_curves/ell_curve_isogeny.py
   * Documentation of Shumow's isogeny code: http://nt.sagenb.org/doc/static/reference/sage/schemes/elliptic_curves/ell_curve_isogeny.html
   * Computing isogeny degrees and filling out the norm conductor 31 isogeny class: http://nt.sagenb.org/home/pub/65/
+  * Project idea: For each aplist in http://wstein.org/Tables/hmf/sqrt5/ellcurve_aplists.txt find all possible isogeny degrees.  This would be extremely interesting!!   
  
 == Thursday, June 23 ==
   * Official start meeting at 12pm at [[http://goo.gl/msJue|Pa$eo]] in Fremont. 4225 Fremont Ave N. 
