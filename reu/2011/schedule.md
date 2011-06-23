@@ -63,6 +63,7 @@
   * Work afterwards in Sage lab starting 2pm. 
   * * Project idea: For each aplist in http://wstein.org/Tables/hmf/sqrt5/ellcurve_aplists.txt find all possible isogeny degrees.  This would be extremely interesting!!   
   * Hilbert modular forms: http://code.  (I am currently running this.  I'll post when done. - Aly)
+  * Ashwath, Ben, Andrew: We have re-written the code from yesterday, making it significantly faster: http://nt.sagenb.org/home/pub/69/
 
 == Friday, June 24 ==
   * 10am in the Sage lab for status reports and planning. 
