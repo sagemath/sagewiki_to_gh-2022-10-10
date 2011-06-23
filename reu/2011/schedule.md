@@ -65,6 +65,7 @@
   * Hilbert modular forms: http://code.  (I am currently running this.  I'll post when done. - Aly)
   * Ashwath, Ben, Andrew: We have re-written the prime isogeny code from yesterday, making it significantly faster: http://nt.sagenb.org/home/pub/69/
   * Note: Initial curve data file above ([[attachment:modifiedellipticcurvedatafile.txt]]) is updated to have 0s where the ord(j) list is empty so it is easier to parse
+  * Paul has written the code for nosqlite to create a database for the elliptic curves. It is currently uploaded to the sage clusters, in the folder databases, labeled small_nosqlite.
 
 == Friday, June 24 ==
   * 10am in the Sage lab for status reports and planning. 
