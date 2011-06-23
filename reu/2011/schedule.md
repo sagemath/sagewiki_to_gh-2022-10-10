@@ -64,6 +64,7 @@
   * Project idea: For each aplist in http://wstein.org/Tables/hmf/sqrt5/ellcurve_aplists.txt find all possible isogeny degrees.  This would be extremely interesting!!   
   * Hilbert modular forms: http://code.  (I am currently running this.  I'll post when done. - Aly)
   * Ashwath, Ben, Andrew: We have re-written the prime isogeny code from yesterday, making it significantly faster: http://nt.sagenb.org/home/pub/69/
+  * Note: Initial curve data file above ([[attachment:modifiedellipticcurvedatafile.txt]]) is updated to have 0s where the ord(j) list is empty so it is easier to parse
 
 == Friday, June 24 ==
   * 10am in the Sage lab for status reports and planning. 
