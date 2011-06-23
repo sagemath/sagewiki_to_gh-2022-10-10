@@ -52,6 +52,8 @@
   * Here [[attachment:InitialCurveData.txt]] is an initial table that adds |T|, signs, ord(disc), ord_(j), Tamagawa numbers, and Kodaira symbols to the data at http://wstein.org/Tables/hmf/sqrt5/finding_weierstrass_equations/matched.txt
   * Here is the paper from the 2010 REU: [[attachment:Prime_Isogenies_Over_Number_Fields.pdf|On the Irreducibility of Galois Representations Associated to Elliptic Curves]]
   * Ashwath: Here is some very preliminary code that confirms William's idea to check if a certain curve has odd prime isogenies using the reducibility of the characteristic polynomial of Frobenius at primes of good reduction: http://nt.sagenb.org/home/pub/63
+  * The isogeny code in Sage by Dan Shumow: http://sagenb.org/src/schemes/elliptic_curves/ell_curve_isogeny.py
+  * Computing isogeny degrees and filling out the norm conductor 31 isogeny class: http://nt.sagenb.org/home/pub/65/
  
 == Thursday, June 23 ==
   * Official start meeting at 12pm at [[http://goo.gl/msJue|Pa$eo]] in Fremont. 4225 Fremont Ave N. 
