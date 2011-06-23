@@ -56,6 +56,7 @@
   * Documentation of Shumow's isogeny code: http://nt.sagenb.org/doc/static/reference/sage/schemes/elliptic_curves/ell_curve_isogeny.html
   * Computing isogeny degrees and filling out the norm conductor 31 isogeny class: http://nt.sagenb.org/home/pub/65/
   * Project idea: For each aplist in http://wstein.org/Tables/hmf/sqrt5/ellcurve_aplists.txt find all possible isogeny degrees.  This would be extremely interesting!!   
+  * Hilbert modular forms: http://code.google.com/p/purplesage/source/browse/#hg%2Fpsage%2Fmodform%2Fhilbert%2Fsqrt5%253Fstate%253Dclosed
  
 == Thursday, June 23 ==
   * Official start meeting at 12pm at [[http://goo.gl/msJue|Pa$eo]] in Fremont. 4225 Fremont Ave N. 
