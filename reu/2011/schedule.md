@@ -61,7 +61,7 @@
 == Thursday, June 23 ==
   * Official start meeting at 12pm at [[http://goo.gl/msJue|Pa$eo]] in Fremont. 4225 Fremont Ave N. 
   * Work afterwards in Sage lab starting 2pm. 
-  * * Project idea: For each aplist in http://wstein.org/Tables/hmf/sqrt5/ellcurve_aplists.txt find all possible isogeny degrees.  This would be extremely interesting!!   
+  * Project idea: For each aplist in http://wstein.org/Tables/hmf/sqrt5/ellcurve_aplists.txt find all possible isogeny degrees.  This would be extremely interesting!!   
   * Hilbert modular forms: http://code.  (I am currently running this.  I'll post when done. - Aly)
   * Ashwath, Ben, Andrew: We have re-written the code from yesterday, making it significantly faster: http://nt.sagenb.org/home/pub/69/
 
