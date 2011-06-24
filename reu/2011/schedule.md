@@ -1,5 +1,7 @@
 <<TableOfContents>>
 
+TODO: Add link to our twitter feed here...
+
 = Week 1 =
 
 == Monday, June 20 ==
