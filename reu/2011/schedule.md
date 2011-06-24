@@ -1,6 +1,6 @@
-<<TableOfContents>>
-
 TODO: Add link to our twitter feed here...
+
+<<TableOfContents>>
 
 = Week 1 =
 
