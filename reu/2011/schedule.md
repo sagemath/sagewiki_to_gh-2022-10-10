@@ -71,7 +71,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU
 
 == Friday, June 24 ==
   * 10am in the Sage lab for status reports and planning. 
-  * Here's a table of isogenies. They were computed using just the ap values, and still include some really really big isogenies: [[attachment:IsogenyTable2.txt]] -- it corresponds to the curves in this table: [[attachment:matched.txt]]
+  * Here's a table of isogenies. They were computed using just the ap values, and still include some really really big isogenies: [[attachment:IsogenyTable4.txt]] -- it corresponds to the curves in this table: [[attachment:matched.txt]]. This version does not have spaces in the isogenies column.
 
 = Week 2 =
 
