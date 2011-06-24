@@ -61,8 +61,7 @@
 == Thursday, June 23 ==
   * Official start meeting at 12pm at [[http://goo.gl/msJue|Pa$eo]] in Fremont. 4225 Fremont Ave N. 
   * Work afterwards in Sage lab starting 2pm. 
-  * Project idea: For each aplist in http://wstein.org/Tables/hmf/sqrt5/ellcurve_aplists.txt find all possible isogeny degrees.  This would be extremely interesting!!   
-  * Hilbert modular forms: http://code.  (I am currently running this.  I'll post when done. - Aly)
+  * Project idea: For each aplist in http://wstein.org/Tables/hmf/sqrt5/ellcurve_aplists.txt find all possible isogeny degrees.  This would be extremely interesting!!  (I am currently running this.  I'll post when done. - Aly)
   * Ashwath, Ben, Andrew: We have re-written the prime isogeny code from yesterday, making it significantly faster: http://nt.sagenb.org/home/pub/69/
   * Note: Initial curve data file above ([[attachment:modifiedellipticcurvedatafile.txt]]) is updated to have 0s where the ord(j) list is empty so it is easier to parse
   * Paul has written the code for nosqlite to create a database for the elliptic curves. It is currently uploaded to the sage clusters, in the folder databases, labeled small_nosqlite.
