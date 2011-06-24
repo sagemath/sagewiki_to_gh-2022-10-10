@@ -71,7 +71,7 @@ TODO: Add link to our twitter feed here...
 
 == Friday, June 24 ==
   * 10am in the Sage lab for status reports and planning. 
-  * Here's a table of isogenies. They were computed using just the ap values, and still include some really really big isogenies: [[attachment:IsogenyTable2]]
+  * Here's a table of isogenies. They were computed using just the ap values, and still include some really really big isogenies: [[attachment:IsogenyTable2.txt]]
 
 = Week 2 =
 
