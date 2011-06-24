@@ -1,4 +1,4 @@
-TODO: Add link to our twitter feed here...
+Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU
 
 <<TableOfContents>>
 
