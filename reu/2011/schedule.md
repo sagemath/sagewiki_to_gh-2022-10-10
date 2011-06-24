@@ -55,7 +55,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU
   * Here is the paper from the 2010 REU: [[attachment:Prime_Isogenies_Over_Number_Fields.pdf|On the Irreducibility of Galois Representations Associated to Elliptic Curves]]
   * Ashwath: Here is some very preliminary code that confirms William's idea to check if a certain curve has odd prime isogenies using the reducibility of the characteristic polynomial of Frobenius at primes of good reduction: http://nt.sagenb.org/home/pub/63
   * The isogeny source code in Sage by Dan Shumow: http://nt.sagenb.org/src/schemes/elliptic_curves/ell_curve_isogeny.py
-  * Documentation of Shumow's isogeny code: http://nt.sagenb.org/doc/static/reference/sage/schemes/elliptic_curves/ell_curve_isogeny.html
+  * Documentation of Shumow's isogeny code: http://sagemath.org/doc/reference/sage/schemes/elliptic_curves/ell_curve_isogeny.html
   * Computing isogeny degrees and filling out the norm conductor 31 isogeny class: http://nt.sagenb.org/home/pub/65/
   * Project idea: For each aplist in http://wstein.org/Tables/hmf/sqrt5/ellcurve_aplists.txt find all possible isogeny degrees.  This would be extremely interesting!!   
   * Hilbert modular forms: http://code.google.com/p/purplesage/source/browse/#hg%2Fpsage%2Fmodform%2Fhilbert%2Fsqrt5%253Fstate%253Dclosed
