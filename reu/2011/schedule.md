@@ -73,7 +73,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU
   * 10am in the Sage lab for status reports and planning. 
   * Here's a table of isogenies. They were computed using just the ap values, and still include some really really big isogenies: [[attachment:IsogenyTable4.txt]] -- it corresponds to the curves in this table: [[attachment:matched.txt]]. This version does not have spaces in the isogenies column.
   * Computed some isogeny graphs for specific curves using division polynomials. Task: Find an algorithm to do the same.
-  * 
+  * Explicit isogeny finding worksheet: http://nt.sagenb.org/home/pub/71/
 
 = Week 2 =
 
