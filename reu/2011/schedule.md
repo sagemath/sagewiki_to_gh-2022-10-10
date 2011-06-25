@@ -75,6 +75,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU
   * Computed some isogeny graphs for specific curves using division polynomials. Task: Find an algorithm to do the same.
   * Explicit isogeny finding worksheet: http://nt.sagenb.org/home/pub/71/
   * Here's a table of isogenies that includes the a-invariants for easy reference. [[attachment:IsogenyTable7.txt]]
+  * Worksheet which uses William and Ashwath's code to check which isogeny degrees appearing in the table above are actually valid. http://nt.sagenb.org/home/pub/72/
 
 = Week 2 =
 
