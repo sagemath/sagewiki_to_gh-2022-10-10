@@ -1,4 +1,4 @@
-Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU
+Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use username: SageMathREU
 
 <<TableOfContents>>
 
