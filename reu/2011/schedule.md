@@ -81,6 +81,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Monday, June 27 ==
 
+  *Code for finding isogeny classes: http://nt.sagenb.org/home/pub/76/ Notice that it has a rating of 4.0!
+
 == Tuesday, June 28 ==
 
 == Wednesday, June 29 ==
