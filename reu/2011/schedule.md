@@ -83,6 +83,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
   * Code for finding isogeny classes: http://nt.sagenb.org/home/pub/76/ Notice that it has a rating of 4.0!
   * 2:30 pm - Talk by Ashwath on computing prime isogenies of Elliptic Curves.
+  * Progress on graphing isogeny classes: http://nt.sagenb.org/home/pub/79/
 
 == Tuesday, June 28 ==
 
