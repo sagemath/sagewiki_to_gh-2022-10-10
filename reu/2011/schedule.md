@@ -90,7 +90,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 == Wednesday, June 29 ==
 
   * 2:10pm in Sieg Hall -- [[/20110629-greenberg|talk by Ralph Greenberg on Galois Representation]]
-
+  * Created updated text file (Galois paired table) [[attachment:Paired_Table.txt]]
 == Thursday, June 30 ==
 
 == Friday, July 1 ==
