@@ -90,6 +90,9 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/11364|11364]] || cyclic subspaces (aka Krylov subspaces) || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11480|11480]] || zigzag form and rational canonical form || with patch, dep #11356 ||  ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11535|11535]] || linear dependence of vectors || with patch ||  ||
+||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11552|11552]] || fix free module morphism surjectivity || with patch ||  ||
+||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11553|11553]] || matrix morphism additional methods || with patch, dep #11552 ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11555|11555]] || expand print version of free module morphisms || with patch || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || needs work - numerical || Simon Spicer ||
