@@ -96,6 +96,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Thursday, June 30 ==
 
+  * here is an updated list of all possible valuables calculated so far(even sha when possible) [[attachment:updated_table.txt]]
+
 == Friday, July 1 ==
 
 = Week 3 =
