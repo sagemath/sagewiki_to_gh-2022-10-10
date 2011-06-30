@@ -4652,6 +4652,7 @@ outdoorfountains\.com
 profi-fachuebersetzung\.de
 uebersetzung-deutsch-englisch\.com
 xn--bersetzungsbro-frankfurt-uscm\.de
+shindiristudio\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
