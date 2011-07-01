@@ -100,6 +100,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Friday, July 1 ==
 
+  * NOTE! ord(j) computed wrongly if E.j_invariant = 0. Should be a quick fix to update the database. Here's a modified list for the *original* curves in matched.txt: [[attachment:modifiedjinv2.txt]]
+
 = Week 3 =
 
 == Monday, July 4 ==
