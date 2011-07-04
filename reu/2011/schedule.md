@@ -107,6 +107,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Monday, July 4 ==
 
+  * Here is a table listing some new curves found by twisting the ones in our original list: [[attachment:new_curves_via_twist.txt]]. Still need to check if any in the table are isomorphic or isogenous to each other.
+
 == Tuesday, July 5 ==
 
 == Wednesday, July 6 ==
