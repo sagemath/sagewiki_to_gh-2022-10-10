@@ -4653,6 +4653,8 @@ profi-fachuebersetzung\.de
 uebersetzung-deutsch-englisch\.com
 xn--bersetzungsbro-frankfurt-uscm\.de
 shindiristudio\.com
+emailmarketingsoftwares\.org
+signalsforex\.org
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
