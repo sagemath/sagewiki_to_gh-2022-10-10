@@ -4655,6 +4655,8 @@ xn--bersetzungsbro-frankfurt-uscm\.de
 shindiristudio\.com
 emailmarketingsoftwares\.org
 signalsforex\.org
+smebs\.blog\.com
+sme\.in
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
