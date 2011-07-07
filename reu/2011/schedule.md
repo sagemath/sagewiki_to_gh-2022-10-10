@@ -115,6 +115,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Thursday, July 7 ==
 
+  * Here is the updated list of unknown curves still needed to be found for norm up to 1000. [[attachment:unfound_curves.txt]]
+
 == Friday, July 8 ==
 
 = Week 4 (William in Budapest this week) =
