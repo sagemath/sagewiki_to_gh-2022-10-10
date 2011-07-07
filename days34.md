@@ -1,3 +1,4 @@
+## page was renamed from days32
 = Sage - Singular Days =
 == September 26-30, 2011 — Kaiserslautern, Germany ==
 
@@ -14,6 +15,7 @@ is welcome to participate, prior experience with either of these is not required
  * Simon King
  * Oleksandr Motsak
  * Hans Schoenemann 
+ * Flavia Stan
  * ...
  * you?
 
@@ -32,8 +34,9 @@ is welcome to participate, prior experience with either of these is not required
 
 <<Anchor(organizers)>>
 === Organizers ===
- * Burcin Erocal - burcin@erocal.org
+ * Petra Bäsell
  * Wolfram Decker
+ * Burcin Erocal - burcin@erocal.org
 
 <<Anchor(contact)>>
 === Contact & Mailing List ===
