@@ -18,14 +18,10 @@ def molarmass(compound):
         try:
             elementlist.append(int(element.group(a)))
         except ValueError:
-            elementlist.append(element.group(a))
+            if element.group(a) != '':
+                elementlist.append(element.group(a))
 
-    for item in range(len(elementlist)):
-        try: elementlist.remove('')
-        except ValueError:
-            break
-
-    var(reduce(lambda x, y: str(x)+' '+str(y), elementlist))
+    var(' '.join(str(x) for x in elementlist))
 
     #Adds multiplication for subscripts
     for index, i in enumerate(elementlist):
@@ -78,7 +74,7 @@ def molarmass(compound):
         try:
             massfinder=re.compile('%s</td><td>\w+\s*</td><td>\[?(\d*\.?\d*)[](]' %atom)
             found=re.search(massfinder, elementpage)
-            elementlist[index]='decimal.Decimal("%s")' %found.group(int(1))
+            elementlist[index]='decimal.Decimal("%s")' %found.group(1)
         except: pass
         
     print 'Calculation:',
@@ -87,7 +83,7 @@ def molarmass(compound):
         try: print str(eval(a)),
         except: print a,
             
-    elementlist=reduce(lambda x, y: str(x)+str(y), elementlist)
+    elementlist=''.join(str(x) for x in elementlist)
 
     print '\n\n', 'Molar mass:', eval(elementlist), 'g/mol'
 
