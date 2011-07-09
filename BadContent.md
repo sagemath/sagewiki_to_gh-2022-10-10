@@ -4657,6 +4657,12 @@ emailmarketingsoftwares\.org
 signalsforex\.org
 smebs\.blog\.com
 sme\.in
+essayhelppros\.co\.uk
+headlicetreatmentworld\.com
+logodesignmaestro\.com
+customessayhelp\.com
+pffchat\.com
+
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
