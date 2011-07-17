@@ -136,6 +136,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Monday, July 18 ==
 
+  * Status report talks in Paccar 190.  3-5pm. 
+
 == Tuesday, July 19 ==
 
 == Wednesday, July 20 ==
