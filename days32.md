@@ -12,7 +12,7 @@
 == People ==
 
  1. Martin Albrecht
- 2. Rob Beezer
+ 1. [[http://buzzard.ups.edu/|Rob Beezer]] (U of Puget Sound, Tacoma, WA)
  1. Tom Boothby
  1. Volker Braun
  1. Alyson Deines
