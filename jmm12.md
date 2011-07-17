@@ -6,7 +6,7 @@ People:
   * Noam Elkies - Harvard University
   * Kiran Kedlaya - UC San Diego
   * Ken Ribet - UC Berkeley
-  * Jared Weinstein - Boston X
-  * John Cremona (very tentative)
+  * Jared Weinstein - Boston University
+  * John Cremona - Warwick, UK (very tentative)
 
 Dates: January 2-3, 2012 in Boston, MA
