@@ -3,6 +3,7 @@
 == Dates/Location ==
 
  * Aug 21-25, 2011 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]]
+ * Floorplan: [[attachment:floorplan.jpg]] (15 beds)
 
 == Mailing List ==
 
