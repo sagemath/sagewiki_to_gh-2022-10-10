@@ -75,6 +75,7 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || positive review || Ryan Grout ||
+||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11552|11552]] || fix free module morphism surjectivity || John Palmieri ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11585|11585]] || transformation matrix for echelon form of sparse matrices || positive review || Author: Volker Braun ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
@@ -92,12 +93,12 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/11480|11480]] || zigzag form and rational canonical form || with patch, dep #11356 ||  ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11535|11535]] || linear dependence of vectors || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11544|11544]] || Viewing matrices of algebraic numbers can hang || with patch ||  ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11552|11552]] || fix free module morphism surjectivity || with patch ||  ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11553|11553]] || matrix morphism additional methods || with patch, dep #11552 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11555|11555]] || expand print version of free module morphisms || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11595|11595]] || update exact eigenspace routines || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11600|11600]] || alias for free module morphism lift method || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11603|11603]] || deprecate eigenspaces for matrices over RDF/CDF || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11608|11608]] || RDF/CDF eigenvalues, symmetric matrices, multiplicities || with patch || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || needs work - numerical || Simon Spicer ||
