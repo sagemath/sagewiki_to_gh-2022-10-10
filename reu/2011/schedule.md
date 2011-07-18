@@ -147,6 +147,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
   5:00 William: Status of our paper
 }}}    
 
+  * Notes on twisting and torsion families: [[attachment:TorsionFamilies.pdf]]
+
 == Tuesday, July 19 ==
 
 == Wednesday, July 20 ==
