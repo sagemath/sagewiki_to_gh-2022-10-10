@@ -60,7 +60,7 @@ June 13-17, 2011 at University of Washington in Seattle, in conjunction with [[e
  1. DanDrake (KAIST)
  1. Burcin Erocal (Singular Group, Kaiserslautern, Germany)
  1. [[http://webhost.math.rochester.edu/gage/bio|Michael Gage]] -- `WebWork` author
- 1. [[http://www.uwosh.edu/facstaff/gutow/|Jonathan H. Gutow]] (Chemistry Department, UWOSH, Wisconsin)  -- author of JMOL
+ 1. [[http://www.uwosh.edu/facstaff/gutow/|Jonathan H. Gutow]] (Chemistry Department, UWOSH, Wisconsin)  -- JMOL developer
  1. [[http://artsci.drake.edu/grout/doku.php/|Jason Grout]] (Drake University)
  1. Ryan Grout (BYU, Utah)
  1. Mike Hansen (Berkeley)
