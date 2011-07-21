@@ -141,6 +141,19 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
+ * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/07/20)
+   * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
+   * Final draft appearing over the next few days
+   * Live Sage code for first two chapters of eight (Chapters SLE, V)
+   * Patches needed by section, on top of 4.7.1.rc0:
+     * #11535, LI (linear dependence)
+     * # 10791, O (Gram-Schmidt)
+   * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
+   * In the notebook, skip front matter sections, click on actual sections to bring up content
+   * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] (slightly hacked) is used to render faithful PDF from the same source
+   * [[attachment:fcla-sage-draft.zip | Worksheet Zip File]]
+   * [[attachment:fcla-sage-draft.pdf | PDF Version - just Sage additions]]
+
  * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/22)
    * Tom Judson's free open-source [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
    * Live Sage code for each chapter (except 7, 8, 12, 13 will be done later - especially 13)
@@ -150,16 +163,6 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
    * In the notebook, skip table-of-contents section, click on actual sections to bring up content
    * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] can be used to render faithful PDF from the same source
    * Alpha quality: [[attachment:aata-sage-alpha1.zip|Worksheet Zip File]]
-
- * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/02/28)
-   * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
-   * Live Sage code for first five chapters of eight (Chapters SLE, V, M, VS, D)
-   * "Read-Only" - some content is temporarily missing, Sage commands use new unofficial patches for linear algebra, some formatting needs improvements
-   * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
-   * In the notebook, skip front matter sections, click on actual sections to bring up content
-   * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] is used to render faithful PDF from the same source
-   * [[attachment:fcla-sage-experimental.zip | Worksheet Zip File]]
-   * [[attachment:fcla-sage-experimental.pdf | PDF Version (old)]]
 
  * Abstract Algebra Worksheets (2011/04/18)
    * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
