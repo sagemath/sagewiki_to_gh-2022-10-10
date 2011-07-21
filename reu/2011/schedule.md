@@ -155,6 +155,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Thursday, July 21 ==
 
+  * Finally, this is the updated list of unknown Elliptic Curves: [[attachment:Missing.txxt]]
+
 == Friday, July 22 ==
 
 = Week 6 =
