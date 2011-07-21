@@ -155,7 +155,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Thursday, July 21 ==
 
-  * Finally, this is the updated list of unknown Elliptic Curves: [[attachment:Missing.txt]]
+  * (Correction)Finally, this is the updated list of unknown Elliptic Curves: [[attachment:Unmatched.txt]]
 
 == Friday, July 22 ==
 
