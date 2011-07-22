@@ -123,10 +123,11 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
  * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/07/20)
    * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
    * Final draft appearing over the next few days
-   * Live Sage code for first two chapters of eight (Chapters SLE, V)
+   * Live Sage code for first six chapters of eight (Chapters SLE, V, M, VS, D, E)
    * Patches needed by section, on top of 4.7.1.rc0:
      * #11535, LI (linear dependence)
-     * # 10791, O (Gram-Schmidt)
+     * #10791, O (Gram-Schmidt)
+     * #10848, MM (hermitian check)
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip front matter sections, click on actual sections to bring up content
    * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] (slightly hacked) is used to render faithful PDF from the same source
