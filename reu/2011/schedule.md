@@ -159,7 +159,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Friday, July 22 ==
 
-  * Here is a list of curves found thus far using ModJon: 
+  * Here is a list of curves found thus far using ModJon: [[attachment:new_curves_found_via_modjon.txt]]
 
 = Week 6 =
 
