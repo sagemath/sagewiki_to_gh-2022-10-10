@@ -120,14 +120,16 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
- * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/07/20)
+ * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/07/22)
    * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
-   * Final draft appearing over the next few days
-   * Live Sage code for first six chapters of eight (Chapters SLE, V, M, VS, D, E)
+   * Final draft here now, mising backmatter, needs more minor editing
+   * Live Sage code is complete, supports through Section CB
    * Patches needed by section, on top of 4.7.1.rc0:
      * #11535, LI (linear dependence)
      * #10791, O (Gram-Schmidt)
      * #10848, MM (hermitian check)
+     * #11595, EE (eigenspaces)
+     * #11552, #11600, #11553, #11556, LT (linear transformations)
    * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
    * In the notebook, skip front matter sections, click on actual sections to bring up content
    * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] (slightly hacked) is used to render faithful PDF from the same source
