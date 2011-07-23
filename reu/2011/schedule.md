@@ -159,6 +159,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Friday, July 22 ==
 
+  * Here is a list of curves found thus far using ModJon: 
+
 = Week 6 =
 
 == Monday, July 25 ==
