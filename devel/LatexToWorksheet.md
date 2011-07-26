@@ -76,6 +76,7 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || positive review|| Mike Hansen ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11166|11166]] || free module inititalization || positive review || Author: Nicolas Borie ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11356|11356]] || companion matrix constructor || positive review || David Loeffler ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11480|11480]] || zigzag form and rational canonical form || positive review, dep #11356 || David Loeffler ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11535|11535]] || linear dependence of vectors || positive review || Ivo Hedtke ||
@@ -95,6 +96,7 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11544|11544]] || Viewing matrices of algebraic numbers can hang || with patch ||  ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11553|11553]] || matrix morphism additional methods || with patch, dep #11552 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11555|11555]] || expand print version of free module morphisms || with patch || ||
+||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11556|11556]] || linear transformations || with patch, dep #11552, #11553 ||  ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11595|11595]] || update exact eigenspace routines || with patch || ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11600|11600]] || alias for free module morphism lift method || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11603|11603]] || deprecate eigenspaces for matrices over RDF/CDF || with patch || ||
@@ -111,7 +113,6 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || orphaned ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11274|11274]] || Cholesky decomposition over rationals || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11286|11286]] || speed up solve_right() || new ||  ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11556|11556]] || linear transformations || in-progress, ready soon ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11596|11596]] || cached eigenstuff is mutable || new ||  ||
 
 
