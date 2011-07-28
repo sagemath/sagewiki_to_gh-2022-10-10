@@ -173,7 +173,14 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 == Thursday, July 28 ==
 
   * Here is the list of unfound curves: [[attachment:Unmatched.txt]]
+
+---- /!\ '''Edit conflict - other version:''' ----
   * List of curves found so far via Mod-Jon: [[attachment:MJFound_1.txt]]
+
+---- /!\ '''Edit conflict - your version:''' ----
+  * List of curves found so far via Mod-Jon: [[attachment:MJFound_1.txt]]
+
+---- /!\ '''End of edit conflict''' ----
 
 == Friday, July 29 ==
 
