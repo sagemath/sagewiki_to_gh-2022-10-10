@@ -415,3 +415,15 @@ limit maxproc 512 2048
  * ANSWER: networking issues, firewall blocking, proxy setting screwed up
  * Individual FAQ entries should be referable by a URL, possibly http://wiki.sagemath.org/faq?someid=something
  * You can do that with page anchors: http://wiki.sagemath.org/faq?#something. Moin``Moin [[http://moinmo.in/HelpOnLinking|can insert page anchors]] but it doesn't seem like that facility is turned on for this installation. If we could get that enabled, we could insert anchors for all the questions on this page.
+==Sponsors==
+[http://www.thesanfranciscomovers.com/ movers san francisco]      
+[http://www.yoursanfranciscoplumber.com/ plumber san francisco]  
+[http://www.thesanfranciscolocksmith.com/ locksmith san francisco]  
+[http://www.dentistindalycity.com/ dentist daly city]
+[http://www.oaklanddentistdds.com/ dentist oakland]
+[http://www.thehouston-plumbers.com/ plumber houston] 
+[http://www.sanfrancisco-weddingphotographers.com/ wedding photographer san francisco]
+[http://www.spas-sanfrancisco.com/ spa san francisco]  
+[http://www.bayarea-fishing.com/ Bay area fishing]
+[http://www.sanjosedentist.com/ dentist san jose]
+[http://www.sanfranciscodentistdds.com/ dentist san francisco] 
