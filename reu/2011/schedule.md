@@ -172,6 +172,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Thursday, July 28 ==
 
+  * Here is the list of unfound curves: [[attachment:Unmatched.txt]]
+
 == Friday, July 29 ==
 
 
