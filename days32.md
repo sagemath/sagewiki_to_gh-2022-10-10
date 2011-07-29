@@ -19,6 +19,7 @@
  1. Volker Braun (Ireland)
  1. Alyson Deines (University of Washington)
  1. Maarten Derickx (Leiden, Holland)
+ 1. Mike Hansen (San Francisco Bay Area)
  1. Benjamin Jones (UW-Stout)
  1. Andrew Ohana (University of Washington)
  1. John Perry (University of Southern Mississippi)
