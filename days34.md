@@ -9,12 +9,14 @@ is welcome to participate, prior experience with either of these is not required
 
  * Martin Albrecht
  * Volker Braun
- * Michael Brickenstein
+ * Michael Brickenstein (MFO)
+ * Hiep Tuan Dang
  * Jeroen Demeyer
- * Burcin Erocal
+ * Burcin Erocal (TU Kaiserslautern)
  * Simon King
- * Oleksandr Motsak
- * Hans Schoenemann 
+ * Martin Lee (TU Kaiserslautern)
+ * Oleksandr Motsak (TU Kaiserslautern)
+ * Hans Schoenemann (TU Kaiserslautern)
  * Flavia Stan
  * ...
  * you?
