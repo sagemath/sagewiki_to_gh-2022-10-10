@@ -1,9 +1,17 @@
 = Sage Days 33: Women in Sage (2) =
-
+ 
+ * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), William Stein (UW)
+ * Funding: Microsoft Research (Kristin Lauter's cryptography group) and the Sage Foundation
 
 == Dates/Location ==
 
  * Sept 19-23, 2011 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]]
+ * Note: check-in at the Lodge is at 3pm on Sept 19; check-out is 11am on the 23rd
+
+== Speakers ==
+
+ * Alice Silverberg
+
 
 == Mailing list ==
  
