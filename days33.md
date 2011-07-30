@@ -1,7 +1,7 @@
 = Sage Days 33: Women in Sage (2) =
  
  * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), William Stein (UW)
- * Funding: Microsoft Research (Kristin Lauter's cryptography group) and the Sage Foundation
+ * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
 
 == Dates/Location ==
 
