@@ -178,7 +178,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Friday, July 29 ==
 
-  * Here is the list of unmatched curves for the norm conductor range 1k-2k: 
+  * Here is the list of unmatched curves for the norm conductor range 1k-2k: [[attachment:Unmatched2k.txt]]
 
 = Week 7 =
 
