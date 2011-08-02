@@ -30,6 +30,7 @@
 
 == Projects ==
 
+ * [[/wishlist|High priority wish-list from the company funding this workshop]]
  * Fix lots of bugs
  * Get some sort of basic function fields code into Sage (since several people who care will be at the workshop).
  * Cleanup linear algebra over finite fields.
