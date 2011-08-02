@@ -184,6 +184,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Monday, August 1 ==
 
+  *Here is a list of curves found so far (1000 < N < 2000) using ModJon: [[attachment:Curves_1000-2000_modjon.txt]]
+
 == Tuesday, August 2 ==
 
 == Wednesday, August 3 ==
