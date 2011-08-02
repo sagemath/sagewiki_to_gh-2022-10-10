@@ -12,6 +12,13 @@
 
  * Alice Silverberg
 
+== Confirmed participants ==
+
+ * Mirela Ciperiani
+ * Jennifer Park
+ * Lola Thompson
+ * Angela Wong
+
 
 == Mailing list ==
  
