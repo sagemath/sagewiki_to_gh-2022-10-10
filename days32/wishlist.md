@@ -2,7 +2,8 @@
 
  * [[http://trac.sagemath.org/sage_trac/ticket/8254|#8254]] [[http://trac.sagemath.org/sage_trac/ticket/11040|#11040]] [[http://trac.sagemath.org/sage_trac/ticket/11043|#11043]] faster startup time
 
- * upgrade mpir, mpfr, mpfi to latest stable releases -- [[http://trac.sagemath.org/sage_trac/ticket/5847|#5847]] Update GMP-ECM to 6.3
+ * upgrade mpir, mpfr, mpfi to latest stable releases
+ * [[http://trac.sagemath.org/sage_trac/ticket/5847|#5847]] Update GMP-ECM to 6.3
 
  * [[http://trac.sagemath.org/sage_trac/ticket/9382|#9382]] atlas not respecting SAGE_FAT_BINARY on i686 systems
  * [[http://trac.sagemath.org/sage_trac/ticket/11351|#11351]] make flintqs-20070817 spkg build with -m64 rather than
