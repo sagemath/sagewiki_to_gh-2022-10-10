@@ -4666,6 +4666,8 @@ book-of-ra-spielen\.com
 dissertation-help\.co\.uk
 termpapers-guide\.com
 logodesignconsultant\.com
+mmcashloans\.co\.uk
+mmpaydayloans\.co\.uk
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
