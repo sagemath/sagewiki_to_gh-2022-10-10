@@ -11,7 +11,7 @@
  * latest jmol source (also [[http://trac.sagemath.org/sage_trac/ticket/9238|#9238]])
 
  * [[http://trac.sagemath.org/sage_trac/ticket/6329|#6329]] optional doctest failure -- breakage in the sage<-->magma  
- * [[http://trac.sagemath.org/sage_trac/ticket/10826|#10826]], [[http://trac.sagemath.org/sage_trac/ticket/10827|#10827]],[[http://trac.sagemath.org/sage_trac/ticket/10828|#10828]] SAGE_SPKG_INSTALL_DOCS
+ * [[http://trac.sagemath.org/sage_trac/ticket/10826|#10826]], [[http://trac.sagemath.org/sage_trac/ticket/10827|#10827]], [[http://trac.sagemath.org/sage_trac/ticket/10828|#10828]], [[http://trac.sagemath.org/sage_trac/ticket/11197|#11197]] SAGE_SPKG_INSTALL_DOCS
 
  * [[http://trac.sagemath.org/sage_trac/ticket/10152|#10152]] [[http://trac.sagemath.org/sage_trac/ticket/10973|#10973]] integral points
  * [[http://trac.sagemath.org/sage_trac/ticket/9668|#9668]] Fix hardcoding of paths in R binary
