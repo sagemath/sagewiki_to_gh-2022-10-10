@@ -53,3 +53,4 @@
  * [[http://trac.sagemath.org/sage_trac/ticket/11169|#11169]] Make testcc.sh exit with an exit code of 1 if attempting
  * [[http://trac.sagemath.org/sage_trac/ticket/8321|#8321]] numerical integration with arbitrary precision
  * [[http://trac.sagemath.org/sage_trac/ticket/11036|#11036]] improve solve_mod performance
+ * [[http://trac.sagemath.org/sage_trac/ticket/6495|#6495]] build reference manual more quickly
