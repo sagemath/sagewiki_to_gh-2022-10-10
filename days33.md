@@ -11,6 +11,7 @@
 == Speakers ==
 
  * Alice Silverberg
+ * Kate Stange
 
 == Confirmed participants ==
 
