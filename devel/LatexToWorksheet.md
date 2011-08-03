@@ -73,11 +73,11 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/11027|11027]] || Schur matrix decomposition || 4.7.1.alpha3 || Martin Raum, John Palmieri, Jeroen Demeyer ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10944|10944]] || similarity check for matrices || 4.7.1.alpha4 || Dan Drake ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10839|10839]] || LU decomposition for rectangular matrices || 4.7.2.alpha0 || Ryan Grout ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11356|11356]] || companion matrix constructor || 4.7.2.alpha1 || David Loeffler ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || 4.7.2.alpha1 || Mike Hansen ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || positive review|| Mike Hansen ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11166|11166]] || free module inititalization || positive review || Author: Nicolas Borie ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11356|11356]] || companion matrix constructor || positive review || David Loeffler ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11480|11480]] || zigzag form and rational canonical form || positive review, dep #11356 || David Loeffler ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11535|11535]] || linear dependence of vectors || positive review || Ivo Hedtke ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11552|11552]] || fix free module morphism surjectivity || positive review|| John Palmieri ||
@@ -183,31 +183,7 @@ tex2sws
  This is all of Beezer's [[http://linear.ups.edu|First Course in Linear Algebra]] as
  a linked collection of Sage worksheets.  It runs about 900 pages when printed, but
  as a tar archive is around 700K.
-  * See note below about jsMath configuration and matrix formatting.
-  * No Sage content yet - see other experiments for demonstrations.
-  * Installation: To rig worksheet numbers, and thus have cross-worksheet
-  linking work properly, it is necessary to create a pristine user
-  and insert the worksheets properly into the notebook storage
-  area.  In the following, you must use the new user "linear",
-  but password and notebook location can be adjusted.  But the notebook
-  location needs to end with ".sagenb".
-  {{{
-$ sage
-sage: from sagenb.notebook.notebook import Notebook
-sage: nb=Notebook("/tmp/fcla.sagenb")
-sage: nb.add_user('linear', 'algebra', '', account_type='user', force=True)
-sage: exit
-$ cd /tmp/fcla.sagenb/home
-$ tar -xvf /path/to/fcla-worksheets.tar.bz2
-$ sage
-sage: notebook(directory="/tmp/fcla.sagenb")
-  }}}
-  * You will possibly be asked to create an admin password, just do it.
-  * Even if you see the right worksheets, sign-out right away.
-  * Sign-in as the user "linear" with password "algebra".
-  * Now you should be able to view the worksheets.
-  * [[attachment:fcla-worksheets.tar.bz2 | Tar Archive of FCLA Worksheets]]
-
+  * Details removed, this is now obsolete
 
  * tikz graphics migration (2010/02/03, Updated: 2010/02/20)<<BR>>
    * tikz graphics in latex source passing through to the worksheet
