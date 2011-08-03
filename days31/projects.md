@@ -91,11 +91,9 @@ Solve the the puzzle with Sage so that less people lose time to solve it by hand
 
 You can now upload a ReST file in the Sage Notebook to get a worksheet. 
 
- * You may test it on this file: [[http://www.thales.math.uqam.ca/~labbes/Sage/rst2sws/calculus.rst|ReST file]]
-
 Also, from the same ReST file, you can create an HTML file by using the docutils command {{{rst2html}}}. During the week, I was able to make MathJax work on this HTML output. 
 
- * See [[http://www.thales.math.uqam.ca/~labbes/Sage/rst2sws/|this page]] on my website for more info.
+ * See [[http://www.thales.math.uqam.ca/~labbes/Sage/rst2sws/|this page]] on my website for more info and test this on the file calculus.rst available.
 
 By the way, if you are using vim like me, you might be interested by this trick thanks to Franco Saliola:
 
