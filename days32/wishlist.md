@@ -54,3 +54,5 @@
  * [[http://trac.sagemath.org/sage_trac/ticket/8321|#8321]] numerical integration with arbitrary precision
  * [[http://trac.sagemath.org/sage_trac/ticket/11036|#11036]] improve solve_mod performance
  * [[http://trac.sagemath.org/sage_trac/ticket/6495|#6495]] build reference manual more quickly
+ * [[http://trac.sagemath.org/sage_trac/ticket/7494|#7494]] remove/move the examples directory stuff already
+ * [[http://trac.sagemath.org/sage_trac/ticket/6743|#6743]] make more progress on making Sage build automatically on Cygwin
