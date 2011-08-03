@@ -15,7 +15,9 @@
 
 == Confirmed participants ==
 
+ * Jennifer Balakrishnan
  * Mirela Ciperiani
+ * Aly Deines
  * Jennifer Park
  * Lola Thompson
  * Angela Wong
