@@ -188,6 +188,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Tuesday, August 2 ==
 
+  *Here is the current list of unfound curves up to N = 2000: [[attachment:CurrentUnfound_49curves.txt]]
+
 == Wednesday, August 3 ==
 
 == Thursday, August 4 ==
