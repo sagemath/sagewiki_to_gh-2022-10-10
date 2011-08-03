@@ -122,21 +122,15 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
- * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/07/22)
+ * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/08/03)
    * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
-   * Final draft here now, mising backmatter, needs more minor editing
-   * Live Sage code is complete, supports through Section CB
-   * Patches needed by section, on top of 4.7.1.rc0:
+   * Preview version now at [[http://linear.ups.edu/sage-fcla.html|book's website page]]
+   * Necessary patches tracked here; by section, on top of 4.7.1.rc1:
      * #11535, LI (linear dependence)
      * #10791, O (Gram-Schmidt)
-     * #10848, MM (hermitian check)
+     * #10848, MM (hermitian check, merged 4.7.2.alpha1)
      * #11595, EE (eigenspaces)
      * #11552, #11600, #11553, #11556, LT (linear transformations)
-   * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
-   * In the notebook, skip front matter sections, click on actual sections to bring up content
-   * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] (slightly hacked) is used to render faithful PDF from the same source
-   * [[attachment:fcla-sage-draft.zip | Worksheet Zip File]]
-   * [[attachment:fcla-sage-draft.pdf | PDF Version - just Sage additions]]
 
  * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/22)
    * Tom Judson's free open-source [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
