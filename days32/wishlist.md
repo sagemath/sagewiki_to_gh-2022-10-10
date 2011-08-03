@@ -56,5 +56,3 @@
  * [[http://trac.sagemath.org/sage_trac/ticket/6495|#6495]] build reference manual more quickly
  * [[http://trac.sagemath.org/sage_trac/ticket/7494|#7494]] remove/move the examples directory stuff already
  * [[http://trac.sagemath.org/sage_trac/ticket/6743|#6743]] make more progress on making Sage build automatically on Cygwin
- * [[http://trac.sagemath.org/sage_trac/ticket/7494|#7494]] remove/move the examples directory stuff already
- * [[http://trac.sagemath.org/sage_trac/ticket/6743|#6743]] make more progress on making Sage build automatically on Cygwin
