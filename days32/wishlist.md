@@ -55,3 +55,7 @@
  * [[http://trac.sagemath.org/sage_trac/ticket/6495|#6495]] build reference manual more quickly
  * [[http://trac.sagemath.org/sage_trac/ticket/7494|#7494]] remove/move the examples directory stuff already
  * [[http://trac.sagemath.org/sage_trac/ticket/6743|#6743]] make more progress on making Sage build automatically on Cygwin
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/4260|#4260]] use LinBox as native matrix representation for dense matrices over GF(p)
+ * [[http://trac.sagemath.org/sage_trac/ticket/9562|#9562]] add M4RIE to Sage (== fast linear algebra over GF(2^n) for n in 2..10
+ * [[http://trac.sagemath.org/sage_trac/ticket/11574|#11574]] update M4RI
