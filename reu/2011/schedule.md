@@ -194,6 +194,9 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Thursday, August 4 ==
 
+  * FOUND CURVES: [[attachment:Curves_1000-2000_FOUND_8-5-11.txt]]
+  * MISSING CURVES: [[attachment:Curves_1000-2000_MISSING_8-5-11.txt]]
+
 == Friday, August 5 ==
 
 
