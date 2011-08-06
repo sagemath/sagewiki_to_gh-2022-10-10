@@ -1,0 +1,259 @@
+% Sage Graph Theory Quick Reference
+% (c) 2011 by Steven Rafael Turner
+% Licensed with the GNU Free Documentation License (GFDL)
+%   http://www.gnu.org/copyleft/fdl.html
+%
+%  History
+%
+%    2011-28-07  Initial version based on Sage 4.7
+%    2011-28-07  Spelling Mistakes 
+%    2011-06-08  New sections: Common Invariants, Boolean Queries, Common Invariants, NP-Complete 
+
+%
+%
+\documentclass{article}
+\usepackage{graphicx}  
+\usepackage[landscape]{geometry}
+\usepackage[pdftex]{color}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\newcommand{\ex}{\color{blue}}
+\newcommand{\warn}{\bf\color{red}}
+\pagestyle{empty}
+\advance\topmargin-.9in
+\advance\textheight2in
+\advance\textwidth3.0in
+\advance\oddsidemargin-1.45in
+\advance\evensidemargin-1.45in
+\parindent0pt
+\parskip2pt
+% Section break, dictates column widths?
+\newcommand{\hr}{\centerline{\rule{3.5in}{1pt}}}
+% Adjust gap to affect spacing, page count
+\newcommand{\sect}[1]{\hr\par\vspace*{2pt}\textbf{#1}\par}
+% Mandatory indentation on subsidiary lines
+\newcommand{\skipin}{\hspace*{12pt}}
+\begin{document}
+\begin{multicols*}{3}
+\begin{center}
+\textbf{Sage Quick Reference: Graph Theory}\\
+Steven Rafael Turner\\
+Sage Version 4.7\\
+\url{http://wiki.sagemath.org/quickref}\\
+GNU Free Document License, extend for your own use\\
+\end{center}
+% backup over center environment gap
+\vspace{-2ex}
+%*********************************************
+\sect{Constructing}
+{\warn Adjacency Mapping}: \\
+{\ex\verb$G=Graph([GF(13), lambda i,j: conditions on i,j])$}\\
+\skipin Input is a list whose first item are vertices and the other is some adjacency function: 
+[list of vertices, function]\\
+{\warn Adjacency Lists}: \\
+{\ex\verb!G=Graph({0:[1,2,3], 2:[4]})!} \\
+{\ex\verb!G=Graph({0:{1:"x",2:"z",3:"a"}, 2:{5:"out"}})!}\\
+\skipin x, z, a, and out are labels for edges and be used as weights.
+\par
+{\warn Adjacency Matrix}: \\
+{\ex\verb!A = numpy.array([[0,1,1],[1,0,1],[1,1,0]])!}\\
+\skipin Don't forget to import numpy for the NumPy matrix or ndarray. 
+\par
+{\ex\verb!M = Matrix([(....), (....), . . . ])!} \\
+{\warn Edge List with or without labels}: \\
+{\ex\verb!G = Graph([(1,3,"Label"),(3,8,"Or"),(5,2)])!} \\
+{\warn Incidence Matrix}:\\
+{\ex\verb! M = Matrix(2, [-1,0,0,0,1, 1,-1,0,0,0]) !} \\
+{\warn Graph6 Or Sparse6 string} \\
+{\ex\verb!G=':IgMoqoCUOqeb\n:I`EDOAEQ?PccSsge\N\n'!
+ \ex\verb!graphs_list.from_sparse6(G)!} \\ 
+\skipin Above is a list of graphs using sparse6 strings.
+\par 
+{\warn NetworkX Graph} \\
+{\ex\verb!g = networkx.Graph({0:[1,2,3], 2:[4]})!
+ \ex\verb!DiGraph(g)!} \\
+{\ex\verb!g_2 = networkx.MultiGraph({0:[1,2,3], 2:[4]})!
+\ex\verb!Graph(g_2)!} \\
+\skipin Don't forget to import networkx
+\par
+%*********************************************
+\sect{Centrality Measures}
+{\ex\verb!G.centrality_betweenness(normalized=False)!}\\
+{\ex\verb!G.centrality_closeness(v=1)!}\\
+{\ex\verb!G.centrality_degree()!} \\
+%*********************************************
+\sect{Graph Deletions and Additions}
+{\ex\verb!G.add_cycle([vertices])!}\\ 
+{\ex\verb!G.add_edge(edge)!}\\
+{\ex\verb!G.add_edges(iterable of edges)!}\\
+{\ex\verb!G.add_path!}\\ 
+{\ex\verb!G.add_vertex(Name of isolated vertex)!}\\ 
+{\ex\verb!G.add_vertices(iterable of vertices)!}\\ 
+{\ex\verb!G.delete_edge( v_1, v_2, 'label')!}\\ 
+{\ex\verb!G.delete_edges(iterable of edges)!}\\ 
+{\ex\verb!G.delete_multiedge(v_1, v_2)!}\\ 
+{\ex\verb!G.delete_vertex(v_1)!}\\ 
+{\ex\verb!G.delete_vertices(iterable of vertices)!}\\ 
+{\ex\verb!G.merge_vertices([vertices])!}\\ 
+%*********************************************
+\sect{Connectivity and Cuts}
+{\ex\verb!G.is_connected()!}\\ 
+{\ex\verb!G.edge_connectivity()!}\\ 
+{\ex\verb!G.edge_cut(source, sink!}\\ 
+{\ex\verb!G.blocks_and_cut_vertices()!}\\ 
+{\ex\verb!G.max_cut()!}\\ 
+{\ex\verb!G.edge_disjoint_paths(v1,v2, method='LP')!}\\
+\skipin  This method can us LP (Linear Programming) or FF (Ford-Fulkerson)
+\par
+{\ex\verb!vertex_disjoint_paths(v1,v2)!}\\
+{\ex\verb!G.flow(1,2)!}\\
+\skipin There are many options to this function please check the documentation.
+\par  
+%*********************************************
+\sect{Conversions}
+{\ex\verb!G.to_directed()!}\\ 
+{\ex\verb!G.to_undirected()!}\\ 
+{\ex\verb!G.sparse6_string()!}\\ 
+{\ex\verb!G.graph6_string()!}\\ 
+%*********************************************
+\sect{Products}
+{\ex\verb!G.strong_product(H)!}\\ 
+{\ex\verb!G.tensor_product(H)!}\\
+{\ex\verb!G.categorical_product(H)!}\\ 
+\skipin Same as the tensor product. 
+\par
+{\ex\verb!G.disjunctive_product(H)!}\\ 
+{\ex\verb!G.lexicographic_product(H)!}\\ 
+{\ex\verb!G.cartesian_product(H)!}\\ 
+%*********************************************
+\sect{Boolean Queries}
+{\ex\verb!G.is_tree()!}\\
+{\ex\verb!G.is_forest()!}\\
+{\ex\verb!G.is_gallai_tree()!}\\
+{\ex\verb!G.is_interval()!}\\
+{\ex\verb!G.is_regular()!}\\
+{\ex\verb!G.is_chordal()!}\\
+{\ex\verb!G.is_eulerian()!}\\
+{\ex\verb!G.is_hamiltonian()!}\\
+{\ex\verb!G.is_interval()!}\\
+{\ex\verb!G.is_independent_set([vertices])!}\\
+{\ex\verb!G.is_overfull()!}\\
+{\ex\verb!G.is_regular(k)!}\\
+\skipin Can test for being k-regular, by default k=None. 
+\par 
+%*********************************************
+\sect{Common Invariants}
+{\ex\verb!G.diameter()!}\\
+{\ex\verb!G.average_distance()!}\\
+{\ex\verb!G.edge_disjoint_spanning_trees(k)!}\\
+{\ex\verb!G.girth()!}\\
+{\ex\verb!G.size()!}\\
+{\ex\verb!G.order()!}\\
+{\ex\verb!G.radius()!}\\
+%*********************************************
+\sect{Graph Coloring}
+{\ex\verb!G.chromatic_polynomial()!}\\ 
+{\ex\verb!G.chromatic_number(algorithm="DLX")!}\\ 
+\skipin You can change DLX (dancing links) to CP (chromatic polynomial coefficients) or MILP (mixed integer linear program)
+\par
+{\ex\verb!G.coloring(algorithm="DLX")!}\\ 
+\skipin You can change DLX to MILP
+\par
+{\ex\verb!G.is_perfect(certificate=False)!}\\ 
+%*********************************************
+\sect{Planarity} 
+{\ex\verb!G.is_planar()!}\\ 
+{\ex\verb!G.is_circular_planar()!}\\ 
+{\ex\verb!G.is_drawn_free_of_edge_crossings()!}\\ 
+{\ex\verb!G.layout_planar(test=True, set_embedding=True!}\\ 
+{\ex\verb!G.set_planar_positions()!}\\ 
+%*********************************************
+\sect{Search and Shortest Path}
+{\ex\verb!list(G.depth_first_search([vertices], distance=4)!}\\ 
+{\ex\verb!list(G.breadth_first_search([vertices])!}\\ 
+{\ex\verb!dist,pred = graph.shortest_path_all_pairs(by_weight=True, algorithm="auto")!}\\ 
+\skipin Choice of algorithms: BFS or Floyd-Warshall-Python
+\par 
+{\ex\verb!G.shortest_path_length(v_1,v_2, by_weight=True!}\\ 
+{\ex\verb!G.shortest_path_lengths(v_1)!}\\ 
+{\ex\verb!G.shortest_path(v_1,v_2)!}\\ 
+%*********************************************
+\sect{Spanning Trees} 
+{\ex\verb!G.steiner_tree(g.vertices()[:10])!}\\ 
+{\ex\verb!G.spanning_trees_count()!}\\ 
+{\ex\verb!G.edge_disjoint_spanning_trees(2, root vertex)!}\\ 
+{\ex\verb!G.min_spanning_tree(weight_function=somefunction,!}\\
+{\ex\verb!algorithm='Kruskal',starting_vertex=3)!}\\ 
+\skipin Kruskal can be change to Prim\_fringe, Prim\_edge, or NetworkX
+\par
+%*********************************************
+\sect{Linear Algebra}
+{\warn Matrices}\\
+{\ex\verb!G.kirchhoff_matrix()!}\\ 
+{\ex\verb!G.laplacian_matrix()!}\\ 
+\skipin Same as the kirchoff matrix
+\par
+{\ex\verb!G.weighted_adjacency_matrix()!}\\ 
+{\ex\verb!G.adjacency_matrix()!}\\ 
+{\ex\verb!G.incidence_matrix()!}\\ 
+{\warn Operations}\\
+{\ex\verb!G.characteristic_polynomial()!}\\
+{\ex\verb!G.cycle_basis()!}\\ 
+{\ex\verb!G.spectrum()!}\\
+{\ex\verb!G.eigenspaces(laplacian=True)!}\\ 
+{\ex\verb!G.eigenvectors(laplacian=True)!}\\ 
+%*********************************************
+\sect{Automorphism and Isomorphism Related}
+{\ex\verb!G.automorphism_group()!}\\ 
+{\ex\verb!G.is_isomorphic(H)!}\\ 
+{\ex\verb!G.is_vertex_transitive()!}\\ 
+{\ex\verb!G.canonical_label()!}\\ 
+{\ex\verb!G.minor(graph of minor to find)!}\\ 
+%*********************************************
+\sect{Generic Clustering} 
+{\ex\verb!G.cluster_transitivity()!}\\ 
+{\ex\verb!G.cluster_triangles()!}\\ 
+{\ex\verb!G.clustering_average()!}\\ 
+{\ex\verb!G..clustering_coeff(nbunch=[0,1,2],weights=True)!}\\ 
+%*********************************************
+\sect{Clique Analysis}
+{\ex\verb!G.is_clique([vertices])!}\\
+{\ex\verb!G.cliques_vertex_clique_number(vertices=[(0, 1), (1, 2)],algorithm="networkx")!}\\ 
+\skipin networkx can be replaced with cliquer.
+\par
+{\ex\verb!G.cliques_number_of()!}\\ 
+{\ex\verb!G.cliques_maximum()!}\\ 
+{\ex\verb!G.cliques_maximal()!}\\ 
+{\ex\verb!G.cliques_get_max_clique_graph()!}\\ 
+{\ex\verb!G.cliques_get_clique_bipartite()!}\\ 
+{\ex\verb!G.cliques_containing_vertex()!}\\ 
+{\ex\verb!G.clique_number(algorithm="cliquer")!}\\
+\skipin cliquer can be replaced with networkx.
+\par
+{\ex\verb!G.clique_maximum()!}\\ 
+{\ex\verb!G.clique_complex()!}\\ 
+%*********************************************
+\sect{Component Algorithms}
+{\ex\verb!G.is_connected()!}\\
+{\ex\verb!G.connected_component_containing_vertex(vertex)!}\\ 
+{\ex\verb!G.connected_components_number()!}\\ 
+{\ex\verb!G.connected_components_subgraphs()!}\\ 
+{\ex\verb!G.strong_orientation()!}\\ 
+{\ex\verb!G.strongly_connected_components()!}\\ 
+{\ex\verb!G.strongly_connected_components_digraph()!}\\ 
+{\ex\verb!G.strongly_connected_components_subgraphs()!}\\ 
+{\ex\verb!G.strongly_connected_component_containing_vertex(vertex)!}\\
+{\ex\verb!G.is_strongly_connected()!} \\
+%*********************************************
+\sect{NP Problems}
+{\ex\verb!G.vertex_cover(algorithm='Cliquer')!}\\
+\skipin The algorithm can be changed to MILP (mixed integer linear program. Note that MILP requires packages GLPK or CBC.
+\par
+{\ex\verb!G.hamiltonian_cycle()!}\\
+{\ex\verb!G.traveling_salesman_problem()!}\\
+%*********************************************
+\end{multicols*}
+
+\end{document}
