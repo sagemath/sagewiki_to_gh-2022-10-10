@@ -1,6 +1,6 @@
 = Sage Days 32 High Priority Wishlist =
 
- * [[http://trac.sagemath.org/sage_trac/ticket/8254|#8254]] [[http://trac.sagemath.org/sage_trac/ticket/11040|#11040]] [[http://trac.sagemath.org/sage_trac/ticket/11043|#11043]] faster startup time
+ * [[http://trac.sagemath.org/sage_trac/ticket/8254|#8254]] [[http://trac.sagemath.org/sage_trac/ticket/11040|#11040]] [[http://trac.sagemath.org/sage_trac/ticket/11043|#11043]] faster startup time;  see also [[https://github.com/jasongrout/sage-forker|the Sage forker]].
 
  * upgrade MPIR ([[http://trac.sagemath.org/sage_trac/ticket/8664|#8664]], [[http://trac.sagemath.org/sage_trac/ticket/11616|#11616]]), MPFR, MPFI to latest stable releases
  * [[http://trac.sagemath.org/sage_trac/ticket/5847|#5847]] Update GMP-ECM to 6.3
