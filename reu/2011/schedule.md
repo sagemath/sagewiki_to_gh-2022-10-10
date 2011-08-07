@@ -136,16 +136,14 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Monday, July 18 ==
 
-  * Status report talks in [[http://washington.edu/maps/?PCAR|Paccar 190]].  3-5pm. 
-{{{
-  3:00 Ashwath: Heegner points
-  3:20 Ari: Galois Cohomology
-  3:40 Andrew: Cremona's tables (?)
-  4:00 Paul: Database
-  4:20 Ben: Families with torsion
-  4:40 Jon: Curves with presumed torsion
-  5:00 William: Status of our paper
-}}}    
+  * Status report talks in [[http://washington.edu/maps/?PCAR|Paccar 190]].  3-5pm.
+  * 3:00 Ashwath: Heegner points
+  * 3:20 Ari: Galois Cohomology
+  * 3:40 Andrew: Cremona's tables (?)
+  * 4:00 Paul: Database
+  * 4:20 Ben: Families with torsion
+  * 4:40 Jon: Curves with presumed torsion
+  * 5:00 William: Status of our paper   
 
   * Notes on twisting and torsion families: [[attachment:TorsionFamilies.pdf]]
 
