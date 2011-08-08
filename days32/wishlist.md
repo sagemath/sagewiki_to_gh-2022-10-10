@@ -2,7 +2,8 @@
 
  * [[http://trac.sagemath.org/sage_trac/ticket/8254|#8254]] [[http://trac.sagemath.org/sage_trac/ticket/11040|#11040]] [[http://trac.sagemath.org/sage_trac/ticket/11043|#11043]] faster startup time;  see also [[https://github.com/jasongrout/sage-forker|the Sage forker]].
 
- * upgrade MPIR ([[http://trac.sagemath.org/sage_trac/ticket/8664|#8664]], [[http://trac.sagemath.org/sage_trac/ticket/11616|#11616]]), MPFR, MPFI to latest stable releases
+ * Upgrade MPIR ([[http://trac.sagemath.org/sage_trac/ticket/8664|#8664]], [[http://trac.sagemath.org/sage_trac/ticket/11616|#11616]]), MPFR ([[http://trac.sagemath.org/sage_trac/ticket/11666|#11666]]), MPFI to latest stable releases
+
  * [[http://trac.sagemath.org/sage_trac/ticket/5847|#5847]] Update GMP-ECM to 6.3
 
  * [[http://trac.sagemath.org/sage_trac/ticket/11351|#11351]] make flintqs-20070817 spkg build with -m64 rather than
