@@ -202,6 +202,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Monday, August 8 ==
 
+  *FOUND CURVES (no ap-values or spaces): [[attachment:Curves_1000-2000_FOUND_8-8-11_no_aps.txt]]
+
 == Tuesday, August 9 ==
 
 == Wednesday, August 10 ==
