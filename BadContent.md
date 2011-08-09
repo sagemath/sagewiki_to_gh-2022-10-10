@@ -4668,6 +4668,8 @@ termpapers-guide\.com
 logodesignconsultant\.com
 mmcashloans\.co\.uk
 mmpaydayloans\.co\.uk
+my\.apexfitness\.com
+mystore\.24hourfitness\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
