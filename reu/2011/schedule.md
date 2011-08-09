@@ -209,6 +209,8 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
   * Here is the list of all curves with conductors up to norm 1000. [[attachment:List]]
   * Isogeny bound computations [[attachment:isogeny_bound_computations.txt]]
+  * Updated list of found curves: [[attachment:Curves_FOUND_8-9-11.txt]]
+  * Updated list of missing curves: [[attachment:Curves_MISSING_8-9-11.txt]]
 
 == Wednesday, August 10 ==
 
