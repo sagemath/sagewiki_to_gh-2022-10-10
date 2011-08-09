@@ -208,6 +208,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 == Tuesday, August 9 ==
 
   * Here is the list of all curves with conductors up to norm 1000. [[attachment:List]]
+  * Isogeny bound computations [[isogeny_bound_computations.txt]]
 
 == Wednesday, August 10 ==
 
