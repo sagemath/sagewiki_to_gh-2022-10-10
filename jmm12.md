@@ -7,6 +7,7 @@ People:
   * Kiran Kedlaya - UC San Diego
   * Ken Ribet - UC Berkeley
   * Jared Weinstein - Boston University
-  * John Cremona - Warwick, UK (very tentative)
 
 Dates: January 2-3, 2012 in Boston, MA
+
+Description: attachment:sage_short_course-2011.pdf
