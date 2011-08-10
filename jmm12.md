@@ -12,6 +12,6 @@
 
  * January 2-3, 2012 in Boston, MA at the joint AMS/MAA meetings
 
-== Description == 
+== Description ==
 
   See [[attachment:sage_short_course-2011.pdf]].
