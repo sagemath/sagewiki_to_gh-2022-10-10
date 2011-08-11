@@ -122,6 +122,11 @@ To view a worksheet, click on the "worksheet" link, then in the resulting page f
 
 Note: If your version of Sage is 4.3.2 or older then some examples may not render quite right.  See way below for how to edit older configurations.
 
+ * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/08/10))
+   * Tom Judson's free open-source [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
+   * This project is complete, Sage material and exercises available for most of the chapters
+   * See the [[http://abstract.pugetsound.edu/sage-aata.html|book's website]] to download
+
  * Sage-Enhancing a Linear Algebra Textbook (Updated: 2011/08/03)
    * Rob Beezer's [[http://linear.pugetsound.edu|A First Course in Linear Algebra]]
    * Preview version now at [[http://linear.ups.edu/sage-fcla.html|book's website page]]
@@ -131,27 +136,6 @@ Note: If your version of Sage is 4.3.2 or older then some examples may not rende
      * #10848, MM (hermitian check, merged 4.7.2.alpha1)
      * #11595, EE (eigenspaces)
      * #11552, #11600, #11553, #11556, LT (linear transformations)
-
- * Sage-Enhancing an Abstract Algebra Textbook (Updated: 2011/04/22)
-   * Tom Judson's free open-source [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
-   * Live Sage code for each chapter (except 7, 8, 12, 13 will be done later - especially 13)
-   * Requires Sage 4.7.alpha3 or newer (or else some commands will not run properly)
-   * 259 Sage examples, input/output for each tested on Sage 4.7.alpha3
-   * Upload the zip file using the notebook's "Upload Worksheet" function - the notebook will do the unzipping
-   * In the notebook, skip table-of-contents section, click on actual sections to bring up content
-   * [[http://bitbucket.org/ddrake/sagetex/|SageTeX]] can be used to render faithful PDF from the same source
-   * Alpha quality: [[attachment:aata-sage-alpha1.zip|Worksheet Zip File]]
-
- * Abstract Algebra Worksheets (2011/04/18)
-   * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra; Theory and Applications]]
-   * Outdated and replaced by the progress above, this is worksheets only
-   * [[attachment:aata-sage-experimental.zip|Worksheet Zip File]] - for Tom Judson's Spring 2011 course, includes new Sage code
-   * [[attachment:aata-sage-worksheets-only.zip|Worksheet Zip File]] - for Sage 4.7.alpha3, references to text are broken
-
- * An Entire Mathematics Textbook (2010/08/27)
-   * Tom Judson's [[http://abstract.pugetsound.edu|Abstract Algebra: Theory and Applications]]
-   * Outdated and replaced by the progress above, this is text only
-   * [[attachment:aata-sage-20100827.zip|Worksheet Zip File]]
 
  * Approximating Polynomial Worksheet (2010/02/20)
    * A classroom worksheet, with interacts
