@@ -216,8 +216,9 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
   * Updated list of found curves: [[attachment:Curves_2000_Found_8-10-11.txt]]
   * Updated list of missing curves: [[attachment:Curves_Missing_8-11-10.txt]]
+  * Here is the list of curves (with labels) up to norm conductor 1000. [[attachment:Completed.txt]]
 
 == Thursday, August 11 ==
-
+  
 == Friday, August 12 ==
  
