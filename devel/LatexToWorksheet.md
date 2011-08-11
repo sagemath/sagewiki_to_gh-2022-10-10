@@ -247,7 +247,3 @@ where you might have to adjust the numbering on the {{{sagenb}}} package.  Then 
 {{{
 jsMath.safeHBoxes=1 --> jsMath.safeHBoxes=0
 }}}
-
-Also, these examples have a bit of a formatting problem for larger matrices (more than two rows) on my setup, but I'm uncertain if that is my problem or more general.  A report, either way, would be appreciated if you look at these.
-
-== The 20% Defying Categorization ==
