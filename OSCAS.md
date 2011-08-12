@@ -20,7 +20,7 @@ A ''computer algebra system'' (CAS) is a mathematical software package capable o
 || Maxima ||   GPL || http://maxima.sourceforge.net ||
 || NTL ||  GPL || http://www.shoup.net/ntl/ ||
 || Pari || GPL || http://pari.math.u-bordeaux.fr ||
-|| SAGE ||  GPL || http://sage.scipy.org ||
+|| SAGE ||  GPL || http://www.sagemath.org/ ||
 || Scilab ||  "open source" || http://www.scilab.org ||
 || Singular ||  GPL || http://www.singular.uni-kl.de ||
 || Symmetrica ||  public domain || http://www.mathe2.uni-bayreuth.de/axel/symneu_engl.html ||
