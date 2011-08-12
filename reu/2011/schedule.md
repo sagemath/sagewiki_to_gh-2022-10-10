@@ -224,3 +224,4 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Friday, August 12 ==
  
+  * Finally, here is the list of ALL curves up to rank 2 curve. [[attachment: Curves2k]]
