@@ -4670,6 +4670,7 @@ mmcashloans\.co\.uk
 mmpaydayloans\.co\.uk
 my\.apexfitness\.com
 mystore\.24hourfitness\.com
+mycaal\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
