@@ -220,5 +220,7 @@ Twitter Feed: http://twitter.com/?q=SageMathREU#!/SageMathREU        <-- Use use
 
 == Thursday, August 11 ==
   
+  * Code for finding Silverman's upper bound on difference between naive and canonical heights of points on an elliptic curve: http://nt.sagenb.org/home/pub/139/
+
 == Friday, August 12 ==
  
