@@ -14,7 +14,7 @@
 
  1. Martin Albrecht (London)
  1. Jennifer Balakrishnan (MIT/Harvard)
- 1. [[http://buzzard.ups.edu/|Rob Beezer]] (U of Puget Sound, Tacoma, WA), lives in Tacoma (has car)
+ 1. [[http://buzzard.ups.edu/|Rob Beezer]] (U of Puget Sound, Tacoma, WA) (transport: 3 open seats in car, driving from Tacoma, going right past Sea-Tac Sunday afternoon, may run quick errand in central Seattle on the way, returning Thursday morning after breakfast, same route)
  1. Tom Boothby (Simon Frasier University)
  1. Volker Braun (Ireland)
  1. Alyson Deines (University of Washington), lives in Seattle (has car)
