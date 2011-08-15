@@ -12,11 +12,11 @@
 
 == People ==
 
- 1. Martin Albrecht (London)
+ 1. Martin Albrecht (London), arriving 4:35PM at SEATAC, shares ride with Volker Braun and Maarten Derickx
  1. Jennifer Balakrishnan (MIT/Harvard)
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (U of Puget Sound, Tacoma, WA) (transport: 3 open seats in car, driving from Tacoma, going right past Sea-Tac Sunday afternoon, may run quick errand in central Seattle on the way, returning Thursday morning after breakfast, same route)
  1. Tom Boothby (Simon Frasier University)
- 1. Volker Braun (Ireland)
+ 1. Volker Braun (Ireland), will rent car
  1. Alyson Deines (University of Washington), lives in Seattle (has car, is bringing Andrew and Simon, has room for 1 more.)
  1. Maarten Derickx (University of Leiden, Holland), arrives at SEATAC at 21/08/2011 20:58, has no drivers licence
  1. Mike Hansen (San Francisco Bay Area)
