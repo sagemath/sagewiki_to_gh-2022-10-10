@@ -18,7 +18,7 @@
  1. Tom Boothby (Simon Frasier University)
  1. Volker Braun (Ireland)
  1. Alyson Deines (University of Washington), lives in Seattle (has car, is bringing Andrew and Simon, has room for 1 more.)
- 1. Maarten Derickx (Leiden, Holland)
+ 1. Maarten Derickx (University of Leiden, Holland), arrives at SEATAC at 21/08/2011 20:58, has no drivers licence
  1. Mike Hansen (San Francisco Bay Area)
  1. Benjamin Jones (UW-Stout)
  1. Andrew Ohana (University of Washington), lives in Seattle (no car?)
