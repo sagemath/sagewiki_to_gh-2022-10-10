@@ -18,6 +18,7 @@
  * Jennifer Balakrishnan
  * Mirela Ciperiani
  * Aly Deines
+ * Ekin Ozman
  * Jennifer Park
  * Lola Thompson
  * Angela Wong
