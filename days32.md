@@ -17,7 +17,7 @@
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (U of Puget Sound, Tacoma, WA) (transport: 3 open seats in car, driving from Tacoma, going right past Sea-Tac Sunday afternoon, may run quick errand in central Seattle on the way, returning Thursday morning after breakfast, same route)
  1. Tom Boothby (Simon Frasier University)
  1. Volker Braun (Ireland)
- 1. Alyson Deines (University of Washington), lives in Seattle (has car)
+ 1. Alyson Deines (University of Washington), lives in Seattle (has car, is bringing Andrew and Simon, has room for 1 more.)
  1. Maarten Derickx (Leiden, Holland)
  1. Mike Hansen (San Francisco Bay Area)
  1. Benjamin Jones (UW-Stout)
