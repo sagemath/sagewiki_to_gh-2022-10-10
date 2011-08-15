@@ -14,18 +14,18 @@
 
  1. Martin Albrecht (London)
  1. Jennifer Balakrishnan (MIT/Harvard)
- 1. [[http://buzzard.ups.edu/|Rob Beezer]] (U of Puget Sound, Tacoma, WA)
+ 1. [[http://buzzard.ups.edu/|Rob Beezer]] (U of Puget Sound, Tacoma, WA), lives in Tacoma (has car)
  1. Tom Boothby (Simon Frasier University)
  1. Volker Braun (Ireland)
- 1. Alyson Deines (University of Washington)
+ 1. Alyson Deines (University of Washington), lives in Seattle (has car)
  1. Maarten Derickx (Leiden, Holland)
  1. Mike Hansen (San Francisco Bay Area)
  1. Benjamin Jones (UW-Stout)
- 1. Andrew Ohana (University of Washington)
+ 1. Andrew Ohana (University of Washington), lives in Seattle (no car?)
  1. John Perry (University of Southern Mississippi)
  1. Julian Ruth (Leibniz University, Hannover, Germany)
- 1. Simon Spicer (University of Washington)
- 1. William Stein (University of Washington)
+ 1. Simon Spicer (University of Washington), lives in Seattle (no car??)
+ 1. William Stein (University of Washington), arrives at SEATAC at 4:32pm, has a car that can fit one person with light luggage.
 
 
 == Projects ==
