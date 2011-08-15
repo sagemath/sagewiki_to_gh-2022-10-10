@@ -1,6 +1,6 @@
 = Sage Days 32 High Priority Wishlist =
 
-== Super High Priority ==
+== Super-duper High Priority ==
  * [[http://trac.sagemath.org/sage_trac/ticket/8254|#8254]] [[http://trac.sagemath.org/sage_trac/ticket/11040|#11040]] [[http://trac.sagemath.org/sage_trac/ticket/11043|#11043]] faster startup time;  see also [[https://github.com/jasongrout/sage-forker|the Sage forker]].
 
 
