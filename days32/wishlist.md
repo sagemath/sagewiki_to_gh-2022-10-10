@@ -1,6 +1,10 @@
 = Sage Days 32 High Priority Wishlist =
 
+== Super High Priority ==
  * [[http://trac.sagemath.org/sage_trac/ticket/8254|#8254]] [[http://trac.sagemath.org/sage_trac/ticket/11040|#11040]] [[http://trac.sagemath.org/sage_trac/ticket/11043|#11043]] faster startup time;  see also [[https://github.com/jasongrout/sage-forker|the Sage forker]].
+
+
+== High Priority ==
 
  * Upgrade MPIR ([[http://trac.sagemath.org/sage_trac/ticket/8664|#8664]], [[http://trac.sagemath.org/sage_trac/ticket/11616|#11616]]), MPFR ([[http://trac.sagemath.org/sage_trac/ticket/11666|#11666]]), MPFI to latest stable releases
 
@@ -11,6 +15,11 @@
  * latest jmol source (also [[http://trac.sagemath.org/sage_trac/ticket/9238|#9238]])
 
  * [[http://trac.sagemath.org/sage_trac/ticket/6329|#6329]] optional doctest failure -- breakage in the sage<-->magma  
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/10975|#10975]] creation of certain prime finite fields is double dog slow
+
+== Medium Priority ==
+
  * [[http://trac.sagemath.org/sage_trac/ticket/10826|#10826]], [[http://trac.sagemath.org/sage_trac/ticket/10827|#10827]], [[http://trac.sagemath.org/sage_trac/ticket/10828|#10828]], [[http://trac.sagemath.org/sage_trac/ticket/11197|#11197]] SAGE_SPKG_INSTALL_DOCS
 
  * [[http://trac.sagemath.org/sage_trac/ticket/10152|#10152]] [[http://trac.sagemath.org/sage_trac/ticket/10973|#10973]] integral points
@@ -18,7 +27,6 @@
 
  * experimental packages macaulay2 fails to build (also [[http://trac.sagemath.org/sage_trac/ticket/10117|#10117]])
 
- * [[http://trac.sagemath.org/sage_trac/ticket/10975|#10975]] creation of certain prime finite fields is double dog slow
  * [[http://trac.sagemath.org/sage_trac/ticket/10976|#10976]] computing order of subgroup of a permutation group is slow
  * [[http://trac.sagemath.org/sage_trac/ticket/10801|#10801]] Create a new option: "sage -strip"
  * [[http://trac.sagemath.org/sage_trac/ticket/8783|#8783]] frobby optional spkg doesn't build with newer GCC's
