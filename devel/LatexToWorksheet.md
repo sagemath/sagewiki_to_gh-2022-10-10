@@ -88,7 +88,7 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11552|11552]] || fix free module morphism surjectivity || positive review|| John Palmieri ||
 ||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11553|11553]] || matrix morphism additional methods || positive review, dep #11552 || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11585|11585]] || transformation matrix for echelon form of sparse matrices || positive review || Author: Volker Braun ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11600|11600]] || alias for free module morphism lift method || with patch || Martin Raum ||
+||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11600|11600]] || alias for free module morphism lift method || positive review || Martin Raum ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
