@@ -3,5 +3,3 @@ Before his entrance into politics, the name of Coriolanus evoked awe. His battle
 Had Coriolanus listened to his mentor's job interview advice and said less, the people would never have had cause to be offended by him, would never have known his true feelings. He would have maintained his powerful aura, would certainly have been elected consul, and would have been able to accomplish his antidemocratic goals. But the human tongue is a beast that few can master. It strains constantly to break out of its cage, and if it is not tamed, it will run wild and cause you grief. Power cannot accrue to those who squander their treasure of words.
 
 Oysters open completely when the moon is full; and when the crab sees one it throws a piece of stone or seaweed into it and the oyster cannot close again so that it serves the crab for meat. Such is the fate of him who opens his mouth too much and thereby puts himself at the mercy of the listener.
-----
-CategoryHomepage
