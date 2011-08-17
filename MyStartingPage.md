@@ -1,11 +1,7 @@
-##master-page:HomepageTemplate
-#format wiki
-#language en
-== Your Name ==
+Before his entrance into politics, the name of Coriolanus evoked awe. His battlefield accomplishments showed him as a man of great bravery - something which we can learn and integrate into our job interview tips. Since the citizens knew little about him, all kinds of legends became attached to his name. The moment he appeared before the Roman citizens, however, and spoke his mind, all that grandeur and mystery vanished. He bragged and blustered like a common soldier. He insulted and slandered people, as if he felt threatened and insecure. Suddenly he was not at all what the people had imagined. The discrepancy between the legend and the reality proved immensely disappointing to those who wanted to believe in their hero. The more Coriolanus said, the less powerful he appeared - a person who cannot control his words shows that he cannot control himself, and is unworthy of respect. When it comes to your interview, remember this piece of job interview advice - don't oversell yourself, and know when to stop talking and let the other side have their say.
 
-Email: <<MailTo(you AT SPAMFREE example DOT com)>>
+Had Coriolanus listened to his mentor's job interview advice and said less, the people would never have had cause to be offended by him, would never have known his true feelings. He would have maintained his powerful aura, would certainly have been elected consul, and would have been able to accomplish his antidemocratic goals. But the human tongue is a beast that few can master. It strains constantly to break out of its cage, and if it is not tamed, it will run wild and cause you grief. Power cannot accrue to those who squander their treasure of words.
 
-...
-
+Oysters open completely when the moon is full; and when the crab sees one it throws a piece of stone or seaweed into it and the oyster cannot close again so that it serves the crab for meat. Such is the fate of him who opens his mouth too much and thereby puts himself at the mercy of the listener.
 ----
 CategoryHomepage
