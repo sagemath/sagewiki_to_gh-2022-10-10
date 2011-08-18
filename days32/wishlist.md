@@ -2,6 +2,7 @@
 
 == Super-duper High Priority ==
  * [[http://trac.sagemath.org/sage_trac/ticket/8254|#8254]] [[http://trac.sagemath.org/sage_trac/ticket/11040|#11040]] [[http://trac.sagemath.org/sage_trac/ticket/11043|#11043]] faster startup time;  see also [[https://github.com/jasongrout/sage-forker|the Sage forker]].
+ * Port Sage to Power 7 (ppc64) -- there is a machine "silius" on skynet that should be used for this.
 
 
 == High Priority ==
