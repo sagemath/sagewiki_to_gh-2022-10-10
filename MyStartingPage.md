@@ -4,7 +4,7 @@
 
 = Sage Wiki =
 This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. It helps in organizing development, projects and meetings.
-
+ 
  ||[[#sagedays|Sage Days]] || [[#messagingsites|Message Boards, Chatrooms]]  ||
 
 
