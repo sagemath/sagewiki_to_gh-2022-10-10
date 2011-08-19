@@ -4,7 +4,7 @@
 
 = ACCESS =
 
- * '''To access the wiki, use your trac account.'''  See http://trac.sagemath.org/sage_trac/ for how to get a trac account.  Spammers: Please don't waste your time trying to get an account, since you have to write an email to a human and convince them you are actually a Sage developer. 
+ * '''To access the wiki, use your trac account.'''  See http://trac.sagemath.org/sage_trac/ for how to get a trac account.    (Spammers: Please don't waste your time trying to get an account, since you have to write an email to a human and convince them you are actually a Sage developer.)
 
 = Sage Wiki =
 This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. It helps in organizing development, projects and meetings.
