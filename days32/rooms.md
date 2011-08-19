@@ -1,4 +1,4 @@
-= Sage Days 32 Wallace Falls Preliminary Room Assignments =
+= Sage Days 32 Wallace Falls Room Assignments =
 
  * Room 1: Benjamin Jones + Spouse
  * Room 2: Simon Spicer, Tom Boothby
