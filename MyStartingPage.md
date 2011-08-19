@@ -4,8 +4,7 @@
 
 = ACCESS =
 
- * '''Open access to change the wiki is completely disabled due to spammers.  If you need access to the wiki, create an account, and email wstein@gmail.com to have him add you to a list of users who can actually change the wiki.  Be sure to convince him in email that you are not a spammer.'''   We're sorry to have to do this, but right now ''most'' changes to the wiki are serious spamming. 
-
+ * '''To access the wiki, use your trac account.'''  See http://trac.sagemath.org/sage_trac/ for how to get a trac account.  Spammers: Please don't waste your time trying to get an account, since you have to write an email to a human and convince them you are actually a Sage developer. 
 
 = Sage Wiki =
 This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. It helps in organizing development, projects and meetings.
