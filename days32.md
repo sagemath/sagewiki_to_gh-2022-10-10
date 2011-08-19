@@ -4,7 +4,7 @@
 
  * Aug 21-25, 2011 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]] (we booked the entire lodge, so you don't have to book a room)
  * Check in time is 3pm on Sunday August 21 and checkout is at 11am on Thur Aug 25.  If for some reason you want to extend your dates, let me know. 
- * Floorplan: [[attachment:floorplan.jpg]] (15 beds)
+ * Floorplan: [[attachment:floorplan.jpg]] (15 beds) and [[/rooms/|preliminary room assignments]]
 
 == Mailing List ==
 
