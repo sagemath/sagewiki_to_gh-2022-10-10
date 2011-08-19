@@ -10,3 +10,5 @@
  * Room 8: Andrew Ohana and Maarten Derickx
  * Room 9: Volker Braun
  * Room 10: Martin Albrecht
+
+See the [[http://wiki.sagemath.org/days32?action=AttachFile&do=view&target=floorplan.jpg|floorplan.jpg]].
