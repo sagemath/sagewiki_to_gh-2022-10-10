@@ -21,10 +21,10 @@
  1. Maarten Derickx (University of Leiden, Holland), arrives at SEATAC at 21/08/2011 20:58, has no drivers licence
  1. Mike Hansen (San Francisco Bay Area)
  1. Benjamin Jones (UW-Stout)
- 1. Andrew Ohana (University of Washington), lives in Seattle (no car?)
+ 1. Andrew Ohana (University of Washington), getting a ride with Aly Deines
  1. John Perry (University of Southern Mississippi), due in SEATAC 21 aug @ 2·16p, leaving 23 Aug @ 14·05p, willing to share a ride or a rental (prefer not to drive personally)
  1. Julian Ruth (Leibniz University, Hannover, Germany), arrives at SEATAC at 11:15 am; I don't have a car but I would drive a rental car if necessary.
- 1. Simon Spicer (University of Washington), lives in Seattle (no car??)
+ 1. Simon Spicer (University of Washington), getting a ride with Aly Deines
  1. William Stein (University of Washington), arrives at SEATAC at 4:32pm, has a car that can fit one person with light luggage.
 
 
