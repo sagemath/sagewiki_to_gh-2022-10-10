@@ -23,7 +23,7 @@
  1. Benjamin Jones (UW-Stout): "I'm arriving at SEATAC on Sunday at 4:40p and renting a car. There should be 1-2 seats free on the way to the lodge and on the way back. I'm staying with friends in Tacoma after the workshop. I could drop anyone who needs a ride after the workshop is over in Seattle or Tacoma."
  1. Andrew Ohana (University of Washington), getting a ride with Aly Deines
  1. John Perry (University of Southern Mississippi), due in SEATAC 21 aug @ 2·16p, leaving 23 Aug @ 14·05p, willing to share a ride or a rental (prefer not to drive personally)
- 1. Julian Ruth (Leibniz University, Hannover, Germany), arrives at SEATAC at 11:15 am; I don't have a car but I would drive a rental car if necessary.
+ 1. Julian Ruth (Leibniz University, Hannover, Germany), arrives at SEATAC at 11:15 am; Rob Beezer will pick me up.
  1. Simon Spicer (University of Washington), getting a ride with Aly Deines
  1. William Stein (University of Washington), arrives at SEATAC at 4:32pm, has a car that can fit one person with light luggage.
 
