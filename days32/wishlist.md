@@ -26,7 +26,7 @@
  * [[http://trac.sagemath.org/sage_trac/ticket/10152|#10152]] [[http://trac.sagemath.org/sage_trac/ticket/10973|#10973]] integral points
  * [[http://trac.sagemath.org/sage_trac/ticket/9668|#9668]] Fix hardcoding of paths in R binary
 
- * experimental packages macaulay2 fails to build (also [[http://trac.sagemath.org/sage_trac/ticket/10117|#10117]])
+ * [[http://trac.sagemath.org/sage_trac/ticket/11710|#11710]] Experimental package Macaulay2 fails to build (also [[http://trac.sagemath.org/sage_trac/ticket/10117|#10117]])
 
  * [[http://trac.sagemath.org/sage_trac/ticket/10976|#10976]] computing order of subgroup of a permutation group is slow
  * [[http://trac.sagemath.org/sage_trac/ticket/10801|#10801]] Create a new option: "sage -strip"
