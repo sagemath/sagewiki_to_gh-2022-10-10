@@ -1,5 +1,7 @@
 = Sage Days 32 High Priority Wishlist =
 
+'''This is being moved to TRAC, since nobody can edit the wiki.'''
+
 == Super-duper High Priority ==
  * [[http://trac.sagemath.org/sage_trac/ticket/8254|#8254]] [[http://trac.sagemath.org/sage_trac/ticket/11040|#11040]] [[http://trac.sagemath.org/sage_trac/ticket/11043|#11043]] faster startup time;  see also [[https://github.com/jasongrout/sage-forker|the Sage forker]], and see [[http://artificialcode.blogspot.com/2009/04/short-circuiting-python-module-lookup.html|this article]]
  * [[http://trac.sagemath.org/sage_trac/ticket/11705|#11705]] Port Sage to Power 7 (ppc64) -- there is a machine "silius" on skynet that should be used for this.  Only problem is building Maxima...
