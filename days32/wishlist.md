@@ -69,3 +69,8 @@
  * [[http://trac.sagemath.org/sage_trac/ticket/4260|#4260]] use LinBox as native matrix representation for dense matrices over GF(p)
  * [[http://trac.sagemath.org/sage_trac/ticket/9562|#9562]] add M4RIE to Sage (== fast linear algebra over GF(2^n) for n in 2..10
  * [[http://trac.sagemath.org/sage_trac/ticket/11574|#11574]] update M4RI
+
+== Lower Priority (not from sponsor) ==
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/11680|#11680]] support extra_compile_args (e.g., C99) when loading/attaching .pyx (cython) files, and when using %cython in the notebook
+ * [[http://trac.sagemath.org/sage_trac/ticket/11712|#11712]] Make it so typing {{{cython?}}} results in one seeing documentation for all pragma's for %cython mode and load/attach .pyx file
