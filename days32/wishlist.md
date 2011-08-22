@@ -45,11 +45,11 @@
  * [[http://trac.sagemath.org/sage_trac/ticket/10271|#10271]] Make big_oh notation work for any element that has degree()
  * [[http://trac.sagemath.org/sage_trac/ticket/5903|#5903]] Remove dist directories from Sage distribution
  * [[http://trac.sagemath.org/sage_trac/ticket/10231|#10231]] Don't repackage examples and extcode on sage-*dist
- * [[http://trac.sagemath.org/sage_trac/ticket/10952|#10952]] better numerical accuracy testing (review in-progress, Beezer)
+ * [[http://trac.sagemath.org/sage_trac/ticket/10952|#10952]] better numerical accuracy testing (in-progress, Beezer)
  * [[http://trac.sagemath.org/sage_trac/ticket/6284|#6284]] fix the numerous broken optional magma doctests
  * [[http://trac.sagemath.org/sage_trac/ticket/8469|#8469]] add "Number Theory and the RSA Public Key Cryptosystem" (review in-progress, Beezer)
  * [[http://trac.sagemath.org/sage_trac/ticket/9487|#9487]] Have an acurate description of what "supported platforms" are
- * [[http://trac.sagemath.org/sage_trac/ticket/9494|#9494]] Add a doctest to benchmark.py
+ * [[http://trac.sagemath.org/sage_trac/ticket/9494|#9494]] Add a doctest to benchmark.py (in-progress, Beezer)
  * [[http://trac.sagemath.org/sage_trac/ticket/10910|#10910]] Avoid nfinit while factoring polynomials
  * [[http://trac.sagemath.org/sage_trac/ticket/10951|#10951]] ecmfactor should take as optional argument the sigma value
  * [[http://trac.sagemath.org/sage_trac/ticket/5187|#5187]] fix optional magma doctests that changed in magma-2.15
