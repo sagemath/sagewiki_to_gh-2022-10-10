@@ -41,6 +41,10 @@
 
 William Stein (partial, far left), Simon Spicer, Maarten Derickx, Julian Ruth
 
+{{attachment:sd32-wallace-lake-20110824a.jpg}}
+
+Jen Balakrishnan, Aly Deines
+
 {{attachment:sd32-wallace-lake-20110824.jpg}}
 
 Tom Boothby, Volker Braun, Maarten Derickx
