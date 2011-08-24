@@ -2,7 +2,9 @@
 
 '''This is being moved to TRAC, since nobody can edit the wiki.   Please do not edit this page.'''
 
-USE THIS PAGE INSTEAD:  http://trac.sagemath.org/sage_trac/wiki/days32wishlist
+USE THIS PAGE INSTEAD:  
+   * http://trac.sagemath.org/sage_trac/wiki/days32wishlist
+   * http://trac.sagemath.org/sage_trac/report/42?asc=1&sort=status
 
 
 = OLD -- do not edit or use =
