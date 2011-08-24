@@ -38,3 +38,9 @@
 == Pictures ==
 
 {{attachment:sd32-wallace-lake-20110822.jpg}}
+
+William Stein (partial, far left), Simon Spicer, Maarten Derickx, Julian Ruth
+
+{{attachment:sd32-wallace-lake-20110824.jpg}}
+
+Tom Boothby, Volker Braun, Maarten Derickx
