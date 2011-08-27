@@ -1,5 +1,7 @@
 = Sage Days 32: Bug Days =
 
+<<TableOfContents>>
+
 == Dates/Location ==
 
  * Aug 21-25, 2011 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]] (we booked the entire lodge, so you don't have to book a room)
@@ -36,6 +38,9 @@
  * Cleanup linear algebra over finite fields.
 
 == Pictures ==
+
+* William's [[http://www.facebook.com/media/set/?set=a.10150282895418682.350646.504538681&l=c0d8543e79&type=1|picture at Facebook]].
+* William's same pictures, but [[https://picasaweb.google.com/115360165819500279592/SageBugDays32WallaceFalls|at Google Picasa].
 
 {{attachment:sd32-wallace-lake-20110822.jpg}}
 
