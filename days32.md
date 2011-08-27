@@ -39,8 +39,8 @@
 
 == Pictures ==
 
-* William's [[http://www.facebook.com/media/set/?set=a.10150282895418682.350646.504538681&l=c0d8543e79&type=1|picture at Facebook]].
-* William's same pictures, but [[https://picasaweb.google.com/115360165819500279592/SageBugDays32WallaceFalls|at Google Picasa].
+ * William's [[http://www.facebook.com/media/set/?set=a.10150282895418682.350646.504538681&l=c0d8543e79&type=1|picture at Facebook]].
+ * William's same pictures, but [[https://picasaweb.google.com/115360165819500279592/SageBugDays32WallaceFalls|at Google Picasa]].
 
 {{attachment:sd32-wallace-lake-20110822.jpg}}
 
