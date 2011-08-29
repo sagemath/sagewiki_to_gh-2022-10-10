@@ -9,7 +9,8 @@
  * Note: check-in at the Lodge is at 3pm on Sept 19; check-out is 11am on the 23rd
 
 == Speakers ==
-
+ 
+ * Jennifer Johnson-Leung
  * Alice Silverberg
  * Kate Stange
 
@@ -18,10 +19,14 @@
  * Jennifer Balakrishnan
  * Mirela Ciperiani
  * Aly Deines
+ * Amy Feaver
  * Ekin Ozman
  * Jennifer Park
  * Lola Thompson
+ * Cassie Williams
  * Angela Wong
+ * Diane Yap
+
 
 
 == Mailing list ==
