@@ -36,8 +36,7 @@ By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki
  * [[days32|Sage Days 32: Bug Days (near Seattle), August 21-25, 2011]]
  * [[days33|Sage Days 33: Women in Sage (near Seattle), September 19-23, 2011]]
  * [[days34|Sage Days 34: Singular Days (Kaiserslautern, Germany), September 26-30, 2011]]
-
- * Sage Days X, for some X > 34: late October, Suwon, South Korea. Contact DanDrake for more information.
+ * Sage Days X, for some X > 34: likely April 2012, South Korea. Contact DanDrake for more information.
 
  * [[HowToHostASageDays|Hosting]] --- Advice to future hosts
 
