@@ -51,7 +51,7 @@ Mixed, most think it is not a good idea.
  * Volker Braun has a workaround that caches import locations between Sage runs.
 
 == Start making use of __init__.py files ==
-
+----
 ==== Opinion on sage-dev ====
 N/A since this idea has to be developed more first
 ==== Pros ====
