@@ -116,7 +116,7 @@ To be provided
 '''valid use case to ignore this guideline:'''
 To be provided
 
-= Links/Recources =
+= Links/Resources =
  * [[http://wiki.python.org/moin/PythonSpeed/PerformanceTips#Import_Statement_Overhead ]]
  * [[http://docs.python.org/tutorial/modules.html#intra-package-references]]
  * [[http://effbot.org/zone/import-confusion.htm]]
