@@ -20,16 +20,17 @@
 Monday evening: informal Sage tutorials
 
 Tuesday
-8:30 - 9:30am: breakfast
-10:00 - 10:30: Alice Silverberg
-10:45 - 11:15: Jennifer Johnson-Leung
-11:30 - 12:00: Kate Stange
-12:15pm: quick organizational meeting for working groups
-1:00pm: lunch
-2:00pm: trac tour
-project work for the rest of the day
+ 8:30 - 9:30am: breakfast
+ 10:00 - 10:30: Alice Silverberg
+ 10:45 - 11:15: Jennifer Johnson-Leung
+ 11:30 - 12:00: Kate Stange
+ 12:15pm: quick organizational meeting for working groups
+ 1:00pm: lunch
+ 2:00pm: trac tour
+ project work for the rest of the day
 
-Wednesday, Thursday: unstructured working group time; breakfast/lunch/dinner same time as Tuesday
+Wednesday, Thursday
+ unstructured working group time; breakfast/lunch/dinner same time as Tuesday
 
 == Confirmed participants ==
 
