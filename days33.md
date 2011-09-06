@@ -15,7 +15,7 @@
  * Kate Stange
 
 
-== Schedule == 
+== Schedule ==
 
 Monday evening: informal Sage tutorials
 
