@@ -42,3 +42,10 @@
 
  * libpolys has better function field arithmetic now, we should wrap that in Sage.
  * This is also relevant [[http://trac.sagemath.org/sage_trac/ticket/9054|#9054 create a class for basic function field arithmetic]]
+
+== FLINT integration ==
+
+'''People:''' Fredrik
+
+ * Add missing utility and conversion functions to FLINT
+ * Use FLINT in Singular
