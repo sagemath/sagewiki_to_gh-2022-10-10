@@ -5,26 +5,39 @@
 This workshop will focus on the development of the Sage-Singular interface and libSingular. Anybody interested
 is welcome to participate, prior experience with either of these is not required.
 
+{{http://blog.cartoonbank.com/wp-content/uploads/2011/07/137224_presentationlicense-430x280.jpg}}
+
 === Participants ===
 
  * Martin Albrecht
  * Volker Braun
- * Michael Brickenstein (MFO)
- * Hiep Tuan Dang
+ * Hiep Tuan Dang (TU Kaiserslautern)
  * Jeroen Demeyer
  * Burcin Erocal (TU Kaiserslautern)
- * Simon King
+ * Fredrik Johansson (RISC)
+ * Simon King (Jena)
  * Martin Lee (TU Kaiserslautern)
  * Oleksandr Motsak (TU Kaiserslautern)
+ * Niels Ranosch (MFO)
  * Hans Schoenemann (TU Kaiserslautern)
- * Flavia Stan
- * ...
- * you?
+ * Flavia Stan (INRIA-Rocquencourt)
 
-=== Financial Support ===
+== Schedule ==
 
-=== Registration ===
+Monday
+ * 10.00 Coffee
+ * 10.15 self introductions
+ * 11.00 refactoring singular - libpolys and the future
+ * 16.00 - Coding sprint organization
 
+Tuesday - Friday
+ * 10.00 -- Coffee Break
+ * 10.15 -- Status reports
+ * 12.30 - 14.00 -- lunch
+
+== Projects ==
+
+[[/projects|List of projects]]
 
 === Location ===
  * Kaiserslautern, Germany
@@ -43,4 +56,4 @@ is welcome to participate, prior experience with either of these is not required
 <<Anchor(contact)>>
 === Contact & Mailing List ===
 
-Feel free to email burcin@erocal.org with questions, comments and suggestions.
+Feel free to email burcin@erocal.org with questions, comments and suggestions. [[http://groups.google.com/group/sagedays34|Mailing list for participants.]]
