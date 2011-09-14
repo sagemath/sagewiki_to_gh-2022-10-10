@@ -161,7 +161,7 @@ sudo -u sageserver -i "ssh sage0@localhost echo Done"
   8) I store the following command in a file {{{/home/sageserver/startnotebook}}} to start the notebook
 {{{
 #!/bin/sh
-echo "notebook(directory='./sage_notebook.sagenb', interface='localhost', port=8000, accounts=True, timeout=1200, server_pool=['sage%d@localhost'%i for i in range(10)], ulimit='-u 100 -t 3600 -v 500000', open_viewer=False)" | ~/sage/sage
+echo "notebook(directory='./sage_notebook.sagenb', interface='localhost', port=8000, accounts=True, timeout=3600, server_pool=['sage%d@localhost'%i for i in range(10)], ulimit='-u 100 -t 3600 -v 500000', open_viewer=False)" | ~/sage/sage
 }}}
 
 Note that I explicitly set the notebook directory, so that the directory doesn't default to live inside of {{{~/.sage}}}.  This is so that the normal procedure of making {{{~/.sage}}} not publicly accessible doesn't also cut off access to each cell's DATA directory.
