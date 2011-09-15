@@ -204,3 +204,53 @@ fi
 
  * Enable acl permissions by editing fstab and adding the "acl" option behind the ext4 option (make sure your filesystem allows acls, of course).  Then you can better protect files from being seen by sage worksheet processes.
  * [[https://help.ubuntu.com/10.04/serverguide/C/automatic-updates.html]] also has some helpful tips.
+ * Jason Ekstrand from Iowa State University notes that if you want to enable SSL, you can do this at the command line: {{{
+sudo apt-get install ssl-cert
+sudo make-ssl-cert
+}}} and then use this for your {{{/etc/apache2/sites-available/sagenotebook}}} {{{
+<VirtualHost *:80>
+Redirect / https://MY_SAGE_SERVER_NAME/
+</VirtualHost>
+<VirtualHost *:443>   
+ServerName MY_SAGE_SERVER_NAME
+
+ProxyRequests Off
+ProxyPreserveHost On
+
+##############################################################
+# Stuff to make the notebook secure. Copied from default-ssl #
+##############################################################
+SSLEngine on
+SSLCertificateFile    /etc/ssl/certs/ssl-cert-snakeoil.pem
+SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
+BrowserMatch "MSIE [2-6]" \
+	nokeepalive ssl-unclean-shutdown \
+	downgrade-1.0 force-response-1.0
+# MSIE 7 and newer should be able to use keepalive
+BrowserMatch "MSIE [17-9]" ssl-unclean-shutdown
+####################
+# END OF SSL STUFF #
+####################
+
+<Proxy *>
+Order deny,allow
+Allow from all
+</Proxy>
+
+ProxyPass / http://localhost:8000/
+ProxyPassReverse / http://localhost:8000/
+
+DocumentRoot /
+<Location />   DefaultType text/html
+</Location>
+
+   ErrorLog /var/log/apache2/error.log
+
+   # Possible values include: debug, info, notice, warn, error, crit,
+   # alert, emerg.
+   LogLevel warn
+
+   CustomLog /var/log/apache2/access.log combined
+   ServerAdmin SERVER_ADMIN_E-MAIL
+</VirtualHost>
+}}}
