@@ -160,8 +160,7 @@ sudo -u sageserver -i "ssh sage0@localhost echo Done"
 
   8) I store the following command in a file {{{/home/sageserver/startnotebook}}} to start the notebook
 {{{
-
-!/bin/sh
+ #!/bin/sh
 
 ~/sage/sage -c "notebook(interface='localhost', directory='./sage_notebook.sagenb',port=8000, accounts=True, timeout=3600, server_pool=['sage%d@localhost'%i for i in range(10)], ulimit='-u 100 -t 36000 -v 500000', open_viewer=False)" 
 }}}
