@@ -19,11 +19,23 @@
 
  * Bug hunt through Singular kernel code. An adventure no hacker can resist.
 
-=== Non-commutative Stuff ===
+=== Plural/SCA ===
 
 '''People:''' Oleksandr
 
- * Bug hunt at PLURAL/SCA kernel code: G-ring (left) std, SCA etc...
+ * Bug hunt at PLURAL/SCA kernel code: (left) std etc...
+
+=== Try out some dynamic modules ===
+
+'''People:''' Oleksandr
+
+ * Try building & using dynamic modules
+
+=== Blackbox objects === 
+
+'''People:''' Oleksandr
+
+ * Try building & using blackbox objects, e.g. coefficient domain as a wrapper for coeffs
 
 
 == Interface to Singular's modules ==
