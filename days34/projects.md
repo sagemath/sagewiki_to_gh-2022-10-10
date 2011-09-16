@@ -16,7 +16,15 @@
 == Refactored Singular should pass it's test suite ==
 
 '''People:''' Burcin, Oleksandr, Hans
+
  * Bug hunt through Singular kernel code. An adventure no hacker can resist.
+
+=== Non-commutative Stuff ===
+
+'''People:''' Oleksandr
+
+ * Bug hunt at PLURAL/SCA kernel code: G-ring (left) std, SCA etc...
+
 
 == Interface to Singular's modules ==
 
