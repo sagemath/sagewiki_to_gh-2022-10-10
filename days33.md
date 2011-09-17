@@ -23,7 +23,6 @@ Tuesday
 
  * 8:30 - 9:30am: breakfast
  * 10:00 - 10:30: Alice Silverberg
- * 10:45 - 11:15: Jennifer Johnson-Leung
  * 11:30 - 12:00: Kate Stange
  * 12:15pm: quick organizational meeting for working groups
  * 1:00pm: lunch
