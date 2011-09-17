@@ -10,7 +10,6 @@
 
 == Speakers ==
  
- * Jennifer Johnson-Leung
  * Alice Silverberg
  * Kate Stange
 
