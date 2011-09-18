@@ -2,7 +2,7 @@
 
  * Room 1: William Stein
  * Room 2: Angela Wong, Diane Yap
- * Room 3: Diane Park, Lola Thompson
+ * Room 3: Jenn Park, Lola Thompson
  * Room 4: Alice Silverberg
  * Room 5: Mirela Ciperiani
  * Room 6: Kate Stange
