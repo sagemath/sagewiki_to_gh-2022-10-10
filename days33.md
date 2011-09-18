@@ -7,12 +7,12 @@
 
  * Sept 19-23, 2011 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]]
  * Note: check-in at the Lodge is at 3pm on Sept 19; check-out is 11am on the 23rd
+ * Floorplan: [[attachment:floorplan.jpg]] (15 beds) and [[/rooms/|preliminary room assignments]]
 
 == Speakers ==
  
  * Alice Silverberg
  * Kate Stange
-
 
 == Schedule ==
 
@@ -22,7 +22,8 @@ Monday evening
 Tuesday
 
  * 8:30 - 9:30am: breakfast
- * 10:00 - 10:30: Alice Silverberg
+ * 10:00 - 10:30: Sage basics
+ * 10:45 - 11:15: Alice Silverberg
  * 11:30 - 12:00: Kate Stange
  * 12:15pm: quick organizational meeting for working groups
  * 1:00pm: lunch
