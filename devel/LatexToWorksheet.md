@@ -76,32 +76,34 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/11356|11356]] || companion matrix constructor || 4.7.2.alpha1 || David Loeffler ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10848|10848]] || is_hermitian() for matrices || 4.7.2.alpha1 || Mike Hansen ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11558|11558]] || transformation matrix for echelon form of sparse matrices || 4.7.2.alpha1  || Author: Volker Braun ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || 4.7.2.alpha2 || Martin Raum ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || 4.7.2.alpha2 || Martin Raum ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || 4.7.2.alpha2 || Martin Raum ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || 4.7.2.alpha2 || Simon Spicer, Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11166|11166]] || free module inititalization || 4.7.2.alpha2 || Author: Nicolas Borie ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11480|11480]] || zigzag form and rational canonical form || 4.7.2.alpha2 || David Loeffler ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11535|11535]] || linear dependence of vectors || 4.7.2.alpha2 || Ivo Hedtke ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11552|11552]] || fix free module morphism surjectivity || 4.7.2.alpha2 || John Palmieri ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11600|11600]] || alias for free module morphism lift method || 4.7.2.alpha2 || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || 4.7.2.alpha3 || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11259|11259]] || LU decomposition for exact matrices || 4.7.2.alpha3 || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11544|11544]] || viewing matrices of algebraic numbers can hang || 4.7.2.alpha3 || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11553|11553]] || matrix morphism additional methods || 4.7.2.alpha3 || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11595|11595]] || update exact eigenspace routines || 4.7.2.alpha3 || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11657|11657]] || vector() function speed || 4.7.2.alpha3 ||Joint: William Stein ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11725|11725]] || random elements of algebraic field || 4.7.2.alpha3 ||Simon Spicer, Leif Leonhardy ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11544|11544]] || viewing matrices of algebraic numbers can hang || positive review || Martin Raum ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11553|11553]] || matrix morphism additional methods || positive review, dep #11552 || Martin Raum ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11556|11556]] || linear transformations || positive review, dep #11552, #11553 || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || positive review || H Schilly, J Grout, M Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || dep 10837, positive review || Martin Raum, Jeroen Demeyer ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/7852 | 7852]] || solve systems over CDF || with patch ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/8094 | 8094]] || properties for matrices || with patch || Harald Schilly, Jason Grout ||
+||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || numerical noise, with patch || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11104|11104]] || is_normal() for matrices || with patch ||  ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11259|11259]] || LU decomposition for exact matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11306|11306]] || upgrade is_unitary() for RDF/CDF || with patch, dep. #10848, #11277 ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11364|11364]] || cyclic subspaces (aka Krylov subspaces) || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11555|11555]] || expand print version of free module morphisms || with patch || ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11595|11595]] || update exact eigenspace routines || with patch || ||
+||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/11556|11556]] || linear transformations || needs trivial review, dep #11552, #11553 || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11603|11603]] || deprecate eigenspaces for matrices over RDF/CDF || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11608|11608]] || RDF/CDF eigenvalues, symmetric matrices, multiplicities || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11715|11715]] || upgrade matrix set_row() and set_column() || with patch || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11721|11721]] || arguments to rows(), columns(), jordan_block() || with patch || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4932 | 4932]] || remove solve-left-LU || needs work ||  ||
@@ -111,9 +113,12 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/10501|10501]] || deprecate adjoint in favor of adjugate || needs work || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10544|10544]] || LLL reduced bases for right kernels || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10765|10765]] || obliterate sage/matrix/misc.pyx || orphaned ||  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || numerical noise || Martin Raum ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || numerical noise || Simon Spicer, Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11274|11274]] || Cholesky decomposition over rationals || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11286|11286]] || speed up solve_right() || new ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11596|11596]] || cached eigenstuff is mutable || new ||  ||
+
 
 == Abstract Algebra Patches ==
 
