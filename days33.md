@@ -36,6 +36,9 @@ Wednesday, Thursday
  * unstructured working group time
  * breakfast/lunch/dinner same time as Tuesday
 
+
+[[/todo/|Things to work on]]
+
 == Confirmed participants ==
 
  * Jennifer Balakrishnan
@@ -48,7 +51,6 @@ Wednesday, Thursday
  * Cassie Williams
  * Angela Wong
  * Diane Yap
-
 
 
 == Mailing list ==
