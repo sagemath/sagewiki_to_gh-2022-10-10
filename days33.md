@@ -37,7 +37,7 @@ Wednesday, Thursday
  * breakfast/lunch/dinner same time as Tuesday
 
 
-[[/todo/|Things to work on]]
+[[/todo/|To-do list]]
 
 == Confirmed participants ==
 
