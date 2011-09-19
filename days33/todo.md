@@ -9,3 +9,5 @@
   *[[http://trac.sagemath.org/sage_trac/ticket/11777|#11777: Coercion/printing problem with p-adics]]
 
 * computing with chi_18
+
+* wrapping of gauss composition (in pari: QuadClassUnit)
