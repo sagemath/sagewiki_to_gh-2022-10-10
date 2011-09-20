@@ -1,10 +1,10 @@
 = L-series =
 
-=== Project Leader === 
+=== Project Leader ===
 
 William
 
-=== Group Members === 
+=== Group Members ===
 
 William, Cassie, Amy, Lola
 
