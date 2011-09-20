@@ -1,10 +1,12 @@
+= L-series =
+
 === Project Leader === 
 
 William
 
 === Group Members === 
 
-Cassie, Amy, Lola
+William, Cassie, Amy, Lola
 
 === Project Description ===
 
@@ -12,6 +14,9 @@ For L-series lovers:  Getting the doctest coverage to 100% on this
 might be a good project:
 
   http://code.google.com/p/purplesage/source/browse/psage/lseries/eulerprod.py
+
+See [[http://nt.sagenb.org/home/pub/144/|this worksheet for an example]].
+
 
 That may discover "issues" (bugs), which I would likely have to fix,
 but would also be fun because one gets to come up with lots of
