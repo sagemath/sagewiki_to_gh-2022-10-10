@@ -8,7 +8,7 @@
 
 * L-function Project [[http://wiki.sagemath.org/days33/lfunction]]
 
-==Other possibilities==
+== Other possibilities ==
 
 * wrapping of gauss composition (in pari: QuadClassUnit)
 
