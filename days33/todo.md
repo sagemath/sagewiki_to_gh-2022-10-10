@@ -9,6 +9,10 @@
   * Implement Larry Washington's formulas for dealing with elliptic curves over integral domains
 
 * [[attachment:KateWishList.sws]]
+  * Wrap E.reduction(prime)(P) so that we can also use P.reduction(prime)
+  * See what exactly is going on in E.global_minimal_model(), is it returning the unique restricted model?  If so, update documentation
+  * Implement Singular Weierstrass Equations and functionality similar to Elliptic Curves
+  * Compute lots of examples to find guesses for bounds on "C"
 
 * p-adics
   * [[http://trac.sagemath.org/sage_trac/ticket/7926|#7926: Bring coverage of Monsky-Washnitzer up to 50%]]
