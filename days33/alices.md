@@ -1,6 +1,10 @@
-Project Leader - Alice 
+=== Project Leader ===
 
-Group Members - Aly, Ekin, Angela
+Alice 
+
+=== Group Members ===
+ 
+Aly, Ekin, Angela
 
 * from Alice's talk:
   * Implement the algorithm (use Sage's pseudoprime function to check)
