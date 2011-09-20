@@ -2,7 +2,9 @@ Project Leader - William
 
 Group Members - Cassie, Amy, Lola
 
-From William: For L-series lovers:  Getting the doctest coverage to 100% on this
+== Project Description ==
+
+For L-series lovers:  Getting the doctest coverage to 100% on this
 might be a good project:
 
   http://code.google.com/p/purplesage/source/browse/psage/lseries/eulerprod.py
