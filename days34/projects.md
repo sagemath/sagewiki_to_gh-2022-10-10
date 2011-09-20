@@ -31,7 +31,7 @@
 
  * Try building & using dynamic modules
 
-=== Blackbox objects === 
+=== Blackbox objects ===
 
 '''People:''' Oleksandr
 
@@ -69,3 +69,10 @@
 
  * Add missing utility and conversion functions to FLINT
  * Use FLINT in Singular
+
+== Beginner tickets ==
+
+to practice preparing and submitting patches, for people new to the Sage development process:
+ * [[http://trac.sagemath.org/sage_trac/ticket/8857|#8857]] lcm over Q[x] broken (not any more)
+ * `.intersect()` method of ideals should allow multiple arguments.
+ * add an alias `primary_decomposition_complete() -> complete_primary_decomposition()` in the ideal class
