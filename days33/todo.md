@@ -1,14 +1,5 @@
 == To do list ==
 
-* from Alice's talk:
-  * Implement the algorithm (use Sage's pseudoprime function to check)
-  * What other primality tests does Pari have? Wrap these.
-  * Make things faster: implement as a python (maybe cython??) file
-  * How does GIMPS work?
-  * Ask Drew Sutherland what he's done?
-  * Implement Larry Washington's formulas for dealing with elliptic curves over integral domains
-
-
 * p-adics
   * [[http://trac.sagemath.org/sage_trac/ticket/7926|#7926: Bring coverage of Monsky-Washnitzer up to 50%]]
   * [[http://trac.sagemath.org/sage_trac/ticket/8241|#8241: p-adic fields should have Witt Frobenius]]
