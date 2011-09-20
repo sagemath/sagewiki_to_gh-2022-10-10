@@ -6,7 +6,7 @@
 
 * Kate's Group [[http://wiki.sagemath.org/days33/kates]]
 
-* L-function Project [[http://wiki.sagemath.org/days33/lfunction]]
+* L-series Project [[http://wiki.sagemath.org/days33/lfunction]]
 
 == Other possible projects ==
 
