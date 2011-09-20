@@ -2,9 +2,9 @@
 
 * p-adic Project [[http://wiki.sagemath.org/days33/padic]]
 
-* Alice's Group [[http://wiki.sagemath.org/days33/alices]]
+* Alice's Elliptic Curve Group [[http://wiki.sagemath.org/days33/alices]]
 
-* Kate's Group [[http://wiki.sagemath.org/days33/kates]]
+* Kate's Elliptic Curve Group [[http://wiki.sagemath.org/days33/kates]]
 
 * L-series Project [[http://wiki.sagemath.org/days33/lfunction]]
 
