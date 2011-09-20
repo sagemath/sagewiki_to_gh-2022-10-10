@@ -36,3 +36,25 @@ them.  In fact, instead of just trying to get coverage to 100%,
 writing a *tutorial* for computing with L-series using that package
 would be really nice.   E.g., one could walk through how to find
 missing information, create new L-series classes, etc.
+
+===  Specific Concrete Projects ===
+
+
+     * Move eulerprod.py into Sage itself.  This would at least involve:
+          1. Clean up the imports at the top of the file.
+          2. Do something with: "from psage.ellcurve.lseries.helper import extend_multiplicatively_generic"; it is the main dependency.  It's only a page of code. 
+          3. Graceful failure when 
+     * Doctest coverage to 100%
+     * Fix bugs that are found when doctesting.
+     * Use rubinstein _lcalc (see line 1116)
+     * Math question: given that you have a_p for Norm(p) <= B, how many bits of precision do we get?  Basically, invert the function L.number_of_coefficients(prec=50)
+     * Write an L-functions tutorial:  http://sagemath.org/doc/thematic_tutorials   This does not have to be long.  It has to start somewhere.  Small and focused first is fine!
+     * Speed of elliptic curves over number fields (smalljac).
+     * Make it so we use exactly one GP session for *all* of the Dokchitser L-functions
+     * Symmetric powers (and modular degree -- see trac 9758)
+     * Triple product L-functions: Gross-Kudla, Zhang, etc -- see the code in triple_prod/triple.py
+     * Make it so we use exactly one GP session for *all* of the Dokchitser L-functions
+     * Tensor products
+     * Genus 2 curves, via smalljac and genus2reduction
+     * Fast L-series of elliptic curves over number fields (not just sqrt(5)), via smalljac
+     * Inverse of number_of_coefficients function.     
