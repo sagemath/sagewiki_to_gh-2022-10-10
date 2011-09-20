@@ -6,6 +6,8 @@ Alice
  
 Aly, Ekin, Angela
 
+=== Project Description ===
+
 * from Alice's talk:
   * Implement the algorithm (use Sage's pseudoprime function to check)
   * What other primality tests does Pari have? Wrap these.
