@@ -11,3 +11,5 @@
 * computing with chi_18
 
 * wrapping of gauss composition (in pari: QuadClassUnit)
+
+* [[attachment:KateWishList.sws]]
