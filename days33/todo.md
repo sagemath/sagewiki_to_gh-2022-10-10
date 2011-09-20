@@ -18,6 +18,8 @@
 
 * Reviewing number theory and elliptic curve tickets
 
+* p-adic Project
+
 * Alice's Group [[http://wiki.sagemath.org/days33/alices]]
 
 * Kate's Group [[http://wiki.sagemath.org/days33/kates]]
