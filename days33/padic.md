@@ -1,6 +1,12 @@
-Project Leader - Jen 
+=== Project Leader ===
 
-Group Members - William, Mirela
+Jen 
+
+=== Group Members ===
+
+William, Mirela
+
+=== Project Description ===
 
 * p-adics
   * [[http://trac.sagemath.org/sage_trac/ticket/7926|#7926: Bring coverage of Monsky-Washnitzer up to 50%]]
