@@ -13,6 +13,9 @@
   * See what exactly is going on in E.global_minimal_model(), is it returning the unique restricted model?  If so, update documentation
   * Implement Singular Weierstrass Equations and functionality similar to Elliptic Curves
   * Compute lots of examples to find guesses for bounds on "C"
+  * p-adic Tate's algorithm
+
+* Put Kate's EDS class into sage (document properly)?
 
 * p-adics
   * [[http://trac.sagemath.org/sage_trac/ticket/7926|#7926: Bring coverage of Monsky-Washnitzer up to 50%]]
