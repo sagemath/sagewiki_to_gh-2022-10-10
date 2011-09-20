@@ -9,7 +9,7 @@ Aly, Jen, Diane
 === Project Description ===
 
 * [[attachment:KateWishList.sws]]
-  * Wrap E.reduction(prime)(P) so that we can also use P.reduction(prime)
+  * Wrap E.reduction(prime)(P) so that we can also use P.reduction(prime) [[http://trac.sagemath.org/sage_trac/ticket/11822|#11822]]
   * Implement E.reduction(p) for E defined over a p-adic fields 
   * See what exactly is going on in E.global_minimal_model(), is it returning the unique restricted model?  If so, update documentation
   * Implement Singular Weierstrass Equations and functionality similar to Elliptic Curves
