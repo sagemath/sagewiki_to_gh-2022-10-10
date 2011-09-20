@@ -21,7 +21,8 @@ Aly, Jen, Diane
 * Put Kate's EDS class into sage (document properly)?
 
 == Quick Sage Example ==
-def reduction(self,p):
+
+{{{def reduction(self,p):
     """
     This is going to be documentation.  
     This is a simple version of wrapping a function.  
@@ -29,4 +30,4 @@ def reduction(self,p):
     """
     P = self
     E = P.curve()
-    return E.reduction(p)(P)
+    return E.reduction(p)(P)}}}
