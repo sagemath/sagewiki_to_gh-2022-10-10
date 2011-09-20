@@ -1,6 +1,10 @@
-=== Project Leader === - William
+=== Project Leader === 
 
-=== Group Members === - Cassie, Amy, Lola
+William
+
+=== Group Members === 
+
+Cassie, Amy, Lola
 
 === Project Description ===
 
