@@ -3,9 +3,6 @@
 == Projects ==
 [[/todo/|List of Projects]]
  
- * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), William Stein (UW)
- * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
-
 == Dates/Location ==
 
  * Sept 19-23, 2011 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]]
@@ -58,3 +55,8 @@ Wednesday, Thursday
 == Mailing list ==
  
  * [[http://groups.google.com/group/sagedays33|Participant mailing list]]
+
+== Other Info ==
+
+ * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), William Stein (UW)
+ * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
