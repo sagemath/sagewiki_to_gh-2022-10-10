@@ -37,5 +37,7 @@
 
 * Reviewing number theory and elliptic curve tickets
 
+* Kate's Group
+
 * L-function Project
 [[http://wiki.sagemath.org/days33/lfunction]]
