@@ -1,4 +1,7 @@
 = Sage Days 33: Women in Sage (2) =
+
+== Projects ==
+[[/todo/|List of Projects]]
  
  * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), William Stein (UW)
  * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
@@ -37,7 +40,6 @@ Wednesday, Thursday
  * breakfast/lunch/dinner same time as Tuesday
 
 
-[[/todo/|To-do list]]
 
 == Confirmed participants ==
 
