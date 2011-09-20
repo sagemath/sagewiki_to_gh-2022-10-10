@@ -4,7 +4,7 @@ Kate
 
 === Group Members ===
 
-Aly, Jen, Diane
+Aly, Jenn, Diane
 
 === Project Description ===
 
