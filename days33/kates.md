@@ -19,3 +19,7 @@ Aly, Jenn, Diane
   * p-adic Tate's algorithm
 
 * Put Kate's EDS class into sage (document properly)?
+
+=== Singular Cubics ===
+
+[[http://trac.sagemath.org/sage_trac/ticket/11823 | Trac ticket 11823 ]]
