@@ -22,12 +22,14 @@ Aly, Jen, Diane
 
 == Quick Sage Example ==
 
-{{{def reduction(self,p):
+def reduction(self,p):
+
     """
     This is going to be documentation.  
     This is a simple version of wrapping a function.  
     The next step is to make a patch with this in the correct place in the code.
     """
+
     P = self
     E = P.curve()
-    return E.reduction(p)(P)}}}
+    return E.reduction(p)(P)
