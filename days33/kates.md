@@ -10,10 +10,10 @@ Aly, Jenn, Diane
 
 * [[attachment:KateWishList.sws]]
   * Wrap E.reduction(prime)(P) so that we can also use P.reduction(prime) [[http://trac.sagemath.org/sage_trac/ticket/11822|#11822]]
-  * Implement E.reduction(p) for E defined over a p-adic fields [[http://trac.sagemath.org/sage_trac/ticket/11823|#11823]]
+  * Implement E.reduction(p) for E defined over a p-adic fields 
   * See what exactly is going on in E.global_minimal_model(), is it returning the unique restricted model?  If so, update documentation
-  * Implement Singular Weierstrass Equations and functionality similar to Elliptic Curves
-     * make E.reduction(bad_prime) able to return this singular cubic object (maybe with a flag?)
+  * Implement Singular Weierstrass Equations and functionality similar to Elliptic Curves 
+     * make E.reduction(bad_prime) able to return this singular cubic object [[http://trac.sagemath.org/sage_trac/ticket/11823|#11823]]
      * change weierstrass model, addition of points, P.is_singular() to check if point is node/cusp, etc
   * Compute lots of examples to find guesses for bounds on "C"
   * p-adic Tate's algorithm
