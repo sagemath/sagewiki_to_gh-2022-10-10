@@ -27,7 +27,8 @@
 
 * Reviewing number theory and elliptic curve tickets
 
+* Alice's Group 
+
 * Kate's Group [[http://wiki.sagemath.org/days33/kates]]
 
-* L-function Project
-[[http://wiki.sagemath.org/days33/lfunction]]
+* L-function Project [[http://wiki.sagemath.org/days33/lfunction]]
