@@ -60,3 +60,7 @@ Wednesday, Thursday
 
  * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), William Stein (UW)
  * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
+
+== Bad Math Jokes ==
+
+An infinite number of mathematicians walk into a bar. The first one tells the bartender he wants a beer. The second one says he wants half a beer. The third one says he wants a fourth of a beer. The bartender puts two beers on the bar and says “You guys need to learn your limits.”
