@@ -24,7 +24,7 @@ Tuesday
  * 8:30 - 9:30am: breakfast
  * 10:00 - 10:30: Sage basics
  * 10:45 - 11:15: Alice Silverberg
- * 11:30 - 12:00: Kate Stange
+ * 11:30 - 12:00: Kate Stange [[attachment:Stange-2011-09-20-SageDays.pdf]]
  * 12:15pm: quick organizational meeting for working groups
  * 1:00pm: lunch
  * 2:00pm: trac tour
