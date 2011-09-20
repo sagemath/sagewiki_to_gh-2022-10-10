@@ -10,13 +10,7 @@ Aly, Jen, Diane
 
 * [[attachment:KateWishList.sws]]
   * Wrap E.reduction(prime)(P) so that we can also use P.reduction(prime)
-
----- /!\ '''Edit conflict - other version:''' ----
   * Implement E.reduction(p) for E defined over a p-adic fields 
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
   * See what exactly is going on in E.global_minimal_model(), is it returning the unique restricted model?  If so, update documentation
   * Implement Singular Weierstrass Equations and functionality similar to Elliptic Curves
      * make E.reduction(bad_prime) able to return this singular cubic object (maybe with a flag?)
