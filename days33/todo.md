@@ -1,4 +1,4 @@
-== To do list ==
+== Project groups ==
 
 * p-adic Project [[http://wiki.sagemath.org/days33/padic]]
 
@@ -8,7 +8,7 @@
 
 * L-function Project [[http://wiki.sagemath.org/days33/lfunction]]
 
-== Other possibilities ==
+== Other possible projects ==
 
 * wrapping of gauss composition (in pari: QuadClassUnit)
 
