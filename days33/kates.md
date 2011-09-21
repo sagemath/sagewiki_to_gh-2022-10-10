@@ -36,7 +36,6 @@ Aly, Jenn, Diane, Ekin
   * division_polynomial()
   * formal_group()
   * multiplication_by_m()?
-  * addition of points on a curve
 
 * Functions that should do something appropriate but don't (need coding):
 
@@ -46,10 +45,11 @@ Aly, Jenn, Diane, Ekin
   * change_ring() -- the problem may be my patch didn't work
   * cardinality() -- for finite fields
   * local stuff....??
+  * addition of points on a curve (seems to work, but needs to avoid singular point)
 
 * Functions that we should write (new):
 
-  * is_singular() (done)
+  * is_singular() (done) -- this is also accessible as an internal flag:  self._is_singular 
   * P.is_singular_point() -- for a point on the curve
   * singularity_type() -- tells you if it's a node or a cusp
   * singular_point() -- returns the node or cusp
