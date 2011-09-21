@@ -11,7 +11,7 @@ Definition (Amy and Cassie)
 \noindent\Large{The Dedekind $\zeta$-function}
 \normalsize
 
-If $K$ is a number field over $\mathbb{Q}$ and $s\in\mathbb{C}$ such that $\mathfrak{R}(s)>1$ then we can create $\zeta_K(s)$, the Dedekind $\zeta$-function of $K$:
+If $K$ is a number field over $\mathbb{Q}$ and $s\in\mathbb{C}$ such that Re$(s)>1$ then we can create $\zeta_K(s)$, the Dedekind $\zeta$-function of $K$:
 $$\zeta_K(s)=\sum_{I \subseteq \mathcal{O}_K} \frac{1}{(N_{K/\mathbb{Q}} (I))^s} = \sum_{n\geq1} \frac{a_n}{n^s}. $$
 In the first sum, $I$ runs through the nonzero ideals $I$ of $\mathcal{O}_K$, the ring of integers of $K$, and  $a_n$ is the number of ideals in $\mathcal{O}_K$ of norm $n$.  These $\zeta$-functions are a generalization of the Riemann $\zeta$-function, which can be thought of as the Dedekind $\zeta$-function for $K=\mathbb{Q}$.  The Dedekind $\zeta$-function of $K$ also has an Euler product expansion and an analytic continuation to the entire complex plane with a simple pole at $s=1$, as well as a functional equation.  Any $\zeta_K(s)$ can be decomposed as a product of $L$-series of Dirichlet characters in the character group of $K$:
 $$\zeta_K(s)=\prod_{\chi} L(s,\chi).$$
