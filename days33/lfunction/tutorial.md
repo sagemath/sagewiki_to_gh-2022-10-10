@@ -52,7 +52,7 @@ To define an L-series by an Euler product in Sage, one can use the '''LSeriesAbs
 
 returns an L-series Euler product with conductor 1, Hodge numbers [0], weight 1, epsilon 1, poles [1], residues [-1] over a Rational Field. 
 
-In order to use this class, the authors created a derived class that implements a method '''_local_factor(P)''', which takes as input a prime ideal $P$ of $K=base_field$, and returns a polynomial that is typically the reversed characteristic polynomial of Frobenius at $P$ of Gal$(\overline{K}/K)$ acting on the maximal unramified quotient of some Galois representation. This class automatically computes the Dirichlet series coefficients $a_n$ from the local factors of the L-function.
+In order to use this class, the authors created a derived class that implements a method '''_local_factor(P)''', which takes as input a prime ideal $P$ of $K=base\_field$, and returns a polynomial that is typically the reversed characteristic polynomial of Frobenius at $P$ of Gal$(\overline{K}/K)$ acting on the maximal unramified quotient of some Galois representation. This class automatically computes the Dirichlet series coefficients $a_n$ from the local factors of the L-function.
 
 === Functional Equation ===
 
