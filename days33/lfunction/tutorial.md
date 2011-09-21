@@ -1,1 +1,1 @@
-Our L-function tutorial goes here.
+Our L-series tutorial goes here.
