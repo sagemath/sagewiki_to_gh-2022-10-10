@@ -46,11 +46,11 @@ returns an L-series Euler product with conductor 1, Hodge numbers [0], weight 1,
 
 In many cases, an L-series can be expressed as an Euler product. By definition, if an L-series has a Galois representation then it has an Euler product. Some examples of common L-series with Euler products include:
 
-1. Riemann zeta function: $$\zeta(s) = \sum_{n = 1}^\infty \frac{1}{n^s} = \prod_p \left(1 - p^{-s}\right)^{-1}$$
+1. '''Riemann zeta function''' $$\zeta(s) = \sum_{n = 1}^\infty \frac{1}{n^s} = \prod_p \left(1 - p^{-s}\right)^{-1}$$
 
-2. Dirichlet L-function: $$L(s, \chi) = \sum_{n = 1}^\infty \frac{\chi(n)}{n^s} = \prod_p \left(1 - \frac{\chi(p)}{p^s}\right)^{-1}$$
+2. '''Dirichlet L-function''' $$L(s, \chi) = \sum_{n = 1}^\infty \frac{\chi(n)}{n^s} = \prod_p \left(1 - \frac{\chi(p)}{p^s}\right)^{-1}$$
 
-3. L-function of an Elliptic Curve (over $\mathbb{Q}$): $$L(E, s) = \sum_{n = 1}^\infty \frac{a_n}{n^s} = \prod_{p \ \mathrm{good \ reduction}} \left(1 - a_p p^{-s} + p^{1-2s}\right)^{-1} \prod_{p \ \mathrm{bad \ reduction}} \left(1 - a_p p^{-s}\right)^{-1}$$
+3. '''L-function of an Elliptic Curve (over $\mathbb{Q}$)''' $$L(E, s) = \sum_{n = 1}^\infty \frac{a_n}{n^s} = \prod_{p \ \mathrm{good \ reduction}} \left(1 - a_p p^{-s} + p^{1-2s}\right)^{-1} \prod_{p \ \mathrm{bad \ reduction}} \left(1 - a_p p^{-s}\right)^{-1}$$
 
 Not all L-series have an associated Euler product, however. For example, the Epstein Zeta Functions, defined by
 
