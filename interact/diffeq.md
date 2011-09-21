@@ -27,7 +27,7 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
     y_exact = lambda x: eval(y_exact_in)
     y_prime = lambda x,y: eval(y_prime_in)
     stepsize = float((stop-start)/nsteps)
-    steps_shown = max(nsteps,show_steps)
+    steps_shown = min(nsteps,show_steps)
     sol = [startval]
     xvals = [start]
     for step in range(nsteps):
