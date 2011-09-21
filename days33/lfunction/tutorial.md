@@ -23,29 +23,24 @@ where $ L_p(T) = 1-a_pT+pT^2$ if $E$ has good reduction at $p$, and $L_p(T)= 1-a
 
 Notice in particular that although one can certainly rewrite $L(s,E)$ as a sum over the natural numbers, the sequence of numerators no longer has an easily interpretable meaning in terms of the elliptic curve itself.
 
-=== Basic Functions (Amy) ===
+=== Basic Sage Functions for L-series} ===
 
-\noindent \begin{Large}\textbf{Basic Sage Functions for L-series}\end{Large}
+=== Series Coefficients} ===
 
-\noindent \begin{large}\textbf{Series Coefficients}\end{large}
+The command L.anlist(n) will return a list $V$ of $n+1$ numbers; 0, followed by the first $n$ coefficients of the L-series $L$. The zero is included simply as a place holder, so that the $k$th L-series coefficient $a_k$ will correspond to the $k$th entry $V[k]$ of the list. 
 
-\noindent The command L.anlist(n) will return a list $V$ of $n+1$ numbers; 0, followed by the first $n$ coefficients of the L-series $L$. The zero is included simply as a place holder, so that the $k$th L-series coefficient $a_k$ will correspond to the $k$th entry $V[k]$ of the list. 
+For example: 
+  sage: K.$\langle a\rangle$ = NumberField($x^3 + 29$) 
+  sage: L = LSeries(K) 
+  sage: L.anlist(5) 
 
-\vspace{0.1in}
-
-\noindent For example: \newline
-sage: K.$\langle a\rangle$ = NumberField($x^3 + 29$) \newline
-sage: L = LSeries(K) \newline
-sage: L.anlist(5) \newline
 will return [0,1,1,1,2,1], which is $[0,a_1,a_2,a_3,a_4,a_5]$ for this L-series.
 
-\vspace{0.1in}
 
-\noindent To access the value of an individual coefficient, you can use the function an. For example, for the series used above:
+To access the value of an individual coefficient, you can use the function an (WE ACTUALLY HAVE TO WRITE AN INTO SAGE FIRST...). For example, for the series used above:
+  sage: L.an(3)
 
-\vspace{0.1in}
-
-\noindent sage: L.an(3)\newline will return 1 (the value of $a_3$), and\newline sage: L.an(4) \newline returns 2.
+will return 1 (the value of $a_3$), and\newline sage: L.an(4) \newline returns 2.
 
 
 === Euler Product (Lola) ===
