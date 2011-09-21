@@ -19,7 +19,9 @@ $$\zeta_K(s)=\prod_{\chi} L(s,\chi).$$
 
 Let $E$ be an elliptic curve over $\mathbb{Q}$ and let $p$ be prime.  Let $N_p$ be the number of points on the reduction of $E$ mod $p$ and set $a_p=p+1-N_p$ when $E$ has good reduction mod $p$.  Then the $L$-series of $E$, $L(s,E)$, is defined to be
 $$L(s,E)=\prod_p \frac{1}{L_p(p^{-s})}=\prod_{p \ \mathrm{good \ reduction}} \left(1 - a_p p^{-s} + p^{1-2s}\right)^{-1} \prod_{p \ \mathrm{bad \ reduction}} \left(1 - a_p p^{-s}\right)^{-1} $$
-where $ L_p(T) = 1-a_pT+pT^2$ if $E$ has good reduction at $p$, and $L_p(T)= 1-a_p T$ with $a_p \in \{0,1,-1 \}$ if $E$ has bad reduction mod $p$.  (All of these definitions can be rewritten if you have an elliptic curve defined over a number field $K$; see Silverman's ''The Arithmetic of Elliptic Curves'', Appendix C, Section 16.)  Notice in particular that although one can certainly rewrite $L(s,E)$ as a sum over the natural numbers, the sequence of numerators no longer has an easily interpretable meaning in terms of the elliptic curve itself.
+where $ L_p(T) = 1-a_pT+pT^2$ if $E$ has good reduction at $p$, and $L_p(T)= 1-a_p T$ with $a_p \in \{0,1,-1 \}$ if $E$ has bad reduction mod $p$.  (All of these definitions can be rewritten if you have an elliptic curve defined over a number field $K$; see Silverman's ''The Arithmetic of Elliptic Curves'', Appendix C, Section 16.)  If Re$(s)>3/2$ then $L(s,E)$ is analytic, and it is conjectured that these $L$-series have analytic continuations to the complex plane and functional equations.
+
+Notice in particular that although one can certainly rewrite $L(s,E)$ as a sum over the natural numbers, the sequence of numerators no longer has an easily interpretable meaning in terms of the elliptic curve itself.
 
 === Basic Functions (Amy) ===
   - not everything, but hit the highlights
