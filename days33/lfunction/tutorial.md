@@ -23,9 +23,9 @@ where $ L_p(T) = 1-a_pT+pT^2$ if $E$ has good reduction at $p$, and $L_p(T)= 1-a
 
 Notice in particular that although one can certainly rewrite $L(s,E)$ as a sum over the natural numbers, the sequence of numerators no longer has an easily interpretable meaning in terms of the elliptic curve itself.
 
-=== Basic Sage Functions for L-series} ===
+=== Basic Sage Functions for L-series ===
 
-=== Series Coefficients} ===
+=== Series Coefficients ===
 
 The command L.anlist(n) will return a list $V$ of $n+1$ numbers; 0, followed by the first $n$ coefficients of the L-series $L$. The zero is included simply as a place holder, so that the $k$th L-series coefficient $a_k$ will correspond to the $k$th entry $V[k]$ of the list. 
 
