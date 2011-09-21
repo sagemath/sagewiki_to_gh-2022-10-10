@@ -16,7 +16,7 @@ Basic Functions (Amy)
 Euler Product (Lola)
   - translating between Euler product and Dirichlet series
 
-An ''Euler product'' is an infinite product expansion of a Dirichlet series, indexed by the primes. For a Dirichlet series of the form $$F(s) = \sum_{n = 1}^\infty \frac{a_n}{n^s},$$ the corresponding Euler product (if it exists) has the form $$F(s) = \prod_p \left(1 - \frac{a_p}{p^s}\right)^{-1}$$. In many cases, an L-series can be expressed as an Euler product. By definition, if an L-series has a Galois representation then it has an Euler product. Some examples of common L-series with Euler products include:
+An ''Euler product'' is an infinite product expansion of a Dirichlet series, indexed by the primes. For a Dirichlet series of the form $$F(s) = \sum_{n = 1}^\infty \frac{a_n}{n^s},$$ the corresponding Euler product (if it exists) has the form $$F(s) = \prod_p \left(1 - \frac{a_p}{p^s}\right)^{-1}.$$ In many cases, an L-series can be expressed as an Euler product. By definition, if an L-series has a Galois representation then it has an Euler product. Some examples of common L-series with Euler products include:
 
 1. Riemann zeta function: $$\zeta(s) = \sum_{n = 1}^\infty \frac{1}{n^s} = \prod_p \left(1 - p^{-s}\right)^{-1}$$
 
