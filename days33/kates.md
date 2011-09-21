@@ -27,28 +27,44 @@ Aly, Jenn, Diane, Ekin
 Functions that seem ok out of the box (so need only documentation adjustment/testing):
 
 * a_invariants() etc. (b, c also)
+
 * discriminant()
+
 * base_ring()
+
 * base_field()
+
 * is_on_curve()
+
 * coordinate_ring()
+
 * division_polynomial()
+
 * formal_group()
+
 * multiplication_by_m()?
+
 * addition of points on a curve
 
 Functions that should do something appropriate but don't (need coding):
 
 * j_invariant() -- should probably return +infinity?
+
 * change_weierstrass_model() -- the problem may be my patch didn't work
+
 * base_extend() -- the problem may be my patch didn't work
+
 * change_ring() -- the problem may be my patch didn't work
+
 * cardinality() -- for finite fields
 * local stuff....??
 
 Functions that we should write (new):
 
 * is_singular() (done)
+
 * P.is_singular_point() -- for a point on the curve
+
 * singularity_type() -- tells you if it's a node or a cusp
+
 * singular_point() -- returns the node or cusp
