@@ -40,7 +40,7 @@ Aly, Jenn, Diane, Ekin
 * Functions that should do something appropriate but don't (need coding):
 
   * j_invariant() -- should probably return +infinity?
-  * change_weierstrass_model() -- the problem may be my patch didn't work
+  * change_weierstrass_model() -- the new curve needs to pass flag
   * base_extend() -- the problem may be my patch didn't work
   * change_ring() -- the problem may be my patch didn't work
   * cardinality() -- for finite fields
