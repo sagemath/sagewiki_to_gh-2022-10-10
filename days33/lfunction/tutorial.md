@@ -21,6 +21,7 @@ An ''Euler product'' is an infinite product expansion of a Dirichlet series, ind
 To define an L-series by an Euler product in Sage, one can use the LSeriesAbstract class. For example,
 
 sage: L = LSeriesAbstract(conductor=1, hodge_numbers=[0], weight=1, epsilon=1, poles=[1], residues=[-1], base_field=QQ)
+
 sage: L
 
 returns an L-series Euler product with conductor 1, Hodge numbers [0], weight 1, epsilon 1, poles [1], residues [-1] over a Rational Field. 
