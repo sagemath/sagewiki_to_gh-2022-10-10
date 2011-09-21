@@ -1,9 +1,9 @@
 Tutorial Outline!
 
-Introduction
+=== Introduction ===
 
 
-Definition (Amy and Cassie)
+=== Definition (Amy and Cassie) ===
   - Dirichlet L-series and zeta functions (Amy)
   - for elliptic curves (Cassie)
   - for modular forms  (Cassie)
@@ -27,12 +27,11 @@ $$ L_p(T) = \begin{cases} 1-a_pT+pT^2  \text{, if $E$ has good reduction at $p$}
  1  \text{, if $E$ has additive reduction at $p$} \end{cases} $$
 and $a_p \in \set{0,1,-1}$ if $E$ has bad reduction mod $p$.  (All of these definitions can be rewritten if you have an elliptic curve defined over a number field $K$; see Silverman's \emph{The Arithmetic of Elliptic Curves}, Appendix C $\S$16.)  Notice in particular that although one can certainly rewrite $L(s,E)$ as a sum over the natural numbers, the sequence of numerators no longer has an easily interpretable meaning in terms of the elliptic curve itself.
 
-Basic Functions (Amy)
+=== Basic Functions (Amy) ===
   - not everything, but hit the highlights
 
 
-Euler Product (Lola)
-  - translating between Euler product and Dirichlet series
+=== Euler Product (Lola) ===
 
 An ''Euler product'' is an infinite product expansion of a Dirichlet series, indexed by the primes. For a Dirichlet series of the form $$F(s) = \sum_{n = 1}^\infty \frac{a_n}{n^s},$$ the corresponding Euler product (if it exists) has the form $$F(s) = \prod_p \left(1 - \frac{a_p}{p^s}\right)^{-1}.$$ 
 
@@ -58,23 +57,21 @@ $$\zeta_Q(s) = \sum_{(u,v) \neq (0,0)} (au^2 + buv + cv^2)^{-s},$$
 
 where $Q(u,v) = au^2 + buv + cv^2$ is a positive definite quadratic form, has a functional equation but, in general, does not have an Euler product.
 
-Functional Equation
+=== Functional Equation ===
 
 
-Taylor Series
+=== Taylor Series ===
 
 
-Zeros and Poles
+=== Zeros and Poles ===
 
 
-Analytic Rank
+=== Analytic Rank ===
 
 
-Precision Issues
+=== Precision Issues ===
 
 
-Advanced Topics:
+=== Advanced Topics: ===
   - creating a new L-series class
-
-
-Finding L-series from incomplete information
+  - finding L-series from incomplete information
