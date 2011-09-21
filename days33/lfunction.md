@@ -61,4 +61,6 @@ missing information, create new L-series classes, etc.
      * Fast L-series of elliptic curves over number fields (not just sqrt(5)), via smalljac
      * Inverse of number_of_coefficients function.     
 
+=== Work in progress ===
+
 Our L-series tutorial: [[http://wiki.sagemath.org/days33/lfunction/tutorial]]
