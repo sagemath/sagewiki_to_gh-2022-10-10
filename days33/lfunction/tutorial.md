@@ -8,8 +8,7 @@ Definition (Amy and Cassie)
   - for elliptic curves (Cassie)
   - for modular forms  (Cassie)
 
-\noindent\Large{The Dedekind $\zeta$-function}
-\normalsize
+\emph{The Dedekind $\zeta$-function}
 
 If $K$ is a number field over $\mathbb{Q}$ and $s\in\mathbb{C}$ such that Re$(s)>1$ then we can create $\zeta_K(s)$, the Dedekind $\zeta$-function of $K$:
 $$\zeta_K(s)=\sum_{I \subseteq \mathcal{O}_K} \frac{1}{(N_{K/\mathbb{Q}} (I))^s} = \sum_{n\geq1} \frac{a_n}{n^s}. $$
