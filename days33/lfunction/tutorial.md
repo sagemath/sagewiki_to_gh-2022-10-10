@@ -16,36 +16,45 @@ In the first sum, $I$ runs through the nonzero ideals $I$ of $\mathcal{O}_K$, th
 
 In Sage it is simple to construct the $L$-series for a number field $K$.  For example,
 
- sage: K.<a>=NumberField(x^2-x+1)
+ ''sage'': K.<a>=NumberField(x^2-x+1)
 
- sage: L=LSeries(K);L
+ ''sage'': L=LSeries(K);L
 
 returns the Dedekind $\zeta$-function associated to this quadratic imaginary field.  The command
 
- sage: LSeries('zeta')
+ ''sage'': LSeries('zeta')
 
 will return the Riemann $\zeta$-function.  One function that has interesting functionality for Dedekind $\zeta$-functions is the residues command, which computes the residues at each pole.  If you ask for the residues of a Dedekind $\zeta$-function, Sage will return 'automatic':
 
- sage: K.<a>=NumberField(x^2-x+1)
+ ''sage'': K.<a>=NumberField(x^2-x+1)
 
- sage: L=LSeries(K)
+ ''sage'': L=LSeries(K)
 
- sage: L.residues()
+ ''sage'': L.residues()
 
    'automatic'
   
 but if you ask for the residues to a given precision you will get more information.
 
- sage: L.residues(prec=53)
+ ''sage'': L.residues(prec=53)
 
       	[-0.590817950301839]
 
- sage: L.residues(prec=100)
+ ''sage'': L.residues(prec=100)
 
          [-0.59081795030183867576605582778]
 
-Recall that the coefficients will count ideals of a given norm:
+Remember that the coefficients count the number of ideals of a given norm:
 
+ ''sage'': K.<a>=NumberField(x^2+1)
+
+ ''sage'': L=LSeries(K)
+
+ ''sage'': L.anlist(10)
+
+	[0, 1, 1, 0, 1, 2, 0, 0, 1, 1, 2]
+
+implying that there is no ideal of norm 3 in $\mathbb{Q}[i]$.
 
 
 '''Dirichlet L-series'''
