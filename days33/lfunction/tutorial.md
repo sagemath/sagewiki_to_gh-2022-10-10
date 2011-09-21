@@ -40,9 +40,14 @@ will return [0,1,1,1,2,1], which is $[0,a_1,a_2,a_3,a_4,a_5]$ for this L-series.
 
 
 To access the value of an individual coefficient, you can use the function an (WE ACTUALLY HAVE TO WRITE AN INTO SAGE FIRST...). For example, for the series used above:
-  sage: L.an(3)
 
-will return 1 (the value of $a_3$), and\newline sage: L.an(4) \newline returns 2.
+sage: L.an(3)
+
+will return 1 (the value of $a_3$), and
+
+sage: L.an(4) 
+
+returns 2.
 
 
 === Euler Product (Lola) ===
