@@ -48,6 +48,7 @@ Tuesday - Friday
 
 === Sponsors ===
 
+[[http://www.computeralgebra.de|DFG priority program SPP-1489]]: Algorithmic and experimental methods in algebra, geometry and number theory
 
 <<Anchor(organizers)>>
 === Organizers ===
