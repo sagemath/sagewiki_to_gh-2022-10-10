@@ -15,6 +15,23 @@ $$\zeta_K(s)=\sum_{I \subseteq \mathcal{O}_K} \frac{1}{(N_{K/\mathbb{Q}} (I))^s}
 In the first sum, $I$ runs through the nonzero ideals $I$ of $\mathcal{O}_K$, the ring of integers of $K$, and  $a_n$ is the number of ideals in $\mathcal{O}_K$ of norm $n$.  These $\zeta$-functions are a generalization of the Riemann $\zeta$-function, which can be thought of as the Dedekind $\zeta$-function for $K=\mathbb{Q}$.  The Dedekind $\zeta$-function of $K$ also has an Euler product expansion and an analytic continuation to the entire complex plane with a simple pole at $s=1$, as well as a functional equation.  Any $\zeta_K(s)$ can be decomposed as a product of $L$-series of Dirichlet characters in the character group of $K$:
 $$\zeta_K(s)=\prod_{\chi} L(s,\chi).$$
 
+''Dirichlet L-series''
+
+Dirichlet L-series are defined in terms of a Dirichlet characters. A Dirichlet character $\chi$ mod $k$, for some positive integer $k$, is a homomorphism $(\mathbb{Z}/k\mathbb{Z})^*\rightarrow\CC$. The series is given by
+\[L(s,\chi)=\sum_{n\in\mathbb{N}}\frac{\chi(n)}{n^s},\ s\in\mathbb{C}, \text{Re}(s)>1.\]
+Although these series can formally be defined for any Dirichlet character, it only makes (practical) sense to define these series in terms of primitive characters, because non-primitive characters will give rise to series which have missing factors in their Euler products and thus do not have an associated functional equation.
+
+To define an L-series in Sage, you must first create a primitive character:
+
+sage: G=DirichletGroup(11)
+
+$G$ is now the group of Dirichlet characters mod 11. We may then define the Dirichlet L-series over a single character from this group:
+
+sage: L=LSeries(G.0)
+
+gives the L-series for the character G.0 (the character which maps $2\mapsto e^{2\pi i/10}$).
+
+
 ''$L$-series of Elliptic Curves''
 
 Let $E$ be an elliptic curve over $\mathbb{Q}$ and let $p$ be prime.  Let $N_p$ be the number of points on the reduction of $E$ mod $p$ and set $a_p=p+1-N_p$ when $E$ has good reduction mod $p$.  Then the $L$-series of $E$, $L(s,E)$, is defined to be
