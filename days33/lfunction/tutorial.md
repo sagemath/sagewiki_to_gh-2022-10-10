@@ -71,4 +71,5 @@ returns an L-series Euler product with conductor 1, Hodge numbers [0], weight 1,
 
 === Advanced Topics: ===
   - creating a new L-series class
+  
   - finding L-series from incomplete information
