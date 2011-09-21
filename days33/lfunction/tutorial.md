@@ -15,7 +15,7 @@ $$\zeta_K(s)=\sum_{I \subseteq \mathcal{O}_K} \frac{1}{(N_{K/\mathbb{Q}} (I))^s}
 In the first sum, $I$ runs through the nonzero ideals $I$ of $\mathcal{O}_K$, the ring of integers of $K$, and  $a_n$ is the number of ideals in $\mathcal{O}_K$ of norm $n$.  These $\zeta$-functions are a generalization of the Riemann $\zeta$-function, which can be thought of as the Dedekind $\zeta$-function for $K=\mathbb{Q}$.  The Dedekind $\zeta$-function of $K$ also has an Euler product expansion and an analytic continuation to the entire complex plane with a simple pole at $s=1$, as well as a functional equation.  Any $\zeta_K(s)$ can be decomposed as a product of $L$-series of Dirichlet characters in the character group of $K$:
 $$\zeta_K(s)=\prod_{\chi} L(s,\chi).$$
 
-''Dirichlet L-series''
+'''Dirichlet L-series'''
 
 Dirichlet L-series are defined in terms of a Dirichlet characters. A Dirichlet character $\chi$ mod $k$, for some positive integer $k$, is a homomorphism $(\mathbb{Z}/k\mathbb{Z})^*\rightarrow\CC$. The series is given by
 \[L(s,\chi)=\sum_{n\in\mathbb{N}}\frac{\chi(n)}{n^s},\ s\in\mathbb{C}, \text{Re}(s)>1.\]
@@ -42,7 +42,7 @@ Notice in particular that although one can certainly rewrite $L(s,E)$ as a sum o
 
 === Basic Sage Functions for L-series ===
 
-=== Series Coefficients ===
+'''Series Coefficients'''
 
 The command L.anlist(n) will return a list $V$ of $n+1$ numbers; 0, followed by the first $n$ coefficients of the L-series $L$. The zero is included simply as a place holder, so that the $k$th L-series coefficient $a_k$ will correspond to the $k$th entry $V[k]$ of the list. 
 
@@ -65,6 +65,14 @@ will return 1 (the value of $a_3$), and
 sage: L.an(4) 
 
 returns 2.
+
+'''Evaluation of L-functions at Values of $s$'''
+
+For any L-function $L$, simply type
+
+sage: L(s)
+
+to get the value of the function evaluated at $s\in\mathbb{C}$. 
 
 
 === Euler Product (Lola) ===
