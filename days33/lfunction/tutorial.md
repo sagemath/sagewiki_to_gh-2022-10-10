@@ -31,7 +31,9 @@ The command L.anlist(n) will return a list $V$ of $n+1$ numbers; 0, followed by 
 
 For example: 
   sage: K.$\langle a\rangle$ = NumberField($x^3 + 29$) 
+
   sage: L = LSeries(K) 
+
   sage: L.anlist(5) 
 
 will return [0,1,1,1,2,1], which is $[0,a_1,a_2,a_3,a_4,a_5]$ for this L-series.
