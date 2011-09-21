@@ -29,6 +29,7 @@ Tuesday
  * 1:00pm: lunch
  * 2:00pm: trac tour
  * project work for the rest of the day
+ * 6:00pm: dinner (6pm every day)
 
 
 Wednesday, Thursday
