@@ -43,7 +43,8 @@ $$\zeta_Q(s) = \sum_{(u,v) \neq (0,0)} (au^2 + buv + cv^2)^{-s},$$
 
 where $Q(u,v) = au^2 + buv + cv^2$ is a positive definite quadratic form, has a functional equation but, in general, does not have an Euler product.
 
-To define an L-series by an Euler product in Sage, one can use the LSeriesAbstract class. For example,
+
+To define an L-series by an Euler product in Sage, one can use the '''LSeriesAbstract''' class. For example,
 
 sage: L = LSeriesAbstract(conductor=1, hodge_numbers=[0], weight=1, epsilon=1, poles=[1], residues=[-1], base_field=QQ)
 
