@@ -17,7 +17,7 @@ $$\zeta_K(s)=\prod_{\chi} L(s,\chi).$$
 
 '''Dirichlet L-series'''
 
-Dirichlet L-series are defined in terms of a Dirichlet characters. A Dirichlet character $\chi$ mod $k$, for some positive integer $k$, is a homomorphism $(\mathbb{Z}/k\mathbb{Z})^*\rightarrow\CC$. The series is given by
+Dirichlet L-series are defined in terms of a Dirichlet characters. A Dirichlet character $\chi$ mod $k$, for some positive integer $k$, is a homomorphism $(\mathbb{Z}/k\mathbb{Z})^*\rightarrow\mathbb{C}$. The series is given by
 \[L(s,\chi)=\sum_{n\in\mathbb{N}}\frac{\chi(n)}{n^s},\ s\in\mathbb{C}, \text{Re}(s)>1.\]
 Although these series can formally be defined for any Dirichlet character, it only makes (practical) sense to define these series in terms of primitive characters, because non-primitive characters will give rise to series which have missing factors in their Euler products and thus do not have an associated functional equation.
 
