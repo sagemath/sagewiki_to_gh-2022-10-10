@@ -77,7 +77,7 @@ Feel free to email the [[#organizers|organizers]] beforehand if you intend to pa
 
     * '''at Linz:''' For those who prefer to stay in Linz, we refer to the list of [[http://www.google.com/search?q=hotels+in+linz|hotels in Linz]] for individual booking. For commuting to Hagenberg, see [[http://portal.risc.uni-linz.ac.at/about/map|the information on public transportation]]. (From the center of Linz to Hagenberg it takes about 25 minutes by car.)
 
-
+<<Anchor(sponsors)>>
 === Sponsors ===
 
  * [[http://www.risc.jku.at/|Research Institute for Symbolic Computation (RISC)]]
