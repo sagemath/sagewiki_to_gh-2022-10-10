@@ -12,4 +12,4 @@ Aly, Ekin, Angela
   * What other primality tests does Pari have? Wrap these.
   * Make things faster: implement as a python (maybe cython??) file
   * How does GIMPS work?
-  * Implement Larry Washington's formulas for dealing with elliptic curves over Z/nZ when n isn't prime
+  * Implement formulas stated in Larry Washington's book for dealing with elliptic curves over Z/nZ when n isn't prime
