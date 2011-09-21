@@ -5,7 +5,7 @@
 This workshop will focus on the development of the Sage-Singular interface and libSingular. Anybody interested
 is welcome to participate, prior experience with either of these is not required.
 
-{{http://blog.cartoonbank.com/wp-content/uploads/2011/07/137224_presentationlicense-430x280.jpg}}
+{{http://blog.cartoonbank.com/wp-content/uploads/2011/07/137224_presentationlicense-430x280.jpg|cowboy book club cartoon, published in The New Yorker 7/25/2011}}
 
 === Participants ===
 
@@ -31,15 +31,17 @@ Monday
  * 16.00 - Coding sprint organization
 
 Tuesday - Friday
- * 10.00 -- Coffee Break
+ * 10.00 -- Coffee break
  * 10.15 -- Status reports
  * 12.30 - 14.00 -- lunch
+ * 16.00 -- Coffee break
 
 == Projects ==
 
 [[/projects|List of projects]]
 
 === Location ===
+ * Building 48, rooms 438 and 436
  * Kaiserslautern, Germany
  * [[http://www.mathematik.uni-kl.de/~wwwagag/guestinfo/en/index.html|Travel information.]]
 
