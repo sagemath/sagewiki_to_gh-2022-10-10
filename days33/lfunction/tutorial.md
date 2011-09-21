@@ -26,7 +26,7 @@ An ''Euler product'' is an infinite product expansion of a Dirichlet series, ind
 
 Not all L-series have an associated Euler product, however. For example, the Epstein Zeta Functions, defined by
 
-$$\zeta_Q(s) = sum_{(u,v) \neq (0,0)} (au^2 + buv + cv^2)^{-s},$$
+$$\zeta_Q(s) = \sum_{(u,v) \neq (0,0)} (au^2 + buv + cv^2)^{-s},$$
 
 where $Q(u,v) = au^2 + buv + cv^2$ is a positive definite quadratic form, has a functional equation but, in general, does not have an Euler product.
 
