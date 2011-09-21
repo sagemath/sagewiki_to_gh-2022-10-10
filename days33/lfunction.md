@@ -60,3 +60,5 @@ missing information, create new L-series classes, etc.
      * Genus 2 curves, via smalljac and genus2reduction
      * Fast L-series of elliptic curves over number fields (not just sqrt(5)), via smalljac
      * Inverse of number_of_coefficients function.     
+
+Our L-series tutorial: [[http://wiki.sagemath.org/days33/lfunction/tutorial]]
