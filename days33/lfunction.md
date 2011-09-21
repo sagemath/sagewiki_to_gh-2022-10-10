@@ -10,6 +10,14 @@ William
 
 William, Cassie, Amy, Lola
 
+=== Getting Going on Development on *your* laptop (not *.sagenb.org) ===
+
+ 1. Download this file: http://sage.math.washington.edu/home/wstein/days/33/eulerprod.py
+
+ 2. Type in the notebook: {{{attach /exact/path/to/eulerprod.py}}}
+
+ 3. Note that elliptic curves over Q(sqrt(5)) won't work if you don't have psage installed. 
+
 === Project Description ===
 
 For L-series lovers:  Getting the doctest coverage to 100% on this
