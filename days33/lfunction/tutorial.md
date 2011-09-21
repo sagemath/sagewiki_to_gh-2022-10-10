@@ -22,7 +22,7 @@ An ''Euler product'' is an infinite product expansion of a Dirichlet series, ind
 
 2. Dirichlet L-function: $$L(s, \chi) = \sum_{n = 1}^\infty \frac{\chi(n)}{n^s} = \prod_p \left(1 - \frac{\chi(p)}{p^s}\right)^{-1}$$
 
-3. L-function of an Elliptic Curve: $$L(E, s) = \sum_{n = 1}^\infty \frac{a_n}{n^s} = \prod_{\substack{p \\ E \ \mathrm{has good reduction at} \ p} \left(1 - a_p p^{-s} + p^{1-2s}\right)^{-1} \prod_{\substack{p \\ p \ \mathrm{\substack{p \\ E \ \mathrm{does not have good reduction at} \ p} \left(1 - a_p p^{-s}\right)^{-1}$$
+3. L-function of an Elliptic Curve: $$L(E, s) = \sum_{n = 1}^\infty \frac{a_n}{n^s} = \prod_{\substack{p \\ E \ \mathrm{has good reduction at} \ p}} \left(1 - a_p p^{-s} + p^{1-2s}\right)^{-1} \prod_{\substack{p \\ p \ \mathrm{\substack{p \\ E \ \mathrm{does not have good reduction at} \ p}} \left(1 - a_p p^{-s}\right)^{-1}$$
 
 Not all L-series have an associated Euler product, however. For example, the Epstein Zeta Functions, defined by
 
