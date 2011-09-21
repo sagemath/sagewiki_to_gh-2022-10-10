@@ -66,7 +66,7 @@ sage: L.an(4)
 
 returns 2.
 
-'''Evaluation of L-functions at Values of $s$'''
+'''Evaluation of L-functions at Values of s'''
 
 For any L-function $L$, simply type
 
