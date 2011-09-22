@@ -47,7 +47,7 @@ Aly, Jenn, Diane, Ekin
   * local stuff....??
   * addition of points on a curve (seems to work, but needs to avoid singular point)
 
-* Functions that we should write (new):
+* Functions that we should write (new): done - see attached worksheet.
 
   [[attachment:singularcurves.sws]]
   * is_singular() (done) -- this is also accessible as an internal flag:  self._is_singular 
