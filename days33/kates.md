@@ -49,6 +49,7 @@ Aly, Jenn, Diane, Ekin
 
 * Functions that we should write (new):
 
+  [[attachment:singularcurves.sws]]
   * is_singular() (done) -- this is also accessible as an internal flag:  self._is_singular 
   * P.is_singular_point() -- for a point on the curve
   * singularity_type() -- tells you if it's a node or a cusp
