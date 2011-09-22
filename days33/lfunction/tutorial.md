@@ -80,7 +80,35 @@ Let $E$ be an elliptic curve over $\mathbb{Q}$ and let $p$ be prime.  Let $N_p$ 
 $$L(s,E)=\prod_p \frac{1}{L_p(p^{-s})}=\prod_{p \ \mathrm{good \ reduction}} \left(1 - a_p p^{-s} + p^{1-2s}\right)^{-1} \prod_{p \ \mathrm{bad \ reduction}} \left(1 - a_p p^{-s}\right)^{-1} $$
 where $ L_p(T) = 1-a_pT+pT^2$ if $E$ has good reduction at $p$, and $L_p(T)= 1-a_p T$ with $a_p \in \{0,1,-1 \}$ if $E$ has bad reduction mod $p$.  (All of these definitions can be rewritten if you have an elliptic curve defined over a number field $K$; see Silverman's ''The Arithmetic of Elliptic Curves'', Appendix C, Section 16.)  If Re$(s)>3/2$ then $L(s,E)$ is analytic, and it is conjectured that these $L$-series have analytic continuations to the complex plane and functional equations.
 
+To construct $L(s,E)$ in Sage, first define an elliptic curve over some number field.
+
+ ''sage'': E=EllipticCurve('37a')
+
+ ''sage'': L=LSeries(E);L
+
+	L-series of Elliptic Curve defined by y^2 + y = x^3 - x over Rational Field
+
+ ''sage'': K.<a>=NumberField(x^2-x+1)
+
+ ''sage'': E2 = EllipticCurve(K, [0, 0,1,-1,0])
+
+ ''sage'': LSeries(E2)
+
+	L-series of Elliptic Curve defined by y^2 + y = x^3 + (-1)*x over Number Field in a with defining polynomial x^2 - x + 1
+
 Notice in particular that although one can certainly rewrite $L(s,E)$ as a sum over the natural numbers, the sequence of numerators no longer has an easily interpretable meaning in terms of the elliptic curve itself.
+
+ ''sage'': L.anlist(10)
+
+	[0, 1, -2, -3, 2, -2, 6, -1, 0, 6, 4]
+
+
+''$L$-series of Modular Forms''
+
+If $f$ is a modular form of weight $k$, it has a Fourier expansion $f(z)=\sum_{n\geq0} a_n (e^{2\pi i z})^n$.  Then the $L$-series of $f$ is 
+$$L(s,f)=\sum_{n\geq1} \frac{a_n}{n^s}$$ 
+which does converge on some half-plane.  These $L$-series have an analytic continuation and functional equation, but not necessarily an Euler product formula.
+
 
 === Basic Sage Functions for L-series ===
 
