@@ -1,12 +1,11 @@
-Tutorial Outline!
+
 
 === Introduction ===
 
+Authors: Amy Feaver, Lola Thompson, Cassie Williams
 
-=== Definition (Amy and Cassie) ===
-  - Dirichlet L-series and zeta functions (Amy)
-  - for elliptic curves (Cassie)
-  - for modular forms  (Cassie)
+=== Definition ===
+
 
 ''The Dedekind $\zeta$-function''
 
@@ -145,7 +144,7 @@ sage: L(s)
 to get the value of the function evaluated at $s\in\mathbb{C}$. 
 
 
-=== Euler Product (Lola) ===
+=== Euler Product ===
 
 An ''Euler product'' is an infinite product expansion of a Dirichlet series, indexed by the primes. For a Dirichlet series of the form $$F(s) = \sum_{n = 1}^\infty \frac{a_n}{n^s},$$ the corresponding Euler product (if it exists) has the form $$F(s) = \prod_p \left(1 - \frac{a_p}{p^s}\right)^{-1}.$$ In many cases, an L-series can be expressed as an Euler product. By definition, if an L-series has a Galois representation then it has an Euler product. Some examples of common L-series with Euler products include:
 
