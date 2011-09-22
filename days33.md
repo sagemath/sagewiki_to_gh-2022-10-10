@@ -59,6 +59,8 @@ Wednesday, Thursday
 
 == Photos ==
 
+
+ * Group Photo: http://www.facebook.com/media/set/?set=a.10150312723648682.357472.504538681&l=ba862d1a2c&type=1
  * William's hiking photos: http://www.facebook.com/media/set/?set=a.10150312234318682.357382.504538681&l=54aa75a622&type=1
 
 == Other Info ==
