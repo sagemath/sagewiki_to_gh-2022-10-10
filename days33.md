@@ -57,6 +57,10 @@ Wednesday, Thursday
  
  * [[http://groups.google.com/group/sagedays33|Participant mailing list]]
 
+== Photos ==
+
+ * William's hiking photos: http://www.facebook.com/media/set/?set=a.10150312234318682.357382.504538681&l=54aa75a622&type=1
+
 == Other Info ==
 
  * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), William Stein (UW)
