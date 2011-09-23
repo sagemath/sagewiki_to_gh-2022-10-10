@@ -48,6 +48,7 @@ True
   * Document the WeierstrassCubic and SingularWeierstrass classes we've created
   * Do the stuff on the list below
   * make E.reduction(bad_prime) able to return this singular cubic object
+  * put the checks back in for EllipticCurve and SingularWeierstrass that it is actually (or is not) singular
 
 * Functions that seem ok out of the box (so need only documentation adjustment/testing):
 
