@@ -1,4 +1,3 @@
-
 === Introduction ===
 
 Authors: Amy Feaver, Lola Thompson, Cassie Williams
@@ -84,7 +83,7 @@ To construct $L(s,E)$ in Sage, first define an elliptic curve over some number f
 
  ''sage'': L=LSeries(E);L
 
-	L-series of Elliptic Curve defined by $y^2 + y = x^3 - x$ over Rational Field
+	L-series of Elliptic Curve defined by y^2 + y = x^3 - x over Rational Field
 
  ''sage'': K.<a>=NumberField(x^2-x+1)
 
