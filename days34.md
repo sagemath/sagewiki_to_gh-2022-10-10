@@ -17,6 +17,7 @@ is welcome to participate, prior experience with either of these is not required
  * Fredrik Johansson (RISC)
  * Simon King (Jena)
  * Martin Lee (TU Kaiserslautern)
+ * Christian Eder (TU Kaiserslautern)
  * Oleksandr Motsak (TU Kaiserslautern)
  * Niels Ranosch (MFO)
  * Hans Schoenemann (TU Kaiserslautern)
