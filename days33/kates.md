@@ -17,7 +17,7 @@ Projects are listed by section below.  No one is currently working on these ones
 
 === Restricted global_minimal_model() ===
 
-* ticket?
+* Ticket needs review! [[http://trac.sagemath.org/sage_trac/ticket/11827|#11827]] 
 
 === Wrapping E.reduction(prime)(P) ===
 
