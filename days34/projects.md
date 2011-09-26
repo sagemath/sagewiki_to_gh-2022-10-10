@@ -18,10 +18,9 @@
 
 == Refactored Singular should pass it's test suite ==
 
-'''People:''' Burcin, Oleksandr, Hans
+'''People:''' Burcin, Oleksandr, Hans, Volker
 
 Bug hunt through Singular kernel code. An adventure no hacker can resist.
-
 
  * build refactored Singular: http://github.com/Singular2/singular2.github.com/wiki/New-TODOs
  * run test suite with debug version of Singular which dumps stack traces on error. (kernel/cntrl.cc should be modified to define `DEBUG_STOP` instead of `INTERACTIVE`)
@@ -53,13 +52,13 @@ There are lots of compiler warnings...
 
 == Interface to Singular's modules ==
 
-'''People:''' Hiep, Burcin
+'''People:''' Hiep, Burcin, Simon
 
  * This shouldn't be so hard since libSingular uses the same type for polynomials and module elements
 
 == Review Simon's letterplace patches ==
 
-'''People:'''
+'''People:''' Simon, Burcin
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7797|#7797]]
 
