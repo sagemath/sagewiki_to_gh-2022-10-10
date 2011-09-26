@@ -1,10 +1,9 @@
-
-#Use the following command to attach the eulerprod package (after downloading it from Purple Sage)
+#Use the following command to attach the eulerprod package (after downloading it from Purple Sage):
 
 attach /users/lola/desktop/eulerprod.py
 
 
-#Auxiliary functions that will be called later on
+#Auxiliary functions that will be called later on:
 
 R_cdf = CDF['x']
 
@@ -20,7 +19,7 @@ def __init__(self, N, f, g, h):
     self._newforms = (f,g,h)
 
 
-#Defining the LSeriesTripleProduct class
+#Here is where we start defining the LSeriesTripleProduct class:
 
 class LSeriesTripleProduct(LSeriesAbstract):
     def __init__(self, N, f, g, h):
@@ -92,4 +91,4 @@ L.anlist(7)
 
 L.number_of_coefficients(5)
 
-L(RealField(5)(2)) #This command current returns a RunTime Error ("Unable to create L-series, due to precision or other limits in PARI")
+L(RealField(5)(2)) #This command currently returns a RunTime Error ("Unable to create L-series, due to precision or other limits in PARI")
