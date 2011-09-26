@@ -102,6 +102,15 @@ to practice preparing and submitting patches, for people new to the Sage develop
 
 == Improve/Review citation library ==
 
-'''People''': Niels (and somebody else?)
+'''People''': Niels, Burcin, (and somebody else?)
 
 [[http://trac.sagemath.org/sage_trac/ticket/3317|#3317]]
+
+ * split off pybtex package to a separate ticket (submit as an optional package first)
+ * Add more examples of citations
+
+== Fix reference counting of Singular rings ==
+
+'''People''': Volker, Burcin, Martin
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/11339|#11339]]
