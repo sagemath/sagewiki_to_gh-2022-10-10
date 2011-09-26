@@ -10,7 +10,7 @@
 
 == Update the Singular interface to work with libpolys ==
 
-'''People:''' Burcin
+'''People:''' Burcin, Oleksandr
  * There were many changes to libSingular as part of the refactoring effort. The Sage interface needs to be adapted to these. This should be a matter of renaming the functions that are called in Sage and adding the current ring as an argument (modulo bugs in libpolys).
 
 == Refactored Singular should pass it's test suite ==
