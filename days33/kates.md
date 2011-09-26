@@ -21,7 +21,7 @@ Projects are listed by section below.  No one is currently working on these ones
 
 === Wrapping E.reduction(prime)(P) ===
 
-* Ticket needs review! [[http://trac.sagemath.org/sage_trac/ticket/11822|#11822]] 
+* Our first positive review! [[http://trac.sagemath.org/sage_trac/ticket/11822|#11822]] 
 
 === p-adics ===
 
@@ -52,30 +52,4 @@ True
 
 * Functions that seem ok out of the box (so need only documentation adjustment/testing):
 
-  * a_invariants() etc. (b, c also)
-  * discriminant()
-  * base_ring()
-  * base_field()
-  * is_on_curve()
-  * coordinate_ring()
-  * division_polynomial()
-  * formal_group()
-  * multiplication_by_m()?
-
-* Functions that should do something appropriate but don't (need coding):
-
-  * j_invariant() -- should probably return +infinity?
-  * change_weierstrass_model() -- the new curve needs to pass flag
-  * base_extend() -- the problem may be my patch didn't work
-  * change_ring() -- the problem may be my patch didn't work
-  * cardinality() -- for finite fields
-  * local stuff....??
-  * addition of points on a curve (seems to work, but needs to avoid singular point)
-
-* Functions that we should write (new): done - see attached worksheet.
-
-  [[attachment:singularcurves.sws]]
-  * is_singular() (done) -- this is also accessible as an internal flag:  self._is_singular 
-  * P.is_singular_point() -- for a point on the curve
-  * singularity_type() -- tells you if it's a node or a cusp
-  * singular_point() -- returns the node or cusp
+  * a_invariants() etc
