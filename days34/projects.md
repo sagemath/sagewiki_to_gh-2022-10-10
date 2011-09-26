@@ -6,6 +6,9 @@
 == Update Singular spkg ==
 
 '''People:''' Simon, Burcin (hopefully Martin as well)
+
+working on [[http://sage.math.washington.edu/home/leif/Sage/release/sage-4.7.2.alpha3-prerelease/sage-4.7.2.alpha3-prerelease.tar|prerelease of Sage-4.7.2.alph3]] dated Sept 19, 2012 md5sum: ad021855ae07ecdd1cdcc7b973c9cdba
+
  * [[http://trac.sagemath.org/sage_trac/ticket/10903|#10903]] and [[http://trac.sagemath.org/sage_trac/ticket/11769|#11769]]
 
 == Update the Singular interface to work with libpolys ==
