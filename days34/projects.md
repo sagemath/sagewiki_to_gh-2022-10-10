@@ -17,6 +17,8 @@
 
 '''People:''' Burcin, Oleksandr, Hans
 
+Instructions for building latest experimental code: http://github.com/Singular2/singular2.github.com/wiki/New-TODOs
+
  * Bug hunt through Singular kernel code. An adventure no hacker can resist.
 
 === Plural/SCA ===
