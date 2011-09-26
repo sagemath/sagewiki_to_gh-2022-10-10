@@ -61,10 +61,11 @@ There are lots of compiler warnings...
 '''People:''' Simon, Burcin
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7797|#7797]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/11115|#11115]] make cached methods faster - dependency of #7797
 
 == Plural interface ==
 
-'''People:''' Burcin
+'''People:''' Burcin, Simon
 
  * Rebase the patch at [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539 plural wrapper]] to [[http://trac.sagemath.org/sage_trac/ticket/11068|11068 implementation of one and two sided ideals of noncommutative rings]] 
 
@@ -75,12 +76,13 @@ There are lots of compiler warnings...
  * libpolys has better function field arithmetic now, we should wrap that in Sage.
  * This is also relevant [[http://trac.sagemath.org/sage_trac/ticket/9054|#9054 create a class for basic function field arithmetic]]
 
-== FLINT integration ==
+== FLINT integration in Singular ==
 
-'''People:''' Fredrik
+'''People:''' Fredrik, MartinL, Christian
 
  * Add missing utility and conversion functions to FLINT
  * Use FLINT in Singular
+ * Benchmark against NTL version
 
 == Beginner tickets ==
 
