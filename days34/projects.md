@@ -102,4 +102,6 @@ to practice preparing and submitting patches, for people new to the Sage develop
 
 == Improve/Review citation library ==
 
+'''People''': Niels (and somebody else?)
+
 [[http://trac.sagemath.org/sage_trac/ticket/3317|#3317]]
