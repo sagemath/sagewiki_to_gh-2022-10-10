@@ -90,3 +90,9 @@ to practice preparing and submitting patches, for people new to the Sage develop
  * [[http://trac.sagemath.org/sage_trac/ticket/8857|#8857]] lcm over Q[x] broken (not any more)
  * `.intersect()` method of ideals should allow multiple arguments.
  * add an alias `primary_decomposition_complete() -> complete_primary_decomposition()` in the ideal class
+
+== Fast containers for objects and morphisms of a category ==
+
+'''People:''' Simon
+
+ * See [[http://trac.sagemath.org/sage_trac/ticket/10667|#10667]] Morphisms and Objects of Categories
