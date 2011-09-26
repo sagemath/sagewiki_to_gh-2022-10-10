@@ -1,5 +1,8 @@
+The [[http://wstein.org/home/wstein/days/33/eulerprod.py|eulerprod.py]] file.
+
 {{{
-#Use the following command to attach the eulerprod package (after downloading it from Purple Sage):
+
+#Use the following command to attach the eulerprod package (after downloading it from the link above):
 
 attach /users/lola/desktop/eulerprod.py
 
