@@ -5,7 +5,7 @@
 
 == Update Singular spkg ==
 
-'''People:'''
+'''People:''' Simon, Burcin (hopefully Martin as well)
  * [[http://trac.sagemath.org/sage_trac/ticket/10903|#10903]] and [[http://trac.sagemath.org/sage_trac/ticket/11769|#11769]]
 
 == Update the Singular interface to work with libpolys ==
