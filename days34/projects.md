@@ -96,3 +96,7 @@ to practice preparing and submitting patches, for people new to the Sage develop
 '''People:''' Simon
 
  * See [[http://trac.sagemath.org/sage_trac/ticket/10667|#10667]] Morphisms and Objects of Categories
+
+== Improve/Review citation library ==
+
+[[http://trac.sagemath.org/sage_trac/ticket/3317|#3317]]
