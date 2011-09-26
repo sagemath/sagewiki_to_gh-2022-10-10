@@ -71,6 +71,6 @@ missing information, create new L-series classes, etc.
 
 === Work in progress ===
 
-Our L-series tutorial: [[http://wiki.sagemath.org/days33/lfunction/tutorial]]
+L-series tutorial: [[http://wiki.sagemath.org/days33/lfunction/tutorial]]
 
-Our triple product L-functions code: [[http://wiki.sagemath.org/days33/lfunction/tripleproduct]]
+Triple product L-function code: [[http://wiki.sagemath.org/days33/lfunction/tripleproduct]]
