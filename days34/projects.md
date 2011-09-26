@@ -11,15 +11,26 @@
 == Update the Singular interface to work with libpolys ==
 
 '''People:''' Burcin, Oleksandr
- * There were many changes to libSingular as part of the refactoring effort. The Sage interface needs to be adapted to these. This should be a matter of renaming the functions that are called in Sage and adding the current ring as an argument (modulo bugs in libpolys).
+ There were many changes to libSingular as part of the refactoring effort. The Sage interface needs to be adapted to these. This should be a matter of renaming the functions that are called in Sage and adding the current ring as an argument (modulo bugs in libpolys).
+
+ * create spkg for refactored Singular
+ * search/replace calls to libSingular in the Sage library to get the interface to compile & link
 
 == Refactored Singular should pass it's test suite ==
 
 '''People:''' Burcin, Oleksandr, Hans
 
-Instructions for building latest experimental code: http://github.com/Singular2/singular2.github.com/wiki/New-TODOs
+Bug hunt through Singular kernel code. An adventure no hacker can resist.
 
- * Bug hunt through Singular kernel code. An adventure no hacker can resist.
+
+ * build refactored Singular: http://github.com/Singular2/singular2.github.com/wiki/New-TODOs
+ * run test suite with debug version of Singular which dumps stack traces on error. (kernel/cntrl.cc should be modified to define `DEBUG_STOP` instead of `INTERACTIVE`)
+
+=== Compiler warnings ===
+
+'''People:'''
+
+There are lots of compiler warnings...
 
 === Plural/SCA ===
 
