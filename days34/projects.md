@@ -67,7 +67,7 @@ There are lots of compiler warnings...
 '''People:''' Simon, Burcin
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7797|#7797]]
- * [[http://trac.sagemath.org/sage_trac/ticket/11115|#11115]] make cached methods faster - dependency of #7797
+ * [[http://trac.sagemath.org/sage_trac/ticket/11115|#11115]] make cached methods faster - dependency of #7797 (Volker)
 
 == Plural interface ==
 
