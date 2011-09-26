@@ -1,3 +1,4 @@
+{{{
 #Use the following command to attach the eulerprod package (after downloading it from Purple Sage):
 
 attach /users/lola/desktop/eulerprod.py
@@ -92,3 +93,4 @@ L.anlist(7)
 L.number_of_coefficients(5)
 
 L(RealField(5)(2)) #This command currently returns a RunTime Error ("Unable to create L-series, due to precision or other limits in PARI")
+}}}
