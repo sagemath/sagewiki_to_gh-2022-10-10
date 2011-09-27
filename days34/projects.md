@@ -31,6 +31,11 @@ Bug hunt through Singular kernel code. An adventure no hacker can resist.
  * build refactored Singular: http://github.com/Singular2/singular2.github.com/wiki/New-TODOs
  * run test suite with debug version of Singular which dumps stack traces on error. (kernel/cntrl.cc should be modified to define `DEBUG_STOP` instead of `INTERACTIVE`)
 
+ * [[http://www.lmona.de:31111/|list of test results]] (temporarily)
+ * Monday morning: 595 failing tests
+ * Tuesday morning: 543 failing tests
+ 
+
 === Compiler warnings ===
 
 '''People:'''
