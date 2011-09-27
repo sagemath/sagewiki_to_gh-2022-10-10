@@ -69,14 +69,14 @@ There are lots of compiler warnings...
 
 == Review Simon's letterplace patches ==
 
-'''People:''' Simon, Burcin
+'''People:''' Simon, Burcin, Alexander (offsite)
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7797|#7797]]
  * [[http://trac.sagemath.org/sage_trac/ticket/11115|#11115]] make cached methods faster - dependency of #7797 (Volker)
 
 == Plural interface ==
 
-'''People:''' Burcin, Simon
+'''People:''' Burcin, Simon, Alexander (offsite)
 
  * Rebase the patch at [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539 plural wrapper]] to [[http://trac.sagemath.org/sage_trac/ticket/11068|11068 implementation of one and two sided ideals of noncommutative rings]] 
 
