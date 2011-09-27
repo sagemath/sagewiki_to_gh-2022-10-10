@@ -116,7 +116,7 @@ to practice preparing and submitting patches, for people new to the Sage develop
 
  * [[http://trac.sagemath.org/sage_trac/ticket/11851|#11851]] [[http://trac.sagemath.org/sage_trac/ticket/11852|#11852]] --(split off pybtex package to a separate ticket (submit as an optional package first))--
  * Add more examples of citations
- * Create and add a citation for sage itself
+ * --(add sage's citation)--
  * Open a ticket for matplotlib not to include an extra version of pyparsing.
 
 == Fix reference counting of Singular rings ==
