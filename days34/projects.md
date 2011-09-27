@@ -80,6 +80,12 @@ There are lots of compiler warnings...
 
  * Rebase the patch at [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539 plural wrapper]] to [[http://trac.sagemath.org/sage_trac/ticket/11068|11068 implementation of one and two sided ideals of noncommutative rings]] 
 
+== Exponent overflow ==
+
+'''People:''' Simon
+
+ * Working on the Plural interface, we found that Sage does not raise an overflow error when it should. Example: With `P.<x,y>=QQ[]`, `y^2^30` returns a correct result; in `P.<x,y,z>=QQ[]`, an overflow occurs, but instead of raising an error, `y^2^30` returns zero.
+
 == Use libpolys for function field arithmetic ==
 
 '''People:''' Burcin
