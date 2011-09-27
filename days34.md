@@ -31,7 +31,28 @@ Monday
  * 11.00 refactoring singular - libpolys and the future
  * 16.00 - Coding sprint organization
 
-Tuesday - Friday
+Tuesday
+ * 10.00 -- Coffee break
+ * 10.15 -- Status reports
+ * 12.30 - 14.00 -- lunch
+ * 16.00 -- Coffee break
+
+Wednesday
+ * 10.00 -- Coffee break
+ * 10.15 -- Status reports
+ * 10.30 - 11.15 -- Simon King - How to benefit from categories ...
+ * 11.30 - 12.15 -- Simon King - ... and the coercion framework
+ * 12.30 - 14.00 -- lunch
+ * 16.00 -- Coffee break
+
+Thursday
+ * 10.00 -- Coffee break
+ * 10.15 -- Status reports
+ * 10.30 -- Niels Ranosch -- Citing Sage components
+ * 12.30 - 14.00 -- lunch
+ * 16.00 -- Coffee break
+
+Friday
  * 10.00 -- Coffee break
  * 10.15 -- Status reports
  * 12.30 - 14.00 -- lunch
