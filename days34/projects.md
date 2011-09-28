@@ -34,7 +34,7 @@ Bug hunt through Singular kernel code. An adventure no hacker can resist.
  * [[http://www.lmona.de:31111/|list of test results]] (temporarily)
  * Monday morning: 595 failing tests
  * Tuesday morning: 543 failing tests
- 
+ * Wednesday: 486 failing tests
 
 === Compiler warnings ===
 
