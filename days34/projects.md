@@ -14,7 +14,7 @@ working on [[http://sage.math.washington.edu/home/leif/Sage/release/sage-4.7.2.a
  * [[http://trac.sagemath.org/sage_trac/ticket/11769|#11769]] Singular doesn't build on Ubuntu Oneiric
  * [[http://trac.sagemath.org/sage_trac/ticket/10902|#10902]] factorization of multivariate polynomials
 
-== Update the Singular interface to work with libpolys + fix build system issues ==
+== Update the Singular interface to work with libpolys ==
 
 '''People:''' Volker, Burcin, Oleksandr
  There were many changes to libSingular as part of the refactoring effort. The Sage interface needs to be adapted to these. This should be a matter of renaming the functions that are called in Sage and adding the current ring as an argument (modulo bugs in libpolys).
@@ -23,9 +23,6 @@ working on [[http://sage.math.washington.edu/home/leif/Sage/release/sage-4.7.2.a
  * search/replace calls to libSingular in the Sage library to get the interface to compile & link
 
 
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
 == Fix the building of spielwiese Singular (libpolys) ==
 
 '''People:''' Volker, Oleksandr
@@ -35,7 +32,6 @@ working on [[http://sage.math.washington.edu/home/leif/Sage/release/sage-4.7.2.a
  * tests run via `make check` should be able to find resources (e.g. gftables) - cleate symlink or set Singular environment variables?
 
 
----- /!\ '''End of edit conflict''' ----
 == Refactored Singular should pass it's test suite ==
 
 '''People:''' Burcin, Oleksandr, Hans, Volker
