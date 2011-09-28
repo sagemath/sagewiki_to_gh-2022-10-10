@@ -79,7 +79,7 @@ There are lots of compiler warnings...
 '''People:''' Burcin, Simon, Alexander (offsite)
 
  * Rebase the patch at [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539 plural wrapper]] to [[http://trac.sagemath.org/sage_trac/ticket/11068|11068 implementation of one and two sided ideals of noncommutative rings]] 
- * Preliminary patch that fixed the segfaults: [[http://trac.sagemath.org/sage_trac/attachment/ticket/4539/trac4539_kwds.patch|trac4539_lmul.patch]]. This is not performand and actually works around an rmul/lmut issue. So we need a better fix for that.
+ * Preliminary patch that fixed the segfaults: [[http://trac.sagemath.org/sage_trac/attachment/ticket/4539/trac4539_kwds.patch|trac4539_lmul.patch]]. This is not performant and actually works around an rmul/lmut issue. So we need a better fix for that.
  * Fixing missing keyword argument issue by reverting an unnecessary path of the patch: [[http://trac.sagemath.org/sage_trac/attachment/ticket/4539/trac4539_kwds.patch|trac4539_kwds.patch]]
 
 == Exponent overflow ==
