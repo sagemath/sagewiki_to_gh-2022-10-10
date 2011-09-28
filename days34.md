@@ -40,7 +40,7 @@ Tuesday
 Wednesday
  * 10.00 -- Coffee break
  * 10.15 -- Status reports
- * 10.30 - 11.15 -- Simon King - How to benefit from categories ...
+ * 10.30 - 11.15 -- Simon King [[http://flask.sagenb.org/home/pub/82/|Worksheet]]- How to benefit from categories ...
  * 11.30 - 12.15 -- Simon King - ... and the coercion framework
  * 12.30 - 14.00 -- lunch
  * 16.00 -- Coffee break
