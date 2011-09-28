@@ -103,10 +103,11 @@ There are lots of compiler warnings...
 
 == Beginner tickets ==
 
+'''People:''' Hiep, Burcin
 to practice preparing and submitting patches, for people new to the Sage development process:
- * [[http://trac.sagemath.org/sage_trac/ticket/8857|#8857]] lcm over Q[x] broken (not any more)
- * `.intersect()` method of ideals should allow multiple arguments.
- * add an alias `primary_decomposition_complete() -> complete_primary_decomposition()` in the ideal class
+ * [[http://trac.sagemath.org/sage_trac/ticket/11850]] choose the random elements of the ideals.
+ * `.hilbert_series()`, `.hilbert_function()` methods of ideals [[http://trac.sagemath.org/sage_trac/ticket/11855]].
+ * add `.saturation()`, `.blow_up_ideal()` methods in the multivariate polynomial ideal class
 
 == Fast containers for objects and morphisms of a category ==
 
