@@ -143,3 +143,12 @@ to practice preparing and submitting patches, for people new to the Sage develop
 '''People''': Volker, Burcin, Martin
 
  * [[http://trac.sagemath.org/sage_trac/ticket/11339|#11339]]
+
+== Review PolyBoRi 0.8.0 patch ==
+
+'''People''': Martin, Alexander (offsite)
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/11575|#11575]]
+
+Martin reviewed it mathematically. The patch was rebased to 4.7.2alpha3, the spkg got the improved sse2-flags detection from 0.8.1.
+(Final) tests are running currently.
