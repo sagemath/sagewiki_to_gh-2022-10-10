@@ -45,6 +45,7 @@ Bug hunt through Singular kernel code. An adventure no hacker can resist.
  * Monday morning: 595 failing tests
  * Tuesday morning: 543 failing tests
  * Wednesday: 486 failing tests
+ * Thursday: 390 failing tests
 
 === Compiler warnings ===
 
@@ -152,3 +153,7 @@ to practice preparing and submitting patches, for people new to the Sage develop
 
 Martin reviewed it mathematically. The patch was rebased to 4.7.2alpha3, the spkg got the improved sse2-flags detection from 0.8.1.
 (Final) tests are running currently.
+
+== Review linbox for modn dense matrices patch ==
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/4260|#4260]]
