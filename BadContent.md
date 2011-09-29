@@ -4677,6 +4677,12 @@ mmtaxhelp\.com
 mmtaxdebt\.com 
 mmtaxattorney\.com 
 waterproofmp3\.info
+juegosgratis\.de
+motorcyclegames\.us
+angry-birds-online\.com
+snipsly\.com
+scotties\.co\.nz
+nzhirecartoday\.info
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
