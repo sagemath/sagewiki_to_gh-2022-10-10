@@ -89,15 +89,19 @@ There are lots of compiler warnings...
 
 '''People:''' Burcin, Simon, Alexander (offsite)
 
- * Rebase the patch at [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539 plural wrapper]] to [[http://trac.sagemath.org/sage_trac/ticket/11068|11068 implementation of one and two sided ideals of noncommutative rings]] 
- * Preliminary patch that fixed the segfaults: [[http://trac.sagemath.org/sage_trac/attachment/ticket/4539/trac4539_kwds.patch|trac4539_lmul.patch]]. This is not performant and actually works around an rmul/lmut issue. So we need a better fix for that.
- * Fixing missing keyword argument issue by reverting an unnecessary path of the patch: [[http://trac.sagemath.org/sage_trac/attachment/ticket/4539/trac4539_kwds.patch|trac4539_kwds.patch]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539 plural wrapper]] is rebased to [[http://trac.sagemath.org/sage_trac/ticket/11068|11068 implementation of one and two sided ideals of noncommutative rings]], so that one has left ideals and two-sided ideals of g-algebras.
+ * The left or two-sided Gröbner bases can be used to compute normal forms (that has been missing before).
+ * Pickling works (has been missing), the category test suites pass.
+ * Since g-algebras are now unique parents (unless uniqueness is destroyed on purpose), `id(self)` is used as hash.
+ * Doc tests pass, and we need people to review.
+ * ''To do'': Currently, quotients of g-algebras are implemented by the general framework of [[http://trac.sagemath.org/sage_trac/ticket/11068|#11068]]. It should instead wrap what Singular offers, but that shall be on a different ticket.
 
 == Exponent overflow ==
 
 '''People:''' Simon
 
  * Working on the Plural interface, we found that Sage does not raise an overflow error when it should. Example: With `P.<x,y>=QQ[]`, `y^2^30` returns a correct result; in `P.<x,y,z>=QQ[]`, an overflow occurs, but instead of raising an error, `y^2^30` returns zero.
+ * It is fixed, combining the old test used in Sage and the test used in Singular.
 
 == Use libpolys for function field arithmetic ==
 
