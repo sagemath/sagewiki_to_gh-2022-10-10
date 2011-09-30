@@ -93,7 +93,7 @@ There are lots of compiler warnings...
  * The left or two-sided Gröbner bases can be used to compute normal forms (that has been missing before).
  * Pickling works (has been missing), the category test suites pass.
  * Since g-algebras are now unique parents (unless uniqueness is destroyed on purpose), `id(self)` is used as hash.
- * Doc tests pass (says Simon), but the last patch does not apply cleanly (says Alexander). Apart from that, it is ready for review.
+ * Doc tests pass (says Simon), but the last patch does not apply cleanly (says Alexander, but Simon can't confirm it). Apart from that, it is ready for review.
  * ''To do'': Currently, quotients of g-algebras are implemented by the general framework of [[http://trac.sagemath.org/sage_trac/ticket/11068|#11068]]. It should instead wrap what Singular offers, but that shall be on a different ticket.
 
 == Exponent overflow ==
