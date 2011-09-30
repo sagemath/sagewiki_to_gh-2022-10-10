@@ -48,7 +48,7 @@ Wednesday
 Thursday
  * 10.00 -- Coffee break
  * 10.15 -- Status reports
- * 10.30 -- Niels Ranosch -- Citing Sage components
+ * 10.30 -- Niels Ranosch -- [[https://bitbucket.org/niels_mfo/sage-citation/src/d35bd79ad779/talk-29Sep11_slides.pdf|Citing Sage components]]
  * 12.30 - 14.00 -- lunch
  * 16.00 -- Coffee break
 
