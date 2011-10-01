@@ -28,7 +28,7 @@ Projects are listed by section below.  No one is currently working on these ones
 * Implement E.reduction(p) for E defined over a p-adic fields: [[attachment:reduction of elliptic curves over padics.sws]]
   * This found a bug/needed enhancement which is now reported: [[http://trac.sagemath.org/sage_trac/ticket/11826|#11826]]
 
-* Tate's algorithm [[attachment:Tate.sws]] [[attachment:Tate-updated slightly]]
+* Tate's algorithm [[attachment:Tate.sws]] [[attachment:tate(1).sws]]
 
 === Singular Cubics ===
 
