@@ -4683,6 +4683,9 @@ angry-birds-online\.com
 snipsly\.com
 scotties\.co\.nz
 nzhirecartoday\.info
+videofishingknots\.com
+cheapaudiobooks\.org
+bernardtips\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
