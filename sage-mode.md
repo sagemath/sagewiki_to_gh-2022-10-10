@@ -4,12 +4,9 @@
 
 sage-mode provides Emacs Lisp that helps you use Sage in GNU Emacs.
 
-'''Warning!'''  This is alpha code.  This might fail horribly and is not (yet)
-easily customizable!
-
 == License ==
 
-Copyright (C) 2007, 2008, 2009  Nick Alexander
+Copyright (C) 2007, 2008, 2009, 2010, 2011  Nick Alexander
 
 Author: Nick Alexander <ncalexander [at] gmail.com>
 
@@ -35,6 +32,7 @@ Boston, MA 02110-1301, USA.
 == Upstream Contact ==
 
  * Author: Nick Alexander <ncalexander [at] gmail.com>
+ * Bitbucket mercurial repository: [[http://bitbucket.org/ncalexan/sage-mode]]
 
 == Dependencies ==
 
@@ -43,11 +41,11 @@ Boston, MA 02110-1301, USA.
 
 == Special Update/Build Instructions ==
 
-[[attachment:sage-mode-0.6.spkg]]
+[[attachment:sage-mode-0.7.spkg]]
 
-Use {{{sage -f sage-mode-0.6.spkg}}}.  The following installation instructions are suggested:
+Use {{{sage -f sage-mode-0.7.spkg}}}.  The following installation instructions are suggested:
 
-A basic install might include the following Emacs Lisp in your .emacs (please note that you have to change `$SAGE_DATA` and `$SAGE_ROOT` for the real paths):
+A basic install might include the following Emacs Lisp in your .emacs:
 
 {{{
 (add-to-list 'load-path (expand-file-name "$SAGE_DATA/emacs"))
@@ -63,15 +61,16 @@ A basic install might include the following Emacs Lisp in your .emacs (please no
 ;; 'sage-view-disable-inline-output 'sage-view-disable-inline-plots)
 ;; to have some combination of features.  In future, the customize interface
 ;; will make this simpler... hint, hint!
-
-(add-hook 'sage-mode-hook
-      '(lambda () ; taken from http://www.cs.caltech.edu/courses/cs11/material/python/misc/python_style_guide.html#TABS
-	 (set-variable 'py-indent-offset 4)
-	 (set-variable 'py-smart-indentation nil)
-	 (set-variable 'indent-tabs-mode nil) ))
 }}}
 
 == Changelog ==
+
+=== sage-mode-0.7 (Nick Alexander, 2011-10-07) ===
+* Fix a bug reported by Ivan Andrus regarding font-lock and
+triple-quoted strings.
+
+* sage-mode is now hosted on bitbucket for easy viewing and cloning:
+browse to [[http://bitbucket.org/ncalexan/sage-mode]].
 
 === sage-mode-0.6 (Nick Alexander, 2009-05-11) ===
 * `sage-run' no longer waits for a sage: prompt by default.  This can cause
@@ -161,6 +160,8 @@ First alpha version, for Mike Hansen to use and test.
 First internal version.
 
 == Old versions ==
+
+[[attachment:sage-mode-0.6.spkg]]
 
 [[attachment:sage-mode-0.5.4.spkg]]
 
