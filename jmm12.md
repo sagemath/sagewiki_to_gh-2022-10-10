@@ -15,3 +15,7 @@
 == Description ==
 
   See [[attachment:sage_short_course-2011.pdf]].
+
+== "Secret" mailing list ==
+
+  * http://groups.google.com/group/sage-short-course
