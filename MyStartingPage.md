@@ -36,9 +36,9 @@ By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki
  * [[days32|Sage Days 32: Bug Days (near Seattle), August 21-25, 2011]]
  * [[days33|Sage Days 33: Women in Sage (near Seattle), September 19-23, 2011]]
  * [[days34|Sage Days 34: Singular Days (Kaiserslautern, Germany), September 26-30, 2011]]
- * [[SageFlintDays|Sage-Flint Days = Sage Days X for some X>34:  Warwick UK, 17-23 December 2011]]
- * [[padicSageDays|Sage Days Y for some Y>X: p-adics in Sage, UC San Diego, February 19-23, 2012]]
- * Sage Days Z, for some Z > Y: likely April 2012, South Korea. Contact DanDrake for more information.
+ * [[SageFlintDays|Sage Days 35: Sage-Flint Days, Warwick UK, 17-23 December 2011]]
+ * [[padicSageDays|Sage Days 36: p-adics in Sage, UC San Diego, February 19-23, 2012]]
+ * Sage Days X, for some X > 36: likely April 2012, South Korea. Contact DanDrake for more information.
 
  * [[HowToHostASageDays|Hosting]] --- Advice to future hosts
 
