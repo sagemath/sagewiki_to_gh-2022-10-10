@@ -13,3 +13,5 @@ Please post other potentially relevant logos, variants of this logo, etc., here.
  [[attachment:abc_box_icon_sage_logo.gif]] - Timothy Clemans
 
 Possible "3D" variant of the logo on the Sage sticker
+
+ [[attachment:Sage logo 3D.png]] - Jonathan Gutow
