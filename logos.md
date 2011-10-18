@@ -15,3 +15,5 @@ Please post other potentially relevant logos, variants of this logo, etc., here.
 Possible "3D" variant of the logo on the Sage sticker
 
  [[attachment:Sage logo 3D.png]] - Jonathan Gutow
+ 
+ Jmol file for download and opening in the Jmol application.  Not working inside of Sage yet.  This will let you spin, zoom, etc...[[attachment:Sage Logo 2.jmol]] - Jonathan Gutow
