@@ -26,6 +26,36 @@ Read through the following (all are free):
 
   See [[attachment:sage_short_course-2011.pdf]].
 
-== "Secret" mailing list ==
+== Organizer's mailing list ==
 
   * http://groups.google.com/group/sage-short-course
+
+{{{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}}}
