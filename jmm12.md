@@ -1,5 +1,7 @@
 = AMS Short Course: Computing with Elliptic Curves using Sage =
 
+<<TableOfContents>>
+
 == People ==
 
  * William Stein - Univ of Washington
