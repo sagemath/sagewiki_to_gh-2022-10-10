@@ -34,6 +34,7 @@ By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki
 = Events/Upcoming Research Workshops =
 
  * [[SageFlintDays|Sage Days 35: Sage-Flint Days, Warwick UK, 17-23 December 2011]]
+ * [[http://icerm.brown.edu/sp-s13/|Sage Days: Multiple Dirichlet series, combinatorics, and representation theory, February 11-15, 2013]]
  * [[padicSageDays|Sage Days 36: p-adics in Sage, UC San Diego, February 19-23, 2012]]
  * Sage Days X, for some X > 36: likely April 2012, South Korea. Contact DanDrake for more information.
  * Sage Days M, for some M > X: Notebook Development, June 11-15, 2012, Seattle. Contact: Rob Beezer, beezer@ups.edu
