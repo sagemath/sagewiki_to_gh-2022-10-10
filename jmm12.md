@@ -14,7 +14,7 @@
 
 == Precourse Preparation ==
 
-Read through the following (all are free):
+Read through the following (all are freely redistributable):
 
  * ''The Official Sage Tutorial'': [[http://sagemath.org/doc/tutorial/|html]] or [[http://sagemath.org/pdf/SageTutorial.pdf|pdf]]
  * ''The Official Python Tutorial'': [[http://docs.python.org/tutorial/|html]] or [[http://wstein.org/edu/2012/jmm12/python-tutorial.pdf|pdf]]
