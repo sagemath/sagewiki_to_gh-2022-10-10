@@ -33,12 +33,11 @@ By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki
 <<Anchor(sagedays)>>
 = Events/Upcoming Research Workshops =
 
- * [[days32|Sage Days 32: Bug Days (near Seattle), August 21-25, 2011]]
- * [[days33|Sage Days 33: Women in Sage (near Seattle), September 19-23, 2011]]
- * [[days34|Sage Days 34: Singular Days (Kaiserslautern, Germany), September 26-30, 2011]]
  * [[SageFlintDays|Sage Days 35: Sage-Flint Days, Warwick UK, 17-23 December 2011]]
  * [[padicSageDays|Sage Days 36: p-adics in Sage, UC San Diego, February 19-23, 2012]]
  * Sage Days X, for some X > 36: likely April 2012, South Korea. Contact DanDrake for more information.
+ * Sage Days M, for some M > X: Notebook Development, June 11-15, 2012, Seattle. Contact: Rob Beezer, beezer@ups.edu
+ * Sage Edu Days N, for some N > 3: June 13-15, 2012, Seattle. Contact: Rob Beezer, beezer@ups.edu
 
  * [[HowToHostASageDays|Hosting]] --- Advice to future hosts
 
