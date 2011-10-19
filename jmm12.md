@@ -17,7 +17,7 @@
 Read through the following (all free):
 
  * ''The Official Sage Tutorial'': [[http://sagemath.org/doc/tutorial/|html]] or [[http://sagemath.org/pdf/SageTutorial.pdf|pdf]]
- * ''The Official Python Tutorial'': [[http://docs.python.org/tutorial/|html]] or [[http://docs.python.org/archives/python-2.7.2-docs-pdf-letter.tar.bz2|pdf available in here]]
+ * ''The Official Python Tutorial'': [[http://docs.python.org/tutorial/|html]] or [[http://wstein.org/edu/2012/jmm12/python-tutorial.pdf|pdf]]
  * ''Three Lectures about Explicit Methods in Number Theory Using Sage'': [[http://sagemath.org/doc/bordeaux_2008/|html]] or [[http://sagemath.org/pdf/bordeaux_2008.pdf|pdf]]
 
 == Description ==
