@@ -27,16 +27,24 @@ Read through the following (all are free):
 === January 2, 2012 ===
 ||9:00am - 10:30am || Kiran Kedlaya: Introduction to Python and Sage [[https://hensel.mit.edu:8000/home/pub/9/|worksheet]]||
 ||10:30am - 11:00am|| Break||
-||11:00am - 12:30 pm||Software Session 1: QA format -- How do I do XXX in Sage?||
+||11:00am - 12:30pm||Software Session 1: QA format -- How do I do XXX in Sage?||
 ||12:30pm - 2:00pm|| Break (lunch)||
 ||2:00pm - 3:30pm|| Ken Ribet: Computing with elliptic curves over finite fields using Sage||
 ||3:30pm - 4:00pm|| Break||
-||4:00 pm - 5:00 pm||Software Session 2: Problem format -- try to solve a problem yourself using Sage||
-||5:00 pm – 6:30 pm||Reception: Back Bay Ballroom D - Sheraton||
-
+||4:00pm - 5:00pm||Software Session 2: Problem format -- try to solve a problem yourself using Sage||
+||5:00pm – 6:30pm||Reception: Back Bay Ballroom D - Sheraton||
 
 
 === January 3, 2012 ===
+
+||9:00am - 10:30am||Jared Weinstein: Computing with elliptic curves over the rational numbers using Sage||
+||10:30am – 11:00am|| Break||
+||11:00am - 12:30pm|| William Stein: Computing with the Birch and Swinnerton-Dyer conjecture using Sage||
+||12:30pm – 2:00pm||Break (lunch)||
+||2:00pm - 3:30pm||Elkies: Computing with Elliptic Surfaces||
+||3:30pm – 4:00pm||Break||
+||4:00pm – 5:00pm||Software Session 3: QA format -- How do I do XXX in Sage?||
+
 
 == Description ==
 
