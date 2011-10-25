@@ -22,6 +22,22 @@ Read through the following (all are free):
  * ''The Official Python Tutorial'': [[http://docs.python.org/tutorial/|html]] or [[http://wstein.org/edu/2012/jmm12/python-tutorial.pdf|pdf]]
  * ''Three Lectures about Explicit Methods in Number Theory Using Sage'': [[http://sagemath.org/doc/bordeaux_2008/|html]] or [[http://sagemath.org/pdf/bordeaux_2008.pdf|pdf]]
 
+== Schedule ==
+
+=== January 2, 2012 ===
+||9:00am - 10:30am || Kiran Kedlaya: Introduction to Python and Sage [[https://hensel.mit.edu:8000/home/pub/9/|worksheet]]||
+||10:30am - 11:00am|| Break||
+||11:00am - 12:30 pm||Software Session 1: QA format -- How do I do XXX in Sage?||
+||12:30pm - 2:00pm|| Break (lunch)||
+||2:00pm - 3:30pm|| Ken Ribet: Computing with elliptic curves over finite fields using Sage||
+||3:30pm - 4:00pm|| Break||
+||4:00 pm - 5:00 pm||Software Session 2: Problem format -- try to solve a problem yourself using Sage||
+||5:00 pm – 6:30 pm||Reception: Back Bay Ballroom D - Sheraton||
+
+
+
+=== January 3, 2012 ===
+
 == Description ==
 
   See [[attachment:sage_short_course-2011.pdf]].
