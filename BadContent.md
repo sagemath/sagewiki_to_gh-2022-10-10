@@ -4688,6 +4688,7 @@ cheapaudiobooks\.org
 bernardtips\.com
 buyphone4withoutcontract\.com
 auto-ready\.com
+lacapila\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
