@@ -4689,6 +4689,7 @@ bernardtips\.com
 buyphone4withoutcontract\.com
 auto-ready\.com
 lacapila\.com
+hotelsinamsterdam-netherlands\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
