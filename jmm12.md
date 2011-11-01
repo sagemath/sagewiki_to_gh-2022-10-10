@@ -2,6 +2,7 @@
 
 <<TableOfContents>>
 
+
 == People ==
 
  * William Stein - Univ of Washington
@@ -23,6 +24,8 @@ Read through the following (all are free):
  * ''Three Lectures about Explicit Methods in Number Theory Using Sage'': [[http://sagemath.org/doc/bordeaux_2008/|html]] or [[http://sagemath.org/pdf/bordeaux_2008.pdf|pdf]]
 
 == Schedule ==
+
+ * We are in [[http://jointmathematicsmeetings.org/meetings/national/jmm2012/2138_progfull.html|the official AMS schedule]].
 
 === January 2, 2012 ===
 ||9:00am - 10:30am || Kiran Kedlaya: Introduction to Python and Sage [[https://hensel.mit.edu:8000/home/pub/9/|worksheet]]||
