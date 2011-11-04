@@ -1,5 +1,6 @@
 = Summary of the days =
-(un texte en francais sur les divers points discutes entre participants suit)\\
+(un texte en francais sur les divers points discutes entre participants suit)
+
 (a text in french about points that were discussend during the meeting follows).
 
 == Context ==
