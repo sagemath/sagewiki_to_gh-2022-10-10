@@ -12,7 +12,7 @@ It was the occasion to prepare the CIMPA research school that will happen in Nov
 
 Many participants were interested in the use of sage from various fields of mathematics, and in particular 
  * having non-associative algebras coded in sage
- * having the albert software included (orinterfaced) in sage : http://www.cs.clemson.edu/~dpj/albertstuff/albert.html (or maybe a n idea could be to have its algorithms directly written in sage).
+ * having the albert software included (or interfaced) in sage: http://www.cs.clemson.edu/~dpj/albertstuff/albert.html (or maybe an idea could be to have its algorithms directly written in sage).
 
 == Report on installing sage ==
 
