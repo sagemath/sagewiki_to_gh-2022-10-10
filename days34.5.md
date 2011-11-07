@@ -18,9 +18,10 @@ Many participants were interested in the use of sage from various fields of math
 
 Concerening installations, we exprienced quite a lot of problems related to the lack of internet connection at the university itself, and to the age of some machines (pentium 3 and 4). The ubuntu build we get from the repository needs some additional packages (libgfortran3 for example), and the compilation seems to have been made with some new CPU instructons (removing sage-flags file was not nufficient to solve the problem). In such situations where internet is too slow to download a distro or a whole build for each particular machine (with its own version of ubuntu), we definitely need to have a minimal build that runs on every machine (e.g. complied on a minimal debian with as few package as possible installed, and using only instruction of an old machine).
 
-The use of virtualbox is definitely too slow and relies on a clean windows install, and it seems that the best options were:
-* to serve sage on the LAN for all the participants (but this needs a machine with quite a lot of RAM).
-* to use the live-cd. 
+The use of virtualbox is definitely too slow and relies on a clean windows install; it seems that the best options were:
+
+ * to serve sage on the LAN for all the participants (but this needs a machine with quite a lot of RAM).
+ * to use the live-cd. 
 
 Note that after various tests on some machines, the .exe file that installs the live-cd on the hard disk of a windows machine does not work (but the uninstall script works well).
 
