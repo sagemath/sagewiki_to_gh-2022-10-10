@@ -1,4 +1,4 @@
-I was an Assistant Adjunct Professor at UCLA and a SAGEvangelist.
+I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 
   http://www.math.ucla.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
 
