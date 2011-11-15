@@ -15,7 +15,7 @@ SCHEDULE: [[/schedule|TBA]]
 
 LOCATION: Gordon College, Wenham, MA
 
-LODGING: TBA
+LODGING: http://www.wyliecenter.com/
 
 FUNDING: If you're interested in attending, there may be funding for you.   
 
