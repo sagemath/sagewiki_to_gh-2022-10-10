@@ -1,4 +1,4 @@
-= Sage Days 36: Bug Days =
+= Sage Days 35.5: Bug Days =
 
 This Sage days will be a bug fix Sage Days, devoted to fixing large numbers of bugs in Sage, emphasis on calculus, symbolics, notebook, and graphics.
 
