@@ -45,6 +45,9 @@ By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki
 [[Workshops | Past and future workshops]], including Sage Days, Bug Days, Doc Days, Review Days, and Education Days.
 
 
+= Upcoming Sage Days (from Workshops page) =
+<<Include(Workshops, , to="^----$")>>
+
 = People =
 
 [[http://www.sagemath.org/development-map.html|Overview of all registered Sage developers on a world map]]
