@@ -25,3 +25,7 @@ PARTICIPANTS:
  
  * Jason Grout (Drake University)
  * Karl-Dieter Crisman (Gordon College)
+
+Participating remotely:
+
+ * Paul Zimmermann
