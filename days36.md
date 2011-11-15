@@ -20,3 +20,8 @@ LODGING: http://www.wyliecenter.com/
 FUNDING: If you're interested in attending, there may be funding for you.   
 
 TICKETS FAQ: [[/faq|TBA]]
+
+PARTICIPANTS:
+ 
+ * Jason Grout (Drake University)
+ * Karl-Dieter Crisman (Gordon College)
