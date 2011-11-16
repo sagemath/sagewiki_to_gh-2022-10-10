@@ -23,6 +23,7 @@ PARTICIPANTS:
  
  * Jason Grout (Drake University)
  * Karl-Dieter Crisman (Gordon College)
+ * Ian Stokes-Rees (Harvard)
 
 Participating remotely:
 
