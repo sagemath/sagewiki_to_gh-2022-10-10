@@ -4,22 +4,20 @@ This Sage days will be a bug fix Sage Days, devoted to fixing large numbers of b
 
 PROJECTS:
 
-  * [[TBA]]
-  * [[/bugs|High priority bugs - TBA]]
-
+  * [[/bugs|Bug list - TBA]]
 
 
 DATES: January 9 - 13, 2012.  
 
-SCHEDULE: [[/schedule|TBA]] 
+SCHEDULE: [[/schedule|Schedule]] 
 
-LOCATION: Gordon College, Wenham, MA
+LOCATION: [[http://www.gordon.edu|Gordon College]], Wenham, MA
 
-LODGING: http://www.wyliecenter.com/
+LODGING: [[http://www.wyliecenter.com/|Wylie Center]], Beverly, MA
 
-FUNDING: If you're interested in attending, there may be funding for you.   
+FUNDING: If you're interested in attending, there may be funding for you.  Please contact <<MailTo(kcrisman AT gmail DOT com)>>
 
-TICKETS FAQ: [[/faq|TBA]]
+TICKETS FAQ: [[days27/faq|This FAQ]] from Sage Days 27 is probably still more or less valid.
 
 PARTICIPANTS:
  
