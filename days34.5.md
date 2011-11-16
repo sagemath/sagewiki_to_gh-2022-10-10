@@ -30,4 +30,4 @@ The main concern with the live-cd installed on a usb-key is the difficulty to sp
 Hence, we hacked it a bit to have a key with sage that is able to clone itself on another usb key, indefinitely, in one click. Some additional informations about this hack will be posted soon, and we should discuss with the guy that built this "sage on Puppy" about this.
 
 = Resources =
- * [Comment installer Albert sur la derniere Ubuntu]
+ * [[Comment installer Albert sur la derniere Ubuntu]]
