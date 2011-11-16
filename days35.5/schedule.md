@@ -1,6 +1,6 @@
 = Sage Days 35.5 Schedule =
 
-[[days35.5|Sage Days 35.5]]
+[[days35.5|Sage Days 35.5 main page]]
 
 This is a template, though probably things will look similar to this.   KOSC stands for the [[http://www.gordon.edu/kosc|Ken Olsen Science Center]].
 
@@ -28,4 +28,4 @@ This is a template, though probably things will look similar to this.   KOSC sta
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">1:00pm-4:30pm  ||'''Coding''' KOSC 118||
 ||<rowstyle="background-color: #FFFFEE; text-align: center;">4:30pm-5:00pm  ||'''Final Status Reports''' KOSC 118||
 
-In general, this will be a working Sage Days, but we may have one or two speakers related to this, perhaps from [[http://rstudio.org/|RStudio]].
+In general, this will be a working Sage Days, but we may have one or two speakers related to this, perhaps from [[http://rstudio.org/|RStudio]].  It is also likely there will be an informal (optional) introduction to how to contribute to Sage and review, since there will be some newcomers.
