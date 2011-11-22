@@ -12,8 +12,8 @@ Out-of-town participants will be lodged at the [[http://www.wyliecenter.com/|Wyl
 
 For this Sage Days, individual participants will make their own reservations.  
  * ''First'', let the organizers know about your intent to stay at the Wylie Center, so we can keep a headcount and arrange roommates.  
-   * We will assume that, insofar possible, we will be reimbursing rooms at the double occupancy rate; if you wish to have your own room, you should plan 
- * Then contact the Wylie Center.  Be sure to mention that the reservation is connected with Gordon College; this should get you a rate of $99 a night.  
+   * We will assume that, insofar possible, we will be reimbursing rooms at the double occupancy rate; if you wish to have your own room, you should plan to be reimbursed only for the double rate ($99 per room).
+ * Then contact the Wylie Center.  Be sure to mention that the reservation is connected with Gordon College; this should get you a rate of $99 a night for a room.  
    * The toll-free reservation phone is 1-866-333-0859; you may also book online at the website above.  
  * You'll need receipts for reimbursement.
 
