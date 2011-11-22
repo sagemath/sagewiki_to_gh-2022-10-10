@@ -22,6 +22,7 @@ TICKETS FAQ: [[days27/faq|This FAQ]] from Sage Days 27 is probably still more or
 PARTICIPANTS:
  
  * Jason Grout (Drake University)
+ * Alex Kramer (Drake University)
  * Karl-Dieter Crisman (Gordon College)
  * Ian Stokes-Rees (Harvard)
 
