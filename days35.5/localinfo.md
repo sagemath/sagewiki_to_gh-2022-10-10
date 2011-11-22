@@ -8,7 +8,7 @@ Most of the information below assumes a certain level of funding.  Please contac
 Air travel really is not about local info, but most people will want to know about this.  See [[days27/faq|the Sage Days 27 FAQ]] for the rules on airfare (e.g., US carriers only).
 
 == Lodging ==
-Out-of-town participants will be lodged at the [[Wylie Center]] in Beverly, Mass.  This oceanside conference center is just a few miles from Gordon College and has a nice wireless-enabled coffee shop which we've been assured is very much open for a group of people to code in after hours.  
+Out-of-town participants will be lodged at the [[http://www.wyliecenter.com/|Wylie Center]] in Beverly, Mass.  This oceanside conference center is just a few miles from Gordon College and has a nice wireless-enabled coffee shop which we've been assured is very much open for a group of people to code in after hours.  
 
 For this Sage Days, individual participants will make their own reservations.  
  * ''First'', let the organizers know about your intent to stay at the Wylie Center, so we can keep a headcount and arrange roommates.  
