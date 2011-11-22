@@ -13,7 +13,7 @@ SCHEDULE: [[/schedule|Schedule]]
 
 LOCATION: [[http://www.gordon.edu|Gordon College]], Wenham, MA
 
-LODGING: [[http://www.wyliecenter.com/|Wylie Center]], Beverly, MA.  The toll-free reservation phone is 1-866-333-0859.  More directions to come ASAP.
+LODGING: [[http://www.wyliecenter.com/|Wylie Center]], Beverly, MA.  Please look at the more detailed [[days35.5/localinfo|Local Info]] page for instructions on reservations and so forth.
 
 FUNDING: If you're interested in attending, there may be funding for you.  Please contact <<MailTo(kcrisman AT gmail DOT com)>> as soon as possible, and by late November if you are not a US citizen or permanent resident.
 
