@@ -4,7 +4,7 @@ This Sage days will be a bug fix Sage Days, devoted to fixing large numbers of b
 
 PROJECTS:
 
-  * [[/bugs|Bug list - TBA]]
+  * [[/bugs|Bug list]]
 
 
 DATES: January 9 - 13, 2012.  
