@@ -11,7 +11,7 @@ DATES: January 9 - 13, 2012.
 
 SCHEDULE: [[/schedule|Schedule]] 
 
-LOCATION: [[http://www.gordon.edu|Gordon College]], Wenham, MA
+LOCATION: [[http://www.gordon.edu/kosc|Ken Olsen Science Center]] at [[http://www.gordon.edu|Gordon College]], Wenham, Mass.
 
 LODGING: [[http://www.wyliecenter.com/|Wylie Center]], Beverly, MA.  Please look at the more detailed [[days35.5/localinfo|Local Info]] page for instructions on reservations and so forth.
 
