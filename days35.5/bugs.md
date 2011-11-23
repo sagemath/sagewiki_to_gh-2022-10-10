@@ -8,6 +8,7 @@ For [[days35.5|Sage Days 35.5]].
  * [[http://trac.sagemath.org/sage_trac/ticket/1173|#1173]] implement numerical evaluation of erf at complex arguments
  * [[http://trac.sagemath.org/sage_trac/ticket/11143|#11143]] Finish ticket defining symbolic functions for exponential integral special functions
  * [[http://trac.sagemath.org/sage_trac/ticket/11888|#11888]] Sage is missing the lambert_w function conversion from Maxima
+ * [[http://trac.sagemath.org/sage_trac/ticket/12074|#12074]] symbolic nth root function for plotting, etc.
 
 == Pages on Trac with lots more bugs of relevance ==
  * [[http://trac.sagemath.org/sage_trac/wiki/symbolics|symbolics and calculus bugs on Trac wiki]]
