@@ -7,7 +7,7 @@ PROJECTS:
   * [[/bugs|Bug list]]
 
 
-DATES: January 9 - 13, 2012.  
+DATES: January 9 - 12, 2012.  (But it's a bug days, so things may be flexible.)
 
 SCHEDULE: [[/schedule|Schedule]] 
 
