@@ -1,4 +1,3 @@
-
 {{{
 # -*- coding: utf8 -*-
 '''
@@ -26,7 +25,7 @@ from getpass import getpass
 #####################################
 ############ Datos ##################
 
-your_email = 'your_email@server'
+my_email = 'your_email@server'
 #You can use special chars (é,ñ...) in the body and subject
 #The body has a field %s, to be replaced by the the third
 #field in the data file
@@ -78,7 +77,7 @@ for linea in data.splitlines():
     msg = MIMEMultipart()
     msg['Subject'] = subject
     msg['To'] = email
-    msg['From'] = mi_email
+    msg['From'] = my_email
     part2 = MIMEText(body%nota, 'plain', 'utf8')
     msg.attach(part2)
 
@@ -93,7 +92,7 @@ for linea in data.splitlines():
     
     #Send email
     try:
-        smtpresult = server.sendmail(your_email, email, msg.as_string())
+        smtpresult = server.sendmail(my_email, email, msg.as_string())
         print 'ok'
     except:
         print 'Error sending message to: %s'%email   
