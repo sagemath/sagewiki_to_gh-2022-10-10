@@ -13,11 +13,11 @@ another adjacent guest house.
 
 Here is a tentative list of themes:
 
-- Refactoring of the combinatorics infrastructure (factories, Cythonizing partitions, compositions...)
+ - Refactoring of the combinatorics infrastructure (factories, Cythonizing partitions, compositions...)
 
-- Categories (Morphisms, functorial constructions, optimization, coercion ?)
+ - Categories (Morphisms, functorial constructions, optimization, coercion ?)
 
-- Integration of more Sage-Combinat thematic tutorials into Sage
+ - Integration of more Sage-Combinat thematic tutorials into Sage
 
 - Please expand!
 
