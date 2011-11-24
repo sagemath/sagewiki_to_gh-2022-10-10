@@ -16,6 +16,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component.
 
+ * [[combinat/SageCombinatDaysCernay2012|Sage-Combinat Days Cernay 2012]]
+
 == Past news ==
 
  * May 2-6, 2011: [[http://wiki.sagemath.org/days30| Sage Days 30]]: Combinatorics (Schubert calculus, cluster algebras) and Number theory (integer vectors, multidimensional digit representations) in Acadia University, Wolfville, Nova Scotia, Canada
