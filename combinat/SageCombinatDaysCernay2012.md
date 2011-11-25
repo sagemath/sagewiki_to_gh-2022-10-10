@@ -31,6 +31,8 @@ So my questions are the following:
 - who is interested ?
 - what is the preferred week ?
 
+Viviane Pons : very much interested, available mostly in February (6-10, 13-17, 20-24, ...)
+
 We would love to have some hard core Cython and/or Sage developer at
 hand :-)
 
