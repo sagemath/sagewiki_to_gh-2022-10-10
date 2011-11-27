@@ -25,6 +25,7 @@ PARTICIPANTS:
  * Alex Kramer (Drake University)
  * Karl-Dieter Crisman (Gordon College)
  * Ian Stokes-Rees (Harvard)
+ * Benjamin Jones (UW-Stout)
 
 Participating remotely:
 
