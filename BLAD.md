@@ -15,7 +15,7 @@ Before December 13th:
 
   Test: the following command (creating a new branch for blad's development within Sage) should work:
 
-  {{{sage -b blad}}}
+  ``sage -b blad``
 
 - For those planning to do development: get acquainted with the version control system Mercurial.
 
