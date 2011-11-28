@@ -9,17 +9,52 @@ It will in particular help organize the coding sprint on December 13th.
 
 Here is a list of tasks; please sign in to the task you would want to participate to.
 
-- Get everyone acquainted with Sage's workflow, and in particular `Sage's ticket server <http://www.sagemath.org/doc/developer/trac.html>`_
+Before December 13th:
 
-- Open trac accounts for everyone. That will be easiest on December 13th, since Nicolas can create them. Otherwise you can request one right away as described above. Once you have such an account, you can edit this wiki.
+- Have Sage 4.7.2 installed on everyone's laptop, together with the usual developers tools.
+
+  Test: the following command (creating a new branch for blad's development within Sage) should work:
+
+  {{{sage -b blad}}}
+
+- For those planning to do development: get acquainted with the version control system Mercurial.
+
+  See: `Mercurial Tutorial <http://mercurial.selenic.com/wiki/Tutorial>`_
+
+- For everyone: get acquainted with Sage's workflow, and in particular `Sage's ticket server <http://www.sagemath.org/doc/developer/trac.html>`_
+
+- Build/choose a couple examples, from trivial to complex, showing how libBLAD is to be called from C, and the equivalent call from Maple
+
+  - François?
+
+- Choose a sample of calculations involving BLAD of increasing
+  complexity that would be of interest in applications, and in
+  particular in control theory
+
+On December 13th:
+
+- Quick demo of BLAD, from C and Maple
+
+  - François
+
+- Sketch of the would-be high level user interface
+
+  - Everybody
+
+- For everyone: get a trac account. That will be easiest on December 13th, since Nicolas can create them. Otherwise you can request one right away as described above. Once you have such an account, you can edit this wiki.
 
 - Create a ticket for the integration of BLAD in Sage.
 
 - Create other tickets as appropriate describing the related projects of the participants.
 
-- Build or select a couple examples, from trivial to complex, showing how libBLAD is to be called from C and from Maple
+- Write down a tutorial on using BLAD from Sage, in ReST (Sage's and
+  Python's documentation format), taking inspiration from Maple's documentation.
 
-  - François?
+  Expand it with a section ``BLAD in control theory'' with the examples above.
+
+  - ??? with help from Florent
+
+  See also: 
 
 - Build a Sage package (aka spkg) allowing for the installation of libBLAD in the Sage installation
 
@@ -35,8 +70,17 @@ Here is a list of tasks; please sign in to the task you would want to participat
 
 - Translate (some of) the C examples to Cython, and call them from Sage (without input/output)
 
-- Work on conversions, so that progressively the input and output for the C examples can be respectively specified and retrieved from Sage's command line
+  - François, Nicolas, ...
 
-- Design the high level user interface
+- Low level interface: work progressively on date conversions
+  Sage<->C, so that the input and output for the C examples can be
+  respectively specified and retrieved from Sage's command line (in
+  whatever format)
+
+  - François, Nicolas, ...
+
+- Write the high level interface (parents, categories, ...)
+
+- Bind together the high and low level interfaces
 
 }}}
