@@ -47,14 +47,17 @@ On December 13th:
 
 - Create other tickets as appropriate describing the related projects of the participants.
 
-- Write down a tutorial on using BLAD from Sage, in ReST (Sage's and
-  Python's documentation format), taking inspiration from Maple's documentation.
+- Write down a test file and a tutorial on using BLAD from Sage, in
+  ReST (Sage's and Python's documentation & tests format), taking
+  inspiration from Maple's documentation.
 
   Expand it with a section ``BLAD in control theory'' with the examples above.
 
   - ??? with help from Florent
 
-  See also: 
+  See also:
+  - `Sage developers's guide on writing documentation  http://www.sagemath.org/doc/developer/conventions.html#documentation-strings`_
+  - `Quick introduction to ReST http://docutils.sourceforge.net/docs/user/rst/quickref.html`_
 
 - Build a Sage package (aka spkg) allowing for the installation of libBLAD in the Sage installation
 
@@ -82,5 +85,7 @@ On December 13th:
 - Write the high level interface (parents, categories, ...)
 
 - Bind together the high and low level interfaces
+
+- Call it a day :-)
 
 }}}
