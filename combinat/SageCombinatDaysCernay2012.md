@@ -35,6 +35,7 @@ Martin Albrecht : I am interested, but I cannot commit to any dates yet. I defin
 
 Viviane Pons : very much interested, available mostly in February (6-10, 13-17, 20-24, ...)
 
+Jean-Pierre Flori : Interested as well. I don't think I'll be able to attend the whole week, but two or three days should be ok. I'd better avoid the last week of January, first of February if possible. As far as the topics are concerned, I'd love to have a deeper look into the coercion system and its caching mecanism to get a better understanding of it and to solve bug #715. If anyone is interested, we could also have a look at some symbolic issues in pynac (which could be of interest for combinat people).
 
 We would love to have some hard core Cython and/or Sage developer at
 hand :-)
