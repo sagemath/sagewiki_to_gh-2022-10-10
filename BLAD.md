@@ -51,15 +51,15 @@ On December 13th:
   ReST (Sage's and Python's documentation & tests format), taking
   inspiration from Maple's documentation.
 
-  Expand it with a section ``BLAD in control theory'' with the examples above.
+  Expand it with a section `BLAD in control theory` with the examples above.
 
   - ??? with help from Florent
 
   See also:
 
-  - `Sage developers's guide on writing documentation  http://www.sagemath.org/doc/developer/conventions.html#documentation-strings`_
+  - `Sage developers's guide on writing documentation <http://www.sagemath.org/doc/developer/conventions.html#documentation-strings>`_
 
-  - `Quick introduction to ReST http://docutils.sourceforge.net/docs/user/rst/quickref.html`_
+  - `Quick introduction to ReST <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_
 
 - Build a Sage package (aka spkg) allowing for the installation of libBLAD in the Sage installation
 
@@ -86,11 +86,11 @@ On December 13th:
 
   See also:
 
-  - `Cython's web site http://cython.org/`_
+  - `Cython's web site <http://cython.org/>`_
 
-  - `Cython's basic tutorial http://docs.cython.org/src/userguide/tutorial.html`_
+  - `Cython's basic tutorial <http://docs.cython.org/src/userguide/tutorial.html>`_
 
-  - `Sage with Cython tutorial http://sagemath.blogspot.com/2010/11/getting-started-with-cython.html`_
+  - `Sage with Cython tutorial <http://sagemath.blogspot.com/2010/11/getting-started-with-cython.html>`_
 
 - Write the high level interface (parents, categories, ...)
 
