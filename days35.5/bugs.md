@@ -10,6 +10,7 @@ For [[days35.5|Sage Days 35.5]].
  * [[http://trac.sagemath.org/sage_trac/ticket/11888|#11888]] Sage is missing the lambert_w function conversion from Maxima
  * [[http://trac.sagemath.org/sage_trac/ticket/12074|#12074]] symbolic nth root function for plotting, etc.
  * [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
+ * [[http://trac.sagemath.org/sage_trac/ticket/12075|#12094]] update Maxima
 
 == Pages on Trac with lots more bugs of relevance ==
  * [[http://trac.sagemath.org/sage_trac/wiki/symbolics|symbolics and calculus bugs on Trac wiki]]
