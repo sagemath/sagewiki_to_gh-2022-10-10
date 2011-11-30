@@ -17,11 +17,16 @@ Before December 13th:
 
   ``sage -b blad``
 
-- For those planning to do development: get acquainted with the version control system Mercurial.
+- For everyone: get acquainted with Sage's basic usage:
 
-  See: `Mercurial Tutorial <http://mercurial.selenic.com/wiki/Tutorial>`_
+  - `The Sage tutorial <http://www.sagemath.org/doc/tutorial/>`_
+  - `Calcul Mathématique avec Sage <http://sagebook.gforge.inria.fr/>`_
 
 - For everyone: get acquainted with Sage's workflow, and in particular `Sage's ticket server <http://www.sagemath.org/doc/developer/trac.html>`_
+
+- For everyone: get acquainted with the version control system Mercurial:
+
+  - `The Mercurial Tutorial <http://mercurial.selenic.com/wiki/Tutorial>`_
 
 - Build/choose a couple examples, from trivial to complex, showing how libBLAD is to be called from C, and the equivalent call from Maple
 
