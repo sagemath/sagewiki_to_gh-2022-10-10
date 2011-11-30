@@ -26,6 +26,7 @@ PARTICIPANTS:
  * Karl-Dieter Crisman (Gordon College)
  * Ian Stokes-Rees (Harvard)
  * Benjamin Jones (UW-Stout)
+ * Amy Feaver (CU Boulder)
 
 Participating remotely:
 
