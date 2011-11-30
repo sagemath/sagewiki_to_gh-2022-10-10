@@ -15,7 +15,7 @@ Before December 13th:
 
   Test: the following command (creating a new branch for blad's development within Sage) should work:
 
-  ``sage -b blad``
+  ``sage -clone blad``
 
 - For everyone: get acquainted with Sage's basic usage:
 
