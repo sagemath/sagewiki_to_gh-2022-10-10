@@ -3,11 +3,14 @@ Sage-Combinat days in Orsay, January/February 2012
 ==================================================
 
 FlorentHivert: I'm thinking about organizing a small one-week coding
-sprint around January-February in the south-west of Paris. Following
-the \*-Combinat tradition I plan to reserve the guest house at
-Cernay-la-Ville:
+sprint around January-February in the south-west of Paris. 
 
-    http://www.cernayvacances.com/CEngels.html (the tower)
+The dates need to be chosen very soon; please fill in `this poll <http://nuages.domainepublic.net/cd7d/vote/>`_.
+
+
+Following the \*-Combinat tradition I plan to reserve the `guest house the tower <http://www.cernayvacances.com/CEngels.html>`_  at Cernay-la-Ville:
+
+    
 
 It is very nice an cosy, 35 minutes train + 15 minutes bus away from
 downtown Paris. It can accommodate 8-10 people, and if needed there is
