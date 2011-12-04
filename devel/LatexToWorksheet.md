@@ -91,6 +91,7 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/11725|11725]] || random elements of algebraic field || 4.7.2.alpha3 ||Simon Spicer, Leif Leonhardy ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || sage-4.7.2.alpha4 || Simon Spicer, Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11555|11555]] || expand print version of free module morphisms || sage-4.8.alpha1 || ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11721|11721]] || arguments to rows(), columns(), jordan_block() || sage-4.8.alpha2 || ||
 
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
@@ -106,7 +107,6 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/11603|11603]] || deprecate eigenspaces for matrices over RDF/CDF || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11608|11608]] || RDF/CDF eigenvalues, symmetric matrices, multiplicities || with patch || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11715|11715]] || upgrade matrix set_row() and set_column() || with patch || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11721|11721]] || arguments to rows(), columns(), jordan_block() || with patch || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 || [[http://trac.sagemath.org/sage_trac/ticket/4932 | 4932]] || remove solve-left-LU || needs work ||  ||
