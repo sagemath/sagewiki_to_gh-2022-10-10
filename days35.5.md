@@ -27,6 +27,7 @@ PARTICIPANTS:
  * Ian Stokes-Rees (Harvard)
  * Benjamin Jones (UW-Stout)
  * Amy Feaver (CU Boulder)
+ * Volker Braun (Dublin Inst. for Adv. Studies)
 
 Participating remotely:
 
