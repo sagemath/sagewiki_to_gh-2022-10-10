@@ -38,6 +38,8 @@ Viviane Pons : very much interested, available mostly in February (6-10, 13-17, 
 
 Jean-Pierre Flori : Interested as well. I don't think I'll be able to attend the whole week, but two or three days should be ok. I'd better avoid the last week of January, first of February if possible. As far as the topics are concerned, I'd love to have a deeper look into the coercion system and its caching mecanism to get a better understanding of it and to solve bug #715. If anyone is interested, we could also have a look at some symbolic issues in pynac (which could be of interest for combinat people).
 
+Vincent Delecroix : available in January and the begining of February. What I expect to implement and/or submit to Sage: implementations of Gray codes (for much faster generation), iterator for conjugacy class of the symmetric group (the call to Gap takes hours), flat surfaces (quadratic differentials, topolgoy stuff, origamis, ...), language and symbolic dynamics. I would like to hear about the code in Sage (and more generally about algorithms) for generating things up to isomorphism (like graphs, Integer vectors and co).
+
 We would love to have some hard core Cython and/or Sage developer at
 hand :-)
 
