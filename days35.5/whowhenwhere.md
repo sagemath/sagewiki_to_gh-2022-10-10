@@ -1,1 +1,5 @@
-Describe days35.5/whowhenwhere here.
+This is a semi-private page - nothing links to this - for us to keep track of who will be where when for Sage Days 35.5.  Please update it for yourself!
+
+||<rowstyle="background-color: #E0E0FF;">Name|| Arrival (inc. flt. info.) || Departure (same) || Nights at Wylie Center || Rooming With ||
+||<rowstyle="background-color: #FFFFEE">Karl-Dieter Crisman||Monday||Thursday||None||NA||
+||<rowstyle="background-color: #FFFFEE">Aaron Aardvark||Sunday night, Delta # xyzw||Wed. 3:30 PM, Driving||Su-Tu||TBA||
