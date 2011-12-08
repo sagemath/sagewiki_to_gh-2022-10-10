@@ -28,6 +28,7 @@ PARTICIPANTS:
  * Benjamin Jones (UW-Stout)
  * Amy Feaver (CU Boulder)
  * Volker Braun (Dublin Inst. for Adv. Studies)
+ * Karen Kohl (U Southern Mississippi)
 
 Participating remotely:
 
