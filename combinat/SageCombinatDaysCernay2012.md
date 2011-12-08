@@ -40,7 +40,16 @@ Jean-Pierre Flori : Interested as well. I don't think I'll be able to attend the
 
 Vincent Delecroix : What I expect to implement and/or submit to Sage: implementations of Gray codes (for much faster generation), iterator for conjugacy class of the symmetric group (the call to Gap takes hours), flat surfaces (quadratic differentials, topolgoy stuff, origamis, ...), language and symbolic dynamics. I would like to hear about the code in Sage (and more generally about algorithms) for generating things up to isomorphism (like graphs, Integer vectors and co).
 
-We would love to have some hard core Cython and/or Sage developer at
-hand :-)
+
+ThierryMonteil:
+
+ * flat surfaces via G-maps (in which state are the Permutations currently? or should we use pointers or existing libs like CGAL ?).
+ * need help to build a class `TileSet` in a good way.
+ * having OEIS work again (i have working parsers ready for a while, but would like to have them in a class, not as functions like `sloane_search()`, maybe the same as the existing for offline oeis ?).
+ * word combinatorics : `tangent_words` as `WordPaths` ; `tangent_analytic_words` ; discussion about languages.
+
+
+
+We would love to have some hard core Cython and/or Sage developer at hand :-)
 
 }}}
