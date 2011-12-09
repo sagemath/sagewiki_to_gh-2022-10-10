@@ -1,6 +1,6 @@
 I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 
-  http://www.math.ucla.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
+  http://www.scf-usc.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
 
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
@@ -29,11 +29,10 @@ I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 
   Research Statement http://sage.math.washington.edu/home/burhanud/app11/restat11/iftikhar.burhanuddin.restat11.pdf
 
-* [[Talks| Make wikipage about Talks related to SAGE (plan)]]
-
-
 
 === Old Stuff ===
+
+* [[Talks| Make wikipage about Talks related to SAGE (plan)]]
 
 * Editing the SAGE programming guide in time for the release of sage-2.0
 
