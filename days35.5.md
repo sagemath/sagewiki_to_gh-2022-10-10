@@ -29,6 +29,9 @@ PARTICIPANTS:
  * Amy Feaver (CU Boulder)
  * Volker Braun (Dublin Inst. for Adv. Studies)
  * Karen Kohl (U Southern Mississippi)
+ * Cassie Williams (Colorado State University)
+ * Lola Thompson (Dartmouth College)
+ 
 
 Participating remotely:
 
