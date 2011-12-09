@@ -27,7 +27,7 @@ I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 
 * My research is pretty SAGEy
 
-  Research Statement http://sage.math.washington.edu/home/burhanud/app11/iftikhar.burhanuddin.restat11.pdf
+  Research Statement http://sage.math.washington.edu/home/burhanud/app11/restat11/iftikhar.burhanuddin.restat11.pdf
 
 * [[Talks| Make wikipage about Talks related to SAGE (plan)]]
 
