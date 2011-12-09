@@ -1,6 +1,6 @@
 I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 
-  http://www.scf-usc.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
+  http://www-scf.usc.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
 
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
