@@ -20,3 +20,11 @@ Linear algebra over GF(p^k) can be reduced to linear algebra over GF(p) and for 
 == BKZ 2.0 ==
 
 At !AsiaCrypt 2011 Chen and Nguyen [[http://www.springerlink.com/content/m036804m1m538722/ |presented]] their new BKZ implementation which is much much more efficient than that in NTL. As far as I understand, the main improvements are due to "extreme pruning" as presented in a [[http://www.springerlink.com/content/x3l7g80454x11116/ |paper]] at !EuroCrypt 2010 and perhaps careful parameter choice. As far as I understand, they do not plan to make their code available. I don't know how much work it would be, but perhaps it would be a nice idea to patch NTL's BKZ to include extreme prunning and/or to port it to Flint2?
+
+== Improve polynomial factoring mod p in flint2 ==
+
+The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be optimized:
+
+  * Make exponentiation faster by precomputing a Newton inverse of the modulus
+  * Use sliding window exponentiation
+  * Use the von zur Gathen / Shoup algorithm (adapt the fast power series composition code for modular composition)
