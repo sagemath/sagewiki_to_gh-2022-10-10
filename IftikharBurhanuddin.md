@@ -8,14 +8,6 @@ I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 * [[http://modular.math.washington.edu/sage/apps/|Example Scripts]]
 
 
-* Editing the SAGE programming guide in time for the release of sage-2.0
-
-  http://modular.math.washington.edu/sage/doc/html/prog/index.html
-
-* Editing the SAGE reference manual (and build process?) in time for the release of sage-2.0 (plan)
-
-  http://sage.math.washington.edu/sage/doc/html/ref/index.html
-
 * Mestre's method of graphs project which started at the  [[http://modular.math.washington.edu/msri06|MSRI Computing with Modular Forms]] workshop. 
 
   Check out: 
@@ -32,6 +24,26 @@ I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 
   algorithms http://modular.math.washington.edu/home/burhanud/volume.pdf
 
+
+* My research is pretty SAGEy
+
+  Research Statement http://sage.math.washington.edu/home/burhanud/app11/iftikhar.burhanuddin.restat11.pdf
+
+* [[Talks| Make wikipage about Talks related to SAGE (plan)]]
+
+
+
+=== Old Stuff ===
+
+* Editing the SAGE programming guide in time for the release of sage-2.0
+
+  http://modular.math.washington.edu/sage/doc/html/prog/index.html
+
+* Editing the SAGE reference manual (and build process?) in time for the release of sage-2.0 (plan)
+
+  http://sage.math.washington.edu/sage/doc/html/ref/index.html
+
+
 * Wrapping Denis Simon's 2-descent (plan)
 
 * Dekinking some SAGE tab completion kinks (plan)
@@ -40,11 +52,5 @@ I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
   
   http://sage.math.washington.edu/msri07
 
-
-* My research is pretty SAGEy
-
-  Research Statement http://sage.math.washington.edu/home/burhanud/job_app/restat.pdf
-
-* [[Talks| Make wikipage about Talks related to SAGE (plan)]]
 
 CategoryHomepage
