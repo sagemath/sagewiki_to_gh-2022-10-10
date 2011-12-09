@@ -5,8 +5,6 @@ I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
 
-* [[http://modular.math.washington.edu/sage/apps/|Example Scripts]]
-
 
 * Mestre's method of graphs project which started at the  [[http://modular.math.washington.edu/msri06|MSRI Computing with Modular Forms]] workshop. 
 
@@ -51,5 +49,6 @@ I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
   
   http://sage.math.washington.edu/msri07
 
+* [[http://modular.math.washington.edu/sage/apps/|Example Scripts]]
 
 CategoryHomepage
