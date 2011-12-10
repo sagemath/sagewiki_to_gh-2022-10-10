@@ -4692,6 +4692,7 @@ auto-ready\.com
 lacapila\.com
 hotelsinamsterdam-netherlands\.com
 refrigeration-repair-tips\.com
+pandoracharm-uk\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
