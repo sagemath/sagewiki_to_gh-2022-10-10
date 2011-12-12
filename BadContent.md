@@ -2625,6 +2625,7 @@ sweet-?(horny|hotgirls).com
 sweetapussy\.info
 swinger-story.blogspot.com
 swing-in-golf.com
+swissking\.net
 switch168.com
 switch88.com
 sxcoal.com
