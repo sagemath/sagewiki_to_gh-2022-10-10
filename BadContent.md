@@ -4694,6 +4694,7 @@ lacapila\.com
 hotelsinamsterdam-netherlands\.com
 refrigeration-repair-tips\.com
 pandoracharm-uk\.com
+swissking\.net
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
