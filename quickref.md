@@ -4,7 +4,7 @@
 
  * '''Sage Quick Reference''' by William Stein (March 2009) - [[attachment:quickref.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf|download]] (and the source [[attachment:quickref.tar.bz2]])
 
- * '''Sage Linear Algebra Quick Reference''' by Robert A. Beezer (May 2009) - [[attachment:quickref-linalg.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-linalg.pdf|download]] (and the source [[attachment:quickref-linalg.tex]])
+ * '''Sage Linear Algebra Quick Reference''' by Robert A. Beezer (December 2011, Sage 4.8) - [[attachment:quickref-linalg.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-linalg.pdf|download]] (source [[attachment:quickref-linalg.tex]])
 
  * '''Sage Elementary Number Theory Quick Reference''' by William Stein (April 2009) - [[attachment:quickref-nt.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-nt.pdf|download]] (and the source [[attachment:quickref-nt.tar.bz2]])
 
