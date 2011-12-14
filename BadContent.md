@@ -4696,6 +4696,9 @@ hotelsinamsterdam-netherlands\.com
 refrigeration-repair-tips\.com
 pandoracharm-uk\.com
 swissking\.net
+watchonetreehill\.org
+www-e-bad-credit-credit-cards\.com
+surgerythailand\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
