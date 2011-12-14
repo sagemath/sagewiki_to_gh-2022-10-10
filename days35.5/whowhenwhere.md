@@ -6,3 +6,4 @@ This is a semi-private page - nothing links to this - for us to keep track of wh
 ||<rowstyle="background-color: #FFFFEE">Benjamin Jones||Sunday night (train from Boston)||Wed. morning (train back to Boston)||Su-Tu||TBA||
 ||<rowstyle="background-color: #FFFFEE">Karen Kohl||Sunday afternoon, Delta #2288 ||Fri. noon, Delta #1801 ||Su-Th||Amy Feaver||
 ||<rowstyle="background-color: #FFFFEE">Peter Story||Monday||Friday||None||NA||
+||<rowstyle="background-color: #FFFFEE">Cassie Williams||Sunday afternoon ||Wednesday night ||Sun-Tues||Lola Thompson||
