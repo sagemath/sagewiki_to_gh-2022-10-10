@@ -23,7 +23,6 @@ This table tracks patches meant to support the teaching of introductory linear a
 
 Some tickets below that are available for review can be seen building and passing tests at the [[http://sage.math.washington.edu:21100/ticket/?author=rbeezer|Sage PatchBot]].  Failures can be due to improper listing of necessary prerequisites, or builds not caught up with latest alpha version, so do not necessarily mean a ticket is not ready for review.
 
-Items in ~+'''RED'''+~ are urgently needed because they are used in textbook additions.
 
 ||<rowstyle="background-color: #E0E0FF;"> Ticket ||  Description || Status || Acknowledgements ||
 || [[http://trac.sagemath.org/sage_trac/ticket/8071 | 8071]] || trivial matrix kernels over non-fields || 4.4.alpha0 || Martin Albrecht ||
@@ -89,17 +88,17 @@ Items in ~+'''RED'''+~ are urgently needed because they are used in textbook add
 || [[http://trac.sagemath.org/sage_trac/ticket/11595|11595]] || update exact eigenspace routines || 4.7.2.alpha3 || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11657|11657]] || vector() function speed || 4.7.2.alpha3 ||Joint: William Stein ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11725|11725]] || random elements of algebraic field || 4.7.2.alpha3 ||Simon Spicer, Leif Leonhardy ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || sage-4.7.2.alpha4 || Simon Spicer, Martin Raum ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || sage-4.7.2.alpha4 || Martin Raum, Jeroen Demeyer ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11555|11555]] || expand print version of free module morphisms || sage-4.8.alpha1 || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11721|11721]] || arguments to rows(), columns(), jordan_block() || sage-4.8.alpha2 || ||
-|| [[http://trac.sagemath.org/sage_trac/ticket/11556|11556]] || linear transformations || sage-4.8.alpha4 || Martin Raum ||
-
+|| [[http://trac.sagemath.org/sage_trac/ticket/11848|11848]] || zero_at method for RDF/CDF vectors || 4.7.2.alpha3 || Leif Leonhardy  ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10802|10802]] || singular values for matrices over CDF || 4.7.2.alpha4 || Martin Raum, Jeroen Demeyer ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/10837|10837]] || matrix and vector norms, condition number over CDF || 4.7.2.alpha4 || Simon Spicer, Martin Raum, Jeroen Demeyer ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11555|11555]] || expand print version of free module morphisms || 4.8.alpha1 || Julian Rueth ||
+|| [[http://trac.sagemath.org/sage_trac/ticket/11721|11721]] || arguments to rows(), columns(), jordan_block() || 4.8.alpha2 || Johan Bosman ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
+||[[http://trac.sagemath.org/sage_trac/ticket/11556|11556]] || linear transformations || positive review || Martin Raum, Jason Grout ||
+||[[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || positive review || Martin Raum, John Palmieri, Jason Grout ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> || || || ||
-||<rowstyle="color: #FF0000;"> [[http://trac.sagemath.org/sage_trac/ticket/10791|10791]] || fix and upgrade Gram-Schmidt || with patch || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/10795|10795]] || QR double dense matrix decomposition upgrade || with patch || Martin Raum ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11104|11104]] || is_normal() for matrices || with patch ||  ||
 || [[http://trac.sagemath.org/sage_trac/ticket/11306|11306]] || upgrade is_unitary() for RDF/CDF || with patch, dep. #10848, #11277 ||  ||
