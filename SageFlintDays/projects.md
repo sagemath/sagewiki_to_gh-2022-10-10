@@ -13,6 +13,55 @@ Please feel free to add more
 
 Flint2 has an implementation for asymptotically fast linear algebra mod p for p up to 2^64. I (malb) am curious whether it can be improved using ideas inspired by M4RIE, i.e., replace multiplications by additions using pre-computation tables. Whether this is beneficial will depend on how much slower multiplication is than additions.
 
+'''Update (2011-12-15 10:57):''' It seems the difference between scalar multiplication and addition is too small for these tricks to make sense. 
+
+{{{#!c
+#include <flint.h>
+#include <nmod_mat.h>
+#include <profiler.h>
+#include <stdio.h>
+
+#include "cpucycles-20060326/cpucycles.h"
+
+int main(int argc, char *argv[]) {
+  nmod_mat_t A,B,C;
+  flint_rand_t state;
+  unsigned long long cc0 = 0, cc1 = 0;
+  unsigned long i,j;
+
+  unsigned long long p = 4294967311ULL;
+
+  flint_randinit(state);
+
+  nmod_mat_init(A, 2000, 2000, p);
+  nmod_mat_init(C, 2000, 2000, p);
+  nmod_mat_randfull(A, state);
+
+  cc0 = cpucycles();
+  nmod_mat_scalar_mul(C, A, 14234);
+  cc0 = cpucycles() - cc0;
+  printf("scalar multiplication: %llu\n",cc0);
+
+  cc1 = cpucycles();
+  for (i = 0; i < A->r; i++) {
+    for (j = 0; j < A->c; j++) {
+      C->rows[i][j] =  A->rows[i][j] + A->rows[i][j];
+    }
+  }
+  cc1 = cpucycles() - cc1;
+  printf("addition: %llu\n",cc1);
+
+  printf("ratio: %lf\n",((double)cc0)/(double)cc1);
+
+  nmod_mat_clear(A);
+  nmod_mat_clear(C);
+  flint_randclear(state);
+  return 0;
+}
+}}}
+
+Gives a ratio of about 4.5.
+
 == Linear algebra mod p^n, for log_2 p small-ish ==
 
 Linear algebra over GF(p^k) can be reduced to linear algebra over GF(p) and for GF(2^k) the performance is very nice. Hence, it would be a good project to develop some somewhat generic infrastructure for dense matrices over GF(p^k), or even *any* extension field? The natural place to put this would be LinBox but perhaps we can start stand-alone and then integrate it with LinBox if LinBox is too scary to start with.
