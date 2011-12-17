@@ -9,11 +9,24 @@ Please feel free to add more
 
  * People: Bill H., Mike H., Fredrik J., Andy N., Sebastian P.
 
- * Update MPFR to 3.1.0 - http://trac.sagemath.org/sage_trac/ticket/11666
-   (Mike Hansen)
+ * Building flint2 in Sage
+   1. Update MPFR to 3.1.0 - http://trac.sagemath.org/sage_trac/ticket/11666
+      http://sage.math.washington.edu/mpfr-3.1.0.spkg
+      (Mike Hansen)
 
- * Update MPFI to 1.5.0 - http://trac.sagemath.org/sage_trac/ticket/12171
-   (Mike Hansen)
+   2. Update MPFI to 1.5.0 - http://trac.sagemath.org/sage_trac/ticket/12171
+      http://sage.math.washington.edu/home/mhansen/mpfi-1.5.0.spkg
+      (Mike Hansen)
+
+   3. Reinstall http://sagemath.org/packages/standard/libfplll-3.0.12.p1.spkg
+
+   4. Install flint2 spkg (beware, this will break Sage)
+      http://sage.math.washington.edu/flint-2.3.spkg
+
+   5. touch SAGE_ROOT/devel/sage/sage/combinat/partitions.*
+
+   6. Run "sage -b"
+
 
 == Switch some of the /eclib/mwrank code to use flint2, and upgrade the eclib spkg in Sage ==
 
