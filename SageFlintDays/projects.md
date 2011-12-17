@@ -105,3 +105,13 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
  * People: David L., John C., Frithjof, Johan B., Maarten D., Martin R., Simon K.
  * review patches
  * fix that one patch that had a problem
+
+== Open MP + FLINT == 
+
+ * People: David H., Fredrik J., Bogdan B., Julian R., 
+
+== Miscellaneous Sage Algebra and Number Theory patches ==
+
+ * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B.
+ 
+ 
