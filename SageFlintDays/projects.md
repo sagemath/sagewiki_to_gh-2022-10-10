@@ -9,6 +9,9 @@ Please feel free to add more
 
  * Update MPFR to 3.1.0 - http://trac.sagemath.org/sage_trac/ticket/11666
    (Mike Hansen)
+
+ * People: Bill H., Mike H., Fredrik J., Andy N., Sebastian P.
+
  * Update MPFI to 1.5.0 - http://trac.sagemath.org/sage_trac/ticket/12171
    (Mike Hansen)
 
