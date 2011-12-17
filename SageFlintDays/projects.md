@@ -92,8 +92,16 @@ At !AsiaCrypt 2011 Chen and Nguyen [[http://www.springerlink.com/content/m036804
 
 == Improve polynomial factoring mod p in flint2 ==
 
+ * People: Fredrik J., Andy N., David H.
+
 The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be optimized:
 
   * Make exponentiation faster by precomputing a Newton inverse of the modulus
   * Use sliding window exponentiation
   * Use the von zur Gathen / Shoup algorithm (adapt the fast power series composition code for modular composition)
+
+== Modular forms code in Sage ==
+
+ * People: David L., John C., Frithjof, Johan B., Maarten D., Martin R., Simon K.
+ * review patches
+ * fix that one patch that had a problem
