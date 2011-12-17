@@ -106,7 +106,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
  * review patches
  * fix that one patch that had a problem
 
-== Open MP + FLINT == 
+== Open MP and  FLINT == 
 
  * People: David H., Fredrik J., Bogdan B., Julian R., 
 
@@ -114,4 +114,13 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
  * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B.
  
- 
+== Simon and ComputeL GP scripts ==
+
+ * People: John C., Martin R.
+ * Revive work of March Sage Days
+
+== Elliptic curve isogenies ==
+
+ * People: Kimi T., John C., Fran&ccedil;ois Morain.
+
+== 
