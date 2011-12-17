@@ -15,7 +15,7 @@ Please feel free to add more
  * Update MPFI to 1.5.0 - http://trac.sagemath.org/sage_trac/ticket/12171
    (Mike Hansen)
 
-== Switch some of the mwrank code to use flint2 ==
+== Switch some of the /eclib/mwrank code to use flint2, and upgrade the eclib spkg in Sage ==
 
  * People: John C., David H., Martin R., Maarten D., Flint developers
 
