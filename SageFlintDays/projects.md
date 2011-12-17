@@ -139,13 +139,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 == Elliptic curve isogenies ==
 
  * People: Kimi T., John C., Fran&ccedil;ois Morain., Monique v B., &Ouml;zge &Ccedil;., Marco S.
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
- * Sage has a fast implementation of l-isogenies for l=2,3,5,7,13 (for which the X_0(l) has genus zero). Kimi has a similarly fast algorithm for those l for which X_0(l) is hyperelliptic (l up to 71), implemented in Sage, which need to be made into a patch for Sage.
-
----- /!\ '''End of edit conflict''' ----
+ * Sage has a fast implementation of l-isogenies for l=2,3,5,7,13 (for which X_0(l) has genus zero). Kimi has a similarly fast algorithm for those l for which X_0(l) is hyperelliptic (l up to 71), implemented in Sage, which need to be made into a patch for Sage.
 
 == Mestre's algorithm for constructing hyperelliptic curves from their invariants ==
 
