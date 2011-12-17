@@ -5,6 +5,9 @@ Please feel free to add more
 
 == Put flint2 into Sage ==
 
+ * Update MPFR to 3.1.0 - http://trac.sagemath.org/sage_trac/ticket/11666
+   (Mike Hansen)
+
 == Switch some of the mwrank code to use flint2 ==
 
 == Help the Singular developers make better use of flint2 ==
