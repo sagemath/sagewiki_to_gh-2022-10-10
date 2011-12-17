@@ -106,7 +106,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
  * review patches
  * fix that one patch that had a problem
 
-== Open MP and FLINT == 
+== Open MP and FLINT ==
 
  * People: David H., Fredrik J., Bogdan B., Julian R., 
 
