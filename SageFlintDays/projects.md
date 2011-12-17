@@ -117,10 +117,13 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
 == Modular forms code in Sage ==
 
- * People: David L., John C., Frithjof, Johan B., Maarten D., Martin R., Simon K., Marco S.
+ * People: David L., John C., Jan V., Frithjof, Johan B., Maarten D., Martin R., Simon K., Marco S.
  * review patches
-    #5048: Johan B. has done this one.
- * fix that one patch that had a problem
+    * #5048: Johan B. has done this one.
+    * #11601: depends on #5048; needs rebase: DL working on this
+    * #10546: depends on #11601; Jan V to take a look
+    * #12043: DL to work on this
+    * #10658: Martin R and Frithjof will have a look at this
 
 == Open MP and FLINT ==
 
