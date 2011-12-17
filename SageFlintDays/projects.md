@@ -106,13 +106,13 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
  * review patches
  * fix that one patch that had a problem
 
-== Open MP and  FLINT == 
+== Open MP and FLINT == 
 
  * People: David H., Fredrik J., Bogdan B., Julian R., 
 
 == Miscellaneous Sage Algebra and Number Theory patches ==
 
- * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B.
+ * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan
  
 == Simon and ComputeL GP scripts ==
 
@@ -123,4 +123,6 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
  * People: Kimi T., John C., Fran&ccedil;ois Morain., Monique v B., &Ouml;zge &Ccedil;.
 
- 
+== Mestre's algorithm for constructing hyperelliptic curves from their invariants ==
+
+ * People: Florian B., people from projects 10 and 12
