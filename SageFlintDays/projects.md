@@ -115,7 +115,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
 == Modular forms code in Sage ==
 
- * People: David L., John C., Frithjof, Johan B., Maarten D., Martin R., Simon K.
+ * People: David L., John C., Frithjof, Johan B., Maarten D., Martin R., Simon K., Marco S.
  * review patches
  * fix that one patch that had a problem
 
@@ -125,21 +125,26 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
 == Miscellaneous Sage Algebra and Number Theory patches ==
 
- * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan
+ * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S.
  
 == Simon and ComputeL GP scripts ==
 
- * People: John C., Martin R.
+ * People: John C., Martin R., Marco S.
  * Revive work of March Sage Days
 
 == Elliptic curve isogenies ==
 
- * People: Kimi T., John C., Fran&ccedil;ois Morain., Monique v B., &Ouml;zge &Ccedil;.
+ * People: Kimi T., John C., Fran&ccedil;ois Morain., Monique v B., &Ouml;zge &Ccedil;., Marco S.
 
 == Mestre's algorithm for constructing hyperelliptic curves from their invariants ==
 
- * People: Florian B., people from projects 10 and 12
+ * People: Florian B., people from projects 10 and 12, Marco S.
+ * Code for Mestre's algorithm is there (Florian), make this into a patch
+ * Reduction of points for SL_2_ is also needed
+
+   * easy for QQ
+   * very interesting for number fields (Marco)
 
 == Tate's Algorithm over function fields ==
 
- * People: Frithjof S, John C.
+ * People: Frithjof S, John C., Marco S.
