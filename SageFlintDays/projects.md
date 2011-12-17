@@ -17,9 +17,11 @@ Please feel free to add more
 
 == Switch some of the mwrank code to use flint2 ==
 
- * People: John C.
+ * People: John C., David H., Martin R., Maarten D., Flint developers
 
 == Help the Singular developers make better use of flint2 ==
+
+ * People: Martin L., Simon K., Flint developers
 
 == Linear algebra mod p, for log_2 p = 64 ==
 
