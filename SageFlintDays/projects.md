@@ -2,6 +2,8 @@
 
 Please feel free to add more
 
+<<TableOfContents>>
+
 
 == Put flint2 into Sage ==
 
