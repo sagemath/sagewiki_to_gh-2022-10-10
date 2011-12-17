@@ -126,3 +126,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 == Mestre's algorithm for constructing hyperelliptic curves from their invariants ==
 
  * People: Florian B., people from projects 10 and 12
+
+== Tate's Algorithm over function fields ==
+
+ * People: Frithjof S, John C.
