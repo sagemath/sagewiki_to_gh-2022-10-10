@@ -124,6 +124,8 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * #10546: depends on #11601; Jan V to take a look
     * #12043: DL to work on this
     * #10658: Martin R and Frithjof will have a look at this
+    * #12124: Martin R and Frithjof will have a look at this
+
 
 == Open MP and FLINT ==
 
