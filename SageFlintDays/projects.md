@@ -155,3 +155,5 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 == Tate's Algorithm over function fields ==
 
  * People: Frithjof S, John C., Marco S.
+
+There is a Magma implementation based on John's number field implementation [[http://www.maths.nottingham.ac.uk/personal/cw/algorithms.html|here]].
