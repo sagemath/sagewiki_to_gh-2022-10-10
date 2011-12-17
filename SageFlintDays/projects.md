@@ -25,6 +25,8 @@ Please feel free to add more
 
 == Linear algebra mod p, for log_2 p = 64 ==
 
+ * People: Martin A., if it is still going to happen
+
 Flint2 has an implementation for asymptotically fast linear algebra mod p for p up to 2^64. I (malb) am curious whether it can be improved using ideas inspired by M4RIE, i.e., replace multiplications by additions using pre-computation tables. Whether this is beneficial will depend on how much slower multiplication is than additions.
 
 '''Update (2011-12-15 10:57):''' It seems the difference between scalar multiplication and addition is too small for these tricks to make sense. 
@@ -78,7 +80,9 @@ Gives a ratio of about 4.5.
 
 == Linear algebra mod p^n, for log_2 p small-ish ==
 
-Linear algebra over GF(p^k) can be reduced to linear algebra over GF(p) and for GF(2^k) the performance is very nice. Hence, it would be a good project to develop some somewhat generic infrastructure for dense matrices over GF(p^k), or even *any* extension field? The natural place to put this would be LinBox but perhaps we can start stand-alone and then integrate it with LinBox if LinBox is too scary to start with.
+ * Martin A.
+
+Linear algebra over GF(p^k^) can be reduced to linear algebra over GF(p) and for GF(2^k^) the performance is very nice. Hence, it would be a good project to develop some somewhat generic infrastructure for dense matrices over GF(p^k), or even *any* extension field? The natural place to put this would be LinBox but perhaps we can start stand-alone and then integrate it with LinBox if LinBox is too scary to start with.
 
 == BKZ 2.0 ==
 
