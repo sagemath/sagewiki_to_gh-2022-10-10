@@ -32,6 +32,8 @@ Please feel free to add more
 
  * People: John C., David H., Martin R., Maarten D., Flint developers
 
+ * Sage has a rather old version of eclib in it.  It should be easy to upgrade the spkg.
+
 == Help the Singular developers make better use of flint2 ==
 
  * People: Martin L., Simon K., Flint developers
