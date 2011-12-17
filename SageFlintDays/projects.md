@@ -121,6 +121,6 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
 == Elliptic curve isogenies ==
 
- * People: Kimi T., John C., Fran&ccedil;ois Morain.
+ * People: Kimi T., John C., Fran&ccedil;ois Morain., Monique v B., &Ouml;zge
 
-== 
+ 
