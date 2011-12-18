@@ -140,7 +140,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 == Simon and ComputeL GP scripts ==
 
  * People: John C., Martin R., Marco S.
- * Revive work of March Sage Days
+ * Revive work of March Sage Days: see http://trac.sagemath.org/sage_trac/ticket/11005
 
 == Elliptic curve isogenies ==
 
