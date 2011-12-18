@@ -40,7 +40,7 @@ Please feel free to add more
 
 == Linear algebra mod p, for log_2 p = 64 ==
 
- * People: Martin A., if it is still going to happen
+ * People: Martin A.
 
 Flint2 has an implementation for asymptotically fast linear algebra mod p for p up to 2^64. I (malb) am curious whether it can be improved using ideas inspired by M4RIE, i.e., replace multiplications by additions using pre-computation tables. Whether this is beneficial will depend on how much slower multiplication is than additions.
 
@@ -91,7 +91,7 @@ int main(int argc, char *argv[]) {
 }
 }}}
 
-Gives a ratio of about 4.5.
+Gives a ratio of about 4.5. But then, some of it is due to load/store times, so it might still make sense to try.
 
 == Linear algebra mod p^n, for log_2 p small-ish ==
 
@@ -101,7 +101,7 @@ Linear algebra over GF(p^k^) can be reduced to linear algebra over GF(p) and for
 
 == BKZ 2.0 ==
 
- * People: mysterious people who added this project, Andy N.
+ * People: Martin A., Andy N.
 
 At !AsiaCrypt 2011 Chen and Nguyen [[http://www.springerlink.com/content/m036804m1m538722/ |presented]] their new BKZ implementation which is much much more efficient than that in NTL. As far as I understand, the main improvements are due to "extreme pruning" as presented in a [[http://www.springerlink.com/content/x3l7g80454x11116/ |paper]] at !EuroCrypt 2010 and perhaps careful parameter choice. As far as I understand, they do not plan to make their code available. I don't know how much work it would be, but perhaps it would be a nice idea to patch NTL's BKZ to include extreme pruning and/or to port it to Flint2?
 
