@@ -133,10 +133,11 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
 == Miscellaneous Sage Algebra and Number Theory patches ==
 
- * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S.
+ * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S., Paul Z.
  * Suggested patch numbers:
-    * #4283
-    * #12176
+    * http://trac.sagemath.org/sage_trac/ticket/4283
+    * http://trac.sagemath.org/sage_trac/ticket/12176
+    * http://trac.sagemath.org/sage_trac/ticket/11521 (memleak with elliptic curves)
  
 == Simon and ComputeL GP scripts ==
 
