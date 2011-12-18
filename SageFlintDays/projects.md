@@ -135,7 +135,8 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
  * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S.
  * Suggested patch numbers:
-      #4283
+    * #4283
+    * #12176
  
 == Simon and ComputeL GP scripts ==
 
