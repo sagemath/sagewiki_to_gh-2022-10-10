@@ -38,6 +38,8 @@ Please feel free to add more
 
  * People: Martin L., Simon K., Burcin E., Flint developers
 
+Updated my (mlee) experimental interface from Flint2 to Singular, to make use of the new polynomial factorization over Z/p. This sped up some of Singular's tests by a factor of 2 (compared to the regular Singular which uses NTL). However there are still some issues related to maybe mpir and/or the lack of a half gcd in Flint2 which need to be investaged.
+
 == Linear algebra mod p, for log_2 p = 64 ==
 
  * People: Martin A.
