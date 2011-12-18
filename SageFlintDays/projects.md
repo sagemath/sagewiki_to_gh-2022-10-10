@@ -32,7 +32,7 @@ Please feel free to add more
 
  * People: John C., David H., Martin R., Maarten D., Flint developers
 
- * Sage has a rather old version of eclib in it.  It should be easy to upgrade the spkg.
+ * Sage has a rather old version of eclib in it.  It should be easy to upgrade the spkg.  DONE:  http://trac.sagemath.org/sage_trac/ticket/10993 is ready for review.
 
 == Help the Singular developers make better use of flint2 ==
 
