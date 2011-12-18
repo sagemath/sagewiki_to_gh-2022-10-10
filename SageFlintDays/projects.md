@@ -36,7 +36,7 @@ Please feel free to add more
 
 == Help the Singular developers make better use of flint2 ==
 
- * People: Martin L., Simon K., Flint developers
+ * People: Martin L., Simon K., Burcin E., Flint developers
 
 == Linear algebra mod p, for log_2 p = 64 ==
 
@@ -95,7 +95,7 @@ Gives a ratio of about 4.5.
 
 == Linear algebra mod p^n, for log_2 p small-ish ==
 
- * People: Martin A., Simon K., Johan B.
+ * People: Martin A., Simon K., Johan B., Burcin E.
 
 Linear algebra over GF(p^k^) can be reduced to linear algebra over GF(p) and for GF(2^k^) the performance is very nice. Hence, it would be a good project to develop some somewhat generic infrastructure for dense matrices over GF(p^k), or even *any* extension field? The natural place to put this would be LinBox but perhaps we can start stand-alone and then integrate it with LinBox if LinBox is too scary to start with.
 
