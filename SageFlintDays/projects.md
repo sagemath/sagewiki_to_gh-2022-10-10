@@ -97,7 +97,7 @@ Gives a ratio of about 4.5.
 
  * People: Martin A., Simon K., Johan B., Burcin E.
 
-Linear algebra over GF(p^k^) can be reduced to linear algebra over GF(p) and for GF(2^k^) the performance is very nice. Hence, it would be a good project to develop some somewhat generic infrastructure for dense matrices over GF(p^k), or even *any* extension field? The natural place to put this would be LinBox but perhaps we can start stand-alone and then integrate it with LinBox if LinBox is too scary to start with.
+Linear algebra over GF(p^k^) can be reduced to linear algebra over GF(p) and for GF(2^k^) the performance is very nice. Hence, it would be a good project to develop some somewhat generic infrastructure for dense matrices over GF(p^k), or even *any* extension field? The natural place to put this would be LinBox but perhaps we can start stand-alone and then integrate it with LinBox if LinBox is too scary to start with. Some references (concerning prime slicing) are given at trac ticket [[http://trac.sagemath.org/sage_trac/ticket/12177|#12177]]
 
 == BKZ 2.0 ==
 
