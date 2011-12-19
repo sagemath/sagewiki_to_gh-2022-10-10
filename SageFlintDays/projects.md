@@ -44,7 +44,6 @@ In the near future it would be great if FLINT supported:
 
  * asymptotically fast GCD for Z[x]
  * build system improvements
-  * static libraries
   * version number in header file (to help auto* decide if we have the right version)
 
 
