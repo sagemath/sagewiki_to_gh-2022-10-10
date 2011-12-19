@@ -40,6 +40,19 @@ Please feel free to add more
 
 Updated my (mlee) experimental interface from Flint2 to Singular, to make use of the new polynomial factorization over Z/p. This sped up some of Singular's tests by a factor of 2 (compared to the regular Singular which uses NTL). However there are still some issues related to maybe mpir and/or the lack of a half gcd in Flint2 which need to be investaged.
 
+In the near future it would be great if FLINT supported:
+
+ * asymptotically fast GCD for Z[x]
+ * build system improvements
+  * static libraries
+  * version number in header file (to help auto* decide if we have the right version)
+
+
+To replace NTL completely, we need:
+ * factorization over Z[x]
+ * factorization over GF(p^k)[x]
+ * LLL
+
 == Linear algebra mod p, for log_2 p = 64 ==
 
  * People: Martin A.
