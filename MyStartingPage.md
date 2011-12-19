@@ -87,6 +87,7 @@ Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches aw
  * [[UsingSquashFS]]
  * [[SagemathLive]]
  * [[Send corrected worksheets to each student]]
+ * [[SageAppliance|Working with the Sage Virtual Machine (VirtualBox)]]
 
 = Data =
 
