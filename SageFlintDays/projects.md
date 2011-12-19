@@ -119,7 +119,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
 == Modular forms code in Sage ==
 
- * People: David L., John C., Jan V., Frithjof, Johan B., Maarten D., Martin R., Simon K., Marco S.
+ * People: David L., John C., Jan V., Frithjof, Johan B., Maarten D., Martin R., Simon K.
  * review patches
     * (#5048: Johan B. has done this one.)
     * (#11601: depends on #5048; now rebased; Johan working on this. Done.)
@@ -142,11 +142,14 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * http://trac.sagemath.org/sage_trac/ticket/11521 (memleak with elliptic curves)
     * http://trac.sagemath.org/sage_trac/ticket/11838 (added non-regression test, needs review)
     * http://trac.sagemath.org/sage_trac/ticket/11673 (needs review)
+    * http://trac.sagemath.org/sage_trac/ticket/11930 (almost ready for review)
     * http://trac.sagemath.org/sage_trac/ticket/12182 (needs review)
     * http://trac.sagemath.org/sage_trac/ticket/12185 (needs review)
+
+
 == Simon and ComputeL GP scripts ==
 
- * People: John C., Martin R., Marco S.
+ * People: John C., Martin R.
  * Revive work of March Sage Days: see http://trac.sagemath.org/sage_trac/ticket/11005
 
 == Elliptic curve isogenies ==
@@ -156,7 +159,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
 == Mestre's algorithm for constructing hyperelliptic curves from their invariants ==
 
- * People: Florian B., people from projects 10 and 12, Marco S.
+ * People: Florian B., Marco S., Lassina D.
  * Trac ticket: http://trac.sagemath.org/sage_trac/ticket/6341
  * Florian has code for Mestre's algorithm, make this into a patch
  * Florian has code for the covariant z_0, put that in the same patch
