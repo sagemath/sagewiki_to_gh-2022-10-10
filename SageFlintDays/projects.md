@@ -172,9 +172,10 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 == Mestre's algorithm for constructing hyperelliptic curves from their invariants ==
 
  * People: Florian B., Marco S., Lassina D.
- * Trac ticket: http://trac.sagemath.org/sage_trac/ticket/6341. Has been put into pacth needs reviewing
+ * Trac ticket: http://trac.sagemath.org/sage_trac/ticket/6341.
  * Florian has code for Mestre's algorithm, make this into a patch
  * Florian has code for the covariant z_0, put that in the same patch
+ * The two above has been put in a patch on #6341. Needs reviewing
  * Code for covariant z is not written, write that (optional), reference for the invariant: http://www.warwick.ac.uk/~masgaj/papers/redp1.pdf
  * Reduction of points for SL_2 is also needed. It is
 
