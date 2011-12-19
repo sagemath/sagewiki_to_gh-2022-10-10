@@ -161,6 +161,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * http://trac.sagemath.org/sage_trac/ticket/12179 (needs uploading!)
     * http://trac.sagemath.org/sage_trac/ticket/12183 (positive review)
     * http://trac.sagemath.org/sage_trac/ticket/11319 (positive review)
+    * http://trac.sagemath.org/sage_trac/ticket/12191
 
 == Simon and ComputeL GP scripts ==
 
