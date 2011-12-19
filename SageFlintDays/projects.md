@@ -147,7 +147,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
 == Miscellaneous Sage Algebra and Number Theory patches ==
 
- * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S., Paul Z.
+ * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S., Paul Z., Johan B.
  * Suggested patch numbers:
     * http://trac.sagemath.org/sage_trac/ticket/4283
     * http://trac.sagemath.org/sage_trac/ticket/12176 (positive review)
@@ -157,6 +157,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * http://trac.sagemath.org/sage_trac/ticket/11930 (almost ready for review)
     * http://trac.sagemath.org/sage_trac/ticket/12182 (needs review)
     * http://trac.sagemath.org/sage_trac/ticket/12185 (needs review)
+    * http://trac.sagemath.org/sage_trac/ticket/11319 (positive review)
 
 
 == Simon and ComputeL GP scripts ==
