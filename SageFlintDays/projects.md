@@ -155,7 +155,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * http://trac.sagemath.org/sage_trac/ticket/11838 (positive review)
     * http://trac.sagemath.org/sage_trac/ticket/11673 (needs review)
     * http://trac.sagemath.org/sage_trac/ticket/11930 (almost ready for review)
-    * http://trac.sagemath.org/sage_trac/ticket/12182 (needs work)
+    * http://trac.sagemath.org/sage_trac/ticket/12182 (needs review)
     * http://trac.sagemath.org/sage_trac/ticket/12185 (needs review)
     * http://trac.sagemath.org/sage_trac/ticket/12186 (needs review)
     * http://trac.sagemath.org/sage_trac/ticket/12179 (needs uploading!)
