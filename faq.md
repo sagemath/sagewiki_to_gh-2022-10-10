@@ -55,12 +55,15 @@ To start an online notebook server, start Sage and type {{{notebook()}}} at the 
 
 === How do I run Sage with VirtualBox? ===
 
-You must install the VirtualBox software available at http://www.virtualbox.org/wiki/Downloads. Then run the downloaded VirtualBox Distribution of Sage and follow additional instructions at http://sagemath.org/mirror/win/README.txt. Simply start the virtual machine using the VirtualBox software, wait for the virtual machine to boot up, then type {{{notebook}}} at the prompt.
+You must install the !VirtualBox software available at http://www.virtualbox.org/wiki/Downloads. Then run the downloaded Sage virtual appliance and follow these [[SageAppliance|additional instructions]].
 
+=== How do I create my own Sage virtual machine ? ===
+
+See [[VirtualBox|these instructions]].
 
 === How do I run Sage in Windows? ===
 
-Windows is currently supported via the VirtualBox image, so see the instructions for running Sage under VirtualBox. See [[windows]] for information on efforts to make a native port of Sage to Windows.
+Windows is currently supported via the !VirtualBox image, so see the instructions for running [[SageAppliance|the Sage virtual appliance]]. See [[windows]] for information on efforts to make a native port of Sage to Windows.
 
 
 === How do I run a parallel build? ===
