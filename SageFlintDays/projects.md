@@ -152,7 +152,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * http://trac.sagemath.org/sage_trac/ticket/4283
     * http://trac.sagemath.org/sage_trac/ticket/12176
     * http://trac.sagemath.org/sage_trac/ticket/11521 (memleak with elliptic curves)
-    * http://trac.sagemath.org/sage_trac/ticket/11838 (added non-regression test, needs review)
+    * http://trac.sagemath.org/sage_trac/ticket/11838 (positive review)
     * http://trac.sagemath.org/sage_trac/ticket/11673 (needs review)
     * http://trac.sagemath.org/sage_trac/ticket/11930 (almost ready for review)
     * http://trac.sagemath.org/sage_trac/ticket/12182 (needs review)
