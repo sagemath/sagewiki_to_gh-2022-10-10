@@ -141,7 +141,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/11601|#11601]]: depends on #5048; now rebased; Johan working on this. Done. (reviewed positivly)
     * [[http://trac.sagemath.org/sage_trac/ticket/10546|#10546]]: depends on #11601; Jan V to take a look (reviewed positivly)
     * [[http://trac.sagemath.org/sage_trac/ticket/12043|#12043]]: DL to work on this (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/10658|#10658]]: Martin R and Frithjof will have a look at this (needs work by David)
+    * [[http://trac.sagemath.org/sage_trac/ticket/10658|#10658]]: Martin R and Frithjof will have a look at this (reviewed positivly)
     * [[http://trac.sagemath.org/sage_trac/ticket/12124|#12124]]: Martin R and Frithjof will have a look at this (reviewed positivly)
  * Start working towards putting Edixhoven's algorithm into Sage.  The meta-ticket for this is [[http://trac.sagemath.org/sage_trac/ticket/12132|#12132]].
     * Implement the upper half plane: [[http://trac.sagemath.org/sage_trac/ticket/9439|#9439]]
