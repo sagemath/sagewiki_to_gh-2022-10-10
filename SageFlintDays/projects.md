@@ -54,13 +54,14 @@ To replace NTL completely, we need:
  * factorization over GF(p^k)[x]
  * LLL
 
-== Linear algebra mod p, for log_2 p = 64 ==
+== --(Linear algebra mod p, for log_2 p = 64)-- ==
 
  * People: Martin A.
 
 Flint2 has an implementation for asymptotically fast linear algebra mod p for p up to 2^64. I (malb) am curious whether it can be improved using ideas inspired by M4RIE, i.e., replace multiplications by additions using pre-computation tables. Whether this is beneficial will depend on how much slower multiplication is than additions.
 
 '''Update (2011-12-15 10:57):''' It seems the difference between scalar multiplication and addition is too small for these tricks to make sense. 
+'''Update (2011-12-20 11:10):''' Okay, project cancelled, none of the tricks I could think of make sense.
 
 {{{#!c
 #include <flint.h>
