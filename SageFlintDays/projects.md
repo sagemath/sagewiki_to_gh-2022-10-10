@@ -40,6 +40,8 @@ Please feel free to add more
 
 Updated my (mlee) experimental interface from Flint2 to Singular, to make use of the new polynomial factorization over Z/p. This sped up some of Singular's tests by a factor of 2 (compared to the regular Singular which uses NTL). However there are still some issues related to maybe mpir and/or the lack of a half gcd in Flint2 which need to be investaged.
 
+You can have a look at the Singular FLINT interface here: https://github.com/mmklee/Sources/wiki/Singular-With-Flint2. And hopefully this will be extended soon (use FLINT multiplication, division etc. during multivariate polynomial factorization) 
+
 In the near future it would be great if FLINT supported:
 
  * asymptotically fast GCD for Z[x]
