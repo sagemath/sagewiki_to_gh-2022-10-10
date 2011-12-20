@@ -216,5 +216,5 @@ The trac ticket for this is [[http://trac.sagemath.org/sage_trac/ticket/12141|12
  * People: Jeroen D.
 
  * [[http://trac.sagemath.org/sage_trac/ticket/12203|#12203]]: Implement is_PariGpElement
- * [[http://trac.sagemath.org/sage_trac/ticket/12158|#12158]]: Segfault in PARI's err_init() during pari_init_opts()
+ * [[http://trac.sagemath.org/sage_trac/ticket/12158|#12158]]: Segfault in PARI's err_init() during pari_init_opts(): '''needs_review'''
  * [[http://trac.sagemath.org/sage_trac/ticket/9948|#9948]]: Conversion between p-adics and PARI/GP
