@@ -153,21 +153,21 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
  * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S., Paul Z., Johan B., Daniel B.
  * Suggested patch numbers:
-    * [[http://trac.sagemath.org/sage_trac/ticket/4283|#4283]]
-    * [[http://trac.sagemath.org/sage_trac/ticket/12176|#12176]] (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/11521|#11521]] (memleak with elliptic curves)
-    * [[http://trac.sagemath.org/sage_trac/ticket/11838|#11838]] (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/11673|#11673]] (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/11930|#11930]] (almost ready for review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12182|#12182]] (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12185|#12185]] (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12186|#12186]] (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12183|#12183]] (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/11319|#11319]] (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12191|#12191]] (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/11417|#11417]] (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12179|#12179]] (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] (needs review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/4283|#4283]] A Speed-up Patch for NTL's ZZXFactoring.c
+    * [[http://trac.sagemath.org/sage_trac/ticket/12176|#12176]] Compute Minkowski bound for relative number fields (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11521|#11521]] Memleak with elliptic curves
+    * [[http://trac.sagemath.org/sage_trac/ticket/11838|#11838]] Multivariate factorization over non-prime finite fields hangs (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11673|#11673]] is_unit not properly implemented for algebraic integers (needs review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11930|#11930]] Function to check if hyperelliptic curve is singular in the sense of hyperelliptic curves(almost ready for review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12182|#12182]] Calculate the trace dual of an order in a number field (needs review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12185|#12185]] Bug in norm for orders of relative number fields (needs review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12186|#12186]] Faster norm calculations (needs review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12183|#12183]] Absolute and relative norm functions for number field elements (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11319|#11319]] Cannot create homomorphism from prime residue field to finite field (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12191|#12191]] is_squarefree for integer polynomials (needs review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11417|#11417]] binomial of polynomial is not polynomial (needs review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12179|#12179]] Binomial of integer (mod n) returns integer (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields (needs review)
 
 == Simon and ComputeL GP scripts ==
 
