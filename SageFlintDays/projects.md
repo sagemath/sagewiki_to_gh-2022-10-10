@@ -203,3 +203,9 @@ There is a Magma implementation based on John's number field implementation [[ht
  * People: Simon K., Jean-Pierre F., Paul Z.
 
 The solution is to use weak references for caching homsets. Little problem: Up to now, it was possible to have category objects that are no instances of CategoryObject and thus do not support weak references. But people seem to agree that this should be strongly deprecated. '''[[http://trac.sagemath.org/sage_trac/ticket/11521|#11521]] needs review!'''
+
+== Implement finite algebras ==
+ 
+ * People: Johan B.
+
+The trac ticket for this is [[http://trac.sagemath.org/sage_trac/ticket/12141|12141]].
