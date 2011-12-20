@@ -7,12 +7,6 @@ Most of the information below assumes a certain level of funding.  Please contac
 == Air travel ==
 Air travel really is not about local info, but most people will want to know about this.  See [[days27/faq|the Sage Days 27 FAQ]] for the rules on airfare (e.g., US carriers only).
 
-== Food ==
-Our current plan is as follows for board.
- * Breakfast with fruit, pastry/bagel, orange juice, and coffee will be provided each day on campus.
- * Ordinarily other meals are "on your own" at Sage Days, but because it is not particularly easy to get to a place to eat from campus, we will partly subsidize lunch.  Each person will receive a five (5) dollar voucher for lunch, with any balance payable in cash.  
- * Dinner will be at local establishments, subject to desires of the group and transportation, or one could naturally order to the hotel if preferred.
-
 == Lodging ==
 Out-of-town participants will be lodged at the [[http://www.wyliecenter.com/|Wylie Center]] in Beverly, Mass.  This oceanside conference center is just a few miles from Gordon College and has a nice wireless-enabled coffee shop which we've been assured is very much open for a group of people to code in after hours.  
 
@@ -23,9 +17,14 @@ For this Sage Days, individual participants will make their own reservations.
    * The toll-free reservation phone is 1-866-333-0859; you may also book online at the website above.  
  * You'll need receipts for reimbursement.
 
-== Food (i.e., places we might want to eat for dinner) ==
- * [[http://www.gordon.edu/areaguide#GalleryItemText6772|A list of places to eat]].
- * Why not add someplace promoted by [[http://www.capeannchamber.com/|the Cape Ann Chamber of Commerce]] that strikes your fancy?
+== Food ==
+Our current plan is as follows for board.
+ * Breakfast with fruit, pastry/bagel, orange juice, and coffee will be provided each day on campus.
+ * Ordinarily other meals are "on your own" at Sage Days, but because it is not particularly easy to get to a place to eat from campus, we will partly subsidize lunch.  Each person will receive a five (5) dollar voucher for lunch, with any balance payable in cash.  
+ * Dinner will be at local establishments, subject to desires of the group and transportation, or one could naturally order to the hotel if preferred.
+   * [[http://www.gordon.edu/areaguide#GalleryItemText6772|A list of places to eat]].
+   * Downtown Beverly, North Beverly, and the malls all have a variety of national fast-food and sit-down chains at various price levels.
+   * Why not add someplace promoted by [[http://www.capeannchamber.com/|the Cape Ann Chamber of Commerce]] that strikes your fancy?
 
 == Local Attractions ==
  * Here is [[http://www.gordon.edu/areaguide|Gordon's list]] of area attractions.
