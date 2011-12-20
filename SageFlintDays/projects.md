@@ -193,3 +193,9 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
  * People: Frithjof S, John C., Marco S., Julian R.
 
 There is a Magma implementation based on John's number field implementation [[http://www.maths.nottingham.ac.uk/personal/cw/algorithms.html|here]].
+
+== Fix some memory leak that was found using elliptic curves ==
+
+ * People: Simon K., Jean-Pierre F., Paul Z.
+
+The solution is to use weak references for caching homsets. Little problem: Up to now, it was possible to have category objects that are no instances of CategoryObject and thus do not support weak references. But people seem to agree that this should be strongly deprecated. '''[[http://trac.sagemath.org/sage_trac/ticket/11521|#11521]] needs review!'''
