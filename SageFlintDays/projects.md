@@ -192,6 +192,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
    * easy for QQ, put that in the patch as well
    * very interesting for number fields: Hilbert fundamental domain, bad code that works surprisingly well (Marco), improve that (optional)
+ As a side effect, implementation of reducing the defining polynomial of hyperelliptic curves [[http://trac.sagemath.org/sage_trac/ticket/12204|#12204]] Need review
 
 == Tate's Algorithm over function fields ==
 
