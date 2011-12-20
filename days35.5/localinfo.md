@@ -7,6 +7,12 @@ Most of the information below assumes a certain level of funding.  Please contac
 == Air travel ==
 Air travel really is not about local info, but most people will want to know about this.  See [[days27/faq|the Sage Days 27 FAQ]] for the rules on airfare (e.g., US carriers only).
 
+== Food ==
+Our current plan is as follows for board.
+ * Breakfast with fruit, pastry/bagel, orange juice, and coffee will be provided each day on campus.
+ * Ordinarily other meals are "on your own" at Sage Days, but because it is not particularly easy to get to a place to eat from campus, we will partly subsidize lunch.  Each person will receive a five (5) dollar voucher for lunch, with any balance payable in cash.  
+ * Dinner will be at local establishments, subject to desires of the group and transportation, or one could naturally order to the hotel if preferred.
+
 == Lodging ==
 Out-of-town participants will be lodged at the [[http://www.wyliecenter.com/|Wylie Center]] in Beverly, Mass.  This oceanside conference center is just a few miles from Gordon College and has a nice wireless-enabled coffee shop which we've been assured is very much open for a group of people to code in after hours.  
 
