@@ -208,7 +208,7 @@ The solution is to use weak references for caching homsets. Little problem: Up t
 
 == Implement finite algebras ==
  
- * People: Johan B.
+ * People: Johan B., Michiel K.
 
 The trac ticket for this is [[http://trac.sagemath.org/sage_trac/ticket/12141|12141]].
 
