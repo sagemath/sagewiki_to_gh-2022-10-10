@@ -53,9 +53,10 @@ Read through the following (all are free):
 
   See [[attachment:sage_short_course-2011.pdf]].
 
-== Organizer's mailing list ==
+== Mailing lists ==
 
-  * http://groups.google.com/group/sage-short-course
+  * Participants: https://groups.google.com/group/sage-jmm2012
+  * Organizers: http://groups.google.com/group/sage-short-course
 
 {{{
 
