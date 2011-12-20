@@ -23,6 +23,10 @@ Read through the following (all are free):
  * ''The Official Python Tutorial'': [[http://docs.python.org/tutorial/|html]] or [[http://wstein.org/edu/2012/jmm12/python-tutorial.pdf|pdf]]
  * ''Three Lectures about Explicit Methods in Number Theory Using Sage'': [[http://sagemath.org/doc/bordeaux_2008/|html]] or [[http://sagemath.org/pdf/bordeaux_2008.pdf|pdf]]
 
+== Rough Course Materials ==
+
+ * [[http://wstein.org/talks/2011-gross-stein-cubic/rational.pdf|Solving Cubic Equations (for Stein's talk)]]
+
 == Schedule ==
 
  * We are in [[http://jointmathematicsmeetings.org/meetings/national/jmm2012/2138_progfull.html|the official AMS schedule]].
