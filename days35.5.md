@@ -17,6 +17,8 @@ LODGING: [[http://www.wyliecenter.com/|Wylie Center]], Beverly, MA.  Please look
 
 FUNDING: If you're interested in attending, there may be funding for you.  Please contact <<MailTo(kcrisman AT gmail DOT com)>> as soon as possible, and by late November if you are not a US citizen or permanent resident.
 
+REIMBURSEMENT: You can be reimbursed for hotel and travel expenses.  Contact the organizers for more details.  
+
 TICKETS FAQ: [[days27/faq|This FAQ]] from Sage Days 27 is probably still more or less valid.
 
 PARTICIPANTS:
