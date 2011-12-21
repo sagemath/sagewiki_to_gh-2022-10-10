@@ -117,6 +117,26 @@ Gives a ratio of about 4.5. But then, some of it is due to load/store times, so 
 
 Linear algebra over GF(p^k^) can be reduced to linear algebra over GF(p) and for GF(2^k^) the performance is very nice. Hence, it would be a good project to develop some somewhat generic infrastructure for dense matrices over GF(p^k), or even *any* extension field? The natural place to put this would be LinBox but perhaps we can start stand-alone and then integrate it with LinBox if LinBox is too scary to start with. Some references (concerning prime slicing) are given at trac ticket [[http://trac.sagemath.org/sage_trac/ticket/12177|#12177]]
 
+ * [[http://trac.sagemath.org/sage_trac/ticket/12177|#12177]] contains an experimental patch implementing templated matrix classes with the polynomial with matrix coefficients representation. The patch also implements naive and toom multiplication of matrices over GF(p^k) using FFLAS.
+
+Some timings:
+
+{{{
+p = 17, n = 2000
+
+k  magma        naive   toom
+2    2.620      4.51     4.39
+3   17.900      10.25    7.32
+4   54.320      19.35   10.11
+5   33.480      28.80   13.07
+6   50.120      44.75   15.93
+7   46.860      56.35   19.12
+8   71.590      81.65   22.04
+9   79.580
+
+- magma timings are on a different machine with similar performance
+}}}
+
 == BKZ 2.0 ==
 
  * People: Martin A., Andy N.
