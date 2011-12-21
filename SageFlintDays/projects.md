@@ -175,9 +175,6 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 == Miscellaneous Sage Algebra and Number Theory patches ==
 
  * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S., Paul Z., Johan B., Daniel B.
- * Suggested patch numbers:
-    * [[http://trac.sagemath.org/sage_trac/ticket/4283|#4283]] A Speed-up Patch for NTL's ZZXFactoring.c
-    * [[http://trac.sagemath.org/sage_trac/ticket/11930|#11930]] Function to check if hyperelliptic curve is singular in the sense of hyperelliptic curves(almost ready for review)
  * Patches with positive review:
     * [[http://trac.sagemath.org/sage_trac/ticket/12176|#12176]] Compute Minkowski bound for relative number fields (positive review)
     * [[http://trac.sagemath.org/sage_trac/ticket/11838|#11838]] Multivariate factorization over non-prime finite fields hangs (positive review)
@@ -193,8 +190,10 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/11417|#11417]] binomial of polynomial is not polynomial (needs review).  Johan is reviewing this.
     * [[http://trac.sagemath.org/sage_trac/ticket/12210|#12210]] GF(p) constructor should check primality of p only once (needs review)
  * Patches needing work or info:   
+    * [[http://trac.sagemath.org/sage_trac/ticket/4283|#4283]] A Speed-up Patch for NTL's ZZXFactoring.c (needs work)
     * [[http://trac.sagemath.org/sage_trac/ticket/12191|#12191]] is_squarefree for integer polynomials (needs info)
     * [[http://trac.sagemath.org/sage_trac/ticket/12179|#12179]] Binomial of integer (mod n) returns integer (needs work)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11930|#11930]] Function to check if hyperelliptic curve is singular in the sense of hyperelliptic curves (needs work)
 
 == Simon and ComputeL GP scripts ==
 
