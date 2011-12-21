@@ -185,9 +185,9 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/12156|#12156]] Pretty print LatexExpr directly (positive_review)
     * [[http://trac.sagemath.org/sage_trac/ticket/11319|#11319]] Cannot create homomorphism from prime residue field to finite field (positive review)
     * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12182|#12182]] Calculate the trace dual of an order in a number field 
  * Patches needing review:
     * [[http://trac.sagemath.org/sage_trac/ticket/11673|#11673]] is_unit not properly implemented for algebraic integers (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12182|#12182]] Calculate the trace dual of an order in a number field (needs review).  Johan is reviewing this.
     * [[http://trac.sagemath.org/sage_trac/ticket/12185|#12185]] Bug in norm for orders of relative number fields (needs review)
     * [[http://trac.sagemath.org/sage_trac/ticket/12186|#12186]] Faster norm calculations (needs review).
     * [[http://trac.sagemath.org/sage_trac/ticket/11417|#11417]] binomial of polynomial is not polynomial (needs review).  Johan is reviewing this.
