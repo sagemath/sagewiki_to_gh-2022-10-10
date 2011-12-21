@@ -4699,6 +4699,7 @@ swissking\.net
 watchonetreehill\.org
 www-e-bad-credit-credit-cards\.com
 surgerythailand\.com
+goo\.gl
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
