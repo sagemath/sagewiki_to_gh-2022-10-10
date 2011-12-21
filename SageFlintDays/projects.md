@@ -171,6 +171,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/11417|#11417]] binomial of polynomial is not polynomial (needs review)
     * [[http://trac.sagemath.org/sage_trac/ticket/12179|#12179]] Binomial of integer (mod n) returns integer (positive review)
     * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12210|#12210]] GP(p) constructor should check primality of p only once
 
 == Simon and ComputeL GP scripts ==
 
@@ -219,5 +220,5 @@ The trac ticket for this is [[http://trac.sagemath.org/sage_trac/ticket/12141|12
  * People: Jeroen D.
 
  * [[http://trac.sagemath.org/sage_trac/ticket/12203|#12203]]: Implement is_PariGpElement
- * [[http://trac.sagemath.org/sage_trac/ticket/12158|#12158]]: Segfault in PARI's err_init() during pari_init_opts(): '''needs_review'''
+ * [[http://trac.sagemath.org/sage_trac/ticket/12158|#12158]]: Segfault in PARI's err_init() during pari_init_opts(): '''positive_review'''
  * [[http://trac.sagemath.org/sage_trac/ticket/9948|#9948]]: Conversion between p-adics and PARI/GP
