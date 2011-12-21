@@ -171,7 +171,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/11417|#11417]] binomial of polynomial is not polynomial (needs review)
     * [[http://trac.sagemath.org/sage_trac/ticket/12179|#12179]] Binomial of integer (mod n) returns integer (positive review)
     * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12210|#12210]] GP(p) constructor should check primality of p only once
+    * [[http://trac.sagemath.org/sage_trac/ticket/12210|#12210]] GP(p) constructor should check primality of p only once (needs review)
 
 == Simon and ComputeL GP scripts ==
 
