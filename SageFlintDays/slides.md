@@ -9,3 +9,4 @@
  * Andy Novocin - ''L1, a quasi-linear LLL algorithm'' [[attachment:novocin_L1.pdf | slides]]
  * Arne Storjohann - ''Some ideas for efficient implementation of algorithms for polynomial matrix computations'' [[attachment:talk.pdf | slides]]
  * Paul Zimmermann - ''CADO-NFS: integer factorization with the Number Field Sieve'' [[attachment:paulsd35.pdf | slides]]
+ * Maarten Derickx - Torsion on elliptic curves over numberfields of small degree. [[attachment:sd35-talk-mderickx.pdf | slides]]
