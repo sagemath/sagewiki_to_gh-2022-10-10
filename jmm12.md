@@ -29,7 +29,7 @@ Read through the following (all are free):
 
 == Rough Course Materials ==
 
- * [[http://wstein.org/talks/2011-gross-stein-cubic/rational.pdf|Solving Cubic Equations (for Stein's talk)]]
+ * Stein:  [[http://wstein.org/talks/2011-gross-stein-cubic/rational.pdf|PDF Slides]] and [[http://sagenb.org/home/pub/3888/|Sage worksheet illustrating computations]]
 
 == Schedule ==
 
