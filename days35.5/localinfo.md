@@ -17,6 +17,10 @@ For this Sage Days, individual participants will make their own reservations.
    * The toll-free reservation phone is 1-866-333-0859; you may also book online at the website above.  
  * You'll need receipts for reimbursement.
 
+== On-site Internet ==
+ * The Wylie Center should have complimentary wifi.
+ * On campus, we'll be getting individual IDs for accessing the campus wireless network.  In order to use it, your Mac or Linux ''must'' be up-to-date on all updates, especially security ones, or your computer will not be allowed to access the network.  If you are having trouble, let the organizers know and we'll get you whitelisted.
+
 == Food ==
 Our current plan is as follows for board.
  * Breakfast with fruit, pastry/bagel, orange juice, and coffee will be provided each day on campus.
