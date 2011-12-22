@@ -4700,6 +4700,11 @@ watchonetreehill\.org
 www-e-bad-credit-credit-cards\.com
 surgerythailand\.com
 goo\.gl
+pandoracharmsuksale\.net
+thomassabostockists\.com
+braceletsuk\.com
+kanayorecommends\.com
+goosejakkedk\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
