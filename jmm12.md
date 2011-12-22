@@ -2,6 +2,10 @@
 
 <<TableOfContents>>
 
+== Mailing lists ==
+
+  * Participants: https://groups.google.com/group/sage-jmm2012
+  * Organizers: http://groups.google.com/group/sage-short-course
 
 == People ==
 
@@ -57,10 +61,7 @@ Read through the following (all are free):
 
   See [[attachment:sage_short_course-2011.pdf]].
 
-== Mailing lists ==
 
-  * Participants: https://groups.google.com/group/sage-jmm2012
-  * Organizers: http://groups.google.com/group/sage-short-course
 
 {{{
 
