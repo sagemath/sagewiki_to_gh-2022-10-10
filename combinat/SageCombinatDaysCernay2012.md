@@ -43,7 +43,7 @@ Vincent Delecroix :
  * implementations of some Gray codes for much faster generation
  * iterator for conjugacy class of the symmetric group (the call to Gap takes hours)
  * flat surfaces (quadratic differentials, topolgoy stuff, origamis, Ferenczi-Zamboni induction, ...)
- * language and symbolic dynamics
+ * language and symbolic dynamics (tickets #12224, #12225, #12226, #12227, #12228, #122230, #12231)
  * would like to hear about the code in Sage and more generally about algorithms for generating things up to isomorphism (like graphs, Integer vectors and co).
 
 
@@ -58,4 +58,6 @@ ThierryMonteil:
 
 We would love to have some hard core Cython and/or Sage developer at hand :-)
 
+
+.. #1224: language and words
 }}}
