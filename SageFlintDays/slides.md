@@ -2,7 +2,7 @@
 
  * Martin Albrecht - ''M4RI(E)'' [[attachment:20111219_-_M4RI_-_Warwick.pdf | slides]]
  * John Cremona - ''Sage as a research tool'' [[attachment:sd35.pdf | slides]] and [[http://www.sagenb.org/home/pub/3867 | worksheet]]
- * Maarten Derickx - Torsion on elliptic curves over numberfields of small degree. [[attachment:sd35-talk-mderickx.pdf | slides]]
+ * Maarten Derickx - ''Torsion on elliptic curves over numberfields of small degree'' [[attachment:sd35-talk-mderickx.pdf | slides]]
  * Nick Hale - ''A Brief Introduction to Chebfun'' [[attachment:chebfun_warwick.pdf | slides]]
  * Bill Hart - ''FLINT'' [[attachment:flint.pdf | slides]]
  * David Harvey - ''Faster arithmetic for number-theoretic transforms'' [[attachment:fastntt.pdf | slides]]
