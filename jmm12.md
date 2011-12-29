@@ -7,11 +7,11 @@
   * Participants: https://groups.google.com/group/sage-jmm2012
   * Organizers: http://groups.google.com/group/sage-short-course
 
-
-
 == Dates ==
 
  * January 2-3, 2012 in Boston, MA at the joint AMS/MAA meetings
+
+After the Short Course, please visit the [[jmms2012|Sage booth]] in the Joint Meetings exhibits area!
 
 == Precourse Preparation ==
 
@@ -34,7 +34,7 @@ Read through the following (all are free):
  * We are in [[http://jointmathematicsmeetings.org/meetings/national/jmm2012/2138_progfull.html|the official AMS schedule]].
 
 === January 2, 2012 ===
-||9:00am - 10:30am || Kiran Kedlaya: Introduction to Python and Sage [[https://hensel.mit.edu:8000/home/pub/9/|worksheet]]||
+||9:00am - 10:30am || Kiran Kedlaya: Introduction to Python and Sage||
 ||10:30am - 11:00am|| Break||
 ||11:00am - 12:30pm||Software Session 1: QA format -- How do I do XXX in Sage?||
 ||12:30pm - 2:00pm|| Break (lunch)||
@@ -54,39 +54,6 @@ Read through the following (all are free):
 ||3:30pm – 4:00pm||Break||
 ||4:00pm – 5:00pm||Software Session 3: QA format -- How do I do XXX in Sage?||
 
-
 == Description ==
 
   See [[attachment:sage_short_course-2011.pdf]].
-
-
-
-{{{
-
-.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.
-}}}
