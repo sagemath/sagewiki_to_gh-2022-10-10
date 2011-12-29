@@ -7,13 +7,7 @@
   * Participants: https://groups.google.com/group/sage-jmm2012
   * Organizers: http://groups.google.com/group/sage-short-course
 
-== People ==
 
- * William Stein - Univ of Washington
- * Noam Elkies - Harvard University
- * Kiran Kedlaya - UC San Diego
- * Ken Ribet - UC Berkeley
- * Jared Weinstein - Boston University
 
 == Dates ==
 
@@ -27,9 +21,13 @@ Read through the following (all are free):
  * ''The Official Python Tutorial'': [[http://docs.python.org/tutorial/|html]] or [[http://wstein.org/edu/2012/jmm12/python-tutorial.pdf|pdf]]
  * ''Three Lectures about Explicit Methods in Number Theory Using Sage'': [[http://sagemath.org/doc/bordeaux_2008/|html]] or [[http://sagemath.org/pdf/bordeaux_2008.pdf|pdf]]
 
-== Rough Course Materials ==
+== Course Materials ==
 
- * Stein:  [[http://wstein.org/talks/2011-gross-stein-cubic/rational.pdf|PDF Slides]] and [[http://sagenb.org/home/pub/3888/|Sage worksheet illustrating computations]]
+ * Noam Elkies (Harvard University): [[http://math.harvard.edu/~elkies/ams12.gp|GP/PARI session]]
+ * Kiran Kedlaya (UC San Diego): [[http://sagenb.org/home/pub/3913/|Sage Worksheet]]
+ * Ken Ribet (UC Berkeley): [[http://sagenb.com/home/pub/3901/|Sage Worksheet]]
+ * William Stein (Univ of Washington):  [[http://wstein.org/talks/2011-gross-stein-cubic/rational.pdf|PDF Slides]] and [[http://sagenb.org/home/pub/3888/|Sage worksheet illustrating computations]]
+ * Jared Weinstein (Boston University): [[http://sagenb.com/home/pub/3900/|Sage Worksheet]]
 
 == Schedule ==
 
