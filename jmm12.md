@@ -23,12 +23,12 @@ Read through the following (all are free):
 
 == Course Materials ==
 
- * Everything combined into a single PDF:  attachment:JMM2011-notes.pdf
+ * Everything combined into a single PDF: [[attachment:JMM2011-notes.pdf]]
 
  * Noam Elkies (Harvard University): [[http://math.harvard.edu/~elkies/ams12.gp|GP/PARI session]]
  * Kiran Kedlaya (UC San Diego): [[http://sagenb.org/home/pub/3913/|Sage Worksheet]]
  * Ken Ribet (UC Berkeley): [[http://sagenb.com/home/pub/3914/|Sage Worksheet]]
- * William Stein (Univ of Washington):  [[http://wstein.org/talks/2011-gross-stein-cubic/rational.pdf|PDF Slides]] and [[http://sagenb.org/home/pub/3888/|Sage worksheet illustrating computations]]
+ * William Stein (Univ of Washington):  [[attachment:sage_short_course-2011.pdf|PDF Slides]] and [[http://sagenb.org/home/pub/3888/|Sage worksheet illustrating computations]]
  * Jared Weinstein (Boston University): [[http://sagenb.com/home/pub/3900/|Sage Worksheet]]
 
 == Schedule ==
