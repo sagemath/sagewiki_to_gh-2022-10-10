@@ -996,6 +996,7 @@ elitecities.com
 eliulin.com
 elrocio.to
 elviria.to
+emedicalmarijuanacard\.com
 emmasarah.com
 emmss.com
 enacre.net
@@ -4675,10 +4676,10 @@ my\.apexfitness\.com
 mystore\.24hourfitness\.com
 mycaal\.com
 mmtaxlawyer\.com
-mmtaxrelief\.com 
+mmtaxrelief\.com
 mmtaxhelp\.com
-mmtaxdebt\.com 
-mmtaxattorney\.com 
+mmtaxdebt\.com
+mmtaxattorney\.com
 waterproofmp3\.info
 juegosgratis\.de
 motorcyclegames\.us
@@ -4705,6 +4706,7 @@ thomassabostockists\.com
 braceletsuk\.com
 kanayorecommends\.com
 goosejakkedk\.com
+kontaktlinserna\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
