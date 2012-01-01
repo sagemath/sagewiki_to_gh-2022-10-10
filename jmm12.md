@@ -25,7 +25,7 @@ Read through the following (all are free):
 
  * Everything combined into a single PDF: [[attachment:JMM2011-notes.pdf]]
 
- * Noam Elkies (Harvard University): [[http://math.harvard.edu/~elkies/ams12.gp|GP/PARI session]]
+ * Noam Elkies (Harvard University): [[http://math.harvard.edu/~elkies/ams12.pdf|PDF Notes]] and [[http://math.harvard.edu/~elkies/ams12.gp|GP/PARI session illustrating computations]]
  * Kiran Kedlaya (UC San Diego): [[http://sagenb.org/home/pub/3913/|Sage Worksheet]]
  * Ken Ribet (UC Berkeley): [[http://sagenb.com/home/pub/3914/|Sage Worksheet]]
  * William Stein (Univ of Washington):  [[http://wstein.org/talks/2011-gross-stein-cubic/rational.pdf|PDF Slides]] and [[http://sagenb.org/home/pub/3919/|Sage worksheet illustrating computations]]
