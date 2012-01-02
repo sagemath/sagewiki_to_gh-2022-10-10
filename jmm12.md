@@ -48,7 +48,7 @@ Read through the following (all are free):
 ||12:30pm - 2:00pm|| Break (lunch)||
 ||2:00pm - 3:30pm|| Ken Ribet: Computing with elliptic curves over finite fields using Sage||
 ||3:30pm - 4:00pm|| Break||
-||4:00pm - 5:00pm||Software Session 2: Problem format -- try to solve a problem yourself using Sage||
+||4:00pm - 5:00pm||Software Session 2: Problem format -- [[/probs|try to solve a problem yourself using Sage]]||
 ||5:00pm – 6:30pm||Reception: Back Bay Ballroom D - Sheraton||
 
 
