@@ -2,6 +2,8 @@
 
 = WiFi in Back Bay Ballroom B: SSID SherBosMtg, passcode F4HM =
 
+= This page: http://wiki.sagemath.org/jmm12 =
+
 <<TableOfContents>>
 
 Create an account at the Sage public notebook server: [[http://www.sagenb.org]].
