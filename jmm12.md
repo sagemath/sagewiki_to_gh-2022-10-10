@@ -1,5 +1,7 @@
 = AMS Short Course: Computing with Elliptic Curves using Sage =
 
+WiFi in Back Bay Ballroom B: SSID SherBosMtg, passcode F4HM
+
 <<TableOfContents>>
 
 == Mailing lists ==
