@@ -1,3 +1,5 @@
+<<TableOfContents>>
+
 = Suggested Problems =
 
 {{{
@@ -32,3 +34,9 @@ For r = 0, 1, 2, 3, 4, 5, find the smallest positive integer a such
 that E has rank r.
 
 }}}
+
+
+= Solutions =
+
+ * [[attachment:JMM_solutions.pdf]]
+ * [[attachment:JMM2012 -- solutions.sws]]
