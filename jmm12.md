@@ -4,6 +4,8 @@
 
 <<TableOfContents>>
 
+Create an account at the Sage public notebook server: [[http://www.sagenb.org]].
+
 == Mailing lists ==
 
   * Participants: https://groups.google.com/group/sage-jmm2012
