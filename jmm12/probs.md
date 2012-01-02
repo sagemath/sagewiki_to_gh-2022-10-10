@@ -2,13 +2,13 @@
 
 Suggested Problems
 
-1. 
+1. Consider the rational function field Q(d) in one variable d.  
 
 a. Create in Sage the elliptic curve with a-invariants 
 
    (a1, a2, a3, a4, a6) = (1+d-d^2, d^2-d^3, d^2-d^3, 0, 0)
 
-that appears on page 2 of Elkies' slides.
+that appears on page 2 of Elkies' slides.   
 
 b. Put it in short Weierstrass form y^2 = x^3 + A*x + B.
 
