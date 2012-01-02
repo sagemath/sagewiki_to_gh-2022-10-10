@@ -1,6 +1,6 @@
-{{{
+= Suggested Problems =
 
-Suggested Problems
+{{{
 
 1. Consider the rational function field Q(d) in one variable d.  
 
