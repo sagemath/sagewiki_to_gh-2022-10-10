@@ -7,5 +7,5 @@ This is a semi-private page - nothing links to this - for us to keep track of wh
 ||<rowstyle="background-color: #FFFFEE">Karen Kohl||Sunday afternoon, Delta #2288 ||Fri. noon, Delta #1801 ||Su-Th||Amy Feaver||
 ||<rowstyle="background-color: #FFFFEE">Peter Story||Monday||Friday||None||NA||
 ||<rowstyle="background-color: #FFFFEE">Cassie Williams||Sunday afternoon ||Wednesday night ||Sun-Tues||Lola Thompson||
-||<rowstyle="background-color: #FFFFEE">Jason Grout||Saturday night ||Wednesday morning ||Sun-Tues||||
+||<rowstyle="background-color: #FFFFEE">Jason Grout||Saturday night ||Wednesday morning ||Sat-Tues||||
 ||<rowstyle="background-color: #FFFFEE">Alex Kramer||Sunday morning, Airtran #995 ||Thursday night, Airtran #994 ||Sun-Wed||||
