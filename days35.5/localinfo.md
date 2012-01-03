@@ -10,7 +10,10 @@ Most of the information below assumes a certain level of funding.  Please contac
 Most travelers who are not driving will be arriving at [[http://www.massport.com/logan-airport/Pages/Default.aspx|Logan International Airport]] in Boston.  See [[days27/faq|the Sage Days 27 FAQ]] for the rules on airfare (e.g., US carriers only).  It is also possible to get to the Boston area using [[http://www.amtrak.com/servlet/ContentServer?pagename=am/am2Station/Station_Page&code=BOS|Amtrak into South Station]].
 
 === Travel to the North Shore ===
-From either South Station or Logan, most ways of getting to the North Shore involve annoying transfers on the subway to get to 
+From either South Station or Logan, most ways of getting to the North Shore involve annoying transfers on the subway ([[http://www.mbta.com/schedules_and_maps/subway/|system map]]; Airport is on the Blue Line, South Station is on the Red Line) to get to North Station, a major commuter rail hub.  There are regular shuttles from all terminals at Logan to the Airport subway station.
+
+From there, one would take the outbound Newburyport/Rockport line to Beverly Depot; apparently the Wylie Center will order a cab for you if you call when you are getting close.  [[http://www.mbta.com/schedules_and_maps/rail/lines/?route=NBRYROCK&direction=O&timing=U&RedisplayTime=Redisplay+Time|This link]] is for the outbound schedule on Sundays.  Every other train goes to Montserrat (a stop one beyond Beverly Depot), which is slightly closer, so you can try for that if it is convenient.
+
 
 == Lodging ==
 Out-of-town participants will be lodged at the [[http://www.wyliecenter.com/|Wylie Center]] in Beverly, Mass.  This oceanside conference center is just a few miles from Gordon College and has a nice wireless-enabled coffee shop which we've been assured is very much open for a group of people to code in after hours.  
