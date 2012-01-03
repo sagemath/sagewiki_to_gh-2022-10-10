@@ -16,6 +16,8 @@ From there, one would take the outbound Newburyport/Rockport line to Beverly Dep
 
 It is also possible to take some local buses in slightly less convoluted ways, especially during normal daytime hours on weekdays (for example, taking an express bus from certain airport terminals to Lynn, then catching the commuter rail there).  If you want to try to find out such an option for you, you may find the [[http://www.mbta.com/rider_tools/trip_planner/|Trip Planner]] useful; try the "Plan your trip using Landmarks and Stations" link.  However, this happens to be a very challenging trip to plan using this device.  Google Transit seems to be another very useful device ([[http://www.google.com/maps?ie=UTF8&f=d&dirflg=r&hl=en&saddr=logan+airport&daddr=beverly%2C+ma&ttype=dep&date=1%2F8%2F12&time=5%3A00pm|here is a sample]]).
 
+If for some reason using the commuter rail will not work out well for you (especially regarding time of day), don't hesitate to contact the organizers and we may be able to arrange some transportation.  Taxi service from Boston to Beverly is apparently well over $60, so that would be a last resort.
+
 == Lodging ==
 Out-of-town participants will be lodged at the [[http://www.wyliecenter.com/|Wylie Center]] in Beverly, Mass.  This oceanside conference center is just a few miles from Gordon College and has a nice wireless-enabled coffee shop which we've been assured is very much open for a group of people to code in after hours.  
 
