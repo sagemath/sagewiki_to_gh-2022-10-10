@@ -4,8 +4,13 @@
 
 Most of the information below assumes a certain level of funding.  Please contact for more information if you need funding for air or lodging.
 
-== Air travel ==
-Air travel really is not about local info, but most people will want to know about this.  See [[days27/faq|the Sage Days 27 FAQ]] for the rules on airfare (e.g., US carriers only).
+== Transportation ==
+
+=== Travel to Boston ===
+Most travelers who are not driving will be arriving at [[http://www.massport.com/logan-airport/Pages/Default.aspx|Logan International Airport]] in Boston.  See [[days27/faq|the Sage Days 27 FAQ]] for the rules on airfare (e.g., US carriers only).  It is also possible to get to the Boston area using [[http://www.amtrak.com/servlet/ContentServer?pagename=am/am2Station/Station_Page&code=BOS|Amtrak into South Station]].
+
+=== Travel to the North Shore ===
+From either South Station or Logan, most ways of getting to the North Shore involve annoying transfers on the subway to get to 
 
 == Lodging ==
 Out-of-town participants will be lodged at the [[http://www.wyliecenter.com/|Wylie Center]] in Beverly, Mass.  This oceanside conference center is just a few miles from Gordon College and has a nice wireless-enabled coffee shop which we've been assured is very much open for a group of people to code in after hours.  
