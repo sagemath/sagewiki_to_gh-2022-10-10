@@ -31,7 +31,7 @@ Read through the following (all are free):
 
  * Everything combined into a single PDF: [[attachment:JMM2011-notes.pdf]]
 
- * Noam Elkies (Harvard University): [[http://math.harvard.edu/~elkies/ams12.pdf|PDF Notes]] and [[http://math.harvard.edu/~elkies/ams12.gp|GP/PARI session illustrating computations]]
+ * Noam Elkies (Harvard University): [[http://math.harvard.edu/~elkies/ams12.pdf|PDF Notes]] and [[http://sagenb.org/home/pub/3936/|Sage Worksheet]] version of [[http://math.harvard.edu/~elkies/ams12.gp|GP/PARI session illustrating computations]].   
  * Kiran Kedlaya (UC San Diego): [[http://sagenb.org/home/pub/3927/|Sage Worksheet]] or [[http://demo.sagenb.org/home/pub/335/|Sage Worksheet on demo.sagenb.org]] or  [[attachment:kedlaya.sws]]
  * Ken Ribet (UC Berkeley): [[http://sagenb.org/home/pub/3929/|Sage Worksheet]] or [[attachment:William Stein -- JMM -- Solving Cubic Equations.sws]]
  * William Stein (Univ of Washington):  [[attachment:stein-1.pdf|PDF Slides]] and [[http://sagenb.org/home/pub/3931/|Sage worksheet illustrating computations]] or [[attachment:stein-2.sws]]
