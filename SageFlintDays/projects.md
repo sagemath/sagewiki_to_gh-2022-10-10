@@ -184,6 +184,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/12176|#12176]] Compute Minkowski bound for relative number fields (positive review)
     * [[http://trac.sagemath.org/sage_trac/ticket/12182|#12182]] Calculate the trace dual of an order in a number field
     * [[http://trac.sagemath.org/sage_trac/ticket/12183|#12183]] Absolute and relative norm functions for number field elements (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12185|#12185]] Bug in norm for orders of relative number fields
     * [[http://trac.sagemath.org/sage_trac/ticket/12191|#12191]] is_squarefree for integer polynomials
     * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields (positive review)
  * Patches needing review:
@@ -194,7 +195,6 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/11235|#11235]] Make the ipython edit magic command edit the right file and show both files when doing "??" (needs work)
     * [[http://trac.sagemath.org/sage_trac/ticket/11930|#11930]] Function to check if hyperelliptic curve is singular in the sense of hyperelliptic curves (needs work)
     * [[http://trac.sagemath.org/sage_trac/ticket/12179|#12179]] Binomial of integer (mod n) returns integer (needs work)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12185|#12185]] Bug in norm for orders of relative number fields (needs info)
     * [[http://trac.sagemath.org/sage_trac/ticket/12186|#12186]] Faster norm calculations (needs work).
 
 == Simon and ComputeL GP scripts ==
