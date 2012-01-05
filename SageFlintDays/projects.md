@@ -1,7 +1,5 @@
 = Projects =
 
-Please feel free to add more
-
 <<TableOfContents>>
 
 
@@ -187,9 +185,9 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/12185|#12185]] Bug in norm for orders of relative number fields
     * [[http://trac.sagemath.org/sage_trac/ticket/12191|#12191]] is_squarefree for integer polynomials
     * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12218|#12218]] Content of general polynomial
  * Patches needing review:
     * [[http://trac.sagemath.org/sage_trac/ticket/12210|#12210]] GF(p) constructor should check primality of p only once (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12218|#12218]] Content of general polynomial (needs review)
  * Patches needing work or info:   
     * [[http://trac.sagemath.org/sage_trac/ticket/4283|#4283]] A Speed-up Patch for NTL's ZZXFactoring.c (needs work)
     * [[http://trac.sagemath.org/sage_trac/ticket/11235|#11235]] Make the ipython edit magic command edit the right file and show both files when doing "??" (needs work)
