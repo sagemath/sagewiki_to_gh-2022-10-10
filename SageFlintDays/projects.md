@@ -210,16 +210,17 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 == Mestre's algorithm for constructing hyperelliptic curves from their invariants ==
 
  * People: Florian B., Marco S., Lassina D.
- * Trac ticket: http://trac.sagemath.org/sage_trac/ticket/6341.
- * Florian has code for Mestre's algorithm, make this into a patch
- * Florian has code for the covariant z_0, put that in the same patch
- * The two above has been put in a patch on #6341. Needs reviewing
- * Code for covariant z is not written, write that (optional), reference for the invariant: http://www.warwick.ac.uk/~masgaj/papers/redp1.pdf
- * Reduction of points for SL_2 is also needed. It is
-
-   * easy for QQ, put that in the patch as well
-   * very interesting for number fields: Hilbert fundamental domain, bad code that works surprisingly well (Marco), improve that (optional)
- As a side effect, implementation of reducing the defining polynomial of hyperelliptic curves [[http://trac.sagemath.org/sage_trac/ticket/12204|#12204]] Need review
+ * Trac tickets:
+    * [[http://trac.sagemath.org/sage_trac/ticket/6341|#6341]] (needs work) contains Florian's code for
+       * Mestre's algorithm
+       * The covariant z_0
+       * SL2(ZZ)-reduction
+    * [[http://trac.sagemath.org/sage_trac/ticket/12199|#12199]] (new) case of curves with automorphisms
+    * [[http://trac.sagemath.org/sage_trac/ticket/12200|#12200]] (new) case of characteristic two (and three, and five)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12204|#12204]] (needs work, depends on #6341) reducing the defining polynomial of hyperelliptic curves
+    * no ticket yet: no code yet for covariant z, reference for the invariant: [[http://www.warwick.ac.uk/~masgaj/papers/redp1.pdf]]
+    * no ticket yet: SL2(number field)-reduction
+       * case of real quadratic fields of class number one: bad code that works surprisingly well (Marco, not on trac), to be finished later
 
 == Tate's Algorithm over function fields ==
 
