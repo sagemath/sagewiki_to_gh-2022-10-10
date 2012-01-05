@@ -176,16 +176,16 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
  * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S., Paul Z., Johan B., Daniel B.
  * Patches with positive review:
-    * [[http://trac.sagemath.org/sage_trac/ticket/12176|#12176]] Compute Minkowski bound for relative number fields (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/11838|#11838]] Multivariate factorization over non-prime finite fields hangs (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12183|#12183]] Absolute and relative norm functions for number field elements (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12156|#12156]] Pretty print LatexExpr directly (positive_review)
     * [[http://trac.sagemath.org/sage_trac/ticket/11319|#11319]] Cannot create homomorphism from prime residue field to finite field (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12182|#12182]] Calculate the trace dual of an order in a number field
     * [[http://trac.sagemath.org/sage_trac/ticket/11417|#11417]] binomial of polynomial is not polynomial
+    * [[http://trac.sagemath.org/sage_trac/ticket/11673|#11673]] is_unit not properly implemented for algebraic integers
+    * [[http://trac.sagemath.org/sage_trac/ticket/11838|#11838]] Multivariate factorization over non-prime finite fields hangs (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12156|#12156]] Pretty print LatexExpr directly (positive_review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12176|#12176]] Compute Minkowski bound for relative number fields (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12182|#12182]] Calculate the trace dual of an order in a number field
+    * [[http://trac.sagemath.org/sage_trac/ticket/12183|#12183]] Absolute and relative norm functions for number field elements (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields (positive review)
  * Patches needing review:
-    * [[http://trac.sagemath.org/sage_trac/ticket/11673|#11673]] is_unit not properly implemented for algebraic integers (needs review)
     * [[http://trac.sagemath.org/sage_trac/ticket/12185|#12185]] Bug in norm for orders of relative number fields (needs review)
     * [[http://trac.sagemath.org/sage_trac/ticket/12186|#12186]] Faster norm calculations (needs review).
     * [[http://trac.sagemath.org/sage_trac/ticket/12210|#12210]] GF(p) constructor should check primality of p only once (needs review)
