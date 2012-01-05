@@ -192,9 +192,10 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/12218|#12218]] Content of general polynomial (needs review)
  * Patches needing work or info:   
     * [[http://trac.sagemath.org/sage_trac/ticket/4283|#4283]] A Speed-up Patch for NTL's ZZXFactoring.c (needs work)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12191|#12191]] is_squarefree for integer polynomials (needs info)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12179|#12179]] Binomial of integer (mod n) returns integer (needs work)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11235|#11235]] Make the ipython edit magic command edit the right file and show both files when doing "??" (needs work)
     * [[http://trac.sagemath.org/sage_trac/ticket/11930|#11930]] Function to check if hyperelliptic curve is singular in the sense of hyperelliptic curves (needs work)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12179|#12179]] Binomial of integer (mod n) returns integer (needs work)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12191|#12191]] is_squarefree for integer polynomials (needs info)
 
 == Simon and ComputeL GP scripts ==
 
