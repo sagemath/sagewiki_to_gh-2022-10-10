@@ -156,11 +156,11 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
  * People: David L., John C., Jan V., Frithjof, Johan B., Maarten D., Martin R., Simon K.
  * review patches
     * [[http://trac.sagemath.org/sage_trac/ticket/5048|#5048]]: Johan B. has done this one. (reviewed positivly)
-    * [[http://trac.sagemath.org/sage_trac/ticket/11601|#11601]]: depends on #5048; now rebased; Johan working on this. Done. (reviewed positivly)
-    * [[http://trac.sagemath.org/sage_trac/ticket/10546|#10546]]: depends on #11601; Jan V to take a look (reviewed positivly)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11601|#11601]]: depends on #5048; now rebased; Johan working on this. Done. (reviewed positively)
+    * [[http://trac.sagemath.org/sage_trac/ticket/10546|#10546]]: depends on #11601; Jan V to take a look (reviewed positively)
     * [[http://trac.sagemath.org/sage_trac/ticket/12043|#12043]]: DL to work on this (needs review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/10658|#10658]]: Martin R and Frithjof will have a look at this (reviewed positivly)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12124|#12124]]: Martin R and Frithjof will have a look at this (reviewed positivly)
+    * [[http://trac.sagemath.org/sage_trac/ticket/10658|#10658]]: Martin R and Frithjof will have a look at this (reviewed positively)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12124|#12124]]: Martin R and Frithjof will have a look at this (reviewed positively)
  * Start working towards putting Edixhoven's algorithm into Sage.  The meta-ticket for this is [[http://trac.sagemath.org/sage_trac/ticket/12132|#12132]].
     * Implement the upper half plane: [[http://trac.sagemath.org/sage_trac/ticket/9439|#9439]]
     * Add a LLL for matrices over QQ and RR: [[http://trac.sagemath.org/sage_trac/ticket/12051|#12501]]. Andy Novocin proposed some other methods to use LLL to handle Johan's problem. 
@@ -174,20 +174,21 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
  * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S., Paul Z., Johan B., Daniel B.
  * Patches with positive review or closed tickets:
-    * [[http://trac.sagemath.org/sage_trac/ticket/11319|#11319]] Cannot create homomorphism from prime residue field to finite field (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11319|#11319]] Cannot create homomorphism from prime residue field to finite field
     * [[http://trac.sagemath.org/sage_trac/ticket/11417|#11417]] binomial of polynomial is not polynomial
     * [[http://trac.sagemath.org/sage_trac/ticket/11673|#11673]] is_unit not properly implemented for algebraic integers
-    * [[http://trac.sagemath.org/sage_trac/ticket/11838|#11838]] Multivariate factorization over non-prime finite fields hangs (positive review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12156|#12156]] Pretty print LatexExpr directly (positive_review)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12176|#12176]] Compute Minkowski bound for relative number fields (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/11838|#11838]] Multivariate factorization over non-prime finite fields hangs
+    * [[http://trac.sagemath.org/sage_trac/ticket/12156|#12156]] Pretty print LatexExpr directly
+    * [[http://trac.sagemath.org/sage_trac/ticket/12176|#12176]] Compute Minkowski bound for relative number fields
     * [[http://trac.sagemath.org/sage_trac/ticket/12182|#12182]] Calculate the trace dual of an order in a number field
-    * [[http://trac.sagemath.org/sage_trac/ticket/12183|#12183]] Absolute and relative norm functions for number field elements (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12183|#12183]] Absolute and relative norm functions for number field elements
     * [[http://trac.sagemath.org/sage_trac/ticket/12185|#12185]] Bug in norm for orders of relative number fields
     * [[http://trac.sagemath.org/sage_trac/ticket/12191|#12191]] is_squarefree for integer polynomials
-    * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields (positive review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12196|#12196]] Improve latex for quadratic fields
+    * [[http://trac.sagemath.org/sage_trac/ticket/12210|#12210]] GF(p) constructor should check primality of p only once
     * [[http://trac.sagemath.org/sage_trac/ticket/12218|#12218]] Content of general polynomial
  * Patches needing review:
-    * [[http://trac.sagemath.org/sage_trac/ticket/12210|#12210]] GF(p) constructor should check primality of p only once (needs review)
+    * (none at the moment)
  * Patches needing work or info:   
     * [[http://trac.sagemath.org/sage_trac/ticket/4283|#4283]] A Speed-up Patch for NTL's ZZXFactoring.c (needs work)
     * [[http://trac.sagemath.org/sage_trac/ticket/11235|#11235]] Make the ipython edit magic command edit the right file and show both files when doing "??" (needs work)
