@@ -17,7 +17,7 @@ LODGING: [[http://www.wyliecenter.com/|Wylie Center]], Beverly, MA.  Please look
 
 FUNDING: If you're interested in attending, there may be funding for you.  Please contact <<MailTo(kcrisman AT gmail DOT com)>> as soon as possible, and by late November if you are not a US citizen or permanent resident.
 
-REIMBURSEMENT: You can be reimbursed for hotel and travel expenses.  Here is the [[attachment:SAGE Days 35.5 Reimbursements.pdf|reimbursement form]].  The instructions and address to send it to are on the form.  Contact the organizers for more details.
+REIMBURSEMENT: You can be reimbursed for hotel and travel expenses.  Here is the [[attachment:SAGE Days 35.5 Reimbursements.pdf|reimbursement form]].  The instructions and address to send it to are on the form.  Note that you will need original receipts for all travel expenses; if you are claiming mileage, you'll need to keep a log of your miles traveled and the locations traveled to/from.  Contact the organizers for more details.
 
 TICKETS FAQ: [[days27/faq|This FAQ]] from Sage Days 27 is probably still more or less valid.
 
