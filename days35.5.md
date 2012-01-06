@@ -35,7 +35,7 @@ PARTICIPANTS:
  * Lola Thompson (Dartmouth College)
  * Peter Story (Gordon College)
  * Kenny Smith (Gordon College)
- 
+ * Geoff Ehrman (University of New Hampshire)
 
 Participating remotely:
 
