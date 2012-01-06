@@ -4710,6 +4710,7 @@ kanayorecommends\.com
 goosejakkedk\.com
 kontaktlinserna\.com
 prestigeweddinginvitations\.com
+sum-security\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
