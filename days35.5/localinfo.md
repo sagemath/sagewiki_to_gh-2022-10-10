@@ -18,6 +18,11 @@ It is also possible to take some local buses in slightly less convoluted ways, e
 
 If for some reason using the commuter rail will not work out well for you (especially regarding time of day), don't hesitate to contact the organizers and we may be able to arrange some transportation.  Taxi service from Boston to Beverly is well over $60, so that would be a last resort.
 
+=== Travel to Gordon ===
+If you're at the Wylie Center, just type "295 Hale Street, Beverly, MA to 255 Grapevine Road, Wenham, MA" into Google Maps; it's very close.  Coming from elsewhere, Gordon is on Exit 17 on Route 128 to Gloucester.   See [[http://www.gordon.edu/directions|the official Gordon directions]]. 
+
+The Ken Olsen Science Center is toward the back of campus.  Upon entering the campus area, take the first right into a parking lot.  Follow this around, down a small hill through another parking lot, and then following left by a wooded area and large pond.  Around that point, on the left there is a building with a parking lot up a small hill, with nice seminar rooms with big glass windows facing the pond; park in that lot.  Go in the back door in the non-convex corner of the building and KOSC 118 is slightly to your right, near the entrance to the quad.
+
 == Lodging ==
 Out-of-town participants will be lodged at the [[http://www.wyliecenter.com/|Wylie Center]] in Beverly, Mass.  This oceanside conference center is just a few miles from Gordon College and has a nice wireless-enabled coffee shop which we've been assured is very much open for a group of people to code in after hours.  
 
