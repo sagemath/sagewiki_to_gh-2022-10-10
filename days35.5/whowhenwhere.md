@@ -9,5 +9,5 @@ This is a semi-private page - nothing links to this - for us to keep track of wh
 ||<rowstyle="background-color: #FFFFEE">Alex Kramer||Sunday morning, Airtran #995 ||Thursday night, Airtran #994 ||Sun-Wed||||
 ||<rowstyle="background-color: #FFFFEE">Peter Story||Monday||Friday||None||NA||
 ||<rowstyle="background-color: #FFFFEE">Kenny Smith||Monday||Friday||None||NA||
-||<rowstyle="background-color: #FFFFEE">Cassie Williams||Sunday afternoon ||Wednesday night ||Sun-Tues||Lola Thompson||
+||<rowstyle="background-color: #FFFFEE">Cassie Williams||Sunday afternoon ||Wednesday night ||Sun-Tues||HAVE ROOM, NEED ROOMMATE||
 ||<rowstyle="background-color: #FFFFEE">Ian Stokes-Rees||Monday ||Monday ||none|| -||
