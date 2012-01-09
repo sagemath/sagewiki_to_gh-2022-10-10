@@ -98,7 +98,7 @@ Coming from downtown Paris to Cernay
 
    BEWARE: there are no bus to Cernay between 7:25am and 12:54am!
 
- * `Map and and aerial photo <http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17>`_
+* `Map and and aerial photo <http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17>`_
 
 We will do some car shuttles from Saint Rémi. Please contact us in
 advance to synchronize.
