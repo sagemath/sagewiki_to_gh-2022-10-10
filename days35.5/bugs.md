@@ -28,3 +28,4 @@ For [[days35.5|Sage Days 35.5]].
 == Bugs actually worked on and/or solved ==
 
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12285#comment:3|#12285]] Helping get {{{./sage -b}}} to work on Lion (error in {{{misc/darwin_memory_usage.c}}})
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10489#comment:14|#10489]] Slope fields and python lambdas: Rebasing outdated patch, needs review
