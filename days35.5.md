@@ -2,6 +2,13 @@
 
 This Sage days will be a bug fix Sage Days, devoted to fixing large numbers of bugs in Sage, emphasis on calculus, symbolics, notebook, and graphics.
 
+IMPORTANT: Any bugs that are worked on should have "sd35.5" added to the keywords.
+
+The official sage release we will be working with is: 
+
+  * 4.8 alpha6 (for normal things): [[http://boxen.math.washington.edu/home/release/sage-4.8.alpha6/sage-4.8.alpha6.tar]]
+  * 5.0 prealpha 0 (for flask notebook): [[http://boxen.math.washington.edu/home/release/sage-5.0.prealpha0/sage-5.0.prealpha0.tar]]
+
 PROJECTS:
 
   * [[/bugs|Bug list]]
