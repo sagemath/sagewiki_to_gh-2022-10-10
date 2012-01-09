@@ -26,3 +26,5 @@ For [[days35.5|Sage Days 35.5]].
  * [[http://trac.sagemath.org/sage_trac/ticket/12060|#12060]] Add formatting option to slider's displayed value 
 
 == Bugs actually worked on and/or solved ==
+
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12285#comment:3|#12285]] Helping get {{{./sage -b}}} to work on Lion (error in {{{misc/darwin_memory_usage.c}}})
