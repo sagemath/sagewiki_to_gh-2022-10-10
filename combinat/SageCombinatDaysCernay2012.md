@@ -52,6 +52,13 @@ ThierryMonteil:
 * word combinatorics : `tangent_words` as `WordPaths` ; `tangent_analytic_words` ; discussion about languages.
 
 
+Nicolas Borie:
+
+* refactoring of integer vectors using a Cython data structure based on IntClonableArray.
+* design discussion about how getting benefits of categories when implementing a Set with a group action.
+* finalise the implementation of integer vectors modulo the action of a permutation group.
+* Implementation of multivariate polynomials view as a free module over symmetric functions (Harmonic polynomials, Schubert polynomials, Monomials under staircase, Descent monomials ...)
+
 We would love to have some hard core Cython and/or Sage developer at hand :-)
 
 Tentative list of participants
