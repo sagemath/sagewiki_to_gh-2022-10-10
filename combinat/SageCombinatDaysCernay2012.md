@@ -81,24 +81,22 @@ connection.
 To register, fill in the following form, and send it by e-mail to
 Florent Hivert:
 
-{{{
-Name:
-Surname:
-will participate to the Thirds Sage-combinat days in Cernay.
-Date of arrival:
-Date of departure:
-}}}
+    Name:
+    Surname:
+    will participate to the Thirds Sage-combinat days in Cernay.
+    Date of arrival:
+    Date of departure:
 
 Coming from downtown Paris to Cernay
 ====================================
 
 * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
 * From Chatelet-les-Halles: 45 minutes RER B to Saint-Remy les Chevreuses + 15 minutes bus to Cernay-la-Ville
-* `Time tables Saint-Remy <-> Cernay <-> Rambouillet <http://www.savac.fr/fr/transports/horaires_content/horaire/25136_B_SAVAC_39_03_COMPLET.pdf|39.03>`_
+* `Time tables Saint-Remy <-> Cernay <-> Rambouillet <www.savac.fr/fr/transports/horaires_content/horaire/HV3903_1.pdf>`_
 
    There are two bus stops at Cernay. The closest to the gite is Grand'Place.
 
-   BEWARE: there are no bus to Cernay between 7:32am and 12:25am!
+   BEWARE: there are no bus to Cernay between 7:25am and 12:54am!
 
  * `Map and and aerial photo <http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17>`_
 
