@@ -28,3 +28,4 @@ For [[days35.5|Sage Days 35.5]].
 == Bugs actually worked on and/or solved ==
 
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10489#comment:14|#10489]] Slope fields and python lambdas: Rebasing outdated patch, needs review
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10757#comment:5|#10757]] Laplacian matrix: Created patch fixing and documenting div-by-0 error
