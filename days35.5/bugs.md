@@ -4,6 +4,7 @@ For [[days35.5|Sage Days 35.5]].
 
 == Bugs to work on and/or solve ==
 
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/11201|#11201]] Point users of solve() to the to_poly_solve option
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/1173|#1173]] implement numerical evaluation of erf at complex arguments
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11143|#11143]] Finish ticket defining symbolic functions for exponential integral special functions
