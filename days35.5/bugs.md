@@ -29,4 +29,4 @@ For [[days35.5|Sage Days 35.5]].
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10757#comment:5|#10757]] Laplacian matrix: Created patch fixing and documenting div-by-0 error
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11462#comment:5|#11462]] @parallel documentation update: Created patch updating the documentation
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11888|#11888]] Sage is missing the lambert_w function conversion from Maxima
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/11513|#11513]] Finish ticket adding _is_numerically_zero() to symbolic expressions
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11513|#11513]] Finish ticket adding _is_numerically_zero() to symbolic expressions
