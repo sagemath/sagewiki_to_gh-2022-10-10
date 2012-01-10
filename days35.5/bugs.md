@@ -7,7 +7,6 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
 == Bugs to work on and/or solve ==
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/11201|#11201]] Point users of solve() to the to_poly_solve option
- * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/1173|#1173]] implement numerical evaluation of erf at complex arguments
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11143|#11143]] Finish ticket defining symbolic functions for exponential integral special functions
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12074|#12074]] symbolic nth root function for plotting, etc.
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
@@ -24,6 +23,8 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
 
 == Bugs actually worked on and/or solved ==
 
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/1173|#1173]] implement numerical evaluation of erf at complex arguments
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12289|#12289]] pass algorithm argument to custom numeric evalution methods
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/10075|#10075]] Make log gamma symbolic
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10489|#10489]] Slope fields and python lambdas: Rebasing outdated patch, needs review
