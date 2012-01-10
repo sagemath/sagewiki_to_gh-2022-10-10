@@ -4,7 +4,7 @@ For [[days35.5|Sage Days 35.5]].
 
 == Bugs to work on and/or solve ==
 
- * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/10075|#10075]] Make log gamma symbolic
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/11201|#11201]] Point users of solve() to the to_poly_solve option
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/1173|#1173]] implement numerical evaluation of erf at complex arguments
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11143|#11143]] Finish ticket defining symbolic functions for exponential integral special functions
@@ -25,6 +25,7 @@ For [[days35.5|Sage Days 35.5]].
 
 == Bugs actually worked on and/or solved ==
 
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10489#comment:14|#10489]] Slope fields and python lambdas: Rebasing outdated patch, needs review
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10757#comment:5|#10757]] Laplacian matrix: Created patch fixing and documenting div-by-0 error
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11462#comment:5|#11462]] @parallel documentation update: Created patch updating the documentation
