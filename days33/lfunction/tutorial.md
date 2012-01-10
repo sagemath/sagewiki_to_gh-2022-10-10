@@ -205,7 +205,7 @@ The analytic rank of an L-series of an elliptic curve plays an important role in
 
 === Future Developments ===
 
-This $L$-functions package is still in the process of development, and there are some tools that will hopefully be added in the future:
+This $L$-functions package is still in the process of development, and there are some tools that will hopefully be added in the future (this section was last updated on 2012-01-10).
 
 1. ''' Triple Product L-functions: ''' a class which can be used to define $L$-functions on a tensor product of three modular forms
 
