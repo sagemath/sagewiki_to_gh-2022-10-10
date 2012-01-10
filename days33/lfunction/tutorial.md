@@ -193,6 +193,16 @@ returns an L-series Euler product with conductor 1, Hodge numbers [0], weight 1,
 === Analytic Rank ===
 
 
+The analytic rank of an $L$-series is the order of vanishing of the zero at the central critical point (half the weight of the $L$-series).  In Sage, you can compute the analytic rank of any $L$-series $L$ by using the command:
+
+sage: L.analytic_rank()
+
+
+WARNING: It is important to note that the analytic rank is computed using numerical methods, and is not provably correct.
+
+The analytic rank of an L-series of an elliptic curve plays an important role in the Birch and Swinnerton-Dyer conjecture.  Specifically, part of the BSD conjecture claims that the rank of the group or points on an elliptic curve $E$ over a number field $K$ is the order of vanishing of the $L$-function $L(s,E)$ at $s=1$.  Generalizations of the BSD conjecture exist for abelian varieties of higher dimension as well.
+
+
 === Precision Issues ===
 
 
