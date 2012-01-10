@@ -31,7 +31,7 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11462#comment:5|#11462]] @parallel documentation update: Created patch updating the documentation
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11888|#11888]] Sage is missing the lambert_w function conversion from Maxima
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/11513|#11513]] Finish ticket adding _is_numerically_zero() to symbolic expressions
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/9248|#9248]] Doc fix for factorial function (types of accepted input)
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12286|#12286]] Doc fix for factorial function (algorithm parameter) 
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/12288|#12288]] unset HGPLAIN when appropriate
