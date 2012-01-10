@@ -2,10 +2,10 @@
 
 Authors: Amy Feaver, Lola Thompson, Cassie Williams
 
-=== Definition ===
+=== Definitions ===
 
 
-''The Dedekind $\zeta$-function''
+'''The Dedekind $\zeta$-function'''
 
 If $K$ is a number field over $\mathbb{Q}$ and $s\in\mathbb{C}$ such that Re$(s)>1$ then we can create $\zeta_K(s)$, the Dedekind $\zeta$-function of $K$:
 $$\zeta_K(s)=\sum_{I \subseteq \mathcal{O}_K} \frac{1}{(N_{K/\mathbb{Q}} (I))^s} = \sum_{n\geq1} \frac{a_n}{n^s}. $$
@@ -71,7 +71,7 @@ sage: L=LSeries(G.0)
 gives the L-series for the character G.0 (the character which maps $2\mapsto e^{2\pi i/10}$).
 
 
-''$L$-series of Elliptic Curves''
+'''$L$-series of Elliptic Curves'''
 
 Let $E$ be an elliptic curve over $\mathbb{Q}$ and let $p$ be prime.  Let $N_p$ be the number of points on the reduction of $E$ mod $p$ and set $a_p=p+1-N_p$ when $E$ has good reduction mod $p$.  Then the $L$-series of $E$, $L(s,E)$, is defined to be
 $$L(s,E)=\prod_p \frac{1}{L_p(p^{-s})}=\prod_{p \ \mathrm{good \ reduction}} \left(1 - a_p p^{-s} + p^{1-2s}\right)^{-1} \prod_{p \ \mathrm{bad \ reduction}} \left(1 - a_p p^{-s}\right)^{-1} $$
@@ -100,7 +100,7 @@ Notice in particular that although one can certainly rewrite $L(s,E)$ as a sum o
 	[0, 1, -2, -3, 2, -2, 6, -1, 0, 6, 4]
 
 
-''$L$-series of Modular Forms''
+'''$L$-series of Modular Forms'''
 
 If $f$ is a modular form of weight $k$, it has a Fourier expansion $f(z)=\sum_{n\geq0} a_n (e^{2\pi i z})^n$.  Then the $L$-series of $f$ is 
 $$L(s,f)=\sum_{n\geq1} \frac{a_n}{n^s}$$ 
