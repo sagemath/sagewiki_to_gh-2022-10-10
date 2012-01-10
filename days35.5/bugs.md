@@ -2,6 +2,8 @@
 
 For [[days35.5|Sage Days 35.5]].
 
+See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&group=status&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~sd35.5|Trac tickets]].
+
 == Bugs to work on and/or solve ==
 
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/11201|#11201]] Point users of solve() to the to_poly_solve option
