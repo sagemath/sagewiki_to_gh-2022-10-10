@@ -11,7 +11,7 @@ For [[days35.5|Sage Days 35.5]].
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12074|#12074]] symbolic nth root function for plotting, etc.
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12094|#12094]] update Maxima
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/12220|#12220]] Updated CBC package
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12220|#12220]] Updated CBC package
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/9248|#9248]] Doc fix for factorial function (types of accepted input)
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12286|#12286]] Doc fix for factorial function (algorithm parameter) 
  
