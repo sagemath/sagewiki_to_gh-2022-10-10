@@ -142,6 +142,21 @@ sage: L(s)
 to get the value of the function evaluated at $s\in\mathbb{C}$. 
 
 
+'''Taylor Series for L-functions'''
+
+This function will return the Taylor series of an L-function $L$. If the user does not enter any arguments, the center of the 
+series will default to weight/2. For example, if $L$ is the Riemann zeta function, 
+
+sage: L.taylor_series()
+
+will output the Taylor series centered at weight/2=0.5. You can also specify degree, variable and precision. Entering
+
+sage: L.taylor_series(center=2, degree=4, variable='t', prec=30)
+
+will give you the Taylor series with the properties you would expect. Note that degree=4 actually means you will compute the first 4 terms of the series, giving you a degree 3 polynomial. The output of the above line therefore will be the Taylor polynomial
+$1.6449341 - 0.93754825t + 0.99464012t^{2} - 1.0000243t^{3} + O(t^{4})$.
+
+
 === Euler Product ===
 
 An ''Euler product'' is an infinite product expansion of a Dirichlet series, indexed by the primes. For a Dirichlet series of the form $$F(s) = \sum_{n = 1}^\infty \frac{a_n}{n^s},$$ the corresponding Euler product (if it exists) has the form $$F(s) = \prod_p \left(1 - \frac{a_p}{p^s}\right)^{-1}.$$ In many cases, an L-series can be expressed as an Euler product. By definition, if an L-series has a Galois representation then it has an Euler product. Some examples of common L-series with Euler products include:
@@ -172,9 +187,6 @@ returns an L-series Euler product with conductor 1, Hodge numbers [0], weight 1,
 === Functional Equation ===
 
 
-=== Taylor Series ===
-
-
 === Zeros and Poles ===
 
 
@@ -185,6 +197,4 @@ returns an L-series Euler product with conductor 1, Hodge numbers [0], weight 1,
 
 
 === Advanced Topics: ===
-  - creating a new L-series class
-  
   - finding L-series from incomplete information
