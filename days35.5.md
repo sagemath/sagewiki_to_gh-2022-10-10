@@ -13,7 +13,7 @@ PROJECTS:
 
   * [[/bugs|Bug list]]
   * [[http://trac.sagemath.org/sage_trac/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&group=status&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~sd35.5|Tickets on trac]]
-
+  * [[http://wiki.sagemath.org/MercurialQueues | Learning Mercurial Queues]]
 
 DATES: January 9 - 12, 2012.  (But it's a bug days, so things may be flexible.)
 
