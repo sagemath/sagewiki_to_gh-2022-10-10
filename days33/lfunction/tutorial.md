@@ -203,8 +203,12 @@ WARNING: It is important to note that the analytic rank is computed using numeri
 The analytic rank of an L-series of an elliptic curve plays an important role in the Birch and Swinnerton-Dyer conjecture.  Specifically, part of the BSD conjecture claims that the rank of the group or points on an elliptic curve $E$ over a number field $K$ is the order of vanishing of the $L$-function $L(s,E)$ at $s=1$.  Generalizations of the BSD conjecture exist for abelian varieties of higher dimension as well.
 
 
-=== Precision Issues ===
+=== Future Developments ===
 
+This $L$-functions package is still in the process of development, and there are some tools that will hopefully be added in the future:
 
-=== Advanced Topics: ===
-  - finding L-series from incomplete information
+1. """ Triple Product L-functions: """ a class which can be used to define $L$-functions on a tensor product of three modular forms
+
+2. """ Precision Issues: """ The goal regarding precision issues is to allow this package to take, as input, the $a_p$ with Norm$(p)<B$ for some real constant $B$, and inform the user of how many bits of precision they will get when implementing an $L$-function defined by these $a_p$. Basically, this will invert the already existing function number_of_coefficients(prec).
+
+3. """ Finding L-series From Incomplete Information """
