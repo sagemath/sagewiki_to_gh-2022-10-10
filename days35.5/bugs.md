@@ -26,7 +26,7 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
 
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/10075|#10075]] Make log gamma symbolic
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10489#comment:14|#10489]] Slope fields and python lambdas: Rebasing outdated patch, needs review
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10489|#10489]] Slope fields and python lambdas: Rebasing outdated patch, needs review
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10757#comment:5|#10757]] Laplacian matrix: Created patch fixing and documenting div-by-0 error
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11462#comment:5|#11462]] @parallel documentation update: Created patch updating the documentation
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11888|#11888]] Sage is missing the lambert_w function conversion from Maxima
