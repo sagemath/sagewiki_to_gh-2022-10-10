@@ -49,3 +49,5 @@ Participating remotely:
 
  * Paul Zimmermann
  * John Perry (University of Southern Mississippi)
+ * Burcin Erocal
+ * Keshav Kini
