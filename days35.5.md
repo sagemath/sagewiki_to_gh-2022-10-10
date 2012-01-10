@@ -51,3 +51,4 @@ Participating remotely:
  * John Perry (University of Southern Mississippi)
  * Burcin Erocal
  * Keshav Kini
+ * William Stein
