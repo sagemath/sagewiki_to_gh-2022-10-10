@@ -12,8 +12,6 @@ For [[days35.5|Sage Days 35.5]].
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12094|#12094]] update Maxima
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12220|#12220]] Updated CBC package
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/9248|#9248]] Doc fix for factorial function (types of accepted input)
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/12286|#12286]] Doc fix for factorial function (algorithm parameter) 
  
 == Pages on Trac with lots more bugs of relevance ==
  * [[http://trac.sagemath.org/sage_trac/wiki/symbolics|symbolics and calculus bugs on Trac wiki]]
@@ -32,3 +30,6 @@ For [[days35.5|Sage Days 35.5]].
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11888|#11888]] Sage is missing the lambert_w function conversion from Maxima
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11513|#11513]] Finish ticket adding _is_numerically_zero() to symbolic expressions
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/9248|#9248]] Doc fix for factorial function (types of accepted input)
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/12286|#12286]] Doc fix for factorial function (algorithm parameter) 
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12288|#12288]] unset HGPLAIN when appropriate
