@@ -322,6 +322,7 @@ anal-sex-pictures.us
 anchuang.com.cn
 andyedf.de
 angenehmen-aufenthalt.de
+angrybirdsblog\.com
 animalsex-movies-archive.com
 animalsex-pics-gallery.com
 anime1.org
@@ -729,6 +730,7 @@ cialis-online.b3.nu
 cialis-online-1.qn.com
 cialisusa.bravehost.com
 ciscochina.com
+citicardscom\.net
 claireburgos.com
 clamber.de
 clanbov.com
