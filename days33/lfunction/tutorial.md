@@ -207,8 +207,8 @@ The analytic rank of an L-series of an elliptic curve plays an important role in
 
 This $L$-functions package is still in the process of development, and there are some tools that will hopefully be added in the future:
 
-1. """ Triple Product L-functions: """ a class which can be used to define $L$-functions on a tensor product of three modular forms
+1. ''' Triple Product L-functions: ''' a class which can be used to define $L$-functions on a tensor product of three modular forms
 
-2. """ Precision Issues: """ The goal regarding precision issues is to allow this package to take, as input, the $a_p$ with Norm$(p)<B$ for some real constant $B$, and inform the user of how many bits of precision they will get when implementing an $L$-function defined by these $a_p$. Basically, this will invert the already existing function number_of_coefficients(prec).
+2. ''' Precision Issues: ''' The goal regarding precision issues is to allow this package to take, as input, the $a_p$ with Norm$(p)<B$ for some real constant $B$, and inform the user of how many bits of precision they will get when implementing an $L$-function defined by these $a_p$. Basically, this will invert the already existing function number_of_coefficients(prec).
 
-3. """ Finding L-series From Incomplete Information """
+3. ''' Finding L-series From Incomplete Information '''
