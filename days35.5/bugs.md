@@ -34,4 +34,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/9248|#9248]] Doc fix for factorial function (types of accepted input)
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12286|#12286]] Doc fix for factorial function (algorithm parameter) 
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12288|#12288]] unset HGPLAIN when appropriate
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/12288|#12288]] unset HGPLAIN when appropriate
