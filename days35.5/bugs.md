@@ -36,3 +36,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12286|#12286]] Doc fix for factorial function (algorithm parameter) 
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/12288|#12288]] unset HGPLAIN when appropriate
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10965|#10965]] fix minor polygon doc stuff
