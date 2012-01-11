@@ -42,3 +42,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/11970|#11970]] problem with R under Ubuntu 11.10
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12282|#12282]] Fix strcmp() with NULL argument in termcap library
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/9129|#9129]] sqrt memory leaks
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11771|#11771]] sage crashes on some degenerate flint xgcd's
