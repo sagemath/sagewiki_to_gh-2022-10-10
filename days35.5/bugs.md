@@ -39,3 +39,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/12288|#12288]] unset HGPLAIN when appropriate
  * (neeeds work) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10965|#10965]] fix minor polygon doc stuff
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/11970|#11970]] problem with R under Ubuntu 11.10
