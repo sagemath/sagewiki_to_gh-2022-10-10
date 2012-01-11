@@ -51,3 +51,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/10750|#10750]] Fix solve so that additional args are properly handled
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/10895|#10895]] add qitensor spkg (tensors for quantum information)
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10899|#10899]] is_chordal can raise TypeError
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/11513|#11513]] add is_trivial_zero() method to symbolic expressions
