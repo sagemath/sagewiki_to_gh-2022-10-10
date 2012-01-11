@@ -50,6 +50,7 @@ ThierryMonteil:
 * need help to build a class `TileSet` in a good way.
 * having OEIS work again (i have working parsers ready for a while, but would like to have them in a class, not as functions like `sloane_search()`, maybe the same as the existing for offline oeis ?).
 * word combinatorics : `tangent_words` as `WordPaths` ; `tangent_analytic_words` ; discussion about languages.
+* discussion about implementing Bratelli diagrams.
 
 
 Nicolas Borie:
@@ -68,6 +69,7 @@ Tentative list of participants
 * FlorentHivert, Prof, LITIS, Université de Rouen
 * NicolasThiéry, MdC, Orsay
 * Viviane Pons, graduate student, LIGM, Université Paris-Est
+* ThierryMonteil, CR, Montpellier
 
 Practical information
 =====================
