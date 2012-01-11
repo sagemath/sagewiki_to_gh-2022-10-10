@@ -45,3 +45,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11771|#11771]] sage crashes on some degenerate flint xgcd's
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/2956|#2956]] generic multivariate polynomials are buggy on exponent overflow
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/6442|#6442]] Random(?) index error with determinant method
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/9362|#9362]] Invalidate None as a vertex label.
