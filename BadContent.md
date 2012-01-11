@@ -4713,6 +4713,8 @@ goosejakkedk\.com
 kontaktlinserna\.com
 prestigeweddinginvitations\.com
 sum-security\.com
+pandoraaustraliastockists\.com
+angrybirdshub\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
