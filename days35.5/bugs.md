@@ -48,3 +48,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/9362|#9362]] Invalidate None as a vertex label.
  * (neews review) [[http://trac.sagemath.org/sage_trac/ticket/10057|#10057]] Change import location for decorator_defaults in sagenb interact.py
  * (needs info) [[http://trac.sagemath.org/sage_trac/ticket/10193|#10193]] Create the category of GradedEnumeratedSets
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/10750|#10750]] Fix solve so that additional args are properly handled
