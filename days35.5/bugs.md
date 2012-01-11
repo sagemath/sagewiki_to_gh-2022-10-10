@@ -56,3 +56,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/11705|#11705]] Port Sage to SUSE Linux Power 7 (ppc64).
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/9411|#9411]] Given points on an elliptic curve, this finds a LLL reduced ZZ-independent set
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11652|#11652]] MPolynomial_libsingular reports the wrong degree
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11739|#11739]] add_vertex w/o params should return the new vertex
