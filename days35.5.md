@@ -40,7 +40,7 @@ PARTICIPANTS:
  * Volker Braun (Dublin Inst. for Adv. Studies)
  * Karen Kohl (U Southern Mississippi)
  * Cassie Williams (Colorado State University)
- * Lola Thompson (Dartmouth College)
+ * Lola Thompson (Dartmouth College) (cancelled)
  * Peter Story (Gordon College)
  * Kenny Smith (Gordon College)
  * Geoff Ehrman (University of New Hampshire)
