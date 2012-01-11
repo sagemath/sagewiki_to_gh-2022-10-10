@@ -44,6 +44,7 @@ PARTICIPANTS:
  * Peter Story (Gordon College)
  * Kenny Smith (Gordon College)
  * Geoff Ehrman (University of New Hampshire)
+ * Nathan Carter (Bentley University)
 
 Participating remotely:
 
