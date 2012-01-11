@@ -878,6 +878,7 @@ deli.net.cn
 dentalinsurancehealth.com
 department-storez.com
 desiraesworld.com
+destindia-internships\.com
 deutschlandweite-immobilienangebote.de
 devonanal.com
 devon-daniels.com
@@ -2122,6 +2123,8 @@ pai-gow-keno.com
 paisleydevelopmentassociation.org
 paite.net
 pajara.to
+pandoraaustraliastockists\.com
+pandorajewelryco\.com
 panpanddc.com
 pantandsocks.co.uk
 paperscn.com
