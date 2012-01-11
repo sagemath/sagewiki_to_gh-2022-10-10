@@ -46,3 +46,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/2956|#2956]] generic multivariate polynomials are buggy on exponent overflow
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/6442|#6442]] Random(?) index error with determinant method
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/9362|#9362]] Invalidate None as a vertex label.
+ * (neews review) [[http://trac.sagemath.org/sage_trac/ticket/10057|#10057]] Change import location for decorator_defaults in sagenb interact.py
