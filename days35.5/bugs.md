@@ -53,3 +53,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10899|#10899]] is_chordal can raise TypeError
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/11513|#11513]] add is_trivial_zero() method to symbolic expressions
  * (needs info) [[http://trac.sagemath.org/sage_trac/ticket/11666|#11666]] Upgrade MPFR to 3.1.0
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/11705|#11705]] Port Sage to SUSE Linux Power 7 (ppc64).
