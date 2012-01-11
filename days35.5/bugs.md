@@ -22,6 +22,7 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
 
 == Bugs actually worked on and/or solved ==
 
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10923|#10923]] Bad sign in integral()
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/1173|#1173]] implement numerical evaluation of erf at complex arguments
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12289|#12289]] pass algorithm argument to custom numeric evalution methods
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
