@@ -52,3 +52,7 @@ Participating remotely:
  * Burcin Erocal
  * Keshav Kini
  * William Stein
+
+Photos:
+
+ * [[https://picasaweb.google.com/110261841624491779840/SageDays355Day1?authkey=Gv1sRgCOmI543z_fi9iQE|Day 1]]
