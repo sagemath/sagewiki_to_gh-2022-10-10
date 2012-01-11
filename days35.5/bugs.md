@@ -55,3 +55,4 @@ See also the list of appropriately tagged [[http://trac.sagemath.org/sage_trac/q
  * (needs info) [[http://trac.sagemath.org/sage_trac/ticket/11666|#11666]] Upgrade MPFR to 3.1.0
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/11705|#11705]] Port Sage to SUSE Linux Power 7 (ppc64).
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/9411|#9411]] Given points on an elliptic curve, this finds a LLL reduced ZZ-independent set
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11652|#11652]] MPolynomial_libsingular reports the wrong degree
