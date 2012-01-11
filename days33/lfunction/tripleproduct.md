@@ -85,6 +85,8 @@ class LSeriesTripleProduct(LSeriesAbstract):
 
 # Examples
 
+E=EllipticCurve([0,-1,1,-10,-20])  
+
 L = TripleProductLseries(11, f, f, f)
 
 f = E.anlist(10**7)
