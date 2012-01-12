@@ -67,3 +67,4 @@ This is as accurate as we've made it.  The list of appropriately tagged [[http:/
  * (needs review) [[https://github.com/jasongrout/simple-python-db-compute/pull/222|Single Cell Server - 222]] Fix updating of multiple interacts
  * (needs review) [[https://github.com/jasongrout/simple-python-db-compute/pull/220|Single Cell Server - 220]] Expand embedding API
  * (needs review) [[https://github.com/jasongrout/simple-python-db-compute/pull/219|Single Cell Server - 219]] Sage 4.7.2, IPython 0.10 compatibility
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12298|#12298]] minor minor CallableSymbolicExpressionRing display bug
