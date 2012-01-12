@@ -25,8 +25,9 @@ This is as accurate as we've made it.  The list of appropriately tagged [[http:/
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10923|#10923]] Bad sign in integral()
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/1173|#1173]] implement numerical evaluation of erf at complex arguments
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12289|#12289]] pass algorithm argument to custom numeric evalution methods
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/4498|#4498]] Implement a symbolic version of the arg function
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/4498|#4498]] Implement a symbolic version of the arg function
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/9874|#9874]] add a function for the derivative of ceil and floor
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10075|#10075]] Make log gamma symbolic
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10489|#10489]] Slope fields and python lambdas: Rebasing outdated patch, needs review
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/10757#comment:5|#10757]] Laplacian matrix: Created patch fixing and documenting div-by-0 error
