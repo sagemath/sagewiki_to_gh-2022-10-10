@@ -60,3 +60,10 @@ This is as accurate as we've made it.  The list of appropriately tagged [[http:/
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11739|#11739]] add_vertex w/o params should return the new vertex
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12292|#12292]] charpoly is recomputed when called with a different variable
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12293|#12293]] Graph(n) is not documented
+ * (merged) [[https://github.com/sagemath/sagenb/issues/6|Sagenb - 6]] Mirror changes to the old sagenb in the flask notebook since the last fork
+ * (merged) [[https://github.com/sagemath/sagenb/issues/13|Sagenb - 13]] Ensure JMol is loaded in the new flask notebook
+ * (merged) [[https://github.com/sagemath/sagenb/pull/15|Sagenb - 15]] Remove GnuTLS and changed protocol so secure HTTPS connections can be started
+ * (needs review) [[https://github.com/sagemath/sagenb/pull/19|Sagenb - 19]] Cache public worksheets for performance improvements
+ * (needs review) [[https://github.com/jasongrout/simple-python-db-compute/pull/222|Single Cell Server - 222]] Fix updating of multiple interacts
+ * (needs review) [[https://github.com/jasongrout/simple-python-db-compute/pull/220|Single Cell Server - 220]] Expand embedding API
+ * (needs review) [[https://github.com/jasongrout/simple-python-db-compute/pull/219|Single Cell Server - 219]] Sage 4.7.2, IPython 0.10 compatibility
