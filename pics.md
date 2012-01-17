@@ -277,7 +277,8 @@ http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage-a4.pdf.
 
 This animation was moved to the section on the animate command : [[http://wiki.sagemath.org/animate#TheTamerandtheLionbyProvencalandLabbe]]
 
-=== Integral Curvature Apollonian Circle Packing by Marshall Hampton and Carl Witty ===
+=== Integral Curvature Apollonian Circle Packing ===
+by Marshall Hampton and Carl Witty
 
 {{{
 def kfun(k1,k2,k3,k4):
