@@ -14,3 +14,7 @@
     * [[attachment:UpperTriangularBooleanMatrixMonoid5-cartan-graph.pdf|n=5]]
 
  * [[attachment:J-graph-A2.pdf|The J-order on the BiHecke monoid for the symmetric group S_3]]
+
+ * Sage-Combinat T-Shirt for FPSAC 2009:
+    * [[attachment:tshirt-fpsac09-front.png|front]]
+    * [[attachment:tshirt-fpsac09-back.png|back]]
