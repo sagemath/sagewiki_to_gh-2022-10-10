@@ -123,5 +123,6 @@ More information on the HP-UX port can be found on the [[HP-UX]] page.
 
 More information about the status of the Solaris ports can be found on the [[solaris|Solaris]] page of the Sage Wiki. There's also some notes about installing [[solaris-binaries|Solaris binaries]]
 
-====== Mac OS X (XCode 4) ======
+====== Mac OS X ======
  * XCode 4.0.1 is known to produce a Sage executable that segfaults. This needs work. Even more work needs to be done if one wants to use Clang-based compilers that come with it: they cannot even build the whole of Sage.
+ * See [[http://trac.sagemath.org/sage_trac/ticket/11881|Trac #11881] for Sage on OS X 10.7 (Lion).
