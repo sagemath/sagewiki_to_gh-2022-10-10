@@ -8,7 +8,7 @@ A miniumum of gcc 4.0.1 is needed to build Sage, though later releases are gener
 
 If you try to build Sage on most Linux or OS X systems, you should have few if any problems and if there are problems, plenty of people will be able to help you. Just ask on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] But some distributions are better supported than others - see below for details. 
 
-Building Sage on Solaris or OpenSolaris is a little tricky, but Sage works on those platforms. Ask for help on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] if you have problems. 
+Building Sage on Solaris or !OpenSolaris is a little tricky, but Sage works on those platforms. Ask for help on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] if you have problems. 
 
 If you try to build Sage on something more exotic, you may find a Sage developer able to help you, but you can't be sure. 
 
