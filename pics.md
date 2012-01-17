@@ -276,3 +276,81 @@ http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage-a4.pdf.
 === The Tamer and the Lion by Provencal and Labbe ===
 
 This animation was moved to the section on the animate command : [[http://wiki.sagemath.org/animate#TheTamerandtheLionbyProvencalandLabbe]]
+
+=== Integral Curvature Apollonian Circle Packing by Marshall Hampton and Carl Witty ===
+
+{{{
+def kfun(k1,k2,k3,k4):
+    """
+    The Descartes formula for the curvature of an inverted tangent circle.
+    """
+    return 2*k1+2*k2+2*k3-k4
+
+
+colorlist = [(1,0,1),(0,1,0),(0,0,1),(1,0,0)]
+
+def circfun(c1,c2,c3,c4):
+    """
+    Computes the inversion of circle 4 in the first three circles.
+    """
+    newk = kfun(c1[3],c2[3],c3[3],c4[3])
+    newx = (2*c1[0]*c1[3]+2*c2[0]*c2[3]+2*c3[0]*c3[3]-c4[0]*c4[3])/newk
+    newy = (2*c1[1]*c1[3]+2*c2[1]*c2[3]+2*c3[1]*c3[3]-c4[1]*c4[3])/newk
+    newcolor = c4[4]
+    if newk > 0:
+        newr = 1/newk
+    elif newk < 0:
+        newr = -1/newk
+    else:
+        newr = Infinity
+    return [newx, newy, newr, newk, newcolor]
+
+def mcircle(circdata, label = False, thick = 1/10, cutoff = 2000, color = ''):
+    """
+    Draws a circle from the data.  label = True
+    """
+    if color == '':
+        color = colorlist[circdata[4]]
+    if label==True and circdata[3] > 0 and circdata[2] > 1/cutoff:
+        lab = text(str(circdata[3]),(circdata[0],circdata[1]), fontsize = \
+500*(circdata[2])^(.95), vertical_alignment = 'center', horizontal_alignment \
+= 'center', rgbcolor = (0,0,0),zorder=10)
+    else:
+        lab = Graphics()
+    circ = circle((circdata[0],circdata[1]), circdata[2], rgbcolor = (0,0,0), \
+thickness = thick)
+    circ = circ + circle((circdata[0],circdata[1]), circdata[2], rgbcolor = color, \
+thickness = thick, fill=True, alpha = .4, zorder=0)
+    return lab+circ
+
+def add_circs(c1, c2, c3, c4, cutoff = 300):
+    """
+    Find the inversion of c4 through c1,c2,c3.  Add the result to circlist,
+    then (if the result is big enough) recurse.
+    """
+    newcirc = circfun(c1, c2, c3, c4)
+    if newcirc[3] < cutoff:
+        circlist.append(newcirc)
+        add_circs(newcirc, c1, c2, c3, cutoff = cutoff)
+        add_circs(newcirc, c2, c3, c1, cutoff = cutoff)
+        add_circs(newcirc, c3, c1, c2, cutoff = cutoff)
+
+zst1 = [0,0,1/2,-2,0]
+zst2 = [1/6,0,1/3,3,1]
+zst3 = [-1/3,0,1/6,6,2]
+zst4 = [-3/14,2/7,1/7,7,3]
+
+circlist = [zst1,zst2,zst3,zst4]
+add_circs(zst1,zst2,zst3,zst4,cutoff = 500)
+add_circs(zst2,zst3,zst4,zst1,cutoff = 500)
+add_circs(zst3,zst4,zst1,zst2,cutoff = 500)
+add_circs(zst4,zst1,zst2,zst3,cutoff = 500)
+
+circs = sum([mcircle(q, label = True, thick = 1/2) for q in \
+circlist[1:]])
+circs = circs + mcircle(circlist[0],color=(1,1,1),thick=1)
+circs.save('./Apollonian3.png',axes = False, figsize = [12,12], xmin = \
+-1/2, xmax = 1/2, ymin = -1/2, ymax = 1/2)
+}}}
+
+{{attachment:Apollonian.png}}
