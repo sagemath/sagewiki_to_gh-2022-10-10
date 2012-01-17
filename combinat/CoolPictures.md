@@ -12,3 +12,5 @@
  * Graphs representing the Cartan matrix of the monoid of upper unitriangular boolean nxn matrices. For the second one, I can't resist quoting Tom Denton: "First they tell us we will never need more than 640k of RAM, then they tell us our documents should always be less than the length of a limousine..."
     * [[attachment:UpperTriangularBooleanMatrixMonoid4-cartan-graph.pdf|n=4]]
     * [[attachment:UpperTriangularBooleanMatrixMonoid5-cartan-graph.pdf|n=5]]
+
+ * [[attachment:J-graph-A2.pdf|The J-order on the BiHecke monoid for the symmetric group S_3]]
