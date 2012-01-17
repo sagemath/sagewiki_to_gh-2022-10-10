@@ -47,7 +47,7 @@ There are five requirements for Sage to work successfully on these fully support
  * Redhat 5.3 on Intel Itanium (64-bit).  Tested on [[http://build.sagemath.org/sage/buildslaves/cleo-1|cleo]]
  * Redhat 5.6 (Tikanga) on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/rosemary-1|rosemary]]
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
- * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on  [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
+ * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
 
 ====== Mac OS X ======
  * OS X 10.4 (Tiger) on PPC.  There is one known problem with the Maxima interface, this will be fixed in sage-5.0, see [[http://trac.sagemath.org/sage_trac/ticket/9361|Trac #9361]].
@@ -69,7 +69,8 @@ If anyone is able to test on these systems, we would particularly appreciate rep
  * Gentoo. The Sage on Gentoo project (http://github.com/cschwan/sage-on-gentoo) is aimed at properly integrating Sage to the Gentoo system, so is quite different to how Sage builds on all other platforms. This is designed for end users, not developers. However, a recent Sage should build from the source on Gentoo, but that would not be the normal way to use Sage on Gentoo. 
  * Red Hat Enterprise Linux Server 5.3 or later. 
  * SUSE Linux Enterprise Server 10 or later on Intel Itanium processors 
- * Ubuntu 8 or later.  For Ubuntu 11.10, you need at least sage-4.8.
+ * Ubuntu 8 or later.
+ * Ubuntu 11.10 will be supported in sage-4.8.
 
 Other Linux distributions, such as Slackware are never tested, so may or may not work. 
 
