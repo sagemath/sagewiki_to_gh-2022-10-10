@@ -34,6 +34,7 @@ There are five requirements for Sage to work successfully on these fully support
  * A full development system must be installed - a minimal install will probably not work if you wish to build from source.
  * The system must not have been mis-configured. Unfortunately, it is not unusual for Sage to fail to build on systems where someone has mis-configured the system. A fresh install of the operating system is not necessary, but any changes made since the installation must have been performed properly.
  * It is recommended to have at least 2 GB of RAM (you may get away with less, but you can not be sure).  In order to run all doctests, Sage needs up to 2.2 GB of memory.
+  * On some very old machines it is possible to build and run tests with as little as .5 GB, with additional swap, but there are no guarantees.
  * You need at least 3 GB of free disk space.
  * gcc >= 4.0.1.
  * All instructions must be followed.
