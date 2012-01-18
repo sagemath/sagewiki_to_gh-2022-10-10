@@ -39,7 +39,7 @@ There are five requirements for Sage to work successfully on these fully support
  * gcc >= 4.0.1.
  * All instructions must be followed.
 
-====== Linux ======
+==== Linux ====
 
  * Fedora 16 on x86 (64-bit). Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/lena-1|lena]], [[http://build.sagemath.org/sage/buildslaves/sextus-1|sextus]]
  * Fedora 15 on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/taurus-1|taurus]]
@@ -50,11 +50,11 @@ There are five requirements for Sage to work successfully on these fully support
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
  * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
 
-====== Mac OS X ======
+==== Mac OS X ====
  * OS X 10.4 (Tiger) on PPC.  There is one known problem with the Maxima interface, this will be fixed in sage-5.0, see [[http://trac.sagemath.org/sage_trac/ticket/9361|Trac #9361]].
  * OS X 10.6 (Snow Leopard) 32-bit or 64-bit, with XCode 3 (XCode 4.0.1 is known to produce an executable that does not work).  Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
-====== OpenSolaris x86 32-bit ======
+==== OpenSolaris x86 32-bit ====
  * 06/2009 updated to build 134 on x86 (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
 
 === Expected to work -  Sage will probably work, but it is not always tested. ===
@@ -62,7 +62,7 @@ In addition to the above systems where Sage will work, Sage will probably work o
 
 If anyone is able to test on these systems, we would particularly appreciate reports of failures, since Sage really should work on these systems. We expect to set up an automated system where people can mail successful build reports, and to generate a web page showing successful builds. But currently neither are in place. 
 
-====== Linux ======
+==== Linux ====
  * Arch on x86 (Both 32-bit and 64-bit) 
  * CentOS  on x86 (Both 32-bit and 64-bit) 
  * Debian 5.0 on x86 (Both 32-bit and 64-bit)
@@ -76,17 +76,17 @@ If anyone is able to test on these systems, we would particularly appreciate rep
 
 Other Linux distributions, such as Slackware are never tested, so may or may not work. 
 
-====== Mac OS X ======
+==== Mac OS X ====
  * OS X 10.4 (Tiger) and 10.5 (Leopard), both PPC and Intel chips.  Note that 10.4 PPC is fully supported.
 
-====== Solaris ======
+==== Solaris ====
  * Solaris 10 03/2005 or any later Solaris 10 release on SPARC processors in 32-bit mode.
  * Solaris 10 03/2005 or any later Solaris 10 release on x86 processors in 32-bit mode.
  * Solaris 10 on x86 processors in 32-bit mode.
  * Solaris 11 Express on x86 (32-bit has been tested).
  * Solaris 11 Express on SPARC (Never tested).
 
-====== Microsoft Windows ======
+==== Microsoft Windows ====
  * VMware images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage. 
 
 === Probably will not work - Porting work may be ongoing ===
@@ -94,36 +94,36 @@ None of these systems have a complete fully reliable port. In some cases complet
 
 If anyone has the time to help on these ports, it would be greatly appreciated. 
 
-===== AIX =====
+==== AIX ====
  * A little work has been done on an AIX port. This can be followed at the [[AIX| AIX port page]]. It is not currently clear if this will ever be completed, as there is not a significant effort taking place. If you wish to help, that would be appreciated. If you do not have access to AIX hardware, [[http://www.metamodul.com/|Metamodul]] will provide free public access for open-source development. A couple of Sage developers have used this. Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/9999|Trac #9999]] has the latest list of known issues.
 
-====== FreeBSD ======
+==== FreeBSD ====
  * FreeBSD 8.1 (Substantial work has been done on this)
 
 More information about the status of the FreeBSD port can be found at [[freebsd|Sage port to FreeBSD]].
 
-===== Linux (ARM, Mips64 and PPC64 processors) =====
+==== Linux (ARM, Mips64 and PPC64 processors) ====
  * Mips64 The Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
  * PPC64 The 64-bit PowerPC port can be followed at [[http://trac.sagemath.org/sage_trac/ticket/11705|Trac #11705]]
 
-===== HP-UX =====
+==== HP-UX ====
  * Some work has been done on an HP-UX port to the PA-RISC processor. At least three Sage developers have tested their code on HP-UX.
  * Some work has been done on HP-UX on the Itanium processor.
 More information on the HP-UX port can be found on the [[HP-UX]] page. 
 
-===== Microsoft Windows =====
+==== Microsoft Windows ====
  * Microsoft Windows using Cygwin (Substantial work has been done on this). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows sage-windows]] mailing list.
  * Microsoft Windows using Microsoft's compiler. This will be a full native port. There are some efforts at this. 
 
-===== OpenSolaris 64-bit =====
+==== OpenSolaris 64-bit ====
  * !OpenSolaris 06/2009 on x86 in 64-bit mode.  (Substantial work has been done on this). 
 
-===== Solaris 10 64-bit =====
+==== Solaris 10 64-bit ====
  * Solaris 10 on x86 processors in 64-bit mode. (Substantial work has been done on this).
  * Solaris 10 on SPARC processors in 64-bit mode. (Substantial work has been done on this).
 
 More information about the status of the Solaris ports can be found on the [[solaris|Solaris]] page of the Sage Wiki. There's also some notes about installing [[solaris-binaries|Solaris binaries]]
 
-====== Mac OS X ======
+==== Mac OS X ====
  * XCode 4.0.1 is known to produce a Sage executable that segfaults. This needs work. Even more work needs to be done if one wants to use Clang-based compilers that come with it: they cannot even build the whole of Sage.
  * See [[http://trac.sagemath.org/sage_trac/ticket/11881|Trac #11881]] for Sage on OS X 10.7 (Lion).
