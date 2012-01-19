@@ -25,6 +25,8 @@ developers for coding sprints on the following themes:
 
 * Integration of more Sage-Combinat thematic tutorials into Sage
 
+* Correct some of the `Weirdness <http://wiki.sagemath.org/combinat/Weirdness>`_
+
 * Please expand!
 
 Jean-Pierre Flori:
