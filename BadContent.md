@@ -4720,6 +4720,8 @@ pandoraaustraliastockists\.com
 angrybirdshub\.com
 onlinepokered\.com
 downloadfullgamesfree\.net
+hotwirelesscoupons\.com
+purecigs\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
