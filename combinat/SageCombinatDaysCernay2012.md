@@ -70,8 +70,8 @@ Tentative list of participants
 * Viviane Pons, graduate student, LIGM, Université Paris-Est
 * ThierryMonteil, CR, Montpellier
 * VincentDelecroix, Postdoc, IMJ, Paris
-* Nathann Cohen
-* Štěpán Starosta
+* Nathann Cohen, Postdoc, Université Libre de Bruxelles
+* Štěpán Starosta, Ph.D. student, Czech Technical University in Prague
 * Flavia Stan
 * Burcin Erocal
 
