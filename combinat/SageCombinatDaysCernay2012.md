@@ -74,8 +74,8 @@ Tentative list of participants
 * VincentDelecroix, Postdoc, IMJ, Paris
 * Nathann Cohen, Postdoc, Université Libre de Bruxelles
 * Štěpán Starosta, Ph.D. student, Czech Technical University in Prague
-* Flavia Stan
-* Burcin Erocal
+* Flavia Stan, Postdoc, INRIA-Microsoft Research Joint Center, Orsay
+* Burcin Erocal, Postdoc, TU Kaiserslautern
 
 Practical information
 =====================
