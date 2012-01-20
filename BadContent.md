@@ -2892,6 +2892,7 @@ vod-solutions.com
 voip99.com
 voip99.net
 voip-guide.org
+voyancegratuite\.com
 vttolldd.org
 vtsae.org
 vttthtgg.org
@@ -4722,6 +4723,8 @@ onlinepokered\.com
 downloadfullgamesfree\.net
 hotwirelesscoupons\.com
 purecigs\.com
+trivology\.com
+biocig\.ro
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
