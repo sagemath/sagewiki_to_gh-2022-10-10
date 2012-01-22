@@ -668,6 +668,7 @@ certified-(new|used)-(autos|cars|suvs).com
 cfeenet.com
 changweia.cn
 chaosmagic.com/weblog/catastrophic
+chaseonlinebankingcom\.com
 chat\.ru
 chat-l.de
 chatten.bilder-j.de
@@ -1035,6 +1036,7 @@ ethixsouthwest.com
 etoo.cn
 etowns\.org
 e-tutor.com
+eutstore\.com
 evanstonpl.org
 event-kalendarium.de
 everyvoice.net
@@ -1493,6 +1495,7 @@ idc2008\.cn
 idebtconsolidation.org
 i-directv.net
 i-dish-network.org
+ie\.isoso\.info
 i-flexeril.com
 ifreepages.com
 ig3.net
@@ -2439,6 +2442,7 @@ sex-friend.info
 sexglory.com
 sexiestserver.com
 sexingitup.com
+sexjobsonline\.com
 sex-livecam-erotik.net
 sex-mates.info
 sexmuch.com
@@ -4725,6 +4729,7 @@ hotwirelesscoupons\.com
 purecigs\.com
 trivology\.com
 biocig\.ro
+promocoder\.ne
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
