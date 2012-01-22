@@ -7,7 +7,7 @@ generic definition : A ''tiling'' is a map from an enumerated set to an alphabet
 == Structure ==
 
 === Tiling space ===
-The highest level class should be something like TilingSpace. It contains an enumerated set, an alphabet (and optionally a way of plotting). Do we always assume that the enumerated set is either a group (like ZZ^d) or a sub-semigroup of a group (like NN^d) ?
+The highest level class should be something like TilingSpace. It contains an enumerated set, an alphabet (and optionally a way of plotting). Do we always assume that the enumerated set is either a group (like ZZ) or a sub-semigroup of a group (like NN) ?
 
 === Tiling and words ===
 
