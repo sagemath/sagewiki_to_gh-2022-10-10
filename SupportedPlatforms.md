@@ -72,7 +72,6 @@ If anyone is able to test on these systems, we would particularly appreciate rep
  * Red Hat Enterprise Linux Server 5.3 or later. 
  * SUSE Linux Enterprise Server 10 or later on Intel Itanium processors 
  * Ubuntu 8 or later.
- * Ubuntu 11.10 will be supported in sage-4.8.
 
 Other Linux distributions, such as Slackware are never tested, so may or may not work. 
 
