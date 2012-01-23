@@ -94,7 +94,7 @@ Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches aw
  * [[data|Put (links to) interesting data you compute using Sage here]]
 
 
-= Images / Plotting / Art =
+= Images / Plotting / Art / Interacts =
 
  * [[pics|Code to make cool images]]
  * [[plot|Sage plotting]]
