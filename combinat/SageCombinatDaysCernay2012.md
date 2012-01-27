@@ -63,6 +63,18 @@ Nicolas Borie:
 * finalise the implementation of integer vectors modulo the action of a permutation group.
 * Implementation of multivariate polynomials view as a free module over symmetric functions (Harmonic polynomials, Schubert polynomials, Monomials under staircase, Descent monomials ...)
 
+Nicolas M. Thiéry:
+
+* Finalize and merge in as many of my old patches as possible:
+  * `#10998: Categories for posets <http://trac.sagemath.org/sage_trac/ticket/10998>`_
+  * `#9469: Category membership without arguments <http://trac.sagemath.org/sage_trac/ticket/9469>`_
+  * `#7980: multiple realizations <http://trac.sagemath.org/sage_trac/ticket/7980>`_
+  * `#10963: more functorial constructions:  <http://trac.sagemath.org/sage_trac/ticket/10963>`_
+    Depends on `#11003 Improve support for lazy_import inside classes <http://trac.sagemath.org/sage_trac/ticket/11003>`_
+  * `#6588: categories root system:  <http://trac.sagemath.org/sage_trac/ticket/6588>`_
+  * `#11111: finite_dimensional_modules:  <http://trac.sagemath.org/sage_trac/ticket/11111>`_
+
+
 We would love to have some hard core Cython and/or Sage developer at hand :-)
 
 Tentative list of participants
