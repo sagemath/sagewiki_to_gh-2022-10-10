@@ -4730,6 +4730,8 @@ purecigs\.com
 trivology\.com
 biocig\.ro
 promocoder\.ne
+linkyoursite\.net
+geekzu\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
