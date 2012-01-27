@@ -70,10 +70,12 @@ Nicolas M. Thiéry:
   * `#9469: Category membership without arguments <http://trac.sagemath.org/sage_trac/ticket/9469>`_
   * `#7980: multiple realizations <http://trac.sagemath.org/sage_trac/ticket/7980>`_
   * `#10963: more functorial constructions:  <http://trac.sagemath.org/sage_trac/ticket/10963>`_
-    Depends on `#11003 Improve support for lazy_import inside classes <http://trac.sagemath.org/sage_trac/ticket/11003>`_
   * `#6588: categories root system:  <http://trac.sagemath.org/sage_trac/ticket/6588>`_
   * `#11111: finite_dimensional_modules:  <http://trac.sagemath.org/sage_trac/ticket/11111>`_
 
+* Finalize and merge as many of others'old patches as possible:
+  * `#11003: Improve support for lazy_import inside classes <http://trac.sagemath.org/sage_trac/ticket/11003>`_
+  * `#11118: finite_enumset_list_cache-fh <http://trac.sagemath.org/sage_trac/ticket/11118>`_
 
 We would love to have some hard core Cython and/or Sage developer at hand :-)
 
