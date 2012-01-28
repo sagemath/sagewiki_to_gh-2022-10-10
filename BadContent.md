@@ -4732,6 +4732,7 @@ biocig\.ro
 promocoder\.ne
 linkyoursite\.net
 geekzu\.com
+perfectclaims\.co\.uk
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
