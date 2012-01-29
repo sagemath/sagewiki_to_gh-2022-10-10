@@ -41,9 +41,24 @@ Jean-Pierre Flori:
 
 Vincent Delecroix :
 
+* reviews
+
+   `#10193: Graded enumerated sets <http://trac.sagemath.org/sage_trac/ticket/10193>`_
+   
+   `#10132: Parametrization of (metric) surfaces in 3D euclidean space <http://trac.sagemath.org/sage_trac/ticket/10132>`_
+
+* integration
+
+   `#10534: Generation of subwords, subsets and set partitions <http://trac.sagemath.org/sage_trac/ticket/10534>`_
+
+   `#9439: Hyperbolic geometry <http://trac.sagemath.org/sage_trac/ticket/9439>`_
+
 * iterators (Gray codes, iterate throu conjugacy class of the symmetric group, ...)
+
 * flat surfaces (quadratic differentials, topolgoy stuff, origamis, Ferenczi-Zamboni induction, ...)
+
 * language and symbolic dynamics (tickets #12224, #12225, #12226, #12227, #12228, #122230, #12231)
+
 * would like to hear about the code in Sage and more generally about algorithms for generating things up to isomorphism (like graphs, Integer vectors and co).
 
 
