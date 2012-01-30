@@ -4733,6 +4733,7 @@ promocoder\.ne
 linkyoursite\.net
 geekzu\.com
 perfectclaims\.co\.uk
+tagesgeldzinsen\.tv
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
