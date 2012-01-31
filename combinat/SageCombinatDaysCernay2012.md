@@ -69,6 +69,10 @@ ThierryMonteil:
 * having OEIS work again (i have working parsers ready for a while, but would like to have them in a class, not as functions like `sloane_search()`, maybe the same as the existing for offline oeis ?).
 * word combinatorics : `tangent_words` as `WordPaths` ; `tangent_analytic_words` ; discussion about languages.
 * discussion about implementing Bratelli diagrams.
+* backtracking framework (e.g. a kind of iterator with next() and cut() methods)
+* (svg output)
+* (worksheet database shared among public notebooks)
+* (graph minors)
 
 
 Nicolas Borie:
