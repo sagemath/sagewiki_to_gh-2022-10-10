@@ -1,6 +1,7 @@
 I was a Program in Computing Assistant Adjunct Professor at UCLA (2007-2011) and am a SAGEvangelist (2005-).
 
-  http://www-scf.usc.edu/~burhanud   http://sage.math.washington.edu/home/burhanud
+  - http://www-scf.usc.edu/~burhanud   
+  - http://sage.math.washington.edu/home/burhanud
 
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
