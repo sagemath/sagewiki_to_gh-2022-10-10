@@ -8,7 +8,7 @@ Germany, February 8-10 2012.
 Requirements
 ------------
 
-- I suggest that everyone attending uses laptop with a linux or mac os system and knows how to work with it (like installing things). Alternatively, people can also use the Sage web interface, but that will not be the preferred way as it tents to be not completely reliable.
+- I suggest that everyone attending uses laptop with a linux or mac os system and knows how to work with it (like installing things). Alternatively, people can also use the Sage-Combinat server at http://sage.lacim.uqam.ca, but that will not be the preferred way as it tents to be not completely reliable.
 
 - It would also be appreciated if everyone tries to install Sage and the optional Sage-Combinat package before the course starts. For instructions see http://wiki.sagemath.org/combinat/Installation.
 
