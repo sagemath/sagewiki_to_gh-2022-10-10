@@ -142,7 +142,7 @@ Coming from downtown Paris to Cernay
 
 * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
 * From Chatelet-les-Halles: 45 minutes RER B to Saint-Remy les Chevreuses + 15 minutes bus to Cernay-la-Ville
-* `Time tables Saint-Remy <-> Cernay <-> Rambouillet <www.savac.fr/fr/transports/horaires_content/horaire/HV3903_1.pdf>`_
+* `Time tables Saint-Remy <-> Cernay <-> Rambouillet <attachment:HV3903_1.pdf>`_
 
    There are two bus stops at Cernay. The closest to the gite is Grand'Place.
 
