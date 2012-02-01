@@ -20,7 +20,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * May 7-11 2012: Sage-Combinat Days, Centre de recherches mathématiques, Montréal, Canada
 
- * February 8-10 2012: [[combinat/ClusterPackageDaysHannover|Sage and cluster algebra workshop]]
+ * February 8-10 2012: [[combinat/ClusterPackageDaysHannover|Sage and cluster algebra workshop, University of Hannover]]
 
  * February 6-10 2012: [[combinat/SageCombinatDaysCernay2012|Sage-Combinat Days Cernay 2012]]
 
