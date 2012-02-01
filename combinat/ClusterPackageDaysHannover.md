@@ -2,7 +2,7 @@
 
 The Sage and cluster algebra workshop will be held at the University of Hannover, Germany, February 8-10 2012.
 
-If you want to add anything to this page (including your name in the participants list), use the temporary login ClustersDaysHannover and clustershannover2012.
+If you want to add anything to this page (including your name in the participants list), use the temporary login !ClustersDaysHannover and clustershannover2012.
 
 == Requirements ==
 
@@ -12,7 +12,7 @@ If you want to add anything to this page (including your name in the participant
     * you install Linux on your System
     * or you try to get sage-combinat to work inside a "virtual machine"
     * or use the Sage-Combinat server at http://sage.lacim.uqam.ca. As this server is not completely reliable, this will not be the preferred way.
- * It would also be appreciated if everyone with linux or mac tries to install Sage and the optional Sage-Combinat package before the course starts. For instructions see http://wiki.sagemath.org/combinat/Installation. We will meet on Tuesday afternoon (David: where and when?) to get sage installed on all the machines in some way.
+ * It would also be appreciated if everyone tries to install Sage and the optional Sage-Combinat package before the course starts. For instructions see http://wiki.sagemath.org/combinat/Installation. We will meet on Tuesday afternoon (David: where and when?) to get sage installed on all the machines in some way.
  * Basic (or even a little more advanced) programming skills are not required but will be very helpful.
 
 == Further reading ==
@@ -75,6 +75,7 @@ Please let me know if you are attending. I will then add your name to the list
 
  * David Pauksztello (local organizer)
  * Christian Stump (organizer)
+ * Julian Rüth (might join on Thursday and Friday)
 
 == Discussion ==
 
