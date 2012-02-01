@@ -27,7 +27,8 @@ Plan, propositions:
  * codage de segments de droites
  * fractions continues et substitutions sturmiennes
  * voiles de Klein
-
+ * calculs de séries génératrices relativement simples pour illustrer les possibilités en calcul formel de Sage (moyenne et variance pour des scores de similarités entre séquences par calcul formel). Simulations en Sage pour obtenir des belles courbes et avoir une idée de la distribution.
+ * Autour de L-systèmes. Pour tester Sage en tant que langage de programmation, ses possibilités graphiques. Dans un premier temps, juste le flocon de von Koch, éventuellement des arborescences puis il y a surement moyen d'aller jusqu'au dessin des fractales de Rauzy (éventuellement en cachant sous le tapis normalisation et projection).
 
 == Pertinence du calcul formel en modélisation géométrique et en robotique ==
 
