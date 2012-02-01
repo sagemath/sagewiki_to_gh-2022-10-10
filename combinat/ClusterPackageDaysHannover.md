@@ -6,16 +6,25 @@ The Sage and cluster algebra workshop will be hold at the University of Hannover
 Germany, February 8.10 2012.
 
 Requirements
-============
+------------
 
 - I suggest that everyone attending uses laptop with a linux or mac os system and knows how to work with it (like installing things). Alternatively, people can also use the Sage web interface, but that will not be the preferred way as it tents to be not completely reliable.
 
-- It would also be appreciated if everyone tries to install Sage and the optional Sage-Combinat package before the course starts.
+- It would also be appreciated if everyone tries to install Sage and the optional Sage-Combinat package before the course starts. For instructions see http://wiki.sagemath.org/combinat/Installation.
 
-- Basic (or even a little more advanced) programming skills will be very helpful.
+- Basic (or even a little more advanced) programming skills are not required but will be very helpful.
+
+Further reading
+---------------
+
+- The Sage documentation http://sagemath.org/help.html#SageStandardDoc.
+
+- The compendium for the cluster algebra and quiver package http://arxiv.org/abs/1102.4844.
+
+- For further references to background on cluster algebras and quivers see the references in the compendium.
 
 A tentative schedule
-====================
+--------------------
 
 Wednesday Feb 8:
 
@@ -63,7 +72,7 @@ Friday Feb 10:
 - open session
 
 Participants
-============
+------------
 
 Please let me know if you are attending. I will then add your name to the list
 
