@@ -3,7 +3,7 @@ Sage and cluster algebra workshop
 =================================
 
 The Sage and cluster algebra workshop will be hold at the University of Hannover,
-Germany, February 8.10 2012.
+Germany, February 8-10 2012.
 
 Requirements
 ------------
