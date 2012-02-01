@@ -12,7 +12,7 @@ Intervenants: François Coste (Inria, IRISA, Rennes) et Jacques Nicolas (Inria, 
 
 Jour du cours : lundi
 
-suggestions de vincent delecroix qui organise cette session: utilisation conjointe de BioPython et R via Sage, utilisation des possibilites graphiques)
+suggestion: BioPython et R via Sage
 
 == Applications de systèmes dynamiques discrets ==
 
