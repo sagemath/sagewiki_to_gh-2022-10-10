@@ -5,6 +5,8 @@ I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
 
+* http://sage.math.washington.edu/home/burhanud/heckered/heckered.pdf
+
 
 * Mestre's method of graphs project which started at the  [[http://modular.math.washington.edu/msri06|MSRI Computing with Modular Forms]] workshop. 
 
