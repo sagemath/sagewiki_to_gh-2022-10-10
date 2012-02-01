@@ -1,4 +1,4 @@
-I was a Program in Computing Assistant Adjunct Professor at UCLA (2007-2011) and am a SAGEvangelist (2005-).
+I was a Program in Computing Assistant Adjunct Professor in the Department of Mathematics at UCLA (2007-2011) and am a SAGEvangelist (2005-).
 
   - http://www-scf.usc.edu/~burhanud   
   
