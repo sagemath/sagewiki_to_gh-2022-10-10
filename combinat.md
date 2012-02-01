@@ -24,6 +24,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * February 6-10 2012: [[combinat/SageCombinatDaysCernay2012|Sage-Combinat Days Cernay 2012]]
 
+ * March 19-23 2012: [[combinat/EjcGdrIm2012EJC|EJC du GDR-im]] a Rennes [[http://ejcim2012.irisa.fr/index.html|site officiel]]
+
 == Past news ==
 
  * May 2-6, 2011: [[http://wiki.sagemath.org/days30| Sage Days 30]]: Combinatorics (Schubert calculus, cluster algebras) and Number theory (integer vectors, multidimensional digit representations) in Acadia University, Wolfville, Nova Scotia, Canada
