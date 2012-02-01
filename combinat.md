@@ -24,7 +24,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * February 6-10 2012: [[combinat/SageCombinatDaysCernay2012|Sage-Combinat Days Cernay 2012]]
 
- * March 19-23 2012: [[combinat/EjcGdrIm2012EJC|EJC du GDR-im]] a Rennes [[http://ejcim2012.irisa.fr/index.html|site officiel]]
+ * March 19-23 2012: [[combinat/EjcGdrIm2012|EJC du GDR-im]] a Rennes [[http://ejcim2012.irisa.fr/index.html|site officiel]]
 
 == Past news ==
 
