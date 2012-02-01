@@ -5,6 +5,8 @@ I was an Assistant Adjunct Professor at UCLA and am a SAGEvangelist.
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
 
+* Doctoral dissertation [[http://www.sagemath.org/files/thesis/burhanuddin-thesis-2007.pdf]]
+
 * On the reducibility of Hecke polynomials over ZZ [[http://sage.math.washington.edu/home/burhanud/heckered/heckered.pdf]]
 
 
