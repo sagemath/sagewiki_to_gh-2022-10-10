@@ -18,6 +18,7 @@ If you want to add anything to this page (including your name in the participant
 == Further reading ==
 
  * The Sage documentation http://sagemath.org/help.html#SageStandardDoc.
+ * Many thematic tutorials on Sage can be found at http://combinat.sagemath.org/doc/thematic_tutorials/index.html.
  * The compendium for the cluster algebra and quiver package http://arxiv.org/abs/1102.4844.
  * For further references to background on cluster algebras and quivers see the references in the compendium.
  * Interesting lectures can be found at http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm550.
@@ -71,11 +72,11 @@ Friday Feb 10:
 
 == Participants ==
 
-Please let me know if you are attending. I will then add your name to the list
+Please add your name to the list if you plan to attend!
 
  * David Pauksztello (local organizer)
- * Christian Stump (organizer)
  * Julian Rüth (might join on Thursday and Friday)
+ * Christian Stump (organizer)
 
 == Discussion ==
 
