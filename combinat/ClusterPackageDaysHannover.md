@@ -12,7 +12,7 @@ If you want to add anything to this page (including your name in the participant
     * you install Linux on your System
     * or you try to get sage-combinat to work inside a "virtual machine"
     * or use the Sage-Combinat server at http://sage.lacim.uqam.ca. As this server is not completely reliable, this will not be the preferred way.
- * It would also be appreciated if everyone tries to install Sage and the optional Sage-Combinat package before the course starts. For instructions see http://wiki.sagemath.org/combinat/Installation. We will meet on Tuesday afternoon (David: where and when?) to get sage installed on all the machines in some way.
+ * It would also be appreciated if everyone tries to install Sage and the optional Sage-Combinat package before the course starts. For instructions see http://wiki.sagemath.org/combinat/Installation. We will meet on Tuesday afternoon at 15:00 in the Leibniz Lab (IAZD's coffee room) to get sage installed on all the machines in some way.
  * Basic (or even a little more advanced) programming skills are not required but will be very helpful.
 
 == Further reading ==
@@ -24,6 +24,8 @@ If you want to add anything to this page (including your name in the participant
  * Interesting lectures can be found at http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm550.
 
 == A tentative schedule ==
+
+All sessions will be in the IAZD Seminar Room (a410).
 
 === Wednesday Feb 8 ===
 
