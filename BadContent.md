@@ -4734,6 +4734,8 @@ linkyoursite\.net
 geekzu\.com
 perfectclaims\.co\.uk
 tagesgeldzinsen\.tv
+bluegravityhosting\.com
+mywikibiz\.com
 
 ## ===========================================================================================
 ## Please keep this comment at the end. Please note:
