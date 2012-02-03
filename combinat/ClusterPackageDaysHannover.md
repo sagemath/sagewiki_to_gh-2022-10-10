@@ -79,6 +79,12 @@ Please add your name to the list if you plan to attend!
  * David Pauksztello (local organizer)
  * Julian Rüth (might join on Thursday and Friday)
  * Christian Stump (organizer)
+ * Janine Bastian
+ * Nathan Broomhead
+ * Sira Gratz
+ * Andreas Hochenegger
+ * David Ploog
+ * Christopher Schure
 
 == Discussion ==
 
