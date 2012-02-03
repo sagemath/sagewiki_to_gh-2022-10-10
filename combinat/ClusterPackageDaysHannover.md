@@ -25,9 +25,9 @@ If you want to add anything to this page (including your name in the participant
 
 == A tentative schedule ==
 
-Wednesday Feb 8:
+=== Wednesday Feb 8 ===
 
-10:15-13:00
+==== 10:15-13:00 ====
 
  * Installing Sage and the optional Combinat package
  * Getting used to the Sage Notebook and the Sage command line
@@ -35,29 +35,29 @@ Wednesday Feb 8:
  * How to get help
  * Using Sage and Sage-Combinat online
 
-14:15-17:00
+==== 14:15-17:00 ====
 
  * Some programming in Python and in Sage (which is based on Python)
  * Using the Computer Algebra System Sage
 
-Thursday Feb 9:
+=== Thursday Feb 9 ===
 
-10:15-13:00
+==== 10:15-13:00 ====
 
  * First examples of the Cluster package and the interactive mode
  * Theoretical background
  * Working with finite and affine types
  * Connections to root systems and subword complexes
 
-14:15-17:00
+==== 14:15-17:00 ====
 
  * Exploring clusters for cluster algebras
  * The classification of finite and mutation-finite cluster algebras
  * Playing with the package
 
-Friday Feb 10:
+=== Friday Feb 10 ===
 
-10:15-13:00
+==== 10:15-13:00 ====
 
  * More theoretical background like the bipartite belt
  * Limits of the package
@@ -66,7 +66,7 @@ Friday Feb 10:
  * Suggestions for further implementations
  * Discussion
 
-14:15-17:00
+==== 14:15-17:00 ====
 
  * open session
 
