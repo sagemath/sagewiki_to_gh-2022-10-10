@@ -6,6 +6,9 @@ I was a Program in Computing Assistant Adjunct Professor in the Department of Ma
   
   - http://sage.math.washington.edu/home/burhanud
 
+=== Papers ===
+
+http://sage.math.washington.edu/home/burhanud/papers
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
 
