@@ -14,3 +14,7 @@ The highest level class should be something like TilingSpace. It contains an enu
 
 === Factor, equality ===
 By going from ZZ to ZZ^2 or more general groups, the notion of factor is not well defined. It depends of some shape. In ZZ we take integers interval
+
+== Substitutive and adic languages ==
+
+ * Equality for purely morphic words is decidable (J. Honkala, CANT, chapter 10)
