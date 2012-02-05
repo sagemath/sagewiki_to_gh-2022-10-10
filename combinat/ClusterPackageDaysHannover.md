@@ -29,6 +29,8 @@ All sessions will be in the IAZD Seminar Room (a410).
 
 === Wednesday Feb 8 ===
 
+On Wednesday, we will mainly go through several thematic tutorials that can be found at http://combinat.sagemath.org/doc/thematic_tutorials/index.html, plus a presentation on the history and current situation of Sage and Sage-Combinat.
+
 ==== 10:15-13:00 ====
 
  * Installing Sage and the optional Combinat package
