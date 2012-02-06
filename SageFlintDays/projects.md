@@ -158,7 +158,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/5048|#5048]]: Johan B. has done this one. (reviewed positivly)
     * [[http://trac.sagemath.org/sage_trac/ticket/11601|#11601]]: depends on #5048; now rebased; Johan working on this. Done. (reviewed positively)
     * [[http://trac.sagemath.org/sage_trac/ticket/10546|#10546]]: depends on #11601; Jan V to take a look (reviewed positively)
-    * [[http://trac.sagemath.org/sage_trac/ticket/12043|#12043]]: DL to work on this (needs review)
+    * [[http://trac.sagemath.org/sage_trac/ticket/12043|#12043]]: DL to work on this (needs work)
     * [[http://trac.sagemath.org/sage_trac/ticket/10658|#10658]]: Martin R and Frithjof will have a look at this (reviewed positively)
     * [[http://trac.sagemath.org/sage_trac/ticket/12124|#12124]]: Martin R and Frithjof will have a look at this (reviewed positively)
  * Start working towards putting Edixhoven's algorithm into Sage.  The meta-ticket for this is [[http://trac.sagemath.org/sage_trac/ticket/12132|#12132]].
@@ -174,6 +174,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
  * People: Francis C., Monique v B., Florian B., Sam S., Michiel K, Bogdan B., Colton, Jan, Marco S., Paul Z., Johan B., Daniel B.
  * Patches with positive review or closed tickets:
+    * [[http://trac.sagemath.org/sage_trac/ticket/11235|#11235]] Make the ipython edit magic command edit the right file and show both files when doing "??"
     * [[http://trac.sagemath.org/sage_trac/ticket/11319|#11319]] Cannot create homomorphism from prime residue field to finite field
     * [[http://trac.sagemath.org/sage_trac/ticket/11417|#11417]] binomial of polynomial is not polynomial
     * [[http://trac.sagemath.org/sage_trac/ticket/11673|#11673]] is_unit not properly implemented for algebraic integers
@@ -191,7 +192,6 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
     * [[http://trac.sagemath.org/sage_trac/ticket/11930|#11930]] Disallow non-smooth hyperelliptic curves, and let hyperelliptic curves know they are not singular (needs review!)
  * Patches needing work or info:   
     * [[http://trac.sagemath.org/sage_trac/ticket/4283|#4283]] A Speed-up Patch for NTL's ZZXFactoring.c (needs work)
-    * [[http://trac.sagemath.org/sage_trac/ticket/11235|#11235]] Make the ipython edit magic command edit the right file and show both files when doing "??" (needs work)
     * [[http://trac.sagemath.org/sage_trac/ticket/12179|#12179]] Binomial of integer (mod n) returns integer (needs work)
     * [[http://trac.sagemath.org/sage_trac/ticket/12186|#12186]] Faster norm calculations (needs work).
 
@@ -222,7 +222,7 @@ The Cantor-Zassenhaus implementation in the flint2 nmod_poly module could be opt
 
 == Tate's Algorithm over function fields ==
 
- * People: Frithjof S, John C., Marco S., Julian R.
+ * People: Frithjof S, John C., Julian R.
 
 There is a Magma implementation based on John's number field implementation [[http://www.maths.nottingham.ac.uk/personal/cw/algorithms.html|here]].
 
@@ -245,5 +245,5 @@ The trac ticket for this is [[http://trac.sagemath.org/sage_trac/ticket/12141|12
  * People: Jeroen D.
 
  * [[http://trac.sagemath.org/sage_trac/ticket/12203|#12203]]: Implement is_PariGpElement
- * [[http://trac.sagemath.org/sage_trac/ticket/12158|#12158]]: Segfault in PARI's err_init() during pari_init_opts(): '''positive_review'''
+ * [[http://trac.sagemath.org/sage_trac/ticket/12158|#12158]]: Segfault in PARI's err_init() during pari_init_opts(): '''closed (fixed)'''
  * [[http://trac.sagemath.org/sage_trac/ticket/9948|#9948]]: Conversion between p-adics and PARI/GP
