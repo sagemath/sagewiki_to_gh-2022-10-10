@@ -1,6 +1,7 @@
 Abstracts for the talks at [[pAdicSageDays|Sage Days 36]].
 
-== Mirela Ciperiani <<Anchor(Ciperiani)>> ==
+== Mirela Ciperiani ==
+<<Anchor(Ciperiani)>>
 
 In this talk I will report on progress on the following two questions, the first posed by
 Cassels in 1961 and the second considered by Bashmakov in 1974. The first question is
