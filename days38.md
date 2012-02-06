@@ -61,7 +61,7 @@ the following questionnaire:
 
  * `Questionnaire / Intention to participate`__
 
-__ http://sagemath.org
+__ https://docs.google.com/spreadsheet/viewform?formkey=dGVWdVpHbWdlaUgwWkhjNHpPbGp3TkE6MA
 
 A limited amount of financial support is available for students, postdocs, and
 researchers without grants. You can register and apply for financial support
