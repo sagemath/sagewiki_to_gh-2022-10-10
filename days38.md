@@ -71,8 +71,8 @@ through the official CRM website for the conference (not yet available).
 Organizing committee
 --------------------
 
- * Srecko Brlek, Université du Québec à Montréal
- * Sébastien Labbé, Université du Québec à Montréal
- * Franco Saliola, Université du Québec à Montréal
+* Srecko Brlek, Université du Québec à Montréal
+* Sébastien Labbé, Université du Québec à Montréal
+* Franco Saliola, Université du Québec à Montréal
 
 }}}
