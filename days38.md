@@ -59,7 +59,9 @@ February through the official CRM website. In the meantime,
 you can express your intention to participate by completing
 the following questionnaire:
 
- * `Questionnaire`__
+ * `Questionnaire / Intention to participate`__
+
+__ http://sagemath.org
 
 A limited amount of financial support is available for students, postdocs, and
 researchers without grants. You can register and apply for financial support
