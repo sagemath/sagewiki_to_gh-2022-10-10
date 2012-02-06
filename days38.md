@@ -62,7 +62,7 @@ complete the following Questionnaire:
 
 A limited amount of financial support is available for students, postdocs, and
 researchers without grants. You can register and apply for financial support
-through the conference above website (not yet available).
+through the conference website above (not yet available).
 
 
 Organizing committee
