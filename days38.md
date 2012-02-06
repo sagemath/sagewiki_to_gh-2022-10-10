@@ -54,15 +54,16 @@ research projects.
 Registration and financial support
 ----------------------------------
 
-Participants are requested to register on the official CRM web site and
-complete the following Questionnaire:
+Online registration will be available starting at the end of
+February through the official CRM website. In the meantime,
+you can express your intention to participate by completing
+the following questionnaire:
 
- * Registration (the website will be ready by the end of February).
- * Questionnaire
+ * `Questionnaire`__
 
 A limited amount of financial support is available for students, postdocs, and
 researchers without grants. You can register and apply for financial support
-through the conference website above (not yet available).
+through the official CRM website for the conference (not yet available).
 
 
 Organizing committee
