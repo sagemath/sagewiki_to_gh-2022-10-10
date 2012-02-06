@@ -1,8 +1,8 @@
 = Projects =
 
- * [[http://trac.sagemath.org/sage_trac/query?status=closed&status=positive_review&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~sd35 | Here]] is an up-to-date list of finished tickets that were worked on at this Sage Days workshop.
+ * [[http://trac.sagemath.org/sage_trac/query?status=closed&status=positive_review&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~sd35 | Here]] is an up-to-date list of finished tickets that were worked on at this Sage Days workshop and Sage Days 35.5 (I don't know how to search for sd35 only).
 
- * [[http://trac.sagemath.org/sage_trac/query?status=needs_info&status=needs_review&status=needs_work&status=new&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~sd35 | Here]] is an up-to-date list of tickets that were worked on at this Sage Days workshop and that are still being worked on.
+ * [[http://trac.sagemath.org/sage_trac/query?status=needs_info&status=needs_review&status=needs_work&status=new&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~sd35 | Here]] is an up-to-date list of tickets that were worked on at this Sage Days workshop and that are still being worked on (and those for Sage Days 35.5, see above).
 
 
 
