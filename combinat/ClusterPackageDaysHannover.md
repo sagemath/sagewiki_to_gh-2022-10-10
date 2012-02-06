@@ -73,20 +73,21 @@ On Wednesday, we will mainly go through several thematic tutorials that can be f
 ==== 14:15-17:00 ====
 
  * open session
+  * How to contribute to Sage and the cluster package
 
 == Participants ==
 
 Please add your name to the list if you plan to attend!
 
- * David Pauksztello (local organizer)
- * Julian Rüth (might join on Thursday and Friday)
- * Christian Stump (organizer)
  * Janine Bastian
  * Nathan Broomhead
  * Sira Gratz
  * Andreas Hochenegger
+ * David Pauksztello (local organizer)
  * David Ploog
+ * Julian Rüth (might join on Thursday and Friday)
  * Christopher Schure
+ * Christian Stump (organizer, christian.stump@gmail.com)
 
 == Discussion ==
 
