@@ -6,7 +6,7 @@
 
 == Location ==
 
- * Montréal, Quebec
+ * [[http://www.crm.umontreal.ca/|Centre de recherche mathématique]], Montréal, Quebec
 
 == Dates ==
 
