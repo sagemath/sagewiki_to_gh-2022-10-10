@@ -3,10 +3,12 @@
 Sage Days 38
 ============
 
-Sage (www.sagemath.org) is a mathematics software package,
+`Sage`__ is a mathematics software package,
 developed by and for the mathematics community. It aims to
 become a viable alternative to commercial software packages
 on the basis of an open-source model.
+
+__ www.sagemath.org
 
 Theme
 -----
@@ -66,8 +68,8 @@ through the conference above website (not yet available).
 Organizing committee
 --------------------
 
-Srecko Brlek, Université du Québec à Montréal
-Sébastien Labbé, Université du Québec à Montréal
-Franco Saliola, Université du Québec à Montréal
+ * Srecko Brlek, Université du Québec à Montréal
+ * Sébastien Labbé, Université du Québec à Montréal
+ * Franco Saliola, Université du Québec à Montréal
 
 }}}
