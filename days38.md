@@ -1,4 +1,7 @@
-= Sage Days 38 =
+{{{#!rst
+
+Sage Days 38
+============
 
 This workshop will be a 5-day intensive workshop to serve
 both as introduction to Sage and as an open developers
@@ -9,21 +12,32 @@ principal focus of the developers meeting is algebraic
 combinatorics and the representation theory of algebras.
 
 
-== Location ==
+Location
+--------
 
- * [[http://www.crm.umontreal.ca/|Centre de recherche mathématique]], Montréal, Quebec
+ * `Centre de recherche mathématique`__, Montréal, Quebec
 
-== Dates ==
+__ http://www.crm.umontreal.ca/
+
+Dates
+-----
 
  May 7-11, 2011.
 
   * May 7-8: Introduction to Sage
   * May 9-11: Open Developers' Meeting
 
-Participants are encouraged to come for either or both segments of the workshop.  Those attending the Developers' Meeting are encouraged to have something in mind which they would like to implement in Sage; we will also have some projects available for students to work on.
+Participants are encouraged to come for either or both segments of the
+workshop.  Those attending the Developers' Meeting are encouraged to have
+something in mind which they would like to implement in Sage; we will also have
+some projects available for students to work on.
 
-== Funding ==
+Funding
+-------
 
 Funding has been provided by the CRM.
 
-== More information to follow ==
+More information to follow
+--------------------------
+
+}}}
