@@ -1,4 +1,4 @@
-Abstracts for the talks at [[pAdicSageDays|Sage Days 36]].
+Abstracts for the talks at [[padicSageDays|Sage Days 36]].
 
 <<Anchor(Ciperiani)>>
 == Mirela Ciperiani ==
