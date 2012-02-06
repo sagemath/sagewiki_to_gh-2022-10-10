@@ -11,6 +11,9 @@ Cernay-la-Ville.  It is very nice and cosy, 35 minutes train + 15
 minutes bus away from downtown Paris. For practical information, see
 below.
 
+`Project page on Trac <http://trac.sagemath.org/sage_trac/wiki/combinat/DaysCernay2012>`_
+=================================================================================================
+
 Tentative list of themes
 ========================
 
