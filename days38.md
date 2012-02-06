@@ -1,8 +1,13 @@
 = Sage Days 38 =
 
-== Topics ==
+This workshop will be a 5-day intensive workshop to serve
+both as introduction to Sage and as an open developers
+meeting. The event will include a combination of
+mathematical talks, tutorials, demonstrations of Sage
+functionality as well as time spent on Sage development. The
+principal focus of the developers meeting is algebraic
+combinatorics and the representation theory of algebras.
 
- * Combinatorial representation theory
 
 == Location ==
 
