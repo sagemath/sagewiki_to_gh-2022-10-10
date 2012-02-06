@@ -3,6 +3,14 @@
 Sage Days 38
 ============
 
+Sage (www.sagemath.org) is a mathematics software package,
+developed by and for the mathematics community. It aims to
+become a viable alternative to commercial software packages
+on the basis of an open-source model.
+
+Theme
+-----
+
 This workshop will be a 5-day intensive workshop to serve
 both as introduction to Sage and as an open developers
 meeting. The event will include a combination of
@@ -11,33 +19,55 @@ functionality as well as time spent on Sage development. The
 principal focus of the developers meeting is algebraic
 combinatorics and the representation theory of algebras.
 
+Location and Date
+-----------------
 
-Location
---------
-
- * `Centre de recherche mathématique`__, Montréal, Quebec
+ * `Centre de recherche mathématique`__, Montréal, Quebec, May 7-11, 2011.
 
 __ http://www.crm.umontreal.ca/
 
-Dates
------
+Invited speakers
+----------------
 
- May 7-11, 2011.
+* Meinolf Geck, University of Aberdeen
+* Florent Hivert, LRI, Université Paris-Sud
+* Anne Schilling, University of California Davis
+* Øyvind Solberg, Norwegian University of Science and Technology
+* Nicolas Thiéry, LMO, Université Paris-Sud
 
-  * May 7-8: Introduction to Sage
-  * May 9-11: Open Developers' Meeting
 
-Participants are encouraged to come for either or both segments of the
-workshop.  Those attending the Developers' Meeting are encouraged to have
-something in mind which they would like to implement in Sage; we will also have
-some projects available for students to work on.
+Who should attend
+-----------------
 
-Funding
--------
+You! A specific goal of the workshop is to provide a venue
+for faculty, graduate students and undergraduate students to
+learn more about the software. This will make it accessible
+to researchers at all levels, *even those without any prior
+experience with Sage*. Since it will be held in May, it is
+an excellent opportunity for undergraduate students
+embarking on summer research projects and graduate students
+looking to incorporate scientific computation into their
+research projects.
 
-Funding has been provided by the CRM.
+Registration and financial support
+----------------------------------
 
-More information to follow
---------------------------
+Participants are requested to register on the official CRM web site and
+complete the following Questionnaire:
+
+ * Registration (the website will be ready by the end of February).
+ * Questionnaire
+
+A limited amount of financial support is available for students, postdocs, and
+researchers without grants. You can register and apply for financial support
+through the conference above website (not yet available).
+
+
+Organizing committee
+--------------------
+
+Srecko Brlek, Université du Québec à Montréal
+Sébastien Labbé, Université du Québec à Montréal
+Franco Saliola, Université du Québec à Montréal
 
 }}}
