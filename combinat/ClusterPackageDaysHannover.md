@@ -1,6 +1,6 @@
 = Sage and cluster algebra workshop =
 
-The Sage and cluster algebra workshop will be held at the University of Hannover, Germany, February 8-10 2012.
+The Sage and cluster algebra workshop will be held at the '''University of Hannover, Germany, February 8-10 2012'''.
 
 If you want to add anything to this page (including your name in the participants list), use the temporary login !ClustersDaysHannover and clustershannover2012.
 
@@ -25,7 +25,7 @@ If you want to add anything to this page (including your name in the participant
 
 == A tentative schedule ==
 
-All sessions will be in the IAZD Seminar Room (a410).
+All sessions will be in the '''IAZD Seminar Room (a410)'''.
 
 === Wednesday Feb 8 ===
 
