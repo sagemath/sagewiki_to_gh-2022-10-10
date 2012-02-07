@@ -15,3 +15,5 @@ For more information, contact:
   * DanDrake
   * [[http://matrix.skku.ac.kr/sglee/|Sang-gu Lee (이상구)]]
   * [[http://www.chosun.ac.kr/~kwankyu/index.html|Kwankyu Lee (이관규)]]
+
+== Participants ==
