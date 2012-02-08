@@ -96,3 +96,7 @@ space for discussions like interesting topics, open problems, ...
 Let me open with something not implemented but we have been asked to do:
 
  * implementation of quantum cluster algebras
+
+== Attachments ==
+
+ * [[attachment:Notebook intro.sws]]
