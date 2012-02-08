@@ -100,3 +100,5 @@ Let me open with something not implemented but we have been asked to do:
 == Attachments ==
 
  * [[attachment:Notebook intro.sws]]
+ * 
+[[attachment:Basic Combinatorics intro.sws]]
