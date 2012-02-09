@@ -101,3 +101,7 @@ Let me open with something not implemented but we have been asked to do:
 
  * [[attachment:Notebook intro.sws]]
  * [[attachment:Basic Combinatorics intro.sws]]
+ * [[attachment:Sage-Combinat demo (1).sws]]
+ * [[attachment:Cluster Package demo (1).sws]]
+ * [[attachment:Cluster complexes and generalized associahedra (1).sws]]
+ * [[attachment:The Compendium (1).sws]]
