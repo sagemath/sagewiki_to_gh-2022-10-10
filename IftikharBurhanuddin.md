@@ -56,6 +56,7 @@ Abstract: We show that there exist infinitely many elliptic curves with Shafarev
 
 http://sage.math.washington.edu/home/burhanud/papers/burhanuddin.elliptic.curve.large.sha.pdf
 
+6. Factoring integers and computing points on elliptic curves with Ming-Deh Huang. To be submitted.
 
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
