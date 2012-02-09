@@ -43,7 +43,7 @@ http://sage.math.washington.edu/home/burhanud/papers/burhanuddin.dissertation.pd
 
 4. On projectively rational lifts of mod $7$ Galois representations, with Luis Dieulefait. JP Journal of Algebra, Number Theory and Applications, Volume 20, Issue 1, 109 -- 119, February 2011.
 
-Abstract:
+Abstract: We consider the problem of constructing ``projectively rational'' lifts of odd, two-dimensional Galois representations with values in $\F_7$. Using modular forms, in particular the theory of congruences, we compute such lifts for many examples of mod $7$ representations thus giving evidence that suggests that such lifts may always exist. We also consider the invariance after twist (weight change) of the existence of such lifts.
 
 http://sage.math.washington.edu/home/burhanud/papers/burhanuddin.mod.7.galois.representations.pdf
 
