@@ -1,4 +1,4 @@
-[[File:http://sage.math.washington.edu/home/burhanud/ifti-pic.jpg |thumb |alt=Example alt text |Example caption]]
+[[http://sage.math.washington.edu/home/burhanud/ifti-pic.jpg | Picture]]
 
 
 I was a Program in Computing Assistant Adjunct Professor in the Department of Mathematics at UCLA (2007-2011) and am a SAGEvangelist (2005-).
