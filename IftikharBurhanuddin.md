@@ -80,16 +80,18 @@ http://sage.math.washington.edu/home/burhanud/papers/burhanuddin.elliptic.curve.
 
 6. Factoring integers and computing points on elliptic curves, with Ming-Deh Huang. To be submitted.
 
+7. On the reducibility of Hecke polynomials over ZZ [[http://sage.math.washington.edu/home/burhanud/heckered/heckered.pdf]]
+
 
 === TDoLP --- The Documentation of Lectures Project ===
 
 http://www.math.ucla.edu/~ntg/ntg-extra/
 
+=== Nontrivial pursuits ===
+
+http://www.facebook.com/groups/quiiz/
+
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
-
-* Doctoral dissertation [[http://www.sagemath.org/files/thesis/burhanuddin-thesis-2007.pdf]]
-
-* On the reducibility of Hecke polynomials over ZZ [[http://sage.math.washington.edu/home/burhanud/heckered/heckered.pdf]]
 
 
 * Mestre's method of graphs project which started at the  [[http://modular.math.washington.edu/msri06|MSRI Computing with Modular Forms]] workshop. 
