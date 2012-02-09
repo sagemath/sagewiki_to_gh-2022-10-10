@@ -87,7 +87,7 @@ Please add your name to the list if you plan to attend!
  * David Ploog
  * Julian Rüth (might join on Thursday and Friday)
  * Christopher Schure
- * Christian Stump (organizer, christian.stump@gmail.com)
+ * Christian Stump (instructor, christian.stump@gmail.com)
 
 == Discussion ==
 
