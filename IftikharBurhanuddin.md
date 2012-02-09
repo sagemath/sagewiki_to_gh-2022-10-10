@@ -80,7 +80,11 @@ http://sage.math.washington.edu/home/burhanud/papers/burhanuddin.elliptic.curve.
 
 6. Factoring integers and computing points on elliptic curves, with Ming-Deh Huang. To be submitted.
 
-7. On the reducibility of Hecke polynomials over ZZ [[http://sage.math.washington.edu/home/burhanud/heckered/heckered.pdf]]
+7. On the reducibility of Hecke polynomials over $Z$ 
+
+Conjecture 1.1 is False and Conjecture 1.2 follows from work of http://en.wikipedia.org/wiki/Robert_Fricke/. (Details to follow.)
+
+http://sage.math.washington.edu/home/burhanud/heckered/heckered.pdf
 
 
 === TDoLP --- The Documentation of Lectures Project ===
