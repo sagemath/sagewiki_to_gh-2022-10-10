@@ -24,7 +24,7 @@ combinatorics and the representation theory of algebras.
 Location and Date
 -----------------
 
- * `Centre de recherche mathématique`__, Montréal, Quebec, May 7-11, 2011.
+ * `Centre de recherche mathématique`__, Montréal, Quebec, May 7-11, 2012.
 
 __ http://www.crm.umontreal.ca/
 
