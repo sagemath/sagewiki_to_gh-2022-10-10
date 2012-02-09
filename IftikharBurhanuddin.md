@@ -59,6 +59,10 @@ http://sage.math.washington.edu/home/burhanud/papers/burhanuddin.elliptic.curve.
 6. Factoring integers and computing points on elliptic curves, with Ming-Deh Huang. To be submitted.
 
 
+=== The Documention Project ===
+
+http://www.math.ucla.edu/~ntg/ntg-extra/
+
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
 
 * Doctoral dissertation [[http://www.sagemath.org/files/thesis/burhanuddin-thesis-2007.pdf]]
