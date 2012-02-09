@@ -8,15 +8,25 @@ I was a Program in Computing Assistant Adjunct Professor in the Department of Ma
 
 === Faculty Application 2011-2012 ===
 
-1. Cover Letter http://sage.math.washington.edu/home/burhanud/app11/cover11/cover11.pdf
+1. Cover Letter 
 
-2. Curriculum Vitae http://sage.math.washington.edu/home/burhanud/app11/cv11/iftikhar.burhanuddin.cv11.pdf
+http://sage.math.washington.edu/home/burhanud/app11/cover11/cover11.pdf
 
-3. Written Work http://sage.math.washington.edu/home/burhanud/app11/pub11/iftikhar.burhanuddin.pub11.pdf
+2. Curriculum Vitae 
 
-4. Research Statement http://sage.math.washington.edu/home/burhanud/app11/restat11/iftikhar.burhanuddin.restat11.pdf
+http://sage.math.washington.edu/home/burhanud/app11/cv11/iftikhar.burhanuddin.cv11.pdf
 
-5. Teaching Statement http://sage.math.washington.edu/home/burhanud/app11/testat11/iftikhar.burhanuddin.testat11.pdf
+3. Written Work 
+
+http://sage.math.washington.edu/home/burhanud/app11/pub11/iftikhar.burhanuddin.pub11.pdf
+
+4. Research Statement 
+
+http://sage.math.washington.edu/home/burhanud/app11/restat11/iftikhar.burhanuddin.restat11.pdf
+
+5. Teaching Statement 
+
+http://sage.math.washington.edu/home/burhanud/app11/testat11/iftikhar.burhanuddin.testat11.pdf
 
 === Papers ===
 
