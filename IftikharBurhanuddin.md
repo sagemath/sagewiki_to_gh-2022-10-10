@@ -6,9 +6,16 @@ I was a Program in Computing Assistant Adjunct Professor in the Department of Ma
   
   - http://sage.math.washington.edu/home/burhanud
 
-=== Papers ===
+=== [[Papers | http://sage.math.washington.edu/home/burhanud/papers]] ===
 
-http://sage.math.washington.edu/home/burhanud/papers
+
+
+Deciding whether the p-torsion group of the Q_p-rational points of an elliptic curve is non-trivial.
+ANTS VI Poster Abstracts. SIGSAM Bulletin, Volume 38, Number 3 September 2004 Issue 149.
+
+Abstract: This note describes an algorithm to decide whether an elliptic curve over Q_p has a non-trivial p-torsion part (# E(Q_p)[p] is not equal to 1) under certain assumptions. 
+
+http://sage.math.washington.edu/home/burhanud/papers/burhanuddin.elliptic.curve.p-adic.torsion.pdf
 
 === Stuff I have worked/am working/plan to work on wrt to SAGE ===
 
