@@ -13,7 +13,7 @@ This page is for planning the Notebook Days event, held at the University of Was
 
  * Brainstorm for Sage in the cloud
  * Sage on Google App Engine:
-     * [[https://github.com/williamstein/simplesage_gae William's demo code]] (github repo)
+     * [[https://github.com/williamstein/simplesage_gae|William's demo code]] (github repo)
 
 ==== Tickets ====
 
