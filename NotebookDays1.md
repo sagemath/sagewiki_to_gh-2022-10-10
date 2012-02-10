@@ -14,7 +14,9 @@ This page is for planning the Notebook Days event, held at the University of Was
  * Brainstorm for Sage in the cloud
  * Sage on Google App Engine:
      * [[https://github.com/williamstein/simplesage_gae|William's demo code]] (github repo)
+ * Get the Flask notebook into Sage (one of the goals of Sage 5.0)
 
 ==== Tickets ====
 
  * [[http://trac.sagemath.org/sage_trac/ticket/6357|#6357]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/11874|#11874]]
