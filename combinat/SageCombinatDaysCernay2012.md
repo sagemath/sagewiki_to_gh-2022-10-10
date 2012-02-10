@@ -118,10 +118,9 @@ Tentative list of participants
 Practical information
 =====================
 
-The local expenses (food + lodging) will be covered by the
-``Laboratoire de Recherche en Informatique`` d'Orsay.  We also have a
-few possibility for funding expensive travel for people far
-away. Please contact me and Nicolas if needed.
+The lodging will be covered by the
+``Laboratoire de Recherche en Informatique`` d'Orsay and the research network ``Digiteo``. Funding and travel for PHD student and PostDoc is also covered. Food and travel is at the charge of the other participants. 
+
 
 The Tower can accommodate 8-10 people, and if needed there is another
 adjacent guest house. Participant can stay from Saturday 4th in the
