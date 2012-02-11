@@ -22,6 +22,7 @@ Password: 	 4o8t-8o5j-9e8t
      * [[https://github.com/williamstein/simplesage_gae|William's demo code]] (github repo)
  * Get the Flask notebook into Sage (one of the goals of Sage 5.0)
  * Channel API for *python* clients: http://schibum.blogspot.com/2011/06/using-google-appengine-channel-api-with.html
+ * Single cell notebook: https://github.com/sagemath/sagecell
 
 ==== Tickets ====
 
