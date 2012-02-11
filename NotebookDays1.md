@@ -1,5 +1,11 @@
 This page is for planning the Notebook Days event, held at the University of Washington from February 10 to February 12, 2012.
 
+{{{
+WIFI:
+UW NetID:  	 event0070
+Password: 	 4o8t-8o5j-9e8t
+}}}
+
 == Participants ==
 
  * Robert Bradshaw
