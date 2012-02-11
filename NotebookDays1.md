@@ -21,7 +21,7 @@ Password: 	 4o8t-8o5j-9e8t
  * Sage on Google App Engine:
      * Flask-based app engine code evaluation demo: [[attachment:sage1flask.tar.bz2]]
      * [[https://github.com/williamstein/simplesage_gae|William's demo code]] (github repo)
-     * Much more work going into the thing at the github repo, but it is in a '''private''' bitbucket repository, due to copyright issues.  Email wstein@gmail.com if you are interested in seeing this.
+     * Much more work going into the thing at the github repo, but it is in a [[https://bitbucket.org/wstein/simplesage-gae|private bitbucket repository]], due to copyright issues. 
  * Get the Flask notebook into Sage (one of the goals of Sage 5.0)
  * Channel API for *python* clients: http://schibum.blogspot.com/2011/06/using-google-appengine-channel-api-with.html
  * Single cell notebook: https://github.com/sagemath/sagecell
