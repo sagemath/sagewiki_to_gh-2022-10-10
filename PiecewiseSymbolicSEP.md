@@ -59,6 +59,8 @@ for (A, g) in f.pieces():
 
 This would allow us to define "easy" piecewise functions more naturally by specifying conditions on the independent variable: `x < 0`, `x == 0`, etc.
 
+Robertwb: It may be simpler to simply disallow anonymous intervals altogether, requiring f(x) = piecewise(((x < 0), -x), ((x >= 0), x)) where of course the last predicate could be optional (just giving an expression would result in an else clause). 
+
 === Application of Methods ===
 
 If `f` is piecewise and we call `f.foo()`, what happens? For most methods, it is proposed, we should simply call `g.foo() for each `(A, g)` in `f` and return a new piecewise as the result.
