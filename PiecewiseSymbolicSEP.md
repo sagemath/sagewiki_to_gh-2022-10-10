@@ -64,9 +64,6 @@ We would like to keep as much of the old interface as possible intact. At the ve
 
 A new piecewise class, `PiecewiseSymbolic`, will replace `PiecewisePolynomial`. The old class will be deprecated via the normal procedure while users migrate to the new class.
 
-== Backwards Compatibility ==
-
-
 == Relevant Tickets ==
 
 The following tickets should all be solveable during a reimplementation.
