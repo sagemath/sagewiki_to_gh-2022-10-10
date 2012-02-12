@@ -83,6 +83,14 @@ We would like to keep as much of the old interface as possible intact. At the ve
 
 A new piecewise class, `PiecewiseSymbolic`, will replace `PiecewisePolynomial`. The old class will be deprecated via the normal procedure while users migrate to the new class.
 
+== Other Features ==
+
+There are other features that could be built on top of a robust piecewise class.
+
+=== Periodic functions ===
+
+A periodic function is a conveniently-defined piecewise function. Per the discussion in ''Piece Determination'', we should be able to determine our piece based on a predicate. A new constructor could be provided that converts a periodic specification into a piecewise predicate.
+
 == Relevant Tickets ==
 
 The following tickets should all be solveable during a reimplementation.
