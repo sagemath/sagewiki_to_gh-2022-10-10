@@ -1,6 +1,6 @@
 = Symbolic Piecewise Functions =
 
-This is SAGE Enhancement Proposal (SEP) to improve the existing piecewise functionality.
+This Sage Enhancement Proposal (SEP) is to improve the existing piecewise functionality.
 
 == Authors ==
 
