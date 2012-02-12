@@ -42,6 +42,23 @@ Piecewise defined function with 2 parts, [[(-Infinity, 0), -3], [(0, +Infinity),
 
 If `A.contains(g)` for any `(A, g)` ''after'' substitution, we can return `g`.
 
+=== Piece Determination ===
+
+The previous discussion uses "containment" to determine which piece is returned, but this could be generalized to any predicate. We could still support containment as the predicate, of course. Pseudocode for `f(x)`:
+
+{{{
+for (A, g) in f.pieces():
+  if isinstance(A, interval):
+    if x in A:
+      return g
+  else:
+    # Assume it's a predicate.
+    if A(x):
+      return g
+}}}
+
+This would allow us to define "easy" piecewise functions more naturally by specifying conditions on the independent variable: `x < 0`, `x == 0`, etc.
+
 === Application of Methods ===
 
 If `f` is piecewise and we call `f.foo()`, what happens? For most methods, it is proposed, we should simply call `g.foo() for each `(A, g)` in `f` and return a new piecewise as the result.
