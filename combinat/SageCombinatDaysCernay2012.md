@@ -105,7 +105,7 @@ Tentative list of participants
 ==============================
 
 * NicolasBorie, ATER, Orsay
-* FlorentHivert, Prof, LITIS, Université de Rouen
+* FlorentHivert, Prof, LRI, Université Paris Sud XI
 * NicolasThiéry, MdC, Orsay
 * Viviane Pons, graduate student, LIGM, Université Paris-Est
 * ThierryMonteil, CR, Montpellier
@@ -131,7 +131,7 @@ breaks. There will of course be an open wifi and wired internet
 connection.
 
 To register, fill in the following form, and send it by e-mail to
-Florent Hivert:
+Florent Hivert::
 
     Name:
     Surname:
