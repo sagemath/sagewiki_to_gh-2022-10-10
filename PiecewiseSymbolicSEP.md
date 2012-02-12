@@ -61,6 +61,8 @@ This would allow us to define "easy" piecewise functions more naturally by speci
 
 Robertwb: It may be simpler to simply disallow anonymous intervals altogether, requiring f(x) = piecewise(((x < 0), -x), ((x >= 0), x)) where of course the last predicate could be optional (just giving an expression would result in an else clause). 
 
+mjo: I agree it would be simpler, but it would make the transition for users harder. If `a<x<b` or even `((a<x) & (x<b))` worked, it would be straightforward to convert the interval notation to a predicate. You mentioned this on sage-devel; if it looks doable, I would be in favor of dropping the intervals.
+
 === Application of Methods ===
 
 If `f` is piecewise and we call `f.foo()`, what happens? For most methods, it is proposed, we should simply call `g.foo() for each `(A, g)` in `f` and return a new piecewise as the result.
