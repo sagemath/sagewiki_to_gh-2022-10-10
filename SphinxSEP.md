@@ -1,3 +1,5 @@
+'''This SEP has already been completed.'''
+
 = Sphinx Documentation SEP (Draft) =
 
 {{{
