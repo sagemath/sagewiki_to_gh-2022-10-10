@@ -2,7 +2,7 @@
 Abstracts for the talks at [[padicSageDays|Sage Days 36]].
 
 <<Anchor(Voight)>>
-== John Voight ==
+== Arithmetic aspects of triangle groups -- John Voight (Tuesday 2-3) ==
 
 Triangle groups, the symmetry groups of tessellations of the
 hyperbolic plane by triangles, have been studied since early work of
