@@ -2,8 +2,7 @@
 Abstracts for the talks at [[padicSageDays|Sage Days 36]].
 
 <<Anchor(Voight)>>
-== Arithmetic aspects of triangle groups : John Voight ==
-Tuesday 2-3
+== Arithmetic aspects of triangle groups (John Voight) ==
 
 Triangle groups, the symmetry groups of tessellations of the
 hyperbolic plane by triangles, have been studied since early work of
@@ -13,6 +12,8 @@ present a construction of congruence subgroups of triangle groups
 modular curves, and provide some applications to arithmetic.  We
 conclude with some computations that highlight the interesting
 features of these curves.
+
+Tuesday 2-3
 
 <<Anchor(Ciperiani)>>
 == Mirela Ciperiani ==
