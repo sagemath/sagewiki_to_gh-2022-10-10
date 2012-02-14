@@ -41,8 +41,7 @@ There are five requirements for Sage to work successfully on these fully support
 
 ==== Linux ====
 
- * Fedora 16 on x86 (64-bit). Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/lena-1|lena]], [[http://build.sagemath.org/sage/buildslaves/sextus-1|sextus]]
- * Fedora 15 on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/taurus-1|taurus]]
+ * Fedora 16 on x86 (64-bit). Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/lena-1|lena]], [[http://build.sagemath.org/sage/buildslaves/sextus-1|sextus]], [[http://build.sagemath.org/sage/buildslaves/taurus-1|taurus]]
  * Fedora 15 on i686 (32-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/cicero-1|cicero]]
  * SUSE 10 SP1 on Itanium (64-bit)  Tested on [[http://build.sagemath.org/sage/buildslaves/iras-1|iras]]
  * Redhat 5.3 on Intel Itanium (64-bit).  Tested on [[http://build.sagemath.org/sage/buildslaves/cleo-1|cleo]]
@@ -52,7 +51,7 @@ There are five requirements for Sage to work successfully on these fully support
 
 ==== Mac OS X ====
  * OS X 10.4 (Tiger) on PPC.  There is one known problem with the Maxima interface, this will be fixed in sage-5.0, see [[http://trac.sagemath.org/sage_trac/ticket/9361|Trac #9361]].
- * OS X 10.6 (Snow Leopard) 32-bit or 64-bit, with XCode 3 (XCode 4.0.1 is known to produce an executable that does not work).  Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
+ * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3 (XCode 4.0.1 is known to produce an executable that does not work).  Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
 ==== OpenSolaris x86 32-bit ====
  * 06/2009 updated to build 134 on x86 (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
