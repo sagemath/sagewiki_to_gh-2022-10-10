@@ -13,7 +13,7 @@ modular curves, and provide some applications to arithmetic.  We
 conclude with some computations that highlight the interesting
 features of these curves.
 
-Tuesday 2-3
+Tuesday 2:00-3:00
 
 <<Anchor(Ciperiani)>>
 == The divisibility of the Tate-Shafarevich group of an elliptic curve in the Weil-Chatelet group (Mirela Ciperiani) ==
