@@ -16,7 +16,7 @@ features of these curves.
 Tuesday 2-3
 
 <<Anchor(Ciperiani)>>
-== Mirela Ciperiani ==
+== The divisibility of the Tate-Shafarevich group of an elliptic curve in the Weil-Chatelet group (Mirela Ciperiani) ==
 
 In this talk I will report on progress on the following two questions, the first posed by
 Cassels in 1961 and the second considered by Bashmakov in 1974. The first question is
@@ -24,3 +24,5 @@ whether the elements of the Tate-Shafarevich group are infinitely divisible when
 as elements of the Weil-Chatelet group. The second question concerns the intersection of
 the Tate-Shafarevich group with the maximal divisible subgroup of the Weil-Chatelet group.
 This is joint work with Jakob Stix.
+
+Wednesday 4:30-5:30
