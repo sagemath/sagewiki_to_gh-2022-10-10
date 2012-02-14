@@ -1,4 +1,17 @@
+## page was renamed from pAdicSageDaysAbstracts
 Abstracts for the talks at [[padicSageDays|Sage Days 36]].
+
+<<Anchor(Voight)>>
+== John Voight ==
+
+Triangle groups, the symmetry groups of tessellations of the
+hyperbolic plane by triangles, have been studied since early work of
+Hecke and of Klein--the most famous triangle group being SL_2(ZZ).  We
+present a construction of congruence subgroups of triangle groups
+(joint with Pete L. Clark) that gives rise to curves analogous to the
+modular curves, and provide some applications to arithmetic.  We
+conclude with some computations that highlight the interesting
+features of these curves.
 
 <<Anchor(Ciperiani)>>
 == Mirela Ciperiani ==
