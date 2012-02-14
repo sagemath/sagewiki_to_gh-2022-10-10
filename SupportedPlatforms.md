@@ -2,7 +2,7 @@
 
 ----
 == Supported compilers ==
-A miniumum of gcc 4.0.1 is needed to build Sage, though later releases are generally preferable.
+A minimum of gcc 4.0.1 is needed to build Sage, though later releases are generally preferable.
 
 == Supported Platforms ==
 
@@ -85,7 +85,7 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
  * Solaris 11 Express on SPARC (Never tested).
 
 ==== Microsoft Windows ====
- * VMware images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage. 
+ * VirtualBox images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage.
 
 === Probably will not work - Porting work may be ongoing ===
 None of these systems have a complete fully reliable port. In some cases completed ports are highly likely. In other cases, the porting effort is not very significant, and there may be insufficient effort to actually complete a port. 
