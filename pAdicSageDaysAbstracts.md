@@ -1,6 +1,23 @@
 ## page was renamed from pAdicSageDaysAbstracts
 Abstracts for the talks at [[padicSageDays|Sage Days 36]].
 
+<<Anchor(Buhler)>>
+== Stable p-adic recursions (Joe Buhler) ==
+
+Michael Somos and Lewis Carroll found, respectively, one (circa
+1990) and two dimensional (circa 1866) recursions that, unexpectedly,
+generate integers and satisfy the so-called Laurent phenomenon.
+David Robbins observed that the Carroll recursion seems to have an
+unexpected stability over DVRs when computed with finite precision.
+This conjecture seems to apply to the Somos recursions and to the much
+more general context of cluster algebras.  I'll explain how some special
+cases of these conjectures can be proved, discuss some techniques for
+p-adic experiments on these conjectures, and explain how the conjectures
+can be reinterpreted in an entirely algebraic context that generalizes
+the Laurent phenomenon.  This is joint work with Kiran Kedlaya.
+
+Monday 2:00-3:00
+
 <<Anchor(Voight)>>
 == Arithmetic aspects of triangle groups (John Voight) ==
 
