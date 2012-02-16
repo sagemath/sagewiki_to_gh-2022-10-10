@@ -14,7 +14,7 @@ Sunday 13:00-14:00
 Monday 11:00-12:00
 ----
 <<Anchor(Pauli)>>
-== Single factor lifting for polynomials over local fields ==
+== Single factor lifting for polynomials over local fields (Sebastian Pauli) ==
 
 Monday 13:00-14:00
 ----
