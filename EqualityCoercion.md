@@ -11,13 +11,22 @@ The goal of this page is to gather all problems due to equality accepting coerci
     2943215493
     sage: hash(3.14159265358979323)
     1826823505
-    sage: dd = {3.1415926535897932: 'approx', pi: 'exact'}
-    sage: dd
+
+But gathered from Python 2.7 documentation::
+
+    object.__hash__(self)
+    Called by built-in function hash() and for operations on members of hashed collections including set,
+    frozenset, and dict. __hash__() should return an integer. The only required property is that objects
+    which compare equal have the same hash value;
+
+As a first consequence of the above behavior::
+
+    sage: {3.1415926535897932: 'approx', pi: 'exact'}
     {3.1415926535897932: 'approx', pi: 'exact'}
     sage: {0:"exact", 0.0000000000000000000:"approx"}
     {0: 'approx'}
 
-as a consequence::
+And also::
 
     sage: pii = 3.14159265358979323
     sage: bool(pii == pi)
