@@ -29,4 +29,18 @@ as a consequence::
     sage: pii in dd.keys()
     True
 
+
+More strange consequences when using UniqueRepresentation
+---------------------------------------------------------
+
+::
+
+    sage: F1 = FiniteEnumeratedSet([0.000000])
+    sage: F2 = FiniteEnumeratedSet([0])
+    sage: F1 is F2
+    True
+    sage: F2.list()
+    [0.000000000000000]
+    sage: 
+
 }}}
