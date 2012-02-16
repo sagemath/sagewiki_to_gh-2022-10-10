@@ -1,21 +1,23 @@
 ## page was renamed from pAdicSageDaysAbstracts
 Abstracts for the talks at [[padicSageDays|Sage Days 36]].
 
+----
+
 <<Anchor(Roe)>>
 == The state of p-adics in Sage (David Roe) ==
 
 Sunday 13:00-14:00
-
+----
 <<Anchor(Pancratz)>>
 == p-adics in FLINT (Sebastian Pancratz) ==
 
 Monday 11:00-12:00
-
+----
 <<Anchor(Pauli)>>
 == Single factor lifting for polynomials over local fields ==
 
 Monday 13:00-14:00
-
+----
 <<Anchor(Buhler)>>
 == Stable p-adic recursions (Joe Buhler) ==
 
@@ -32,12 +34,12 @@ can be reinterpreted in an entirely algebraic context that generalizes
 the Laurent phenomenon.  This is joint work with Kiran Kedlaya.
 
 Monday 14:00-15:00
-
+----
 <<Anchor(Stein)>>
 == Computing p-adic L-functions of elliptic curves (William Stein) ==
 
 Tuesday 11:00-12:00
-
+----
 <<Anchor(Greenberg)>>
 == Definite quaternion algebras and triple product p-adic L-functions ==
 
@@ -49,7 +51,7 @@ be p-adically interpolated, giving rise to triple product p-adic
 L-functions.
 
 Tuesday 13:00-14:00
-
+----
 <<Anchor(Voight)>>
 == Arithmetic aspects of triangle groups (John Voight) ==
 
@@ -63,17 +65,17 @@ conclude with some computations that highlight the interesting
 features of these curves.
 
 Tuesday 14:00-15:00
-
+----
 <<Anchor(Finotti)>>
 == Computations with Witt vectors (Luis Finotti) ==
 
 Wednesday 11:00-12:00
-
+----
 <<Anchor(Caruso)>>
 == Explicit p-adic Hodge theory (Xavier Caruso) ==
 
 Wednesday 13:00-14:00
-
+----
 <<Anchor(Ciperiani)>>
 == The divisibility of the Tate-Shafarevich group of an elliptic curve in the Weil-Chatelet group (Mirela Ciperiani) ==
 
