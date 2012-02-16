@@ -87,3 +87,17 @@ the Tate-Shafarevich group with the maximal divisible subgroup of the Weil-Chate
 This is joint work with Jakob Stix.
 
 Wednesday 16:30-17:30
+----
+<<Anchor(RodriguezVillegas)>>
+== Combinatorics and Geometry (Fernando Rodriguez-Villegas) ==
+
+In this talk I will discuss a combinatorial calculation of the
+polynomial that counts the number of indecomposable representations of
+a certain quiver and dimension vector. I will start by introducing
+quivers, their representations and Kac's results and conjectures on
+such counting polynomials in general. The combinatorial calculation
+involves the reliability polynomial of alternating graphs. I will end
+with the main motivation for the calculation: its relation to the
+geometry of character varieties.
+
+Thursday 16:00-17:00
