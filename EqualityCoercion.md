@@ -11,6 +11,7 @@ The goal of this page is to gather all problems due to equality accepting coerci
     2943215493
     sage: hash(3.14159265358979323)
     1826823505
+    sage: dd = {3.1415926535897932: 'approx', pi: 'exact'}
     sage: dd
     {3.1415926535897932: 'approx', pi: 'exact'}
     sage: {0:"exact", 0.0000000000000000000:"approx"}
