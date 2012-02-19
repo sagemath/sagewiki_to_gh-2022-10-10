@@ -1,1 +1,3 @@
-Describe padicSageDays/Projects/PowerSeries here.
+People interested:
+
+John Voight
