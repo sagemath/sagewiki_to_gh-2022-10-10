@@ -135,6 +135,10 @@ These are smaller projects that are hopefully more accessible to someone new to 
   * ''Goal'' -- implement a function to test if totally ramified extensions are isomorphic, and to determine whether a polynomial has enough precision to specify an extension uniquely up to isomorphism
   * ''Priority'' -- Medium
   * ''Difficulty'' -- Medium
+ 1. [[/PanayiRootFinding | Panayi's Root Finding Algorithm]]
+  * ''Goal'' -- implement Panayi's root finding algorithm: http://www.math.tu-berlin.de/%7Ekant/publications/papers/krasner.pdf
+  * ''Priority'' -- High
+  * ''Difficulty'' -- Medium
 
 = External Projects =
 
