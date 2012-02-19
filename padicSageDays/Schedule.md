@@ -11,7 +11,7 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 17:00-19:30 || everyone      || on or off campus || Dinner in small groups ||
 || 19:30-27:00 || nightowls     || APM 6402/6218    || Coding sprint ||
 ||||||||'''Monday'''||
-|| 8:00-11:00  || morning birds || APM 6402/6218    || Coding sprint ||
+|| 8:00-11:00  || early birds || APM 6402/6218    || Coding sprint ||
 || 11:00-12:00 || Sebastian Pancratz || APM 6402    || [[padicSageDays/Abstracts#Pancratz|p-adics in FLINT]] ||
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
 || 13:00-14:00 || Sebastian Pauli || APM 6402 or 6218 || [[padicSageDays/Abstracts#Pauli|Single factor lifting for polynomials over local fields]] ||
@@ -20,7 +20,7 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 17:00-19:30 || everyone      || on or off campus || Dinner in small groups ||
 || 19:30-27:00 || nightowls     || APM 6402/6218    || Coding sprint ||
 ||||||||'''Tuesday'''||
-|| 8:00-11:00  || morning birds || APM 6402/6218    || Coding sprint ||
+|| 8:00-11:00  || early birds || APM 6402/6218    || Coding sprint ||
 || 11:00-12:00 || William Stein || APM 6402 or 6218 || [[padicSageDays/Abstracts#Stein|Computing p-adic L-functions of elliptic curves]] ||
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
 || 13:00-14:00 || Matt Greenberg || APM 6402 or 6218 || [[padicSageDays/Abstracts#Greenberg|Definite quaternion algebras and triple product p-adic L-functions]] ||
