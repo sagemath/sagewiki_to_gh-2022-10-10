@@ -16,3 +16,4 @@ We'll be drawing our projects from the following sources.
  * [[/HilbertSymbols]] -- General Hilbert symbols for p-adic fields.
  * [[/Completions]] -- Completions of number fields.
  * [[/LinearAlgebra]] -- think.  then implement.
+ * [[/Inversion|Inversion]] -- Speed up inversion.
