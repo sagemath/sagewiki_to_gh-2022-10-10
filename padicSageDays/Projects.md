@@ -17,3 +17,4 @@ We'll be drawing our projects from the following sources.
  * [[/Completions]] -- Completions of number fields.
  * [[/LinearAlgebra]] -- think.  then implement.
  * [[/Inversion|Inversion]] -- Speed up inversion.
+ * [[/PadicRootAlgorithm]] -- Implement Panayi's p-adic root finding algorithm. 
