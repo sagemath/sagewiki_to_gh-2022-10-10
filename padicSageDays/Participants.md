@@ -40,6 +40,7 @@ The following participants are planning to attend [[padicSageDays|Sage Days 36]]
  * John Voight (University of Vermont)
  * Justin Walker (Stanford University)
  * Colin Weir (University of Calgary)
+ * Syed Lavasani (University of Calgary)
 
 ==== Remote Participants ====
 
