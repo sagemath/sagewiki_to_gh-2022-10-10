@@ -9,9 +9,3 @@ This project adds the ability to generate p-adic function field to sage. It requ
 === Current Progress ===
 
 See http://sage.math.washington.edu/home/roed/templates/
-
-
-
-Assigned to:
-Syd
-Colin
