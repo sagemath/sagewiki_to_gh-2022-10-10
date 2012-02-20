@@ -11,11 +11,12 @@ We'll be drawing our projects from the following sources.
  * [[/Templates|Templates]] -- templates for elements of p-adic fields.
  * [[/SymbolicIntegration|Symbolic Integration]] -- symbolic integration over p-adics.  p-adic Igusa zeta functions.  Get rational functions in a symbolic p.  Look at Denef's webpage.
  * [[/LogarithmsForExt|Logarithms and Exponentials]] -- logarithms and exponentials for p-adic extension fields.
- * [[/FunctionFields|]] -- Hess' automorphism algorithm for finding isomorphisms between function fields.
- * [[/WittVectors]] -- Witt vectors over general rings.
- * [[/HilbertSymbols]] -- General Hilbert symbols for p-adic fields.
- * [[/Completions]] -- Completions of number fields.
- * [[/LinearAlgebra]] -- think.  then implement.
+ * [[/FunctionFields|Function Fields]] -- Hess' automorphism algorithm for finding isomorphisms between function fields.
+ * [[/WittVectors|Witt Vectors]] -- Witt vectors over general rings.
+ * [[/HilbertSymbols|Hilbert symbols]] -- General Hilbert symbols for p-adic fields.
+ * [[/Completions|Completions]] -- Completions of number fields.
+ * [[/LinearAlgebra|Linear Algebra]] -- think.  then implement.
  * [[/Inversion|Inversion]] -- Speed up inversion.
- * [[/PadicRootAlgorithm]] -- Implement Panayi's p-adic root finding algorithm. 
+ * [[/PadicRootAlgorithm|Panayi's root finding algorithm]] -- Implement Panayi's p-adic root finding algorithm. 
  * [[http://trac.sagemath.org/sage_trac/ticket/12545|Trac 12545: create highly optimized p-adic L-series implementation for various special cases]] (William Stein, Jennifer Balakrishnan, Mirella Cipierini)
+ * [[/BugSquash|Report and fix bugs in the p-adics]] -- some of our funding comes from this objective. 
