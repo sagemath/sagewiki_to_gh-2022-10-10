@@ -1,3 +1,3 @@
-People interested:
+== People interested ==
 
-John Voight
+John Voight, David Roe, Xavier Caruso, Kiran Kedlaya
