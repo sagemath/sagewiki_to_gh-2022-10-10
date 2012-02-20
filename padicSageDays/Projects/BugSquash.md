@@ -6,7 +6,7 @@ Keep track of the bugs you report, fix and review here:
 
  * [[http://trac.sagemath.org/sage_trac/ticket/12534|#12534]] -- negative exponents of p-adic capped relative zeros are broken
  * [[http://trac.sagemath.org/sage_trac/ticket/12535|#12535]] -- p-adic exponents are broken
- * [[ ]] -- p-adic is_zero doesn't normalize at the beginning
+ * [[http://trac.sagemath.org/sage_trac/ticket/12549|#12549]] -- p-adic is_zero doesn't normalize at the beginning
 
 === Existing ===
 
