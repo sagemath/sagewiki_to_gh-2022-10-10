@@ -4,7 +4,9 @@ Syd Lavasani, Colin Weir
 
 === Description ===
 
-This project adds the ability to generate p-adic function field to sage. It requires the implementation of the linkage and the pyx file for function field. Among other stuff, this has application in implementation of Hess's  automorphism algorithm.
+The purpose of this project is to enable sage to generate p-adic function field. It is useful, for example, in implementation of Hess's function field automorphism algorithm.
+
+It requires the implementation of the linkage and the pyx file for function field.  
 
 === Current Progress ===
 
