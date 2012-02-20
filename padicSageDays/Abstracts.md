@@ -12,7 +12,7 @@ Sunday 13:00-14:00
 <<Anchor(Pancratz)>>
 == p-adics in FLINT (Sebastian Pancratz) ==
 
-Slides as of Monday 20 Feb, 12:50pm.
+[[attachment:Pancratz.pdf|Slides]] as of Monday 20 Feb, 12:50pm.
 
 Monday 11:00-12:00
 ----
