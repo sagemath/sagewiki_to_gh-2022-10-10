@@ -19,4 +19,5 @@ We'll be drawing our projects from the following sources.
  * [[/Inversion|Inversion]] -- Speed up inversion.
  * [[/PadicRootAlgorithm|Panayi's root finding algorithm]] -- Implement Panayi's p-adic root finding algorithm. 
  * [[http://trac.sagemath.org/sage_trac/ticket/12545|Trac 12545: create highly optimized p-adic L-series implementation for various special cases]] (William Stein, Jennifer Balakrishnan, Mirella Cipierini)
+ * [[http://trac.sagemath.org/sage_trac/ticket/812|Trac 812: p-adic L-series via overconvergent modular symbols]]  (William Stein, Jennifer Balakrishnan)
  * [[/BugSquash|Report and fix bugs in the p-adics]] -- some of our funding comes from this objective. 
