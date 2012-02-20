@@ -21,3 +21,13 @@ We'll be drawing our projects from the following sources.
  * [[http://trac.sagemath.org/sage_trac/ticket/12545|Trac 12545: create highly optimized p-adic L-series implementation for various special cases]] (William Stein, Jennifer Balakrishnan)
  * [[http://trac.sagemath.org/sage_trac/ticket/812|Trac 812: p-adic L-series via overconvergent modular symbols]]  (William Stein, Jennifer Balakrishnan)
  * [[/BugSquash|Report and fix bugs in the p-adics]] -- some of our funding comes from this objective. 
+
+== Miscellaneous ==
+
+Here are my emacs files:
+
+ * [[http://sage.math.washington.edu/home/roed/sage.el|My sage.el file]] -- Download and put somewhere convenient
+ * [[http://sage.math.washington.edu/home/roed/pyrex.el|My pyrex.el file]] -- Download and put somewhere convenient
+ * [[http://sage.math.washington.edu/home/roed/.emacs|My .emacs file]] -- put in your home directory and edit the following two lines to the appropriate paths for the above files:
+   * (load "/Users/Roed/sage/sage-4.0/data/emacs/sage-mode.el")
+   * (load "/Users/Roed/sage/sage-4.0/data/emacs/pyrex-mode.el")
