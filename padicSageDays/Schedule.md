@@ -5,7 +5,7 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 10:15-12:00 || Sage newbies  || APM 6402         || Introduction to Sage for people new to Sage ||
 || 10:15-12:00 || Sage veterans || APM 6218         || Coding sprint? ||
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
-|| 13:00-14:00 || David Roe     || APM 6402         || [[padicSageDays/Abstracts#Roe|The state of p-adics in Sage]] ||
+|| 13:00-14:00 || David Roe     || APM 6402         || [[padicSageDays/Abstracts#Roe|The state of p-adics in Sage]] [[http://youtu.be/BZLSNfAPCfo|screencast]] ||
 || 14:00-15:30 || everyone      || APM 6402         || Coding sprint organization ||
 || 15:30-17:00 || everyone      || APM 6402/6218    || Coding sprint ||
 || 17:00-19:30 || everyone      || on or off campus || Dinner in small groups ||
