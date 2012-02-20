@@ -16,7 +16,8 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
 || 13:00-14:00 || Sebastian Pauli || APM 6402 or 6218 || [[padicSageDays/Abstracts#Pauli|Single factor lifting for polynomials over local fields]] ||
 || 14:00-15:00 || Joe Buhler    || APM 6402 or 6218 || [[padicSageDays/Abstracts#Buhler|Stable p-adic recursions]]||
-|| 15:00-17:00 || everyone      || APM 6402/6218    || Coding sprint ||
+|| 15:00-15:15 || everyone      || APM 6402         || Status reports on projects ||
+|| 15:15-17:00 || everyone      || APM 6402/6218    || Coding sprint ||
 || 17:00-19:30 || everyone      || on or off campus || Dinner in small groups ||
 || 19:30-27:00 || nightowls     || APM 6402/6218    || Coding sprint ||
 ||||||||'''Tuesday'''||
@@ -25,7 +26,8 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
 || 13:00-14:00 || Matt Greenberg || APM 6402 or 6218 || [[padicSageDays/Abstracts#Greenberg|Definite quaternion algebras and triple product p-adic L-functions]] ||
 || 14:00-15:00 || John Voight   || APM 6218         || Number theory seminar: [[padicSageDays/Abstracts#Voight|Arithmetic aspects of triangle groups]] ||
-|| 15:00-17:00 || everyone      || APM 6402/6218    || Coding sprint ||
+|| 15:00-15:15 || everyone      || APM 6402         || Status reports on projects ||
+|| 15:15-17:00 || everyone      || APM 6402/6218    || Coding sprint ||
 || 17:00-19:30 || everyone      || on or off campus || Dinner in small groups ||
 || 19:30-27:00 || nightowls     || APM 6402/6218    || Coding sprint ||
 ||||||||'''Wednesday'''||
@@ -33,7 +35,8 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 11:00-12:00 || Luis Finotti  || APM 6402 or 6218 || [[padicSageDays/Abstracts#Finotti|Computations with Witt Vectors]] ||
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
 || 13:00-14:00 || Xavier Caruso || APM 6402 or 6218 || [[padicSageDays/Abstracts#Caruso|Explicit p-Adic Hodge Theory]] ||
-|| 14:00-16:30 || everyone      || APM 6402/6218    || Coding sprint ||
+|| 14:00-14:15 || everyone      || APM 6402         || Status reports on projects ||
+|| 14:15-16:30 || everyone      || APM 6402/6218    || Coding sprint ||
 || 16:30-17:30 || Mirela Çiperiani || APM 6218      || Number theory seminar: [[padicSageDays/Abstracts#Ciperiani|The divisibility of the Tate-Shafarevich group of an elliptic curve in the Weil-Chatelet group]] ||
 || 17:30-20:00 || everyone      || [[http://www.searocketbistro.com|Sea Rocket Bistro]] || Conference dinner ||
 || 20:00-27:00 || nightowls     || APM 6402/6218    || Coding sprint ||
