@@ -18,3 +18,4 @@ We'll be drawing our projects from the following sources.
  * [[/LinearAlgebra]] -- think.  then implement.
  * [[/Inversion|Inversion]] -- Speed up inversion.
  * [[/PadicRootAlgorithm]] -- Implement Panayi's p-adic root finding algorithm. 
+ * [[http://trac.sagemath.org/sage_trac/ticket/12545|Trac 12545: create highly optimized p-adic L-series implementation for various special cases]] (William Stein, Jennifer Balakrishnan, Mirella Cipierini)
