@@ -11,7 +11,7 @@ We'll be drawing our projects from the following sources.
  * [[/Templates|Templates]] -- templates for elements of p-adic fields.
  * [[/SymbolicIntegration|Symbolic Integration]] -- symbolic integration over p-adics.  p-adic Igusa zeta functions.  Get rational functions in a symbolic p.  Look at Denef's webpage.
  * [[/LogarithmsForExt|Logarithms and Exponentials]] -- logarithms and exponentials for p-adic extension fields.
- * [[/FunctionFields|Function Fields]] -- Hess' automorphism algorithm for finding isomorphisms between function fields.
+ * [[/FunctionFields|Function Fields]] -- implementing p-adic function fields
  * [[/WittVectors|Witt Vectors]] -- Witt vectors over general rings.
  * [[/HilbertSymbols|Hilbert symbols]] -- General Hilbert symbols for p-adic fields.
  * [[/Completions|Completions]] -- Completions of number fields.
