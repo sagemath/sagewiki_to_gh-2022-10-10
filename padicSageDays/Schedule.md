@@ -22,7 +22,7 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 19:30-27:00 || nightowls     || APM 6402/6218    || Coding sprint ||
 ||||||||'''Tuesday'''||
 || 8:00-11:00  || early birds   || APM 6402/6218    || Coding sprint ||
-|| 11:00-12:00 || William Stein || APM 6402         || [[padicSageDays/Abstracts#Stein|Computing p-adic L-functions of elliptic curves]], [[http://sagenb.org/home/pub/4351/|Sage Worksheet]]||
+|| 11:00-12:00 || William Stein || APM 6402         || [[padicSageDays/Abstracts#Stein|Computing p-adic L-functions of elliptic curves]], [[http://sagenb.org/home/pub/4354/|Sage Worksheet]]||
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
 || 13:00-14:00 || Matt Greenberg || APM 6402        || [[padicSageDays/Abstracts#Greenberg|Definite quaternion algebras and triple product p-adic L-functions]] ||
 || 14:00-15:00 || John Voight   || APM 6218         || Number theory seminar: [[padicSageDays/Abstracts#Voight|Arithmetic aspects of triangle groups]] ||
