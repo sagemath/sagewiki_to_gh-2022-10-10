@@ -1,3 +1,3 @@
 === People ===
 
-Sebastian Pauli, Brian Sinclair, Maurizio Monge
+Sebastian Pauli, Brian Sinclair, Maurizio Monge, David Roe
