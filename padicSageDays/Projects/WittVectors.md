@@ -1,3 +1,3 @@
 === People ===
 
-Luis Finotti, Maurizio Monge
+Luis Finotti, Christopher Davis, Maurizio Monge
