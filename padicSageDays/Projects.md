@@ -13,7 +13,6 @@ We'll be drawing our projects from the following sources.
  * [[/LogarithmsForExt|Logarithms and Exponentials]] -- logarithms and exponentials for p-adic extension fields.
  * [[/FunctionFields|Function Fields]] -- implementing p-adic function fields
  * [[/WittVectors|Witt Vectors]] -- Witt vectors over general rings.
- * [[/HilbertSymbols|Hilbert symbols]] -- General Hilbert symbols for p-adic fields.
  * [[/Completions|Completions]] -- Completions of number fields.
  * [[/LinearAlgebra|Linear Algebra]] -- think.  then implement.
  * [[/Inversion|Inversion]] -- Speed up inversion.
@@ -22,6 +21,7 @@ We'll be drawing our projects from the following sources.
  * [[http://trac.sagemath.org/sage_trac/ticket/812|Trac 812: p-adic L-series via overconvergent modular symbols]]  (William Stein, Jennifer Balakrishnan)
  * [[/BugSquash|Report and fix bugs in the p-adics]] -- some of our funding comes from this objective. 
  * [[/BruhatTitsTree|Bruhat Tits Tree]] -- Cameron and Marc's code into Sage.
+ * [[/FLINT2|FLINT 2]] -- Get FLINT 2 into Sage. See [[http://trac.sagemath.org/sage_trac/ticket/12173|#12173]].
 
 == Miscellaneous ==
 
