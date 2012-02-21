@@ -16,6 +16,7 @@ We'll be drawing our projects from the following sources.
  * [[/Completions|Completions]] -- Completions of number fields.
  * [[/LinearAlgebra|Linear Algebra]] -- think.  then implement.
  * [[/Inversion|Inversion]] -- Speed up inversion.
+ * [[/nthRoots|nth roots]] -- Implement nth roots for p-adic elements.
  * [[/PadicRootAlgorithm|Panayi's root finding algorithm]] -- Implement Panayi's p-adic root finding algorithm. 
  * [[http://trac.sagemath.org/sage_trac/ticket/12545|Trac 12545: create highly optimized p-adic L-series implementation for various special cases]] (William Stein, Jennifer Balakrishnan)
  * [[http://trac.sagemath.org/sage_trac/ticket/812|Trac 812: p-adic L-series via overconvergent modular symbols]]  (William Stein, Jennifer Balakrishnan)
