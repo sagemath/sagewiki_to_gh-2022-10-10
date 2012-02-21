@@ -16,6 +16,43 @@ In essence, piecewise functions can be thought dictionaries that map values to s
 
 Public domain.
 
+== Problems with PiecewisePolynomial ==
+
+There are several problems with the existing piecewise class, `PiecewisePolynomial`. Open tickets are listed at the end of this SEP. Here are some characteristic examples.
+
+{{{
+sage: f = piecewise([[(-1,1), 0]])
+sage: f(1)
+...
+TypeError: 'sage.rings.integer.Integer' object is not callable
+}}}
+
+{{{
+sage: f = piecewise([[(-1,1), 0]])
+sage: x*f
+...
+AttributeError: 'sage.symbolic.expression.Expression' object has no attribute 'domain'
+}}}
+
+{{{
+f = piecewise([[(-1,1), 0]])
+sage: abs(f)
+...
+AttributeError: PiecewisePolynomial instance has no attribute '__abs__'
+}}}
+
+{{{
+sage: x,y = var('x,y')
+sage: f = piecewise([[(-1,1), x*y]])
+sage: f(1)                          
+/home/mjo/src/sage-5.0.beta3/local/bin/sage-ipython:1: DeprecationWarning: Substitution using function-call syntax and unnamed arguments is deprecated and will be removed from a future release of Sage; you can use named arguments instead, like EXPR(x=..., y=...)
+#!/usr/bin/env python
+y
+sage: f(x=0)
+...
+TypeError: __call__() got an unexpected keyword argument 'x'
+}}}
+
 == Implementation ==
 
 === Evaluation of Arguments ===
