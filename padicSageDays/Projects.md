@@ -22,6 +22,8 @@ We'll be drawing our projects from the following sources.
  * [[/BugSquash|Report and fix bugs in the p-adics]] -- some of our funding comes from this objective. 
  * [[/BruhatTitsTree|Bruhat Tits Tree]] -- Cameron and Marc's code into Sage.
  * [[/FLINT2|FLINT 2]] -- Get FLINT 2 into Sage. See [[http://trac.sagemath.org/sage_trac/ticket/12173|#12173]].
+ * [[http://trac.sagemath.org/sage_trac/ticket/8335|Trac 8335: lattices of finite fields]] -- See also [[http://trac.sagemath.org/sage_trac/ticket/12117|Trac 12117]], [[http://trac.sagemath.org/sage_trac/ticket/12125|Trac 12125]], [[http://trac.sagemath.org/sage_trac/ticket/7240|Trac 7240]] and [[http://trac.sagemath.org/sage_trac/ticket/12133|Trac 12133]].
+ * [[http://trac.sagemath.org/sage_trac/ticket/8241|Trac 8241: conversion to and from residue fields of p-adic fields]] -- depends on [[http://trac.sagemath.org/sage_trac/ticket/12062|Trac 12062]], [[http://trac.sagemath.org/sage_trac/ticket/12053|Trac 12053]], [[http://trac.sagemath.org/sage_trac/ticket/12064|Trac 12064]], and [[http://trac.sagemath.org/sage_trac/ticket/12077|Trac 12077]], which all need review.
 
 == Miscellaneous ==
 
