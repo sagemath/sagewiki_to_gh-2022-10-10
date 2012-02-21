@@ -19,6 +19,8 @@ Monday 11:00-12:00
 <<Anchor(Pauli)>>
 == Single factor lifting for polynomials over local fields (Sebastian Pauli) ==
 
+[[attachment:Pauli.pdf|Slides]] as of Monday 20 Feb, 5:30pm.
+
 Monday 13:00-14:00
 ----
 <<Anchor(Buhler)>>
