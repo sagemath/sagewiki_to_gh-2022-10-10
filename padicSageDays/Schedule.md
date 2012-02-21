@@ -15,7 +15,7 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 11:00-12:00 || Sebastian Pancratz || APM 6402    || [[padicSageDays/Abstracts#Pancratz|p-adics in FLINT]] ||
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
 || 13:30-14:30 || Sebastian Pauli || APM 6402       || [[padicSageDays/Abstracts#Pauli|Single factor lifting for polynomials over local fields]] ||
-|| 14:30-15:30 || Joe Buhler    || APM 6402         || [[padicSageDays/Abstracts#Buhler|Stable p-adic recursions]]||
+|| 14:30-15:30 || Joe Buhler    || APM 6402         || [[padicSageDays/Abstracts#Buhler|Stable p-adic recursions]] [[attachment:padicrobbins.pdf|slides]]||
 || 15:30-15:45 || everyone      || APM 6402         || Status reports on projects ||
 || 15:45-17:00 || everyone      || APM 6402/6218    || Coding sprint ||
 || 17:00-19:30 || everyone      || on or off campus || Dinner in small groups ||
