@@ -41,7 +41,7 @@ the Laurent phenomenon.  This is joint work with Kiran Kedlaya.
 Monday 14:00-15:00
 ----
 <<Anchor(Stein)>>
-== Computing p-adic L-functions attached to modular forms (William Stein) ==
+== Computing p-adic L-functions attached to elliptic curves (William Stein) ==
 
 I will describe what Sage currently includes for computing $p$-adic $L$-functions of elliptic curves and what is available in PSAGE.  Then I will discuss [[http://trac.sagemath.org/sage_trac/ticket/12545|Trac #12545]], which is about polishing up the PSAGE code for inclusion in Sage and adding some additional functionality.  All the code mentioned above uses Riemann sums, so is straightforward and fast for low precision, but slow as molasses if one wants high precision. I'll end my talk by briefly discuss [[http://trac.sagemath.org/sage_trac/ticket/812|Trac #812]], which involves rewriting Robert Pollack's overconvergent modular symbols code for inclusion in Sage. 
 
