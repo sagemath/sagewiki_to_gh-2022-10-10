@@ -53,7 +53,7 @@ Tuesday 11:00-12:00
 <<Anchor(Greenberg)>>
 == Definite quaternion algebras and triple product p-adic L-functions (Matt Greenberg) ==
 
-[[attachmeth:Greenberg.pdf|Slides]]
+[[attachment:Greenberg.pdf|Slides]]
 
 An extremely useful formula of Ichino expresses central values of
 triple product L-functions in terms of trilinear forms evaluated on
