@@ -25,7 +25,7 @@ What to do for equality comparison of infinite words ?
 
 === Finite languages and factor set ===
 
-[[http://trac.sagemath.org/sage_trac/ticket/12225|#12225]]
+Most of it was implemented by Franco. We would like to enhance it and use Rauzy castle. See [[http://trac.sagemath.org/sage_trac/ticket/12225|#12225]].
 
 === Substitutive and adic languages ===
 
@@ -37,11 +37,12 @@ There are many algorithms for language described by a sequence of substitutions.
 
 == TODO list ==
 
-which should go in the ticket
- * WordsPath and cutting sequences 
+which should go in the main trac ticket
+ * words path (currently in sage.combinat.words.paths) which have to be modified to fit with the new implementation
 
-other request
+other todos
  * 1-dim subshift of finite type / sofic
  * n-dim finite words and n-dimensional shifts
- * rauzy castle and fine datastructure for small complexity languages (Stepan)
- * substitutive language (Stepan, Vincent)
+ * n-dim subshifts of finite type
+ * n-dim substitutive subshift
+ * cellular automata
