@@ -9,17 +9,20 @@ The main structure should go in the patch [[http://trac.sagemath.org/sage_trac/t
 
  * sage.categories.languages
  * sage.categories.factorial_languages
+ * sage.categories.shifts
  * sage.categories.examples.languages
  * sage.monoids.free_monoid
  * sage.combinat.languages.*
  * sage.combinat.words.*
  * sage.dynamics.symbolic.full_shift
 
-=== Tiling space ===
+What is bad/nice with categories:
+ * inheritance of generic code
+ * a bit confusing for the user who want to find the implementation of a method
 
-The highest level class should be something like TilingSpace. It contains an enumerated set, an alphabet (and optionally a way of plotting). Do we always assume that the enumerated set is either a group (like ZZ) or a sub-semigroup of a group (like NN) ?
+What should we keep? What categories should we create?
 
-=== Behavior of algorithms with infinite input data ===
+== Behavior of algorithms with infinite input data ==
 
 What to do for equality of infinite words ?
 
@@ -33,17 +36,19 @@ Two possibilities:
 
  2. test all letters and never return True
 
+== Subprojects ==
+
 === Finite languages and factor set ===
 
-Most of it was implemented by Franco. We would like to enhance it and use Rauzy castle. See [[http://trac.sagemath.org/sage_trac/ticket/12225|#12225]].
+Most of it was implemented by Franco (suffix tree and suffix trie). We would like to enhance it and make a specific data structure (called Rauzy castle) for FiniteFactorialLanguages. See [[http://trac.sagemath.org/sage_trac/ticket/12225|#12225]].
 
 === Substitutive and adic languages ===
 
-There are many algorithms for language described by a sequence of substitutions. The particular case of morphic and purely morphic languages corresponds respectively to periodic and purely_periodic directive word.
+There are many algorithms for languages described by a sequence of substitutions (called a directive word). The particular case of morphic and purely morphic languages correspond respectively to periodic and purely_periodic directive words.
 
  * Enumeration of factors, desubstitution ([[http://trac.sagemath.org/sage_trac/ticket/12227|#12227]])
- * Factor complexity for purely morphic languages ([[http://trac.sagemath.org/sage_trac/ticket/12231/#12231]])
- * Equality for purely morphic language (following J. Honkala, CANT, chapter 10)
+ * Factor complexity for purely morphic languages ([[http://trac.sagemath.org/sage_trac/ticket/12231/|#12231]])
+ * Equality for purely morphic languages (following J. Honkala, CANT, chapter 10)
 
 == TODO list ==
 
@@ -56,3 +61,4 @@ other todos
  * n-dim subshifts of finite type
  * n-dim substitutive subshift
  * cellular automata
+ * ...
