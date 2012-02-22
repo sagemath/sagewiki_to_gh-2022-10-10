@@ -9,10 +9,10 @@ The main structure should go in the patch [[http://trac.sagemath.org/sage_trac/t
 
  * sage.categories.languages
  * sage.categories.factorial_languages
+ * sage.categories.examples.languages
  * sage.monoids.free_monoid
  * sage.combinat.languages.*
  * sage.combinat.words.*
- * sage.categories.examples.languages
  * sage.dynamics.symbolic.full_shift
 
 === Tiling space ===
@@ -23,9 +23,17 @@ The highest level class should be something like TilingSpace. It contains an enu
 
 What to do for equality comparison of infinite words ?
 
-== Substitutive and adic languages ==
+=== Finite languages and factor set ===
 
- * Equality for purely morphic words is decidable (J. Honkala, CANT, chapter 10)
+[[http://trac.sagemath.org/sage_trac/ticket/12225|#12225]]
+
+=== Substitutive and adic languages ===
+
+There are many algorithms for language described by a sequence of substitutions. The particular case of morphic and purely morphic languages corresponds respectively to periodic and purely_periodic directive word.
+
+ * Enumeration of factors, desubstitution ([[http://trac.sagemath.org/sage_trac/ticket/12227|#12227]])
+ * Factor complexity for purely morphic languages ([[http://trac.sagemath.org/sage_trac/ticket/12231/#12231]])
+ * Equality for purely morphic language (following J. Honkala, CANT, chapter 10)
 
 == TODO list ==
 
