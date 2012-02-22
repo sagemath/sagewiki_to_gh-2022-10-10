@@ -6,9 +6,9 @@ Xavier Caruso, Jérémy Le Borgne
 
 If $k$ is a field and $\sigma$ a ring endomorphism of $k$, the ring of skew polynomials $k[X,\sigma]$ is the usual vector space of polynomials over $k$ equipped with the multiplication deduced from the rule $a X = \sigma(a) X$ ($a \in K$)
 
-This ring is closely related to $\sigma$-modules over $k$ (which arises in $p$-adic Hodge theory).
+This ring is closely related to $\sigma$-modules over $k$ and, consequently, to Galois representations.
 
-The aim of the project is to implement basic arithmetic on $k[X,\sigma]$ when $k$ is a finite field
+The aim of the project is to implement usual functions on $k[X,\sigma]$ when $k$ is a finite field.
 
 === Progress ===
 
@@ -21,4 +21,11 @@ A class has been written (for now, in python). It supports the following functio
 
 === Bugs ===
 
+
+---- /!\ '''Edit conflict - other version:''' ----
 Do not derive from !PolynomialRing_general since this class assumes that the variable commutes with the constants (probably rather hard: need to rewrite many things)
+
+---- /!\ '''Edit conflict - your version:''' ----
+Do not derive from !PolynomialRing_general since this class assumes that the variable commutes with the constants (probably rather hard: need to rewrite many things)
+
+---- /!\ '''End of edit conflict''' ----
