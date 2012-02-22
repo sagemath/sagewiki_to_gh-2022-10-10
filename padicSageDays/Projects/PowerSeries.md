@@ -1,3 +1,3 @@
 People interested:
 
-John Voight
+Xavier Caruso, Jérémy Le Borgne, David Lubicz, Tristan Vaccon, John Voight
