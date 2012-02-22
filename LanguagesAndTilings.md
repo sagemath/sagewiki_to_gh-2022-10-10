@@ -3,6 +3,8 @@
 
 This page gathers ideas for refactorization of sage.combinat.words and implementation of tilings. 
 
+You can subscribe to the associated [[https://lma.metelu.net/mailman/listinfo/sage-words|mailing-list]] to discuss about this.
+
 == Structure ==
 
 The main structure should go in the patch [[http://trac.sagemath.org/sage_trac/ticket/12224|#12224]]. Up to now the code is a bit dissaminated everywhere in Sage:
