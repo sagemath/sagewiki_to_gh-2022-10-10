@@ -21,4 +21,4 @@ A class has been written (for now, in python). It supports the following functio
 
 === Bugs ===
 
-Do not derive from PolynomialRing_general since this class assumes that the variable commutes with the constant
+Do not derive from !PolynomialRing_general since this class assumes that the variable commutes with the constants (probably rather hard: need to rewrite many things)
