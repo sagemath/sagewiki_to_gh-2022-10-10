@@ -29,3 +29,5 @@ Keep track of the bugs you report, fix and review here:
 === Fixed ===
 
 === Reviewed ===
+ * [[http://trac.sagemath.org/sage_trac/ticket/11777|#11777]] -- Coercion/printing problem with p-adics
+   Reviewed, updated patch attached; needs re-review.
