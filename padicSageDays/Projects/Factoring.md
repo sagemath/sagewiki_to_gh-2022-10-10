@@ -4,7 +4,7 @@ Sebastian Pauli, Brian Sinclair, Maurizio Monge, David Roe
 
 === Description ===
 
-Implement a native Sage algorithm for local field factorization. For more detail, see [[http://wiki.sagemath.org/padics/PolynomialFactoring]].
+Implement a native Sage algorithm for local field polynomial factorization. For more detail, see [[http://wiki.sagemath.org/padics/PolynomialFactoring]].
 
 === Current Progress ===
 
