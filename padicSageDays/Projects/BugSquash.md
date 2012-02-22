@@ -31,3 +31,5 @@ Keep track of the bugs you report, fix and review here:
 === Reviewed ===
  * [[http://trac.sagemath.org/sage_trac/ticket/11777|#11777]] -- Coercion/printing problem with p-adics
    Reviewed, updated patch attached; needs re-review.
+ * [[http://trac.sagemath.org/sage_trac/ticket/12534|#12534]] -- negative exponents of p-adic capped relative zeros are broken
+   This problem is fixed in the new Templates code for p-adics (#12555), and won't be fixed.
