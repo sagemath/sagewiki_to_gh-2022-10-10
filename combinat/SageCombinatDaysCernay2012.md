@@ -22,7 +22,7 @@ developers for coding sprints on the following themes:
 
 * Refactoring of the combinatorics infrastructure (factories, Cythonizing partitions, compositions...)
 
-* Refactoring of sage.combinat.words and creation of a tiling class (`LanguageAndTiling <http://wiki.sagemath.org/combinat/LanguageAndTiling>`_)
+* Refactoring of sage.combinat.words and creation of a tiling class (`LanguageAndTiling <http://wiki.sagemath.org/LanguagesAndTilings>`_)
 
 * Cythonization of many iterators
 
