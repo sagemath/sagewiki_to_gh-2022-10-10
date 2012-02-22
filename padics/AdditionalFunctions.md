@@ -4,10 +4,13 @@
  * ''Difficulty'' -- Medium
  * ''Prerequisites'' -- 
  * ''Background'' -- 
- * ''Contributors'' -- 
- * ''Progress'' - not started
+ * ''Contributors'' -- Mitchell Owen
+ * ''Progress'' -- Artin-Hasse mostly done, gamma function in progress
  * ''Related Tickets'' -- 
 
 == Discussion ==
 
 == Tasks ==
+
+implement Artin-Hasse exponential: patch submitted
+implement p-adic gamma function: needs speed-ups
