@@ -1,5 +1,5 @@
 ## page was renamed from combinat/LanguageAndTiling
-= Language and tilings =
+= Languages and tilings =
 
 This page gathers ideas for refactorization of sage.combinat.words and implementation of tilings. 
 
@@ -21,8 +21,9 @@ The main structure should go in the patch [[http://trac.sagemath.org/sage_trac/t
 What is bad/nice with categories:
  * inheritance of generic code
  * a bit confusing for the user who want to find the implementation of a method
+ * confusing for the person who writes the code and ask "where should I put this ?"
 
-What should we keep? What categories should we create?
+What do we keep? What categories do we create?
 
 == Behavior of algorithms with infinite input data ==
 
