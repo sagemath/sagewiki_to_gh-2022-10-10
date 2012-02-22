@@ -4,9 +4,9 @@
  * ''Difficulty'' -- High
  * ''Prerequisites'' -- [[../PolynomialPrecision | p-Adic polynomial precision]] and [[../HenselLifting | Hensel lifting]].  In addition, the second half of the project depends on [[../GeneralExtensions | General extension rings]]
  * ''Background'' -- Hensel lifting, newton polygons, p-adic factoring algorithms.
- * ''Contributors'' -- David Roe
+ * ''Contributors'' -- David Roe, Sebastian Pauli, Brian Sinclair
  * ''Progress'' - 
- * ''Related Tickets'' -- 
+ * ''Related Tickets'' -- [[http://trac.sagemath.org/sage_trac/ticket/12561|#12561]]
 
 == Discussion ==
 
