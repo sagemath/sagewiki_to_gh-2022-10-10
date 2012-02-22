@@ -21,7 +21,17 @@ The highest level class should be something like TilingSpace. It contains an enu
 
 === Behavior of algorithms with infinite input data ===
 
-What to do for equality comparison of infinite words ?
+What to do for equality of infinite words ?
+
+What should do
+{{{
+sage: w1 == w2
+}}}
+Two possibilities: 
+
+ 1. test the first XXX letters for finding a difference. If find one then returns False otherwise raise an error, "seems to be equal use .is_equal(force=True) to launch the infinite test".
+
+ 2. test all letters and never return True
 
 === Finite languages and factor set ===
 
