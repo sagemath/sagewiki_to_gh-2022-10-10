@@ -8,7 +8,7 @@ Implement a native Sage algorithm for local field polynomial factorization. For 
 
 === Current Progress ===
 
-A functioning version of the algorithm is up: See [[http://trac.sagemath.org/sage_trac/ticket/12561|#12561]].  
+A functioning version of the algorithm is up: See [[http://trac.sagemath.org/sage_trac/ticket/12561|#12561]].  "Functioning" was an ambitious term, some examples are incorrectly returned as irreducible.
 
 === A question ===
 
