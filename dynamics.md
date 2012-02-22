@@ -50,4 +50,5 @@ We plan to create a *dynamics* repository at the root of Sage subdivided accordi
 
 == Subprojects ==
 
-  * a project for flat surfaces [[dynamics/FlatSurfaces]]
+  * [[dynamics/FlatSurfaces]]
+  * [[LanguagesAndTilings]]
