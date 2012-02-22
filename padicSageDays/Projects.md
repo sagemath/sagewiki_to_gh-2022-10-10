@@ -27,6 +27,9 @@ We'll be drawing our projects from the following sources.
  * [[http://trac.sagemath.org/sage_trac/ticket/8241|Trac 8241: conversion to and from residue fields of p-adic fields]] -- depends on [[http://trac.sagemath.org/sage_trac/ticket/12062|Trac 12062]], [[http://trac.sagemath.org/sage_trac/ticket/12053|Trac 12053]], [[http://trac.sagemath.org/sage_trac/ticket/12064|Trac 12064]], and [[http://trac.sagemath.org/sage_trac/ticket/12077|Trac 12077]], which all need review.
  * [[/AdditionalFunctions|Additional Functions]] -- Implement the Artin-Hasse Exponential and the p-adic gamma function
 
+Not directly related to $p$-adics but:
+ * [[/SkewPolynomials]] -- Ring of skew polynomials over a finite field
+
 == Miscellaneous ==
 
 Here are my emacs files:
