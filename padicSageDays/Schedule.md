@@ -32,7 +32,7 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 19:30-27:00 || nightowls     || APM 6402/6218    || Coding sprint ||
 ||||||||'''Wednesday'''||
 || 8:00-11:00  || morning birds || APM 6402/6218    || Coding sprint ||
-|| 11:00-12:00 || Luis Finotti  || APM 6402         || [[padicSageDays/Abstracts#Finotti|Computations with Witt Vectors]] ||
+|| 11:00-12:00 || Luis Finotti  || APM 6402         || [[padicSageDays/Abstracts#Finotti|Computations with Witt Vectors]], [[ http://youtu.be/639OaobfSjo|video (part 1 of 2)]], [[http://youtu.be/GX7m7Ad6O6s|video (part 2 of 2)]] ||
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
 || 13:00-14:00 || Xavier Caruso || APM 6402         || [[padicSageDays/Abstracts#Caruso|Explicit p-Adic Hodge Theory]] ||
 || 14:00-14:15 || everyone      || APM 6402         || Status reports on projects ||
