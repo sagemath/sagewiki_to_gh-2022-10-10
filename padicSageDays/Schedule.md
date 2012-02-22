@@ -36,7 +36,8 @@ Here's the tentative schedule for [[padicSageDays|Sage Days 36]]
 || 12:00-13:00 || everyone      || UCSD campus      || Lunch ||
 || 13:00-14:00 || Xavier Caruso || APM 6402         || [[padicSageDays/Abstracts#Caruso|Explicit p-Adic Hodge Theory]] ||
 || 14:00-14:15 || everyone      || APM 6402         || Status reports on projects ||
-|| 14:15-16:30 || everyone      || APM 6402/6218    || Coding sprint ||
+|| 14:15-16:00 || everyone      || APM 6402/6218    || Coding sprint ||
+|| 16:00-16:30 || Marc Masdeu   || APM 6402         || ||
 || 16:30-17:30 || Mirela Çiperiani || APM 6218      || Number theory seminar: [[padicSageDays/Abstracts#Ciperiani|The divisibility of the Tate-Shafarevich group of an elliptic curve in the Weil-Chatelet group]] ||
 || 17:30-20:00 || everyone      || [[http://www.searocketbistro.com|Sea Rocket Bistro]] || Conference dinner ||
 || 20:00-27:00 || nightowls     || APM 6402/6218    || Coding sprint ||
