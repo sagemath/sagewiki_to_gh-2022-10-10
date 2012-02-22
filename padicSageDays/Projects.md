@@ -17,9 +17,9 @@ We'll be drawing our projects from the following sources.
  * [[/LinearAlgebra|Linear Algebra]] -- think.  then implement.
  * [[/Inversion|Inversion]] -- Speed up inversion.
  * [[/nthRoots|nth roots]] -- Implement nth roots for p-adic elements.
- * [[/PadicRootAlgorithm|Panayi's root finding algorithm]] -- Implement Panayi's p-adic root finding algorithm. 
- * [[http://trac.sagemath.org/sage_trac/ticket/12545|Trac 12545: create highly optimized p-adic L-series implementation for various special cases]] (William Stein, Jennifer Balakrishnan)
- * [[http://trac.sagemath.org/sage_trac/ticket/812|Trac 812: p-adic L-series via overconvergent modular symbols]]  (William Stein, Jennifer Balakrishnan)
+ * [[/PadicRootAlgorithm|Panayi's root finding algorithm]] -- Implement Panayi's p-adic root finding algorithm. (Simon Spicer; on hold) 
+ * [[http://trac.sagemath.org/sage_trac/ticket/12545|Trac 12545: create highly optimized p-adic L-series implementation for various special cases]] (William Stein, Jennifer Balakrishnan, Simon Spicer)
+ * [[http://trac.sagemath.org/sage_trac/ticket/812|Trac 812: p-adic L-series via overconvergent modular symbols]]  (William Stein, Jennifer Balakrishnan, Simon Spicer)
  * [[/BugSquash|Report and fix bugs in the p-adics]] -- some of our funding comes from this objective. 
  * [[/BruhatTitsTree|Bruhat Tits Tree]] -- Cameron and Marc's code into Sage.
  * [[/FLINT2|FLINT 2]] -- Get FLINT 2 into Sage. See [[http://trac.sagemath.org/sage_trac/ticket/12173|#12173]].
