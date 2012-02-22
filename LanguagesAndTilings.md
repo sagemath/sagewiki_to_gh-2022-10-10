@@ -53,6 +53,10 @@ There are many algorithms for languages described by a sequence of substitutions
  * Factor complexity for purely morphic languages ([[http://trac.sagemath.org/sage_trac/ticket/12231/|#12231]])
  * Equality for purely morphic languages (following J. Honkala, CANT, chapter 10)
 
+=== Eventually periodic languages / words ===
+
+They will be useful to define eventually periodic directive words for adic languages. See [[http://trac.sagemath.org/sage_trac/ticket/12228|#12228]].
+
 == TODO list ==
 
 which should go in the main trac ticket
