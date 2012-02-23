@@ -2,6 +2,8 @@
 
 Xavier Caruso, Jérémy Le Borgne
 
+{{attachment:a.jpg}}
+
 === Description ===
 
 If $k$ is a field and $\sigma$ a ring endomorphism of $k$, the ring of skew polynomials $k[X,\sigma]$ is the usual vector space of polynomials over $k$ equipped with the multiplication deduced from the rule $a X = \sigma(a) X$ ($a \in K$)
