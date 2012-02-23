@@ -2,7 +2,7 @@
 
 Reinier Broker, Stefan Erickson, Diane Quan, Colin Weir
 
-== Description == 
+== Description ==
 
 Given an element in a finite extension of Qp and a positive integer n, return the nth root of the element. 
 
