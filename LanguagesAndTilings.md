@@ -7,21 +7,28 @@ You can subscribe to the associated [[https://lma.metelu.net/mailman/listinfo/sa
 
 == Structure ==
 
-The main structure should go in the patch [[http://trac.sagemath.org/sage_trac/ticket/12224|#12224]]. Up to now the code is a bit dissaminated everywhere in Sage:
+The refactorization of the current code should go in the patch [[http://trac.sagemath.org/sage_trac/ticket/12224|#12224]] which is almost done. Up to now the code is a bit dissaminated everywhere in Sage:
 
- * sage.categories.languages
- * sage.categories.factorial_languages
- * sage.categories.shifts
- * sage.categories.examples.languages
- * sage.monoids.free_monoid
- * sage.combinat.languages.*
- * sage.combinat.words.*
- * sage.dynamics.symbolic.full_shift
+ * sage.categories
+   * .languages: A language is a subset of A^N where A is a set called alphabet. It is naturally graded by N and the grading is called the length.
+   * .factorial_languages: category of factorial languages
+   * .shifts: the category of shift
+ * sage.combinat.words
+   * data structure for finite and infinite words
+ * sage.monoids
+   * .free_monoid: the free monoid (replaces sage.combinat.words.words.Words)
+   * .free_monoid_morphism (replaces sage.combinat.words.morphism.WordMorphism)
+ * sage.dynamics.symbolic
+   * .full_shift: an implementation of the full shift (replaces sage.combinat.words.words.Words)
+ * sage.combinat.languages
+   * implementation of different languages
+   * specific data structure (suffix tree/trie, rauzy graph, return tree, ...)
 
 What is bad/nice with categories:
  * inheritance of generic code
  * a bit confusing for the user who want to find the implementation of a method
  * confusing for the person who writes the code and ask "where should I put this ?"
+ * ...
 
 What do we keep? What categories do we create?
 
@@ -38,6 +45,8 @@ Two possibilities:
  1. test the first XXX letters for finding a difference. If find one then returns False otherwise raise an error, "seems to be equal use .is_equal(force=True) to launch the infinite test".
 
  2. test all letters and never return True
+
+Other suggestions ?
 
 == Subprojects ==
 
@@ -63,9 +72,10 @@ which should go in the main trac ticket
  * words path (currently in sage.combinat.words.paths) which have to be modified to fit with the new implementation
 
 other todos
+ * specific data structure rauzy graphs and return tree (Thierry)
  * 1-dim subshift of finite type / sofic
  * n-dim finite words and n-dimensional shifts
  * n-dim subshifts of finite type
  * n-dim substitutive subshift
  * cellular automata
- * ...
+ * ... ''add your whishes''
