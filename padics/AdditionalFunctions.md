@@ -6,7 +6,7 @@
  * ''Background'' -- 
  * ''Contributors'' -- Mitchell Owen
  * ''Progress'' -- Artin-Hasse mostly done, gamma function in progress
- * ''Related Tickets'' -- 12560
+ * ''Related Tickets'' -- [[http://trac.sagemath.org/sage_trac/ticket/12560|#12560]]
 
 == Discussion ==
 
