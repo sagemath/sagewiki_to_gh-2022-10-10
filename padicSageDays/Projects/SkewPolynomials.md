@@ -6,7 +6,7 @@ Xavier Caruso, Jérémy Le Borgne
 
 === Description ===
 
-If $k$ is a field and $\sigma$ a ring endomorphism of $k$, the ring of skew polynomials $k[X,\sigma]$ is the usual vector space of polynomials over $k$ equipped with the multiplication deduced from the rule $a X = \sigma(a) X$ ($a \in K$)
+If $k$ is a field and $\sigma$ a ring endomorphism of $k$, the ring of skew polynomials $k[X,\sigma]$ is the usual vector space of polynomials over $k$ equipped with the multiplication deduced from the rule $X a = \sigma(a) X$ ($a \in K$)
 
 This ring is closely related to $\sigma$-modules over $k$ and, consequently, to Galois representations.
 
