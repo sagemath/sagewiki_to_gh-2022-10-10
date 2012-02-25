@@ -78,13 +78,15 @@ They will be useful to define eventually periodic directive words for adic langu
 
 == TODO list ==
 
-which should go in the main trac ticket #12224:
+for #12224:
  * implement a simple example of factorial languages in sage.categories.example.factorial_languages.py
+ * think about naming convention. For example, to get the subset of words of length n of a language L, do you prefer L.subset(n=4) or L.subset(length=4)
+ * be sure that the methods in sage.categories.languages.ElementMethods are as minimal as possible
  * words path (currently in sage.combinat.words.paths) which have to be modified to fit with the new implementation
  * backward compatibility with the previous implementation (in particular with respect to pickling)
- * make difference between finite/infinite/enumerated/ordered alphabet (in particular with respect to the category initialization)
+ * make difference between finite/infinite/enumerated/ordered alphabet (in particular when the parents are initialized with a specific category)
 
-other todos for other tickets
+for other tickets:
  * specific data structure rauzy graphs and return tree (Thierry)
  * 1-dim subshift of finite type / sofic
  * n-dim finite words and n-dimensional shifts
