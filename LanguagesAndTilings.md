@@ -21,7 +21,7 @@ The refactorization of the current code should go in the patch [[http://trac.sag
 
  * sage.categories: Most of the generic code is contained there.
    * .languages: A language is a subset of A^* where A is a set called alphabet. It is naturally graded by N and the grading is called the length.
-   * .factorial_languages: category of factorial languages (= language stable under taking factors)
+   * .factorial_languages: category of factorial languages (= language stable under taking factors) task taken by ThierryMonteil
    * .shifts: the category of shift A^G where G is almost anything and A is a set called alphabet
  * sage.combinat.words
    * data structure for finite and infinite words
