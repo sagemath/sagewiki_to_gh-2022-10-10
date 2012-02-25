@@ -21,7 +21,7 @@ The refactorization of the current code should go in the patch [[http://trac.sag
 
  * sage.categories: Most of the generic code is contained there.
    * .languages: A language is a subset of A^* where A is a set called alphabet. It is naturally graded by N and the grading is called the length.
-   * .factorial_languages: category of factorial languages (= language stable under taking factors) task taken by ThierryMonteil
+   * .factorial_languages: category of factorial languages (= language stable under taking factors)
    * .shifts: the category of shift A^G where G is almost anything and A is a set called alphabet
  * sage.combinat.words
    * data structure for finite and infinite words
@@ -79,10 +79,11 @@ They will be useful to define eventually periodic directive words for adic langu
 == TODO list ==
 
 for #12224:
- * implement a simple example of factorial languages in sage.categories.example.factorial_languages.py
+ * update factorial langages, with doc and tests: task taken by ThierryMonteil
+ * implement a simple example of factorial languages in sage.categories.example.factorial_languages.py : task taken by ThierryMonteil
  * think about naming convention. For example, to get the subset of words of length n of a language L, do you prefer L.subset(n=4) or L.subset(length=4)
  * be sure that the methods in sage.categories.languages.ElementMethods are as minimal as possible
- * words path (currently in sage.combinat.words.paths) which have to be modified to fit with the new implementation
+ * words path (currently in sage.combinat.words.paths) which have to be modified to fit with the new implementation (question: should we do this right now ?)
  * backward compatibility with the previous implementation (in particular with respect to pickling)
  * make difference between finite/infinite/enumerated/ordered alphabet (in particular when the parents are initialized with a specific category)
 
