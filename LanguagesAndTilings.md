@@ -9,19 +9,19 @@ You can subscribe to the associated [[https://lma.metelu.net/mailman/listinfo/sa
 
 The refactorization of the current code should go in the patch [[http://trac.sagemath.org/sage_trac/ticket/12224|#12224]] which is almost done. Up to now the code is a bit dissaminated everywhere in Sage:
 
- * sage.categories
-   * .languages: A language is a subset of A^N where A is a set called alphabet. It is naturally graded by N and the grading is called the length.
-   * .factorial_languages: category of factorial languages
-   * .shifts: the category of shift
+ * sage.categories: Most of the generic code is contained there.
+   * .languages: A language is a subset of A^* where A is a set called alphabet. It is naturally graded by N and the grading is called the length.
+   * .factorial_languages: category of factorial languages (= language stable under taking factors)
+   * .shifts: the category of shift A^G where G is almost anything and A is a set called alphabet
  * sage.combinat.words
    * data structure for finite and infinite words
  * sage.monoids
-   * .free_monoid: the free monoid (replaces sage.combinat.words.words.Words)
-   * .free_monoid_morphism (replaces sage.combinat.words.morphism.WordMorphism)
+   * .free_monoid: the free monoid (replaces part of sage.combinat.words.words.Words)
+   * .free_monoid_morphism: (replaces sage.combinat.words.morphism.WordMorphism)
  * sage.dynamics.symbolic
-   * .full_shift: an implementation of the full shift (replaces sage.combinat.words.words.Words)
+   * .full_shift: an implementation of the full shift (replaces part of sage.combinat.words.words.Words)
  * sage.combinat.languages
-   * implementation of different languages
+   * implementation of different languages (balanced, language of a finite word, ...)
    * specific data structure (suffix tree/trie, rauzy graph, return tree, ...)
 
 What is bad/nice with categories:
@@ -70,8 +70,10 @@ They will be useful to define eventually periodic directive words for adic langu
 
 which should go in the main trac ticket
  * words path (currently in sage.combinat.words.paths) which have to be modified to fit with the new implementation
+ * backward compatibility with the previous implementation (in particular with respect to pickling)
+ * make difference between finite/infinite/enumerated/ordered alphabet (in particular with respect to the category initialization)
 
-other todos
+other todos for other tickets
  * specific data structure rauzy graphs and return tree (Thierry)
  * 1-dim subshift of finite type / sofic
  * n-dim finite words and n-dimensional shifts
