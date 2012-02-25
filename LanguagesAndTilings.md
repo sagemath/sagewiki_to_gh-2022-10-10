@@ -5,6 +5,16 @@ This page gathers ideas for refactorization of sage.combinat.words and implement
 
 You can subscribe to the associated [[https://lma.metelu.net/mailman/listinfo/sage-words|mailing-list]] to discuss about this.
 
+== How do I implement my language ? my tiling ? ==
+
+There are different places to look at for examples:
+ * sage.categories.examples.languages: two examples of languages. PalindromicLanguages (the language of palindromes) and UniformMonoid (the submonoid of the free monoid on {a,b} that contains as many a as b).
+ * sage.categories.examples.factorial_languages: ??? (need an example)
+ * sage.monoids.free_monoid: implementation of the free monoid.
+ * sage.combinat.languages.*: where most implementation of languages should go.
+
+For tilings, there is not yet examples.
+
 == Structure ==
 
 The refactorization of the current code should go in the patch [[http://trac.sagemath.org/sage_trac/ticket/12224|#12224]] which is almost done. Up to now the code is a bit dissaminated everywhere in Sage:
@@ -68,7 +78,8 @@ They will be useful to define eventually periodic directive words for adic langu
 
 == TODO list ==
 
-which should go in the main trac ticket
+which should go in the main trac ticket #12224:
+ * implement a simple example of factorial languages in sage.categories.example.factorial_languages.py
  * words path (currently in sage.combinat.words.paths) which have to be modified to fit with the new implementation
  * backward compatibility with the previous implementation (in particular with respect to pickling)
  * make difference between finite/infinite/enumerated/ordered alphabet (in particular with respect to the category initialization)
