@@ -108,6 +108,7 @@ for #12224:
  * update factorial langages, with doc and tests: task taken by ThierryMonteil
  * implement a simple example of factorial languages in sage.categories.example.factorial_languages.py : task taken by ThierryMonteil
  * think about naming convention. For example, to get the subset of words of length n of a language L, do you prefer L.subset(n=4) or L.subset(length=4): task taken by VincentDelecroix
+ * make a dedicated class for palindromic closures
  * be sure that the methods in sage.categories.languages.ElementMethods are as minimal as possible
  * words path (currently in sage.combinat.words.paths) which have to be modified to fit with the new implementation (question: should we do this right now ?)
  * backward compatibility with the previous implementation (in particular with respect to pickling)
