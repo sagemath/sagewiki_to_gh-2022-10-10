@@ -40,7 +40,7 @@ What is bad/nice with categories:
  * confusing for the person who writes the code and ask "where should I put this ?"
  * ...
 
-What do we keep? What categories do we create?
+What do we keep? What categories do we create? Do we provide a default _element_constructor_ in the category (if yes, it is highly incompatible with facade)?
 
 == Behavior of algorithms with infinite input data ==
 
@@ -76,12 +76,38 @@ There are many algorithms for languages described by a sequence of substitutions
 
 They will be useful to define eventually periodic directive words for adic languages. See [[http://trac.sagemath.org/sage_trac/ticket/12228|#12228]].
 
+== Naming convention / duplication ==
+
+=== Parikh vector, evaluation, abelianization ===
+
+The name '''abelianization''' is the most generic one. '''Parikh vector''' is standard in word combinatorics. '''Evaluation''' is mainly used in combinatorics.
+
+Notice that evaluation is formally a composition, in other words the alphabet should be finite and ordered.
+
+=== Pattern matching ===
+
+Algorithms for pattern matching may be optimized in subclasses. Hence, we should pay attention for function of low and high level.
+
+1) Each algorithm has some precomputations. The actual implementation uses Boyer-Moore algorithm and provides methods
+  * last_position_dict
+  * prefix_function_table
+  * good_suffix_table
+  But the results are cached which may be very expansive in memory!
+
+2) low level routines:
+  * x.first_pos_in(y,p): research of the first occurence of x in y from position p. The precomputations for x can be made in a generic way whereas the research depends mainly on the datastructure of y. I suggest to rename it into y.first_pos(x). That way, it should be easy to implement low level routines.
+  * x.factor_occurences_iterator(y) which is renamed into x.occurence_iterator(y,start,end): return a generator for the position of the occurences of y in x. The generic implementation uses Boyer-Moore algorithm.
+
+3) high level routines:
+ * x.return_word_iterator(y): cut x into return word of y.
+ * x.coding_by_return_words(y): cut x into return words of y and return it as a word x0.x1.x2. ... where each xi is a word which contains exactly one occurence of y as a prefix and these are the only occurences of y in x.
+
 == TODO list ==
 
 for #12224:
  * update factorial langages, with doc and tests: task taken by ThierryMonteil
  * implement a simple example of factorial languages in sage.categories.example.factorial_languages.py : task taken by ThierryMonteil
- * think about naming convention. For example, to get the subset of words of length n of a language L, do you prefer L.subset(n=4) or L.subset(length=4)
+ * think about naming convention. For example, to get the subset of words of length n of a language L, do you prefer L.subset(n=4) or L.subset(length=4): task taken by VincentDelecroix
  * be sure that the methods in sage.categories.languages.ElementMethods are as minimal as possible
  * words path (currently in sage.combinat.words.paths) which have to be modified to fit with the new implementation (question: should we do this right now ?)
  * backward compatibility with the previous implementation (in particular with respect to pickling)
