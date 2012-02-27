@@ -3,8 +3,8 @@
 == March 17-22, University of Washington ==
 
 The purpose of this workshop will be twofold.
-* Review some of the 275 tickets currently needing review.
-* Improve Sage's review and testing infrastructure.  This may include setting up a system that allows line by line comments (like Google's internal Perforce system, or the open source versions Rietveld or Review Board), requiring authors of tickets to suggest a reviewer and setting up systems to provide defaults, fixing patchbot and finishing the new doctesting code (#12415)
+ * Review some of the 275 tickets currently needing review.
+ * Improve Sage's review and testing infrastructure.  This may include setting up a system that allows line by line comments (like Google's internal Perforce system, or the open source versions Rietveld or Review Board), requiring authors of tickets to suggest a reviewer and setting up systems to provide defaults, fixing patchbot and finishing the new doctesting code (#12415)
 
 === Funding ===
 
