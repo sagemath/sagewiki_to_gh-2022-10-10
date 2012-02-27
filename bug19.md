@@ -6,7 +6,7 @@ The aim of this workshop is to find and fix bugs in the Sage library.  It will b
 
 === Funding ===
 
-Funding is still available: e-mail David Roe (roed.math@gmail.com) for more details.
+Funding is still available: e-mail David Roe for more details.
 
 === Participants ===
 
