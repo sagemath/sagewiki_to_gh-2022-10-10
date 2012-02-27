@@ -1,4 +1,4 @@
-= Sage Bug Days 19: Seattle, WA =
+= Sage Doc Days 6: Seattle, WA =
 
 == April 17-22, University of Washington ==
 
@@ -23,3 +23,7 @@ The following people are likely to participate
  * Keshav Kini (Nanyang Technological University)
  * David Roe (University of Calgary)
  * William Stein (University of Washington)
+
+=== Lodging ===
+
+Participants will stay at the Collegiana Inn -- 4311 - 12th Ave. NE Seattle, WA.
