@@ -2,7 +2,10 @@
 
 == April 17-22, University of Washington ==
 
-The aim of this workshop is to improve Sage's documentation.  It will be held at the University of Washington.
+The goals for this workshop will be:
+ * Improve Sage's doctest coverage
+ * Restructure Sage's documentation and help to be more useful and friendly to new users
+ * Write more documentation
 
 === Funding ===
 
