@@ -23,10 +23,13 @@ The conference is organized by
 
 The following people are likely to participate
 
- * Jon Bober (University of Washington)
  * Jen Balakrishnan (Harvard University)
- * Karl-Dieter Crisman (Gordon College)
+ * Rob Beezer (University of Puget Sound)
+ * Jon Bober (University of Washington)
+ * Tom Boothby (Simon Frasier University)
+ * Robert Bradshaw (Google)
  * Keshav Kini (Nanyang Technological University)
+ * Martin Raum (Max Planck Institute for Mathematics)
  * David Roe (University of Calgary)
  * William Stein (University of Washington)
 
