@@ -100,7 +100,7 @@ Algorithms for pattern matching may be optimized in subclasses. Hence, we should
 
 3) high level routines:
  * x.return_word_iterator(y): cut x into return word of y.
- * x.coding_by_return_words(y): cut x into return words of y and return it as a word x0.x1.x2. ... where each xi is a word which contains exactly one occurence of y as a prefix and these are the only occurences of y in x.
+ * x.return_word_coding(y): cut x into return words of y and return it as a word x0.x1.x2. ... where each xi is a word which contains exactly one occurence of y as a prefix and these are the only occurences of y in x. The word x can be reconstructed as the concatenation of the xi.
 
 == TODO list ==
 
