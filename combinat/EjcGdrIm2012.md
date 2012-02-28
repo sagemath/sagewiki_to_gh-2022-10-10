@@ -1,8 +1,13 @@
+## page was renamed from combinat/EjcGdrIm2012EJC
 = Organisation EJC Rennes =
 
  * Install party ?
 
- * cle usb live ?
+ * cle usb live ? (en cours, Anne)
+
+ * internet dans la salle de TP ? routeur wifi ?
+
+ * feuilles de travail ? combien ? qui les prépare ?
 
 Cours prevus dans lequel nous pouvons intervenir
 
