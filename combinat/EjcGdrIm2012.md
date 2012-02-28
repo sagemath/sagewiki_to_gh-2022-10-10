@@ -7,6 +7,8 @@
 
  * internet dans la salle de TP ? routeur wifi ?
 
+ * combien de séances ? quel programme ? quel format ?
+
  * feuilles de travail ? combien ? qui les prépare ?
 
 Cours prevus dans lequel nous pouvons intervenir
