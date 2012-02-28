@@ -22,7 +22,6 @@ The following people are likely to participate
 
  * Jon Bober (University of Washington)
  * Jen Balakrishnan (Harvard University)
- * Karl-Dieter Crisman (Gordon College)
  * Keshav Kini (Nanyang Technological University)
  * David Roe (University of Calgary)
  * William Stein (University of Washington)
