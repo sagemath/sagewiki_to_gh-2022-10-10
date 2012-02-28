@@ -1,6 +1,8 @@
 ## page was renamed from combinat/EjcGdrIm2012EJC
 = Organisation EJC Rennes =
 
+Page de l'école jeunes chercheurs: [[http://ejcim2012.irisa.fr/index.html|EJCIM2012]].
+
  * Install party ?
 
  * cle usb live ? (en cours, Anne)
