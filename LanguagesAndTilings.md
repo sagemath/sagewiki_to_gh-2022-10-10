@@ -9,11 +9,12 @@ You can subscribe to the associated [[https://lma.metelu.net/mailman/listinfo/sa
 
 There are different places to look at for examples:
  * sage.categories.examples.languages: two examples of languages. PalindromicLanguages (the language of palindromes) and UniformMonoid (the submonoid of the free monoid on {a,b} that contains as many a as b).
- * sage.categories.examples.factorial_languages: ??? (need an example)
+ * sage.categories.examples.factorial_languages: ??? (need an example, Thierry is on)
  * sage.monoids.free_monoid: implementation of the free monoid.
  * sage.combinat.languages.*: where most implementation of languages should go.
 
-For tilings, there is not yet examples.
+For shifts and tilings, there is (up to now) almost nothing:
+ * sage.dynamics.symbolic.full_shift: the full shift
 
 == Structure ==
 
@@ -22,9 +23,10 @@ The refactorization of the current code should go in the patch [[http://trac.sag
  * sage.categories: Most of the generic code is contained there.
    * .languages: A language is a subset of A^* where A is a set called alphabet. It is naturally graded by N and the grading is called the length.
    * .factorial_languages: category of factorial languages (= language stable under taking factors)
-   * .shifts: the category of shift A^G where G is almost anything and A is a set called alphabet
+   * .shifts: the category of shift A^G (where G is a semigroup for which the operation x -> gx is injective for any g in G and A is a set called alphabet)
  * sage.combinat.words
    * data structure for finite and infinite words
+   * backward compatibility with the previous version
  * sage.monoids
    * .free_monoid: the free monoid (replaces part of sage.combinat.words.words.Words)
    * .free_monoid_morphism: (replaces sage.combinat.words.morphism.WordMorphism)
