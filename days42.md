@@ -4,7 +4,7 @@
 
  * July 15-19, 2012 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]]
  * Note: check-in at the Lodge is at 3pm on July 15; check-out is 11am on the 19th
- * Floorplan: [[attachment:floorplan.jpg]] (15 beds) and 
+ * Floorplan: [[attachment:floorplan.jpg]] (15 beds)  
 
 
 == Other Info ==
