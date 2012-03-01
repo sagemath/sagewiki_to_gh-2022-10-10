@@ -22,6 +22,7 @@ The following people are likely to participate
  * Volker Braun (Dublin Institute for Advanced Study)
  * Karl-Dieter Crisman (Gordon College)
  * Dan Drake (Korea Advanced Institute of Science and Technology)
+ * Benjamin Jones (University of Wisconsin-Stout)
  * Keshav Kini (Nanyang Technological University)
  * Andrey Novoseltsev (University of Alberta)
  * Martin Raum (Max Planck Institute for Mathematics)
