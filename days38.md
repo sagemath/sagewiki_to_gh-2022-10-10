@@ -24,9 +24,11 @@ combinatorics and the representation theory of algebras.
 Location and Date
 -----------------
 
- * `Centre de recherche mathématique`__, Montréal, Quebec, May 7-11, 2012.
+* `Centre de recherche mathématique`__, Montréal, Quebec, May 7-11, 2012.
+* `Official CRM website for this event`__
 
 __ http://www.crm.umontreal.ca/
+__ http://www.crm.umontreal.ca/2012/Sage12/index_e.php
 
 Invited speakers
 ----------------
@@ -54,19 +56,25 @@ research projects.
 Registration and financial support
 ----------------------------------
 
-Online registration will be available starting at the end of
-February through the official CRM website. In the meantime,
-you can express your intention to participate by completing
-the following questionnaire:
+*Online registration* will be handled by the official CRM website for this event:
 
- * `Questionnaire / Intention to participate`__
+* `Online registration`__
+
+__ http://www.crm.umontreal.ca/2012/Sage12/index_e.php
+
+*Questionnaire.* In addition to the online registration, we also ask that you complete the following questionnaire:
+
+* `Questionnaire / Intention to participate`__
 
 __ https://docs.google.com/spreadsheet/viewform?formkey=dGVWdVpHbWdlaUgwWkhjNHpPbGp3TkE6MA
 
-A limited amount of financial support is available for students, postdocs, and
-researchers without grants. You can register and apply for financial support
-through the official CRM website for the conference (not yet available).
+*Financial support.*
+A limited amount of financial support is available for students and postdocs.
+Requests for financial support can be made through the official CRM website for the conference.
 
+* `Request for financial support`__
+
+__ http://www.crm.umontreal.ca/2012/Sage12/aid_e.php
 
 Organizing committee
 --------------------
