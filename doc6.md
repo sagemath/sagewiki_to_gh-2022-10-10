@@ -23,6 +23,7 @@ The following people are likely to participate
  * Jon Bober (University of Washington)
  * Jen Balakrishnan (Harvard University)
  * Keshav Kini (Nanyang Technological University)
+ * R. Andrew Ohana (University of Washington)
  * John Palmieri (University of Washington)
  * David Roe (University of Calgary)
  * William Stein (University of Washington)
