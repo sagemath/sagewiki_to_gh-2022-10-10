@@ -44,6 +44,8 @@ What is bad/nice with categories:
 
 What do we keep? What categories do we create? Do we provide a default _element_constructor_ in the category (if yes, it is highly incompatible with facade)?
 
+In a next future we should think about mutability/immutability.
+
 == Behavior of algorithms with infinite input data ==
 
 What to do for equality of infinite words ?
