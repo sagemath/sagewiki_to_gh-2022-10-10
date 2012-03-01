@@ -29,7 +29,6 @@ The following people are likely to participate
  * Tom Boothby (Simon Frasier University)
  * Robert Bradshaw (Google)
  * Keshav Kini (Nanyang Technological University)
- * Martin Raum (Max Planck Institute for Mathematics)
  * David Roe (University of Calgary)
  * William Stein (University of Washington) -- but will be gone March 20 to ICERM.
 
