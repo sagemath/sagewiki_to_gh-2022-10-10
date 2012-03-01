@@ -26,7 +26,7 @@ The following people are likely to participate
  * Jen Balakrishnan (Harvard University)
  * Rob Beezer (University of Puget Sound)
  * Jon Bober (University of Washington)
- * Tom Boothby (Simon Frasier University)
+ * Tom Boothby (Simon Fraser University)
  * Robert Bradshaw (Google)
  * Keshav Kini (Nanyang Technological University)
  * David Roe (University of Calgary)
