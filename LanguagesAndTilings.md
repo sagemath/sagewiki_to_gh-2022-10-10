@@ -56,7 +56,7 @@ Two possibilities:
 
  1. test the first XXX letters for finding a difference. If find one then returns False otherwise raise an error, "seems to be equal use .is_equal(force=True) to launch the infinite test".
 
- 2. test all letters and never return True
+ 2. test all letters and never return True in case of equality
 
 Other suggestions ?
 
@@ -90,19 +90,51 @@ Notice that evaluation is formally a composition, in other words the alphabet sh
 
 Algorithms for pattern matching may be optimized in subclasses. Hence, we should pay attention for function of low and high level.
 
-1) Each algorithm has some precomputations. The actual implementation uses Boyer-Moore algorithm and provides methods
-  * last_position_dict
-  * prefix_function_table
-  * good_suffix_table
-  But the results are cached which may be very expansive in memory!
+Vincent proposes to use the following conventions for low-level routines. As it is questions to implement them in C in a near future, this question is crucial:
 
-2) low level routines:
-  * x.first_pos_in(y,p): research of the first occurence of x in y from position p. The precomputations for x can be made in a generic way whereas the research depends mainly on the datastructure of y. I suggest to rename it into y.first_pos(x). That way, it should be easy to implement low level routines.
-  * x.factor_occurences_iterator(y) which is renamed into x.occurence_iterator(y,start,end): return a generator for the position of the occurences of y in x. The generic implementation uses Boyer-Moore algorithm.
+  * ''x.find(y [,start [,end]])'': search the first occurrence of y in x[start:end]. Returns the position of the occurrence or -1 in case of failure.
+  * ''x.rfind(y [,start [,end]])'': search backward the first occurrence of y in x[start:end]. Returns the position of the occurrence or -1 in case of failure (not available for infinite word).
+  * ''x.find_iter(y, [,start [,end]])'': return an iterator over the position of occurences of y in x[start:end].
+  * ''x.rfind_iter(y, [,start [,end]])'': idem but backward (not available for infinite word).
+  * ''x.find_all(y, [,start [,end]])'': return the list of occurrence of y in x[start:end].
+  * ''x.count(y [,start [,end]])'': count how many occurences of y there are in x[start:end].
 
-3) high level routines:
- * x.return_word_iterator(y): cut x into return word of y.
- * x.return_word_coding(y): cut x into return words of y and return it as a word x0.x1.x2. ... where each xi is a word which contains exactly one occurence of y as a prefix and these are the only occurences of y in x. The word x can be reconstructed as the concatenation of the xi.
+There is also the question of multiple matchings and more generally about regular expressions.
+
+The actual implementation of pattern matching uses Boyer-Moore algorithm which needs some precomputation for ''y'': last_position_dict, prefix_function_table, good_suffix_table. All theses precomputations are cached_method of a word which may be memory consuming and not very efficient as the following code actually calls twice the precomputation:
+{{{
+sage: w1 = Word('abbabaabaaababa', alphabet='ab')
+sage: w2 = Word('abababaaaa', alphabet='ab')
+sage: w1.find('aa')
+5
+sage: w2.find('aa')
+6
+}}}
+Vincent proposes to move all precomputation in a module dedicated to pattern matching and to '''not''' use caching except if the user want to perform many search of ''y'' in many different ''x''. In which case we should do something like that:
+{{{
+sage: w = Word('ab', alphabet='ab')
+sage: f = Finder(w)
+sage: f.match(Word('abbababaababbbbababab', alphabet='ab'))
+...
+}}}
+
+=== Repetitions and exponents ===
+
+see also #
+
+Actual names
+ * minimal_period
+ * exponent
+ * has_period
+ * period([divide_length])
+ * order
+ * critical_exponent
+ * primitive_length
+ * is_primitive
+ * primitive
+ * is_overlap
+
+The actual method ''crochemore_factorization'' is badly implemented. As far as Vincent understand, the only interest 
 
 == TODO list ==
 
