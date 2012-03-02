@@ -25,6 +25,7 @@ The following people are likely to participate
  * Dan Drake (Korea Advanced Institute of Science and Technology)
  * Benjamin Jones (University of Wisconsin-Stout)
  * Keshav Kini (Nanyang Technological University)
+ * Doug McNeil
  * Andrey Novoseltsev (University of Alberta)
  * David Roe (University of Calgary)
  * Julian Ruth (Leibniz University)
