@@ -26,7 +26,6 @@ The following people are likely to participate
  * Benjamin Jones (University of Wisconsin-Stout)
  * Keshav Kini (Nanyang Technological University)
  * Andrey Novoseltsev (University of Alberta)
- * Martin Raum (Max Planck Institute for Mathematics)
  * David Roe (University of Calgary)
  * Julian Ruth (Leibniz University)
  * William Stein (University of Washington)
