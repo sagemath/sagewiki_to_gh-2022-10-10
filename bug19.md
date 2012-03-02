@@ -21,6 +21,7 @@ The following people are likely to participate
  * Jon Bober (University of Washington)
  * Volker Braun (Dublin Institute for Advanced Study)
  * Karl-Dieter Crisman (Gordon College)
+ * Jeroen Demeyer (Ghent University, Belgium)
  * Dan Drake (Korea Advanced Institute of Science and Technology)
  * Benjamin Jones (University of Wisconsin-Stout)
  * Keshav Kini (Nanyang Technological University)
