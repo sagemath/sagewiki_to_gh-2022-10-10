@@ -1,9 +1,11 @@
 {{{#!rst
 
-Equality and Coercion could be harmful
-======================================
+Equality using Coercion considered harmful?
+===========================================
 
-The goal of this page is to gather all problems due to equality accepting coercion in borderline cases::
+Currently, Sage specifies that, upon comparing with ``a==b`` two objects `a` and `b` that do not have the same parent, a coercion is attempted to put them in the same parent. To prepare a discussion on whether that specification is viable in the long run, we are gathering here (borderline?) use cases where this behaviour is harmful.
+
+::
 
     sage: bool(pi == 3.14159265358979323)
     True
@@ -12,7 +14,7 @@ The goal of this page is to gather all problems due to equality accepting coerci
     sage: hash(3.14159265358979323)
     1826823505
 
-But gathered from Python 2.7 documentation::
+However Python 2.7 documentation specifies::
 
     object.__hash__(self)
     Called by built-in function hash() and for operations on members of hashed collections including set,
@@ -53,8 +55,8 @@ More strange consequences when using UniqueRepresentation
     [0.000000000000000]
     sage: 
 
-Sage's current specifications clashes with Python's specifications
-------------------------------------------------------------------
+An example showing that Sage's specifications clashes with Python's specifications
+------------------------================------------------------------------------
 
 ::
 
@@ -71,5 +73,3 @@ coercion. However enforcing that the two hash functions be the same
 would be simply impossible: this would force to systematically coerce
 any symmetric function to some fixed base for computing the hash
 function, and we just can't afford that.
-
-}}}
