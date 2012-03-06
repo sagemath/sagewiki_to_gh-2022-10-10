@@ -56,7 +56,7 @@ More strange consequences when using UniqueRepresentation
     sage: 
 
 An example showing that Sage's specifications clashes with Python's specifications
-------------------------================------------------------------------------
+----------------------------------------------------------------------------------
 
 ::
 
