@@ -30,3 +30,7 @@ The following people are likely to participate
  * David Roe (University of Calgary)
  * Julian Ruth (Leibniz University)
  * William Stein (University of Washington)
+
+The following people are likely to participate remotely:
+
+ * Paul Zimmerman (INRIA Lorraine)
