@@ -53,4 +53,23 @@ More strange consequences when using UniqueRepresentation
     [0.000000000000000]
     sage: 
 
+Sage's current specifications clashes with Python's specifications
+------------------------------------------------------------------
+
+::
+
+    sage: S = SymmetricFunctions(QQ)
+    sage: x = S.s()[5]
+    sage: y = S.p()(x)
+    sage: x == y
+    True
+    sage: hash(x), hash(y)
+    (-1840429907820881728, 5178019317311573726)
+
+It's surely syntactically nice to have x == y evaluate True after a
+coercion. However enforcing that the two hash functions be the same
+would be simply impossible: this would force to systematically coerce
+any symmetric function to some fixed base for computing the hash
+function, and we just can't afford that.
+
 }}}
