@@ -73,3 +73,5 @@ coercion. However enforcing that the two hash functions be the same
 would be simply impossible: this would force to systematically coerce
 any symmetric function to some fixed base for computing the hash
 function, and we just can't afford that.
+
+}}}
