@@ -33,4 +33,4 @@ The following people are likely to participate
 
 The following people are likely to participate remotely:
 
- * Paul Zimmerman (INRIA Lorraine)
+ * Paul Zimmerman (Inria Nancy - Grand Est)
