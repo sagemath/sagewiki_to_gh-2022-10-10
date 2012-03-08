@@ -126,3 +126,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * [[http://combinat.sagemath.org/misc/file/tip|Mercurial server for miscelleanous files and documents]] ([[http:/combinat/MiscServer|Usage instructions]])
 
  * [[combinat/HelpOnTheDoc|Some tips and tricks about the documentation system]]
+
+== Links ==
+
+ * The [[http://www.mat.univie.ac.at/~slc/divers/software.html|Combinatorial Software and Databases]] web page maintained by Christian Krattenthaler
