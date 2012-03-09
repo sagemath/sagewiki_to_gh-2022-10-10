@@ -1,5 +1,7 @@
 = Sage Days 42: Women in Sage (3) =
  
+Seoul
+
 == Dates/Location ==
 
  * July 15-19, 2012 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]]
