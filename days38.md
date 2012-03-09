@@ -83,4 +83,32 @@ Organizing committee
 * Sébastien Labbé, Université du Québec à Montréal
 * Franco Saliola, Université du Québec à Montréal
 
+Preliminary Schedule
+--------------------
+
+    +-----+--------------+--------------+--------------+--------------+--------------+
+    |     |MONDAY        |TUESDAY       |WEDNESDAY     |THURSDAY      |FRIDAY        |
+    +=====+==============+==============+==============+==============+==============+
+    |09h00|Introduction  |Talk: Solberg |Flash         |Flash         |Open          |
+    |     |              |              |Presentations |Presentations |Presentations |
+    +-----+--------------+--------------+--------------+--------------+--------------+
+    |10h00|Coffee Break  |Coffee Break  |Coffee Break  |Coffee Break  |Coffee Break  |
+    +-----+--------------+--------------+--------------+--------------+--------------+
+    |10h30|Tour de Table |Talk: Geck    |Flash         |Flash         |Open          |
+    |     |and           |              |Presentations |Presentations |Presentations |
+    |     |Installations |              |              |              |              |
+    +-----+--------------+--------------+--------------+--------------+--------------+
+    |11h30|Tutorial I    |Tutorial III  |Tutorial I    |Tutorial I    |Tutorial I    |
+    +-----+--------------+--------------+--------------+--------------+--------------+
+    |12h30|Lunch         |Lunch         |Lunch         |Lunch         |Lunch         |
+    +-----+--------------+--------------+--------------+--------------+--------------+
+    |14h30|Tutorial II   |Coding Sprints|Coding Sprints|Coding Sprints|Coding Sprints|
+    +-----+--------------+--------------+--------------+--------------+--------------+
+    |17h00|Status Reports|Status Reports|Status Reports|Status Reports|Status Reports|
+    +-----+--------------+--------------+--------------+--------------+--------------+
+    |17h30|Dinner        |Dinner        |Dinner        |Dinner        |Dinner        |
+    +-----+--------------+--------------+--------------+--------------+--------------+
+    |19h00|Special Event?|Coding Sprints|Coding Sprints|Coding Sprints|Coding Sprints|
+    +-----+--------------+--------------+--------------+--------------+--------------+
+
 }}}
