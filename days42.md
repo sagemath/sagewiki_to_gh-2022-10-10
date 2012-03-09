@@ -1,6 +1,5 @@
 = Sage Days 42: Women in Sage (3) =
  
-Seoul
 
 == Dates/Location ==
 
