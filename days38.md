@@ -89,16 +89,17 @@ Preliminary Schedule
     +-----+--------------+--------------+--------------+--------------+--------------+
     |     |MONDAY        |TUESDAY       |WEDNESDAY     |THURSDAY      |FRIDAY        |
     +=====+==============+==============+==============+==============+==============+
-    |09h00|Introduction  |Talk: Solberg |Flash         |Flash         |Open          |
-    |     |              |              |Presentations |Presentations |Presentations |
+    |09h00|Introduction  |Talk          |Talk          |Flash         |Open          |
+    |     |              |              |              |Presentations |Presentations |
     +-----+--------------+--------------+--------------+--------------+--------------+
     |10h00|Coffee Break  |Coffee Break  |Coffee Break  |Coffee Break  |Coffee Break  |
     +-----+--------------+--------------+--------------+--------------+--------------+
-    |10h30|Tour de Table |Talk: Geck    |Flash         |Flash         |Open          |
-    |     |and           |              |Presentations |Presentations |Presentations |
+    |10h30|Tour de Table |Talk          |Talk          |Flash         |Open          |
+    |     |and           |              |              |Presentations |Presentations |
     |     |Installations |              |              |              |              |
     +-----+--------------+--------------+--------------+--------------+--------------+
-    |11h30|Tutorial I    |Tutorial III  |Tutorial I    |Tutorial I    |Tutorial I    |
+    |11h30|Tutorial I    |Tutorial III  |Tutorial IV   |Tutorial V    |Open          |
+    |     |              |              |              |              |Presentations |
     +-----+--------------+--------------+--------------+--------------+--------------+
     |12h30|Lunch         |Lunch         |Lunch         |Lunch         |Lunch         |
     +-----+--------------+--------------+--------------+--------------+--------------+
