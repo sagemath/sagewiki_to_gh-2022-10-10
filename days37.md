@@ -1,4 +1,4 @@
-= Sage Days 37: S e o u l South Korea =
+= Sage Days 37: Seoul South Korea =
 
 == When and where? ==
 
