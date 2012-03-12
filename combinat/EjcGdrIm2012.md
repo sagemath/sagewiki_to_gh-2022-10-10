@@ -15,13 +15,11 @@ Page de l'école jeunes chercheurs: [[http://ejcim2012.irisa.fr/index.html|EJCIM
 
 Cours prevus dans lequel nous pouvons intervenir
 
-== Linguistique des séquences biologiques ==
+== Introduction à Sage ==
 
-Intervenants: François Coste (Inria, IRISA, Rennes) et Jacques Nicolas (Inria, IRISA, Rennes)
+ * [[attachment:introduction_a_sage.sws]]
 
-Jour du cours : lundi
-
-suggestion: BioPython et R via Sage
+ * [[attachment:programming_in_sage.sws]]
 
 == Applications de systèmes dynamiques discrets ==
 
