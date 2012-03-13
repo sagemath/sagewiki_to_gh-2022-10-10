@@ -11,6 +11,8 @@ Si vous débutez avec Sage, nous vous conseillons de faire les feuilles dans l'o
 
  * [[attachment:programming_in_sage.sws]]: utilisation des structures de données de Python (tuple, list, dictionnaires) et programmation (boucle, structures conditionelles, ...).
 
+Vous pouvez aussi télécharger le support de la présentation [[attachment:presentation.pdf]].
+
 == Mercredi: systèmes dynamiques discrets ==
 
 Intervenants : Valérie Berthé (CNRS, LIAFA, Paris), Jérémie Bourdon (Univ. Nantes, Lina, Nantes), Anne Siegel (CNRS, IRISA, Rennes)
