@@ -118,8 +118,8 @@ Tentative list of participants
 Practical information
 =====================
 
-The lodging for most participants will be covered by the
-``Laboratoire de Recherche en Informatique`` d'Orsay and the research network ``Digiteo``. Funding and travel for PHD student and PostDoc is also covered. Food and travel is at the charge of the other participants. 
+The lodging for most participants has been covered by the
+``Laboratoire de Recherche en Informatique`` d'Orsay and the research network ``Digiteo``. Funding and travel for PHD student and PostDoc was also covered (in conjonction with the Laboratoire de Mathématiques d'Orsay). Food and travel was at the charge of the other participants.
 
 
 The Tower can accommodate 8-10 people, and if needed there is another
