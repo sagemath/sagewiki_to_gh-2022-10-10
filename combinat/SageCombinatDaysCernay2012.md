@@ -118,7 +118,7 @@ Tentative list of participants
 Practical information
 =====================
 
-The lodging will be covered by the
+The lodging for most participants will be covered by the
 ``Laboratoire de Recherche en Informatique`` d'Orsay and the research network ``Digiteo``. Funding and travel for PHD student and PostDoc is also covered. Food and travel is at the charge of the other participants. 
 
 
