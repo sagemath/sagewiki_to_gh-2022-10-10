@@ -2,7 +2,7 @@
 
 == When and where? ==
 
-28 April 2012 (so it's more of a "Sage Day"), at the spring [[http://kms.or.kr/|Korean Mathematical Society]] meeting at [[http://www.sookmyung.ac.kr/|Sookmyung Women's University]].
+28 April 2012 (so it's more of a "Sage Day"), at the [[http://www.kms.or.kr/meetings/spring2012/home.htm|spring meeting of the Korean Mathematical Society]] at [[http://www.sookmyung.ac.kr/|Sookmyung Women's University]]. Our session is from 9:00 to 11:40. We hope to provide space in the afternoon for you to experiment and learn about Sage with some expert help.
 
 == Activities ==
 
@@ -17,3 +17,5 @@ For more information, contact:
   * [[http://www.chosun.ac.kr/~kwankyu/index.html|Kwankyu Lee (이관규)]]
 
 == Participants ==
+
+  * [[ http://buzzard.pugetsound.edu/|Rob Beezer]]
