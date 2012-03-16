@@ -4,13 +4,15 @@ goto [[interact|interact main page]]
 <<TableOfContents>>
 
 {{{#!html
-<b>html test!</b>
+<script type="text/javascript" src="http://aleph.sagemath.org/static/jquery.min.js"></script>
+<script type="text/javascript" src="http://aleph.sagemath.org/embedded_sagecell.js"></script>
 }}}
 
 == Root Finding Using Bisection ==
 by William Stein
 
-{{{
+{{{#!html
+<div id="interact1"><script type="text/code">
 def bisect_method(f, a, b, eps):
     try:
         f = f._fast_float_(f.variables()[0])
@@ -49,6 +51,7 @@ def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16..-1))):
          L += sum(line([(c,h*i-h/4), (c,h*i+h/4)]) for i, (c,d) in enumerate(intervals) )
          L += sum(line([(d,h*i-h/4), (d,h*i+h/4)]) for i, (c,d) in enumerate(intervals) )
          show(P + L, xmin=a, xmax=b)
+</script></div>
 }}}
 {{attachment:bisect.png}}
 
