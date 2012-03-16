@@ -4,7 +4,7 @@
 
 === Logistics ===
 
-We'll meet at 11am on Saturday March 17 at [[http://www.cafeallegromusic.com/|Cafe Allegro]], and will plan the logistics for the rest of the week.  Contact David (roed.math@gmail.com) if you have questions.
+We'll meet at 11am on Saturday March 17 at [[http://www.cafeallegromusic.com/|Cafe Allegro]], and will plan the logistics for the rest of the week.  Contact David if you have questions.
 
 === Objectives ===
 
