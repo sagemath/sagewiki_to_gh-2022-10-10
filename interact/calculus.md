@@ -55,6 +55,8 @@ Note that there is a more complicated Newton's method below.
 
 by William Stein
 
+[[http://aleph.sagemath.org/?z=eJx1U01v2zAMvedXEAGKUKvsxCm2QxsPG7Dt1A3BgJ2yNnAcOVZrS4akJG5-_WjZzhdWATYkPvKRfJTWIgMl9k6rZSlcrteYcUg5iMpyKJNaOmHiaDJh9wOgVUMMWbhLjExWhbDIFpMnD2SVkaXw6FoYuUuc3AmsmQedeWvDm7XxTssssW6ZFTpxy97No0cev_mvn6hTUTn46pyRq60T343R5irBwzWTh5tuEicsWRdpV7g2IEEqqE2iNgK7ntmRL0vJe4PpsUaZQbKymKUMZo1O92CE2xrVyNYn6H2b2BQCIhm39ZzzdL5hUlVCrXvkHbIBiY6jesT8IXdlgcNZHn3-prc0CZgbkUortYLfWjv4IdVaqg38sc3_lx_wyMJPP-LZmOKGbPBFqiZD6gZrugVLzKjY-nlK5U65r9zLjpPwI_MXIsbgjmMQfQrDIGJk8_G7pIhPjr1u5E4E0eQZade1TAIoB8MWurHDmzbs5OCagR34-ZjeuZuXjKZpOR5yOFyYM5K0yWQoE9bxoQtSZCuEwj7LJVdrJSGtZ1Qt6PW-CpgTT1Vo11SFNT8EvRxUx22_J5XMZpXqQpt4tCq2YtRF5xQ9D9_ouiF7gJfuJBV2-CNZ7LbEShMV4p6jCqKgVUwyNlYf8nNu7JGx4pNwSt8dwT7YyoOgJ8zgFv4eH4lfhVQCF8RNVPR_YU_8vNgkfR1xl8v0VQlrY6Jl7XPh--bBCLUtvSAnYbraba73OKd8jxxq6ik-16amluMzgf4Bb3xSAg%3D%3D|Interact]]
+
 http://sagenb.org/home/pub/2824/
 
 {{{
@@ -96,6 +98,8 @@ def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
 
 == A contour map and 3d plot of two inverse distance functions ==
 by William Stein
+
+[[http://aleph.sagemath.org/?z=eJx1UsFu4yAQvfcrkHpgSLBrO4pUVUJaqb-wN29qUYITujbYgJN4v34BO-3uoVzm8QYeb2b4obSXlgv_cJQtamAsGWQlhWxHd4RQNFZhX33uH1BaoucDqzGf_NRrTBF-N1rGKIzpljgM0kZ0snyO8Wx8Cu6C7ypp4Q-ZEoPSv1O0yvURuID0KaGp7xexa3KLD8HXxDvlZwZ7Wpd5_nwg5CXJ3uiMGLpwCzhATBLZBkq-QQZO6VDi5kbIW5WBMA7GajPHHXkcyyc3Wg9w25aBQFs0BzqEsbonspjYwrwt8n28k8SF0d5M1rG6oGVePFUFzXNaHpakYMJ0xoaGuTq2baV7J7tgqhYCGlK_7A6oNRY1SOlPveXkazi1Ms3QGQ8tRXCjYSZVGA_MdxRzzWBCgxwri83aH_rl7g7oMr3kgCZv79yyn3aSSznubK7wSlGrTk79kWxPEXeDFL6x3CvDyn-OxUd3x28s8SMfvLrIpB2NhKfWZ5Ge-iYRjnVSQ2LDXaWVV7xrjnLwZ7bWQP7zclHyKi3DnovzbPQ64PhXPMK_NM4_Qg8gVAjOW7oIk78OvNxY|Interact]]
 
 http://sagenb.org/home/pub/2823/
 
