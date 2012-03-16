@@ -6,6 +6,7 @@ goto [[interact|interact main page]]
 {{{#!html
 <script type="text/javascript" src="http://aleph.sagemath.org/static/jquery.min.js"></script>
 <script type="text/javascript" src="http://aleph.sagemath.org/embedded_sagecell.js"></script>
+<script type="text/javascript">alert('hi');</script>
     <script>
 $(function() {
     var makecells = function() {
