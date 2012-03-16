@@ -8,7 +8,7 @@ We'll meet at 11am on Saturday March 17 at [[http://www.cafeallegromusic.com/|Ca
 
 === Objectives ===
 
-The purpose of this workshop will be twofold.
+The purpose of this workshop will be threefold.
 
  * Review some of the 278 tickets currently needing review.
  * Come up with a way to ensure that critical tickets [[http://trac.sagemath.org/sage_trac/ticket/11358|like this]] don't get lost beneath the radar. 
