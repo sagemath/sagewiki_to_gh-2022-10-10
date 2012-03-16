@@ -3,6 +3,10 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
+{{{#!html
+<b>html test!</b>
+}}}
+
 == Root Finding Using Bisection ==
 by William Stein
 
