@@ -3,28 +3,12 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
-[[HTML(<b>hi</b><script>alert('hi');</script>)]]
-{{{#!rhtml
-<script type="text/javascript" src="http://aleph.sagemath.org/static/jquery.min.js"></script>
-<script type="text/javascript" src="http://aleph.sagemath.org/embedded_sagecell.js"></script>
-<script type="text/javascript">alert('hi');</script>
-    <script>
-$(function() {
-    var makecells = function() {
-        sagecell.makeSagecell({
-            inputLocation: '#interact1',
-            evalButtonText: 'Interact'});
-    }
-    sagecell.init(makecells);
-})</script>
-
-}}}
 
 == Root Finding Using Bisection ==
 by William Stein
 
-{{{#!html
-<div id="interact1"><script type="text/code">
+[[http://aleph.sagemath.org/?z=eJytU02P2yAQvedXjCxFC4njJP06bOOqrdqe9hBVbS-rNMIY1ki2sQDvev99B5zYzq62l5aDPcDw5jHvkQsJmbKCu2MlXKFzImNgMWQxiMbS6xngcOaxD_yQkIJMjpJZd5SlZu5IZHLPjGJZKSyht5sDDcmi46Jx8Mk5o7LWia_GaDPiNMzaMFG1E-aelRaBbwmLM3roqz5oX8qXIK_oe89nmHtuIemhUKWAH6YVIzLHNMKWGV0jxMib-dOEIZLMQpj5kIeQ0yFPSWCZJZJT2Pma12CEa00NPB6pTrMlWyDKDjYjAz98ExEbf3xYF6XP5wsk8FI-Vskm-VZcZhmGYsEvVrZ9P2OIJFStdVCwewEMrLpDqgWr7wTSBVeIgTWQuY3nlkbz0OXxDudbJaxpRJ2TsE1nhatKEu2K7YcvukVxYW8EV1bpGr5r7eCbqnNV38FP67-fg4twc7fGExGdfQy4jLtZjiZDl_jbaUs6Civo0GWDmhva372fbWnwXkpWr2Oy2r5LktWW0pMVUauOprKPe0dsN78x6Fcag0Uh6jfmNpo_scullcGpSlzoiqf-8hpOVXtfjxpMAE_1p5LoptFWOdErw1yQBLvcaEy1oOWFRtGIZQv9QJpSu5EE16U26ZUR-RU2qatUnTL_Z1161vOJZU6EjNcrjaZeHLii-X2zDDZr-g7O-8qL6HW1AaAUNRnaNcneI8bLZMe8wj_OffKInIk3gg9VTShdA9kmbxeX-JODN3jQthUpVS3ILeFxsVDYBJKH4EBBagMKF3icU299UbeVpy4meHABuHyOuCrWb2gAwcnST_4Dcj5Fzv8FOXhiD0u4eSb_HxOSmYw%3D|Interact]]
+{{{
 def bisect_method(f, a, b, eps):
     try:
         f = f._fast_float_(f.variables()[0])
@@ -63,7 +47,6 @@ def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16..-1))):
          L += sum(line([(c,h*i-h/4), (c,h*i+h/4)]) for i, (c,d) in enumerate(intervals) )
          L += sum(line([(d,h*i-h/4), (d,h*i+h/4)]) for i, (c,d) in enumerate(intervals) )
          show(P + L, xmin=a, xmax=b)
-</script></div>
 }}}
 {{attachment:bisect.png}}
 
