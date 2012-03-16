@@ -9,12 +9,14 @@ We'll meet at 11am on Saturday March 17 at [[http://www.cafeallegromusic.com/|Ca
 === Objectives ===
 
 The purpose of this workshop will be twofold.
+
  * Review some of the 278 tickets currently needing review.
+ * Come up with a way to ensure that critical tickets [[http://trac.sagemath.org/sage_trac/ticket/11358|like this]] don't get lost beneath the radar. 
  * Improve Sage's review and testing infrastructure.  
    * Set up a system that allows line by line comments (like Google's internal Mondrian system, or the open source versions Rietveld or Review Board)
    * Implement a system requiring authors of tickets to suggest a reviewer (while providing defaults)
-   * fixing patchbot 
-   * finishing the new doctesting code: [[http://trac.sagemath.org/sage_trac/ticket/12415|#12415]]
+   * Fixing patchbot 
+   * Finish the new doctesting code: [[http://trac.sagemath.org/sage_trac/ticket/12415|#12415]]
 
 === Funding ===
 
