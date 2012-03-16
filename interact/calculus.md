@@ -3,6 +3,7 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
+[[HTML(<b>hi</b><script>alert('hi');</script>)]]
 {{{#!rhtml
 <script type="text/javascript" src="http://aleph.sagemath.org/static/jquery.min.js"></script>
 <script type="text/javascript" src="http://aleph.sagemath.org/embedded_sagecell.js"></script>
