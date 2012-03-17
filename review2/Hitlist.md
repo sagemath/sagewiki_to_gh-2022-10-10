@@ -19,6 +19,8 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 === Jen ===
  
+ * 7695
+ * 12644
 
 == Tickets marked as needing work ==
 
