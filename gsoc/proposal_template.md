@@ -1,5 +1,7 @@
 = Student Application Template =
 
+'''this proposal is an old one, see [[GSoC/2012]] for a newer one'''
+
 This is a suggestion for the kind of information we'll find useful from students. Remember - you're going to be committing to several months of work. The more information and planning you can provide up-front, the more we (and Google!) will have to go on when we're ranking your application.
 
  * '''Name'''
@@ -20,7 +22,7 @@ Your proposal should be around 1500-4000 words in plain text and should clearly 
 
 It is better if your project is under-scoped and sure to complete; as opposed to a largeish project which may not get done.
 
-See the [[gsoc11|ideas list]] for project ideas.
+See the [[GSoC/2012|ideas list]] for project ideas.
 
 
 ~- This page is based on application templates for [[http://wiki.debian.org/SummerOfCode/StudentApplicationTemplate|Debian]] and [[http://wiki.x.org/wiki/GSoCApplication|X.Org]]. -~
