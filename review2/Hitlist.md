@@ -24,7 +24,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 == Tickets marked as needing work ==
 
-== Tickets marked as duplicate
+== Tickets marked as duplicate ==
  
  * 12184 (Jen, duplicate of 12617)
 
