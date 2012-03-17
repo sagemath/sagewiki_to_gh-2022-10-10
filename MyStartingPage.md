@@ -124,4 +124,5 @@ Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches aw
  * [[Talks| Talks and Presentations about Sage]]
  * [[SageForHighSchool|Sage for High school usage]] (see here for [[HighSchoolDesign|development page]])
  * [[dynamics|Dynamical systems with Sage]]
+ * [[GSoC|Google Summer of Code]]
 (Note -- wikis are ''not'' written in HTML.  Use the GUI Mode (in Firefox) or read the wiki help links at the top.)
