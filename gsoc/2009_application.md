@@ -1,8 +1,9 @@
+## page was renamed from gsoc09_application
 = Google Summer of Code 2009 Application =
 
 Here is a list of questions we're expected to answer as a part of the application for Google Summer of Code 2009.
 
-[[gsoc09|The list of ideas for 2009.]]
+[[GSoC/2009|The list of ideas for 2009.]]
 
 The FAQ for the Google Summer of Code 2009 is [[http://code.google.com/opensource/gsoc/2009/faqs.html|here]].
 
