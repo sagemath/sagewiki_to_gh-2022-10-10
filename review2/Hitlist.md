@@ -21,7 +21,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  
  * 11777
  * 12184: this should be closed (duplicate of 12617)
- * 12617
+ * 12617: done
 
 == Tickets marked as needing work ==
 
