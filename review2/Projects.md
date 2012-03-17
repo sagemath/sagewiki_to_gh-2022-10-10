@@ -1,6 +1,6 @@
 == Projects ==
 
-=== Line Comments
+=== Line Comments ===
 
 Set up a system that allows line by line comments (like Google's internal Mondrian system, or the open source versions Rietveld or Review Board)
 
