@@ -38,7 +38,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 === Jen ===
  
- * 12644
+ 
 
 === Andrew ===
 
@@ -53,6 +53,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  * 11777 (David)
  * 12184 (Jen) 
  * 12617 (Jen) 
+ * 12644 (Jenn)
  * 12627 (Andrew)
  * 12680 (Andrew)
  * 12681 (Andrew)
