@@ -16,6 +16,7 @@ The purpose of this workshop will be threefold.
 
  * [[/Hitlist|Review some of the 278 tickets currently needing review]].
  * [[/Projects|Improve Sage's review and testing infrastructure]].
+ * [[/Bugs|Fix bugs]]
 
 === Funding ===
 
