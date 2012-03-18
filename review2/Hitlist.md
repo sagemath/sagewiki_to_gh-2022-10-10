@@ -2,7 +2,9 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 == Tickets to Review ==
 
-=== gcc ===
+=== Goals for Sage 5.0 ===
+
+==== gcc ====
 
  * 12369 <-- main
  * 12602
@@ -11,6 +13,16 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  * 10492
  * 12515
  * 12638
+
+==== Doctest coverage ====
+
+ * 12024 <-- summary
+ * 12192
+ * 12061
+
+=== Requests for review ===
+
+ * 7240
 
 === Andrew ===
  
@@ -27,10 +39,6 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  
  * 7695
  * 12644
-
-=== Requests ===
-
- * 7240
 
 == Tickets marked as needing work ==
 
