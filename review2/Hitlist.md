@@ -27,7 +27,6 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 === Requests for review ===
 
- * 7240
  * 11475
  * 12077
  * 12341
@@ -40,6 +39,11 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 === Jen ===
  
  * 12644
+
+=== Andrew ===
+
+ * 7240
+ * 12133
 
 == Tickets marked as needing work ==
 
