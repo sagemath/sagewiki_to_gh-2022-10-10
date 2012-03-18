@@ -24,12 +24,6 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
  * 7240
 
-=== Andrew ===
- 
- * 12680
- * 12681
- * 12682
-
 === David ===
 
  * 12612
@@ -49,4 +43,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 == Tickets given a positive review ==
 
  * 11777 (David) 
- * 12617 (Jen)
+ * 12617 (Jen) 
+ * 12680 (Andrew)
+ * 12681 (Andrew)
+ * 12682 (Andrew)
