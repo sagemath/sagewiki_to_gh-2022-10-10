@@ -19,6 +19,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  * 12024 <-- summary
  * 12192
  * 12061
+ * 12668
 
 === Requests for review ===
 
