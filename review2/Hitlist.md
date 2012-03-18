@@ -42,13 +42,11 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 == Tickets marked as needing work ==
 
-== Tickets marked as duplicate ==
- 
- * 12184 (Jen, duplicate of 12617)
 
 == Tickets given a positive review ==
 
- * 11777 (David) 
+ * 11777 (David)
+ * 12184 (Jen) 
  * 12617 (Jen) 
  * 12627 (Andrew)
  * 12680 (Andrew)
