@@ -15,9 +15,9 @@ Implement a system requiring authors of tickets to suggest a reviewer (while pro
 
 === Bandaids ===
 
-Come up with a way to ensure that critical tickets [[http://trac.sagemath.org/sage_trac/ticket/11358|like this]] don't get lost beneath the radar. 
-Idea: checkbox on tickets + warning
-If we're going to go through the ~3000 active tickets to mark these, we should figure out if we want to do anything else.
+Come up with a way to ensure that critical tickets [[http://trac.sagemath.org/sage_trac/ticket/11358|like this]] don't get lost beneath the radar.
+  * Idea: checkbox on tickets + warning
+  * If we're going to go through the ~3000 active tickets to mark these, we should figure out if we want to do anything else.
 
 === Patchbot ===
 
