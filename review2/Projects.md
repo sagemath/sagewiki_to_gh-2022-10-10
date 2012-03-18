@@ -4,6 +4,11 @@
 
 Set up a system that allows line by line comments (like Google's internal Mondrian system, or the open source versions Rietveld or Review Board)
 
+Sample ticket illustrating some nitty gritty details involved in using git:
+
+  * http://trac.sagemath.org/sage_trac/ticket/12685
+
+
 === Require reviewer ===
 
 Implement a system requiring authors of tickets to suggest a reviewer (while providing defaults)
