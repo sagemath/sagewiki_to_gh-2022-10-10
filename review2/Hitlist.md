@@ -42,11 +42,12 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 === Andrew ===
 
- * 7240
- * 12133
+
 
 == Tickets marked as needing work ==
 
+ * 7240
+ * 12133
 
 == Tickets given a positive review ==
 
