@@ -8,6 +8,10 @@ We'll meet at 11am on Saturday March 17 at [[http://www.cafeallegromusic.com/|Ca
 
 Campus Wireless: {{{Login: event0142      Password: Z3T2_R5X7_U8C7}}}
 
+=== Projects ===
+
+ * Making it so developers can [[/git|use git]].
+
 === Objectives ===
 
 The purpose of this workshop will be threefold.
