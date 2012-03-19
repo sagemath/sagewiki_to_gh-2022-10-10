@@ -6,17 +6,20 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 ==== gcc ====
 
- * 12369 <-- main
- * 12602
- * 12609
- * 12647
- * 10492
- * 12515
- * 12638
+ * [[http://trac.sagemath.org/sage_trac/ticket/12369|#12369]]: Add a GCC package
+ * [[http://trac.sagemath.org/sage_trac/ticket/12602|#12602]]: Rework download/extract code in sage-spkg
+ * [[http://trac.sagemath.org/sage_trac/ticket/12638|#12638]]: Add some patches to the PARI sources
+
+==== Notebook ====
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/11080|#11080]]: move notebook to flask/wsgi-based notebook
+ * [[http://trac.sagemath.org/sage_trac/ticket/11874|#11874]]: Remove twisted spkg
+ * [[http://trac.sagemath.org/sage_trac/ticket/12229|#12229]]: Add section in the developers manual about sagenb development
+ * [[http://trac.sagemath.org/sage_trac/ticket/11503|#11503]]: Make new spkg to install Jmol in SAGE_LOCAL/share
 
 ==== Doctest coverage ====
 
- * 12024 <-- summary
+ * [[http://trac.sagemath.org/sage_trac/ticket/12024|#12024]]: summary
  * 12192
  * 12061
  * 12668
