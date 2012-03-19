@@ -21,8 +21,8 @@ Jour du cours : mercredi
 
 Plan, propositions (Timo Jolivet) :
 
- * Tracé de courbes fractales en utilisant des substitutions
- * L-systèmes
+ * Tracé de courbes fractales en utilisant des substitutions ([[http://en.wikipedia.org/wiki/List_of_fractals_by_Hausdorff_dimension|exemples]])
+ * [[http://en.wikipedia.org/wiki/L-system|L-systèmes]]
 
 == Vendredi: calcul formel en modélisation géométrique et en robotique ==
 
