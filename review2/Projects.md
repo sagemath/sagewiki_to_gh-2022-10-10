@@ -25,3 +25,7 @@ Fix patchbot so that it doesn't timeout on unbroken code.
 === Doctesting ===
 
 Finish the new doctesting code: [[http://trac.sagemath.org/sage_trac/ticket/12415|#12415]]
+
+=== Better Reports ===
+
+Make a trac wiki page that's linked to by the "View Tickets" button that organizes the reports in a more useful way.
