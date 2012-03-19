@@ -13,7 +13,7 @@ Sample ticket illustrating some nitty gritty details involved in using git:
 
 Implement a system requiring authors of tickets to suggest a reviewer (while providing defaults)
 
-=== Stopgaps ===
+=== Stopgaps (formerly, Bandaids) ===
 
 Come up with a way to ensure that critical tickets [[http://trac.sagemath.org/sage_trac/ticket/11358|like this]] don't get lost beneath the radar.
   * Here's what we're doing: http://trac.sagemath.org/sage_trac/ticket/12691
