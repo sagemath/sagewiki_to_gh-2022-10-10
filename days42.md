@@ -1,5 +1,5 @@
 = Sage Days 42: Women in Sage (3) =
- 
+
 
 == Dates/Location ==
 
@@ -7,6 +7,9 @@
  * Note: check-in at the Lodge is at 3pm on July 15; check-out is 11am on the 19th
  * Floorplan: [[attachment:floorplan.jpg]] (15 beds)  
 
+== How to Apply ==
+ 
+ * Fill out this [[https://docs.google.com/spreadsheet/viewform?formkey=dHJ0a0pVRGpQRXdsS2FDN2d1YUdkMlE6MQ|form]] by May 1, 2012.
 
 == Other Info ==
 
