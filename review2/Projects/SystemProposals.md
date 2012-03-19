@@ -48,6 +48,7 @@ With Trac and the two plugins we have the following outline for how code review 
     * Various "ticket branches" for tickets coming from users repos (possibly multiple branches for a single ticket)
     * Release branches coming off develop; after being split off from develop by the release manager they can incorporate positively reviewed bugfixes (that are also merged into the develop line)
     * A "master" line for official releases.  Once a release is ready, the release manager merges its release line into master.
+    * This is somewhat similar to the established "git-flow" workflow described in [[http://nvie.com/posts/a-successful-git-branching-model/|this blog post]].
   * The release manager's role is as follows:
     * Go through positively reviewed tickets and make sure they're happy having each one merged.
     * If it's a bug fix and there's a release depending on it, merge it into that release line and then merged the release line back into develop (and potentially into later releases).  If it's a feature, just merge into develop.  If edit conflicts arise (which should be less frequent since authors can rebase frequently off the develop line), mark it as needs work.
