@@ -56,7 +56,7 @@ With Trac and the two plugins we have the following outline for how code review 
 
 == Steps to make it happen ==
 
-  1. Write a script that converts the current sage repositories (ext, bin, root, lib, spkg metadata...) into one repository.  This script can be run at will once we're done with it to convert Sage to a single repository.
+  1. Write a script that converts the current sage repositories (ext, bin, root, lib, spkg metadata...) into one repository.  This script can be run at will once we're done with it to convert Sage to a single repository. (This is because it could be sage-5.1, 5.2, etc., before we actually are ready.)
   1. Write a SEP for our workflow.
   1. Upgrade trac with the two plugins listed above and start hosting a git repo.
   1. Implement our workflow in trac.ini and maybe in a custom trac plugin
