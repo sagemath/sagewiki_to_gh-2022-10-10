@@ -34,7 +34,6 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  * 12077
  * 12341
  * 10281
- * 12695
  * 12699
  * 12640
  * 12701
@@ -60,6 +59,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 == Tickets given a positive review ==
 
  *  6365 (Jen)
+ * 11372 (Jen)
  * 11777 (David)
  * 12184 (Jen) 
  * 12499 (Rob)
