@@ -19,15 +19,10 @@ Intervenants : Valérie Berthé (CNRS, LIAFA, Paris), Jérémie Bourdon (Univ. N
 
 Jour du cours : mercredi
 
-Plan, propositions:
+Plan, propositions (Timo Jolivet) :
 
- * fonctions de base de sage pour la combinatoire des mots (iterer  une substitution, calcul de complexite) 
- * jouer sur l'equilibre et la complexite qui varient quand on modifie l'ordre des lettres  dans une substitution sturmienne et qu'on la rend non sturmienne.
- * codage de segments de droites
- * fractions continues et substitutions sturmiennes
- * voiles de Klein
- * calculs de séries génératrices relativement simples pour illustrer les possibilités en calcul formel de Sage (moyenne et variance pour des scores de similarités entre séquences par calcul formel). Simulations en Sage pour obtenir des belles courbes et avoir une idée de la distribution.
- * Autour de L-systèmes. Pour tester Sage en tant que langage de programmation, ses possibilités graphiques. Dans un premier temps, juste le flocon de von Koch, éventuellement des arborescences puis il y a surement moyen d'aller jusqu'au dessin des fractales de Rauzy (éventuellement en cachant sous le tapis normalisation et projection).
+ * Tracé de courbes fractales en utilisant des substitutions
+ * L-systèmes
 
 == Vendredi: calcul formel en modélisation géométrique et en robotique ==
 
