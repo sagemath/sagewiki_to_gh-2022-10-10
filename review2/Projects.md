@@ -13,11 +13,11 @@ Sample ticket illustrating some nitty gritty details involved in using git:
 
 Implement a system requiring authors of tickets to suggest a reviewer (while providing defaults)
 
-=== Bandaids ===
+=== Stopgaps ===
 
 Come up with a way to ensure that critical tickets [[http://trac.sagemath.org/sage_trac/ticket/11358|like this]] don't get lost beneath the radar.
-  * Idea: adding another keyword on tickets + warning
-  * If we're going to go through the ~3000 active tickets to mark these, we should figure out if we want to do anything else.
+  * Here's what we're doing: http://trac.sagemath.org/sage_trac/ticket/12691
+  * For an example, see http://trac.sagemath.org/sage_trac/ticket/12509 and its stopgap http://trac.sagemath.org/sage_trac/ticket/12692
 
 === Patchbot ===
 
