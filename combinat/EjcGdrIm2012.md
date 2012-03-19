@@ -3,7 +3,7 @@
 
 Page de l'école jeunes chercheurs: [[http://ejcim2012.irisa.fr/index.html|EJCIM2012]].
 
-== Lundi: introduction à Sage ==
+== Lundi : introduction à Sage ==
 
 Si vous débutez avec Sage, nous vous conseillons de faire les feuilles dans l'ordre. Sinon vous pouvez sauter la première feuille et piocher selon vos préférences.
 
@@ -13,23 +13,18 @@ Si vous débutez avec Sage, nous vous conseillons de faire les feuilles dans l'o
 
 Vous pouvez aussi télécharger le support de la présentation [[attachment:presentation.pdf]].
 
-== Mercredi: systèmes dynamiques discrets ==
+== Mercredi : systèmes dynamiques discrets ==
 
-Intervenants : Valérie Berthé (CNRS, LIAFA, Paris), Jérémie Bourdon (Univ. Nantes, Lina, Nantes), Anne Siegel (CNRS, IRISA, Rennes)
-
-Jour du cours : mercredi
+Intervenants du cours : Valérie Berthé (CNRS, LIAFA, Paris), Jérémie Bourdon (Univ. Nantes, Lina, Nantes), Anne Siegel (CNRS, IRISA, Rennes)
 
 Plan, propositions (Timo Jolivet) :
 
  * Tracé de courbes fractales en utilisant des substitutions ([[http://en.wikipedia.org/wiki/List_of_fractals_by_Hausdorff_dimension|exemples]])
  * [[http://en.wikipedia.org/wiki/L-system|L-systèmes]]
 
-== Vendredi: calcul formel en modélisation géométrique et en robotique ==
+== Vendredi : calcul formel en modélisation géométrique et en robotique ==
 
-Intervenants : Michel Coste (Univ. Rennes 1, IRMAR, Rennes), Guillaume Moroz (Inria, LORIA, Nancy), Laurent Busé (Inria, EPI Galaad, Sophia Antipolis)
-
-Jour du cours : vendredi
-
+Intervenants du cours : Michel Coste (Univ. Rennes 1, IRMAR, Rennes), Guillaume Moroz (Inria, LORIA, Nancy), Laurent Busé (Inria, EPI Galaad, Sophia Antipolis)
 
 Sage contient Singular et permet de faire du calcul avec les polynomes de plusieurs variables
 
