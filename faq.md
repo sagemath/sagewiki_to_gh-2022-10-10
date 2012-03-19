@@ -156,6 +156,9 @@ this fix.
 
 The version of Sage, i.e. Sage version 3.0.5, that's available through apt-get in Debian and Ubuntu is very old. No-one has yet found time to update the Debian/Ubuntu version of Sage. Help wanted! You should download the latest version of Sage from the [[http://www.sagemath.org/download.html|download page]]. If you would like to help with updating the Debian/Ubuntu version of Sage, please email the [[http://groups.google.com/group/sage-devel|sage-devel]] mailing list.
 
+=== Can I see a calculation step-by-step? ===
+
+Unfortunately no. You can run the python debugger to execute it step-by-step, but that is entirely different from how a human would do a calculation.
 
 == Developing in Sage ==
 
