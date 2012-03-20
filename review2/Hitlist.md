@@ -4,10 +4,9 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 === Goals for Sage 5.0 ===
 
-==== gcc ====
+==== GCC ====
 
  * [[http://trac.sagemath.org/sage_trac/ticket/12369|#12369]]: Add a GCC package
- * [[http://trac.sagemath.org/sage_trac/ticket/12602|#12602]]: Rework download/extract code in sage-spkg
  * [[http://trac.sagemath.org/sage_trac/ticket/12638|#12638]]: Add some patches to the PARI sources
 
 ==== Notebook ====
@@ -67,6 +66,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  * 12184 (Jen) 
  * 12499 (Rob)
  * 12541 (Rob)
+ * [[http://trac.sagemath.org/sage_trac/ticket/12602|#12602]]: Rework download/extract code in sage-spkg (John Palmieri)
  * 12617 (Jen) 
  * 12627 (Andrew)
  * 12640 (Jen)
