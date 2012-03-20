@@ -35,7 +35,6 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  * 12341
  * 10281
  * 12699
- * 12640
 
 === David ===
 
