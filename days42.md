@@ -13,7 +13,7 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
 == How to Apply ==
  
- * Fill out this [[https://docs.google.com/spreadsheet/viewform?formkey=dHJ0a0pVRGpQRXdsS2FDN2d1YUdkMlE6MQ|form]] by May 1, 2012.
+ * To be considered for this workshop, fill out this [[https://docs.google.com/spreadsheet/viewform?formkey=dHJ0a0pVRGpQRXdsS2FDN2d1YUdkMlE6MQ|form]] by May 1, 2012.
 
 == Other Info ==
 
