@@ -46,7 +46,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 
 === Jen ===
  
- * 7926
+ * [[http://trac.sagemath.org/sage_trac/ticket/7926|#7296]]: Doctesting of monsky_washnitzer
 
 === Andrew ===
 
