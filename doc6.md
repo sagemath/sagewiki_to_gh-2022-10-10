@@ -22,6 +22,7 @@ The following people are likely to participate
 
  * Jon Bober (University of Washington)
  * Jen Balakrishnan (Harvard University)
+ * Aly Deines (University of Washington)
  * Keshav Kini (Nanyang Technological University)
  * R. Andrew Ohana (University of Washington)
  * John Palmieri (University of Washington)
