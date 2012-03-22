@@ -34,8 +34,6 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  * 12077
  * 12341
  * 10281
- * 12692
- * 12699
  * 12709
  * 12710
 
@@ -72,9 +70,11 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
  * 12627 (Andrew)
  * 12640 (Jen)
  * 12644 (Jen)
+ * 12699 (Andrew)
  * 12680 (Andrew)
  * 12681 (Andrew)
  * 12682 (Andrew)
  * 12691 (Andrew, Jen)
+ * 12692 (Andrew, Jen)
  * 12701 (Andrew)
  * 12702 (Andrew)
