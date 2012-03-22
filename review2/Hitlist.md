@@ -30,7 +30,6 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 === Requests for review ===
 
  * [[http://trac.sagemath.org/sage_trac/ticket/7926|#7926]]: Doctesting of monsky_washnitzer
- * [[http://trac.sagemath.org/sage_trac/ticket/11358|#11358]]: Multi-modular matrix multiply bug
  * 11475
  * 12077
  * 12341
@@ -62,6 +61,7 @@ Put "rd2" as a keyword on tickets you're working on.  Also feel free to add tick
 == Tickets given a positive review ==
 
  *  6365 (Jen)
+ * [[http://trac.sagemath.org/sage_trac/ticket/11358|#11358]]: Multi-modular matrix multiply bug
  * 11372 (Jen)
  * 11777 (David)
  * 12184 (Jen) 
