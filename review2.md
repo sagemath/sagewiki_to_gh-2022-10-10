@@ -4,7 +4,7 @@
 
 === Logistics ===
 
-We'll meet at 11am on Saturday March 17 at [[http://www.cafeallegromusic.com/|Cafe Allegro]], and will plan the logistics for the rest of the week.  Contact David if you have questions.
+We'll meet at 11am on Saturday March 17, 2012 at [[http://www.cafeallegromusic.com/|Cafe Allegro]], and will plan the logistics for the rest of the week.  Contact David if you have questions.
 
 Campus Wireless: {{{Login: event0142      Password: Z3T2_R5X7_U8C7}}}
 
