@@ -32,6 +32,10 @@ W.\thinspace{}A. Stein et~al., \emph{{S}age {M}athematics {S}oftware ({V}ersion
 Also, be sure to find out what components of Sage, e.g., !NumPy, PARI, GAP, that your calculation uses, and properly attribute those systems (for example, ask on sage-devel). Similarly, consider finding out who wrote the Sage code you're using and acknowledge them explicitly as well.
 
 
+=== EndNote (RIS file) ===
+
+[[http://sagemath.org/files/sage.ris|sage.ris]]
+
 == Books and Articles mentioning Sage ==
 
 Please see http://www.sagemath.org/library-publications.html
