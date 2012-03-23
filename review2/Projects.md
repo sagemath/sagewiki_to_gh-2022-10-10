@@ -57,12 +57,13 @@ I'm going through the plugins on [[http://trac-hacks.org/ | Trac-Hacks]] to see 
   * Code Review Plugins:
     * [[http://trac-hacks.org/wiki/CodeReviewPlugin | Code Review Plugin]]
     * [[http://trac-hacks.org/wiki/PeerReviewPlugin | Peer Review Plugin]]
-    * [[http://trac-hacks.org/wiki/GitPlugin | Trac Code Comments]]
+    * [[https://github.com/Automattic/trac-code-comments-plugin | Trac Code Comments]]
       * started in November 2011
       * development is quite active, but mainly by one developer. However, this project seems to be used by his company for their own workflow.
       * Comments are possible on changesets and attachments.
       * Inline comments are not yet supported, but they're the top feature on the wishlist.
   * [[http://trac-hacks.org/wiki/InputfieldTrapPlugin | Anti-botnet feature]] -- might prevent botnets from filling in the preferences form.
+  * [[http://trac-hacks.org/wiki/GitPlugin | Enable Git in the Source browser]]
   * Edit navigation bars
     * [[http://trac-hacks.org/wiki/NavAddPlugin | Add links]]
     * [[http://trac-hacks.org/wiki/NavControlPlugin | Add a new bar]]
