@@ -31,4 +31,4 @@ The following people are likely to participate
 
 === Lodging ===
 
-Participants will stay at the Collegiana Inn -- 4311 - 12th Ave. NE Seattle, WA.
+Participants will stay at the Collegiana Inn -- 4311 - 12th Ave. NE Seattle, WA.  Check in on April 16 and check out on April 22.
