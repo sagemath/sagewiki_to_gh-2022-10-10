@@ -7,7 +7,9 @@ William A. Stein et al. Sage Mathematics Software (Version x.y.z),
    The Sage Development Team, YYYY, http://www.sagemath.org.
 }}}
 
-where you should change `x.y.z` to the exact version number you used for your publication. Also change `YYYY` to the year that reflects the version of Sage you used for the publication. To reference Sage using BibTeX, use:
+where you should change `x.y.z` to the exact version number you used for your publication. Also change `YYYY` to the year that reflects the version of Sage you used for the publication. 
+
+=== BibTex ===
 
 {{{
 @manual{sage,
@@ -20,7 +22,7 @@ where you should change `x.y.z` to the exact version number you used for your pu
 }
 }}}
 
-To reference Sage using TeX, use:
+=== TeX ===
 
 {{{
 \newcommand{\etalchar}[1]{$^{#1}$}
