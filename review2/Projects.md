@@ -67,5 +67,4 @@ I'm going through the plugins on [[http://trac-hacks.org/ | Trac-Hacks]] to see 
     * [[http://trac-hacks.org/wiki/NavAddPlugin | Add links]]
     * [[http://trac-hacks.org/wiki/NavControlPlugin | Add a new bar]]
   * [[http://trac-hacks.org/wiki/TicketModifiedFilesPlugin | List files modified by a ticket]]
-  * [[http://trac-hacks.org/wiki/RenameUserPlugin | Renaming users]]
   * [[http://trac-hacks.org/wiki/EmailtoTracScript | Allow modification of tickets, etc via e-mail]]
