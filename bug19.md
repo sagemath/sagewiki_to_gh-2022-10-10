@@ -37,4 +37,5 @@ The following people are likely to participate
 
 The following people are likely to participate remotely:
 
+ * John Perry (University of Southern Mississippi)
  * Paul Zimmermann (Inria Nancy - Grand Est)
