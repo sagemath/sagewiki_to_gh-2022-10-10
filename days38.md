@@ -104,6 +104,8 @@ Preliminary Schedule
     |     |              |              |              |              |Presentations |
     +-----+--------------+--------------+--------------+--------------+--------------+
     |12h30|Lunch         |Lunch         |Lunch         |Lunch         |Lunch         |
+    +-----+              |              |              |              |              |
+    |13h30|              |              |              |              |              |
     +-----+--------------+--------------+--------------+--------------+--------------+
     |14h30|Tutorial II   |Coding Sprints|Coding Sprints|Coding Sprints|Coding Sprints|
     +-----+              |              |              |              |              |
