@@ -637,7 +637,9 @@ by Jason Grout
 
 The output shows the points evaluated using Gaussian quadrature (using a weight of 1, so using Legendre polynomials).  The vertical bars are shaded to represent the relative weights of the points (darker = more weight).  The error in the trapezoid, Simpson, and quadrature methods is both printed out and compared through a bar graph.  The "Real" error is the error returned from scipy on the definite integral.
 {{{
-from scipy.special.orthogonal import p_roots
+import scipy
+import numpy
+from scipy.special.orthogonal import p_roots, t_roots, u_roots
 from scipy.integrate import quad, trapz, simps
 from sage.ext.fast_eval import fast_float
 from numpy import linspace
@@ -646,18 +648,23 @@ show_weight_graph=False
 #  'Laguerre': {'w': e**(-x), 'xmin': 0, 'xmax': numpy.inf, 'func': l_roots},
 
 methods = {'Legendre': {'w': 1, 'xmin': -1, 'xmax': 1, 'func': p_roots},
-                'Chebyshev': {'w': 1/sqrt(1-x**2), 'xmin': -1, 'xmax': 1, 'func': t_roots},
-                'Chebyshev2': {'w': sqrt(1-x**2), 'xmin': -1, 'xmax': 1, 'func': u_roots},
-                'Trapezoid': {'w': 1, 'xmin': -1, 'xmax': 1, 'func': lambda n: (linspace(-1r,1,n), numpy.array([1.0r]+[2.0r]*(n-2)+[1.0r])*1.0r/n)},
-                'Simpson': {'w': 1, 'xmin': -1, 'xmax': 1, 'func': lambda n: (linspace(-1r,1,n), numpy.array([1.0r]+[4.0r,2.0r]*int((n-3.0r)/2.0r)+[4.0r,1.0r])*2.0r/(3.0r*n))}}
+     'Chebyshev': {'w': 1/sqrt(1-x**2), 'xmin': -1, 'xmax': 1, 'func': t_roots},
+     'Chebyshev2': {'w': sqrt(1-x**2), 'xmin': -1, 'xmax': 1, 'func': u_roots},
+     'Trapezoid': {'w': 1, 'xmin': -1, 'xmax': 1, 
+        'func': lambda n: (linspace(-1r,1,n), numpy.array([1.0r]+[2.0r]*(n-2)+[1.0r])*1.0r/n)},
+     'Simpson': {'w': 1, 'xmin': -1, 'xmax': 1, 
+        'func': lambda n: (linspace(-1r,1,n), 
+            numpy.array([1.0r]+[4.0r,2.0r]*int((n-3.0r)/2.0r)+[4.0r,1.0r])*2.0r/(3.0r*n))}}
 var("x")
 def box(center, height, area,**kwds):
     width2 = 1.0*area/height/2.0
-    return polygon([(center-width2,0),(center+width2,0),(center+width2,height),(center-width2,height)],**kwds)
+    return polygon([(center-width2,0),
+        (center+width2,0),(center+width2,height),(center-width2,height)],**kwds)
     
     
 @interact
-def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x)),show_method=["Legendre", "Chebyshev", "Chebyshev2", "Trapezoid","Simpson"]):
+def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x),type=SR),
+    show_method=["Legendre", "Chebyshev", "Chebyshev2", "Trapezoid","Simpson"]):
     ff = fast_float(f,'x')
     method = methods[show_method]
     xcoords,w = (method['func'])(int(n))
@@ -666,7 +673,7 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x)),show_
     plot_min = max(xmin, -10)
     plot_max = min(xmax, 10)
     scaled_func = f*method['w']
-    scaled_ff = fast_float(scaled_func)
+    scaled_ff = fast_float(scaled_func, 'x')
 
     coords = zip(xcoords,w)
     max_weight = max(w)
@@ -674,13 +681,15 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x)),show_
 
     f_graph = plot(scaled_func,plot_min,plot_max)
     boxes = sum(box(x,ff(x),w*ff(x),rgbcolor=(0.5,0.5,0.5),alpha=0.3) for x,w in coords)
-    stems = sum(line([(x,0),(x,scaled_ff(x))],rgbcolor=(1-y,1-y,1-y),thickness=2,markersize=6,alpha=y) for x,y in coords_scaled)
-    points = sum([point([(x,0),(x,scaled_ff(x))],rgbcolor='black',pointsize=30) for x,_ in coords])
+    stems = sum(line([(x,0),(x,scaled_ff(x))],rgbcolor=(1-y,1-y,1-y),
+        thickness=2,markersize=6,alpha=y) for x,y in coords_scaled)
+    points = sum([point([(x,0),
+        (x,scaled_ff(x))],rgbcolor='black',pointsize=30) for x,_ in coords])
     graph = stems+points+f_graph+boxes
     if show_weight_graph:
         graph += line([(x,y) for x,y in coords_scaled], rgbcolor='green',alpha=0.4)
     
-    show(graph,xmin=plot_min,xmax=plot_max)
+    show(graph,xmin=plot_min,xmax=plot_max,aspect_ratio="auto")
 
     approximation = sum([w*ff(x) for x,w in coords])
     integral,integral_error = scipy.integrate.quad(scaled_ff, xmin, xmax)
@@ -688,7 +697,8 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x)),show_
     y_val = map(scaled_ff,x_val)
     trapezoid = integral-trapz(y_val, x_val)
     simpson = integral-simps(y_val, x_val)
-    html("$$\sum_{i=1}^{i=%s}w_i\left(%s\\right)= %s\\approx %s =\int_{-1}^{1}%s \,dx$$"%(n,latex(f.subs(x="x_i")), approximation, integral, latex(scaled_func)))
+    html("$$\sum_{i=1}^{i=%s}w_i\left(%s\\right)= %s\\approx %s =\int_{-1}^{1}%s \,dx$$"%(n,
+        latex(f), approximation, integral, latex(scaled_func)))
     error_data = [trapezoid, simpson, integral-approximation,integral_error]
     print "Trapezoid: %s, Simpson: %s, \nMethod: %s, Real: %s"%tuple(error_data)
     show(bar_chart(error_data,width=1),ymin=min(error_data), ymax=max(error_data))
