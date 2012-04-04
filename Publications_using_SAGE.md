@@ -31,7 +31,15 @@ W.\thinspace{}A. Stein et~al., \emph{{S}age {M}athematics {S}oftware ({V}ersion
   x.y.z)}, The Sage Development Team, YYYY, {\tt http://www.sagemath.org}.
 }}}
 
-Also, be sure to find out what components of Sage, e.g., !NumPy, PARI, GAP, that your calculation uses, and properly attribute those systems (for example, ask on sage-devel). Similarly, consider finding out who wrote the Sage code you're using and acknowledge them explicitly as well.
+Also, be sure to find out what components of Sage, e.g., !NumPy, PARI, GAP, that your calculation uses, and properly attribute those systems (for example, ask on sage-devel). Also, you may use the {{{get_systems}}} method:
+
+{{{
+sage: from sage.misc.citation import get_systems
+sage: get_systems("integrate(cos(x^2), x)")
+['MPFI', 'ginac', 'GMP', 'Maxima']
+}}}
+
+Similarly, consider finding out who wrote the Sage code you're using and acknowledge them explicitly as well.
 
 
 === EndNote (RIS file) ===
