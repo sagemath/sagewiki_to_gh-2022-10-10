@@ -120,4 +120,34 @@ Preliminary Schedule
     |19h00|Special Event?|Coding Sprints|Coding Sprints|Coding Sprints|Coding Sprints|
     +-----+--------------+--------------+--------------+--------------+--------------+
 
+Participants
+------------
+
+- Frank Ban, University of Waterloo, CANADA
+- Chris Berg, LaCIM, Montréa, CANADA
+- Alexandre Blondin Massé, Université du Québec à Chicoutimi, CANADA
+- Pierre Bouchard, Université du Québec à Montréal, CANADA
+- Juan Carlos Bustamante, Université de Sherbrooke, CANADA
+- Sean Carrell, University of Waterloo, CANADA
+- Stephen Doty, Loyola University Chicago, USA
+- Jérôme Fortier, LaCIM UQAM Montréal, CANADA  
+- Darij Grinberg, Massachusetts Institute of Technology, USA
+- Mathieu Guay-Paquet, University of Waterloo, CANADA
+- Holly Heglin, York University, CANADA
+- François Huard, Bishop’s University, Sherbrooke, CANADA
+- Mélodie Lapointe, UQAC, Chicoutimi, CANADA
+- Syed Lavasani, University of Calgary, CANADA
+- Dorota Mazur, York University, CANADA
+- Nishan Mudalige, York University, CANADA
+- Viviane Pons, Université Paris-Est Marne-la-Vallée, FRANCE
+- Vivien Ripoll, LaCIM, UQAM, Montréal, CANADA
+- Eric Rowland, LaCIM, UQAM, Montréal, CANADA 
+- Travis Scrimshaw, University of California Davis, USA
+- George Seelinger, Loyola University Chicago, USA
+- Tarek Sellami, Institut de Mathématique de Luminy, Marseille, FRANCE
+- James Stark, University of Washington, Seattle, WA USA
+- Christian Stump, Berlin, GERMANY
+- Hugo Tremblay, Université du Québec à Montréal, CANADA
+
+
 }}}
