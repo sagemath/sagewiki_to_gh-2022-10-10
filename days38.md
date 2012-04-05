@@ -76,6 +76,13 @@ Requests for financial support can be made through the official CRM website for 
 
 __ http://www.crm.umontreal.ca/2012/Sage12/aid_e.php
 
+Lodging
+-------
+
+See the `Accomodation`__ page of the Official CRM website for this event. Each participant should book their own hotel room.
+
+__ http://www.crm.umontreal.ca/2012/Sage12/logement_e.php
+
 Organizing committee
 --------------------
 
