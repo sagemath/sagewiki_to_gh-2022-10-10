@@ -123,31 +123,31 @@ Preliminary Schedule
 Participants
 ------------
 
-- Frank Ban, University of Waterloo, CANADA
-- Chris Berg, LaCIM, Montréa, CANADA
-- Alexandre Blondin Massé, Université du Québec à Chicoutimi, CANADA
-- Pierre Bouchard, Université du Québec à Montréal, CANADA
-- Juan Carlos Bustamante, Université de Sherbrooke, CANADA
-- Sean Carrell, University of Waterloo, CANADA
+- Frank Ban, University of Waterloo, Canada
+- Chris Berg, LaCIM, Montréal, Canada
+- Alexandre Blondin Massé, Université du Québec à Chicoutimi, Canada
+- Pierre Bouchard, Université du Québec à Montréal, Canada
+- Juan Carlos Bustamante, Université de Sherbrooke, Canada
+- Sean Carrell, University of Waterloo, Canada
 - Stephen Doty, Loyola University Chicago, USA
-- Jérôme Fortier, LaCIM UQAM Montréal, CANADA  
+- Jérôme Fortier, LaCIM UQAM Montréal, Canada  
 - Darij Grinberg, Massachusetts Institute of Technology, USA
-- Mathieu Guay-Paquet, University of Waterloo, CANADA
-- Holly Heglin, York University, CANADA
-- François Huard, Bishop’s University, Sherbrooke, CANADA
-- Mélodie Lapointe, UQAC, Chicoutimi, CANADA
-- Syed Lavasani, University of Calgary, CANADA
-- Dorota Mazur, York University, CANADA
-- Nishan Mudalige, York University, CANADA
-- Viviane Pons, Université Paris-Est Marne-la-Vallée, FRANCE
-- Vivien Ripoll, LaCIM, UQAM, Montréal, CANADA
-- Eric Rowland, LaCIM, UQAM, Montréal, CANADA 
+- Mathieu Guay-Paquet, University of Waterloo, Canada
+- Holly Heglin, York University, Canada
+- François Huard, Bishop’s University, Sherbrooke, Canada
+- Mélodie Lapointe, UQAC, Chicoutimi, Canada
+- Syed Lavasani, University of Calgary, Canada
+- Dorota Mazur, York University, Canada
+- Nishan Mudalige, York University, Canada
+- Viviane Pons, Université Paris-Est Marne-la-Vallée, France
+- Vivien Ripoll, LaCIM, UQAM, Montréal, Canada
+- Eric Rowland, LaCIM, UQAM, Montréal, Canada 
 - Travis Scrimshaw, University of California Davis, USA
 - George Seelinger, Loyola University Chicago, USA
-- Tarek Sellami, Institut de Mathématique de Luminy, Marseille, FRANCE
+- Tarek Sellami, Institut de Mathématique de Luminy, Marseille, France
 - James Stark, University of Washington, Seattle, WA USA
-- Christian Stump, Berlin, GERMANY
-- Hugo Tremblay, Université du Québec à Montréal, CANADA
+- Christian Stump, Berlin, Germany
+- Hugo Tremblay, Université du Québec à Montréal, Canada
 
 
 }}}
