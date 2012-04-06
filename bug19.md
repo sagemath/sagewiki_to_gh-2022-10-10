@@ -27,7 +27,7 @@ The following people are likely to participate
  * Karl-Dieter Crisman (Gordon College)
  * Jeroen Demeyer (Ghent University, Belgium)
  * Dan Drake (Korea Advanced Institute of Science and Technology)
- * Benjamin Jones (University of Wisconsin-Stout)
+ * Benjamin Jones (University of Wisconsin-Stout) ''arriving SEATAC at 1:21p May 24 on DL 1753''
  * Keshav Kini (Nanyang Technological University)
  * Doug !McNeil
  * Andrey Novoseltsev (University of Alberta)
