@@ -24,7 +24,7 @@ This is a collection of pages demonstrating the use of [[http://sagemath.org/doc
 
 This is the code and a mockup animation of the interact command. It defines a slider, seen on top, that can be dragged. Once dragged, it changes the value of the variable "order" and the whole block of code gets evaluated. This principle can be seen in various examples presented on the pages above!
 
-{{{#!python numbers=none
+{{{#!sagecell
 var('x')
 x0  = 0
 f   = sin(x)*e^(-x)
