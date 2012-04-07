@@ -6,7 +6,7 @@ goto [[interact|interact main page]]
 
 == Curves of Pursuit ==
 by Marshall Hampton.  
-{{{#!sagecell#!sagecell
+{{{#!sagecell
 npi = RDF(pi)
 from math import cos,sin
 def rot(t):
