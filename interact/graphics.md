@@ -6,7 +6,7 @@ goto [[interact|interact main page]]
 
 == Curves of Pursuit ==
 by Marshall Hampton.  
-{{{
+{{{#!sagecell#!sagecell
 npi = RDF(pi)
 from math import cos,sin
 def rot(t):
@@ -48,7 +48,7 @@ def curves_of_pursuit(n = slider([2..20],default = 5, label="# of points"),steps
 {{attachment:pcurves.png}}
 
 == Catalog of 3D Parametric Plots ==
-{{{
+{{{#!sagecell
 var('u,v')
 plots = ['Two Interlinked Tori', 'Star of David', 'Double Heart',
          'Heart', 'Green bowtie', "Boy's Surface", "Maeder's Owl",
@@ -118,7 +118,7 @@ def _(example=selector(plots, buttons=True, nrows=2),
 
 == Interactive rotatable raytracing with Tachyon3d ==
 
-{{{
+{{{#!sagecell
 C = cube(color=['red', 'green', 'blue'], aspect_ratio=[1,1,1],
          viewer='tachyon') + sphere((1,0,0),0.2)
 @interact
@@ -131,7 +131,7 @@ def example(theta=(0,2*pi), phi=(0,2*pi), zoom=(1,(1,4))):
 
 
 == Interactive 3d plotting ==
-{{{
+{{{#!sagecell
 var('x,y')
 @interact
 def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='(-2,2)', 
@@ -154,14 +154,14 @@ def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='
 
 == Somewhat Silly Egg Painter ==
 by Marshall Hampton (refereed by William Stein)
-{{{
+{{{#!sagecell
 var('s,t')
 g(s) = ((0.57496*sqrt(121 - 16.0*s^2))/sqrt(10.+ s))
 def P(color, rng):
     return parametric_plot3d((cos(t)*g(s), sin(t)*g(s), s), (s,rng[0],rng[1]), (t,0,2*pi), plot_points = [150,150], rgbcolor=color, frame = False, opacity = 1)
 colorlist = ['red','blue','red','blue']
 }}}
-{{{
+{{{#!sagecell
 @interact
 def _(band_number = selector(range(1,5)), current_color = Color('red')):
     html('<h1 align=center>Egg Painter</h1>')
@@ -173,7 +173,7 @@ def _(band_number = selector(range(1,5)), current_color = Color('red')):
 
 == Plot Coloring ==
 by Timothy Clemans
-{{{
+{{{#!sagecell
 @interact
 def color_experimenter(expression=input_box('', 'Expression', str), color=Color('red')):
     if expression:
@@ -186,7 +186,7 @@ def color_experimenter(expression=input_box('', 'Expression', str), color=Color(
 
 == Interactive 2D Plotting ==
 by Timothy Clemans
-{{{
+{{{#!sagecell
 def error_msg(msg):
     print '<html><p style="font-family:Arial, sans-serif;color:#000"><span style="color:red;font-weight:bold">Error</span>: %s</p></html>' % msg
 
@@ -219,7 +219,7 @@ def interactive_2d_plotter(expression=input_box('sin(x)', 'Expression', str), x_
 {{attachment:interactive_2d_plotting.png}}
 
 == Interact with matplotlib ==
-{{{
+{{{#!sagecell
 # Simple example demonstrating how to interact with matplotlib directly.
 # Comment plt.clf() to get the plots overlay in each update.
 # Gokhan Sever & Harald Schilly (2010-01-24)
@@ -240,7 +240,7 @@ def plot_norm(loc=(0,(0,10)), scale=(1,(1,10))):
 {{attachment:matplotlib_interact.png}}
 
 == Spirograph ==
-{{{
+{{{#!sagecell
 #---------------------------#
 # Javier Pérez Lázaro       #
 # Logroño (Spain)           #
