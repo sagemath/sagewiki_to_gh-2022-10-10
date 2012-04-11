@@ -5,7 +5,7 @@ goto [[interact|interact main page]]
 
 == Groebner fan of an ideal ==
 by Marshall Hampton; (needs sage-2.11 or higher, with gfan-0.3 interface)
-{{{
+{{{#!sagecell
 @interact
 def gfan_browse(p1 = input_box('x^3+y^2',type = str, label='polynomial 1: '), p2 = input_box('y^3+z^2',type = str, label='polynomial 2: '), p3 = input_box('z^3+x^2',type = str, label='polynomial 3: ')):
     R.<x,y,z> = PolynomialRing(QQ,3)
@@ -19,7 +19,7 @@ def gfan_browse(p1 = input_box('x^3+y^2',type = str, label='polynomial 1: '), p2
 
 == 3D Groebner fan browser ==
 by Marshall Hampton
-{{{
+{{{#!sagecell
 def proj4_to_3(gfanobj, poly4):
     fpoints = poly4.vertices()
     tpoints = [gfanobj._embed_tetra(q) for q in fpoints]
@@ -116,7 +116,7 @@ def Groebner_fan_browser(bsel = slider(0,100,.1,0,label='Individual basis select
 == Numerical Solutions of Polynomial Systems with PHCpack ==
 by Marshall Hampton; requires phcpack optional package (PHCpack written by Jan Verschelde).
 The example below is a two-parameter deformation of the cyclic-6 problem.  Solution paths are tracked through the parameter homotopy.  
-{{{
+{{{#!sagecell
 from sage.interfaces.phc import phc
 zringA.<z0,z1,z2,z3,z4,z5,a,b> = PolynomialRing(QQ,8)
 cyclic6 = [z0 + z1 + z2 + z3 + z4 + z5+a,
