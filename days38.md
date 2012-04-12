@@ -108,7 +108,7 @@ Preliminary Schedule
     |     |Installations   |by MTLPython)    |by MTLPython)   |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Open            |
-    |     |(Notebook)      |(PyCox by Geck)  |                | Cython         |Presentations   |
+    |     |(Notebook)      |(PyCox by Geck)  |                |- Cython        |Presentations   |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |12h30|Lunch           |Lunch            |Lunch           |Lunch           |Lunch           |
     +-----+                |                 |                |                |                |
