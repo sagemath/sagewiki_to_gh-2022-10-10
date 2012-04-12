@@ -105,7 +105,7 @@ Preliminary Schedule
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |10h30|Tour de Table   |Tutorial III     |Tutorial IV     |Flash           |Open            |
     |     |and             |- given          |- given         |Presentations   |Presentations   |
-    |     |Installations   |  by MTLPython   |  by MTLPython  |                |                |
+    |     |Installations   |by MTLPython     |by MTLPython    |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Open            |
     |     |- Notebook      |- PyCox by Geck  |                |- Cython        |Presentations   |
