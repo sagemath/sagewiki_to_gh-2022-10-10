@@ -38,6 +38,7 @@ Invited speakers
 * Anne Schilling, University of California Davis
 * Øyvind Solberg, Norwegian University of Science and Technology
 * Nicolas Thiéry, LMO, Université Paris-Sud
+* Derek Ruths, McGill University
 
 
 Who should attend
