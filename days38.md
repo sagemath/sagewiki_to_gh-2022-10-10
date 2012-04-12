@@ -115,20 +115,21 @@ Preliminary Schedule
     +-----+                |                 |                |                |                |
     |13h30|                |                 |                |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |14h30|Tutorial II     |Exercices        |Exercices       |Exercices       |Exercices       |
-    |     |- Calculus and  |                 |                |                |                |
-    |     |Linear Algebra  |and/or           |and/or          |and/or          |and/or          |
+    |14h30|Tutorial II     |Exercices and    |Exercices and   |Exercices and   |Exercices and   |
+    |     |- Calculus and  |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
+    |     |Linear Algebra  |                 |                |                |                |
     |     |in Sage         |                 |                |                |                |
-    +-----+----------------+                 |                |                |                |
-    |15h30|Coding Sprints  |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
-    +-----+                |                 |                |                |                |
-    |16h30|                |                 |                |                |                |
+    +-----+----------------+-----------------+----------------+----------------+----------------+
+    |15h30|Coffee Break    |Coffee Break     |Coffee Break    |Coffee Break    |Coffee Break    |
+    +-----+----------------+-----------------+----------------+----------------+----------------+
+    |16h00|Coding Sprints  |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |17h00|Status Reports  |Status Reports   |Status Reports  |Status Reports  |Status Reports  |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |17h30|Dinner          |Dinner           |Dinner          |Dinner          |Dinner          |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |19h00|Special Event?  |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
+    |18h30|Montréal Python |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
+    |     |Meeting         |                 |                |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
 
 Participants
@@ -161,6 +162,7 @@ Participants
 - Hugo Tremblay, Université du Québec à Montréal, Canada
 - Aaron Lauve, Loyola University Chicago, USA
 - Paul Guertin, Collège André-Grasset, Montréal, Canada
+- Mathieu Perreault, Montréal Python and McGill University, Canada
 
 
 }}}
