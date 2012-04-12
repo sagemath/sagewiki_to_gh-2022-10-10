@@ -155,6 +155,8 @@ Participants
 - James Stark, University of Washington, Seattle, WA USA
 - Christian Stump, Berlin, Germany
 - Hugo Tremblay, Université du Québec à Montréal, Canada
+- Aaron Lauve, Loyola University Chicago, USA
+- Paul Guertin, Collège André-Grasset, Montréal, Canada
 
 
 }}}
