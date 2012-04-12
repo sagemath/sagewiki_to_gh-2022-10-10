@@ -104,8 +104,9 @@ Preliminary Schedule
     |10h00|Coffee Break    |Coffee Break     |Coffee Break    |Coffee Break    |Coffee Break    |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |10h30|Tour de Table   |Tutorial III     |Tutorial IV     |Flash           |Open            |
-    |     |and             |- given          |- given         |Presentations   |Presentations   |
-    |     |Installations   |by MTLPython     |by MTLPython    |                |                |
+    |     |and             |- basic Python   |- some usefull  |Presentations   |Presentations   |
+    |     |Installations   |given by         |libraries by    |                |                |
+    |     |                |Montréal Python  |Montréal Python |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Open            |
     |     |- Notebook      |- PyCox by Geck  |                |- Cython        |Presentations   |
@@ -117,6 +118,7 @@ Preliminary Schedule
     |14h30|Tutorial II     |Exercices        |Exercices       |Exercices       |Exercices       |
     |     |- Calculus and  |                 |                |                |                |
     |     |Linear Algebra  |and/or           |and/or          |and/or          |and/or          |
+    |     |in Sage         |                 |                |                |                |
     +-----+----------------+                 |                |                |                |
     |15h30|Coding Sprints  |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
     +-----+                |                 |                |                |                |
