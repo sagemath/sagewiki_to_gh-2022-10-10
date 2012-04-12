@@ -99,24 +99,26 @@ Preliminary Schedule
     | 8h30|Registration  |              |              |              |              |
     +-----+--------------+--------------+--------------+--------------+--------------+
     |09h00|Introduction  |Talk          |Talk          |Flash         |Open          |
-    |     |              |              |              |Presentations |Presentations |
+    |     |to Sage       |QPA by Solberg|Zen by Ruths  |Presentations |Presentations |
     +-----+--------------+--------------+--------------+--------------+--------------+
     |10h00|Coffee Break  |Coffee Break  |Coffee Break  |Coffee Break  |Coffee Break  |
     +-----+--------------+--------------+--------------+--------------+--------------+
-    |10h30|Tour de Table |Talk          |Talk          |Flash         |Open          |
-    |     |and           |              |              |Presentations |Presentations |
-    |     |Installations |              |              |              |              |
+    |10h30|Tour de Table |Tutorial III  |Tutorial IV   |Flash         |Open          |
+    |     |and           | given        | given        |Presentations |Presentations |
+    |     |Installations | by MTLPython | by MTLPython |              |              |
     +-----+--------------+--------------+--------------+--------------+--------------+
-    |11h30|Tutorial I    |Tutorial III  |Tutorial IV   |Tutorial V    |Open          |
-    |     |              |              |              |              |Presentations |
+    |11h30|Tutorial I    |Talk          |Tutorial V    |Tutorial VI   |Open          |
+    |     | the Notebook |PyCox by Geck |              |Cython        |Presentations |
     +-----+--------------+--------------+--------------+--------------+--------------+
     |12h30|Lunch         |Lunch         |Lunch         |Lunch         |Lunch         |
     +-----+              |              |              |              |              |
     |13h30|              |              |              |              |              |
     +-----+--------------+--------------+--------------+--------------+--------------+
-    |14h30|Tutorial II   |Coding Sprints|Coding Sprints|Coding Sprints|Coding Sprints|
+    |14h30|Tutorial II   |  Exercices   |  Exercices   |  Exercices   |  Exercices   |
+    |     |Calculus and  |              |              |              |              |
+    |     |Linear Algebra|    and/or    |     and/or   |     and/or   |     and/or   |
     +-----+--------------+              |              |              |              |
-    |15h30|Coding Sprints|              |              |              |              |
+    |15h30|Coding Sprints|Coding Sprints|Coding Sprints|Coding Sprints|Coding Sprints|
     +-----+              |              |              |              |              |
     |16h30|              |              |              |              |              |
     +-----+--------------+--------------+--------------+--------------+--------------+
