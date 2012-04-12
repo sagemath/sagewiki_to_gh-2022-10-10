@@ -163,7 +163,6 @@ Participants
 - Hugo Tremblay, Université du Québec à Montréal, Canada
 - Aaron Lauve, Loyola University Chicago, USA
 - Paul Guertin, Collège André-Grasset, Montréal, Canada
-- Mathieu Perreault, Montréal Python and McGill University, Canada
 
 
 }}}
