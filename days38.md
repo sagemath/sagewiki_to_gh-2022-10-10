@@ -97,7 +97,8 @@ Preliminary Schedule
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |     |MONDAY          |TUESDAY          |WEDNESDAY       |THURSDAY        |FRIDAY          |
     +=====+================+=================+================+================+================+
-    | 8h30|Registration    |                 |                |                |                |
+    | 8h30|Registration    |Coffee &         |Coffee &        |Coffee &        |Coffee &        |
+    |     |                |Croissants       |Croissants      |Croissants      |Croissants      |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |09h00|Introduction    |Talk             |Talk            |Flash           |Open            |
     |     |to Sage         |- QPA by Solberg |- Zen by Ruths  |Presentations   |Presentations   |
@@ -127,7 +128,7 @@ Preliminary Schedule
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |17h00|Status Reports  |Status Reports   |Status Reports  |Status Reports  |Status Reports  |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |17h30|Dinner          |Dinner           |Dinner          |Dinner          |Dinner          |
+    |17h30|Buffet at CRM   |Dinner           |Dinner          |Dinner          |Dinner          |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |18h30|Montréal Python |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
     |     |Meeting         |                 |                |                |                |
