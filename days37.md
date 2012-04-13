@@ -19,3 +19,4 @@ For more information, contact:
 == Participants ==
 
   * [[ http://buzzard.pugetsound.edu/|Rob Beezer]]
+  * Yasuhide NUMATA
