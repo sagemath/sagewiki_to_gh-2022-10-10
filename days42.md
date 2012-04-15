@@ -11,6 +11,12 @@ This will be a 4-day workshop which will include a combination of mathematical t
  * Note: check-in at the Lodge is at 3pm on July 15; check-out is 11am on the 19th
  * Floorplan: [[attachment:floorplan.jpg]] (15 beds)  
 
+== Speakers ==
+
+ * Jennifer Johnson-Leung (University of Idaho)
+ * Kristin Lauter (Microsoft Research)
+ * Michelle Manes (University of Hawaii)
+
 == How to Apply ==
  
  * To be considered for this workshop, fill out this [[https://docs.google.com/spreadsheet/viewform?formkey=dHJ0a0pVRGpQRXdsS2FDN2d1YUdkMlE6MQ|form]] by May 1, 2012.
