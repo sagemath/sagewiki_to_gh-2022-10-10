@@ -16,9 +16,13 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component.
 
- * October 29 - November 9, 2012: [[http://www.cimpa-icpam.org/spip.php?article430|CIMPA summer school Discrete mathematics : combinatorial, dynamical and algorithmic aspects|]], with a strong Sage and Sage-Combinat component
+ * October 29 - November 9, 2012: [[http://www.cimpa-icpam.org/spip.php?article430|CIMPA summer school Discrete mathematics : combinatorial, dynamical and algorithmic aspects]], with a strong Sage and Sage-Combinat component
 
- * May 7-11 2012: Sage-Combinat Days, Centre de recherches mathématiques, Montréal, Canada
+ * July 9-13 2012: [[http://www.ima.umn.edu/2011-2012/SW7.9-13.12/|Sage(-Combinat) Days 40]]: Algebraic Combinatorics
+
+ * May 7-11 2012: [[http://wiki.sagemath.org/days38|Sage(-Combinat) Days 38]]: algebraic combinatorics and the representation theory of algebras, Centre de recherches mathématiques, Montréal, Canada
+
+ * April 18-th 2012: Coxeter/Cluster algebra afternoon at the [[http://wiki.sagemath.org/GroupeUtilisateursParis|Paris Sage User Group meeting]]
 
  * February 8-10 2012: [[combinat/ClusterPackageDaysHannover|Sage and cluster algebra workshop, University of Hannover]]
 
