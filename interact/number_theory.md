@@ -4,7 +4,7 @@
 
 == Divisibility Poset ==
 by William Stein
-{{{
+{{{#!sagecell
 @interact
 def _(n=(5..100)):
     Poset(([1..n], lambda x, y: y%x == 0) ).show()
@@ -15,7 +15,7 @@ def _(n=(5..100)):
 
 == Factor Trees ==
 by William Stein
-{{{
+{{{#!sagecell
 import random
 def ftree(rows, v, i, F):
     if len(v) > 0: # add a row to g at the ith level.
@@ -69,7 +69,7 @@ by Timothy Clemans
 
 Sage implementation of the Mathematica demonstration of the same name. http://demonstrations.wolfram.com/FactoringAnInteger/
 
-{{{
+{{{#!sagecell
 @interact
 def _(r=selector(range(0,10000,1000), label='range', buttons=True), n=slider(0,1000,1,2,'n',False)):
     if not r and n in (0, 1):
@@ -83,7 +83,7 @@ def _(r=selector(range(0,10000,1000), label='range', buttons=True), n=slider(0,1
 
 == Illustrating the prime number theorem ==
 by William Stein
-{{{
+{{{#!sagecell
 @interact
 def _(N=(100,(2..2000))):
     html("<font color='red'>$\pi(x)$</font> and <font color='blue'>$x/(\log(x)-1)$</font> for $x < %s$"%N)
@@ -93,7 +93,7 @@ def _(N=(100,(2..2000))):
 
 == Prime Spiral - Square ==
 by David Runde
-{{{
+{{{#!sagecell
 @interact
 def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, invert=false, x_cord=0, y_cord=0, n = 0):
 
@@ -230,7 +230,7 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
 
 == Prime Spiral - Polar ==
 by David Runde
-{{{
+{{{#!sagecell
 @interact
 def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes = false, show_curves=true, n = 0): 
 
@@ -304,7 +304,7 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
 
 == Computing modular forms ==
 by William Stein
-{{{
+{{{#!sagecell
 j = 0
 @interact
 def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40), 
@@ -327,7 +327,7 @@ def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40),
 
 == Computing the cuspidal subgroup ==
 by William Stein
-{{{
+{{{#!sagecell
 html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>')
 @interact
 def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
@@ -340,7 +340,7 @@ def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
 == A Charpoly and Hecke Operator Graph ==
 by William Stein
 
-{{{
+{{{#!sagecell
 # Note -- in Sage-2.10.3; multiedges are missing in plots; loops are missing in 3d plots
 @interact
 def f(N = prime_range(11,400),
@@ -363,7 +363,7 @@ def f(N = prime_range(11,400),
 
 == Quadratic Residue Table ==
 by Emily Kirkman
-{{{
+{{{#!sagecell
 from numpy import array as narray
 @interact
 def quad_res_plot(first_n_odd_primes = (20,200),display_size=[7..15]):
@@ -416,7 +416,7 @@ def quad_res_plot(first_n_odd_primes = (20,200),display_size=[7..15]):
 
 == Cubic Residue Table ==
 by Emily Kirkman
-{{{
+{{{#!sagecell
 def power_residue_symbol(alpha, p, m):
     if p.divides(alpha): return 0
     if not p.is_prime():
@@ -497,7 +497,7 @@ def cubic_sym(n=(10..35),display_size=[7..15]):
 
 == Gauss and Jacobi Sums in Complex Plane ==
 by Emily Kirkman
-{{{
+{{{#!sagecell
 def jacobi_sum(e,f):
     # If they are both trivial, return p
     if e.is_trivial() and f.is_trivial():
@@ -577,7 +577,7 @@ def single_jacobi_plot(p=prime_range(3,100), e_range=(0..100), f_range=(0..100))
 
 == Exhaustive Jacobi Plotter ==
 by Emily Kirkman
-{{{
+{{{#!sagecell
 def jacobi_sum(e,f):
     # If they are both trivial, return p
     if e.is_trivial() and f.is_trivial():
@@ -669,7 +669,7 @@ def exhaustive_jacobi_plot(p=prime_range(3,8)):
 
 == Adding points on an elliptic curve ==
 by David Møller Hansen
-{{{
+{{{#!sagecell
 def point_txt(P,name,rgbcolor):
     if (P.xy()[1]) < 0:
         r = text(name,[float(P.xy()[0]),float(P.xy()[1])-1],rgbcolor=rgbcolor)
@@ -745,7 +745,7 @@ def line_from_curve_points(E,P,Q,style='-',rgb=(1,0,0),length=25):
 
 
 == Plotting an elliptic curve over a finite field ==
-{{{
+{{{#!sagecell
 E = EllipticCurve('37a')
 @interact
 def _(p=slider(prime_range(1000), default=389)):
@@ -760,7 +760,7 @@ def _(p=slider(prime_range(1000), default=389)):
 
 == The Diffie-Hellman Key Exchange Protocol ==
 by Timothy Clemans and William Stein
-{{{
+{{{#!sagecell
 @interact
 def diffie_hellman(bits=slider(8, 513, 4, 8, 'Number of bits', False),
     button=selector(["Show new example"],label='',buttons=True)):
@@ -811,7 +811,7 @@ font-weight:bold
 
 == Continued Fraction Plotter ==
 by William Stein
-{{{
+{{{#!sagecell
 @interact
 def _(number=e, ymax=selector([None,5,20,..,400],nrows=2), clr=Color('purple'), prec=[500,1000,..,5000]):
     c = list(continued_fraction(RealField(prec)(number))); print c
@@ -821,7 +821,7 @@ def _(number=e, ymax=selector([None,5,20,..,400],nrows=2), clr=Color('purple'), 
 
 == Computing Generalized Bernoulli Numbers ==
 by William Stein (Sage-2.10.3)
-{{{
+{{{#!sagecell
 @interact
 def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
     G = DirichletGroup(m)
@@ -842,7 +842,7 @@ def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
 
 == Fundamental Domains of SL_2(ZZ) ==
 by Robert Miller
-{{{
+{{{#!sagecell
 L = [[-0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000, -1, -1)]
 R = [[0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000)]
 xes = [x/1000.0 for x in xrange(-500,501,1)]
