@@ -3,7 +3,7 @@ goto [[interact|interact main page]]
 <<TableOfContents>>
 == Cobweb diagrams on [0,1] ==
 by Marshall Hampton.
-{{{
+{{{#!sagecell
 def cobweb(a_function, start, mask = 0, iterations = 20, xmin = 0, xmax = 1):
     '''
     Returns a graphics object of a plot of the function and a cobweb trajectory starting from the value start.
