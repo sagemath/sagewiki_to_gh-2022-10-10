@@ -5,7 +5,7 @@ goto [[interact|interact main page]]
 
 == Numerical instability of the classical Gram-Schmidt algorithm ==
 by Marshall Hampton (tested by William Stein, who thinks this is really nice!)
-{{{
+{{{#!sagecell
 def GS_classic(a_list):
     '''
     Given a list of vectors or a matrix, returns the QR factorization using the classical (and numerically unstable) Gram-Schmidt algorithm.    
@@ -66,7 +66,7 @@ by Jason Grout
 
 A square matrix defines a linear transformation which rotates and/or scales vectors.  In the interact command below, the red vector represents the original vector (v) and the blue vector represents the image w under the linear transformation.  You can change the angle and length of v by changing theta and r.
 
-{{{
+{{{#!sagecell
 @interact
 def linear_transformation(theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, default=1)):
     A=matrix([[1,-1],[-1,1/2]])
@@ -81,7 +81,7 @@ def linear_transformation(theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, defaul
 == Gerschgorin Circle Theorem ==
 by Marshall Hampton.  This animated version requires convert (imagemagick) to be installed, but it can easily be modified to a static version.
 The animation illustrates the idea behind the stronger version of Gerschgorin's theorem, which says that if the disks around the eigenvalues are disjoint then there is one eigenvalue per disk.  The proof is by continuity of the eigenvalues under a homotopy to a diagonal matrix. 
-{{{
+{{{#!sagecell
 from scipy import linalg
 html('<h2>The Gerschgorin circle theorem</h2>')
 @interact
@@ -129,7 +129,7 @@ def Gerschgorin(Ain = input_box(default='[[10,1,1/10,0],[-1,9,0,1],[1,0,2,3/10],
 
 == Singular value decomposition ==
 by Marshall Hampton
-{{{
+{{{#!sagecell
 import scipy.linalg as lin
 var('t')
 def rotell(sig,umat,t,offset=0):
@@ -163,7 +163,7 @@ def svd_vis(a11=slider(-1,1,.05,1),a12=slider(-1,1,.05,1),a21=slider(-1,1,.05,0)
 
 == Discrete Fourier Transform ==
 by Marshall Hampton
-{{{
+{{{#!sagecell
 import scipy.fftpack as Fourier
 @interact
 def discrete_fourier(f = input_box(default=sum([sin(k*x) for k in range(1,5,2)])), scale = slider(.1,20,.1,5)):
@@ -180,7 +180,7 @@ def discrete_fourier(f = input_box(default=sum([sin(k*x) for k in range(1,5,2)])
 
 == The Gauss-Jordan method for inverting a matrix ==
 by Hristo Inouzhe
-{{{
+{{{#!sagecell
 #Choose the size D of the square matrix:
 D = 3
 
