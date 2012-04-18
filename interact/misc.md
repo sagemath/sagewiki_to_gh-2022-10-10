@@ -7,7 +7,7 @@ goto [[interact|interact main page]]
 == Hearing a trigonometric identity ==
 by Marshall Hampton.  When the two frequencies are well separated, we hear the right hand side of the identity.  When they start getting close, we hear the higher-pitched factor in the left-hand side modulated by the lower-pitched envelope.
 
-{{{
+{{{#!sagecell
 import wave
 
 class SoundFile:
@@ -46,7 +46,7 @@ def sinsound(freq_ratio =  slider(0,1,1/144,1/12)):
 == Karplus-Strong algorithm for plucked and percussive sound generation ==
 by Marshall Hampton
 
-{{{
+{{{#!sagecell
 import wave
 
 class SoundFile:
@@ -104,7 +104,7 @@ def sinsound(delay = slider([int(2^i) for i in range(2,10)], default=100, label=
 
 == An Interactive Venn Diagram ==
 
-{{{
+{{{#!sagecell
 def f(s, braces=True): 
     t = ', '.join(sorted(list(s)))
     if braces: return '{' + t + '}'
@@ -160,7 +160,7 @@ def _(X='1,2,3,a', Y='2,a,3,4,apple', Z='a,b,10,apple'):
 
 == Unreadable code ==
 by Igor Tolkov
-{{{
+{{{#!sagecell
 @interact
 def _(h=(20,(1,36,1))):
     print (lambda f:f(0,f))(
@@ -174,7 +174,7 @@ def _(h=(20,(1,36,1))):
 
 
 == Profile a snippet of code ==
-{{{
+{{{#!sagecell
 html('<h2>Profile the given input</h2>')
 import cProfile; import profile
 @interact
@@ -194,7 +194,7 @@ def _(cmd = ("Statement", '2 + 2'),
 === Evaluate a bit of code in a given system ===
 
 by William Stein (there is no way yet to make the text box big):
-{{{
+{{{#!sagecell
 @interact
 def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), code='2+2'):
     print globals()[system].eval(code)
@@ -205,7 +205,7 @@ def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), 
 
 == Minkowski Sum ==
 by Marshall Hampton
-{{{
+{{{#!sagecell
 def minkdemo(list1,list2):
     '''
     Returns the Minkowski sum of two lists.
@@ -253,7 +253,7 @@ def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), y
 == Cellular Automata ==
 by Pablo Angulo, Eviatar Bach
 
-{{{
+{{{#!sagecell
 %python
 
 from numpy import zeros
@@ -285,7 +285,7 @@ def num2rule(number):
     return binary_digits + [0]*(8-len(binary_digits))
 }}}
 Put in separate cell:
-{{{
+{{{#!sagecell
 @interact
 def _( initial=selector(['Single-cell', 'Random'], label='Starting condition'), N=input_box(label='Number of iterations',default=100),
        rule_number=input_box(label='Rule number',default=110),
