@@ -7,7 +7,7 @@ goto [[interact|interact main page]]
 == Molar Mass Calculator ==
 by Eviatar Bach
 
-{{{
+{{{#!sagecell
 import re, urllib, decimal
 def molarmass(compound):
     '''Parses formulas and calculates molar mass using atomic weights at http://www.chem.qmul.ac.uk/iupac/AtWt/'''
