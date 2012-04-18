@@ -23,8 +23,8 @@ def protein_browser(GenBank_ID = input_box('165940577', type = str), file_type =
 
 == Coalescent simulator ==
 by Marshall Hampton
-{{{#!sagecell
 sagecell-issues
+{{{#!sagecell
 def next_gen(x, selection=1.0):
     '''Creates the next generation from the previous; also returns parent-child indexing list'''
     next_x = []
