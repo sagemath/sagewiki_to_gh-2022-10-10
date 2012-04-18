@@ -122,7 +122,7 @@ CategoryCategory
 
 == Exploring Mandelbrot ==
 Pablo Angulo
-{{{#!sagecell
+{{{
 %cython
 import numpy as np
 cimport numpy as np
@@ -151,7 +151,7 @@ def mandelbrot_cython(float x0,float  x1,float  y0,float  y1,
             m[j,k]=h
     return m
 }}}
-{{{#!sagecell
+{{{
 import pylab
 x0_default = -2
 y0_default = -1.5
