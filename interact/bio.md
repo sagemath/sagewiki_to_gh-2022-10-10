@@ -5,7 +5,8 @@ goto [[interact|interact main page]]
 
 == Web app: protein browser ==
 by Marshall Hampton (tested by William Stein)
-{{{
+sagecell-issues
+{{{#!sagecell
 import urllib2 as U
 @interact
 def protein_browser(GenBank_ID = input_box('165940577', type = str), file_type = selector([(1,'fasta'),(2,'GenPept')])):
@@ -22,7 +23,8 @@ def protein_browser(GenBank_ID = input_box('165940577', type = str), file_type =
 
 == Coalescent simulator ==
 by Marshall Hampton
-{{{
+{{{#!sagecell
+sagecell-issues
 def next_gen(x, selection=1.0):
     '''Creates the next generation from the previous; also returns parent-child indexing list'''
     next_x = []
