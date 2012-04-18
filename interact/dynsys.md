@@ -44,7 +44,7 @@ def cobwebber(f_text = input_box(default = "3.8*x*(1-x)",label = "function", typ
 
 == Cythonized Logistic Orbit Map ==
 By Marshall Hampton
-{{{#!sagecell
+{{{
 %cython
 cpdef double logorb(double k,long N,double x0):
     cdef double x = x0
@@ -62,7 +62,7 @@ cpdef logtraj(double k,long N, double x0):
         xvals.append(x)
     return xvals
 }}}
-{{{#!sagecell
+{{{
 html('<h2>Orbit diagram of the logistic map</h2>')
 @interact
 def logistic_bifs(k_min = slider(0.0,4.0,.001,3.5), k_max = slider(0.0,4.0,.001,4.0)):
