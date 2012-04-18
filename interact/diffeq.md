@@ -5,7 +5,7 @@ goto [[interact|interact main page]]
 
 == Euler's Method in one variable ==
 by Marshall Hampton. This needs some polishing but its usable as is.
-{{{
+{{{#!sagecell
 def tab_list(y, headers = None):
     '''
     Converts a list into an html table with borders.
@@ -46,7 +46,7 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
 
 == Vector Fields and Euler's Method ==
 by Mike Hansen (tested and updated by William Stein, and later by Dan Drake)
-{{{
+{{{#!sagecell
 x,y = var('x,y')
 from sage.ext.fast_eval import fast_float
 @interact
@@ -80,7 +80,7 @@ def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x),
 
 == Vector Field with Runga-Kutta-Fehlberg ==
 by Harald Schilly
-{{{
+{{{#!sagecell
 # Solve ODEs using sophisticated Methods like Runga-Kutta-Fehlberg
 # by Harald Schilly, April 2008
 # (jacobian doesn't work, please fix ...)
@@ -129,7 +129,7 @@ def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=inpu
 
 == Linear two-dimensional ODEs ==
 by Marshall Hampton
-{{{
+{{{#!sagecell
 %cython
 cpdef c_euler_m(double t0, double x10, double x20, double tend, int steps, double a11, double a12, double a21, double a22, double cutoff = 10):
     cdef double h = (tend-t0)/steps
@@ -149,7 +149,7 @@ cpdef c_euler_m(double t0, double x10, double x20, double tend, int steps, doubl
         x2current = newx2
     return traj
 }}}
-{{{
+{{{#!sagecell
 @interact
 def planarsystem(a11 = slider(srange(-10,10,1/10),default = -1), a12 = slider(srange(-10,10,1/10),default = -1), a21 = slider(srange(-10,10,1/10),default = 1), a22 = slider(srange(-10,10,1/10),default = -1), time_tracked = slider(srange(1,100,1.0),default=10)):
     A = matrix(RDF,[[a11,a12],[a21,a22]])
@@ -172,7 +172,7 @@ def planarsystem(a11 = slider(srange(-10,10,1/10),default = -1), a12 = slider(sr
 
 == Euler's Method, Improved Euler, and 4th order Runge-Kutta in one variable ==
 by Marshall Hampton.  This is a more baroque version of the Euler's method demo above.
-{{{
+{{{#!sagecell
 def ImpEulerMethod(xstart, ystart, xfinish, nsteps, f):
     sol = [ystart]
     xvals = [xstart]
@@ -252,7 +252,7 @@ These two interacts involve some Cython code or other scipy imports, so I've pos
 
 == Picard iteration example ==
 by Marshall Hampton and David Joyner
-{{{
+{{{#!sagecell
 def picard_iteration(f, a, c, iterations):
     '''
     Computes the N-th Picard iterate for the IVP  
@@ -300,7 +300,7 @@ def picarder(n_iterations = slider(0,20,1,default = 2)):
 
 == Euler-Maruyama method and geometric Brownian motion (a common simple model of the stock market) ==
 by Marshall Hampton
-{{{
+{{{#!sagecell
 def EulerMaruyama(xstart, ystart, xfinish, nsteps, f1, f2): 
     sol = [ystart] 
     xvals = [xstart] 
@@ -334,7 +334,7 @@ def EulerMaruyamaExample(mu = slider(srange(0,10,.1),default=2.0),sigma = slider
 by Marshall Hampton
 This needs the Cython functon defined in a seperate cell.  Note that it is not a particularly good example of Cython use.
 
-{{{
+{{{#!sagecell
 %cython
 cpdef RK4_1d(f, double t_start, double y_start, double t_end, int steps, double y_upper = 10**6, double y_lower = -10**6):
     '''
@@ -360,7 +360,7 @@ cpdef RK4_1d(f, double t_start, double y_start, double t_end, int steps, double 
     return answer_table
 }}}
 
-{{{
+{{{#!sagecell
 from sage.rings.polynomial.real_roots import *
 var('x')
 @interact
@@ -390,7 +390,7 @@ def autonomous_plot(poly=input_box(x*(x-1)*(x-2),label='polynomial'), t_end = sl
 == Heat equation using Fourier series ==
 by Pablo Angulo
 
-{{{
+{{{#!sagecell
 var('x')
 x0  = 0
 k=1
@@ -411,7 +411,7 @@ def _(tiempo = (0.1*j for j in (0..10)) ):
 == Heat equation using finite diferences in cython ==
 by Pablo Angulo
 
-{{{
+{{{#!sagecell
 %cython
 #cython code implementing a very simple finite diference scheme
 import numpy as np
@@ -427,7 +427,7 @@ def calor_cython(u0,float dx, float k,float t_f,int tsteps):
     return u
 }}}
 
-{{{
+{{{#!sagecell
 #interact box wrapping the code above
 var('x')
 
@@ -454,7 +454,7 @@ def _(f=input_box(default=x*exp(-x^2),label='f(x)'), longitud=input_box(default=
 
 The following interact demo looks at the DE+BC y'+y=0, y(0)=a, y(b)=c, and has a slider for b. When b=pi "problems arise":-)
 
-{{{
+{{{#!sagecell
 var('x')
 @interact
 def BCs(b=input_box(1,label='BC at far endpoint'), c = slider(1,5,step_size = .01), a = 1): 
