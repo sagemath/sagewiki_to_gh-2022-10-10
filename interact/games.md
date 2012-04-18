@@ -12,7 +12,7 @@ by William Stein and Sequoia Lefthand
 
 {{attachment:zeros.png}}
 
-{{{
+{{{#!sagecell
 import random
 
 def init():
@@ -65,7 +65,7 @@ def zeros(a=("",selector(buttons=True, nrows=1, values=['Reset'] + [1..B], defau
 == Queens on board ==
 An interaction to play with the problem of placing eight queens on a board so that they do not threaten each other. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3.
 by Pablo Angulo
-{{{
+{{{#!sagecell
 queens=[]
 opciones=['Clean board', 'Add queen', 'Remove queen' ]
 
@@ -106,7 +106,7 @@ def _(queen=input_box(default=(0,0)), opcion=selector(opciones, buttons=True), a
 == Nim ==
 Play nim against a perfect opponent. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3.
 by Pablo Angulo
-{{{
+{{{#!sagecell
 #El juego del nim
 def game_repr(heap_sizes):
     return '\n'.join('%d:'%i+'*'*n for i,n in enumerate(heap_sizes))
@@ -132,7 +132,7 @@ def move_nim(heap_sizes):
     amount=2^maxInd -correction
     return (heap,amount)
 }}}
-{{{
+{{{#!sagecell
 nim=[1,3,5,6]
 @interact
 def _(heap=selector(range(len(nim)), buttons=True),
