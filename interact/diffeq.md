@@ -411,7 +411,7 @@ def _(tiempo = (0.1*j for j in (0..10)) ):
 == Heat equation using finite diferences in cython ==
 by Pablo Angulo
 
-{{{
+{{{#!sagecell
 %cython
 #cython code implementing a very simple finite diference scheme
 import numpy as np
