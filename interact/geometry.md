@@ -244,7 +244,7 @@ def render(Display=selector(['2D Perspective', '2D Spring-layout', '3D']), Dimen
 == Crofton's formula ==
 by Pablo Angulo. Illustrates [[http://en.wikipedia.org/wiki/Crofton%27s_formula| Crofton's formula]] by throwing some random lines and computing the intersection number with a given curve. May use either solve for exact computation of the intersections, or may also approximate the curve by straight segments (this is the default).
 
-{{{#!sagecell
+{{{
 from collections import defaultdict
 
 var('t x y')
@@ -332,7 +332,7 @@ def print_stats(d):
     print ', '.join('%d:%d'%(k,v) for k,v in d.iteritems())
     
 }}}
-{{{#!sagecell
+{{{
 @interact
 def crofton_interact(u1 = text_control('x and y coordinates of curve'),
                      curvax = input_box(t^2, label='x(t)' ),
