@@ -6,7 +6,7 @@ goto [[interact|interact main page]]
 == Stock Market data, fetched from Yahoo and Google ==
 by William Stein
 
-{{{
+{{{#!sagecell
 import urllib
 
 class Day:
@@ -129,7 +129,7 @@ def data(symbol = symbols, other_symbol='', spline_samples=(8,[0..15])):
 by Marshall Hampton
 
 While support for R is rapidly improving, scipy.stats has a lot of useful stuff too.  This only scratches the surface.
-{{{
+{{{#!sagecell
 from scipy.optimize import leastsq
 import urllib2 as U
 import scipy.stats as Stat
@@ -184,7 +184,7 @@ def mauna_loa_co2(start_date = slider(1958,current_year,1,1958), end_date = slid
 == Arctic sea ice extent data plot, fetched from NSIDC ==
 by Marshall Hampton
 
-{{{
+{{{#!sagecell
 import urllib2, csv
 months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 longmonths = ['January','February','March','April','May','June','July','August','September','October','November','December']
@@ -224,7 +224,7 @@ def iceplotter(month = selector(zip(range(1,13),longmonths),default = (4, 'April
 == Pie Chart from the Google Chart API ==
 by Harald Schilly
 
-{{{
+{{{#!sagecell
 # Google Chart API: http://code.google.com/apis/chart
 import urllib2 as inet
 from pylab import imshow
