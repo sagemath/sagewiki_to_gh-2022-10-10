@@ -5,7 +5,7 @@ goto [[interact|interact main page]]
 
 == Intersecting tetrahedral reflections ==
 by Marshall Hampton.  Inspired by a question from Hans Schepker of Glass Geometry.
-{{{
+{{{#!sagecell
 #Pairs of tetrahedra, one the reflection of the other in the internal face, are joined by union operations:
 p1 = Polyhedron(vertices = [[1,1,1],[1,1,0],[0,1,1],[1,0,1]])
 p2 = Polyhedron(vertices = [[1/3,1/3,1/3],[1,1,0],[0,1,1],[1,0,1]])
@@ -33,7 +33,7 @@ def tetra_plot(opac = slider(srange(0,1.0,.25), default = .25)):
 
 == Evolutes ==
 by Pablo Angulo. Computes the evolute of a plane curve given in parametric coordinates. The curve must be parametrized from the interval [0,2pi].
-{{{
+{{{#!sagecell
 var('t');
 def norma(v):
     return sqrt(sum(x^2 for x in v))    
@@ -83,7 +83,7 @@ def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)),
 
 == Geodesics on a parametric surface ==
 by Antonio Valdés and Pablo Angulo. A first interact allows the user to introduce a parametric surface, and draws it. Then a second interact draws a geodesic within the surface. The separation is so that after the first interact, the geodesic equations are "compiled", and then the second interact is faster.
-{{{
+{{{#!sagecell
 u, v, t = var('u v t')
 @interact
 def _(x = input_box(3*sin(u)*cos(v), 'x'),
@@ -143,7 +143,7 @@ def _(x = input_box(3*sin(u)*cos(v), 'x'),
                 
 }}}
 {{attachment:geodesics1.png}}
-{{{
+{{{#!sagecell
 from scipy.integrate import odeint
 
 def fading_line3d(points, rgbcolor1, rgbcolor2, *args, **kwds):
@@ -200,7 +200,7 @@ def _(u_0 = slider(int_u[0], int_u[1], (int_u[1] - int_u[0])/100,
 By Eviatar Bach
 
 Renders 2D images (perspective or spring-layout) and 3D models of 0-10 dimensional hypercubes. It also displays number of edges and vertices.
-{{{
+{{{#!sagecell
 @interact
 def render(Display=selector(['2D Perspective', '2D Spring-layout', '3D']), Dimension=slider(0,10,default=4, step_size=1), Size=slider(0,10,default=5,step_size=1), Vertices=False, Calculations=False):
     
@@ -244,7 +244,7 @@ def render(Display=selector(['2D Perspective', '2D Spring-layout', '3D']), Dimen
 == Crofton's formula ==
 by Pablo Angulo. Illustrates [[http://en.wikipedia.org/wiki/Crofton%27s_formula| Crofton's formula]] by throwing some random lines and computing the intersection number with a given curve. May use either solve for exact computation of the intersections, or may also approximate the curve by straight segments (this is the default).
 
-{{{
+{{{#!sagecell
 from collections import defaultdict
 
 var('t x y')
@@ -332,7 +332,7 @@ def print_stats(d):
     print ', '.join('%d:%d'%(k,v) for k,v in d.iteritems())
     
 }}}
-{{{
+{{{#!sagecell
 @interact
 def crofton_interact(u1 = text_control('x and y coordinates of curve'),
                      curvax = input_box(t^2, label='x(t)' ),
@@ -363,7 +363,7 @@ def crofton_interact(u1 = text_control('x and y coordinates of curve'),
 == Banchoff-Pohl area ==
 by Pablo Angulo. Computes the Banchoff-Pohl "area enclosed by a spatial curve", by throwing some random lines and computing the linking number with the given curve. Lines not linked to the given curve are displayed in red, linked lines are displayed in green.
 
-{{{
+{{{#!sagecell
 from collections import defaultdict
 var('t')
 a = 0; b= 2*pi
