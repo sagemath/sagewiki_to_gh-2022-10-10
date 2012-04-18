@@ -5,7 +5,7 @@ goto [[interact|interact main page]]
 
 == Graph Browser ==
 by Marshall Hampton 
-{{{
+{{{#!sagecell
 grs = ['BalancedTree', 'BullGraph', 'ChvatalGraph', 'CirculantGraph', 'CircularLadderGraph', 'ClawGraph', 'CompleteBipartiteGraph', 'CompleteGraph', 'CubeGraph', 'CycleGraph', 'DegreeSequence', 'DegreeSequenceConfigurationModel', 'DegreeSequenceExpected', 'DegreeSequenceTree', 'DesarguesGraph', 'DiamondGraph', 'DodecahedralGraph', 'DorogovtsevGoltsevMendesGraph', 'EmptyGraph', 'FlowerSnark', 'FruchtGraph', 'Grid2dGraph', 'GridGraph', 'HeawoodGraph', 'HexahedralGraph', 'HoffmanSingletonGraph', 'HouseGraph', 'HouseXGraph', 'IcosahedralGraph', 'KrackhardtKiteGraph', 'LCFGraph', 'LadderGraph', 'LollipopGraph', 'MoebiusKantorGraph', 'OctahedralGraph', 'PappusGraph', 'PathGraph', 'PetersenGraph', 'RandomBarabasiAlbert', 'RandomGNM', 'RandomGNP', 'RandomHolmeKim', 'RandomLobster', 'RandomNewmanWattsStrogatz', 'RandomRegular', 'RandomTreePowerlaw', 'StarGraph', 'TetrahedralGraph', 'ThomsenGraph', 'WheelGraph']
 examples = {}
 for g in grs:
@@ -48,7 +48,7 @@ def graph_browser(graph_name = selector(grs, label = "Graph type:"), newargs = i
 == Automorphism Groups of some Graphs ==
 by William Stein:
 
-{{{
+{{{#!sagecell
 @interact
 def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
       n=selector([1..10],nrows=1), p=selector([10,20,..,100],nrows=1)):
@@ -75,7 +75,7 @@ def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
 == View an induced subgraph ==
 by Jason Grout
 
-{{{
+{{{#!sagecell
 m=random_matrix(ZZ,10,density=.5)
 a=DiGraph(m) 
 
@@ -96,7 +96,7 @@ by Pablo Angulo
 
 Note: you should use "Upload" or "Create a new file" to attach to the worksheet a file called wagner.sage with the following [[interact/graph_theory/wagner.sage| content]], and then you can use the code below:
 
-{{{
+{{{#!sagecell
 attach(DATA + 'wagner.sage')
 graph_list = {'CompleteGraph4':graphs.CompleteGraph(4),
               'CompleteGraph5':graphs.CompleteGraph(5),
