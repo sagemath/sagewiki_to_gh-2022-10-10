@@ -6,7 +6,7 @@ goto [[interact|interact main page]]
 == Winding number of a plane curve ==
 by Pablo Angulo. Computes winding number (with respect to the origin!) as an integral, and also as a intersection number with a half line through the origin.
 
-{{{
+{{{#!sagecell
 var('t')
 
 def winding_number_integral(x, y, a, b):
