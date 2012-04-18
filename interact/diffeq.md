@@ -129,7 +129,7 @@ def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=inpu
 
 == Linear two-dimensional ODEs ==
 by Marshall Hampton
-{{{#!sagecell
+{{{
 %cython
 cpdef c_euler_m(double t0, double x10, double x20, double tend, int steps, double a11, double a12, double a21, double a22, double cutoff = 10):
     cdef double h = (tend-t0)/steps
@@ -149,7 +149,7 @@ cpdef c_euler_m(double t0, double x10, double x20, double tend, int steps, doubl
         x2current = newx2
     return traj
 }}}
-{{{#!sagecell
+{{{
 @interact
 def planarsystem(a11 = slider(srange(-10,10,1/10),default = -1), a12 = slider(srange(-10,10,1/10),default = -1), a21 = slider(srange(-10,10,1/10),default = 1), a22 = slider(srange(-10,10,1/10),default = -1), time_tracked = slider(srange(1,100,1.0),default=10)):
     A = matrix(RDF,[[a11,a12],[a21,a22]])
@@ -334,7 +334,7 @@ def EulerMaruyamaExample(mu = slider(srange(0,10,.1),default=2.0),sigma = slider
 by Marshall Hampton
 This needs the Cython functon defined in a seperate cell.  Note that it is not a particularly good example of Cython use.
 
-{{{#!sagecell
+{{{
 %cython
 cpdef RK4_1d(f, double t_start, double y_start, double t_end, int steps, double y_upper = 10**6, double y_lower = -10**6):
     '''
@@ -360,7 +360,7 @@ cpdef RK4_1d(f, double t_start, double y_start, double t_end, int steps, double 
     return answer_table
 }}}
 
-{{{#!sagecell
+{{{
 from sage.rings.polynomial.real_roots import *
 var('x')
 @interact
@@ -411,7 +411,7 @@ def _(tiempo = (0.1*j for j in (0..10)) ):
 == Heat equation using finite diferences in cython ==
 by Pablo Angulo
 
-{{{#!sagecell
+{{{
 %cython
 #cython code implementing a very simple finite diference scheme
 import numpy as np
