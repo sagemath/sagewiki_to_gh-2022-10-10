@@ -44,7 +44,7 @@ def cobwebber(f_text = input_box(default = "3.8*x*(1-x)",label = "function", typ
 
 == Cythonized Logistic Orbit Map ==
 By Marshall Hampton
-{{{
+{{{#!sagecell
 %cython
 cpdef double logorb(double k,long N,double x0):
     cdef double x = x0
