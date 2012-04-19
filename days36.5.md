@@ -5,9 +5,6 @@
 
 The goal for this workshop will be to get the Pollack-Stevens OMS code into Sage
 
-=== Funding ===
-
-Funding is still available: e-mail David Roe for more details.
 
 === Participants ===
 
