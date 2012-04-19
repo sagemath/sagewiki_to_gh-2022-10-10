@@ -1,11 +1,9 @@
-= Sage Doc Days 6: Seattle, WA =
+## page was renamed from doc6
+= Sage Days 36.5: Overconvergent Modular Symbols =
 
 == April 17-22, University of Washington ==
 
-The goals for this workshop will be:
- * Improve Sage's doctest coverage
- * Restructure Sage's documentation and help to be more useful and friendly to new users
- * Write more documentation
+The goal for this workshop will be to get the Pollack-Stevens OMS code into Sage
 
 === Funding ===
 
@@ -22,11 +20,10 @@ The following people are likely to participate
 
  * Jon Bober (University of Washington)
  * Jen Balakrishnan (Harvard University)
- * Aly Deines (University of Washington)
- * Keshav Kini (Nanyang Technological University)
- * R. Andrew Ohana (University of Washington)
- * John Palmieri (University of Washington)
+ * Ben Lundell (University of Washington)
+ * Steffen Mueller (Universitaet Hamburg)
  * David Roe (University of Calgary)
+ * Simon Spicer (University of Washington)
  * William Stein (University of Washington)
 
 === Lodging ===
