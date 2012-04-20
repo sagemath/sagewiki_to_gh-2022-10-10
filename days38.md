@@ -94,6 +94,10 @@ Organizing committee
 Preliminary Schedule
 --------------------
 
+Below is a timetable for the week; a full detailed schedule is available `here`__.
+
+__ days38_schedule
+
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |     |MONDAY          |TUESDAY          |WEDNESDAY       |THURSDAY        |FRIDAY          |
     +=====+================+=================+================+================+================+
@@ -160,7 +164,6 @@ Participants
 - George Seelinger, Loyola University Chicago, USA
 - Tarek Sellami, Institut de Mathématique de Luminy, Marseille, France
 - James Stark, University of Washington, Seattle, WA USA
-- Christian Stump, Berlin, Germany
 - Hugo Tremblay, Université du Québec à Montréal, Canada
 - Aaron Lauve, Loyola University Chicago, USA
 - Paul Guertin, Collège André-Grasset, Montréal, Canada
