@@ -40,7 +40,7 @@ Tuesday
  **Morning Session**:
 
  * 08h30 : Coffee & Croissants
- * 09h00 : *QPA by O. Solberg*
+ * 09h00 : Øyvind Solberg, *A GAP package for working with Quivers and Path Algebras*
  * 10h00 : Coffee Break
  * 10h30 : Tutorial III: Basic Python (given by Montréal Python ?)
  * 11h30 : Meinolf Geck, *High performance computations around Kazhdan-Lusztig cells*
