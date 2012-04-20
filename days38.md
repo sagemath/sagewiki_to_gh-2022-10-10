@@ -100,12 +100,12 @@ Preliminary Schedule
     | 8h30|Registration    |Coffee &         |Coffee &        |Coffee &        |Coffee &        |
     |     |                |Croissants       |Croissants      |Croissants      |Croissants      |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |09h00|Introduction    |Talk             |Talk            |Flash           |Open            |
+    |09h00|Introduction    |Talk             |Talk            |Open            |Open            |
     |     |to Sage         |- QPA by Solberg |- Zen by Ruths  |Presentations   |Presentations   |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |10h00|Coffee Break    |Coffee Break     |Coffee Break    |Coffee Break    |Coffee Break    |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |10h30|Tour de Table   |Tutorial III     |Tutorial IV     |Flash           |Open            |
+    |10h30|Tour de Table   |Tutorial III     |Tutorial IV     |Open            |Open            |
     |     |and             |- basic Python   |- some usefull  |Presentations   |Presentations   |
     |     |Installations   |given by         |libraries by    |                |                |
     |     |                |Montréal Python  |Montréal Python |                |                |
