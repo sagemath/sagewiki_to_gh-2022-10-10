@@ -69,13 +69,14 @@ __ http://www.crm.umontreal.ca/2012/Sage12/index_e.php
 
 __ https://docs.google.com/spreadsheet/viewform?formkey=dGVWdVpHbWdlaUgwWkhjNHpPbGp3TkE6MA
 
-.. *Financial support.*
-.. A limited amount of financial support is available for students and postdocs.
-.. Requests for financial support can be made through the official CRM website for the conference.
-.. 
-.. * `Request for financial support`__
-.. 
-.. __ http://www.crm.umontreal.ca/2012/Sage12/aid_e.php
+..
+   *Financial support.*
+   A limited amount of financial support is available for students and postdocs.
+   Requests for financial support can be made through the official CRM website for the conference.
+   
+   * `Request for financial support`__
+   
+   __ http://www.crm.umontreal.ca/2012/Sage12/aid_e.php
 
 Lodging
 -------
