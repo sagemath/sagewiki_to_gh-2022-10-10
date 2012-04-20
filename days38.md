@@ -97,8 +97,8 @@ Preliminary Schedule
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |     |MONDAY          |TUESDAY          |WEDNESDAY       |THURSDAY        |FRIDAY          |
     +=====+================+=================+================+================+================+
-    | 8h30|Registration    |Coffee &         |Coffee &        |Coffee &        |Coffee &        |
-    |     |                |Croissants       |Croissants      |Croissants      |Croissants      |
+    | 8h30|Coffee &        |Coffee &         |Coffee &        |Coffee &        |Coffee &        |
+    |     |Croissants      |Croissants       |Croissants      |Croissants      |Croissants      |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |09h00|Introduction    |Talk             |Talk            |Open            |Open            |
     |     |to Sage         |- QPA by Solberg |- Zen by Ruths  |Presentations   |Presentations   |
