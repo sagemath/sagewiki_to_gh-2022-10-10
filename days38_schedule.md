@@ -19,13 +19,13 @@ Monday
  * 09h00 : *Welcome and Introduction to Sage*, Sébastien Labbé
  * 10h00 : Coffee Break
  * 10h30 : Tour de Table and Installations, Franco Saliola
- * 11h30 : Tutorial I : Using the Sage notebook and navigating the help system
+ * 11h30 : Tutorial I : *Using the Sage notebook and navigating the help system*
 
  **Lunch Break**: 12h30 - 14h30
 
  **Afternoon Session**, 14h30-17h30:
 
- * 14h30 : Tutorial II : Calculus and Linear Algebra in Sage
+ * 14h30 : Tutorial II : *Calculus and Linear Algebra in Sage*
  * 15h30 : Coffee Break
  * 16h00 : Coding Sprints
  * 17h00 : Status Reports
@@ -42,7 +42,7 @@ Tuesday
  * 08h30 : Coffee & Croissants
  * 09h00 : Øyvind Solberg, *A GAP package for working with Quivers and Path Algebras*
  * 10h00 : Coffee Break
- * 10h30 : Tutorial III: Basic Python (given by Montréal Python ?)
+ * 10h30 : Tutorial III: *Basic Python*
  * 11h30 : Meinolf Geck, *High performance computations around Kazhdan-Lusztig cells*
 
             *Abstract.*  We present the computer algebra package PyCox, written
@@ -85,7 +85,7 @@ Wednesday
             opportunities for integration and use with Sage.
 
  * 10h00 : Coffee Break
- * 10h30 : Tutorial IV: *Some useful Python libraries* (given by Montréal Python ?)
+ * 10h30 : Tutorial IV: *Some useful Python libraries*
  * 11h30 : Tutorial V: *Contributing to Sage*, Anne Schilling
 
  **Lunch Break**: 12h30 - 14h30
@@ -104,7 +104,7 @@ Thursday
  * 09h00 : Open Presentations
  * 10h00 : Coffee Break
  * 10h30 : Open Presentations
- * 11h30 : Tutorial VI: Cython
+ * 11h30 : Tutorial VI: *Cython*
 
  **Lunch Break**: 12h30 - 14h30
 
