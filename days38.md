@@ -109,10 +109,10 @@ __ days38_schedule
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |10h00|Coffee Break    |Coffee Break     |Coffee Break    |Coffee Break    |Coffee Break    |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |10h30|Tour de Table   |Tutorial III     |Tutorial IV     |Open            |Open            |
-    |     |and             |- basic Python   |- some usefull  |Presentations   |Presentations   |
-    |     |Installations   |given by         |libraries by    |                |                |
-    |     |                |Montréal Python  |Montréal Python |                |                |
+    |10h30|Tour de Table   |Tutorial III     |Talk            |Open            |Open            |
+    |     |and             |- basic Python   |- Sage-Combinat |Presentations   |Presentations   |
+    |     |Installations   |                 |roadmap by      |                |                |
+    |     |                |                 |Thiéry          |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Open            |
     |     |- Notebook      |- PyCox by Geck  |- Contributing  |- Cython        |Presentations   |
