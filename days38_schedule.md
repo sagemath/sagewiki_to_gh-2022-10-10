@@ -85,8 +85,8 @@ Wednesday
             opportunities for integration and use with Sage.
 
  * 10h00 : Coffee Break
- * 10h30 : Tutorial IV: *Some useful Python libraries*
- * 11h30 : Tutorial V: *Contributing to Sage*, Anne Schilling
+ * 10h30 : Nicolas M. Thiéry, *The Sage-Combinat roadmap: goals and projects*
+ * 11h30 : Tutorial IV: *Contributing to Sage*, Anne Schilling
 
  **Lunch Break**: 12h30 - 14h30
 
@@ -104,7 +104,7 @@ Thursday
  * 09h00 : Open Presentations
  * 10h00 : Coffee Break
  * 10h30 : Open Presentations
- * 11h30 : Tutorial VI: *Cython*
+ * 11h30 : Tutorial V: *Cython*
 
  **Lunch Break**: 12h30 - 14h30
 
