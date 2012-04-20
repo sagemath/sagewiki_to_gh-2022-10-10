@@ -164,6 +164,11 @@ Participants
 - Hugo Tremblay, Université du Québec à Montréal, Canada
 - Aaron Lauve, Loyola University Chicago, USA
 - Paul Guertin, Collège André-Grasset, Montréal, Canada
-
+- Héctor José Blandin Noguera, Université du Québec à Montréal, Canada
+- Domingo Alberto Quiroz Rodriguez, Universidad Simon Bolivar, Venezuela 
+- Tom Denton, York University, Canada
+- Gilbert Labelle, Université du Québec à Montréal, Canada 
+- Michael Larouche, Université du Québec à Chicoutimi, Canada 
+- Mike Zabrocki, York University, Canada
 
 }}}
