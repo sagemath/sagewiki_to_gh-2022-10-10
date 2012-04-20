@@ -115,7 +115,8 @@ __ days38_schedule
     |     |                |Montréal Python  |Montréal Python |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Open            |
-    |     |- Notebook      |- PyCox by Geck  |                |- Cython        |Presentations   |
+    |     |- Notebook      |- PyCox by Geck  |- Contributing  |- Cython        |Presentations   |
+    |     |                |                 |to Sage         |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |12h30|Lunch           |Lunch            |Lunch           |Lunch           |Lunch           |
     +-----+                |                 |                |                |                |
