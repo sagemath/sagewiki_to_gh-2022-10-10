@@ -1,0 +1,73 @@
+= Sage Days 41: The Sage Notebook =
+
+June 11-15, 2012 at University of Washington in Seattle, in conjunction with [[education4|Sage Education Days 4]].
+
+<<TableOfContents>>
+
+== Funding ==
+
+If you're interested in attending, there may be funding for you.   Email wstein@gmail.com, and include a cc to beezer@ups.edu.  Include information about projects you have in mind for the notebook or Sage.
+
+ '''Be sure to buy your plane ticket on a US carrier.'''
+
+== Organizers ==
+
+ * William Stein [[http://wstein.org/]]
+ * Rob Beezer [[http://buzzard.ups.edu]]
+
+== Participants ==
+
+Register by adding yourself here, alphabetically by last name.
+
+ 1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound)
+ 1. [[http://wstein.org/|William Stein]] (University of Washington)
+
+== Location ==
+
+ * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
+
+ * Campus location TBA
+
+ * Lodging: TBA, likely rooms will be arranged by the organizers, in advance at Collegiana Inn
+
+== Mailing List ==
+
+ * Mailing list TBA. [[http://groups.google.com/group/sagedays31|Sage Days 31]].  Please add yourself to this list when available, if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
+
+== Schedule ==
+
+||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> Monday          || June 11    ||  ||  ||
+|| 10:00 AM || Introductions                 ||   ||  Video ||
+|| || || || ||
+||          || State of the Notebook Address || || ||
+||<rowstyle="background-color: #E0E0FF;"> Tuesday          || June 12    ||  ||  ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> Wednesday          || June 13    ||  || [[http://wiki.sagemath.org/education4|Sage Education Days 4]] ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> Thursday          || June 14    ||  || [[http://wiki.sagemath.org/education4|Sage Education Days 4]] ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> Friday          || June 15    ||  || [[http://wiki.sagemath.org/education4|Sage Education Days 4]] ||
+|| || || || ||
+
+== Topics ==
+
+
+== Pictures ==
+
+
+== UW Campus Wireless ==
+
+{{{
+TBA
+}}}
+
+== IRC ==
+
+ * There is an IRC channel for sage days: #sagemath-days on irc.freenode.net. Feel free to join to discuss whatever...   For those without IRC clients, http://webchat.freenode.net/?channels=sagemath,sagemath-days , but using an IRC client is strongly recommended. [[http://xchat.org/|Xchat]] is a popular cross-platform choice.
+
+== Logistics ==
+
+ * [[education4|Sage Education Days 4]] will happen at the end of the week, June 13-15, 2012.
+ * See the [[uw-local-info|local information page]] for more specifics.
