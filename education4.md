@@ -43,6 +43,7 @@ To register, please add yourself alphabetically by last name.  Email Rob Beezer 
 
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
+ 1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] ((University of California, San Diego)
 
 <<Anchor(logistics)>>
 == Logistics ==
