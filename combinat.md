@@ -14,11 +14,11 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
- * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component.
+ * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
 
- * October 29 - November 9, 2012: [[http://www.cimpa-icpam.org/spip.php?article430|CIMPA summer school Discrete mathematics : combinatorial, dynamical and algorithmic aspects]], with a strong Sage and Sage-Combinat component
+ * October 29 - November 9, 2012: [[http://www.cimpa-icpam.org/spip.php?article430|CIMPA summer school Discrete mathematics : combinatorial, dynamical and algorithmic aspects]], with a strong Sage and Sage-Combinat component, Bobo Dioulasso, Burkina Faso
 
- * July 9-13 2012: [[http://www.ima.umn.edu/2011-2012/SW7.9-13.12/|Sage(-Combinat) Days 40]]: Algebraic Combinatorics
+ * July 9-13 2012: [[http://www.ima.umn.edu/2011-2012/SW7.9-13.12/|Sage(-Combinat) Days 40]]: Algebraic Combinatorics, IMA, Minneapolis, USA
 
  * May 7-11 2012: [[http://wiki.sagemath.org/days38|Sage(-Combinat) Days 38]]: algebraic combinatorics and the representation theory of algebras, Centre de recherches mathématiques, Montréal, Canada
 
