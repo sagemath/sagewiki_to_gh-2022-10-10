@@ -24,6 +24,7 @@ If you're interested in attending, there may be funding for you.   Email wstein@
 Register by adding yourself here, alphabetically by last name.
 
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound)
+ 1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
 
 == Location ==
