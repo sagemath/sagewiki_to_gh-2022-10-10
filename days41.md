@@ -32,7 +32,7 @@ Register by adding yourself here, alphabetically by last name.
 
 == Mailing List ==
 
- * Mailing list TBA. [[http://groups.google.com/group/sagedays31|Sage Days 31]].  Please add yourself to this list when available, if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
+ * Mailing list TBA.  Please add yourself to this list when available.  This will be the primary vehicle for announcements, and last-minute changes during the week.
 
 == Schedule ==
 
