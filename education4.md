@@ -15,6 +15,13 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 Participants from the test sites for the NSF UTMOST project will have first priority for funding, though we may support travel for a few participants with a demonstrated interest and experience in using Sage in educational settings.
 
+<<Anchor(mailinglist)>>
+== Mailing Lists ==
+
+ * The mailing list for [[https://groups.google.com/forum/#!forum/sagedays41|Sage Days 41]],  will be used for Education Days also (once created).  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
+
+ * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
+
 <<Anchor(schedule)>>
 == Schedule ==
 
@@ -52,13 +59,6 @@ To register, please add yourself alphabetically by last name.  Email Rob Beezer 
  * [[days41|Sage Days 41]] will happen the same week at the University of Washington with the Sage Notebook as its theme.
  * Lodging: arrangements TBA.
  * See the [[uw-local-info|local information page]] for more specifics.
-
-<<Anchor(mailinglist)>>
-== Mailing Lists ==
-
- * The mailing list for [[http://groups.google.com/group/sagedays41|Sage Days 41]],  will be used for Education Days also (once created).  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
-
- * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
 
 <<Anchor(irc)>>
 == IRC ==
