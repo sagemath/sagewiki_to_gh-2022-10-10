@@ -10,6 +10,10 @@ If you're interested in attending, there may be funding for you.   Email wstein@
 
  '''Be sure to buy your plane ticket on a US carrier.'''
 
+== Mailing List ==
+
+ * Mailing list for the workshop is [[https://groups.google.com/forum/#!forum/sagedays41|Sage Days 41]].  Please add yourself to this list when available.  This will be the primary vehicle for preliminary announcements, and last-minute changes during the week.
+
 == Organizers ==
 
  * William Stein [[http://wstein.org/]]
@@ -29,10 +33,6 @@ Register by adding yourself here, alphabetically by last name.
  * Campus location TBA
 
  * Lodging: TBA, likely rooms will be arranged by the organizers, in advance at Collegiana Inn
-
-== Mailing List ==
-
- * Mailing list TBA.  Please add yourself to this list when available.  This will be the primary vehicle for announcements, and last-minute changes during the week.
 
 == Schedule ==
 
