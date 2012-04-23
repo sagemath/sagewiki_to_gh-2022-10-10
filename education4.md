@@ -49,6 +49,7 @@ Participants from the test sites for the NSF UTMOST project will have first prio
 To register, please add yourself alphabetically by last name.  Email Rob Beezer  at beezer@ups.edu if you'd rather not figure out how to edit the wiki page and he'll add your name (include a relevant web link, if available).
 
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
+ 1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] ((University of California, San Diego)
 
