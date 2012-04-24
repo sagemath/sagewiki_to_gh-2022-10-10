@@ -55,6 +55,7 @@ To register, please add yourself alphabetically by last name.  Email Rob Beezer 
  1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
  1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
  1. Susan Lynds (University of Colorado)
+ 1. Manouchehr Misaghian (Prairie View A & M University, Texas)
  1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College)
  1. [[http://www.reed.edu/~potluri|Rao Potluri]] (Reed College)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
