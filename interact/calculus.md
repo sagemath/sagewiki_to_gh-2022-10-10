@@ -454,38 +454,63 @@ by Jason Grout
 
 {{{#!sagecell
 var('u v')
+# polar coordinates
+#(x,y)=(u*cos(v),u*sin(v)); (u_range,v_range)=([0..6],[0..2*pi,step=pi/12])
+
+# weird example
+(x,y)=(u^2-v^2,u*v+cos(u*v)); (u_range,v_range)=([-5..5],[-5..5])
+
+thickness=4
+square_length=.05
+
 from sage.ext.fast_eval import fast_float
 from functools import partial
 @interact
-def trans(x=input_box(u^2-v^2, label="x",type=SR),
-         y=input_box(u*v+cos(u*v), label="y",type=SR),
+def trans(x=input_box(x, label="x",type=SR),
+         y=input_box(y, label="y",type=SR),
          u_percent=slider(0,1,0.05,label="<font color='red'>u</font>", default=.7),
          v_percent=slider(0,1,0.05,label="<font color='blue'>v</font>", default=.7),
          t_val=slider(0,10,0.2,6, label="Length"),
-         u_range=input_box('[-5..5]', label="u lines"),
-         v_range=input_box('[-5..5]', label="v lines")):
-     thickness=4
-     
-     u_val = min(u_range)+(max(u_range)-min(u_range))*u_percent
-     v_val = min(v_range)+(max(v_range)-min(v_range))*v_percent
-     t_min = -t_val
-     t_max = t_val
-     uvplot=sum([parametric_plot((i,v), (v,t_min,t_max), color='red',axes_labels=['u','v'],figsize=[5,5]) for i in u_range])
-     uvplot+=sum([parametric_plot((u,i), (u,t_min,t_max), color='blue',axes_labels=['u','v']) for i in v_range])
-     uvplot+=parametric_plot((u,v_val), (u,t_min,t_max), rgbcolor=(0,0,1), linestyle='-',thickness=thickness)
-     uvplot+=parametric_plot((u_val, v), (v,t_min,t_max),rgbcolor=(1,0,0), linestyle='-',thickness=thickness)
- 
-     xuv = fast_float(x,'u','v')
-     yuv = fast_float(y,'u','v')
-     xvu = fast_float(x,'v','u')
-     yvu = fast_float(y,'v','u')
-     xyplot=sum([parametric_plot((partial(xuv,i),partial(yuv,i)), (v,t_min,t_max), color='red', axes_labels=['x','y'],figsize=[5,5]) for i in u_range])
-     xyplot+=sum([parametric_plot((partial(xvu,i),partial(yvu,i)), (u,t_min,t_max), color='blue') for i in v_range])
-     xyplot+=parametric_plot((partial(xuv,u_val),partial(yuv,u_val)),(v,t_min,t_max),color='red', linestyle='-',thickness=thickness)
-     xyplot+=parametric_plot((partial(xvu,v_val),partial(yvu,v_val)), (u,t_min,t_max), color='blue', linestyle='-',thickness=thickness)
-     html("$$x=%s, \: y=%s$$"%(latex(x), latex(y)))
-     html.table([[uvplot,xyplot]])
-}}}
+         u_range=input_box(u_range, label="u lines"),
+         v_range=input_box(v_range, label="v lines")):
+
+    x(u,v)=x
+    y(u,v)=y
+    u_val = min(u_range)+(max(u_range)-min(u_range))*u_percent
+    v_val = min(v_range)+(max(v_range)-min(v_range))*v_percent
+    t_min = -t_val
+    t_max = t_val
+    uvplot=sum([parametric_plot((i,v), (v,t_min,t_max), color='red',axes_labels=['u','v'],figsize=[5,5]) for i in u_range])
+    uvplot+=sum([parametric_plot((u,i), (u,t_min,t_max), color='blue',axes_labels=['u','v']) for i in v_range])
+    uvplot+=parametric_plot((u,v_val), (u,t_min,t_max), rgbcolor=(0,0,1), linestyle='-',thickness=thickness)
+    uvplot+=parametric_plot((u_val, v), (v,t_min,t_max),rgbcolor=(1,0,0), linestyle='-',thickness=thickness)
+    pt=vector([u_val,v_val])
+    du=vector([(t_max-t_min)*square_length,0])
+    dv=vector([0,(t_max-t_min)*square_length])
+    uvplot+=polygon([pt,pt+dv,pt+du+dv,pt+du],color='purple',alpha=0.7)
+    uvplot+=line([pt,pt+dv,pt+du+dv,pt+du],color='green')
+
+    T(u,v)=(x,y)
+    xuv = fast_float(x,'u','v')
+    yuv = fast_float(y,'u','v')
+    xvu = fast_float(x,'v','u')
+    yvu = fast_float(y,'v','u')
+    xyplot=sum([parametric_plot((partial(xuv,i),partial(yuv,i)), (v,t_min,t_max), color='red', axes_labels=['x','y'],figsize=[5,5]) for i in u_range])
+    xyplot+=sum([parametric_plot((partial(xvu,i),partial(yvu,i)), (u,t_min,t_max), color='blue') for i in v_range])
+    xyplot+=parametric_plot((partial(xuv,u_val),partial(yuv,u_val)),(v,t_min,t_max),color='red', linestyle='-',thickness=thickness)
+    xyplot+=parametric_plot((partial(xvu,v_val),partial(yvu,v_val)), (u,t_min,t_max), color='blue', linestyle='-',thickness=thickness)
+    jacobian=abs(T.diff().det()).simplify_full()
+    t_vals=[0..1,step=t_val*.01]
+    vertices=[(x(*c),y(*c)) for c in [pt+t*dv for t in t_vals]]
+    vertices+=[(x(*c),y(*c)) for c in [pt+dv+t*du for t in t_vals]]
+    vertices+=[(x(*c),y(*c)) for c in [pt+(1-t)*dv+du for t in t_vals]]
+    vertices+=[(x(*c),y(*c)) for c in [pt+(1-t)*du for t in t_vals]]
+    xyplot+=polygon(vertices,color='purple',alpha=0.7)
+    xyplot+=line(vertices,color='green')
+    html("$T(u,v)=%s$"%(latex(T(u,v))))
+    html("Jacobian: $%s$"%latex(jacobian(u,v)))
+    html("A very small region in $xy$ plane is approximately %0.4g times the size of the corresponding region in the $uv$ plane"%jacobian(u_val,v_val).n())
+    html.table([[uvplot,xyplot]])}}}
 
 
 {{attachment:coordinate-transform-1.png}} {{attachment:coordinate-transform-2.png}}
