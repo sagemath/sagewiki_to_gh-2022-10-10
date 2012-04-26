@@ -457,35 +457,34 @@ var('u v')
 from sage.ext.fast_eval import fast_float
 from functools import partial
 @interact
-def trans(x=input_box(u^2-v^2, label="x=",type=SR), \
-         y=input_box(u*v+cos(u*v), label="y=",type=SR), \
-         t_val=slider(0,10,0.2,6, label="Length of curves"), \
+def trans(x=input_box(u^2-v^2, label="x",type=SR),
+         y=input_box(u*v+cos(u*v), label="y",type=SR),
          u_percent=slider(0,1,0.05,label="<font color='red'>u</font>", default=.7),
          v_percent=slider(0,1,0.05,label="<font color='blue'>v</font>", default=.7),
-         u_range=input_box(range(-5,5,1), label="u lines"),
-         v_range=input_box(range(-5,5,1), label="v lines")):
+         t_val=slider(0,10,0.2,6, label="Length"),
+         u_range=input_box('[-5..5]', label="u lines"),
+         v_range=input_box('[-5..5]', label="v lines")):
      thickness=4
+     
      u_val = min(u_range)+(max(u_range)-min(u_range))*u_percent
      v_val = min(v_range)+(max(v_range)-min(v_range))*v_percent
      t_min = -t_val
      t_max = t_val
-     g1=sum([parametric_plot((i,v), (v,t_min,t_max), rgbcolor=(1,0,0)) for i in u_range])
-     g2=sum([parametric_plot((u,i), (u,t_min,t_max), rgbcolor=(0,0,1)) for i in v_range])
-     vline_straight=parametric_plot((u,v_val), (u,t_min,t_max), rgbcolor=(0,0,1), linestyle='-',thickness=thickness)
-     uline_straight=parametric_plot((u_val, v), (v,t_min,t_max),rgbcolor=(1,0,0), linestyle='-',thickness=thickness)
+     uvplot=sum([parametric_plot((i,v), (v,t_min,t_max), color='red',axes_labels=['u','v'],figsize=[5,5]) for i in u_range])
+     uvplot+=sum([parametric_plot((u,i), (u,t_min,t_max), color='blue',axes_labels=['u','v']) for i in v_range])
+     uvplot+=parametric_plot((u,v_val), (u,t_min,t_max), rgbcolor=(0,0,1), linestyle='-',thickness=thickness)
+     uvplot+=parametric_plot((u_val, v), (v,t_min,t_max),rgbcolor=(1,0,0), linestyle='-',thickness=thickness)
  
-     (g1+g2+vline_straight+uline_straight).save("uv_coord.png",aspect_ratio=1, figsize=[5,5], axes_labels=['$u$','$v$'])
      xuv = fast_float(x,'u','v')
      yuv = fast_float(y,'u','v')
      xvu = fast_float(x,'v','u')
      yvu = fast_float(y,'v','u')
-     g3=sum([parametric_plot((partial(xuv,i),partial(yuv,i)), (v,t_min,t_max), rgbcolor=(1,0,0)) for i in u_range])
-     g4=sum([parametric_plot((partial(xvu,i),partial(yvu,i)), (u,t_min,t_max), rgbcolor=(0,0,1)) for i in v_range])
-     uline=parametric_plot((partial(xuv,u_val),partial(yuv,u_val)),(v,t_min,t_max),rgbcolor=(1,0,0), linestyle='-',thickness=thickness)
-     vline=parametric_plot((partial(xvu,v_val),partial(yvu,v_val)), (u,t_min,t_max), rgbcolor=(0,0,1), linestyle='-',thickness=thickness)
-     (g3+g4+vline+uline).save("xy_coord.png", aspect_ratio=1, figsize=[5,5], axes_labels=['$x$','$y$'])
-     print jsmath("x=%s, \: y=%s"%(latex(x), latex(y)))
-     print "<html><table><tr><td><img src='cell://uv_coord.png'/></td><td><img src='cell://xy_coord.png'/></td></tr></table></html>"
+     xyplot=sum([parametric_plot((partial(xuv,i),partial(yuv,i)), (v,t_min,t_max), color='red', axes_labels=['x','y'],figsize=[5,5]) for i in u_range])
+     xyplot+=sum([parametric_plot((partial(xvu,i),partial(yvu,i)), (u,t_min,t_max), color='blue') for i in v_range])
+     xyplot+=parametric_plot((partial(xuv,u_val),partial(yuv,u_val)),(v,t_min,t_max),color='red', linestyle='-',thickness=thickness)
+     xyplot+=parametric_plot((partial(xvu,v_val),partial(yvu,v_val)), (u,t_min,t_max), color='blue', linestyle='-',thickness=thickness)
+     html("$$x=%s, \: y=%s$$"%(latex(x), latex(y)))
+     html.table([[uvplot,xyplot]])
 }}}
 
 
