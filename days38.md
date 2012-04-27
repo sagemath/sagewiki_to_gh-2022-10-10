@@ -110,10 +110,10 @@ __ days38_schedule
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |10h00|Coffee Break    |Coffee Break     |Coffee Break    |Coffee Break    |Coffee Break    |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |10h30|Tour de Table   |Tutorial III     |Talk            |Open            |Open            |
-    |     |and             |- basic Python   |- Sage-Combinat |Presentations   |Presentations   |
-    |     |Installations   |                 |roadmap by      |                |                |
-    |     |                |                 |Thiéry          |                |                |
+    |10h30|Tour de Table   |Talk             |Talk 1:         |Open            |Open            |
+    |     |and             |- Sage-Combinat  |- A. Schilling  |Presentations   |Presentations   |
+    |     |Installations   |roadmap by       |Talk 2:         |                |                |
+    |     |                |N. Thiéry        |- V. Pons       |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Open            |
     |     |- Notebook      |- PyCox by Geck  |- Contributing  |- Cython        |Presentations   |
@@ -123,9 +123,9 @@ __ days38_schedule
     +-----+                |                 |                |                |                |
     |13h30|                |                 |                |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |14h30|Tutorial II     |Exercices and    |Exercices and   |Exercices and   |Exercices and   |
-    |     |- Calculus and  |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
-    |     |Linear Algebra  |                 |                |                |                |
+    |14h30|Tutorial II     |Tutorial III     |Exercises and   |Exercises and   |Exercises and   |
+    |     |- Calculus and  |- Programming in |Coding Sprints  |Coding Sprints  |Coding Sprints  |
+    |     |Linear Algebra  |Python and Sage  |                |                |                |
     |     |in Sage         |                 |                |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |15h30|Coffee Break    |Coffee Break     |Coffee Break    |Coffee Break    |Coffee Break    |
@@ -136,8 +136,9 @@ __ days38_schedule
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |17h30|Buffet at CRM   |Dinner           |Dinner          |Dinner          |Dinner          |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |18h30|Montréal Python |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
-    |     |Meeting         |                 |                |                |                |
+    |18h30|Installation    |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
+    |     |Party and       |                 |                |                |                |
+    |     |Coding Sprints  |                 |                |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
 
 Participants
