@@ -112,8 +112,9 @@ __ days38_schedule
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |10h30|Tour de Table   |Talk             |Talk 1:         |Open            |Open            |
     |     |and             |- Sage-Combinat  |- A. Schilling  |Presentations   |Presentations   |
-    |     |Installations   |roadmap by       |Talk 2:         |                |                |
-    |     |                |N. Thiéry        |- V. Pons       |                |                |
+    |     |Installations   |roadmap by       |                |                |                |
+    |     |                |N. Thiéry        |Talk 2:         |                |                |
+    |     |                |                 |- V. Pons       |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Open            |
     |     |- Notebook      |- PyCox by Geck  |- Contributing  |- Cython        |Presentations   |
