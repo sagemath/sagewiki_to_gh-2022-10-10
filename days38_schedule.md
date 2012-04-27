@@ -19,7 +19,7 @@ Monday
  * 09h00 : *Welcome and Introduction to Sage*, Sébastien Labbé
  * 10h00 : Coffee Break
  * 10h30 : Tour de Table and Installations, Franco Saliola
- * 11h30 : Tutorial I : *Using the Sage notebook and navigating the help system*
+ * 11h30 : Tutorial I : *Using the Sage notebook and navigating the help system*, Franco Saliola
 
  **Lunch Break**: 12h30 - 14h30
 
@@ -32,7 +32,11 @@ Monday
 
  **Buffet at CRM**: 17h30 - 18h30
 
- **Special event**: *Montréal Python Meeting*, 18h30 - 21h30
+ **Special event**: *Installation Party*, 18h30
+
+            After the buffet, we will continue with informal discussions,
+            coding sprints and we will troubleshoot any problems encountered in
+            the installations during the morning session.
 
 Tuesday
 -------
@@ -40,9 +44,34 @@ Tuesday
  **Morning Session**:
 
  * 08h30 : Coffee & Croissants
- * 09h00 : Øyvind Solberg, *A GAP package for working with Quivers and Path Algebras*
+ * 09h00 : Øyvind Solberg, *Quivers and Path Algebras - QPA*
+
+            *Abstract*. We will give an introduction representation theory of
+            quivers, defining quivers (directed graphs), representations of
+            quivers and maps between representations of quivers. Further to
+            recall basic constructions involving these objects like direct sum,
+            kernels, special representations, etc.  Representations of quivers
+            are central for representation theory of finite dimensional
+            algebras, and we will try to describe some of the basic problems.
+
+            Next we describe the QPA project by describing the background, aims
+            and goals, current status, design and algorithms, and main future
+            projects.
+
+            We will end with a short demonstration of the QPA program,
+            hopefully run via an interface developed by students at HiST/NTNU.
+
  * 10h00 : Coffee Break
- * 10h30 : Tutorial III: *Basic Python*
+ * 10h30 : Nicolas M. Thiéry, *A Sage-Combinat roadmap*
+
+            *Abstract.* In this talk, we will present the Sage-Combinat
+            project, whose mission is "to improve Sage as an extensible toolbox
+            for computer exploration in (algebraic) combinatorics, and foster
+            code sharing between researchers in this area". After a brief tour
+            of its history and development model, we will focus on its roadmap,
+            opening a discussion on what mid to long term goals could be,
+            depending on interest and available work forces.
+
  * 11h30 : Meinolf Geck, *High performance computations around Kazhdan-Lusztig cells*
 
             *Abstract.*  We present the computer algebra package PyCox, written
@@ -54,8 +83,9 @@ Tuesday
 
  **Lunch Break**: 12h30 - 14h30
 
- **Afternoon Session**, 14h30-17h30: exercises and coding sprints with coffee break and status reports
+ **Afternoon Session**, 14h30-17h30:
 
+ * 14h30 : Tutorial III: *Programming in Python and Sage*, Florent Hivert
  * 15h30 : Coffee Break
  * 17h00 : Status Reports
 
@@ -85,7 +115,22 @@ Wednesday
             opportunities for integration and use with Sage.
 
  * 10h00 : Coffee Break
- * 10h30 : Nicolas M. Thiéry, *The Sage-Combinat roadmap: goals and projects*
+ * 10h30 : Anne Schilling, *Markov chains for promotion operators*
+
+            *Abstract.* Schuetzenberger introduced a promotion operator on
+            arbitrary finite posets. Using a slight extension of these
+            operators, one can define a Markov chain on all linear extensions
+            of the poset. This generalizes the Tsetlin library which
+            corresponds to the antichain. With Sage, we can investigate the
+            stationary distributions and eigenvalues of the transition matrix.
+            For rooted forests we find that the resulting monoid is R-trivial,
+            which leads to a generalization of Brown's theory of Markov chains
+            for left regular bands.
+
+ * 11h30 : Viviane Pons, *Multivariate Polynomials in Sage*
+
+            *Abstract.* À venir.
+
  * 11h30 : Tutorial IV: *Contributing to Sage*, Anne Schilling
 
  **Lunch Break**: 12h30 - 14h30
@@ -104,7 +149,7 @@ Thursday
  * 09h00 : Open Presentations
  * 10h00 : Coffee Break
  * 10h30 : Open Presentations
- * 11h30 : Tutorial V: *Cython*
+ * 11h30 : Tutorial V: *Cython*, Florent Hivert
 
  **Lunch Break**: 12h30 - 14h30
 
