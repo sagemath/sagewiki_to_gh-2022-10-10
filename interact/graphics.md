@@ -160,8 +160,7 @@ g(s) = ((0.57496*sqrt(121 - 16.0*s^2))/sqrt(10.+ s))
 def P(color, rng):
     return parametric_plot3d((cos(t)*g(s), sin(t)*g(s), s), (s,rng[0],rng[1]), (t,0,2*pi), plot_points = [150,150], rgbcolor=color, frame = False, opacity = 1)
 colorlist = ['red','blue','red','blue']
-}}}
-{{{#!sagecell
+
 @interact
 def _(band_number = selector(range(1,5)), current_color = Color('red')):
     html('<h1 align=center>Egg Painter</h1>')
