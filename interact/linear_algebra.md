@@ -68,13 +68,12 @@ A square matrix defines a linear transformation which rotates and/or scales vect
 
 {{{#!sagecell
 @interact
-def linear_transformation(theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, default=1)):
-    A=matrix([[1,-1],[-1,1/2]])
+def linear_transformation(A=matrix([[1,-1],[-1,1/2]]),theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, default=1)):
     v=vector([r*cos(theta), r*sin(theta)])
     w = A*v
-    circles = sum([circle((0,0), radius=i, rgbcolor=(0,0,0)) for i in [1..2]])
-    print jsmath("v = %s,\; %s v=%s"%(v.n(4),latex(A),w.n(4)))
-    show(v.plot(rgbcolor=(1,0,0))+w.plot(rgbcolor=(0,0,1))+circles,aspect_ratio=1)
+    circles = sum([circle((0,0), radius=i, color='black') for i in [1..2]])
+    html("$%s %s=%s$"%tuple(map(latex, [A, v.column().n(4), w.column().n(4)])))
+    show(v.plot(color='red')+w.plot(color='blue')+circles,aspect_ratio=1)
 }}}
 {{attachment:Linear-Transformations.png}}
 
