@@ -20,3 +20,13 @@ For more information, contact:
 
   * [[ http://buzzard.pugetsound.edu/|Rob Beezer]]
   * Yasuhide NUMATA
+
+== Pictures ==
+
+{{attachment:sd37-building.png}}
+
+Spring Meeting of the Korean Mathematical Society
+
+{{attachment:sd37-kwankyu-lee.png}}
+
+Kwankyu Lee and Why He Likes Sage
