@@ -119,7 +119,7 @@ __ days38_schedule
     |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Lunch           |
     |     |- Notebook      |- PyCox by Geck  |- Contributing  |- Cython        |                |
     |     |                |                 |to Sage         |                |                |
-    +-----+----------------+-----------------+----------------+----------------|                |
+    +-----+----------------+-----------------+----------------+----------------+                |
     |12h30|Lunch           |Lunch            |Lunch           |Lunch           |                |
     +-----+                |                 |                |                +----------------+
     |13h30|                |                 |                |                |Talk            |
