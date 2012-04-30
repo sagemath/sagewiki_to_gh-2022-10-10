@@ -137,9 +137,9 @@ __ days38_schedule
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |17h00|Status Reports  |Status Reports   |Status Reports  |Status Reports  |Status Reports  |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |17h30|Buffet at CRM   |Dinner           |Dinner          |Dinner          |Dinner          |
+    |17h30|Buffet at CRM   |                 |                |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |18h30|Installation    |Coding Sprints   |Coding Sprints  |Coding Sprints  |Coding Sprints  |
+    |18h30|Installation    |                 |                |                |                |
     |     |Party and       |                 |                |                |                |
     |     |Coding Sprints  |                 |                |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
@@ -147,56 +147,56 @@ __ days38_schedule
 Participants
 ------------
 
-- Frank Ban, University of Waterloo, Canada
-- Cyril Joël Batkam, Université de Sherbrooke, Canada
-- Khalid Benabdallah, Université de Montréal, Canada
-- Chris Berg, LaCIM, Université du Québec à Montréal, Canada
-- Héctor José Blandin Noguera, Université du Québec à Montréal, Canada
-- Alexandre Blondin Massé, Université du Québec à Chicoutimi, Canada
-- Pierre Bouchard, Université du Québec à Montréal, Canada
-- Catherine Bourbeau, Université du Québec à Montréal, Canada
-- Srecko Brlek, LaCIM, Université du Québec à Montréal, Canada
-- Juan Carlos Bustamante, Université de Sherbrooke, Canada
-- Pierre Cagne, École Normale Supérieure, Paris, France
-- Sean Carrell, University of Waterloo, Canada
-- Tom Denton, York University, Canada
-- Stephen Doty, Loyola University Chicago, USA
-- Jérôme Fortier, Université du Québec à Montréal, Canada
-- Meinolf Geck, University of Aberdeen, Scotland
-- Darij Grinberg, Massachusetts Institute of Technology, USA
-- Mathieu Guay-Paquet, University of Waterloo, Canada
-- Paul Guertin, Collège André-Grasset, Montréal, Canada
-- Holly Heglin, York University, Canada
-- Florent Hivert, LRI, Université Paris-Sud, France
-- François Huard, Bishop’s University, Sherbrooke, Canada
-- Restrepo Juan Ignacio, McGill University, Canada
-- Sébastien Labbé, Université du Québec à Montréal, Canada
-- Gilbert Labelle, LaCIM, Université du Québec à Montréal, Canada
-- Mélodie Lapointe, UQAC, Chicoutimi, Canada
-- Michael Larouche, Université du Québec à Chicoutimi, Canada
-- Aaron Lauve, Loyola University Chicago, USA
-- Syed Lavasani, University of Calgary, Canada
-- Dorota Mazur, York University, Canada
-- Nishan Mudalige, York University, Canada
-- Boon Ong, Penn State Erie, the Behrend College, USA
-- François Perron, Université de Montréal, Canada
-- Viviane Pons, Université Paris-Est Marne-la-Vallée, France
-- Domingo Alberto Quiroz Rodriguez, Universidad Simon Bolivar, Venezuela
-- Vivien Ripoll, LaCIM, Université du Québec à Montréal, Canada
-- Mariolys Rivas, Concordia University, Canada
-- Adolfo Rodriguez, Université du Québec à Montréal, Canada
-- Eric Rowland, LaCIM, Université du Québec à Montréal, Canada
-- Derek Ruths, McGill University, Canada
-- Franco Saliola, LaCIM, Université du Québec à Montréal, Canada
-- Anne Schilling, University of California, Davis, USA
-- Travis Scrimshaw, University of California Davis, USA
-- George Seelinger, Loyola University Chicago, USA
-- Tarek Sellami, Institut de Mathématique de Luminy, Marseille, France
-- Øyvind Solberg, NTNU, Trondheim, Norway
-- James Stark, University of Washington, USA
-- Nicolas Thiéry, LMO, Université Paris-Sud, France
-- Hugo Tremblay, Université du Québec à Montréal, Canada
-- Timothy R. S. Walsh, Université du Québec à Montréal, Canada
-- Mike Zabrocki, York University, Canada
+#. Frank Ban, University of Waterloo, Canada
+#. Cyril Joël Batkam, Université de Sherbrooke, Canada
+#. Khalid Benabdallah, Université de Montréal, Canada
+#. Chris Berg, LaCIM, Université du Québec à Montréal, Canada
+#. Héctor José Blandin Noguera, Université du Québec à Montréal, Canada
+#. Alexandre Blondin Massé, Université du Québec à Chicoutimi, Canada
+#. Pierre Bouchard, Université du Québec à Montréal, Canada
+#. Catherine Bourbeau, Université du Québec à Montréal, Canada
+#. Srecko Brlek, LaCIM, Université du Québec à Montréal, Canada
+#. Juan Carlos Bustamante, Université de Sherbrooke, Canada
+#. Pierre Cagne, École Normale Supérieure, Paris, France
+#. Sean Carrell, University of Waterloo, Canada
+#. Tom Denton, York University, Canada
+#. Stephen Doty, Loyola University Chicago, USA
+#. Jérôme Fortier, Université du Québec à Montréal, Canada
+#. Meinolf Geck, University of Aberdeen, Scotland
+#. Darij Grinberg, Massachusetts Institute of Technology, USA
+#. Mathieu Guay-Paquet, University of Waterloo, Canada
+#. Paul Guertin, Collège André-Grasset, Montréal, Canada
+#. Holly Heglin, York University, Canada
+#. Florent Hivert, LRI, Université Paris-Sud, France
+#. François Huard, Bishop’s University, Sherbrooke, Canada
+#. Restrepo Juan Ignacio, McGill University, Canada
+#. Sébastien Labbé, Université du Québec à Montréal, Canada
+#. Gilbert Labelle, LaCIM, Université du Québec à Montréal, Canada
+#. Mélodie Lapointe, UQAC, Chicoutimi, Canada
+#. Michael Larouche, Université du Québec à Chicoutimi, Canada
+#. Aaron Lauve, Loyola University Chicago, USA
+#. Syed Lavasani, University of Calgary, Canada
+#. Dorota Mazur, York University, Canada
+#. Nishan Mudalige, York University, Canada
+#. Boon Ong, Penn State Erie, the Behrend College, USA
+#. François Perron, Université de Montréal, Canada
+#. Viviane Pons, Université Paris-Est Marne-la-Vallée, France
+#. Domingo Alberto Quiroz Rodriguez, Universidad Simon Bolivar, Venezuela
+#. Vivien Ripoll, LaCIM, Université du Québec à Montréal, Canada
+#. Mariolys Rivas, Concordia University, Canada
+#. Adolfo Rodriguez, Université du Québec à Montréal, Canada
+#. Eric Rowland, LaCIM, Université du Québec à Montréal, Canada
+#. Derek Ruths, McGill University, Canada
+#. Franco Saliola, LaCIM, Université du Québec à Montréal, Canada
+#. Anne Schilling, University of California, Davis, USA
+#. Travis Scrimshaw, University of California Davis, USA
+#. George Seelinger, Loyola University Chicago, USA
+#. Tarek Sellami, Institut de Mathématique de Luminy, Marseille, France
+#. Øyvind Solberg, NTNU, Trondheim, Norway
+#. James Stark, University of Washington, USA
+#. Nicolas Thiéry, LMO, Université Paris-Sud, France
+#. Hugo Tremblay, Université du Québec à Montréal, Canada
+#. Timothy R. S. Walsh, Université du Québec à Montréal, Canada
+#. Mike Zabrocki, York University, Canada
 
 }}}
