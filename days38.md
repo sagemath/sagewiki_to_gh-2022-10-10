@@ -116,11 +116,11 @@ __ days38_schedule
     |     |                |N. Thiéry        |Talk 2:         |                |                |
     |     |                |                 |- V. Pons       |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Open            |
-    |     |- Notebook      |- PyCox by Geck  |- Contributing  |- Cython        |Presentations   |
+    |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Lunch           |
+    |     |- Notebook      |- PyCox by Geck  |- Contributing  |- Cython        |                |
     |     |                |                 |to Sage         |                |                |
-    +-----+----------------+-----------------+----------------+----------------+----------------+
-    |12h30|Lunch           |Lunch            |Lunch           |Lunch           |Lunch           |
+    +-----+----------------+-----------------+----------------+----------------|                |
+    |12h30|Lunch           |Lunch            |Lunch           |Lunch           |                |
     +-----+                |                 |                |                +----------------+
     |13h30|                |                 |                |                |Talk            |
     |     |                |                 |                |                |- n^(n-2) by    |
