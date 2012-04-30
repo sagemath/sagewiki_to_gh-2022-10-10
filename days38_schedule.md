@@ -127,9 +127,16 @@ Wednesday
             which leads to a generalization of Brown's theory of Markov chains
             for left regular bands.
 
- * 11h30 : Viviane Pons, *Multivariate Polynomials in Sage*
+ * 11h00 : Viviane Pons, *Bases of multivariate polynomials*
 
-            *Abstract.* À venir.
+            *Abstract.* We have developed a patch in sage to consider
+            multivariate polynomials as formal sums of vectors. Each vector
+            corresponds to the exponent of a monomial. From simple operations
+            on vectors, we obtain operations on the polynomials. We define the
+            *divided differences* and we explain how they can be used to
+            generate linear bases of the ring of multivariate polynomials. We
+            show that they can be seen as a generalization of the Schur basis
+            of symmetric polynomials.
 
  * 11h30 : Tutorial IV: *Contributing to Sage*, Anne Schilling
 
@@ -167,9 +174,11 @@ Friday
  * 09h00 : Open Presentations
  * 10h00 : Coffee Break
  * 10h30 : Open Presentations
- * 11h30 : Open Presentations
 
- **Lunch Break**: 12h30 - 14h30
+ **Lunch Break**: 11h30 - 13h30
+
+ * 13h30 : Doron Zeilberger :html:`n<sup>n-2</sup>`
+
 
  **Afternoon Session**, 14h30-17h30: exercises and coding sprints with coffee break and status reports
 
