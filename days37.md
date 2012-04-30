@@ -27,6 +27,14 @@ For more information, contact:
 
 Spring Meeting of the Korean Mathematical Society
 
+{{attachment:sd37-group.png}}
+
+Participants
+
 {{attachment:sd37-kwankyu-lee.png}}
 
 Kwankyu Lee and Why He Likes Sage
+
+{{attachment:sd37-dan-drake.png}}
+
+Dan Drake
