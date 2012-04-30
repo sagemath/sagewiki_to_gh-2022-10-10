@@ -25,7 +25,7 @@ The following people are likely to participate
  * Jon Bober (University of Washington)
  * Volker Braun (Dublin Institute for Advanced Study)
  * Karl-Dieter Crisman (Gordon College) ''arriving SEATAC at 10:51a May 24 on Jet Blue''
- * Jeroen Demeyer (Ghent University, Belgium)
+ * Jeroen Demeyer (Ghent University, Belgium) ''arriving SEATAC at 12:55 May 24 from Paris''
  * Dan Drake (Korea Advanced Institute of Science and Technology)
  * Benjamin Jones (University of Wisconsin-Stout) ''arriving SEATAC at 1:21p May 24 on DL 1753''
  * Keshav Kini (Nanyang Technological University)
