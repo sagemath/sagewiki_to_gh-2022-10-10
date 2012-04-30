@@ -121,8 +121,10 @@ __ days38_schedule
     |     |                |                 |to Sage         |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |12h30|Lunch           |Lunch            |Lunch           |Lunch           |Lunch           |
-    +-----+                |                 |                |                |                |
-    |13h30|                |                 |                |                |                |
+    +-----+                |                 |                |                +----------------+
+    |13h30|                |                 |                |                |Talk            |
+    |     |                |                 |                |                |- n^(n-2) by    |
+    |     |                |                 |                |                |D. Zeilberger   |
     +-----+----------------+-----------------+----------------+----------------+----------------+
     |14h30|Tutorial II     |Tutorial III     |Exercises and   |Exercises and   |Exercises and   |
     |     |- Calculus and  |- Programming in |Coding Sprints  |Coding Sprints  |Coding Sprints  |
@@ -146,36 +148,55 @@ Participants
 ------------
 
 - Frank Ban, University of Waterloo, Canada
-- Chris Berg, LaCIM, Montréal, Canada
+- Cyril Joël Batkam, Université de Sherbrooke, Canada
+- Khalid Benabdallah, Université de Montréal, Canada
+- Chris Berg, LaCIM, Université du Québec à Montréal, Canada
+- Héctor José Blandin Noguera, Université du Québec à Montréal, Canada
 - Alexandre Blondin Massé, Université du Québec à Chicoutimi, Canada
 - Pierre Bouchard, Université du Québec à Montréal, Canada
+- Catherine Bourbeau, Université du Québec à Montréal, Canada
+- Srecko Brlek, LaCIM, Université du Québec à Montréal, Canada
 - Juan Carlos Bustamante, Université de Sherbrooke, Canada
+- Pierre Cagne, École Normale Supérieure, Paris, France
 - Sean Carrell, University of Waterloo, Canada
+- Tom Denton, York University, Canada
 - Stephen Doty, Loyola University Chicago, USA
-- Jérôme Fortier, LaCIM UQAM Montréal, Canada  
+- Jérôme Fortier, Université du Québec à Montréal, Canada
+- Meinolf Geck, University of Aberdeen, Scotland
 - Darij Grinberg, Massachusetts Institute of Technology, USA
 - Mathieu Guay-Paquet, University of Waterloo, Canada
+- Paul Guertin, Collège André-Grasset, Montréal, Canada
 - Holly Heglin, York University, Canada
+- Florent Hivert, LRI, Université Paris-Sud, France
 - François Huard, Bishop’s University, Sherbrooke, Canada
+- Restrepo Juan Ignacio, McGill University, Canada
+- Sébastien Labbé, Université du Québec à Montréal, Canada
+- Gilbert Labelle, LaCIM, Université du Québec à Montréal, Canada
 - Mélodie Lapointe, UQAC, Chicoutimi, Canada
+- Michael Larouche, Université du Québec à Chicoutimi, Canada
+- Aaron Lauve, Loyola University Chicago, USA
 - Syed Lavasani, University of Calgary, Canada
 - Dorota Mazur, York University, Canada
 - Nishan Mudalige, York University, Canada
+- Boon Ong, Penn State Erie, the Behrend College, USA
+- François Perron, Université de Montréal, Canada
 - Viviane Pons, Université Paris-Est Marne-la-Vallée, France
-- Vivien Ripoll, LaCIM, UQAM, Montréal, Canada
-- Eric Rowland, LaCIM, UQAM, Montréal, Canada 
+- Domingo Alberto Quiroz Rodriguez, Universidad Simon Bolivar, Venezuela
+- Vivien Ripoll, LaCIM, Université du Québec à Montréal, Canada
+- Mariolys Rivas, Concordia University, Canada
+- Adolfo Rodriguez, Université du Québec à Montréal, Canada
+- Eric Rowland, LaCIM, Université du Québec à Montréal, Canada
+- Derek Ruths, McGill University, Canada
+- Franco Saliola, LaCIM, Université du Québec à Montréal, Canada
+- Anne Schilling, University of California, Davis, USA
 - Travis Scrimshaw, University of California Davis, USA
 - George Seelinger, Loyola University Chicago, USA
 - Tarek Sellami, Institut de Mathématique de Luminy, Marseille, France
-- James Stark, University of Washington, Seattle, WA USA
+- Øyvind Solberg, NTNU, Trondheim, Norway
+- James Stark, University of Washington, USA
+- Nicolas Thiéry, LMO, Université Paris-Sud, France
 - Hugo Tremblay, Université du Québec à Montréal, Canada
-- Aaron Lauve, Loyola University Chicago, USA
-- Paul Guertin, Collège André-Grasset, Montréal, Canada
-- Héctor José Blandin Noguera, Université du Québec à Montréal, Canada
-- Domingo Alberto Quiroz Rodriguez, Universidad Simon Bolivar, Venezuela 
-- Tom Denton, York University, Canada
-- Gilbert Labelle, Université du Québec à Montréal, Canada 
-- Michael Larouche, Université du Québec à Chicoutimi, Canada 
+- Timothy R. S. Walsh, Université du Québec à Montréal, Canada
 - Mike Zabrocki, York University, Canada
 
 }}}
