@@ -177,8 +177,7 @@ Friday
 
  **Lunch Break**: 11h30 - 13h30
 
- * 13h30 : Doron Zeilberger :html:`n<sup>n-2</sup>`
-
+ * 13h30 : Doron Zeilberger: n\ :sup:`n-2`\ 
 
  **Afternoon Session**, 14h30-17h30: exercises and coding sprints with coffee break and status reports
 
