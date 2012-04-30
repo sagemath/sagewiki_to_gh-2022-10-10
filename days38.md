@@ -116,7 +116,7 @@ __ days38_schedule
     |     |                |N. Thiéry        |Talk 2:         |                |                |
     |     |                |                 |- V. Pons       |                |                |
     +-----+----------------+-----------------+----------------+----------------+----------------+
-    |11h30|Tutorial I      |Talk             |Tutorial V      |Tutorial VI     |Lunch           |
+    |11h30|Tutorial I      |Talk             |Tutorial IV     |Tutorial V      |Lunch           |
     |     |- Notebook      |- PyCox by Geck  |- Contributing  |- Cython        |                |
     |     |                |                 |to Sage         |                |                |
     +-----+----------------+-----------------+----------------+----------------+                |
