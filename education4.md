@@ -48,6 +48,7 @@ Participants from the test sites for the NSF UTMOST project will have first prio
 
 To register, please add yourself alphabetically by last name.  Email Rob Beezer  at beezer@ups.edu if you'd rather not figure out how to edit the wiki page and he'll add your name (include a relevant web link, if available).
 
+ 1. [[http://people.whitman.edu/~balofba/|Barry Balof]] (Whitman College)
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
  1. [[https://sites.google.com/a/lsmsa.edu/bburkman/|Brad Burkman]] (Louisiana School for Math, Science, and the Arts)
  1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School)
