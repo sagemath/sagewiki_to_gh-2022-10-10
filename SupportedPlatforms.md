@@ -141,10 +141,10 @@ If you try to build Sage on something more exotic, you may find a Sage developer
 
 Below are listed the supported platforms, along with the level of support given. There are 4 levels of support.
 
- * 1) [[#Fully_supported|Fully supported]] - Sage is ALWAYS checked on ALL these platforms before a release is made.
- * 2) [[#Expected_to_work|Expected to work]] -  Sage will probably work, but it is not always tested.
- * 3) [[#Almost_works|Almost works]] - Sage builds on these platforms, but there are some known issues.  However, most functionality of Sage should still work.
- * 4) [[#Probably_will_not_work|Probably will not work]] - Porting work may be ongoing.
+ 1. [[#Fully_supported|Fully supported]] - Sage is ALWAYS checked on ALL these platforms before a release is made.
+ 2. [[#Expected_to_work|Expected to work]] -  Sage will probably work, but it is not always tested.
+ 3. [[#Almost_works|Almost works]] - Sage builds on these platforms, but there are some known issues.  However, most functionality of Sage should still work.
+ 4. [[#Probably_will_not_work|Probably will not work]] - Porting work may be ongoing.
 
 Specific hardware and software for these levels of support are given below.
 
