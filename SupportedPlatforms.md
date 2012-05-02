@@ -177,13 +177,14 @@ There are several requirements for Sage to work successfully on these fully supp
  * Redhat 5.6 (Tikanga) on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/rosemary-1|rosemary]]
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
  * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
+ * Ubuntu 12.04 on x86 (32-bit).  Make sure that the ''dpkg-dev'' package is installed.  Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]]
 
 ==== Mac OS X ====
  * OS X 10.4 (Tiger) on PPC.
  * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3 (XCode 4.0.1 is known to produce an executable that does not work).  Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
 ==== OpenSolaris x86 32-bit ====
- * 06/2009 updated to build 134 on x86 (32-bit only). Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
+ * 06/2009 updated to build 134 on x86 (32-bit only), with gcc as well as the Sun compiler. Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
 
 === Almost fully supported ===
 This lists systems on which Sage builds, but there are a few doctest errors.  However, most of the functionality of Sage should work.  If the doctest failures are fixed, these systems will move to the "fully supported" category.
@@ -192,7 +193,7 @@ This lists systems on which Sage builds, but there are a few doctest errors.  Ho
  * ppc64: The 64-bit PowerPC port can be followed at [[http://trac.sagemath.org/sage_trac/ticket/11705|Trac #11705]]. Tested on [[http://build.sagemath.org/sage/buildslaves/silius-1|silius]]
 
 ==== Solaris ====
- * Solaris 10 03/2005 or any later Solaris 10 release on SPARC processors in 32-bit mode. Tested on [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]]
+ * Solaris 10 on SPARC processors in 32-bit mode. Tested on [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]]
 
 === Expected to work ===
 In addition to the above systems where Sage will work, Sage will probably work on the following operating systems, though we can't guarantee that, as it is impractical to test each Sage release on all these systems. Failure to build on these systems will be considered a bug, but we may not have the resources to solve any problems. Sage developers should be able to offer assistance to anyone who can't get Sage to work properly on one of these platforms, but since they might not necessarily have access to the platform, that may be difficult.
@@ -206,9 +207,9 @@ If anyone is able to test on these systems, we would particularly appreciate rep
  * Fedora 11 or 12 (Both 32-bit and 64-bit). 
  * Gentoo. The Sage on Gentoo project (http://github.com/cschwan/sage-on-gentoo) is aimed at properly integrating Sage to the Gentoo system, so is quite different to how Sage builds on all other platforms. This is designed for end users, not developers. However, a recent Sage should build from the source on Gentoo, but that would not be the normal way to use Sage on Gentoo. 
  * openSUSE 12.1 on x86 (Both 32-bit and 64-bit).
- * Red Hat Enterprise Linux Server 5.3 or later. 
+ * Red Hat Enterprise Linux Server 5.3 or later.
  * SUSE Linux Enterprise Server 10 or later on Intel Itanium processors 
- * Ubuntu 8 or later.
+ * Ubuntu 8 or later.  For Ubuntu 12.04, make sure the ''dpkg-dev'' package is installed.
 
 Other Linux distributions, such as Slackware are never tested, so may or may not work. 
 
@@ -217,6 +218,7 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
  * OS X 10.7 (Lion), provided you use a sufficiently recent version of XCode.
 
 ==== Solaris ====
+ * Solaris 10 03/2005 or any later Solaris 10 release on SPARC processors in 32-bit mode.
  * Solaris 10 03/2005 or any later Solaris 10 release on x86 processors in 32-bit mode.
  * Solaris 10 on x86 processors in 32-bit mode.
  * Solaris 11 Express on x86 (32-bit has been tested).
