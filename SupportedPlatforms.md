@@ -133,9 +133,6 @@ More information about the status of the Solaris ports can be found on the [[sol
 ----
 = sage-5.0 =
 
-== Supported compilers ==
-Since Sage contains a [[http://gcc.gnu.org/|GCC (GNU Compiler Collection)]] package, you need a C compiler which can compile GCC.  gcc-3.4 or later should work.
-
 == Supported Platforms ==
 
 If you try to build Sage on most Linux or OS X systems, you should have few if any problems and if there are problems, plenty of people will be able to help you. Just ask on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] But some distributions are better supported than others - see below for details. 
