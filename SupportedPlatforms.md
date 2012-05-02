@@ -179,7 +179,7 @@ There are several requirements for Sage to work successfully on these fully supp
 
 === Mac OS X ===
  * OS X 10.4 (Tiger) on PPC.
- * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3 (XCode 4.0.1 is known to produce an executable that does not work).  Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
+ * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3.  Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
 
 === OpenSolaris x86 32-bit ===
  * 06/2009 updated to build 134 on x86 (32-bit only), with gcc as well as the Sun compiler. Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
