@@ -190,6 +190,7 @@ There are several requirements for Sage to work successfully on these fully supp
 This lists systems on which Sage builds, but there are a few doctest errors.  However, most of the functionality of Sage should work.  If the doctest failures are fixed, these systems will move to the "fully supported" category.
 
 ==== Linux ====
+ * Linux on ARM processors.  All the issues are numerical, where some computations (in particular of the gamma function) yield results with less numerical precision than expected.  See [[http://trac.sagemath.org/sage_trac/ticket/10285|Trac #10285]].
  * ppc64: The 64-bit PowerPC port can be followed at [[http://trac.sagemath.org/sage_trac/ticket/11705|Trac #11705]]. Tested on [[http://build.sagemath.org/sage/buildslaves/silius-1|silius]]
 
 ==== Solaris ====
