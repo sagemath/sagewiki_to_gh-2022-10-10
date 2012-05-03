@@ -5,6 +5,7 @@ Sage Days 38 Tutorials
 
 Tutorial I
 ----------
+
 *Using the Sage notebook and navigating the help system*
 
     * leader: Franco Saliola
