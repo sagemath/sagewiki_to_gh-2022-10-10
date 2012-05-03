@@ -16,6 +16,8 @@ Combinatorics
 
 .. _PyCox: http://arxiv.org/abs/1201.5566
 
+* Implementation of the poset of alternating sign matrices (ask Anne Schilling for details)
+
 Representation Theory
 ---------------------
 
