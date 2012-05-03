@@ -12,6 +12,10 @@ Below is a list of proposed projects.
 Combinatorics
 -------------
 
+* Sage/`PyCox`_ integration
+
+.. _PyCox: http://arxiv.org/abs/1201.5566
+
 Representation Theory
 ---------------------
 
@@ -20,6 +24,7 @@ Representation Theory
 __ http://www.math.ntnu.no/~oyvinso/QPA/
 .. _QPA: http://sourceforge.net/projects/quiverspathalg/
 
+ Franco Saliola
 
 Documentation
 -------------
