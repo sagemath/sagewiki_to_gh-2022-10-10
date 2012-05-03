@@ -52,6 +52,7 @@ There are five requirements for Sage to work successfully on these fully support
  * Redhat 5.6 (Tikanga) on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/rosemary-1|rosemary]]
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
  * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
+ * Debian 6.0.4 on x86 (64-bit). Tested at NTU
 
 ==== Mac OS X ====
  * OS X 10.4 (Tiger) on PPC.  There is one known problem with the Maxima interface, this will be fixed in sage-5.0, see [[http://trac.sagemath.org/sage_trac/ticket/9361|Trac #9361]].
@@ -176,6 +177,7 @@ There are several requirements for Sage to work successfully on these fully supp
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
  * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
  * Ubuntu 12.04 on x86 (32-bit).  Make sure that the ''dpkg-dev'' package is installed.  Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]]
+ * Debian 6.0.4 on x86 (64-bit). Tested at NTU
 
 === Mac OS X ===
  * OS X 10.4 (Tiger) on PPC.
