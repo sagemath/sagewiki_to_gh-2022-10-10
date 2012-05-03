@@ -177,7 +177,6 @@ There are several requirements for Sage to work successfully on these fully supp
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
  * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
  * Ubuntu 12.04 on x86 (32-bit).  Make sure that the ''dpkg-dev'' package is installed.  Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]]
- * Debian 6.0.4 on x86 (64-bit). Tested at NTU
 
 === Mac OS X ===
  * OS X 10.4 (Tiger) on PPC.
@@ -192,9 +191,10 @@ In addition to the above systems where Sage will work, Sage will probably work o
 If anyone is able to test on these systems, we would particularly appreciate reports of failures, since Sage really should work on these systems. We expect to set up an automated system where people can mail successful build reports, and to generate a web page showing successful builds. But currently neither are in place. 
 
 === Linux ===
- * Arch on x86 (Both 32-bit and 64-bit) 
- * CentOS  on x86 (Both 32-bit and 64-bit) 
- * Debian 5.0 on x86 (Both 32-bit and 64-bit)
+ * Arch on x86 (Both 32-bit and 64-bit).
+ * CentOS  on x86 (Both 32-bit and 64-bit).
+ * Debian 5.0 on x86 (Both 32-bit and 64-bit).
+ * Debian 6.0.4 on x86 (64-bit).
  * Fedora 11 or later (Both 32-bit and 64-bit). 
  * Gentoo. The Sage on Gentoo project (http://github.com/cschwan/sage-on-gentoo) is aimed at properly integrating Sage to the Gentoo system, so is quite different to how Sage builds on all other platforms. This is designed for end users, not developers. However, a recent Sage should build from source on Gentoo.
  * openSUSE 12.1 on x86 (Both 32-bit and 64-bit).
