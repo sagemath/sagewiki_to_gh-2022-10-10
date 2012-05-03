@@ -3,16 +3,93 @@
 Sage Days 38 Tutorials
 ======================
 
-Tutorial I
-----------
+Tutorial I: Using the Sage notebook and navigating the help system
+------------------------------------------------------------------
 
-*Using the Sage notebook and navigating the help system*
+ * leader:
 
-    * leader: Franco Saliola
+ * worksheets:
 
- * 14h30 : `Tutorial II`_ : *Calculus and Linear Algebra in Sage*
- * 14h30 : `Tutorial III`_: *Programming in Python and Sage*, Florent Hivert
- * 11h30 : `Tutorial IV`_: *Contributing to Sage*, Anne Schilling
- * 11h30 : `Tutorial V`_: *Cython*, Florent Hivert
+   -
+   -
+   -
+
+ * resources:
+
+   -
+   -
+   -
+
+Tutorial II: Calculus and Linear Algebra in Sage
+------------------------------------------------
+
+ * leader:
+
+ * worksheets:
+
+   -
+   -
+   -
+
+ * resources:
+
+   -
+   -
+   -
+
+
+Tutorial III: Programming in Python and Sage
+--------------------------------------------
+
+ * leader:
+
+ * worksheets:
+
+   -
+   -
+   -
+
+ * resources:
+
+   -
+   -
+   -
+
+
+Tutorial IV: Contributing to Sage
+---------------------------------
+
+ * leader:
+
+ * worksheets:
+
+   -
+   -
+   -
+
+ * resources:
+
+   -
+   -
+   -
+
+
+Tutorial V: Cython
+------------------
+
+ * leader:
+
+ * worksheets:
+
+   -
+   -
+   -
+
+ * resources:
+
+   -
+   -
+   -
+
 
 }}}
