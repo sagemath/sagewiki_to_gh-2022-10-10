@@ -3,6 +3,11 @@
 Sage Days 38 Tutorials
 ======================
 
+**For the main Sage Days 38 wiki page go** `here`__.
+
+__ days38
+
+
 Tutorial I: Using the Sage notebook and navigating the help system
 ------------------------------------------------------------------
 
