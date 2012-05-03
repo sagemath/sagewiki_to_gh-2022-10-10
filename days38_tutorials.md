@@ -8,7 +8,7 @@ Tutorial I: Using the Sage notebook and navigating the help system
 
  Leader: Franco Saliola
 
- Worksheets:
+ Worksheet:
 
  - `Using the Sage Notebook and navigating the help system`_
 
@@ -79,10 +79,11 @@ Tutorial IV: Contributing to Sage
 
  Leader: Anne Schilling
 
- Worksheet:
+ Guides:
 
  - `How to Referee Sage Trac Tickets`_
  - `How to contribute to Sage`_ by Sébastien Labbé
+ - `Introduction to Sage Development`_ by Mike Hansen
 
  Related thematic tutorials:
 
@@ -164,6 +165,7 @@ Tutorial V: Cython
 .. _`How to contribute to Sage`: http://thales.math.uqam.ca/~labbes/Sage/how-to-contribute/
 .. _`How to Referee Sage Trac Tickets`: http://sagemath.blogspot.com/2010/10/how-to-referee-sage-trac-tickets.html
 .. _`Editing the Sage sources`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-editing-sage-sources.html
+.. _`Introduction to Sage Development`: http://wiki.sagemath.org/days20.5/schedule?action=AttachFile&do=view&target=sd20.5.pdf
 
 .. Python:
 .. _`Python website`: http://www.python.org
