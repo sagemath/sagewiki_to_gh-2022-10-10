@@ -6,90 +6,193 @@ Sage Days 38 Tutorials
 Tutorial I: Using the Sage notebook and navigating the help system
 ------------------------------------------------------------------
 
- * leader:
+ * leader: Franco Saliola
 
- * worksheets:
-
-   -
-   -
-   -
+ * worksheet: `Using the Sage Notebook and navigating the help system`_
 
  * resources:
 
-   -
-   -
-   -
+    - `Sage Quick Reference Card`_
+    - `The Sage tutorial`_
+    - `Sage documentation`_: the standard documentation and other resources
 
 Tutorial II: Calculus and Linear Algebra in Sage
 ------------------------------------------------
 
- * leader:
+ * leader: ?
 
- * worksheets:
-
-   -
-   -
-   -
+ * worksheet: `Calculus and Linear Algebra in Sage`_
 
  * resources:
 
-   -
-   -
-   -
+    - `Calculus Quick Reference Card`_
+    - `Linear Algebra Quick Reference Card`_
 
 
 Tutorial III: Programming in Python and Sage
 --------------------------------------------
 
- * leader:
+ * leader: Florent Hivert
 
- * worksheets:
+ * worksheet: `Programming in Python and Sage`_
 
-   -
-   -
-   -
+ * related thematic tutorials:
 
- * resources:
+    - `Loops and Iterators`_
+    - `Objects and Classes in Python and Sage`_
+    - `Functional Programming for Mathematicians`_
+    - `Testing a conjecture in parallel`_
+    - `Implementing Algebraic Structures`_
 
-   -
-   -
-   -
+ * learn-to-program resources:
 
+    - `Project Euler`_: Project Euler is a series of challenging
+      mathematical/computer programming problems that will require more than just
+      mathematical insights to solve. This is a great source of problems to attempt
+      while learning Sage/Python. (`Projet Euler en Français`_; `Проект Эйлера`_ (Russian).)
+    - `Learn to Code: The Full Beginner's Guide`_ from `lifehacker.com`_: 5 lessons on the basics of programming (`PDF version`_)
+    - Google's `Exploring Computational Thinking`_
+    - `Python challenge`_
+
+ * Python resources:
+
+    - `Python tutorial`_: the "official" Python tutorial from the Python Software Foundation
+    - `Learn Python in 10 minutes`_ (`disponible en français`_)
+    - `Instant Python`_: a minimal crash-course in Python.
+    - `Learn Python the Hard Way`_ is a very beginner book for people who want to learn to code.
+    - `Code Like a Pythonista: Idiomatic Python`_ is an interactive tutorial that covers many essential Python idioms and techniques in depth.
+    - `Google's Python class`_ for people with a little bit of programming experience; includes videos of lecture, written materials and exercises.
+    - `Discover Python`_ is a series of articles published in `IBM's developerWorks`_ technical resource center.
+    - `Dive into Python`_ is a Python book for experienced programmers. Also available in French, `Plongez au coeur de Python`_, and `other languages`_.
+    - `Python Programming Wikibook`_
+    - `Python Standard Library`_
+    - `High Performance Python`_
 
 Tutorial IV: Contributing to Sage
 ---------------------------------
 
- * leader:
+ * leader: Anne Schilling
 
- * worksheets:
+ * worksheet:
 
-   -
-   -
-   -
+ * ReStructuredText resources:
 
- * resources:
+    - `How to Referee Sage Trac Tickets`_
+    - `Quick reStructuredText`_: quick reference for reStructuredText
+    - `reStructuredText`_: more detailed reference
+    - `reStructuredText (saifoo.net)`_
 
-   -
-   -
-   -
+ * Mercurial resources:
+
+    - `Hg Init: a Mercurial Tutorial`_. In this user-friendly, six-part tutorial, Joel Spolsky teaches you the key concepts of Mercurial.
+    - `Learning Mercurial in Workflows`_. This page illustrates the use of Mercurial in various workflows.
+    - `Mq Tutorial`_. A tutorial on Mercurial queues.
+    - `A Git User’s Guide to Mercurial Queues`_
+
 
 
 Tutorial V: Cython
 ------------------
 
- * leader:
+ * leader: Florent Hivert
 
- * worksheets:
-
-   -
-   -
-   -
+ * worksheet:
 
  * resources:
 
-   -
-   -
-   -
+    - `Cython`_: all the benefits of Python with the speed of C
+    - `A quick Cython introduction`_
+    - `Cython tutorial`_: describes the Cython language and shows how it can be
+      used both to write optimized code and to interface with external C libraries.
+    - `Cython user's guide`_
+    - `Cython, Sage, and the Need for Speed`_
+    - `Getting Started With Cython`_
+    - `Python extensions with C libraries made easy by Cython`_
+
+.. links
+
+.. attachments
+.. _`Using the Sage Notebook and navigating the help system`: attachment:tutorial1.sws
+.. _`Calculus and Linear Algebra in Sage`: attachment:tutorial2.sws
+.. _`Programming in Python and Sage`: attachment:tutorial3.sws
+.. _`The Sage Tutorial`: http://combinat.sagemath.org/doc/tutorial
+
+.. quick references
+.. _`Sage Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf
+.. _`Linear Algebra Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-linalg.pdf
+.. _`Calculus Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-calc.pdf
+.. _`Graph Theory Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=view&target=quickref-graphtheory.pdf
+.. _`Elementary Number Theory Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-nt.pdf
+
+.. thematic tutorials
+.. _`Loops and Iterators`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-iterators.html
+.. _`Objects and Classes in Python and Sage`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-objects-and-classes.html
+.. _`Functional Programming for Mathematicians`: http://combinat.sagemath.org/doc/thematic_tutorials/functional_programming.html
+.. _`Testing a conjecture in parallel`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-parallel.html
+.. _`Implementing Algebraic Structures`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-implementing-algebraic-structures.html
+
+.. Sage:
+.. _`Sage`: http://www.sagemath.org
+.. _`Sage tutorial`: http://www.sagemath.org/doc/tutorial
+.. _`A tour of Sage`: http://www.sagemath.org/doc/a_tour_of_sage/index.html
+.. _`Exploring Mathematics with Sage`: http://vps.arachnoid.com/sage
+.. _`Sage documentation`: http://sagemath.org/help.html#SageStandardDoc
+.. _`Sage: Creating a Viable Free Open Source Alternative to Magma, Maple, Mathematica, and MATLAB`: http://sagemath.blogspot.com/2011/08/sage-creating-viable-free-open-source.html
+.. _`How to Referee Sage Trac Tickets`: http://sagemath.blogspot.com/2010/10/how-to-referee-sage-trac-tickets.html
+
+.. Python:
+.. _`Python website`: http://www.python.org
+.. _`Python tutorial`: http://docs.python.org/tutorial/
+.. _`Learn Python in 10 minutes`: http://www.korokithakis.net/tutorials/python
+.. _`disponible en français`: http://mat.oxyg3n.org/index.php?post/2009/07/26/Python-en-10-minutes
+.. _`Dive into Python`: http://diveintopython.org/
+.. _`Plongez au coeur de Python`: http://diveintopython.adrahon.org/
+.. _`other languages`: http://diveintopython.org/#languages
+.. _`Discover Python`: http://www.ibm.com/developerworks/views/opensource/libraryview.jsp?search_by=Discover+Python+Part
+.. _`IBM's developerWorks`: http://www.ibm.com/developerworks/
+.. _`Learn Python the Hard Way`: http://learnpythonthehardway.org
+.. _`Code Like a Pythonista: Idiomatic Python`: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+.. _`Google's Python class`: http://code.google.com/edu/languages/google-python-class
+.. _`Python Programming Wikibook`: http://en.wikibooks.org/wiki/Python_Programming
+.. _`Python Standard Library`: http://docs.python.org/library/
+.. _`Instant Python`: http://hetland.org/writing/instant-python.html
+.. _`High Performance Python`: http://ianozsvald.com/2011/07/25/high-performance-python-tutorial-v0-2-from-europython-2011
+
+.. Cython:
+.. _`Cython`: http://cython.org/
+.. _`A quick Cython introduction`: http://www.perrygeo.net/wordpress/?p=116
+.. _`Cython tutorial`: http://conference.scipy.org/proceedings/SciPy2009/paper_1/
+.. _`Cython user's guide`: http://docs.cython.org/
+.. _`Cython, Sage, and the Need for Speed`: http://sagemath.blogspot.com/2010/11/cython-sage-and-need-for-speed.html
+.. _`Getting Started With Cython`: http://sagemath.blogspot.com/2010/11/getting-started-with-cython.html
+.. _`Python extensions with C libraries made easy by Cython`: http://equatorialmaths.wordpress.com/2010/10/16/python-extensions-with-c-libraries-made-easy-by-cython/
+
+.. ReStructuredText:
+.. _`Quick reStructuredText`: http://docutils.sourceforge.net/docs/user/rst/quickref.html
+.. _`reStructuredText`: http://docutils.sourceforge.net/rst.html
+.. _`Sphinx Markup Constructs`: http://sphinx.pocoo.org/markup/index.html
+.. _`reStructuredText (saifoo.net)`: http://www.siafoo.net/help/reST/
+.. _`ReText`: http://sourceforge.net/p/retext/home/ReText
+
+.. Mercurial:
+.. _`Hg Init: a Mercurial Tutorial`: http://hginit.com/
+.. _`Learning Mercurial in Workflows`: http://mercurial.selenic.com/guide
+.. _`Mq Tutorial`: http://mercurial.selenic.com/wiki/MqTutorial
+.. _`A Git User’s Guide to Mercurial Queues`: http://stevelosh.com/blog/2010/08/a-git-users-guide-to-mercurial-queues/
+
+.. Learn to Program:
+.. _`Project Euler`: http://projecteuler.net/
+.. _`Projet Euler en Français`: http://eulerdz.toile-libre.org
+.. _`Проект Эйлера`: http://euler.jakumo.org
+.. _`Learn how to code this weekend`: http://lifehacker.com/5733449/learn-how-to-code-this-weekend
+.. _`Learn to Code: The Full Beginner's Guide`: http://lifehacker.com/#!5744113/learn-to-code-the-full-beginners-guide
+.. _`PDF version`: http://dl.dropbox.com/u/3448760/Learn%20How%20To%20Code.pdf
+.. _`LifeHacker.com`: http://www.lifehacker.com
+.. _`Python challenge`: http://www.pythonchallenge.com
+.. _`Exploring Computational Thinking`: http://www.google.com/edu/computational-thinking/
+
+.. Teaching with Sage:
+.. _UTMOST: http://utmost.aimath.org/
 
 
 }}}
