@@ -81,9 +81,11 @@ Tutorial IV: Contributing to Sage
 
  Guides:
 
- - `How to Referee Sage Trac Tickets`_
+ - `How to Referee Sage Trac Tickets`_ by William Stein
  - `How to contribute to Sage`_ by Sébastien Labbé
  - `Introduction to Sage Development`_ by Mike Hansen
+ - `Short step-by-step checklist for reviewing a patch`_ by Franco Saliola
+ - `Walking Through the Development Process`_ part of the `Sage Developer's Guide`_
 
  Related thematic tutorials:
 
@@ -166,6 +168,10 @@ Tutorial V: Cython
 .. _`How to Referee Sage Trac Tickets`: http://sagemath.blogspot.com/2010/10/how-to-referee-sage-trac-tickets.html
 .. _`Editing the Sage sources`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-editing-sage-sources.html
 .. _`Introduction to Sage Development`: http://wiki.sagemath.org/days20.5/schedule?action=AttachFile&do=view&target=sd20.5.pdf
+.. _`Short step-by-step checklist for reviewing a patch`: https://www.evernote.com/shard/s16/sh/f30e5eb9-70a9-4882-818b-333c690942bf/d7a138e2705c25b8da6e2053950a89d5
+.. _`Sage Developer's Guide`: http://sagemath.org/doc/developer/index.html
+.. _`Walking Through the Development Process`: http://sagemath.org/doc/developer/walk_through.html
+.. _`Review a patch`: http://sagemath.org/doc/developer/walk_through.html#reviewing-a-patch
 
 .. Python:
 .. _`Python website`: http://www.python.org
