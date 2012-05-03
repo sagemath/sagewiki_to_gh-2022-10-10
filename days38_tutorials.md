@@ -110,7 +110,9 @@ Tutorial V: Cython
 
  Worksheet:
 
- -
+ Related thematic tutorials:
+
+ - `Introduction to Cython`_
 
  Resources:
 
@@ -148,6 +150,7 @@ Tutorial V: Cython
 .. _`Functional Programming for Mathematicians`: http://combinat.sagemath.org/doc/thematic_tutorials/functional_programming.html
 .. _`Testing a conjecture in parallel`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-parallel.html
 .. _`Implementing Algebraic Structures`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-implementing-algebraic-structures.html
+.. _`Introduction to Cython`: http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet10-IntroductionToCython.html
 
 .. Sage:
 .. _`Sage`: http://www.sagemath.org
