@@ -21,6 +21,7 @@ Tutorial I: Using the Sage notebook and navigating the help system
 
  - `Sage Quick Reference Card`_
  - `The Sage tutorial`_
+ - `Sage Constructions`_: "How do I construct ... in Sage?"
  - `Sage documentation`_: the standard documentation and other resources
 
 Tutorial II: Calculus and Linear Algebra in Sage
@@ -36,6 +37,7 @@ Tutorial II: Calculus and Linear Algebra in Sage
 
  - `Calculus Quick Reference Card`_
  - `Linear Algebra Quick Reference Card`_
+ - `Sage Constructions`_: "How do I construct ... in Sage?"
 
 
 Tutorial III: Programming in Python and Sage
@@ -170,6 +172,7 @@ Tutorial V: Cython
 .. _`Exploring Mathematics with Sage`: http://vps.arachnoid.com/sage
 .. _`Sage documentation`: http://sagemath.org/help.html#SageStandardDoc
 .. _`Sage: Creating a Viable Free Open Source Alternative to Magma, Maple, Mathematica, and MATLAB`: http://sagemath.blogspot.com/2011/08/sage-creating-viable-free-open-source.html
+.. _`Sage Constructions`: http://sagemath.org/doc/constructions
 
 .. Contributing to Sage:
 .. _`How to contribute to Sage`: http://thales.math.uqam.ca/~labbes/Sage/how-to-contribute/
