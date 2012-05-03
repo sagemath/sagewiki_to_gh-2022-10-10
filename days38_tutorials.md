@@ -6,108 +6,126 @@ Sage Days 38 Tutorials
 Tutorial I: Using the Sage notebook and navigating the help system
 ------------------------------------------------------------------
 
- * leader: Franco Saliola
+ Leader: Franco Saliola
 
- * worksheet: `Using the Sage Notebook and navigating the help system`_
+ Worksheets:
 
- * resources:
+ - `Using the Sage Notebook and navigating the help system`_
 
-    - `Sage Quick Reference Card`_
-    - `The Sage tutorial`_
-    - `Sage documentation`_: the standard documentation and other resources
+ Resources:
+
+ - `Sage Quick Reference Card`_
+ - `The Sage tutorial`_
+ - `Sage documentation`_: the standard documentation and other resources
 
 Tutorial II: Calculus and Linear Algebra in Sage
 ------------------------------------------------
 
- * leader: ?
+ Leader: ?
 
- * worksheet: `Calculus and Linear Algebra in Sage`_
+ Worksheet:
 
- * resources:
+ - `Calculus and Linear Algebra in Sage`_
 
-    - `Calculus Quick Reference Card`_
-    - `Linear Algebra Quick Reference Card`_
+ Resources:
+
+ - `Calculus Quick Reference Card`_
+ - `Linear Algebra Quick Reference Card`_
 
 
 Tutorial III: Programming in Python and Sage
 --------------------------------------------
 
- * leader: Florent Hivert
+ Leader: Florent Hivert
 
- * worksheet: `Programming in Python and Sage`_
+ Worksheet:
+ 
+ - `Programming in Python and Sage`_
 
- * related thematic tutorials:
+ Related thematic tutorials:
 
-    - `Loops and Iterators`_
-    - `Objects and Classes in Python and Sage`_
-    - `Functional Programming for Mathematicians`_
-    - `Testing a conjecture in parallel`_
-    - `Implementing Algebraic Structures`_
+ - `Loops and Iterators`_
+ - `Objects and Classes in Python and Sage`_
+ - `Functional Programming for Mathematicians`_
+ - `Testing a conjecture in parallel`_
+ - `Implementing Algebraic Structures`_
 
- * learn-to-program resources:
+ Learn-to-program resources:
 
-    - `Project Euler`_: Project Euler is a series of challenging
-      mathematical/computer programming problems that will require more than just
-      mathematical insights to solve. This is a great source of problems to attempt
-      while learning Sage/Python. (`Projet Euler en Français`_; `Проект Эйлера`_ (Russian).)
-    - `Learn to Code: The Full Beginner's Guide`_ from `lifehacker.com`_: 5 lessons on the basics of programming (`PDF version`_)
-    - Google's `Exploring Computational Thinking`_
-    - `Python challenge`_
+ - `Project Euler`_: Project Euler is a series of challenging
+   mathematical/computer programming problems that will require more than just
+   mathematical insights to solve. This is a great source of problems to attempt
+   while learning Sage/Python. (`Projet Euler en Français`_; `Проект Эйлера`_ (Russian).)
+ - `Learn to Code: The Full Beginner's Guide`_ from `lifehacker.com`_: 5 lessons on the basics of programming (`PDF version`_)
+ - Google's `Exploring Computational Thinking`_
+ - `Python challenge`_
 
- * Python resources:
+ Python resources:
 
-    - `Python tutorial`_: the "official" Python tutorial from the Python Software Foundation
-    - `Learn Python in 10 minutes`_ (`disponible en français`_)
-    - `Instant Python`_: a minimal crash-course in Python.
-    - `Learn Python the Hard Way`_ is a very beginner book for people who want to learn to code.
-    - `Code Like a Pythonista: Idiomatic Python`_ is an interactive tutorial that covers many essential Python idioms and techniques in depth.
-    - `Google's Python class`_ for people with a little bit of programming experience; includes videos of lecture, written materials and exercises.
-    - `Discover Python`_ is a series of articles published in `IBM's developerWorks`_ technical resource center.
-    - `Dive into Python`_ is a Python book for experienced programmers. Also available in French, `Plongez au coeur de Python`_, and `other languages`_.
-    - `Python Programming Wikibook`_
-    - `Python Standard Library`_
-    - `High Performance Python`_
+ - `Learn Python in 10 minutes`_ (`disponible en français`_)
+ - `Instant Python`_: a minimal crash-course in Python.
+ - `Code Like a Pythonista: Idiomatic Python`_ is an interactive tutorial that covers many essential Python idioms and techniques in depth.
+ - `Dive into Python`_ is a Python book for experienced programmers. Also available in French, `Plongez au coeur de Python`_, and `other languages`_.
+ - `Python tutorial`_: the "official" Python tutorial from the Python Software Foundation
+ - `Learn Python the Hard Way`_ is a very beginner book for people who want to learn to code.
+ - `Google's Python class`_ for people with a little bit of programming experience; includes videos of lecture, written materials and exercises.
+ - `Discover Python`_ is a series of articles published in `IBM's developerWorks`_ technical resource center.
+ - `Python Programming Wikibook`_
+ - `Python Standard Library`_
+ - `High Performance Python`_
 
 Tutorial IV: Contributing to Sage
 ---------------------------------
 
- * leader: Anne Schilling
+ Leader: Anne Schilling
 
- * worksheet:
+ Worksheet:
 
- * ReStructuredText resources:
+ - `How to Referee Sage Trac Tickets`_
+ - `How to contribute to Sage`_ by Sébastien Labbé
 
-    - `How to Referee Sage Trac Tickets`_
-    - `Quick reStructuredText`_: quick reference for reStructuredText
-    - `reStructuredText`_: more detailed reference
-    - `reStructuredText (saifoo.net)`_
+ Related thematic tutorials:
 
- * Mercurial resources:
+ - `Editing the Sage sources`_
 
-    - `Hg Init: a Mercurial Tutorial`_. In this user-friendly, six-part tutorial, Joel Spolsky teaches you the key concepts of Mercurial.
-    - `Learning Mercurial in Workflows`_. This page illustrates the use of Mercurial in various workflows.
-    - `Mq Tutorial`_. A tutorial on Mercurial queues.
-    - `A Git User’s Guide to Mercurial Queues`_
+ ReStructuredText resources:
+
+ - `Quick reStructuredText`_: quick reference for reStructuredText
+ - `reStructuredText`_: more detailed reference
+ - `reStructuredText (saifoo.net)`_
+
+ Mercurial resources:
+
+ - `Hg Init: a Mercurial Tutorial`_. In this user-friendly, six-part tutorial, Joel Spolsky teaches you the key concepts of Mercurial.
+ - `Learning Mercurial in Workflows`_. This page illustrates the use of Mercurial in various workflows.
+ - `Mq Tutorial`_. A tutorial on Mercurial queues.
+ - `A Git User’s Guide to Mercurial Queues`_
 
 
 
 Tutorial V: Cython
 ------------------
 
- * leader: Florent Hivert
+ Leader: Florent Hivert
 
- * worksheet:
+ Worksheet:
 
- * resources:
+ -
 
-    - `Cython`_: all the benefits of Python with the speed of C
-    - `A quick Cython introduction`_
-    - `Cython tutorial`_: describes the Cython language and shows how it can be
-      used both to write optimized code and to interface with external C libraries.
-    - `Cython user's guide`_
-    - `Cython, Sage, and the Need for Speed`_
-    - `Getting Started With Cython`_
-    - `Python extensions with C libraries made easy by Cython`_
+ Resources:
+
+ - `Cython`_: all the benefits of Python with the speed of C
+ - `A quick Cython introduction`_
+ - `Cython tutorial`_: describes the Cython language and shows how it can be
+   used both to write optimized code and to interface with external C libraries.
+ - `Cython user's guide`_
+ - `Cython, Sage, and the Need for Speed`_
+ - `Getting Started With Cython`_
+ - `Python extensions with C libraries made easy by Cython`_
+
+
+
+
 
 .. links
 
@@ -138,16 +156,20 @@ Tutorial V: Cython
 .. _`Exploring Mathematics with Sage`: http://vps.arachnoid.com/sage
 .. _`Sage documentation`: http://sagemath.org/help.html#SageStandardDoc
 .. _`Sage: Creating a Viable Free Open Source Alternative to Magma, Maple, Mathematica, and MATLAB`: http://sagemath.blogspot.com/2011/08/sage-creating-viable-free-open-source.html
+
+.. Contributing to Sage:
+.. _`How to contribute to Sage`: http://thales.math.uqam.ca/~labbes/Sage/how-to-contribute/
 .. _`How to Referee Sage Trac Tickets`: http://sagemath.blogspot.com/2010/10/how-to-referee-sage-trac-tickets.html
+.. _`Editing the Sage sources`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-editing-sage-sources.html
 
 .. Python:
 .. _`Python website`: http://www.python.org
 .. _`Python tutorial`: http://docs.python.org/tutorial/
 .. _`Learn Python in 10 minutes`: http://www.korokithakis.net/tutorials/python
 .. _`disponible en français`: http://mat.oxyg3n.org/index.php?post/2009/07/26/Python-en-10-minutes
-.. _`Dive into Python`: http://diveintopython.org/
+.. _`Dive into Python`: http://diveintopython.net/
 .. _`Plongez au coeur de Python`: http://diveintopython.adrahon.org/
-.. _`other languages`: http://diveintopython.org/#languages
+.. _`other languages`: http://diveintopython.net/#languages
 .. _`Discover Python`: http://www.ibm.com/developerworks/views/opensource/libraryview.jsp?search_by=Discover+Python+Part
 .. _`IBM's developerWorks`: http://www.ibm.com/developerworks/
 .. _`Learn Python the Hard Way`: http://learnpythonthehardway.org
