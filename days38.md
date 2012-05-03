@@ -3,6 +3,20 @@
 Sage Days 38
 ============
 
+.. Note::
+
+    * The wiki page to organize `projects and coding sprints`_ is ready.
+      Add an entry for your project there or attach your name to a
+      project that you'd like to work on.
+
+    * The `tutorials and resources`_ page is now live! It contains the
+      worksheets we will use during the tutorials, guides and other
+      resources.
+
+.. _`projects and coding sprints`: days38_projects
+.. _`tutorials and resources`: days38_tutorials
+
+
 `Sage`__ is a mathematics software package,
 developed by and for the mathematics community. It aims to
 become a viable alternative to commercial software packages
