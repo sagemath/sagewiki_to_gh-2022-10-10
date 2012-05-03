@@ -1,4 +1,3 @@
-
 {{{#!rst
 
 Sage Days 38 Coding Sprint Projects
@@ -9,8 +8,6 @@ Sage Days 38 Coding Sprint Projects
 __ days38
 
 Below is a list of proposed projects.
-
-.. macro:: <<TableOfContents>>
 
 Combinatorics
 -------------
