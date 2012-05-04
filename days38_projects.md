@@ -33,4 +33,6 @@ Documentation
 
 * quick reference card for combinatorics/sage-combinat (see `quickref`_)
 
+* quick reference card for contributing to sage (reviewing patch, cloning a branch, hg commands, ...) (see `quickref`_); most of the content for this exists, it's just a matter of putting it together into the latex document.
+
 }}}
