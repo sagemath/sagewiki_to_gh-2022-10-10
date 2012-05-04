@@ -32,11 +32,11 @@ Tutorial II: Calculus and Linear Algebra in Sage
  Worksheet:
 
  - `Calculus and Linear Algebra in Sage`_
- - `Sage Calculus Tutorial`_
 
  Resources:
 
  - `Calculus Quick Reference Card`_
+ - `Sage Calculus Tutorial`_
  - `Linear Algebra Quick Reference Card`_
  - `Sage Constructions`_: "How do I construct ... in Sage?"
 
