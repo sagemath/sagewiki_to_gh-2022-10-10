@@ -19,13 +19,13 @@ Monday
  * 09h00 : *Welcome and Introduction to Sage*, Sébastien Labbé
  * 10h00 : Coffee Break
  * 10h30 : Tour de Table and Installations, Franco Saliola
- * 11h30 : Tutorial I : *Using the Sage notebook and navigating the help system*, Franco Saliola
+ * 11h30 : `Tutorial I`_ : *Using the Sage notebook and navigating the help system*, Franco Saliola
 
  **Lunch Break**: 12h30 - 14h30
 
  **Afternoon Session**, 14h30-17h30:
 
- * 14h30 : Tutorial II : *Calculus and Linear Algebra in Sage*
+ * 14h30 : `Tutorial II`_ : *Calculus and Linear Algebra in Sage*
  * 15h30 : Coffee Break
  * 16h00 : Coding Sprints
  * 17h00 : Status Reports
@@ -37,6 +37,7 @@ Monday
             After the buffet, we will continue with informal discussions,
             coding sprints and we will troubleshoot any problems encountered in
             the installations during the morning session.
+
 
 Tuesday
 -------
@@ -85,7 +86,7 @@ Tuesday
 
  **Afternoon Session**, 14h30-17h30:
 
- * 14h30 : Tutorial III: *Programming in Python and Sage*, Florent Hivert
+ * 14h30 : `Tutorial III`_: *Programming in Python and Sage*, Florent Hivert
  * 15h30 : Coffee Break
  * 17h00 : Status Reports
 
@@ -138,7 +139,7 @@ Wednesday
             show that they can be seen as a generalization of the Schur basis
             of symmetric polynomials.
 
- * 11h30 : Tutorial IV: *Contributing to Sage*, Anne Schilling
+ * 11h30 : `Tutorial IV`_: *Contributing to Sage*, Anne Schilling
 
  **Lunch Break**: 12h30 - 14h30
 
@@ -156,7 +157,7 @@ Thursday
  * 09h00 : Open Presentations
  * 10h00 : Coffee Break
  * 10h30 : Open Presentations
- * 11h30 : Tutorial V: *Cython*, Florent Hivert
+ * 11h30 : `Tutorial V`_: *Cython*, Florent Hivert
 
  **Lunch Break**: 12h30 - 14h30
 
@@ -183,5 +184,12 @@ Friday
 
  * 15h30 : Coffee Break
  * 17h00 : Status Reports
+
+
+.. _`Tutorial I`: days38_tutorials#tutorial-i-using-the-sage-notebook-and-navigating-the-help-system
+.. _`Tutorial II`: days38_tutorials#tutorial-ii-calculus-and-linear-algebra-in-sage
+.. _`Tutorial III`: days38_tutorials#tutorial-iii-programming-in-python-and-sage
+.. _`Tutorial IV`: days38_tutorials#tutorial-iv-contributing-to-sage
+.. _`Tutorial V`: days38_tutorials
 
 }}}
