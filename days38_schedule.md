@@ -190,6 +190,6 @@ Friday
 .. _`Tutorial II`: days38_tutorials#tutorial-ii-calculus-and-linear-algebra-in-sage
 .. _`Tutorial III`: days38_tutorials#tutorial-iii-programming-in-python-and-sage
 .. _`Tutorial IV`: days38_tutorials#tutorial-iv-contributing-to-sage
-.. _`Tutorial V`: days38_tutorials
+.. _`Tutorial V`: days38_tutorials#tutorial-v-cython
 
 }}}
