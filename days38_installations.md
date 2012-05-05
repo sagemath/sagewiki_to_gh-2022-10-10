@@ -25,7 +25,7 @@ __ http://sagemath.org/download.html
 Installation Instructions
 -------------------------
 
-    `Sage Installation Guide`_
+    `Sage Installation Guide`__
 
 __ http://www.sagemath.org/doc/installation/
 
