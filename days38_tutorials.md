@@ -16,6 +16,9 @@ Tutorial I: Using the Sage notebook and navigating the help system
  Worksheet:
 
  - `Using the Sage Notebook and navigating the help system`_
+   (here is the `html version`__ of this worksheet)
+
+   __ http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html
 
  Resources:
 
@@ -32,6 +35,11 @@ Tutorial II: Calculus and Linear Algebra in Sage
  Worksheet:
 
  - `Calculus and Linear Algebra in Sage`_
+   (`html version of the calculus part`__ and
+   `html version of the linear algebra part`__ of the worksheet)
+
+   __ http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet04-CalculusPlottingInteract.html
+   __ http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet06-LinearAlgebra.html
 
  Resources:
 
@@ -49,6 +57,10 @@ Tutorial III: Programming in Python and Sage
  Worksheet:
 
  - `Programming in Python and Sage`_
+   (`html version`__ of this worksheet)
+
+   __ http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html
+
  - Additional Exercises (Sage worksheets):
 
    - `Collatz conjecture`_: practice writing functions, plotting and interact while exploring the `3n+1`-conjecture.
@@ -132,6 +144,8 @@ Tutorial V: Cython
  Leader: Florent Hivert
 
  Worksheet:
+
+ -
 
  Related thematic tutorials:
 
