@@ -27,11 +27,19 @@ Installation Instructions
 
  * `Sage Installation Guide`__
 
- * `Windows instructions`__ (you'll be installing the Sage virtual machine)
-
-
 __ http://www.sagemath.org/doc/installation/
+
+ * `Installing on Windows`__ (you'll be installing the Sage virtual machine)
+
 __ http://wiki.sagemath.org/SageAppliance
+
+ * `Installing on Mac OS X`__
+
+__ http://sagemath.org/mirror/osx/README.txt
+
+ * `Installing from source code`__
+
+__ http://sagemath.org/download-source.html
 
 
 }}}
