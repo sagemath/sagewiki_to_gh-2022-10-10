@@ -21,4 +21,13 @@ Downloading Sage
 __ http://www.crm.umontreal.ca/sage/
 __ http://sagemath.org/download.html
 
+
+Installation Instructions
+-------------------------
+
+    `Download and Installation Guide`__
+
+__ http://wiki.sagemath.org/DownloadAndInstallationGuide
+
+
 }}}
