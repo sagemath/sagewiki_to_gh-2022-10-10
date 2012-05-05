@@ -3,7 +3,7 @@
 Sage Days 38
 ============
 
-.. Note::
+.. Note:: What's New:
 
     * The wiki page to organize `projects and coding sprints`_ is ready.
       Add an entry for your project there or attach your name to a
@@ -13,8 +13,11 @@ Sage Days 38
       worksheets we will use during the tutorials, guides and other
       resources.
 
+    * A wiki page containing `installation instructions`_.
+
 .. _`projects and coding sprints`: days38_projects
 .. _`tutorials and resources`: days38_tutorials
+.. _`installation instructions`: days38_installations
 
 
 `Sage`__ is a mathematics software package,
