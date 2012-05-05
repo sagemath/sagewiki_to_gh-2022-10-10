@@ -77,8 +77,8 @@ Tutorial III: Programming in Python and Sage
 
  - `Learn Python in 10 minutes`_ (`disponible en français`_)
  - `Instant Python`_: a minimal crash-course in Python.
- - `Code Like a Pythonista: Idiomatic Python`_ is an interactive tutorial that covers many essential Python idioms and techniques in depth.
  - `Dive into Python`_ is a Python book for experienced programmers. Also available in French, `Plongez au coeur de Python`_, and `other languages`_.
+ - `Code Like a Pythonista: Idiomatic Python`_ is an interactive tutorial that covers many essential Python idioms and techniques in depth.
  - `Python tutorial`_: the "official" Python tutorial from the Python Software Foundation
  - `Learn Python the Hard Way`_ is a very beginner book for people who want to learn to code.
  - `Google's Python class`_ for people with a little bit of programming experience; includes videos of lecture, written materials and exercises.
@@ -98,6 +98,7 @@ Tutorial IV: Contributing to Sage
  - `How to contribute to Sage`_ by Sébastien Labbé
  - `Introduction to Sage Development`_ by Mike Hansen
  - `Short step-by-step checklist for reviewing a patch`_ by Franco Saliola
+ - `Contributing to Sage : Who, What and How`_: video of a talk by William Stein
  - `Sage Developer's Guide`_:
 
    - `Walking Through the Development Process`_
@@ -192,6 +193,7 @@ Tutorial V: Cython
 .. _`Sage Developer's Guide`: http://sagemath.org/doc/developer/index.html
 .. _`Walking Through the Development Process`: http://sagemath.org/doc/developer/walk_through.html
 .. _`Review a patch`: http://sagemath.org/doc/developer/walk_through.html#reviewing-a-patch
+.. _`Contributing to Sage : Who, What and How`: http://vimeo.com/14044496
 
 .. Python:
 .. _`Python website`: http://www.python.org
