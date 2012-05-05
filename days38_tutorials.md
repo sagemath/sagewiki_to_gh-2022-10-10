@@ -27,7 +27,7 @@ Tutorial I: Using the Sage notebook and navigating the help system
 Tutorial II: Calculus and Linear Algebra in Sage
 ------------------------------------------------
 
- Leader: ?
+ Leader: Franco Saliola
 
  Worksheet:
 
@@ -47,8 +47,13 @@ Tutorial III: Programming in Python and Sage
  Leader: Florent Hivert
 
  Worksheet:
- 
+
  - `Programming in Python and Sage`_
+ - Additional Exercises (Sage worksheets):
+
+   - `Collatz conjecture`_: practice writing functions, plotting and interact while exploring the `3n+1`-conjecture.
+   - `Dictionaries and Graph Theory`_: learn about dictionaries through graph theory exercises. (The `Graph Theory Quick Reference Card`_ might come in handy.)
+   - `Strings and the Burrows-Wheeler Transform`_: learn about strings while exploring the Burrows-Wheeler Transform.
 
  Related thematic tutorials:
 
@@ -149,7 +154,9 @@ Tutorial V: Cython
 .. _`Using the Sage Notebook and navigating the help system`: attachment:tutorial1.sws
 .. _`Calculus and Linear Algebra in Sage`: attachment:tutorial2.sws
 .. _`Programming in Python and Sage`: attachment:tutorial3.sws
-.. _`The Sage Tutorial`: http://combinat.sagemath.org/doc/tutorial
+.. _`Collatz conjecture`: attachment:CollatzConjecture.sws
+.. _`Dictionaries and Graph Theory`: attachment:Dictionaries-GraphTheory.sws
+.. _`Strings and the Burrows-Wheeler Transform`: attachment:Strings-BWT.sws
 
 .. quick references
 .. _`Sage Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf
@@ -168,7 +175,7 @@ Tutorial V: Cython
 
 .. Sage:
 .. _`Sage`: http://www.sagemath.org
-.. _`Sage tutorial`: http://www.sagemath.org/doc/tutorial
+.. _`The Sage tutorial`: http://www.sagemath.org/doc/tutorial
 .. _`A tour of Sage`: http://www.sagemath.org/doc/a_tour_of_sage/index.html
 .. _`Exploring Mathematics with Sage`: http://vps.arachnoid.com/sage
 .. _`Sage documentation`: http://sagemath.org/help.html#SageStandardDoc
