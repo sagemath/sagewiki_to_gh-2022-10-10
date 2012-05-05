@@ -98,11 +98,14 @@ Tutorial IV: Contributing to Sage
  - `How to contribute to Sage`_ by Sébastien Labbé
  - `Introduction to Sage Development`_ by Mike Hansen
  - `Short step-by-step checklist for reviewing a patch`_ by Franco Saliola
- - `Contributing to Sage : Who, What and How`_: video of a talk by William Stein
  - `Sage Developer's Guide`_:
 
    - `Walking Through the Development Process`_
    - `Review a patch`_
+
+ Videos:
+
+ - `Contributing to Sage : Who, What and How`_: video of a talk by William Stein
 
  Related thematic tutorials:
 
