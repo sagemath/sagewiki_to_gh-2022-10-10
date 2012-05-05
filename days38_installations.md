@@ -25,13 +25,6 @@ __ http://sagemath.org/download.html
 Installation Instructions
 -------------------------
 
-
----- /!\ '''Edit conflict - other version:''' ----
-    `Sage Installation Guide`__
-
-__ http://www.sagemath.org/doc/installation/
-
----- /!\ '''Edit conflict - your version:''' ----
  * `Sage Installation Guide`__
 
  * `Windows instructions`__ (you'll be installing the Sage virtual machine)
@@ -39,8 +32,6 @@ __ http://www.sagemath.org/doc/installation/
 
 __ http://www.sagemath.org/doc/installation/
 __ http://wiki.sagemath.org/SageAppliance
-
----- /!\ '''End of edit conflict''' ----
 
 
 }}}
