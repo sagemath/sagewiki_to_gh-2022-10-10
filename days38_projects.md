@@ -38,13 +38,18 @@ Documentation
 Inverse Laplace transform
 -------------------------
 
+* Juan Carlos Bustamante
+
 Maxima 3D plot
 --------------
+
+* Juan Carlos Bustamante
 
 Find out how to use Maxima to draw 3D plots (using gnuplot for instance).
 
 Implement rotationel and divergence
 -----------------------------------
 
+* Juan Carlos Bustamante
 
 }}}
