@@ -35,4 +35,16 @@ Documentation
 
 * quick reference card for contributing to sage (reviewing patch, cloning a branch, hg commands, ...) (see `quickref`_); most of the content for this exists, it's just a matter of putting it together into the latex document.
 
+Inverse Laplace transform
+-------------------------
+
+Maxima 3D plot
+--------------
+
+Find out how to use Maxima to draw 3D plots (using gnuplot for instance).
+
+Implement rotationel and divergence
+-----------------------------------
+
+
 }}}
