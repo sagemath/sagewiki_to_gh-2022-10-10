@@ -11,9 +11,27 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * Rob Beezer [[http://buzzard.ups.edu]]
  * William Stein [[http://wstein.org/]]
 
+<<Anchor(participants)>>
+== Participants ==
+
+To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page [[http://trac.sagemath.org/sage_trac|here].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
+
+ 1. [[http://people.whitman.edu/~balofba/|Barry Balof]] (Whitman College)
+ 1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
+ 1. [[https://sites.google.com/a/lsmsa.edu/bburkman/|Brad Burkman]] (Louisiana School for Math, Science, and the Arts)
+ 1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School)
+ 1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
+ 1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
+ 1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
+ 1. Susan Lynds (University of Colorado)
+ 1. Manouchehr Misaghian (Prairie View A & M University, Texas)
+ 1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College)
+ 1. [[http://www.reed.edu/~potluri|Rao Potluri]] (Reed College)
+ 1. [[http://wstein.org/|William Stein]] (University of Washington)
+
 == Funding ==
 
-Participants from the test sites for the NSF UTMOST project will have first priority for funding, though we may support travel for a few participants with a demonstrated interest and experience in using Sage in educational settings.
+We only have enough funding for participants from the test sites for the NSF UTMOST project and for a few "outside" speakers.  The concurrent [[days41|Sage Days 41]] workshop has ample funding for those interested in working all week on projects related to the notebook.  However, anyone with an interest in the use of Sage in educational settings is welcome, and encouraged to attend.
 
 <<Anchor(mailinglist)>>
 == Mailing Lists ==
@@ -43,30 +61,12 @@ Participants from the test sites for the NSF UTMOST project will have first prio
 
 
 
-<<Anchor(participants)>>
-== Participants ==
-
-To register, please add yourself alphabetically by last name.  Email Rob Beezer  at beezer@ups.edu if you'd rather not figure out how to edit the wiki page and he'll add your name (include a relevant web link, if available).
-
- 1. [[http://people.whitman.edu/~balofba/|Barry Balof]] (Whitman College)
- 1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
- 1. [[https://sites.google.com/a/lsmsa.edu/bburkman/|Brad Burkman]] (Louisiana School for Math, Science, and the Arts)
- 1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School)
- 1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
- 1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
- 1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
- 1. Susan Lynds (University of Colorado)
- 1. Manouchehr Misaghian (Prairie View A & M University, Texas)
- 1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College)
- 1. [[http://www.reed.edu/~potluri|Rao Potluri]] (Reed College)
- 1. [[http://wstein.org/|William Stein]] (University of Washington)
-
 <<Anchor(logistics)>>
 == Logistics ==
 
  * June 13, 14 and 15 are expected to be full days.  So plan to travel on June 12 and June 16.
  * [[days41|Sage Days 41]] will happen the same week at the University of Washington with the Sage Notebook as its theme.
- * Lodging: arrangements TBA.
+ * Lodging: arrangements TBA here.
  * See the [[uw-local-info|local information page]] for more specifics.
 
 <<Anchor(irc)>>
