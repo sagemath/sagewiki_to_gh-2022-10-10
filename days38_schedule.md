@@ -16,7 +16,7 @@ Monday
  **Morning Session**:
 
  * 08h30 : Coffee & Croissants
- * 09h00 : *Welcome and Introduction to Sage*, Sébastien Labbé
+ * 09h00 : `Welcome and Introduction to Sage`_, Sébastien Labbé
  * 10h00 : Coffee Break
  * 10h30 : Tour de Table and Installations, Franco Saliola
  * 11h30 : `Tutorial I`_ : *Using the Sage notebook and navigating the help system*, Franco Saliola
@@ -185,7 +185,7 @@ Friday
  * 15h30 : Coffee Break
  * 17h00 : Status Reports
 
-
+.. _`Welcome and Introduction to Sage`: http://thales.math.uqam.ca/~labbes/Sage/2012-05-days38.pdf
 .. _`Tutorial I`: days38_tutorials#tutorial-i-using-the-sage-notebook-and-navigating-the-help-system
 .. _`Tutorial II`: days38_tutorials#tutorial-ii-calculus-and-linear-algebra-in-sage
 .. _`Tutorial III`: days38_tutorials#tutorial-iii-programming-in-python-and-sage
