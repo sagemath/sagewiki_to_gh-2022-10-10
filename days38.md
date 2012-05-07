@@ -15,10 +15,13 @@ Sage Days 38
 
     * A wiki page containing `installation instructions`_.
 
+    * Here is the link to the `YouTube playlist of Sage videos`_ that
+      was playing on Monday during the installation session.
+
 .. _`projects and coding sprints`: days38_projects
 .. _`tutorials and resources`: days38_tutorials
 .. _`installation instructions`: days38_installations
-
+.. _`YouTube playlist of Sage videos`: http://www.youtube.com/playlist?list=PL27CE3E3EEA9F1ED0
 
 `Sage`__ is a mathematics software package,
 developed by and for the mathematics community. It aims to
