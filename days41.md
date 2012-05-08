@@ -25,6 +25,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
 
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound)
  1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School)
+ 1. Kevin Halasz (University of Puget Sound)
  1. [[http://www.math.washington.edu/~palmieri/|John Palmieri]] (University of Washington)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
 
