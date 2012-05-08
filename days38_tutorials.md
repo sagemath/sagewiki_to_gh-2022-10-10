@@ -26,6 +26,7 @@ Tutorial I: Using the Sage notebook and navigating the help system
  - `The Sage tutorial`_
  - `Sage Constructions`_: "How do I construct ... in Sage?"
  - `Sage documentation`_: the standard documentation and other resources
+ - `Calcul mathématique avec Sage`_
 
 Tutorial II: Calculus and Linear Algebra in Sage
 ------------------------------------------------
@@ -200,6 +201,7 @@ Tutorial V: Cython
 .. _`Sage: Creating a Viable Free Open Source Alternative to Magma, Maple, Mathematica, and MATLAB`: http://sagemath.blogspot.com/2011/08/sage-creating-viable-free-open-source.html
 .. _`Sage Constructions`: http://sagemath.org/doc/constructions
 .. _`Sage Calculus Tutorial`: http://www.sagemath.org/calctut/
+.. _`Calcul mathématique avec Sage`: http://sagebook.gforge.inria.fr/
 
 .. Contributing to Sage:
 .. _`How to contribute to Sage`: http://thales.math.uqam.ca/~labbes/Sage/how-to-contribute/
