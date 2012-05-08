@@ -128,7 +128,7 @@ Wednesday
             which leads to a generalization of Brown's theory of Markov chains
             for left regular bands. This is based on mathematical explorations with
             Arvind Ayyer and Steven Klee, and the patch 
-            [[http://trac.sagemath.org/sage_trac/ticket/12536 | trac 12536]] with Nicolas Thiery.
+            `Trac 12536`_ with Nicolas Thiery.
 
  * 11h00 : Viviane Pons, *Bases of multivariate polynomials*
 
@@ -193,5 +193,6 @@ Friday
 .. _`Tutorial III`: days38_tutorials#tutorial-iii-programming-in-python-and-sage
 .. _`Tutorial IV`: days38_tutorials#tutorial-iv-contributing-to-sage
 .. _`Tutorial V`: days38_tutorials#tutorial-v-cython
+.. _`Trac 12536`: http://trac.sagemath.org/sage_trac/ticket/12536
 
 }}}
