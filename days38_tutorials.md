@@ -26,7 +26,9 @@ Tutorial I: Using the Sage notebook and navigating the help system
  - `The Sage tutorial`_
  - `Sage Constructions`_: "How do I construct ... in Sage?"
  - `Sage documentation`_: the standard documentation and other resources
- - `Calcul mathématique avec Sage`_
+ - `Calcul mathématique avec Sage`_ (`download PDF`__)
+
+   __ http://purple.lateralis.org/sagebook-r1014.pdf
 
 Tutorial II: Calculus and Linear Algebra in Sage
 ------------------------------------------------
