@@ -311,9 +311,14 @@ def EulerMaruyama(xstart, ystart, xfinish, nsteps, f1, f2):
     return zip(xvals,sol)
     
 out = Graphics()
-save(out,DATA+'temp')
+save(out,'temp')
 @interact
-def EulerMaruyamaExample(mu = slider(srange(0,10,.1),default=2.0),sigma = slider(srange(0,10,.1),default=0.5),plots_at_a_time = slider(range(1,100),default=10), number_of_steps = slider(range(1,1000),default=100), clear_plot = checkbox(True), update=selector(['Update'],buttons =True, label='')):
+def EulerMaruyamaExample(mu = slider(srange(0,10,.1),default=2.0),
+                        sigma = slider(srange(0,10,.1),default=0.5),
+                        plots_at_a_time = slider(range(1,100),default=10), 
+                        number_of_steps = slider(range(1,1000),default=100), 
+                        clear_plot = checkbox(True), 
+                        auto_update=False):
     html('<center>Example of the Euler-Maruyama method applied to<br>the stochastic differential equation for geometric Brownian motion</center>')
     html('<center>$S = S_0 + \int_0^t \mu S dt + \int_0^t \sigma S dW$</center>')
     emplot = list_plot(EulerMaruyama(0,1,1,number_of_steps,lambda x: mu*x,lambda x:sigma*x),plotjoined=True)
@@ -321,11 +326,11 @@ def EulerMaruyamaExample(mu = slider(srange(0,10,.1),default=2.0),sigma = slider
         emplot = emplot + list_plot(EulerMaruyama(0,1,1,100,lambda x: mu*x,lambda x:sigma*x),plotjoined=True)
     if clear_plot:
         out = emplot
-        save(out,DATA+'temp')
+        save(out,'temp')
     else:
-        out = load(DATA+'temp')
+        out = load('temp')
         out = out + emplot
-        save(out,DATA+'temp')
+        save(out,'temp')
     show(out, figsize = [8,5])
 }}}
 {{attachment:eulermaruyama.png}}
