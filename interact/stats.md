@@ -63,23 +63,18 @@ by Marshall Hampton
 
 Based on the classic example in "Biological Sequence Analysis" by Durbin et al.
 
-To get the dice picture you need to download this [[http://wiki.sagemath.org/interact/stats?action=AttachFile&do=get&target=dishonest_casino.sws|dishonest_casino.sws]]
-
 {{{#!sagecell
 m = hmm.DiscreteHiddenMarkovModel([[0.8,0.2],[0.1,0.9]], [[1/10,1/10,1/10,1/10,1/10,1/2],[1/6,1/6,1/6,1/6,1/6,1/6]], [.2,.8],emission_symbols=[1,2,3,4,5,6])
 @interact
 def dishonest_casino(auto_update=False):
     test = list(m.generate_sequence(80))
-    a = os.system('cp '+DATA+'dice_sm.png ./dice.png')
     vit_test = list(m.viterbi(test[0])[0])
     html('<h3>The Occasionally Dishonest Casino</h3>')
-    html('<img src="'+DATA+'dice_sm.png">')
     html('Emissions:'+str(test[0]).replace(',','').replace(' ','')[1:-1])
     vit_str = str(vit_test).replace(',','').replace(' ','')
     vit_str = vit_str.replace('1','F').replace('0','<font color="#FF0000">L</font>')[1:-1]
     html('Viterbi:  '+vit_str)
     actual_str = str(list(test[1])).replace(',','').replace(' ','')
     actual_str = actual_str.replace('1','F').replace('0','<font color="#FF0000">L</font>')[1:-1]
-    html('Actual:   '+ actual_str)
-}}} 
+    html('Actual:   '+ actual_str)}}} 
 {{attachment:hmm_casino.png}}
