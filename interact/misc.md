@@ -97,7 +97,7 @@ def sinsound(delay = slider([int(2^i) for i in range(2,10)], default=100, label=
     lab=""
     f = SoundFile(s2str,lab=lab)
     f.write()
-    html('<embed src="https:./test'+ lab +'.wav" width="200" height="100"></embed>')
+    html('<embed src="cell://test'+ lab +'.wav" width="200" height="100"></embed>')
 }}}
 
 {{attachment:KarplusStrong.png}}
