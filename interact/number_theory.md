@@ -667,7 +667,7 @@ def exhaustive_jacobi_plot(p=prime_range(3,8)):
 
 = Elliptic Curves =
 
-== Adding points on an elliptic curve ==
+== Adding points on an elliptic curve FIXME ==
 by David Møller Hansen
 {{{#!sagecell
 def point_txt(P,name,rgbcolor):
