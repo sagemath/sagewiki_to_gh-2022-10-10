@@ -95,6 +95,24 @@ def show_subgraph(to_delete=selector(range(10),buttons=True)):
 by Pablo Angulo
 
 {{{#!sagecell
+def animate_contraction(g, e, frames = 12, **kwds):
+    v1, v2 = e
+    if not g.has_edge(v1,v2):
+        raise ValueError, "Given edge not found on Graph"
+    ls = []
+    posd = g.get_pos()
+    for j in range(frames):
+        gp = Graph(g)
+        posdp = dict(posd)
+        p1 = posdp[v1]
+        p2 = posdp[v2]
+        posdp[v2] = [a*(frames-j)/frames + b*j/frames
+                    for a,b in zip(p2,p1)]
+
+        gp.set_pos(posdp)
+        ls.append(plot(gp, **kwds))
+    return ls
+
 def animate_vertex_deletion(g, v, frames = 12, **kwds):
     kwds2 = dict(kwds)
     if 'vertex_colors' in kwds:
@@ -231,10 +249,10 @@ graph_list = {'CompleteGraph4':graphs.CompleteGraph(4),
               }
 @interact
 def _(u1 = text_control(value='Does this graph'),
-      g  = selector(graph_list.keys(), buttons = True),
+      g  = selector(graph_list.keys(), buttons = True,default='CompleteGraph4'),
       u2 = text_control(value='have a minor isomorphic to this other graph:'),
-      m  = selector(graph_list.keys(), buttons = True),
-      u3 = text_control(value='''? It is has, show it to me, 
+      m  = selector(graph_list.keys(), buttons = True,default='CycleGraph4'),
+      u3 = text_control(value='''? If it has, show it to me, 
       with an animation with the following parameters'''),
       frames = slider(1,15,1,4, label = 'Frames per second'),
       step_time = slider(1/10,2,1/10,1, label = 'Seconds per step')):
@@ -248,6 +266,5 @@ def _(u1 = text_control(value='Does this graph'),
         a.show(delay=100*step_time/frames)
     except ValueError:
         html('''<h3>The first graph have <strong>NO</strong> minor isomorphic to the second</h3>''')
-
 }}}
 {{attachment:wagner.gif}}
