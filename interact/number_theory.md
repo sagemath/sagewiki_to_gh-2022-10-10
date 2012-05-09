@@ -142,7 +142,7 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
 
     #Changes the entry of a matrix by taking the old matrix and the (x,y) coordinate (in matrix coordinates) and returns the changed matrix
     def matrix_morph(M, x, y, set):
-        N = M.copy()
+        N = copy(M)
         N[x-1,y] = set
         M = N
         return M
