@@ -849,7 +849,7 @@ M = [[x,abs(sqrt(x^2-1))] for x in xes]
 fundamental_domain = L+M+R
 fundamental_domain = [[x-1,y] for x,y in fundamental_domain]
 @interact
-def _(gen = selector(['t+1', 't-1', '-1/t'], nrows=1)):
+def _(gen = selector(['t+1', 't-1', '-1/t'], buttons=True,nrows=1)):
     global fundamental_domain
     if gen == 't+1':
         fundamental_domain = [[x+1,y] for x,y in fundamental_domain]
