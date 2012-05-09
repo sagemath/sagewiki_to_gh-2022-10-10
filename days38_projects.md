@@ -89,6 +89,10 @@ Documentation
 
   Nicolas, Hugh, Timothy
 
+  French version in PDF: Combinatorics chapter in http://sagebook.gforge.inria.fr/
+
+  English version in ReST: http://combinat.sagemath.org/doc/reference/sage/combinat/tutorial.html (upcoming!)
+
 * get tutorials ready for inclusion in Sage
 
   Nicolas, Franco, ...
