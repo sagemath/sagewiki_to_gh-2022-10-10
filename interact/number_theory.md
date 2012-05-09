@@ -302,15 +302,13 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
 
 = Modular Forms =
 
-== Computing modular forms FIXME ==
+== Computing modular forms ==
 by William Stein
 {{{#!sagecell
-j = 0
 @interact
 def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40), 
       group=[(Gamma0, 'Gamma0'), (Gamma1, 'Gamma1')]):
     M = CuspForms(group(N),k)
-    print j; global j; j += 1
     print M; print '\n'*3
     print "Computing basis...\n\n"
     if M.dimension() == 0:
