@@ -3,7 +3,7 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
-== Web app: protein browser ==
+== Web app: protein browser FIXME ==
 by Marshall Hampton (tested by William Stein)
 [sagecell-issues]
 {{{#!sagecell
