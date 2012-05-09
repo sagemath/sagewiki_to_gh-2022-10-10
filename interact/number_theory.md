@@ -337,7 +337,7 @@ def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
 
 {{attachment:cuspgroup.png}}
 
-== A Charpoly and Hecke Operator Graph ==
+== A Charpoly and Hecke Operator Graph FIXME ==
 by William Stein
 
 {{{#!sagecell
