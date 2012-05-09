@@ -77,7 +77,8 @@ def _(queen=input_box(default=(0,0)), opcion=selector(opciones, buttons=True), a
         if queen not in queens:
             queens.append(queen)
     else:
-        queens.remove(queen)
+        if queen in queens:
+            queens.remove(queen)
         
     board=matrix(ZZ,8,8)
     for x in range(8):
@@ -97,8 +98,7 @@ def _(queen=input_box(default=(0,0)), opcion=selector(opciones, buttons=True), a
             board[x,y]=4  
         else:
             board[x,y]=3
-    show(matrix_plot(board, cmap='Oranges' ))
-    
+    show(matrix_plot(board, cmap='Oranges' ))    
 }}}
 {{attachment:queens.png}}
 
