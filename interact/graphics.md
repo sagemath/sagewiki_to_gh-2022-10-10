@@ -162,7 +162,7 @@ def P(color, rng):
 colorlist = ['red','blue','red','blue']
 
 @interact
-def _(band_number = selector(range(1,5)), current_color = Color('red')):
+def _(band_number = selector(range(1,5)), current_color = Color('red'), auto_update=False):
     html('<h1 align=center>Egg Painter</h1>')
     colorlist[band_number-1] = current_color
     egg = sum([P(colorlist[i],[-2.75+5.5*(i/4),-2.75+5.5*(i+1)/4]) for i in range(4)])
