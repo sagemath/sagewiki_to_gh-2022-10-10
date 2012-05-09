@@ -181,12 +181,10 @@ import cProfile; import profile
 def _(cmd = ("Statement", '2 + 2'), 
       do_preparse=("Preparse?", True), cprof =("cProfile?", False)):
     if do_preparse: cmd = preparse(cmd)
-    print "<html>"  # trick to avoid word wrap
     if cprof:
-        cProfile.run(cmd)
+        cProfile.runctx(cmd,globals(), locals())
     else:
-        profile.run(cmd)
-    print "</html>"
+        profile.runctx(cmd,globals(), locals())
 }}}
 {{attachment:profile.png}}
 
