@@ -774,8 +774,7 @@ def diffie_hellman(bits=slider(8, 513, 4, 8, 'Number of bits', False),
     a = ZZ.random_element(10, maxp)
     b = ZZ.random_element(10, maxp)
 
-    print """
-<html>
+    html("""
 <style>
 .gamodp, .gbmodp {
 color:#000;
@@ -799,9 +798,9 @@ font-weight:bold
 <li>Bob chooses the secret integer b=%s, then sends Alice (<span class="gbmodp">g<sup>b</sup> mod p</span>):<br/>%s<sup>%s</sup> mod %s = <span class="gbmodp">%s</span>.</li>
 <li>Alice computes (<span class="gbmodp">g<sup>b</sup> mod p</span>)<sup>a</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
 <li>Bob computes (<span class="gamodp">g<sup>a</sup> mod p</span>)<sup>b</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
-</ol></html>
+</ol>
     """ % (bits, p, g, a, g, a, p, (g^a), b, g, b, p, (g^b), (g^b), a, p, 
-       (g^ b)^a, g^a, b, p, (g^a)^b)
+       (g^ b)^a, g^a, b, p, (g^a)^b))
 }}}
 
 
