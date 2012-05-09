@@ -626,19 +626,19 @@ def jacobi_plot(p, e_index, f_index, with_text=True):
         js_pt = list(js.complex_embedding())
 
     # Define plot structure
-    S = circle((0,0),1,rgbcolor='yellow')  \ 
-    + line([e_pt,e_gs_pt], rgbcolor='red', thickness=4) \
-    + line([f_pt,f_gs_pt], rgbcolor='blue', thickness=3) \
-    + line([ef_pt,ef_gs_pt], rgbcolor='purple',thickness=2) \
-    + point(e_pt,pointsize=50, rgbcolor='red')  \
-    + point(f_pt,pointsize=50, rgbcolor='blue') \
-    + point(ef_pt,pointsize=50,rgbcolor='purple') \
-    + point(f_gs_pt,pointsize=75, rgbcolor='black') \        
-    + point(e_gs_pt,pointsize=75, rgbcolor='black') \
-    + point(ef_gs_pt,pointsize=75, rgbcolor='black') \
-    + point(js_pt,pointsize=100,rgbcolor='green')
+    S = circle((0,0),1,rgbcolor='yellow')
+    S += line([e_pt,e_gs_pt], rgbcolor='red', thickness=4)
+    S += line([f_pt,f_gs_pt], rgbcolor='blue', thickness=3)
+    S += line([ef_pt,ef_gs_pt], rgbcolor='purple',thickness=2)
+    S += point(e_pt,pointsize=50, rgbcolor='red') 
+    S += point(f_pt,pointsize=50, rgbcolor='blue')
+    S += point(ef_pt,pointsize=50,rgbcolor='purple')
+    S += point(f_gs_pt,pointsize=75, rgbcolor='black')
+    S += point(e_gs_pt,pointsize=75, rgbcolor='black')
+    S += point(ef_gs_pt,pointsize=75, rgbcolor='black')
+    S += point(js_pt,pointsize=100,rgbcolor='green')
     if with_text:
-        S += text('$J(%s,%s) = %s$'%(latex2(e),latex2(f),latex(js)), \
+        S += text('$J(%s,%s) = %s$'%(latex2(e),latex2(f),latex(js)),
             (3,2.5),fontsize=15, rgbcolor='black')
     else:
         html('$$J(%s,%s) = %s$$'%(latex2(e),latex2(f),latex(js)))
@@ -650,18 +650,18 @@ def exhaustive_jacobi_plot(p=prime_range(3,8)):
     ga = [jacobi_plot(p,i,j) for i in range(p-1) for j in range(p-1)[i:]]
 
     for i in range(len(ga)):
-        ga[i].save('j%d.PNG'%i,figsize=4,aspect_ratio=1, \
+        ga[i].save('j%d.png'%i,figsize=4,aspect_ratio=1,
                     xmin=-2.5,xmax=5, ymin=-2.5, ymax=2.5)
 
     # Since p is odd, will have n = p-1 even.  So 1+2+...+n = (n/2)*(n+1).
     # We divide this by rows of 2.
     rows = ceil(p*(p-1)/4)
-    html('<table bgcolor=lightgrey cellpadding=2>')
+    s='<table bgcolor=lightgrey cellpadding=2>'
     for i in range(rows):
-        html('<tr><td align="center"><img src="cell://j%d.PNG"></td>'%(2*i))
-        html('<td align="center"><img src="cell://j%d.PNG"></td></tr>'%(2*i+1))
-    html('</table>')
-}}}
+        s+='<tr><td align="center"><img src="cell://j%d.png"></td>'%(2*i)
+        s+='<td align="center"><img src="cell://j%d.png"></td></tr>'%(2*i+1)
+    s+='</table>'
+    html(s)}}}
 
 {{attachment:jacobiexh.png}}
 
