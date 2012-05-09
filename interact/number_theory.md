@@ -809,11 +809,11 @@ font-weight:bold
 
 = Other =
 
-== Continued Fraction Plotter FIXME ==
+== Continued Fraction Plotter ==
 by William Stein
 {{{#!sagecell
 @interact
-def _(number=e, ymax=selector([None,5,20,..,400],nrows=2), clr=Color('purple'), prec=[500,1000,..,5000]):
+def _(number=e, ymax=selector([5,20,..,400],nrows=2), clr=Color('purple'), prec=[500,1000,..,5000]):
     c = list(continued_fraction(RealField(prec)(number))); print c
     show(line([(i,z) for i, z in enumerate(c)],rgbcolor=clr),ymax=ymax,figsize=[10,2])
 }}}
