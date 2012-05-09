@@ -330,8 +330,6 @@ def print_stats(d):
     print 'Number of lines with k intersection points:'
     print ', '.join('%d:%d'%(k,v) for k,v in d.iteritems())
     
-}}}
-{{{
 @interact
 def crofton_interact(u1 = text_control('x and y coordinates of curve'),
                      curvax = input_box(t^2, label='x(t)' ),
