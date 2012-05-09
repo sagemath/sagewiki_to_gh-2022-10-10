@@ -25,7 +25,7 @@ mypi = float(pi)
 from math import sin
 
 @interact
-def sinsound(freq_ratio =  slider(0,1,1/144,1/12)):
+def sinsound(freq_ratio =  slider(1/144,1,1/144,1/12)):
     hz1 = 440.0
     hz2 = float(440.0*2^freq_ratio)
     html('$\cos(\omega t) - \cos(\omega_0 t) = 2 \sin(\\frac{\omega + \omega_0}{2}t) \sin(\\frac{\omega - \omega_0}{2}t)$')
@@ -38,7 +38,7 @@ def sinsound(freq_ratio =  slider(0,1,1/144,1/12)):
     f.write()
     pnum = 1500+int(500/freq_ratio)
     show(list_plot(s2[0:pnum],plotjoined=True))
-    html('<embed src="https:./test'+ lab +'.wav" width="200" height="100"></embed>')
+    html('<embed src="cell://test'+ lab +'.wav" width="200" height="100"></embed>')
     html('Frequencies: '+ '$\omega_0 = ' + str(hz1) + ' $, $\omega = '+latex(hz2) + '$')
 }}}
 {{attachment:sinsound.png}}
