@@ -32,9 +32,9 @@ def muk_plot(m0,k):
 html("<h1>Mandelbrot's Fractal Binomial Measure</h1>")
 
 @interact
-def _(mu0=(0.3,(0.0001,0.999)), k=(3,(1..14)), thickness=(1.0,(0.1,0.2,..,1.0))):
+def _(mu0=slider(0.0001,0.999,default=0.3), k=slider([1..14],default=3), thickness=slider([0.1,0.2,..,1.0],default=1.0)):
     v = muk_plot(mu0,k)
-    line(v,thickness=thickness).show(xmin=0.5, xmax=0.5, ymin=0, figsize=[8,3])
+    line(v,thickness=thickness).show(xmin=0, xmax=1, ymin=0, figsize=[8,3])
 }}}
 
 {{attachment:binomial.png}}
