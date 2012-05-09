@@ -3,7 +3,7 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
-== Numerical instability of the classical Gram-Schmidt algorithm ==
+== Numerical instability of the classical Gram-Schmidt algorithm FIXME ==
 by Marshall Hampton (tested by William Stein, who thinks this is really nice!)
 {{{#!sagecell
 def GS_classic(a_list):
@@ -87,7 +87,7 @@ html('<h2>The Gerschgorin circle theorem</h2>')
 def Gerschgorin(Ain = input_box(default='[[10,1,1/10,0],[-1,9,0,1],[1,0,2,3/10],[-.5,0,-.3,1]]', type = str, label = 'A = '), an_size = slider(1,100,1,1.0)):
     A = sage_eval(Ain)
     size = len(A)
-    print jsmath('A = ' + latex(matrix(RealField(10),A)))
+    html('$A = ' + latex(matrix(RealField(10),A))+'$')
     A = matrix(RealField(10),A)
     B = [[0 for i in range(size)] for j in range(size)]
     for i in range(size):
