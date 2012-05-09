@@ -48,7 +48,7 @@ def draw_ftree(rows,font):
                      c = (0,0,.4)
                 g += text(str(e), (j*2-len(cur),-i), fontsize=font, rgbcolor=c)
                 if not k is None and not f is None:
-                    g += line([(j*2-len(cur),-i), ((k*2)-len(rows[i-1]),-i+1)], 
+                    g += line([(j*2-len(cur),-i), ((k*2)-len(rows[i-1]),-i+1)],
                     alpha=0.5)
     return g
 
@@ -98,12 +98,12 @@ by David Runde
 def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, invert=false, x_cord=0, y_cord=0, n = 0):
 
     """
-    REFERENCES: 
+    REFERENCES:
         Alpern, Dario. "Ulam's Spiral". http://www.alpertron.com.ar/ULAM.HTM
         Sacks, Robert. http://www.NumberSpiral.com
         Ventrella, Jeffery. "Prime Numbers are the Holes Behind Complex Composite Patterns". http://www.divisorplot.com
         Williamson, John. Number Spirals. http://www.dcs.gla.ac.uk/~jhw/spirals/index.html jhw@dcs.gla.ac.uk
-        Weisstein, Eric W. "Prime-Generating Polynomial." From MathWorld--A Wolfram Web Resource. http://mathworld.wolfram.com/Prime-GeneratingPolynomial.html 
+        Weisstein, Eric W. "Prime-Generating Polynomial." From MathWorld--A Wolfram Web Resource. http://mathworld.wolfram.com/Prime-GeneratingPolynomial.html
     """
 
     #Takes an (x,y) coordinate (and the start of the spiral) and gives its corresponding n value
@@ -111,26 +111,26 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
         if x>0 and y>-x and y<=x: return 4*(x-1)^2 + 5*(x-1) + (start+1) + y
         elif x<=0 and y>=x and y<=-x: return 4*x^2 - x + (start) -y
         elif y>=0 and -y+1 <= x and y-1 >= x: return 4*y^2 -y + start -x
-        elif y<0 and -x >= y and y<x: return 4*(y+1)^2 -11*(y+1) + (start+7) +x 
+        elif y<0 and -x >= y and y<x: return 4*(y+1)^2 -11*(y+1) + (start+7) +x
         else: print 'NaN'
 
-    #Takes in an n and the start value of the spiral and gives its (x,y) coordinate 
+    #Takes in an n and the start value of the spiral and gives its (x,y) coordinate
     def find_xy(num, start):
-        num = num - start +1 
+        num = num - start +1
         bottom = floor(sqrt(num))
-        top = ceil(sqrt(num))    
+        top = ceil(sqrt(num))
         if bottom^2 < num and num<=bottom^2+bottom+1:
             if bottom%2 == 0:
                 x=-bottom/2
                 y=-x-(num-bottom^2)+1
-            else: 
+            else:
                 x=bottom/2+1/2
                 y=-x + (num-bottom^2)
         else:
             if top%2 == 0:
                 y=top/2
                 x=-top/2+1+top^2-num
-            else: 
+            else:
                 y=-top/2+1/2
                 x=top/2 -1/2 - (top^2-num)
         x = Integer(x)
@@ -146,8 +146,8 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
         N[x-1,y] = set
         M = N
         return M
- 
-    #These functions return an int based on where the t is located in the spiral 
+
+    #These functions return an int based on where the t is located in the spiral
     def SW_NE(t, x, y, start):
         if -y<x: return 4*t^2 + 2*t -x+y+start
         else: return 4*t^2 + 2*t +x-y+start
@@ -159,7 +159,7 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
     num=copy(start) # Start number (might not be used)
     x = ceil(size/2)   #starting center x of the matrix (in matrix coordinates)
     y = copy(x)        #starting center y of the matrix (in matrix coordinates)
-    if n !=0: x_cord, y_cord = find_xy(n, start) #Overrides the user given x and y coordinates 
+    if n !=0: x_cord, y_cord = find_xy(n, start) #Overrides the user given x and y coordinates
     xt = copy(x_cord)
     yt = copy(y_cord)
     countx=0
@@ -167,45 +167,45 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
     overcount = 1
     if size <= size_limit: M = matrix(ZZ, size+1) # Allows the numbers to be seen in the smaller matricies
     else: M = matrix(GF(2), size+1) # Restricts the entries to 0 or 1
-    
+
     main_list = set()
     #print x_cord, y_cord
-    if show_lines: 
-        for t in [(-size-1)..size+1]: 
+    if show_lines:
+        for t in [(-size-1)..size+1]:
             m= SW_NE(t, xt, yt, start)
-            if m.is_pseudoprime(): main_list.add(m) 
+            if m.is_pseudoprime(): main_list.add(m)
             m= NW_SE(t, xt, yt, start)
             if m.is_pseudoprime(): main_list.add(m)
     else: main_list = set(prime_range(end))
 
-    #This for loop changes the matrix by spiraling out from the center and changing each entry as it goes. It is faster than the find_xy function above. 
+    #This for loop changes the matrix by spiraling out from the center and changing each entry as it goes. It is faster than the find_xy function above.
     for num in [start..end]:
         #print x, "=x  y=", y, " num =", num
         if countx < overcount:
             if overcount % 2 == 1: x+=1
-            else: x-=1 
+            else: x-=1
             countx += 1
-        
-        elif county < overcount: 
+
+        elif county < overcount:
             if overcount % 2 == 1: y+=1
-            else: y-=1 
+            else: y-=1
             county += 1
-        else: 
+        else:
             overcount += 1
             countx=2
             county=0
             if overcount % 2 == 1: x+=1
             else: x-=1
-    
-        if not invert and num in main_list: 
+
+        if not invert and num in main_list:
             if size <= size_limit: M = matrix_morph(M, x, y, num)
             else: M = matrix_morph(M, x, y, 1)
 
         elif invert and num not in main_list: #This does the opposite of the above if statement by changing the matrix only when a number is not in the list of allowable primes
             if size <= size_limit: M = matrix_morph(M, x, y, num)
             else: M = matrix_morph(M, x, y, 1)
-    
-    if n != 0: 
+
+    if n != 0:
         print '(to go from x,y coords to an n, reset by setting n=0)'
         (x_cord, y_cord) = find_xy(n, start)
         #print 'if n =', n, 'then (x,y) =', (x_cord, y_cord)
@@ -221,7 +221,7 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
     else: print '4*t^2 + 4*t +', +x_cord+y_cord+start
 
     if size <= size_limit: show(M) #Displays the matrix with integer entries
-    else: 
+    else:
         M.visualize_structure() # Displays the final resulting matrix as a series of pixels (1 <=> pixel on)
         #matrix_plot(M)
 }}}
@@ -232,15 +232,15 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
 by David Runde
 {{{#!sagecell
 @interact
-def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes = false, show_curves=true, n = 0): 
+def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes = false, show_curves=true, n = 0):
 
-    #For more information about the factors in the spiral, visit http://www.dcs.gla.ac.uk/~jhw/spirals/index.html by John Williamson. 
+    #For more information about the factors in the spiral, visit http://www.dcs.gla.ac.uk/~jhw/spirals/index.html by John Williamson.
 
     if start < 1 or end <=start: print "invalid start or end value"
     if n > end: print "WARNING: n is greater than end value"
     def f(n):
         return (sqrt(n)*cos(2*pi*sqrt(n)), sqrt(n)*sin(2*pi*sqrt(n)))
-    
+
     list =[]
     list2=[]
     if show_factors == false:
@@ -248,48 +248,48 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
             if i.is_pseudoprime(): list.append(f(i-start+1)) #Primes list
             else: list2.append(f(i-start+1)) #Composites list
         P = points(list)
-        R = points(list2, alpha = .1) #Faded Composites 
-    else: 
+        R = points(list2, alpha = .1) #Faded Composites
+    else:
         for i in [start..end]:
             list.append(disk((f(i-start+1)),0.05*pow(2,len(factor(i))-1), (0,2*pi))) #resizes each of the dots depending of the number of factors of each number
             if i.is_pseudoprime() and highlight_primes: list2.append(f(i-start+1))
         P = plot(list)
         p_size = 5 #the orange dot size of the prime markers
         if not highlight_primes: list2 = [(f(n-start+1))]
-        R=points(list2, hue = .1, pointsize = p_size) 
-    
+        R=points(list2, hue = .1, pointsize = p_size)
+
     if n > 0:
         print 'n =', factor(n)
-        
+
         p = 1
     #The X which marks the given n
         W1 = disk((f(n-start+1)), p, (pi/6, 2*pi/6))
         W2 = disk((f(n-start+1)), p, (4*pi/6, 5*pi/6))
         W3 = disk((f(n-start+1)), p, (7*pi/6, 8*pi/6))
         W4 = disk((f(n-start+1)), p, (10*pi/6, 11*pi/6))
-        Q = plot(W1+W2+W3+W4, alpha = .1)          
+        Q = plot(W1+W2+W3+W4, alpha = .1)
 
         n=n-start+1        #offsets the n for different start values to ensure accurate plotting
-        if show_curves: 
+        if show_curves:
             begin_curve = 0
             t = var('t')
             a=1
             b=0
-            if n > (floor(sqrt(n)))^2 and n <= (floor(sqrt(n)))^2 + floor(sqrt(n)): 
+            if n > (floor(sqrt(n)))^2 and n <= (floor(sqrt(n)))^2 + floor(sqrt(n)):
                 c = -((floor(sqrt(n)))^2 - n)
                 c2= -((floor(sqrt(n)))^2 + floor(sqrt(n)) - n)
-            else: 
+            else:
                 c = -((ceil(sqrt(n)))^2 - n)
                 c2= -((floor(sqrt(n)))^2 + floor(sqrt(n)) - n)
             print 'Pink Curve:  n^2 +', c
             print 'Green Curve: n^2 + n +', c2
-            def g(m): return (a*m^2+b*m+c); 
+            def g(m): return (a*m^2+b*m+c);
             def r(m) : return sqrt(g(m))
             def theta(m) : return r(m)- m*sqrt(a)
             S1 = parametric_plot(((r(t))*cos(2*pi*(theta(t))),(r(t))*sin(2*pi*(theta(t)))), begin_curve, ceil(sqrt(end-start)), rgbcolor=hue(0.8), thickness = .2) #Pink Line
 
             b=1
-            c= c2; 
+            c= c2;
             S2 = parametric_plot(((r(t))*cos(2*pi*(theta(t))),(r(t))*sin(2*pi*(theta(t)))), begin_curve, ceil(sqrt(end-start)), rgbcolor=hue(0.6), thickness = .2) #Green Line
 
             show(R+P+S1+S2+Q, aspect_ratio = 1, axes = false)
@@ -306,7 +306,7 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
 by William Stein
 {{{#!sagecell
 @interact
-def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40), 
+def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40),
       group=[(Gamma0, 'Gamma0'), (Gamma1, 'Gamma1')]):
     M = CuspForms(group(N),k)
     print M; print '\n'*3
@@ -469,7 +469,7 @@ def cubic_sym(n=(10..35),display_size=[7..15]):
     MP = matrix_plot(m,cmap="Blues")
     for i in range(r):
         MP += line([(0,i),(r,i)], rgbcolor='black')
-        MP += line([(i,0),(i,r)], rgbcolor='black') 
+        MP += line([(i,0),(i,r)], rgbcolor='black')
         for j in range(r):
             if m[i][j] == -2:
                 MP += text('$\omega^2$',(i+.5,r-j-.5),rgbcolor='black')
@@ -550,15 +550,15 @@ def jacobi_plot(p, e_index, f_index, with_text=True):
     S += line([e_pt,e_gs_pt], rgbcolor='red', thickness=4)
     S += line([f_pt,f_gs_pt], rgbcolor='blue', thickness=3)
     S += line([ef_pt,ef_gs_pt], rgbcolor='purple',thickness=2)
-    S += point(e_pt,pointsize=50, rgbcolor='red') 
+    S += point(e_pt,pointsize=50, rgbcolor='red')
     S += point(f_pt,pointsize=50, rgbcolor='blue')
     S += point(ef_pt,pointsize=50,rgbcolor='purple')
-    S += point(f_gs_pt,pointsize=75, rgbcolor='black')        
+    S += point(f_gs_pt,pointsize=75, rgbcolor='black')
     S += point(e_gs_pt,pointsize=75, rgbcolor='black')
     S += point(ef_gs_pt,pointsize=75, rgbcolor='black')
     S += point(js_pt,pointsize=100,rgbcolor='green')
     if with_text:
-        S += text('$J(%s,%s) = %s$'%(latex2(e),latex2(f),latex(js)), 
+        S += text('$J(%s,%s) = %s$'%(latex2(e),latex2(f),latex(js)),
             (3,2.5),fontsize=15, rgbcolor='black')
     else:
         html('$$J(%s,%s) = %s$$'%(latex2(e),latex2(f),latex(js)))
@@ -630,7 +630,7 @@ def jacobi_plot(p, e_index, f_index, with_text=True):
     S += line([e_pt,e_gs_pt], rgbcolor='red', thickness=4)
     S += line([f_pt,f_gs_pt], rgbcolor='blue', thickness=3)
     S += line([ef_pt,ef_gs_pt], rgbcolor='purple',thickness=2)
-    S += point(e_pt,pointsize=50, rgbcolor='red') 
+    S += point(e_pt,pointsize=50, rgbcolor='red')
     S += point(f_pt,pointsize=50, rgbcolor='blue')
     S += point(ef_pt,pointsize=50,rgbcolor='purple')
     S += point(f_gs_pt,pointsize=75, rgbcolor='black')
@@ -667,7 +667,7 @@ def exhaustive_jacobi_plot(p=prime_range(3,8)):
 
 = Elliptic Curves =
 
-== Adding points on an elliptic curve FIXME ==
+== Adding points on an elliptic curve ==
 by David Møller Hansen
 {{{#!sagecell
 def point_txt(P,name,rgbcolor):
@@ -675,16 +675,47 @@ def point_txt(P,name,rgbcolor):
         r = text(name,[float(P.xy()[0]),float(P.xy()[1])-1],rgbcolor=rgbcolor)
     elif P.xy()[1] == 0:
         r = text(name,[float(P.xy()[0]),float(P.xy()[1])+1],rgbcolor=rgbcolor)
-    else: 
+    else:
         r = text(name,[float(P.xy()[0]),float(P.xy()[1])+1],rgbcolor=rgbcolor)
     return r
 
 E = EllipticCurve('37a')
 list_of_points = E.integral_points()
 html("Graphical addition of two points $P$ and $Q$ on the curve $ E: %s $"%latex(E))
+
+def line_from_curve_points(E,P,Q,style='-',rgb=(1,0,0),length=25):
+	"""
+	P,Q two points on an elliptic curve.
+	Output is a graphic representation of the straight line intersecting with P,Q.
+	"""
+	# The function tangent to P=Q on E
+	if P == Q:
+		if P[2]==0:
+			return line([(1,-length),(1,length)],linestyle=style,rgbcolor=rgb)
+		else:
+			# Compute slope of the curve E in P
+			l=-(3*P[0]^2 + 2*E.a2()*P[0] + E.a4() - E.a1()*P[1])/((-2)*P[1] - E.a1()*P[0] - E.a3())
+			f(x) = l * (x - P[0]) + P[1]
+			return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
+	# Trivial case of P != R where P=O or R=O then we get the vertical line from the other point
+	elif P[2] == 0:
+		return line([(Q[0],-length),(Q[0],length)],linestyle=style,rgbcolor=rgb)
+	elif Q[2] == 0:
+		return line([(P[0],-length),(P[0],length)],linestyle=style,rgbcolor=rgb)
+	# Non trivial case where P != R
+	else:
+		# Case where x_1 = x_2 return vertical line evaluated in Q
+		if P[0] == Q[0]:
+			return line([(P[0],-length),(P[0],length)],linestyle=style,rgbcolor=rgb)
+
+		#Case where x_1 != x_2 return line trough P,R evaluated in Q"
+		l=(Q[1]-P[1])/(Q[0]-P[0])
+		f(x) = l * (x - P[0]) + P[1]
+		return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
+
 @interact
 def _(P=selector(list_of_points,label='Point P'),Q=selector(list_of_points,label='Point Q'), marked_points = checkbox(default=True,label = 'Points'), Lines = selector([0..2],nrows=1), Axes=True):
-	curve = E.plot(rgbcolor = (0,0,1),xmin=25,xmax=25,plot_points=300)
+	curve = E.plot(rgbcolor = (0,0,1),xmin=-5,xmax=5,plot_points=300)
 	R = P + Q
 	Rneg = -R
 	l1 = line_from_curve_points(E,P,Q)
@@ -710,36 +741,6 @@ def _(P=selector(list_of_points,label='Point P'),Q=selector(list_of_points,label
 		g=g+textp1+textp3
 	g.axes_range(xmin=-5,xmax=5,ymin=-13,ymax=13)
 	show(g,axes = Axes)
-
-def line_from_curve_points(E,P,Q,style='-',rgb=(1,0,0),length=25):
-	"""
-	P,Q two points on an elliptic curve.
-	Output is a graphic representation of the straight line intersecting with P,Q.
-	"""
-	# The function tangent to P=Q on E
-	if P == Q:
-		if P[2]==0:
-			return line([(1,-length),(1,length)],linestyle=style,rgbcolor=rgb)
-		else:
-			# Compute slope of the curve E in P
-			l=-(3*P[0]^2 + 2*E.a2()*P[0] + E.a4() - E.a1()*P[1])/((-2)*P[1] - E.a1()*P[0] - E.a3())
-			f(x) = l * (x - P[0]) + P[1]
-			return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
-	# Trivial case of P != R where P=O or R=O then we get the vertical line from the other point
-	elif P[2] == 0:
-		return line([(Q[0],-length),(Q[0],length)],linestyle=style,rgbcolor=rgb)
-	elif Q[2] == 0:
-		return line([(P[0],-length),(P[0],length)],linestyle=style,rgbcolor=rgb)
-	# Non trivial case where P != R
-	else:	
-		# Case where x_1 = x_2 return vertical line evaluated in Q
-		if P[0] == Q[0]:
-			return line([(P[0],-length),(P[0],length)],linestyle=style,rgbcolor=rgb)
-		
-		#Case where x_1 != x_2 return line trough P,R evaluated in Q"
-		l=(Q[1]-P[1])/(Q[0]-P[0])
-		f(x) = l * (x - P[0]) + P[1]
-		return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
 }}}
 {{attachment:PointAddEllipticCurve.png}}
 
@@ -799,7 +800,7 @@ font-weight:bold
 <li>Alice computes (<span class="gbmodp">g<sup>b</sup> mod p</span>)<sup>a</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
 <li>Bob computes (<span class="gamodp">g<sup>a</sup> mod p</span>)<sup>b</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
 </ol>
-    """ % (bits, p, g, a, g, a, p, (g^a), b, g, b, p, (g^b), (g^b), a, p, 
+    """ % (bits, p, g, a, g, a, p, (g^a), b, g, b, p, (g^b), (g^b), a, p,
        (g^ b)^a, g^a, b, p, (g^a)^b))
 }}}
 
