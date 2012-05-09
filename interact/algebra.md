@@ -17,7 +17,7 @@ def gfan_browse(p1 = input_box('x^3+y^2',type = str, label='polynomial 1: '), p2
 }}}
 {{attachment:gfan_interact.png}}
 
-== 3D Groebner fan browser FIXME==
+== 3D Groebner fan browser FIXME ==
 by Marshall Hampton
 {{{#!sagecell
 def proj4_to_3(gfanobj, poly4):
@@ -113,7 +113,7 @@ def Groebner_fan_browser(bsel = slider(0,100,.1,0,label='Individual basis select
 }}}
 {{attachment:gb3d.png}}
 
-== Numerical Solutions of Polynomial Systems with PHCpack FIXME==
+== Numerical Solutions of Polynomial Systems with PHCpack FIXME ==
 by Marshall Hampton; requires phcpack optional package (PHCpack written by Jan Verschelde).
 The example below is a two-parameter deformation of the cyclic-6 problem.  Solution paths are tracked through the parameter homotopy.  
 {{{#!sagecell
