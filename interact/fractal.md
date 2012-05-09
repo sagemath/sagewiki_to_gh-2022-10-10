@@ -272,8 +272,6 @@ julia_plot(-7,30,0.5,0.5,(-1.5,1.5), (-1.5,1.5))
 by Eviatar Bach
 
 {{{#!sagecell
-%python
-
 from numpy import zeros
 
 def sierpinski(N):
