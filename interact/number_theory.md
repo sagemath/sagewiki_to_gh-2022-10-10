@@ -546,19 +546,19 @@ def jacobi_plot(p, e_index, f_index, with_text=True):
         js_pt = list(js.complex_embedding())
 
     # Define plot structure
-    S = circle((0,0),1,rgbcolor='yellow')  \ 
-    + line([e_pt,e_gs_pt], rgbcolor='red', thickness=4) \
-    + line([f_pt,f_gs_pt], rgbcolor='blue', thickness=3) \
-    + line([ef_pt,ef_gs_pt], rgbcolor='purple',thickness=2) \
-    + point(e_pt,pointsize=50, rgbcolor='red')  \
-    + point(f_pt,pointsize=50, rgbcolor='blue') \
-    + point(ef_pt,pointsize=50,rgbcolor='purple') \
-    + point(f_gs_pt,pointsize=75, rgbcolor='black') \        
-    + point(e_gs_pt,pointsize=75, rgbcolor='black') \
-    + point(ef_gs_pt,pointsize=75, rgbcolor='black') \
-    + point(js_pt,pointsize=100,rgbcolor='green')
+    S = circle((0,0),1,rgbcolor='yellow')
+    S += line([e_pt,e_gs_pt], rgbcolor='red', thickness=4)
+    S += line([f_pt,f_gs_pt], rgbcolor='blue', thickness=3)
+    S += line([ef_pt,ef_gs_pt], rgbcolor='purple',thickness=2)
+    S += point(e_pt,pointsize=50, rgbcolor='red') 
+    S += point(f_pt,pointsize=50, rgbcolor='blue')
+    S += point(ef_pt,pointsize=50,rgbcolor='purple')
+    S += point(f_gs_pt,pointsize=75, rgbcolor='black')        
+    S += point(e_gs_pt,pointsize=75, rgbcolor='black')
+    S += point(ef_gs_pt,pointsize=75, rgbcolor='black')
+    S += point(js_pt,pointsize=100,rgbcolor='green')
     if with_text:
-        S += text('$J(%s,%s) = %s$'%(latex2(e),latex2(f),latex(js)), \
+        S += text('$J(%s,%s) = %s$'%(latex2(e),latex2(f),latex(js)), 
             (3,2.5),fontsize=15, rgbcolor='black')
     else:
         html('$$J(%s,%s) = %s$$'%(latex2(e),latex2(f),latex(js)))
