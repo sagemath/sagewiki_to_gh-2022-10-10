@@ -91,7 +91,7 @@ def _(N=(100,(2..2000))):
 }}}
 {{attachment:primes.png}}
 
-== Prime Spiral - Square ==
+== Prime Spiral - Square FIXME ==
 by David Runde
 {{{#!sagecell
 @interact
