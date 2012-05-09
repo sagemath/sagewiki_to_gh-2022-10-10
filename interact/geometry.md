@@ -9,16 +9,16 @@ by Marshall Hampton.  Inspired by a question from Hans Schepker of Glass Geometr
 #Pairs of tetrahedra, one the reflection of the other in the internal face, are joined by union operations:
 p1 = Polyhedron(vertices = [[1,1,1],[1,1,0],[0,1,1],[1,0,1]])
 p2 = Polyhedron(vertices = [[1/3,1/3,1/3],[1,1,0],[0,1,1],[1,0,1]])
-p12 = p1.union(p2)
+p12 = p1.convex_hull(p2)
 p3 = Polyhedron(vertices = [[0,0,1],[0,0,0],[0,1,1],[1,0,1]])
 p4 = Polyhedron(vertices = [[2/3,2/3,1/3],[0,0,0],[0,1,1],[1,0,1]])
-p34 = p3.union(p4)
+p34 = p3.convex_hull(p4)
 p5 = Polyhedron(vertices = [[1,0,0],[1,0,1],[0,0,0],[1,1,0]])
 p6 = Polyhedron(vertices = [[1/3,2/3,2/3],[1,0,1],[0,0,0],[1,1,0]])
-p56 = p5.union(p6)
+p56 = p5.convex_hull(p6)
 p7 = Polyhedron(vertices = [[0,1,0],[0,0,0],[1,1,0],[0,1,1]])
 p8 = Polyhedron(vertices = [[2/3,1/3,2/3],[0,0,0],[1,1,0],[0,1,1]])
-p78 = p7.union(p8)
+p78 = p7.convex_hull(p8)
 pti = p12.intersection(p34).intersection(p56).intersection(p78)
 @interact
 def tetra_plot(opac = slider(srange(0,1.0,.25), default = .25)):
