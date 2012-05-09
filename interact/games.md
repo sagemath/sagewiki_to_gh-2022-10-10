@@ -27,18 +27,18 @@ def init():
     
 init()    
 
-print "<html><h1 align=center>Zeros</h1></html>"
-print "<html><h2 align=center><font color='blue'>How many zeros?</font></h2></html>"
+html("<h1 align=center>Zeros</h1>")
+html("<h2 align=center><font color='blue'>How many zeros?</font></h2>")
     
 @interact
-def zeros(a=("",selector(buttons=True, nrows=1, values=['Reset'] + [1..B], default=1))):
+def zeros(a=selector(buttons=True, nrows=1, values=['Reset'] + [1..B], default=1)):
     if a == 'Reset': 
         init()
-    print "<html><center>"    
+    html("<center>")
     global B,Br,n,round,tm,t,v
     if a == n:
         if round > 0:
-           print "<font size=+3 color='red'>RIGHT</font>"
+           html("<font size=+3 color='red'>RIGHT</font>")
         r = walltime() - t
         tm += r
         round += 1
@@ -51,15 +51,14 @@ def zeros(a=("",selector(buttons=True, nrows=1, values=['Reset'] + [1..B], defau
         if Br < B:
             Br += 2
     elif round > 0:
-        print "<font size=+2 color='blue'>Wrong. Try again...</font>"
-    print "</center>"
-    print "<font size=+%s color='#333'>"%random.randrange(-2,5)
+        html("<font size=+2 color='blue'>Wrong. Try again...</font>")
+    html("</center>")
+    html("<font size=+%s color='#333'>"%random.randrange(-2,5))
     print  ' '*random.randrange(20) + '0'*n
-    print "</font>"
+    html("</font>")
     if round > 0:
-        print "<br><br><center>Score: %s rounds, Average time: %.1f seconds</center>"%(
-                 round, float(tm)/round)
-    print "</html>"
+        html("<br><br><center>Score: %s rounds, Average time: %.1f seconds</center>"%(
+                 round, float(tm)/round))
 }}}
 
 == Queens on board ==
