@@ -414,7 +414,7 @@ def quad_res_plot(first_n_odd_primes = (20,200),display_size=[7..15]):
 
 {{attachment:quadresbig.png}}
 
-== Cubic Residue Table ==
+== Cubic Residue Table FIXME ==
 by Emily Kirkman
 {{{#!sagecell
 def power_residue_symbol(alpha, p, m):
