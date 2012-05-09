@@ -140,10 +140,8 @@ def _(x = input_box(3*sin(u)*cos(v), 'x'),
     def func(y,t):
         v = list(y)
         return [ddu_ff(*v), ddv_ff(*v), v[0], v[1]]
-                
-}}}
-{{attachment:geodesics1.png}}
-{{{#!sagecell
+
+# second interact
 from scipy.integrate import odeint
 
 def fading_line3d(points, rgbcolor1, rgbcolor2, *args, **kwds):
@@ -194,6 +192,7 @@ def _(u_0 = slider(int_u[0], int_u[1], (int_u[1] - int_u[0])/100,
         
         show(g_plot + S_plot + V_plot + P_plot,aspect_ratio = [1, 1, 1])
 }}}
+{{attachment:geodesics1.png}}
 {{attachment:geodesics2.png}}
 
 == Dimensional Explorer ==
