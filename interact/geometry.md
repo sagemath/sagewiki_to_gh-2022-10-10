@@ -3,7 +3,7 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
-== Intersecting tetrahedral reflections ==
+== Intersecting tetrahedral reflections FIXME ==
 by Marshall Hampton.  Inspired by a question from Hans Schepker of Glass Geometry.
 {{{#!sagecell
 #Pairs of tetrahedra, one the reflection of the other in the internal face, are joined by union operations:
