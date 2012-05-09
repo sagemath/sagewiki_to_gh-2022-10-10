@@ -361,7 +361,7 @@ def f(N = prime_range(11,400),
 
 = Modular Arithmetic =
 
-== Quadratic Residue Table ==
+== Quadratic Residue Table FIXME ==
 by Emily Kirkman
 {{{#!sagecell
 from numpy import array as narray
