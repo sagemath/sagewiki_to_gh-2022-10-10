@@ -335,7 +335,7 @@ def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
 
 {{attachment:cuspgroup.png}}
 
-== A Charpoly and Hecke Operator Graph FIXME ==
+== A Charpoly and Hecke Operator Graph ==
 by William Stein
 
 {{{#!sagecell
@@ -346,7 +346,9 @@ def f(N = prime_range(11,400),
       three_d = ("Three Dimensional", False)):
     S = SupersingularModule(N)
     T = S.hecke_matrix(p)
-    G = Graph(T, multiedges=True, loops=not three_d)
+    G = DiGraph(T, multiedges=not three_d)
+    if three_d:
+        G.remove_loops()
     html("<h1>Charpoly and Hecke Graph: Level %s, T_%s</h1>"%(N,p))
     show(T.charpoly().factor())
     if three_d:
