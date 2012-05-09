@@ -808,7 +808,7 @@ font-weight:bold
 
 = Other =
 
-== Continued Fraction Plotter ==
+== Continued Fraction Plotter FIXME ==
 by William Stein
 {{{#!sagecell
 @interact
