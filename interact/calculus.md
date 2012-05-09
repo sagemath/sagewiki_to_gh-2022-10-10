@@ -725,7 +725,7 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x),type=S
 {{attachment:quadrature1.png}}
 {{attachment:quadrature2.png}}
 
-== Vector Calculus, 2-D Motion ==
+== Vector Calculus, 2-D Motion FIXME ==
 By Rob Beezer
 
 A fast_float() version is available in a [[http://buzzard.ups.edu/sage/motion-2d.sws|worksheet]]
@@ -965,7 +965,7 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
 }}}
 {{attachment:motion3d.png}}
 
-== Multivariate Limits by Definition ==
+== Multivariate Limits by Definition FIXME ==
 by John Travis
 
 http://www.sagenb.org/home/pub/2828/
@@ -1333,7 +1333,7 @@ def _(f=input_box(default=(1/3)*x^2 + (1/4)*y^2 + 5,label='$f(x)=$'),
 }}}
 {{attachment:3D_Irregular_Volume.png}}
 
-== Lateral Surface Area ==
+== Lateral Surface Area FIXME ==
 
 by John Travis
 
