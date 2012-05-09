@@ -195,4 +195,20 @@ Friday
 .. _`Tutorial V`: days38_tutorials#tutorial-v-cython
 .. _`Trac 12536`: http://trac.sagemath.org/sage_trac/ticket/12536
 
+
+Open Presentations
+==================
+
+Open presentations are quick (5 to 15 minutes) presentations done by the participants. It can be demonstrations of projects done during the week. Or it can be about anything of interest to the participants including software useful for teaching or research.
+
+- pgfplots + gnuplot, by Alexandre Blondin Massé
+- tikz2pdf, by Sébastien Labbé
+- sagetex, by ???
+- generation of random math homeworks, by Nicolas Thiéry
+- a demo of the new IPython 0.12 Notebook, by Sébastien Labbé
+- What's new with Python 2.7 recently included into Sage?, by ???
+- ...
+
+
+
 }}}
