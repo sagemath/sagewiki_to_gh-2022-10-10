@@ -6,6 +6,8 @@ goto [[interact|interact main page]]
 == Stock Market data, fetched from Yahoo and Google FIXME ==
 by William Stein
 
+(Need to fix plotting warnings as well as some stocks give index errors (like bsc, etc.)
+
 {{{#!sagecell
 import urllib
 
