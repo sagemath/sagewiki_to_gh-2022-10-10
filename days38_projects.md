@@ -89,6 +89,10 @@ Documentation
 
   Nicolas, Hugh, Timothy
 
+* get tutorials ready for inclusion in Sage
+
+  Nicolas, Franco, ...
+
 Inverse Laplace transform
 -------------------------
 
