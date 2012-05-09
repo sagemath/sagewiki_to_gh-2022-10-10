@@ -130,8 +130,7 @@ def move_nim(heap_sizes):
     correction=bitlist2number( [b2 if b2 and not b1 else 0 for b1,b2 in zip(localbits,globalbits)] ) - bitlist2number( [b2 if b2 and b1 else 0 for b1,b2 in zip(localbits,globalbits)] )
     amount=2^maxInd -correction
     return (heap,amount)
-}}}
-{{{#!sagecell
+
 nim=[1,3,5,6]
 @interact
 def _(heap=selector(range(len(nim)), buttons=True),
