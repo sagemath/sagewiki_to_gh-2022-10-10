@@ -116,7 +116,7 @@ Wednesday
             opportunities for integration and use with Sage.
 
  * 10h00 : Coffee Break
- * 10h30 : Anne Schilling, *Markov chains for promotion operators*
+ * 10h30 : Anne Schilling, *Markov chains for promotion operators*, (`Sage worksheet`__)
 
             *Abstract.* Schuetzenberger introduced a promotion operator on
             arbitrary finite posets. Using a slight extension of these
@@ -129,6 +129,8 @@ Wednesday
             for left regular bands. This is based on mathematical explorations with
             Arvind Ayyer and Steven Klee, and the patch 
             `Trac 12536`_ with Nicolas Thiery.
+
+   __http://wiki.sagemath.org/days38_schedule?action=AttachFile&do=view&target=schilling-markov.sws
 
  * 11h00 : Viviane Pons, *Bases of multivariate polynomials*, (`Sage worksheet`__)
 
