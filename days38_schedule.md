@@ -141,7 +141,7 @@ Wednesday
             show that they can be seen as a generalization of the Schur basis
             of symmetric polynomials.
 
-   __ 
+   __ http://wiki.sagemath.org/days38_schedule?action=AttachFile&do=view&target=pons-worksheet.sws
 
  * 11h30 : `Tutorial IV`_: *Contributing to Sage*, Anne Schilling
 
