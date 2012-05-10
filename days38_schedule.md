@@ -96,7 +96,7 @@ Wednesday
  **Morning Session**:
 
  * 08h30 : Coffee & Croissants
- * 09h00 : Derek Ruths, *Introducing Zen: the Zero-Effort Network Library for Python*
+ * 09h00 : Derek Ruths, `Introducing Zen: the Zero-Effort Network Library for Python`_
 
             *Abstract.* This talk will introduce a new python library for network
             analysis and algorithmics.  As datasets increase in size and algorithms
@@ -191,6 +191,7 @@ Friday
  * 15h30 : Coffee Break
  * 17h00 : Status Reports
 
+.. _`Introducing Zen: the Zero-Effort Network Library for Python` : http://zen.networkdynamics.org/wp-content/uploads/2012/05/20120509_SageDays38.pdf
 .. _`Welcome and Introduction to Sage`: http://thales.math.uqam.ca/~labbes/Sage/2012-05-days38.pdf
 .. _`Tutorial I`: days38_tutorials#tutorial-i-using-the-sage-notebook-and-navigating-the-help-system
 .. _`Tutorial II`: days38_tutorials#tutorial-ii-calculus-and-linear-algebra-in-sage
