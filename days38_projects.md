@@ -44,13 +44,13 @@ Combinatorics
 
   Anne, Chris, Mike, Tom, Luis, Franco, Darij, Aaron, Nicolas
 
-* morphism groups of function fields
+* Automorphism group of function fields
 
   Seyed
 
-* speed-up of polynomial rings over polynomial rings
+* Faster arithmetics in polynomial rings over fraction field of polynomial rings
 
-  Seyed,
+  Seyed
 
 * semigroups : clean-up, extract good code to push into Sage, ...
 
