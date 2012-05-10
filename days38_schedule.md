@@ -210,7 +210,7 @@ Open presentations are quick (5 to 15 minutes) presentations done by the partici
 - tikz2pdf, by Sébastien Labbé
 - sagetex, by ???
 - Using sagetex to generate of math homeworks, by Nicolas Thiéry (`zip file with example`__)
-   __ http://wiki.sagemath.org/days38_schedule?action=AttachFile&do=view&demo-exam-sheet-with-sage.zip
+   __ http://wiki.sagemath.org/days38_schedule?action=AttachFile&do=view&target=demo-exam-sheet-with-sage.zip
 - a demo of the new IPython 0.12 Notebook, by Pierre Cagne
 - What's new with Python 2.7 recently included into Sage?, by ???
 - WebWorK, by Malcolm
