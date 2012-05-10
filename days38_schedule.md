@@ -209,7 +209,8 @@ Open presentations are quick (5 to 15 minutes) presentations done by the partici
 - pgfplots + gnuplot, by Alexandre Blondin Massé
 - tikz2pdf, by Sébastien Labbé
 - sagetex, by ???
-- generation of random math homeworks, by Nicolas Thiéry
+- Using sagetex to generate of math homeworks, by Nicolas Thiéry
+  [[attachment:demo-exam-sheet-with-sage.zip]]
 - a demo of the new IPython 0.12 Notebook, by Pierre Cagne
 - What's new with Python 2.7 recently included into Sage?, by ???
 - WebWorK, by Malcolm
