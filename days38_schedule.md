@@ -130,7 +130,7 @@ Wednesday
             Arvind Ayyer and Steven Klee, and the patch 
             `Trac 12536`_ with Nicolas Thiery.
 
- * 11h00 : Viviane Pons, *Bases of multivariate polynomials*
+ * 11h00 : Viviane Pons, *Bases of multivariate polynomials*, (`Sage worksheet`__)
 
             *Abstract.* We have developed a patch in sage to consider
             multivariate polynomials as formal sums of vectors. Each vector
@@ -140,6 +140,8 @@ Wednesday
             generate linear bases of the ring of multivariate polynomials. We
             show that they can be seen as a generalization of the Schur basis
             of symmetric polynomials.
+
+   __ 
 
  * 11h30 : `Tutorial IV`_: *Contributing to Sage*, Anne Schilling
 
