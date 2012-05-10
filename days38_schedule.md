@@ -130,7 +130,7 @@ Wednesday
             Arvind Ayyer and Steven Klee, and the patch 
             `Trac 12536`_ with Nicolas Thiery.
 
-   __http://wiki.sagemath.org/days38_schedule?action=AttachFile&do=view&target=schilling-markov.sws
+   __ http://wiki.sagemath.org/days38_schedule?action=AttachFile&do=view&target=schilling-markov.sws
 
  * 11h00 : Viviane Pons, *Bases of multivariate polynomials*, (`Sage worksheet`__)
 
