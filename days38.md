@@ -5,6 +5,8 @@ Sage Days 38
 
 .. Note:: What's New:
 
+    * The `complete schedule`_ which contains links to slides and more.
+
     * The wiki page to organize `projects and coding sprints`_ is ready.
       Add an entry for your project there or attach your name to a
       project that you'd like to work on.
@@ -18,6 +20,7 @@ Sage Days 38
     * Here is the link to the `YouTube playlist of Sage videos`_ that
       was playing on Monday during the installation session.
 
+.. _`complete schedule`: days38_schedule
 .. _`projects and coding sprints`: days38_projects
 .. _`tutorials and resources`: days38_tutorials
 .. _`installation instructions`: days38_installations
