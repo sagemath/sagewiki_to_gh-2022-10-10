@@ -208,20 +208,26 @@ Open Presentations
 
 Open presentations are quick (5 to 15 minutes) presentations done by the participants. It can be demonstrations of projects done during the week. Or it can be about anything of interest to the participants including software useful for teaching or research.
 
+Thursday :
+
 - Using sagetex to generate of math homeworks, by Nicolas Thiéry (`zip file with example`__)
    __ http://wiki.sagemath.org/days38_schedule?action=AttachFile&do=view&target=demo-exam-sheet-with-sage.zip
 - interact demo, by Mélodie
 - animate demo, by Michael
 
+Friday :
+
 - `sagetex Tutorial`__, by Pierre Cagne
    __ http://sagemath.org/doc/tutorial/sagetex.html
 - WebWorK and Sage integration, by Malcolm
+
+Not done yet :
 
 - a demo of the new IPython 0.12 Notebook, by Pierre Cagne
 - What's new with Python 2.7 recently included into Sage?, by ???
 - some interact made by Florent
 - pgfplots + gnuplot, by Alexandre Blondin Massé
 - tikz2pdf, by Sébastien Labbé
-
+- Python Coding Convention, by Sébastien Labbé
 
 }}}
