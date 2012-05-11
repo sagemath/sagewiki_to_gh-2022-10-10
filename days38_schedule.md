@@ -210,6 +210,7 @@ Friday :
 - `sagetex Tutorial`_, by Pierre Cagne
 - WebWorK and Sage integration, by Malcolm
 - `Tutorial V`_: *Cython Part 2*, by Florent Hivert
+- `Python Coding Convention`_, by Sébastien Labbé
 
 Not done yet :
 
@@ -218,7 +219,6 @@ Not done yet :
 - some interact made by Florent
 - pgfplots + gnuplot, by Alexandre Blondin Massé
 - tikz2pdf, by Sébastien Labbé
-- `Python Coding Convention`_, by Sébastien Labbé
 
 
 
