@@ -209,7 +209,7 @@ Friday :
 
 - `sagetex Tutorial`_, by Pierre Cagne
 - WebWorK and Sage integration, by Malcolm
-_ `Tutorial V`_: *Cython Part 2*, by Florent Hivert
+- `Tutorial V`_: *Cython Part 2*, by Florent Hivert
 
 Not done yet :
 
