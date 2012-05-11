@@ -148,7 +148,7 @@ Tutorial V: Cython
 
  Worksheet:
 
- -
+ - `Florent's Cython Tutorial`_
 
  Related thematic tutorials:
 
@@ -235,6 +235,7 @@ Tutorial V: Cython
 .. _`High Performance Python`: http://ianozsvald.com/2011/07/25/high-performance-python-tutorial-v0-2-from-europython-2011
 
 .. Cython:
+.. _`Florent's Cython Tutorial`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-programming-cython.html
 .. _`Cython`: http://cython.org/
 .. _`A quick Cython introduction`: http://www.perrygeo.net/wordpress/?p=116
 .. _`Cython tutorial`: http://conference.scipy.org/proceedings/SciPy2009/paper_1/
