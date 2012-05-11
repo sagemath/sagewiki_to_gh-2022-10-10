@@ -73,7 +73,7 @@ Tuesday
             opening a discussion on what mid to long term goals could be,
             depending on interest and available work forces.
 
- * 11h30 : Meinolf Geck, *High performance computations around Kazhdan-Lusztig cells*
+ * 11h30 : `Meinolf Geck`__, *High performance computations around Kazhdan-Lusztig cells*
 
             *Abstract.*  We present the computer algebra package PyCox, written
             entirely in Python and compatible with Sage, for computations with
@@ -81,6 +81,8 @@ Tuesday
             variations of the traditional algorithms for computing Kazhdan-Lusztig
             cells (which now work up to type E_7) and distinguished involutions
             (which even work in type E_8).
+
+   __ http://www.abdn.ac.uk/~mth190/
 
  **Lunch Break**: 12h30 - 14h30
 
