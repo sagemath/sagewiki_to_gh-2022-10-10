@@ -193,16 +193,6 @@ Friday
  * 15h30 : Coffee Break
  * 17h00 : Status Reports
 
-.. _`Introducing Zen: the Zero-Effort Network Library for Python` : http://zen.networkdynamics.org/wp-content/uploads/2012/05/20120509_SageDays38.pdf
-.. _`Welcome and Introduction to Sage`: http://thales.math.uqam.ca/~labbes/Sage/2012-05-days38.pdf
-.. _`Tutorial I`: days38_tutorials#tutorial-i-using-the-sage-notebook-and-navigating-the-help-system
-.. _`Tutorial II`: days38_tutorials#tutorial-ii-calculus-and-linear-algebra-in-sage
-.. _`Tutorial III`: days38_tutorials#tutorial-iii-programming-in-python-and-sage
-.. _`Tutorial IV`: days38_tutorials#tutorial-iv-contributing-to-sage
-.. _`Tutorial V`: days38_tutorials#tutorial-v-cython
-.. _`Trac 12536`: http://trac.sagemath.org/sage_trac/ticket/12536
-
-
 Open Presentations
 ==================
 
@@ -217,9 +207,9 @@ Thursday :
 
 Friday :
 
-- `sagetex Tutorial`__, by Pierre Cagne
-   __ http://sagemath.org/doc/tutorial/sagetex.html
+- `sagetex Tutorial`_, by Pierre Cagne
 - WebWorK and Sage integration, by Malcolm
+_ `Tutorial V`_: *Cython Part 2*, by Florent Hivert
 
 Not done yet :
 
@@ -229,5 +219,17 @@ Not done yet :
 - pgfplots + gnuplot, by Alexandre Blondin Massé
 - tikz2pdf, by Sébastien Labbé
 - Python Coding Convention, by Sébastien Labbé
+
+
+
+.. _`Introducing Zen: the Zero-Effort Network Library for Python` : http://zen.networkdynamics.org/wp-content/uploads/2012/05/20120509_SageDays38.pdf
+.. _`Welcome and Introduction to Sage`: http://thales.math.uqam.ca/~labbes/Sage/2012-05-days38.pdf
+.. _`Tutorial I`: days38_tutorials#tutorial-i-using-the-sage-notebook-and-navigating-the-help-system
+.. _`Tutorial II`: days38_tutorials#tutorial-ii-calculus-and-linear-algebra-in-sage
+.. _`Tutorial III`: days38_tutorials#tutorial-iii-programming-in-python-and-sage
+.. _`Tutorial IV`: days38_tutorials#tutorial-iv-contributing-to-sage
+.. _`Tutorial V`: days38_tutorials#tutorial-v-cython
+.. _`Trac 12536`: http://trac.sagemath.org/sage_trac/ticket/12536
+.. _`sagetex Tutorial`_: http://sagemath.org/doc/tutorial/sagetex.html
 
 }}}
