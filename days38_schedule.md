@@ -230,7 +230,7 @@ Not done yet :
 .. _`Tutorial IV`: days38_tutorials#tutorial-iv-contributing-to-sage
 .. _`Tutorial V`: days38_tutorials#tutorial-v-cython
 .. _`Trac 12536`: http://trac.sagemath.org/sage_trac/ticket/12536
-.. _`sagetex Tutorial`_: http://sagemath.org/doc/tutorial/sagetex.html
+.. _`sagetex Tutorial`: http://sagemath.org/doc/tutorial/sagetex.html
 .. _`Python Coding Convention`: http://www.sagemath.org/doc/developer/conventions.html
 
 }}}
