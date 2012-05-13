@@ -29,7 +29,7 @@ The following people are likely to participate
  * Dan Drake (Korea Advanced Institute of Science and Technology)
  * Benjamin Jones (University of Wisconsin-Stout) ''arriving SEATAC at 1:21p May 24 on DL 1753''
  * Keshav Kini (Nanyang Technological University)
- * Doug !McNeil
+ * Doug !McNeil (RiskAnalytica) ''arriving SEATAC at 1:21p May 24 on DL 1753''
  * Andrey Novoseltsev (University of Alberta)
  * David Roe (University of Calgary)
  * Julian Ruth (Leibniz University)
