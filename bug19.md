@@ -28,10 +28,10 @@ The following people are likely to participate
  * Doug !McNeil (!RiskAnalytica) ''arriving SEATAC at 1:21p May 24 on DL 1753''
  * Andrey Novoseltsev (University of Alberta)
  * David Roe (University of Calgary)
- * Julian Ruth (Leibniz University)
  * William Stein (University of Washington)
 
 The following people are likely to participate remotely:
 
  * John Perry (University of Southern Mississippi)
  * Paul Zimmermann (Inria Nancy - Grand Est)
+ * Julian Ruth (Leibniz University)
