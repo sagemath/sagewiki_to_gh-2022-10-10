@@ -27,7 +27,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School)
  1. [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  1. Kevin Halasz (University of Puget Sound)
- 1. [[http://www1.spms.ntu.edu.sg/~krkini/|Keshav Jini]] (Nanyang Technological University, Singapore)
+ 1. [[http://www1.spms.ntu.edu.sg/~krkini/|Keshav Kini]] (Nanyang Technological University, Singapore)
  1. [[http://www.math.washington.edu/~palmieri/|John Palmieri]] (University of Washington) 6/12-6/15
  1. [[http://wstein.org/|William Stein]] (University of Washington)
 
