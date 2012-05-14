@@ -8,10 +8,6 @@ The aim of this workshop is to find and fix bugs in the Sage library.  It will b
 
 Wallace Falls is about an hour from the airport.  We have the lodge starting at 1pm on May 24 and ending at noon on May 29.  We'll be carpooling up to the lodge, with scheduling depending on peoples' flight details.  Food is provided by the lodge.
 
-=== Funding ===
-
-Funding is still available: e-mail David Roe for more details.
-
 === Participants ===
 
 The conference is organized by
