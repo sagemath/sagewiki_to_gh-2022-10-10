@@ -1,8 +1,8 @@
-= Sage Bug Days 19: Seattle, WA =
+= Sage Days 40.5: Bug Days =
 
-== May 24-29, Wallace Falls Lodge near Seattle ==
+== May 24-29 2012, Wallace Falls Lodge near Seattle ==
 
-The aim of this workshop is to find and fix bugs in the Sage library.  It will be held at [[http://www.wallacefallslodge.com/|the Wallace Falls Lodge]] an hour northeast of Seattle in the foothills of the Cascades.
+The aim of this workshop is to find and fix bugs in the Sage library.  It will be held at [[http://www.wallacefallslodge.com/|the Wallace Falls Lodge]] an hour northeast of Seattle in the foothills of the Cascades.  Previously known as Bug Days 19.
 
 === Logistics ===
 
