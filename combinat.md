@@ -8,6 +8,10 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 '''[[http://wiki.sagemath.org/combinat/Installation|Installation instructions]]'''
 
+{{{#!wiki caution
+'''With the release of Sage 5.0, we are dropping the backward compatibility with all the former Sage version.''' 
+}}}
+
 ----
 
 == NEWS ==
