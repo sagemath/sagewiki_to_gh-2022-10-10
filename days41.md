@@ -10,16 +10,17 @@ If you're interested in attending, there may be funding for you.   Email wstein@
 
  '''Be sure to buy your plane ticket on a US carrier.'''
 
-== Lodging ==
-
-We have limited rooms available at the Collegiana Inn.  This operation is somewhere between a dormitory and a hotel, perhaps "boarding house" describes it.  Rooms are designed to be shared and have their own bathrooms.  If we fill these rooms, or if you prefer less-rustic accomodations, suggestions for lodging are available on the [[days41/travel|travel]] page.  You should make these arrangements yourself.  If you have been approved for funding, then you will be reimbursed.  
+== Important: Lodging ==
 
 '''There are only limited rooms available in the campus vicinity, so please make arrangements immediately.'''
+
+We have limited rooms available at the Collegiana Inn.  This operation is somewhere between a dormitory and a hotel, perhaps "boarding house" describes it.  Rooms are designed to be shared and have their own bathrooms.  If we fill these rooms, or if you prefer less-rustic accomodations, suggestions for lodging are available on the [[days41/travel#hotels|travel]] page.  You should make these arrangements yourself.  If you have been approved for funding, then you will be reimbursed.  
+
 
 
 == Mailing List ==
 
- * Mailing list for the workshop is [[https://groups.google.com/forum/#!forum/sagedays41|Sage Days 41]].  Please add yourself to this list when available.  This will be the primary vehicle for preliminary announcements, and last-minute changes during the week.
+Mailing list for the workshop is [[https://groups.google.com/forum/#!forum/sagedays41|Sage Days 41]].  Please add yourself to this list when available.  This will be the primary vehicle for preliminary announcements, and last-minute changes during the week.
 
 == Organizers ==
 
@@ -31,6 +32,7 @@ We have limited rooms available at the Collegiana Inn.  This operation is somewh
 To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
 
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound)
+ 1. Kyle Brooks (University of Puget Sound)
  1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School, San Francisco)
  1. [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  1. Kevin Halasz (University of Puget Sound)
