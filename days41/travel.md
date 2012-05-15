@@ -49,7 +49,7 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 
 == Sage Edu Days 4 Hotel Suggestions ==
 
-This information is froma telephone survey on May 15.  Rates and availability will probably change.  Feel free to edit with updated information, but please include a date with your comment.
+This information is from a telephone survey on May 15.  Rates and availability will probably change.  Feel free to edit with updated information, but please include a date with your comment.
 
  * [[http://www.silvercloud.com/university/|Silver Cloud]]
    * 2012/05/15 Nice local chain, King or Two Queens, $160-$170, northeast of campus, about a 1 mile walk.
@@ -65,3 +65,5 @@ This information is froma telephone survey on May 15.  Rates and availability wi
    * 2012/05/15 Best mid-range choice, but very likely sold-out.
  * [[http://www.universitymotelsuites.com/|University Motel Suites]]
    * 2012/05/15 Sold-out.
+
+Another option is to stay in the "Belltown" neighborhood, just north of downtown and about 4 miles from campus.  Search for hotels near the intersection of "3rd Avenue and Bell Street" and consider the #71, #72, #73 buses from 5th & Pine out to campus.
