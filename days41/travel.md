@@ -15,7 +15,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || ||
 || Sang-Gu Lee, 2 students ||                 || Sea-Tac            ||                  || Sea-Tac            || Collegiana||
-|| Susan Lynds             || Tue             || Sea-Tac            || Sat              || Sea-Tac            || ||
+|| Susan Lynds             || Tue             || Amtrak             || Sat              || Sea-Tac            || Hotel Deca ||
 || Barry Balof             || Wed,  7:50 AM   || Sea-Tac, Horizon   || Fri,   7:55 PM   || Sea-Tac, Horizon   || ||
 
 
