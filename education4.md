@@ -36,6 +36,10 @@ To register, please add yourself alphabetically by last name.  You need to reque
 
 We only have enough funding for participants from the test sites for the NSF UTMOST project and for a few "outside" speakers.  The concurrent [[days41|Sage Days 41]] workshop has ample funding for those interested in working all week on projects related to the notebook.  However, anyone with an interest in the use of Sage in educational settings is welcome, and encouraged to attend.
 
+== Important: Lodging ==
+
+There is limited availability of hotel rooms in the area close to campus.  You will want to make your own arrangements immediately for a room, since we have been unable to reserve a block at any one hotel.  Suggestions are available at the [[days41/travel#hotels|travel]] page.
+
 <<Anchor(mailinglist)>>
 == Mailing Lists ==
 
