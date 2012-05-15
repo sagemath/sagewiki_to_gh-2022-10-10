@@ -7,14 +7,14 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 '''IMPORTANT''': If your plans change and you need to adjust your lodging, be sure to contact Rob Beezer beezer@ups.edu .  '''DO NOT''' assume that a change here only will be acted on - make a request.
 
 
-||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Notes||
+||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Hotel||
 || Bruce Cohen             || Sun             || Sea-Tac            || Fri              || Sea-Tac            || ||
-|| Rob Beezer              || Sun             || Auto               || Fri              || Auto               || ||
+|| Rob Beezer              || Sun             || Auto               || Fri              || Auto               || Silver Cloud (w/ Tom Judson)||
 || Jason Grout             || Mon, 10:03 AM   || Sea-Tac            || Sat,        AM   || Sea-Tac            || ||
 || Jane Long               || Tue, 12:35 PM   || Sea-Tac, United    || Sat,  11:35 AM   || Sea-Tac, United    || ||
-|| Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || ||
+|| Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || ||
-|| Sang-Gu Lee, 2 students ||                 || Sea-Tac            ||                  || Sea-Tac            || ||
+|| Sang-Gu Lee, 2 students ||                 || Sea-Tac            ||                  || Sea-Tac            || Collegiana||
 || Susan Lynds             || Tue             || Sea-Tac            || Sat              || Sea-Tac            || ||
 || Barry Balof             || Wed,  7:50 AM   || Sea-Tac, Horizon   || Fri,   7:55 PM   || Sea-Tac, Horizon   || ||
 
