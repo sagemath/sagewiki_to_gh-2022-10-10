@@ -20,11 +20,11 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * July 9-13 2012: [[http://www.ima.umn.edu/2011-2012/SW7.9-13.12/|Sage(-Combinat) Days 40]]: Algebraic Combinatorics, IMA, Minneapolis, USA
 
+== Past news ==
+
  * May 7-11 2012: [[http://wiki.sagemath.org/days38|Sage(-Combinat) Days 38]]: algebraic combinatorics and the representation theory of algebras, Centre de recherches mathématiques, Montréal, Canada
 
  * April 18-th 2012: Coxeter/Cluster algebra afternoon at the [[http://wiki.sagemath.org/GroupeUtilisateursParis|Paris Sage User Group meeting]]
-
-== Past news ==
 
  * February 8-10 2012: [[combinat/ClusterPackageDaysHannover|Sage and cluster algebra workshop, University of Hannover]]
 
