@@ -13,7 +13,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Jason Grout             || Mon, 10:03 AM   || Sea-Tac            || Sat,        AM   || Sea-Tac            || ||
 || Jane Long               || Tue, 12:35 PM   || Sea-Tac, United    || Sat,  11:35 AM   || Sea-Tac, United    || ||
 || Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
-|| Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || ||
+|| Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || Silver Cloud||
 || Sang-Gu Lee, 2 students ||                 || Sea-Tac            ||                  || Sea-Tac            || Collegiana||
 || Susan Lynds             || Tue             || Amtrak             || Sat              || Sea-Tac            || Hotel Deca ||
 || Barry Balof             || Wed,  7:50 AM   || Sea-Tac, Horizon   || Fri,   7:55 PM   || Sea-Tac, Horizon   || ||
