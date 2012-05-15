@@ -54,7 +54,7 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 This information is from a telephone survey on May 15.  Rates and availability will probably change.  Feel free to edit with updated information, but please include a date with your comment.
 
  * [[http://www.silvercloud.com/university/|Silver Cloud]]
-   * 2012/05/15 Nice local chain, King or Two Queens, $160-$170, northeast of campus, about a 1 mile walk.
+   * 2012/05/15 Nice local chain, King or two Queens, northeast of campus, about a 1 mile walk.
  * [[http://www.travelodgeseattleuniversity.com/|Travelodge]]
    * 2012/05/15 Budget, $119, northeast of campus, about a 1 mile walk, sold-out for Friday, May 15.
  * [[http://www.collegeinnseattle.com/|College Inn Seattle]]
