@@ -14,7 +14,7 @@ If you're interested in attending, there may be funding for you.   Email wstein@
 
 '''There are only limited rooms available in the campus vicinity, so please make arrangements immediately.'''
 
-We have limited rooms available at the Collegiana Inn.  This operation is somewhere between a dormitory and a hotel, perhaps "boarding house" describes it.  Rooms are designed to be shared and have their own bathrooms.  If we fill these rooms, or if you prefer less-rustic accomodations, suggestions for lodging are available on the [[days41/travel#hotels|travel]] page.  You should make these arrangements yourself.  If you have been approved for funding, then you will be reimbursed.  
+We have limited rooms available at the Collegiana Inn.  This operation is somewhere between a dormitory and a hotel, perhaps "boarding house" describes it.  Rooms are designed to be shared and have their own bathrooms.  You can read a bit more about the Collegiana on the [[uw-local-info|local information]] page.  If we fill these rooms, or if you prefer less-rustic accomodations, suggestions for lodging are available on the [[days41/travel#hotels|travel]] page.  You should make these arrangements yourself.  If you have been approved for funding, then you will be reimbursed.  
 
 
 
