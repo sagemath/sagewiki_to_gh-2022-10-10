@@ -1,5 +1,7 @@
 = Travel Plans for Sage Days 41, Sage Education Days 4 =
 
+<<TableOfContents>>
+
 Please order by arrival time. This will help ensure lodging arrangements are correct and help people arrange ride-sharing to/from the airport.
 
 '''IMPORTANT''': If your plans change and you need to adjust your lodging, be sure to contact Rob Beezer beezer@ups.edu .  '''DO NOT''' assume that a change here only will be acted on - make a request.
@@ -17,7 +19,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Barry Balof             || Wed,  7:50 AM   || Sea-Tac, Horizon   || Fri,   7:55 PM   || Sea-Tac, Horizon   || ||
 
 
-== Sage Days 41 Lodging ==
+= Sage Days 41 Lodging =
 
 Dates are the '''nights''' notebook developers require lodging.  Please do not edit this section.
 
@@ -46,8 +48,8 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 || XX                 || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 || XX                 || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
 
-
-== Sage Edu Days 4 Hotel Suggestions ==
+<<Anchor(hotels)>>
+= Hotel Suggestions =
 
 This information is from a telephone survey on May 15.  Rates and availability will probably change.  Feel free to edit with updated information, but please include a date with your comment.
 
