@@ -11,7 +11,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 Sage 5.0 includes 41 patches from the Sage-Combinat ! As a consequence, It has been quite tedious to keep the
 Sage-Combinat queue working on both 4.8 and 5.0. Therefore:
 {{{#!wiki caution
-'''We will officially drop the support for the Sage-Combinat queue on Sage < 5.0 this Friday May 18th. This includes Sage 4.8, and all beta/rc versions of Sage 5.0.''' 
+'''We will officially drop the support for the Sage-Combinat queue on Sage < 5.0 Friday 2012, May 18th. This includes Sage 4.8, and all beta/rc versions of Sage 5.0.''' 
 }}}
 
 More details on [[https://groups.google.com/group/sage-combinat-devel/browse_thread/thread/3b76e4d9983024e3?hl=fr&noredirect=true|This thread]].
