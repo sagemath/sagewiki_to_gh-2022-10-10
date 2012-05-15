@@ -34,6 +34,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound)
  1. Kyle Brooks (University of Puget Sound)
  1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School, San Francisco)
+ 1. [[http://www.uwosh.edu/facstaff/gutow|Jonathan Gutow]] (Remotely) (University of Wisconsin, Oshkosh)
  1. [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  1. Kevin Halasz (University of Puget Sound)
  1. [[http://www1.spms.ntu.edu.sg/~krkini/|Keshav Kini]] (Nanyang Technological University, Singapore)
