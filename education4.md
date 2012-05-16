@@ -20,6 +20,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
  1. [[https://sites.google.com/a/lsmsa.edu/bburkman/|Brad Burkman]] (Louisiana School for Math, Science, and the Arts)
  1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School, San Francisco)
+ 1. [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
  1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
  1. Kyung-Won Kim  (Sungkyunkwan University, Korea)
