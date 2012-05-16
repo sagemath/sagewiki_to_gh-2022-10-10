@@ -58,7 +58,9 @@ This information is from a telephone survey on May 15.  Rates and availability w
  * [[http://www.silvercloud.com/university/|Silver Cloud]]
    * 2012/05/15 Nice local chain, King or two Queens, approx. $165, northeast of campus, about a 1 mile walk.
  * [[http://www.travelodgeseattleuniversity.com/|Travelodge]]
-   * 2012/05/15 Budget, $119, northeast of campus, about a 1 mile walk, sold-out for Friday, May 15.
+   * 2012/05/15 Budget, $119, northeast of campus, about a 1 mile walk.  
+   * 2012/05/15 Sold-out for Friday, May 15, but you could get a room at the (more expensive) Silver Cloud for one night, it is only about a block away.
+   * 2012/05/16 $109.
  * [[http://www.collegeinnseattle.com/|College Inn Seattle]]
    * 2012/05/15 Economy, $90, close to campus, showers down the hall.  Only one room available for Tuesday, May 12.
  * [[http://www.universityinnseattle.com/|University Inn]]
@@ -71,4 +73,4 @@ This information is from a telephone survey on May 15.  Rates and availability w
  * [[http://www.universitymotelsuites.com/|University Motel Suites]]
    * 2012/05/15 Sold-out.
 
-Another option is to stay in the "Belltown" neighborhood, just north of downtown and about 4 miles from campus.  Search for hotels near the intersection of "3rd Avenue and Bell Street" and consider the #71, #72, #73 buses from 5th & Pine out to campus.
+Another option is to stay in the "Belltown" neighborhood, just north of downtown and about 4 miles from campus.  Search for hotels near the intersection of "3rd Avenue and Bell Street" and consider the #71, #72, #73 buses departing from 5th & Pine to go out to campus.
