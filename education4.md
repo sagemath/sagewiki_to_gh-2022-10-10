@@ -51,12 +51,15 @@ There is limited availability of hotel rooms in the area close to campus.  You w
 
 <<Anchor(schedule)>>
 == Schedule ==
-
+'''Schedule is not final, it will evolve.'''
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
-||<rowstyle="background-color: #E0E0FF;"> Wednesday || June 13 || || ||
-||  9:00 AM || Introductions             || || Video ||
-||<rowstyle="background-color: #E0E0FF;"> Thursday  || June 14 || || ||
+||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 13     || || ||
+||  9:00 AM || Introductions                         ||                       || Video ||
+||          || Test-Site, Reed College               || Rao Potluri           || ||
+|| || || ||  ||
+||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
+||          || Test-Site, Stephen F Austin State U   || Jane Long, Tom Judson || ||
 ||  ||  || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday    || June 15 || || ||
 ||  ||  || ||  ||
