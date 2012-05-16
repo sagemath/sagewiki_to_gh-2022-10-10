@@ -61,6 +61,7 @@ This information is from a telephone survey on May 15.  Rates and availability w
    * 2012/05/15 Budget, $119, northeast of campus, about a 1 mile walk.  
    * 2012/05/15 Sold-out for Friday, May 15, but you could get a room at the (more expensive) Silver Cloud for one night, it is only about a block away.
    * 2012/05/16 $109.
+   * 2012/05/16 Expedia for about $80/night.
  * [[http://www.collegeinnseattle.com/|College Inn Seattle]]
    * 2012/05/15 Economy, $90, close to campus, showers down the hall.  Only one room available for Tuesday, May 12.
  * [[http://www.universityinnseattle.com/|University Inn]]
