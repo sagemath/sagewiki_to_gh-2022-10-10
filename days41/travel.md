@@ -16,6 +16,8 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || Silver Cloud||
 || Sang-Gu Lee, 2 students ||                 || Sea-Tac            ||                  || Sea-Tac            || Collegiana||
 || Susan Lynds             || Tue             || Amtrak             || Sat              || Sea-Tac            || Hotel Deca ||
+|| Rao Potluri             || Tue             || Amtrak             || Sat              || Amtrak             || Travelodge (Silver Cloud, Fri) ||
+|| David Perkinson         || Tue             || Amtrak             || Sat              || Amtrak             || Silver Cloud ||
 || Barry Balof             || Wed,  7:50 AM   || Sea-Tac, Horizon   || Fri,   7:55 PM   || Sea-Tac, Horizon   || ||
 
 
