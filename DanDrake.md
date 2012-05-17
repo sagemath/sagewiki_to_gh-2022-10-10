@@ -14,7 +14,7 @@ I wrote some notes on setting up a (hopefully) secure Sage virtual machine using
 
 I was one of the organizers of [[http://wiki.sagemath.org/days37|Sage Days 37]] in Seoul.
 
-My homepage is http://mathsci.kaist.ac.kr/~drake.
+My homepage is http://mathsci.kaist.ac.kr/~drake and my email address is ddrake at member ams org. (I trust you can put in the dots and @ properly.)
 
 ----
 CategoryHomepage
