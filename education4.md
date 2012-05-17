@@ -24,7 +24,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://facweb.northseattle.edu/ejasso/|Edgar Jasso]] (North Seattle Community College)
  1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
  1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
- 1. Kyung-Won Kim  (Sungkyunkwan University, Korea)
+ 1. Kyung-Won Kim  kwkim@skku.edu (Sungkyunkwan University, Korea)
  1. [[http://matrix.skku.ac.kr/sglee/|Sang-Gu Lee]] (Sungkyunkwan University, Korea)
  1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
  1. Susan Lynds (University of Colorado)
@@ -32,7 +32,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College)
  1. [[http://www.reed.edu/~potluri|Rao Potluri]] (Reed College)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
- 1. Hee-Dong Yoon (Sungkyunkwan University, Korea)
+ 1. Hee-Dong Yoon jini1237@naver.com (Sungkyunkwan University, Korea)
 
 == Funding ==
 
@@ -56,12 +56,16 @@ There is limited availability of hotel rooms in the area close to campus.  You w
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 13     || || ||
 ||  9:00 AM || Introductions                         ||                       || Video ||
-||          || Test-Site, Reed College               || Rao Potluri           || ||
+||          || Test-Site, Reed College (30 minutes)  || Rao Potluri           || ||
+||          || SALG Survey Roundtable  (15 minutes)  || Susan Lynds           || ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
-||          || Test-Site, Stephen F Austin State U   || Jane Long, Tom Judson || ||
+||          || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || ||
+||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || ||
+||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
+||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || ||
 ||  ||  || ||  ||
-||<rowstyle="background-color: #E0E0FF;"> Friday    || June 15 || || ||
+||<rowstyle="background-color: #E0E0FF;"> Friday || June 15 || || ||
 ||  ||  || ||  ||
 
 == Blog Roll ==
