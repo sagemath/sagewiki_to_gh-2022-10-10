@@ -11,7 +11,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Bruce Cohen             || Sun             || Sea-Tac            || Fri              || Sea-Tac            || ||
 || Rob Beezer              || Sun             || Auto               || Fri              || Auto               || Silver Cloud (w/ Tom Judson)||
 || Jason Grout             || Mon, 10:03 AM   || Sea-Tac            || Sat,        AM   || Sea-Tac            || ||
-|| Jane Long               || Tue, 12:35 PM   || Sea-Tac, United    || Sat,  11:35 AM   || Sea-Tac, United    || ||
+|| Jane Long               || Tue, 12:35 PM   || Sea-Tac, United    || Sat,  11:35 AM   || Sea-Tac, United    || Travelodge ||
 || Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
 || Kiran Kedlaya           || Tue,  4:15 PM   || Sea-Tac, Alaska    || Fri,   7:20 PM   || Sea-Tac, Southwest || University Inn ||
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || Silver Cloud||
