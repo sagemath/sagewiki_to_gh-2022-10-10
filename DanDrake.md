@@ -2,7 +2,7 @@
 #format wiki
 == Dan Drake ==
 
-I work at the [[http://kaist.ac.kr|Korea Advanced Institute of Science and Technology]] (KAIST), although starting fall 2012 I have a one-year position at the [[http://pugetsound.edu|University of Puget Sound]. I study combinatorics. I maintain the KAIST Sage server at [[http://sagenb.kaist.ac.kr|sagenb.kaist.ac.kr]].
+I work at the [[http://kaist.ac.kr|Korea Advanced Institute of Science and Technology]] (KAIST), although starting fall 2012 I have a one-year position at the [[http://pugetsound.edu|University of Puget Sound]]. I study combinatorics. I maintain the KAIST Sage server at [[http://sagenb.kaist.ac.kr|sagenb.kaist.ac.kr]].
 
 I'm the main author of [[http://tug.ctan.org/pkg/sagetex|SageTeX]], a LaTeX package that allows you to integrate Sage code into your documents. 
 
