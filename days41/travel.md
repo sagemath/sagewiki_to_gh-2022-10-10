@@ -11,13 +11,13 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Bruce Cohen             || Sun             || Sea-Tac            || Fri              || Sea-Tac            || ||
 || Rob Beezer              || Sun             || Auto               || Fri              || Auto               || Silver Cloud (w/ Tom Judson)||
 || Jason Grout             || Mon, 10:03 AM   || Sea-Tac            || Sat,        AM   || Sea-Tac            || ||
+|| Sang-Gu Lee             || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
+|| Kyung-Won Kim           || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
+|| Hee-Dong Yoon           || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
 || Jane Long               || Tue, 12:35 PM   || Sea-Tac, United    || Sat,  11:35 AM   || Sea-Tac, United    || Travelodge ||
 || Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
 || Kiran Kedlaya           || Tue,  4:15 PM   || Sea-Tac, Alaska    || Fri,   7:20 PM   || Sea-Tac, Southwest || University Inn ||
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || Silver Cloud||
-|| Sang-Gu Lee             ||                 || Sea-Tac            ||                  || Sea-Tac            || Collegiana||
-|| Kyung-Won Kim           ||                 || Sea-Tac            ||                  || Sea-Tac            || Collegiana||
-|| Hee-Dong Yoon           ||                 || Sea-Tac            ||                  || Sea-Tac            || Collegiana||
 || Susan Lynds             || Tue             || Amtrak             || Sat              || Sea-Tac            || Hotel Deca ||
 || Rao Potluri             || Tue             || Amtrak             || Sat              || Amtrak             || Travelodge (Silver Cloud, Fri) ||
 || David Perkinson         || Tue             || Amtrak             || Sat              || Amtrak             || Silver Cloud ||
@@ -36,22 +36,21 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 |||||||||||||||||||| Collegiana  ||
 ||<rowstyle="background-color: #E0E0FF;">Name|| Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Notes ||
 ||<rowstyle="background-color: #FFFDD0;">Room (2 people) || || || || || || || || || ||
-|| Bruce Cohen        ||        || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 ||        ||        || ||
-|| XX                 || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
+|| Bruce Cohen        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 ||        ||        || ||
+|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
-|| Sang-Gu Lee        ||        ||        ||        || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Kyung-Won Kim      ||        ||        ||        || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Hee-Dong Yoon      ||        ||        ||        || Tue 14 || Wed 15 || Thu 16 || Fri 17 ||        || ||
-|| Rob Beezer         ||        || Sun 12 || Mon 13 ||        ||        ||        ||        ||        || ||
-|| Jason Grout        ||        ||        || Mon 13 ||        ||        ||        ||        ||        || ||
+|| Sang-Gu Lee        ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Kyung-Won Kim      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Hee-Dong Yoon      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Rob Beezer         ||        || Sun 10 ||        ||        ||        ||        ||        ||        || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
-|| Keshav Kini        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| Kyle Brooks        || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| XX                 || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
+|| Keshav Kini        || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
+|| Kyle Brooks        || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
+|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
-|| XX                 || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| XX                 || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
-|| XX                 || Sat 11 || Sun 12 || Mon 13 || Tue 14 || Wed 15 || Thu 16 || Fri 17 || Sat 18 || ||
+|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
+|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
+|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
 
 <<Anchor(hotels)>>
 = Hotel Suggestions =
