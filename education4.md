@@ -33,6 +33,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College)
  1. [[http://www.reed.edu/~potluri|Rao Potluri]] (Reed College)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
+ 1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
  1. Hee-Dong Yoon jini1237@naver.com (Sungkyunkwan University, Korea)
 
 == Funding ==
