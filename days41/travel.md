@@ -18,6 +18,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
 || Kiran Kedlaya           || Tue,  4:15 PM   || Sea-Tac, Alaska    || Fri,   7:20 PM   || Sea-Tac, Southwest || University Inn ||
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || Silver Cloud||
+|| TJ Hitchman             || Tue, 10:59 PM   || Sea-Tac, Frontier  || Sat,  10:50 AM   || Sea-Tac, Frontier  || ||
 || Susan Lynds             || Tue             || Amtrak             || Sat              || Sea-Tac            || Hotel Deca ||
 || Rao Potluri             || Tue             || Amtrak             || Sat              || Amtrak             || Travelodge (Silver Cloud, Fri) ||
 || David Perkinson         || Tue             || Amtrak             || Sat              || Amtrak             || Silver Cloud ||
