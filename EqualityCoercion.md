@@ -42,6 +42,26 @@ And also::
     True
 
 
+pi is an integer (and transitivity of equality)
+-----------------------------------------------
+
+{{{
+sage: R1 = RealField(2)
+sage: R2 = RealField(56)
+sage: pi1 = R1(pi); pi1
+3.0
+sage: pi2 = R2(pi); pi2
+3.141592653589793
+sage: pi1 == pi2
+True
+sage: bool(pi == pi2)
+True
+sage: pi1 == 3
+True
+}}}
+
+And we get a nice proof that pi = 3.
+
 More strange consequences when using UniqueRepresentation
 ---------------------------------------------------------
 
