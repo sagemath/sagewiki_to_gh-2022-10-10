@@ -36,6 +36,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
  1. Hee-Dong Yoon jini1237@naver.com (Sungkyunkwan University, Korea)
+ 1. [[http://csudh.edu/math/wpong|Wai Yan Pong]] (California State University Dominguez Hills)
 
 == Funding ==
 
