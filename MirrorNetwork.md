@@ -20,8 +20,8 @@ where {{{$TARGET}}} should be replaced by your local target directory.
  1. {{{--delete-after}}} tells rsync to delete files that are not on the master ''after'' the synchronization has finished. There are also other versions of {{{--delete*}}} that can be used to delete older files earlier or during the process, but it's best if files stay on the mirror during sync. '''Do not forget one of the {{{--delete*}}} switches!'''
 
 '''Other Sources''': Since the master is sometimes slow, you can also try to rsync from one of the mirrors: 
-  * rsync://ftp.sh.cvut.cz/sagemath
-  * rsync://rsync.mirrorservice.org/sites/www.sagemath.org/
+  * --(rsync://ftp.sh.cvut.cz/sagemath)--
+  * --(rsync://rsync.mirrorservice.org/sites/www.sagemath.org/)--
 
 === rsync master ===
 It's dead simple to setup an rsync master server. In Ubuntu/Debian, you have to install rsync and then edit the rsync config file {{{/etc/rsyncd.conf}}}. The inet deamon calls the rsync process if someone wants to connect. 
