@@ -42,6 +42,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.math.washington.edu/~palmieri/|John Palmieri]] (University of Washington) 6/12-6/15
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
+ 1. Byron Varberg (Drake University)
 
 == Logistics ==
 
