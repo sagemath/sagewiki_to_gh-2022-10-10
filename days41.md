@@ -31,6 +31,7 @@ Mailing list for the workshop is [[https://groups.google.com/forum/#!forum/saged
 
 To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
 
+ 1. [[http://www.math.missouri.edu/personnel/other/aubreyj.html|Jason Aubrey]] (University of Missouri)
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound)
  1. Kyle Brooks (University of Puget Sound)
  1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School, San Francisco)
