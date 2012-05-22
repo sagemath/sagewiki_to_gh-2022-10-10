@@ -45,7 +45,7 @@ Tuesday
  **Morning Session**:
 
  * 08h30 : Coffee & Croissants
- * 09h00 : Øyvind Solberg, *Quivers and Path Algebras - QPA*
+ * 09h00 : `Øyvind Solberg`__, *Quivers and Path Algebras - QPA* (`slides`__ and `demo`__)
 
             *Abstract*. We will give an introduction representation theory of
             quivers, defining quivers (directed graphs), representations of
@@ -61,6 +61,10 @@ Tuesday
 
             We will end with a short demonstration of the QPA program,
             hopefully run via an interface developed by students at HiST/NTNU.
+
+   __ http://www.math.ntnu.no/~oyvinso/
+   __ http://wiki.sagemath.org/days38_schedule?action=AttachFile&do=view&target=solberg-slides.pdf
+   __ http://wiki.sagemath.org/days38_schedule?action=AttachFile&do=view&target=solberg-gap-demo.g
 
  * 10h00 : Coffee Break
  * 10h30 : Nicolas M. Thiéry, *A Sage-Combinat roadmap*
