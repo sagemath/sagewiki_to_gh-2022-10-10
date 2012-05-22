@@ -10,6 +10,8 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Hotel||
 || Bruce Cohen             || Sun             || Sea-Tac            || Fri              || Sea-Tac            || ||
 || Rob Beezer              || Sun             || Auto               || Fri              || Auto               || Silver Cloud (w/ Tom Judson)||
+|| Byron Varberg           || Sun,  6:40 PM   || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
+|| Steven Johnson          || Sun,  6:40 PM   || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
 || Jason Grout             || Mon, 10:03 AM   || Sea-Tac            || Sat,        AM   || Sea-Tac            || ||
 || Sang-Gu Lee             || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
 || Kyung-Won Kim           || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
@@ -49,8 +51,8 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 || Kyle Brooks        || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
 || XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
-|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
-|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
+|| Steven Johnson     ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Byron Varberg      ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
 
 <<Anchor(hotels)>>
