@@ -1,5 +1,7 @@
 = Cool pictures produced with Sage-Combinat =
 
+ * [[attachment:alternating-sign-matrix-poset.pdf|Alternating sign matrix poset]]
+
  * [[attachment:quantum-Bruhat-graphA2.png|Quantum Bruhat graph for A2]]
    Obtained with:
 {{{
