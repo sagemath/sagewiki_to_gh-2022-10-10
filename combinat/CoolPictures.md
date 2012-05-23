@@ -7,7 +7,7 @@
     sage: G = W.quantum_bruhat_graph()
     sage: G.show()
 }}}
-   [[attachment:parabolic-quantum-Bruhat-graphA3[1].png|Parabolic quantum Bruhat graph for A3 with J=[1]]]
+   [[attachment:parabolic-quantum-Bruhat-graphA3[1].png|Parabolic quantum Bruhat graph for A3 with J=[1] ]]
    Obtained with:
 {{{
     sage: W = WeylGroup(['A',3],prefix='s')
