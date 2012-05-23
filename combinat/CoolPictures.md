@@ -1,5 +1,20 @@
 = Cool pictures produced with Sage-Combinat =
 
+ * [[attachment:quantum-Bruhat-graphA2.png|Quantum Bruhat graph for A2]]
+   Obtained with:
+{{{
+    sage: W = WeylGroup(['A',2],prefix='s')
+    sage: G = W.quantum_bruhat_graph()
+    sage: G.show()
+}}}
+   [[attachment:parabolic-quantum-Bruhat-graphA3[1].png|Parabolic quantum Bruhat graph for A3 with J=[1]]]
+   Obtained with:
+{{{
+    sage: W = WeylGroup(['A',3],prefix='s')
+    sage: G = W.quantum_bruhat_graph([1])
+    sage: G.show()
+}}}
+
  * [[attachment:SageCategoryGraph.pdf|Graph of categories in Sage]]
    /* {{attachment:SageCategoryGraph.pdf|Graph of categories in Sage|width=200}} */
    Obtained with:
