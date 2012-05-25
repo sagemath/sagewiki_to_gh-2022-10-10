@@ -44,9 +44,11 @@ The following people are likely to participate remotely:
 
 ==== Reports for the last three bug days ====
 
- * Sage Days 36 (David Roe)
- * Sage Days 35.5 (Karl-Dieter Crisman)
+Here is an example report: http://wstein.org/tmp/sd29-final_report/
+
  * Sage Days 32 (Keshav Kini and William Stein)
+ * Sage Days 35.5 (Karl-Dieter Crisman)
+ * Sage Days 36 (David Roe)
 
 ==== Everything involving actual tickets and projects here ====
 
