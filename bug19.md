@@ -1,5 +1,9 @@
 = Sage Days 40.5: Bug Days =
 
+==== Everything involving actual tickets and projects here ====
+
+ * http://trac.sagemath.org/sage_trac/wiki/sd40.5
+
 == May 24-29 2012, Wallace Falls Lodge near Seattle ==
 
 The aim of this workshop is to find and fix bugs in the Sage library.  It will be held at [[http://www.wallacefallslodge.com/|the Wallace Falls Lodge]] an hour northeast of Seattle in the foothills of the Cascades.  Previously known as Bug Days 19.
