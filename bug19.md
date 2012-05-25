@@ -47,6 +47,7 @@ The following people are likely to participate remotely:
 ==== Symbolics and special functions ====
 
  * [[http://trac.sagemath.org/sage_trac/ticket/12438|12438]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/13001|13001]]
 
 ==== High priority bugs ====
 
@@ -60,5 +61,7 @@ The following people are likely to participate remotely:
 
  * [[http://trac.sagemath.org/sage_trac/ticket/12605|12605]]
  * [[http://trac.sagemath.org/sage_trac/ticket/2607|2607]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/11143|11143]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/11888|11888]]
 
 ==== Cflags and CPU architectures ====
