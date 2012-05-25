@@ -46,6 +46,8 @@ The following people are likely to participate remotely:
 
 ==== Symbolics and special functions ====
 
+ * [[http://trac.sagemath.org/sage_trac/ticket/12438|12438]]
+
 ==== High priority bugs ====
 
 ==== Sage building with GCC 4.7 ====
