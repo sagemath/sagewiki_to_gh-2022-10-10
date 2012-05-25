@@ -54,18 +54,23 @@ The following people are likely to participate remotely:
 
 ==== Sage building with GCC 4.7 ====
 
+ * Meta-ticket [[http://trac.sagemath.org/sage_trac/ticket/12751|#12751]]
+
 ==== Moving Sage to Git ====
 
 ==== Doctest and regression framework ====
 
 ==== Tickets to Review ====
 
- * [[http://trac.sagemath.org/sage_trac/ticket/12605|12605]]
- * [[http://trac.sagemath.org/sage_trac/ticket/2607|2607]] just a documentation fix
- * [[http://trac.sagemath.org/sage_trac/ticket/11143|11143]]
- * [[http://trac.sagemath.org/sage_trac/ticket/11888|11888]]
- * [[http://trac.sagemath.org/sage_trac/ticket/10164|10164]]
- * [[http://trac.sagemath.org/sage_trac/ticket/12966|12966]]  Matrices: indefinite factorization
- * [[http://trac.sagemath.org/sage_trac/ticket/10678|10678]] epically trivial documentation fix
+ * [[http://trac.sagemath.org/sage_trac/ticket/12605|#12605]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/2607|#2607]] just a documentation fix
+ * [[http://trac.sagemath.org/sage_trac/ticket/11143|#11143]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/11888|#11888]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/10164|#10164]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/12966|#12966]]  Matrices: indefinite factorization
+ * [[http://trac.sagemath.org/sage_trac/ticket/10678|#10678]] epically trivial documentation fix
 
-==== Cflags and CPU architectures ====
+==== CFLAGS and CPU architectures ====
+
+Fork MPIR's CPU-detecting code to determine correct CFLAGS for building MPIR (and other parts of Sage).
+Add code to actually run the instructions which are supposed to be supported by the CPU to solve the VirtualBox problem.
