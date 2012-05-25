@@ -35,3 +35,27 @@ The following people are likely to participate remotely:
  * John Perry (University of Southern Mississippi)
  * Paul Zimmermann (Inria Nancy - Grand Est)
  * Julian Ruth (Leibniz University)
+
+=== Goals ===
+
+==== Reports for the last three bug days ====
+
+ * Sage Days 36 (David Roe)
+ * Sage Days 35.5 (Karl-Dieter Crisman)
+ * Sage Days 32 (Keshav Kini and William Stein)
+
+==== Symbolics and special functions ====
+
+==== High priority bugs ====
+
+==== Sage building with GCC 4.7 ====
+
+==== Moving Sage to Git ====
+
+==== Doctest and regression framework ====
+
+==== Tickets to Review ====
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/12605|12605]]
+
+==== Cflags and CPU architectures ====
