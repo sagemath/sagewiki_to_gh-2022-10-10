@@ -22,7 +22,7 @@ The following people are likely to participate
  * Volker Braun (Dublin Institute for Advanced Study)
  * Karl-Dieter Crisman (Gordon College) ''arriving SEATAC at 10:51a May 24 on Jet Blue''
  * Jeroen Demeyer (Ghent University, Belgium) ''arriving SEATAC at 12:55 May 24 from Paris''
- * Dan Drake (Korea Advanced Institute of Science and Technology), arriving Wed, will carpool with Rob Beezer.
+ * DanDrake (Korea Advanced Institute of Science and Technology), arriving Wed, will carpool with Rob Beezer.
  * Benjamin Jones (University of Wisconsin-Stout) ''arriving SEATAC at 1:21p May 24 on DL 1753''
  * Keshav Kini (Nanyang Technological University)
  * Doug !McNeil (!RiskAnalytica) ''arriving SEATAC at 1:21p May 24 on DL 1753''
@@ -57,5 +57,6 @@ The following people are likely to participate remotely:
 ==== Tickets to Review ====
 
  * [[http://trac.sagemath.org/sage_trac/ticket/12605|12605]]
+ * [[http://trac.sagemath.org/sage_trac/ticket/2607|2607]]
 
 ==== Cflags and CPU architectures ====
