@@ -38,6 +38,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.uwosh.edu/facstaff/gutow|Jonathan Gutow]] (Remotely) (University of Wisconsin, Oshkosh)
  1. [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  1. Kevin Halasz (University of Puget Sound)
+ 1. Malcolm Harper (Champlain College Saint Lambert)
  1. Steven Johnson (Drake University)
  1. [[http://www1.spms.ntu.edu.sg/~krkini/|Keshav Kini]] (Nanyang Technological University, Singapore)
  1. [[http://www.math.washington.edu/~palmieri/|John Palmieri]] (University of Washington) 6/12-6/15
