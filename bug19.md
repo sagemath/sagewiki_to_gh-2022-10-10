@@ -48,13 +48,7 @@ The following people are likely to participate remotely:
 
  * [[http://trac.sagemath.org/sage_trac/ticket/12438|12438]]
  * [[http://trac.sagemath.org/sage_trac/ticket/13001|13001]]
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
  * [[http://trac.sagemath.org/sage_trac/ticket/13003|13003]]
-
----- /!\ '''End of edit conflict''' ----
 
 ==== High priority bugs ====
 
@@ -70,21 +64,7 @@ The following people are likely to participate remotely:
  * [[http://trac.sagemath.org/sage_trac/ticket/2607|2607]]
  * [[http://trac.sagemath.org/sage_trac/ticket/11143|11143]]
  * [[http://trac.sagemath.org/sage_trac/ticket/11888|11888]]
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
  * [[http://trac.sagemath.org/sage_trac/ticket/10164|10164]]
-
-==== Cflags and CPU architectures ====
-
----- /!\ '''Edit conflict - your version:''' ----
  * [[http://trac.sagemath.org/sage_trac/ticket/12966|12966]]  Matrices: indefinite factorization
 
 ==== Cflags and CPU architectures ====
-
----- /!\ '''End of edit conflict''' ----
