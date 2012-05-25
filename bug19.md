@@ -46,7 +46,7 @@ The following people are likely to participate remotely:
 
 Here is an example report: http://wstein.org/tmp/sd29-final_report/
 
- * Sage Days 32 (Keshav Kini and William Stein)
+ * (done) Sage Days 32 (Keshav Kini and William Stein) -- I will just use http://trac.sagemath.org/sage_trac/report/42?asc=1&sort=status
  * Sage Days 35.5 (Karl-Dieter Crisman)
  * Sage Days 36 (David Roe)
 
