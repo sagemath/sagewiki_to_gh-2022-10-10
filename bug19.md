@@ -53,3 +53,11 @@ Here is an example report: http://wstein.org/tmp/sd29-final_report/
 ==== Everything involving actual tickets and projects here ====
 
  * http://trac.sagemath.org/sage_trac/wiki/sd40.5
+
+=== Pictures ===
+
+{{attachment:sd40-half-wallace-falls-group.png}}
+
+Dan Drake, Doug !McNeil, Keshav Kini, Andrew Ohana
+
+{{attachment:sd40-half-wallace-falls-overhead.png}}
