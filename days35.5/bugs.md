@@ -22,6 +22,8 @@ This is as accurate as we've made it.  The list of appropriately tagged [[http:/
 
 == Bugs actually worked on and/or solved ==
 
+=== Sage library bugs ===
+
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10923|#10923]] Bad sign in integral()
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/1173|#1173]] implement numerical evaluation of erf at complex arguments
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12289|#12289]] pass algorithm argument to custom numeric evalution methods
@@ -60,6 +62,11 @@ This is as accurate as we've made it.  The list of appropriately tagged [[http:/
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11739|#11739]] add_vertex w/o params should return the new vertex
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12292|#12292]] charpoly is recomputed when called with a different variable
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12293|#12293]] Graph(n) is not documented
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12298|#12298]] minor CallableSymbolicExpressionRing display bug
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12220|#12220]] Updated CBC package
+
+=== Sage notebook and cell server bugs ===
+
  * (merged) [[https://github.com/sagemath/sagenb/issues/6|Sagenb - 6]] Mirror changes to the old sagenb in the flask notebook since the last fork
  * (merged) [[https://github.com/sagemath/sagenb/issues/13|Sagenb - 13]] Ensure JMol is loaded in the new flask notebook
  * (merged) [[https://github.com/sagemath/sagenb/pull/15|Sagenb - 15]] Remove GnuTLS and changed protocol so secure HTTPS connections can be started
@@ -67,5 +74,3 @@ This is as accurate as we've made it.  The list of appropriately tagged [[http:/
  * (needs review) [[https://github.com/jasongrout/simple-python-db-compute/pull/222|Single Cell Server - 222]] Fix updating of multiple interacts
  * (needs review) [[https://github.com/jasongrout/simple-python-db-compute/pull/220|Single Cell Server - 220]] Expand embedding API
  * (needs review) [[https://github.com/jasongrout/simple-python-db-compute/pull/219|Single Cell Server - 219]] Sage 4.7.2, IPython 0.10 compatibility
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12298|#12298]] minor CallableSymbolicExpressionRing display bug
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12220|#12220]] Updated CBC package
