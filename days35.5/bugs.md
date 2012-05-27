@@ -24,46 +24,44 @@ This is as accurate as we've made it.  The list of appropriately tagged [[http:/
 
 === Sage library bugs ===
 
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10923|#10923]] Bad sign in integral()
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/1173|#1173]] implement numerical evaluation of erf at complex arguments
- * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12289|#12289]] pass algorithm argument to custom numeric evalution methods
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/2956|#2956]] generic multivariate polynomials are buggy on exponent overflow
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/4498|#4498]] Implement a symbolic version of the arg function
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/6442|#6442]] Random(?) index error with determinant method
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/9129|#9129]] sqrt memory leaks
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
+ * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/9248|#9248]] Doc fix for factorial function (types of accepted input)
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/9362|#9362]] Invalidate None as a vertex label.
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/9411|#9411]] Given points on an elliptic curve, this finds a LLL reduced ZZ-independent set
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/9874|#9874]] add a function for the derivative of ceil and floor
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10075|#10075]] Make log gamma symbolic
- * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10489|#10489]] Slope fields and python lambdas: Rebasing outdated patch, needs review
- * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/10757#comment:5|#10757]] Laplacian matrix: Created patch fixing and documenting div-by-0 error
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11462#comment:5|#11462]] @parallel documentation update: Created patch updating the documentation
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11888|#11888]] Sage is missing the lambert_w function conversion from Maxima
- * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/11513|#11513]] Finish ticket adding _is_numerically_zero() to symbolic expressions
- * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
- * (positive_review) [[http://trac.sagemath.org/sage_trac/ticket/9248|#9248]] Doc fix for factorial function (types of accepted input)
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/12286|#12286]] Doc fix for factorial function (algorithm parameter) 
- * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/12288|#12288]] unset HGPLAIN when appropriate
- * (neeeds work) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
- * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10965|#10965]] fix minor polygon doc stuff
- * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/11970|#11970]] problem with R under Ubuntu 11.10
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12282|#12282]] Fix strcmp() with NULL argument in termcap library
- * (new) [[http://trac.sagemath.org/sage_trac/ticket/9129|#9129]] sqrt memory leaks
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11771|#11771]] sage crashes on some degenerate flint xgcd's
- * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/2956|#2956]] generic multivariate polynomials are buggy on exponent overflow
- * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/6442|#6442]] Random(?) index error with determinant method
- * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/9362|#9362]] Invalidate None as a vertex label.
- * (neews review) [[http://trac.sagemath.org/sage_trac/ticket/10057|#10057]] Change import location for decorator_defaults in sagenb interact.py
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10057|#10057]] Change import location for decorator_defaults in sagenb interact.py
  * (needs info) [[http://trac.sagemath.org/sage_trac/ticket/10193|#10193]] Create the category of GradedEnumeratedSets
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10489|#10489]] Slope fields and python lambdas: Rebasing outdated patch, needs review
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/10750|#10750]] Fix solve so that additional args are properly handled
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/10757#comment:5|#10757]] Laplacian matrix: Created patch fixing and documenting div-by-0 error
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/10895|#10895]] add qitensor spkg (tensors for quantum information)
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10899|#10899]] is_chordal can raise TypeError
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/10923|#10923]] Bad sign in integral()
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/10965|#10965]] fix minor polygon doc stuff
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11462#comment:5|#11462]] @parallel documentation update: Created patch updating the documentation
  * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/11513|#11513]] add is_trivial_zero() method to symbolic expressions
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11652|#11652]] MPolynomial_libsingular reports the wrong degree
  * (needs info) [[http://trac.sagemath.org/sage_trac/ticket/11666|#11666]] Upgrade MPFR to 3.1.0
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/11705|#11705]] Port Sage to SUSE Linux Power 7 (ppc64).
- * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/9411|#9411]] Given points on an elliptic curve, this finds a LLL reduced ZZ-independent set
- * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11652|#11652]] MPolynomial_libsingular reports the wrong degree
  * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/11739|#11739]] add_vertex w/o params should return the new vertex
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11771|#11771]] sage crashes on some degenerate flint xgcd's
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/11888|#11888]] Sage is missing the lambert_w function conversion from Maxima
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/11970|#11970]] problem with R under Ubuntu 11.10
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12075|#12075]] function notation for callable matrices
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12220|#12220]] Updated CBC package
+ * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12282|#12282]] Fix strcmp() with NULL argument in termcap library
+ * (new) [[http://trac.sagemath.org/sage_trac/ticket/12286|#12286]] Doc fix for factorial function (algorithm parameter) 
+ * (positive review) [[http://trac.sagemath.org/sage_trac/ticket/12288|#12288]] unset HGPLAIN when appropriate
+ * (needs work) [[http://trac.sagemath.org/sage_trac/ticket/12289|#12289]] pass algorithm argument to custom numeric evalution methods
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12292|#12292]] charpoly is recomputed when called with a different variable
  * (new) [[http://trac.sagemath.org/sage_trac/ticket/12293|#12293]] Graph(n) is not documented
  * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12298|#12298]] minor CallableSymbolicExpressionRing display bug
- * (needs review) [[http://trac.sagemath.org/sage_trac/ticket/12220|#12220]] Updated CBC package
 
 === Sage notebook and cell server bugs ===
 
