@@ -17,9 +17,18 @@ This will be a 4-day workshop which will include a combination of mathematical t
  * Kristin Lauter (Microsoft Research)
  * Michelle Manes (University of Hawaii)
 
-== How to Apply ==
+== Participants ==
  
- * To be considered for this workshop, fill out this [[https://docs.google.com/spreadsheet/viewform?formkey=dHJ0a0pVRGpQRXdsS2FDN2d1YUdkMlE6MQ|form]] by May 1, 2012.
+ * Alina Bucur
+ * Sarah Chisholm
+ * Hester Graves
+ * Anna Haensch
+ * Sorina Ionica
+ * Holly Swisher
+ * Bianca Thompson
+ * Stephanie Treneer
+ * Adriana Salerno
+ * Christelle Vincent
 
 == Other Info ==
 
