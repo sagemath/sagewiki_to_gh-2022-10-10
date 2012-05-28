@@ -24,10 +24,10 @@ This will be a 4-day workshop which will include a combination of mathematical t
  * Hester Graves
  * Anna Haensch
  * Sorina Ionica
+ * Adriana Salerno
  * Holly Swisher
  * Bianca Thompson
  * Stephanie Treneer
- * Adriana Salerno
  * Christelle Vincent
 
 == Other Info ==
