@@ -56,6 +56,10 @@ Here is an example report: http://wstein.org/tmp/sd29-final_report/
 
 === Pictures ===
 
+
+[[http://www.facebook.com/media/set/?set=a.10150877185548682.428521.504538681&type=3&l=1c55d5cd89|William Stein's pics]]
+
+
 {{attachment:sd40-half-wallace-falls-group.png}}
 
 Dan Drake, Doug !McNeil, Keshav Kini, Andrew Ohana
@@ -69,5 +73,3 @@ Hard at Work
 Jeroen !DeMeyer, Release Manager
 
 T-Shirt: "I'm not slacking off.  '''Your''' code is compiling."
-
-[[http://www.facebook.com/media/set/?set=a.10150877185548682.428521.504538681&type=3&l=1c55d5cd89|William Stein's pics]]
