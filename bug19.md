@@ -61,3 +61,11 @@ Here is an example report: http://wstein.org/tmp/sd29-final_report/
 Dan Drake, Doug !McNeil, Keshav Kini, Andrew Ohana
 
 {{attachment:sd40-half-wallace-falls-overhead.png}}
+
+Hard at Work
+
+{{attachment:sd40-half-release-manager.png}}
+
+Jeroen !DeMeyer, Release Manager
+
+T-Shirt: "I'm not slacking off.  Your code is compiling."
