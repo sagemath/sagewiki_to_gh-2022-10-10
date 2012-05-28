@@ -64,7 +64,7 @@ Dan Drake, Doug !McNeil, Keshav Kini, Andrew Ohana
 
 Hard at Work
 
-{{attachment:sd40-half-release-manager.png}}
+{{attachment:sd40-half-release-manager.jpg}}
 
 Jeroen !DeMeyer, Release Manager
 
