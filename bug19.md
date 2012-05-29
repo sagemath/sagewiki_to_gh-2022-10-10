@@ -23,6 +23,7 @@ The following people are likely to participate
 
  * Rob Beezer (University of Puget Sound)
  * Jon Bober (University of Washington)
+ * Robert Bradshaw (Google)
  * Volker Braun (Dublin Institute for Advanced Study)
  * Karl-Dieter Crisman (Gordon College) ''arriving SEATAC at 10:51a May 24 on Jet Blue''
  * Jeroen Demeyer (Ghent University, Belgium) ''arriving SEATAC at 12:55 May 24 from Paris''
