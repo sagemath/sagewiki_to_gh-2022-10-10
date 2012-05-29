@@ -12,7 +12,7 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Rob Beezer              || Sun             || Auto               || Fri              || Auto               || Silver Cloud (w/ Tom Judson)||
 || Byron Varberg           || Sun,  6:40 PM   || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
 || Steven Johnson          || Sun,  6:40 PM   || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
-|| Jason Grout             || Mon, 10:03 AM   || Sea-Tac            || Sat,        AM   || Sea-Tac            || Travelodge (Silver Cloud on Fri), w/ Jason Grout ||
+|| Jason Grout             || Mon, 10:03 AM   || Sea-Tac            || Sat,        AM   || Sea-Tac            || Travelodge (Silver Cloud on Fri), w/ TJ Hitchman ||
 || Sang-Gu Lee             || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
 || Kyung-Won Kim           || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
 || Hee-Dong Yoon           || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
