@@ -53,7 +53,7 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
 || Steven Johnson     ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Byron Varberg      ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
-|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
+|| Ira Hanson         ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
 
 <<Anchor(hotels)>>
 = Hotel Suggestions =
