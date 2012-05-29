@@ -10,8 +10,8 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Hotel||
 || Bruce Cohen             || Sun             || Sea-Tac            || Fri              || Sea-Tac            || ||
 || Rob Beezer              || Sun             || Auto               || Fri              || Auto               || Silver Cloud (w/ Tom Judson)||
-|| Byron Varberg           || Sun,  6:40 PM   || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
-|| Steven Johnson          || Sun,  6:40 PM   || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
+|| Byron Varberg           || Sun,  11:09 PM  || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
+|| Steven Johnson          || Sun,  11:09 PM  || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
 || Jason Grout             || Mon, 10:03 AM   || Sea-Tac            || Sat,        AM   || Sea-Tac            || Travelodge (Silver Cloud on Fri), w/ TJ Hitchman ||
 || Sang-Gu Lee             || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
 || Kyung-Won Kim           || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
