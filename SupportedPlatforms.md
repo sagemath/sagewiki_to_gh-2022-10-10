@@ -94,7 +94,7 @@ This lists systems on which Sage builds, but there are a few doctest errors.  Ho
  * ppc64: The 64-bit PowerPC port can be followed at [[http://trac.sagemath.org/sage_trac/ticket/11705|Trac #11705]]. Tested on [[http://build.sagemath.org/sage/buildslaves/silius-1|silius]]
 
 === Solaris ===
- * Solaris 10 on SPARC processors in 32-bit mode. Tested on [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]]
+ * Solaris 10 on SPARC processors in 32-bit mode. You need to use the '''Solaris linker''' in /usr/ccs/bin/ld (this is normally the default), the GNU linker is not supported. Tested on [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]]
 
 == Probably will not work ==
 None of these systems have a complete fully reliable port. In some cases completed ports are highly likely. In other cases, the porting effort is not very significant, and there may be insufficient effort to actually complete a port. 
