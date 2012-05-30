@@ -88,6 +88,7 @@ Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches aw
  * [[SagemathLive]]
  * [[Send corrected worksheets to each student]]
  * [[SageAppliance|Working with the Sage Virtual Machine (VirtualBox)]] (See also: [[SageApplianceV4|previous version of the Sage VM]])
+ * [[InstallingGapPackages]]
 
 = Data =
 
