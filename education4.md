@@ -87,6 +87,7 @@ There is limited availability of hotel rooms in the area close to campus.  You w
 == Logistics ==
 
  * June 13, 14 and 15 are expected to be full days.  So plan to travel on June 12 and June 16.
+ * All sessions will be held in Mechanical Engineering 238 ([[http://www.css.washington.edu/room/MEB+238|MEB 238 layout]]).  This building is just east of the central Drumheller Fountain on this [[http://www.washington.edu/maps/|interactive campus map]].
  * [[days41|Sage Days 41]] will happen the same week at the University of Washington with the Sage Notebook as its theme.
  * Lodging: arrangements TBA here.
  * See the [[uw-local-info|local information page]] for more specifics.
