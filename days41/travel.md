@@ -8,10 +8,13 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Hotel||
-|| Bruce Cohen             || Sun             || Sea-Tac            || Fri              || Sea-Tac            || ||
+|| Bruce Cohen             || Sun             || Sea-Tac            || Fri              || Sea-Tac            || Collegiana||
 || Rob Beezer              || Sun             || Auto               || Fri              || Auto               || Silver Cloud (w/ Tom Judson)||
 || Byron Varberg           || Sun,  11:09 PM  || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
 || Steven Johnson          || Sun,  11:09 PM  || Sea-Tac, American  || Sat,   6:00 AM   || Sea-Tac, American  || Collegiana||
+|| Keshav Kini             || Sun (?)         || AMTRAK PDX (?)     || Sat,        AM   || AMTRAK PDX (?)     || Collegiana||
+|| Kevin Halasz            || Sun             || Auto               || Fri,        AM   || Auto               || Travelodge||
+|| Kyle Brooks             || Sun             || Auto               || Fri,        AM   || Auto               || Collegiana||
 || Jason Grout             || Mon, 10:03 AM   || Sea-Tac            || Sat,        AM   || Sea-Tac            || Travelodge (Silver Cloud on Fri), w/ TJ Hitchman ||
 || Sang-Gu Lee             || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
 || Kyung-Won Kim           || Mon,  7:29 PM   || Sea-Tac, United    || Sat,   1:09 PM   || Sea-Tac, United    || Collegiana||
@@ -41,16 +44,15 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 ||<rowstyle="background-color: #E0E0FF;">Name|| Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Notes ||
 ||<rowstyle="background-color: #FFFDD0;">Room (2 people) || || || || || || || || || ||
 || Bruce Cohen        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 ||        ||        || ||
-|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
+|| Rob Beezer         ||        || Sun 10 || Mon 11 ||        ||        ||        ||        ||        || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
 || Sang-Gu Lee        ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Kyung-Won Kim      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Hee-Dong Yoon      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
-|| Rob Beezer         ||        || Sun 10 ||        ||        ||        ||        ||        ||        || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
-|| Keshav Kini        || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
-|| Kyle Brooks        || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
-|| XX                 || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
+|| Jason Yeo          || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Plus nites Jun 6-8 ||
+|| Keshav Kini        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Kyle Brooks        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
 || Steven Johnson     ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Byron Varberg      ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
@@ -64,7 +66,7 @@ This information is from a telephone survey on May 15.  Rates and availability w
  * [[http://www.silvercloud.com/university/|Silver Cloud]]
    * 2012/05/15 Nice local chain, King or two Queens, approx. $165, northeast of campus, about a 1 mile walk.
  * [[http://www.travelodgeseattleuniversity.com/|Travelodge]]
-   * 2012/05/15 Budget, $119, northeast of campus, about a 1 mile walk.  
+   * 2012/05/15 Budget, $119, northeast of campus, about a 1 mile walk.
    * 2012/05/15 Sold-out for Friday, May 15, but you could get a room at the (more expensive) Silver Cloud for one night, it is only about a block away.
    * 2012/05/16 $109.
    * 2012/05/16 Expedia for about $80/night.
