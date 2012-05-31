@@ -72,7 +72,7 @@ There is limited availability of hotel rooms in the area close to campus.  You w
 ||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || ||
 ||  ||  || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 15 || || ||
-||  ||  || ||  ||
+||          ||  Sage + WebWork                                      ||John Travis  ||  ||
 
 == Blog Roll ==
 
