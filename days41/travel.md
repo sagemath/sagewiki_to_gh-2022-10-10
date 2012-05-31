@@ -41,6 +41,15 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 
 |||||||||||||||||||| Collegiana  ||
 ||<rowstyle="background-color: #E0E0FF;">Name|| Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Notes ||
+||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
+|| Jason Yeo          || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Plus nites Jun 6-8 ||
+|| Keshav Kini        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Kyle Brooks        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Ira Hanson         ||        ||        ||        ||        ||        ||        ||        || Sat 16 || ||
+||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
+|| Ira Hanson         ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Steven Johnson     ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Byron Varberg      ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (2 people) || || || || || || || || || ||
 || Bruce Cohen        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 ||        ||        || ||
 || Rob Beezer         ||        || Sun 10 || Mon 11 ||        ||        ||        ||        ||        || ||
@@ -49,14 +58,9 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 || Kyung-Won Kim      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Hee-Dong Yoon      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
-|| Jason Yeo          || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Plus nites Jun 6-8 ||
-|| Keshav Kini        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
-|| Kyle Brooks        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
-|| Ira Hanson         ||        ||        ||        ||        ||        ||        ||        || Sat 16 || ||
-||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
-|| Steven Johnson     ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
-|| Byron Varberg      ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
-|| Ira Hanson         ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+||       ||        ||        ||    ||   ||   ||   ||   ||        || ||
+||       ||        ||        ||    ||   ||   ||   ||   ||        || ||
+||       ||        ||        ||    ||   ||   ||   ||   ||        || ||
 
 <<Anchor(hotels)>>
 = Hotel Suggestions =
