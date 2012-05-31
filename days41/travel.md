@@ -52,10 +52,11 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 || Jason Yeo          || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Plus nites Jun 6-8 ||
 || Keshav Kini        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Kyle Brooks        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Ira Hanson         ||        ||        ||        ||        ||        ||        ||        || Sat 16 || ||
 ||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
 || Steven Johnson     ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Byron Varberg      ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
-|| Ira Hanson         ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || ||
+|| Ira Hanson         ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 
 <<Anchor(hotels)>>
 = Hotel Suggestions =
