@@ -2,10 +2,7 @@
 
 <<TableOfContents>>
 
-Please order by arrival time. This will help ensure lodging arrangements are correct and help people arrange ride-sharing to/from the airport.
-
 '''IMPORTANT''': If your plans change and you need to adjust your lodging, be sure to contact Rob Beezer beezer@ups.edu .  '''DO NOT''' assume that a change here only will be acted on - make a request.
-
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Hotel||
 || Bruce Cohen             || Sun             || Sea-Tac            || Fri              || Sea-Tac            || Collegiana||
@@ -23,19 +20,21 @@ Please order by arrival time. This will help ensure lodging arrangements are cor
 || Ira Hanson              || Tue, 12:05 AM   || Sea-Tac, American  || Sat,  11:35 PM   || Sea-Tac, American  || Collegiana ||
 || Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
 || Kiran Kedlaya           || Tue,  4:15 PM   || Sea-Tac, Alaska    || Fri,   7:20 PM   || Sea-Tac, Southwest || University Inn ||
+|| Jason Aubrey            || Tue,  6:55 PM   || Sea-Tac, Alaska    || Sat,  11:55 PM   || Sea-Tac, American || ||
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || Silver Cloud||
+|| John Travis             || Tue, 10:05 PM   || Sea-Tac, Delta     || Sat,   Red-Eye   || Sea-Tac, Delta || ||
 || TJ Hitchman             || Tue, 10:59 PM   || Sea-Tac, Frontier  || Sat,  10:50 AM   || Sea-Tac, Frontier  || Travelodge (Silver Cloud on Fri), w/ Jason Grout ||
 || Susan Lynds             || Tue             || Amtrak             || Sat              || Sea-Tac            || Hotel Deca ||
 || Rao Potluri             || Tue             || Amtrak             || Sat              || Amtrak             || Travelodge (Silver Cloud, Fri) ||
 || David Perkinson         || Tue             || Amtrak             || Sat              || Amtrak             || Silver Cloud ||
-|| Barry Balof             || Wed,  7:50 AM   || Sea-Tac, Horizon   || Fri,   7:55 PM   || Sea-Tac, Horizon   || ||
+|| Barry Balof             || Wed,  7:50 AM   || Sea-Tac, Horizon   || Fri,   7:55 PM   || Sea-Tac, Horizon   || Travelodge ||
 
 
 = Sage Days 41 Lodging =
 
 Dates are the '''nights''' notebook developers require lodging.  Please do not edit this section.
 
-'''2012/05/15 Some dates are not exact - just placeholders until I have better information. And room assignments may change'''
+'''2012/05/30 This is close to the final assignments. Actual room numbers will appear soon.'''
 
 See the [[uw-local-info|local info]] page for more about staying at the Collegianna, in particular procedures about after-hours keycard pickup, which is available anytime the office is not open.  This will all be paid through the University of Washington, you do not need to pay for your room.  But please pay careful attention to Collegiana's procedures for checking out.
 
