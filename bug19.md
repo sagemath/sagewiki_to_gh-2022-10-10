@@ -14,12 +14,12 @@ Wallace Falls is about an hour from the airport.  We have the lodge starting at 
 
 === Participants ===
 
-The conference is organized by
+The conference is organized by:
 
  * David Roe (roed.math@gmail.com)
  * William Stein (wstein@gmail.com)
 
-The following people are likely to participate
+Participants:
 
  * Rob Beezer (University of Puget Sound)
  * Jon Bober (University of Washington)
