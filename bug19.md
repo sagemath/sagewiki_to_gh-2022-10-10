@@ -25,17 +25,17 @@ The following people are likely to participate
  * Jon Bober (University of Washington)
  * Robert Bradshaw (Google)
  * Volker Braun (Dublin Institute for Advanced Study)
- * Karl-Dieter Crisman (Gordon College) ''arriving SEATAC at 10:51a May 24 on Jet Blue''
- * Jeroen Demeyer (Ghent University, Belgium) ''arriving SEATAC at 12:55 May 24 from Paris''
- * DanDrake (Korea Advanced Institute of Science and Technology), arriving Wed, will carpool with Rob Beezer.
- * Benjamin Jones (University of Wisconsin-Stout) ''arriving SEATAC at 1:21p May 24 on DL 1753''
+ * Karl-Dieter Crisman (Gordon College)
+ * Jeroen Demeyer (Ghent University, Belgium)
+ * DanDrake (Korea Advanced Institute of Science and Technology)
+ * Benjamin Jones (University of Wisconsin-Stout)
  * Keshav Kini (Nanyang Technological University)
- * Doug !McNeil (!RiskAnalytica) ''arriving SEATAC at 1:21p May 24 on DL 1753''
+ * Doug !McNeil (!RiskAnalytica)
  * Andrey Novoseltsev (University of Alberta)
  * David Roe (University of Calgary)
  * William Stein (University of Washington)
 
-The following people are likely to participate remotely:
+The following people will participate remotely:
 
  * John Perry (University of Southern Mississippi)
  * Paul Zimmermann (Inria Nancy - Grand Est)
@@ -71,6 +71,6 @@ Hard at Work
 
 {{attachment:sd40-half-release-manager.jpg}}
 
-Jeroen !DeMeyer, Release Manager
+Jeroen !Demeyer, Release Manager
 
 T-Shirt: "I'm not slacking off.  '''Your''' code is compiling."
