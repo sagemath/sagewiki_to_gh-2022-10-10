@@ -45,6 +45,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
  1. Byron Varberg (Drake University)
+ 1. [[http://technotroph.wordpress.com|Jason Yeo]] (National University of Singapore)
 
 == Logistics ==
 
