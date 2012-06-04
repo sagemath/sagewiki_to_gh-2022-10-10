@@ -44,3 +44,24 @@
  * '''Kısa Sage Kılavuzu: Temel Sayılar Kuramı''' William Stein (Nisan 2009) / Kürşat Aker (Mayıs 2011) - [[attachment:quickref-nt-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-nt-tr.pdf|download]] (kaynak: [[attachment:quickref-nt-tr.zip]])
 
  * '''Kısa Sage Kılavuzu: Calculus''' William Stein (Nisan 2009) / Kürşat Aker (Mayıs 2011) - [[attachment:quickref-calc-tr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-calc-tr.pdf|download]] (kaynak: [[attachment:quickref-calc-tr.zip]])
+
+
+=== Japanese ===
+
+ * '''Sage Quick Reference - Python syntax''' by Yasuhide NUMATA (May 2012) - [[attachment:quickref-pythonsyntax-ja.pdf]]
+
+ * Translation of '''Sage Quick Reference''' by William Stein (March 2009) - [[attachment:quickref-ja.pdf]]
+
+ * Translation of '''Sage Linear Algebra Quick Reference''' by Robert A. Beezer (December 2011, Sage 4.8) - [[attachment:quickref-linalg-ja.pdf]]
+
+ * Translation of '''Sage Elementary Number Theory Quick Reference''' by William Stein (April 2009) - [[attachment:quickref-nt-ja.pdf]]
+
+ * Translation of '''Sage Calculus Quick Reference''' by William Stein (April 2009) - [[attachment:quickref-calc-ja.pdf]]
+
+ * Translation of '''Basic Math''' by Peter Jipsen, version 1.1 (January 2008) - [[attachment:sage-quickref-ja.pdf]]
+
+ * Translation of '''Graph Theory''' by Steven Rafael Turner, version 4.7 (July 2011) - [[attachment:quickref-graphtheory-ja.pdf]]
+
+ * (The source [[attachment:refcard.zip]].)
+
+ * (LaTeX style file for quick reference car by Yasuhide NUMATA (May 2012) [[attachment:quickrefcard.sty]])
