@@ -54,7 +54,7 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 ||<rowstyle="background-color: #FFFDD0;">Room 305 (2 beds) || || || || || || || || || ||
 || Bruce Cohen        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 ||        ||        || ||
 || Rob Beezer         ||        || Sun 10 || Mon 11 ||        ||        ||        ||        ||        || ||
-||<rowstyle="background-color: #FFFDD0;">Room 308 (3 people) || || || || || || || || || ||
+||<rowstyle="background-color: #FFFDD0;">Room 202 (3 beds) || || || || || || || || || ||
 || Sang-Gu Lee        ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Kyung-Won Kim      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Hee-Dong Yoon      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
