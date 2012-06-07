@@ -35,7 +35,7 @@
 
 Dates are the '''nights''' notebook developers require lodging.  Please do not edit this section.
 
-'''2012/06/06 These are nearly final assignments.'''
+'''2012/06/07 These are final assignments.'''
 
 See the [[uw-local-info|local info]] page for more about staying at the Collegianna, in particular procedures about after-hours keycard pickup, which is available anytime the office is not open.  This will all be paid through the University of Washington, you do not need to pay for your room.  But please pay careful attention to Collegiana's procedures for checking out.
 
@@ -43,7 +43,7 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 |||||||||||||||||||| Collegiana  ||
 ||<rowstyle="background-color: #E0E0FF;">Name|| Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Notes ||
 ||<rowstyle="background-color: #FFFDD0;">Room 302 (3 beds) || || || || || || || || || ||
-|| Ira Hanson         ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
+|| Ira Hanson         ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || Room 303 Sat Nite ||
 || Steven Johnson     ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Byron Varberg      ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 ||<rowstyle="background-color: #FFFDD0;">Room 303 (3 beds) || || || || || || || || || ||
