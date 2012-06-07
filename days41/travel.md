@@ -19,6 +19,7 @@
 || Jane Long               || Tue, 12:35 PM   || Sea-Tac, United    || Sat,  11:35 AM   || Sea-Tac, United    || Travelodge ||
 || Ira Hanson              || Tue, 12:05 AM   || Sea-Tac, American  || Sat,  11:35 PM   || Sea-Tac, American  || Collegiana ||
 || Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
+|| Brad Burkman            || Tue,  3:55 PM   || Sea-Tac, Alaska    || Fri,  11:35 AM   || Sea-Tac,           || Collegiana ||
 || Kiran Kedlaya           || Tue,  4:15 PM   || Sea-Tac, Alaska    || Fri,   7:20 PM   || Sea-Tac, Southwest || University Inn ||
 || Jason Aubrey            || Tue,  6:55 PM   || Sea-Tac, Alaska    || Sat,  11:55 PM   || Sea-Tac, American || ||
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || Silver Cloud||
@@ -34,31 +35,31 @@
 
 Dates are the '''nights''' notebook developers require lodging.  Please do not edit this section.
 
-'''2012/05/30 This is close to the final assignments. Actual room numbers will appear soon.'''
+'''2012/06/06 These are nearly final assignments.'''
 
 See the [[uw-local-info|local info]] page for more about staying at the Collegianna, in particular procedures about after-hours keycard pickup, which is available anytime the office is not open.  This will all be paid through the University of Washington, you do not need to pay for your room.  But please pay careful attention to Collegiana's procedures for checking out.
 
 
 |||||||||||||||||||| Collegiana  ||
 ||<rowstyle="background-color: #E0E0FF;">Name|| Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Notes ||
-||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
+||<rowstyle="background-color: #FFFDD0;">Room 303 (3 beds) || || || || || || || || || ||
 || Jason Yeo          || Sat  9 || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 || Sat 16 || Plus nites Jun 6-8 ||
 || Keshav Kini        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Kyle Brooks        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Ira Hanson         ||        ||        ||        ||        ||        ||        ||        || Sat 16 || ||
-||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
+||<rowstyle="background-color: #FFFDD0;">Room 302 (3 beds) || || || || || || || || || ||
 || Ira Hanson         ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Steven Johnson     ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Byron Varberg      ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
-||<rowstyle="background-color: #FFFDD0;">Room (2 people) || || || || || || || || || ||
+||<rowstyle="background-color: #FFFDD0;">Room 305 (2 beds) || || || || || || || || || ||
 || Bruce Cohen        ||        || Sun 10 || Mon 11 || Tue 12 || Wed 13 || Thu 14 ||        ||        || ||
 || Rob Beezer         ||        || Sun 10 || Mon 11 ||        ||        ||        ||        ||        || ||
-||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
+||<rowstyle="background-color: #FFFDD0;">Room 308 (3 people) || || || || || || || || || ||
 || Sang-Gu Lee        ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Kyung-Won Kim      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Hee-Dong Yoon      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
-||<rowstyle="background-color: #FFFDD0;">Room (3 people) || || || || || || || || || ||
-||       ||        ||        ||    ||   ||   ||   ||   ||        || ||
+||<rowstyle="background-color: #FFFDD0;">Room 212 (2 beds) || || || || || || || || || ||
+|| Brad Burkman       ||        ||        ||        || Tue 12 || Wed 13 || Thu 14 ||   ||        || ||
 ||       ||        ||        ||    ||   ||   ||   ||   ||        || ||
 ||       ||        ||        ||    ||   ||   ||   ||   ||        || ||
 
