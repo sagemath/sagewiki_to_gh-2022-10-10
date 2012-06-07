@@ -61,7 +61,6 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 ||<rowstyle="background-color: #FFFDD0;">Room 212 (2 beds) || || || || || || || || || ||
 || Brad Burkman       ||        ||        ||        || Tue 12 || Wed 13 || Thu 14 ||   ||        || ||
 ||       ||        ||        ||    ||   ||   ||   ||   ||        || ||
-||       ||        ||        ||    ||   ||   ||   ||   ||        || ||
 
 <<Anchor(hotels)>>
 = Hotel Suggestions =
