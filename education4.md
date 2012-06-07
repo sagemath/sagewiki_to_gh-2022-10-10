@@ -31,7 +31,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://matrix.skku.ac.kr/sglee/|Sang-Gu Lee]] (Sungkyunkwan University, Korea)
  1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
  1. Susan Lynds (University of Colorado)
- 1. [[Manouchehr Misaghian|http://www.pvamu.edu/pages/4916.asp]] (Prairie View A & M University, Texas)
+ 1. [[http://www.pvamu.edu/pages/4916.asp|Manouchehr Misaghian]] (Prairie View A & M University, Texas)
  1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College)
  1. [[http://www.reed.edu/~potluri|Rao Potluri]] (Reed College)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
