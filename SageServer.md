@@ -254,3 +254,18 @@ DocumentRoot /
    ServerAdmin SERVER_ADMIN_E-MAIL
 </VirtualHost>
 }}}
+
+== Alternative port forwarding arrangements ==
+
+Apart from Apache, it may also be possible to use `iptables` or some other NAT firewall to do the port forwarding. In that case you should of course run the sage notebook with `secure=True`, because a firewall will not be providing an SSL layer for you. The command to forward, for instance, port 443 to port 8000, is
+{{{
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 443 -j REDIRECT --to-port 8000
+}}}
+You should check with your own system to see how to make such a rule permanent. If you want check which `nat` rules are in effect type
+{{{
+iptables -t nat -L
+}}}
+
+== Other Instructions ==
+
+You can find another set of instructions at JustEnoughSageServer
