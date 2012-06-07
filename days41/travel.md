@@ -59,7 +59,7 @@ See the [[uw-local-info|local info]] page for more about staying at the Collegia
 || Kyung-Won Kim      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 || Hee-Dong Yoon      ||        ||        || Mon 11 || Tue 12 || Wed 13 || Thu 14 || Fri 15 ||        || ||
 ||<rowstyle="background-color: #FFFDD0;">Room 212 (2 beds) || || || || || || || || || ||
-|| Brad Burkman       ||        ||        ||        || Tue 12 || Wed 13 || Thu 14 ||   ||        || ||
+|| Brad Burkman       ||        ||        ||        || Tue 12 || Wed 13 || Thu 14 || Fri 15  ||        || ||
 ||       ||        ||        ||    ||   ||   ||   ||   ||        || ||
 
 <<Anchor(hotels)>>
