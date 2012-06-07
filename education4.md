@@ -61,12 +61,12 @@ There is limited availability of hotel rooms in the area close to campus.  You w
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 13     || || ||
-||  9:00 AM || Introductions                         ||                       || Video ||
+||  9:30 AM || Introductions                         ||                       || Video ||
 ||          || Test-Site, Reed College (30 minutes)  || Rao Potluri           || ||
 ||          || SALG Survey Roundtable  (15 minutes)  || Susan Lynds           || ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
-||          || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || ||
+||          || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]]||
 ||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || ||
 ||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
 ||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || ||
