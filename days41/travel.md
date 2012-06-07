@@ -19,7 +19,7 @@
 || Jane Long               || Tue, 12:35 PM   || Sea-Tac, United    || Sat,  11:35 AM   || Sea-Tac, United    || Travelodge ||
 || Ira Hanson              || Tue, 12:05 AM   || Sea-Tac, American  || Sat,  11:35 PM   || Sea-Tac, American  || Collegiana ||
 || Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
-|| Brad Burkman            || Tue,  3:55 PM   || Sea-Tac, Alaska    || Fri,  11:35 AM   || Sea-Tac,           || Collegiana ||
+|| Brad Burkman            || Tue,  3:55 PM   || Sea-Tac, Alaska    || Sat,  11:35 AM   || Sea-Tac,           || Collegiana ||
 || Kiran Kedlaya           || Tue,  4:15 PM   || Sea-Tac, Alaska    || Fri,   7:20 PM   || Sea-Tac, Southwest || University Inn ||
 || Jason Aubrey            || Tue,  6:55 PM   || Sea-Tac, Alaska    || Sat,  11:55 PM   || Sea-Tac, American || ||
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || Silver Cloud||
