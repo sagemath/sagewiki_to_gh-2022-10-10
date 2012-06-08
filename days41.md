@@ -85,7 +85,8 @@ To register, please add yourself alphabetically by last name.  You need to reque
 == UW Campus Wireless ==
 
 {{{
-TBA
+UW NetID: 	event0146
+Password: 	6U6B;8B7K;5P6R
 }}}
 
 == IRC ==
