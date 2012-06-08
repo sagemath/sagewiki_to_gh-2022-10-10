@@ -48,19 +48,6 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
         * [[http://groups.google.com/group/sage-support|sage-support]]
         * [[http://groups.google.com/group/sage-edu|sage-edu]]
       * MAA list (versus Google Groups)
-
-/* commenting out these bits for now
-      * [[http://www.sagemath.org|www.sagemath.org]] (try the search)
-        * [[http://sagemath.org/help.html|Reference Material]]
-        * [[http://www.sagemath.org/doc/reference/|Sage Reference (standalone)]]
-        * [[http://www.sagemath.org/doc/tutorial/|Sage Tutorial (standalone)]]
-        * [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html?sagenb.notebook.interact.interact#sagenb.notebook.interact.interact|Interact Construction Documentation]]
-      * [[http://wiki.sagemath.org/|Sage wiki]] (Interacts, Quickrefs)
-        * [[http://wiki.sagemath.org/quickref|Sage Quick Reference (Wiki)]]
-        * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
-      * [[http://www.sagenb.org|www.sagenb.org]]
-        * ([[http://sagenb.org/pub/|published worksheets]]) */
-
     * The Sage Cell server (Dan, 15 min)
     * Short Break
     * Review "[[http://sage.maa.org/home/pub/3|Sage Tutorial for Symbolics and Plotting]]" (Karl-Dieter, 40 min)
