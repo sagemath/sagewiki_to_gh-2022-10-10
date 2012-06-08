@@ -38,17 +38,19 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
        * How much should students interact with the software? (Labs? In-class demonstrations?  Homework? Tests?)
        * How do you grade technology assignments?
        * How do you adjust your teaching style when students are expected to use math software?
-       * [[attachment:FirstRoundTableNotes.rtf|Notes from the discussion]]
 
-=== Session II - Sage Community ===
+=== Session II - More on getting started ===
     * Welcome Back (Dan, 5 min)
-    * Resources (Dan, 25 min)
+    * Resources (Dan, 15 min)
       * [[http://ask.sagemath.org|ask.sagemath.org]]
       * Help in the notebook
       * [[http://sagemath.org/development.html#mailingList|Google Groups]]
         * [[http://groups.google.com/group/sage-support|sage-support]]
         * [[http://groups.google.com/group/sage-edu|sage-edu]]
       * MAA list (versus Google Groups)
+
+/* commenting out these bits for now
+
       * [[http://www.sagemath.org|www.sagemath.org]] (try the search)
         * [[http://sagemath.org/help.html|Reference Material]]
         * [[http://www.sagemath.org/doc/reference/|Sage Reference (standalone)]]
@@ -57,7 +59,11 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * [[http://wiki.sagemath.org/|Sage wiki]] (Interacts, Quickrefs)
         * [[http://wiki.sagemath.org/quickref|Sage Quick Reference (Wiki)]]
         * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
-      * [[http://www.sagenb.org|www.sagenb.org]] ([[http://sagenb.org/pub/|published worksheets]])
+      * [[http://www.sagenb.org|www.sagenb.org]]
+        * ([[http://sagenb.org/pub/|published worksheets]])
+*/
+
+    * The Sage Cell server (Dan, 15 min)
     * Short Break
     * Review "[[http://sage.maa.org/home/pub/3|Sage Tutorial for Symbolics and Plotting]]" (Karl-Dieter, 40 min)
       * Symbolic Expressions
@@ -73,7 +79,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Pre-Workshop Survey for MAA
     * Announcements (Dan, 5 min)
       * Office Hours 
-      * June Sessions
+      * July Sessions
 
 === Session Links ===
 
