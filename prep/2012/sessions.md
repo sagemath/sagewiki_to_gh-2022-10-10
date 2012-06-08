@@ -50,7 +50,6 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * MAA list (versus Google Groups)
 
 /* commenting out these bits for now
-
       * [[http://www.sagemath.org|www.sagemath.org]] (try the search)
         * [[http://sagemath.org/help.html|Reference Material]]
         * [[http://www.sagemath.org/doc/reference/|Sage Reference (standalone)]]
@@ -60,8 +59,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
         * [[http://wiki.sagemath.org/quickref|Sage Quick Reference (Wiki)]]
         * [[http://wiki.sagemath.org/interact|Sage Interacts (Wiki)]]
       * [[http://www.sagenb.org|www.sagenb.org]]
-        * ([[http://sagenb.org/pub/|published worksheets]])
-*/
+        * ([[http://sagenb.org/pub/|published worksheets]]) */
 
     * The Sage Cell server (Dan, 15 min)
     * Short Break
