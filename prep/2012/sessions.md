@@ -11,13 +11,13 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 [[#homework|Homework]] and [[#officehours|Office Hours]] are listed after all the sessions.
 
-  * [[#day1|Tuesday, May 24]]
-  * [[#day2|Tuesday, June 7]]
-  * [[#day3|Tuesday, June 14]]
-  * [[#day4|Tuesday, June 21]]
+  * [[#day1|Tuesday, June 26]]
+  * [[#day2|Tuesday, July 10]]
+  * [[#day3|Tuesday, July 17]]
+  * [[#day4|Tuesday, July 24]]
 
 <<Anchor(day1)>>
-== Tuesday, May 24 ==
+== Tuesday, June 26 ==
 
 Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on basic use and the various ways to get help and learn more.  
 
@@ -92,7 +92,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://sage.maa.org/home/kcrisman/7|The worksheet shared with everybody]]
  
 <<Anchor(day2)>>
-== Tuesday, June 7 ==
+== Tuesday, July 10 ==
 
 Our goal on the second day of sessions is to start deepening your knowledge of Sage, and to give opportunities to share ideas about technology and how to use worksheets which you have.
 
@@ -133,7 +133,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
       * Homework
 
 <<Anchor(day3)>>
-== Tuesday, June 14 ==
+== Tuesday, July 17 ==
 
 Our goal on the third day of sessions is to give more depth to how to use Sage in various areas one might teach.  We also aim to continue giving more depth in areas like plotting and basic programming.
 
@@ -182,7 +182,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
   * [[http://webwork.maa.org/moodle/course/view.php?id=5|Documentation for how WeBWorK is most effective]]
 
 <<Anchor(day4)>>
-== Tuesday, June 21 ==
+== Tuesday, July 24 ==
 
 Our goal on the last day of sessions is to consolidate our gains, give lots of opportunity to share your work, and address some final issues like setting up a server.  We'll also have an opportunity for addressing things not already discussed.
 
@@ -290,14 +290,14 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
 <<Anchor(homework)>>
 == Homework ==
 
-  * For Tuesday, June 7th
+  * For Tuesday, July 10th
     * Try the [[http://sage.maa.org/home/pub/7|calculus tutorial]]!
     * Make a new worksheet where you explore some subject you care about.
       * This is a nice way to try the help facilities.
     * Email the MAA PREP list with at least one question.
       * This could include starting a discussion about pedagogy!
     * If you would like, suggest topics for the next session.
-  * For Tuesday, June 14th
+  * For Tuesday, July 17th
     * Try out two of the "Quickstart" worksheets.
       * [[http://sage.maa.org/home/pub/21|Differential Equations]]
       * [[http://sage.maa.org/home/pub/22|Abstract Algebra]]
@@ -309,7 +309,7 @@ And of course feel free to ask any questions on the MAA list for the workshop, o
       * [[http://sage.maa.org/home/pub/27|Numerical Analysis]]
     * Continue any discussions you want on the list about technology.
     * Continue to work on a couple worksheets demonstrating what you want to show.
-  * For Tuesday, June 21st
+  * For Tuesday, July 24st
     * Let us know about additional topics for the last time
     * Pick at least one worksheet you might want to share for next time
       * (Won't be required, but strongly encouraged)
