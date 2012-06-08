@@ -19,7 +19,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 <<Anchor(day1)>>
 == Tuesday, June 26 ==
 
-Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on basic use and the various ways to get help and learn more.  
+Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on basic use and the various ways to get help and learn more.
 
 Questions are encouraged!  With that in mind, note that we have ample time for addressing questions that come up during the presentations.  You should feel free to message in Blackboard Collaborate anything that comes to mind, and we'll be sure to address as many as possible during the actual session.
 
@@ -52,18 +52,17 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
     * Short Break
     * Review "[[http://sage.maa.org/home/pub/3|Sage Tutorial for Symbolics and Plotting]]" (Karl-Dieter, 40 min)
       * Symbolic Expressions
-      * Basics of Two-Dimensional Plotting 
-      * Basics of Three-Dimensional Plotting 
+      * Basics of Two-Dimensional Plotting
+      * Basics of Three-Dimensional Plotting
     * Questions (Karl-Dieter, 15 min)
     * Interacts (Dan Drake, 15 min)
-      * [[http://sage.maa.org/home/pub/6|Worksheet]] showing step-by-step interact creation
       * [[http://sage.maa.org/home/pub/5|Worksheet]] showing many different interact ideas
-    * Homework (Karl-Dieter, 10 min) 
-      * Preparation for next sessions 
+    * Homework (Karl-Dieter, 10 min)
+      * Preparation for next sessions
       * Next Tutorial(s)
       * Pre-Workshop Survey for MAA
     * Announcements (Dan, 5 min)
-      * Office Hours 
+      * Office Hours
       * July Sessions
 
 === Session Links ===
@@ -81,7 +80,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://wiki.sagemath.org/sage-mode|Sage mode in Emacs]]
   * [[http://www.sagemath.org/download-windows.html|Sage on Windows]]
   * [[http://sage.maa.org/home/kcrisman/7|The worksheet shared with everybody]]
- 
+
 <<Anchor(day2)>>
 == Tuesday, July 10 ==
 
@@ -97,8 +96,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
     * Technology in the Classroom discussion (30 min)
        * As a tool, not a crutch - ideas?
        * Models for dissemination
-       * [[attachment:SecondRoundTableNotes.rtf|Notes From the Discussion]]
-    * Classroom-type demo: [[http://sage.maa.org/home/pub/13|Chaos and Calculus]] (Karl-Dieter, 10 min)
+      * Classroom-type demo: [[http://sage.maa.org/home/pub/13|Chaos and Calculus]] (Karl-Dieter, 10 min)
     * Questions and end (Dan, 15 min)
 
 === Session II - Plotting, Demos, and Programming ===
@@ -119,7 +117,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
       * Percentage of [[http://sage.maa.org/home/pub/19|Area of a Square]]
     * [[http://sage.maa.org/home/pub/15|Advanced 2D plotting]] (Dan, 30 min)
     * Announcements (Dan, 5 min)
-      * Office Hours 
+      * Office Hours
       * Next Session
       * Homework
 
@@ -140,7 +138,6 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * Discussion: Specific techniques for technology in classroom (30 min)
       * Introducing a new topic in class
       * In the Lab environment
-      * [[attachment:ThirdRoundTableNotes.rtf|Notes from discussion]]
 
 === Session II - Getting In-Depth, Part 2 ===
     * Welcome (Karl-Dieter, 5 min)
@@ -156,16 +153,12 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * A brief [[attachment:stein-maa.pdf|history of Sage]] (William Stein, 15 min)
       * Link to [[http://wstein.org/mathsoftbio/history.pdf|longer history from mathematical/software viewpoint]]
     * Participant worksheet sharing (20 min)
-      * [[http://sage.maa.org/home/pub/34|Strange functions]]
-      * [[http://sage.maa.org/home/pub/31|Graphing transformations in college algebra]]
-      * [[http://sage.maa.org/home/pong/16|Pitfalls in Calculus I]]
-      * [[http://sage.maa.org/home/Carolyn.Cuff/42|Poisson Distributions interact]]
     * Homework and wrap-up (Dan, 5 min)
 
 
 === Session Links ===
 
-  * [[http://diveintopython3.org/advanced-iterators.html|Advanced Python iterators]] 
+  * [[http://diveintopython3.org/advanced-iterators.html|Advanced Python iterators]]
   * [[http://trac.sagemath.org/sage_trac/ticket/11482|Sage Trac ticket for making it more obvious how to do power series solutions to DEs]]
   * [[http://mathdl.maa.org/mathDL/22/?pa=content&sa=viewDocument&nodeId=2926|Cool Monthly article on polynomial non-convergence]]
   * [[http://wiki.sagemath.org/pics|Pictures, including nice ones with Tachyon]]
@@ -188,7 +181,6 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
         * [[http://sagemath.org/library-publications.html#books|Books using Sage]]
           * [[http://code.google.com/p/sage-power-book/|William Stein's book]]
         * More ideas?
-        * [[attachment:FinalClassroomIdeas.rtf|Notes from this]]
       * [[http://wiki.sagemath.org/SageServer|Setting up a server]] (Dan)
         * Where to find resources
         * Q&A
@@ -215,15 +207,6 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
     * Brief break
     * Participant demos (moderated by Karl-Dieter, 65 min)
       * As many of these as we can get to!
-      * [[http://sage.maa.org/home/pub/52/|Mortgage calculation]]
-      * [[http://sage.maa.org/home/pub/55/|Exploring transformations in precalc]]
-      * [[http://sage.maa.org/home/pub/51/|Quadric Surfaces]]
-      * [[http://sage.maa.org/home/pub/49/|Continued Fractions]]
-      * [[http://sage.maa.org/home/pub/60/|"Our Big Theorem"]]
-      * [[http://sage.maa.org/home/pub/47/|Plane and Space Curves]]
-      * [[http://sage.maa.org/home/pub/44/|Normal Distribution]]
-      * [[http://sage.maa.org/home/pub/54/|Projective Coordinates on the Complex Plane]]
-      * [[http://sage.maa.org/home/pub/50/|Expectation Worksheet]]
     * Brief break
     * Preview of future Sage enhancements (Dan, 10 min)
     * Wrap-up (Karl-Dieter, 10 min)
@@ -236,7 +219,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
         * Sage table, possibly with WW and/or MAA
       * Video links from UTMOST Sage Days conference
         * [[education3#Schedule|Most video and slides and worksheets are here]]
-          * Including ones from Dan, Karl-Dieter, Dan's little brother Ryan, and former PREP participant John Travis
+          * Including ones from Dan, Karl-Dieter, Ryan Grout, and former PREP participant John Travis
           * Dan Drake's [[http://tinyurl.com/3zwnfhz|SageTeX video]] is awesome
         * [[days31#Schedule|The WeBWorK videos here (Wednesday) may be helpful]]
       * Servers for fall use
@@ -247,7 +230,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 === Session Links ===
 
   * [[http://docs.python.org/library/functions.html#sorted|Documentation]] for Python sorted() function
-  * [[http://docs.python.org/library/stdtypes.html#string-formatting|Python string formatting]] 
+  * [[http://docs.python.org/library/stdtypes.html#string-formatting|Python string formatting]]
   * [[http://docs.python.org/library/string.html#formatstrings|Another string formatting link]]
   * [[http://docs.python.org/library/urllib2.html|Getting data from the Internet in Python]]
   * [[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|More multivariable interact ideas]]
