@@ -4,7 +4,7 @@
 
 Summer 2012
 
-Each day is a total of four hours online, broken into two 2-hour sessions.  Please get set up in Elluminate a few minutes before the start time, paying special attention to the [[prep/2011/TeleConference|guidelines]] (especially about your session name and headphones).  We will post links to recordings of each session to the course email list shortly after the conclusion of the session.
+Each day is a total of four hours online, broken into two 2-hour sessions.  Please get set up in Blackboard Collaborate a few minutes before the start time, paying special attention to the [[prep/2011/TeleConference|guidelines]] (especially about your session name and headphones).  We will post links to recordings of each session to the course email list shortly after the conclusion of the session.
 
   * Session I:  8-10 Pacific, 11-1 Eastern
   * Session II:  Noon-2 Pacific, 3-5 Eastern
@@ -21,7 +21,7 @@ Each day is a total of four hours online, broken into two 2-hour sessions.  Plea
 
 Our goal on the first day is to get everybody comfortable enough in the notebook interface that they can begin to productively explore their own interests in Sage independently.  So we will concentrate on basic use and the various ways to get help and learn more.  
 
-Questions are encouraged!  With that in mind, note that we have ample time for addressing questions that come up during the presentations.  You should feel free to message in Elluminate anything that comes to mind, and we'll be sure to address as many as possible during the actual session.
+Questions are encouraged!  With that in mind, note that we have ample time for addressing questions that come up during the presentations.  You should feel free to message in Blackboard Collaborate anything that comes to mind, and we'll be sure to address as many as possible during the actual session.
 
 === Session I - Getting Started ===
     * Introductions: Organizers and Participants (Karl-Dieter, 30 min)
@@ -31,8 +31,8 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Finding Help and Documentation through the notebook
       * Annotating your Worksheets
     * Short Break
-    * Questions (Jason, 20 min)
-    * Technology in the Classroom roundtable (Jason, 20 min)
+    * Questions (Dan, 20 min)
+    * Technology in the Classroom roundtable (Dan, 20 min)
        * How have you used math software in the classroom?
        * What is your goal in using math software in class?
        * How much should students interact with the software? (Labs? In-class demonstrations?  Homework? Tests?)
@@ -41,8 +41,8 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
        * [[attachment:FirstRoundTableNotes.rtf|Notes from the discussion]]
 
 === Session II - Sage Community ===
-    * Welcome Back (Jason, 5 min)
-    * Resources (Jason, 25 min)
+    * Welcome Back (Dan, 5 min)
+    * Resources (Dan, 25 min)
       * [[http://ask.sagemath.org|ask.sagemath.org]]
       * Help in the notebook
       * [[http://sagemath.org/development.html#mailingList|Google Groups]]
@@ -64,14 +64,14 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Basics of Two-Dimensional Plotting 
       * Basics of Three-Dimensional Plotting 
     * Questions (Karl-Dieter, 15 min)
-    * Interacts (Jason Grout, 15 min)
+    * Interacts (Dan Drake, 15 min)
       * [[http://sage.maa.org/home/pub/6|Worksheet]] showing step-by-step interact creation
       * [[http://sage.maa.org/home/pub/5|Worksheet]] showing many different interact ideas
     * Homework (Karl-Dieter, 10 min) 
       * Preparation for next sessions 
       * Next Tutorial(s)
       * Pre-Workshop Survey for MAA
-    * Announcements (Jason, 5 min)
+    * Announcements (Dan, 5 min)
       * Office Hours 
       * June Sessions
 
@@ -108,7 +108,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
        * Models for dissemination
        * [[attachment:SecondRoundTableNotes.rtf|Notes From the Discussion]]
     * Classroom-type demo: [[http://sage.maa.org/home/pub/13|Chaos and Calculus]] (Karl-Dieter, 10 min)
-    * Questions and end (Jason, 15 min)
+    * Questions and end (Dan, 15 min)
 
 === Session II - Plotting, Demos, and Programming ===
     * Welcome Back (Karl-Dieter, 5 min)
@@ -120,14 +120,14 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
        * Defining functions with "def"
        * Renaming 'Gotchas'
     * Questions (Karl-Dieter, 5 min)
-    * Classroom demos: [[http://sage.maa.org/home/pub/14|Linear Algebra]] (Jason, 15 min)
-    * Classroom demos: [[http://sage.maa.org/home/pub/12|Multivariable]] (Jason, 15 min)
+    * Classroom demos: [[http://sage.maa.org/home/pub/14|Linear Algebra]] (Dan, 15 min)
+    * Classroom demos: [[http://sage.maa.org/home/pub/12|Multivariable]] (Dan, 15 min)
     * Short Break
     * Participant demo worksheets! (25 min)
       * Making [[http://sage.maa.org/home/pub/17|tables]]
       * Percentage of [[http://sage.maa.org/home/pub/19|Area of a Square]]
-    * [[http://sage.maa.org/home/pub/15|Advanced 2D plotting]] (Jason, 30 min)
-    * Announcements (Jason, 5 min)
+    * [[http://sage.maa.org/home/pub/15|Advanced 2D plotting]] (Dan, 30 min)
+    * Announcements (Dan, 5 min)
       * Office Hours 
       * Next Session
       * Homework
@@ -138,14 +138,14 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
 Our goal on the third day of sessions is to give more depth to how to use Sage in various areas one might teach.  We also aim to continue giving more depth in areas like plotting and basic programming.
 
 === Session I - Getting In-Depth, Part 1 ===
-    * Welcome Back (Jason, 5 min)
-    * [[http://sage.maa.org/home/pub/12|Lagrange multipliers demo]] (Jason, 10 min)
-    * Numerical Analysis (Jason, 30 min)
+    * Welcome Back (Dan, 5 min)
+    * [[http://sage.maa.org/home/pub/12|Lagrange multipliers demo]] (Dan, 10 min)
+    * Numerical Analysis (Dan, 30 min)
       * [[http://sage.maa.org/home/pub/27|Quickstart]]
       * [[http://sage.maa.org/home/pub/35|Some]] [[http://sage.maa.org/home/pub/36|more]] [[http://sage.maa.org/home/pub/37|demos]]
     * Differential Equations [[http://sage.maa.org/home/pub/21|Quickstart]] (Karl-Dieter, 15 min)
     * Break
-    * Re-introduction to [[http://sage.maa.org/home/pub/38|Creating Interacts]] (Jason, 15 min)
+    * Re-introduction to [[http://sage.maa.org/home/pub/38|Creating Interacts]] (Dan, 15 min)
     * Discussion: Specific techniques for technology in classroom (30 min)
       * Introducing a new topic in class
       * In the Lab environment
@@ -154,7 +154,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 === Session II - Getting In-Depth, Part 2 ===
     * Welcome (Karl-Dieter, 5 min)
     * [[http://sage.maa.org/home/pub/25|Graph Theory Quickstart]] (Karl-Dieter, 10 min)
-    * SageTeX (Jason, 20 min)
+    * SageTeX (Dan, 20 min)
       * [[attachment:sage-slides.pdf|Slides]]
       * [[attachment:sage-tex.zip|Tex Source zip file]]
     * Number Theory (Karl-Dieter, 25 min)
@@ -169,7 +169,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * [[http://sage.maa.org/home/pub/31|Graphing transformations in college algebra]]
       * [[http://sage.maa.org/home/pong/16|Pitfalls in Calculus I]]
       * [[http://sage.maa.org/home/Carolyn.Cuff/42|Poisson Distributions interact]]
-    * Homework and wrap-up (Jason, 5 min)
+    * Homework and wrap-up (Dan, 5 min)
 
 
 === Session Links ===
@@ -198,13 +198,13 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
           * [[http://code.google.com/p/sage-power-book/|William Stein's book]]
         * More ideas?
         * [[attachment:FinalClassroomIdeas.rtf|Notes from this]]
-      * [[http://wiki.sagemath.org/SageServer|Setting up a server]] (Jason)
+      * [[http://wiki.sagemath.org/SageServer|Setting up a server]] (Dan)
         * Where to find resources
         * Q&A
     * Break
     * Abstract Algebra [[http://sage.maa.org/home/pub/22|quickstart]] (Karl-Dieter, 15 min)
-    * Advanced 3d plotting Parts [[http://sage.maa.org/home/pub/57|One]] and [[http://sage.maa.org/home/pub/56|Two]] (Jason, 15 min)
-    * [[http://sage.maa.org/home/pub/58|Embedding other things]] into worksheets (Jason, 10 min)
+    * Advanced 3d plotting Parts [[http://sage.maa.org/home/pub/57|One]] and [[http://sage.maa.org/home/pub/56|Two]] (Dan, 15 min)
+    * [[http://sage.maa.org/home/pub/58|Embedding other things]] into worksheets (Dan, 10 min)
       * Geogebra
       * Flash
       * Applets
@@ -214,8 +214,8 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * [[http://tinyurl.com/3fbzd8q|Status report on Sage/WeBWorK integration]](8 minutes in and 25 minutes in)
 
 === Session II - Participants Participate ===
-    * Welcome back (Jason, 5 min)
-    * [[http://sage.maa.org/home/pub/61|Advanced programming]] (Jason, 20 min)
+    * Welcome back (Dan, 5 min)
+    * [[http://sage.maa.org/home/pub/61|Advanced programming]] (Dan, 20 min)
       * lists vs. tuples
       * list comprehensions and generators
       * slicing lists and matrices
@@ -234,7 +234,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * [[http://sage.maa.org/home/pub/54/|Projective Coordinates on the Complex Plane]]
       * [[http://sage.maa.org/home/pub/50/|Expectation Worksheet]]
     * Brief break
-    * Preview of future Sage enhancements (Jason, 10 min)
+    * Preview of future Sage enhancements (Dan, 10 min)
     * Wrap-up (Karl-Dieter, 10 min)
       * Post-Workshop Survey - watch your email
       * Mathfest (joint with WeBWorK and MAA)
@@ -245,7 +245,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
         * Sage table, possibly with WW and/or MAA
       * Video links from UTMOST Sage Days conference
         * [[education3#Schedule|Most video and slides and worksheets are here]]
-          * Including ones from Jason, Karl-Dieter, Jason's little brother Ryan, and former PREP participant John Travis
+          * Including ones from Dan, Karl-Dieter, Dan's little brother Ryan, and former PREP participant John Travis
           * Dan Drake's [[http://tinyurl.com/3zwnfhz|SageTeX video]] is awesome
         * [[days31#Schedule|The WeBWorK videos here (Wednesday) may be helpful]]
       * Servers for fall use
@@ -270,20 +270,22 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 <<Anchor(officehours)>>
 == Office Hours ==
 
-Please connect as usual in Elluminate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2011/TeleConference|guide]] for information on sharing your worksheet out via Elluminate.  This might be a useful way for us to help you with problems.
+Please connect as usual in Blackboard Collaborate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2011/TeleConference|guide]] for information on sharing your worksheet out via Blackboard Collaborate.  This might be a useful way for us to help you with problems.
 
-And of course feel free to ask any questions on the MAA list for the workshop, or support question on sage-support@googlegroups.com
+And of course feel free to ask any questions on the MAA list for the
+workshop, or support question on
+[[http://groups.google.com/group/sage-support|sage-support]].
 
  * Between introductory session and intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Monday, 30 May || 8-10AM || 11AM-1PM || Jason Grout ||
-|| Thursday, 02 June || 12-2PM || 3-5PM || Jason Grout ||
+|| Monday, 30 May || 8-10AM || 11AM-1PM || Dan Drake ||
+|| Thursday, 02 June || 12-2PM || 3-5PM || Dan Drake ||
 
  * Between the various intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || Thursday, 09 June || 12-1 PM || 3-4 PM || Karl-Dieter Crisman ||
 || Friday, 10 June || 8-9 AM || 11-12 AM || Karl-Dieter Crisman ||
-|| Wednesday, 15 June || 8:30-9:30 AM || 11:30-12:30 PM || Jason Grout ||
+|| Wednesday, 15 June || 8:30-9:30 AM || 11:30-12:30 PM || Dan Drake ||
 || Friday, 17 June || 1-2 PM || 4-5 PM || Karl-Dieter Crisman ||
 
 
