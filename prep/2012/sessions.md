@@ -250,6 +250,10 @@ And of course feel free to ask any questions on the MAA list for the
 workshop, or support question on
 [[http://groups.google.com/group/sage-support|sage-support]].
 
+(We'll post the sessions here later.)
+
+{{{#!wiki comment
+
  * Between introductory session and intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || Monday, 30 May || 8-10AM || 11AM-1PM || Dan Drake ||
@@ -261,7 +265,7 @@ workshop, or support question on
 || Friday, 10 June || 8-9 AM || 11-12 AM || Karl-Dieter Crisman ||
 || Wednesday, 15 June || 8:30-9:30 AM || 11:30-12:30 PM || Dan Drake ||
 || Friday, 17 June || 1-2 PM || 4-5 PM || Karl-Dieter Crisman ||
-
+}}}
 
 <<Anchor(homework)>>
 == Homework ==
