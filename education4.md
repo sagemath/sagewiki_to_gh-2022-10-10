@@ -120,7 +120,8 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 <<Anchor(wireless)>>
 == UW Campus Wireless ==
 {{{
-TBA
+UW NetID: 	event0146
+Password: 	6U6B;8B7K;5P6R
 }}}
 
 <<Anchor(pictures)>>
