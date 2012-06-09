@@ -29,6 +29,7 @@
 || Rao Potluri             || Tue             || Amtrak             || Sat              || Amtrak             || Travelodge (Silver Cloud, Fri) ||
 || David Perkinson         || Tue             || Amtrak             || Sat              || Amtrak             || Silver Cloud ||
 || Barry Balof             || Wed,  7:50 AM   || Sea-Tac, Horizon   || Fri,   7:55 PM   || Sea-Tac, Horizon   || Travelodge ||
+|| Malcolm Harper          || Sun, 12:49 PM   || Sea-Tac, Delta     || Sat,  11:45 AM   || Sea-Tac, Delta     || University Inn ||
 
 
 = Sage Days 41 Lodging =
