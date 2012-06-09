@@ -64,7 +64,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Monday          || June 11    ||  ||  ||
-|| 10:00 AM || Introductions                 ||   ||  Video ||
+||  9:30 AM || Introductions                 ||   ||  Video ||
 || || || || ||
 ||          || State of the Notebook Address || Jason Grout || ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday          || June 12    ||  ||  ||
