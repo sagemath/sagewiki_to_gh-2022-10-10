@@ -4,7 +4,7 @@
 
 Summer 2012
 
-Each day is a total of four hours online, broken into two 2-hour sessions.  Please get set up in Blackboard Collaborate a few minutes before the start time, paying special attention to the [[prep/2011/TeleConference|guidelines]] (especially about your session name and headphones).  We will post links to recordings of each session to the course email list shortly after the conclusion of the session.
+Each day is a total of four hours online, broken into two 2-hour sessions.  Please get set up in Blackboard Collaborate a few minutes before the start time, paying special attention to the [[prep/2012/TeleConference|guidelines]] (especially about your session name and headphones).  We will post links to recordings of each session to the course email list shortly after the conclusion of the session.
 
   * Session I:  8-10 Pacific, 11-1 Eastern
   * Session II:  Noon-2 Pacific, 3-5 Eastern
@@ -192,7 +192,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * Flash
       * Applets
       * WeBWorK
-    * [[http://webwork.maa.org|WeBWorK]] (Michael Gage, 15 min)
+    * [[http://webwork.maa.org|WeBWorK]] (TBA, 15 min)
       * Link to [[attachment:2011_06_21_PREPsage.pdf|slides]]
       * [[http://tinyurl.com/3fbzd8q|Status report on Sage/WeBWorK integration]](8 minutes in and 25 minutes in)
 
@@ -244,7 +244,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 <<Anchor(officehours)>>
 == Office Hours ==
 
-Please connect as usual in Blackboard Collaborate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2011/TeleConference|guide]] for information on sharing your worksheet out via Blackboard Collaborate.  This might be a useful way for us to help you with problems.
+Please connect as usual in Blackboard Collaborate, and give the organizer a minute or two to recognize you if there is nobody else around, or they are busy with someone else.  ("Raising your hand" should provide an audible alert on the organizer's end.)  See the [[prep/2012/TeleConference|guide]] for information on sharing your worksheet out via Blackboard Collaborate.  This might be a useful way for us to help you with problems.
 
 And of course feel free to ask any questions on the MAA list for the
 workshop, or support question on
