@@ -56,7 +56,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
 == Location ==
 
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
- * All sessions will be held in Mechanical Engineering 238 ([[http://www.css.washington.edu/room/MEB+238|MEB 238 layout]]).  This building is just east of the central Drumheller Fountain on this [[http://www.washington.edu/maps/|interactive campus map]].
+ * All sessions are '''now''' in PACCAR 394 ([[http://www.css.washington.edu/room/PCAR+394|PACCAR 394 layout]]).  This building is in the northwest corner of the campus  [[http://www.washington.edu/maps/|interactive campus map]].
 
 
 == Schedule ==
