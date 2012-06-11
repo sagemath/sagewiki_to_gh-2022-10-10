@@ -10,6 +10,7 @@ June 11-15, 2012 at University of Washington in Seattle, in conjunction with [[e
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Monday          || June 11    ||  ||  ||
 ||  9:30 AM || Introductions                 ||   ||  Video ||
+||  11:30 AM|| Sage Notebook New UI || Samuel Ainsworth || [[https://www.youtube.com/watch?feature=player_embedded&v=yPx3-3UrE10|Recorded Hangout]] ||
 ||  3:00 PM        || State of the Notebook Address || Jason Grout || ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday          || June 12    ||  ||  ||
 ||  3:00PM        ||   Sage Cell Server           || Steve Johnson and Ira Hansen || ||
