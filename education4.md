@@ -21,6 +21,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
  1. [[https://sites.google.com/a/lsmsa.edu/bburkman/|Brad Burkman]] (Louisiana School for Math, Science, and the Arts)
  1. [[http://www.tetrahedra.net|Bruce Cohen]] (Lowell High School, San Francisco)
+ 1. [[http://www.jsg.utexas.edu/researcher/sergey_fomel/|Sergey Fomel]] (The University of Texas at Austin)
  1. [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  1. Malcolm Harper (Champlain College Saint Lambert)
  1. [[http://www.uni.edu/theron/|TJ Hitchman]] (University of Northern Iowa)
@@ -39,6 +40,19 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.math.cornell.edu/~whieldon|Gwyn Whieldon]] (Hood College)
  1. Hee-Dong Yoon jini1237@naver.com (Sungkyunkwan University, Korea)
  1. [[http://csudh.edu/math/wpong|Wai Yan Pong]] (California State University Dominguez Hills)
+> 
+> Associate Professor
+> Jackson School of Geosciences
+> 
+> University Station, Box X
+> Austin, Texas 78713-8924
+> E-mail:sergey.fomel@beg.utexas.edu <mailto:sergey.fomel@beg.utexas.edu>
+> Telephone: 512-475-9573
+> 
+> 
+> 
+
+
 
 == Funding ==
 
