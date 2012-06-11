@@ -66,6 +66,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
 
 == Topics ==
 
+{{attachment:sd41-workgroups.jpg}}
 
 == Funding ==
 
