@@ -14,7 +14,7 @@ June 11-15, 2012 at University of Washington in Seattle, in conjunction with [[e
 ||  3:00 PM        || State of the Notebook Address || Jason Grout || [[http://www.youtube.com/watch?v=NE3TPxMCrdY&feature=plcp|Video]], [[http://www.youtube.com/watch?v=E76QFiGyIAs&feature=plcp|screen recording]] ||
 ||  4:00 PM        || Patches, mq, trac, and Sage || Rob Beezer || [video not up yet] ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday          || June 12    ||  ||  ||
-||  3:00PM        ||   Sage Cell Server           || Steve Johnson and Ira Hansen || ||
+||  4:00 PM        ||   Status Reports           ||  || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday          || June 13    ||  || [[http://wiki.sagemath.org/education4|Sage Education Days 4]] ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday          || June 14    ||  || [[http://wiki.sagemath.org/education4|Sage Education Days 4]] ||
