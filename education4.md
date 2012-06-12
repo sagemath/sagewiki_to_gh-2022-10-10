@@ -6,6 +6,33 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 <<TableOfContents>>
 
+== Schedule ==
+'''Schedule is not final, it will evolve.'''
+||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 13     || || ||
+||  9:30 AM || Introductions                         ||                       || Video ||
+||          || Test-Site, Reed College (30 minutes)  || Rao Potluri           || ||
+||          || SALG Survey Roundtable  (15 minutes)  || Susan Lynds           || ||
+|| || || ||  ||
+||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
+||          || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]]||
+||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || ||
+||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
+||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || ||
+||  ||  || ||  ||
+||<rowstyle="background-color: #E0E0FF;"> Friday || June 15 || || ||
+||          || Sage + !WebWork                                       ||John Travis      ||  ||
+||          || Test-Site, Northern Iowa University                   ||Theron Hitchman  ||  ||
+||          || Test-Site, Cal State, Dominguez Hills (30 min)        ||Wai Yan Pong     ||  ||
+
+<<Anchor(mailinglist)>>
+== Mailing Lists ==
+
+ * The mailing list for [[https://groups.google.com/forum/#!forum/sagedays41|Sage Days 41]],  will be used for Education Days also (once created).  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
+
+ * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
+
 == Organizers ==
 
  * Rob Beezer [[http://buzzard.ups.edu]]
@@ -40,19 +67,6 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.math.cornell.edu/~whieldon|Gwyn Whieldon]] (Hood College)
  1. Hee-Dong Yoon jini1237@naver.com (Sungkyunkwan University, Korea)
  1. [[http://csudh.edu/math/wpong|Wai Yan Pong]] (California State University Dominguez Hills)
-> 
-> Associate Professor
-> Jackson School of Geosciences
-> 
-> University Station, Box X
-> Austin, Texas 78713-8924
-> E-mail:sergey.fomel@beg.utexas.edu <mailto:sergey.fomel@beg.utexas.edu>
-> Telephone: 512-475-9573
-> 
-> 
-> 
-
-
 
 == Funding ==
 
@@ -62,34 +76,7 @@ We only have enough funding for participants from the test sites for the NSF UTM
 
 There is limited availability of hotel rooms in the area close to campus.  You will want to make your own arrangements immediately for a room, since we have been unable to reserve a block at any one hotel.  Suggestions are available at the [[days41/travel#hotels|travel]] page.
 
-<<Anchor(mailinglist)>>
-== Mailing Lists ==
-
- * The mailing list for [[https://groups.google.com/forum/#!forum/sagedays41|Sage Days 41]],  will be used for Education Days also (once created).  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
-
- * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
-
 <<Anchor(schedule)>>
-== Schedule ==
-'''Schedule is not final, it will evolve.'''
-||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
-|| || || || ||
-||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 13     || || ||
-||  9:30 AM || Introductions                         ||                       || Video ||
-||          || Test-Site, Reed College (30 minutes)  || Rao Potluri           || ||
-||          || SALG Survey Roundtable  (15 minutes)  || Susan Lynds           || ||
-|| || || ||  ||
-||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
-||          || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]]||
-||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || ||
-||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
-||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || ||
-||  ||  || ||  ||
-||<rowstyle="background-color: #E0E0FF;"> Friday || June 15 || || ||
-||          || Sage + !WebWork                                       ||John Travis      ||  ||
-||          || Test-Site, Northern Iowa University                   ||Theron Hitchman  ||  ||
-||          || Test-Site, Cal State, Dominguez Hills (30 min)        ||Wai Yan Pong     ||  ||
-
 == Blog Roll ==
 
 [[http://mathematicseducationissues.blogspot.com/|Tom Judson]]
@@ -103,9 +90,8 @@ There is limited availability of hotel rooms in the area close to campus.  You w
 == Logistics ==
 
  * June 13, 14 and 15 are expected to be full days.  So plan to travel on June 12 and June 16.
- * All sessions are '''now''' in PACCAR 394 ([[http://www.css.washington.edu/room/PCAR+394|PACCAR 394 layout]]).  This building is in the northwest corner of the campus  [[http://www.washington.edu/maps/|interactive campus map]].
+ * All sessions are '''now''' in [[http://www.css.washington.edu/room/SAV+132|SAVERY 132]].  This building is just north of the campus center  [[http://www.washington.edu/maps/|interactive campus map]].
  * [[days41|Sage Days 41]] will happen the same week at the University of Washington with the Sage Notebook as its theme.
- * Lodging: arrangements TBA here.
  * See the [[uw-local-info|local information page]] for more specifics.
 
 <<Anchor(irc)>>
@@ -128,9 +114,6 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
   * rating of worksheets?
   * tagging, organization of available options
   * suggestion from chemistry: set up committees to curate resources so that faculty get service credit
-
-
-
 
 <<Anchor(wireless)>>
 == UW Campus Wireless ==
