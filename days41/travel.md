@@ -20,8 +20,8 @@
 || Ira Hanson              || Tue, 12:05 AM   || Sea-Tac, American  || Sat,  11:35 PM   || Sea-Tac, American  || Collegiana ||
 || Tom Judson              || Tue, 10:05 PM   || Sea-Tac            || Fri,   Red-Eye   || Sea-Tac            || Silver Cloud (w/ Rob Beezer)||
 || Brad Burkman            || Tue,  3:55 PM   || Sea-Tac, Alaska    || Sat,  11:35 AM   || Sea-Tac,           || Collegiana ||
-|| Kiran Kedlaya           || Tue,  4:15 PM   || Sea-Tac, Alaska    || Fri,   7:20 PM   || Sea-Tac, Southwest || University Inn ||
 || Jason Aubrey            || Tue,  6:55 PM   || Sea-Tac, Alaska    || Sat,  11:55 PM   || Sea-Tac, American || ||
+|| Kiran Kedlaya           || Tue,  7:00 PM   || Sea-Tac, Alaska    || Fri,   7:20 PM   || Sea-Tac, Southwest || University Inn ||
 || Manouchehr Misaghian    || Tue,  7:59 PM   || Sea-Tac, Alaska    || Sat,   5:55 PM   || Sea-Tac, United    || Silver Cloud||
 || John Travis             || Tue, 10:05 PM   || Sea-Tac, Delta     || Sat,   Red-Eye   || Sea-Tac, Delta || ||
 || TJ Hitchman             || Tue, 10:59 PM   || Sea-Tac, Frontier  || Sat,  10:50 AM   || Sea-Tac, Frontier  || Travelodge (Silver Cloud on Fri), w/ Jason Grout ||
