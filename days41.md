@@ -26,7 +26,7 @@ June 11-15, 2012 at University of Washington in Seattle, in conjunction with [[e
 
  * [[education4|Sage Education Days 4]] will happen at the end of the week, June 13-15, 2012.
  * See the [[uw-local-info|local information page]] for more specifics.
- * All sessions are '''now''' in [[http://www.css.washington.edu/room/SAV+132|SAVERY 132]].  This building is in the northwest corner of the campus  [[http://www.washington.edu/maps/|interactive campus map]].
+ * All sessions are '''now''' in [[http://www.css.washington.edu/room/SAV+132|SAVERY 132]].  This building is just north of the campus center  [[http://www.washington.edu/maps/|interactive campus map]].
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
 
 == Mailing List ==
