@@ -30,7 +30,7 @@
 || David Perkinson         || Tue             || Amtrak             || Sat              || Amtrak             || Silver Cloud ||
 || Barry Balof             || Wed,  7:50 AM   || Sea-Tac, Horizon   || Fri,   7:55 PM   || Sea-Tac, Horizon   || Travelodge ||
 || Malcolm Harper          || Sun, 12:49 PM   || Sea-Tac, Delta     || Sat,  11:45 AM   || Sea-Tac, Delta     || University Inn ||
-|| Wai Yan Pong            || Tue, 10:00 AM   || Sea-Tac, JetBlue   || Sat,   2:40 PM   || Sea-Tac, JetBlue   || CSU Dominguez Hills
+|| Wai Yan Pong            || Tue, 10:00 AM   || Sea-Tac, Jet Blue  || Sat,   2:40 PM   || Sea-Tac, Jet Blue  || Silver Cloud ||
 
 
 = Sage Days 41 Lodging =
