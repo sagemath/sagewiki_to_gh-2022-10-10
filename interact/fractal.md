@@ -6,10 +6,10 @@ goto [[interact|interact main page]]
 == Mandelbrot's Fractal Binomial Distribution ==
 
 {{{#!sagecell
-def muk_plot(m0,k):  
+def muk_plot(m0,k):
     """
     Return a plot of the binomial fractal measure mu_k
-    associated to m0, 1-m0, and k.   
+    associated to m0, 1-m0, and k.
     """
     k = int(k)
     m0 = float(m0)
@@ -58,12 +58,12 @@ def f(A = matrix([[1,1],[-1,1]]), D = '[[0,0],[1,0]]', k=(3..17)):
             s = sum(A^n*d[n] for n in range(k))
             ans.append(s)
         return ans
-    
+
     G = points([v.list() for v in Dn(k)],size=50)
-   
-    show(G, frame=True, axes=False)    
+
+    show(G, frame=True, axes=False)
 }}}
-{{attachment:1.png}} 
+{{attachment:1.png}}
 
 == Demonstrating that the Twin Dragon Matrix is likely to yield a Tiling of a Compact Interval of R^2 as k->infinity (It does!) ==
 
@@ -81,18 +81,18 @@ def f(A = matrix([[1,1],[-1,1]]), D = '[[0,0],[1,0]]', k=(3..17)):
             s = sum(A^(-n)*d[n] for n in range(k))
             ans.append(s)
         return ans
-    
+
     G = points([v.list() for v in Dn(k)])
-   
+
     show(G, frame=True, axes=False)
- 
+
 }}}
 {{attachment:2.png}}
 
 == Now in 3D ==
-    
+
 {{{#!sagecell
- 
+
 A = matrix([[0,0,2],[1,0,1],[0,1,-1]])
 D = '[[0,0,0],[1,0,0]]'
 
@@ -102,7 +102,7 @@ def Dn(D,A,k):
         s = sum(A^n*d[n] for n in range(k))
         ans.append(s)
     return ans
-    
+
 @interact
 def f(A = matrix([[0,0,2],[1,0,1],[0,1,-1]]), D = '[[0,0,0],[1,0,0]]', k=(3..15), labels=True):
     print "Det = ", A.det()
@@ -113,7 +113,7 @@ def f(A = matrix([[0,0,2],[1,0,1],[0,1,-1]]), D = '[[0,0,0],[1,0,0]]', k=(3..15)
     if labels:
         G += sum([text3d(str(v),v) for v in Dn(D,A,k)])
     show(G, axes=False, frame=False)
-    
+
 }}}
 {{attachment:3.png}}
 
@@ -128,7 +128,7 @@ Pablo Angulo
 import numpy as np
 cimport numpy as np
 
-def mandelbrot_cython(float x0,float  x1,float  y0,float  y1, 
+def mandelbrot_cython(float x0,float  x1,float  y0,float  y1,
                    int N=200, int L=50, float R=3):
     '''returns an array NxN to be plotted with matrix_plot
     '''
@@ -145,7 +145,7 @@ def mandelbrot_cython(float x0,float  x1,float  y0,float  y1,
             c = (x0+j*deltax)+ I*(y0+k*deltay)
             z=0
             h=0
-            while (h<L and 
+            while (h<L and
                    z.real**2 + z.imag**2 < R2):
                 z=z*z+c
                 h+=1
@@ -164,7 +164,7 @@ options = ['Reset','Upper Left', 'Upper Right', 'Stay', 'Lower Left', 'Lower Rig
 
 @interact
 def show_mandelbrot(option = selector(options, nrows = 2, width=8),
-                    N = slider(100, 1000,100, 300), 
+                    N = slider(100, 1000,100, 300),
                     L = slider(20, 300, 20, 60),
                     plot_size = slider(2,10,1,6),
                     auto_update = False):
@@ -182,7 +182,7 @@ def show_mandelbrot(option = selector(options, nrows = 2, width=8),
         y0 = y0_default
     elif option != 'Stay':
         side = side/2
-    
+
     time m=mandelbrot_cython(x0 ,x0 + side ,y0 ,y0 + side , N, L )
 #    p = (matrix_plot(m) +
 #             line2d([(N/2,0),(N/2,N)], color='red', zorder=2) +
@@ -212,12 +212,12 @@ def mandel_plot(expo = slider(-10,10,0.1,2), \
     var('z c')
     f(z,c) = z^expo + c
     ff_m = fast_callable(f, vars=[z,c], domain=CDF)
-    
+
     # messing around with fast_callable
     for i in range(int(iterations)/3):
         f(z,c) = f(z,c)^expo+c
-    ff = fast_callable(f, vars=[z,c], domain=CDF)    
-    
+    ff = fast_callable(f, vars=[z,c], domain=CDF)
+
     def mandel(z):
       c = z
       for i in range(iterations):
@@ -226,13 +226,13 @@ def mandel_plot(expo = slider(-10,10,0.1,2), \
             return z
       return z
     print 'z <- z^%s + c' % expo
-    
+
     # calling ff three times, otherwise it fast_callable exceeds a recursion limit
     if formula is 'ff':
      func = lambda z: ff(ff(ff(z,z),z),z)
     elif formula is 'mandel':
-     func = mandel     
-     
+     func = mandel
+
     complex_plot(func, zoom_x,zoom_y, plot_points=200, dpi=150).show(frame=True, aspect_ratio=1)
 }}}
 {{attachment:mandel-interact-02.png}}
@@ -248,10 +248,10 @@ def julia_plot(expo = slider(-10,10,0.1,2), \
       zoom_x = range_slider(-2,2,0.01,(-1.5,1.5)), \
       zoom_y = range_slider(-2,2,0.01,(-1.5,1.5))):
     var('z')
-    I = CDF.gen()    
+    I = CDF.gen()
     f(z) = z^expo + c_real + c_imag*I
     ff_j = fast_callable(f, vars=[z], domain=CDF)
-    
+
     def julia(z):
       for i in range(iterations):
          z = ff_j(z)
@@ -259,7 +259,7 @@ def julia_plot(expo = slider(-10,10,0.1,2), \
             return z
       return z
     print 'z <- z^%s + (%s+%s*I)' % (expo, c_real, c_imag)
-    
+
     complex_plot(julia, zoom_x,zoom_y, plot_points=200, dpi=150).show(frame=True, aspect_ratio=1)
 }}}
 {{attachment:julia-interact-01.png}}
@@ -279,7 +279,6 @@ def sierpinski(N):
 @interact
 def _(N=slider([2 ** a for a in range(12)], label='Number of iterations', default=64), size=slider(1, 20, label='Size', step_size=1, default=9)):
     M = sierpinski(2 * N)
-    plot_M = matrix_plot(M, cmap='binary')
-    plot_M.show(figsize=[size, size])
+    matrix_plot(M, cmap='binary').show(figsize=[size, size])
 }}}
 {{attachment:sierpinski.png}}
