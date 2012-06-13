@@ -12,7 +12,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 13     || || ||
 ||  9:30 AM || Introductions                         ||                       || Video ||
-||          || Test-Site, Reed College (30 minutes)  || Rao Potluri           || ||
+||          || Test-Site, Reed College (30 minutes)  || Rao Potluri           || [[attachment:reed-potluri-utmost.pdf|Slides (PDF) ]]||
 ||          || SALG Survey Roundtable  (15 minutes)  || Susan Lynds           || [[http://www.salgsite.org/student|Site]], Instrument: 27688||
 || 4:00 PM  || Status Reports                        ||                       || ||
 || || || ||  ||
