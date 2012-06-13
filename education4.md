@@ -13,7 +13,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 13     || || ||
 ||  9:30 AM || Introductions                         ||                       || Video ||
 ||          || Test-Site, Reed College (30 minutes)  || Rao Potluri           || ||
-||          || SALG Survey Roundtable  (15 minutes)  || Susan Lynds           || ||
+||          || SALG Survey Roundtable  (15 minutes)  || Susan Lynds           || [[http://www.salgsite.org/student|Site]], Instrument: 27688||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
 ||          || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]]||
