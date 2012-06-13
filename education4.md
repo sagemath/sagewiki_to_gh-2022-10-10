@@ -16,7 +16,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||          || SALG Survey Roundtable  (15 minutes)  || Susan Lynds           || [[http://www.salgsite.org/student|Site]], Instrument: 27688||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
-||          || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]]||
+||  9:00 AM  || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]]||
 ||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || ||
 ||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
 ||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || ||
