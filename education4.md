@@ -23,6 +23,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || [[attachment:sglee-edudays4.pdf|PDF Presentation]]||
 ||          || Sage Single Cell Server (20 minutes)                 ||Jason Grout, Ira Hanson, Steven Johnson || ||
 ||          || Interact Database (20 minutes)                       ||Byron Varberg              || ||
+||~2:00 PM  || Question Session                                     ||Rob Beezer, et al          || ||
 || 4:00 PM  || Status Reports                                       ||                           || ||
 ||  ||  || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 15 || || ||
