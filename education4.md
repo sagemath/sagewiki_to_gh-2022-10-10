@@ -23,7 +23,7 @@ Brad Burkman's Sage [[attachment:SagePoster3.pdf|poster]].
 ||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || ||
 ||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
 ||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || [[attachment:sglee-edudays4.pdf|PDF Presentation]]||
-||          || Sage Single Cell Server (20 minutes)                 ||Jason Grout, Ira Hanson, Steven Johnson || ||
+||          || Sage Single Cell Server (20 minutes)                 ||Jason Grout, Ira Hanson, Steven Johnson || [[http://sage.math.washington.edu/home/jason/cellserverintro/|Introduction]]||
 ||          || Interact Database (20 minutes)                       ||Byron Varberg              || ||
 ||~2:00 PM  || Question Session                                     ||Rob Beezer, et al          || ||
 || 4:00 PM  || Status Reports                                       ||                           || [[https://www.surveymonkey.com/s/SageDays2012Thursday|Thursday Survey]]||
