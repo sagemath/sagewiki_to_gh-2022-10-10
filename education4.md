@@ -31,6 +31,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 || 9:30 AM  || Sage + !WebWork                                       ||John Travis, et al ||  ||
 ||          || Test-Site, Northern Iowa University (30 min)          ||Theron Hitchman    ||  ||
 ||          || Test-Site, Cal State, Dominguez Hills (30 min)        ||Wai Yan Pong       ||  ||
+||          || Generalized Interacts  (10 min)                       ||Gwyn Whieldon      ||  ||
 ||          || Worksheets and Textbooks via XML (30 min)             ||Rob Beezer         ||  ||
 ||~2:00 PM  || UTMOST PI Meeting                                     ||                   || ||
 || 4:00 PM  || Status Reports                                        ||                   || [[https://www.surveymonkey.com/s/SageDays2012Final|Final Survey]]||
