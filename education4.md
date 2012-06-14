@@ -7,7 +7,9 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 <<TableOfContents>>
 
 == Schedule ==
-'''Schedule is not final, it will evolve.'''
+
+Brad Burkman's Sage [[attachment:SagePoster3.pdf|poster]].
+
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 13     || || ||
