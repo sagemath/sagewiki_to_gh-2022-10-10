@@ -26,9 +26,10 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 || 4:00 PM  || Status Reports                                       ||                           || ||
 ||  ||  || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 15 || || ||
-||          || Sage + !WebWork                                       ||John Travis, et al ||  ||
+|| 9:30 AM  || Sage + !WebWork                                       ||John Travis, et al ||  ||
 ||          || Test-Site, Northern Iowa University                   ||Theron Hitchman    ||  ||
 ||          || Test-Site, Cal State, Dominguez Hills (30 min)        ||Wai Yan Pong       ||  ||
+||~2:00 PM  || UTMOST PI Meeting                                     ||                   || ||
 || 4:00 PM  || Status Reports                                        ||                   || ||
 
 <<Anchor(mailinglist)>>
