@@ -14,7 +14,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||  9:30 AM || Introductions                         ||                       || [[http://www.youtube.com/watch?v=aUU5Xl-XT78|Welcome]], [[http://www.youtube.com/watch?v=_KJbTOyQUlM|Introductions, Part 1]], [[http://www.youtube.com/watch?v=jYN6Avkkrt8|Introductions, Part 2]] ||
 ||          || Test-Site, Reed College (30 minutes)  || Rao Potluri           || [[attachment:reed-potluri-utmost.pdf|Slides (PDF) ]] [[http://www.youtube.com/watch?v=9Af0IL79mT0|Video]] ||
 ||          || SALG Survey Roundtable  (15 minutes)  || Susan Lynds           || [[http://www.salgsite.org/student|Site]], Instrument: 27688, [[http://www.youtube.com/watch?v=RJDujngvY4o|Video]], [[attachment:InvitationEmailSageSALG.doc|Invitation]], [[attachment:SageSALG-MDirections.doc|Directions]]||
-|| 4:00 PM  || Status Reports                        ||                       || [[https://www.surveymonkey.com/s/SageDays2012Wednesday|Wednesday Survey]] [[http://youtu.be/msVw2wwX5kE|Video]] ||
+|| 4:00 PM  || Status Reports                        ||                       || [[https://www.surveymonkey.com/s/SageDays2012Wednesday|Wednesday Survey]] [[http://youtu.be/4VR1t1auK4s|Video]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
 ||  9:00 AM  || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]]||
