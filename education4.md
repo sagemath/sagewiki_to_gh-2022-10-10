@@ -140,14 +140,12 @@ Password: 	6U6B;8B7K;5P6R
 <<Anchor(pictures)>>
 == Pictures ==
 
-{{attachment:sed4-grout.jpg}}
-{{attachment:sed4-hanson-johnson.jpg}}
-{{attachment:sed4-sglee.jpg}}
-
-Jason Grout, Steven Johson and Ira Hanson, Sang-Gu Lee
-
-{{attachment:sed4-group.jpg}}
-{{attachment:sed4-snacks.jpg}}
+||<:99%> {{attachment:sed4-grout.jpg}} {{attachment:sed4-hanson-johnson.jpg}} {{attachment:sed4-sglee.jpg}}||
+||<:99%> Jason Grout, Steven Johson and Ira Hanson, Sang-Gu Lee||
+||<:99%> {{attachment:sed4-group.jpg}}||
+||<:99%> Savery 132||
+||<:99%> {{attachment:sed4-snacks.jpg}}||
+||<:99%> Snacks!||
 
 == Previous Sage Education Days ==
 
