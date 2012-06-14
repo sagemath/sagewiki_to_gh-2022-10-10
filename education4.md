@@ -21,7 +21,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || ||
 ||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
 ||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || [[attachment:sglee-edudays4.pdf|PDF Presentation]]||
-||          || Sage Single Cell Server (20 minutes)                 ||Ira Hanson, Steven Johnson || ||
+||          || Sage Single Cell Server (20 minutes)                 ||Jason Grout, Ira Hanson, Steven Johnson || ||
 ||          || Interact Database (20 minutes)                       ||Byron Varberg              || ||
 || 4:00 PM  || Status Reports                                       ||                           || ||
 ||  ||  || ||  ||
