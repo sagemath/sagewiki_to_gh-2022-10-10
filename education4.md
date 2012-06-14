@@ -24,7 +24,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||          || Sage Single Cell Server (20 minutes)                 ||Jason Grout, Ira Hanson, Steven Johnson || ||
 ||          || Interact Database (20 minutes)                       ||Byron Varberg              || ||
 ||~2:00 PM  || Question Session                                     ||Rob Beezer, et al          || ||
-|| 4:00 PM  || Status Reports                                       ||                           || ||
+|| 4:00 PM  || Status Reports                                       ||                           || [[https://www.surveymonkey.com/s/SageDays2012Thursday|Thursday Survey]]||
 ||  ||  || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 15 || || ||
 || 9:30 AM  || Sage + !WebWork                                       ||John Travis, et al ||  ||
@@ -32,7 +32,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||          || Test-Site, Cal State, Dominguez Hills (30 min)        ||Wai Yan Pong       ||  ||
 ||          || Worksheets and Textbooks via XML (30 min)             ||Rob Beezer         ||  ||
 ||~2:00 PM  || UTMOST PI Meeting                                     ||                   || ||
-|| 4:00 PM  || Status Reports                                        ||                   || ||
+|| 4:00 PM  || Status Reports                                        ||                   || [[https://www.surveymonkey.com/s/SageDays2012Final|Final Survey]]||
 
 <<Anchor(mailinglist)>>
 == Mailing Lists ==
