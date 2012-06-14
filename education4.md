@@ -140,6 +140,15 @@ Password: 	6U6B;8B7K;5P6R
 <<Anchor(pictures)>>
 == Pictures ==
 
+{{attachment:sed4-grout.jpg}}
+{{attachment:sed4-hanson-johnson.jpg}}
+{{attachment:sed4-sglee.jpg}}
+
+Jason Grout, Steven Johson and Ira Hanson, Sang-Gu Lee
+
+{{attachment:sed4-group.jpg}}
+{{attachment:sed4-snacks.jpg}}
+
 == Previous Sage Education Days ==
 
  * [[education1|Sage Education Day 1 (December 5, 2009)]]
