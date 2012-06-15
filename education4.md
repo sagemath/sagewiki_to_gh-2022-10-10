@@ -34,6 +34,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||          || Generalized Interacts  (10 min)                       ||Gwyn Whieldon      ||  ||
 ||          || Worksheets and Textbooks via XML (30 min)             ||Rob Beezer         ||  ||
 ||~2:00 PM  || UTMOST PI Meeting                                     ||                   || ||
+||~3:00 PM  || UTMOST Test-Site Meeting                              ||                   || ||
 || 4:00 PM  || Status Reports                                        ||                   || [[https://www.surveymonkey.com/s/SageDays2012Final|Final Survey]]||
 
 <<Anchor(mailinglist)>>
