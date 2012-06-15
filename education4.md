@@ -18,7 +18,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 || 4:00 PM  || Status Reports                        ||                       || [[https://www.surveymonkey.com/s/SageDays2012Wednesday|Wednesday Survey]] [[http://youtu.be/4VR1t1auK4s|Video]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
-||  9:00 AM  || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]] [[attachment:Linear Algebra with Sage and FCLA.pdf|Jane's PDF Presentation]]||
+||  9:00 AM  || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]] [[attachment:long-sfa-sed4.pdf|Jane's PDF Presentation]]||
 ||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || ||
 ||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
 ||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || [[attachment:sglee-edudays4.pdf|PDF Presentation]]||
