@@ -29,7 +29,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||  ||  || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 15 || || ||
 || 9:30 AM  || Sage + WeBWorK                                       ||John Travis, et al || [[attachment:Sage_WeBWorK 2012|Powerpoint Presentation]]||
-||          || Test-Site, Northern Iowa University (30 min)          ||Theron Hitchman    ||  ||
+||          || Test-Site, Northern Iowa University (30 min)          ||Theron Hitchman    ||  [[attachment:hitchman-sed4.pdf|PDF Presentation]]||
 ||          || Test-Site, Cal State, Dominguez Hills (30 min)        ||Wai Yan Pong       || [[http://math.csudh.edu:8800|csudh math server]], [[http://csudh.sagenb.org|csudh sagenb server]]  ||
 ||          || Generalized Interacts  (10 min)                       ||Gwyn Whieldon      ||  ||
 ||          || Worksheets and Textbooks via XML (20 min)             ||Rob Beezer         ||  ||
