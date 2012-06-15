@@ -79,10 +79,10 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://www.sagemath.org/download-windows.html|Sage on Windows]]
   * [[http://sage.maa.org/home/kcrisman/7|The worksheet shared with everybody]]
 
+== Warning: the sessions after the first are still in flux; what is below is largely based on the 2011 sessions ==
+
 <<Anchor(day2)>>
 == Tuesday, July 10 ==
-
-=== Warning: the sessions after the first are still in flux; what is below is largely based on the 2011 sessions ===
 
 Our goal on the second day of sessions is to start deepening your knowledge of Sage, and to give opportunities to share ideas about technology and how to use worksheets which you have.
 
