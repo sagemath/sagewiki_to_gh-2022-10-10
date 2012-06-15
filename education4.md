@@ -43,8 +43,11 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
  * Brad Burkman's Sage [[attachment:SagePoster3.pdf|poster]].
  * [[http://sage.math.washington.edu/home/jason/sage-HLA2.pdf|HLA Linear Algebra article preprint]]
- * XML/XSLT Books
-   * Beginning XSLT 2.0: From Novice to Professional, Jeni Tennison.  Comprehensive guided introduction.
+ * XML/XSLT Books and Online Course
+   * XML: Visual !QuickStart Guide (2nd Edition), Kevin Howard Goldberg. Practical introduction. 
+   * Beginning XSLT 2.0: From Novice to Professional, Jeni Tennison.  Comprehensive guided progression.
+   * [[https://p2pu.org/en/groups/learn-xslt-for-transforming-structured-docuements/|P2PU Online Course]] (started ~June 1)
+
 == Mailing Lists ==
 
  * The mailing list for [[https://groups.google.com/forum/#!forum/sagedays41|Sage Days 41]],  will be used for Education Days also (once created).  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
