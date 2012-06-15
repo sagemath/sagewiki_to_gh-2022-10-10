@@ -47,6 +47,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
    * XML: Visual !QuickStart Guide (2nd Edition), Kevin Howard Goldberg. Practical introduction. 
    * Beginning XSLT 2.0: From Novice to Professional, Jeni Tennison.  Comprehensive guided progression.
    * [[https://p2pu.org/en/groups/learn-xslt-for-transforming-structured-docuements/|P2PU Online Course]] (started ~June 1)
+ * (Draft) [[attachment:quickref-algebra.pdf|Algebra QuickRef]], developed at SED4: Balof, Perkinson, Judson, Potluri
 
 == Mailing Lists ==
 
