@@ -18,11 +18,11 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 || 4:00 PM  || Status Reports                        ||                       || [[https://www.surveymonkey.com/s/SageDays2012Wednesday|Wednesday Survey]] [[http://youtu.be/4VR1t1auK4s|Video]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 14 || || ||
-||  9:00 AM  || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]] [[attachment:long-sfa-sed4.pdf|Jane's PDF Presentation]]||
-||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || ||
+||  9:00 AM  || Test-Site, Stephen F Austin State U (60 minutes)     ||Jane Long, Tom Judson      || [[attachment:judson-edudays4.pdf|PDF Presentation]] [[attachment:long-sfa-sed4.pdf|Jane's PDF Presentation]] [[http://youtu.be/Kl6QQpri1Rs|Video, Part 1]]; [[http://youtu.be/aYrWjtRjtiI|Video, Part 2]]||
+||          || Sage in Korea : Present and Future (20 minutes)      ||Hee-Dong Yoon, Sang-Gu Lee || [[http://youtu.be/TAfL8HCHbPE|Video for all Korea talks]] ||
 ||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
 ||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || [[attachment:sglee-edudays4.pdf|PDF Presentation]]||
-||          || Sage Single Cell Server (20 minutes)                 ||Jason Grout, Ira Hanson, Steven Johnson || [[http://sage.math.washington.edu/home/jason/cellserverintro/|Introduction]]||
+||          || Sage Single Cell Server (20 minutes)                 ||Jason Grout, Ira Hanson, Steven Johnson || [[http://sage.math.washington.edu/home/jason/cellserverintro/|Introduction]], [[http://youtu.be/0sf5s2w8seM|Video for Introduction and Interact Database]], [[http://youtu.be/KYQNOAF36GQ|Video for next generation discussion]]||
 ||          || Interact Database (20 minutes)                       ||Byron Varberg              || ||
 ||~2:00 PM  || Question Session                                     ||Rob Beezer, et al          || ||
 || 4:00 PM  || Status Reports                                       ||                           || [[https://www.surveymonkey.com/s/SageDays2012Thursday|Thursday Survey]]||
