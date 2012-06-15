@@ -1,7 +1,5 @@
 = Session Schedule: MAA PREP Workshop =
 
-= this is mostly a copy of the 2011 page and not everything has been updated =
-
 Summer 2012
 
 Each day is a total of four hours online, broken into two 2-hour sessions.  Please get set up in Blackboard Collaborate a few minutes before the start time, paying special attention to the [[prep/2012/TeleConference|guidelines]] (especially about your session name and headphones).  We will post links to recordings of each session to the course email list shortly after the conclusion of the session.
@@ -83,6 +81,8 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
 
 <<Anchor(day2)>>
 == Tuesday, July 10 ==
+
+=== Warning: the sessions after the first are still in flux; what is below is largely based on the 2011 sessions ===
 
 Our goal on the second day of sessions is to start deepening your knowledge of Sage, and to give opportunities to share ideas about technology and how to use worksheets which you have.
 
