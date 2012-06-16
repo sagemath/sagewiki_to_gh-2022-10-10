@@ -47,7 +47,9 @@ Funded by the National Science Foundation Division of Undergraduate Education.
    * XML: Visual !QuickStart Guide (2nd Edition), Kevin Howard Goldberg. Practical introduction. 
    * Beginning XSLT 2.0: From Novice to Professional, Jeni Tennison.  Comprehensive guided progression.
    * [[https://p2pu.org/en/groups/learn-xslt-for-transforming-structured-docuements/|P2PU Online Course]] (started ~June 1)
- * [[attachment:quickref-algebra.pdf|Algebra QuickRef]], developed at SED4: Balof, Perkinson, Judson, Potluri
+ * Abstract Algebra !QuickRef, developed at SED4 by Balof, Perkinson, Judson, Potluri.  Find it at [[quickref|Sage QuickRefs]].
+ * Beezer's [[http://buzzard.ups.edu/courses/2012spring/m290s2012.html|course page]] with 16 in-class linear algebra demos.
+ * [[http://tex.mendelu.cz/en/|TexOnWeb]]: simple, reliable TeX processor online.
 
 == Mailing Lists ==
 
