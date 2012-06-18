@@ -30,12 +30,12 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||<rowstyle="background-color: #E0E0FF;"> Friday || June 15 || || ||
 || 9:30 AM  || Sage + WeBWorK                                       ||John Travis, et al || [[attachment:Sage_WeBWorK 2012.pptx|Powerpoint Presentation]], Video: [[http://youtu.be/omAEE24lt6Q|part 1]], [[http://youtu.be/8YMAT1i7qLE|part 2]]||
 ||          || Test-Site, Northern Iowa University (30 min)          ||Theron Hitchman    ||  [[attachment:hitchman-sed4.pdf|PDF Presentation]], [[http://youtu.be/kOUCasZWjYE|Video]]||
-||          || Test-Site, Cal State, Dominguez Hills (30 min)        ||Wai Yan Pong       || [[http://math.csudh.edu:8800|csudh math server]], [[http://csudh.sagenb.org|csudh sagenb server]]  ||
-||          || Generalized Interacts  (10 min)                       ||Gwyn Whieldon      ||  ||
-||          || Worksheets and Textbooks via XML (20 min)             ||Rob Beezer         ||  ||
+||          || Test-Site, Cal State, Dominguez Hills (30 min)        ||Wai Yan Pong       || [[http://math.csudh.edu:8800|csudh math server]], [[http://csudh.sagenb.org|csudh sagenb server]]  [[http://youtu.be/YCQ-LeRc8NA|Video]]||
+||          || Generalized Interacts  (10 min)                       ||Gwyn Whieldon      || [[http://youtu.be/mgLpIAZUVRQ|Video]]  ||
+||          || Worksheets and Textbooks via XML (20 min)             ||Rob Beezer         ||  [[http://youtu.be/-HAs5m1cclM|Video]] ||
 ||~2:00 PM  || UTMOST PI Meeting                                     ||                   || ||
 ||~3:00 PM  || UTMOST Test-Site Meeting                              ||                   || ||
-|| 4:00 PM  || Status Reports                                        ||                   || [[https://www.surveymonkey.com/s/SageDays2012Final|Final Survey]]||
+|| 4:00 PM  || Status Reports                                        ||                   || [[http://youtu.be/f_QPtzYQW7o|Video]], [[https://www.surveymonkey.com/s/SageDays2012Final|Final Survey]]||
 
 <<Anchor(mailinglist)>>
 
