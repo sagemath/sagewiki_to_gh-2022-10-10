@@ -202,6 +202,7 @@ fi
 
 == Additional Notes ==
 
+ * At some point, it's good to {{{chattr +i}}} the sage0-9 account home directories, .ssh directories, etc., to prevent changes.  On OS X, use chflags.
  * Enable acl permissions by editing fstab and adding the "acl" option behind the ext4 option (make sure your filesystem allows acls, of course).  Then you can better protect files from being seen by sage worksheet processes.
  * [[https://help.ubuntu.com/10.04/serverguide/C/automatic-updates.html]] also has some helpful tips.
  * Jason Ekstrand from Iowa State University notes that if you want to enable SSL, you can do this at the command line: {{{
