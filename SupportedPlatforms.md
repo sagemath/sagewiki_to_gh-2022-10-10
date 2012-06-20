@@ -96,6 +96,10 @@ This lists systems on which Sage builds, but there are a few doctest errors.  Ho
 === Solaris ===
  * Solaris 10 on SPARC processors in 32-bit mode. You need to use the '''Solaris linker''' in /usr/ccs/bin/ld (this is normally the default), the GNU linker is not supported. Tested on [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]]
 
+=== FreeBSD ===
+ * Sage now works on FreeBSD 8.3 and 9, with only a few doctest errors.  One needs to use the system atlas, and a few other scripts, as well as many patches.   See [[http://www.freebsd.org/cgi/cvsweb.cgi/ports/math/sage/|here for a FreeBSD port]] of Sage, which should include most of this information.  Older information about the status of the FreeBSD port is archived at [[freebsd|Sage port to FreeBSD]].
+
+
 == Probably will not work ==
 None of these systems have a complete fully reliable port. In some cases completed ports are highly likely. In other cases, the porting effort is not very significant, and there may be insufficient effort to actually complete a port. 
 
@@ -103,11 +107,6 @@ If anyone has the time to help on these ports, it would be greatly appreciated.
 
 === AIX ===
  * A little work has been done on an AIX port. This can be followed at the [[AIX| AIX port page]]. It is not currently clear if this will ever be completed, as there is not a significant effort taking place. If you wish to help, that would be appreciated. If you do not have access to AIX hardware, [[http://www.metamodul.com/|Metamodul]] will provide free public access for open-source development. A couple of Sage developers have used this. Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/9999|Trac #9999]] has the latest list of known issues.
-
-=== FreeBSD ===
- * FreeBSD 8.1 (Substantial work has been done on this)
-
-More information about the status of the FreeBSD port can be found at [[freebsd|Sage port to FreeBSD]].
 
 === Linux ===
  * Mips64: The Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
