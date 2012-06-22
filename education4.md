@@ -23,7 +23,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 ||          || Sage/Mobile: Sage Tools and Contents (20 minutes)    ||Kyung-Won Kim, Sang-Gu Lee || ||
 ||          || Use of Sage in Teaching Linear Algebra (20 minutes)  ||Sang-Gu Lee                || [[attachment:sglee-edudays4.pdf|PDF Presentation]]||
 ||          || Sage Single Cell Server (20 minutes)                 ||Jason Grout, Ira Hanson, Steven Johnson || [[http://sage.math.washington.edu/home/jason/cellserverintro/|Introduction]], [[http://youtu.be/0sf5s2w8seM|Video for Introduction and Interact Database]], [[http://youtu.be/KYQNOAF36GQ|Video for next generation discussion]]||
-||          || Interact Database (20 minutes)                       ||Byron Varberg              || ||
+||          || Interact Database (20 minutes)                       ||Byron Varberg              || [[http://youtu.be/0sf5s2w8seM?t=14m9s|Video for Introduction and Interact Database]] (Byron's talk starts at 14:00)||
 ||~2:00 PM  || Question Session                                     ||Rob Beezer, et al          || ||
 || 4:00 PM  || Status Reports                                       ||                           || [[https://www.surveymonkey.com/s/SageDays2012Thursday|Thursday Survey]]||
 ||  ||  || ||  ||
