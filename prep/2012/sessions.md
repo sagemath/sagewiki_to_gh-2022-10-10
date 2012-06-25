@@ -59,7 +59,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Preparation for next sessions
       * Next Tutorial(s)
       * Pre-Workshop Survey for MAA
-      * [[#homework|Homework]] and 
+      * [[#homework|Homework Link]]
     * Announcements (Dan, 5 min)
       * [[#officehours|Office Hours]]
       * July Sessions
