@@ -54,7 +54,6 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Basics of Three-Dimensional Plotting
     * Questions (Karl-Dieter, 15 min)
     * Interacts (Dan Drake, 15 min)
-      * [[http://sage.maa.org/home/pub/5|Worksheet]] showing many different interact ideas
     * Homework (Karl-Dieter, 10 min)
       * Preparation for next sessions
       * Next Tutorial(s)
