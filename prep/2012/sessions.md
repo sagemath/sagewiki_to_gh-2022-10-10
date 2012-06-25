@@ -59,11 +59,18 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
       * Preparation for next sessions
       * Next Tutorial(s)
       * Pre-Workshop Survey for MAA
+      * [[#homework|Homework]] and 
     * Announcements (Dan, 5 min)
-      * Office Hours
+      * [[#officehours|Office Hours]]
       * July Sessions
 
 === Session Links ===
+
+  *
+  *
+  *
+
+==== Other potentially useful links ====
 
   * [[http://www.math.usm.edu/perry/old_classes/mat305fa09/index.html|John Perry's Mathematical Computing Course]]
   * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links")]]
@@ -79,7 +86,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://www.sagemath.org/download-windows.html|Sage on Windows]]
   * [[http://sage.maa.org/home/kcrisman/7|The worksheet shared with everybody]]
 
-== Warning: the sessions after the first are still in flux; what is below is largely based on the 2011 sessions ==
+== Warning: the rest of the schedule is still tentative ==
 
 <<Anchor(day2)>>
 == Tuesday, July 10 ==
@@ -250,14 +257,15 @@ And of course feel free to ask any questions on the MAA list for the
 workshop, or support question on
 [[http://groups.google.com/group/sage-support|sage-support]].
 
-(We'll post the sessions here later.)
+
+ * Between introductory session and intensive sessions (times TBA)
+||Date||Time (PDT)||Time (EDT)||Organizer||
+|| TBAday, xx June || 8-10AM || 11AM-1PM || Dan Drake ||
+|| TBAday, xx July || 12-2PM || 3-5PM || Dan Drake ||
+
+(We'll post the remaining sessions here later.)
 
 {{{#!wiki comment
-
- * Between introductory session and intensive sessions
-||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Monday, 30 May || 8-10AM || 11AM-1PM || Dan Drake ||
-|| Thursday, 02 June || 12-2PM || 3-5PM || Dan Drake ||
 
  * Between the various intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
@@ -276,7 +284,9 @@ workshop, or support question on
       * This is a nice way to try the help facilities.
     * Email the MAA PREP list with at least one question.
       * This could include starting a discussion about pedagogy!
+    * Be sure to complete MAA pre-evaluation if it's been sent out and you haven't yet.
     * If you would like, suggest topics for the next session.
+{{{#!wiki comment
   * For Tuesday, July 17th
     * Try out two of the "Quickstart" worksheets.
       * [[http://sage.maa.org/home/pub/21|Differential Equations]]
@@ -293,6 +303,11 @@ workshop, or support question on
     * Let us know about additional topics for the last time
     * Pick at least one worksheet you might want to share for next time
       * (Won't be required, but strongly encouraged)
+}}}
+  * For Tuesday, July 17th
+    * TBA
+  * For Tuesday, July 24th
+    * TBA
   * For the future
     * Meet up at !MathFest!
     * Use Sage in your classes
