@@ -69,7 +69,11 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://faculty.uml.edu/klevasseur/ads2/|Doerr and Lavasseur open source Discrete Math book with Sage]]
   * [[http://sagemath.org/download.html|Download Sage]]
   * [[http://sagemath.org/download-linux.html|Download Sage for Linux]]
+  * [[http://www.sagemath.org/download-windows.html|Sage on Windows]]
+  * [[http://wiki.sagemath.org/SageApplianceInstallation|More info about Sage on Windows]]
   * [[http://www.mathjax.org/|MathJax for wonderful typesetting on the web]]
+  * [[https://bitbucket.org/rbeezer/tex2sws/|tex2sws for making LaTeX become Sage Worksheets]]
+  * [[http://wiki.sagemath.org/SageServer|Setting up a Sage server]]
 
 ==== Other potentially useful links ====
 
@@ -77,15 +81,11 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://buzzard.ups.edu/stb-seminar.html|Beezer's TeX Resources (bottom half of "Links")]]
   * [[http://wstein.org/mathsoftbio/history.pdf|William Stein's Sage/Mathematical History]]
   * [[http://www.cython.org/|Sage's Python to C translator]]
-  * [[http://wiki.sagemath.org/SageServer|Setting up a Sage server]]
   * [[http://www.rstudio.org/|R Studio]] (not Sage, but an R interface)
   * [[http://mirror.unl.edu/ctan/help/Catalogue/entries/sagetex.html|SageTeX]]
-  * [[https://bitbucket.org/rbeezer/tex2sws/|tex2sws for making LaTeX become Sage Worksheets]]
   * [[https://bitbucket.org/whuss/sws2tex/|sws2tex for making nicely typeset output from Sage Worksheets]]
   * [[http://www.sagemath.org/doc/reference/sage/interfaces/magma.html|Magma and Sage interface]]
   * [[http://wiki.sagemath.org/sage-mode|Sage mode in Emacs]]
-  * [[http://www.sagemath.org/download-windows.html|Sage on Windows]]
-  * [[http://sage.maa.org/home/kcrisman/7|The worksheet shared with everybody]]
 
 == Warning: the rest of the schedule is still tentative ==
 
