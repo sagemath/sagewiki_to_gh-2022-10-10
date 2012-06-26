@@ -261,8 +261,8 @@ workshop, or support question on
 
  * Between introductory session and intensive sessions (times TBA)
 ||Date||Time (PDT)||Time (EDT)||Organizer||
-|| TBAday, xx June || 8-10AM || 11AM-1PM || Dan Drake ||
-|| TBAday, xx July || 12-2PM || 3-5PM || Dan Drake ||
+|| Friday June 29 || 9-11AM || 12-2PM || Dan Drake ||
+|| TBAday, xx July || 12-2PM || 3-5PM || Karl-Dieter Crisman ||
 
 (We'll post the remaining sessions here later.)
 
