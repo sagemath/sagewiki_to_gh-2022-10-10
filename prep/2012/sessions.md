@@ -68,6 +68,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://math.slu.edu/~rainbolt/manual2.html|Gallian's abstract algebra text GAP resources]]
   * [[http://faculty.uml.edu/klevasseur/ads2/|Doerr and Lavasseur open source Discrete Math book with Sage]]
   * [[http://sagemath.org/download.html|Download Sage]]
+  * [[http://sagemath.org/download-linux.html|Download Sage for Linux]]
   * [[http://www.mathjax.org/|MathJax for wonderful typesetting on the web]]
 
 ==== Other potentially useful links ====
