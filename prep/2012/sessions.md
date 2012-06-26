@@ -80,6 +80,7 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://sagenb.kaist.ac.kr:8022/?q=d2a5385c-04d0-4b73-b56c-858ff5a599a4|Sample Sage cell short link]]
   * [[http://www.molto-project.eu/wiki/living-deliverables/d62-prototype-comanding-cas/gfsage-natural-language-interface-sage|Natural language interface with Sage]]
   * [[http://xkcd.com/833/|xkcd on the importance of labeling your axes]]
+  * [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html?highlight=interact#sagenb.notebook.interact.interact|Interact documentation]]
 
 ==== Other potentially useful links ====
 
