@@ -41,7 +41,6 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
     * Welcome Back (Dan, 5 min)
     * Resources (Dan, 15 min)
       * [[http://ask.sagemath.org|ask.sagemath.org]]
-      * Help in the notebook
       * [[http://sagemath.org/development.html#mailingList|Google Groups]]
         * [[http://groups.google.com/group/sage-support|sage-support]]
         * [[http://groups.google.com/group/sage-edu|sage-edu]]
