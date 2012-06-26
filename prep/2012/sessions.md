@@ -75,6 +75,8 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://www.mathjax.org/|MathJax for wonderful typesetting on the web]]
   * [[https://bitbucket.org/rbeezer/tex2sws/|tex2sws for making LaTeX become Sage Worksheets]]
   * [[http://wiki.sagemath.org/SageServer|Setting up a Sage server]]
+  * [[http://aleph.sagemath.org/|Sage cell server link]]
+  * [[http://sagenb.kaist.ac.kr:8022/|Sage cell at KAIST]]
 
 ==== Other potentially useful links ====
 
