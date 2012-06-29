@@ -32,8 +32,8 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
 
 == Getting Started ==
- * [[http://wiki.sagemath.org/installing_sage|Installing Sage]]
- * [[http://wiki.sagemath.org/getting_a_trac_account|Getting a Trac Account]]
+ * [[http://wiki.sagemath.org/DownloadAndInstallationGuide|Installing Sage]]
+ * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]]
  * [[http://wiki.sagemath.org/development_basics|Development Basics]]
  * [[http://wiki.sagemath.org/problem_sets|Problem Sets]]
 
