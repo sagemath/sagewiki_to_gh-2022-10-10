@@ -30,6 +30,14 @@ This will be a 4-day workshop which will include a combination of mathematical t
  * Stephanie Treneer
  * Christelle Vincent
 
+
+== Getting Started ==
+ * [[http://wiki.sagemath.org/installing_sage|Installing Sage]]
+ * [[http://wiki.sagemath.org/getting_a_trac_account|Getting a Trac Account]]
+ * [[http://wiki.sagemath.org/development_basics|Development Basics]]
+ * [[http://wiki.sagemath.org/problem_sets|Problem Sets]]
+
+
 == Other Info ==
 
  * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), Lola Thompson (Dartmouth) 
