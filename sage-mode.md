@@ -10,6 +10,8 @@ Copyright (C) 2007, 2008, 2009, 2010, 2011  Nick Alexander
 
 Author: Nick Alexander <ncalexander [at] gmail.com>
 
+Maintainer: Ivan Andrus <darthandrus  [at] gmail.com>
+
 sage-mode is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2, or (at your option)
@@ -27,19 +29,21 @@ Boston, MA 02110-1301, USA.
 
 == SPKG Maintainers ==
 
- * Nick Alexander
+ * Ivan Andrus
 
 == Upstream Contact ==
 
- * Author: Nick Alexander <ncalexander [at] gmail.com>
- * Bitbucket mercurial repository: [[http://bitbucket.org/ncalexan/sage-mode]]
+ * Maintainer: Ivan Andrus <darthandrus [at] gmail.com>
+ * Bitbucket mercurial repository: [[http://bitbucket.org/gvol/sage-mode]]
 
 == Dependencies ==
 
  * sage
- * GNU Emacs (with a current python.el)
+ * GNU Emacs (with python.el, not python-mode.el)  Currently the newest python.el (which is a rewrite by fgallina) is not fully supported.
 
 == Special Update/Build Instructions ==
+
+sage-mode (version 0.6) is an optional package, so {{{sage -f sage-mode-0.6}}} should work.  You may use the newer version 0.7 below, or the experimental [[http://boxen.math.washington.edu/home/iandrus/sage_mode-0.8.spkg]], or follow development directly from the repository at[[http://bitbucket.org/gvol/sage-mode]].
 
 [[attachment:sage-mode-0.7.spkg]]
 
@@ -55,22 +59,25 @@ A basic install might include the following Emacs Lisp in your .emacs:
 ;; If you want sage-view to typeset all your output and have plot()
 ;; commands inline, uncomment the following line and configure sage-view:
 ;; (require 'sage-view "sage-view")
-;; (add-hook 'sage-startup-hook 'sage-view)
+;; (add-hook 'sage-startup-after-prompt-hook 'sage-view)
 ;; You can use commands like
-;; (add-hook 'sage-startup-hook 'sage-view
-;; 'sage-view-disable-inline-output 'sage-view-disable-inline-plots)
-;; to have some combination of features.  In future, the customize interface
-;; will make this simpler... hint, hint!
+;; (add-hook 'sage-startup-after-prompt-hook 'sage-view-disable-inline-output)
+;; (add-hook 'sage-startup-after-prompt-hook 'sage-view-disable-inline-plots)
+;; to enable some combination of features
 }}}
 
 == Changelog ==
+
+=== sage-mode-0.8- (Ivan Andrus, ????) ===
+* Not yet released.  Adds incomplete support for new python.el
+* Experimental spkg located at http://boxen.math.washington.edu/home/iandrus/sage_mode-0.8.spkg
 
 === sage-mode-0.7 (Nick Alexander, 2011-10-07) ===
 * Fix a bug reported by Ivan Andrus regarding font-lock and
 triple-quoted strings.
 
 * sage-mode is now hosted on bitbucket for easy viewing and cloning:
-browse to [[http://bitbucket.org/ncalexan/sage-mode]].
+browse to [[http://bitbucket.org/gvol/sage-mode]].
 
 === sage-mode-0.6 (Nick Alexander, 2009-05-11) ===
 * `sage-run' no longer waits for a sage: prompt by default.  This can cause
