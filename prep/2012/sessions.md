@@ -95,8 +95,6 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
   * [[http://www.sagemath.org/doc/reference/sage/interfaces/magma.html|Magma and Sage interface]]
   * [[http://wiki.sagemath.org/sage-mode|Sage mode in Emacs]]
 
-== Warning: the rest of the schedule is still tentative ==
-
 <<Anchor(day2)>>
 == Tuesday, July 10 ==
 
@@ -129,13 +127,27 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
     * Classroom demos: [[http://sage.maa.org/home/pub/12|Multivariable]] (Dan, 15 min)
     * Short Break
     * Participant demo worksheets! (25 min)
-      * Making [[http://sage.maa.org/home/pub/17|tables]]
-      * Percentage of [[http://sage.maa.org/home/pub/19|Area of a Square]]
+      * Your contribution?
+      * Your friend's contribution?
     * [[http://sage.maa.org/home/pub/15|Advanced 2D plotting]] (Dan, 30 min)
     * Announcements (Dan, 5 min)
       * Office Hours
       * Next Session
       * Homework
+
+=== Session Links ===
+
+  * 
+  * 
+
+==== Other potentially useful links ====
+
+  * 
+  * 
+
+
+== Warning: the rest of the schedule is still tentative ==
+
 
 <<Anchor(day3)>>
 == Tuesday, July 17 ==
