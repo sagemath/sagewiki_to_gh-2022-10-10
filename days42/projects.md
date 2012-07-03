@@ -1,22 +1,21 @@
-
 == Jen's project ==
 
 == Kristin's project ==
  
-Recall that the Hilbert class polynomial has as its zeros j-invariants of elliptic curves with complex multiplication (CM). In the case of genus 2, Igusa class polynomials play the analogous role: their zeros are Igusa invariants of genus 2 curves whose Jacobians have CM by a quartic CM ﬁeld K. These Igusa invariants, in turn, require knowledge of the Siegel modular forms $\chi_10$ and \chi_12.
+Recall that the Hilbert class polynomial has as its zeros j-invariants of elliptic curves with complex multiplication (CM). In the case of genus 2, Igusa class polynomials play the analogous role: their zeros are Igusa invariants of genus 2 curves whose Jacobians have CM by a quartic CM ﬁeld K. These Igusa invariants, in turn, require knowledge of the Siegel modular forms $\chi_{10}$ and $\chi_{12}$.
 
 One computational difference between genus 1 and 2 is that the Hilbert class polynomial has coefficients in Z, whereas the Igusa class polynomials have coefficients in Q. The difficulty, then, in genus 2, is understanding how bad these denominators are, because recovering the coeﬃcients from approximations requires a bound on the denominators. (See, e.g., [2].  For some other details on the circle of ideas involved, see [3].)
 
-In genus 3, the analogous computation requires us to properly understand \chi_18. This project will be about various things concerning \chi_18, with the eventual goal of getting some computational data for \chi_18 evaluated at CM points which we could study arithmetically and use to prove bounds on the primes which appear.
+In genus 3, the analogous computation requires us to properly understand $\chi_{18}$. This project will be about various things concerning \chi_18, with the eventual goal of getting some computational data for $\chi_{18}$ evaluated at CM points which we could study arithmetically and use to prove bounds on the primes which appear.
 
 Here are some starting points:
 
-0) Understand the definition of \chi_18, as in pp. 850 - 854 of [4].
-(Lemma 10 defines \chi_18 as the product of the 36 even theta characteristics and Lemma 11 gives a geometric interpretation.)
+0) Understand the definition of $\chi_{18}$, as in pp. 850 - 854 of [4].
+(Lemma 10 defines $\chi_{18}$ as the product of the 36 even theta characteristics and Lemma 11 gives a geometric interpretation.)
 
-1) Has \chi_18 been expressed in terms of Eisenstein series, as has been done for \chi_10 and \chi_12? See pp. 189-195 in [5].  In [1], evaluating Igusa functions via the Eisenstein series expansion is investigated, and explicit bounds are proved on the tail of the expansion.  Analogous bounds in the genus 3 case could also be helpful.
+1) Has $\chi_{18}$ been expressed in terms of Eisenstein series, as has been done for $\chi_{10}$ and $\chi_{12}$? See pp. 189-195 in [5].  In [1], evaluating Igusa functions via the Eisenstein series expansion is investigated, and explicit bounds are proved on the tail of the expansion.  Analogous bounds in the genus 3 case could also be helpful.
 
-2)  Ritzenthaler used the 36 even theta characteristics definition to do some explicit computations of \chi_18 when the abelian variety is a power of an elliptic curve E with complex multiplication. Some details are in Section 4 of [7]. Compare this computation (timing-wise) to one that uses the Fourier expansion definition. Which one converges faster/is more efficient? Which one allows us to better control precision?
+2)  Ritzenthaler used the 36 even theta characteristics definition to do some explicit computations of $\chi_{18}$ when the abelian variety is a power of an elliptic curve E with complex multiplication. Some details are in Section 4 of [7]. Compare this computation (timing-wise) to one that uses the Fourier expansion definition. Which one converges faster/is more efficient? Which one allows us to better control precision?
 
 References:
 
