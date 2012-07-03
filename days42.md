@@ -12,8 +12,7 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
  * July 15-19, 2012 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]]
  * Note: check-in at the Lodge is at 3pm on July 15; check-out is 11am on the 19th
- * Floorplan: [[attachment:floorplan.jpeg]] (15 beds)  and preliminary room assignments
-
+ * Floorplan: [[attachment:floorplan.jpeg]] and [[/rooms/|preliminary room assignments]]
 == Speakers ==
 
  * Jennifer Johnson-Leung (University of Idaho)
