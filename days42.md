@@ -6,7 +6,7 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
 == Projects ==
   
-([[/projects/|projects]])
+[[/projects/|preliminary reading]]
 
 == Dates/Location ==
 
