@@ -6,7 +6,7 @@ Recall that the Hilbert class polynomial has as its zeros j-invariants of ellipt
 
 One computational difference between genus 1 and 2 is that the Hilbert class polynomial has coefficients in Z, whereas the Igusa class polynomials have coefficients in Q. The difficulty, then, in genus 2, is understanding how bad these denominators are, because recovering the coeﬃcients from approximations requires a bound on the denominators. (See, e.g., [2].  For some other details on the circle of ideas involved, see [3].)
 
-In genus 3, the analogous computation requires us to properly understand $\chi_{18}$. This project will be about various things concerning \chi_18, with the eventual goal of getting some computational data for $\chi_{18}$ evaluated at CM points which we could study arithmetically and use to prove bounds on the primes which appear.
+In genus 3, the analogous computation requires us to properly understand $\chi_{18}$. This project will be about various things concerning $\chi_{18}$, with the eventual goal of getting some computational data for $\chi_{18}$ evaluated at CM points which we could study arithmetically and use to prove bounds on the primes which appear.
 
 Here are some starting points:
 
