@@ -6,7 +6,7 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
 == Projects ==
   
-
+([[/projects/|projects]])
 
 == Dates/Location ==
 
@@ -16,7 +16,7 @@ This will be a 4-day workshop which will include a combination of mathematical t
 == Speakers ==
 
  * Jennifer Johnson-Leung (University of Idaho)
- * Kristin Lauter (Microsoft Research) ([[/projects/|project]])
+ * Kristin Lauter (Microsoft Research) 
  * Michelle Manes (University of Hawaii)
 
 == Participants ==
