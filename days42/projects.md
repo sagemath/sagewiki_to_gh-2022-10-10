@@ -1,10 +1,9 @@
 
-
 == Jen's project ==
 
 == Kristin's project ==
  
-Recall that the Hilbert class polynomial has as its zeros j-invariants of elliptic curves with complex multiplication (CM). In the case of genus 2, Igusa class polynomials play the analogous role: their zeros are Igusa invariants of genus 2 curves whose Jacobians have CM by a quartic CM ﬁeld K. These Igusa invariants, in turn, require knowledge of the Siegel modular forms \chi_10 and \chi_12.
+Recall that the Hilbert class polynomial has as its zeros j-invariants of elliptic curves with complex multiplication (CM). In the case of genus 2, Igusa class polynomials play the analogous role: their zeros are Igusa invariants of genus 2 curves whose Jacobians have CM by a quartic CM ﬁeld K. These Igusa invariants, in turn, require knowledge of the Siegel modular forms $\chi_10$ and \chi_12.
 
 One computational difference between genus 1 and 2 is that the Hilbert class polynomial has coefficients in Z, whereas the Igusa class polynomials have coefficients in Q. The difficulty, then, in genus 2, is understanding how bad these denominators are, because recovering the coeﬃcients from approximations requires a bound on the denominators. (See, e.g., [2].  For some other details on the circle of ideas involved, see [3].)
 
