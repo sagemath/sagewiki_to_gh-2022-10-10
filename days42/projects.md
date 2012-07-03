@@ -1,8 +1,8 @@
-= Sage Days 42: Women in Sage (3) =
 
-== Jen's project == 
 
-== Kristin's project == 
+== Jen's project ==
+
+== Kristin's project ==
  
 Recall that the Hilbert class polynomial has as its zeros j-invariants of elliptic curves with complex multiplication (CM). In the case of genus 2, Igusa class polynomials play the analogous role: their zeros are Igusa invariants of genus 2 curves whose Jacobians have CM by a quartic CM ﬁeld K. These Igusa invariants, in turn, require knowledge of the Siegel modular forms \chi_10 and \chi_12.
 
@@ -35,4 +35,4 @@ References:
 
 [7] C. Ritzenthaler, Explicit computations of Serre's obstruction for genus-3 curves and application to optimal curves. LMS J. Comput. Math.13 (2010), 192-207 (http://arxiv.org/pdf/0901.2920v2).
 
-== Michelle's project == 
+== Michelle's project ==
