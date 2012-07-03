@@ -1,4 +1,4 @@
-= Projects = 
+= Sage Days 42: Women in Sage (3) =
 
 == Jen's project == 
 
