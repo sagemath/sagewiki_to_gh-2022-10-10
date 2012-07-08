@@ -101,17 +101,19 @@ Questions are encouraged!  With that in mind, note that we have ample time for a
 Our goal on the second day of sessions is to start deepening your knowledge of Sage, and to give opportunities to share ideas about technology and how to use worksheets which you have.
 
 === Session I - Calculus ===
-    * Welcome Back: Organizers and Participants (Karl-Dieter, 10 min)
-    * Review (and expand on) "[[http://sage.maa.org/home/pub/7|PREP Calculus Tutorial]]" worksheet (Karl-Dieter, 30 min)
+    * Welcome Back: Organizers and Participants (Dan, 10 min)
+    * Review (and expand on) "[[http://sage.maa.org/home/pub/7|PREP Calculus Tutorial]]" worksheet (Dan, 30 min)
       * Calc I, II, III
       * Limits, Diff'l. Calc, Integral Calc., Multivariate
-    * Questions (Karl-Dieter, 10 min)
+    * Questions (Dan, 10 min)
     * Short Break
-    * Technology in the Classroom discussion (30 min)
-       * As a tool, not a crutch - ideas?
-       * Models for dissemination
+    * Technology in the Classroom brainstorm 
+       * What have you heard of being done/working? (Karl-Dieter, 20 min)
+         * As a tool, not a crutch - ideas?
+         * Models for dissemination
       * Classroom-type demo: [[http://sage.maa.org/home/pub/13|Chaos and Calculus]] (Karl-Dieter, 10 min)
-    * Questions and end (Dan, 15 min)
+      * Classroom-type demo: [[http://sage.maa.org/home/pub/??|TBA MV Calc]] (Karl-Dieter, 10 min)
+      * WeBWorK and Sage in Multivariable Calc (Karl-Dieter, 15 min)
 
 === Session II - Plotting, Demos, and Programming ===
     * Welcome Back (Karl-Dieter, 5 min)
@@ -123,8 +125,8 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
        * Defining functions with "def"
        * Renaming 'Gotchas'
     * Questions (Karl-Dieter, 5 min)
-    * Classroom demos: [[http://sage.maa.org/home/pub/14|Linear Algebra]] (Dan, 15 min)
-    * Classroom demos: [[http://sage.maa.org/home/pub/12|Multivariable]] (Dan, 15 min)
+    * Classroom demos: [[http://sage.maa.org/home/pub/??|TBA]] (Dan, 15 min)
+    * Classroom demos: [[http://sage.maa.org/home/pub/??|TBA]] (Dan, 15 min)
     * Short Break
     * Participant demo worksheets! (25 min)
       * Your contribution?
@@ -136,11 +138,6 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
       * Homework
 
 === Session Links ===
-
-  * 
-  * 
-
-==== Other potentially useful links ====
 
   * 
   * 
@@ -284,17 +281,12 @@ workshop, or support question on
 || Friday June 29 || 9-11AM || 12-2PM || Dan Drake ||
 || Thursday, 5 July || 11-1PM || 2-4PM || Karl-Dieter Crisman ||
 
-(We'll post the remaining sessions here later.)
-
-{{{#!wiki comment
-
  * Between the various intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
-|| Thursday, 09 June || 12-1 PM || 3-4 PM || Karl-Dieter Crisman ||
-|| Friday, 10 June || 8-9 AM || 11-12 AM || Karl-Dieter Crisman ||
-|| Wednesday, 15 June || 8:30-9:30 AM || 11:30-12:30 PM || Dan Drake ||
-|| Friday, 17 June || 1-2 PM || 4-5 PM || Karl-Dieter Crisman ||
-}}}
+|| TBAsday, ?? June || TBA || TBA || Dan Drake ||
+|| Monday, 16 July || TBA || TBA || Karl-Dieter Crisman ||
+
+Final week office hours TBA
 
 <<Anchor(homework)>>
 == Homework ==
@@ -326,8 +318,6 @@ workshop, or support question on
     * Pick at least one worksheet you might want to share for next time
       * (Won't be required, but strongly encouraged)
 }}}
-  * For Tuesday, July 17th
-    * TBA
   * For Tuesday, July 24th
     * TBA
   * For the future
