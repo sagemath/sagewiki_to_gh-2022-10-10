@@ -307,7 +307,6 @@ workshop, or support question on
       * This could include starting a discussion about pedagogy!
     * Be sure to complete MAA pre-evaluation if it's been sent out and you haven't yet.
     * If you would like, suggest topics for the next session.
-{{{#!wiki comment
   * For Tuesday, July 17th
     * Try out two of the "Quickstart" worksheets.
       * [[http://sage.maa.org/home/pub/21|Differential Equations]]
@@ -319,7 +318,9 @@ workshop, or support question on
       * [[http://sage.maa.org/home/pub/28|Linear Algebra]]
       * [[http://sage.maa.org/home/pub/27|Numerical Analysis]]
     * Continue any discussions you want on the list about technology.
-    * Continue to work on a couple worksheets demonstrating what you want to show.
+    * Make improvements to a couple worksheets demonstrating what you want to show.
+      * Be ready to show one of them off for feedback!
+{{{#!wiki comment
   * For Tuesday, July 24st
     * Let us know about additional topics for the last time
     * Pick at least one worksheet you might want to share for next time
