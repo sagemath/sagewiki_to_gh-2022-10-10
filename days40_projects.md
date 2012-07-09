@@ -71,15 +71,15 @@ Franco Saliola
 Charles Paquette
 Alex Fink
 Julie
-Al Gerver
+Al Garver
 
 Clusters algebras from surfaces
 ===============================
 
 Gregg
-Al Gerver
+Al Garver
 Weiwen Gu
-Emily
+Emily Gunawan
 
 Graphs
 ======
@@ -140,6 +140,7 @@ Nicolas
 Franco
 Anne
 Dan
+Gregg
 ...
 
 
@@ -177,7 +178,7 @@ Mark
 Alex
 Nicolas
 Kaisa
-Yas
+Yasuhide
 Tom
 
 
