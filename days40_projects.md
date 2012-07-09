@@ -18,7 +18,7 @@ Dorota
 
 Arithmetic dynamics & symmetric functions
 -----------------------------------------
-
+Ben Hutz
 
 Grothendieck polynomials / ...
 ==============================
