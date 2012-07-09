@@ -204,10 +204,10 @@ Statistics on permutations
 Kim2
 
 
-Interface to gfan
-=================
+Interface to Gfan and version update
+====================================
 
-Marshall
+Marshall Hampton
 
 Complex reflexion groups
 ========================
