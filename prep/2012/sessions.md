@@ -129,8 +129,8 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
     * Classroom demos: [[http://sage.maa.org/home/pub/135|complex plotting]] (Dan, 15 min)
     * Short Break
     * Participant demo worksheets! (25 min)
-      * Your contribution?
-      * Your friend's contribution?
+      * Complex plot of Newton's method!
+      * Embeddings of the Sage cell server
     * [[http://sage.maa.org/home/pub/15|Advanced 2D plotting]] (Dan, 30 min)
     * Announcements (Dan, 5 min)
       * Office Hours
