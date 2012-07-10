@@ -145,6 +145,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
   * [[https://sagenb.kaist.ac.kr:8066/home/pub/55|Example worksheet with cool function coloring]]
   * [[http://www.ams.org/notices/201106/rtx110600768p.pdf|AMS Notices article about visual complex analysis]]
   * [[http://usf.usfca.edu/vca/|Needham's Visual Complex Analysis]]
+  * @interacts demonstrated by workshop participants: [[http://users.wpi.edu/~jgagnon/sagetest.html]], [[http://algebra.sci.csueastbay.edu/~yap/Example/example.html]]
 
 == Warning: the rest of the schedule is still tentative ==
 
