@@ -34,3 +34,41 @@ References:
 [7] C. Ritzenthaler, Explicit computations of Serre's obstruction for genus-3 curves and application to optimal curves. LMS J. Comput. Math.13 (2010), 192-207 (http://arxiv.org/pdf/0901.2920v2).
 
 == Michelle's project ==
+
+A discrete dynamical system simply consists of a set $S$ with a self-map $\phi : S \to S$, thus allowing iteration.  A fundamental goal of dynamics is to classify the points of $S$ (for various choices of $S$ and various maps) according to the behavior of their forward orbit:
+\[
+\mathcal O_\phi (x) = \{ x, \phi(x), \phi^2(x), \phi^3(x), \ldots \}.
+\]
+(Here the exponent $n$ denotes $n$-fold composition, and we take $\phi^0(x) = x$.)
+If the orbit is finite, the point is pre-periodic.  That is, for some integers $m > n \geq 0$ we have $\phi^m(x) = \phi^n(x)$.  If the orbit is infinite, the point is called wandering.
+
+Of course, when the set $S$ is taken to be a finite field, all orbits are finite, hence all points are pre-periodic.  It is then natural to ask what the orbit structures might look like.  Consider a quadratic map of the form $\phi(x) = x^2 + c$ over a finite field $\mathbb F_q$.  Every point (other than $c$) should have two preimages.  Do you expect one large cycle using about half the points, with the other half feeding in to each of the points on the cycle?  Or do you expect several small cycles?  Or do you expect relatively few small cycles, with lots of points feeding in?  (In other words, what proportion of the points do you expect to be actually periodic --- meaning that $\phi^n(x) = x$ for some $n>0$ --- versus strictly pre-periodic?  And can you say anything about the expected sizes of the cycles?)
+
+
+
+{\bf Readings:}  A short general introduction to dynamics can be found in Joe Silverman's lecture notes from the 2010 Arizona Winter School: 
+\url{http://swc.math.arizona.edu/aws/2010/2010SilvermanNotes.pdf}.  A more thorough introduction can be found in Silverman's book \emph{The Arithmetic of Dynamical Systems}.
+
+In her thesis (available here: \url{http://hdl.handle.net/1802/17020}), Madhu investigates the polynomial map $\phi(x) = x^m + c$.  She shows that,  under some hypotheses on $m$ and $c$, we have
+\[
+\lim_{p\to \infty} \frac{\#\left\{ \mathbb F_p \textup{ periodic points of } \phi \right\}}{p} = 0.
+\]
+In other words, we expect a small number of periodic points with long tails feeding in.  
+
+Flynn and Garton (preprint here: \url{http://arxiv.org/abs/1108.4132}) tackle questions of the average number of connected components and average number of periodic points for dynamical systems over a finite field.  They prove that the average number of periodic points of a polynomial over $\mathbb F_q$ is bounded below by $\frac 5 6\sqrt q$, but their results are only strong when the degree $d$ of the polynomial is greater than $\sqrt q$.
+
+
+Projects:
+\begin{enumerate}
+\item
+Building on Madhu's thesis described above:
+What about other types of maps?  (Non uni-critical?  Non polynomial?)  Does the result or something like it still hold?
+\item
+Also building on Madhu's thesis:
+What if we look at a tower of finite fields instead?  Is it true under reasonable assumptions on $m$ and $c$ that 
+\[
+\lim_{n\to \infty} \frac{\#\left\{ \mathbb F_{p^n} \textup{ periodic points of } \phi \right\}}{p^n} = 0?
+\]
+\item
+If we start with a polynomial $\phi(x) \in \mathbb Q[x]$, for all but finitely may primes $p$, we have the reduction $\phi_p \in \mathbb F_p[x]$ as a polynomial of the same degree.  Are there global polynomials so that the reduction has an unexpectedly large set of periodic points (and, of course,  what do we mean by ``unexpectedly large'')?
+\end{enumerate}
