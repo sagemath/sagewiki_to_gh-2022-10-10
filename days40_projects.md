@@ -132,8 +132,18 @@ more examples of posets
 
 graph_editor
 
-Simplicial Complexes
-=====================
+disjoint union
+
+ordinal sum
+
+product
+
+interval posets
+
+
+
+Simplicial Complexes:
+
 Shellability
 
 G-posets - homology modules
