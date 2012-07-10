@@ -111,6 +111,56 @@ Kevin
 Thomas
 Alex Csar?
 
+
+Wish List
+=============================
+Posets:
+
+is_modular
+
+is_atomic
+
+is_semimodular
+
+adding functionality to poset elements
+
+iterate over lattices
+
+zeta, order, characteristic polynomials
+
+more examples of posets
+
+graph_editor
+
+Simplicial Complexes
+=====================
+Shellability
+
+G-posets - homology modules
+
+H_*(-, S), H^*(-, R) for manifolds S, R
+
+cup products
+
+cohomology operations
+
+how to represent (co-)homology classes?
+
+links (already done)
+
+stars
+
+Cohen-Macalaulay
+
+Fundamental Group
+
+is_shifted
+
+is_pseduo-manifold
+
+Complex Projective Space
+
+
 Topological structures & categories & their reps
 ------------------------------------------------
 
