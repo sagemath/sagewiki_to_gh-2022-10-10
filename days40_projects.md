@@ -116,11 +116,11 @@ Wish List
 =============================
 Posets:
 
-is_modular
+is_modular - Alex Csar
 
 is_atomic
 
-is_semimodular
+is_semimodular - Alex Csar
 
 adding functionality to poset elements
 
@@ -129,6 +129,8 @@ iterate over lattices
 zeta, order, characteristic polynomials
 
 more examples of posets
+ * Young diagrams - Kevin
+ * Semistandard tableaux - Jessica/
 
 graph_editor
 
