@@ -48,7 +48,7 @@ Tutorial I: Using the Sage notebook and navigating the help system
 Tutorial II: Programming in Python and Sage
 --------------------------------------------
 
- Leader: Nicolas Borie and Nicolas Thiery
+ Leader: Nicolas Borie and Nicolas Thiéry
 
  Worksheet:
 
