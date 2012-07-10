@@ -34,3 +34,5 @@ References:
 [7] C. Ritzenthaler, Explicit computations of Serre's obstruction for genus-3 curves and application to optimal curves. LMS J. Comput. Math.13 (2010), 192-207 (http://arxiv.org/pdf/0901.2920v2).
 
 == Michelle's project ==
+
+[[attachment:ManesProject.pdf]]
