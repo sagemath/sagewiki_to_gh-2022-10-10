@@ -125,8 +125,8 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
        * Defining functions with "def"
        * Renaming 'Gotchas'
     * Questions (Karl-Dieter, 5 min)
-    * Classroom demos: [[http://sage.maa.org/home/pub/??|TBA]] (Dan, 15 min)
-    * Classroom demos: [[http://sage.maa.org/home/pub/??|TBA]] (Dan, 15 min)
+    * Classroom demos: [[http://sage.maa.org/home/pub/136|singular value decomposition]] (Dan, 15 min)
+    * Classroom demos: [[http://sage.maa.org/home/pub/135|complex plotting]] (Dan, 15 min)
     * Short Break
     * Participant demo worksheets! (25 min)
       * Your contribution?
