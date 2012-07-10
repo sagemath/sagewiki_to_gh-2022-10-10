@@ -143,6 +143,8 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
   * [[http://aleph.sagemath.org/?z=eJxL06jQVLBVqNCv4EqHMvVyS3M0DPUrdDLyc1JsQ4pKUzW5Cooy80oU0jQMNLlKiiqtuBSAIB3ES61ITi0ogQhAFCllligUJWYWp6YoJOYppBYV5RcpKgEABMkeWg%3D%3D|Doing x/x as undefined at x=0]]
   * [[https://www.math.duke.edu/education/calculustext-rev11/|MAA calc text with Sage - preliminary]]
   * [[https://sagenb.kaist.ac.kr:8066/home/pub/55|Example worksheet with cool function coloring]]
+  * [[http://www.ams.org/notices/201106/rtx110600768p.pdf|AMS Notices article about visual complex analysis]]
+  * [[http://usf.usfca.edu/vca/|Needham's Visual Complex Analysis]]
 
 == Warning: the rest of the schedule is still tentative ==
 
