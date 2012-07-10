@@ -15,7 +15,8 @@ Tutorial I: Using the Sage notebook and navigating the help system
 
  Worksheet:
 
- - `Using the Sage Notebook and navigating the help system`__
+ - `Using the Sage Notebook and navigating the help system`_
+   (here is the `html version`__ of this worksheet)
 
    __ http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html
 
@@ -31,7 +32,9 @@ Tutorial I: Using the Sage notebook and navigating the help system
 
  Complimentary worksheets and resources:
 
- - `Calculus`__ and `Linear Algebra`__ in Sage
+ - `Calculus and Linear Algebra in Sage`_
+   (`html version of the calculus part`__ and
+   `html version of the linear algebra part`__ of the worksheet)
 
    __ http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet04-CalculusPlottingInteract.html
    __ http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet06-LinearAlgebra.html
