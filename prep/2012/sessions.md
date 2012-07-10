@@ -139,7 +139,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
 
 === Session Links ===
 
-  * 
+  * [[http://www.facebook.com/pages/Sage-Math/26593144945|Sage Facebook page]]
   * 
 
 
