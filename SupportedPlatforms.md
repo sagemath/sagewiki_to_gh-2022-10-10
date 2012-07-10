@@ -45,7 +45,7 @@ There are several requirements for Sage to work successfully on these fully supp
  * Redhat 5.6 (Tikanga) on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/rosemary-1|rosemary]]
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
  * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
- * Ubuntu 12.04 on x86 (32-bit).  Make sure that the ''dpkg-dev'' package is installed.  Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]]
+ * Ubuntu 12.04 on x86 (32-bit and 64-bit).  Make sure that the ''dpkg-dev'' package is installed.  Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]] and [[http://build.sagemath.org/sage/buildslaves/snapperkob|snapperkob]]
 
 === Mac OS X ===
  * OS X 10.4 (Tiger) on PPC.  Tested on [[http://build.sagemath.org/sage/buildslaves/moufang-1|moufang]]
