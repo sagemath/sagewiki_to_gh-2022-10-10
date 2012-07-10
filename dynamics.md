@@ -17,6 +17,7 @@ This page is an organization wiki for the implementation in Sage of various algo
   * [[combinat/Installation|installation instructions]]: how to install sage-combinat on your computer and be able to use all dynamics code
   * [[combinat|combinat wiki]]: the wiki page of the combinat community
   * [[dynamics/examples]]: examples that are produced with the code of sage-dynamics
+  * [[https://lma.metelu.net/mailman/listinfo/sage-dynamics|sage-dynamics mailing-list]]
 
 == Organization ==
 
