@@ -135,12 +135,12 @@ Tutorial III: Contributing to Sage
 .. links
 
 .. attachments
-.. _`Using the Sage Notebook and navigating the help system`: attachment:tutorial1.sws
-.. _`Calculus and Linear Algebra in Sage`: attachment:tutorial2.sws
-.. _`Programming in Python and Sage`: attachment:tutorial3.sws
-.. _`Collatz conjecture`: attachment:CollatzConjecture.sws
-.. _`Dictionaries and Graph Theory`: attachment:Dictionaries-GraphTheory.sws
-.. _`Strings and the Burrows-Wheeler Transform`: attachment:Strings-BWT.sws
+.. _`Using the Sage Notebook and navigating the help system`: attachment:days38_tutorials/tutorial1.sws
+.. _`Calculus and Linear Algebra in Sage`: attachment:days38_tutorials/tutorial2.sws
+.. _`Programming in Python and Sage`: attachment:days38_tutorials/tutorial3.sws
+.. _`Collatz conjecture`: attachment:days38_tutorials/CollatzConjecture.sws
+.. _`Dictionaries and Graph Theory`: attachment:days38_tutorials/Dictionaries-GraphTheory.sws
+.. _`Strings and the Burrows-Wheeler Transform`: attachment:days38_tutorials/Strings-BWT.sws
 
 .. quick references
 .. _`Sage Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf
