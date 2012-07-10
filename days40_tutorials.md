@@ -95,7 +95,7 @@ Tutorial II: Programming in Python and Sage
  - `High Performance Python`_
 
 Tutorial III: Contributing to Sage
----------------------------------
+----------------------------------
 
  Leader: Franco Saliola and Anne Schilling
 
