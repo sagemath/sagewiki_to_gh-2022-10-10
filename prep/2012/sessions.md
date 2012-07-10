@@ -112,7 +112,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
          * As a tool, not a crutch - ideas?
          * Models for dissemination
       * Classroom-type demo: [[http://sage.maa.org/home/pub/13|Chaos and Calculus]] (Karl-Dieter, 10 min)
-      * Classroom-type demo: [[http://sage.maa.org/home/pub/??|TBA MV Calc]] (Karl-Dieter, 10 min)
+      * Classroom-type demo: [[http://sage.maa.org/home/pub/134|Multivariable Calc]] (Karl-Dieter, 10 min)
       * WeBWorK and Sage in Multivariable Calc (Karl-Dieter, 15 min)
 
 === Session II - Plotting, Demos, and Programming ===
@@ -284,7 +284,7 @@ workshop, or support question on
  * Between the various intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || TBAsday, ?? June || TBA || TBA || Dan Drake ||
-|| Monday, 16 July || TBA || TBA || Karl-Dieter Crisman ||
+|| Monday, 16 July || 12-2PM || 3-5PM || Karl-Dieter Crisman ||
 
 Final week office hours TBA
 
