@@ -130,7 +130,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
     * Short Break
     * Participant demo worksheets! (25 min)
       * Complex plot of Newton's method!
-      * Embeddings of the Sage cell server
+      * Embeddings ([[http://algebra.sci.csueastbay.edu/~yap/Example/example.html|1]], [[http://users.wpi.edu/~jgagnon/sagetest.html|2]]) of the Sage cell server
     * [[http://sage.maa.org/home/pub/15|Advanced 2D plotting]] (Dan, 30 min)
     * Announcements (Dan, 5 min)
       * Office Hours
