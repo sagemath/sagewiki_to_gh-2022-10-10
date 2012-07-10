@@ -141,7 +141,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
 
   * [[http://www.facebook.com/pages/Sage-Math/26593144945|Sage Facebook page]]
   * [[http://aleph.sagemath.org/?z=eJxL06jQVLBVqNCv4EqHMvVyS3M0DPUrdDLyc1JsQ4pKUzW5Cooy80oU0jQMNLlKiiqtuBSAIB3ES61ITi0ogQhAFCllligUJWYWp6YoJOYppBYV5RcpKgEABMkeWg%3D%3D|Doing x/x as undefined at x=0]]
-
+  * [[https://www.math.duke.edu/education/calculustext-rev11/|MAA calc text with Sage - preliminary]]
 
 == Warning: the rest of the schedule is still tentative ==
 
