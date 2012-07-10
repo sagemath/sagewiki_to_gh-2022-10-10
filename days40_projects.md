@@ -108,6 +108,7 @@ John^2
 Charles?
 Kevin
 Thomas
+Alex Csar?
 
 Topological structures & categories & their reps
 ------------------------------------------------
