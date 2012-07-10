@@ -130,7 +130,7 @@ zeta, order, characteristic polynomials
 
 more examples of posets
  * Young diagrams - Kevin
- * Semistandard tableaux - Jessica/
+ * Semistandard tableaux - Jessica/Julie
 
 graph_editor
 
