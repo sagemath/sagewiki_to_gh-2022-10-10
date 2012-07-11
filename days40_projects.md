@@ -85,7 +85,12 @@ Emily Gunawan
 Graphs
 ======
 
-- contract edges / vertices
+Status as of Wednesday: Jeremy wrote some code to
+contract edges, check whether an edge is a cut-edge,
+and compute the Tutte polynomial.  Lauren and Matt are
+beta-testing it.  (It also needs commenting, examples,
+etc.)
+
 
   Jeremy L. Martin
   Anne Schilling
@@ -281,5 +286,11 @@ Complex reflexion groups
 
 Alex Miller
 
+Matroids
+========
 
+Jeremy
+Vic
+
+I learned that there is a matroid project well underway already: see [[http://trac.sagemath.org/sage_trac/ticket/7477|the trac ticket]] and/or [[https://groups.google.com/group/sage-matroid|the Google group]]. -- Jeremy
 }}}
