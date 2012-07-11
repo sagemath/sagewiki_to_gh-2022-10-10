@@ -132,12 +132,12 @@ Alex Csar?
 
 Wish List:
 
-- is_modular - Alex Csar
- * needs the dual to cooperate
-- is_atomic - Alex Csar
- * doesn't go into the class properly
-- is_semimodular - Alex Csar
- * needs dual
+* is_modular - Alex Csar
+ . needs the dual to cooperate
+* is_atomic - Alex Csar
+ . doesn't go into the class properly
+* is_semimodular - Alex Csar
+ . needs dual
 - adding functionality to poset elements--what does this mean?
 - iterate over lattices
 - zeta, order, characteristic polynomials
