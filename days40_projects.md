@@ -164,11 +164,11 @@ G-posets - homology modules
 
 H_*(-, R), H^*(-, R) when R is neither **Z** nor a field
 
-cup products
+cup products `trac #6102 <http://trac.sagemath.org/sage_trac/ticket/6102>`_
 
 cohomology operations
 
-how to represent (co-)homology classes?
+how to represent (co-)homology classes? `trac #6100 <http://trac.sagemath.org/sage_trac/ticket/6100>`_
 
 links (already done)
 
@@ -187,7 +187,7 @@ triangulate complex projective space (research problem; see `mathoverflow <http:
 chain complexes:
 
 - fix bug for map induced by map of simplicial complexes: see `trac #13220 <http://trac.sagemath.org/sage_trac/ticket/13220>`_, needs review, should be easy to review.
-- induced map on homology (high priority)
+- induced map on homology (high priority) `trac #6101 <http://trac.sagemath.org/sage_trac/ticket/6101>`_
 - mapping cone
 - tensor product
 - Tot of a bicomplex
