@@ -142,6 +142,7 @@ product
 
 interval posets
 
+make dual poset function work properly for lattices (it seems to break the join)
 
 
 Simplicial Complexes:
