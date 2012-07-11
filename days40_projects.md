@@ -164,7 +164,7 @@ links (already done)
 
 stars
 
-Cohen-Macalaulay
+Cohen-Macalaulay (http://trac.sagemath.org/sage_trac/ticket/11523)
 
 Fundamental Group
 
