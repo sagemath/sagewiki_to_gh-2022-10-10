@@ -182,6 +182,7 @@ triangulate complex projective space (research problem; see also http://mathover
 
 chain complexes:
 
+- induced map on homology (high priority)
 - mapping cone
 - tensor product
 - Tot of a bicomplex
