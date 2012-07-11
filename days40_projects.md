@@ -135,8 +135,8 @@ iterate over lattices
 zeta, order, characteristic polynomials
 
 more examples of posets
- * Young diagrams - Kevin
- * Semistandard tableaux - Jessica/Julie
+* Young diagrams - Kevin
+* Semistandard tableaux - Jessica/Julie
 
 graph_editor
 
@@ -179,6 +179,12 @@ is_pseudo-manifold (http://trac.sagemath.org/sage_trac/ticket/13226 -- needs rev
 
 triangulate complex projective space (research problem; see also http://mathoverflow.net/questions/20664/why-is-complex-projective-space-triangulable)
 
+chain complexes:
+
+- mapping cone
+- tensor product
+- Tot of a bicomplex
+ - filtered chain complexes and the associated spectral sequence?
 
 Topological structures & categories & their reps
 ------------------------------------------------
