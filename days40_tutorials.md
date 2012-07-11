@@ -236,3 +236,11 @@ Tutorial III: Contributing to Sage
 
 
 }}}
+
+Tutorial: New functionalities in symmetric functions and k-Schur functions in Sage
+----------------------------------------------------------------------------------
+
+ Leader: Mike Zabrocki and Anne Schilling
+
+.. attachments
+.. _`Symmetric function tutorial`: attachment:days40_tutorials/Symmetric_Functions.sws
