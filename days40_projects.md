@@ -9,23 +9,6 @@ __ http://www.ima.umn.edu/2011-2012/SW7.9-13.12/
 
 Below is a list of proposed projects.
 
-
-Arithmetic dynamics & symmetric functions
------------------------------------------
-Ben Hutz
-
-Grothendieck polynomials / ...
-==============================
-
-Kaisa / Nicolas; checking out with Viviane's code
-Mark Shimozono,
-Jessica Striker
-
-Alternating sign matrices
-=========================
-
-Jessica Striker
-
 Symmetric functions and Hopf algebras
 =====================================
 
@@ -35,6 +18,12 @@ Refactoring and extensions to symmetric functions / KSchur
 Anne Schilling,
 Mike Zabrocki,
 Dorota
+
+See also the review of Stembridge's packages below
+
+Arithmetic dynamics & symmetric functions
+-----------------------------------------
+Ben Hutz
 
 Refactoring and extensions to Hopf algebras
 -------------------------------------------
@@ -93,6 +82,11 @@ Emily Gunawan
 
 Combinatorics
 =============
+
+Alternating sign matrices
+-------------------------
+
+Jessica Striker
 
 Graphs
 ------
@@ -228,9 +222,17 @@ Complex reflexion groups
 Alex Miller
 
 Schubert Calculus
-=================
+-----------------
 
 Mark, Alex, Nicolas, Kaisa, Yasuhide, Tom
+
+Grothendieck polynomials / ...
+------------------------------
+
+Kaisa / Nicolas; checking out with Viviane's code
+Mark Shimozono,
+Jessica Striker
+
 
 Statistics on permutations
 --------------------------
