@@ -287,7 +287,7 @@ workshop, or support question on
 
  * Between the various intensive sessions
 ||Date||Time (PDT)||Time (EDT)||Organizer||
-|| TBAsday, ?? June || TBA || TBA || Dan Drake ||
+|| Friday 13 July || 9-10AM|| 12-1PM || Dan Drake ||
 || Monday, 16 July || 12-2PM || 3-5PM || Karl-Dieter Crisman ||
 
 Final week office hours TBA
