@@ -245,3 +245,9 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 
 
 }}}
+
+
+SageTeX and the Sage cell server
+--------------------------------
+
+by DanDrake. Check out [[attachment:sagetex-examples.tar.bz2]].
