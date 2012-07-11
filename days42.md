@@ -24,37 +24,35 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
 Sunday 
 
- 3:00pm: check in at the lodge//
- rest of the afternoon/evening: tutorials/problem sets//
- 7:00pm: dinner at La Hacienda//
+ * 3:00pm: check in at the lodge
+ * rest of the afternoon/evening: tutorials/problem sets
+ * 7:00pm: dinner at La Hacienda
 
 Monday
 
- 8:30am - 09:30am: breakfast
-
- 9:30am - 10:25am: Kristin's project talk
-
-10:30am - 11:25am: Michelle's project talk
-11:30am - 12:25pm: Jen's project talk
- 1:00pm -  2:00pm: lunch
- 2:00pm -  6:00pm: project groups
- 6:00pm -  7:00pm: dinner
- 7:00pm -        : project groups
+ *  8:30am - 09:30am: breakfast
+ *  9:30am - 10:25am: Kristin's project talk
+ * 10:30am - 11:25am: Michelle's project talk
+ * 11:30am - 12:25pm: Jen's project talk
+ *  1:00pm -  2:00pm: lunch
+ *  2:00pm -  6:00pm: project groups
+ *  6:00pm -  7:00pm: dinner
+ *  7:00pm -        : project groups
 
 
 Tuesday 
 
- same times for breakfast, lunch, dinner, with project work during the day
+ * same times for breakfast, lunch, dinner, with project work during the day
 
 Wednesday
 
- same times for breakfast, lunch, dinner, with project work during the day
- afternoon: those interested can hike to Wallace Falls
- after dinner: project reports (informal 10-15 minute reports/requests to review trac tickets)
+ * same times for breakfast, lunch, dinner, with project work during the day
+ * afternoon: those interested can hike to Wallace Falls
+ * after dinner: project reports (informal 10-15 minute reports/requests to review trac tickets)
 
 Thursday
 
- breakfast will be served, and check-out is at 11am (we'll arrange rides back to the airport)
+ * breakfast will be served, and check-out is at 11am (we'll arrange rides back to the airport)
 
 
 == Getting Started ==
