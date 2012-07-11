@@ -243,11 +243,9 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 .. Teaching with Sage:
 .. _UTMOST: http://utmost.aimath.org/
 
-
 }}}
 
 
-SageTeX and the Sage cell server
---------------------------------
+= SageTeX and the Sage cell server =
 
 by DanDrake. Check out [[attachment:sagetex-examples.tar.bz2]].
