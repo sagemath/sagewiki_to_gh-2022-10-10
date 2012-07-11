@@ -131,6 +131,14 @@ Tutorial III: Contributing to Sage
  - `Mq Tutorial`_. A tutorial on Mercurial queues.
  - `A Git User’s Guide to Mercurial Queues`_
 
+Tutorial: New functionalities in symmetric functions and k-Schur functions in Sage
+----------------------------------------------------------------------------------
+
+ Leaders: Mike Zabrocki and Anne Schilling
+
+ Worksheet:
+
+ - `Symmetric function tutorial`_
 
 .. links
 
@@ -141,6 +149,7 @@ Tutorial III: Contributing to Sage
 .. _`Collatz conjecture`: attachment:days38_tutorials/CollatzConjecture.sws
 .. _`Dictionaries and Graph Theory`: attachment:days38_tutorials/Dictionaries-GraphTheory.sws
 .. _`Strings and the Burrows-Wheeler Transform`: attachment:days38_tutorials/Strings-BWT.sws
+.. _`Symmetric function tutorial`: attachment:days40_tutorials/Symmetric_Functions.sws
 
 .. quick references
 .. _`Sage Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf
@@ -236,12 +245,3 @@ Tutorial III: Contributing to Sage
 
 
 }}}
-
-
-Tutorial: New functionalities in symmetric functions and k-Schur functions in Sage
-----------------------------------------------------------------------------------
-
- Leader: Mike Zabrocki and Anne Schilling
-
-.. attachments
-.. _`Symmetric function tutorial`: attachment:days40_tutorials/Symmetric_Functions.sws
