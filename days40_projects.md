@@ -170,18 +170,19 @@ links (already done)
 
 stars
 
-Cohen-Macalaulay (http://trac.sagemath.org/sage_trac/ticket/11523)
+Cohen-Macalaulay (`trac #11523 <http://trac.sagemath.org/sage_trac/ticket/11523>`_, needs review)
 
 Fundamental Group
 
 is_shifted
 
-is_pseudo-manifold (http://trac.sagemath.org/sage_trac/ticket/13226 -- needs review)
+is_pseudo-manifold (`trac #13226 <http://trac.sagemath.org/sage_trac/ticket/13226>`_, needs review)
 
-triangulate complex projective space (research problem; see also http://mathoverflow.net/questions/20664/why-is-complex-projective-space-triangulable)
+triangulate complex projective space (research problem; see `mathoverflow <http://mathoverflow.net/questions/20664/why-is-complex-projective-space-triangulable>`_)
 
 chain complexes:
 
+- fix bug for map induced by map of simplicial complexes: see `trac #13220 <http://trac.sagemath.org/sage_trac/ticket/13220>`_, needs review, should be easy to review.
 - induced map on homology (high priority)
 - mapping cone
 - tensor product
@@ -300,5 +301,5 @@ Matroids
 Jeremy
 Vic
 
-I learned that there is a matroid project well underway already: see [[http://trac.sagemath.org/sage_trac/ticket/7477|the trac ticket]] and/or [[https://groups.google.com/group/sage-matroid|the Google group]]. -- Jeremy
+I learned that there is a matroid project well underway already: see `trac #7477 <http://trac.sagemath.org/sage_trac/ticket/7477>`_ and/or the Google group `sage-matroid <https://groups.google.com/group/sage-matroid>`_. -- Jeremy
 }}}
