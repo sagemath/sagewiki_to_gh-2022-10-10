@@ -133,15 +133,22 @@ Alex Csar?
 Wish List:
 
 - is_modular - Alex Csar
-- is_atomic
+ * needs the dual to cooperate
+- is_atomic - Alex Csar
+ * doesn't go into the class properly
 - is_semimodular - Alex Csar
-- adding functionality to poset elements
+ * needs dual
+- adding functionality to poset elements--what does this mean?
 - iterate over lattices
 - zeta, order, characteristic polynomials
+ * characteristic polynomial done naively
+ * zeta polynomial from Stembridge's posets code
+ * W polynomial coming
+  . relabel the poset and then look at permutations
 - more examples of posets
-  * Young diagrams - Kevin
-  * Semistandard tableaux - Jessica/Julie
-  * interval posets
+ * Young diagrams - Kevin
+ * Semistandard tableaux - Jessica/Julie
+ * interval posets
 - graph_editor
 - disjoint union, ordinal sum, product
 - make dual poset function work properly for lattices (it seems to break the join)
