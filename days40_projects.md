@@ -34,7 +34,7 @@ John,
 Franco
 
 Graded Algebras
---------------
+---------------
 
 Franco,
 John
