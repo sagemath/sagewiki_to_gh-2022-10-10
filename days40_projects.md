@@ -151,7 +151,7 @@ Shellability
 
 G-posets - homology modules
 
-H_*(-, S), H^*(-, R) for manifolds S, R
+H_*(-, R), H^*(-, R) when R is neither Z nor a field
 
 cup products
 
@@ -169,9 +169,9 @@ Fundamental Group
 
 is_shifted
 
-is_pseduo-manifold
+is_pseudo-manifold (http://trac.sagemath.org/sage_trac/ticket/13226)
 
-Complex Projective Space
+triangulate complex projective space (research problem; see also http://mathoverflow.net/questions/20664/why-is-complex-projective-space-triangulable)
 
 
 Topological structures & categories & their reps
