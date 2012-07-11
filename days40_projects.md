@@ -9,12 +9,6 @@ __ http://www.ima.umn.edu/2011-2012/SW7.9-13.12/
 
 Below is a list of proposed projects.
 
-Refactoring and extensions to symmetric functions / KSchur
-==========================================================
-
-Anne Schilling,
-Mike Zabrocki,
-Dorota
 
 Arithmetic dynamics & symmetric functions
 -----------------------------------------
@@ -32,37 +26,48 @@ Alternating sign matrices
 
 Jessica Striker
 
+Symmetric functions and Hopf algebras
+=====================================
+
+Refactoring and extensions to symmetric functions / KSchur
+----------------------------------------------------------
+
+Anne Schilling,
+Mike Zabrocki,
+Dorota
+
 Refactoring and extensions to Hopf algebras
-===========================================
+-------------------------------------------
 
 Anne Schilling,
 Mike Zabrocki,
 John,
 Franco
 
+Graded Algebras
+--------------
+
+Franco,
+John
 
 Hopf algebras on graphs
 -----------------------
 Jeremy
 
-Crystals
-========
+NCSF/QSYM
+---------
 
-(`trac #12251 <http://trac.sagemath.org/sage_trac/ticket/12251>`_, positive review)
+Chris,
+Mike,
+Holly,
+Dorota,
+Franco,
+Nicolas?
 
-Anne Schilling,
-Mark Shimozono,
-Julie,
-Dan Bump, Ben Brubaker,
-Arthur Lubovsky
+Partition algebras and their reps
+---------------------------------
 
-Get people in Sage
-==================
-
-Dan Drake,
-Nicolas Thiery,
-Gregg Musiker,
-Franco Saliola
+George
 
 Quiver representations
 ======================
@@ -76,6 +81,8 @@ Julie,
 Al Garver,
 Emily Gunawan
 
+User stories: [[attachment:quiver_representations.sage]]
+
 Clusters algebras from surfaces
 ===============================
 
@@ -84,8 +91,11 @@ Al Garver,
 Weiwen Gu,
 Emily Gunawan
 
+Combinatorics
+=============
+
 Graphs
-======
+------
 
 Status as of Wednesday: Jeremy wrote some code to
 contract edges, check whether an edge is a cut-edge,
@@ -106,8 +116,13 @@ interested to see your work (Anne).
 Kevin,
 Thomas
 
+Review of what's missing from Stembridge's packages
+---------------------------------------------------
+
+Alex, Drew, Thomas, Kevin
+
 Posets & Simplicial complexes
-=============================
+-----------------------------
 
 Demo including facade posets: Kim
 Vic
@@ -121,39 +136,21 @@ Thomas,
 Alex Csar?
 
 
-Wish List
-=========
-Posets:
--------
+Wish List:
 
-is_modular - Alex Csar
-
-is_atomic
-
-is_semimodular - Alex Csar
-
-adding functionality to poset elements
-
-iterate over lattices
-
-zeta, order, characteristic polynomials
-
-more examples of posets
-
-* Young diagrams - Kevin
-* Semistandard tableaux - Jessica/Julie
-
-graph_editor
-
-disjoint union
-
-ordinal sum
-
-product
-
-interval posets
-
-make dual poset function work properly for lattices (it seems to break the join)
+- is_modular - Alex Csar
+- is_atomic
+- is_semimodular - Alex Csar
+- adding functionality to poset elements
+- iterate over lattices
+- zeta, order, characteristic polynomials
+- more examples of posets
+  * Young diagrams - Kevin
+  * Semistandard tableaux - Jessica/Julie
+  * interval posets
+- graph_editor
+- disjoint union, ordinal sum, product
+- make dual poset function work properly for lattices (it seems to break the join)
 
 
 Simplicial Complexes:
@@ -199,118 +196,79 @@ Topological structures & categories & their reps
 Peter Webb,
 John
 
+Coxeter groups, Hecke algebras, Crystals, ...
+=============================================
+
+Crystals
+--------
+
+(`trac #12251 <http://trac.sagemath.org/sage_trac/ticket/12251>`_, positive review)
+
+Anne Schilling,
+Mark Shimozono,
+Julie,
+Dan Bump, Ben Brubaker,
+Arthur Lubovsky
+
+Extended Affine hecke algebras / weyl groups
+--------------------------------------------
+
+Non symmetric Macdonald polynomials & friends in general types
+
+Mark, Nicolas, Anne, Dan, Ben, Daniel
+
+Integration of (affine) symmetric group and Coxeter groups
+----------------------------------------------------------
+
+Alex Csar, Tom Denton, Holly
+
+Complex reflexion groups
+------------------------
+
+Alex Miller
+
+Schubert Calculus
+=================
+
+Mark, Alex, Nicolas, Kaisa, Yasuhide, Tom
+
+Statistics on permutations
+--------------------------
+
+Kim2
+
+Matroids
+--------
+
+Jeremy, Vic
+
+I learned that there is a matroid project well underway already: see `trac #7477 <http://trac.sagemath.org/sage_trac/ticket/7477>`_ and/or the Google group `sage-matroid <https://groups.google.com/group/sage-matroid>`_. -- Jeremy
 
 Sage Documentation
 ==================
 John
 
-Graded Algebras
-===============
+Sagetex
+-------
 
-Franco,
-John
+Nicolas,
+Dan
 
-Partition algebras and their reps
-=================================
-
-George
-
-
+Misc
+====
 
 Get my patches into Sage
-========================
+------------------------
 
-Nicolas
-
-Franco
+Nicolas, Franco, Dan, Gregg
 
 Anne (`trac #12251 <http://trac.sagemath.org/sage_trac/ticket/12251>`_, positive review),
 (`trac #13224 <http://trac.sagemath.org/sage_trac/ticket/13224>`_, positive review)
 (`trac #13222 <http://trac.sagemath.org/sage_trac/ticket/13222>`_, positive review)
-
-Dan
-
-Gregg
-
-...
-
-
-Review of what's missing from Stembridge's packages
-===================================================
-
-Alex,
-Drew,
-Thomas,
-Kevin
-
-
-Extended Affine hecke algebras / weyl groups
-============================================
-
-Non symmetric Macdonald polynomials & friends in general types
-
-Mark,
-Nicolas,
-Anne,
-Dan,
-Ben,
-Daniel
-
-Sagetex
-=======
-
-Nicolas,
-Dan
-
-Schubert Calculus
-=================
-
-Mark,
-Alex,
-Nicolas,
-Kaisa,
-Yasuhide,
-Tom
-
-
-Integration of (affine) symmetric group and Coxeter groups
-==========================================================
-
-Alex Csar,
-Tom Denton,
-Holly
-
-NCSF/QSYM
-=========
-
-Chris,
-Mike,
-Holly,
-Dorota,
-Franco,
-Nicolas?
-
-Statistics on permutations
-==========================
-
-Kim2
-
 
 Interface to Gfan and version update
 ====================================
 
 Marshall Hampton
 
-Complex reflexion groups
-========================
-
-Alex Miller
-
-Matroids
-========
-
-Jeremy
-Vic
-
-I learned that there is a matroid project well underway already: see `trac #7477 <http://trac.sagemath.org/sage_trac/ticket/7477>`_ and/or the Google group `sage-matroid <https://groups.google.com/group/sage-matroid>`_. -- Jeremy
 }}}
