@@ -113,8 +113,9 @@ Alex Csar?
 
 
 Wish List
-=============================
+=========
 Posets:
+-------
 
 is_modular - Alex Csar
 
@@ -146,12 +147,12 @@ make dual poset function work properly for lattices (it seems to break the join)
 
 
 Simplicial Complexes:
-
+---------------------
 Shellability
 
 G-posets - homology modules
 
-H_*(-, R), H^*(-, R) when R is neither Z nor a field
+H_*(-, R), H^*(-, R) when R is neither **Z** nor a field
 
 cup products
 
@@ -169,7 +170,7 @@ Fundamental Group
 
 is_shifted
 
-is_pseudo-manifold (http://trac.sagemath.org/sage_trac/ticket/13226)
+is_pseudo-manifold (http://trac.sagemath.org/sage_trac/ticket/13226 -- needs review)
 
 triangulate complex projective space (research problem; see also http://mathoverflow.net/questions/20664/why-is-complex-projective-space-triangulable)
 
