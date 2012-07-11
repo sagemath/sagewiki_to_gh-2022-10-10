@@ -140,6 +140,13 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 
  - `Symmetric function tutorial`_
 
+SageTeX and the Sage cell server: put Sage into Tex and the web
+---------------------------------------------------------------
+
+by DanDrake. See `the example files` from the SageTeX demonstration.
+
+
+
 .. links
 
 .. attachments
@@ -150,6 +157,8 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 .. _`Dictionaries and Graph Theory`: attachment:days38_tutorials/Dictionaries-GraphTheory.sws
 .. _`Strings and the Burrows-Wheeler Transform`: attachment:days38_tutorials/Strings-BWT.sws
 .. _`Symmetric function tutorial`: attachment:days40_tutorials/Symmetric_Functions.sws
+.. _`the example files`: attachment:sagetex-examples.tar.bz2
+
 
 .. quick references
 .. _`Sage Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf
@@ -244,8 +253,3 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 .. _UTMOST: http://utmost.aimath.org/
 
 }}}
-
-
-= SageTeX and the Sage cell server =
-
-by DanDrake. Check out [[attachment:sagetex-examples.tar.bz2]].
