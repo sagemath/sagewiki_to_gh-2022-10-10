@@ -252,5 +252,5 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 Check out [[attachment:sagetex-examples.tar.bz2]]. The main cell server is [[http://aleph.sagemath.org|aleph.sagemath.org]]; here are some more cell server links:
 
   * [[https://www.math.duke.edu/education/calculustext-rev11/|a calculus textbook with embedded Sage cells (a preliminary, and non-permanent version)]]
-  * [[http://mathsci.kaist.ac.kr/~drake/2012-spring-kms-meeting/|a presentation I gave the uses the cell server to show some Sage @interacts]]
+  * [[http://mathsci.kaist.ac.kr/~drake/2012-spring-kms-meeting/|a presentation that uses the cell server to show some Sage @interacts]]
   * [[https://github.com/sagemath/sagecell/blob/master/doc/embedding.rst|documentation for embedding a cell into a web page]]
