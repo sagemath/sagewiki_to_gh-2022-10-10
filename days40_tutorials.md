@@ -237,6 +237,7 @@ Tutorial III: Contributing to Sage
 
 }}}
 
+
 Tutorial: New functionalities in symmetric functions and k-Schur functions in Sage
 ----------------------------------------------------------------------------------
 
