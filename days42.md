@@ -23,14 +23,19 @@ This will be a 4-day workshop which will include a combination of mathematical t
 == Schedule ==
 
 Sunday 
+
  3:00pm: check in at the lodge
+
  rest of the afternoon/evening: tutorials/problem sets
+
  7:00pm: dinner at La Hacienda
 
 Monday
 
  8:30am - 09:30am: breakfast
+
  9:30am - 10:25am: Kristin's project talk
+
 10:30am - 11:25am: Michelle's project talk
 11:30am - 12:25pm: Jen's project talk
  1:00pm -  2:00pm: lunch
