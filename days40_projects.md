@@ -172,7 +172,7 @@ stars
 
 Cohen-Macalaulay (`trac #11523 <http://trac.sagemath.org/sage_trac/ticket/11523>`_, needs review)
 
-Fundamental Group
+Fundamental Group (should not be too hard, using the code from `trac #12339 <http://trac.sagemath.org/sage_trac/ticket/12339>`_)
 
 is_shifted
 
