@@ -135,6 +135,7 @@ iterate over lattices
 zeta, order, characteristic polynomials
 
 more examples of posets
+
 * Young diagrams - Kevin
 * Semistandard tableaux - Jessica/Julie
 
@@ -184,7 +185,7 @@ chain complexes:
 - mapping cone
 - tensor product
 - Tot of a bicomplex
- - filtered chain complexes and the associated spectral sequence?
+- filtered chain complexes and the associated spectral sequence?
 
 Topological structures & categories & their reps
 ------------------------------------------------
