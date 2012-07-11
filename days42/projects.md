@@ -4,7 +4,24 @@ The paramodular groups are subgroups of GSp(4) which are good analogues of the c
 
 In this project, we will build onto the SiegelModularForms_class which is described in the paper by Raum, Ryan, Skoruppa and Tornari.   One project is to implement a method to compute the two Hecke operators for the paramodular group at any level on the Fourier expansion of a paramodular form.  There is an explicit description of these Hecke operators in the book by Roberts and Schmidt.
 
-Another project would be to compute a set of examples of non-prime level of paramodular forms from the table of Hilbert modular forms over Q(\sqrt(5)) and their associated abelian surfaces by computing the Weil restriction of the elliptic curves and the automorphic induction of the modular forms as described in J-L. and Roberts.
+Another project would be to compute a set of examples of non-prime level of paramodular forms from the table of Hilbert modular forms over Q(\sqrt(5)) (http://arxiv.org/abs/1202.6612) and their associated abelian surfaces by computing the Weil restriction of the elliptic curves and the automorphic induction of the modular forms as described in J-L. and Roberts (http://www.sciencedirect.com/science/article/pii/S0022314X11002332).
+
+References:
+I have attached two papers.  The one by Brooks and I has a quick description of the paramodular group and the Hecke operators in the introduction.  The second paper describes the SiegelModularForms_class and gives some examples of how it has been used for various Siegel modular forms.  I have been talking to the authors, and there may be some issues of the class playing nicely with the current version of sage.  There is an explicit description of the action of the Hecke operators (there are two at every level) on the Fourier expansion of a paramodular form.  This is given in the book by Roberts and Schmidt.
+
+Siegel modular forms of degree two attached to Hilbert modular forms by J.-L. and Roberts
+There are a few minor changes from the arXiv version, but not affecting the referenced sections.
+
+Local Newforms for GSp(4) by Roberts and Schmidt.  It is LNM 1918.
+
+Explicit computations of Siegel modular forms of degree two by Raum, Ryan, Skoruppa and Tornari
+
+Other reading: 
+Paramodular Abelian Varieties of Odd Conductor by Brumer and Kramer 
+This is the paper where they formulate the paramodular conjecture.
+Paramodular Cusp Forms by Poor and Yuen
+Computation of examples of paramodular forms of prime level.
+
 
 
 == Kristin's project ==
