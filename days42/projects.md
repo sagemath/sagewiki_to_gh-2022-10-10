@@ -64,4 +64,5 @@ References:
 == Michelle's project ==
 
 (People: )
+
 [[attachment:ManesProject.pdf]]
