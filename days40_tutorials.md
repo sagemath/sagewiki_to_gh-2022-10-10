@@ -249,7 +249,9 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 
 == SageTeX and the Sage cell server ==
 
-by DanDrake. Check out [[attachment:sagetex-examples.tar.bz2]]. The main cell server is [[http://aleph.sagemath.org|aleph.sagemath.org]]; here are some more cell server links:
+Check out [[attachment:sagetex-examples.tar.bz2]]. The main cell server is [[http://aleph.sagemath.org|aleph.sagemath.org]]; here are some more cell server links:
 
-  * one
+  * [[https://www.math.duke.edu/education/calculustext-rev11/|a calculus textbook with embedded Sage cells (a preliminary, and non-permanent version)]]
+  * [[http://mathsci.kaist.ac.kr/~drake/2012-spring-kms-meeting/|a presentation I gave the uses the cell server to show some Sage @interacts]]
+  * 
   * two
