@@ -253,5 +253,4 @@ Check out [[attachment:sagetex-examples.tar.bz2]]. The main cell server is [[htt
 
   * [[https://www.math.duke.edu/education/calculustext-rev11/|a calculus textbook with embedded Sage cells (a preliminary, and non-permanent version)]]
   * [[http://mathsci.kaist.ac.kr/~drake/2012-spring-kms-meeting/|a presentation I gave the uses the cell server to show some Sage @interacts]]
-  * 
-  * two
+  * [[https://github.com/sagemath/sagecell/blob/master/doc/embedding.rst|documentation for embedding a cell into a web page]]
