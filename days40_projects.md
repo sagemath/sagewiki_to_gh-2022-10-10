@@ -12,8 +12,8 @@ Below is a list of proposed projects.
 Refactoring and extensions to symmetric functions / KSchur
 ==========================================================
 
-Anne Schilling
-Mike Zabrocki
+Anne Schilling,
+Mike Zabrocki,
 Dorota
 
 Arithmetic dynamics & symmetric functions
@@ -24,7 +24,7 @@ Grothendieck polynomials / ...
 ==============================
 
 Kaisa / Nicolas; checking out with Viviane's code
-Mark
+Mark Shimozono,
 Jessica Striker
 
 Alternating sign matrices
@@ -35,9 +35,9 @@ Jessica Striker
 Refactoring and extensions to Hopf algebras
 ===========================================
 
-Anne Schilling
-Mike Zabrocki
-John
+Anne Schilling,
+Mike Zabrocki,
+John,
 Franco
 
 
@@ -48,38 +48,40 @@ Jeremy
 Crystals
 ========
 
-Anne Schilling
-Mark
-Julie
-Dan Ben
-Arthur
+(`trac #12251 <http://trac.sagemath.org/sage_trac/ticket/12251>`_, positive review)
+
+Anne Schilling,
+Mark Shimozono,
+Julie,
+Dan Bump, Ben Brubaker,
+Arthur Lubovsky
 
 Get people in Sage
 ==================
 
-Dan
-Nicolas
-Gregg
-Franco
+Dan Drake,
+Nicolas Thiery,
+Gregg Musiker,
+Franco Saliola
 
 Quiver representations
 ======================
 
-Gregg
-Peter Webb
-Franco Saliola
-Charles Paquette
-Alex Fink
-Julie
-Al Garver
+Gregg Musiker,
+Peter Webb,
+Franco Saliola,
+Charles Paquette,
+Alex Fink,
+Julie,
+Al Garver,
 Emily Gunawan
 
 Clusters algebras from surfaces
 ===============================
 
-Gregg
-Al Garver
-Weiwen Gu
+Gregg Musiker,
+Al Garver,
+Weiwen Gu,
 Emily Gunawan
 
 Graphs
@@ -91,15 +93,17 @@ and compute the Tutte polynomial.  Lauren and Matt are
 beta-testing it.  (It also needs commenting, examples,
 etc.)
 
+Could you please poset the trac ticket number here? I am very
+interested to see your work (Anne).
 
-  Jeremy L. Martin
-  Anne Schilling
-  Tom
+  Jeremy L. Martin,
+  Anne Schilling,
+  Tom,
   Lauren
 
 - Tutte Polynomial
 
-Kevin
+Kevin,
 Thomas
 
 Posets & Simplicial complexes
@@ -108,12 +112,12 @@ Posets & Simplicial complexes
 Demo including facade posets: Kim
 Vic
 
-Jessica Striker
-Jeremy
-John^2
-Charles?
-Kevin
-Thomas
+Jessica Striker,
+Jeremy,
+John^2,
+Charles?,
+Kevin,
+Thomas,
 Alex Csar?
 
 
@@ -192,7 +196,7 @@ chain complexes:
 Topological structures & categories & their reps
 ------------------------------------------------
 
-Peter webb
+Peter Webb,
 John
 
 
@@ -203,7 +207,7 @@ John
 Graded Algebras
 ===============
 
-Franco
+Franco,
 John
 
 Partition algebras and their reps
@@ -217,19 +221,26 @@ Get my patches into Sage
 ========================
 
 Nicolas
+
 Franco
-Anne
+
+Anne (`trac #12251 <http://trac.sagemath.org/sage_trac/ticket/12251>`_, positive review),
+(`trac #13224 <http://trac.sagemath.org/sage_trac/ticket/13224>`_, positive review)
+(`trac #13222 <http://trac.sagemath.org/sage_trac/ticket/13222>`_, positive review)
+
 Dan
+
 Gregg
+
 ...
 
 
 Review of what's missing from Stembridge's packages
 ===================================================
 
-Alex
-Drew
-Thomas
+Alex,
+Drew,
+Thomas,
 Kevin
 
 
@@ -238,45 +249,45 @@ Extended Affine hecke algebras / weyl groups
 
 Non symmetric Macdonald polynomials & friends in general types
 
-Mark
-Nicolas
-Anne
-Dan
-Ben
+Mark,
+Nicolas,
+Anne,
+Dan,
+Ben,
 Daniel
 
 Sagetex
 =======
 
-Nicolas
+Nicolas,
 Dan
 
 Schubert Calculus
 =================
 
-Mark
-Alex
-Nicolas
-Kaisa
-Yasuhide
+Mark,
+Alex,
+Nicolas,
+Kaisa,
+Yasuhide,
 Tom
 
 
 Integration of (affine) symmetric group and Coxeter groups
 ==========================================================
 
-Alex Csar
-Tom Denton
+Alex Csar,
+Tom Denton,
 Holly
 
 NCSF/QSYM
 =========
 
-Chris
-Mike
-Holly
-Dorota
-Franco
+Chris,
+Mike,
+Holly,
+Dorota,
+Franco,
 Nicolas?
 
 Statistics on permutations
