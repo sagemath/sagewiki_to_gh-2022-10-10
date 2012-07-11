@@ -1,5 +1,7 @@
 == Jen's project ==
 
+(People: )
+
 The paramodular groups are subgroups of GSp(4) which are good analogues of the congruence subgroups underlying the new and old-form theory for GL(2).  They have been studied for a long time for the connection to abelian surfaces with polarizations of type (1,N), but are not as prevalent in the literature on Siegel modular forms as the Siegel congruence subgroup.  Interest in these subgroups has increased in the past years in part due to a precise analog of the Taniyama-Shimura conjecture for abelian surfaces by Brumer and Kramer known as the paramodular conjecture.
 
 In this project, we will build onto the SiegelModularForms_class which is described in the paper by Raum, Ryan, Skoruppa and Tornari.   One project is to implement a method to compute the two Hecke operators for the paramodular group at any level on the Fourier expansion of a paramodular form.  There is an explicit description of these Hecke operators in the book by Roberts and Schmidt.
@@ -25,7 +27,9 @@ Computation of examples of paramodular forms of prime level.
 
 
 == Kristin's project ==
- 
+
+(People: Jen B. )
+
 Recall that the Hilbert class polynomial has as its zeros j-invariants of elliptic curves with complex multiplication (CM). In the case of genus 2, Igusa class polynomials play the analogous role: their zeros are Igusa invariants of genus 2 curves whose Jacobians have CM by a quartic CM ﬁeld K. These Igusa invariants, in turn, require knowledge of the Siegel modular forms $\chi_{10}$ and $\chi_{12}$.
 
 One computational difference between genus 1 and 2 is that the Hilbert class polynomial has coefficients in Z, whereas the Igusa class polynomials have coefficients in Q. The difficulty, then, in genus 2, is understanding how bad these denominators are, because recovering the coeﬃcients from approximations requires a bound on the denominators. (See, e.g., [2].  For some other details on the circle of ideas involved, see [3].)
@@ -59,4 +63,5 @@ References:
 
 == Michelle's project ==
 
+(People: )
 [[attachment:ManesProject.pdf]]
