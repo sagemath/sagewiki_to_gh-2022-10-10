@@ -248,7 +248,7 @@ I learned that there is a matroid project well underway already: see `trac #7477
 
 Sage Documentation
 ==================
-John
+John: build the documentation in parallel (`trac #6495 <http://trac.sagemath.org/sage_trac/ticket/6495>`_) needs review
 
 Sagetex
 -------
