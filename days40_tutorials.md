@@ -140,6 +140,16 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 
  - `Symmetric function tutorial`_
 
+Tutorial: Demo on crystals in sage
+----------------------------------
+
+ Leaders: Anne Schilling
+
+ Worksheet:
+
+ - `Crystal Demo`_
+ - `Thematic Tutorial: Lie Methods and Related Combinatorics in Sage`_
+
 
 .. links
 
@@ -166,6 +176,7 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 .. _`Testing a conjecture in parallel`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-parallel.html
 .. _`Implementing Algebraic Structures`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-implementing-algebraic-structures.html
 .. _`Introduction to Cython`: http://combinat.sagemath.org/doc/thematic_tutorials/siena_tutorials/Worksheet10-IntroductionToCython.html
+.. _`Thematic Tutorial: Lie Methods and Related Combinatorics in Sage`: http://www.sagemath.org/doc/thematic_tutorials/lie.html
 
 .. Sage:
 .. _`Sage`: http://www.sagemath.org
@@ -248,6 +259,8 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 
 
 == SageTeX and the Sage cell server ==
+
+Leader: Dan Drake
 
 Check out [[attachment:sagetex-examples.tar.bz2]]. The main cell server is [[http://aleph.sagemath.org|aleph.sagemath.org]]; here are some more cell server links:
 
