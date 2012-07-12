@@ -161,7 +161,7 @@ Tutorial: Demo on crystals in sage
 .. _`Dictionaries and Graph Theory`: attachment:days38_tutorials/Dictionaries-GraphTheory.sws
 .. _`Strings and the Burrows-Wheeler Transform`: attachment:days38_tutorials/Strings-BWT.sws
 .. _`Symmetric function tutorial`: attachment:days40_tutorials/Symmetric_Functions.sws
-.. _`Crystal Demo`: attachment:days40_tutorials/Crystal_demo.sws
+.. _`Crystal Demo`: attachment:days40_tutorials/Crystal_Demo.sws
 
 
 .. quick references
