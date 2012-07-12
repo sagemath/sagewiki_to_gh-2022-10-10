@@ -185,7 +185,7 @@ triangulate complex projective space (research problem; see `mathoverflow <http:
 
 chain complexes:
 
-- fix bug for map induced by map of simplicial complexes: see `trac #13220 <http://trac.sagemath.org/sage_trac/ticket/13220>`_, needs review, should be easy to review.
+- fix bug for map induced by map of simplicial complexes: see `trac #13220 <http://trac.sagemath.org/sage_trac/ticket/13220>`_, positive review.
 - induced map on homology (high priority) `trac #6101 <http://trac.sagemath.org/sage_trac/ticket/6101>`_
 - mapping cone
 - tensor product
