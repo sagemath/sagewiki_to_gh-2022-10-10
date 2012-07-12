@@ -143,7 +143,7 @@ Tutorial: New functionalities in symmetric functions and k-Schur functions in Sa
 Tutorial: Demo on crystals in sage
 ----------------------------------
 
- Leaders: Anne Schilling
+ Leader: Anne Schilling
 
  Worksheet:
 
@@ -161,6 +161,8 @@ Tutorial: Demo on crystals in sage
 .. _`Dictionaries and Graph Theory`: attachment:days38_tutorials/Dictionaries-GraphTheory.sws
 .. _`Strings and the Burrows-Wheeler Transform`: attachment:days38_tutorials/Strings-BWT.sws
 .. _`Symmetric function tutorial`: attachment:days40_tutorials/Symmetric_Functions.sws
+.. _`Crystal Demo`: attachment:days40_tutorials/Crystal_demo.sws
+
 
 .. quick references
 .. _`Sage Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf
