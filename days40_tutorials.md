@@ -150,6 +150,14 @@ Tutorial: Demo on crystals in sage
  - `Crystal Demo`_
  - `Thematic Tutorial: Lie Methods and Related Combinatorics in Sage`_
 
+Talk: Chromatic quasisymmetric functions and regular semisimple Hessenberg varieties
+------------------------------------------------------------------------------------
+
+  Speaker: John Shareshian
+
+  Slides: `John Shareshian's slides`
+
+  - 
 
 .. links
 
@@ -162,7 +170,7 @@ Tutorial: Demo on crystals in sage
 .. _`Strings and the Burrows-Wheeler Transform`: attachment:days38_tutorials/Strings-BWT.sws
 .. _`Symmetric function tutorial`: attachment:days40_tutorials/Symmetric_Functions.sws
 .. _`Crystal Demo`: attachment:days40_tutorials/Crystal_Demo.sws
-
+.. _`John Shareshian's slides`: attachment:johnbeamer8.pdf
 
 .. quick references
 .. _`Sage Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf
