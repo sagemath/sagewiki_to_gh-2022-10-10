@@ -170,7 +170,7 @@ Talk: Chromatic quasisymmetric functions and regular semisimple Hessenberg varie
 .. _`Strings and the Burrows-Wheeler Transform`: attachment:days38_tutorials/Strings-BWT.sws
 .. _`Symmetric function tutorial`: attachment:days40_tutorials/Symmetric_Functions.sws
 .. _`Crystal Demo`: attachment:days40_tutorials/Crystal_Demo.sws
-.. _`John Shareshian's slides`: attachment:johnbeamer8.pdf
+.. _`John Shareshian's slides`: attachment:days40_tutorials/johnbeamer8.pdf
 
 .. quick references
 .. _`Sage Quick Reference Card`: http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf
