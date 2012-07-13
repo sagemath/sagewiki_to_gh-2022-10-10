@@ -63,6 +63,6 @@ References:
 
 == Michelle's project ==
 
-(People: Anna, Adriana)
+(People: Anna, Adriana, Stephanie)
 
 [[attachment:ManesProject.pdf]]
