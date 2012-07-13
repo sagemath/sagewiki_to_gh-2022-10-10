@@ -28,7 +28,7 @@ Computation of examples of paramodular forms of prime level.
 
 == Kristin's project ==
 
-(People: Jen B., Sarah)
+(People: Jen B., Sarah, Christelle)
 
 Recall that the Hilbert class polynomial has as its zeros j-invariants of elliptic curves with complex multiplication (CM). In the case of genus 2, Igusa class polynomials play the analogous role: their zeros are Igusa invariants of genus 2 curves whose Jacobians have CM by a quartic CM ﬁeld K. These Igusa invariants, in turn, require knowledge of the Siegel modular forms $\chi_{10}$ and $\chi_{12}$.
 
