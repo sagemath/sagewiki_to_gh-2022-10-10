@@ -70,7 +70,9 @@ Julie,
 Al Garver,
 Emily Gunawan
 
-User stories: [[attachment:quiver_representations.sage]]
+User stories__: 
+
+__ attachment:quiver_representations.sage
 
 Clusters algebras from surfaces
 ===============================
