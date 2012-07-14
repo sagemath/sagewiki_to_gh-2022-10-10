@@ -49,6 +49,7 @@ Wednesday
  * same times for breakfast, lunch, dinner, with project work during the day
  * afternoon: those interested can hike to Wallace Falls
  * after dinner: project reports (informal 10-15 minute reports/requests to review trac tickets)
+ * after project reports: s'mores!
 
 Thursday
 
