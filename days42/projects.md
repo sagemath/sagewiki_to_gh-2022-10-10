@@ -87,4 +87,29 @@ Some possible projects:
 
  * Generalizing the Flynn-Garton Paper for the average number of periodic points for a quadratic map modulo primes. Saying something about quadratic maps (mod $p$) would be interesting. (Anna, Stephanie) 
 
- * Look at the Sage code on ProjSpace (https://wfs.gc.cuny.edu/BHutz/www/ProjSpace.html) and see if we can extend some of the programs. Eg. We need cycle_structure to work (mod p) and we need fast iterates. 
+ * Look at the Sage code on ProjSpace (https://wfs.gc.cuny.edu/BHutz/www/ProjSpace.html) and see if we can extend some of the programs. Eg. We need cycle_structure to work (mod p) and we need fast iterates.
+
+
+Michelle's old code for towers of finite fields:
+
+def iter_set(list, m, c):
+   T = []
+   for x in list:
+       T.append(x^m + c)
+   return Set(T)
+
+def per_pts(list, m, c):
+   S = Set(list)
+   T = iter_set(S, m, c)
+   while S != T:
+       S = T
+       T = iter_set(S, m, c)
+   return S
+
+for c in (0..2):
+    for d in (2..11):
+        print "m = ", m, "c = ", c
+        for n in (1..10):
+            F.<a> = GF(3^n)
+            print len(per_pts(F, m, c))/3^n.n()
+        print "***************************"
