@@ -113,3 +113,5 @@ for c in (0..2):
             F.<a> = GF(3^n)
             print len(per_pts(F, m, c))/3^n.n()
         print "***************************"
+
+ *[[http://trac.sagemath.org/sage_trac/ticket/13130|Link to Ben Hurtz's patch for ProjSpace ]]
