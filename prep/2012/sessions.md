@@ -317,14 +317,9 @@ Final week office hours TBA
     * Continue any discussions you want on the list about technology.
     * Make improvements to a couple worksheets demonstrating what you want to show.
       * Be ready to show one of them off for feedback!
-{{{#!wiki comment
-  * For Tuesday, July 24st
-    * Let us know about additional topics for the last time
-    * Pick at least one worksheet you might want to share for next time
-      * (Won't be required, but strongly encouraged)
-}}}
   * For Tuesday, July 24th
-    * TBA
+    * Let us know about additional topics for discussion for the last session
+    * Publish at least one worksheet (or web page) you could us in the classroom this fall
   * For the future
     * Meet up at !MathFest!
     * Use Sage in your classes
