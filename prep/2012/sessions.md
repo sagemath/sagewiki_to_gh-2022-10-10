@@ -182,13 +182,13 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * [[http://sage.maa.org/home/pub/23|Graph Theory quickstart]] (Karl-Dieter, 10 min)
     * Participant worksheet sharing (Dan, 20 min)
     * A brief history of Sage (Karl-Dieter, 10 min)
+      * [[attachment:stein-maa.pdf|A very short talk by William Stein on this]]
     * Homework and wrap-up (Karl-Dieter, 5 min)
 
 
 === Session Links ===
 
   * [[http://sage.maa.org/home/pub/20/|Worksheet by Mike May of SLU on embedding images in worksheets]]
-  * A brief [[attachment:stein-maa.pdf|history of Sage]] (William Stein, 15 min)
   * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
 
 ==== Other potentially useful links ====
