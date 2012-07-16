@@ -66,3 +66,9 @@ References:
 (People: Anna, Adriana, Stephanie, Lola, Alina, Holly, Bianca T.)
 
 [[attachment:ManesProject.pdf]]
+
+* Take a map defined over Q. If I have a periodic point mod infinitely many primes, does it come from a rational point? (It would be nice to have some examples)
+
+* Towers of finite fields. Find the proportion of strictly periodic points. Eg. x^2 + c over F_{3^n}. Could also look at x^2 + c over F_{5^n}. What is different about 3 vs. 5? Almost certainly, if we can say something about x^2 + c, we can say something about x^m + c. 
+
+* Generalizing the Flynn-Garton Paper for the average number of periodic points for a quadratic map modulo primes. Saying something about quadratic maps would be interesting.
