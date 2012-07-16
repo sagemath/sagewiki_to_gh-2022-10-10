@@ -148,45 +148,50 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
   * [[http://usf.usfca.edu/vca/|Needham's Visual Complex Analysis]]
   * [[http://matplotlib.sourceforge.net/gallery.html|Even more plotting stuff with matplotlib]]
 
-== Warning: the rest of the schedule is still tentative ==
-
-
 <<Anchor(day3)>>
 == Tuesday, July 17 ==
 
-Our goal on the third day of sessions is to give more depth to how to use Sage in various areas one might teach.  We also aim to continue giving more depth in areas like plotting and basic programming.
+Our goal on the third day of sessions is to give more depth to how to use Sage in various areas one might teach.  We also aim to continue giving some other demos, and to start exploring interactions with other open source software.
 
 === Session I - Getting In-Depth, Part 1 ===
-    * Welcome Back (Dan, 5 min)
-    * [[http://sage.maa.org/home/pub/12|Lagrange multipliers demo]] (Dan, 10 min)
-    * Numerical Analysis (Dan, 30 min)
-      * [[http://sage.maa.org/home/pub/27|Quickstart]]
-      * [[http://sage.maa.org/home/pub/35|Some]] [[http://sage.maa.org/home/pub/36|more]] [[http://sage.maa.org/home/pub/37|demos]]
-    * Differential Equations [[http://sage.maa.org/home/pub/21|Quickstart]] (Karl-Dieter, 15 min)
+    * Welcome Back (Karl-Dieter, 5 min)
+    * [[http://sage.maa.org/home/pub/20/|Inserting Images into Worksheets]] (Karl-Dieter, 10 min)
+    * Differential Equations (Dan, 30 min)
+      * [[http://sage.maa.org/home/pub/21|Quickstart]]
+      * More Demos
+    * Linear Algebra Quickstart (Dan, 15 min)
     * Break
-    * Re-introduction to [[http://sage.maa.org/home/pub/142|Creating Interacts]] (Dan, 15 min)
-    * Discussion: Specific techniques for technology in classroom (30 min)
-      * Introducing a new topic in class
-      * In the Lab environment
+    * Re-introduction to [[http://sage.maa.org/home/pub/142|Creating Interacts]] (Karl-Dieter, 20 min)
+    * Conversation about departmental usage and related issues (moderated by Karl-Dieter, 25 min)
+      * Discussing your experience or queries on:
+        * Interacting with more than one system on campus
+        * Using it on your own
+        * Departmental Server and dealing with IT folks
+        * Lab imaging issues
+        * Converting materials
 
 === Session II - Getting In-Depth, Part 2 ===
-    * Welcome (Karl-Dieter, 5 min)
-    * [[http://sage.maa.org/home/pub/25|Graph Theory Quickstart]] (Karl-Dieter, 10 min)
+    * [[http://sage.maa.org/home/pub/24|Stats and Probability quickstart]] (Karl-Dieter, 15 min)
     * SageTeX (Dan, 20 min)
-      * [[attachment:sage-slides.pdf|Slides]]
-      * [[attachment:sage-tex.zip|Tex Source zip file]]
-    * Number Theory (Karl-Dieter, 25 min)
+      * Slides
+      * Sources
+    * Number Theory (Karl-Dieter, 30 min)
       * [[http://sage.maa.org/home/pub/23|Quickstart]]
       * A couple [[http://sage.maa.org/home/pub/39|demos]]
     * Break
-    * [[http://sage.maa.org/home/pub/24|Statistics quickstart]] (Karl-Dieter, 10 min)
-    * A brief [[attachment:stein-maa.pdf|history of Sage]] (William Stein, 15 min)
-      * Link to [[http://wstein.org/mathsoftbio/history.pdf|longer history from mathematical/software viewpoint]]
-    * Participant worksheet sharing (20 min)
-    * Homework and wrap-up (Dan, 5 min)
+    * [[http://sage.maa.org/home/pub/23|Graph Theory quickstart]] (Karl-Dieter, 10 min)
+    * Participant worksheet sharing (Dan, 20 min)
+    * A brief history of Sage (Karl-Dieter, 10 min)
+    * Homework and wrap-up (Karl-Dieter, 5 min)
 
 
 === Session Links ===
+
+  * [[http://sage.maa.org/home/pub/20/|Worksheet by Mike May of SLU on embedding images in worksheets]]
+  * A brief [[attachment:stein-maa.pdf|history of Sage]] (William Stein, 15 min)
+  * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
+
+==== Other potentially useful links ====
 
   * [[http://diveintopython3.org/advanced-iterators.html|Advanced Python iterators]]
   * [[http://trac.sagemath.org/sage_trac/ticket/11482|Sage Trac ticket for making it more obvious how to do power series solutions to DEs]]
@@ -194,6 +199,10 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
   * [[http://wiki.sagemath.org/pics|Pictures, including nice ones with Tachyon]]
   * [[http://osdir.com/ml/sage-support/2010-02/msg00406.html|An example of an animation with Tachyon]]
   * [[http://webwork.maa.org/moodle/course/view.php?id=5|Documentation for how WeBWorK is most effective]]
+
+
+== Warning: the final day's schedule is still tentative ==
+
 
 <<Anchor(day4)>>
 == Tuesday, July 24 ==
