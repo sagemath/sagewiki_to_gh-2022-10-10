@@ -61,7 +61,6 @@ Thursday
  * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]]
  * [[http://wiki.sagemath.org/development_basics|Development Basics]]
  * [[http://wiki.sagemath.org/problem_sets|Tutorials and Problem Sets]]
- * [[http://wiki.sagemath.org/Patch How To.rtf|How to Patch]]
 
 == Participants ==
  
