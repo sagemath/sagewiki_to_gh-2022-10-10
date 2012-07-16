@@ -290,8 +290,9 @@ workshop, or support question on
 ||Date||Time (PDT)||Time (EDT)||Organizer||
 || Friday 13 July || 9-10AM|| 12-1PM || Dan Drake ||
 || Monday, 16 July || 12-2PM || 3-5PM || Karl-Dieter Crisman ||
+|| Thursday, 19 July || TBA || TBA || Karl-Dieter Crisman ||
+|| Fri/Monday, 20/23 July || TBA || TBA || Dan Drake ||
 
-Final week office hours TBA
 
 <<Anchor(homework)>>
 == Homework ==
