@@ -36,6 +36,23 @@ One computational difference between genus 1 and 2 is that the Hilbert class pol
 
 In genus 3, the analogous computation requires us to properly understand $\chi_{18}$. This project will be about various things concerning $\chi_{18}$, with the eventual goal of getting some computational data for $\chi_{18}$ evaluated at CM points which we could study arithmetically and use to prove bounds on the primes which appear.
 
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+Tasks:
+
+0. Translate pari code theta functions
+
+1. Write 3-dim theta functions in Sage
+
+2. Find formulas for Fourier coefficients of dimension 3 Eisenstein series
+
+3. Describe CM points in dim 3, check code
+
+
+
+---- /!\ '''End of edit conflict''' ----
 Here are some starting points:
 
 0) Understand the definition of $\chi_{18}$, as in pp. 850 - 854 of [4].
@@ -45,6 +62,15 @@ Here are some starting points:
 
 2)  Ritzenthaler used the 36 even theta characteristics definition to do some explicit computations of $\chi_{18}$ when the abelian variety is a power of an elliptic curve E with complex multiplication. Some details are in Section 4 of [7]. Compare this computation (timing-wise) to one that uses the Fourier expansion definition. Which one converges faster/is more efficient? Which one allows us to better control precision?
 
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+
+
+
+---- /!\ '''End of edit conflict''' ----
 References:
 
 [1] R. Broker and K. Lauter, Evaluating Igusa functions, preprint. (http://arxiv.org/pdf/1005.1234v2.pdf)
