@@ -69,10 +69,10 @@ References:
 
 Some possible projects:
 
- * Take a map defined over $\mathbb{Q}$. If I have a periodic point mod infinitely many primes, does it come from a rational point? (It would be nice to have some examples)
+ * Take a map defined over $\mathbb{Q}$. If I have a periodic point mod infinitely many primes, does it come from a rational point? (It would be nice to have some examples.)
 
- * Towers of finite fields. Find the proportion of strictly periodic points. Eg. $x^2 + c$ over $\mathbb{F}_{3^n}$. Could also look at $x^2 + c$ over $\mathbb{F}_{5^n}$. What is different about $3$ vs. $5$? Almost certainly, if we can say something about $x^2 + c$, we can say something about $x^m + c$. 
+ * Towers of finite fields. Find the proportion of strictly periodic points. Eg. $x^2 + c$ over $\mathbb{F}_{3^n}$. Could also look at $x^2 + c$ over $\mathbb{F}_{5^n}$. What is different about $3$ vs. $5$? Almost certainly, if we can say something about $x^2 + c$, we can say something about $x^m + c$. (Adriana, Holly, Lola, Bianca)
 
- * Generalizing the Flynn-Garton Paper for the average number of periodic points for a quadratic map modulo primes. Saying something about quadratic maps would be interesting.
+ * Generalizing the Flynn-Garton Paper for the average number of periodic points for a quadratic map modulo primes. Saying something about quadratic maps (mod $p$) would be interesting. (Anna, Stephanie) 
 
  * Look at the Sage code on ProjSpace (https://wfs.gc.cuny.edu/BHutz/www/ProjSpace.html) and see if we can extend some of the programs. 
