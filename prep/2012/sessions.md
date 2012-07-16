@@ -164,7 +164,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * [[http://sage.maa.org/home/pub/35|Some]] [[http://sage.maa.org/home/pub/36|more]] [[http://sage.maa.org/home/pub/37|demos]]
     * Differential Equations [[http://sage.maa.org/home/pub/21|Quickstart]] (Karl-Dieter, 15 min)
     * Break
-    * Re-introduction to [[http://sage.maa.org/home/pub/38|Creating Interacts]] (Dan, 15 min)
+    * Re-introduction to [[http://sage.maa.org/home/pub/142|Creating Interacts]] (Dan, 15 min)
     * Discussion: Specific techniques for technology in classroom (30 min)
       * Introducing a new topic in class
       * In the Lab environment
