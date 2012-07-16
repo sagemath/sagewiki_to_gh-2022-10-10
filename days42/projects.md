@@ -87,4 +87,4 @@ Some possible projects:
 
  * Generalizing the Flynn-Garton Paper for the average number of periodic points for a quadratic map modulo primes. Saying something about quadratic maps (mod $p$) would be interesting. (Anna, Stephanie) 
 
- * Look at the Sage code on ProjSpace (https://wfs.gc.cuny.edu/BHutz/www/ProjSpace.html) and see if we can extend some of the programs. 
+ * Look at the Sage code on ProjSpace (https://wfs.gc.cuny.edu/BHutz/www/ProjSpace.html) and see if we can extend some of the programs. Eg. We need cycle_structure to work (mod p) and we need fast iterates. 
