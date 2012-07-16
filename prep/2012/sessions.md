@@ -111,6 +111,7 @@ Our goal on the second day of sessions is to start deepening your knowledge of S
        * What have you heard of being done/working? (Karl-Dieter, 20 min)
          * As a tool, not a crutch - ideas?
          * Models for dissemination
+         * [[attachment:NotesTechDiscussionDay2.rtf|Notes from the discussion]]
       * Classroom-type demo: [[http://sage.maa.org/home/pub/13|Chaos and Calculus]] (Karl-Dieter, 10 min)
       * Classroom-type demo: [[http://sage.maa.org/home/pub/134|Multivariable Calc]] (Karl-Dieter, 10 min)
       * WeBWorK and Sage in Multivariable Calc (Karl-Dieter, 15 min)
