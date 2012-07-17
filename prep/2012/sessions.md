@@ -191,6 +191,8 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 
   * [[http://sage.maa.org/home/pub/20/|Worksheet by Mike May of SLU on embedding images in worksheets]]
   * [[http://www.techsmith.com/snagit.html|Snagit]] for screenshots
+  * [[http://boxen.math.washington.edu/home/wdj/teaching/DiffyQ/|David Joyner's DiffEq resources]]
+  * [[http://sage.math.washington.edu/home/wdj/teaching/DiffyQ/des-sage/des-book-2011-08-21.pdf|A free version of David's book with Marshall Hampton]] - also available from Johns Hopkins U. press
   * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
 
 ==== Other potentially useful links ====
