@@ -190,6 +190,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 === Session Links ===
 
   * [[http://sage.maa.org/home/pub/20/|Worksheet by Mike May of SLU on embedding images in worksheets]]
+  * [[http://www.techsmith.com/snagit.html|Snagit]] for screenshots
   * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
 
 ==== Other potentially useful links ====
