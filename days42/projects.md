@@ -114,7 +114,7 @@ for c in (0..2):
             print len(per_pts(F, m, c))/3^n.n()
         print "***************************"
 
- *[[http://trac.sagemath.org/sage_trac/ticket/13130|Link to Ben Hurtz's patch for ProjSpace ]]
+ *[[http://trac.sagemath.org/sage_trac/ticket/13130|Link to Ben Hutz's patch for ProjSpace ]]
 
 Adriana, Lola, and Bianca's code for "square-and-multiply"-type (fast?) iteration algorithm:
 
