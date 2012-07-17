@@ -27,5 +27,3 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * [[https://wfs.gc.cuny.edu/BHutz/www/ProjSpace.html | ProjSpace notebook]] - Significant functionality for Sage 4.8 (and some earlier versions)
 
  * [[http://trac.sagemath.org/sage_trac/ticket/13130 | Trac #13130 - Needs Review]]: Basic architecture changes : support for projective spaces over rings
-
- * to do - move the rest of the projspace project directly into sage
