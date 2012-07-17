@@ -166,8 +166,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * Discussing your experience or queries on:
         * Interacting with more than one system on campus
         * Using it on your own
-        * Departmental Server and dealing with IT folks
-        * Lab imaging issues
+        * Departmental Server and dealing with IT folks or unhelpful/idiosyncratic IT practices
         * Converting materials
 
 === Session II - Getting In-Depth, Part 2 ===
@@ -301,7 +300,7 @@ workshop, or support question on
 || Friday 13 July || 9-10AM|| 12-1PM || Dan Drake ||
 || Monday, 16 July || 12-2PM || 3-5PM || Karl-Dieter Crisman ||
 || Thursday, 19 July || TBA || TBA || Karl-Dieter Crisman ||
-|| Fri/Monday, 20/23 July || TBA || TBA || Dan Drake ||
+|| Fri/Monday, 20/23 July || 9-10AM || 12-1PM || Dan Drake ||
 
 
 <<Anchor(homework)>>
