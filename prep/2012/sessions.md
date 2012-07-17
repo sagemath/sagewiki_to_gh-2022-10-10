@@ -193,6 +193,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
   * [[http://www.techsmith.com/snagit.html|Snagit]] for screenshots
   * [[http://boxen.math.washington.edu/home/wdj/teaching/DiffyQ/|David Joyner's DiffEq resources]]
   * [[http://sage.math.washington.edu/home/wdj/teaching/DiffyQ/des-sage/des-book-2011-08-21.pdf|A free version of David's book with Marshall Hampton]] - also available from Johns Hopkins U. press
+  * [[http://wiki.sagemath.org/interact/diffeq|Differential Equations interact examples on the Sage wiki]]
   * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
 
 ==== Other potentially useful links ====
