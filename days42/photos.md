@@ -1,1 +1,1 @@
-Describe days42/photos here.
+Photos from Sage Days 42.
