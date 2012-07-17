@@ -199,6 +199,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * [[http://www.d.umn.edu/~mhampton/|Marshall Hampton's animation links (bottom)]]
     * [[http://www.nilesjohnson.net/hopf.html|Niles Johnson's Hopf fibration video in 3d]]
   * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
+  * [[http://wiki.sagemath.org/SageServer|info on setting up a Sage server (useful for IT people)]]
 
 ==== Other potentially useful links ====
 
