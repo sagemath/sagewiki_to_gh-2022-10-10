@@ -2,11 +2,11 @@
 
 The goal of sage-dynamics is to improve the open source mathematical software Sage for computer exploration in dynamical systems and foster code sharing between researchers in this area. This portion focuses on the Arithmetic (Number Theoretic) and Complex aspects of dynamical systems.
 
-==News==
+== News ==
 
  * to do
 
-==Past News==
+== Past News ==
 
  * January 30, 2012 - May 4, 2012 [[http://icerm.brown.edu/sp-s12 | ICERM program on Complex and Arithmetic Dynamics]]
 
