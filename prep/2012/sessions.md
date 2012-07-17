@@ -156,13 +156,14 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 === Session I - Getting In-Depth, Part 1 ===
     * Welcome Back (Karl-Dieter, 5 min)
     * [[http://sage.maa.org/home/pub/20/|Inserting Images into Worksheets]] (Karl-Dieter, 10 min)
+    * Brief intro to Sharing and Publishing worksheet (Karl-Dieter, 5 min)
     * Differential Equations (Dan, 30 min)
       * [[http://sage.maa.org/home/pub/21|Quickstart]]
       * More Demos
     * Linear Algebra Quickstart (Dan, 15 min)
     * Break
     * Re-introduction to [[http://sage.maa.org/home/pub/142|Creating Interacts]] (Karl-Dieter, 20 min)
-    * Conversation about departmental usage and related issues (moderated by Karl-Dieter, 25 min)
+    * Conversation about departmental usage and related issues (moderated by Karl-Dieter, 20 min)
       * Discussing your experience or queries on:
         * Interacting with more than one system on campus
         * Using it on your own
