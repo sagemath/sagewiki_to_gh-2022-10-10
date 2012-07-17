@@ -10,7 +10,7 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
 == Photos ==
 
-[[/photos]]
+[[/photos/|photos|]]
 
 == Dates/Location ==
 
