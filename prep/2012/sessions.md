@@ -172,7 +172,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * [[attachment:NotesTechDiscussionDay3.rtf|Notes from discussion]] (brief version, after computer crash)
 
 === Session II - Getting In-Depth, Part 2 ===
-    * More about the Sage cell and [[interact.sagemath.org]] (guest speaker Jason Grout, 10 min)
+    * More about the Sage cell and [[http://interact.sagemath.org]] (guest speaker Jason Grout, 10 min)
     * [[http://sage.maa.org/home/pub/24|Stats and Probability quickstart]] (Karl-Dieter, 15 min)
     * SageTeX (Dan, 20 min)
       * Slides
