@@ -183,6 +183,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * A couple [[http://sage.maa.org/home/pub/39|demos]]
       * Epilogue: useful tools - [[https://bitbucket.org/whuss/sws2tex/|sws2tex]] and [[http://trac.sagemath.org/sage_trac/ticket/10637|sws2rst]]
     * Participant worksheet or webpage sharing (Dan, 20 min)
+      * [[http://sage.maa.org/home/pub/147|Ekaterina's arc length demo]]
     * Homework and wrap-up (Karl-Dieter, 5 min)
 
 
@@ -211,7 +212,6 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * [[http://artsci.drake.edu/grout/sage-slides.pdf|More slides about SageTeX]]
     * [[http://www.sagemath.org/doc/installation/sagetex.html|Making SageTeX known to a local Sage]]
     * [[http://tex.stackexchange.com/questions/1429/latex-package-to-generate-qr-codes|generate qr codes in latex]]
-  * [[http://sage.maa.org/home/pub/147|Ekaterina's arc length demo]]
 
 ==== Other potentially useful links ====
 
