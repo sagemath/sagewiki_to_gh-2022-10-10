@@ -202,7 +202,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 
 ==== Other potentially useful links ====
 
-  * [[https://sagenb.kaist.ac.kr:8066/home/pub/41/|using ffmpeg to make HTML5-friendly animations in Sage]]; [[http://sage.math.washington.edu/home/drake/wave.mp4|example for non-Firefox browsers, smartphones]]; http://sage.math.washington.edu/home/drake/wave.webm|example for Firefox]]
+  * [[https://sagenb.kaist.ac.kr:8066/home/pub/41/|using ffmpeg to make HTML5-friendly animations in Sage]]; [[http://sage.math.washington.edu/home/drake/wave.mp4|example for non-Firefox browsers, smartphones]]; [[http://sage.math.washington.edu/home/drake/wave.webm|example for Firefox]]
   * [[http://trac.sagemath.org/sage_trac/ticket/11482|Sage Trac ticket for making it more obvious how to do power series solutions to DEs]]
   * [[http://mathdl.maa.org/mathDL/22/?pa=content&sa=viewDocument&nodeId=2926|Cool Monthly article on polynomial non-convergence]]
   * [[http://wiki.sagemath.org/pics|Pictures, including nice ones with Tachyon]]
