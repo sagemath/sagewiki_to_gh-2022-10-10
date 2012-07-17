@@ -8,7 +8,7 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == Past News ==
 
- * January 30, 2012 - May 4, 2012 [[http://icerm.brown.edu/sp-s12 | ICERM program on Complex and Arithmetic Dynamics]]
+ * January 30, 2012 - May 4, 2012 [[http://icerm.brown.edu/sp-s12 | ICERM semeser program on Complex and Arithmetic Dynamics]]
 
 == How to participate and contribute ==
 
