@@ -8,6 +8,10 @@ This will be a 4-day workshop which will include a combination of mathematical t
   
 [[/projects/|preliminary reading]]
 
+== Photos ==
+
+[[\photos]]
+
 == Dates/Location ==
 
  * July 15-19, 2012 near Seattle, Washington at [[http://www.wallacefallslodge.com/|Wallace Falls Lodge]]
