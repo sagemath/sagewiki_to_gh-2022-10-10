@@ -175,8 +175,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * More about the Sage cell and [[http://interact.sagemath.org]] (guest speaker Jason Grout, 10 min)
     * [[http://sage.maa.org/home/pub/24|Stats and Probability quickstart]] (Karl-Dieter, 15 min)
     * SageTeX (Dan, 20 min)
-      * Slides
-      * Sources
+      * [[attachment:sagetex-examples.tar.bz2|examples I showed]]
     * [[http://sage.maa.org/home/pub/25|Graph Theory quickstart]] (Dan, 10 min)
     * Break
     * Number Theory (Karl-Dieter, 30 min)
