@@ -26,4 +26,4 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
  * [[http://trac.sagemath.org/sage_trac/ticket/13130 | Trac #13130 - Needs Review]]: Basic architecture change
 
- * to do - move the rest of the 'ProjSpace' project directly into sage
+ * to do - move the rest of the projspace project directly into sage
