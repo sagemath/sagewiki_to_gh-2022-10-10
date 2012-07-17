@@ -194,21 +194,20 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
   * [[http://boxen.math.washington.edu/home/wdj/teaching/DiffyQ/|David Joyner's DiffEq resources]]
   * [[http://sage.math.washington.edu/home/wdj/teaching/DiffyQ/des-sage/des-book-2011-08-21.pdf|A free version of David's book with Marshall Hampton]] - also available from Johns Hopkins U. press
   * [[http://wiki.sagemath.org/interact/diffeq|Differential Equations interact examples on the Sage wiki]]
+  * [[http://trac.sagemath.org/sage_trac/ticket/11482|Sage Trac ticket for making it more obvious how to do power series solutions to DEs]]
   * Animation links:
     * [[http://sagemath.org/doc/reference/sage/plot/animate.html|Sage 2d animate documentation]]
     * [[http://www.d.umn.edu/~mhampton/|Marshall Hampton's animation links (bottom)]]
     * [[http://www.nilesjohnson.net/hopf.html|Niles Johnson's Hopf fibration video in 3d]]
+    * [[https://sagenb.kaist.ac.kr:8066/home/pub/41/|using ffmpeg to make HTML5-friendly animations in Sage]]; [[http://sage.math.washington.edu/home/drake/wave.mp4|example for non-Firefox browsers, smartphones]]; [[http://sage.math.washington.edu/home/drake/wave.webm|example for Firefox]]
   * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
   * [[http://wiki.sagemath.org/SageServer|info on setting up a Sage server (useful for IT people)]]
 
 ==== Other potentially useful links ====
 
-  * [[https://sagenb.kaist.ac.kr:8066/home/pub/41/|using ffmpeg to make HTML5-friendly animations in Sage]]; [[http://sage.math.washington.edu/home/drake/wave.mp4|example for non-Firefox browsers, smartphones]]; [[http://sage.math.washington.edu/home/drake/wave.webm|example for Firefox]]
-  * [[http://trac.sagemath.org/sage_trac/ticket/11482|Sage Trac ticket for making it more obvious how to do power series solutions to DEs]]
   * [[http://mathdl.maa.org/mathDL/22/?pa=content&sa=viewDocument&nodeId=2926|Cool Monthly article on polynomial non-convergence]]
   * [[http://wiki.sagemath.org/pics|Pictures, including nice ones with Tachyon]]
   * [[http://osdir.com/ml/sage-support/2010-02/msg00406.html|An example of an animation with Tachyon]]
-  * [[http://webwork.maa.org/moodle/course/view.php?id=5|Documentation for how WeBWorK is most effective]]
 
 
 == Warning: the final day's schedule is still tentative ==
@@ -289,6 +288,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
   * [[http://www.d.umn.edu/~mhampton/|Marshall Hampton's awesome 3D animations with Sage and Tachyon]]
   * [[http://www.sagemath.org/doc/reference/sage/calculus/riemann.html|Riemann mapping in Sage]]
   * [[http://groups.google.com/group/sage-announce|Sage announcement list]]
+  * [[http://webwork.maa.org/moodle/course/view.php?id=5|Documentation for how WeBWorK is most effective]]
 
 <<Anchor(officehours)>>
 == Office Hours ==
