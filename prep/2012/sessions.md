@@ -172,19 +172,18 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * [[attachment:NotesTechDiscussionDay3.rtf|Notes from discussion]] (brief version, after computer crash)
 
 === Session II - Getting In-Depth, Part 2 ===
+    * More about the Sage cell and [[interact.sagemath.org]] (guest speaker Jason Grout, 10 min)
     * [[http://sage.maa.org/home/pub/24|Stats and Probability quickstart]] (Karl-Dieter, 15 min)
     * SageTeX (Dan, 20 min)
       * Slides
       * Sources
+    * [[http://sage.maa.org/home/pub/25|Graph Theory quickstart]] (Dan, 10 min)
+    * Break
     * Number Theory (Karl-Dieter, 30 min)
       * [[http://sage.maa.org/home/pub/23|Quickstart]]
       * A couple [[http://sage.maa.org/home/pub/39|demos]]
       * Epilogue: useful tools - sws2tex and sws2rst
-    * Break
-    * [[http://sage.maa.org/home/pub/25|Graph Theory quickstart]] (Dan, 10 min)
     * Participant worksheet or webpage sharing (Dan, 20 min)
-    * A brief history of Sage (Karl-Dieter, 10 min)
-      * [[attachment:stein-maa.pdf|A very short talk by William Stein on this]]
     * Homework and wrap-up (Karl-Dieter, 5 min)
 
 
@@ -201,7 +200,6 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * [[http://www.d.umn.edu/~mhampton/|Marshall Hampton's animation links (bottom)]]
     * [[http://www.nilesjohnson.net/hopf.html|Niles Johnson's Hopf fibration video in 3d]]
     * [[https://sagenb.kaist.ac.kr:8066/home/pub/41/|using ffmpeg to make HTML5-friendly animations in Sage]]; [[http://sage.math.washington.edu/home/drake/wave.mp4|example for non-Firefox browsers, smartphones]]; [[http://sage.math.washington.edu/home/drake/wave.webm|example for Firefox]]
-  * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
   * [[http://wiki.sagemath.org/SageServer|info on setting up a Sage server (useful for IT people)]]
 
 ==== Other potentially useful links ====
@@ -257,6 +255,8 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
     * Participant demos (moderated by Karl-Dieter, 65 min)
       * As many of these as we can get to!
     * Brief break
+    * A brief history of Sage (Karl-Dieter, 10 min)
+      * [[attachment:stein-maa.pdf|A very short talk by William Stein on this]]
     * Preview of future Sage enhancements (Dan, 10 min)
     * Wrap-up (Karl-Dieter, 10 min)
       * Post-Workshop Survey - watch your email
@@ -288,7 +288,8 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
   * [[https://bitbucket.org/rbeezer/tex2sws/|tex2sws conversion software]]
   * [[http://www.d.umn.edu/~mhampton/|Marshall Hampton's awesome 3D animations with Sage and Tachyon]]
   * [[http://www.sagemath.org/doc/reference/sage/calculus/riemann.html|Riemann mapping in Sage]]
-  * [[http://groups.google.com/group/sage-announce|Sage announcement list]]
+ * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
+   * [[http://groups.google.com/group/sage-announce|Sage announcement list]]
   * [[http://webwork.maa.org/moodle/course/view.php?id=5|Documentation for how WeBWorK is most effective]]
 
 <<Anchor(officehours)>>
