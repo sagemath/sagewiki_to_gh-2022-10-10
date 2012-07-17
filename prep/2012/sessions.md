@@ -191,10 +191,11 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 
   * [[http://sage.maa.org/home/pub/20/|Worksheet by Mike May of SLU on embedding images in worksheets]]
   * [[http://www.techsmith.com/snagit.html|Snagit]] for screenshots
-  * [[http://boxen.math.washington.edu/home/wdj/teaching/DiffyQ/|David Joyner's DiffEq resources]]
-  * [[http://sage.math.washington.edu/home/wdj/teaching/DiffyQ/des-sage/des-book-2011-08-21.pdf|A free version of David's book with Marshall Hampton]] - also available from Johns Hopkins U. press
-  * [[http://wiki.sagemath.org/interact/diffeq|Differential Equations interact examples on the Sage wiki]]
-  * [[http://trac.sagemath.org/sage_trac/ticket/11482|Sage Trac ticket for making it more obvious how to do power series solutions to DEs]]
+  * DE links:
+    * [[http://boxen.math.washington.edu/home/wdj/teaching/DiffyQ/|David Joyner's DiffEq resources]]
+    * [[http://sage.math.washington.edu/home/wdj/teaching/DiffyQ/des-sage/des-book-2011-08-21.pdf|A free version of David's book with Marshall Hampton]] - also available from Johns Hopkins U. press
+    * [[http://wiki.sagemath.org/interact/diffeq|Differential Equations interact examples on the Sage wiki]]
+    * [[http://trac.sagemath.org/sage_trac/ticket/11482|Sage Trac ticket for making it more obvious how to do power series solutions to DEs]]
   * Animation links:
     * [[http://sagemath.org/doc/reference/sage/plot/animate.html|Sage 2d animate documentation]]
     * [[http://www.d.umn.edu/~mhampton/|Marshall Hampton's animation links (bottom)]]
@@ -202,9 +203,14 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * [[https://sagenb.kaist.ac.kr:8066/home/pub/41/|using ffmpeg to make HTML5-friendly animations in Sage]]; [[http://sage.math.washington.edu/home/drake/wave.mp4|example for non-Firefox browsers, smartphones]]; [[http://sage.math.washington.edu/home/drake/wave.webm|example for Firefox]]
   * [[http://wiki.sagemath.org/SageServer|info on setting up a Sage server (useful for IT people)]]
   * [[http://sagemath.org/library-marketing.html|Sage marketing resources]]
-  * [[http://www.r-project.org/|R statistical software homepage]]
-  * [[http://mosaic-web.org/|Project MOSAIC]] (modeling in the first two years of college math)
-  * [[http://ask.sagemath.org/question/537/import-data-xls|Importing Excel files to Sage]]
+  * Stats etc:
+    * [[http://www.r-project.org/|R statistical software homepage]]
+    * [[http://mosaic-web.org/|Project MOSAIC]] (modeling in the first two years of college math)
+    * [[http://ask.sagemath.org/question/537/import-data-xls|Importing Excel files to Sage]]
+  * SageTeX:
+    * [[http://www.sagemath.org/doc/tutorial/sagetex.html|Using SageTeX from the Sage tutorial]]
+    * [[http://artsci.drake.edu/grout/sage-slides.pdf|More slides about SageTeX]]
+    * [[http://www.sagemath.org/doc/installation/sagetex.html|Making SageTeX known to a local Sage]]
 
 ==== Other potentially useful links ====
 
