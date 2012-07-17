@@ -160,7 +160,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * Differential Equations (Dan, 30 min)
       * [[http://sage.maa.org/home/pub/21|Quickstart]]
       * [[https://sagenb.kaist.ac.kr:8066/home/pub/10|double pendulum example]]; [[https://sagenb.kaist.ac.kr:8066/home/pub/12|nonlinear phase portraits]]
-    * Linear Algebra Quickstart (Dan, 15 min)
+    * [[http://sage.maa.org/home/pub/28/|Linear Algebra Quickstart]] (Dan, 15 min)
     * Break
     * Re-introduction to [[http://sage.maa.org/home/pub/142|Creating Interacts]] (Karl-Dieter, 20 min)
     * Conversation about departmental usage and related issues (moderated by Karl-Dieter, 20 min)
