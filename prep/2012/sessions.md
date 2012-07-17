@@ -201,6 +201,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * [[http://www.nilesjohnson.net/hopf.html|Niles Johnson's Hopf fibration video in 3d]]
     * [[https://sagenb.kaist.ac.kr:8066/home/pub/41/|using ffmpeg to make HTML5-friendly animations in Sage]]; [[http://sage.math.washington.edu/home/drake/wave.mp4|example for non-Firefox browsers, smartphones]]; [[http://sage.math.washington.edu/home/drake/wave.webm|example for Firefox]]
   * [[http://wiki.sagemath.org/SageServer|info on setting up a Sage server (useful for IT people)]]
+  * [[http://sagemath.org/library-marketing.html|Sage marketing resources]]
 
 ==== Other potentially useful links ====
 
