@@ -169,6 +169,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
         * Using it on your own
         * Departmental Server and dealing with IT folks or unhelpful/idiosyncratic IT practices
         * Converting materials
+      * [[attachment:NotesTechDiscussionDay3.rtf|Notes from discussion]] (brief version, after computer crash)
 
 === Session II - Getting In-Depth, Part 2 ===
     * [[http://sage.maa.org/home/pub/24|Stats and Probability quickstart]] (Karl-Dieter, 15 min)
