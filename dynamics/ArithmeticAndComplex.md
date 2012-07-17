@@ -22,6 +22,8 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == Road Map ==
 
+The arithmetic and complex dynamics functionality in Sage is currently in its infancy. A significant amount of functionality was developped at the ICERM semester in Spring 2012 and now we have started the process of moving this into Sage through a series of patches (trac tickets). To access that functionality now, use the (experimental) projspace notebook linked to below.
+
  * [[https://wfs.gc.cuny.edu/BHutz/www/ProjSpace.html | ProjSpace notebook]] - Significant functionality for Sage 4.8 (and some earlier versions)
 
  * [[http://trac.sagemath.org/sage_trac/ticket/13130 | Trac #13130 - Needs Review]]: Basic architecture changes : support for projective spaces over rings
