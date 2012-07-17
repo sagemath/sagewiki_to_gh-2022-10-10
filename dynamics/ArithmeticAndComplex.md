@@ -4,7 +4,7 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == News ==
 
- * to do
+ * 
 
 == Past News ==
 
