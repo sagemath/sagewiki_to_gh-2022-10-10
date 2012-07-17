@@ -14,13 +14,13 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
  * [[http://groups.google.com/group/sage-dynamics | sage-dynamics]]: Google group (web forum + mailing list)
 
-== Documentation and Tutorials++
+== Documentation and Tutorials ==
 
  * to do
  
  * sage-combinat has many excellent tutorials
 
-==Road Map==
+== Road Map ==
 
  * ProjSpace notebook - Significant functionality for Sage 4.8 (and maybe earlier)
- * Basic architecture change - 
+ * [[http://trac.sagemath.org/sage_trac/ticket/13130 | Trac #13130 - Needs Review]]: Basic architecture change
