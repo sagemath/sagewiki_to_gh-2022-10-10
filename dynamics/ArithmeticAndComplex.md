@@ -16,7 +16,7 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == Documentation and Tutorials ==
 
- * to do
+ * [[http://www.sagemath.org/doc/developer/ | Sage developer's guide]]
  
  * sage-combinat has many excellent tutorials [[http://combinat.sagemath.org/doc/ | combinat docs]]
 
