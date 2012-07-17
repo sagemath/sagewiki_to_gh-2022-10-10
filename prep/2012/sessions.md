@@ -180,7 +180,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
       * A couple [[http://sage.maa.org/home/pub/39|demos]]
       * Epilogue: useful tools - sws2tex and sws2rst
     * Break
-    * [[http://sage.maa.org/home/pub/23|Graph Theory quickstart]] (Dan, 10 min)
+    * [[http://sage.maa.org/home/pub/25|Graph Theory quickstart]] (Dan, 10 min)
     * Participant worksheet or webpage sharing (Dan, 20 min)
     * A brief history of Sage (Karl-Dieter, 10 min)
       * [[attachment:stein-maa.pdf|A very short talk by William Stein on this]]
