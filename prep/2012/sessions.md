@@ -182,7 +182,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * Number Theory (Karl-Dieter, 30 min)
       * [[http://sage.maa.org/home/pub/23|Quickstart]]
       * A couple [[http://sage.maa.org/home/pub/39|demos]]
-      * Epilogue: useful tools - sws2tex and sws2rst
+      * Epilogue: useful tools - [[https://bitbucket.org/whuss/sws2tex/|sws2tex]] and [[http://trac.sagemath.org/sage_trac/ticket/10637|sws2rst]]
     * Participant worksheet or webpage sharing (Dan, 20 min)
     * Homework and wrap-up (Karl-Dieter, 5 min)
 
