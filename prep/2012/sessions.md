@@ -203,6 +203,8 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
   * [[http://wiki.sagemath.org/SageServer|info on setting up a Sage server (useful for IT people)]]
   * [[http://sagemath.org/library-marketing.html|Sage marketing resources]]
   * [[http://www.r-project.org/|R statistical software homepage]]
+  * [[http://mosaic-web.org/|Project MOSAIC]] (modeling in the first two years of college math)
+  * [[http://ask.sagemath.org/question/537/import-data-xls|Importing Excel files to Sage]]
 
 ==== Other potentially useful links ====
 
