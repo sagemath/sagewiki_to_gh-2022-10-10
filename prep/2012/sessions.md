@@ -212,6 +212,7 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
     * [[http://artsci.drake.edu/grout/sage-slides.pdf|More slides about SageTeX]]
     * [[http://www.sagemath.org/doc/installation/sagetex.html|Making SageTeX known to a local Sage]]
     * [[http://tex.stackexchange.com/questions/1429/latex-package-to-generate-qr-codes|generate qr codes in latex]]
+  * a bit on [[http://sage.maa.org/home/pub/146/|plotting the prime_pi function]]
 
 ==== Other potentially useful links ====
 
