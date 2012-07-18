@@ -66,7 +66,7 @@ Thursday
  * [[http://wiki.sagemath.org/development_basics|Development Basics]]
  * [[http://wiki.sagemath.org/problem_sets|Tutorials and Problem Sets]]
  * [[attachment:Patch How To]]
-
+ * [[attachment:Reviewing Patches How To.rtf]]
 == Participants ==
  
  * Alina Bucur
