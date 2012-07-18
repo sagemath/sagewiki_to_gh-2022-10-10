@@ -14,6 +14,8 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
  * [[http://groups.google.com/group/sage-dynamics | sage-dynamics]]: Google group
 
+  * anyone may subscribe by sending an e-mail to: sage-dynamics+subscribe at googlegroups dot com
+
 == Documentation and Tutorials ==
 
  * [[http://www.sagemath.org/doc/developer/ | Sage developer's guide]]
