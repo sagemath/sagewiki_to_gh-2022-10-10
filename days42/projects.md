@@ -143,3 +143,7 @@ This function evaluates the iterate at a particular point. The benefits of this 
 def iterate2(f,n,a):
     w=iterate(f,n)
     return w(a)
+
+Here is our Sage worksheet for the fast iteration function:
+
+[[attachment:Iteration.sws]]
