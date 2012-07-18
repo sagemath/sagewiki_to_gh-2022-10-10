@@ -1,6 +1,6 @@
 == Jen's project ==
 
-(People: Aly & Hester)
+(People: Aly & Hester: Check out my patch! [[http://trac.sagemath.org/sage_trac/ticket/13266#no1]])
 
 The paramodular groups are subgroups of GSp(4) which are good analogues of the congruence subgroups underlying the new and old-form theory for GL(2).  They have been studied for a long time for the connection to abelian surfaces with polarizations of type (1,N), but are not as prevalent in the literature on Siegel modular forms as the Siegel congruence subgroup.  Interest in these subgroups has increased in the past years in part due to a precise analog of the Taniyama-Shimura conjecture for abelian surfaces by Brumer and Kramer known as the paramodular conjecture.
 
