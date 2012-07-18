@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 First, there are some things that are easy to do, but take a long time.  \
+\
+1.  Run all doctests in the files that are affected by the patch.  To do this, get in your sage directory, so from the main directory \
+\
+cd sage/devel/sage\
+\
+and then run\
+\
+../../sage -t sage/path-to-directory-or-file\
+\
+(For example, I just tested a bunch of stuff added to the schemes file, so I did -t sage/schemes)  This will take awhile, ~30 minutes.  \
+\
+2.  Do a long test of the entire sage library\
+\
+../../sage --testall --long\
+\
+3.  Check that the documentation builds\
+\
+../../sage -docbuild reference html\
+\
+4.  Check for docd ctest coverage\
+\
+../../sage -coverage <file>\
+\
+If this is less that 100%, the patch gets "needs work" status.  \
+\
+5. Now, a more difficult part, check the patch to see if it actually does what it claims to do.  That is, try some examples, outrageous situations, try to get errors by putting in bad input.  \
+\
+If all of this looks good, give it a positive review.  If some of these look good, you can indicated that on the trace ticket, but still leave it as "needs work," and explain why.  }
