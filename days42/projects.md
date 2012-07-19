@@ -144,6 +144,6 @@ def iterate2(f,n,a):
     w=iterate(f,n)
     return w(a)
 
-Here is our Sage worksheet for the fast iteration function:
+Adriana and Lola's Sage worksheet for the fast iteration function:
 
 [[attachment:FastIteration.sws]]
