@@ -287,3 +287,5 @@ Interface to Gfan and version update
 Marshall Hampton
 
 }}}
+
+{{http://garsia.math.yorku.ca/~zabrocki/pics/sagedays40.jpg}}
