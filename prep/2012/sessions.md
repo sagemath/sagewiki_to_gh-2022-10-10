@@ -285,11 +285,9 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * Post-Workshop Survey - watch your email
       * Meet up at MathFest, JMM!
       * Video links:
-        * [[education3#Schedule|Most video and slides and worksheets are here]]
-          * Including ones from Dan, Karl-Dieter, Ryan Grout, and former PREP participant John Travis
-          * Dan Drake's [[http://tinyurl.com/3zwnfhz|SageTeX video]] is awesome
+        * [[education3#Schedule|Video, slides and worksheets from the 2011 Sage "Edu Days 3"]], including ones from Dan, Karl-Dieter, Ryan Grout, and former PREP participant John Travis. (Dan Drake's [[http://tinyurl.com/3zwnfhz|SageTeX video]] is awesome.)
         * [[days31#Schedule|The WeBWorK videos here (Wednesday) may be helpful]]
-      * Servers for fall use
+      * Servers for fall semester use
       * Follow up reports about how used in classroom
         * Keep track!
         * Watch for emails!
