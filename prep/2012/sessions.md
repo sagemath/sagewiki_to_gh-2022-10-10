@@ -229,15 +229,6 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 
 Our goal on the last day of sessions is to consolidate our gains, give lots of opportunity to share your work, and address some final issues like setting up a server.  We'll also have an opportunity for addressing things not already discussed.
 
-{{{#!wiki comment/dotted
-=== Quickstarts or other possible materials yet to be covered ===
-
- * [[http://sage.maa.org/home/pub/22|Abstract Algebra]]
- * [[http://sage.maa.org/home/pub/26|Multivariable calculus]]
- * [[http://sage.maa.org/home/pub/27|Numerical Analysis]]
- * Advanced 3d plotting Parts [[http://sage.maa.org/home/pub/57|One]] and [[http://sage.maa.org/home/pub/56|Two]]
- * [[http://sage.maa.org/home/pub/61|Advanced programming]]
-}}}
 
 
 === Session I - Useful Advanced Issues ===
@@ -256,19 +247,17 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
         * Q&A
     * Abstract Algebra [[http://sage.maa.org/home/pub/22|quickstart]] (Karl-Dieter, 15 min)
     * Break
-    * Numerical analysis (Dan, 15 min)
+    * Numerical analysis [[http://sage.maa.org/home/pub/27|quickstart]] (Dan, 15 min)
     * [[http://sage.maa.org/home/pub/58|Embedding other things]] into worksheets (Dan, 20 min)
       * Geogebra
       * Flash
       * Applets
       * Processing.js?
-    * [[http://webwork.maa.org|WeBWorK]] (TBA, 20 min)
-      * Link to [[attachment:2011_06_21_PREPsage.pdf|slides]]
-      * [[http://tinyurl.com/3fbzd8q|Status report on Sage/WeBWorK integration]](8 minutes in and 25 minutes in)
+      * [[http://webwork.maa.org|WeBWorK]] (guest speaker John Travis, 20 min)
 
 === Session II - Participants Participate ===
     * Welcome back (Dan, 5 min)
-    * [[http://sage.maa.org/home/pub/61|Advanced programming]] (Dan, 20 min)
+    * [[http://sage.maa.org/home/pub/61|Advanced programming]] (Dan, 15 min)
       * lists vs. tuples
       * list comprehensions and generators
       * slicing lists and matrices
@@ -294,6 +283,11 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session Links ===
 
+  * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
+  * [[http://webwork.maa.org/moodle/course/view.php?id=5|Documentation for how WeBWorK is most effective]]
+
+==== Other potentially useful links ====
+
   * [[http://docs.python.org/library/functions.html#sorted|Documentation]] for Python sorted() function
   * [[http://docs.python.org/library/stdtypes.html#string-formatting|Python string formatting]]
   * [[http://docs.python.org/library/string.html#formatstrings|Another string formatting link]]
@@ -301,12 +295,10 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
   * [[http://euclid.mc.edu/mywiki/Multivariate%20Calculus%20Presentation|More multivariable interact ideas]]
   * [[http://linear.ups.edu/|Beezer's linear algebra book]]
   * [[http://wiki.sagemath.org/devel/LatexToWorksheet|Beezer's plan to move TeX to worksheets]]
+  * [[http://groups.google.com/group/sage-announce|Sage announcement list]]
   * [[https://bitbucket.org/rbeezer/tex2sws/|tex2sws conversion software]]
   * [[http://www.d.umn.edu/~mhampton/|Marshall Hampton's awesome 3D animations with Sage and Tachyon]]
   * [[http://www.sagemath.org/doc/reference/sage/calculus/riemann.html|Riemann mapping in Sage]]
- * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
-   * [[http://groups.google.com/group/sage-announce|Sage announcement list]]
-  * [[http://webwork.maa.org/moodle/course/view.php?id=5|Documentation for how WeBWorK is most effective]]
 
 <<Anchor(officehours)>>
 == Office Hours ==
