@@ -242,7 +242,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session I - Useful Advanced Issues ===
     * Welcome back (Karl-Dieter, 5 min)
-    * Final classroom nuts and bolts (40 min)
+    * Final classroom nuts and bolts (30 min)
       * Ideas discussion (moderated by Karl-Dieter)
         * Ideas for server or lab
         * Grading and/or sharing
@@ -256,13 +256,13 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
         * Q&A
     * Break
     * Abstract Algebra [[http://sage.maa.org/home/pub/22|quickstart]] (Karl-Dieter, 15 min)
-    * Advanced 3d plotting Parts [[http://sage.maa.org/home/pub/57|One]] and [[http://sage.maa.org/home/pub/56|Two]] (Dan, 15 min)
-    * [[http://sage.maa.org/home/pub/58|Embedding other things]] into worksheets (Dan, 10 min)
+    * Numerical analysis (Dan, 15 min)
+    * [[http://sage.maa.org/home/pub/58|Embedding other things]] into worksheets (Dan, 20 min)
       * Geogebra
       * Flash
       * Applets
-      * WeBWorK
-    * [[http://webwork.maa.org|WeBWorK]] (TBA, 15 min)
+      * Processing.js?
+    * [[http://webwork.maa.org|WeBWorK]] (TBA, 20 min)
       * Link to [[attachment:2011_06_21_PREPsage.pdf|slides]]
       * [[http://tinyurl.com/3fbzd8q|Status report on Sage/WeBWorK integration]](8 minutes in and 25 minutes in)
 
