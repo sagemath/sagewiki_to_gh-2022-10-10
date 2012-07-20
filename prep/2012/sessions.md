@@ -283,13 +283,8 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
     * Preview of future Sage enhancements (Dan, 10 min)
     * Wrap-up (Karl-Dieter, 10 min)
       * Post-Workshop Survey - watch your email
-      * Mathfest (joint with WeBWorK and MAA)
-        * Short Demo
-        * Should be a table
-        * Something at Web-SIGMAA meeting
-      * Joint Math Meetings
-        * Sage table, possibly with WW and/or MAA
-      * Video links from UTMOST Sage Days conference
+      * Meet up at MathFest, JMM!
+      * Video links:
         * [[education3#Schedule|Most video and slides and worksheets are here]]
           * Including ones from Dan, Karl-Dieter, Ryan Grout, and former PREP participant John Travis
           * Dan Drake's [[http://tinyurl.com/3zwnfhz|SageTeX video]] is awesome
