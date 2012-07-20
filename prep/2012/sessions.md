@@ -242,7 +242,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session I - Useful Advanced Issues ===
     * Welcome back (Karl-Dieter, 5 min)
-    * Final classroom nuts and bolts (30 min)
+    * Final classroom nuts and bolts (40 min)
       * Ideas discussion (moderated by Karl-Dieter)
         * Ideas for server or lab
         * Grading and/or sharing
@@ -254,8 +254,8 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * [[http://wiki.sagemath.org/SageServer|Setting up a server]] (Dan)
         * Where to find resources
         * Q&A
-    * Break
     * Abstract Algebra [[http://sage.maa.org/home/pub/22|quickstart]] (Karl-Dieter, 15 min)
+    * Break
     * Numerical analysis (Dan, 15 min)
     * [[http://sage.maa.org/home/pub/58|Embedding other things]] into worksheets (Dan, 20 min)
       * Geogebra
