@@ -229,6 +229,17 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
 
 Our goal on the last day of sessions is to consolidate our gains, give lots of opportunity to share your work, and address some final issues like setting up a server.  We'll also have an opportunity for addressing things not already discussed.
 
+{{{#!wiki comment/dotted
+=== Quickstarts or other possible materials yet to be covered ===
+
+ * [[http://sage.maa.org/home/pub/22|Abstract Algebra]]
+ * [[http://sage.maa.org/home/pub/26|Multivariable calculus]]
+ * [[http://sage.maa.org/home/pub/27|Numerical Analysis]]
+ * Advanced 3d plotting Parts [[http://sage.maa.org/home/pub/57|One]] and [[http://sage.maa.org/home/pub/56|Two]]
+ * [[http://sage.maa.org/home/pub/61|Advanced programming]]
+}}}
+
+
 === Session I - Useful Advanced Issues ===
     * Welcome back (Karl-Dieter, 5 min)
     * Final classroom nuts and bolts (40 min)
