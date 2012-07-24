@@ -357,7 +357,7 @@ workshop, or support question on
       * Be ready to show one of them off for feedback!
   * For Tuesday, July 24th
     * Let us know about additional topics for discussion for the last session
-    * Publish at least one worksheet (or web page) you could us in the classroom this fall
+    * Publish at least one worksheet (or web page) you could use in the classroom this fall
   * For the future
     * Meet up at !MathFest!
     * Use Sage in your classes
