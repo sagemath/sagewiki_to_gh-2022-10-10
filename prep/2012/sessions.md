@@ -276,6 +276,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * [[https://www.math.duke.edu/education/calculustext-rev11/Chapter2/Section2-4/Chapter2-4-3M.html|MAA Calculus book example]]
       * [[http://sage.maa.org/home/pub/162/|Riemann sum approximation]]
       * [[http://sage.maa.org/home/pub/158/|Curve Fitting]]
+      * [[http://sage.maa.org/home/pub/153/|Area under normal curve]]
       * [[http://sage.maa.org/home/pub/138/|Introducing Graphs]]
       * [[http://sage.maa.org/home/pub/156|Discrete Logic lab]]
       * [[http://sage.maa.org/home/pub/159/|Finding Euler Phi solutions]]
