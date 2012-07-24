@@ -241,7 +241,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
         * Presentation ideas
         * [[http://sagemath.org/library-publications.html#books|Books using Sage]]
           * [[http://code.google.com/p/sage-power-book/|William Stein's book]]
-        * More ideas?
+        * [[attachment:NotesTechDiscussionDay4.rtf|Discussion notes from today]]
       * [[http://wiki.sagemath.org/SageServer|Setting up a server]] (Dan)
         * Where to find resources
         * Q&A
