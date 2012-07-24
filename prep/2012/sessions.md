@@ -274,6 +274,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
     * Brief break
     * A brief history of Sage (Karl-Dieter, 10 min)
       * [[attachment:stein-maa.pdf|A very short talk by William Stein on this]]
+      * [[attachment:stein-intro.pdf|A different intro to Sage by Stein with more info]]
     * Preview of future Sage enhancements (Dan, 10 min)
     * Wrap-up (Karl-Dieter, 10 min)
       * Post-Workshop Survey - watch your email
