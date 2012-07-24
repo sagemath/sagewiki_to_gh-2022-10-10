@@ -271,10 +271,12 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
     * Brief break
     * Participant demos (moderated by Karl-Dieter, 65 min)
       * As many of these as we can get to!
-      * [[https://www.math.duke.edu/education/calculustext-rev11/Chapter2/Section2-4/Chapter2-4-3M.html|MAA Calculus book example]]
-      * [[http://sage.maa.org/home/pub/157/|Collatz conjecture]]
       * [[http://sage.maa.org/home/pub/152/|Compound interest]]
       * [[http://sage.maa.org/home/pub/150/|Exploring sine function]]
+      * [[https://www.math.duke.edu/education/calculustext-rev11/Chapter2/Section2-4/Chapter2-4-3M.html|MAA Calculus book example]]
+      * [[http://sage.maa.org/home/pub/138/|Introducing Graphs]]
+      * [[http://sage.maa.org/home/pub/156|Discrete Logic lab]]
+      * [[http://sage.maa.org/home/pub/157/|Collatz conjecture]]
     * Brief break
     * A brief history of Sage (Karl-Dieter, 10 min)
       * [[attachment:stein-maa.pdf|A very short talk by William Stein on this]]
