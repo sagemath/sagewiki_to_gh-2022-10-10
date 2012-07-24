@@ -252,7 +252,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * Geogebra
       * Flash
       * Applets
-      * Processing.js?
+      * Processing.js
       * [[http://webwork.maa.org|WeBWorK]] (guest speaker John Travis, 20 min)
         * [[http://wiki.sagemath.org/education4|Updated videos on state of the art with WW]]
         * Log in as guest to try:
