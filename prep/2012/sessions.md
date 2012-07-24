@@ -243,7 +243,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
           * [[http://code.google.com/p/sage-power-book/|William Stein's book]]
         * [[attachment:NotesTechDiscussionDay4.rtf|Discussion notes from today]]
       * [[http://wiki.sagemath.org/SageServer|Setting up a server]] (Dan)
-        * Where to find resources
+        * Where to find resources (such as [[https://groups.google.com/forum/?fromgroups#!forum/sage-devel|sage-devel]])
         * Q&A
     * Abstract Algebra [[http://sage.maa.org/home/pub/22|quickstart]] (Karl-Dieter, 15 min)
     * Break
