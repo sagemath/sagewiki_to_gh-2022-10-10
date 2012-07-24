@@ -254,6 +254,11 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
       * Applets
       * Processing.js?
       * [[http://webwork.maa.org|WeBWorK]] (guest speaker John Travis, 20 min)
+        * [[http://wiki.sagemath.org/education4|Updated videos on state of the art with WW]]
+        * Log in as guest to try:
+          * [[http://math.mc.edu/webwork2/Sage_PREP/|Today's demo problems]]
+          * [[http://math.mc.edu/webwork2/sage_demos/|Most recent Sage/WW demos]]
+
 
 === Session II - Participants Participate ===
     * Welcome back (Dan, 5 min)
