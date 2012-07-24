@@ -288,6 +288,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 === Session Links ===
 
+  * [[http://apcentral.collegeboard.com/apc/members/courses/teachers_corner/11703.html|Lies my calculator told me]] and [[http://www.stewartcalculus.com/data/default/upfiles/LiesCalcAndCompTold.pdf|more lies of the same kind]]
   * Link to [[http://wstein.org/mathsoftbio/history.pdf|Longer history of Sage from mathematical/software viewpoint]]
   * [[http://webwork.maa.org/moodle/course/view.php?id=5|Documentation for how WeBWorK is most effective]]
 
