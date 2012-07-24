@@ -293,6 +293,7 @@ Our goal on the last day of sessions is to consolidate our gains, give lots of o
 
 ==== Other potentially useful links ====
 
+  * [[http://arxiv.org/abs/1202.4830|"Automatic Deduction in Dynamic Geometry Using Sage"]] -- has some interesting ideas on interfacing Sage and GeoGebra
   * [[http://docs.python.org/library/functions.html#sorted|Documentation]] for Python sorted() function
   * [[http://docs.python.org/library/stdtypes.html#string-formatting|Python string formatting]]
   * [[http://docs.python.org/library/string.html#formatstrings|Another string formatting link]]
