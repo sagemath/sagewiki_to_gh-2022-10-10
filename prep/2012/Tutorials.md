@@ -2,7 +2,7 @@
 
 This page is the home of tutorials from the summer 2012 MAA PREP workshop "Sage: Using Open-Source Mathematics Software with Undergraduates" (funding provided by NSF DUE 0817071).  All these worksheets should be licensed under the Creative Commons Attribution-!ShareAlike 3.0 license ([[http://creativecommons.org/licenses/by-sa/3.0/|CC BY-SA]]).
 
-Warning: gray links are not yet uploaded and have not yet been used in the workshop.  These will be updated as we go along.
+Warning: gray links are not yet uploaded.  We will be be updating these as we have time; participants have access to them via the Sage server for the workshop.
 
 == Basic Tutorials ==
 
