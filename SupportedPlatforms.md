@@ -120,6 +120,9 @@ More information on the HP-UX port can be found on the [[HP-UX]] page.
  * Microsoft Windows using Cygwin (Substantial work has been done on this). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows sage-windows]] mailing list.
  * Microsoft Windows using Microsoft's compiler. This will be a full native port. There are some efforts at this. 
 
+=== Mac OS X ===
+ * OS X 10.8 (Mountain Lion).  Since this version has been released recently, there hasn't been any work yet to fix this.
+
 === OpenSolaris 64-bit ===
  * !OpenSolaris 06/2009 on x86 in 64-bit mode.  (Substantial work has been done on this). 
 
