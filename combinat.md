@@ -115,6 +115,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * For hg/mercurial lovers: [[http://hgbook.red-bean.com/read/|Mercurial: The Definite Guide]] an e-book by Bryan O'Sullivan
 
+ * Developing for Sage-Combinat on Windows: [[combinat/SageDevelWindows|Sage Development on Windows]].
+
 === Design ===
 
  * Have a look and participate to [[combinat/DesignDiscussion|design discussions]].
