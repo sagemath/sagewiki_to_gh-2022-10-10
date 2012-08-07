@@ -48,7 +48,7 @@ Broadly construed, this will describe how Sage (the software or the machine sage
   * [[http://translate.google.com/translate?hl=en&sl=ro&u=http://incearca.softwareliber.ro/2008/07/21/sage-o-alternativa-viabila-la-matlab-mathematica-co/|Translated Romanian Blog/Article about Sage]]
 
   * [[http://libreamoi.com/index.php/what-are-your-chances-of-hitting-a-fly-with-a-tennis-racquet/|What are your chances of hitting a fly with a tennis racquet?]] Blog / 2008-07-18 / Sage helps solving    [[http://code.google.com/codejam|google gode-jam]] question!
-
+  *[[http://www.shahuwang.com/?tag=sage]] A blog about Sage in Chinese
   * [[http://linuxappfinder.com/package/sage|linux appfinder software list]]
 
   * [[http://www.macresearch.org/plug-and-play-scientific-python-sage|macresearch.org: "Plug-and-Play Scientific Python with Sage"]]
