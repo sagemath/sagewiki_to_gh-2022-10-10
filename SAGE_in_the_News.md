@@ -3,6 +3,8 @@
 
 Broadly construed, this will describe how Sage (the software or the machine sage.math) and blogs impacts mathematicians by listing some of the news items involving Sage. Forum topics mentioning Sage can be interesting to track back how others think about Sage and in which contexts it is mentioned. Also the follow up discussions in blogs and forums may give some further insight how Sage is perceived in the outside world.
 
+  * [[http://www.ibm.com/developerworks/linux/library/l-science-compute/index.html|IBM developerWorks: Explore Linux as a scientific computing platform]], 2012-08-07.
+
   * "A Sage Experience", ''Linux Journal'' 2011-07
 
   * [[http://www.scidev.net/en/opinions/africa-analysis-the-benefits-of-open-source-software.html|Africa Analysis: The benefits of open source software]], 2010-11-05
