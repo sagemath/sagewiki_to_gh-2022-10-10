@@ -202,6 +202,14 @@ fi
 
 == Additional Notes ==
 
+ * To enable the jmol static image rendering, you need to install java as well.  I do:
+{{{
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+}}}
+
  * At some point, it's good to {{{chattr +i}}} the sage0-9 account home directories, .ssh directories, etc., to prevent changes.  On OS X, use chflags.
  * Enable acl permissions by editing fstab and adding the "acl" option behind the ext4 option (make sure your filesystem allows acls, of course).  Then you can better protect files from being seen by sage worksheet processes.
  * [[https://help.ubuntu.com/10.04/serverguide/C/automatic-updates.html]] also has some helpful tips.
