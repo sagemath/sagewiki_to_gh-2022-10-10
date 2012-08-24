@@ -1,11 +1,10 @@
 ## page was renamed from combinat/LanguageAndTiling
-= Languages and tilings =
 
-This page gathers ideas for refactorization of sage.combinat.words and implementation of tilings. 
+This page gathers ideas for refactorization of sage.combinat.words and implementation of tilings. You can subscribe to the associated [[https://lma.metelu.net/mailman/listinfo/sage-words|mailing-list]] to discuss about this.
 
-You can subscribe to the associated [[https://lma.metelu.net/mailman/listinfo/sage-words|mailing-list]] to discuss about this.
+<<TableOfContents>>
 
-== How do I implement my language ? my tiling ? ==
+= How do I implement my language ? my tiling ? =
 
 There are different places to look at for examples:
  * sage.categories.examples.languages: two examples of languages. PalindromicLanguages (the language of palindromes) and UniformMonoid (the submonoid of the free monoid on {a,b} that contains as many a as b).
@@ -16,9 +15,11 @@ There are different places to look at for examples:
 For shifts and tilings, there is (up to now) almost nothing:
  * sage.dynamics.symbolic.full_shift: the full shift
 
-== Structure ==
+= Structure =
 
-The refactorization of the current code should go in the patch [[http://trac.sagemath.org/sage_trac/ticket/12224|#12224]] which is almost done. Up to now the code is a bit dissaminated everywhere in Sage:
+The refactorization of the current code should go in the patch [[http://trac.sagemath.org/sage_trac/ticket/12224|#12224]] which is almost done. Up to now the code is a bit dissaminated everywhere in Sage..
+
+== General overview ==
 
  * sage.categories: Most of the generic code is contained there.
    * .languages: A language is a subset of A^* where A is a set called alphabet. It is naturally graded by N and the grading is called the length.
@@ -36,6 +37,20 @@ The refactorization of the current code should go in the patch [[http://trac.sag
    * implementation of different languages (balanced, language of a finite word, ...)
    * specific data structure (suffix tree/trie, rauzy graph, return tree, ...)
 
+== Classes for finite words ==
+
+The base class for all finite words is currently in sage.combinat.words.finite_word and is called FiniteWord. Some generic algorithms are implemented in the category of languages and factorial languages. The specific classes are
+
+ * sage.combinat.words.word_sequence
+    * Word_sequence: a word built from a Python object which support the [[http://docs.python.org/c-api/sequence.html|sequence protocol]]. It includes list, tuple, ...
+    * Word_str: a subclass of the one above dedicated for strings
+ * sage.combinat.words.lazy_word:
+    * FiniteWord_iterable: word built from iterators
+    * FiniteWord_callable: word built from a function
+    * ConcatenationFiniteFinite: word built as the concatenation of two words (this class is intended for concatenation of huge words)
+
+== Comments ==
+
 What is bad/nice with categories:
  * inheritance of generic code
  * a bit confusing for the user who want to find the implementation of a method
@@ -46,7 +61,9 @@ What do we keep? What categories do we create? Do we provide a default _element_
 
 In a next future we should think about mutability/immutability.
 
-== Behavior of algorithms with infinite input data ==
+= Algorithmic and naming conventions =
+
+== Behavior of algorithms with infinite input data =
 
 What to do for equality of infinite words ?
 
@@ -62,33 +79,13 @@ Two possibilities:
 
 Other suggestions ?
 
-== Subprojects ==
-
-=== Finite languages and factor set ===
-
-Most of it was implemented by Franco (suffix tree and suffix trie). We would like to enhance it and make a specific data structure (called Rauzy castle) for FiniteFactorialLanguages. See [[http://trac.sagemath.org/sage_trac/ticket/12225|#12225]].
-
-=== Substitutive and adic languages ===
-
-There are many algorithms for languages described by a sequence of substitutions (called a directive word). The particular case of morphic and purely morphic languages correspond respectively to periodic and purely_periodic directive words.
-
- * Enumeration of factors, desubstitution ([[http://trac.sagemath.org/sage_trac/ticket/12227|#12227]])
- * Factor complexity for purely morphic languages ([[http://trac.sagemath.org/sage_trac/ticket/12231/|#12231]])
- * Equality for purely morphic languages (following J. Honkala, CANT, chapter 10)
-
-=== Eventually periodic languages / words ===
-
-They will be useful to define eventually periodic directive words for adic languages. See [[http://trac.sagemath.org/sage_trac/ticket/12228|#12228]].
-
-== Naming convention / duplication ==
-
-=== Parikh vector, evaluation, abelianization ===
+== Parikh vector, evaluation, abelianization ==
 
 The name '''abelianization''' is the most generic one. '''Parikh vector''' is standard in word combinatorics. '''Evaluation''' is mainly used in combinatorics.
 
 Notice that evaluation is formally a composition, in other words the alphabet should be finite and ordered.
 
-=== Pattern matching ===
+== Pattern matching ==
 
 Algorithms for pattern matching may be optimized in subclasses. Hence, we should pay attention for function of low and high level.
 
@@ -120,7 +117,7 @@ sage: f.match(Word('abbababaababbbbababab', alphabet='ab'))
 ...
 }}}
 
-=== Repetitions and exponents ===
+== Repetitions and exponents ==
 
 see also #
 
@@ -136,9 +133,25 @@ Actual names
  * primitive
  * is_overlap
 
-The actual method ''crochemore_factorization'' is badly implemented. As far as Vincent understand, the only interest 
+= Subprojects =
 
-== TODO list ==
+== Finite languages and factor set ==
+
+Most of it was implemented by Franco (suffix tree and suffix trie). We would like to enhance it and make a specific data structure (called Rauzy castle) for FiniteFactorialLanguages. See [[http://trac.sagemath.org/sage_trac/ticket/12225|#12225]].
+
+== Substitutive and adic languages ==
+
+There are many algorithms for languages described by a sequence of substitutions (called a directive word). The particular case of morphic and purely morphic languages correspond respectively to periodic and purely_periodic directive words.
+
+ * Enumeration of factors, desubstitution ([[http://trac.sagemath.org/sage_trac/ticket/12227|#12227]])
+ * Factor complexity for purely morphic languages ([[http://trac.sagemath.org/sage_trac/ticket/12231/|#12231]])
+ * Equality for purely morphic languages (following J. Honkala, CANT, chapter 10)
+
+== Eventually periodic languages / words ==
+
+They will be useful to define eventually periodic directive words for adic languages. See [[http://trac.sagemath.org/sage_trac/ticket/12228|#12228]].
+
+= TODO list =
 
 for #12224:
  * update factorial langages, with doc and tests: task taken by ThierryMonteil
