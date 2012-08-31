@@ -146,7 +146,7 @@ account  required     pam_access.so nodefgroup
 
   6) Now set up passwordless ssh keys
 {{{
-sudo -u sageserver -i "ssh-keygen -t dsa"
+sudo -u sageserver -i ssh-keygen -t dsa
 for i in $(seq 0 9); do
  sudo cat ~sageserver/.ssh/id_dsa.pub | sudo -u sage$i -i "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys "
 done
