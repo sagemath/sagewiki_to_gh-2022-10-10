@@ -139,7 +139,7 @@ account  required     pam_access.so nodefgroup
 }}}
 
 
-  6) Now set up passwordless ssh keys
+  6) Now set up passwordless ssh keys.  I don't thing the following sudo syntax works anymore.  I had to do this by hand now.
 {{{
 sudo -u sageserver -i ssh-keygen -t dsa
 for i in $(seq 0 9); do
@@ -149,7 +149,7 @@ done
 
   7) Test logins (do at least one to generate the known_hosts file)
 {{{
-sudo -u sageserver -i "ssh sage0@localhost echo Done"
+sudo -u sageserver ssh sage0@localhost echo Done
 }}}
 
 
@@ -174,7 +174,7 @@ Note that I explicitly set the notebook directory, so that the directory doesn't
 
 {{{
 for i in 'biopython' 'cbc' 'glpk' 'graphviz' 'pyx' 'dot2tex' 'fricas'; do
-    sudo -u sageserver -i "~/sage/sage -i $i";
+    sudo -u sageserver ~sageserver/sage/sage -i $i;
 done;
 }}}
 
