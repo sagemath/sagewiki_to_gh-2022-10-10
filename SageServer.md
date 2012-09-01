@@ -111,7 +111,10 @@ listen	sageserver 0.0.0.0:80
 }}}
 
 
-  3) Enable haproxy by changing the {{{ENABLED}}} line to {{{ENABLED=1}}} in {{{/etc/default/haproxy}}} and then run haproxy by doing {{{sudo /etc/init.d/haproxy start}}}
+  3) Enable haproxy by changing the {{{ENABLED}}} line to {{{ENABLED=1}}} in {{{/etc/default/haproxy}}} and then run haproxy by doing 
+{{{
+sudo /etc/init.d/haproxy start
+}}}
 
   4) Now add a server and 10 user accounts.  The Sage notebook will invoke one of these 10 accounts to do the worksheet processing.
 {{{
