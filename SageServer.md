@@ -73,53 +73,45 @@ sudo vim /etc/apt/apt.conf.d/50unattended-upgrades # edit unattended upgrades co
 sudo apt-get install mercurial
 }}}
 
-  1) Install apache2 and enable the proxy modules
+  1) Install haproxy (see older versions of this webpage which use apache instead of haproxy)
 {{{
-sudo apt-get install apache2
-
-sudo a2enmod proxy
-sudo a2enmod proxy_http
+sudo apt-get install haproxy
 }}}
 
-  2) Create an apache virtual server for the Sage server.  I created a file {{{/etc/apache2/sites-available/sagenotebook}}} with the following contents, replacing YOUR_SERVER_NAME with your server name (e.g. sagenb.example.com).  Also replace YOUR_SERVER_ADMIN_EMAIL_ADDRESS with your admin email address.
+  2) Create a config for the Sage server.  I edit the {{{/etc/haproxy/haproxy.cfg}}} to have the following contents
 {{{
-<VirtualHost *:80>   
-ServerName YOUR_SERVER_NAME
+# this config needs haproxy-1.1.28 or haproxy-1.2.1
 
-ProxyRequests Off
-ProxyPreserveHost On
+global
+	log 127.0.0.1	local0
+	log 127.0.0.1	local1 notice
+	#log loghost	local0 info
+	maxconn 4096
+	#chroot /usr/share/haproxy
+	user haproxy
+	group haproxy
+	daemon
+	#debug
+	#quiet
 
-<Proxy *>
-Order deny,allow
-Allow from all
-</Proxy>
+defaults
+	log	global
+	mode	http
+	option	httplog
+	option	dontlognull
+	retries	3
+	option redispatch
+	maxconn	2000
+	contimeout	5000
+	clitimeout	50000
+	srvtimeout	50000
 
-ProxyPass / http://localhost:8000/
-ProxyPassReverse / http://localhost:8000/
-
- DocumentRoot /
- <Location />   DefaultType text/html
- </Location>
-
-   ErrorLog /var/log/apache2/error.log
-
-   # Possible values include: debug, info, notice, warn, error, crit,
-   # alert, emerg.
-   LogLevel warn
-
-   CustomLog /var/log/apache2/access.log combined
-   ServerAdmin YOUR_SERVER_ADMIN_EMAIL_ADDRESS
- </VirtualHost>
+listen	sageserver 0.0.0.0:80
+	server	sageserver localhost:8000 check 
 }}}
 
 
-  3) Enable the site in apache and restart apache
-{{{
-sudo a2dissite default
-sudo a2ensite sagenotebook
-sudo /etc/init.d/apache2 restart
-}}}
-
+  3) Enable haproxy by changing the {{{ENABLED}}} line to {{{ENABLED=1}}} in {{{/etc/default/haproxy}}} and then run haproxy by doing {{{sudo /etc/init.d/haproxy start}}}
 
   4) Now add a server and 10 user accounts.  The Sage notebook will invoke one of these 10 accounts to do the worksheet processing.
 {{{
@@ -136,11 +128,11 @@ done
 account  required     pam_access.so nodefgroup
 }}}
 
-  Then in {{{/etc/security/access.conf}}}, add these lines:
+  Then in {{{/etc/security/access.conf}}}, add these lines (`<backup>` is the IP address of the backup server):
 
 {{{
 -:(sageuser):ALL EXCEPT localhost
--:sageserver:ALL
+-:sageserver:ALL EXCEPT <backup>
 }}}
 
 
