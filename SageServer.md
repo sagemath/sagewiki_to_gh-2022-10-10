@@ -173,7 +173,7 @@ Note that I explicitly set the notebook directory, so that the directory doesn't
   10) Install any optional spkgs that you want.  I install these:
 
 {{{
-for i in 'jsmath_image_fonts' 'biopython' 'cbc' 'glpk' 'graphviz' 'pyx' 'dot2tex' 'fricas'; do
+for i in 'biopython' 'cbc' 'glpk' 'graphviz' 'pyx' 'dot2tex' 'fricas'; do
     sudo -u sageserver -i "~/sage/sage -i $i";
 done;
 }}}
