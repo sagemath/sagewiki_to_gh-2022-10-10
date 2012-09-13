@@ -8,7 +8,7 @@ Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]].
  * [[attachment:Obrazovka-1.png]]
 
 == Postup ==
- * Nainstalujte spkg [[http://user.mendelu.cz/marik/sage/sagenb-0.8.2-dev-i18n.spkg | odsud]]
+ * Nainstalujte Sage, spusťte Sage Notebook, přihlašte se jako admin, přejděte do nastavení a změňte výchozí jazyk na češtinu.
 
 == Zdroje informací ==
 
