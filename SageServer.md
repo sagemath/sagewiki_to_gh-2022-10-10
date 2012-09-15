@@ -17,26 +17,15 @@ I used [[http://www.sagenb.org]] for a semester.  I then set up a campus server 
   3. While the {{{sagenb.org}}} administrators do a fantastic job, there are no guarantees about service, uptime, backups, etc.  Having a campus server allows us to control these things (especially backups!).  
   4. We had no control over when upgrades were performed.  It was possible that a feature of Sage that we were using would change in a next release.  If so, having a campus server allows me to fix a version for the semester and stick with it (or just do upgrades if it won't negatively affect the students' experience), so that the experience is consistent for the semester.  On the other hand, there were several features that I contributed to Sage to help the students, and I could apply those immediately on a campus server, instead of having to wait until the next version of Sage.
 
-In our case, we found an old server that was several years old sitting unused.  We put some RAM in it to handle the load we would like to handle (see the table above) and that was our only cost.
+In our case, we found an old server that was several years old sitting unused.  We put 16GB of RAM in it to handle the load we would like to handle and that was our only cost.
 
 
 == Hardware Requirements ==
 
 === RAM ===
 
-The biggest bottleneck seems to be RAM; that will determine how many simultaneous users you can have.  From some informal tests, it seems that the Sage notebook uses about 150MB of RAM for the server and about 50MB for a worksheet instance.  If the OS uses between 512 and 1G of RAM, then I conservatively calculate that the following amounts of RAM will support the corresponding numbers of users (if the users are doing just basic calculations and not using a lot of RAM):
+The biggest bottleneck seems to be RAM; that will determine how many simultaneous users you can have.  Some anecdotal evidence indicates that, with the 'new' notebook in Sage 5.2 or later, classes of 60-70 take around 12-14GB of RAM (assuming most students have several worksheets open simultaneously).  The key to calculating RAM usage is to estimate the number of worksheets open simultaneously, and get an estimate of the sorts of computations people are running.  For example, doing integration starts up maxima, which takes a lot of memory.
 
-||'''RAM (GB)'''||'''Simultaneous worksheets'''||
-|| 1 ||  5 ||
-|| 2 ||  20 ||
-|| 3 ||  40 ||
-|| 4 ||  60 ||
-|| 8 ||  140 ||
-|| 12 ||  200 ||
-
-These numbers have not been tested.  If anyone has real-world numbers, please correct the table above.
-
-Note that the numbers above are for simultaneously running worksheets.  There can be many, many more accounts on the server.
 
 == Install the server ==
 
