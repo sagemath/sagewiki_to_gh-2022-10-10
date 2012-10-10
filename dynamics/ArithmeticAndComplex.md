@@ -28,4 +28,4 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * [[http://trac.sagemath.org/sage_trac/ticket/13130 | Trac #13130 - Needs Review]]: Basic architecture changes : support for projective spaces over rings
 
- * [[http://www.fit.edu/~bhutz| Experimental patches]] can be downloaded here.
+ * [[http://www.fit.edu/~bhutz/#sage-dynamics| Experimental patches]] can be downloaded here.
