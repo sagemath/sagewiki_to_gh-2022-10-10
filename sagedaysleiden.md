@@ -1,6 +1,6 @@
 = Sage Days X > 48 =
 
-From 22 July till 26 July 2013 there will be a Lorentz Center workshop on Arithmetic Geometry in Sage. There will be three main projects during this week.
+From 22 July till 26 July 2013 there will be a [[http://www.lorentzcenter.nl/|Lorentz Center]] workshop on Arithmetic Geometry in Sage. There will be three main projects during this week.
 
  * The first project is to enhance the function field functionality of Sage. In particular, it is important to have algorithms for computing with Jacobians of algebraic curves. This project is motivated by the other two projects.
 
