@@ -1,6 +1,7 @@
 = Sage Days X > 48 =
 
-[[http://press.princeton.edu/titles/9491.html|example site]]
+[[http://press.princeton.edu/titles/9491.html|Edixhoven
+Couveignes et al]]
 
 From 22 July till 26 July 2013 there will be a Lorentz Center workshop on Arithmetic Geometry in Sage. There will be three main projects during this week.
 
