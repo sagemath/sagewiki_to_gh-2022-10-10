@@ -1,6 +1,6 @@
 = Sage Days: Transitioning to Git =
 
-== March 25-29, 2013, Portland ==
+== March 25-29, 2013 -- Portland, Oregon ==
 
 The aim of this workshop is to prepare Sage for transitioning to Git. There are three main components for enabling this transition:
 
