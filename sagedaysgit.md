@@ -20,6 +20,6 @@ The conference is organized by:
 Participants:
 
  * Keshav Kini
- * David Roe (University of Calgary)
+ * David Roe
  * R. Andrew Ohana (University of Washington)
  * William Stein (University of Washington)
