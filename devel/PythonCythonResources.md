@@ -39,7 +39,7 @@
  * [[http://pexpect.sourceforge.net/pexpect.html | Pexpect]] - Spawn and control processes.
  * [[http://www.amk.ca/python/code/crypto.html | PyCrypto]] - Cryptographic algorithms and protocols - [[http://www.dlitz.net/software/pycrypto/ | current]].
  * [[http://pygments.org/ | Pygments]]  - Syntax highlighter - [[http://pygments.org/docs/ | docs]].
- * [[http://pynac.sagemath.org/ | Pynac]] - Symbolic manipulation - [[http://www.ginac.de/ | GiNaC]].
+ * [[http://pynac.org/ | Pynac]] - Symbolic manipulation - [[http://www.ginac.de/ | GiNaC]].
  * [[http://www.pythonware.com/products/pil/ | Python Imaging Library / PIL]] - Image processing - [[http://www.pythonware.com/library/pil/handbook/index.htm | docs]].
  * [[http://rpy.sourceforge.net/ | RPy]] - Statistical computing - [[http://rpy.sourceforge.net/documentation.html | docs]].
  * [[http://www.scipy.org/ | SciPy]] - Numerical algorithms and routines - [[http://docs.scipy.org/doc/ | docs]].
