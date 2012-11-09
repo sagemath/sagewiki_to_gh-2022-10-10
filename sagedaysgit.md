@@ -8,6 +8,8 @@ The aim of this workshop is to prepare Sage for transitioning to Git. There are 
  * Create a set of development tools for interfacing with Trac and Git
  * Extend the trac's git functionality to attach branches to tickets
 
+A more indepth description can be found [[WorkflowSEP | here]].
+
 This is '''NOT''' a Sage days to learn about how to develop with Git, hopefully we will have a Sage Days focused on that closer to the switch.
 
 === Participants ===
