@@ -221,8 +221,6 @@ Our goal on the third day of sessions is to give more depth to how to use Sage i
   * [[http://osdir.com/ml/sage-support/2010-02/msg00406.html|An example of an animation with Tachyon]]
 
 
-== Warning: the final day's schedule is still tentative ==
-
 
 <<Anchor(day4)>>
 == Tuesday, July 24 ==
