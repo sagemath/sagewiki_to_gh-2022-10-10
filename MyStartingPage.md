@@ -88,10 +88,6 @@ Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches aw
  * [[SageAppliance|Working with the Sage Virtual Machine (VirtualBox)]] (See also: [[SageApplianceV4|previous version of the Sage VM]])
  * [[InstallingGapPackages|Installing GAP pakages]]
 
-= Data =
-
- * [[data|Put (links to) interesting data you compute using Sage here]]
-
 
 = Images / Plotting / Art / Interacts =
 
