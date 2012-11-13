@@ -30,10 +30,22 @@ By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki
  * [[SAGE_in_the_News|Sage In the News and Blogs]]
 
 
+= Workshops =
 <<Anchor(sagedays)>>
+== Past and future workshops ==
 <<Include(Workshops, , to="^----$")>>
+=== Past workshops ===
+[[Workshops | Past workshops]], including Sage Days, Bug Days, Doc Days, Review Days, and Education Days.
+=== Recent Non-SageDays Workshops/Events that involved/impacted Sage ===
+ * [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop in Orsay]], January 26-30, 2009
+ * [[http://modular.math.washington.edu/msri06/|MSRI Workshop on Modular Forms]], Berkeley, CA, July 31 -- Aug 11, 2006
+ * [[http://sage.math.washington.edu/msri07|MSRI Workshop on Interactive Parallel Computation]], Berkeley, CA, Jan 29 -- Feb 2, 2007
 
-[[Workshops | Past and future workshops]], including Sage Days, Bug Days, Doc Days, Review Days, and Education Days.
+== Hosting a workshop ==
+ * [[HowToHostASageDays|How To Host A Sage Days]] --- Advice to future hosts
+ * [[HowToSpreadSageDuringAWorkshop|How to spread sage during a workshop]] --- Advice to future hosts
+
+
 
 = People =
 
@@ -72,13 +84,6 @@ The [[devel | development wiki]] page and the [[http://www.sagemath.org/doc/deve
  * Recent release tours: ` ` [[ReleaseTours/sage-4.3.1 | 4.3.1]], ` ` [[ReleaseTours/sage-4.3 | 4.3]], ` ` [[ReleaseTours/sage-4.1.1 | 4.1.1]],` ` [[ReleaseTours/sage-4.1 | 4.1]],` ` [[ReleaseTours/sage-4.0.2 | 4.0.2]],` ` [[ReleaseTours/sage-4.0.1 | 4.0.1]],` ` [[ReleaseTours/sage-4.0 | 4.0]],` ` [[ReleaseTours | more]].
 
 Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches awaiting review.
-
-
-= Recent Non-SageDays Workshops/Events that involved/impacted Sage =
-
- * [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop in Orsay]], January 26-30, 2009
- * [[http://modular.math.washington.edu/msri06/|MSRI Workshop on Modular Forms]], Berkeley, CA, July 31 -- Aug 11, 2006
- * [[http://sage.math.washington.edu/msri07|MSRI Workshop on Interactive Parallel Computation]], Berkeley, CA, Jan 29 -- Feb 2, 2007
 
 
 = Tips and Tricks =
