@@ -2,19 +2,12 @@
 ## page was renamed from drkirkby
 ## page was renamed from MyStartingPage
 
-= ACCESS =
-
- * '''To access the wiki, use your trac account.'''  See http://trac.sagemath.org/sage_trac/ for how to get a trac account.    (Spammers: Please don't waste your time trying to get an account, since you have to write an email to a human and convince them you are actually a Sage developer.)
-
-= Sage Wiki =
+= About this wiki =
 This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. It helps in organizing development, projects and meetings.
- 
- ||[[#sagedays|Sage Days]] || [[#messagingsites|Message Boards, Chatrooms]]  ||
 
+'''To access the wiki, use your trac account.'''  See http://trac.sagemath.org/sage_trac/ for how to get a trac account. (Spammers: Please don't waste your time trying to get an account, since you have to write an email to a human and convince them you are actually a Sage developer.)
 
-= License and Copyright =
-
-By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki (or the [[http://www.sagemath.org/documentation.html|Sage documentation]]), one certifies that one's contribution is licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]].
+'''License and Copyright''' : By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki (or the [[http://www.sagemath.org/documentation.html|Sage documentation]]), one certifies that one's contribution is licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]].
 
 
 <<TableOfContents>>
@@ -33,13 +26,13 @@ By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki
 = Workshops =
 <<Anchor(sagedays)>>
 == Past and future workshops ==
-<<Include(Workshops, , to="^----$")>>
-=== Past workshops ===
-[[Workshops | Past workshops]], including Sage Days, Bug Days, Doc Days, Review Days, and Education Days.
-=== Recent Non-SageDays Workshops/Events that involved/impacted Sage ===
- * [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop in Orsay]], January 26-30, 2009
- * [[http://modular.math.washington.edu/msri06/|MSRI Workshop on Modular Forms]], Berkeley, CA, July 31 -- Aug 11, 2006
- * [[http://sage.math.washington.edu/msri07|MSRI Workshop on Interactive Parallel Computation]], Berkeley, CA, Jan 29 -- Feb 2, 2007
+ * Upcoming Workshops
+ <<Include(Workshops, , from="^##start-include$", to="^----$")>>
+ * [[Workshops | Past workshops]], including Sage Days, Bug Days, Doc Days, Review Days, and Education Days.
+ * Recent Non-SageDays Workshops/Events that involved/impacted Sage
+   * [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop in Orsay]], January 26-30, 2009
+   * [[http://modular.math.washington.edu/msri06/|MSRI Workshop on Modular Forms]], Berkeley, CA, July 31 -- Aug 11, 2006
+   * [[http://sage.math.washington.edu/msri07|MSRI Workshop on Interactive Parallel Computation]], Berkeley, CA, Jan 29 -- Feb 2, 2007
 
 == Hosting a workshop ==
  * [[HowToHostASageDays|How To Host A Sage Days]] --- Advice to future hosts
