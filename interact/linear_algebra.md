@@ -21,7 +21,7 @@ def GS_classic(a_list):
         for j in range(0,i):
             r[j][i] = q[j].inner_product(a_list[i])
             v[i] = v[i] - r[j][i]*q[j]
-        r[i][i] = (v[i]*v[i])^(1/2)
+        r[i][i] = (v[i]*v[i])**(1/2)
         q.append(v[i]/r[i][i])
     q = matrix([q[i] for i in indices]).transpose()
     return q, matrix(r)
