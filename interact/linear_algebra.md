@@ -61,6 +61,22 @@ def gstest(precision = slider(range(3,53), default = 10), a1 = input_box([1,1/10
 }}}
 {{attachment:GramSchmidt.png}}
 
+== Equality of det(A) and det(A.tranpose()) ==
+srg = srange(-4,4,1/10,include_endpoint=True)
+@interact
+def dualv(a1=slider(srg,default=1),a2=slider(srg,default=2), a3=slider(srg,default=-1),a4=slider(srg,default=3)):
+    A1 = arrow2d([0,0],[a1,a2],rgbcolor='black')
+    A2 = arrow2d([0,0],[a3,a4],rgbcolor='black')
+    A3 = arrow2d([0,0],[a1,a3],rgbcolor='black')
+    A4 = arrow2d([0,0],[a2,a4],rgbcolor='black')
+    p1 = polygon([[0,0],[a1,a2],[a1+a3,a2+a4],[a3,a4],[0,0]], alpha=.5)
+    p2 = polygon([[0,0],[a1,a3],[a1+a2,a3+a4],[a2,a4],[0,0]],rgbcolor='red', alpha=.5)
+    A = matrix([[a1,a2],[a3,a4]])
+    html('<h3>The determinant of a matrix is equal to the determinant of the transpose</h3>')
+    html("$det(%s) = det(%s)$"%(latex(A),latex(A.transpose())))
+    show(A1+A2+A3+A4+p1+p2)
+
+
 == Linear transformations ==
 by Jason Grout
 
