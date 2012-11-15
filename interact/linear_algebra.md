@@ -3,8 +3,8 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
-== Numerical instability of the classical Gram-Schmidt algorithm FIXME ==
-by Marshall Hampton (tested by William Stein, who thinks this is really nice!)
+== Numerical instability of the classical Gram-Schmidt algorithm ==
+by Marshall Hampton 
 {{{#!sagecell
 def GS_classic(a_list):
     '''
@@ -16,7 +16,7 @@ def GS_classic(a_list):
     indices = range(len(a_list))
     q = []
     r = [[0 for i in indices] for j in indices]
-    v = [a_list[i].copy() for i in indices]
+    v = [a_list[i][:] for i in indices]
     for i in indices:
         for j in range(0,i):
             r[j][i] = q[j].inner_product(a_list[i])
@@ -35,7 +35,7 @@ def GS_modern(a_list):
     indices = range(len(a_list))
     q = []
     r = [[0 for i in indices] for j in indices]
-    v = [a_list[i].copy() for i in indices]
+    v = [a_list[i][:] for i in indices]
     for i in indices:
         r[i][i] = v[i].norm(2)
         q.append(v[i]/r[i][i])
