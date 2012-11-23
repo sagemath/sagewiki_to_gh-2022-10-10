@@ -10,6 +10,8 @@ This workshop will focus on implementing algorithms for ''p''-adic overconvergen
 
 There will be a few talks but most of the time will be devoted to working on Sage code.  A precise schedule of talks is yet to be determined, but will include a talk in the number theory seminar on Thursday at 14:30.
 
+Conference activities will begin Thursday morning and conclude Sunday afternoon, so try to fly in on Wednesday afternoon or evening and depart Sunday evening.
+
 === Projects ===
 
 See [[/Projects|the projects page]] for our objectives for the workshop.
