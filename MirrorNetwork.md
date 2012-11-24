@@ -21,7 +21,7 @@ where {{{$TARGET}}} should be replaced by your local target directory.
 
 '''Other Sources''': Since the master is sometimes slow, you can also try to rsync from one of the mirrors: 
   * --(rsync://ftp.sh.cvut.cz/sagemath)--
-  * rsync://rsync.mirrorservice.org/sites/www.sagemath.org/ (they fixed their mirror service. still, boxen from above will be more recent)
+  * rsync://rsync.mirrorservice.org/www.sagemath.org/ (they fixed their mirror service. still, boxen from above will be more recent)
 
 === rsync master ===
 It's dead simple to setup an rsync master server. In Ubuntu/Debian, you have to install rsync and then edit the rsync config file {{{/etc/rsyncd.conf}}}. The inet deamon calls the rsync process if someone wants to connect. 
