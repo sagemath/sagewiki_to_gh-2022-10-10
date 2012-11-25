@@ -2,7 +2,7 @@
 
 <<TableOfContents>>
 
-== January 31-February 3, 2012, University of Wisconsin, Madison ==
+== January 31-February 3, 2013, University of Wisconsin, Madison ==
 
 This workshop will focus on implementing algorithms for ''p''-adic overconvergent modular forms and modular symbols in Sage, with applications to computing ''p''-adic ''L''-functions.
 
