@@ -2,7 +2,7 @@
 
 <<TableOfContents>>
 
-== January 31-February 3, 2013, University of Wisconsin, Madison ==
+== January 31–February 3, 2013, University of Wisconsin, Madison ==
 
 This workshop will focus on implementing algorithms for ''p''-adic overconvergent modular forms and modular symbols in Sage, with applications to computing ''p''-adic ''L''-functions.
 
@@ -25,13 +25,17 @@ Location on campus, directions to the math department and information about wire
 The following people have been invited.  Some funding is still available, so if you're interested in attending please contact David Roe.
 
  * Jen Balakrishnan
+ * Evan Dummit
  * Cameron Franc
  * Matt Greenberg
  * Xevi Guitart
+ * Marci Hablicsek
+ * Lalit Jain
  * Alan Lauder
  * David Loeffler
  * Ben Lundell
  * Marc Masdeu
+ * Daniel Ross
  * Simon Spicer
 
 ==== Organizers ====
@@ -42,4 +46,4 @@ The following people have been invited.  Some funding is still available, so if 
 
 === Lodging ===
 
-More details about the hotel will be forthcoming here.
+We have rooms set aside at the [[http://conferencing.uwex.edu/lodging.cfm | Lowell Center]]. Please tell us by '''December 20th''' if you will be requiring lodging (no need to book the room yourself). The hotel is in a great location a block from State Street, on the lakefront, and a 10 minute walk from the math department.
