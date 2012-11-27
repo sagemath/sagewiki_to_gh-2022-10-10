@@ -28,13 +28,12 @@ The following people have been invited.  Some funding is still available, so if 
  * Evan Dummit
  * Cameron Franc
  * Matt Greenberg
- * Xevi Guitart
  * Marci Hablicsek
  * Lalit Jain
  * Alan Lauder
  * David Loeffler
  * Ben Lundell
- * Marc Masdeu
+ * Marc Masdeu (confirmed)
  * Daniel Ross
  * Simon Spicer
 
