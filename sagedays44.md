@@ -24,17 +24,17 @@ Location on campus, directions to the math department and information about wire
 
 The following people have been invited.  Some funding is still available, so if you're interested in attending please contact David Roe.
 
- * Jen Balakrishnan
- * Evan Dummit
+ * Jen Balakrishnan (confirmed)
+ * Rachel Davis (local)
+ * Evan Dummit (local)
  * Cameron Franc
  * Matt Greenberg
- * Marci Hablicsek
- * Lalit Jain
- * Alan Lauder
+ * Marci Hablicsek (local)
+ * Lalit Jain (local)
  * David Loeffler
  * Ben Lundell
  * Marc Masdeu (confirmed)
- * Daniel Ross
+ * Daniel Ross (local)
  * Simon Spicer
 
 ==== Organizers ====
