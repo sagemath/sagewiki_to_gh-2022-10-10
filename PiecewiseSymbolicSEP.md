@@ -122,6 +122,11 @@ We would like to keep as much of the old interface as possible intact. At the ve
 
 A new piecewise class, `PiecewiseSymbolic`, will replace `PiecewisePolynomial`. The old class will be deprecated via the normal procedure while users migrate to the new class.
 
+=== Other Computer Algebra Systems ===
+
+Some other systems implement piecewise functions, and we should try to understand their design decisions. For example,
+[[http://reference.wolfram.com/mathematica/ref/Piecewise.html|Mathematica's Piecewise documentation]] provides several examples based on predicates that we should be able to support.
+
 == Other Features ==
 
 There are other features that could be built on top of a robust piecewise class.
