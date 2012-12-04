@@ -5,9 +5,11 @@
 This workshop will focus on the development of the Sage-Singular interface and libSingular. Anybody interested
 is welcome to participate, prior experience with either of these is not required.
 
+<<TableOfContents>>
+
 {{http://blog.cartoonbank.com/wp-content/uploads/2011/07/137224_presentationlicense-430x280.jpg|cowboy book club cartoon, published in The New Yorker 7/25/2011}}
 
-=== Participants ===
+== Participants ==
 
  * Martin Albrecht
  * Volker Braun
@@ -62,23 +64,26 @@ Friday
 
 [[/projects|List of projects]]
 
-=== Location ===
+== Location ==
  * Building 48, rooms 438 and 436
  * Kaiserslautern, Germany
  * [[http://www.mathematik.uni-kl.de/~wwwagag/guestinfo/en/index.html|Travel information.]]
 
 
-=== Sponsors ===
+== Sponsored by ==
 
-[[http://www.computeralgebra.de|DFG priority program SPP-1489]]: Algorithmic and experimental methods in algebra, geometry and number theory
+[[http://www.dfg.de/index.jsp|{{http://www.mathematik.uni-kl.de/~motsak/dfg_logos/dfg.gif|DFG}}]]
+
+[[http://www.computeralgebra.de|SPP-1489: Algorithmic and experimental methods in algebra, geometry and number theory]]
+
 
 <<Anchor(organizers)>>
-=== Organizers ===
+== Organizers ==
  * Petra Bäsell
  * Wolfram Decker
  * Burcin Erocal - burcin@erocal.org
 
 <<Anchor(contact)>>
-=== Contact & Mailing List ===
+== Contact & Mailing List ==
 
 Feel free to email burcin@erocal.org with questions, comments and suggestions. [[http://groups.google.com/group/sagedays34|Mailing list for participants.]]
