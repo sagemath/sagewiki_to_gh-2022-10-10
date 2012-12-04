@@ -1,5 +1,7 @@
 = Sage Days 23.5: Singular and Sage =
 
+<<TableOfContents>>
+
 == Photos ==
 
   * Day 1: http://picasaweb.google.com/wstein/20100714Sagedays235Day1
@@ -35,8 +37,6 @@
 
 == Registration & Financial Support ==
 
-  * This workshop is being funded by the [[http://cmcm.uni-kl.de/en/|Center for Mathematical and Computational Modeling]]
-
   * Please [[http://www.singular.uni-kl.de/index.php/conference-registration/sage-days-registration.html|register for the workshop here.]]
 == Goals ==
 
@@ -66,3 +66,11 @@
   * Gert-Martin Greuel
   * Gabriel Pannwitz
   * Simon King
+
+== Sponsored by ==
+
+[[http://www.dfg.de/index.jsp|{{http://www.mathematik.uni-kl.de/~motsak/dfg_logos/dfg.gif|DFG}}]]
+
+[[http://www.computeralgebra.de|SPP-1489: Algorithmic and experimental methods in algebra, geometry and number theory]]
+
+[[http://cmcm.uni-kl.de/en/|Center for Mathematical and Computational Modeling]]
