@@ -1,7 +1,7 @@
 <<TableOfContents>>
 
 ----
-= sage-5.2 supported platforms =
+= sage-5.4.1 supported platforms =
 
 If you try to build Sage on most Linux or OS X systems, you should have few problems and if there are problems, plenty of people will be able to help you. Just ask on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] But some distributions are better supported than others - see below for details. 
 
@@ -44,11 +44,12 @@ There are several requirements for Sage to work successfully on these fully supp
  * Redhat 5.6 (Tikanga) on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/rosemary-1|rosemary]]
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
  * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
- * Ubuntu 12.04 on x86 (32-bit and 64-bit).  Make sure that the ''dpkg-dev'' package is installed.  Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]] and [[http://build.sagemath.org/sage/buildslaves/snapperkob|snapperkob]]
+ * Ubuntu 12.04 on x86 (32-bit and 64-bit). Make sure that the ''dpkg-dev'' package is installed. Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]] and [[http://build.sagemath.org/sage/buildslaves/snapperkob|snapperkob]]
 
 === Mac OS X ===
- * OS X 10.4 (Tiger) on PPC.  Tested on [[http://build.sagemath.org/sage/buildslaves/moufang-1|moufang]]
- * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3.  Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
+ * OS X 10.4 (Tiger) on PPC. Tested on [[http://build.sagemath.org/sage/buildslaves/moufang-1|moufang]]
+ * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
+ * OS X 10.8 (Mountain Lion) 64-bit, with XCode 4.  Tested on [[http://build.sagemath.org/sage/buildslaves/dehaye-1|dehaye]]
 
 === OpenSolaris x86 32-bit ===
  * 06/2009 updated to build 134 on x86 (32-bit only), with gcc as well as the Sun compiler. Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
@@ -118,9 +119,6 @@ More information on the HP-UX port can be found on the [[HP-UX]] page.
 === Microsoft Windows ===
  * Microsoft Windows using Cygwin (Substantial work has been done on this). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows sage-windows]] mailing list.
  * Microsoft Windows using Microsoft's compiler. This will be a full native port. There are some efforts at this. 
-
-=== Mac OS X ===
- * OS X 10.8 (Mountain Lion).  Since this version has been released recently, there hasn't been any work yet to fix this.
 
 === OpenSolaris 64-bit ===
  * !OpenSolaris 06/2009 on x86 in 64-bit mode.  (Substantial work has been done on this). 
