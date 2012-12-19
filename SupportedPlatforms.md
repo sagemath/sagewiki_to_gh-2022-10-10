@@ -1,7 +1,7 @@
 <<TableOfContents>>
 
 ----
-= sage-5.4.1 supported platforms =
+= Sage 5.4.1 supported platforms =
 
 If you try to build Sage on most Linux or OS X systems, you should have few problems and if there are problems, plenty of people will be able to help you. Just ask on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] But some distributions are better supported than others - see below for details. 
 
@@ -31,7 +31,7 @@ There are several requirements for Sage to work successfully on these fully supp
 
  * A full development system must be installed - a minimal install will probably not work if you wish to build from source.
  * The system must not have been mis-configured. Unfortunately, it is not unusual for Sage to fail to build on systems where someone has mis-configured the system. A fresh install of the operating system is not necessary, but any changes made since the installation must have been performed properly.
- * It is recommended to have at least 2 GB of RAM (you may get away with less, but you can not be sure).  In order to run all doctests, Sage needs up to 2.2 GB of memory.  Building the documentation needs 2.5 GB of memory.
+ * It is recommended to have at least 2 GB of RAM (you may get away with less, but you can not be sure).  In order to run all doctests, Sage needs up to 2.2 GB of virtual memory (RAM + swap).  Building the documentation needs 2.5 GB of virtual memory.
  * You need at least 3 GB of free disk space.
  * You need to have the [[http://sagemath.org/doc/installation/source.html|prerequisites]] for building Sage.
  * All instructions must be followed.
