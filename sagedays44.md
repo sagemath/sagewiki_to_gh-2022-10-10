@@ -36,6 +36,7 @@ The following people have been invited.  Some funding may be available, so if yo
  * Marc Masdeu (confirmed)
  * Daniel Ross (local)
  * Simon Spicer
+ * Christelle Vincent (confirmed)
  * Jan Vonk (confirmed)
 
 ==== Organizers ====
