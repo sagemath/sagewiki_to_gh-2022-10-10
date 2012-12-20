@@ -31,7 +31,7 @@ The following people have been invited.  Some funding may be available, so if yo
  * Matt Greenberg (confirmed)
  * Marci Hablicsek (local)
  * Lalit Jain (local)
- * David Loeffler
+ * David Loeffler (confirmed)
  * Ben Lundell
  * Marc Masdeu (confirmed)
  * Daniel Ross (local)
