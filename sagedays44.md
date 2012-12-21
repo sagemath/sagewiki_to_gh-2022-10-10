@@ -33,6 +33,7 @@ The following people have been invited.  Some funding may be available, so if yo
  * Lalit Jain (local)
  * David Loeffler (confirmed)
  * Marc Masdeu (confirmed)
+ * Rob Pollack
  * Daniel Ross (local)
  * Simon Spicer
  * Christelle Vincent (confirmed)
