@@ -37,6 +37,7 @@ The following people have been invited.  Some funding may be available, so if yo
  * Simon Spicer
  * Christelle Vincent (confirmed)
  * Jan Vonk (confirmed)
+ * Soroosh Yazdani
 
 ==== Organizers ====
 
