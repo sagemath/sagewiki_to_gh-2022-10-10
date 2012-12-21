@@ -32,7 +32,6 @@ The following people have been invited.  Some funding may be available, so if yo
  * Marci Hablicsek (local)
  * Lalit Jain (local)
  * David Loeffler (confirmed)
- * Ben Lundell
  * Marc Masdeu (confirmed)
  * Daniel Ross (local)
  * Simon Spicer
