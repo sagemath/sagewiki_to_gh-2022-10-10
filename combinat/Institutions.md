@@ -2,7 +2,10 @@
 
 The list below is very very preliminary. Please edit!
 
- * National Science Fundation, USA (funded in part by DMS-0652641, DMS-0652652, DMS-0652668, DMS-0652648 through the provisions of NSF 06-580, Focused Research Groups in the Mathematical Sciences (FRG), and is administered through the American Institute of Mathematics, Drexel University, UC Davis, and Virginia Tech).
+ * National Science Foundation, USA, grant OCI-1147247, 2012-2015,
+''Collaborative Research: SI2-SSE: Sage-combinat: Developing and Sharing Open Source Software for Algebraic Combinatorics''
+
+ * National Science Foundation, USA (funded in part by DMS-0652641, DMS-0652652, DMS-0652668, DMS-0652648 through the provisions of NSF 06-580, Focused Research Groups in the Mathematical Sciences (FRG), and is administered through the American Institute of Mathematics, Drexel University, UC Davis, and Virginia Tech); 2006-2011
 
  * American Institute of Mathematics, USA
 
