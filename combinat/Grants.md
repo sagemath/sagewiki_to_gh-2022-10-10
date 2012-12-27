@@ -32,17 +32,16 @@ Fall 2012: CIMPA Summer school in Bobo-Dioulasso, Burkina Faso
 :Status: accepted
 :PI's: Julien Cassaigne, Idrissa Kaborei
 
-2010/12/15: NSF Computational Mathematics
+2012-2015: NSF grant OCI-1147247
 -----------------------------------------
 
-Note: everything below tentative
+''Collaborative Research: SI2-SSE: Sage-combinat: Developing and Sharing Open Source Software for Algebraic Combinatorics''
 
-:Status: postponed due to administrative glitch
-:Institutions: UC Davis, Pen, *Standford*, ...
-:PI's: Jason Bandlow, Dan Bump, Greg Musiker, Anne Schilling, ... (Nicolas M. Thiéry)
-:Duration: ???
+:Institutions: UC Davis, Stanford, University of Minnesota, University of Washington
+:PI's: Dan Bump, Gregg Musiker, Anne Schilling, William Stein (and Nicolas M. Thiéry)
+:Duration: 2012-2015
 :Funds for:
- - Sage-Combinat days in UC Davis, Standford, ...
+ - Sage-Combinat days: Sage Days 40 at Minnesota, Sage Days associated to FPSAC 2013 in Paris, Sage days at UC Davis in 2014, ...
  - Sage-Combinat server in the Sage farm in Seattle
  - Laptops boosted for software development
  - Travel money
@@ -60,6 +59,7 @@ Note: everything below tentative
   - thematic tutorials
   - ...
 
+
 2010-201?: ANR
 --------------
 
@@ -75,7 +75,7 @@ Note: everything below tentative
 `Application material <http://combinat.sagemath.org/hgwebdir.cgi/misc/file/tip/grants/2009-12-15-PartnerUniversityFund>`_
 
 :Status: failed
-:Institutions: *Orsay*, *UC Davis*, Rouen, Minessota, UW Seattle, Marne-la-vallée, ...
+:Institutions: *Orsay*, *UC Davis*, Rouen, Minnesota, UW Seattle, Marne-la-Vallée, ...
 :PI's: Anne Schilling, Nicolas M. Thiéry
 :Duration: 3 years
 :Funds for:
@@ -91,13 +91,13 @@ Note: everything below tentative
 :Institutions: *Orsay*, *UC Davis*, ...
 :PI's: Anne Schilling, Nicolas M. Thiéry
 
-2007-2010: `NSF Focused Research Group ``Affine Schubert Calculus'' <http://garsia.math.yorku.ca/dokuwiki/doku.php>`_
+2007-2011: `NSF Focused Research Group ``Affine Schubert Calculus'' <http://garsia.math.yorku.ca/dokuwiki/doku.php>`_
 ---------------------------------------------------------------------------------------------------------------------
 
-:Institutions: Fields Institute, UC Davis, Virginia Tech, ...
-:PI's: Jennifer Morse, Anne Schilling, Mark Shimozono, Mike Zabrocki, ...
+:Institutions: Fields Institute, AIM, UC Davis, Virginia Tech, Drexel
+:PI's: Jennifer Morse, Anne Schilling, Mark Shimozono
 :Topics:
- - Symmetric functions (including K-Schur, ...)
+ - Symmetric functions (including k-Schur, ...)
  - (Affine) root systems, Weyl groups, ...
  - Framework (Categories, ...)
 
