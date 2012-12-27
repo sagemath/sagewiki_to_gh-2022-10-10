@@ -18,6 +18,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
 
+ * January 21-25, 2013: [[http://www.aimath.org/ARCC/workshops/onlinedata.html|Online Databases:from L-functions to combinatorics], Edinburgh
+
 == Past news ==
 
  * October 29 - November 9, 2012: [[http://www.cimpa-icpam.org/spip.php?article430|CIMPA summer school Discrete mathematics : combinatorial, dynamical and algorithmic aspects]], with a strong Sage and Sage-Combinat component, Bobo Dioulasso, Burkina Faso
