@@ -4,7 +4,7 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == News ==
 
- * 
+ * [[http://wiki.sagemath.org/sagedaysACD | Sage Days]] There will be a Sage Days November 7-11, 2013 at Florida Institute of Technology.
 
 == Past News ==
 
