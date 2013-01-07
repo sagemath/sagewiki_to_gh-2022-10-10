@@ -25,3 +25,4 @@ Participants:
  * R. Andrew Ohana (University of Washington)
  * David Roe
  * William Stein (University of Washington)
+ * Christopher Swenson (lives in Portland, OR)
