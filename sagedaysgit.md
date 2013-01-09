@@ -21,6 +21,7 @@ The conference is organized by:
 
 Participants:
 
+ * Keith Clawson (Washington State University)
  * Keshav Kini
  * R. Andrew Ohana (University of Washington)
  * David Roe
