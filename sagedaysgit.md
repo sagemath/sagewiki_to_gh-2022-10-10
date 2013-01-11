@@ -27,3 +27,4 @@ Participants:
  * David Roe
  * William Stein (University of Washington)
  * Christopher Swenson (lives in Portland, OR)
+ * Benjamin Jones (lives in Portland, OR)
