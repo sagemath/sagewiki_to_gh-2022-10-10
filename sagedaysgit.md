@@ -31,4 +31,3 @@ Participants:
  * William Stein (University of Washington)
  * Christopher Swenson (lives in Portland, OR)
  * Nicolas M. Thiéry
- * 
