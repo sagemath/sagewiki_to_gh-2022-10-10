@@ -27,6 +27,6 @@ Participants:
  * Timo Kluck (Utrecht University)
  * R. Andrew Ohana (University of Washington)
  * David Roe
- * Julian Ruth
+ * Julian Rüth
  * William Stein (University of Washington)
  * Christopher Swenson (lives in Portland, OR)
