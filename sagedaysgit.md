@@ -22,9 +22,11 @@ The conference is organized by:
 Participants:
 
  * Keith Clawson (Washington State University)
+ * Benjamin Jones (lives in Portland, OR)
  * Keshav Kini
+ * Timo Kluck (Utrecht University)
  * R. Andrew Ohana (University of Washington)
  * David Roe
+ * Julian Ruth
  * William Stein (University of Washington)
  * Christopher Swenson (lives in Portland, OR)
- * Benjamin Jones (lives in Portland, OR)
