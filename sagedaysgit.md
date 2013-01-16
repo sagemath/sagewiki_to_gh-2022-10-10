@@ -21,7 +21,7 @@ The conference is organized by:
 
 Participants:
 
- * Volker Braun
+ * Volker Braun (Dublin Institute for Advanced Study)
  * Keith Clawson (Washington State University)
  * Benjamin Jones (lives in Portland, OR)
  * Keshav Kini
