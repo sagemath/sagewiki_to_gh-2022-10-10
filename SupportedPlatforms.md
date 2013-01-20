@@ -1,7 +1,7 @@
 <<TableOfContents>>
 
 ----
-= Sage 5.4.1 supported platforms =
+= Sage 5.5 supported platforms =
 
 If you try to build Sage on most Linux or OS X systems, you should have few problems and if there are problems, plenty of people will be able to help you. Just ask on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] But some distributions are better supported than others - see below for details. 
 
@@ -19,13 +19,11 @@ Below are listed the supported platforms, along with the level of support given.
 Specific hardware and software for these levels of support are given below.
 
 == Fully supported ==
-Sage is fully supported on the following platforms. This means '''every''' single release of Sage is '''always''' tested on '''all''' these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/sage/buildslaves) Failure to build on one of these platforms will stop a release of Sage being made. Usually all Sage's self-tests (doc-tests) will pass, though one or two failures on one or two platforms may occur, and will be documented in an [[errata|errata page]]. Any failures to either build or pass tests are considered very serious bugs. 
+Sage is fully supported on the following platforms. This means '''every''' single release of Sage is '''always''' tested on '''all''' these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/sage/buildslaves) Failure to build on one of these platforms will stop a release of Sage being made. Any failures to either build or pass tests are considered serious bugs. 
 
 Also, we will always make binaries available for these platforms. 
 
 If you wish to set up a server primarily or exclusively for using Sage, you would be advised to install one of these operating systems, rather than one on which Sage is not regularly tested. You should not assume that Sage will necessarily work on the latest release of these systems, though it usually will. 
-
-To aid Sage developers, the hosts on which Sage is fully supported are listed, with a link to the Buildbot page. 
 
 There are several requirements for Sage to work successfully on these fully supported platforms.
 
