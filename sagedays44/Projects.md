@@ -1,3 +1,4 @@
 Our goals for this workshop are as follows:
 
  * Finish adding Rob Pollack's overconvergent modular symbols code to Sage.  The current version of this code can be found [[https://github.com/haikona/OMS|here]]
+ * Generalize the above to work with other arithmetic groups arising from quaternion algebras. Roughly this amounts being able to compute with the (first) cohomology groups of such arithmetic groups with coefficients in measures on P^1^(Q_p), or on V-valued harmonic cocycles, where V is one either a symmetric power of Q^2^ or an overconvergent coefficient module as in the above project. This can be done (and we have code for it, although not overconvergent yet) when Gamma is indefinite. For Gamma being definite even the zeroth cohomology analogue is interesting, and this is what the btquotients code (available also [[https://github.com/haikona/OMS|here]]) does.
