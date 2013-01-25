@@ -18,4 +18,10 @@ The arrival airport is HNL.  We are reserving a large house on the North Shore o
 
 ==== Organizers ====
 
+ * Jennifer Balakrishnan - jen [at] math [dot] harvard [dot] edu
+ * Alyson Deines
+ * Xander Faber
+ * Michelle Manes
+ * William Stein
+
 === Lodging ===
