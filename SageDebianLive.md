@@ -1,5 +1,3 @@
-Rédiger « SageDebianLive » ici.
-
 {{{#!rst
 
 Sage Debian Live
