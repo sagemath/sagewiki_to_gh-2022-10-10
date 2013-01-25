@@ -18,7 +18,7 @@ See [[/Projects|the projects page]] for our objectives for the workshop.
 
 === Location ===
 
-Location on campus, directions to the math department and information about wireless access will be added here.
+Here is [[https://maps.google.com/maps/ms?msid=208663335417630998754.0004d421ab3ce9dcbc15e&msa=0 |a link to a google map]] with some relevant locations.
 
 === Participants ===
 
