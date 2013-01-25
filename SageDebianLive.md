@@ -1,11 +1,20 @@
 Rédiger « SageDebianLive » ici.
 
-{{{
-!rst
+{{{#!rst
 
-Sage 
+Sage Debian Live
+================
 
-::
+Creation of the key
+-------------------
 
-    sage: yo
+Using the key
+-------------
+
+Cloning the key
+---------------
+
+Rebasing the key to new version of Sage (more advanced)
+-------------------------------------------------------
+
 }}}
