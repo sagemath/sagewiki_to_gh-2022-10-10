@@ -8,9 +8,13 @@ This workshop will focus on implementing algorithms for ''p''-adic overconvergen
 
 === Schedule ===
 
-There will be a few talks but most of the time will be devoted to working on Sage code.  A precise schedule of talks is yet to be determined, but will include a talk by William Stein in the [[http://www.math.wisc.edu/wiki/index.php/NTS|number theory seminar]] on Thursday at 14:30.
+There will be a few talks, but most of the time will be devoted to working on Sage code.
 
 Conference activities will begin Thursday morning and conclude Sunday afternoon, so try to fly in on Wednesday afternoon or evening and depart Sunday evening.
+
+Schedule of talks so far:
+ *Thursday, 9:30am–10:45am, Van Vleck B341 &bull; '''Robert Pollack''' &bull; ''An introduction to overconvergent modular symbols''
+ *Thursday, 2:30pm–3:30pm, Van Vleck B129 &bull; '''William Stein''' &bull; ''[[http://www.math.wisc.edu/wiki/index.php/NTS_Spring_2013/Abstracts#January_31|How explicit is the explicit formula?]]''
 
 === Projects ===
 
