@@ -1,4 +1,4 @@
-= Sage Days 46: Computational Number Theory =
+= Sage Days 46: Computational Number Theory (and Bugs) =
 
 <<TableOfContents>>
 
