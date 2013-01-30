@@ -12,9 +12,16 @@ There will be a few talks, but most of the time will be devoted to working on Sa
 
 Conference activities will begin Thursday morning and conclude Sunday afternoon, so try to fly in on Wednesday afternoon or evening and depart Sunday evening.
 
-Schedule of talks so far:
+Schedule so far:
  *Thursday, 9:30am–10:45am, Van Vleck B341 &bull; '''Robert Pollack''' &bull; ''An introduction to overconvergent modular symbols''
+ *Thursday, 11am-12pm; ''Project planning session''
  *Thursday, 2:30pm–3:30pm, Van Vleck B129 &bull; '''William Stein''' &bull; ''[[http://www.math.wisc.edu/wiki/index.php/NTS_Spring_2013/Abstracts#January_31|How explicit is the explicit formula?]]''
+ *Friday, 10am-11am; talk, TBA
+ *Friday, 11am-12pm; talk, TBA
+ *Friday, 2pm-2:30pm; ''Status Reports''
+ *Saturday, 10am-11am; talk, TBA
+ *Saturday, 2pm-2:30pm; ''Status Reports''
+ *Sunday, 10am-11am; ''Final Status Reports''
 
 === Projects ===
 
