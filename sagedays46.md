@@ -25,3 +25,5 @@ The arrival airport is HNL.  We are reserving a large house on the North Shore o
  * William Stein
 
 === Lodging ===
+
+We rented [[http://hawaii-beachhomes.com/Unit.mvc/Details/2296|The Plantation]]
