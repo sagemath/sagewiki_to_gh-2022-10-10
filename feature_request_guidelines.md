@@ -1,4 +1,4 @@
-{{{!rst
+{{{#!rst
 
 Feature request guidelines
 ==========================
