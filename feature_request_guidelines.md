@@ -3,7 +3,7 @@
 Feature request guidelines
 ==========================
 
-This pages suggests a couple questions to ask oneself to formulate
+This page suggests a couple questions to consider when formulating
 useful and realistic Sage projects.
 
 - Feature name?
@@ -13,7 +13,7 @@ useful and realistic Sage projects.
 
   In our research project, we need to ...
 
-- Sage would be session::
+- Specification on how a Sage session would look like (with input and output)::
 
 
     sage: ... the desired input ...
@@ -29,8 +29,9 @@ useful and realistic Sage projects.
 - Is it already available in Sage?
 
   Remember that Sage includes 500k lines of code in its own library,
-  and millions from other projects. So assessing might require some
-  digging around or questioning the computational experts in this area.
+  and millions from other projects. So assessing whether the feature is already
+  available might require some
+  digging around or asking the computational experts in this area.
 
 - Are there implementations in other systems?
 
