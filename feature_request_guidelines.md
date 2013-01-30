@@ -13,12 +13,11 @@ useful and realistic Sage projects.
 
   In our research project, we need to ...
 
-- Sage would be session:
+- Sage would be session::
 
-  {{{
+
     sage: ... the desired input ...
     ... the desired output ...
-  }}}
 
 - How important is that feature?
   1 (just curious)
