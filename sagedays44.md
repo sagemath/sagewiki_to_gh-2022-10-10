@@ -16,7 +16,7 @@ Schedule so far:
  *Thursday, 9:30am–10:45am, Van Vleck B341 &bull; '''Robert Pollack''' &bull; ''An introduction to overconvergent modular symbols''
  *Thursday, 11am-12pm; ''Project planning session''
  *Thursday, 2:30pm–3:30pm, Van Vleck B129 &bull; '''William Stein''' &bull; ''[[http://www.math.wisc.edu/wiki/index.php/NTS_Spring_2013/Abstracts#January_31|How explicit is the explicit formula?]]''
- *Friday, 10am-11am; talk, TBA
+ *Friday, 10am-11am, '''Marc Masdeu''' &bull; ''Quaternionic modular symbols in Sage''
  *Friday, 11am-12pm; talk, TBA
  *Friday, 2pm-2:30pm; ''Status Reports''
  *Saturday, 10am-11am; talk, TBA
