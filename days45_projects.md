@@ -1,5 +1,4 @@
 {{{#!rst
-
 Sage Days 45 Coding Sprint Projects
 ===================================
 
@@ -16,11 +15,14 @@ with the Sage fans there!
 Extended affine Weyl groups, affine Iwahori Hecke algebras, and nonsymmetric Macdonald polynomials
 ==================================================================================================
 
+Bump, Schilling, Shimozono, Thiéry
+
 This project was started during Sage Days 40 by Dan Bump, Dan Orr,
-Anne Schilling, Mark Shimozono and Nicolas Thiery and preliminary
+Anne Schilling, Mark Shimozono and Nicolas Thiéry and preliminary
 patches are in the sage-combinat queue (see
 extended_affine_weyl_groups_sd40.patch and
 affine_iwahori_hecke_algebras.patch).
+
 
 Finalization of the Coxeter3 integration into Sage
 ==================================================
