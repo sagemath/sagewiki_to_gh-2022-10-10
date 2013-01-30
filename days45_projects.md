@@ -15,6 +15,5 @@ Below is a list of proposed projects.
 - Quantum Schubert products in general types (in particular type C) for the full flag variety (Liz Beazley)
 
 - For the Grassmannian computing quantum equivariant Schubert products (Liz Beazley)
-===
 
 }}}
