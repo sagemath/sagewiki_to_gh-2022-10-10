@@ -42,12 +42,12 @@ Brant Jones
 Quantum Schubert products in general types (in particular type C) for the full flag variety
 ===========================================================================================
 
-(Liz Beazley)
+Liz Beazley
 
-Schubert products for the equivariant quantum cohomology of the Grassmannian
-============================================================================
+Equivariant puzzle rule
+========================
 
-(Liz Beazley)
+Liz Beazley, Anne Schilling
 
 Review the `root system plot ticket <http://trac.sagemath.org/sage_trac/ticket/4327>`_
 ======================================================================================
