@@ -15,7 +15,7 @@ Conference activities will begin Thursday morning and conclude Sunday afternoon,
 Schedule so far:
  *Thursday, 9:30am–10:45am, Van Vleck B341 &bull; '''Robert Pollack''' &bull; ''An introduction to overconvergent modular symbols''
  *Thursday, 11am-12pm, Van Vleck 9th floor lounge &bull; ''Project planning session''
- *Thursday, 2:30pm–3:30pm, Van Vleck B129 &bull; '''William Stein''' &bull; ''[[http://www.math.wisc.edu/wiki/index.php/NTS_Spring_2013/Abstracts#January_31|How explicit is the explicit formula?]]''
+ *Thursday, 2:30pm–3:30pm, Van Vleck B129 &bull; '''William Stein''' &bull; ''[[http://www.math.wisc.edu/wiki/index.php/NTS_Spring_2013/Abstracts#January_31|How explicit is the explicit formula?]]'' and [[http://wstein.org/talks/2013-madison/|Slides]]
  *Friday, 10am–11am, Van Vleck B341 &bull; '''Marc Masdeu''' &bull; ''Quaternionic modular symbols in Sage''
  *Friday, 2pm-2:30pm, Van Vleck 9th floor lounge &bull; ''Status Reports''
  *Saturday, 10am-11am, '''David Loeffler''' &bull; ''p-adic L-functions and modular forms''
