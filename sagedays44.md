@@ -19,7 +19,7 @@ Schedule so far:
  *Friday, 10am-11am, '''Marc Masdeu''' &bull; ''Quaternionic modular symbols in Sage''
  *Friday, 11am-12pm; talk, TBA
  *Friday, 2pm-2:30pm, Van Vleck 9th floor lounge &bull; ''Status Reports''
- *Saturday, 10am-11am; talk, TBA
+ *Saturday, 10am-11am, '''David Loeffler''' &bull; ''p-adic L-functions and modular forms''
  *Saturday, 2pm-2:30pm, Van Vleck 9th floor lounge &bull; ''Status Reports''
  *Sunday, 10am-11am, Van Vleck 9th floor lounge &bull; ''Final Status Reports''
 
