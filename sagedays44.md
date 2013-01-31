@@ -46,7 +46,7 @@ The following people have been invited.  Some funding may be available, so if yo
  * Marc Masdeu (confirmed)
  * Rob Pollack (confirmed)
  * Daniel Ross (local)
- * Julian Ruth
+ * Julian Ruth (confirmed)
  * Christelle Vincent (confirmed)
  * Jan Vonk (confirmed)
  * Soroosh Yazdani (confirmed)
