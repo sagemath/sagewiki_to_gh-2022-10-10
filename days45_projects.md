@@ -54,4 +54,14 @@ Review the `root system plot ticket <http://trac.sagemath.org/sage_trac/ticket/4
 
 Thiéry
 
+Finalization of the `partition options patch <http://trac.sagemath.org/sage_trac/ticket/13605>`_
+================================================================================================
+
+Travis Scrimshaw and Andrew Mathas
+
+Crystals and `rigged configurations code <http://trac.sagemath.org/sage_trac/ticket/13872>`_ and dependencies
+=============================================================================================================
+
+Travis Scrimshaw
+
 }}}
