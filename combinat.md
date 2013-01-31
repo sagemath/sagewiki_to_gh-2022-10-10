@@ -20,9 +20,11 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * February 11-15, 2013 [[http://icerm.brown.edu/sp-s13/|Sage Days: Multiple Dirichlet Series, Combinatorics, and Representation Theory]], ICERM, Brown, USA
 
- * January 21-25, 2013 [[http://www.aimath.org/ARCC/workshops/onlinedata.html|Online Databases:from L-functions to combinatorics]], Edinburgh
+ * A new [[http://combinat.sagemath.org/misc/file/tip/articles/2013-01-17-Poster/main.pdf|poster]] for Sage-Combinat!
 
 == Past news ==
+
+ * January 21-25, 2013 [[http://www.aimath.org/ARCC/workshops/onlinedata.html|Online Databases:from L-functions to combinatorics]], Edinburgh
 
  * October 29 - November 9, 2012: [[http://www.cimpa-icpam.org/spip.php?article430|CIMPA summer school Discrete mathematics : combinatorial, dynamical and algorithmic aspects]], with a strong Sage and Sage-Combinat component, Bobo Dioulasso, Burkina Faso
 
@@ -107,6 +109,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[combinat/CiteSageCombinat|Cite Sage-Combinat]] when you use it for research publications.
  * Plume's review pages on Sage-Combinat: [[http://www.projet-plume.org/en/relier/sage-combinat-0|English]] and [[http://www.projet-plume.org/fr/relier/sage-combinat|French]]
+ * [[http://combinat.sagemath.org/misc/file/tip/articles/2013-01-17-Poster/main.pdf|Sage-Combinat's poster]]
  * [[combinat/CoolPictures|Cool pictures we produced with Sage-Combinat for our research]]
 
 === Code ===
