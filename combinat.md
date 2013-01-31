@@ -92,6 +92,14 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://www.sagemath.org/library-publications-combinat.html|Publications citing Sage-Combinat]]
 
+ * [[combinat/CiteSageCombinat|Cite Sage-Combinat]] when you use it for research publications.
+
+ * Plume's review pages on Sage-Combinat: [[http://www.projet-plume.org/en/relier/sage-combinat-0|English]] and [[http://www.projet-plume.org/fr/relier/sage-combinat|French]]
+
+ * [[http://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main.pdf|Sage-Combinat's poster]]
+
+ * [[combinat/CoolPictures|Cool pictures we produced with Sage-Combinat for our research]]
+
 ----
 
 == How to participate and contribute ==
@@ -106,11 +114,6 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
     * [[http://groups.google.com/group/sage-combinat-days|sage-combinat-days]]: Mailing list for the organisation of Sage-Combinat days
  * Check the  [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|road map and current status]]
  * Post bug reports, suggestions, patches on the [[http://trac.sagemath.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
-
- * [[combinat/CiteSageCombinat|Cite Sage-Combinat]] when you use it for research publications.
- * Plume's review pages on Sage-Combinat: [[http://www.projet-plume.org/en/relier/sage-combinat-0|English]] and [[http://www.projet-plume.org/fr/relier/sage-combinat|French]]
- * [[http://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main.pdf|Sage-Combinat's poster]]
- * [[combinat/CoolPictures|Cool pictures we produced with Sage-Combinat for our research]]
 
 === Code ===
 
