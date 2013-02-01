@@ -64,4 +64,11 @@ Crystals and `rigged configurations code <http://trac.sagemath.org/sage_trac/tic
 
 Travis Scrimshaw
 
+Officially deprecate CombinatorialClass <http://trac.sagemath.org/sage_trac/ticket/12913>`_
+===========================================================================================
+
+I believe after #13605, there are only a few more left...
+
+Travis Scrimshaw
+
 }}}
