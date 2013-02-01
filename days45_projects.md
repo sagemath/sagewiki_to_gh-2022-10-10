@@ -71,4 +71,9 @@ I believe after #13605, there are only a few more left...
 
 Travis Scrimshaw
 
+Implement a `general RSK <http://trac.sagemath.org/sage_trac/ticket/8392>`_
+===========================================================================
+
+Travis Scrimshaw
+
 }}}
