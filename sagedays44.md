@@ -20,6 +20,7 @@ Schedule so far:
  *Friday, 2pm-2:30pm, Van Vleck 9th floor lounge &bull; ''Status Reports''
  *Saturday, 10am-11am, Van Vleck B341 &bull; '''David Loeffler''' &bull; ''p-adic L-functions and modular forms''
  *Saturday, 2pm-2:30pm, Van Vleck 9th floor lounge &bull; ''Status Reports''
+ *Saturday, 3pm-4pm, Van Vleck B341 &bull; '''Robert Harron''' &bull; ''Hida families and families of overconvergent modular symbols''
  *Sunday, 10am-11am, Van Vleck 9th floor lounge &bull; ''Final Status Reports''
 
 === Projects ===
