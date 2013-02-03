@@ -79,6 +79,6 @@ Travis Scrimshaw
 
 Split and finalize `languages <http://trac.sagemath.org/sage_trac/ticket/12224>`_
 =================================================================================
-Vincent Delecroix
+Vincent Delecroix and Travis Scrimshaw
 
 }}}
