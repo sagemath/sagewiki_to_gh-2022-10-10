@@ -6,7 +6,7 @@ From 22­-26 July 2013 there will be a [[http://www.lorentzcenter.nl/|Lorentz Ce
 
  * The second project is to work on practical implementations of the algorithm described in [[http://press.princeton.edu/titles/9491.html|Edixhoven, Couveignes, Bosman, de Jong, and Merkl]] for computing Galois representations over finite fields attached to modular forms.
 
- * The third project is to work on computing semi-stable models of curves over local fields. The goal is a practical implementation of the algorithms that follow from the new proof of Deligne and Mumford's stable reduction theorem in: K. Arzdorf and S. Wewers, A local proof of the semistable reduction theorem (in preparation).
+ * The third project is to work on computing semi-stable models of curves over local fields. The goal is a practical implementation of the algorithms that follow from the new proof of Deligne and Mumford's stable reduction theorem in: K. Arzdorf and S. Wewers, A local proof of the semistable reduction theorem ([[http://arxiv.org/abs/1211.4624|in preparation]]).
 
  * A possible fourth project might be to speed up operations with finite fields in Sage. Faster finite fields will mean that the algorithms in the other projects will also be significantly faster. According to [[https://groups.google.com/forum/#!msg/sage-nt/4tu8csrrWJo/gxY95f8s5FkJ|a Google groups discussion]] it should be relatively easy to speed up operations in finite fields of cardinality larger than 2^16 by a factor of 10. If you are interested in working on this, please let us know.  
 
