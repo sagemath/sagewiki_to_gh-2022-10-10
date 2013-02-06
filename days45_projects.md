@@ -45,19 +45,19 @@ Quantum Schubert products in general types (in particular type C) for the full f
 Liz Beazley
 
 Equivariant puzzle rule
-========================
+=======================
 
 Liz Beazley, Anne Schilling
 
 Review the `root system plot ticket <http://trac.sagemath.org/sage_trac/ticket/4327>`_
 ======================================================================================
 
-Thiéry
+Nicolas^2
 
 Finalization of the `partition options patch <http://trac.sagemath.org/sage_trac/ticket/13605>`_
 ================================================================================================
 
-Travis Scrimshaw and Andrew Mathas
+Travis Scrimshaw and Andrew Mathas (and Nicolas)
 
 Crystals and `rigged configurations code <http://trac.sagemath.org/sage_trac/ticket/13872>`_ and dependencies
 =============================================================================================================
