@@ -52,7 +52,19 @@ Liz Beazley, Anne Schilling
 Review the `root system plot ticket <http://trac.sagemath.org/sage_trac/ticket/4327>`_
 ======================================================================================
 
-Nicolas^2
+Borie, Thiéry
+
+Review the affine ambient space patch
+=====================================
+
+Thiéry 
+
+Finalization of Denton's affine symmetric group patch
+=====================================================
+
+And possibly generic implementation of (affine) Coxeter groups as (affine) permutation groups, using (affine) permutations of the roots or the ambient space.
+
+Berg, Thiéry
 
 Finalization of the `partition options patch <http://trac.sagemath.org/sage_trac/ticket/13605>`_
 ================================================================================================
