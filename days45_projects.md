@@ -15,13 +15,15 @@ with the Sage fans there!
 Extended affine Weyl groups, affine Iwahori Hecke algebras, and nonsymmetric Macdonald polynomials
 ==================================================================================================
 
-Bump, Schilling, Shimozono, Thiéry
+Bump, Schilling, Shimozono, Thiéry, Pons
 
 This project was started during Sage Days 40 by Dan Bump, Dan Orr,
 Anne Schilling, Mark Shimozono and Nicolas Thiéry and preliminary
 patches are in the sage-combinat queue (see
 extended_affine_weyl_groups_sd40.patch and
 affine_iwahori_hecke_algebras.patch).
+
+Viviane Pons : I have some programs already in sage-combinat on non symmetric Macdonald polynomials, see trac_6629_abstract_ring_of_multivariate_polynomials_with_several_bases_vp.patch
 
 
 Finalization of the Coxeter3 integration into Sage
