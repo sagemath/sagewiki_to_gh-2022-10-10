@@ -15,7 +15,7 @@ with the Sage fans there!
 Extended affine Weyl groups, affine Iwahori Hecke algebras, and nonsymmetric Macdonald polynomials
 ==================================================================================================
 
-Bump, Schilling, Shimozono, Thiéry, Pons
+Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiéry, Viviane Pons
 
 This project was started during Sage Days 40 by Dan Bump, Dan Orr,
 Anne Schilling, Mark Shimozono and Nicolas Thiéry and preliminary
@@ -29,11 +29,19 @@ Viviane Pons : I have some programs already in sage-combinat on non symmetric Ma
 Finalization of the Coxeter3 integration into Sage
 ==================================================
 
-Schilling, Thiéry
+Anne Schilling, Nicolas Thiéry
 
 This would bring a faster implementation of Kazhdan-Lusztig polynomials to Sage.
 
 See `Trac Ticket 12912 <http://trac.sagemath.org/sage_trac/ticket/12912>`_.
+
+Finalization of Coxeter and Weyl groups patch
+=============================================
+
+Mark Shimozono, Anne Schilling, Christian Stump
+
+Finalization of the patch `Trac Ticket 12774 <http://trac.sagemath.org/sage_trac/ticket/12774>`_.
+
 
 Further Kazdhan-Lusztig functionalities
 =======================================
@@ -51,22 +59,28 @@ Equivariant puzzle rule
 
 Liz Beazley, Anne Schilling
 
+Implementation of k-tableaux using alpha factorizations
+=======================================================
+
+Anne Schilling
+
+
 Review the `root system plot ticket <http://trac.sagemath.org/sage_trac/ticket/4327>`_
 ======================================================================================
 
-Borie, Thiéry
+Nicolas Borie, Nicolas Thiéry
 
 Review the affine ambient space patch
 =====================================
 
-Thiéry 
+Nicolas Thiéry 
 
 Finalization of Denton's affine symmetric group patch
 =====================================================
 
 And possibly generic implementation of (affine) Coxeter groups as (affine) permutation groups, using (affine) permutations of the roots or the ambient space.
 
-Berg, Thiéry
+Chris Berg, Nicolas Thiéry
 
 Finalization of the `partition options patch <http://trac.sagemath.org/sage_trac/ticket/13605>`_
 ================================================================================================
