@@ -25,12 +25,12 @@ Extended affine Weyl groups, affine Iwahori Hecke algebras, and nonsymmetric Mac
 Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiéry, Viviane Pons
 
 This project was started during Sage Days 40 by Dan Bump, Dan Orr,
-Anne Schilling, Mark Shimozono and Nicolas Thiéry and preliminary
+Anne Schilling, Mark Shimozono, and Nicolas Thiéry and preliminary
 patches are in the sage-combinat queue (see
 extended_affine_weyl_groups_sd40.patch and
 affine_iwahori_hecke_algebras.patch).
 
-Viviane Pons : I have some programs already in sage-combinat on non symmetric Macdonald polynomials, see trac_6629_abstract_ring_of_multivariate_polynomials_with_several_bases_vp.patch
+Viviane Pons: I have some programs already in sage-combinat on non symmetric Macdonald polynomials, see trac_6629_abstract_ring_of_multivariate_polynomials_with_several_bases_vp.patch
 
 
 Finalization of the Coxeter3 integration into Sage
@@ -80,7 +80,7 @@ Nicolas Borie, Nicolas Thiéry
 Review the affine ambient space patch
 =====================================
 
-Nicolas Thiéry 
+Mark Shimozono, Nicolas Thiéry
 
 Finalization of Denton's affine symmetric group patch
 =====================================================
@@ -117,7 +117,7 @@ Split and finalize `languages <http://trac.sagemath.org/sage_trac/ticket/12224>`
 Vincent Delecroix and Travis Scrimshaw
 
 Add more poset functionality (continuing from Sage Days 40)
-========================================================================================================
+===========================================================
 Alex Csar
 Kevin Dilks
 
@@ -133,7 +133,7 @@ Main points are :
 
  * Fix technical detail about composition of linear morphism  
 
-Nicolas Borie
+Nicolas Borie, Vincent Delecroix
 
 The symmetric group as a proper Weyl group
 ==========================================
@@ -145,8 +145,8 @@ Iterating through Partitions(n) for n>=1000
 
 http://trac.sagemath.org/sage_trac/ticket/14095
 
-Proofread more thematic tutorials and get them into Sage
-========================================================
+Finalize more thematic tutorials and get them into Sage
+=======================================================
 
 - http://trac.sagemath.org/sage_trac/ticket/14090
 - http://trac.sagemath.org/sage_trac/ticket/11490
@@ -154,6 +154,6 @@ Proofread more thematic tutorials and get them into Sage
 
 - Discuss the layout for exercises, ...
 
-Nicolas
+Nicolas Thiéry, Franco Saliola, ... We need proof readers!
 
 }}}
