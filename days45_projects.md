@@ -116,4 +116,11 @@ Split and finalize `languages <http://trac.sagemath.org/sage_trac/ticket/12224>`
 =================================================================================
 Vincent Delecroix and Travis Scrimshaw
 
+Add more poset functionality (continuing from `Sage Days 40 <http://wiki.sagemath.org/days40_projects>`)
+========================================================================================================
+Alex Csar
+Kevin Dilks
+
+
+
 }}}
