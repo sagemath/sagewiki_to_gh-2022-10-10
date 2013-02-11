@@ -19,7 +19,7 @@ Tutorial I: Using the Sage notebook and navigating the help system
 
  - `Sage Quick Reference Card`_
  - `The Sage tutorial`_
- - `The Sage thematic tutorials <http://combinat.sagemath.org/doc/>`_
+ - `The Sage thematic tutorials <http://combinat.sagemath.org/doc/thematic_tutorials>`_
  - `Sage Constructions`_: "How do I construct ... in Sage?"
  - `Sage documentation`_: the standard documentation and other resources
  - `Calcul mathématique avec Sage`_
