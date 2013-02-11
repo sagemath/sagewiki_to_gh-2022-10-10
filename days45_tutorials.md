@@ -8,6 +8,10 @@ Tutorial I: Using the Sage notebook and navigating the help system
 
  Leader: Franco Saliola
 
+ `Final worksheet from today's tutorial`__
+ 
+ __ http://wiki.sagemath.org/days45_tutorials?action=AttachFile&do=get&target=FirstWorksheetAtICERM.sws
+
  Worksheet: We will be starting with a blank worksheet, but here is a worksheet that can be used for self-study.
 
  - `Using the Sage Notebook and navigating the help system`_
