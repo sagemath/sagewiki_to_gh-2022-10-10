@@ -209,7 +209,6 @@ Implementing (and optimizing) Sheicher and Thuswaldner algorithm for finding nei
 Eva
 
 
----- /!\ '''End of edit conflict''' ----
 
 Quasi symmetric functions / Combinatorial Hopf Algebras
 =======================================================
