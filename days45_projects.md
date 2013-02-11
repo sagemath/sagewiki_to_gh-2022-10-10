@@ -121,6 +121,18 @@ Add more poset functionality (continuing from Sage Days 40)
 Alex Csar
 Kevin Dilks
 
+Preparing technical details for Combinatorial Höpf Algebras
+===========================================================
+Main points are :
 
+ * Finalizing GradedEnumeratedSet
+
+ * Categories for Graded Connected Hopf Algebras With Basis (require point 1)
+
+ * Improve linear morphisms between GradedConectedAlgebrasWithBasis (computation of matrices for each graded component, ...) (require point 2)
+
+ * Fix technical detail about composition of linear morphism  
+
+Nicolas Borie
 
 }}}
