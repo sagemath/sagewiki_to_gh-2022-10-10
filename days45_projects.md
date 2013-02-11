@@ -36,7 +36,7 @@ Viviane Pons: I have some programs already in sage-combinat on non symmetric Mac
 Finalization of the Coxeter3 integration into Sage
 ==================================================
 
-Anne Schilling, Nicolas Thiéry, Martina Lanini
+Anne Schilling, Nicolas Thiéry, Martina Lanini, Dan Bump
 
 This would bring a faster implementation of Kazhdan-Lusztig polynomials to Sage.
 
@@ -49,12 +49,10 @@ Mark Shimozono, Anne Schilling, Christian Stump
 
 Finalization of the patch `Trac Ticket 12774 <http://trac.sagemath.org/sage_trac/ticket/12774>`_.
 
-
 Further Kazdhan-Lusztig functionalities
 =======================================
 
-Brant Jones, Chris
-
+Brant Jones, Chris Berg, Dan Bump
 
 Quantum Schubert products in general types (in particular type C) for the full flag variety
 ===========================================================================================
