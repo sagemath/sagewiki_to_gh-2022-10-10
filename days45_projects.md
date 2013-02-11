@@ -202,9 +202,6 @@ Finalization and review
 Eva Curry
 
 
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
 Implementing (and optimizing) Sheicher and Thuswaldner algorithm for finding neighbors of an integral self-affine tile
 ======================================================================================================================
 (citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.141.4331&rep=rep1&type=pdf)
