@@ -36,7 +36,7 @@ Viviane Pons: I have some programs already in sage-combinat on non symmetric Mac
 Finalization of the Coxeter3 integration into Sage
 ==================================================
 
-Anne Schilling, Nicolas Thiéry
+Anne Schilling, Nicolas Thiéry, Martina Lanini
 
 This would bring a faster implementation of Kazhdan-Lusztig polynomials to Sage.
 
