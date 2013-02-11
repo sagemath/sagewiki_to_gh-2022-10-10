@@ -145,5 +145,15 @@ Iterating through Partitions(n) for n>=1000
 
 http://trac.sagemath.org/sage_trac/ticket/14095
 
+Proofread more thematic tutorials and get them into Sage
+========================================================
+
+- http://trac.sagemath.org/sage_trac/ticket/14090
+- http://trac.sagemath.org/sage_trac/ticket/11490
+- http://combinat.sagemath.org/doc/thematic_tutorials/index-sage-combinat.html
+
+- Discuss the layout for exercises, ...
+
+Nicolas
 
 }}}
