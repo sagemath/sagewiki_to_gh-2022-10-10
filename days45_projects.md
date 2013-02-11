@@ -53,7 +53,7 @@ Finalization of the patch `Trac Ticket 12774 <http://trac.sagemath.org/sage_trac
 Further Kazdhan-Lusztig functionalities
 =======================================
 
-Brant Jones
+Brant Jones, Chris
 
 
 Quantum Schubert products in general types (in particular type C) for the full flag variety
@@ -64,7 +64,7 @@ Liz Beazley
 Equivariant puzzle rule
 =======================
 
-Liz Beazley, Anne Schilling
+Liz Beazley, Anne Schilling, Allen
 
 Implementation of k-tableaux using alpha factorizations
 =======================================================
@@ -97,7 +97,7 @@ Travis Scrimshaw and Andrew Mathas (and Nicolas)
 Crystals and `rigged configurations code <http://trac.sagemath.org/sage_trac/ticket/13872>`_ and dependencies
 =============================================================================================================
 
-Travis Scrimshaw
+Travis Scrimshaw, Anne
 
 Officially deprecate `CombinatorialClass <http://trac.sagemath.org/sage_trac/ticket/12913>`_
 ============================================================================================
@@ -110,7 +110,9 @@ Vincent Delecroix
 Implement a `general RSK <http://trac.sagemath.org/sage_trac/ticket/8392>`_
 ===========================================================================
 
-Travis Scrimshaw
+RSK for biwords, integer matrices, ...
+
+Travis Scrimshaw, Sara
 
 Split and finalize `languages <http://trac.sagemath.org/sage_trac/ticket/12224>`_
 =================================================================================
@@ -129,16 +131,18 @@ Main points are :
 
  * Categories for Graded Connected Hopf Algebras With Basis (require point 1)
 
- * Improve linear morphisms between GradedConectedAlgebrasWithBasis (computation of matrices for each graded component, ...) (require point 2)
+ * Improve linear morphisms between GradedConnectedAlgebrasWithBasis (computation of matrices for each graded component, ...) (require point 2)
 
- * Fix technical detail about composition of linear morphism  
+ * Fix technical detail about composition of linear morphism
 
-Nicolas Borie, Vincent Delecroix
+Nicolas Borie, Vincent Delecroix, Saliola
 
 The symmetric group as a proper Weyl group
 ==========================================
 
 http://trac.sagemath.org/sage_trac/ticket/14095
+
+Sara
 
 Iterating through Partitions(n) for n>=1000
 ===========================================
@@ -155,5 +159,78 @@ Finalize more thematic tutorials and get them into Sage
 - Discuss the layout for exercises, ...
 
 Nicolas Thiéry, Franco Saliola, ... We need proof readers!
+
+Cluster algebra package
+=======================
+
+3 tickets that need review/finalization
+
+Gregg Musiker, Christian Stump, Salvatore
+
+B infinity crystals
+===================
+
+Ben, Mary Elisabeth, Travis
+
+General Coxeter groups
+======================
+
+Christian, Richmond
+
+Digit sets
+==========
+
+Finalization and review
+
+Eva Curry
+
+
+Quasi symmetric functions / Combinatorial Hopf Algebras
+=======================================================
+
+Chris, Sara, Franco, Nicolas^2, Darij
+
+Quiver algebras and representations
+===================================
+
+Gregg?
+
+#11111: Finite dimensional vector spaces and algebras
+=====================================================
+
+Nicolas, Franco
+
+KLR-algebra
+===========
+
+Gabe, Mathas, Mary Elizabeth
+
+
+Matrices indexed by whatever
+============================
+
+Mathas, Nicolas
+
+Schur algebras
+==============
+
+#9123
+
+not Travis
+
+
+Generalized Specht modules
+==========================
+
+Sara, Alejandro, Darij, Chris, Franco
+
+Chromatic quasi-symmetric functions
+===================================
+
+
+Let's get to work and have fun!
+===============================
+
+Everybody
 
 }}}
