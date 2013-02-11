@@ -121,7 +121,7 @@ Add more poset functionality (continuing from Sage Days 40)
 Alex Csar
 Kevin Dilks
 
-Preparing technical details for Combinatorial Höpf Algebras
+Preparing technical details for Combinatorial Hopf Algebras
 ===========================================================
 Main points are :
 
@@ -134,5 +134,16 @@ Main points are :
  * Fix technical detail about composition of linear morphism  
 
 Nicolas Borie
+
+The symmetric group as a proper Weyl group
+==========================================
+
+http://trac.sagemath.org/sage_trac/ticket/14095
+
+Iterating through Partitions(n) for n>=1000
+===========================================
+
+http://trac.sagemath.org/sage_trac/ticket/14095
+
 
 }}}
