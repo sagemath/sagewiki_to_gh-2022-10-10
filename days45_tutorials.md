@@ -8,11 +8,6 @@ Tutorial I: Using the Sage notebook and navigating the help system
 
  Leader: Franco Saliola
 
- `Final worksheet from today's tutorial`__ (and the `pdf version`__)
- 
- __ http://wiki.sagemath.org/days45_tutorials?action=AttachFile&do=get&target=FirstWorksheetAtICERM.sws
- __ http://wiki.sagemath.org/days45_tutorials?action=AttachFile&do=get&target=FirstWorksheetAtICERM.pdf
-
  Worksheet: We will be starting with a blank worksheet, but here is a worksheet that can be used for self-study.
 
  - `Using the Sage Notebook and navigating the help system`_
@@ -34,6 +29,15 @@ Tutorial I: Using the Sage notebook and navigating the help system
 .. _`Sage Constructions`: http://sagemath.org/doc/constructions
 .. _`Sage documentation`: http://sagemath.org/help.html#SageStandardDoc
 .. _`Calcul mathématique avec Sage`: http://sagebook.gforge.inria.fr/
+
+ Post-tutorial Updates:
+
+ - `Final worksheet from today's tutorial`__ (and the `pdf version`__)
+ - link to the `trac ticket #14094`_ for the bug we found in Sage during the tutorial
+ 
+ __ http://wiki.sagemath.org/days45_tutorials?action=AttachFile&do=get&target=FirstWorksheetAtICERM.sws
+ __ http://wiki.sagemath.org/days45_tutorials?action=AttachFile&do=get&target=FirstWorksheetAtICERM.pdf
+ .. _`trac ticket #14094`: http://trac.sagemath.org/sage_trac/ticket/14094
 
 
 
