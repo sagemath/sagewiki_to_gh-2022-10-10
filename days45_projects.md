@@ -137,7 +137,6 @@ Posets
 
 - graph_editor
 - disjoint union, ordinal sum, product
-- make dual poset function work properly for lattices (it seems to break the join)
 
 Alex Csar, Kevin Dilks
 
