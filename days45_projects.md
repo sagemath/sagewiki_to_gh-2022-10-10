@@ -118,10 +118,28 @@ Split and finalize `languages <http://trac.sagemath.org/sage_trac/ticket/12224>`
 =================================================================================
 Vincent Delecroix and Travis Scrimshaw
 
-Add more poset functionality (continuing from Sage Days 40)
-===========================================================
-Alex Csar
-Kevin Dilks
+Posets
+======
+
+- adding functionality to poset elements--what does this mean?
+- iterate over lattices
+- zeta, order, characteristic polynomials
+
+ * characteristic polynomial done naively
+ * zeta polynomial from Stembridge's posets code
+ * W polynomial coming--relabel the poset and then look at permutations
+
+- more examples of posets
+
+ * Young diagrams - Kevin
+ * Semistandard tableaux - Jessica/Julie
+ * interval posets
+
+- graph_editor
+- disjoint union, ordinal sum, product
+- make dual poset function work properly for lattices (it seems to break the join)
+
+Alex Csar, Kevin Dilks
 
 Preparing technical details for Combinatorial Hopf Algebras
 ===========================================================
