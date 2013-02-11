@@ -131,8 +131,8 @@ Posets
 
 - more examples of posets
 
- * Young diagrams - Kevin
- * Semistandard tableaux - Jessica/Julie
+ * Young diagrams
+ * Semistandard tableaux
  * interval posets
 
 - graph_editor
