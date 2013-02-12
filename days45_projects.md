@@ -3,7 +3,7 @@
 .. Note:: What's New:
 
     * See the `tutorials`_ page for links to tutorials, worksheets, resources, references, and more.
-    * Also see the `tutorials`_ page for a quick tutorial for sharing files between Windows and the virtual appliance.
+    * Also see the `tutorials`_ page for a quick guide on sharing files between Windows and the virtual appliance.
 
 .. _`tutorials`: days45_tutorials
 
