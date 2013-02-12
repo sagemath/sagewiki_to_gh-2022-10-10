@@ -45,4 +45,20 @@ See also the `tutorials page`__ from Sage Days 38.
 
 __ days38_tutorials
 
+Sharing worksheets with the windows VirtualBox appliance
+--------------------------------------------------------
+
+If the virtual appliance is started, follow `section 4`_ of `the sage appliance wiki`_.
+
+.. _`section 4`: http://wiki.sagemath.org/SageAppliance#Sharing_files_between_Sage_and_Windows
+.. _`the sage appliance wiki`: http://wiki.sagemath.org/SageAppliance
+
+Otherwise follow these steps:
+
+1. Highlight the sage appliance and select **Settings**.
+
+2. Under the settings, navigate to the **shared folders** options and follow `the above directions`_ starting at step #3.
+
+.. _`the above directions`: http://wiki.sagemath.org/SageAppliance#Sharing_files_between_Sage_and_Windows
+
 }}}
