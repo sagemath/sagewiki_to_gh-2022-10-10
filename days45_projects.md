@@ -213,6 +213,17 @@ Quasi symmetric functions / Combinatorial Hopf Algebras
 
 Chris, Sara, Franco, Nicolas^2, Darij
 
+Here is the `worksheet from our first meetup on Tuesday evening <http://wiki.sagemath.org/days45_projects?action=AttachFile&do=get&target=QSymExplorationsAtICERM.sws>`_
+
+Here are some possible topics:
+
+ - QSym tutorial (see the Sym tutorial for inspiration ; use Sym tutorial as a pre-requiste)
+ - QSym documentation improvements : for instance, include "inject_shorthands"
+ - product_on_basis for the F-basis
+ - P-partition enumerators (Darij)
+ - chromatic quasi-symmetric functions (Alejandro, Eric)
+
+
 Quiver algebras and representations
 ===================================
 
@@ -228,7 +239,7 @@ KLR-algebra
 
 Gabe, Mathas, Mary Elizabeth
 
-
+fo
 Matrices indexed by whatever
 ============================
 
