@@ -250,6 +250,13 @@ Sara, Alejandro, Darij, Chris, Franco
 Chromatic quasi-symmetric functions
 ===================================
 
+Number theory and automorphic forms
+===================================
+
+Hartmut, ... 
+
+We will meet at 4pm near the reception to discuss projects.
+
 
 Let's get to work and have fun!
 ===============================
