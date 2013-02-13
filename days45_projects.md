@@ -111,7 +111,7 @@ Implement a `general RSK <http://trac.sagemath.org/sage_trac/ticket/8392>`_
 
 RSK for biwords, integer matrices, ...
 
-Travis Scrimshaw, Sara
+Travis Scrimshaw, Sara, Kevin Dilks
 
 Split and finalize `languages <http://trac.sagemath.org/sage_trac/ticket/12224>`_
 =================================================================================
