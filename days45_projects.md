@@ -60,10 +60,22 @@ Quantum Schubert products in general types (in particular type C) for the full f
 
 Liz Beazley
 
-Equivariant puzzle rule
-=======================
+Approaches:
+
+- Expose existing functionality from lrcalc: http://trac.sagemath.org/sage_trac/ticket/14107
+- Sage rim-hook implementation (only as an interesting exercise,
+  unless the implementation in lrcalc causes trouble)
+- Puzzle rule (see below)
+- From k-schur functions using substitution rule
+
+(Equivariant) puzzle rule
+=========================
 
 Liz Beazley, Anne Schilling, Allen
+
+- Using Knuth's Dancing Links data structure: sage.combinat.matrices.dancing_links?
+- Using hive model and counting of integer points in a polytope (Using Latte? or ?)
+
 
 Implementation of k-tableaux using alpha factorizations
 =======================================================
