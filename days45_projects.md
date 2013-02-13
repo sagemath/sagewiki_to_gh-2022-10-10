@@ -240,7 +240,7 @@ KLR-algebra
 
 Gabe, Mathas, Mary Elizabeth
 
-fo
+
 Matrices indexed by whatever
 ============================
 
