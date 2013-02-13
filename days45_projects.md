@@ -241,8 +241,8 @@ KLR-algebra
 Gabe, Mathas, Mary Elizabeth
 
 
-Matrices indexed by whatever
-============================
+Matrices indexed by whatever (and displayed as html)
+====================================================
 
 Mathas, Nicolas
 
