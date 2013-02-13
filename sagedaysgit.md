@@ -1,4 +1,4 @@
-= Sage Days: Transitioning to Git =
+= Sage Days 47: Transitioning to Git =
 
 == March 25-29, 2013, Portland State University ==
 
