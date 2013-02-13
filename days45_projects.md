@@ -246,12 +246,17 @@ Matrices indexed by whatever (and displayed as html)
 
 Mathas, Nicolas
 
+See `Trac Ticket 14103 <http://trac.sagemath.org/sage_trac/ticket/14103>`_
+and `Trac Ticket 14104 <http://trac.sagemath.org/sage_trac/ticket/14104>`_.
+
+
 Schur algebras
 ==============
 
-#9123
+`Trac Ticket 9123 <http://trac.sagemath.org/sage_trac/ticket/9123>`_.
 
-not Travis
+
+Not Travis
 
 
 Generalized Specht modules
