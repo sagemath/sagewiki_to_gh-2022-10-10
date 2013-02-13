@@ -269,6 +269,21 @@ Hartmut, ...
 
 We will meet at 4pm near the reception to discuss projects.
 
+List to do for crystals from Crystal Session on Tuesday
+=======================================================
+
+- Plotting for Littelmann paths, performance check between Reda's and Mark/Anne's LS implementation
+  (Reda, Mark, ...)
+
+- B-infinity for finite types
+  (Ben Salisbury, ...)
+
+- MV polytopes
+  (Mary, ...)
+
+- GLn action on crystals
+  (Gautam, Anne, ...)
+
 
 Let's get to work and have fun!
 ===============================
