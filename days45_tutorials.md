@@ -120,5 +120,11 @@ Tutorial IV: Contributing to Sage
 .. _`Review a patch`: http://sagemath.org/doc/developer/walk_through.html#reviewing-a-patch
 .. _`Contributing to Sage : Who, What and How`: http://vimeo.com/14044496
 
+.. _`Quick reStructuredText`: http://docutils.sourceforge.net/docs/user/rst/quickref.html
+.. _`reStructuredText`: http://docutils.sourceforge.net/rst.html
+.. _`Sphinx Markup Constructs`: http://sphinx.pocoo.org/markup/index.html
+.. _`reStructuredText (saifoo.net)`: http://www.siafoo.net/help/reST/
+.. _`ReText`: http://sourceforge.net/p/retext/home/ReText
+
 
 }}}
