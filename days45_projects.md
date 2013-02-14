@@ -252,7 +252,7 @@ Nicolas, Franco
 KLR-algebra
 ===========
 
-Gabe, Mathas, Mary Elizabeth
+Gabe, Mathas, Mary Elizabeth, Travis
 
 
 Matrices indexed by whatever (and displayed as html)
