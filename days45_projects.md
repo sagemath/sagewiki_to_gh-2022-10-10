@@ -25,6 +25,8 @@ Extended affine Weyl groups, affine Iwahori Hecke algebras, and nonsymmetric Mac
 
 Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiéry, Viviane Pons
 
+See `Trac Ticket 14102 <http://trac.sagemath.org/sage_trac/ticket/14102>`_.
+
 This project was started during Sage Days 40 by Dan Bump, Dan Orr,
 Anne Schilling, Mark Shimozono, and Nicolas Thiéry and preliminary
 patches are in the sage-combinat queue (see
@@ -71,7 +73,7 @@ Approaches:
 (Equivariant) puzzle rule
 =========================
 
-Liz Beazley, Anne Schilling, Allen
+Liz Beazley, Anne Schilling, Allen Knutson, Franco Saliola
 
 - Using Knuth's Dancing Links data structure: sage.combinat.matrices.dancing_links?
 - Using hive model and counting of integer points in a polytope (Using Latte? or ?)
@@ -296,7 +298,7 @@ List to do for crystals from Crystal Session on Tuesday
   (Ben Salisbury, ...)
 
 - MV polytopes
-  (Mary, ...)
+  (Mary, Dinakhar, ...)
 
 - GLn action on crystals
   (Gautam, Anne, ...)
