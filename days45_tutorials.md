@@ -61,4 +61,64 @@ Otherwise follow these steps:
 
 .. _`the above directions`: http://wiki.sagemath.org/SageAppliance#Sharing_files_between_Sage_and_Windows
 
+
+Tutorial: Introduction to Version Control
+-----------------------------------------
+
+ Leader: Vincent Delecroix featuring Franco Saliola
+
+ Mercurial resources:
+
+ - `Hg Init: a Mercurial Tutorial`_. In this user-friendly, six-part tutorial, Joel Spolsky teaches you the key concepts of Mercurial.
+ - `Learning Mercurial in Workflows`_. This page illustrates the use of Mercurial in various workflows.
+ - `Mq Tutorial`_. A tutorial on Mercurial queues.
+ - `A Git User’s Guide to Mercurial Queues`_
+
+.. _`Hg Init: a Mercurial Tutorial`: http://hginit.com/
+.. _`Learning Mercurial in Workflows`: http://mercurial.selenic.com/guide
+.. _`Mq Tutorial`: http://mercurial.selenic.com/wiki/MqTutorial
+.. _`A Git User’s Guide to Mercurial Queues`: http://stevelosh.com/blog/2010/08/a-git-users-guide-to-mercurial-queues/
+
+
+Tutorial IV: Contributing to Sage
+---------------------------------
+
+ Leader: Chris Berg featuring Franco Saliola
+
+ Guides:
+
+ - `How to Referee Sage Trac Tickets`_ by William Stein
+ - `How to contribute to Sage`_ by Sébastien Labbé
+ - `Introduction to Sage Development`_ by Mike Hansen
+ - `Short step-by-step checklist for reviewing a patch`_ by Franco Saliola
+ - `Sage Developer's Guide`_:
+
+   - `Walking Through the Development Process`_
+   - `Review a patch`_
+
+ Videos:
+
+ - `Contributing to Sage : Who, What and How`_: video of a talk by William Stein
+
+ Related thematic tutorials:
+
+ - `Editing the Sage sources`_
+
+ ReStructuredText resources:
+
+ - `Quick reStructuredText`_: quick reference for reStructuredText
+ - `reStructuredText`_: more detailed reference
+ - `reStructuredText (saifoo.net)`_
+
+.. _`How to contribute to Sage`: http://thales.math.uqam.ca/~labbes/Sage/how-to-contribute/
+.. _`How to Referee Sage Trac Tickets`: http://sagemath.blogspot.com/2010/10/how-to-referee-sage-trac-tickets.html
+.. _`Editing the Sage sources`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-editing-sage-sources.html
+.. _`Introduction to Sage Development`: http://wiki.sagemath.org/days20.5/schedule?action=AttachFile&do=view&target=sd20.5.pdf
+.. _`Short step-by-step checklist for reviewing a patch`: https://www.evernote.com/shard/s16/sh/f30e5eb9-70a9-4882-818b-333c690942bf/d7a138e2705c25b8da6e2053950a89d5
+.. _`Sage Developer's Guide`: http://sagemath.org/doc/developer/index.html
+.. _`Walking Through the Development Process`: http://sagemath.org/doc/developer/walk_through.html
+.. _`Review a patch`: http://sagemath.org/doc/developer/walk_through.html#reviewing-a-patch
+.. _`Contributing to Sage : Who, What and How`: http://vimeo.com/14044496
+
+
 }}}
