@@ -50,7 +50,7 @@ Finalization of Coxeter and Weyl groups patch
 
 Mark Shimozono, Anne Schilling, Christian Stump
 
-Finalization of the patch `Trac Ticket 12774 <http://trac.sagemath.org/sage_trac/ticket/12774>`_.
+Finalization of the patch `Trac Ticket 12774 <http://trac.sagemath.org/sage_trac/ticket/12774>`_. Done!
 
 Further Kazdhan-Lusztig functionalities
 =======================================
