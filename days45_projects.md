@@ -401,8 +401,8 @@ Coxeter groups:
 - Travis : created a patch so that Sage answers 5 to 2+2 (passes all doctests in integers and integer rings)
 
 
-- Anne : 14089, .....
-- 12774
+- Anne : finalized 14089, 14009, 14052
+- Anne : reviewed 12774, 14130, 12912
 
 Polynomials:
 - Travis : 14120 Laurent Polynomials
