@@ -343,8 +343,6 @@ Number theory and automorphic forms
 
 Hartmut, ... 
 
-We will meet at 4pm near the reception to discuss projects.
-
 List to do for crystals from Crystal Session on Tuesday
 =======================================================
 
