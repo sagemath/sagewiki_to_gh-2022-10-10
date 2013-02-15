@@ -33,7 +33,9 @@ patches are in the sage-combinat queue (see
 extended_affine_weyl_groups_sd40.patch and
 affine_iwahori_hecke_algebras.patch).
 
-Viviane Pons: I have some programs already in sage-combinat on non symmetric Macdonald polynomials, see trac_6629_abstract_ring_of_multivariate_polynomials_with_several_bases_vp.patch
+Viviane Pons: I have some programs already in sage-combinat on non symmetric Macdonald polynomials, see trac_6629_abstract_ring_of_multivariate_polynomials_with_several_bases_vp.patch 
+
+Viviane : patch is now on trac and ready to be reviewed !
 
 
 Finalization of the Coxeter3 integration into Sage
@@ -120,6 +122,8 @@ I believe after #13605, there are only a few more left...
 Travis Scrimshaw
 Vincent Delecroix
 
+- Reviewed one patch on compositions
+
 Implement a `general RSK <http://trac.sagemath.org/sage_trac/ticket/8392>`_
 ===========================================================================
 
@@ -130,6 +134,8 @@ Travis Scrimshaw, Sara, Kevin Dilks
 Split and finalize `languages <http://trac.sagemath.org/sage_trac/ticket/12224>`_
 =================================================================================
 Vincent Delecroix and Travis Scrimshaw
+
+status : worked on pre-requisites.
 
 Posets
 ======
@@ -152,6 +158,11 @@ Posets
 - disjoint union, ordinal sum, product
 
 Alex Csar, Kevin Dilks
+
+Status:
+ - Greene-Kleitman partition of posets (Darij) ; prototype algorithm ready, needs to be correctly formatted.
+  - Eric : poset avoidance (patch on trac 14099)
+ - Alejandro : fixing interface to graph colouring
 
 Preparing technical details for Combinatorial Hopf Algebras
 ===========================================================
@@ -197,6 +208,11 @@ Cluster algebra package
 
 Gregg Musiker, Christian Stump, Salvatore
 
+Status:
+- reviewed one patch (positive review)
+- almost done second patch (today!)
+- 3rd patch work in progress (to be finalized within a week)
+
 B infinity crystals
 ===================
 
@@ -238,6 +254,10 @@ Here are some possible topics:
  - P-partition enumerators (Darij)
  - chromatic quasi-symmetric functions (Alejandro, Eric)
 
+Status:
+ - P-partition enumerators (Darij) [.py files on trac, ready for review]
+ - Sara Billey : QSym tutorial (first draft ; ready for review)
+ - Sara Billey and Chris Berg : nicer documentation for inject_shorthands (essentially done)
 
 Quiver algebras and representations
 ===================================
@@ -308,5 +328,29 @@ Let's get to work and have fun!
 ===============================
 
 Everybody
+
+
+Other projects
+==============
+
+Arthur L : alcove paths working in all affine types ; visualizations working for type A ; and working through technicalities for other types
+
+Findstat :
+- Viviane Pons is now the official web developer ; she got findstat working on her machine !
+- Christian : new implementation is almost finished (Findstat-2.0 beta; available on github)
+- Chris Berg : adding new statistics
+- Sara Billey : adding new statistics
+
+Trees :
+- (Viviane) patch for combinatorial maps between trees and other objects
+- patch almost ready for uploading to trac
+
+Tutorials (presentations):
+- Chris Berg
+- Franco
+- Vincent
+- Nicolas
+- Viviane
+- Anne
 
 }}}
