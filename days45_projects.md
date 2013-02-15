@@ -47,6 +47,9 @@ This would bring a faster implementation of Kazhdan-Lusztig polynomials to Sage.
 
 See `Trac Ticket 12912 <http://trac.sagemath.org/sage_trac/ticket/12912>`_.
 
+Status:
+- Anne : worked on 12912
+
 Finalization of Coxeter and Weyl groups patch
 =============================================
 
@@ -54,10 +57,23 @@ Mark Shimozono, Anne Schilling, Christian Stump
 
 Finalization of the patch `Trac Ticket 12774 <http://trac.sagemath.org/sage_trac/ticket/12774>`_. Done!
 
+Status:
+- Mark finalized patch and addressed reviewer concerns
+- Anne : reviewed Mark's patch
+- 
+
 Further Kazdhan-Lusztig functionalities
 =======================================
 
 Brant Jones, Chris Berg, Dan Bump
+
+Status:
+
+- Brant :
+  - refactoring the current implementation to take advantage of WithRealizations
+  - implemented KL basis for the Iwahori-Hecke algebra
+  - implemented third basis for the algebra
+  - not on trac yet, but will create a ticket ????
 
 Quantum Schubert products in general types (in particular type C) for the full flag variety
 ===========================================================================================
@@ -79,6 +95,10 @@ Liz Beazley, Anne Schilling, Allen Knutson, Franco Saliola
 
 - Using Knuth's Dancing Links data structure: sage.combinat.matrices.dancing_links?
 - Using hive model and counting of integer points in a polytope (Using Latte? or ?)
+
+Status:
+- 
+- Avinash : constructed Bellkale-Kumar puzzle pieces ; to be uploaded to sage-combinat
 
 
 Implementation of k-tableaux using alpha factorizations
@@ -109,10 +129,15 @@ Finalization of the `partition options patch <http://trac.sagemath.org/sage_trac
 
 Travis Scrimshaw and Andrew Mathas (and Nicolas)
 
+Status:
+- Travis : finalized patch
+- Andrew : reviewing patch (almost done)
+
 Crystals and `rigged configurations code <http://trac.sagemath.org/sage_trac/ticket/13872>`_ and dependencies
 =============================================================================================================
 
 Travis Scrimshaw, Anne
+
 
 Officially deprecate `CombinatorialClass <http://trac.sagemath.org/sage_trac/ticket/12913>`_
 ============================================================================================
@@ -122,7 +147,7 @@ I believe after #13605, there are only a few more left...
 Travis Scrimshaw
 Vincent Delecroix
 
-- Reviewed one patch on compositions
+- Vincent : Reviewed one patch on compositions
 
 Implement a `general RSK <http://trac.sagemath.org/sage_trac/ticket/8392>`_
 ===========================================================================
@@ -135,7 +160,9 @@ Split and finalize `languages <http://trac.sagemath.org/sage_trac/ticket/12224>`
 =================================================================================
 Vincent Delecroix and Travis Scrimshaw
 
-status : worked on pre-requisites.
+status : 
+- Vincent : worked on pre-requisites.
+- Travis : reviewed Vincent's patch 
 
 Posets
 ======
@@ -161,8 +188,10 @@ Alex Csar, Kevin Dilks
 
 Status:
  - Greene-Kleitman partition of posets (Darij) ; prototype algorithm ready, needs to be correctly formatted.
-  - Eric : poset avoidance (patch on trac 14099)
+ - Eric : poset avoidance (patch on trac 14099)
  - Alejandro : fixing interface to graph colouring
+ - Kevin : first patch successfully uploaded to trac, now to post rest of code to trac
+ - 
 
 Preparing technical details for Combinatorial Hopf Algebras
 ===========================================================
@@ -177,6 +206,14 @@ Main points are :
  * Fix technical detail about composition of linear morphism
 
 Nicolas Borie, Vincent Delecroix, Saliola
+
+Status:
+- Vincent : finalized patch 10193 (under review; small things to fix)
+- Nicolas Borie : reviewing trac 10193
+- Andrew : patch on indexed matrices trac 14103
+- Nicolas Borie : tested Andrew's patch on indexed matrices trac 14103
+- Nicolas Borie : patch for graded modules on the way
+
 
 The symmetric group as a proper Weyl group
 ==========================================
@@ -352,5 +389,26 @@ Tutorials (presentations):
 - Nicolas
 - Viviane
 - Anne
+
+Crystals:
+- Reda : plotting rank 2 crystals including latex output (for Littelmann Path model and tableaux)
+- Ben : finalized the implementation of generalized Young Walls (Anne and Travis reviewed the patch 14130)
+
+Coxeter groups:
+- Ed Richmond : learning way around Sage ; started working on initial implementation of a class for arbitrary Coxeter groups
+
+2+2==5:
+- Travis : created a patch so that Sage answers 5 to 2+2 (passes all doctests in integers and integer rings)
+
+
+- Anne : 14089, .....
+- 12774
+
+Polynomials:
+- Travis : 14120 Laurent Polynomials
+- Travis : speed up of conversion of polynomials to finite fields 13257
+
+
+
 
 }}}
