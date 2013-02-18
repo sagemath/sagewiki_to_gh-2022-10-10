@@ -8,7 +8,7 @@ See the [[http://wiki.sagemath.org/dynamics/ArithmeticAndComplex | wiki page]] f
 
 === Schedule ===
 
-There will be a few talks and tutorials in the mornings but most of the time will be devoted to working on Sage code.  A precise schedule is yet to be determined.
+There will be a tutorials and talks in the mornings and working groups in the afternoons. A precise schedule is yet to be determined.
 
 Conference activities will begin Thursday morning and conclude Sunday afternoon.
 
@@ -18,7 +18,9 @@ tbd.
 
 === Location ===
 
-Florida Institute of Technology. More detailed information coming soon.
+Florida Institute of Technology, Melbourne, FL.  Housing will be provided close to campus at the Hilton Melbourne Rialto Place.
+
+More detailed information coming soon.
 
 === Participants ===
 
