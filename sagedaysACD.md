@@ -14,11 +14,20 @@ Conference activities will begin Thursday morning and conclude Sunday afternoon.
 
 === Projects ===
 
-tbd.
+The specific problems addressed at this workshop will be decided upon the interests of the participants. The following general topics are proposed:
+
+- Review any outstanding patches
+
+- Create tutorials
+
+- Implement existing algorithms
+
+- Determine next steps
+
 
 === Location ===
 
-Florida Institute of Technology, Melbourne, FL.  Housing will be provided close to campus at the Hilton Melbourne Rialto Place.
+Florida Institute of Technology, Melbourne, FL.
 
 More detailed information coming soon.
 
@@ -33,9 +42,9 @@ tbd.
 
 === Lodging ===
 
-tbd.
+Housing will be provided close to campus at the Hilton Melbourne Rialto Place for invited participants.
 
 
 === Last Updated ===
 
-2/16/2013
+2/18/2013
