@@ -2,13 +2,13 @@
 
 == November 7–November 10, 2013, Florida Institute of Technology, FL ==
 
-This is a 4-day workshop that will include a combination of mathematical talks, Sage tutorials, and Sage development. The main goal is to promote and to improve the dynamical systems functionality in Sage. Beginning at ICERM in Spring 2012 some base functionality for dynamical systems was implemented for Sage. There remains a significant amount of work to be done, ranging from reviewing patches, migrating stand-alone algorithms into Sage, implementing existing algorithms, and many more.  Users new to Sage and Sage development are welcome.
+This is a 4-day workshop that will include a combination of mathematical talks, Sage tutorials, and Sage development. The main goal is to promote and improve the dynamical systems functionality in Sage.  Some base functionality for dynamical systems has been implemented for Sage, beginning at ICERM in Spring 2012. There remains a significant amount of work to be done, ranging from reviewing patches, migrating stand-alone algorithms into Sage, implementing existing algorithms, and many more activities.  Users new to Sage and Sage development are welcome.
 
 See the [[http://wiki.sagemath.org/dynamics/ArithmeticAndComplex | wiki page]] for information on the current status of Arithmetic and Complex Dynamics in Sage.
 
 === Schedule ===
 
-There will be a tutorials and talks in the mornings and working groups in the afternoons. A precise schedule is yet to be determined.
+The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. A precise schedule is forthcoming.
 
 Conference activities will begin Thursday morning and conclude Sunday afternoon.
 
@@ -29,7 +29,6 @@ The specific problems addressed at this workshop will be decided upon the intere
 
 Florida Institute of Technology, Melbourne, FL.
 
-More detailed information coming soon.
 
 === Participants ===
 
