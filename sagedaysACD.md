@@ -42,7 +42,7 @@ tbd.
 
 === Lodging ===
 
-Housing will be provided close to campus at the Hilton Melbourne Rialto Place for invited participants.
+Housing will be provided close to campus at the Hilton Melbourne Rialto Place for invited participants. The hotel provides breakfast and transportation to and from the airport and campus.
 
 
 === Last Updated ===
