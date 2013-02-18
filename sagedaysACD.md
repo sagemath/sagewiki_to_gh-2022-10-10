@@ -16,13 +16,13 @@ Conference activities will begin Thursday morning and conclude Sunday afternoon.
 
 The specific problems addressed at this workshop will be decided upon the interests of the participants. The following general topics are proposed:
 
-* Review any outstanding patches
+ * Review any outstanding patches
 
-* Create tutorials
+ * Create tutorials
 
-* Implement existing algorithms
+ * Implement existing algorithms
 
-* Determine next steps
+ * Determine next steps
 
 
 === Location ===
