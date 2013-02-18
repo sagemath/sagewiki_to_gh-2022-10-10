@@ -37,8 +37,8 @@ tbd.
 
 ==== Organizers ====
 
- * Benjamin Hutz
- * Adam Towsley
+ * Benjamin Hutz, Department of Mathematical Sciences, Florida Institute of Technology
+ * Adam Towsley, Ph.D. Program in Mathematics, CUNY Graduate Center
 
 === Lodging ===
 
