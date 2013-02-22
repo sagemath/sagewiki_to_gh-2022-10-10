@@ -107,7 +107,7 @@ If anyone has the time to help on these ports, it would be greatly appreciated.
  * A little work has been done on an AIX port. This can be followed at the [[AIX| AIX port page]]. It is not currently clear if this will ever be completed, as there is not a significant effort taking place. If you wish to help, that would be appreciated. If you do not have access to AIX hardware, [[http://www.metamodul.com/|Metamodul]] will provide free public access for open-source development. A couple of Sage developers have used this. Trac ticket [[http://trac.sagemath.org/sage_trac/ticket/9999|Trac #9999]] has the latest list of known issues.
 
 === Linux ===
- * Mips64: The Mips64 port can be followed at [[SiCortex|The SiCortex port page]].
+ * Mips64: The Mips64 port can be followed at the [[SiCortex|SiCortex port page]].
 
 === HP-UX ===
  * Some work has been done on an HP-UX port to the PA-RISC processor. At least three Sage developers have tested their code on HP-UX.
@@ -115,7 +115,7 @@ If anyone has the time to help on these ports, it would be greatly appreciated.
 More information on the HP-UX port can be found on the [[HP-UX]] page. 
 
 === Microsoft Windows ===
- * Microsoft Windows using Cygwin (Substantial work has been done on this). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows sage-windows]] mailing list.
+ * Microsoft Windows using Cygwin (Substantial work has been done on this). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows|sage-windows]] mailing list.
  * Microsoft Windows using Microsoft's compiler. This will be a full native port. There are some efforts at this. 
 
 === OpenSolaris 64-bit ===
@@ -125,4 +125,4 @@ More information on the HP-UX port can be found on the [[HP-UX]] page.
  * Solaris 10 on x86 processors in 64-bit mode. (Substantial work has been done on this).
  * Solaris 10 on SPARC processors in 64-bit mode. (Substantial work has been done on this).
 
-More information about the status of the Solaris ports can be found on the [[solaris|Solaris]] page of the Sage Wiki. There's also some notes about installing [[solaris-binaries|Solaris binaries]]
+More information about the status of the Solaris ports can be found on the [[solaris|Solaris]] page of the Sage wiki. There's also some notes about installing [[solaris-binaries|Solaris binaries]].
