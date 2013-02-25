@@ -31,6 +31,7 @@ Participants:
  * William Stein (University of Washington)
  * Christopher Swenson (lives in Portland, OR)
  * Nicolas M. Thiéry
+ * Robert Bradshaw (Google)
 
 Participating Remotely:
 
