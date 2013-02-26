@@ -92,3 +92,9 @@ People: Victoria de Quehen
  * Victoria has some code that works to clean up and document.
 
  * Add some related functions.
+
+== Rescue old number theory tickets ==
+
+People: David Roe
+
+ * Find number theory tickets with code and try to get them fixed/reviewed
