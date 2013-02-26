@@ -8,6 +8,7 @@
 === Schedule ===
 
   * February 26, 10 a.m. - Organizational Meeting.
+  * February 26, 7 p.m. - Status Reports.
 
 === Projects ===
   [[/projects|Sage Days 46 Projects]]
