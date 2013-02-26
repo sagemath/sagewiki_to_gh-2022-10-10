@@ -15,8 +15,28 @@ People: Jason Grout, William Stein
 
 People: William Stein, Jason Grout
 
-Worksheets in Salvus have numerous "views" -- JSON, LaTeX, PDF, print, XML, etc. -- do a polished implementation of all of these.  This is a 100% frontend CoffeeScript development project.  The basic skeleton is completely in place.
+ * Worksheets in Salvus have numerous "views" -- JSON, LaTeX, PDF, print, XML, etc. -- do a polished implementation of all of these.  This is a 100% frontend CoffeeScript development project.  The basic skeleton is completely in place.
 
 == Sage.math cluster ==
 
 People: William Stein, Keith Clawsen, Volker Braun, Jason Grout
+
+  * KVM -- Address some specific needs of the combinat group on combinat.math.washington.edu.  (See William for details.)
+  * KVM -- Move the single cell server into a virtual machine.
+  * KVM -- Figure out how to do live snap-shotting of virtual machine's RAM for infinite computations. 
+  * Hardware -- make a plan for disk, power supply (and other?) upgrades. 
+
+== The Patch Referee Award ==
+
+People: William Stein, Keith Clawson
+
+  * Design and implement a weekly award to the person who referees the most trac stuff, for some arbitrary definition.  Keith and William have done some work on this. Things to decide:
+     * definition of "most" -- this is social -- what do you think.
+     * the prize itself: money (e.g., amazon.com gift certificate) or something else?
+     * How to implement: use trac postgresql, etc.
+
+== Salvus UI Testing and Design ==
+
+People: William Stein
+
+   
