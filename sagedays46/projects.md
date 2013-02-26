@@ -23,6 +23,8 @@ People: David Roe
 
 Trac Ticket: 12555
 
+  * Trac Ticket 12561 is about factoring polynomials over p-adics.  Improve and get this into Sage.
+
 == Computations related to a possible Shimura correspondence for non-congruence modular forms ==
 
 People: Ling Long, Alyson Deines
