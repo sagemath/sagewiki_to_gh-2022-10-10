@@ -21,6 +21,8 @@ People: David Roe
 
   * Templating the p-adics, etc.  Another patch bomb.   Finish this!
 
+Trac Ticket: 12555
+
 == Computations related to a possible Shimura correspondence for non-congruence modular forms ==
 
 People: Ling Long, Alyson Deines
