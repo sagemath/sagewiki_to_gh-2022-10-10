@@ -10,6 +10,7 @@
   * February 26, 10 a.m. - Organizational Meeting.
 
 === Projects ===
+  [[/projects|Sage Days 46 Projects]]
 
 === Location ===
 
