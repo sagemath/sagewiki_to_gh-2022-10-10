@@ -1,5 +1,19 @@
 = Sage Days 46: Hawaii -- computational number theory, etc. -- PROJECTS =
 
+= Current =
+
+ * Simon: Modular Degrees
+ * David Roe: Review of old number theory tickets
+ * Victoria: Jacobi Theta
+ * Aly: Shimura corr
+ * Ling: Shimura corr
+ * Jason Grout: scalable robust Sage Cell Server
+ * Volker: KVM snapshotting
+ * Keith: KVM stuff
+ * William Stein: scalable robust Sage Cell Server
+ * Mirelli and Jennifer: p-adic Heights
+ * Vivek: UI testing/web stuff/scalable robust sage cell server -- javascript applet for entering matrices (?)
+
 == p-adic Heights ==
 
 People: William Stein, Jennifer Balakrishsnan, Mirella Ciperiani
