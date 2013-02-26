@@ -35,8 +35,14 @@ Also, some stuff related to truncated hypergeometric series.
 
 People: Jason Grout, William Stein
 
+
+---- /!\ '''Edit conflict - other version:''' ----
 http://sagecell.sagemath.org
 
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
  * Make the single cell server use stunnel for ssl support.  Benefits: this makes websockets more reliable, and of course makes the server more secure.
 
  * Make the single cell server highly available, i.e., deployed on multiple machines in multiple locations, with no single point of failure.  Currently, this is VERY hard because of the use of SQLite.
@@ -85,5 +91,10 @@ People: William Stein, Jason Grout
 
  * CELL PERCENT MODES (%blah): William has re-implemented this as well; same remarks as above.  Jason Grout has thought a lot about what is here.   There is no documentation yet. 
 
+== Computing Jacobi theta series ==
 
-   
+People: Victoria de Quehen
+
+ * Victoria has some code that works to clean up and document.
+
+ * Add some related functions.
