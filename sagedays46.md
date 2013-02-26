@@ -7,6 +7,8 @@
 
 === Schedule ===
 
+  * February 26, 10 a.m. - Organizational Meeting.
+
 === Projects ===
 
 === Location ===
