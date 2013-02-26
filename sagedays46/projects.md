@@ -84,6 +84,13 @@ People: William Stein, Jason Grout
  * INTERACT: William has re-implemented from scratch the @interact functionality from Sage, with many new powerful features.  Try this out, test for backwards compatibility, help with documenting: write a tutorial.  Etc. 
 
  * CELL PERCENT MODES (%blah): William has re-implemented this as well; same remarks as above.  Jason Grout has thought a lot about what is here.   There is no documentation yet. 
+-
+ * Dynamic implementation by Jason Grout.
+
+ * Plotting Widget
+
+ * Input widgets in codemirror3.
+
 
 == Computing Jacobi theta series ==
 
