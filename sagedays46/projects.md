@@ -1,7 +1,29 @@
 = Sage Days 46: Hawaii -- computational number theory, etc. -- PROJECTS =
 
+== p-adic Heights ==
 
+People: William Stein, Jennifer Balakrishsnan, Mirella Ciperiani
 
+ * Write paper
+ * Get code into Sage, or at least make it easily available as a Python package on github (say).
+
+=== Modular Degrees at non-minimal levels ==
+
+People: William Stein, Simon Spicer, Aly Deines
+
+ * Add functions to Sage for computing a generalization of the modular degree at levels that are a multiple of the conductor.  Compute data.  
+
+Trac ticket: 14189
+
+== p-Adics ==
+
+People: David Roe
+
+  * Templating the p-adics, etc.  Another patch bomb.   Finish this!
+
+== Computations related to a possible Shimura correspondence for non-congruence modular forms ==
+
+People: Ling Long, Alyson Deines
 
 == Single Cell Server ==
 
