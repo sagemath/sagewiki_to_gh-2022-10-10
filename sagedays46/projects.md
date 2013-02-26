@@ -105,3 +105,10 @@ People: Victoria de Quehen
 People: David Roe
 
  * Find number theory tickets with code and try to get them fixed/reviewed
+
+== Factoring Cryptographic Size Numbers in Sage ==
+
+People: Kartik
+
+  * Investigate current status of the tickets
+  * Write or revive a wrapper for various NFS-type programs.
