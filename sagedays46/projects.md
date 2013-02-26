@@ -39,4 +39,17 @@ People: William Stein, Keith Clawson
 
 People: William Stein
 
+No significant thought has gone into the user interface of Salvus -- it's been all about implementing functionality, with basically no thought about where buttons are located, whether or not there are menus, how things are named, colored, and laid out, etc.  For this project, you would simply try out salvus -- there are NO INSTRUCTIONS YET -- and sketch on paper how you think the user interface could be better laid out.    Salvus mainly uses http://twitter.github.com/bootstrap/, so keep the widgets, colors, etc., available there in mind.  This requires only a web browser, paper, and pencil.   
+
+    * Make some paper sketches of how *you* would lay out the UI. 
+    * What should be in the help/tutorial for Salvus?  What questions would you want answered?
+    * What are you top priority things to be user-configurable?  Color schemes?  Key to evaluate code (shift-enter)?
+
+Note: Basically all development has so far been done Google Chrome under Linux. 
+
+== Salvus: New Implementations of things that are in Sagenb ==
+
+People: William Stein, Jason Grout
+
+
    
