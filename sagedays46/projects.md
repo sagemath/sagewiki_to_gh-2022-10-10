@@ -1,6 +1,6 @@
 = Sage Days 46: Hawaii -- computational number theory, etc. -- PROJECTS =
 
-= 2013-02-26 assignments =
+== 2013-02-26: your missions ==
 
  * Simon: Modular Degrees
  * David Roe: Review of old number theory tickets
