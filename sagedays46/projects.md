@@ -29,6 +29,8 @@ Trac Ticket: 12555
 
 People: Ling Long, Alyson Deines
 
+Also, some stuff related to truncated hypergeometric series. 
+
 == Single Cell Server ==
 
 People: Jason Grout, William Stein
