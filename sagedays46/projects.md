@@ -7,7 +7,7 @@ People: William Stein, Jennifer Balakrishsnan, Mirella Ciperiani
  * Write paper
  * Get code into Sage, or at least make it easily available as a Python package on github (say).
 
-=== Modular Degrees at non-minimal levels ==
+== Modular Degrees at non-minimal levels ==
 
 People: William Stein, Simon Spicer, Aly Deines
 
