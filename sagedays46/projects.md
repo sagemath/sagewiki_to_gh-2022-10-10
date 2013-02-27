@@ -67,7 +67,8 @@ People: William Stein, Keith Clawsen, Volker Braun, Jason Grout
 
   * KVM -- Address some specific needs of the combinat group on combinat.math.washington.edu.  (See William for details.)
   * KVM -- Move the single cell server into a virtual machine.
-  * KVM -- Figure out how to do live snap-shotting of virtual machine's RAM for infinite computations. 
+  * KVM -- Figure out how to do live snap-shotting of virtual machine's RAM for infinite computations:
+    https://github.com/vbraun/ImmortalSage
   * Hardware -- make a plan for disk, power supply (and other?) upgrades. 
 
 == The Patch Referee Award ==
