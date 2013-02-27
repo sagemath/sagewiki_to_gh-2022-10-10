@@ -118,7 +118,7 @@ People: Victoria de Quehen
 
 People: David Roe
 
- * Find number theory tickets with code and try to get them fixed/reviewed
+ * Find number theory tickets with code and try to get them fixed/reviewed.  See [[/TicketStatus|this page]].
 
 == Factoring Cryptographic Size Numbers in Sage ==
 
