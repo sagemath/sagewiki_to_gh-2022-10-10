@@ -8,7 +8,8 @@ Things to be able to do:
   * Easily change the state of the widget
   * Easily have controls that depend on each other -- I should be able to manipulate one control and see another control change
   * backwards compatible with current interacts
-
+  * easy to create a complicated layout of controls
+  * create a layout of controls dynamically
 
 
 == Separating controls and variables ==
