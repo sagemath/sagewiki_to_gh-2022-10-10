@@ -11,12 +11,12 @@
  * Volker: KVM snapshotting
  * Keith: KVM stuff
  * William Stein: scalable robust Sage Cell Server
- * Mirelli and Jennifer: p-adic Heights
+ * Mirela and Jennifer: p-adic Heights
  * Vivek: UI testing/web stuff/scalable robust sage cell server -- javascript applet for entering matrices (?)
 
 == p-adic Heights ==
 
-People: William Stein, Jennifer Balakrishsnan, Mirella Ciperiani
+People: William Stein, Jennifer Balakrishsnan, Mirela Ciperiani
 
  * Write paper
  * Get code into Sage, or at least make it easily available as a Python package on github (say).
