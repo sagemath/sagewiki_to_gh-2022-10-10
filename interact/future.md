@@ -2,12 +2,12 @@ Some thoughts about the future of interacts
 
 Things to be able to do:
 
-* Easily create controls on the fly
-* When a variable changes, update the control automatically
-* Easily use the value of a control
-* Easily change the state of the widget
-* Easily have controls that depend on each other -- I should be able to manipulate one control and see another control change
-* backwards compatible with current interacts
+  * Easily create controls on the fly
+  * When a variable changes, update the control automatically
+  * Easily use the value of a control
+  * Easily change the state of the widget
+  * Easily have controls that depend on each other -- I should be able to manipulate one control and see another control change
+  * backwards compatible with current interacts
 
 
 
