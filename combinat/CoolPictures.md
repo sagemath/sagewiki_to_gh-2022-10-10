@@ -1,5 +1,9 @@
 = Cool pictures produced with Sage-Combinat =
 
+ * [[attachment:root-system-plots.pdf|Root system plots]]
+
+ * [[attachment:plot-crystal-3d.png|A 3d plot of a crystal graph]]
+
  * [[attachment:alternating-sign-matrix-poset.pdf|Alternating sign matrix poset]]
 
  * [[attachment:quantum-Bruhat-graphA2.png|Quantum Bruhat graph for A2]]
