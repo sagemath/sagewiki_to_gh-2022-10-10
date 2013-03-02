@@ -1,8 +1,10 @@
 = Cool pictures produced with Sage-Combinat =
 
  * [[attachment:root-system-plots.pdf|Root system plots]]
+   (draft of upcoming tutorial, with many pictures)
 
- * [[attachment:plot-crystal-3d.png|A 3d plot of a crystal graph]]
+ * [[attachment:plot-crystal-3d.png|A 3d stereographic plot of a crystal graph]]
+   (see above for how to construct this plot)
 
  * [[attachment:alternating-sign-matrix-poset.pdf|Alternating sign matrix poset]]
 
