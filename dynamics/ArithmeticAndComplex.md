@@ -26,6 +26,12 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 The arithmetic and complex dynamics functionality in Sage is currently in its infancy. A significant amount of functionality was developped at the ICERM semester in Spring 2012 and now we have started the process of moving this into Sage through a series of patches (trac tickets). Most of that functionality is current in experimental form.
 
- * [[http://trac.sagemath.org/sage_trac/ticket/13130 | Trac #13130 - Needs Review]]: Basic architecture changes : support for projective spaces over rings
+ * [[http://trac.sagemath.org/sage_trac/ticket/13130 | Trac #13130 - Positive Reivew]]: Basic architecture changes : support for projective spaces over rings
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/14217 | Trac #14217 - Owner: bhutz]]: Basic iteration functionality for projective and affine spaces
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/14218 | Trac #14218 - Owner: bhutz]]: Height and canonical heights for points and morphisms
+
+ * [[http://trac.sagemath.org/sage_trac/ticket/14129 | Trac #14219 - Owner: bhutz]]: QQ-rational preperiodic algorithms
 
  * [[http://www.fit.edu/~bhutz/#sage-dynamics| Experimental patches]] can be downloaded here.
