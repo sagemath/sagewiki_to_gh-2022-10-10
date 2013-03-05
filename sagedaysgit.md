@@ -22,6 +22,7 @@ The conference is organized by:
 Participants:
 
  * Keith Clawson (Washington State University)
+ * Jeroen Demeyer (Ghent University)
  * Benjamin Jones (lives in Portland, OR)
  * Keshav Kini
  * Timo Kluck (Utrecht University)
