@@ -15,7 +15,7 @@ At the time of this edit [the 5th of March, 2013], we have ''''3050'''' tickets.
 
 ===== More trivia. ===== 
 
-* The earliest ticket open is the ticket [http://trac.sagemath.org/sage_trac/ticket/21|#21] that was opened 6 years ago! You can see the next candidates [http://trac.sagemath.org/sage_trac/report/63?asc=1&page=31|here]!
+* The earliest ticket open is the ticket [[http://trac.sagemath.org/sage_trac/ticket/21|#21]] that was opened 6 years ago! You can see the next candidates [[http://trac.sagemath.org/sage_trac/report/63?asc=1&page=31|here]]!
 
 More to come... 
 
