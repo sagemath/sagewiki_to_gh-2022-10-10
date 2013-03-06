@@ -21,6 +21,7 @@ The conference is organized by:
 
 Participants:
 
+ * Robert Bradshaw (Google)
  * Keith Clawson (Washington State University)
  * Jeroen Demeyer (Ghent University)
  * Benjamin Jones (lives in Portland, OR)
@@ -32,7 +33,6 @@ Participants:
  * William Stein (University of Washington)
  * Christopher Swenson (lives in Portland, OR)
  * Nicolas M. Thiéry
- * Robert Bradshaw (Google)
 
 Participating Remotely:
 
