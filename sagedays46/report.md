@@ -1,5 +1,6 @@
+This is what happened at Sage Days 46: Hawaii:
+
 {{{
-Final Reports from Participants:
 
 * Vivek Venkatachalam <vivek@physics.harvard.edu>: I explored the
   possibility of adding vector-based (SVG) visualizations to Sage
