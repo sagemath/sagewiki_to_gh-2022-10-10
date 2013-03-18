@@ -28,7 +28,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * [[http://trac.sagemath.org/sage_trac/ticket/13130 | Trac #13130 - Merged sage-5.8.beta3]]: Basic architecture changes : support for projective spaces over rings
 
- * [[http://trac.sagemath.org/sage_trac/ticket/14217 | Trac #14217 - Needs-Review]]: Basic iteration functionality for projective and affine spaces
+ * [[http://trac.sagemath.org/sage_trac/ticket/14217 | Trac #14217 - Needs-Review]]: Basic iteration functionality for projective and affine spaces - new directory structure in schemes
 
  * [[http://trac.sagemath.org/sage_trac/ticket/14218 | Trac #14218 - Needs-Review]]: Height and canonical heights for points and morphisms
 
