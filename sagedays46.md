@@ -23,8 +23,16 @@ The arrival airport is HNL.  We are reserving a large house on the North Shore o
 
 
 === Participants ===
-
- * Simon Spicer (University of Washington)
+ * Volker Braun
+ * Mirela Ciperiani
+ * Keith Clawson
+ * Victoria de Quehen
+ * Jason Grout
+ * Ling Long
+ * David Roe
+ * Bianca Thompson
+ * Vivek Venkatachalam
+ * Kartik Venkatram
 
 ==== Organizers ====
 
