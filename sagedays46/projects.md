@@ -20,7 +20,6 @@ People: William Stein, Jennifer Balakrishsnan, Mirela Ciperiani
 
  * Write paper
  * Get code into Sage, or at least make it easily available as a Python package on github (say).
- * Code is here: http://sage.math.washington.edu/home/jen/padic_height.py
 
 == Modular Degrees at non-minimal levels ==
 
