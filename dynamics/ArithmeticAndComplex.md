@@ -32,6 +32,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * [[http://trac.sagemath.org/sage_trac/ticket/14218 | Trac #14218 - Needs-Review]]: Height and canonical heights for points and morphisms
 
- * [[http://trac.sagemath.org/sage_trac/ticket/14129 | Trac #14219 - Owner: bhutz]]: QQ-rational preperiodic algorithms
+ * [[http://trac.sagemath.org/sage_trac/ticket/14219 | Trac #14219 - Owner: bhutz]]: QQ-rational preperiodic algorithms
 
  * [[http://www.fit.edu/~bhutz/#sage-dynamics| Experimental patches]] can be downloaded here.
