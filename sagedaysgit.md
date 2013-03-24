@@ -25,7 +25,7 @@ Participants:
  * Keith Clawson (Washington State University)
  * Jeroen Demeyer (Ghent University)
  * Benjamin Jones (lives in Portland, OR)
- * Keshav Kini
+ * Keshav Kini (lives in Portland, OR)
  * Timo Kluck (Utrecht University)
  * R. Andrew Ohana (University of Washington)
  * David Roe (University of Calgery)
