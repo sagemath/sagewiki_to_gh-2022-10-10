@@ -19,6 +19,7 @@ Anyone with any interest in the use of Sage in educational settings is welcome, 
  * June 19, 20 and 21 are expected to be full days.  So plan to travel on June 18 and June 22.
  * All sessions will be somewhere (TBA) on the University of Washington Campus  [[http://www.washington.edu/maps/|interactive campus map]].
  * [[days48|Sage Days 48]] will happen the same week at the University of Washington with the Notebook Development as its theme.
+ * '''Be sure to buy your plane ticket on a US carrier.'''
  * See the [[uw-local-info|local information page]] for more specifics.
 
 
