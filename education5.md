@@ -25,7 +25,7 @@ Anyone with any interest in the use of Sage in educational settings is welcome, 
 
 == Lodging ==
 
-TBA.  There will be a travel page soon.
+Arrangements for rooms at [[http://www.hoteldeca.com/|Hotel Deca]] are in-progress and may be final by about April 1.
 
 
 == Mailing Lists ==
