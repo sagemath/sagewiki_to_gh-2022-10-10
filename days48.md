@@ -19,6 +19,7 @@ June 17-21, 2012 at University of Washington in Seattle, in conjunction with [[e
 To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email an organizer to add your name (please include a relevant web link, if available).
 
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound)
+ 1. [[http://www.math.ualberta.ca/~novoseltsev/|Andrey Novoseltsev]] (University of Alberta)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
 
 
