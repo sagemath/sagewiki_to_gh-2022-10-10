@@ -53,6 +53,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
  1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
  1. Susan Lynds (University of Colorado)
+ 1. [[http://www.math.ualberta.ca/~novoseltsev/|Andrey Novoseltsev]] (University of Alberta)
  1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College, Portland, OR)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
