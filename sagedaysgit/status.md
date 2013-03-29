@@ -22,6 +22,7 @@
     * Public interface design
     * Fleshed out docstrings, some testing
     * Preliminary implementation, integration with external trac/git services.
+    * https://github.com/sagemath/sage-workflow
 
   * Patchbot
     * Pull patches from git branches on trac.
