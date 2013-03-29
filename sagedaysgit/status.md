@@ -23,6 +23,10 @@
     * Fleshed out docstrings, some testing
     * Preliminary implementation, integration with external trac/git services.
 
+  * Patchbot
+    * Pull patches from git branches on trac.
+    * Update build, plugins, etc. to accommodate new directory structure (work in progress)
+
   * Other
     * New doctesting framework
     * Tweak export scripts
