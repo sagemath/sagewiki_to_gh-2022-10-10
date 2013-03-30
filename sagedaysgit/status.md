@@ -46,8 +46,6 @@
       * [[http://trac.sagemath.org/sage_trac/ticket/14316|#14316]]
       * [[http://trac.sagemath.org/sage_trac/ticket/14383|#14383]]
       * [[http://trac.sagemath.org/sage_trac/ticket/14328|#14328]]
-      * [[http://trac.sagemath.org/sage_trac/ticket/14377|#14377]]
-      * [[http://trac.sagemath.org/sage_trac/ticket/14379|#14379]]
       * ...
 
 == Migration Plan ==
