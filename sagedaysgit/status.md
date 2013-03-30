@@ -34,6 +34,14 @@
     * Bugfixes and ticket reviews in anticipation of git switch 
       * [[http://trac.sagemath.org/sage_trac/ticket/13031|#13031]]
       * [[http://trac.sagemath.org/sage_trac/ticket/14384|#14384]]
+      * [[http://trac.sagemath.org/sage_trac/ticket/6415|#6415]]
+      * [[http://trac.sagemath.org/sage_trac/ticket/3355|#3355]]
+      * [[http://trac.sagemath.org/sage_trac/ticket/14379|#14379]]
+      * [[http://trac.sagemath.org/sage_trac/ticket/14377|#14377]]
+      * [[http://trac.sagemath.org/sage_trac/ticket/14226|#14226]]
+      * [[http://trac.sagemath.org/sage_trac/ticket/14376|#14376]]
+      * [[http://trac.sagemath.org/sage_trac/ticket/14369|#14369]]
+      * [[http://trac.sagemath.org/sage_trac/ticket/14331|#14331]]
       * ...
 
 == Migration Plan ==
