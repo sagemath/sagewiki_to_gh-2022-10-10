@@ -32,6 +32,7 @@
   * Other
     * New doctesting framework
     * Tweak export scripts
+    * Created proof-of-concept flow to export Trac tickets and patches to github, mostly to prove that it is possible.
     * Bugfixes and ticket reviews in anticipation of git switch 
       * [[http://trac.sagemath.org/sage_trac/ticket/13031|#13031]]
       * [[http://trac.sagemath.org/sage_trac/ticket/14384|#14384]]
