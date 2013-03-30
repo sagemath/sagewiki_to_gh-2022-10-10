@@ -31,7 +31,10 @@
   * Other
     * New doctesting framework
     * Tweak export scripts
-    * Bugfixes and ticket reviews in anticipation of git switch
+    * Bugfixes and ticket reviews in anticipation of git switch 
+      * [[http://trac.sagemath.org/sage_trac/ticket/13031|#13031]]
+      * [[http://trac.sagemath.org/sage_trac/ticket/14384|#14384]]
+      * ...
 
 == Migration Plan ==
 
