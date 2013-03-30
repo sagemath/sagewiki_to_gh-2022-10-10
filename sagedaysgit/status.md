@@ -59,3 +59,28 @@
    * Sage-6.0
      * Tickets worked on in hg will be imported into git
      * Release done from git master
+
+== Still to be done ==
+
+=== Necessary now ===
+
+   * Make the git version build on all of Sage's supported platforms
+   * Finish writing, debugging and documenting the basic features in the development scripts.  Command-line version.
+   * Write functions in development scripts for exporting a patch to the old model.
+   * Add features to our trac plugin (dependency-aware diff)
+   * Write documentation of the workflow for a Sage developer: one for people who know Sage's current workflow.
+   * Write something to sage-devel about the plan
+   * Git version of patchbot
+
+=== Necessary before 6.0 ===
+
+   * Write hooks for gitolite and development scripts (whitespace, abandonment, pushing changes to trac, prohibit committing to master)
+   * Switch to trac-info in repo model
+   * Write doctests so that the development scripts can be included into the Sage library.
+   * Add features to our trac plugin (updates to certain ticket fields are pushed to the branch)
+   * Write documentation of the workflow for a Sage developer: one for newbies, one for people who are familiar with git.
+   * Release process scripts
+
+=== Desirable ===
+
+   * Write additional features for development scripts
