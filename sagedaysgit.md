@@ -12,6 +12,8 @@ A more indepth description can be found [[WorkflowSEP | here]].
 
 This is '''NOT''' a Sage days to learn about how to develop with Git, hopefully we will have a Sage Days focused on that closer to the switch.
 
+[[sagedaysgit/status | Final Status Reports]]
+
 === Participants ===
 
 The conference is organized by:
