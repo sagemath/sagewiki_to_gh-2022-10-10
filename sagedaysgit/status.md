@@ -5,6 +5,7 @@
     * XML-RPC interface, doctests (authenticated and anonymous)
 
   * Gitolite server
+    * web portals both through trac and gitweb
     * programatic authenticated and anonymous access
     * auto ssh-keys upload
 
