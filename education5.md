@@ -55,6 +55,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. Susan Lynds (University of Colorado)
  1. [[http://www.math.ualberta.ca/~novoseltsev/|Andrey Novoseltsev]] (University of Alberta)
  1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College, Portland, OR)
+ 1. Steve Singleton (Coe College, Cedar Rapids, IA)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
 
