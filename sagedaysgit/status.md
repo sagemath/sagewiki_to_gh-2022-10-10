@@ -15,9 +15,12 @@
     * Lots of work on portage system
        * also running into OS X errors
 
-  * Sage combinat queue
-    * Entire queue imported into git
-    * separate branches with dependencies
+  * Sage combinat queue and mercurial queues import
+    * Prototypical tool to automatically import a Mercurial queue into GIT.
+    * Each patch/ticket is imported in its own branch, with
+      dependencies handling (from appropriate annotations in the
+      series file)
+    * Most of the Sage-Combinat queue can imported into git
 
   * Sage Dev Scripts
     * Public interface design
@@ -72,6 +75,7 @@
    * Write documentation of the workflow for a Sage developer: one for people who know Sage's current workflow.
    * Write something to sage-devel about the plan
    * Git version of patchbot
+   * Motivate the choice of GIT as DVCS.
 
 === Necessary before 6.0 ===
 
