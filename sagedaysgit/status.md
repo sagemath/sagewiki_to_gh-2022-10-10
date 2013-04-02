@@ -52,6 +52,8 @@
       * [[http://trac.sagemath.org/sage_trac/ticket/14383|#14383]]
       * [[http://trac.sagemath.org/sage_trac/ticket/14328|#14328]]
       * ...
+    * Organisation of [[http://wiki.sagemath.org/combinat/FPSAC13|Sage Days 49]]
+    * Work on the [[http://sagebook.gforge.inria.fr/|French Sage book]]
 
 == Migration Plan ==
 
