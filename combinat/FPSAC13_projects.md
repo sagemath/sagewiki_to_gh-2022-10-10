@@ -14,4 +14,8 @@ Please edit and add your projects!
 
   * multisort species (multivariate formal power series would be useful for that)
 
+  * add code by Andrew for Gamma-species
+
+  * support operations from symmetric function code for cycle index series
+
 }}}
