@@ -97,6 +97,9 @@ This lists systems on which Sage builds, but there are a few doctest errors.  Ho
 === FreeBSD ===
  * Sage now works on FreeBSD 8.3 and 9, with only a few doctest errors.  One needs to use the system atlas, and a few other scripts, as well as many patches.   See [[http://www.freebsd.org/cgi/cvsweb.cgi/ports/math/sage/|here for a FreeBSD port]] of Sage, which should include most of this information.  Older information about the status of the FreeBSD port is archived at [[freebsd|Sage port to FreeBSD]].
 
+=== Microsoft Windows ===
+ * Microsoft Windows using Cygwin; see [[http://trac.sagemath.org/sage_trac/ticket/6743?replyto=248#comment the metaticket for this]].  Sage 5.9.x compiles from source with only some rebasing issues and one or two unusual prerequisites.  Some slightly old information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows|sage-windows]] mailing list.
+
 
 == Probably will not work ==
 None of these systems have a complete fully reliable port. In some cases completed ports are highly likely. In other cases, the porting effort is not very significant, and there may be insufficient effort to actually complete a port. 
@@ -115,8 +118,7 @@ If anyone has the time to help on these ports, it would be greatly appreciated.
 More information on the HP-UX port can be found on the [[HP-UX]] page. 
 
 === Microsoft Windows ===
- * Microsoft Windows using Cygwin (Substantial work has been done on this). More information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows|sage-windows]] mailing list.
- * Microsoft Windows using Microsoft's compiler. This will be a full native port. There are some efforts at this. 
+ * Microsoft Windows using Microsoft's compiler. This would be a full native port. There are some efforts at this, but none for quite some time.
 
 === OpenSolaris 64-bit ===
  * !OpenSolaris 06/2009 on x86 in 64-bit mode.  (Substantial work has been done on this). 
