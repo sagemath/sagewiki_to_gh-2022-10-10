@@ -98,7 +98,7 @@ This lists systems on which Sage builds, but there are a few doctest errors.  Ho
  * Sage now works on FreeBSD 8.3 and 9, with only a few doctest errors.  One needs to use the system atlas, and a few other scripts, as well as many patches.   See [[http://www.freebsd.org/cgi/cvsweb.cgi/ports/math/sage/|here for a FreeBSD port]] of Sage, which should include most of this information.  Older information about the status of the FreeBSD port is archived at [[freebsd|Sage port to FreeBSD]].
 
 === Microsoft Windows ===
- * Microsoft Windows using Cygwin; see [[http://trac.sagemath.org/sage_trac/ticket/6743?replyto=248#comment|the metaticket for this]].  Sage 5.9.x compiles from source with only some rebasing issues and one or two unusual prerequisites.  Some slightly old information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows|sage-windows]] mailing list.
+ * Microsoft Windows using Cygwin; see [[http://trac.sagemath.org/sage_trac/ticket/6743|the metaticket for this]].  Sage 5.9.x compiles from source with only some rebasing issues and one or two unusual prerequisites.  Some slightly old information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows|sage-windows]] mailing list.
 
 
 == Probably will not work ==
