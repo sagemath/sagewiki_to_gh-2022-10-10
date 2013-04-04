@@ -73,7 +73,7 @@
    * Make the git version build on all of Sage's supported platforms
    * Finish writing, debugging and documenting the basic features in the development scripts.  Command-line version.
    * Write functions in development scripts for exporting a patch to the old model.
-   * Add features to our trac plugin (dependency-aware diff)
+   * Add features to our trac plugin (dependency-aware diff) and add our trac plugin to the standard trac server
    * Write documentation of the workflow for a Sage developer: one for people who know Sage's current workflow.
    * Write something to sage-devel about the plan
    * Git version of patchbot
