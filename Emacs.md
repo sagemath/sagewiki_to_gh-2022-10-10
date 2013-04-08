@@ -1,5 +1,5 @@
 = Sage in Emacs =
-'''THIS PAGE IS OUTDATE - PLEASE GOTO [[sage-mode]]'''
+'''THIS PAGE IS OUTDATED - PLEASE GOTO [[sage-mode]] or [[http://bitbucket.org/gvol/sage-mode]]'''
 
 There is support for using SAGE interactively from within emacs, and editing Python code in emacs:
 
