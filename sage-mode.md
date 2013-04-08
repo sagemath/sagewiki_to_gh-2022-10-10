@@ -1,4 +1,4 @@
-I, Ivan Andrus, often forget to update this page when a new version is released.  The most recent version is always available from [[https://bitbucket.org/gvol/sage-mode/downloads]].
+'''Warning:''' I, Ivan Andrus, often forget to update this page when a new version is released.  The most recent version is always available from [[https://bitbucket.org/gvol/sage-mode/downloads]].
 
 = sage-mode =
 
