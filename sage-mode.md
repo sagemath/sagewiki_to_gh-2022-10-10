@@ -1,3 +1,5 @@
+I, Ivan Andrus, often forget to update this page when a new version is released.  The most recent version is always available from [[https://bitbucket.org/gvol/sage-mode/downloads]].
+
 = sage-mode =
 
 == Description ==
@@ -44,7 +46,7 @@ Boston, MA 02110-1301, USA.
 
 == Special Update/Build Instructions ==
 
-sage-mode (version 0.6) is an optional package, so {{{sage -f sage-mode-0.6}}} should work.  You may use the newer version 0.7 below, or the experimental [[http://boxen.math.washington.edu/home/iandrus/sage_mode-0.8.spkg]], or follow development directly from the repository at[[http://bitbucket.org/gvol/sage-mode]].
+sage-mode (version 0.7) is an optional package, so {{{sage -f sage-mode-0.7}}} should work.  You can also use version 0.9.1 [[https://bitbucket.org/gvol/sage-mode/downloads/sage_mode-0.9.1.spkg]], or follow development directly from the repository at [[http://bitbucket.org/gvol/sage-mode]].
 
 [[attachment:sage-mode-0.7.spkg]]
 
