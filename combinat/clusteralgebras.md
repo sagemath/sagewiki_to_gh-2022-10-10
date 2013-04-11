@@ -8,7 +8,7 @@ This page contains our road map beyond the core implementation of cluster algebr
 
 ==== Easier ====
 
- 1. generalized associahedra from cluster complexes (Christian)
+ 1. generalized associahedra from cluster complexes (Christian) - http://trac.sagemath.org/sage_trac/ticket/10817
 
  * Check why variable_class() is so much slower compared with cluster_class().  This might be because Laurent polynomials are slow in sage. (Christian)
 
