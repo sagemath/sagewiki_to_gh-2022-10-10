@@ -12,11 +12,11 @@ This page contains our road map beyond the core implementation of cluster algebr
 
  * Check why variable_class() is so much slower compared with cluster_class().  This might be because Laurent polynomials are slow in sage. (Christian)
 
- * Include new Quiver mutation types for Gale-Robinson Quivers (Gregg)
+ * Include new Quiver mutation types for Gale-Robinson Quivers (Gregg) - http://trac.sagemath.org/sage_trac/ticket/14444
 
  * Add sum of quivers/cluster seed as disjoint union (Christian/Gregg) - http://trac.sagemath.org/sage_trac/ticket/14443
 
- * Include new Quivers/cluster seed for square and triangular products of quivers (as in Keller's work on periodicity) (Christian/Gregg)
+ * Include new Quivers/cluster seed for square and triangular products of quivers (as in Keller's work on periodicity) (Christian/Gregg) - http://trac.sagemath.org/sage_trac/ticket/14443
 
  * Implement Greedy bases - should already have this essentially done from the fall. (Gregg)
 
@@ -48,6 +48,7 @@ This page contains our road map beyond the core implementation of cluster algebr
 
  * LP algebras (Thomas Lam and Pasha Pylyavskyy with Gregg?)
 
+ * Q-system and T-system calculations as in Di Francesco and Kedem's work
 
 === Changes to the compendium ===
 
