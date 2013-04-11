@@ -41,7 +41,7 @@ Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/
 
  * d-vectors (using inductive formulas from Cluster Algebras IV?)
 
- * Jim Starx code for Quiver Representations and abilities to work with Auslander-Reiten translates, etc. ([[http://trac.sagemath.org/sage_trac/ticket/12630]])
+ * Jim Starx code for Quiver Representations and abilities to work with Auslander-Reiten translates, etc. ([[http://trac.sagemath.org/sage_trac/ticket/12630|#12630]])
 
  * LP algebras (Thomas Lam and Pasha Pylyavskyy)
 
@@ -58,6 +58,6 @@ Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/
 
  * Generalized associahedra from cluster algebra in new ticket so that compendium accurately discusses these features
 
- * check if all class sizes are correct - see [[http://trac.sagemath.org/sage_trac/ticket/14048]] by Hugh Thomas and Frederic Chapoton
+ * check if all class sizes are correct - see [[http://trac.sagemath.org/sage_trac/ticket/14048|#14048]] by Hugh Thomas and Frederic Chapoton
 
  * cut out groups_of_mutations() and probably other names need to be deleted or updated
