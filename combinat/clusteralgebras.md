@@ -8,32 +8,33 @@ This page contains our road map beyond the core implementation of cluster algebr
 
 ==== Easier ====
 
- 1. generalized associahedra from cluster complexes
+ 1. generalized associahedra from cluster complexes (Christian)
 
- * Check why variable_class() is so much slower compared with cluster_class().  This might be because Laurent polynomials are slow in sage.
+ * Check why variable_class() is so much slower compared with cluster_class().  This might be because Laurent polynomials are slow in sage. (Christian)
 
- * Include new Quiver mutation types for Gale-Robinson Quivers
+ * Include new Quiver mutation types for Gale-Robinson Quivers (Gregg)
 
- * Include new Quiver mutation types for square and triangular products of quivers (as in Keller's work on periodicity)
+ * Include new Quiver mutation types for square and triangular products of quivers (as in Keller's work on periodicity) (Christian/Gregg)
 
- * Implement Greedy bases - should already have this essentially done from the fall.
+ * Implement Greedy bases - should already have this essentially done from the fall. (Gregg)
 
- * Implement snake graph / matrix multiplication formulas for cluster algebras from surfaces and friezes.  
-Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/files/strings.sage
+ * Implement snake graph / matrix multiplication formulas for cluster algebras from surfaces and friezes. (Gregg)  
+ Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/files/strings.sage 
 
 ==== Harder ====
 
 
  1. Allow labellings of the vertices of quivers and cluster seeds (i.e., provide a dict that contains this information, and which is used all over to work with cluster seeds)
-    * in some situations, it might be nice to update variable names. E.g., for Plücker coords and SL[N].
+    
+ * in some situations, it might be nice to update variable names. E.g., for Plücker coords and SL[N].
 
  * Finish mutation type checking for affine D_n (try to dove-tail with student describing all affine B/C/etc. quiver types)
 
- * Allow inputs of cluster algebras from surfaces (interface from ideal triangulations/bistellar flips as from John Palmeri or Robert Lipshitz)
+ * Allow inputs of cluster algebras from surfaces (interface from ideal triangulations/bistellar flips as from John Palmeri or Robert Lipshitz) (Gregg?)
 
  * Work with the improved graph editor (once it exists?)
 
- * Weiwen Gu Decomposition algorithm - and then use this to classify cluster algebra from surface by genus, number of marked/boundary points, etc.
+ * Weiwen Gu Decomposition algorithm - and then use this to classify cluster algebra from surface by genus, number of marked/boundary points, etc. (Emily/Al/Gregg)
 
  * Quantum cluster algebras - with Dylan Rupel
 
@@ -43,7 +44,7 @@ Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/
 
  * Jim Starx code for Quiver Representations and abilities to work with Auslander-Reiten translates, etc. ([[http://trac.sagemath.org/sage_trac/ticket/12630|#12630]])
 
- * LP algebras (Thomas Lam and Pasha Pylyavskyy)
+ * LP algebras (Thomas Lam and Pasha Pylyavskyy with Gregg?)
 
 
 === Changes to the compendium ===
