@@ -10,15 +10,16 @@ This page contains our road map beyond the core implementation of cluster algebr
 
  1. generalized associahedra from cluster complexes
 
- * Why is variable_class() so much slower compared with cluster_class() ??  (might be because Laurent polynomials are so slow in sage)
+ * Check why variable_class() is so much slower compared with cluster_class().  This might be because Laurent polynomials are slow in sage.
 
- * Quiver mutation types for Gale-Robinson Quivers
+ * Include new Quiver mutation types for Gale-Robinson Quivers
 
- * Quiver mutation types for products of quivers (as in Keller's work on periodicity)
+ * Include new Quiver mutation types for square and triangular products of quivers (as in Keller's work on periodicity)
 
  * Implement Greedy bases - should already have this essentially done from the fall.
 
- * snake graph / matrix multiplication formulas for cluster algebras from surfaces.  Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/files/strings.sage
+ * Implement snake graph / matrix multiplication formulas for cluster algebras from surfaces and friezes.  
+Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/files/strings.sage
 
 ==== Harder ====
 
@@ -38,11 +39,11 @@ This page contains our road map beyond the core implementation of cluster algebr
 
  * Work with cluster algebras as "algebras" and find bases or express elements in bases 
 
- * d-vectors (using inductive formulas from Cluster Algebras IV?
+ * d-vectors (using inductive formulas from Cluster Algebras IV?)
 
- * Jim Starx code for Quiver Representations and abilities to work with Auslander-Reiten translates, etc.
+ * Jim Starx code for Quiver Representations and abilities to work with Auslander-Reiten translates, etc. (Sage Trac 12630)
 
- * LP algebras (Thomas Lam and Pasha)
+ * LP algebras (Thomas Lam and Pasha Pylyavskyy)
 
 
 === Changes to the compendium ===
