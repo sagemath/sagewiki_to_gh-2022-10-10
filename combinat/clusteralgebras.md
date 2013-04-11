@@ -14,9 +14,9 @@ This page contains our road map beyond the core implementation of cluster algebr
 
  * Include new Quiver mutation types for Gale-Robinson Quivers (Gregg)
 
- * Add sum of quiver of mutation types as disjoint union (Christian/Gregg)
+ * Add sum of quivers/cluster seed as disjoint union (Christian/Gregg)
 
- * Include new Quiver mutation types for square and triangular products of quivers (as in Keller's work on periodicity) (Christian/Gregg)
+ * Include new Quivers/cluster seed for square and triangular products of quivers (as in Keller's work on periodicity) (Christian/Gregg)
 
  * Implement Greedy bases - should already have this essentially done from the fall. (Gregg)
 
