@@ -2,7 +2,7 @@
 
  * Version 13-04-11 (First version from discussion in Minneapolis)
 
-This page contains our road map beyond the core implementation of cluster algebras as merged in Sage-5.9, see http://trac.sagemath.org/sage_trac/ticket/10298.
+This page contains our road map beyond the core implementation of cluster algebras as merged in Sage-5.9, see [[http://trac.sagemath.org/sage_trac/ticket/10298|#10298]].
 
 === New features ===
 
@@ -41,7 +41,7 @@ Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/
 
  * d-vectors (using inductive formulas from Cluster Algebras IV?)
 
- * Jim Starx code for Quiver Representations and abilities to work with Auslander-Reiten translates, etc. (Sage Trac 12630)
+ * Jim Starx code for Quiver Representations and abilities to work with Auslander-Reiten translates, etc. ([[http://trac.sagemath.org/sage_trac/ticket/12630]])
 
  * LP algebras (Thomas Lam and Pasha Pylyavskyy)
 
@@ -58,6 +58,6 @@ Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/
 
  * Generalized associahedra from cluster algebra in new ticket so that compendium accurately discusses these features
 
- * check if all class sizes are correct - see Hugh/Chapoton's 14048 ticket
+ * check if all class sizes are correct - see [[http://trac.sagemath.org/sage_trac/ticket/14048]] by Hugh Thomas and Frederic Chapoton
 
  * cut out groups_of_mutations() and probably other names need to be deleted or updated
