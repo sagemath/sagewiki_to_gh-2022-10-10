@@ -32,7 +32,7 @@ This page contains our road map beyond the core implementation of cluster algebr
 
  * Finish mutation type checking for affine D_n (try to dove-tail with student describing all affine B/C/etc. quiver types)
 
- * Allow inputs of cluster algebras from surfaces (interface from ideal triangulations/bistellar flips as from John Palmeri or Robert Lipshitz) (Gregg?)
+ * Allow inputs of cluster algebras from surfaces (interface from ideal triangulations/bistellar flips as from John Palmeri or Robert Lipshitz) (Gregg?) - look at http://www.math.columbia.edu/~lipshitz/research.html#Programming
 
  * Work with the improved graph editor (once it exists?)
 
