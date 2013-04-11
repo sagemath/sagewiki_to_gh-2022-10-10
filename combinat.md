@@ -18,11 +18,11 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
 
- * February 11-15, 2013 [[http://icerm.brown.edu/sp-s13/|Sage Days: Multiple Dirichlet Series, Combinatorics, and Representation Theory]], ICERM, Brown, USA
-
  * A new [[http://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main.pdf|poster]] for Sage-Combinat!
 
 == Past news ==
+
+ * February 11-15, 2013 [[http://icerm.brown.edu/sp-s13/|Sage Days: Multiple Dirichlet Series, Combinatorics, and Representation Theory]], ICERM, Brown, USA
 
  * January 21-25, 2013 [[http://www.aimath.org/ARCC/workshops/onlinedata.html|Online Databases:from L-functions to combinatorics]], Edinburgh
 
