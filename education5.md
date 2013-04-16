@@ -58,7 +58,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. Steve Singleton (Coe College, Cedar Rapids, IA)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
-
+ 1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
 
 == Schedule ==
 
