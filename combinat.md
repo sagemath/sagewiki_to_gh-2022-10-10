@@ -15,6 +15,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
  * June 17-21, 2013 [[combinat/FPSAC13|Sage-Combinat days]], as satellite event to [[http://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
+   Organized by Alejandro Morales, Anne Schilling, Nicolas M. Thiery.
 
  * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
 
@@ -23,12 +24,15 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 == Past news ==
 
  * February 11-15, 2013 [[http://icerm.brown.edu/sp-s13/|Sage Days: Multiple Dirichlet Series, Combinatorics, and Representation Theory]], ICERM, Brown, USA
+   Organized by Franco Saliola, Anne Schilling, Nicolas M. Thiery.
 
  * January 21-25, 2013 [[http://www.aimath.org/ARCC/workshops/onlinedata.html|Online Databases:from L-functions to combinatorics]], Edinburgh
+   Organized by Paul-Olivier DeHaye, Nicolas M. Thiery.
 
  * October 29 - November 9, 2012: [[http://www.cimpa-icpam.org/spip.php?article430|CIMPA summer school Discrete mathematics : combinatorial, dynamical and algorithmic aspects]], with a strong Sage and Sage-Combinat component, Bobo Dioulasso, Burkina Faso
 
  * July 9-13 2012: [[http://www.ima.umn.edu/2011-2012/SW7.9-13.12/|Sage(-Combinat) Days 40]]: Algebraic Combinatorics, IMA, Minneapolis, USA
+   Organized by Gregg Musiker, Franco Saliola, Anne Schilling, Nicolas M. Thiery.
 
  * May 7-11 2012: [[http://wiki.sagemath.org/days38|Sage(-Combinat) Days 38]]: algebraic combinatorics and the representation theory of algebras, Centre de recherches mathématiques, Montréal, Canada
 
@@ -41,6 +45,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
  * March 19-23 2012: [[combinat/EjcGdrIm2012|EJC du GDR-im]] a Rennes [[http://ejcim2012.irisa.fr/index.html|site officiel]]
 
  * May 2-6, 2011: [[http://wiki.sagemath.org/days30| Sage Days 30]]: Combinatorics (Schubert calculus, cluster algebras) and Number theory (integer vectors, multidimensional digit representations) in Acadia University, Wolfville, Nova Scotia, Canada
+   Organized by Eva Curry and Hugh Thomas.
 
  * January 17-19, 2011: [[http://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
 
@@ -48,7 +53,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
    A 315 pages open source french introductory book on computational mathematics, illustrated in Sage, and including a 35 pages chapter on combinatorics (and soon one on graph theory).
 
  * July 7-15, 2010: [[combinat/AffineSchubertCalculusWorkshop|Affine Schubert Calculus workshop and summer school in Toronto]]
-   It includes several Sage and Sage-Combinat sessions
+   It includes several Sage and Sage-Combinat sessions.
+   Organized by Anne Schilling and Mike Zabrocki.
 
  * June 14-18, 2010: [[combinat/SageCombinatChevieWorkshopOrsay2010|Joint Sage-Combinat and Chevie Workshop in Orsay]]
 
