@@ -30,7 +30,7 @@ Arrangements for rooms at [[http://www.hoteldeca.com/|Hotel Deca]] are in-progre
 
 == Mailing Lists ==
 
- * The mailing list for [[|Sage Days 48]],  will be used for Education Days also (once created).  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
+ * The mailing list for [[https://groups.google.com/forum/?fromgroups#!forum/sagedays48|Sage Days 48]],  will be used for Education Days also.  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
 
  * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
 
