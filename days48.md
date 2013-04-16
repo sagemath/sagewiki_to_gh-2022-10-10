@@ -14,6 +14,10 @@ June 17-21, 2013 at University of Washington in Seattle, in conjunction with [[e
  * Campus location: TBA
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
 
+== Mailing List ==
+
+Mailing list for the workshop is [[https://groups.google.com/forum/#!forum/sagedays48|Sage Days 48]].  Please add yourself to this list when available.  This will be the primary vehicle for preliminary announcements, and last-minute changes during the week.
+
 == Participants ==
 
 To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email an organizer to add your name (please include a relevant web link, if available).
@@ -44,10 +48,6 @@ To register, please add yourself alphabetically by last name.  You need to reque
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 || || || ||  ||
-
-== Mailing List ==
-
-Mailing list for the workshop is [[https://groups.google.com/forum/#!forum/sagedays48|Sage Days 48]].  Please add yourself to this list when available.  This will be the primary vehicle for preliminary announcements, and last-minute changes during the week.
 
 == UW Campus Wireless ==
 
