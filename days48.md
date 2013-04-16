@@ -1,6 +1,6 @@
 = Sage Days 48: The Sage Notebook =
 
-June 17-21, 2012 at University of Washington in Seattle, in conjunction with [[education5|Sage Education Days 5]].
+June 17-21, 2013 at University of Washington in Seattle, in conjunction with [[education5|Sage Education Days 5]].
 
 == Organizers ==
 
