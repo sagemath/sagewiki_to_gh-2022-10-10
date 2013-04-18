@@ -14,6 +14,8 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
+ * [[https://combinat.sagemath.org:8080|Experimental Sage notebook with the Sage-Combinat patches applied]]
+
  * June 17-21, 2013 [[combinat/FPSAC13|Sage-Combinat days]], as satellite event to [[http://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
    Organized by Alejandro Morales, Anne Schilling, Nicolas M. Thiery.
 
