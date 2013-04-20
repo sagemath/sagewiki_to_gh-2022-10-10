@@ -160,7 +160,7 @@ There are several requirements for Sage to work successfully on these fully supp
  * Ubuntu 12.10 on x86 (32-bit). Make sure that the ''dpkg-dev'' package is installed. Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]]
 
 === Mac OS X ===
- * OS X 10.4 (Tiger) on PPC. Tested on [[http://build.sagemath.org/sage/buildslaves/moufang-1|moufang]]
+ * OS X 10.4 (Tiger) on PPC. The pexpect interfaces tend to be less reliable than other platforms, so you might see some unreproducible doctest failures. Tested on [[http://build.sagemath.org/sage/buildslaves/moufang-1|moufang]]
  * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
  * OS X 10.8 (Mountain Lion) 64-bit, with XCode 4.  Tested on [[http://build.sagemath.org/sage/buildslaves/dehaye|dehaye]]
 
