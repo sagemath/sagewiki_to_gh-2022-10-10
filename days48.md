@@ -11,6 +11,7 @@ June 17-21, 2013 at University of Washington in Seattle, in conjunction with [[e
 
  * [[education5|Sage Education Days 5]] will happen at the end of the week, June 19-21, 2013.
  * See the [[uw-local-info|local information page]] for more specifics.
+ * The [[days48/travel|travel page]] has information about area hotels.
  * Campus location: TBA
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
 
@@ -67,7 +68,7 @@ If you're interested in attending, there may be funding for you.   Email wstein@
 
 == Lodging ==
 
-Housing will likely be at the Collegiana Inn.  This operation is somewhere between a dormitory and a hotel, perhaps "boarding house" describes it.  Rooms are designed to be shared and have their own bathrooms.  You can read a bit more about the Collegiana on the [[uw-local-info|local information]] page.  
+2013/04/21: We had hoped to provide lodging at the Collegiana (more info on this place  on the [[uw-local-info|local information]] page).  However, they are not currently able to provide us with a block of rooms, so you should make a reservation at an area hotel.  Federal grant money limits reimbursement to 137 dollars a night.  More hotel suggestions are at the [[days48/travel|travel ]] page.
 
 == Pictures ==
 
