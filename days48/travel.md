@@ -27,6 +27,7 @@ This information is from a telephone survey on May 15, 2012.  Rates and availabi
  * [[http://www.universityinnseattle.com/|University Inn]]
    * 2012/05/15 Some "Premier" rooms available, King bed and fold-out couch, $229.
    * 2012/05/15 May have a small number of rooms (possibly only 1) left at their UW rate of $119/night.
+   * 2013/04/13 UW rate is apparently now $137, but has some availability.
  * [[http://www.watertownseattle.com/|Watertown]]
    * 2012/05/15 Some suites, King bed with fold-out couch, starting at $157 if you ask for UW rate.
  * [[http://www.hoteldeca.com/|Hotel Deca]]
