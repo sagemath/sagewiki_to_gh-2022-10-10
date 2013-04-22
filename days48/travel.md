@@ -8,7 +8,7 @@
 
 We have a block of rooms reserved at Hotel Deca.  The rate is 139 dollars per night, and those who are funded will receive the maximum allowed on federal grants, which is 137 dollars.  Sorry about the $2/day difference.  Rooms are being held until '''May 18, 2013''' and there is a limited number available.  Sharing a room with another participant is encouraged and we can help find roommates.
 
-To make a reservation, contact Sandy Mujan by email at smujan@hoteldeca.com and with the form below as an attachment.  If you try to make a reservation by calling the hotel's reservation center directly you will discover, as I did, that they are unaware of our block of rooms.   
+To make a reservation, contact Sandy Mujan by email at smujan@hoteldeca.com and with the form below as an attachment.  If you try to make a reservation by calling the hotel's reservation center directly you will discover, as I did, that they are unaware of our block of rooms.   The group name for the block  is '''SAGE DAYS'''.
 
 [[attachment:hotel-deca-reservation-form.xls|Hotel Deca Reservation Form]]
 
