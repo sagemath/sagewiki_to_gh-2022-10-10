@@ -109,7 +109,7 @@ does not raise an ImportError then it worked.
 
 === How do I import Sage into a Python script? ===
 
-Yes you can import Sage as a library in a Python script. One caveat is that you need to run that Python script using the version of Python that is bundled with Sage; currently Python 2.6.x. To import Sage, put the following in your Python script:
+Yes you can import Sage as a library in a Python script. One caveat is that you need to run that Python script using the version of Python that is bundled with Sage (e.g. Sage 5.8 has Python 2.7.3). To import Sage, put the following in your Python script:
 {{{
 from sage.all import *
 }}}
