@@ -965,7 +965,7 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
 }}}
 {{attachment:motion3d.png}}
 
-== Multivariate Limits by Definition FIXME ==
+== Multivariate Limits by Definition ==
 by John Travis
 
 http://sagenb.mc.edu/home/pub/97/
