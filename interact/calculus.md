@@ -1044,6 +1044,7 @@ def _(f=input_box((x^2-y^2)/(x^2+y^2),width=30,label='$f(x)$'),
 
 
 {{{#!sagecell
+
 ##  An interactive way to demonstrate limits of multivariate functions of the form z = f(x,y)
 ##  This one uses contour plots and so will work with functions that have asymptotic behavior.
 ##
@@ -1060,18 +1061,31 @@ def _(f=input_box((x^2-y^2)/(x^2+y^2),width=30,label='$f(x)$'),
 #  Looking for two different paths to approach (x_0,y_0) that utilize a different selection of colors
 #  will help locate paths to use that exhibit the absence of a limit.
 
-Rmax=2
-@interact
-def _(f=input_box(default=(x^3-y^3)/(x^2+y^2)),
-      N=slider(5,100,1,10,label='Number of Contours'),
-      x0=(0),y0=(0)):
+var('x,y,z,u')
+@interact(layout=dict(top=[['f'],['x0'],['y0']], 
+bottom=[['N'],['R']]))
+def _(f=input_box(default=(x*y^2)/(x^2+y^4),width=30,label='$f(x)$'),
+        N=slider(5,100,1,10,label='Number of Contours'),
+        R=slider(0.1,1,0.01,1,label='Radius of circular neighborhood'),
+        x0=input_box(0,width=10,label='$x_0$'),
+        y0=input_box(0,width=10,label='$y_0$')):
 
-    print html('Enter $(x_0 ,y_0 )$ above and see what happens as the number of contour levels increases.')
-    print html('A surface will have a limit in the center of this graph provided there is not a sudden change in color there.')    
+    html('Enter $(x_0 ,y_0 )$ above and see what happens as the number of contour levels $\\rightarrow \infty $.')
+    html('A surface will have a limit in the center of this graph provided there is not a sudden change in color there.')    
+
+#   Need to make certain the min and max contour lines are not huge due to asymptotes.  If so, clip and start contours at some reasonable
+#   values so that there are a nice collection of contours to show around the desired point.
 
     surface = contour_plot(f,(x,x0-1,x0+1),(y,y0-1,y0+1),cmap=True,colorbar=True,fill=False,contours=N)
+    surface += parametric_plot([R*cos(u),R*sin(u)],[0,2*pi],color='black')
+#      Nice to use if f=x*y^2/(x^2 + y^4)    
+#    var('u')
+#    surface += parametric_plot([u^2,u],[u,-1,1],color='black')    
     limit_point = point((x0,y0),color='red',size=30)
-    show(limit_point+surface)}}}
+#    show(limit_point+surface)
+    html.table([[surface],['hi']])
+
+}}}
 {{attachment:3D_Limit_Defn_Contours.png}}
 
 
