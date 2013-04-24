@@ -1,4 +1,4 @@
-= Sage Days X > 48 =
+= Sage Days 51 =
 
 From 22­-26 July 2013 there will be a [[http://www.lorentzcenter.nl/|Lorentz Center]] workshop on Arithmetic Geometry in Sage. There will be three main projects during this week.
 
