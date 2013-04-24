@@ -1333,53 +1333,60 @@ def _(f=input_box(default=(1/3)*x^2 + (1/4)*y^2 + 5,label='$f(x)=$'),
 }}}
 {{attachment:3D_Irregular_Volume.png}}
 
-== Lateral Surface Area FIXME ==
+== Lateral Surface Area ==
 
 by John Travis
 
-http://www.sagenb.org/home/pub/2826/
+http://sagenb.mc.edu/home/pub/89/
 
 {{{#!sagecell
 ##  Display and compute the area of the lateral surface between two surfaces
 ##  corresponding to the (scalar) line integral
 ##  John Travis
 ##  Spring 2011
+##
 
 var('x,y,t,s')
-@interact
-def _(f=input_box(default=6-4*x^2-y^2*2/5,label='$f(x,y) = $'),
-        g=input_box(default=-2+sin(x)+sin(y),label='$g(x,y) = $'),
-        u=input_box(default=cos(t),label='$u(t) = $'),
-        v=input_box(default=2*sin(t),label='$v(t) = $'),
-        a=input_box(default=0,label='$a = $'),
-        b=input_box(default=3*pi/2,label='$b = $'),
+@interact(layout=dict(top=[['f','u'],['g','v']], 
+left=[['a'],['b'],['in_3d'],['smoother']],
+bottom=[['xx','yy']]))
+def _(f=input_box(default=6-4*x^2-y^2*2/5,label='Top = $f(x,y) = $',width=30),
+        g=input_box(default=-2+sin(x)+sin(y),label='Bottom = $g(x,y) = $',width=30),
+        u=input_box(default=cos(t),label='   $ x = u(t) = $',width=20),
+        v=input_box(default=2*sin(t),label='   $ y = v(t) = $',width=20),
+        a=input_box(default=0,label='$a = $',width=10),
+        b=input_box(default=3*pi/2,label='$b = $',width=10),
         xx = range_slider(-5, 5, 1, default=(-1,1), label='x view'),
         yy = range_slider(-5, 5, 1, default=(-2,2), label='y view'),
-        smoother=checkbox(default=false)):
+        in_3d = checkbox(default=true,label='3D'),
+        smoother=checkbox(default=false),
+        auto_update=true):
         
-    ds = sqrt(derivative(u(t),t)^2+derivative(v(t),t)^2)
+    ds = sqrt(derivative(u,t)^2+derivative(v,t)^2)
     
 #   Set up the integrand to compute the line integral, making all attempts
 #   to simplify the result so that it looks as nice as possible.    
-    A = (f(x=u(t),y=v(t))-g(x=u(t),y=v(t)))*ds.simplify_trig().simplify()
+    A = (f(x=u,y=v)-g(x=u,y=v))*ds.simplify_trig().simplify()
     
 #   It is not expected that Sage can actually perform the line integral calculation.
 #   So, the result displayed may not be a numerical value as expected.
 #   Creating a good but harder example that "works" is desirable.
-    line_integral = integral(A,t,a,b)
-    line_integral_approx = numerical_integral(A,a,b)[0]
-       
-    html(r'<h4 align=center>Lateral Surface Area = $ %s $ </h4>'%latex(line_integral))
+#   If you want Sage to try, uncomment the lines below.
 
-    html(r'<h4 align=center>Lateral Surface $ \approx $ %s</h2>'%str(line_integral_approx))
+#    line_integral = integrate(A,t,a,b)
+#    html(r'<align=center size=+1>Lateral Surface Area = $ %s $ </font>'%latex(line_integral))
+
+    line_integral_approx = numerical_integral(A,a,b)[0]
+
+    html(r'<font align=center size=+1>Lateral Surface $ \approx $ %s</font>'%str(line_integral_approx))
 
 #   Plot the top function z = f(x,y) that is being integrated.
     G = plot3d(f,(x,xx[0],xx[1]),(y,yy[0],yy[1]),opacity=0.2)
     G += plot3d(g,(x,xx[0],xx[1]),(y,yy[0],yy[1]),opacity=0.2)
 
 #   Add space curves on the surfaces "above" the domain curve (u(t),v(t)) 
-    G += parametric_plot3d([u,v,g(x=u(t),y=v(t))],(t,a,b),thickness=2,color='red')
-    G += parametric_plot3d([u,v,f(x=u(t),y=v(t))],(t,a,b),thickness=2,color='red')
+    G += parametric_plot3d([u,v,g(x=u,y=v)],(t,a,b),thickness=2,color='red')
+    G += parametric_plot3d([u,v,f(x=u,y=v)],(t,a,b),thickness=2,color='red')
     k=0
     if smoother:
         delw = 0.025
@@ -1388,8 +1395,12 @@ def _(f=input_box(default=6-4*x^2-y^2*2/5,label='$f(x,y) = $'),
         delw = 0.10
         lat_thick = 10
     for w in (a,a+delw,..,b):
-        G += parametric_plot3d([u(w),v(w),s*f(x=u(w),y=v(w))+(1-s)*g(x=u(w),y=v(w))],(s,0,1),thickness=lat_thick,color='yellow',opacity=0.9)
-    show(G,spin=true)
+        G += parametric_plot3d([u(t=w),v(t=w),s*f(x=u(t=w),y=v(t=w))+(1-s)*g(x=u(t=w),y=v(t=w))],(s,0,1),thickness=lat_thick,color='yellow',opacity=0.9)
+        
+    if in_3d:
+        show(G,stereo='redcyan',spin=true)
+    else:
+        show(G,perspective_depth=true,spin=true)
 }}}
 {{attachment:Lateral_Surface.png}}
 
