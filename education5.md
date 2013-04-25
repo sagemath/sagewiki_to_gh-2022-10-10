@@ -61,6 +61,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
  1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
  1. [[http://faculty.mercer.edu/denny_jk|Jeff Denny]] (Mercer University, Macon, GA)
+ 1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
 
 == Schedule ==
 
