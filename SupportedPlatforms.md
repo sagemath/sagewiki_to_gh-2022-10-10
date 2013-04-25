@@ -199,7 +199,7 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
  * Solaris 11 Express on SPARC (Never tested).
 
 === Microsoft Windows ===
- * VirtualBox images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage.
+ * [[https://www.virtualbox.org/|VirtualBox]] images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage.
 
 == Almost works ==
 This lists systems on which Sage builds, but there are a few doctest errors.  However, most of the functionality of Sage should work.  If the doctest failures are fixed, these systems will move to the "fully supported" or "expected to work" categories.
