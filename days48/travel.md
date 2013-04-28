@@ -44,7 +44,7 @@ Please add your travel plans below.   With exact arrival and departure informati
 == Sage Edu Days 5 ==
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Hotel||
-|| Rob Beezer              || Sun             || Auto               || Fri              || Auto               || Hotel Deca (w/ Tom Judson)||
+|| Rob Beezer              || Sun   (16th)          || Auto               || Fri    (21st)          || Auto               || Hotel Deca (w/ Tom Judson)||
 || Gregory Bard || Sun (16th) || Flight || Mon (24th) || Flight || Hotel Deca ||
 ||               ||              ||                ||               ||                || ||
 
