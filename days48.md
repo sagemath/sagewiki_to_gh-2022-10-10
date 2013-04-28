@@ -28,7 +28,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[https://plus.google.com/u/0/113188225509686176367/posts/p/pub|Volker Braun]] (University of Oxford)
  1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, Iowa)
- 1. [[http://www.gregorybard.com/]] (University of Wisconsin---Stout, Menomonie, Wi)
+ 1. [[http://www.gregorybard.com/|Gregory Bard]] (University of Wisconsin---Stout, Menomonie, Wi)
 
 == Schedule ==
 
