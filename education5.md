@@ -108,6 +108,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Learning how to create interacts for the Sage library.
  * Learning how to contribute new code to Sage.
  * (wstein): Work on my free open Sage book: http://code.google.com/p/sage-power-book/
+ * (bardg): Making videos suitable for 100-level students to use SAGE in calculus, finite math, statistics, linear algebra, etc... (even precalculus?)
 
  * Organization of Sage educational resources
   * rating of worksheets?
