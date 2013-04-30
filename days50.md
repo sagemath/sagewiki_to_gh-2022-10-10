@@ -11,7 +11,7 @@ This will be a 6-day workshop which will include a combination of mathematical t
 == Dates/Location ==
 
  * July 10 - 15, 2013 in Seattle, Washington at [[http://www.shueyhouse.com/|The Shuey House]]
- * Note: check-in at the Lodge is 4pm on July 9; check-out is 10:30am on the 16th
+ * Note: check-in is 4pm on July 9; check-out is 10:30am on the 16th
  * Floorplan/photos: [[http://www.shueyhouse.com/photo.htm]] and [[preliminary room assignments]]
 
 == Speakers ==
