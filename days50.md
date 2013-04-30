@@ -11,7 +11,7 @@ We'd like to hit the ground running this year, so we have a few more steps to ou
  * At [[http://www.codecademy.com/|Code Academy]] join the [[http://www.codecademy.com/groups/women-in-sage|Women in Sage]] group.
  * At [[http://www.codecademy.com/|Code Academy]] complete the Python track modules 1-8.
  * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]]
- * Do a few Sage problems and send them in an e-mail to aly [dot] deines [at] gmail [dot] com
+ * Do a few [[attachment:Women Sage Days Problem Set|Sage problems]] and send them in an e-mail to aly [dot] deines [at] gmail [dot] com
  * Fill out this [[https://docs.google.com/spreadsheet/ccc?key=0AiSPxA5zVPDVdDhaOEk0WnVVazl2clAyWDEwdF9FMnc&usp=sharing |form]]
 
 == Projects ==
