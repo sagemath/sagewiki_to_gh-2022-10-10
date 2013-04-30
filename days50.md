@@ -4,6 +4,16 @@
 
 This will be a 6-day workshop which will include a combination of mathematical talks, tutorials, demonstrations of Sage functionality as well as time spent on Sage development. We will focus on various aspects of computational number theory with the goal of increasing the number of women developers.
 
+== How to Apply ==
+
+We'd like to hit the ground running this year, so we have a few more steps to our application process. 
+ 
+ * At [[http://www.codecademy.com/|Code Academy]] join the [[http://www.codecademy.com/groups/women-in-sage|Women in Sage]] group.
+ * At [[http://www.codecademy.com/|Code Academy]] complete the Python track modules 1-8.
+ * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]]
+ * Do a few Sage problems and send them in an e-mail to aly [dot] deines [at] gmail [dot] com
+ * Fill out this [[https://docs.google.com/spreadsheet/ccc?key=0AiSPxA5zVPDVdDhaOEk0WnVVazl2clAyWDEwdF9FMnc&usp=sharing |form]]
+
 == Projects ==
   
 [[preliminary reading]]
