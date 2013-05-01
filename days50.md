@@ -8,7 +8,7 @@ This will be a 6-day workshop which will include a combination of mathematical t
 
 We'd like to hit the ground running this year, so we have a few more steps to our application process. 
  
- * At [[http://www.codecademy.com/|Code Academy]] join the [[www.codecademy.com/groups/women-in-sage/invite/77ff187dba66e23e220ae2a8f228932d|Women in Sage]] group.
+ * At [[http://www.codecademy.com/|Code Academy]] join the [[http://www.codecademy.com/groups/women-in-sage/invite/77ff187dba66e23e220ae2a8f228932d|Women in Sage]] group.
  * At [[http://www.codecademy.com/|Code Academy]] complete the Python track modules 1-8.
  * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]]
  * Do a few [[attachment:WSD4.sws|Sage problems]] and send them in an e-mail to aly [dot] deines [at] gmail [dot] com
