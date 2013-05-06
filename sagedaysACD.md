@@ -6,6 +6,11 @@ This is a 4-day workshop that will include a combination of mathematical talks, 
 
 See the [[http://wiki.sagemath.org/dynamics/ArithmeticAndComplex | wiki page]] for information on the current status of Arithmetic and Complex Dynamics in Sage.
 
+=== Registration ===
+
+Registration is free. There is limited funding for travel and lodging. Please contact Ben Hutz at BHutz (at) FIT.edu to register. Please indicate if you will be requesting funding.
+
+
 === Schedule ===
 
 The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. A precise schedule is forthcoming.
