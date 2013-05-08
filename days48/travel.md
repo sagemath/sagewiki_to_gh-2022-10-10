@@ -55,4 +55,7 @@ Note: Gregory Bard can take a roommate for the nights of the 16th, 17th, 18th, 1
 == Sage Days 48 ==
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Hotel||
+|| Burcin Erocal || Sun (16th)   || Flight, US 69  || Sat (22nd)    || Flight || Silver Cloud Inn (w/ ???) ||
 ||               ||              ||                ||               ||                || ||
+
+Burcin Erocal needs a roommate for June 16-22.
