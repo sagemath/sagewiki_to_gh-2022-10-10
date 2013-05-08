@@ -47,6 +47,7 @@ Please add your travel plans below.   With exact arrival and departure informati
 || Rob Beezer              || Sun   (16th)          || Auto               || Fri    (21st)          || Auto               || Hotel Deca (w/ Tom Judson)||
 || Gregory Bard || Sun (16th) || Flight || Mon (24th) || Flight || Hotel Deca ||
 || Andrey Novoseltsev || Sun (16th), 2:25pm || Flight, Alaska 2543 || Sat (22th), 2:53pm || Flight, Alaska 2584 || Hotel Deca (w/ Volker Braun)||
+|| John Travis || Tues (18th) || Flight || Fri (21st) || Flight || Hotel Deca ||
 ||               ||              ||                ||               ||                || ||
 
 Note: Gregory Bard can take a roommate for the nights of the 16th, 17th, 18th, 19th, 20th, but not the 21st, 22nd, 23rd.
