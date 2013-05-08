@@ -63,6 +63,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://faculty.mercer.edu/denny_jk|Jeff Denny]] (Mercer University, Macon, GA)
  1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
  1. [[http://www.gregorybard.com/|Gregory Bard]] (University of Wisconsin---Stout, Menomonie, Wi)
+ 1. [[http://math.mc.edu/travis/|John Travis]] (Mississippi College, Clinton, MS)
 
 == Schedule ==
 
