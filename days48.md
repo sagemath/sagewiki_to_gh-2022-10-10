@@ -23,6 +23,7 @@ Mailing list for the workshop is [[https://groups.google.com/forum/#!forum/saged
 
 To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email an organizer to add your name (please include a relevant web link, if available).
 
+ 1. [[http://www.phas.ubc.ca/~eviatarb/|Eviatar Bach]] (University of British Columbia)
  1. [[http://www.gregorybard.com/|Gregory Bard]] (University of Wisconsin---Stout, Menomonie, Wi)
  1. [[http://buzzard.ups.edu/|Rob Beezer]] (University of Puget Sound)
  1. [[https://plus.google.com/u/0/113188225509686176367/posts/p/pub|Volker Braun]] (University of Oxford)
