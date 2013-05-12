@@ -56,6 +56,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://artsci.drake.edu/grout/|Jason Grout]] (Drake University)
  1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
  1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
+ 1. [[http://www.csudh.edu/math/gjennings|George Jennings]] (California State University, Dominguez Hills)
  1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
  1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
  1. Susan Lynds (University of Colorado)
