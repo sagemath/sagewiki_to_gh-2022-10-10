@@ -47,6 +47,7 @@ Please add your travel plans below.   With exact arrival and departure informati
 || Rob Beezer              || Sun   (16th)          || Auto               || Fri    (21st)          || Auto               || Hotel Deca (w/ Tom Judson)||
 || Gregory Bard || Sun (16th) || Flight || Mon (24th) || Flight || Hotel Deca ||
 || Andrey Novoseltsev || Sun (16th), 2:25pm || Flight, Alaska 2543 || Sat (22th), 2:53pm || Flight, Alaska 2584 || Hotel Deca (w/ Volker Braun)||
+|| Steve Singleton|| Tues (18th), 7:35pm || Flight, UA1548 || Sat (22nd) 11:50pm || Flight, UA1481 || Hotel Deca ||
 || John Travis || Tues (18th) || Flight || Fri (21st) || Flight || Hotel Deca ||
 ||               ||              ||                ||               ||                || ||
 
