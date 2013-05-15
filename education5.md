@@ -65,6 +65,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. Steve Singleton (Coe College, Cedar Rapids, IA)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.mc.edu/travis/|John Travis]] (Mississippi College, Clinton, MS)
+ 1. [[http://math.csuci.edu/people/Glenn.Henshaw/|Glenn R Henshaw]] (California State University Channel Islands, Camarillo, CA)
 
 == Schedule ==
 
