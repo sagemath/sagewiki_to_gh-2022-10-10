@@ -50,6 +50,7 @@ Please add your travel plans below.   With exact arrival and departure informati
 || Steve Singleton|| Tues (18th), 7:35pm || Flight, UA1548 || Sat (22nd) 11:50pm || Flight, UA1481 || Hotel Deca ||
 || John Travis || Tues (18th) || Flight || Fri (21st) || Flight || Hotel Deca ||
 || Karl-Dieter Crisman || Mon (17th) || Flight || Fri (21st) || Flight || Hotel Deca (w/ John Travis) ||
+|| Kiran Kedlaya || Tues (18th), 10:08pm || Flight, UA1735 || Fri (21st), 8:40pm || Flight, AS482 || University Inn ||
 ||               ||              ||                ||               ||                || ||
 
 Note: Gregory Bard can take a roommate for the nights of the 16th, 17th, 18th, 19th, 20th, but not the 21st, 22nd, 23rd.
