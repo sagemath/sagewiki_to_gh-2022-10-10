@@ -25,7 +25,7 @@ Anyone with any interest in the use of Sage in educational settings is welcome, 
 
 == Lodging ==
 
-Arrangements for rooms at [[http://www.hoteldeca.com/|Hotel Deca]] are in-progress and may be final by about April 1.
+Arrangements for rooms at [[http://www.hoteldeca.com/|Hotel Deca]] have been made.  Please see the [[days48/travel|travel page]] for exact details on reserving a room at a special rate.
 
 
 == Mailing Lists ==
