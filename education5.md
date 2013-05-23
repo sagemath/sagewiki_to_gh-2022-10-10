@@ -48,12 +48,17 @@ Arrangements for rooms at [[http://www.hoteldeca.com/|Hotel Deca]] have been mad
 
 To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
 
+ 1. [[http://www.cwu.edu/~andonie/|Razvan Andonie]] (Central Washington University)
+ 1. [[http://www.math.harvard.edu/~jen/|Jen Balakrishnan]] (Harvard University)
  1. [[http://www.gregorybard.com/|Gregory Bard]] (University of Wisconsin---Stout, Menomonie, Wi)
+ 1. [[http://www2.sfasu.edu/math/people/faculty/beavers.html|Brian Beavers]] (Stephen F. Austin State University)
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
  1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
  1. [[http://math.uci.edu/~davis|Chris Davis]] (University of California, Irvine)
  1. [[http://faculty.mercer.edu/denny_jk|Jeff Denny]] (Mercer University, Macon, GA)
  1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
+ 1. [[http://skink.whitman.edu/~guichard/|David Guichard]] (Whitman College)
+ 1. [[http://math.csuci.edu/people/Glenn.Henshaw/|Glenn R Henshaw]] (California State University Channel Islands, Camarillo, CA)
  1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
  1. [[http://www.csudh.edu/math/gjennings|George Jennings]] (California State University, Dominguez Hills)
  1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
@@ -64,7 +69,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. Steve Singleton (Coe College, Cedar Rapids, IA)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.mc.edu/travis/|John Travis]] (Mississippi College, Clinton, MS)
- 1. [[http://math.csuci.edu/people/Glenn.Henshaw/|Glenn R Henshaw]] (California State University Channel Islands, Camarillo, CA)
+ 1. [[http://scholar.harvard.edu/aravisamuel/people/vivek-venkatachalam|Vivek Venkatachalam]] (Harvard University)
 
 == Schedule ==
 
