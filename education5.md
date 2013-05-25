@@ -73,21 +73,29 @@ To register, please add yourself alphabetically by last name.  You need to reque
 
 == Schedule ==
 
+This schedule is tentative and may change.
+
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
 ||  9:30 AM || Introductions                         ||                       ||  ||
-||  10:00 AM || Talks                         ||                       ||  ||
+||  10:00 AM || Lightning Talks                      ||                       ||  ||
+||  11:00 AM || Sage Cloud                      ||                       ||  ||
+||  11:30 AM || Sage Cell Server                      || Jason Grout             ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Ten-minute survey                       ||                       ||  ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 20     || || ||
+||  10:00 AM || Sage Widgets for Teaching Calculus     ||   Jeff Denny          ||  ||
+||  10:30 AM || Sage in Calculus     ||   Brian Beavers          ||  ||
+||  11:00 AM || || Rob Beezer          ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Ten-minute survey                       ||                       ||  ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
+|| Morning || Talks on Sage in education || || ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Thirty-minute survey                       ||                       ||  ||
