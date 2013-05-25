@@ -96,6 +96,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
 || Morning || Talks on Sage in education || || ||
+|| Morning || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Thirty-minute survey                       ||                       ||  ||
