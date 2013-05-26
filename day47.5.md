@@ -4,7 +4,7 @@
 
 == Location: PK-4120, LaCIM, UQAM, Montréal, Canada ==
 
-  * Room SH-4120 is located in the [[http://www.uqam.ca/campus/pavillons/pk.htm|Président-Kennedy Building]]
+  * Room PK-4120 is located in the [[http://www.uqam.ca/campus/pavillons/pk.htm|Président-Kennedy Building]]
   * [[http://lacim.uqam.ca/|LaCIM - Laboratoire de combinatoire et d'informatique mathématique]]
 
 == Context ==
