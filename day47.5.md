@@ -36,3 +36,4 @@ An impromptu Sage Day scheduled because of a confluence of visitors at LaCIM. Th
   * Mathieu Guay-Paquet
   * Franco Saliola
   * Alejandro Morales
+  * Eric Rowland
