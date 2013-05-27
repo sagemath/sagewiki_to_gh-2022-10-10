@@ -35,3 +35,4 @@ An impromptu Sage Day scheduled because of a confluence of visitors at LaCIM. Th
   * Sean Carrell
   * Mathieu Guay-Paquet
   * Franco Saliola
+  * Alejandro Morales
