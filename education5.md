@@ -140,6 +140,11 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Work on issues preventing these applets from working within Sage notebook, e.g. [[http://trac.sagemath.org/sage_trac/ticket/14020|#14020 Broken layout]]
  * Figure out the best way for public posting of Sage worksheets using "modules for teaching" like [[http://trac.sagemath.org/sage_trac/ticket/14288|#14288 Interactive Simplex Method]]
 
+=== S Singleton ===
+ * Develop new worksheets that complement current [[http://www.pogil.org/resources/curriculum-materials| POGIL curriculum materials]]
+ * See if a physical chemistry course with "no calculus by hand" is feasible (traditional approaches involving multivariable calculus is problematic for some biochem/molecular bio students).
+ * Utilize @interacts for exploratory worksheets.
+
 === William Stein ===
  * Work on my free open Sage book: http://code.google.com/p/sage-power-book/
 
