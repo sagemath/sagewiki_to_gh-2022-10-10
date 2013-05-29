@@ -83,13 +83,13 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
-||  9:30 AM || Introductions                         ||                       ||  ||
-||  10:00 AM || Lightning Talks                      ||                       ||  ||
-||  11:00 AM || Sage Cloud                      ||                       ||  ||
-||  11:30 AM || Sage Cell Server                      || Jason Grout             ||  ||
+||  9:30 AM   || Introductions                         ||                       ||  ||
+||  10:00 AM  || Lightning Talks                      ||                       ||  ||
+||  11:00 AM  || Sage Cloud                           ||                       ||  ||
+||  11:30 AM  || Sage Cell Server                      || Jason Grout             ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
-||  4:00 PM || Status Reports                        ||                       ||  ||
-||  5:00 PM || Ten-minute survey                       ||                       ||  ||
+||  4:00 PM   || Status Reports                        ||                       ||  ||
+||  5:00 PM   || Ten-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDays2013Wednesday|Wed Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 20     || || ||
 ||  10:00 AM || Sage Widgets for Teaching Calculus     ||   Jeff Denny          ||  ||
@@ -97,14 +97,14 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||  11:00 AM || || Rob Beezer          ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
-||  5:00 PM || Ten-minute survey                       ||                       ||  ||
+||  5:00 PM || Ten-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDays2013Thursday|Thu Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
 || Morning || Talks on Sage in education || || ||
 || Morning || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
-||  5:00 PM || Thirty-minute survey                       ||                       ||  ||
+||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDaysPostWorkshopSurvey2013|Fri WrapUp Survey]] ||
 || || || ||  ||
 
 
