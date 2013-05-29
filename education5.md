@@ -135,6 +135,11 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 === Greg Bard ===
  * Making videos suitable for 100-level students to use SAGE in calculus, finite math, statistics, linear algebra, etc... (even precalculus?)
 
+=== Andrey Novoseltsev ===
+ * Figure out the best way for public posting of Sage applets like [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/MI06_three_iterated_integrals_public.html|Three Iterated Integrals]] or [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/VC01_vector_fields_public.html|Vector Field Plotter]]
+ * Work on issues preventing these applets from working within Sage notebook, e.g. [[http://trac.sagemath.org/sage_trac/ticket/14020|#14020 Broken layout]]
+ * Figure out the best way for public posting of Sage worksheets using "modules for teaching" like [[http://trac.sagemath.org/sage_trac/ticket/14288|#14288 Interactive Simplex Method]]
+
 === William Stein ===
  * Work on my free open Sage book: http://code.google.com/p/sage-power-book/
 
