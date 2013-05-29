@@ -62,8 +62,11 @@ UW NetID:
 Password:       
 }}}
 
-== Topics ==
+== Projects ==
 
+=== Participant Name ===
+ * Something to do.
+ * Something else to do.
 
 == Funding ==
 
@@ -73,7 +76,7 @@ If you're interested in attending, there may be funding for you.   Email wstein@
 
 == Lodging ==
 
-2013/04/21: We had hoped to provide lodging at the Collegiana (more info on this place  on the [[uw-local-info|local information]] page).  However, they are not currently able to provide us with a block of rooms, so you should make a reservation at an area hotel.  Federal grant money limits reimbursement to 137 dollars a night.  More hotel suggestions are at the [[days48/travel|travel ]] page.
+2013/05/29: We had hoped to provide lodging at the Collegiana (more info on this place  on the [[uw-local-info|local information]] page).  However, they are unable to provide us with a block of rooms, so you should make a reservation at an area hotel.  Federal grant money limits reimbursement to 137 dollars a night.  More hotel suggestions are at the [[days48/travel|travel ]] page.
 
 == Pictures ==
 
