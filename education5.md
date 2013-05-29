@@ -44,6 +44,10 @@ Arrangements for rooms at [[http://www.hoteldeca.com/|Hotel Deca]] have been mad
  * Tom Judson [[http://faculty.sfasu.edu/judsontw/]]
  * Kiran Kedlaya [[http://math.ucsd.edu/~kedlaya/]]
 
+== Homework ==
+ 
+ 1.  Please complete, by May 31, the pre-event [[https://www.surveymonkey.com/s/SageDaysPreWorkshopSurvey2013|survey]], which is part of the grant funding this event.
+ 1.  Please add a description of projects you plan to work on to the section below.
 
 == Participants ==
 
@@ -127,13 +131,16 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Preparing worksheets for a course.
  * Learning how to create interacts for the Sage library.
  * Learning how to contribute new code to Sage.
- * (wstein): Work on my free open Sage book: http://code.google.com/p/sage-power-book/
- * (bardg): Making videos suitable for 100-level students to use SAGE in calculus, finite math, statistics, linear algebra, etc... (even precalculus?)
 
- * Organization of Sage educational resources
-  * rating of worksheets?
-  * tagging, organization of available options
-  * suggestion from chemistry: set up committees to curate resources so that faculty get service credit
+=== Greg Bard ===
+ * Making videos suitable for 100-level students to use SAGE in calculus, finite math, statistics, linear algebra, etc... (even precalculus?)
+
+=== William Stein ===
+ * Work on my free open Sage book: http://code.google.com/p/sage-power-book/
+
+=== Sample Project Description (participant name) ===
+  * Something to do.
+  * Something else to do.
 
 == UW Campus Wireless ==
 {{{
