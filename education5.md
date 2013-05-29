@@ -16,8 +16,9 @@ Anyone with any interest in the use of Sage in educational settings is welcome, 
 
 == Logistics ==
 
+ * At the [[http://www.washington.edu|University of Washington]] Seattle campus (on the west coast of the US, not Washington, DC).
  * June 19, 20 and 21 are expected to be full days.  So plan to travel on June 18 and June 22.
- * All sessions will be somewhere (TBA) on the University of Washington Campus  [[http://www.washington.edu/maps/|interactive campus map]].
+ * Campus location:  We have [[http://www.css.washington.edu/room/MEB+246|MEB 246]] and [[http://www.css.washington.edu/room/MEB+248|MEB 248]] reserved in the [[http://www.washington.edu/students/maps/map.cgi?MEB|Mechanical Engineering Building]] for the week's events.
  * [[days48|Sage Days 48]] will happen the same week at the University of Washington with the Notebook Development as its theme.
  * '''Be sure to buy your plane ticket on a US carrier.'''
  * See the [[uw-local-info|local information page]] for more specifics.
