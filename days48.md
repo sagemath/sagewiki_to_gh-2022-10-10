@@ -12,7 +12,7 @@ June 17-21, 2013 at University of Washington in Seattle, in conjunction with [[e
  * [[education5|Sage Education Days 5]] will happen at the end of the week, June 19-21, 2013.
  * See the [[uw-local-info|local information page]] for more specifics.
  * The [[days48/travel|travel page]] has information about area hotels.
- * Campus location: TBA
+ * Campus location: We have [[http://www.css.washington.edu/room/MEB+246|MEB 246]] and [[http://www.css.washington.edu/room/MEB+248|MEB 248]] reserved in the [[http://www.washington.edu/students/maps/map.cgi?MEB|Mechanical Engineering Building]] for the week's events.
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
 
 == Mailing List ==
