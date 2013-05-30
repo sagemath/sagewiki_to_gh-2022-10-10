@@ -44,6 +44,7 @@ Please add your travel plans below.   With exact arrival and departure informati
 == Sage Edu Days 5 ==
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Hotel||
+|| Jason Aubrey || Tues (18th), 6:10pm || Flight, UA 272 || Fri (21st), 9:07pm || Flight, UA5433 || TBD ||
 || Rob Beezer              || Sun   (16th)          || Auto               || Fri    (21st)          || Auto               || Hotel Deca (w/ Tom Judson)||
 || Gregory Bard || Sun (16th) || Flight || Mon (24th) || Flight || Hotel Deca ||
 || Andrey Novoseltsev || Sun (16th), 2:25pm || Flight, Alaska 2543 || Sat (22th), 2:53pm || Flight, Alaska 2584 || Hotel Deca (w/ Volker Braun)||
