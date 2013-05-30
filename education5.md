@@ -61,6 +61,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
  1. [[http://math.uci.edu/~davis|Chris Davis]] (University of California, Irvine)
  1. [[http://faculty.mercer.edu/denny_jk|Jeff Denny]] (Mercer University, Macon, GA)
+ 1. [[http://www.math.rochester.edu/people/faculty/gage|Mike Gage]] (University of Rochester, Rochester, NY)
  1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
  1. [[http://skink.whitman.edu/~guichard/|David Guichard]] (Whitman College)
  1. [[http://math.csuci.edu/people/Glenn.Henshaw/|Glenn R Henshaw]] (California State University Channel Islands, Camarillo, CA)
