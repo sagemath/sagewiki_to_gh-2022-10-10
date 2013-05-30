@@ -134,6 +134,9 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Learning how to create interacts for the Sage library.
  * Learning how to contribute new code to Sage.
 
+=== Jason Aubrey, Mike Gage, John Travis ===
+ * Finishing at least one of the SAGE-WeBWorK bridges; hopefully the one that allows webwork problem authors to include SAGE code in webwork problems for computations and other fun. 
+
 === Greg Bard ===
  * Making videos suitable for 100-level students to use SAGE in calculus, finite math, statistics, linear algebra, etc... (even precalculus?)
 
