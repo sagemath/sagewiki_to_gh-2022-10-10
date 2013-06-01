@@ -153,6 +153,12 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 === William Stein ===
  * Work on my free open Sage book: http://code.google.com/p/sage-power-book/
 
+=== Karl-Dieter Crisman ===
+ * Work on cleaning up HTML and organization etc. for my [[http://www.math.gordon.edu/~kcrisman/mat338|number theory book]]
+ * Develop resources for people wanting to make Sage-enabled lecture notes?
+ * Review tons of tickets
+ * More stuff?
+
 === Sample Project Description (participant name) ===
   * Something to do.
   * Something else to do.
