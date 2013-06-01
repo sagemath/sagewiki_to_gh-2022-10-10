@@ -26,5 +26,6 @@ Please edit and add your projects!
 
  1. Work on making RIF and CIF more reliable (ThierryMonteil)
 
+ 1. Add parallel cloning to [http://sagedebianlive.metelu.net/ Sage Debian Live] USB key (ThierryMonteil)
 
 }}}
