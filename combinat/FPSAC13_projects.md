@@ -6,7 +6,7 @@ Project list for Sage Days 49: Free and Practical Software for Algebraic Combina
 
 Please edit and add your projects!
 
-1. Combinatorial Species (Martin Rubey, Thursday and Friday only):
+ 1. Combinatorial Species (Martin Rubey, Thursday and Friday only):
 
   * code cleanup
 
@@ -17,5 +17,14 @@ Please edit and add your projects!
   * add code by Andrew for Gamma-species
 
   * support operations from symmetric function code for cycle index series
+
+ 1. Conclude (add last docs) and submit OEIS patch (ThierryMonteil)
+
+ 1. Finish CFF review (ThierryMonteil)
+
+ 1. Trac-ify some of the bugs found via ask.sagemath.org and discuss about better integration between those two useful tools (ThierryMonteil)
+
+ 1. Work on making RIF and CIF more reliable (ThierryMonteil)
+
 
 }}}
