@@ -18,7 +18,7 @@ Please edit and add your projects!
 
   * support operations from symmetric function code for cycle index series
 
- 1. Conclude (add last docs) and submit OEIS patch (ThierryMonteil)
+ 1. Conclude (add last docs, and make output depending on wether the command is launched from the command line or the notebook) and submit OEIS patch (ThierryMonteil)
 
  1. Finish CFF review (ThierryMonteil)
 
