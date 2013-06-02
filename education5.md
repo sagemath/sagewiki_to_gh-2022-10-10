@@ -62,6 +62,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
  1. [[http://math.uci.edu/~davis|Chris Davis]] (University of California, Irvine)
  1. [[http://faculty.mercer.edu/denny_jk|Jeff Denny]] (Mercer University, Macon, GA)
+ 1. [[http://users.humboldt.edu/flashman/|Martin Flashman]] (Humboldt State University)
  1. [[http://www.math.rochester.edu/people/faculty/gage|Mike Gage]] (University of Rochester, Rochester, NY)
  1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
  1. [[http://skink.whitman.edu/~guichard/|David Guichard]] (Whitman College)
@@ -140,6 +141,16 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 === Greg Bard ===
  * Making videos suitable for 100-level students to use SAGE in calculus, finite math, statistics, linear algebra, etc... (even precalculus?)
 
+=== Rob Beezer ===
+ * Keep workshop organized
+ * Document my finitely-generated abelian groups patch [[#9773|http://trac.sagemath.org/sage_trac/ticket/9773]]
+ * Generate a killer worksheet for [http://cloud.sagemath.org/|Salvus]] from XML source
+
+=== Martin Flashman ===
+  *Work on a project for visualizing functions using mapping diagrams (aka dynagraphs) for a teaching resource on the subject for beginning algebra through calculus using SAGE.
+  *Work with others on how to make these visualizations easy to create making it part of a SAGE toolbox/workspace/workbook.
+  *Learn how to embed SAGE in other materials- especially for my on-line calculus book (The Sensible Calculus Book).
+
 === Andrey Novoseltsev ===
  * Figure out the best way for public posting of Sage applets like [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/MI06_three_iterated_integrals_public.html|Three Iterated Integrals]] or [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/VC01_vector_fields_public.html|Vector Field Plotter]]
  * Work on issues preventing these applets from working within Sage notebook, e.g. [[http://trac.sagemath.org/sage_trac/ticket/14020|#14020 Broken layout]]
@@ -158,10 +169,6 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Develop resources for people wanting to make Sage-enabled lecture notes?
  * Review tons of tickets
  * More stuff?
-
-=== Sample Project Description (participant name) ===
-  * Something to do.
-  * Something else to do.
 
 == UW Campus Wireless ==
 {{{
