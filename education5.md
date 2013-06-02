@@ -149,7 +149,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 === Martin Flashman ===
   *Work on a project for visualizing functions using mapping diagrams (aka dynagraphs) for a teaching resource on the subject for beginning algebra through calculus using SAGE.
   *Work with others on how to make these visualizations easy to create making it part of a SAGE toolbox/workspace/workbook.
-  *Learn how to embed SAGE in other materials- especially for my on-line calculus book (The Sensible Calculus Book).
+  *Learn how to embed SAGE in other materials- especially for my on-line calculus book. [[http://users.humboldt.edu/flashman/senscalca_x.html|(The Sensible Calculus Book)]]
 
 === Andrey Novoseltsev ===
  * Figure out the best way for public posting of Sage applets like [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/MI06_three_iterated_integrals_public.html|Three Iterated Integrals]] or [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/VC01_vector_fields_public.html|Vector Field Plotter]]
