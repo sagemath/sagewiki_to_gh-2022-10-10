@@ -170,6 +170,11 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Review tons of tickets
  * More stuff?
 
+=== Jeff Denny ===
+ * Create collection of Sage widgets for teaching calculus
+ * Build these into a database similar to the one at http://sagemath.org/eval.html
+
+
 == UW Campus Wireless ==
 {{{
 UW NetID:       TBA
