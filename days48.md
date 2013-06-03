@@ -30,6 +30,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
  1. [[http://erocal.org/burcin|Burcin Erocal]] (TU Kaiserslautern, Germany)
  1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, Iowa)
+ 1. [[https://github.com/ihanson|Ira Hanson]] (Northfield, MN)
  1. [[http://www.math.ualberta.ca/~novoseltsev/|Andrey Novoseltsev]] (University of Alberta)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://www.math.washington.edu/~palmieri/|John Palmieri]] (University of Washington)
