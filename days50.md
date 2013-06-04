@@ -45,6 +45,13 @@ We'd like to hit the ground running this year, so we have a few more steps to ou
 
 == Participants ==
 
+ * Amy Feaver (University of Colorado)
+ * Anne Ho (Colorado State)
+ * Beth Malmskog (Colorado College)
+ * Yiwei She (University of Chicago)
+ * Kate Thompson (University of Georgia)
+ * Christelle Vincent (Stanford)
+
 
 == Other Info ==
 
