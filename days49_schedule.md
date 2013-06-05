@@ -128,7 +128,26 @@ Thursday
 
  **Morning Session**:
 
- * 09h00 : Talk IV: *TBD*, Mark Mezzarobba (RISC, Johannes Kepler U. Linz  )
+ * 09h00 : Talk IV: *Numerical evaluation of D-finite functions: NumGfun and beyond*, Mark Mezzarobba (RISC, Johannes Kepler U. Linz  )
+
+            *Abstract.* D-finite (aka holonomic) functions are complex analytic solutions of 
+            linear ODEs with polynomial coefficients. The class of D-finite 
+            functions encompasses most elementary functions (exp, ln, sin, sinh...) 
+            as well as many common special functions (e.g., Bessel functions and 
+            generalized hypergeometric functions). Its nice algebraic and 
+            computational  properties make it possible to develop a unified 
+            framework to deal with  these functions in a computer algebra system, 
+            instead of developing ad hoc code for every single function.
+
+            My talk will focus on the multiple precision numerical evaluation of
+            D-finite functions. I will present NumGfun, a Maple package that 
+            provides a guaranteed evaluator for general D-finite functions as well 
+            as some other features related to the rigorous symbolic-numeric 
+            manipulation of such functions. I also plan to discuss some of the 
+            underlying algorithms and say a few words about applications to analytic 
+            combinatorics, the reasons that made me use Maple for this work, what I 
+            dislike about it and what role Sage may play as an alternative.                 
+ 
  * 10h00 : Coffee Break
  * 10h30 : Open Presentations
 
