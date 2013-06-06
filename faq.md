@@ -101,7 +101,7 @@ Return to your sage directory, and run
 
 again.
 
-This time, when the notebook prompts you to open your web browser to a particular address, you should do so (in our example, that means opening a new browser window and going to http://localhost:8000 ).  Log in using the username admin and the password you created.  Once you have done so, you can create new users by following the Settings link and then choosing the Manage Users option.
+This time, when the notebook prompts you to open your web browser to a particular address, you should do so (in our example, that means opening a new browser window and going to http://localhost:8080 ).  Log in using the username admin and the password you created.  Once you have done so, you can create new users by following the Settings link and then choosing the Manage Users option.
 
 === How do I run a parallel build? ===
 
