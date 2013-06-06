@@ -79,11 +79,13 @@ from within the Sage directory.
 
 If this is the first time you have used the Sage notebook, the system will prompt you to create an admin password.  The system will then give you instructions that look like this:
 
+{{{
 **************************************************
 *                                                *
 * Open your web browser to http://localhost:8080 *
 *                                                *
 **************************************************
+}}} 
 
 Make a note of the number after localhost (in our example, 8080).  This is the port that the notebook expects you to use.
 
