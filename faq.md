@@ -65,6 +65,41 @@ See [[VirtualBox|these instructions]].
 
 Windows is currently supported via the !VirtualBox image, so see the instructions for running [[SageAppliance|the Sage virtual appliance]]. See [[windows]] for information on efforts to make a native port of Sage to Windows.
 
+=== I installed Sage on a Unix or Linux server where I have an account, but my personal computer runs Windows.  How do I access the Sage notebook? ===
+
+You can use port forwarding with ssh to interact with the notebook via a Windows browser.
+
+Log into the server, and run the Sage notebook.  Typically this involves the command
+
+{{{
+./sage -notebook
+}}} 
+
+from within the Sage directory.
+
+If this is the first time you have used the Sage notebook, the system will prompt you to create an admin password.  The system will then give you instructions that look like this:
+
+**************************************************
+*                                                *
+* Open your web browser to http://localhost:8080 *
+*                                                *
+**************************************************
+
+Make a note of the number after localhost (in our example, 8080).  This is the port that the notebook expects you to use.
+
+Now, close the notebook using Ctrl-C, and log out of the server.  You want to open a new ssh connection using port forwarding.
+
+If you are using the free ssh program PuTTy, you should first enter the name of your server.  Then find the port forwarding options: you can locate these by going to Connections, then SSH, then Tunneling in the "Category" menus on the left.  Enter the port number (e.g., 8080) in the Source Port box, and then enter localhost: followed by the port number (e.g., localhost:8080) in the Destination box.  Make sure the Local radio button is selected, and click Add.  Then hit Open to log into your server.
+
+Return to your sage directory, and run 
+
+{{{
+./sage -notebook
+}}} 
+
+again.
+
+This time, when the notebook prompts you to open your web browser to a particular address, you should do so (in our example, that means opening a new browser window and going to http://localhost:8000 ).  Log in using the username admin and the password you created.  Once you have done so, you can create new users by following the Settings link and then choosing the Manage Users option.
 
 === How do I run a parallel build? ===
 
