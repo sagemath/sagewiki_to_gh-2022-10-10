@@ -37,7 +37,15 @@ Florida Institute of Technology, Melbourne, FL.
 
 === Participants ===
 
-tbd.
+ *Hao Chen - University of Washington
+ *Vincent Delecroix - Univ. Paris VII
+ *Paul Fili - University of Rochester
+ *Benjamin Hutz - Florida Institute of Technology
+ *Patrik Ingram - Colorado State University
+ *David Krumm - University of Georgia
+ *Bianca Thompson - University of Hawaii
+ *Adam Towsley - CUNY Graduate Center
+
 
 ==== Organizers ====
 
