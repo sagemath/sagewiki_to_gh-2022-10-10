@@ -175,6 +175,10 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Create collection of Sage widgets for teaching calculus
  * Build these into a database similar to the one at http://sagemath.org/eval.html
 
+=== TJ Hitchman ===
+ * Work on linear algebra IBL course notes using Sage
+ * Make short "intro to cloud.sagemath.com" for students
+ * learn about sage development process
 
 == UW Campus Wireless ==
 {{{
