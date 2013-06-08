@@ -77,6 +77,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College, Portland, OR)
  1. Steve Singleton (Coe College, Cedar Rapids, IA)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
+ 1. Sepideh Stewart (University of Oklahoma)
  1. [[http://math.mc.edu/travis/|John Travis]] (Mississippi College, Clinton, MS)
  1. [[http://scholar.harvard.edu/aravisamuel/people/vivek-venkatachalam|Vivek Venkatachalam]] (Harvard University)
 
