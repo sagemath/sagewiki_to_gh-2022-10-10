@@ -28,7 +28,7 @@ Combinatorics
 
 * Combinatorial actions and orbit averages on posets, order polytopes, and rational functions
 
-  Tom, Darij, Jessica
+  Tom Roby, Darij, Jessica
 
 Representation Theory
 ---------------------
