@@ -158,7 +158,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Figure out the best way for public posting of Sage worksheets using "modules for teaching" like [[http://trac.sagemath.org/sage_trac/ticket/14288|#14288 Interactive Simplex Method]]
 
 === David Perkinson ===
-  * Work an a Sage package for hyperplane arrangements.
+  * Work on a Sage package for hyperplane arrangements.
 
 === S Singleton ===
  * Develop new worksheets that complement current [[http://www.pogil.org/resources/curriculum-materials| POGIL curriculum materials]]
