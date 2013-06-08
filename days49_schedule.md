@@ -3,6 +3,8 @@
 Schedule for Sage Days 49 (June 17-21, 2013)
 ============================================
 
+**For the main Sage Days 49 page go** `here <http://wiki.sagemath.org/combinat/FPSAC13>`_
+
 Monday
 ------
 
