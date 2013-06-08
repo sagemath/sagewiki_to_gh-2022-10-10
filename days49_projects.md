@@ -3,9 +3,7 @@
 Sage Days 49 Coding Sprint Projects
 ===================================
 
-**For the main Sage Days 49 page go** `here`__.
-
-__ /combinat/FPSAC13
+**For the main Sage Days 49 page go** `here <http://wiki.sagemath.org/combinat/FPSAC13>`_
 
 Below is a list of proposed projects.
 
