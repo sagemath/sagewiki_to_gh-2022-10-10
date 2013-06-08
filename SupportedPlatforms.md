@@ -32,7 +32,7 @@ There are several requirements for Sage to work successfully on these fully supp
 
  * A full development system must be installed - a minimal install will probably not work if you wish to build from source.
  * The system must not have been mis-configured. Unfortunately, it is not unusual for Sage to fail to build on systems where someone has mis-configured the system. A fresh install of the operating system is not necessary, but any changes made since the installation must have been performed properly.
- * It is recommended to have at least 2 GB of RAM to build Sage (you may get away with less, but you can not be sure).  In order to run all doctests, Sage needs up to 2.2 GB of virtual memory (RAM + swap).
+ * It is recommended to have at least 2 GB of RAM to build Sage (but you may get away with less).  Building in parallel requires additional memory.  In order to run all doctests, Sage needs up to 2.2 GB of virtual memory (RAM + swap).
  * You need 4 GB of free disk space.
  * You need to have the [[http://sagemath.org/doc/installation/source.html|prerequisites]] for building Sage.
  * All instructions must be followed.
@@ -51,9 +51,6 @@ There are several requirements for Sage to work successfully on these fully supp
  * OS X 10.4 (Tiger) on PPC. The pexpect interfaces tend to be less reliable than other platforms, so you might see some unreproducible doctest failures. Also, the "Mac App" doesn't work on OS X 10.4, but building from source or non-App binaries should work. Tested on [[http://build.sagemath.org/sage/buildslaves/moufang-1|moufang]]
  * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
  * OS X 10.8 (Mountain Lion) 64-bit, with XCode 4.  Tested on [[http://build.sagemath.org/sage/buildslaves/dehaye|dehaye]]
-
-=== OpenSolaris x86 32-bit ===
- * 06/2009 updated to build 134 on x86 (32-bit only), with gcc as well as the Sun compiler. Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
 
 === Solaris SPARC 32-bit ===
  * Solaris 10 on SPARC processors in 32-bit mode. You need to use the '''Solaris linker''' in /usr/ccs/bin/ld (this is normally the default), the GNU linker is not supported. Tested on [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]]
@@ -101,6 +98,9 @@ This lists systems on which Sage builds, but there are a few doctest errors.  Ho
 
 === Microsoft Windows ===
  * Microsoft Windows using Cygwin; see [[http://trac.sagemath.org/sage_trac/ticket/6743|the metaticket for this]].  Sage compiles from source and has only a few doctest failures with only some rebasing issues and one or two unusual prerequisites (currently the mpfr-4 and a few lapack Cygwin packages).  Some slightly old information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows|sage-windows]] mailing list.
+
+=== OpenSolaris x86 32-bit ===
+ * 06/2009 updated to build 134 on x86 (32-bit only), with gcc as well as the Sun compiler. Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
 
 == Probably will not work ==
 None of these systems have a complete fully reliable port. In some cases completed ports are highly likely. In other cases, the porting effort is not very significant, and there may be insufficient effort to actually complete a port. 
