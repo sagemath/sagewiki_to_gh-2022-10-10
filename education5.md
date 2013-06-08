@@ -104,7 +104,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||  5:00 PM || Ten-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDays2013Thursday|Thu Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
-|| 10:00 AM || David Perkison || Multivariable calculus and hyperplane arrangements|| ||
+|| 10:00 AM || Multivariable calculus and hyperplane arrangements || David Perkison || ||
 || Morning || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
