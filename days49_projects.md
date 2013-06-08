@@ -40,7 +40,7 @@ Combinatorics
   * add code by Andrew for Gamma-species
   * support operations from symmetric function code for cycle index series
 
-* Conclude OEIS ticket #10358 (rebase after #13701, last doctests, and make urls clickable from the notebook
+* Conclude `OEIS <http://oeis.org>`_ ticket #10358 (rebase after #13701, last doctests, and make urls clickable from the notebook
 
   ThierryMonteil
 
