@@ -22,8 +22,16 @@ Combinatorics
 
   Jessica, Alejandro
 
+* Implementation of k-tableaux and kcharge
+
+  Anne, Jennifer
+
 Representation Theory
 ---------------------
+
+* Finalize non-symmetric Macdonald polynomial patch
+
+  Anne, Nicolas
 
 Documentation
 -------------
