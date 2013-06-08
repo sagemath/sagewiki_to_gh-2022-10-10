@@ -62,6 +62,6 @@ Note: Gregory Bard can take a roommate for the nights of the 16th, 17th, 18th, 1
 
 ||<rowstyle="background-color: #E0E0FF;"> Name ||  Arrival || Mode || Departure || Mode || Hotel||
 || Burcin Erocal || Sun (16th)   || Flight, US 69  || Sat (22nd)    || Flight || Silver Cloud Inn (w/ ???) ||
-||               ||              ||                ||               ||                || ||
+|| Jason Grout   || Monday (17th), 10am || Southwest 3863 || Sat (22nd), 7:15am   ||  Southwest 1995   ||  ||
 
 Burcin Erocal needs a roommate for June 16-22.
