@@ -15,6 +15,7 @@ Combinatorics
   Mathieu, Eric, Alejandro, Chris
 
 * Implementing boards for rook placements, Le diagrams (#14127)
+  
   * implementing Le diagrams
   * include CombinatorialMaps if possible
   * adding documentation and doctests
