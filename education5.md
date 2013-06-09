@@ -164,7 +164,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 
 === S Singleton ===
  * Develop new worksheets that complement current [[http://www.pogil.org/resources/curriculum-materials| POGIL curriculum materials]]
- * See if a physical chemistry course with "no calculus by hand" is feasible (traditional approaches involving multivariable calculus is problematic for some biochem/molecular bio students).
+ * See if a physical chemistry course with "no calculus by hand" is feasible (traditional approaches involving multivariable calculus is problematic for some students).
  * Utilize @interacts for exploratory worksheets.
 
 === William Stein ===
