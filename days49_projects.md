@@ -14,11 +14,14 @@ Combinatorics
 
   Mathieu, Eric, Alejandro, Chris
 
-* Implementing boards for rook placements, Le diagrams
-  
+* Implementing boards for rook placements, Le diagrams (#14127)
+  * implementing Le diagrams
+  * include CombinatorialMaps if possible
+  * adding documentation and doctests
+    
   Alejandro
 
-* Flow polytopes from permutation matrices and alternating sign matrices
+* Flow polytopes from permutation matrices and alternating sign matrices (#14654)
 
   Jessica, Alejandro
 
