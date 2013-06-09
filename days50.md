@@ -46,6 +46,7 @@ We'd like to hit the ground running this year, so we have a few more steps to ou
 == Participants ==
 
  * Jen Berg (University of Texas at Austin)
+ * Alina Bucur (University of California San Diego)
  * Amy Feaver (University of Colorado)
  * Anne Ho (Colorado State)
  * Yasemin Kara (Cornell University)
