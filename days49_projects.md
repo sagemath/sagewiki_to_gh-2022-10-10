@@ -67,7 +67,7 @@ Representation Theory
 
   Travis
 
-* Finish rigged configurations
+* Make progress on fixing/reviewing rigged configurations patches (#13781, #13838, #13872)
 
   Anne, Travis
 
