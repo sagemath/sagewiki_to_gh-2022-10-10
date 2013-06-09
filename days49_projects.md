@@ -48,6 +48,9 @@ Combinatorics
 
   ThierryMonteil
 
+* More switches from CombinatorialClass to category framework
+
+  Travis
 
 Representation Theory
 ---------------------
@@ -55,6 +58,18 @@ Representation Theory
 * Finalize non-symmetric Macdonald polynomial patch
 
   Anne, Nicolas
+
+* Implement monomial crystals (first version in combinat queue)
+
+  Ben, Travis
+
+* Refactor and speedup of all crystals code (#14516, #14686, more to come)
+
+  Travis
+
+* Finish rigged configurations
+
+  Anne, Travis
 
 Documentation
 -------------
