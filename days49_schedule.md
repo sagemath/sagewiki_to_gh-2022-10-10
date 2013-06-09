@@ -10,9 +10,9 @@ Monday
 
  **Morning Session**:
 
- * 09h00 : *Welcome and Introduction to Sage*, Tom Denton
- * 10h00 : Coffee Break
- * 10h30 : Tutorial I: *Using the Sage notebook and navigating the help system*, Mathieu Guay-Paquet (UQAM)
+ * 09h00 : *Welcome, Sage installation, coffee
+ * 10h00 : Introduction to Sage*, Tom Denton
+ * 10h45 : Tutorial I: *Using the Sage notebook and navigating the help system*, Mathieu Guay-Paquet (UQAM)
  * 11h30 : Talk I: *Find me a basis that....*, Mike Zabrocki (York) 
            
            *Abstract*. This talk will start with an introduction to combinatorial
