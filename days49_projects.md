@@ -74,6 +74,10 @@ Representation Theory
 Documentation
 -------------
 
+* Reorganize combinat documentation
+
+  Travis
+
 Teaching
 --------
 
