@@ -32,7 +32,7 @@ There are several requirements for Sage to work successfully on these fully supp
 
  * A full development system must be installed - a minimal install will probably not work if you wish to build from source.
  * The system must not have been mis-configured. Unfortunately, it is not unusual for Sage to fail to build on systems where someone has mis-configured the system. A fresh install of the operating system is not necessary, but any changes made since the installation must have been performed properly.
- * It is recommended to have at least 2 GB of RAM to build Sage (but you may get away with less).  Building in parallel requires additional memory.  In order to run all doctests, Sage needs up to 2.2 GB of virtual memory (RAM + swap).
+ * It is recommended to have at least 2 GB of RAM to build Sage (but you may get away with less).  Building in parallel requires additional memory.  In order to run all doctests, Sage needs up to 2.5 GB of virtual memory (RAM + swap).
  * You need 4 GB of free disk space.
  * You need to have the [[http://sagemath.org/doc/installation/source.html|prerequisites]] for building Sage.
  * All instructions must be followed.
