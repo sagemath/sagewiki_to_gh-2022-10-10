@@ -155,7 +155,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
   *Learn how to embed SAGE in other materials- especially for my on-line calculus book. [[http://users.humboldt.edu/flashman/senscalca_x.html|(The Sensible Calculus Book)]]
 
 === David Guichard ===
-  *Work material for a combinatorics and graph theory course.
+  *Work on material for a combinatorics and graph theory course.
 
 === Andrey Novoseltsev ===
  * Figure out the best way for public posting of Sage applets like [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/MI06_three_iterated_integrals_public.html|Three Iterated Integrals]] or [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/VC01_vector_fields_public.html|Vector Field Plotter]]
