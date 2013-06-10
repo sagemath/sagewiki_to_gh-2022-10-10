@@ -24,3 +24,5 @@ A SEP is a '''S'''age '''E'''nhancement '''P'''roposal.
  * [[UnifiedCommandLineSEP|Unified Command Line Interface]] - early discussion phase
 
  * [[DesignTheorySEP|Design Theory]] - early discussion phase
+
+ * [[BuildSystemSEP|A build system for sage the distribution]] - design phase
