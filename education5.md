@@ -185,6 +185,12 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Make short "intro to cloud.sagemath.com" for students
  * learn about sage development process
 
+=== Glenn Henshaw ===
+
+ * Design interactives for planar lattices corresponding to ideals in quadratic number fields
+ * Come up with project ideas, using sage, for a discrete math for IT class
+ * Make progress towards a planar lattice class (object) in sage.
+
 == UW Campus Wireless ==
 {{{
 UW NetID:       TBA
