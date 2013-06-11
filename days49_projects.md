@@ -52,6 +52,18 @@ Combinatorics
 
   Travis
 
+* Implement LaTeX options for parking functions
+
+  Mike Z
+
+* implement composition tableaux as a combinatorial class
+
+  Mike Z
+
+* beef up NSym/QSym functionality - dual bases, quasi-Schur and dual's, basis by Pieri rule
+
+  Mike Z
+
 Representation Theory
 ---------------------
 
