@@ -71,6 +71,15 @@ Representation Theory
 
   Anne, Travis
 
+Categories and infrastructure
+-----------------------------
+
+Nicolas, Simon
+
+* Review #10963 more functorial constructions
+* Review #11111 finite dimensional modules
+* Plan the follow ups
+
 Documentation
 -------------
 
