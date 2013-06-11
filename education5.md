@@ -63,6 +63,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
  1. [[http://math.uci.edu/~davis|Chris Davis]] (University of California, Irvine)
  1. [[http://faculty.mercer.edu/denny_jk|Jeff Denny]] (Mercer University, Macon, GA)
+ 1. [[http://math.csuci.edu/people/all.html|Laurel Drane]] (California State University Channel Islands, Camarillo, CA)
  1. [[http://users.humboldt.edu/flashman/|Martin Flashman]] (Humboldt State University)
  1. [[http://www.math.rochester.edu/people/faculty/gage|Mike Gage]] (University of Rochester, Rochester, NY)
  1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
