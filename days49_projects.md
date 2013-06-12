@@ -54,15 +54,15 @@ Combinatorics
 
 * Implement LaTeX options for parking functions
 
-  Mike Z
+  Mike
 
 * implement composition tableaux as a combinatorial class
 
-  Mike Z
+  Mike
 
-* beef up NSym/QSym functionality - dual bases, quasi-Schur and dual's, basis by Pieri rule
+* beef up NSym/QSym functionality - dual bases, quasi-Schur and dual's, basis by Pieri rule, map to free algebra
 
-  Mike Z
+  Mike, Matthieu Deneufchâtel
 
 Representation Theory
 ---------------------
