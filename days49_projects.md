@@ -60,9 +60,9 @@ Combinatorics
 
   Mike
 
-* beef up NSym/QSym functionality - dual bases, quasi-Schur and dual's, basis by Pieri rule, map to free algebra
+* beef up NSym/QSym functionality - dual bases, quasi-Schur and dual's, basis by Pieri rule, map to free algebra, P-partitions, Hazewinkel's lambda-Lyndon basis, quasi-Schurs
 
-  Mike, Matthieu Deneufchâtel
+  Mike, Matthieu Deneufchâtel, Darij
 
 Representation Theory
 ---------------------
