@@ -86,7 +86,7 @@ Representation Theory
 Categories and infrastructure
 -----------------------------
 
-Nicolas, Simon
+Nicolas, Simon, Travis
 
 * Review #10963 more functorial constructions
 * Review #11111 finite dimensional modules
@@ -109,5 +109,7 @@ Other
 * Trac-ify some of the bugs found via ask.sagemath.org and discuss about better integration between those two useful tools (ThierryMonteil)
 * Work on making RIF and CIF more reliable (ThierryMonteil)
 * Add parallel cloning to `Sage Debian Live <http://sagedebianlive.metelu.net/>`_ USB key (ThierryMonteil)
+* `FindStat <http://www.findstat.org>`_ work
 
+  Travis, Viviane, Chris
 }}}
