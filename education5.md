@@ -86,28 +86,33 @@ To register, please add yourself alphabetically by last name.  You need to reque
 
 This schedule is tentative and may change.  We are leaving plenty of time in the afternoons and evenings for small working groups that will organize at the conference to get things done.
 
+We've scheduled 30 minutes for each talk to leave plenty of time for questions.  However, if you're done speaking 
+
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
-||  9:30 AM   || Introductions                         ||                       ||  ||
-||  10:00 AM  || Lightning Talks                      ||                       ||  ||
-||  11:00 AM  || Sage Cloud                           ||                       ||  ||
-||  11:30 AM  || Sage Cell Server                      || Jason Grout             ||  ||
-||  afternoon || Working groups                         ||                       ||  ||
-||  4:00 PM   || Status Reports                        ||                       ||  ||
-||  5:00 PM   || Ten-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDays2013Wednesday|Wed Survey]] ||
+||  9:30 AM   || Introductions||                       ||  ||
+||  || || Karl-Dieter Crisman (20min) || ||
+||  || || Rob Beezer (20min)         ||  ||
+||  || Sage Cell Server (20min) || Jason Grout  ||  ||
+||  || Sage Cloud  (20min) || William Stein||  ||
+||  afternoon || Working groups  ||                       ||  ||
+||  4:00 PM   || Status Reports  ||                       ||  ||
+||  5:00 PM   || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageDays2013Wednesday|Wed Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 20     || || ||
-||  10:00 AM || Sage Widgets for Teaching Calculus     ||   Jeff Denny          ||  ||
-||  10:30 AM || Sage in Calculus     ||   Brian Beavers          ||  ||
-||  11:00 AM || || Rob Beezer          ||  ||
+|| 9:30 AM || Sage Widgets for Teaching Calculus (20min)    ||   Jeff Denny          ||  ||
+||  || Sage in Calculus  (20min)   ||   Brian Beavers          ||  ||
+||  || Multivariable calculus and hyperplane arrangements (20min) || David Perkinson || ||
+||  || || Andrey Novoseltsev  (20min)   ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Ten-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDays2013Thursday|Thu Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
-|| 10:00 AM || Multivariable calculus and hyperplane arrangements || David Perkinson || ||
-|| 10:30 AM || Webwork || || ||
+||  9:30 AM  || Cryptography (20min) || Chris Davis  ||  ||
+|| || || Gregory Bard (20min) || ||
+|| || Webwork (30min) || || ||
 || Morning || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
