@@ -89,9 +89,9 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
 ||  9:30 AM   || Introductions||                       ||  ||
+|| 20min || Sage Cell Server || Jason Grout  ||  ||
 || 20min || Using Sage cell to create an online text || Karl-Dieter Crisman || ||
 || 20min || || Rob Beezer         ||  ||
-|| 20min || Sage Cell Server || Jason Grout  ||  ||
 || 20min || Sage Cloud || William Stein||  ||
 ||  afternoon || Working groups  ||                       ||  ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
