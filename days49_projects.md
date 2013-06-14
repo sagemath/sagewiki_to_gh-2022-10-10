@@ -83,6 +83,10 @@ Representation Theory
 
   Anne, Travis
 
+* Representations of quivers and quiver algebras: Finish refactoring Jim's code (#12630)
+
+  Simon
+
 Categories and infrastructure
 -----------------------------
 
@@ -90,14 +94,15 @@ Nicolas, Simon, Travis
 
 * Review #10963 more functorial constructions
 * Review #11111 finite dimensional modules
+* Nested class name mangling: Understand why building the pdf documentation hangs with the patch from #9107
 * Plan the follow ups
 
 Documentation
 -------------
 
-* Reorganize combinat documentation
+Travis
 
-  Travis
+* Reorganize combinat documentation
 
 Teaching
 --------
