@@ -50,7 +50,7 @@ Please add your travel plans below.   With exact arrival and departure informati
 || Andrey Novoseltsev || Sun (16th), 2:25pm || Flight, Alaska 2543 || Sat (22th), 2:53pm || Flight, Alaska 2584 || Hotel Deca (w/ Volker Braun)||
 || Steve Singleton|| Tues (18th), 7:35pm || Flight, UA1548 || Sat (22nd) 11:50pm || Flight, UA1481 || Hotel Deca ||
 || John Travis || Tues (18th) || Flight || Fri (21st) || Flight || Hotel Deca ||
-|| Karl-Dieter Crisman || Mon (17th) || Flight || Fri (21st) || Flight || Hotel Deca (w/ John Travis) ||
+|| Karl-Dieter Crisman || Mon (17th) || Flight, JB 907 || Fri (21st), 7:27pm || Flight || Hotel Deca (w/ John Travis) ||
 || Kiran Kedlaya || Tues (18th), 10:08pm || Flight, UA1735 || Fri (21st), 8:40pm || Flight, AS482 || University Inn ||
 || Susan Lynds   || Sun (16th)       || Flight || Sat (22nd) || Flight || Hotel Deca||
 || TJ Hitchman   || Tues (18th) 9:20pm || Flight, Delta 996 || Sat || drive || Hotel Deca(?)||
