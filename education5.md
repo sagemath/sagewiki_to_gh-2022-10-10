@@ -102,7 +102,7 @@ We've scheduled 30 minutes for each talk to leave plenty of time for questions. 
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 20     || || ||
 || 9:30 AM || Announcements    ||   ||  ||
-|| 20min || Sage Widgets for Teaching Calculus (20min)    ||   Jeff Denny          ||  ||
+|| 20min || Sage Widgets for Teaching Calculus    ||   Jeff Denny          ||  ||
 || 20min || Sage in Calculus   ||   Brian Beavers          ||  ||
 || 20min || Multivariable calculus and hyperplane arrangements || David Perkinson || ||
 || 20min || || Andrey Novoseltsev  ||  ||
@@ -112,7 +112,7 @@ We've scheduled 30 minutes for each talk to leave plenty of time for questions. 
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
 ||  9:30 AM  || Announcements || ||  ||
-||  20min  || Cryptography (20min) || Chris Davis  ||  ||
+||  20min  || Cryptography || Chris Davis  ||  ||
 || 20min || || Gregory Bard || ||
 || 30min || Webwork || || ||
 || 30min || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
