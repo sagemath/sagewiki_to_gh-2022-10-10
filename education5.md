@@ -92,28 +92,30 @@ We've scheduled 30 minutes for each talk to leave plenty of time for questions. 
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
 ||  9:30 AM   || Introductions||                       ||  ||
-||  || || Karl-Dieter Crisman (20min) || ||
-||  || || Rob Beezer (20min)         ||  ||
-||  || Sage Cell Server (20min) || Jason Grout  ||  ||
-||  || Sage Cloud  (20min) || William Stein||  ||
+|| 20min || || Karl-Dieter Crisman || ||
+|| 20min || || Rob Beezer         ||  ||
+|| 20min || Sage Cell Server || Jason Grout  ||  ||
+|| 20min || Sage Cloud || William Stein||  ||
 ||  afternoon || Working groups  ||                       ||  ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM   || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageDays2013Wednesday|Wed Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 20     || || ||
-|| 9:30 AM || Sage Widgets for Teaching Calculus (20min)    ||   Jeff Denny          ||  ||
-||  || Sage in Calculus  (20min)   ||   Brian Beavers          ||  ||
-||  || Multivariable calculus and hyperplane arrangements (20min) || David Perkinson || ||
-||  || || Andrey Novoseltsev  (20min)   ||  ||
+|| 9:30 AM || Announcements    ||   ||  ||
+|| 20min || Sage Widgets for Teaching Calculus (20min)    ||   Jeff Denny          ||  ||
+|| 20min || Sage in Calculus   ||   Brian Beavers          ||  ||
+|| 20min || Multivariable calculus and hyperplane arrangements || David Perkinson || ||
+|| 20min || || Andrey Novoseltsev  ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Ten-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDays2013Thursday|Thu Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
-||  9:30 AM  || Cryptography (20min) || Chris Davis  ||  ||
-|| || || Gregory Bard (20min) || ||
-|| || Webwork (30min) || || ||
-|| Morning || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
+||  9:30 AM  || Announcements || ||  ||
+||  20min  || Cryptography (20min) || Chris Davis  ||  ||
+|| 20min || || Gregory Bard || ||
+|| 30min || Webwork || || ||
+|| 30min || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDaysPostWorkshopSurvey2013|Fri WrapUp Survey]] ||
