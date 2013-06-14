@@ -85,9 +85,6 @@ To register, please add yourself alphabetically by last name.  You need to reque
 == Schedule ==
 
 This schedule is tentative and may change.  We are leaving plenty of time in the afternoons and evenings for small working groups that will organize at the conference to get things done.
-
-We've scheduled 30 minutes for each talk to leave plenty of time for questions.  However, if you're done speaking 
-
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
