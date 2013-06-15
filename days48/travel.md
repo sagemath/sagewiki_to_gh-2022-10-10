@@ -54,6 +54,7 @@ Please add your travel plans below.   With exact arrival and departure informati
 || Kiran Kedlaya || Tues (18th), 10:08pm || Flight, UA1735 || Fri (21st), 8:40pm || Flight, AS482 || University Inn ||
 || Susan Lynds   || Sun (16th)       || Flight || Sat (22nd) || Flight || Hotel Deca||
 || TJ Hitchman   || Tues (18th) 9:20pm || Flight, Delta 996 || Sat || drive || Hotel Deca(?)||
+|| J. Denny   || Tues (18th) 5:20pm || Flight, Delta  || Sat || drive || Hotel Deca||
 ||               ||              ||                ||               ||                || ||
 
 Note: Gregory Bard can take a roommate for the nights of the 16th, 17th, 18th, 19th, 20th, but not the 21st, 22nd, 23rd.
