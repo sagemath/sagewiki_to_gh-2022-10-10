@@ -106,9 +106,9 @@ To register, please add yourself alphabetically by last name.  You need to reque
 
 == Blog Roll ==
 
-* [[http://www.beezers.org/blog/bb/|Rob Beezer]]
-* [[http://mathematicseducationissues.blogspot.com/|Tom Judson]]
-* [[http://sagemath.blogspot.com/|Wiliam Stein]]
+ * [[http://www.beezers.org/blog/bb/|Rob Beezer]]
+ * [[http://mathematicseducationissues.blogspot.com/|Tom Judson]]
+ * [[http://sagemath.blogspot.com/|Wiliam Stein]]
 
 == Resources ==
 
