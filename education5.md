@@ -6,14 +6,6 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 <<TableOfContents>>
 
-
-== Funding ==
-
-We have more travel funding than in the past (airfare and lodging, not food).  If you are involved with Sage, or allied projects, in an educational setting and have a project to work on during the workshop, send a request for funding, with details, to Rob Beezer, beezer@ups.edu.
-
-Anyone with any interest in the use of Sage in educational settings is welcome, and encouraged to attend, with or without funding.
-
-
 == Logistics ==
 
  * At the [[http://www.washington.edu|University of Washington]] Seattle campus (on the west coast of the US, not Washington, DC).
@@ -23,64 +15,11 @@ Anyone with any interest in the use of Sage in educational settings is welcome, 
  * '''Be sure to buy your plane ticket on a US carrier.'''
  * See the [[uw-local-info|local information page]] for more specifics.
 
-
-== Lodging ==
-
-Arrangements for rooms at [[http://www.hoteldeca.com/|Hotel Deca]] have been made.  Please see the [[days48/travel|travel page]] for exact details on reserving a room at a special rate.
-
-
 == Mailing Lists ==
 
  * The mailing list for [[https://groups.google.com/forum/?fromgroups#!forum/sagedays48|Sage Days 48]],  will be used for Education Days also.  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
 
  * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
-
-
-== Organizers ==
-
- * Rob Beezer [[http://buzzard.ups.edu]]
- * William Stein [[http://wstein.org/]]
- * Jason Grout [[http://artsci.drake.edu/grout/]]
- * Tom Judson [[http://faculty.sfasu.edu/judsontw/]]
- * Kiran Kedlaya [[http://math.ucsd.edu/~kedlaya/]]
-
-== Homework ==
- 
- 1.  Please complete, by May 31, the pre-event [[https://www.surveymonkey.com/s/SageDaysPreWorkshopSurvey2013|survey]], which is part of the grant funding this event.
- 1.  Please add a description of projects you plan to work on to the section below.
-
-== Participants ==
-
-To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
-
- 1. [[http://www.cwu.edu/~andonie/|Razvan Andonie]] (Central Washington University)
- 1. [[http://www.math.missouri.edu/personnel/other/aubreyj.html|Jason Aubrey]] (Univ. of Missouri until July, then University of Arizona)
- 1. [[http://www.math.harvard.edu/~jen/|Jen Balakrishnan]] (Harvard University)
- 1. [[http://people.whitman.edu/~balofba|Barry Balof]] (Whitman College)
- 1. [[http://www.gregorybard.com/|Gregory Bard]] (University of Wisconsin---Stout, Menomonie, Wi)
- 1. [[http://www2.sfasu.edu/math/people/faculty/beavers.html|Brian Beavers]] (Stephen F. Austin State University)
- 1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
- 1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
- 1. [[http://math.uci.edu/~davis|Chris Davis]] (University of California, Irvine)
- 1. [[http://faculty.mercer.edu/denny_jk|Jeff Denny]] (Mercer University, Macon, GA)
- 1. [[http://math.csuci.edu/people/all.html|Laurel Drane]] (California State University Channel Islands, Camarillo, CA)
- 1. [[http://users.humboldt.edu/flashman/|Martin Flashman]] (Humboldt State University)
- 1. [[http://www.math.rochester.edu/people/faculty/gage|Mike Gage]] (University of Rochester, Rochester, NY)
- 1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
- 1. [[http://skink.whitman.edu/~guichard/|David Guichard]] (Whitman College)
- 1. [[http://math.csuci.edu/people/Glenn.Henshaw/|Glenn R Henshaw]] (California State University Channel Islands, Camarillo, CA)
- 1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
- 1. [[http://www.csudh.edu/math/gjennings|George Jennings]] (California State University, Dominguez Hills)
- 1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
- 1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
- 1. Susan Lynds (University of Colorado)
- 1. [[http://www.math.ualberta.ca/~novoseltsev/|Andrey Novoseltsev]] (University of Alberta)
- 1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College, Portland, OR)
- 1. Steve Singleton (Coe College, Cedar Rapids, IA)
- 1. [[http://wstein.org/|William Stein]] (University of Washington)
- 1. Sepideh Stewart (University of Oklahoma)
- 1. [[http://math.mc.edu/travis/|John Travis]] (Mississippi College, Clinton, MS)
- 1. [[http://scholar.harvard.edu/aravisamuel/people/vivek-venkatachalam|Vivek Venkatachalam]] (Harvard University)
 
 == Schedule ==
 
@@ -121,15 +60,70 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || || || ||  ||
 
 
-== Resources ==
+== Organizers ==
 
- *
+ * Rob Beezer [[http://buzzard.ups.edu]]
+ * William Stein [[http://wstein.org/]]
+ * Jason Grout [[http://artsci.drake.edu/grout/]]
+ * Tom Judson [[http://faculty.sfasu.edu/judsontw/]]
+ * Kiran Kedlaya [[http://math.ucsd.edu/~kedlaya/]]
+
+== Participants ==
+
+To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
+
+ 1. [[http://www.cwu.edu/~andonie/|Razvan Andonie]] (Central Washington University)
+ 1. [[http://www.math.missouri.edu/personnel/other/aubreyj.html|Jason Aubrey]] (Univ. of Missouri until July, then University of Arizona)
+ 1. [[http://www.math.harvard.edu/~jen/|Jen Balakrishnan]] (Harvard University)
+ 1. [[http://people.whitman.edu/~balofba|Barry Balof]] (Whitman College)
+ 1. [[http://www.gregorybard.com/|Gregory Bard]] (University of Wisconsin---Stout, Menomonie, Wi)
+ 1. [[http://www2.sfasu.edu/math/people/faculty/beavers.html|Brian Beavers]] (Stephen F. Austin State University)
+ 1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
+ 1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
+ 1. [[http://math.uci.edu/~davis|Chris Davis]] (University of California, Irvine)
+ 1. [[http://faculty.mercer.edu/denny_jk|Jeff Denny]] (Mercer University, Macon, GA)
+ 1. [[http://math.csuci.edu/people/all.html|Laurel Drane]] (California State University Channel Islands, Camarillo, CA)
+ 1. [[http://users.humboldt.edu/flashman/|Martin Flashman]] (Humboldt State University)
+ 1. [[http://www.math.rochester.edu/people/faculty/gage|Mike Gage]] (University of Rochester, Rochester, NY)
+ 1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
+ 1. [[http://skink.whitman.edu/~guichard/|David Guichard]] (Whitman College)
+ 1. [[http://math.csuci.edu/people/Glenn.Henshaw/|Glenn R Henshaw]] (California State University Channel Islands, Camarillo, CA)
+ 1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
+ 1. [[http://www.csudh.edu/math/gjennings|George Jennings]] (California State University, Dominguez Hills)
+ 1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
+ 1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
+ 1. Susan Lynds (University of Colorado)
+ 1. [[http://www.math.ualberta.ca/~novoseltsev/|Andrey Novoseltsev]] (University of Alberta)
+ 1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College, Portland, OR)
+ 1. Steve Singleton (Coe College, Cedar Rapids, IA)
+ 1. [[http://wstein.org/|William Stein]] (University of Washington)
+ 1. Sepideh Stewart (University of Oklahoma)
+ 1. [[http://math.mc.edu/travis/|John Travis]] (Mississippi College, Clinton, MS)
+ 1. [[http://scholar.harvard.edu/aravisamuel/people/vivek-venkatachalam|Vivek Venkatachalam]] (Harvard University)
+
+
 
 
 == Blog Roll ==
 
-[[http://www.beezers.org/blog/bb/|Rob Beezer]]
-[[http://mathematicseducationissues.blogspot.com/|Tom Judson]]
+* [[http://www.beezers.org/blog/bb/|Rob Beezer]]
+* [[http://mathematicseducationissues.blogspot.com/|Tom Judson]]
+* [[http://sagemath.blogspot.com/|Wiliam Stein]]
+
+== Resources ==
+
+ *
+
+== Lodging ==
+
+Arrangements for rooms at [[http://www.hoteldeca.com/|Hotel Deca]] have been made.  Please see the [[days48/travel|travel page]] for exact details on reserving a room at a special rate.
+
+
+
+== Homework ==
+ 
+ 1.  Please complete, by May 31, the pre-event [[https://www.surveymonkey.com/s/SageDaysPreWorkshopSurvey2013|survey]], which is part of the grant funding this event.
+ 1.  Please add a description of projects you plan to work on to the section below.
 
 
 
@@ -156,7 +150,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 === Rob Beezer ===
  * Keep workshop organized
  * Document my finitely-generated abelian groups patch [[#9773|http://trac.sagemath.org/sage_trac/ticket/9773]]
- * Generate a killer worksheet for [http://cloud.sagemath.org/|Salvus]] from XML source
+ * Generate a killer worksheet for [[http://cloud.sagemath.org/|Salvus]] from XML source
 
 === Martin Flashman ===
   *Work on a project for visualizing functions using mapping diagrams (aka dynagraphs) for a teaching resource on the subject for beginning algebra through calculus using SAGE.
@@ -212,6 +206,11 @@ Password:       TBA
 <<Anchor(pictures)>>
 == Pictures ==
 
+== Funding ==
+
+We have more travel funding than in the past (airfare and lodging, not food).  If you are involved with Sage, or allied projects, in an educational setting and have a project to work on during the workshop, send a request for funding, with details, to Rob Beezer, beezer@ups.edu.
+
+Anyone with any interest in the use of Sage in educational settings is welcome, and encouraged to attend, with or without funding.
 
 == Previous Sage Education Days ==
 
