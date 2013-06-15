@@ -91,7 +91,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||  9:30 AM   || Introductions||                       ||  ||
 || 20min || Sage Cell Server || Jason Grout  ||  ||
 || 20min || Using Sage cell to create an online text || Karl-Dieter Crisman || ||
-|| 20min || || Rob Beezer         ||  ||
+|| 20min || Publishing with XML || Rob Beezer         ||  ||
 || 20min || Sage Cloud || William Stein||  ||
 ||  afternoon || Working groups  ||                       ||  ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
@@ -104,6 +104,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 20min || Multivariable calculus and hyperplane arrangements || David Perkinson || ||
 || 20min || || Andrey Novoseltsev  ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
+||  3:00 PM || Discussion: Sage Book Series                        ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Ten-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDays2013Thursday|Thu Survey]] ||
 || || || ||  ||
@@ -114,6 +115,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 30min || Webwork || || ||
 || 30min || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
 ||  afternoon || Working groups                         ||                       ||  ||
+||  2:30 PM || UTMOST PI Meeting                        ||                       ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDaysPostWorkshopSurvey2013|Fri WrapUp Survey]] ||
 || || || ||  ||
@@ -126,7 +128,9 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 
 == Blog Roll ==
 
+[[http://www.beezers.org/blog/bb/|Rob Beezer]]
 [[http://mathematicseducationissues.blogspot.com/|Tom Judson]]
+
 
 
 == IRC ==
