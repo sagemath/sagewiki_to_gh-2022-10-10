@@ -4,7 +4,7 @@ June 17-21, 2013 at University of Washington in Seattle, in conjunction with [[e
 
 == Organizers ==
 
- * TBA
+ * Rob Beezer [[http://buzzard.ups.edu/]]
  * William Stein [[http://wstein.org/]]
 
 == Logistics ==
@@ -60,8 +60,8 @@ To register, please add yourself alphabetically by last name.  You need to reque
 == UW Campus Wireless ==
 
 {{{
-UW NetID:       
-Password:       
+UW NetID:   event0531    
+Password:   y7f3/y3a5/h7x4
 }}}
 
 == Projects ==
