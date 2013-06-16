@@ -199,8 +199,8 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 
 == UW Campus Wireless ==
 {{{
-UW NetID:       TBA
-Password:       TBA
+UW NetID:   event0531    
+Password:   y7f3/y3a5/h7x4
 }}}
 
 <<Anchor(pictures)>>
