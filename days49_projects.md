@@ -28,7 +28,7 @@ Combinatorics
 
 * Implementation of k-tableaux and kcharge
 
-  Anne, Jennifer
+  Anne, Jennifer, Mike
 
 * Combinatorial actions and orbit averages on posets, order polytopes, and rational functions
 
