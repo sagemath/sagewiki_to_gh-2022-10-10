@@ -58,11 +58,15 @@ Combinatorics
 
 * implement composition tableaux as a combinatorial class
 
-  Mike
+  Mike, Chris
 
 * beef up NSym/QSym functionality - dual bases, quasi-Schur and dual's, basis by Pieri rule, map to free algebra, P-partitions, Hazewinkel's lambda-Lyndon basis, quasi-Schurs
 
-  Mike, Matthieu Deneufchâtel, Darij
+  Mike, Matthieu Deneufchâtel, Darij, Chris
+
+* Finish affine symmetric group patch
+
+  Tom, Chris
 
 Representation Theory
 ---------------------
@@ -79,7 +83,7 @@ Representation Theory
 
   Travis
 
-* Make progress on fixing/reviewing rigged configurations patches (#13781, #13838, #13872)
+* Make progress on fixing/reviewing rigged configurations patches (#13871, #13838, #13872)
 
   Anne, Travis
 
