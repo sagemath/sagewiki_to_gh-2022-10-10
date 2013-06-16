@@ -2,6 +2,8 @@
 
 June 17-21, 2013 at University of Washington in Seattle, in conjunction with [[education5|Sage Education Days 5]].
 
+<<TableOfContents>>
+
 == Organizers ==
 
  * Rob Beezer [[http://buzzard.ups.edu/]]
