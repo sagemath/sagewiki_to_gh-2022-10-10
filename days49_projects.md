@@ -68,6 +68,10 @@ Combinatorics
 
   Tom, Chris
 
+* Implement BWSym and related Hopf algebras
+
+  Olivier Mallet, Ali Chouria
+
 Representation Theory
 ---------------------
 
