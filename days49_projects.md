@@ -138,9 +138,13 @@ Nicolas, Simon, Travis, Florent
 Documentation
 -------------
 
-Travis, Nathann, Florent, Mike, Simon, Nicolas, Anne
-
 * Reorganize combinat documentation
+
+  Travis, Nathann, Florent, Mike, Simon, Nicolas, Anne
+
+* Update French translation of the tutorial
+
+  Marc
 
 Teaching
 --------
@@ -149,6 +153,8 @@ Teaching
   Sage / would be useful for teaching
 
   Tom^2, Alejandro, Elizabeth, Jessica, Aladin, Austin, Laura
+
+* Update/fix doctests from the French Sage book
 
 * Marc, Nathann, Nicolas, Guillaume: fix the web version to make sure its 100%
   consistent with the paper version
