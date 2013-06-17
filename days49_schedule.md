@@ -11,7 +11,7 @@ Monday
  **Morning Session**:
 
  * 09h00 : Welcome, Sage installation, coffee
- * 10h00 : Introduction to Sage*, Tom Denton (Slides!) '<http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=view&target=TDintroSlides.pdf>'
+ * 10h00 : Introduction to Sage*, Tom Denton `(Slides!) <http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=view&target=TDintroSlides.pdf>`
  * 10h45 : Tutorial I: *Using the Sage notebook and navigating the help system*, Mathieu Guay-Paquet (UQAM)
  * 11h30 : Talk I: *Find me a basis that....*, Mike Zabrocki (York) 
            
