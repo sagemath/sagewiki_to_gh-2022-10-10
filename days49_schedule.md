@@ -19,7 +19,7 @@ Monday
            Hopf algebras (CHAs).  Ironically, one of the main open problems
            related to this area is to give a good definition of a CHA.  A 
            question that I think that Sage will help us answer is "what is the
-           fundamental basis of a combinatorial Hopf algebra?"
+           fundamental basis of a combinatorial Hopf algebra?" `slides available for talk <http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=view&target=MZslides.pdf>`_
 
  **Lunch Break**: 12h30 - 14h30
 
