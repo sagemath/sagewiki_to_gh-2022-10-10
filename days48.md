@@ -16,6 +16,7 @@ June 17-21, 2013 at University of Washington in Seattle, in conjunction with [[e
  * The [[days48/travel|travel page]] has information about area hotels.
  * Campus location: We have [[http://www.css.washington.edu/room/MEB+246|MEB 246]] and [[http://www.css.washington.edu/room/MEB+248|MEB 248]] reserved in the [[http://www.washington.edu/students/maps/map.cgi?MEB|Mechanical Engineering Building]] for the week's events.
  * Seattle, Washington (on the west coast of the USA; *not* in Washington, D.C.), on the [[http://www.washington.edu/|University of Washington]] campus.
+ * [[https://www.hfs.washington.edu/dining/Default.aspx?id=4183|Hours of on-campus coffee shops]]
 
 == Mailing List ==
 
