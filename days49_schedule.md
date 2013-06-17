@@ -28,7 +28,7 @@ Monday
  * 14h30 : *Round table and discussion of programming projects* Anne Schilling (UC Davis)
  * 15h30 : Coffee Break
  * 16h00 : Coding Sprints
- * 17h00 : Status Reports
+ * 17h00 : Coding Sprints
 
 Tuesday
 -------
