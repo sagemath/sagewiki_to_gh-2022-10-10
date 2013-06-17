@@ -12,7 +12,7 @@ Combinatorics
 
 * Implementing Stanley chromatic symmetric function for posets
 
-  Mathieu, Eric, Alejandro, Chris
+  Mathieu, Eric, Alejandro, Chris, Nathann, Yan
 
 * Implementing boards for rook placements, Le diagrams (#14127)
   
@@ -20,23 +20,32 @@ Combinatorics
   * include CombinatorialMaps if possible
   * adding documentation and doctests
     
-  Alejandro, Kevin (testing/doctests)
+  Alejandro, Kevin (testing/doctests), Bruce, Salvatore, Emily, Federico
 
 * Flow polytopes from permutation matrices and alternating sign matrices (#14654)
 
-  Jessica, Alejandro
+  Jessica, Alejandro, Nathann, Emily, Laura
 
-* Implementation of k-tableaux and kcharge
+* Implementation of k-tableaux and k-charge
 
-  Anne, Jennifer, Mike
+  Anne, Jennifer, Mike, Tom D, Olivier, Nate, Austin, Florent
 
 * Combinatorial actions and orbit averages on posets, order polytopes, and rational functions
 
-  Tom Roby, Darij, Jessica, Kevin
+  Tom Roby, Darij, Jessica, Kevin, Anne, Emma, Emily
 
-* Combinatorial Species 
+* Multivariate power series / lazy
 
-  Martin Rubey, Thursday and Friday only
+  Marguerite, Mathieu, Florent, Marc
+
+* Hypergraph visualization
+
+  Nathann
+
+* Combinatorial Species
+
+  Martin Rubey, Bruce, Mike, Florent, Tom D., Marguerite
+  Thursday and Friday only
 
   * code cleanup
   * generation of unlabelled objects for composition and functorial composition via a group action framework
@@ -46,78 +55,107 @@ Combinatorics
 
 * Conclude `OEIS <http://oeis.org>`_ ticket #10358 (rebase after #13701, last doctests, and make urls clickable from the notebook
 
-  ThierryMonteil
+  ThierryMonteil, Eric, Chris, Salvatore
 
 * More switches from CombinatorialClass to category framework
 
-  Travis
+  Travis, Mike, Anne, Mathieu, Simon, Florent
 
 * Implement LaTeX options for parking functions
 
-  Mike
+  Mike, Jean-Baptiste, Tom D.
 
-* implement composition tableaux as a combinatorial class
+* Implement composition tableaux as an enumerated set (finite? with grading?)
 
-  Mike, Chris
+  Mike, Chris, Jessica, Austin, Tom D., Elizabeth
 
-* beef up NSym/QSym functionality - dual bases, quasi-Schur and dual's, basis by Pieri rule, map to free algebra, P-partitions, Hazewinkel's lambda-Lyndon basis, quasi-Schurs
+* Beef up NSym/QSym functionality - dual bases, quasi-Schur and dual's, basis
+  by Pieri rule, map to free algebra, P-partitions (#14136), Hazewinkel's
+  lambda-Lyndon basis, quasi-Schurs, expansion in non commutative variables,
+  ...
 
-  Mike, Matthieu Deneufchâtel, Darij, Chris
+  Mike, Matthieu Deneufchâtel, Darij, Chris, Simon, Anne, Meesue
+
+* Ribbon graphs
+
+  Bruce, Emily, Chris
 
 * Finish affine symmetric group patch
 
-  Tom, Chris
+  Tom D., Chris, Anne
 
 * Implement BWSym and related Hopf algebras
 
-  Olivier Mallet, Ali Chouria
+  Olivier Mallet, Ali Chouria, Jean-Baptiste, Florent, Mike
 
 * Posets - Close outstanding tickets, optimize counting linear extensions, add poset examples (absolute order on symmetric group, etc.)
 
-  Kevin
+  Kevin, Nathann, Mathieu, Florent, Anne, Jessica, Tom R., Darij
+
+* Infinite root system: construction, display
+
+  Vivien, Nicolas, Salvatore, William, Elizabeth, Ben, Laura
 
 Representation Theory
 ---------------------
 
 * Finalize non-symmetric Macdonald polynomial patch
 
-  Anne, Nicolas
+  Anne, Nicolas, Mike
 
 * Implement monomial crystals (first version in combinat queue)
 
-  Ben, Travis
+  Ben, Travis, Arthur, Nicolas, Anne
 
 * Refactor and speedup of all crystals code (#14516, #14686, more to come)
 
-  Travis
+  Travis, Ben, Nicolas, Anne
 
 * Make progress on fixing/reviewing rigged configurations patches (#13871, #13838, #13872)
 
-  Anne, Travis
+  Anne, Travis, Chris
 
 * Representations of quivers and quiver algebras: Finish refactoring Jim's code (#12630)
 
-  Simon
+  Simon, Salvatore, Nicolas, Aladin, Florent, Ben, Tom R., Mathieu
+
+Hyperplane arrangements
+-----------------------
+
+Tom, William, Vivien, Nathann, Steven, Alejandro
 
 Categories and infrastructure
 -----------------------------
 
-Nicolas, Simon, Travis
+Nicolas, Simon, Travis, Florent
 
 * Review #10963 more functorial constructions
 * Review #11111 finite dimensional modules
 * Nested class name mangling: Understand why building the pdf documentation hangs with the patch from #9107
 * Plan the follow ups
 
+
 Documentation
 -------------
 
-Travis
+Travis, Nathann, Florent, Mike, Simon, Nicolas, Anne
 
 * Reorganize combinat documentation
 
 Teaching
 --------
+
+* Going through "Topics in Algebraic Combinatorics" and see how much is in
+  Sage / would be useful for teaching
+
+  Tom^2, Alejandro, Elizabeth, Jessica, Aladin, Austin, Laura
+
+* Marc, Nathann, Nicolas, Guillaume: fix the web version to make sure its 100%
+  consistent with the paper version
+
+* Cleanup Map-Reduce & other parallelization tools in Sage
+
+  Florent, Jean-Baptiste, Matthieu
 
 Other
 -----
@@ -128,5 +166,5 @@ Other
 * Add parallel cloning to `Sage Debian Live <http://sagedebianlive.metelu.net/>`_ USB key (ThierryMonteil)
 * `FindStat <http://www.findstat.org>`_ work
 
-  Travis, Viviane, Chris
+  Travis, Viviane, Chris, Jessica, Jean-Baptiste
 }}}
