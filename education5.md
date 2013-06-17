@@ -153,6 +153,9 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Document my finitely-generated abelian groups patch [[#9773|http://trac.sagemath.org/sage_trac/ticket/9773]]
  * Generate a killer worksheet for [[http://cloud.sagemath.org/|Salvus]] from XML source
 
+=== Chris Davis ===
+ * Organize and polish the cryptography labs that I used this past year.  A preliminary writeup is [[http://math.uci.edu/~davis/Fall2012Labs.pdf|here]] and preliminary code is [[http://math.uci.edu/~davis/Fall2012Code.sage|here]].
+
 === Martin Flashman ===
   *Work on a project for visualizing functions using mapping diagrams (aka dynagraphs) for a teaching resource on the subject for beginning algebra through calculus using SAGE.
   *Work with others on how to make these visualizations easy to create making it part of a SAGE toolbox/workspace/workbook.
