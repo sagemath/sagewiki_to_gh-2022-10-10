@@ -155,6 +155,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 
 === Chris Davis ===
  * Organize and polish the cryptography labs that I used this past year.  A preliminary writeup is [[http://math.uci.edu/~davis/Fall2012Labs.pdf|here]] and preliminary code is [[http://math.uci.edu/~davis/Fall2012Code.sage|here]].
+ * Learn how others use Sage in education.  For example, I've seen a Sage Notebook Worksheet that included instructions between the text cells; I did not know this was possible, and would like to learn how to produce such a worksheet myself.
 
 === Martin Flashman ===
   *Work on a project for visualizing functions using mapping diagrams (aka dynagraphs) for a teaching resource on the subject for beginning algebra through calculus using SAGE.
