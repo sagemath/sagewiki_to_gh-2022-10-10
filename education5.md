@@ -197,6 +197,11 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Come up with project ideas, using sage, for a discrete math for IT class
  * Make progress towards a planar lattice class (object) in sage.
 
+=== Barry Balof ===
+
+ * Investigate and build course materials for Combinatorics and Graph Theory, Multivariable Calculus, and Calculus Laboratory courses.  
+
+
 == UW Campus Wireless ==
 {{{
 UW NetID:   event0531    
