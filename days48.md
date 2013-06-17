@@ -44,7 +44,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Monday     || June 17     || || ||
 ||  9:30 AM || Introductions                         ||                       ||  ||
-||  10:00 AM || Organizational Session  (plan talks, projects, etc.)                        ||  William Stein                     ||  ||
+||  10:00 AM || Organizational Session  (plan talks, projects, etc.)                        ||  William Stein                     ||  http://youtu.be/pgtgylsKGcI  ||
 ||  2:00 PM || Organizational Session2  (plan talks, projects, etc.)                        ||  William Stein                     ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 || || || ||  ||
