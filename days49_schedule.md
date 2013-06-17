@@ -105,6 +105,7 @@ Tuesday
  **Lunch Break**: 12h30 - 14h30
 
  **Afternoon Session**, 14h30-17h30:
+ 
  * 14h00 : `FindStat <http://wiki.sagemath.org/combinat/FPSAC13>`_ Demo (Chris Berg, Viviane Pons, Travis Scrimshaw)
  * 15h30 : Coffee Break
  * 17h00 : Status Reports
