@@ -26,7 +26,7 @@ Combinatorics
 
   Jessica, Alejandro, Nathann, Emily, Laura
 
-* Implementation of k-tableaux and k-charge
+* Implementation of k-tableaux and k-charge (#12250)
 
   Anne, Jennifer, Mike, Tom D, Olivier, Nate, Austin, Florent
 
@@ -80,7 +80,7 @@ Combinatorics
 
   Bruce, Emily, Chris
 
-* Finish affine symmetric group patch
+* Finish affine symmetric group patch (#12940)
 
   Tom D., Chris, Anne
 
@@ -99,7 +99,7 @@ Combinatorics
 Representation Theory
 ---------------------
 
-* Finalize non-symmetric Macdonald polynomial patch
+* Finalize non-symmetric Macdonald polynomial patch (#14102)
 
   Anne, Nicolas, Mike
 
