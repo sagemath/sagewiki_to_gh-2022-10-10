@@ -20,7 +20,7 @@ Combinatorics
   * include CombinatorialMaps if possible
   * adding documentation and doctests
     
-  Alejandro
+  Alejandro, Kevin (testing/doctests)
 
 * Flow polytopes from permutation matrices and alternating sign matrices (#14654)
 
@@ -32,7 +32,7 @@ Combinatorics
 
 * Combinatorial actions and orbit averages on posets, order polytopes, and rational functions
 
-  Tom Roby, Darij, Jessica
+  Tom Roby, Darij, Jessica, Kevin
 
 * Combinatorial Species 
 
@@ -71,6 +71,10 @@ Combinatorics
 * Implement BWSym and related Hopf algebras
 
   Olivier Mallet, Ali Chouria
+
+* Posets - Close outstanding tickets, optimize counting linear extensions, add poset examples (absolute order on symmetric group, etc.)
+
+  Kevin
 
 Representation Theory
 ---------------------
