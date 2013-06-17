@@ -49,7 +49,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday    || June 18     || || ||
-|| 10:00 AM || Talks (until 1:00 PM?)                         ||        William Stein                   ||  ||
+|| 10:00 AM || Talks (until 1:00 PM?)                         ||                         ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
