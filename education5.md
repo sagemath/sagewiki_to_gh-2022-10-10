@@ -50,7 +50,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
 ||  9:30 AM  || Announcements || ||  ||
 ||  20min  || Cryptography || Chris Davis  ||  ||
-|| 20min || || Gregory Bard || ||
+|| 20min || Math. Finance || Gregory Bard || ||
 || 30min || Webwork || || ||
 || 30min || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
 ||  afternoon || Working groups                         ||                       ||  ||
