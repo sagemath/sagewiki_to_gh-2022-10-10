@@ -165,7 +165,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 
 === Jim Fowler ===
 
-  * Work on using Sage serverside (instead of my javascript CAS clientside) for the online homework system for [[http://mooculus.osu.edu/|(MOOCulus)]] as well as in-person calculus courses
+  * Work on using Sage serverside (instead of my javascript CAS clientside) for the online homework system for [[http://mooculus.osu.edu/|MOOCulus]] as well as in-person calculus courses
 
 === David Guichard ===
   *Work on material for a combinatorics and graph theory course.
