@@ -68,7 +68,7 @@ Tuesday
 
  * 10h00 : Coffee Break
  * 10h30 : Tutorial II: *Programming in Python and Sage*, Viviane Pons (Marne-la-Vallée)
- * 11h30 : Talk III: *Computing Ext algebras with Sage.  An F_5 algorithm for path algebra quotients*, Simon King (Friedrich Schiller U. Jena)
+ * 11h30 : Talk III: *Computing Ext algebras with Sage.  An F_5 algorithm for path algebra quotients* (`Slides <http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=view&target=ExtF5SimonKing.pdf>`_), Simon King (Friedrich Schiller U. Jena)
 
             *Abstract.* Basic algebras are finite dimensional path algebra quotients and naturally 
             occur in, e.g., representation theory of finite groups. We implement Ext algebras of 
