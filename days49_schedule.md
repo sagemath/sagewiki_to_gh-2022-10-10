@@ -67,7 +67,7 @@ Tuesday
             Grinberg, Shahrzad Haddadan, Jessica Striker, and Nathan Williams.
 
  * 10h00 : Coffee Break
- * 10h30 : Tutorial II: *Programming in Python and Sage*, Viviane Pons (Marne-la-Vallée)
+ * 10h30 : Tutorial II: *Programming in Python and Sage*, Viviane Pons (Marne-la-Vallée) (download `tutorial <http://igm.univ-mlv.fr/~pons/docs/Introduction_to_Python_and_Sage.sws>`_)
  * 11h30 : Talk III: *Computing Ext algebras with Sage.  An F_5 algorithm for path algebra quotients* (`Slides <http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=view&target=ExtF5SimonKing.pdf>`_), Simon King (Friedrich Schiller U. Jena)
 
             *Abstract.* Basic algebras are finite dimensional path algebra quotients and naturally 
