@@ -53,8 +53,8 @@ To register, please add yourself alphabetically by last name.  You need to reque
 || 10:00 AM || Talks                        ||                         ||  ||
 ||          || Symbolics                         ||   Burcin Erocal    || [[http://youtu.be/rjvMPfKuUMg|part 1]], [[http://youtu.be/8IPdRAl7ZTc|part 2]] ||
 ||          || Cloud @ Sage Math                  ||   William Stein    || [[http://youtVideou.be/sqEBmyeWc4g|Screencast]] ||
-||          || libGAP or Sage Appliance          ||   Volker Braun     ||  ||
 ||          || Sage Cell                         ||   Jason Grout      ||  ||
+||          || libGAP or Sage Appliance          ||   Volker Braun     ||  ||
 ||  1:00 PM || Lunch                     ||                         ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
 ||  4:30 PM || Discussion: Use Sage! book series|| William Stein || ||
