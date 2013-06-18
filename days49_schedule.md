@@ -35,7 +35,7 @@ Tuesday
 
  **Morning Session**:
 
- * 09h00 : Talk II: *Combinatorial Actions, Orbit Averages, and Sage Implementation*, Tom Roby (U. Connecticut) `slides!! <http://www.math.uconn.edu/~troby/homomesySageOrsay2013.pdf>`_
+ * 09h00 : Talk II: *Combinatorial Actions, Orbit Averages, and Sage Implementation*, Tom Roby (U. Connecticut) `slides!! <http://www.math.uconn.edu/~troby/homomesySageOrsay2013.pdf>`_ (open in Adobe Acrobat Reader to see animations)
 
             *Abstract*. We consider a variety of combinatorial actions on finite sets whose
             orbits have unexpected properties.  Starting with simple examples such
