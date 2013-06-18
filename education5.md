@@ -40,7 +40,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 9:30 AM || Announcements    ||   ||  ||
 || 20min || Sage Widgets for Teaching Calculus    ||   Jeff Denny          ||  ||
 || 20min || Sage in Calculus   ||   Brian Beavers          ||  ||
-|| 20min || Multivariable calculus and hyperplane arrangements || David Perkinson || ||
+|| 20min || Sage in class: MV calc. & hyp. arrangements || David Perkinson || ||
 || 20min || || Andrey Novoseltsev  ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  3:00 PM || Discussion: Sage Book Series                        ||                       ||  ||
