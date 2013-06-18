@@ -55,6 +55,7 @@ Please add your travel plans below.   With exact arrival and departure informati
 || Susan Lynds   || Sun (16th)       || Flight || Sat (22nd) || Flight || Hotel Deca||
 || TJ Hitchman   || Tues (18th) 9:20pm || Flight, Delta 996 || Sat || drive || Hotel Deca(?)||
 || J. Denny   || Tues (18th) 5:20pm || Flight, Delta  || Sat || Flight, Delta || Hotel Deca||
+|| Jim Fowler  || Wed (19th) 8:30pm || Flight, Southwest 630 || Sat 6:45am || Flight, Southwest 2213 || Silver Cloud Inn ||
 ||               ||              ||                ||               ||                || ||
 
 Note: Gregory Bard can take a roommate for the nights of the 16th, 17th, 18th, 19th, 20th, but not the 21st, 22nd, 23rd.
