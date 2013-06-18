@@ -90,6 +90,8 @@ If you're interested in attending, there may be funding for you.   Email wstein@
 
  '''Be sure to buy your plane ticket on a US carrier.'''
 
+Reimbursement for for Sage Days 48 (not Edu Days) : [[attachment:Sage-Days-48-Reimbursement-Form.pdf]]
+
 == Lodging ==
 
 2013/05/29: We had hoped to provide lodging at the Collegiana (more info on this place  on the [[uw-local-info|local information]] page).  However, they are unable to provide us with a block of rooms, so you should make a reservation at an area hotel.  Federal grant money limits reimbursement to 137 dollars a night.  More hotel suggestions are at the [[days48/travel|travel ]] page.
