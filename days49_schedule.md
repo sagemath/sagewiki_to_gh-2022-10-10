@@ -118,6 +118,7 @@ Wednesday
  * 09h00 : Tutorial III *version control* Chris Berg (UQAM)
  * 10h00 : Coffee Break
  * 10h30 : Tutorial IV: *coercion and category framework*, Simon King
+   `Tutorial worksheet <http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=get&target=TutorialCategoriesCoercion.sws>`_
 
  **Lunch Break**: 12h30 - 14h30
 
