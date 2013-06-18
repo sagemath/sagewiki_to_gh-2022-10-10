@@ -52,7 +52,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday    || June 18     || || ||
 || 10:00 AM || Talks                        ||                         ||  ||
 ||          || Symbolics                         ||   Burcin Erocal    ||  ||
-||          || Cloud @ Sage Math                  ||   William Stein    ||  ||
+||          || Cloud @ Sage Math                  ||   William Stein    || [[Screencast|http://youtu.be/sqEBmyeWc4g]] ||
 ||          || libGAP or Sage Appliance          ||   Volker Braun     ||  ||
 ||          || Sage Cell                         ||   Jason Grout      ||  ||
 ||  1:00 PM || Lunch                     ||                         ||  ||
