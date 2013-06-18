@@ -57,6 +57,9 @@ To register, please add yourself alphabetically by last name.  You need to reque
 ||          || Sage Cell                         ||   Jason Grout      ||  ||
 ||  1:00 PM || Lunch                     ||                         ||  ||
 ||  4:00 PM || Status Reports                        ||                       ||  ||
+||  4:30 PM || Discussion: Use Sage! book series|| William Stein || ||
+||      || Discussion: future of sagenb|| ? || ||
+
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
 ||  9:30 AM || Organizational Session                         ||    William Stein                       ||  ||
