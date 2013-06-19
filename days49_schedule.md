@@ -137,7 +137,7 @@ Wednesday
 
  * 10h00 : Coffee Break
  * 10h30 : Tutorial IV: *coercion and category framework*, Simon King
-   `Tutorial worksheet <http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=get&target=TutorialCategoriesCoercion.sws>`_
+   `Tutorial worksheet <http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=get&target=TutorialCategoriesCoercion.sws>`_, `original webpage <http://www.sagemath.org/doc/developer/walk_through.html>`_
 
  **Lunch Break**: 12h30 - 14h30
 
