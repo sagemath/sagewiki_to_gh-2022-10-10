@@ -30,8 +30,8 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||  9:30 AM   || Introductions||                       || [[http://youtu.be/rr04pB9ugfg|video]]  ||
 || 20min || Sage Cell Server || Jason Grout  ||  [[http://sagecell.sagemath.org/static/amsjointslides-2013/index.html|Slides]] [[http://sagecell.sagemath.org|Sage Cell server]]||
 || 20min || Using Sage cell to create an online text || Karl-Dieter Crisman || ||
-|| 20min || Publishing with XML || Rob Beezer         ||  ||
 || 20min || Sage Cloud || William Stein||  ||
+|| 20min || Publishing with XML || Rob Beezer         ||  [[http://buzzard.ups.edu/talks/beezer-2013-sage-edu-5-publish.pdf|Slides]]||
 ||  afternoon || Working groups  ||                       ||  ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM   || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageDays2013Wednesday|Wed Survey]] ||
