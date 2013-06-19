@@ -29,7 +29,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
 ||  9:30 AM   || Introductions||                       || [[http://youtu.be/rr04pB9ugfg|video]]  ||
 || 20min || Sage Cell Server || Jason Grout  || [[http://youtu.be/sBs7tBGTsZE|video]], [[http://sagecell.sagemath.org/static/amsjointslides-2013/index.html|Slides]], [[https://sagecell.sagemath.org|Sage Cell server]]||
-|| 20min || Using Sage cell to create an online text || Karl-Dieter Crisman || [[http://youtu.be/NlbfIJmdvUc|video], [[attachment:MyDemo.html|The live-created demo webpage]] [[attachment:MyTalk.rtf|Cribsheet for the talk]], [[http://www.math-cs.gordon.edu/~kcrisman/mat338/|Number Theory Notes created with Sage cell]]||
+|| 20min || Using Sage cell to create an online text || Karl-Dieter Crisman || [[http://youtu.be/NlbfIJmdvUc|video]], [[attachment:MyDemo.html|The live-created demo webpage]] [[attachment:MyTalk.rtf|Cribsheet for the talk]], [[http://www.math-cs.gordon.edu/~kcrisman/mat338/|Number Theory Notes created with Sage cell]]||
 || 20min || Sage Cloud || William Stein|| [[http://youtu.be/_vmJiZ-I7Kc|video]], [[https://github.com/williamstein/sd48/blob/master/edu-days-talk.sagews|Slides]] ||
 || 20min || Publishing with XML || Rob Beezer         ||  [[http://buzzard.ups.edu/talks/beezer-2013-sage-edu-5-publish.pdf|Slides]]||
 ||  afternoon || Working groups  ||                       ||  ||
