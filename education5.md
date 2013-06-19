@@ -28,7 +28,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
 ||  9:30 AM   || Introductions||                       || [[http://youtu.be/rr04pB9ugfg|video]]  ||
-|| 20min || Sage Cell Server || Jason Grout  ||  [[http://sagecell.sagemath.org/static/amsjointslides-2013/index.html|Slides]] [[https://sagecell.sagemath.org|Sage Cell server]]||
+|| 20min || Sage Cell Server || Jason Grout  || [[ http://youtu.be/sBs7tBGTsZE|video]], [[http://sagecell.sagemath.org/static/amsjointslides-2013/index.html|Slides]], [[https://sagecell.sagemath.org|Sage Cell server]]||
 || 20min || Using Sage cell to create an online text || Karl-Dieter Crisman || ||
 || 20min || Sage Cloud || William Stein||  ||
 || 20min || Publishing with XML || Rob Beezer         ||  [[http://buzzard.ups.edu/talks/beezer-2013-sage-edu-5-publish.pdf|Slides]]||
