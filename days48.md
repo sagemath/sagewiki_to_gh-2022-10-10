@@ -37,6 +37,8 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.math.ualberta.ca/~novoseltsev/|Andrey Novoseltsev]] (University of Alberta)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://www.math.washington.edu/~palmieri/|John Palmieri]] (University of Washington)
+ 1. R. Andrew Ohana (University of Washington)
+
 
 
 == Schedule ==
