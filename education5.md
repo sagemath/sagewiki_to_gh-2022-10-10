@@ -31,13 +31,13 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 20min || Sage Cell Server || Jason Grout  || [[http://youtu.be/sBs7tBGTsZE|video]], [[http://sagecell.sagemath.org/static/amsjointslides-2013/index.html|Slides]], [[https://sagecell.sagemath.org|Sage Cell server]]||
 || 20min || Using Sage cell to create an online text || Karl-Dieter Crisman || [[http://youtu.be/NlbfIJmdvUc|video]], [[attachment:MyDemo.html|The live-created demo webpage]] [[attachment:MyTalk.rtf|Cribsheet for the talk]], [[http://www.math-cs.gordon.edu/~kcrisman/mat338/|Number Theory Notes created with Sage cell]]||
 || 20min || Sage Cloud || William Stein|| [[http://youtu.be/_vmJiZ-I7Kc|video]], [[https://github.com/williamstein/sd48/blob/master/edu-days-talk.sagews|Slides]] ||
-|| 20min || Publishing with XML || Rob Beezer         ||  [[http://buzzard.ups.edu/talks/beezer-2013-sage-edu-5-publish.pdf|Slides]]||
 ||  afternoon || Working groups  ||                       ||  ||
 ||  4:40 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM   || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageDays2013Wednesday|Wed Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 20     || || ||
 || 9:30 AM || Announcements    ||   ||  ||
+|| 20min || Publishing with XML || Rob Beezer         ||  [[http://buzzard.ups.edu/talks/beezer-2013-sage-edu-5-publish.pdf|Slides]]||
 || 20min || Sage Widgets for Teaching Calculus    ||   Jeff Denny          ||  ||
 || 20min || Sage in Calculus   ||   Brian Beavers          ||  ||
 || 20min || Sage in class: MV calc. & hyp. arrangements || David Perkinson || ||
