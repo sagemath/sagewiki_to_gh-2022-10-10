@@ -33,7 +33,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 20min || Sage Cloud || William Stein|| [[http://youtu.be/_vmJiZ-I7Kc|video]], [[https://github.com/williamstein/sd48/blob/master/edu-days-talk.sagews|Slides]] ||
 || 20min || Publishing with XML || Rob Beezer         ||  [[http://buzzard.ups.edu/talks/beezer-2013-sage-edu-5-publish.pdf|Slides]]||
 ||  afternoon || Working groups  ||                       ||  ||
-||  4:00 PM   || Status Reports  ||                       ||  ||
+||  4:40 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM   || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageDays2013Wednesday|Wed Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 20     || || ||
@@ -44,7 +44,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 20min || Sage for undergrads via interacts and worksheets, Running own cell and notebook servers || Andrey Novoseltsev  ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  3:00 PM || Discussion: Sage Book Series                        ||                       ||  ||
-||  4:00 PM || Status Reports                        ||                       ||  ||
+||  4:40 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Ten-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDays2013Thursday|Thu Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
@@ -56,7 +56,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 30min || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] ||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  2:30 PM || UTMOST PI Meeting                        ||                       ||  ||
-||  4:00 PM || Status Reports                        ||                       ||  ||
+||  4:40 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDaysPostWorkshopSurvey2013|Fri WrapUp Survey]] ||
 || || || ||  ||
 
