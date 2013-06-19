@@ -115,7 +115,26 @@ Wednesday
 
  **Morning Session**:
 
- * 09h00 : Tutorial III *version control* Chris Berg (UQAM)
+ * 09h00 : Tutorial III *version control and contributing to sage* Chris Berg (UQAM)
+       Guides:
+
+       - `How to Referee Sage Trac Tickets`_ by William Stein
+       - `How to contribute to Sage`_ by Sébastien Labbé
+       - `Introduction to Sage Development`_ by Mike Hansen
+       - `Short step-by-step checklist for reviewing a patch`_ by Franco Saliola
+       - `Sage Developer's Guide`_:
+
+       - `Walking Through the Development Process`_
+       - `Review a patch`_
+
+ Videos:
+
+ - `Contributing to Sage : Who, What and How`_: video of a talk by William Stein
+
+ Related thematic tutorials:
+
+ - `Editing the Sage sources`_
+
  * 10h00 : Coffee Break
  * 10h30 : Tutorial IV: *coercion and category framework*, Simon King
    `Tutorial worksheet <http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=get&target=TutorialCategoriesCoercion.sws>`_
@@ -186,5 +205,21 @@ Open Presentations
 Open presentations are quick (5 to 15 minutes) presentations done by the participants. It can be demonstrations of projects done during the week. Or it can be about anything of interest to the participants including software useful for teaching or research.
 
 .. _`Digiteo Seminar`: http://www.digiteo.fr/prochaine-seance-du-seminaire-digiteo-organisee-avec
+
+.. _`How to contribute to Sage`: http://thales.math.uqam.ca/~labbes/Sage/how-to-contribute/
+.. _`How to Referee Sage Trac Tickets`: http://sagemath.blogspot.com/2010/10/how-to-referee-sage-trac-tickets.html
+.. _`Editing the Sage sources`: http://combinat.sagemath.org/doc/thematic_tutorials/tutorial-editing-sage-sources.html
+.. _`Introduction to Sage Development`: http://wiki.sagemath.org/days20.5/schedule?action=AttachFile&do=view&target=sd20.5.pdf
+.. _`Short step-by-step checklist for reviewing a patch`: https://www.evernote.com/shard/s16/sh/f30e5eb9-70a9-4882-818b-333c690942bf/d7a138e2705c25b8da6e2053950a89d5
+.. _`Sage Developer's Guide`: http://sagemath.org/doc/developer/index.html
+.. _`Walking Through the Development Process`: http://sagemath.org/doc/developer/walk_through.html
+.. _`Review a patch`: http://sagemath.org/doc/developer/walk_through.html#reviewing-a-patch
+.. _`Contributing to Sage : Who, What and How`: http://vimeo.com/14044496
+.. _`Quick reStructuredText`: http://docutils.sourceforge.net/docs/user/rst/quickref.html
+.. _`reStructuredText`: http://docutils.sourceforge.net/rst.html
+.. _`Sphinx Markup Constructs`: http://sphinx.pocoo.org/markup/index.html
+.. _`reStructuredText (saifoo.net)`: http://www.siafoo.net/help/reST/
+.. _`ReText`: http://sourceforge.net/p/retext/home/ReText
+
 
 }}}
