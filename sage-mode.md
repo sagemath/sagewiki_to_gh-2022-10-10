@@ -1,4 +1,10 @@
-'''Warning:''' I, Ivan Andrus, often forget to update this page when a new version is released.  The most recent version is always available from [[https://bitbucket.org/gvol/sage-mode/downloads]].
+'''Warning:''' I, Ivan Andrus, often forget to update this page when a new version is released.  The most recent version is always available from [[https://bitbucket.org/gvol/sage-mode/downloads]], and often simply installing with 
+
+{{{
+sage -i sage_mode
+}}}
+
+and following the instructions to finish the setup is sufficient.
 
 = sage-mode =
 
@@ -42,15 +48,11 @@ Boston, MA 02110-1301, USA.
 == Dependencies ==
 
  * sage
- * GNU Emacs (with python.el, not python-mode.el)  Currently the newest python.el (which is a rewrite by fgallina) is not fully supported.
+ * GNU Emacs with python.el, not python-mode.el.  XEmacs might work but has not been tested.
 
 == Special Update/Build Instructions ==
 
-sage-mode (version 0.7) is an optional package, so {{{sage -f sage-mode-0.7}}} should work.  You can also use version 0.9.1 [[https://bitbucket.org/gvol/sage-mode/downloads/sage_mode-0.9.1.spkg]], or follow development directly from the repository at [[http://bitbucket.org/gvol/sage-mode]].
-
-[[attachment:sage-mode-0.7.spkg]]
-
-Use {{{sage -f sage-mode-0.7.spkg}}}.  The following installation instructions are suggested:
+sage-mode (version 0.9.1) is an optional package, so {{{sage -f sage_mode}}} should work.  You can also use the latest version [[https://bitbucket.org/gvol/sage-mode/downloads/]], or follow development directly from the repository at [[http://bitbucket.org/gvol/sage-mode]].  The following installation instructions are printed when installing:
 
 A basic install might include the following Emacs Lisp in your .emacs:
 
@@ -66,14 +68,25 @@ A basic install might include the following Emacs Lisp in your .emacs:
 ;; You can use commands like
 ;; (add-hook 'sage-startup-after-prompt-hook 'sage-view-disable-inline-output)
 ;; (add-hook 'sage-startup-after-prompt-hook 'sage-view-disable-inline-plots)
-;; to enable some combination of features
+;; to enable some combination of features.  Using sage-view requires a
+;; working LaTeX installation with the preview package.
 }}}
 
 == Changelog ==
 
-=== sage-mode-0.8- (Ivan Andrus, ????) ===
+=== sage-mode-0.9.1 (Ivan Andrus, 2013-03-10) ===
+* Fixed some build issues
+
+=== sage-mode-0.9 (Ivan Andrus, 2013-03-10) ===
+* Fixed completion with new ipython
+* Fixed interaction with new python.el
+* Fixed recognition of sage-view output
+* Added sage-attach-this-file
+* Make sage-view prettier
+
+=== sage-mode-0.8 (Ivan Andrus, 2012-09-12) ===
+* Many improvements and new maintainer.
 * Not yet released.  Adds incomplete support for new python.el
-* Experimental spkg located at http://boxen.math.washington.edu/home/iandrus/sage_mode-0.8.spkg
 
 === sage-mode-0.7 (Nick Alexander, 2011-10-07) ===
 * Fix a bug reported by Ivan Andrus regarding font-lock and
@@ -170,6 +183,8 @@ First alpha version, for Mike Hansen to use and test.
 First internal version.
 
 == Old versions ==
+
+[[attachment:sage-mode-0.7.spkg]]
 
 [[attachment:sage-mode-0.6.spkg]]
 
