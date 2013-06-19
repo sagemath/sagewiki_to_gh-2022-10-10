@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Demo</title>
+    <script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
+    <script src="http://sagecell.sagemath.org/embedded_sagecell.js"></script>
+    <script>
+    sagecell.sockjs_options = {protocols_whitelist: ['xdr-streaming', 'xhr-streaming', 'iframe-eventsource', 'iframe-htmlfile', 'xdr-polling', 'xhr-polling', 'iframe-xhr-polling', 'jsonp-polling']};
+    </script>
+    <script>
+$(function () {
+    // Make *any* div with class 'compute' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.compute',
+                           evalButtonText: 'Evaluate'});
+});
+    </script>
+
+<style type="text/css">
+.sagecell .CodeMirror {
+     height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  height: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+</style>
+  </head>
+  <body>
+
+<h1>Chapter 2 - Matrices</h1>
+<h2>Chapter 2.1</h2>
+<p>How can I compute with matrices? &nbsp;</p>
+<p>First, the motivation. &nbsp;Several of you asked whether Smiley Guy could be transformed by one thing, and then another. &nbsp;Let's see!</p>
+
+<div class="compute"><script type="text/x-sage">
+t = var('t')
+
+@interact(layout=[['A','B'],['auto_update']])
+def _(A=matrix(RDF,[[1,0],[0,1]]),B=matrix(RDF,[[1,0],[0,1]]),auto_update=False):
+    ID = matrix(RDF,[[1,0],[0,1]])
+    def makeface(M):
+        pll=M*vector((-0.5,0.5))
+        plr=M*vector((-0.3,0.5))
+        prl=M*vector((0.3,0.5))
+        prr=M*vector((0.5,0.5))
+        left_eye=line([pll,plr])+point(pll,size=5)+point(plr,size=5)
+        right_eye=line([prl,prr],color='green')+point(prl,size=5,color='green')+point(prr,size=5,color='green')
+        mouth=parametric_plot(M*vector([t, -0.15*sin(2*pi*t)-0.5]), (t, -0.5, 0),color='red')+parametric_plot(M*vector([t, -0.15*sin(2*pi*t)-0.5]), (t,0,0.5),color='orange')
+        face=parametric_plot(M*vector([cos(t),sin(t)]), (t,0,pi/2),color='black')+parametric_plot(M*vector([cos(t),sin(t)]),   (t,pi/2,pi),color='lavender')+parametric_plot(M*vector([cos(t),sin(t)]), (t,pi,3*pi/2),color='cyan')+parametric_plot(M*vector([cos(t),sin(t)]),(t,3*pi/2,2*pi),color='sienna')
+        return right_eye+left_eye+face+mouth
+    html('smiley guy, then transformed by $A$, and next by $B$')
+    G = graphics_array([[makeface(ID),makeface(A),makeface(B*A)]])
+    G.show(aspect_ratio=1)
+</script>
+</div>
+
+<p>I <em<really</em> like Sage!</p>
+
+
+</body>
+</html>
