@@ -30,8 +30,8 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||  9:30 AM   || Introductions||                       ||  ||
 || 20min || Sage Cell Server || Jason Grout  ||  ||
 || 20min || Using Sage cell to create an online text || Karl-Dieter Crisman || ||
-|| 20min || Sage Cloud || William Stein||  ||
 || 20min || Publishing with XML || Rob Beezer         ||  ||
+|| 20min || Sage Cloud || William Stein||  ||
 ||  afternoon || Working groups  ||                       ||  ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM   || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageDays2013Wednesday|Wed Survey]] ||
