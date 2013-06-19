@@ -27,7 +27,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
 || || || || ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 19     || || ||
-||  9:30 AM   || Introductions||                       ||  ||
+||  9:30 AM   || Introductions||                       || [[http://youtu.be/rr04pB9ugfg|video]]  ||
 || 20min || Sage Cell Server || Jason Grout  ||  ||
 || 20min || Using Sage cell to create an online text || Karl-Dieter Crisman || ||
 || 20min || Publishing with XML || Rob Beezer         ||  ||
