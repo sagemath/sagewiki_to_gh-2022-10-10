@@ -21,6 +21,11 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
  * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
 
+
+== Pictures ==
+
+ * [[https://plus.google.com/photos/115360165819500279592/albums/5891333630845429009|William Stein's]]
+
 == Schedule ==
 
 This schedule is tentative and may change.  We are leaving plenty of time in the afternoons and evenings for small working groups that will organize at the conference to get things done.
