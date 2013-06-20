@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="article-html.xsl"?>
+
+<article>
+    <title>Derivatives and Integrals</title>
+    <author>Robert Beezer</author>
+    <email>beezer@pugetsound.edu</email>
+    <department>Department of Mathematics and Computer Science</department>
+    <institution>University of Puget Sound</institution>
+    <date>June 20, 2013</date>
+
+
+    <p>We consider integrals of functions <m>f(x)</m>.  For example, <dm>\int_0^1\,\sin^2(x)\,dx</dm></p>
+
+    <p>There is a remarkable theorem:</p>
+
+    <theorem>
+        <statement><p>If <m>f(x)</m> is continuous, and the derivative of <m>F(x)</m> is <m>f(x)</m>, then
+            <dm>\int_a^b\,f(x)\,dx=F(b)-F(a)</dm></p></statement>
+        <proof><p>Left to the reader.</p></proof>
+    </theorem>
+
+</article>
