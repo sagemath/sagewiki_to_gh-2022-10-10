@@ -62,7 +62,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 20min || Math. Finance    || Gregory Bard || ||
 || 15min || Abstract Algebra || Barry Balof || ||
 || 30min || Webwork || || ||
-|| 30min || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] [[attachment:SageSALG_MDirections.pdf|SALG Directions]]||
+|| 30min || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] [[attachment:SALG_M_Invitation.pdf|SALG Invitation]] [[attachment:SageSALG_MDirections.pdf|SALG Directions]]||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  2:30 PM || UTMOST PI Meeting                        ||                       ||  ||
 ||  4:40 PM || Status Reports                        ||                       ||  ||
