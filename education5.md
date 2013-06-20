@@ -46,7 +46,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 9:30 AM || Announcements    ||   ||  ||
 || 20min || Publishing with XML || Rob Beezer         ||  [[http://buzzard.ups.edu/talks/beezer-2013-sage-edu-5-publish.pdf|Slides]]||
 || 20min || Sage Widgets for Teaching Calculus    ||   Jeff Denny          ||  ||
-|| 20min || Sage in Calculus   ||   Brian Beavers          ||  ||
+|| 20min || Sage in Calculus   ||   Brian Beavers          ||  [[http://youtu.be/WlmcHazG8bA|video]] ||
 || 20min || Sage in class: MV calc. & hyp. arrangements || David Perkinson || ||
 || 20min || Sage for undergrads via interacts and worksheets, Running own cell and notebook servers || Andrey Novoseltsev  ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
