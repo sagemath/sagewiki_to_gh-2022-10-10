@@ -1,8 +1,8 @@
 = MathBook: An XML Application =
 
-  1. XSL transform to LaTeX [[attachment:article-latex.xsl]]
-  1. XSL transform to XHTML [[attachment:article-html.xsl]]
-  1. Example XML document  [[attachment:calculus-article.xml]]
+  1. XSL transform to LaTeX [[http://buzzard.ups.edu/mathbook/article-latex.xsl]]
+  1. XSL transform to XHTML [[http://buzzard.ups.edu/mathbook/article-html.xsl]]
+  1. Example XML document  [[http://buzzard.ups.edu/mathbook/calculus-article.xml]]
 
 To use, for example, put all files in the same directory and issue
 
