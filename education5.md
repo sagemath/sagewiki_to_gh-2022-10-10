@@ -26,6 +26,8 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
  * [[https://plus.google.com/photos/115360165819500279592/albums/5891333630845429009|William Stein's]]
 
+[[attachment:WednesdayGroupSansTravis.jpg]]
+
 == Schedule ==
 
 This schedule is tentative and may change.  We are leaving plenty of time in the afternoons and evenings for small working groups that will organize at the conference to get things done.
