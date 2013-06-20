@@ -10,3 +10,5 @@ To use, for example, put all files in the same directory and issue
 xsltproc article-latex.xsl calculus-article.xml > calculus-article.tex
 pdflatex calculus-article.tex
 }}}
+
+Or you should be able to preview 
