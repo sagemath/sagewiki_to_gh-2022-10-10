@@ -180,7 +180,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
   *Work on material for a combinatorics and graph theory course.
 
 === Andrey Novoseltsev ===
- * Figure out the best way for public posting of Sage applets like [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/MI06_three_iterated_integrals_public.html|Three Iterated Integrals]] or [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/VC01_vector_fields_public.html|Vector Field Plotter]]
+ * Figure out the best way for public posting of Sage applets like [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/MI06_three_iterated_integrals_public.html|Three Iterated Integrals]] or [[http://www.math.ualberta.ca/~novoseltsev/2013Winter215Q1/VC01_vector_fields_public.html|Vector Field Plotter]] Meanwhile here are all the applets I made so far: [[attachment:MV-Calculus-Interacts.zip]]
  * Work on issues preventing these applets from working within Sage notebook, e.g. [[http://trac.sagemath.org/sage_trac/ticket/14020|#14020 Broken layout]]
  * Figure out the best way for public posting of Sage worksheets using "modules for teaching" like [[http://trac.sagemath.org/sage_trac/ticket/14288|#14288 Interactive Simplex Method]]
 
