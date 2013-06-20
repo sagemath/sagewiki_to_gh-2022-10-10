@@ -50,6 +50,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 20min || Sage in class: MV calc. & hyp. arrangements || David Perkinson || ||
 || 20min || Sage for undergrads via interacts and worksheets, Running own cell and notebook servers || Andrey Novoseltsev  ||  ||
 ||  afternoon || Working groups                         ||                       ||  ||
+||  1:00 PM || Introduction to interacts                 ||  Jason Grout        ||  ||
 ||  3:00 PM || Discussion: Sage Book Series                        ||                       ||  ||
 ||  4:40 PM || Status Reports                        ||                       ||  ||
 ||  5:00 PM || Ten-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDays2013Thursday|Thu Survey]] ||
