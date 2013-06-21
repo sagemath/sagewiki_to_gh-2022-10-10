@@ -123,7 +123,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
 
 == Resources ==
 
- *
+ * Barry Balof's Combinatorics Quickref  [[attachment:CombinatoricsReference.pdf|PDF]]  [[attachment:CombinatoricsReference.tex|tex]]
 
 == Lodging ==
 
