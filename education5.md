@@ -24,7 +24,8 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 == Pictures ==
 
- * [[https://plus.google.com/photos/115360165819500279592/albums/5891333630845429009|William Stein's]]
+ * [[https://plus.google.com/photos/115360165819500279592/albums/5892087641640203729|William Stein (roll 2)]]
+ * [[https://plus.google.com/photos/115360165819500279592/albums/5891333630845429009|William Stein (roll 1)]]
 
 [[attachment:WednesdayGroupSansTravis.jpg]]
 
