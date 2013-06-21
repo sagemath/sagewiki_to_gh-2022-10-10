@@ -65,7 +65,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || 30min || SALG Surveys || Susan Lynds || [[attachment:SALG_MSageInstrument.pptx|PowerPoint]] [[http://www.salgsite.org/|SALG Website]] [[attachment:SALG_M_Invitation.pdf|SALG Invitation]] [[attachment:SageSALG_MDirections.pdf|SALG Directions]]||
 ||  afternoon || Working groups                         ||                       ||  ||
 ||  2:30 PM || UTMOST PI Meeting                        ||                       ||  ||
-||  4:20 PM || Status Reports                        ||                       ||  ||
+||  4:20 PM || Status Reports                        ||     [[http://youtu.be/H4hs-NxcPHg|video]]                  ||  ||
 ||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDaysPostWorkshopSurvey2013|Fri WrapUp Survey]] ||
 || || || ||  ||
 
