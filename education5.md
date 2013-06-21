@@ -60,7 +60,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||  9:30 AM  || Announcements || ||  ||
 || 20min || Cryptography   || Chris Davis  || [[https://eee.uci.edu/13s/45070/shiftcipher.html|Shift ex]], [[https://eee.uci.edu/13s/45070/subcipher.html|Sub ex]], [[attachment:DavisSlides.pdf|Slides]], [[http://youtu.be/n61BNVCuTgM|video]] ||
 || 20min || Math. Finance    || Gregory Bard || [[http://youtu.be/pwECZKcMl0A|video]] ||
-|| 15min || Abstract Algebra || Barry Balof || ||
+|| 15min || Abstract Algebra || Barry Balof ||  [[attachment:SAGETalk-Balof.pdf|Slides]]||
 || 30min || Webwork || || ||
 || 30min || SALG Surveys || Susan Lynds || [[http://www.salgsite.org/|SALG Website]] [[attachment:SALG_M_Invitation.pdf|SALG Invitation]] [[attachment:SageSALG_MDirections.pdf|SALG Directions]]||
 ||  afternoon || Working groups                         ||                       ||  ||
