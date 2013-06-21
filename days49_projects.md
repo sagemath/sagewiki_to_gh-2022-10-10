@@ -154,7 +154,7 @@ Teaching
 
   Tom^2, Alejandro, Elizabeth, Jessica, Aladin, Austin, Laura
 
-  `(Worksheet!) <http://wiki.sagemath.org/days49_schedule?action=AttachFile&do=view&target=stanley-algcombExamples.sws>`_
+  `(Worksheet!) <http://wiki.sagemath.org/days49_projects?action=AttachFile&do=view&target=stanley-algcombExamples.sws>`_
 
 * Update/fix doctests from the French Sage book
 
