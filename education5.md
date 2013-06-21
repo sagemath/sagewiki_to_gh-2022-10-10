@@ -230,6 +230,9 @@ Password:   y7f3/y3a5/h7x4
 <<Anchor(pictures)>>
 == Pictures ==
 
+||<:99%> {{sage-edu-days-5-uw-20130619.jpg}} ||
+||<:99%> Sage Edu Days 5, Work Room ||
+
 == Funding ==
 
 We have more travel funding than in the past (airfare and lodging, not food).  If you are involved with Sage, or allied projects, in an educational setting and have a project to work on during the workshop, send a request for funding, with details, to Rob Beezer, beezer@ups.edu.
