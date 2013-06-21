@@ -45,7 +45,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||<rowstyle="background-color: #E0E0FF;"> Thursday   || June 20     || || ||
 || 9:30 AM || Announcements    ||   ||  ||
 || 20min || Publishing with XML || Rob Beezer         ||  [[http://buzzard.ups.edu/talks/beezer-2013-sage-edu-5-publish.pdf|Slides]], [[http://youtu.be/2CbfOU_k110|video]] ||
-|| 20min || Sage Widgets for Teaching Calculus    ||   Jeff Denny          ||  [[attachment:SageEduDennytalk.pdf|Slides]], [[http://youtu.be/Ln3ciImMBc0|video]] ||
+|| 20min || Sage Widgets for Teaching Calculus    ||   Jeff Denny          ||  [[attachment:SageEduDennytalk.pdf|Slides]], [[http://youtu.be/Ln3ciImMBc0|video]],[[http://sagewidgets.pbworks.com]] ||
 || 20min || Sage in Calculus   ||   Brian Beavers          ||  [[http://youtu.be/WlmcHazG8bA|video]] ||
 || 20min || Sage in class: MV calc. & hyp. arrangements || David Perkinson || [[http://youtu.be/rwT_j0IOQNU|video]], [[attachment:PerkinsonSageEdu5.pdf|Slides]], [[attachment:hyperplane.sage|hyperplane.sage]] ||
 || 20min || Sage for undergrads via interacts and worksheets, Running own cell and notebook servers || Andrey Novoseltsev  || [[http://youtu.be/R5pb9kIBQEA|video]] ||
