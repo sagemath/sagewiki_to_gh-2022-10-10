@@ -232,7 +232,7 @@ Password:   y7f3/y3a5/h7x4
 
 ||<:99%> {{attachment:sage-edu-days-5-uw-20130619.jpg}} ||
 ||<:99%> Sage Edu Days 5, Work Room ||
-||<:99%> {{attachment:}} ||
+||<:99%> {{attachment:sage-edu-days-5-uw-20130621.jpg}} ||
 ||<:99%> Sage Edu Days 5, Morning Talks, Greg Bard ||
 
 == Funding ==
