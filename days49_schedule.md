@@ -196,8 +196,7 @@ Friday
 
  **Afternoon Session**, 14h30-17h30: exercises and coding sprints with coffee break and status reports
 
- * 15h30 : Coffee Break
- * 17h00 : Status Reports
+ * 15h00 : Final Status Reports
 
 Open Presentations
 ==================
