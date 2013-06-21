@@ -154,7 +154,7 @@ Teaching
 
   Tom^2, Alejandro, Elizabeth, Jessica, Aladin, Austin, Laura
 
-  [[attachment:stanley-algcombExamples.sws]]
+  [[attachment:stanley-algcombExamples.sws|Stanley examples worksheet.]]
 
 * Update/fix doctests from the French Sage book
 
