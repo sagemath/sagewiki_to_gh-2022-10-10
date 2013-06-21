@@ -230,7 +230,7 @@ Password:   y7f3/y3a5/h7x4
 <<Anchor(pictures)>>
 == Pictures ==
 
-||<:99%> {{sage-edu-days-5-uw-20130619.jpg}} ||
+||<:99%> {{attachment:sage-edu-days-5-uw-20130619.jpg}} ||
 ||<:99%> Sage Edu Days 5, Work Room ||
 
 == Funding ==
