@@ -58,7 +58,7 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Friday     || June 21     || || ||
 ||  9:30 AM  || Announcements || ||  ||
-|| 20min || Cryptography   || Chris Davis  || [[https://eee.uci.edu/13s/45070/shiftcipher.html|Shift ex]], [[https://eee.uci.edu/13s/45070/subcipher.html|Sub ex]], [[attachment:DavisSlides.pdf|Slides]] ||
+|| 20min || Cryptography   || Chris Davis  || [[https://eee.uci.edu/13s/45070/shiftcipher.html|Shift ex]], [[https://eee.uci.edu/13s/45070/subcipher.html|Sub ex]], [[attachment:DavisSlides.pdf|Slides]], [[http://youtu.be/n61BNVCuTgM|video]] ||
 || 20min || Math. Finance    || Gregory Bard || ||
 || 15min || Abstract Algebra || Barry Balof || ||
 || 30min || Webwork || || ||
