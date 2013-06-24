@@ -5,9 +5,11 @@ Our primary goal at this workshop would be to implement the computation of zeta 
 == Particulars ==
 
   * The workshop will run September 23-29, 2013
+  * Right before the [[http://www.claymath.org/workshops/NTP/|Clay Research Conference on "Number Theory and Physics"]]. 
   * The first day (September 23) will feature an introduction to Sage to new users
   * The remaining time (Septemeber 24-29) will be a "traditional" Sage Days workshop with emphasis on code development
-  * All will take place at the University of Oxford in the new Mathematical Institute building
+  * Everything will take place at the University of Oxford in the new Mathematical Institute building (UK)
+  * We are funded by the [[http://www.claymath.org|Clay Mathematics Institute]]. If you are interested in participating please let us know! 
 
 == Organizers ==
 
