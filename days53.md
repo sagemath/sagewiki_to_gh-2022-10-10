@@ -7,7 +7,7 @@ Our primary goal at this workshop would be to implement the computation of zeta 
   * The workshop will run September 23-29, 2013
   * The first day (September 23) will feature an introduction to Sage to new users
   * The remaining time (Septemeber 24-29) will be a "traditional" Sage Days workshop with emphasis on code development
-  * All takes place at the University of Oxford in the new Mathematical Institute building
+  * All will take place at the University of Oxford in the new Mathematical Institute building
 
 == Organizers ==
 
