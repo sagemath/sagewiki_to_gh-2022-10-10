@@ -10,7 +10,7 @@ A second goal for the workshop is to extend cohomology computations from toric l
   * The first day (September 23) will feature an introduction to Sage for new users
   * The remaining time (Septemeber 24-29) will be a "traditional" Sage Days workshop with emphasis on code development
   * Everything will take place at the University of Oxford in the new Mathematical Institute building (UK)
-  * We are funded by the [[http://www.claymath.org|Clay Mathematics Institute]]. If you are interested in participating please let us know! 
+  * We are funded by the [[http://www.claymath.org|Clay Mathematics Institute]]. If you are interested in participating, please let us know! 
 
 == Organizers ==
 
