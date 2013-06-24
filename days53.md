@@ -14,5 +14,5 @@ A second goal for the workshop is to extend cohomology computations from toric l
 
 == Organizers ==
 
-  * Jennifer Balakrishnan 
+  * Jennifer Balakrishnan (jen at math dot harvard dot edu)
   * Volker Braun (vbraun dot name at gmail dot com)
