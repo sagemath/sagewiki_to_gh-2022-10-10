@@ -2,6 +2,9 @@
 
 A specification for XML tags and stylesheets to create usable output.
 
+[[http://www.beezers.org/blog/bb/2013/06/shuttleworth-flash-grant/|{{attachment:Shuttleworth-Funded-Logo.jpg|Shuttleworth Funded|width=250px}}]]
+
+
 Design Goals:
 
   1. Simple for authors to use - no more complicated logically than LaTeX
