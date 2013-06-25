@@ -15,6 +15,7 @@ Output Formats:
   1.  HTML for in-browser previewing
   1.  Doctesting of Sage code examples
   1.  E-Books, once technically feasible
+  1.  Maybe a DocBook representation for conversion to other outputs
 
 Project Status:
 
@@ -37,12 +38,14 @@ Easiest: you should be able to preview the source file (calculus-article.xml) by
 Easy: use the following command to create XHTML output and view in your browser by opening the output file, which should look like:  [[[[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]].  MathJax does the math, Sage Cell Server does the code.
 
 {{{
-xsltproc article-html.xsl calculus-article.xml > calculus-html.tex
+xsltproc article-html.xsl calculus-article.xml > calculus-article.html
 }}}
 
-Alternate: issue the following to produce [[[[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]].  Sage cells are being ignored right now.  A text version of these should be easy to implement.
+Alternate: issue the following to produce [[[[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]].  Sage cells are being ignored right now.  A textual version of these should be easy to implement.
 
 {{{
 xsltproc article-latex.xsl calculus-article.xml > calculus-article.tex
 pdflatex calculus-article.tex
 }}}
+
+Advanced: create a [[https://cloud.sagemath.ocom|Sage Cloud]] worksheet from the same source.  I have this working in the lab.
