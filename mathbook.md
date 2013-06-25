@@ -4,9 +4,12 @@ A specification for XML tags and stylesheets to create usable output.
 
 Design Goals:
 
-  1. Simple for authors to use - no more complicated logically than LaTeX.
+  1. Simple for authors to use - no more complicated logically than LaTeX
   1. Capture the structure of writing about mathematics and Sage
   1. Processing into a variety of formats
+  1. A limited number of rational tags, with simple names
+  1. Minimal use of external shell scripts
+
 
 Output Formats:
 
@@ -49,3 +52,7 @@ pdflatex calculus-article.tex
 }}}
 
 Advanced: create a [[https://cloud.sagemath.ocom|Sage Cloud]] worksheet from the same source.  I have this working in the lab.
+
+== Other Projects ==
+
+ * [[http://tbookdtd.sourceforge.net/|tbook]] looks very much like what I am imagining.  I have hacked a bit of it to work with the {{{xsltproc}}} processor with mixed success.  Only [[http://tbookdtd.sourceforge.net/dtd/index.html|80 elements]].  But for a very short article, I have found cross-references broken and manufacturing a bibliography begins with BibTeX, so that requires some research (and shell scripts).
