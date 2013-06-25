@@ -23,17 +23,26 @@ Project Status:
 
 
 == Files and Examples ==
+
+Updated: June 25, 2013
+  
   (Use your browser to save these files locally, do not simply click on them)
 
-  1. XSL transform to LaTeX [[http://buzzard.ups.edu/mathbook/article-latex.xsl]]
-  1. XSL transform to XHTML [[http://buzzard.ups.edu/mathbook/article-html.xsl]]
-  1. Example XML document  [[http://buzzard.ups.edu/mathbook/calculus-article.xml]]
+  1.  [[http://buzzard.ups.edu/mathbook/calculus-article.xml|Example XML source document]]
+  1.  [[http://buzzard.ups.edu/mathbook/article-latex.xsl|XSL transform to LaTeX]]
+  1.  [[http://buzzard.ups.edu/mathbook/article-html.xsl|XSL transform to XHTML]]
 
-To use, for example, put all files in the same directory and issue
+Easiest: you should be able to preview the source file (calculus-article.xml) by opening it in a web browser with the stylesheet (article-html.xsl) in the same directory.  This works on some browsers, and not on others, so experiment.  I have used Firefox on Ubuntu with success.
+
+Easy: use the following command to create XHTML output and view in your browser by opening the output file, which should look like:  [[[[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]].  MathJax does the math, Sage Cell Server does the code.
+
+{{{
+xsltproc article-html.xsl calculus-article.xml > calculus-html.tex
+}}}
+
+Alternate: issue the following to produce [[[[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]].  Sage cells are being ignored right now.  A text version of these should be easy to implement.
 
 {{{
 xsltproc article-latex.xsl calculus-article.xml > calculus-article.tex
 pdflatex calculus-article.tex
 }}}
-
-Or you should be able to preview the source file (*.xml) by opening it in a web browser with the stylesheet (*.xsl) in the same directory.  This works on some browsers, and not on others, so experiment.  I have used Firefox on Ubuntu with success.
