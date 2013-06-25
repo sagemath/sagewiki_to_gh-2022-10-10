@@ -26,6 +26,7 @@ We'd like to hit the ground running this year, so we have a few more steps to ou
 
 == Speakers ==
 
+ * Lily Khadjavi (Loyola Marymount University)
  * Kristin Lauter (Microsoft Research) 
  * Michelle Manes (University of Hawaii)
  * Adriana Salerno (Bates College)
