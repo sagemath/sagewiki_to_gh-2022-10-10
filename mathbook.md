@@ -9,6 +9,7 @@ Design Goals:
   1. Processing into a variety of formats
   1. A limited number of rational tags, with simple names
   1. Minimal use of external shell scripts
+  1. XSLT 1.0 compatible: ideally the only required tool is xsltproc 
 
 
 Output Formats:
@@ -55,4 +56,4 @@ Advanced: create a [[https://cloud.sagemath.ocom|Sage Cloud]] worksheet from the
 
 == Other Projects ==
 
- * [[http://tbookdtd.sourceforge.net/|tbook]] looks very much like what I am imagining.  I have hacked a bit of it to work with the {{{xsltproc}}} processor with mixed success.  Only [[http://tbookdtd.sourceforge.net/dtd/index.html|80 elements]].  But for a very short article, I have found cross-references broken and manufacturing a bibliography begins with BibTeX, so that requires some research (and shell scripts).
+ * [[http://tbookdtd.sourceforge.net/|tbook]] looks very much like what I am imagining.  I have hacked a bit of it to work with the {{{xsltproc}}} processor with mixed success.  Only [[http://tbookdtd.sourceforge.net/dtd/index.html|80 elements]].  But for a very short article, I have found cross-references broken and manufacturing a bibliography begins with BibTeX, so that requires some research (and shell scripts).  Maybe some examples later.
