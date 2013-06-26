@@ -26,13 +26,13 @@ Combinatorics
 
   Jessica, Alejandro, Nathann, Emily, Laura
 
-* Implementation of k-tableaux and k-charge (#12250)
+* Implementation of k-tableaux and k-charge (#12250, #14776)
 
-  Anne, Jennifer, Mike, Tom D, Olivier, Nate, Austin, Florent
+  Anne, Mike, Tom D, Nate, Avi
 
 * Combinatorial actions and orbit averages on posets, order polytopes, and rational functions
 
-  Tom Roby, Darij, Jessica, Kevin, Anne, Emma, Emily
+  Tom Roby, Darij, Jessica, Kevin, Emma, Emily
 
 * Multivariate power series / lazy
 
@@ -80,7 +80,7 @@ Combinatorics
 
   Bruce, Emily, Chris
 
-* Finish affine symmetric group patch (#12940)
+* Finish affine symmetric group patch (#12940) Done!
 
   Tom D., Chris, Anne
 
@@ -103,11 +103,11 @@ Representation Theory
 
   Anne, Nicolas, Mike
 
-* Implement monomial crystals (first version in combinat queue)
+* Implement monomial crystals (#14759) Done and merged!
 
   Ben, Travis, Arthur, Nicolas, Anne
 
-* Refactor and speedup of all crystals code (#14516, #14686, more to come)
+* Refactor and speedup of all crystals code (#14516 Done!, #14686, more to come)
 
   Travis, Ben, Nicolas, Anne
 
