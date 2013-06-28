@@ -151,7 +151,9 @@ Thursday
 
  **Morning Session**:
 
- * 09h00 : Talk IV: *Numerical evaluation of D-finite functions: NumGfun and beyond*, Mark Mezzarobba (RISC, Johannes Kepler U. Linz  )
+ * 09h00 : Talk IV: *Numerical evaluation of D-finite functions: NumGfun and beyond*, Mark Mezzarobba (RISC, Johannes Kepler U. Linz)
+   `Slides <http://marc.mezzarobba.net/exposes/sd49-mezzarobba-20130620-slides.pdf>`_
+   `Maple worksheet <http://marc.mezzarobba.net/exposes/sd49-mezzarobba-20130620-demo.mw>`_
 
             *Abstract.* D-finite (aka holonomic) functions are complex analytic solutions of 
             linear ODEs with polynomial coefficients. The class of D-finite 
