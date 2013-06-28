@@ -17,12 +17,12 @@ Rob Beezer, beezer@pugetsound.edu
 
 === Output Formats: ===
 
-  1.  HTML web pages, enhanced with MathJax, Sage Cell server, knowls
+  1.  HTML web pages, enhanced with !MathJax, Sage Cell server, knowls
   1.  LaTeX input to create PDFs and print with {{{pdflatex}}}
   1.  HTML for in-browser previewing
   1.  Doctesting of Sage code examples
   1.  E-Books, once technically feasible
-  1.  Maybe a DocBook representation for conversion to other outputs
+  1.  Maybe a !DocBook representation for conversion to other outputs
 
 === Project Status: ===
 
@@ -42,7 +42,7 @@ Updated: June 25, 2013
 
 Easiest: you should be able to preview the source file (calculus-article.xml) by opening it in a web browser with the stylesheet (article-html.xsl) in the same directory.  This works on some browsers, and not on others, so experiment.  I have used Firefox on Ubuntu with success.
 
-Easy: use the following command to create XHTML output and view in your browser by opening the output file, which should look like:  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]].  MathJax does the math, Sage Cell Server does the code.
+Easy: use the following command to create XHTML output and view in your browser by opening the output file, which should look like:  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]].  !MathJax does the math, Sage Cell Server does the code.
 
 {{{
 xsltproc article-html.xsl calculus-article.xml > calculus-article.html
