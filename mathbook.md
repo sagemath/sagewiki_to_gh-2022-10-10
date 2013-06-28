@@ -42,20 +42,20 @@ Updated: June 25, 2013
 
 Easiest: you should be able to preview the source file (calculus-article.xml) by opening it in a web browser with the stylesheet (article-html.xsl) in the same directory.  This works on some browsers, and not on others, so experiment.  I have used Firefox on Ubuntu with success.
 
-Easy: use the following command to create XHTML output and view in your browser by opening the output file, which should look like:  [[[[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]].  MathJax does the math, Sage Cell Server does the code.
+Easy: use the following command to create XHTML output and view in your browser by opening the output file, which should look like:  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]].  MathJax does the math, Sage Cell Server does the code.
 
 {{{
 xsltproc article-html.xsl calculus-article.xml > calculus-article.html
 }}}
 
-Alternate: issue the following to produce [[[[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]].  Sage cells are being ignored right now.  A textual version of these should be easy to implement.
+Alternate: issue the following to produce [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]].  Sage cells are being ignored right now.  A textual version of these should be easy to implement.
 
 {{{
 xsltproc article-latex.xsl calculus-article.xml > calculus-article.tex
 pdflatex calculus-article.tex
 }}}
 
-Advanced: create a [[https://cloud.sagemath.ocom|Sage Cloud]] worksheet from the same source.  I have this working in the lab.
+Advanced: create a [[https://cloud.sagemath.ocom|Sage Cloud]] worksheet from the same source.  I have this working in the lab.  Posted soon.
 
 == Other Projects ==
 
