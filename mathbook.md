@@ -30,6 +30,10 @@ Rob Beezer, beezer@pugetsound.edu
   * Late-June 2013: Good basic functionality for HTML, LaTeX output
   * Mid-June 2013: initiated, not mature or stable
 
+== Commentary ==
+
+High-level commentary is recorded on my [[http://www.beezers.org/blog/bb|blog]].
+
 == Implemented Features ==
 
  * Article structure with numbered sections (subsections will be easy)
