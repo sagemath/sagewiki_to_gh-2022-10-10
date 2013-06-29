@@ -30,28 +30,28 @@ Rob Beezer, beezer@pugetsound.edu
   * Late-June 2013: Good basic functionality for HTML, LaTeX output
   * Mid-June 2013: initiated, not mature or stable
 
+== Implemented Features ==
+
+ * Article structure with numbered sections (subsections will be easy)
+ * Numbered theorems
+ * Sage input/output: live Sage cells in HTML, styled in LaTeX
+ * Bibliography + citations: knowls in HTML version
+ * Math: normal LaTeX for PDF, !MathJax in HTML, macros in source '''once'''
+
 
 == Files and Examples ==
 
-Updated: June 25, 2013
+Updated: June 28, 2013
   
-(Use your browser to save these files locally, do not simply click on them)
-
-  1.  [[http://buzzard.ups.edu/mathbook/calculus-article.xml|Example XML source document]]
-  1.  [[http://buzzard.ups.edu/mathbook/article-latex.xsl|XSL transform to LaTeX]]
-  1.  [[http://buzzard.ups.edu/mathbook/article-html.xsl|XSL transform to XHTML]]
-  1.  [[http://buzzard.ups.edu/mathbook/freebsd-docbook.css|FreeBSD documentation CSS]]
-  1.  [[http://buzzard.ups.edu/mathbook/mathbook.css|MathBook CSS]]
 
 Easiest: it would be nice if you could view the source file (calculus-article.xml) by opening it in a web browser with the stylesheet (article-html.xsl) in the same directory.  This did work on some browsers, and not on others.  I've added enough nontrivial features now that this is not working in Firefox.
 
-Easy: use the following command to create XHTML output and view in your browser by opening the output file.  You might just want to view the  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]].  !MathJax does the math, Sage Cell Server does the code, knowls do the citations.
-
+Easy: Look at the  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]]. !MathJax does the math, Sage Cell Server does the code, knowls do the citations.  Use the following command and files below to create XHTML output and view in your browser by opening the output file. 
 {{{
 xsltproc article-html.xsl calculus-article.xml > calculus-article.html
 }}}
 
-Alternate: issue the following to produce [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]].  Sage cells are being styled now.
+Alternate: Look at the  [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]], which comes from the same source.  Issue the following to produce.
 
 {{{
 xsltproc article-latex.xsl calculus-article.xml > calculus-article.tex
@@ -60,13 +60,14 @@ pdflatex calculus-article.tex
 
 Advanced: create a [[https://cloud.sagemath.com|Sage Cloud]] worksheet from the same source.  I have this working in the lab.  Posted soon.
 
-== Features ==
+Files: Use your browser to save these files locally, do not simply click on them.  If you are an author, the only file you need to understand is the first one, the XML source.
 
- * Article structure with numbered sections (subsections will be easy)
- * Numbered theorems
- * Sage input/output: live Sage cells in HTML, styled in LaTeX
- * Bibliography + citations: knowls in HTML version
- * Math: normal LaTeX for PDF, !MathJax in HTML, macros in source '''once'''
+  1.  [[http://buzzard.ups.edu/mathbook/calculus-article.xml|Example XML source document]]
+  1.  [[http://buzzard.ups.edu/mathbook/article-latex.xsl|XSL transform to LaTeX]]
+  1.  [[http://buzzard.ups.edu/mathbook/article-html.xsl|XSL transform to XHTML]]
+  1.  [[http://buzzard.ups.edu/mathbook/freebsd-docbook.css|FreeBSD documentation CSS]]
+  1.  [[http://buzzard.ups.edu/mathbook/mathbook.css|MathBook CSS]]
+
 
 == To Do ==
 
