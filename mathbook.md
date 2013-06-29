@@ -27,7 +27,7 @@ Rob Beezer, beezer@pugetsound.edu
 === Project Status: ===
 
   * Funding:  Shuttleworth Foundation Flash Grant, National Science Foundation UTMOST Grant
-  * Late-Jun 2013: Good basic functionality for HTML, LaTeX output
+  * Late-June 2013: Good basic functionality for HTML, LaTeX output
   * Mid-June 2013: initiated, not mature or stable
 
 
@@ -43,7 +43,7 @@ Updated: June 25, 2013
   1.  [[http://buzzard.ups.edu/mathbook/freebsd-docbook.css|FreeBSD documentation CSS]]
   1.  [[http://buzzard.ups.edu/mathbook/mathbook.css|MathBook CSS]]
 
-Easiest: it would be nice if you could view the source file (calculus-article.xml) by opening it in a web browser with the stylesheet (article-html.xsl) in the same directory.  This did work on some browsers, and not on others.  I've added enough nontrivial features now that this is not working.
+Easiest: it would be nice if you could view the source file (calculus-article.xml) by opening it in a web browser with the stylesheet (article-html.xsl) in the same directory.  This did work on some browsers, and not on others.  I've added enough nontrivial features now that this is not working in Firefox.
 
 Easy: use the following command to create XHTML output and view in your browser by opening the output file.  You might just want to view the  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]].  !MathJax does the math, Sage Cell Server does the code, knowls do the citations.
 
@@ -58,7 +58,27 @@ xsltproc article-latex.xsl calculus-article.xml > calculus-article.tex
 pdflatex calculus-article.tex
 }}}
 
-Advanced: create a [[https://cloud.sagemath.ocom|Sage Cloud]] worksheet from the same source.  I have this working in the lab.  Posted soon.
+Advanced: create a [[https://cloud.sagemath.com|Sage Cloud]] worksheet from the same source.  I have this working in the lab.  Posted soon.
+
+== Features ==
+
+ * Article structure with numbered sections (subsections will be easy)
+ * Numbered theorems
+ * Sage input/output: live Sage cells in HTML, styled in LaTeX
+ * Bibliography + citations: knowls in HTML version
+ * Math: normal LaTeX for PDF, !MathJax in HTML, macros in source '''once'''
+
+== To Do ==
+
+ * Cross-references
+ * Index for book structure
+ * Options for numbering sections, theorem-like structures
+ * Improved CSS for HTML
+ * Doctesting framework for Sage code
+ * Sage notebook, Sage Math Cloud output formats
+ * HTML chunking (one HTML file per section, chapter, etc)
+ * Customization options (layers, HTML head insertions)
+ * LaTeX spacing hints
 
 == Other Projects ==
 
