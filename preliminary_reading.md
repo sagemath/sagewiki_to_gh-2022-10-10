@@ -36,6 +36,9 @@ Build a Benford checker for Sage that will take as an input a (large) data set a
 
 We can do this for both the first- and second-digit Benford test. 
 
+Here is a Benford Checker for Mathematica written by Steven J. Miller at Williams:
+[[attachment:BenfordChecker.nb.zip]]
+
 
 
 === Math Project: ===
