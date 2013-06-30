@@ -19,10 +19,14 @@ Rob Beezer, beezer@pugetsound.edu
 
   1.  HTML web pages, enhanced with !MathJax, Sage Cell server, knowls
   1.  LaTeX input to create PDFs and print with {{{pdflatex}}}
-  1.  HTML for in-browser previewing
   1.  Doctesting of Sage code examples
   1.  E-Books, once technically feasible
   1.  Maybe a !DocBook representation for conversion to other outputs
+
+== Examples ==
+
+  1.  A short sample article:  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/calculus-article.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]]
+  1. A skeletal mock book: [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.pdf|PDF Output]]
 
 === Project Status: ===
 
