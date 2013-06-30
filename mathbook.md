@@ -40,42 +40,39 @@ High-level commentary is recorded on my [[http://www.beezers.org/blog/bb|blog]].
 
 == Implemented Features ==
 
- * Article structure with numbered sections (subsections will be easy)
- * Numbered theorems
+ * Article structure with numbered sections and subsections
+ * Book structure with numbered chapters, sections and subsections
+ * Mathematics: normal LaTeX for PDF, !MathJax in HTML, macros in source '''only once'''
+ * Numbered theorems and definitions (needs work, subject to changes)
  * Sage input/output: live Sage cells in HTML, styled in LaTeX
- * Bibliography + citations: knowls in HTML version
- * Math: normal LaTeX for PDF, !MathJax in HTML, macros in source '''once'''
+ * Bibliography + citations: as knowls in HTML version
+ * Basic CSS for HTML version
 
 
 == Files and Examples ==
 
-Updated: June 28, 2013
+Updated: June 29, 2013
   
-
-Easiest: it would be nice if you could view the source file (calculus-article.xml) by opening it in a web browser with the stylesheet (article-html.xsl) in the same directory.  This did work on some browsers, and not on others.  I've added enough nontrivial features now that this is not working in Firefox.
-
-Easy: Look at the  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XHTML Output]]. !MathJax does the math, Sage Cell Server does the code, knowls do the citations.  Use the following command and files below to create XHTML output and view in your browser by opening the output file. 
+HTML output: !MathJax does the math, Sage Cell Server does the code, knowls do the citations.  Use the following command and files below to create (X)HTML output and view in your browser by opening the output file. 
 {{{
-xsltproc article-html.xsl calculus-article.xml > calculus-article.html
+xsltproc mathbook-html.xsl calculus-article.xml > calculus-article.html
 }}}
 
-Alternate: Look at the  [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]], which comes from the same source.  Issue the following to produce.
+PDF: Same XML source file.  Use a different XSLT file to process.  View PDF as you please. Issue the following to produce.
 
 {{{
-xsltproc article-latex.xsl calculus-article.xml > calculus-article.tex
+xsltproc mathbook-latex.xsl calculus-article.xml > calculus-article.tex
 pdflatex calculus-article.tex
 }}}
+
+More:  repeat above with the mock book, {{{graph-theory-book.xml}}}, linked above.
 
 Advanced: create a [[https://cloud.sagemath.com|Sage Cloud]] worksheet from the same source.  I have this working in the lab.  Posted soon.
 
 Files: Use your browser to save these files locally, do not simply click on them.  If you are an author, the only file you need to understand is the first one, the XML source.
 
-  1.  [[http://buzzard.ups.edu/mathbook/calculus-article.xml|Example XML source document]]
-  1.  [[http://buzzard.ups.edu/mathbook/article-latex.xsl|XSL transform to LaTeX]]
-  1.  [[http://buzzard.ups.edu/mathbook/article-html.xsl|XSL transform to XHTML]]
-  1.  [[http://buzzard.ups.edu/mathbook/freebsd-docbook.css|FreeBSD documentation CSS]]
-  1.  [[http://buzzard.ups.edu/mathbook/mathbook.css|MathBook CSS]]
-
+  1.  [[http://buzzard.ups.edu/mathbook/mathbook-html.xsl|XSL transform to HTML]]
+  1.  [[http://buzzard.ups.edu/mathbook/mathbook-latex.xsl|XSL transform to LaTeX]]
 
 == To Do ==
 
