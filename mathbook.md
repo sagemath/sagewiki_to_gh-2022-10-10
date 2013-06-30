@@ -1,6 +1,6 @@
 = MathBook: An XML Application =
 
-A specification for XML tags and stylesheets to create usable output.
+A specification for XML tags and stylesheets to create mathematical content that yields usable output.
 
 [[http://www.beezers.org/blog/bb/2013/06/shuttleworth-flash-grant/|{{attachment:Shuttleworth-Funded-Logo.jpg|Shuttleworth Funded|width=250px}}]]
 
@@ -13,15 +13,15 @@ Rob Beezer, beezer@pugetsound.edu
   1. Processing into a variety of formats
   1. A limited number of rational tags, with simple names
   1. Minimal use of external shell scripts
-  1. XSLT 1.0 compatible: ideally the only required tool is xsltproc 
+  1. XSLT 1.0 compatible: ideally the only semi-unusual required tool is xsltproc 
 
 === Output Formats: ===
 
-  1.  HTML web pages, enhanced with !MathJax, Sage Cell server, knowls
-  1.  LaTeX input to create PDFs and print with {{{pdflatex}}}
-  1.  Doctesting of Sage code examples
+  1.  HTML web pages, enhanced with !MathJax, Sage Cell server, knowls for web browsing
+  1.  LaTeX input as precursor of PDF output  via {{{pdflatex}}} for print
+  1.  Doctesting of Sage code examples for quality assurance
   1.  E-Books, once technically feasible
-  1.  Maybe a !DocBook representation for conversion to other outputs
+  1.  Maybe a !DocBook representation for conversion to other outputs and future-proofing
 
 === Project Status: ===
 
@@ -31,8 +31,8 @@ Rob Beezer, beezer@pugetsound.edu
 
 == Examples ==
 
-  1.  A short sample article:  [[http://buzzard.ups.edu/mathbook/calculus-article.xml|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/calculus-article.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]]
-  1. A skeletal mock book: [[http://buzzard.ups.edu/mathbook/graph-theory-book.xml|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.pdf|PDF Output]]
+  1.  A short sample article:  [[http://buzzard.ups.edu/mathbook/calculus-article.xml|XML Source-Author Format]] <[[http://buzzard.ups.edu/mathbook/calculus-article.html|HTML Output]]> <[[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]]>
+  1. A skeletal mock book: [[http://buzzard.ups.edu/mathbook/graph-theory-book.xml|XML Source-Author Format]] <[[http://buzzard.ups.edu/mathbook/graph-theory-book.html|HTML Output]]> <[[http://buzzard.ups.edu/mathbook/graph-theory-book.pdf|PDF Output]]>
 
 == Commentary ==
 
@@ -77,7 +77,7 @@ Files: Use your browser to save these files locally, do not simply click on them
   1.  [[http://buzzard.ups.edu/mathbook/freebsd-docbook|FreeBSD documentation CSS]]
   1.  [[http://buzzard.ups.edu/mathbook/mathbook.css|MathBook CSS]]
 
-== To Do (unprioritized)==
+== To Do (unprioritized) ==
 
  * Cross-references
  * Table of Contents in HTML as sidebar
