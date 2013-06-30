@@ -47,4 +47,4 @@ We can also generate lots of data for the Benford fit of EDS's from lots of diff
 
 === Readings: ===
 
-Coming soon!
+Here's a very bare-bones background and project description.  Read this first.
