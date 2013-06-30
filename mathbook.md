@@ -31,8 +31,8 @@ Rob Beezer, beezer@pugetsound.edu
 
 == Examples ==
 
-  1.  A short sample article:  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/calculus-article.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]]
-  1. A skeletal mock book: [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.pdf|PDF Output]]
+  1.  A short sample article:  [[http://buzzard.ups.edu/mathbook/calculus-article.xml|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/calculus-article.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]]
+  1. A skeletal mock book: [[http://buzzard.ups.edu/mathbook/graph-theory-book.xml|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.pdf|PDF Output]]
 
 == Commentary ==
 
