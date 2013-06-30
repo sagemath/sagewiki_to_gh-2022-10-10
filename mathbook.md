@@ -76,6 +76,8 @@ Files: Use your browser to save these files locally, do not simply click on them
 == To Do ==
 
  * Cross-references
+ * Table of Contents in HTML as sidebar
+ * Definitions
  * Index for book structure
  * Options for numbering sections, theorem-like structures
  * Improved CSS for HTML
