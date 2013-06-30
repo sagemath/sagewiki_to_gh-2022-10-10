@@ -49,3 +49,15 @@ We can also generate lots of data for the Benford fit of EDS's from lots of diff
 
 Here's a very bare-bones background and project description.  Read this first.
 [[attachment:edsbenford.pdf]]
+
+These files provide more details on some pieces of the project.  They are mentioned specifically in the first reading above.
+ 
+[[attachment:Adams_Benfords-Law.pdf]]
+
+[[attachment:Fibonacci_Benford.pdf]]
+
+[[attachment:Granville_UniDistn.pdf]]
+
+[[attachment:KateThesisCh2.pdf]]
+
+[[attachment:Recursive_Benford.pdf]]
