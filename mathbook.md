@@ -23,16 +23,16 @@ Rob Beezer, beezer@pugetsound.edu
   1.  E-Books, once technically feasible
   1.  Maybe a !DocBook representation for conversion to other outputs
 
-== Examples ==
-
-  1.  A short sample article:  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/calculus-article.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]]
-  1. A skeletal mock book: [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.pdf|PDF Output]]
-
 === Project Status: ===
 
   * Funding:  Shuttleworth Foundation Flash Grant, National Science Foundation UTMOST Grant
   * Late-June 2013: Good basic functionality for HTML, LaTeX output
   * Mid-June 2013: initiated, not mature or stable
+
+== Examples ==
+
+  1.  A short sample article:  [[http://buzzard.ups.edu/mathbook/calculus-article.html|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/calculus-article.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]]
+  1. A skeletal mock book: [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|XML Source-Author Format]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.html|HTML Output]] [[http://buzzard.ups.edu/mathbook/graph-theory-book.pdf|PDF Output]]
 
 == Commentary ==
 
@@ -48,10 +48,11 @@ High-level commentary is recorded on my [[http://www.beezers.org/blog/bb|blog]].
  * Bibliography + citations: as knowls in HTML version
  * Basic CSS for HTML version
 
-
-== Files and Examples ==
+== Files and Commands, the nitty-gritty ==
 
 Updated: June 29, 2013
+
+Prerequisites:  {{{xsltproc}}} is in most Linux distributions and on Mac OS as a command-line executable.  Information on Windows availablity would be helpful - please write.  You'll need TeX to run {{{pdflatex}}}.  You can author if you also have a text editor and a browser - that is all you need.
   
 HTML output: !MathJax does the math, Sage Cell Server does the code, knowls do the citations.  Use the following command and files below to create (X)HTML output and view in your browser by opening the output file. 
 {{{
@@ -69,24 +70,27 @@ More:  repeat above with the mock book, {{{graph-theory-book.xml}}}, linked abov
 
 Advanced: create a [[https://cloud.sagemath.com|Sage Cloud]] worksheet from the same source.  I have this working in the lab.  Posted soon.
 
-Files: Use your browser to save these files locally, do not simply click on them.  If you are an author, the only file you need to understand is the first one, the XML source.
+Files: Use your browser to save these files locally, do not simply click on them.  The XSL files can be scary - not critical for an author to understand them.  You'll want the CSS to render any HTML you produce.
 
   1.  [[http://buzzard.ups.edu/mathbook/mathbook-html.xsl|XSL transform to HTML]]
   1.  [[http://buzzard.ups.edu/mathbook/mathbook-latex.xsl|XSL transform to LaTeX]]
+  1.  [[http://buzzard.ups.edu/mathbook/freebsd-docbook|FreeBSD documentation CSS]]
+  1.  [[http://buzzard.ups.edu/mathbook/mathbook.css|MathBook CSS]]
 
-== To Do ==
+== To Do (unprioritized)==
 
  * Cross-references
  * Table of Contents in HTML as sidebar
- * Definitions
- * Index for book structure
- * Options for numbering sections, theorem-like structures
+ * Index (for book structure)
+ * Options for numbering sections, theorem-like structures (hard)
  * Improved CSS for HTML
- * Doctesting framework for Sage code
+ * Doctesting framework for Sage code (easy)
  * Sage notebook, Sage Math Cloud output formats
  * HTML chunking (one HTML file per section, chapter, etc)
  * Customization options (layers, HTML head insertions)
  * LaTeX spacing hints
+ * Figures
+ * Tables
 
 == Other Projects ==
 
