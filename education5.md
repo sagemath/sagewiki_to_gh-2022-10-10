@@ -172,6 +172,8 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
   *Work on a project for visualizing functions using mapping diagrams (aka dynagraphs) for a teaching resource on the subject for beginning algebra through calculus using SAGE.
   *Work with others on how to make these visualizations easy to create making it part of a SAGE toolbox/workspace/workbook.
   *Learn how to embed SAGE in other materials- especially for my on-line calculus book. [[http://users.humboldt.edu/flashman/senscalca_x.html|(The Sensible Calculus Book)]]
+  *** If you go to my page for The Sensible Calculus Book you will find how I've added SAGE to this page- with interacts for graphs, direction fields and Euler's Method for DE's as well as one of the mapping diagram interacts I am developing from the assistance of Jeff Denny, Jason Grout, and others. I would like feedback on this if you have suggestions- I have currently hidden the code from the users using the interact buttons. IS it better to show the code?
+ALSO- I have a new demo of using Geogebra on the same page to do similar  things with graphs and mapping diagrams dynamically. Is there some way to have Geogebra and SAGE interact?
 
 === Jim Fowler ===
 
