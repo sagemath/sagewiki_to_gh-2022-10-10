@@ -11,4 +11,6 @@ An edition of the Sage Days titled ''Algorithms in Arithmetic Geometry'' will ta
  4. Working on computing semi-stable models of curves over local fields. The goal is a practical implementation of the algorithms that follow from the new proof of Deligne and Mumford's stable reduction theorem in: K. Arzdorf and S. Wewers, A local proof of the semistable reduction theorem, [[http://arxiv.org/abs/1211.4624|arXiv:1211.4624]]. This is worked out for superelliptic curves (''y^n^'' = ''f''(''x'') with ''n'' not divisible by the residue characteristic) by I. Bouw and S. Wewers, Computing ''L''-functions and semistable reduction of superelliptic curves, [[http://arxiv.org/abs/1211.4459|arXiv:1211.4459]].
 
 For further information, see the [[http://www.lorentzcenter.nl/lc/web/2013/571/info.php3?wsid=571&venue=Snellius|workshop webpage]] or contact one of the organizers:
-[[http://user.math.uzh.ch/bruin/|Peter Bruin]] [[http://www.mderickx.nl/|Maarten Derickx]] [[http://www.math.leidenuniv.nl/~mkosters/|Michiel Kosters]]  
+[[http://user.math.uzh.ch/bruin/|Peter Bruin]] [[http://www.mderickx.nl/|Maarten Derickx]] [[http://www.math.leidenuniv.nl/~mkosters/|Michiel Kosters]] 
+
+Temporary schedule: [[https://docs.google.com/document/d/1V1PjF_6a2h_8T9XTGaiBGOwX_0_7Rtap_00jEqbx8HA/|Schedule]]
