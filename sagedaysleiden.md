@@ -25,8 +25,8 @@ For further information, see the [[http://www.lorentzcenter.nl/lc/web/2013/571/i
  * Tickets:
 
 === Function fields ===
- * People:
- * Tickets:
+ * People: 
+ * Tickets: Trac 12141: [[http://trac.sagemath.org/sage_trac/ticket/12141|Implement finite algebras]]
 
 === Galois representations ===
  * People:
