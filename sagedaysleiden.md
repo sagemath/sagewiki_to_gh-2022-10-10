@@ -19,21 +19,19 @@ For further information, see the [[http://www.lorentzcenter.nl/lc/web/2013/571/i
  4. Working on computing semi-stable models of curves over local fields. The goal is a practical implementation of the algorithms that follow from the new proof of Deligne and Mumford's stable reduction theorem in: K. Arzdorf and S. Wewers, A local proof of the semistable reduction theorem, [[http://arxiv.org/abs/1211.4624|arXiv:1211.4624]]. This is worked out for superelliptic curves (''y^n^'' = ''f''(''x'') with ''n'' not divisible by the residue characteristic) by I. Bouw and S. Wewers, Computing ''L''-functions and semistable reduction of superelliptic curves, [[http://arxiv.org/abs/1211.4459|arXiv:1211.4459]].
 
 == Project Groups ==
-People:
-Tickets:
 
 === Finite fields ===
-People: 
-Tickets:
+ * People: 
+ * Tickets:
 
 === Function fields ===
-People:
-Tickets:
+ * People:
+ * Tickets:
 
 === Galois representations ===
-People:
-Tickets:
+ * People:
+ * Tickets:
 
 === Semi-stable models ===
-People:
-Tickets:
+ * People:
+ * Tickets:
