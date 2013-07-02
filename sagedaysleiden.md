@@ -10,7 +10,7 @@ For further information, see the [[http://www.lorentzcenter.nl/lc/web/2013/571/i
 
 == Proposed projects ==
 
- 1. Speeding up operations with finite fields in Sage. Faster finite fields will mean that the algorithms in the other projects will also be significantly faster. According to [[https://groups.google.com/forum/#!msg/sage-nt/4tu8csrrWJo/gxY95f8s5FkJ|a Google groups discussion]] it should be relatively easy to speed up operations in finite fields of cardinality larger than 2^16 by a factor of 10.
+ 1. Speeding up operations with finite fields in Sage. Faster finite fields will mean that the algorithms in the other projects will also be significantly faster. According to [[https://groups.google.com/forum/#!msg/sage-nt/4tu8csrrWJo/gxY95f8s5FkJ|a Google groups discussion]] it should be relatively easy to speed up operations in finite fields of cardinality larger than 2^16 by a factor of 10. Is it also possible to implement `standard models' of finite fields?
 
  2. Enhancing the function field functionality of Sage. In particular, it is important to have algorithms for computing with Jacobians of algebraic curves. It is desirable to implement two different frameworks, each with its own advantages: one developed by F. Hess (Computing relations in divisor class groups of algebraic curves over finite fields, [[http://www.staff.uni-oldenburg.de/florian.hess/publications/dlog.pdf|PDF]]) and the other developed by K. Khuri-Makdisi (Asymptotically fast group operations on Jacobians of general curves, [[http://arxiv.org/abs/math/0409209|arXiv:0409209]]). This project is motivated by the following two projects. 
 
