@@ -15,14 +15,14 @@ This arithmetic mirror symmetry phenomenon has been studied extensively for the 
 
 === References on Arithmetic Mirror Symmetry ===
 
- * Philip Candelas, Xenia de la Ossa, Fernando Rodriguez-Villegas, [[http://arxiv.org/abs/hep-th/0012233| "Calabi-Yau Manifolds Over Finite Fields, I"]
- * Philip Candelas, Xenia de la Ossa, Fernando Rodriguez-Villegas, [[http://arxiv.org/abs/hep-th/0402133| "Calabi-Yau Manifolds Over Finite Fields, II"]
+ * Philip Candelas, Xenia de la Ossa, Fernando Rodriguez-Villegas, [[http://arxiv.org/abs/hep-th/0012233 | "Calabi-Yau Manifolds Over Finite Fields, I"]
+ * Philip Candelas, Xenia de la Ossa, Fernando Rodriguez-Villegas, [[http://arxiv.org/abs/hep-th/0402133 | "Calabi-Yau Manifolds Over Finite Fields, II"]
    * Congruent zeta function
 
 
 === References on Polytopes and Toric Varieties ===
  
- * Doran and Whitcher, [[http://people.uwec.edu/whitchua/notes/reflexivepolytopesarticle.pdf| "From Polytopes to String Theory"]]
+ * Doran and Whitcher, [[http://people.uwec.edu/whitchua/notes/reflexivepolytopesarticle.pdf | "From Polytopes to String Theory"]]
   * This popular introduction to the subject appeared in ''Math Magazine''
 
  * Chapter 7 of Vafa and Zaslow, ed.s, ''Mirror Symmetry''
