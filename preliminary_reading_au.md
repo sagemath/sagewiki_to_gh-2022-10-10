@@ -15,6 +15,10 @@ This arithmetic mirror symmetry phenomenon has been studied extensively for the 
 
 === References on Arithmetic Mirror Symmetry ===
 
+ * Philip Candelas, Xenia de la Ossa, Fernando Rodriguez-Villegas, [[http://arxiv.org/abs/hep-th/0012233| "Calabi-Yau Manifolds Over Finite Fields, I"]
+ * Philip Candelas, Xenia de la Ossa, Fernando Rodriguez-Villegas, [[http://arxiv.org/abs/hep-th/0402133| "Calabi-Yau Manifolds Over Finite Fields, II"]
+   * Congruent zeta function
+
 
 === References on Polytopes and Toric Varieties ===
  
