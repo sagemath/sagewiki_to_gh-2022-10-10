@@ -11,9 +11,13 @@ In string theory, Calabi-Yau varieties describe extra dimensions of the universe
 
 Suppose we have an algebraic variety ''X'' over a finite field ''K''.  The congruent zeta function (also known as the Hasse-Weil zeta function) is a generating function for the number of points on ''X'' over finite extensions of ''K''.  By results of Dwork, the congruent zeta function is rational, and can be written as a ratio of polynomials with integer coefficients with degrees depending on the Betti numbers of ''X''.  Mirror symmetry for Calabi-Yau threefold mirror pairs predicts that the Hodge numbers ''h''^1,1^ and ''h''^2,1^ are interchanged.  The possible implications of this exchange for the arithmetic structure of the varieties were first explored in the physics literature in 2000 by Candelas, de la Ossa, and Rodriguez-Villegas.  In particular, because the Hodge numbers control the Betti numbers, it follows that mirror symmetry will be reflected in the congruent zeta functions of mirror pairs.  
 
-This arithmetic mirror symmetry phenomenon has been studied extensively for the case where ''X'' is a Fermat hypersurface in projective or weighted projective space.  We are interested in the case where ''X'' is a hypersurface in a toric variety.  In this setting, Batyrev showed that the mirror of ''X'' can be constructed using the combinatorial information of a ''reflexive polytope''.  
+This arithmetic mirror symmetry phenomenon has been studied extensively for the case where ''X'' is a Fermat hypersurface in projective or weighted projective space.  We are interested in the case where ''X'' is a hypersurface in a toric variety.  In this setting, Batyrev showed that the mirror of ''X'' can be constructed using the combinatorial information of a ''reflexive polytope''.  Sage already incorporates functionality for working with reflexive polytopes and the corresponding toric varieties.  We would like to experiment with counting points on hypersurfaces in toric varieties over finite fields, with the goal of comparing congruent zeta functions for mirror families of varieties.
 
 === References on Arithmetic Mirror Symmetry ===
 
 
 === References on Polytopes and Toric Varieties ===
+
+ * Chapter 7 of Vafa and Zaslow, ed.s, ''Mirror Symmetry''
+   * [[http://www.claymath.org/publications/Mirror_Symmetry/ | Book webpage]]
+   * [[http://www.claymath.org/library/ | Download PDF from Clay Math website]]
