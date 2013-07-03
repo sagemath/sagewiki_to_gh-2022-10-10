@@ -17,7 +17,17 @@ This arithmetic mirror symmetry phenomenon has been studied extensively for the 
 
 
 === References on Polytopes and Toric Varieties ===
+ 
+ * Doran and Whitcher, [[http://people.uwec.edu/whitchua/notes/reflexivepolytopesarticle.pdf| "From Polytopes to String Theory"]]
+  * This popular introduction to the subject appeared in ''Math Magazine''
 
  * Chapter 7 of Vafa and Zaslow, ed.s, ''Mirror Symmetry''
    * [[http://www.claymath.org/publications/Mirror_Symmetry/ | Book webpage]]
    * [[http://www.claymath.org/library/ | Download PDF from Clay Math website]]
+
+ * Cox, Little, and Schenck, ''Toric Varieties''
+   * [[http://www.cs.amherst.edu/~dac/toric.html | Book webpage]]
+   * A PDF preprint was formerly available on Cox's website
+
+ * Cox and Katz, ''Mirror Symmetry''
+  * [[http://books.google.com/books/about/Mirror_Symmetry_and_Algebraic_Geometry.html?id=vwL4ZewC81MC | Preview on Google Books]]
