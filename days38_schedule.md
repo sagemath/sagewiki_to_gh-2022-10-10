@@ -1,7 +1,7 @@
 {{{#!rst
 
-Preliminary Schedule for Sage Days 38
-=====================================
+Final Schedule for Sage Days 38
+===============================
 
  **Morning sessions** will will include talks, tutorials and open presentations.
 
