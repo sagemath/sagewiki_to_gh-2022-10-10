@@ -35,6 +35,9 @@ We'd like to hit the ground running this year, so we have a few more steps to ou
 
 == Schedule ==
 
+All talks on Wednesday and Thursday will take place in Thomson 325 http://www.washington.edu/maps/embed/?place=234
+ 
+[[attachment:WiSD4_schedule.pdf]]
 
 == Getting Started ==
  * [[http://wiki.sagemath.org/DownloadAndInstallationGuide|Installing Sage]]
