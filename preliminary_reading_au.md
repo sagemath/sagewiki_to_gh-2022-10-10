@@ -21,6 +21,8 @@ This arithmetic mirror symmetry phenomenon has been studied extensively for the 
  * Sperber and Voight, [[http://www.math.dartmouth.edu/~jvoight/articles/sparse-dwork-031913.pdf|"Computing zeta functions of nondegenerate hypersurfaces with few monomials"]]
  * Chiu Fai Wong, [[http://arxiv.org/abs/0811.0887 | "Zeta Functions of Projective Toric Hypersurfaces over Finite Fields"]]
    * Despite the name, this really just does zeta functions for simplices, which correspond to weighted projective spaces.  Wong was a student of Daqing Wan. 
+ * Daqing Wan, [[http://www.math.uci.edu/~dwan/mirror.pdf | Mirror Symmetry For Zeta Functions]]
+   * Mentions Gauss sums
 
 
 === References on Polytopes and Toric Varieties ===
