@@ -30,7 +30,7 @@ We'd like to hit the ground running this year, so we have a few more steps to ou
 
  * Lily Khadjavi (Loyola Marymount University)
  * Kristin Lauter (Microsoft Research) 
- * Michelle Manes (University of Hawaii)
+ * Michelle Manes (University of Hawaii) Slides: [[attachment:Benford_SageDays.pdf]]
  * Adriana Salerno (Bates College)
  * Ursula Whitcher (University of Wisconsin - Eau Claire)
 
