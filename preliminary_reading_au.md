@@ -19,7 +19,7 @@ This arithmetic mirror symmetry phenomenon has been studied extensively for the 
  * Philip Candelas, Xenia de la Ossa, Fernando Rodriguez-Villegas, [[http://arxiv.org/abs/hep-th/0402133 | "Calabi-Yau Manifolds Over Finite Fields, II"]]
    * Congruent zeta function
  * Chiu Fai Wong, [[http://arxiv.org/abs/0811.0887 | "Zeta Functions of Projective Toric Hypersurfaces over Finite Fields"]]
-   * Despite the name, this really just does zeta functions for simplices, which correspond to weighted projective spaces.  Wong was a student of 
+   * Despite the name, this really just does zeta functions for simplices, which correspond to weighted projective spaces.  Wong was a student of Daqing Wan. 
 
 
 === References on Polytopes and Toric Varieties ===
