@@ -66,3 +66,8 @@ All talks on Wednesday and Thursday will take place in Thomson 325 http://www.wa
 
  * Organizers: Aly Deines (UW), Jennifer Balakrishnan (Harvard)
  * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
+
+
+== Important Coding Lessons ==
+
+ * Sage is object-oriented.  If you're creating a patch that adds a function, your function probably needs to be associated with an object.
