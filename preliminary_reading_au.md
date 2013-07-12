@@ -23,8 +23,13 @@ This arithmetic mirror symmetry phenomenon has been studied extensively for the 
    * Despite the name, this really just does zeta functions for simplices, which correspond to weighted projective spaces.  Wong was a student of Daqing Wan. 
  * Daqing Wan, [[http://www.math.uci.edu/~dwan/mirror.pdf | Mirror Symmetry For Zeta Functions]]
    * Mentions Gauss sums
+
+
+=== References on Zeta Functions of K3 Surfaces ===
+
  * Matthias Schuett, [[http://arxiv.org/abs/1202.1066| Two lectures on the arithmetic of K3 surfaces]]
    * Nice reference for facts about K3 surfaces
+ * Scott Ahlgren, Ken Ono and David Penniston, [[http://www.jstor.org/stable/25099117 | Zeta Functions of an Infinite Family of K3 Surfaces]]
 
 
 === References on Polytopes and Toric Varieties ===
