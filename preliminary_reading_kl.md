@@ -5,4 +5,4 @@ In this project we study Belyi maps for elliptic curves and their use as a sourc
 Primary reference: http://myweb.lmu.edu/lkhadjavi/BelyiElliptic.pdf
 
 Talk slides:
-[[attachment:puttitlehere]]
+[[attachment:Sage Days 50 slides]]
