@@ -1,16 +1,16 @@
 = Dynamics in Sage =
 
+This page is an organization wiki for the implementation in Sage of various algorithms related to dynamics.
+
 == Introduction ==
 
-Different aspects of dynamical systems involving computers
+Different aspects of dynamical systems involves computers
 
   * simulation and experimentation
-  * prospection of combinatorial structures associated to dynamical systems (coded as infinite words, ...)
-  * intrinsically discrete dynamics: shifts, cellular automata, ...
   * numerical algorithms seen as dynamical systems
+  * prospection of combinatorial structures associated to dynamical systems (infinite words, ...)
+  * intrinsically discrete dynamics: shifts, cellular automata, ...
   * ...
-
-This page is an organization wiki for the implementation in Sage of various algorithms related to dynamics. All of the code is accessible to anyone interested. Where marked the code is available on the "sage-combinat" public server.
 
 == Quick links ==
 
