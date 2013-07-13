@@ -17,6 +17,7 @@ We'd like to hit the ground running this year, so we have a few more steps to ou
 == Projects ==
   
  * [[preliminary reading|Preliminary reading for Michelle's project]]
+   *Notes (from Amy and Anne): Our group has a Benford prediction and a Benford count function written.  We also have a chi squared test using the prediction and count.  It is important to note that our null hypothesis is that there is no correlation between the prediction and the actual count--thus, we want to have high p-values for sequences that follow the Benford distribution. 
  * [[preliminary reading au|Introduction and references for Adriana and Ursula's project]]
  * [[preliminary reading kl|Preliminary reading for Kristin and Lily's project.]]
 
