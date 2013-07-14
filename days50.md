@@ -72,6 +72,9 @@ Saturday's schedule has been changed.  Saturday morning is a free morning.  We'l
 
 [[attachment:Groupphoto.jpg]]
 
+== Tickets to review ==
+ * Adriana and Ursula's group have a patch up on trac. It's ticket #14880 if anyone would like to review it.
+
 == Important Coding Lessons ==
 
  * Sage is object-oriented.  If you're creating a patch that adds a function, your function probably needs to be associated with an object.
