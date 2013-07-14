@@ -64,12 +64,14 @@ Saturday's schedule has been changed.  Saturday morning is a free morning.  We'l
  * Kate Thompson (University of Georgia)
  * Christelle Vincent (Stanford)
 
-
 == Other Info ==
 
  * Organizers: Aly Deines (UW), Jennifer Balakrishnan (Harvard)
  * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
 
+== Group Photo ==
+
+[[attachment:Groupphoto]]
 
 == Important Coding Lessons ==
 
