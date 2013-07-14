@@ -47,3 +47,7 @@ This arithmetic mirror symmetry phenomenon has been studied extensively for the 
 
  * Cox and Katz, ''Mirror Symmetry''
   * [[http://books.google.com/books/about/Mirror_Symmetry_and_Algebraic_Geometry.html?id=vwL4ZewC81MC | Preview on Google Books]]
+
+== Slides for the introductory talks ==
+
+Adriana's slides: [[attachment:sagedaystalk.pdf]]
