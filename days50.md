@@ -71,7 +71,7 @@ Saturday's schedule has been changed.  Saturday morning is a free morning.  We'l
 
 == Group Photo ==
 
-[[attachment:Groupphoto]]
+[[attachment:Groupphoto.jpg]]
 
 == Important Coding Lessons ==
 
