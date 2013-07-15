@@ -79,3 +79,7 @@ Saturday's schedule has been changed.  Saturday morning is a free morning.  We'l
 == Important Coding Lessons ==
 
  * Sage is object-oriented.  If you're creating a patch that adds a function, your function probably needs to be associated with an object.
+
+== Cake! ==
+
+[[attachment:Rhubarb cake.pdf]]
