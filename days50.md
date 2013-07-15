@@ -17,6 +17,7 @@ We'd like to hit the ground running this year, so we have a few more steps to ou
 == Projects ==
   
  * [[preliminary reading|Preliminary reading for Michelle's project]]
+ * [[progress report | Progress report for Michelle's project ]]
  * [[preliminary reading au|Introduction and references for Adriana and Ursula's project]]
  * [[preliminary reading kl|Preliminary reading for Kristin and Lily's project.]]
 
