@@ -1,4 +1,4 @@
-Here is the [[attachment: /Users/amyfeaver/Desktop/Benford.py | Benford checker]]. If you want to use it in conjunction with elliptic divisibility sequences, which are not in Sage, Kate Stange has a class to deal with these on [[http://math.colorado.edu/~kstange/scripts.html | her website]]. Some notes on this:
+Here is the [[attachment:Benford.py | Benford checker]]. If you want to use it in conjunction with elliptic divisibility sequences, which are not in Sage, Kate Stange has a class to deal with these on [[http://math.colorado.edu/~kstange/scripts.html | her website]]. Some notes on this:
 
  * You should only use this with non-integer bases, because the computations are suffering some rounding errors since, as far as I know, Sage computes logs in non-integer bases by doing ln(number)/ln(b). Until the bug (which was reported) gets fixed in Sage, if you are using an int base in your logs, you should coerce the numbers into integers first and not leave them as reals, because those are calculated more accurately in Sage.
 
