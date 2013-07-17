@@ -2,15 +2,15 @@
 
 An edition of the Sage Days titled ''Algorithms in Arithmetic Geometry'' will take place at the [[http://www.lorentzcenter.nl/|Lorentz Center]] in Leiden from 22­-26 July 2013.
 
-Further information:
+This page currently contains descriptions of the projects that we would like to work on during this week.  It will be expanded as the workshop proceeds.
+
+Here are some pointers to further information related to this workshop:
 
  * [[http://www.lorentzcenter.nl/lc/web/2013/571/info.php3?wsid=571&venue=Snellius|Lorentz Center workshop webpage]]
  * [[https://docs.google.com/document/d/1V1PjF_6a2h_8T9XTGaiBGOwX_0_7Rtap_00jEqbx8HA/|Schedule of the workshop]]
+ * [[http://trac.sagemath.org/sage_trac/wiki/sd51|Overview of project groups and tickets on the Sage Trac server]]
  * Homepages of the organizers, with contact information: [[http://user.math.uzh.ch/bruin/|Peter Bruin]] [[http://www.mderickx.nl/|Maarten Derickx]] [[http://www.math.leidenuniv.nl/~mkosters/|Michiel Kosters]] 
 
-== Project groups and Trac tickets ==
-
-[[http://trac.sagemath.org/sage_trac/wiki/sd51|Overview of project groups and tickets on the Sage Trac server]]
 
 == Proposed projects ==
 
