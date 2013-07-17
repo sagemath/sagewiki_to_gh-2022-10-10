@@ -18,7 +18,11 @@ There will be four main (proposed) projects during this week.
 
 === Finite fields ===
 
-First, operations in finite fields of cardinality larger than $2^{16}$ can be drastically sped up; one solution is available for testing at [[http://trac.sagemath.org/sage_trac/ticket/12142|Trac #12142]]. (See also [[https://groups.google.com/forum/#!msg/sage-nt/4tu8csrrWJo/gxY95f8s5FkJ|a discussion on the sage-nt list]].) Faster finite fields will mean that the algorithms in the other projects will also be significantly faster. Second, more functionality for embeddings between finite fields is needed; see Trac tickets [[http://trac.sagemath.org/sage_trac/ticket/8335|#8335]], [[http://trac.sagemath.org/sage_trac/ticket/11938|#11938]], [[http://trac.sagemath.org/sage_trac/ticket/13214|#13214]]. Is it also possible to implement `standard models' of finite fields?
+First, operations in finite fields of cardinality larger than $2^{16}$ can be drastically sped up; one solution is available for testing at [[http://trac.sagemath.org/sage_trac/ticket/12142|Trac #12142]]. (See also [[https://groups.google.com/forum/#!msg/sage-nt/4tu8csrrWJo/gxY95f8s5FkJ|a discussion on the sage-nt list]].) Faster finite fields will mean that the algorithms in the other projects will also be significantly faster.
+
+Second, more functionality for embeddings between finite fields is needed; see Trac tickets [[http://trac.sagemath.org/sage_trac/ticket/8335|#8335]], [[http://trac.sagemath.org/sage_trac/ticket/11938|#11938]], [[http://trac.sagemath.org/sage_trac/ticket/13214|#13214]].
+
+Another question: is it possible to implement `standard models' of finite fields?
 
 === Function fields and curves ===
 
