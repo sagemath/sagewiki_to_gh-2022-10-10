@@ -58,7 +58,7 @@ Fall 2012: CIMPA Summer school in Bobo-Dioulasso, Burkina Faso
   - rigged configurations
   - thematic tutorials
   - ...
-
+:Application material: http://wstein.org/grants/2010-compmath-combinat/
 
 2010-201?: ANR
 --------------
