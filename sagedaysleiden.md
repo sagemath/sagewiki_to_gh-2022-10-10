@@ -10,7 +10,7 @@ Here are some pointers to further information related to this workshop:
  * [[https://docs.google.com/document/d/1V1PjF_6a2h_8T9XTGaiBGOwX_0_7Rtap_00jEqbx8HA/|Schedule of the workshop]]
  * [[http://trac.sagemath.org/sage_trac/wiki/sd51|Overview of project groups and tickets on the Sage Trac server]]
  * Homepages of the organizers, with contact information: [[http://user.math.uzh.ch/bruin/|Peter Bruin]] [[http://www.mderickx.nl/|Maarten Derickx]] [[http://www.math.leidenuniv.nl/~mkosters/|Michiel Kosters]] 
-
+ * [[https://cloud.sagemath.com/|Sage Cloud]], [[https://www.youtube.com/watch?v=IrMsl3lzNE8|Sage Cloud introduction lecture]]
 
 == Proposed projects ==
 
