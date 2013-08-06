@@ -51,6 +51,7 @@ Saturday's schedule has been changed.  Saturday morning is a free morning.  We'l
  * [[attachment:Patch How To]]
  * [[attachment:Reviewing Patches How To.rtf]]
  * [[attachment:Trac Ticket How To.rtf]]
+ * InstallingSageOnTheCloud
 
 == Participants ==
 
