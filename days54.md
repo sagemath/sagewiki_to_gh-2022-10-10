@@ -16,17 +16,13 @@ Coming soon.
 
 === Projects ===
 
-The specific problems addressed at this workshop will be decided upon the interests of the participants. The following general topics are proposed:
+The general topics taht will be addressed at this workshop are the following:
 
- * Implement basic functions for matrices over DVR (e.g. Hermite and Smith decomposition)
+ * Discussion of the new Sage workflow using git.
 
- * Implement extensions of p-adics (currently only unramified and totally ramified extensions are available)
+ * Work on how to integrate the combinat queue into the new workflow.
 
- * Write classes for series over DVR
-
- * Design a general framework for precision
-
- * Review several tickets related to p-adics
+ * General bug fixes.
 
 === Location ===
 
