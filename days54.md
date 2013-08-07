@@ -16,7 +16,7 @@ Coming soon.
 
 === Projects ===
 
-The general topics taht will be addressed at this workshop are the following:
+The general topics that will be addressed at this workshop are the following:
 
  * Discussion of the new Sage workflow using git.
 
