@@ -34,6 +34,7 @@ The general topics that will be addressed at this workshop are the following:
  * Andrew Ohana
  * Volker Braun
  * Nate Gallup
+ * Viviane Pons
 
 ==== Organizers ====
 
