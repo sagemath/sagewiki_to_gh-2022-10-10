@@ -42,6 +42,7 @@ Here are some useful links:
  * Volker Braun
  * Nate Gallup
  * Viviane Pons
+ * Darij Grinberg
 
 ==== Organizers ====
 
