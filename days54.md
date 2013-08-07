@@ -38,4 +38,5 @@ The general topics that will be addressed at this workshop are the following:
 ==== Organizers ====
 
  * Anne Schilling, UC Davis
+ * Dan Bump, Stanford
  * Travis Scrimshaw, UC Davis
