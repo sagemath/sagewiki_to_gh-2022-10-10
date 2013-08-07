@@ -33,6 +33,7 @@ The general topics taht will be addressed at this workshop are the following:
  * Dan Bump
  * Andrew Ohana
  * Volker Braun
+ * Nate Gallup
 
 ==== Organizers ====
 
