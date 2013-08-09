@@ -43,6 +43,7 @@ Here are some useful links:
  * Nate Gallup
  * Viviane Pons
  * Darij Grinberg
+ * Tom Roby
 
 ==== Organizers ====
 
