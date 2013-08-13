@@ -44,6 +44,8 @@ Here are some useful links:
  * Viviane Pons
  * Darij Grinberg
  * Tom Roby
+ * Franco Saliola
+ * Mathieu Guay-Paquet
 
 ==== Organizers ====
 
