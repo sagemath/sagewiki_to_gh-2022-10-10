@@ -1,4 +1,4 @@
-= Sage Days: Arithmetic and Complex Dynamics =
+= Sage Days 55: Arithmetic and Complex Dynamics =
 
 == November 7–November 10, 2013, Florida Institute of Technology, FL ==
 
