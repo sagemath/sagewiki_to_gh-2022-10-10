@@ -38,13 +38,16 @@ Florida Institute of Technology, Melbourne, FL.
 === Participants ===
 
  *Hao Chen - University of Washington
- *Vincent Delecroix - Univ. Paris VII
+ *Vincent Delecroix - Univ. Paris VII, France
  *Paul Fili - University of Rochester
+ *Marshall Hampton - University of Minnesota Duluth
  *Benjamin Hutz - Florida Institute of Technology
  *Patrik Ingram - Colorado State University
+ *Holly Krieger - Massachusetts Institute of Technology
  *David Krumm - University of Georgia
  *Bianca Thompson - University of Hawaii
  *Adam Towsley - CUNY Graduate Center
+ *Soli Vishkautsan - Ben-Gurion University, Israel
 
 
 ==== Organizers ====
@@ -59,4 +62,4 @@ Housing will be provided close to campus at the Hilton Melbourne Rialto Place fo
 
 === Last Updated ===
 
-2/18/2013
+8/14/2013
