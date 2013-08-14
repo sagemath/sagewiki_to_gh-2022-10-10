@@ -19,7 +19,7 @@ Below are listed the supported platforms, along with the level of support given.
 
 Specific hardware and software for these levels of support are given below.
 
-= Sage 5.10 =
+= Sage 5.11 =
 
 == Fully supported ==
 Sage is fully supported on the following platforms. This means '''every''' single '''release''' of Sage is '''always tested''' on all these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/sage/buildslaves) Failure to build on one of these platforms will stop a release of Sage being made. Any failures to either build or pass tests are considered serious bugs. 
@@ -45,7 +45,7 @@ There are several requirements for Sage to work successfully on these fully supp
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
  * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
  * Ubuntu 12.04 on x86 (64-bit). Make sure that the ''dpkg-dev'' package is installed. Tested on [[http://build.sagemath.org/sage/buildslaves/snapperkob|snapperkob]]
- * Ubuntu 12.10 on x86 (32-bit). Make sure that the ''dpkg-dev'' package is installed. Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]]
+ * Ubuntu 13.04 on x86 (32-bit). Make sure that the ''dpkg-dev'' package is installed. Tested on [[http://build.sagemath.org/sage/buildslaves/arando-1|arando]]
 
 === Mac OS X ===
  * OS X 10.4 (Tiger) on PPC. The pexpect interfaces tend to be less reliable than other platforms, so you might see some unreproducible doctest failures. Also, the "Mac App" doesn't work on OS X 10.4, but building from source or non-App binaries should work. Tested on [[http://build.sagemath.org/sage/buildslaves/moufang-1|moufang]]
@@ -81,7 +81,6 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
  * Solaris 10 03/2005 or any later Solaris 10 release on x86 processors in 32-bit mode.
  * Solaris 10 on x86 processors in 32-bit mode.
  * Solaris 11 Express on x86 (32-bit has been tested).
- * Solaris 11 Express on SPARC (Never tested).
 
 === Microsoft Windows ===
  * [[https://www.virtualbox.org/|VirtualBox]] images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage.
@@ -100,7 +99,7 @@ This lists systems on which Sage builds, but there are a few doctest errors.  Ho
  * Microsoft Windows using Cygwin; see [[http://trac.sagemath.org/sage_trac/ticket/6743|the metaticket for this]].  Sage compiles from source and has only a few doctest failures with only some rebasing issues and one or two unusual prerequisites (currently the mpfr-4 and a few lapack Cygwin packages).  Some slightly old information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows|sage-windows]] mailing list.
 
 === OpenSolaris x86 32-bit ===
- * 06/2009 updated to build 134 on x86 (32-bit only), with gcc as well as the Sun compiler. Tested on [[http://build.sagemath.org/sage/buildslaves/hawk-1|hawk]]
+ * 06/2009 updated to build 134 on x86 (32-bit only), with gcc as well as the Sun compiler.
 
 == Probably will not work ==
 None of these systems have a complete fully reliable port. In some cases completed ports are highly likely. In other cases, the porting effort is not very significant, and there may be insufficient effort to actually complete a port. 
