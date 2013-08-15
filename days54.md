@@ -12,7 +12,7 @@ Please contact Anne Schilling (anne at math.ucdavis dot edu) or Travis Scrimshaw
 
 === Lodging ===
 
-The official conference hotel is the [[http://www.aggieinn.com|Aggie Inn]] (tel. (530)756-0352). Rates are between $99 and $109 (USD) depending on bedding type. The group name is SAGE. Last day to book is October 6.
+The official conference hotel is the [[http://www.aggieinn.com|Aggie Inn]] (tel. (530)756-0352). Rates are between \$99 and \$109 (USD) depending on bedding type. The group name is SAGE. Last day to book is October 6.
 
 There are other hotels to choose from in Davis, but are generally more expensive. There are also many hotels in Sacramento, but you will have to commute to Davis (such as using the [[http://www.capitolcorridor.org/|Capitol Corridor line]]).
 
