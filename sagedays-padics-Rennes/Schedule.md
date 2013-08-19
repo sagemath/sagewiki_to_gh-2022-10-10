@@ -1,4 +1,8 @@
+= Sage Days: Arithmetics over discrete valuation rings (e.g. p-adics) =
 
+== September 2–September 6, 2013, Université Rennes 1, France ==
+
+=== Schedule ===
 
 ||||||'''Monday'''||
 || 10:00-10:30 ||                  || Welcome and orientation            ||
@@ -33,3 +37,5 @@
 || 14:00-15:00 || Kiran Kedlaya    || (to be announced)                  ||
 || 15:15-15:45 ||                  || status reports of projects         ||
 || 16:30-      ||                  || coding sprint                      ||
+
+Go back to the [[/|Sage Days 52 home page]]
