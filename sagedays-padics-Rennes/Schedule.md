@@ -33,8 +33,8 @@
 || 16:30-      ||                  || coding sprint                      ||
 ||||||'''Friday'''||
 || 08:00-11:00 ||                  || coding sprint                      ||
-|| 11:00-12:00 || Jan Tuitman      || (to be announced)                  ||
-|| 14:00-15:00 || Kiran Kedlaya    || (to be announced)                  ||
+|| 11:00-12:00 || Jan Tuitman      || Counting points on curves          ||
+|| 14:00-15:00 || Kiran Kedlaya    || Computing zeta function of hyperelliptic curves (after Harvey and Sutherland) ||
 || 15:15-15:45 ||                  || status reports of projects         ||
 || 16:30-      ||                  || coding sprint                      ||
 
