@@ -38,4 +38,4 @@
 || 15:15-15:45 ||                  || status reports of projects         ||
 || 16:30-      ||                  || coding sprint                      ||
 
-Go back to the [[/|Sage Days 52 home page]]
+Go back to the [[sagedays-padics-Rennes|Sage Days 52 home page]]
