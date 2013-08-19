@@ -31,6 +31,8 @@ There are other hotels to choose from in Davis, but are generally more expensive
   * Bus: Take route 42. See http://www.yolobus.com/news/airportservice.php
   * Shuttle: https://www.davisairporter.com/index2.html
 
+See also: https://www.math.ucdavis.edu/about/directions/
+
 === Schedule ===
 
 Coming soon.
