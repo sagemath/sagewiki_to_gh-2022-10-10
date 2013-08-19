@@ -39,3 +39,7 @@
 || 16:30-      ||                  || coding sprint                      ||
 
 Go back to the [[sagedays-padics-Rennes|Sage Days 52 home page]]
+
+=== Last Updated ===
+
+August 19, 2013
