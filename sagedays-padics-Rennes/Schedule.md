@@ -16,7 +16,8 @@
 || 11:00-12:00 || Jérémy Berthomieu|| padics in Mathemagix               ||
 || 14:00-15:00 || Jean-Pierre Flori|| padics in FLINT                    ||
 || 15:15-15:45 ||                  || status reports of projects         ||
-|| 16:00-      ||                  || coding sprint                      ||
+|| 16:00-19:00 ||                  || coding sprint                      ||
+|| 19:30-      ||                  || conference dinner                  ||
 ||||||'''Wednesday'''||
 || 08:00-11:00 ||                  || coding sprint                      ||
 || 11:00-12:00 || Luca De Feo      || Implementation of finite fields    ||
