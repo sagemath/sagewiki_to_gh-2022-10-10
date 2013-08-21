@@ -2,7 +2,7 @@
 
 == When and where? ==
 
-October 6-7, 2013, at Shinshu University (Matsumoto campus), Japan.
+October 5--6, 2013, at Shinshu University (Matsumoto campus), Japan.
 
 == Web page ==
 
