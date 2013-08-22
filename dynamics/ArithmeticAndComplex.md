@@ -1,4 +1,4 @@
-= Arithmetic and Complex Dyanmics =
+= Arithmetic and Complex Dynamics =
 
 The goal of sage-dynamics is to improve the open source mathematical software Sage for computer exploration in dynamical systems and foster code sharing between researchers in this area. This portion focuses on the Arithmetic (Number Theoretic) and Complex aspects of dynamical systems.
 
