@@ -29,10 +29,10 @@ Rob Beezer, beezer@pugetsound.edu
   * Late-June 2013: Good basic functionality for HTML, LaTeX output
   * Mid-June 2013: initiated, not mature or stable
 
-== Examples ==
+== Examples (Updated 2013/08/23) ==
 
   1.  A short sample article:  [[http://buzzard.ups.edu/mathbook/calculus-article.xml|XML Source-Author Format]] <[[http://buzzard.ups.edu/mathbook/calculus-article.html|HTML Output]]> <[[http://buzzard.ups.edu/mathbook/calculus-article.pdf|PDF Output]]>
-  1. A skeletal mock book: [[http://buzzard.ups.edu/mathbook/graph-theory-book.xml|XML Source-Author Format]] <[[http://buzzard.ups.edu/mathbook/graph-theory-book.html|HTML Output]]> <[[http://buzzard.ups.edu/mathbook/graph-theory-book.pdf|PDF Output]]>
+  1. A skeletal mock book: [[http://buzzard.ups.edu/mathbook/graph-theory-book.xml|XML Source-Author Format]] <[[http://buzzard.ups.edu/mathbook/book/graph-theory-book.html|HTML Output]]> <[[http://buzzard.ups.edu/mathbook/graph-theory-book.pdf|PDF Output]]>
 
 == Commentary ==
 
@@ -72,25 +72,26 @@ Advanced: create a [[https://cloud.sagemath.com|Sage Cloud]] worksheet from the 
 
 Files: Use your browser to save these files locally, do not simply click on them.  The XSL files can be scary - not critical for an author to understand them.  You'll want the CSS to render any HTML you produce.
 
-  1.  [[http://buzzard.ups.edu/mathbook/mathbook-html.xsl|XSL transform to HTML]]
-  1.  [[http://buzzard.ups.edu/mathbook/mathbook-latex.xsl|XSL transform to LaTeX]]
-  1.  [[http://buzzard.ups.edu/mathbook/freebsd-docbook|FreeBSD documentation CSS]]
-  1.  [[http://buzzard.ups.edu/mathbook/mathbook.css|MathBook CSS]]
+  1.  [[http://buzzard.ups.edu/mathbook/xsl/mathbook-html.xsl|XSL transform to HTML]]
+  1.  [[http://buzzard.ups.edu/mathbook/xsl/mathbook-latex.xsl|XSL transform to LaTeX]]
+  1.  [[http://buzzard.ups.edu/mathbook/xsl/mathbook.css|MathBook CSS]]
 
 == To Do (unprioritized) ==
 
- * Cross-references
+ * Further improve cross-references
  * Table of Contents in HTML as sidebar
  * Index (for book structure)
  * Options for numbering sections, theorem-like structures (hard)
  * Improved CSS for HTML
  * Doctesting framework for Sage code (easy)
  * Sage notebook, Sage Math Cloud output formats
- * HTML chunking (one HTML file per section, chapter, etc)
+ * Customize level of HTML chunking (one HTML file per section, chapter, etc)
  * Customization options (layers, HTML head insertions)
  * LaTeX spacing hints
  * Figures
  * Tables
+ * Exercises
+ * Margin paragraphs
 
 == Other Projects ==
 
