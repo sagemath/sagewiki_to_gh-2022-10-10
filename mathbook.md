@@ -20,6 +20,7 @@ Rob Beezer, beezer@pugetsound.edu
   1.  HTML web pages, enhanced with !MathJax, Sage Cell server, knowls for web browsing
   1.  LaTeX input as precursor of PDF output  via {{{pdflatex}}} for print
   1.  Doctesting of Sage code examples for quality assurance
+  1.  Sage Worksheets (Sage Notebook, Sage Math Cloud)
   1.  E-Books, once technically feasible
   1.  Maybe a !DocBook representation for conversion to other outputs and future-proofing
 
