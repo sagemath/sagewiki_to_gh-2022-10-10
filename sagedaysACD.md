@@ -13,9 +13,53 @@ Registration is free. There is limited funding for travel and lodging. Please co
 
 === Schedule ===
 
-The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. A precise schedule is forthcoming.
+The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. Conference activities will begin Thursday morning and conclude Sunday  afternoon.
 
-Conference activities will begin Thursday morning and conclude Sunday afternoon.
+=== Thursday, November 7 ===
+
+||9:00am-10:00am||Welcome and Sage installation help||
+||10:00am-11:00am||Tutorial I: Adam Towsley: Installing Sage and Patches||
+||11:00am-11:30am||Break||
+||11:30am-12:30pm||Tutorial II: TBD: Introduction to Sage and the Notebook||
+||12:30pm-2:00pm||Lunch||
+||2:00pm-3:00pm||Ben Hutz: The state of arith and compl dyn in Sage||
+||3:00pm-3:30pm||Break||
+||3:30pm-4:30pm||Project selection||
+||4:30pm-6:00pm||Project work time||
+||6:00pm||Status updates||
+
+=== Friday, November 8 ===
+
+||9:00am-10:00am||Tutorial III: Ben Hutz: Python introduction||
+||10:00am-11:00am||Tutorial IV: Ben Hutz:  Contributing to Sage||
+||11:00am-11:30am||Break||
+||11:30am-12:30pm||Talk: TBD||
+||12:30pm-2:00pm||Lunch||
+||2:00pm-3:00pm||Tutorial V: Adam Towsley: Reviewing a patch||
+||3:00pm-3:30pm||Break||
+||3:30pm-6:00pm||Project work time||
+||6:00pm||Status updates||
+
+=== Saturday, November 10 ===
+
+Coffee break at 11am and 3pm
+
+||9:00am-10:00am||Talk: TBD||
+||10:00am-12:30pm||Project work time||
+||12:30pm||Status Updates||
+||12:30pm-2:00pm||Lunch||
+||2:00pm-3:00pm||Talk: TBD||
+||3:00pm-6:00pm||Project work time||
+||6:00pm||Status updates||
+
+=== Sunday, November 11 ===
+
+Coffee break at 11am
+
+||9:00am-10:00am||Talk: TBD||
+||10:00am-12:30pm||Project work time||
+||12:30pm||Final Status Updates||
+
 
 === Projects ===
 
