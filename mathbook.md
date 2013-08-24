@@ -47,11 +47,14 @@ High-level commentary is recorded on my [[http://www.beezers.org/blog/bb|blog]].
 == Implemented Features ==
 
  * Article structure with numbered sections and subsections
- * Book structure with numbered chapters, sections and subsections
+ * Book structure with preface, numbered chapters, sections and subsections
  * Mathematics: normal LaTeX for PDF, !MathJax in HTML, macros in source '''only once'''
- * Numbered theorems and definitions (needs work, subject to changes)
- * Sage input/output: live Sage cells in HTML, styled in LaTeX
+ * Numbered theorems and definitions, with cross-references, even in !MathJax displays
+ * Sage input/output: live Sage cells in HTML, styled as text for LaTeX
+ * Figures, with numbering and cross-references
+ * Basic raster images
  * Bibliography + citations: as knowls in HTML version
+ * Navigation (previous/up/next) in HTML (needs just a bit of work)
  * Basic CSS for HTML version
 
 == Files and Commands, the nitty-gritty ==
