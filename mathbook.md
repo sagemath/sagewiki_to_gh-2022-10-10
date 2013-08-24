@@ -39,6 +39,11 @@ Rob Beezer, beezer@pugetsound.edu
 
 High-level commentary is recorded on my [[http://www.beezers.org/blog/bb|blog]].
 
+[[http://www.beezers.org/blog/bb/2013/06/shuttleworth-flash-grant/|June 14|, 2013]]
+[[http://www.beezers.org/blog/bb/2013/06/the-case-for-an-xml-application/|June 27, 2013]]
+[[http://www.beezers.org/blog/bb/2013/06/an-xml-application-for-mathematics/|June 28, 2013]]
+[[http://www.beezers.org/blog/bb/2013/08/summer-progress-on-mathbook-xml/|August 23, 2013]]
+
 == Implemented Features ==
 
  * Article structure with numbered sections and subsections
