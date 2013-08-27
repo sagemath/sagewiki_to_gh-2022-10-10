@@ -29,6 +29,7 @@ Rob Beezer, beezer@pugetsound.edu
   * Funding:  Shuttleworth Foundation Flash Grant, National Science Foundation UTMOST Grant
   * Late-June 2013: Good basic functionality for HTML, LaTeX output
   * Mid-June 2013: initiated, not mature or stable
+  * Late-August 2013: usable, with more to do
 
 == Examples (Updated 2013/08/23) ==
 
@@ -59,7 +60,7 @@ High-level commentary is recorded on my [[http://www.beezers.org/blog/bb|blog]].
 
 == Files and Commands, the nitty-gritty ==
 
-Updated: June 29, 2013
+Updated: August 23, 2013
 
 Prerequisites:  {{{xsltproc}}} is in most Linux distributions and on Mac OS as a command-line executable.  Information on Windows availablity would be helpful - please write.  You'll need TeX to run {{{pdflatex}}}.  You can author if you also have a text editor and a browser - that is all you need.
   
