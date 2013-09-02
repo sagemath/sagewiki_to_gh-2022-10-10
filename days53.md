@@ -15,7 +15,7 @@ A second goal for the workshop is to extend cohomology computations from toric l
 
 == Participants ==
 
-See the [[participants |list of participants]].
+See the [[days50_participants |list of participants]].
 
 
 == Organizers ==
