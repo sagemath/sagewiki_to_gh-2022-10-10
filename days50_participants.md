@@ -1,4 +1,4 @@
-The following people have confirmed their attendance at Sage Days 50:
+The following people have confirmed their attendance at Sage Days 53:
 
   * Amnon Besser (Ben Gurion University)
   * Charles Bouillaguet (Laboratoire d'Informatique)
