@@ -11,7 +11,30 @@ A second goal for the workshop is to extend cohomology computations from toric l
   * The remaining time (Septemeber 24-29) will be a "traditional" Sage Days workshop with emphasis on code development
   * Everything will take place at the University of Oxford in the new Mathematical Institute building (UK)
   * We are funded by the [[http://www.claymath.org|Clay Mathematics Institute]]. If you are interested in participating, please let us know! 
-  * More information, including participants and a preliminary schedule, can be found on the [[http://www.claymath.org/workshops/CNTGP/|CMI home page for this workshop]].
+  * More information can be found on the [[http://www.claymath.org/workshops/CNTGP/|CMI home page for this workshop]].
+
+== Participants ==
+
+  * Amnon Besser (Ben Gurion University)
+  * Charles Bouillaguet (Laboratoire d'Informatique)
+  * Wouter Castryck (KU Leuven)
+  * Rob de Jeu (Vrije University)
+  * Burcin Erocal (Kaiserslautern University)
+  * Francois Escriva (Vrije University)
+  * Jean-Pierre Flori (ANSSI)
+  * Mike Hansen (University of Brighton)
+  * Shaun Harker (Rutgers University)
+  * David Harvey (University of New South Wales)
+  * Kiran Kedlaya (University of California, San Diego)
+  * Jan Keitel (LMU Munich)
+  * Abhinav Kumar (MIT)
+  * Steffen Mueller (Hamburg)
+  * Andrey Novoseltsev (University of Alberta)
+  * Adriana Salerno (Bates College)
+  * Drew Sutherland (MIT)
+  * Jan Tuitman (KU Leuven)
+  * John Voight (Dartmouth College)
+  * Ursula Whitcher (University of Wisconsin, Eau Claire)
 
 == Organizers ==
 
