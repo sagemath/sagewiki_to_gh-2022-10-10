@@ -15,26 +15,8 @@ A second goal for the workshop is to extend cohomology computations from toric l
 
 == Participants ==
 
-  * Amnon Besser (Ben Gurion University)
-  * Charles Bouillaguet (Laboratoire d'Informatique)
-  * Wouter Castryck (KU Leuven)
-  * Rob de Jeu (Vrije University)
-  * Burcin Erocal (Kaiserslautern University)
-  * Francois Escriva (Vrije University)
-  * Jean-Pierre Flori (ANSSI)
-  * Mike Hansen (University of Brighton)
-  * Shaun Harker (Rutgers University)
-  * David Harvey (University of New South Wales)
-  * Kiran Kedlaya (University of California, San Diego)
-  * Jan Keitel (LMU Munich)
-  * Abhinav Kumar (MIT)
-  * Steffen Mueller (Hamburg)
-  * Andrey Novoseltsev (University of Alberta)
-  * Adriana Salerno (Bates College)
-  * Drew Sutherland (MIT)
-  * Jan Tuitman (KU Leuven)
-  * John Voight (Dartmouth College)
-  * Ursula Whitcher (University of Wisconsin, Eau Claire)
+See the [[participants |list of participants]].
+
 
 == Organizers ==
 
