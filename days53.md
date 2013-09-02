@@ -13,6 +13,10 @@ A second goal for the workshop is to extend cohomology computations from toric l
   * We are funded by the [[http://www.claymath.org|Clay Mathematics Institute]]. If you are interested in participating, please let us know! 
   * More information can be found on the [[http://www.claymath.org/workshops/CNTGP/|CMI home page for this workshop]].
 
+== Schedule ==
+
+The schedule is [[days53_schedule | here]].
+
 == Participants ==
 
 See the [[days53_participants |list of participants]].
