@@ -15,7 +15,7 @@ A second goal for the workshop is to extend cohomology computations from toric l
 
 == Schedule ==
 
-The schedule is [[days53_schedule | here]].
+A tentative schedule can be found [[http://www.claymath.org/workshops/CNTGP/| here]].
 
 == Participants ==
 
