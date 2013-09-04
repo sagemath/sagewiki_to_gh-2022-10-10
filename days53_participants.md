@@ -4,7 +4,7 @@ The following people have confirmed their attendance at Sage Days 53:
   * Charles Bouillaguet (Laboratoire d'Informatique)
   * Wouter Castryck (KU Leuven)
   * Rob de Jeu (Vrije University)
-  * Burcin Erocal (Kaiserslautern University)
+  * Burcin Erocal (Heidelberg University)
   * Francois Escriva (Vrije University)
   * Jean-Pierre Flori (ANSSI)
   * Mike Hansen (University of Brighton)
