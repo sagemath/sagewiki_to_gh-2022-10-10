@@ -69,6 +69,7 @@ Here are some useful links:
  * Tom Roby
  * Franco Saliola
  * Mathieu Guay-Paquet
+ * Mike Zabrocki
 
 ==== Organizers ====
 
