@@ -83,12 +83,13 @@ Florida Institute of Technology, Melbourne, FL.
 
  *Hao Chen - University of Washington
  *Vincent Delecroix - Univ. Paris VII, France
+ *John Doyle - University of Georgia
  *Paul Fili - University of Rochester
- *Marshall Hampton - University of Minnesota Duluth
  *Benjamin Hutz - Florida Institute of Technology
  *Patrik Ingram - Colorado State University
  *Holly Krieger - Massachusetts Institute of Technology
  *David Krumm - University of Georgia
+ *Brian Stout - Rutgers University
  *Bianca Thompson - University of Hawaii
  *Adam Towsley - CUNY Graduate Center
  *Soli Vishkautsan - Ben-Gurion University, Israel
