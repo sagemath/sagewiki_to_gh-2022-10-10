@@ -89,7 +89,7 @@ Florida Institute of Technology, Melbourne, FL.
  *Patrik Ingram - Colorado State University
  *Holly Krieger - Massachusetts Institute of Technology
  *David Krumm - University of Georgia
- *Brian Stout - Rutgers University
+ *Brian Stout - US Naval Academy
  *Bianca Thompson - University of Hawaii
  *Adam Towsley - CUNY Graduate Center
  *Soli Vishkautsan - Ben-Gurion University, Israel
