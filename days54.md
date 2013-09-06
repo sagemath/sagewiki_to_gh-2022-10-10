@@ -70,6 +70,7 @@ Here are some useful links:
  * Franco Saliola
  * Mathieu Guay-Paquet
  * Mike Zabrocki
+ * Jessica Striker
 
 ==== Organizers ====
 
