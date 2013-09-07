@@ -1,6 +1,5 @@
 
-
-===Monday, 23 September===
+=== Monday, 23 September ===
 
 
 
