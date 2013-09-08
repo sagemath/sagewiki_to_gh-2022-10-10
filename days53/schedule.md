@@ -1,5 +1,5 @@
 ## page was renamed from days53_schedule
-Here's the tentative schedule for [[days53|Sage Days 53]] : 
+Here's a preliminar schedule for [[days53|Sage Days 53]] : 
 
 ||||||||'''Monday, 23 September'''||
 || 10:00-10:15 ||  ||          || Welcome and orientation ||
