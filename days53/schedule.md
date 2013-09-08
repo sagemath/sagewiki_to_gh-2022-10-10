@@ -29,5 +29,5 @@ Here's the tentative schedule for [[days53|Sage Days 53]] :
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || Amnon Besser & Francois Escriva || || [[days53/abstracts/#BesserEscriva|Frobenius lifts and point counting for smooth curves]] ||
 || 16:00 - 19:00 || || || Coding sprint ||
-|| 19:30 - 20:00  ||||Somerville College|| Reception
+|| 19:30 - 20:00  ||||Somerville College|| Reception ||
 || 20:00 - || || Somerville College, Reading Room || Conference Dinner ||
