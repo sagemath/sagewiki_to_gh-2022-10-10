@@ -49,3 +49,21 @@ Here's the tentative schedule for [[days53|Sage Days 53]] :
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || John Voight || || [[days53/abstracts/#Voight|Computing zeta functions of nondegenerate hypersurfaces with few monomials]] ||
 || 16:00 -  || || || Coding sprint ||
+||||||||'''Saturday, 28 September'''||
+|| 10:00-11:00 || Charles Bouillaguet ||          || [[days53/abstracts/#Bouillaguet| TBD]] ||
+|| 11:00-11:30 ||                   ||          || Coffee||
+|| 11:30-13:00 ||                   ||          || Coding sprint ||
+|| 13:00-14:00 ||                   ||       || Lunch ||
+|| 14:00-15:00 ||                   ||         || Coding sprint  ||
+|| 15:00-15:30 ||                   || || Afternoon tea ||
+|| 15:30 - 16:00 ||  || || ||
+|| 16:00 -  || || || Coding sprint ||
+||||||||'''Sunday, 29 September'''||
+|| 10:00-11:00 || Jan Keitel ||          || [[days53/abstracts/#Keitel| Geometric Engineering in Toric F-Theory]] ||
+|| 11:00-11:30 ||                   ||          || Coffee||
+|| 11:30-13:00 ||                   ||          || Coding sprint ||
+|| 13:00-14:00 ||                   ||       || Lunch ||
+|| 14:00-15:00 ||                   ||         || Coding sprint  ||
+|| 15:00-15:30 ||                   || || Afternoon tea ||
+|| 15:30 - 16:00 ||  || || ||
+|| 16:00 -  || || || Coding sprint ||
