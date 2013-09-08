@@ -14,7 +14,7 @@ Here's the tentative schedule for [[days53|Sage Days 53]]
 || 10:00-11:00 || Jean-Pierre Flori ||          || [[days53/abstracts/#Flori| p-adics in Sage]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
 || 11:30-12:00 ||                   ||          || Planning ||
-|| 12:00-13:00 ||                   ||          || || 
+|| 12:00-13:00 ||                   ||          ||||
 || 13:00-14:00 ||                   ||       || Lunch ||
 || 14:00-15:00 ||                   ||         ||  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
