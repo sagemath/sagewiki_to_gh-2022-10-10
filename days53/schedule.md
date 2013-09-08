@@ -9,7 +9,7 @@ Here's the tentative schedule for [[days53|Sage Days 53]] :
 || 13:00-14:00 ||       ||       || Lunch ||
 || 14:00-15:00 ||    ||         ||  ||
 || 15:00-15:30 ||  || || Afternoon tea ||
-|| 15:30 - 17:30 || || || ||
+|| 15:30 - || || || ||
 ||||||||'''Tuesday, 24 September'''||
 || 10:00-11:00 || Jean-Pierre Flori ||          || [[days53/abstracts/#Flori| p-adics in Sage]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
@@ -19,7 +19,7 @@ Here's the tentative schedule for [[days53|Sage Days 53]] :
 || 14:00-15:00 ||                   ||         || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || Adriana Salerno & Ursula Whitcher || || [[days53/abstracts/#SalernoWhitcher|Zeta functions, point counting, and mirror symmetry]] ||
-|| 16:00 - 17:30 || || || Coding sprint ||
+|| 16:00 -  || || || Coding sprint ||
 ||||||||'''Wednesday, 25 September'''||
 || 10:00-11:00 || Kiran Kedlaya ||          || [[days53/abstracts/#Kedlaya| Some approaches to computing zeta functions of toric hypersurfaces]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
@@ -28,4 +28,6 @@ Here's the tentative schedule for [[days53|Sage Days 53]] :
 || 14:00-15:00 ||                   ||         || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || Amnon Besser & Francois Escriva || || [[days53/abstracts/#BesserEscriva|Frobenius lifts and point counting for smooth curves]] ||
-|| 16:00 - 17:30 || || || Coding sprint ||
+|| 16:00 - 19:00 || || || Coding sprint ||
+|| 19:30 - 20:00  ||||Somerville College|| Reception
+|| 20:00 - || || Somerville College, Reading Room || Conference Dinner
