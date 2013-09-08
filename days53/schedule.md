@@ -31,3 +31,12 @@ Here's the tentative schedule for [[days53|Sage Days 53]] :
 || 16:00 - 19:00 || || || Coding sprint ||
 || 19:30 - 20:00  ||  ||Somerville College Quad|| Pre-dinner drinks ||
 || 20:00 - || || Somerville College Reading Room || Conference dinner ||
+||||||||'''Thursday, 26 September'''||
+|| 10:00-11:00 || Andrey Novoseltsev ||          || [[days53/abstracts/#Novoseltsev| Toric Geometry in Sage]] ||
+|| 11:00-11:30 ||                   ||          || Coffee||
+|| 11:30-13:00 ||                   ||          || Coding sprint ||
+|| 13:00-14:00 ||                   ||       || Lunch ||
+|| 14:00-15:00 ||                   ||         || Coding sprint  ||
+|| 15:00-15:30 ||                   || || Afternoon tea ||
+|| 15:30 - 16:00 || Jan Tuitman || || [[days53/abstracts/#Tuitman|Zeta functions via the deformation method]] ||
+|| 16:00 -  || || || Coding sprint ||
