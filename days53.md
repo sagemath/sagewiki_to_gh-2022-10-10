@@ -11,7 +11,11 @@ A second goal for the workshop is to extend cohomology computations from toric l
   * The remaining time (Septemeber 24-29) will be a "traditional" Sage Days workshop with emphasis on code development
   * Everything will take place at the University of Oxford in the new Mathematical Institute building (UK)
   * We are funded by the [[http://www.claymath.org|Clay Mathematics Institute]]. If you are interested in participating, please let us know! 
-  * More information, including a preliminary schedule, can be found on the [[http://www.claymath.org/workshops/CNTGP/|CMI home page for this workshop]].
+  * More information can be found on the [[http://www.claymath.org/workshops/CNTGP/|CMI home page for this workshop]].
+
+== Schedule ==
+
+A preliminary schedule is [days53/schedule |here]].
 
 == Participants ==
 
