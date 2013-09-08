@@ -19,7 +19,7 @@ A preliminary schedule is [[days53/schedule |here]].
 
 == Participants ==
 
-See the [[days53_participants |list of participants]].
+See the [[days53/participants |list of participants]].
 
 
 == Organizers ==
