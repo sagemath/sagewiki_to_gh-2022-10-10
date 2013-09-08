@@ -1,6 +1,7 @@
 === Monday, 23 September ===
 
 10:00 - 11:00am : TBD
+
 11:00 - 11:30am : Coffee
 
 
