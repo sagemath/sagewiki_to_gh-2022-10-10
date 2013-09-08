@@ -20,5 +20,5 @@ See the [[days53_participants |list of participants]].
 
 == Organizers ==
 
-  * Jennifer Balakrishnan (jen at math dot harvard dot edu)
+  * Jennifer Balakrishnan (jennifer dot balakrishnan at maths dot ox dot ac dot uk)
   * Volker Braun (vbraun dot name at gmail dot com)
