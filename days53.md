@@ -15,7 +15,7 @@ A second goal for the workshop is to extend cohomology computations from toric l
 
 == Schedule ==
 
-A preliminary schedule is [days53/schedule |here]].
+A preliminary schedule is [[days53/schedule |here]].
 
 == Participants ==
 
