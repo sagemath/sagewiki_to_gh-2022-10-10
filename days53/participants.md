@@ -2,11 +2,11 @@
 The following people have confirmed their attendance at [[days53 | Sage Days 53]]:
 
   * Amnon Besser (Ben Gurion University)
-  * Charles Bouillaguet (Laboratoire d'Informatique)
+  * Charles Bouillaguet (Laboratoire d'Informatique CNRS Lille)
   * Wouter Castryck (KU Leuven)
-  * Rob de Jeu (Vrije University)
+  * Rob de Jeu (Vrije Universiteit Amsterdam)
   * Burcin Erocal (Heidelberg University)
-  * Francois Escriva (Vrije University)
+  * Francois Escriva (Vrije Universiteit Amsterdam)
   * Jean-Pierre Flori (ANSSI)
   * Mike Hansen (University of Brighton)
   * Shaun Harker (Rutgers University)
