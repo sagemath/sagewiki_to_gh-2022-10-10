@@ -35,7 +35,12 @@ See also: https://www.math.ucdavis.edu/about/directions/
 
 === Schedule ===
 
-Coming soon.
+|||||| Monday ||
+|| 11 AM || Jeremy Martin || Eigenvalues of Simplicial Rook Graphs ||
+|| 3 PM || Dan Bump || TBA ||
+|||||| Tuesday ||
+|| 11 AM || TBA || An Introduction to Sage ||
+|| 2 PM || Andrew Ohana || TBA ||
 
 === Projects ===
 
