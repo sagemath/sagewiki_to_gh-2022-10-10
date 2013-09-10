@@ -40,7 +40,8 @@ See also: https://www.math.ucdavis.edu/about/directions/
 || 3 PM || Dan Bump || TBA ||
 |||||| Tuesday ||
 || 11 AM || TBA || An Introduction to Sage ||
-|| 2 PM || Andrew Ohana || TBA ||
+|| Afternoon || Volker Braun || Toric varieties and Sage ||
+|| TBA || Andrew Ohana || TBA ||
 
 === Projects ===
 
