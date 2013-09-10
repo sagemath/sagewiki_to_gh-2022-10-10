@@ -3,10 +3,11 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
-
+{{attachment:5-cell.gif}}
 
 == Quantum tetrahedron volume eigenvalues ==
 by David Horgan. 
+
 Given the values of J1, J2, J3 and J4 this interact calculates the volume eigenvalues of a quantum tetrahedron.
 
 {{{#!sagecell
