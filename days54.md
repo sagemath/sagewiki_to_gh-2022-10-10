@@ -53,6 +53,10 @@ Here are some useful links:
 
  * [[https://groups.google.com/forum/#!forum/sage-git|Sage git googlegroups]]
 
+ * [[http://git-scm.com/book/en/Git-Branching|Git branches]]
+
+ * [[http://dev.harald.schil.ly/yagt/#/|Talk on Git by Harald Schilly]]
+
 
 === Location ===
 
