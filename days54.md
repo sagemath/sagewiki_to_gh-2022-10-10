@@ -42,6 +42,7 @@ See also: https://www.math.ucdavis.edu/about/directions/
 || 4 PM || Andrew Ohana || The new workflow under Git ||
 |||||| Tuesday ||
 || 10 AM || Volker Braun || Toric varieties and Sage ||
+|| 11:30 AM || Panel Discussion || The future of the Sage-Combinat queue ||
 || 3 PM |||| Coffee break ||
 || 5 PM || TBA || Introduction to Sage ||
 
