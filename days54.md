@@ -38,10 +38,14 @@ See also: https://www.math.ucdavis.edu/about/directions/
 |||||| Monday ||
 || 11 AM || Jeremy Martin || Eigenvalues of Simplicial Rook Graphs ||
 || 2 PM || Dan Bump || Introduction to Git ||
+|| 3 PM |||| Coffee break ||
+|| 4 PM || Andrew Ohana || The new workflow under Git ||
 |||||| Tuesday ||
-|| 10 AM || Andrew Ohana || The new workflow under Git ||
-|| 2PM || Volker Braun || Toric varieties and Sage ||
-|| 4PM || TBA || Introduction to Sage ||
+|| 10 AM || Volker Braun || Toric varieties and Sage ||
+|| 3 PM |||| Coffee break ||
+|| 5 PM || TBA || Introduction to Sage ||
+
+All other time will be devoted to coding sprints.
 
 === Projects ===
 
