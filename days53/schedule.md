@@ -2,14 +2,14 @@
 Here's a preliminary schedule for [[days53|Sage Days 53]] : 
 
 ||||||||'''Monday, 23 September'''||
-|| 10:00-10:15 ||  ||          || Welcome and orientation ||
-|| 10:15-11:00 ||  ||          ||  ||
+|| 10:00-10:30 || Jennifer Balakrishnan  ||       || [[days53/abstracts/#Balakrishnan |  Introduction to Number Theory and Sage]] ||
+|| 10:30-11:00 || Volker Braun  ||         || [[days53/abstracts/#Braun1  | Introduction to Mathematical Physics and Sage]]  ||
 || 11:00-11:30 ||  ||          || Coffee||
-|| 11:00-13:00 ||  ||          || ||
+|| 11:30-12:30 || TBD ||          || [[days53/abstracts/#TBD | Scientific Computing with Python and Cython]]  ||
 || 13:00-14:00 ||       ||       || Lunch ||
-|| 14:00-15:00 ||    ||         ||  ||
+|| 14:00-15:00 || Simon King   ||         || [[days53/abstracts/#King | How to Implement Multiplication]]  ||
 || 15:00-15:30 ||  || || Afternoon tea ||
-|| 15:30 - || || || ||
+|| 15:30-16:30 || Volker Braun || ||[[days53/abstracts/#Braun2 | Git and the New Development Workflow]]  ||
 ||||||||'''Tuesday, 24 September'''||
 || 10:00-11:00 || Jean-Pierre Flori ||          || [[days53/abstracts/#Flori| p-adics in Sage]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
