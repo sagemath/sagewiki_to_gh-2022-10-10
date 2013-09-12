@@ -44,7 +44,7 @@ See also: https://www.math.ucdavis.edu/about/directions/
 || 10 AM || Volker Braun || Toric varieties and Sage ||
 || 11:30 AM || Panel Discussion || The future of the Sage-Combinat queue ||
 || 3 PM |||| Coffee break ||
-|| 5 PM || TBA || Introduction to Sage ||
+|| 5 PM || Mike Zabrocki || Introduction to Sage ||
 
 All other time will be devoted to coding sprints.
 
