@@ -75,17 +75,19 @@ Here are some useful links:
 
 === Participants (first tentative) ===
 
- * Dan Bump
- * Andrew Ohana
- * Volker Braun
- * Nate Gallup
- * Viviane Pons
- * Darij Grinberg
- * Tom Roby
- * Franco Saliola
- * Mathieu Guay-Paquet
- * Mike Zabrocki
- * Jessica Striker
+ * Dan Bump (Stanford)
+ * Andrew Ohana (University of Washington)
+ * Volker Braun (Oxford University)
+ * Nate Gallup (UC Davis)
+ * Viviane Pons (Marne-la-Vallee)
+ * Darij Grinberg (MIT)
+ * Tom Roby (University of Connecticut)
+ * Franco Saliola (UQaM)
+ * Mathieu Guay-Paquet (UQaM)
+ * Mike Zabrocki (York University)
+ * Jessica Striker (North Dakota State University)
+ * Jeremy Martin (University of Kansas)
+ * Roger Tian (UC Davis)
 
 ==== Organizers ====
 
