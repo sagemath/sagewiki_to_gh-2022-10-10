@@ -86,6 +86,20 @@ Files: Use your browser to save these files locally, do not simply click on them
   1.  [[http://buzzard.ups.edu/mathbook/xsl/mathbook-latex.xsl|XSL transform to LaTeX]]
   1.  [[http://buzzard.ups.edu/mathbook/xsl/mathbook.css|MathBook CSS]]
 
+== The AQ (Asked Questions) ==
+
+  1.  I can't seem to get a matrix into my document.<<BR>>
+  It's math so put it inside `<m>` or `<me>` or `<md>` tags and use LaTeX syntax (amsmath package supported).  But the ampersand is one of two troublesome special characters in XML, so you need to escape it.  Like so
+  {{{
+<me>\begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}</me>
+  }}}
+  Or you can wrap the whole thing as a CDATA section (which will cause all markup to be ignored).  This might be preferable for a big matrix.
+  {{{
+<me><![CDATA[\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}]]></me>
+  }}}
+  1.  I have a "less than" in my math which is causing problems.<<BR>>
+  The other nasty special character.  Use `\lt` instead of `<`.
+
 == To Do (unprioritized) ==
 
  * Further improve cross-references
