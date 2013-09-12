@@ -2,7 +2,7 @@
 
 == November 4–7, 2013, University of California Davis, USA ==
 
-The aim of this workshop is for developers to learn the new git workflow, and to try and integrate the combinat queue into git. This workshop will '''not''' include beginner topics or introduction talks, but instead assume participants are familiar with Sage development.
+The aim of this workshop is for developers to learn the new git workflow, and to try and integrate the combinat queue into git. This workshop will '''not''' include beginner topics, but instead assumes participants are familiar with Sage development. We will have an introductory talk on Sage for newcomers on Tuesday afternoon.
 
 === Registration ===
 
@@ -12,9 +12,9 @@ Please contact Anne Schilling (anne at math.ucdavis dot edu) or Travis Scrimshaw
 
 === Lodging ===
 
-The official conference hotel is the [[http://www.aggieinn.com|Aggie Inn]] (tel. (530)756-0352). Rates are between 99 and 109 USD depending on bedding type. The group name is SAGE. Last day to book is October 6.
+The official conference hotel is the [[http://www.aggieinn.com|Aggie Inn]] (tel. (530)756-0352). Rates are between 99 and 109 USD depending on bedding type. To get this rate, you need to call the hotel directly and mention the group name SAGE. Last day to book is October 6.
 
-There are other hotels to choose from in Davis, but are generally more expensive. There are also many hotels in Sacramento, but you will have to commute to Davis (such as using the [[http://www.capitolcorridor.org/|Capitol Corridor line]]).
+There are other hotels to choose from in Davis, but are generally more expensive. 
 
 === Transportation ===
 
@@ -46,7 +46,8 @@ See also: https://www.math.ucdavis.edu/about/directions/
 || 3 PM |||| Coffee break ||
 || 5 PM || Mike Zabrocki || Introduction to Sage ||
 
-All other time will be devoted to coding sprints.
+All other time will be devoted to coding sprints. All talks and most coding sprints will take place in
+MSB 1147.
 
 === Projects ===
 
