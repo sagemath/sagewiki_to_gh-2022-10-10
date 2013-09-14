@@ -36,17 +36,20 @@ See also: https://www.math.ucdavis.edu/about/directions/
 === Schedule ===
 
 |||||| Monday ||
+|| 10:30AM || || Coffee break||
 || 11 AM || Jeremy Martin || Eigenvalues of Simplicial Rook Graphs ||
 || 2 PM || Dan Bump || Introduction to Git ||
 || 3 PM |||| Coffee break ||
 || 4 PM || Andrew Ohana || The new workflow under Git ||
 |||||| Tuesday ||
-|| 10 AM || Volker Braun || Toric varieties and Sage ||
-|| 11:30 AM || Panel Discussion || The future of the Sage-Combinat queue ||
+|| 9:30 AM || Volker Braun || Toric varieties and Sage ||
+|| 10:30AM || || Coffee break||
+|| 11:00 AM || Panel Discussion || The future of the Sage-Combinat queue ||
 || 3 PM |||| Coffee break ||
 || 5 PM || Mike Zabrocki || Introduction to Sage ||
 
-All other time will be devoted to coding sprints. All talks and most coding sprints will take place in
+All other time will be devoted to coding sprints. We will schedule more talks/tutorials during the week on topics that
+the participants feel would benefit them. All talks and most coding sprints will take place in
 MSB 1147.
 
 === Projects ===
@@ -58,6 +61,17 @@ The general topics that will be addressed at this workshop are the following:
  * Work on how to integrate the combinat queue into the new workflow.
 
  * General bug fixes.
+
+Please make sure you have a working Git-version of Sage installed on your computer before
+you arrive. You can either download a version from Github, for instructions see
+
+ * [[http://trac.sagemath.org/wiki/QuickStartSageGit|Instruction on how to install Git-Sage]]
+
+For people not yet familiar with Git, we recommend starting from a source distribution. You can find a version here
+
+ * [[http://boxen.math.washington.edu/home/ohanar/sage-git/sage-5.12.beta5.tar.gz|Source distribution of Git-Sage]
+
+Just download, untar, and run make (like you do with the mercurial based source tarballs).
 
 Here are some useful links:
 
