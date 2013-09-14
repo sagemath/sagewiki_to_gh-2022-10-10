@@ -39,13 +39,13 @@ See also: https://www.math.ucdavis.edu/about/directions/
 || 10:30AM || || Coffee break||
 || 11 AM || Jeremy Martin || Eigenvalues of Simplicial Rook Graphs ||
 || 2 PM || Dan Bump || Introduction to Git ||
-|| 3 PM |||| Coffee break ||
+|| 3 PM || || Coffee break ||
 || 4 PM || Andrew Ohana || The new workflow under Git ||
 |||||| Tuesday ||
 || 9:30 AM || Volker Braun || Toric varieties and Sage ||
 || 10:30AM || || Coffee break||
 || 11:00 AM || Panel Discussion || The future of the Sage-Combinat queue ||
-|| 3 PM |||| Coffee break ||
+|| 3 PM || || Coffee break ||
 || 5 PM || Mike Zabrocki || Introduction to Sage ||
 
 All other time will be devoted to coding sprints. We will schedule more talks/tutorials during the week on topics that
@@ -69,7 +69,7 @@ you arrive. You can either download a version from Github, for instructions see
 
 For people not yet familiar with Git, we recommend starting from a source distribution. You can find a version here
 
- * [[http://boxen.math.washington.edu/home/ohanar/sage-git/sage-5.12.beta5.tar.gz|Source distribution of Git-Sage]
+ * [[http://boxen.math.washington.edu/home/ohanar/sage-git/sage-5.12.beta5.tar.gz | Source distribution of Git-Sage]
 
 Just download, untar, and run make (like you do with the mercurial based source tarballs).
 
