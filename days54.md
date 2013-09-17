@@ -47,6 +47,9 @@ See also: https://www.math.ucdavis.edu/about/directions/
 || 11:00 AM || Panel Discussion || The future of the Sage-Combinat queue ||
 || 3 PM || || Coffee break ||
 || 5 PM || Mike Zabrocki || Introduction to Sage ||
+|||||| Wednesday ||
+|| 10:25 AM || Mathieu Guay-Paquet || Yield from: my favourite feature from Python 3.3 ||
+|| 10:30AM || || Coffee break||
 
 All other time will be devoted to coding sprints. We will schedule more talks/tutorials during the week on topics that
 the participants feel would benefit them. All talks and most coding sprints will take place in
