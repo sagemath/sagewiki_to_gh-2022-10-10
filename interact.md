@@ -14,7 +14,7 @@ This is a collection of pages demonstrating the use of [[http://sagemath.org/doc
  * [[interact/geometry|Geometry]]
  * [[interact/graph_theory|Graph Theory]]
  * [[interact/linear_algebra|Linear Algebra]]
- * [[interact/Loop Quantum Gravity]]
+ * [[interact/Loop Quantum Gravity|Loop Quantum Gravity]]
  * [[interact/misc|Miscellaneous]]
  * [[interact/number_theory|Number Theory]]
  * [[interact/stats|Statistics/Probability]]
