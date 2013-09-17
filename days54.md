@@ -1,6 +1,6 @@
 = Sage Days: Sage Developer Days =
 
-== November 4–7, 2013, University of California Davis, USA ==
+== November 4–8, 2013, University of California Davis, USA ==
 
 The aim of this workshop is for developers to learn the new git workflow, and to try and integrate the combinat queue into git. This workshop will '''not''' include beginner topics, but instead assumes participants are familiar with Sage development. We will have an introductory talk on Sage for newcomers on Tuesday afternoon.
 
