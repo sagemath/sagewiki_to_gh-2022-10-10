@@ -71,10 +71,14 @@ def _(j1 = input_box(6.0, 'J1'),
         #print M
         s=M.eigenvalues()
         #print s    
-    
+        lp3=6*10^-104
         for j in range(d):
             e= sqrt(s[j])
+            vol = lp3*e
+            volume = numerical_approx(vol, digits=10)
             if e.imag() ==0:
                 print (e)
+                print "volume of tetrahedron =", volume
+                
 
 }}}
