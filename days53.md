@@ -8,7 +8,9 @@ A second goal for the workshop is to extend cohomology computations from toric l
 
 All participants stay at [[http://www.some.ox.ac.uk|Somerville College]], which is about 100m south on Woodstock road from the Mathematical Institute. 
   * [[attachment:Somerville.pdf|Map of Oxford]], showing the train station and the main bus stop (Gloucester Green Coach Station).
-  * It is an easy walk from the train or bus station to Somerville. There are also taxi ranks in front of both train and bus station.  
+  * It is an easy walk from the train or bus station to Somerville. There are also taxi ranks in front of both train and bus station.
+      * [[https://www.google.com/maps?saddr=Oxford+%4051.753500,-1.270150&daddr=51.7559368,-1.2593907+to:Somerville+College,+Woodstock+Road,+Oxford,+United+Kingdom&hl=en&sll=51.756272,-1.261797&sspn=0.009085,0.01193&geocode=FRyyFQMdep7s_w%3BFaC7FQMdgsjs_ymjl6QJpsZ2SDH792EKYoun3Q%3BFYLKFQMdw8Ds_yFyfv3fKw2CAilDvSAgF8R2SDFyfv3fKw2CAg&oq=Somer&dirflg=w&mra=dpe&mrsp=1&sz=16&via=1&t=m&z=16|Train station to Somerville College]]
+      * [[https://www.google.com/maps?saddr=St.+George%27s+Pl&daddr=Somerville+College,+Woodstock+Road,+Oxford,+United+Kingdom&hl=en&ll=51.75687,-1.261582&spn=0.009085,0.01193&sll=51.757003,-1.261582&sspn=0.009085,0.01193&geocode=Fd6zFQMdzsDs_w%3BFYLKFQMdw8Ds_yFyfv3fKw2CAilDvSAgF8R2SDFyfv3fKw2CAg&oq=glou&dirflg=w&mra=ls&t=m&z=16|Bus station to Somerville College]]
   * Check-in is any time after 2:00pm on Sunday.
   * If you are lost you can call me (Volker) at 07463002573 or +44-7463002573.
 
