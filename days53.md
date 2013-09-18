@@ -4,6 +4,12 @@
 Our primary goal at this workshop is to implement the computation of zeta functions of toric varieties, hypersurfaces, and complete intersections, which would vastly extend Sage’s zeta function computing capabilities beyond curves. 
 A second goal for the workshop is to extend cohomology computations from toric line bundles to hypercohomology of complexes of (sums of) toric line bundles. For this, we want to extend the sparse matrix capabilities in Sage and combine it with CHomP’s discrete morse complex implementation.
 
+== Arrival Information ==
+
+All participants stay at [[http://www.some.ox.ac.uk|Somerville College]], which is about 100m south on Woodstock road from the Mathematical Institute.
+
+
+
 == Particulars ==
 
   * The workshop will run September 23-29, 2013, which is right before the [[http://www.claymath.org/workshops/NTP/|Clay Research Conference on "Number Theory and Physics"]]. 
