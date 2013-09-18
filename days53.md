@@ -6,7 +6,7 @@ A second goal for the workshop is to extend cohomology computations from toric l
 
 == Arrival Information ==
 
-All participants stay at [[http://www.some.ox.ac.uk|Somerville College]], which is about 100m south on Woodstock road from the Mathematical Institute. 
+All participants will be staying at [[http://www.some.ox.ac.uk|Somerville College]], which is about 100m south on Woodstock Road from the Mathematical Institute. 
   * [[attachment:Somerville.pdf|Map of Oxford]], showing the train station and the main bus stop (Gloucester Green Coach Station).
   * It is an easy walk from the train or bus station to Somerville. There are also taxi ranks in front of both train and bus station.
       * [[https://www.google.com/maps?saddr=Oxford+%4051.753500,-1.270150&daddr=51.7559368,-1.2593907+to:Somerville+College,+Woodstock+Road,+Oxford,+United+Kingdom&hl=en&sll=51.756272,-1.261797&sspn=0.009085,0.01193&geocode=FRyyFQMdep7s_w%3BFaC7FQMdgsjs_ymjl6QJpsZ2SDH792EKYoun3Q%3BFYLKFQMdw8Ds_yFyfv3fKw2CAilDvSAgF8R2SDFyfv3fKw2CAg&oq=Somer&dirflg=w&mra=dpe&mrsp=1&sz=16&via=1&t=m&z=16|Train station to Somerville College]]
