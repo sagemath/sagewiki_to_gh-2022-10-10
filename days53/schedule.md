@@ -7,7 +7,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]] :
 || 11:00-11:30 ||  ||          || Coffee||
 || 11:30-12:30 || TBD ||          || [[days53/abstracts/#TBD | Scientific Computing with Python and Cython]]  ||
 || 13:00-14:00 ||       ||       || Lunch ||
-|| 14:00-15:00 || Simon King   ||         || [[days53/abstracts/#King | How to Implement Multiplication]]  ||
+|| 14:00-15:00 || Simon King   ||         || [[days53/abstracts/#King | Implementing arithmetic operations in Sage]]  ||
 || 15:00-15:30 ||  || || Afternoon tea ||
 || 15:30-16:30 || Volker Braun || ||[[days53/abstracts/#Braun2 | Git and the New Development Workflow]]  ||
 ||||||||'''Tuesday, 24 September'''||
