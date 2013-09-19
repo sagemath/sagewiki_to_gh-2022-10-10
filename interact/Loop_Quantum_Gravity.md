@@ -42,7 +42,7 @@ def _(j1 = input_box(6.0, 'J1'),
       j3= input_box(6.0, 'J3'),
       j4= input_box(7.0, 'J1'), auto_update=False):
     if (j1+j2)<= (j3+j4):
-        html('<h3>Value of Angle eigenvalue in radians</h3>'
+        html('<h3>Value of Angle eigenvalue in radians</h3>')
         html('<h3>Values of Volume Eigenvalue</h3>')
         kmin = int(max(abs(j1-j2),abs(j3 -j4)))
         kmax = int(min((j1+j2),(j3 +j4)))
