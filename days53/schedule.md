@@ -38,7 +38,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 13:00-14:00 ||                   ||       || Lunch ||
 || 14:00-15:00 ||                   || L3 or S1.37, MI         || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
-|| 15:30 - 16:00 || Jan Tuitman || L3, MI || [[days53/abstracts/#Tuitman|Zeta functions via the deformation method]] ||
+|| 15:30 - 16:00 || Jan Tuitman || L3, MI || [[days53/abstracts/#Tuitman|Counting points with the deformation method]] ||
 || 16:00 -  || ||L3 or S1.37, MI || Coding sprint ||
 ||||||||'''Friday, 27 September'''||
 || 10:00-11:00 || Shaun Harker ||   L3, MI         || [[days53/abstracts/#Harker| Computational Homology via Discrete Morse Theory]] ||
