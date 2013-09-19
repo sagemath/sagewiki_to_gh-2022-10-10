@@ -13,6 +13,7 @@ All participants will be staying at [[http://www.some.ox.ac.uk|Somerville Colleg
       * [[https://www.google.com/maps?saddr=St.+George%27s+Pl&daddr=Somerville+College,+Woodstock+Road,+Oxford,+United+Kingdom&hl=en&ll=51.75687,-1.261582&spn=0.009085,0.01193&sll=51.757003,-1.261582&sspn=0.009085,0.01193&geocode=Fd6zFQMdzsDs_w%3BFYLKFQMdw8Ds_yFyfv3fKw2CAilDvSAgF8R2SDFyfv3fKw2CAg&oq=glou&dirflg=w&mra=ls&t=m&z=16|Bus station to Somerville College]]
   * See also the [[http://www.some.ox.ac.uk/268/all/1/Maps_and_directions.aspx|Somerville maps & directions web page]]
   * Check-in is any time after 2:00pm on Sunday.
+  * We will be in the recently finished [[http://www.maths.ox.ac.uk/about/travel|new Mathematical Institute building]] 
   * If you are lost you can call me (Volker) at 07463002573 or +44-7463002573.
 
 == Particulars ==
