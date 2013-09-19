@@ -5,14 +5,14 @@ goto [[interact|interact main page]]
 
 {{attachment:5-cell.gif}}
 
-== Quantum tetrahedron volume eigenvalues ==
+== Quantum tetrahedron volume and angle eigenvalues ==
 by David Horgan. 
 
-Given the values of J1, J2, J3 and J4 this interact calculates the volume eigenvalues of a quantum tetrahedron.
+Given the values of J1, J2, J3 and J4 this interact calculates the volume and angle eigenvalues of a quantum tetrahedron.
 
 {{{#!sagecell
 
-html('<h3>Quantum tetrahedron Volume Eigenvalue</h3>')
+html('<h3>Quantum tetrahedron Volume and Angle Eigenvalues</h3>')
 html('Enter the four J values into the input boxes')
 html('k values k ranges from kmin to kmax in integer steps')
 html('The dimension d of the Hilbert space H4,  d = kmax - kmin + 1')
@@ -21,6 +21,7 @@ html('The the dimension of the hilbert space is given by d = kmax -kmin + 1')
 html('V^2 =M = 2/9(real antisymmetrix matrix))')
 html('Spins must satisfy (j1+j2)<= (j3+j4)')
 html('Reference: Bohr-Sommerfeld Quantization of Space by Eugenio Bianchi and Hal M. Haggard ')
+html('Reference: Shape in an atom of space: exploring quantum geometry phenomenology by Seth A. Major ')
 
 
 
@@ -41,6 +42,17 @@ def _(j1 = input_box(6.0, 'J1'),
       j3= input_box(6.0, 'J3'),
       j4= input_box(7.0, 'J1'), auto_update=False):
     if (j1+j2)<= (j3+j4):
+        html('<h3>Value of Angle eigenvalue in radians</h3>'
+        d2=j3*(j3+1)
+        d3=j1*(j1+1)
+        d4=j2*(j2+1)
+        d5=d2-d3-d4
+        d6=2*sqrt(d3*d4)
+        d7=d5/d6
+        d8=arccos(d7)
+        print d8
+        print "Angle eigenvalue in radians=",(d8)
+
         html('<h3>Values of Volume Eigenvalue</h3>')
         kmin = int(max(abs(j1-j2),abs(j3 -j4)))
         kmax = int(min((j1+j2),(j3 +j4)))
