@@ -41,16 +41,8 @@ def _(j1 = input_box(6.0, 'J1'),
       j2= input_box(6.0, 'J2'),
       j3= input_box(6.0, 'J3'),
       j4= input_box(7.0, 'J1'), auto_update=False):
-    if (j1+j2)<= (j3+j4):
+      if (j1+j2)<= (j3+j4):
         html('<h3>Value of Angle eigenvalue in radians</h3>'
-        d2=j3*(j3+1)
-        d3=j1*(j1+1)
-        d4=j2*(j2+1)
-        d5=d2-d3-d4
-        d6=2*sqrt(d3*d4)
-        d7=d5/d6
-        d8=arccos(d7)
-        print "Angle eigenvalue in radians=",(d8)
         html('<h3>Values of Volume Eigenvalue</h3>')
         kmin = int(max(abs(j1-j2),abs(j3 -j4)))
         kmax = int(min((j1+j2),(j3 +j4)))
