@@ -16,7 +16,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 11:30-12:00 ||                   ||  L3, MI        || Project organization ||
 || 12:00-13:00 ||                   || L3 or S1.37, MI      || Coding sprint ||
 || 13:00-14:00 ||                   ||  Cafe, MI     || Lunch ||
-|| 14:00-15:00 ||                   ||     various    || Coding sprint  ||
+|| 14:00-15:00 ||                   || L3 or S1.37, MI    || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || Adriana Salerno & Ursula Whitcher || L3, MI || [[days53/abstracts/#SalernoWhitcher|Zeta functions, point counting, and mirror symmetry]] ||
 || 16:00 -  || || || Coding sprint || various ||||||||'''Wednesday, 25 September'''||
@@ -37,8 +37,8 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 13:00-14:00 ||                   ||       || Lunch ||
 || 14:00-15:00 ||                   || L3 or S1.37, MI         || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
-|| 15:30 - 16:00 || Jan Tuitman || || [[days53/abstracts/#Tuitman|Zeta functions via the deformation method]] ||
-|| 16:00 -  || || || Coding sprint ||
+|| 15:30 - 16:00 || Jan Tuitman || L3, MI || [[days53/abstracts/#Tuitman|Zeta functions via the deformation method]] ||
+|| 16:00 -  || ||L3 or S1.37, MI || Coding sprint ||
 ||||||||'''Friday, 27 September'''||
 || 10:00-11:00 || Shaun Harker ||   L3, MI         || [[days53/abstracts/#Harker| Computational Homology via Discrete Morse Theory]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
@@ -47,7 +47,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 14:00-15:00 ||                   ||L3 or S1.37, MI         || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || John Voight ||  L3, MI  || [[days53/abstracts/#Voight|Computing zeta functions of nondegenerate hypersurfaces with few monomials]] ||
-|| 16:00 -  || || || Coding sprint ||
+|| 16:00 -  || ||L3 or S1.37, MI || Coding sprint ||
 ||||||||'''Saturday, 28 September'''||
 || 10:00-11:00 || Charles Bouillaguet || L3, MI           || [[days53/abstracts/#Bouillaguet| TBD]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
