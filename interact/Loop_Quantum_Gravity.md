@@ -50,9 +50,7 @@ def _(j1 = input_box(6.0, 'J1'),
         d6=2*sqrt(d3*d4)
         d7=d5/d6
         d8=arccos(d7)
-        print d8
         print "Angle eigenvalue in radians=",(d8)
-
         html('<h3>Values of Volume Eigenvalue</h3>')
         kmin = int(max(abs(j1-j2),abs(j3 -j4)))
         kmax = int(min((j1+j2),(j3 +j4)))
