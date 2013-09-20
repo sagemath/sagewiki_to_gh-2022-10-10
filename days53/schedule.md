@@ -2,6 +2,7 @@
 Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take place in the Mathematical Institute (MI) on Woodstock Road.
 
 ||||||||'''Monday, 23 September'''||
+||  9:30-10:00 || ||Lobby, MI || Registration||
 || 10:00-10:30 || Jennifer Balakrishnan  || L3, MI  || [[days53/abstracts/#Balakrishnan |  Introduction to Number Theory and Sage]] ||
 || 10:30-11:00 || Volker Braun  ||   L3, MI     || [[days53/abstracts/#Braun1  | Introduction to Mathematical Physics and Sage]]  ||
 || 11:00-11:30 ||  ||          || Coffee||
