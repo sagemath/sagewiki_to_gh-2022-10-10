@@ -5,8 +5,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 ||  9:30-10:00 || ||Lobby, MI || Registration||
 || 10:00-10:30 || Jennifer Balakrishnan  || L3, MI  || [[days53/abstracts/#Balakrishnan |  Introduction to number theory and Sage]] ||
 || 10:30-11:00 || Volker Braun  ||   L3, MI     || [[days53/abstracts/#Braun1  | Introduction to mathematical physics and Sage]]  ||
-|| 11:00-11:30 ||  ||          || Coffee|| || 
-
+|| 11:00-11:30 ||  ||          || Coffee||
 || 11:30-12:30 || Volker Braun ||  L3, MI       || [[days53/abstracts/#TBD | Scientific computing with Python and Cython]] [[attachment:Volker Braun - Python and Cython.sws|Worksheet]] [[attachment:Volker Braun - Python and Cython.pdf|PDF]]  ||
 || 13:00-14:00 ||       || Cafe, MI     || Lunch ||
 || 14:00-15:00 || Simon King   ||  L3, MI       || [[days53/abstracts/#King | Implementing arithmetic operations in Sage]] [[attachment:Tutorial-Coercions_and_actions.sws | Worksheet]] ||
