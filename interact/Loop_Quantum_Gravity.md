@@ -106,7 +106,7 @@ def _(j1 = input_box(6.0, 'J1'),
 == Quantum tetrahedron Area Operator eigenvalues ==
 by David Horgan. 
 
-Given the values of J1, J2, J3 and J4 this interact calculates the volume and angle eigenvalues of a quantum tetrahedron.
+Given the values of J1, J2, J3 and J4 this interact calculates the area eigenvalues of a quantum tetrahedron.
 
 {{{#!sagecell
 
