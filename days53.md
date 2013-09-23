@@ -17,7 +17,7 @@ A second goal for the workshop is to extend cohomology computations from toric l
 
 == Schedule ==
 
-See [[days53/schedule |here]] for the schedule and slides (and Sage worksheet demos) from the talks.
+See [[days53/schedule |here]] for the schedule, as well as slides and Sage worksheet demos from the talks.
 
 == Projects ==
 
