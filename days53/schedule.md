@@ -30,8 +30,8 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || Amnon Besser & Francois Escriva || L3, MI || [[days53/abstracts/#BesserEscriva|Frobenius lifts and point counting for smooth curves]] ||
 || 16:00 - 19:00 || ||L3 or N3.12, MI || Coding sprint ||
-|| 19:30 - 20:00  ||  ||Somerville College Quad|| Pre-dinner drinks ||
-|| 20:00 - || || Somerville College Reading Room || Conference dinner ||
+|| 19:00 - 19:30  ||  ||Somerville College Quad|| Pre-dinner drinks ||
+|| 19:30 - || || Somerville College Reading Room || Conference dinner ||
 ||||||||'''Thursday, 26 September'''||
 || 10:00-11:00 || Andrey Novoseltsev || L3, MI          || [[days53/abstracts/#Novoseltsev| Toric geometry in Sage]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
