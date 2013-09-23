@@ -15,56 +15,56 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 10:00-11:00 || Jean-Pierre Flori ||     L3, MI     || [[days53/abstracts/#Flori| p-adics in Sage]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
 || 11:30-12:00 ||                   ||  L3, MI        || Project organization ||
-|| 12:00-13:00 ||                   || L3 or S2.37, MI      || Coding sprint ||
+|| 12:00-13:00 ||                   || L3 or N3.12, MI      || Coding sprint ||
 || 13:00-14:00 ||                   ||  Cafe, MI     || Lunch ||
-|| 14:00-15:00 ||                   || L3 or S2.37, MI    || Coding sprint  ||
+|| 14:00-15:00 ||                   || L3 or N3.12, MI    || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || Adriana Salerno & Ursula Whitcher || L3, MI || [[days53/abstracts/#SalernoWhitcher|Zeta functions, point counting, and mirror symmetry]] ||
-|| 16:00 -  || || L3 or S2.37, MI  || Coding sprint  ||
+|| 16:00 -  || || L3 or N3.12, MI  || Coding sprint  ||
 ||||||||'''Wednesday, 25 September'''||
 || 10:00-11:00 || Kiran Kedlaya ||  L3, MI        || [[days53/abstracts/#Kedlaya| Some approaches to computing zeta functions of toric hypersurfaces]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
-|| 11:30-13:00 ||                   || L3 or S2.37, MI       || Coding sprint ||
+|| 11:30-13:00 ||                   || L3 or N3.12, MI       || Coding sprint ||
 || 13:00-14:00 ||                   || Cafe, MI      || Lunch ||
-|| 14:00-15:00 ||                   || L3 or S2.37, MI       || Coding sprint  ||
+|| 14:00-15:00 ||                   || L3 or N3.12, MI       || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || Amnon Besser & Francois Escriva || L3, MI || [[days53/abstracts/#BesserEscriva|Frobenius lifts and point counting for smooth curves]] ||
-|| 16:00 - 19:00 || ||L3 or S2.37, MI || Coding sprint ||
+|| 16:00 - 19:00 || ||L3 or N3.12, MI || Coding sprint ||
 || 19:30 - 20:00  ||  ||Somerville College Quad|| Pre-dinner drinks ||
 || 20:00 - || || Somerville College Reading Room || Conference dinner ||
 ||||||||'''Thursday, 26 September'''||
 || 10:00-11:00 || Andrey Novoseltsev || L3, MI          || [[days53/abstracts/#Novoseltsev| Toric geometry in Sage]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
-|| 11:30-13:00 ||                   || L3 or S2.37, MI        || Coding sprint ||
+|| 11:30-13:00 ||                   || L3 or N3.12, MI        || Coding sprint ||
 || 13:00-14:00 ||                   ||       || Lunch ||
-|| 14:00-15:00 ||                   || L3 or S2.37, MI         || Coding sprint  ||
+|| 14:00-15:00 ||                   || L3 or N3.12, MI         || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || Jan Tuitman || L3, MI || [[days53/abstracts/#Tuitman|Counting points with the deformation method]] ||
-|| 16:00 -  || ||L3 or S2.37, MI || Coding sprint ||
+|| 16:00 -  || ||L3 or N3.12, MI || Coding sprint ||
 ||||||||'''Friday, 27 September'''||
 || 10:00-11:00 || Shaun Harker ||   L3, MI         || [[days53/abstracts/#Harker| Computational homology via discrete Morse theory]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
-|| 11:30-13:00 ||                   || L3 or S2.37, MI         || Coding sprint ||
+|| 11:30-13:00 ||                   || L3 or N3.12, MI         || Coding sprint ||
 || 13:00-14:00 ||                   ||       || Lunch ||
-|| 14:00-15:00 ||                   ||L3 or S2.37, MI         || Coding sprint  ||
+|| 14:00-15:00 ||                   ||L3 or N3.12, MI         || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 || John Voight ||  L3, MI  || [[days53/abstracts/#Voight|Computing zeta functions of nondegenerate hypersurfaces with few monomials]] ||
-|| 16:00 -  || ||L3 or S2.37, MI || Coding sprint ||
+|| 16:00 -  || ||L3 or N3.12, MI || Coding sprint ||
 ||||||||'''Saturday, 28 September'''||
 || 10:00-11:00 || Charles Bouillaguet || L3, MI           || [[days53/abstracts/#Bouillaguet| TBD]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
-|| 11:30-13:00 ||                   ||L3 or S2.37, MI          || Coding sprint ||
+|| 11:30-13:00 ||                   ||L3 or N3.12, MI          || Coding sprint ||
 || 13:00-14:00 ||                   ||       || Lunch ||
-|| 14:00-15:00 ||                   || L3 or S2.37, MI        || Coding sprint  ||
+|| 14:00-15:00 ||                   || L3 or N3.12, MI        || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 ||  || || ||
-|| 16:00 -  || ||L3 or S2.37, MI || Coding sprint ||
+|| 16:00 -  || ||L3 or N3.12, MI || Coding sprint ||
 ||||||||'''Sunday, 29 September'''||
 || 10:00-11:00 || Jan Keitel ||  L3, MI          || [[days53/abstracts/#Keitel| Geometric engineering in toric F-Theory]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
-|| 11:30-13:00 ||                   ||L3 or S2.37, MI          || Coding sprint ||
+|| 11:30-13:00 ||                   ||L3 or N3.12, MI          || Coding sprint ||
 || 13:00-14:00 ||                   ||       || Lunch ||
-|| 14:00-15:00 ||                   ||L3 or S2.37, MI         || Coding sprint  ||
+|| 14:00-15:00 ||                   ||L3 or N3.12, MI         || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
 || 15:30 - 16:00 ||  || || ||
-|| 16:00 -  || ||L3 or S2.37, MI || Coding sprint ||
+|| 16:00 -  || ||L3 or N3.12, MI || Coding sprint ||
