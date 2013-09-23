@@ -8,20 +8,27 @@ goto [[interact|interact main page]]
 == Quantum tetrahedron volume and angle eigenvalues ==
 by David Horgan. 
 
+
+Enter the four J values into the input boxes.
+The values k range from kmin to kmax in integer steps.
+The dimension d of the Hilbert space H4,  d = kmax - kmin + 1.
+we have kmin = max(|j1-j2|,|j3 -j4|)and kmax = min(j1+j2,j3 +j4).
+The the dimension of the hilbert space is given by d = kmax -kmin + 1. 
+The volume matrix V^2 =M = 2/9(real antisymmetrix matrix).
+The spins must satisfy (j1+j2)<= (j3+j4)- the triangle inequality.
+Reference: Bohr-Sommerfeld Quantization of Space by Eugenio Bianchi and Hal M. Haggard. 
+Reference: Shape in an atom of space: exploring quantum geometry phenomenology by Seth A. Major. 
+
+
+Research Blog: http://quantumtetrahedron.wordpress.com
+
+
+
 Given the values of J1, J2, J3 and J4 this interact calculates the volume and angle eigenvalues of a quantum tetrahedron.
 
 {{{#!sagecell
 
-html('<h3>Quantum tetrahedron Volume and Angle Eigenvalues</h3>')
-html('Enter the four J values into the input boxes')
-html('k values k ranges from kmin to kmax in integer steps')
-html('The dimension d of the Hilbert space H4,  d = kmax - kmin + 1')
-html('kmin = max(|j1-j2|,|j3 -j4|) kmax = min(j1+j2,j3 +j4)')
-html('The the dimension of the hilbert space is given by d = kmax -kmin + 1') 
-html('V^2 =M = 2/9(real antisymmetrix matrix))')
-html('Spins must satisfy (j1+j2)<= (j3+j4)')
-html('Reference: Bohr-Sommerfeld Quantization of Space by Eugenio Bianchi and Hal M. Haggard ')
-html('Reference: Shape in an atom of space: exploring quantum geometry phenomenology by Seth A. Major ')
+
 
 
 
