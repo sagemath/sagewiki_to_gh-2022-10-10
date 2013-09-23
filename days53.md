@@ -19,10 +19,6 @@ A second goal for the workshop is to extend cohomology computations from toric l
 
 Our schedule is [[days53/schedule |here]].
 
-  * Volker Braun: Scientific computing with Python and Cython [[attachment:Volker Braun - Python and Cython.sws|Worksheet]] [[attachment:Volker Braun - Python and Cython.pdf|PDF]]
-  * Simon King: Implementing arithmetic operations in Sage [[attachment:Simon King - Coercions and Actions.sws|Worksheet]] [[attachment:Simon King - Coercions and Actions.pdf|PDF]]
-  * Volker Braun: Git and the new development workflow [[attachment:Volker Braun - Git and Sage Development.pdf|PDF]] 
-
 == Projects ==
 
 See [[days53/projects|here]] for the coding sprint projects.
