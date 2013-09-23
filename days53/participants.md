@@ -5,6 +5,7 @@ The following people have confirmed their attendance at [[days53 | Sage Days 53]
   * Jamie Beacom (University of Oxford)
   * Amnon Besser (Ben Gurion University)
   * Charles Bouillaguet (Laboratoire d'Informatique CNRS Lille)
+  * Volker Braun (University of Oxford)
   * Wouter Castryck (KU Leuven)
   * Rob de Jeu (Vrije Universiteit Amsterdam)
   * Martin Dickson (University of Bristol) 
