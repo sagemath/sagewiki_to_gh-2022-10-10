@@ -23,6 +23,10 @@ Our schedule is [[days53/schedule |here]].
   * Simon King: Implementing arithmetic operations in Sage [[attachment:Simon King - Coercions and Actions.sws|Worksheet]] [[attachment:Simon King - Coercions and Actions.pdf|PDF]]
   * Volker Braun: Git and the new development workflow [[attachment:Volker Braun - Git and Sage Development.pdf|PDF]] 
 
+== Projects ==
+
+See [[days53/projects|here]] for the coding sprint projects.
+
 == Participants ==
 
 See the [[days53/participants |list of participants]].
