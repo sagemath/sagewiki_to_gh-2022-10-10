@@ -1,10 +1,13 @@
 ## page was renamed from days53_participants
 The following people have confirmed their attendance at [[days53 | Sage Days 53]]:
 
+  * Jennifer Balakrishnan (University of Oxford)
+  * Jamie Beacom (University of Oxford)
   * Amnon Besser (Ben Gurion University)
   * Charles Bouillaguet (Laboratoire d'Informatique CNRS Lille)
   * Wouter Castryck (KU Leuven)
   * Rob de Jeu (Vrije Universiteit Amsterdam)
+  * Martin Dickson (University of Bristol) 
   * Burcin Erocal (Heidelberg University)
   * Francois Escriva (Vrije Universiteit Amsterdam)
   * Jean-Pierre Flori (ANSSI)
@@ -12,11 +15,13 @@ The following people have confirmed their attendance at [[days53 | Sage Days 53]
   * Mike Hansen (University of Brighton)
   * Shaun Harker (Rutgers University)
   * David Harvey (University of New South Wales)
+  * Andrea Karlova (Charles University)
   * Kiran Kedlaya (University of California, San Diego)
   * Jan Keitel (LMU Munich)
   * Simon King (Friedrich Schiller University Jena)
   * Abhinav Kumar (MIT)
   * Alan Lauder (University of Oxford)
+  * Zhentao (Victor) Lu (University of Oxford)
   * Steffen Mueller (Hamburg)
   * Andrey Novoseltsev (University of Alberta)
   * Dima Pasechnik (University of Oxford)
