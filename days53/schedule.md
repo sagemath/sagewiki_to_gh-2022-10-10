@@ -7,13 +7,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 10:30-11:00 || Volker Braun  ||   L3, MI     || [[days53/abstracts/#Braun1  | Introduction to mathematical physics and Sage]]  ||
 || 11:00-11:30 ||  ||          || Coffee||
 
----- /!\ '''Edit conflict - other version:''' ----
 || 11:30-12:30 || Volker Braun ||  L3, MI       || [[days53/abstracts/#TBD | Scientific computing with Python and Cython]] [[attachment:Volker Braun - Python and Cython.sws|Worksheet]] [[attachment:Volker Braun - Python and Cython.pdf|PDF]]  ||
-
----- /!\ '''Edit conflict - your version:''' ----
-|| 11:30-12:30 || Volker Braun ||  L3, MI       || [[days53/abstracts/#TBD | Scientific computing with Python and Cython]] [[attachment:Volker Braun - Python and Cython.sws|Worksheet]] [[attachment:Volker Braun - Python and Cython.pdf|PDF]]  ||
-
----- /!\ '''End of edit conflict''' ----
 || 13:00-14:00 ||       || Cafe, MI     || Lunch ||
 || 14:00-15:00 || Simon King   ||  L3, MI       || [[days53/abstracts/#King | Implementing arithmetic operations in Sage]] [[attachment:Tutorial-Coercions_and_actions.sws | Worksheet]] ||
 || 15:00-15:30 ||  || || Afternoon tea ||
