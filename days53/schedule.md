@@ -11,7 +11,6 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 14:00-15:00 || Simon King   ||  L3, MI       || [[days53/abstracts/#King | Implementing arithmetic operations in Sage]] [[attachment:Tutorial-Coercions_and_actions.sws | Worksheet]] [[attachment:Simon King - Coercions and Actions.pdf|PDF]] ||
 || 15:00-15:30 ||  || || Afternoon tea ||
 || 15:30-16:30 || Volker Braun || L3, MI ||[[days53/abstracts/#Braun2 | Git and the new development workflow]][[attachment:Volker Braun - Git and Sage Development.pdf|PDF]]   ||
-
 ||||||||'''Tuesday, 24 September'''||
 || 10:00-11:00 || Jean-Pierre Flori ||     L3, MI     || [[days53/abstracts/#Flori| p-adics in Sage]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
