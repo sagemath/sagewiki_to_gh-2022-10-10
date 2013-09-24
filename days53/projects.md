@@ -49,3 +49,5 @@ Coding sprint projects for [[days53 | Sage Days 53]].
    * implement something on top of FLINT padic, padic_poly and qadic modules (not in FLINT 2.3, but will be in FLINT 2.4),
 
    * implement something using PARI's t_PADIC type and Hensel lifting machinery.
+
+ * Implement the algorithms in Sperber-Voight: [[http://www.math.dartmouth.edu/~jvoight/articles/sparse-dwork-031913.pdf | paper]] and [[http://www.math.dartmouth.edu/~jvoight/articles/sparse-dwork-errata.pdf | errata]]
