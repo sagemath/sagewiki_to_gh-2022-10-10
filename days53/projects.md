@@ -19,7 +19,7 @@ Coding sprint projects for [[days53 | Sage Days 53]].
 
    * Porting Wouter's Magma code for lattice width, other methods (Wouter, Jen)
 
- * Zeta functions of hyperelliptic curves -- point-counting method in Sage to call David's code, see [[http://trac.sagemath.org/ticket/15148 | Trac #15148]] (Jan)
+ * Zeta functions of hyperelliptic curves -- point-counting method in Sage to call David's code, see [[http://trac.sagemath.org/ticket/15148 | Trac #15148]] (Jan, JP)
 
  * Make quiver algebras and quiver representations work again (Simon)
 
@@ -32,3 +32,20 @@ Coding sprint projects for [[days53 | Sage Days 53]].
  * Let the `TestSuite` test that the construction of a parent returns the parent (Simon, Andrey)
 
    In a previous version of toric lattice code written by Andrey, the toric lattices inherited the `.construction()` method from general lattices. Consequence: One could add two elements of different toric lattices so that the result lives in `ZZ^2`, which is not what Andrey wanted. Underlying problem: When Sage's coercion model applies the `pushout()` construction to the two toric lattices, it would create `ZZ^2`, because this is what the construction functors do. Suggestion: There should be a test that if `P.construction()` does not return `None` but a pair `F,O`, then `F(O)==P` must hold.
+
+ * Implement method to go from q-adics to residue fields and conversly. (JP, David?)
+
+   See [[http://trac.sagemath.org/ticket/13612 | Trac #13612]] for going up and [[http://trac.sagemath.org/ticket/13613 | Trac #13613]] for going down.
+
+ * Try out p-adic implemention using templates, potentially fix it, extend it! (JP)
+
+   Sub-tasks:
+   * [[http://trac.sagemath.org/ticket/12555 | Trac #12555]] for the templatig framework,
+
+   * [[http://trac.sagemath.org/ticket/14304 | Trac #14304]] for a new implementation using FLINT's fmpz_mod_poly module,
+
+   * compare the existing implementation of extensions using NTL's ZZ_pX class together with MulMod function using pre conditioning with a new implementation using the ZZ_pE class,
+
+   * implement something on top of FLINT padic, padic_poly and qadic modules (not in FLINT 2.3, but will be in FLINT 2.4),
+
+   * implement something using PARI's t_PADIC type and Hensel lifting machinery.
