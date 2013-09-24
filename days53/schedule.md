@@ -19,7 +19,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 13:00-14:00 ||                   ||  Cafe, MI     || Lunch ||
 || 14:00-15:00 ||                   || L3 or S1.37, MI    || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
-|| 15:30 - 16:00 || Adriana Salerno & Ursula Whitcher || L3, MI || [[days53/abstracts/#SalernoWhitcher|Zeta functions, point counting, and mirror symmetry]] [[attachment:SalernoWhitcher.pdf]] ||
+|| 15:30 - 16:00 || Adriana Salerno & Ursula Whitcher || L3, MI || [[days53/abstracts/#SalernoWhitcher|Zeta functions, point counting, and mirror symmetry]] [[attachment:SalernoWhitcher.pdf | PDF]] ||
 || 16:00 -  || || L3 or S1.37, MI  || Coding sprint  ||
 ||||||||'''Wednesday, 25 September'''||
 || 10:00-11:00 || Kiran Kedlaya ||  L3, MI        || [[days53/abstracts/#Kedlaya| Some approaches to computing zeta functions of toric hypersurfaces]] ||
