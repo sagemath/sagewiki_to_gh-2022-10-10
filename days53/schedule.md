@@ -12,7 +12,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 15:00-15:30 ||  || || Afternoon tea ||
 || 15:30-16:30 || Volker Braun || L3, MI ||[[days53/abstracts/#Braun2 | Git and the new development workflow]][[attachment:Volker Braun - Git and Sage Development.pdf|PDF]]   ||
 ||||||||'''Tuesday, 24 September'''||
-|| 10:00-11:00 || Jean-Pierre Flori ||     L3, MI     || [[days53/abstracts/#Flori| p-adics in Sage]] ||
+|| 10:00-11:00 || Jean-Pierre Flori ||     L3, MI     || [[days53/abstracts/#Flori| p-adics in Sage]][[attachment:padic-sage.pdf|PDF]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
 || 11:30-12:00 ||                   ||  L3, MI        || Project organization ||
 || 12:00-13:00 ||                   || L3 or S1.37, MI      || Coding sprint ||
