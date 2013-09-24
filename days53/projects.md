@@ -28,3 +28,7 @@ Coding sprint projects for [[days53 | Sage Days 53]].
  * Fix memleak related with quadratic number fields (Jean-Pierre, Simon)
 
    See [[http://trac.sagemath.org/ticket/14711 | Trac #14711]]. Quadratic number fields come with an embedding into the complex field. The embedding is stored by ''strong'' reference in an attribute of the codomain of the embedding. If the codomain is "immortal" (which is the case for the complex field), then the domain of the embedding becomes immortal, too. Hence, currently, quadratic number fields will stay in memory forever.
+
+ * Let the `TestSuite` test that the construction of a parent returns the parent (Simon, Andrey)
+
+   In a previous version of toric lattice code written by Andrey, the toric lattices inherited the `.construction()` method from general lattices. Consequence: One could add two elements of different toric lattices so that the result lives in `ZZ^2`, which is not what Andrey wanted. Underlying problem: When Sage's coercion model applies the `pushout()` construction to the two toric lattices, it would create `ZZ^2`, because this is what the construction functors do. Suggestion: There should be a test that if `P.construction()` does not return `None` but a pair `F,O`, then `F(O)==P` must hold.
