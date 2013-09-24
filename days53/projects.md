@@ -20,3 +20,7 @@ Coding sprint projects for [[days53 | Sage Days 53]].
    * Porting Wouter's Magma code for lattice width, other methods (Wouter, Jen)
 
  * Zeta functions of hyperelliptic curves -- point-counting method in Sage to call David's code, see [[http://trac.sagemath.org/ticket/15148 | Trac #15148]] (Jan)
+
+ * Make quiver algebras and quiver representations work again (Simon)
+
+   See [[http://trac.sagemath.org/ticket/12630 | Trac #12630]]. The ticket was providing quivers with composition of paths, quiver algebras and the like, but the patch recently broke because of a change in the expected arguments of `DiGraph.__init__` in [[http://trac.sagemath.org/ticket/14806 | Trac #14806]].
