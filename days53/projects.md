@@ -24,3 +24,7 @@ Coding sprint projects for [[days53 | Sage Days 53]].
  * Make quiver algebras and quiver representations work again (Simon)
 
    See [[http://trac.sagemath.org/ticket/12630 | Trac #12630]]. The ticket was providing quivers with composition of paths, quiver algebras and the like, but the patch recently broke because of a change in the expected arguments of `DiGraph.__init__` in [[http://trac.sagemath.org/ticket/14806 | Trac #14806]].
+
+ * Fix memleak related with quadratic number fields (Jean-Pierre, Simon)
+
+   See [[http://trac.sagemath.org/ticket/14711 | Trac #14711]]. Quadratic number fields come with an embedding into the complex field. The embedding is stored by ''strong'' reference in an attribute of the codomain of the embedding. If the codomain is "immortal" (which is the case for the complex field), then the domain of the embedding becomes immortal, too. Hence, currently, quadratic number fields will stay in memory forever.
