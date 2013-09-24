@@ -23,6 +23,10 @@ See [[days53/schedule |here]] for the schedule, as well as slides and Sage works
 
 See [[days53/projects|here]] for the coding sprint projects.
 
+== Misc ==
+
+Here is a xrandr script to add the right mode for our fancy projector: [[attachment:projector.sh]]
+
 == Participants ==
 
 See the [[days53/participants |list of participants]].
