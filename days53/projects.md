@@ -16,3 +16,5 @@ Coding sprint projects for [[days53 | Sage Days 53]].
    * Hypersurfaces - check smoothness, nondegeneracy (where does this fail in families?) 
 
    * Toric elliptic curves
+
+ * Zeta functions of hyperelliptic curves -- point-counting method in Sage to call David's code, see [[http://trac.sagemath.org/ticket/15148 | Trac #15148]] 
