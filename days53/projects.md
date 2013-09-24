@@ -1,7 +1,7 @@
 Coding sprint projects for [[days53 | Sage Days 53]].
 
 
- * Try out Sage-Git (everybody)
+ * Try out Sage-Git (everybody). [[http://trac.sagemath.org/ticket/13015 | Trac meta-ticket #13015]]
 
  * Toric fibrations (Jan, Andrey)
 
