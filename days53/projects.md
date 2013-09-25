@@ -33,7 +33,7 @@ Coding sprint projects for [[days53 | Sage Days 53]].
 
    See [[http://trac.sagemath.org/ticket/15223 | Trac #15223]]. In a previous version of toric lattice code written by Andrey, the toric lattices inherited the `.construction()` method from general lattices. Consequence: One could add two elements of different toric lattices so that the result lives in `ZZ^2`, which is not what Andrey wanted. Underlying problem: When Sage's coercion model applies the `pushout()` construction to the two toric lattices, it would create `ZZ^2`, because this is what the construction functors do. Suggestion: There should be a test that if `P.construction()` does not return `None` but a pair `F,O`, then `F(O)==P` must hold.
 
- * Implement method to go from q-adics to residue fields and conversly. (JP, David?)
+ * Implement method to go from q-adics to residue fields and conversly. (JP, David?, Martin?, François?)
 
    See [[http://trac.sagemath.org/ticket/13612 | Trac #13612]] for going up and [[http://trac.sagemath.org/ticket/13613 | Trac #13613]] for going down.
 
