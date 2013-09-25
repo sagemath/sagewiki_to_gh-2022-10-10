@@ -7,7 +7,7 @@
 ||||||'''Monday'''||
 || 10:00-10:30 ||                  || Welcome and orientation            ||
 || 10:30-12:00 ||                  || Sage for begginers / coding sprint ||
-|| 13:30-14:30 || Xavier Caruso    || The state of padics in Sage        ||
+|| 13:30-14:30 || Xavier Caruso    || The state of padics in Sage [[https://cethop.math.cnrs.fr:8443/home/pub/12/|worksheet]] ||
 || 14:30-15:00 ||                  || overview of projects               ||
 || 15:00-16:00 || Julian Rüth      || About the new git workflow         ||
 || 16:00-      ||                  || coding sprint                      ||
