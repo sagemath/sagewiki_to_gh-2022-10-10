@@ -19,7 +19,7 @@
 || 19:30-      ||                  || conference dinner                  ||
 ||||||'''Wednesday'''||
 || 08:00-11:00 ||                  || coding sprint                      ||
-|| 11:00-12:00 || Luca De Feo      || Implementation of finite fields [[attachment:defeo-slides.pdf|slides]] ||
+|| 11:00-12:00 || Luca De Feo      || Implementation of finite fields [[attachment:defeo-slides.pdf|slides]] [[https://cethop.math.cnrs.fr:8443/home/pub/13/|worksheet] ||
 || 13:30-14:30 || Jean-Pierre Flori|| padics in FLINT [[attachment:flori-slides.pdf|slides]]           ||
 || 14:45-15:45 || Tristan Vaccon   || padic Gröbner basis                ||
 || 16:00-16:30 ||                  || status reports of projects         ||
