@@ -33,7 +33,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 19:00 - 19:30  ||  ||Somerville College Quad|| Pre-dinner drinks ||
 || 19:30 - || || Somerville College Reading Room || Conference dinner ||
 ||||||||'''Thursday, 26 September'''||
-|| 10:00-11:00 || Andrey Novoseltsev || L3, MI          || [[days53/abstracts/#Novoseltsev| Toric geometry in Sage]] ||
+|| 10:00-11:00 || Andrey Novoseltsev || L3, MI          || [[days53/abstracts/#Novoseltsev| Toric geometry in Sage]] [[attachment:TGiS.sws|Worksheet]] [[attachment:TGiS.pdf|PDF]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
 || 11:30-13:00 ||                   || L3 or S1.37, MI        || Coding sprint ||
 || 13:00-14:00 ||                   ||       || Lunch ||
