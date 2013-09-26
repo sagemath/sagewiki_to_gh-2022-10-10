@@ -28,7 +28,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 13:00-14:00 ||                   || Cafe, MI      || Lunch ||
 || 14:00-15:00 ||                   || L3 or S1.37, MI       || Coding sprint  ||
 || 15:00-15:30 ||                   || || Afternoon tea ||
-|| 15:30 - 16:00 || Amnon Besser & Francois Escriva || L3, MI || [[days53/abstracts/#BesserEscriva|Frobenius lifts and point counting for smooth curves]] ||
+|| 15:30 - 16:00 || Amnon Besser & Francois Escriva || L3, MI || [[days53/abstracts/#BesserEscriva|Frobenius lifts and point counting for smooth curves]]  [[http://youtu.be/eLzCUHQHpKI|YouTube]] ||
 || 16:00 - 19:00 || ||L3 or S1.37, MI || Coding sprint ||
 || 19:00 - 19:30  ||  ||Somerville College Quad|| Pre-dinner drinks ||
 || 19:30 - || || Somerville College Reading Room || Conference dinner ||
