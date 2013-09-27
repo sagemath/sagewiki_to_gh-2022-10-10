@@ -3,6 +3,8 @@ Coding sprint projects for [[days53 | Sage Days 53]].
 
  * Try out Sage-Git (everybody). [[http://trac.sagemath.org/ticket/13015 | Trac meta-ticket #13015]]
 
+http://sagemath.github.io/git-developer-guide/manual_git.html
+
  * Toric fibrations (Jan, Andrey)
 
  * [[http://trac.sagemath.org/ticket/14880 | Trac #14880]] : p-adic gamma function 
