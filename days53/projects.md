@@ -37,6 +37,12 @@ http://sagemath.github.io/git-developer-guide/manual_git.html
 
    The new test pointed to several problems. One of them is about the way finite rings in Sage are using the category framework. An [[https://groups.google.com/forum/#!topic/sage-devel/IeIeHsnNIf4 | old discussion on sage-devel]] provides potential solutions, but, as it turns out, the ideas presented in the discussion are still not all implemented. We want to implement them now.
 
+   A patch is in preparation, but some work needs to be done in the dependencies of this ticket: [[http://trac.sagemath.org/ticket/15229 | Trac #15229]] aims at using the category framework for integer mod rings more consistently. In particular, there should be a unique quotient ring for any order of integer mod ring, and if Sage finds or the user states that the ring is in fact a field, the instance will be updated. ''Needs review.''
+
+ * Undo the category initialisation of a parent [[http://trac.sagemath.org/ticket/15234 | Trac #15234]] (Simon)
+
+   Undoing the category initialisation is of course nothing that should be done under normal circumstances, but it may be helpful in debugging. ''Needs review.''
+
  * Implement method to go from q-adics to residue fields and conversly. (JP, David?, Martin?, François?)
 
    See [[http://trac.sagemath.org/ticket/13612 | Trac #13612]] for going up and [[http://trac.sagemath.org/ticket/13613 | Trac #13613]] for going down.
