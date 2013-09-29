@@ -9,7 +9,7 @@ Coding sprint projects for [[days53 | Sage Days 53]].
 
  * Toric fibrations (Jan, Andrey)
 
- * [[http://trac.sagemath.org/ticket/14880 | Trac #14880]] : p-adic gamma function 
+ * [[http://trac.sagemath.org/ticket/14880 | Trac #14880]] : p-adic gamma function [DONE]
 
  * Linear algebra mod n -- pari does this. Write a wrapper? (Kiran)
   
