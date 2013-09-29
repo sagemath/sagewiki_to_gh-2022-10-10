@@ -17,7 +17,7 @@ Coding sprint projects for [[days53 | Sage Days 53]].
   
  * Create a python object that enumerates the set of points on a toric variety over a finite field (Ursula has code to do this) (David) (useful for checking if these points are on a hypersurface or a complete intersection). See [[http://trac.sagemath.org/15224|Trac #15224]] (needs_review)
 
- * Hypersurfaces - check smoothness, nondegeneracy (where does this fail in families?) (Kiran, Adriana, Ursula, Wouter)
+ * Hypersurfaces - check smoothness, nondegeneracy (where does this fail in families?) (Kiran, Adriana, Ursula, Wouter, Volker) [[http://trac.sagemath.org/ticket/15239|Trac #15239]] (needs_review)
 
  * Toric elliptic curves (first, see what's done in [[http://trac.sagemath.org/13084 | Trac #13084]] to figure out what is left to do)
 
