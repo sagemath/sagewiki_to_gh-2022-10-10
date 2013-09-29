@@ -40,7 +40,7 @@ The workshop will consist of tutorials and talks in the mornings and working gro
 ||3:30pm-6:00pm||Project work time||
 ||6:00pm||Status updates||
 
-=== Saturday, November 10 ===
+=== Saturday, November 9 ===
 
 Coffee break at 11am and 3pm
 
@@ -52,7 +52,7 @@ Coffee break at 11am and 3pm
 ||3:00pm-6:00pm||Project work time||
 ||6:00pm||Status updates||
 
-=== Sunday, November 11 ===
+=== Sunday, November 10 ===
 
 Coffee break at 11am
 
