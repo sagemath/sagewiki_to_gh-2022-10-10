@@ -26,7 +26,8 @@ See [[days53/projects|here]] for the coding sprint projects.
 == Misc ==
 
  * Here is a xrandr script to add the right mode for our fancy projector: [[attachment:projector.sh]]
- * Here are some [[https://picasaweb.google.com/102945930497952601322/SageDays53?authkey=Gv1sRgCM_ip8vPpLTklQE# | photos]] from the workshop
+ * [[https://plus.google.com/u/0/photos/113421169347512599264/albums/5929088404162100449|Photos from the workshop]]
+
 
 == Participants ==
 
