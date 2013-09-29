@@ -11,7 +11,7 @@ Coding sprint projects for [[days53 | Sage Days 53]].
 
  * [[http://trac.sagemath.org/ticket/14880 | Trac #14880]] : p-adic gamma function [DONE]
 
- * Linear algebra mod n -- pari does this. Write a wrapper? (Kiran)
+ * Linear algebra mod n -- pari does this. Write a wrapper? (Kiran) [[http://trac.sagemath.org/ticket/15238|Trac #15238]]
   
  * Kloosterman's paper on deformations of diagonal hypersurfaces -- what are strong, weak equivalence? (Kiran, Adriana, Ursula)
   
