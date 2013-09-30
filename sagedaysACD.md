@@ -44,7 +44,8 @@ The workshop will consist of tutorials and talks in the mornings and working gro
 
 Coffee break at 11am and 3pm
 
-||9:00am-10:00am||Talk: Vincent Delecroix||
+||9:00am-10:00am||Talk: Vincent Delecroix - how to use C in Sage/Python||
+|| ||approximation of Lyapunov exponents of the Kontsevich-Zorich cocycle||
 ||10:00am-12:30pm||Project work time||
 ||12:30pm||Status Updates||
 ||12:30pm-2:00pm||Lunch||
@@ -84,7 +85,7 @@ Florida Institute of Technology, Melbourne, FL.
  *Hao Chen - University of Washington
  *Vincent Delecroix - Univ. Paris VII, France
  *John Doyle - University of Georgia
- *Paul Fili - University of Rochester
+ *Paul Fili - Oklahoma State
  *Benjamin Hutz - Florida Institute of Technology
  *Patrik Ingram - Colorado State University
  *Holly Krieger - Massachusetts Institute of Technology
