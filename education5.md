@@ -85,7 +85,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
 
  1. [[http://www.cwu.edu/~andonie/|Razvan Andonie]] (Central Washington University)
  1. [[http://www.math.missouri.edu/personnel/other/aubreyj.html|Jason Aubrey]] (Univ. of Missouri until July, then University of Arizona)
- 1. [[http://www.math.harvard.edu/~jen/|Jen Balakrishnan]] (Harvard University)
+ 1. [[http://www.math.harvard.edu/~jen/|Jennifer Balakrishnan]] (Harvard University)
  1. [[http://people.whitman.edu/~balofba|Barry Balof]] (Whitman College)
  1. [[http://www.gregorybard.com/|Gregory Bard]] (University of Wisconsin---Stout, Menomonie, Wi)
  1. [[http://www2.sfasu.edu/math/people/faculty/beavers.html|Brian Beavers]] (Stephen F. Austin State University)
