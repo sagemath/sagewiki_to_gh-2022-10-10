@@ -60,7 +60,7 @@ Here's a preliminary schedule for [[days53|Sage Days 53]]. All talks will take p
 || 15:30 - 16:00 ||  || || ||
 || 16:00 -  || ||L3 or S1.37, MI || Coding sprint ||
 ||||||||'''Sunday, 29 September'''||
-|| 10:00-11:00 || Jan Keitel ||  L3, MI          || [[days53/abstracts/#Keitel| Geometric engineering in toric F-Theory]] ||
+|| 10:00-11:00 || Jan Keitel ||  L3, MI          || [[days53/abstracts/#Keitel| Geometric engineering in toric F-Theory]][[attachment:Jan Keitel - Geometric Engineering in F-Theory.pdf|PDF]] ||
 || 11:00-11:30 ||                   ||          || Coffee||
 || 11:30-13:00 ||                   ||L3 or S1.37, MI          || Coding sprint ||
 || 13:00-14:00 ||                   ||       || Lunch ||
