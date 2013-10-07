@@ -80,6 +80,8 @@ Here are some useful links:
 
  * [[http://sagemath.github.io/git-developer-guide/|Git developer guide]]
 
+ * [[https://github.com/sagemath/sage|Sage on Github]]
+
  * [[https://groups.google.com/forum/#!forum/sage-git|Sage git googlegroups]]
 
  * [[http://git-scm.com/book/en/Git-Branching|Git branches]]
