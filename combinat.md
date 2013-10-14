@@ -16,14 +16,15 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
  * [[https://combinat.sagemath.org:8080|Experimental Sage notebook with the Sage-Combinat patches applied]]
 
- * June 17-21, 2013 [[combinat/FPSAC13|Sage-Combinat days]], as satellite event to [[http://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
-   Organized by Alejandro Morales, Anne Schilling, Nicolas M. Thiery.
-
- * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
+ * November 4-8, 2013[[http://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
 
  * A new [[http://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main.pdf|poster]] for Sage-Combinat!
 
 == Past news ==
+
+ * June 17-21, 2013 [[combinat/FPSAC13|Sage-Combinat days]], in Orsay as satellite event to [[http://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
+
+ * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
 
  * February 11-15, 2013 [[http://icerm.brown.edu/sp-s13/|Sage Days: Multiple Dirichlet Series, Combinatorics, and Representation Theory]], ICERM, Brown, USA
    Organized by Franco Saliola, Anne Schilling, Nicolas M. Thiery.
