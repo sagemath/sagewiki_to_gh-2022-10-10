@@ -183,14 +183,14 @@ def show_mandelbrot(option = selector(options, nrows = 2, width=8),
     elif option != 'Stay':
         side = side/2
 
-    time m=mandelbrot_cython(x0 ,x0 + side ,y0 ,y0 + side , N, L )
+    m=mandelbrot_cython(x0 ,x0 + side ,y0 ,y0 + side , N, L )
 #    p = (matrix_plot(m) +
 #             line2d([(N/2,0),(N/2,N)], color='red', zorder=2) +
 #             line2d([(0,N/2),(N,N/2)], color='red', zorder=2))
 #    time show(p, figsize = (plot_size, plot_size))
     pylab.clf()
     pylab.imshow(m, cmap = pylab.cm.gray)
-    time pylab.savefig('mandelbrot.png')
+    pylab.savefig('mandelbrot.png')
 }}}
 {{attachment:mandelbrot_cython.png}}
 
