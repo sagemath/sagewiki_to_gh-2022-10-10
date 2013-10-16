@@ -82,14 +82,18 @@ Florida Institute of Technology, Melbourne, FL.
 
 === Participants ===
 
+ *Ali Bendallah - Florida Institute of Technology
  *Hao Chen - University of Washington
+ *Joao de Faria - Florida Institute of Technology
  *Vincent Delecroix - Univ. Paris VII, France
  *John Doyle - University of Georgia
  *Paul Fili - Oklahoma State
  *Benjamin Hutz - Florida Institute of Technology
  *Patrik Ingram - Colorado State University
+ *Amin Khanlar - Florida Institute of Technology
  *Holly Krieger - Massachusetts Institute of Technology
  *David Krumm - University of Georgia
+ *Donald Richardson - Florida Institute of Technology
  *Brian Stout - US Naval Academy
  *Bianca Thompson - University of Hawaii
  *Adam Towsley - CUNY Graduate Center
