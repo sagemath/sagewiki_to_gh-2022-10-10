@@ -33,7 +33,7 @@ Research Blog: http://quantumtetrahedron.wordpress.com
 
 
 
-Given the values of J1, J2, J3 and J4 this interact calculates the volume, area,angle eigenvalues of a quantum tetrahedron.
+Given the values of J1, J2, J3 and J4 this interact calculates the volume, area and angle eigenvalues of a quantum tetrahedron.
 
 {{{#!sagecell
 
