@@ -5,11 +5,11 @@ goto [[interact|interact main page]]
 
 {{attachment:5-cell.gif}}
 
-== Quantum tetrahedron volume and angle eigenvalues ==
+== Quantum tetrahedron volume, area and angle eigenvalues ==
 by David Horgan. 
 
 
-In this interact I calculate the angle, area and volume for a quantum tetrahedron
+In this interact I calculate the angle,   area and volume for a quantum tetrahedron
 The angle is found using the expression: 
 theta = arccos((j3*(j3+1)-(j1*(j1+j1)-j2*(j2+1))/(2*sqrt(j1*(j1+j1)*j2*(j2+1))))
 The area is found using the expression:
