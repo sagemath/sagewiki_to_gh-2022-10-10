@@ -9,13 +9,22 @@ goto [[interact|interact main page]]
 by David Horgan. 
 
 
-Enter the four J values into the input boxes.
-The values k range from kmin to kmax in integer steps.
-The dimension d of the Hilbert space H4,  d = kmax - kmin + 1.
-we have kmin = max(|j1-j2|,|j3 -j4|)and kmax = min(j1+j2,j3 +j4).
-The the dimension of the hilbert space is given by d = kmax -kmin + 1. 
-The volume matrix V^2 =M = 2/9(real antisymmetrix matrix).
-The spins must satisfy (j1+j2)<= (j3+j4)- the triangle inequality.
+In this interact I calculate the angle, area and volume for a quantum tetrahedron
+The angle is found using the expression: 
+theta = arccos((j3*(j3+1)-(j1*(j1+j1)-j2*(j2+1))/(2*sqrt(j1*(j1+j1)*j2*(j2+1))))
+The area is found using the expression:
+A=sqrt(j1*(j1+1))
+The volume is fund using the expression
+V^2 =M = 2/9(real antisymmetrix matrix)
+
+
+Values of constants
+gamma is Immirzi parameter
+gamma =numerical_approx( ln(2)/(pi*sqrt(2)))
+#G = 6.63*10^-11
+hbar= (1.61619926*10^-35)/(2*pi)
+lp is the planck length
+lp3=6*10^-104
 Reference: Bohr-Sommerfeld Quantization of Space by Eugenio Bianchi and Hal M. Haggard. 
 Reference: Shape in an atom of space: exploring quantum geometry phenomenology by Seth A. Major. 
 
@@ -24,7 +33,7 @@ Research Blog: http://quantumtetrahedron.wordpress.com
 
 
 
-Given the values of J1, J2, J3 and J4 this interact calculates the volume and angle eigenvalues of a quantum tetrahedron.
+Given the values of J1, J2, J3 and J4 this interact calculates the volume, area,angle eigenvalues of a quantum tetrahedron.
 
 {{{#!sagecell
 
@@ -58,6 +67,29 @@ def _(j1 = input_box(6.0, 'J1'),
         d7=d5/d6
         d8=arccos(d7)
         print "Angle eigenvalue in radians=",(d8)
+        html('<h3>main sequence Area eigenvalues</h3>')
+        lp=1.61619926*10^-35
+        main1=numerical_approx(sqrt(j1*(j1+1)),digits=4)
+        areamain1 =0.5*lp^2*main1
+        print 'Area of face 1=', areamain1, 'm2' 
+        main2=numerical_approx(sqrt(j2*(j2+1)),digits=4)
+        areamain2 =0.5*lp^2*main2
+        print 'Area of face 2=', areamain2, 'm2' 
+        main3=numerical_approx(sqrt(j3*(j3+1)),digits=4)
+        areamain3 =0.5*lp^2*main3
+        print 'Area of face 3=', areamain3, 'm2' 
+        main4=numerical_approx(sqrt(j4*(j4+1)),digits=4)
+        areamain4 =0.5*lp^2*main4
+        print 'Area of face 4=', areamain4, 'm2' 
+        area = areamain1 + areamain3 +areamain3+areamain4
+        print 'Total area of quantum tetrahedron =', area, 'm2'
+
+
+
+
+
+
+
 
 
         html('<h3>Values of Volume Eigenvalue</h3>')
