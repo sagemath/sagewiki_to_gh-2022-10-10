@@ -133,7 +133,7 @@ def _(j1 = input_box(6.0, 'J1'),
             volume = numerical_approx(vol, digits=2)
             if e.imag() ==0:
                 print "volume eigenvalue =",(e)
-                print "volume of tetrahedron in m3 =", volume
+                print "volume of tetrahedron =", volume, 'm3'
                 
 
 }}}
