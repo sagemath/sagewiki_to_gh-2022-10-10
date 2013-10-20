@@ -2,6 +2,36 @@ This page aims at inventorying Live USB running sage.
 
 <<TableOfContents>>
 
+== Sage Debian Live ==
+
+=== Links ===
+
+ * Homepage : http://sagedebianlive.metelu.net/
+ * Download page : http://www.lirmm.fr/~monteil/hebergement/sagedebianlive/
+ * Sources to build your own : http://sagedebianlive.metelu.net/sources/sagedebianlive/
+
+=== Data ===
+
+ * Main Author : ThierryMonteil
+ * Base Distro : Debian wheezy (using http://live.debian.net/)
+ * Current sage version : 5.12
+ * Current kernel : Linux 3.2.0, 32 bits (compilation for other platforms is possible)
+ * Size : 2.8 GB
+ * RAM required : 512 MB RAM
+
+=== Features ===
+
+ * Design
+   * Self-contained : designed to be used and distributed without internet connection.
+   * The whole system is bootstrapped at each build, with an up-to-date and coherent set of softwares.
+   * The source code is public and can be (hopefuly) easily modified to feet particular needs (e.g. adding software, setting defaults).
+ * Clone : the USB key can replicate itself on any other plugged USB key, to ease spreading the software without internet connection. No personal data is duplicated to the cloned key. Possibility for the user to share additional data from her key to the cloned one (pdf lecture notes, worksheets, pictures of the workshop,...). Possible to upgrade an existing live USB key, while keeping personal data.
+ * Straightforward home persistence : the changes made on the user homedir are kept for next reboots, but no additional partitionning or customization is needed, the data can be accessed from any other OS.
+ *  Language switcher : the user can change the system language easily (this feature apparently does not exist in xfce nor lxde). All existing UTF-8 locales are generated.
+ *  Contains quite a lot of softwares : sagemath (boosted with octave, scilab, some optional packages: database_gap, gap_packages, nauty, dot2tex), geogebra, latex, editors, gimp, vlc, libreoffice, backup, rescue,...
+
+
+
 == Sage Puppy Live (a.k.a. Sage Live CD) ==
 
 === Links ===
@@ -32,34 +62,6 @@ This page aims at inventorying Live USB running sage.
 
 
 
-
-== Sage Debian Live ==
-
-=== Links ===
-
- * Homepage : http://sagedebianlive.metelu.net/
- * Download page : http://www.lirmm.fr/~monteil/hebergement/sagedebianlive/
- * Sources to build your own : http://sagedebianlive.metelu.net/sources/sagedebianlive/
-
-=== Data ===
-
- * Main Author : ThierryMonteil
- * Base Distro : Debian wheezy (using http://live.debian.net/)
- * Current sage version : 5.10
- * Current kernel : Linux 3.2.0, 32 bits (compilation for other platforms is possible)
- * Size : 2.7 GB
- * RAM required : 512 MB RAM
-
-=== Features ===
-
- * Design
-   * Self-contained : designed to be used and distributed without internet connection.
-   * The whole system is bootstrapped at each build, with an up-to-date and coherent set of softwares.
-   * The source code is public and can be (hopefuly) easily modified to feet particular needs (e.g. adding software, setting defaults).
- * Clone : the USB key can replicate itself on any other plugged USB key, to ease spreading the software without internet connection. No personal data is duplicated to the cloned key. Possibility for the user to share additional data from her key to the cloned one (pdf lecture notes, worksheets, pictures of the workshop,...). Possible to upgrade an existing live USB key, while keeping personal data.
- * Straightforward home persistence : the changes made on the user homedir are kept for next reboots, but no additional partitionning or customization is needed, the data can be accessed from any other OS.
- *  Language switcher : the user can change the system language easily (this feature apparently does not exist in xfce nor lxde). All existing UTF-8 locales are generated.
- *  Contains quite a lot of softwares : sagemath (boosted with octave, scilab, some optional packages: database_gap, gap_packages, nauty, dot2tex), geogebra, latex, editors, gimp, vlc, libreoffice, backup, rescue,...
 
 
 
