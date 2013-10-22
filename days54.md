@@ -108,6 +108,7 @@ Here are some useful links:
  * Jessica Striker (North Dakota State University)
  * Jeremy Martin (University of Kansas)
  * Roger Tian (UC Davis)
+ * Brandon Dutra (UC Davis)
 
 ==== Organizers ====
 
