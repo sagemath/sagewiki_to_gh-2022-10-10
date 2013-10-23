@@ -9,8 +9,8 @@ This page lists some past and ongoing grant applications involving Sage-Combinat
 
 :Title: Sage-Combinat: Mutualized software development for research in combinatorics and beyond
 :Status: Submitted (first phase)
-:Form: `Scientific project <http://combinat.sagemath.org/misc/raw-file/tip/grants/2013-10-14-ANR/descriptif.pdf>`_, `Sources <http://combinat.sagemath.org/misc/file/tip/grants/2013-10-14-ANR/>`_
-:Institutions: Bordeaux, Lyon, Marne-la-vallée, Marseille, Rouen, *Orsay*, ...
+:Form: `Scientific project <http://combinat.sagemath.org/misc/raw-file/tip/grants/2013-10-14-ANR/descriptif.pdf>`_, `Summary <http://combinat.sagemath.org/misc/raw-file/tip/grants/2013-10-14-ANR/resume.txt>`_, `Sources <http://combinat.sagemath.org/misc/file/tip/grants/2013-10-14-ANR/>`_
+:Institutions: Bordeaux, Lyon, Marne-la-vallée, Marseille, Montréal, Rouen, *Orsay*, ...
 :PI: Nicolas M. Thiéry
 :Duration: 4 years
 :Funds for: ~400 k euros for Sage-Combinat days, developer meetings, travel money, research engineer time, student stipend, subcontracting, ...
