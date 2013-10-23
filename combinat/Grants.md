@@ -4,36 +4,19 @@ Sage-Combinat grants
 
 This page lists some past and ongoing grant applications involving Sage-Combinat.
 
-2010/03/05: Emmy Noether program, Deutsche Forschungsgemeinschaft
-----------------------------------------------------------------------------------------------
+2014-1018: ANR grant
+--------------------
 
-:Title: Catalan Combinatorics in Root Systems, Reflection Groups, and Cluster Algebras
-:Status: In preparation
-:PI: Christian Stump
-:Duration: 5 years
-:Funds for: research project in Algebraic and Geometric Combinatorics, including Sage implementations, joint projects, and visits
-
-2010/03/03: CNRS/INS2I: PEPS
-----------------------------
-
-:Title: Sage-Combinat: fédérer et mutualiser le développement logiciel pour la recherche en combinatoire
-:Status: Failed
-:Form: attachment__ (`sources <http://combinat.sagemath.org/hgwebdir.cgi/misc/file/tip/grants/2011-03-03-PEPS-Sage-Combinat/>`_)
-:Institutions: Marne-la-vallée, Montpellier, Marseille, Polytechnique, *Orsay*, Sophia Antipolis
+:Title: Sage-Combinat: Mutualized software development for research in combinatorics and beyond
+:Status: Submitted (first phase)
+:Form: `Scientific project <combinat.sagemath.org/misc/raw-file/tip/grants/2013-10-14-ANR/descriptif.pdf`_, `sources <http://combinat.sagemath.org/misc/file/tip/grants/2013-10-14-ANR/`_
+:Institutions: Bordeaux, Lyon, Marne-la-vallée, Marseille, Rouen, *Orsay*, ...
 :PI: Nicolas M. Thiéry
-:Duration: 2 years
-:Funds for: 20k euros for Sage-Combinat days, developer meetings, travel money + a bit of hardware
-
-__ attachment:PEPS_Thiery_Nicolas.pdf
-
-Fall 2012: CIMPA Summer school in Bobo-Dioulasso, Burkina Faso
---------------------------------------------------------------
-
-:Status: accepted
-:PI's: Julien Cassaigne, Idrissa Kaborei
+:Duration: 4 years
+:Funds for: ~400 k euros for Sage-Combinat days, developer meetings, travel money, research engineer time, student stipend, subcontracting, ...
 
 2012-2015: NSF grant OCI-1147247
------------------------------------------
+--------------------------------
 
 ''Collaborative Research: SI2-SSE: Sage-combinat: Developing and Sharing Open Source Software for Algebraic Combinatorics''
 
@@ -59,6 +42,34 @@ Fall 2012: CIMPA Summer school in Bobo-Dioulasso, Burkina Faso
   - thematic tutorials
   - ...
 :Application material: http://wstein.org/grants/2010-compmath-combinat/ or http://www.math.ucdavis.edu/~anne/Sage-proposal2011.pdf
+
+Fall 2012: CIMPA Summer school in Bobo-Dioulasso, Burkina Faso
+--------------------------------------------------------------
+
+:Status: accepted
+:PI's: Julien Cassaigne, Idrissa Kaborei
+
+2010/03/05: Emmy Noether program, Deutsche Forschungsgemeinschaft
+----------------------------------------------------------------------------------------------
+
+:Title: Catalan Combinatorics in Root Systems, Reflection Groups, and Cluster Algebras
+:Status: In preparation
+:PI: Christian Stump
+:Duration: 5 years
+:Funds for: research project in Algebraic and Geometric Combinatorics, including Sage implementations, joint projects, and visits
+
+2010/03/03: CNRS/INS2I: PEPS
+----------------------------
+
+:Title: Sage-Combinat: fédérer et mutualiser le développement logiciel pour la recherche en combinatoire
+:Status: Failed
+:Form: attachment__ (`sources <http://combinat.sagemath.org/hgwebdir.cgi/misc/file/tip/grants/2011-03-03-PEPS-Sage-Combinat/>`_)
+:Institutions: Marne-la-vallée, Montpellier, Marseille, Polytechnique, *Orsay*, Sophia Antipolis
+:PI: Nicolas M. Thiéry
+:Duration: 2 years
+:Funds for: 20k euros for Sage-Combinat days, developer meetings, travel money + a bit of hardware
+
+__ attachment:PEPS_Thiery_Nicolas.pdf
 
 2010-201?: ANR
 --------------
