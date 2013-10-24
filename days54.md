@@ -33,6 +33,10 @@ There are other hotels to choose from in Davis, but are generally more expensive
 
 See also: https://www.math.ucdavis.edu/about/directions/
 
+=== Location ===
+
+The main room we will be located in is 2112 of the [[http://campusmap.ucdavis.edu/?b=100/|MSB (Mathematical Sciences Building)]] where all talks will take place unless otherwise stated. We will also typically have rooms 2240 and 3240 as smaller breakout rooms.
+
 === Schedule ===
 
 |||||| Monday ||
