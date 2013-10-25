@@ -40,8 +40,8 @@ The main room we will be located in is 2112 of the [[http://campusmap.ucdavis.ed
 === Schedule ===
 
 |||||| Monday ||
-|| 10:30AM || || Coffee break||
-|| 11 AM || Jeremy Martin || Eigenvalues of Simplicial Rook Graphs ||
+|| 10:30AM || || Coffee break (in MSB 1147)||
+|| 11 AM || Jeremy Martin || Eigenvalues of Simplicial Rook Graphs (in MSB 1147)||
 || 2 PM || Dan Bump || Introduction to Git ||
 || 3 PM || || Coffee break ||
 || 4 PM || Andrew Ohana || The new workflow under Git ||
@@ -52,12 +52,11 @@ The main room we will be located in is 2112 of the [[http://campusmap.ucdavis.ed
 || 3 PM || || Coffee break ||
 || 5 PM || Mike Zabrocki || Introduction to Sage ||
 |||||| Wednesday ||
-|| 10:25 AM || Mathieu Guay-Paquet || Yield from: my favourite feature from Python 3.3 ||
+|| 10:25 AM || Mathieu Guay-Paquet || Yield from: my favorite feature from Python 3.3 ||
 || 10:30AM || || Coffee break||
 
 All other time will be devoted to coding sprints. We will schedule more talks/tutorials during the week on topics that
-the participants feel would benefit them. All talks and most coding sprints will take place in
-MSB 1147.
+the participants feel would benefit them. 
 
 === Projects ===
 
