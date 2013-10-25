@@ -112,6 +112,7 @@ Here are some useful links:
  * Jeremy Martin (University of Kansas)
  * Roger Tian (UC Davis)
  * Brandon Dutra (UC Davis)
+ * Gregg Musiker (University of Minnesota) (?)
 
 ==== Organizers ====
 
