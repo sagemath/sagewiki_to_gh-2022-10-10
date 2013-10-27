@@ -105,7 +105,6 @@ Here are some useful links:
  * Viviane Pons (Marne-la-Vallee)
  * Darij Grinberg (MIT)
  * Tom Roby (University of Connecticut)
- * Franco Saliola (UQaM)
  * Mathieu Guay-Paquet (UQaM)
  * Mike Zabrocki (York University)
  * Jessica Striker (North Dakota State University)
