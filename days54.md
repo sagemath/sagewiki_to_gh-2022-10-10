@@ -49,8 +49,8 @@ The main room we will be located in is 2112 of the [[http://campusmap.ucdavis.ed
 || 9:30 AM || Volker Braun || Toric varieties and Sage ||
 || 10:30AM || || Coffee break||
 || 11:00 AM || Panel Discussion || The future of the Sage-Combinat queue ||
-|| 3 PM || || Coffee break ||
-|| 5 PM || Mike Zabrocki || Introduction to Sage ||
+|| 4:30 PM || || Coffee break ||
+|| 5:10 PM || Mike Zabrocki || Introduction to Sage ||
 |||||| Wednesday ||
 || 10:25 AM || Mathieu Guay-Paquet || Yield from: my favorite feature from Python 3.3 ||
 || 10:30AM || || Coffee break||
