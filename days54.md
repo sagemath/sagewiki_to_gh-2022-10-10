@@ -112,6 +112,7 @@ Here are some useful links:
  * Roger Tian (UC Davis)
  * Brandon Dutra (UC Davis)
  * Gregg Musiker (University of Minnesota) (?)
+ * Maria Monks (UC Berkeley)
 
 ==== Organizers ====
 
