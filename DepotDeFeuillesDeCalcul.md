@@ -36,3 +36,4 @@ Lors d'une rencontre du GroupeUtilisateursParis a ete evoque le fait de mettre e
 == Logiciels exitants a regarder ==
 
   * http://www.geogebratube.org/?lang=fr
+  * django + svn. Users can be managed through Appache via LDAP (see in particular [[http://pythonhosted.org/django-auth-ldap/|django-ldap]])
