@@ -113,6 +113,7 @@ Here are some useful links:
  * Brandon Dutra (UC Davis)
  * Gregg Musiker (University of Minnesota)
  * Maria Monks (UC Berkeley)
+ * Federico Castillo (UC Davis)
 
 ==== Organizers ====
 
