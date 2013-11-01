@@ -73,9 +73,9 @@ you arrive. You can either download a version from Github, for instructions see
 
  * [[http://trac.sagemath.org/wiki/QuickStartSageGit|Instruction on how to install Git-Sage]]
 
-For people not yet familiar with Git, we recommend starting from a source distribution. You can find a version here
+For people not yet familiar with Git, we recommend starting from a source distribution. You can find version 5.13.beta1 here
 
- * [[http://boxen.math.washington.edu/home/ohanar/sage-git/sage-5.12.beta5.tar.gz | Source distribution of Git-Sage]]
+ * [[ http://boxen.math.washington.edu/home/ohanar/sage-git/sage-5.13.beta1.tar.gz | Source distribution of Git-Sage]]
 
 Just download, untar, and run make (like you do with the mercurial based source tarballs).
 
