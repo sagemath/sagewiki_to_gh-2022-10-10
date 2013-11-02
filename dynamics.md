@@ -4,7 +4,7 @@ This page is an organization wiki for the implementation in Sage of various algo
 
 == Introduction ==
 
-Different aspects of dynamical systems involves computers
+Different aspects of dynamical systems involve computers
 
   * simulation and experimentation
   * numerical algorithms seen as dynamical systems
@@ -12,13 +12,14 @@ Different aspects of dynamical systems involves computers
   * intrinsically discrete dynamics: shifts, cellular automata, ...
   * ...
 
+These wiki pages are intended for the coordination of the different programmers in Sage.
+
 == Quick links ==
 
-  * [[combinat|combinat wiki]]: the wiki page of the combinat community
-    * [[combinat/Installation|installation instructions]]: how to install sage-combinat on your computer
   * [[dynamics/examples]]: examples that are produced with the code of sage-dynamics
   * [[https://lma.metelu.net/mailman/listinfo/sage-dynamics|sage-dynamics]]:  lma.metelu.net mailing-list
   * [[http://groups.google.com/group/sage-dynamics | sage-dynamics]]: Google group (web forum + mailing list)
+  * [[combinat|combinat wiki]]: the wiki page of the combinat community (see in particular the following [[combinat/Installation|installation instructions]] for installing sage-combinat on your computer)
 
 == Organization ==
 
@@ -56,3 +57,8 @@ We plan to create a *dynamics* repository at the root of Sage subdivided accordi
   * [[dynamics/ArithmeticAndComplex|Arithmetic and Complex Dynamics]]
   * [[dynamics/FlatSurfaces]]
   * [[LanguagesAndTilings]]
+
+== Other programs == 
+
+ * [[http://homepages.math.uic.edu/~culler/chaos/|Fractal, chaos and complex dynamics]] by M. Culler and H. Masur: educational purpose software
+ * [[http://www.math.uiuc.edu/~nmd/computop/|computop.org]] references several interesting softwares, many of them written in python
