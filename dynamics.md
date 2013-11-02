@@ -12,8 +12,6 @@ Different aspects of dynamical systems involve computers
   * intrinsically discrete dynamics: shifts, cellular automata, ...
   * ...
 
-These wiki pages are intended for the coordination of the different programmers in Sage.
-
 == Quick links ==
 
   * [[dynamics/examples]]: examples that are produced with the code of sage-dynamics
@@ -23,7 +21,7 @@ These wiki pages are intended for the coordination of the different programmers 
 
 == Organization ==
 
-We plan to create a *dynamics* repository at the root of Sage subdivided according to the following hierarchy
+We plan organize the sage.dynamics repository with the following hierarchy
 
   * arithmetic_dynamics (?)
   * cellular_automata (?)
@@ -58,7 +56,7 @@ We plan to create a *dynamics* repository at the root of Sage subdivided accordi
   * [[dynamics/FlatSurfaces]]
   * [[LanguagesAndTilings]]
 
-== Other programs == 
+== Other programs ==
 
  * [[http://homepages.math.uic.edu/~culler/chaos/|Fractal, chaos and complex dynamics]] by M. Culler and H. Masur: educational purpose software
  * [[http://www.math.uiuc.edu/~nmd/computop/|computop.org]] references several interesting softwares, many of them written in python
