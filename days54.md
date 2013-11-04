@@ -42,7 +42,7 @@ The main room we will be located in is 2112 of the [[http://campusmap.ucdavis.ed
 |||||| Monday ||
 || 10:30AM || || Coffee break (in MSB 1147)||
 || 11 AM || Jeremy Martin || Eigenvalues of Simplicial Rook Graphs (in MSB 1147)||
-|| 2 PM || Dan Bump || Introduction to Git ||
+|| 2 PM || Dan Bump || [[http://sporadic.stanford.edu/bump/gittalk|Introduction to Git]] ||
 || 3 PM || || Coffee break ||
 || 4 PM || Andrew Ohana || The new workflow under Git ||
 |||||| Tuesday ||
