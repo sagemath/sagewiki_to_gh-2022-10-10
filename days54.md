@@ -116,6 +116,7 @@ Here are some useful links:
  * Gregg Musiker (University of Minnesota)
  * Maria Monks (UC Berkeley)
  * Federico Castillo (UC Davis)
+ * Monica Vazirani (UC Davis)
 
 ==== Organizers ====
 
