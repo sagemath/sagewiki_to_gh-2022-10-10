@@ -91,6 +91,8 @@ Here are some useful links:
 
  * [[http://dev.harald.schil.ly/yagt/#/|Talk on Git by Harald Schilly]]
 
+ * [[http://eagain.net/articles/git-for-computer-scientists/|Git for Computer Scientists]]
+
 
 === Location ===
 
