@@ -57,7 +57,7 @@ Coffee break at 11am and 3pm
 
 Coffee break at 11am
 
-||9:00am-10:00am||Talk: Holly Krieger||
+||9:00am-10:00am||Talk: Holly Krieger - Arithmetic of forward orbits and recurrence||
 ||10:00am-12:30pm||Project work time||
 ||12:30pm||Final Status Updates||
 
