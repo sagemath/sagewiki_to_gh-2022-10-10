@@ -93,6 +93,12 @@ Here are some useful links:
 
  * [[http://eagain.net/articles/git-for-computer-scientists/|Git for Computer Scientists]]
 
+==== Useful commands ====
+
+* git pull --ff-only origin master
+* git reset --hard origin/master
+* "sage -f -git" fixes "sage -git"
+* sage -git remove set-url origin git@trac.sagemath.org:sage.git
 
 === Location ===
 
