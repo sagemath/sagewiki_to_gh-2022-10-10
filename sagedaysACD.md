@@ -15,7 +15,7 @@ Registration is free. There is limited funding for travel and lodging. Please co
 
 The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. Conference activities will begin Thursday morning and conclude Sunday  afternoon.
 
-=== Thursday, November 7 ===
+=== Thursday, November 7 (building Quad 406) ===
 
 ||9:00am-10:00am||Welcome and Sage installation help||
 ||10:00am-11:00am||Tutorial I: Adam Towsley: Installing Sage and Patches||
@@ -28,7 +28,7 @@ The workshop will consist of tutorials and talks in the mornings and working gro
 ||4:30pm-6:00pm||Project work time||
 ||6:00pm||Status updates||
 
-=== Friday, November 8 ===
+=== Friday, November 8 (building Quad 406) ===
 
 ||9:00am-10:00am||Tutorial III: Ben Hutz: Python introduction||
 ||10:00am-11:00am||Tutorial IV: Ben Hutz:  Contributing to Sage||
@@ -40,7 +40,7 @@ The workshop will consist of tutorials and talks in the mornings and working gro
 ||3:30pm-6:00pm||Project work time||
 ||6:00pm||Status updates||
 
-=== Saturday, November 9 ===
+=== Saturday, November 9 (building Quad 405) ===
 
 Coffee break at 11am and 3pm
 
@@ -53,7 +53,7 @@ Coffee break at 11am and 3pm
 ||3:00pm-6:00pm||Project work time||
 ||6:00pm||Status updates||
 
-=== Sunday, November 10 ===
+=== Sunday, November 10 (building Quad 405) ===
 
 Coffee break at 11am
 
