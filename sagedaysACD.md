@@ -20,7 +20,7 @@ The workshop will consist of tutorials and talks in the mornings and working gro
 ||9:00am-10:00am||Welcome and Sage installation help||
 ||10:00am-11:00am||Tutorial I: Adam Towsley: Installing Sage and Patches||
 ||11:00am-11:30am||Break||
-||11:30am-12:30pm||Tutorial II: Hoa Chen: Introduction to Sage and the Notebook||
+||11:30am-12:30pm||Tutorial II: Hao Chen: Introduction to Sage and the Notebook||
 ||12:30pm-2:00pm||Lunch||
 ||2:00pm-3:00pm||Ben Hutz: The state of arith and compl dyn in Sage||
 ||3:00pm-3:30pm||Break||
