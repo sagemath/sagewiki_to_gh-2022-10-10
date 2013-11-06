@@ -52,8 +52,9 @@ The main room we will be located in is 2112 of the [[http://campusmap.ucdavis.ed
 || 4:30 PM || || Coffee break ||
 || 5:10 PM || Mike Zabrocki || [[http://garsia.math.yorku.ca/~zabrocki/talks/introsage.pdf|Introduction to Sage]] ||
 |||||| Wednesday ||
-|| 10:25 AM || Mathieu Guay-Paquet || Yield from: my favorite feature from Python 3.3 ||
 || 10:30AM || || Coffee break||
+|||||| Friday ||
+|| 10:25 AM || Mathieu Guay-Paquet || Yield from: my favorite feature from Python 3.3 ||
 
 All other time will be devoted to coding sprints. We will schedule more talks/tutorials during the week on topics that
 the participants feel would benefit them. 
