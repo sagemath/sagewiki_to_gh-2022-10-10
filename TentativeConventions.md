@@ -18,7 +18,7 @@ patch does not have the appropriate meta information.
 Here is a sample workflow on how to transform your patch to git:
 
  * First make sure that your patch has the correct meta data by exporting it.
- * Make a new branch in your local machine:
+ * Make a new branch on your local machine:
 {{{
 $ git checkout -b combinat/kschur master
 $ git branch
