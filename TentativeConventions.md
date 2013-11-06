@@ -27,6 +27,14 @@ public/combinat/mystuff
 public/combinat/10305-partition-tableaux
 }}}
 
+Consistently using these naming conventions among all (sage-combinat) developers will make it easier to search for stuff.
+For example, trying to find all branches related to combinatorics can be found as follows
+{{{
+$ git ls-remote origin *combinat*
+5feebdbfa73f64dafe28a5e4fe0144ab36083ab0	refs/heads/public/combinat/15361-branching-rules
+7f974aeb3446206c029ac047c31938d55d86e651	refs/heads/u/aschilling/combinat/kschur
+}}}
+
 = Example workflow =
 
 = Moving a ticket from patches to git =
