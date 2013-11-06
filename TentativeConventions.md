@@ -1,4 +1,24 @@
+Here are some tentative workflow and naming conventions developed at 
+
+<<TableOfContents(1)>>
+
+TODO:
+
+ 1. make sure dummy names are clear
+ 1. put links to the __new__ dev guide, etc.
+
+= Abstract =
+
+= Rationale =
+
 = First-time setup =
+
+Talk about a sample `~/.gitconfig`.
+Talk about a sample `$SAGE_ROOT/.git/config`.
+
+{{{
+git remote set-url origin git@trac.sagemath.org:sage.git
+}}}
 
 = Basic git commands =
 
@@ -81,3 +101,5 @@ kschur-as.patch
 {{{
 kschur-as.patch # git:u/aschilling/combinat/kschur
 }}}
+
+= References =
