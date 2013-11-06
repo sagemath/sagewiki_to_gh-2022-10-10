@@ -31,3 +31,15 @@ $ git branch
 * master
   ticket/15300
 }}}
+  Now make a new branch
+{{{
+$ git checkout -b combinat/kschur master
+$ git branch
+* combinat/kschur
+  master
+  ticket/15300
+}}}
+  Next import the patch from the queue
+{{{
+$ sage --dev import-patch --local-file /Applications/sage-5.13.beta2/devel/sage-combinat/.hg/patches/kschur-as.patch
+}}}
