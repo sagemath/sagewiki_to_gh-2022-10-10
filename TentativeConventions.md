@@ -4,6 +4,29 @@
 
 = Branch naming conventions =
 
+ * On your local machine you can call your branches however you like. However, it might be useful to use the
+   same names that you use on trac.
+{{{
+mystuff
+}}}
+
+ * If you are working on a branch yourself, then it is best to put your patches on trac in your personal space
+{{{
+u/aschilling/mystuff
+}}}
+
+ * If you collaborate on a branch with others or have already a ticket number, then please put your branch on the
+   public space and mark it as combinat
+{{{
+public/combinat/mystuff
+}}}
+
+ * The branch name should be descriptive. If you have a ticket number (say 10305) that should be the first part of the name.
+   The rest should describe what is in the branch, so people can easily search it
+{{{
+public/combinat/10305-partition-tableaux
+}}}
+
 = Example workflow =
 
 = Moving a ticket from patches to git =
