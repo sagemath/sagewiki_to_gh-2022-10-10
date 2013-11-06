@@ -43,3 +43,23 @@ $ git branch
 {{{
 $ sage --dev import-patch --local-file /Applications/sage-5.13.beta2/devel/sage-combinat/.hg/patches/kschur-as.patch
 }}}
+ * Next we create a branch on trac
+{{{
+$ git push --set-upstream origin combinat/kschur:u/aschilling/combinat/kschur
+Counting objects: 47, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.27 KiB | 0 bytes/s, done.
+Total 7 (delta 6), reused 0 (delta 0)
+To git@trac.sagemath.org:sage.git
+ * [new branch]      combinat/kschur -> u/aschilling/combinat/kschur
+Branch combinat/kschur set up to track remote branch u/aschilling/combinat/kschur from origin.
+}}}
+ * Mark the patch in the sage-combinat series file as moved to git by changing
+{{{
+kschur-as.patch
+}}}
+   to 
+{{{
+kschur-as.patch # git:u/aschilling/combinat/kschur
+}}}
