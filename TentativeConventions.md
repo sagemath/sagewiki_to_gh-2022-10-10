@@ -18,20 +18,7 @@ patch does not have the appropriate meta information.
 Here is a sample workflow on how to transform your patch to git:
 
  * First make sure that your patch has the correct meta data by exporting it.
- * Make a new branch in your local machine. For this it is important that you are in the master branch
-{{{
-$ git branch
-  master
-* ticket/15300
-}}}
-  To change to the master branch type
-{{{
-$ git checkout master
-$ git branch 
-* master
-  ticket/15300
-}}}
-  Now make a new branch
+ * Make a new branch in your local machine:
 {{{
 $ git checkout -b combinat/kschur master
 $ git branch
@@ -39,11 +26,11 @@ $ git branch
   master
   ticket/15300
 }}}
-  Next import the patch from the queue
+ * Next import the patch from the queue
 {{{
 $ sage --dev import-patch --local-file /Applications/sage-5.13.beta2/devel/sage-combinat/.hg/patches/kschur-as.patch
 }}}
- * Next we create a branch on trac
+ * Now we create a branch on trac
 {{{
 $ git push --set-upstream origin combinat/kschur:u/aschilling/combinat/kschur
 Counting objects: 47, done.
