@@ -5,7 +5,7 @@
 = Branch naming conventions =
 
  * On your local machine you can call your branches however you like. However, it might be useful to use the
-   same names that you use on trac.
+ same names that you use on trac.
 {{{
 mystuff
 }}}
@@ -16,13 +16,13 @@ u/aschilling/mystuff
 }}}
 
  * If you collaborate on a branch with others or have already a ticket number, then please put your branch on the
-   public space and mark it as combinat
+ public space and mark it as combinat
 {{{
 public/combinat/mystuff
 }}}
 
  * The branch name should be descriptive. If you have a ticket number (say 10305) that should be the first part of the name.
-   The rest should describe what is in the branch, so people can easily search it
+ The rest should describe what is in the branch, so people can easily search it
 {{{
 public/combinat/10305-partition-tableaux
 }}}
