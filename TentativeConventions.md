@@ -259,7 +259,7 @@ same names that you use on trac.
 
 === Naming and searching ===
 
-#searching
+<<Anchor(searching)>>
 
 The branch name should be descriptive. If you have a ticket number (say 10305) that should be the first part of the name.
 The rest should describe what is in the branch, so people can easily search it
