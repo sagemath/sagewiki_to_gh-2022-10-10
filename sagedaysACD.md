@@ -81,7 +81,7 @@ Coffee break at 11am
  
  * Eigen values - Vincent Delecroix , Ben Hutz
 
- * Is a morphism PCF - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz
+ * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz
 
  * Lattes map from an Elliptic Curve - 
 
