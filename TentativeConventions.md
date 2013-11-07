@@ -22,6 +22,17 @@ git remote set-url origin git@trac.sagemath.org:sage.git
 
 = Basic git commands =
 
+If you have a local branch on your personal computer that you would like to push to trac:
+{{{
+$ git push --set-upstream origin <mybranch>:public/combinat/<mybranch>
+}}}
+The first time you pull a branch on trac onto your local computer (in the example you are pulling a branch called 10305-partition
+and are calling it <mybranch>; usually it might be good to use the same name):
+{{{
+$ git remote update origin
+$ git checkout -b <mybranch> origin/public/ticket/10305-partition
+}}}
+
 = Branch naming conventions =
 
  * On your local machine you can call your branches however you like. However, it might be useful to use the
