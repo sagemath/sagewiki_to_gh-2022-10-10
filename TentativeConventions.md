@@ -245,7 +245,7 @@ Mark the patch in the sage-combinat series file as moved to git by changing
 {{{
 kschur-as.patch
 }}}
-   to 
+to 
 {{{
 kschur-as.patch # git:u/aschilling/combinat/kschur
 }}}
